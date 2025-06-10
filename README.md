@@ -5,7 +5,7 @@
     <span style="color:gray"><i>The 2025 ADLM Data Analytics Competition</i></span>
 </h3>
 <p>
-    The Fourth Annual ADLM Data Analytics Competition,invites innovators to revolutionize how proprietary laboratory documentation is accessed and utilized. Laboratories generate vast amounts of documentation, ranging from protocols and package inserts to regulatory materials like 510K clearance documents and checklists. These critical resources often require significant time and effort to navigate, presenting a challenge for efficient decision-making and compliance management. This year’s competition seeks to address this gap by leveraging the power of AI to create a tool capable of quickly and accurately extracting and presenting user-requested information from these complex document stores. The proposed solution would ensure that laboratory professionals can focus on impactful work rather than time-intensive document searches. By fostering innovation in this domain, the competition aims to set new standards in laboratory information management.
+    The Fourth Annual ADLM Data Analytics Competition,invites competitors to improve how laboratory documentation is accessed and utilized. Laboratories generate vast amounts of documentation, ranging from protocols and package inserts to regulatory materials like 510K clearance documents and checklists. These critical resources often require significant time and effort to navigate, presenting a challenge for efficient decision-making and compliance management. This year’s competition seeks to address this gap by leveraging the power of AI to create a tool capable of quickly and accurately extracting and presenting user-requested information from these complex document stores. The proposed solution would ensure that laboratory professionals can focus on impactful work rather than time-intensive document searches. By fostering innovation in this domain, the competition aims to set new standards in laboratory information management.
 </p>
 
 <h2> 
@@ -16,28 +16,20 @@
 </h3>
 <p>
     This year's competition aims to develop an AI tool to make looking up information in laboratory documentation faster and more efficient. 
-    Competitors will be provided with a set of representative documents (protocols, package inserts, 510K clearance documents, regulatory checklists). The challenge is to create a tool that can ingest these documents, then extract and present information from those documents at the user's request. Teams will participate in a preliminary online competition where they will be scored based on the quality and performance of their solution. The top two teams will have the opportunity to present their build in a Webinar where a champion will be crowned in a live head-to-head competition. 
+    Competitors will be provided with a set of representative documents (protocols, package inserts, 510K clearance documents, regulatory checklists). The challenge is to create a tool that can ingest these documents, then extract and present information from those documents at the user's request. Teams will participate in a preliminary competition where they will be scored based on the quality and performance of their solution. The top two teams will have the opportunity to present their build in a Webinar where a champion will be crowned in a live head-to-head competition. 
 </p>
 
 <h2>Preliminary competition and scoring</h2>
 <p>
-    Competitors will participate in an online preliminary competition. Once they are ready to be scored, they will login to a web application where they will be presented a series of questions that are answerable using the information contained in the documents provided. The time from the presentation of a question to the submission of the answer will be recorded. The teams will be scored based on the following criteria:
+   Competitors will login to a web application where they will be presented a series of questions that are answerable using the information contained in the documents provided. They will earn points based on the accuracy and speed of their answers. They will also be required to submit their code which will be scored based on the following criteria:
 </p>
-
-<h3>
-    Speed and accuracy (xx points)
-</h3>
-<p>
-    An optimal tool to enable the user to quickly and accurately answer questions that arise during routine clinical workflows. The time taken to answer each question will be measured as well as fraction of questions answered correctly.
-</p>
-<h3>Explainability (xx points)</h3>
-<p>An optimal solution would provide references or links to relevant sections the document store to improve user confidence and facilitate additional document exploration.</p>
 
 <h3>User experience (xx points)</h3>
 <p>
     An optimal tool would be intuitive and interactive, allowing users to easily navigate and interact with the tool. 
 </p>
-
+<h3>Explainability (xx points)</h3>
+<p>An optimal solution would provide references or links to relevant sections the document store to improve user confidence and facilitate additional document exploration.</p>
 <h3>
     Best  practices (xx points)
 </h3>
@@ -100,7 +92,7 @@
 <table>
     <tr>
         <th>
-            February 15<sup>th</sup>, 2024
+            July 15<sup>th</sup>, 2025
         </th>
         <td>
             Competition Begins
@@ -108,7 +100,7 @@
     </tr>
     <tr>
         <th>
-            August 1<sup>st</sup>, 2024
+            November 15<sup>st</sup>, 2025
         </th>
         <td>
             Competition Ends
@@ -116,7 +108,7 @@
     </tr>
     <tr>
         <th>
-            August 15<sup>th</sup>, 2024
+            December 15<sup>th</sup>, 2025
         </th>
         <td>
             Announcement of Winning Team
@@ -124,10 +116,10 @@
     </tr>
     <tr>
         <th>
-            September ??<sup>th</sup>, 2024 (Anticipated)
+            January, 2025 (Anticipated)
         </th>
         <td>
-            Presentation from Winning Team
+            Finalist Prentation and Competition Webinar
         </td>
     </tr>
 </table>
