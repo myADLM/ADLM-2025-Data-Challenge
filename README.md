@@ -116,7 +116,7 @@
     </tr>
     <tr>
         <th>
-            January, 2025 (Anticipated)
+            January, 2026 (Anticipated)
         </th>
         <td>
             Finalist Prentation and Competition Webinar
