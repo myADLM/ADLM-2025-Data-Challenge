@@ -12,7 +12,7 @@
     The Challenge
 </h2>
 <h3>
-    <span style="color:gray"><i>Develop an AI Tool for Extracting User Requested Information from Proprietary Laboratory Document Stores</i></span>
+    <span style="color:gray"><i>Develop a Tool for Extracting Information from Laboratory Document Stores</i></span>
 </h3>
 <p>
     This year's competition aims to develop an AI tool to make looking up information in laboratory documentation faster and more efficient. 
