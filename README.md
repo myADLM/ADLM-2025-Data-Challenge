@@ -92,7 +92,7 @@
 <table>
     <tr>
         <th>
-            July 15<sup>th</sup>, 2025
+            July 21<sup>st</sup>, 2025
         </th>
         <td>
             Competition Begins
