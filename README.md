@@ -16,170 +16,103 @@ The 2025 ADLM Data Science Challenge seeks to address this gap by leveraging the
 
 ## The Challenge
 
-### <span style="color:gray"><i>Develop a Tool for Extracting User-Requested Information from a Laboratory Document Store</i></span>
+### <span style="color:gray"><i>Develop a Tool for Extracting Information from a Laboratory Document Store</i></span>
 
-<p>
-    We want you to develop an AI tool to make looking up information in laboratory documentation faster and more efficient. 
-    We will provide a representative set of documents comprising synthetic laboratory protocols and real FDA 510K clearance documents. The tool should ingest these documents, then extract and present information from those documents at the user's request. 
-</p>
+We want you to develop an AI tool to make looking up information in laboratory documentation faster and more efficient.
+We will provide a representative set of documents. Your tool should ingest these documents and then extract and present user-requested information from those documents.
 
-<h2>Preliminary competition and scoring</h2>
-<p>
-    Teams will participate in a preliminary competition where they will be scored based on the quality and performance of their solution. Scoring is based on the following:
-</p>
+## Preliminary competition and scoring
 
-<h3>User experience (xx points)</h3>
-<p>
-    An optimal tool would be intuitive and interactive, allowing users to easily navigate and interact with the tool. 
-</p>
-<h3>Explainability (xx points)</h3>
-<p>An optimal solution would provide references or links to relevant sections the document store to improve user confidence and facilitate additional document exploration.</p>
-<h3>
-    Best  practices (xx points)
-</h3>
-<p>
-    Best practices in software development help to optimize quality, maintainability, and reusability. 
-    Note that source code and commit histories are required to be eligible for points in this section.
-</p>
-<dl>
-    <dt>
-        Readability (4 points)
-    </dt>
-    <dd>
-        Code is clearly and cleanly commented (1 point)<br>
-        Code is simple and not bloated (1 point)<br>
-        Code utilizes a clear and consistent naming convention (1 point)<br>
-        Code is organized into hierarchy of modular functional units (1 point)
-    </dd>
-    <dt>
-        Reusability (2 points)
-    </dt>
-    <dd>
-        Code utilizes functionalized or object oriented programming (1 point)<br>
-        Code can be repurposed to ingest a new document store without modification of source code (1 point)<br>
-    </dd>
-    <dt>
-        Version control (2 points)
-    </dt>
-    <dd>
-        Version control system used to track development (1 point)<br>
-        Commits are modular, logical, and appropriately scoped (1 point)
-    </dd>
-    <dt>
-        Documentation and deployment (4 points)
-    </dt>
-    <dd>
-        Usage notes provided (1 point)<br>
-        Dependencies are defined (1 point)<br>
-        Virtualized or containerized environment used (1 point)<br>
-        Tool accessible through web hosting (1 point)
-    </dd>
-</dl>
-<h2>
-    Final (live) competition
-</h2>
-<p>
-    The top two teams from the preliminary competition will be invited to present their solution in a live Webinar/competition event. The teams will be judged on the speed and accuracy of their responses to a new set of questions presented "game show style". The team with the highest score will be declared the winner.
-</p>
+Teams will participate in a preliminary competition where they will be scored based on the following:
 
-<h2>
-    Significance
-</h2>
-<p>
-    Efficient access to laboratory documentation is essential for maintaining compliance, ensuring quality, and accelerating decision-making. This challenge addresses the inefficiencies caused by the complexity and volume of such documents by leveraging AI to streamline information retrieval. The resulting tool has the potential to transform workflows, reduce errors, and set a new standard for document management in laboratory practice.
-</p>
+### Accuracy (10 points)
 
-<h2>
-    Timeline
-</h2>
+Responses to a test set of user-requests will be graded using a standardized scoring rubric.
 
-<table>
-    <tr>
-        <th>
-            July 21<sup>st</sup>, 2025
-        </th>
-        <td>
-            Competition Begins
-        </td>
-    </tr>
-    <tr>
-        <th>
-            November 15<sup>st</sup>, 2025
-        </th>
-        <td>
-            Competition Ends
-        </td>
-    </tr>
-    <tr>
-        <th>
-            December 15<sup>th</sup>, 2025
-        </th>
-        <td>
-            Announcement of Winning Team
-        </td>
-    </tr>
-    <tr>
-        <th>
-            January, 2026 (Anticipated)
-        </th>
-        <td>
-            Finalist Prentation and Competition Webinar
-        </td>
-    </tr>
-</table>
+### User experience (10 points)
 
-<h2>
-    How to Participate
-</h2>
+The tool should be intuitive and easy to navigate.
 
-<h3>
-    Sign up for a GitHub.com account
-</h3>
-<ol>
-    <li>
-        Navigate to <a href='https://github.com/'>https://github.com</a>
-    </li>
-    <li>
-        Click 'Sign up'
-    </li>
-    <li>
-        Follow the prompts to create your personal account
-    </li>
-</ol>
+### Explainability (10 points)
 
-<h3>
-    Fork the competition repository
-</h3>
-<dl>
-<ol>
-    <li>
-        Navigate to <a href='https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge'>https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge </a>
-    </li>
-    <li>
-        Click 'Fork'
-    </li>
-    <li>
-        Select 'Create a new fork'
-    </li>
-    <li>
-        Set your GitHub account as the owner (default)
-    </li>
-    <li>
-        Click 'Create fork'
-    </li>
-</ol>
+The tool should provide references or links to relevant sections in the document store to improve user confidence and facilitate document exploration.
 
-<h3>
-    Download the dataset
-</h3>
-<ol>
-    <li>
-     ZENODO....
-    </li>
-</ol>
-<h3>
-    Build your solution
-</h3>
+### Best practices (10 points)
+
+Best practices in software development help to optimize quality, maintainability, and reusability.
+Note that source code and commit histories are required to be eligible for points in this section.
+
+- Readability (4 points) - code commenting (1 pt), consistency (1 pt), modularity (1 pt), and simplicity (1 pt)
+- Reusability (2 points) - code can be repurposed to ingest a new document store
+- Version control (1 points) - version control sytem used with logical and modular commit histories (1 pt)
+- Documentation (2 points) - usage notes provided (1 pt) and dependencies defined (1 pt)
+- Deployment (1 points) - virtualized environment, containerization, and/or web hosting used (1 pt)
+
+## Final (live) competition
+
+The top two teams from the preliminary competition will be invited to present how they built their solution in a live Webinar/competition event. The teams will then compete based on the speed and accuracy of their responses to a new set of questions presented "game show style". The team with the highest score will be declared the winner.
+
+## Significance
+
+Efficient access to laboratory documentation is essential for maintaining compliance, ensuring quality, and accelerating decision-making. This challenge addresses the inefficiencies caused by the complexity and volume of such documents by leveraging AI to streamline information retrieval. The resulting tool has the potential to transform workflows, reduce errors, and set a new standard for document management in laboratory practice.
+
+## Timeline
+
+| Date                        | Event                                       |
+| --------------------------- | ------------------------------------------- |
+| July 21st, 2025             | Competition Begins                          |
+| November 15st, 2025         | Competition Ends                            |
+| December 15th, 2025         | Announcement of Winning Team                |
+| January, 2026 (Anticipated) | Finalist Prentation and Competition Webinar |
+
+## How to Participate
+
+### Sign up for a GitHub.com account
+
+1. Navigate to [https://github.com/](https://github.com/)
+2. Click **Sign up**
+3. Follow the prompts to create your personal account
+
+### Fork the competition repository
+
+1. Navigate to [https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge](https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge)
+2. Click **Fork**
+3. Select **Create a new fork**
+4. Set your GitHub account as the owner (default)
+5. Click **Create fork**
+
+### Download the dataset
+
+#### Command-line
+
+Linux / MacOS
+
+```bash
+curl -L -C - -o LabDocs.zip \
+    "https://zenodo.org/records/16328490/files/LabDocs.zip?download=1"
+
+unzip LabDocs.zip
+```
+
+Windows
+
+```bash
+curl -L -C - -o LabDocs.zip \
+    "https://zenodo.org/records/16328490/files/LabDocs.zip?download=1"
+
+tar -xf LabDocs.zip
+```
+
+#### Manual Download via Browser
+
+1.  Open this link in your browser:
+    [https://zenodo.org/records/16328490/files/LabDocs.zip?download=1](https://zenodo.org/records/16328490/files/LabDocs.zip?download=1)
+
+2.  Click **Download** (or **Save As…**) and save the file as `LabDocs.zip`.
+3.  Use one of the extraction commands above for your operating system.
+
+### Build your solution
+
 <ol>
     <li>
         Clone the forked repository<br>
@@ -224,10 +157,3 @@ The 2025 ADLM Data Science Challenge seeks to address this gap by leveraging the
 <p>
     If you are unfamiliar with GitHub, need help getting starting, or have other questions, please email mboyle@myadlm.org for assistance.
 </p>
-
-<h2>
-    Reference
-</h2>
-<ol style="line-spacing:4">
-
-</ol>
