@@ -1,29 +1,31 @@
-<img width="475" height="101" alt="image" src="https://github.com/user-attachments/assets/50d8576f-2fbd-4d3b-8ea8-2f4bfe35591f" />
+# LabDocs Unlocked
 
-<h1>
-    LabDocs Unlocked: An AI Challenge<br>
-</h1>
-<h3>
-    <span style="color:gray"><i>The 2025 ADLM Data Analytics Competition</i></span>
-</h3>
-<p>
-    The Fourth Annual ADLM Data Analytics Competition,invites competitors to improve how laboratory documentation is accessed and utilized. Laboratories generate vast amounts of documentation, ranging from protocols and package inserts to regulatory materials like 510K clearance documents and checklists. These critical resources often require significant time and effort to navigate, presenting a challenge for efficient decision-making and compliance management. This year’s competition seeks to address this gap by leveraging the power of AI to create a tool capable of quickly and accurately extracting and presenting user-requested information from these complex document stores. The proposed solution would ensure that laboratory professionals can focus on impactful work rather than time-intensive document searches. By fostering innovation in this domain, the competition aims to set new standards in laboratory information management.
-</p>
+<!-- <span>
+<img align="center" src="./www/adlm_logo.jpg" width="100" style='padding-left:50px;padding-right:50px' >
+</span> -->
 
-<h2> 
-    The Challenge
-</h2>
-<h3>
-    <span style="color:gray"><i>Develop a Tool for Extracting Information from Laboratory Document Stores</i></span>
-</h3>
+The 2025 ADLM Data Science Challenge
+
+## Introduction
+
+<img align="right" src="./www/labdocs_unlocked_logo.png" width="305" style='margin-left:20px;border-radius:20px' >
+
+Laboratories generate vast amounts of documentation, ranging from protocols and package inserts to regulatory materials like 510K clearance documents and checklists. These critical resources require significant time and effort to navigate, presenting a challenge for efficient decision-making and compliance management.
+
+The 2025 ADLM Data Science Challenge seeks to address this gap by leveraging the power of AI to create a tool capable of quickly and accurately extracting and presenting user-requested information from these complex document stores. The proposed solution would ensure that laboratory professionals can focus on impactful work rather than time-intensive document searches.
+
+## The Challenge
+
+### <span style="color:gray"><i>Develop a Tool for Extracting User-Requested Information from a Laboratory Document Store</i></span>
+
 <p>
-    This year's competition aims to develop an AI tool to make looking up information in laboratory documentation faster and more efficient. 
-    Competitors will be provided with a set of representative documents (protocols, package inserts, 510K clearance documents, regulatory checklists). The challenge is to create a tool that can ingest these documents, then extract and present information from those documents at the user's request. Teams will participate in a preliminary competition where they will be scored based on the quality and performance of their solution. The top two teams will have the opportunity to present their build in a Webinar where a champion will be crowned in a live head-to-head competition. 
+    We want you to develop an AI tool to make looking up information in laboratory documentation faster and more efficient. 
+    We will provide a representative set of documents comprising synthetic laboratory protocols and real FDA 510K clearance documents. The tool should ingest these documents, then extract and present information from those documents at the user's request. 
 </p>
 
 <h2>Preliminary competition and scoring</h2>
 <p>
-   Competitors will login to a web application where they will be presented a series of questions that are answerable using the information contained in the documents provided. They will earn points based on the accuracy and speed of their answers. They will also be required to submit their code which will be scored based on the following criteria:
+    Teams will participate in a preliminary competition where they will be scored based on the quality and performance of their solution. Scoring is based on the following:
 </p>
 
 <h3>User experience (xx points)</h3>
