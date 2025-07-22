@@ -1,3 +1,5 @@
+<img width="475" height="101" alt="image" src="https://github.com/user-attachments/assets/50d8576f-2fbd-4d3b-8ea8-2f4bfe35591f" />
+
 <h1>
     LabDocs Unlocked: An AI Challenge<br>
 </h1>
@@ -165,6 +167,14 @@
     </li>
 </ol>
 
+<h3>
+    Download the dataset
+</h3>
+<ol>
+    <li>
+     ZENODO....
+    </li>
+</ol>
 <h3>
     Build your solution
 </h3>
