@@ -1,9 +1,5 @@
 # LabDocs Unlocked
 
-<!-- <span>
-<img align="center" src="./www/adlm_logo.jpg" width="100" style='padding-left:50px;padding-right:50px' >
-</span> -->
-
 The 2025 ADLM Data Science Challenge
 
 ## Introduction
@@ -61,7 +57,7 @@ Efficient access to laboratory documentation is essential for maintaining compli
 | Date                        | Event                                       |
 | --------------------------- | ------------------------------------------- |
 | July 21st, 2025             | Competition Begins                          |
-| November 15st, 2025         | Competition Ends                            |
+| November 15th, 2025         | Competition Ends                            |
 | December 15th, 2025         | Announcement of Winning Team                |
 | January, 2026 (Anticipated) | Finalist Prentation and Competition Webinar |
 
@@ -113,47 +109,33 @@ tar -xf LabDocs.zip
 
 ### Build your solution
 
-<ol>
-    <li>
-        Clone the forked repository<br>
-        <span style='background-color:lightgray;padding:5px;border-radius:10px'>
-            git clone https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge
-        </span><br>
-        Note: Replace myGitHubUsername with your GitHub handle
-    </li>
-    <li>
-        Make a folder in the cloned repository with your team name
-    </li>
-    <li>
-        Build your solution within your team folder
-    </li>
-</ol>
+1. Clone the forked repository<br>
 
-<h3>
-    Submit your solution via a pull request
-</h3>
-<ol>
-    <li>
-        Navigate to <a href='https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge'>https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge</a><br>
-        Note: Replace myGitHubUsername with your GitHub handle
-    </li>
-    <li>
-        Click 'Contribute'
-    </li>
-    <li>
-        Select 'Open pull request'<br>
-    </li>
-    <li>
-        Click 'Create pull request'
-    </li>
-    Note: we will review your pull request to ensure that it contain everything needed to score your submission<br>
-    <u><strong>Important: You must submit your solution by May 15th, 2024 to be eligible to win the competition</strong></u>
-    </li>
-</ol>
+   ```bash
+       git clone https://github.com/myGitHubUsername/ADLM-2025-Data-Challenge.git
+   ```
 
-<h2>
-    Need Help?
-</h2>
-<p>
-    If you are unfamiliar with GitHub, need help getting starting, or have other questions, please email mboyle@myadlm.org for assistance.
-</p>
+   Note: Replace myGitHubUsername with your GitHub handle
+
+2. Make a folder in the cloned repository with your team name
+3. Build your solution within your team folder and track your development with commits to the repository
+
+### Submit your solution via a pull request
+
+1. Push your commits to the forked repository
+   ```bash
+   git push
+   ```
+2. Navigate to https://github.com/myGitHubUsername/2025_ADLM_Data_Analytics_Challenge<br>
+   Note: Replace myGitHubUsername with your GitHub handle
+3. Click 'Contribute'
+4. Select 'Open pull request'
+5. Provide a contact email in the description for your pull request
+6. Click 'Create pull request'
+
+Note: we will review your pull request to ensure that it contains everything needed to score your submission. We may contact you via your contact email, if needed. <br> <br>
+<u><strong>Important: You must submit your solution by November 15th, 2024 to be eligible to win the competition</strong></u>
+
+## Need Help?
+
+If you are unfamiliar with GitHub, need help getting starting, or have other questions, we are available to help! Please email mboyle@myadlm.org for assistance.
