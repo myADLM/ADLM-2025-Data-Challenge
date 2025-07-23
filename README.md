@@ -4,7 +4,7 @@ The 2025 ADLM Data Science Challenge
 
 ## Introduction
 
-<img align="right" src="./www/labdocs_unlocked_logo.png" width="50%" height="auto" >
+<img align="right" src="./www/labdocs_unlocked_logo.png" width="40%" height="auto" >
 
 Laboratories generate vast amounts of documentation, ranging from protocols and package inserts to regulatory materials like 510K clearance documents and checklists. These critical resources require significant time and effort to navigate, presenting a challenge for efficient decision-making and compliance management.
 
