@@ -1,6 +1,6 @@
 # LabDocs Unlocked
 
-The 2025 ADLM Data Science Challenge
+A 2025 ADLM Data Science Challenge
 
 ## Introduction
 
