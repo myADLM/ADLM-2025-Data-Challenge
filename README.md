@@ -74,7 +74,7 @@ Efficient access to laboratory documentation is essential for maintaining compli
 
 ### Fork the competition repository
 
-1. Navigate to [https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge](https://github.com/WUSM-LGM-Informatics-Section/2025_ADLM_Data_Analytics_Challenge)
+1. Navigate to [https://github.com/myADLM/ADLM-2025-Data-Challenge/](https://github.com/myADLM/ADLM-2025-Data-Challenge/)
 2. Click **Fork**
 3. Select **Create a new fork**
 4. Set your GitHub account as the owner (default)
