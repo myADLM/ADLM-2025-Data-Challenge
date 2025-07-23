@@ -134,7 +134,7 @@ tar -xf LabDocs.zip
 6. Click 'Create pull request'
 
 Note: we will review your pull request to ensure that it contains everything needed to score your submission. We may contact you via your contact email, if needed. <br> <br>
-<u><strong>Important: You must submit your solution by November 15th, 2024 to be eligible to win the competition</strong></u>
+<u><strong>Important: You must submit your solution by November 15th, 2025 to be eligible to win the competition</strong></u>
 
 ## Need Help?
 
