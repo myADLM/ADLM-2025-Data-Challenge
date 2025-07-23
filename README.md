@@ -21,30 +21,15 @@ We will provide a representative set of documents. Your tool should ingest these
 
 Teams will participate in a preliminary competition where they will be scored based on the following:
 
-### Accuracy (10 points)
+| Criterion       | Points | Description |
+| --------------- | ------ | ----------------------------|
+| Accuracy        | 10     | Responses to a test set of user‑requests will be graded using a standardized scoring rubric.  |
+| User experience | 10     | The tool and its output should be intuitive and easy to navigate.  |
+| Explainability  | 10     | The tool should provide references or links to relevant sections in the document store.  |
+| Best practices  | 10     | Coding: <ul><li>Comments</li><li>Modularity</li><li>Reusability (e.g. can ingest new document store)</li> <li>Version control (logical commit histories)</li> </ul> Deployment <ul><li>Usage notes provided</li><li>Dependencies defined</li><li>Virtualization, containerization, or web hosting</li></ul>|
 
-Responses to a test set of user-requests will be graded using a standardized scoring rubric.
-
-### User experience (10 points)
-
-The tool should be intuitive and easy to navigate.
-
-### Explainability (10 points)
-
-The tool should provide references or links to relevant sections in the document store to improve user confidence and facilitate document exploration.
-
-### Best practices (10 points)
-
-Best practices in software development help to optimize quality, maintainability, and reusability.
-
->[!note]
-> Source code and commit histories are required to be eligible for points in this section.
-
-- Readability (4 points) - code commenting (1 pt), consistency (1 pt), modularity (1 pt), and simplicity (1 pt)
-- Reusability (2 points) - code can be repurposed to ingest a new document store
-- Version control (1 points) - version control sytem used with logical and modular commit histories (1 pt)
-- Documentation (2 points) - usage notes provided (1 pt) and dependencies defined (1 pt)
-- Deployment (1 points) - virtualized environment, containerization, and/or web hosting used (1 pt)
+> [!note]
+> Source code and commit histories are required to receive best practices points
 
 ## Final (Live) Competition
 
