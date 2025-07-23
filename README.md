@@ -98,8 +98,7 @@ tar -xf LabDocs.zip
 #### Manual Download via Browser
 
 1.  Open this link in your browser:
-    [https://zenodo.org/records/16328490/files/LabDocs.zip?download=1](https://zenodo.org/records/16328490/files/LabDocs.zip?download=1)
-
+    [https://zenodo.org/records/16328490](https://zenodo.org/records/16328490)
 2.  Click **Download** (or **Save As…**) and save the file as `LabDocs.zip`.
 3.  Use your operating system’s built-in extraction tool or one of the command-line method above.
 
