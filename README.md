@@ -17,7 +17,7 @@ The 2025 ADLM Data Science Challenge seeks to address this gap by leveraging the
 We want you to develop an AI tool to make looking up information in laboratory documentation faster and more efficient.
 We will provide a representative set of documents. Your tool should ingest these documents and then extract and present user-requested information from those documents.
 
-## Preliminary competition and scoring
+## Preliminary Competition and Scoring
 
 Teams will participate in a preliminary competition where they will be scored based on the following:
 
@@ -46,7 +46,7 @@ Best practices in software development help to optimize quality, maintainability
 - Documentation (2 points) - usage notes provided (1 pt) and dependencies defined (1 pt)
 - Deployment (1 points) - virtualized environment, containerization, and/or web hosting used (1 pt)
 
-## Final (live) competition
+## Final (Live) Competition
 
 The top two teams from the preliminary competition will be invited to present how they built their solution in a live Webinar/competition event. The teams will then compete based on the speed and accuracy of their responses to a new set of questions presented "game show style". The team with the highest score will be declared the winner.
 
