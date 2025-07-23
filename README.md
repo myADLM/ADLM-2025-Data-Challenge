@@ -64,7 +64,7 @@ Efficient access to laboratory documentation is essential for maintaining compli
 ## How to Participate
 
 > [!note]
-> If GitHub or any of the instruction below are unfamiliar to you, please reach out to us using the contact information at the bottom of this page. We will help you get set up to participate.
+> If GitHub or any of the instructions below are unfamiliar to you, please reach out to us using the contact information at the bottom of this page. We will help you get set up to participate.
 
 ### Sign up for a GitHub.com account
 
