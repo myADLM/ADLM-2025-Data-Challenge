@@ -33,7 +33,7 @@ Teams will participate in a preliminary competition where they will be scored ba
 
 ## Final (Live) Competition
 
-The top two teams from the preliminary competition will be invited to present how they built their solution in a live Webinar/competition event. The teams will then compete based on the speed and accuracy of their responses to a new set of questions presented "game show style". The team with the highest score will be declared the winner.
+The top two teams from the preliminary competition will be invited to present how they built their solution in a live Webinar/competition event. The teams will then compete based on the speed and accuracy of their responses to a new set of questions presented "game show style." The team with the highest score will be declared the winner.
 
 ## Significance
 
@@ -101,7 +101,7 @@ tar -xf LabDocs.zip
     [https://zenodo.org/records/16328490/files/LabDocs.zip?download=1](https://zenodo.org/records/16328490/files/LabDocs.zip?download=1)
 
 2.  Click **Download** (or **Save As…**) and save the file as `LabDocs.zip`.
-3.  Use one of the extraction commands above for your operating system.
+3.  Use your operating system’s built-in extraction tool or one of the command-line method above.
 
 ### Build your solution
 
