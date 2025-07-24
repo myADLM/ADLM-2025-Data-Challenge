@@ -1,8 +1,8 @@
 # LabDocs Unlocked
 
-The 2025 ADLM Data Science Challenge
+<img align="center" src="./www/adlm_logo.png" width="100%" height="auto" style='margin-bottom:10px'>
 
-<img align="center" src="./www/adlm_logo.png" width="100%" height="auto" >
+The 2025 ADLM Data Science Challenge
 
 ## Introduction
 
@@ -15,6 +15,8 @@ The 2025 ADLM Data Science Challenge seeks to address this gap by leveraging the
 ## The Challenge
 
 ### <span style="color:gray"><i>Develop a Tool for Extracting Information from a Laboratory Document Store</i></span>
+
+<img align="center" src="./www/labdocs_graphical_abstract.png" width="100%" height="auto" style='margin-bottom:10px'>
 
 We want you to develop an AI tool to make looking up information in laboratory documentation faster and more efficient.
 We will provide a representative set of documents. Your tool should ingest these documents and then extract and present user-requested information from those documents.
