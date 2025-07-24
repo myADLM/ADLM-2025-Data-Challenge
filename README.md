@@ -1,8 +1,10 @@
 # LabDocs Unlocked
 
+<img align="center" src="./www/adlm_logo.png" width="50%" height="auto" >
+
 The 2025 ADLM Data Science Challenge
 
-<img align="center" src="./www/adlm_logo.png" width="100%" height="auto" >
+
 
 ## Introduction
 
