@@ -43,7 +43,7 @@ Efficient access to laboratory documentation is essential for maintaining compli
 
 | Date                        | Event                                       |
 | --------------------------- | ------------------------------------------- |
-| July 21st, 2025             | Competition Begins                          |
+| July 25st, 2025             | Competition Begins                          |
 | November 15th, 2025         | Preliminary Competition Ends                |
 | December 15th, 2025         | Announcement of Finalists                |
 | January, 2026 (Anticipated) | Finalists Presentations Webinar and Live Competition |
