@@ -15,6 +15,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.2] - 2025-08-07
+### Added
+- Create app.py and rag_engine.py.
+
+### Changed
+- Update CHANGELOG and README.
+
 ## [0.1.1] - 2025-08-06
 ### Added
 - Create Readme and Changelog.
