@@ -18,3 +18,17 @@ This file handles the frontend user interface using Streamlit. It provides a tex
 
 rag_engine.py
 This file contains the core backend logic. Such as loads PDF documents, splits them into chunks, generates embeddings, etc.
+
+Current Progress:
+Initial Streamlit UI and RAG backend implemented
+
+Supports recursive PDF loading (multi-folder)
+
+Documents are split into chunks and embedded using sentence-transformers
+
+FAISS vector store is built for retrieval
+
+Added multithreading for faster PDF loading
+
+Added console logging to assist with debugging and verification
+

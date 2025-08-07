@@ -9,17 +9,32 @@ st.title("AI tool name holder")
 
 @st.cache_resource
 def setup_qa():
-	docs = load_documents_from_folder("data/LabDocs")
-	chunks = split_documents(docs)
-	vectordb = embed_documents(chunks)
+    docs = load_documents_from_folder("data/LabDocs", None)
+    print(f"Loaded {len(docs)} documents from folder")
 
-	llm = Ollama(model="deepseek-coder")
-	qa_chain = RetrievalQA.from_chain_type(
-		llm=llm,
-		retriever=vectordb.as_retriever(),
-		return_source_documents=True
-	)
-	return qa_chain
+    if docs:
+        print("Sample doc content:", docs[0].page_content[:100])
+    else:
+        print("No documents loaded")
+
+    chunks = split_documents(docs)
+    print(f"Split into {len(chunks)} chunks")
+
+    if chunks:
+        print("Sample chunk:", chunks[0].page_content[:100])  
+    else:
+        print("No chunks created")
+
+    vectordb = embed_documents(chunks)
+    
+    llm = Ollama(model="deepseek-coder")
+    qa_chain = RetrievalQA.from_chain_type(
+        llm=llm,
+        retriever=vectordb.as_retriever(),
+        return_source_documents=True
+    )
+
+    return qa_chain
 
 qa = setup_qa()
 
@@ -32,6 +47,6 @@ if query:
 		st.write(result["result"])
 
 		st.write("***sourses***")
-		for doc in result["Source_documents"]:
+		for doc in result["source_documents"]:
 			st.markdown(f"***FILENAME:*** {doc.metadata.get('source')}")
 			st.write(doc.page_content[:500]+"...")

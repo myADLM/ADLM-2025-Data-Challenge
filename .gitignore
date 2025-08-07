@@ -1,3 +1,10 @@
 # data file extensions
 *.zip
 *.pdf
+
+
+#pycache file
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
