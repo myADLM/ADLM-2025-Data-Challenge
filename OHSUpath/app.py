@@ -1,11 +1,15 @@
-#app.py
+# app.py
 
-import streamlit as st 
-from langchain.chains import RetrievalQA 
-from langchain_community.llms import Ollama 
+import streamlit as st
+import numpy as np
+from langchain.chains import RetrievalQA
+from langchain_community.llms import Ollama
 from rag_engine import load_documents_from_folder, split_documents, embed_documents
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 st.title("AI tool name holder")
+
 
 @st.cache_resource
 def setup_qa():
@@ -16,37 +20,30 @@ def setup_qa():
         print("Sample doc content:", docs[0].page_content[:100])
     else:
         print("No documents loaded")
-
     chunks = split_documents(docs)
-    print(f"Split into {len(chunks)} chunks")
-
-    if chunks:
-        print("Sample chunk:", chunks[0].page_content[:100])  
-    else:
-        print("No chunks created")
-
     vectordb = embed_documents(chunks)
-    
-    llm = Ollama(model="deepseek-coder")
-    qa_chain = RetrievalQA.from_chain_type(
-        llm=llm,
-        retriever=vectordb.as_retriever(),
-        return_source_documents=True
+    retriever = vectordb.as_retriever(search_type="similarity", search_kwargs={"k": 4})
+    llm = Ollama(model="deepseek-r1-8b-int8")
+    qa = RetrievalQA.from_chain_type(
+        llm=llm, chain_type="stuff", retriever=retriever, return_source_documents=True
     )
 
-    return qa_chain
+    return qa
+
 
 qa = setup_qa()
 
 query = st.text_input("***Enter your question***")
 
 if query:
-	with st.spinner("analysing..."):
-		result = qa({"query":query})
-		st.write("***Answer***")
-		st.write(result["result"])
+    with st.spinner("analysing..."):
 
-		st.write("***sourses***")
-		for doc in result["source_documents"]:
-			st.markdown(f"***FILENAME:*** {doc.metadata.get('source')}")
-			st.write(doc.page_content[:500]+"...")
+        result = qa.invoke({"query": query})
+
+        st.write("***Answer***")
+        st.write(result["result"])
+
+        st.write("***sources***")
+        for doc in result["source_documents"]:
+            st.markdown(f"***FILENAME:*** {doc.metadata.get('source')}")
+            st.write(doc.page_content[:500] + "...")
