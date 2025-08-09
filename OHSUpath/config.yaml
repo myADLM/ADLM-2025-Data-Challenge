@@ -1,2 +1,108 @@
 # config.yaml
-# Placeholder for upcoming adjustments
+
+# =============================================================
+#      USER CONFIGURATION FILE
+#
+#  WHO CAN EDIT THIS FILE:
+#      Anyone who needs to change program behavior
+#      Do NOT edit config.py for normal changes
+#
+#  DEVELOPERS:
+#      - Only edit config.py if adding new parameters or changing defaults
+#
+#  HOW SETTINGS ARE USED:
+#      1. Start with the settings stored in config.py (default values).
+#      2. Replace them with the settings stored in THIS file (config.yaml).
+#      3. If the same setting exists in environment variables,
+#         USE THE SETTING STORED IN the environment variables (highest priority).
+#
+#  RESULT (priority order):
+#      Environment variables (running in code) > THIS FILE (config.yaml) > defaults in config.py
+#
+#  ABOUT USE_YAML_CONFIG (defined in app.py):
+#      - True  → Environment vars > THIS FILE (config.yaml) > defaults in config.py
+#      - False → Environment vars > defaults in config.py   (YAML file is ignored)
+##
+#  EXAMPLES when USE_YAML_CONFIG = True:
+#      Example 1:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:              1
+#          → Program will use:   1  (from environment variables)
+#
+#      Example 2:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:            (none)
+#          → Program will use:   2  (from config.yaml)
+#
+#  EXAMPLES when USE_YAML_CONFIG = False:
+#      Example 3:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:              1
+#          → Program will use:   1  (from environment variables)
+#
+#      Example 4:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:            (none)
+#          → Program will use:   3  (from config.py)
+# =============================================================
+
+paths:
+  # Folder where your source PDF documents are stored
+  data_dir: "data/LabDocs"
+  allowed_extensions: [".pdf"]      # which files to ingest
+  pdf_text_mode: "text"             # "text" | "blocks" | "html"
+
+runtime:
+  # Minimum number of worker threads to use when processing data
+  min_threads: 8
+  # Number of threads to keep free for other processes or the OS
+  reserve_threads: 2
+  max_workers: null                 # null = auto decide
+  # Device for computation:
+  #   "cuda" = NVIDIA GPU (recommended if available)
+  #   "cpu"  = standard processor
+  device: "cuda"
+
+split:
+  # Approximate number of characters per text chunk
+  chunk_size: 1200
+  # Overlap between consecutive chunks (in characters) to preserve context
+  chunk_overlap: 200
+  min_chars_per_page: 1             # drop pages shorter than this (after strip)
+
+
+embedding:
+  # Name of the embedding model to convert text into numeric vectors
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  # Dimensionality of the embedding vectors.
+  # WARNING: Must match the model. Changing this will break compatibility.
+  embedding_dim: 384
+  batch_size: 64                    # batch size for embedding
+  faiss_metric: "l2"                # "l2" or "ip"
+
+retriever:
+  # Retrieval strategy:
+  #   "similarity" = find chunks most similar to the query
+  search_type: "similarity"
+  # Number of results (chunks) to retrieve for each query
+  k: 4
+
+llm:
+  # Large Language Model provider. "ollama" requires Ollama installed locally.
+  provider: "ollama"
+  # Name of the model to use from the provider
+  model: "deepseek-r1-8b-int8"
+  chain_type: "stuff"
+  base_url: "http://localhost:11434"
+  params: {}                        # e.g. {"temperature": 0.1}
+
+app:
+  title: "AI tool name holder"
+  page_title: "AI tool name holder"
+  ui:
+    input_label: "***Enter your question***"
+    spinner_text: "analysing..."

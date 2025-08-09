@@ -28,6 +28,33 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.5] - 2025-08-08
+### Added
+- **Centralized configuration management** via `config.py` (default developer values) and `config.yaml` (user-editable values).  
+- Added support for **environment variable overrides** with `CONFIG__section__field=value` format, enabling easy deployment in VM/Docker.  
+- Added `USE_YAML_CONFIG` toggle in `app.py` to switch between YAML+env or env-only configuration modes.  
+- New YAML fields for:  
+  - PDF ingestion (`paths.allowed_extensions`, `paths.pdf_text_mode`)  
+  - Runtime tuning (`min_threads`, `reserve_threads`, `max_workers`, `device`)  
+  - Chunk splitting parameters (`chunk_size`, `chunk_overlap`, `min_chars_per_page`)  
+  - Embedding and FAISS settings (`model_name`, `embedding_dim`, `batch_size`, `faiss_metric`)  
+  - LLM configuration (`provider`, `model`, `chain_type`, `base_url`, `params`)  
+  - UI customization (`title`, `page_title`, `input_label`, `spinner_text`)  
+
+### Changed
+- Refactored `app.py` and `rag_engine.py` to **read all settings from `Config` object**, eliminating hardcoded values.  
+- PDF loading now uses `cfg.paths.pdf_text_mode` and skips pages below `cfg.split.min_chars_per_page`.  
+- File scanning now filters by `cfg.paths.allowed_extensions` instead of fixed `.pdf`.  
+- Thread pool sizing now respects `cfg.runtime.max_workers` and `cfg.runtime.reserve_threads`.  
+- LLM initialization now reads provider/model/params dynamically from config instead of fixed Ollama model.  
+- Streamlit UI elements (page title, input prompt, spinner text) now come from config.  
+
+### Fixed
+- Updated `InMemoryDocstore` import to `langchain_community.docstore.in_memory` for compatibility with newer LangChain versions.  
+- Prevented CUDA errors by falling back to CPU automatically when `cfg.runtime.device` requests GPU but it's unavailable.  
+- Avoided loading empty pages by stripping text and checking minimum length before adding to `Document` list.  
+
+
 ## [0.1.4] - 2025-08-08
 ### Added
 - Added support for `.invoke()` method in `RetrievalQA`, replacing deprecated `__call__`.

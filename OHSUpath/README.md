@@ -19,6 +19,13 @@ This file handles the frontend user interface using Streamlit. It provides a tex
 rag_engine.py
 This file contains the core backend logic. Such as loads PDF documents, splits them into chunks, generates embeddings, etc.
 
+config.py
+This file stores default configuration values for developers to manage directly in the code.
+
+config.yaml
+This file stores configuration values in an editable file — especially useful when running on a virtual machine or in Docker.
+
+
 Current Progress:
 Initial Streamlit UI and RAG backend implemented
 
@@ -31,4 +38,8 @@ FAISS vector store is built for retrieval
 Added multithreading for faster PDF loading
 
 Added console logging to assist with debugging and verification
+
+Added configuration files for easier management
+
+
 
