@@ -7,10 +7,8 @@ All notable changes to this project will be documented in this file.
 ## Ideas for new features
 - Currently can not fully work offline, make the whole pipeline fully offline.  
 - Add conversation-like feature so AI can read previous conversations to better understand user's need.  
-- Put all the configurations in one file so it's easier to manage and adjust, such as AI model address, database address, etc.  
-- Have both `config.py` and `config.yaml`: `config.py` for local test and debug, `config.yaml` for deployment in VM, Docker, etc.  
 - Add a button for users to choose which model they want to use.  
-- Adjust the log in terminal to be more friendly for debugging, and make a progress bar on frontend UI to help users understand the current stage.  
+- Make a progress bar on frontend UI to help users understand the current stage.  
 - When adding or deleting PDFs from the database, avoid reinitializing the entire model if possible.  
 - After finishing initialization (load, split, embed, etc.), save the result locally so that it can be reused next time without reprocessing.  
 - **Important:** Add limiter to pdf preload to avoid memory overflow.
@@ -27,6 +25,22 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.1.6] - 2025-08-10
+### Added
+- **PDF page-level progress bar** in Terminal: pre-count total pages across all PDFs and update as each page is loaded.  
+- Pre-count total pages for more accurate load time estimation.  
+
+### Changed
+- Migrated Ollama integration from `langchain_community.llms.Ollama` to `langchain-ollama`'s `OllamaLLM`.  
+- Migrated embeddings import from `langchain_community.embeddings` to `langchain-huggingface`'s `HuggingFaceEmbeddings`.  
+- Improved Terminal logging format for document loading, splitting, and embedding steps.  
+- Reduced verbose per-page printouts in favor of cleaner progress display.  
+
+### Fixed
+- Corrected some typos in docstrings and log messages.  
+- Removed some unused imports and variables from `app.py` and `rag_engine.py`.  
+
 
 ## [0.1.5] - 2025-08-08
 ### Added

@@ -77,7 +77,7 @@ class AppCfg:
 @dataclass
 class PathsCfg:
     # Locations of important files and directories
-    data_dir: str = "data/LabDocs"  # Directory containing the source PDF documents
+    data_dir: str = "minidata/LabDocs"  # Set to minidata folder for faster initialization
     allowed_extensions: List[str] = field(default_factory=lambda: [".pdf"])
     pdf_text_mode: str = "text"  # "text" | "blocks" | "html"
 

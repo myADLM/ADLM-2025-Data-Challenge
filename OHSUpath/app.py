@@ -5,10 +5,10 @@ import streamlit as st
 import numpy as np
 from pathlib import Path
 from langchain.chains import RetrievalQA
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
 from rag_engine import load_documents_from_folder, split_documents, embed_documents
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from config import load_config
 
 # ------------------------------------------------------------
@@ -59,7 +59,7 @@ def setup_qa(_cfg):
     )
 
     if _cfg.llm.provider.lower() == "ollama":
-        llm = Ollama(
+        llm = OllamaLLM(
             model=_cfg.llm.model, base_url=_cfg.llm.base_url, **(_cfg.llm.params or {})
         )
     else:
