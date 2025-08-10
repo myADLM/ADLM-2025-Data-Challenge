@@ -3,6 +3,17 @@ Here is the README file for Team OHSUpath.
 The File CHANGELOG.md will contain information about feature update.
 
 
+pip commaned for install necessary packages:
+pip install streamlit langchain langchain-community langchain-huggingface langchain-ollama pypdf faiss-cpu sentence-transformers PyMuPDF InstructorEmbedding torch pyyaml numpy
+
+Start app command:
+streamlit run app.py
+
+Run it based under this address:
+ADLM-2025-Data-Challenge\OHSUpath
+
+
+
 The 1-use-GCR-pipeline branch is intended to achieve the goal by using the "Gather → Cite → Respond" (GCR) pipeline.
 
 It is planned to leverage two open-source models: deepseek-r1-8b-int8 (a large language model) and all-MiniLM-L6-v2 (a sentence-transformer). We plan to upgrade to Instructor-XL, which is also a sentence transformer but offers higher retrieval precision. The sentence-transformer will retrieves relevant information from the database based on the user's query and passes it to the LLM. The LLM is expected to reorganize the information into a more user-friendly format and presents it to the user.
