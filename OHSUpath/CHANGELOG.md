@@ -26,6 +26,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.8] - 2025-08-10
+### Added
+- Add file placeholders for modular rag
+
+
 ## [0.1.7] - 2025-08-10
 ### Stable version release
 - First stable end-to-end release: the full load → split → embed → index → retrieve → answer pipeline now runs reliably with stage-wise progress. This milestone consolidates the 0.1.4–0.1.6 improvements (PyMuPDF parsing, FAISS indexing, centralized config, and page-level progress) into a one-click, predictable startup.
