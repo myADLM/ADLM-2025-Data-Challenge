@@ -26,6 +26,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.10] - 2025-08-11
+### Added
+- Core dataclasses and Protocol interfaces in `rag/types.py` for RAG components.
+
+
 ## [0.1.9] - 2025-08-10
 ### Added
 - Offline-first support: embedding model is now loaded from a **local folder path** (default configuration updated accordingly).

@@ -23,3 +23,6 @@ data/**
 minidata/**
 !minidata/**/
 !minidata/**/.gitkeep
+
+# data folder. Use to test files in rag folder
+OHSUpath/rag/tests/**
