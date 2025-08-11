@@ -103,16 +103,28 @@ class SplitCfg:
 
 
 
+# Setting for the old sentence transformer all-MiniLM-L6-v2
 @dataclass
 class EmbeddingCfg:
     # Parameters for text embedding model
     model_name: str = (
-        "sentence-transformers/all-MiniLM-L6-v2"  # Name of the embedding model
+        "./models/all-MiniLM-L6-v2"  # Name of the embedding model
     )
     embedding_dim: int = 384  # Size of the embedding vector (must match the model)
     batch_size: int = 64
     faiss_metric: str = "l2"  # "l2" or "ip"
 
+
+# Setting for the new sentence transformer InstructorXL
+# @dataclass
+# class EmbeddingCfg:
+#     # Parameters for text embedding model
+#     model_name: str = (
+#         "./models/InstructorXL"  # Name of the embedding model
+#     )
+#     embedding_dim: int = 768  # Size of the embedding vector (must match the model)
+#     batch_size: int = 64
+#     faiss_metric: str = "l2"  # "l2" or "ip"
 
 
 @dataclass

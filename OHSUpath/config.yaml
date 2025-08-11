@@ -75,14 +75,26 @@ split:
   min_chars_per_page: 1             # drop pages shorter than this (after strip)
 
 
+  # Setting for the old sentence transformer all-MiniLM-L6-v2
 embedding:
   # Name of the embedding model to convert text into numeric vectors
-  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  model_name: "./models/all-MiniLM-L6-v2"
   # Dimensionality of the embedding vectors.
   # WARNING: Must match the model. Changing this will break compatibility.
   embedding_dim: 384
   batch_size: 64                    # batch size for embedding
   faiss_metric: "l2"                # "l2" or "ip"
+
+    
+  # Setting for the new sentence transformer InstructorXL
+# embedding:
+#   # Name of the embedding model to convert text into numeric vectors
+#   model_name: "./models/InstructorXL"
+#   # Dimensionality of the embedding vectors.
+#   # WARNING: Must match the model. Changing this will break compatibility.
+#   embedding_dim: 768
+#   batch_size: 64                    # batch size for embedding
+#   faiss_metric: "l2"                # "l2" or "ip"
 
 retriever:
   # Retrieval strategy:

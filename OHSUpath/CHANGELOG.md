@@ -26,6 +26,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.9] - 2025-08-10
+### Added
+- Offline-first support: embedding model is now loaded from a **local folder path** (default configuration updated accordingly).
+- Directory placeholders: added `.gitkeep` files in `models/`, `data/`, and `minidata/` to preserve directory structure without committing large files.
+
+### Changed
+- Default embedding model reverted from **`InstructorXL`** back to **`all-MiniLM-L6-v2`** after performance testing showed `InstructorXL` was significantly slower in local runs. `InstructorXL` remains available but is now commented out in the config for optional use.
+- Default `embedding.model_name` updated from HF model ID (`sentence-transformers/all-MiniLM-L6-v2`) to a **local path** (`./models/all-MiniLM-L6-v2`) to avoid network calls.
+
+### Fixed
+- Fixed YAML config typo: moved `embedding` section to top level to ensure proper offline loading.
+- Prevented unintended Hugging Face Hub calls in offline mode by using local paths instead of model IDs.
+- Ensured required empty directories are tracked via `.gitkeep` files, avoiding missing folders in fresh clones.
+
+
 ## [0.1.8] - 2025-08-10
 ### Added
 - Add file placeholders for modular rag
