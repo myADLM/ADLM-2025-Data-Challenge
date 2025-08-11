@@ -26,6 +26,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.12] - 2025-08-11
+### Added
+- Filesystem layout helpers `FsLayout` and `ensure_dirs` in `rag/storage/fs_paths.py`.
+
+
 ## [0.1.11] - 2025-08-11
 ### Added
 - SHA-256 helpers `sha256_bytes` and `sha256_str` in `rag/hashing.py`.
