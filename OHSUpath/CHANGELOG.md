@@ -26,6 +26,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.19] - 2025-08-12
+### Added
+- Added `rag/cache/embed_cache.py` for SQLite-based embedding cache with configurable PRAGMA settings.
+
+
 ## [0.1.18] - 2025-08-12
 ### Added
 - Added `sqlite` config section (`journal_mode`, `busy_timeout_ms`, `synchronous`, `connect_timeout_s`) to tune SQLite behavior via YAML/env.
