@@ -26,6 +26,26 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.17] - 2025-08-12
+### Added
+- **manifest_sqlite** (`rag/manifest_sqlite.py`):
+  - Implemented `_conn()` context manager to initialize SQLite manifest database with schema creation and WAL mode.
+  - Added `load_all()` to retrieve all file metadata as `dict[str, FileMeta]`.
+  - Added `save_bulk()` to overwrite manifest contents in bulk with transaction safety.
+
+### Changed
+- **manifest_sqlite**:
+  - `_conn()`:
+    - Now supports `str` and `os.PathLike` paths (e.g., `Path`, `FsLayout.manifest_db`).
+    - Automatically creates parent directory if it does not exist; handles bare filenames without error.
+    - Executes `PRAGMA journal_mode=WAL;` for concurrent read/write performance.
+    - Executes `PRAGMA busy_timeout=30000;` (30 seconds) to wait for locks before failing.
+    - Executes `PRAGMA synchronous=NORMAL;` to improve write performance while keeping durability trade-off acceptable.
+  - `save_bulk()`:
+    - Starts with `BEGIN IMMEDIATE` to acquire a write lock early and fail fast if unavailable.
+    - Wraps operations in an explicit transaction with rollback on error.
+
+
 ## [0.1.16] - 2025-08-12
 ### Changed
 - **types**:
