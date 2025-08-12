@@ -26,6 +26,25 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.13] - 2025-08-12
+### Added
+- **Atomic file write helper** `atomic_write_text` in `rag/storage/fs_paths.py`  
+  - Writes to a temporary file and atomically replaces the target.  
+  - Supports `preserve_mode=True` to keep original file permissions, including Windows read-only attributes.  
+  - Cleans up temporary files on any error.  
+  - Handles cross-device writes by falling back to the target directory when necessary.  
+  - Ensures durability by syncing both file and containing directory.
+- **Cross-platform interprocess locking** via `interprocess_lock` in `rag/storage/fs_paths.py`  
+  - Uses `fcntl.flock` on POSIX and `msvcrt.locking` on Windows.  
+  - Raises `RuntimeError` on lock acquisition failure.  
+  - Guarantees exclusive file locking between processes.
+
+### Changed
+- `FsLayout.from_base` now expands `~` to the user home directory and accepts `os.PathLike` objects in addition to strings.
+- **Locking behavior is now stricter:** on both POSIX and Windows, failure to acquire a lock will raise a `RuntimeError` immediately rather than silently continuing without locking.
+
+
+
 ## [0.1.12] - 2025-08-11
 ### Added
 - Filesystem layout helpers `FsLayout` and `ensure_dirs` in `rag/storage/fs_paths.py`.
