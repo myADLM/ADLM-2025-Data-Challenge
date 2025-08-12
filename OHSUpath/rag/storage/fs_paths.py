@@ -91,14 +91,24 @@ def interprocess_lock(
                     raise RuntimeError(f"failed to acquire windows lock: {e}") from e
         else:
             try:
-                import fcntl
+                import fcntl, errno as _errno, time as _time
             except ImportError:
                 fcntl = None
             if fcntl is not None:
-                try:
-                    fcntl.flock(fd, fcntl.LOCK_EX)
-                except OSError as e:
-                    raise RuntimeError(f"failed to acquire posix lock: {e}") from e
+                deadline = _time.monotonic() + float(timeout_s)
+                delay = float(backoff_initial_s)
+                while True:
+                    try:
+                        fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                        break
+                    except OSError as e:
+                        if e.errno in (_errno.EAGAIN, _errno.EACCES):
+                            if _time.monotonic() >= deadline:
+                                raise RuntimeError("failed to acquire posix lock (timeout)") from e
+                            _time.sleep(delay)
+                            delay = min(delay * 2, float(backoff_max_s))
+                            continue
+                        raise RuntimeError(f"failed to acquire posix lock: {e}") from e
         yield
     finally:
         try:

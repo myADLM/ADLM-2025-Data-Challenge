@@ -13,7 +13,6 @@ from typing import Any, Iterable, Optional
 
 from .fs_paths import FsLayout, ensure_dirs, interprocess_lock
 
-
 _CFG = None
 
 
@@ -48,6 +47,21 @@ def _append_line_atomic(path: Path, line: str, *, fsync: bool = True) -> None:
     finally:
         os.close(fd)
 
+def _fsync_dir(path: Path) -> None:
+    try:
+        flags = os.O_RDONLY
+        if hasattr(os, "O_DIRECTORY"):
+            flags |= os.O_DIRECTORY
+        fd = os.open(os.fspath(path), flags)
+        try:
+            os.fsync(fd)
+        finally:
+            os.close(fd)
+    except Exception:
+        pass
+
+
+
 
 def journal_append(
     layout: FsLayout,
@@ -79,29 +93,30 @@ def journal_append(
 
     ensure_dirs(layout)
     p = Path(layout.journal_log).expanduser()
+    p.parent.mkdir(parents=True, exist_ok=True)
 
-    thr = threading.current_thread()
     try:
         tid_native = threading.get_native_id()
     except Exception:
         tid_native = threading.get_ident()
+    thr = threading.current_thread()
     rec = {
         "ts": float(ts if ts is not None else time.time()),
         "event": event,
         "data": _to_jsonable(data or {}),
         "host": socket.gethostname(),
         "pid": os.getpid(),
-        "tid": threading.current_thread().name,
+        "tid": threading.get_ident(),
         "tid_native": tid_native,
-        "tid_name": threading.current_thread().name,
+        "tid_name": thr.name,
     }
 
     separators = (",", ":") if compact else None
-    line = json.dumps(rec, ensure_ascii=False, separators=separators) + "\n"
+    line = json.dumps(rec, ensure_ascii=False, separators=separators, default=str) + "\n"
 
     if max_record_bytes is not None and len(line.encode("utf-8")) > max_record_bytes:
         rec["data"] = {"_truncated": True}
-        line = json.dumps(rec, ensure_ascii=False, separators=separators) + "\n"
+        line = json.dumps(rec, ensure_ascii=False, separators=separators, default=str) + "\n"
 
     if lock:
         with interprocess_lock(
@@ -149,6 +164,8 @@ def rotate_journal(
         max_bytes = cfg.journal.rotate_max_bytes
     if keep is None:
         keep = cfg.journal.rotate_keep
+    if keep < 1:
+        keep = 1
 
     p = Path(layout.journal_log).expanduser()
     if not p.exists() or p.stat().st_size < max_bytes:
@@ -171,3 +188,4 @@ def rotate_journal(
             if src.exists():
                 src.replace(dst)
         p.replace(p.with_name(p.name + ".1"))
+        _fsync_dir(p.parent)

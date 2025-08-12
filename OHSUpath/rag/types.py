@@ -2,8 +2,11 @@
 
 from __future__ import annotations
 from dataclasses import dataclass
-from typing import Protocol, List, Dict, Optional, Tuple, runtime_checkable
-from langchain.schema import Document
+from typing import Protocol, List, Dict, Optional, Tuple, Any, runtime_checkable
+try:
+    from langchain_core.documents import Document
+except Exception:
+    from langchain.schema import Document
 
 @dataclass(frozen=True)
 class FileMeta:
@@ -18,7 +21,7 @@ class Chunk:
     file_path: str
     page_no: Optional[int]
     content: str
-    meta: Dict
+    meta: Dict[str, Any]
 
 @dataclass
 class DiffResult:

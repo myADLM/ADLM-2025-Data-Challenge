@@ -26,6 +26,23 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.16] - 2025-08-12
+### Changed
+- **types**:
+  - `Chunk.meta` type updated from generic `Dict` to `Dict[str, Any]` for more precise typing.
+  - `Document` import now prefers `langchain_core.documents` with fallback to `langchain.schema` for compatibility with newer LangChain versions.
+- **fs_paths**:
+  - `interprocess_lock()` POSIX branch now uses non-blocking flock with retry/backoff and timeout, matching Windows locking behavior and preventing indefinite blocking.
+- **journal**:
+  - `journal_append()`:
+    - `tid` is now a numeric thread identifier; `tid_native` retains native thread ID; `tid_name` stores the thread name.
+    - Added `default=str` to JSON serialization to handle non-serializable objects gracefully.
+    - Ensures the `journal_log` parent directory exists even if located outside `layout.base`.
+  - `rotate_journal()`:
+    - Added lower-bound safeguard for `keep` (minimum 1).
+    - Added directory `fsync` after rotation to persist rename/unlink operations and reduce data loss risk in power failure scenarios.
+
+
 ## [0.1.15] - 2025-08-11
 ### Added
 - **Journal module** in `rag/storage/journal.py`:
