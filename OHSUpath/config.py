@@ -57,6 +57,8 @@ from pathlib import Path
 import os
 import yaml
 from typing import Optional, Dict, Any, List
+from dataclasses import dataclass, field
+
 
 
 # ----------------------------
@@ -121,6 +123,13 @@ class LockCfg:
     backoff_initial_s: float = 0.001
     # Max backoff sleep
     backoff_max_s: float = 0.05
+
+@dataclass
+class SqliteCfg:
+    journal_mode: str = "WAL"        # "WAL" | "DELETE" | ...
+    busy_timeout_ms: int = 30000     # 30s
+    synchronous: str = "NORMAL"      # "OFF" | "NORMAL" | "FULL" | "EXTRA"
+    connect_timeout_s: float = 1.0   # python sqlite3.connect(timeout=...)
 
 @dataclass
 class RuntimeCfg:
@@ -197,6 +206,7 @@ class Config:
     hashing: HashingCfg = field(default_factory=HashingCfg)
     journal: JournalCfg = field(default_factory=JournalCfg)
     lock: LockCfg = field(default_factory=LockCfg)
+    sqlite: SqliteCfg = field(default_factory=SqliteCfg)
 
 # ----------------------------
 # Section: Helper Functions

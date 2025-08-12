@@ -82,6 +82,12 @@ lock:
   backoff_initial_s: 0.001
   backoff_max_s: 0.05
 
+sqlite:
+  journal_mode: "WAL"
+  busy_timeout_ms: 30000
+  synchronous: "NORMAL"
+  connect_timeout_s: 1.0
+
 runtime:
   # Minimum number of worker threads to use when processing data
   min_threads: 8

@@ -26,6 +26,17 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.18] - 2025-08-12
+### Added
+- Added `sqlite` config section (`journal_mode`, `busy_timeout_ms`, `synchronous`, `connect_timeout_s`) to tune SQLite behavior via YAML/env.
+
+### Changed
+- `rag/manifest_sqlite.py`: schema/PRAGMA now config-driven; explicit transactions with `BEGIN IMMEDIATE`; supports `str` and `PathLike` paths.
+
+### Fixed
+- Robust path handling for bare filenames; create parent dirs when needed.
+
+
 ## [0.1.17] - 2025-08-12
 ### Added
 - **manifest_sqlite** (`rag/manifest_sqlite.py`):
