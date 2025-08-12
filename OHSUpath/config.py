@@ -80,6 +80,21 @@ class PathsCfg:
     data_dir: str = "minidata/LabDocs"  # Set to minidata folder for faster initialization
     allowed_extensions: List[str] = field(default_factory=lambda: [".pdf"])
     pdf_text_mode: str = "text"  # "text" | "blocks" | "html"
+    store_dir: str = ".rag_store"
+    index_dirname: str = "index"
+    manifest_filename: str = "manifest.sqlite"
+    embed_cache_filename: str = "embed_cache.sqlite"
+    journal_filename: str = "journal.log"
+    lock_filename: str = ".rag.lock"
+    tmp_dirname: str = "_tmp"
+
+@dataclass
+class HashingCfg:
+    normalize: Optional[str] = "NFC"   # "NFC" | "NFKC" | None
+    # Text encoding
+    encoding: str = "utf-8"
+    chunk_id_hash_len: int = 24
+
 
 
 @dataclass
@@ -154,8 +169,7 @@ class Config:
     embedding: EmbeddingCfg = field(default_factory=EmbeddingCfg)
     retriever: RetrieverCfg = field(default_factory=RetrieverCfg)
     llm: LLMCfg = field(default_factory=LLMCfg)
-    app: AppCfg = field(default_factory=AppCfg)
-
+    hashing: HashingCfg = field(default_factory=HashingCfg)
 
 # ----------------------------
 # Section: Helper Functions

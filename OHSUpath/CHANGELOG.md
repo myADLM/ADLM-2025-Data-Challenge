@@ -26,7 +26,20 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [0.1.13] - 2025-08-12
+## [0.1.14] - 2025-08-11
+### Added
+- Added persistent layout fields under `paths` (`store_dir`, `index_dirname`, `manifest_filename`, `embed_cache_filename`, `journal_filename`, `lock_filename`, `tmp_dirname`).
+- Added `hashing` section (`normalize`, `encoding`, `chunk_id_hash_len`) to centrally control chunk ID and cache key generation.
+
+### Changed
+- `FsLayout.from_base(...)` now accepts the above naming parameters (defaults preserved; backward compatible).
+- `sha256_str()` now has an `encoding` parameter; docs clarify using `normalize=None` skips normalization for better performance.
+
+### Fixed
+- Fixed typos in comments and inline docs.
+
+
+## [0.1.13] - 2025-08-11
 ### Added
 - **Atomic file write helper** `atomic_write_text` in `rag/storage/fs_paths.py`  
   - Writes to a temporary file and atomically replaces the target.  

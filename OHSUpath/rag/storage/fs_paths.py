@@ -20,16 +20,26 @@ class FsLayout:
     tmp_dir: Path
 
     @staticmethod
-    def from_base(base: str | os.PathLike[str]) -> "FsLayout":
+    def from_base(
+        base: str | os.PathLike[str],
+        *,
+        index_dirname: str = "index",
+        manifest_filename: str = "manifest.sqlite",
+        embed_cache_filename: str = "embed_cache.sqlite",
+        journal_filename: str = "journal.log",
+        lock_filename: str = ".rag.lock",
+        tmp_dirname: str = "_tmp",
+    ) -> "FsLayout":
+
         b = Path(base).expanduser()
         return FsLayout(
             base=b,
-            index_dir=b / "index",
-            manifest_db=b / "manifest.sqlite",
-            embed_cache_db=b / "embed_cache.sqlite",
-            journal_log=b / "journal.log",
-            lock_file=b / ".rag.lock",
-            tmp_dir=b / "_tmp",
+            index_dir=b / index_dirname,
+            manifest_db=b / manifest_filename,
+            embed_cache_db=b / embed_cache_filename,
+            journal_log=b / journal_filename,
+            lock_file=b / lock_filename,
+            tmp_dir=b / tmp_dirname,
         )
 
 def ensure_dirs(layout: FsLayout) -> None:

@@ -55,6 +55,19 @@ paths:
   data_dir: "data/LabDocs"
   allowed_extensions: [".pdf"]      # which files to ingest
   pdf_text_mode: "text"             # "text" | "blocks" | "html"
+  store_dir: ".rag_store"
+  index_dirname: "index"
+  manifest_filename: "manifest.sqlite"
+  embed_cache_filename: "embed_cache.sqlite"
+  journal_filename: "journal.log"
+  lock_filename: ".rag.lock"
+  tmp_dirname: "_tmp"
+
+hashing:
+  normalize: "NFC"
+  encoding: "utf-8"
+  chunk_id_hash_len: 24
+
 
 runtime:
   # Minimum number of worker threads to use when processing data
