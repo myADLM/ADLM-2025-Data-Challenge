@@ -68,6 +68,19 @@ hashing:
   encoding: "utf-8"
   chunk_id_hash_len: 24
 
+journal:
+  enable_lock: true
+  fsync_default: false
+  compact_json: true
+  max_record_bytes: null
+  rotate_max_bytes: 10485760   # 10 MB
+  rotate_keep: 5
+  default_tail_n: 200
+
+lock:
+  timeout_s: 30.0
+  backoff_initial_s: 0.001
+  backoff_max_s: 0.05
 
 runtime:
   # Minimum number of worker threads to use when processing data

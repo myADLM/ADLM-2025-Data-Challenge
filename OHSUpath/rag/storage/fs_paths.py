@@ -49,7 +49,13 @@ def ensure_dirs(layout: FsLayout) -> None:
 
 
 @contextlib.contextmanager
-def interprocess_lock(lock_path: str | os.PathLike[str]) -> Iterator[None]:
+def interprocess_lock(
+    lock_path: str | os.PathLike[str],
+    *,
+    timeout_s: float = 30.0,
+    backoff_initial_s: float = 0.001,
+    backoff_max_s: float = 0.05,
+) -> Iterator[None]:
     lp = Path(lock_path).expanduser()
     lp.parent.mkdir(parents=True, exist_ok=True)
 
@@ -58,9 +64,10 @@ def interprocess_lock(lock_path: str | os.PathLike[str]) -> Iterator[None]:
         flags |= os.O_BINARY
     fd = os.open(os.fspath(lp), flags, 0o666)
 
+
     try:
         if os.name == "nt":
-            import msvcrt
+            import msvcrt, errno as _errno, time as _time
             try:
                 st = os.stat(lp)
                 if st.st_size == 0:
@@ -68,10 +75,20 @@ def interprocess_lock(lock_path: str | os.PathLike[str]) -> Iterator[None]:
             except FileNotFoundError:
                 pass
             os.lseek(fd, 0, os.SEEK_SET)
-            try:
-                msvcrt.locking(fd, msvcrt.LK_LOCK, 1)
-            except OSError as e:
-                raise RuntimeError(f"failed to acquire windows lock: {e}") from e
+            deadline = _time.monotonic() + float(timeout_s)
+            delay = float(backoff_initial_s)
+            while True:
+                try:
+                    msvcrt.locking(fd, msvcrt.LK_NBLCK, 1)
+                    break
+                except OSError as e:
+                    if getattr(e, "errno", None) in (_errno.EDEADLK, _errno.EACCES):
+                        if _time.monotonic() >= deadline:
+                            raise RuntimeError(f"failed to acquire windows lock (timeout): {e}") from e
+                        _time.sleep(delay)
+                        delay = min(delay * 2, float(backoff_max_s))
+                        continue
+                    raise RuntimeError(f"failed to acquire windows lock: {e}") from e
         else:
             try:
                 import fcntl

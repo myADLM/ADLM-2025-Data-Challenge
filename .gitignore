@@ -26,3 +26,7 @@ minidata/**
 
 # data folder. Use to test files in rag folder
 OHSUpath/rag/tests/**
+
+
+# RAG runtime store
+.rag_store/

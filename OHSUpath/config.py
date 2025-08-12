@@ -95,7 +95,32 @@ class HashingCfg:
     encoding: str = "utf-8"
     chunk_id_hash_len: int = 24
 
+@dataclass
+class JournalCfg:
+    # Use an inter-process lock when writing the journal
+    enable_lock: bool = True
+    # Call fsync after each append (safer but slower). Default off.
+    fsync_default: bool = False
+    # Use compact JSON (no extra spaces)
+    compact_json: bool = True
+    # Max size in bytes for a single record. None = no limit.
+    # If exceeded, "data" will be replaced by {"_truncated": True}.
+    max_record_bytes: Optional[int] = None
+    # Rotate when the file is bigger than this
+    rotate_max_bytes: int = 10 * 1024 * 1024
+    # How many rotated files to keep (journal.log.1..N)
+    rotate_keep: int = 5
+    # Default N for tail-like features (if you add one later)
+    default_tail_n: int = 200
 
+@dataclass
+class LockCfg:
+    # Max time to wait for the lock
+    timeout_s: float = 30.0
+    # First backoff sleep
+    backoff_initial_s: float = 0.001
+    # Max backoff sleep
+    backoff_max_s: float = 0.05
 
 @dataclass
 class RuntimeCfg:
@@ -170,6 +195,8 @@ class Config:
     retriever: RetrieverCfg = field(default_factory=RetrieverCfg)
     llm: LLMCfg = field(default_factory=LLMCfg)
     hashing: HashingCfg = field(default_factory=HashingCfg)
+    journal: JournalCfg = field(default_factory=JournalCfg)
+    lock: LockCfg = field(default_factory=LockCfg)
 
 # ----------------------------
 # Section: Helper Functions
@@ -191,9 +218,7 @@ def _merge_dataclass(dc, overrides: Dict[str, Any]):
                 setattr(dc, k, v)
 
 
-def load_config(
-    yaml_path: Optional[str] = "config.yaml", use_yaml: bool = True
-) -> Config:
+def load_config(yaml_path: Optional[str] = "config.yaml", use_yaml: bool = True) -> Config:
     """
     Load the application configuration.
 
@@ -222,25 +247,42 @@ def load_config(
 
     # Apply overrides from environment variables
     for key, val in os.environ.items():
-        if not key.startswith("CONFIG__"):
+        if not key.upper().startswith("CONFIG__"):
             continue
-        parts = key.split("__")[
-            1:
-        ]  # Example: CONFIG__runtime__device -> ["runtime", "device"]
+        parts = key.split("__")[1:]  # Example: CONFIG__runtime__device -> ["runtime", "device"]
         target = cfg
-        for p in parts[:-1]:
-            target = getattr(target, p, None)
-            if target is None:
+        for seg in parts[:-1]:
+            if not hasattr(target, "__dataclass_fields__"):
+                target = None
                 break
+            fields = getattr(target, "__dataclass_fields__")
+            name = {k.lower(): k for k in fields}.get(seg.lower())
+            if name is None:
+                target = None
+                break
+            target = getattr(target, name, None)
+
+        if target is None:
+            continue
+
         leaf = parts[-1]
-        if target is not None and hasattr(target, leaf):
-            old = getattr(target, leaf)
-            if isinstance(old, bool):
-                v = val.lower() in ("1", "true", "yes", "on")
-            elif isinstance(old, int):
-                v = int(val)
-            else:
-                v = val
-            setattr(target, leaf, v)
+        fields = getattr(target, "__dataclass_fields__", {})
+        leaf_name = {k.lower(): k for k in fields}.get(leaf.lower())
+        if leaf_name is None:
+            continue
+
+        old = getattr(target, leaf_name)
+        if isinstance(old, bool):
+            v = val.lower() in ("1", "true", "yes", "on")
+        elif isinstance(old, int):
+            v = int(val)
+        elif isinstance(old, float):
+            v = float(val)
+        else:
+            v = val
+        setattr(target, leaf_name, v)
+
 
     return cfg
+
+

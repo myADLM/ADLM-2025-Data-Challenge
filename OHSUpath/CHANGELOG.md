@@ -26,6 +26,30 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.15] - 2025-08-11
+### Added
+- **Journal module** in `rag/storage/journal.py`:
+  - `journal_append()` writes JSONL with fields: `ts`, `event`, `data`, `host`, `pid`, `tid` (name), `tid_native` (numeric), `tid_name` (alias of name).
+  - `iter_journal()` simple JSONL reader.
+  - `rotate_journal()` size-based rotation (`journal.log` → `.1..N`).
+  - Atomic appends via `O_APPEND`; optional `fsync`.
+  - Optional compact JSON; optional per-record size guard.
+- **Config sections**:
+  - `journal`: `enable_lock`, `fsync_default`, `compact_json`, `max_record_bytes`, `rotate_max_bytes`, `rotate_keep`, `default_tail_n`.
+  - `lock`: `timeout_s`, `backoff_initial_s`, `backoff_max_s`.
+
+### Changed
+- `journal_append()` now reads defaults from config.
+- Records now include process/thread context (`pid`, `tid_native`, `tid_name`) for easier debugging.
+- `interprocess_lock()` signature now accepts `timeout_s`, `backoff_initial_s`, `backoff_max_s`.
+- **Windows locking** now uses non-blocking `msvcrt.locking` + retry/backoff to avoid deadlocks; still raises on timeout.
+- `ensure_dirs(layout)` is used before writing to guarantee directory presence.
+
+### Fixed
+- Fixed intermittent `OSError: [Errno 36] Resource deadlock avoided` on Windows during concurrent writes.
+- Env override handling in `load_config()` is more robust (case-insensitive path to nested dataclass fields; supports float), fixing cases where `CONFIG__paths__journal_filename` did not apply in some shells.
+
+
 ## [0.1.14] - 2025-08-11
 ### Added
 - Added persistent layout fields under `paths` (`store_dir`, `index_dirname`, `manifest_filename`, `embed_cache_filename`, `journal_filename`, `lock_filename`, `tmp_dirname`).
