@@ -56,7 +56,7 @@ from dataclasses import dataclass, field, asdict, replace
 from pathlib import Path
 import os
 import yaml
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any, List, Tuple
 from dataclasses import dataclass, field
 
 
@@ -130,6 +130,15 @@ class SqliteCfg:
     busy_timeout_ms: int = 30000     # 30s
     synchronous: str = "NORMAL"      # "OFF" | "NORMAL" | "FULL" | "EXTRA"
     connect_timeout_s: float = 1.0   # python sqlite3.connect(timeout=...)
+
+@dataclass
+class EmbedCacheCfg:
+    table_name: str = "emb_cache"
+    max_vars_fallback: int = 900
+    reserve_bind_params: int = 16
+    chunk_size_limit: Optional[int] = None
+    json_ensure_ascii: bool = False
+    json_separators: tuple[str, str] = (",", ":")
 
 @dataclass
 class RuntimeCfg:
@@ -207,6 +216,8 @@ class Config:
     journal: JournalCfg = field(default_factory=JournalCfg)
     lock: LockCfg = field(default_factory=LockCfg)
     sqlite: SqliteCfg = field(default_factory=SqliteCfg)
+    embed_cache: EmbedCacheCfg = field(default_factory=EmbedCacheCfg)
+
 
 # ----------------------------
 # Section: Helper Functions

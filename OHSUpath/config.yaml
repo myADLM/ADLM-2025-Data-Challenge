@@ -88,6 +88,14 @@ sqlite:
   synchronous: "NORMAL"
   connect_timeout_s: 1.0
 
+embed_cache:
+  table_name: "emb_cache"
+  max_vars_fallback: 900
+  reserve_bind_params: 16
+  chunk_size_limit: null
+  json_ensure_ascii: false
+  json_separators: [",", ":"]
+
 runtime:
   # Minimum number of worker threads to use when processing data
   min_threads: 8

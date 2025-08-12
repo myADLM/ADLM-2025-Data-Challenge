@@ -26,6 +26,18 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.20] - 2025-08-12
+### Added
+- Added `embed_cache` config section with options for table name, batch limits, and JSON formatting.
+
+### Changed
+- Updated `rag/cache/embed_cache.py` to use settings from `embed_cache` config.
+- Improved batch handling with placeholder caching and optional chunk size limit.
+
+### Fixed
+- Deduplicated keys in `get_many` before querying to avoid redundant lookups.
+
+
 ## [0.1.19] - 2025-08-12
 ### Added
 - Added `rag/cache/embed_cache.py` for SQLite-based embedding cache with configurable PRAGMA settings.
