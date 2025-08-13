@@ -12,7 +12,7 @@ All notable changes to this project will be documented in this file.
 - When adding or deleting PDFs from the database, avoid reinitializing the entire model if possible.  
 - After finishing initialization (load, split, embed, etc.), save the result locally so that it can be reused next time without reprocessing.  
 - **Important:** Add limiter to pdf preload to avoid memory overflow.
-
+- **Important:** Switching default retrieval to Inner Product (IP) with normalized embeddings (cosine similarity) for semantic, length-invariant similarity; typically more stable and accurate than L2. L2 remains available via config.
 
 ## [Unreleased]
 ### Added
@@ -25,6 +25,30 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.1.21] - 2025-08-12
+### Added
+- New `FaissIndex` in `rag/vectorstores/faiss_store.py`.
+- Supports `l2` and `ip` metrics.
+- In-memory index with retriever support.
+- Atomic save/load (writes temp files, then replace).
+- Index meta check on load (`embedding_dim`, `metric`, `model_sig`).
+- Adapter `_CallableToEmbeddingsAdapter` to wrap callables as `Embeddings`.
+  - Optional normalization in `ip` mode (for cosine-like search).
+- Compatible `Document` import (`langchain_core` / `langchain.schema`).
+
+### Changed
+- `index_to_docstore_id` unified to `Dict[int, str]` (row → chunk_id).
+- `as_retriever(...)` now requires an `embedding` (Embeddings or callable).
+- In `ip` mode:
+  - Store vectors are normalized on `upsert`.
+  - Query vectors are normalized when using the callable adapter.
+
+### Fixed
+- Errors when a callable embedding returned wrong shapes (now coerced to 2D float32).
+- Type error when `FAISS` expected an `Embeddings` object (adapter now subclasses `Embeddings`).
+- `id_map` JSON keys restored to `int` on load; also supports old list-of-pairs format.
+
 
 ## [0.1.20] - 2025-08-12
 ### Added
