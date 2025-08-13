@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from .env file if present
-load_dotenv()
+load_dotenv("key.env")
 
 # Get API key from environment variable
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
