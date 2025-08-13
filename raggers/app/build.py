@@ -14,10 +14,11 @@ def main():
     """Main entry point to build all requirements for the project."""
     parser = argparse.ArgumentParser(
         description="Extract text from PDF documents for the ADLM 2025 Data Challenge RAG Application",
-        epilog="Examples:\n"
-        "  poetry run extract_pdfs                           # Use default LabDocs directory\n"
-        "  poetry run extract_pdfs --doc-path /path/to/docs  # Use custom documents directory\n"
-        "  poetry run extract_pdfs --force-download          # Force download of LabDocs",
+        epilog="""Examples:
+            poetry run build                           # Use default LabDocs directory
+            poetry run build --doc-path /path/to/docs  # Use custom documents directory
+            poetry run build --force-download          # Force download of LabDocs
+        """,
     )
     parser.add_argument(
         "--doc-path",
