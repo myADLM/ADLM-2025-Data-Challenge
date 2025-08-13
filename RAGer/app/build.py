@@ -6,7 +6,7 @@ PDF extraction script for the ADLM 2025 Data Challenge RAG Application.
 import sys
 import argparse
 from app.lib.data_source import download_labdocs
-from app.lib.extract_pdf import extract_pdfs
+from app.lib.extract_labdocs import extract_labdocs
 from pathlib import Path
 
 
@@ -49,7 +49,7 @@ def main():
                 sys.exit(1)
             return
 
-    extract_pdfs(doc_path=args.doc_path)
+    extract_labdocs(doc_path=args.doc_path)
 
 
 if __name__ == "__main__":

@@ -235,9 +235,13 @@ raggers/
 │   ├── data/              # Data directory for documents and extracted content
 │   │   ├── LabDocs/       # Input PDF documents (auto-downloaded)
 │   │   └── extracted_docs/ # Extracted text files
+│   ├── dbs/               # Database and cache directories
+│   │   └── tf_idf/        # TF-IDF search cache files
 │   ├── lib/
 │   │   ├── extract_pdf.py # PDF extraction utilities
-│   │   └── data_source.py # Data download and management utilities
+│   │   ├── data_source.py # Data download and management utilities
+│   │   ├── tf_idf.py      # TF-IDF search implementation
+│   │   └── search.py      # Search interface wrapper
 │   ├── main.py            # Main application entry point
 │   └── build.py           # Build and setup script
 ├── tests/                 # Test files
@@ -249,6 +253,8 @@ raggers/
 **Note**: The `app/data/` directory is automatically created and populated when you run the application. It contains:
 - **LabDocs**: Downloaded PDF documents from Zenodo
 - **extracted_docs**: Text files extracted from the PDFs
+
+**Cache Directory**: The `app/dbs/tf_idf/` directory stores TF-IDF search indices for fast document retrieval. This cache is automatically managed and only rebuilt when documents change.
 
 ## Contributing
 
