@@ -26,6 +26,22 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.22] - 2025-08-13
+### Added
+- FAISS options: meta check toggle, delete behavior toggle, file encoding.
+- Retriever extras: `normalize_query_in_ip`, `search_kwargs`.
+- Backward-compatible load for old `id_map` formats.
+
+### Changed
+- IP mode now stores unit-norm vectors (cosine-style).
+- JSON read/write uses the chosen encoding.
+- Meta mismatch can raise or soft-reset (based on config).
+
+### Fixed
+- More robust vector shape/dtype handling.
+- Fewer issues across FAISS/LangChain versions.
+
+
 ## [0.1.21] - 2025-08-12
 ### Added
 - New `FaissIndex` in `rag/vectorstores/faiss_store.py`.

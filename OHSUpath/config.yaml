@@ -124,7 +124,7 @@ embedding:
   embedding_dim: 384
   batch_size: 64                    # batch size for embedding
   faiss_metric: "l2"                # "l2" or "ip"
-
+  normalize_embeddings: false
     
   # Setting for the new sentence transformer InstructorXL
 # embedding:
@@ -142,6 +142,12 @@ retriever:
   search_type: "similarity"
   # Number of results (chunks) to retrieve for each query
   k: 4
+  fetch_k: 50
+
+faiss:
+  strict_meta_check: true
+  clear_on_delete: true
+  normalize_query_in_ip: true
 
 llm:
   # Large Language Model provider. "ollama" requires Ollama installed locally.

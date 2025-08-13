@@ -171,6 +171,7 @@ class EmbeddingCfg:
     embedding_dim: int = 384  # Size of the embedding vector (must match the model)
     batch_size: int = 64
     faiss_metric: str = "l2"  # "l2" or "ip"
+    normalize_embeddings: bool = False # set true when faiss_metric is ip
 
 
 # Setting for the new sentence transformer InstructorXL
@@ -190,6 +191,13 @@ class RetrieverCfg:
     # Search and retrieval settings
     search_type: str = "similarity"  # Retrieval strategy
     k: int = 4  # Number of results to return per query
+    fetch_k: int = 50  # initial candidates for retrievers/rerankers
+
+@dataclass
+class FaissCfg:
+    strict_meta_check: bool = True      # raise if meta mismatch
+    clear_on_delete: bool = True        # delete_by_chunk_ids clears whole index
+    normalize_query_in_ip: bool = True  # in ip mode, normalize query if callable
 
 
 @dataclass
@@ -217,6 +225,8 @@ class Config:
     lock: LockCfg = field(default_factory=LockCfg)
     sqlite: SqliteCfg = field(default_factory=SqliteCfg)
     embed_cache: EmbedCacheCfg = field(default_factory=EmbedCacheCfg)
+    faiss: FaissCfg = field(default_factory=FaissCfg)
+
 
 
 # ----------------------------
