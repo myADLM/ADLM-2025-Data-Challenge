@@ -7,10 +7,21 @@ from pathlib import Path
 import os, math, multiprocessing as mp
 import fitz
 from ..types import Document, DocumentLoader
+from config import load_config
+
+
+@dataclass
+class LoaderCfg:
+    exts: List[str]
+    prefetch_budget_mb: int
+    io_batch_files: int
+    num_proc: int | str
+    pdf_text_mode: str = "text"
 
 
 def _read_bytes_with_budget(paths: List[str], byte_budget: int) -> Tuple[List[Tuple[str, bytes]], int]:
-    items, used = [], 0
+    items: List[Tuple[str, bytes]] = []
+    used = 0
     for p in paths:
         try:
             sz = os.path.getsize(p)
@@ -31,20 +42,24 @@ def _decode_pdf_bytes(data: bytes, text_mode: str, path: str) -> List[Document]:
             for i in range(doc.page_count):
                 t = doc.load_page(i).get_text(text_mode).strip()
                 if t:
-                    pages.append(Document(
-                        page_content=t,
-                        metadata={
-                            "source": path,
-                            "page": i,              # 0-based
-                            "page_index": i,        # 0-based
-                            "page_number": i + 1,   # 1-based
-                        },
-                    ))
+                    pages.append(
+                        Document(
+                            page_content=t,
+                            metadata={
+                                "source": path,
+                                "page": i,              # 0-based
+                                "page_index": i,        # 0-based
+                                "page_number": i + 1,   # 1-based
+                            },
+                        )
+                    )
     except Exception as e:
-        pages.append(Document(
-            page_content="",
-            metadata={"source": path, "parse_error": True, "error": repr(e)},
-        ))
+        pages.append(
+            Document(
+                page_content="",
+                metadata={"source": path, "parse_error": True, "error": repr(e)},
+            )
+        )
     return pages
 
 def _worker(in_q: mp.Queue, out_q: mp.Queue, text_mode: str) -> None:
@@ -60,20 +75,24 @@ def _worker(in_q: mp.Queue, out_q: mp.Queue, text_mode: str) -> None:
         out_q.put((batch_id, docs))
 
 
-@dataclass
-class LoaderCfg:
-    exts: List[str]
-    prefetch_budget_mb: int
-    io_batch_files: int
-    num_proc: int | str
-    pdf_text_mode: str = "text"
-
 class PdfLoaderOptimized(DocumentLoader):
-    def __init__(self, cfg: LoaderCfg):
+    def __init__(self, cfg: LoaderCfg | None = None, *, yaml_path: str = "config.yaml", use_yaml: bool = True):
+        if cfg is None:
+            app_cfg = load_config(yaml_path=yaml_path, use_yaml=use_yaml)
+            cfg = LoaderCfg(
+                exts=[e.lower() for e in (app_cfg.paths.allowed_extensions or [".pdf"])],
+                pdf_text_mode=app_cfg.paths.pdf_text_mode or "text",
+                prefetch_budget_mb=max(1, int(app_cfg.pdf_loader.prefetch_budget_mb or 1)),
+                io_batch_files=max(1, int(app_cfg.pdf_loader.io_batch_files or 1)),
+                num_proc=app_cfg.pdf_loader.num_proc if app_cfg.pdf_loader.num_proc is not None else "max",
+            )
         self.cfg = cfg
 
-    def discover(self, root: str, exts: List[str]) -> List[str]:
+    @classmethod
+    def from_config(cls, yaml_path: str = "config.yaml", use_yaml: bool = True) -> "PdfLoaderOptimized":
+        return cls(None, yaml_path=yaml_path, use_yaml=use_yaml)
 
+    def discover(self, root: str, exts: List[str] | None = None) -> List[str]:
         exts = [e.lower() for e in (exts or self.cfg.exts)]
         files: List[str] = []
         for p in Path(root).rglob("*"):
@@ -86,23 +105,27 @@ class PdfLoaderOptimized(DocumentLoader):
         out: List[Document] = []
         try:
             with fitz.open(path) as doc:
-               for i in range(doc.page_count):
-                   t = doc.load_page(i).get_text(self.cfg.pdf_text_mode).strip()
-                   if t:
-                        out.append(Document(
-                           page_content=t,
-                           metadata={
-                               "source": path,
-                               "page": i,
-                               "page_index": i,
-                               "page_number": i + 1,
-                            },
-                        ))
+                for i in range(doc.page_count):
+                    t = doc.load_page(i).get_text(self.cfg.pdf_text_mode).strip()
+                    if t:
+                        out.append(
+                            Document(
+                                page_content=t,
+                                metadata={
+                                    "source": path,
+                                    "page": i,
+                                    "page_index": i,
+                                    "page_number": i + 1,
+                                },
+                            )
+                        )
         except Exception as e:
-            out.append(Document(
-                page_content="",
-                metadata={"source": path, "parse_error": True, "error": repr(e)},
-            ))
+            out.append(
+                Document(
+                    page_content="",
+                    metadata={"source": path, "parse_error": True, "error": repr(e)},
+                )
+            )
         return out
 
 
@@ -121,17 +144,26 @@ class PdfLoaderOptimized(DocumentLoader):
         while i < n:
             j = min(n, i + step)
             window = paths[i:j]
-            items, used = _read_bytes_with_budget(window, byte_budget)
+            items, _used = _read_bytes_with_budget(window, byte_budget)
             if not items:
                 p = paths[i]
-                with open(p, "rb") as f:
-                    items = [(p, f.read())]
+                try:
+                    with open(p, "rb") as f:
+                        items = [(p, f.read())]
+                except Exception:
+                    items = []
                 j = i + 1
             batches.append((bid, items))
             bid += 1
             i = j
 
-        nproc_cfg = os.cpu_count() if self.cfg.num_proc == "max" else int(self.cfg.num_proc or 1)
+        if isinstance(self.cfg.num_proc, str):
+            if self.cfg.num_proc == "max":
+                nproc_cfg = os.cpu_count() or 1
+            else:
+                nproc_cfg = int(self.cfg.num_proc or 1)
+        else:
+            nproc_cfg = int(self.cfg.num_proc or 1)
         nproc = max(1, nproc_cfg)
         workers = [ctx.Process(target=_worker, args=(in_q, out_q, self.cfg.pdf_text_mode)) for _ in range(nproc)]
         for w in workers:

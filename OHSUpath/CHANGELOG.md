@@ -14,6 +14,13 @@ All notable changes to this project will be documented in this file.
 - **Important:** Add limiter to pdf preload to avoid memory overflow.
 - **Important:** Switching default retrieval to Inner Product (IP) with normalized embeddings (cosine similarity) for semantic, length-invariant similarity; typically more stable and accurate than L2. L2 remains available via config.
 
+- **Query Type Detection:** Automatically classify user queries into “keyword-oriented” vs “semantic-oriented”:  
+  - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers → prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
+  - **Semantic-oriented**: longer natural language questions, explanations, or vague requests → prioritize dense/vector retrieval.  
+- **Hybrid Weighting:** Dynamically adjust sparse vs dense retrieval weights based on query type (e.g., 0.8 sparse / 0.2 dense for keyword queries; 0.3 sparse / 0.7 dense for semantic queries).  
+- **Sparse Retriever Upgrade:** Support dual backends — `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
+- **Character n-gram re-ranking:** Apply character n-gram scoring on sparse top-N candidates to improve recall on spelling variations, merged tokens, and special identifiers (e.g., `aa_inf3` vs `aainf3`).  
+
 ## [Unreleased]
 ### Added
 - Placeholder for upcoming features.
@@ -25,6 +32,12 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.1.24] - 2025-08-13
+### Changed
+- `PdfLoaderOptimized` now loads settings directly from `config.py` / `config.yaml`.
+- No need to pass `LoaderCfg` manually for common parameters.
+
 
 ## [0.1.23] - 2025-08-13
 ### Added

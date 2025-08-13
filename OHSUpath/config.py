@@ -141,6 +141,12 @@ class EmbedCacheCfg:
     json_separators: tuple[str, str] = (",", ":")
 
 @dataclass
+class PdfLoaderCfg:
+    prefetch_budget_mb: int = 64
+    io_batch_files: int = 8
+    num_proc: str = "max"
+
+@dataclass
 class RuntimeCfg:
     # General runtime behaviour and system resource usage
     min_threads: int = 8  # Minimum number of worker threads to use
@@ -226,6 +232,7 @@ class Config:
     sqlite: SqliteCfg = field(default_factory=SqliteCfg)
     embed_cache: EmbedCacheCfg = field(default_factory=EmbedCacheCfg)
     faiss: FaissCfg = field(default_factory=FaissCfg)
+    pdf_loader: PdfLoaderCfg = field(default_factory=PdfLoaderCfg)
 
 
 

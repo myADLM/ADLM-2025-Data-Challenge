@@ -149,6 +149,11 @@ faiss:
   clear_on_delete: true
   normalize_query_in_ip: true
 
+pdf_loader:
+  prefetch_budget_mb: 64
+  io_batch_files: 8
+  num_proc: "max"
+
 llm:
   # Large Language Model provider. "ollama" requires Ollama installed locally.
   provider: "ollama"
