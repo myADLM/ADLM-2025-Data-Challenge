@@ -33,6 +33,22 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.25] - 2025-08-13
+### Added
+- `RctsChunkerParallel` now supports optional multiprocessing for faster chunking.
+- Stable `chunk_id` generation based on source, page, chunk params, and content hash.
+- Metadata is sanitized to avoid multiprocessing pickling errors.
+
+### Changed
+- `num_proc="max"` is capped by document count.
+- Improved extraction of `source` and `page` from metadata with fallback keys.
+- `chunk_id` is now stored in metadata.
+
+### Fixed
+- Handles missing `source` or `page` without errors.
+- Avoids crash when `os.cpu_count()` returns `None`.
+
+
 ## [0.1.24] - 2025-08-13
 ### Changed
 - `PdfLoaderOptimized` now loads settings directly from `config.py` / `config.yaml`.
