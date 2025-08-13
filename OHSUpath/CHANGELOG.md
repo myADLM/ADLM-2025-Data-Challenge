@@ -26,6 +26,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.23] - 2025-08-13
+### Added
+- Optimized PDF loader with parallel processing support.
+- Configurable options for file discovery, prefetch budget, batch size, and text extraction mode.
+- Error handling returns structured placeholder documents for unreadable files.
+
+### Changed
+- Improved ordering and consistency between single and parallel load modes.
+- Safer defaults for process count and file batching.
+
+### Fixed
+- Handling of large files exceeding prefetch limits.
+- Improved robustness for corrupted or partially unreadable PDFs.
+
+
 ## [0.1.22] - 2025-08-13
 ### Added
 - FAISS options: meta check toggle, delete behavior toggle, file encoding.
