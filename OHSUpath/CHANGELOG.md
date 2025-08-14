@@ -33,6 +33,20 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.26] - 2025-08-13
+### Added
+- `RctsChunkerParallel` now auto-loads settings from `config.yaml` when `cfg` is omitted.
+- New config keys: `split.num_proc`, `split.source_keys`, `split.page_keys`.
+- `chunk_id` length is now driven by `hashing.chunk_id_hash_len`.
+
+### Changed
+- `SplitCfg` now has defaults for `source_keys`, `page_keys`, `chunk_id_hash_len` (backward compatible).
+- All tunables can be changed in config; no code edits required.
+
+### Fixed
+- Tests constructing `SplitCfg(...)` directly no longer fail due to missing fields.
+
+
 ## [0.1.25] - 2025-08-13
 ### Added
 - `RctsChunkerParallel` now supports optional multiprocessing for faster chunking.

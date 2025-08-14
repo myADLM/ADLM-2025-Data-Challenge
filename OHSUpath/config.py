@@ -95,7 +95,7 @@ class HashingCfg:
     normalize: Optional[str] = "NFC"   # "NFC" | "NFKC" | None
     # Text encoding
     encoding: str = "utf-8"
-    chunk_id_hash_len: int = 24
+    chunk_id_hash_len: int = 32
 
 @dataclass
 class JournalCfg:
@@ -164,6 +164,11 @@ class SplitCfg:
         200  # Number of overlapping characters between consecutive chunks
     )
     min_chars_per_page: int = 1
+    # Processes to use: integer or "max"
+    num_proc: str | int = "max"
+    # Metadata key priorities when extracting path/page
+    source_keys: list[str] = field(default_factory=lambda: ["source", "file_path", "path"])
+    page_keys: list[str] = field(default_factory=lambda: ["page", "page_number", "page_no"])
 
 
 

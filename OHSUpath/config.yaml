@@ -66,7 +66,7 @@ paths:
 hashing:
   normalize: "NFC"
   encoding: "utf-8"
-  chunk_id_hash_len: 24
+  chunk_id_hash_len: 32
 
 journal:
   enable_lock: true
@@ -113,6 +113,9 @@ split:
   # Overlap between consecutive chunks (in characters) to preserve context
   chunk_overlap: 200
   min_chars_per_page: 1             # drop pages shorter than this (after strip)
+  num_proc: "max"                  # int or "max"
+  source_keys: ["source", "file_path", "path"]
+  page_keys: ["page", "page_number", "page_no"]
 
 
   # Setting for the old sentence transformer all-MiniLM-L6-v2
