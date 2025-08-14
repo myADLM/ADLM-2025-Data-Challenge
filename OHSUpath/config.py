@@ -183,6 +183,11 @@ class EmbeddingCfg:
     batch_size: int = 64
     faiss_metric: str = "l2"  # "l2" or "ip"
     normalize_embeddings: bool = False # set true when faiss_metric is ip
+    multi_gpu: object = False   # false | "auto" | [0,1]
+    dtype: str = "float32"      # "float32" | "float16"
+    pad_to_batch: bool = False  # steady throughput for multi-GPU
+    in_queue_maxsize: int = 4   # per-GPU pending batches
+
 
 
 # Setting for the new sentence transformer InstructorXL

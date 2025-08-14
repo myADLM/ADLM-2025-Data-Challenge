@@ -128,6 +128,10 @@ embedding:
   batch_size: 64                    # batch size for embedding
   faiss_metric: "l2"                # "l2" or "ip"
   normalize_embeddings: false
+  multi_gpu: false          # false | "auto" | [0,1]
+  dtype: "float32"          # "float32" | "float16"
+  pad_to_batch: false       # steady throughput for multi-GPU
+  in_queue_maxsize: 4       # per-GPU pending batches
     
   # Setting for the new sentence transformer InstructorXL
 # embedding:

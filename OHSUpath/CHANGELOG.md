@@ -33,6 +33,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.28] - 2025-08-13
+### Added
+- ST embedder now auto-loads settings from config file.
+- New embedding config knobs: multi_gpu, dtype, pad_to_batch, in_queue_maxsize.
+### Changed
+- Respect runtime.device ("cpu") to force CPU and disable multi-GPU.
+
+
 ## [0.1.27] - 2025-08-13
 ### Added
 - Robust Sentence-Transformers embedder with persistent multi-GPU workers (spawn).

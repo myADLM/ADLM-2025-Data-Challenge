@@ -7,6 +7,7 @@ from typing import Any, List, Optional, Sequence, Tuple
 import os
 import numpy as np
 import multiprocessing as mp
+from config import load_config
 
 
 @dataclass
@@ -80,7 +81,7 @@ def _gpu_worker(
       err_q: Queue to report exceptions so the main process can fail fast.
     """
     # Restrict visibility BEFORE importing torch
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(dev_id)
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(dev_id)  # set before torch import
     try:
         import torch
         from sentence_transformers import SentenceTransformer
@@ -114,22 +115,39 @@ def _gpu_worker(
 class STMultiGPUEmbedder:
     """
     Sentence-Transformers embedder with CPU/single-GPU fast path and optional multi-GPU workers.
-
-    Safety/robustness:
-      - Model loads once on CPU or single GPU.
-      - Multi-GPU uses persistent 'spawn' workers; reusable across multiple .embed() calls.
-      - Neatly close() and __del__().
-      - Strict shape/dimension validation.
-      - Worker errors bubble up; deadlock-protected collection.
+    - If cfg is None: auto-loads settings from config file (config.yaml/env).
+    - Respects runtime.device == "cpu" to force CPU and disable multi-GPU.
     """
 
-    def __init__(self, cfg: STCfg):
+    def __init__(self, cfg: STCfg | None = None):
+        # ---- build cfg from file if not provided ----
+        prefer_device: Optional[str] = None
+        if cfg is None:
+            if not load_config:
+                raise RuntimeError("Config file loader not available; pass STCfg manually.")
+            app_cfg = load_config()
+            emb = app_cfg.embedding
+            cfg = STCfg(
+                model_name=emb.model_name,
+                embedding_dim=emb.embedding_dim,
+                batch_size=emb.batch_size,
+                multi_gpu=getattr(emb, "multi_gpu", False),
+                normalize=getattr(emb, "normalize_embeddings", False),
+                dtype=getattr(emb, "dtype", "float32"),
+                pad_to_batch=getattr(emb, "pad_to_batch", False),
+                in_queue_maxsize=getattr(emb, "in_queue_maxsize", 4),
+            )
+
+            prefer_device = getattr(getattr(app_cfg, "runtime", None), "device", None)
         self.cfg = cfg
         self.model_name = cfg.model_name
         self.embedding_dim = int(cfg.embedding_dim)
         self.dtype = np.float16 if str(cfg.dtype).lower() == "float16" else np.float32
 
-        self._model = None
+        # If user forces CPU, disable multi-GPU and remember preference
+        self._prefer_cpu = str(prefer_device or "").lower() == "cpu"
+        self._model = None  # single-path cache
+
         self._gpus: List[int] = self._resolve_gpus(cfg.multi_gpu)
         self._mpctx: Optional[mp.context.BaseContext] = None
         self._in_qs: List[mp.Queue] = []
@@ -145,6 +163,8 @@ class STMultiGPUEmbedder:
     # ---------- helpers (init/runtime) ----------
 
     def _resolve_gpus(self, multi_gpu: Any) -> List[int]:
+        if self._prefer_cpu:
+            return []
         try:
             import torch
             has = bool(getattr(torch, "cuda", None) and torch.cuda.is_available())
@@ -168,7 +188,10 @@ class STMultiGPUEmbedder:
         try:
             import torch
             from sentence_transformers import SentenceTransformer
-            device = "cuda" if (getattr(torch, "cuda", None) and torch.cuda.is_available()) else "cpu"
+            if self._prefer_cpu:
+                device = "cpu"
+            else:
+                device = "cuda" if (getattr(torch, "cuda", None) and torch.cuda.is_available()) else "cpu"
             self._model = SentenceTransformer(self.model_name, device=device)
         except Exception as e:
             raise RuntimeError(f"Failed to load SentenceTransformer: {e!r}")
