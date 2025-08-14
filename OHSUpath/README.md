@@ -52,5 +52,7 @@ Added console logging to assist with debugging and verification
 
 Added configuration files for easier management
 
+Make RAG pipeline now fully modular.
+
 
 

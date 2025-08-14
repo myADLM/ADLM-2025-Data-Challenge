@@ -208,12 +208,17 @@ class RetrieverCfg:
     search_type: str = "similarity"  # Retrieval strategy
     k: int = 4  # Number of results to return per query
     fetch_k: int = 50  # initial candidates for retrievers/rerankers
+    use_mmr: bool = False                 
+    lambda_mult: float = 0.5              
+    score_threshold: Optional[float] = None  
+    search_kwargs: Dict[str, Any] = field(default_factory=dict)
 
 @dataclass
 class FaissCfg:
     strict_meta_check: bool = True      # raise if meta mismatch
     clear_on_delete: bool = True        # delete_by_chunk_ids clears whole index
     normalize_query_in_ip: bool = True  # in ip mode, normalize query if callable
+    index_params: Dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass
@@ -224,6 +229,11 @@ class LLMCfg:
     chain_type: str = "stuff"
     base_url: str = "http://localhost:11434"
     params: Dict[str, Any] = field(default_factory=dict)
+    chain_type_kwargs: Dict[str, Any] = field(default_factory=dict)
+    request_timeout_s: Optional[float] = None
+    max_retries: int = 2
+    headers: Dict[str, str] = field(default_factory=dict)
+    enabled: bool = True
 
 @dataclass
 class ManagerCfg:

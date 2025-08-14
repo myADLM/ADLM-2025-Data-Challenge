@@ -33,6 +33,22 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.33] - 2025-08-14
+### Added
+- Pipeline & retriever now auto-load config (YAML/env) when `cfg=None`.
+- `RagPipeline.reload_config()`; `IndexManager.reload_config()` already supported.
+- `serve()` reads retriever/FAISS knobs (`use_mmr`, `lambda_mult`, `score_threshold`, `search_kwargs`, `normalize_query_in_ip`).
+- `build_qa()` reads LLM extras: `enabled`, `chain_type_kwargs`, `request_timeout_s`, `max_retries`, `headers`.
+
+### Changed
+- `embedding.normalize_embeddings` and legacy `embedding.normalize` both supported.
+- Warn if `faiss_metric="ip"` with no embedding or query normalization.
+
+### Fixed
+- Only pass `chain_type_kwargs` when it hase been set already.
+- `_build_ollama_llm` correctly uses `llm.model` / `llm.base_url` and forwards timeout/retries/headers.
+
+
 ## [0.1.32] - 2025-08-14
 ### Added
 - Added `rag/pipeline.py`: assembles loader/chunker/embedder/FAISS/manager; exposes `bootstrap/refresh/serve/build_qa`.

@@ -150,11 +150,16 @@ retriever:
   # Number of results (chunks) to retrieve for each query
   k: 4
   fetch_k: 50
+  use_mmr: false
+  lambda_mult: 0.5
+  score_threshold: null
+  search_kwargs: {}
 
 faiss:
   strict_meta_check: true
   clear_on_delete: true
   normalize_query_in_ip: true
+  index_params: {}
 
 pdf_loader:
   prefetch_budget_mb: 64
@@ -169,6 +174,11 @@ llm:
   chain_type: "stuff"
   base_url: "http://localhost:11434"
   params: {}                        # e.g. {"temperature": 0.1}
+  chain_type_kwargs: {}
+  request_timeout_s: null
+  max_retries: 2
+  headers: {}
+  enabled: true
 
 manager:
   enable_cache: true
