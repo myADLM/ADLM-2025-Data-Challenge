@@ -33,6 +33,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.30] - 2025-08-14
+### Added
+- IndexManager: end-to-end pipeline (scan → diff → load → split → embed(+cache) → delete/upsert → persist → manifest).
+- Embed cache integration with collision-safe keys (text hash + model sig + normalize + dim).
+- Journal events: BEGIN_REFRESH / END_REFRESH (with ok flag, counts, elapsed ms).
+
+### Changed
+- Lock scope minimized: heavy I/O/compute out of lock; only mutations (delete/upsert/persist/manifest) are locked.
+- Lazy hashing: file sha256 only for added/size-or-mtime-changed files.
+
+### Fixed
+- Safer cache keying prevents stale hits when model, normalization, or embedding dim changes.
+- Robust deletion even when loader uses `file_path` instead of `source`.
+
+
 ## [0.1.29] - 2025-08-13
 ### Fixed
 - Chunk.file_path changed to Optional[str]; relax VectorIndex.as_retriever Protocol
