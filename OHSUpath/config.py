@@ -225,6 +225,16 @@ class LLMCfg:
     base_url: str = "http://localhost:11434"
     params: Dict[str, Any] = field(default_factory=dict)
 
+@dataclass
+class ManagerCfg:
+    enable_cache: bool = True
+    enable_journal: bool = True
+    hash_block_bytes: int = 1024 * 1024
+    include_globs: List[str] = field(default_factory=list)
+    exclude_globs: List[str] = field(default_factory=list)
+    follow_symlinks: bool = False
+    ignore_dotfiles: bool = True
+
 
 @dataclass
 class Config:
@@ -243,7 +253,7 @@ class Config:
     embed_cache: EmbedCacheCfg = field(default_factory=EmbedCacheCfg)
     faiss: FaissCfg = field(default_factory=FaissCfg)
     pdf_loader: PdfLoaderCfg = field(default_factory=PdfLoaderCfg)
-
+    manager: ManagerCfg = field(default_factory=ManagerCfg)
 
 
 # ----------------------------

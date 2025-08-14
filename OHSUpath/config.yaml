@@ -170,6 +170,17 @@ llm:
   base_url: "http://localhost:11434"
   params: {}                        # e.g. {"temperature": 0.1}
 
+manager:
+  enable_cache: true
+  enable_journal: true
+  hash_block_bytes: 1048576   # 1 MiB
+  include_globs: []           # e.g. ["**/*.pdf"]
+  exclude_globs: []           # e.g. ["**/~$*"]
+  follow_symlinks: false
+  ignore_dotfiles: true
+
+
+
 app:
   title: "AI tool name holder"
   page_title: "AI tool name holder"

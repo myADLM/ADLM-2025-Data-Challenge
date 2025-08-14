@@ -33,6 +33,20 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.31] - 2025-08-14
+### Added
+- IndexManager: support automatic config loading from `config.yaml` when `cfg=None` (calls `load_config`), plus new `from_config()` factory method.
+- Added `_cfg_get()` helper to support both attribute-style and dictionary-style config access.
+- Added `reload_config()` method to allow hot-reloading configuration at runtime.
+
+### Changed
+- All config lookups in `refresh()` now use `_cfg_get()` for improved robustness and compatibility.
+
+### Fixed
+- Fixed failure to read config values in `refresh()` when `load_config()` returns a dictionary.
+- Prevented potential `AttributeError` when optional config sections are missing.
+
+
 ## [0.1.30] - 2025-08-14
 ### Added
 - IndexManager: end-to-end pipeline (scan → diff → load → split → embed(+cache) → delete/upsert → persist → manifest).
