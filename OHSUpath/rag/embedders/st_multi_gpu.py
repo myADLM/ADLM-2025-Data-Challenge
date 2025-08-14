@@ -237,17 +237,32 @@ class STMultiGPUEmbedder:
 
     # ---------- public API ----------
 
-    def embed(self, texts: List[str]) -> List[List[float]]:
-        """Encode texts into embeddings. Safe to call repeatedly."""
-        if not texts:
+    def embed(self, texts):
+        """
+        Accepts:
+        - str        -> returns List[float]
+        - List[str]  -> returns List[List[float]]
+        - []         -> returns []
+        Routes:
+        - multi-GPU  -> _embed_multi
+        - single-GPU -> _embed_single
+        """
+        if isinstance(texts, list) and len(texts) == 0:
             return []
 
-        if len(self._gpus) > 1:
-            self._ensure_workers()
-            return self._embed_multi(texts)
+        single = isinstance(texts, str)
+        texts_list = [texts] if single else list(texts)
 
-        self._load_single_model()
-        return self._embed_single(texts)
+        if len(getattr(self, "_gpus", []) or []) > 1:
+            self._ensure_workers()
+            vecs = self._embed_multi(texts_list)   # -> List[List[float]]
+        else:
+            self._load_single_model()
+            vecs = self._embed_single(texts_list)  # -> List[List[float]]
+
+        return vecs[0] if single else vecs
+
+
 
     def close(self):
         """Neatly stop workers and release resources."""
@@ -286,6 +301,9 @@ class STMultiGPUEmbedder:
     # ---------- impl ----------
 
     def _embed_single(self, texts: List[str]) -> List[List[float]]:
+        if not texts:
+            return []
+
         bs = max(1, int(self.cfg.batch_size))
         vecs = self._model.encode(
             texts,
@@ -294,12 +312,18 @@ class STMultiGPUEmbedder:
             normalize_embeddings=self.cfg.normalize,
             show_progress_bar=False,
         )
+        if getattr(vecs, "ndim", None) == 1:
+            vecs = vecs.reshape(1, -1)
+
         vecs = vecs.astype(self.dtype, copy=False)
         if vecs.ndim != 2 or vecs.shape[1] != self.embedding_dim:
             raise ValueError(f"Embedding dim mismatch: got {tuple(vecs.shape)}, expected (*, {self.embedding_dim})")
         return vecs.tolist()
 
     def _embed_multi(self, texts: List[str]) -> List[List[float]]:
+        if not texts:
+            return []
+
         real_n = len(texts)
         batch = max(1, int(self.cfg.batch_size))
 
@@ -350,7 +374,8 @@ class STMultiGPUEmbedder:
         # Order by original indices
         missing = [i for i in range(len(texts)) if i not in out]
         if missing:
-            raise RuntimeError(f"Missing embeddings for indices: {missing[:10]}{'...' if len(missing)>10 else ''}")
+            head = ", ".join(map(str, missing[:10]))
+            raise RuntimeError(f"Missing embeddings for indices: {head}{'...' if len(missing)>10 else ''}")
         ordered = [out[i] for i in range(len(texts))]
 
         # Drop padded tail outputs

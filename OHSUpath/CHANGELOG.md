@@ -33,6 +33,19 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.32] - 2025-08-14
+### Added
+- Added `rag/pipeline.py`: assembles loader/chunker/embedder/FAISS/manager; exposes `bootstrap/refresh/serve/build_qa`.
+- Added `rag/retriever.py`: Ollama-backed `build_qa` with community fallback.
+
+### Changed
+- ST embedder: `embed()` now accepts `str | List[str] | []` and routes to single/multi-GPU consistently.
+
+### Fixed
+- Avoid `np.stack([])` on empty batches.
+- Prevent 1D encode outputs from triggering dim-mismatch on single-query.
+
+
 ## [0.1.31] - 2025-08-14
 ### Added
 - IndexManager: support automatic config loading from `config.yaml` when `cfg=None` (calls `load_config`), plus new `from_config()` factory method.
