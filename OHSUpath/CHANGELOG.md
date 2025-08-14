@@ -33,6 +33,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.27] - 2025-08-13
+### Added
+- Robust Sentence-Transformers embedder with persistent multi-GPU workers (spawn).
+- Optional padding of tail batch; configurable per-GPU queue depth.
+### Fixed
+- Avoid reloading model each call; strict dim checks; deadlock-safe collection; neatly shutdown.
+
+
 ## [0.1.26] - 2025-08-13
 ### Added
 - `RctsChunkerParallel` now auto-loads settings from `config.yaml` when `cfg` is omitted.

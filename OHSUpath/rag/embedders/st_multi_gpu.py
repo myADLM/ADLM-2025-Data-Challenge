@@ -1,3 +1,341 @@
 # rag/embedders/st_multi_gpu.py
-# Placeholder for upcoming adjustments
 
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import Any, List, Optional, Sequence, Tuple
+import os
+import numpy as np
+import multiprocessing as mp
+
+
+@dataclass
+class STCfg:
+    """
+    Basic settings for the Sentence-Transformers embedder.
+
+    Fields:
+      model_name: Which ST model to load.
+        e.g. "sentence-transformers/all-MiniLM-L6-v2"
+
+      embedding_dim: Expected size of each embedding vector.
+        Example: 384. Will validate this at runtime.
+
+      batch_size: How many texts to encode at once.
+        Bigger = faster, but needs more GPU/CPU memory. Start with 32 to 128.
+
+      multi_gpu: Use more than one GPU?
+        - False  : single CPU/GPU (default)
+        - "auto" : use all visible GPUs (only if there are >= 2)
+        - [0,2]  : pick specific GPU IDs by index
+
+      normalize: If True, make each vector unit length (good for cosine similarity).
+
+      dtype: Internal number type for arrays. Return type is still List[List[float]].
+        - "float32" (safe default)
+        - "float16" (uses less memory, tiny accuracy loss)
+
+      pad_to_batch: If True, pad the last small batch so every batch has the same size.
+        Can make multi-GPU throughput smoother. Slight extra work on the last batch.
+
+      in_queue_maxsize: How many pending batches we allow per GPU.
+        Lower  -> lower memory use, maybe less GPU utilization.
+        Higher -> keeps GPUs busier, but needs more memory. Try 2 to 4.
+    """
+    model_name: str
+    embedding_dim: int
+    batch_size: int = 64
+    multi_gpu: Any = False
+    normalize: bool = False
+    dtype: str = "float32"
+    pad_to_batch: bool = False
+    in_queue_maxsize: int = 4
+
+
+def _gpu_worker(
+    dev_id: int,
+    model_name: str,
+    normalize: bool,
+    batch_size: int,
+    in_q: mp.Queue,
+    out_q: mp.Queue,
+    err_q: mp.Queue,
+):
+    """
+    One worker process bound to a single GPU.
+
+    What it does:
+      1) Read a job from 'in_q': (idxs, texts)
+      2) Encode texts on its GPU with Sentence-Transformers
+      3) Put results into 'out_q': (idxs, vectors)
+      4) If it reads None from 'in_q', it exits
+
+    Args:
+      dev_id: CUDA device index for this worker (0-based).
+      model_name: ST model to load on this GPU.
+      normalize: Whether to normalize embeddings.
+      batch_size: Number of texts per job for this worker.
+      in_q: Queue where the main process sends jobs.
+      out_q: Queue where this worker sends back (idxs, embeddings).
+      err_q: Queue to report exceptions so the main process can fail fast.
+    """
+    # Restrict visibility BEFORE importing torch
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(dev_id)
+    try:
+        import torch
+        from sentence_transformers import SentenceTransformer
+
+        device = "cuda"  # with CUDA_VISIBLE_DEVICES set, this is the local 0
+        model = SentenceTransformer(model_name, device=device)
+
+        while True:
+            item = in_q.get()
+            if item is None:
+                break
+            idxs, texts = item
+            with torch.no_grad():
+                vecs = model.encode(
+                    texts,
+                    batch_size=batch_size,
+                    convert_to_numpy=True,
+                    normalize_embeddings=normalize,
+                    show_progress_bar=False,
+                )
+            out_q.put((idxs, vecs.astype(np.float32)))
+    except Exception as e:
+        # Surface errors to the main process; also unblock collectors
+        try:
+            err_q.put(repr(e))
+            out_q.put(([], np.zeros((0,), dtype=np.float32)))
+        except Exception:
+            pass
+
+
+class STMultiGPUEmbedder:
+    """
+    Sentence-Transformers embedder with CPU/single-GPU fast path and optional multi-GPU workers.
+
+    Safety/robustness:
+      - Model loads once on CPU or single GPU.
+      - Multi-GPU uses persistent 'spawn' workers; reusable across multiple .embed() calls.
+      - Neatly close() and __del__().
+      - Strict shape/dimension validation.
+      - Worker errors bubble up; deadlock-protected collection.
+    """
+
+    def __init__(self, cfg: STCfg):
+        self.cfg = cfg
+        self.model_name = cfg.model_name
+        self.embedding_dim = int(cfg.embedding_dim)
+        self.dtype = np.float16 if str(cfg.dtype).lower() == "float16" else np.float32
+
+        self._model = None
+        self._gpus: List[int] = self._resolve_gpus(cfg.multi_gpu)
+        self._mpctx: Optional[mp.context.BaseContext] = None
+        self._in_qs: List[mp.Queue] = []
+        self._out_q: Optional[mp.Queue] = None
+        self._err_q: Optional[mp.Queue] = None
+        self._workers: List[mp.Process] = []
+
+        if len(self._gpus) > 1:
+            self._ensure_workers()
+        else:
+            self._load_single_model()
+
+    # ---------- helpers (init/runtime) ----------
+
+    def _resolve_gpus(self, multi_gpu: Any) -> List[int]:
+        try:
+            import torch
+            has = bool(getattr(torch, "cuda", None) and torch.cuda.is_available())
+            n = torch.cuda.device_count() if has else 0
+        except Exception:
+            n = 0
+
+        if not multi_gpu or n == 0:
+            return []
+        if multi_gpu == "auto":
+            return list(range(n)) if n >= 2 else []
+        if isinstance(multi_gpu, (list, tuple)):
+            out = [int(x) for x in multi_gpu if 0 <= int(x) < n]
+            return out if len(out) >= 2 else []
+        return []
+
+    def _load_single_model(self):
+        """Load a single SentenceTransformer model (CPU or one CUDA)."""
+        if self._model is not None:
+            return
+        try:
+            import torch
+            from sentence_transformers import SentenceTransformer
+            device = "cuda" if (getattr(torch, "cuda", None) and torch.cuda.is_available()) else "cpu"
+            self._model = SentenceTransformer(self.model_name, device=device)
+        except Exception as e:
+            raise RuntimeError(f"Failed to load SentenceTransformer: {e!r}")
+
+        dim_fn = getattr(self._model, "get_sentence_embedding_dimension", None)
+        if callable(dim_fn):
+            dim = int(dim_fn())
+            if dim != self.embedding_dim:
+                raise ValueError(
+                    f"Embedding dim mismatch: model={dim}, cfg.embedding_dim={self.embedding_dim}"
+                )
+
+    def _ensure_workers(self):
+        """(Re)start multi-GPU workers if not running."""
+        if self._workers and all(p.is_alive() for p in self._workers):
+            return
+        # restart cleanly
+        self.close()
+
+        self._mpctx = mp.get_context("spawn")
+        self._out_q = self._mpctx.Queue()
+        self._err_q = self._mpctx.Queue()
+        self._in_qs = []
+        self._workers = []
+
+        qsize = max(1, int(self.cfg.in_queue_maxsize))
+        for dev in self._gpus:
+            q = self._mpctx.Queue(maxsize=qsize)
+            self._in_qs.append(q)
+            p = self._mpctx.Process(
+                target=_gpu_worker,
+                args=(
+                    dev,
+                    self.model_name,
+                    self.cfg.normalize,
+                    int(self.cfg.batch_size),
+                    q,
+                    self._out_q,
+                    self._err_q,
+                ),
+                daemon=True,
+            )
+            p.start()
+            self._workers.append(p)
+
+    # ---------- public API ----------
+
+    def embed(self, texts: List[str]) -> List[List[float]]:
+        """Encode texts into embeddings. Safe to call repeatedly."""
+        if not texts:
+            return []
+
+        if len(self._gpus) > 1:
+            self._ensure_workers()
+            return self._embed_multi(texts)
+
+        self._load_single_model()
+        return self._embed_single(texts)
+
+    def close(self):
+        """Neatly stop workers and release resources."""
+        if not self._workers:
+            return
+        try:
+            for q in self._in_qs:
+                q.put(None)
+            for p in self._workers:
+                p.join(timeout=10)
+            for p in self._workers:
+                if p.is_alive():
+                    p.terminate()
+        finally:
+            self._workers.clear()
+            self._in_qs.clear()
+            if self._out_q is not None:
+                try:
+                    self._out_q.close()
+                except Exception:
+                    pass
+            if self._err_q is not None:
+                try:
+                    self._err_q.close()
+                except Exception:
+                    pass
+            self._out_q = None
+            self._err_q = None
+
+    def __del__(self):
+        try:
+            self.close()
+        except Exception:
+            pass
+
+    # ---------- impl ----------
+
+    def _embed_single(self, texts: List[str]) -> List[List[float]]:
+        bs = max(1, int(self.cfg.batch_size))
+        vecs = self._model.encode(
+            texts,
+            batch_size=bs,
+            convert_to_numpy=True,
+            normalize_embeddings=self.cfg.normalize,
+            show_progress_bar=False,
+        )
+        vecs = vecs.astype(self.dtype, copy=False)
+        if vecs.ndim != 2 or vecs.shape[1] != self.embedding_dim:
+            raise ValueError(f"Embedding dim mismatch: got {tuple(vecs.shape)}, expected (*, {self.embedding_dim})")
+        return vecs.tolist()
+
+    def _embed_multi(self, texts: List[str]) -> List[List[float]]:
+        real_n = len(texts)
+        batch = max(1, int(self.cfg.batch_size))
+
+        # Optional padding to full batch size for steadier throughput
+        if self.cfg.pad_to_batch:
+            pad = (-real_n) % batch
+            if pad:
+                texts = texts + [""] * pad
+        else:
+            pad = 0
+
+        # Build tasks
+        tasks: List[Tuple[List[int], List[str]]] = []
+        for i in range(0, len(texts), batch):
+            idxs = list(range(i, min(i + batch, len(texts))))
+            tasks.append((idxs, texts[i:i + batch]))
+
+        # Round-robin submit
+        for j, t in enumerate(tasks):
+            self._in_qs[j % len(self._gpus)].put(t)
+
+        # Collect with safety
+        import queue as pyqueue
+
+        out: dict[int, np.ndarray] = {}
+        remaining = len(tasks)
+        while remaining:
+            # bubble up worker errors quickly
+            if self._err_q is not None:
+                try:
+                    msg = self._err_q.get_nowait()
+                    raise RuntimeError(f"Worker error: {msg}")
+                except pyqueue.Empty:
+                    pass
+
+            try:
+                idxs, vecs = self._out_q.get(timeout=60.0)  # safety timeout
+            except pyqueue.Empty:
+                dead = [p for p in self._workers if not p.is_alive()]
+                if dead:
+                    raise RuntimeError("One or more GPU workers died unexpectedly.")
+                continue
+
+            for k, row in zip(idxs, vecs):
+                out[k] = row.astype(self.dtype, copy=False)
+            remaining -= 1
+
+        # Order by original indices
+        ordered = [out[i] for i in range(len(texts))]
+
+        # Drop padded tail outputs
+        if pad:
+            ordered = ordered[:real_n]
+
+        # Sanity check on one vector
+        if ordered and (ordered[0].ndim != 1 or ordered[0].shape[0] != self.embedding_dim):
+            raise ValueError(
+                f"Embedding dim mismatch: got {ordered[0].shape[0]}, expected {self.embedding_dim}"
+            )
+        return [v.tolist() for v in ordered]
