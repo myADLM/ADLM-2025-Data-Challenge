@@ -123,8 +123,6 @@ class STMultiGPUEmbedder:
         # ---- build cfg from file if not provided ----
         prefer_device: Optional[str] = None
         if cfg is None:
-            if not load_config:
-                raise RuntimeError("Config file loader not available; pass STCfg manually.")
             app_cfg = load_config()
             emb = app_cfg.embedding
             cfg = STCfg(
@@ -350,6 +348,9 @@ class STMultiGPUEmbedder:
             remaining -= 1
 
         # Order by original indices
+        missing = [i for i in range(len(texts)) if i not in out]
+        if missing:
+            raise RuntimeError(f"Missing embeddings for indices: {missing[:10]}{'...' if len(missing)>10 else ''}")
         ordered = [out[i] for i in range(len(texts))]
 
         # Drop padded tail outputs

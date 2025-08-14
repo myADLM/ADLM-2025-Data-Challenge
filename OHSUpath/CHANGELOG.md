@@ -33,6 +33,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.29] - 2025-08-13
+### Fixed
+- Chunk.file_path changed to Optional[str]; relax VectorIndex.as_retriever Protocol
+- st_multi_gpu: drop redundant load_config check; detect missing outputs in multi route
+
+
 ## [0.1.28] - 2025-08-13
 ### Added
 - ST embedder now auto-loads settings from config file.
