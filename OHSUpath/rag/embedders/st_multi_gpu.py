@@ -42,6 +42,8 @@ class STCfg:
       in_queue_maxsize: How many pending batches we allow per GPU.
         Lower  -> lower memory use, maybe less GPU utilization.
         Higher -> keeps GPUs busier, but needs more memory. Try 2 to 4.
+
+      allow_cpu_fallback: If True, when CUDA init/transfer fails, fall back to CPU instead of raising.
     """
     model_name: str
     embedding_dim: int
@@ -51,6 +53,7 @@ class STCfg:
     dtype: str = "float32"
     pad_to_batch: bool = False
     in_queue_maxsize: int = 4
+    allow_cpu_fallback: bool = True
 
 
 def _gpu_worker(
@@ -58,12 +61,13 @@ def _gpu_worker(
     model_name: str,
     normalize: bool,
     batch_size: int,
+    allow_cpu_fallback: bool,
     in_q: mp.Queue,
     out_q: mp.Queue,
     err_q: mp.Queue,
 ):
     """
-    One worker process bound to a single GPU.
+    Single worker bound to one logical GPU. Uses a unified "safe load" policy:
 
     What it does:
       1) Read a job from 'in_q': (idxs, texts)
@@ -76,18 +80,31 @@ def _gpu_worker(
       model_name: ST model to load on this GPU.
       normalize: Whether to normalize embeddings.
       batch_size: Number of texts per job for this worker.
+      allow_cpu_fallback: Fall back to CPU if GPU not avaliable.
       in_q: Queue where the main process sends jobs.
       out_q: Queue where this worker sends back (idxs, embeddings).
       err_q: Queue to report exceptions so the main process can fail fast.
     """
-    # Restrict visibility BEFORE importing torch
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(dev_id)  # set before torch import
+    # Isolate the visible device for this worker before importing torch
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(dev_id)
+
     try:
         import torch
         from sentence_transformers import SentenceTransformer
 
-        device = "cuda"  # with CUDA_VISIBLE_DEVICES set, this is the local 0
-        model = SentenceTransformer(model_name, device=device)
+        model = SentenceTransformer(model_name, device="cpu")
+        target_device = "cpu"
+
+        try:
+            if torch.cuda.is_available():
+                model.to(torch.device("cuda"))
+                target_device = "cuda"
+        except Exception as e:
+            if allow_cpu_fallback:
+                print(f"[WARN][worker:{dev_id}] CUDA init/transfer failed; falling back to CPU: {repr(e)}")
+                target_device = "cpu"
+            else:
+                raise
 
         while True:
             item = in_q.get()
@@ -95,14 +112,25 @@ def _gpu_worker(
                 break
             idxs, texts = item
             with torch.no_grad():
-                vecs = model.encode(
-                    texts,
-                    batch_size=batch_size,
-                    convert_to_numpy=True,
-                    normalize_embeddings=normalize,
-                    show_progress_bar=False,
-                )
-            out_q.put((idxs, vecs.astype(np.float32)))
+                try:
+                    vecs = model.encode(
+                        texts,
+                        batch_size=batch_size,
+                        convert_to_numpy=True,
+                        normalize_embeddings=normalize,
+                        show_progress_bar=False,
+                        device=target_device,
+                    )
+                except TypeError:
+                    vecs = model.encode(
+                        texts,
+                        batch_size=batch_size,
+                        convert_to_numpy=True,
+                        normalize_embeddings=normalize,
+                        show_progress_bar=False,
+                    )
+
+            out_q.put((idxs, vecs.astype(np.float32, copy=False)))
     except Exception as e:
         # Surface errors to the main process; also unblock collectors
         try:
@@ -114,9 +142,13 @@ def _gpu_worker(
 
 class STMultiGPUEmbedder:
     """
-    Sentence-Transformers embedder with CPU/single-GPU fast path and optional multi-GPU workers.
-    - If cfg is None: auto-loads settings from config file (config.yaml/env).
-    - Respects runtime.device == "cpu" to force CPU and disable multi-GPU.
+    Sentence-Transformers embedder with a unified safety policy for both single and multi-GPU:
+      - Always build the model on CPU first.
+      - If device preference is "cuda", attempt to move to CUDA.
+      - If that fails and allow_cpu_fallback=True: keep running on CPU; otherwise raise immediately.
+
+    Device preference is read from config.runtime.device ("cuda" | "cpu").
+    If runtime.device="cpu", multi_gpu is effectively disabled.
     """
 
     def __init__(self, cfg: STCfg | None = None):
@@ -134,19 +166,29 @@ class STMultiGPUEmbedder:
                 dtype=getattr(emb, "dtype", "float32"),
                 pad_to_batch=getattr(emb, "pad_to_batch", False),
                 in_queue_maxsize=getattr(emb, "in_queue_maxsize", 4),
+                allow_cpu_fallback=getattr(emb, "allow_cpu_fallback", True),
             )
-
             prefer_device = getattr(getattr(app_cfg, "runtime", None), "device", None)
+        else:
+            try:
+                prefer_device = getattr(getattr(load_config(), "runtime", None), "device", None)
+            except Exception:
+                prefer_device = None
+
         self.cfg = cfg
         self.model_name = cfg.model_name
         self.embedding_dim = int(cfg.embedding_dim)
         self.dtype = np.float16 if str(cfg.dtype).lower() == "float16" else np.float32
+        self._allow_cpu_fallback = bool(getattr(cfg, "allow_cpu_fallback", True))
 
-        # If user forces CPU, disable multi-GPU and remember preference
-        self._prefer_cpu = str(prefer_device or "").lower() == "cpu"
-        self._model = None  # single-path cache
+        # Respect device preference strictly; do not silently override it unless fallback is triggered.
+        pref = (prefer_device or "").strip().lower()
+        self._device_pref = "cuda" if pref == "cuda" else "cpu"
 
-        self._gpus: List[int] = self._resolve_gpus(cfg.multi_gpu)
+        # Internal fields
+        self._model = None                      # single path model
+        self._device_actual = "cpu"             # where the single path encodes on (after safe load)
+        self._gpus: List[int] = self._resolve_gpus(cfg.multi_gpu)  # resolved multi-GPU ids (>=2) or []
         self._mpctx: Optional[mp.context.BaseContext] = None
         self._in_qs: List[mp.Queue] = []
         self._out_q: Optional[mp.Queue] = None
@@ -158,10 +200,12 @@ class STMultiGPUEmbedder:
         else:
             self._load_single_model()
 
-    # ---------- helpers (init/runtime) ----------
+    # ---------- helpers ----------
 
     def _resolve_gpus(self, multi_gpu: Any) -> List[int]:
-        if self._prefer_cpu:
+        """Return a list of GPU ids for multi-GPU mode; empty if single-path is used."""
+        # If user prefers CPU, don't even try multi-GPU.
+        if self._device_pref != "cuda":
             return []
         try:
             import torch
@@ -180,20 +224,44 @@ class STMultiGPUEmbedder:
         return []
 
     def _load_single_model(self):
-        """Load a single SentenceTransformer model (CPU or one CUDA)."""
+        """Load a single SentenceTransformer model safely and decide the actual device."""
         if self._model is not None:
             return
         try:
             import torch
             from sentence_transformers import SentenceTransformer
-            if self._prefer_cpu:
-                device = "cpu"
-            else:
-                device = "cuda" if (getattr(torch, "cuda", None) and torch.cuda.is_available()) else "cpu"
-            self._model = SentenceTransformer(self.model_name, device=device)
+
+            # Always build on CPU first to avoid meta-tensor surprises.
+            model = SentenceTransformer(self.model_name, device="cpu")
+            target = "cpu"
+
+            # If user prefers CUDA, attempt to transfer. Fallback to CPU if allowed.
+            if self._device_pref == "cuda":
+                try:
+                    if torch.cuda.is_available():
+                        model.to(torch.device("cuda"))
+                        target = "cuda"
+                    else:
+                        # CUDA not available: decide based on fallback policy
+                        if self._allow_cpu_fallback:
+                            print("[WARN] CUDA not available; falling back to CPU.")
+                            target = "cpu"
+                        else:
+                            raise RuntimeError("CUDA not available and CPU fallback disabled.")
+                except Exception as e:
+                    if self._allow_cpu_fallback:
+                        print(f"[WARN] CUDA init/transfer failed; falling back to CPU: {repr(e)}")
+                        target = "cpu"
+                    else:
+                        raise
+
+            self._model = model
+            self._device_actual = target
+
         except Exception as e:
             raise RuntimeError(f"Failed to load SentenceTransformer: {e!r}")
 
+        # Validate embedding dimension
         dim_fn = getattr(self._model, "get_sentence_embedding_dimension", None)
         if callable(dim_fn):
             dim = int(dim_fn())
@@ -203,7 +271,7 @@ class STMultiGPUEmbedder:
                 )
 
     def _ensure_workers(self):
-        """(Re)start multi-GPU workers if not running."""
+        """(Re)start multi-GPU workers with the unified safe policy."""
         if self._workers and all(p.is_alive() for p in self._workers):
             return
         # restart cleanly
@@ -226,6 +294,7 @@ class STMultiGPUEmbedder:
                     self.model_name,
                     self.cfg.normalize,
                     int(self.cfg.batch_size),
+                    bool(self._allow_cpu_fallback),
                     q,
                     self._out_q,
                     self._err_q,
@@ -236,6 +305,11 @@ class STMultiGPUEmbedder:
             self._workers.append(p)
 
     # ---------- public API ----------
+
+    @property
+    def device(self) -> str:
+        """Return the actual device used by the single-path model ('cpu' or 'cuda')."""
+        return self._device_actual
 
     def embed(self, texts):
         """
@@ -304,14 +378,28 @@ class STMultiGPUEmbedder:
         if not texts:
             return []
 
+        import torch  # local import to avoid side effects at import time
+
         bs = max(1, int(self.cfg.batch_size))
-        vecs = self._model.encode(
-            texts,
-            batch_size=bs,
-            convert_to_numpy=True,
-            normalize_embeddings=self.cfg.normalize,
-            show_progress_bar=False,
-        )
+        try:
+            vecs = self._model.encode(
+                texts,
+                batch_size=bs,
+                convert_to_numpy=True,
+                normalize_embeddings=self.cfg.normalize,
+                show_progress_bar=False,
+                device=self._device_actual,  # new API
+            )
+        except TypeError:
+            # old API fallback (relies on model's internal device)
+            vecs = self._model.encode(
+                texts,
+                batch_size=bs,
+                convert_to_numpy=True,
+                normalize_embeddings=self.cfg.normalize,
+                show_progress_bar=False,
+            )
+
         if getattr(vecs, "ndim", None) == 1:
             vecs = vecs.reshape(1, -1)
 
@@ -327,13 +415,12 @@ class STMultiGPUEmbedder:
         real_n = len(texts)
         batch = max(1, int(self.cfg.batch_size))
 
-        # Optional padding to full batch size for steadier throughput
+        # Optional padding for steadier throughput
+        pad = 0
         if self.cfg.pad_to_batch:
             pad = (-real_n) % batch
             if pad:
                 texts = texts + [""] * pad
-        else:
-            pad = 0
 
         # Build tasks
         tasks: List[Tuple[List[int], List[str]]] = []

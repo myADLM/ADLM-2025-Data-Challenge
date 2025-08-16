@@ -9,6 +9,7 @@ import hashlib
 from pathlib import Path
 from typing import Dict, List, Tuple, Set, Optional, Any
 from config import load_config
+from typing import Callable
 
 try:
     from langchain.schema import Document
@@ -215,10 +216,24 @@ class IndexManager:
 
     # --- refresh ---
 
-    def refresh(self, data_dir: str, exts: List[str] | None, prev: Dict[str, FileMeta]) -> Dict[str, FileMeta]:
+    def refresh(
+        self,
+        data_dir: str,
+        exts: List[str] | None,
+        prev: Dict[str, FileMeta],
+        *,
+        progress: Optional[Callable[[str], None]] = None,
+    ) -> Dict[str, FileMeta]:
         """
         Returns the new manifest map (path -> FileMeta).
         """
+        def _report(event: str, **kw):
+            if progress:
+                try:
+                    progress(event, **kw)
+                except Exception:
+                    pass
+
         ensure_dirs(self.layout)
 
         m = _cfg_get(self.cfg, "manager", None)
@@ -233,9 +248,11 @@ class IndexManager:
         t0 = time.time()
         if enable_journal:
             journal_append(self.layout, "BEGIN_REFRESH", {"data_dir": data_dir})
+        _report("refresh_start", data_dir=data_dir)
 
         try:
             # 1) discover (loader supports exts=None)
+            _report("discover_start")
             paths = list(self.loader.discover(data_dir, exts))
             paths = _filter_paths(
                 paths,
@@ -244,15 +261,19 @@ class IndexManager:
                 ignore_dotfiles=ignore_dotfiles,
                 follow_symlinks=follow_symlinks,
             )
+            _report("discover_done", total=len(paths))
 
             # 2) diff with lazy hashing
+            _report("diff_start")
             curr, d = _diff_files_lazy(paths, prev, hash_buf=hash_buf)
+            _report("diff_done", added=len(d.added), removed=len(d.removed), modified=len(d.modified))
 
             # 3) delete set (by file path)
             rm_paths: Set[str] = {f.path for f in d.removed} | {new.path for _, new in d.modified}
 
             # 4) load new/modified (outside lock)
             add_paths: List[str] = [f.path for f in d.added] + [new.path for _, new in d.modified]
+            _report("load_start", total=len(add_paths))
             docs: List[Document] = []
             if add_paths:
                 if hasattr(self.loader, "load_many_parallel"):
@@ -260,13 +281,17 @@ class IndexManager:
                 else:
                     for p in add_paths:
                         docs.extend(self.loader.load(p))
+            _report("load_done", docs=len(docs))
 
             # 5) split (outside lock)
+            _report("split_start", total=len(docs))
             chunks: List[Chunk] = self.chunker.split(docs) if docs else []
+            _report("split_done", chunks=len(chunks))
 
             # 6) embed (+ optional cache)
             vecs: List[List[float]] = []
             if chunks:
+                _report("embed_start", total=len(chunks))
                 model_name = getattr(self.embedder, "model_name", type(self.embedder).__name__)
                 # expected dim: cfg.embedding.embedding_dim > embedder.embedding_dim > None
                 embedding_cfg = _cfg_get(self.cfg, "embedding", None)
@@ -299,6 +324,7 @@ class IndexManager:
                     vecs = self.embedder.embed(texts)
                     if expected_dim is not None and vecs and len(vecs[0]) != int(expected_dim):
                         raise ValueError(f"Embedding dim mismatch: got {len(vecs[0])}, expected {expected_dim}")
+                _report("embed_done", vectors=len(vecs))
 
             # 7) commit stage (lock): delete → upsert → persist → manifest
             lock_cfg = _cfg_get(self.cfg, "lock", None)
@@ -307,6 +333,7 @@ class IndexManager:
                 backoff_initial_s=float(_cfg_get(lock_cfg, "backoff_initial_s", 0.001)),
                 backoff_max_s=float(_cfg_get(lock_cfg, "backoff_max_s", 0.05)),
             )
+            _report("commit_start", delete=len(rm_paths), upsert=len(chunks))
             with interprocess_lock(str(self.layout.lock_file), **lock_kwargs):
                 # delete by sources (prefer public API if present)
                 if rm_paths:
@@ -333,6 +360,7 @@ class IndexManager:
                 # persist index + manifest
                 self.index.persist_atomic(str(self.layout.index_dir))
                 save_bulk(str(self.layout.manifest_db), curr)
+            _report("commit_done")
 
             if enable_journal:
                 journal_append(
@@ -346,6 +374,14 @@ class IndexManager:
                         "t_ms": int((time.time() - t0) * 1000),
                     },
                 )
+            _report(
+                "refresh_done",
+                added=len(d.added),
+                removed=len(d.removed),
+                modified=len(d.modified),
+                elapsed_ms=int((time.time() - t0) * 1000),
+                manifest=len(curr),
+                )
             return curr
 
         except Exception as e:
@@ -355,4 +391,5 @@ class IndexManager:
                     "END_REFRESH",
                     {"ok": False, "error": repr(e), "t_ms": int((time.time() - t0) * 1000)},
                 )
+            _report("refresh_error", error=repr(e))
             raise

@@ -133,9 +133,13 @@ class PdfLoaderOptimized(DocumentLoader):
         if not paths:
             return []
 
-        ctx = mp.get_context("spawn")
-        in_q: mp.Queue = ctx.Queue(maxsize=max(2, int(self.cfg.io_batch_files or 1)))
-        out_q: mp.Queue = ctx.Queue()
+        if isinstance(self.cfg.num_proc, str):
+            nproc_cfg = (os.cpu_count() or 1) if self.cfg.num_proc == "max" else int(self.cfg.num_proc or 1)
+        else:
+            nproc_cfg = int(self.cfg.num_proc or 1)
+        nproc = max(1, nproc_cfg)
+        if os.name == "nt":
+            nproc = 1
 
         byte_budget = max(1, int(self.cfg.prefetch_budget_mb or 1)) * 1024 * 1024
         batches, i, bid = [], 0, 0
@@ -157,14 +161,20 @@ class PdfLoaderOptimized(DocumentLoader):
             bid += 1
             i = j
 
-        if isinstance(self.cfg.num_proc, str):
-            if self.cfg.num_proc == "max":
-                nproc_cfg = os.cpu_count() or 1
-            else:
-                nproc_cfg = int(self.cfg.num_proc or 1)
-        else:
-            nproc_cfg = int(self.cfg.num_proc or 1)
-        nproc = max(1, nproc_cfg)
+        if nproc == 1:
+            out: List[Document] = []
+            for _bid, file_items in batches:
+                for path, b in file_items:
+                    try:
+                        out.extend(_decode_pdf_bytes(b, self.cfg.pdf_text_mode, path))
+                    except Exception as e:
+                        out.append(Document(page_content="", metadata={"source": path, "parse_error": True, "error": repr(e)}))
+            return out
+
+        ctx = mp.get_context("spawn")
+        in_q: mp.Queue = ctx.Queue(maxsize=max(2, int(self.cfg.io_batch_files or 1)))
+        out_q: mp.Queue = ctx.Queue()
+
         workers = [ctx.Process(target=_worker, args=(in_q, out_q, self.cfg.pdf_text_mode)) for _ in range(nproc)]
         for w in workers:
             w.start()

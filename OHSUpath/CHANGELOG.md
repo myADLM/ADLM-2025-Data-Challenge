@@ -33,6 +33,26 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.34] - 2025-08-15
+### Added
+- Streamlit app: collapsible Progress card, retrieval-only toggle, PromptSpy panel.
+- `IndexManager.refresh(...)` now supports a `progress` callback and emits granular events (`*_start`, `*_done`, `refresh_start/done`, `commit_start/done`, `refresh_error`).
+- Embedder: `allow_cpu_fallback` option and unified "safe load" policy; expose `device` property.
+- Pipeline: forward `progress` kw to manager; `build_qa()` uses local import to avoid import-time side effects.
+- Loader: single-process fast path; automatic worker spawn only when needed.
+- Windows: guardrails for parallelism (chunker/loader fall back to 1 process on `os.name == "nt"`).
+- New file: `requirements.txt`.
+
+### Changed
+- App defaults: `USE_YAML_CONFIG_DEFAULT` set to `False` (use env + defaults unless YAML is explicitly enabled).
+- Multi-GPU batching: padding path clarified; minor internal cleanups.
+
+### Fixed
+- Safer device selection and fallback when CUDA is unavailable or init fails.
+- More robust progress logging and journaling alignment.
+- Minor logging/format issues, and edge cases in multi-GPU collection.
+
+
 ## [0.1.33] - 2025-08-14
 ### Added
 - Pipeline & retriever now auto-load config (YAML/env) when `cfg=None`.

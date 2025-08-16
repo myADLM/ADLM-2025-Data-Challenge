@@ -1,7 +1,7 @@
 # rag/pipeline.py
 
 from __future__ import annotations
-
+import os
 from typing import Dict, Any, List
 from config import load_config
 from .storage.fs_paths import FsLayout, ensure_dirs
@@ -10,7 +10,7 @@ from .chunkers.rcts_chunker_parallel import RctsChunkerParallel, SplitCfg as Spl
 from .embedders.st_multi_gpu import STMultiGPUEmbedder, STCfg
 from .vectorstores.faiss_store import FaissIndex
 from .index_manager import IndexManager
-from .retriever import build_qa
+# from .retriever import build_qa
 
 
 def _cfg_get(obj: Any, name: str, default: Any = None) -> Any:
@@ -61,11 +61,12 @@ class RagPipeline:
         # ---- chunker (split + hashing) ----
         split = _cfg_get(self.cfg, "split", None)
         hashing = _cfg_get(self.cfg, "hashing", None)
+        _chunker_nproc = 1 if os.name == "nt" else _cfg_get(split, "num_proc", "max")
         self.chunker = RctsChunkerParallel(
             SplitCfgChunker(
                 chunk_size=int(_cfg_get(split, "chunk_size", 1200)),
                 chunk_overlap=int(_cfg_get(split, "chunk_overlap", 200)),
-                num_proc=_cfg_get(split, "num_proc", "max"),
+                num_proc=_chunker_nproc,
                 source_keys=tuple(_cfg_get(split, "source_keys", ["source", "file_path", "path"])),
                 page_keys=tuple(_cfg_get(split, "page_keys", ["page", "page_number", "page_no"])),
                 chunk_id_hash_len=int(_cfg_get(hashing, "chunk_id_hash_len", 32)),
@@ -85,6 +86,7 @@ class RagPipeline:
                 dtype=str(_cfg_get(emb, "dtype", "float32")),
                 pad_to_batch=bool(_cfg_get(emb, "pad_to_batch", False)),
                 in_queue_maxsize=int(_cfg_get(emb, "in_queue_maxsize", 4)),
+                allow_cpu_fallback=bool(_cfg_get(emb, "allow_cpu_fallback", True)),
             )
         )
 
@@ -126,12 +128,16 @@ class RagPipeline:
             _cfg_get(paths, "allowed_extensions", [".pdf"]),
         )
 
-    def refresh(self, prev_manifest):
+    def refresh(self, prev_manifest, **kw):
+        """
+        Pass-through for extra controls like progress=callback.
+        """
         paths = _cfg_get(self.cfg, "paths", None)
         return self.manager.refresh(
             _cfg_get(paths, "data_dir", "minidata/LabDocs"),
             _cfg_get(paths, "allowed_extensions", [".pdf"]),
             prev_manifest,
+            **({k: v for k, v in kw.items() if k in ("progress",)})  # forward whitelisted kwargs
         )
 
     # ---------- Retrieval & QA ----------
@@ -162,7 +168,10 @@ class RagPipeline:
             search_kwargs=skw,
         )
 
-    def build_qa(self):
-        return build_qa(self.serve(), self.cfg)
+    # def build_qa(self):
+    #     return build_qa(self.serve(), self.cfg)
 
+    def build_qa(self):
+        from .retriever import build_qa as _build_qa
+        return _build_qa(self.serve(), self.cfg)
 

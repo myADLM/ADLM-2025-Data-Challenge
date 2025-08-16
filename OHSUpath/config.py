@@ -57,8 +57,6 @@ from pathlib import Path
 import os
 import yaml
 from typing import Optional, Dict, Any, List, Tuple
-from dataclasses import dataclass, field
-
 
 
 # ----------------------------
@@ -187,6 +185,7 @@ class EmbeddingCfg:
     dtype: str = "float32"      # "float32" | "float16"
     pad_to_batch: bool = False  # steady throughput for multi-GPU
     in_queue_maxsize: int = 4   # per-GPU pending batches
+    allow_cpu_fallback: bool = True
 
 
 

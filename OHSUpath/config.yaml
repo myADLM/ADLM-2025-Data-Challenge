@@ -132,6 +132,7 @@ embedding:
   dtype: "float32"          # "float32" | "float16"
   pad_to_batch: false       # steady throughput for multi-GPU
   in_queue_maxsize: 4       # per-GPU pending batches
+  allow_cpu_fallback: true
     
   # Setting for the new sentence transformer InstructorXL
 # embedding:
