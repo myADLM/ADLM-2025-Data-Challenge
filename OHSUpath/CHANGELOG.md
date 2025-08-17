@@ -33,6 +33,20 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.35] - 2025-08-16
+### Added
+- Factory Reset in Settings to wipe `index`, `.rag_store`, `caches` (with confirmation).
+- Auto-recover index meta mismatch during bootstrap (clean + rebuild).
+
+### Changed
+- Prep progress UI state before heavy work to avoid blank widgets on errors.
+- Show indexing summary earlier in Settings.
+- Switch distance from `L2` to `cosine` (use`faiss_metric=ip` and `normalize_embeddings=true`) in `config` for higher precision.
+
+### Fixed
+- Bootstrap no longer crashes on `Index meta mismatch`.
+
+
 ## [0.1.34] - 2025-08-15
 ### Added
 - Streamlit app: collapsible Progress card, retrieval-only toggle, PromptSpy panel.

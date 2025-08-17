@@ -179,8 +179,8 @@ class EmbeddingCfg:
     )
     embedding_dim: int = 384  # Size of the embedding vector (must match the model)
     batch_size: int = 64
-    faiss_metric: str = "l2"  # "l2" or "ip"
-    normalize_embeddings: bool = False # set true when faiss_metric is ip
+    faiss_metric: str = "ip"  # "l2" or "ip"
+    normalize_embeddings: bool = True # set true when faiss_metric is ip
     multi_gpu: object = False   # false | "auto" | [0,1]
     dtype: str = "float32"      # "float32" | "float16"
     pad_to_batch: bool = False  # steady throughput for multi-GPU

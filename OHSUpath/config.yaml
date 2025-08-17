@@ -126,8 +126,8 @@ embedding:
   # WARNING: Must match the model. Changing this will break compatibility.
   embedding_dim: 384
   batch_size: 64                    # batch size for embedding
-  faiss_metric: "l2"                # "l2" or "ip"
-  normalize_embeddings: false
+  faiss_metric: "ip"                # "l2" or "ip"
+  normalize_embeddings: True
   multi_gpu: false          # false | "auto" | [0,1]
   dtype: "float32"          # "float32" | "float16"
   pad_to_batch: false       # steady throughput for multi-GPU

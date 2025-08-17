@@ -109,9 +109,7 @@ def _ensure_index(
     bar_ph   = ui.get("bar")
     log_ph   = ui.get("log")
 
-    prev = pipe.bootstrap()
-
-    # Session state containers
+    # --- Ensure UI state is ready BEFORE any heavy work/possible errors ---
     st.session_state.setdefault("index_phase", "starting...")
     st.session_state.setdefault("index_pct", 0)
     st.session_state.setdefault("index_logs", [])
@@ -158,6 +156,23 @@ def _ensure_index(
         _push(f"[info] Rebuilding index under: {pipe.layout.index_dir.parent}")
 
     try:
+        prev = pipe.bootstrap()
+    except RuntimeError as e:
+        msg = str(e)
+        if "Index meta mismatch" in msg:
+            _push("[warn] Detected index meta mismatch. Cleaning index + manifest, then rebuilding...")
+            _clear_index(pipe)
+            prev = pipe.bootstrap()
+        else:
+            st.session_state.index_phase = "error"
+            if phase_ph:
+                phase_ph.markdown("**error**")
+            st.session_state.index_pct = 100
+            bar_handle.progress(100)
+            _push(f"[error] {repr(e)}")
+            raise
+
+    try:
         def on_progress(event: str, **kw):
             """
             Progress event contract (emitted by IndexManager.refresh):
@@ -201,6 +216,60 @@ def _ensure_index(
         st.session_state.index_summary = f"Indexing complete ({len(curr)} files)."
         _push(f"[ok] {st.session_state.index_summary}")
         return curr
+    
+def _clear_project_artifacts(pipe: RagPipeline):
+    """
+    Clean up regenerable artifacts:
+      - Index directory + manifest (via _clear_index)
+      - Entire .rag_store (only if it lives under the project root and the name
+        looks like a vector-store directory)
+      - Top-level .pytest_cache
+      - All __pycache__ directories and *.pyc files
+    Does NOT touch: source code, data/, minidata/, config
+    """
+    root = Path(__file__).resolve().parent
+
+    # 1) index + manifest
+    _clear_index(pipe)
+
+    # 2) .rag_store
+    try:
+        store_dir = Path(pipe.layout.index_dir).parent
+        store_dir_res = store_dir.resolve()
+        root_res = root.resolve()
+        safe_names = {".rag_store", "rag_store", ".vectorstore", "indexes"}
+        is_under_project = root_res in store_dir_res.parents
+        looks_like_store = store_dir_res.name in safe_names
+        if is_under_project and looks_like_store and store_dir_res.is_dir():
+            shutil.rmtree(store_dir_res, ignore_errors=True)
+        else:
+            pass
+    except Exception:
+        pass
+
+    # 3) .pytest_cache
+    try:
+        shutil.rmtree(root / ".pytest_cache", ignore_errors=True)
+    except Exception:
+        pass
+
+    # 4) __pycache__
+    try:
+        for p in root.rglob("__pycache__"):
+            shutil.rmtree(p, ignore_errors=True)
+    except Exception:
+        pass
+
+    # 5) *.pyc
+    try:
+        for p in root.rglob("*.pyc"):
+            try:
+                p.unlink()
+            except Exception:
+                pass
+    except Exception:
+        pass
+
 
 
 # ---- page title ----
@@ -268,6 +337,8 @@ with st.sidebar:
     set_card = st.container(border=True)
     with set_card:
         st.markdown("**Settings**")
+        if st.session_state.index_summary:
+            st.info(st.session_state.index_summary)
         st.text_input("config.yaml path", key="yaml_path")
         st.checkbox("Use YAML (else: defaults + ENV only)", key="use_yaml")
         st.checkbox("Show LLM request (prompt + context)", key="show_llm_payload")
@@ -294,8 +365,34 @@ with st.sidebar:
             st.session_state.manifest_count = len(c or [])
             st.success(f"Refresh done. {st.session_state.manifest_count} files in manifest.")
 
-        if st.session_state.index_summary:
-            st.info(st.session_state.index_summary)
+        with st.container(border=True):
+            st.markdown("### Factory Reset (restore to default state)")
+            st.warning(
+                "This will restore the app to its **factory state**.\n\n"
+                "**It will permanently delete:** all trained data on this device.\n\n"
+                "**It will NOT delete or change:** source PDFs under `data/` or `minidata/`,`config file`.\n\n"
+                "Rebuilding the index may take time. **This action cannot be undone.**"
+            )
+            confirm = st.checkbox(
+                "I understand and want to perform a factory reset.",
+                key="confirm_full_clean"
+            )
+
+            if st.button(
+                "Factory Reset — delete & rebuild",
+                type="primary",
+                use_container_width=True,
+                key="btn_full_clean"
+            ):
+                if not confirm:
+                    st.error("Please tick the confirmation box above to confirm.")
+                else:
+                    with st.spinner("Processing…"):
+                        ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
+                        _clear_project_artifacts(st.session_state.pipe)
+                        c = _ensure_index(st.session_state.pipe, force_clean=False, ui=ui_map)
+                        st.session_state.manifest_count = len(c or [])
+                    st.success(f"Factory reset complete. {st.session_state.manifest_count} files indexed.")
 
     # === Info module ===
     info_card = st.container(border=True)
