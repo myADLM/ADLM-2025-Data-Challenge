@@ -33,18 +33,25 @@ def ask_question_with_openai(question, history=None, top_k=20):
         """
         # Support for history (for follow-up questions)
         history = history or []
-        # Embed the user question
-        query_vec = model.encode([question])
+        # Build a conversational query for retrieval
+        if history:
+            # Use the last 4 turns (user/assistant) for context, or fewer if not available
+            context_text = ' '.join([turn['content'] for turn in history[-4:]])
+            full_query = context_text + ' ' + question
+        else:
+            full_query = question
+        # Embed the conversational query
+        query_vec = model.encode([full_query])
         # Retrieve top_k chunks from FAISS
         D, I = index.search(np.array(query_vec), top_k)
         top_chunks = metadata.iloc[I[0]]
         
         # DEBUG: Print the top retrieved chunks
-        print("\n--- Top Retrieved Chunks ---")
-        for i, row in enumerate(top_chunks.itertuples()):
-            print(f"Chunk {i+1} | File: {row.filename} | Chunk ID: {row.chunk_id}")
-            print(row.text)
-            print("---------------------------")
+        #print("\n--- Top Retrieved Chunks ---")
+        #for i, row in enumerate(top_chunks.itertuples()):
+            #print(f"Chunk {i+1} | File: {row.filename} | Chunk ID: {row.chunk_id}")
+            #print(row.text)
+            #print("---------------------------")
         
         # Build context from retrieved chunks
         context = ""
