@@ -1,4 +1,3 @@
-
 # Clean, working version below
 import faiss
 import pandas as pd
@@ -21,13 +20,13 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Load FAISS index and metadata
 index = faiss.read_index("lab_index.faiss")
-index.nprobe = 10  # Increase for better recall (speed/accuracy tradeoff)
+index.nprobe = 20  # Increase for better recall (speed/accuracy tradeoff)
 metadata = pd.read_pickle("lab_metadata.pkl")
 
 # Load local embedding model
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-def ask_question_with_openai(question, history=None, top_k=5):
+def ask_question_with_openai(question, history=None, top_k=20):
         """
         Ask a question with optional conversation history for follow-ups.
         history: list of dicts, each with 'role' ('user' or 'assistant') and 'content'.
@@ -39,6 +38,14 @@ def ask_question_with_openai(question, history=None, top_k=5):
         # Retrieve top_k chunks from FAISS
         D, I = index.search(np.array(query_vec), top_k)
         top_chunks = metadata.iloc[I[0]]
+        
+        # DEBUG: Print the top retrieved chunks
+        print("\n--- Top Retrieved Chunks ---")
+        for i, row in enumerate(top_chunks.itertuples()):
+            print(f"Chunk {i+1} | File: {row.filename} | Chunk ID: {row.chunk_id}")
+            print(row.text)
+            print("---------------------------")
+        
         # Build context from retrieved chunks
         context = ""
         for _, row in top_chunks.iterrows():
@@ -71,7 +78,7 @@ def ask_question_with_openai(question, history=None, top_k=5):
         return response.choices[0].message.content
 
 if __name__ == "__main__":
-    question = "What sample do I need for Analytical Phase of DOCK YELLOW IgE Determination?"
+    question = "What tests are inlcuded in the obstetric panel?"
     answer = ask_question_with_openai(question)
     print("\n📌 Answer:")
     print(answer)
