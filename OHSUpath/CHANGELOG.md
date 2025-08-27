@@ -5,14 +5,10 @@ All notable changes to this project will be documented in this file.
 
 
 ## Ideas for new features
-- Currently can not fully work offline, make the whole pipeline fully offline.  
 - Add conversation-like feature so AI can read previous conversations to better understand user's need.  
 - Add a button for users to choose which model they want to use.  
 - Make a progress bar on frontend UI to help users understand the current stage.  
-- When adding or deleting PDFs from the database, avoid reinitializing the entire model if possible.  
-- After finishing initialization (load, split, embed, etc.), save the result locally so that it can be reused next time without reprocessing.  
 - **Important:** Add limiter to pdf preload to avoid memory overflow.
-- **Important:** Switching default retrieval to Inner Product (IP) with normalized embeddings (cosine similarity) for semantic, length-invariant similarity; typically more stable and accurate than L2. L2 remains available via config.
 
 - **Query Type Detection:** Automatically classify user queries into “keyword-oriented” vs “semantic-oriented”:  
   - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers → prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
@@ -33,6 +29,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.37] - 2025-08-27
+### Added
+- Automatic Ollama service startup and model check in `run_windows.ps1`.
+- Internet connectivity pre-check in `startup_windows.ps1`.
+
+### Changed
+- Improved robustness of model creation and startup flow.
+- More consistent setup logging and error messages.
+
+### Fixed
+- Fixed app launch failures when Ollama service or model was missing.
+- Fixed hangs during setup in offline environments.
+- Fixed typos and incorrect formatting issues.
+
+
 ## [0.1.36] - 2025-08-27
 ### Added
 - `startup_windows.ps1` — Windows setup (6 steps).
@@ -43,6 +54,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - `.gitignore` — update ignore rules.
 - `requirements.txt` — update missing requirements.
+
 
 ## [0.1.35] - 2025-08-16
 ### Added

@@ -15,6 +15,25 @@ Write-Host "============================================================="
 Write-Host " Full Windows Setup (PowerShell)"
 Write-Host "============================================================="
 
+
+# -----------------------------
+# Pre-check: Ensure Internet Connectivity
+# -----------------------------
+$connected = $false
+try {
+  $client = New-Object System.Net.Sockets.TcpClient
+  $iar = $client.BeginConnect('huggingface.co', 443, $null, $null)
+  if ($iar.AsyncWaitHandle.WaitOne(1500, $false)) {
+    $client.EndConnect($iar)
+    $connected = $true
+  }
+  $client.Close()
+} catch { }
+if (-not $connected) {
+  throw "No internet connectivity (HTTPS 443) to huggingface.co. Please connect to the internet and re-run."
+}
+
+
 # Keep window open and stop transcript on any unhandled error
 trap {
   Write-Host "`n[x] Unexpected error:" $_.Exception.Message

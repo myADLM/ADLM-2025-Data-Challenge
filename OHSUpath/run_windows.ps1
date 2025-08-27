@@ -11,6 +11,103 @@ if ($wpr.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)) {
     Write-Host "[OK] You are running as a normal user." -ForegroundColor Green
 }
 
+
+function Start-OllamaService {
+    # Try fast path: is API already up?
+    try {
+        Invoke-RestMethod -Method GET -Uri "http://127.0.0.1:11434/api/tags" -TimeoutSec 2 | Out-Null
+        Write-Host "[i] Ollama API is already responsive."
+        return
+    } catch {}
+
+    $apiOk = $false
+
+    # Case 1: service installed
+    $svc = Get-Service -Name 'Ollama' -ErrorAction SilentlyContinue
+    if ($null -ne $svc) {
+        if ($svc.Status -ne 'Running') {
+            Write-Host "[i] Starting Ollama service..."
+            Start-Service -Name 'Ollama' | Out-Null
+        } else {
+            Write-Host "[i] Ollama service already running, probing API..."
+        }
+        for ($i=0; $i -lt 20; $i++) {
+            try { Invoke-RestMethod http://127.0.0.1:11434/api/tags -TimeoutSec 2 | Out-Null; $apiOk=$true; break } catch { Start-Sleep -Milliseconds 500 }
+        }
+        if ($apiOk) { return }
+        Write-Host "[!] Ollama service did not respond to API after restart attempt."
+    }
+
+    # Case 2: no service, fallback to direct process
+    if (-not (Get-Command ollama -ErrorAction SilentlyContinue)) {
+        throw "Ollama CLI not found. Please run Windows_Click_Me_To_Setup_The_Computer.bat first."
+    }
+    Write-Host "[i] Launching Ollama daemon directly..."
+
+    # Start hidden process (no cmd window)
+    Start-Process -FilePath "ollama" -ArgumentList "serve" `
+         -WindowStyle Hidden -PassThru
+
+    # Probe API
+    for ($i=0; $i -lt 20; $i++) {
+        try { Invoke-RestMethod http://127.0.0.1:11434/api/tags -TimeoutSec 2 | Out-Null; $apiOk=$true; break } catch { Start-Sleep -Milliseconds 500 }
+    }
+    if ($apiOk) {
+        Write-Host "[i] Ollama daemon is responsive."
+        return
+    }
+
+    throw "Failed to start Ollama (API not responding)."
+}
+
+
+function Confirm-OllamaModel {
+    param([string]$Tag = 'deepseek-r1-8b-int8')
+
+    # Helper: check presence via API or CLI
+    function Test-ModelPresent([string]$t) {
+        try {
+            $names = (Invoke-RestMethod -Method GET -Uri "http://127.0.0.1:11434/api/tags" -TimeoutSec 2).models.name
+            if ($names -contains $t) { return $true }
+        } catch {}
+        try {
+            $hit = (ollama list | Select-String -Pattern ("^" + [regex]::Escape($t) + "\b") -Quiet)
+            if ($hit) { return $true }
+        } catch {}
+        return $false
+    }
+
+    if (Test-ModelPresent $Tag) { return }
+
+    $mfPath = Join-Path $PSScriptRoot "models\DeepseekR1\Modelfile"
+    if (-not (Test-Path $mfPath)) {
+        throw "Model '$Tag' missing and no local Modelfile at $mfPath. Please run Windows_Click_Me_To_Setup_The_Computer.bat first."
+    }
+
+    Write-Host "[i] Creating model '$Tag' from local Modelfile..."
+
+    $cmdLine = "ollama create $Tag -f `"$mfPath`" >NUL 2>&1"
+    $p = Start-Process -FilePath "cmd.exe" -ArgumentList "/c", $cmdLine `
+         -WorkingDirectory $PSScriptRoot -NoNewWindow -PassThru
+
+    # Allow time even if daemon had to spin up internally
+    if (-not (Wait-Process -Id $p.Id -Timeout 600)) {
+        try { Stop-Process -Id $p.Id -Force } catch {}
+        throw "Timeout creating model '$Tag'."
+    }
+    if ($p.ExitCode -ne 0) {
+        throw "ollama create exited with code $($p.ExitCode)."
+    }
+
+    # Final confirmation (API or CLI), up to ~15s
+    for ($i=0; $i -lt 30; $i++) {
+        if (Test-ModelPresent $Tag) { return }
+        Start-Sleep -Milliseconds 500
+    }
+    throw "Model '$Tag' not visible after creation."
+}
+
+
 # Always work from the script directory
 Push-Location -LiteralPath $PSScriptRoot
 try {
@@ -45,8 +142,12 @@ try {
         }
     }
     if (-not $PyCmd) {
-        throw "Python 3.11 not found. Please run setup.ps1 first, or install Python 3.11."
+        throw "Python 3.11 not found. Please run Windows_Click_Me_To_Setup_The_Computer.bat first, or install Python 3.11."
     }
+
+    # Ensure Ollama service and model are ready
+    Start-OllamaService
+    Confirm-OllamaModel
 
     Write-Host "Launching Streamlit app..."
     & $PyCmd @($PyArgs + @('-m','streamlit','run','.\app.py'))
