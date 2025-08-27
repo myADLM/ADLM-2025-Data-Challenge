@@ -3,6 +3,16 @@ Here is the README file for Team OHSUpath.
 The File CHANGELOG.md will contain information about feature update.
 
 
+For Windows User:
+
+1. Double click Windows_Click_Me_To_Setup_The_Computer.bat and follow the steps until Step 6.
+2. Double click Windows_Click_Me_To_Run_The_App.bat to start the app.
+
+If something fails, please take a look on the log file, and rerun it.
+
+
+The following commands are for manual setups:
+
 pip commaned for install necessary packages:
 pip install streamlit langchain langchain-community langchain-huggingface langchain-ollama pypdf faiss-cpu sentence-transformers PyMuPDF InstructorEmbedding torch pyyaml numpy
 

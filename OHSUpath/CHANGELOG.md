@@ -33,6 +33,17 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.36] - 2025-08-27
+### Added
+- `startup_windows.ps1` — Windows setup (6 steps).
+- `run_windows.ps1` — non-admin runner; checks elevation/Python 3.11/Streamlit and launches `app.py`.
+- `Windows_Click_Me_To_Run_The_App.bat` — double-click entry for running the app.
+- `Windows_Click_Me_To_Setup_The_Computer.bat` — double-click entry for setup.
+
+### Changed
+- `.gitignore` — update ignore rules.
+- `requirements.txt` — update missing requirements.
+
 ## [0.1.35] - 2025-08-16
 ### Added
 - Factory Reset in Settings to wipe `index`, `.rag_store`, `caches` (with confirmation).
