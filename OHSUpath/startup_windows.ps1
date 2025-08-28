@@ -1,10 +1,10 @@
 # =====================================================================
-# Full Windows Setup (PowerShell, single-file, relative paths)
-# - Ensure Python 3.11 (py launcher or python.exe; auto-install via winget)
-# - Install requirements
-# - Download Hugging Face models (progress) into .\models\...
-# - Install Ollama + create deepseek-r1-8b-int8 (relative Modelfile)
-# - Full logging to .\setup.log and safe exit on errors
+# Full Windows Setup (PowerShell, single-file, relative paths) - STRICT
+# - Ensure Python 3.11 (py/python; auto-install via winget)
+# - Install requirements + pip check
+# - Download Hugging Face models (strict verification) into .\models\...
+# - Install Ollama + create deepseek-r1-8b-int8 (strict verification)
+# - Full logging to .\setup.log; FAIL-FAST (do not reach Step 6 on error)
 # =====================================================================
 
 $ErrorActionPreference = 'Stop'
@@ -59,10 +59,18 @@ Write-Host "[OK] Running as Administrator.`n"
 Push-Location -LiteralPath $PSScriptRoot
 
 # -----------------------------
+# Global constants
+# -----------------------------
+$modelsRoot = ".\models"
+$r1Dir      = ".\models\DeepseekR1"
+$miniDir    = ".\models\all-MiniLM-L6-v2"
+$instDir    = ".\models\InstructorXL"
+$r1File     = 'DeepSeek-R1-Distill-Llama-8B-Q8_0.gguf'
+
+# -----------------------------
 # Helpers
 # -----------------------------
 function Resolve-Python {
-  # Try: py -3.11
   if (Get-Command py -ErrorAction SilentlyContinue) {
     try {
       $v = & py -3.11 -c "import sys; print(sys.version.split()[0])" 2>$null
@@ -73,7 +81,6 @@ function Resolve-Python {
       }
     } catch {}
   }
-  # Try: python (must be 3.11)
   if (Get-Command python -ErrorAction SilentlyContinue) {
     try {
       $v = & python -c "import sys; print(sys.version.split()[0])"
@@ -84,11 +91,9 @@ function Resolve-Python {
       }
     } catch {}
   }
-  # Install Python 3.11 via winget (no absolute paths written)
   Write-Host "[i] Installing Python 3.11 via winget..."
   winget install --id Python.Python.3.11 --exact --silent --accept-package-agreements --accept-source-agreements | Out-Null
   Start-Sleep -Seconds 3
-  # Try again
   if (Get-Command py -ErrorAction SilentlyContinue) {
     $v = & py -3.11 -c "import sys; print(sys.version.split()[0])" 2>$null
     if ($LASTEXITCODE -eq 0 -and $v -match '^3\.11\.') {
@@ -109,12 +114,12 @@ function Resolve-Python {
 }
 
 function Invoke-Python {
-  param([Parameter(Mandatory=$true)][string[]]$Args)
-  & $script:PythonCmd @($script:PythonArgs + $Args)
+  param([Parameter(Mandatory=$true)][string[]]$PyArgs)
+  & $script:PythonCmd @($script:PythonArgs + $PyArgs)
 }
 
 # -----------------------------
-# Step 1. Ensure Python 3.11
+# Step 1/6: Ensure Python 3.11
 # -----------------------------
 Write-Host "============================================================="
 Write-Host " Step 1/6: Check Python Availability"
@@ -125,7 +130,7 @@ Invoke-Python @('--version')
 Write-Host ""
 
 # -----------------------------
-# Step 2. Install requirements
+# Step 2/6: Install requirements (STRICT)
 # -----------------------------
 Write-Host "============================================================="
 Write-Host " Step 2/6: Install Python requirements"
@@ -133,15 +138,26 @@ Write-Host "============================================================="
 try {
   Write-Host "[i] Upgrading pip/setuptools/wheel..."
   Invoke-Python @('-m','pip','install','--upgrade','pip','setuptools','wheel')
-  Write-Host "[i] Installing requirements.txt..."
-  Invoke-Python @('-m','pip','install','-r','.\requirements.txt')
-  Write-Host "[OK] Requirements installed or already satisfied.`n"
+
+  if (Test-Path .\requirements.txt) {
+    Write-Host "[i] Installing requirements.txt..."
+    Invoke-Python @('-m','pip','install','-r','.\requirements.txt')
+  } else {
+    Write-Host "[i] No requirements.txt found, skipping file-based installs."
+  }
+
+  # Ensure required libraries are always installed
+  Invoke-Python @('-m','pip','install','--upgrade','huggingface_hub','sentence-transformers')
+
+  Write-Host "[i] Verifying environment with 'pip check'..."
+  Invoke-Python @('-m','pip','check')
+  Write-Host "[OK] Python dependencies installed and verified.`n"
 } catch {
-  throw "Failed to install Python dependencies: $($_.Exception.Message)"
+  throw "Failed to install/verify Python dependencies: $($_.Exception.Message)"
 }
 
 # -----------------------------
-# Step 3. Download Hugging Face models
+# Step 3/6: Download Hugging Face models (STRICT)
 # -----------------------------
 Write-Host "============================================================="
 Write-Host " Step 3/6: Download Hugging Face models"
@@ -154,26 +170,18 @@ $env:TQDM_DISABLE="0"
 
 try {
   Write-Host "[i] Ensuring hf_transfer..."
-  Invoke-Python @('-m','pip','install','hf_transfer','-q')
+  Invoke-Python @('-m','pip','install','-q','hf_transfer')
 } catch {
-  Write-Host "[!] Could not install hf_transfer. Continuing with standard downloader."
+  Write-Host "[!] Could not install hf_transfer. Falling back to standard downloader."
 }
-
-# Relative folders under repo
-$modelsRoot = ".\models"
-$r1Dir      = ".\models\DeepseekR1"
-$miniDir    = ".\models\all-MiniLM-L6-v2"
-$instDir    = ".\models\InstructorXL"
-$r1File     = 'DeepSeek-R1-Distill-Llama-8B-Q8_0.gguf'
 
 New-Item -ItemType Directory -Force -Path $modelsRoot,$r1Dir,$miniDir,$instDir | Out-Null
 
-# Helper Python (relative temp inside repo)
 $tmpDir = ".\.tmp"
 New-Item -ItemType Directory -Force -Path $tmpDir | Out-Null
 $pyTemp = Join-Path $tmpDir "hf_download_$PID.py"
 
-# NOTE: has_real_files() ignores .gitkeep / hidden files and checks size > 0
+# Python helper for strict model downloads
 $pyCode = @'
 import os, sys
 from pathlib import Path
@@ -193,24 +201,18 @@ R1_FILE        = os.environ["R1_FILE"]
 for d in (R1_DIR, MINILM_DIR, INSTRUCTOR_DIR):
     Path(d).mkdir(parents=True, exist_ok=True)
 
-def has_real_files(p: str) -> bool:
-    try:
-        for entry in os.scandir(p):
-            name = entry.name.lower()
-            if name == ".gitkeep" or name.startswith('.'):
-                continue
-            if entry.is_file() and os.path.getsize(entry.path) > 0:
-                return True
-        return False
-    except FileNotFoundError:
-        return False
+def has_required_files_model_dir(dirpath: str) -> bool:
+    # Require at least one tokenizer/vocab file and one weight file
+    tok = any(Path(dirpath, fn).exists() for fn in ("tokenizer.json","vocab.txt","spiece.model","tokenizer.model"))
+    wts = any(Path(dirpath, fn).exists() for fn in ("model.safetensors","pytorch_model.bin","flax_model.msgpack"))
+    return tok and wts
 
 ok = True
 
-# DeepSeek R1 GGUF (single file)
+# 1) DeepSeek R1 GGUF (expect >= 7GB to avoid partials)
 r1_path = os.path.join(R1_DIR, R1_FILE)
-if os.path.exists(r1_path) and os.path.getsize(r1_path) > 0:
-    print("[OK] DeepSeek R1 GGUF already present:", r1_path)
+if os.path.exists(r1_path) and os.path.getsize(r1_path) >= 7*1024*1024*1024:
+    print("[OK] DeepSeek R1 GGUF present:", r1_path, os.path.getsize(r1_path), "bytes")
 else:
     try:
         print("[i] Downloading DeepSeek R1 GGUF ->", r1_path)
@@ -221,14 +223,17 @@ else:
             local_dir_use_symlinks=False,
             resume_download=True
         )
-        print("[OK] DeepSeek R1 GGUF ready.")
+        size = os.path.getsize(r1_path) if os.path.exists(r1_path) else 0
+        if size < 7*1024*1024*1024:
+            raise RuntimeError(f"GGUF too small or missing: {size} bytes")
+        print("[OK] DeepSeek R1 GGUF ready:", size, "bytes")
     except Exception as e:
         ok = False
-        print("[!] DeepSeek R1 GGUF download failed:", e)
+        print("[!] DeepSeek R1 GGUF download/verify failed:", e)
 
-# all-MiniLM-L6-v2
-if has_real_files(MINILM_DIR):
-    print("[OK] all-MiniLM-L6-v2 already present:", MINILM_DIR)
+# 2) all-MiniLM-L6-v2
+if has_required_files_model_dir(MINILM_DIR):
+    print("[OK] all-MiniLM-L6-v2 verified:", MINILM_DIR)
 else:
     try:
         print("[i] Downloading all-MiniLM-L6-v2 ->", MINILM_DIR)
@@ -238,14 +243,16 @@ else:
             local_dir_use_symlinks=False,
             resume_download=True
         )
-        print("[OK] all-MiniLM-L6-v2 ready.")
+        if not has_required_files_model_dir(MINILM_DIR):
+            raise RuntimeError("all-MiniLM-L6-v2 missing required files after download")
+        print("[OK] all-MiniLM-L6-v2 verified.")
     except Exception as e:
         ok = False
-        print("[!] all-MiniLM-L6-v2 download failed:", e)
+        print("[!] all-MiniLM-L6-v2 download/verify failed:", e)
 
-# instructor-xl
-if has_real_files(INSTRUCTOR_DIR):
-    print("[OK] instructor-xl already present:", INSTRUCTOR_DIR)
+# 3) instructor-xl
+if has_required_files_model_dir(INSTRUCTOR_DIR):
+    print("[OK] instructor-xl verified:", INSTRUCTOR_DIR)
 else:
     try:
         print("[i] Downloading instructor-xl ->", INSTRUCTOR_DIR)
@@ -255,17 +262,18 @@ else:
             local_dir_use_symlinks=False,
             resume_download=True
         )
-        print("[OK] instructor-xl ready.")
+        if not has_required_files_model_dir(INSTRUCTOR_DIR):
+            raise RuntimeError("instructor-xl missing required files after download")
+        print("[OK] instructor-xl verified.")
     except Exception as e:
         ok = False
-        print("[!] instructor-xl download failed:", e)
+        print("[!] instructor-xl download/verify failed:", e)
 
 sys.exit(0 if ok else 1)
 '@
 
 Set-Content -Path $pyTemp -Value $pyCode -Encoding UTF8
 
-# Export RELATIVE paths to the helper
 $env:R1_DIR         = $r1Dir
 $env:MINILM_DIR     = $miniDir
 $env:INSTRUCTOR_DIR = $instDir
@@ -275,14 +283,12 @@ try {
   Invoke-Python @($pyTemp)
 } finally {
   Remove-Item -Force -ErrorAction SilentlyContinue $pyTemp
-  if ((Get-ChildItem $tmpDir -ErrorAction SilentlyContinue | Measure-Object).Count -eq 0) {
-    Remove-Item -Force -ErrorAction SilentlyContinue $tmpDir
-  }
+  Remove-Item -Recurse -Force -ErrorAction SilentlyContinue $tmpDir
 }
 Write-Host ""
 
 # -----------------------------
-# Step 4. Ensure Ollama + local model
+# Step 4/6: Ensure Ollama + local model (STRICT)
 # -----------------------------
 Write-Host "============================================================="
 Write-Host " Step 4/6: Ensure Ollama + local model"
@@ -291,49 +297,151 @@ Write-Host "============================================================="
 if (-not (Get-Command ollama -ErrorAction SilentlyContinue)) {
   Write-Host "[i] Installing Ollama via winget..."
   winget install --id Ollama.Ollama --exact --silent --accept-package-agreements --accept-source-agreements | Out-Null
+  Start-Sleep -Seconds 2
+}
+if (-not (Get-Command ollama -ErrorAction SilentlyContinue)) {
+  throw "Ollama CLI not found after installation."
 }
 
-if (Get-Command ollama -ErrorAction SilentlyContinue) {
-  $modelfile = Join-Path $r1Dir 'Modelfile'   # relative to repo root
-  if (-not (Test-Path $modelfile)) {
-    Set-Content -Path $modelfile -Value "FROM $r1File" -Encoding UTF8
-    Write-Host "[OK] Modelfile created: $modelfile"
-  } else {
-    Write-Host "[OK] Modelfile exists: $modelfile"
-  }
-
-  $exists = (ollama list | Select-String -Pattern '^deepseek-r1-8b-int8' -Quiet)
-  if (-not $exists) {
-    Write-Host "[i] Creating Ollama model: deepseek-r1-8b-int8"
-    Push-Location $r1Dir
-    try {
-      & ollama create deepseek-r1-8b-int8 -f Modelfile
-      Write-Host "[OK] Ollama model created: deepseek-r1-8b-int8"
-    } catch {
-      Write-Host "[!] ollama create failed. You can run it manually in:"
-      Write-Host "    $r1Dir"
-      Write-Host "    ollama create deepseek-r1-8b-int8 -f Modelfile"
-    } finally { Pop-Location }
-  } else {
-    Write-Host "[OK] Ollama model already exists."
-  }
+# Create/verify Modelfile with explicit relative path
+$modelfile = Join-Path $r1Dir 'Modelfile'
+if (-not (Test-Path (Join-Path $r1Dir $r1File))) {
+  throw "GGUF missing: $(Join-Path $r1Dir $r1File)"
+}
+if (-not (Test-Path $modelfile)) {
+  Set-Content -Path $modelfile -Value "FROM ./$r1File" -Encoding UTF8
+  Write-Host "[OK] Modelfile created: $modelfile"
 } else {
-  Write-Host "[x] Ollama is not available. Please install it manually and re-run this step."
+  $content = Get-Content $modelfile -Raw
+  if ($content.Trim() -notmatch "FROM\s+\./$([Regex]::Escape($r1File))") {
+    Set-Content -Path $modelfile -Value "FROM ./$r1File" -Encoding UTF8
+    Write-Host "[i] Modelfile updated to reference ./$r1File"
+  } else {
+    Write-Host "[OK] Modelfile exists and references ./$r1File"
+  }
 }
+
+# Create model if missing
+$existingNames = (& ollama list) -split "`r?`n" |
+  ForEach-Object { ($_ -split '\s+')[0].Split(':')[0] } |
+  Where-Object { $_ }
+$exists = $existingNames -contains 'deepseek-r1-8b-int8'
+if (-not $exists) {
+  Write-Host "[i] Creating Ollama model: deepseek-r1-8b-int8"
+  Push-Location $r1Dir
+  try {
+    & ollama create deepseek-r1-8b-int8 -f Modelfile
+    Write-Host "[OK] Ollama model created: deepseek-r1-8b-int8"
+  } finally { Pop-Location }
+}
+
+# Verify model accessibility
+try {
+  & ollama show deepseek-r1-8b-int8 | Out-Null
+  Write-Host "[OK] Ollama model metadata accessible."
+} catch {
+  throw "Ollama model 'deepseek-r1-8b-int8' not accessible via 'ollama show'."
+}
+
 Write-Host ""
 
 # -----------------------------
-# Step 5. Final info
+# Step 5/6: Final verification gate (FAST run-time tests with timeout)
 # -----------------------------
 Write-Host "============================================================="
-Write-Host " Step 5/6: Done"
-Write-Host "============================================================="
-Write-Host "[OK] Setup finished."
+Write-Host " Step 5/6: Final verification gate (fast run-time tests)"
 Write-Host "============================================================="
 
+# Tunables
+$VERIFY_TIMEOUT_SECONDS = 25
+$ModelName = 'deepseek-r1-8b-int8'
+$STOP_OLLAMA_AFTER_TESTS = $true
+$OLLAMA_KEEP_ALIVE_SECONDS = 1
+
+# Helper: strict python invoker
+function Invoke-Python-Strict {
+  param(
+    [string[]]$PyArgs,
+    [string]$FailMsg,
+    [switch]$PassThru
+  )
+  $out = Invoke-Python $PyArgs
+  $code = $LASTEXITCODE
+  if ($code -ne 0) { throw $FailMsg }
+  if ($PassThru) { return $out } elseif ($out) { $out | Write-Host }
+}
+
+# 1) Python re-check
+Invoke-Python-Strict -PyArgs @('--version') -FailMsg "Python not available."
+Invoke-Python-Strict -PyArgs @('-m','pip','check') -FailMsg "Pip dependency check failed."
+
+# 2) Ollama quick metadata + run
+Write-Host "[i] Testing DeepSeek R1 model with Ollama (timed)..."
+$prevKeepAlive = $env:OLLAMA_KEEP_ALIVE
+$env:OLLAMA_KEEP_ALIVE = "${OLLAMA_KEEP_ALIVE_SECONDS}s"
+
+& ollama show $ModelName | Out-Null
+if ($LASTEXITCODE -ne 0) {
+  $env:OLLAMA_KEEP_ALIVE = $prevKeepAlive
+  throw "Ollama model '$ModelName' not accessible via 'ollama show'."
+}
+
+function Invoke-Process-WithTimeout {
+  param(
+    [string]$FilePath,
+    [string[]]$Arguments,
+    [int]$TimeoutSeconds
+  )
+  $tmpBase = [System.IO.Path]::GetRandomFileName()
+  $tmpOut  = Join-Path $env:TEMP "ollama_${tmpBase}_out.txt"
+  $tmpErr  = Join-Path $env:TEMP "ollama_${tmpBase}_err.txt"
+  foreach ($f in @($tmpOut,$tmpErr)) { if (Test-Path $f) { Remove-Item $f -Force -ErrorAction SilentlyContinue } }
+
+  $p = Start-Process -FilePath $FilePath -ArgumentList $Arguments -NoNewWindow `
+       -RedirectStandardOutput $tmpOut -RedirectStandardError $tmpErr -PassThru
+  if (-not $p.WaitForExit($TimeoutSeconds * 1000)) {
+    try { $p.Kill() } catch {}
+  }
+  $out = ""
+  if (Test-Path $tmpOut) { try { $out += (Get-Content $tmpOut -Raw -ErrorAction SilentlyContinue) } catch {} }
+  if (Test-Path $tmpErr) { try { $out += (Get-Content $tmpErr -Raw -ErrorAction SilentlyContinue) } catch {} }
+  foreach ($f in @($tmpOut,$tmpErr)) { if (Test-Path $f) { Remove-Item $f -Force -ErrorAction SilentlyContinue } }
+  return $out
+}
+
+try {
+  $ollamaOut = Invoke-Process-WithTimeout -FilePath "ollama" -Arguments @("run",$ModelName,"-p","ping","-n","8") -TimeoutSeconds $VERIFY_TIMEOUT_SECONDS
+  if (-not [string]::IsNullOrWhiteSpace($ollamaOut)) {
+    Write-Host "[OK] Ollama model responded (limited tokens)."
+  } else {
+    throw "DeepSeek R1 quick run timed out ($VERIFY_TIMEOUT_SECONDS s) or returned empty output. Metadata was OK."
+  }
+}
+finally {
+  $env:OLLAMA_KEEP_ALIVE = $prevKeepAlive
+  if ($STOP_OLLAMA_AFTER_TESTS) {
+    try { & ollama stop $ModelName | Out-Null } catch {}
+  }
+}
+
+# 3) all-MiniLM-L6-v2 quick encode
+Write-Host "[i] Testing all-MiniLM-L6-v2 with SentenceTransformers..."
+Invoke-Python-Strict -PyArgs @('-c', @"
+from sentence_transformers import SentenceTransformer
+import numpy as np, sys
+
+m = SentenceTransformer(r'$miniDir', device='cpu')
+emb = m.encode(['hello world'], convert_to_tensor=False, show_progress_bar=False, normalize_embeddings=False)
+arr = np.asarray(emb)
+print('[OK] all-MiniLM-L6-v2 responded with shape', getattr(arr, 'shape', None), 'dtype', getattr(arr, 'dtype', None))
+sys.exit(0 if getattr(arr, 'ndim', 0) == 2 and arr.shape[1] > 0 else 1)
+"@) -FailMsg "all-MiniLM-L6-v2 run test failed."
+
+Write-Host "[OK] All fast run-time verification tests passed."
+Write-Host "============================================================="
 
 # -----------------------------
-# Step 6. Display information
+# Step 6/6: Display information (only reached on success)
 # -----------------------------
 Write-Host "============================================================="
 Write-Host " Step 6/6: Next step"
@@ -352,6 +460,7 @@ Write-Host "The setup is now complete, feel free to close this window."
 Write-Host ""
 Write-Host ""
 Write-Host "============================================================="
+
 Pop-Location
 try { Stop-Transcript | Out-Null } catch {}
 Read-Host -Prompt "Press Enter to close..."

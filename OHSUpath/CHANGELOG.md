@@ -29,6 +29,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.38] - 2025-08-28
+### Changed
+- Windows setup script now uses strict mode with fail-fast behavior.
+- Added stricter checks for installed packages.
+
+
 ## [0.1.37] - 2025-08-27
 ### Added
 - Automatic Ollama service startup and model check in `run_windows.ps1`.
