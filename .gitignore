@@ -2,7 +2,9 @@
 *.zip
 *.pdf
 **resources/**
-
+.env
+.env.*
+!.env.example
 # Mac
 .DS_Store
 
