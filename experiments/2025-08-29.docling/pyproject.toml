@@ -11,6 +11,7 @@ dependencies = [
     "pydantic-settings>=2.6.1",
     "python-dotenv>=1.0.1",
     "numpy>=1.26.4,<2.0.0",
+    "docling>=2.48.0",
 ]
 
 [dependency-groups]
@@ -25,8 +26,8 @@ dev = [
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
 
-# [project.scripts]
-# chatscanner = "chatscanner.cli:cli"
+[project.scripts]
+docling-trials = "src.presentation.cli.cli:cli"
 
 [build-system]
 requires = ["hatchling"]
