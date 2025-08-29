@@ -1,10 +1,9 @@
-# data file extensions
-*.zip
-*.pdf
-**resources/**
-
 # Mac
 .DS_Store
+
+# Codebase Infrastructure
+**/data/*
+**/opt/*
 
 # Downloads
 *.mp4
@@ -14,6 +13,9 @@
 *.mp3
 *.pdf
 *.db
+
+# VS Code
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
