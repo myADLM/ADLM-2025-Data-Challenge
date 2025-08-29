@@ -29,6 +29,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.39] - 2025-08-29
+### Added
+- Add `bm25s` inside the requirements for future use.
+
+
 ## [0.1.38] - 2025-08-28
 ### Changed
 - Windows setup script now uses strict mode with fail-fast behavior.
