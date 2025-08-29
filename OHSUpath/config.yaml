@@ -55,6 +55,46 @@ paths:
   data_dir: "data/LabDocs"
   allowed_extensions: [".pdf"]      # which files to ingest
   pdf_text_mode: "text"             # "text" | "blocks" | "html"
+  store_dir: ".rag_store"
+  index_dirname: "index"
+  manifest_filename: "manifest.sqlite"
+  embed_cache_filename: "embed_cache.sqlite"
+  journal_filename: "journal.log"
+  lock_filename: ".rag.lock"
+  tmp_dirname: "_tmp"
+
+hashing:
+  normalize: "NFC"
+  encoding: "utf-8"
+  chunk_id_hash_len: 32
+
+journal:
+  enable_lock: true
+  fsync_default: false
+  compact_json: true
+  max_record_bytes: null
+  rotate_max_bytes: 10485760   # 10 MB
+  rotate_keep: 5
+  default_tail_n: 200
+
+lock:
+  timeout_s: 30.0
+  backoff_initial_s: 0.001
+  backoff_max_s: 0.05
+
+sqlite:
+  journal_mode: "WAL"
+  busy_timeout_ms: 30000
+  synchronous: "NORMAL"
+  connect_timeout_s: 1.0
+
+embed_cache:
+  table_name: "emb_cache"
+  max_vars_fallback: 900
+  reserve_bind_params: 16
+  chunk_size_limit: null
+  json_ensure_ascii: false
+  json_separators: [",", ":"]
 
 runtime:
   # Minimum number of worker threads to use when processing data
@@ -73,16 +113,36 @@ split:
   # Overlap between consecutive chunks (in characters) to preserve context
   chunk_overlap: 200
   min_chars_per_page: 1             # drop pages shorter than this (after strip)
+  num_proc: "max"                  # int or "max"
+  source_keys: ["source", "file_path", "path"]
+  page_keys: ["page", "page_number", "page_no"]
 
 
+  # Setting for the old sentence transformer all-MiniLM-L6-v2
 embedding:
   # Name of the embedding model to convert text into numeric vectors
-  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  model_name: "./models/all-MiniLM-L6-v2"
   # Dimensionality of the embedding vectors.
   # WARNING: Must match the model. Changing this will break compatibility.
   embedding_dim: 384
   batch_size: 64                    # batch size for embedding
-  faiss_metric: "l2"                # "l2" or "ip"
+  faiss_metric: "ip"                # "l2" or "ip"
+  normalize_embeddings: True
+  multi_gpu: false          # false | "auto" | [0,1]
+  dtype: "float32"          # "float32" | "float16"
+  pad_to_batch: false       # steady throughput for multi-GPU
+  in_queue_maxsize: 4       # per-GPU pending batches
+  allow_cpu_fallback: true
+    
+  # Setting for the new sentence transformer InstructorXL
+# embedding:
+#   # Name of the embedding model to convert text into numeric vectors
+#   model_name: "./models/InstructorXL"
+#   # Dimensionality of the embedding vectors.
+#   # WARNING: Must match the model. Changing this will break compatibility.
+#   embedding_dim: 768
+#   batch_size: 64                    # batch size for embedding
+#   faiss_metric: "l2"                # "l2" or "ip"
 
 retriever:
   # Retrieval strategy:
@@ -90,6 +150,22 @@ retriever:
   search_type: "similarity"
   # Number of results (chunks) to retrieve for each query
   k: 4
+  fetch_k: 50
+  use_mmr: false
+  lambda_mult: 0.5
+  score_threshold: null
+  search_kwargs: {}
+
+faiss:
+  strict_meta_check: true
+  clear_on_delete: true
+  normalize_query_in_ip: true
+  index_params: {}
+
+pdf_loader:
+  prefetch_budget_mb: 64
+  io_batch_files: 8
+  num_proc: "max"
 
 llm:
   # Large Language Model provider. "ollama" requires Ollama installed locally.
@@ -99,6 +175,22 @@ llm:
   chain_type: "stuff"
   base_url: "http://localhost:11434"
   params: {}                        # e.g. {"temperature": 0.1}
+  chain_type_kwargs: {}
+  request_timeout_s: null
+  max_retries: 2
+  headers: {}
+  enabled: true
+
+manager:
+  enable_cache: true
+  enable_journal: true
+  hash_block_bytes: 1048576   # 1 MiB
+  include_globs: []           # e.g. ["**/*.pdf"]
+  exclude_globs: []           # e.g. ["**/~$*"]
+  follow_symlinks: false
+  ignore_dotfiles: true
+
+
 
 app:
   title: "AI tool name holder"

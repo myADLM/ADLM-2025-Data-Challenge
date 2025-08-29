@@ -3,8 +3,34 @@
 *.pdf
 
 
-#pycache file
+# pycache file
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+
+# models folders
+OHSUpath/models/**
+!OHSUpath/models/**/
+!OHSUpath/models/**/.gitkeep
+
+
+# data folders. data is for the given dataset, and minidata is reduced just for faster code testing.
+data/**
+!data/**/
+!data/**/.gitkeep
+minidata/**
+!minidata/**/
+!minidata/**/.gitkeep
+
+# data folder. Use to test files in rag folder
+OHSUpath/rag/tests/**
+
+
+# RAG runtime store
+.rag_store/
+
+
+# temp logs
+*.log

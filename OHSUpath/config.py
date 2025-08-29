@@ -56,7 +56,7 @@ from dataclasses import dataclass, field, asdict, replace
 from pathlib import Path
 import os
 import yaml
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any, List, Tuple
 
 
 # ----------------------------
@@ -80,7 +80,69 @@ class PathsCfg:
     data_dir: str = "minidata/LabDocs"  # Set to minidata folder for faster initialization
     allowed_extensions: List[str] = field(default_factory=lambda: [".pdf"])
     pdf_text_mode: str = "text"  # "text" | "blocks" | "html"
+    store_dir: str = ".rag_store"
+    index_dirname: str = "index"
+    manifest_filename: str = "manifest.sqlite"
+    embed_cache_filename: str = "embed_cache.sqlite"
+    journal_filename: str = "journal.log"
+    lock_filename: str = ".rag.lock"
+    tmp_dirname: str = "_tmp"
 
+@dataclass
+class HashingCfg:
+    normalize: Optional[str] = "NFC"   # "NFC" | "NFKC" | None
+    # Text encoding
+    encoding: str = "utf-8"
+    chunk_id_hash_len: int = 32
+
+@dataclass
+class JournalCfg:
+    # Use an inter-process lock when writing the journal
+    enable_lock: bool = True
+    # Call fsync after each append (safer but slower). Default off.
+    fsync_default: bool = False
+    # Use compact JSON (no extra spaces)
+    compact_json: bool = True
+    # Max size in bytes for a single record. None = no limit.
+    # If exceeded, "data" will be replaced by {"_truncated": True}.
+    max_record_bytes: Optional[int] = None
+    # Rotate when the file is bigger than this
+    rotate_max_bytes: int = 10 * 1024 * 1024
+    # How many rotated files to keep (journal.log.1..N)
+    rotate_keep: int = 5
+    # Default N for tail-like features (if you add one later)
+    default_tail_n: int = 200
+
+@dataclass
+class LockCfg:
+    # Max time to wait for the lock
+    timeout_s: float = 30.0
+    # First backoff sleep
+    backoff_initial_s: float = 0.001
+    # Max backoff sleep
+    backoff_max_s: float = 0.05
+
+@dataclass
+class SqliteCfg:
+    journal_mode: str = "WAL"        # "WAL" | "DELETE" | ...
+    busy_timeout_ms: int = 30000     # 30s
+    synchronous: str = "NORMAL"      # "OFF" | "NORMAL" | "FULL" | "EXTRA"
+    connect_timeout_s: float = 1.0   # python sqlite3.connect(timeout=...)
+
+@dataclass
+class EmbedCacheCfg:
+    table_name: str = "emb_cache"
+    max_vars_fallback: int = 900
+    reserve_bind_params: int = 16
+    chunk_size_limit: Optional[int] = None
+    json_ensure_ascii: bool = False
+    json_separators: tuple[str, str] = (",", ":")
+
+@dataclass
+class PdfLoaderCfg:
+    prefetch_budget_mb: int = 64
+    io_batch_files: int = 8
+    num_proc: str = "max"
 
 @dataclass
 class RuntimeCfg:
@@ -100,19 +162,43 @@ class SplitCfg:
         200  # Number of overlapping characters between consecutive chunks
     )
     min_chars_per_page: int = 1
+    # Processes to use: integer or "max"
+    num_proc: str | int = "max"
+    # Metadata key priorities when extracting path/page
+    source_keys: list[str] = field(default_factory=lambda: ["source", "file_path", "path"])
+    page_keys: list[str] = field(default_factory=lambda: ["page", "page_number", "page_no"])
 
 
 
+# Setting for the old sentence transformer all-MiniLM-L6-v2
 @dataclass
 class EmbeddingCfg:
     # Parameters for text embedding model
     model_name: str = (
-        "sentence-transformers/all-MiniLM-L6-v2"  # Name of the embedding model
+        "./models/all-MiniLM-L6-v2"  # Name of the embedding model
     )
     embedding_dim: int = 384  # Size of the embedding vector (must match the model)
     batch_size: int = 64
-    faiss_metric: str = "l2"  # "l2" or "ip"
+    faiss_metric: str = "ip"  # "l2" or "ip"
+    normalize_embeddings: bool = True # set true when faiss_metric is ip
+    multi_gpu: object = False   # false | "auto" | [0,1]
+    dtype: str = "float32"      # "float32" | "float16"
+    pad_to_batch: bool = False  # steady throughput for multi-GPU
+    in_queue_maxsize: int = 4   # per-GPU pending batches
+    allow_cpu_fallback: bool = True
 
+
+
+# Setting for the new sentence transformer InstructorXL
+# @dataclass
+# class EmbeddingCfg:
+#     # Parameters for text embedding model
+#     model_name: str = (
+#         "./models/InstructorXL"  # Name of the embedding model
+#     )
+#     embedding_dim: int = 768  # Size of the embedding vector (must match the model)
+#     batch_size: int = 64
+#     faiss_metric: str = "l2"  # "l2" or "ip"
 
 
 @dataclass
@@ -120,6 +206,18 @@ class RetrieverCfg:
     # Search and retrieval settings
     search_type: str = "similarity"  # Retrieval strategy
     k: int = 4  # Number of results to return per query
+    fetch_k: int = 50  # initial candidates for retrievers/rerankers
+    use_mmr: bool = False                 
+    lambda_mult: float = 0.5              
+    score_threshold: Optional[float] = None  
+    search_kwargs: Dict[str, Any] = field(default_factory=dict)
+
+@dataclass
+class FaissCfg:
+    strict_meta_check: bool = True      # raise if meta mismatch
+    clear_on_delete: bool = True        # delete_by_chunk_ids clears whole index
+    normalize_query_in_ip: bool = True  # in ip mode, normalize query if callable
+    index_params: Dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass
@@ -130,6 +228,21 @@ class LLMCfg:
     chain_type: str = "stuff"
     base_url: str = "http://localhost:11434"
     params: Dict[str, Any] = field(default_factory=dict)
+    chain_type_kwargs: Dict[str, Any] = field(default_factory=dict)
+    request_timeout_s: Optional[float] = None
+    max_retries: int = 2
+    headers: Dict[str, str] = field(default_factory=dict)
+    enabled: bool = True
+
+@dataclass
+class ManagerCfg:
+    enable_cache: bool = True
+    enable_journal: bool = True
+    hash_block_bytes: int = 1024 * 1024
+    include_globs: List[str] = field(default_factory=list)
+    exclude_globs: List[str] = field(default_factory=list)
+    follow_symlinks: bool = False
+    ignore_dotfiles: bool = True
 
 
 @dataclass
@@ -142,7 +255,14 @@ class Config:
     embedding: EmbeddingCfg = field(default_factory=EmbeddingCfg)
     retriever: RetrieverCfg = field(default_factory=RetrieverCfg)
     llm: LLMCfg = field(default_factory=LLMCfg)
-    app: AppCfg = field(default_factory=AppCfg)
+    hashing: HashingCfg = field(default_factory=HashingCfg)
+    journal: JournalCfg = field(default_factory=JournalCfg)
+    lock: LockCfg = field(default_factory=LockCfg)
+    sqlite: SqliteCfg = field(default_factory=SqliteCfg)
+    embed_cache: EmbedCacheCfg = field(default_factory=EmbedCacheCfg)
+    faiss: FaissCfg = field(default_factory=FaissCfg)
+    pdf_loader: PdfLoaderCfg = field(default_factory=PdfLoaderCfg)
+    manager: ManagerCfg = field(default_factory=ManagerCfg)
 
 
 # ----------------------------
@@ -165,9 +285,7 @@ def _merge_dataclass(dc, overrides: Dict[str, Any]):
                 setattr(dc, k, v)
 
 
-def load_config(
-    yaml_path: Optional[str] = "config.yaml", use_yaml: bool = True
-) -> Config:
+def load_config(yaml_path: Optional[str] = "config.yaml", use_yaml: bool = True) -> Config:
     """
     Load the application configuration.
 
@@ -196,25 +314,42 @@ def load_config(
 
     # Apply overrides from environment variables
     for key, val in os.environ.items():
-        if not key.startswith("CONFIG__"):
+        if not key.upper().startswith("CONFIG__"):
             continue
-        parts = key.split("__")[
-            1:
-        ]  # Example: CONFIG__runtime__device -> ["runtime", "device"]
+        parts = key.split("__")[1:]  # Example: CONFIG__runtime__device -> ["runtime", "device"]
         target = cfg
-        for p in parts[:-1]:
-            target = getattr(target, p, None)
-            if target is None:
+        for seg in parts[:-1]:
+            if not hasattr(target, "__dataclass_fields__"):
+                target = None
                 break
+            fields = getattr(target, "__dataclass_fields__")
+            name = {k.lower(): k for k in fields}.get(seg.lower())
+            if name is None:
+                target = None
+                break
+            target = getattr(target, name, None)
+
+        if target is None:
+            continue
+
         leaf = parts[-1]
-        if target is not None and hasattr(target, leaf):
-            old = getattr(target, leaf)
-            if isinstance(old, bool):
-                v = val.lower() in ("1", "true", "yes", "on")
-            elif isinstance(old, int):
-                v = int(val)
-            else:
-                v = val
-            setattr(target, leaf, v)
+        fields = getattr(target, "__dataclass_fields__", {})
+        leaf_name = {k.lower(): k for k in fields}.get(leaf.lower())
+        if leaf_name is None:
+            continue
+
+        old = getattr(target, leaf_name)
+        if isinstance(old, bool):
+            v = val.lower() in ("1", "true", "yes", "on")
+        elif isinstance(old, int):
+            v = int(val)
+        elif isinstance(old, float):
+            v = float(val)
+        else:
+            v = val
+        setattr(target, leaf_name, v)
+
 
     return cfg
+
+
