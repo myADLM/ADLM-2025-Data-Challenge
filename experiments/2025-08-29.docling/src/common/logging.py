@@ -1,7 +1,30 @@
 import logging
 import sys
+from enum import StrEnum
+
+from pydantic import BaseModel
 
 from src.common.settings import settings
+
+
+class LogLevel(StrEnum):
+    DEBUG = "DEBUG"
+    INFO = "INFO"
+    WARNING = "WARNING"
+    ERROR = "ERROR"
+    CRITICAL = "CRITICAL"
+    SETTINGS = "SETTINGS"
+
+
+class LoggerSetup(BaseModel):
+    name: str
+    log_level: LogLevel
+
+
+LOGGERS = [
+    LoggerSetup(name="doclingtrials", log_level=LogLevel.SETTINGS),
+    LoggerSetup(name="RapidOCR", log_level=LogLevel.WARNING),
+]
 
 
 def no_base_logger() -> None:
@@ -10,7 +33,7 @@ def no_base_logger() -> None:
         logger.removeHandler(logger.handlers[0])
 
 
-def init_loggers(names: list[str]) -> logging.Logger:
+def init_loggers() -> logging.Logger:
     no_base_logger()
     formatter = logging.Formatter(
         "[%(asctime)s %(levelname)s %(filename)s line=%(lineno)s] %(message)s",
@@ -20,7 +43,7 @@ def init_loggers(names: list[str]) -> logging.Logger:
     handler = logging.StreamHandler(sys.stdout)
     handler.setFormatter(formatter)
 
-    for name in names:
-        logger = logging.getLogger(name=name)
+    for l in LOGGERS:
+        logger = logging.getLogger(name=l.name)
         logger.addHandler(handler)
-        logger.setLevel(settings().LOG_LEVEL)
+        logger.setLevel(settings.log_level if l.log_level == LogLevel.SETTINGS else l.log_level)
