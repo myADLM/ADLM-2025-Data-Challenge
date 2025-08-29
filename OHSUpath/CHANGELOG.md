@@ -29,6 +29,44 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.0] - 2025-08-29
+### Stable version release
+- **Second stable end-to-end release**, consolidating the modular RAG architecture with improved resilience and reliability.
+
+- **Modular RAG Core:**
+  - Separated components: Loader, Chunker, Embedder, VectorStore, IndexManager, and Pipeline.
+  - Config-driven: all parameters (paths, split, embedding, FAISS, retriever, LLM) now come from config (`config.py`, `config.yaml`, or ENV).
+  - End-to-end pipeline: bootstrap → refresh → embed/cache → retrieve → answer.
+
+- **Resilience & Incremental Updates:**
+  - **Task pre-initialization**: load/split/embed runs only once; subsequent queries reuse existing vectors without recomputation.
+  - **Incremental refresh**: only new/modified/deleted files are processed on each run; unchanged files are skipped.
+  - **Crash-safe recovery & resume**:
+    - **Journal logging** and **SQLite WAL transactions** ensure consistency even if interrupted mid-run (e.g. power loss).
+    - Safe to resume indexing without full rebuild; auto-recovers from index/meta mismatches.
+
+- **Infrastructure & Reliability:**
+  - **Atomic file writes** to prevent partial/corrupt saves.
+  - **Cross-platform file locking** (POSIX `flock` / Windows `msvcrt`).
+  - **SQLite manifest + embedding cache** with robust schema and safe transactions.
+  - **Journal rotation** with process/thread metadata for debugging.
+  - Auto-recovery on index meta mismatch; safer hashing & cache keying.
+
+- **Retrieval & LLM:**
+  - Ollama integration: configurable model, retries, timeouts, headers.
+  - LLM can be enabled/disabled at runtime.
+
+- **Frontend (Streamlit app):**
+  - **Collapsible Progress card** with real-time logs.
+  - **PromptSpy panel** (inspect prompts + context sent to LLM).
+  - **Retrieval-only mode** toggle.
+  - **Factory Reset** button to wipe indexes and caches.
+
+- **Windows Support:**
+  - One-click setup & run via `.bat` and PowerShell scripts.
+  - Strict mode scripts with Ollama auto-start, connectivity checks.
+
+
 ## [0.1.39] - 2025-08-29
 ### Added
 - Add `bm25s` inside the requirements for future use.
