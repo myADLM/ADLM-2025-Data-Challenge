@@ -5,9 +5,6 @@ from typing import List, Dict, Any
 import json as json_lib
 import asyncio
 
-# Feature flags
-FEATURE_TOOL_CALLS = True
-
 MODEL = 'qwen3:0.6b'
 
 CALL_ID_COUNTER = 1
