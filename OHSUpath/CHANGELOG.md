@@ -29,6 +29,16 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.1] - 2025-08-30
+### Added
+- Linux scripts mirroring Windows behavior:
+  - `bootstrap/linux/setup.sh`
+  - `bootstrap/linux/run_app.sh`
+
+### Changed
+- Relocated Windows files from repository root to `bootstrap/windows/` to match Linux layout.
+
+
 ## [0.2.0] - 2025-08-29
 ### Stable version release
 - **Second stable end-to-end release**, consolidating the modular RAG architecture with improved resilience and reliability.
