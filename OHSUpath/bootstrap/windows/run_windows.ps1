@@ -1,6 +1,7 @@
 
 
 $ErrorActionPreference = 'Stop'
+$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 
 # Show elevation status
 $wid = [Security.Principal.WindowsIdentity]::GetCurrent()
@@ -79,7 +80,7 @@ function Confirm-OllamaModel {
 
     if (Test-ModelPresent $Tag) { return }
 
-    $mfPath = Join-Path $PSScriptRoot "models\DeepseekR1\Modelfile"
+    $mfPath = Join-Path $RepoRoot "models\DeepseekR1\Modelfile"
     if (-not (Test-Path $mfPath)) {
         throw "Model '$Tag' missing and no local Modelfile at $mfPath. Please run Windows_Click_Me_To_Setup_The_Computer.bat first."
     }
@@ -88,7 +89,7 @@ function Confirm-OllamaModel {
 
     $cmdLine = "ollama create $Tag -f `"$mfPath`" >NUL 2>&1"
     $p = Start-Process -FilePath "cmd.exe" -ArgumentList "/c", $cmdLine `
-         -WorkingDirectory $PSScriptRoot -NoNewWindow -PassThru
+         -WorkingDirectory $RepoRoot -NoNewWindow -PassThru
 
     # Allow time even if daemon had to spin up internally
     if (-not (Wait-Process -Id $p.Id -Timeout 600)) {
@@ -107,14 +108,14 @@ function Confirm-OllamaModel {
     throw "Model '$Tag' not visible after creation."
 }
 
-
-# Always work from the script directory
-Push-Location -LiteralPath $PSScriptRoot
+# work from repo root
+Push-Location -LiteralPath $RepoRoot
 try {
     try { $Host.UI.RawUI.WindowTitle = "OHSUpath - Streamlit" } catch {}
 
-    if (-not (Test-Path .\app.py)) {
-        throw "app.py not found in: $PSScriptRoot"
+    $appPath = Join-Path $RepoRoot 'app.py'
+    if (-not (Test-Path $appPath)) {
+        throw "app.py not found in: $RepoRoot"
     }
 
     # Detect Python 3.11 (prefer 'py -3.11', fallback to 'python')
@@ -150,7 +151,7 @@ try {
     Confirm-OllamaModel
 
     Write-Host "Launching Streamlit app..."
-    & $PyCmd @($PyArgs + @('-m','streamlit','run','.\app.py'))
+    & $PyCmd @($PyArgs + @('-m','streamlit','run', $appPath))
 }
 catch {
     Write-Host ""

@@ -8,7 +8,8 @@
 # =====================================================================
 
 $ErrorActionPreference = 'Stop'
-$logPath = Join-Path $PSScriptRoot 'setup.log'
+$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
+$logPath  = Join-Path $RepoRoot 'setup.log'
 Start-Transcript -Path $logPath -Append | Out-Null
 
 Write-Host "============================================================="
@@ -55,16 +56,14 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 Write-Host "[OK] Running as Administrator.`n"
 
-# Work from repo root (relative paths everywhere)
-Push-Location -LiteralPath $PSScriptRoot
+# Work from repo root
+Push-Location -LiteralPath $RepoRoot
 
-# -----------------------------
-# Global constants
-# -----------------------------
-$modelsRoot = ".\models"
-$r1Dir      = ".\models\DeepseekR1"
-$miniDir    = ".\models\all-MiniLM-L6-v2"
-$instDir    = ".\models\InstructorXL"
+# Globals (root-relative)
+$modelsRoot = (Join-Path $RepoRoot 'models')
+$r1Dir      = (Join-Path $modelsRoot 'DeepseekR1')
+$miniDir    = (Join-Path $modelsRoot 'all-MiniLM-L6-v2')
+$instDir    = (Join-Path $modelsRoot 'InstructorXL')
 $r1File     = 'DeepSeek-R1-Distill-Llama-8B-Q8_0.gguf'
 
 # -----------------------------
@@ -139,9 +138,9 @@ try {
   Write-Host "[i] Upgrading pip/setuptools/wheel..."
   Invoke-Python @('-m','pip','install','--upgrade','pip','setuptools','wheel')
 
-  if (Test-Path .\requirements.txt) {
+  if (Test-Path (Join-Path $RepoRoot 'requirements.txt')) {
     Write-Host "[i] Installing requirements.txt..."
-    Invoke-Python @('-m','pip','install','-r','.\requirements.txt')
+    Invoke-Python @('-m','pip','install','-r',(Join-Path $RepoRoot 'requirements.txt'))
   } else {
     Write-Host "[i] No requirements.txt found, skipping file-based installs."
   }
@@ -177,7 +176,7 @@ try {
 
 New-Item -ItemType Directory -Force -Path $modelsRoot,$r1Dir,$miniDir,$instDir | Out-Null
 
-$tmpDir = ".\.tmp"
+$tmpDir = Join-Path $RepoRoot '.tmp'
 New-Item -ItemType Directory -Force -Path $tmpDir | Out-Null
 $pyTemp = Join-Path $tmpDir "hf_download_$PID.py"
 

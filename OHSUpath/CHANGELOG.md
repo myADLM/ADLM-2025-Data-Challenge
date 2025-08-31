@@ -17,6 +17,44 @@ All notable changes to this project will be documented in this file.
 - **Sparse Retriever Upgrade:** Support dual backends — `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
 - **Character n-gram re-ranking:** Apply character n-gram scoring on sparse top-N candidates to improve recall on spelling variations, merged tokens, and special identifiers (e.g., `aa_inf3` vs `aainf3`).  
 
+
+**Net related Platform:**
+### Core components
+
+- **API — FastAPI (Python)**  
+  Public API for health, auth, query, streaming, files, conversations; plugs into existing RAG pipeline.
+
+- **Gateway — Node.js (TypeScript)**  
+  Single browser entry; login (JWT cookie), CORS, basic rate limiting, proxy to FastAPI, SSE pass-through, add security headers.
+
+- **Web — Next.js (TypeScript, responsive)**  
+  One codebase for **desktop / tablet / mobile**; login, chat UI (supports streaming), conversation list, source preview; optional PWA later.
+
+- **Admin — Streamlit (local only)**  
+  Internal console for dataset ingest, chunking, embedding, indexing, and basic ops; not exposed to the public internet.
+
+- **RAG Engine (Python)**  
+  Load → split → embed → index → retrieve → answer; caches & indices live in local store.
+
+### Security & multi-user
+- Login required for query/stream/files/conversations (via **JWT cookie**).
+- Gateway-to-API shared key to prevent direct bypass.
+- User identity forwarded via headers; per-account history isolation.
+- **Per-user rate limiting / basic quotas** at the gateway.
+
+### Files & sources
+- Serve PDFs from a whitelisted data directory only.
+- Inline preview; clickable citations from the chat to open documents.
+
+### Streaming
+- Server-Sent Events for real-time tokens and finalization events.
+
+### Deployment (web hosting)
+- Target: **Linux server** (or **WSL2** during Windows development) with the same layout.
+- Optional reverse proxy (Nginx/Caddy) for single domain + HTTPS. Use **SSE-friendly** settings.
+- Process manager (systemd) to run web / gateway / api as services.
+
+
 ## [Unreleased]
 ### Added
 - Placeholder for upcoming features.
@@ -28,6 +66,11 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.2] - 2025-08-30
+### Changed
+- Solve path issues when moving Windows scripts from root to `bootstrap/windows/` by resolving paths from the repository root.
+
 
 ## [0.2.1] - 2025-08-30
 ### Added
