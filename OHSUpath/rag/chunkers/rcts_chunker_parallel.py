@@ -118,7 +118,8 @@ class RctsChunkerParallel(Chunker):
         size = (len(docs) + nproc - 1) // nproc
         shards = [docs[i : i + size] for i in range(0, len(docs), size)]
         try:
-            with mp.Pool(processes=nproc) as pool:
+            ctx = mp.get_context("spawn")
+            with ctx.Pool(processes=nproc) as pool:
                 parts = pool.starmap(
                     _split_worker,
                     [(sh, cs, co, src_keys, pg_keys, hlen) for sh in shards],

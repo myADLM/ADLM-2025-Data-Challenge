@@ -67,6 +67,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.3] - 2025-09-03
+### Fixed
+- Force multiprocessing start method to `spawn` at startup to prevent hangs/crashes.
+
+
 ## [0.2.2] - 2025-08-30
 ### Changed
 - Solve path issues when moving Windows scripts from root to `bootstrap/windows/` by resolving paths from the repository root.

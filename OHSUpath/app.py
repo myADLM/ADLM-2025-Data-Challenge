@@ -6,6 +6,11 @@ import shutil
 from pathlib import Path
 from config import load_config
 from rag.pipeline import RagPipeline
+import multiprocessing as _mp
+try:
+    _mp.set_start_method("spawn", force=True)
+except (RuntimeError, ValueError):
+    pass
 
 try:
     from langchain_core.callbacks import BaseCallbackHandler
