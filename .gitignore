@@ -1,3 +1,9 @@
 # data file extensions
 *.zip
 *.pdf
+
+# For any python projects
+__pycache__/
+
+# For sqlite
+*.sqlite3

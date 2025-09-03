@@ -2,16 +2,26 @@ Streaming chat endpoint for testing LLM agents.
 
 It's set up now to have:
 - Uses `uv` to run the project and manage dependencies,
-- Asynchronous using Sanic for an API framework,
+- Asynchronous using Django and django-ninja for an API framework,
 - Uses ollama as an LLM,
 - Stream responses,
 - Make tool calls (just one for now as a placeholder).
 
-Make sure an Ollama server is installed and running, and that you have the `uv` cli tool for python installed.
+## Installation
 
-Start it with:
-```python
-uv run python main.py
+1. Install dependencies:
+```bash
+uv sync
+```
+
+2. Run migrations (if needed):
+```bash
+python manage.py migrate
+```
+
+3. Start the development server:
+```bash
+python manage.py runserver 0.0.0.0:8000
 ```
 
 # Endpoints
