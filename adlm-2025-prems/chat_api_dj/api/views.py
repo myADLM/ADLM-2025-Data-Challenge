@@ -6,9 +6,6 @@ from django.http import StreamingHttpResponse, JsonResponse
 from ninja import NinjaAPI
 from ollama import chat, ChatResponse
 
-# Feature flags
-FEATURE_TOOL_CALLS = True
-
 MODEL = 'qwen3:0.6b'
 
 SYSTEM_PROMPT = """
