@@ -6,13 +6,13 @@ requires-python = ">=3.13"
 dependencies = ["fastapi", "gunicorn", "uvicorn", "pydantic", "fire"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["app/src"]
+packages = ["src/app", "src/scripts"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
 [project.scripts]
-start-api = "scripts.serve:main"
+start-api = "scripts.cli:start_api"
 
 [build-system]
 requires = ["hatchling"]

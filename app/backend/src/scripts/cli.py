@@ -3,12 +3,12 @@ import subprocess
 import sys
 
 
-def main():
-    cmd = [sys.executable, "-m", "gunicorn", "app.src.api:app"]
+def start_api():
+    cmd = [sys.executable, "-m", "gunicorn", "app.api:app"]
 
     options = {
         "--name": "ADLM-CWAM-API",
-        "--bind": "0.0.0.0:6000",
+        "--bind": "0.0.0.0:8000",
         "--workers": "4",
         "-k": "uvicorn.workers.UvicornWorker",
         "--access-logfile": "-",
@@ -21,7 +21,3 @@ def main():
     except OSError as e:
         print(f"Failed to start Gunicorn: {e}", file=sys.stderr)
         return 1
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
