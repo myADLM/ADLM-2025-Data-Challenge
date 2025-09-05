@@ -1,0 +1,104 @@
+[project]
+name = "markerexperiments"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sentence-transformers>=3.2.1",
+    "click>=8.1.7",
+    "pydantic>=2.9.2",
+    "pydantic-settings>=2.6.1",
+    "python-dotenv>=1.0.1",
+    "numpy>=1.26.4,<2.0.0",
+    "modelscope>=1.29.1",
+    "rapidocr>=3.3.1",
+    "onnxruntime>=1.22.0 ; platform_system == 'Darwin'",
+    "marker-pdf[full]>=1.9.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest-asyncio>=0.24.0",
+    "pytest-cov>=6.0.0",
+    "pytest-html>=4.1.1",
+    "pytest-mock>=3.14.0",
+    "pytest>=8.3.3",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[project.scripts]
+docling-trials = "src.interaction.cli.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+preview = true
+select = [
+    "I",
+    "F",
+    "N",
+    "E",
+    "W",
+    "PLC",
+    "PLE",
+    "PLR",
+    "PLW",
+    "ANN",
+    "S",
+    "FBT",
+    "B",
+    "A",
+    "C4",
+    "DTZ",
+    "EM",
+    "G",
+    "INP",
+    "PIE",
+    "T20",
+    "PT",
+    "RET",
+    "SIM",
+    "TID",
+    "C90",
+    "PD",
+    "UP",
+    "FURB",
+    "RUF",
+    "TRY",
+    # "FIX",    # We have a plugin for this
+    # "TD",     # Just not useful
+    # "D",      # Disabled for development, check in PR request
+    # "ERA",    # Disabled for development, check in PR request
+    # "DOC",
+]
+ignore = [
+    "S603",    # Unverified usage of subprocess module, known for false positives
+    "S404",    # `subprocess` module is possibly insecure, we'll use it anyway
+    "B903",
+    "PLW0603",
+    "N802",
+    "TRY003",
+    "EM101",
+    "EM102",
+    "UP017",
+    "PLR2004",    
+]
+
+[tool.ruff.format]
+preview = true
+docstring-code-format = true
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"src/nexus/**.py" = ["F401"]
