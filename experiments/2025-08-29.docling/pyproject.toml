@@ -30,7 +30,7 @@ dev = [
 packages = ["src"]
 
 [project.scripts]
-docling-trials = "src.presentation.cli.cli:cli"
+docling-trials = "src.interaction.cli.cli:cli"
 
 [build-system]
 requires = ["hatchling"]

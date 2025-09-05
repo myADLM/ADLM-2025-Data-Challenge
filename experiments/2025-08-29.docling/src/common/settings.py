@@ -6,6 +6,8 @@ class Settings(BaseSettings):
     """Settings to be initialized with the app."""
 
     model_cache: str
+    ollama_api_url: str
+    ollama_model: str
     log_level: str = Field("DEBUG", pattern=r"^(DEBUG|INFO|WARNING|ERROR|CRITICAL)$")
 
     model_config = SettingsConfigDict(
