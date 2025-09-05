@@ -11,6 +11,12 @@ build-backend:
 	@echo "Building backend application..."
 	cd $(BACK_END_DIR) && uv sync
 
+run-backend:
+# Run the backend application in development mode
+	@echo "Running backend application in development mode..."
+	$(MAKE) build-backend
+	cd $(BACK_END_DIR) && uv run start-api
+
 build-frontend:
 # Build the frontend application
 	@echo "Building frontend application..."
