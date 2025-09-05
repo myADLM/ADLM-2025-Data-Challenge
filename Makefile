@@ -14,5 +14,4 @@ run-frontend:
 # Run the frontend application in development mode
 	@echo "Running frontend application in development mode..."
 	$(MAKE) build-frontend
-# Current directory is already set to FRONT_END_DIR
 	cd $(FRONT_END_DIR) && npm run dev
