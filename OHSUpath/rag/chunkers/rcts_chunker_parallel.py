@@ -118,7 +118,9 @@ class RctsChunkerParallel(Chunker):
         size = (len(docs) + nproc - 1) // nproc
         shards = [docs[i : i + size] for i in range(0, len(docs), size)]
         try:
-            ctx = mp.get_context("spawn")
+            import sys
+            start_method = "fork" if sys.platform.startswith("linux") else "spawn"
+            ctx = mp.get_context(start_method)
             with ctx.Pool(processes=nproc) as pool:
                 parts = pool.starmap(
                     _split_worker,

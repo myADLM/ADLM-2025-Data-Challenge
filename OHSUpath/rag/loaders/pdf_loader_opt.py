@@ -8,7 +8,8 @@ import os, math, multiprocessing as mp
 import fitz
 from ..types import Document, DocumentLoader
 from config import load_config
-
+fitz.TOOLS.mupdf_display_errors(False)
+fitz.TOOLS.mupdf_display_warnings(False)
 
 @dataclass
 class LoaderCfg:
@@ -171,7 +172,9 @@ class PdfLoaderOptimized(DocumentLoader):
                         out.append(Document(page_content="", metadata={"source": path, "parse_error": True, "error": repr(e)}))
             return out
 
-        ctx = mp.get_context("spawn")
+        import sys
+        start_method = "fork" if sys.platform.startswith("linux") else "spawn"
+        ctx = mp.get_context(start_method)
         in_q: mp.Queue = ctx.Queue(maxsize=max(2, int(self.cfg.io_batch_files or 1)))
         out_q: mp.Queue = ctx.Queue()
 

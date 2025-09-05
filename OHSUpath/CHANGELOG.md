@@ -67,6 +67,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.4] - 2025-09-05
+### Changed
+- **Linux**: switch multiprocessing start method to **`fork`** (was `spawn`) in chunking/PDF loader paths.
+- **bootstrap/linux/run_app.sh**: add a **temporary mitigation** (lower parallelism, safer I/O batching, conservative defaults) to stabilize startup and indexing. Now it runs on **WSL2** and **Linux** without memory overflows, crashes, or disconnections. (mitigation only; not a final fix)
+
+### Fixed / Mitigated
+- Reduce frequency of Streamlit **“filechanged error”** and terminal warning  **“The current process just got forked, after parallelism has already been used.”**  (mitigation only; not a final fix)
+
+
 ## [0.2.3] - 2025-09-03
 ### Fixed
 - Force multiprocessing start method to `spawn` at startup to prevent hangs/crashes.

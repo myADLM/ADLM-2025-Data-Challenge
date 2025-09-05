@@ -28,6 +28,20 @@ source ".venv311/bin/activate" || {
   exit 1
 }
 
+# --- RAG memory-safe defaults for Linux/WSL2 ---
+export CONFIG__pdf_loader__num_proc="${CONFIG__pdf_loader__num_proc:-2}"
+export CONFIG__split__num_proc="${CONFIG__split__num_proc:-2}"
+export CONFIG__pdf_loader__prefetch_budget_mb="${CONFIG__pdf_loader__prefetch_budget_mb:-64}"
+export CONFIG__pdf_loader__io_batch_files="${CONFIG__pdf_loader__io_batch_files:-8}"
+export RAG_SHARD_FILES="${RAG_SHARD_FILES:-300}"
+
+
+export CONFIG__runtime__device="cuda"
+export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
+
+export HF_HUB_DISABLE_SYMLINKS_WARNING=1
+
+
 start_ollama_if_needed() {
   if curl -sSf http://127.0.0.1:11434/api/tags >/dev/null 2>&1; then
     echo "[i] Ollama API is responsive."

@@ -195,10 +195,6 @@ class STMultiGPUEmbedder:
         self._err_q: Optional[mp.Queue] = None
         self._workers: List[mp.Process] = []
 
-        if len(self._gpus) > 1:
-            self._ensure_workers()
-        else:
-            self._load_single_model()
 
     # ---------- helpers ----------
 
