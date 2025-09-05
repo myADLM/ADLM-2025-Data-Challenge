@@ -1,9 +1,21 @@
 FRONT_END_DIR=./app/frontend
+BACK_END_DIR=./app/backend
 
 download-pdfs:
 	curl -L -C - -o ./resources/labdocs.zip \
     "https://zenodo.org/records/16328490/files/LabDocs.zip?download=1"
 	unzip -o ./resources/labdocs.zip -d ./resources/
+
+build-backend:
+# Build the backend application
+	@echo "Building backend application..."
+	cd $(BACK_END_DIR) && uv sync
+
+run-backend:
+# Run the backend application in development mode
+	@echo "Running backend application in development mode..."
+	$(MAKE) build-backend
+	cd $(BACK_END_DIR) && uv run start-api
 
 build-frontend:
 # Build the frontend application
