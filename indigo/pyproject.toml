@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "raggers-app"
+name = "indigo-app"
 version = "0.1.0"
-description = "ADLM 2025 Data Challenge RAG Application"
+description = "ADLM 2025 Data Challenge Contextual Retrieval Application"
 authors = ["Jon Montgomery <jmontgom543@gmail.com>"]
 packages = [{ include = "app" }]
 license = "MIT"
@@ -14,7 +14,9 @@ PyMuPDF = "^1.23.0"
 pytesseract = "^0.3.10"
 tqdm = "^4.66.0"
 scikit-learn = "^1.3.0"
-numpy = "^1.24.0"
+numpy = "2.3.2"
+chonkie = {extras = ["st"], version = "^1.2.1"}
+chonky = "^0.1.6"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"

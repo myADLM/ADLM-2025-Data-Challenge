@@ -1,6 +1,6 @@
 # ADLM 2025 Data Challenge RAG Application
 
-A Retrieval-Augmented Generation (RAG) application for processing and analyzing laboratory documentation from the ADLM 2025 Data Challenge.
+A contextual retrieval application with BM25+Vector Search retrieval for processing and analyzing laboratory documentation from the ADLM 2025 Data Challenge.
 
 ## Features
 
@@ -23,6 +23,7 @@ A Retrieval-Augmented Generation (RAG) application for processing and analyzing 
 
 ## Installation by Platform
 
+NOTE: This build process has only been tested on Mac.
 
 ### macOS
 
@@ -35,8 +36,10 @@ A Retrieval-Augmented Generation (RAG) application for processing and analyzing 
 brew install python@3.11 curl
 
 # Install Poetry
-curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | python3.11 -
 ```
+
+Add poetry to your PATH
 
 ### Linux
 
@@ -47,48 +50,6 @@ sudo apt update
 
 # Install Python and required tools
 sudo apt install python3.11 python3.11-venv python3-pip curl unzip
-
-# Install Poetry
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
-#### CentOS/RHEL/Fedora
-```bash
-# CentOS/RHEL 8+
-sudo dnf install python3.11 python3.11-pip curl unzip
-
-# Fedora
-sudo dnf install python3.11 python3.11-pip curl unzip
-
-# Install Poetry
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
-#### Arch Linux
-```bash
-# Install required packages
-sudo pacman -S python311 python-pip curl unzip
-
-# Install Poetry
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
-#### Generic Linux (using pyenv)
-```bash
-# Install pyenv
-curl https://pyenv.run | bash
-
-# Add to shell profile (.bashrc, .zshrc, etc.)
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-
-# Restart shell or source profile
-source ~/.bashrc
-
-# Install Python 3.11
-pyenv install 3.11.6
-pyenv global 3.11.6
 
 # Install Poetry
 curl -sSL https://install.python-poetry.org | python3 -
@@ -114,7 +75,7 @@ $env:PATH += ";$env:APPDATA\Python\Scripts"
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/jonmontg/ADLM-2025-Data-Challenge.git
-cd ADLM-2025-Data-Challenge/raggers
+cd ADLM-2025-Data-Challenge/indigo
 ```
 
 ### 2. Install Dependencies
@@ -230,7 +191,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ## Project Structure
 ```
-raggers/
+indigo/
 ├── app/
 │   ├── data/              # Data directory for documents and extracted content
 │   │   ├── LabDocs/       # Input PDF documents (auto-downloaded)

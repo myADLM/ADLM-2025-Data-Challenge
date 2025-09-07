@@ -1,6 +1,6 @@
 from pathlib import Path
-from app.lib.tf_idf import create_cached_tfidf_search, create_tfidf_search
-from app.lib.extract_labdocs import read_text_documents
+from app.lib.search.tf_idf import create_cached_tfidf_search, create_tfidf_search
+from app.lib.util.read_text_documents import read_text_documents
 
 
 class Search:
