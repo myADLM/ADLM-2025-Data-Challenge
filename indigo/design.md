@@ -15,7 +15,7 @@ Once the text is extracted, it is chunked into smaller pieces (approximately 500
 
 
 #### Vector Database
-Once the chunks are prepared, I use the GPT 3.5-turbo embedding model to embed the chunks into a vector database.
+Once the chunks are prepared, I use the Quen3-Embedding-8B model to embed the chunks into a vector database.
 
 #### BM25
 To help with exact retrieval and other weaknesses of vector search, I also use classic BM25 search.
