@@ -67,6 +67,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.8] - 2025-09-09
+### Added
+- Set up default Next.js config at `net/web/next.config.mjs`.
+
+
 ## [0.2.7] - 2025-09-09
 ### Added
 - Frontend TypeScript config at `net/web/tsconfig.json`.
