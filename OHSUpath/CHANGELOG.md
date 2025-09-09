@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.7] - 2025-09-09
+### Added
+- Frontend TypeScript config at `net/web/tsconfig.json`.
+- Track Next.js generated typings `net/web/next-env.d.ts`.
+
+
 ## [0.2.6] - 2025-09-09
 ### Added
 - `net/web/package.json`: initialize **ohsupath-web** (Next.js 14, React 18, TypeScript). Scripts: `dev` (port **4000**), `build`, `start`, `typecheck`, `lint`.
