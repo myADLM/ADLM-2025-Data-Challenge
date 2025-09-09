@@ -29,4 +29,13 @@ torch==2.7.0
 torchvision==0.22.0
 torchaudio==2.7.0
 
+# --- API (FastAPI) ---
+fastapi>=0.111,<1
+uvicorn[standard]>=0.30,<1
+sse-starlette>=1.6,<2
+python-multipart>=0.0.9,<0.1
+pydantic-settings>=2.3,<3
+sqlmodel>=0.0.22,<0.1
+python-dotenv>=1,<2
+
 # git+https://github.com/xhluca/bm25s.git

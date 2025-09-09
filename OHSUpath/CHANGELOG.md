@@ -67,6 +67,16 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.5] - 2025-09-09
+### Added
+- `requirements.txt`: API deps.
+- `.gitignore`: ignore web build artifacts — `net/web/node_modules`, `.next`, `*.tsbuildinfo`.
+- `bootstrap/linux/setup.sh`: install/check Node/npm & tmux; auto-install `net/gateway` and `net/web` deps when present.
+
+### Changed
+- `bootstrap/linux/setup.sh`: extend base packages.
+
+
 ## [0.2.4] - 2025-09-05
 ### Changed
 - **Linux**: switch multiprocessing start method to **`fork`** (was `spawn`) in chunking/PDF loader paths.
