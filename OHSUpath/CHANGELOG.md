@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.11] - 2025-09-10
+### Added
+- Chat page: `net/web/src/app/chat/page.tsx`（SSE → `{NEXT_PUBLIC_API_BASE || "http://localhost:3000"}/query/stream`）
+- Env example: `net/web/.env.example`（`NEXT_PUBLIC_API_BASE`）
+
+
 ## [0.2.10] - 2025-09-10
 ### Added
 - SSE client helper at `net/web/src/lib/sse.ts` (`startSSE`): content-type check, multi-line `data` support, lifecycle callbacks (`onOpen/onEvent/onClose`), Abort-safe close, and a 1 MB buffer cap.
