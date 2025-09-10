@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.9] - 2025-09-10
+### Added
+- Root layout at `net/web/src/app/layout.tsx`.
+- Home page placeholder at `net/web/src/app/page.tsx`.
+
+
 ## [0.2.8] - 2025-09-09
 ### Added
 - Set up default Next.js config at `net/web/next.config.mjs`.
