@@ -67,6 +67,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.10] - 2025-09-10
+### Added
+- SSE client helper at `net/web/src/lib/sse.ts` (`startSSE`): content-type check, multi-line `data` support, lifecycle callbacks (`onOpen/onEvent/onClose`), Abort-safe close, and a 1 MB buffer cap.
+
+
 ## [0.2.9] - 2025-09-10
 ### Added
 - Root layout at `net/web/src/app/layout.tsx`.
