@@ -6,7 +6,9 @@ My design is based on the [Contextual Retrieval framework](https://www.anthropic
 
 ### Pre-processing
 
-The application first extracts all documents into a normalized plain-text format. It currently supports plain text (`.txt`, `.md`, `.rst`) and `.pdf` file inputs. It has a 100% success rate converting the LabDocs dataset provided for this challenge.
+The application first extracts all documents into a normalized plain-text format. It currently supports plain text (`.txt`, `.md`, `.rst`) and `.pdf` file inputs. It has a 100% success rate converting the LabDocs dataset provided for this challenge. However, LabDocs/FDA/Microbiology/K181029.pdf appears to be an empty file.
+
+73 files had to be converted to text via an OCR-based solution.
 
 Once the text is extracted, it is chunked into smaller pieces (approximately 500 words per chunk). Context is added to each chunk based on its source file. This context comes in two forms:
 

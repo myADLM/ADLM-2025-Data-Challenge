@@ -1,9 +1,10 @@
-import pdfplumber
 import fitz
 import pytesseract
 from PIL import Image
 from pathlib import Path
 from typing import Protocol, Dict, Type
+
+fitz.TOOLS.mupdf_display_errors(False)
 
 
 class _FileReader(Protocol):
@@ -115,73 +116,35 @@ class _PDF_FileReader:
         if not file_path.exists():
             raise FileNotFoundError(f"PDF file not found: {file_path}")
 
-        try:
-            return self.pdf_plumber_read(file_path)
-
-        except Exception as pdfplumber_error:
-            print(f"pdfplumber failed for {file_path}: {pdfplumber_error}")
-            try:
-                return self.pymupdf_read(file_path)
-            except Exception as fitz_error:
-                print(f"PyMuPDF failed for {file_path}: {fitz_error}")
-                try:
-                    return self.ocr_read(file_path)
-                except Exception as ocr_error:
-                    print(f"OCR failed for {file_path}: {ocr_error}")
-                    raise Exception(f"All readers failed for {file_path}")
-
-    def pdf_plumber_read(self, file_path: str | Path) -> str:
-        """Read the contents of a PDF file using pdfplumber."""
-        with pdfplumber.open(file_path) as pdf:
-            all_text = ""
-            for page in pdf.pages:
-                text = page.extract_text()
-                if text:
-                    all_text += text + "\n"
-
-            extracted_text = all_text.strip()
-            if extracted_text:
-                return extracted_text
-            else:
-                raise Exception("pdfplumber returned empty content")
-
-    def pymupdf_read(self, file_path: str | Path) -> str:
-        """Read the contents of a PDF file using PyMuPDF."""
         doc = fitz.open(file_path)
         all_text = ""
 
         for page_num in range(len(doc)):
             page = doc.load_page(page_num)
-            text = page.get_text()
-            if text:
-                all_text += text + "\n"
+            try:
+                text = page.get_text()
+                if text:
+                    all_text += text + "\n"
+                else:
+                    raise Exception("PyMuPDF returned empty page.")
+            except Exception as e:
+                print(f"Trying OCR to extract page {page_num+1} from {file_path}.")
+                pix = page.get_pixmap(dpi=300)  # render page as image
+                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                text = pytesseract.image_to_string(img)
+                if text:
+                    print("Success.")
+                    all_text += text + "\n"
+                else:
+                    print("OCR failed.")
 
         doc.close()
         extracted_text = all_text.strip()
 
         if extracted_text:
-            print(f"PyMuPDF fallback succeeded for {file_path}")
             return extracted_text
         else:
-            raise Exception("PyMuPDF returned empty content")
-
-    def ocr_read(self, file_path: str | Path) -> str:
-        """Read the contents of a PDF file using OCR."""
-        all_text = ""
-        with fitz.open(file_path) as doc:
-            for page in doc:
-                pix = page.get_pixmap(dpi=300)  # render page as image
-                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                text = pytesseract.image_to_string(img)
-                if text:
-                    all_text += text + "\n"
-        extracted_text = all_text.strip()
-
-        if extracted_text:
-            print(f"OCR fallback succeeded for {file_path}")
-            return extracted_text
-        else:
-            raise Exception("OCR returned empty content")
+            raise Exception(f"Failed to extract text from {file_path}")
 
 
 def read_file_with_registry(file_path: str | Path) -> str:

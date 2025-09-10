@@ -5,7 +5,7 @@ Main entry point for the ADLM 2025 Data Challenge RAG Application.
 
 import sys
 from pathlib import Path
-from app.lib.search import Search
+from app.src.search.search import Search
 
 
 def display_results(results, query):

@@ -5,16 +5,16 @@ A contextual retrieval application with BM25+Vector Search retrieval for process
 ## Features
 
 - **PDF Text Extraction**: Automatically extracts text content from PDF documents while preserving directory structure
-- **Document Processing**: Recursively processes PDF files in the LabDocs directory
-- **RAG Framework**: Foundation for implementing retrieval-augmented generation capabilities
-- **Cross-Platform**: Works on Windows, macOS, and Linux
+- **Document Processing**: Processes PDF files in the LabDocs directory
+- **Contextual Retrieval**: Combines BM25 search and Vector search with contextual retrieval with rank fusion and reranking for maximum retrieval accuracy.
+- **Cloud Hosting**: Data and retrieval functions are hosted in AWS
 
 ## Prerequisites
 
 ### System Requirements
 - **Python**: 3.11 or higher
 - **Memory**: At least 4GB RAM (8GB+ recommended for large document processing)
-- **Storage**: At least 2GB free space for LabDocs and extracted content
+- **Storage**: At least 4GB free space for LabDocs and extracted content
 - **Internet**: Required for initial LabDocs download
 
 ### Required System Tools
@@ -110,122 +110,6 @@ poetry run build
 # Run the main RAG application
 poetry run main
 ```
-
-## Development
-
-### Setting Up Development Environment
-```bash
-# Install with development dependencies
-poetry install --with dev
-
-### Development Commands
-```bash
-# Format code
-poetry run black .
-
-# Lint code
-poetry run flake8
-
-# Type checking
-poetry run mypy .
-
-# Run pre-commit hooks
-poetry run pre-commit run --all-files
-```
-
-### Adding Dependencies
-```bash
-# Add production dependency
-poetry add package-name
-
-# Add development dependency
-poetry add --group dev package-name
-```
-
-## Troubleshooting
-
-### Common Issues
-
-#### Python Version Issues
-```bash
-# Check Python version
-python --version
-
-# If wrong version, use pyenv or update PATH
-pyenv local 3.11.6
-```
-
-#### Poetry Installation Issues
-```bash
-# Reinstall Poetry
-curl -sSL https://install.python-poetry.org | python3 - --uninstall
-curl -sSL https://install.python-poetry.org | python3 -
-
-# Add to PATH manually
-export PATH="$HOME/.local/bin:$PATH"
-```
-
-#### Missing System Tools
-**macOS**: Install via Homebrew: `brew install curl`
-**Windows**: Install 7-Zip and ensure curl is available
-**Linux**: Install via package manager: `sudo apt install curl unzip`
-```
-
-### Platform-Specific Notes
-
-#### macOS
-- Python 3.11+ is recommended (avoid system Python 2.7)
-- Homebrew is the preferred package manager
-- Xcode Command Line Tools may be required: `xcode-select --install`
-
-#### Windows
-- Use PowerShell or Command Prompt (not Git Bash for some operations)
-- Ensure Python is added to PATH during installation
-- 7-Zip provides unzip functionality
-- curl is available in Windows 10/11 by default
-
-#### Linux
-- Use your distribution's package manager for system tools
-- Python 3.11+ from package manager or pyenv
-- Ensure curl and unzip are available
-
-## Project Structure
-```
-indigo/
-├── app/
-│   ├── data/              # Data directory for documents and extracted content
-│   │   ├── LabDocs/       # Input PDF documents (auto-downloaded)
-│   │   └── extracted_docs/ # Extracted text files
-│   ├── dbs/               # Database and cache directories
-│   │   └── tf_idf/        # TF-IDF search cache files
-│   ├── lib/
-│   │   ├── extract_pdf.py # PDF extraction utilities
-│   │   ├── data_source.py # Data download and management utilities
-│   │   ├── tf_idf.py      # TF-IDF search implementation
-│   │   └── search.py      # Search interface wrapper
-│   ├── main.py            # Main application entry point
-│   └── build.py           # Build and setup script
-├── tests/                 # Test files
-├── pyproject.toml         # Poetry configuration
-├── .flake8                # Flake8 linting configuration
-└── README.md              # This file
-```
-
-**Note**: The `app/data/` directory is automatically created and populated when you run the application. It contains:
-- **LabDocs**: Downloaded PDF documents from Zenodo
-- **extracted_docs**: Text files extracted from the PDFs
-
-**Cache Directory**: The `app/dbs/tf_idf/` directory stores TF-IDF search indices for fast document retrieval. This cache is automatically managed and only rebuilt when documents change.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Run tests and linting: `poetry run pytest && poetry run black . && poetry run flake8`
-5. Commit your changes: `git commit -m 'Add feature'`
-6. Push to the branch: `git push origin feature-name`
-7. Submit a pull request
 
 ## License
 

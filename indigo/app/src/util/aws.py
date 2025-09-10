@@ -14,6 +14,7 @@ import os, boto3
 from botocore.config import Config
 from botocore.exceptions import ClientError
 
+
 @cache
 def get_s3():
     """Return a cached ``boto3`` S3 resource.
@@ -34,18 +35,16 @@ def get_s3():
             region_name=region,
             aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID", "test"),
             aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY", "test"),
-            config=cfg
+            config=cfg,
         )
-    return boto3.resource(
-        "s3",
-        region_name=region,
-        config=cfg
-    )
+    return boto3.resource("s3", region_name=region, config=cfg)
+
 
 @cache
 def get_s3_client():
     """Return a cached low-level S3 client backed by the S3 resource."""
     return get_s3().meta.client
+
 
 def ensure_bucket(bucket_name: str):
     """Ensure an S3 bucket exists; create it if it does not.
@@ -58,7 +57,7 @@ def ensure_bucket(bucket_name: str):
     try:
         client.head_bucket(Bucket=bucket_name)
     except ClientError as e:
-        if e.response['Error']['Code'] == '404':
+        if e.response["Error"]["Code"] == "404":
             client.create_bucket(Bucket=bucket_name)
             return
         raise e

@@ -1,73 +1,170 @@
 import shutil
+import chonkie
 from chonkie import SentenceChunker
-from app.lib.util.read_text_documents import read_text_documents
+from app.src.util.read_documents import read_documents_as_plaintext
+from app.src.util.bedrock import query_model
+from typing import List, Tuple, Dict
+import re
 from pathlib import Path
 from tqdm import tqdm
+import polars as pl
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
+import os
 
 
-def chunk_docs(docs_path: Path, chunked_docs_path: Path):
+def fast_chunk_text(df: pl.DataFrame, text_column: str, file_path_column: str, path_annotation_config: Dict[str, str]) -> pl.DataFrame:
     """
-    Recursively search for files in docs_path, apply SentenceChunker to each file,
-    and save chunks to chunked_docs_path with the same relative path structure.
+    Chunk the text in `text_column` into ~500-token chunks with no overlap.
 
-    For each file in docs_path, chunked_docs_path will contain a directory with the file name
-    and write a file for each chunk called chunk_<N>.txt
+    Uses `SentenceChunker` for sentence-aware chunking and `ThreadPoolExecutor`
+    to parallelize across rows.
 
-    Any existing files in chunked_docs_path will be removed before processing.
-
-    Args:
-        docs_path: Path to the directory containing documents to chunk
-        chunked_docs_path: Path to the output directory for chunked documents
+    Returns a new DataFrame with rows expanded per chunk and columns:
+      - all original columns (except `text_column` may be dropped in output)
+      - `chunk_index`: zero-based index of the chunk for that row
+      - `chunk_text`: text content of the chunk
+      - `file_path_column`: file path of the original file
+      - `path_annotation_config`: configuration for path-based annotations
     """
-    # Ensure input path exists
-    if not docs_path.exists():
-        raise FileNotFoundError(f"Input directory '{docs_path}' does not exist")
+    if text_column not in df.columns:
+        raise ValueError(f"Column '{text_column}' not found in DataFrame")
 
-    # Remove existing files in chunked_docs_path if it exists
-    if chunked_docs_path.exists():
-        shutil.rmtree(chunked_docs_path)
-        print(f"Cleared existing chunked documents from {chunked_docs_path}")
+    # Prepare rows as list of dict for thread-safe processing
+    records = df.to_dicts()
+    lock = threading.Lock()
+    document_store = {}
 
-    # Create output directory
-    chunked_docs_path.mkdir(parents=True, exist_ok=True)
+    def process_record(record: dict) -> list[dict]:
+         # Initialize chunker. Target approximately 500 tokens, no overlap
+        chunker = SentenceChunker(chunk_size=2048, chunk_overlap=0, min_sentences_per_chunk=1, min_characters_per_sentence=10)
 
-    # Initialize the chunker
-    chunker = SentenceChunker()
+        text = record.get(text_column, "") or ""
 
-    # Get all text documents
-    input_docs = read_text_documents(docs_path)
+        # Strip continuous strings of non-alphanumeric characters
+        pat = re.compile(r"[\W^_]{5,}", flags=re.UNICODE)
+        text = pat.sub(" ", text)
 
-    # Process each file
-    for relative_path, text_content in tqdm(input_docs, desc="Chunking documents"):
-        try:
-            # Convert relative_path to Path object if it's a string
-            if isinstance(relative_path, str):
-                relative_path = Path(relative_path)
+        # Fast path for empty text
+        if not text.strip():
+            return []
 
-            file_path = docs_path / relative_path
+        chunks = normalize_chunks(chunker(text))
+        results: list[dict] = []
 
-            # Create output directory structure
-            # Remove file extension and create directory named after the file
-            file_name = file_path.stem
-            output_dir = chunked_docs_path / relative_path.parent / file_name
-            output_dir.mkdir(parents=True, exist_ok=True)
+        # Ensure the whole document is in the document store
+        with lock:
+            document_store[record[file_path_column]] = record[text_column]
 
-            # Skip empty files
-            if not text_content.strip():
-                print(f"Warning: Skipping empty file {file_path}")
+        for idx, ch in enumerate(chunks):
+            out = {k: v for k, v in record.items() if k != text_column}
+            out["chunk_index"] = idx
+
+            # TODO: Uncomment this when the LLM is ready
+            out["chunk_text"] = ch
+            #try:
+            #    out["chunk_text"] = annotate_chunk(
+            #        ch,
+            #        record[file_path_column],
+            #        path_annotation_config,
+            #        lock,
+            #        document_store
+            #    )
+            #except Exception as e:
+            #    print(f"Error annotating chunk: {e}")
+            #    out["chunk_text"] = ch
+            results.append(out)
+        return results
+
+    # Multithread processing of rows
+    max_workers = min(32, (os.cpu_count() or 4))
+    output_rows: list[dict] = []
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = [executor.submit(process_record, rec) for rec in records]
+        for f in tqdm(as_completed(futures), total=len(futures), desc="Chunking rows", unit="row"):
+            try:
+                output_rows.extend(f.result())
+            except Exception as e:
+                # Skip problematic rows but continue processing
+                print(f"Error processing row: {e}")
                 continue
 
-            # Split the text into chunks
-            chunks = chunker(text_content)
+    # Build output DataFrame; ensure consistent column order
+    if not output_rows:
+        return pl.DataFrame({
+            **{k: [] for k in df.columns if k != text_column},
+            "chunk_index": [],
+            "chunk_text": [],
+        })
 
-            # Save each chunk as a separate file
-            for i, chunk in enumerate(chunks):
-                chunk_file = output_dir / f"chunk_{i:03d}.txt"
-                with open(chunk_file, "w", encoding="utf-8") as f:
-                    f.write(chunk.text)
+    return pl.DataFrame(output_rows)
 
-        except Exception as e:
-            print(f"Error processing {file_path}: {str(e)}")
+def normalize_chunks(chunks: List[chonkie.Chunk]) -> list[str]:
+    """
+    Normalize chunks by removing empty or junk chunks and converting to strings.
+
+    - chunks: list of chunks
+
+    Returns a list of strings
+    """
+    normalized_chunks = []
+    for chunk in chunks:
+        chunk_text = chunk.text.strip()
+        if not chunk_text:
             continue
+        if len(chunk_text) < 100 and normalized_chunks:
+            normalized_chunks[-1] += chunk_text
+            continue
+        normalized_chunks.append(chunk_text)
+    return normalized_chunks
 
-    print(f"Chunking completed. Output saved to: {chunked_docs_path}")
+def annotate_chunk(
+    chunk: str, file_path: str, file_path_annotation_config: Dict[str, str], lock: threading.Lock, document_store: dict[str, str]
+) -> str:
+    """
+    Annotate chunks based on their file path using regex patterns.
+
+    - chunk: chunk text
+    - file_path: file path of the original file
+    - file_path_annotation_config: mapping of regex pattern -> annotation text (string only)
+    - lock: lock for the document store
+    - document_store: store of whole documents
+
+    Returns the annotated chunk text
+    """
+    contextualized_chunk = contextualize_chunk(chunk, file_path, lock, document_store)
+
+
+    annotations = []
+    for pattern, annotation_text in file_path_annotation_config.items():
+        if re.search(pattern, file_path):
+            annotations.append(annotation_text)
+    return "{ammptations}\n\n{chunk}".format(annotations='\n'.join(annotations), chunk=contextualized_chunk)
+
+def contextualize_chunk(chunk: str, file_path: str, lock: threading.Lock, document_store: dict[str, str]) -> str:
+    """
+    Contextualize a chunk based on its file path using the LLM.
+
+    - chunk: chunk text
+    - file_path: file path of the original file
+    - lock: lock for the document store
+    - document_store: store of whole documents
+
+    Returns the contextualized chunk text
+    """
+    with lock:
+        whole_document = document_store.get(file_path, None)
+    if whole_document is None:
+        raise ValueError(f"Whole document not found for file path: {file_path}")
+    context = query_model(bedrock, "", """
+    <document>
+    {whole_document}
+    </document>
+    Here is the chunk we want to situate within the whole document
+    <chunk>
+    {chunk}
+    </chunk>
+    Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else.
+    """.format(whole_document=whole_document, chunk=chunk)
+    )
+    return "{context}\n\n{chunk}".format(context=context, chunk=chunk)
