@@ -1,3 +1,4 @@
+import json
 from logging import getLogger
 from pathlib import Path
 
@@ -85,6 +86,7 @@ def ollama_vlm_options(model: str, prompt: str) -> ApiVlmOptions:
     required=True,
 )
 def test2(pdf: str) -> None:
+    logger.info("Running VLM pipeline with Ollama backend.")
     pipeline_options = VlmPipelineOptions(
         enable_remote_services=True  # <-- this is required!
     )
@@ -104,4 +106,4 @@ def test2(pdf: str) -> None:
     )
 
     result = doc_converter.convert(pdf)
-    print(result.document.export_to_markdown())
+    print(json.dumps(result.document.export_to_dict(), indent=2))
