@@ -91,9 +91,10 @@ def test2(pdf: str) -> None:
         enable_remote_services=True  # <-- this is required!
     )
 
+    pipeline_options.ocr_options.force_full_page_ocr = True
     pipeline_options.vlm_options = ollama_vlm_options(
         model=settings.ollama_model,
-        prompt="OCR the full page to markdown.",
+        prompt="OCR the full page.",
     )
 
     doc_converter = DocumentConverter(
