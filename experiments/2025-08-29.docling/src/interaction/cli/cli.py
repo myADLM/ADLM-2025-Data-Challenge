@@ -72,6 +72,7 @@ VLM_PROMPT = """
 OCR the full page.
 
 - You MUST output only the text content, without an intro or outro.
+- You MUST NOT output any other text besides the OCR result.
 """
 
 
