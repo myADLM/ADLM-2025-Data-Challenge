@@ -88,10 +88,10 @@ def ollama_vlm_options(model: str, prompt: str) -> ApiVlmOptions:
 def test2(pdf: str) -> None:
     logger.info("Running VLM pipeline with Ollama backend.")
     pipeline_options = VlmPipelineOptions(
-        enable_remote_services=True  # <-- this is required!
+        enable_remote_services=True,
+        force_backend_text=True,
     )
 
-    pipeline_options.ocr_options.force_full_page_ocr = True
     pipeline_options.vlm_options = ollama_vlm_options(
         model=settings.ollama_model,
         prompt="OCR the full page.",
