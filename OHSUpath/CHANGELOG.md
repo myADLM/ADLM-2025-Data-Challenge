@@ -67,6 +67,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.13] - 2025-09-13
+### Changed
+- `.gitignore`: refine ignores for Python/Node/Next (env files, caches, build dirs).
+- `OHSUpath/requirements.txt`: refresh Python deps.
+- `OHSUpath/net/web/next.config.mjs`: dev rewrites to `${GATEWAY_ORIGIN || "http://localhost:3000"}`.
+- `OHSUpath/net/web/package.json`: update scripts/deps; refresh lockfile.
+
+
 ## [0.2.12] - 2025-09-13
 ### Added
 - bootstrap/linux/netstack.sh: helper to bootstrap envs, rotate keys, and run the dev stack (API/Gateway/Web) with tmux or background.
