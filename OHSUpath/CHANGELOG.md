@@ -67,6 +67,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.15] - 2025-09-13
+### Added
+- Gateway files: package.json, tsconfig.json, package-lock.json.
+- Python __init__.py in net/api/ and net/api/routers/ (mark as packages).
+
+### Changed
+- .gitignore: small update for temp ignore files.
+
+
 ## [0.2.14] - 2025-09-13
 ### Changed
 - OHSUpath/net/web/src/app/layout.tsx: keep minimal RootLayout.
