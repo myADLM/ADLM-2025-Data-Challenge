@@ -67,6 +67,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.12] - 2025-09-13
+### Added
+- bootstrap/linux/netstack.sh: helper to bootstrap envs, rotate keys, and run the dev stack (API/Gateway/Web) with tmux or background.
+
+### Changed
+- Makefile: simple wrappers for env setup, start/stop/status/logs, key rotation, and admin console.
+
+
 ## [0.2.11] - 2025-09-10
 ### Added
 - Chat page: `net/web/src/app/chat/page.tsx`（SSE → `{NEXT_PUBLIC_API_BASE || "http://localhost:3000"}/query/stream`）

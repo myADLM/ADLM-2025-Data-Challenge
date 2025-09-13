@@ -44,14 +44,25 @@ OHSUpath/rag/tests/**
 devtools/
 
 
-# net web generated
-OHSUpath/net/web/node_modules
+# net generated
+**/node_modules/
 OHSUpath/net/web/.next
 OHSUpath/net/web/*.tsbuildinfo
 
 
+# web user database
+OHSUpath/net/ohsupath.db*
+**/*.db
+**/*.db-wal
+**/*.db-shm
+
+
+# net env
+**/.env*
+!**/.env.example
+
+
 # temp ignore, still working on them
-OHSUpath/bootstrap/linux/netstack.sh
-OHSUpath/Makefile
 OHSUpath/net/api
 OHSUpath/net/gateway
+OHSUpath/net/web
