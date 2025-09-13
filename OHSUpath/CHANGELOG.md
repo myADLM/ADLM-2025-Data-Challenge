@@ -67,6 +67,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.14] - 2025-09-13
+### Changed
+- OHSUpath/net/web/src/app/layout.tsx: keep minimal RootLayout.
+- OHSUpath/net/web/src/lib/sse.ts: harden POST SSE client (no-store, strict content-type check, robust multi-line parsing) and add `startChatSSE(publicId, content, handlers, extra)` helper.
+- Chat page relocated from `OHSUpath/net/web/src/app/chat/page.tsx` to the protected route structure (no functional change).
+
+
 ## [0.2.13] - 2025-09-13
 ### Changed
 - `.gitignore`: refine ignores for Python/Node/Next (env files, caches, build dirs).

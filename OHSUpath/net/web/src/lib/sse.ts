@@ -1,3 +1,5 @@
+// net/web/src/lib/sse.ts
+
 type SSEHandlers = {
   onOpen?: () => void;
   onMessage?: (t: string) => void;
@@ -6,6 +8,7 @@ type SSEHandlers = {
   onClose?: () => void;
 };
 
+/** Low-level: SSE over POST */
 export function startSSE(url: string, body: any, handlers: SSEHandlers) {
   const ctrl = new AbortController();
 
@@ -13,12 +16,10 @@ export function startSSE(url: string, body: any, handlers: SSEHandlers) {
     try {
       const res = await fetch(url, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "text/event-stream",
-        },
+        headers: { "Content-Type": "application/json", Accept: "text/event-stream" },
         body: JSON.stringify(body),
         credentials: "include",
+        cache: "no-store",
         signal: ctrl.signal,
       });
 
@@ -53,14 +54,13 @@ export function startSSE(url: string, body: any, handlers: SSEHandlers) {
           const raw = buf.slice(0, sep);
           buf = buf.slice(sep + 2);
 
-          // parse one SSE event frame
           let event: string | undefined;
           let id: string | undefined;
           const dataLines: string[] = [];
 
           for (const line of raw.split("\n")) {
             if (!line) continue;
-            if (line.startsWith(":")) continue; // comment line
+            if (line.startsWith(":")) continue;
             const idx = line.indexOf(":");
             const field = idx === -1 ? line : line.slice(0, idx);
             let value = idx === -1 ? "" : line.slice(idx + 1);
@@ -69,7 +69,6 @@ export function startSSE(url: string, body: any, handlers: SSEHandlers) {
             if (field === "event") event = value;
             else if (field === "data") dataLines.push(value);
             else if (field === "id") id = value;
-            // ignore retry
           }
 
           const data = dataLines.join("\n");
@@ -87,4 +86,18 @@ export function startSSE(url: string, body: any, handlers: SSEHandlers) {
   })();
 
   return { close() { ctrl.abort(); } };
+}
+
+/** Friendly wrapper: send message from /chat/<public_chat_id> */
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "/api";
+
+export function startChatSSE(
+  publicId: string,                 // 64-char hex: public_chat_id
+  content: string,                  // message text to send
+  handlers: SSEHandlers,
+  extra?: Record<string, any>       // optional: extra params passed through
+) {
+  const url = `${API_BASE}/query/stream/${encodeURIComponent(publicId)}`;
+  const body = { content, ...(extra || {}) };
+  return startSSE(url, body, handlers);
 }
