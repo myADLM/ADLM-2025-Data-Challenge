@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.17] - 2025-09-13
+### Added
+- net/api/deps.py: internal key check (403) and get_current_user via x-user-id (401/400 on errors).
+- net/api/security.py: bcrypt password hash/verify helpers.
+
+
 ## [0.2.16] - 2025-09-13
 ### Added
 - net/api/settings.py: pydantic-settings; reads env; APP_NAME, INTERNAL_SHARED_KEY.
