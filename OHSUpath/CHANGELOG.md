@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.16] - 2025-09-13
+### Added
+- net/api/settings.py: pydantic-settings; reads env; APP_NAME, INTERNAL_SHARED_KEY.
+- net/api/db.py: SQLite engine (DB_PATH); init_db() sets WAL/foreign_keys; get_db() session dep.
+
+
 ## [0.2.15] - 2025-09-13
 ### Added
 - Gateway files: package.json, tsconfig.json, package-lock.json.
