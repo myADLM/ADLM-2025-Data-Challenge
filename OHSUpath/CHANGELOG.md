@@ -67,6 +67,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.28] - 2025-09-13
+### Added
+- Protected chat routes:
+  - `(protected)/chat/page.tsx`: SSR fetch conversations from Gateway; redirect to `/login` on 401/403.
+  - `(protected)/chat/[public_chat_id]/page.tsx`: SSR load list and select given conversation.
+- Gateway base resolution: `GATEWAY_ORIGIN || NEXT_PUBLIC_API_BASE || http://localhost:3000`.
+
+
 ## [0.2.27] - 2025-09-13
 ### Added
 - net/web/src/app/login/page.tsx: SSR fetch `/api/auth/me` (uses GATEWAY_ORIGIN or derived origin); passes `next` and `force` to client.
