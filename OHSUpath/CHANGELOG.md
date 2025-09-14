@@ -67,6 +67,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.26] - 2025-09-13
+### Added
+- net/web/src/app/(protected)/layout.tsx: SSR auth gate. Reads `sid` cookie, calls `/api/auth/me` (uses `GATEWAY_ORIGIN` or derived origin), and redirects to `/login?next=/chat` on 401/403.
+
+
 ## [0.2.25] - 2025-09-13
 ### Added
 - net/gateway/src/routes/auth.ts: POST /auth/login (proxy to API, sign JWT cookie, 204), POST /auth/logout (clear cookie), GET /auth/me (return JWT claims).
