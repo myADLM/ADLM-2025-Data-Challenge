@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.24] - 2025-09-13
+### Added
+- net/gateway/src/routes/health.ts: GET /api/health -> { ok: true, ts }.
+- net/gateway/src/routes/files.ts: GET /api/files/:id proxy to API; forwards x-internal-key and x-user-id; streams body and preserves headers.
+
+
 ## [0.2.23] - 2025-09-13
 ### Added
 - net/gateway/src/middleware/auth.ts: JWT cookie parser `parseAuth` and guard `requireAuth`; clears invalid/expired token.
