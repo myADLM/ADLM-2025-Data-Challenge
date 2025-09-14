@@ -67,6 +67,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.23] - 2025-09-13
+### Added
+- net/gateway/src/middleware/auth.ts: JWT cookie parser `parseAuth` and guard `requireAuth`; clears invalid/expired token.
+
+
 ## [0.2.22] - 2025-09-13
 ### Added
 - net/gateway/src/config.ts: load env (dotenv) and expose port, cookieName, jwtSecret, apiBase, internalKey, corsOrigin, rateLimit.
