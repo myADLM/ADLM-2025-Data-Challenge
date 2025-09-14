@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.27] - 2025-09-13
+### Added
+- net/web/src/app/login/page.tsx: SSR fetch `/api/auth/me` (uses GATEWAY_ORIGIN or derived origin); passes `next` and `force` to client.
+- net/web/src/app/login/LoginClient.tsx: simple email/password form; POST `/api/auth/login`; continue/logout+switch flow; basic error display.
+
+
 ## [0.2.26] - 2025-09-13
 ### Added
 - net/web/src/app/(protected)/layout.tsx: SSR auth gate. Reads `sid` cookie, calls `/api/auth/me` (uses `GATEWAY_ORIGIN` or derived origin), and redirects to `/login?next=/chat` on 401/403.
