@@ -67,7 +67,30 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [0.2.21] - 2025-09-13
+## [0.2.32] - 2025-09-14
+### Added
+- Streamlit admin console inside `app.py`:
+  - Tabs: "Admin - Users", "Admin - Data", "Admin - Logins".
+  - Users tab: create/update users with optional password hashing.
+  - Data overview: counts and simple tables for Users/Conversations/Messages.
+  - Login audit: latest 200 events with timestamp, IP, agent, and joined user email.
+- Database bootstrap:
+  - `ensure_db_ready()` sets SQLite pragmas and runs `SQLModel.metadata.create_all`.
+  - Project root is injected into `sys.path` to stabilize imports.
+
+### Changed
+- UI: set `st.set_page_config(..., layout="wide")` for more horizontal space.
+- Helpers renamed for clarity:
+  - `_clear_index` -> `clear_index`
+  - `_ensure_index` -> `ensure_index`
+  - `_clear_project_artifacts` -> `clear_project_artifacts`
+
+### Fixed
+- Streamlit deprecation warnings:
+  - Replaced `use_container_width=True` with `width='stretch'` everywhere.
+
+
+## [0.2.31] - 2025-09-13
 ### Added
 - `net/web/src/app/page.tsx` : add quick links to `/login` and `/chat`, minor styling.
 
