@@ -67,6 +67,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.21] - 2025-09-13
+### Added
+- net/api/main.py: FastAPI app wiring; run init_db() at startup; enable CORS; mount health/auth/conversations/query routers.
+
+
 ## [0.2.20] - 2025-09-13
 ### Added
 - net/api/routers/auth.py: POST /auth/login (gateway-only via internal key), records LoginEvent.
