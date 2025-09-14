@@ -67,6 +67,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.20] - 2025-09-13
+### Added
+- net/api/routers/auth.py: POST /auth/login (gateway-only via internal key), records LoginEvent.
+- net/api/routers/conversations.py: conversations CRUD, fetch by public_chat_id, and share members (list/add/patch/delete) with role checks.
+- net/api/routers/query.py: POST /query and POST /query/stream (SSE); store user message, stream echo reply, then persist assistant reply.
+
+
 ## [0.2.19] - 2025-09-13
 ### Added
 - net/api/routers/health.py: GET /health returns {"ok": true}.
