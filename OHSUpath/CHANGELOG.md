@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.22] - 2025-09-13
+### Added
+- net/gateway/src/config.ts: load env (dotenv) and expose port, cookieName, jwtSecret, apiBase, internalKey, corsOrigin, rateLimit.
+- net/gateway/src/server.ts: Express app with helmet/compression/cors/json/cookies/morgan/rate-limit; mount /api routes (auth, conversations, query) and start listener.
+
+
 ## [0.2.21] - 2025-09-13
 ### Added
 - net/api/main.py: FastAPI app wiring; run init_db() at startup; enable CORS; mount health/auth/conversations/query routers.
