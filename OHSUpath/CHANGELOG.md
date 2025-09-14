@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.18] - 2025-09-13
+### Added
+- net/api/models.py: SQLModel tables (User, Conversation with public_chat_id, Message, LoginEvent, ConversationMember); helpers now_ms() and new_public_id().
+- net/api/schemas.py: Pydantic models (ConversationOut/WithMessages, MessageOut, ConversationPatch, ShareCreate/Update/Out, QueryRequest, UserBrief) and AccessRole.
+
+
 ## [0.2.17] - 2025-09-13
 ### Added
 - net/api/deps.py: internal key check (403) and get_current_user via x-user-id (401/400 on errors).
