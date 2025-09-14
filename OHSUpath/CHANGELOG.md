@@ -67,6 +67,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.21] - 2025-09-13
+### Added
+- `net/web/src/app/page.tsx` : add quick links to `/login` and `/chat`, minor styling.
+
+
 ## [0.2.30] - 2025-09-13
 ### Added
 - `net/web/src/lib/api.ts` : small fetch wrapper with `NEXT_PUBLIC_API_BASE` fallback to `/api`, JSON auto-parse, and `credentials: include`.
