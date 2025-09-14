@@ -67,6 +67,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.19] - 2025-09-13
+### Added
+- net/api/routers/health.py: GET /health returns {"ok": true}.
+- net/api/routers/files.py: placeholder for cited file viewer tool.
+
+
 ## [0.2.18] - 2025-09-13
 ### Added
 - net/api/models.py: SQLModel tables (User, Conversation with public_chat_id, Message, LoginEvent, ConversationMember); helpers now_ms() and new_public_id().
