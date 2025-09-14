@@ -67,6 +67,17 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.29] - 2025-09-13
+### Added
+- `ChatClient.tsx`:
+  - Role tabs: All / Owned / Collaborating / Read-only with counts.
+  - Load history per conversation; list sort by `last_message_at`.
+  - Create-on-first-send and auto title from first message.
+  - Rename and share (editor/viewer) actions.
+  - SSE streaming via `/api/query/stream/:id`, chunk merge, error handling, and refresh on close.
+  - Read-only banner for viewer role.
+
+
 ## [0.2.28] - 2025-09-13
 ### Added
 - Protected chat routes:
