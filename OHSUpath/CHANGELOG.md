@@ -67,6 +67,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.25] - 2025-09-13
+### Added
+- net/gateway/src/routes/auth.ts: POST /auth/login (proxy to API, sign JWT cookie, 204), POST /auth/logout (clear cookie), GET /auth/me (return JWT claims).
+- net/gateway/src/routes/conversations.ts: proxy list/create/get/patch/delete; share list/add/patch/delete; unified upstream headers (`x-internal-key`, `x-user-id`).
+- net/gateway/src/routes/query.ts: SSE proxy for POST /query/stream and /query/stream/:id; GET compatibility; normalize payload to `{content}`; extract `public_id` from path/body/query/headers/referer; stream piping with `Readable.fromWeb`.
+
+
 ## [0.2.24] - 2025-09-13
 ### Added
 - net/gateway/src/routes/health.ts: GET /api/health -> { ok: true, ts }.
