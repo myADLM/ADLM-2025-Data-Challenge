@@ -1,7 +1,7 @@
 // net/web/src/app/chat/Client.tsx
 
 "use client";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { startSSE } from "@/lib/sse";
 import { useRouter } from "next/navigation";
 
@@ -17,20 +17,35 @@ type Conv = {
   access_role?: AccessRole;
   shared_by?: UserBrief | null;
   unread_count?: number;
-  activity_at?: number | string | null; // server-provided activity hint
+  activity_at?: number | string | null;
   [k: string]: any;
 };
 
 type Msg = { role: "user" | "assistant" | "system" | "info"; text: string; created_at?: number };
 
+type Member = {
+  user: UserBrief;
+  role: "owner" | "editor" | "viewer";
+  invited_by: UserBrief;
+  created_at: number;
+};
+
+type Me = { id: number; email?: string | null; name?: string | null };
+
 /** Polling & backoff config */
-const POLL_LIST_MS = 12000; // conversation list
-const POLL_MSG_MS  = 4000;  // messages
+const POLL_LIST_MS = 12000;
+const POLL_MSG_MS  = 4000;
 const BACKOFF_BASE_MS = 5000;
 const BACKOFF_MAX_MS  = 60000;
-const READ_TO_MIN_INTERVAL_MS = 8000; // at most once per 8s per conversation (read/read_to throttling)
+const READ_TO_MIN_INTERVAL_MS = 8000;
 
-/** Prefer activity_at; fallback to last_message_at > updated_at > created_at */
+const NARROW_BP = 1100;
+const HYST = 18;
+
+const getViewportW = () =>
+  typeof document !== "undefined" ? document.documentElement.clientWidth : 0;
+
+/** ----- helpers ----- */
 function ts(c: Conv): number {
   const n = (v: any) => (v == null ? 0 : Number(v));
   return n((c as any).activity_at ?? c.last_message_at ?? c.updated_at ?? c.created_at ?? 0);
@@ -45,13 +60,32 @@ function sanitizeChunk(t: string): string {
   if (/^This is a placeholder answer\./i.test(s)) return "";
   return t;
 }
-/** Deduplicate, merge, and sort */
 function dedupeAndSort(list: Conv[]): Conv[] {
   const map = new Map<string, Conv>();
   for (const c of list) map.set(c.id, { ...(map.get(c.id) || {}), ...c });
   return Array.from(map.values()).sort(byDesc);
 }
-/** Upsert one conversation and sort */
+
+/** Key: compare conversation list signatures to detect "actual changes"; avoid setState when unchanged to prevent flicker */
+const convSig = (c: Conv) =>
+  `${c.id}|${Number(c.last_message_at)||0}|${Number(c.unread_count)||0}|${c.access_role||""}|${labelOf(c)}`;
+function sameConvs(a: Conv[], b: Conv[]): boolean {
+  if (a === b) return true;
+  if (a.length !== b.length) return false;
+  const mb = new Map(b.map(x => [x.id, convSig(x)]));
+  for (const x of a) if (mb.get(x.id) !== convSig(x)) return false;
+  return true;
+}
+function setConvsIfChanged(
+  setter: React.Dispatch<React.SetStateAction<Conv[]>>,
+  producer: (prev: Conv[]) => Conv[]
+) {
+  setter(prev => {
+    const next = producer(prev);
+    return sameConvs(prev, next) ? prev : next;
+  });
+}
+
 function upsert(list: Conv[], item: Conv): Conv[] {
   const i = list.findIndex(x => x.id === item.id);
   if (i >= 0) {
@@ -61,7 +95,7 @@ function upsert(list: Conv[], item: Conv): Conv[] {
   }
   return dedupeAndSort([item, ...list]);
 }
-/** Make an auto title from first input */
+
 function makeAutoTitle(input: string): string {
   let t = (input || "")
     .replace(/https?:\/\/\S+/gi, "")
@@ -82,16 +116,9 @@ function RoleBadge({ c }: { c: Conv }) {
       <span
         title="You can edit and send messages in this shared chat."
         style={{
-          marginLeft: 8,
-          padding: "2px 8px",
-          borderRadius: 999,
-          border: "1px solid #cfe8ff",
-          background: "#eaf4ff",
-          color: "#1456a0",
-          fontSize: 12,
-          whiteSpace: "nowrap",
-          alignSelf: "center",
-          flexShrink: 0,
+          marginLeft: 8, padding: "2px 8px", borderRadius: 999,
+          border: "1px solid #cfe8ff", background: "#eaf4ff",
+          color: "#1456a0", fontSize: 12, whiteSpace: "nowrap", alignSelf: "center", flexShrink: 0,
         }}
       >
         Collaborating{c.shared_by?.name ? `, shared by ${c.shared_by.name}` : ""}
@@ -103,26 +130,22 @@ function RoleBadge({ c }: { c: Conv }) {
       <span
         title="Read-only: you can't send messages or rename this chat."
         style={{
-          marginLeft: 8,
-          padding: "2px 8px",
-          borderRadius: 999,
-          border: "1px solid #f5d0d0",
-          background: "#ffecec",
-          color: "#9b1c1c",
-          fontSize: 12,
-          whiteSpace: "nowrap",
-          alignSelf: "center",
-          flexShrink: 0,
+          marginLeft: 8, padding: "2px 8px", borderRadius: 999,
+          border: "1px solid #f5d0d0", background: "#ffecec",
+          color: "#9b1c1c", fontSize: 12, whiteSpace: "nowrap", alignSelf: "center", flexShrink: 0,
         }}
       >
         Read-only{c.shared_by?.name ? `, shared by ${c.shared_by.name}` : ""}
       </span>
     );
   }
-  return null; // owner: not show
+  return null;
 }
 
 const latestTs = (arr: Msg[]) => arr.reduce((mx, m) => Math.max(mx, Number(m.created_at || 0)), 0);
+const displayName = (u?: UserBrief | null) => (u?.name || u?.email || String(u?.id ?? ""));
+const emailOf = (u?: UserBrief | null) => (u?.email || "");
+const isEmail = (s: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
 
 export default function ChatClient({
   initialConversations = [] as any[],
@@ -146,12 +169,24 @@ export default function ChatClient({
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const selectedConv = useMemo(() => convs.find((c) => c.id === selectedId) ?? null, [convs, selectedId]);
 
+  // me
+  const [me, setMe] = useState<Me | null>(null);
+  useEffect(() => {
+    (async () => {
+      const res = await fetch("/api/auth/me", { cache: "no-store" }).catch(() => null);
+      if (res && res.ok) {
+        const u = await res.json().catch(() => null);
+        if (u && typeof u.id !== "undefined") setMe(u);
+      }
+    })();
+  }, []);
+
   const [msgs, setMsgs] = useState<Msg[]>([]);
   const msgsRef = useRef<Msg[]>([]);
   useEffect(() => { msgsRef.current = msgs; }, [msgs]);
 
   const [input, setInput] = useState("");
-  const [queuedInput, setQueuedInput] = useState<string | null>(null); // queued content
+  const [queuedInput, setQueuedInput] = useState<string | null>(null);
   const queuedRef = useRef<string | null>(null);
   useEffect(() => { queuedRef.current = queuedInput; }, [queuedInput]);
 
@@ -159,32 +194,25 @@ export default function ChatClient({
   const [streaming, setStreaming] = useState(false);
   const flushingRef = useRef(false);
 
-  // detect remote SSE streaming
   const [remoteStreaming, setRemoteStreaming] = useState(false);
   const remoteStreamTouchedAtRef = useRef(0);
   const prevAssistantLenRef = useRef(0);
 
-  // remember locally sent user messages (for "New" marker correction)
   const localSentRef = useRef<Array<{ text: string; ts: number }>>([]);
 
-  // unread anchor
   const [lastSeenAt, setLastSeenAt] = useState<number>(0);
   const unreadAnchorIndexRef = useRef<number | null>(null);
   const msgRefs = useRef<Map<number, HTMLDivElement | null>>(new Map());
-  // on first load: if no unread anchor, scroll to bottom
   const needsInitialScrollRef = useRef<boolean>(false);
 
-  // === Local shadow "seen": override server unread to avoid sticky unread in shared chats ===
-  const shadowSeenRef = useRef<Map<string, number>>(new Map()); // convId -> seen_ts
+  const shadowSeenRef = useRef<Map<string, number>>(new Map());
 
-  // counts by role and current tab count
   const counts = useMemo(() => {
     const owned = convs.filter(c => c.access_role === "owner").length;
     const collab = convs.filter(c => c.access_role === "editor").length;
     const readonly = convs.filter(c => c.access_role === "viewer").length;
     return { total: convs.length, owned, collab, readonly };
   }, [convs]);
-
   const currentCount = useMemo(() => {
     switch (activeTab) {
       case "owned": return counts.owned;
@@ -194,17 +222,14 @@ export default function ChatClient({
     }
   }, [activeTab, counts]);
 
-  // sync selected id when route param changes
   useEffect(() => { setSelectedId(selectedPublicId); }, [selectedPublicId]);
 
-  // ------ backoff state & refresh de-dup ------
   const listBackoffRef = useRef<number>(0);
   const msgBackoffRef  = useRef<number>(0);
   const refreshConvsInFlightRef = useRef<Promise<void> | null>(null);
 
-  // ------ read/read_to throttle memory ------
-  const lastReadSentTsRef = useRef<Map<string, number>>(new Map());   // sent ts values
-  const lastReadSentAtMsRef = useRef<Map<string, number>>(new Map()); // last send time (ms)
+  const lastReadSentTsRef = useRef<Map<string, number>>(new Map());
+  const lastReadSentAtMsRef = useRef<Map<string, number>>(new Map());
 
   const isRemotelyStreaming = useCallback(
     () => (Date.now() - remoteStreamTouchedAtRef.current) < 7000,
@@ -215,7 +240,7 @@ export default function ChatClient({
     [streaming, isRemotelyStreaming]
   );
 
-  // list refresh (with 429 backoff & in-flight merge)
+  /** Conversation list polling: only update when there are actual changes to avoid flicker */
   const refreshConvs = useCallback(async () => {
     if (refreshConvsInFlightRef.current) return refreshConvsInFlightRef.current;
     const run = async () => {
@@ -229,14 +254,15 @@ export default function ChatClient({
       if (!res.ok) return;
       const data = await res.json().catch(() => []);
       const items: Conv[] = Array.isArray(data) ? data : (Array.isArray((data as any)?.items) ? (data as any).items : []);
-      setConvs(dedupeAndSort(items));
+      const next = dedupeAndSort(items);
+      setConvsIfChanged(setConvs, () => next);
     };
     const p = run().finally(() => { refreshConvsInFlightRef.current = null; });
     refreshConvsInFlightRef.current = p;
     return p;
   }, []);
 
-  // ===== Mark as read (use /read; maintain local shadow "seen") =====
+  /** Mark as read: only update local list when it actually changes */
   const markRead = useCallback(async (pubId: string, seenTs: number, force = false) => {
     if (!pubId) return;
     const lastSentTs = lastReadSentTsRef.current.get(pubId) || 0;
@@ -252,9 +278,17 @@ export default function ChatClient({
         msgBackoffRef.current = Math.min(BACKOFF_MAX_MS, msgBackoffRef.current ? msgBackoffRef.current * 2 : BACKOFF_BASE_MS);
         return;
       }
-      // regardless of immediate server effect, override unread locally first
       shadowSeenRef.current.set(pubId, seenTs);
-      setConvs(prev => prev.map(c => c.id === pubId ? ({ ...c, unread_count: 0 }) : c));
+      setConvsIfChanged(setConvs, (prev) => {
+        let changed = false;
+        const next = prev.map(c => {
+          if (c.id !== pubId) return c;
+          if ((c.unread_count || 0) === 0) return c;
+          changed = true;
+          return { ...c, unread_count: 0 };
+        });
+        return changed ? next : prev;
+      });
       if (r.ok) {
         lastReadSentTsRef.current.set(pubId, seenTs);
         lastReadSentAtMsRef.current.set(pubId, now);
@@ -262,7 +296,6 @@ export default function ChatClient({
     } catch {}
   }, []);
 
-  // Current conversation: load + compute unread anchor + mark read
   const loadConvMessages = useCallback(async (publicId: string) => {
     const res = await fetch(`/api/conversations/${publicId}`, { cache: "no-store" }).catch(() => null);
     if (res && res.status === 429) { msgBackoffRef.current = Math.min(BACKOFF_MAX_MS, msgBackoffRef.current ? msgBackoffRef.current * 2 : BACKOFF_BASE_MS); return; }
@@ -275,7 +308,6 @@ export default function ChatClient({
         created_at: Number(r.created_at || 0),
       }));
       setMsgs(mapped);
-      // on first render of this entry, if no unread anchor, scroll to bottom
       needsInitialScrollRef.current = true;
 
       const ls = Number((data as any)?.last_seen_at || 0);
@@ -285,16 +317,23 @@ export default function ChatClient({
       unreadAnchorIndexRef.current = idx >= 0 ? idx : null;
 
       const last = latestTs(mapped);
-      // local shadow "seen": override immediately upon entering
       if (last > 0) {
         shadowSeenRef.current.set(publicId, last);
-        await markRead(publicId, last); // background marker
+        await markRead(publicId, last);
       }
 
-      // update list timestamps & local unread
-      setConvs(prev => prev.map(c => c.id === publicId ? { ...c, last_message_at: Math.max(Number(c.last_message_at||0), last), unread_count: 0 } : c));
+      setConvsIfChanged(setConvs, (prev) => {
+        let changed = false;
+        const next = prev.map(c => {
+          if (c.id !== publicId) return c;
+          const lm = Math.max(Number(c.last_message_at||0), last);
+          if (lm === Number(c.last_message_at||0) && (c.unread_count || 0) === 0) return c;
+          changed = true;
+          return { ...c, last_message_at: lm, unread_count: 0 };
+        });
+        return changed ? next : prev;
+      });
 
-      // remote stream detection (assistant text length changes)
       const lastMsg = mapped[mapped.length - 1];
       if (lastMsg?.role === "assistant") {
         const len = (lastMsg.text || "").length;
@@ -311,14 +350,13 @@ export default function ChatClient({
     setMsgs([]); setLastSeenAt(0); unreadAnchorIndexRef.current = null;
   }, [markRead]);
 
-  // After render: if unread anchor -> scroll to it; else on first entry -> scroll to bottom
   useEffect(() => {
     const idx = unreadAnchorIndexRef.current;
     if (idx != null && idx >= 0) {
       const el = msgRefs.current.get(idx);
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
       unreadAnchorIndexRef.current = null;
-      needsInitialScrollRef.current = false; // handled
+      needsInitialScrollRef.current = false;
       return;
     }
     if (needsInitialScrollRef.current) {
@@ -328,14 +366,12 @@ export default function ChatClient({
     }
   }, [msgs]);
 
-  // load on mount / route change
   useEffect(() => {
     if (selectedPublicId) loadConvMessages(selectedPublicId);
     else { setMsgs([]); setLastSeenAt(0); }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedPublicId]);
 
-  // tab filter
   const filteredConvs = useMemo(() => {
     if (activeTab === "all") return convs;
     if (activeTab === "owned") return convs.filter(c => c.access_role === "owner");
@@ -343,7 +379,6 @@ export default function ChatClient({
     return convs.filter(c => c.access_role === "viewer");
   }, [convs, activeTab]);
 
-  // Poll conversation list
   useEffect(() => {
     let timer: any;
     const tick = async () => {
@@ -355,7 +390,6 @@ export default function ChatClient({
     return () => { clearTimeout(timer); };
   }, [refreshConvs]);
 
-  // Poll messages for current conversation + detect remote streaming + flush queue
   useEffect(() => {
     if (!selectedId) return;
     let timer: any;
@@ -383,16 +417,25 @@ export default function ChatClient({
         const newLast = latestTs(mapped);
         if (newLast > curLast) {
           setMsgs(mapped);
-          // upon entry or when pulling newer messages, raise shadow seen and mark /read in background
           shadowSeenRef.current.set(selectedId, newLast);
           if (newLast > 0) { (async () => { await markRead(selectedId, newLast); })(); }
 
           const ls = Number((data as any)?.last_seen_at || 0);
           setLastSeenAt(ls);
-          setConvs(prev => prev.map(c => c.id === selectedId ? { ...c, unread_count: 0, last_message_at: Math.max(Number(c.last_message_at||0), newLast) } : c));
+
+          setConvsIfChanged(setConvs, (prev) => {
+            let changed = false;
+            const next = prev.map(c => {
+              if (c.id !== selectedId) return c;
+              const lm = Math.max(Number(c.last_message_at||0), newLast);
+              if (lm === Number(c.last_message_at||0) && (c.unread_count || 0) === 0) return c;
+              changed = true;
+              return { ...c, unread_count: 0, last_message_at: lm };
+            });
+            return changed ? next : prev;
+          });
         }
 
-        // remote stream detection
         const lastMsg = mapped[mapped.length - 1];
         if (lastMsg?.role === "assistant") {
           const len = (lastMsg.text || "").length;
@@ -406,7 +449,6 @@ export default function ChatClient({
         setRemoteStreaming((Date.now() - remoteStreamTouchedAtRef.current) < 7000);
       }
 
-      // If queued and not busy -> flush
       if (queuedRef.current && !isBusy() && !flushingRef.current) {
         flushingRef.current = true;
         const nextToSend = queuedRef.current!;
@@ -422,7 +464,6 @@ export default function ChatClient({
     return () => { cancelled = true; clearTimeout(timer); };
   }, [selectedId, markRead, isBusy]);
 
-  // When leaving a conversation, send a final /read (force)
   const prevSelectedRef = useRef<string | null>(null);
   useEffect(() => {
     const prev = prevSelectedRef.current;
@@ -471,56 +512,145 @@ export default function ChatClient({
     }
   }, [refreshConvs, selectedId, markRead]);
 
-  const shareConv = useCallback(async (c: Conv) => {
-    const email = window.prompt("Share with (email):")?.trim();
-    if (!email) return;
-    const role = (window.prompt("Role? editor/viewer (default viewer)") || "viewer").trim().toLowerCase();
-    const finalRole = (role === "editor" ? "editor" : "viewer");
-    const res = await fetch(`/api/conversations/${c.id}/shares`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ email, role: finalRole }),
-    }).catch(() => null);
-    if (res && (res.status === 204 || res.ok)) {
-      await refreshConvs();
-      alert(`Shared with ${email} as ${finalRole}.`);
-    } else {
-      alert("Share failed.");
-    }
-  }, [refreshConvs]);
+  // ======== Share panel state & actions ========
+  const [shareOpen, setShareOpen] = useState(false);
+  const [members, setMembers] = useState<Member[]>([]);
+  const [ownerUser, setOwnerUser] = useState<UserBrief | null>(null);
+  const [shareBusy, setShareBusy] = useState(false);
+  const [shareError, setShareError] = useState<string | null>(null);
 
+  const [shareEmail, setShareEmail] = useState("");
+  const [newRole, setNewRole] = useState<"unassigned" | "editor" | "viewer">("unassigned");
+
+  const loadShares = useCallback(async (pubId: string) => {
+    setShareError(null);
+    setShareBusy(true);
+    try {
+      const res = await fetch(`/api/conversations/${pubId}/shares`, { cache: "no-store" });
+      if (res.status === 403) { setMembers([]); setOwnerUser(null); setShareError("Only owner/editor can view members."); }
+      else if (!res.ok) { setMembers([]); setOwnerUser(null); setShareError(`Failed to load (${res.status})`); }
+      else {
+        const data = await res.json().catch(() => null);
+        let arr: Member[] = [];
+        let owner: UserBrief | null = null;
+        if (Array.isArray(data)) {
+          arr = data as Member[];
+          const ow = arr.find(x => x.role === "owner");
+          if (ow) owner = ow.user || null;
+        } else if (data && typeof data === "object") {
+          if (Array.isArray((data as any).members)) arr = (data as any).members as Member[];
+          if ((data as any).owner) owner = (data as any).owner as UserBrief;
+          if (!owner) {
+            const ow = arr.find(x => x.role === "owner");
+            if (ow) owner = ow.user || null;
+          }
+        }
+        setMembers(Array.isArray(arr) ? arr : []);
+        setOwnerUser(owner ?? (selectedConv?.shared_by ?? null));
+      }
+    } catch (e:any) {
+      setMembers([]); setOwnerUser(null);
+      setShareError(String(e?.message || e));
+    } finally { setShareBusy(false); }
+  }, [selectedConv?.shared_by]);
+
+  const openSharePanel = useCallback(async () => {
+    if (!selectedId) return;
+    setShareOpen(true);
+    await loadShares(selectedId);
+  }, [selectedId, loadShares]);
+
+  useEffect(() => {
+    if (shareOpen && selectedId) { (async () => { await loadShares(selectedId); })(); }
+  }, [shareOpen, selectedId, loadShares]);
+
+  const addMember = useCallback(async () => {
+    if (!selectedId) return;
+    const emailRaw = shareEmail.trim();
+    const email = emailRaw.toLowerCase();
+    if (!email) { setShareError("Enter an email address."); return; }
+    if (!isEmail(email)) { setShareError("Invalid email address."); return; }
+    if (newRole === "unassigned") { setShareError("Choose a role before adding."); return; }
+
+    setShareBusy(true); setShareError(null);
+    try {
+      const r = await fetch(`/api/conversations/${selectedId}/shares`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ email, role: newRole }),
+      });
+
+      if (r.status === 404) { setShareError("Email address not registered."); }
+      else if (r.status === 403) { setShareError("Only owner/editor can share."); }
+      else if (r.status === 409) { setShareError("This user already has access."); }
+      else if (!r.ok && r.status !== 204) { setShareError(`Failed (${r.status})`); }
+
+      if (r.ok || r.status === 204) {
+        await loadShares(selectedId);
+        setShareEmail("");
+        setNewRole("unassigned");
+      }
+    } catch (e:any) {
+      setShareError(String(e?.message || e));
+    } finally { setShareBusy(false); }
+  }, [selectedId, shareEmail, newRole, loadShares]);
+
+  const changeRole = useCallback(async (userId: number, role: "editor" | "viewer") => {
+    if (!selectedId) return;
+    setShareBusy(true); setShareError(null);
+    try {
+      const r = await fetch(`/api/conversations/${selectedId}/shares/${userId}`, {
+        method: "PATCH",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ role }),
+      });
+      if (!r.ok && r.status !== 204) setShareError(`Failed to update (${r.status})`);
+      await loadShares(selectedId);
+    } catch (e:any) {
+      setShareError(String(e?.message || e));
+    } finally { setShareBusy(false); }
+  }, [selectedId, loadShares]);
+
+  const removeMember = useCallback(async (userId: number) => {
+    if (!selectedId) return;
+    if (!confirm("Remove this member?")) return;
+    setShareBusy(true); setShareError(null);
+    try {
+      const r = await fetch(`/api/conversations/${selectedId}/shares/${userId}`, { method: "DELETE" });
+      if (r.status === 400) setShareError("Cannot remove owner.");
+      else if (!r.ok && r.status !== 204) setShareError(`Failed to remove (${r.status})`);
+      await loadShares(selectedId);
+    } catch (e:any) {
+      setShareError(String(e?.message || e));
+    } finally { setShareBusy(false); }
+  }, [selectedId, loadShares]);
+
+  // ======== Send flow ========
   async function ensureConversation(): Promise<{ id: string; isNew: boolean }> {
     if (selectedId) return { id: selectedId, isNew: false };
-
     const res = await fetch("/api/conversations", {
       method: "POST",
       headers: { "content-type": "application/json" },
       credentials: "include",
     }).catch(() => null as any);
-
     if (!res || !res.ok) throw new Error(`create conversation failed: ${res?.status ?? "network error"}`);
     const data = await res.json().catch(() => null as any);
     const id = (data as any)?.id as string | undefined;
     if (!id) throw new Error("upstream did not return id");
-
     setConvs(prev => upsert(prev, data as any));
     setSelectedId(id);
     router.replace(`/chat/${id}`);
     return { id, isNew: true };
   }
 
-  // Send immediately (queue check happens elsewhere)
   const sendNow = useCallback(async (text: string) => {
     if (!text) return;
     if (selectedConv?.access_role === "viewer") {
       alert("This chat is read-only.");
       return;
     }
-
     const tsNow = Date.now();
-    // remember my own user message locally, for New marker calculations
     localSentRef.current.push({ text, ts: tsNow });
-
     setMsgs((m) => [...m, { role: "user", text, created_at: tsNow }, { role: "assistant", text: "" }]);
     setStreaming(true);
 
@@ -533,13 +663,20 @@ export default function ChatClient({
       return;
     }
 
-    // after sending, set last_seen to now; update shadow seen and send /read
     setLastSeenAt(tsNow);
     shadowSeenRef.current.set(convInfo.id, tsNow);
     markRead(convInfo.id, tsNow, true);
-    setConvs(prev => prev.map(c => c.id === convInfo.id ? { ...c, unread_count: 0 } : c));
+    setConvsIfChanged(setConvs, (prev) => {
+      let changed = false;
+      const next = prev.map(c => {
+        if (c.id !== convInfo.id) return c;
+        if ((c.unread_count || 0) === 0) return c;
+        changed = true;
+        return { ...c, unread_count: 0 };
+      });
+      return changed ? next : prev;
+    });
 
-    // auto-rename for the first input of a new conversation
     if (convInfo.isNew) {
       const autoTitle = makeAutoTitle(text);
       (async () => {
@@ -581,12 +718,11 @@ export default function ChatClient({
         });
         await refreshConvsAndLocal();
 
-        // after stream ends: if there is a queued message -> send next
         if (queuedRef.current && !isBusy() && !flushingRef.current) {
           flushingRef.current = true;
-          const next = queuedRef.current!;
+          const nextToSend = queuedRef.current!;
           setQueuedInput(null);
-          await sendNow(next);
+          await sendNow(nextToSend);
           flushingRef.current = false;
         }
       },
@@ -598,12 +734,10 @@ export default function ChatClient({
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedConv, ensureConversation, refreshConvsAndLocal, isBusy]);
 
-  // On user send: if busy -> enqueue; else -> send now
   const send = useCallback(async () => {
     const trimmed = input.trim();
     if (!trimmed) return;
     setInput("");
-
     if (isBusy()) {
       setQueuedInput(prev => prev ? `${prev}\n\n${trimmed}` : trimmed);
       return;
@@ -613,7 +747,6 @@ export default function ChatClient({
 
   useEffect(() => () => { esRef.current?.close(); }, []);
 
-  // ----- Render helpers -----
   const isProbablyMine = useCallback((m: Msg) => {
     if (m.role !== "user") return false;
     const t = Number(m.created_at || 0);
@@ -622,7 +755,6 @@ export default function ChatClient({
     );
   }, []);
 
-  // Unread for display (overridden by shadow seen)
   const displayUnread = useCallback((c: Conv) => {
     const shadow = shadowSeenRef.current.get(c.id) || 0;
     const lastActivity = ts(c);
@@ -638,20 +770,48 @@ export default function ChatClient({
         ? "Wait..."
         : "Send";
 
+  const [mounted, setMounted] = useState(false);
+  const [isNarrow, setIsNarrow] = useState(false);
+  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => {
+    if (!mounted) return;
+    const check = () => {
+      const w = getViewportW();
+      setIsNarrow(prev => prev ? (w < NARROW_BP + HYST) : (w < NARROW_BP - HYST));
+    };
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, [mounted]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setShareOpen(false); };
+    if (shareOpen) window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [shareOpen]);
+
   return (
-    <div style={{ height: "100dvh", display: "grid", gridTemplateColumns: sidebarOpen ? "300px 1fr" : "0 1fr", minHeight: 0 }}>
+    <div
+      style={{
+        height: "100dvh",
+        display: "grid",
+        gridTemplateColumns: `${sidebarOpen ? "300px" : "0"} 1fr${(mounted && !isNarrow && shareOpen) ? " 320px" : ""}`,
+        minHeight: 0,
+        transition: "grid-template-columns 160ms ease"
+      }}
+    >
       {/* Sidebar */}
       <aside
         aria-hidden={!sidebarOpen}
         style={{
-          borderRight: sidebarOpen ? "1px solid #eee" : "none", // when collapsed: no border
+          borderRight: sidebarOpen ? "1px solid #eee" : "none",
           background: "#fafafa",
           display: "flex",
           flexDirection: "column",
           minHeight: 0,
-          overflow: sidebarOpen ? "visible" : "hidden", // clip overflow when collapsed
-          visibility: sidebarOpen ? "visible" : "hidden", // hidden when collapsed
-          pointerEvents: sidebarOpen ? "auto" : "none", // no pointer events when collapsed
+          overflow: sidebarOpen ? "visible" : "hidden",
+          visibility: sidebarOpen ? "visible" : "hidden",
+          pointerEvents: sidebarOpen ? "auto" : "none",
           opacity: sidebarOpen ? 1 : 0,
           transition: "opacity 120ms ease"
         }}
@@ -663,7 +823,6 @@ export default function ChatClient({
           </div>
         </div>
 
-        {/* Tabs */}
         <div style={{ display: "flex", gap: 6, padding: "8px 10px", borderBottom: "1px solid #eee", fontSize: 13 }}>
           {[
             ["all","All"],["owned","Owned"],["collab","Collaborating"],["readonly","Read-only"],
@@ -737,7 +896,6 @@ export default function ChatClient({
             {sidebarOpen ? "Hide sidebar" : "Show sidebar"}
           </button>
 
-          {/* Show Role badge between title and action buttons (non-owner only) */}
           {selectedConv && <RoleBadge c={selectedConv} />}
 
           <div style={{ fontWeight: 700, flex: 1, minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
@@ -747,7 +905,7 @@ export default function ChatClient({
           {!!selectedConv && (selectedConv.access_role === "owner" || selectedConv.access_role === "editor") && (
             <div style={{ display: "flex", gap: 8 }}>
               <button onClick={() => renameConv(selectedConv)} style={{ padding: "6px 10px" }} title="Rename this conversation">Rename</button>
-              <button onClick={() => shareConv(selectedConv)}  style={{ padding: "6px 10px" }} title="Share this conversation">Share</button>
+              <button onClick={openSharePanel} style={{ padding: "6px 10px" }} title="Share this conversation">Share</button>
             </div>
           )}
         </div>
@@ -828,6 +986,296 @@ export default function ChatClient({
           )}
         </div>
       </main>
+
+      {/* Share drawer - narrow screens overlay */}
+      {mounted && isNarrow && shareOpen && (
+        <>
+          <div onClick={() => setShareOpen(false)}
+               style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.3)", zIndex: 20 }} />
+          <aside role="dialog" aria-modal
+            style={{
+              position: "fixed", top: 0, right: 0, bottom: 0,
+              width: "min(92vw, 360px)",
+              background: "#fcfcff", borderLeft: "1px solid #eee",
+              boxShadow: "-8px 0 16px rgba(0,0,0,0.06)",
+              zIndex: 21, display: "flex", flexDirection: "column", minHeight: 0
+            }}
+          >
+            <SharePanel
+              me={me}
+              selectedConv={selectedConv}
+              members={members}
+              owner={ownerUser}
+              shareBusy={shareBusy}
+              shareError={shareError}
+              shareEmail={shareEmail}
+              newRole={newRole}
+              setShareEmail={setShareEmail}
+              setNewRole={setNewRole}
+              addMember={addMember}
+              changeRole={changeRole}
+              removeMember={removeMember}
+            />
+          </aside>
+        </>
+      )}
+
+      {/* Wide screens third column */}
+      {mounted && !isNarrow && shareOpen && (
+        <aside
+          style={{
+            borderLeft: "1px solid #eee",
+            background: "#fcfcff",
+            display: "flex",
+            flexDirection: "column",
+            minHeight: 0,
+            overflow: "hidden",
+          }}
+        >
+          <SharePanel
+            me={me}
+            selectedConv={selectedConv}
+            members={members}
+            owner={ownerUser}
+            shareBusy={shareBusy}
+            shareError={shareError}
+            shareEmail={shareEmail}
+            newRole={newRole}
+            setShareEmail={setShareEmail}
+            setNewRole={setNewRole}
+            addMember={addMember}
+            changeRole={changeRole}
+            removeMember={removeMember}
+          />
+        </aside>
+      )}
+    </div>
+  );
+}
+
+/** Share panel (Owner/Collaborator: show "Me" for self; self pinned to top with gray background) */
+function SharePanel({
+  me,
+  selectedConv,
+  members,
+  owner,
+  shareBusy,
+  shareError,
+  shareEmail,
+  newRole,
+  setShareEmail,
+  setNewRole,
+  addMember,
+  changeRole,
+  removeMember,
+}: {
+  me: Me | null;
+  selectedConv: Conv | null;
+  members: Member[];
+  owner: UserBrief | null;
+  shareBusy: boolean;
+  shareError: string | null;
+  shareEmail: string;
+  newRole: "unassigned" | "editor" | "viewer";
+  setShareEmail: (v: string) => void;
+  setNewRole: (v: "unassigned" | "editor" | "viewer") => void;
+  addMember: () => void;
+  changeRole: (userId: number, role: "editor" | "viewer") => void;
+  removeMember: (userId: number) => void;
+}) {
+  const myId = me?.id;
+  const myEmail = (me?.email || "").toLowerCase();
+
+  const isSelf = (u?: UserBrief | null) => {
+    if (!u) return false;
+    if (typeof myId === "number" && u.id === myId) return true;
+    const ue = (u.email || "").toLowerCase();
+    return !!ue && !!myEmail && ue === myEmail;
+  };
+
+  // Remove owner (owner displayed separately)
+  const base = useMemo(() => members.filter(m => m.role !== "owner"), [members]);
+
+  // In collaborators: place self on top; others sorted by name
+  const editors = useMemo(() => {
+    const arr = base.filter(m => m.role === "editor");
+    return [...arr].sort((a, b) => {
+      const aSelf = isSelf(a.user) ? 0 : 1;
+      const bSelf = isSelf(b.user) ? 0 : 1;
+      if (aSelf !== bSelf) return aSelf - bSelf;
+      const an = displayName(a.user).toLowerCase();
+      const bn = displayName(b.user).toLowerCase();
+      return an.localeCompare(bn);
+    });
+  }, [base, myId, myEmail]);
+
+  const viewers = useMemo(() => {
+    const arr = base.filter(m => m.role === "viewer");
+    return [...arr].sort((a, b) =>
+      displayName(a.user).toLowerCase().localeCompare(displayName(b.user).toLowerCase())
+    );
+  }, [base]);
+
+  const canAdd = !!shareEmail.trim() && isEmail(shareEmail.trim()) && newRole !== "unassigned" && !shareBusy && !!selectedConv;
+
+  const emailTrim = shareEmail.trim();
+  let inlineHint: string | null = null;
+  if (!emailTrim) inlineHint = null;
+  else if (!isEmail(emailTrim)) inlineHint = "Invalid email address.";
+  else if (newRole === "unassigned") inlineHint = "Choose a role.";
+
+  const heading: React.CSSProperties = { fontWeight: 700, flex: 1, minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" };
+
+  // Owner row: self => "Me"
+  const ownerLine =
+    selectedConv?.access_role === "owner" || isSelf(owner)
+      ? `Me${me?.email ? ` - ${me.email}` : ""}`
+      : (owner
+          ? `${displayName(owner)}${owner.email ? ` - ${owner.email}` : ""}`
+          : (selectedConv?.shared_by
+              ? `${displayName(selectedConv.shared_by)}${selectedConv.shared_by.email ? ` - ${selectedConv.shared_by.email}` : ""}`
+              : "Owner unknown"));
+
+  const Row: React.FC<{ m: Member; onMake: "editor" | "viewer" }> = ({ m, onMake }) => {
+    const self = isSelf(m.user);
+    const bg = self ? "#f5f5f5" : "#fff";
+    return (
+      <div
+        key={m.user.id}
+        style={{
+          padding: "8px 10px", border: "1px solid #eee", borderRadius: 8, background: bg,
+          display: "grid", gridTemplateColumns: "1fr auto", gap: 8, alignItems: "center", marginBottom: 8
+        }}
+      >
+        <div style={{ minWidth: 0 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+            <div style={{ fontWeight: 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              {self ? "Me" : displayName(m.user)}
+            </div>
+            {/* Badge also says "Me" */}
+            {self && (
+              <span style={{
+                fontSize: 11, padding: "0 6px", borderRadius: 999,
+                border: "1px solid #ddd", background: "#eee", color: "#555", flexShrink: 0
+              }}>
+                Me
+              </span>
+            )}
+          </div>
+          <div style={{ fontSize: 12, color: "#666", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+            {emailOf(m.user)}
+          </div>
+        </div>
+        <div style={{ display: "flex", gap: 6, alignItems: "center", opacity: self ? .6 : 1 }}>
+          <button
+            onClick={() => changeRole(m.user.id, onMake)}
+            disabled={shareBusy || self}
+            title={self ? "This is you" : undefined}
+            style={{ padding: "4px 8px" }}
+          >
+            {onMake === "viewer" ? "Make viewer" : "Make editor"}
+          </button>
+          <button
+            onClick={() => removeMember(m.user.id)}
+            disabled={shareBusy || self}
+            title={self ? "This is you" : undefined}
+            style={{ padding: "4px 8px" }}
+          >
+            Remove
+          </button>
+        </div>
+      </div>
+    );
+  };
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
+      <div style={{ display: "flex", gap: 8, padding: 10, borderBottom: "1px solid #eee", alignItems: "center" }}>
+        <div style={heading}>Share / Manage access</div>
+        <div style={{ fontSize: 12, color: "#999" }}>{shareBusy ? "..." : ""}</div>
+      </div>
+
+      {/* Add new people */}
+      <div style={{ padding: 12, borderBottom: "1px solid #eee", display: "grid", gap: 8 }}>
+        <div style={{ fontWeight: 600 }}>Add new people</div>
+        <input
+          value={shareEmail}
+          onChange={(e) => setShareEmail(e.target.value)}
+          placeholder="email@example.com"
+          style={{ padding: "6px 8px" }}
+          disabled={shareBusy || !selectedConv}
+        />
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <span style={{ fontSize: 12, color: "#555" }}>Role:</span>
+          <label style={{ fontSize: 13 }}>
+            <input
+              type="radio"
+              name="newRole"
+              value="editor"
+              checked={newRole === "editor"}
+              onChange={() => setNewRole("editor")}
+              disabled={shareBusy}
+            />{" "}
+            Collaborator
+          </label>
+          <label style={{ fontSize: 13 }}>
+            <input
+              type="radio"
+              name="newRole"
+              value="viewer"
+              checked={newRole === "viewer"}
+              onChange={() => setNewRole("viewer")}
+              disabled={shareBusy}
+            />{" "}
+            Viewer
+          </label>
+          <div style={{ marginLeft: "auto" }} />
+          <button
+            onClick={addMember}
+            disabled={!canAdd}
+            style={{ padding: "6px 10px", minWidth: 64 }}
+            title={
+              !emailTrim ? "Enter an email address"
+              : !isEmail(emailTrim) ? "Invalid email address"
+              : newRole === "unassigned" ? "Choose a role"
+              : "Add"
+            }
+          >
+            Add
+          </button>
+        </div>
+
+        {shareError ? (
+          <div style={{ color: "#b00020", fontSize: 12 }}>{shareError}</div>
+        ) : (inlineHint && !canAdd) ? (
+          <div style={{ color: "#666", fontSize: 12 }}>{inlineHint}</div>
+        ) : null}
+      </div>
+
+      {/* Owner: plain text (self => Me) */}
+      <div style={{ padding: 12, borderBottom: "1px solid #eee" }}>
+        <div style={{ fontWeight: 600, marginBottom: 6 }}>Owner</div>
+        <div style={{ fontSize: 14 }}>{ownerLine}</div>
+      </div>
+
+      {/* Members */}
+      <div style={{ flex: 1, minHeight: 0, overflow: "auto", display: "grid", gap: 12, padding: 12 }}>
+        {/* Collaborators (self pinned + gray + "Me") */}
+        <section>
+          <div style={{ fontWeight: 600, marginBottom: 6 }}>Collaborators</div>
+          {editors.length === 0 ? (
+            <div style={{ padding: 6, fontSize: 13, opacity: .6 }}>No collaborators.</div>
+          ) : editors.map((m) => <Row key={m.user.id} m={m} onMake="viewer" />)}
+        </section>
+
+        {/* Viewers (sorted by name) */}
+        <section>
+          <div style={{ fontWeight: 600, marginBottom: 6 }}>Viewers</div>
+          {viewers.length === 0 ? (
+            <div style={{ padding: 6, fontSize: 13, opacity: .6 }}>No viewers.</div>
+          ) : viewers.map((m) => <Row key={m.user.id} m={m} onMake="editor" />)}
+        </section>
+      </div>
     </div>
   );
 }

@@ -59,10 +59,6 @@ All notable changes to this project will be documented in this file.
 
 - add clear user db command and clear cookie
 
-- add right sidebar for share conversation
-
-- move readonly to the top near the title
-
 - connect with the actual RAG pipeline
 
 
@@ -77,6 +73,22 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.34] - 2025-09-15
+### Added
+- Share Panel to manage access (add by email, change role, remove).
+- Role badge for collaborators and viewers.
+- Unread handling: shadow seen and "New" divider.
+- Streaming detection and send queue.
+
+### Changed
+- Polling and backoff tuned; skip when page is hidden.
+- Conversation list updates avoid flicker via signature check.
+
+### Fixed
+- Empty trailing assistant bubble after stream end.
+- Sticky unread counts in shared chats.
+
 
 ## [0.2.33] - 2025-09-14
 ### Added
