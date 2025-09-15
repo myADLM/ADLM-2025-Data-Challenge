@@ -55,6 +55,17 @@ All notable changes to this project will be documented in this file.
 - Process manager (systemd) to run web / gateway / api as services.
 
 
+**Dev Checklist**
+
+- add clear user db command and clear cookie
+
+- add right sidebar for share conversation
+
+- move readonly to the top near the title
+
+- connect with the actual RAG pipeline
+
+
 ## [Unreleased]
 ### Added
 - Placeholder for upcoming features.
@@ -66,6 +77,36 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.33] - 2025-09-14
+### Added
+- Unread tracking and simple view state per user.
+- Read APIs to mark messages as read.
+- Streaming query API (SSE); replies are saved after the stream.
+- Gateway support for streaming and read actions.
+- Web chat improvements:
+  - Local "shadow read" to clear unread quickly.
+  - Unread divider labeled "New".
+  - Polling with backoff.
+  - Detect active streams and queue user input.
+  - Send queue runs after streaming ends.
+  - Final read ping when leaving a chat.
+  - Sidebar collapse polish.
+  - Role badge text: "Collaborating, shared by <name>" and "Read-only, shared by <name>".
+
+### Changed
+- Shared chats sort by most recent activity.
+- Deleting a chat also removes related view state.
+- Gateway rate limits and proxy behavior made safer for dev and prod.
+- SSR chat page degrades gracefully on gateway errors and still redirects on 401/403.
+- Send button states clarified: "Sending...", "Queued", "Wait...", "Send".
+
+### Fixed
+- Unread counts sticking in shared chats.
+- Rare message loss during page refresh while sending.
+- More reliable SSE piping.
+- Small UI issues with scrolling and collapsed sidebar.
+
 
 ## [0.2.32] - 2025-09-14
 ### Added

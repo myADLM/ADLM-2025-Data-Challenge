@@ -31,10 +31,7 @@ function apiUrl(path: string) {
 // List
 conversations.get("/conversations", requireAuth, async (req: AuthedRequest, res) => {
   try {
-    const up = await fetch(apiUrl("/conversations"), {
-      headers: upstreamHeaders(req),
-      cache: "no-store" as any,
-    });
+    const up = await fetch(apiUrl("/conversations"), { headers: upstreamHeaders(req), cache: "no-store" as any });
     console.log("[gw] proxy GET /conversations ->", up.status);
     await proxyJson(up, res);
   } catch (e) {
@@ -46,11 +43,7 @@ conversations.get("/conversations", requireAuth, async (req: AuthedRequest, res)
 // Create
 conversations.post("/conversations", requireAuth, async (req: AuthedRequest, res) => {
   try {
-    const up = await fetch(apiUrl("/conversations"), {
-      method: "POST",
-      headers: upstreamHeaders(req),
-      body: JSON.stringify({}),
-    });
+    const up = await fetch(apiUrl("/conversations"), { method: "POST", headers: upstreamHeaders(req), body: JSON.stringify({}) });
     console.log("[gw] proxy POST /conversations ->", up.status);
     await proxyJson(up, res);
   } catch (e) {
@@ -59,7 +52,7 @@ conversations.post("/conversations", requireAuth, async (req: AuthedRequest, res
   }
 });
 
-// Detail (by public_chat_id)
+// Detail
 conversations.get("/conversations/:id", requireAuth, async (req: AuthedRequest, res) => {
   try {
     const up = await fetch(apiUrl(`/conversations/${encodeURIComponent(req.params.id)}`), {
@@ -105,9 +98,38 @@ conversations.delete("/conversations/:id", requireAuth, async (req: AuthedReques
   }
 });
 
-// -- Share endpoints --
+// mark read (latest)
+conversations.post("/conversations/:id/read", requireAuth, async (req: AuthedRequest, res) => {
+  try {
+    const up = await fetch(apiUrl(`/conversations/${encodeURIComponent(req.params.id)}/read`), {
+      method: "POST",
+      headers: upstreamHeaders(req),
+    });
+    console.log("[gw] proxy POST /conversations/%s/read -> %d", req.params.id, up.status);
+    res.status(up.status).send();
+  } catch (e) {
+    console.error("[gw] POST /conversations/:id/read error:", e);
+    res.status(502).json({ error: "Bad gateway" });
+  }
+});
 
-// List members
+// NEW: mark read-to timestamp
+conversations.post("/conversations/:id/read_to", requireAuth, async (req: AuthedRequest, res) => {
+  try {
+    const up = await fetch(apiUrl(`/conversations/${encodeURIComponent(req.params.id)}/read_to`), {
+      method: "POST",
+      headers: upstreamHeaders(req),
+      body: JSON.stringify(req.body ?? {}),
+    });
+    console.log("[gw] proxy POST /conversations/%s/read_to -> %d", req.params.id, up.status);
+    res.status(up.status).send();
+  } catch (e) {
+    console.error("[gw] POST /conversations/:id/read_to error:", e);
+    res.status(502).json({ error: "Bad gateway" });
+  }
+});
+
+// shares (unchanged)
 conversations.get("/conversations/:id/shares", requireAuth, async (req: AuthedRequest, res) => {
   try {
     const up = await fetch(apiUrl(`/conversations/${encodeURIComponent(req.params.id)}/shares`), {
@@ -141,14 +163,12 @@ conversations.post("/conversations/:id/shares", requireAuth, async (req: AuthedR
 // Change role
 conversations.patch("/conversations/:id/shares/:userId", requireAuth, async (req: AuthedRequest, res) => {
   try {
-    const up = await fetch(
-      apiUrl(`/conversations/${encodeURIComponent(req.params.id)}/shares/${encodeURIComponent(req.params.userId)}`),
-      {
-        method: "PATCH",
-        headers: upstreamHeaders(req),
-        body: JSON.stringify(req.body ?? {}),
-      }
-    );
+    const up = await fetch(apiUrl(`/conversations/${encodeURIComponent(req.params.id)}/shares/${encodeURIComponent(req.params.userId)}`), {
+      method: "PATCH",
+      headers: upstreamHeaders(req),
+      body: JSON.stringify(req.body ?? {}),
+    }
+  );
     console.log("[gw] proxy PATCH /conversations/%s/shares/%s -> %d", req.params.id, req.params.userId, up.status);
     res.status(up.status).send();
   } catch (e) {
@@ -160,13 +180,11 @@ conversations.patch("/conversations/:id/shares/:userId", requireAuth, async (req
 // Remove member
 conversations.delete("/conversations/:id/shares/:userId", requireAuth, async (req: AuthedRequest, res) => {
   try {
-    const up = await fetch(
-      apiUrl(`/conversations/${encodeURIComponent(req.params.id)}/shares/${encodeURIComponent(req.params.userId)}`),
-      {
-        method: "DELETE",
-        headers: upstreamHeaders(req),
-      }
-    );
+    const up = await fetch(apiUrl(`/conversations/${encodeURIComponent(req.params.id)}/shares/${encodeURIComponent(req.params.userId)}`), {
+      method: "DELETE",
+      headers: upstreamHeaders(req),
+    }
+  );
     console.log("[gw] proxy DELETE /conversations/%s/shares/%s -> %d", req.params.id, req.params.userId, up.status);
     res.status(up.status).send();
   } catch (e) {

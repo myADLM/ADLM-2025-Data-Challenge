@@ -5,7 +5,6 @@ import { redirect } from "next/navigation";
 import ChatClient from "@/app/chat/Client";
 
 const COOKIE_NAME = process.env.COOKIE_NAME || "sid";
-// Priority: explicit gateway -> public API base -> local fallback
 const GW_BASE =
   process.env.GATEWAY_ORIGIN ||
   process.env.NEXT_PUBLIC_API_BASE ||
@@ -17,15 +16,16 @@ async function getConversations(cookieVal?: string) {
   if (cookieVal) headersObj.cookie = `${COOKIE_NAME}=${cookieVal}`;
 
   const res = await fetch(url, { headers: headersObj, cache: "no-store" }).catch(() => null);
-  if (!res) throw new Error("Gateway not reachable");
+  if (!res) return []; // gateway unreachable -> let client fetch later
   if (res.status === 401 || res.status === 403) {
     // Redirect to login with target page
     redirect(`/login?next=${encodeURIComponent("/chat")}`);
   }
-  if (!res.ok) throw new Error(`Failed to load conversations: ${res.status}`);
+  if (res.status === 429) return []; // rate-limited -> degrade to empty list; client can poll later
+  if (!res.ok) return [];
 
   const data = await res.json().catch(() => []);
-  return Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
+  return Array.isArray(data) ? data : (Array.isArray((data as any)?.items) ? (data as any).items : []);
 }
 
 export default async function Page({ params }: { params: { public_chat_id: string } }) {

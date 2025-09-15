@@ -22,19 +22,26 @@ app.use(cors({ origin: config.corsOrigin, credentials: true }));
 app.use(express.json({ limit: "1mb" }));
 app.use(cookieParser());
 app.use(morgan("dev"));
-app.use(
-  rateLimit({
-    windowMs: config.rateLimit.windowMs,
-    max: config.rateLimit.max,
-    standardHeaders: true,
-    legacyHeaders: false,
-  })
-);
+
+/** -- Rate limit: relaxed or can be disabled in dev -- */
+const isProd = process.env.NODE_ENV === "production";
+const disableDevRateLimit = process.env.RATE_LIMIT_DISABLE === "1";
+
+if (!disableDevRateLimit) {
+  app.use(
+    rateLimit({
+      windowMs: config.rateLimit?.windowMs ?? 15 * 60 * 1000,
+      max: config.rateLimit?.max ?? (isProd ? 600 : 100000), // very high locally
+      standardHeaders: true,
+      legacyHeaders: false,
+    })
+  );
+}
 
 // Routes (mounted under /api prefix)
 app.use("/api", auth);
 app.use("/api", conversations);
-app.use("/api", query); // <--- Added: proxy /api/query/stream
+app.use("/api", query); // proxy /api/query/stream
 
 app.listen(config.port, () => {
   console.log(

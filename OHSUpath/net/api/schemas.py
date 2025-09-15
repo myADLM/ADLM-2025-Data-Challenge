@@ -24,9 +24,11 @@ class ConversationOut(BaseModel):
     created_at: int
     access_role: AccessRole = "owner"
     shared_by: UserBrief | None = None
+    unread_count: int = 0
 
 class ConversationWithMessages(ConversationOut):
     messages: List[MessageOut] = Field(default_factory=list)
+    last_seen_at: int = 0
 
 class ConversationPatch(BaseModel):
     title: str | None = None
@@ -45,7 +47,7 @@ class ShareOut(BaseModel):
     invited_by: UserBrief
     created_at: int
 
-# Query
+# For old clients (optional)
 class QueryRequest(BaseModel):
     q: str
     meta: Dict[str, Any] | None = None

@@ -3,11 +3,15 @@
 from __future__ import annotations
 from typing import List
 from fastapi import APIRouter, Depends, HTTPException, status, Path
+from pydantic import BaseModel
 from sqlmodel import Session, select
-from sqlalchemy import delete
+from sqlalchemy import delete, func
 from ..db import get_db
 from ..deps import get_current_user, CurrentUser
-from ..models import Conversation, ConversationMember, Message, User
+from ..models import (
+    Conversation, ConversationMember, ConversationViewState,
+    Message, User, now_ms
+)
 from ..schemas import (
     ConversationOut, ConversationWithMessages, ConversationPatch,
     UserBrief, ShareCreate, ShareOut, ShareUpdate
@@ -15,7 +19,9 @@ from ..schemas import (
 
 router = APIRouter()
 
-def _brief(u: User) -> UserBrief:
+def _brief(u: User | None) -> UserBrief | None:
+    if not u:
+        return None
     return UserBrief(id=u.id, email=u.email, name=u.name)
 
 def _get_conv_by_public(db: Session, public_id: str) -> Conversation | None:
@@ -37,42 +43,80 @@ def _shared_by(db: Session, conv_id: int, uid: int) -> User | None:
     ).first()
     if not m:
         return None
-    return db.get(User, m.invited_by)
+    return db.get(User, m.invited_by) if m.invited_by else None
+
+def _get_last_seen(db: Session, conv_id: int, uid: int) -> int:
+    vs = db.exec(
+        select(ConversationViewState).where(
+            ConversationViewState.conversation_id == conv_id,
+            ConversationViewState.user_id == uid
+        )
+    ).first()
+    return int(vs.last_seen_at) if vs else 0
+
+def _set_last_seen(db: Session, conv_id: int, uid: int, ts: int) -> None:
+    vs = db.exec(
+        select(ConversationViewState).where(
+            ConversationViewState.conversation_id == conv_id,
+            ConversationViewState.user_id == uid
+        )
+    ).first()
+    if vs:
+        if ts > (vs.last_seen_at or 0):
+            vs.last_seen_at = ts
+            db.add(vs)
+            db.commit()
+    else:
+        db.add(ConversationViewState(conversation_id=conv_id, user_id=uid, last_seen_at=ts))
+        db.commit()
+
+def _count_unread(db: Session, conv_id: int, last_seen: int) -> int:
+    row = db.exec(
+        select(func.count(Message.id)).where(
+            Message.conversation_id == conv_id,
+            Message.created_at > (last_seen or 0)
+        )
+    ).first()
+    try:
+        return int(row[0] if isinstance(row, (tuple, list)) else row)
+    except Exception:
+        return 0
 
 @router.get("/conversations", response_model=List[ConversationOut])
 def list_conversations(db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
-    # owned conversations
-    owned = db.exec(select(Conversation).where(Conversation.user_id == user.id)).all()
+    uid = int(user.id)
 
-    # shared conversations
-    rows = db.exec(select(ConversationMember.conversation_id).where(ConversationMember.user_id == user.id)).all()
-    # Handle multiple return types: Row/tuple/int
-    shared_id_list: list[int] = []
-    for r in rows or []:
-        try:
-            # Row or tuple
-            shared_id_list.append(int(r[0]))
-        except Exception:
-            shared_id_list.append(int(r))
-    shared_convs = db.exec(
-        select(Conversation).where(Conversation.id.in_(shared_id_list))  # An empty list would generate WHERE id IN (), which SQLAlchemy treats as false
-    ).all() if shared_id_list else []
+    owned = db.exec(select(Conversation).where(Conversation.user_id == uid)).all()
+
+    members = db.exec(select(ConversationMember).where(ConversationMember.user_id == uid)).all()
+    by_cid = {m.conversation_id: m for m in (members or [])}
+    shared_ids = list(by_cid.keys())
+    shared_convs = db.exec(select(Conversation).where(Conversation.id.in_(shared_ids))).all() if shared_ids else []
 
     items: list[ConversationOut] = []
+
+    # owned
     for c in owned:
+        last_seen = _get_last_seen(db, c.id, uid)
+        unread = _count_unread(db, c.id, last_seen)
         items.append(ConversationOut(
             id=c.public_chat_id, title=c.title,
             last_message_at=c.last_message_at, created_at=c.created_at,
-            access_role="owner", shared_by=None
+            access_role="owner", shared_by=None, unread_count=unread
         ))
+
+    # shared (sort by activity since invited)
     for c in shared_convs:
-        inviter = _shared_by(db, c.id, user.id)
-        role = _access_role(db, c, user.id) or "viewer"
+        m = by_cid.get(c.id)
+        effective_last = max(int(c.last_message_at or 0), int(m.created_at if m else 0))
+        inviter = _shared_by(db, c.id, uid)
+        role = m.role if m else "viewer"
+        last_seen = _get_last_seen(db, c.id, uid)
+        unread = _count_unread(db, c.id, last_seen)
         items.append(ConversationOut(
             id=c.public_chat_id, title=c.title,
-            last_message_at=c.last_message_at, created_at=c.created_at,
-            access_role=role,
-            shared_by=_brief(inviter) if inviter else None
+            last_message_at=effective_last, created_at=c.created_at,
+            access_role=role, shared_by=_brief(inviter), unread_count=unread
         ))
 
     items.sort(key=lambda x: (x.last_message_at, x.created_at), reverse=True)
@@ -80,40 +124,47 @@ def list_conversations(db: Session = Depends(get_db), user: CurrentUser = Depend
 
 @router.post("/conversations", response_model=ConversationOut, status_code=201)
 def create_conversation(db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
-    conv = Conversation(user_id=user.id, title="New Chat")  # public_chat_id is generated by the model by default
+    uid = int(user.id)
+    conv = Conversation(user_id=uid, title="New Chat")
     db.add(conv); db.commit(); db.refresh(conv)
     return ConversationOut(
         id=conv.public_chat_id, title=conv.title,
         last_message_at=conv.last_message_at, created_at=conv.created_at,
-        access_role="owner", shared_by=None
+        access_role="owner", shared_by=None, unread_count=0
     )
 
 @router.get("/conversations/{public_id}", response_model=ConversationWithMessages)
 def get_conversation(public_id: str = Path(...), db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
     conv = _get_conv_by_public(db, public_id)
     if not conv:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Conversation not found")
-    role = _access_role(db, conv, user.id)
+    role = _access_role(db, conv, uid)
     if not role:
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Forbidden")
 
     msgs = db.exec(
         select(Message).where(Message.conversation_id == conv.id).order_by(Message.created_at.asc())
     ).all()
-    inviter = None if role == "owner" else _shared_by(db, conv.id, user.id)
+    inviter = None if role == "owner" else _shared_by(db, conv.id, uid)
+    last_seen = _get_last_seen(db, conv.id, uid)
+    unread = _count_unread(db, conv.id, last_seen)
+
     return ConversationWithMessages(
         id=conv.public_chat_id, title=conv.title,
         last_message_at=conv.last_message_at, created_at=conv.created_at,
-        access_role=role, shared_by=_brief(inviter) if inviter else None,
-        messages=[{"role": m.role, "content": m.content, "created_at": m.created_at} for m in msgs]
+        access_role=role, shared_by=_brief(inviter),
+        messages=[{"role": m.role, "content": m.content, "created_at": m.created_at} for m in msgs],
+        last_seen_at=last_seen, unread_count=unread
     )
 
 @router.patch("/conversations/{public_id}", response_model=ConversationOut)
 def rename_conversation(public_id: str, patch: ConversationPatch, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
     conv = _get_conv_by_public(db, public_id)
     if not conv:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Conversation not found")
-    role = _access_role(db, conv, user.id)
+    role = _access_role(db, conv, uid)
     if role not in ("owner", "editor"):
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner/editor can rename")
 
@@ -121,54 +172,98 @@ def rename_conversation(public_id: str, patch: ConversationPatch, db: Session = 
         conv.title = patch.title.strip()
         db.add(conv); db.commit(); db.refresh(conv)
 
-    inviter = None if role == "owner" else _shared_by(db, conv.id, user.id)
+    inviter = None if role == "owner" else _shared_by(db, conv.id, uid)
+    last_seen = _get_last_seen(db, conv.id, uid)
+    unread = _count_unread(db, conv.id, last_seen)
     return ConversationOut(
         id=conv.public_chat_id, title=conv.title,
         last_message_at=conv.last_message_at, created_at=conv.created_at,
-        access_role=role, shared_by=_brief(inviter) if inviter else None
+        access_role=role, shared_by=_brief(inviter), unread_count=unread
     )
 
 @router.delete("/conversations/{public_id}", status_code=204)
 def delete_conversation(public_id: str, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
     conv = _get_conv_by_public(db, public_id)
     if not conv:
         return
-    role = _access_role(db, conv, user.id)
+    role = _access_role(db, conv, uid)
     if role != "owner":
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner can delete")
 
-    # Proper cascading cleanup
     db.exec(delete(ConversationMember).where(ConversationMember.conversation_id == conv.id))
+    db.exec(delete(ConversationViewState).where(ConversationViewState.conversation_id == conv.id))
     db.exec(delete(Message).where(Message.conversation_id == conv.id))
     db.delete(conv)
     db.commit()
     return
 
-# ==== Share APIs ====
-
-@router.get("/conversations/{public_id}/shares", response_model=List[ShareOut])
-def list_shares(public_id: str, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+# Mark read up to "latest known on server" (compat)
+@router.post("/conversations/{public_id}/read", status_code=204)
+def mark_read(public_id: str, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
     conv = _get_conv_by_public(db, public_id)
     if not conv:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Conversation not found")
-    role = _access_role(db, conv, user.id)
+    role = _access_role(db, conv, uid)
+    if not role:
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Forbidden")
+
+    ts = max(now_ms(), int(conv.last_message_at or 0))
+    _set_last_seen(db, conv.id, uid, ts)
+    return
+
+# NEW: Mark read up to a specific timestamp you actually rendered
+class ReadToBody(BaseModel):
+    last_seen_at: int
+
+@router.post("/conversations/{public_id}/read_to", status_code=204)
+def mark_read_to(public_id: str, body: ReadToBody, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
+    conv = _get_conv_by_public(db, public_id)
+    if not conv:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Conversation not found")
+    role = _access_role(db, conv, uid)
+    if not role:
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Forbidden")
+
+    # Clamp to latest message time to avoid setting into the future
+    latest = int(conv.last_message_at or 0)
+    ts = int(body.last_seen_at or 0)
+    if ts <= 0:
+        return
+    if ts > latest:
+        ts = latest
+    _set_last_seen(db, conv.id, uid, ts)
+    return
+
+# ==== Share APIs (unchanged except for unread fields already handled above) ====
+
+@router.get("/conversations/{public_id}/shares", response_model=List[ShareOut])
+def list_shares(public_id: str, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
+    conv = _get_conv_by_public(db, public_id)
+    if not conv:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Conversation not found")
+    role = _access_role(db, conv, uid)
     if role not in ("owner", "editor"):
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner/editor can view members")
 
     items = db.exec(select(ConversationMember).where(ConversationMember.conversation_id == conv.id)).all()
     out: list[ShareOut] = []
     for m in items:
-        u = db.get(User, m.user_id); inv = db.get(User, m.invited_by)
+        u = db.get(User, m.user_id); inv = db.get(User, m.invited_by) if m.invited_by else None
         if u and inv:
             out.append(ShareOut(user=_brief(u), role=m.role, invited_by=_brief(inv), created_at=m.created_at))
     return out
 
 @router.post("/conversations/{public_id}/shares", status_code=204)
 def add_share(public_id: str, body: ShareCreate, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
     conv = _get_conv_by_public(db, public_id)
     if not conv:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Conversation not found")
-    role = _access_role(db, conv, user.id)
+    role = _access_role(db, conv, uid)
     if role not in ("owner", "editor"):
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner/editor can share")
 
@@ -186,16 +281,17 @@ def add_share(public_id: str, body: ShareCreate, db: Session = Depends(get_db), 
         existing.role = body.role
         db.add(existing)
     else:
-        db.add(ConversationMember(conversation_id=conv.id, user_id=target.id, role=body.role, invited_by=user.id))
+        db.add(ConversationMember(conversation_id=conv.id, user_id=target.id, role=body.role, invited_by=uid))
     db.commit()
     return
 
 @router.patch("/conversations/{public_id}/shares/{target_user_id}", status_code=204)
 def update_share(public_id: str, target_user_id: int, body: ShareUpdate, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
     conv = _get_conv_by_public(db, public_id)
     if not conv:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Conversation not found")
-    role = _access_role(db, conv, user.id)
+    role = _access_role(db, conv, uid)
     if role not in ("owner", "editor"):
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner/editor can update share")
     if target_user_id == conv.user_id:
@@ -212,10 +308,11 @@ def update_share(public_id: str, target_user_id: int, body: ShareUpdate, db: Ses
 
 @router.delete("/conversations/{public_id}/shares/{target_user_id}", status_code=204)
 def remove_share(public_id: str, target_user_id: int, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
+    uid = int(user.id)
     conv = _get_conv_by_public(db, public_id)
     if not conv:
         return
-    role = _access_role(db, conv, user.id)
+    role = _access_role(db, conv, uid)
     if role not in ("owner", "editor"):
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner/editor can remove share")
     if target_user_id == conv.user_id:

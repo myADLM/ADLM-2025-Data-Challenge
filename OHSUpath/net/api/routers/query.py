@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 from typing import Optional, AsyncGenerator
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, Path
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from sqlmodel import Session, select
@@ -12,13 +12,6 @@ from ..models import Conversation, ConversationMember, Message, now_ms
 
 router = APIRouter(prefix="/query", tags=["query"])
 
-# Allow multiple field names; the client may send public_id / id / conversation_id / chat_id
-def _extract_public_id(body: dict) -> Optional[str]:
-    for k in ("public_id", "id", "conversation_id", "chat_id"):
-        v = body.get(k)
-        if isinstance(v, str) and v.strip():
-            return v.strip()
-    return None
 
 def _get_conv_by_public(db: Session, public_id: str) -> Conversation | None:
     return db.exec(select(Conversation).where(Conversation.public_chat_id == public_id)).first()
@@ -34,6 +27,15 @@ def _access_role(db: Session, conv: Conversation, uid: int) -> str | None:
     ).first()
     return cm.role if cm else None
 
+
+def _sse(reply: str) -> AsyncGenerator[bytes, None]:
+    async def gen():
+        for ch in reply:
+            yield f"data: {ch}\n\n".encode("utf-8")
+        yield b"event: done\ndata: ok\n\n"
+    return gen()
+
+
 class SendIn(BaseModel):
     content: str
     role: Optional[str] = "user"  # "user" | "system" | "assistant"
@@ -47,6 +49,14 @@ class SendOut(BaseModel):
     role: str
     content: str
     created_at: int
+
+
+def _extract_public_id(body: dict) -> Optional[str]:
+    for k in ("public_id", "id", "conversation_id", "chat_id"):
+        v = body.get(k)
+        if isinstance(v, str) and v.strip():
+            return v.strip()
+    return None
 
 # -- Non-streaming: POST /query --
 @router.post("", response_model=SendOut, status_code=201)
@@ -64,37 +74,40 @@ def send_message(body: SendIn, db: Session = Depends(get_db), user: CurrentUser 
         raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner/editor can write")
 
     ts = now_ms()
-    # Save user message
-    msg = Message(conversation_id=conv.id, role=body.role or "user", content=body.content, created_at=ts)
-    db.add(msg)
+    db.add(Message(conversation_id=conv.id, role=body.role or "user", content=body.content, created_at=ts))
 
-    # Generate a simple assistant echo (placeholder)
     assistant_text = f"Echo: {body.content}"
-    msg2 = Message(conversation_id=conv.id, role="assistant", content=assistant_text, created_at=ts + 1)
-    db.add(msg2)
-
-    # Update conversation timestamp
-    conv.last_message_at = msg2.created_at
+    ts2 = ts + 1
+    db.add(Message(conversation_id=conv.id, role="assistant", content=assistant_text, created_at=ts2))
+    conv.last_message_at = ts2
     db.add(conv)
-
     db.commit()
 
-    return SendOut(role=msg2.role, content=msg2.content, created_at=msg2.created_at)
+    return SendOut(role="assistant", content=assistant_text, created_at=ts2)
 
-# -- Streaming: POST /query/stream --
-def _sse_line(data: str) -> bytes:
-    # SSE: each message ends with a blank line
-    return f"data: {data}\n\n".encode("utf-8")
 
 @router.post("/stream")
 async def query_stream(body: SendIn, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
-    """
-    Receive user message -> write to DB -> stream back an "assistant reply" (echo placeholder) ->
-    after streaming completes, write the assistant message to DB and update the conversation timestamp.
-    """
     public_id = _extract_public_id(body.dict())
     if not public_id:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, "Missing public_id")
+    return await stream_query(public_id, body, db, user)
+
+
+class StreamBody(BaseModel):
+    content: str
+    role: Optional[str] = "user"
+
+
+@router.post("/stream/{public_id}")
+async def stream_query(
+    public_id: str = Path(...),
+    body: StreamBody | SendIn | None = None,
+    db: Session = Depends(get_db),
+    user: CurrentUser = Depends(get_current_user),
+):
+    if not body or not (body.content or "").strip():
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, detail="content required")
 
     conv = _get_conv_by_public(db, public_id)
     if not conv:
@@ -102,40 +115,30 @@ async def query_stream(body: SendIn, db: Session = Depends(get_db), user: Curren
 
     role = _access_role(db, conv, user.id)
     if role not in ("owner", "editor"):
-        raise HTTPException(status.HTTP_403_FORBIDDEN, "Only owner/editor can write")
+        raise HTTPException(status.HTTP_403_FORBIDDEN, detail="Forbidden")
 
-    # 1) Write the user message to DB first to avoid loss on refresh
-    ts = now_ms()
-    user_msg = Message(conversation_id=conv.id, role=body.role or "user", content=body.content, created_at=ts)
-    db.add(user_msg)
+    # persist user message and bump last_message_at
+    t = now_ms()
+    db.add(Message(conversation_id=conv.id, role=(getattr(body, "role", None) or "user"), content=body.content, created_at=t))
+    conv.last_message_at = t
+    db.add(conv)
     db.commit()
 
-    # 2) Echo placeholder as the assistant reply
-    full_reply = f"Echo: {body.content}"
-    tokens = full_reply.split()
+    reply = f"Echo: {body.content}"
 
-    async def event_gen() -> AsyncGenerator[bytes, None]:
-        yield _sse_line('{"type":"start"}')
-        assembled = []
-        for i, t in enumerate(tokens):
-            assembled.append(t + (" " if i < len(tokens) - 1 else ""))
-            yield _sse_line(f'{{"type":"chunk","delta":"{t}{" " if i < len(tokens)-1 else ""}"}}')
-        yield _sse_line('{"type":"done"}')
-
-        # 3) Write the assistant message to DB and update the conversation timestamp
-        try:
-            ts2 = now_ms()
-            assistant_msg = Message(conversation_id=conv.id, role="assistant", content="".join(assembled), created_at=ts2)
-            db.add(assistant_msg)
-            conv.last_message_at = ts2
-            db.add(conv)
-            db.commit()
-        except Exception:
-            pass
+    async def gen():
+        async for chunk in _sse(reply):
+            yield chunk
+        # persist assistant and bump timestamp again
+        t2 = now_ms()
+        db.add(Message(conversation_id=conv.id, role="assistant", content=reply, created_at=t2))
+        conv.last_message_at = t2
+        db.add(conv)
+        db.commit()
 
     headers = {
         "Cache-Control": "no-cache",
         "Connection": "keep-alive",
         "X-Accel-Buffering": "no",
     }
-    return StreamingResponse(event_gen(), media_type="text/event-stream", headers=headers)
+    return StreamingResponse(gen(), media_type="text/event-stream", headers=headers)

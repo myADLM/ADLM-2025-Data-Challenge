@@ -55,6 +55,14 @@ class LoginEvent(SQLModel, table=True):
     agent: Optional[str] = None
 
 # === NEW: ConversationMember (for sharing/permissions) ===
+class ConversationViewState(SQLModel, table=True):
+    __tablename__ = "conversation_view_state"
+    __table_args__ = {"extend_existing": True}
+    id: Optional[int] = Field(default=None, primary_key=True)
+    conversation_id: int = Field(foreign_key="conversation.id", index=True)
+    user_id: int = Field(foreign_key="user.id", index=True)
+    last_seen_at: int = Field(default=0, index=True)
+
 class ConversationMember(SQLModel, table=True):
     __tablename__ = "conversation_member"
     __table_args__ = {"extend_existing": True}
@@ -64,7 +72,7 @@ class ConversationMember(SQLModel, table=True):
     user_id: int = Field(foreign_key="user.id", index=True)
 
     # "owner" is represented by Conversation.user_id; members typically use "editor" or "viewer"
-    role: str = Field(default="viewer", index=True)
+    role: str = Field(default="viewer", index=True)  # "editor" | "viewer"
 
     # Inviter (used for frontend display: shared_by)
     invited_by: Optional[int] = Field(default=None, foreign_key="user.id", index=True)
