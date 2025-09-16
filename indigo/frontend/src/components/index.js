@@ -1,0 +1,6 @@
+export { default as Header } from './Header'
+export { default as ChatMessages } from './ChatMessages'
+export { default as ChatInput } from './ChatInput'
+export { default as ChatWindow } from './ChatWindow'
+export { default as DocumentsPanel } from './DocumentsPanel'
+export { default as PDFViewer } from './PDFViewer'
