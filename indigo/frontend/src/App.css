@@ -9,11 +9,34 @@
 }
 
 .header {
-  text-align: center;
   padding: 2rem 1rem;
   color: white;
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 10000;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-left {
+  flex: 0 0 auto;
+}
+
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+
+.header-right {
+  flex: 0 0 auto;
 }
 
 .header h1 {
@@ -422,6 +445,7 @@
   line-height: 1.4;
   display: block;
   padding: 0.125rem 0;
+  flex: 1;
   transition: all 0.2s ease;
 }
 
@@ -436,201 +460,7 @@
   gap: 0.5rem;
 }
 
-.view-document-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 0.25rem;
-  border-radius: 4px;
-  transition: background-color 0.2s ease;
-  flex-shrink: 0;
-  order: -1;
-}
 
-.view-document-btn:hover {
-  background-color: #f0f0f0;
-}
-
-.view-document-btn:active {
-  background-color: #e0e0e0;
-}
-
-/* PDF Viewer Styles */
-.pdf-viewer-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-}
-
-.pdf-viewer-panel {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  width: 90%;
-  max-width: 1000px;
-  height: 90%;
-  max-height: 800px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-.pdf-viewer-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  border-bottom: 1px solid #e0e0e0;
-  background: #f8f9fa;
-  border-radius: 12px 12px 0 0;
-}
-
-.pdf-viewer-header h3 {
-  margin: 0;
-  color: #333;
-  font-size: 1.1rem;
-  font-weight: 600;
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 1rem;
-}
-
-.pdf-viewer-actions {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-
-.pdf-viewer-close {
-  background: #dc3545;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s ease;
-  flex-shrink: 0;
-}
-
-.pdf-viewer-close:hover {
-  background: #c82333;
-}
-
-.pdf-viewer-open-tab {
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s ease;
-  flex-shrink: 0;
-}
-
-.pdf-viewer-open-tab:hover {
-  background: #0056b3;
-}
-
-.pdf-viewer-content {
-  flex: 1;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.pdf-viewer-iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 0 0 12px 12px;
-}
-
-.pdf-loading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: #666;
-}
-
-.pdf-loading .loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 4px solid #e0e0e0;
-  border-top: 4px solid #007bff;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin-bottom: 1rem;
-}
-
-.pdf-error {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: #666;
-  text-align: center;
-  padding: 2rem;
-}
-
-.pdf-fallback-btn {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  margin-top: 1rem;
-  transition: background-color 0.2s ease;
-}
-
-.pdf-fallback-btn:hover {
-  background: #0056b3;
-}
-
-/* Responsive PDF Viewer */
-@media (max-width: 768px) {
-  .pdf-viewer-overlay {
-    padding: 1rem;
-  }
-  
-  .pdf-viewer-panel {
-    width: 95%;
-    height: 95%;
-  }
-  
-  .pdf-viewer-header {
-    padding: 0.75rem 1rem;
-  }
-  
-  .pdf-viewer-header h3 {
-    font-size: 1rem;
-  }
-}
 
 
 .document-item h4 {
@@ -645,17 +475,6 @@
   font-size: 0.9rem;
 }
 
-.doc-link {
-  color: #667eea;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: color 0.3s ease;
-}
-
-.doc-link:hover {
-  color: #764ba2;
-}
 
 .loading-state,
 .error-state,
@@ -732,5 +551,308 @@
     margin-left: 20px;
     margin-right: 20px;
     max-width: 90%;
+  }
+}
+
+/* Matches Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 11000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 800px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f8f9fa;
+  border-radius: 12px 12px 0 0;
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+.modal-close-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.modal-close-btn:hover {
+  background: #c82333;
+}
+
+.modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.matches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.match-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  transition: all 0.2s ease;
+}
+
+.match-item:hover {
+  background: #e9ecef;
+  transform: translateX(2px);
+}
+
+.match-number {
+  background: #667eea;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.match-text {
+  flex: 1;
+  color: #333;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.no-matches {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.no-matches p {
+  margin: 0;
+  font-style: italic;
+}
+
+/* View Matches Button */
+.view-matches-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+  order: -1;
+}
+
+.view-matches-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.view-matches-btn:active {
+  background-color: #e0e0e0;
+}
+
+/* Responsive Modal */
+@media (max-width: 768px) {
+  .modal-overlay {
+    padding: 1rem;
+  }
+  
+  .modal-content {
+    width: 95%;
+    max-height: 90vh;
+  }
+  
+  .modal-header {
+    padding: 0.75rem 1rem;
+  }
+  
+  .modal-header h3 {
+    font-size: 1rem;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+  }
+  
+  .match-item {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .match-number {
+    align-self: flex-start;
+  }
+}
+
+/* Settings Menu Styles */
+.settings-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.settings-menu-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.settings-menu-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.settings-menu-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.settings-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  min-width: 280px;
+  z-index: 10001;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.settings-section {
+  margin-bottom: 1.5rem;
+}
+
+.settings-section:last-child {
+  margin-bottom: 0;
+}
+
+.settings-section h4 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.radio-group label:hover {
+  background-color: #f8f9fa;
+}
+
+.radio-group input[type="radio"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  accent-color: #667eea;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked + span {
+  font-weight: 600;
+  color: #667eea;
+}
+
+/* Responsive Settings Menu */
+@media (max-width: 768px) {
+  .settings-dropdown {
+    min-width: 260px;
+    padding: 1rem;
+  }
+  
+  .settings-section h4 {
+    font-size: 0.9rem;
+  }
+  
+  .radio-group label {
+    font-size: 0.9rem;
+    padding: 0.4rem;
   }
 }

@@ -45,6 +45,10 @@ def get_s3_client():
     """Return a cached low-level S3 client backed by the S3 resource."""
     return get_s3().meta.client
 
+@cache
+def get_bedrock_client():
+    raise NotImplemented()
+
 
 def ensure_bucket(bucket_name: str):
     """Ensure an S3 bucket exists; create it if it does not.

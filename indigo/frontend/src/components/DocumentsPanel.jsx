@@ -4,7 +4,7 @@ const DocumentsPanel = ({
   chatDocuments, 
   documents, 
   loadingDocuments,
-  onViewDocument
+  onViewMatches
 }) => {
   return (
     <div className="documents-section">
@@ -18,19 +18,18 @@ const DocumentsPanel = ({
             <div key={`chat-${index}`} className="minimal-document-item">
               <div className="document-item-content">
                 <button 
-                  className="view-document-btn"
-                  onClick={() => {
-                    console.log('Viewing document:', doc.title, 'URL:', doc.url)
-                    onViewDocument(doc.url, doc.title)
-                  }}
-                  title="View document"
+                  className="view-matches-btn"
+                  onClick={() => onViewMatches(doc.title, doc.matches)}
+                  title="View matching text"
                 >
                   🔍
                 </button>
                 <a 
                   href={doc.url} 
                   className="minimal-doc-link" 
-                  download
+                  download={doc.title}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   title={doc.ghost || doc.title}
                 >
                   {doc.title}
@@ -53,9 +52,6 @@ const DocumentsPanel = ({
             <div key={doc.id} className="document-item">
               <h4>{doc.title}</h4>
               <p>{doc.description}</p>
-              <a href={doc.url} className="doc-link" target="_blank" rel="noopener noreferrer">
-                View Document
-              </a>
             </div>
           ))
         )}

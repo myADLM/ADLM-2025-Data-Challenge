@@ -40,7 +40,9 @@ class _FileReaderRegistry:
                 # Check if extension is already registered
                 if normalized_ext in cls._readers:
                     existing_reader = cls._readers[normalized_ext]
-                    raise ValueError(f"Extension {normalized_ext} already registered with {existing_reader.__name__}")
+                    raise ValueError(
+                        f"Extension {normalized_ext} already registered with {existing_reader.__name__}"
+                    )
 
                 cls._readers[normalized_ext] = reader_class
 

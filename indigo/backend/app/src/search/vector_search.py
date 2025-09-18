@@ -26,7 +26,9 @@ class VectorSearch:
         index (faiss.IndexFlatL2): A FAISS index for similarity search.
     """
 
-    def __init__(self, documents: list[str], embedder: str, embedding_cache: Path | str):
+    def __init__(
+        self, documents: list[str], embedder: str, embedding_cache: Path | str
+    ):
         """
         Initializes the VectorDatabase with a set of documents.
 
@@ -38,11 +40,10 @@ class VectorSearch:
         self.embedding_model = get_embedding_model(embedder)
         self.cache_dir = Path(embedding_cache) / embedder
         self.cache_dir.mkdir(parents=True, exist_ok=True)
-            
-        self.data = pl.DataFrame({
-            "document": documents,
-            "embedding": self._generate_embeddings(documents)
-        }).dropna(subset=['embedding'])
+
+        self.data = pl.DataFrame(
+            {"document": documents, "embedding": self._generate_embeddings(documents)}
+        ).dropna(subset=["embedding"])
         embeddings = np.vstack(self.data["embedding"])
         self.index = faiss.IndexFlatL2(embeddings.shape[1])
         self.index.add(embeddings)
@@ -65,10 +66,10 @@ class VectorSearch:
     def _generate_embeddings(self, documents: list[str]) -> list[np.ndarray]:
         """
         Generates embeddings for a list of documents using parallel processing.
-        
+
         Args:
             documents: List of text documents to embed
-            
+
         Returns:
             List of embedding vectors corresponding to the input documents
         """
@@ -78,29 +79,31 @@ class VectorSearch:
         cpu_count = os.cpu_count() or 1
         # Use min of CPU count and 8 to avoid overwhelming the system
         max_workers = min(cpu_count, 8)
-        
+
         # For small datasets, use sequential processing to avoid overhead
         # Also use sequential if max_workers is 1
         if len(documents) < 10 or max_workers == 1:
             return [self._get_embedding(doc) for doc in documents]
-        
+
         embeddings = [None] * len(documents)
-        
+
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             # Submit all tasks
             future_to_index = {
-                executor.submit(self._get_embedding, doc): i 
+                executor.submit(self._get_embedding, doc): i
                 for i, doc in enumerate(documents)
             }
-            
+
             # Collect results as they complete
             for future in as_completed(future_to_index):
                 index = future_to_index[future]
                 try:
                     embeddings[index] = future.result()
                 except Exception as e:
-                    raise Exception(f"Error generating embedding for document {index}: {e}")
-        
+                    raise Exception(
+                        f"Error generating embedding for document {index}: {e}"
+                    )
+
         return embeddings
 
     def _get_embedding(self, text: str) -> np.ndarray:
@@ -127,12 +130,14 @@ class VectorSearch:
 # Embedding Models
 # ================================
 
+
 class EmbeddingModel(Protocol):
     """Protocol for embedding models."""
 
     def embed(self, text: str) -> np.ndarray:
         """Embed the text as a vector."""
         ...
+
 
 class _EmbeddingModelRegistry:
     """Registry for embedding models based on names."""
@@ -172,45 +177,48 @@ class _EmbeddingModelRegistry:
         """Check if an embedding model is supported."""
         return name in cls._models
 
+
 class OpenAI(EmbeddingModel):
     """OpenAI embedding model."""
+
     def __init__(self, model_name: str):
         self.api_key = os.getenv("OPENAI_API_KEY")
         self.model_name = model_name
-    
+
     def embed(self, text: str) -> np.ndarray:
         raise NotImplementedError("OpenAI embedding model is not implemented")
 
     def query(self, text: str) -> np.ndarray:
         response = requests.post(
             "https://api.openai.com/v1/embeddings",
-            json={
-                "model": self.model_name,
-                "input": text
-            },
+            json={"model": self.model_name, "input": text},
             headers={
                 "Content-Type": "application/json",
-                "Authorization": f"Bearer {self.api_key}"
-            }
+                "Authorization": f"Bearer {self.api_key}",
+            },
         )
         response.raise_for_status()
         return response.json()["data"][0]["embedding"]
 
+
 @_EmbeddingModelRegistry.register("openai-text-embedding-3-small")
 class OpenAITextEmbedding3Small(OpenAI):
     """OpenAI Text Embedding 3 Small embedding model."""
+
     def __init__(self):
         super().__init__(model_name="text-embedding-3-small")
-    
+
     def embed(self, text: str) -> np.ndarray:
         return self.query(text)
+
 
 @_EmbeddingModelRegistry.register("openai-text-embedding-3-large")
 class OpenAITextEmbedding3Small(OpenAI):
     """OpenAI Text Embedding 3 Large embedding model."""
+
     def __init__(self):
         super().__init__(model_name="text-embedding-3-large")
-    
+
     def embed(self, text: str) -> np.ndarray:
         return self.query(text)
 

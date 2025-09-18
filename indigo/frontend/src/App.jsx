@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
-import { Header, ChatWindow, DocumentsPanel, PDFViewer } from './components'
+import { Header, ChatWindow, DocumentsPanel, MatchesModal } from './components'
 import { useBackendConnection, useChat } from './hooks'
 
 function App() {
   const [documents, setDocuments] = useState([])
   const [loadingDocuments, setLoadingDocuments] = useState(true)
-  const [pdfViewer, setPdfViewer] = useState({
+  const [matchesModal, setMatchesModal] = useState({
     isOpen: false,
-    url: '',
-    title: ''
+    documentTitle: '',
+    matches: []
   })
   
   const { backendConnected } = useBackendConnection()
@@ -21,7 +21,9 @@ function App() {
     isLoadingChat,
     chatMessagesRef,
     handleSubmit,
-    clearChat
+    clearChat,
+    settings,
+    setSettings
   } = useChat(backendConnected)
 
   // Initialize documents (now just a placeholder since documents come from chat)
@@ -30,25 +32,29 @@ function App() {
     setDocuments([])
   }, [])
 
-  const handleViewDocument = (url, title) => {
-    setPdfViewer({
+  const handleViewMatches = (documentTitle, matches) => {
+    setMatchesModal({
       isOpen: true,
-      url,
-      title
+      documentTitle,
+      matches: matches || []
     })
   }
 
-  const handleClosePdfViewer = () => {
-    setPdfViewer({
+  const handleCloseMatchesModal = () => {
+    setMatchesModal({
       isOpen: false,
-      url: '',
-      title: ''
+      documentTitle: '',
+      matches: []
     })
   }
 
   return (
     <div className="app">
-      <Header backendConnected={backendConnected} />
+      <Header 
+        backendConnected={backendConnected} 
+        settings={settings}
+        onSettingsChange={setSettings}
+      />
       
       <main className="main">
         <div className="chat-container">
@@ -68,16 +74,16 @@ function App() {
             chatDocuments={chatDocuments}
             documents={documents}
             loadingDocuments={loadingDocuments}
-            onViewDocument={handleViewDocument}
+            onViewMatches={handleViewMatches}
           />
         </div>
       </main>
       
-      <PDFViewer
-        isOpen={pdfViewer.isOpen}
-        onClose={handleClosePdfViewer}
-        documentUrl={pdfViewer.url}
-        documentTitle={pdfViewer.title}
+      <MatchesModal
+        isOpen={matchesModal.isOpen}
+        onClose={handleCloseMatchesModal}
+        documentTitle={matchesModal.documentTitle}
+        matches={matchesModal.matches}
       />
     </div>
   )

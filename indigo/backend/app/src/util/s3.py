@@ -156,6 +156,7 @@ def upload_file_to_s3(file_path: Path | str, bucket_name: str, object_key: str) 
         print(f"Failed to upload file {file_path}: {e}")
         return False
 
+
 def download_file_from_s3(bucket_name: str, object_key: str) -> bool:
     s3_client = get_s3_client()
     try:
@@ -165,6 +166,7 @@ def download_file_from_s3(bucket_name: str, object_key: str) -> bool:
             raise FileNotFoundError(f"s3://{bucket_name}/{object_key} not found") from e
         raise
     return obj["Body"].read()
+
 
 def bucket_exists(bucket_name):
     try:

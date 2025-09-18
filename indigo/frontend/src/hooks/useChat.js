@@ -1,10 +1,45 @@
 import { useState, useEffect, useRef } from 'react'
 
+const STORAGE_KEYS = {
+  message: 'indigo.message',
+  chatHistory: 'indigo.chatHistory',
+  chatDocuments: 'indigo.chatDocuments',
+  settings: 'indigo.settings'
+}
+
 export const useChat = (backendConnected) => {
-  const [message, setMessage] = useState('')
-  const [chatHistory, setChatHistory] = useState([])
-  const [chatDocuments, setChatDocuments] = useState([])
+  const [message, setMessage] = useState(() => {
+    try {
+      return localStorage.getItem(STORAGE_KEYS.message) || ''
+    } catch {
+      return ''
+    }
+  })
+  const [chatHistory, setChatHistory] = useState(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEYS.chatHistory)
+      return raw ? JSON.parse(raw) : []
+    } catch {
+      return []
+    }
+  })
+  const [chatDocuments, setChatDocuments] = useState(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEYS.chatDocuments)
+      return raw ? JSON.parse(raw) : []
+    } catch {
+      return []
+    }
+  })
   const [isLoadingChat, setIsLoadingChat] = useState(false)
+  const [settings, setSettings] = useState(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEYS.settings)
+      return raw ? JSON.parse(raw) : { query_model: 'gpt-5', search_type: 'rank_fusion' }
+    } catch {
+      return { query_model: 'gpt-5', search_type: 'rank_fusion' }
+    }
+  })
   const chatMessagesRef = useRef(null)
 
   // Auto-scroll to bottom when chat history changes
@@ -13,6 +48,31 @@ export const useChat = (backendConnected) => {
       chatMessagesRef.current.scrollTop = chatMessagesRef.current.scrollHeight
     }
   }, [chatHistory, isLoadingChat])
+
+  // Persist state to localStorage when it changes
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.message, message)
+    } catch {}
+  }, [message])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.chatHistory, JSON.stringify(chatHistory))
+    } catch {}
+  }, [chatHistory])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.chatDocuments, JSON.stringify(chatDocuments))
+    } catch {}
+  }, [chatDocuments])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.settings, JSON.stringify(settings))
+    } catch {}
+  }, [settings])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -37,7 +97,9 @@ export const useChat = (backendConnected) => {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              chat_items: newChatHistory
+              chat_items: newChatHistory,
+              query_model: settings.query_model,
+              search_type: settings.search_type
             })
           })
           
@@ -88,6 +150,11 @@ export const useChat = (backendConnected) => {
     setChatHistory([])
     setChatDocuments([])
     setMessage('')
+    try {
+      localStorage.removeItem(STORAGE_KEYS.chatHistory)
+      localStorage.removeItem(STORAGE_KEYS.chatDocuments)
+      localStorage.removeItem(STORAGE_KEYS.message)
+    } catch {}
   }
 
   return {
@@ -98,6 +165,8 @@ export const useChat = (backendConnected) => {
     isLoadingChat,
     chatMessagesRef,
     handleSubmit,
-    clearChat
+    clearChat,
+    settings,
+    setSettings
   }
 }

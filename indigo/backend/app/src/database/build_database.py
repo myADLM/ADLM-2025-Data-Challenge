@@ -27,12 +27,12 @@ def build_database(
 
     # Chunk the text and store it in a parquet file. Add context to the chunks.
     if force_rebuild or not silver_path.exists():
-        # Expect columns: idx, file_path, content, chunk_index, chunk_text
+        # Expect columns: idx, file_path, content, chunk_index, annotations, chunk_text
         silver_database(bronze_path, silver_path)
 
     # Take fully processed data, add vectors, and store it in a parquet file.
     if force_rebuild or not gold_path.exists():
-        # Expect columns: idx, file_path, content, chunk_index, chunk_text, vector
+        # Expect columns: idx, file_path, content, chunk_index, annotations, chunk_text, vector
         # gold_database(silver_path, gold_path)
         pass
 

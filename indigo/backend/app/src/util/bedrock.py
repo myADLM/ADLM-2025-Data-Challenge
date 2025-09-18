@@ -1,9 +1,9 @@
 import json
-import re
+from time import time
+from app.src.util.aws import get_bedrock_client
 
 
 def query_model(
-    bedrock,
     system,
     message,
     max_attempts=7,
@@ -15,7 +15,6 @@ def query_model(
     Query Amazon Bedrock's Nova Pro model with retry logic and error handling.
 
     Args:
-        bedrock: Bedrock client instance for making API calls
         system (str): System prompt/context to provide to the model
         message (str): User message/query to send to the model
         max_attempts (int): Maximum number of retry attempts for throttling (default: 7)
@@ -28,6 +27,7 @@ def query_model(
     Raises:
         Exception: If max retry attempts are exceeded or other errors occur
     """
+    bedrock = get_bedrock_client()
 
     payload = {
         "schemaVersion": "messages-v1",
@@ -50,11 +50,5 @@ def query_model(
         except bedrock.exceptions.ThrottlingException:
             pass
         delay = base_delay * (backoff_factor ** (attempt - 1))
-        logger.warning(
-            "Bedrock throttled (attempt %d/%d); sleeping %.2fs",
-            attempt,
-            max_attempts,
-            delay,
-        )
         time.sleep(delay)
     raise Exception("Giving up after %d throttling retries", attempt)
