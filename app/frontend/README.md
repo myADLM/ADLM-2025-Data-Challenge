@@ -1,32 +1,25 @@
-# Welcome to React Router!
-
-A minimal template for experimenting with React Router v7.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/minimal)
-
-> ![NOTE]
-> This template should not be used for production apps and is intended more for experimentation and demo applications. Please see the [default](https://github.com/remix-run/react-router-templates/tree/main/default) template for a more full-featured template.
+This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
 
 ## Getting Started
 
-### Installation
+First, add your OpenAI API key to `.env.local` file:
 
-Install the dependencies:
-
-```bash
-npm install
+```
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-### Development
-
-Start the development server with HMR:
+Then, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
-
-Built with ❤️ using React Router.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
