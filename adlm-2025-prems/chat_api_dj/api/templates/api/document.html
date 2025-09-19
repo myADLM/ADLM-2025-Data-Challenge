@@ -1,0 +1,304 @@
+{% extends 'api/base.html' %}
+
+{% block title %}{{ document.relative_path }} - Document Viewer{% endblock %}
+
+{% block extra_css %}
+<style>
+    .document-title {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .document-path {
+        color: #7f8c8d;
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .content-wrapper {
+        display: flex;
+        gap: 20px;
+    }
+
+    .sidebar {
+        flex: 0 0 250px;
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: fit-content;
+        position: sticky;
+        top: 20px;
+    }
+
+    .page-images {
+        flex: 0 0 128px;
+        background: white;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: fit-content;
+        position: sticky;
+        top: 20px;
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+    }
+
+    .page-images h3 {
+        margin-bottom: 15px;
+        color: #2c3e50;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .page-image {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    .page-image:hover {
+        transform: scale(1.05);
+    }
+
+    .page-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .sidebar h3 {
+        margin-bottom: 15px;
+        color: #2c3e50;
+        font-size: 1.1rem;
+    }
+
+    .toc {
+        list-style: none;
+    }
+
+    .toc li {
+        margin-bottom: 8px;
+    }
+
+    .toc a {
+        color: #3498db;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+    .toc a:hover {
+        text-decoration: underline;
+    }
+
+    .main-content {
+        flex: 1;
+        background: white;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-content h1,
+    .main-content h2,
+    .main-content h3,
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        color: #2c3e50;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .main-content h1 {
+        font-size: 2.2rem;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 10px;
+    }
+
+    .main-content h2 {
+        font-size: 1.8rem;
+        border-bottom: 2px solid #ecf0f1;
+        padding-bottom: 8px;
+    }
+
+    .main-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .main-content p {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .main-content code {
+        background: #f8f9fa;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        font-size: 0.9rem;
+    }
+
+    .main-content pre {
+        background: #2c3e50;
+        color: #ecf0f1;
+        padding: 20px;
+        border-radius: 5px;
+        overflow-x: auto;
+        margin: 20px 0;
+    }
+
+    .main-content pre code {
+        background: none;
+        padding: 0;
+        color: inherit;
+    }
+
+    .main-content blockquote {
+        border-left: 4px solid #3498db;
+        margin: 20px 0;
+        padding: 10px 20px;
+        background: #f8f9fa;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .main-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    .main-content th,
+    .main-content td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    .main-content th {
+        background: #f8f9fa;
+        font-weight: 600;
+    }
+
+    .main-content ul,
+    .main-content ol {
+        margin: 15px 0;
+        padding-left: 30px;
+    }
+
+    .main-content li {
+        margin-bottom: 8px;
+    }
+
+    @media (max-width: 768px) {
+        .content-wrapper {
+            flex-direction: column;
+        }
+
+        .sidebar {
+            position: static;
+            flex: none;
+        }
+
+        .page-images {
+            position: static;
+            flex: none;
+            max-height: none;
+            overflow-y: visible;
+        }
+
+        .page-images h3 {
+            text-align: left;
+        }
+
+        .page-image {
+            display: inline-block;
+            width: 60px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .navigation {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .nav-button {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block header %}
+<div class="header">
+    <h1 class="document-title">{{ document.relative_path|title }}</h1>
+    <p class="document-path">Path: {{ document.relative_path }}</p>
+
+    <div class="navigation">
+        <a href="{% url 'document_list' %}" class="back-to-list">← Back to Document List</a>
+
+        <div>
+            {% if prev_doc %}
+            <a href="{% url 'document_view' prev_doc.id %}" class="nav-button">← Previous:
+                {{ prev_doc.relative_path|truncatechars:30 }}</a>
+            {% else %}
+            <span class="nav-button disabled">← Previous</span>
+            {% endif %}
+
+            {% if next_doc %}
+            <a href="{% url 'document_view' next_doc.id %}" class="nav-button">Next:
+                {{ next_doc.relative_path|truncatechars:30 }} →</a>
+            {% else %}
+            <span class="nav-button disabled">Next →</span>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    {% if toc %}
+    <div class="sidebar">
+        <h3>Table of Contents</h3>
+        <ul class="toc">
+            {% for item in toc %}
+            <li><a href="#{{ item.anchor|default:item.title|slugify }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <div class="page-images">
+        <h3>Pages</h3>
+        {% for page_num in page_range %}
+        <div class="page-image" data-page="{{ page_num }}">
+            <img src="{% url 'pdf_page_image' document.id page_num %}" alt="Page {{ page_num }}"
+                title="Page {{ page_num }}" loading="lazy">
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="main-content">
+        {% for chunk in chunks %}
+        <div class="chunk" id="chunk-{{ chunk.chunk_index }}">
+            {{ chunk.html_text|safe }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

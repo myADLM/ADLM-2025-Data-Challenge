@@ -8,4 +8,21 @@ dependencies = [
     "django>=5.2.5",
     "django-ninja>=1.4.3",
     "ollama>=0.5.3",
+    "tqdm>=4.67.1",
+    "datasets>=4.0.0",
+    "markdown>=3.7.0",
+    "langchain-text-splitters>=0.3.11",
+    "PyMuPDF>=1.23.0",
+    "Pillow>=10.0.0",
+    "uvicorn[standard]>=0.30.0",
+    "gunicorn>=23.0.0",
+    "matplotlib>=3.8.0",
+    "django-haystack[whoosh]>=3.3.0",
+    "whoosh>=2.7.4",
+    "marker-pdf[full]>=1.9.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
 ]

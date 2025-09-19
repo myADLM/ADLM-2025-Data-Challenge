@@ -1,0 +1,3 @@
+{{ object.relative_path }}
+{{ object.markdown }}
+Number of pages: {{ object.num_pages }}
