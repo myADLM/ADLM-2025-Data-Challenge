@@ -1,0 +1,222 @@
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style>
+    /* Tailwind CSS sensible defaults */
+
+    /* Base typography */
+    body {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+        line-height: 1.5;
+        color: #374151;
+        font-size: 0.875rem;
+    }
+
+    /* Headings */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600;
+        line-height: 1.25;
+        margin-bottom: 0.5rem;
+        color: #111827;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.875rem;
+    }
+
+    h6 {
+        font-size: 0.75rem;
+    }
+
+    /* Paragraphs */
+    p {
+        margin-bottom: 1rem;
+    }
+
+    /* Lists */
+    ul,
+    ol {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+        list-style-type: disc;
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+
+    li {
+        margin-bottom: 0.25rem;
+    }
+
+    /* Links */
+    a {
+        color: #2563eb;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: #1d4ed8;
+    }
+
+    /* Code */
+    code {
+        background-color: #f3f4f6;
+        padding: 0.125rem 0.25rem;
+        border-radius: 0.25rem;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.75rem;
+    }
+
+    pre {
+        background-color: #f3f4f6;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+        margin-bottom: 1rem;
+    }
+
+    pre code {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    /* Tables */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1rem;
+    }
+
+    th,
+    td {
+        border: 1px solid #d1d5db;
+        padding: 0.5rem 0.75rem;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f9fafb;
+        font-weight: 600;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.375rem;
+    }
+
+    /* Horizontal rules */
+    hr {
+        border: none;
+        border-top: 1px solid #e5e7eb;
+        margin: 1.5rem 0;
+    }
+
+    /* Blockquotes */
+    blockquote {
+        border-left: 4px solid #d1d5db;
+        padding-left: 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+        color: #6b7280;
+    }
+
+    /* Form elements */
+    input,
+    textarea,
+    select {
+        border: 1px solid #d1d5db;
+        border-radius: 0.375rem;
+        padding: 0.375rem 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    /* Buttons */
+    button {
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 0.375rem;
+        padding: 0.375rem 0.75rem;
+        font-size: 0.875rem;
+        cursor: pointer;
+        transition: background-color 0.15s ease-in-out;
+    }
+
+    button:hover {
+        background-color: #1d4ed8;
+    }
+
+    button:disabled {
+        background-color: #9ca3af;
+        cursor: not-allowed;
+    }
+
+    /* Utility classes for common spacing */
+    .page-image {
+        margin-bottom: 1rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .page-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<div class="flex flex-col gap-4">
+    {% for page_chunk in page_chunks %}
+    <div class="flex flex-row gap-4">
+
+        <div class="w-1/2">
+            {% for block in page_chunk %}
+            <div class="marker-chunk" data-id="{{block.id}}" data-bbox="{{block.bbox}}"
+                data-block-type="{{block.block_type}}" data-section-hierarchy="{{block.section_hierarchy}}"
+                data-html="{{block.html}}">
+                {{block.html | safe}}
+            </div>
+            {% endfor %}
+        </div>
+        <div class="w-1/2">
+            <div class="page-image" data-page="{{ forloop.counter0 }}">
+                <img src="{% url 'pdf_page_image' document.id forloop.counter0 %}" alt="Page {{ forloop.counter0 }}"
+                    title="Page {{ forloop.counter0 }}" loading="lazy">
+            </div>
+        </div>
+    </div>
+    <hr />
+    {% endfor %}
+</div>

@@ -25,7 +25,10 @@ SECRET_KEY = "django-insecure-q6*juvb@v4a+j^5ohbi*7lf%&o3s6^0qbz)lr2k5wxmz6vkrnz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "192.168.1.22",
+    'localhost',
+]
 
 
 # Application definition
@@ -37,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "haystack",
     "api",
 ]
 
@@ -121,3 +125,28 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LABDOCS_DIR = BASE_DIR / "LabDocs"
+
+HEADERS_TO_SPLIT_ON = [
+    ("#", "h1"),
+    ("##", "h2"),
+    ("###", "h3"),
+    ("####", "h4"),
+    ("#####", "h5"),
+    ("######", "h6"),
+]
+
+N_WORKERS = 10
+
+import os
+
+HAYSTACK_CONNECTIONS = {
+    "default": {
+        "ENGINE": "haystack.backends.whoosh_backend.WhooshEngine",
+        "PATH": os.path.join(os.path.dirname(__file__), "whoosh_index"),
+    },
+}
+
+# Haystack signal processor for real-time updates
+HAYSTACK_SIGNAL_PROCESSOR = "haystack.signals.RealtimeSignalProcessor"
