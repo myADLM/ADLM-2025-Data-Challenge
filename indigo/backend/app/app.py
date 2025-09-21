@@ -24,9 +24,12 @@ def main():
     # Ensure the database is built
     zip_path = Path(__file__).parent / "input_data" / "raw_input_data.zip"
     database_path = Path(__file__).parent / "database"
+
     build_database(input_zip_path=zip_path, database_path=database_path)
     search_client = Search(
-        pl.read_parquet(database_path / "medallions" / "silver.parquet") # TODO: Replace with gold.parquet when available
+        pl.read_parquet(
+            database_path / "medallions" / "silver.parquet"
+        )  # TODO: Replace with gold.parquet when available
     )
 
     # API Routes
@@ -44,3 +47,7 @@ def main():
 
     # Run the server
     uvicorn.run(app, host="0.0.0.0", port=5174)
+
+
+if __name__ == "__main__":
+    main()

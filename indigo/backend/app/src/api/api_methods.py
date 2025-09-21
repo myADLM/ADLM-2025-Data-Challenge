@@ -3,6 +3,7 @@ from fastapi import HTTPException
 from fastapi.responses import FileResponse
 from app.src.api.api_objects import *
 from app.src.search.search import Search
+from app.src.chat.chat import chat
 
 
 def download_document_impl(file_path: str, database_path: Path):
@@ -38,36 +39,44 @@ def chat_impl(request: ChatRequest, search_client: Search, database_path: Path):
     if not latest_user_message:
         return ChatResponse(chat_items=chat_items, documents=[])
 
-    # TODO:Add assistant response
+    # Run the search algorithm
+    chunks = search_client.search(latest_user_message, search_type)
     chat_items.append(
         ChatItem(
             agent="assistant",
-            text="I have no response, but here are some relevant documents.",
+            text=chat(query_model, chat_items),
         )
     )
 
-    doc_infos = search_client.search(latest_user_message, search_type)
-    documents = {}
-    for doc_info in doc_infos:
-        file_path = doc_info["file_path"]
-        documents[file_path] = documents.get(file_path, []) + [doc_info["chunk_text"]]
+    doc_infos = {}
+    for chunk in chunks:
+        doc_infos[chunk["file_path"]] = doc_infos.get(chunk["file_path"], []) + [
+            chunk["chunk_text"]
+        ]
 
     # Get safe documents from the originals directory
-    documents = [_get_safe_document(database_path, (file_path, matches)) for file_path, matches in documents.items()]
+    documents = [
+        _get_safe_document(database_path, (file_path, matches))
+        for file_path, matches in doc_infos.items()
+    ]
 
     return ChatResponse(chat_items=chat_items, documents=documents)
 
 
-def _get_safe_document(database_path: Path, doc_info: tuple[str, list[str]]) -> Document:
+def _get_safe_document(
+    database_path: Path, doc_info: tuple[str, list[str]]
+) -> Document:
     """Get list of safe documents from the originals directory."""
     file_path, matches = doc_info
     relative_path = file_path
-    
+
     full_path = database_path / "originals" / relative_path
 
     if full_path.exists():
         safe_url = f"/documents/{relative_path}"
-        return Document(title=full_path.name, url=safe_url, ghost=relative_path, matches=matches)
+        return Document(
+            title=full_path.name, url=safe_url, ghost=relative_path, matches=matches
+        )
 
     return Document(title="File not found", url="", ghost="", matches=[])
 

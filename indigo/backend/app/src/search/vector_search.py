@@ -63,6 +63,21 @@ class VectorSearch:
         d, i = self.index.search(np.array([embedded_query]), n)
         return self.data.iloc[[i[0][j] for j in range(n)]], d[0]
 
+    def topk_indices(self, text: str, k: int = 10) -> list[int]:
+        """
+        Get the indices of the top k most similar documents for a query.
+
+        Args:
+            text: Search query string
+            k: Number of top results to return (default: 10)
+
+        Returns:
+            List of document indices sorted by similarity (highest first)
+        """
+        embedded_query = self._get_embedding(text)
+        _, indices = self.index.search(np.array([embedded_query]), k)
+        return indices[0].tolist()
+
     def _generate_embeddings(self, documents: list[str]) -> list[np.ndarray]:
         """
         Generates embeddings for a list of documents using parallel processing.

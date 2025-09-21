@@ -78,16 +78,26 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
                 />
                 GPT-5 Mini
               </label>
-              <label>
-                <input
-                  type="radio"
-                  name="query_model"
-                  value="gpt-5-nano"
-                  checked={settings.query_model === 'gpt-5-nano'}
-                  onChange={handleQueryModelChange}
-                />
-                GPT-5 Nano
-              </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="query_model"
+                    value="gpt-5-nano"
+                    checked={settings.query_model === 'gpt-5-nano'}
+                    onChange={handleQueryModelChange}
+                  />
+                  GPT-5 Nano
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="query_model"
+                    value="none"
+                    checked={settings.query_model === 'none'}
+                    onChange={handleQueryModelChange}
+                  />
+                  None
+                </label>
             </div>
           </div>
           

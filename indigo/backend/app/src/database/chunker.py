@@ -150,8 +150,8 @@ def chunk_annotations(
 
     Returns the annotated chunk text
     """
-    contextual = "" # TODO: Uncomment this when the LLM is available
-    # contextual = contextual_annotations(chunk, file_path, lock, document_store) 
+    contextual = ""  # TODO: Uncomment this when the LLM is available
+    # contextual = contextual_annotations(chunk, file_path, lock, document_store)
     annotations = []
     for pattern, annotation_text in file_path_annotation_config.items():
         if re.search(pattern, file_path):
@@ -173,10 +173,12 @@ def contextual_annotations(
     Returns the contextualized chunk text
     """
     with lock:
-       whole_document = document_store.get(file_path, None)
+        whole_document = document_store.get(file_path, None)
     if whole_document is None:
-       raise ValueError(f"Whole document not found for file path: {file_path}")
-    return query_model("", """
+        raise ValueError(f"Whole document not found for file path: {file_path}")
+    return query_model(
+        "",
+        """
     <document>
     {whole_document}
     </document>
@@ -185,5 +187,7 @@ def contextual_annotations(
     {chunk}
     </chunk>
     Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else.
-    """.format(whole_document=whole_document, chunk=chunk)
+    """.format(
+            whole_document=whole_document, chunk=chunk
+        ),
     )

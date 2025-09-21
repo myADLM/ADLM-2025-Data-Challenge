@@ -56,12 +56,13 @@
   background: #dc3545;
   color: white;
   padding: 0.75rem 1rem;
-  border-radius: 8px;
-  margin-top: 1rem;
+  margin: 0;
   font-weight: 600;
   text-align: center;
   box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
   animation: pulse 2s infinite;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @keyframes pulse {

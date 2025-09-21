@@ -29,9 +29,10 @@ def get_s3():
     cfg = Config(retries={"max_attempts": 10, "mode": "standard"})
     if os.getenv("USE_LOCALSTACK") == "1":
         print("Using LocalStack")
+        endpoint_url = os.getenv("LOCALSTACK_ENDPOINT", "http://localstack:4566")
         return boto3.resource(
             "s3",
-            endpoint_url="http://localhost:4566",
+            endpoint_url=endpoint_url,
             region_name=region,
             aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID", "test"),
             aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY", "test"),
@@ -44,6 +45,7 @@ def get_s3():
 def get_s3_client():
     """Return a cached low-level S3 client backed by the S3 resource."""
     return get_s3().meta.client
+
 
 @cache
 def get_bedrock_client():
