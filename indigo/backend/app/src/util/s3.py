@@ -1,6 +1,8 @@
 from pathlib import Path
 from typing import List, Optional
+from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
+import os
 from botocore.exceptions import ClientError
 from app.src.util.aws import ensure_bucket, get_s3_client
 
@@ -63,12 +65,10 @@ def upload_files_to_s3(
         return True
 
     # Find the files that are not already in S3
-    files_to_upload = []
-    for file_path in all_files:
-        s3_key = f"{key_prefix}{file_path.relative_to(files_base_dir)}".replace(
-            "\\", "/"
-        )
-        files_to_upload.append((file_path, s3_key))
+    files_to_upload = [
+        (file_path, f"{key_prefix}{file_path.relative_to(files_base_dir)}".replace("\\", "/"))
+        for file_path in all_files
+    ]
 
     print(
         f"Found {len(files_to_upload)} files to upload to s3://{bucket_name}/{key_prefix}"
@@ -78,19 +78,20 @@ def upload_files_to_s3(
     success_count = 0
     failed_files = []
 
-    with tqdm(files_to_upload, desc="Uploading files", unit="file") as pbar:
-        for file_path, s3_key in pbar:
-            # Calculate the relative path from the base directory
-            relative_path = file_path.relative_to(files_base_dir)
+    max_workers = min((os.cpu_count() or 1), 8)
 
-            # Update progress bar description with current file
-            pbar.set_description(f"Uploading: {file_path.name[:20].ljust(20)}")
+    def _upload_one(args):
+        path, key = args
+        return path, upload_file_to_s3(path, bucket_name, key)
 
-            if upload_file_to_s3(file_path, bucket_name, s3_key):
+    with ThreadPoolExecutor(max_workers=max_workers) as executor, tqdm(total=len(files_to_upload), desc="Uploading files", unit="file") as pbar:
+        for file_path, ok in executor.map(_upload_one, files_to_upload):
+            if ok:
                 success_count += 1
             else:
                 failed_files.append(file_path)
                 pbar.set_postfix_str(f"Failed: {file_path.name}")
+            pbar.update(1)
 
     # Print summary
     if failed_files:

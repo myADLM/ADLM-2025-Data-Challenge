@@ -85,7 +85,7 @@ def fast_chunk_text(
         return results
 
     # Multithread processing of rows
-    max_workers = min(32, (os.cpu_count() or 4))
+    max_workers = min((os.cpu_count() or 1), 8)
     output_rows: list[dict] = []
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(process_record, rec) for rec in records]

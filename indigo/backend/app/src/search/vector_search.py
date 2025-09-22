@@ -8,7 +8,7 @@ import requests
 import faiss
 import numpy as np
 import polars as pl
-import OpenAI
+from openai import OpenAI
 
 
 class VectorSearch:
@@ -91,9 +91,8 @@ class VectorSearch:
         if len(documents) == 0:
             return []
 
-        cpu_count = os.cpu_count() or 1
         # Use min of CPU count and 8 to avoid overwhelming the system
-        max_workers = min(cpu_count, 8)
+        max_workers = min((os.cpu_count() or 1), 8)
 
         # For small datasets, use sequential processing to avoid overhead
         # Also use sequential if max_workers is 1

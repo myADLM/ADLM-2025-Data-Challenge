@@ -1,7 +1,9 @@
 from pathlib import Path
 import polars as pl
-from concurrent.futures import ThreadPoolExecutor
 from app.src.search.bm25 import BM25
+import os
+from concurrent.futures import ThreadPoolExecutor
+import time
 from app.src.search.vector_search import VectorSearch
 from app.src.util.read_documents import read_text_documents
 from app.src.api.api_objects import SearchType
@@ -68,10 +70,12 @@ class Search:
             """Get vector search rankings in a separate thread."""
             indices = self.vector_search.topk_indices(text, 120)
             return {idx: r for r, idx in enumerate(indices)}
+        
+        max_workers = min((os.cpu_count() or 1), 8)
 
         t0 = time.perf_counter()
         # Use ThreadPoolExecutor to calculate both rankings in parallel
-        with ThreadPoolExecutor(max_workers=2) as executor:
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
             # Submit both tasks
             bm25_future = executor.submit(get_bm25_ranks)
             vector_future = executor.submit(get_vector_ranks)
