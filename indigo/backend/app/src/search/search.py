@@ -70,7 +70,7 @@ class Search:
             """Get vector search rankings in a separate thread."""
             indices = self.vector_search.topk_indices(text, 120)
             return {idx: r for r, idx in enumerate(indices)}
-        
+
         max_workers = min((os.cpu_count() or 1), 8)
 
         t0 = time.perf_counter()

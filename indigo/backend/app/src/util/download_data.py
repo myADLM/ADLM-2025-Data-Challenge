@@ -46,17 +46,12 @@ def download_labdocs_zip(
         return False
 
     dest_zip = Path(output_path)
-    dest_zip.mkdir(parents=True, exist_ok=True)
+    dest_zip.parent.mkdir(parents=True, exist_ok=True)
 
     try:
-        # If destination already exists, prompt the user before overwriting
+        # If destination already exists, overwrite it automatically
         if dest_zip.exists():
-            response = (
-                input(f"{dest_zip} already exists. Overwrite? [y/N]: ").strip().lower()
-            )
-            if response not in ("y", "yes"):
-                print("Keeping existing file; skipping download.")
-                return True
+            print(f"{dest_zip} already exists. Overwriting...")
 
         result = subprocess.run(
             [

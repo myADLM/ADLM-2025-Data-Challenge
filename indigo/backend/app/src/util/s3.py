@@ -66,7 +66,10 @@ def upload_files_to_s3(
 
     # Find the files that are not already in S3
     files_to_upload = [
-        (file_path, f"{key_prefix}{file_path.relative_to(files_base_dir)}".replace("\\", "/"))
+        (
+            file_path,
+            f"{key_prefix}{file_path.relative_to(files_base_dir)}".replace("\\", "/"),
+        )
         for file_path in all_files
     ]
 
@@ -84,7 +87,9 @@ def upload_files_to_s3(
         path, key = args
         return path, upload_file_to_s3(path, bucket_name, key)
 
-    with ThreadPoolExecutor(max_workers=max_workers) as executor, tqdm(total=len(files_to_upload), desc="Uploading files", unit="file") as pbar:
+    with ThreadPoolExecutor(max_workers=max_workers) as executor, tqdm(
+        total=len(files_to_upload), desc="Uploading files", unit="file"
+    ) as pbar:
         for file_path, ok in executor.map(_upload_one, files_to_upload):
             if ok:
                 success_count += 1

@@ -24,9 +24,13 @@ def extract_zip(
     zip_path = Path(zip_path)
     output_dir = Path(output_dir)
 
-    # Check if zip file exists
+    # Check if zip file exists and is a file
     if not zip_path.exists():
         print(f"Error: Zip file not found: {zip_path}")
+        return False
+
+    if not zip_path.is_file():
+        print(f"Error: Expected a file, but found a directory at: {zip_path}")
         return False
 
     if not force_rebuild and output_dir.exists():

@@ -67,13 +67,12 @@ def chunk_text(
                 "chunk_index": idx,
                 "chunk_text": ch,
                 "file_path_annotations": file_path_annotations(
-                    record["file_path"], path_annotation_config,
-                )
+                    record["file_path"],
+                    path_annotation_config,
+                ),
             }
             try:
-                out["contextual_annotations"] = contextual_annotations(
-                    ch, idx, record
-                )
+                out["contextual_annotations"] = contextual_annotations(ch, idx, record)
             except Exception as e:
                 print(f"Error annotating chunk: {e}")
                 out["contextual_annotations"] = ""
@@ -85,7 +84,9 @@ def chunk_text(
     output_rows: list[dict] = []
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(process_record, rec) for rec in records]
-        for f in tqdm(as_completed(futures), total=len(futures), desc="Chunking rows", unit="row"):
+        for f in tqdm(
+            as_completed(futures), total=len(futures), desc="Chunking rows", unit="row"
+        ):
             try:
                 output_rows.extend(f.result())
             except Exception as e:
@@ -152,15 +153,23 @@ def contextual_annotations(ch: str, idx: int, record: dict) -> str:
     whole_document = record["content"]
 
     # Check the cache
-    cache_path = get_app_root() / "database" / "context" / "query_cache" / "amazon_nova_lite" / Path(file_path).with_suffix("") / f"{idx}.txt"
+    cache_path = (
+        get_app_root()
+        / "database"
+        / "context"
+        / "query_cache"
+        / "amazon_nova_lite"
+        / Path(file_path).with_suffix("")
+        / f"{idx}.txt"
+    )
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     if cache_path.exists():
         with open(cache_path, "r") as f:
             return f.read()
-    
+
     if whole_document is None:
         raise ValueError(f"Whole document not found for file path: {file_path}")
-    result =  query_model(
+    result = query_model(
         "",
         f"""
     <document>
@@ -172,7 +181,7 @@ def contextual_annotations(ch: str, idx: int, record: dict) -> str:
     </chunk>
     Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else.
     """,
-    model_id="amazon.nova-lite-v1:0"
+        model_id="amazon.nova-lite-v1:0",
     )
     with open(cache_path, "w") as f:
         f.write(result)

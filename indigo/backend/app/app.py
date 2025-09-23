@@ -7,6 +7,7 @@ from app.src.database.build_database import build_database
 from app.src.api.api_objects import ChatRequest, ChatResponse
 from app.src.api.api_methods import *
 from app.src.search.search import Search
+from app.src.util.configurations import get_app_root
 
 
 def main():
@@ -22,7 +23,7 @@ def main():
     )
 
     # Ensure the database is built
-    zip_path = Path(__file__).parent / "input_data" / "raw_input_data.zip"
+    zip_path = get_app_root() / "input_data" / "raw_input_data.zip"
     database_path = Path(__file__).parent / "database"
 
     build_database(input_zip_path=zip_path, database_path=database_path)

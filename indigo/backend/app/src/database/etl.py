@@ -31,7 +31,7 @@ def silver_database(bronze_path: Path, output_path: Path):
     chunk_annotation_config = load_config("chunk_annotation_patterns.yml")
     # Chunk the text
     df = chunk_text(df, "content", "file_path", chunk_annotation_config)
-    df = df.with_row_count("idx")
+    df = df.with_row_index("idx")
     df.write_parquet(output_path)
 
 

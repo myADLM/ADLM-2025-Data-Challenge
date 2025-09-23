@@ -2,6 +2,7 @@ import json
 from time import time
 from app.src.util.aws import get_bedrock_client
 
+
 def query_model(
     system,
     message,

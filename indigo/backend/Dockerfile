@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     tesseract-ocr \
     libtesseract-dev \
+    curl \
+    unzip \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy poetry files
