@@ -1,8 +1,6 @@
-## Indigo - Quick Start
+# Quick Start
 
-A minimal guide to run and stop the app locally using Docker.
-
-### Prerequisites (minimum)
+### Prerequisites
 - **Windows 10/11**:
   - Docker Desktop (includes Docker Engine and Compose)
   - Optional: WSL2 backend enabled for better performance
@@ -15,11 +13,11 @@ A minimal guide to run and stop the app locally using Docker.
 Verify installation:
 ```bash
 docker --version
-docker-compose --version  # or: docker compose version
+docker-compose --version
 ```
 
 ### Start the application
-The `setup.sh` script automatically downloads the LabDocs.zip file with `curl`, but it takes a while. If you already have the file, copy it to the `backend/app/input_data` directory.
+The backend build process takes a while and costs some money to generate the embeddings and contextual annotations. Contact jmontgomery@indigobio.com for a pre-built database (RECOMMENDED).
 
 From the project root:
 ```bash
@@ -27,7 +25,7 @@ chmod +x setup.sh
 ./setup.sh
 ```
 - Builds and starts services via Docker Compose
-- Building the backend database and indices takes a while.
+- If you use a pre-built database, the build process will skip those steps.
 - Open `http://localhost:5173`
 
 ### Stop the application
@@ -49,7 +47,7 @@ chmod +x teardown.sh
 
 - **Backend (FastAPI + Uvicorn)**
   - Exposes REST endpoints: health (`/ping`), document download (`/documents/{path}`), and chat (`/chat`).
-  - On startup, builds a local database from `backend/app/input_data/<source files>.zip` into `backend/app/database/medallions` (bronze/silver/gold).
+  - On startup, builds a local database from `backend/app/input_data/raw_input_data.zip` into `backend/app/database/medallions` (bronze/silver/gold).
   - Provides search and chat orchestration using BM25 and vector search over chunked documents.
   - For an in-depth description of the search functions and research, see [backend/design.md](backend/design.md)
 
@@ -65,7 +63,7 @@ chmod +x teardown.sh
   - Ports: frontend `5173`, backend `5174`, localstack `4566`.
 
 ### Data Flow (high-level)
-1. Input ZIP placed at `backend/app/input_data/<source files>.zip` (or downloaded by `setup.sh`).
+1. Input ZIP placed at `backend/app/input_data/raw_input_data.zip` (or downloaded by `setup.sh`).
 2. Backend builds medallions (bronze → silver) on startup.
 3. User queries in the frontend call backend search/chat endpoints.
 4. Backend retrieves relevant chunks and returns responses; documents are available via the download route.
