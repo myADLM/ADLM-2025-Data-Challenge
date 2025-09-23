@@ -16,17 +16,17 @@ def build_database(
     silver_path = database_path / "medallions" / "silver.parquet"
     gold_path = database_path / "medallions" / "gold.parquet"
 
-    # Ensure the input zip file exists
-    if not input_zip_path.exists():
-        download_labdocs_zip(input_zip_path)
-    else:
-        print("Input zip already exists. Skipping download...")
-
     # Ensure the database path exists
     database_path.mkdir(parents=True, exist_ok=True)
 
-    # Extract the PDFs from the zip file
-    if force_rebuild or not pdfs_dir.exists():
+    # Prepare the PDFs
+    if force_rebuild or not (pdfs_dir.exists() and any(f for f in pdfs_dir.iterdir())):
+        # Ensure the input zip file exists
+        if not input_zip_path.exists():
+            download_labdocs_zip(input_zip_path)
+        else:
+            print("Input zip already exists. Skipping download...")
+
         extract_zip(input_zip_path, pdfs_dir, force_rebuild)
     else:
         print("Pdfs are already extracted. Skipping extraction step...")
