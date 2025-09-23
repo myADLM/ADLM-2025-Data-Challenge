@@ -2,17 +2,16 @@ import json
 from time import time
 from app.src.util.aws import get_bedrock_client
 
-
 def query_model(
     system,
     message,
     max_attempts=7,
     base_delay=0.5,
     backoff_factor=2,
-    model_id="amazon.nova-pro-v1:0",
+    model_id="amazon.nova-lite-v1:0",
 ):
     """
-    Query Amazon Bedrock's Nova Pro model with retry logic and error handling.
+    Query an Amazon Bedrock model with retry logic and error handling.
 
     Args:
         system (str): System prompt/context to provide to the model

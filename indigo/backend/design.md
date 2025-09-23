@@ -17,6 +17,10 @@ Once the text is extracted, it is chunked into smaller pieces (approximately 500
 
 After chunking, there are 105,520 text blobs to search through.
 
+There are approximately 50 million tokens in the text corpus after my pre-processing.
+
+I am using the low-price Amazon Nova Liteto contextualize the chunks. It has a 300k token context window, which is well above the largest document+chunk size of ~90k tokens (LabDocs/FDA/Microbiology/K191288_REVIEW.pdf).
+
 #### Vector Database
 Once the chunks are prepared and annotated, I use the gpt-3.5-turbo model to embed the chunks into a vector database.
 

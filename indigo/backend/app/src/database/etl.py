@@ -1,6 +1,6 @@
 from app.src.util.s3 import get_s3_client
 from app.src.util.read_documents import read_documents_as_plaintext
-from app.src.database.chunker import fast_chunk_text
+from app.src.database.chunker import chunk_text
 from app.src.util.configurations import load_config
 from pathlib import Path
 import pyarrow as pa
@@ -30,7 +30,7 @@ def silver_database(bronze_path: Path, output_path: Path):
 
     chunk_annotation_config = load_config("chunk_annotation_patterns.yml")
     # Chunk the text
-    df = fast_chunk_text(df, "content", "file_path", chunk_annotation_config)
+    df = chunk_text(df, "content", "file_path", chunk_annotation_config)
     df = df.with_row_count("idx")
     df.write_parquet(output_path)
 

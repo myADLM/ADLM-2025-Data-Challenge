@@ -2,8 +2,9 @@ import shutil
 import chonkie
 from chonkie import SentenceChunker
 from app.src.util.read_documents import read_documents_as_plaintext
+from app.src.util.configurations import get_app_root
 from app.src.util.bedrock import query_model
-from typing import List, Tuple, Dict
+from typing import List, Dict
 import re
 from pathlib import Path
 from tqdm import tqdm
@@ -13,7 +14,7 @@ import threading
 import os
 
 
-def fast_chunk_text(
+def chunk_text(
     df: pl.DataFrame,
     text_column: str,
     file_path_column: str,
@@ -37,7 +38,6 @@ def fast_chunk_text(
 
     # Prepare rows as list of dict for thread-safe processing
     records = df.to_dicts()
-    lock = threading.Lock()
     document_store = {}
 
     def process_record(record: dict) -> list[dict]:
@@ -62,25 +62,21 @@ def fast_chunk_text(
         chunks = normalize_chunks(chunker(text))
         results: list[dict] = []
 
-        # Ensure the whole document is in the document store
-        with lock:
-            document_store[record[file_path_column]] = record[text_column]
-
         for idx, ch in enumerate(chunks):
-            out = {k: v for k, v in record.items()}
-            out["chunk_index"] = idx
-            out["chunk_text"] = ch
+            out = {
+                "chunk_index": idx,
+                "chunk_text": ch,
+                "file_path_annotations": file_path_annotations(
+                    record["file_path"], path_annotation_config,
+                )
+            }
             try:
-                out["annotations"] = chunk_annotations(
-                    ch,
-                    record[file_path_column],
-                    path_annotation_config,
-                    lock,
-                    document_store,
+                out["contextual_annotations"] = contextual_annotations(
+                    ch, idx, record
                 )
             except Exception as e:
                 print(f"Error annotating chunk: {e}")
-                out["annotations"] = ""
+                out["contextual_annotations"] = ""
             results.append(out)
         return results
 
@@ -89,9 +85,7 @@ def fast_chunk_text(
     output_rows: list[dict] = []
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(process_record, rec) for rec in records]
-        for f in tqdm(
-            as_completed(futures), total=len(futures), desc="Chunking rows", unit="row"
-        ):
+        for f in tqdm(as_completed(futures), total=len(futures), desc="Chunking rows", unit="row"):
             try:
                 output_rows.extend(f.result())
             except Exception as e:
@@ -99,15 +93,8 @@ def fast_chunk_text(
                 print(f"Error processing row: {e}")
                 continue
 
-    # Build output DataFrame; ensure consistent column order
     if not output_rows:
-        return pl.DataFrame(
-            {
-                **{k: [] for k in df.columns if k != text_column},
-                "chunk_index": [],
-                "chunk_text": [],
-            }
-        )
+        raise Exception("Failed to generate any output columns.")
 
     return pl.DataFrame(output_rows)
 
@@ -132,62 +119,61 @@ def normalize_chunks(chunks: List[chonkie.Chunk]) -> list[str]:
     return normalized_chunks
 
 
-def chunk_annotations(
-    chunk: str,
+def file_path_annotations(
     file_path: str,
     file_path_annotation_config: Dict[str, str],
-    lock: threading.Lock,
-    document_store: dict[str, str],
 ) -> str:
     """
     Annotate chunks based on their file path using regex patterns.
 
-    - chunk: chunk text
     - file_path: file path of the original file
     - file_path_annotation_config: mapping of regex pattern -> annotation text (string only)
-    - lock: lock for the document store
-    - document_store: store of whole documents
 
     Returns the annotated chunk text
     """
-    contextual = ""  # TODO: Uncomment this when the LLM is available
-    # contextual = contextual_annotations(chunk, file_path, lock, document_store)
     annotations = []
     for pattern, annotation_text in file_path_annotation_config.items():
         if re.search(pattern, file_path):
             annotations.append(annotation_text)
-    return "{}\n\n{}".format("\n".join(annotations), contextual)
+    return "\n".join(annotations)
 
 
-def contextual_annotations(
-    chunk: str, file_path: str, lock: threading.Lock, document_store: dict[str, str]
-) -> str:
+def contextual_annotations(ch: str, idx: int, record: dict) -> str:
     """
     Get contextual information about a chunk and its place in a file.
 
-    - chunk: chunk text
-    - file_path: file path of the original file
-    - lock: lock for the document store
-    - document_store: store of whole documents
+    - ch: chunk text
+    - idx: chunk index
+    - record: bronze medallion record
 
     Returns the contextualized chunk text
     """
-    with lock:
-        whole_document = document_store.get(file_path, None)
+    file_path = record["file_path"]
+    whole_document = record["content"]
+
+    # Check the cache
+    cache_path = get_app_root() / "database" / "context" / "query_cache" / "amazon_nova_lite" / Path(file_path).with_suffix("") / f"{idx}.txt"
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    if cache_path.exists():
+        with open(cache_path, "r") as f:
+            return f.read()
+    
     if whole_document is None:
         raise ValueError(f"Whole document not found for file path: {file_path}")
-    return query_model(
+    result =  query_model(
         "",
-        """
+        f"""
     <document>
     {whole_document}
     </document>
     Here is the chunk we want to situate within the whole document
     <chunk>
-    {chunk}
+    {ch}
     </chunk>
     Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else.
-    """.format(
-            whole_document=whole_document, chunk=chunk
-        ),
+    """,
+    model_id="amazon.nova-lite-v1:0"
     )
+    with open(cache_path, "w") as f:
+        f.write(result)
+    return result

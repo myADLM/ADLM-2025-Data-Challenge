@@ -29,7 +29,7 @@ def build_database(
         bronze_database(pdfs_dir, bronze_path)
 
     # Chunk the text and store it in a parquet file. Add context to the chunks.
-    # Expect columns: idx, file_path, content, chunk_index, annotations, chunk_text
+    # Expect columns: idx, file_path, chunk_index, file_path_annotations, contextual_annotations, chunk_text
     if force_rebuild or not silver_path.exists():
         silver_database(bronze_path, silver_path)
 
