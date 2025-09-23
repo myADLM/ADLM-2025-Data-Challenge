@@ -47,57 +47,17 @@ def extract_zip(
     try:
         print(f"Extracting {zip_path} to {output_dir}...")
 
-        # First, get the total number of files in the zip for progress tracking
-        count_result = subprocess.run(
-            ["unzip", "-l", str(zip_path)],
+        # Synchronously extract; this blocks until unzip completes
+        result = subprocess.run(
+            ["unzip", "-o", str(zip_path), "-d", str(output_dir)],
             capture_output=True,
             text=True,
-            check=True,
         )
 
-        # Count the number of files (lines that don't start with "Archive:" or "Length" or "----" or end with "files")
-        file_lines = [
-            line
-            for line in count_result.stdout.split("\n")
-            if line.strip()
-            and not line.startswith(("Archive:", "Length", "----"))
-            and not line.endswith("files")
-        ]
-        total_files = len(file_lines)
-
-        if total_files == 0:
-            print("No files found in zip archive.")
-            return False
-
-        print(f"Found {total_files} files to extract...")
-
-        # Extract the zip file with verbose output to track progress
-        process = subprocess.Popen(
-            ["unzip", "-o", "-v", str(zip_path), "-d", str(output_dir)],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
-            bufsize=1,
-            universal_newlines=True,
-        )
-
-        # Use TQDM for progress tracking
-        with tqdm(total=total_files, desc="Extracting files", unit="file") as pbar:
-            extracted_files = 0
-            for line in process.stdout:
-                # Look for lines that indicate file extraction (contain "inflating:" or "extracting:")
-                if "inflating:" in line or "extracting:" in line:
-                    extracted_files += 1
-                    pbar.update(1)
-                    # Update description with current file being extracted
-                    filename = line.split(":")[-1].strip() if ":" in line else "Unknown"
-                    pbar.set_description(f"Extracting: {filename[:20].ljust(20)}")
-
-        # Wait for the process to complete
-        return_code = process.wait()
-
-        if return_code != 0:
-            print(f"Error extracting file (return code: {return_code})")
+        if result.returncode != 0:
+            print("Error extracting file:")
+            print(result.stdout)
+            print(result.stderr)
             return False
 
         print(f"Successfully extracted {zip_path} to {output_dir}")

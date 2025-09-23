@@ -20,14 +20,16 @@ def build_database(
     database_path.mkdir(parents=True, exist_ok=True)
 
     # Prepare the PDFs
-    if force_rebuild or not (pdfs_dir.exists() and any(f for f in pdfs_dir.iterdir())):
+    if force_rebuild or not pdfs_dir.exists():
         # Ensure the input zip file exists
         if not input_zip_path.exists():
-            download_labdocs_zip(input_zip_path)
+            if not download_labdocs_zip(input_zip_path):
+                raise RuntimeError(f"Failed to download input zip to {input_zip_path}")
         else:
             print("Input zip already exists. Skipping download...")
 
-        extract_zip(input_zip_path, pdfs_dir, force_rebuild)
+        if not extract_zip(input_zip_path, pdfs_dir, force_rebuild):
+            raise RuntimeError(f"Failed to extract {input_zip_path} to {pdfs_dir}")
     else:
         print("Pdfs are already extracted. Skipping extraction step...")
 
