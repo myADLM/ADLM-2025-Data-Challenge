@@ -22,7 +22,8 @@ langchain-ollama==0.1.3
 faiss-cpu>=1.7.4
 scikit-learn>=1.3,<2
 rank-bm25>=0.2,<0.3
-bm25s[full]
+bm25s[full]>=0.2.5
+rapidfuzz>=3.9,<4
 
 # --- PyTorch (CUDA 12.8) ---
 torch==2.7.0

@@ -74,6 +74,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.35] - 2025-09-22
+### Changed
+- Update `requirements.txt` for keyword-aware hybrid retrieval.
+
+
 ## [0.2.34] - 2025-09-15
 ### Added
 - Share Panel to manage access (add by email, change role, remove).
