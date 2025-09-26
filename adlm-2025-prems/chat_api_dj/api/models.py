@@ -2,6 +2,7 @@ from django.db import models
 from django.conf import settings
 from pathlib import Path
 from django.core.files import File
+from pgvector.django import VectorField
 
 
 class Labels(models.Model):
@@ -16,13 +17,19 @@ class Labels(models.Model):
 
 class Document(models.Model):
     relative_path = models.CharField(max_length=255, unique=True, db_index=True)
+
+    # FIXME rename: marker_markdown_plain
     markdown = models.TextField()
+    # FIXME (rm openai suffix) rename: marker_markdown_chunks_plain
     markdown_chunks_openai = models.JSONField(null=True, blank=True)
+    # TODO New col: deepdoc_markdown_chunks
+
     table_of_contents = models.JSONField()
     page_stats = models.JSONField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     num_pages = models.IntegerField()
+
 
     def __str__(self):
         return self.relative_path
@@ -63,13 +70,16 @@ class Document(models.Model):
 
 
 class Chunk(models.Model):
-    document = models.ForeignKey(Document, on_delete=models.CASCADE)
+    document = models.ForeignKey(Document, on_delete=models.PROTECT)
     chunk_index = models.IntegerField()
     text = models.TextField()
     text_length = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     page_metadata = models.JSONField()
+    bbox = models.JSONField()
+
+    embedding = VectorField(dimensions=1024, null=True, blank=True)
 
     def __str__(self):
         return self.text

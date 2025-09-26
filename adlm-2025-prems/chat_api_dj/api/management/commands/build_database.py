@@ -40,7 +40,7 @@ class Command(BaseCommand):
         User.objects.create_superuser(username="admin", password="admin")
 
         print("Loading source documents")
-        marker_dataset = load_dataset("paul-english/adlm25-marker")
+        marker_dataset = load_dataset("paul-english/adlm25")
         train_data = marker_dataset["train"]
         n_rows = len(train_data)
         print(f"Loading {n_rows} source documents")
@@ -62,19 +62,16 @@ class Command(BaseCommand):
             )
             md_doc = md.convert(document.markdown)
 
-            # split into chunks by headers
-            # [header1, text1, header2, text2, ...]
-            chunks = []
-            current_chunk = ""
-            for line in md_doc.split("\n"):
-                if line.startswith("#"):
-                    chunks.append(current_chunk)
-                    current_chunk = line
-                else:
-                    current_chunk += line
-            chunks.append(current_chunk)
 
-            for i, chunk in enumerate(chunks):
+        Chunk.objects.bulk_create(db_chunks)
+
+        # Run marker with json chunks output (slow)
+        for document in tqdm(Document.objects.all()):
+            document.run_marker()
+
+        for document in tqdm(Document.objects.all()):
+            marker_chunks = document.markdown_chunks_openai
+            for chunk in marker_chunks:
                 db_chunks.append(
                     Chunk(
                         document=document,
@@ -84,9 +81,3 @@ class Command(BaseCommand):
                         chunk_index=i,
                     )
                 )
-
-        Chunk.objects.bulk_create(db_chunks)
-
-        # Run marker with json chunks output (slow)
-        for document in tqdm(Document.objects.all()):
-            document.run_marker()
