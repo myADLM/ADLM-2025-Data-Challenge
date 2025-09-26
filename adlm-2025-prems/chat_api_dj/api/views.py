@@ -1,6 +1,10 @@
 import json
 import uuid
 import io
+from typing import List, Optional, Dict, Any
+from datetime import datetime
+import math
+
 from django.http import StreamingHttpResponse, JsonResponse, Http404, HttpResponse
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
@@ -11,8 +15,8 @@ import markdown
 import fitz  # PyMuPDF
 from PIL import Image
 import matplotlib
-from typing import List, Optional, Dict, Any
-from datetime import datetime
+from asgiref.sync import sync_to_async
+from haystack.query import SearchQuerySet
 
 matplotlib.use("Agg")  # Use non-interactive backend
 import matplotlib.pyplot as plt
@@ -110,51 +114,16 @@ class MarkerResponse(Schema):
     blocks: List[Dict[str, Any]]
 
 
+
 MODEL = "qwen3:0.6b"
 
-SYSTEM_PROMPT = """
-You are a helpful assistant running a streaming chat API that can use tools to help you answer questions.
-"""
+SYSTEM_PROMPT = """You are a helpful assistant running a streaming chat API that can use tools to help you answer questions."""
 
-
-# Define a python tool
-async def add_two_numbers(a: int, b: int) -> int:
-    """
-    Add two numbers
-
-    Args:
-        a (int): The first number as an int
-        b (int): The second number as an int
-
-    Returns:
-        int: The sum of the two numbers
-    """
-    return a + b
-
-
-async def search_documents(query: str) -> list[Chunk]:
-    """
-    Search for documents that contain the query
-
-    Args:
-        query (str): The query to search for
-
-    Returns:
-        list[Chunk]: The document chunks that contain the query
-    """
-    from asgiref.sync import sync_to_async
-
-    # TODO use an actual full text search (haystack)
-    # TODO also use vector search (chroma)
-    chunks = await sync_to_async(list)(Chunk.objects.filter(text__icontains=query))
-    return chunks
-
-
-TOOLS = {"add_two_numbers": add_two_numbers}
+# No tools for now, but I think we could use this for a "deep research" type agent
+TOOLS = {}
 
 # Create NinjaAPI instance
 api = NinjaAPI(title="Chat API", version="1.0.0")
-
 
 @api.get("/", response=RootResponse)
 async def root(request):
@@ -170,9 +139,6 @@ async def health_check(request):
 @api.get("/documents", response=DocumentsResponse)
 async def get_documents(request, page: int = 1, page_size: int = 50, q: str = None):
     """Get documents with pagination and optional search - returns list of id and relative_path with pagination metadata"""
-    from asgiref.sync import sync_to_async
-    from haystack.query import SearchQuerySet
-    import math
 
     # Validate pagination parameters
     if page < 1:
@@ -234,7 +200,6 @@ async def get_documents(request, page: int = 1, page_size: int = 50, q: str = No
 @api.get("/documents/{document_id}", response={200: DocumentDetail, 404: DocumentError})
 async def get_document(request, document_id: int):
     """Get a specific document by ID"""
-    from asgiref.sync import sync_to_async
 
     try:
         document = await Document.objects.aget(id=document_id)
@@ -294,9 +259,6 @@ async def get_document_chunk(request, document_id: int, chunk_idx: int):
 @api.get("/chunks", response=ChunksResponse)
 async def get_chunks(request, page: int = 1, page_size: int = 50, q: str = None):
     """Get chunks with pagination and optional search - returns list of chunks with document info"""
-    from asgiref.sync import sync_to_async
-    from haystack.query import SearchQuerySet
-    import math
 
     # Validate pagination parameters
     if page < 1:
@@ -368,23 +330,62 @@ class RAGAgent:
     def __init__(self, model: str, tools: dict):
         self.model = model
         self.tools = tools
-        pass
+
+    def llm(self, prompt: str, stream: bool = True, system_prompt: str = SYSTEM_PROMPT) -> str:
+        # Prepare messages for Ollama
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": prompt},
+        ]
+
+        return chat(
+            model=self.model, 
+            messages=messages,
+            # TODO tools could probably be useful
+            #tools=self.tools.values(),
+            stream=stream,
+        )
 
     def chat(self, message: str):
+        # TODO perform search and add results to messages as context
         
-        # ask 
-        
+        search_query_content = self.llm(f"""The user is asking a question. Can you create a search query to find the most relevant chunks?
+Respond with _only_ the search queries, no other text.
+User content:
+{message}
+""", stream=False)
+        search_query_content = search_query_content.message.content
+        print('LLM search query:', search_query_content)
 
-        response: ChatResponse = chat(
-            model=self.model,
-            messages=messages,
-            tools=self.tools.values(),  # Python SDK supports passing tools as functions
-            stream=True,
-        )
+        sqs = SearchQuerySet().models(Chunk).filter(content=search_query_content)
+        chunks = [result.object for result in sqs if result.object]
+
+        chunk_context = "\n---\n".join([
+            (
+                f"Document: {chunk.document_path}\n"
+                f"Text:\n{chunk.text}\n"
+            )
+            for chunk in chunks
+        ])
+
+        prompt = f"""{message}
+
+Use the chunks below to answer the question.
+\n---\n
+{chunk_context}
+"""
+
+        # Prepare messages for Ollama
+        response: ChatResponse = self.llm(prompt)
+
+        # TODO return chunk ids so we can cite them correctly
+        return response
 
 @api.post("/chat", response={200: None, 400: ChatError, 500: ChatError})
 async def chat_stream_endpoint(request):
     """Streaming chat endpoint with tool calls support"""
+
+    agent = RAGAgent(model=MODEL, tools=TOOLS)
 
     try:
         # Parse request body
@@ -397,24 +398,16 @@ async def chat_stream_endpoint(request):
         # Generate a unique chat request ID for this request
         chat_request_id = str(uuid.uuid4())
 
-        # Prepare messages for Ollama
-        messages = [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": message},
-        ]
-
         def generate_response():
             # Local counter for tool calls within this request
             local_call_counter = 0
 
             try:
-                response: ChatResponse = chat(
-                    model=MODEL,
-                    messages=messages,
-                    tools=TOOLS.values(),  # Python SDK supports passing tools as functions
-                    stream=True,
-                )
+                response: ChatResponse = agent.chat(message)
 
+                # NOTE this only works if there's one tool call per response
+                # which might not be what we want with a "deep research"
+                # type agent
                 for chunk in response:
                     # Prepare response data
                     reply = chunk.message.content or ""

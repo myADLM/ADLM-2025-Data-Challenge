@@ -43,8 +43,10 @@ RUN pwd
 RUN ls -la
 
 # Create non-root user for security
-RUN groupadd -r appuser && useradd -r -g appuser appuser
+RUN groupadd -r appuser && useradd -r -g appuser -m appuser
 RUN chown -R appuser:appuser /app
+RUN mkdir -p /home/appuser
+RUN chown -R appuser:appuser /home/appuser
 USER appuser
 
 # Copy startup script
