@@ -141,4 +141,4 @@ We will review your pull request to ensure that it contains everything needed to
 
 ## Need Help?
 
-If you are unfamiliar with GitHub, need help getting starting, or have other questions, we are available to help! Please email mboyle@myadlm.org for assistance.
+If you are unfamiliar with GitHub, need help getting starting, or have other questions, we are available to help! Please email ahobby@myadlm.org for assistance.
