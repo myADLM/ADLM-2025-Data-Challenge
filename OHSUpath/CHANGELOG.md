@@ -74,6 +74,35 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.36] - 2025-09-30
+### Added
+- Hybrid retriever: FAISS dense + sparse search with `bm25s` (primary) and `rank_bm25` (fallback).
+- Sparse index wrapper `BM25SparseIndex`:
+  - Backend selection via `sparse.backend: bm25s | rank_bm25` (default: `bm25s`).
+  - `bm25s` path uses `bm25s.tokenize(...)` and `bm25s.BM25().index(...)`.
+  - Fallback to `rank_bm25.BM25Okapi` with a lightweight tokenizer when `bm25s` is not available.
+  - Save/load to a directory (e.g., `<index_dir>/sparse_index.pkl/`) with:
+    - `meta.json` (backend, stopwords) and `id_map.json` for both backends.
+    - `bm25s`: backend files saved by `bm25s.BM25.save(dir)`.
+    - `rank_bm25`: `tokenized_corpus.json` for rebuild on load.
+- Query-type detector (`QueryTypeDetector`) to weight keyword-like queries toward sparse (`bm25s`/`rank_bm25`) and semantic queries toward dense (FAISS).
+- Character n-gram + fuzzy reranker (`CharNGramReranker`) with config:
+  - `sparse.ngram_rerank.mode: auto | on | off`
+  - `sparse.ngram_rerank.{n,weight,jaccard_w,fuzz_w,gap_threshold,top1_threshold,max_rerank}`
+- Pipeline wiring for retrieval modes: `dense`, `sparse` (pure `bm25s`/`rank_bm25`), and `hybrid` (auto).
+- English ASCII-only pass for retrieval modules to remove Unicode in comments/strings.
+
+### Changed
+- FAISS IP metric: warn if both `embedding.normalize_embeddings` and `faiss.normalize_query_in_ip` are false.
+- Hybrid path performs direct FAISS search (no LC MMR) for consistent scoring.
+- Config reads hardened across dict/dataclass via `_cfg_get` and `_pair_from_cfg`.
+
+### Fixed
+- Single-query handling for `bm25s` tokenization shapes.
+- `rank_bm25` ranking path works without NumPy (pure-Python fallback).
+- Extra dedup by `chunk_id` to reduce repeated chunks.
+
+
 ## [0.2.35] - 2025-09-22
 ### Changed
 - Update `requirements.txt` for keyword-aware hybrid retrieval.

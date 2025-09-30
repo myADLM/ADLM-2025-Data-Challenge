@@ -156,6 +156,28 @@ retriever:
   score_threshold: null
   search_kwargs: {}
 
+retrieval:
+  mode: hybrid   # dense | hybrid | sparse | auto(=hybrid)
+  hybrid:
+    final_k: 12
+    dense_k: 40
+    sparse_k: 80
+    weights:
+      keyword:  { sparse: 0.8, dense: 0.2 }
+      semantic: { sparse: 0.3, dense: 0.7 }
+
+sparse:
+  backend: bm25s
+  ngram_rerank:
+    mode: auto          # auto | on | off
+    n: 3
+    weight: 0.35
+    jaccard_w: 0.6
+    fuzz_w: 0.4
+    gap_threshold: 0.05
+    top1_threshold: 0.40
+    max_rerank: 120
+
 faiss:
   strict_meta_check: true
   clear_on_delete: true

@@ -22,6 +22,18 @@ def _cfg_get(obj: Any, name: str, default: Any = None) -> Any:
     return getattr(obj, name, default)
 
 
+def _pair_from_cfg(weights_obj: Any, default_sparse: float, default_dense: float) -> tuple[float, float]:
+    """
+    Support both dataclass (fields: sparse/dense) and dict (keys: sparse/dense).
+    """
+    s = _cfg_get(weights_obj, "sparse", default_sparse)
+    d = _cfg_get(weights_obj, "dense", default_dense)
+    try:
+        return float(s), float(d)
+    except Exception:
+        return float(default_sparse), float(default_dense)
+
+
 class RagPipeline:
     def __init__(self, cfg: Any = None, *, yaml_path: str = "config.yaml", use_yaml: bool = True):
         """
@@ -67,8 +79,8 @@ class RagPipeline:
                 chunk_size=int(_cfg_get(split, "chunk_size", 1200)),
                 chunk_overlap=int(_cfg_get(split, "chunk_overlap", 200)),
                 num_proc=_chunker_nproc,
-                source_keys=tuple(_cfg_get(split, "source_keys", ["source", "file_path", "path"])),
-                page_keys=tuple(_cfg_get(split, "page_keys", ["page", "page_number", "page_no"])),
+                source_keys=tuple(_cfg_get(split, "source_keys", ["source", "file_path", "path"]))[0:],
+                page_keys=tuple(_cfg_get(split, "page_keys", ["page", "page_number", "page_no"]))[0:],
                 chunk_id_hash_len=int(_cfg_get(hashing, "chunk_id_hash_len", 32)),
             )
         )
@@ -105,8 +117,10 @@ class RagPipeline:
             norm_emb = bool(_cfg_get(emb, "normalize_embeddings", False))
             norm_q = bool(_cfg_get(faiss_cfg, "normalize_query_in_ip", True))
             if not (norm_emb or norm_q):
-                print("[WARN] FAISS metric=ip but both embedding.normalize_embeddings and "
-                      "faiss.normalize_query_in_ip are false; results may degrade.")
+                print(
+                    "[WARN] FAISS metric=ip but both embedding.normalize_embeddings and "
+                    "faiss.normalize_query_in_ip are false; results may degrade."
+                )
 
         # ---- manager (orchestrator) ----
         self.manager = IndexManager(self.layout, self.vindex, self.embedder, self.loader, self.chunker, self.cfg)
@@ -142,25 +156,26 @@ class RagPipeline:
 
     # ---------- Retrieval & QA ----------
     def serve(self):
+        # Keep dense-only retriever as fallback
         retr = _cfg_get(self.cfg, "retriever", None)
         faiss_cfg = _cfg_get(self.cfg, "faiss", None)
+        emb_cfg = _cfg_get(self.cfg, "embedding", None)
+        retrieval_cfg = _cfg_get(self.cfg, "retrieval", None)
+        mode = str(_cfg_get(retrieval_cfg, "mode", "dense")).lower()
 
+        # ---- dense retriever (current logic) ----
         k = int(_cfg_get(retr, "k", 4))
         fetch_k = int(_cfg_get(retr, "fetch_k", 50))
-
-        # merge user-provided kwargs without duplicating "k"
         skw = dict(_cfg_get(retr, "search_kwargs", {}) or {})
         skw.setdefault("fetch_k", fetch_k)
-
         if _cfg_get(retr, "use_mmr", False):
             skw.setdefault("mmr", True)
             skw.setdefault("lambda_mult", float(_cfg_get(retr, "lambda_mult", 0.5)))
-
         st = _cfg_get(retr, "score_threshold", None)
         if st is not None:
             skw.setdefault("score_threshold", float(st))
 
-        return self.vindex.as_retriever(
+        dense_lc_retriever = self.vindex.as_retriever(
             k=k,
             search_type=str(_cfg_get(retr, "search_type", "similarity")),
             embedding=self.embedder.embed,
@@ -168,10 +183,146 @@ class RagPipeline:
             search_kwargs=skw,
         )
 
+        # Dense-only: return directly
+        if mode == "dense":
+            return dense_lc_retriever
+
+        # ---- prepare sparse index (bm25s default, silent fallback to rank_bm25) ----
+        from .vectorstores.bm25_store import BM25SparseIndex
+        from .retriever import HybridBM25FaissRetriever, QueryTypeDetector
+        from .rerankers import CharNGramReranker, CharNGramCfg
+
+        sparse_backend = str(_cfg_get(_cfg_get(self.cfg, "sparse", None), "backend", "bm25s")).lower()
+        sparse_path = os.path.join(str(self.layout.index_dir), "sparse_index.pkl")
+
+        def _collect_items_from_docstore():
+            ds = getattr(self.vindex, "_docstore", None)
+            dct = getattr(ds, "_dict", None) if ds is not None else None
+            if not isinstance(dct, dict):
+                return []
+            items = []
+            for cid, doc in dct.items():
+                meta = getattr(doc, "metadata", {}) or {}
+                src = meta.get("source") or meta.get("file_path") or meta.get("path") or ""
+                page = meta.get("page") or meta.get("page_number") or meta.get("page_no") or ""
+                txt = f"{doc.page_content}\n[SRC:{src} P:{page}]"
+                items.append((cid, txt))
+            return items
+
+        # Load or build sparse index
+        if os.path.exists(sparse_path):
+            try:
+                sparse_index = BM25SparseIndex.load(sparse_path)
+            except Exception:
+                items = _collect_items_from_docstore()
+                sparse_index = BM25SparseIndex(backend=sparse_backend)
+                sparse_index.build(items)
+                sparse_index.save(sparse_path)
+        else:
+            items = _collect_items_from_docstore()
+            sparse_index = BM25SparseIndex(backend=sparse_backend)
+            sparse_index.build(items)
+            sparse_index.save(sparse_path)
+
+        def sparse_search(query: str, topk: int):
+            return sparse_index.search(query, k=topk)
+
+        # Direct dense search on FAISS (hybrid path does not use LC MMR)
+        import numpy as np
+        metric = str(_cfg_get(emb_cfg, "faiss_metric", "l2")).lower()
+        norm_q_flag = bool(_cfg_get(faiss_cfg, "normalize_query_in_ip", True))
+
+        def _embed_query_one(q: str):
+            try:
+                vec = self.embedder.embed([q])[0]
+            except TypeError:
+                vec = self.embedder.embed(q)
+            v = np.asarray(vec, dtype=np.float32).reshape(1, -1)
+            if metric == "ip" and norm_q_flag:
+                n = np.linalg.norm(v, axis=1, keepdims=True) + 1e-12
+                v = v / n
+            return v
+
+        def dense_search(query: str, topk: int):
+            v = _embed_query_one(query)
+            D, I = self.vindex._index.search(v, topk)
+            idmap = self.vindex._id_map
+            out = []
+            if metric == "l2":
+                for d, i in zip(D[0].tolist(), I[0].tolist()):
+                    if i != -1:
+                        # smaller distance is better -> take negative
+                        out.append((idmap.get(i), -float(d)))
+            else:  # ip
+                for d, i in zip(D[0].tolist(), I[0].tolist()):
+                    if i != -1:
+                        out.append((idmap.get(i), float(d)))
+            return [(cid, sc) for cid, sc in out if cid]
+
+        # id -> Document map
+        ds = getattr(self.vindex, "_docstore", None)
+        dd = getattr(ds, "_dict", None) if ds is not None else {}
+        def id2doc(cid: str):
+            return dd[cid]
+        def id2text(cid: str) -> str:
+            return dd[cid].page_content
+
+        # Detector + Reranker config (ngram: mode=auto)
+        hybrid_cfg = _cfg_get(retrieval_cfg, "hybrid", None) or {}
+        ngram_cfg = _cfg_get(_cfg_get(self.cfg, "sparse", None), "ngram_rerank", None) or {}
+
+        # Read weights from dataclass or dict
+        weights_cfg = _cfg_get(hybrid_cfg, "weights", None)
+        kw_pair = _pair_from_cfg(_cfg_get(weights_cfg, "keyword", None), 0.8, 0.2)
+        sem_pair = _pair_from_cfg(_cfg_get(weights_cfg, "semantic", None), 0.3, 0.7)
+
+        detector = QueryTypeDetector(
+            weights_keyword=kw_pair,
+            weights_semantic=sem_pair,
+            base_sparse_k=int(_cfg_get(hybrid_cfg, "sparse_k", 80)),
+            base_dense_k=int(_cfg_get(hybrid_cfg, "dense_k", 40)),
+        )
+
+        rerank_mode = str(_cfg_get(ngram_cfg, "mode", "auto")).lower()  # auto | on | off
+        reranker = None
+        if rerank_mode in {"auto", "on"}:
+            reranker = CharNGramReranker(CharNGramCfg(
+                n=int(_cfg_get(ngram_cfg, "n", 3)),
+                weight=float(_cfg_get(ngram_cfg, "weight", 0.35)),
+                jaccard_w=float(_cfg_get(ngram_cfg, "jaccard_w", 0.6)),
+                fuzz_w=float(_cfg_get(ngram_cfg, "fuzz_w", 0.4)),
+            ))
+
+        final_k = int(_cfg_get(hybrid_cfg, "final_k", 12))
+        hybrid_retriever = HybridBM25FaissRetriever(
+            sparse_search=sparse_search,
+            dense_search=dense_search,
+            id2doc=id2doc,
+            id2text=id2text,
+            detector=detector,
+            reranker=reranker,
+            rerank_mode=rerank_mode,
+            auto_gap_threshold=float(_cfg_get(ngram_cfg, "gap_threshold", 0.05)),
+            auto_top1_threshold=float(_cfg_get(ngram_cfg, "top1_threshold", 0.40)),
+            auto_max_rerank=int(_cfg_get(ngram_cfg, "max_rerank", 120)),
+            final_k=final_k,
+        )
+
+        # pure sparse mode: force (1.0, 0.0)
+        if mode == "sparse":
+            hybrid_retriever.detector = QueryTypeDetector(
+                weights_keyword=(1.0, 0.0),
+                weights_semantic=(1.0, 0.0),
+                base_sparse_k=detector.ks,
+                base_dense_k=0,
+            )
+
+        # For hybrid/auto, return hybrid retriever
+        return hybrid_retriever
+
     # def build_qa(self):
     #     return build_qa(self.serve(), self.cfg)
 
     def build_qa(self):
         from .retriever import build_qa as _build_qa
         return _build_qa(self.serve(), self.cfg)
-
