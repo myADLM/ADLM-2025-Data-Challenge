@@ -4,6 +4,7 @@ from time import perf_counter
 import polars as pl
 import pyarrow as pa
 import pyarrow.parquet as pq
+import numpy as np
 
 from app.src.database.chunker import chunk_text
 from app.src.util.configurations import get_app_root, load_config
@@ -42,6 +43,7 @@ def gold_database(silver_path: Path, output_path: Path):
     # Take fully processed data, add vectors, and store it in a parquet file.
     openai_client = OpenAIAPI()
     df = pl.read_parquet(silver_path)
+    
     df = df.with_columns(
         contextual_chunk=pl.concat_str(
             [
@@ -51,9 +53,10 @@ def gold_database(silver_path: Path, output_path: Path):
             ],
             separator="\n\n",
             ignore_nulls=True,
-        ),
-        embedding=pl.struct(["file_path", "chunk_index"]).map_elements(
-            lambda x: openai_client.embed(
+        ))
+    df = df.with_columns(
+        embedding=pl.struct(["contextual_chunk", "file_path", "chunk_index"]).map_elements(
+            lambda x: openai_client.embed_file(
                 x["contextual_chunk"],
                 cached=Path(get_app_root())
                 / "database"
@@ -61,8 +64,9 @@ def gold_database(silver_path: Path, output_path: Path):
                 / "text-embedding-3-large"
                 / x["file_path"][:-4]
                 / f"{x['chunk_index']}.npy",
+                dtype=np.float32,
             ),
-            return_dtype=pl.List(pl.Float64),
+            return_dtype=pl.List(pl.Float32),
         ),
     )
     df.write_parquet(output_path)
