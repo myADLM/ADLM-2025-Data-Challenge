@@ -47,22 +47,25 @@ def build_database(
     if force_rebuild or not bronze_path.exists():
         print("Building bronze database...")
         bronze_database(pdfs_dir, bronze_path)
+        print("Bronze database built successfully.")
     else:
         print("Bronze database already exists. Skipping construction...")
 
     # Chunk the text and store it in a parquet file. Add context to the chunks.
     # Expect columns: idx, file_path, chunk_index, file_path_annotations, contextual_annotations, chunk_text
-    if force_rebuild or not silver_path.exists():
+    if force_rebuild or not silver_path.exists() or silver_path.stat().st_size == 0:
         print("Building silver database...")
         silver_database(bronze_path, silver_path)
+        print("Silver database built successfully.")
     else:
         print("Silver database already exists. Skipping construction...")
 
     # Take fully processed data, add vectors, and store it in a parquet file.
-    # Expect columns: idx, file_path, content, chunk_index, file_path_annotations, contextual_annotations, contextual_chunk, chunk_text, embedding
-    if force_rebuild or not gold_path.exists():
+    # Expect columns: idx, file_path, chunk_index, file_path_annotations, contextual_annotations, chunk_text, embedding
+    if force_rebuild or not gold_path.exists() or gold_path.stat().st_size == 0:
         print("Building gold database...")
         gold_database(silver_path, gold_path)
+        print("Gold database built successfully.")
     else:
         print("Gold database already exists. Skipping construction...")
 
