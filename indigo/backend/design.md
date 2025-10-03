@@ -35,7 +35,11 @@ There are approximately 50 million tokens in the text corpus after my pre-proces
 3. I reviewed the contextual annotations and removed those with low quality (too long, too short, no content, junk tags). Then I re-ran those queries against the more powerful Amazon Nova Pro LLM. The total cost of generating the contextual annotations was approximately (TODO: calculate).
 
 #### Vector Database
-Once the chunks are prepared and annotated, I use the gpt-3.5-turbo model to embed the chunks into a vector database.
+Once the chunks are prepared and annotated, I use the `text-embedding-3-large` model to embed the chunks into a vector database with f32 precision dimensions. The following figure shows the separation of the embeddings in 3072-dimensional space. It was generated with the `embedding-atlas` library and uses a uniform manifold approximation and projection (UMAP) algorithm to accurately display custers by maintaining local distances.
+
+![img](assets/atlas.png)
+
+The figure seems to demonstrate reasonable performance. Most notably, the Synthetic Procedures are clustered away from the other documents, and the FDA files have some evidence of logical clustering.
 
 #### BM25
 To help with exact retrieval and other weaknesses of vector search, I also use classic BM25 search. I am using the BM25Ok algorithm:
