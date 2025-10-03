@@ -27,11 +27,13 @@ fastbm25 = { git = "https://github.com/jonmontg/fastbm25.git", branch = "main" }
 
 [tool.poetry.group.dev.dependencies]
 pytest = "7.4.0"
+isort = "6.1.0"
 black = "23.1.0"
 flake8 = "6.1.0"
 mypy = "1.18.1"
 pre-commit = "3.8.0"
 maturin = "1.9.4"
+embedding-atlas = "0.10.0"
 
 [tool.poetry.scripts]
 app = "app.app:main"
