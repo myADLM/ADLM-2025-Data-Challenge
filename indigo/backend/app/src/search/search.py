@@ -15,19 +15,10 @@ class Search:
     def __init__(self, df: pl.DataFrame):
         self.df = df
         # Add the chunk annotations to the chunks so that they are included in searches.
-        annotated_corpus = df.select(
-            pl.concat_str(
-                [
-                    pl.col("file_path_annotations"),
-                    pl.col("contextual_annotations"),
-                    pl.col("chunk_text"),
-                ],
-                separator="\n\n",
-            ).alias("annotated_chunk")
-        )
-        self.corpus = annotated_corpus["annotated_chunk"].to_list()
+        self.corpus = df["contextual_chunk"].to_list()
         self.corpus_size = len(self.corpus)
         self.bm25 = BM25(self.corpus)
+        self.vector_search = VectorSearch(self.df["embedding"])
 
     def search(
         self, text: str, search_type: SearchType, k: int = 10
@@ -52,8 +43,12 @@ class Search:
         return [records[idx] for idx in indices]
 
     def vector_search(self, text: str, k: int = 10) -> list[dict[str, str]]:
-        # TODO: Implement vector search
-        raise NotImplementedError("Vector search is not implemented yet")
+        indices = self.vector_search.topk_indices(text, k)
+        records = {
+            record["idx"]: record
+            for record in self.df.filter(pl.col("idx").is_in(indices)).to_dicts()
+        }
+        return [records[idx] for idx in indices]
 
     def rank_fusion(self, text: str, k: int = 10) -> list[dict[str, str]]:
         """
@@ -81,6 +76,8 @@ class Search:
         max_workers = min((os.cpu_count() or 1), 8)
 
         t0 = time.perf_counter()
+        # TODO: compare times for different parallelization strategies
+        
         # Use ThreadPoolExecutor to calculate both rankings in parallel
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             # Submit both tasks
