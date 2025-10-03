@@ -1,0 +1,35 @@
+# Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Notebooks and analysis artifacts
+*.ipynb
+*.ipynb_checkpoints/
+
+# Local temp/output data
+/tmp/
+app/input_data/
+
+# Heavy local database and embeddings (mounted at runtime)
+app/database/
+
+# Tooling and editor metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Build and packaging
+build/
+dist/
+
+# Logs
+*.log
+
+# Misc
+.design/
