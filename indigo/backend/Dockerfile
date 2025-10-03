@@ -19,17 +19,20 @@ RUN apt-get update && apt-get install -y \
 # Copy poetry files
 COPY pyproject.toml poetry.lock ./
 
-# Copy application code
-COPY app/ ./app
-
 # Install poetry
 RUN pip install poetry
 
 # Configure poetry to not create virtual environment (since we're in a container)
 RUN poetry config virtualenvs.create false
 
-# Install dependencies
-RUN poetry install --only=main
+# Install only dependencies first (no project) for better caching
+RUN poetry install --only=main --no-root
+
+# Copy application code (after deps for better caching)
+COPY app/ ./app
+
+# Now install just the project so entry points are registered
+RUN poetry install --only-root
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
@@ -38,5 +41,4 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 5174
 
 # Run the application
-CMD ["/bin/bash"]
 CMD ["poetry", "run", "app"]
