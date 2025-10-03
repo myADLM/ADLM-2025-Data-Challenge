@@ -1,9 +1,6 @@
 # Quick Start
 
 ### Prerequisites
-- **Windows 10/11**:
-  - Docker Desktop (includes Docker Engine and Compose)
-  - Optional: WSL2 backend enabled for better performance
 - **macOS 12+ (Monterey or newer)**:
   - Docker Desktop for Mac (includes Docker Engine and Compose)
 - **Linux (Ubuntu 22.04 LTS typical)**:
@@ -17,9 +14,18 @@ docker-compose --version
 ```
 
 ### Start the application
-The backend build process takes a while and costs some money to generate the embeddings and contextual annotations. Contact jmontgomery@indigobio.com for a pre-built database (RECOMMENDED).
+#### IMPORTANT
+The backend build process takes a long time and costs some money to generate the embeddings and contextual annotations. Contact jmontgomery@indigobio.com for a pre-built database. See [design.md](backend/design.md) for more details.
 
 Building the database from scratch requires (AWS credentials)[https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html] with permission to execute the Amazon Nova Lite model in Amazon Bedrock. If you get the database from me, you do not need to do this.
+
+If you want to use the vector search capabilities and/or Chat features, you will need the following environment variable:
+
+```
+OPENAI_API_KEY
+```
+
+If you just want BM25 search and document retrieval, you don't need set that environment variable.
 
 From the project root:
 ```bash
