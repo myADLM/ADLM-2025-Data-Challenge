@@ -2,12 +2,12 @@ import hashlib
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Protocol, Dict, Type
-import requests
+from typing import Dict, Protocol, Type
 
 import faiss
 import numpy as np
 import polars as pl
+import requests
 from openai import OpenAI
 
 

@@ -1,8 +1,10 @@
+import shutil
 import subprocess
 import sys
 from pathlib import Path
+
 from tqdm import tqdm
-import shutil
+
 from app.src.util.file_reader_registry import read_file_with_registry
 
 

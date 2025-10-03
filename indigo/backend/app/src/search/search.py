@@ -1,12 +1,14 @@
-from pathlib import Path
-import polars as pl
-from app.src.search.bm25 import BM25
 import os
-from concurrent.futures import ThreadPoolExecutor
 import time
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+
+import polars as pl
+
+from app.src.api.api_objects import SearchType
+from app.src.search.bm25 import BM25
 from app.src.search.vector_search import VectorSearch
 from app.src.util.read_documents import read_text_documents
-from app.src.api.api_objects import SearchType
 
 
 class Search:
@@ -15,7 +17,12 @@ class Search:
         # Add the chunk annotations to the chunks so that they are included in searches.
         annotated_corpus = df.select(
             pl.concat_str(
-                [pl.col("annotations"), pl.col("chunk_text")], separator="\n\n"
+                [
+                    pl.col("file_path_annotations"),
+                    pl.col("contextual_annotations"),
+                    pl.col("chunk_text"),
+                ],
+                separator="\n\n",
             ).alias("annotated_chunk")
         )
         self.corpus = annotated_corpus["annotated_chunk"].to_list()

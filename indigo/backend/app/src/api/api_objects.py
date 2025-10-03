@@ -1,6 +1,7 @@
-from pydantic import BaseModel, Field, HttpUrl
-from typing import List, Literal, Optional
 from enum import Enum
+from typing import List, Literal, Optional
+
+from pydantic import BaseModel, Field, HttpUrl
 
 
 class AgentType(str, Enum):

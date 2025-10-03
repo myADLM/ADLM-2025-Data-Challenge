@@ -1,9 +1,11 @@
+import os
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import List, Optional
-from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm
-import os
+
 from botocore.exceptions import ClientError
+from tqdm import tqdm
+
 from app.src.util.aws import ensure_bucket, get_s3_client
 
 

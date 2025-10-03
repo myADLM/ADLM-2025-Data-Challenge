@@ -1,9 +1,10 @@
-import subprocess
-from pathlib import Path
 import shutil
+import subprocess
 import tempfile
+from pathlib import Path
 from typing import Optional
-from app.src.util.aws import get_s3_client, ensure_bucket
+
+from app.src.util.aws import ensure_bucket, get_s3_client
 
 DOWNLOAD_URL = "https://zenodo.org/records/16328490/files/LabDocs.zip?download=1"
 

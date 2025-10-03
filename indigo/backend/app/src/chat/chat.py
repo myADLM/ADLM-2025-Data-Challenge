@@ -1,5 +1,4 @@
-from app.src.api.api_objects import QueryModel
-from app.src.api.api_objects import ChatItem
+from app.src.api.api_objects import ChatItem, QueryModel
 
 
 def chat(model: QueryModel, messages: list[ChatItem]) -> str:

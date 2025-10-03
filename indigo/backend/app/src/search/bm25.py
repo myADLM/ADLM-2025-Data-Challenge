@@ -6,14 +6,15 @@ the most relevant documents in a corpus based on a query. The implementation
 includes NLTK-based text tokenization.
 """
 
-import fastbm25
-import nltk
-import polars as pl
+import os
 import time
 from concurrent.futures import ProcessPoolExecutor
 from functools import partial
 from itertools import chain
-import os
+
+import fastbm25
+import nltk
+import polars as pl
 
 # Download required NLTK data for tokenization
 nltk.download("punkt", quiet=True)

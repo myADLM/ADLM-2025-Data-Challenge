@@ -1,8 +1,9 @@
+from pathlib import Path
+from typing import Dict, Protocol, Type
+
 import fitz
 import pytesseract
 from PIL import Image
-from pathlib import Path
-from typing import Protocol, Dict, Type
 
 fitz.TOOLS.mupdf_display_errors(False)
 

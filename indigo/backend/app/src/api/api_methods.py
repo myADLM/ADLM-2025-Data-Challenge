@@ -1,9 +1,11 @@
 from pathlib import Path
+
 from fastapi import HTTPException
 from fastapi.responses import FileResponse
+
 from app.src.api.api_objects import *
-from app.src.search.search import Search
 from app.src.chat.chat import chat
+from app.src.search.search import Search
 
 
 def download_document_impl(file_path: str, database_path: Path):

@@ -9,8 +9,10 @@ instance per process for each helper, avoiding repeated client/resource
 construction and making connection reuse more effective.
 """
 
+import os
 from functools import cache
-import os, boto3
+
+import boto3
 from botocore.config import Config
 from botocore.exceptions import ClientError
 
@@ -49,7 +51,18 @@ def get_s3_client():
 
 @cache
 def get_bedrock_client():
-    raise NotImplemented()
+    """Return a cached Bedrock client that always uses real AWS.
+
+    - Always connects to real AWS Bedrock service (never LocalStack)
+    - Uses credentials from environment variables, AWS credentials file, or IAM roles
+    - Honors AWS_REGION (falls back to us-east-1)
+    - Applies retry configuration for transient errors
+    """
+    region = os.getenv("AWS_REGION", "us-east-1")
+    cfg = Config(retries={"max_attempts": 10, "mode": "standard"})
+
+    # Always use real AWS for Bedrock - never LocalStack
+    return boto3.client("bedrock-runtime", region_name=region, config=cfg)
 
 
 def ensure_bucket(bucket_name: str):
@@ -58,7 +71,6 @@ def ensure_bucket(bucket_name: str):
     Performs a ``HeadBucket`` call and creates the bucket on a 404. Any other
     error is re-raised to the caller.
     """
-    s3 = get_s3()
     client = get_s3_client()
     try:
         client.head_bucket(Bucket=bucket_name)
