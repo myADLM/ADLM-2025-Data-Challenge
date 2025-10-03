@@ -4,6 +4,14 @@
 echo "Starting the application..."
 cd local_orchestration
 
+# If OPENAI_API_KEY is set, write it to a local .env so docker-compose passes it through
+if [ -n "$OPENAI_API_KEY" ]; then
+  echo "Passing OPENAI_API_KEY to backend container via .env"
+  echo "OPENAI_API_KEY=$OPENAI_API_KEY" > .env
+else
+  echo "OPENAI_API_KEY is not set; backend will not have OpenAI access"
+fi
+
 # Build and start all services
 echo "Building and starting services..."
 docker-compose up --build -d
