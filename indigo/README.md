@@ -19,6 +19,8 @@ docker-compose --version
 ### Start the application
 The backend build process takes a while and costs some money to generate the embeddings and contextual annotations. Contact jmontgomery@indigobio.com for a pre-built database (RECOMMENDED).
 
+Building the database from scratch requires (AWS credentials)[https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html] with permission to execute the Amazon Nova Lite model in Amazon Bedrock. If you get the database from me, you do not need to do this.
+
 From the project root:
 ```bash
 chmod +x setup.sh
@@ -39,11 +41,13 @@ chmod +x teardown.sh
 - Ensure Docker Desktop/daemon is running before starting
 - If ports are busy, stop conflicting services or adjust `local_orchestration/docker-compose.yml`
 
-## Design
+## High Level Design
 
 - **Frontend (Vite + React)**
   - Serves the UI at `http://localhost:5173`.
   - Communicates with the backend over HTTP (CORS-enabled).
+  - React-based.
+  - Almost entirely vibe-coded.
 
 - **Backend (FastAPI + Uvicorn)**
   - Exposes REST endpoints: health (`/ping`), document download (`/documents/{path}`), and chat (`/chat`).
@@ -65,6 +69,7 @@ chmod +x teardown.sh
 ### Data Flow (high-level)
 1. Input ZIP placed at `backend/app/input_data/raw_input_data.zip` (or downloaded by `setup.sh`).
 2. Backend builds medallions (bronze → silver) on startup.
-3. User queries in the frontend call backend search/chat endpoints.
-4. Backend retrieves relevant chunks and returns responses; documents are available via the download route.
+3. Refined data is used to build the BM25-IDF index and vector database.
+4. User queries in the frontend call backend search/chat endpoints.
+5. Backend retrieves relevant chunks and returns responses; documents are available via the download route.
 
