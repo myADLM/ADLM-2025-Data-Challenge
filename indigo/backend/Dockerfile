@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Set working directory
-WORKDIR /app
+WORKDIR /
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 COPY pyproject.toml poetry.lock ./
 
 # Copy application code
-COPY app/ ./app/
+COPY app/ ./app
 
 # Install poetry
 RUN pip install poetry
@@ -32,11 +32,11 @@ RUN poetry config virtualenvs.create false
 RUN poetry install --only=main
 
 # Set environment variables
-ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
 # Expose port
 EXPOSE 5174
 
 # Run the application
+CMD ["/bin/bash"]
 CMD ["poetry", "run", "app"]
