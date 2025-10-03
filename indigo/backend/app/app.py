@@ -31,8 +31,8 @@ def main():
     build_database(input_zip_path=zip_path, database_path=database_path)
     search_client = Search(
         pl.read_parquet(
-            database_path / "medallions" / "silver.parquet"
-        )  # TODO: Replace with gold.parquet when available
+            database_path / "medallions" / "gold.parquet"
+        )
     )
 
     # API Routes
