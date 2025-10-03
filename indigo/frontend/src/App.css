@@ -13,8 +13,6 @@
   color: white;
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  position: relative;
-  z-index: 10000;
 }
 
 .header-content {

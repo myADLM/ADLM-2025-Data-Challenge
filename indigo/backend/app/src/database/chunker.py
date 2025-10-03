@@ -1,23 +1,21 @@
-import shutil
-import chonkie
-from chonkie import SentenceChunker
-from app.src.util.read_documents import read_documents_as_plaintext
-from app.src.util.configurations import get_app_root
-from app.src.util.bedrock import query_model
-from typing import List, Dict
-import re
-from pathlib import Path
-from tqdm import tqdm
-import polars as pl
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import threading
 import os
+import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+from typing import Dict, List
+
+import chonkie
+import polars as pl
+from chonkie import SentenceChunker
+from tqdm import tqdm
+
+from app.src.util.bedrock import query_model, shutdown_rate_worker
+from app.src.util.configurations import get_app_root
 
 
 def chunk_text(
     df: pl.DataFrame,
     text_column: str,
-    file_path_column: str,
     path_annotation_config: Dict[str, str],
 ) -> pl.DataFrame:
     """
@@ -38,7 +36,6 @@ def chunk_text(
 
     # Prepare rows as list of dict for thread-safe processing
     records = df.to_dicts()
-    document_store = {}
 
     def process_record(record: dict) -> list[dict]:
         # Initialize chunker. Target approximately 500 tokens, no overlap
@@ -64,6 +61,7 @@ def chunk_text(
 
         for idx, ch in enumerate(chunks):
             out = {
+                "file_path": record["file_path"],
                 "chunk_index": idx,
                 "chunk_text": ch,
                 "file_path_annotations": file_path_annotations(
@@ -93,6 +91,7 @@ def chunk_text(
                 # Skip problematic rows but continue processing
                 print(f"Error processing row: {e}")
                 continue
+    shutdown_rate_worker()
 
     if not output_rows:
         raise Exception("Failed to generate any output columns.")
@@ -139,7 +138,9 @@ def file_path_annotations(
     return "\n".join(annotations)
 
 
-def contextual_annotations(ch: str, idx: int, record: dict) -> str:
+def contextual_annotations(
+    ch: str, idx: int, record: dict, model_id="amazon.nova-lite-v1:0"
+) -> str:
     """
     Get contextual information about a chunk and its place in a file.
 
@@ -163,16 +164,13 @@ def contextual_annotations(ch: str, idx: int, record: dict) -> str:
         / f"{idx}.txt"
     )
     cache_path.parent.mkdir(parents=True, exist_ok=True)
-    if cache_path.exists():
+    if cache_path.exists() and not cache_path.stat().st_size == 0:
         with open(cache_path, "r") as f:
             return f.read()
 
     if whole_document is None:
         raise ValueError(f"Whole document not found for file path: {file_path}")
-    result = query_model(
-        "",
-        f"""
-    <document>
+    query = f"""<document>
     {whole_document}
     </document>
     Here is the chunk we want to situate within the whole document
@@ -180,9 +178,35 @@ def contextual_annotations(ch: str, idx: int, record: dict) -> str:
     {ch}
     </chunk>
     Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else.
-    """,
-        model_id="amazon.nova-lite-v1:0",
-    )
+    """
+    if len(query) > 400_000:
+        print(
+            f"Cannot contextually annotate {file_path} at {idx}. Too long ({len(query)}). Manually annotate."
+        )
+        return ""
+
+    for _ in range(2):
+        result = query_model("", query, model_id="amazon.nova-pro-v1:0")
+
+        # Clean up the response with known issues:
+        for pat in [
+            re.compile(r"<context>"),
+            re.compile(r"</context>"),
+            re.compile(r"<snip>"),
+        ]:
+            result = pat.sub("", result)
+        if len(result) >= 30 and len(result) < 500:
+            break
+        result = ""
+        print(
+            f"Query generate poor quality result for {record['file_path']}, chunk: {idx}"
+        )
+
+    if result == "":
+        print(
+            f"Failed to generate a high quality annotation for {record['file_path']}, chunk: {idx}"
+        )
+        return result
     with open(cache_path, "w") as f:
         f.write(result)
     return result

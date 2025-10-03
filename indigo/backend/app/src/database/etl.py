@@ -1,12 +1,15 @@
-from app.src.util.s3 import get_s3_client
-from app.src.util.read_documents import read_documents_as_plaintext
-from app.src.database.chunker import chunk_text
-from app.src.util.configurations import load_config
 from pathlib import Path
+from time import perf_counter
+
+import polars as pl
 import pyarrow as pa
 import pyarrow.parquet as pq
-import polars as pl
-from time import perf_counter
+
+from app.src.database.chunker import chunk_text
+from app.src.util.configurations import get_app_root, load_config
+from app.src.util.open_ai_api import OpenAIAPI
+from app.src.util.read_documents import read_documents_as_plaintext
+from app.src.util.s3 import get_s3_client
 
 
 def bronze_database(pdfs_dir: Path, output_path: Path):
@@ -30,12 +33,36 @@ def silver_database(bronze_path: Path, output_path: Path):
 
     chunk_annotation_config = load_config("chunk_annotation_patterns.yml")
     # Chunk the text
-    df = chunk_text(df, "content", "file_path", chunk_annotation_config)
+    df = chunk_text(df, "content", chunk_annotation_config)
     df = df.with_row_index("idx")
     df.write_parquet(output_path)
 
 
 def gold_database(silver_path: Path, output_path: Path):
     # Take fully processed data, add vectors, and store it in a parquet file.
-    # TODO: Implement
-    pass
+    openai_client = OpenAIAPI()
+    df = pl.read_parquet(silver_path)
+    df = df.with_columns(
+        contextual_chunk=pl.concat_str(
+            [
+                pl.col("file_path_annotations"),
+                pl.col("contextual_annotations"),
+                pl.col("chunk_text"),
+            ],
+            separator="\n\n",
+            ignore_nulls=True,
+        ),
+        embedding=pl.struct(["file_path", "chunk_index"]).map_elements(
+            lambda x: openai_client.embed(
+                x["contextual_chunk"],
+                cached=Path(get_app_root())
+                / "database"
+                / "embeddings"
+                / "text-embedding-3-large"
+                / x["file_path"][:-4]
+                / f"{x['chunk_index']}.npy",
+            ),
+            return_dtype=pl.List(pl.Float64),
+        ),
+    )
+    df.write_parquet(output_path)

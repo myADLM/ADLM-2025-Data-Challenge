@@ -10,9 +10,12 @@ services:
       - PYTHONPATH=/app
       - PYTHONUNBUFFERED=1
       - USE_LOCALSTACK=1
+      - AWS_REGION=us-east-1
+      - BEDROCK_SERVER_URL=http://bedrock-server:5175
     volumes:
       - ../backend/app/database:/app/database
       - ../backend/app/input_data:/app/input_data
+      - ~/.aws:/root/.aws:ro
     networks:
       - indigo-network
     depends_on:
