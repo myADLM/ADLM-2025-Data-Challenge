@@ -1,6 +1,7 @@
 ---
 services:
   backend:
+    mem_limit: 8g
     build:
       context: ../backend
       dockerfile: Dockerfile
