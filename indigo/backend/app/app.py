@@ -1,4 +1,4 @@
-from pathlib import Path
+import gc
 
 import polars as pl
 import uvicorn
@@ -29,11 +29,27 @@ def main():
     database_path = get_app_root() / "database"
 
     build_database(input_zip_path=zip_path, database_path=database_path)
-    search_client = Search(
-        pl.read_parquet(
-            database_path / "medallions" / "gold.parquet"
+
+    # Use lazy loading to process data in chunks and reduce memory footprint
+    print("Loading parquet data with lazy evaluation...")
+    lazy_df = pl.scan_parquet(database_path / "medallions" / "gold.parquet")
+
+    # Extract embeddings first (most memory intensive)
+    print("Converting embeddings to numpy array...")
+    embeddings = (
+        lazy_df.select(
+            pl.col("embedding").cast(pl.Array(pl.Float32, 3072)).alias("emb")
         )
-    )
+        .collect()
+        .to_series()
+    ).to_numpy()
+
+    # Load chunk data without embeddings
+    print("Loading chunk data...")
+    chunk_df = lazy_df.drop("embedding").collect()
+    gc.collect()  # Force garbage collection
+
+    search_client = Search(chunk_df, embeddings)
 
     # API Routes
     @app.get("/ping")

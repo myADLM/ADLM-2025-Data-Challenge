@@ -14,17 +14,26 @@ class OpenAIAPI:
         self.client = OpenAI(api_key=api_key)
 
     def embed_file(
-        self, text: str, cached: Path, model: str = "text-embedding-3-large", dtype: np.dtype = np.float32
+        self,
+        text: str,
+        cached: Path,
+        model: str = "text-embedding-3-large",
+        dtype: np.dtype = np.float32,
     ) -> np.ndarray[float]:
         if cached.exists():
-            arr =np.load(cached)
+            arr = np.load(cached)
             return arr.astype(dtype)
-        
+
         embedding = self.embed(text, model, dtype)
         np.save(cached, embedding)
         return embedding
 
-    def embed(self, text: str, model: str = "text-embedding-3-large", dtype: np.dtype = np.float32) -> np.ndarray[float]:
+    def embed(
+        self,
+        text: str,
+        model: str = "text-embedding-3-large",
+        dtype: np.dtype = np.float32,
+    ) -> np.ndarray[float]:
         try:
             response = self.client.embeddings.create(input=text, model=model)
             return np.asarray(response.data[0].embedding, dtype=dtype)

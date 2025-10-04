@@ -1,22 +1,26 @@
-import hashlib
-import os
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from pathlib import Path
-from typing import Dict, Protocol, Type
-from app.src.util.open_ai_api import OpenAIAPI
-
 import faiss
 import numpy as np
-import polars as pl
-import requests
+from numpy.typing import NDArray
+
+from app.src.util.open_ai_api import OpenAIAPI
 
 
 class VectorSearch:
-    def __init__(self, embeddings: pl.Series, embedder: OpenAIAPI):
-        self.embedder = embedder
-        embeddings = np.vstack(embeddings)
-        self.index = faiss.IndexFlatL2(embeddings.shape[1])
-        self.index.add(embeddings)
+    def __init__(self, embeddings: NDArray[np.float32]):
+        print("Initializing VectorSearch")
+        # Soft failure for OpenAIAPI
+        try:
+            self.embedder = OpenAIAPI()
+        except Exception as e:
+            print(f"Error initializing OpenAIAPI: {e}")
+            self.embedder = None
+
+        # embeddings should already be in the correct shape (n_samples, n_features)
+
+        print(f"Embeddings shape: {embeddings.shape}")
+        embeddings_f32 = embeddings.astype(np.float32)
+        self.index = faiss.IndexFlatL2(embeddings_f32.shape[1])
+        self.index.add(embeddings_f32)
 
     def topk_indices(self, query: str, k: int = 10) -> list[int]:
         """
@@ -29,7 +33,9 @@ class VectorSearch:
         Returns:
             List of document indices sorted by similarity (highest first)
         """
+        if self.embedder is None:
+            raise ValueError("OpenAIAPI is not initialized")
+
         embedded_query = self.embedder.embed(query)
         _, indices = self.index.search(np.array([embedded_query]), k)
         return indices[0].tolist()
-    

@@ -3,7 +3,9 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+import numpy as np
 import polars as pl
+from numpy.typing import NDArray
 
 from app.src.api.api_objects import SearchType
 from app.src.search.bm25 import BM25
@@ -12,13 +14,14 @@ from app.src.util.read_documents import read_text_documents
 
 
 class Search:
-    def __init__(self, df: pl.DataFrame):
-        self.df = df
-        # Add the chunk annotations to the chunks so that they are included in searches.
-        self.corpus = df["contextual_chunk"].to_list()
-        self.corpus_size = len(self.corpus)
-        self.bm25 = BM25(self.corpus)
-        self.vector_search = VectorSearch(self.df["embedding"])
+    def __init__(self, chunk_df: pl.DataFrame, embeddings: NDArray[np.float32]):
+        self.df = chunk_df
+        # Store corpus as a lazy series to avoid loading all text into memory at once
+        self.corpus_series = chunk_df["contextual_chunk"]
+        self.corpus_size = len(self.corpus_series)
+        self.vector_db = VectorSearch(embeddings)
+        # Initialize BM25 with lazy corpus loading
+        self.bm25 = BM25(self.corpus_series.to_list())
 
     def search(
         self, text: str, search_type: SearchType, k: int = 10
@@ -43,7 +46,7 @@ class Search:
         return [records[idx] for idx in indices]
 
     def vector_search(self, text: str, k: int = 10) -> list[dict[str, str]]:
-        indices = self.vector_search.topk_indices(text, k)
+        indices = self.vector_db.topk_indices(text, k)
         records = {
             record["idx"]: record
             for record in self.df.filter(pl.col("idx").is_in(indices)).to_dicts()
@@ -77,7 +80,7 @@ class Search:
 
         t0 = time.perf_counter()
         # TODO: compare times for different parallelization strategies
-        
+
         # Use ThreadPoolExecutor to calculate both rankings in parallel
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             # Submit both tasks
