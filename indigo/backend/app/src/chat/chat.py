@@ -2,10 +2,11 @@ import os
 
 from app.src.api.api_objects import ChatItem, QueryModel
 from app.src.util.open_ai_api import OpenAIAPI
+from app.src.chat.nova_client import NovaClient
 from app.src.util.bedrock import query_model
 
 
-def chat(model: QueryModel, messages: list[ChatItem]) -> str:
+def chat(model: QueryModel, messages: list[ChatItem], context_chunks: list[dict[str, str]]) -> str:
     if model == QueryModel.NONE:
         return "NO CHAT MODEL SELECTED: I've attached some relevant documents to your question."
 
@@ -14,83 +15,48 @@ def chat(model: QueryModel, messages: list[ChatItem]) -> str:
         return "OPENAI_API_KEY is not available. Please set the OPENAI_API_KEY environment variable to use GPT models."
 
     if model == QueryModel.GPT5_NANO:
-        return _gpt5_nano_chat(messages)
+        return _openai_chat("gpt-5", messages, context_chunks)
     if model == QueryModel.GPT5_MINI:
-        return _gpt5_mini_chat(messages)
+        return _openai_chat("gpt-5-mini", messages, context_chunks)
     if model == QueryModel.GPT5:
-        return _gpt5_chat(messages)
+        return _openai_chat("gpt-5-nano", messages, context_chunks)
     if model == QueryModel.NOVA:
-        return _nova_chat(messages)
+        return _nova_chat(messages, context_chunks)
     raise ValueError(f"Invalid chat model: {model}")
 
-
-def _gpt5_chat(messages: list[ChatItem]) -> str:
-    """GPT-5 chat implementation."""
+def _openai_chat(model: str, messages: list[ChatItem], context_chunks: list[dict[str, str]]) -> str:
     try:
         openai_client = OpenAIAPI()
 
-        # Convert ChatItem objects to OpenAI format
         openai_messages = []
         for msg in messages:
             openai_messages.append({"role": msg.agent.value, "content": msg.text})
 
         response = openai_client.chat(
-            model="gpt-5", 
+            model=model, 
             messages=openai_messages,
+            context_chunks=context_chunks,
         )
 
-        return response.choices[0].message.content
+        return response
     except Exception as e:
-        return f"Error calling GPT-5: {str(e)}"
+        return f"Error querying gpt {model}: {str(e)}"
 
-
-def _gpt5_mini_chat(messages: list[ChatItem]) -> str:
-    """GPT-5 Mini chat implementation."""
+def _nova_chat(messages: list[ChatItem], context_chunks: list[dict[str, str]]) -> str:
     try:
-        openai_client = OpenAIAPI()
+        nova_client = NovaClient()
 
-        # Convert ChatItem objects to OpenAI format
-        openai_messages = []
-        for msg in messages:
-            openai_messages.append({"role": msg.agent.value, "content": msg.text})
-
-        response = openai_client.chat(
-            model="gpt-5-mini",
-            messages=openai_messages,
-        )
-
-        return response.choices[0].message.content
-    except Exception as e:
-        return f"Error calling GPT-5 Mini: {str(e)}"
-
-
-def _gpt5_nano_chat(messages: list[ChatItem]) -> str:
-    """GPT-5 Nano chat implementation."""
-    try:
-        openai_client = OpenAIAPI()
-
-        # Convert ChatItem objects to OpenAI format
-        openai_messages = []
-        for msg in messages:
-            openai_messages.append({"role": msg.agent.value, "content": msg.text})
-
-        response = openai_client.client.chat.completions.create(
-            model="gpt-5-nano",
-            messages=openai_messages,
-        )
-
-        return response.choices[0].message.content
-    except Exception as e:
-        return f"Error calling GPT-5 Nano: {str(e)}"
-    
-def _nova_chat(messages: list[ChatItem]) -> str:
-    try:
         nova_messages = []
         for msg in messages:
             nova_messages.append({"role": msg.agent.value, "content": msg.text})
 
-            # TODO: make amazon nova chat work
+            response = nova_client.chat(
+                model="amazon-nova-pro:v1",
+                messages = nova_messages,
+                context_chunks=context_chunks
+            )
 
+            return response
     except Exception as e:
         return f"Error calling Amazon Nova Pro: {str(e)}"
         

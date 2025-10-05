@@ -42,16 +42,16 @@ def chat_impl(request: ChatRequest, search_client: Search, database_path: Path):
         return ChatResponse(chat_items=chat_items, documents=[])
 
     # Run the search algorithm
-    chunks = search_client.search(latest_user_message, search_type)
+    context_records = search_client.search(latest_user_message, search_type)
     chat_items.append(
         ChatItem(
             agent="assistant",
-            text=chat(query_model, chat_items),
+            text=chat(query_model, chat_items, context_records),
         )
     )
 
     doc_infos = {}
-    for chunk in chunks:
+    for chunk in context_records:
         doc_infos[chunk["file_path"]] = doc_infos.get(chunk["file_path"], []) + [
             chunk["chunk_text"]
         ]
