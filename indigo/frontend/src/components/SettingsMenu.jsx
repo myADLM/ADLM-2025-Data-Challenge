@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { createPortal } from 'react-dom'
 
 const SettingsMenu = ({ settings, onSettingsChange }) => {
   const [isOpen, setIsOpen] = useState(false)
+  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 })
   const menuRef = useRef(null)
+  const buttonRef = useRef(null)
 
   const handleQueryModelChange = (e) => {
     onSettingsChange({
@@ -19,6 +22,13 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
   }
 
   const toggleMenu = () => {
+    if (!isOpen && buttonRef.current) {
+      const rect = buttonRef.current.getBoundingClientRect()
+      setDropdownPosition({
+        top: rect.bottom + 8, // 8px margin
+        left: rect.left
+      })
+    }
     setIsOpen(!isOpen)
   }
 
@@ -42,6 +52,7 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
   return (
     <div className="settings-menu" ref={menuRef}>
       <button 
+        ref={buttonRef}
         className="settings-menu-button"
         onClick={toggleMenu}
         aria-label="Settings"
@@ -53,8 +64,15 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
         </svg>
       </button>
       
-      {isOpen && (
-        <div className="settings-dropdown">
+      {isOpen && createPortal(
+        <div 
+          className="settings-dropdown"
+          style={{
+            top: `${dropdownPosition.top}px`,
+            left: `${dropdownPosition.left}px`
+          }}
+          onClick={(e) => e.stopPropagation()}
+        >
           <div className="settings-section">
             <h4>Query Model</h4>
             <div className="radio-group">
@@ -136,7 +154,8 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
               </label>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   )

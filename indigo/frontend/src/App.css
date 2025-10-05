@@ -773,16 +773,16 @@
 }
 
 .settings-dropdown {
-  position: absolute;
-  top: 100%;
-  left: 0;
+  position: fixed;
+  top: auto;
+  left: auto;
   margin-top: 0.5rem;
   background: white;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   padding: 1.5rem;
   min-width: 280px;
-  z-index: 10001;
+  z-index: 99999;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
