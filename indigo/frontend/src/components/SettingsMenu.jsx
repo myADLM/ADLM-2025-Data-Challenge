@@ -35,7 +35,11 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
   // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
+      // Check if click is outside both the button and the dropdown
+      const isOutsideButton = buttonRef.current && !buttonRef.current.contains(event.target)
+      const isOutsideDropdown = !event.target.closest('.settings-dropdown')
+      
+      if (isOutsideButton && isOutsideDropdown) {
         setIsOpen(false)
       }
     }
@@ -71,7 +75,6 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
             top: `${dropdownPosition.top}px`,
             left: `${dropdownPosition.left}px`
           }}
-          onClick={(e) => e.stopPropagation()}
         >
           <div className="settings-section">
             <h4>Query Model</h4>
