@@ -50,6 +50,7 @@ done
 
 # Wait for backend health endpoint
 echo "Waiting for backend to be ready at http://localhost:5174/ping ..."
+echo "This may take a few minutes while the backend initializes..."
 
 # Wait for health check without streaming logs
 timeout=120  # 2 minute timeout for health check
@@ -65,10 +66,19 @@ while true; do
     exit 1
   fi
   
-  echo $(curl -s http://localhost:5174/ping)
-  if curl -s http://localhost:5174/ping 2>/dev/null | grep -q '"ok": true'; then
-    echo "Backend is healthy!"
-    break
+  # Use curl with proper error handling to avoid script exit
+  if response=$(curl -s http://localhost:5174/ping 2>/dev/null); then
+    echo "[${elapsed}s] Response: $response"
+    
+    # Check if response contains "ok":true (with or without spaces)
+    if echo "$response" | grep -q '"ok" *: *true'; then
+      echo "Backend is healthy!"
+      break
+    else
+      echo "Backend not ready yet, waiting..."
+    fi
+  else
+    echo "Backend not responding yet, waiting... [${elapsed}s]"
   fi
   
   if [ $elapsed -ge $timeout ]; then

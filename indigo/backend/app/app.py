@@ -1,4 +1,7 @@
 import gc
+import logging
+import os
+import sys
 
 import polars as pl
 import uvicorn
@@ -13,12 +16,24 @@ from app.src.util.configurations import get_app_root
 
 
 def main():
+    # Logging
+    logger = logging.getLogger("app")
+    handler = logging.StreamHandler(sys.stdout)
+    formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s: %(message)s")
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+    logger.setLevel(logging.INFO)
+
     app = FastAPI()
 
-    # Add CORS middleware
+    # Add CORS middleware - allow both local and Docker environments
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["http://localhost:5173"],
+        allow_origins=[
+            "http://localhost:5173",  # Local development
+            "http://127.0.0.1:5173",  # Alternative localhost
+            "http://frontend:5173",  # Docker frontend service
+        ],
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
@@ -55,6 +70,21 @@ def main():
     @app.get("/ping")
     def ping():
         return {"ok": True}
+
+    @app.get("/api/status")
+    def get_api_status():
+        """Check if OPENAI_API_KEY is available and what features are enabled."""
+        openai_available = bool(os.environ.get("OPENAI_API_KEY"))
+
+        return {
+            "openai_available": openai_available,
+            "features": {
+                "gpt_models": openai_available,
+                "vector_search": openai_available,
+                "rank_fusion": openai_available,
+                "bm25": True,  # BM25 doesn't require OpenAI
+            },
+        }
 
     @app.get("/documents/{file_path:path}")
     def download_document(file_path: str):

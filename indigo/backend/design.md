@@ -34,12 +34,14 @@ There are approximately 50 million tokens in the text corpus after my pre-proces
 2. Chunk-context generation costs money and is slow. I used the low-cost Amazon Nova Lite to contextualize the chunks. It has a 300k token context window, which is well above the largest document+chunk size of ~90k tokens (LabDocs/FDA/Microbiology/K191288_REVIEW.pdf). However, the Amazon Nova Lite model's performance significantly degrades for large queries. Some of the documents in this dataset are 400k+ characters. I did an initial pass with Amazon Nova Lite, then found problematic examples and re-generated the context with the more powerful Amazon Nova Pro model. The larger, more expensive models generate much higher quality responses for normal and large queries and have higher behavioral stability.
 3. I reviewed the contextual annotations and removed those with low quality (too long, too short, no content, junk tags). Then I re-ran those queries against the more powerful Amazon Nova Pro LLM. The total cost of generating the contextual annotations was approximately (TODO: calculate).
 
-#### Vector Database
+#### Vector Search
 Once the chunks are prepared and annotated, I use the `text-embedding-3-large` model to embed the chunks into a vector database with f32 precision dimensions. The following figure shows the separation of the embeddings in 3072-dimensional space. It was generated with the `embedding-atlas` library and uses a uniform manifold approximation and projection (UMAP) algorithm to accurately display custers by maintaining local distances.
 
 ![img](assets/atlas.png)
 
 The figure seems to demonstrate reasonable performance. Most notably, the Synthetic Procedures are clustered away from the other documents, and the FDA files have some evidence of logical clustering.
+
+Vector search adds significant time to the search response due to the OpenAI network latency. The exact L2 KNN (K=120) calculation takes ~0.1 seconds while the network latency consumes 0.75-1.5 seconds.
 
 #### BM25
 To help with exact retrieval and other weaknesses of vector search, I also use classic BM25 search. I am using the BM25Ok algorithm:
@@ -51,6 +53,8 @@ $$
 $k_{1}$ and $b$ are free parameters, set to the defaults.
 
 I rewrote the Python rank_bm25 library in Rust and achieved 10x index construction speed and 240x search speed. Awesome!
+
+My implementation of BM25 search takes approximately 0.01 seconds with K=120.
 
 #### Rank Fusion
 I used [reciprocal rank fusion](https://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf):
@@ -67,5 +71,3 @@ I retrieve 50 chunks with each algorithm and select the top 30 chunks based on t
 3. Chunks are retrieved with the BM25 search
 4. Use Reciprocal Rank Fusion and take the top 20 chunks.
 5. Add the top 20 chunks to the user's input as context, and query the LLM to respond to the initial query.
-
-

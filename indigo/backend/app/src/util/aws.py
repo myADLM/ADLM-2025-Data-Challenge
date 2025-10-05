@@ -10,6 +10,7 @@ construction and making connection reuse more effective.
 """
 
 import os
+import socket
 from functools import cache
 
 import boto3
@@ -31,7 +32,18 @@ def get_s3():
     cfg = Config(retries={"max_attempts": 10, "mode": "standard"})
     if os.getenv("USE_LOCALSTACK") == "1":
         print("Using LocalStack")
-        endpoint_url = os.getenv("LOCALSTACK_ENDPOINT", "http://localstack:4566")
+        # Detect if we're running in Docker by checking if 'localstack' hostname is resolvable
+        try:
+            socket.gethostbyname("localstack")
+            # We're in Docker, use service name
+            default_endpoint = "http://localstack:4566"
+            print("Docker environment detected, using localstack:4566")
+        except socket.gaierror:
+            # We're in local development, use localhost
+            default_endpoint = "http://localhost:4566"
+            print("Local environment detected, using localhost:4566")
+
+        endpoint_url = os.getenv("LOCALSTACK_ENDPOINT", default_endpoint)
         return boto3.resource(
             "s3",
             endpoint_url=endpoint_url,

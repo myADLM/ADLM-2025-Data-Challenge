@@ -1,7 +1,5 @@
-import os
+import logging
 import time
-from concurrent.futures import ThreadPoolExecutor
-from pathlib import Path
 
 import numpy as np
 import polars as pl
@@ -10,7 +8,6 @@ from numpy.typing import NDArray
 from app.src.api.api_objects import SearchType
 from app.src.search.bm25 import BM25
 from app.src.search.vector_search import VectorSearch
-from app.src.util.read_documents import read_text_documents
 
 
 class Search:
@@ -29,9 +26,9 @@ class Search:
         if search_type == SearchType.BM25:
             return self.bm25_search(text, k)
         elif search_type == SearchType.VECTOR_SEARCH:
-            return self.vector_search.search(text, k)
+            return self.vector_search(text, k)
         elif search_type == SearchType.RANK_FUSION:
-            return self.rank_fusion.search(text, k)
+            return self.rank_fusion(text, k)
         else:
             raise ValueError(f"Invalid search type: {search_type}")
 
@@ -64,7 +61,10 @@ class Search:
         Returns:
             List of top k results ranked by fusion score
         """
-        print("Performing rank fusion...")
+        logger = logging.getLogger("app")
+        logger.info(
+            f"Ranking fusion search for query: {text} (method called at {time.time()})"
+        )
 
         def get_bm25_ranks():
             """Get BM25 rankings in a separate thread."""
@@ -73,47 +73,36 @@ class Search:
 
         def get_vector_ranks():
             """Get vector search rankings in a separate thread."""
-            indices = self.vector_search.topk_indices(text, 120)
+            indices = self.vector_db.topk_indices(text, 120)
             return {idx: r for r, idx in enumerate(indices)}
 
-        max_workers = min((os.cpu_count() or 1), 8)
-
         t0 = time.perf_counter()
-        # TODO: compare times for different parallelization strategies
-
-        # Use ThreadPoolExecutor to calculate both rankings in parallel
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            # Submit both tasks
-            bm25_future = executor.submit(get_bm25_ranks)
-            vector_future = executor.submit(get_vector_ranks)
-
-            # Get results
-            a_ranks = bm25_future.result()
-            b_ranks = vector_future.result()
-
-        print(f"Ranks calculated in {time.perf_counter() - t0} seconds")
+        a_ranks = get_bm25_ranks()
+        print(f"BM25: {time.perf_counter()-t0}")
+        t0 = time.perf_counter()
+        b_ranks = get_vector_ranks()
+        print(f"Vector: {time.perf_counter()-t0}")
 
         t0 = time.perf_counter()
         # Combine all unique indices from both rankings
-        ranks = list(set([i for i in a_ranks.keys()] + [i for i in b_ranks.keys()]))
+        idxs = list(set([i for i in a_ranks.keys()] + [i for i in b_ranks.keys()]))
 
         # Apply reciprocal rank fusion formula: 1/(60 + rank_a) + 1/(60 + rank_b)
-        # Use get() with default value 120 for indices not in either ranking
+        # Use get() with default value 121 for indices not in either ranking
         def fusion_score(idx):
-            rank_a = a_ranks.get(idx, 120)
-            rank_b = b_ranks.get(idx, 120)
+            rank_a = a_ranks.get(idx, 121)
+            rank_b = b_ranks.get(idx, 121)
             return (1.0 / (60.0 + rank_a)) + (1.0 / (60.0 + rank_b))
 
         # Sort by fusion score and return top k
-        sorted_ranks = sorted(ranks, key=fusion_score, reverse=True)[:k]
+        sorted_ranks = sorted(idxs, key=fusion_score, reverse=True)[:k]
 
         # Convert indices back to records
         records = {
             record["idx"]: record
             for record in self.df.filter(pl.col("idx").is_in(sorted_ranks)).to_dicts()
         }
-
-        print(f"Ranks fused in {time.perf_counter() - t0} seconds")
+        print(f"Rank fusion: {time.perf_counter()-t0}")
 
         return [records[idx] for idx in sorted_ranks]
 

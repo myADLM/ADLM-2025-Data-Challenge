@@ -1,3 +1,7 @@
+import logging
+import os
+import time
+
 import faiss
 import numpy as np
 from numpy.typing import NDArray
@@ -15,12 +19,9 @@ class VectorSearch:
             print(f"Error initializing OpenAIAPI: {e}")
             self.embedder = None
 
-        # embeddings should already be in the correct shape (n_samples, n_features)
-
         print(f"Embeddings shape: {embeddings.shape}")
-        embeddings_f32 = embeddings.astype(np.float32)
-        self.index = faiss.IndexFlatL2(embeddings_f32.shape[1])
-        self.index.add(embeddings_f32)
+        self.index = faiss.IndexFlatL2(embeddings.shape[1])
+        self.index.add(embeddings)
 
     def topk_indices(self, query: str, k: int = 10) -> list[int]:
         """
@@ -36,6 +37,12 @@ class VectorSearch:
         if self.embedder is None:
             raise ValueError("OpenAIAPI is not initialized")
 
+        logger = logging.getLogger("app")
+
+        t0 = time.perf_counter()
         embedded_query = self.embedder.embed(query)
+        logger.info(f"Time to embed query: {time.perf_counter()-t0}")
+        t0 = time.perf_counter()
         _, indices = self.index.search(np.array([embedded_query]), k)
+        logger.info(f"Time to search: {time.perf_counter()-t0}")
         return indices[0].tolist()
