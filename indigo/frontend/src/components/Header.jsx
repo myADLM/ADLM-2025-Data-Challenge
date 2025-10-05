@@ -1,13 +1,14 @@
 import React from 'react'
 import { SettingsMenu } from './index'
 
-const Header = ({ backendConnected, settings, onSettingsChange }) => {
+const Header = ({ backendConnected, apiStatus, settings, onSettingsChange }) => {
   return (
     <>
       <header className="header">
         <div className="header-content">
           <div className="header-left">
             <SettingsMenu 
+              apiStatus={apiStatus}
               settings={settings} 
               onSettingsChange={onSettingsChange} 
             />

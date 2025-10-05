@@ -839,6 +839,54 @@
   color: #667eea;
 }
 
+/* Disabled radio group styles */
+.radio-group label.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: #999;
+}
+
+.radio-group label.disabled:hover {
+  background-color: transparent;
+}
+
+.radio-group label.disabled input[type="radio"] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.radio-group label.disabled input[type="radio"]:checked {
+  accent-color: #ccc;
+}
+
+/* Settings loading state */
+.settings-loading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e0e0e0;
+  border-top: 2px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
 /* Responsive Settings Menu */
 @media (max-width: 768px) {
   .settings-dropdown {

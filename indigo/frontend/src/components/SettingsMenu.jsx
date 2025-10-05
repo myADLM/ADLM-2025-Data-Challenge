@@ -1,11 +1,27 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 
-const SettingsMenu = ({ settings, onSettingsChange }) => {
+const SettingsMenu = ({ apiStatus, settings, onSettingsChange }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 })
   const menuRef = useRef(null)
   const buttonRef = useRef(null)
+  
+  // Debug API status
+  console.log('SettingsMenu - API Status:', apiStatus)
+  
+  // Use API status values directly - they default to true and are updated by API check
+  const isOpenAIAvailable = apiStatus?.openai_available ?? true
+  const isRankFusionAvailable = apiStatus?.features?.rank_fusion ?? true
+  const isBM25Available = apiStatus?.features?.bm25 ?? true
+  const isVectorSearchAvailable = apiStatus?.features?.vector_search ?? true
+  
+  console.log('SettingsMenu - Availability:', {
+    isOpenAIAvailable,
+    isRankFusionAvailable,
+    isBM25Available,
+    isVectorSearchAvailable
+  })
 
   const handleQueryModelChange = (e) => {
     onSettingsChange({
@@ -76,82 +92,94 @@ const SettingsMenu = ({ settings, onSettingsChange }) => {
             left: `${dropdownPosition.left}px`
           }}
         >
+          {apiStatus?.loading && (
+            <div className="settings-loading">
+              <div className="loading-spinner"></div>
+              <span>Checking API status...</span>
+            </div>
+          )}
           <div className="settings-section">
             <h4>Query Model</h4>
             <div className="radio-group">
-              <label>
+              <label className={!isOpenAIAvailable ? 'disabled' : ''} title={!isOpenAIAvailable ? 'OpenAI key is unavailable' : ''}>
                 <input
                   type="radio"
                   name="query_model"
                   value="gpt-5"
                   checked={settings.query_model === 'gpt-5'}
                   onChange={handleQueryModelChange}
+                  disabled={!isOpenAIAvailable}
                 />
                 GPT-5
               </label>
-              <label>
+              <label className={!isOpenAIAvailable ? 'disabled' : ''} title={!isOpenAIAvailable ? 'OpenAI key is unavailable' : ''}>
                 <input
                   type="radio"
                   name="query_model"
                   value="gpt-5-mini"
                   checked={settings.query_model === 'gpt-5-mini'}
                   onChange={handleQueryModelChange}
+                  disabled={!isOpenAIAvailable}
                 />
                 GPT-5 Mini
               </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="query_model"
-                    value="gpt-5-nano"
-                    checked={settings.query_model === 'gpt-5-nano'}
-                    onChange={handleQueryModelChange}
-                  />
-                  GPT-5 Nano
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="query_model"
-                    value="none"
-                    checked={settings.query_model === 'none'}
-                    onChange={handleQueryModelChange}
-                  />
-                  None
-                </label>
+              <label className={!isOpenAIAvailable ? 'disabled' : ''} title={!isOpenAIAvailable ? 'OpenAI key is unavailable' : ''}>
+                <input
+                  type="radio"
+                  name="query_model"
+                  value="gpt-5-nano"
+                  checked={settings.query_model === 'gpt-5-nano'}
+                  onChange={handleQueryModelChange}
+                  disabled={!isOpenAIAvailable}
+                />
+                GPT-5 Nano
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="query_model"
+                  value="none"
+                  checked={settings.query_model === 'none'}
+                  onChange={handleQueryModelChange}
+                />
+                None
+              </label>
             </div>
           </div>
           
           <div className="settings-section">
             <h4>Search Type</h4>
             <div className="radio-group">
-            <label>
+              <label className={!isRankFusionAvailable ? 'disabled' : ''} title={!isRankFusionAvailable ? 'Rank fusion feature is unavailable' : ''}>
                 <input
                   type="radio"
                   name="search_type"
                   value="rank_fusion"
                   checked={settings.search_type === 'rank_fusion'}
                   onChange={handleSearchTypeChange}
+                  disabled={!isRankFusionAvailable}
                 />
                 Rank Fusion
               </label>
-              <label>
+              <label className={!isBM25Available ? 'disabled' : ''} title={!isBM25Available ? 'BM25 feature is unavailable' : ''}>
                 <input
                   type="radio"
                   name="search_type"
                   value="bm25"
                   checked={settings.search_type === 'bm25'}
                   onChange={handleSearchTypeChange}
+                  disabled={!isBM25Available}
                 />
                 BM25
               </label>
-              <label>
+              <label className={!isVectorSearchAvailable ? 'disabled' : ''} title={!isVectorSearchAvailable ? 'Vector search feature is unavailable' : ''}>
                 <input
                   type="radio"
                   name="search_type"
                   value="vector_search"
                   checked={settings.search_type === 'vector_search'}
                   onChange={handleSearchTypeChange}
+                  disabled={!isVectorSearchAvailable}
                 />
                 Vector Search
               </label>

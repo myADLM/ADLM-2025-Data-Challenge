@@ -12,7 +12,7 @@ function App() {
     matches: []
   })
   
-  const { backendConnected } = useBackendConnection()
+  const { backendConnected, apiStatus } = useBackendConnection()
   const {
     message,
     setMessage,
@@ -52,6 +52,7 @@ function App() {
     <div className="app">
       <Header 
         backendConnected={backendConnected} 
+        apiStatus={apiStatus}
         settings={settings}
         onSettingsChange={setSettings}
       />
