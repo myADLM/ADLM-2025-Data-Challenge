@@ -186,7 +186,7 @@ def contextual_annotations(
         return ""
 
     for _ in range(2):
-        result = query_model("", query, model_id="amazon.nova-pro-v1:0")
+        result = query_model("", query, model_id="amazon.nova-lite-v1:0")
 
         # Clean up the response with known issues:
         for pat in [

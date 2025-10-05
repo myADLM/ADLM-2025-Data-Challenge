@@ -134,6 +134,17 @@ const SettingsMenu = ({ apiStatus, settings, onSettingsChange }) => {
                 />
                 GPT-5 Nano
               </label>
+              <label className={!isOpenAIAvailable ? 'disabled' : ''} title={!isOpenAIAvailable ? 'OpenAI key is unavailable' : ''}>
+                <input
+                  type="radio"
+                  name="query_model"
+                  value="amazon.nova-pro-v1:0"
+                  checked={settings.query_model === 'amazon.nova-pro-v1:0'}
+                  onChange={handleQueryModelChange}
+                  disabled={!isOpenAIAvailable}
+                />
+                Amazon Nova
+              </label>
               <label>
                 <input
                   type="radio"

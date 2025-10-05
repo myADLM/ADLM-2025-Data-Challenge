@@ -17,6 +17,7 @@ class QueryModel(str, Enum):
     GPT5_NANO = "gpt-5-nano"
     GPT5_MINI = "gpt-5-mini"
     GPT5 = "gpt-5"
+    NOVA = "amazon.nova-pro-v1:0"
     NONE = "none"
 
 
