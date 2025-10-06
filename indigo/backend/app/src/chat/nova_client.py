@@ -7,16 +7,17 @@ from app.src.util.aws import get_bedrock_client
 class NovaClient:
     def __init__(self):
         self.client = get_bedrock_client()
-        self.max_message_history = 6 # Max lookback in message history
-        self.max_context_size = 25_000 # Max characters in the context chunks
+        self.max_message_history = 6  # Max lookback in message history
+        self.max_context_size = 25_000  # Max characters in the context chunks
         self.max_message_size = 5_000
-    
-    def chat(self,
-             messages: list[dict],
-             context_chunks: list[dict[str, str]],
-             model: str="amazon.nova-pro-v1:0",
-             consider_history=True
-        ) -> str:
+
+    def chat(
+        self,
+        messages: list[dict],
+        context_chunks: list[dict[str, str]],
+        model: str = "amazon.nova-pro-v1:0",
+        consider_history=True,
+    ) -> str:
         logger = logging.getLogger("app")
 
         logger.info(f"Received messages: {messages}")
@@ -28,34 +29,34 @@ class NovaClient:
         if consider_history:
             logger.info(f"Received messages: {messages[-self.max_message_history:]}")
             processed_messages = [
-                {
-                    "role": ci["role"],
-                    "content": [{"text": ci["content"]}]
-                }
-                for ci in messages[-self.max_message_history:]
+                {"role": ci["role"], "content": [{"text": ci["content"]}]}
+                for ci in messages[-self.max_message_history :]
             ]
         else:
             processed_messages = [
                 {
                     "role": messages[-1]["role"],
-                    "content": [{"text": messages[-1]["content"]}]
+                    "content": [{"text": messages[-1]["content"]}],
                 }
             ]
         logger.info(processed_messages)
 
         # Construct the context
-        context = "\n\n".join([
-            f"""
+        context = "\n\n".join(
+            [
+                f"""
             Source file: {record["file_path"]}
             Chunk: {record["contextual_chunk"]}            
             """
-            for record
-            in sorted(context_chunks, key=lambda d: d["file_path"])
-        ])
+                for record in sorted(context_chunks, key=lambda d: d["file_path"])
+            ]
+        )
         logger.info(context)
 
         # Construct the contextual message
-        processed_messages[-1]["content"][0]["text"] = f"""
+        processed_messages[-1]["content"][0][
+            "text"
+        ] = f"""
         DOCUMENT CHUNKS:
         {context}
         
@@ -63,8 +64,12 @@ class NovaClient:
         {processed_messages[-1]["content"][0]["text"]}
         """
 
-        logger.info(f"Chat message history size: {sum(map(lambda x: len(x['content'][0]['text']), processed_messages[:-1]))}")
-        logger.info(f"Contextual message size: {len(processed_messages[-1]['content'][0]['text'])}")
+        logger.info(
+            f"Chat message history size: {sum(map(lambda x: len(x['content'][0]['text']), processed_messages[:-1]))}"
+        )
+        logger.info(
+            f"Contextual message size: {len(processed_messages[-1]['content'][0]['text'])}"
+        )
 
         # Query the model
         payload = {
@@ -86,6 +91,8 @@ class NovaClient:
             modelId=model,
             contentType="application/json",
             accept="application/json",
-            body=json.dumps(payload)
+            body=json.dumps(payload),
         )
-        return json.loads(response["body"].read())["output"]["message"]["content"][0]["text"].strip()
+        return json.loads(response["body"].read())["output"]["message"]["content"][0][
+            "text"
+        ].strip()

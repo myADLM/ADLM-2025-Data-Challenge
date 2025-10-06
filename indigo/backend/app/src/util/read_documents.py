@@ -1,6 +1,5 @@
 import shutil
 import subprocess
-import sys
 from pathlib import Path
 
 from tqdm import tqdm
@@ -74,7 +73,7 @@ def extract_zip(
 
 
 def read_documents_as_plaintext(
-    base_dir: str | Path, file_extensions: list[str] = [".txt", ".md", ".rst", ".pdf"]
+    base_dir: str | Path, file_extensions: list[str] = (".txt", ".md", ".rst", ".pdf")
 ) -> list[tuple[str, str]]:
     """
     Read all files from a base directory into a list of tuples. Files are read as plain text.

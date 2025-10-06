@@ -3,6 +3,7 @@ from pathlib import Path
 
 import numpy as np
 from openai import OpenAI
+
 from app.src.api.api_objects import ChatItem
 
 
@@ -28,7 +29,7 @@ class OpenAIAPI:
         np.save(cached, embedding)
         return embedding
 
-    def embed( self, text: str, model: str = "text-embedding-3-large") -> np.ndarray:
+    def embed(self, text: str, model: str = "text-embedding-3-large") -> np.ndarray:
         try:
             response = self.client.embeddings.create(input=text, model=model)
             return np.asarray(response.data[0].embedding, dtype=np.float32)
@@ -36,5 +37,7 @@ class OpenAIAPI:
             print(f"Error creating embedding: {e}")
             raise
 
-    def chat(self, messages: list[ChatItem], context_chunks: list[dict[str, str]], model: str):
+    def chat(
+        self, messages: list[ChatItem], context_chunks: list[dict[str, str]], model: str
+    ):
         raise NotImplemented()

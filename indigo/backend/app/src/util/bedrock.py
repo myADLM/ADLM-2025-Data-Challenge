@@ -17,18 +17,8 @@ REQUESTS_PER_MINUTE = 50
 MIN_INTERVAL = 60.0 / REQUESTS_PER_MINUTE
 MAX_CONCURRENT_REQUESTS = 30
 
+
 # ---- Global state
-_state = {
-    "q": queue.Queue(),
-    "dispatcher": None,
-    "executor": None,
-    "shutdown": threading.Event(),
-    "lock": threading.Lock(),
-    "next_allowed": time.monotonic(),  # next timestamp we may call the API
-    "active_requests": 0,  # track concurrent requests
-}
-
-
 @dataclass
 class QueuedRequest:
     payload: dict
@@ -38,26 +28,46 @@ class QueuedRequest:
     timeout: Optional[float] = None  # seconds for caller wait
 
 
+@dataclass
+class BedrockState:
+    q: queue.Queue[QueuedRequest]
+    shutdown: threading.Event
+    lock: threading.Lock
+    next_allowed: float
+    active_requests: int
+    dispatcher: threading.Thread | None = None
+    executor: ThreadPoolExecutor | None = None
+
+
+_state = BedrockState(
+    q=queue.Queue(),
+    shutdown=threading.Event(),
+    lock=threading.Lock(),
+    next_allowed=time.monotonic(),
+    active_requests=0,
+)
+
+
 def _start_services_if_needed():
-    with _state["lock"]:
-        if _state["executor"] is None:
-            _state["executor"] = ThreadPoolExecutor(
+    with _state.lock:
+        if _state.executor is None:
+            _state.executor = ThreadPoolExecutor(
                 max_workers=MAX_CONCURRENT_REQUESTS, thread_name_prefix="bedrock-worker"
             )
 
-        if _state["dispatcher"] is None or not _state["dispatcher"].is_alive():
+        if _state.dispatcher is None or not _state.dispatcher.is_alive():
             t = threading.Thread(
                 target=_dispatcher, name="bedrock-dispatcher", daemon=True
             )
-            _state["dispatcher"] = t
+            _state.dispatcher = t
             t.start()
 
 
 def _dispatcher():
     """Dispatch requests to worker pool at controlled rate."""
-    while not _state["shutdown"].is_set():
+    while not _state.shutdown.is_set():
         try:
-            req: QueuedRequest = _state["q"].get(timeout=1.0)
+            req: QueuedRequest = _state.q.get(timeout=1.0)
         except queue.Empty:
             continue
 
@@ -67,30 +77,28 @@ def _dispatcher():
 
         # Wait for rate limiting and concurrent request limit
         while True:
-            with _state["lock"]:
+            with _state.lock:
                 now = time.monotonic()
-                rate_ok = now >= _state["next_allowed"]
-                concurrency_ok = _state["active_requests"] < MAX_CONCURRENT_REQUESTS
+                rate_ok = now >= _state.next_allowed
+                concurrency_ok = _state.active_requests < MAX_CONCURRENT_REQUESTS
 
                 if rate_ok and concurrency_ok:
                     # Reserve the next slot and increment active count
-                    _state["next_allowed"] = (
-                        max(now, _state["next_allowed"]) + MIN_INTERVAL
-                    )
-                    _state["active_requests"] += 1
+                    _state.next_allowed = max(now, _state.next_allowed) + MIN_INTERVAL
+                    _state.active_requests += 1
                     break
 
                 # Calculate how long to wait
                 wait_time = 0.1  # default short wait for concurrency
                 if not rate_ok:
-                    wait_time = max(wait_time, _state["next_allowed"] - now)
+                    wait_time = max(wait_time, _state.next_allowed - now)
 
             # Allow early exit on shutdown
-            if _state["shutdown"].wait(timeout=wait_time):
+            if _state.shutdown.wait(timeout=wait_time):
                 return
 
         # Submit to thread pool for concurrent execution
-        _state["executor"].submit(_process_request_wrapper, req)
+        _state.executor.submit(_process_request_wrapper, req)
 
 
 def _process_request_wrapper(req: QueuedRequest):
@@ -98,8 +106,8 @@ def _process_request_wrapper(req: QueuedRequest):
     try:
         _process_request(req)
     finally:
-        with _state["lock"]:
-            _state["active_requests"] -= 1
+        with _state.lock:
+            _state.active_requests -= 1
 
 
 def _process_request(req: QueuedRequest):
@@ -176,15 +184,15 @@ def _extract_text(data: dict) -> str:
 
 def shutdown_rate_worker():
     """Optional: call at program end for a clean exit."""
-    _state["shutdown"].set()
+    _state.shutdown.set()
 
     # Shutdown dispatcher
-    dispatcher = _state.get("dispatcher")
+    dispatcher = _state.dispatcher
     if dispatcher and dispatcher.is_alive():
         dispatcher.join(timeout=2.0)
 
     # Shutdown executor
-    executor = _state.get("executor")
+    executor = _state.executor
     if executor:
         executor.shutdown(wait=True)
 
@@ -223,7 +231,7 @@ def query_model(
         timeout=timeout,
     )
 
-    _state["q"].put(req)
+    _state.q.put(req)
 
     # Allow caller to bound their wait
     return fut.result(timeout=timeout)

@@ -9,7 +9,7 @@ from app.src.search.search import Search
 
 
 def download_document_impl(file_path: str, database_path: Path):
-    """Securely download a document from the originals directory."""
+    """Securely download a document from the 'originals' directory."""
     print(f"PDF request received for: {file_path}")
     try:
         safe_path = _validate_document_path(file_path, database_path)

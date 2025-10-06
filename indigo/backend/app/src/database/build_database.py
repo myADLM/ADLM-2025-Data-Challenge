@@ -1,4 +1,3 @@
-import subprocess
 from pathlib import Path
 
 from app.src.database.etl import (bronze_database, gold_database,
@@ -44,7 +43,7 @@ def build_database(
 
     # Extract the text from the PDFs and store it in a parquet file
     # Expect columns: file_path, content
-    if force_rebuild or not bronze_path.exists():
+    if force_rebuild or not bronze_path.exists() or silver_path.stat().st_size == 0:
         print("Building bronze database...")
         bronze_database(pdfs_dir, bronze_path)
         print("Bronze database built successfully.")

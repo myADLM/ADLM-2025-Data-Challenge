@@ -56,7 +56,7 @@ def chunk_text(
         if not text.strip():
             return []
 
-        chunks = normalize_chunks(chunker(text))
+        chunks = normalize_chunks(list(chunker(text)))
         results: list[dict] = []
 
         for idx, ch in enumerate(chunks):
@@ -71,8 +71,8 @@ def chunk_text(
             }
             try:
                 out["contextual_annotations"] = contextual_annotations(ch, idx, record)
-            except Exception as e:
-                print(f"Error annotating chunk: {e}")
+            except Exception as exp:
+                print(f"Error annotating chunk: {exp}")
                 out["contextual_annotations"] = ""
             results.append(out)
         return results
@@ -109,13 +109,13 @@ def normalize_chunks(chunks: List[chonkie.Chunk]) -> list[str]:
     """
     normalized_chunks = []
     for chunk in chunks:
-        chunk_text = chunk.text.strip()
-        if not chunk_text:
+        chunk = chunk.text.strip()
+        if not chunk:
             continue
-        if len(chunk_text) < 100 and normalized_chunks:
-            normalized_chunks[-1] += chunk_text
+        if len(chunk) < 100 and normalized_chunks:
+            normalized_chunks[-1] += chunk
             continue
-        normalized_chunks.append(chunk_text)
+        normalized_chunks.append(chunk)
     return normalized_chunks
 
 
@@ -185,8 +185,9 @@ def contextual_annotations(
         )
         return ""
 
+    result = ""
     for _ in range(2):
-        result = query_model("", query, model_id="amazon.nova-lite-v1:0")
+        result = query_model("", query, model_id=model_id)
 
         # Clean up the response with known issues:
         for pat in [
@@ -195,7 +196,7 @@ def contextual_annotations(
             re.compile(r"<snip>"),
         ]:
             result = pat.sub("", result)
-        if len(result) >= 30 and len(result) < 500:
+        if 30 <= len(result) < 500:
             break
         result = ""
         print(

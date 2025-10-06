@@ -72,7 +72,7 @@ class _FileReaderRegistry:
             raise ValueError(f"No reader registered for extension: {extension}")
 
         reader_class = cls._readers[extension]
-        return reader_class()
+        return reader_class
 
     @classmethod
     def get_supported_extensions(cls) -> list[str]:
@@ -90,7 +90,8 @@ class _FileReaderRegistry:
 class _TextFileReader:
     """Reader for text files."""
 
-    def read(self, file_path: str | Path) -> str:
+    @staticmethod
+    def read(file_path: str | Path) -> str:
         """Read the contents of a text file."""
         file_path = Path(file_path)
         if not file_path.exists():
@@ -104,10 +105,11 @@ class _TextFileReader:
 
 
 @_FileReaderRegistry.register(".pdf")
-class _PDF_FileReader:
+class _PDFFileReader:
     """Reader for PDF files."""
 
-    def read(self, file_path: str | Path) -> str:
+    @staticmethod
+    def read(file_path: str | Path) -> str:
         """Read the contents of a PDF file."""
         file_path = Path(file_path)
         if not file_path.exists():
@@ -124,10 +126,10 @@ class _PDF_FileReader:
                     all_text += text + "\n"
                 else:
                     raise Exception("PyMuPDF returned empty page.")
-            except Exception as e:
+            except Exception:
                 print(f"Trying OCR to extract page {page_num+1} from {file_path}.")
                 pix = page.get_pixmap(dpi=300)  # render page as image
-                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
                 text = pytesseract.image_to_string(img)
                 if text:
                     print("Success.")

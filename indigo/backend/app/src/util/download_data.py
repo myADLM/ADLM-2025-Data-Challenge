@@ -1,10 +1,6 @@
 import shutil
 import subprocess
-import tempfile
 from pathlib import Path
-from typing import Optional
-
-from app.src.util.aws import ensure_bucket, get_s3_client
 
 DOWNLOAD_URL = "https://zenodo.org/records/16328490/files/LabDocs.zip?download=1"
 
@@ -42,7 +38,7 @@ def download_labdocs_zip(
     Returns:
         True on success, False otherwise.
     """
-    # Check system requirements first (curl is required; unzip isn't used but we keep the same check)
+    # Check system requirements first (curl is required; unzip isn't used, but we keep the same check)
     if not check_system_requirements():
         return False
 

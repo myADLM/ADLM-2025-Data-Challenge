@@ -1,7 +1,5 @@
 from pathlib import Path
-from time import perf_counter
 
-import numpy as np
 import polars as pl
 import pyarrow as pa
 import pyarrow.parquet as pq
@@ -10,7 +8,6 @@ from app.src.database.chunker import chunk_text
 from app.src.util.configurations import get_app_root, load_config
 from app.src.util.open_ai_api import OpenAIAPI
 from app.src.util.read_documents import read_documents_as_plaintext
-from app.src.util.s3 import get_s3_client
 
 
 def bronze_database(pdfs_dir: Path, output_path: Path):
@@ -66,7 +63,7 @@ def gold_database(silver_path: Path, output_path: Path):
                 / "embeddings"
                 / "text-embedding-3-large"
                 / x["file_path"][:-4]
-                / f"{x['chunk_index']}.npy"
+                / f"{x['chunk_index']}.npy",
             ),
             return_dtype=pl.List(pl.Float32),
         ),
