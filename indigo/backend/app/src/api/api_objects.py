@@ -4,8 +4,8 @@ from typing import List, Literal, Optional
 from pydantic import BaseModel, Field, HttpUrl
 
 
-class AgentType(str, Enum):
-    """Enumeration of supported agent types."""
+class RoleType(str, Enum):
+    """Enumeration of supported role types."""
 
     USER = "user"
     ASSISTANT = "assistant"
@@ -32,13 +32,13 @@ class SearchType(str, Enum):
 class ChatItem(BaseModel):
     """Individual chat message item."""
 
-    agent: AgentType = Field(..., description="The agent who sent the message")
+    role: RoleType = Field(..., description="The role who sent the message")
     text: str = Field(..., min_length=1, description="The text content of the message")
 
     class Config:
         json_schema_extra = {
             "example": {
-                "agent": "user",
+                "role": "user",
                 "text": "What is the main topic of this document?",
             }
         }
@@ -58,11 +58,11 @@ class ChatRequest(BaseModel):
             "example": {
                 "chat_items": [
                     {
-                        "agent": "user",
+                        "role": "user",
                         "text": "What is the main topic of this document?",
                     },
                     {
-                        "agent": "assistant",
+                        "role": "assistant",
                         "text": "I'll help you find information about the document topic.",
                     },
                 ],
@@ -109,11 +109,11 @@ class ChatResponse(BaseModel):
             "example": {
                 "chat_items": [
                     {
-                        "agent": "user",
+                        "role": "user",
                         "text": "What documents are available about cardiovascular testing?",
                     },
                     {
-                        "agent": "assistant",
+                        "role": "assistant",
                         "text": "I found several relevant documents about cardiovascular testing. Here are the most relevant ones:",
                     },
                 ],

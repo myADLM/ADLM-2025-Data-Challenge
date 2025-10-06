@@ -30,30 +30,30 @@ def _openai_chat(model: str, messages: list[ChatItem], context_chunks: list[dict
 
         openai_messages = []
         for msg in messages:
-            openai_messages.append({"role": msg.agent.value, "content": msg.text})
+            openai_messages.append({"role": msg.role.value, "content": msg.text})
 
         response = openai_client.chat(
-            model=model, 
             messages=openai_messages,
             context_chunks=context_chunks,
+            model=model, 
         )
 
         return response
     except Exception as e:
         return f"Error querying gpt {model}: {str(e)}"
 
-def _nova_chat(messages: list[ChatItem], context_chunks: list[dict[str, str]]) -> str:
+def _nova_chat(messages: list[ChatItem], context_chunks: list[dict[str, str]]) -> str | None:
     try:
         nova_client = NovaClient()
 
         nova_messages = []
         for msg in messages:
-            nova_messages.append({"role": msg.agent.value, "content": msg.text})
+            nova_messages.append({"role": msg.role.value, "content": msg.text})
 
             response = nova_client.chat(
-                model="amazon-nova-pro:v1",
                 messages = nova_messages,
-                context_chunks=context_chunks
+                context_chunks=context_chunks,
+                model="amazon.nova-pro-v1:0",
             )
 
             return response

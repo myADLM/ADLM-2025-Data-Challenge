@@ -66,8 +66,7 @@ def gold_database(silver_path: Path, output_path: Path):
                 / "embeddings"
                 / "text-embedding-3-large"
                 / x["file_path"][:-4]
-                / f"{x['chunk_index']}.npy",
-                dtype=np.float32,
+                / f"{x['chunk_index']}.npy"
             ),
             return_dtype=pl.List(pl.Float32),
         ),

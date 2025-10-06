@@ -22,7 +22,7 @@ class Search:
 
     def search(
         self, text: str, search_type: SearchType, k: int = 10
-    ) -> list[dict[str, list[str]]]:
+    ) -> list[dict[str, str]]:
         if search_type == SearchType.BM25:
             return self.bm25_search(text, k)
         elif search_type == SearchType.VECTOR_SEARCH:

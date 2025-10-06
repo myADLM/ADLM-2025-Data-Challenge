@@ -2,5 +2,6 @@
 backend/app/database/**
 backend/app/input_data/raw_input_data.zip
 backend/tmp/**
+backend/.idea/**
 local_orchestration/docker/**
 .env

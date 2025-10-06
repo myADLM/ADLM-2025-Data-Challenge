@@ -77,7 +77,7 @@ export const useChat = (backendConnected) => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     if (message.trim() && !isLoadingChat) {
-      const userMessage = { agent: 'user', text: message.trim() }
+      const userMessage = { role: 'user', text: message.trim() }
       const newChatHistory = [...chatHistory, userMessage]
       setChatHistory(newChatHistory)
       setMessage('')
@@ -115,7 +115,7 @@ export const useChat = (backendConnected) => {
           } else {
             // Fallback if response doesn't include chat_items
             setChatHistory(prev => [...prev, { 
-              agent: 'assistant', 
+              role: 'assistant', 
               text: data.response || 'I received your message but couldn\'t process it properly.' 
             }])
           }
@@ -130,7 +130,7 @@ export const useChat = (backendConnected) => {
         } catch (error) {
           console.error('Error calling chat API:', error)
           setChatHistory(prev => [...prev, { 
-            agent: 'assistant', 
+            role: 'assistant', 
             text: 'Sorry, I encountered an error processing your request. Please try again.' 
           }])
         } finally {
@@ -139,7 +139,7 @@ export const useChat = (backendConnected) => {
       } else {
         // Add error message to chat if backend is not connected
         setChatHistory(prev => [...prev, { 
-          agent: 'assistant', 
+          role: 'assistant', 
           text: "Sorry, I cannot process your request because the backend server is not available." 
         }])
       }

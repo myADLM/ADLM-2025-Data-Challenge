@@ -35,7 +35,7 @@ def chat_impl(request: ChatRequest, search_client: Search, database_path: Path):
 
     latest_user_message = None
     for item in reversed(chat_items):
-        if item.agent == "user":
+        if item.role == "user":
             latest_user_message = item.text
             break
     if not latest_user_message:
@@ -45,7 +45,7 @@ def chat_impl(request: ChatRequest, search_client: Search, database_path: Path):
     context_records = search_client.search(latest_user_message, search_type)
     chat_items.append(
         ChatItem(
-            agent="assistant",
+            role=RoleType.ASSISTANT,
             text=chat(query_model, chat_items, context_records),
         )
     )

@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 const ChatMessages = ({ chatHistory, isLoadingChat, chatMessagesRef }) => {
   return (
@@ -11,9 +13,13 @@ const ChatMessages = ({ chatHistory, isLoadingChat, chatMessagesRef }) => {
       ) : (
         <>
           {chatHistory.map((msg, index) => (
-            <div key={index} className={`message ${msg.agent}`}>
+            <div key={index} className={`message ${msg.role}`}>
               <div className="message-content">
-                {msg.text}
+                {msg.role === 'assistant' ? (
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.text}</ReactMarkdown>
+                ) : (
+                  msg.text
+                )}
               </div>
             </div>
           ))}
