@@ -106,7 +106,6 @@ with st.sidebar:
         st.success(f"Added {len(chunks)} chunks from {uploaded_file.name} to the knowledge base!")
         os.remove(tmp_path)
 
-# Admin dashboard in sidebar 
 try:
     metadata = pd.read_pickle("lab_metadata.pkl")
     num_docs = metadata['filename'].nunique()
@@ -121,6 +120,7 @@ if "query_count" not in st.session_state:
 if user_input:
     st.session_state.query_count += 1
 
+# Place admin dashboard at the end of the sidebar
 with st.sidebar:
     st.markdown("---")
     st.markdown("### 📊 Admin Dashboard")
