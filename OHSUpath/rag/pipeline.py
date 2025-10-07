@@ -187,13 +187,13 @@ class RagPipeline:
         if mode == "dense":
             return dense_lc_retriever
 
-        # ---- prepare sparse index (bm25s default, silent fallback to rank_bm25) ----
-        from .vectorstores.bm25_store import BM25SparseIndex
+        # ---- sparse shards (base + delta) ----
+        from .vectorstores.bm25_shards import BM25ShardSet
         from .retriever import HybridBM25FaissRetriever, QueryTypeDetector
         from .rerankers import CharNGramReranker, CharNGramCfg
 
         sparse_backend = str(_cfg_get(_cfg_get(self.cfg, "sparse", None), "backend", "bm25s")).lower()
-        sparse_path = os.path.join(str(self.layout.index_dir), "sparse_index.pkl")
+        shards_root = os.path.join(str(self.layout.index_dir), "sparse_shards")
 
         def _collect_items_from_docstore():
             ds = getattr(self.vindex, "_docstore", None)
@@ -209,23 +209,14 @@ class RagPipeline:
                 items.append((cid, txt))
             return items
 
-        # Load or build sparse index
-        if os.path.exists(sparse_path):
-            try:
-                sparse_index = BM25SparseIndex.load(sparse_path)
-            except Exception:
-                items = _collect_items_from_docstore()
-                sparse_index = BM25SparseIndex(backend=sparse_backend)
-                sparse_index.build(items)
-                sparse_index.save(sparse_path)
-        else:
-            items = _collect_items_from_docstore()
-            sparse_index = BM25SparseIndex(backend=sparse_backend)
-            sparse_index.build(items)
-            sparse_index.save(sparse_path)
+        shardset = BM25ShardSet(shards_root, backend=sparse_backend)
+        shardset.ensure_base(_collect_items_from_docstore)
 
         def sparse_search(query: str, topk: int):
-            return sparse_index.search(query, k=topk)
+            ds = getattr(self.vindex, "_docstore", None)
+            exists = set(getattr(ds, "_dict", {}).keys()) if ds is not None else set()
+            pairs = shardset.search(query, k=topk)
+            return [(cid, sc) for cid, sc in pairs if cid in exists]
 
         # Direct dense search on FAISS (hybrid path does not use LC MMR)
         import numpy as np

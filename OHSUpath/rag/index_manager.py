@@ -156,7 +156,7 @@ def _cfg_get(obj: Any, name: str, default: Any = None) -> Any:
 
 class IndexManager:
     """
-    Orchestrates scan → diff → load → split → embed(+cache) → (LOCK) delete/upsert/persist → manifest → journal.
+    Orchestrates scan -> diff -> load -> split -> embed(+cache) -> (LOCK) delete/upsert/persist -> manifest -> journal.
     Heavy work (I/O & compute) happens OUTSIDE the lock; only mutations are locked.
     """
 
@@ -326,7 +326,7 @@ class IndexManager:
                         raise ValueError(f"Embedding dim mismatch: got {len(vecs[0])}, expected {expected_dim}")
                 _report("embed_done", vectors=len(vecs))
 
-            # 7) commit stage (lock): delete → upsert → persist → manifest
+            # 7) commit stage (lock): delete -> upsert -> persist -> manifest
             lock_cfg = _cfg_get(self.cfg, "lock", None)
             lock_kwargs = dict(
                 timeout_s=float(_cfg_get(lock_cfg, "timeout_s", 30.0)),
@@ -360,6 +360,27 @@ class IndexManager:
                 # persist index + manifest
                 self.index.persist_atomic(str(self.layout.index_dir))
                 save_bulk(str(self.layout.manifest_db), curr)
+
+                # ---- (NEW) append sparse delta shard for added/modified chunks ----
+                try:
+                    if chunks:
+                        from .vectorstores.bm25_shards import BM25ShardSet
+                        sparse_cfg = _cfg_get(self.cfg, "sparse", None)
+                        backend = str(_cfg_get(sparse_cfg, "backend", "bm25s")).lower()
+                        shards_root = os.path.join(str(self.layout.index_dir), "sparse_shards")
+
+                        def _fmt_item(c: Chunk):
+                            src = c.file_path or (c.meta or {}).get("source") or (c.meta or {}).get("file_path") or (c.meta or {}).get("path") or ""
+                            pg = c.page_no if c.page_no is not None else (c.meta or {}).get("page") or (c.meta or {}).get("page_number") or (c.meta or {}).get("page_no") or ""
+                            txt = f"{c.content}\n[SRC:{src} P:{pg}]"
+                            return (c.chunk_id, txt)
+
+                        items = [_fmt_item(c) for c in chunks]
+                        shardset = BM25ShardSet(shards_root, backend=backend)
+                        shardset.add_delta(items)
+                except Exception as _e:
+                    if enable_journal:
+                        journal_append(self.layout, "SPARSE_DELTA_ERROR", {"error": repr(_e)})
             _report("commit_done")
 
             if enable_journal:

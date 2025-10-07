@@ -20,34 +20,34 @@
 #      Environment variables (running in code) > THIS FILE (config.yaml) > defaults in config.py
 #
 #  ABOUT USE_YAML_CONFIG (defined in app.py):
-#      - True  → Environment vars > THIS FILE (config.yaml) > defaults in config.py
-#      - False → Environment vars > defaults in config.py   (YAML file is ignored)
+#      - True  -> Environment vars > THIS FILE (config.yaml) > defaults in config.py
+#      - False -> Environment vars > defaults in config.py   (YAML file is ignored)
 ##
 #  EXAMPLES when USE_YAML_CONFIG = True:
 #      Example 1:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:              1
-#          → Program will use:   1  (from environment variables)
+#          -> Program will use:   1  (from environment variables)
 #
 #      Example 2:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:            (none)
-#          → Program will use:   2  (from config.yaml)
+#          -> Program will use:   2  (from config.yaml)
 #
 #  EXAMPLES when USE_YAML_CONFIG = False:
 #      Example 3:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:              1
-#          → Program will use:   1  (from environment variables)
+#          -> Program will use:   1  (from environment variables)
 #
 #      Example 4:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:            (none)
-#          → Program will use:   3  (from config.py)
+#          -> Program will use:   3  (from config.py)
 # =============================================================
 
 paths:
@@ -127,7 +127,7 @@ embedding:
   embedding_dim: 384
   batch_size: 64                    # batch size for embedding
   faiss_metric: "ip"                # "l2" or "ip"
-  normalize_embeddings: True
+  normalize_embeddings: true
   multi_gpu: false          # false | "auto" | [0,1]
   dtype: "float32"          # "float32" | "float16"
   pad_to_batch: false       # steady throughput for multi-GPU
@@ -177,6 +177,10 @@ sparse:
     gap_threshold: 0.05
     top1_threshold: 0.40
     max_rerank: 120
+  compaction:
+    enabled: true
+    interval_s: 600        # Check every 10 min
+    quiet_delay_s: 300     # Do compact when no new delta in 5 min
 
 faiss:
   strict_meta_check: true

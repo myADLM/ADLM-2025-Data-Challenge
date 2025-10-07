@@ -21,34 +21,34 @@
 #
 #
 #  ABOUT USE_YAML_CONFIG (defined in app.py):
-#      - True  → Environment vars > config.yaml > defaults in config.py
-#      - False → Environment vars > defaults in config.py   (YAML file is ignored)
+#      - True  -> Environment vars > config.yaml > defaults in config.py
+#      - False -> Environment vars > defaults in config.py   (YAML file is ignored)
 #
 #  EXAMPLES when USE_YAML_CONFIG = True:
 #      Example 1:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:              1
-#          → Program will use:   1  (from environment variables)
+#          -> Program will use:   1  (from environment variables)
 #
 #      Example 2:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:            (none)
-#          → Program will use:   2  (from config.yaml)
+#          -> Program will use:   2  (from config.yaml)
 #
 #  EXAMPLES when USE_YAML_CONFIG = False:
 #      Example 3:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:              1
-#          → Program will use:   1  (from environment variables)
+#          -> Program will use:   1  (from environment variables)
 #
 #      Example 4:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:            (none)
-#          → Program will use:   3  (from config.py)
+#          -> Program will use:   3  (from config.py)
 # =============================================================
 
 
@@ -207,9 +207,9 @@ class RetrieverCfg:
     search_type: str = "similarity"  # Retrieval strategy
     k: int = 4  # Number of results to return per query
     fetch_k: int = 50  # initial candidates for retrievers/rerankers
-    use_mmr: bool = False                 
-    lambda_mult: float = 0.5              
-    score_threshold: Optional[float] = None  
+    use_mmr: bool = False
+    lambda_mult: float = 0.5
+    score_threshold: Optional[float] = None
     search_kwargs: Dict[str, Any] = field(default_factory=dict)
 
 @dataclass
@@ -249,9 +249,17 @@ class NGramRerankCfg:
     max_rerank: int = 120         # rerank only top-N sparse hits
 
 @dataclass
+class SparseCompactionCfg:
+    enabled: bool = True
+    interval_s: int = 600
+    quiet_delay_s: int = 300
+    max_keep_bases: int = 1
+
+@dataclass
 class SparseCfg:
     backend: str = "bm25s"
     ngram_rerank: NGramRerankCfg = field(default_factory=NGramRerankCfg)
+    compaction: SparseCompactionCfg = field(default_factory=SparseCompactionCfg)
 
 @dataclass
 class FaissCfg:
@@ -391,7 +399,4 @@ def load_config(yaml_path: Optional[str] = "config.yaml", use_yaml: bool = True)
             v = val
         setattr(target, leaf_name, v)
 
-
     return cfg
-
-
