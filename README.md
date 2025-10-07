@@ -26,7 +26,7 @@ A conversational AI assistant for laboratory procedure documents. Ask questions 
 
 OR 
 
-- Upload new PDF documents directly from the sidebar. They are instantly added to the knowledge base and available for chat queries
+- Upload new PDF documents directly from the sidebar. They are instantly added to the knowledge base and available for chat queries. Feature is password protected and only available for administrators. 
 
 
 ## Project Structure
