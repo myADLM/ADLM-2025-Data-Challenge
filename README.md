@@ -5,17 +5,17 @@
 
 # ADLM LabDocs Chat Assistant
 
-A conversational AI assistant for laboratory procedure documents. Ask questions about lab protocols, equipment, and samples—get answers with document citations, powered by OpenAI and semantic search.
+A conversational AI assistant for laboratory procedure documents. Ask questions about lab protocols, equipment, and samples. Get answers with document citations, powered by OpenAI and semantic search.
 
 ## Features
 - **Conversational chatbox** (web app) with context-aware follow-up questions
-- **Cites sources** (filename and chunk) for every answer
+- **Cites sources** (filename and excel chunk) for every answer
 - **Fast semantic search** using FAISS and Sentence Transformers
-- **Easy incremental updates**: add new documents without rebuilding everything
+- **Easy incremental updates**: append new documents without rebuilding everything
 - **Modern UI**: avatars, sidebar, clear chat, and more
 
 ## Adding New Documents
-1. Place new PDF files in the `LabDocs/` folder (or subfolders).
+1. Place new PDF files in the `LabDocs/` folder.
 2. Run the incremental update script:
    ```
    python add_new_documents.py
@@ -28,9 +28,7 @@ A conversational AI assistant for laboratory procedure documents. Ask questions 
 ├── ask.py                # Main retrieval and QA logic
 ├── chat_app.py           # Streamlit chat UI
 ├── add_new_documents.py  # Incremental document updater
-├── random_chat_test.py   # Randomized citation test
 ├── requirements.txt      # Python dependencies
-├── key.env               # (local only) OpenAI API key
 ├── lab_metadata.pkl      # Metadata for all chunks
 ├── lab_index.faiss       # FAISS search index
 ├── LabDocs/              # Folder with all lab documents
