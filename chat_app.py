@@ -8,7 +8,7 @@ import faiss
 from sentence_transformers import SentenceTransformer
 from PyPDF2 import PdfReader
 
-# --- Sidebar with logo and info ---
+# Sidebar with logo and info 
 st.sidebar.title("LabDocs Chat Assistant")
 st.sidebar.markdown("""
 **Welcome!**
@@ -19,7 +19,7 @@ If you have a follow-up question, just ask!
 if st.sidebar.button("Clear Chat 🗑️"):
     st.session_state.history = []
 
-# --- Main area ---
+# Main area 
 
 st.markdown(
     """
@@ -37,7 +37,7 @@ st.markdown(
 st.title("🧪 LabDocs Chat Assistant 🧪")
 st.divider()
 
-# --- Chat history ---
+# Chat history 
 if "history" not in st.session_state:
     st.session_state.history = []
 
@@ -46,7 +46,7 @@ for msg in st.session_state.history:
     with st.chat_message(msg["role"], avatar=avatar):
         st.markdown(msg["content"])
 
-# --- Chat input ---
+# Chat input 
 user_input = st.chat_input("Type your question and press Enter...")
 
 if user_input:
@@ -61,9 +61,9 @@ if user_input:
     with st.chat_message("assistant", avatar="🧑‍🔬"):
         st.markdown(answer)
 
-# --- File upload in sidebar ---
+# File upload in sidebar 
 with st.sidebar:
-    uploaded_file = st.file_uploader("Upload a PDF to add to the knowledge base", type=["pdf"])
+    uploaded_file = st.file_uploader("Upload new PDFs to add to the base", type=["pdf"])
     if uploaded_file is not None:
         # Save uploaded file to a temp location
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
