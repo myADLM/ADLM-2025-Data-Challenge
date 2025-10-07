@@ -21,34 +21,34 @@
 #
 #
 #  ABOUT USE_YAML_CONFIG (defined in app.py):
-#      - True  → Environment vars > config.yaml > defaults in config.py
-#      - False → Environment vars > defaults in config.py   (YAML file is ignored)
+#      - True  -> Environment vars > config.yaml > defaults in config.py
+#      - False -> Environment vars > defaults in config.py   (YAML file is ignored)
 #
 #  EXAMPLES when USE_YAML_CONFIG = True:
 #      Example 1:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:              1
-#          → Program will use:   1  (from environment variables)
+#          -> Program will use:   1  (from environment variables)
 #
 #      Example 2:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:            (none)
-#          → Program will use:   2  (from config.yaml)
+#          -> Program will use:   2  (from config.yaml)
 #
 #  EXAMPLES when USE_YAML_CONFIG = False:
 #      Example 3:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:              1
-#          → Program will use:   1  (from environment variables)
+#          -> Program will use:   1  (from environment variables)
 #
 #      Example 4:
 #          default in config.py: 3
 #          config.yaml:          2
 #          env var:            (none)
-#          → Program will use:   3  (from config.py)
+#          -> Program will use:   3  (from config.py)
 # =============================================================
 
 
@@ -207,10 +207,59 @@ class RetrieverCfg:
     search_type: str = "similarity"  # Retrieval strategy
     k: int = 4  # Number of results to return per query
     fetch_k: int = 50  # initial candidates for retrievers/rerankers
-    use_mmr: bool = False                 
-    lambda_mult: float = 0.5              
-    score_threshold: Optional[float] = None  
+    use_mmr: bool = False
+    lambda_mult: float = 0.5
+    score_threshold: Optional[float] = None
     search_kwargs: Dict[str, Any] = field(default_factory=dict)
+
+@dataclass
+class WeightsPairCfg:
+    sparse: float = 0.8
+    dense: float = 0.2
+
+@dataclass
+class HybridWeightsCfg:
+    # weights.keyword / weights.semantic
+    keyword: WeightsPairCfg = field(default_factory=lambda: WeightsPairCfg(0.8, 0.2))
+    semantic: WeightsPairCfg = field(default_factory=lambda: WeightsPairCfg(0.3, 0.7))
+
+@dataclass
+class RetrievalHybridCfg:
+    final_k: int = 12
+    dense_k: int = 40
+    sparse_k: int = 80
+    weights: HybridWeightsCfg = field(default_factory=HybridWeightsCfg)
+
+@dataclass
+class RetrievalOrchestratorCfg:
+    # dense | hybrid | sparse | auto(=hybrid)
+    mode: str = "hybrid"
+    hybrid: RetrievalHybridCfg = field(default_factory=RetrievalHybridCfg)
+
+@dataclass
+class NGramRerankCfg:
+    # n-gram rerank policy: auto | on | off
+    mode: str = "auto"
+    n: int = 3
+    weight: float = 0.35
+    jaccard_w: float = 0.6
+    fuzz_w: float = 0.4
+    gap_threshold: float = 0.05   # trigger when sparse top-5 gap too small
+    top1_threshold: float = 0.40  # trigger when sparse top1 (normalized) too low
+    max_rerank: int = 120         # rerank only top-N sparse hits
+
+@dataclass
+class SparseCompactionCfg:
+    enabled: bool = True
+    interval_s: int = 600
+    quiet_delay_s: int = 300
+    max_keep_bases: int = 1
+
+@dataclass
+class SparseCfg:
+    backend: str = "bm25s"
+    ngram_rerank: NGramRerankCfg = field(default_factory=NGramRerankCfg)
+    compaction: SparseCompactionCfg = field(default_factory=SparseCompactionCfg)
 
 @dataclass
 class FaissCfg:
@@ -218,7 +267,6 @@ class FaissCfg:
     clear_on_delete: bool = True        # delete_by_chunk_ids clears whole index
     normalize_query_in_ip: bool = True  # in ip mode, normalize query if callable
     index_params: Dict[str, Any] = field(default_factory=dict)
-
 
 @dataclass
 class LLMCfg:
@@ -254,6 +302,8 @@ class Config:
     split: SplitCfg = field(default_factory=SplitCfg)
     embedding: EmbeddingCfg = field(default_factory=EmbeddingCfg)
     retriever: RetrieverCfg = field(default_factory=RetrieverCfg)
+    retrieval: RetrievalOrchestratorCfg = field(default_factory=RetrievalOrchestratorCfg)
+    sparse: SparseCfg = field(default_factory=SparseCfg)
     llm: LLMCfg = field(default_factory=LLMCfg)
     hashing: HashingCfg = field(default_factory=HashingCfg)
     journal: JournalCfg = field(default_factory=JournalCfg)
@@ -349,7 +399,4 @@ def load_config(yaml_path: Optional[str] = "config.yaml", use_yaml: bool = True)
             v = val
         setattr(target, leaf_name, v)
 
-
     return cfg
-
-

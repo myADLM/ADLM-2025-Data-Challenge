@@ -10,31 +10,31 @@ All notable changes to this project will be documented in this file.
 - Make a progress bar on frontend UI to help users understand the current stage.  
 - **Important:** Add limiter to pdf preload to avoid memory overflow.
 
-- **Query Type Detection:** Automatically classify user queries into “keyword-oriented” vs “semantic-oriented”:  
-  - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers → prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
-  - **Semantic-oriented**: longer natural language questions, explanations, or vague requests → prioritize dense/vector retrieval.  
+- **Query Type Detection:** Automatically classify user queries into "keyword-oriented" vs "semantic-oriented":  
+  - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers -> prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
+  - **Semantic-oriented**: longer natural language questions, explanations, or vague requests -> prioritize dense/vector retrieval.  
 - **Hybrid Weighting:** Dynamically adjust sparse vs dense retrieval weights based on query type (e.g., 0.8 sparse / 0.2 dense for keyword queries; 0.3 sparse / 0.7 dense for semantic queries).  
-- **Sparse Retriever Upgrade:** Support dual backends — `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
+- **Sparse Retriever Upgrade:** Support dual backends - `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
 - **Character n-gram re-ranking:** Apply character n-gram scoring on sparse top-N candidates to improve recall on spelling variations, merged tokens, and special identifiers (e.g., `aa_inf3` vs `aainf3`).  
 
 
 **Net related Platform:**
 ### Core components
 
-- **API — FastAPI (Python)**  
+- **API - FastAPI (Python)**  
   Public API for health, auth, query, streaming, files, conversations; plugs into existing RAG pipeline.
 
-- **Gateway — Node.js (TypeScript)**  
+- **Gateway - Node.js (TypeScript)**  
   Single browser entry; login (JWT cookie), CORS, basic rate limiting, proxy to FastAPI, SSE pass-through, add security headers.
 
-- **Web — Next.js (TypeScript, responsive)**  
+- **Web - Next.js (TypeScript, responsive)**  
   One codebase for **desktop / tablet / mobile**; login, chat UI (supports streaming), conversation list, source preview; optional PWA later.
 
-- **Admin — Streamlit (local only)**  
+- **Admin - Streamlit (local only)**  
   Internal console for dataset ingest, chunking, embedding, indexing, and basic ops; not exposed to the public internet.
 
 - **RAG Engine (Python)**  
-  Load → split → embed → index → retrieve → answer; caches & indices live in local store.
+  Load -> split -> embed -> index -> retrieve -> answer; caches & indices live in local store.
 
 ### Security & multi-user
 - Login required for query/stream/files/conversations (via **JWT cookie**).
@@ -73,6 +73,55 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.37] - 2025-10-06
+### Added
+- Sharded sparse index `BM25ShardSet` (base + delta) with MinMax score fusion.
+- Background compaction daemon `start_sparse_compact_daemon(...)` (quiet-period merge, atomic switch).
+- Journaling for sparse ops: `SPARSE_COMPACT_*`, `SPARSE_DELTA_ERROR`.
+
+### Changed
+- `pipeline`: switch sparse retrieval to `BM25ShardSet`; filter results to existing docstore IDs.
+- `index_manager`: on commit, append sparse delta shards for added/modified chunks.
+- Deprecated direct use of `index/sparse_index.pkl`.
+
+### Fixed
+- Avoid refresh/commit races via interprocess lock during compaction.
+
+
+## [0.2.36] - 2025-09-30
+### Added
+- Hybrid retriever: FAISS dense + sparse search with `bm25s` (primary) and `rank_bm25` (fallback).
+- Sparse index wrapper `BM25SparseIndex`:
+  - Backend selection via `sparse.backend: bm25s | rank_bm25` (default: `bm25s`).
+  - `bm25s` path uses `bm25s.tokenize(...)` and `bm25s.BM25().index(...)`.
+  - Fallback to `rank_bm25.BM25Okapi` with a lightweight tokenizer when `bm25s` is not available.
+  - Save/load to a directory (e.g., `<index_dir>/sparse_index.pkl/`) with:
+    - `meta.json` (backend, stopwords) and `id_map.json` for both backends.
+    - `bm25s`: backend files saved by `bm25s.BM25.save(dir)`.
+    - `rank_bm25`: `tokenized_corpus.json` for rebuild on load.
+- Query-type detector (`QueryTypeDetector`) to weight keyword-like queries toward sparse (`bm25s`/`rank_bm25`) and semantic queries toward dense (FAISS).
+- Character n-gram + fuzzy reranker (`CharNGramReranker`) with config:
+  - `sparse.ngram_rerank.mode: auto | on | off`
+  - `sparse.ngram_rerank.{n,weight,jaccard_w,fuzz_w,gap_threshold,top1_threshold,max_rerank}`
+- Pipeline wiring for retrieval modes: `dense`, `sparse` (pure `bm25s`/`rank_bm25`), and `hybrid` (auto).
+- English ASCII-only pass for retrieval modules to remove Unicode in comments/strings.
+
+### Changed
+- FAISS IP metric: warn if both `embedding.normalize_embeddings` and `faiss.normalize_query_in_ip` are false.
+- Hybrid path performs direct FAISS search (no LC MMR) for consistent scoring.
+- Config reads hardened across dict/dataclass via `_cfg_get` and `_pair_from_cfg`.
+
+### Fixed
+- Single-query handling for `bm25s` tokenization shapes.
+- `rank_bm25` ranking path works without NumPy (pure-Python fallback).
+- Extra dedup by `chunk_id` to reduce repeated chunks.
+
+
+## [0.2.35] - 2025-09-22
+### Changed
+- Update `requirements.txt` for keyword-aware hybrid retrieval.
+
 
 ## [0.2.34] - 2025-09-15
 ### Added
@@ -277,8 +326,8 @@ All notable changes to this project will be documented in this file.
 
 ## [0.2.11] - 2025-09-10
 ### Added
-- Chat page: `net/web/src/app/chat/page.tsx`（SSE → `{NEXT_PUBLIC_API_BASE || "http://localhost:3000"}/query/stream`）
-- Env example: `net/web/.env.example`（`NEXT_PUBLIC_API_BASE`）
+- Chat page: `net/web/src/app/chat/page.tsx`(SSE -> `{NEXT_PUBLIC_API_BASE || "http://localhost:3000"}/query/stream`)
+- Env example: `net/web/.env.example`(`NEXT_PUBLIC_API_BASE`)
 
 
 ## [0.2.10] - 2025-09-10
@@ -312,7 +361,7 @@ All notable changes to this project will be documented in this file.
 ## [0.2.5] - 2025-09-09
 ### Added
 - `requirements.txt`: API deps.
-- `.gitignore`: ignore web build artifacts — `net/web/node_modules`, `.next`, `*.tsbuildinfo`.
+- `.gitignore`: ignore web build artifacts - `net/web/node_modules`, `.next`, `*.tsbuildinfo`.
 - `bootstrap/linux/setup.sh`: install/check Node/npm & tmux; auto-install `net/gateway` and `net/web` deps when present.
 
 ### Changed
@@ -325,7 +374,7 @@ All notable changes to this project will be documented in this file.
 - **bootstrap/linux/run_app.sh**: add a **temporary mitigation** (lower parallelism, safer I/O batching, conservative defaults) to stabilize startup and indexing. Now it runs on **WSL2** and **Linux** without memory overflows, crashes, or disconnections. (mitigation only; not a final fix)
 
 ### Fixed / Mitigated
-- Reduce frequency of Streamlit **“filechanged error”** and terminal warning  **“The current process just got forked, after parallelism has already been used.”**  (mitigation only; not a final fix)
+- Reduce frequency of Streamlit **"filechanged error"** and terminal warning  **"The current process just got forked, after parallelism has already been used."**  (mitigation only; not a final fix)
 
 
 ## [0.2.3] - 2025-09-03
@@ -355,7 +404,7 @@ All notable changes to this project will be documented in this file.
 - **Modular RAG Core:**
   - Separated components: Loader, Chunker, Embedder, VectorStore, IndexManager, and Pipeline.
   - Config-driven: all parameters (paths, split, embedding, FAISS, retriever, LLM) now come from config (`config.py`, `config.yaml`, or ENV).
-  - End-to-end pipeline: bootstrap → refresh → embed/cache → retrieve → answer.
+  - End-to-end pipeline: bootstrap -> refresh -> embed/cache -> retrieve -> answer.
 
 - **Resilience & Incremental Updates:**
   - **Task pre-initialization**: load/split/embed runs only once; subsequent queries reuse existing vectors without recomputation.
@@ -414,14 +463,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.36] - 2025-08-27
 ### Added
-- `startup_windows.ps1` — Windows setup (6 steps).
-- `run_windows.ps1` — non-admin runner; checks elevation/Python 3.11/Streamlit and launches `app.py`.
-- `Windows_Click_Me_To_Run_The_App.bat` — double-click entry for running the app.
-- `Windows_Click_Me_To_Setup_The_Computer.bat` — double-click entry for setup.
+- `startup_windows.ps1` - Windows setup (6 steps).
+- `run_windows.ps1` - non-admin runner; checks elevation/Python 3.11/Streamlit and launches `app.py`.
+- `Windows_Click_Me_To_Run_The_App.bat` - double-click entry for running the app.
+- `Windows_Click_Me_To_Setup_The_Computer.bat` - double-click entry for setup.
 
 ### Changed
-- `.gitignore` — update ignore rules.
-- `requirements.txt` — update missing requirements.
+- `.gitignore` - update ignore rules.
+- `requirements.txt` - update missing requirements.
 
 
 ## [0.1.35] - 2025-08-16
@@ -503,7 +552,7 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.30] - 2025-08-14
 ### Added
-- IndexManager: end-to-end pipeline (scan → diff → load → split → embed(+cache) → delete/upsert → persist → manifest).
+- IndexManager: end-to-end pipeline (scan -> diff -> load -> split -> embed(+cache) -> delete/upsert -> persist -> manifest).
 - Embed cache integration with collision-safe keys (text hash + model sig + normalize + dim).
 - Journal events: BEGIN_REFRESH / END_REFRESH (with ok flag, counts, elapsed ms).
 
@@ -617,7 +666,7 @@ All notable changes to this project will be documented in this file.
 - Compatible `Document` import (`langchain_core` / `langchain.schema`).
 
 ### Changed
-- `index_to_docstore_id` unified to `Dict[int, str]` (row → chunk_id).
+- `index_to_docstore_id` unified to `Dict[int, str]` (row -> chunk_id).
 - `as_retriever(...)` now requires an `embedding` (Embeddings or callable).
 - In `ip` mode:
   - Store vectors are normalized on `upsert`.
@@ -699,7 +748,7 @@ All notable changes to this project will be documented in this file.
 - **Journal module** in `rag/storage/journal.py`:
   - `journal_append()` writes JSONL with fields: `ts`, `event`, `data`, `host`, `pid`, `tid` (name), `tid_native` (numeric), `tid_name` (alias of name).
   - `iter_journal()` simple JSONL reader.
-  - `rotate_journal()` size-based rotation (`journal.log` → `.1..N`).
+  - `rotate_journal()` size-based rotation (`journal.log` -> `.1..N`).
   - Atomic appends via `O_APPEND`; optional `fsync`.
   - Optional compact JSON; optional per-record size guard.
 - **Config sections**:
@@ -787,7 +836,7 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.7] - 2025-08-10
 ### Stable version release
-- First stable end-to-end release: the full load → split → embed → index → retrieve → answer pipeline now runs reliably with stage-wise progress. This milestone consolidates the 0.1.4–0.1.6 improvements (PyMuPDF parsing, FAISS indexing, centralized config, and page-level progress) into a one-click, predictable startup.
+- First stable end-to-end release: the full load -> split -> embed -> index -> retrieve -> answer pipeline now runs reliably with stage-wise progress. This milestone consolidates the 0.1.4-0.1.6 improvements (PyMuPDF parsing, FAISS indexing, centralized config, and page-level progress) into a one-click, predictable startup.
 
 
 ## [0.1.6] - 2025-08-10

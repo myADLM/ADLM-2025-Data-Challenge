@@ -1,6 +1,7 @@
 # app.py
 
 from __future__ import annotations
+import os
 import streamlit as st
 import shutil
 from pathlib import Path
@@ -361,6 +362,43 @@ pipe = st.session_state.pipe
 
 # Ensure DB is ready
 ensure_db_ready()
+
+# ---- (NEW) Start sparse compact daemon (once) ----
+if not st.session_state.get("_sparse_compact_started"):
+    try:
+        from rag.vectorstores.sparse_compact_daemon import start_sparse_compact_daemon
+        from rag.vectorstores.bm25_shards import BM25ShardSet  # ensure module import works
+        sparse_cfg = getattr(cfg, "sparse", None)
+        comp = getattr(sparse_cfg, "compaction", None) if sparse_cfg else None
+        enabled = bool(getattr(comp, "enabled", True)) if comp is not None else True
+        if enabled:
+            shards_root = os.path.join(str(pipe.layout.index_dir), "sparse_shards")
+            backend = str(getattr(sparse_cfg, "backend", "bm25s")).lower() if sparse_cfg else "bm25s"
+
+            def _collect_items():
+                ds = getattr(pipe.vindex, "_docstore", None)
+                dct = getattr(ds, "_dict", None) if ds is not None else None
+                if not isinstance(dct, dict):
+                    return []
+                out = []
+                for cid, doc in dct.items():
+                    md = getattr(doc, "metadata", {}) or {}
+                    src = md.get("source") or md.get("file_path") or md.get("path") or ""
+                    page = md.get("page") or md.get("page_number") or md.get("page_no") or ""
+                    out.append((cid, f"{doc.page_content}\n[SRC:{src} P:{page}]"))
+                return out
+
+            start_sparse_compact_daemon(
+                layout=pipe.layout,
+                backend=backend,
+                shards_root=shards_root,
+                collect_items=_collect_items,
+                interval_s=int(getattr(comp, "interval_s", 600)) if comp else 600,
+                quiet_delay_s=int(getattr(comp, "quiet_delay_s", 300)) if comp else 300,
+            )
+            st.session_state._sparse_compact_started = True
+    except Exception:
+        pass
 
 # Page config and title
 st.set_page_config(page_title=cfg.app.page_title, layout="wide")
