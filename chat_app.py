@@ -105,3 +105,22 @@ with st.sidebar:
         faiss.write_index(index, "lab_index.faiss")
         st.success(f"Added {len(chunks)} chunks from {uploaded_file.name} to the knowledge base!")
         os.remove(tmp_path)
+
+# Download chat history button 
+import io
+
+def format_chat_history(history):
+    lines = []
+    for msg in history:
+        role = "You" if msg["role"] == "user" else "LabDocs AI"
+        lines.append(f"{role}: {msg['content']}")
+    return "\n\n".join(lines)
+
+if st.session_state.history:
+    chat_txt = format_chat_history(st.session_state.history)
+    st.sidebar.download_button(
+        label="Download Chat History",
+        data=chat_txt,
+        file_name="labdocs_chat_history.txt",
+        mime="text/plain"
+    )
