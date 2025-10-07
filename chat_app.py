@@ -61,50 +61,63 @@ if user_input:
     with st.chat_message("assistant", avatar="🧑‍🔬"):
         st.markdown(answer)
 
-# File upload in sidebar 
+# Password-protected file upload 
+UPLOAD_PASSWORD = "admin"  # Change accordingly
+
 with st.sidebar:
-    uploaded_file = st.file_uploader("Upload new PDFs to add to the base", type=["pdf"])
-    if uploaded_file is not None:
-        # Save uploaded file to a temp location
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
-            tmp_file.write(uploaded_file.read())
-            tmp_path = tmp_file.name
-        # Extract text
-        reader = PdfReader(tmp_path)
-        text = "\n".join(page.extract_text() or '' for page in reader.pages)
-        # Chunk text
-        def chunk_text(text, chunk_size=500, overlap=50):
-            chunks = []
-            start = 0
-            while start < len(text):
-                end = min(start + chunk_size, len(text))
-                chunks.append(text[start:end])
-                start += chunk_size - overlap
-            return chunks
-        chunks = chunk_text(text)
-        # Load embedding model and index/metadata
-        model = SentenceTransformer("all-MiniLM-L6-v2")
-        metadata = pd.read_pickle("lab_metadata.pkl")
-        index = faiss.read_index("lab_index.faiss")
-        # Embed and add
-        new_embeddings = []
-        new_chunks = []
-        for i, chunk in enumerate(chunks):
-            new_chunks.append({
-                "filename": uploaded_file.name,
-                "chunk_id": i,
-                "text": chunk
-            })
-            new_embeddings.append(model.encode(chunk))
-        new_embeddings_np = np.vstack(new_embeddings)
-        index.add(new_embeddings_np)
-        # Update metadata
-        metadata = pd.concat([metadata, pd.DataFrame(new_chunks)], ignore_index=True)
-        metadata.to_pickle("lab_metadata.pkl")
-        metadata.to_csv("lab_chunks.csv", index=False)
-        faiss.write_index(index, "lab_index.faiss")
-        st.success(f"Added {len(chunks)} chunks from {uploaded_file.name} to the knowledge base!")
-        os.remove(tmp_path)
+    st.markdown("---")
+    st.markdown("#### 🔒 Admin Upload")
+    upload_access = False
+    password = st.text_input("Enter upload password", type="password")
+    if password == UPLOAD_PASSWORD:
+        upload_access = True
+        st.success("Upload access granted.")
+    elif password:
+        st.error("Incorrect password.")
+
+    if upload_access:
+        uploaded_file = st.file_uploader("Upload a PDF to add to the knowledge base", type=["pdf"])
+        if uploaded_file is not None:
+            # Save uploaded file to a temp location
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
+                tmp_file.write(uploaded_file.read())
+                tmp_path = tmp_file.name
+            # Extract text
+            reader = PdfReader(tmp_path)
+            text = "\n".join(page.extract_text() or '' for page in reader.pages)
+            # Chunk text
+            def chunk_text(text, chunk_size=500, overlap=50):
+                chunks = []
+                start = 0
+                while start < len(text):
+                    end = min(start + chunk_size, len(text))
+                    chunks.append(text[start:end])
+                    start += chunk_size - overlap
+                return chunks
+            chunks = chunk_text(text)
+            # Load embedding model and index/metadata
+            model = SentenceTransformer("all-MiniLM-L6-v2")
+            metadata = pd.read_pickle("lab_metadata.pkl")
+            index = faiss.read_index("lab_index.faiss")
+            # Embed and add
+            new_embeddings = []
+            new_chunks = []
+            for i, chunk in enumerate(chunks):
+                new_chunks.append({
+                    "filename": uploaded_file.name,
+                    "chunk_id": i,
+                    "text": chunk
+                })
+                new_embeddings.append(model.encode(chunk))
+            new_embeddings_np = np.vstack(new_embeddings)
+            index.add(new_embeddings_np)
+            # Update metadata
+            metadata = pd.concat([metadata, pd.DataFrame(new_chunks)], ignore_index=True)
+            metadata.to_pickle("lab_metadata.pkl")
+            metadata.to_csv("lab_chunks.csv", index=False)
+            faiss.write_index(index, "lab_index.faiss")
+            st.success(f"Added {len(chunks)} chunks from {uploaded_file.name} to the knowledge base!")
+            os.remove(tmp_path)
 
 try:
     metadata = pd.read_pickle("lab_metadata.pkl")
@@ -123,7 +136,7 @@ if user_input:
 # Place admin dashboard at the end of the sidebar
 with st.sidebar:
     st.markdown("---")
-    st.markdown("### 📊 Admin Dashboard")
+    st.markdown("### Doc Dashboard")
     st.markdown(f"**Documents:** {num_docs}")
     st.markdown(f"**Chunks:** {num_chunks}")
     st.markdown(f"**User Queries (this session):** {st.session_state.query_count}")

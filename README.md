@@ -12,6 +12,9 @@ A conversational AI assistant for laboratory procedure documents. Ask questions 
 - **Fast semantic search** using FAISS and Sentence Transformers
 - **Easy incremental updates**: append new documents without rebuilding everything
 - **Modern UI**: avatars, sidebar, clear chat, and more
+- **File Upload**: upload new PDF documents directly from the sidebar
+- **Downloadable Chat History**: download your entire chat session as a `.txt` file
+- **Doc Dashboard**: view system stats like document count and user queries
 
 ## Adding New Documents
 1. Place new PDF files in the `LabDocs/` folder.
@@ -20,6 +23,10 @@ A conversational AI assistant for laboratory procedure documents. Ask questions 
    python add_new_documents.py
    ```
 3. Restart the chat app.
+
+OR 
+
+- Upload new PDF documents directly from the sidebar. They are instantly added to the knowledge base and available for chat queries
 
 
 ## Project Structure
@@ -60,10 +67,7 @@ You can run the entire app in a container using Docker:
 ## FAQ & Troubleshooting
 
 **Q: How do I add new documents?**  
-A: Place new PDFs in the `LabDocs/` folder and run `python add_new_documents.py`.
-
-**Q: How do I reset the chat?**  
-A: Click the "Clear Chat" button in the sidebar.
+A: Place new PDFs in the `LabDocs/` folder and run `python add_new_documents.py` or upload new PDF documents directly from the app sidebar. They are instantly and permamnently added to the index and available for chat queries.
 
 **Q: My app can't find the OpenAI API key!**  
 A: Make sure you set `OPENAI_API_KEY` as an environment variable, in `key.env`, or as a Streamlit Cloud secret.
