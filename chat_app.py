@@ -11,7 +11,6 @@ If you have a follow-up question, just ask!
 """)
 if st.sidebar.button("Clear Chat 🗑️"):
     st.session_state.history = []
-    st.experimental_rerun()
 
 # --- Main area ---
 
