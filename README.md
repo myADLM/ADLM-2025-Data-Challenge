@@ -1,4 +1,3 @@
-                                                                                           
 ---
 ## Live Demo
 [Open the LabDocs Chat Assistant](https://2025adlmdataanalyticschallenge-hrkr9xnzmkpkl5ajeqxjjb.streamlit.app/)
@@ -39,4 +38,38 @@ A conversational AI assistant for laboratory procedure documents. Ask questions 
 - "What equipment do I need for the Analytical Phase of Generating Results for 11-Deoxycortisol?"
 - "And what sample?" (as a follow-up)
 - "Summarize the procedure in [filename]."
+
+---
+
+## Running with Docker
+
+You can run the entire app in a container using Docker:
+
+1. **Build the Docker image:**
+   ```
+   docker build -t labdocs-chat .
+   ```
+2. **Run the container (replace YOUR_OPENAI_API_KEY):**
+   ```
+   docker run -p 8501:8501 -e OPENAI_API_KEY=YOUR_OPENAI_API_KEY labdocs-chat
+   ```
+3. **Open your browser at** [http://localhost:8501](http://localhost:8501)
+
+---
+
+## FAQ & Troubleshooting
+
+**Q: How do I add new documents?**  
+A: Place new PDFs in the `LabDocs/` folder and run `python add_new_documents.py`.
+
+**Q: How do I reset the chat?**  
+A: Click the "Clear Chat" button in the sidebar.
+
+**Q: My app can't find the OpenAI API key!**  
+A: Make sure you set `OPENAI_API_KEY` as an environment variable, in `key.env`, or as a Streamlit Cloud secret.
+
+**Q: Can I deploy this on my own server?**  
+A: Yes! Use the Dockerfile or run with `streamlit run chat_app.py` after installing dependencies.
+
+---
 
