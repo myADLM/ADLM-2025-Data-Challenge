@@ -106,6 +106,28 @@ with st.sidebar:
         st.success(f"Added {len(chunks)} chunks from {uploaded_file.name} to the knowledge base!")
         os.remove(tmp_path)
 
+# Admin dashboard in sidebar 
+try:
+    metadata = pd.read_pickle("lab_metadata.pkl")
+    num_docs = metadata['filename'].nunique()
+    num_chunks = len(metadata)
+except Exception:
+    num_docs = num_chunks = 0
+
+if "query_count" not in st.session_state:
+    st.session_state.query_count = 0
+
+# Increment query count on each user question
+if user_input:
+    st.session_state.query_count += 1
+
+with st.sidebar:
+    st.markdown("---")
+    st.markdown("### 📊 Admin Dashboard")
+    st.markdown(f"**Documents:** {num_docs}")
+    st.markdown(f"**Chunks:** {num_chunks}")
+    st.markdown(f"**User Queries (this session):** {st.session_state.query_count}")
+
 # Download chat history button 
 import io
 
