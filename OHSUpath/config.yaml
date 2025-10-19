@@ -189,6 +189,10 @@ manager:
   exclude_globs: []           # e.g. ["**/~$*"]
   follow_symlinks: false
   ignore_dotfiles: true
+  # WSL2 stability: batch processing to prevent memory overflow
+  file_batch_size: 500        # Process N files at a time (load->split->embed->commit)
+  embed_batch_size: 1000      # Embed N chunks at a time within each file batch
+  commit_batch_size: 5000     # Upsert N chunks at a time to vector store
 
 
 

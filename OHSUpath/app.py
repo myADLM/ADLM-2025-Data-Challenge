@@ -1,12 +1,22 @@
 # app.py
 
 from __future__ import annotations
+
+# CRITICAL: Set multiprocessing start method BEFORE any other imports
+# Use fork on Linux/WSL2 for performance (faster than spawn, shares memory efficiently)
+import multiprocessing as _mp
+import sys
+if sys.platform.startswith("linux"):
+    try:
+        _mp.set_start_method("fork", force=False)
+    except RuntimeError:
+        pass  # Already set
+
 import streamlit as st
 import shutil
 from pathlib import Path
 from config import load_config
 from rag.pipeline import RagPipeline
-import multiprocessing as _mp
 
 try:
     from langchain_core.callbacks import BaseCallbackHandler
@@ -133,6 +143,11 @@ def _ensure_index(
     weights = {"discover": 0.05, "diff": 0.05, "load": 0.20, "split": 0.20, "embed": 0.40, "commit": 0.10}
     seen: set[str] = set()
 
+    # Throttle UI updates to ~5 updates/sec (every 200ms)
+    import time
+    last_update_time = {"time": 0}
+    UPDATE_INTERVAL = 0.2
+
     # If rerun occurs within one session, we recompute pct from seen for simplicity
     def _pct() -> int:
         return int(sum(weights[p] for p in seen if p in weights) * 100)
@@ -156,6 +171,46 @@ def _ensure_index(
     if force_clean:
         _push(f"[info] Rebuilding index under: {pipe.layout.index_dir.parent}")
 
+    # Fast path: if not force_clean, check if we can skip reindexing entirely
+    if not force_clean:
+        try:
+            from rag.manifest_sqlite import load_all
+            prev = load_all(str(pipe.layout.manifest_db))
+
+            # Quick check: discover files and compare counts
+            from rag.loaders.pdf_loader_opt import PdfLoaderOptimized
+            if hasattr(pipe.loader, 'discover'):
+                current_files = list(pipe.loader.discover(pipe.layout.data_dir, pipe.layout.exts))
+            else:
+                current_files = []
+
+            # If counts match, do a quick hash check on a sample
+            if len(current_files) == len(prev):
+                # Bootstrap to load index
+                prev = pipe.bootstrap()
+
+                # Now check if files actually changed
+                _push("[info] Checking for changes...")
+                from rag.index_manager import _diff_files_lazy
+                m_cfg = pipe.cfg.manager if hasattr(pipe.cfg, 'manager') else None
+                hash_buf = int(m_cfg.hash_block_bytes if m_cfg and hasattr(m_cfg, 'hash_block_bytes') else 1024 * 1024)
+                curr, diff_result = _diff_files_lazy(current_files, prev, hash_buf=hash_buf)
+
+                # If nothing changed, skip directly to complete
+                if not diff_result.added and not diff_result.removed and not diff_result.modified:
+                    _push("[OK] No changes detected. Index is up to date.")
+                    st.session_state.index_phase = "complete"
+                    st.session_state.index_pct = 100
+                    if phase_ph:
+                        phase_ph.markdown("**complete**")
+                    bar_handle.progress(100)
+                    st.session_state.index_summary = f"Index up to date. {len(prev)} files in manifest."
+                    return prev
+        except Exception as e:
+            # Fall back to normal path if fast check fails
+            _push(f"[info] Fast check failed ({repr(e)}), running full refresh...")
+
+    # Normal path: bootstrap and run full pipeline
     try:
         prev = pipe.bootstrap()
     except RuntimeError as e:
@@ -178,24 +233,93 @@ def _ensure_index(
             """
             Progress event contract (emitted by IndexManager.refresh):
             - '{phase}_start' -> phase text + log
+            - '{phase}_progress' -> update current/total display
             - '{phase}_done'  -> log + bump progress
             - 'discover'/'diff' -> treat as completed phases
             - 'refresh_error' -> error log
             """
-            base = event.replace("_start", "").replace("_done", "")
+            base = event.replace("_start", "").replace("_done", "").replace("_progress", "")
+
             if event.endswith("_start"):
+                # Phase start: set phase label and initialize counters
                 st.session_state.index_phase = label_map.get(base, base)
+                st.session_state[f"{base}_current"] = kw.get("current", 0)
+                st.session_state[f"{base}_total"] = kw.get("total", 0)
+
+                # Update phase label with counts if available
+                total = kw.get("total", 0)
+                if total > 0:
+                    phase_text = f"{st.session_state.index_phase} (0 / {total:,})"
+                else:
+                    phase_text = st.session_state.index_phase
+
                 if phase_ph:
-                    phase_ph.markdown(f"**{st.session_state.index_phase}**")
+                    phase_ph.markdown(f"**{phase_text}**")
                 _push(f"- {base}... {kw}")
+
+            elif event.endswith("_progress"):
+                # Granular progress update: update current/total display
+                current = kw.get("current", 0)
+                total = kw.get("total", 0)
+                cached = kw.get("cached", 0)
+
+                # Always update session state (this is the source of truth)
+                st.session_state[f"{base}_current"] = current
+                st.session_state[f"{base}_total"] = total
+                if cached > 0:
+                    st.session_state[f"{base}_cached"] = cached
+
+                # Throttle UI updates to ~30 updates/sec based on wall-clock time
+                current_time = time.time()
+                time_since_last = current_time - last_update_time["time"]
+                is_final = (current == total and total > 0)
+
+                # Update UI if: enough time passed OR it's the final update
+                if time_since_last >= UPDATE_INTERVAL or is_final:
+                    last_update_time["time"] = current_time
+
+                    # Read current state (may have advanced since this callback was queued)
+                    display_current = st.session_state.get(f"{base}_current", current)
+                    display_total = st.session_state.get(f"{base}_total", total)
+                    display_cached = st.session_state.get(f"{base}_cached", 0)
+
+                    # Build progress text
+                    if display_cached > 0:
+                        phase_text = f"{label_map.get(base, base)} ({display_current:,} / {display_total:,}, {display_cached:,} cached)"
+                    elif display_total > 0:
+                        phase_text = f"{label_map.get(base, base)} ({display_current:,} / {display_total:,})"
+                    else:
+                        phase_text = label_map.get(base, base)
+
+                    if phase_ph:
+                        # Re-render the placeholder to force visual update
+                        phase_ph.markdown(f"**{phase_text}**")
+
+                    # Log batched progress for commit phase (only when totals are small)
+                    if base == "commit" and display_total > 0 and display_total < 5000:
+                        _push(f"  -> committed {display_current:,} / {display_total:,} chunks")
+
             elif event.endswith("_done"):
+                # Phase complete: finalize counters and bump progress bar
+                current = kw.get("current", st.session_state.get(f"{base}_current", 0))
+                total = kw.get("total", st.session_state.get(f"{base}_total", 0))
+
+                # Update final phase text
+                if total > 0:
+                    phase_text = f"{label_map.get(base, base)} ({current:,} / {total:,})"
+                    if phase_ph:
+                        phase_ph.markdown(f"**{phase_text}**")
+
                 _push(f"[OK] {base} done. {kw}")
                 _bump(base)
+
             elif event in ("discover", "diff"):
                 _push(f"[OK] {base}. {kw}")
                 _bump(base)
+
             elif event == "refresh_error":
                 _push(f"[ERROR] {kw.get('error')}")
+
             else:
                 _push(f"- {event}: {kw}")
 
@@ -291,18 +415,35 @@ if "pipe" not in st.session_state:
     st.session_state.pipe = RagPipeline(st.session_state.cfg)
 if "qa" not in st.session_state:
     st.session_state.qa = None
+# --- manifest_count (lightweight) ---
 if "manifest_count" not in st.session_state:
-    st.session_state.manifest_count = 0
+    try:
+        import sqlite3
+        manifest_path = str(st.session_state.pipe.layout.manifest_db)
+        if Path(manifest_path).exists():
+            with sqlite3.connect(manifest_path) as conn:
+                cur = conn.execute("SELECT COUNT(1) FROM manifest")
+                row = cur.fetchone()
+                st.session_state.manifest_count = (row[0] if row else 0) or 0
+        else:
+            st.session_state.manifest_count = 0
+    except Exception:
+        st.session_state.manifest_count = 0
 if "show_llm_payload" not in st.session_state:
     st.session_state.show_llm_payload = True
 # progress card open/closed
 if "prog_open" not in st.session_state:
     st.session_state.prog_open = False
 # persisted progress state defaults
-st.session_state.setdefault("index_phase", "idle")
+# Set initial phase based on whether indexing is needed
+if st.session_state.manifest_count == 0:
+    st.session_state.setdefault("index_phase", "starting...")
+else:
+    st.session_state.setdefault("index_phase", "idle")
 st.session_state.setdefault("index_pct", 0)
 st.session_state.setdefault("index_logs", [])
 st.session_state.setdefault("index_summary", "")
+st.session_state.setdefault("config_msg", "")
 
 cfg = st.session_state.cfg
 pipe = st.session_state.pipe
@@ -310,105 +451,169 @@ _page_title(cfg)
 
 # ---- SIDEBAR modules ----
 with st.sidebar:
-    # === Custom Progress Card (collapsible) ===
+    # === TITLE ===
+    st.markdown("### Control Panel")
+
+    # === 1. PROGRESS TRACKING ===
     prog_card = st.container(border=True)
     with prog_card:
-        # Header button toggles card expansion; summary stays inside the same card
-        arrow = "v" if st.session_state.prog_open else ">"
-        label = f"{arrow} Progress"
-        if st.button(label, key="prog_toggle", use_container_width=True):
-            st.session_state.prog_open = not st.session_state.prog_open
-
-        # Row 2: current phase (placeholder) - always visible
+        # Current phase (placeholder) - always visible
         phase_ph = st.empty()
         phase_ph.markdown(f"**{st.session_state.index_phase}**")
 
-        # Row 3: overall progress bar - always visible
+        # Overall progress bar - always visible
         bar_ph = st.progress(st.session_state.index_pct)
 
-        # Details (logs) - only visible when expanded
+        # Toggle button for detailed logs
+        if st.button("Show Details" if not st.session_state.prog_open else "Hide Details",
+                     key="prog_toggle", use_container_width=True):
+            st.session_state.prog_open = not st.session_state.prog_open
+            st.rerun()
+
+        # Detailed logs - only visible when expanded
         log_ph = None
         if st.session_state.prog_open:
-            st.caption("Details")
+            st.caption("Detailed Logs")
             log_ph = st.empty()
-            # show last logs immediately
             log_ph.text("\n".join(st.session_state.index_logs[-400:]))
 
-    # === Settings module ===
-    set_card = st.container(border=True)
-    with set_card:
-        st.markdown("**Settings**")
-        if st.session_state.index_summary:
-            st.info(st.session_state.index_summary)
-        st.text_input("config.yaml path", key="yaml_path")
-        st.checkbox("Use YAML (else: defaults + ENV only)", key="use_yaml")
-        st.checkbox("Show LLM request (prompt + context)", key="show_llm_payload")
-        st.checkbox("Force retrieval-only (skip LLM)", key="force_ro")
+    # === 2. INDEX MANAGEMENT ===
+    index_card = st.container(border=True)
+    with index_card:
+        st.markdown("### Index Management")
 
-        colA, colB = st.columns(2)
-        if colA.button("Reload config"):
-            st.session_state.cfg = load_config(
-                yaml_path=st.session_state.yaml_path,
-                use_yaml=st.session_state.use_yaml,
-            )
-            st.session_state.pipe = RagPipeline(st.session_state.cfg)
-            st.success("Config reloaded. You may reindex if you changed embedding model/dim/metric.")
-
-        if colB.button("Reindex (clean)"):
-            ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-            c = _ensure_index(st.session_state.pipe, force_clean=True, ui=ui_map)
-            st.session_state.manifest_count = len(c or [])
-            st.success(f"Reindex done. {st.session_state.manifest_count} files indexed.")
-
-        if st.button("Refresh (scan changes)"):
+        # Quick action buttons
+        col1, col2 = st.columns(2)
+        if col1.button("Refresh", help="Scan for changes and update index", use_container_width=True):
+            # Clear previous logs before starting new operation
+            st.session_state.index_logs = []
+            st.session_state.index_phase = "starting..."
+            st.session_state.index_pct = 0
             ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
             c = _ensure_index(st.session_state.pipe, force_clean=False, ui=ui_map)
             st.session_state.manifest_count = len(c or [])
-            st.success(f"Refresh done. {st.session_state.manifest_count} files in manifest.")
+            st.session_state.index_summary = f"Refresh complete. {st.session_state.manifest_count} files in manifest."
 
-        with st.container(border=True):
-            st.markdown("### Factory Reset (restore to default state)")
+        if col2.button("Rebuild", help="Clean rebuild of entire index", use_container_width=True):
+            # Clear previous logs before starting new operation
+            st.session_state.index_logs = []
+            st.session_state.index_phase = "starting..."
+            st.session_state.index_pct = 0
+            ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
+            c = _ensure_index(st.session_state.pipe, force_clean=True, ui=ui_map)
+            st.session_state.manifest_count = len(c or [])
+            st.session_state.index_summary = f"Rebuild complete. {st.session_state.manifest_count} files indexed."
+
+        # Status summary (appears inside Index Management card) - always visible
+        status_ph = st.empty()
+        if st.session_state.index_summary:
+            status_ph.info(st.session_state.index_summary)
+
+    # === 3. CONFIGURATION ===
+    config_card = st.container(border=True)
+    with config_card:
+        st.markdown("### Configuration")
+
+        # Config file settings
+        with st.expander("Config File", expanded=False):
+            st.text_input("config.yaml path", key="yaml_path", help="Path to configuration file")
+            st.checkbox("Use YAML config", key="use_yaml", help="Use YAML file (else: ENV + defaults)")
+
+            if st.button("Reload Config", use_container_width=True):
+                st.session_state.cfg = load_config(
+                    yaml_path=st.session_state.yaml_path,
+                    use_yaml=st.session_state.use_yaml,
+                )
+                st.session_state.pipe = RagPipeline(st.session_state.cfg)
+                st.session_state.config_msg = "Config reloaded. You may reindex if you changed embedding model/dim/metric."
+
+            # Config status placeholder (appears BELOW the button inside expander)
+            config_status_ph = st.empty()
+            if st.session_state.get("config_msg"):
+                config_status_ph.success(st.session_state.config_msg)
+
+        # Display options
+        st.markdown("**Display Options**")
+        st.checkbox("Show LLM prompt & context", key="show_llm_payload", help="Display full LLM request details")
+        st.checkbox("Retrieval-only mode", key="force_ro", help="Skip LLM, only retrieve documents")
+
+    # === 4. SYSTEM INFO ===
+    info_card = st.container(border=True)
+    with info_card:
+        st.markdown("### System Info")
+        st.caption(f"**Store (full):** `{st.session_state.pipe.layout.index_dir.parent}`")
+        st.caption(f"**Index (full):** `{st.session_state.pipe.layout.index_dir}`")
+        st.caption(f"**Manifest:** `{st.session_state.pipe.layout.manifest_db}`")
+        st.caption(f"**Files:** {st.session_state.manifest_count}")
+
+    # === 5. DANGER ZONE ===
+    danger_card = st.container(border=True)
+    with danger_card:
+        st.markdown("### Danger Zone")
+
+        # Danger zone status placeholder (appears inside Danger Zone card)
+        danger_status_ph = st.empty()
+
+        with st.expander("Factory Reset", expanded=False):
             st.warning(
-                "This will restore the app to its **factory state**.\n\n"
-                "**It will permanently delete:** all trained data on this device.\n\n"
-                "**It will NOT delete or change:** source PDFs under `data/` or `minidata/`,`config file`.\n\n"
-                "Rebuilding the index may take time. **This action cannot be undone.**"
+                "**This will restore the app to factory state.**\n\n"
+                "Deletes: all indexed data, cache, embeddings\n"
+                "Keeps: source PDFs, config files\n\n"
+                "Rebuilding may take time. **Cannot be undone.**"
             )
             confirm = st.checkbox(
                 "I understand and want to perform a factory reset.",
                 key="confirm_full_clean"
             )
 
+            # Error/success placeholder inside expander
+            reset_msg_ph = st.empty()
+
             if st.button(
-                "Factory Reset — delete & rebuild",
+                "Factory Reset - Delete & Rebuild",
                 type="primary",
                 use_container_width=True,
                 key="btn_full_clean"
             ):
                 if not confirm:
-                    st.error("Please tick the confirmation box above to confirm.")
+                    reset_msg_ph.error("Please tick the confirmation box above to confirm.")
                 else:
-                    with st.spinner("Processing…"):
+                    # Clear previous logs before starting new operation
+                    st.session_state.index_logs = []
+                    st.session_state.index_phase = "starting..."
+                    st.session_state.index_pct = 0
+                    with st.spinner("Processing..."):
                         ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
                         _clear_project_artifacts(st.session_state.pipe)
                         c = _ensure_index(st.session_state.pipe, force_clean=False, ui=ui_map)
                         st.session_state.manifest_count = len(c or [])
-                    st.success(f"Factory reset complete. {st.session_state.manifest_count} files indexed.")
+                    danger_status_ph.success(f"Factory reset complete. {st.session_state.manifest_count} files indexed.")
 
-    # === Info module ===
-    info_card = st.container(border=True)
-    with info_card:
-        st.markdown("**Info**")
-        store_dir = st.session_state.pipe.layout.index_dir.parent
-        st.caption(f"Store dir: `{store_dir}`")
-        st.caption(f"Index dir: `{st.session_state.pipe.layout.index_dir}`")
-        st.caption(f"Manifest: `{st.session_state.pipe.layout.manifest_db}`")
-
-# ---- first-time ensure index (render into the same progress card placeholders) ----
-if st.session_state.manifest_count == 0:
-    ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-    m = _ensure_index(pipe, force_clean=False, ui=ui_map)
-    st.session_state.manifest_count = len(m or [])
+# ---- Ensure index is loaded/initialized (lazy) ----
+if "index_bootstrapped" not in st.session_state:
+    if st.session_state.manifest_count == 0:
+        # No index exists -> do a full indexing with UI
+        ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
+        m = _ensure_index(pipe, force_clean=False, ui=ui_map)
+        st.session_state.manifest_count = len(m or [])
+        # Update status box if present
+        try:
+            status_ph.info(st.session_state.index_summary)
+        except Exception:
+            pass
+    else:
+        # Index exists -> do NOT call pipe.bootstrap() yet.
+        # Defer bootstrap until first Refresh/Rebuild or first user query.
+        st.session_state.index_phase = "idle"
+        st.session_state.index_pct = 0
+        st.session_state.index_summary = f"Index ready. {st.session_state.manifest_count} files in manifest."
+        try:
+            phase_ph.markdown("**idle**")
+            bar_ph.progress(0)
+            status_ph.info(st.session_state.index_summary)
+        except Exception:
+            pass
+    st.session_state.index_bootstrapped = True
 
 # ---- build QA ----
 def _build_qa_if_needed():

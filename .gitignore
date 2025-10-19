@@ -30,6 +30,12 @@ OHSUpath/rag/tests/**
 
 # RAG runtime store
 .rag_store/
+**/.rag_store/
+
+
+# Streamlit config
+.streamlit/
+**/.streamlit/
 
 
 # temp logs
@@ -42,3 +48,25 @@ OHSUpath/rag/tests/**
 
 # dev tool
 devtools/
+
+
+# net generated
+**/node_modules/
+OHSUpath/net/web/.next
+OHSUpath/net/web/*.tsbuildinfo
+
+
+# web user database
+OHSUpath/net/ohsupath.db*
+**/*.db
+**/*.db-wal
+**/*.db-shm
+
+
+# net env
+**/.env*
+!**/.env.example
+
+
+# temp ignore, still working on them
+

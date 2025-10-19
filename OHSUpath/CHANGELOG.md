@@ -10,31 +10,31 @@ All notable changes to this project will be documented in this file.
 - Make a progress bar on frontend UI to help users understand the current stage.  
 - **Important:** Add limiter to pdf preload to avoid memory overflow.
 
-- **Query Type Detection:** Automatically classify user queries into “keyword-oriented” vs “semantic-oriented”:  
-  - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers → prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
-  - **Semantic-oriented**: longer natural language questions, explanations, or vague requests → prioritize dense/vector retrieval.  
+- **Query Type Detection:** Automatically classify user queries into "keyword-oriented" vs "semantic-oriented":  
+  - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers -> prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
+  - **Semantic-oriented**: longer natural language questions, explanations, or vague requests -> prioritize dense/vector retrieval.  
 - **Hybrid Weighting:** Dynamically adjust sparse vs dense retrieval weights based on query type (e.g., 0.8 sparse / 0.2 dense for keyword queries; 0.3 sparse / 0.7 dense for semantic queries).  
-- **Sparse Retriever Upgrade:** Support dual backends — `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
+- **Sparse Retriever Upgrade:** Support dual backends - `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
 - **Character n-gram re-ranking:** Apply character n-gram scoring on sparse top-N candidates to improve recall on spelling variations, merged tokens, and special identifiers (e.g., `aa_inf3` vs `aainf3`).  
 
 
 **Net related Platform:**
 ### Core components
 
-- **API — FastAPI (Python)**  
+- **API - FastAPI (Python)**  
   Public API for health, auth, query, streaming, files, conversations; plugs into existing RAG pipeline.
 
-- **Gateway — Node.js (TypeScript)**  
+- **Gateway - Node.js (TypeScript)**  
   Single browser entry; login (JWT cookie), CORS, basic rate limiting, proxy to FastAPI, SSE pass-through, add security headers.
 
-- **Web — Next.js (TypeScript, responsive)**  
+- **Web - Next.js (TypeScript, responsive)**  
   One codebase for **desktop / tablet / mobile**; login, chat UI (supports streaming), conversation list, source preview; optional PWA later.
 
-- **Admin — Streamlit (local only)**  
+- **Admin - Streamlit (local only)**  
   Internal console for dataset ingest, chunking, embedding, indexing, and basic ops; not exposed to the public internet.
 
 - **RAG Engine (Python)**  
-  Load → split → embed → index → retrieve → answer; caches & indices live in local store.
+  Load -> split -> embed -> index -> retrieve -> answer; caches & indices live in local store.
 
 ### Security & multi-user
 - Login required for query/stream/files/conversations (via **JWT cookie**).
@@ -55,6 +55,13 @@ All notable changes to this project will be documented in this file.
 - Process manager (systemd) to run web / gateway / api as services.
 
 
+**Dev Checklist**
+
+- add clear user db command and clear cookie
+
+- connect with the actual RAG pipeline
+
+
 ## [Unreleased]
 ### Added
 - Placeholder for upcoming features.
@@ -67,13 +74,336 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.38] - 2025-10-19
+### Added
+- Streamlit UI: complete redesign of sidebar control panel with organized sections (Progress, Index Management, Configuration, System Info, Danger Zone).
+- Granular progress tracking: real-time counters for load/split/embed/commit phases with current/total/cached display.
+- Smart index optimization: fast-path check to skip unnecessary reindexing when no files changed.
+- Batched processing: configurable batch sizes for file loading, embedding, and vector commits to prevent memory overflow on large datasets.
+- Streamlit config generator in `run_app.sh`: auto-create `.streamlit/config.toml` to disable file watcher.
+- Lazy bootstrap: defer index loading until first query or manual refresh to speed up app startup.
+- UI throttling: limit progress updates to ~5 per second to prevent render overhead.
+
+### Changed
+- Linux/WSL2: switched multiprocessing start method to `fork` (set BEFORE imports in `app.py`) for improved stability and performance.
+- Index manager: added `file_batch_size`, `embed_batch_size`, `commit_batch_size` config options with batched pipeline processing.
+- PDF loader and chunker: proper multiprocessing pool cleanup with try/finally blocks; fallback to single-process on errors.
+- `bootstrap/linux/run_app.sh`: removed conservative parallelism limits (was 2 workers) to allow full CPU utilization; added Streamlit config setup.
+- Progress reporting: emit `{phase}_progress` events during load/split/embed/commit for granular UI updates.
+- Config defaults in `config.yaml`: added `manager.file_batch_size=500`, `embed_batch_size=1000`, `commit_batch_size=5000`.
+- Manifest loading: lightweight SQLite query at startup to display file count without full bootstrap.
+- `.gitignore`: added patterns for Streamlit config, web artifacts, database files, and env files.
+
+### Fixed
+- Eliminated Streamlit "filechanged error" by disabling file watcher via config to prevent dataclass hot-reload crashes.
+- Fixed "process forked after parallelism" warnings by enforcing fork mode at top of `app.py` before any module imports.
+- Memory overflow on large datasets: batched processing prevents loading entire dataset into memory at once.
+- Pool cleanup: proper `close()` and `join()` on all multiprocessing pools to prevent zombie processes.
+- UI freeze during indexing: throttled progress updates and deferred bootstrap improve responsiveness.
+- Slow startup time: lazy index loading and fast-path checks significantly reduce initial load time when index is already up to date.
+
+
+## [0.2.37] - 2025-10-06
+### Added
+- Sharded sparse index `BM25ShardSet` (base + delta) with MinMax score fusion.
+- Background compaction daemon `start_sparse_compact_daemon(...)` (quiet-period merge, atomic switch).
+- Journaling for sparse ops: `SPARSE_COMPACT_*`, `SPARSE_DELTA_ERROR`.
+
+### Changed
+- `pipeline`: switch sparse retrieval to `BM25ShardSet`; filter results to existing docstore IDs.
+- `index_manager`: on commit, append sparse delta shards for added/modified chunks.
+- Deprecated direct use of `index/sparse_index.pkl`.
+
+### Fixed
+- Avoid refresh/commit races via interprocess lock during compaction.
+
+
+## [0.2.36] - 2025-09-30
+### Added
+- Hybrid retriever: FAISS dense + sparse search with `bm25s` (primary) and `rank_bm25` (fallback).
+- Sparse index wrapper `BM25SparseIndex`:
+  - Backend selection via `sparse.backend: bm25s | rank_bm25` (default: `bm25s`).
+  - `bm25s` path uses `bm25s.tokenize(...)` and `bm25s.BM25().index(...)`.
+  - Fallback to `rank_bm25.BM25Okapi` with a lightweight tokenizer when `bm25s` is not available.
+  - Save/load to a directory (e.g., `<index_dir>/sparse_index.pkl/`) with:
+    - `meta.json` (backend, stopwords) and `id_map.json` for both backends.
+    - `bm25s`: backend files saved by `bm25s.BM25.save(dir)`.
+    - `rank_bm25`: `tokenized_corpus.json` for rebuild on load.
+- Query-type detector (`QueryTypeDetector`) to weight keyword-like queries toward sparse (`bm25s`/`rank_bm25`) and semantic queries toward dense (FAISS).
+- Character n-gram + fuzzy reranker (`CharNGramReranker`) with config:
+  - `sparse.ngram_rerank.mode: auto | on | off`
+  - `sparse.ngram_rerank.{n,weight,jaccard_w,fuzz_w,gap_threshold,top1_threshold,max_rerank}`
+- Pipeline wiring for retrieval modes: `dense`, `sparse` (pure `bm25s`/`rank_bm25`), and `hybrid` (auto).
+- English ASCII-only pass for retrieval modules to remove Unicode in comments/strings.
+
+### Changed
+- FAISS IP metric: warn if both `embedding.normalize_embeddings` and `faiss.normalize_query_in_ip` are false.
+- Hybrid path performs direct FAISS search (no LC MMR) for consistent scoring.
+- Config reads hardened across dict/dataclass via `_cfg_get` and `_pair_from_cfg`.
+
+### Fixed
+- Single-query handling for `bm25s` tokenization shapes.
+- `rank_bm25` ranking path works without NumPy (pure-Python fallback).
+- Extra dedup by `chunk_id` to reduce repeated chunks.
+
+
+## [0.2.35] - 2025-09-22
+### Changed
+- Update `requirements.txt` for keyword-aware hybrid retrieval.
+
+
+## [0.2.34] - 2025-09-15
+### Added
+- Share Panel to manage access (add by email, change role, remove).
+- Role badge for collaborators and viewers.
+- Unread handling: shadow seen and "New" divider.
+- Streaming detection and send queue.
+
+### Changed
+- Polling and backoff tuned; skip when page is hidden.
+- Conversation list updates avoid flicker via signature check.
+
+### Fixed
+- Empty trailing assistant bubble after stream end.
+- Sticky unread counts in shared chats.
+
+
+## [0.2.33] - 2025-09-14
+### Added
+- Unread tracking and simple view state per user.
+- Read APIs to mark messages as read.
+- Streaming query API (SSE); replies are saved after the stream.
+- Gateway support for streaming and read actions.
+- Web chat improvements:
+  - Local "shadow read" to clear unread quickly.
+  - Unread divider labeled "New".
+  - Polling with backoff.
+  - Detect active streams and queue user input.
+  - Send queue runs after streaming ends.
+  - Final read ping when leaving a chat.
+  - Sidebar collapse polish.
+  - Role badge text: "Collaborating, shared by <name>" and "Read-only, shared by <name>".
+
+### Changed
+- Shared chats sort by most recent activity.
+- Deleting a chat also removes related view state.
+- Gateway rate limits and proxy behavior made safer for dev and prod.
+- SSR chat page degrades gracefully on gateway errors and still redirects on 401/403.
+- Send button states clarified: "Sending...", "Queued", "Wait...", "Send".
+
+### Fixed
+- Unread counts sticking in shared chats.
+- Rare message loss during page refresh while sending.
+- More reliable SSE piping.
+- Small UI issues with scrolling and collapsed sidebar.
+
+
+## [0.2.32] - 2025-09-14
+### Added
+- Streamlit admin console inside `app.py`:
+  - Tabs: "Admin - Users", "Admin - Data", "Admin - Logins".
+  - Users tab: create/update users with optional password hashing.
+  - Data overview: counts and simple tables for Users/Conversations/Messages.
+  - Login audit: latest 200 events with timestamp, IP, agent, and joined user email.
+- Database bootstrap:
+  - `ensure_db_ready()` sets SQLite pragmas and runs `SQLModel.metadata.create_all`.
+  - Project root is injected into `sys.path` to stabilize imports.
+
+### Changed
+- UI: set `st.set_page_config(..., layout="wide")` for more horizontal space.
+- Helpers renamed for clarity:
+  - `_clear_index` -> `clear_index`
+  - `_ensure_index` -> `ensure_index`
+  - `_clear_project_artifacts` -> `clear_project_artifacts`
+
+### Fixed
+- Streamlit deprecation warnings:
+  - Replaced `use_container_width=True` with `width='stretch'` everywhere.
+
+
+## [0.2.31] - 2025-09-13
+### Added
+- `net/web/src/app/page.tsx` : add quick links to `/login` and `/chat`, minor styling.
+
+
+## [0.2.30] - 2025-09-13
+### Added
+- `net/web/src/lib/api.ts` : small fetch wrapper with `NEXT_PUBLIC_API_BASE` fallback to `/api`, JSON auto-parse, and `credentials: include`.
+
+
+## [0.2.29] - 2025-09-13
+### Added
+- `ChatClient.tsx`:
+  - Role tabs: All / Owned / Collaborating / Read-only with counts.
+  - Load history per conversation; list sort by `last_message_at`.
+  - Create-on-first-send and auto title from first message.
+  - Rename and share (editor/viewer) actions.
+  - SSE streaming via `/api/query/stream/:id`, chunk merge, error handling, and refresh on close.
+  - Read-only banner for viewer role.
+
+
+## [0.2.28] - 2025-09-13
+### Added
+- Protected chat routes:
+  - `(protected)/chat/page.tsx`: SSR fetch conversations from Gateway; redirect to `/login` on 401/403.
+  - `(protected)/chat/[public_chat_id]/page.tsx`: SSR load list and select given conversation.
+- Gateway base resolution: `GATEWAY_ORIGIN || NEXT_PUBLIC_API_BASE || http://localhost:3000`.
+
+
+## [0.2.27] - 2025-09-13
+### Added
+- net/web/src/app/login/page.tsx: SSR fetch `/api/auth/me` (uses GATEWAY_ORIGIN or derived origin); passes `next` and `force` to client.
+- net/web/src/app/login/LoginClient.tsx: simple email/password form; POST `/api/auth/login`; continue/logout+switch flow; basic error display.
+
+
+## [0.2.26] - 2025-09-13
+### Added
+- net/web/src/app/(protected)/layout.tsx: SSR auth gate. Reads `sid` cookie, calls `/api/auth/me` (uses `GATEWAY_ORIGIN` or derived origin), and redirects to `/login?next=/chat` on 401/403.
+
+
+## [0.2.25] - 2025-09-13
+### Added
+- net/gateway/src/routes/auth.ts: POST /auth/login (proxy to API, sign JWT cookie, 204), POST /auth/logout (clear cookie), GET /auth/me (return JWT claims).
+- net/gateway/src/routes/conversations.ts: proxy list/create/get/patch/delete; share list/add/patch/delete; unified upstream headers (`x-internal-key`, `x-user-id`).
+- net/gateway/src/routes/query.ts: SSE proxy for POST /query/stream and /query/stream/:id; GET compatibility; normalize payload to `{content}`; extract `public_id` from path/body/query/headers/referer; stream piping with `Readable.fromWeb`.
+
+
+## [0.2.24] - 2025-09-13
+### Added
+- net/gateway/src/routes/health.ts: GET /api/health -> { ok: true, ts }.
+- net/gateway/src/routes/files.ts: GET /api/files/:id proxy to API; forwards x-internal-key and x-user-id; streams body and preserves headers.
+
+
+## [0.2.23] - 2025-09-13
+### Added
+- net/gateway/src/middleware/auth.ts: JWT cookie parser `parseAuth` and guard `requireAuth`; clears invalid/expired token.
+
+
+## [0.2.22] - 2025-09-13
+### Added
+- net/gateway/src/config.ts: load env (dotenv) and expose port, cookieName, jwtSecret, apiBase, internalKey, corsOrigin, rateLimit.
+- net/gateway/src/server.ts: Express app with helmet/compression/cors/json/cookies/morgan/rate-limit; mount /api routes (auth, conversations, query) and start listener.
+
+
+## [0.2.21] - 2025-09-13
+### Added
+- net/api/main.py: FastAPI app wiring; run init_db() at startup; enable CORS; mount health/auth/conversations/query routers.
+
+
+## [0.2.20] - 2025-09-13
+### Added
+- net/api/routers/auth.py: POST /auth/login (gateway-only via internal key), records LoginEvent.
+- net/api/routers/conversations.py: conversations CRUD, fetch by public_chat_id, and share members (list/add/patch/delete) with role checks.
+- net/api/routers/query.py: POST /query and POST /query/stream (SSE); store user message, stream echo reply, then persist assistant reply.
+
+
+## [0.2.19] - 2025-09-13
+### Added
+- net/api/routers/health.py: GET /health returns {"ok": true}.
+- net/api/routers/files.py: placeholder for cited file viewer tool.
+
+
+## [0.2.18] - 2025-09-13
+### Added
+- net/api/models.py: SQLModel tables (User, Conversation with public_chat_id, Message, LoginEvent, ConversationMember); helpers now_ms() and new_public_id().
+- net/api/schemas.py: Pydantic models (ConversationOut/WithMessages, MessageOut, ConversationPatch, ShareCreate/Update/Out, QueryRequest, UserBrief) and AccessRole.
+
+
+## [0.2.17] - 2025-09-13
+### Added
+- net/api/deps.py: internal key check (403) and get_current_user via x-user-id (401/400 on errors).
+- net/api/security.py: bcrypt password hash/verify helpers.
+
+
+## [0.2.16] - 2025-09-13
+### Added
+- net/api/settings.py: pydantic-settings; reads env; APP_NAME, INTERNAL_SHARED_KEY.
+- net/api/db.py: SQLite engine (DB_PATH); init_db() sets WAL/foreign_keys; get_db() session dep.
+
+
+## [0.2.15] - 2025-09-13
+### Added
+- Gateway files: package.json, tsconfig.json, package-lock.json.
+- Python __init__.py in net/api/ and net/api/routers/ (mark as packages).
+
+### Changed
+- .gitignore: small update for temp ignore files.
+
+
+## [0.2.14] - 2025-09-13
+### Changed
+- OHSUpath/net/web/src/app/layout.tsx: keep minimal RootLayout.
+- OHSUpath/net/web/src/lib/sse.ts: harden POST SSE client (no-store, strict content-type check, robust multi-line parsing) and add `startChatSSE(publicId, content, handlers, extra)` helper.
+- Chat page relocated from `OHSUpath/net/web/src/app/chat/page.tsx` to the protected route structure (no functional change).
+
+
+## [0.2.13] - 2025-09-13
+### Changed
+- `.gitignore`: refine ignores for Python/Node/Next (env files, caches, build dirs).
+- `OHSUpath/requirements.txt`: refresh Python deps.
+- `OHSUpath/net/web/next.config.mjs`: dev rewrites to `${GATEWAY_ORIGIN || "http://localhost:3000"}`.
+- `OHSUpath/net/web/package.json`: update scripts/deps; refresh lockfile.
+
+
+## [0.2.12] - 2025-09-13
+### Added
+- bootstrap/linux/netstack.sh: helper to bootstrap envs, rotate keys, and run the dev stack (API/Gateway/Web) with tmux or background.
+
+### Changed
+- Makefile: simple wrappers for env setup, start/stop/status/logs, key rotation, and admin console.
+
+
+## [0.2.11] - 2025-09-10
+### Added
+- Chat page: `net/web/src/app/chat/page.tsx`(SSE -> `{NEXT_PUBLIC_API_BASE || "http://localhost:3000"}/query/stream`)
+- Env example: `net/web/.env.example`(`NEXT_PUBLIC_API_BASE`)
+
+
+## [0.2.10] - 2025-09-10
+### Added
+- SSE client helper at `net/web/src/lib/sse.ts` (`startSSE`): content-type check, multi-line `data` support, lifecycle callbacks (`onOpen/onEvent/onClose`), Abort-safe close, and a 1 MB buffer cap.
+
+
+## [0.2.9] - 2025-09-10
+### Added
+- Root layout at `net/web/src/app/layout.tsx`.
+- Home page placeholder at `net/web/src/app/page.tsx`.
+
+
+## [0.2.8] - 2025-09-09
+### Added
+- Set up default Next.js config at `net/web/next.config.mjs`.
+
+
+## [0.2.7] - 2025-09-09
+### Added
+- Frontend TypeScript config at `net/web/tsconfig.json`.
+- Track Next.js generated typings `net/web/next-env.d.ts`.
+
+
+## [0.2.6] - 2025-09-09
+### Added
+- `net/web/package.json`: initialize **ohsupath-web** (Next.js 14, React 18, TypeScript). Scripts: `dev` (port **4000**), `build`, `start`, `typecheck`, `lint`.
+- `net/web/package-lock.json`: lock dependency versions for reproducible installs.
+
+
+## [0.2.5] - 2025-09-09
+### Added
+- `requirements.txt`: API deps.
+- `.gitignore`: ignore web build artifacts - `net/web/node_modules`, `.next`, `*.tsbuildinfo`.
+- `bootstrap/linux/setup.sh`: install/check Node/npm & tmux; auto-install `net/gateway` and `net/web` deps when present.
+
+### Changed
+- `bootstrap/linux/setup.sh`: extend base packages.
+
+
 ## [0.2.4] - 2025-09-05
 ### Changed
 - **Linux**: switch multiprocessing start method to **`fork`** (was `spawn`) in chunking/PDF loader paths.
 - **bootstrap/linux/run_app.sh**: add a **temporary mitigation** (lower parallelism, safer I/O batching, conservative defaults) to stabilize startup and indexing. Now it runs on **WSL2** and **Linux** without memory overflows, crashes, or disconnections. (mitigation only; not a final fix)
 
 ### Fixed / Mitigated
-- Reduce frequency of Streamlit **“filechanged error”** and terminal warning  **“The current process just got forked, after parallelism has already been used.”**  (mitigation only; not a final fix)
+- Reduce frequency of Streamlit **"filechanged error"** and terminal warning  **"The current process just got forked, after parallelism has already been used."**  (mitigation only; not a final fix)
 
 
 ## [0.2.3] - 2025-09-03
@@ -103,7 +433,7 @@ All notable changes to this project will be documented in this file.
 - **Modular RAG Core:**
   - Separated components: Loader, Chunker, Embedder, VectorStore, IndexManager, and Pipeline.
   - Config-driven: all parameters (paths, split, embedding, FAISS, retriever, LLM) now come from config (`config.py`, `config.yaml`, or ENV).
-  - End-to-end pipeline: bootstrap → refresh → embed/cache → retrieve → answer.
+  - End-to-end pipeline: bootstrap -> refresh -> embed/cache -> retrieve -> answer.
 
 - **Resilience & Incremental Updates:**
   - **Task pre-initialization**: load/split/embed runs only once; subsequent queries reuse existing vectors without recomputation.
@@ -162,14 +492,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.36] - 2025-08-27
 ### Added
-- `startup_windows.ps1` — Windows setup (6 steps).
-- `run_windows.ps1` — non-admin runner; checks elevation/Python 3.11/Streamlit and launches `app.py`.
-- `Windows_Click_Me_To_Run_The_App.bat` — double-click entry for running the app.
-- `Windows_Click_Me_To_Setup_The_Computer.bat` — double-click entry for setup.
+- `startup_windows.ps1` - Windows setup (6 steps).
+- `run_windows.ps1` - non-admin runner; checks elevation/Python 3.11/Streamlit and launches `app.py`.
+- `Windows_Click_Me_To_Run_The_App.bat` - double-click entry for running the app.
+- `Windows_Click_Me_To_Setup_The_Computer.bat` - double-click entry for setup.
 
 ### Changed
-- `.gitignore` — update ignore rules.
-- `requirements.txt` — update missing requirements.
+- `.gitignore` - update ignore rules.
+- `requirements.txt` - update missing requirements.
 
 
 ## [0.1.35] - 2025-08-16
@@ -251,7 +581,7 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.30] - 2025-08-14
 ### Added
-- IndexManager: end-to-end pipeline (scan → diff → load → split → embed(+cache) → delete/upsert → persist → manifest).
+- IndexManager: end-to-end pipeline (scan -> diff -> load -> split -> embed(+cache) -> delete/upsert -> persist -> manifest).
 - Embed cache integration with collision-safe keys (text hash + model sig + normalize + dim).
 - Journal events: BEGIN_REFRESH / END_REFRESH (with ok flag, counts, elapsed ms).
 
@@ -365,7 +695,7 @@ All notable changes to this project will be documented in this file.
 - Compatible `Document` import (`langchain_core` / `langchain.schema`).
 
 ### Changed
-- `index_to_docstore_id` unified to `Dict[int, str]` (row → chunk_id).
+- `index_to_docstore_id` unified to `Dict[int, str]` (row -> chunk_id).
 - `as_retriever(...)` now requires an `embedding` (Embeddings or callable).
 - In `ip` mode:
   - Store vectors are normalized on `upsert`.
@@ -447,7 +777,7 @@ All notable changes to this project will be documented in this file.
 - **Journal module** in `rag/storage/journal.py`:
   - `journal_append()` writes JSONL with fields: `ts`, `event`, `data`, `host`, `pid`, `tid` (name), `tid_native` (numeric), `tid_name` (alias of name).
   - `iter_journal()` simple JSONL reader.
-  - `rotate_journal()` size-based rotation (`journal.log` → `.1..N`).
+  - `rotate_journal()` size-based rotation (`journal.log` -> `.1..N`).
   - Atomic appends via `O_APPEND`; optional `fsync`.
   - Optional compact JSON; optional per-record size guard.
 - **Config sections**:
@@ -535,7 +865,7 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.7] - 2025-08-10
 ### Stable version release
-- First stable end-to-end release: the full load → split → embed → index → retrieve → answer pipeline now runs reliably with stage-wise progress. This milestone consolidates the 0.1.4–0.1.6 improvements (PyMuPDF parsing, FAISS indexing, centralized config, and page-level progress) into a one-click, predictable startup.
+- First stable end-to-end release: the full load -> split -> embed -> index -> retrieve -> answer pipeline now runs reliably with stage-wise progress. This milestone consolidates the 0.1.4-0.1.6 improvements (PyMuPDF parsing, FAISS indexing, centralized config, and page-level progress) into a one-click, predictable startup.
 
 
 ## [0.1.6] - 2025-08-10
