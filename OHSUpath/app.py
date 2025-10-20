@@ -243,13 +243,19 @@ def _ensure_index(
             if event.endswith("_start"):
                 # Phase start: set phase label and initialize counters
                 st.session_state.index_phase = label_map.get(base, base)
-                st.session_state[f"{base}_current"] = kw.get("current", 0)
-                st.session_state[f"{base}_total"] = kw.get("total", 0)
+                current = kw.get("current", 0)
+                total = kw.get("total", 0)
+                st.session_state[f"{base}_current"] = current
+                st.session_state[f"{base}_total"] = total
 
                 # Update phase label with counts if available
-                total = kw.get("total", 0)
                 if total > 0:
-                    phase_text = f"{st.session_state.index_phase} (0 / {total:,})"
+                    phase_text = f"{st.session_state.index_phase} ({current:,} / {total:,})"
+                    # Update progress bar at phase start
+                    if current > 0:
+                        start_pct = int((current / total) * 100)
+                        st.session_state.index_pct = start_pct
+                        bar_handle.progress(start_pct)
                 else:
                     phase_text = st.session_state.index_phase
 
@@ -269,7 +275,7 @@ def _ensure_index(
                 if cached > 0:
                     st.session_state[f"{base}_cached"] = cached
 
-                # Throttle UI updates to ~30 updates/sec based on wall-clock time
+                # Throttle UI updates to ~10 updates/sec based on wall-clock time
                 current_time = time.time()
                 time_since_last = current_time - last_update_time["time"]
                 is_final = (current == total and total > 0)
@@ -281,37 +287,45 @@ def _ensure_index(
                     # Read current state (may have advanced since this callback was queued)
                     display_current = st.session_state.get(f"{base}_current", current)
                     display_total = st.session_state.get(f"{base}_total", total)
-                    display_cached = st.session_state.get(f"{base}_cached", 0)
 
-                    # Build progress text
-                    if display_cached > 0:
-                        phase_text = f"{label_map.get(base, base)} ({display_current:,} / {display_total:,}, {display_cached:,} cached)"
-                    elif display_total > 0:
+                    # Build progress text - show file counts (current/total are already file counts)
+                    if display_total > 0:
                         phase_text = f"{label_map.get(base, base)} ({display_current:,} / {display_total:,})"
                     else:
                         phase_text = label_map.get(base, base)
 
                     if phase_ph:
-                        # Re-render the placeholder to force visual update
                         phase_ph.markdown(f"**{phase_text}**")
 
-                    # Log batched progress for commit phase (only when totals are small)
-                    if base == "commit" and display_total > 0 and display_total < 5000:
-                        _push(f"  -> committed {display_current:,} / {display_total:,} chunks")
+                    # Update progress bar - based purely on file count progress
+                    # Simple: current files / total files = percentage
+                    if display_total > 0:
+                        # Direct percentage: files processed / total files
+                        total_pct = int((display_current / display_total) * 100)
+                        total_pct = min(total_pct, 99)  # Cap at 99% until complete
+
+                        st.session_state.index_pct = total_pct
+                        bar_handle.progress(total_pct)
 
             elif event.endswith("_done"):
-                # Phase complete: finalize counters and bump progress bar
-                current = kw.get("current", st.session_state.get(f"{base}_current", 0))
-                total = kw.get("total", st.session_state.get(f"{base}_total", 0))
+                # Phase complete: use cached file counts from session state
+                # (event may contain chunk counts, but we want file counts for display)
+                current = st.session_state.get(f"{base}_current", 0)
+                total = st.session_state.get(f"{base}_total", 0)
 
-                # Update final phase text
+                # Update final phase text and progress bar
                 if total > 0:
                     phase_text = f"{label_map.get(base, base)} ({current:,} / {total:,})"
                     if phase_ph:
                         phase_ph.markdown(f"**{phase_text}**")
+                    # Update progress bar based on file count
+                    done_pct = int((current / total) * 100)
+                    done_pct = min(done_pct, 99)  # Cap at 99% until all phases complete
+                    st.session_state.index_pct = done_pct
+                    bar_handle.progress(done_pct)
 
                 _push(f"[OK] {base} done. {kw}")
-                _bump(base)
+                seen.add(base)  # Mark phase as complete
 
             elif event in ("discover", "diff"):
                 _push(f"[OK] {base}. {kw}")
@@ -525,7 +539,10 @@ with st.sidebar:
                     use_yaml=st.session_state.use_yaml,
                 )
                 st.session_state.pipe = RagPipeline(st.session_state.cfg)
-                st.session_state.config_msg = "Config reloaded. You may reindex if you changed embedding model/dim/metric."
+                # Clear QA and bootstrapped flag to force recreation
+                st.session_state.qa = None
+                st.session_state.index_bootstrapped = False
+                st.session_state.config_msg = "Config reloaded. Rebuild to use new settings."
 
             # Config status placeholder (appears BELOW the button inside expander)
             config_status_ph = st.empty()
@@ -541,8 +558,8 @@ with st.sidebar:
     info_card = st.container(border=True)
     with info_card:
         st.markdown("### System Info")
-        st.caption(f"**Store (full):** `{st.session_state.pipe.layout.index_dir.parent}`")
-        st.caption(f"**Index (full):** `{st.session_state.pipe.layout.index_dir}`")
+        st.caption(f"**Store:** `{st.session_state.pipe.layout.index_dir.parent}`")
+        st.caption(f"**Index:** `{st.session_state.pipe.layout.index_dir}`")
         st.caption(f"**Manifest:** `{st.session_state.pipe.layout.manifest_db}`")
         st.caption(f"**Files:** {st.session_state.manifest_count}")
 
@@ -557,9 +574,9 @@ with st.sidebar:
         with st.expander("Factory Reset", expanded=False):
             st.warning(
                 "**This will restore the app to factory state.**\n\n"
-                "Deletes: all indexed data, cache, embeddings\n"
+                "Deletes: all indexed data, cache, embeddings (`.rag_store/`)\n"
                 "Keeps: source PDFs, config files\n\n"
-                "Rebuilding may take time. **Cannot be undone.**"
+                "**You must restart the app after factory reset.** Cannot be undone."
             )
             confirm = st.checkbox(
                 "I understand and want to perform a factory reset.",
@@ -570,7 +587,7 @@ with st.sidebar:
             reset_msg_ph = st.empty()
 
             if st.button(
-                "Factory Reset - Delete & Rebuild",
+                "Factory Reset - Delete All Data",
                 type="primary",
                 use_container_width=True,
                 key="btn_full_clean"
@@ -578,16 +595,19 @@ with st.sidebar:
                 if not confirm:
                     reset_msg_ph.error("Please tick the confirmation box above to confirm.")
                 else:
-                    # Clear previous logs before starting new operation
-                    st.session_state.index_logs = []
-                    st.session_state.index_phase = "starting..."
-                    st.session_state.index_pct = 0
-                    with st.spinner("Processing..."):
-                        ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-                        _clear_project_artifacts(st.session_state.pipe)
-                        c = _ensure_index(st.session_state.pipe, force_clean=False, ui=ui_map)
-                        st.session_state.manifest_count = len(c or [])
-                    danger_status_ph.success(f"Factory reset complete. {st.session_state.manifest_count} files indexed.")
+                    # Clear all RAG data - requires app restart for clean state
+                    with st.spinner("Deleting all indexed data..."):
+                        _clear_index(st.session_state.pipe)
+                        # Also delete the entire .rag_store for full reset
+                        try:
+                            store_dir = Path(st.session_state.pipe.layout.index_dir).parent
+                            if store_dir.exists() and store_dir.name in {".rag_store", "rag_store"}:
+                                import shutil
+                                shutil.rmtree(store_dir, ignore_errors=True)
+                        except Exception as e:
+                            reset_msg_ph.warning(f"Partial cleanup: {repr(e)}")
+
+                    reset_msg_ph.success("Factory reset complete. **Please restart the app** (stop and run `./run_app.sh` again) to reinitialize with clean state.")
 
 # ---- Ensure index is loaded/initialized (lazy) ----
 if "index_bootstrapped" not in st.session_state:

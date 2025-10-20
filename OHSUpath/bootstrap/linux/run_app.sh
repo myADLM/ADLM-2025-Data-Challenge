@@ -42,6 +42,7 @@ export CONFIG__runtime__device="cuda"
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 
 export HF_HUB_DISABLE_SYMLINKS_WARNING=1
+export TOKENIZERS_PARALLELISM=false
 
 
 start_ollama_if_needed() {

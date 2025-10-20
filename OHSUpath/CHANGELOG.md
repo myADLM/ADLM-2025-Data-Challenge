@@ -74,6 +74,24 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.39] - 2025-10-19
+### Added
+- Progress bar: direct percentage calculation based on file count (current/total files) for smooth left-to-right progress.
+- Factory reset: simplified to delete `.rag_store/` and prompt user to restart app for clean GPU initialization.
+
+### Changed
+- Progress display: show only file counts (not chunk/doc/vector counts) for cleaner UI.
+- Progress bar calculation: removed phase weights, now pure file-based progress (e.g., 5000/10000 = 50%).
+- Factory reset button: renamed to "Factory Reset - Delete All Data" with clear restart instruction.
+- Config reload: now clears QA and index_bootstrapped flag to ensure fresh pipeline recreation.
+
+### Fixed
+- Progress bar jumping backwards: ensured monotonic increase by using file count directly across all phases.
+- Factory reset GPU issue: now properly deletes entire `.rag_store/` and instructs user to restart for clean state.
+- Phase display confusion: commit_done no longer shows chunk counts, uses cached file counts instead.
+- Hugging Face tokenizers warnings: added `TOKENIZERS_PARALLELISM=false` to suppress fork warnings.
+
+
 ## [0.2.38] - 2025-10-19
 ### Added
 - Streamlit UI: complete redesign of sidebar control panel with organized sections (Progress, Index Management, Configuration, System Info, Danger Zone).
