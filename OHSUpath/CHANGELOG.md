@@ -74,6 +74,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.40] - 2025-10-20
+### Changed
+- Simplified `run_app.sh` by removing redundant environment exports.
+- Improved SentenceTransformer model loading to avoid meta-tensor issues and ensure proper CPU fallback.
+- Cleaned up function naming inconsistencies in `app.py`.
+
+
 ## [0.2.39] - 2025-10-19
 ### Added
 - Progress bar: direct percentage calculation based on file count (current/total files) for smooth left-to-right progress.

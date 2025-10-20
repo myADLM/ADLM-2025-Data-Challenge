@@ -28,22 +28,6 @@ source ".venv311/bin/activate" || {
   exit 1
 }
 
-# --- RAG defaults for Linux/WSL2 (removed conservative limits for full performance) ---
-# Multiprocessing is now properly initialized in app.py with fork method
-# PDF loader and chunker have proper cleanup and error handling
-# export CONFIG__pdf_loader__num_proc="${CONFIG__pdf_loader__num_proc:-2}"  # REMOVED
-# export CONFIG__split__num_proc="${CONFIG__split__num_proc:-2}"            # REMOVED
-# Kept memory-safe I/O settings to prevent disk bottlenecks
-export CONFIG__pdf_loader__prefetch_budget_mb="${CONFIG__pdf_loader__prefetch_budget_mb:-64}"
-export CONFIG__pdf_loader__io_batch_files="${CONFIG__pdf_loader__io_batch_files:-8}"
-export RAG_SHARD_FILES="${RAG_SHARD_FILES:-300}"
-
-export CONFIG__runtime__device="cuda"
-export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
-
-export HF_HUB_DISABLE_SYMLINKS_WARNING=1
-export TOKENIZERS_PARALLELISM=false
-
 
 start_ollama_if_needed() {
   if curl -sSf http://127.0.0.1:11434/api/tags >/dev/null 2>&1; then

@@ -227,8 +227,9 @@ class STMultiGPUEmbedder:
             import torch
             from sentence_transformers import SentenceTransformer
 
-            # Always build on CPU first to avoid meta-tensor surprises.
-            model = SentenceTransformer(self.model_name, device="cpu")
+            # Load model without specifying device initially to avoid meta-tensor issues
+            # Let SentenceTransformer use its default loading mechanism
+            model = SentenceTransformer(self.model_name)
             target = "cpu"
 
             # If user prefers CUDA, attempt to transfer. Fallback to CPU if allowed.
@@ -241,15 +242,25 @@ class STMultiGPUEmbedder:
                         # CUDA not available: decide based on fallback policy
                         if self._allow_cpu_fallback:
                             print("[WARN] CUDA not available; falling back to CPU.")
+                            # Ensure model is on CPU
+                            model.to(torch.device("cpu"))
                             target = "cpu"
                         else:
                             raise RuntimeError("CUDA not available and CPU fallback disabled.")
                 except Exception as e:
                     if self._allow_cpu_fallback:
                         print(f"[WARN] CUDA init/transfer failed; falling back to CPU: {repr(e)}")
+                        # Ensure model is on CPU
+                        try:
+                            model.to(torch.device("cpu"))
+                        except:
+                            pass  # Model might already be on CPU
                         target = "cpu"
                     else:
                         raise
+            else:
+                # Explicitly move to CPU if that's the preference
+                model.to(torch.device("cpu"))
 
             self._model = model
             self._device_actual = target

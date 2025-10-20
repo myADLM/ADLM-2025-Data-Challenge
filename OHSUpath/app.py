@@ -2,16 +2,23 @@
 
 from __future__ import annotations
 
-# CRITICAL: Set multiprocessing start method BEFORE any other imports
+# CRITICAL: Set environment variables and multiprocessing BEFORE any other imports
+import os
+import sys
+
+# Set essential environment variables before importing any other modules
+# These suppress warnings and configure GPU usage
+os.environ.setdefault("CUDA_VISIBLE_DEVICES", "0")
+os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 # Use fork on Linux/WSL2 for performance (faster than spawn, shares memory efficiently)
 import multiprocessing as _mp
-import sys
 if sys.platform.startswith("linux"):
     try:
         _mp.set_start_method("fork", force=False)
     except RuntimeError:
         pass  # Already set
-
 import streamlit as st
 import shutil
 from pathlib import Path
@@ -20,7 +27,7 @@ from sqlalchemy import desc
 from sqlmodel import Session, select, SQLModel
 from config import load_config
 from rag.pipeline import RagPipeline
-import sys, pathlib
+import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
@@ -71,12 +78,12 @@ class PromptSpy(BaseCallbackHandler):
         self.chat_prompts: list[list[object]] = []
         self.params: dict = {}
 
-    def on_llm_start(self, serialized, prompts, **kwargs):
+    def on_llm_start(self, _serialized, prompts, **kwargs):
         if prompts:
             self.text_prompts.extend(prompts)
         self.params = kwargs.get("invocation_params", self.params)
 
-    def on_chat_model_start(self, serialized, messages, **kwargs):
+    def on_chat_model_start(self, _serialized, messages, **kwargs):
         if messages:
             self.chat_prompts.extend(messages)
         self.params = kwargs.get("invocation_params", self.params)
@@ -234,7 +241,7 @@ def ensure_index(
                 prev = pipe.bootstrap()
 
                 # Now check if files actually changed
-                _push("[info] Checking for changes...")
+                push("[info] Checking for changes...")
                 from rag.index_manager import _diff_files_lazy
                 m_cfg = pipe.cfg.manager if hasattr(pipe.cfg, 'manager') else None
                 hash_buf = int(m_cfg.hash_block_bytes if m_cfg and hasattr(m_cfg, 'hash_block_bytes') else 1024 * 1024)
@@ -242,7 +249,7 @@ def ensure_index(
 
                 # If nothing changed, skip directly to complete
                 if not diff_result.added and not diff_result.removed and not diff_result.modified:
-                    _push("[OK] No changes detected. Index is up to date.")
+                    push("[OK] No changes detected. Index is up to date.")
                     st.session_state.index_phase = "complete"
                     st.session_state.index_pct = 100
                     if phase_ph:
@@ -252,7 +259,7 @@ def ensure_index(
                     return prev
         except Exception as e:
             # Fall back to normal path if fast check fails
-            _push(f"[info] Fast check failed ({repr(e)}), running full refresh...")
+            push(f"[info] Fast check failed ({repr(e)}), running full refresh...")
 
     # Normal path: bootstrap and run full pipeline
     try:
@@ -306,7 +313,7 @@ def ensure_index(
 
                 if phase_ph:
                     phase_ph.markdown(f"**{phase_text}**")
-                _push(f"- {base}... {kw}")
+                push(f"- {base}... {kw}")
 
             elif event.endswith("_progress"):
                 # Granular progress update: update current/total display
@@ -369,15 +376,15 @@ def ensure_index(
                     st.session_state.index_pct = done_pct
                     bar_handle.progress(done_pct)
 
-                _push(f"[OK] {base} done. {kw}")
+                push(f"[OK] {base} done. {kw}")
                 seen.add(base)  # Mark phase as complete
 
             elif event in ("discover", "diff"):
-                _push(f"[OK] {base}. {kw}")
-                _bump(base)
+                push(f"[OK] {base}. {kw}")
+                bump(base)
 
             elif event == "refresh_error":
-                _push(f"[ERROR] {kw.get('error')}")
+                push(f"[ERROR] {kw.get('error')}")
 
             else:
                 push(f"- {event}: {kw}")
@@ -700,7 +707,7 @@ with st.sidebar:
             st.session_state.index_phase = "starting..."
             st.session_state.index_pct = 0
             ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-            c = _ensure_index(st.session_state.pipe, force_clean=False, ui=ui_map)
+            c = ensure_index(st.session_state.pipe, force_clean=False, ui=ui_map)
             st.session_state.manifest_count = len(c or [])
             st.session_state.index_summary = f"Refresh complete. {st.session_state.manifest_count} files in manifest."
 
@@ -710,7 +717,7 @@ with st.sidebar:
             st.session_state.index_phase = "starting..."
             st.session_state.index_pct = 0
             ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-            c = _ensure_index(st.session_state.pipe, force_clean=True, ui=ui_map)
+            c = ensure_index(st.session_state.pipe, force_clean=True, ui=ui_map)
             st.session_state.manifest_count = len(c or [])
             st.session_state.index_summary = f"Rebuild complete. {st.session_state.manifest_count} files indexed."
 
@@ -793,7 +800,7 @@ with st.sidebar:
                 else:
                     # Clear all RAG data - requires app restart for clean state
                     with st.spinner("Deleting all indexed data..."):
-                        _clear_index(st.session_state.pipe)
+                        clear_index(st.session_state.pipe)
                         # Also delete the entire .rag_store for full reset
                         try:
                             store_dir = Path(st.session_state.pipe.layout.index_dir).parent
@@ -810,7 +817,7 @@ if "index_bootstrapped" not in st.session_state:
     if st.session_state.manifest_count == 0:
         # No index exists -> do a full indexing with UI
         ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-        m = _ensure_index(pipe, force_clean=False, ui=ui_map)
+        m = ensure_index(pipe, force_clean=False, ui=ui_map)
         st.session_state.manifest_count = len(m or [])
         # Update status box if present
         try:
