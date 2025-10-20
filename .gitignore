@@ -30,6 +30,12 @@ OHSUpath/rag/tests/**
 
 # RAG runtime store
 .rag_store/
+**/.rag_store/
+
+
+# Streamlit config
+.streamlit/
+**/.streamlit/
 
 
 # temp logs

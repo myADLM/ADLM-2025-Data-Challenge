@@ -115,20 +115,36 @@ class RctsChunkerParallel(Chunker):
         if nproc <= 1:
             return _split_worker(docs, cs, co, src_keys, pg_keys, hlen)
 
+        # Shard documents across workers
         size = (len(docs) + nproc - 1) // nproc
         shards = [docs[i : i + size] for i in range(0, len(docs), size)]
+
         try:
             import sys
+            # Use fork on Linux for speed, spawn elsewhere for safety
             start_method = "fork" if sys.platform.startswith("linux") else "spawn"
             ctx = mp.get_context(start_method)
-            with ctx.Pool(processes=nproc) as pool:
+
+            # Use Pool with proper cleanup and error handling
+            pool = None
+            try:
+                pool = ctx.Pool(processes=nproc)
                 parts = pool.starmap(
                     _split_worker,
                     [(sh, cs, co, src_keys, pg_keys, hlen) for sh in shards],
                 )
-        except Exception:
+            finally:
+                # Ensure pool is properly closed even on errors
+                if pool is not None:
+                    pool.close()
+                    pool.join()
+        except Exception as e:
+            # Fallback to single-threaded on any error
+            import sys
+            print(f"[WARN] Multiprocessing failed ({repr(e)}), falling back to single-process", file=sys.stderr)
             return _split_worker(docs, cs, co, src_keys, pg_keys, hlen)
 
+        # Merge results
         out: List[Chunk] = []
         for p in parts:
             out.extend(p)

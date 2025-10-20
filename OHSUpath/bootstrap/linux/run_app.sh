@@ -28,18 +28,21 @@ source ".venv311/bin/activate" || {
   exit 1
 }
 
-# --- RAG memory-safe defaults for Linux/WSL2 ---
-export CONFIG__pdf_loader__num_proc="${CONFIG__pdf_loader__num_proc:-2}"
-export CONFIG__split__num_proc="${CONFIG__split__num_proc:-2}"
+# --- RAG defaults for Linux/WSL2 (removed conservative limits for full performance) ---
+# Multiprocessing is now properly initialized in app.py with fork method
+# PDF loader and chunker have proper cleanup and error handling
+# export CONFIG__pdf_loader__num_proc="${CONFIG__pdf_loader__num_proc:-2}"  # REMOVED
+# export CONFIG__split__num_proc="${CONFIG__split__num_proc:-2}"            # REMOVED
+# Kept memory-safe I/O settings to prevent disk bottlenecks
 export CONFIG__pdf_loader__prefetch_budget_mb="${CONFIG__pdf_loader__prefetch_budget_mb:-64}"
 export CONFIG__pdf_loader__io_batch_files="${CONFIG__pdf_loader__io_batch_files:-8}"
 export RAG_SHARD_FILES="${RAG_SHARD_FILES:-300}"
-
 
 export CONFIG__runtime__device="cuda"
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 
 export HF_HUB_DISABLE_SYMLINKS_WARNING=1
+export TOKENIZERS_PARALLELISM=false
 
 
 start_ollama_if_needed() {
@@ -86,8 +89,41 @@ confirm_model() {
   exit 1
 }
 
+setup_streamlit_config() {
+  local streamlit_dir=".streamlit"
+  local config_file="$streamlit_dir/config.toml"
+
+  # Create .streamlit directory if it doesn't exist
+  if [[ ! -d "$streamlit_dir" ]]; then
+    echo "[i] Creating .streamlit directory ..."
+    mkdir -p "$streamlit_dir"
+  fi
+
+  # Create config.toml if it doesn't exist
+  if [[ ! -f "$config_file" ]]; then
+    echo "[i] Creating .streamlit/config.toml with stability settings ..."
+    cat > "$config_file" << 'EOF'
+[server]
+# Disable file watcher to prevent hot-reload crashes with dataclasses
+fileWatcherType = "none"
+
+# Alternative: Use polling instead of auto (if you want file watching)
+# fileWatcherType = "poll"
+
+[runner]
+# Ensure clean reruns instead of hot-reloading
+fastReruns = false
+
+EOF
+    echo "[OK] Created .streamlit/config.toml"
+  else
+    echo "[i] .streamlit/config.toml already exists."
+  fi
+}
+
 start_ollama_if_needed
 confirm_model
+setup_streamlit_config
 
 echo "Launching Streamlit app ..."
 python -m streamlit run "$APP_FILE"
