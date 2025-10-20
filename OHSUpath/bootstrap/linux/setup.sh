@@ -47,10 +47,29 @@ echo " Step 0/6: Ensure base packages"
 echo "============================================================="
 if command -v apt-get >/dev/null 2>&1; then
   sudo apt-get update -y
-  sudo apt-get install -y curl ca-certificates git software-properties-common build-essential
+  sudo apt-get install -y curl ca-certificates git software-properties-common build-essential tmux nodejs npm
 else
   echo "[x] This script targets Ubuntu/Debian (apt-get)."
   exit 1
+fi
+
+if ! command -v node >/dev/null 2>&1 && command -v nodejs >/dev/null 2>&1; then
+  sudo ln -sf "$(command -v nodejs)" /usr/bin/node
+fi
+echo "[check] node: $(node -v 2>/dev/null || echo missing)"
+echo "[check] npm : $(npm -v 2>/dev/null || echo missing)"
+
+if [[ -f "./net/gateway/package.json" ]]; then
+  echo "[i] Installing gateway deps (net/gateway) ..."
+  (cd ./net/gateway && { [[ -f package-lock.json ]] && npm ci || npm i; })
+else
+  echo "[i] Skip gateway: no package.json"
+fi
+if [[ -f "./net/web/package.json" ]]; then
+  echo "[i] Installing web deps (net/web) ..."
+  (cd ./net/web && { [[ -f package-lock.json ]] && npm ci || npm i; })
+else
+  echo "[i] Skip web: no package.json"
 fi
 
 # Helpers: Python 3.11 (+ venv + dev headers)
