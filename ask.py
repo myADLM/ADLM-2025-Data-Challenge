@@ -52,7 +52,7 @@ def ask_question_with_openai(question, history=None, top_k=20):
             #print(row.text)
             #print("---------------------------")
         
-        # Build context from retrieved chunks
+        # Context from retrieved chunks
         context = ""
         for _, row in top_chunks.iterrows():
             context += f"\n\n[Source: {row['filename']}, chunk {row['chunk_id']}]\n{row['text']}"
@@ -63,7 +63,7 @@ def ask_question_with_openai(question, history=None, top_k=20):
             "not in the documents, say 'I could not find that information.' Always cite the "
             "filename (and chunk ID if helpful)."
         )
-        # Build message history for OpenAI
+        # Message history for OpenAI
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"The following are excerpts from lab procedure documents:\n{context}"}
