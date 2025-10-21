@@ -1,12 +1,12 @@
 ---
-# Live Demo
-[Open the LabDocs Chat Assistant](https://2025adlmdataanalyticschallenge-hrkr9xnzmkpkl5ajeqxjjb.streamlit.app/)
+# Live Demo Lunk 
+## [Open the LabDocs Chat Assistant](https://2025adlmdataanalyticschallenge-hrkr9xnzmkpkl5ajeqxjjb.streamlit.app/)
 
 ## LabDocs Chat Assistant
 
 A conversational AI assistant for laboratory procedure documents. Ask questions about lab protocols, equipment, and samples. Get answers with document citations.
 
-## Features
+### Features
 - **Conversational chatbox** (web app) with context-aware follow-up questions
 - **Cites sources** (filename and excel chunk) for every answer
 - **Fast semantic search** using FAISS and Sentence Transformers
@@ -48,7 +48,7 @@ OR
 
 ---
 
-## Running with Docker
+### Running with Docker
 
 You can run the entire app in a container using Docker:
 
