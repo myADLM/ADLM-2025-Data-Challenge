@@ -1,4 +1,3 @@
-# Clean, working version below
 import faiss
 import pandas as pd
 from sentence_transformers import SentenceTransformer
@@ -33,9 +32,9 @@ def ask_question_with_openai(question, history=None, top_k=20):
         """
         # Support for history (for follow-up questions)
         history = history or []
-        # Build a conversational query for retrieval
+        # Conversational query for retrieval
         if history:
-            # Use the last 4 turns (user/assistant) for context, or fewer if not available
+            # Use the last 4 turns (user/assistant) for context
             context_text = ' '.join([turn['content'] for turn in history[-4:]])
             full_query = context_text + ' ' + question
         else:
