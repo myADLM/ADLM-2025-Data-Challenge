@@ -1,5 +1,5 @@
 ---
-# Live Demo Lunk 
+# Live Demo Link 
 ## [Open the LabDocs Chat Assistant](https://2025adlmdataanalyticschallenge-hrkr9xnzmkpkl5ajeqxjjb.streamlit.app/)
 
 ## LabDocs Chat Assistant
