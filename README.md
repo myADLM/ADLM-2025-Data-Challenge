@@ -1,10 +1,10 @@
 ---
-## Live Demo
+# Live Demo
 [Open the LabDocs Chat Assistant](https://2025adlmdataanalyticschallenge-hrkr9xnzmkpkl5ajeqxjjb.streamlit.app/)
 
-# ADLM LabDocs Chat Assistant
+## LabDocs Chat Assistant
 
-A conversational AI assistant for laboratory procedure documents. Ask questions about lab protocols, equipment, and samples. Get answers with document citations, powered by OpenAI and semantic search.
+A conversational AI assistant for laboratory procedure documents. Ask questions about lab protocols, equipment, and samples. Get answers with document citations.
 
 ## Features
 - **Conversational chatbox** (web app) with context-aware follow-up questions
@@ -16,7 +16,7 @@ A conversational AI assistant for laboratory procedure documents. Ask questions 
 - **Downloadable Chat History**: download your entire chat session as a `.txt` file
 - **Doc Dashboard**: view system stats like document count and user queries
 
-## Adding New Documents
+### Adding New Documents
 1. Place new PDF files in the `LabDocs/` folder.
 2. Run the incremental update script:
    ```
@@ -29,7 +29,7 @@ OR
 - Upload new PDF documents directly from the sidebar. They are instantly added to the knowledge base and available for chat queries. Feature is password protected and only available for administrators. 
 
 
-## Project Structure
+### Project Structure
 ```
 ├── ask.py                # Main retrieval and QA logic
 ├── chat_app.py           # Streamlit chat UI
@@ -41,7 +41,7 @@ OR
 └── ...
 ```
 
-## Example Usage
+### Example Usage
 - "What equipment do I need for the Analytical Phase of Generating Results for 11-Deoxycortisol?"
 - "And what sample?" (as a follow-up)
 - "Summarize the procedure in [filename]."
@@ -64,7 +64,7 @@ You can run the entire app in a container using Docker:
 
 ---
 
-## FAQ & Troubleshooting
+### FAQ & Troubleshooting
 
 **Q: How do I add new documents?**  
 A: Place new PDFs in the `LabDocs/` folder and run `python add_new_documents.py` or upload new PDF documents directly from the app sidebar. They are instantly and permamnently added to the index and available for chat queries.
