@@ -68,11 +68,13 @@ You can run the entire app in a container using Docker:
 **Q: How do I add new documents?**  
 A: Place new PDFs in the `LabDocs/` folder and run `python add_new_documents.py` or upload new PDF documents directly from the app sidebar. They are instantly and permamnently added to the index and available for chat queries.
 
-**Q: My app can't find the OpenAI API key!**  
+**Q: My app can't find the OpenAI API key.**  
 A: Make sure you set `OPENAI_API_KEY` as an environment variable, in `key.env`, or as a Streamlit Cloud secret.
 
 **Q: Can I deploy this on my own server?**  
 A: Yes! Use the Dockerfile or run with `streamlit run chat_app.py` after installing dependencies.
 
+**Q: The app is down due to inactivity**
+A: No problem! Just wait for it to reload (bake in the oven).
 ---
 
