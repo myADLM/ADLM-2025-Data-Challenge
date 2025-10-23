@@ -15,7 +15,6 @@ const Header = ({ backendConnected, apiStatus, settings, onSettingsChange }) => 
           </div>
           <div className="header-center">
             <h1>Indigo BioAutomation: 2025 ADLM Data Science Challenge</h1>
-            <p>Document Search & Chat Assistant</p>
           </div>
           <div className="header-right">
             {/* Empty for now, could add other header elements here */}

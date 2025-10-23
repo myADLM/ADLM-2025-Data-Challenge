@@ -1,3 +1,10 @@
+"""
+API data models and objects for the document search and chat system.
+
+This module defines Pydantic models for API requests/responses and enumerations
+for supported models and search types.
+"""
+
 from enum import Enum
 from typing import List
 

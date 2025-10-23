@@ -76,12 +76,13 @@ class Search:
             indices = self.vector_db.topk_indices(text, 120)
             return {idx: r for r, idx in enumerate(indices)}
 
+        logger = logging.getLogger("app")
         t0 = time.perf_counter()
         a_ranks = get_bm25_ranks()
-        print(f"BM25: {time.perf_counter()-t0}")
+        logger.debug(f"BM25: {time.perf_counter()-t0}")
         t0 = time.perf_counter()
         b_ranks = get_vector_ranks()
-        print(f"Vector: {time.perf_counter()-t0}")
+        logger.debug(f"Vector: {time.perf_counter()-t0}")
 
         t0 = time.perf_counter()
         # Combine all unique indices from both rankings
@@ -102,7 +103,7 @@ class Search:
             record["idx"]: record
             for record in self.df.filter(pl.col("idx").is_in(sorted_ranks)).to_dicts()
         }
-        print(f"Rank fusion: {time.perf_counter()-t0}")
+        logger.debug(f"Rank fusion: {time.perf_counter()-t0}")
 
         return [records[idx] for idx in sorted_ranks]
 

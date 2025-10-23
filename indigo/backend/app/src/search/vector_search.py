@@ -5,20 +5,21 @@ import faiss
 import numpy as np
 from numpy.typing import NDArray
 
-from app.src.util.open_ai_api import OpenAIAPI
+from app.src.util.open_ai_api import EmbeddingsAPI
 
 
 class VectorSearch:
     def __init__(self, embeddings: NDArray[np.float32]):
-        print("Initializing VectorSearch")
-        # Soft failure for OpenAIAPI
+        logger = logging.getLogger("app")
+        logger.info("Initializing VectorSearch")
+        # Soft failure for EmbeddingsAPI
         try:
-            self.embedder = OpenAIAPI()
+            self.embedder = EmbeddingsAPI()
         except Exception as e:
-            print(f"Error initializing OpenAIAPI: {e}")
+            logger.error(f"Error initializing EmbeddingsAPI: {e}")
             self.embedder = None
 
-        print(f"Embeddings shape: {embeddings.shape}")
+        logger.info(f"Embeddings shape: {embeddings.shape}")
         self.index = faiss.IndexFlatL2(embeddings.shape[1])
         self.index.add(embeddings)
 
@@ -34,7 +35,7 @@ class VectorSearch:
             List of document indices sorted by similarity (highest first)
         """
         if self.embedder is None:
-            raise ValueError("OpenAIAPI is not initialized")
+            raise ValueError("EmbeddingsAPI is not initialized")
 
         logger = logging.getLogger("app")
 

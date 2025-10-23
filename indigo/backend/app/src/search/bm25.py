@@ -6,12 +6,15 @@ the most relevant documents in a corpus based on a query. The implementation
 includes NLTK-based text tokenization.
 """
 
+import logging
 import os
 import re
 import time
 from concurrent.futures import ProcessPoolExecutor
 
 import fastbm25
+
+logger = logging.getLogger("app")
 
 _TOKEN_RE = re.compile(r"[A-Za-z0-9_\-]+")
 
@@ -39,7 +42,7 @@ class BM25:
         Args:
             corpus: List of documents to search through
         """
-        print("Initializing BM25")
+        logger.info("Initializing BM25")
 
         self.token_to_code: dict[str, int] = {}
         self.corpus_size = len(corpus)
@@ -59,7 +62,7 @@ class BM25:
             corpus[i : i + batch_size] for i in range(0, len(corpus), batch_size)
         ]
 
-        print("Tokenizing corpus")
+        logger.info("Tokenizing corpus")
         with ProcessPoolExecutor(max_workers=max_workers) as executor:
             for tokenized_batch in executor.map(_tokenize_batch, batches, chunksize=1):
                 for tokens in tokenized_batch:
@@ -75,9 +78,9 @@ class BM25:
 
         self._oov_id = next_id
 
-        print("Creating Rust BM25 index")
+        logger.info("Creating Rust BM25 index")
         self.fast_bm25 = fastbm25.BM25(encoded_corpus)
-        print("Rust BM25 index created in {}s".format(time.perf_counter() - t0))
+        logger.info("Rust BM25 index created in {}s".format(time.perf_counter() - t0))
 
     def topk_indices(self, query: str, k: int = 10) -> list[int]:
         """

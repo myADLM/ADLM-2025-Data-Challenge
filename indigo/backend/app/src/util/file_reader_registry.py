@@ -1,9 +1,12 @@
+import logging
 from pathlib import Path
 from typing import Dict, Protocol, Type
 
 import fitz
 import pytesseract
 from PIL import Image
+
+logger = logging.getLogger("app")
 
 fitz.TOOLS.mupdf_display_errors(False)
 
@@ -127,15 +130,15 @@ class _PDFFileReader:
                 else:
                     raise Exception("PyMuPDF returned empty page.")
             except Exception:
-                print(f"Trying OCR to extract page {page_num+1} from {file_path}.")
+                logger.info(f"Trying OCR to extract page {page_num+1} from {file_path}.")
                 pix = page.get_pixmap(dpi=300)  # render page as image
                 img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
                 text = pytesseract.image_to_string(img)
                 if text:
-                    print("Success.")
+                    logger.info("Success.")
                     all_text += text + "\n"
                 else:
-                    print("OCR failed.")
+                    logger.warning("OCR failed.")
 
         doc.close()
         extracted_text = all_text.strip()

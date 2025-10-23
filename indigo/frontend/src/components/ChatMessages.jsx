@@ -32,7 +32,7 @@ const ChatMessages = ({ chatHistory, isLoadingChat, chatMessagesRef }) => {
                     <span></span>
                     <span></span>
                   </div>
-                  <span>Assistant is typing...</span>
+                  <span>Thinking...</span>
                 </div>
               </div>
             </div>

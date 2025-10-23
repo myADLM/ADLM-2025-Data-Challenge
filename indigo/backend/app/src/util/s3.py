@@ -1,3 +1,11 @@
+"""
+S3 utilities for file upload, download, and bucket management.
+
+This module provides functions for uploading files to S3 with progress tracking,
+downloading files, and checking bucket existence.
+"""
+
+import logging
 import os
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -6,6 +14,8 @@ from botocore.exceptions import ClientError
 from tqdm import tqdm
 
 from app.src.util.aws import ensure_bucket, get_s3_client
+
+logger = logging.getLogger("app")
 
 
 def upload_files_to_s3(
@@ -43,26 +53,26 @@ def upload_files_to_s3(
     # If force_rebuild is True, delete all objects in the bucket with the key_prefix
     s3_client = get_s3_client()
     if force_rebuild:
-        print(f"Deleting all objects in s3://{bucket_name}/{key_prefix}")
+        logger.info(f"Deleting all objects in s3://{bucket_name}/{key_prefix}")
         s3_client.delete_objects(
             Bucket=bucket_name, Delete={"Objects": [{"Key": f"{key_prefix}*"}]}
         )
 
     if not files_base_dir.exists():
-        print(f"Error: Directory does not exist: {files_base_dir}")
+        logger.error(f"Directory does not exist: {files_base_dir}")
         return False
 
     if not files_base_dir.is_dir():
-        print(f"Error: Path is not a directory: {files_base_dir}")
+        logger.error(f"Path is not a directory: {files_base_dir}")
         return False
 
     # Find all files recursively
     all_files = [f for f in files_base_dir.rglob("*") if f.is_file()]
 
-    print("Checking for existing files in S3...")
+    logger.info("Checking for existing files in S3...")
 
     if not all_files:
-        print(f"No files found in {files_base_dir}.")
+        logger.info(f"No files found in {files_base_dir}.")
         return True
 
     # Find the files that are not already in S3
@@ -74,7 +84,7 @@ def upload_files_to_s3(
         for file_path in all_files
     ]
 
-    print(
+    logger.info(
         f"Found {len(files_to_upload)} files to upload to s3://{bucket_name}/{key_prefix}"
     )
 
@@ -85,6 +95,7 @@ def upload_files_to_s3(
     max_workers = min((os.cpu_count() or 1), 8)
 
     def _upload_one(args):
+        """Helper function for uploading a single file."""
         path, key = args
         return path, upload_file_to_s3(path, bucket_name, key)
 
@@ -99,13 +110,13 @@ def upload_files_to_s3(
                 pbar.set_postfix_str(f"Failed: {file_path.name}")
             pbar.update(1)
 
-    # Print summary
+    # Log summary
     if failed_files:
-        print(f"\nFailed to upload {len(failed_files)} files:")
+        logger.error(f"Failed to upload {len(failed_files)} files:")
         for failed_file in failed_files:
-            print(f"  - {failed_file}")
+            logger.error(f"  - {failed_file}")
 
-    print(
+    logger.info(
         f"Upload complete: {success_count}/{len(all_files)} files uploaded successfully"
     )
     return success_count == len(all_files)
@@ -141,15 +152,15 @@ def upload_file_to_s3(file_path: Path | str, bucket_name: str, object_key: str) 
 
         # Validate file exists and is not empty
         if not file_path.exists():
-            print(f"Error: File does not exist: {file_path}")
+            logger.error(f"File does not exist: {file_path}")
             return False
 
         if not file_path.is_file():
-            print(f"Error: Path is not a file: {file_path}")
+            logger.error(f"Path is not a file: {file_path}")
             return False
 
         if file_path.stat().st_size == 0:
-            print(f"Warning: File is empty: {file_path}")
+            logger.warning(f"File is empty: {file_path}")
             return False
 
         # Upload the file
@@ -160,11 +171,12 @@ def upload_file_to_s3(file_path: Path | str, bucket_name: str, object_key: str) 
         return True
 
     except Exception as e:
-        print(f"Failed to upload file {file_path}: {e}")
+        logger.error(f"Failed to upload file {file_path}: {e}")
         return False
 
 
 def download_file_from_s3(bucket_name: str, object_key: str) -> bool:
+    """Download a file from S3 and return its content."""
     s3_client = get_s3_client()
     try:
         obj = s3_client.get_object(Bucket=bucket_name, Key=object_key)
@@ -176,6 +188,7 @@ def download_file_from_s3(bucket_name: str, object_key: str) -> bool:
 
 
 def bucket_exists(bucket_name):
+    """Check if an S3 bucket exists and is accessible."""
     try:
         get_s3_client().head_bucket(Bucket=bucket_name)
         return True

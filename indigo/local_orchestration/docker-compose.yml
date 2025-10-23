@@ -10,11 +10,11 @@ services:
     env_file:
       - .env
     environment:
-      - PYTHONPATH=/app
-      - PYTHONUNBUFFERED=1
-      - USE_LOCALSTACK=1
-      - AWS_REGION=us-east-1
-      - BEDROCK_SERVER_URL=http://bedrock-server:5175
+      - PYTHONPATH=${PYTHONPATH}
+      - PYTHONUNBUFFERED=${PYTHONUNBUFFERED}
+      - USE_LOCALSTACK=${USE_LOCALSTACK}
+      - AWS_REGION=${AWS_REGION}
+      - AMAZON_NOVA_PROFILE=${AMAZON_NOVA_PROFILE}
     volumes:
       - ../backend/app/database:/app/database
       - ../backend/app/input_data:/app/input_data

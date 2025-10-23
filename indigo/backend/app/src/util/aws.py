@@ -9,6 +9,7 @@ instance per process for each helper, avoiding repeated client/resource
 construction and making connection reuse more effective.
 """
 
+import logging
 import os
 import socket
 from functools import cache
@@ -16,6 +17,8 @@ from functools import cache
 import boto3
 from botocore.config import Config
 from botocore.exceptions import ClientError
+
+logger = logging.getLogger("app")
 
 
 @cache
@@ -31,17 +34,17 @@ def get_s3():
     region = os.getenv("AWS_REGION", "us-east-1")
     cfg = Config(retries={"max_attempts": 10, "mode": "standard"})
     if os.getenv("USE_LOCALSTACK") == "1":
-        print("Using LocalStack")
+        logger.info("Using LocalStack")
         # Detect if we're running in Docker by checking if 'localstack' hostname is resolvable
         try:
             socket.gethostbyname("localstack")
             # We're in Docker, use service name
             default_endpoint = "http://localstack:4566"
-            print("Docker environment detected, using localstack:4566")
+            logger.info("Docker environment detected, using localstack:4566")
         except socket.gaierror:
             # We're in local development, use localhost
             default_endpoint = "http://localhost:4566"
-            print("Local environment detected, using localhost:4566")
+            logger.info("Local environment detected, using localhost:4566")
 
         endpoint_url = os.getenv("LOCALSTACK_ENDPOINT", default_endpoint)
         return boto3.resource(
@@ -74,7 +77,14 @@ def get_bedrock_client():
     cfg = Config(retries={"max_attempts": 10, "mode": "standard"})
 
     # Always use real AWS for Bedrock - never LocalStack
-    return boto3.client("bedrock-runtime", region_name=region, config=cfg)
+    profile_name = os.getenv("AMAZON_NOVA_PROFILE", "default")
+    session = boto3.Session(profile_name=profile_name)
+    
+    # Log profile information for debugging
+    logger.info(f"Creating Bedrock client with profile: {profile_name}")
+    logger.info(f"Using AWS region: {region}")
+    
+    return session.client("bedrock-runtime", region_name=region, config=cfg)
 
 
 def ensure_bucket(bucket_name: str):

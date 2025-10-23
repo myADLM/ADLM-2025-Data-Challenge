@@ -1,3 +1,4 @@
+import logging
 import shutil
 import subprocess
 from pathlib import Path
@@ -5,6 +6,8 @@ from pathlib import Path
 from tqdm import tqdm
 
 from app.src.util.file_reader_registry import read_file_with_registry
+
+logger = logging.getLogger("app")
 
 
 def extract_zip(
@@ -27,15 +30,15 @@ def extract_zip(
 
     # Check if zip file exists and is a file
     if not zip_path.exists():
-        print(f"Error: Zip file not found: {zip_path}")
+        logger.error(f"Zip file not found: {zip_path}")
         return False
 
     if not zip_path.is_file():
-        print(f"Error: Expected a file, but found a directory at: {zip_path}")
+        logger.error(f"Expected a file, but found a directory at: {zip_path}")
         return False
 
     if not force_rebuild and output_dir.exists():
-        print(f"Skipping zip extraction. Output directory already exists: {output_dir}")
+        logger.info(f"Skipping zip extraction. Output directory already exists: {output_dir}")
         return True
 
     # Remove output directory if it exists
@@ -46,7 +49,7 @@ def extract_zip(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     try:
-        print(f"Extracting {zip_path} to {output_dir}...")
+        logger.info(f"Extracting {zip_path} to {output_dir}...")
 
         # Synchronously extract; this blocks until unzip completes
         result = subprocess.run(
@@ -56,19 +59,19 @@ def extract_zip(
         )
 
         if result.returncode != 0:
-            print("Error extracting file:")
-            print(result.stdout)
-            print(result.stderr)
+            logger.error("Error extracting file:")
+            logger.error(result.stdout)
+            logger.error(result.stderr)
             return False
 
-        print(f"Successfully extracted {zip_path} to {output_dir}")
+        logger.info(f"Successfully extracted {zip_path} to {output_dir}")
         return True
 
     except subprocess.CalledProcessError as e:
-        print(f"Error during extraction: {e}")
+        logger.error(f"Error during extraction: {e}")
         return False
     except Exception as e:
-        print(f"Unexpected error: {e}")
+        logger.error(f"Unexpected error: {e}")
         return False
 
 
@@ -111,10 +114,10 @@ def read_documents_as_plaintext(
     files = [p for p in base_dir.rglob("*") if p.is_file() and p.suffix.lower() in exts]
 
     if not files:
-        print(f"No text files found in: {base_dir}")
+        logger.warning(f"No text files found in: {base_dir}")
         return []
 
-    print(f"Found {len(files)} text files to read")
+    logger.info(f"Found {len(files)} text files to read")
 
     documents = []
     errors = []
@@ -128,17 +131,17 @@ def read_documents_as_plaintext(
                 relative_path = file_path.relative_to(base_dir)
                 documents.append((str(relative_path), content))
             else:
-                print(f"Warning: Empty file: {file_path}")
+                logger.warning(f"Empty file: {file_path}")
 
         except Exception as e:
             error_msg = f"Error reading {file_path}: {str(e)}"
-            print(error_msg)
+            logger.error(error_msg)
             errors.append(error_msg)
             continue
 
-    print(f"Successfully read {len(documents)} text documents")
+    logger.info(f"Successfully read {len(documents)} text documents")
     if errors:
-        print(f"Encountered {len(errors)} errors during reading")
+        logger.warning(f"Encountered {len(errors)} errors during reading")
 
     return documents
 

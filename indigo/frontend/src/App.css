@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: transparent;
   color: #333;
   overflow: hidden;
 }
@@ -12,7 +12,7 @@
   padding: 2rem 1rem;
   color: white;
   background: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
 }
 
 .header-content {
@@ -81,7 +81,7 @@
 
 .chat-container {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 9fr 1fr;
   gap: 1rem;
   width: 100%;
   max-width: 1400px;
@@ -89,6 +89,14 @@
   flex: 1;
   min-height: 0;
   overflow: hidden;
+}
+
+.chat-container:has(.documents-section:not([style*="display: none"])) {
+  grid-template-columns: 9fr 1fr;
+}
+
+.chat-container:not(:has(.documents-section)) {
+  grid-template-columns: 1fr;
 }
 
 .chat-section {
@@ -101,7 +109,7 @@
 }
 
 .chat-window {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 15px;
   padding: 1rem;
   display: flex;
@@ -236,6 +244,72 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Markdown content styling for nested lists */
+.message-content ul,
+.message-content ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.message-content ul ul,
+.message-content ul ol,
+.message-content ol ul,
+.message-content ol ol {
+  margin: 0.25rem 0;
+  padding-left: 1.5rem;
+}
+
+.message-content li {
+  margin: 0.25rem 0;
+  line-height: 1.5;
+}
+
+/* Ensure proper indentation for deeply nested lists */
+.message-content ul ul ul,
+.message-content ul ul ol,
+.message-content ul ol ul,
+.message-content ul ol ol,
+.message-content ol ul ul,
+.message-content ol ul ol,
+.message-content ol ol ul,
+.message-content ol ol ol {
+  margin: 0.125rem 0;
+  padding-left: 1.5rem;
+}
+
+/* Additional styling for better nested list appearance */
+.message-content ul {
+  list-style-type: disc;
+}
+
+.message-content ul ul {
+  list-style-type: circle;
+}
+
+.message-content ul ul ul {
+  list-style-type: square;
+}
+
+.message-content ol {
+  list-style-type: decimal;
+}
+
+.message-content ol ol {
+  list-style-type: lower-alpha;
+}
+
+.message-content ol ol ol {
+  list-style-type: lower-roman;
+}
+
+/* Ensure nested lists maintain proper spacing */
+.message-content ul + p,
+.message-content ol + p,
+.message-content p + ul,
+.message-content p + ol {
+  margin-top: 0.5rem;
+}
+
 .chat-input-form {
   margin-top: auto;
   flex-shrink: 0;
@@ -328,20 +402,20 @@
 }
 
 .documents-section {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 15px;
   padding: 1rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
   backdrop-filter: blur(10px);
   overflow-y: auto;
-  width: 300px;
   min-height: 0;
   flex: 1;
   flex-shrink: 0;
   box-sizing: border-box;
   scrollbar-width: thin;
   scrollbar-color: #667eea #e0e0e0;
-  max-width: 300px;
+  min-width: 300px;
+  max-width: 420px;
 }
 
 .documents-section::-webkit-scrollbar {
@@ -428,9 +502,9 @@
 }
 
 .minimal-document-item {
-  margin-bottom: 0.25rem;
-  padding: 0;
-  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 0.5rem;
+  padding: 0 0 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .minimal-document-item:last-child {

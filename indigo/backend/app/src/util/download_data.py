@@ -1,6 +1,9 @@
+import logging
 import shutil
 import subprocess
 from pathlib import Path
+
+logger = logging.getLogger("app")
 
 DOWNLOAD_URL = "https://zenodo.org/records/16328490/files/LabDocs.zip?download=1"
 
@@ -15,19 +18,16 @@ def check_system_requirements():
             missing_tools.append(tool)
 
     if missing_tools:
-        print(
-            f"Error: Required system tools not found: \
-                {', '.join(missing_tools)}"
+        logger.error(
+            f"Required system tools not found: {', '.join(missing_tools)}"
         )
-        print("Please install the missing tools and try again.")
+        logger.error("Please install the missing tools and try again.")
         return False
 
     return True
 
 
-def download_labdocs_zip(
-    output_path: Path | str, download_url: str = DOWNLOAD_URL
-) -> bool:
+def download_labdocs_zip(output_path: Path | str, download_url: str = DOWNLOAD_URL) -> bool:
     """
     Download the LabDocs.zip from Zenodo and write the zip to output_path.
 
@@ -48,7 +48,7 @@ def download_labdocs_zip(
     try:
         # If destination already exists, overwrite it automatically
         if dest_zip.exists():
-            print(f"{dest_zip} already exists. Overwriting...")
+            logger.info(f"{dest_zip} already exists. Overwriting...")
 
         result = subprocess.run(
             [
@@ -65,18 +65,18 @@ def download_labdocs_zip(
             check=True,
         )
         if result.returncode != 0:
-            print("Error downloading LabDocs.zip")
+            logger.error("Error downloading LabDocs.zip")
             return False
 
         if not dest_zip.exists() or dest_zip.stat().st_size == 0:
-            print("Downloaded zip file is missing or empty.")
+            logger.error("Downloaded zip file is missing or empty.")
             return False
 
-        print(f"Saved LabDocs.zip to {dest_zip} (size={dest_zip.stat().st_size} bytes)")
+        logger.info(f"Saved LabDocs.zip to {dest_zip} (size={dest_zip.stat().st_size} bytes)")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"Error during download: {e}")
+        logger.error(f"Error during download: {e}")
         return False
     except Exception as e:
-        print(f"Unexpected error: {e}")
+        logger.error(f"Unexpected error: {e}")
         return False

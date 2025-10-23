@@ -1,3 +1,10 @@
+"""
+ETL (Extract, Transform, Load) functions for database processing.
+
+This module implements the bronze, silver, and gold data processing pipeline
+for the document search system.
+"""
+
 from pathlib import Path
 
 import polars as pl
@@ -6,14 +13,16 @@ import pyarrow.parquet as pq
 
 from app.src.database.chunker import chunk_text
 from app.src.util.configurations import get_app_root, load_config
-from app.src.util.open_ai_api import OpenAIAPI
+from app.src.util.open_ai_api import EmbeddingsAPI
 from app.src.util.read_documents import read_documents_as_plaintext
 
 
 def bronze_database(pdfs_dir: Path, output_path: Path):
-    # Extract the text from the PDFs and store it in a parquet file
+    """Extract text from PDFs and store in parquet format."""
     text_files = read_documents_as_plaintext(pdfs_dir)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Create parquet table with file paths and extracted content
     schema = pa.schema([("file_path", pa.string()), ("content", pa.string())])
     paths, contents = zip(*text_files)
     table = pa.Table.from_arrays(
@@ -24,23 +33,22 @@ def bronze_database(pdfs_dir: Path, output_path: Path):
 
 
 def silver_database(bronze_path: Path, output_path: Path):
-    # Chunk the text and store it in a parquet file.
-    # Use LLM to add context to the chunks.
-    # Use file path to add context to the chunks.
+    """Chunk text and add contextual annotations using LLM."""
     df = pl.read_parquet(bronze_path)
 
+    # Load chunking configuration and process text
     chunk_annotation_config = load_config("chunk_annotation_patterns.yml")
-    # Chunk the text
     df = chunk_text(df, "content", chunk_annotation_config)
     df = df.with_row_index("idx")
     df.write_parquet(output_path)
 
 
 def gold_database(silver_path: Path, output_path: Path):
-    # Take fully processed data, add vectors, and store it in a parquet file.
-    openai_client = OpenAIAPI()
+    """Add embeddings to processed chunks and create final database."""
+    openai_client = EmbeddingsAPI()
     df = pl.read_parquet(silver_path)
 
+    # Combine annotations and chunk text for embedding
     df = df.with_columns(
         contextual_chunk=pl.concat_str(
             [
@@ -52,6 +60,8 @@ def gold_database(silver_path: Path, output_path: Path):
             ignore_nulls=True,
         )
     )
+    
+    # Generate embeddings for each contextual chunk
     df = df.with_columns(
         embedding=pl.struct(
             ["contextual_chunk", "file_path", "chunk_index"]

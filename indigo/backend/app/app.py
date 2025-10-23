@@ -1,3 +1,11 @@
+"""
+FastAPI application for the document search and chat system.
+
+This module sets up the FastAPI server with CORS middleware, builds the database,
+loads embeddings and chunk data, and defines the API endpoints for document
+download and chat functionality.
+"""
+
 import gc
 import logging
 import os
@@ -16,7 +24,8 @@ from app.src.util.configurations import get_app_root
 
 
 def main():
-    # Logging
+    """Initialize and run the FastAPI application."""
+    # Setup logging
     logger = logging.getLogger("app")
     handler = logging.StreamHandler(sys.stdout)
     formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -24,6 +33,7 @@ def main():
     logger.addHandler(handler)
     logger.setLevel(logging.INFO)
 
+    # Create FastAPI app
     app = FastAPI()
 
     # Add CORS middleware - allow both local and Docker environments
@@ -39,18 +49,17 @@ def main():
         allow_headers=["*"],
     )
 
-    # Ensure the database is built
+    # Build database from input data
     zip_path = get_app_root() / "input_data" / "raw_input_data.zip"
     database_path = get_app_root() / "database"
-
     build_database(input_zip_path=zip_path, database_path=database_path)
 
-    # Use lazy loading to process data in chunks and reduce memory footprint
-    print("Loading parquet data with lazy evaluation...")
+    # Load data with memory optimization
+    logger.info("Loading parquet data with lazy evaluation...")
     lazy_df = pl.scan_parquet(database_path / "medallions" / "gold.parquet")
 
-    # Extract embeddings first (most memory intensive)
-    print("Converting embeddings to numpy array...")
+    # Extract embeddings (memory intensive operation)
+    logger.info("Converting embeddings to numpy array...")
     embeddings = (
         lazy_df.select(
             pl.col("embedding").cast(pl.Array(pl.Float32, 3072)).alias("emb")
@@ -60,15 +69,17 @@ def main():
     ).to_numpy()
 
     # Load chunk data without embeddings
-    print("Loading chunk data...")
+    logger.info("Loading chunk data...")
     chunk_df = lazy_df.drop("embedding").collect()
     gc.collect()  # Force garbage collection
 
+    # Initialize search client
     search_client = Search(chunk_df, embeddings)
 
-    # API Routes
+    # API endpoints
     @app.get("/ping")
     def ping():
+        """Health check endpoint."""
         return {"ok": True}
 
     @app.get("/api/status")
@@ -88,13 +99,15 @@ def main():
 
     @app.get("/documents/{file_path:path}")
     def download_document(file_path: str):
+        """Download a document by file path."""
         return download_document_impl(file_path, database_path)
 
     @app.post("/chat", response_model=ChatResponse)
     def chat(request: ChatRequest):
+        """Process chat request with document search."""
         return chat_impl(request, search_client, database_path)
 
-    # Run the server
+    # Start the server
     uvicorn.run(app, host="0.0.0.0", port=5174)
 
 

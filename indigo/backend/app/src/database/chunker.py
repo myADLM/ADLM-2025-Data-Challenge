@@ -1,3 +1,4 @@
+import logging
 import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -11,6 +12,8 @@ from tqdm import tqdm
 
 from app.src.util.bedrock import query_model, shutdown_rate_worker
 from app.src.util.configurations import get_app_root
+
+logger = logging.getLogger("app")
 
 
 def chunk_text(
@@ -72,7 +75,7 @@ def chunk_text(
             try:
                 out["contextual_annotations"] = contextual_annotations(ch, idx, record)
             except Exception as exp:
-                print(f"Error annotating chunk: {exp}")
+                logger.error(f"Error annotating chunk: {exp}")
                 out["contextual_annotations"] = ""
             results.append(out)
         return results
@@ -89,7 +92,7 @@ def chunk_text(
                 output_rows.extend(f.result())
             except Exception as e:
                 # Skip problematic rows but continue processing
-                print(f"Error processing row: {e}")
+                logger.error(f"Error processing row: {e}")
                 continue
     shutdown_rate_worker()
 
@@ -180,7 +183,7 @@ def contextual_annotations(
     Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else.
     """
     if len(query) > 400_000:
-        print(
+        logger.warning(
             f"Cannot contextually annotate {file_path} at {idx}. Too long ({len(query)}). Manually annotate."
         )
         return ""
@@ -199,12 +202,12 @@ def contextual_annotations(
         if 30 <= len(result) < 500:
             break
         result = ""
-        print(
+        logger.warning(
             f"Query generate poor quality result for {record['file_path']}, chunk: {idx}"
         )
 
     if result == "":
-        print(
+        logger.warning(
             f"Failed to generate a high quality annotation for {record['file_path']}, chunk: {idx}"
         )
         return result

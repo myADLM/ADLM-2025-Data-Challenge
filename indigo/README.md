@@ -17,9 +17,9 @@ docker-compose --version
 #### IMPORTANT
 The backend build process takes a long time and costs some money to generate the embeddings and contextual annotations. Contact jmontgomery@indigobio.com for a pre-built database. See [design.md](backend/design.md) for more details.
 
-Building the database from scratch requires (AWS credentials)[https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html] with permission to execute the Amazon Nova Lite model in Amazon Bedrock. If you get the database from me, you do not need to do this.
+Building the database from scratch requires [AWS credentials](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html) with permission to execute the Amazon Nova Lite model in Amazon Bedrock. If you get the database from me, you do not need to do this.
 
-If you want to use the vector search capabilities and/or Chat features, you will need the following environment variable:
+If you want to use the vector search capabilities and/or Chat features, you will need to add the following environment variable to the `local_orchestration/.env` file:
 
 ```
 OPENAI_API_KEY
@@ -73,9 +73,9 @@ chmod +x teardown.sh
   - Ports: frontend `5173`, backend `5174`, localstack `4566`.
 
 ### Data Flow (high-level)
-1. Input ZIP placed at `backend/app/input_data/raw_input_data.zip` (or downloaded by `setup.sh`).
-2. Backend builds medallions (bronze → silver) on startup.
+1. Input ZIP placed at `backend/app/input_data/raw_input_data.zip` (or downloaded during the build process).
+2. Backend builds medallions (bronze → gold) on startup.
 3. Refined data is used to build the BM25-IDF index and vector database.
-4. User queries in the frontend call backend search/chat endpoints.
-5. Backend retrieves relevant chunks and returns responses; documents are available via the download route.
-
+4. Frontend UI runs at `http://localhost:5173`
+5. User submits a query
+6. Backend retrieves relevant chunks and returns responses; documents are available to download.

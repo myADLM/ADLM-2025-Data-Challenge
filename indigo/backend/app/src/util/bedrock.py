@@ -1,3 +1,10 @@
+"""
+AWS Bedrock client with rate limiting and concurrent request management.
+
+This module provides a thread-safe, rate-limited interface to AWS Bedrock
+with automatic retry logic and concurrent request handling.
+"""
+
 import json
 import queue
 import random
@@ -12,13 +19,13 @@ from botocore.exceptions import (ClientError, ConnectionClosedError,
 
 from app.src.util.aws import get_bedrock_client
 
-# ---- Rate limiter configuration
+# Rate limiter configuration
 REQUESTS_PER_MINUTE = 50
 MIN_INTERVAL = 60.0 / REQUESTS_PER_MINUTE
 MAX_CONCURRENT_REQUESTS = 30
 
 
-# ---- Global state
+# Global state management
 @dataclass
 class QueuedRequest:
     payload: dict
@@ -49,6 +56,7 @@ _state = BedrockState(
 
 
 def _start_services_if_needed():
+    """Initialize thread pool and dispatcher if not already running."""
     with _state.lock:
         if _state.executor is None:
             _state.executor = ThreadPoolExecutor(
@@ -205,11 +213,10 @@ def query_model(
     model_id: str = "amazon.nova-lite-v1:0",
     timeout: Optional[float] = None,
 ) -> str:
-    """
-    Queue a request and block until the result (or timeout).
-    """
+    """Queue a request and block until the result (or timeout)."""
     _start_services_if_needed()
 
+    # Build Bedrock API payload
     payload = {
         "schemaVersion": "messages-v1",
         "system": [{"text": system}],

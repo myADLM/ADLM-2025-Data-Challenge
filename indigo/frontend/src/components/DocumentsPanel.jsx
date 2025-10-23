@@ -6,6 +6,11 @@ const DocumentsPanel = ({
   loadingDocuments,
   onViewMatches
 }) => {
+  // Only render if there are documents to show
+  if (chatDocuments.length === 0 && !loadingDocuments && documents.length === 0) {
+    return null
+  }
+
   return (
     <div className="documents-section">
       <h3>
@@ -41,10 +46,6 @@ const DocumentsPanel = ({
           <div className="loading-state">
             <div className="loading-spinner"></div>
             <p>Loading documents...</p>
-          </div>
-        ) : documents.length === 0 ? (
-          <div className="empty-state">
-            <p>No documents loaded.</p>
           </div>
         ) : (
           // Show static documents as fallback

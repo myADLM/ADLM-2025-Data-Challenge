@@ -18,7 +18,7 @@ const ChatInput = ({
           placeholder="Ask a question about the documents..."
           className="chat-input"
         />
-        <button type="submit" className="send-button" disabled={isLoadingChat}>
+        <button type="submit" className="send-button" disabled={isLoadingChat || (message?.trim()?.length === 0)}>
           {isLoadingChat ? 'Sending...' : 'Send'}
         </button>
         <button 
