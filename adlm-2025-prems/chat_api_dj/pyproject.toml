@@ -25,6 +25,9 @@ dependencies = [
     "pyarrow>=10.0.0",
     "pgvector>=0.2.0",
     "huggingface_hub>=0.20.0",
+    "transformers>=4.51.0",
+    "sentence-transformers>=2.7.0",
+    "django-cors-headers>=4.9.0",
 ]
 
 [dependency-groups]
