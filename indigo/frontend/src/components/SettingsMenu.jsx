@@ -37,6 +37,13 @@ const SettingsMenu = ({ apiStatus, settings, onSettingsChange }) => {
     })
   }
 
+  const handleDocumentCountChange = (e) => {
+    onSettingsChange({
+      ...settings,
+      document_count: parseInt(e.target.value)
+    })
+  }
+
   const toggleMenu = () => {
     if (!isOpen && buttonRef.current) {
       const rect = buttonRef.current.getBoundingClientRect()
@@ -194,6 +201,26 @@ const SettingsMenu = ({ apiStatus, settings, onSettingsChange }) => {
                 />
                 Vector Search
               </label>
+            </div>
+          </div>
+          
+          <div className="settings-section">
+            <h4>Document Count</h4>
+            <div className="slider-container">
+              <input
+                id="document-count-slider"
+                type="range"
+                min="5"
+                max="20"
+                value={settings.document_count || 10}
+                onChange={handleDocumentCountChange}
+                className="document-count-slider"
+              />
+              <div className="slider-values">
+                <span className="slider-bound">5</span>
+                <span className="slider-current">{settings.document_count || 10}</span>
+                <span className="slider-bound">20</span>
+              </div>
             </div>
           </div>
         </div>,

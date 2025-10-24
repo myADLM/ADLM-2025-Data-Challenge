@@ -107,6 +107,7 @@ def chat_impl(request: ChatRequest, search_client: Search, database_path: Path) 
     chat_items = request.chat_items
     query_model = request.query_model
     search_type = request.search_type
+    document_count = request.document_count
 
     latest_user_message = None
     for item in reversed(chat_items):
@@ -117,7 +118,7 @@ def chat_impl(request: ChatRequest, search_client: Search, database_path: Path) 
         return ChatResponse(chat_items=chat_items, documents=[])
 
     # Run the search algorithm
-    context_records = search_client.search(latest_user_message, search_type)
+    context_records = search_client.search(latest_user_message, search_type, document_count)
     chat_items.append(
         ChatItem(
             role=RoleType.ASSISTANT,

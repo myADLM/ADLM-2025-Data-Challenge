@@ -59,6 +59,9 @@ class ChatRequest(BaseModel):
     )
     query_model: QueryModel = Field(..., description="The LLM model to query.")
     search_type: SearchType = Field(..., description="Document search algorithm.")
+    document_count: int = Field(
+        default=10, ge=5, le=20, description="Number of documents to retrieve (5-20)"
+    )
 
     class Config:
         json_schema_extra = {
@@ -75,6 +78,7 @@ class ChatRequest(BaseModel):
                 ],
                 "query_model": "gpt-5",
                 "search_type": "rank_fusion",
+                "document_count": 10,
             }
         }
 

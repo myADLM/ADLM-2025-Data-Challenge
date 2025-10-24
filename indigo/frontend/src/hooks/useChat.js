@@ -35,9 +35,9 @@ export const useChat = (backendConnected) => {
   const [settings, setSettings] = useState(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEYS.settings)
-      return raw ? JSON.parse(raw) : { query_model: 'gpt-5', search_type: 'rank_fusion' }
+      return raw ? JSON.parse(raw) : { query_model: 'gpt-5', search_type: 'rank_fusion', document_count: 10 }
     } catch {
-      return { query_model: 'gpt-5', search_type: 'rank_fusion' }
+      return { query_model: 'gpt-5', search_type: 'rank_fusion', document_count: 10 }
     }
   })
   const chatMessagesRef = useRef(null)
@@ -99,7 +99,8 @@ export const useChat = (backendConnected) => {
             body: JSON.stringify({
               chat_items: newChatHistory,
               query_model: settings.query_model,
-              search_type: settings.search_type
+              search_type: settings.search_type,
+              document_count: settings.document_count
             })
           })
           
