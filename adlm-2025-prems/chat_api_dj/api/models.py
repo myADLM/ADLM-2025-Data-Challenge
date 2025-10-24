@@ -79,6 +79,7 @@ class Chunk(models.Model):
     page_metadata = models.JSONField()
     bbox = models.JSONField()
 
+    embedding_model = models.CharField(max_length=255, null=True, blank=True)
     embedding = VectorField(dimensions=1024, null=True, blank=True)
 
     def __str__(self):
