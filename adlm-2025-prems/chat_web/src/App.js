@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, startTransition } from "react";
 import ChatForm from "./components/ChatForm";
 import ChatMessages from "./components/ChatMessages";
 import { streamChat } from "./ApiClient";
@@ -12,15 +12,19 @@ export default function App() {
   const [err, setErr] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
 
+  const generateRandomId = (length = 8) => {
+    return Math.random().toString(36).substring(2, length + 2);
+  };
+
   const startChat = async (userText) => {
     setErr("");
 
     // push user message immediately
-    const userMsg = { id: crypto.randomUUID(), role: "user", text: userText };
+    const userMsg = { id: generateRandomId(), role: "user", text: userText };
     setMessages((prev) => [...prev, userMsg]);
 
     // create a placeholder assistant message we’ll append to
-    const asstId = crypto.randomUUID();
+    const asstId = generateRandomId();
     let draft = "";
     setMessages((prev) => [...prev, { id: asstId, role: "assistant", text: "" }]);
 
@@ -31,9 +35,12 @@ export default function App() {
           case "reply": {
             // payload is a small string chunk
             draft += typeof event.payload === "string" ? event.payload : String(event.payload);
-            setMessages((prev) =>
-              prev.map((m) => (m.id === asstId ? { ...m, text: draft } : m))
-            );
+            // Use startTransition for non-urgent updates to prevent blocking token rendering
+            startTransition(() => {
+              setMessages((prev) =>
+                prev.map((m) => (m.id === asstId ? { ...m, text: draft } : m))
+              );
+            });
             break;
           }
           case "tool_call_started": {
@@ -42,8 +49,10 @@ export default function App() {
               typeof event.payload === "object"
                 ? `Calling tool "${event.payload.function}"…`
                 : "Calling tool…";
-            const toolMsg = { id: crypto.randomUUID(), role: "system", text: info };
-            setMessages((prev) => [...prev, toolMsg]);
+            const toolMsg = { id: generateRandomId(), role: "system", text: info };
+            startTransition(() => {
+              setMessages((prev) => [...prev, toolMsg]);
+            });
             break;
           }
           case "tool_call_response": {
@@ -52,7 +61,9 @@ export default function App() {
                 ? JSON.stringify(event.payload.value)
                 : JSON.stringify(event.payload);
             const toolMsg = { id: crypto.randomUUID(), role: "system", text: `Tool result: ${val}` };
-            setMessages((prev) => [...prev, toolMsg]);
+            startTransition(() => {
+              setMessages((prev) => [...prev, toolMsg]);
+            });
             break;
           }
           case "error": {
