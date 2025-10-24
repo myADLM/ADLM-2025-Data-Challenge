@@ -10,6 +10,7 @@ import gc
 import logging
 import os
 import sys
+import time
 
 import polars as pl
 import uvicorn
@@ -105,7 +106,10 @@ def main():
     @app.post("/chat", response_model=ChatResponse)
     def chat(request: ChatRequest):
         """Process chat request with document search."""
-        return chat_impl(request, search_client, database_path)
+        t0 = time.perf_counter()
+        resp = chat_impl(request, search_client, database_path)
+        logger.info(f"TIMER: {request.query_model}: {time.perf_counter()-t0}")
+        return resp
 
     # Start the server
     uvicorn.run(app, host="0.0.0.0", port=5174)
