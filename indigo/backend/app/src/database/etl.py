@@ -18,7 +18,12 @@ from app.src.util.read_documents import read_documents_as_plaintext
 
 
 def bronze_database(pdfs_dir: Path, output_path: Path):
-    """Extract text from PDFs and store in parquet format."""
+    """
+    Extract text from PDFs and store in parquet format.
+    Bronze Columns:
+    - file_path[str]
+    - content[str]
+    """
     text_files = read_documents_as_plaintext(pdfs_dir)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
@@ -33,7 +38,16 @@ def bronze_database(pdfs_dir: Path, output_path: Path):
 
 
 def silver_database(bronze_path: Path, output_path: Path):
-    """Chunk text and add contextual annotations using LLM."""
+    """
+    Chunk text and add contextual annotations using LLM.
+    Silver Columns:
+    - idx[int]
+    - file_path[str]
+    - chunk_index[int]
+    - chunk_text[str]
+    - file_path_annotations[str]
+    - contextual_annotations[str]
+    """
     df = pl.read_parquet(bronze_path)
 
     # Load chunking configuration and process text
@@ -44,7 +58,18 @@ def silver_database(bronze_path: Path, output_path: Path):
 
 
 def gold_database(silver_path: Path, output_path: Path):
-    """Add embeddings to processed chunks and create final database."""
+    """
+    Add embeddings to processed chunks and create final database.
+    Gold Columns:
+    - idx[int]
+    - file_path[str]
+    - chunk_index[int]
+    - chunk_text[str]
+    - file_path_annotations[str]
+    - contextual_annotations[str]
+    - contextual_chunk[str]
+    - embedding[list[f32]]
+    """
     openai_client = EmbeddingsAPI()
     df = pl.read_parquet(silver_path)
 

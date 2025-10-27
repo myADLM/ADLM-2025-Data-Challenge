@@ -24,15 +24,9 @@ def chunk_text(
     """
     Chunk the text in `text_column` into ~500-token chunks with no overlap.
 
-    Uses `SentenceChunker` for sentence-aware chunking and `ThreadPoolExecutor`
-    to parallelize across rows.
+    Uses `SentenceChunker` for sentence-aware chunking.
 
-    Returns a new DataFrame with rows expanded per chunk and columns:
-      - all original columns (except `text_column` may be dropped in output)
-      - `chunk_index`: zero-based index of the chunk for that row
-      - `chunk_text`: text content of the chunk
-      - `file_path_column`: file path of the original file
-      - `path_annotation_config`: configuration for path-based annotations
+    Returns a dataframe containing the chunks and related context.
     """
     if text_column not in df.columns:
         raise ValueError(f"Column '{text_column}' not found in DataFrame")
