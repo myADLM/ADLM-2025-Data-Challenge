@@ -10,10 +10,10 @@ services:
     env_file:
       - .env
     environment:
-      - PYTHONPATH=${PYTHONPATH}
-      - PYTHONUNBUFFERED=${PYTHONUNBUFFERED}
-      - USE_LOCALSTACK=${USE_LOCALSTACK}
-      - AWS_REGION=${AWS_REGION}
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+      - USE_LOCALSTACK=1
+      - AWS_REGION=us-east-1
       - AMAZON_NOVA_PROFILE=${AMAZON_NOVA_PROFILE}
     volumes:
       - ../backend/app/database:/app/database
