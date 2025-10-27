@@ -45,11 +45,12 @@ def build_database(
     else:
         logger.info("S3 bucket already exists. Skipping upload...")
 
+    df_exists = lambda p: p.exists() and p.stat().st_size > 0
     # Check the github release files for a published the gold database
-    gold_db_url = "https://github.com/jonmontg/ADLM-2025-Data-Challenge/releases/download/release-v1/gold.parquet"
-    if not force_rebuild:
+    if not force_rebuild and not df_exists(gold_path):
+        gold_db_url = "https://github.com/jonmontg/ADLM-2025-Data-Challenge/releases/download/release-v1/gold.parquet"
+        logger.info("Trying to retrieve gold database from release files...")
         try:
-            logger.info("Trying to retrieve gold database from release files...")
             head = requests.head(gold_db_url, allow_redirects=True, timeout=10)
             if head.status_code == 200:
                 with requests.get(gold_db_url, stream=True, allow_redirects=True, timeout=240) as r:
@@ -61,13 +62,13 @@ def build_database(
                 logger.info("Gold database retrieved from release files.")
             else:
                 logger.info("No gold database found.")
-        except requests.RequestException:
+        except requests.RequestException as e:
+            logger.info(f"An error occurred while retrieving the gold database: {e}")
             pass
                     
 
     # Extract the text from the PDFs and store it in a parquet file
     # Expect columns: file_path, content
-    df_exists = lambda p: p.exists() and p.stat().st_size > 0
     if force_rebuild or (not df_exists(bronze_path) and not df_exists(silver_path) and not df_exists(gold_path)):
         logger.info("Building bronze database...")
         bronze_database(pdfs_dir, bronze_path)
