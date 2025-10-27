@@ -1,8 +1,11 @@
 # Quick Start
 
+### Design
+See [design.md](backend/design.md) for more details.
+
 ### Prerequisites
 - **macOS 12+ (Monterey or newer)**:
-  - Docker Desktop for Mac (includes Docker Engine and Compose)
+  - Docker Desktop for Mac
 - **Linux (Ubuntu 22.04 LTS typical)**:
   - Docker Engine
   - docker-compose (Compose v1) or Docker Compose plugin (v2)
@@ -15,9 +18,9 @@ docker-compose --version
 
 ### Start the application
 #### IMPORTANT
-The backend build process takes a long time and costs some money to generate the embeddings and contextual annotations. Contact jmontgomery@indigobio.com for a pre-built database. See [design.md](backend/design.md) for more details.
+The backend build process takes a long time and costs some money to generate the embeddings and contextual annotations. I built the database and uploaded it to GitHub so that you don't need to.
 
-Building the database from scratch requires [AWS credentials](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html) with permission to execute the Amazon Nova Lite model in Amazon Bedrock. If you get the database from me, you do not need to do this.
+Building the database from scratch requires [AWS credentials](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html) with permission to execute the Amazon Nova Lite model in Amazon Bedrock. You do not need to do this to run the application.
 
 If you want to use the vector search capabilities and/or Chat features, you will need to add the following environment variable to the `local_orchestration/.env` file:
 
@@ -25,7 +28,7 @@ If you want to use the vector search capabilities and/or Chat features, you will
 OPENAI_API_KEY
 ```
 
-If you just want BM25 search and document retrieval, you don't need set that environment variable.
+If you just want BM25 search and document retrieval, you don't need set that environment variable (not recommended).
 
 From the project root:
 ```bash

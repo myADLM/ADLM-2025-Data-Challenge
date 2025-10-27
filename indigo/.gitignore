@@ -1,8 +1,5 @@
 **.pyc
-backend/app/database/originals
-backend/app/database/medallions/atlasf32.parquet
-backend/app/database/medallions/bronze.parquet
-backend/app/database/medallions/silver.parquet
+backend/app/database/**
 backend/app/input_data/raw_input_data.zip
 backend/tmp/**
 backend/.idea/**

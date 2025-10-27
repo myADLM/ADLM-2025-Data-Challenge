@@ -1,5 +1,6 @@
 import logging
 from pathlib import Path
+import requests, os
 
 from app.src.database.etl import (bronze_database, gold_database,
                                   silver_database)
@@ -43,6 +44,26 @@ def build_database(
         upload_files_to_s3(pdfs_dir, bucket_name, "originals/", force_rebuild)
     else:
         logger.info("S3 bucket already exists. Skipping upload...")
+
+    # Check the github release files for a published the gold database
+    gold_db_url = "https://github.com/jonmontg/ADLM-2025-Data-Challenge/releases/download/release-v1/gold.parquet"
+    if not force_rebuild:
+        try:
+            logger.info("Trying to retrieve gold database from release files...")
+            head = requests.head(gold_db_url, allow_redirects=True, timeout=10)
+            if head.status_code == 200:
+                with requests.get(gold_db_url, stream=True, allow_redirects=True, timeout=240) as r:
+                    r.raise_for_status()
+                    with open(gold_path, "wb") as f:
+                        for chunk in r.iter_content(chunk_size=1024*1024):
+                            if chunk:
+                                f.write(chunk)
+                logger.info("Gold database retrieved from release files.")
+            else:
+                logger.info("No gold database found.")
+        except requests.RequestException:
+            pass
+                    
 
     # Extract the text from the PDFs and store it in a parquet file
     # Expect columns: file_path, content
