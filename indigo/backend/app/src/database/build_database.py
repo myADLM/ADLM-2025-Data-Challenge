@@ -26,6 +26,7 @@ def build_database(
 
     # Prepare the PDFs
     if force_rebuild or not pdfs_dir.exists():
+        logger.info(f"No pdfs found at {pdfs_dir}. Downloading and extracting...")
         logger.info("Extracting PDFs...")
         # Ensure the input zip file exists
         if not input_zip_path.exists():

@@ -16,8 +16,8 @@ services:
       - AWS_REGION=us-east-1
       - AMAZON_NOVA_PROFILE=${AMAZON_NOVA_PROFILE}
     volumes:
-      - ../backend/app/database:/app/database
-      - ../backend/app/input_data:/app/input_data
+      - ../backend/app/database:/app/app/database
+      - ../backend/app/input_data:/app/app/input_data
       - ~/.aws:/root/.aws:ro
     networks:
       - indigo-network

@@ -1,7 +1,7 @@
 # Quick Start
 
 ### Design
-See [design.md](backend/design.md) for more details.
+See [backend/design.md](backend/design.md) for more details about architecture, strategy, and performance.
 
 ### Prerequisites
 - **macOS 12+ (Monterey or newer)**:

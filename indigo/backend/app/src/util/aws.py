@@ -55,6 +55,7 @@ def get_s3():
             aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY", "test"),
             config=cfg,
         )
+    logger.info(f"Using live S3")
     return boto3.resource("s3", region_name=region, config=cfg)
 
 
