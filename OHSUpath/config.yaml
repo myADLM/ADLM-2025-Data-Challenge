@@ -51,8 +51,8 @@
 # =============================================================
 
 paths:
-  # Folder where your source PDF documents are stored
-  data_dir: "data/LabDocs"
+  # Folder where your source PDF documents are stored (scans all subfolders recursively)
+  data_dir: "data"
   allowed_extensions: [".pdf"]      # which files to ingest
   pdf_text_mode: "text"             # "text" | "blocks" | "html"
   store_dir: ".rag_store"

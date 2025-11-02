@@ -143,7 +143,7 @@ cmd_bootstrap() {
   set_kv "$PY_ENV" "INTERNAL_SHARED_KEY" "$INTERNAL_KEY"
   ALLOW_OVERWRITE=$FORCE
   set_kv "$PY_ENV" "ALLOWED_ORIGINS" ""
-  set_kv "$PY_ENV" "DATA_DIR" "./minidata/LabDocs"
+  set_kv "$PY_ENV" "DATA_DIR" "./data"
 
   # Gateway env
   ALLOW_OVERWRITE=1

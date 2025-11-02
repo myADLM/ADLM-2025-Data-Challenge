@@ -74,6 +74,19 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.41] - 2025-11-01
+### Changed
+- Data Directory: Changed `data_dir` from `data/LabDocs` to `data` to scan entire data folder recursively, including all subdirectories.
+- Configuration: Updated config.yaml, config.py, rag/pipeline.py, and bootstrap/netstack.sh to use `data/` as root directory.
+- SentenceTransformer Loading: Updated model loading in `rag/embedders/st_multi_gpu.py` to explicitly specify `device="cpu"` to prevent meta-tensor issues.
+- minidata Directory: Completely removed `minidata/` folder and all references from codebase; project now uses only `data/` directory.
+
+### Fixed
+- BM25 Empty Index Error: Fixed `ValueError: max() arg is an empty sequence` when initializing BM25 sparse index with no documents by adding empty corpus handling in `rag/vectorstores/bm25_store.py`.
+- SentenceTransformer Meta Tensor Error: Fixed `NotImplementedError: Cannot copy out of meta tensor` by loading model with explicit device parameter.
+- Empty Index Persistence: Added graceful handling for saving empty BM25 indexes with proper metadata markers.
+
+
 ## [0.2.40] - 2025-10-20
 ### Changed
 - Simplified `run_app.sh` by removing redundant environment exports.

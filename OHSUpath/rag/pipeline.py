@@ -138,7 +138,7 @@ class RagPipeline:
     def bootstrap(self):
         paths = _cfg_get(self.cfg, "paths", None)
         return self.manager.bootstrap(
-            _cfg_get(paths, "data_dir", "minidata/LabDocs"),
+            _cfg_get(paths, "data_dir", "data"),
             _cfg_get(paths, "allowed_extensions", [".pdf"]),
         )
 
@@ -148,7 +148,7 @@ class RagPipeline:
         """
         paths = _cfg_get(self.cfg, "paths", None)
         return self.manager.refresh(
-            _cfg_get(paths, "data_dir", "minidata/LabDocs"),
+            _cfg_get(paths, "data_dir", "data"),
             _cfg_get(paths, "allowed_extensions", [".pdf"]),
             prev_manifest,
             **({k: v for k, v in kw.items() if k in ("progress",)})  # forward whitelisted kwargs

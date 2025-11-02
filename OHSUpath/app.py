@@ -417,7 +417,7 @@ def clear_project_artifacts(pipe: RagPipeline):
         looks like a vector-store directory)
       - Top-level .pytest_cache
       - All __pycache__ directories and *.pyc files
-    Does NOT touch: source code, data/, minidata/, config
+    Does NOT touch: source code, data/, config
     """
     root = Path(__file__).resolve().parent
 

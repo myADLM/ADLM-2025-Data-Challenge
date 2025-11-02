@@ -227,9 +227,9 @@ class STMultiGPUEmbedder:
             import torch
             from sentence_transformers import SentenceTransformer
 
-            # Load model without specifying device initially to avoid meta-tensor issues
-            # Let SentenceTransformer use its default loading mechanism
-            model = SentenceTransformer(self.model_name)
+            # Load model with device explicitly set to CPU first to avoid meta-tensor issues
+            # This prevents PyTorch from loading tensors in "meta" mode
+            model = SentenceTransformer(self.model_name, device="cpu")
             target = "cpu"
 
             # If user prefers CUDA, attempt to transfer. Fallback to CPU if allowed.
