@@ -74,6 +74,26 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.42] - 2025-11-01
+### Added
+- RAG Service Integration: Created `net/api/rag_service.py` as a singleton service wrapper for the RAG pipeline, providing document retrieval and query functionality with LLM support.
+- API Startup Initialization: Added FastAPI `@app.on_event("startup")` handler in `main.py` to initialize RAG service with config at application startup.
+- Source Document Streaming: Enhanced SSE streaming in `query.py` to emit source documents and metadata as separate events (sources, metadata) alongside text chunks.
+- Frontend Event Processing: Added multi-event SSE handling in `Client.tsx` to process sources and metadata events separately from text data.
+
+### Changed
+- Query Endpoint: Replaced echo response with actual RAG-powered AI responses using the integrated RAG service in `routers/query.py`.
+- Source Document Formatting: Enhanced source document metadata to include source file, page number, and content preview (first 200 chars) for frontend display.
+- Session Management: Refactored streaming persistence to use a new database session after stream completion to prevent SQLAlchemy DetachedInstanceError.
+- Error Handling: Improved error handling in chat client - replaced "info" role error messages with console.error logging for cleaner UI.
+- SSE Event Structure: Updated streaming to emit three event types: data (text chunks), sources (document references), and metadata (llm_enabled flag).
+
+### Fixed
+- Streaming State Management: Fixed streaming state cleanup by properly resetting `remoteStreaming` and `prevAssistantLenRef` on close and error events.
+- UI Jumps During Streaming: Prevented message replacement during active streams by adding conditional check in message update logic.
+- Database Session Errors: Resolved DetachedInstanceError when persisting assistant messages after streaming by creating fresh session.
+
+
 ## [0.2.41] - 2025-11-01
 ### Changed
 - Data Directory: Changed `data_dir` from `data/LabDocs` to `data` to scan entire data folder recursively, including all subdirectories.

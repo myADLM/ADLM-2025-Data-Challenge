@@ -21,7 +21,18 @@ type Conv = {
   [k: string]: any;
 };
 
-type Msg = { role: "user" | "assistant" | "system" | "info"; text: string; created_at?: number };
+type SourceDoc = {
+  source: string;
+  page: number | string | null;
+  content_preview?: string | null;
+};
+
+type Msg = {
+  role: "user" | "assistant" | "system";
+  text: string;
+  created_at?: number;
+  sources?: SourceDoc[];
+};
 
 type Member = {
   user: UserBrief;
@@ -415,6 +426,7 @@ export default function ChatClient({
         }));
         const curLast = latestTs(msgsRef.current);
         const newLast = latestTs(mapped);
+        // Don't replace messages while streaming to prevent UI jumps
         if (newLast > curLast) {
           setMsgs(mapped);
           shadowSeenRef.current.set(selectedId, newLast);
@@ -659,7 +671,7 @@ export default function ChatClient({
       convInfo = await ensureConversation();
     } catch (e: any) {
       setStreaming(false);
-      setMsgs((m) => [...m, { role: "info", text: `[error] ${String(e?.message || e)}` }]);
+      console.error("Failed to create conversation:", e);
       return;
     }
 
@@ -697,8 +709,38 @@ export default function ChatClient({
 
     esRef.current?.close();
     esRef.current = startSSE(url, payload, {
-      onMessage: (t: string) => {
-        const add = sanitizeChunk(t);
+      onEvent: (e: { event?: string; data: string; id?: string }) => {
+        // Handle special events
+        if (e.event) {
+          if (e.event === "sources") {
+            // Parse and store sources
+            try {
+              const sources = JSON.parse(e.data) as SourceDoc[];
+              console.log("[OK] Received sources event:", sources);
+              setMsgs((m) => {
+                let idx = -1;
+                for (let i = m.length - 1; i >= 0; i--) {
+                  if (m[i].role === "assistant") { idx = i; break; }
+                }
+                if (idx === -1) {
+                  console.warn("[WARN] No assistant message found to attach sources to");
+                  return m;
+                }
+                const cur = m[idx];
+                console.log("[OK] Attaching sources to message at index", idx);
+                return [...m.slice(0, idx), { ...cur, sources }, ...m.slice(idx + 1)];
+              });
+            } catch (err) {
+              console.error("[ERROR] Failed to parse sources:", err);
+            }
+          } else if (e.event === "metadata") {
+            console.log("Received metadata:", e.data);
+          }
+          return; // Skip non-data events
+        }
+
+        // Regular data event - append to message
+        const add = sanitizeChunk(e.data);
         if (!add) return;
         setMsgs((m) => {
           let idx = -1;
@@ -710,6 +752,8 @@ export default function ChatClient({
       },
       onClose: async () => {
         setStreaming(false);
+        setRemoteStreaming(false);  // Clear remote streaming state
+        prevAssistantLenRef.current = 0;  // Reset length tracker
         setMsgs((m) => {
           if (!m.length) return m;
           const last = m[m.length - 1];
@@ -728,7 +772,9 @@ export default function ChatClient({
       },
       onError: (e: unknown) => {
         setStreaming(false);
-        setMsgs((m) => [...m, { role: "info", text: `[error] ${String(e)}` }]);
+        setRemoteStreaming(false);
+        prevAssistantLenRef.current = 0;
+        console.error("Stream error:", e);
       },
     });
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -942,10 +988,73 @@ export default function ChatClient({
                       ref={(el) => { msgRefs.current.set(i, el); }}
                       style={{
                         padding: "10px 12px", borderRadius: 8, border: "1px solid #eee",
-                        background: m.role === "user" ? "#fff" : "#f7f7f7", whiteSpace: "pre-wrap"
+                        background: m.role === "user" ? "#fff" : "#f7f7f7"
                       }}
                     >
-                      {m.text}
+                      <div style={{ whiteSpace: "pre-wrap" }}>{m.text}</div>
+
+                      {/* Display sources for assistant messages */}
+                      {m.role === "assistant" && m.sources && m.sources.length > 0 && (
+                        <details style={{ marginTop: 16, paddingTop: 12, borderTop: "1px solid #ddd" }}>
+                          <summary style={{
+                            fontWeight: 700,
+                            fontSize: 14,
+                            marginBottom: 8,
+                            color: "#555",
+                            cursor: "pointer",
+                            userSelect: "none"
+                          }}>
+                            Sources ({m.sources.length}) - Click to expand
+                          </summary>
+                          <div style={{ display: "grid", gap: 10, marginTop: 8 }}>
+                            {m.sources.slice(0, 5).map((src, idx) => {
+                              const filename = src.source.split('/').pop() || src.source;
+                              return (
+                                <div key={idx} style={{
+                                  fontSize: 13,
+                                  padding: "10px 12px",
+                                  background: "#fff",
+                                  border: "1px solid #e0e0e0",
+                                  borderRadius: 6
+                                }}>
+                                  <div style={{ marginBottom: 6 }}>
+                                    <span style={{ fontWeight: 700, color: "#333" }}>{idx + 1}.</span>{" "}
+                                    <code style={{
+                                      background: "#f5f5f5",
+                                      padding: "3px 7px",
+                                      borderRadius: 3,
+                                      fontSize: 12,
+                                      fontFamily: "monospace",
+                                      fontWeight: 600
+                                    }}>
+                                      {filename}
+                                    </code>
+                                    <span style={{ color: "#666", marginLeft: 6 }}>
+                                      (page {src.page || "?"})
+                                    </span>
+                                  </div>
+                                  {src.content_preview && (
+                                    <div style={{
+                                      fontSize: 12,
+                                      color: "#555",
+                                      marginTop: 8,
+                                      padding: "8px 10px",
+                                      background: "#fafafa",
+                                      borderLeft: "3px solid #ddd",
+                                      fontFamily: "system-ui, -apple-system, sans-serif",
+                                      lineHeight: 1.5,
+                                      whiteSpace: "pre-wrap"
+                                    }}>
+                                      {src.content_preview}
+                                      {src.content_preview.length >= 190 && "..."}
+                                    </div>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </details>
+                      )}
                     </div>
                   </div>
                 );

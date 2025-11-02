@@ -2,13 +2,15 @@
 
 from __future__ import annotations
 from typing import Optional, AsyncGenerator
+import json
 from fastapi import APIRouter, Depends, HTTPException, status, Path
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from sqlmodel import Session, select
-from ..db import get_db
+from ..db import get_db, engine
 from ..deps import get_current_user, CurrentUser
 from ..models import Conversation, ConversationMember, Message, now_ms
+from ..rag_service import get_rag_service
 
 router = APIRouter(prefix="/query", tags=["query"])
 
@@ -28,10 +30,34 @@ def _access_role(db: Session, conv: Conversation, uid: int) -> str | None:
     return cm.role if cm else None
 
 
-def _sse(reply: str) -> AsyncGenerator[bytes, None]:
+class SourceDocument(BaseModel):
+    source: str
+    page: int | str | None = None
+    content_preview: str | None = None
+
+
+def _sse(reply: str, sources: list[dict] | None = None, llm_enabled: bool | None = None) -> AsyncGenerator[bytes, None]:
     async def gen():
+        # Stream the main content character by character
         for ch in reply:
             yield f"data: {ch}\n\n".encode("utf-8")
+
+        # Send sources as a separate event
+        if sources:
+            print(f"[SSE] Sending sources event with {len(sources)} sources")
+            sources_json = json.dumps(sources)
+            print(f"[SSE] Sources JSON: {sources_json[:200]}...")
+            yield f"event: sources\ndata: {sources_json}\n\n".encode("utf-8")
+        else:
+            print("[SSE] No sources to send")
+
+        # Send metadata (llm_enabled status)
+        if llm_enabled is not None:
+            print(f"[SSE] Sending metadata event: llm_enabled={llm_enabled}")
+            metadata_json = json.dumps({"llm_enabled": llm_enabled})
+            yield f"event: metadata\ndata: {metadata_json}\n\n".encode("utf-8")
+
+        print("[SSE] Sending done event")
         yield b"event: done\ndata: ok\n\n"
     return gen()
 
@@ -124,17 +150,43 @@ async def stream_query(
     db.add(conv)
     db.commit()
 
-    reply = f"Echo: {body.content}"
+    # Get AI response from RAG service
+    rag_service = get_rag_service()
+    result = rag_service.query(body.content)
+
+    reply = result.get("answer", "No answer generated.")
+    source_docs = result.get("source_documents", [])
+    llm_enabled = result.get("llm_enabled", False)
+
+    # Format sources for frontend
+    sources_list = []
+    for doc in source_docs[:5]:  # Limit to top 5 sources
+        source = doc.metadata.get("source", "unknown")
+        page = doc.metadata.get("page_number") or doc.metadata.get("page", "?")
+        content_preview = doc.page_content[:200] if hasattr(doc, 'page_content') else ""
+        sources_list.append({
+            "source": source,
+            "page": page,
+            "content_preview": content_preview
+        })
+
+    # Save conversation ID before session closes
+    conv_id = conv.id
 
     async def gen():
-        async for chunk in _sse(reply):
+        async for chunk in _sse(reply, sources=sources_list, llm_enabled=llm_enabled):
             yield chunk
-        # persist assistant and bump timestamp again
+
+        # Create NEW session for persisting after stream (avoid DetachedInstanceError)
         t2 = now_ms()
-        db.add(Message(conversation_id=conv.id, role="assistant", content=reply, created_at=t2))
-        conv.last_message_at = t2
-        db.add(conv)
-        db.commit()
+        with Session(engine) as new_db:
+            db_msg = Message(conversation_id=conv_id, role="assistant", content=reply, created_at=t2)
+            new_db.add(db_msg)
+            db_conv = new_db.get(Conversation, conv_id)
+            if db_conv:
+                db_conv.last_message_at = t2
+                new_db.add(db_conv)
+            new_db.commit()
 
     headers = {
         "Cache-Control": "no-cache",
