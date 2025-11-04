@@ -175,10 +175,32 @@ export default function ChatClient({
   );
 
   const [convs, setConvs] = useState<Conv[]>(initial);
-  const [activeTab, setActiveTab] = useState<"all" | "owned" | "collab" | "readonly">("all");
+
+  // Start with "all" to avoid hydration mismatch, then load from sessionStorage after mount
+  const [activeTab, setActiveTabState] = useState<"all" | "owned" | "collab" | "readonly">("all");
+
+  // Load saved tab after hydration
+  useEffect(() => {
+    const saved = sessionStorage.getItem("chatActiveTab");
+    if (saved && (saved === "all" || saved === "owned" || saved === "collab" || saved === "readonly")) {
+      setActiveTabState(saved as any);
+    }
+  }, []);
+
+  const setActiveTab = useCallback((tab: "all" | "owned" | "collab" | "readonly") => {
+    setActiveTabState(tab);
+    if (typeof window !== "undefined") {
+      sessionStorage.setItem("chatActiveTab", tab);
+    }
+  }, []);
+
   const [selectedId, setSelectedId] = useState<string | null>(selectedPublicId);
+  const [editingTitle, setEditingTitle] = useState(false);
+  const [editTitleValue, setEditTitleValue] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const selectedConv = useMemo(() => convs.find((c) => c.id === selectedId) ?? null, [convs, selectedId]);
+
+  const sidebarScrollRef = useRef<HTMLDivElement | null>(null);
 
   // me
   const [me, setMe] = useState<Me | null>(null);
@@ -233,7 +255,21 @@ export default function ChatClient({
     }
   }, [activeTab, counts]);
 
-  useEffect(() => { setSelectedId(selectedPublicId); }, [selectedPublicId]);
+  useEffect(() => {
+    setSelectedId(selectedPublicId);
+
+    // Restore sidebar scroll position after navigation
+    if (sidebarScrollRef.current) {
+      const savedScroll = sessionStorage.getItem("sidebarScrollTop");
+      if (savedScroll) {
+        setTimeout(() => {
+          if (sidebarScrollRef.current) {
+            sidebarScrollRef.current.scrollTop = Number(savedScroll);
+          }
+        }, 0);
+      }
+    }
+  }, [selectedPublicId]);
 
   const listBackoffRef = useRef<number>(0);
   const msgBackoffRef  = useRef<number>(0);
@@ -487,11 +523,18 @@ export default function ChatClient({
   }, [selectedId, markRead]);
 
   const selectConv = useCallback(async (publicId: string) => {
+    if (publicId === selectedId) return; // Already selected
+
+    // Save sidebar scroll position before navigation
+    if (sidebarScrollRef.current) {
+      sessionStorage.setItem("sidebarScrollTop", String(sidebarScrollRef.current.scrollTop));
+    }
+
     esRef.current?.close(); setStreaming(false);
     setSelectedId(publicId);
-    router.push(`/chat/${publicId}`);
+    router.replace(`/chat/${publicId}`, { scroll: false });
     await loadConvMessages(publicId);
-  }, [router, loadConvMessages]);
+  }, [router, loadConvMessages, selectedId]);
 
   const newChat = useCallback(() => {
     esRef.current?.close(); setStreaming(false);
@@ -500,12 +543,19 @@ export default function ChatClient({
     router.push(`/chat`);
   }, [router]);
 
-  const renameConv = useCallback(async (c: Conv) => {
+  const startEditingTitle = useCallback((c: Conv) => {
     const current = labelOf(c);
-    const title = window.prompt("Rename conversation", current) ?? "";
-    const trimmed = title.trim();
+    setEditTitleValue(current);
+    setEditingTitle(true);
+  }, []);
+
+  const saveTitle = useCallback(async () => {
+    if (!selectedConv) return;
+    const trimmed = editTitleValue.trim();
+    const current = labelOf(selectedConv);
+    setEditingTitle(false);
     if (!trimmed || trimmed === current) return;
-    const res = await fetch(`/api/conversations/${c.id}`, {
+    const res = await fetch(`/api/conversations/${selectedConv.id}`, {
       method: "PATCH",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ title: trimmed }),
@@ -514,7 +564,18 @@ export default function ChatClient({
       const updated = await res.json().catch(()=>null);
       if (updated) setConvs(prev => upsert(prev, updated));
     }
+  }, [selectedConv, editTitleValue]);
+
+  const cancelEditingTitle = useCallback(() => {
+    setEditingTitle(false);
+    setEditTitleValue("");
   }, []);
+
+  // Close editing when switching conversations
+  useEffect(() => {
+    setEditingTitle(false);
+    setEditTitleValue("");
+  }, [selectedId]);
 
   const refreshConvsAndLocal = useCallback(async () => {
     await refreshConvs();
@@ -568,9 +629,11 @@ export default function ChatClient({
 
   const openSharePanel = useCallback(async () => {
     if (!selectedId) return;
-    setShareOpen(true);
-    await loadShares(selectedId);
-  }, [selectedId, loadShares]);
+    setShareOpen((prev) => !prev);
+    if (!shareOpen) {
+      await loadShares(selectedId);
+    }
+  }, [selectedId, loadShares, shareOpen]);
 
   useEffect(() => {
     if (shareOpen && selectedId) { (async () => { await loadShares(selectedId); })(); }
@@ -843,15 +906,16 @@ export default function ChatClient({
         display: "grid",
         gridTemplateColumns: `${sidebarOpen ? "300px" : "0"} 1fr${(mounted && !isNarrow && shareOpen) ? " 320px" : ""}`,
         minHeight: 0,
-        transition: "grid-template-columns 160ms ease"
+        transition: "grid-template-columns 160ms ease",
+        background: "#f9fafb"
       }}
     >
       {/* Sidebar */}
       <aside
         aria-hidden={!sidebarOpen}
         style={{
-          borderRight: sidebarOpen ? "1px solid #eee" : "none",
-          background: "#fafafa",
+          borderRight: sidebarOpen ? "1px solid #e5e7eb" : "none",
+          background: "#fff",
           display: "flex",
           flexDirection: "column",
           minHeight: 0,
@@ -859,34 +923,84 @@ export default function ChatClient({
           visibility: sidebarOpen ? "visible" : "hidden",
           pointerEvents: sidebarOpen ? "auto" : "none",
           opacity: sidebarOpen ? 1 : 0,
-          transition: "opacity 120ms ease"
+          transition: "opacity 120ms ease",
+          boxShadow: sidebarOpen ? "2px 0 8px rgba(0,0,0,0.05)" : "none"
         }}
       >
-        <div style={{ display: "flex", gap: 8, padding: 10, borderBottom: "1px solid #eee", alignItems: "center" }}>
-          <button onClick={newChat} style={{ padding: "6px 10px" }}>New chat</button>
-          <div style={{ marginLeft: "auto", fontSize: 12, opacity: .7 }}>
-            {currentCount} conversations{activeTab !== "all" ? ` (of ${counts.total})` : ""}
+        <div style={{
+          display: "flex",
+          gap: 8,
+          padding: 12,
+          borderBottom: "1px solid #e5e7eb",
+          alignItems: "center",
+          background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+        }}>
+          <button onClick={newChat} style={{
+            padding: "8px 16px",
+            background: "#fff",
+            color: "#667eea",
+            border: "none",
+            borderRadius: 8,
+            cursor: "pointer",
+            fontWeight: 600,
+            fontSize: 14,
+            boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+            transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = "translateY(-2px) scale(1.05)";
+            e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.2)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "translateY(0) scale(1)";
+            e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,0,0,0.15)";
+          }}
+          onMouseDown={(e) => e.currentTarget.style.transform = "scale(0.95)"}
+          onMouseUp={(e) => e.currentTarget.style.transform = "translateY(-2px) scale(1.05)"}>
+            New Chat
+          </button>
+          <div style={{ marginLeft: "auto", fontSize: 12, color: "#fff", opacity: 0.9 }}>
+            {currentCount} {currentCount === 1 ? "chat" : "chats"}
           </div>
         </div>
 
-        <div style={{ display: "flex", gap: 6, padding: "8px 10px", borderBottom: "1px solid #eee", fontSize: 13 }}>
+        <div style={{ display: "flex", gap: 6, padding: "10px", borderBottom: "1px solid #e5e7eb", fontSize: 13, background: "#fafafa" }}>
           {[
             ["all","All"],["owned","Owned"],["collab","Collaborating"],["readonly","Read-only"],
           ].map(([k, label]) => (
             <button key={k}
               onClick={() => setActiveTab(k as any)}
               style={{
-                padding: "4px 8px",
-                borderRadius: 6,
-                border: "1px solid #ddd",
-                background: activeTab===k ? "#e7f0ff" : "#fff",
-                fontWeight: activeTab===k ? 700 : 500
+                padding: "6px 12px",
+                borderRadius: 8,
+                border: "none",
+                background: activeTab===k ? "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" : "#fff",
+                color: activeTab===k ? "#fff" : "#555",
+                fontWeight: activeTab===k ? 600 : 500,
+                cursor: "pointer",
+                fontSize: 12,
+                boxShadow: activeTab===k ? "0 2px 8px rgba(102, 126, 234, 0.35)" : "0 1px 3px rgba(0,0,0,0.08)",
+                transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+              }}
+              onMouseEnter={(e) => {
+                if (activeTab !== k) {
+                  e.currentTarget.style.background = "#f0f4ff";
+                  e.currentTarget.style.transform = "translateY(-1px)";
+                  e.currentTarget.style.boxShadow = "0 2px 6px rgba(0,0,0,0.12)";
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (activeTab !== k) {
+                  e.currentTarget.style.background = "#fff";
+                  e.currentTarget.style.transform = "translateY(0)";
+                  e.currentTarget.style.boxShadow = "0 1px 3px rgba(0,0,0,0.08)";
+                }
               }}
             >{label}</button>
           ))}
         </div>
 
-        <div style={{ flex: 1, minHeight: 0, overflow: "auto" }}>
+        <div ref={sidebarScrollRef} style={{ flex: 1, minHeight: 0, overflow: "auto" }}>
           {filteredConvs.length === 0 ? (
             <div style={{ padding: 12, opacity: 0.6 }}>
               {activeTab === "owned" ? "You haven't started any chats yet."
@@ -936,32 +1050,144 @@ export default function ChatClient({
       </aside>
 
       {/* Main */}
-      <main style={{ display: "grid", gridTemplateRows: "auto 1fr auto", minHeight: 0 }}>
-        <div style={{ display: "flex", gap: 8, alignItems: "center", padding: "10px 12px", borderBottom: "1px solid #eee" }}>
-          <button onClick={() => setSidebarOpen((v) => !v)} style={{ padding: "6px 10px" }}>
-            {sidebarOpen ? "Hide sidebar" : "Show sidebar"}
+      <main style={{ display: "grid", gridTemplateRows: "auto 1fr auto", minHeight: 0, background: "#fff" }}>
+        <div style={{
+          display: "flex",
+          gap: 8,
+          alignItems: "center",
+          padding: "12px 16px",
+          borderBottom: "1px solid #e5e7eb",
+          background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
+        }}>
+          <button onClick={() => setSidebarOpen((v) => !v)} style={{
+            padding: "8px",
+            background: "rgba(255,255,255,0.15)",
+            color: "#fff",
+            border: "1px solid rgba(255,255,255,0.3)",
+            borderRadius: 6,
+            cursor: "pointer",
+            fontWeight: 400,
+            fontSize: 18,
+            lineHeight: 1,
+            width: 36,
+            height: 36,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            transition: "all 0.2s ease"
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "rgba(255,255,255,0.25)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "rgba(255,255,255,0.15)";
+          }}
+          title={sidebarOpen ? "Hide sidebar" : "Show sidebar"}>
+            {sidebarOpen ? "‹" : "›"}
           </button>
 
           {selectedConv && <RoleBadge c={selectedConv} />}
 
-          <div style={{ fontWeight: 700, flex: 1, minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-            {selectedConv ? labelOf(selectedConv) : "New conversation"}
-          </div>
+          {editingTitle ? (
+            <input
+              type="text"
+              value={editTitleValue}
+              onChange={(e) => setEditTitleValue(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") saveTitle();
+                if (e.key === "Escape") cancelEditingTitle();
+              }}
+              onBlur={saveTitle}
+              autoFocus
+              style={{
+                flex: 1,
+                minWidth: 0,
+                padding: "4px 8px",
+                border: "2px solid #fff",
+                borderRadius: 6,
+                fontSize: 15,
+                fontWeight: 600,
+                background: "#fff",
+                color: "#667eea",
+                outline: "none"
+              }}
+            />
+          ) : (
+            <div
+              onClick={() => {
+                if (selectedConv && (selectedConv.access_role === "owner" || selectedConv.access_role === "editor")) {
+                  startEditingTitle(selectedConv);
+                }
+              }}
+              style={{
+                fontWeight: 600,
+                fontSize: 15,
+                flex: 1,
+                minWidth: 0,
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                color: "#fff",
+                cursor: (selectedConv && (selectedConv.access_role === "owner" || selectedConv.access_role === "editor")) ? "pointer" : "default",
+                padding: "4px 8px",
+                borderRadius: 6,
+                transition: "all 0.2s ease"
+              }}
+              onMouseEnter={(e) => {
+                if (selectedConv && (selectedConv.access_role === "owner" || selectedConv.access_role === "editor")) {
+                  e.currentTarget.style.background = "rgba(255,255,255,0.15)";
+                }
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = "transparent";
+              }}
+              title={(selectedConv && (selectedConv.access_role === "owner" || selectedConv.access_role === "editor")) ? "Click to rename" : undefined}
+            >
+              {selectedConv ? labelOf(selectedConv) : "OHSUpath Reader"}
+            </div>
+          )}
 
           {!!selectedConv && (selectedConv.access_role === "owner" || selectedConv.access_role === "editor") && (
             <div style={{ display: "flex", gap: 8 }}>
-              <button onClick={() => renameConv(selectedConv)} style={{ padding: "6px 10px" }} title="Rename this conversation">Rename</button>
-              <button onClick={openSharePanel} style={{ padding: "6px 10px" }} title="Share this conversation">Share</button>
+              <button onClick={openSharePanel} style={{
+                padding: "8px 16px",
+                background: shareOpen ? "#fff" : "rgba(255,255,255,0.9)",
+                color: "#667eea",
+                border: shareOpen ? "2px solid #fff" : "none",
+                borderRadius: 8,
+                cursor: "pointer",
+                fontWeight: 600,
+                fontSize: 13,
+                transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+                boxShadow: shareOpen ? "0 4px 12px rgba(0,0,0,0.25)" : "0 2px 6px rgba(0,0,0,0.15)"
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-2px) scale(1.05)";
+                e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.25)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0) scale(1)";
+                e.currentTarget.style.boxShadow = shareOpen ? "0 4px 12px rgba(0,0,0,0.25)" : "0 2px 6px rgba(0,0,0,0.15)";
+              }}
+              onMouseDown={(e) => e.currentTarget.style.transform = "scale(0.95)"}
+              onMouseUp={(e) => e.currentTarget.style.transform = "translateY(-2px) scale(1.05)"}
+              title="Share this conversation">
+                {shareOpen ? "Close Share" : "Share"}
+              </button>
             </div>
           )}
         </div>
 
         {/* Messages */}
-        <div style={{ overflow: "auto", padding: 16, minHeight: 0 }}>
+        <div style={{ overflow: "auto", padding: 20, minHeight: 0, background: "#f9fafb" }}>
           {msgs.length === 0 ? (
-            <div style={{ opacity: .6 }}>Say something to start...</div>
+            <div style={{ textAlign: "center", padding: "40px 20px", color: "#999" }}>
+              <div style={{ fontSize: 18, marginBottom: 8, fontWeight: 600 }}>Start a Conversation</div>
+              <div style={{ fontSize: 14 }}>Ask me anything about the documents</div>
+            </div>
           ) : (
-            <div style={{ display: "grid", gap: 8 }}>
+            <div style={{ display: "grid", gap: 12, maxWidth: 900, margin: "0 auto" }}>
               {msgs.map((m, i) => {
                 const created = Number(m.created_at || 0);
                 const prevCreated = Number((msgs[i - 1] as any)?.created_at || 0);
@@ -977,18 +1203,27 @@ export default function ChatClient({
                 return (
                   <div key={i}>
                     {isUnreadStart && (
-                      <div style={{ textAlign: "center", margin: "8px 0" }}>
+                      <div style={{ textAlign: "center", margin: "12px 0" }}>
                         <span style={{
-                          padding: "2px 8px", fontSize: 12, borderRadius: 16,
-                          background: "#e8f0ff", border: "1px solid #cfe0ff", color: "#2055c4"
-                        }}>New</span>
+                          padding: "4px 12px", fontSize: 12, borderRadius: 16,
+                          background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                          color: "#fff",
+                          fontWeight: 600,
+                          boxShadow: "0 2px 4px rgba(102, 126, 234, 0.3)"
+                        }}>New Messages</span>
                       </div>
                     )}
                     <div
                       ref={(el) => { msgRefs.current.set(i, el); }}
                       style={{
-                        padding: "10px 12px", borderRadius: 8, border: "1px solid #eee",
-                        background: m.role === "user" ? "#fff" : "#f7f7f7"
+                        padding: "14px 16px",
+                        borderRadius: 12,
+                        background: m.role === "user"
+                          ? "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+                          : "#fff",
+                        color: m.role === "user" ? "#fff" : "#333",
+                        boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                        border: m.role === "user" ? "none" : "1px solid #e5e7eb"
                       }}
                     >
                       <div style={{ whiteSpace: "pre-wrap" }}>{m.text}</div>
@@ -1064,35 +1299,93 @@ export default function ChatClient({
         </div>
 
         {/* Composer */}
-        <div style={{ padding: 12, borderTop: "1px solid #eee" }}>
-          <div style={{ display: "flex", gap: 8 }}>
-            <input
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); (async () => { await send(); })(); } }}
-              placeholder={
-                selectedConv?.access_role === "viewer"
-                  ? "Read-only chat"
-                  : remoteStreaming
-                    ? (queuedInput ? "AI is answering... your message is queued" : "AI is answering... press Enter to queue")
-                    : "Type your message..."
-              }
-              style={{ flex: 1, padding: "8px 12px" }}
-              disabled={selectedConv?.access_role === "viewer"}
-            />
-            <button
-              onClick={() => { (async () => { await send(); })(); }}
-              disabled={selectedConv?.access_role === "viewer"}
-              style={{ minWidth: 96 }}
-            >
-              {buttonLabel}
-            </button>
-          </div>
-          {!!queuedInput && (
-            <div style={{ marginTop: 6, fontSize: 12, color: "#666" }}>
-              Queued: <span style={{ opacity: .85 }}>{queuedInput.slice(0, 80)}{queuedInput.length>80?"...":""}</span>
+        <div style={{
+          padding: 16,
+          borderTop: "1px solid #e5e7eb",
+          background: "#fff",
+          boxShadow: "0 -2px 8px rgba(0,0,0,0.05)"
+        }}>
+          <div style={{ maxWidth: 900, margin: "0 auto" }}>
+            <div style={{ display: "flex", gap: 10 }}>
+              <input
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); (async () => { await send(); })(); } }}
+                placeholder={
+                  selectedConv?.access_role === "viewer"
+                    ? "Read-only chat"
+                    : remoteStreaming
+                      ? (queuedInput ? "AI is answering... your message is queued" : "AI is answering... press Enter to queue")
+                      : "Type your message..."
+                }
+                style={{
+                  flex: 1,
+                  padding: "12px 16px",
+                  border: "2px solid #e5e7eb",
+                  borderRadius: 8,
+                  fontSize: 15,
+                  outline: "none",
+                  transition: "border-color 0.2s"
+                }}
+                onFocus={(e) => e.currentTarget.style.borderColor = "#667eea"}
+                onBlur={(e) => e.currentTarget.style.borderColor = "#e5e7eb"}
+                disabled={selectedConv?.access_role === "viewer"}
+              />
+              <button
+                onClick={() => { (async () => { await send(); })(); }}
+                disabled={selectedConv?.access_role === "viewer"}
+                style={{
+                  minWidth: 100,
+                  padding: "12px 24px",
+                  background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: 12,
+                  cursor: selectedConv?.access_role === "viewer" ? "not-allowed" : "pointer",
+                  fontWeight: 600,
+                  fontSize: 15,
+                  boxShadow: "0 4px 14px rgba(102, 126, 234, 0.4)",
+                  opacity: selectedConv?.access_role === "viewer" ? 0.5 : 1,
+                  transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+                }}
+                onMouseEnter={(e) => {
+                  if (selectedConv?.access_role !== "viewer") {
+                    e.currentTarget.style.transform = "translateY(-3px) scale(1.05)";
+                    e.currentTarget.style.boxShadow = "0 8px 24px rgba(102, 126, 234, 0.5)";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "translateY(0) scale(1)";
+                  e.currentTarget.style.boxShadow = "0 4px 14px rgba(102, 126, 234, 0.4)";
+                }}
+                onMouseDown={(e) => {
+                  if (selectedConv?.access_role !== "viewer") {
+                    e.currentTarget.style.transform = "translateY(-1px) scale(0.98)";
+                  }
+                }}
+                onMouseUp={(e) => {
+                  if (selectedConv?.access_role !== "viewer") {
+                    e.currentTarget.style.transform = "translateY(-3px) scale(1.05)";
+                  }
+                }}
+              >
+                {buttonLabel}
+              </button>
             </div>
-          )}
+            {!!queuedInput && (
+              <div style={{
+                marginTop: 10,
+                padding: "8px 12px",
+                fontSize: 13,
+                color: "#667eea",
+                background: "#f0f4ff",
+                borderRadius: 6,
+                border: "1px solid #e0e7ff"
+              }}>
+                Queued: <span style={{ fontWeight: 600 }}>{queuedInput.slice(0, 80)}{queuedInput.length>80?"...":""}</span>
+              </div>
+            )}
+          </div>
         </div>
       </main>
 

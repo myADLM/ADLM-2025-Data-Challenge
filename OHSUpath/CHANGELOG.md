@@ -74,6 +74,16 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.43] - 2025-11-04
+### Changed
+- Rebranded application to "OHSUpath Reader".
+- Redesigned UI with modern gradient theme and enhanced animations.
+- Improved chat interface styling and interactions.
+
+### Fixed
+- Tab state and scroll position issues in sidebar and share panel toggle behavior.
+
+
 ## [0.2.42] - 2025-11-01
 ### Added
 - RAG Service Integration: Created `net/api/rag_service.py` as a singleton service wrapper for the RAG pipeline, providing document retrieval and query functionality with LLM support.
