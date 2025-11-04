@@ -1,9 +1,9 @@
+##  Pull Request Summary
+Please include your **team name** and **contact email** with your pull request submission.  
+By submitting, you are agreeing to the terms outlined in the Participant Agreement posted in this repository.
 
-## Pull Request Summary
-Provide a team name and contact email with your pull request.
+##  Next Steps  
+After the competition closes on **November 15, 2025**, you will receive instructions via email on how to complete the challenge questions for preliminary scoring.
 
-## Next Steps
-After the competition close on November 15th, 2025, you will receive instruction via email on how to complete the challenge questions for the scoring of the preliminary competition.
-
-## Team Notification
-@myADLM/dasc  Please review this pull request.
+##  Team Notification  
+@myADLM/dasc – Please review this pull request.
