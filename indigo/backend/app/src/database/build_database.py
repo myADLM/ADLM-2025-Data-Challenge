@@ -56,6 +56,7 @@ def build_database(
             if head.status_code == 200:
                 with requests.get(gold_db_url, stream=True, allow_redirects=True, timeout=240) as r:
                     r.raise_for_status()
+                    gold_path.parent.mkdir(parents=True, exist_ok=True)
                     with open(gold_path, "wb") as f:
                         for chunk in r.iter_content(chunk_size=1024*1024):
                             if chunk:

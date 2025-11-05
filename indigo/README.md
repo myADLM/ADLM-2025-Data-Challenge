@@ -37,6 +37,7 @@ chmod +x setup.sh
 ```
 - Builds and starts services via Docker Compose
 - If you use a pre-built database, the build process will skip those steps.
+- This step takes between one and five minutes, depending on network speed and CPUs.
 - Open `http://localhost:5173`
 
 ### Stop the application
