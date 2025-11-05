@@ -19,6 +19,13 @@ for arg in "$@"; do
   esac
 done
 
+# Ensure required .env is present
+if [ ! -f "local_orchestration/.env" ]; then
+  echo "ERROR: Missing local_orchestration/.env file."
+  echo "Create it and populate it with your openai API key: OPENAI_API_KEY=sk-xxx, then re-run."
+  exit 1
+fi
+
 # Start the local orchestration
 echo "Starting the application..."
 cd local_orchestration

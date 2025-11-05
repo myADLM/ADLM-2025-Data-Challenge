@@ -4,14 +4,6 @@
 
 The 2025 ADLM Data Science Challenge
 
-TODO:
-- add LLM context to all chunks
-- get embeddings for chunks
-- implement vector search
-- implement reranking
-- query various models
-- construct tests
-
 ## Introduction
 
 <img align="right" src="./www/labdocs_unlocked_logo.png" width="40%" height="auto" >

@@ -1,4 +1,5 @@
-"""Lightweight AWS helpers.
+"""
+Lightweight AWS helpers.
 
 This module centralizes creation and caching of AWS SDK objects used by the
 application. It supports running against LocalStack when the environment

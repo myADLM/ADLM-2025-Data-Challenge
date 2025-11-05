@@ -17,7 +17,7 @@ docker-compose --version
 ```
 
 ### Start the application
-#### IMPORTANT
+
 The backend build process takes a long time and costs some money to generate the embeddings and contextual annotations. I built the database and uploaded it to GitHub so that you don't need to.
 
 Building the database from scratch requires [AWS credentials](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html) with permission to execute the Amazon Nova Lite model in Amazon Bedrock. You do not need to do this to run the application.

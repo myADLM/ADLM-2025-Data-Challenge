@@ -50,7 +50,6 @@ services:
     networks:
       - indigo-network
 
-
 networks:
   indigo-network:
     driver: bridge
