@@ -27,7 +27,7 @@ class NovaClient(ChatClient):
         self.client = get_bedrock_client()
         self.max_message_history = 6  # Max lookback in message history
         self.max_message_size = 5_000
-        self.consider_history=True
+        self.consider_history=False
 
     def chat(
         self,
