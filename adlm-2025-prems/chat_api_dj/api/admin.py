@@ -14,7 +14,7 @@ class LabelsAdmin(admin.ModelAdmin):
 @admin.register(Document)
 class DocumentAdmin(admin.ModelAdmin):
     list_display = ("relative_path", "created_at", "updated_at")
-    search_fields = ("relative_path", "markdown")
+    search_fields = ("relative_path",)
     list_filter = ("created_at", "updated_at")
     ordering = ("-created_at",)
     readonly_fields = (
@@ -23,7 +23,11 @@ class DocumentAdmin(admin.ModelAdmin):
         "source_pdf",
         "table_of_contents",
         "page_stats",
-        "markdown",
+        "marker_markdown_plain",
+        "marker_markdown_chunks_plain",
+        "mineru_markdown",
+        "mineru_json_content",
+        "nougat_markdown",
     )
 
 
