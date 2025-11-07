@@ -1,3 +1,4 @@
+import gc
 import json
 import uuid
 import io
@@ -17,11 +18,17 @@ from PIL import Image
 import matplotlib
 from asgiref.sync import sync_to_async
 from haystack.query import SearchQuerySet
+import torch
 
 matplotlib.use("Agg")  # Use non-interactive backend
 import matplotlib.pyplot as plt
 import numpy as np
+
 from .models import Document, Chunk
+from api.llm import QwenLLM, ThinkingContent, OutputContent
+
+
+LLM = QwenLLM()
 
 
 # Pydantic Schemas for API responses
@@ -114,14 +121,6 @@ class MarkerResponse(Schema):
     blocks: List[Dict[str, Any]]
 
 
-
-MODEL = "qwen3:0.6b"
-
-SYSTEM_PROMPT = """You are a helpful assistant running a streaming chat API that can use tools to help you answer questions."""
-
-# No tools for now, but I think we could use this for a "deep research" type agent
-TOOLS = {}
-
 # Create NinjaAPI instance
 api = NinjaAPI(title="Chat API", version="1.0.0")
 
@@ -205,7 +204,9 @@ async def get_document(request, document_id: int):
         document = await Document.objects.aget(id=document_id)
         # Count the number of chunks for this document
         num_chunks = await sync_to_async(
-            Chunk.objects.filter(document=document).count
+            Chunk.objects.filter(
+                document=document
+            ).count
         )()
 
         page_urls = [
@@ -327,46 +328,59 @@ async def get_chunks(request, page: int = 1, page_size: int = 50, q: str = None)
 
 
 class RAGAgent:
-    def __init__(self, model: str, tools: dict):
-        self.model = model
-        self.tools = tools
-
-    def llm(self, prompt: str, stream: bool = True, system_prompt: str = SYSTEM_PROMPT) -> str:
-        # Prepare messages for Ollama
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt},
-        ]
-
-        return chat(
-            model=self.model, 
-            messages=messages,
-            # TODO tools could probably be useful
-            #tools=self.tools.values(),
-            stream=stream,
-        )
+    def __init__(self):
+        pass
 
     def chat(self, message: str):
-        # TODO perform search and add results to messages as context
         
-        search_query_content = self.llm(f"""The user is asking a question. Can you create a search query to find the most relevant chunks?
-Respond with _only_ the search queries, no other text.
+        search_query_content = LLM.chat(f"""The user is asking a question. Can you create a search query to find the most relevant chunks?
+Respond with _only_ the search queries, no other text. This will be used for traditional and embedding search, don't hyphenate
+(unless it's already in the user message) or do anything that will hinder the search. Return the keywords only.
+
+Examples (user message -> search query):
+- "What are some FDA approved tests relating to Von-willebrand disease?" -> "von-willebrand disease fda approved tests"
+
 User content:
 {message}
 """, stream=False)
-        search_query_content = search_query_content.message.content
+        search_query_content = next(search_query_content).content
         print('LLM search query:', search_query_content)
 
-        sqs = SearchQuerySet().models(Chunk).filter(content=search_query_content)
-        chunks = [result.object for result in sqs if result.object]
+        # embedding search
+        embeddings = LLM.embed_text(search_query_content)
+        from pgvector.django import CosineDistance
+        embedding_search_chunks = Chunk.objects.order_by(CosineDistance('embedding', embeddings))[:15]
+        embedding_search_chunks = [c for c in embedding_search_chunks] # convert to list
+        print('Number of embedding search results:', len(embedding_search_chunks))
 
-        chunk_context = "\n---\n".join([
+        # traditional search
+        # TODO make sure it "OR"s the search query content
+        sqs = SearchQuerySet().models(Chunk).filter(content=search_query_content)
+        print('Number of traditional search results:', sqs.count())
+        traditional_search_chunks = [result.object for result in sqs if result.object]
+
+        chunks = embedding_search_chunks + traditional_search_chunks
+
+        # TODO consider soft deleting chunks that are too short?
+
+        chunk_texts = [
             (
-                f"Document: {chunk.document_path}\n"
+                f"Document: {chunk.document.relative_path}\n"
                 f"Text:\n{chunk.text}\n"
             )
             for chunk in chunks
-        ])
+        ]
+        print('Chunk texts:', chunk_texts)
+        chunk_scores = LLM.rerank(search_query_content, chunk_texts)
+        print('Chunk scores:', chunk_scores)
+
+        sorted_chunks = sorted(zip(chunk_texts, chunk_scores), key=lambda x: x[1], reverse=True)
+
+        max_chunks = 10
+        top_chunks = sorted_chunks[:max_chunks]
+        top_chunk_texts = [chunk_text for chunk_text, chunk_score in top_chunks]
+
+        chunk_context = "\n---\n".join(top_chunk_texts)
 
         prompt = f"""{message}
 
@@ -374,18 +388,22 @@ Use the chunks below to answer the question.
 \n---\n
 {chunk_context}
 """
+        #print('Final LLM prompt:', prompt)
 
-        # Prepare messages for Ollama
-        response: ChatResponse = self.llm(prompt)
+        streaming_response = LLM.chat(prompt)
 
-        # TODO return chunk ids so we can cite them correctly
-        return response
+        gc.collect()
+        torch.cuda.empty_cache()
+
+        # TODO also return chunk ids so we can cite them correctly
+        return streaming_response
 
 @api.post("/chat", response={200: None, 400: ChatError, 500: ChatError})
 async def chat_stream_endpoint(request):
     """Streaming chat endpoint with tool calls support"""
 
-    agent = RAGAgent(model=MODEL, tools=TOOLS)
+    # TODO can make global singleton instance
+    agent = RAGAgent()
 
     try:
         # Parse request body
@@ -403,14 +421,23 @@ async def chat_stream_endpoint(request):
             local_call_counter = 0
 
             try:
-                response: ChatResponse = agent.chat(message)
+                response = agent.chat(message)
 
                 # NOTE this only works if there's one tool call per response
                 # which might not be what we want with a "deep research"
                 # type agent
                 for chunk in response:
+                    if isinstance(chunk, ThinkingContent):
+                        print('Thinking:', chunk.content)
+                        yield f'thinking: {json.dumps(chunk.content)}\n'
+                    elif isinstance(chunk, OutputContent):
+                        print('Reply:', chunk.content)
+                        yield f'reply: {json.dumps(chunk.content)}\n'
+
+                    # TODO would like to have tools work with agent looping
+                    """
                     # Prepare response data
-                    reply = chunk.message.content or ""
+                    reply = chunk or ""
                     yield f"reply: {json.dumps(reply)}\n"
 
                     # Add tool calls if present
@@ -444,8 +471,12 @@ async def chat_stream_endpoint(request):
                                 "value": tool_response_value,
                             }
                             yield f"tool_call_response: {json.dumps(tool_response)}\n"
+                    """
 
             except Exception as e:
+                print('Error in generate_response:', e)
+                import traceback
+                traceback.print_exc()
                 yield f"error: {str(e)}\n"
 
         return StreamingHttpResponse(
@@ -453,6 +484,9 @@ async def chat_stream_endpoint(request):
         )
 
     except Exception as e:
+        print('Error in chat_stream_endpoint:', e)
+        import traceback
+        traceback.print_exc()
         return JsonResponse({"error": str(e)}, status=500)
 
 
@@ -802,3 +836,8 @@ def marker_chunks_view(request, document_id: int):
             "page_chunks": page_chunks,
         },
     )
+
+def label_entity_view(request):
+    entity = Entity.objects.order_by('?').first()
+    # TODO label the type
+    return render(request, "api/label_entity.html")
