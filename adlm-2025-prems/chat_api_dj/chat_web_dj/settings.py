@@ -40,10 +40,19 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    # Third-party apps
     "haystack",
     "pgvector",
     "corsheaders",
+    "django_extensions",
+    "django_tasks",
+    "django_tasks.backends.database",
+
+
+    # Local apps
     "api",
+    "graph",
 ]
 
 MIDDLEWARE = [
@@ -160,3 +169,9 @@ HAYSTACK_CONNECTIONS = {
 HAYSTACK_SIGNAL_PROCESSOR = "haystack.signals.RealtimeSignalProcessor"
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+TASKS = {
+    "default": {
+        "BACKEND": "django_tasks.backends.database.DatabaseBackend"
+    }
+}
