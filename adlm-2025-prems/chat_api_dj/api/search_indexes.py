@@ -33,4 +33,4 @@ class ChunkIndex(indexes.SearchIndex, indexes.Indexable):
 
     def index_queryset(self, using=None):
         """Used when the entire index for model is updated."""
-        return self.get_model().objects.select_related("document").all()
+        return self.get_model().objects.filter(is_active=True).select_related("document")

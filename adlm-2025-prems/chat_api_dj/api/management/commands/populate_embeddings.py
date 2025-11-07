@@ -4,6 +4,7 @@ import ollama
 from sentence_transformers import SentenceTransformer
 
 from api.models import Chunk
+from graph.models import Entity, Node, Relationship
 
 
 class Command(BaseCommand):
@@ -17,58 +18,204 @@ class Command(BaseCommand):
             help='Number of chunks to process in each batch'
         )
         parser.add_argument(
-            '--model',
-            type=str,
-            #default='bge-m3', # 1024 (use with ollama API, slow)
-            #default='Qwen/Qwen3-Embedding-8B', # 4096
-            default='Qwen/Qwen3-Embedding-0.6B', # 1024 shape
-            help='Model to use for embeddings'
-        )
-        parser.add_argument(
-            '--rebuild',
+            '--reset',
             action='store_true',
             default=False,
-            help='Rebuild all embeddings'
+            help='Reset all embeddings'
         )
         # device: str = cuda:0
     
-    def handle(self, *args, **options):
-        batch_size = options['batch_size']
-        model_name = options['model']
-        rebuild = options['rebuild']
+    def _populate_chunks(self, chunks, llm, batch_size, limit):
+        if limit is not None and limit <= 0:
+            return 0
 
-        model = SentenceTransformer(model_name)
-        print('model:', model)
-
-        if rebuild:
-            chunks = Chunk.objects.all()
-        else:
-            chunks = Chunk.objects.filter(
-                embedding__isnull=True
-            )
+        if limit is not None and limit < chunks.count():
+            chunks = chunks[:limit]
 
         total_chunks = chunks.count()
         if total_chunks == 0:
             self.stdout.write(
                 self.style.WARNING("No chunks found to process")
             )
-            return
+            return 0
 
         self.stdout.write(
             f"Processing {total_chunks} chunks in batches of {batch_size}"
         )
 
-        for i in tqdm(range(0, total_chunks, batch_size), desc="Processing batches"):
+        for i in tqdm(range(0, total_chunks, batch_size), desc="Processing chunks"):
             batch_chunks = chunks[i:i + batch_size]
 
             texts = [chunk.text for chunk in batch_chunks]
-            embeds = model.encode(texts)
+            try:
+                embeds = llm.embed_text(texts)
+            except Exception as e:
+                print('Error:', e)
+                print('-'*25)
+                continue
 
             updated_chunks = []
             for chunk, embed in zip(batch_chunks, embeds):
-                chunk.embedding_model = model_name
+                chunk.embedding_model = llm.model_name
                 chunk.embedding = embed
                 updated_chunks.append(chunk)
             Chunk.objects.bulk_update(updated_chunks, ['embedding'])
 
-            del embeds
+        return total_chunks
+
+
+    def _populate_entities(self, entities, llm, batch_size, limit):
+        if limit is not None and limit <= 0:
+            return 0
+
+        if limit is not None and limit < entities.count():
+            entities = entities[:limit]
+
+        total_entities = entities.count()
+        if total_entities == 0:
+            self.stdout.write(
+                self.style.WARNING("No entities found to process")
+            )
+            return 0
+
+        self.stdout.write(
+            f"Processing {total_entities} entities in batches of {batch_size}"
+        )
+
+        for i in tqdm(range(0, total_entities, batch_size), desc="Processing entities"):
+            batch_entities = entities[i:i + batch_size]
+
+            texts = [entity.name for entity in batch_entities]
+            try:
+                embeds = llm.embed_text(texts)
+            except Exception as e:
+                print('Error:', e)
+                print('-'*25)
+                continue
+            updated_entities = []
+            for entity, embed in zip(batch_entities, embeds):
+                entity.embedding_model = llm.model_name
+                entity.embedding = embed
+                updated_entities.append(entity)
+            Entity.objects.bulk_update(updated_entities, ['embedding'])
+
+        return total_entities
+
+    def _populate_nodes(self, nodes, llm, batch_size, limit):
+        if limit is not None and limit <= 0:
+            return 0
+
+        if limit is not None and limit < nodes.count():
+            nodes = nodes[:limit]
+
+        total_nodes = nodes.count()
+        if total_nodes == 0:
+            self.stdout.write(
+                self.style.WARNING("No nodes found to process")
+            )
+            return 0
+
+        self.stdout.write(
+            f"Processing {total_nodes} nodes in batches of {batch_size}"
+        )
+
+        for i in tqdm(range(0, total_nodes, batch_size), desc="Processing nodes"):
+            batch_nodes = nodes[i:i + batch_size]
+
+            texts = [node.name for node in batch_nodes]
+            try:
+                embeds = llm.embed_text(texts)
+            except Exception as e:
+                print('Error:', e)
+                print('-'*25)
+                continue
+            updated_nodes = []
+            for node, embed in zip(batch_nodes, embeds):
+                node.embedding_model = llm.model_name
+                node.embedding = embed
+                updated_nodes.append(node)
+            Node.objects.bulk_update(updated_nodes, ['embedding'])
+
+        return total_nodes
+
+    def _populate_relationships(self, relationships, llm, batch_size, limit):
+        if limit is not None and limit <= 0:
+            return 0
+
+        if limit is not None and limit < relationships.count():
+            relationships = relationships[:limit]
+
+        total_relationships = relationships.count()
+        if total_relationships == 0:
+            self.stdout.write(
+                self.style.WARNING("No relationships found to process")
+            )
+            return 0
+
+        self.stdout.write(
+            f"Processing {total_relationships} relationships in batches of {batch_size}"
+        )
+
+        for i in tqdm(range(0, total_relationships, batch_size), desc="Processing relationships"):
+            batch_relationships = relationships[i:i + batch_size]
+
+            texts = [f"({relationship.left_node.name}, {relationship.relationship_type}, {relationship.right_node.name})" for relationship in batch_relationships]
+            try:
+                embeds = llm.embed_text(texts)
+            except Exception as e:
+                print('Error:', e)
+                print('-'*25)
+                continue
+            updated_relationships = []
+            for relationship, embed in zip(batch_relationships, embeds):
+                relationship.embedding_model = llm.model_name
+                relationship.embedding = embed
+                updated_relationships.append(relationship)
+            Relationship.objects.bulk_update(updated_relationships, ['embedding'])
+
+        return total_relationships
+
+
+    def handle(self, *args, **options):
+        batch_size = options.get('batch_size', 1)
+        reset = options.get('reset')
+
+        from api.llm import QwenLLM
+        #llm = QwenLLM(device='cuda:0')
+        from api.llm import OpenAILLM
+        #llm = OpenAILLM(model_name='openai/gpt-oss-20b')
+        # For a realtime use case, we'll want to 
+        # let the embed model use one gpu, then another
+        # to use the chat model gpt-oss
+        # NOTE must start LLM with this model ready
+        llm = OpenAILLM(model_name='Qwen/Qwen3-Embedding-0.6B')
+
+        task_budget = 10000000
+
+        if reset:
+            Chunk.objects.all().update(embedding=None, embedding_model=None)
+            Entity.objects.all().update(embedding=None, embedding_model=None)
+            Node.objects.all().update(embedding=None, embedding_model=None)
+            Relationship.objects.all().update(embedding=None, embedding_model=None)
+            print('Reset embeddings')
+        
+        chunks = Chunk.objects.filter(
+            is_active=True,
+            embedding__isnull=True
+        )
+        task_budget -= self._populate_chunks(chunks, llm, batch_size, task_budget)
+
+        entities = Entity.objects.filter(
+            embedding__isnull=True
+        )
+        task_budget -= self._populate_entities(entities, llm, batch_size, task_budget)
+
+        nodes = Node.objects.filter(
+            embedding__isnull=True
+        )
+        task_budget -= self._populate_nodes(nodes, llm, batch_size, task_budget)
+
+        relationships = Relationship.objects.filter(
+            embedding__isnull=True
+        )
+        task_budget -= self._populate_relationships(relationships, llm, batch_size, task_budget)
