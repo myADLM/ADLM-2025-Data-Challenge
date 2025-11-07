@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:15-alpine
+    image: pgvector/pgvector:pg15-trixie
     ports:
       - "5432:5432"
     environment:
@@ -16,7 +16,7 @@ services:
       retries: 3
       start_period: 40s
   es:
-    image: elasticsearch:9.1.4
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.1.4
     ports:
       - "9200:9200"
     environment:
@@ -30,7 +30,7 @@ services:
        - cluster.routing.allocation.disk.watermark.high=3gb
        - cluster.routing.allocation.disk.watermark.flood_stage=2gb
     volumes:
-      - ./es_data:/usr/share/elasticsearch/data
+      - es_data:/usr/share/elasticsearch/data
     healthcheck:
       test: ["CMD-SHELL", "curl http://localhost:9200"]
       interval: 10s
@@ -57,3 +57,6 @@ services:
     depends_on:
       - db
       - es
+
+volumes:
+  es_data:
