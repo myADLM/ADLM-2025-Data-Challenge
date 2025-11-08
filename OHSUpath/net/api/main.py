@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routers import health, auth, conversations, query
+from .routers import health, auth, conversations, query, files
 
 # Initialize database at startup (create missing tables)
 from .db import init_db
@@ -38,3 +38,4 @@ app.include_router(health.router)
 app.include_router(auth.router)
 app.include_router(conversations.router)
 app.include_router(query.router)
+app.include_router(files.router)

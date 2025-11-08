@@ -55,11 +55,11 @@ All notable changes to this project will be documented in this file.
 - Process manager (systemd) to run web / gateway / api as services.
 
 
-**Dev Checklist**
-
-- add clear user db command and clear cookie
-
-- connect with the actual RAG pipeline
+**Known Issues**
+- need to adjust to make sure the citation bubble box appear under the AI responses.
+- need to format what is sent to LLM
+- need to adjust the "<think>" in LLM responses
+- need to adjust the user display in chat
 
 
 ## [Unreleased]
@@ -73,6 +73,28 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.44] - 2025-11-08
+### Added
+- File serving endpoint (`/files/document/{file_path:path}`) with security checks to prevent path traversal
+- User attribution fields (`user_id`, `user_name`, `user_email`) in Message model for tracking authors
+- Gateway file proxy route (`/api/files/document/*`) for secure file access
+- Collaborator identification in chat UI with distinct styling for different users
+- Source document deduplication by filename in backend query processing
+
+### Changed
+- Bootstrap script now verifies dependencies instead of reinstalling on every run, improving startup time
+- Updated to Pydantic v2 compatibility using `model_dump()` instead of deprecated `dict()`
+- Enhanced source document handling with comprehensive error handling and graceful fallbacks
+- Message retrieval endpoint includes user info and parsed sources
+- Chat UI now uses bubble-style alignment (user right, others left) with color coding
+
+### Fixed
+- Gateway file routing by adding missing files router import and mount
+- File path handling with wildcard pattern for nested paths
+- Source JSON serialization for persisting citations across sessions
+- Source field preservation in polling and initial load logic
+
 
 ## [0.2.43] - 2025-11-04
 ### Changed

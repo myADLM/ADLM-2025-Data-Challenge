@@ -12,6 +12,7 @@ import { config } from "./config.js";
 import { auth } from "./routes/auth.js";
 import conversations from "./routes/conversations.js";
 import query from "./routes/query.js";
+import { files } from "./routes/files.js";
 
 const app = express();
 
@@ -42,6 +43,7 @@ if (!disableDevRateLimit) {
 app.use("/api", auth);
 app.use("/api", conversations);
 app.use("/api", query); // proxy /api/query/stream
+app.use("/api", files); // proxy /api/files/document/*
 
 app.listen(config.port, () => {
   console.log(

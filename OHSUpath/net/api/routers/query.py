@@ -87,7 +87,7 @@ def _extract_public_id(body: dict) -> Optional[str]:
 # -- Non-streaming: POST /query --
 @router.post("", response_model=SendOut, status_code=201)
 def send_message(body: SendIn, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
-    public_id = _extract_public_id(body.dict())
+    public_id = _extract_public_id(body.model_dump())
     if not public_id:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, "Missing public_id")
 
@@ -114,7 +114,7 @@ def send_message(body: SendIn, db: Session = Depends(get_db), user: CurrentUser 
 
 @router.post("/stream")
 async def query_stream(body: SendIn, db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
-    public_id = _extract_public_id(body.dict())
+    public_id = _extract_public_id(body.model_dump())
     if not public_id:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, "Missing public_id")
     return await stream_query(public_id, body, db, user)
@@ -145,30 +145,79 @@ async def stream_query(
 
     # persist user message and bump last_message_at
     t = now_ms()
-    db.add(Message(conversation_id=conv.id, role=(getattr(body, "role", None) or "user"), content=body.content, created_at=t))
+    db.add(Message(
+        conversation_id=conv.id,
+        role=(getattr(body, "role", None) or "user"),
+        content=body.content,
+        created_at=t,
+        user_id=user.id
+    ))
     conv.last_message_at = t
     db.add(conv)
     db.commit()
 
     # Get AI response from RAG service
-    rag_service = get_rag_service()
-    result = rag_service.query(body.content)
+    try:
+        rag_service = get_rag_service()
+        result = rag_service.query(body.content)
 
-    reply = result.get("answer", "No answer generated.")
-    source_docs = result.get("source_documents", [])
-    llm_enabled = result.get("llm_enabled", False)
+        reply = result.get("answer", "No answer generated.")
+        source_docs = result.get("source_documents", [])
+        llm_enabled = result.get("llm_enabled", False)
 
-    # Format sources for frontend
-    sources_list = []
-    for doc in source_docs[:5]:  # Limit to top 5 sources
-        source = doc.metadata.get("source", "unknown")
-        page = doc.metadata.get("page_number") or doc.metadata.get("page", "?")
-        content_preview = doc.page_content[:200] if hasattr(doc, 'page_content') else ""
-        sources_list.append({
-            "source": source,
-            "page": page,
-            "content_preview": content_preview
-        })
+        print(f"[QUERY] Got {len(source_docs)} source documents from RAG service")
+
+        # Format sources for frontend with error handling
+        # Deduplicate by filename to show each file only once
+        sources_dict = {}  # filename -> source info
+
+        for idx, doc in enumerate(source_docs):
+            try:
+                # Safely get metadata
+                metadata = getattr(doc, 'metadata', {})
+                if not isinstance(metadata, dict):
+                    print(f"[QUERY] Warning: doc {idx} has non-dict metadata: {type(metadata)}")
+                    metadata = {}
+
+                source = metadata.get("source", "unknown")
+                page = metadata.get("page_number") or metadata.get("page", "?")
+
+                # Extract filename
+                filename = source.split('/')[-1] if '/' in source else source.split('\\')[-1] if '\\' in source else source
+
+                # Safely get content
+                content_preview = ""
+                if hasattr(doc, 'page_content'):
+                    try:
+                        content_preview = str(doc.page_content)[:200]
+                    except Exception as e:
+                        print(f"[QUERY] Error getting page_content for doc {idx}: {e}")
+
+                # If we haven't seen this file yet, or this is a better match, add/update it
+                if filename not in sources_dict:
+                    sources_dict[filename] = {
+                        "source": source,
+                        "filename": filename,
+                        "page": page,
+                        "content_preview": content_preview
+                    }
+                    print(f"[QUERY] Added source {len(sources_dict)}: {filename}, page {page}")
+            except Exception as e:
+                print(f"[QUERY] Error processing doc {idx}: {e}")
+                import traceback
+                traceback.print_exc()
+                continue
+
+        # Convert to list (limit to top 5 unique files)
+        sources_list = list(sources_dict.values())[:5]
+        print(f"[QUERY] Formatted {len(sources_list)} unique sources for frontend (from {len(source_docs)} total chunks)")
+    except Exception as e:
+        print(f"[QUERY] Error in RAG query: {e}")
+        import traceback
+        traceback.print_exc()
+        reply = f"Error processing query: {str(e)}"
+        sources_list = []
+        llm_enabled = False
 
     # Save conversation ID before session closes
     conv_id = conv.id
@@ -180,13 +229,24 @@ async def stream_query(
         # Create NEW session for persisting after stream (avoid DetachedInstanceError)
         t2 = now_ms()
         with Session(engine) as new_db:
-            db_msg = Message(conversation_id=conv_id, role="assistant", content=reply, created_at=t2)
+            # Serialize sources to JSON for storage
+            import json
+            sources_json_str = json.dumps(sources_list) if sources_list else None
+
+            db_msg = Message(
+                conversation_id=conv_id,
+                role="assistant",
+                content=reply,
+                created_at=t2,
+                sources_json=sources_json_str
+            )
             new_db.add(db_msg)
             db_conv = new_db.get(Conversation, conv_id)
             if db_conv:
                 db_conv.last_message_at = t2
                 new_db.add(db_conv)
             new_db.commit()
+            print(f"[QUERY] Saved assistant message with {len(sources_list)} sources")
 
     headers = {
         "Cache-Control": "no-cache",

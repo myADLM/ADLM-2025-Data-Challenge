@@ -23,6 +23,7 @@ type Conv = {
 
 type SourceDoc = {
   source: string;
+  filename?: string;
   page: number | string | null;
   content_preview?: string | null;
 };
@@ -32,6 +33,9 @@ type Msg = {
   text: string;
   created_at?: number;
   sources?: SourceDoc[];
+  user_id?: number | null;
+  user_name?: string | null;
+  user_email?: string | null;
 };
 
 type Member = {
@@ -209,7 +213,14 @@ export default function ChatClient({
       const res = await fetch("/api/auth/me", { cache: "no-store" }).catch(() => null);
       if (res && res.ok) {
         const u = await res.json().catch(() => null);
-        if (u && typeof u.id !== "undefined") setMe(u);
+        if (u && typeof u.id !== "undefined") {
+          console.log("[AUTH] Loaded me:", u);
+          setMe(u);
+        } else {
+          console.log("[AUTH] No user data in response");
+        }
+      } else {
+        console.log("[AUTH] Failed to fetch /api/auth/me");
       }
     })();
   }, []);
@@ -353,7 +364,12 @@ export default function ChatClient({
         role: (r.role as Msg["role"]) || (r.is_user ? "user" : "assistant"),
         text: r.text || r.content || "",
         created_at: Number(r.created_at || 0),
+        user_id: r.user_id ?? null,
+        user_name: r.user_name ?? null,
+        user_email: r.user_email ?? null,
+        sources: r.sources ?? [],
       }));
+      console.log("[LOAD] Loaded messages:", mapped.map(m => ({ role: m.role, user_id: m.user_id, sources: m.sources?.length ?? 0, text: m.text.substring(0, 30) })));
       setMsgs(mapped);
       needsInitialScrollRef.current = true;
 
@@ -459,6 +475,10 @@ export default function ChatClient({
           role: (r.role as Msg["role"]) || (r.is_user ? "user" : "assistant"),
           text: r.text || r.content || "",
           created_at: Number(r.created_at || 0),
+          user_id: r.user_id ?? null,
+          user_name: r.user_name ?? null,
+          user_email: r.user_email ?? null,
+          sources: r.sources ?? [],
         }));
         const curLast = latestTs(msgsRef.current);
         const newLast = latestTs(mapped);
@@ -726,7 +746,14 @@ export default function ChatClient({
     }
     const tsNow = Date.now();
     localSentRef.current.push({ text, ts: tsNow });
-    setMsgs((m) => [...m, { role: "user", text, created_at: tsNow }, { role: "assistant", text: "" }]);
+    setMsgs((m) => [...m, {
+      role: "user",
+      text,
+      created_at: tsNow,
+      user_id: me?.id ?? null,
+      user_name: me?.name ?? null,
+      user_email: me?.email ?? null
+    }, { role: "assistant", text: "" }]);
     setStreaming(true);
 
     let convInfo: { id: string; isNew: boolean };
@@ -779,22 +806,24 @@ export default function ChatClient({
             // Parse and store sources
             try {
               const sources = JSON.parse(e.data) as SourceDoc[];
-              console.log("[OK] Received sources event:", sources);
+              console.log("[SSE] Received sources event with", sources.length, "sources:", sources);
               setMsgs((m) => {
                 let idx = -1;
                 for (let i = m.length - 1; i >= 0; i--) {
                   if (m[i].role === "assistant") { idx = i; break; }
                 }
                 if (idx === -1) {
-                  console.warn("[WARN] No assistant message found to attach sources to");
+                  console.warn("[SSE] No assistant message found to attach sources to");
                   return m;
                 }
                 const cur = m[idx];
-                console.log("[OK] Attaching sources to message at index", idx);
-                return [...m.slice(0, idx), { ...cur, sources }, ...m.slice(idx + 1)];
+                console.log("[SSE] Attaching", sources.length, "sources to message at index", idx);
+                const updated = [...m.slice(0, idx), { ...cur, sources }, ...m.slice(idx + 1)];
+                console.log("[SSE] Updated message now has sources:", updated[idx].sources);
+                return updated;
               });
             } catch (err) {
-              console.error("[ERROR] Failed to parse sources:", err);
+              console.error("[SSE] Failed to parse sources:", err);
             }
           } else if (e.event === "metadata") {
             console.log("Received metadata:", e.data);
@@ -1187,7 +1216,7 @@ export default function ChatClient({
               <div style={{ fontSize: 14 }}>Ask me anything about the documents</div>
             </div>
           ) : (
-            <div style={{ display: "grid", gap: 12, maxWidth: 900, margin: "0 auto" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 12, maxWidth: 900, margin: "0 auto" }}>
               {msgs.map((m, i) => {
                 const created = Number(m.created_at || 0);
                 const prevCreated = Number((msgs[i - 1] as any)?.created_at || 0);
@@ -1200,10 +1229,57 @@ export default function ChatClient({
                   !mine &&
                   (i === 0 || prevCreated <= lastSeenAt || prevMine);
 
+                // Determine message type and styling
+                const isUserMessage = m.role === "user";
+                const isAssistant = m.role === "assistant";
+                // A message is mine if: (1) it's in localSentRef, OR (2) user_id matches me.id (when both are non-null)
+                const isMine = mine || (isUserMessage && m.user_id != null && me?.id != null && m.user_id === me.id);
+                const isCollaborator = isUserMessage && !isMine;
+
+                // Debug logging
+                if (isUserMessage) {
+                  console.log(`[Message #${i}] mine=${mine}, m.user_id=${m.user_id}, me?.id=${me?.id}, isMine=${isMine}, text="${m.text.substring(0, 30)}..."`);
+                }
+
+                // Get display name
+                let displayName = "";
+                if (isAssistant) {
+                  displayName = "AI Assistant";
+                } else if (isMine) {
+                  displayName = "You";
+                } else if (isCollaborator) {
+                  displayName = m.user_name || m.user_email || "Collaborator";
+                }
+
+                // Message colors
+                let bgColor = "#fff";
+                let textColor = "#333";
+                let borderColor = "#e5e7eb";
+                if (isMine) {
+                  bgColor = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)";
+                  textColor = "#fff";
+                  borderColor = "none";
+                } else if (isCollaborator) {
+                  bgColor = "#e8f5e9";
+                  textColor = "#1b5e20";
+                  borderColor = "#a5d6a7";
+                } else if (isAssistant) {
+                  bgColor = "#fff";
+                  textColor = "#333";
+                  borderColor = "#e5e7eb";
+                }
+
                 return (
-                  <div key={i}>
+                  <div key={i} style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: isMine ? "flex-end" : "flex-start",
+                    marginLeft: isMine ? "auto" : "0",
+                    marginRight: isMine ? "0" : "auto",
+                    maxWidth: "75%"
+                  }}>
                     {isUnreadStart && (
-                      <div style={{ textAlign: "center", margin: "12px 0" }}>
+                      <div style={{ textAlign: "center", margin: "12px 0", alignSelf: "center" }}>
                         <span style={{
                           padding: "4px 12px", fontSize: 12, borderRadius: 16,
                           background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -1213,82 +1289,134 @@ export default function ChatClient({
                         }}>New Messages</span>
                       </div>
                     )}
+
+                    {/* Display name */}
+                    {displayName && (
+                      <div style={{
+                        fontSize: 12,
+                        fontWeight: 600,
+                        color: "#666",
+                        marginBottom: 4,
+                        paddingLeft: isMine ? 0 : 4,
+                        paddingRight: isMine ? 4 : 0
+                      }}>
+                        {displayName}
+                      </div>
+                    )}
+
                     <div
                       ref={(el) => { msgRefs.current.set(i, el); }}
                       style={{
                         padding: "14px 16px",
                         borderRadius: 12,
-                        background: m.role === "user"
-                          ? "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
-                          : "#fff",
-                        color: m.role === "user" ? "#fff" : "#333",
+                        background: bgColor,
+                        color: textColor,
                         boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                        border: m.role === "user" ? "none" : "1px solid #e5e7eb"
+                        border: borderColor === "none" ? "none" : `1px solid ${borderColor}`,
+                        width: "100%"
                       }}
                     >
                       <div style={{ whiteSpace: "pre-wrap" }}>{m.text}</div>
 
-                      {/* Display sources for assistant messages */}
-                      {m.role === "assistant" && m.sources && m.sources.length > 0 && (
-                        <details style={{ marginTop: 16, paddingTop: 12, borderTop: "1px solid #ddd" }}>
-                          <summary style={{
-                            fontWeight: 700,
-                            fontSize: 14,
-                            marginBottom: 8,
-                            color: "#555",
-                            cursor: "pointer",
-                            userSelect: "none"
+                      {/* Display sources for assistant messages as clickable citation bubbles */}
+                      {(() => {
+                        const hasSources = m.role === "assistant" && m.sources && m.sources.length > 0;
+                        if (hasSources) {
+                          console.log(`[RENDER] Message #${i} has ${m.sources?.length} sources:`, m.sources);
+                        }
+                        return hasSources;
+                      })() && (
+                        <div style={{ marginTop: 16, paddingTop: 12, borderTop: "1px solid #e5e7eb" }}>
+                          <div style={{
+                            fontSize: 12,
+                            fontWeight: 600,
+                            color: "#666",
+                            marginBottom: 8
                           }}>
-                            Sources ({m.sources.length}) - Click to expand
-                          </summary>
-                          <div style={{ display: "grid", gap: 10, marginTop: 8 }}>
-                            {m.sources.slice(0, 5).map((src, idx) => {
-                              const filename = src.source.split('/').pop() || src.source;
+                            Sources ({m.sources!.length}):
+                          </div>
+                          <div style={{
+                            display: "flex",
+                            flexWrap: "wrap",
+                            gap: 8
+                          }}>
+                            {m.sources!.map((src, idx) => {
+                              // Use filename from backend if available, otherwise extract from path
+                              const filename = src.filename || src.source.split('/').pop() || src.source;
+                              // Get the relative path from the source
+                              // Remove 'data/' prefix if present for the API call
+                              const relativePath = src.source.replace(/^data[\/\\]/, '');
+                              const fileUrl = `/api/files/document/${encodeURIComponent(relativePath)}`;
+
                               return (
-                                <div key={idx} style={{
-                                  fontSize: 13,
-                                  padding: "10px 12px",
-                                  background: "#fff",
-                                  border: "1px solid #e0e0e0",
-                                  borderRadius: 6
-                                }}>
-                                  <div style={{ marginBottom: 6 }}>
-                                    <span style={{ fontWeight: 700, color: "#333" }}>{idx + 1}.</span>{" "}
-                                    <code style={{
-                                      background: "#f5f5f5",
-                                      padding: "3px 7px",
-                                      borderRadius: 3,
-                                      fontSize: 12,
-                                      fontFamily: "monospace",
-                                      fontWeight: 600
+                                <a
+                                  key={idx}
+                                  href={fileUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  title={`${filename} - Page ${src.page || "?"}\n\n${src.content_preview ? src.content_preview.slice(0, 200) + "..." : "Click to view document"}`}
+                                  style={{
+                                    display: "inline-flex",
+                                    alignItems: "center",
+                                    gap: 6,
+                                    padding: "8px 12px",
+                                    background: "#f0f4ff",
+                                    color: "#667eea",
+                                    border: "1px solid #d0dcff",
+                                    borderRadius: 8,
+                                    fontSize: 13,
+                                    fontWeight: 600,
+                                    textDecoration: "none",
+                                    transition: "all 0.2s ease",
+                                    cursor: "pointer",
+                                    boxShadow: "0 1px 3px rgba(0,0,0,0.08)"
+                                  }}
+                                  onMouseEnter={(e) => {
+                                    e.currentTarget.style.background = "#667eea";
+                                    e.currentTarget.style.color = "#fff";
+                                    e.currentTarget.style.transform = "translateY(-2px)";
+                                    e.currentTarget.style.boxShadow = "0 4px 8px rgba(102, 126, 234, 0.3)";
+                                  }}
+                                  onMouseLeave={(e) => {
+                                    e.currentTarget.style.background = "#f0f4ff";
+                                    e.currentTarget.style.color = "#667eea";
+                                    e.currentTarget.style.transform = "translateY(0)";
+                                    e.currentTarget.style.boxShadow = "0 1px 3px rgba(0,0,0,0.08)";
+                                  }}
+                                >
+                                  <span style={{
+                                    display: "inline-flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: 20,
+                                    height: 20,
+                                    borderRadius: 999,
+                                    background: "currentColor",
+                                    color: "#f0f4ff",
+                                    fontSize: 11,
+                                    fontWeight: 700,
+                                    flexShrink: 0
+                                  }}>
+                                    {idx + 1}
+                                  </span>
+                                  <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: 180 }}>
+                                    {filename}
+                                  </span>
+                                  {src.page && (
+                                    <span style={{
+                                      fontSize: 11,
+                                      opacity: 0.8,
+                                      flexShrink: 0
                                     }}>
-                                      {filename}
-                                    </code>
-                                    <span style={{ color: "#666", marginLeft: 6 }}>
-                                      (page {src.page || "?"})
+                                      p.{src.page}
                                     </span>
-                                  </div>
-                                  {src.content_preview && (
-                                    <div style={{
-                                      fontSize: 12,
-                                      color: "#555",
-                                      marginTop: 8,
-                                      padding: "8px 10px",
-                                      background: "#fafafa",
-                                      borderLeft: "3px solid #ddd",
-                                      fontFamily: "system-ui, -apple-system, sans-serif",
-                                      lineHeight: 1.5,
-                                      whiteSpace: "pre-wrap"
-                                    }}>
-                                      {src.content_preview}
-                                      {src.content_preview.length >= 190 && "..."}
-                                    </div>
                                   )}
-                                </div>
+                                  <span style={{ fontSize: 16, flexShrink: 0 }}>→</span>
+                                </a>
                               );
                             })}
                           </div>
-                        </details>
+                        </div>
                       )}
                     </div>
                   </div>

@@ -7,8 +7,10 @@ import { Readable } from "node:stream";
 
 export const files = Router();
 
-files.get("/files/:id", requireAuth, async (req: AuthedRequest, res) => {
-  const upstream = await fetch(`${config.apiBase}/files/${encodeURIComponent(req.params.id)}`, {
+files.get("/files/document/*", requireAuth, async (req: AuthedRequest, res) => {
+  // Extract the file path from the URL (everything after /files/document/)
+  const filePath = req.params[0];
+  const upstream = await fetch(`${config.apiBase}/files/document/${encodeURIComponent(filePath)}`, {
     headers: { "x-internal-key": config.internalKey, "x-user-id": String(req.user!.id) } as any,
   });
   res.status(upstream.status);

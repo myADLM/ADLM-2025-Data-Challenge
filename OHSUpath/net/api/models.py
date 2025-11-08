@@ -44,6 +44,8 @@ class Message(SQLModel, table=True):
     role: str = Field(index=True)  # "user" | "assistant" | "system"
     content: str
     created_at: int = Field(default_factory=now_ms, index=True)
+    user_id: Optional[int] = Field(default=None, foreign_key="user.id", index=True)
+    sources_json: Optional[str] = None  # JSON string of source documents
 
 class LoginEvent(SQLModel, table=True):
     __tablename__ = "login_event"

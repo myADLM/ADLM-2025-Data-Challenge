@@ -150,11 +150,38 @@ def get_conversation(public_id: str = Path(...), db: Session = Depends(get_db), 
     last_seen = _get_last_seen(db, conv.id, uid)
     unread = _count_unread(db, conv.id, last_seen)
 
+    # Build message list with user info
+    import json
+    msg_list = []
+    for m in msgs:
+        msg_dict = {
+            "role": m.role,
+            "content": m.content,
+            "created_at": m.created_at,
+            "user_id": m.user_id
+        }
+        # Fetch user name/email if user_id exists
+        if m.user_id:
+            u = db.get(User, m.user_id)
+            if u:
+                msg_dict["user_name"] = u.name
+                msg_dict["user_email"] = u.email
+
+        # Parse sources if available
+        if hasattr(m, 'sources_json') and m.sources_json:
+            try:
+                msg_dict["sources"] = json.loads(m.sources_json)
+            except Exception as e:
+                print(f"[CONV] Error parsing sources for message {m.id}: {e}")
+                msg_dict["sources"] = []
+
+        msg_list.append(msg_dict)
+
     return ConversationWithMessages(
         id=conv.public_chat_id, title=conv.title,
         last_message_at=conv.last_message_at, created_at=conv.created_at,
         access_role=role, shared_by=_brief(inviter),
-        messages=[{"role": m.role, "content": m.content, "created_at": m.created_at} for m in msgs],
+        messages=msg_list,
         last_seen_at=last_seen, unread_count=unread
     )
 
