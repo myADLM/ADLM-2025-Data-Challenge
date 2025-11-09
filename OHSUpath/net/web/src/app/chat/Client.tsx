@@ -22,10 +22,13 @@ type Conv = {
 };
 
 type SourceDoc = {
-  source: string;
-  filename?: string;
-  page: number | string | null;
-  content_preview?: string | null;
+  doc_id: string;
+  title: string;
+  source_url: string;
+  page: number | null;
+  snippet?: string | null;
+  mime_type?: string | null;
+  file_size?: number | null;
 };
 
 type Msg = {
@@ -1341,12 +1344,12 @@ export default function ChatClient({
                             gap: 8
                           }}>
                             {m.sources!.map((src, idx) => {
-                              // Use filename from backend if available, otherwise extract from path
-                              const filename = src.filename || src.source.split('/').pop() || src.source;
-                              // Get the relative path from the source
-                              // Remove 'data/' prefix if present for the API call
-                              const relativePath = src.source.replace(/^data[\/\\]/, '');
-                              const fileUrl = `/api/files/document/${encodeURIComponent(relativePath)}`;
+                              // Use the new schema fields
+                              const title = src.title;
+                              // Add #page= fragment to jump to specific page in PDF viewer
+                              const fileUrl = src.page
+                                ? `${src.source_url}#page=${src.page}`
+                                : src.source_url;
 
                               return (
                                 <a
@@ -1354,7 +1357,7 @@ export default function ChatClient({
                                   href={fileUrl}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  title={`${filename} - Page ${src.page || "?"}\n\n${src.content_preview ? src.content_preview.slice(0, 200) + "..." : "Click to view document"}`}
+                                  title={`${title}${src.page ? ` - Page ${src.page}` : ""}\n\n${src.snippet ? src.snippet.slice(0, 200) + "..." : "Click to view document"}`}
                                   style={{
                                     display: "inline-flex",
                                     alignItems: "center",
@@ -1400,7 +1403,7 @@ export default function ChatClient({
                                     {idx + 1}
                                   </span>
                                   <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: 180 }}>
-                                    {filename}
+                                    {title}
                                   </span>
                                   {src.page && (
                                     <span style={{

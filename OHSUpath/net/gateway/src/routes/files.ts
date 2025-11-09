@@ -7,16 +7,43 @@ import { Readable } from "node:stream";
 
 export const files = Router();
 
-files.get("/files/document/*", requireAuth, async (req: AuthedRequest, res) => {
-  // Extract the file path from the URL (everything after /files/document/)
-  const filePath = req.params[0];
-  const upstream = await fetch(`${config.apiBase}/files/document/${encodeURIComponent(filePath)}`, {
-    headers: { "x-internal-key": config.internalKey, "x-user-id": String(req.user!.id) } as any,
-  });
-  res.status(upstream.status);
-  upstream.headers.forEach((v, k) => res.setHeader(k, v));
-  if (!upstream.body) return res.end();
-  // @ts-ignore
-  const nodeStream = (Readable as any).fromWeb ? (Readable as any).fromWeb(upstream.body) : Readable.from(upstream.body as any);
-  nodeStream.pipe(res);
+// File viewing endpoint: proxy to FastAPI /files/{file_path}/download
+// Displays inline in browser tab using browser's native PDF viewer
+// Use wildcard to support nested paths like "subfolder/document.pdf"
+files.get("/files/*/download", requireAuth, async (req: AuthedRequest, res) => {
+  try {
+    // Extract file path from wildcard (everything between /files/ and /download)
+    const filePath = req.params[0];
+
+    // No query params needed - backend always serves inline
+    const upstreamUrl = `${config.apiBase}/files/${filePath}/download`;
+    console.log(`[gw] proxy GET /files/${filePath}/download -> ${upstreamUrl}`);
+
+    const upstream = await fetch(upstreamUrl, {
+      headers: {
+        "x-internal-key": config.internalKey,
+        "x-user-id": String(req.user!.id),
+      } as any,
+    });
+
+    // Forward status and all headers (especially Content-Disposition)
+    res.status(upstream.status);
+    upstream.headers.forEach((v, k) => {
+      res.setHeader(k, v);
+    });
+
+    if (!upstream.body) {
+      return res.end();
+    }
+
+    // Stream the file response
+    // @ts-ignore
+    const nodeStream = (Readable as any).fromWeb
+      ? (Readable as any).fromWeb(upstream.body)
+      : Readable.from(upstream.body as any);
+    nodeStream.pipe(res);
+  } catch (e) {
+    console.error("[gw] GET /files/*/download error:", e);
+    res.status(502).json({ error: "Download proxy error" });
+  }
 });

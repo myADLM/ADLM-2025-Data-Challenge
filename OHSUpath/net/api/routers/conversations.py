@@ -84,43 +84,58 @@ def _count_unread(db: Session, conv_id: int, last_seen: int) -> int:
 
 @router.get("/conversations", response_model=List[ConversationOut])
 def list_conversations(db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
-    uid = int(user.id)
+    try:
+        uid = int(user.id)
 
-    owned = db.exec(select(Conversation).where(Conversation.user_id == uid)).all()
+        owned = db.exec(select(Conversation).where(Conversation.user_id == uid)).all()
 
-    members = db.exec(select(ConversationMember).where(ConversationMember.user_id == uid)).all()
-    by_cid = {m.conversation_id: m for m in (members or [])}
-    shared_ids = list(by_cid.keys())
-    shared_convs = db.exec(select(Conversation).where(Conversation.id.in_(shared_ids))).all() if shared_ids else []
+        members = db.exec(select(ConversationMember).where(ConversationMember.user_id == uid)).all()
+        by_cid = {m.conversation_id: m for m in (members or [])}
+        shared_ids = list(by_cid.keys())
+        shared_convs = db.exec(select(Conversation).where(Conversation.id.in_(shared_ids))).all() if shared_ids else []
 
-    items: list[ConversationOut] = []
+        items: list[ConversationOut] = []
 
-    # owned
-    for c in owned:
-        last_seen = _get_last_seen(db, c.id, uid)
-        unread = _count_unread(db, c.id, last_seen)
-        items.append(ConversationOut(
-            id=c.public_chat_id, title=c.title,
-            last_message_at=c.last_message_at, created_at=c.created_at,
-            access_role="owner", shared_by=None, unread_count=unread
-        ))
+        # owned
+        for c in owned:
+            try:
+                last_seen = _get_last_seen(db, c.id, uid)
+                unread = _count_unread(db, c.id, last_seen)
+                items.append(ConversationOut(
+                    id=c.public_chat_id, title=c.title,
+                    last_message_at=c.last_message_at, created_at=c.created_at,
+                    access_role="owner", shared_by=None, unread_count=unread
+                ))
+            except Exception as e:
+                print(f"[CONV] Error processing owned conversation {c.id}: {e}")
+                continue
 
-    # shared (sort by activity since invited)
-    for c in shared_convs:
-        m = by_cid.get(c.id)
-        effective_last = max(int(c.last_message_at or 0), int(m.created_at if m else 0))
-        inviter = _shared_by(db, c.id, uid)
-        role = m.role if m else "viewer"
-        last_seen = _get_last_seen(db, c.id, uid)
-        unread = _count_unread(db, c.id, last_seen)
-        items.append(ConversationOut(
-            id=c.public_chat_id, title=c.title,
-            last_message_at=effective_last, created_at=c.created_at,
-            access_role=role, shared_by=_brief(inviter), unread_count=unread
-        ))
+        # shared (sort by activity since invited)
+        for c in shared_convs:
+            try:
+                m = by_cid.get(c.id)
+                effective_last = max(int(c.last_message_at or 0), int(m.created_at if m else 0))
+                inviter = _shared_by(db, c.id, uid)
+                role = m.role if m else "viewer"
+                last_seen = _get_last_seen(db, c.id, uid)
+                unread = _count_unread(db, c.id, last_seen)
+                items.append(ConversationOut(
+                    id=c.public_chat_id, title=c.title,
+                    last_message_at=effective_last, created_at=c.created_at,
+                    access_role=role, shared_by=_brief(inviter), unread_count=unread
+                ))
+            except Exception as e:
+                print(f"[CONV] Error processing shared conversation {c.id}: {e}")
+                continue
 
-    items.sort(key=lambda x: (x.last_message_at, x.created_at), reverse=True)
-    return items
+        items.sort(key=lambda x: (x.last_message_at, x.created_at), reverse=True)
+        return items
+    except Exception as e:
+        print(f"[CONV] list_conversations error: {e}")
+        import traceback
+        traceback.print_exc()
+        # Return empty list rather than 500
+        return []
 
 @router.post("/conversations", response_model=ConversationOut, status_code=201)
 def create_conversation(db: Session = Depends(get_db), user: CurrentUser = Depends(get_current_user)):
@@ -167,13 +182,17 @@ def get_conversation(public_id: str = Path(...), db: Session = Depends(get_db), 
                 msg_dict["user_name"] = u.name
                 msg_dict["user_email"] = u.email
 
-        # Parse sources if available
+        # Parse sources if available - ALWAYS initialize sources array
+        msg_dict["sources"] = []
         if hasattr(m, 'sources_json') and m.sources_json:
             try:
-                msg_dict["sources"] = json.loads(m.sources_json)
+                sources_data = json.loads(m.sources_json)
+                msg_dict["sources"] = sources_data
+                print(f"[CONV] Message {m.id}: Added {len(sources_data)} sources")
             except Exception as e:
                 print(f"[CONV] Error parsing sources for message {m.id}: {e}")
-                msg_dict["sources"] = []
+                import traceback
+                traceback.print_exc()
 
         msg_list.append(msg_dict)
 

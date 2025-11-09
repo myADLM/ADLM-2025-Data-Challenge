@@ -18,7 +18,24 @@ const app = express();
 
 // Base middleware
 app.use(helmet());
-app.use(compression());
+
+// Disable compression for SSE and file downloads to avoid chunking/flush issues
+const noCompress = (req: any, res: any) => {
+  const path = req?.path || "";
+  if (path.startsWith("/api/query/stream")) return true;
+  if (path.startsWith("/api/files/") && path.includes("/download")) return true;
+  const accept = req.headers?.accept || "";
+  if (accept.includes("text/event-stream")) return true;
+  return false;
+};
+
+app.use(compression({
+  filter: (req, res) => {
+    if (noCompress(req, res)) return false;
+    return compression.filter(req, res);
+  }
+}));
+
 app.use(cors({ origin: config.corsOrigin, credentials: true }));
 app.use(express.json({ limit: "1mb" }));
 app.use(cookieParser());

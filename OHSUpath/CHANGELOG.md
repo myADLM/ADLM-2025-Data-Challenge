@@ -56,9 +56,8 @@ All notable changes to this project will be documented in this file.
 
 
 **Known Issues**
-- need to adjust to make sure the citation bubble box appear under the AI responses.
 - need to format what is sent to LLM
-- need to adjust the "<think>" in LLM responses
+- need to adjust the "think" in LLM responses
 - need to adjust the user display in chat
 
 
@@ -73,6 +72,25 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.45] - 2025-11-09
+### Added
+- Auto-scroll to cited page: citation bubbles now include `#page=X` fragment to jump directly to the referenced page in browser PDF viewer
+- Path handling for nested file directories with wildcard routing support
+
+### Changed
+- Removed embedded PDF viewer/preview functionality - simplified to browser-native inline viewing
+- Updated file serving from `/files/document/*` to `/files/{file_path}/download` with path parameter support
+- Citation schema streamlined to minimal fields: `doc_id`, `title`, `source_url`, `page`, `snippet`, `mime_type`, `file_size`
+- File endpoint now uses `Content-Disposition: inline` by default for in-browser viewing
+- Gateway compression settings updated to exclude file downloads and SSE streams
+- Improved error handling in conversation and query endpoints with graceful fallbacks
+
+### Fixed
+- File path resolution for documents in subdirectories using multiple fallback strategies
+- Citation sources now properly initialize as empty arrays to prevent undefined errors
+- SSE client disconnect handling with proper cleanup and error recovery
+
 
 ## [0.2.44] - 2025-11-08
 ### Added

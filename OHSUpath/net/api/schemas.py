@@ -11,10 +11,24 @@ class UserBrief(BaseModel):
     email: str | None = None
     name: str | None = None
 
+class SourceDocument(BaseModel):
+    """Citation/source document reference"""
+    doc_id: str  # Unique identifier for the document
+    title: str  # Display name (filename)
+    source_url: str  # URL to download the file (e.g., /api/files/{id}/download)
+    page: int | None = None
+    snippet: str | None = None  # Content preview/snippet
+    mime_type: str | None = None  # File MIME type (optional)
+    file_size: int | None = None  # File size in bytes (optional)
+
 class MessageOut(BaseModel):
     role: str
     content: str
     created_at: int
+    user_id: int | None = None
+    user_name: str | None = None
+    user_email: str | None = None
+    sources: List[SourceDocument] = Field(default_factory=list)
 
 class ConversationOut(BaseModel):
     # Expose only public_chat_id externally

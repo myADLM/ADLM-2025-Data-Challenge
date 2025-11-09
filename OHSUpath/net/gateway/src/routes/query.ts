@@ -39,6 +39,18 @@ query.post("/query/stream/:id", requireAuth, async (req: AuthedRequest, res) => 
     res.setHeader("Cache-Control", "no-cache");
     res.setHeader("Connection", "keep-alive");
     res.setHeader("Content-Type", "text/event-stream");
+    res.setHeader("X-Accel-Buffering", "no");
+
+    // Flush headers immediately
+    if (typeof (res as any).flushHeaders === "function") {
+      (res as any).flushHeaders();
+    }
+
+    // Handle premature client disconnect
+    req.on("close", () => {
+      console.log("[gw] SSE client disconnected");
+      try { res.end(); } catch {}
+    });
 
     // pipe the stream
     // @ts-ignore fetch WebReadableStream -> Node readable
