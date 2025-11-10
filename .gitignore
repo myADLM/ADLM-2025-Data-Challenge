@@ -1,6 +1,8 @@
 # data file extensions
+.env
 *.zip
 *.pdf
+data/
 
 # Python
 __pycache__/
@@ -11,9 +13,6 @@ __pycache__/
 
 # Virtual environments
 .venv/
-venv/
-env/
-ENV/
 
 # Testing
 .pytest_cache/
@@ -37,3 +36,4 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+uv.lock
