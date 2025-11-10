@@ -7,26 +7,29 @@ export default function Home() {
   return (
     <main style={{
       minHeight: "100vh",
+      height: "100vh",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      padding: 24
+      padding: "clamp(12px, 3vw, 24px)",
+      overflow: "auto"
     }}>
       <div style={{
         maxWidth: 600,
         width: "100%",
         background: "#fff",
-        borderRadius: 16,
-        padding: "48px 40px",
-        boxShadow: "0 20px 60px rgba(0,0,0,0.3)"
+        borderRadius: "clamp(12px, 2vw, 16px)",
+        padding: "clamp(24px, 5vw, 48px) clamp(20px, 4vw, 40px)",
+        boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
+        margin: "auto"
       }}>
-        <div style={{ textAlign: "center", marginBottom: 40 }}>
+        <div style={{ textAlign: "center", marginBottom: "clamp(24px, 5vw, 40px)" }}>
           <h1 style={{
-            fontSize: 42,
+            fontSize: "clamp(28px, 6vw, 42px)",
             fontWeight: 700,
             margin: 0,
-            marginBottom: 12,
+            marginBottom: "clamp(8px, 2vw, 12px)",
             background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -35,7 +38,7 @@ export default function Home() {
             OHSUpath Reader
           </h1>
           <p style={{
-            fontSize: 16,
+            fontSize: "clamp(13px, 2.5vw, 16px)",
             color: "#666",
             margin: 0,
             lineHeight: 1.6
@@ -44,17 +47,17 @@ export default function Home() {
           </p>
         </div>
 
-        <div style={{ display: "grid", gap: 16 }}>
+        <div style={{ display: "grid", gap: "clamp(12px, 2vw, 16px)" }}>
           <Link href="/login" prefetch={false} style={{ textDecoration: "none" }}>
             <div style={{
-              padding: "16px 24px",
+              padding: "clamp(12px, 2vw, 16px) clamp(18px, 3vw, 24px)",
               background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
               color: "#fff",
-              borderRadius: 12,
+              borderRadius: "clamp(8px, 2vw, 12px)",
               cursor: "pointer",
               textAlign: "center",
               fontWeight: 600,
-              fontSize: 16,
+              fontSize: "clamp(14px, 2.5vw, 16px)",
               transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
               boxShadow: "0 4px 14px rgba(102, 126, 234, 0.4)",
               position: "relative",
@@ -80,15 +83,15 @@ export default function Home() {
 
           <Link href="/chat" prefetch={false} style={{ textDecoration: "none" }}>
             <div style={{
-              padding: "16px 24px",
+              padding: "clamp(12px, 2vw, 16px) clamp(18px, 3vw, 24px)",
               background: "#fff",
               color: "#667eea",
               border: "2px solid #667eea",
-              borderRadius: 12,
+              borderRadius: "clamp(8px, 2vw, 12px)",
               cursor: "pointer",
               textAlign: "center",
               fontWeight: 600,
-              fontSize: 16,
+              fontSize: "clamp(14px, 2.5vw, 16px)",
               transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
               boxShadow: "0 2px 8px rgba(102, 126, 234, 0.15)"
             }}
@@ -114,12 +117,12 @@ export default function Home() {
         </div>
 
         <div style={{
-          marginTop: 32,
-          paddingTop: 24,
+          marginTop: "clamp(20px, 4vw, 32px)",
+          paddingTop: "clamp(16px, 3vw, 24px)",
           borderTop: "1px solid #eee",
           textAlign: "center"
         }}>
-          <p style={{ fontSize: 13, color: "#999", margin: 0 }}>
+          <p style={{ fontSize: "clamp(11px, 2vw, 13px)", color: "#999", margin: 0 }}>
             Access documents with AI
           </p>
         </div>

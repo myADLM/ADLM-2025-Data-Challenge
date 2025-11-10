@@ -73,6 +73,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.46] - 2025-11-09
+### Changed
+- Made main page and login page fully responsive using fluid typography (clamp) for all screen sizes
+- Chat page optimized for mobile with overlay sidebar navigation and hamburger menu
+
+
 ## [0.2.45] - 2025-11-09
 ### Added
 - Auto-scroll to cited page: citation bubbles now include `#page=X` fragment to jump directly to the referenced page in browser PDF viewer

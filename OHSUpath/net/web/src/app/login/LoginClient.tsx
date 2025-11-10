@@ -47,26 +47,29 @@ export default function LoginClient({ currentUser, next, force }: Props) {
   return (
     <main style={{
       minHeight: "100vh",
+      height: "100vh",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      padding: 24
+      padding: "clamp(12px, 3vw, 24px)",
+      overflow: "auto"
     }}>
       <div style={{
         maxWidth: 480,
         width: "100%",
         background: "#fff",
-        borderRadius: 16,
-        padding: "40px",
-        boxShadow: "0 20px 60px rgba(0,0,0,0.3)"
+        borderRadius: "clamp(12px, 2vw, 16px)",
+        padding: "clamp(24px, 5vw, 40px)",
+        boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
+        margin: "auto"
       }}>
-        <div style={{ textAlign: "center", marginBottom: 32 }}>
+        <div style={{ textAlign: "center", marginBottom: "clamp(20px, 4vw, 32px)" }}>
           <h1 style={{
-            fontSize: 32,
+            fontSize: "clamp(24px, 5vw, 32px)",
             fontWeight: 700,
             margin: 0,
-            marginBottom: 8,
+            marginBottom: "clamp(6px, 1.5vw, 8px)",
             background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -74,35 +77,35 @@ export default function LoginClient({ currentUser, next, force }: Props) {
           }}>
             {isLoggedIn ? "Welcome Back" : "Sign In"}
           </h1>
-          <p style={{ fontSize: 14, color: "#666", margin: 0 }}>
+          <p style={{ fontSize: "clamp(12px, 2.5vw, 14px)", color: "#666", margin: 0 }}>
             OHSUpath Reader
           </p>
         </div>
 
         {isLoggedIn ? (
-          <div style={{ display: "grid", gap: 16 }}>
+          <div style={{ display: "grid", gap: "clamp(12px, 2vw, 16px)" }}>
             <div style={{
-              padding: 16,
+              padding: "clamp(12px, 2vw, 16px)",
               background: "linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%)",
               border: "1px solid #e0e7ff",
-              borderRadius: 8,
+              borderRadius: "clamp(6px, 1.5vw, 8px)",
               textAlign: "center"
             }}>
-              <div style={{ fontSize: 13, color: "#666", marginBottom: 4 }}>Signed in as</div>
-              <strong style={{ fontSize: 15, color: "#333" }}>
+              <div style={{ fontSize: "clamp(11px, 2vw, 13px)", color: "#666", marginBottom: 4 }}>Signed in as</div>
+              <strong style={{ fontSize: "clamp(13px, 2.5vw, 15px)", color: "#333", wordBreak: "break-word" }}>
                 {currentUser?.name || currentUser?.email || currentUser?.id}
               </strong>
             </div>
 
             <button onClick={continueAs} style={{
-              padding: "14px 24px",
+              padding: "clamp(12px, 2vw, 14px) clamp(18px, 3vw, 24px)",
               background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
               color: "#fff",
               border: "none",
-              borderRadius: 12,
+              borderRadius: "clamp(8px, 2vw, 12px)",
               cursor: "pointer",
               fontWeight: 600,
-              fontSize: 15,
+              fontSize: "clamp(13px, 2.5vw, 15px)",
               boxShadow: "0 4px 14px rgba(102, 126, 234, 0.4)",
               transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
             }}
@@ -120,14 +123,14 @@ export default function LoginClient({ currentUser, next, force }: Props) {
             </button>
 
             <button onClick={switchAccount} style={{
-              padding: "14px 24px",
+              padding: "clamp(12px, 2vw, 14px) clamp(18px, 3vw, 24px)",
               background: "#fff",
               color: "#667eea",
               border: "2px solid #667eea",
-              borderRadius: 12,
+              borderRadius: "clamp(8px, 2vw, 12px)",
               cursor: "pointer",
               fontWeight: 600,
-              fontSize: 15,
+              fontSize: "clamp(13px, 2.5vw, 15px)",
               boxShadow: "0 2px 8px rgba(102, 126, 234, 0.15)",
               transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
             }}
@@ -147,9 +150,9 @@ export default function LoginClient({ currentUser, next, force }: Props) {
             </button>
           </div>
         ) : (
-          <div style={{ display: "grid", gap: 16 }}>
+          <div style={{ display: "grid", gap: "clamp(12px, 2vw, 16px)" }}>
             <div>
-              <label style={{ display: "block", fontSize: 13, fontWeight: 600, color: "#555", marginBottom: 6 }}>
+              <label style={{ display: "block", fontSize: "clamp(11px, 2vw, 13px)", fontWeight: 600, color: "#555", marginBottom: "clamp(4px, 1vw, 6px)" }}>
                 Email Address
               </label>
               <input
@@ -159,10 +162,10 @@ export default function LoginClient({ currentUser, next, force }: Props) {
                 onKeyDown={(e) => e.key === "Enter" && submit()}
                 style={{
                   width: "100%",
-                  padding: "12px 14px",
+                  padding: "clamp(10px, 2vw, 12px) clamp(12px, 2vw, 14px)",
                   border: "2px solid #e5e7eb",
-                  borderRadius: 8,
-                  fontSize: 15,
+                  borderRadius: "clamp(6px, 1.5vw, 8px)",
+                  fontSize: "clamp(13px, 2.5vw, 15px)",
                   outline: "none",
                   transition: "border-color 0.2s",
                   boxSizing: "border-box"
@@ -173,7 +176,7 @@ export default function LoginClient({ currentUser, next, force }: Props) {
             </div>
 
             <div>
-              <label style={{ display: "block", fontSize: 13, fontWeight: 600, color: "#555", marginBottom: 6 }}>
+              <label style={{ display: "block", fontSize: "clamp(11px, 2vw, 13px)", fontWeight: 600, color: "#555", marginBottom: "clamp(4px, 1vw, 6px)" }}>
                 Password
               </label>
               <input
@@ -184,10 +187,10 @@ export default function LoginClient({ currentUser, next, force }: Props) {
                 onKeyDown={(e) => e.key === "Enter" && submit()}
                 style={{
                   width: "100%",
-                  padding: "12px 14px",
+                  padding: "clamp(10px, 2vw, 12px) clamp(12px, 2vw, 14px)",
                   border: "2px solid #e5e7eb",
-                  borderRadius: 8,
-                  fontSize: 15,
+                  borderRadius: "clamp(6px, 1.5vw, 8px)",
+                  fontSize: "clamp(13px, 2.5vw, 15px)",
                   outline: "none",
                   transition: "border-color 0.2s",
                   boxSizing: "border-box"
@@ -198,15 +201,15 @@ export default function LoginClient({ currentUser, next, force }: Props) {
             </div>
 
             <button onClick={submit} style={{
-              padding: "14px 24px",
+              padding: "clamp(12px, 2vw, 14px) clamp(18px, 3vw, 24px)",
               background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
               color: "#fff",
               border: "none",
-              borderRadius: 12,
+              borderRadius: "clamp(8px, 2vw, 12px)",
               cursor: "pointer",
               fontWeight: 600,
-              fontSize: 15,
-              marginTop: 8,
+              fontSize: "clamp(13px, 2.5vw, 15px)",
+              marginTop: "clamp(6px, 1.5vw, 8px)",
               boxShadow: "0 4px 14px rgba(102, 126, 234, 0.4)",
               transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
             }}
@@ -225,12 +228,12 @@ export default function LoginClient({ currentUser, next, force }: Props) {
 
             {err && (
               <div style={{
-                padding: "12px 14px",
+                padding: "clamp(10px, 2vw, 12px) clamp(12px, 2vw, 14px)",
                 background: "#fef2f2",
                 border: "1px solid #fecaca",
-                borderRadius: 8,
+                borderRadius: "clamp(6px, 1.5vw, 8px)",
                 color: "#dc2626",
-                fontSize: 14
+                fontSize: "clamp(12px, 2.5vw, 14px)"
               }}>
                 {err}
               </div>
@@ -238,8 +241,8 @@ export default function LoginClient({ currentUser, next, force }: Props) {
           </div>
         )}
 
-        <div style={{ marginTop: 24, textAlign: "center" }}>
-          <Link href="/" style={{ color: "#667eea", fontSize: 14, textDecoration: "none" }}>
+        <div style={{ marginTop: "clamp(16px, 3vw, 24px)", textAlign: "center" }}>
+          <Link href="/" style={{ color: "#667eea", fontSize: "clamp(12px, 2.5vw, 14px)", textDecoration: "none" }}>
             Back to Home
           </Link>
         </div>

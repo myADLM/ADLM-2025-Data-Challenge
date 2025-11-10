@@ -57,7 +57,7 @@ const BACKOFF_BASE_MS = 5000;
 const BACKOFF_MAX_MS  = 60000;
 const READ_TO_MIN_INTERVAL_MS = 8000;
 
-const NARROW_BP = 1100;
+const MOBILE_BP = 768; // Mobile breakpoint for phone screens
 const HYST = 18;
 
 const getViewportW = () =>
@@ -204,7 +204,7 @@ export default function ChatClient({
   const [selectedId, setSelectedId] = useState<string | null>(selectedPublicId);
   const [editingTitle, setEditingTitle] = useState(false);
   const [editTitleValue, setEditTitleValue] = useState("");
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const selectedConv = useMemo(() => convs.find((c) => c.id === selectedId) ?? null, [convs, selectedId]);
 
   const sidebarScrollRef = useRef<HTMLDivElement | null>(null);
@@ -912,18 +912,32 @@ export default function ChatClient({
         : "Send";
 
   const [mounted, setMounted] = useState(false);
-  const [isNarrow, setIsNarrow] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   useEffect(() => { setMounted(true); }, []);
   useEffect(() => {
     if (!mounted) return;
     const check = () => {
       const w = getViewportW();
-      setIsNarrow(prev => prev ? (w < NARROW_BP + HYST) : (w < NARROW_BP - HYST));
+      setIsMobile(prev => prev ? (w < MOBILE_BP + HYST) : (w < MOBILE_BP - HYST));
     };
     check();
     window.addEventListener("resize", check);
     return () => window.removeEventListener("resize", check);
   }, [mounted]);
+
+  // Initialize sidebar state based on screen size after mount
+  useEffect(() => {
+    if (mounted) {
+      setSidebarOpen(!isMobile);
+    }
+  }, [mounted, isMobile]);
+
+  // Auto-close sidebar on mobile when selecting a conversation
+  useEffect(() => {
+    if (isMobile && selectedId) {
+      setSidebarOpen(false);
+    }
+  }, [isMobile, selectedId]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setShareOpen(false); };
@@ -936,27 +950,62 @@ export default function ChatClient({
       style={{
         height: "100dvh",
         display: "grid",
-        gridTemplateColumns: `${sidebarOpen ? "300px" : "0"} 1fr${(mounted && !isNarrow && shareOpen) ? " 320px" : ""}`,
+        gridTemplateColumns: isMobile
+          ? "1fr"
+          : `${sidebarOpen ? "300px" : "0"} 1fr${(mounted && !isMobile && shareOpen) ? " 240px" : ""}`,
         minHeight: 0,
         transition: "grid-template-columns 160ms ease",
-        background: "#f9fafb"
+        background: "#f9fafb",
+        position: "relative"
       }}
     >
+      {/* Mobile overlay backdrop when sidebar is open */}
+      {mounted && isMobile && sidebarOpen && (
+        <div
+          onClick={() => setSidebarOpen(false)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0, 0, 0, 0.5)",
+            zIndex: 998,
+            transition: "opacity 200ms ease"
+          }}
+        />
+      )}
+
       {/* Sidebar */}
       <aside
         aria-hidden={!sidebarOpen}
         style={{
-          borderRight: sidebarOpen ? "1px solid #e5e7eb" : "none",
+          ...(isMobile ? {
+            // Mobile: sidebar as overlay
+            position: "fixed",
+            top: 0,
+            left: 0,
+            bottom: 0,
+            width: 300,
+            zIndex: 999,
+            transform: sidebarOpen ? "translateX(0)" : "translateX(-100%)",
+            transition: "transform 250ms ease",
+            borderRight: "1px solid #e5e7eb",
+            boxShadow: sidebarOpen ? "2px 0 12px rgba(0,0,0,0.15)" : "none"
+          } : {
+            // Desktop: sidebar in grid
+            borderRight: sidebarOpen ? "1px solid #e5e7eb" : "none",
+            overflow: sidebarOpen ? "visible" : "hidden",
+            visibility: sidebarOpen ? "visible" : "hidden",
+            pointerEvents: sidebarOpen ? "auto" : "none",
+            opacity: sidebarOpen ? 1 : 0,
+            transition: "opacity 120ms ease",
+            boxShadow: sidebarOpen ? "2px 0 8px rgba(0,0,0,0.05)" : "none"
+          }),
           background: "#fff",
           display: "flex",
           flexDirection: "column",
-          minHeight: 0,
-          overflow: sidebarOpen ? "visible" : "hidden",
-          visibility: sidebarOpen ? "visible" : "hidden",
-          pointerEvents: sidebarOpen ? "auto" : "none",
-          opacity: sidebarOpen ? 1 : 0,
-          transition: "opacity 120ms ease",
-          boxShadow: sidebarOpen ? "2px 0 8px rgba(0,0,0,0.05)" : "none"
+          minHeight: 0
         }}
       >
         <div style={{
@@ -1048,7 +1097,7 @@ export default function ChatClient({
                 : c.access_role === "editor" ? `Collaborating${c.shared_by?.name ? ` - shared by ${c.shared_by.name}` : ""}`
                 : `Read-only${c.shared_by?.name ? ` - shared by ${c.shared_by.name}` : ""}`;
               return (
-                <div key={c.id} style={{ borderBottom: "1px solid #eee", background: active ? "#eef6ff" : "transparent" }}>
+                <div key={c.id} style={{ borderBottom: "1px solid #e5e7eb", background: active ? "#eef6ff" : "transparent" }}>
                   <div
                     onClick={() => selectConv(c.id)}
                     style={{ cursor: "pointer", padding: "10px 12px", display: "grid", gridTemplateColumns: "1fr auto", gap: 8, alignItems: "center" }}
@@ -1092,7 +1141,10 @@ export default function ChatClient({
           background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
           boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
         }}>
-          <button onClick={() => setSidebarOpen((v) => !v)} style={{
+          <button
+            onClick={() => setSidebarOpen((v) => !v)}
+            title={isMobile ? "Open conversation list" : (sidebarOpen ? "Hide sidebar" : "Show sidebar")}
+            style={{
             padding: "8px",
             background: "rgba(255,255,255,0.15)",
             color: "#fff",
@@ -1100,6 +1152,7 @@ export default function ChatClient({
             borderRadius: 6,
             cursor: "pointer",
             fontWeight: 400,
+            flexShrink: 0,
             fontSize: 18,
             lineHeight: 1,
             width: 36,
@@ -1115,9 +1168,9 @@ export default function ChatClient({
           onMouseLeave={(e) => {
             e.currentTarget.style.background = "rgba(255,255,255,0.15)";
           }}
-          title={sidebarOpen ? "Hide sidebar" : "Show sidebar"}>
-            {sidebarOpen ? "‹" : "›"}
-          </button>
+        >
+          {isMobile ? "☰" : (sidebarOpen ? "◀" : "▶")}
+        </button>
 
           {selectedConv && <RoleBadge c={selectedConv} />}
 
@@ -1521,15 +1574,15 @@ export default function ChatClient({
       </main>
 
       {/* Share drawer - narrow screens overlay */}
-      {mounted && isNarrow && shareOpen && (
+      {mounted && isMobile && shareOpen && (
         <>
           <div onClick={() => setShareOpen(false)}
                style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.3)", zIndex: 20 }} />
           <aside role="dialog" aria-modal
             style={{
               position: "fixed", top: 0, right: 0, bottom: 0,
-              width: "min(92vw, 360px)",
-              background: "#fcfcff", borderLeft: "1px solid #eee",
+              width: "min(92vw, 280px)",
+              background: "#fff", borderLeft: "1px solid #e5e7eb",
               boxShadow: "-8px 0 16px rgba(0,0,0,0.06)",
               zIndex: 21, display: "flex", flexDirection: "column", minHeight: 0
             }}
@@ -1554,11 +1607,11 @@ export default function ChatClient({
       )}
 
       {/* Wide screens third column */}
-      {mounted && !isNarrow && shareOpen && (
+      {mounted && !isMobile && shareOpen && (
         <aside
           style={{
-            borderLeft: "1px solid #eee",
-            background: "#fcfcff",
+            borderLeft: "1px solid #e5e7eb",
+            background: "#fff",
             display: "flex",
             flexDirection: "column",
             minHeight: 0,
@@ -1676,43 +1729,43 @@ function SharePanel({
       <div
         key={m.user.id}
         style={{
-          padding: "8px 10px", border: "1px solid #eee", borderRadius: 8, background: bg,
-          display: "grid", gridTemplateColumns: "1fr auto", gap: 8, alignItems: "center", marginBottom: 8
+          padding: "5px 6px", border: "1px solid #e5e7eb", borderRadius: 4, background: bg,
+          display: "flex", flexDirection: "column", gap: 3, marginBottom: 5
         }}
       >
         <div style={{ minWidth: 0 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
-            <div style={{ fontWeight: 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 4, minWidth: 0 }}>
+            <div style={{ fontWeight: 600, fontSize: 12, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
               {self ? "Me" : displayName(m.user)}
             </div>
             {/* Badge also says "Me" */}
             {self && (
               <span style={{
-                fontSize: 11, padding: "0 6px", borderRadius: 999,
+                fontSize: 9, padding: "0 4px", borderRadius: 999,
                 border: "1px solid #ddd", background: "#eee", color: "#555", flexShrink: 0
               }}>
                 Me
               </span>
             )}
           </div>
-          <div style={{ fontSize: 12, color: "#666", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+          <div style={{ fontSize: 10, color: "#666", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
             {emailOf(m.user)}
           </div>
         </div>
-        <div style={{ display: "flex", gap: 6, alignItems: "center", opacity: self ? .6 : 1 }}>
+        <div style={{ display: "flex", gap: 3, alignItems: "center", opacity: self ? .6 : 1 }}>
           <button
             onClick={() => changeRole(m.user.id, onMake)}
             disabled={shareBusy || self}
             title={self ? "This is you" : undefined}
-            style={{ padding: "4px 8px" }}
+            style={{ padding: "2px 5px", fontSize: 10, flex: 1 }}
           >
-            {onMake === "viewer" ? "Make viewer" : "Make editor"}
+            {onMake === "viewer" ? "→ Viewer" : "→ Editor"}
           </button>
           <button
             onClick={() => removeMember(m.user.id)}
             disabled={shareBusy || self}
             title={self ? "This is you" : undefined}
-            style={{ padding: "4px 8px" }}
+            style={{ padding: "2px 5px", fontSize: 10, flex: 1 }}
           >
             Remove
           </button>
@@ -1723,24 +1776,30 @@ function SharePanel({
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
-      <div style={{ display: "flex", gap: 8, padding: 10, borderBottom: "1px solid #eee", alignItems: "center" }}>
-        <div style={heading}>Share / Manage access</div>
-        <div style={{ fontSize: 12, color: "#999" }}>{shareBusy ? "..." : ""}</div>
+      <div style={{
+        display: "flex",
+        gap: 6,
+        padding: 10,
+        borderBottom: "1px solid #e5e7eb",
+        alignItems: "center",
+        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+      }}>
+        <div style={{ ...heading, color: "#fff", fontSize: 14 }}>Share</div>
+        <div style={{ fontSize: 11, color: "rgba(255,255,255,0.8)" }}>{shareBusy ? "..." : ""}</div>
       </div>
 
       {/* Add new people */}
-      <div style={{ padding: 12, borderBottom: "1px solid #eee", display: "grid", gap: 8 }}>
-        <div style={{ fontWeight: 600 }}>Add new people</div>
+      <div style={{ padding: 8, borderBottom: "1px solid #e5e7eb", display: "grid", gap: 5 }}>
+        <div style={{ fontWeight: 600, fontSize: 12 }}>Add people</div>
         <input
           value={shareEmail}
           onChange={(e) => setShareEmail(e.target.value)}
-          placeholder="email@example.com"
-          style={{ padding: "6px 8px" }}
+          placeholder="email"
+          style={{ padding: "4px 6px", fontSize: 12, width: "100%", boxSizing: "border-box" }}
           disabled={shareBusy || !selectedConv}
         />
-        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <span style={{ fontSize: 12, color: "#555" }}>Role:</span>
-          <label style={{ fontSize: 13 }}>
+        <div style={{ display: "grid", gap: 3 }}>
+          <label style={{ fontSize: 11, display: "flex", alignItems: "center", gap: 4 }}>
             <input
               type="radio"
               name="newRole"
@@ -1748,10 +1807,10 @@ function SharePanel({
               checked={newRole === "editor"}
               onChange={() => setNewRole("editor")}
               disabled={shareBusy}
-            />{" "}
+            />
             Collaborator
           </label>
-          <label style={{ fontSize: 13 }}>
+          <label style={{ fontSize: 11, display: "flex", alignItems: "center", gap: 4 }}>
             <input
               type="radio"
               name="newRole"
@@ -1759,53 +1818,52 @@ function SharePanel({
               checked={newRole === "viewer"}
               onChange={() => setNewRole("viewer")}
               disabled={shareBusy}
-            />{" "}
+            />
             Viewer
           </label>
-          <div style={{ marginLeft: "auto" }} />
-          <button
-            onClick={addMember}
-            disabled={!canAdd}
-            style={{ padding: "6px 10px", minWidth: 64 }}
-            title={
-              !emailTrim ? "Enter an email address"
-              : !isEmail(emailTrim) ? "Invalid email address"
-              : newRole === "unassigned" ? "Choose a role"
-              : "Add"
-            }
-          >
-            Add
-          </button>
         </div>
+        <button
+          onClick={addMember}
+          disabled={!canAdd}
+          style={{ padding: "4px 6px", fontSize: 12, width: "100%" }}
+          title={
+            !emailTrim ? "Enter an email address"
+            : !isEmail(emailTrim) ? "Invalid email address"
+            : newRole === "unassigned" ? "Choose a role"
+            : "Add"
+          }
+        >
+          Add
+        </button>
 
         {shareError ? (
-          <div style={{ color: "#b00020", fontSize: 12 }}>{shareError}</div>
+          <div style={{ color: "#b00020", fontSize: 10 }}>{shareError}</div>
         ) : (inlineHint && !canAdd) ? (
-          <div style={{ color: "#666", fontSize: 12 }}>{inlineHint}</div>
+          <div style={{ color: "#666", fontSize: 10 }}>{inlineHint}</div>
         ) : null}
       </div>
 
       {/* Owner: plain text (self => Me) */}
-      <div style={{ padding: 12, borderBottom: "1px solid #eee" }}>
-        <div style={{ fontWeight: 600, marginBottom: 6 }}>Owner</div>
-        <div style={{ fontSize: 14 }}>{ownerLine}</div>
+      <div style={{ padding: 8, borderBottom: "1px solid #e5e7eb" }}>
+        <div style={{ fontWeight: 600, marginBottom: 3, fontSize: 12 }}>Owner</div>
+        <div style={{ fontSize: 11, wordBreak: "break-word" }}>{ownerLine}</div>
       </div>
 
       {/* Members */}
-      <div style={{ flex: 1, minHeight: 0, overflow: "auto", display: "grid", gap: 12, padding: 12 }}>
+      <div style={{ flex: 1, minHeight: 0, overflow: "auto", display: "grid", gap: 8, padding: 8 }}>
         {/* Collaborators (self pinned + gray + "Me") */}
         <section>
-          <div style={{ fontWeight: 600, marginBottom: 6 }}>Collaborators</div>
+          <div style={{ fontWeight: 600, marginBottom: 3, fontSize: 12 }}>Collaborators</div>
           {editors.length === 0 ? (
-            <div style={{ padding: 6, fontSize: 13, opacity: .6 }}>No collaborators.</div>
+            <div style={{ padding: 3, fontSize: 11, opacity: .6 }}>No collaborators.</div>
           ) : editors.map((m) => <Row key={m.user.id} m={m} onMake="viewer" />)}
         </section>
 
         {/* Viewers (sorted by name) */}
         <section>
-          <div style={{ fontWeight: 600, marginBottom: 6 }}>Viewers</div>
+          <div style={{ fontWeight: 600, marginBottom: 3, fontSize: 12 }}>Viewers</div>
           {viewers.length === 0 ? (
-            <div style={{ padding: 6, fontSize: 13, opacity: .6 }}>No viewers.</div>
+            <div style={{ padding: 3, fontSize: 11, opacity: .6 }}>No viewers.</div>
           ) : viewers.map((m) => <Row key={m.user.id} m={m} onMake="editor" />)}
         </section>
       </div>
