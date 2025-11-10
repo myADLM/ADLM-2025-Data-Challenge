@@ -4,6 +4,8 @@ Document indexer using LlamaIndex + SimpleVectorStore with hierarchy-preserving 
 import argparse
 from pathlib import Path
 
+from tqdm import tqdm
+
 from llama_index.core import Document, VectorStoreIndex, Settings, StorageContext, load_index_from_storage
 from llama_index.core.vector_stores import SimpleVectorStore
 from llama_index.core.node_parser import MarkdownNodeParser
@@ -19,7 +21,7 @@ def main():
     
     args = parser.parse_args()
     
-    print("Loading the embeddings model...")
+    print("Loading the embedding model...")
     embed_model = HuggingFaceEmbedding(
         model_name="sentence-transformers/all-MiniLM-L6-v2",
         trust_remote_code=True
@@ -108,7 +110,7 @@ def main():
         
         # Add new nodes to existing index
         print("Adding new chunks...")
-        for node in nodes:
+        for node in tqdm(nodes, desc="Adding chunks to index"):
             index.insert(node)
     else:
         print("Creating new index...")

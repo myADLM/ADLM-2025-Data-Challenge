@@ -16,7 +16,7 @@ def main():
     
     args = parser.parse_args()
     
-    print("🔍 Loading search index...")
+    print("Loading search index...")
     embed_model = HuggingFaceEmbedding(
         model_name="sentence-transformers/all-MiniLM-L6-v2",
         trust_remote_code=True
@@ -25,20 +25,20 @@ def main():
     
     persist_dir = Path(args.persist_dir)
     if not persist_dir.exists():
-        print(f"❌ Index directory not found: {args.persist_dir}")
+        print(f"Index directory not found: {args.persist_dir}")
         print("Run indexer first: python src/labdocs/indexer.py <input_folder>")
         return
     
     # Load index from storage
     storage_context = StorageContext.from_defaults(persist_dir=str(persist_dir))
     index = load_index_from_storage(storage_context)
-    print("✅ Index loaded")
+    print("Index loaded")
     
     def do_search(query: str):
         retriever = index.as_retriever(similarity_top_k=args.top_k)
         results = retriever.retrieve(query)
         
-        print(f"\n🔎 Query: '{query}'")
+        print(f"\nQuery: '{query}'")
         print("-" * 50)
         
         if not results:
@@ -59,7 +59,7 @@ def main():
     if args.query:
         do_search(args.query)
     else:
-        print("\n🔍 Interactive search mode (type 'quit' to exit)")
+        print("\nInteractive search mode (type 'quit' to exit)")
         while True:
             query = input("\nQuery: ").strip()
             if query.lower() in ['quit', 'exit', 'q']:
