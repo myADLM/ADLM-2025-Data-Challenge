@@ -204,7 +204,8 @@ export default function ChatClient({
   const [selectedId, setSelectedId] = useState<string | null>(selectedPublicId);
   const [editingTitle, setEditingTitle] = useState(false);
   const [editTitleValue, setEditTitleValue] = useState("");
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  // Initialize with true for consistent SSR/client hydration
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const selectedConv = useMemo(() => convs.find((c) => c.id === selectedId) ?? null, [convs, selectedId]);
 
   const sidebarScrollRef = useRef<HTMLDivElement | null>(null);
@@ -218,7 +219,7 @@ export default function ChatClient({
         const u = await res.json().catch(() => null);
         if (u && typeof u.id !== "undefined") {
           console.log("[AUTH] Loaded me:", u);
-          setMe(u);
+          setMe({ ...u, id: Number(u.id) });
         } else {
           console.log("[AUTH] No user data in response");
         }
@@ -367,7 +368,7 @@ export default function ChatClient({
         role: (r.role as Msg["role"]) || (r.is_user ? "user" : "assistant"),
         text: r.text || r.content || "",
         created_at: Number(r.created_at || 0),
-        user_id: r.user_id ?? null,
+        user_id: r.user_id != null ? Number(r.user_id) : null,
         user_name: r.user_name ?? null,
         user_email: r.user_email ?? null,
         sources: r.sources ?? [],
@@ -478,7 +479,7 @@ export default function ChatClient({
           role: (r.role as Msg["role"]) || (r.is_user ? "user" : "assistant"),
           text: r.text || r.content || "",
           created_at: Number(r.created_at || 0),
-          user_id: r.user_id ?? null,
+          user_id: r.user_id != null ? Number(r.user_id) : null,
           user_name: r.user_name ?? null,
           user_email: r.user_email ?? null,
           sources: r.sources ?? [],
@@ -913,6 +914,8 @@ export default function ChatClient({
 
   const [mounted, setMounted] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [sidebarInitialized, setSidebarInitialized] = useState(false);
+  const [layoutReady, setLayoutReady] = useState(false);
   useEffect(() => { setMounted(true); }, []);
   useEffect(() => {
     if (!mounted) return;
@@ -925,12 +928,43 @@ export default function ChatClient({
     return () => window.removeEventListener("resize", check);
   }, [mounted]);
 
-  // Initialize sidebar state based on screen size after mount
+  // Initialize sidebar state after mount based on screen size and localStorage
+  // This runs once after hydration to set the correct initial state
   useEffect(() => {
-    if (mounted) {
-      setSidebarOpen(!isMobile);
+    if (!mounted) return;
+
+    const currentIsMobile = getViewportW() < MOBILE_BP;
+    if (currentIsMobile) {
+      // Mobile: always start closed
+      setSidebarOpen(false);
+    } else {
+      // Desktop: check localStorage for user preference
+      const saved = localStorage.getItem('chatSidebarOpen');
+      setSidebarOpen(saved !== null ? saved === 'true' : true);
     }
-  }, [mounted, isMobile]);
+
+    // Make layout visible after state is set (next frame to ensure state has updated)
+    requestAnimationFrame(() => {
+      setLayoutReady(true);
+    });
+  }, [mounted]); // Only run once after mount
+
+  // Toggle sidebar with localStorage persistence (desktop only)
+  const toggleSidebar = useCallback(() => {
+    // Enable transitions on first user interaction
+    if (!sidebarInitialized) {
+      setSidebarInitialized(true);
+    }
+
+    setSidebarOpen((v) => {
+      const newValue = !v;
+      // Only save to localStorage on desktop
+      if (!isMobile) {
+        localStorage.setItem('chatSidebarOpen', String(newValue));
+      }
+      return newValue;
+    });
+  }, [isMobile, sidebarInitialized]);
 
   // Auto-close sidebar on mobile when selecting a conversation
   useEffect(() => {
@@ -954,9 +988,10 @@ export default function ChatClient({
           ? "1fr"
           : `${sidebarOpen ? "300px" : "0"} 1fr${(mounted && !isMobile && shareOpen) ? " 240px" : ""}`,
         minHeight: 0,
-        transition: "grid-template-columns 160ms ease",
+        transition: sidebarInitialized ? "grid-template-columns 160ms ease" : "none",
         background: "#f9fafb",
-        position: "relative"
+        position: "relative",
+        opacity: layoutReady ? 1 : 0
       }}
     >
       {/* Mobile overlay backdrop when sidebar is open */}
@@ -989,7 +1024,7 @@ export default function ChatClient({
             width: 300,
             zIndex: 999,
             transform: sidebarOpen ? "translateX(0)" : "translateX(-100%)",
-            transition: "transform 250ms ease",
+            transition: sidebarInitialized ? "transform 250ms ease" : "none",
             borderRight: "1px solid #e5e7eb",
             boxShadow: sidebarOpen ? "2px 0 12px rgba(0,0,0,0.15)" : "none"
           } : {
@@ -999,7 +1034,7 @@ export default function ChatClient({
             visibility: sidebarOpen ? "visible" : "hidden",
             pointerEvents: sidebarOpen ? "auto" : "none",
             opacity: sidebarOpen ? 1 : 0,
-            transition: "opacity 120ms ease",
+            transition: sidebarInitialized ? "opacity 120ms ease" : "none",
             boxShadow: sidebarOpen ? "2px 0 8px rgba(0,0,0,0.05)" : "none"
           }),
           background: "#fff",
@@ -1142,7 +1177,7 @@ export default function ChatClient({
           boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
         }}>
           <button
-            onClick={() => setSidebarOpen((v) => !v)}
+            onClick={toggleSidebar}
             title={isMobile ? "Open conversation list" : (sidebarOpen ? "Hide sidebar" : "Show sidebar")}
             style={{
             padding: "8px",
@@ -1289,12 +1324,13 @@ export default function ChatClient({
                 const isUserMessage = m.role === "user";
                 const isAssistant = m.role === "assistant";
                 // A message is mine if: (1) it's in localSentRef, OR (2) user_id matches me.id (when both are non-null)
-                const isMine = mine || (isUserMessage && m.user_id != null && me?.id != null && m.user_id === me.id);
+                // Use loose equality (==) to handle string vs number type mismatches
+                const isMine = mine || (isUserMessage && m.user_id != null && me?.id != null && m.user_id == me.id);
                 const isCollaborator = isUserMessage && !isMine;
 
                 // Debug logging
                 if (isUserMessage) {
-                  console.log(`[Message #${i}] mine=${mine}, m.user_id=${m.user_id}, me?.id=${me?.id}, isMine=${isMine}, text="${m.text.substring(0, 30)}..."`);
+                  console.log(`[Message #${i}] mine=${mine}, m.user_id=${m.user_id} (${typeof m.user_id}), me?.id=${me?.id} (${typeof me?.id}), isMine=${isMine}, text="${m.text.substring(0, 30)}..."`);
                 }
 
                 // Get display name

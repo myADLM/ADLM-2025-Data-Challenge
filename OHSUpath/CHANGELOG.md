@@ -58,7 +58,6 @@ All notable changes to this project will be documented in this file.
 **Known Issues**
 - need to format what is sent to LLM
 - need to adjust the "think" in LLM responses
-- need to adjust the user display in chat
 
 
 ## [Unreleased]
@@ -72,6 +71,18 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.47] - 2025-11-10
+### Changed
+- Right sidebar (share panel) width reduced from 320px to 240px with compact layout
+- Sidebar state now persists on desktop via localStorage while always resetting to closed on mobile
+- All user IDs normalized to number type for consistent comparison
+
+### Fixed
+- User messages incorrectly displaying as collaborator due to type mismatch in ID comparison
+- Sidebar flash/animation on page load by disabling transitions until user interaction
+- Hydration errors from server/client state mismatch during initial render
+
 
 ## [0.2.46] - 2025-11-09
 ### Changed
