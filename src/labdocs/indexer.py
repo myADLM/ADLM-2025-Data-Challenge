@@ -2,30 +2,55 @@
 Document indexer using LlamaIndex + SimpleVectorStore with hierarchy-preserving chunking.
 """
 import argparse
+import os
 from pathlib import Path
 
 from tqdm import tqdm
+from dotenv import load_dotenv
 
 from llama_index.core import Document, VectorStoreIndex, Settings, StorageContext, load_index_from_storage
 from llama_index.core.vector_stores import SimpleVectorStore
 from llama_index.core.node_parser import MarkdownNodeParser
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.bedrock import BedrockEmbedding
+
+
+def init_embedding_model(embedding_model: str = "huggingface", aws_region: str = "us-east-1"):
+    """Initialize embedding model based on user choice."""
+    print(f"Loading the embedding model: {embedding_model}...")
+
+    if embedding_model.lower() == "bedrock":
+        embed_model = BedrockEmbedding(
+            model_name="amazon.titan-embed-text-v2:0",
+            region_name=aws_region,
+            embed_batch_size=10
+        )
+        print(f"  Using Bedrock Titan embeddings (1024 dimensions, batch_size=10, max_tokens=1024)")
+    else:
+        embed_model = HuggingFaceEmbedding(
+            model_name="sentence-transformers/all-MiniLM-L6-v2",
+            trust_remote_code=True
+        )
+        print(f"  Using HuggingFace SentenceTransformer (384 dimensions)")
+
+    return embed_model
 
 
 def main():
+    load_dotenv()
+
     parser = argparse.ArgumentParser(description="Index markdown documents with hierarchy preservation")
     parser.add_argument("--input-folder", default=None, help="Folder with markdown files")
     parser.add_argument("--collection", default="lab_docs", help="Collection name")
     parser.add_argument("--persist-dir", default="./vectordb", help="Directory to persist vector DB")
     parser.add_argument("--max-docs", type=int, default=0, help="Maximum documents to process (0 = unlimited)")
-    
+    parser.add_argument("--embedding-model", choices=["huggingface", "bedrock"], default="huggingface",
+                        help="Embedding model to use: huggingface or bedrock")
+    parser.add_argument("--aws-region", default="us-east-1", help="AWS region for Bedrock")
+
     args = parser.parse_args()
-    
-    print("Loading the embedding model...")
-    embed_model = HuggingFaceEmbedding(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
-        trust_remote_code=True
-    )
+
+    embed_model = init_embedding_model(args.embedding_model, args.aws_region)
     Settings.embed_model = embed_model
     
     

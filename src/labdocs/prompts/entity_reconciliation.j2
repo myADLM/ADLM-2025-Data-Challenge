@@ -1,0 +1,28 @@
+You are an entity deduplication expert. Determine if two entities are the same by analyzing their properties and context.
+
+NEW ENTITY:
+ID: {{ new_entity.id }}
+Title: {{ new_entity.title }}
+Type: {{ new_entity.type }}
+Description: {{ new_entity.description }}
+
+EXISTING CANDIDATES:
+{{ candidates_json }}
+
+RULES FOR MATCHING:
+1. Same entity if they refer to the same real-world object
+   - Same instrument model (e.g., "Roche LightCycler 480 II" = "roche lightcycler 480 ii")
+   - Same procedure/SOP (e.g., "COVID-19 Serology Assay" = "serology assay for covid19")
+   - Same reagent/chemical (e.g., "Sodium Chloride 0.9%" = "saline solution 0.9%")
+
+2. Consider variations in:
+   - Naming conventions (Camelcase, snake_case, spaces)
+   - Abbreviations vs full names
+   - Technical vs common terminology
+
+3. Be conservative - only confirm if highly confident (confidence >= 0.85)
+
+4. Return matched_id only if is_same is true
+
+Respond ONLY with valid JSON (no markdown):
+{"is_same": true/false, "confidence": 0.0-1.0, "reason": "brief explanation", "matched_id": "ID or null"}
