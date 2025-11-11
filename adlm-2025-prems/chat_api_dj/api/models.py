@@ -111,7 +111,8 @@ block_type_choices = [
     ('TextInlineMath', 'TextInlineMath'),
 
     # This is ours, represents a table chunk that has been converted to markdown KV style
-    ('MarkdownKVTable', 'MarkdownKVTable'),
+    ('MarkdownKVTable', 'MarkdownKVTable'), # Conversion of html table to a markdown K/V format which is slightly better for an LLM
+    ('VisionTable', 'VisionTable'), # Vision model output for tables, see api/management/commands/vision_model_on_tables.py
 ]
 
 class Chunk(models.Model):

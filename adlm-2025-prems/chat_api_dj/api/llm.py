@@ -1,3 +1,4 @@
+import base64
 from typing import List, Tuple
 from collections import namedtuple
 from threading import Thread
@@ -19,6 +20,10 @@ SYSTEM_PROMPT = (
 # Used to seperately yield thinking and output content
 ThinkingContent = namedtuple('ThinkingContent', ['content'])
 OutputContent = namedtuple('OutputContent', ['content'])
+
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
 
 def qwen_rerank_format_instruction(instruction, query, doc):
     output = "<Instruct>: {instruction}\n<Query>: {query}\n<Document>: {doc}".format(instruction=instruction,query=query, doc=doc)
@@ -227,6 +232,9 @@ class QwenLLM:
 
         return scores
 
+    def vision(self, image_path: str, prompt: str, system_prompt: str = SYSTEM_PROMPT):
+        raise NotImplementedError("Vision model not implemented for QwenLLM")
+
 class OllamaLLM:
     def __init__(self, model_name: str = ''):
         self.model_name = model_name
@@ -250,13 +258,20 @@ class OllamaLLM:
                     yield OutputContent(content=chunk.message.content)
             else:
                 yield OutputContent(content=response.message.content)
+    
+    def vision(self, image_path: str, prompt: str, system_prompt: str = SYSTEM_PROMPT):
+        raise NotImplementedError("Vision model not implemented for Ollama")
 
 class OpenAILLM:
     def __init__(self, model_name: str = '', base_url: str = 'http://localhost:6379/v1', api_key: str = ''):
         self.model_name = model_name
         self.base_url = base_url
         self.api_key = api_key
-        self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)
+        self.client = OpenAI(
+            api_key=self.api_key, 
+            base_url=self.base_url,
+            timeout=30,
+        )
 
     def embed_text(self, text: str):
         response = self.client.embeddings.create(model=self.model_name, input=text)
@@ -285,3 +300,24 @@ class OpenAILLM:
 
     def rerank(self, query: str, documents: List[str]) -> List[Tuple[str, float]]:
         return self.client.rerank.create(model=self.model_name, inputs=documents, query=query)
+
+    def vision(self, image_path: str, prompt: str, system_prompt: str = SYSTEM_PROMPT):
+        base64_image = encode_image(image_path)
+        chat_response = self.client.chat.completions.create(
+            # This one doesn't use self.model_name right now since it's very specific, but it could
+            model="Qwen/Qwen3-VL-30B-A3B-Instruct",
+            messages=[
+                {
+                    "role": "system",
+                    "content": system_prompt,
+                },
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": "What is this an image of?"},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}" }},
+                    ],
+                }
+            ],
+        )
+        return chat_response.choices[0].message.content
