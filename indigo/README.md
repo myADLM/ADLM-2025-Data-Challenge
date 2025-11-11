@@ -3,6 +3,8 @@
 ### Design
 See [backend/design.md](backend/design.md) for more details about architecture, strategy, and performance.
 
+This app was built and tested on macOS.
+
 ### Prerequisites
 - **macOS 12+ (Monterey or newer)**:
   - Docker Desktop for Mac
@@ -10,11 +12,15 @@ See [backend/design.md](backend/design.md) for more details about architecture, 
   - Docker Engine
   - docker-compose (Compose v1) or Docker Compose plugin (v2)
 
+If you must run on Windows, let me know (jmontgomery@indigobio.com) and I will create a startup script.
+
 Verify installation:
 ```bash
 docker --version
 docker-compose --version
 ```
+
+Ensure that Docker has a Memory Limit (≥ 12 GB). Set via Docker>Settings>Resources
 
 ### Start the application
 
@@ -22,11 +28,13 @@ The backend build process takes a long time and costs some money to generate the
 
 Building the database from scratch requires [AWS credentials](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html) with permission to execute the Amazon Nova Lite model in Amazon Bedrock. You do not need to do this to run the application.
 
-If you want to use the vector search capabilities and/or Chat features, you will need to add the following environment variable to the `local_orchestration/.env` file:
+If you want to use the vector search capabilities and/or Chat features, you will need to add the following environment variable to the `local_orchestration/.env` file with a working API key:
 
 ```
-OPENAI_API_KEY
+OPENAI_API_KEY=<your key>
 ```
+
+You can find or generate your GPT API key [here](https://platform.openai.com/settings/organization/api-keys).
 
 If you just want BM25 search and document retrieval, you don't need set that environment variable (not recommended).
 
@@ -49,7 +57,8 @@ chmod +x teardown.sh
 
 ### Notes
 - Ensure Docker Desktop/daemon is running before starting
-- If ports are busy, stop conflicting services or adjust `local_orchestration/docker-compose.yml`
+- If ports are busy, stop conflicting services or contact me (jmontgomery@indigobio.com)
+- The app defaults to the recommended settings, but you can adjust the LLM, document count, and search type via the dropdown menu in the top left of the UI.
 
 ## High Level Design
 
@@ -82,4 +91,4 @@ chmod +x teardown.sh
 3. Refined data is used to build the BM25-IDF index and vector database.
 4. Frontend UI runs at `http://localhost:5173`
 5. User submits a query
-6. Backend retrieves relevant chunks and returns responses; documents are available to download.
+6. Backend retrieves relevant chunks and returns responses, citing sources; documents are available to download.

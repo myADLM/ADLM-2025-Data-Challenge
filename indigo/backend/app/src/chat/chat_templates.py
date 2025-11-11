@@ -6,7 +6,9 @@ def system_instructions():
         lab processes. You will receive a question from the user and a list of partial documents that may be
         related to the question. You should read the document chunks to reply to the question and include
         citations from the documents. Keep your reply short and concise, only using documents if they are
-        relevant to the question. You may usemarkdown formatting in your reply.
+        relevant to the question. You may usemarkdown formatting in your reply. You MUST only answer questions
+        that are supported by the supplied documents. If the answer is not in the supplied documents, explain
+        why you can't answer, and ask them to be more specific.
     """)
 
 def user_query(context_chunks: list[str], query: str):
