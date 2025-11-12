@@ -41,6 +41,8 @@ dependencies = [
     "llama-index-graph-stores-neo4j>=0.4.0",
     "neo4j>=5.0.0",
     "python-dotenv>=1.2.1",
+    "flask>=3.0.0",
+    "pytest>=8.0.0",
 ]
 
 [build-system]

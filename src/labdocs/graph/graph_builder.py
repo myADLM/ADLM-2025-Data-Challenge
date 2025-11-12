@@ -6,14 +6,16 @@ import os
 import re
 from pathlib import Path
 from typing import Optional, List, Dict
+from concurrent.futures import ThreadPoolExecutor
 from jinja2 import Environment, FileSystemLoader
 from tqdm import tqdm
 from tqdm.asyncio import tqdm as atqdm
 from dotenv import load_dotenv
 import pandas as pd
+from transformers import AutoTokenizer
 
 from llama_index.core import StorageContext, load_index_from_storage, Settings
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.bedrock import BedrockEmbedding
 from llama_index.llms.bedrock_converse import BedrockConverse
 
 from .config import GraphBuilderConfig, Neo4jConfig, DeduplicationConfig, SchemaConfig
@@ -30,11 +32,16 @@ class GraphBuilder:
     - Two-level entity deduplication (Levenshtein + LLM)
     """
 
-    def __init__(self, config: GraphBuilderConfig):
+    def __init__(self, config: GraphBuilderConfig, doc_type: str = "unified"):
         self.config = config
         self.vectordb_dir = Path(config.vectordb_dir)
         self.graphdb_dir = Path(config.graphdb_dir)
         self.graphdb_dir.mkdir(exist_ok=True)
+
+        # Document type: 'unified' (both SOP and FDA in single graph), 'sop', or 'fda'
+        self.doc_type = doc_type.lower()
+        if self.doc_type not in ["unified", "sop", "fda"]:
+            raise ValueError(f"Invalid doc_type: {doc_type}. Must be 'unified', 'sop', or 'fda'")
 
         # Initialize dataframes for tracking
         self.entities_df = pd.DataFrame(columns=[
@@ -50,18 +57,22 @@ class GraphBuilder:
         # Initialize Bedrock LLM
         model_id = os.getenv("BEDROCK_MODEL_ID", "anthropic.claude-3-sonnet-20240229-v1:0")
         aws_region = os.getenv("AWS_REGION", "us-east-1")
-        aws_profile = os.getenv("AWS_PROFILE", "default")
+        aws_profile = os.getenv("AWS_PROFILE", "your_aws_profile_name")
 
         # Model-specific token limits (actual API limits)
         model_token_limits = {
-            "ai21.jamba": 8192,
-            "anthropic.claude": 8192,
-            "meta.llama": 8192,
+            "ai21.jamba": 4096,
+            "anthropic.claude": 4096,
+            "meta.llama": 2048,
         }
         max_tokens = next(
             (limit for prefix, limit in model_token_limits.items() if prefix in model_id),
-            8192
+            4096
         )
+        self.max_tokens = max_tokens
+
+        # Initialize tokenizer for token counting
+        self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
 
         print(f"Initializing Bedrock LLM: {model_id} (region: {aws_region}, max_tokens: {max_tokens})")
 
@@ -73,10 +84,11 @@ class GraphBuilder:
             max_tokens=max_tokens
         )
 
-        # Initialize HuggingFace embeddings
-        embed_model = HuggingFaceEmbedding(
-            model_name="sentence-transformers/all-MiniLM-L6-v2",
-            trust_remote_code=True
+        # Initialize Bedrock embeddings
+        embed_model = BedrockEmbedding(
+            model_name="amazon.titan-embed-text-v2:0",
+            region_name=aws_region,
+            embed_batch_size=10
         )
         Settings.embed_model = embed_model
 
@@ -95,6 +107,9 @@ class GraphBuilder:
         self.jinja_env = Environment(
             loader=FileSystemLoader(Path(__file__).parent.parent / "prompts")
         )
+
+        # Thread pool for running sync Bedrock calls in async context
+        self.thread_pool = ThreadPoolExecutor(max_workers=5)
 
     def get_documents_to_process(self) -> set:
         """
@@ -147,6 +162,20 @@ class GraphBuilder:
             print(f"Error loading chunks for {document_path}: {e}")
             return []
 
+    def check_document_token_count(self, chunks) -> bool:
+        """
+        Check if document chunks exceed max token limit.
+        Returns True if document is within limits, False if it exceeds.
+        """
+        total_text = " ".join([chunk.get_content() for chunk in chunks])
+        token_count = len(self.tokenizer.encode(total_text))
+
+        if token_count > self.max_tokens:
+            print(f"  Skipping document: {token_count} tokens exceeds {self.max_tokens} token limit")
+            return False
+
+        return True
+
     def _parse_json_response(self, json_str: str) -> Optional[dict]:
         """
         Parse JSON from Bedrock response.
@@ -161,10 +190,15 @@ class GraphBuilder:
         except json.JSONDecodeError:
             return None
 
-    def extract_entities(self, chunks):
+    def extract_entities(self, chunks, doc_type_hint: str = None):
         """
         Extract entities and relationships from document chunks using Bedrock.
         Returns parsed JSON-LD extraction result.
+        Uses unified schema (both SOP and FDA) or document-type specific schema.
+
+        Args:
+            chunks: Document chunks to extract from
+            doc_type_hint: Optional hint for document type ('sop' or 'fda') when using unified schema
         """
         if not chunks:
             return {"@graph": []}
@@ -175,16 +209,20 @@ class GraphBuilder:
             for chunk in chunks
         ])
 
-        # Load ontology schema
-        schema_path = Path(__file__).parent.parent / "prompts" / "ontology_schema.json"
+        # Load ontology schema based on document type
+        schema_filename = f"{self.doc_type}_ontology_schema.json"
+        schema_path = Path(__file__).parent.parent / "prompts" / schema_filename
         with open(schema_path, 'r') as f:
             ontology = json.load(f)
 
         schema_text = json.dumps(ontology, indent=2)
 
-        # Render extraction prompt
-        user_prompt_template = self.jinja_env.get_template("kg_extraction_user.j2")
-        system_prompt_template = self.jinja_env.get_template("kg_extraction_system.j2")
+        # Render extraction prompt based on document type
+        user_template_name = f"{self.doc_type}_kg_extraction_user.j2"
+        system_template_name = f"{self.doc_type}_kg_extraction_system.j2"
+
+        user_prompt_template = self.jinja_env.get_template(user_template_name)
+        system_prompt_template = self.jinja_env.get_template(system_template_name)
 
         system_prompt = system_prompt_template.render()
         user_prompt = user_prompt_template.render(
@@ -256,16 +294,44 @@ class GraphBuilder:
 
     def save_dataframes(self):
         """
-        Save entities and relationships to CSV files.
+        Save entities and relationships to JSON files in graphdb directory.
+        Creates a JSON file per document with entities and relationships.
         """
-        entities_file = self.graphdb_dir / "entities.csv"
-        relationships_file = self.graphdb_dir / "relationships.csv"
+        (self.graphdb_dir / "extractions").mkdir(exist_ok=True)
 
-        self.entities_df.to_csv(entities_file, index=False)
-        self.relationships_df.to_csv(relationships_file, index=False)
+        # Group by source document and save as JSON
+        if not self.entities_df.empty:
+            for source_doc in self.entities_df['source_document'].unique():
+                doc_entities = self.entities_df[self.entities_df['source_document'] == source_doc]
+                doc_relationships = self.relationships_df[self.relationships_df['source_document'] == source_doc]
 
-        print(f"✓ Saved {len(self.entities_df)} entities to {entities_file}")
-        print(f"✓ Saved {len(self.relationships_df)} relationships to {relationships_file}")
+                extraction = {
+                    'document': source_doc,
+                    'entities': doc_entities.to_dict('records'),
+                    'relationships': doc_relationships.to_dict('records')
+                }
+
+                # Clean filename
+                safe_name = source_doc.replace('/', '_').replace('.', '_')
+                output_file = self.graphdb_dir / "extractions" / f"{safe_name}.json"
+                with open(output_file, 'w') as f:
+                    json.dump(extraction, f, indent=2)
+
+        # Also save combined summary
+        summary = {
+            'total_entities': len(self.entities_df),
+            'total_relationships': len(self.relationships_df),
+            'documents_processed': self.entities_df['source_document'].nunique() if not self.entities_df.empty else 0,
+            'entity_types': self.entities_df['entity_type'].unique().tolist() if not self.entities_df.empty else [],
+            'relationship_types': self.relationships_df['relationship_type'].unique().tolist() if not self.relationships_df.empty else []
+        }
+        summary_file = self.graphdb_dir / "summary.json"
+        with open(summary_file, 'w') as f:
+            json.dump(summary, f, indent=2)
+
+        print(f"✓ Saved {len(self.entities_df)} entities to {self.graphdb_dir}/extractions/")
+        print(f"✓ Saved {len(self.relationships_df)} relationships")
+        print(f"✓ Summary saved to {summary_file}")
 
     def _print_dedup_stats(self, entity_stats: dict, rel_stats: dict):
         """Print deduplication statistics in a readable format."""
@@ -324,6 +390,10 @@ class GraphBuilder:
                     print(f"No chunks found for {doc_path}")
                     continue
 
+                # Check token count limit
+                if not self.check_document_token_count(chunks):
+                    continue
+
                 # Extract entities and relationships
                 extraction_result = self.extract_entities(chunks)
 
@@ -380,8 +450,17 @@ class GraphBuilder:
                 if not chunks:
                     return None
 
-                # Extract entities and relationships
-                extraction_result = self.extract_entities(chunks)
+                # Check token count limit
+                if not self.check_document_token_count(chunks):
+                    return None
+
+                # Extract entities and relationships (run sync call in thread pool)
+                loop = asyncio.get_event_loop()
+                extraction_result = await loop.run_in_executor(
+                    self.thread_pool,
+                    self.extract_entities,
+                    chunks
+                )
 
                 # Validate against schema
                 validated, val_stats = self.validator.validate_extraction(extraction_result)
@@ -464,6 +543,7 @@ class GraphBuilder:
     def close(self):
         """Close connections."""
         self.graph_store.close()
+        self.thread_pool.shutdown(wait=True)
 
 
 def main():
