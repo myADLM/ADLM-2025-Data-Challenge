@@ -1,0 +1,30 @@
+[project]
+name = "Running_RAGged"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "appdirs>=1.4.4",
+    "argparse>=1.4.0",
+    "chromadb>=1.1.1",
+    "datetime>=5.5",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.31",
+    "langchain-ollama>=0.3.10",
+    "langchain-text-splitters>=0.3.11",
+    "markdown>=3.9",
+    "pip>=25.3",
+    "pymupdf-layout>=1.26.6",
+    "pymupdf4llm>=0.0.27",
+    "pypdfium2>=4.30.0",
+    "pytesseract>=0.3.13",
+    "rank-bm25>=0.2.2",
+    "setuptools>=80.9.0",
+    "streamlit>=1.50.0",
+    "tiktoken>=0.12.0",
+    "torch>=2.9.0",
+    "unstructured>=0.18.15",
+    "wheel>=0.45.1",
+]
