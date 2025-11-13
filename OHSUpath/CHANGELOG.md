@@ -2,61 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-
-
-## Ideas for new features
-- Add conversation-like feature so AI can read previous conversations to better understand user's need.  
-- Add a button for users to choose which model they want to use.  
-- Make a progress bar on frontend UI to help users understand the current stage.  
-- **Important:** Add limiter to pdf preload to avoid memory overflow.
-
-- **Query Type Detection:** Automatically classify user queries into "keyword-oriented" vs "semantic-oriented":  
-  - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers -> prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
-  - **Semantic-oriented**: longer natural language questions, explanations, or vague requests -> prioritize dense/vector retrieval.  
-- **Hybrid Weighting:** Dynamically adjust sparse vs dense retrieval weights based on query type (e.g., 0.8 sparse / 0.2 dense for keyword queries; 0.3 sparse / 0.7 dense for semantic queries).  
-- **Sparse Retriever Upgrade:** Support dual backends - `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
-- **Character n-gram re-ranking:** Apply character n-gram scoring on sparse top-N candidates to improve recall on spelling variations, merged tokens, and special identifiers (e.g., `aa_inf3` vs `aainf3`).  
-
-
-**Net related Platform:**
-### Core components
-
-- **API - FastAPI (Python)**  
-  Public API for health, auth, query, streaming, files, conversations; plugs into existing RAG pipeline.
-
-- **Gateway - Node.js (TypeScript)**  
-  Single browser entry; login (JWT cookie), CORS, basic rate limiting, proxy to FastAPI, SSE pass-through, add security headers.
-
-- **Web - Next.js (TypeScript, responsive)**  
-  One codebase for **desktop / tablet / mobile**; login, chat UI (supports streaming), conversation list, source preview; optional PWA later.
-
-- **Admin - Streamlit (local only)**  
-  Internal console for dataset ingest, chunking, embedding, indexing, and basic ops; not exposed to the public internet.
-
-- **RAG Engine (Python)**  
-  Load -> split -> embed -> index -> retrieve -> answer; caches & indices live in local store.
-
-### Security & multi-user
-- Login required for query/stream/files/conversations (via **JWT cookie**).
-- Gateway-to-API shared key to prevent direct bypass.
-- User identity forwarded via headers; per-account history isolation.
-- **Per-user rate limiting / basic quotas** at the gateway.
-
-### Files & sources
-- Serve PDFs from a whitelisted data directory only.
-- Inline preview; clickable citations from the chat to open documents.
-
-### Streaming
-- Server-Sent Events for real-time tokens and finalization events.
-
-### Deployment (web hosting)
-- Target: **Linux server** (or **WSL2** during Windows development) with the same layout.
-- Optional reverse proxy (Nginx/Caddy) for single domain + HTTPS. Use **SSE-friendly** settings.
-- Process manager (systemd) to run web / gateway / api as services.
-
-
-
-
 ## [Unreleased]
 ### Added
 - Placeholder for upcoming features.
@@ -69,26 +14,31 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.2.49] - 2025-11-13
+### Added
+- Add `LICENSE`
+
+### Changed
+- Update `README.md` and `CHANGELOG.md` for clear instructions
+
+### Fixed
+- Fix some typo
+
+
 ## [0.2.48] - 2025-11-12
 ### Added
-- **Reasoning extraction**: LLM responses now parse and extract `<think>` tags to display model reasoning separately from answers
-- `reasoning_text` field added to Message model to persist reasoning across sessions
 - `build_prompt()` method in RAG pipeline to create structured prompts with supplemental page context
 - `ask_llm()` method for direct LLM calls with structured prompts
 
 ### Changed
 - **Complete chat refactor**: replaced LangChain QA chains with structured prompts + direct LLM calls in both Streamlit app and API
 - Streamlit chat tab now uses `build_prompt()` and `ask_llm()` matching server implementation
-- RAG service `query()` method refactored to return reasoning separately from answer text
-- Frontend SSE client enhanced to handle reasoning, sources, and metadata as separate events
-- Conversation list and message responses now include reasoning data when available
+- Frontend SSE client enhanced to handle sources and metadata as separate events
 - Linux setup script now pins numpy and installs JAX with CUDA detection before other dependencies to prevent conflicts
 - Reduced verbose logging in API routers (commented out debug prints for cleaner output)
 
 ### Fixed
 - Dependency conflicts between numpy, JAX, and other packages during installation
-- SSE event ordering ensures reasoning is sent before answer text for better UX
-- Answer text now properly strips `<think>` tags using regex to prevent display leakage
 
 
 ## [0.2.47] - 2025-11-10
