@@ -107,7 +107,7 @@ def list_conversations(db: Session = Depends(get_db), user: CurrentUser = Depend
                     access_role="owner", shared_by=None, unread_count=unread
                 ))
             except Exception as e:
-                print(f"[CONV] Error processing owned conversation {c.id}: {e}")
+                # print(f"[CONV] Error processing owned conversation {c.id}: {e}")
                 continue
 
         # shared (sort by activity since invited)
@@ -125,13 +125,14 @@ def list_conversations(db: Session = Depends(get_db), user: CurrentUser = Depend
                     access_role=role, shared_by=_brief(inviter), unread_count=unread
                 ))
             except Exception as e:
-                print(f"[CONV] Error processing shared conversation {c.id}: {e}")
+                # print(f"[CONV] Error processing shared conversation {c.id}: {e}")
                 continue
 
         items.sort(key=lambda x: (x.last_message_at, x.created_at), reverse=True)
         return items
     except Exception as e:
-        print(f"[CONV] list_conversations error: {e}")
+        # print(f"[CONV] list_conversations error: {e}")
+        pass
         import traceback
         traceback.print_exc()
         # Return empty list rather than 500
@@ -188,11 +189,16 @@ def get_conversation(public_id: str = Path(...), db: Session = Depends(get_db), 
             try:
                 sources_data = json.loads(m.sources_json)
                 msg_dict["sources"] = sources_data
-                print(f"[CONV] Message {m.id}: Added {len(sources_data)} sources")
+                # print(f"[CONV] Message {m.id}: Added {len(sources_data)} sources")
             except Exception as e:
-                print(f"[CONV] Error parsing sources for message {m.id}: {e}")
-                import traceback
-                traceback.print_exc()
+                # print(f"[CONV] Error parsing sources for message {m.id}: {e}")
+                # import traceback
+                # traceback.print_exc()
+                pass
+
+        # Include reasoning if available
+        if hasattr(m, 'reasoning_text') and m.reasoning_text:
+            msg_dict["reasoning"] = m.reasoning_text
 
         msg_list.append(msg_dict)
 

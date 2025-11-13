@@ -46,28 +46,34 @@ class SourceDocument(BaseModel):
     file_size: int | None = None
 
 
-def _sse(reply: str, sources: list[dict] | None = None, llm_enabled: bool | None = None) -> AsyncGenerator[bytes, None]:
+def _sse(reply: str, sources: list[dict] | None = None, llm_enabled: bool | None = None, reasoning: str | None = None) -> AsyncGenerator[bytes, None]:
     async def gen():
+        # Send reasoning first if available
+        if reasoning:
+            # print(f"[SSE] Sending reasoning event ({len(reasoning)} chars)")
+            reasoning_json = json.dumps({"text": reasoning})
+            yield f"event: reasoning\ndata: {reasoning_json}\n\n".encode("utf-8")
+
         # Stream the main content character by character
         for ch in reply:
             yield f"data: {ch}\n\n".encode("utf-8")
 
         # Send sources as a separate event
         if sources:
-            print(f"[SSE] Sending sources event with {len(sources)} sources")
+            # print(f"[SSE] Sending sources event with {len(sources)} sources")
             sources_json = json.dumps(sources)
-            print(f"[SSE] Sources JSON: {sources_json[:200]}...")
+            # print(f"[SSE] Sources JSON: {sources_json[:200]}...")
             yield f"event: sources\ndata: {sources_json}\n\n".encode("utf-8")
-        else:
-            print("[SSE] No sources to send")
+        # else:
+        #     print("[SSE] No sources to send")
 
         # Send metadata (llm_enabled status)
         if llm_enabled is not None:
-            print(f"[SSE] Sending metadata event: llm_enabled={llm_enabled}")
+            # print(f"[SSE] Sending metadata event: llm_enabled={llm_enabled}")
             metadata_json = json.dumps({"llm_enabled": llm_enabled})
             yield f"event: metadata\ndata: {metadata_json}\n\n".encode("utf-8")
 
-        print("[SSE] Sending done event")
+        # print("[SSE] Sending done event")
         yield b"event: done\ndata: ok\n\n"
     return gen()
 
@@ -174,8 +180,11 @@ async def stream_query(
         reply = result.get("answer", "No answer generated.")
         source_docs = result.get("source_documents", [])
         llm_enabled = result.get("llm_enabled", False)
+        reasoning = result.get("reasoning")
 
-        print(f"[QUERY] Got {len(source_docs)} source documents from RAG service")
+        # print(f"[QUERY] Got {len(source_docs)} source documents from RAG service")
+        # if reasoning:
+        #     print(f"[QUERY] Got reasoning from RAG service ({len(reasoning)} chars)")
 
         # Format sources for frontend with error handling
         # Deduplicate by filename to show each file only once
@@ -186,7 +195,7 @@ async def stream_query(
                 # Safely get metadata
                 metadata = getattr(doc, 'metadata', {})
                 if not isinstance(metadata, dict):
-                    print(f"[QUERY] Warning: doc {idx} has non-dict metadata: {type(metadata)}")
+                    # print(f"[QUERY] Warning: doc {idx} has non-dict metadata: {type(metadata)}")
                     metadata = {}
 
                 source_path = metadata.get("source", "unknown")
@@ -206,10 +215,10 @@ async def stream_query(
                     source_path_obj = PathLib(source_path).resolve()
                     # Get relative path from DATA_DIR
                     relative_path = str(source_path_obj.relative_to(DATA_DIR))
-                    print(f"[QUERY] Converted {source_path} -> relative: {relative_path}")
+                    # print(f"[QUERY] Converted {source_path} -> relative: {relative_path}")
                 except (ValueError, OSError) as e:
                     # Fallback: if path is not relative to DATA_DIR, try multiple strategies
-                    print(f"[QUERY] Warning: Could not make path relative to DATA_DIR: {e}")
+                    # print(f"[QUERY] Warning: Could not make path relative to DATA_DIR: {e}")
 
                     # Strategy 1: Check if it's relative to project root (OHSUpath/)
                     try:
@@ -220,21 +229,21 @@ async def stream_query(
                         # (handles case where RAG stored path as /path/to/OHSUpath/tiny/file.pdf)
                         if not rel_from_project.startswith('data'):
                             relative_path = 'data/' + rel_from_project
-                            print(f"[QUERY] Adjusted path from project root: {relative_path}")
+                            # print(f"[QUERY] Adjusted path from project root: {relative_path}")
                         else:
                             # Path already includes data/, extract just the part after data/
                             relative_path = rel_from_project[5:] if rel_from_project.startswith('data/') else rel_from_project
-                            print(f"[QUERY] Extracted from project root: {relative_path}")
+                            # print(f"[QUERY] Extracted from project root: {relative_path}")
                     except (ValueError, OSError) as e2:
                         # Strategy 2: Simple string replacement
-                        print(f"[QUERY] Could not extract from project root either: {e2}, using string replacement")
+                        # print(f"[QUERY] Could not extract from project root either: {e2}, using string replacement")
                         relative_path = source_path.replace('data/', '').replace('data\\', '').replace(str(DATA_DIR) + '/', '').replace(str(DATA_DIR) + '\\', '')
                         # If still absolute, try to extract just the filename or last path components
                         if '/' in relative_path or '\\' in relative_path:
                             parts = relative_path.replace('\\', '/').split('/')
                             # Take last 2 parts (e.g., tiny/filename.pdf)
                             relative_path = '/'.join(parts[-2:]) if len(parts) >= 2 else parts[-1]
-                        print(f"[QUERY] Fallback relative path: {relative_path}")
+                        # print(f"[QUERY] Fallback relative path: {relative_path}")
 
                 # Safely get content
                 snippet = ""
@@ -242,7 +251,7 @@ async def stream_query(
                     try:
                         snippet = str(doc.page_content)[:200]
                     except Exception as e:
-                        print(f"[QUERY] Error getting page_content for doc {idx}: {e}")
+                        pass  # print(f"[QUERY] Error getting page_content for doc {idx}: {e}")
 
                 # If we haven't seen this file yet, add it
                 if filename not in sources_dict:
@@ -255,16 +264,16 @@ async def stream_query(
                         "mime_type": "application/pdf" if filename.lower().endswith('.pdf') else None,
                         "file_size": None  # Could add file size lookup if needed
                     }
-                    print(f"[QUERY] Added source {len(sources_dict)}: {filename}, page {page}, url: /api/files/{relative_path}/download")
+                    # print(f"[QUERY] Added source {len(sources_dict)}: {filename}, page {page}, url: /api/files/{relative_path}/download")
             except Exception as e:
-                print(f"[QUERY] Error processing doc {idx}: {e}")
-                import traceback
-                traceback.print_exc()
+                # print(f"[QUERY] Error processing doc {idx}: {e}")
+                # import traceback
+                # traceback.print_exc()
                 continue
 
         # Convert to list (limit to top 5 unique files)
         sources_list = list(sources_dict.values())[:5]
-        print(f"[QUERY] Formatted {len(sources_list)} unique sources for frontend (from {len(source_docs)} total chunks)")
+        # print(f"[QUERY] Formatted {len(sources_list)} unique sources for frontend (from {len(source_docs)} total chunks)")
     except Exception as e:
         print(f"[QUERY] Error in RAG query: {e}")
         import traceback
@@ -272,6 +281,7 @@ async def stream_query(
         reply = f"Error processing query: {str(e)}"
         sources_list = []
         llm_enabled = False
+        reasoning = None
 
     # Save conversation ID before session closes
     conv_id = conv.id
@@ -279,7 +289,7 @@ async def stream_query(
     async def gen():
         try:
             # Stream the response with error handling
-            async for chunk in _sse(reply, sources=sources_list, llm_enabled=llm_enabled):
+            async for chunk in _sse(reply, sources=sources_list, llm_enabled=llm_enabled, reasoning=reasoning):
                 yield chunk
         except asyncio.CancelledError:
             print("[SSE] Client disconnected (CancelledError)")
@@ -303,7 +313,8 @@ async def stream_query(
                     role="assistant",
                     content=reply,
                     created_at=t2,
-                    sources_json=sources_json_str
+                    sources_json=sources_json_str,
+                    reasoning_text=reasoning
                 )
                 new_db.add(db_msg)
                 db_conv = new_db.get(Conversation, conv_id)

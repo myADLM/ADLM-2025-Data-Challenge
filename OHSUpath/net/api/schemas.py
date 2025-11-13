@@ -29,6 +29,7 @@ class MessageOut(BaseModel):
     user_name: str | None = None
     user_email: str | None = None
     sources: List[SourceDocument] = Field(default_factory=list)
+    reasoning: str | None = None  # LLM reasoning from <think> tags
 
 class ConversationOut(BaseModel):
     # Expose only public_chat_id externally

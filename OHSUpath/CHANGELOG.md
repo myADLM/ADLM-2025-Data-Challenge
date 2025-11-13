@@ -55,9 +55,6 @@ All notable changes to this project will be documented in this file.
 - Process manager (systemd) to run web / gateway / api as services.
 
 
-**Known Issues**
-- need to format what is sent to LLM
-- need to adjust the "think" in LLM responses
 
 
 ## [Unreleased]
@@ -71,6 +68,28 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.48] - 2025-11-12
+### Added
+- **Reasoning extraction**: LLM responses now parse and extract `<think>` tags to display model reasoning separately from answers
+- `reasoning_text` field added to Message model to persist reasoning across sessions
+- `build_prompt()` method in RAG pipeline to create structured prompts with supplemental page context
+- `ask_llm()` method for direct LLM calls with structured prompts
+
+### Changed
+- **Complete chat refactor**: replaced LangChain QA chains with structured prompts + direct LLM calls in both Streamlit app and API
+- Streamlit chat tab now uses `build_prompt()` and `ask_llm()` matching server implementation
+- RAG service `query()` method refactored to return reasoning separately from answer text
+- Frontend SSE client enhanced to handle reasoning, sources, and metadata as separate events
+- Conversation list and message responses now include reasoning data when available
+- Linux setup script now pins numpy and installs JAX with CUDA detection before other dependencies to prevent conflicts
+- Reduced verbose logging in API routers (commented out debug prints for cleaner output)
+
+### Fixed
+- Dependency conflicts between numpy, JAX, and other packages during installation
+- SSE event ordering ensures reasoning is sent before answer text for better UX
+- Answer text now properly strips `<think>` tags using regex to prevent display leakage
+
 
 ## [0.2.47] - 2025-11-10
 ### Changed

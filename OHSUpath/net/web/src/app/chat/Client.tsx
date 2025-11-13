@@ -36,6 +36,7 @@ type Msg = {
   text: string;
   created_at?: number;
   sources?: SourceDoc[];
+  reasoning?: string | null;
   user_id?: number | null;
   user_name?: string | null;
   user_email?: string | null;
@@ -372,6 +373,7 @@ export default function ChatClient({
         user_name: r.user_name ?? null,
         user_email: r.user_email ?? null,
         sources: r.sources ?? [],
+        reasoning: r.reasoning ?? null,
       }));
       console.log("[LOAD] Loaded messages:", mapped.map(m => ({ role: m.role, user_id: m.user_id, sources: m.sources?.length ?? 0, text: m.text.substring(0, 30) })));
       setMsgs(mapped);
@@ -483,6 +485,7 @@ export default function ChatClient({
           user_name: r.user_name ?? null,
           user_email: r.user_email ?? null,
           sources: r.sources ?? [],
+          reasoning: r.reasoning ?? null,
         }));
         const curLast = latestTs(msgsRef.current);
         const newLast = latestTs(mapped);
@@ -806,7 +809,30 @@ export default function ChatClient({
       onEvent: (e: { event?: string; data: string; id?: string }) => {
         // Handle special events
         if (e.event) {
-          if (e.event === "sources") {
+          if (e.event === "reasoning") {
+            // Parse and store reasoning
+            try {
+              const payload = JSON.parse(e.data);
+              const reasoning = payload?.text || "";
+              console.log("[SSE] Received reasoning event:", reasoning.substring(0, 100));
+              setMsgs((m) => {
+                let idx = -1;
+                for (let i = m.length - 1; i >= 0; i--) {
+                  if (m[i].role === "assistant") { idx = i; break; }
+                }
+                if (idx === -1) {
+                  console.warn("[SSE] No assistant message found to attach reasoning to");
+                  return m;
+                }
+                const cur = m[idx];
+                console.log("[SSE] Attaching reasoning to message at index", idx);
+                const updated = [...m.slice(0, idx), { ...cur, reasoning }, ...m.slice(idx + 1)];
+                return updated;
+              });
+            } catch (err) {
+              console.error("[SSE] Failed to parse reasoning:", err);
+            }
+          } else if (e.event === "sources") {
             // Parse and store sources
             try {
               const sources = JSON.parse(e.data) as SourceDoc[];
@@ -1409,6 +1435,40 @@ export default function ChatClient({
                       }}
                     >
                       <div style={{ whiteSpace: "pre-wrap" }}>{m.text}</div>
+
+                      {/* Display reasoning if available (collapsible) */}
+                      {m.reasoning && (
+                        <details style={{
+                          marginTop: 12,
+                          paddingTop: 12,
+                          borderTop: "1px solid #e5e7eb",
+                          background: "#f9fafb",
+                          borderRadius: 6,
+                          padding: 12,
+                          fontSize: 13,
+                          border: "1px solid #e5e7eb"
+                        }}>
+                          <summary style={{
+                            cursor: "pointer",
+                            fontWeight: 600,
+                            color: "#667eea",
+                            userSelect: "none",
+                            marginBottom: 8
+                          }}>
+                            Model reasoning
+                          </summary>
+                          <pre style={{
+                            whiteSpace: "pre-wrap",
+                            marginTop: 8,
+                            fontSize: 12,
+                            color: "#555",
+                            fontFamily: "ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace",
+                            lineHeight: 1.5
+                          }}>
+                            {m.reasoning}
+                          </pre>
+                        </details>
+                      )}
 
                       {/* Display sources for assistant messages as clickable citation bubbles */}
                       {(() => {

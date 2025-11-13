@@ -124,12 +124,29 @@ echo "============================================================="
 echo " Step 2/6: Install Python requirements"
 echo "============================================================="
 python -m pip install --upgrade pip setuptools wheel
+
+# Pin numpy first to avoid conflicts
+echo "[i] Installing numpy ..."
+python -m pip install "numpy<2,>=1.24"
+
+# Detect CUDA and install JAX with correct version before other packages
+echo "[i] Detecting CUDA availability ..."
+if command -v nvidia-smi >/dev/null 2>&1; then
+  echo "[i] NVIDIA GPU detected, installing JAX with CUDA 12 ..."
+  python -m pip install "jax[cuda12]<0.8"
+else
+  echo "[i] No GPU detected, installing JAX CPU-only ..."
+  python -m pip install "jax<0.8" "jaxlib<0.8"
+fi
+
+# Install other requirements
 if [[ -f "./requirements.txt" ]]; then
   echo "[i] Installing from requirements.txt ..."
   python -m pip install -r ./requirements.txt
 else
   echo "[i] No requirements.txt found, skipping."
 fi
+
 python -m pip install --upgrade huggingface_hub sentence-transformers
 python -m pip install -q hf_transfer || true
 python -m pip check

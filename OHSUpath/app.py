@@ -893,19 +893,27 @@ with tab_audit:
     admin_logins()
 
 with tab_chat:
-    # Build and memoize QA chain
-    def build_qa_if_needed():
-        if st.session_state.qa is not None:
-            return st.session_state.qa
-        qa_ = pipe.build_qa()
-        st.session_state.qa = qa_
-        return qa_
+    # ========== OLD APPROACH (kept for rollback) ==========
+    # def build_qa_if_needed():
+    #     if st.session_state.qa is not None:
+    #         return st.session_state.qa
+    #     qa_ = pipe.build_qa()
+    #     st.session_state.qa = qa_
+    #     return qa_
+    #
+    # qa = build_qa_if_needed()
+    #
+    # llm_disabled = bool(st.session_state.get("force_ro")) or (
+    #     isinstance(qa, dict) and qa.get("llm") == "disabled"
+    # )
+    # ========== END OLD APPROACH ==========
 
-    qa = build_qa_if_needed()
+    # NEW APPROACH: Use structured prompt + direct LLM call (same as server)
+    # Check if LLM is disabled: either checkbox is checked OR config has llm.enabled=false
+    llm_cfg = getattr(cfg, "llm", None)
+    llm_enabled_in_config = bool(getattr(llm_cfg, "enabled", True)) if llm_cfg else True
+    llm_disabled = bool(st.session_state.get("force_ro")) or not llm_enabled_in_config
 
-    llm_disabled = bool(st.session_state.get("force_ro")) or (
-        isinstance(qa, dict) and qa.get("llm") == "disabled"
-    )
     if llm_disabled:
         st.info("LLM disabled (config: `llm.enabled=false`). Retrieval-only mode.")
 
@@ -916,9 +924,9 @@ with tab_chat:
                 # Retrieve first for instant feedback
                 retriever = pipe.serve()
                 try:
-                    docs = retriever.invoke(query)  # new interface
+                    docs = retriever.invoke(query)
                 except TypeError:
-                    docs = retriever.get_relevant_documents(query)  # legacy interface
+                    docs = retriever.get_relevant_documents(query)
                 docs = docs or []
                 status.write(f"Retrieved {len(docs)} chunk(s).")
 
@@ -937,60 +945,117 @@ with tab_chat:
                             text = d.page_content or ""
                             st.write(text[:600] + ("..." if len(text) > 600 else ""))
                             st.markdown("---")
-                    raise SystemExit  # normal early return
+                    raise SystemExit
 
-                # Call LLM
+                # ========== NEW APPROACH: Structured prompt + <think> parsing ==========
+                # Build structured prompt using the same method as the server
+                status.update(label="Building prompt...", state="running")
+                prompt_text, used_docs, idx_map = pipe.build_prompt(query, docs)
+
+                # Call LLM directly
                 status.update(label="Calling LLM...", state="running")
-                spy = PromptSpy()
-                try:
-                    res = qa.invoke(
-                        {"query": query}, config={"callbacks": [spy]}
-                    )  # new interface
-                except TypeError:
-                    res = qa({"query": query}, callbacks=[spy])  # legacy interface
+                raw_response = pipe.ask_llm(prompt_text)
 
-                # Normalize variants
-                if isinstance(res, dict):
-                    answer_text = (
-                        res.get("result")
-                        or res.get("answer")
-                        or res.get("output_text")
-                        or ""
-                    )
-                    src_docs = res.get("source_documents") or docs
-                elif isinstance(res, str):
-                    answer_text = res
-                    src_docs = docs
-                else:
-                    answer_text = str(res)
-                    src_docs = docs
+                # Parse <think> tags (same as server)
+                import re
+                thinks = re.findall(r"<think>(.*?)</think>", raw_response, flags=re.I | re.S)
+                reasoning = "\n\n---\n\n".join([t.strip() for t in thinks]) if thinks else ""
 
+                # Debug output (commented out for clean terminal)
+                # print(f"[DEBUG] Raw response length: {len(raw_response)}")
+                # print(f"[DEBUG] Found {len(thinks)} <think> blocks")
+                # if reasoning:
+                #     print(f"[DEBUG] Reasoning length: {len(reasoning)} chars")
+                # else:
+                #     print(f"[DEBUG] No reasoning found. Checking for <think> in raw response:")
+                #     if "<think>" in raw_response.lower():
+                #         print(f"[DEBUG] WARNING: <think> found in raw response but regex didn't match!")
+                #         # Show first 500 chars of raw response for inspection
+                #         print(f"[DEBUG] Raw response preview: {raw_response[:500]}")
+
+                # Remove <think> tags from answer
+                answer_text = re.sub(r"</?think>", "", raw_response, flags=re.I).strip()
+
+                # Display answer
                 st.subheader("Answer")
                 st.write(answer_text if answer_text.strip() else "_(empty answer)_")
 
-                if st.session_state.show_llm_payload:
-                    payload = (
-                        res
-                        if isinstance(res, dict)
-                        else {
-                            "result": answer_text,
-                            "source_documents": src_docs,
-                        }
-                    )
-                    render_prompt_spy(spy, payload)
+                # Display reasoning if available
+                if reasoning:
+                    with st.expander("Model Reasoning (from <think> tags)", expanded=False):
+                        st.code(reasoning, language=None)
 
-                if src_docs:
+                # Display the structured prompt that was sent to LLM
+                if st.session_state.show_llm_payload:
+                    with st.expander("Structured Prompt Sent to LLM", expanded=False):
+                        st.code(prompt_text, language="markdown")
+                        st.markdown(f"**Prompt length:** {len(prompt_text)} characters")
+                        st.markdown(f"**Top docs:** {len(used_docs)}")
+                        st.markdown(f"**Index map:** {len(idx_map)} chunks")
+
+                # Display sources
+                if used_docs:
                     st.subheader("Sources")
-                    for i, d in enumerate(src_docs[:5], 1):
+                    for i, d in enumerate(used_docs[:5], 1):
                         src = d.metadata.get("source")
                         page = d.metadata.get("page_number", d.metadata.get("page"))
                         st.markdown(f"**{i}.** `{src}` (page {page})")
+                # ========== END NEW APPROACH ==========
+
+                # ========== OLD APPROACH (kept for rollback) ==========
+                # # Call LLM using LangChain QA chain
+                # status.update(label="Calling LLM...", state="running")
+                # spy = PromptSpy()
+                # try:
+                #     res = qa.invoke(
+                #         {"query": query}, config={"callbacks": [spy]}
+                #     )
+                # except TypeError:
+                #     res = qa({"query": query}, callbacks=[spy])
+                #
+                # # Normalize variants
+                # if isinstance(res, dict):
+                #     answer_text = (
+                #         res.get("result")
+                #         or res.get("answer")
+                #         or res.get("output_text")
+                #         or ""
+                #     )
+                #     src_docs = res.get("source_documents") or docs
+                # elif isinstance(res, str):
+                #     answer_text = res
+                #     src_docs = docs
+                # else:
+                #     answer_text = str(res)
+                #     src_docs = docs
+                #
+                # st.subheader("Answer")
+                # st.write(answer_text if answer_text.strip() else "_(empty answer)_")
+                #
+                # if st.session_state.show_llm_payload:
+                #     payload = (
+                #         res
+                #         if isinstance(res, dict)
+                #         else {
+                #             "result": answer_text,
+                #             "source_documents": src_docs,
+                #         }
+                #     )
+                #     render_prompt_spy(spy, payload)
+                #
+                # if src_docs:
+                #     st.subheader("Sources")
+                #     for i, d in enumerate(src_docs[:5], 1):
+                #         src = d.metadata.get("source")
+                #         page = d.metadata.get("page_number", d.metadata.get("page"))
+                #         st.markdown(f"**{i}.** `{src}` (page {page})")
+                # ========== END OLD APPROACH ==========
 
                 status.update(label="Done", state="complete")
 
             except SystemExit:
                 pass
-            except Exception as e:  # pragma: no cover
+            except Exception as e:
                 status.update(label="Error while answering", state="error")
                 st.error(f"{type(e).__name__}: {e}")
                 st.exception(e)

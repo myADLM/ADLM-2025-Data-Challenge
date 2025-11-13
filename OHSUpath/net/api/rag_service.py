@@ -42,46 +42,46 @@ class RagService:
     def initialize(self, yaml_path: str = "config.yaml", use_yaml: bool = True):
         """Initialize the RAG pipeline."""
         if self._initialized:
-            print("[RAG Service] Already initialized")
+            # print("[RAG Service] Already initialized")
             return
 
-        print("[RAG Service] Starting initialization...")
-        print(f"[RAG Service] Working directory: {os.getcwd()}")
-        print(f"[RAG Service] Config path: {yaml_path}")
-        print(f"[RAG Service] Config exists: {os.path.exists(yaml_path)}")
+        # print("[RAG Service] Starting initialization...")
+        # print(f"[RAG Service] Working directory: {os.getcwd()}")
+        # print(f"[RAG Service] Config path: {yaml_path}")
+        # print(f"[RAG Service] Config exists: {os.path.exists(yaml_path)}")
 
         try:
             # Load config
-            print("[RAG Service] Loading config...")
+            # print("[RAG Service] Loading config...")
             self.cfg = load_config(yaml_path=yaml_path, use_yaml=use_yaml)
-            print("[RAG Service] Config loaded successfully")
+            # print("[RAG Service] Config loaded successfully")
 
             # Create pipeline
-            print("[RAG Service] Creating RAG pipeline...")
+            # print("[RAG Service] Creating RAG pipeline...")
             self.pipeline = RagPipeline(self.cfg)
-            print("[RAG Service] Pipeline created")
+            # print("[RAG Service] Pipeline created")
 
             # Bootstrap (load existing index or create new)
-            print("[RAG Service] Bootstrapping...")
+            # print("[RAG Service] Bootstrapping...")
             self.pipeline.bootstrap()
-            print("[RAG Service] Bootstrap complete")
+            # print("[RAG Service] Bootstrap complete")
 
             # Build retriever
-            print("[RAG Service] Building retriever...")
+            # print("[RAG Service] Building retriever...")
             self.retriever = self.pipeline.serve()
-            print("[RAG Service] Retriever built successfully")
+            # print("[RAG Service] Retriever built successfully")
 
             # Build QA chain (LLM)
-            print("[RAG Service] Building QA chain...")
+            # print("[RAG Service] Building QA chain...")
             self.qa = self.pipeline.build_qa()
-            if isinstance(self.qa, dict) and self.qa.get("llm") == "disabled":
-                print("[RAG Service] LLM disabled in config - retrieval-only mode")
-            else:
-                print("[RAG Service] QA chain built successfully")
+            # if isinstance(self.qa, dict) and self.qa.get("llm") == "disabled":
+            #     print("[RAG Service] LLM disabled in config - retrieval-only mode")
+            # else:
+            #     print("[RAG Service] QA chain built successfully")
 
             self._initialized = True
             RagService._initialized = True
-            print("[RAG Service] Initialization complete!")
+            # print("[RAG Service] Initialization complete!")
 
         except Exception as e:
             print(f"[RAG Service] Initialization failed: {e}")
@@ -139,36 +139,51 @@ class RagService:
 
         Returns:
             dict with keys:
-                - answer: str (the answer text or retrieval summary)
+                - answer: str (the answer text with <think> removed)
+                - reasoning: str (content from <think> tags, or empty)
                 - source_documents: list (retrieved documents)
                 - llm_enabled: bool
         """
         if not self.is_ready():
             return {
                 "answer": "RAG service not initialized",
+                "reasoning": "",
                 "source_documents": [],
                 "llm_enabled": False,
             }
 
+        # Always retrieve documents first
+        docs = self.retrieve_documents(question)
+
         # Check if LLM is enabled from runtime settings
         llm_enabled = self.is_llm_enabled()
 
-        # If LLM is enabled, use the QA chain
-        if llm_enabled and self.qa:
-            print(f"[RAG Service] Querying LLM with question: '{question}'")
+        # If LLM is enabled, use structured prompt
+        if llm_enabled:
+            # print(f"[RAG Service] Querying LLM with question: '{question}'")
             try:
-                # Call the QA chain - it will retrieve and generate answer
-                result = self.qa({"query": question})
+                # Build structured prompt with top-5 + supplemental pages
+                prompt, used_docs, idx_map = self.pipeline.build_prompt(question, docs)
 
-                # Extract answer and source documents
-                answer = result.get("result", "No answer generated.")
-                docs = result.get("source_documents", [])
+                # Call LLM directly
+                raw_response = self.pipeline.ask_llm(prompt)
 
-                print(f"[RAG Service] LLM returned answer (length: {len(answer)})")
+                # print(f"[RAG Service] LLM returned response (length: {len(raw_response)})")
+
+                # Parse <think> tags
+                import re
+                thinks = re.findall(r"<think>(.*?)</think>", raw_response, flags=re.I | re.S)
+                reasoning = "\n\n---\n\n".join([t.strip() for t in thinks]) if thinks else ""
+
+                # Remove all <think> tags from the answer
+                final_answer = re.sub(r"</?think>", "", raw_response, flags=re.I).strip()
+
+                # print(f"[RAG Service] Parsed: reasoning={len(reasoning)} chars, answer={len(final_answer)} chars")
 
                 return {
-                    "answer": answer,
-                    "source_documents": docs,
+                    "answer": final_answer,
+                    "reasoning": reasoning,
+                    "source_documents": used_docs,
                     "llm_enabled": True,
                 }
             except Exception as e:
@@ -177,18 +192,15 @@ class RagService:
                 traceback.print_exc()
                 # Fall back to retrieval-only mode
                 answer = f"Error calling LLM: {str(e)}\n\nFalling back to retrieval-only mode."
-                docs = self.retrieve_documents(question)
                 answer += "\n\n" + self._format_retrieval_response(docs)
                 return {
                     "answer": answer,
+                    "reasoning": "",
                     "source_documents": docs,
                     "llm_enabled": False,
                 }
 
         # Retrieval-only mode (LLM disabled)
-        docs = self.retrieve_documents(question)
-
-        # Format response based on LLM availability
         if not docs:
             answer = "No relevant documents found."
         else:
@@ -196,6 +208,7 @@ class RagService:
 
         return {
             "answer": answer,
+            "reasoning": "",
             "source_documents": docs,
             "llm_enabled": False,
         }

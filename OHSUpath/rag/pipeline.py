@@ -317,3 +317,284 @@ class RagPipeline:
     def build_qa(self):
         from .retriever import build_qa as _build_qa
         return _build_qa(self.serve(), self.cfg)
+
+    # ---------- LLM Prompt Building & Direct Call ----------
+    def get_doc_total_pages(self, source_path: str) -> int | None:
+        """
+        Get total number of pages for a PDF from the docstore metadata.
+        Returns None if not found.
+        """
+        ds = getattr(self.vindex, "_docstore", None)
+        if ds is None:
+            return None
+        dct = getattr(ds, "_dict", None)
+        if not isinstance(dct, dict):
+            return None
+
+        # Find any document from this source and check metadata
+        for doc in dct.values():
+            meta = getattr(doc, "metadata", {}) or {}
+            src = meta.get("source") or meta.get("file_path") or meta.get("path") or ""
+            if src == source_path:
+                # Check for total_pages in metadata
+                total = meta.get("total_pages") or meta.get("num_pages")
+                if total is not None:
+                    try:
+                        return int(total)
+                    except (ValueError, TypeError):
+                        pass
+        return None
+
+    def get_page_doc(self, source_path: str, page: int) -> Any | None:
+        """
+        Get a document for a specific page from the docstore.
+        Returns None if not found.
+        """
+        ds = getattr(self.vindex, "_docstore", None)
+        if ds is None:
+            return None
+        dct = getattr(ds, "_dict", None)
+        if not isinstance(dct, dict):
+            return None
+
+        # Find document matching source and page
+        for doc in dct.values():
+            meta = getattr(doc, "metadata", {}) or {}
+            src = meta.get("source") or meta.get("file_path") or meta.get("path") or ""
+            pg = meta.get("page") or meta.get("page_number") or meta.get("page_no")
+            if src == source_path and pg is not None:
+                try:
+                    if int(pg) == page:
+                        return doc
+                except (ValueError, TypeError):
+                    pass
+        return None
+
+    def build_prompt(
+        self,
+        question: str,
+        top_docs: List[Any],
+        max_chars: int = 80_000,
+    ) -> tuple[str, List[Any], Dict[str, Dict]]:
+        """
+        Build a structured prompt with:
+        - User question
+        - Top-5 retrieved chunks (with metadata)
+        - Supplemental context (neighbor pages or full short PDFs)
+
+        Returns:
+            prompt_text: str - the formatted prompt
+            used_docs: List[Document] - all documents used (chunks + supplemental)
+            index_map: Dict[str, Dict] - ChunkID -> metadata mapping
+        """
+        # Limit to top 5
+        top_5 = top_docs[:5]
+
+        # Build index map and gather unique sources
+        index_map = {}
+        source_pages = {}  # source -> set of page numbers
+
+        for i, doc in enumerate(top_5, 1):
+            meta = getattr(doc, "metadata", {}) or {}
+            source = meta.get("source") or meta.get("file_path") or meta.get("path") or ""
+            page = meta.get("page") or meta.get("page_number") or meta.get("page_no")
+            chunk_id = meta.get("chunk_id") or f"chunk_{i}"
+
+            # Extract filename from source path
+            filename = os.path.basename(source) if source else "unknown"
+
+            index_map[chunk_id] = {
+                "source": source,
+                "page": page,
+                "filename": filename,
+                "index": i,
+            }
+
+            # Track pages per source
+            if source:
+                if source not in source_pages:
+                    source_pages[source] = set()
+                if page is not None:
+                    try:
+                        source_pages[source].add(int(page))
+                    except (ValueError, TypeError):
+                        pass
+
+        # Start building prompt
+        prompt_parts = []
+        prompt_parts.append("# Task")
+        prompt_parts.append("You are a domain assistant. Use the **Sources** to answer the **User Question** accurately.")
+        prompt_parts.append("- Prefer facts from the sources. If uncertain, say so.")
+        prompt_parts.append("- Put your chain-of-thought in a `<think>...</think>` block first. Then write the final answer under **Answer**.")
+        prompt_parts.append("- Cite evidence inline like [S1], [S2: p.5] using the IDs in **Sources**.")
+        prompt_parts.append("- Keep the final answer concise and structured.")
+        prompt_parts.append("")
+        prompt_parts.append("## User Question")
+        prompt_parts.append(question)
+        prompt_parts.append("")
+        prompt_parts.append("## Sources (Top-5 Retrieved Chunks)")
+
+        # Helper to convert absolute path to relative path
+        def make_relative_path(abs_path: str) -> str:
+            """Convert absolute path to relative path from data directory."""
+            if not abs_path or abs_path == "unknown":
+                return abs_path
+            # Try to find 'data/' in the path and make it relative from there
+            if "/data/" in abs_path:
+                parts = abs_path.split("/data/")
+                return parts[-1] if len(parts) > 1 else abs_path
+            # Fallback: just return basename if no data dir found
+            return os.path.basename(abs_path)
+
+        # Add top 5 chunks
+        chunk_texts = []
+        for i, doc in enumerate(top_5, 1):
+            meta = getattr(doc, "metadata", {}) or {}
+            source = meta.get("source") or meta.get("file_path") or meta.get("path") or "unknown"
+            page = meta.get("page") or meta.get("page_number") or meta.get("page_no") or "?"
+            filename = os.path.basename(source) if source else "unknown"
+            relative_path = make_relative_path(source)
+            text = doc.page_content or ""
+
+            chunk_texts.append((
+                f"[S{i}] file: {filename} | path: {relative_path} | page: {page}",
+                "---",
+                text,
+                ""
+            ))
+
+        # Gather supplemental pages
+        supplemental_docs = []
+        supplemental_texts = []
+        next_id = len(top_5) + 1
+
+        for source, pages in source_pages.items():
+            if not source:
+                continue
+
+            total_pages = self.get_doc_total_pages(source)
+            filename = os.path.basename(source)
+
+            selected_pages = []
+
+            if total_pages and total_pages <= 3:
+                # Include all pages
+                selected_pages = list(range(1, total_pages + 1))
+            else:
+                # Include hit page ± 1
+                for hit_page in pages:
+                    for offset in [-1, 0, 1]:
+                        pg = hit_page + offset
+                        if total_pages:
+                            if 1 <= pg <= total_pages and pg not in selected_pages:
+                                selected_pages.append(pg)
+                        elif pg >= 1 and pg not in selected_pages:
+                            selected_pages.append(pg)
+                selected_pages.sort()
+
+            # Fetch page documents
+            for pg in selected_pages:
+                # Skip if already in top_5
+                skip = False
+                for doc in top_5:
+                    m = getattr(doc, "metadata", {}) or {}
+                    s = m.get("source") or m.get("file_path") or m.get("path") or ""
+                    p = m.get("page") or m.get("page_number") or m.get("page_no")
+                    try:
+                        if s == source and p is not None and int(p) == pg:
+                            skip = True
+                            break
+                    except (ValueError, TypeError):
+                        pass
+
+                if not skip:
+                    page_doc = self.get_page_doc(source, pg)
+                    if page_doc:
+                        supplemental_docs.append(page_doc)
+                        text = page_doc.page_content or ""
+                        relative_path = make_relative_path(source)
+                        supplemental_texts.append((
+                            f"[S{next_id}] file: {filename} | path: {relative_path} | page: {pg}",
+                            "---",
+                            text,
+                            ""
+                        ))
+                        next_id += 1
+
+        # Estimate current size
+        def estimate_size(parts_list):
+            return sum(sum(len(s) for s in part) for part in parts_list)
+
+        header_size = len("\n".join(prompt_parts))
+        chunk_size = estimate_size(chunk_texts)
+        supp_size = estimate_size(supplemental_texts)
+        footer_size = len("\n## Answer\n\n")
+
+        total_size = header_size + chunk_size + supp_size + footer_size
+
+        # Truncation if needed
+        if total_size > max_chars:
+            # print(f"[PROMPT] Truncating: current={total_size}, max={max_chars}")
+            pass
+
+            # Truncate supplemental first
+            char_per_page = 4000
+            for i, (header, sep, text, blank) in enumerate(supplemental_texts):
+                if len(text) > char_per_page:
+                    truncated = text[:char_per_page] + "\n[...truncated]"
+                    supplemental_texts[i] = (header, sep, truncated, blank)
+
+            supp_size = estimate_size(supplemental_texts)
+            total_size = header_size + chunk_size + supp_size + footer_size
+
+            # If still over, truncate chunks
+            if total_size > max_chars:
+                min_chunk_size = 1500
+                for i, (header, sep, text, blank) in enumerate(chunk_texts):
+                    if len(text) > min_chunk_size:
+                        truncated = text[:min_chunk_size] + "\n[...truncated]"
+                        chunk_texts[i] = (header, sep, truncated, blank)
+
+        # Assemble final prompt
+        for header, sep, text, blank in chunk_texts:
+            prompt_parts.append(header)
+            prompt_parts.append(sep)
+            prompt_parts.append(text)
+            prompt_parts.append(blank)
+
+        if supplemental_texts:
+            prompt_parts.append("## Supplemental Context (Neighbor Pages / Full Short PDFs)")
+            for header, sep, text, blank in supplemental_texts:
+                prompt_parts.append(header)
+                prompt_parts.append(sep)
+                prompt_parts.append(text)
+                prompt_parts.append(blank)
+
+        prompt_parts.append("## Answer")
+        prompt_parts.append("")
+
+        prompt_text = "\n".join(prompt_parts)
+        used_docs = top_5 + supplemental_docs
+
+        # Log
+        # print(f"[PROMPT] chars={len(prompt_text)} top_docs={len(top_5)} supplemental_pages={len(supplemental_docs)}")
+        # print(f"[PROMPT] Preview: {prompt_text[:2000]}...")
+
+        return prompt_text, used_docs, index_map
+
+    def ask_llm(self, prompt: str) -> str:
+        """
+        Call the LLM with the given prompt and return raw text response.
+        """
+        # Ensure LLM is initialized
+        if not hasattr(self, '_llm') or self._llm is None:
+            from .retriever import _build_ollama_llm
+            self._llm = _build_ollama_llm(self.cfg)
+
+        # Direct call to LLM
+        try:
+            response = self._llm(prompt)
+            return response
+        except Exception as e:
+            # print(f"[LLM] Error calling LLM: {e}")
+            raise
