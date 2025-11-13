@@ -79,6 +79,14 @@ class BM25SparseIndex:
         """
         items: [(chunk_id, text), ...]
         """
+        # Handle empty corpus gracefully
+        if not items:
+            self._id_list = []
+            self._bm25 = None
+            self._effective_backend = None
+            self._tokenized_corpus = None
+            return
+
         self._id_list = [cid for cid, _ in items]
         corpus = [txt if isinstance(txt, str) else str(txt) for _, txt in items]
 
@@ -159,6 +167,21 @@ class BM25SparseIndex:
         - rank_bm25: write tokenized_corpus.json + id_map.json
         """
         _ensure_dir(path)
+
+        # Handle empty index case
+        if self._bm25 is None or not self._id_list:
+            # Save minimal empty index marker
+            meta = {
+                "backend": self._effective_backend or self.backend,
+                "stopwords": self._stopwords if isinstance(self._stopwords, str) else "custom",
+                "empty": True,
+            }
+            with open(os.path.join(path, "meta.json"), "w", encoding="utf-8") as f:
+                json.dump(meta, f, ensure_ascii=False)
+            with open(os.path.join(path, "id_map.json"), "w", encoding="utf-8") as f:
+                json.dump([], f, ensure_ascii=False)
+            return
+
         # write meta for both
         meta = {
             "backend": self._effective_backend or self.backend,

@@ -2,66 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-
-
-## Ideas for new features
-- Add conversation-like feature so AI can read previous conversations to better understand user's need.  
-- Add a button for users to choose which model they want to use.  
-- Make a progress bar on frontend UI to help users understand the current stage.  
-- **Important:** Add limiter to pdf preload to avoid memory overflow.
-
-- **Query Type Detection:** Automatically classify user queries into "keyword-oriented" vs "semantic-oriented":  
-  - **Keyword-oriented** (common in lab workflows): short queries with rare tokens, units, chemical names, catalog IDs, temperatures, step numbers -> prioritize sparse keyword retriever, optionally enhanced with char n-gram to handle minor typos and underscore/hyphen differences.  
-  - **Semantic-oriented**: longer natural language questions, explanations, or vague requests -> prioritize dense/vector retrieval.  
-- **Hybrid Weighting:** Dynamically adjust sparse vs dense retrieval weights based on query type (e.g., 0.8 sparse / 0.2 dense for keyword queries; 0.3 sparse / 0.7 dense for semantic queries).  
-- **Sparse Retriever Upgrade:** Support dual backends - `bm25s` (fast, scalable) as default, with optional `rank_bm25` (plus and other variants) for experimentation; allow backend switching via config.  
-- **Character n-gram re-ranking:** Apply character n-gram scoring on sparse top-N candidates to improve recall on spelling variations, merged tokens, and special identifiers (e.g., `aa_inf3` vs `aainf3`).  
-
-
-**Net related Platform:**
-### Core components
-
-- **API - FastAPI (Python)**  
-  Public API for health, auth, query, streaming, files, conversations; plugs into existing RAG pipeline.
-
-- **Gateway - Node.js (TypeScript)**  
-  Single browser entry; login (JWT cookie), CORS, basic rate limiting, proxy to FastAPI, SSE pass-through, add security headers.
-
-- **Web - Next.js (TypeScript, responsive)**  
-  One codebase for **desktop / tablet / mobile**; login, chat UI (supports streaming), conversation list, source preview; optional PWA later.
-
-- **Admin - Streamlit (local only)**  
-  Internal console for dataset ingest, chunking, embedding, indexing, and basic ops; not exposed to the public internet.
-
-- **RAG Engine (Python)**  
-  Load -> split -> embed -> index -> retrieve -> answer; caches & indices live in local store.
-
-### Security & multi-user
-- Login required for query/stream/files/conversations (via **JWT cookie**).
-- Gateway-to-API shared key to prevent direct bypass.
-- User identity forwarded via headers; per-account history isolation.
-- **Per-user rate limiting / basic quotas** at the gateway.
-
-### Files & sources
-- Serve PDFs from a whitelisted data directory only.
-- Inline preview; clickable citations from the chat to open documents.
-
-### Streaming
-- Server-Sent Events for real-time tokens and finalization events.
-
-### Deployment (web hosting)
-- Target: **Linux server** (or **WSL2** during Windows development) with the same layout.
-- Optional reverse proxy (Nginx/Caddy) for single domain + HTTPS. Use **SSE-friendly** settings.
-- Process manager (systemd) to run web / gateway / api as services.
-
-
-**Dev Checklist**
-
-- add clear user db command and clear cookie
-
-- connect with the actual RAG pipeline
-
-
 ## [Unreleased]
 ### Added
 - Placeholder for upcoming features.
@@ -73,6 +13,189 @@ All notable changes to this project will be documented in this file.
 - Placeholder for upcoming bug fixes.
 
 ---
+
+## [0.2.49] - 2025-11-13
+### Added
+- Add `LICENSE`
+
+### Changed
+- Update `README.md` and `CHANGELOG.md` for clear instructions
+
+### Fixed
+- Fix some typo
+
+
+## [0.2.48] - 2025-11-12
+### Added
+- `build_prompt()` method in RAG pipeline to create structured prompts with supplemental page context
+- `ask_llm()` method for direct LLM calls with structured prompts
+
+### Changed
+- **Complete chat refactor**: replaced LangChain QA chains with structured prompts + direct LLM calls in both Streamlit app and API
+- Streamlit chat tab now uses `build_prompt()` and `ask_llm()` matching server implementation
+- Frontend SSE client enhanced to handle sources and metadata as separate events
+- Linux setup script now pins numpy and installs JAX with CUDA detection before other dependencies to prevent conflicts
+- Reduced verbose logging in API routers (commented out debug prints for cleaner output)
+
+### Fixed
+- Dependency conflicts between numpy, JAX, and other packages during installation
+
+
+## [0.2.47] - 2025-11-10
+### Changed
+- Right sidebar (share panel) width reduced from 320px to 240px with compact layout
+- Sidebar state now persists on desktop via localStorage while always resetting to closed on mobile
+- All user IDs normalized to number type for consistent comparison
+
+### Fixed
+- User messages incorrectly displaying as collaborator due to type mismatch in ID comparison
+- Sidebar flash/animation on page load by disabling transitions until user interaction
+- Hydration errors from server/client state mismatch during initial render
+
+
+## [0.2.46] - 2025-11-09
+### Changed
+- Made main page and login page fully responsive using fluid typography (clamp) for all screen sizes
+- Chat page optimized for mobile with overlay sidebar navigation and hamburger menu
+
+
+## [0.2.45] - 2025-11-09
+### Added
+- Auto-scroll to cited page: citation bubbles now include `#page=X` fragment to jump directly to the referenced page in browser PDF viewer
+- Path handling for nested file directories with wildcard routing support
+
+### Changed
+- Removed embedded PDF viewer/preview functionality - simplified to browser-native inline viewing
+- Updated file serving from `/files/document/*` to `/files/{file_path}/download` with path parameter support
+- Citation schema streamlined to minimal fields: `doc_id`, `title`, `source_url`, `page`, `snippet`, `mime_type`, `file_size`
+- File endpoint now uses `Content-Disposition: inline` by default for in-browser viewing
+- Gateway compression settings updated to exclude file downloads and SSE streams
+- Improved error handling in conversation and query endpoints with graceful fallbacks
+
+### Fixed
+- File path resolution for documents in subdirectories using multiple fallback strategies
+- Citation sources now properly initialize as empty arrays to prevent undefined errors
+- SSE client disconnect handling with proper cleanup and error recovery
+
+
+## [0.2.44] - 2025-11-08
+### Added
+- File serving endpoint (`/files/document/{file_path:path}`) with security checks to prevent path traversal
+- User attribution fields (`user_id`, `user_name`, `user_email`) in Message model for tracking authors
+- Gateway file proxy route (`/api/files/document/*`) for secure file access
+- Collaborator identification in chat UI with distinct styling for different users
+- Source document deduplication by filename in backend query processing
+
+### Changed
+- Bootstrap script now verifies dependencies instead of reinstalling on every run, improving startup time
+- Updated to Pydantic v2 compatibility using `model_dump()` instead of deprecated `dict()`
+- Enhanced source document handling with comprehensive error handling and graceful fallbacks
+- Message retrieval endpoint includes user info and parsed sources
+- Chat UI now uses bubble-style alignment (user right, others left) with color coding
+
+### Fixed
+- Gateway file routing by adding missing files router import and mount
+- File path handling with wildcard pattern for nested paths
+- Source JSON serialization for persisting citations across sessions
+- Source field preservation in polling and initial load logic
+
+
+## [0.2.43] - 2025-11-04
+### Changed
+- Rebranded application to "OHSUpath Reader".
+- Redesigned UI with modern gradient theme and enhanced animations.
+- Improved chat interface styling and interactions.
+
+### Fixed
+- Tab state and scroll position issues in sidebar and share panel toggle behavior.
+
+
+## [0.2.42] - 2025-11-01
+### Added
+- RAG Service Integration: Created `net/api/rag_service.py` as a singleton service wrapper for the RAG pipeline, providing document retrieval and query functionality with LLM support.
+- API Startup Initialization: Added FastAPI `@app.on_event("startup")` handler in `main.py` to initialize RAG service with config at application startup.
+- Source Document Streaming: Enhanced SSE streaming in `query.py` to emit source documents and metadata as separate events (sources, metadata) alongside text chunks.
+- Frontend Event Processing: Added multi-event SSE handling in `Client.tsx` to process sources and metadata events separately from text data.
+
+### Changed
+- Query Endpoint: Replaced echo response with actual RAG-powered AI responses using the integrated RAG service in `routers/query.py`.
+- Source Document Formatting: Enhanced source document metadata to include source file, page number, and content preview (first 200 chars) for frontend display.
+- Session Management: Refactored streaming persistence to use a new database session after stream completion to prevent SQLAlchemy DetachedInstanceError.
+- Error Handling: Improved error handling in chat client - replaced "info" role error messages with console.error logging for cleaner UI.
+- SSE Event Structure: Updated streaming to emit three event types: data (text chunks), sources (document references), and metadata (llm_enabled flag).
+
+### Fixed
+- Streaming State Management: Fixed streaming state cleanup by properly resetting `remoteStreaming` and `prevAssistantLenRef` on close and error events.
+- UI Jumps During Streaming: Prevented message replacement during active streams by adding conditional check in message update logic.
+- Database Session Errors: Resolved DetachedInstanceError when persisting assistant messages after streaming by creating fresh session.
+
+
+## [0.2.41] - 2025-11-01
+### Changed
+- Data Directory: Changed `data_dir` from `data/LabDocs` to `data` to scan entire data folder recursively, including all subdirectories.
+- Configuration: Updated config.yaml, config.py, rag/pipeline.py, and bootstrap/netstack.sh to use `data/` as root directory.
+- SentenceTransformer Loading: Updated model loading in `rag/embedders/st_multi_gpu.py` to explicitly specify `device="cpu"` to prevent meta-tensor issues.
+- minidata Directory: Completely removed `minidata/` folder and all references from codebase; project now uses only `data/` directory.
+
+### Fixed
+- BM25 Empty Index Error: Fixed `ValueError: max() arg is an empty sequence` when initializing BM25 sparse index with no documents by adding empty corpus handling in `rag/vectorstores/bm25_store.py`.
+- SentenceTransformer Meta Tensor Error: Fixed `NotImplementedError: Cannot copy out of meta tensor` by loading model with explicit device parameter.
+- Empty Index Persistence: Added graceful handling for saving empty BM25 indexes with proper metadata markers.
+
+
+## [0.2.40] - 2025-10-20
+### Changed
+- Simplified `run_app.sh` by removing redundant environment exports.
+- Improved SentenceTransformer model loading to avoid meta-tensor issues and ensure proper CPU fallback.
+- Cleaned up function naming inconsistencies in `app.py`.
+
+
+## [0.2.39] - 2025-10-19
+### Added
+- Progress bar: direct percentage calculation based on file count (current/total files) for smooth left-to-right progress.
+- Factory reset: simplified to delete `.rag_store/` and prompt user to restart app for clean GPU initialization.
+
+### Changed
+- Progress display: show only file counts (not chunk/doc/vector counts) for cleaner UI.
+- Progress bar calculation: removed phase weights, now pure file-based progress (e.g., 5000/10000 = 50%).
+- Factory reset button: renamed to "Factory Reset - Delete All Data" with clear restart instruction.
+- Config reload: now clears QA and index_bootstrapped flag to ensure fresh pipeline recreation.
+
+### Fixed
+- Progress bar jumping backwards: ensured monotonic increase by using file count directly across all phases.
+- Factory reset GPU issue: now properly deletes entire `.rag_store/` and instructs user to restart for clean state.
+- Phase display confusion: commit_done no longer shows chunk counts, uses cached file counts instead.
+- Hugging Face tokenizers warnings: added `TOKENIZERS_PARALLELISM=false` to suppress fork warnings.
+
+
+## [0.2.38] - 2025-10-19
+### Added
+- Streamlit UI: complete redesign of sidebar control panel with organized sections (Progress, Index Management, Configuration, System Info, Danger Zone).
+- Granular progress tracking: real-time counters for load/split/embed/commit phases with current/total/cached display.
+- Smart index optimization: fast-path check to skip unnecessary reindexing when no files changed.
+- Batched processing: configurable batch sizes for file loading, embedding, and vector commits to prevent memory overflow on large datasets.
+- Streamlit config generator in `run_app.sh`: auto-create `.streamlit/config.toml` to disable file watcher.
+- Lazy bootstrap: defer index loading until first query or manual refresh to speed up app startup.
+- UI throttling: limit progress updates to ~5 per second to prevent render overhead.
+
+### Changed
+- Linux/WSL2: switched multiprocessing start method to `fork` (set BEFORE imports in `app.py`) for improved stability and performance.
+- Index manager: added `file_batch_size`, `embed_batch_size`, `commit_batch_size` config options with batched pipeline processing.
+- PDF loader and chunker: proper multiprocessing pool cleanup with try/finally blocks; fallback to single-process on errors.
+- `bootstrap/linux/run_app.sh`: removed conservative parallelism limits (was 2 workers) to allow full CPU utilization; added Streamlit config setup.
+- Progress reporting: emit `{phase}_progress` events during load/split/embed/commit for granular UI updates.
+- Config defaults in `config.yaml`: added `manager.file_batch_size=500`, `embed_batch_size=1000`, `commit_batch_size=5000`.
+- Manifest loading: lightweight SQLite query at startup to display file count without full bootstrap.
+- `.gitignore`: added patterns for Streamlit config, web artifacts, database files, and env files.
+
+### Fixed
+- Eliminated Streamlit "filechanged error" by disabling file watcher via config to prevent dataclass hot-reload crashes.
+- Fixed "process forked after parallelism" warnings by enforcing fork mode at top of `app.py` before any module imports.
+- Memory overflow on large datasets: batched processing prevents loading entire dataset into memory at once.
+- Pool cleanup: proper `close()` and `join()` on all multiprocessing pools to prevent zombie processes.
+- UI freeze during indexing: throttled progress updates and deferred bootstrap improve responsiveness.
+- Slow startup time: lazy index loading and fast-path checks significantly reduce initial load time when index is already up to date.
+
 
 ## [0.2.37] - 2025-10-06
 ### Added

@@ -156,7 +156,7 @@ def _cfg_get(obj: Any, name: str, default: Any = None) -> Any:
 
 class IndexManager:
     """
-    Orchestrates scan -> diff -> load -> split -> embed(+cache) -> (LOCK) delete/upsert/persist -> manifest -> journal.
+    Orchestrates scan → diff → load → split → embed(+cache) → (LOCK) delete/upsert/persist → manifest → journal.
     Heavy work (I/O & compute) happens OUTSIDE the lock; only mutations are locked.
     """
 
@@ -271,117 +271,248 @@ class IndexManager:
             # 3) delete set (by file path)
             rm_paths: Set[str] = {f.path for f in d.removed} | {new.path for _, new in d.modified}
 
-            # 4) load new/modified (outside lock)
+            # 4) load/split/embed/commit in batches to prevent memory overflow with large datasets
             add_paths: List[str] = [f.path for f in d.added] + [new.path for _, new in d.modified]
-            _report("load_start", total=len(add_paths))
-            docs: List[Document] = []
-            if add_paths:
-                if hasattr(self.loader, "load_many_parallel"):
-                    docs = self.loader.load_many_parallel(add_paths)
-                else:
-                    for p in add_paths:
-                        docs.extend(self.loader.load(p))
-            _report("load_done", docs=len(docs))
 
-            # 5) split (outside lock)
-            _report("split_start", total=len(docs))
-            chunks: List[Chunk] = self.chunker.split(docs) if docs else []
-            _report("split_done", chunks=len(chunks))
+            # CRITICAL: For large datasets, process in file batches to prevent WSL disconnect
+            # Batch size: process N files at a time (load -> split -> embed -> commit)
+            file_batch_size = int(_cfg_get(_cfg_get(self.cfg, "manager", None), "file_batch_size", 500))
 
-            # 6) embed (+ optional cache)
-            vecs: List[List[float]] = []
-            if chunks:
-                _report("embed_start", total=len(chunks))
-                model_name = getattr(self.embedder, "model_name", type(self.embedder).__name__)
-                # expected dim: cfg.embedding.embedding_dim > embedder.embedding_dim > None
-                embedding_cfg = _cfg_get(self.cfg, "embedding", None)
-                expected_dim = _cfg_get(embedding_cfg, "embedding_dim", None)
-                if expected_dim is None:
-                    expected_dim = getattr(self.embedder, "embedding_dim", None)
-                normalize = bool(_cfg_get(getattr(self.embedder, "cfg", None), "normalize", False))
-
-                if enable_cache:
-                    keys = [_build_cache_key(c.content, model_name, normalize, expected_dim) for c in chunks]
-                    hits = cache.get_many(str(self.layout.embed_cache_db), keys)
-                    miss_idx = [i for i, k in enumerate(keys) if k not in hits]
-                    if miss_idx:
-                        miss_texts = [chunks[i].content for i in miss_idx]
-                        new_vecs = self.embedder.embed(miss_texts)
-                        if len(new_vecs) != len(miss_idx):
-                            raise ValueError(f"Embedder returned {len(new_vecs)} vectors for {len(miss_idx)} texts.")
-                        if expected_dim is not None and new_vecs and len(new_vecs[0]) != int(expected_dim):
-                            raise ValueError(f"Embedding dim mismatch: got {len(new_vecs[0])}, expected {expected_dim}")
-                        cache.put_many(
-                            str(self.layout.embed_cache_db),
-                            {keys[i]: new_vecs[j] for j, i in enumerate(miss_idx)},
-                        )
-                        for j, i in enumerate(miss_idx):
-                            hits[keys[i]] = new_vecs[j]
-                    vecs = [hits[k] for k in keys]
-                else:
-                    # no cache path
-                    texts = [c.content for c in chunks]
-                    vecs = self.embedder.embed(texts)
-                    if expected_dim is not None and vecs and len(vecs[0]) != int(expected_dim):
-                        raise ValueError(f"Embedding dim mismatch: got {len(vecs[0])}, expected {expected_dim}")
-                _report("embed_done", vectors=len(vecs))
-
-            # 7) commit stage (lock): delete -> upsert -> persist -> manifest
-            lock_cfg = _cfg_get(self.cfg, "lock", None)
-            lock_kwargs = dict(
-                timeout_s=float(_cfg_get(lock_cfg, "timeout_s", 30.0)),
-                backoff_initial_s=float(_cfg_get(lock_cfg, "backoff_initial_s", 0.001)),
-                backoff_max_s=float(_cfg_get(lock_cfg, "backoff_max_s", 0.05)),
-            )
-            _report("commit_start", delete=len(rm_paths), upsert=len(chunks))
-            with interprocess_lock(str(self.layout.lock_file), **lock_kwargs):
-                # delete by sources (prefer public API if present)
+            total_files = len(add_paths)
+            if total_files == 0:
+                # No files to process, skip to commit phase for deletions only
+                rm_paths: Set[str] = {f.path for f in d.removed} | {new.path for _, new in d.modified}
                 if rm_paths:
-                    if hasattr(self.index, "delete_by_sources"):
-                        self.index.delete_by_sources(rm_paths)
+                    lock_cfg = _cfg_get(self.cfg, "lock", None)
+                    lock_kwargs = dict(
+                        timeout_s=float(_cfg_get(lock_cfg, "timeout_s", 60.0)),
+                        backoff_initial_s=float(_cfg_get(lock_cfg, "backoff_initial_s", 0.001)),
+                        backoff_max_s=float(_cfg_get(lock_cfg, "backoff_max_s", 0.05)),
+                    )
+                    _report("commit_start", delete=len(rm_paths), upsert=0, total=0, current=0)
+                    with interprocess_lock(str(self.layout.lock_file), **lock_kwargs):
+                        if hasattr(self.index, "delete_by_sources"):
+                            self.index.delete_by_sources(rm_paths)
+                        else:
+                            to_delete: List[str] = []
+                            ds = getattr(self.index, "_docstore", None)
+                            dd = getattr(ds, "_dict", None)
+                            if isinstance(dd, dict):
+                                for cid, doc in dd.items():
+                                    src = _meta_source(getattr(doc, "metadata", None))
+                                    if src in rm_paths:
+                                        to_delete.append(cid)
+                            if to_delete:
+                                self.index.delete_by_chunk_ids(to_delete)
+                        self.index.persist_atomic(str(self.layout.index_dir))
+                        save_bulk(str(self.layout.manifest_db), curr)
+                    _report("commit_done", current=0, total=0)
+            else:
+                # Process files in batches
+                needs_batching = total_files > file_batch_size
+
+                if needs_batching:
+                    import sys
+                    print(f"[index_manager] Large dataset ({total_files} files): processing in batches of {file_batch_size}", file=sys.stderr)
+
+                # Track progress across all phases
+                total_docs_processed = 0
+                total_chunks_processed = 0
+
+                # 3) delete set (by file path) - do once at start
+                rm_paths: Set[str] = {f.path for f in d.removed} | {new.path for _, new in d.modified}
+
+                # Delete phase (single lock at start)
+                if rm_paths:
+                    lock_cfg = _cfg_get(self.cfg, "lock", None)
+                    lock_kwargs = dict(
+                        timeout_s=float(_cfg_get(lock_cfg, "timeout_s", 60.0)),
+                        backoff_initial_s=float(_cfg_get(lock_cfg, "backoff_initial_s", 0.001)),
+                        backoff_max_s=float(_cfg_get(lock_cfg, "backoff_max_s", 0.05)),
+                    )
+                    with interprocess_lock(str(self.layout.lock_file), **lock_kwargs):
+                        if hasattr(self.index, "delete_by_sources"):
+                            self.index.delete_by_sources(rm_paths)
+                        else:
+                            to_delete: List[str] = []
+                            ds = getattr(self.index, "_docstore", None)
+                            dd = getattr(ds, "_dict", None)
+                            if isinstance(dd, dict):
+                                for cid, doc in dd.items():
+                                    src = _meta_source(getattr(doc, "metadata", None))
+                                    if src in rm_paths:
+                                        to_delete.append(cid)
+                            if to_delete:
+                                self.index.delete_by_chunk_ids(to_delete)
+
+                # Report phase starts ONCE before loop
+                _report("load_start", total=total_files, current=0)
+
+                # Process in file batches
+                for batch_idx in range(0, total_files, file_batch_size):
+                    batch_end = min(batch_idx + file_batch_size, total_files)
+                    batch_paths = add_paths[batch_idx:batch_end]
+
+                    # Log memory status for large datasets (helps debug WSL2 issues)
+                    if needs_batching and batch_idx % (file_batch_size * 5) == 0:
+                        try:
+                            import psutil
+                            import sys
+                            mem = psutil.virtual_memory()
+                            print(f"[index_manager] Batch {batch_idx // file_batch_size + 1}: Memory {mem.percent:.1f}% used ({mem.used // (1024**3):.1f}GB / {mem.total // (1024**3):.1f}GB)", file=sys.stderr)
+                        except Exception:
+                            pass
+
+                    # 4) load batch (outside lock)
+                    docs: List[Document] = []
+                    if hasattr(self.loader, "load_many_parallel"):
+                        docs = self.loader.load_many_parallel(batch_paths)
                     else:
-                        to_delete: List[str] = []
-                        ds = getattr(self.index, "_docstore", None)
-                        dd = getattr(ds, "_dict", None)
-                        if isinstance(dd, dict):
-                            for cid, doc in dd.items():
-                                src = _meta_source(getattr(doc, "metadata", None))
-                                if src in rm_paths:
-                                    to_delete.append(cid)
-                        if to_delete:
-                            self.index.delete_by_chunk_ids(to_delete)
+                        for p in batch_paths:
+                            docs.extend(self.loader.load(p))
+                    total_docs_processed += len(docs)
+                    _report("load_progress", current=batch_end, total=total_files)
 
-                # upsert
-                if chunks:
-                    if len(chunks) != len(vecs):
-                        raise ValueError(f"chunks ({len(chunks)}) and vectors ({len(vecs)}) length mismatch.")
-                    self.index.upsert(chunks, vecs)
+                    # 5) split batch (outside lock) - only report on first batch to transition phase
+                    if batch_idx == 0:
+                        _report("split_start", total=total_files, current=0)
+                    chunks: List[Chunk] = self.chunker.split(docs) if docs else []
+                    total_chunks_processed += len(chunks)
+                    _report("split_progress", current=batch_end, total=total_files)
 
-                # persist index + manifest
-                self.index.persist_atomic(str(self.layout.index_dir))
-                save_bulk(str(self.layout.manifest_db), curr)
+                    # 6) embed batch (+ optional cache) - only report on first batch to transition phase
+                    if batch_idx == 0:
+                        _report("embed_start", total=total_files, current=0)
 
-                # ---- (NEW) append sparse delta shard for added/modified chunks ----
-                try:
+                    vecs: List[List[float]] = []
                     if chunks:
-                        from .vectorstores.bm25_shards import BM25ShardSet
-                        sparse_cfg = _cfg_get(self.cfg, "sparse", None)
-                        backend = str(_cfg_get(sparse_cfg, "backend", "bm25s")).lower()
-                        shards_root = os.path.join(str(self.layout.index_dir), "sparse_shards")
+                        model_name = getattr(self.embedder, "model_name", type(self.embedder).__name__)
+                        embedding_cfg = _cfg_get(self.cfg, "embedding", None)
+                        expected_dim = _cfg_get(embedding_cfg, "embedding_dim", None)
+                        if expected_dim is None:
+                            expected_dim = getattr(self.embedder, "embedding_dim", None)
+                        normalize = bool(_cfg_get(getattr(self.embedder, "cfg", None), "normalize", False))
 
-                        def _fmt_item(c: Chunk):
-                            src = c.file_path or (c.meta or {}).get("source") or (c.meta or {}).get("file_path") or (c.meta or {}).get("path") or ""
-                            pg = c.page_no if c.page_no is not None else (c.meta or {}).get("page") or (c.meta or {}).get("page_number") or (c.meta or {}).get("page_no") or ""
-                            txt = f"{c.content}\n[SRC:{src} P:{pg}]"
-                            return (c.chunk_id, txt)
+                        if enable_cache:
+                            keys = [_build_cache_key(c.content, model_name, normalize, expected_dim) for c in chunks]
+                            hits = cache.get_many(str(self.layout.embed_cache_db), keys)
+                            miss_idx = [i for i, k in enumerate(keys) if k not in hits]
 
-                        items = [_fmt_item(c) for c in chunks]
-                        shardset = BM25ShardSet(shards_root, backend=backend)
-                        shardset.add_delta(items)
-                except Exception as _e:
-                    if enable_journal:
-                        journal_append(self.layout, "SPARSE_DELTA_ERROR", {"error": repr(_e)})
-            _report("commit_done")
+                            n_hits = len(chunks) - len(miss_idx)
+
+                            if miss_idx:
+                                # CRITICAL: Embed in sub-batches to prevent memory overflow
+                                embed_batch_size = int(_cfg_get(_cfg_get(self.cfg, "manager", None), "embed_batch_size", 1000))
+                                new_vecs_all = []
+
+                                for emb_idx in range(0, len(miss_idx), embed_batch_size):
+                                    emb_end = min(emb_idx + embed_batch_size, len(miss_idx))
+                                    emb_batch_idx = [miss_idx[i] for i in range(emb_idx, emb_end)]
+                                    miss_texts = [chunks[i].content for i in emb_batch_idx]
+                                    new_vecs = self.embedder.embed(miss_texts)
+                                    new_vecs_all.extend(new_vecs)
+
+                                if len(new_vecs_all) != len(miss_idx):
+                                    raise ValueError(f"Embedder returned {len(new_vecs_all)} vectors for {len(miss_idx)} texts.")
+                                if expected_dim is not None and new_vecs_all and len(new_vecs_all[0]) != int(expected_dim):
+                                    raise ValueError(f"Embedding dim mismatch: got {len(new_vecs_all[0])}, expected {expected_dim}")
+
+                                cache.put_many(
+                                    str(self.layout.embed_cache_db),
+                                    {keys[i]: new_vecs_all[j] for j, i in enumerate(miss_idx)},
+                                )
+                                for j, i in enumerate(miss_idx):
+                                    hits[keys[i]] = new_vecs_all[j]
+
+                            vecs = [hits[k] for k in keys]
+                        else:
+                            # no cache path - embed in sub-batches
+                            embed_batch_size = int(_cfg_get(_cfg_get(self.cfg, "manager", None), "embed_batch_size", 1000))
+                            vecs = []
+
+                            for emb_idx in range(0, len(chunks), embed_batch_size):
+                                emb_end = min(emb_idx + embed_batch_size, len(chunks))
+                                texts = [chunks[i].content for i in range(emb_idx, emb_end)]
+                                batch_vecs = self.embedder.embed(texts)
+                                if expected_dim is not None and batch_vecs and len(batch_vecs[0]) != int(expected_dim):
+                                    raise ValueError(f"Embedding dim mismatch: got {len(batch_vecs[0])}, expected {expected_dim}")
+                                vecs.extend(batch_vecs)
+
+                    # Report embed progress based on file progress (not chunk count which is unknown)
+                    _report("embed_progress", current=batch_end, total=total_files)
+
+                    # 7) commit batch (lock) - only report on first batch to transition phase
+                    if batch_idx == 0:
+                        _report("commit_start", delete=len(rm_paths), upsert=0, total=total_files, current=0)
+
+                    if chunks:
+                        lock_cfg = _cfg_get(self.cfg, "lock", None)
+                        lock_kwargs = dict(
+                            timeout_s=float(_cfg_get(lock_cfg, "timeout_s", 60.0)),
+                            backoff_initial_s=float(_cfg_get(lock_cfg, "backoff_initial_s", 0.001)),
+                            backoff_max_s=float(_cfg_get(lock_cfg, "backoff_max_s", 0.05)),
+                        )
+
+                        # Upsert chunks in sub-batches to avoid lock timeout
+                        upsert_batch_size = int(_cfg_get(_cfg_get(self.cfg, "manager", None), "commit_batch_size", 5000))
+
+                        for commit_idx in range(0, len(chunks), upsert_batch_size):
+                            commit_end = min(commit_idx + upsert_batch_size, len(chunks))
+                            commit_chunks = chunks[commit_idx:commit_end]
+                            commit_vecs = vecs[commit_idx:commit_end]
+
+                            with interprocess_lock(str(self.layout.lock_file), **lock_kwargs):
+                                self.index.upsert(commit_chunks, commit_vecs)
+
+                        # ---- (NEW) append sparse delta shard for this batch's chunks ----
+                        try:
+                            from .vectorstores.bm25_shards import BM25ShardSet
+                            sparse_cfg = _cfg_get(self.cfg, "sparse", None)
+                            backend = str(_cfg_get(sparse_cfg, "backend", "bm25s")).lower()
+                            shards_root = os.path.join(str(self.layout.index_dir), "sparse_shards")
+
+                            def _fmt_item(c: Chunk):
+                                src = c.file_path or (c.meta or {}).get("source") or (c.meta or {}).get("file_path") or (c.meta or {}).get("path") or ""
+                                pg = c.page_no if c.page_no is not None else (c.meta or {}).get("page") or (c.meta or {}).get("page_number") or (c.meta or {}).get("page_no") or ""
+                                txt = f"{c.content}\n[SRC:{src} P:{pg}]"
+                                return (c.chunk_id, txt)
+
+                            items = [_fmt_item(c) for c in chunks]
+                            shardset = BM25ShardSet(shards_root, backend=backend)
+                            shardset.add_delta(items)
+                        except Exception as _e:
+                            if enable_journal:
+                                journal_append(self.layout, "SPARSE_DELTA_ERROR", {"error": repr(_e)})
+
+                    # Report commit progress based on file progress
+                    _report("commit_progress", current=batch_end, total=total_files)
+
+                    # Clear batch from memory and force garbage collection for WSL2 stability
+                    docs = []
+                    chunks = []
+                    vecs = []
+
+                    # Force garbage collection after each file batch to prevent memory bloat
+                    import gc
+                    gc.collect()
+
+                # Report phase completions
+                _report("load_done", docs=total_docs_processed, current=total_files, total=total_files)
+                _report("split_done", chunks=total_chunks_processed, current=total_files, total=total_files)
+                _report("embed_done", vectors=total_chunks_processed, current=total_files, total=total_files)
+
+                # Final persist and manifest save
+                lock_cfg = _cfg_get(self.cfg, "lock", None)
+                lock_kwargs = dict(
+                    timeout_s=float(_cfg_get(lock_cfg, "timeout_s", 60.0)),
+                    backoff_initial_s=float(_cfg_get(lock_cfg, "backoff_initial_s", 0.001)),
+                    backoff_max_s=float(_cfg_get(lock_cfg, "backoff_max_s", 0.05)),
+                )
+                with interprocess_lock(str(self.layout.lock_file), **lock_kwargs):
+                    self.index.persist_atomic(str(self.layout.index_dir))
+                    save_bulk(str(self.layout.manifest_db), curr)
+
+                _report("commit_done", current=total_chunks_processed, total=total_chunks_processed)
 
             if enable_journal:
                 journal_append(

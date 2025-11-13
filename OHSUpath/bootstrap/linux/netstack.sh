@@ -143,7 +143,7 @@ cmd_bootstrap() {
   set_kv "$PY_ENV" "INTERNAL_SHARED_KEY" "$INTERNAL_KEY"
   ALLOW_OVERWRITE=$FORCE
   set_kv "$PY_ENV" "ALLOWED_ORIGINS" ""
-  set_kv "$PY_ENV" "DATA_DIR" "./minidata/LabDocs"
+  set_kv "$PY_ENV" "DATA_DIR" "./data"
 
   # Gateway env
   ALLOW_OVERWRITE=1
@@ -204,29 +204,35 @@ cmd_up() {
   [[ -f "${NET_DIR}/.env.api" && -f "${GW_DIR}/.env" && -f "${WEB_DIR}/.env.local" ]] || cmd_bootstrap
 
   need python3
+  need node
   need npm
 
-  if [[ ! -d "${PY_VENV}" ]]; then
-    echo "[info] creating venv at ${PY_VENV}"
-    python3 -m venv "${PY_VENV}"
-  fi
   # shellcheck disable=SC1091
   source "${PY_VENV}/bin/activate"
   echo "[check] python: $(python -V 2>&1)"
-  pip -q install --upgrade pip
-  [[ -f "${OH_DIR}/requirements.txt" ]] && pip -q install -r "${OH_DIR}/requirements.txt" || true
-  pip -q install fastapi uvicorn sqlmodel python-dotenv pydantic
+
+  # Verify Python dependencies are installed
+  if ! python -c "import fastapi, uvicorn, sqlmodel" 2>/dev/null; then
+    echo "[x] Python dependencies missing."
+    echo "    Run: make setup-machine"
+    exit 1
+  fi
 
   echo "[check] node: $(node -v 2>/dev/null || echo missing)"
   echo "[check] npm : $(npm -v 2>/dev/null || echo missing)"
 
-  pushd "${GW_DIR}" >/dev/null
-  if [[ -f package-lock.json ]]; then npm ci; else npm i; fi
-  popd >/dev/null
+  # Verify Node dependencies are installed
+  if [[ ! -d "${GW_DIR}/node_modules" ]]; then
+    echo "[x] Gateway dependencies missing at ${GW_DIR}/node_modules"
+    echo "    Run: make setup-machine"
+    exit 1
+  fi
 
-  pushd "${WEB_DIR}" >/dev/null
-  if [[ -f package-lock.json ]]; then npm ci; else npm i; fi
-  popd >/dev/null
+  if [[ ! -d "${WEB_DIR}/node_modules" ]]; then
+    echo "[x] Web dependencies missing at ${WEB_DIR}/node_modules"
+    echo "    Run: make setup-machine"
+    exit 1
+  fi
 
   local API_CMD GW_CMD WEB_CMD
   API_CMD="bash -lc 'cd ${OH_DIR} && source ${PY_VENV}/bin/activate && PYTHONPATH=${OH_DIR} uvicorn net.api.main:app --host 127.0.0.1 --port 8000 --reload --env-file ${NET_DIR}/.env.api 2>&1 | tee ${LOG_DIR}/api.log'"

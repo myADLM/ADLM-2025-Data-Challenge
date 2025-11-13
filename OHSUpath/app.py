@@ -1,7 +1,24 @@
 # app.py
 
 from __future__ import annotations
+
+# CRITICAL: Set environment variables and multiprocessing BEFORE any other imports
 import os
+import sys
+
+# Set essential environment variables before importing any other modules
+# These suppress warnings and configure GPU usage
+os.environ.setdefault("CUDA_VISIBLE_DEVICES", "0")
+os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+# Use fork on Linux/WSL2 for performance (faster than spawn, shares memory efficiently)
+import multiprocessing as _mp
+if sys.platform.startswith("linux"):
+    try:
+        _mp.set_start_method("fork", force=False)
+    except RuntimeError:
+        pass  # Already set
 import streamlit as st
 import shutil
 from pathlib import Path
@@ -10,7 +27,7 @@ from sqlalchemy import desc
 from sqlmodel import Session, select, SQLModel
 from config import load_config
 from rag.pipeline import RagPipeline
-import sys, pathlib
+import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
@@ -61,12 +78,12 @@ class PromptSpy(BaseCallbackHandler):
         self.chat_prompts: list[list[object]] = []
         self.params: dict = {}
 
-    def on_llm_start(self, serialized, prompts, **kwargs):
+    def on_llm_start(self, _serialized, prompts, **kwargs):
         if prompts:
             self.text_prompts.extend(prompts)
         self.params = kwargs.get("invocation_params", self.params)
 
-    def on_chat_model_start(self, serialized, messages, **kwargs):
+    def on_chat_model_start(self, _serialized, messages, **kwargs):
         if messages:
             self.chat_prompts.extend(messages)
         self.params = kwargs.get("invocation_params", self.params)
@@ -177,6 +194,11 @@ def ensure_index(
     }
     seen: set[str] = set()
 
+    # Throttle UI updates to ~5 updates/sec (every 200ms)
+    import time
+    last_update_time = {"time": 0}
+    UPDATE_INTERVAL = 0.2
+
     # If rerun occurs within one session, we recompute pct from seen for simplicity
     def pct() -> int:
         return int(sum(weights[p] for p in seen if p in weights) * 100)
@@ -200,7 +222,46 @@ def ensure_index(
     if force_clean:
         push(f"[info] Rebuilding index under: {pipe.layout.index_dir.parent}")
 
-    # bootstrap
+    # Fast path: if not force_clean, check if we can skip reindexing entirely
+    if not force_clean:
+        try:
+            from rag.manifest_sqlite import load_all
+            prev = load_all(str(pipe.layout.manifest_db))
+
+            # Quick check: discover files and compare counts
+            from rag.loaders.pdf_loader_opt import PdfLoaderOptimized
+            if hasattr(pipe.loader, 'discover'):
+                current_files = list(pipe.loader.discover(pipe.layout.data_dir, pipe.layout.exts))
+            else:
+                current_files = []
+
+            # If counts match, do a quick hash check on a sample
+            if len(current_files) == len(prev):
+                # Bootstrap to load index
+                prev = pipe.bootstrap()
+
+                # Now check if files actually changed
+                push("[info] Checking for changes...")
+                from rag.index_manager import _diff_files_lazy
+                m_cfg = pipe.cfg.manager if hasattr(pipe.cfg, 'manager') else None
+                hash_buf = int(m_cfg.hash_block_bytes if m_cfg and hasattr(m_cfg, 'hash_block_bytes') else 1024 * 1024)
+                curr, diff_result = _diff_files_lazy(current_files, prev, hash_buf=hash_buf)
+
+                # If nothing changed, skip directly to complete
+                if not diff_result.added and not diff_result.removed and not diff_result.modified:
+                    push("[OK] No changes detected. Index is up to date.")
+                    st.session_state.index_phase = "complete"
+                    st.session_state.index_pct = 100
+                    if phase_ph:
+                        phase_ph.markdown("**complete**")
+                    bar_handle.progress(100)
+                    st.session_state.index_summary = f"Index up to date. {len(prev)} files in manifest."
+                    return prev
+        except Exception as e:
+            # Fall back to normal path if fast check fails
+            push(f"[info] Fast check failed ({repr(e)}), running full refresh...")
+
+    # Normal path: bootstrap and run full pipeline
     try:
         prev = pipe.bootstrap()
     except RuntimeError as e:
@@ -224,24 +285,107 @@ def ensure_index(
             """
             Progress event contract (emitted by IndexManager.refresh):
             - '{phase}_start' -> phase text + log
+            - '{phase}_progress' -> update current/total display
             - '{phase}_done'  -> log + bump progress
             - 'discover'/'diff' -> treat as completed phases
             - 'refresh_error' -> error log
             """
-            base = event.replace("_start", "").replace("_done", "")
+            base = event.replace("_start", "").replace("_done", "").replace("_progress", "")
+
             if event.endswith("_start"):
+                # Phase start: set phase label and initialize counters
                 st.session_state.index_phase = label_map.get(base, base)
+                current = kw.get("current", 0)
+                total = kw.get("total", 0)
+                st.session_state[f"{base}_current"] = current
+                st.session_state[f"{base}_total"] = total
+
+                # Update phase label with counts if available
+                if total > 0:
+                    phase_text = f"{st.session_state.index_phase} ({current:,} / {total:,})"
+                    # Update progress bar at phase start
+                    if current > 0:
+                        start_pct = int((current / total) * 100)
+                        st.session_state.index_pct = start_pct
+                        bar_handle.progress(start_pct)
+                else:
+                    phase_text = st.session_state.index_phase
+
                 if phase_ph:
-                    phase_ph.markdown(f"**{st.session_state.index_phase}**")
+                    phase_ph.markdown(f"**{phase_text}**")
                 push(f"- {base}... {kw}")
+
+            elif event.endswith("_progress"):
+                # Granular progress update: update current/total display
+                current = kw.get("current", 0)
+                total = kw.get("total", 0)
+                cached = kw.get("cached", 0)
+
+                # Always update session state (this is the source of truth)
+                st.session_state[f"{base}_current"] = current
+                st.session_state[f"{base}_total"] = total
+                if cached > 0:
+                    st.session_state[f"{base}_cached"] = cached
+
+                # Throttle UI updates to ~10 updates/sec based on wall-clock time
+                current_time = time.time()
+                time_since_last = current_time - last_update_time["time"]
+                is_final = (current == total and total > 0)
+
+                # Update UI if: enough time passed OR it's the final update
+                if time_since_last >= UPDATE_INTERVAL or is_final:
+                    last_update_time["time"] = current_time
+
+                    # Read current state (may have advanced since this callback was queued)
+                    display_current = st.session_state.get(f"{base}_current", current)
+                    display_total = st.session_state.get(f"{base}_total", total)
+
+                    # Build progress text - show file counts (current/total are already file counts)
+                    if display_total > 0:
+                        phase_text = f"{label_map.get(base, base)} ({display_current:,} / {display_total:,})"
+                    else:
+                        phase_text = label_map.get(base, base)
+
+                    if phase_ph:
+                        phase_ph.markdown(f"**{phase_text}**")
+
+                    # Update progress bar - based purely on file count progress
+                    # Simple: current files / total files = percentage
+                    if display_total > 0:
+                        # Direct percentage: files processed / total files
+                        total_pct = int((display_current / display_total) * 100)
+                        total_pct = min(total_pct, 99)  # Cap at 99% until complete
+
+                        st.session_state.index_pct = total_pct
+                        bar_handle.progress(total_pct)
+
             elif event.endswith("_done"):
+                # Phase complete: use cached file counts from session state
+                # (event may contain chunk counts, but we want file counts for display)
+                current = st.session_state.get(f"{base}_current", 0)
+                total = st.session_state.get(f"{base}_total", 0)
+
+                # Update final phase text and progress bar
+                if total > 0:
+                    phase_text = f"{label_map.get(base, base)} ({current:,} / {total:,})"
+                    if phase_ph:
+                        phase_ph.markdown(f"**{phase_text}**")
+                    # Update progress bar based on file count
+                    done_pct = int((current / total) * 100)
+                    done_pct = min(done_pct, 99)  # Cap at 99% until all phases complete
+                    st.session_state.index_pct = done_pct
+                    bar_handle.progress(done_pct)
+
                 push(f"[OK] {base} done. {kw}")
-                bump(base)
+                seen.add(base)  # Mark phase as complete
+
             elif event in ("discover", "diff"):
                 push(f"[OK] {base}. {kw}")
                 bump(base)
+
             elif event == "refresh_error":
                 push(f"[ERROR] {kw.get('error')}")
+
             else:
                 push(f"- {event}: {kw}")
 
@@ -273,7 +417,7 @@ def clear_project_artifacts(pipe: RagPipeline):
         looks like a vector-store directory)
       - Top-level .pytest_cache
       - All __pycache__ directories and *.pyc files
-    Does NOT touch: source code, data/, minidata/, config
+    Does NOT touch: source code, data/, config
     """
     root = Path(__file__).resolve().parent
 
@@ -344,18 +488,34 @@ if "pipe" not in st.session_state:
     st.session_state.pipe = RagPipeline(st.session_state.cfg)
 if "qa" not in st.session_state:
     st.session_state.qa = None
+# --- manifest_count (lightweight) ---
 if "manifest_count" not in st.session_state:
-    st.session_state.manifest_count = 0
+    try:
+        import sqlite3
+        manifest_path = str(st.session_state.pipe.layout.manifest_db)
+        if Path(manifest_path).exists():
+            with sqlite3.connect(manifest_path) as conn:
+                cur = conn.execute("SELECT COUNT(1) FROM manifest")
+                row = cur.fetchone()
+                st.session_state.manifest_count = (row[0] if row else 0) or 0
+        else:
+            st.session_state.manifest_count = 0
+    except Exception:
+        st.session_state.manifest_count = 0
 if "show_llm_payload" not in st.session_state:
     st.session_state.show_llm_payload = True
 if "prog_open" not in st.session_state:
     st.session_state.prog_open = False
-
-# Sidebar progress state
-st.session_state.setdefault("index_phase", "idle")
+# persisted progress state defaults
+# Set initial phase based on whether indexing is needed
+if st.session_state.manifest_count == 0:
+    st.session_state.setdefault("index_phase", "starting...")
+else:
+    st.session_state.setdefault("index_phase", "idle")
 st.session_state.setdefault("index_pct", 0)
 st.session_state.setdefault("index_logs", [])
 st.session_state.setdefault("index_summary", "")
+st.session_state.setdefault("config_msg", "")
 
 cfg = st.session_state.cfg
 pipe = st.session_state.pipe
@@ -545,109 +705,175 @@ def admin_logins():
 # Sidebar: Progress, Settings, Info
 # ------------------------------------------------------------------------------
 with st.sidebar:
-    # Progress card
+    # === TITLE ===
+    st.markdown("### Control Panel")
+
+    # === 1. PROGRESS TRACKING ===
     prog_card = st.container(border=True)
     with prog_card:
-        arrow = "v" if st.session_state.prog_open else ">"
-        label = f"{arrow} Progress"
-        if st.button(label, key="prog_toggle", width="stretch"):
-            st.session_state.prog_open = not st.session_state.prog_open
-
+        # Current phase (placeholder) - always visible
         phase_ph = st.empty()
         phase_ph.markdown(f"**{st.session_state.index_phase}**")
 
+        # Overall progress bar - always visible
         bar_ph = st.progress(st.session_state.index_pct)
 
+        # Toggle button for detailed logs
+        if st.button("Show Details" if not st.session_state.prog_open else "Hide Details",
+                     key="prog_toggle", use_container_width=True):
+            st.session_state.prog_open = not st.session_state.prog_open
+            st.rerun()
+
+        # Detailed logs - only visible when expanded
         log_ph = None
         if st.session_state.prog_open:
-            st.caption("Details")
+            st.caption("Detailed Logs")
             log_ph = st.empty()
             log_ph.text("\n".join(st.session_state.index_logs[-400:]))
 
-    # Settings card
-    set_card = st.container(border=True)
-    with set_card:
-        st.markdown("**Settings**")
-        if st.session_state.index_summary:
-            st.info(st.session_state.index_summary)
-        st.text_input("config.yaml path", key="yaml_path")
-        st.checkbox("Use YAML (else: defaults + ENV only)", key="use_yaml")
-        st.checkbox("Show LLM request (prompt + context)", key="show_llm_payload")
-        st.checkbox("Force retrieval-only (skip LLM)", key="force_ro")
+    # === 2. INDEX MANAGEMENT ===
+    index_card = st.container(border=True)
+    with index_card:
+        st.markdown("### Index Management")
 
-        colA, colB = st.columns(2)
-        if colA.button("Reload config"):
-            st.session_state.cfg = load_config(
-                yaml_path=st.session_state.yaml_path, use_yaml=st.session_state.use_yaml
-            )
-            st.session_state.pipe = RagPipeline(st.session_state.cfg)
-            st.success(
-                "Config reloaded. If you changed embedding dim/metric, consider Reindex."
-            )
-
-        if colB.button("Reindex (clean)"):
-            ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-            c = ensure_index(st.session_state.pipe, force_clean=True, ui=ui_map)
-            st.session_state.manifest_count = len(c or [])
-            st.success(
-                f"Reindex done. {st.session_state.manifest_count} files indexed."
-            )
-
-        if st.button("Refresh (scan changes)"):
+        # Quick action buttons
+        col1, col2 = st.columns(2)
+        if col1.button("Refresh", help="Scan for changes and update index", use_container_width=True):
+            # Clear previous logs before starting new operation
+            st.session_state.index_logs = []
+            st.session_state.index_phase = "starting..."
+            st.session_state.index_pct = 0
             ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
             c = ensure_index(st.session_state.pipe, force_clean=False, ui=ui_map)
             st.session_state.manifest_count = len(c or [])
-            st.success(
-                f"Refresh done. {st.session_state.manifest_count} files in manifest."
-            )
+            st.session_state.index_summary = f"Refresh complete. {st.session_state.manifest_count} files in manifest."
 
-        with st.container(border=True):
-            st.markdown("### Factory Reset (restore to default state)")
+        if col2.button("Rebuild", help="Clean rebuild of entire index", use_container_width=True):
+            # Clear previous logs before starting new operation
+            st.session_state.index_logs = []
+            st.session_state.index_phase = "starting..."
+            st.session_state.index_pct = 0
+            ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
+            c = ensure_index(st.session_state.pipe, force_clean=True, ui=ui_map)
+            st.session_state.manifest_count = len(c or [])
+            st.session_state.index_summary = f"Rebuild complete. {st.session_state.manifest_count} files indexed."
+
+        # Status summary (appears inside Index Management card) - always visible
+        status_ph = st.empty()
+        if st.session_state.index_summary:
+            status_ph.info(st.session_state.index_summary)
+
+    # === 3. CONFIGURATION ===
+    config_card = st.container(border=True)
+    with config_card:
+        st.markdown("### Configuration")
+
+        # Config file settings
+        with st.expander("Config File", expanded=False):
+            st.text_input("config.yaml path", key="yaml_path", help="Path to configuration file")
+            st.checkbox("Use YAML config", key="use_yaml", help="Use YAML file (else: ENV + defaults)")
+
+            if st.button("Reload Config", use_container_width=True):
+                st.session_state.cfg = load_config(
+                    yaml_path=st.session_state.yaml_path,
+                    use_yaml=st.session_state.use_yaml,
+                )
+                st.session_state.pipe = RagPipeline(st.session_state.cfg)
+                # Clear QA and bootstrapped flag to force recreation
+                st.session_state.qa = None
+                st.session_state.index_bootstrapped = False
+                st.session_state.config_msg = "Config reloaded. Rebuild to use new settings."
+
+            # Config status placeholder (appears BELOW the button inside expander)
+            config_status_ph = st.empty()
+            if st.session_state.get("config_msg"):
+                config_status_ph.success(st.session_state.config_msg)
+
+        # Display options
+        st.markdown("**Display Options**")
+        st.checkbox("Show LLM prompt & context", key="show_llm_payload", help="Display full LLM request details")
+        st.checkbox("Retrieval-only mode", key="force_ro", help="Skip LLM, only retrieve documents")
+
+    # === 4. SYSTEM INFO ===
+    info_card = st.container(border=True)
+    with info_card:
+        st.markdown("### System Info")
+        st.caption(f"**Store:** `{st.session_state.pipe.layout.index_dir.parent}`")
+        st.caption(f"**Index:** `{st.session_state.pipe.layout.index_dir}`")
+        st.caption(f"**Manifest:** `{st.session_state.pipe.layout.manifest_db}`")
+        st.caption(f"**Files:** {st.session_state.manifest_count}")
+
+    # === 5. DANGER ZONE ===
+    danger_card = st.container(border=True)
+    with danger_card:
+        st.markdown("### Danger Zone")
+
+        # Danger zone status placeholder (appears inside Danger Zone card)
+        danger_status_ph = st.empty()
+
+        with st.expander("Factory Reset", expanded=False):
             st.warning(
-                "This will restore the app to its **factory state**.\n\n"
-                "**It will permanently delete:** all trained data on this device.\n\n"
-                "**It will NOT delete or change:** source PDFs under `data/` or `minidata/`,`config file`.\n\n"
-                "Rebuilding the index may take time. **This action cannot be undone.**"
+                "**This will restore the app to factory state.**\n\n"
+                "Deletes: all indexed data, cache, embeddings (`.rag_store/`)\n"
+                "Keeps: source PDFs, config files\n\n"
+                "**You must restart the app after factory reset.** Cannot be undone."
             )
             confirm = st.checkbox(
                 "I understand and want to perform a factory reset.",
                 key="confirm_full_clean",
             )
 
+            # Error/success placeholder inside expander
+            reset_msg_ph = st.empty()
+
             if st.button(
-                "Factory Reset - delete and rebuild",
+                "Factory Reset - Delete All Data",
                 type="primary",
                 width="stretch",
                 key="btn_full_clean",
             ):
                 if not confirm:
-                    st.error("Please tick the confirmation box above.")
+                    reset_msg_ph.error("Please tick the confirmation box above to confirm.")
                 else:
-                    with st.spinner("Processing..."):
-                        ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-                        clear_project_artifacts(st.session_state.pipe)
-                        c = ensure_index(
-                            st.session_state.pipe, force_clean=False, ui=ui_map
-                        )
-                        st.session_state.manifest_count = len(c or [])
-                    st.success(
-                        f"Factory reset complete. {st.session_state.manifest_count} files indexed."
-                    )
+                    # Clear all RAG data - requires app restart for clean state
+                    with st.spinner("Deleting all indexed data..."):
+                        clear_index(st.session_state.pipe)
+                        # Also delete the entire .rag_store for full reset
+                        try:
+                            store_dir = Path(st.session_state.pipe.layout.index_dir).parent
+                            if store_dir.exists() and store_dir.name in {".rag_store", "rag_store"}:
+                                import shutil
+                                shutil.rmtree(store_dir, ignore_errors=True)
+                        except Exception as e:
+                            reset_msg_ph.warning(f"Partial cleanup: {repr(e)}")
 
-    # Info card
-    info_card = st.container(border=True)
-    with info_card:
-        st.markdown("**Info**")
-        store_dir = st.session_state.pipe.layout.index_dir.parent
-        st.caption(f"Store dir: `{store_dir}`")
-        st.caption(f"Index dir: `{st.session_state.pipe.layout.index_dir}`")
-        st.caption(f"Manifest: `{st.session_state.pipe.layout.manifest_db}`")
+                    reset_msg_ph.success("Factory reset complete. **Please restart the app** (stop and run `./run_app.sh` again) to reinitialize with clean state.")
 
-# First-time index refresh
-if st.session_state.manifest_count == 0:
-    ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
-    m = ensure_index(pipe, force_clean=False, ui=ui_map)
-    st.session_state.manifest_count = len(m or [])
+# ---- Ensure index is loaded/initialized (lazy) ----
+if "index_bootstrapped" not in st.session_state:
+    if st.session_state.manifest_count == 0:
+        # No index exists -> do a full indexing with UI
+        ui_map = {"phase": phase_ph, "bar": bar_ph, "log": log_ph}
+        m = ensure_index(pipe, force_clean=False, ui=ui_map)
+        st.session_state.manifest_count = len(m or [])
+        # Update status box if present
+        try:
+            status_ph.info(st.session_state.index_summary)
+        except Exception:
+            pass
+    else:
+        # Index exists -> do NOT call pipe.bootstrap() yet.
+        # Defer bootstrap until first Refresh/Rebuild or first user query.
+        st.session_state.index_phase = "idle"
+        st.session_state.index_pct = 0
+        st.session_state.index_summary = f"Index ready. {st.session_state.manifest_count} files in manifest."
+        try:
+            phase_ph.markdown("**idle**")
+            bar_ph.progress(0)
+            status_ph.info(st.session_state.index_summary)
+        except Exception:
+            pass
+    st.session_state.index_bootstrapped = True
 
 
 # ------------------------------------------------------------------------------
@@ -667,19 +893,27 @@ with tab_audit:
     admin_logins()
 
 with tab_chat:
-    # Build and memoize QA chain
-    def build_qa_if_needed():
-        if st.session_state.qa is not None:
-            return st.session_state.qa
-        qa_ = pipe.build_qa()
-        st.session_state.qa = qa_
-        return qa_
+    # ========== OLD APPROACH (kept for rollback) ==========
+    # def build_qa_if_needed():
+    #     if st.session_state.qa is not None:
+    #         return st.session_state.qa
+    #     qa_ = pipe.build_qa()
+    #     st.session_state.qa = qa_
+    #     return qa_
+    #
+    # qa = build_qa_if_needed()
+    #
+    # llm_disabled = bool(st.session_state.get("force_ro")) or (
+    #     isinstance(qa, dict) and qa.get("llm") == "disabled"
+    # )
+    # ========== END OLD APPROACH ==========
 
-    qa = build_qa_if_needed()
+    # NEW APPROACH: Use structured prompt + direct LLM call (same as server)
+    # Check if LLM is disabled: either checkbox is checked OR config has llm.enabled=false
+    llm_cfg = getattr(cfg, "llm", None)
+    llm_enabled_in_config = bool(getattr(llm_cfg, "enabled", True)) if llm_cfg else True
+    llm_disabled = bool(st.session_state.get("force_ro")) or not llm_enabled_in_config
 
-    llm_disabled = bool(st.session_state.get("force_ro")) or (
-        isinstance(qa, dict) and qa.get("llm") == "disabled"
-    )
     if llm_disabled:
         st.info("LLM disabled (config: `llm.enabled=false`). Retrieval-only mode.")
 
@@ -690,9 +924,9 @@ with tab_chat:
                 # Retrieve first for instant feedback
                 retriever = pipe.serve()
                 try:
-                    docs = retriever.invoke(query)  # new interface
+                    docs = retriever.invoke(query)
                 except TypeError:
-                    docs = retriever.get_relevant_documents(query)  # legacy interface
+                    docs = retriever.get_relevant_documents(query)
                 docs = docs or []
                 status.write(f"Retrieved {len(docs)} chunk(s).")
 
@@ -711,60 +945,117 @@ with tab_chat:
                             text = d.page_content or ""
                             st.write(text[:600] + ("..." if len(text) > 600 else ""))
                             st.markdown("---")
-                    raise SystemExit  # normal early return
+                    raise SystemExit
 
-                # Call LLM
+                # ========== NEW APPROACH: Structured prompt + <think> parsing ==========
+                # Build structured prompt using the same method as the server
+                status.update(label="Building prompt...", state="running")
+                prompt_text, used_docs, idx_map = pipe.build_prompt(query, docs)
+
+                # Call LLM directly
                 status.update(label="Calling LLM...", state="running")
-                spy = PromptSpy()
-                try:
-                    res = qa.invoke(
-                        {"query": query}, config={"callbacks": [spy]}
-                    )  # new interface
-                except TypeError:
-                    res = qa({"query": query}, callbacks=[spy])  # legacy interface
+                raw_response = pipe.ask_llm(prompt_text)
 
-                # Normalize variants
-                if isinstance(res, dict):
-                    answer_text = (
-                        res.get("result")
-                        or res.get("answer")
-                        or res.get("output_text")
-                        or ""
-                    )
-                    src_docs = res.get("source_documents") or docs
-                elif isinstance(res, str):
-                    answer_text = res
-                    src_docs = docs
-                else:
-                    answer_text = str(res)
-                    src_docs = docs
+                # Parse <think> tags (same as server)
+                import re
+                thinks = re.findall(r"<think>(.*?)</think>", raw_response, flags=re.I | re.S)
+                reasoning = "\n\n---\n\n".join([t.strip() for t in thinks]) if thinks else ""
 
+                # Debug output (commented out for clean terminal)
+                # print(f"[DEBUG] Raw response length: {len(raw_response)}")
+                # print(f"[DEBUG] Found {len(thinks)} <think> blocks")
+                # if reasoning:
+                #     print(f"[DEBUG] Reasoning length: {len(reasoning)} chars")
+                # else:
+                #     print(f"[DEBUG] No reasoning found. Checking for <think> in raw response:")
+                #     if "<think>" in raw_response.lower():
+                #         print(f"[DEBUG] WARNING: <think> found in raw response but regex didn't match!")
+                #         # Show first 500 chars of raw response for inspection
+                #         print(f"[DEBUG] Raw response preview: {raw_response[:500]}")
+
+                # Remove <think> tags from answer
+                answer_text = re.sub(r"</?think>", "", raw_response, flags=re.I).strip()
+
+                # Display answer
                 st.subheader("Answer")
                 st.write(answer_text if answer_text.strip() else "_(empty answer)_")
 
-                if st.session_state.show_llm_payload:
-                    payload = (
-                        res
-                        if isinstance(res, dict)
-                        else {
-                            "result": answer_text,
-                            "source_documents": src_docs,
-                        }
-                    )
-                    render_prompt_spy(spy, payload)
+                # Display reasoning if available
+                if reasoning:
+                    with st.expander("Model Reasoning (from <think> tags)", expanded=False):
+                        st.code(reasoning, language=None)
 
-                if src_docs:
+                # Display the structured prompt that was sent to LLM
+                if st.session_state.show_llm_payload:
+                    with st.expander("Structured Prompt Sent to LLM", expanded=False):
+                        st.code(prompt_text, language="markdown")
+                        st.markdown(f"**Prompt length:** {len(prompt_text)} characters")
+                        st.markdown(f"**Top docs:** {len(used_docs)}")
+                        st.markdown(f"**Index map:** {len(idx_map)} chunks")
+
+                # Display sources
+                if used_docs:
                     st.subheader("Sources")
-                    for i, d in enumerate(src_docs[:5], 1):
+                    for i, d in enumerate(used_docs[:5], 1):
                         src = d.metadata.get("source")
                         page = d.metadata.get("page_number", d.metadata.get("page"))
                         st.markdown(f"**{i}.** `{src}` (page {page})")
+                # ========== END NEW APPROACH ==========
+
+                # ========== OLD APPROACH (kept for rollback) ==========
+                # # Call LLM using LangChain QA chain
+                # status.update(label="Calling LLM...", state="running")
+                # spy = PromptSpy()
+                # try:
+                #     res = qa.invoke(
+                #         {"query": query}, config={"callbacks": [spy]}
+                #     )
+                # except TypeError:
+                #     res = qa({"query": query}, callbacks=[spy])
+                #
+                # # Normalize variants
+                # if isinstance(res, dict):
+                #     answer_text = (
+                #         res.get("result")
+                #         or res.get("answer")
+                #         or res.get("output_text")
+                #         or ""
+                #     )
+                #     src_docs = res.get("source_documents") or docs
+                # elif isinstance(res, str):
+                #     answer_text = res
+                #     src_docs = docs
+                # else:
+                #     answer_text = str(res)
+                #     src_docs = docs
+                #
+                # st.subheader("Answer")
+                # st.write(answer_text if answer_text.strip() else "_(empty answer)_")
+                #
+                # if st.session_state.show_llm_payload:
+                #     payload = (
+                #         res
+                #         if isinstance(res, dict)
+                #         else {
+                #             "result": answer_text,
+                #             "source_documents": src_docs,
+                #         }
+                #     )
+                #     render_prompt_spy(spy, payload)
+                #
+                # if src_docs:
+                #     st.subheader("Sources")
+                #     for i, d in enumerate(src_docs[:5], 1):
+                #         src = d.metadata.get("source")
+                #         page = d.metadata.get("page_number", d.metadata.get("page"))
+                #         st.markdown(f"**{i}.** `{src}` (page {page})")
+                # ========== END OLD APPROACH ==========
 
                 status.update(label="Done", state="complete")
 
             except SystemExit:
                 pass
-            except Exception as e:  # pragma: no cover
+            except Exception as e:
                 status.update(label="Error while answering", state="error")
                 st.error(f"{type(e).__name__}: {e}")
                 st.exception(e)

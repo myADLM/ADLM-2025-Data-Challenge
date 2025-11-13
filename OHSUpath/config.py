@@ -77,7 +77,7 @@ class AppCfg:
 @dataclass
 class PathsCfg:
     # Locations of important files and directories
-    data_dir: str = "minidata/LabDocs"  # Set to minidata folder for faster initialization
+    data_dir: str = "data"  # Scans all subfolders recursively
     allowed_extensions: List[str] = field(default_factory=lambda: [".pdf"])
     pdf_text_mode: str = "text"  # "text" | "blocks" | "html"
     store_dir: str = ".rag_store"

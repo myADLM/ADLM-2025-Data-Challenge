@@ -12,12 +12,30 @@ import { config } from "./config.js";
 import { auth } from "./routes/auth.js";
 import conversations from "./routes/conversations.js";
 import query from "./routes/query.js";
+import { files } from "./routes/files.js";
 
 const app = express();
 
 // Base middleware
 app.use(helmet());
-app.use(compression());
+
+// Disable compression for SSE and file downloads to avoid chunking/flush issues
+const noCompress = (req: any, res: any) => {
+  const path = req?.path || "";
+  if (path.startsWith("/api/query/stream")) return true;
+  if (path.startsWith("/api/files/") && path.includes("/download")) return true;
+  const accept = req.headers?.accept || "";
+  if (accept.includes("text/event-stream")) return true;
+  return false;
+};
+
+app.use(compression({
+  filter: (req, res) => {
+    if (noCompress(req, res)) return false;
+    return compression.filter(req, res);
+  }
+}));
+
 app.use(cors({ origin: config.corsOrigin, credentials: true }));
 app.use(express.json({ limit: "1mb" }));
 app.use(cookieParser());
@@ -42,6 +60,7 @@ if (!disableDevRateLimit) {
 app.use("/api", auth);
 app.use("/api", conversations);
 app.use("/api", query); // proxy /api/query/stream
+app.use("/api", files); // proxy /api/files/document/*
 
 app.listen(config.port, () => {
   console.log(
