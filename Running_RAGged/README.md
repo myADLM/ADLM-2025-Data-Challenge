@@ -37,6 +37,8 @@ We tested a number of different embedding models and LLM combinations, and devel
 
 Using `QC-App.py`, we asked the same questions to each combination of embedding model and LLM and scored the results to determine the most accurate pairing which was Qwen3 as the embedding model OpenAI’s gpt-oss as the LLM.
 
+![Table showing QC scores of various embedding model and LLM combinations showing Qwen3 / gpt-oss performed the best](QC/image.png)
+
 ------------------------------------------------------------------------
 
 # Quick Start
