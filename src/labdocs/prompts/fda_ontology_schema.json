@@ -1,0 +1,73 @@
+{
+  "entity_types": [
+    "FDADocument",
+    "Device",
+    "Measurand",
+    "TestType",
+    "Manufacturer",
+    "ProductCode",
+    "Classification",
+    "RegulatorySection",
+    "Panel",
+    "IntendedUse",
+    "Indication",
+    "Reagent",
+    "Calibrator",
+    "Control",
+    "Specimen",
+    "Instrument",
+    "PredicateDevice",
+    "PerformanceCharacteristic",
+    "ClinicalStudy",
+    "Standard",
+    "GuidanceDocument"
+  ],
+  "relationship_types": [
+    "DOCUMENT_DESCRIBES_DEVICE",
+    "DEVICE_HAS_MEASURAND",
+    "DEVICE_USES_TEST_TYPE",
+    "DEVICE_MANUFACTURED_BY",
+    "DEVICE_HAS_PRODUCT_CODE",
+    "DEVICE_HAS_CLASSIFICATION",
+    "DEVICE_REGULATED_BY_SECTION",
+    "DEVICE_ASSIGNED_PANEL",
+    "DEVICE_HAS_INTENDED_USE",
+    "INTENDED_USE_HAS_INDICATION",
+    "DEVICE_CONTAINS_REAGENT",
+    "DEVICE_CONTAINS_CALIBRATOR",
+    "DEVICE_CONTAINS_CONTROL",
+    "DEVICE_ANALYZES_SPECIMEN",
+    "DEVICE_RUNS_ON_INSTRUMENT",
+    "DEVICE_COMPARED_TO_PREDICATE",
+    "DEVICE_HAS_PERFORMANCE",
+    "DEVICE_SUPPORTED_BY_STUDY",
+    "DEVICE_FOLLOWS_STANDARD",
+    "DEVICE_REFERENCES_GUIDANCE",
+    "PERFORMANCE_METRIC_VALUE"
+  ],
+  "rules": {
+    "notes": "FDA 510(k) regulatory documents describe medical devices. Extract regulatory metadata, device characteristics, and performance data. Include source_text for traceability. Use unmapped: true for non-standard terms."
+  },
+  "expected_jsonld": {
+    "@context": "https://example.org/fda-ontology/context.json",
+    "@graph": [
+      {
+        "@id": "FDA_DOC_K060818",
+        "@type": "FDADocument",
+        "title": "510(k) Determination - SHBG Assay",
+        "relations": [
+          { "predicate": "DOCUMENT_DESCRIBES_DEVICE", "object": "DEVICE_ARCHITECT_SHBG", "source_text": "..." }
+        ]
+      },
+      {
+        "@id": "DEVICE_ARCHITECT_SHBG",
+        "@type": "Device",
+        "title": "Architect SHBG Assay",
+        "relations": [
+          { "predicate": "DEVICE_HAS_MEASURAND", "object": "MEASURAND_SHBG", "source_text": "..." },
+          { "predicate": "DEVICE_MANUFACTURED_BY", "object": "MANUFACTURER_BIOKIT", "source_text": "..." }
+        ]
+      }
+    ]
+  }
+}
