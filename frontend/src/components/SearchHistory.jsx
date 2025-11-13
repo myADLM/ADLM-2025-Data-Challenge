@@ -27,7 +27,7 @@ export default function SearchHistory({ history, onSelect }) {
     >
       <h3 className="text-sm font-semibold text-gray-900 mb-4 flex items-center gap-2">
         <Clock className="h-4 w-4 text-blue-600" />
-        Recent Searches
+        Recent Queries
       </h3>
 
       <div className="space-y-2 max-h-80 overflow-y-auto">
@@ -46,7 +46,7 @@ export default function SearchHistory({ history, onSelect }) {
                   {item.query}
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
-                  {formatTime(item.timestamp)} • {item.sourceCount} sources
+                  {formatTime(item.timestamp)} • {item.entityCount || 0} entities
                 </p>
               </div>
             </div>
@@ -56,3 +56,4 @@ export default function SearchHistory({ history, onSelect }) {
     </motion.div>
   );
 }
+

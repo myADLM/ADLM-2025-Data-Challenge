@@ -1,7 +1,7 @@
 {
-  "name": "lab-knowledge-base",
+  "name": "lab-knowledge-base-kg",
   "version": "1.0.0",
-  "description": "Lab Knowledge Base - AI-powered documentation search",
+  "description": "Lab Knowledge Base - Knowledge Graph Query Interface",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,9 @@
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-markdown": "^9.0.1"
+    "react-force-graph-2d": "^1.29.0",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.0",

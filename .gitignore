@@ -3,6 +3,9 @@
 *.zip
 *.pdf
 data/
+graphdb/
+graphdb_unified/
+.load_status.json
 
 # Python
 __pycache__/
@@ -33,9 +36,13 @@ build/
 *.swp
 *.swo
 *~
+*.log
 
 # OS
 .DS_Store
 Thumbs.db
 uv.lock
 vectordb/
+
+# Utils (not versioned)
+utils/

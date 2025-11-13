@@ -1,61 +1,58 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { X, Download, Copy, Loader, AlertCircle } from 'lucide-react';
+import { X, Loader, AlertCircle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { parseMarkdownDocument, extractMetadataFields } from '../utils/markdown';
+import { fetchDocument as apiFetchDocument } from '../services/api';
 
-export default function DocumentViewer({ document, onClose }) {
+export default function DocumentViewer({ document, segment, onClose }) {
   const [content, setContent] = useState('');
   const [parsed, setParsed] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
-    fetchDocument();
+    if (document.content) {
+      // Document already has content loaded
+      setContent(document.content);
+      const parsed = parseMarkdownDocument(document.content);
+      setParsed(parsed);
+      setLoading(false);
+    } else {
+      // Need to fetch document
+      fetchDocument();
+    }
   }, [document]);
 
   const fetchDocument = async () => {
     setLoading(true);
     setError('');
     try {
-      const filename = encodeURIComponent(document.filename);
-      const response = await fetch(`/api/document/${filename}`);
-
-      if (!response.ok) {
-        throw new Error(`Failed to fetch document: ${response.statusText}`);
-      }
-
-      const data = await response.json();
+      const data = await apiFetchDocument(
+        document.filename,
+        document.filepath || '',
+        segment ? segment.text : ''
+      );
+      
       const fullContent = data.content || document.preview;
+      if (!fullContent) {
+        throw new Error('Document content is empty');
+      }
+      
       setContent(fullContent);
 
       // Parse markdown to extract metadata and clean content
       const parsed = parseMarkdownDocument(fullContent);
       setParsed(parsed);
     } catch (err) {
-      setError(err.message);
-      setContent(document.preview);
+      console.error('Error fetching document:', err);
+      setError(err.message || 'Failed to load document');
+      setContent(document.preview || '');
       setParsed(null);
     } finally {
       setLoading(false);
     }
-  };
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText(content);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  const handleDownload = () => {
-    const element = document.createElement('a');
-    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(content));
-    element.setAttribute('download', document.filename);
-    element.style.display = 'none';
-    document.body.appendChild(element);
-    element.click();
-    document.body.removeChild(element);
   };
 
   return (
@@ -75,9 +72,15 @@ export default function DocumentViewer({ document, onClose }) {
       >
         {/* Header */}
         <div className="flex items-center justify-between p-6 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-indigo-50">
-          <div className="flex-1">
-            <h2 className="text-2xl font-bold text-gray-900">{document.filename}</h2>
-            <p className="text-sm text-gray-600 mt-1 font-mono">{document.filepath}</p>
+          <div className="flex-1 min-w-0">
+            <h2 className="text-lg font-bold text-gray-900 truncate">{document.title || document.filename}</h2>
+            <p className="text-xs text-gray-600 mt-1 font-mono truncate">{document.filepath}</p>
+            {segment && (
+              <div className="mt-2 p-2 bg-yellow-50 border border-yellow-200 rounded text-xs text-yellow-800">
+                <p className="font-semibold mb-1">Related Segment:</p>
+                <p className="italic">{segment.text}</p>
+              </div>
+            )}
             {document.score && (
               <p className="text-xs text-blue-600 mt-2">
                 Relevance: {Math.round(document.score * 100)}%
@@ -89,24 +92,6 @@ export default function DocumentViewer({ document, onClose }) {
             className="p-2 hover:bg-gray-200 rounded-lg transition-colors ml-4 flex-shrink-0"
           >
             <X className="h-6 w-6 text-gray-600" />
-          </button>
-        </div>
-
-        {/* Toolbar */}
-        <div className="flex gap-2 px-6 py-4 bg-gray-50 border-b border-gray-200">
-          <button
-            onClick={handleCopy}
-            className="flex items-center gap-2 px-4 py-2 text-sm bg-white border border-gray-200 rounded-lg hover:bg-gray-100 transition-colors font-medium"
-          >
-            <Copy className="h-4 w-4" />
-            {copied ? 'Copied!' : 'Copy'}
-          </button>
-          <button
-            onClick={handleDownload}
-            className="flex items-center gap-2 px-4 py-2 text-sm bg-white border border-gray-200 rounded-lg hover:bg-gray-100 transition-colors font-medium"
-          >
-            <Download className="h-4 w-4" />
-            Download
           </button>
         </div>
 
@@ -154,6 +139,7 @@ export default function DocumentViewer({ document, onClose }) {
               {/* Markdown Content */}
               <div className="prose prose-sm max-w-none prose-headings:text-gray-900 prose-headings:font-bold prose-a:text-blue-600 prose-a:underline prose-code:bg-gray-100 prose-code:text-gray-900 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-ul:list-disc prose-ol:list-decimal">
                 <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
                   components={{
                     h1: ({node, ...props}) => <h1 className="text-2xl font-bold text-gray-900 mt-6 mb-4 border-b pb-2" {...props} />,
                     h2: ({node, ...props}) => <h2 className="text-xl font-bold text-gray-900 mt-6 mb-3 text-blue-700" {...props} />,
@@ -166,8 +152,10 @@ export default function DocumentViewer({ document, onClose }) {
                     code: ({node, inline, ...props}) => inline
                       ? <code className="bg-gray-100 px-2 py-1 rounded text-gray-900 font-mono text-sm" {...props} />
                       : <code className="block bg-gray-100 p-4 rounded-lg overflow-x-auto mb-3 text-gray-900 font-mono text-sm" {...props} />,
-                    table: ({node, ...props}) => <table className="w-full border-collapse mb-3" {...props} />,
+                    table: ({node, ...props}) => <table className="w-full border-collapse mb-4 mt-4 shadow-sm" {...props} />,
                     thead: ({node, ...props}) => <thead className="bg-gray-100 border-b-2 border-gray-300" {...props} />,
+                    tbody: ({node, ...props}) => <tbody className="bg-white" {...props} />,
+                    tr: ({node, ...props}) => <tr className="border-b border-gray-200 hover:bg-gray-50" {...props} />,
                     th: ({node, ...props}) => <th className="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-900" {...props} />,
                     td: ({node, ...props}) => <td className="border border-gray-300 px-4 py-2 text-gray-700" {...props} />,
                   }}
@@ -182,3 +170,4 @@ export default function DocumentViewer({ document, onClose }) {
     </motion.div>
   );
 }
+

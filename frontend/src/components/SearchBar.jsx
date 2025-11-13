@@ -12,7 +12,7 @@ export default function SearchBar({ query, setQuery, onSubmit, loading, onHistor
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ask about lab procedures, safety protocols, or equipment usage..."
+            placeholder="Ask about instruments, assays, devices, analytes, or procedures..."
             className="w-full py-4 pl-12 pr-4 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-gray-900 placeholder-gray-400"
             disabled={loading}
           />
@@ -39,11 +39,11 @@ export default function SearchBar({ query, setQuery, onSubmit, loading, onHistor
           {loading ? (
             <>
               <Loader className="h-5 w-5 animate-spin" />
-              <span className="hidden sm:inline">Searching...</span>
+              <span className="hidden sm:inline">Querying...</span>
             </>
           ) : (
             <>
-              <span>Search</span>
+              <span>Query KG</span>
               <Search className="h-4 w-4" />
             </>
           )}
@@ -52,3 +52,4 @@ export default function SearchBar({ query, setQuery, onSubmit, loading, onHistor
     </form>
   );
 }
+
