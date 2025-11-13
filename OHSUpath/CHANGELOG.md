@@ -14,6 +14,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.3.0] - 2025-11-13
+### Stable version release
+- **Third stable end-to-end release** See [README.md](README.md) for instructions.
+
+
 ## [0.2.49] - 2025-11-13
 ### Added
 - Add `LICENSE`
