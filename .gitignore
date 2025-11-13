@@ -1,3 +1,70 @@
 # data file extensions
 *.zip
 *.pdf
+
+
+# pycache file
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# models folders
+OHSUpath/models/**
+!OHSUpath/models/**/
+!OHSUpath/models/**/.gitkeep
+
+
+# data folders. data is for the given dataset.
+data/**
+!data/**/
+!data/**/.gitkeep
+
+
+# data folder. Use to test files in rag folder
+OHSUpath/rag/tests/**
+
+
+# RAG runtime store
+.rag_store/
+**/.rag_store/
+
+
+# Streamlit config
+.streamlit/
+**/.streamlit/
+
+
+# temp logs
+*.log
+
+
+# venv
+.venv311/
+
+
+# dev tool
+devtools/
+
+
+# net generated
+**/node_modules/
+OHSUpath/net/web/.next
+OHSUpath/net/web/*.tsbuildinfo
+
+
+# web user database
+OHSUpath/net/ohsupath.db*
+**/*.db
+**/*.db-wal
+**/*.db-shm
+
+
+# net env
+**/.env*
+!**/.env.example
+
+
+# temp ignore, still working on them
+
