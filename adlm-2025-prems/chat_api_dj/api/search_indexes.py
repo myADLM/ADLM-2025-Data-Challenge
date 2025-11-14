@@ -5,7 +5,9 @@ from .models import Document, Chunk
 class DocumentIndex(indexes.SearchIndex, indexes.Indexable):
     text = indexes.CharField(document=True, use_template=True)
     relative_path = indexes.CharField(model_attr="relative_path")
-    markdown = indexes.CharField(model_attr="markdown")
+    marker_markdown_plain = indexes.CharField(model_attr="marker_markdown_plain")
+    mineru_markdown = indexes.CharField(model_attr="mineru_markdown")
+    nougat_markdown = indexes.CharField(model_attr="nougat_markdown")
     num_pages = indexes.IntegerField(model_attr="num_pages")
     created_at = indexes.DateTimeField(model_attr="created_at")
     updated_at = indexes.DateTimeField(model_attr="updated_at")
