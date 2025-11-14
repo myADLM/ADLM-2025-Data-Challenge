@@ -43,6 +43,9 @@ build/
 Thumbs.db
 uv.lock
 vectordb/
+logs/
+graphdb*/
+lib/
 
 # Utils (not versioned)
 utils/

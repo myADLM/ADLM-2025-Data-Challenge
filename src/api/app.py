@@ -1,9 +1,10 @@
 import os
 import sys
 import re
+import json
 from pathlib import Path
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response, stream_with_context
 from flask_cors import CORS
 from dotenv import load_dotenv
 
@@ -12,12 +13,12 @@ from llama_index.core.memory import ChatMemoryBuffer
 from llama_index.embeddings.bedrock import BedrockEmbedding
 from llama_index.llms.bedrock_converse import BedrockConverse
 
-# Add scripts directory to path for KG query imports
-scripts_dir = Path(__file__).parent.parent.parent / "scripts" / "kg_pipeline"
-if str(scripts_dir) not in sys.path:
-    sys.path.insert(0, str(scripts_dir))
+# Add kg_pipeline directory to path for imports
+kg_pipeline_dir = Path(__file__).parent.parent.parent / "pipelines" / "kg_pipeline"
+if str(kg_pipeline_dir) not in sys.path:
+    sys.path.insert(0, str(kg_pipeline_dir))
 
-from kg_query import (
+from kg_api_wrapper import (
     get_graph_store,
     get_bedrock_llm as get_kg_bedrock_llm,
     query_knowledge_graph,
