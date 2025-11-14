@@ -286,16 +286,38 @@ class OpenAILLM:
         ]
         return embeddings
 
-    def chat(self, prompts: str | List[str], stream: bool = True, system_prompt: str = SYSTEM_PROMPT):
+    def chat(self, 
+             prompts: str | List[str], 
+             stream: bool = True, 
+             system_prompt: str = SYSTEM_PROMPT,
+             structured_output: BaseModel = None,
+        ):
         if isinstance(prompts, str):
             prompts = [prompts]
         if stream:
             assert len(prompts) == 1, "Streaming mode only supports one prompt"
+        
+        response_format = None
+        if structured_output:
+            response_format={
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "structured_output",
+                    "schema": structured_output.model_json_schema()
+                },
+            }
+            print('Response format:', response_format)
+        
         for prompt in prompts:
-            response = self.client.chat.completions.create(model=self.model_name, messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": prompt},
-            ], stream=stream)
+            response = self.client.chat.completions.create(
+                model=self.model_name, 
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": prompt},
+                ], 
+                stream=stream,
+                response_format=response_format,
+            )
 
             if stream:
                 for chunk in response:
