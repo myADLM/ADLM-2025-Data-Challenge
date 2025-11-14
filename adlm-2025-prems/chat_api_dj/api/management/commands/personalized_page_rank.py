@@ -93,13 +93,9 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         print('Personalized page rank test')
 
-        print('Number of entities:', Entity.objects.count())
         print('Number of nodes:', Node.objects.count())
         print('Number of relationships:', Relationship.objects.count())
         print('Number of relationship_types:', Relationship.objects.values('relationship_type').distinct().count())
-
-        entity_sample = Entity.objects.order_by('?').values('name')[:25]
-        print('Sample of entities:', entity_sample)
 
         top_node_by_count = Node.objects.annotate(count=Count('name')).order_by('-count').values('name', 'count')[:25]
         print('Top nodes by count:', top_node_by_count)
@@ -172,7 +168,7 @@ class Command(BaseCommand):
         top_k_list = top_k.indices.tolist()
         #print('Top K list:', top_k_list)
 
-        top_entities = Entity.objects.filter(id__in=top_k_list).values_list('id', 'name')
+        top_entities = Node.objects.filter(id__in=top_k_list).values_list('id', 'name')
         #print('Top Entities:', top_entities.count(), top_entities)
 
         top_entities_sorted = sorted(
@@ -188,7 +184,7 @@ class Command(BaseCommand):
         top_entities_df = pd.DataFrame(top_entities_sorted, columns=['id', 'name', 'ppr'])
         print('Top Entities DataFrame:', top_entities_df)
 
-        # TODO prioritize around the following
+        # TODO test prioritize around the following
         [
             'von-willebrand disease',
             '510(k)',
