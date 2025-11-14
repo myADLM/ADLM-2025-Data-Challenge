@@ -23,10 +23,11 @@ export default function App() {
     const userMsg = { id: generateRandomId(), role: "user", text: userText };
     setMessages((prev) => [...prev, userMsg]);
 
-    // create a placeholder assistant message we’ll append to
+    // create a placeholder assistant message we'll append to
     const asstId = generateRandomId();
     let draft = "";
-    setMessages((prev) => [...prev, { id: asstId, role: "assistant", text: "" }]);
+    let citedDocuments = [];
+    setMessages((prev) => [...prev, { id: asstId, role: "assistant", text: "", citedDocuments: [] }]);
 
     setIsStreaming(true);
     try {
@@ -38,9 +39,26 @@ export default function App() {
             // Use startTransition for non-urgent updates to prevent blocking token rendering
             startTransition(() => {
               setMessages((prev) =>
-                prev.map((m) => (m.id === asstId ? { ...m, text: draft } : m))
+                prev.map((m) => (m.id === asstId ? { ...m, text: draft, citedDocuments } : m))
               );
             });
+            break;
+          }
+          case "cited_document": {
+            // payload is a JSON object with {document_id, document_path (or documnet_path), page_index, bbox}
+            const citation = typeof event.payload === "object" ? event.payload : JSON.parse(event.payload);
+            // Check for duplicates based on document_id and page_index
+            const isDuplicate = citedDocuments.some(
+              (c) => c.document_id === citation.document_id && c.page_index === citation.page_index
+            );
+            if (!isDuplicate) {
+              citedDocuments = [...citedDocuments, citation];
+              startTransition(() => {
+                setMessages((prev) =>
+                  prev.map((m) => (m.id === asstId ? { ...m, citedDocuments } : m))
+                );
+              });
+            }
             break;
           }
           case "tool_call_started": {

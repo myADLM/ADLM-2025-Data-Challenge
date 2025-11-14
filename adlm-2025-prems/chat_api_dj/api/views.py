@@ -19,16 +19,26 @@ import matplotlib
 from asgiref.sync import sync_to_async
 from haystack.query import SearchQuerySet
 import torch
-
-matplotlib.use("Agg")  # Use non-interactive backend
+from pgvector.django import CosineDistance
 import matplotlib.pyplot as plt
 import numpy as np
+from pydantic import BaseModel
+
 
 from .models import Document, Chunk
-from api.llm import QwenLLM, ThinkingContent, OutputContent
+from api.llm import QwenLLM, ThinkingContent, OutputContent, OpenAILLM
 
+matplotlib.use("Agg")  # Use non-interactive backend
 
-LLM = QwenLLM()
+# TODO use openai with ollama or vllm instead of local hf
+embed_llm = OpenAILLM(
+    model_name="Qwen/Qwen3-Embedding-0.6B",
+)
+chat_llm = OpenAILLM(
+    model_name="openai/gpt-oss-20b",
+    base_url="http://localhost:6380/v1",
+)
+rerank_llm = QwenLLM()
 
 
 # Pydantic Schemas for API responses
@@ -119,6 +129,11 @@ class ChatError(Schema):
 
 class MarkerResponse(Schema):
     blocks: List[Dict[str, Any]]
+
+
+class CitedResponse(BaseModel):
+    response_text: str
+    cited_chunk_ids: List[int]
 
 
 # Create NinjaAPI instance
@@ -333,7 +348,7 @@ class RAGAgent:
 
     def chat(self, message: str):
         
-        search_query_content = LLM.chat(f"""The user is asking a question. Can you create a search query to find the most relevant chunks?
+        search_query_content = chat_llm.chat(f"""The user is asking a question. Can you create a search query to find the most relevant chunks?
 Respond with _only_ the search queries, no other text. This will be used for traditional and embedding search, don't hyphenate
 (unless it's already in the user message) or do anything that will hinder the search. Return the keywords only.
 
@@ -347,54 +362,109 @@ User content:
         print('LLM search query:', search_query_content)
 
         # embedding search
-        embeddings = LLM.embed_text(search_query_content)
-        from pgvector.django import CosineDistance
-        embedding_search_chunks = Chunk.objects.order_by(CosineDistance('embedding', embeddings))[:15]
+        embeddings = embed_llm.embed_text(search_query_content)
+        embeddings = embeddings[0]
+        embedding_search_chunks = Chunk.objects.filter(
+            is_active=True
+        ).order_by(CosineDistance('embedding', embeddings))[:25]
         embedding_search_chunks = [c for c in embedding_search_chunks] # convert to list
         print('Number of embedding search results:', len(embedding_search_chunks))
 
         # traditional search
         # TODO make sure it "OR"s the search query content
-        sqs = SearchQuerySet().models(Chunk).filter(content=search_query_content)
+        sqs = SearchQuerySet().models(Chunk).filter(
+            content=search_query_content
+        )
         print('Number of traditional search results:', sqs.count())
         traditional_search_chunks = [result.object for result in sqs if result.object]
 
         chunks = embedding_search_chunks + traditional_search_chunks
 
-        chunk_texts = [
-            (
-                f"Document: {chunk.document.relative_path}\n"
-                f"Text:\n{chunk.text}\n"
-            )
-            for chunk in chunks
-        ]
-        print('Chunk texts:', chunk_texts)
-        chunk_scores = LLM.rerank(search_query_content, chunk_texts)
-        print('Chunk scores:', chunk_scores)
+        # In-lieu of good chunking, we can just fetch the neighbors and concatenate the text.
+        # Ideally we'd use a better chunking method, but this is a stopgap.
+        fetch_neighbors = 3
 
-        sorted_chunks = sorted(zip(chunk_texts, chunk_scores), key=lambda x: x[1], reverse=True)
+        chunk_texts = []
+        for chunk in chunks:
+            text = ""
+            prev_chunk = chunk
+            for i in range(fetch_neighbors):
+                if prev_chunk:
+                    text += f"{prev_chunk.text} "
+                    prev_chunk = prev_chunk.prev_chunk()
+            text += f"{chunk.text} "
+            next_chunk = chunk
+            for i in range(fetch_neighbors):
+                if next_chunk:
+                    text += f"{next_chunk.text} "
+                    next_chunk = next_chunk.next_chunk()
+            chunk_texts.append(
+                f"Chunk ID: {chunk.id}\n"
+                f"Document: {chunk.document.relative_path}\n"
+                f"Text:\n{text}\n"
+            )
+        chunk_scores = rerank_llm.rerank(search_query_content, chunk_texts)
+
+        sorted_chunks = sorted(zip(chunk_texts, chunk_scores, chunks), key=lambda x: x[1], reverse=True)
 
         max_chunks = 10
         top_chunks = sorted_chunks[:max_chunks]
-        top_chunk_texts = [chunk_text for chunk_text, chunk_score in top_chunks]
+        top_chunk_texts = [chunk_text for chunk_text, _chunk_score, _chunk in top_chunks]
 
         chunk_context = "\n---\n".join(top_chunk_texts)
 
         prompt = f"""{message}
 
+Respond only with a proper JSON formatted response like the following:
+{{
+    "response_text": "The response text",
+    "cited_chunk_ids": [1, 2, 3]
+}}
+
+- Don't wrap the json in any code blocks or other formatting.
+- Only cite the chunks in the cited_chunk_ids list, don't cite in the response_text.
+
 Use the chunks below to answer the question.
 \n---\n
 {chunk_context}
 """
+
+        #print('-' * 100)
         #print('Final LLM prompt:', prompt)
+        #print('-' * 100)
 
-        streaming_response = LLM.chat(prompt)
+        json_schema_dict = CitedResponse.model_json_schema()
 
-        gc.collect()
-        torch.cuda.empty_cache()
+        #streaming_response = chat_llm.chat(prompt, structured_output=CitedResponse)
+        streaming_response = chat_llm.chat(
+            prompt, 
+            # Structured output was causing really bad LLM output with VLLM and gpt-oss,
+            # Just asking the llm to return valid json was better.
+            #structured_output=CitedResponse,
+            stream=False,
+        )
+        res = list(streaming_response)[0].content
+        #print('Cited response:', res)
 
-        # TODO also return chunk ids so we can cite them correctly
-        return streaming_response
+        cited_response = CitedResponse.model_validate_json(res)
+        #print('Cited response:', cited_response)
+
+        citation_responses = []
+
+        for chunk in cited_response.cited_chunk_ids:
+            chunk = Chunk.objects.get(id=chunk)
+            citation_responses.append({
+                'document_id': chunk.document.id,
+                'document_path': chunk.document.relative_path,
+                'page_index': chunk.page_idx,
+                'bbox': chunk.bbox,
+            })
+        
+        # Just to keep our interface consistent
+        def generator():
+            yield OutputContent(content=cited_response.response_text)
+
+        return generator(), citation_responses
 
 @api.post("/chat", response={200: None, 400: ChatError, 500: ChatError})
 async def chat_stream_endpoint(request):
@@ -418,14 +488,18 @@ async def chat_stream_endpoint(request):
             local_call_counter = 0
 
             try:
-                response = agent.chat(message)
+                response, cited_chunks = agent.chat(message)
+                print('Cited chunks:', cited_chunks)
+
+                for citation in cited_chunks:
+                    yield f'cited_document: {json.dumps(citation)}\n'
 
                 for chunk in response:
                     if isinstance(chunk, ThinkingContent):
-                        print('Thinking:', chunk.content)
+                        #print('Thinking:', chunk.content)
                         yield f'thinking: {json.dumps(chunk.content)}\n'
                     elif isinstance(chunk, OutputContent):
-                        print('Reply:', chunk.content)
+                        #print('Reply:', chunk.content)
                         yield f'reply: {json.dumps(chunk.content)}\n'
 
             except Exception as e:
