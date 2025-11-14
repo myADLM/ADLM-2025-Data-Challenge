@@ -79,7 +79,6 @@ class Command(BaseCommand):
                     print('Error saving mineru content', row['relative_path'], e)
                     with open(f'mineru_content_error.json', 'w') as f:
                         json.dump(mineru_content, f)
-                    # TODO still need to correct any where this happens, still want thesee chunks too
                     doc.mineru_json_content = []
                     doc.save()
                     continue
