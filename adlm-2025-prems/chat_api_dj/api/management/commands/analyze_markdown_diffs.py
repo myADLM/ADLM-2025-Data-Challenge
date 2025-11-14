@@ -25,16 +25,21 @@ def diff_metrics(a: str, b: str):
     total_chars = max(len(a), len(b))
     relative_diff = total_diff / total_chars if total_chars else 0
 
-    # TODO make all of these ratios relative to the length of the longer string
-    # insertion_ratio, deletion_ratio, replacement_ratio
-    # total_diff_chars_ratio
+    insertion_ratio = insertions / total_chars if total_chars else 0
+    deletion_ratio = deletions / total_chars if total_chars else 0
+    replacement_ratio = replacements / total_chars if total_chars else 0
+    total_diff_chars_ratio = total_diff / total_chars if total_chars else 0
 
     return {
         'insertions': insertions,
         'deletions': deletions,
         'replacements': replacements,
         'total_diff_chars': total_diff,
-        'relative_diff': relative_diff
+        'relative_diff': relative_diff,
+        'insertion_ratio': insertion_ratio,
+        'deletion_ratio': deletion_ratio,
+        'replacement_ratio': replacement_ratio,
+        'total_diff_chars_ratio': total_diff_chars_ratio,
     }
 
 class Command(BaseCommand):
