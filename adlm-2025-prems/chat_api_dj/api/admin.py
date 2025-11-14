@@ -41,7 +41,7 @@ class ChunkAdmin(admin.ModelAdmin):
         "updated_at",
     )
     search_fields = ("document__relative_path", "text")
-    list_filter = ("created_at", "updated_at")
+    list_filter = ("created_at", "updated_at", "block_type")
     ordering = ("-created_at",)
     readonly_fields = ("created_at", "updated_at", "text", "text_length")
-    raw_id_fields = ("document",)
+    raw_id_fields = ("document", "parent_chunk")
