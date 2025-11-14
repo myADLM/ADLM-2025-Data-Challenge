@@ -497,23 +497,22 @@ def document_view(request, document_id):
         # Get table of contents if available
         toc = document.table_of_contents if document.table_of_contents else []
 
-        # Get navigation (previous and next documents)
-        all_docs = Document.objects.all().order_by("relative_path")
-        doc_list = list(all_docs)
+        # Get navigation (previous and next documents) - efficient query
+        prev_doc = (
+            Document.objects.filter(relative_path__lt=document.relative_path)
+            .order_by("-relative_path")
+            .first()
+        )
+        next_doc = (
+            Document.objects.filter(relative_path__gt=document.relative_path)
+            .order_by("relative_path")
+            .first()
+        )
 
-        try:
-            current_index = doc_list.index(document)
-            prev_doc = doc_list[current_index - 1] if current_index > 0 else None
-            next_doc = (
-                doc_list[current_index + 1]
-                if current_index < len(doc_list) - 1
-                else None
-            )
-        except ValueError:
-            prev_doc = None
-            next_doc = None
-
-        chunks = Chunk.objects.filter(document=document).order_by("chunk_index")
+        chunks = Chunk.objects.filter(
+            page_metadata__parser="marker-chunks",
+            document=document
+        ).order_by("chunk_index")
 
         page_range = range(document.num_pages)
 
@@ -656,24 +655,17 @@ def pdf_page_view(request, document_id, page_number):
                 f"Page {page_number} not found. Document has {document.num_pages} pages."
             )
 
-        # Get navigation (previous and next documents)
-        all_docs = Document.objects.all().order_by("relative_path")
-        # XXX Don't do this...
-        doc_list = list(all_docs)
-
-        try:
-            current_doc_index = doc_list.index(document)
-            prev_doc = (
-                doc_list[current_doc_index - 1] if current_doc_index > 0 else None
-            )
-            next_doc = (
-                doc_list[current_doc_index + 1]
-                if current_doc_index < len(doc_list) - 1
-                else None
-            )
-        except ValueError:
-            prev_doc = None
-            next_doc = None
+        # Get navigation (previous and next documents) - efficient query
+        prev_doc = (
+            Document.objects.filter(relative_path__lt=document.relative_path)
+            .order_by("-relative_path")
+            .first()
+        )
+        next_doc = (
+            Document.objects.filter(relative_path__gt=document.relative_path)
+            .order_by("relative_path")
+            .first()
+        )
 
         # Calculate previous and next pages
         prev_page = page_number - 1 if page_number > 1 else None
