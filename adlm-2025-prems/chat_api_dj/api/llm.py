@@ -9,7 +9,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, TextIte
 import ollama
 from openai import OpenAI
 
-# TODO improve the prompt for use as an FDA labdocs agent
 SYSTEM_PROMPT = (
     "You are a helpful assistant that helps to answer questions "
     "about FDA letters and review documents, as well as specialized "
@@ -263,14 +262,20 @@ class OllamaLLM:
         raise NotImplementedError("Vision model not implemented for Ollama")
 
 class OpenAILLM:
-    def __init__(self, model_name: str = '', base_url: str = 'http://localhost:6379/v1', api_key: str = ''):
+    def __init__(self, 
+                 model_name: str = '', 
+                 base_url: str = 'http://localhost:6379/v1', 
+                 api_key: str = '',
+                 timeout: int = 30,
+                 ):
         self.model_name = model_name
         self.base_url = base_url
         self.api_key = api_key
+        self.timeout = timeout
         self.client = OpenAI(
             api_key=self.api_key, 
             base_url=self.base_url,
-            timeout=30,
+            timeout=self.timeout,
         )
 
     def embed_text(self, text: str):
