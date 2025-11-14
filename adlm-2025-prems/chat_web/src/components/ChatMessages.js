@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import ReactMarkdown from "react-markdown";
 
 /**
  * Props:
@@ -41,7 +42,13 @@ export default function ChatMessages({ messages = [] }) {
                                 <div className="small text-capitalize mb-1 opacity-75">
                                     {m.role === "assistant" ? "Assistant" : m.role}
                                 </div>
-                                <div>{m.text}</div>
+                                <div>
+                                    {m.role === "assistant" ? (
+                                        <ReactMarkdown>{m.text}</ReactMarkdown>
+                                    ) : (
+                                        m.text
+                                    )}
+                                </div>
                             </div>
                         </li>
                     );
