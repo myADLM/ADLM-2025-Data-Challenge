@@ -492,7 +492,7 @@ def document_view(request, document_id):
         md = markdown.Markdown(
             extensions=["toc", "codehilite", "fenced_code", "tables"]
         )
-        html_content = md.convert(document.markdown)
+        html_content = md.convert(document.marker_markdown_plain)
 
         # Get table of contents if available
         toc = document.table_of_contents if document.table_of_contents else []
@@ -756,26 +756,19 @@ def chunk_lengths_histogram(request):
 
 def marker_chunks_view(request, document_id: int):
     document = get_object_or_404(Document, id=document_id)
-    print("---", document.markdown_chunks_openai.keys())
 
     page_chunks = []
     current_page = []
     for block in document.markdown_chunks_openai["blocks"]:
         if block["block_type"] == "PageFooter":
-            # print("---////", block)
             if len(current_page) > 0:
                 page_chunks.append(current_page)
             current_page = []
         elif block["block_type"] == "PageHeader":
-            # print("---", block)
             continue
         else:
             current_page.append(block)
     page_chunks.append(current_page)
-    print("---", len(page_chunks))
-    # assert len(page_chunks) == document.num_pages, (
-    #    f"Expected {document.num_pages} pages, got {len(page_chunks)}"
-    # )
 
     if document.num_pages > len(page_chunks):
         page_chunks = page_chunks + [[]] * (document.num_pages - len(page_chunks))
