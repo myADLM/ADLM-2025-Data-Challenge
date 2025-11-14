@@ -149,13 +149,6 @@ class Chunk(models.Model):
     embedding_model = models.CharField(max_length=255, null=True, blank=True)
     embedding = VectorField(dimensions=1024, null=True, blank=True)
 
-    entities_parsed_at = models.DateTimeField(null=True, blank=True)
-    entities_parse_failed_at = models.DateTimeField(null=True, blank=True)
-    entities_parse_failed_message = models.TextField(null=True, blank=True)
-    relationships_parsed_at = models.DateTimeField(null=True, blank=True)
-    relationships_parse_failed_at = models.DateTimeField(null=True, blank=True)
-    relationships_parse_failed_message = models.TextField(null=True, blank=True)
-
     def __str__(self):
         return f'<Chunk: {self.document.id}#{self.chunk_index} "{self.block_type}" {self.text[:10]}...>'
 
