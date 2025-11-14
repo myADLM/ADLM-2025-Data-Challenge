@@ -145,6 +145,7 @@ class Chunk(models.Model):
 
     def next_chunk(self):
         return Chunk.objects.filter(
+            is_active=True,
             document=self.document,
             page_metadata__parser=self.page_metadata['parser'],
             chunk_index__gt=self.chunk_index,
@@ -152,6 +153,7 @@ class Chunk(models.Model):
 
     def prev_chunk(self):
         return Chunk.objects.filter(
+            is_active=True,
             document=self.document,
             page_metadata__parser=self.page_metadata['parser'],
             chunk_index__lt=self.chunk_index,
