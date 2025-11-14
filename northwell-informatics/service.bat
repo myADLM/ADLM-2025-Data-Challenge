@@ -23,84 +23,139 @@ if "%1"=="logs" goto :show_logs
 goto :show_usage
 
 :start_service
-echo 🚀 Starting %SERVICE_NAME% as background service...
+echo Starting %SERVICE_NAME% as background service...
 
 REM Check if already running
 if exist "%PID_FILE%" (
     set /p PID=<"%PID_FILE%"
     tasklist /FI "PID eq !PID!" 2>nul | find /I "!PID!" >nul
     if !ERRORLEVEL! EQU 0 (
-        echo 🟢 Service is already running (PID: !PID!)
+        echo Service is already running (PID: !PID!)
         goto :eof
     )
 )
 
 REM Check virtual environment
 if not exist "%VENV_PATH%" (
-    echo 📦 Virtual environment not found. Please run 'service.bat setup' first.
+    echo Virtual environment not found. Please run 'service.bat setup' first.
     exit /b 1
 )
 
-REM Activate virtual environment
-call "%VENV_PATH%\Scripts\activate.bat"
+REM Check virtual environment without activating it
+echo Checking dependencies...
+"%VENV_PATH%\Scripts\python.exe" -c "import sys; print('Python OK')" >nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    echo ERROR: Virtual environment Python not working
+    exit /b 1
+)
 
-REM Install requirements
-echo 📋 Installing/updating requirements...
-pip install -q -r "%SCRIPT_DIR%requirements.txt"
+REM Install requirements using python -m pip to avoid path issues
+echo Installing/updating requirements...
+"%VENV_PATH%\Scripts\python.exe" -m pip install -q -r "%SCRIPT_DIR%requirements.txt"
 
 REM Check if langchain_core is installed
-python -c "import langchain_core" 2>nul
+"%VENV_PATH%\Scripts\python.exe" -c "import langchain_core" 2>nul
 if %ERRORLEVEL% NEQ 0 (
-    echo ⚠️  'langchain_core' is not installed! Please add it to requirements.txt and run 'service.bat setup' again.
+    echo WARNING: 'langchain_core' is not installed! Please add it to requirements.txt and run 'service.bat setup' again.
     exit /b 1
 )
 
-REM Set Python path
+REM Set Python path for the batch file we're creating
 set PYTHONPATH=%SCRIPT_DIR%modules;%SCRIPT_DIR%;%PYTHONPATH%
 
-REM Start waitress in background and capture PID
-echo 🪟 Starting waitress server...
-start /B waitress-serve --host=0.0.0.0 --port=5000 app:app > "%LOG_FILE%" 2>&1
+REM Start waitress server
+echo Starting waitress server...
 
-REM Find the PID of the waitress process (approximate method)
-timeout /t 2 /nobreak >nul
+REM Create a batch file to run waitress in background with proper paths
+echo @echo off > "%FLASK_DIR%\run_waitress.bat"
+echo echo Starting waitress server... >> "%FLASK_DIR%\run_waitress.bat"
+echo echo Working directory: %%CD%% >> "%FLASK_DIR%\run_waitress.bat"
+echo cd /d "%FLASK_DIR%" >> "%FLASK_DIR%\run_waitress.bat"
+echo echo Changed to: %%CD%% >> "%FLASK_DIR%\run_waitress.bat"
+echo set PYTHONPATH=%SCRIPT_DIR%modules;%SCRIPT_DIR% >> "%FLASK_DIR%\run_waitress.bat"
+echo echo Python path: %%PYTHONPATH%% >> "%FLASK_DIR%\run_waitress.bat"
+echo echo Python executable: "%VENV_PATH%\Scripts\python.exe" >> "%FLASK_DIR%\run_waitress.bat"
+echo "%VENV_PATH%\Scripts\python.exe" --version >> "%FLASK_DIR%\run_waitress.bat"
+echo "%VENV_PATH%\Scripts\python.exe" -m waitress --host=0.0.0.0 --port=5000 app:app >> "%FLASK_DIR%\run_waitress.bat"
+
+REM Start waitress with proper logging redirection
+start /B "" cmd /c ""%FLASK_DIR%\run_waitress.bat" > "%LOG_FILE%" 2>&1"
+
+REM Give the process time to start
+timeout /t 3 /nobreak >nul
+
+REM Find the waitress process PID
 set FOUND_PID=0
-for /f "tokens=2" %%i in ('tasklist /FI "IMAGENAME eq python.exe" /FO table /NH ^| find "python.exe"') do (
-    echo %%i > "%PID_FILE%"
-    set FOUND_PID=1
-    goto :started
+set PID_VALUE=
+
+REM Method 1: Look for python.exe with waitress in command line
+for /f "skip=1 tokens=2" %%i in ('wmic process where "name='python.exe' and commandline like '%%waitress%%'" get processid /format:csv 2^>nul ^| findstr /v "Node"') do (
+    if not "%%i"=="" (
+        set PID_VALUE=%%i
+        set FOUND_PID=1
+        goto :write_pid
+    )
+)
+
+REM Method 2: Look for most recent python.exe process
+if !FOUND_PID! EQU 0 (
+    for /f "tokens=2" %%i in ('tasklist /FI "IMAGENAME eq python.exe" /NH 2^>nul') do (
+        set PID_VALUE=%%i
+        set FOUND_PID=1
+        goto :write_pid
+    )
+)
+
+:write_pid
+if !FOUND_PID! EQU 1 (
+    echo !PID_VALUE! > "%PID_FILE%"
 )
 
 if !FOUND_PID! EQU 0 (
-    echo ❌ Failed to start waitress server. Check logs at %LOG_FILE%
+    echo Failed to start waitress server. Check logs at %LOG_FILE%
     exit /b 1
 )
 
 :started
-set /p PID=<"%PID_FILE%"
-echo ✅ Service started successfully!
-echo 📱 Local Access: http://localhost:5000
-echo 🌐 Network Access: http://[your-ip]:5000  
-echo 📝 Logs: %LOG_FILE%
-echo 🔢 PID: %PID%
+echo Service started successfully!
+echo Local Access: http://localhost:5000
+echo Network Access: http://[your-ip]:5000  
+echo Logs: %LOG_FILE%
+if defined PID_VALUE (
+    echo PID: !PID_VALUE!
+) else (
+    echo PID: Check task manager for python.exe process
+)
+
+REM Return to original directory
+cd /d "%SCRIPT_DIR%"
 goto :eof
 
 :stop_service
-if not exist "%PID_FILE%" (
-    echo ❌ PID file not found. Service may not be running.
-    goto :eof
+echo Stopping %SERVICE_NAME%...
+
+REM Kill specific PID if available
+if exist "%PID_FILE%" (
+    set /p STORED_PID=<"%PID_FILE%"
+    if defined STORED_PID (
+        echo Stopping process PID: !STORED_PID!
+        taskkill /F /PID !STORED_PID! >nul 2>&1
+    )
+    del "%PID_FILE%" >nul 2>&1
 )
 
-set /p PID=<"%PID_FILE%"
-echo 🛑 Stopping %SERVICE_NAME% (PID: %PID%)...
+REM Kill any remaining python processes running waitress
+for /f "skip=1 tokens=2" %%i in ('wmic process where "name='python.exe' and commandline like '%%waitress%%'" get processid 2^>nul ^| findstr /v "Node"') do (
+    if not "%%i"=="" (
+        echo Stopping waitress process PID: %%i
+        taskkill /F /PID %%i >nul 2>&1
+    )
+)
 
-REM Kill waitress processes
-taskkill /F /PID %PID% >nul 2>&1
-taskkill /F /IM waitress-serve.exe >nul 2>&1
-taskkill /F /IM python.exe /FI "WINDOWTITLE eq waitress*" >nul 2>&1
+REM Clean up temporary files
+del "%FLASK_DIR%\run_waitress.bat" >nul 2>&1
 
-del "%PID_FILE%" >nul 2>&1
-echo ✅ Service stopped successfully!
+echo Service stopped successfully!
 goto :eof
 
 :restart_service
@@ -110,48 +165,62 @@ call :start_service
 goto :eof
 
 :status_service
+set SERVICE_RUNNING=0
+
+REM Check if PID file exists and process is running
 if exist "%PID_FILE%" (
-    set /p PID=<"%PID_FILE%"
-    tasklist /FI "PID eq !PID!" 2>nul | find /I "!PID!" >nul
-    if !ERRORLEVEL! EQU 0 (
-        REM Use quotes to avoid batch parsing errors with parentheses
-        echo "🪟 Service is running (PID: !PID!) using waitress"
-        echo 📱 Local Access: http://localhost:5000
-        echo 🌐 Network Access: http://[your-ip]:5000
-        echo 📝 Logs: %LOG_FILE%
-        
-        if exist "%LOG_FILE%" (
-            echo.
-            echo 📋 Recent log entries:
-            powershell -Command "Get-Content '%LOG_FILE%' | Select-Object -Last 5"
+    set /p STORED_PID=<"%PID_FILE%"
+    if defined STORED_PID (
+        tasklist /FI "PID eq !STORED_PID!" 2>nul | find /I "!STORED_PID!" >nul
+        if !ERRORLEVEL! EQU 0 (
+            echo Service is running - PID: !STORED_PID!
+            set SERVICE_RUNNING=1
         )
-    ) else (
-        echo 🔴 Service is not running
-        REM Optionally delete stale PID file
-        del "%PID_FILE%" >nul 2>&1
+    )
+)
+
+REM Also check for any python processes running waitress
+for /f "skip=1 tokens=2" %%i in ('wmic process where "name='python.exe' and commandline like '%%waitress%%'" get processid 2^>nul ^| findstr /v "Node"') do (
+    if not "%%i"=="" (
+        echo Waitress service found - PID: %%i
+        set SERVICE_RUNNING=1
+    )
+)
+
+if !SERVICE_RUNNING! EQU 1 (
+    echo Local Access: http://localhost:5000
+    echo Network Access: http://[your-ip]:5000
+    echo Logs: %LOG_FILE%
+    
+    if exist "%LOG_FILE%" (
+        echo.
+        echo Recent log entries:
+        powershell -Command "Get-Content '%LOG_FILE%' | Select-Object -Last 3"
     )
 ) else (
-    echo 🔴 Service is not running
+    echo Service is not running
+    REM Clean up stale PID file
+    if exist "%PID_FILE%" del "%PID_FILE%" >nul 2>&1
 )
 goto :eof
 
 :show_logs
 if exist "%LOG_FILE%" (
-    echo 📝 Showing logs (%LOG_FILE%):
+    echo Showing logs (%LOG_FILE%):
     echo ==================
     type "%LOG_FILE%"
 ) else (
-    echo ❌ Log file not found: %LOG_FILE%
+    echo Log file not found: %LOG_FILE%
 )
 goto :eof
 
 :setup_environment
-echo 🔧 Setting up environment for %SERVICE_NAME%...
+echo Setting up environment for %SERVICE_NAME%...
 
 REM Check Python
 python --version >nul 2>&1
 if !ERRORLEVEL! NEQ 0 (
-    echo ❌ Python is not installed or not in PATH
+    echo ERROR: Python is not installed or not in PATH
     echo    Install Python from https://python.org or Microsoft Store
     exit /b 1
 )
@@ -159,39 +228,36 @@ if !ERRORLEVEL! NEQ 0 (
 REM Check Python version
 for /f "delims=" %%i in ('python -c "import sys; print(sys.version_info[0])"') do set PYTHON_MAJOR=%%i
 if not "%PYTHON_MAJOR%"=="3" (
-    echo ❌ Python 3 is required
+    echo ERROR: Python 3 is required
     exit /b 1
 )
 
-echo ✅ Using Python command: python
+echo Using Python command: python
 
 REM Create virtual environment
 if not exist "%VENV_PATH%" (
-    echo 📦 Creating virtual environment at %VENV_PATH%...
+    echo Creating virtual environment at %VENV_PATH%...
     python -m venv "%VENV_PATH%"
     if !ERRORLEVEL! NEQ 0 (
-        echo ❌ Failed to create virtual environment
+        echo ERROR: Failed to create virtual environment
         exit /b 1
     )
-    echo ✅ Virtual environment created successfully!
+    echo Virtual environment created successfully!
 ) else (
-    echo ✅ Virtual environment already exists
+    echo Virtual environment already exists
 )
 
-REM Activate virtual environment
-call "%VENV_PATH%\Scripts\activate.bat"
+REM Upgrade pip using full path (no activation needed)
+echo Upgrading pip...
+"%VENV_PATH%\Scripts\python.exe" -m pip install --upgrade pip -q
 
-REM Upgrade pip
-echo ⬆️  Upgrading pip...
-python -m pip install --upgrade pip -q
+REM Install requirements using full path
+echo Installing requirements...
+"%VENV_PATH%\Scripts\python.exe" -m pip install -r "%SCRIPT_DIR%requirements.txt"
 
-REM Install requirements
-echo 📋 Installing requirements...
-pip install -r "%SCRIPT_DIR%requirements.txt"
-
-echo 🪟 Windows environment configured with waitress
-echo ✅ Environment setup complete!
-echo 📝 You can now run: service.bat start
+echo Windows environment configured with waitress
+echo Environment setup complete!
+echo You can now run: service.bat start
 goto :eof
 
 :show_usage
