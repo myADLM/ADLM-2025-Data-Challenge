@@ -3,9 +3,8 @@ Streaming chat endpoint for testing LLM agents.
 It's set up now to have:
 - Uses `uv` to run the project and manage dependencies,
 - Asynchronous using Django and django-ninja for an API framework,
-- Uses ollama as an LLM,
-- Stream responses,
-- Make tool calls (just one for now as a placeholder).
+- Uses VLLM and one local huggingface model LLM and transformer needs
+- Stream responses
 
 ## Installation
 
@@ -26,25 +25,24 @@ python manage.py runserver 0.0.0.0:8000
 
 # Endpoints
 
-- GET /health
-- POST /chat: Request: {message: str}, Response: Streaming events [reply, tool_call_started, tool_call_response, error]
+A complete documentation of endpoints can be found at `http://localhost:8000/api/docs`
 
 # Usage Examples
 
 ## Health Check
 
 ```bash
-curl http://localhost:8000/health
+curl http://localhost:8000/api/health
 ```
 
 ```powershell
-Invoke-RestMethod -Uri "http://localhost:8000/health" -Method GET
+Invoke-RestMethod -Uri "http://localhost:8000/api/health" -Method GET
 ```
 
 ## Chat Message
 
 ```bash
-curl -X POST http://localhost:8000/chat \
+curl -X POST http://localhost:8000/api/chat \
   -H "Content-Type: application/json" \
   -d '{"message": "What is three plus five?"}' \
   --no-buffer
@@ -52,7 +50,7 @@ curl -X POST http://localhost:8000/chat \
 
 ```powershell
 $body = @{ message = "What is three plus five?" } | ConvertTo-Json
-Invoke-RestMethod -Uri "http://localhost:8000/chat" -Method POST -Body $body -ContentType "application/json"
+Invoke-RestMethod -Uri "http://localhost:8000/api/chat" -Method POST -Body $body -ContentType "application/json"
 ```
 
 Example response:
