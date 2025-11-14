@@ -1,17 +1,8 @@
-# TODO
-
-"""
-For all the table chunks
-- convert to dataframe
-- rerender as a markdown KV
-
-"""
 from io import StringIO
 from django.core.management.base import BaseCommand
 import pandas as pd
 from tqdm import tqdm
 from django.db import transaction
-
 
 from api.models import Chunk
 
