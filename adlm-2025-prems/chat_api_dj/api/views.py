@@ -219,7 +219,7 @@ async def get_document(request, document_id: int):
         return {
             "id": document.id,
             "relative_path": document.relative_path,
-            "markdown": document.markdown,
+            "markdown": document.marker_markdown_plain,
             "table_of_contents": document.table_of_contents,
             "page_stats": document.page_stats,
             "num_pages": document.num_pages,
