@@ -5,15 +5,6 @@ from django.core.files import File
 from pgvector.django import VectorField
 
 
-class Labels(models.Model):
-    label = models.CharField(max_length=255)
-    description = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.label
-
 category_choices = [
     ('SOP', 'sop'),
     ('FDA/Cardiovascular', 'cardiovascular'),

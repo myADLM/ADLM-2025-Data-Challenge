@@ -1,14 +1,5 @@
 from django.contrib import admin
-from .models import Document, Chunk, Labels
-
-
-@admin.register(Labels)
-class LabelsAdmin(admin.ModelAdmin):
-    list_display = ("label", "created_at", "updated_at")
-    search_fields = ("label", "description")
-    list_filter = ("created_at", "updated_at")
-    ordering = ("-created_at",)
-    readonly_fields = ("created_at", "updated_at")
+from .models import Document, Chunk
 
 
 @admin.register(Document)
