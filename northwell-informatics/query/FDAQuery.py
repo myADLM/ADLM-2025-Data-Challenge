@@ -545,13 +545,17 @@ class FDAQuery:
         try:
             from config import LLMConfig
             current_provider = LLMConfig.DEFAULT_PROVIDER
+            multithreading_enabled = LLMConfig.is_multithreading_enabled()
+            sleep_time = LLMConfig.get_rate_limit_sleep()
         except:
             current_provider = "northwell"  # fallback
+            multithreading_enabled = False
+            sleep_time = 15
         
-        if current_provider == "openai":
+        if current_provider == "openai" and not multithreading_enabled:
             # Sequential processing for OpenAI to avoid rate limits
             if self.debug > 0:
-                print("Using sequential processing for OpenAI provider")
+                print(f"Using sequential processing for OpenAI provider (sleep: {sleep_time}s)")
             
             for i in range(0, len(choice), batch_size):
                 batch = choice[i:i + batch_size]
@@ -568,13 +572,16 @@ class FDAQuery:
                     print(error_msg)
                     logging.error(error_msg)
                 
-                # Add a delay between requests for OpenAI
+                # Add configurable delay between requests for OpenAI
                 import time
-                time.sleep(15)
+                time.sleep(sleep_time)
         else:
-            # Parallel processing for Northwell and other providers
+            # Parallel processing for Northwell and other providers, or OpenAI with multithreading enabled
             if self.debug > 0:
-                print("Using parallel processing for non-OpenAI provider")
+                if current_provider == "openai":
+                    print("Using parallel processing for OpenAI provider (multithreading enabled)")
+                else:
+                    print("Using parallel processing for non-OpenAI provider")
                 
             with ThreadPoolExecutor(max_workers=6) as executor:
                 futures = []
@@ -952,14 +959,47 @@ class FDAQuery:
                 doc_excerpt = self.find_document_excerpts(enhanced_question, fda_content, fda_summary_name.replace('_es1.json', ''))
                 return json.dumps(doc_excerpt)
 
-            # Use ThreadPoolExecutor to parallelize document processing
-            with ThreadPoolExecutor(max_workers=6) as executor:
-                futures = [executor.submit(process_document, document) for document in documents_to_process]
-                for future in futures:
-                    doc_excerpt = future.result()
+            # Check configuration for multithreading
+            try:
+                from config import LLMConfig
+                current_provider = LLMConfig.DEFAULT_PROVIDER
+                multithreading_enabled = LLMConfig.is_multithreading_enabled()
+                sleep_time = LLMConfig.get_rate_limit_sleep()
+            except:
+                current_provider = "northwell"
+                multithreading_enabled = False
+                sleep_time = 15
+            
+            if current_provider == "openai" and not multithreading_enabled:
+                # Sequential processing for OpenAI to avoid rate limits
+                if self.debug > 0:
+                    print(f"Processing documents sequentially for OpenAI (sleep: {sleep_time}s)")
+                
+                for i, document in enumerate(documents_to_process):
+                    doc_excerpt = process_document(document)
                     if doc_excerpt is not None:  # Only process non-None results
                         doc_excerpts.append(doc_excerpt)
                         history.append(doc_excerpt)
+                    
+                    # Add delay between document processing for OpenAI
+                    if i < len(documents_to_process) - 1:  # Don't sleep after the last document
+                        import time
+                        time.sleep(sleep_time)
+            else:
+                # Use ThreadPoolExecutor to parallelize document processing
+                if self.debug > 0:
+                    if current_provider == "openai":
+                        print("Processing documents in parallel for OpenAI (multithreading enabled)")
+                    else:
+                        print("Processing documents in parallel for non-OpenAI provider")
+                
+                with ThreadPoolExecutor(max_workers=6) as executor:
+                    futures = [executor.submit(process_document, document) for document in documents_to_process]
+                    for future in futures:
+                        doc_excerpt = future.result()
+                        if doc_excerpt is not None:  # Only process non-None results
+                            doc_excerpts.append(doc_excerpt)
+                            history.append(doc_excerpt)
         except Exception as e:
             error_msg = f"Error in find_document_excerpts: {e}"
             logging.error(error_msg)

@@ -68,6 +68,10 @@ class LLMConfig:
         "top_p": 0.95
     }
     
+    # Rate limiting and threading configuration
+    MULTITHREADING_ENABLED = False  # Default to off for safety
+    RATE_LIMIT_SLEEP = 15  # Default sleep time in seconds between API calls
+    
     @classmethod
     def get_api_key(cls, provider: str) -> Optional[str]:
         """
@@ -105,6 +109,26 @@ class LLMConfig:
     def set_default_provider(cls, provider: Literal["northwell", "openai"]):
         """Set the default provider."""
         cls.DEFAULT_PROVIDER = provider
+    
+    @classmethod
+    def is_multithreading_enabled(cls) -> bool:
+        """Check if multithreading is enabled."""
+        return cls.MULTITHREADING_ENABLED
+    
+    @classmethod
+    def get_rate_limit_sleep(cls) -> int:
+        """Get the rate limit sleep time in seconds."""
+        return cls.RATE_LIMIT_SLEEP
+    
+    @classmethod
+    def set_multithreading(cls, enabled: bool):
+        """Enable or disable multithreading."""
+        cls.MULTITHREADING_ENABLED = enabled
+    
+    @classmethod
+    def set_rate_limit_sleep(cls, seconds: int):
+        """Set the rate limit sleep time in seconds."""
+        cls.RATE_LIMIT_SLEEP = seconds
 
 
 # Example usage and setup instructions

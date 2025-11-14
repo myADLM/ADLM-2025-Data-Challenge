@@ -373,13 +373,17 @@ Assess questions against the reference in order to clearly answer the question.
         try:
             from config import LLMConfig
             current_provider = LLMConfig.DEFAULT_PROVIDER
+            multithreading_enabled = LLMConfig.is_multithreading_enabled()
+            sleep_time = LLMConfig.get_rate_limit_sleep()
         except:
             current_provider = "northwell"  # fallback
+            multithreading_enabled = False
+            sleep_time = 15
         
-        if current_provider == "openai":
+        if current_provider == "openai" and not multithreading_enabled:
             # Sequential processing for OpenAI to avoid rate limits
             if self.debug > 0:
-                print("Using sequential processing for OpenAI provider")
+                print(f"Using sequential processing for OpenAI provider (sleep: {sleep_time}s)")
             
             for i in range(0, len(choice), batch_size):
                 batch = choice[i:i + batch_size]
@@ -397,13 +401,16 @@ Assess questions against the reference in order to clearly answer the question.
                     logging.error(error_msg)
                     errors_encountered.append(error_msg)
                 
-                # Add a delay between requests for OpenAI
+                # Add configurable delay between requests for OpenAI
                 import time
-                time.sleep(15)
+                time.sleep(sleep_time)
         else:
-            # Parallel processing for Northwell and other providers
+            # Parallel processing for Northwell and other providers, or OpenAI with multithreading enabled
             if self.debug > 0:
-                print("Using parallel processing for non-OpenAI provider")
+                if current_provider == "openai":
+                    print("Using parallel processing for OpenAI provider (multithreading enabled)")
+                else:
+                    print("Using parallel processing for non-OpenAI provider")
                 
             with ThreadPoolExecutor(max_workers=6) as executor:
                 futures = []
