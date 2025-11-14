@@ -142,3 +142,17 @@ class Chunk(models.Model):
         )
         html_text = md.convert(self.text)
         return html_text
+
+    def next_chunk(self):
+        return Chunk.objects.filter(
+            document=self.document,
+            page_metadata__parser=self.page_metadata['parser'],
+            chunk_index__gt=self.chunk_index,
+        ).order_by('chunk_index').first()
+
+    def prev_chunk(self):
+        return Chunk.objects.filter(
+            document=self.document,
+            page_metadata__parser=self.page_metadata['parser'],
+            chunk_index__lt=self.chunk_index,
+        ).order_by('-chunk_index').first()
