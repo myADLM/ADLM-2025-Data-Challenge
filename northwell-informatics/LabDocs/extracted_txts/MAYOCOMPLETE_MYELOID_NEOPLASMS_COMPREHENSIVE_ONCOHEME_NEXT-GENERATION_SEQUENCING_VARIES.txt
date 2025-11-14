@@ -1,0 +1,114 @@
+Standard Operating Procedure (SOP): Analytical Phase for
+"MAYOCOMPLETE MYELOID NEOPLASMS, COMPREHENSIVE
+ONCOHEME NEXT-GENERATION SEQUENCING, VARIES"
+1. PURPOSE The purpose of this protocol is to outline the
+analytical phase procedures for generating results for the
+comprehensive next-generation sequencing (NGS) of myeloid
+neoplasms using the MAYOCOMPLETE panel. This SOP
+ensures the accurate and efficient identification of genetic
+mutations present in the specimen.
+2. RESPONSIBILITY The responsibility for carrying out this
+protocol lies with the staff designated to perform NGS including
+Medical Laboratory Scientists (MLS), Molecular Technologists,
+and Bioinformaticians. Supervisory staff must ensure
+compliance with this SOP and address any deviations.
+3. EQUIPMENT AND REAGENTS
+3.1 Equipment
+• NGS platform (e.g., Illumina MiSeq, NextSeq, or other suitable
+sequencer)
+• PCR thermal cycler
+• Qubit Fluorometer or similar for DNA quantification
+• Agilent Bioanalyzer or similar for library QC
+• Refrigerators, freezers (as per temperature monitoring SOP)
+• Laminar flow hood for DNA processing
+• Microcentrifuge
+• Vortex mixer
+3.2 Reagents and Supplies
+• NGS library preparation kit (specific to the platform: e.g., TruSeq,
+NEBNext, etc.)
+• PCR reagents
+• Qubit dsDNA HS Assay Kit
+• Agilent DNA 1000 Kit or similar
+• NGS sequencing reagents and flow cells
+• Molecular-grade water, ethanol, and other general lab reagents
+• Pipettes and tips
+• Microcentrifuge tubes
+1. PROCEDURE
+4.1 DNA Extraction
+1. Ensure specimen has been accessioned.
+2. Extract genomic DNA from the specimen using an appropriate
+extraction kit or protocol.
+3. Quantify the DNA using a Qubit Fluorometer.
+4. Assess the quality of DNA using an Agilent Bioanalyzer.
+4.2 Library Preparation
+1. Prepare DNA libraries using the NGS library preparation kit as
+per manufacturer’s instructions.
+2. Quantify and assess the quality of prepared libraries using the
+Qubit Fluorometer and Agilent Bioanalyzer, respectively.
+4.3 PCR Amplification
+1. Amplify the library using PCR as instructed in the library
+preparation protocol.
+2. Purify PCR products according to the kit’s protocol.
+4.4 Sequencing
+1. Load the final purified libraries onto the sequencer.
+2. Follow the specific instructions for the sequencing run setup as
+given by the manufacturer's user manual.
+3. Start the sequencing run ensuring correct instrument calibration
+and sample entry.
+4.5 Data Analysis
+1. Transfer raw sequencing data from the instrument to the
+analysis workstation.
+2. Perform initial reads quality control checks using software such
+as FastQC.
+3. Align sequencing reads to the reference genome using
+appropriate software (e.g., BWA, HISAT2).
+4. Detect variants calling using reliable software (e.g., GATK,
+Varscan).
+5. Annotate identified mutations using annotation tools (e.g.,
+ANNOVAR, SnpEff).
+6. Use bioinformatics pipelines and software approved by the
+laboratory's validated procedures to interpret the results.
+4.6 Quality Control
+1. Include appropriate positive and negative controls in each run.
+2. Review QC metrics: ensure coverage, library complexity, and
+mapping quality meet threshold criteria.
+3. Investigate and resolve any deviations from the acceptable
+range of QC metrics.
+4.7 Results Reporting
+1. Review and verify findings with additional bioinformatic checks
+if necessary.
+2. Document all identified pathogenic and likely pathogenic
+variants.
+3. Prepare the report for clinical interpretation including the
+significance of identified variants.
+4. Upload validated results to the Laboratory Information System
+(LIS) for review and distribution.
+5. LIMITATIONS
+• DNA sample quality and quantity must meet minimum
+requirements as poor sample quality may lead to inadequate
+sequencing results.
+• Ensure appropriate instrument maintenance and calibration to
+avoid technical errors.
+• Interpret results in the context of the comprehensive clinical and
+other laboratory findings.
+1. REFERENCES
+• Manufacturer's manuals and product inserts for all kits and
+reagents used.
+• Relevant peer-reviewed literature for the interpretation of genomic
+variants.
+• Internal and external quality assurance protocols.
+1. DOCUMENTATION
+2. Maintain all records of DNA extraction, library preparation,
+sequencing runs, QC checks, and data analysis.
+3. Ensure logs and electronic records are complete, accurate, and
+backed up according to laboratory policy.
+4. REVIEW AND REVISION
+5. This protocol should be reviewed annually or revised as
+necessary to conform with updates in technology and
+guidelines.
+6. Any protocol changes must be documented and approved by
+the laboratory management.
+This SOP will ensure consistent, accurate, and efficient analysis of
+myeloid neoplasm specimens using next-generation sequencing
+technology. All laboratory personnel must adhere strictly to these
+guidelines.

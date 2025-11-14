@@ -1,0 +1,122 @@
+Standard Operating Procedure (SOP): Mitochondrial Full
+Genome Analysis, Next-Generation Sequencing (NGS)
+1. PURPOSE
+The purpose of this Standard Operating Procedure (SOP) is to
+provide a detailed protocol for the analytical phase of mitochondrial
+full genome analysis using Next-Generation Sequencing (NGS)
+technology. This SOP ensures the accuracy, reliability, and
+reproducibility of the results.
+2. SCOPE
+This SOP applies to all personnel performing mitochondrial full
+genome analysis using NGS in the laboratory.
+3. RESPONSIBILITIES
+Designated staff is responsible for carrying out mitochondrial full
+genome analysis using NGS technology as per this SOP. It is the
+responsibility of all staff to ensure that all procedures are followed
+correctly and documented consistently.
+4. EQUIPMENT AND REAGENTS
+• NGS sequencer (e.g., Illumina, Thermo Fisher)
+• Thermocycler
+• Magnetic stand
+• Microcentrifuge
+• PCR tubes and plates
+• Pipettes and pipette tips (sterile, filtered)
+• Fluorometer or qPCR for library quantification
+• DNA extraction kits
+• Library preparation kits (e.g., Illumina TruSeq, NEBNext)
+• Index adapters as per the sequencing platform
+• NGS library cleaning beads
+• Equilibrator for flow cells
+• Cleaning reagents
+• Ethanol, nuclease-free water, TE buffer, and other laboratory-
+grade reagents
+• Dry ice or cooler for specimen transportation
+5. PROCEDURE
+5.1 DNA Extraction
+• Extract mitochondrial DNA from the received specimens using the
+recommended DNA extraction kit.
+• Verify the quantity and quality of the extracted DNA using
+fluorometry or spectrophotometry. The DNA concentration should
+meet the specifications of the library preparation kit.
+5.2 Library Preparation
+• Prepare sequencing libraries from the extracted mitochondrial
+DNA using a suitable library preparation kit.
+• Fragment the DNA if necessary.
+• Perform end-repair, dA-tailing, and adapter ligation steps.
+• Amplify the library using PCR.
+• Clean up the libraries using magnetic beads to remove any
+leftover enzymes, adapters, and other contaminants.
+5.3 Library Quantification and Quality Control
+• Quantify the prepared libraries using a fluorometer or qPCR to
+ensure they meet the required concentration for sequencing.
+• Verify the size distribution and quality of the libraries using a
+Bioanalyzer, TapeStation, or equivalent equipment.
+• Ensure the presence of sharp and distinct peaks indicating the
+correct size range for the platform being used.
+5.4 Sequencing
+• Dilute the libraries to the appropriate concentration for loading
+onto the sequencer.
+• Load the libraries onto the flow cell or chip following the
+sequencer manufacturer's instructions.
+• Set up the sequencing run parameters, including read length,
+index cycles, and paired-end settings, as recommended for full
+mitochondrial genome sequencing.
+• Start the sequencing run and monitor its progress. Ensure
+appropriate documentation and adherence to sequencer
+calibration, maintenance, and performance checks.
+5.5 Data Analysis
+• Demultiplex the sequencing reads and remove adapter
+sequences.
+• Perform quality control on the raw sequencing data using
+software such as FastQC.
+• Align the clean reads to the reference mitochondrial genome
+using alignment tools like BWA, Bowtie, or others.
+• Call variants and annotate them using suitable bioinformatics
+pipelines (e.g., GATK, VarScan).
+• Generate a comprehensive variant report, including mutation
+types, positions, predicted impacts, and relevant clinical
+correlations.
+5.6 Result Review and Verification
+• Review the variant report for completeness and accuracy.
+• Validate critical findings through secondary analysis or Sanger
+sequencing as necessary.
+• Document the validated results, including any quality checks,
+anomalies, or deviations from expected outcomes.
+6. QUALITY CONTROL AND TROUBLESHOOTING
+• Implement appropriate quality control measures at each step of
+the procedure to ensure data integrity, reproducibility, and
+accuracy.
+• Document all quality control processes and results appropriately.
+• Investigate and resolve any analytical discrepancies and consult
+with supervisors if unexpected results are encountered.
+• Ensure all deviations are documented and any corrective actions
+are implemented promptly.
+7. REPORTING RESULTS
+• Generate a final report summarizing the mitochondrial genome
+analysis findings.
+• Peer-review the report for accuracy and completeness.
+• Approve and release the final report to the relevant clinical or
+research parties according to laboratory protocols.
+8. REFERENCES
+• Manufacturer's instructions for all equipment and reagents used in
+the process.
+• Relevant literature and guidelines for mitochondrial genome
+analysis and interpretation.
+9. REVIEW AND APPROVAL
+• Document control and periodic review maintenance every 12
+months.
+• authorized by the Laboratory Director / Supervisor.
+APPENDIX
+• Flowchart for Mitochondrial Full Genome Analysis Workflow
+• Laboratory-specific contact list for troubleshooting and technical
+support
+Document Control and Record Keeping:
+• Ensure this SOP is stored securely and accessible for authorized
+personnel only.
+• Maintain a record of all analyses conducted following this SOP,
+with complete documentation cross-referencing each step as
+described.
+By following this SOP, laboratory personnel will perform mitochondrial
+full genome analysis via NGS in a standardized, reproducible, and
+compliant manner, ensuring high-quality and reliable results for
+clinical and research purposes.

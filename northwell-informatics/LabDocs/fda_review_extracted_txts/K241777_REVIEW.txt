@@ -1,0 +1,1609 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K241777
+B Applicant
+Insulet Corporation
+C Proprietary and Established Names
+SmartAdjust™ technology
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1356 – Interoperable
+QJI Class II CH – Clinical Chemistry
+Automated Glycemic Controller
+E Purpose for Submission:
+Modification to a cleared device to expand the indications for use to include adults aged 18 years
+and older with type 2 diabetes mellitus.
+II Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+SmartAdjust™ technology is intended for use with compatible integrated continuous glucose
+monitors (iCGM) and alternate controller enabled (ACE) pumps to automatically increase,
+decrease, and pause delivery of insulin based on current and predicted glucose values.
+SmartAdjust™ technology is intended for the management of type 1 diabetes mellitus in persons
+2 years of age and older and type 2 diabetes mellitus in persons 18 years of age and older.
+SmartAdjust™ technology is intended for single patient use and requires a prescription.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QJI			Class II	21 CFR 862.1356 – Interoperable
+Automated Glycemic Controller			CH – Clinical Chemistry
+
+--- Page 2 ---
+C Special Conditions for Use Statement(s):
+Rx – For Prescription Use Only
+• SmartAdjust™ technology should not be used by anyone under the age of 2 years old.
+• SmartAdjust™ technology should also NOT be used in people who require less than 5
+units of insulin per day as the safety of the technology has not been evaluated in this
+population.
+• Do not use SmartAdjust™ technology in pregnant women, critically ill patients, and
+those on dialysis. The safety of the SmartAdjust™ technology has not been evaluated in
+these populations.
+• Do not use SmartAdjust™ technology if you are taking hydroxyurea as it could lead to
+falsely elevated CGM values and result in over-delivery of insulin that can lead to severe
+hypoglycemia.
+• Do not use SmartAdjust™ technology if you do NOT have adequate hearing and/or
+vision to allow recognition of all functions of the Omnipod 5 System, including alerts,
+alarms, and reminders.
+• SmartAdjust™ technology used with the Omnipod 5 System is designed to use rapid-
+acting U- 100 insulins. The following U-100 rapid-acting insulin analogs have been
+tested and found to be safe for use in the Pod: NovoLog® (insulin aspart), Humalog®
+(insulin lispro), and Admelog® (insulin lispro) for use up to 72 hours (3 days). Before
+using a different insulin with the Omnipod 5 System, check the insulin drug label and
+consult your healthcare provider. Refer to the insulin labeling and follow your healthcare
+provider’s directions for how often to replace the Pod.
+• SmartAdjust™ technology used with the Omnipod 5 System relies on accurate, current
+CGM values to determine your insulin needs. Always make sure you are using the CGM
+per manufacturer's instructions and do not extend the sensor wear beyond the
+recommended duration.
+• Do NOT attempt to use the SmartAdjust™ technology with the Omnipod 5 System
+before you receive training. Inadequate training could put your health and safety at risk.
+• Device components used with the SmartAdjust™ technology including the pod, CGM
+transmitter, and CGM sensor must be removed before Magnetic Resonance Imaging
+(MRI), Computed Tomography (CT) scan, or diathermy treatment. In addition, the
+SmartAdjust™ Controller and smartphone should be placed outside of the procedure
+room. Exposure to MRI, CT, or diathermy treatment can damage the components.
+III Device Description
+SmartAdjust™ technology (the Omnipod 5 interoperable automated glycemic controller, iAGC)
+is a software-only medical device intended for the management of type 1 diabetes in people 2
+years of age and older. With this submission, the sponsor intends to market the device to adults
+aged 18 years and older with type 2 diabetes as well. SmartAdjust™ technology is part of the
+Omnipod 5 System made of the following components:
+• Omnipod 5 ACE Pump (pod) – product code QFG, most recently cleared under K231826
+• SmartAdjust™ Technology – product code QJI, most recently cleared under K232741
+• SmartBolus Calculator – product code QRX, most recently cleared under K231824
+K241777 - Page 2 of 16
+
+--- Page 3 ---
+• Integrated continuous glucose monitor (iCGM) – cleared for use with Dexcom G6 and
+G7, and Abbott Freestyle Libre 2
+The SmartAdjust™ technology software resides on the Omnipod 5 ACE Pump (the Omnipod 5
+Pod and Omnipod 5 App). The iAGC software is responsible for controlling insulin delivery via
+compatible ACE Pump when the system is in Automated Mode. iCGM data is transmitted from
+the iCGM to the ACE Pump via Bluetooth Low Energy technology. The SmartAdjust™
+Technology uses this transmitted iCGM data in its calculations. The SmartAdjust™ technology
+can be turned off, and the Omnipod 5 ACE Pump will operate in Manual Mode, which delivers
+insulin based on healthcare provider (HCP) or user-defined basal programs.
+The SmartAdjust™ technology has three states of operation: Automated Mode, Automated:
+Limited, and Activity. In Automated Mode, the system calculates insulin delivery every 5
+minutes based on the user-customizable glucose target (110–150 mg/dL). Automated: Limited is
+enabled when the SmartAdjust™ technology is not receiving data from a connected iCGM for 20
+minutes or more and during sensor warm-up. While in Automated: Limited, the user will receive
+no more than pre-programmed basal insulin. When a valid glucose value is received from the
+iCGM, the SmartAdjust™ technology will resume delivery of insulin in full Automated Mode.
+Activity is a temporary mode which the user may select for various time durations during
+automated mode up to 24 hours. With Activity, the algorithm reduces insulin delivery and sets a
+temporary glucose target to 150 mg/dL. Activity is intended for use during periods when insulin
+sensitivity is expected to be higher, such as during exercise.
+IV Substantial Equivalence Information:
+A Predicate Device Name(s):
+SmartAdjust™ technology
+B Predicate 510(k) Number(s):
+K232741
+C Comparison with Predicate(s):
+Device & Predicate
+K241777 K232741
+Device(s):
+Device Trade Name SmartAdjust™ Technology SmartAdjust™ Technology
+General Device
+Characteristic Similarities
+SmartAdjust™ Technology
+is intended for use with
+Intended Use/Indications For
+compatible integrated Same
+Use
+continuous glucose monitors
+(iCGM) and alternate
+K241777 - Page 3 of 16
+
+[Table 1 on page 3]
+	Device & Predicate		K241777	K232741
+	Device(s):			
+Device Trade Name			SmartAdjust™ Technology	SmartAdjust™ Technology
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications For
+Use			SmartAdjust™ Technology
+is intended for use with
+compatible integrated
+continuous glucose monitors
+(iCGM) and alternate	Same
+
+--- Page 4 ---
+controller enabled (ACE)
+pumps to automatically
+increase, decrease, and
+pause delivery of insulin
+based on current and
+predicted glucose values. It
+is intended for single patient
+use and requires a
+prescription.
+General Device
+Characteristic Differences
+People with type 1 diabetes
+aged 2 years and older and People with type 1 diabetes
+Intended Use Population
+people with type 2 diabetes aged 2 years and older
+aged 18 years and older
+V Standards/Guidance Documents Referenced:
+• ANSI AAMI ISO 14971:2019
+Medical devices – Application of risk management to medical devices
+• ANSI AAMI HE75:2009/(R)2018
+Human factors engineering – Design of medical devices
+• ANSI AAMI IEC 623-1:2015+AMD1:2020 (Consolidated Text)
+Medical devices Part 1: Application of usability engineering to medical devices including
+Amendment 1
+• ISO 14155 Third edition 2020-07
+Clinical investigation of medical devices for human subjects – Good clinical practice
+VI Performance Characteristics:
+A. Analytical Performance
+The SmartAdjust™ technology is a software-only device, therefore analytical performance
+characteristics are not applicable.
+B. Other Supportive Instrument Performance Characteristics Data
+For the evaluation of the system in clinical studies, the SmartAdjust™ technology was installed
+on the OmniPod 5 ACE Pump (Pod) insulin pump with interoperable technology, which was
+paired with the Dexcom G6 integrated continuous glucose monitor (iCGM). Details on the
+performance characteristics of these devices can be found in public decision summaries for each
+device.
+K241777 - Page 4 of 16
+
+[Table 1 on page 4]
+			controller enabled (ACE)
+pumps to automatically
+increase, decrease, and
+pause delivery of insulin
+based on current and
+predicted glucose values. It
+is intended for single patient
+use and requires a
+prescription.	
+	General Device			
+	Characteristic Differences			
+Intended Use Population			People with type 1 diabetes
+aged 2 years and older and
+people with type 2 diabetes
+aged 18 years and older	People with type 1 diabetes
+aged 2 years and older
+
+--- Page 5 ---
+Summary of Clinical Testing:
+The SECURE-T2D clinical study was conducted to evaluate the SmartAdjust™ Technology in
+adults aged 18 years and older with type 2 diabetes.
+Study Feature Description
+Title Safety and Efficacy of the OmniPod 5 Automated Insulin
+Delivery System in Adults with Type 2 Diabetes (SECURE-
+T2D)
+Study Design Single-arm, multicenter, prospective clinical study
+Number of Sites Twenty-one (21) sites in the United States
+Population 343 subjects aged 18 years and older who had been diagnosed
+with type 2 diabetes were enrolled. 289 participants
+completed the study.
+Key Inclusion Criteria
+• Aged 18-75 years old
+• Diagnosed with T2D and on current insulin regimen
+for at least 3 months prior to screening
+• Hemoglobin A1c (HbA1c) < 12% at screening
+Key Exclusion Criteria
+• Use of an AID pump in automated mode within 3
+months prior to screening
+• Episodes of severe hypoglycemia or diabetic
+ketoacidosis in the past 6 months
+The recruitment goal for this study was to enroll a
+heterogenous subject pool reflective of the intended patient
+population. The study is notable for diversity of age, BMI,
+race/ethnicity, education, and income level in the subjects.
+There was also a range of diabetes duration, non-insulin
+medication, HbA1c, total daily dose, and carb-counting
+knowledge.
+Protocol Overview/Synopsis The study consisted of two phases:
+1. 14-day standard therapy phase (baseline)
+2. 13 weeks treatment on the Omnipod 5 System with
+planned meal and exercise challenges
+For the standard therapy phase, current Dexcom G6 iCGM
+users could provide data from a 14-day period within the last
+30 days. Non-Dexcom iCGM users wore a study iCGM, in
+blinded mode, to record glucose measurements over 14 days
+while subjects managed their diabetes at home per their usual
+routine and remained on their current multiple daily injection
+or pump therapy, and sensor, if applicable.
+K241777 - Page 5 of 16
+
+[Table 1 on page 5]
+Study Feature	Description
+Title	Safety and Efficacy of the OmniPod 5 Automated Insulin
+Delivery System in Adults with Type 2 Diabetes (SECURE-
+T2D)
+Study Design	Single-arm, multicenter, prospective clinical study
+Number of Sites	Twenty-one (21) sites in the United States
+Population	343 subjects aged 18 years and older who had been diagnosed
+with type 2 diabetes were enrolled. 289 participants
+completed the study.
+Key Inclusion Criteria
+• Aged 18-75 years old
+• Diagnosed with T2D and on current insulin regimen
+for at least 3 months prior to screening
+• Hemoglobin A1c (HbA1c) < 12% at screening
+Key Exclusion Criteria
+• Use of an AID pump in automated mode within 3
+months prior to screening
+• Episodes of severe hypoglycemia or diabetic
+ketoacidosis in the past 6 months
+The recruitment goal for this study was to enroll a
+heterogenous subject pool reflective of the intended patient
+population. The study is notable for diversity of age, BMI,
+race/ethnicity, education, and income level in the subjects.
+There was also a range of diabetes duration, non-insulin
+medication, HbA1c, total daily dose, and carb-counting
+knowledge.
+Protocol Overview/Synopsis	The study consisted of two phases:
+1. 14-day standard therapy phase (baseline)
+2. 13 weeks treatment on the Omnipod 5 System with
+planned meal and exercise challenges
+For the standard therapy phase, current Dexcom G6 iCGM
+users could provide data from a 14-day period within the last
+30 days. Non-Dexcom iCGM users wore a study iCGM, in
+blinded mode, to record glucose measurements over 14 days
+while subjects managed their diabetes at home per their usual
+routine and remained on their current multiple daily injection
+or pump therapy, and sensor, if applicable.
+
+--- Page 6 ---
+After completion of the standard therapy phase, subjects were
+trained on the Omnipod 5 System and transitioned to the
+hybrid-closed loop (HCL) therapy phase.
+Subjects participated in various challenges during the study:
+1. Target glucose challenge: 64 study participants utilized 3
+different glucose targets for 3 days each (150 mg/dL, 140
+mg/dL, and 130 mg/dL).
+2. Meal challenge: All study participants completed 4 days of
+a meal challenge that consisted of a meal that was ≥60 g of
+carbohydrates. Subjects gave a meal bolus with that meal on
+days 1 and 3 and skipped a meal bolus on days 2 and 4, and
+CGM metrics were compared 4 hours post meal.
+3. Exercise challenge: All study participants underwent 3
+exercise sessions on 3 days. Exercise consisted of 1 hour of
+mild intensity exercise and 30 minutes of moderate intensity
+exercise. Subjects did not change their glucose target before
+exercising. Subjects who consumed a meal prior to exercise
+followed their normal meal bolus routine (i.e., meal boluses
+were not adjusted to account for exercise), and 93% did not
+consume a snack prior to exercise. CGM metrics were
+assessed during exercise, 2 hours after exercise, and overnight
+after exercise.
+As part of the study, subjects completed questionnaires to
+assess patient reported psychosocial outcomes: T2-Diabetes
+Distress Assessment System, Pittsburgh Sleep Quality Index,
+and the Hypoglycemia Confidence Scale.
+Safety Results There was 1 severe hypoglycemia event during the study
+period, which was attributed to a manual bolus request that
+was greater than necessary for the food that was consumed.
+The study algorithm stopped insulin delivery in the setting of a
+decreasing glucose an hour after the bolus was administered,
+but the subject still experienced a hypoglycemic event. The
+subject was able to correct this with oral carbohydrates.
+There were no other severe hypoglycemia or diabetic
+ketoacidosis events during the study. There were 14 serious
+adverse events not related or unlikely to be related to the study
+device or treatments.
+K241777 - Page 6 of 16
+
+[Table 1 on page 6]
+	After completion of the standard therapy phase, subjects were
+trained on the Omnipod 5 System and transitioned to the
+hybrid-closed loop (HCL) therapy phase.
+Subjects participated in various challenges during the study:
+1. Target glucose challenge: 64 study participants utilized 3
+different glucose targets for 3 days each (150 mg/dL, 140
+mg/dL, and 130 mg/dL).
+2. Meal challenge: All study participants completed 4 days of
+a meal challenge that consisted of a meal that was ≥60 g of
+carbohydrates. Subjects gave a meal bolus with that meal on
+days 1 and 3 and skipped a meal bolus on days 2 and 4, and
+CGM metrics were compared 4 hours post meal.
+3. Exercise challenge: All study participants underwent 3
+exercise sessions on 3 days. Exercise consisted of 1 hour of
+mild intensity exercise and 30 minutes of moderate intensity
+exercise. Subjects did not change their glucose target before
+exercising. Subjects who consumed a meal prior to exercise
+followed their normal meal bolus routine (i.e., meal boluses
+were not adjusted to account for exercise), and 93% did not
+consume a snack prior to exercise. CGM metrics were
+assessed during exercise, 2 hours after exercise, and overnight
+after exercise.
+As part of the study, subjects completed questionnaires to
+assess patient reported psychosocial outcomes: T2-Diabetes
+Distress Assessment System, Pittsburgh Sleep Quality Index,
+and the Hypoglycemia Confidence Scale.
+Safety Results	There was 1 severe hypoglycemia event during the study
+period, which was attributed to a manual bolus request that
+was greater than necessary for the food that was consumed.
+The study algorithm stopped insulin delivery in the setting of a
+decreasing glucose an hour after the bolus was administered,
+but the subject still experienced a hypoglycemic event. The
+subject was able to correct this with oral carbohydrates.
+There were no other severe hypoglycemia or diabetic
+ketoacidosis events during the study. There were 14 serious
+adverse events not related or unlikely to be related to the study
+device or treatments.
+
+--- Page 7 ---
+Participant Demographics
+Standard Therapy Treatment Period
+N = 320* N = 305
+Age (yrs.)
+<30 5 (2%) 5 (2%)
+30-<45 45 (14%) 43 (14%)
+45-<65 181 (57%) 171 (56%)
+≥65 89 (28%) 86 (28%)
+Mean (SD) 57 (11) 57 (11)
+Range 20 to 75 20 to 75
+Sex – Female n (%) 185 (58%) 175 (57%)
+Heighta (cm) – Mean (sd) 169 (9) 169 (9)
+Weighta (kg) – Mean (sd) 100 (23) 100 (23)
+BMIa (kg/m2)
+<30 88 (28%) 84 (28%)
+30-<45 93 (29%) 88 (29%)
+45-<65 73 (23%) 70 (23%)
+≥65 66 (21%) 63 (21%)
+Mean (SD) 35 (8) 35 (8)
+Range 22 to 70 22 to 70
+Race
+American Indian/Alaskan Native 5 (2%) 5 (2%)
+Hispanic or Latino 3 3
+Asian 5 (2%) 5 (2%)
+Hispanic or Latino 0 0
+Black/African-American 77 (24%) 72 (24%)
+Hispanic or Latino 0 0
+More than one race 3 (<1%) 3 (<1%)
+Hispanic or Latino 0 0
+Native Hawaiian/Other Pacific Islander 2 (<1%) 2 (<1%)
+Hispanic or Latino 0 0
+White 208 (65%) 198 (65%)
+Hispanic or Latino 48 45
+Unknown/Not Reported 20 (6%) 20 (7%)
+Hispanic or Latino 18 18
+Ethnicity
+Hispanic 69 (22%) 66 (22%)
+Non-Hispanic 249 (78%) 237 (78%)
+Unknown/not reported 2 (<1%) 2 (<1%)
+Education
+< High School Diploma 20 (6%) 20 (7%)
+High School Diploma 82 (26%) 79 (26%)
+Technical/Vocational 17 (5%) 17 (6%)
+Associate Degree 60 (19%) 56 (18%)
+Bachelor’s Degree 76 (24%) 70 (23%)
+Advanced Degree 40 (13%) 40 (13%)
+Do not wish to provide 25 (8%) 23 (8%)
+K241777 - Page 7 of 16
+
+[Table 1 on page 7]
+	Standard Therapy
+N = 320*	Treatment Period
+N = 305
+Age (yrs.)
+<30
+30-<45
+45-<65
+≥65
+Mean (SD)
+Range	5 (2%)
+45 (14%)
+181 (57%)
+89 (28%)
+57 (11)
+20 to 75	5 (2%)
+43 (14%)
+171 (56%)
+86 (28%)
+57 (11)
+20 to 75
+Sex – Female n (%)	185 (58%)	175 (57%)
+Heighta (cm) – Mean (sd)	169 (9)	169 (9)
+Weighta (kg) – Mean (sd)	100 (23)	100 (23)
+BMIa (kg/m2)
+<30
+30-<45
+45-<65
+≥65
+Mean (SD)
+Range	88 (28%)
+93 (29%)
+73 (23%)
+66 (21%)
+35 (8)
+22 to 70	84 (28%)
+88 (29%)
+70 (23%)
+63 (21%)
+35 (8)
+22 to 70
+Race
+American Indian/Alaskan Native
+Hispanic or Latino
+Asian
+Hispanic or Latino
+Black/African-American
+Hispanic or Latino
+More than one race
+Hispanic or Latino
+Native Hawaiian/Other Pacific Islander
+Hispanic or Latino
+White
+Hispanic or Latino
+Unknown/Not Reported
+Hispanic or Latino	5 (2%)
+3
+5 (2%)
+0
+77 (24%)
+0
+3 (<1%)
+0
+2 (<1%)
+0
+208 (65%)
+48
+20 (6%)
+18	5 (2%)
+3
+5 (2%)
+0
+72 (24%)
+0
+3 (<1%)
+0
+2 (<1%)
+0
+198 (65%)
+45
+20 (7%)
+18
+Ethnicity
+Hispanic
+Non-Hispanic
+Unknown/not reported	69 (22%)
+249 (78%)
+2 (<1%)	66 (22%)
+237 (78%)
+2 (<1%)
+Education
+< High School Diploma
+High School Diploma
+Technical/Vocational
+Associate Degree
+Bachelor’s Degree
+Advanced Degree
+Do not wish to provide	20 (6%)
+82 (26%)
+17 (5%)
+60 (19%)
+76 (24%)
+40 (13%)
+25 (8%)	20 (7%)
+79 (26%)
+17 (6%)
+56 (18%)
+70 (23%)
+40 (13%)
+23 (8%)
+
+--- Page 8 ---
+Annual Household Income
+<$25,000 43 (13%) 42 (14%)
+$25,000-<$35,000 27 (8%) 23 (8%)
+$35,000-<$50,000 21 (7%) 19 (6%)
+$50,000-<$75,000 49 (15%) 49 (16%)
+$75,000-<$100,000 28 (9%) 26 (9%)
+$100,00-<$200,000 54 (17%) 51 (17%)
+$200,000 or more 16 (5%) 16 (5%)
+Unknown 16 (5%) 16 (5%)
+Does not wish to report 66 (21%) 63 (21%)
+Health Insurance
+Private 170 (53%) 161 (53%)
+Medicaid 28 (9%) 27 (9%)
+Medicare 53 (17%) 52 (17%)
+Other government 29 (9%) 27 (9%)
+No coverage 18 (6%) 18 (6%)
+No answer 22 (7%) 20 (7%)
+*N = 343 enrolled; however, expect for age, data are missing for N = 23. Thus, this cohort includes N = 320.
+aValues collected at Visit 4 (initiation of treatment period); all other values collected at Visit 1.
+Participant Diabetes History
+Standard Therapy Treatment Period
+N = 320* N = 305
+Diabetes Duration (yrs.)
+<5 18 (6%) 14 (5%)
+5-<10 47 (15%) 46 (15%)
+10-<20 132 (41%) 128 (42%)
+≥20 123 (38%) 117 (38%)
+Median (IQR) 17 (11, 24) 17 (11, 24)
+Range 0.3 to 41 0.3 to 41
+Insulin Modality
+Pump 17 (5%) 17 (6%)
+Injections 303 (95%) 288 (94%)
+Insulin
+Basal/Bolus 252 (79%) 240 (79%)
+Basal only 66 (21%) 63 (21%)
+Pre-mix 2 (<1%) 2 (<1%)
+Non-Insulin Glucose Lowering Medications of
+Interesta – n (%)
+GLP-1 178 (56%) 168 (55%)
+SGLT2 143 (45%) 135 (44%)
+DPP4 8 (3%) 8 (3%)
+GLP1 or SGLT2b 145 (45%) 139 (46%)
+GLP1 and SGLT2b 88 (28%) 82 (27%)
+K241777 - Page 8 of 16
+
+[Table 1 on page 8]
+Annual Household Income
+<$25,000
+$25,000-<$35,000
+$35,000-<$50,000
+$50,000-<$75,000
+$75,000-<$100,000
+$100,00-<$200,000
+$200,000 or more
+Unknown
+Does not wish to report	43 (13%)
+27 (8%)
+21 (7%)
+49 (15%)
+28 (9%)
+54 (17%)
+16 (5%)
+16 (5%)
+66 (21%)	42 (14%)
+23 (8%)
+19 (6%)
+49 (16%)
+26 (9%)
+51 (17%)
+16 (5%)
+16 (5%)
+63 (21%)
+Health Insurance
+Private
+Medicaid
+Medicare
+Other government
+No coverage
+No answer	170 (53%)
+28 (9%)
+53 (17%)
+29 (9%)
+18 (6%)
+22 (7%)	161 (53%)
+27 (9%)
+52 (17%)
+27 (9%)
+18 (6%)
+20 (7%)
+
+[Table 2 on page 8]
+	Standard Therapy
+N = 320*	Treatment Period
+N = 305
+Diabetes Duration (yrs.)
+<5
+5-<10
+10-<20
+≥20
+Median (IQR)
+Range	18 (6%)
+47 (15%)
+132 (41%)
+123 (38%)
+17 (11, 24)
+0.3 to 41	14 (5%)
+46 (15%)
+128 (42%)
+117 (38%)
+17 (11, 24)
+0.3 to 41
+Insulin Modality
+Pump
+Injections	17 (5%)
+303 (95%)	17 (6%)
+288 (94%)
+Insulin
+Basal/Bolus
+Basal only
+Pre-mix	252 (79%)
+66 (21%)
+2 (<1%)	240 (79%)
+63 (21%)
+2 (<1%)
+Non-Insulin Glucose Lowering Medications of
+Interesta – n (%)
+GLP-1
+SGLT2
+DPP4
+GLP1 or SGLT2b
+GLP1 and SGLT2b	178 (56%)
+143 (45%)
+8 (3%)
+145 (45%)
+88 (28%)	168 (55%)
+135 (44%)
+8 (3%)
+139 (46%)
+82 (27%)
+
+--- Page 9 ---
+Prior Continuous Glucose Monitor Use
+Never 80 (25%) 75 (25%)
+In past, but not current 44 (14%) 42 (14%)
+Current 196 (61%) 188 (62%)
+Duration of CGM use at Baseline
+<3 months 16 (8%) 16 (9%)
+3-<6 months 20 (10%) 20 (11%)
+6 months-<1 year 29 (15%) 27 (14%)
+1-<2 years 46 (23%) 43 (23%)
+2-<5 years 69 (35%) 67 (36%)
+>=5 years 16 (8%) 15 (8%)
+HbA1c – Local
+<8.0% 160 (50%) 152 (50%)
+8.0%-<9.0% 76 (24%0 72 (24%)
+≥9.0% 84 (26%) 81 (27%)
+Mean (SD) 8.2 (1.4) 8.2 (1.4)
+Range 4.9 to 11.9 4.9 to 11.9
+Total Daily Insulin (U/kg/day)
+Mean (SD) 0.8 (0.5) 0.8 (0.5)
+Range 0.1 to 2.9 0.1 to 2.9
+Severe Events
+Severe hypoglycemia ever 14 (4%) 13 (4%)
+Diabetic ketoacidosis ever 18 (6%) 16 (5%)
+Hyperosmolar hyperglycemic state ever 1 (<1%) 1 (<1%)
+c-Peptidec,d (nmol/L) – Median (IQR) 1.0 (0.6, 1.4) 1.0 (0.6, 1.4)
+Serum Creatinine c,e (mg/dL) – Median (IQR) 0.9 (0.7, 1.1) 0.9 (0.7, 1.1)
+GAD Antibody c,f (IU/mL) – n (%)
+<5.0 284 (93%) 284 (93%)
+5.0< to <250 7 (2%) 7 (2%)
+≥250 13 (4%) 13 (4%)
+*N = 343 enrolled; however, except for age, data are missing for N = 23. Thus, this cohort includes N = 320.
+aNot mutually exclusive. In the N=320 cohort, 88 are on both SGLT2 and GLP1, 3 on both SGLT2 and DPP4, 2 on
+GLP1 and DPP4, and 1 on all 3. In the N=305 cohort, 82 are on both SGLT2 and GLP1, 3 on both SGLT2 and
+DPP4, 2 on GLP1 and DPP4, and 1 on all 3.
+bParticipants were enrolled with a goal of at least 20% on SGLT or GLP1 and at least 5% on both SGLT and GLP1.
+cValues collected at Visit 4.
+dCollected at Visit 4 only and missing for 5 participants.
+eCollected at Visit 4 only and missing for 3 participants.
+fCollected at Visit 4 only and missing for 1 participant.
+K241777 - Page 9 of 16
+
+[Table 1 on page 9]
+Prior Continuous Glucose Monitor Use
+Never
+In past, but not current
+Current	80 (25%)
+44 (14%)
+196 (61%)	75 (25%)
+42 (14%)
+188 (62%)
+Duration of CGM use at Baseline
+<3 months
+3-<6 months
+6 months-<1 year
+1-<2 years
+2-<5 years
+>=5 years	16 (8%)
+20 (10%)
+29 (15%)
+46 (23%)
+69 (35%)
+16 (8%)	16 (9%)
+20 (11%)
+27 (14%)
+43 (23%)
+67 (36%)
+15 (8%)
+HbA1c – Local
+<8.0%
+8.0%-<9.0%
+≥9.0%
+Mean (SD)
+Range	160 (50%)
+76 (24%0
+84 (26%)
+8.2 (1.4)
+4.9 to 11.9	152 (50%)
+72 (24%)
+81 (27%)
+8.2 (1.4)
+4.9 to 11.9
+Total Daily Insulin (U/kg/day)
+Mean (SD)
+Range	0.8 (0.5)
+0.1 to 2.9	0.8 (0.5)
+0.1 to 2.9
+Severe Events
+Severe hypoglycemia ever
+Diabetic ketoacidosis ever
+Hyperosmolar hyperglycemic state ever	14 (4%)
+18 (6%)
+1 (<1%)	13 (4%)
+16 (5%)
+1 (<1%)
+c-Peptidec,d (nmol/L) – Median (IQR)	1.0 (0.6, 1.4)	1.0 (0.6, 1.4)
+Serum Creatinine c,e (mg/dL) – Median (IQR)	0.9 (0.7, 1.1)	0.9 (0.7, 1.1)
+GAD Antibody c,f (IU/mL) – n (%)
+<5.0
+5.0< to <250
+≥250	284 (93%)
+7 (2%)
+13 (4%)	284 (93%)
+7 (2%)
+13 (4%)
+
+--- Page 10 ---
+Observed Results
+The primary endpoint was the change in HbA1c from baseline (8.2%) to the end of 13 weeks of
+Omnipod 5 System use (7.4%). There was a mean change in HbA1c of –0.8% (P<0.001), with a
+larger change in mean HbA1c for those with a higher baseline HbA1c. The table below shows
+the results of the primary safety and efficacy endpoints across the entire study population:
+Baseline End of Mean Estimate P-value for
+N = 296 Study and 95% CI for End of Study
+N = 296 End of Study vs. vs. Baseline
+Baseline (non-
+N = 296 inferiority)
+HbA1ca 8.2% 7.4% -0.8% <0.001 a,b
+mean (SD) (1.3%) (0.9%) (-1.0%, -0.7%)
+aTesting for non-inferiority with a NI limit of 0.3%.
+bA sensitivity analysis was done using Rubin’s multiple imputation for the N=9 participants who dropped out
+without a 13-week HbA1c value. This gave the same point estimate, confidence interval and p-value as above: -0.8%
+(-1.0%, -0.7%); p<0.001. Note, any HbA1c measurements outside the analysis window of 42-119 days (6-17 weeks)
+from AID initiation were treated as missing data.
+There was no statistically significant change in HbA1c between sex, income or education level,
+or other medication use. There was a significant change in HbA1c between different age,
+race/ethnicity, pre-study carb counting knowledge, and baseline HbA1c. Specifically, the most
+improvement in HbA1c was noted in Hispanic or other subjects, subject ages 31-45 years old,
+and subjects who did not carb count prior to this study. Finally, subjects with the highest starting
+baseline (HbA1c ≥ 9%) had the greatest improvement in HbA1c from a mean of 10.1% to 8.1%.
+The table below shows subgroup analyses for the change in HbA1c by baseline characteristics:
+Standard Treatment Difference Interaction
+Therapy Period P-Value*
+Gender
+Female (N = 168)
+Mean ± SD 8.3 ± 1.4 7.4 ± 0.9 -0.9 ± 1.1
+[Range] 4.9 to 11.7 5.6 to 9.8 -5.3 to 1.2
+0.73/0.54
+Male (N = 128)
+Mean ± SD 8.1 ± 1.2 7.3 ± 0.8 -0.8 ± 1.0
+[Range] 6.2 to 12.0 5.7 to 10.6 -5.1 to 2.8
+Race/Ethnicity
+Non-Hispanic White (N = 148)
+Mean ± SD 7.9 ± 1.1 7.2 ± 0.8 -0.7 ± 0.9
+[Range] 5.5 to 11.1 5.6 to 10.6 -3.7 to 2.8
+Non-Hispanic Black/African-
+American (N = 69) 0.03/0.004
+Mean ± SD 8.6 ± 1.4 7.8 ± 1.0 -0.8 ± 1.0
+[Range] 5.3 to 12.0 5.6 to 9.8 -3.4 to 1.2
+Latino(x)/Hispanic (N = 65)
+Mean ± SD 8.5 ± 1.5 7.4 ± 0.9 -1.2 ± 1.2
+K241777 - Page 10 of 16
+
+[Table 1 on page 10]
+	Baseline
+N = 296	End of
+Study
+N = 296	Mean Estimate
+and 95% CI for
+End of Study vs.
+Baseline
+N = 296	P-value for
+End of Study
+vs. Baseline
+(non-
+inferiority)
+HbA1ca
+mean (SD)	8.2%
+(1.3%)	7.4%
+(0.9%)	-0.8%
+(-1.0%, -0.7%)	<0.001 a,b
+
+[Table 2 on page 10]
+	Standard
+Therapy	Treatment
+Period	Difference	Interaction
+P-Value*
+Gender				
+Female (N = 168)
+Mean ± SD
+[Range]	8.3 ± 1.4
+4.9 to 11.7	7.4 ± 0.9
+5.6 to 9.8	-0.9 ± 1.1
+-5.3 to 1.2	0.73/0.54
+Male (N = 128)
+Mean ± SD
+[Range]	8.1 ± 1.2
+6.2 to 12.0	7.3 ± 0.8
+5.7 to 10.6	-0.8 ± 1.0
+-5.1 to 2.8	
+Race/Ethnicity				
+Non-Hispanic White (N = 148)
+Mean ± SD
+[Range]	7.9 ± 1.1
+5.5 to 11.1	7.2 ± 0.8
+5.6 to 10.6	-0.7 ± 0.9
+-3.7 to 2.8	0.03/0.004
+Non-Hispanic Black/African-
+American (N = 69)
+Mean ± SD
+[Range]	8.6 ± 1.4
+5.3 to 12.0	7.8 ± 1.0
+5.6 to 9.8	-0.8 ± 1.0
+-3.4 to 1.2	
+Latino(x)/Hispanic (N = 65)
+Mean ± SD	8.5 ± 1.5	7.4 ± 0.9	-1.2 ± 1.2	
+
+--- Page 11 ---
+[Range] 4.9 to 11.9 5.7 to 9.5 -5.3 to 0.8
+Other (N = 14)
+Mean 8.5 ± 1.4 7.3 ± 0.9 -1.2 ± 1.2
+[Range] 7.0 to 11.7 6.3 to 9.3 -4.2 to 0.6
+Age
+18-<30 years (N = 5)
+Mean ± SD 7.5 ± 2.3 7.2 ± 1.5 -0.2 ± 0.8
+Range 4.9 to 11.1 5.7 to 9.8 -1.3 to 0.8
+30-<45 years (N = 41)
+Mean ± SD 8.8 ± 1.6 7.4 ± 1.0 -1.4 ± 1.3
+Range 5.3 to 11.7 5.6 to 9.5 -5.3 to 0.6
+0.006/0.51
+45-<65 years (N = 166)
+Mean ± SD 8.3 ± 1.2 7.4 ± 0.9 -0.8 ± 1.0
+Range 6.2 to 12.0 5.6 to 10.6 -3.4 to 2.8
+≥ 65 years (N = 84)
+Mean ± SD 7.9 ± 1.1 7.2 ± 0.8 -0.6 ± 0.9
+Range 5.5 to 11.0 5.7 to 9.1 -5.1 to 0.9
+Income
+<$50,000/year (N = 81)
+Mean 8.5 ± 1.5 7.6 ± 1.0 -0.9 ± 1.0
+[Range] 5.3 to 11.3 5.6 to 9.8 -5.1 to 1.2
+$50,000 -<$100,000/year
+(N = 72)
+Mean 8.1 ± 1.2 7.2 ± 0.7 0.9 ± 1.1
+[Range] 5.5 to 12.0 5.6 to 9.8 -5.3 to 0.9
+$100,000-<$200,000/year
+(N = 51) 0.80/0.54
+Mean 8.0 ± 1.0 7.3 ± 0.8 -0.7 ± 0.9
+[Range] 6.8 to 11.7 5.8 to 9.7 -3.4 to 0.7
+≥$200,000/year (N = 16)
+Mean 8.3 ± 1.6 7.3 ± 0.8 -1.0 ± 1.3
+[Range] 6.2 to 11.6 5.9 to 9.0 -4.2 to 0.4
+Unknown (N = 76)
+Mean 8.2 ± 1.3 7.4 ± 1.0 -0.8 ± 1.1
+[Range] 4.9 to 11.9 5.7 to 10.6 -3.7 to 2.8
+Education
+High School/GED or Less
+(N = 95)
+Mean ± SD 8.4 ± 1.3 7.4 ± 1.0 -1.0 ± 1.0
+[Range] 6.2 to 12.0 5.6 to 10.6 -3.4 to 2.8
+Technical/Vocational/Associates
+(N = 70)
+0.72/0.18
+Mean ± SD 7.9 ± 1.3 7.1 ± 0.7 -0.9 ± 1.1
+[Range] 4.9 to 11.3 5.6 to 8.5 -5.3 to 0.9
+College Degree (N = 70)
+Mean ± SD 8.3 ± 1.3 7.6 ± 0.9 -0.7 ± 1.0
+[Range] 6.2 to 11.9 5.9 to 9.8 -5.1 to 1.0
+Advanced Degree (N = 40)
+K241777 - Page 11 of 16
+
+[Table 1 on page 11]
+[Range]	4.9 to 11.9	5.7 to 9.5	-5.3 to 0.8	
+Other (N = 14)
+Mean
+[Range]	8.5 ± 1.4
+7.0 to 11.7	7.3 ± 0.9
+6.3 to 9.3	-1.2 ± 1.2
+-4.2 to 0.6	
+Age				
+18-<30 years (N = 5)
+Mean ± SD
+Range	7.5 ± 2.3
+4.9 to 11.1	7.2 ± 1.5
+5.7 to 9.8	-0.2 ± 0.8
+-1.3 to 0.8	0.006/0.51
+30-<45 years (N = 41)
+Mean ± SD
+Range	8.8 ± 1.6
+5.3 to 11.7	7.4 ± 1.0
+5.6 to 9.5	-1.4 ± 1.3
+-5.3 to 0.6	
+45-<65 years (N = 166)
+Mean ± SD
+Range	8.3 ± 1.2
+6.2 to 12.0	7.4 ± 0.9
+5.6 to 10.6	-0.8 ± 1.0
+-3.4 to 2.8	
+≥ 65 years (N = 84)
+Mean ± SD
+Range	7.9 ± 1.1
+5.5 to 11.0	7.2 ± 0.8
+5.7 to 9.1	-0.6 ± 0.9
+-5.1 to 0.9	
+Income				
+<$50,000/year (N = 81)
+Mean
+[Range]	8.5 ± 1.5
+5.3 to 11.3	7.6 ± 1.0
+5.6 to 9.8	-0.9 ± 1.0
+-5.1 to 1.2	0.80/0.54
+$50,000 -<$100,000/year
+(N = 72)
+Mean
+[Range]	8.1 ± 1.2
+5.5 to 12.0	7.2 ± 0.7
+5.6 to 9.8	0.9 ± 1.1
+-5.3 to 0.9	
+$100,000-<$200,000/year
+(N = 51)
+Mean
+[Range]	8.0 ± 1.0
+6.8 to 11.7	7.3 ± 0.8
+5.8 to 9.7	-0.7 ± 0.9
+-3.4 to 0.7	
+≥$200,000/year (N = 16)
+Mean
+[Range]	8.3 ± 1.6
+6.2 to 11.6	7.3 ± 0.8
+5.9 to 9.0	-1.0 ± 1.3
+-4.2 to 0.4	
+Unknown (N = 76)
+Mean
+[Range]	8.2 ± 1.3
+4.9 to 11.9	7.4 ± 1.0
+5.7 to 10.6	-0.8 ± 1.1
+-3.7 to 2.8	
+Education				
+High School/GED or Less
+(N = 95)
+Mean ± SD
+[Range]	8.4 ± 1.3
+6.2 to 12.0	7.4 ± 1.0
+5.6 to 10.6	-1.0 ± 1.0
+-3.4 to 2.8	0.72/0.18
+Technical/Vocational/Associates
+(N = 70)
+Mean ± SD
+[Range]	7.9 ± 1.3
+4.9 to 11.3	7.1 ± 0.7
+5.6 to 8.5	-0.9 ± 1.1
+-5.3 to 0.9	
+College Degree (N = 70)
+Mean ± SD
+[Range]	8.3 ± 1.3
+6.2 to 11.9	7.6 ± 0.9
+5.9 to 9.8	-0.7 ± 1.0
+-5.1 to 1.0	
+Advanced Degree (N = 40)				
+
+--- Page 12 ---
+Mean ± SD 8.1 ± 1.4 7.3 ± 0.9 -0.8 ± 1.1
+[Range] 6.0 to 11.7 5.9 to 9.3 -4.2 to 0.6
+Do not wish to provide (N = 21)
+Mean ± SD 8.3 ± 1.3 7.5 ± 0.9 -0.8 ± 1.1
+[Range] 6.2 to 10.7 6.0 to 9.8 -3.7 to 1.1
+Insurance
+Private (N = 159)
+Mean ± SG 8.1 ± 1.3 7.3 ± 0.9 -0.8 ± 1.0
+[Range] 4.9 to 12.0 5.6 to 9.8 -5.3 to 1.1
+Other (N = 101)
+Mean ± SG 8.2 ± 1.4 7.4 ± 1.0 -0.8 ± 1.1
+[Range] 5.5 to 11.9 5.8 to 10.6 -5.1 to 2.8
+0.50/0.69
+No coverage (N = 18)
+Mean ± SG 9.1 ± 1.3 7.9 ± 0.8 -1.2 ± 1.1
+[Range] 6.7 to 10.6 5.7 to 9.0 -2.8 to 1.0
+No answer (N = 18)
+Mean ± SG 8.4 ± 1.4 7.4 ± 0.7 -0.9 ± 1.1
+[Range] 6.2 to 10.7 6.0 to 9.1 -3.7 to 0.4
+Pre-Study Carb Counting
+(excludes basal-only users)
+Carb Counting (N = 49)
+Mean ± SD 7.6 ± 1.0 7.2 ± 1.0 -0.4 ± 0.9
+[Range] 5.5 to 11.7 5.8 to 10.6 -2.4 to 2.8
+Fixed Dose (N = 108)
+Mean ± SD 8.3 ± 1.4 7.4 ± 0.9 -0.9 ± 1.1
+[Range] 5.3 to 11.6 5.6 to 9.8 -5.1 to 1.0
+Sliding Scale (N = 46)
+Mean ± SD 8.1 ± 1.4 7.3 ± 0.8 -0.8 ± 1.0 0.02/0.60
+[Range] 4.9 to 12.0 5.6 to 8.9 -3.4 to 0.8
+Small/Medium/Large (N = 30)
+Mean ± SD 8.2 ± 1.4 7.3 ± 0.9 -0.9 ± 0.9
+[Range] 6.2 to 11.9 5.7 to 9.4 -2.7 to 0.4
+Other (N = 1)
+Mean ± SD NA NA NA
+[Range] NA NA NA
+C-Peptide
+<0.5 (N = 50)
+Mean ± SD 8.2 ± 1.3 7.4 ± 0.8 -0.8 ± 1.0
+[Range] 6.2 to 11.3 5.7 to 9.6 -3.7 to 0.6
+0.5-<1.0 (N = 105)
+Mean ± SD 8.2 ± 1.5 7.4 ± 0.9 -0.8 ± 1.1
+[Range] 4.9 to 11.7 5.6 to 9.8 -5.3 to 1.0
+0.67/0.54
+1.0-<1.5 (N = 75)
+Mean ± SD 8.3 ± 1.2 7.3 ± 0.9 -1.0 ± 0.9
+[Range] 6.3 to 11.9 5.7 to 9.7 -5.1 to 0.6
+≥1.5 (N = 61)
+Mean ± SD 8.1 ± 1.3 7.3 ± 1.0 -0.8 ± 1.1
+[Range] 5.3 to 12.0 5.6 to 10.6 -3.5 to 2.8
+K241777 - Page 12 of 16
+
+[Table 1 on page 12]
+Mean ± SD
+[Range]	8.1 ± 1.4
+6.0 to 11.7	7.3 ± 0.9
+5.9 to 9.3	-0.8 ± 1.1
+-4.2 to 0.6	
+Do not wish to provide (N = 21)
+Mean ± SD
+[Range]	8.3 ± 1.3
+6.2 to 10.7	7.5 ± 0.9
+6.0 to 9.8	-0.8 ± 1.1
+-3.7 to 1.1	
+Insurance				
+Private (N = 159)
+Mean ± SG
+[Range]	8.1 ± 1.3
+4.9 to 12.0	7.3 ± 0.9
+5.6 to 9.8	-0.8 ± 1.0
+-5.3 to 1.1	0.50/0.69
+Other (N = 101)
+Mean ± SG
+[Range]	8.2 ± 1.4
+5.5 to 11.9	7.4 ± 1.0
+5.8 to 10.6	-0.8 ± 1.1
+-5.1 to 2.8	
+No coverage (N = 18)
+Mean ± SG
+[Range]	9.1 ± 1.3
+6.7 to 10.6	7.9 ± 0.8
+5.7 to 9.0	-1.2 ± 1.1
+-2.8 to 1.0	
+No answer (N = 18)
+Mean ± SG
+[Range]	8.4 ± 1.4
+6.2 to 10.7	7.4 ± 0.7
+6.0 to 9.1	-0.9 ± 1.1
+-3.7 to 0.4	
+Pre-Study Carb Counting
+(excludes basal-only users)				
+Carb Counting (N = 49)
+Mean ± SD
+[Range]	7.6 ± 1.0
+5.5 to 11.7	7.2 ± 1.0
+5.8 to 10.6	-0.4 ± 0.9
+-2.4 to 2.8	0.02/0.60
+Fixed Dose (N = 108)
+Mean ± SD
+[Range]	8.3 ± 1.4
+5.3 to 11.6	7.4 ± 0.9
+5.6 to 9.8	-0.9 ± 1.1
+-5.1 to 1.0	
+Sliding Scale (N = 46)
+Mean ± SD
+[Range]	8.1 ± 1.4
+4.9 to 12.0	7.3 ± 0.8
+5.6 to 8.9	-0.8 ± 1.0
+-3.4 to 0.8	
+Small/Medium/Large (N = 30)
+Mean ± SD
+[Range]	8.2 ± 1.4
+6.2 to 11.9	7.3 ± 0.9
+5.7 to 9.4	-0.9 ± 0.9
+-2.7 to 0.4	
+Other (N = 1)
+Mean ± SD
+[Range]	NA
+NA	NA
+NA	NA
+NA	
+C-Peptide				
+<0.5 (N = 50)
+Mean ± SD
+[Range]	8.2 ± 1.3
+6.2 to 11.3	7.4 ± 0.8
+5.7 to 9.6	-0.8 ± 1.0
+-3.7 to 0.6	0.67/0.54
+0.5-<1.0 (N = 105)
+Mean ± SD
+[Range]	8.2 ± 1.5
+4.9 to 11.7	7.4 ± 0.9
+5.6 to 9.8	-0.8 ± 1.1
+-5.3 to 1.0	
+1.0-<1.5 (N = 75)
+Mean ± SD
+[Range]	8.3 ± 1.2
+6.3 to 11.9	7.3 ± 0.9
+5.7 to 9.7	-1.0 ± 0.9
+-5.1 to 0.6	
+≥1.5 (N = 61)
+Mean ± SD
+[Range]	8.1 ± 1.3
+5.3 to 12.0	7.3 ± 1.0
+5.6 to 10.6	-0.8 ± 1.1
+-3.5 to 2.8	
+
+--- Page 13 ---
+Missing (N = 5)
+Mean ± SD 8.5 ± 0.3 7.8 ± 0.4 -0.7 ± 0.5
+[Range] 8.2 to 8.9 7.4 to 8.3 -1.2 to -0.2
+SGLT2
+Yes (N = 130)
+Mean ± SD 8.2 ± 1.3 7.4 ± 0.9 -0.8 ± 1.1
+[Range] 5.5 to 12.0 5.7 to 10.6 -4.2 to 2.8
+0.50/0.54
+No (N = 166)
+Mean ± SD 8.3 ± 1.4 7.4 ± 0.9 -0.9 ± 1.0
+[Range] 4.9 to 11.9 5.6 to 9.8 -53 to 0.8
+GLP1
+Yes (N = 164)
+Mean ± SD 8.1 ± 1.2 7.3 ± 0.8 -0.8 ± 1.0
+[Range] 5.3 to 11.9 5.6 to 9.7 -5.3 to 1.2
+0.50/0.51
+No (N = 132)
+Mean ± SD 8.4 ± 1.4 7.5 ± 1.0 -0.9 ± 1.1
+[Range] 4.9 to 12.0 5.6 to 10.6 -5.1 to 2.8
+DDP4
+Yes (N = 8)
+Mean ± SD 7.7 ± 1.4 7.4 ± 0.8 -0.4 ± 1.0
+[Range] 6.2 to 10.8 5.9 to 8.3 -2.5 to 0.7
+0.33/0.54
+No (N = 288)
+Mean ± SD 8.2 ± 1.3 7.4 ± 0.9 -0.9 ± 1.0
+[Range] 4.9 to 12.0 5.6 to 10.6 -5.3 to 2.8
+≥1 Agent
+Yes (N = 219)
+Mean ± SD 8.2 ± 1.3 7.3 ± 0.9 -0.8 ± 1.0
+[Range] 5.3 to 12.0 5.6 to 10.6 -5.3 to 2.8
+0.50/0.60
+No (N = 77)
+Mean ± SD 8.4 ± 1.4 7.5 ± 0.9 -0.9 ± 1.0
+[Range] 4.9 to 11.7 5.6 to 9.8 -5.1 to 0.8
+Baseline HbA1c (%)
+<7.0% (N = 42)
+Mean ± SD 6.5 ± 0.4 6.5 ± 0.6 -0.0 ± 0.5
+[Range] 4.9 to 6.9 5.6 to 7.7 -1.2 to 1.0
+7.0-7.9% (N = 104)
+Mean ± SD 7.5 ± 0.3 7.1 ± 0.6 -0.4 ± 0.6
+[Range] 7.0 to 7.9 5.8 to 10.6 -2.0 to 2.8
+<0.001/NA
+8.0-8.9% (N = 82)
+Mean ± SD 8.5 ± 0.3 7.6 ± 0.8 -0.8 ± 0.7
+[Range] 8.0 to 8.9 6.0 to 9.8 -2.5 to 1.1
+≥9.0% (N = 68)
+Mean ± SD 10.1 ± 0.9 8.1 ± 0.9 -2.1 ± 1.0
+[Range] 9.0 to 12.0 5.9 to 9.8 -5.3 to 0.0
+*P-values compare the change in outcome between the characteristic levels. The first P-value is without adjusting
+for baseline outcome and the second P-value is with adjusting for baseline outcome.
+K241777 - Page 13 of 16
+
+[Table 1 on page 13]
+Missing (N = 5)
+Mean ± SD
+[Range]	8.5 ± 0.3
+8.2 to 8.9	7.8 ± 0.4
+7.4 to 8.3	-0.7 ± 0.5
+-1.2 to -0.2	
+SGLT2				
+Yes (N = 130)
+Mean ± SD
+[Range]	8.2 ± 1.3
+5.5 to 12.0	7.4 ± 0.9
+5.7 to 10.6	-0.8 ± 1.1
+-4.2 to 2.8	0.50/0.54
+No (N = 166)
+Mean ± SD
+[Range]	8.3 ± 1.4
+4.9 to 11.9	7.4 ± 0.9
+5.6 to 9.8	-0.9 ± 1.0
+-53 to 0.8	
+GLP1				
+Yes (N = 164)
+Mean ± SD
+[Range]	8.1 ± 1.2
+5.3 to 11.9	7.3 ± 0.8
+5.6 to 9.7	-0.8 ± 1.0
+-5.3 to 1.2	0.50/0.51
+No (N = 132)
+Mean ± SD
+[Range]	8.4 ± 1.4
+4.9 to 12.0	7.5 ± 1.0
+5.6 to 10.6	-0.9 ± 1.1
+-5.1 to 2.8	
+DDP4				
+Yes (N = 8)
+Mean ± SD
+[Range]	7.7 ± 1.4
+6.2 to 10.8	7.4 ± 0.8
+5.9 to 8.3	-0.4 ± 1.0
+-2.5 to 0.7	0.33/0.54
+No (N = 288)
+Mean ± SD
+[Range]	8.2 ± 1.3
+4.9 to 12.0	7.4 ± 0.9
+5.6 to 10.6	-0.9 ± 1.0
+-5.3 to 2.8	
+≥1 Agent				
+Yes (N = 219)
+Mean ± SD
+[Range]	8.2 ± 1.3
+5.3 to 12.0	7.3 ± 0.9
+5.6 to 10.6	-0.8 ± 1.0
+-5.3 to 2.8	0.50/0.60
+No (N = 77)
+Mean ± SD
+[Range]	8.4 ± 1.4
+4.9 to 11.7	7.5 ± 0.9
+5.6 to 9.8	-0.9 ± 1.0
+-5.1 to 0.8	
+Baseline HbA1c (%)				
+<7.0% (N = 42)
+Mean ± SD
+[Range]	6.5 ± 0.4
+4.9 to 6.9	6.5 ± 0.6
+5.6 to 7.7	-0.0 ± 0.5
+-1.2 to 1.0	<0.001/NA
+7.0-7.9% (N = 104)
+Mean ± SD
+[Range]	7.5 ± 0.3
+7.0 to 7.9	7.1 ± 0.6
+5.8 to 10.6	-0.4 ± 0.6
+-2.0 to 2.8	
+8.0-8.9% (N = 82)
+Mean ± SD
+[Range]	8.5 ± 0.3
+8.0 to 8.9	7.6 ± 0.8
+6.0 to 9.8	-0.8 ± 0.7
+-2.5 to 1.1	
+≥9.0% (N = 68)
+Mean ± SD
+[Range]	10.1 ± 0.9
+9.0 to 12.0	8.1 ± 0.9
+5.9 to 9.8	-2.1 ± 1.0
+-5.3 to 0.0	
+
+--- Page 14 ---
+Key secondary endpoints of the study included mean glucose and percent time in range (70-180
+mg/dL). There was a significant increase in the time in range from 45% to 66% and
+improvement in the time above range (>250 mg/dL) from 20% to 7%. There was an increase in
+the time below range (<54 mg/dL) from 0.01% to 0.04%. The table below shows the
+hierarchical CGM metrics and patient reported outcomes for the entire study population:
+Standard Treatment Change in CGM
+Therapy Period Metrics
+(N = 299)* (N = 299) *
+Glucose Hours-Median (IQR) 336 (319, 336) 1921 (1736, -
+2016)
+Mean glucose (mg/dL)
+Mean (SD) 202 (50) 170 (24) -32 (39)
+P-value - - <0.001
+(95% CI) - - -32 (-37, -28)
+% time 70-180 mg/dL
+Mean (SD) 45% (25%) 66% (17%) 20% (20%)
+P-value - - <0.001
+(95% CI) - - 20% (18%, 22%)
+% time 70-140 mg/dL
+Mean (SD) 21% (18%) 33% (17%) 12% (16%)
+P-value - - <0.001
+(95% CI) - - 12% (10%, 13%)
+% time ≥ 300 mg/dL
+Robust ^ Mean (SD) 7.9% (10.3%) 1.9% (2.4%) -5.3% (7.9%)
+P-value - - <0.001
+(95% CI) - - -5.3% (-6.3%, -4.4%)
+% time > 250 mg/dL
+Robust ^ Mean (SD) 20% (22%) 7% (8%) -12% (17%)
+P-value - - <0.001
+(95% CI) - - -12% (-14%, -11%)
+% time > 180 mg/dL
+Mean (SD) 54% (25%) 34% (17%) -20% (20%)
+P-value - - <0.001
+(95% CI) - - -20% (-22%, -18%)
+% time <70 mg/dL
+Robust ^ Mean (SD) 0.2% (0.3%) 0.2% (0.2%) 0.0% (0.03)
+Non-inferiority P-value - - <0.001
+(NI margin = 2.0%) - -
+(95% CI) 0.0% (-0.1%, 0.0%
+% time <54 mg/dL
+Robust ^ Mean (SD) 0.01% (0.02%) 0.04% (0.05%) 0.01% (0.05%)
+Non-inferiority P-value - - <0.001
+(NI margin = 0.5%) - -
+(95% CI) 0.01% (0.00%, 0.01%)
+T2-DDAS total intensity score N = 305 N = 301 N = 301
+†
+Mean (SD) 2.5 (1.0) 2.2 (0.9)
+P-value - - -0.3 (0.9)
+K241777 - Page 14 of 16
+
+[Table 1 on page 14]
+	Standard
+Therapy
+(N = 299)*	Treatment
+Period
+(N = 299) *	Change in CGM
+Metrics
+Glucose Hours-Median (IQR)	336 (319, 336)	1921 (1736,
+2016)	-
+Mean glucose (mg/dL)
+Mean (SD)
+P-value
+(95% CI)	202 (50)
+-
+-	170 (24)
+-
+-	-32 (39)
+<0.001
+-32 (-37, -28)
+% time 70-180 mg/dL
+Mean (SD)
+P-value
+(95% CI)	45% (25%)
+-
+-	66% (17%)
+-
+-	20% (20%)
+<0.001
+20% (18%, 22%)
+% time 70-140 mg/dL
+Mean (SD)
+P-value
+(95% CI)	21% (18%)
+-
+-	33% (17%)
+-
+-	12% (16%)
+<0.001
+12% (10%, 13%)
+% time ≥ 300 mg/dL
+Robust ^ Mean (SD)
+P-value
+(95% CI)	7.9% (10.3%)
+-
+-	1.9% (2.4%)
+-
+-	-5.3% (7.9%)
+<0.001
+-5.3% (-6.3%, -4.4%)
+% time > 250 mg/dL
+Robust ^ Mean (SD)
+P-value
+(95% CI)	20% (22%)
+-
+-	7% (8%)
+-
+-	-12% (17%)
+<0.001
+-12% (-14%, -11%)
+% time > 180 mg/dL
+Mean (SD)
+P-value
+(95% CI)	54% (25%)
+-
+-	34% (17%)
+-
+-	-20% (20%)
+<0.001
+-20% (-22%, -18%)
+% time <70 mg/dL
+Robust ^ Mean (SD)
+Non-inferiority P-value
+(NI margin = 2.0%)
+(95% CI)	0.2% (0.3%)
+-
+-	0.2% (0.2%)
+-
+-	0.0% (0.03)
+<0.001
+0.0% (-0.1%, 0.0%
+% time <54 mg/dL
+Robust ^ Mean (SD)
+Non-inferiority P-value
+(NI margin = 0.5%)
+(95% CI)	0.01% (0.02%)
+-
+-	0.04% (0.05%)
+-
+-	0.01% (0.05%)
+<0.001
+0.01% (0.00%, 0.01%)
+T2-DDAS total intensity score
+†
+Mean (SD)
+P-value	N = 305
+2.5 (1.0)
+-	N = 301
+2.2 (0.9)
+-	N = 301
+-0.3 (0.9)
+
+--- Page 15 ---
+(95% CI) - - <0.001
+T2-DDAS total intensity score 201 (66%) 167 (55%) -0.3 (00.4, -0.2)
+≥2.0
+P-value <0.001
+PSQI total score N = 304 N = 300 N = 294
+†
+Mean (SD) 7.3 (4.0) 7.0 (4.1) -0.4 (2.9)
+P-value - - 0.04
+(95% CI) - - -0.4 (-0.7, 0.0)
+PSQI total score >5.0 190 (63%) 174 (59%)
+P-value 0.10
+HCS total score N = 305 N = 300 N = 300
+Mean (SD) 3.2 (0.6) 3.3 (0.6) 0.1 (0.6)
+P-value - - NA#
+(95% CI) - - 0.1 (0.0, 0.1)
+HCS total score <3.0 98 (32%) 75 (25%)
+P-value NA#
+% time <70 mg/dL
+Robust ^ Mean (SD) 0.2% (0.3%) 0.2% (0.2%) 0.0% (0.03)
+Superiority P-value - - NA#
+(95% CI) - - 0.0% (-0.1%, 0.0%)
+% time <54 mg/dL
+Robust ^ Mean (SD) 0.01% (0.02%) 0.04% (0.05%) 0.01% (0.05%)
+Superiority P-value - - NA#
+(95% CI) - - 0.01% (0.00%, 0.01%)
+Coefficient of Variation
+Mean (SD) 27.8% (6.3%) 27.1% (5.1%) -0.7% (5.6%)
+P-value - - NA#
+(95% CI) - - -0.7% (-1.4%, -.01%)
+*Based on the pre-specified criteria (“CGM analyses will include all participants with ≥168 hours of CGM data
+during each of the Standard therapy period and the 13-week treatment period.”), N=299 for the glycemic metrics.
+^Similar with medians, robust means do not add up; that is difference of medians is not the same as the median of
+the differences. On the other hand, standard means add up and thus any inconsistency noticed above is due to
+rounding.
+†Lower scores indicate better outcomes (e.g., less stress/distress related to diabetes, better sleep quality).
+#As part of the hierarchy testing and because of the p-value=0.10 for PSQI > 5 the formal testing stopped, and p-
+values were not given for any outcomes further down on the list.
+Challenge Results
+During this clinical study, subjects participated in up to 3 different challenges. Sixty-four
+subjects participated in a target glucose challenge in which they utilized 3 different glucose
+targets for 3 days each (150 mg/dL, 140 mg/dL, and 130 mg/dL). The mean time in range was
+the highest in the 150 mg/dL target group (66%) and was lower in the two remaining target
+groups (63% in both). There was no significant difference in time above 180 mg/dL or 250
+mg/dL between all three groups and there was a mean of 0% time below 70 mg/dL and 54 mg/dL
+in all three groups.
+K241777 - Page 15 of 16
+
+[Table 1 on page 15]
+(95% CI)
+T2-DDAS total intensity score
+≥2.0
+P-value	-
+201 (66%)	-
+167 (55%)	<0.001
+-0.3 (00.4, -0.2)
+<0.001
+PSQI total score
+†
+Mean (SD)
+P-value
+(95% CI)
+PSQI total score >5.0
+P-value	N = 304
+7.3 (4.0)
+-
+-
+190 (63%)	N = 300
+7.0 (4.1)
+-
+-
+174 (59%)	N = 294
+-0.4 (2.9)
+0.04
+-0.4 (-0.7, 0.0)
+0.10
+HCS total score
+Mean (SD)
+P-value
+(95% CI)
+HCS total score <3.0
+P-value	N = 305
+3.2 (0.6)
+-
+-
+98 (32%)	N = 300
+3.3 (0.6)
+-
+-
+75 (25%)	N = 300
+0.1 (0.6)
+NA#
+0.1 (0.0, 0.1)
+NA#
+% time <70 mg/dL
+Robust ^ Mean (SD)
+Superiority P-value
+(95% CI)	0.2% (0.3%)
+-
+-	0.2% (0.2%)
+-
+-	0.0% (0.03)
+NA#
+0.0% (-0.1%, 0.0%)
+% time <54 mg/dL
+Robust ^ Mean (SD)
+Superiority P-value
+(95% CI)	0.01% (0.02%)
+-
+-	0.04% (0.05%)
+-
+-	0.01% (0.05%)
+NA#
+0.01% (0.00%, 0.01%)
+Coefficient of Variation
+Mean (SD)
+P-value
+(95% CI)	27.8% (6.3%)
+-
+-	27.1% (5.1%)
+-
+-	-0.7% (5.6%)
+NA#
+-0.7% (-1.4%, -.01%)
+
+--- Page 16 ---
+All subjects participated in the meal challenge which lasted 4 days and consisted of a meal that
+was ≥60 g of carbohydrates. Subjects gave a meal bolus on days 1 and 3 and skipped the meal
+bolus on days 2 and 4. CGM metrics were compared at 4 hours post meal. The mean time in
+range was elevated when given a bolus (55%) compared to without a bolus (44%). There was
+more time above range when the bolus was skipped, but no difference in time below range for
+the two different actions.
+All subjects also participated in the exercise challenge in which they underwent 3 exercise
+sessions on 3 separate days. The exercise session consisted of 1 hour of mild intensity exercise
+and 30 minutes of moderate intensity exercise. Subjects did not change their glucose target, nor
+did they change their behavior for administering meal boluses prior to exercise if a meal was
+consumed, and 93% of them did not consume a snack prior to exercise. CGM metrics were
+assessed during exercise, 2 hours after exercise, and overnight after exercise. The mean time in
+range for all 3 timepoints was the same (73%) and time above 180 mg/dL was the same (27%).
+There was 0% time below 70 mg/dL and 54 mg/dL at all three timepoints. There was a slight
+increase in time above 250 mg/dL in the 2 hours post-exercise.
+Summary of Human Factors Validation Study
+Human Factors validation tests were conducted with the Omnipod 5 App installed on a
+compatible mobile device. A total of 1 feasibility study and 3 formative studies were conducted.
+This Human Factors program consisted of an iterative design process of prototyping, testing,
+analyzing, and refining the Omnipod 5 System for the type 2 diabetes indication. Following the
+4 total preliminary studies, the final device design was evaluated in the summative study
+performed with 16 representative participants interacting with the device in a simulated use
+environment. All study participants received training that was consistent with the training that
+patients would receive with the commercial product. Usability evaluations assess
+comprehension and usability of the device for critical device tasks. Results of the study
+demonstrated that the device could be used safely by intended users in the intended use
+environment.
+VII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+VIII Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K241777 - Page 16 of 16

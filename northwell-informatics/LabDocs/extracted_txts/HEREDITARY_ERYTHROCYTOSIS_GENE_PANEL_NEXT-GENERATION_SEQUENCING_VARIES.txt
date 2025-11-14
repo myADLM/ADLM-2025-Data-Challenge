@@ -1,0 +1,126 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase for HEREDITARY ERYTHROCYTOSIS GENE
+PANEL, NEXT-GENERATION SEQUENCING
+1. PURPOSE
+The purpose of this SOP is to provide a detailed protocol for the
+analytical phase of generating results for the HEREDITARY
+ERYTHROCYTOSIS GENE PANEL using Next-Generation
+Sequencing (NGS). This includes the processing of sequencing data,
+variant calling, and result interpretation.
+Responsibility: Designated laboratory staff and bioinformaticians
+are responsible for executing this protocol and ensuring data
+accuracy and validity. It is the duty of the laboratory director or
+designated supervisor to review and verify the results before clinical
+reporting.
+2. DEFINITIONS
+Next-Generation Sequencing (NGS): A high-throughput sequencing
+method allowing for the simultaneous sequencing of multiple genes.
+Variant Calling: The process of identifying variants from sequencing
+data. Hereditary Erythrocytosis: A condition characterized by an
+increased number of red blood cells due to genetic abnormalities.
+3. PROCEDURE
+Pre-Analysis:
+• Ensure all equipment (sequencers, computers) and software
+(alignment and analysis tools) are functioning and calibrated
+according to manufacturer specifications.
+• Verify that sample DNA quality and quantity meet established
+laboratory criteria.
+A. Sequencing Data Generation:
+1. Library Preparation:
+◦ Follow the library preparation protocol specific to the NGS
+platform in use.
+◦ Ensure proper indexing of samples to allow for multiplexing.
+2. Sequencing Run:
+◦ Load prepared libraries onto the NGS instrument.
+◦ Execute sequencing run according to the platform’s
+operation manual.
+3. Quality Check:
+◦ Verify raw sequencing data quality using metrics such as
+Q30 scores, base call quality, and overall sequencing depth.
+◦ If data do not meet quality thresholds, troubleshoot, and
+potentially re-run samples.
+B. Data Alignment and Processing:
+1. Data Alignment:
+◦ Use appropriate bioinformatics software (e.g., BWA, Bowtie)
+to align sequencing reads to the human reference genome
+(e.g., hg38).
+◦ Confirm that more than 90-95% of reads align to the
+reference genome with high confidence.
+2. Duplicate Removal:
+◦ Use tools such as Picard or SAMtools to identify and
+remove PCR duplicates.
+3. Base Quality Recalibration:
+◦ Apply base quality score recalibration (BQSR) using GATK
+or equivalent software to correct any systematic errors
+made by the sequencing platform.
+C. Variant Calling:
+1. Call Variants:
+◦ Utilize a variant caller (e.g., GATK HaplotypeCaller,
+FreeBayes) to detect single nucleotide variants (SNVs) and
+small insertions/deletions (indels) in the target genes.
+◦ Set parameters for variant calling, such as minimum base
+quality and read depth.
+2. Variant Filtering:
+◦ Apply filtering criteria to refine variant list (e.g., remove
+variants below 20x coverage, low-quality scores, or those
+present in more than 1% frequency in population databases
+like gnomAD).
+D. Variant Annotation and Interpretation:
+1. Variant Annotation:
+◦ Annotate variants using tools like ANNOVAR or SnpEff to
+add information on gene function, potential pathogenicity,
+and population frequency.
+2. Clinical Interpretation:
+◦ Compare identified variants with known pathogenic variants
+in databases (e.g., ClinVar, Human Gene Mutation
+Database (HGMD)).
+◦ Follow ACMG/AMP guidelines for variant classification
+(pathogenic, likely pathogenic, VUS, likely benign, benign).
+3. Generate Report:
+◦ Summarize findings in a structured clinical report, including
+details about the identified variants, their potential clinical
+significance, and recommendations.
+◦ Include methodology and limitations of the test.
+E. Data Review and Validation:
+1. Review Results:
+◦ Have two independent reviewers (one bioinformatician and
+one clinical molecular geneticist) check the results for
+accuracy and concordance.
+2. Verification:
+◦ Perform verification of clinically significant variants using an
+orthogonal method if necessary (e.g., Sanger Sequencing).
+3. Documentation:
+◦ Document all analysis steps, review comments, and
+verification results in the Laboratory Information
+Management System (LIMS).
+4. QUALITY CONTROL
+• Conduct regular quality assessments on sequencing runs and
+data processing steps.
+• Participate in external proficiency testing programs for NGS.
+• Maintain and review corrective action records for any
+discrepancies or errors encountered during the process.
+5. REPORTING RESULTS
+• Results are uploaded to the Laboratory Information System (LIS)
+and are reviewed and verified by a senior technologist or
+laboratory director.
+• Critical findings are reported to the requesting clinician via secure
+channels and documented accordingly.
+6. REFERENCES
+• Specific NGS platform manuals and protocols.
+• ACMG/AMP Guidelines for the Interpretation of Sequence
+Variants.
+• Bioinformatics tools user manuals and documentation.
+• Relevant scientific literature and clinical guidelines for hereditary
+erythrocytosis.
+7. DOCUMENT CONTROL
+• Maintain a record of all versions of this SOP.
+• Ensure all staff members are trained on the current version.
+• Regularly review and update the SOP to incorporate new
+technologies, methodologies, and regulatory requirements.
+Reviewed by:
+Date:
+Approved by:
+Date:
+This SOP outlines the analytical phase steps from sequencing data
+generation to clinical reporting, ensuring accuracy, reliability, and
+compliance with laboratory standards.

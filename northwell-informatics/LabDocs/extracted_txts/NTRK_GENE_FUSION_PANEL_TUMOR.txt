@@ -1,0 +1,123 @@
+NTRK Gene Fusion Panel, Tumor SOP
+1. PURPOSE
+To define the procedure for the detection of NTRK gene fusions in
+tumor samples using the NTRK Gene Fusion Panel. This protocol
+ensures the generation of accurate and reliable results to support
+diagnostic and therapeutic decision-making for cancer patients.
+Responsibility:
+• It is the responsibility of the laboratory personnel to adhere to the
+procedures outlined in this SOP.
+• Supervisors are responsible for overseeing the process, ensuring
+adherence to the protocol, and addressing any issues that arise.
+1. SCOPE
+This SOP applies to the molecular diagnostics laboratory performing
+NTRK gene fusion testing on tumor samples, including formalin-fixed
+paraffin-embedded (FFPE) tissues and fresh/frozen tumor samples.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+Equipment:
+• Microtome for sectioning FFPE tissue
+• Thermocycler for PCR
+• Next-Generation Sequencing (NGS) instrument
+• Bioanalyzer or equivalent for quality control
+• Pipettes and filtered pipette tips
+• Vortex mixer and microcentrifuge
+Reagents:
+• NTRK Gene Fusion Panel kit
+• RNA extraction kit
+• Reverse transcription-PCR (RT-PCR) reagents
+• NGS library preparation reagents
+• NGS sequencing reagents
+• Negative and positive control samples
+Supplies:
+• RNase-free tubes and water
+• FFPE tissue sections (5-10 µm thick) or fresh/frozen tumor
+samples
+• Gloves, lab coat, and protective eyewear
+• Clean bench/area for RNA work
+1. PROCEDURE
+4.1. Sample Preparation
+1. FFPE Tissue Samples:
+◦ Deparaffinize 5-10 µm FFPE tissue sections using xylene
+and ethanol washes.
+◦ Perform RNA extraction using an RNA extraction kit
+following the manufacturer’s instructions.
+◦ Quantify RNA concentration and purity using a
+spectrophotometer.
+2. Fresh/Frozen Tumor Samples:
+◦ Homogenize fresh or frozen tumor samples in lysis buffer.
+◦ Perform RNA extraction using an RNA extraction kit
+following the manufacturer’s instructions.
+◦ Quantify RNA concentration and purity using a
+spectrophotometer.
+4.2. cDNA Synthesis
+1. Prepare the reverse transcription reaction mix according to the
+RT-PCR reagent kit instructions.
+2. Add the appropriate amount of RNA to the reaction mix and
+incubate in the thermocycler as per the manufacturer's
+instructions.
+3. Store the synthesized cDNA at -20°C until further use, if not
+proceeding immediately to the next step.
+4.3. PCR Amplification
+1. Prepare the PCR reaction mix using the NTRK Gene Fusion
+Panel kit reagents. Include positive and negative controls.
+2. Add synthesized cDNA to the reaction mix.
+3. Run the PCR program as recommended by the NTRK Gene
+Fusion Panel kit instructions.
+4.4. NGS Library Preparation
+1. Perform library preparation following the NGS library
+preparation kit instructions.
+2. Quantify and assess the quality of the prepared libraries using a
+Bioanalyzer or equivalent instrument.
+3. Normalize the libraries to the appropriate concentration for
+NGS.
+4.5. Sequencing
+1. Load the prepared libraries onto the NGS instrument.
+2. Run the sequencing protocol according to the NGS instrument
+and manufacturer's instructions.
+3. Monitor the sequencing run for quality and performance.
+4.6. Data Analysis
+1. Use bioinformatics tools and software provided with the NTRK
+Gene Fusion Panel kit to analyze the sequencing data.
+2. Identify and report detected NTRK gene fusions and their
+corresponding breakpoints.
+3. Validate findings using additional bioinformatics pipelines if
+necessary.
+4. QUALITY CONTROL
+5. Include positive and negative controls in each run to ensure the
+reliability of results.
+6. Monitor quality metrics from sequencing runs, such as read
+depth and mapping rates, to ensure data validity.
+7. Document and address any deviations or failures according to
+laboratory protocol.
+8. REPORTING RESULTS
+9. Review the analyzed data and verify results.
+10. Generate a comprehensive report detailing NTRK gene fusion
+status.
+11. Report results to the clinician or authorized requester promptly.
+12. REFERENCES
+• NTRK Gene Fusion Panel Kit Instructions for Use.
+• RNA Extraction Kit Instructions.
+• NGS Library Preparation Kit Instructions.
+• NGS Instrument User Manual.
+1. SAFETY AND COMPLIANCE
+• Follow all institutional and regulatory guidelines for the handling
+and processing of tumor samples.
+• Wear appropriate personal protective equipment (PPE)
+throughout the procedure.
+This protocol is reviewed periodically and updated as necessary to
+reflect advancements in technology and methodology, and to ensure
+compliance with regulatory requirements.
+1. DOCUMENTATION
+Laboratory personnel must document each step of the process,
+including sample preparation, cDNA synthesis, PCR amplification,
+library preparation, sequencing run, and data analysis in the
+laboratory information management system (LIMS) or appropriate
+laboratory logbooks.
+Validation and quality control results must be recorded and reviewed
+by a supervisor before reporting final results. Any corrective actions
+taken in response to deviations or quality control failures should also
+be documented.
+By following this SOP, laboratory personnel can ensure the accurate
+and reliable detection of NTRK gene fusions in tumor samples, aiding
+in the clinical management and treatment decision-making for
+patients with cancer.

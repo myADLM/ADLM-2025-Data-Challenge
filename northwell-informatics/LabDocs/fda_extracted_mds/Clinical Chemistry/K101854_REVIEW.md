@@ -1,0 +1,135 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+Change in reagent formulation to a previously cleared device (k042015) and adding another anticoagulant (K-EDTA plasma) as a sample type.
+
+# E. Applicant:
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR 862.1345 Glucose Test System
+
+2. Classification: Class II
+
+3. Product code: CFR - Hexokinase, Glucose
+
+4. Panel: Clinical Chemistry - 75
+
+# H. Intended Use:
+
+1. Intended use(s): Refer to indications for use, below.
+
+2. Indication(s) for use:
+
+For in vitro diagnostic use in the quantitative determination of glucose in human serum, plasma, urine, and cerebrospinal fluid (CSF) on the ADVIA 1650 Chemistry System. Such measurements are used in the diagnosis and treatment of carbohydrate metabolism disorders including diabetes mellitus, neonatal hypoglycemia, idiopathic hypoglycemia, and insulin overdose.
+
+3. Special conditions for use statement(s): For in vitro diagnostic use only. For prescription use only.
+
+4. Special instrument requirements: ADVIA 1650 Chemistry System
+
+# I. Device Description:
+
+The ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) device consists of twocomponent reagents. Reagent 1 contains buffer, ATP, and NAD. Reagent 2 contains glucose-6-phosphate dehydrogenase, hexokinase, buffer, ATP, and NAD. Reagents are ready to use and require no additional preparation. Reagents 1 and 2 contain sodium azide.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name: ADVIA Chemistry Glucose Hexokinase II Reagent
+
+2. Predicate 510(k) number: k042015
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Comparison Table</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>New Device (k101854)</td><td rowspan=1 colspan=1>Predicate (k042015)</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>For in vitro diagnostic use in thequantitative determination of glucosein human serum, plasma, urine, andCSF on the ADVIA 1650 ChemistrySystem.</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>System Principle</td><td rowspan=1 colspan=1>Enzymatic method based on use ofhexokinase and glucose-6-phosphatedehydrogenase enzymes.</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Detection method</td><td rowspan=1 colspan=1>Photometric - Hexokinase</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Calibration</td><td rowspan=1 colspan=1>Siemens calibrators</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Measurement Range</td><td rowspan=1 colspan=1>4-700 mg/dL</td><td rowspan=1 colspan=1>0-700 mg/dL</td></tr><tr><td rowspan=1 colspan=1>Specimen Type</td><td rowspan=1 colspan=1>Human serum, Li-heparin plasma, K-EDTA plasma, urine, and CSF</td><td rowspan=1 colspan=1>Human serum, Li-heparinplasma, urine, and CSF</td></tr><tr><td rowspan=1 colspan=1>Format</td><td rowspan=1 colspan=1>Liquid</td><td rowspan=1 colspan=1>Concentrate</td></tr><tr><td rowspan=1 colspan=1>Reagents</td><td rowspan=1 colspan=1>R1 and R2</td><td rowspan=1 colspan=1>R1, R2, R2 mix</td></tr><tr><td rowspan=1 colspan=1>Storage Conditions</td><td rowspan=1 colspan=1>On-board: 60 days at 2-8°CShelf-life: 18 months at 2-8°C</td><td rowspan=1 colspan=1>same</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+1. CLSI EP5-A2. Evaluation of Precision Performance of Quantitative Measurement Methods; Approved Guideline.   
+2. CLSI EP17-A. Protocols for Determination of Limits of Detection and Limits of Quantitation; Approved Guideline.
+
+# L. Test Principle:
+
+This enzymatic method is based on the method by Slein using hexokinase and glucose-6- phosphate dehydrogenase enzymes. The ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) method is a two-component reagent. Sample is added to Reagent 1, which contains the buffer, ATP, and NAD. Absorbance readings of the sample in Reagent 1 are taken and are used to correct for interfering substances in the sample. Reagent 2 is added, which initiates the reaction. Glucose is phosphorylated by adenosine triphosphate (ATP) in the presence of hexokinase. The glucose-6-phosphate that forms is oxidized in the presence of glucose-6-phosphate dehydrogenase causing the reduction of NAD to NADH. The absorbance of NADH is measured as an endpoint reaction at $3 4 0 / 4 1 0 \mathrm { n m }$ . The difference between the absorbance in Reagent 1 and Reagent 2 is proportional to the glucose concentration.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+# a. Precision/Reproducibility:
+
+Precision studies were performed using commercial quality controls and native samples. Studies were carried out in duplicate, twice per day, over a period of 10 to 20 days using two ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) reagent lots on two different ADVIA 1650 Chemistry Systems. A low level urine sample was assayed in duplicate on one system over a period of nine days. The mean, standard deviation (SD), and coefficients of variation (CV) were determined at each level as summarized below:
+
+<table><tr><td rowspan=1 colspan=7>Precision Data Summary</td></tr><tr><td rowspan=2 colspan=1>Sample</td><td rowspan=2 colspan=1>N</td><td rowspan=2 colspan=1>Mean(mg/dL)</td><td rowspan=1 colspan=2>Within Run</td><td rowspan=1 colspan=2>Total</td></tr><tr><td rowspan=1 colspan=1>SD (mg/dL)</td><td rowspan=1 colspan=1>CV (%)</td><td rowspan=1 colspan=1>SD (mg/dL)</td><td rowspan=1 colspan=1>CV (%)</td></tr><tr><td rowspan=1 colspan=1>Serum Control 1</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>0.39</td><td rowspan=1 colspan=1>0.5</td><td rowspan=1 colspan=1>0.66</td><td rowspan=1 colspan=1>0.8</td></tr><tr><td rowspan=1 colspan=1>Serum Control 2</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>297</td><td rowspan=1 colspan=1>1.35</td><td rowspan=1 colspan=1>0.5</td><td rowspan=1 colspan=1>2.02</td><td rowspan=1 colspan=1>0.7</td></tr><tr><td rowspan=1 colspan=1>Serum Pool 1</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>0.18</td><td rowspan=1 colspan=1>0.4</td><td rowspan=1 colspan=1>0.46</td><td rowspan=1 colspan=1>0.9</td></tr><tr><td rowspan=1 colspan=1>Serum Pool 2</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>605</td><td rowspan=1 colspan=1>3.55</td><td rowspan=1 colspan=1>0.6</td><td rowspan=1 colspan=1>6.52</td><td rowspan=1 colspan=1>1.1</td></tr><tr><td rowspan=1 colspan=1>Urine Control 1</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>0.12</td><td rowspan=1 colspan=1>0.7</td><td rowspan=1 colspan=1>0.21</td><td rowspan=1 colspan=1>1.2</td></tr><tr><td rowspan=1 colspan=1>Urine Control 2</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>301</td><td rowspan=1 colspan=1>1.29</td><td rowspan=1 colspan=1>0.4</td><td rowspan=1 colspan=1>5.63</td><td rowspan=1 colspan=1>1.9</td></tr><tr><td rowspan=1 colspan=1>Urine Pool 1</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>0.13</td><td rowspan=1 colspan=1>0.6</td><td rowspan=1 colspan=1>0.26</td><td rowspan=1 colspan=1>1.2</td></tr><tr><td rowspan=1 colspan=1>Urine Pool 2</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>0.27</td><td rowspan=1 colspan=1>0.6</td><td rowspan=1 colspan=1>0.51</td><td rowspan=1 colspan=1>1.1</td></tr><tr><td rowspan=1 colspan=1>Urine Sample</td><td rowspan=1 colspan=1>57</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>0.14</td><td rowspan=1 colspan=1>2.2</td><td rowspan=1 colspan=1>0.15</td><td rowspan=1 colspan=1>2.4</td></tr><tr><td rowspan=1 colspan=1>CSFControl 1</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>0.24</td><td rowspan=1 colspan=1>0.4</td><td rowspan=1 colspan=1>0.54</td><td rowspan=1 colspan=1>1.0</td></tr><tr><td rowspan=1 colspan=1>CSFControl 2</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>97</td><td rowspan=1 colspan=1>0.33</td><td rowspan=1 colspan=1>0.3</td><td rowspan=1 colspan=1>0.81</td><td rowspan=1 colspan=1>0.8</td></tr><tr><td rowspan=1 colspan=1>CSF Control 3</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>619</td><td rowspan=1 colspan=1>1.81</td><td rowspan=1 colspan=1>0.3</td><td rowspan=1 colspan=1>4.97</td><td rowspan=1 colspan=1>0.8</td></tr></table>
+
+# b. Linearity/assay reportable range:
+
+Two linearity studies were carried out using eleven different levels of human urine samples and human serum samples. Low pools consisted of a normal human urine sample and a glucose-depleted normal human serum sample. High pools consisted of low pools spiked with glucose to concentrations of approximately $8 0 0 \mathrm { m g / d L }$ . The glucose concentrations ranged from $3 . 5 { \mathrm { - } } 7 9 6 { \mathrm { m g / d L } }$ . In addition, a linearity study was performed using a CSF pool of human samples at eleven different levels covering the glucose range from $3 . 0 { - } 8 3 3 ~ \mathrm { m g / d L }$ . Each sample was measured in duplicate using one ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) reagent lot on one ADVIA 1650 Chemistry System. Linearity was evaluated by least-square regression analysis and comparison of observed recovery versus expected values.
+
+<table><tr><td rowspan=1 colspan=5>Linearity Data Summary</td></tr><tr><td rowspan=1 colspan=5>Serum</td></tr><tr><td rowspan=2 colspan=2>Linear Regression Data</td><td rowspan=1 colspan=3>Recovery Data (mg/dL)</td></tr><tr><td rowspan=1 colspan=1>Expected</td><td rowspan=1 colspan=1>Observed</td><td rowspan=1 colspan=1>%Difference</td></tr><tr><td rowspan=1 colspan=1>Number of samples (n)</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=1 colspan=1>Range (mg/dL)</td><td rowspan=1 colspan=1>4-791</td><td rowspan=1 colspan=1>28.1</td><td rowspan=1 colspan=1>27.0</td><td rowspan=1 colspan=1>-4.1%</td></tr><tr><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>1.005 (0.998-1.012)</td><td rowspan=1 colspan=1>52.7</td><td rowspan=1 colspan=1>50.1</td><td rowspan=1 colspan=1>-5.0%</td></tr><tr><td rowspan=1 colspan=1>Intercept</td><td rowspan=1 colspan=1>-2.336 (-5.316-0.644)</td><td rowspan=1 colspan=1>101.9</td><td rowspan=1 colspan=1>101.7</td><td rowspan=1 colspan=1>-0.2%</td></tr><tr><td rowspan=1 colspan=1>Correlation coefficient</td><td rowspan=1 colspan=1>1.000</td><td rowspan=1 colspan=1>200.4</td><td rowspan=1 colspan=1>196.9</td><td rowspan=1 colspan=1>-1.7%</td></tr><tr><td rowspan=6 colspan=2></td><td rowspan=1 colspan=1>298.8</td><td rowspan=1 colspan=1>295.9</td><td rowspan=1 colspan=1>-1.0%</td></tr><tr><td rowspan=1 colspan=1>397.2</td><td rowspan=1 colspan=1>397.2</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=1 colspan=1>495.7</td><td rowspan=1 colspan=1>492.7</td><td rowspan=1 colspan=1>-0.6%</td></tr><tr><td rowspan=1 colspan=1>594.1</td><td rowspan=1 colspan=1>593.0</td><td rowspan=1 colspan=1>-0.2%</td></tr><tr><td rowspan=1 colspan=1>692.6</td><td rowspan=1 colspan=1>691.3</td><td rowspan=1 colspan=1>-0.2%</td></tr><tr><td rowspan=1 colspan=1>791.0</td><td rowspan=1 colspan=1>798.2</td><td rowspan=1 colspan=1>0.9%</td></tr><tr><td rowspan=1 colspan=5>Urine</td></tr><tr><td rowspan=2 colspan=2>Linear Regression Data</td><td rowspan=1 colspan=3>Recovery Data (mg/dL)</td></tr><tr><td rowspan=1 colspan=1>Expected</td><td rowspan=1 colspan=1>Observed</td><td rowspan=1 colspan=1>%Difference</td></tr><tr><td rowspan=1 colspan=1>Number of samples (n)</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=1 colspan=1>Range (mg/dL)</td><td rowspan=1 colspan=1>4-796</td><td rowspan=1 colspan=1>29.0</td><td rowspan=1 colspan=1>29.4</td><td rowspan=1 colspan=1>1.5%</td></tr><tr><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>0.995 (0.993-0.998)</td><td rowspan=1 colspan=1>53.7</td><td rowspan=1 colspan=1>55.0</td><td rowspan=1 colspan=1>2.4%</td></tr><tr><td rowspan=1 colspan=1>Intercept</td><td rowspan=1 colspan=1>1.146 (0.198-2.094)</td><td rowspan=1 colspan=1>103.2</td><td rowspan=1 colspan=1>104.3</td><td rowspan=1 colspan=1>1.1%</td></tr><tr><td rowspan=1 colspan=1>Correlation coefficient</td><td rowspan=1 colspan=1>1.000</td><td rowspan=1 colspan=1>202.2</td><td rowspan=1 colspan=1>202.3</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=6 colspan=2></td><td rowspan=1 colspan=1>301.2</td><td rowspan=1 colspan=1>301.6</td><td rowspan=1 colspan=1>0.1%</td></tr><tr><td rowspan=1 colspan=1>400.2</td><td rowspan=1 colspan=1>400.2</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=1 colspan=1>499.2</td><td rowspan=1 colspan=1>498.3</td><td rowspan=1 colspan=1>-0.2%</td></tr><tr><td rowspan=1 colspan=1>598.3</td><td rowspan=1 colspan=1>596.6</td><td rowspan=1 colspan=1>-0.3%</td></tr><tr><td rowspan=1 colspan=1>697.3</td><td rowspan=1 colspan=1>696.1</td><td rowspan=1 colspan=1>-0.2%</td></tr><tr><td rowspan=1 colspan=1>796.3</td><td rowspan=1 colspan=1>792.0</td><td rowspan=1 colspan=1>-0.5%</td></tr><tr><td rowspan=1 colspan=5>Cerebro Spinal Fluid (CSF)</td></tr><tr><td rowspan=2 colspan=2>Linear Regression Data</td><td rowspan=1 colspan=3>Recovery Data (mg/dL)</td></tr><tr><td rowspan=1 colspan=1>Expected</td><td rowspan=1 colspan=1>Observed</td><td rowspan=1 colspan=1>%Difference</td></tr><tr><td rowspan=1 colspan=1>Number of samples (n)</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>3.0</td><td rowspan=1 colspan=1>3.0</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=1 colspan=1>Range (mg/dL)</td><td rowspan=1 colspan=1>3-833</td><td rowspan=1 colspan=1>28.9</td><td rowspan=1 colspan=1>28.5</td><td rowspan=1 colspan=1>-1.5%</td></tr><tr><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>0.994 (0.989-0.999)</td><td rowspan=1 colspan=1>54.9</td><td rowspan=1 colspan=1>54.0</td><td rowspan=1 colspan=1>-1.6%</td></tr><tr><td rowspan=1 colspan=1>Intercept</td><td rowspan=1 colspan=1>0.1937 (-2.000-2.3874)</td><td rowspan=1 colspan=1>106.8</td><td rowspan=1 colspan=1>106.6</td><td rowspan=1 colspan=1>-0.1%</td></tr><tr><td rowspan=1 colspan=1>Correlation coefficient</td><td rowspan=1 colspan=1>1.000</td><td rowspan=1 colspan=1>210.6</td><td rowspan=1 colspan=1>209.8</td><td rowspan=1 colspan=1>-0.4%</td></tr><tr><td rowspan=6 colspan=2></td><td rowspan=1 colspan=1>314.4</td><td rowspan=1 colspan=1>314.3</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=1 colspan=1>418.2</td><td rowspan=1 colspan=1>418.2</td><td rowspan=1 colspan=1>0.0%</td></tr><tr><td rowspan=1 colspan=1>522.1</td><td rowspan=1 colspan=1>519.7</td><td rowspan=1 colspan=1>-0.4%</td></tr><tr><td rowspan=1 colspan=1>625.9</td><td rowspan=1 colspan=1>617.5</td><td rowspan=1 colspan=1>-1.3%</td></tr><tr><td rowspan=1 colspan=1>729.7</td><td rowspan=1 colspan=1>727.6</td><td rowspan=1 colspan=1>-0.3%</td></tr><tr><td rowspan=1 colspan=1>833.5</td><td rowspan=1 colspan=1>829.7</td><td rowspan=1 colspan=1>-0.5%</td></tr></table>
+
+The claimed reportable range for the ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) reagent on the ADVIA 1650 Chemistry System is 4 to $7 0 0 \mathrm { m g / d L }$ . Data was provided to demonstrate that samples resulting in glucose values above the upper range limit will be automatically diluted and reported after applying dilution correction factor.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Traceability
+
+The ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) method is traceable to a standard reference serum (SRM 965a) glucose material from the National Institute of Standards and Technology (NIST). A second set of standard reference material, a serum-based sample, a spiked serum sample, and an aqueous glucose sample are analyzed on the ADVIA 1650 Chemistry System and recovered values must fall within acceptance criteria based on the target value of the NIST standard.
+
+# Stability
+
+The stability of the ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) reagent was evaluated with real-time stability studies. The reagent shelf life claim is 18 months when stored at the recommended temperature of 2 to $8 \mathrm { { } ^ { \circ } C }$ . An on-board stability study confirmed that the reagent is stable for 60 days on-board the ADVIA 1650 Chemistry System at the recommended temperature of 2 to $8 \mathrm { { } ^ { \circ } C }$ . The manufacturer does not recommend removing open reagents from the system.
+
+# Calibrators and Controls
+
+A calibration frequency study with the ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) method showed that the system should be calibrated with the Siemens Chemistry Calibrator at a frequency of at least every 60 days. The performance of the calibrator for the ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) method has been demonstrated in a previous 510(k) submission. The manufacturer states in the labeling that individual laboratory quality control programs and procedures may require more frequent calibration. The manufacturer also recommends the use of a commercial control material with at least two glucose levels tested according to workflow, system experience, and government regulation.
+
+# d. Detection limit:
+
+The Limit of Blank (LoB) and Limit of Detection (LoD) for the ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) method were evaluated based on CLSI EP17-A guidelines. Studies were performed using $\Nu \leq 2$ reagent lots on one ADVIA 1650 Chemistry System.
+
+<table><tr><td rowspan=1 colspan=3>Detection Limit Data Summary</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Limit</td><td rowspan=1 colspan=1>Protocol</td></tr><tr><td rowspan=2 colspan=1>Serum</td><td rowspan=1 colspan=1>LoB</td><td rowspan=1 colspan=1>A human serum glucose-depleted sample pool was evaluated. Atotal of 6 runs (10 replicates per run) were completed, N=120,over a period of three days.</td></tr><tr><td rowspan=1 colspan=1>LoD</td><td rowspan=1 colspan=1>A low serum sample pool with a glucose concentration of 3-4mg/dL was evaluated in duplicate. A total of 58 runs were over aperiod of nine days.</td></tr><tr><td rowspan=2 colspan=1>Urine</td><td rowspan=1 colspan=1>LoB</td><td rowspan=1 colspan=1>A normal human urine pool was evaluated. A total of 6 runs (10replicates per run) were completed, N=120, over a period of ninedays.</td></tr><tr><td rowspan=1 colspan=1>LoD</td><td rowspan=1 colspan=1>A low urine sample with a glucose concentration of 6 mg/dL wasevaluated in duplicate. A total of 57 runs were completed over aperiod of nine days.</td></tr><tr><td rowspan=2 colspan=1>CSF</td><td rowspan=1 colspan=1>LoB</td><td rowspan=1 colspan=1>A human CSF glucose-depleted sample pool was evaluated. Atotal of 3 runs (10 replicates per run) were completed, N=60, overa period of three days.</td></tr><tr><td rowspan=1 colspan=1>LoD</td><td rowspan=1 colspan=1>A low CSF sample pool with a glucose concentration of 1.5 mg/dLwas evaluated. A total of 3 runs (10 replicates per run) werecompleted, N=60, over a period of three days.</td></tr><tr><td rowspan=1 colspan=3>Claimed Values</td></tr><tr><td rowspan=1 colspan=1>LoB</td><td rowspan=1 colspan=2>0.30 mg/dL</td></tr><tr><td rowspan=1 colspan=1>LoD</td><td rowspan=1 colspan=2>4.0 mg/dL</td></tr></table>
+
+# e. Analytical specificity:
+
+Interferences studies were performed by adding potentially interfering substances to samples and calculating bias relative to a control (no interferent). Five equally diluted samples using either human serum or human urine pools were tested by adding different interferent concentrations. Samples were measured in duplicate using one ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) reagent lot on one ADVIA 1650 Chemistry System. No significant interference defined as no more than $\pm 1 0 \%$ was observed up to the levels shown in the table below for the following interfering substances:
+
+<table><tr><td rowspan=1 colspan=4>Interferences Data Summary</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>No Interference at Listed Level (mg/dL)</td></tr><tr><td rowspan=1 colspan=1>Substance</td><td rowspan=1 colspan=1>Low Serum</td><td rowspan=1 colspan=1>Mid Serum</td><td rowspan=1 colspan=1>High Serum</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>~50 mg/dL</td><td rowspan=1 colspan=1>~130 mg/dL</td><td rowspan=1 colspan=1>~200 mg/dL</td></tr><tr><td rowspan=1 colspan=1>Hemoglobin</td><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>1000</td></tr><tr><td rowspan=1 colspan=1>Bilirubin (Unconjugated)</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>Bilirubin (Conjugated)</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>Triglycerides (Intralipid)</td><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>1000</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Interferences Data Summary</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>No Interference at Listed Level (mg/dL)</td></tr><tr><td rowspan=1 colspan=1>Substance</td><td rowspan=1 colspan=1>Low Urine</td><td rowspan=1 colspan=1>High Urine</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>~30 mg/dL</td><td rowspan=1 colspan=1>~100 mg/dL</td></tr><tr><td rowspan=1 colspan=1>Ascorbic Acid</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>200</td></tr><tr><td rowspan=1 colspan=1>Caffeine</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Creatinine</td><td rowspan=1 colspan=1>500</td><td rowspan=1 colspan=1>500</td></tr><tr><td rowspan=1 colspan=1>Salicylate (Na)</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Urea Nitrogen</td><td rowspan=1 colspan=1>500</td><td rowspan=1 colspan=1>500</td></tr></table>
+
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+# a. Method comparison with predicate device:
+
+In a method comparison study, glucose was measured in serum, urine, and CSF samples by one or two trained operators on both, the predicate device and the ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) reagent on ADVIA 1650 Chemistry Systems. Samples were analyzed in duplicate using one lot of each reagent. A number of samples were altered to cover the claimed measuring range for the device. Data were analyzed by means of least-squares linear regression analysis. Study results are summarized below.
+
+<table><tr><td rowspan=1 colspan=4>Method Comparison Data Summary</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Serum</td><td rowspan=1 colspan=1>Urine</td><td rowspan=1 colspan=1>CSF</td></tr><tr><td rowspan=1 colspan=1>Number of samples (n)</td><td rowspan=1 colspan=1>99</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>113</td></tr><tr><td rowspan=1 colspan=1>Range (mg/dL)</td><td rowspan=1 colspan=1>5-676</td><td rowspan=1 colspan=1>4-664</td><td rowspan=1 colspan=1>20-654</td></tr><tr><td rowspan=1 colspan=1>Slope (95% CI)</td><td rowspan=1 colspan=1>1.001(0.999-1.003)</td><td rowspan=1 colspan=1>0.989 (0.987-0.990)</td><td rowspan=1 colspan=1>1.005(1.004-1.006)</td></tr><tr><td rowspan=1 colspan=1>Intercept (95% CI)</td><td rowspan=1 colspan=1>0.264 (-0.171-0.698)</td><td rowspan=1 colspan=1>-0.316 (-0.648-0.015)</td><td rowspan=1 colspan=1>-0.097(-0.313-0.120)</td></tr><tr><td rowspan=1 colspan=1>Correlation coefficient</td><td rowspan=1 colspan=1>1.000</td><td rowspan=1 colspan=1>1.000</td><td rowspan=1 colspan=1>1.000</td></tr></table>
+
+# b. Matrix comparison:
+
+A matrix comparison study was performed by testing K-EDTA and Li-Heparin samples on both the predicate device and the ADVIA Chemistry Glucose Hexokinase_3 (GLUH_3) reagent on ADVIA 1650 Chemistry Systems, by two trained operators. A number of samples were altered to cover the claimed measuring range for the device. Data were analyzed by means of least-squares linear regression analysis. Study results are summarized below.
+
+<table><tr><td rowspan=1 colspan=3>Matrix Comparison Data Summary</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>K-EDTA plasma</td><td rowspan=1 colspan=1>Li-Heparin plasma</td></tr><tr><td rowspan=1 colspan=1>Number of samples (n)</td><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>88</td></tr><tr><td rowspan=1 colspan=1>Range (mg/dL)</td><td rowspan=1 colspan=1>6-676</td><td rowspan=1 colspan=1>5-686</td></tr><tr><td rowspan=1 colspan=1>Slope (95% CI)</td><td rowspan=1 colspan=1>1.002 (1.000-1.003)</td><td rowspan=1 colspan=1>1.001 (0.999-1.00)</td></tr><tr><td rowspan=1 colspan=1>Intercept (95% CI)</td><td rowspan=1 colspan=1>0.002 (-0.298-0.301)</td><td rowspan=1 colspan=1>0.184 (-0.173-0.541)</td></tr><tr><td rowspan=1 colspan=1>Correlation coefficient</td><td rowspan=1 colspan=1>1.000</td><td rowspan=1 colspan=1>1.000</td></tr></table>
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: Expected reference ranges for the method are as follows:
+
+<table><tr><td rowspan=1 colspan=3>Expected Values</td></tr><tr><td rowspan=1 colspan=2>Sample Type</td><td rowspan=1 colspan=1>Reference Range (mg/dL)</td></tr><tr><td rowspan=4 colspan=1>Serum/plasma</td><td rowspan=1 colspan=1>Adult</td><td rowspan=1 colspan=1>74-106</td></tr><tr><td rowspan=1 colspan=1>Newborn 1 day</td><td rowspan=1 colspan=1>40-60</td></tr><tr><td rowspan=1 colspan=1>Newborn &gt; 1 day</td><td rowspan=1 colspan=1>50-80</td></tr><tr><td rowspan=1 colspan=1>Child</td><td rowspan=1 colspan=1>60-100</td></tr><tr><td rowspan=1 colspan=2>Urine</td><td rowspan=1 colspan=1>&lt; 0.5 g/day</td></tr><tr><td rowspan=2 colspan=1>CSF</td><td rowspan=1 colspan=1>Adult</td><td rowspan=1 colspan=1>40-70</td></tr><tr><td rowspan=1 colspan=1>Infant/Child</td><td rowspan=1 colspan=1>60-80</td></tr></table>
+
+Reference: Wu AHB. Tietz Clinical Guide to Laboratory Tests. $4 ^ { \mathrm { t h } }$ ed. St. Louis, MO: WB Saunders Company: 2006: 444-450.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

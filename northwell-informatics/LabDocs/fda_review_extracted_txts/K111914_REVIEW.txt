@@ -1,0 +1,440 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k111914
+B. Purpose for Submission:
+New instrument system
+C. Manufacturer and Instrument Name:
+Olympus Corporation
+Olympus Virtual Slide System, VS800 System
+VS800 HER2 Manual Read (MR) application
+D. Type of Test or Tests Performed:
+Manual interpretation of digital images for immunohistochemically (IHC) stained
+HER2 slides
+E. System Descriptions:
+1. Device Description:
+The VS800 System is an automated digital slide creation, management, viewing
+and annotating system. The VS800 System components consist of an automated
+digital microscope slide scanner, operation monitor, keyboard and digital
+pathology information management software. The system capabilities include
+digitizing microscope slides at high resolution, storing and managing the resulting
+digital slide images, retrieving and displaying digital slides, including support for
+remote access over wide area networks, providing facilities for annotating digital
+slides and entering and editing metadata associated with digital slides.
+The remote digital slide viewing capabilities of the system support reading digital
+slides on a viewing monitor, enabling pathologists to make clinically relevant
+decisions analogous to those they make using a conventional microscope.
+Specifically, the VS800 HER2 MR application supports the pathologist in the
+detection of HER2/neu by manual examination of the digital slide of formalin
+fixed; paraffin embedded normal and neoplastic tissue immunohistochemically
+stained for HER2 receptors on a viewing monitor.
+2. Principles of Operation:
+The VS800 System is intended to provide digital images to the pathologist to
+1
+
+--- Page 2 ---
+supplement the semi-quantitative interpretation of immunohistochemistry
+HER2/neu stained breast cancer specimens. Formalin-fixed, paraffin embedded
+breast cancer specimens are stained with the Dako HercepTest™ according to the
+package insert. Image acquisition is achieved by capture of numerous small
+regions of a microscope slide using a 2D charge-coupled device (CCD) camera.
+The resulting image tiles are stitched together and aligned to create a large
+contiguous digital image of the entire slide. The pathologist manually reads and
+interprets the digital image without use of image analysis software. The HER2
+score is calculated by the pathologist based on the percentages of 0, 1+, 2+, and
+3+ cells according to the HER2 scoring scheme in the Dako HercepTest™
+product insert.
+3. Modes of Operation:
+Automated batch processing
+4. Specimen Identification:
+Specimens are identified by a barcode reader. The Macro Image camera captures
+a whole slide image, including the barcode label. The pathologist should check
+the relationship between the slide number on the label and system to ensure that it
+is correct.
+5. Specimen Sampling and Handling:
+Automated loading of the glass slides is accomplished by the Autoloader
+component which consists of three cassette trays that hold 100 glass slides. (Total
+capacity is 3 x 100 = 300 slides.) The Autoloader contains a robotic arm
+mechanism with a gripper for grabbing a slide and which moves up and pivots to
+position a slide to be processed over the stage. The arm also grabs the slide after
+it has been processed and replaces it in the appropriate rack.
+6. Calibration:
+Not applicable
+7. Quality Control:
+The accuracy of the system depends on the laboratory following the quality
+control instructions for the Dako HercepTest™.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+2
+
+--- Page 3 ---
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR §864.1860, Immunohistochemistry reagents and kits
+2. Classification:
+Class II
+3 Product code:
+OEO (Microscope, Automated, Digital Image, Manual Interpretation)
+4. Panel:
+Pathology 88
+G. Intended Use:
+1. Indication(s) for Use:
+The VS800 system is an automated digital slide creation, management, and
+viewing system. It is intended for in vitro diagnostic use as an aid to the
+pathologist in the display, detection, counting and classification of tissues and
+cells of clinical interest based on particular color, intensity, size, pattern and
+shape.
+The VS800 HER2 Manual Read (MR) of digital slide application is intended for
+use as an aid to the pathologist in the detection and semi-quantitative
+measurement of HER2 by manual examination of the digital slide of formalin-
+fixed, paraffin-embedded neoplastic tissue IHC stained for HER2 receptors on a
+computer monitor. HER2 results are indicated for use as an aid in the
+management, prognosis and prediction of therapy outcomes of breast cancer.
+The VS800 HER2 MR of digital slide application is intended for use as an
+accessory to the Dako HercepTest™ to aid the pathologist in the detection and
+semi-quantitative measurement of HER2 by manual examination of the digital
+slide of formalin-fixed, paraffin-embedded neoplastic tissue
+immunohistochemically stained for HER2 receptors on a computer monitor.
+When used with the Dako HerceptTest™, it is indicated for use as an aid in the
+assessment of breast cancer patients for whom Herceptin® (trastuzumab)
+treatment is being considered. Note: The actual correlation of the Dako
+HercepTest™ to the Herceptin® clinical outcome has not been established.
+3
+
+--- Page 4 ---
+2. Special Conditions for Use Statement(s):
+Prescription use only.
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Aperio Technologies, Inc. ScanScope® XT System k071671
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+Method of Interpretation Manual interpretation by Same
+pathologist
+Specimen type Formalin-fixed, paraffin- Same
+embedded breast cancer
+tissue stained by
+immunohistochemistry
+Assay Dako HercepTest™ Same
+Image capturing 20X 20X
+magnification
+Differences
+Item Device Predicate
+Image acquisition 2D CCD imager Line scanner
+technology
+Image capturing At 20X 0.35 microns 0.5 microns
+resolution
+I. Special Control/Guidance Document Referenced (if applicable):
+Not applicable
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+A study was conducted at two clinical sites to compare the performance of
+manual digital reads with manual microscopy reads. One clinical laboratory
+provided the two clinical sites with different slide sets of one hundred (100)
+slides each. The slides were selected from archives to provide an equal
+4
+
+[Table 1 on page 4]
+Similarities						
+	Item	Device			Predicate	
+Method of Interpretation		Manual interpretation by
+pathologist		Same		
+Specimen type		Formalin-fixed, paraffin-
+embedded breast cancer
+tissue stained by
+immunohistochemistry		Same		
+Assay		Dako HercepTest™		Same		
+Image capturing
+magnification		20X		20X		
+
+[Table 2 on page 4]
+Differences						
+	Item	Device			Predicate	
+Image acquisition
+technology		2D CCD imager		Line scanner		
+Image capturing
+resolution		At 20X 0.35 microns		0.5 microns		
+
+--- Page 5 ---
+distribution of HER2 scores in the trichotomous categorization of the HER2
+scores combining 0 and 1+, and leaving 2+ and 3+ uncombined, and then re-
+cut and re-stained.
+At each clinical site, three different pathologists performed first a blinded read
+of the glass-slides using a conventional microscope. Then, the slides were
+digitized using a different scanner at each clinical site, and after a wash-out
+period of at least one week and randomization, the same three pathologists at
+each site performed another blinded manual read of the digital slides on their
+computer monitors. Assay controls were run and provided with the slides
+during the reads.
+Tables 1-6 show the 4x4 tables for the agreements between the manual
+microscopy reads and manual digital reads using column-wise Percent
+Agreement (PA; i.e., percent of manual digital reads that agree with a given
+manual microscopy read) with a Exact 95% Confidence Interval (CI) for each
+of the three pathologists at site 1 and site 2. The statistical analysis is
+provided for a trichotomous agreement of the HER2 scores combining 0 and
+1+, and leaving 2+ and 3+ uncombined. For example, there were 33 (10 + 23)
+slides with manual microscopy read either 0 or 1+ and 30 (4 + 0 + 6 + 20) of
+these were called 0 or 1+ by manual digital read, resulting in a PA of 90.91%
+(30/33).
+Table 1:
+Manual Microscopy Reads vs. Manual Digital Reads – Site 1
+4x4 Tables for Pathologist 1
+Manual Microscope Read
+Pathologist 1
+0 1+ 2+ 3+ TOTAL
+0 4 0 0 0 4
+Manual 1+ 6 20 3 0 29
+Digital 2+ 0 3 30 1 34
+Read 3+ 0 0 1 32 33
+TOTAL 10 23 34 33 100
+Score PA Exact 95% CI
+0, 1+ 90.91% (75.67%, 98.08%)
+2+ 88.24% (72.55%, 96.70%)
+3+ 96.97% (84.24%, 99.92%)
+5
+
+[Table 1 on page 5]
+	4			0		0 0
+3 0
+30 1						4
+29
+34
+33
+	6			20								
+0 3 30
+0 0 1							30					
+										32		
+10 23 34 33												100
+
+[Table 2 on page 5]
+PA Exact 95% CI
+90.91% (75.67%, 98.08%)
+88.24% (72.55%, 96.70%)
+96.97% (84.24%, 99.92%)
+
+--- Page 6 ---
+Table 2:
+Manual Microscopy Reads vs. Manual Digital Reads – Site 1
+4x4 Tables for Pathologist 2
+Manual Microscope Read
+Pathologist 2
+0 1+ 2+ 3+ TOTAL
+0 8 1 0 0 9
+Manual 1+ 5 17 3 0 25
+Digital 2+ 0 3 30 1 34
+Read 3+ 0 0 0 32 32
+TOTAL 13 21 33 33 100
+Score PA Exact 95% CI
+0, 1+ 91.18% (76.32%, 98.14%)
+2+ 90.91% (75.67%, 98.08%)
+3+ 96.97% (84.24%, 99.92%)
+Table 3:
+Manual Microscopy Reads vs. Manual Digital Reads – Site 1
+4x4 Tables for Pathologist 3
+Manual Microscope Read
+Pathologist 3
+0 1+ 2+ 3+ TOTAL
+0 3 0 0 0 3
+Manual 1+ 0 12 1 0 13
+Digital 2+ 0 10 35 5 50
+Read 3+ 0 0 0 34 34
+TOTAL 3 22 36 39 100
+Score PA Exact 95% CI
+0, 1+ 60.00% (38.67%, 78.87%)
+2+ 97.22% (85.47%, 99.93%)
+3+ 87.18% (72.57%, 95.70%)
+Table 4:
+Manual Microscopy Reads vs. Manual Digital Reads – Site 2
+4x4 Tables for Pathologist 1
+Manual Microscope Read
+Pathologist 1
+0 1+ 2+ 3+ TOTAL
+0 9 2 0 0 11
+Manual 1+ 2 10 1 0 13
+Digital 2+ 1 3 34 0 38
+Read 3+ 0 0 7 31 38
+TOTAL 12 15 42 31 100
+6
+
+[Table 1 on page 6]
+	8			1		0 0
+3 0
+30 1						9
+25
+34
+32
+	5			17								
+0 3 30
+0 0 0							30					
+										32		
+13 21 33 33												100
+
+[Table 2 on page 6]
+PA Exact 95% CI
+91.18% (76.32%, 98.14%)
+90.91% (75.67%, 98.08%)
+96.97% (84.24%, 99.92%)
+
+[Table 3 on page 6]
+	3			0		0 0
+1 0
+35 5						3
+13
+50
+34
+	0			12								
+0 10 35
+0 0 0							35					
+										34		
+3 22 36 39												100
+
+[Table 4 on page 6]
+PA Exact 95% CI
+60.00% (38.67%, 78.87%)
+97.22% (85.47%, 99.93%)
+87.18% (72.57%, 95.70%)
+
+[Table 5 on page 6]
+	9			2		0 0
+1 0
+34 0						11
+13
+38
+38
+	2			10								
+1 3 34
+0 0 7							34					
+										31		
+12 15 42 31												100
+
+--- Page 7 ---
+Score PA Exact 95% CI
+0, 1+ 85.19% (66.27%, 95.81%)
+2+ 80.95% (65.88%, 91.40%)
+3+ 100% (88.78%, 100%)
+Table 5:
+Manual Microscopy Reads vs. Manual Digital Reads – Site 2
+4x4 Tables for Pathologist 2
+Manual Microscope Read
+Pathologist 2
+0 1+ 2+ 3+ TOTAL
+0 15 0 1 0 16
+Manual 1+ 2 12 4 0 18
+Digital 2+ 0 1 29 0 30
+Read 3+ 0 0 3 33 36
+TOTAL 17 13 37 33 100
+Score PA Exact 95% CI
+0, 1+ 96.67% (82.78%, 99.92%)
+2+ 78.38% (61.79%, 90.17%)
+3+ 100% (89.42%, 100%)
+Table 6:
+Manual Microscopy Reads vs. Manual Digital Reads – Site 2
+4x4 Tables for Pathologist 3
+Manual Microscope Read
+Pathologist 3
+0 1+ 2+ 3+ TOTAL
+0 11 1 0 0 12
+Manual 1+ 3 8 0 0 11
+Digital 2+ 0 13 25 2 40
+Read 3+ 0 0 6 31 37
+TOTAL 14 22 31 33 100
+Score PA Exact 95% CI
+0, 1+ 63.89% (46.22%, 79.18%)
+2+ 80.65% (62.53%, 92.55%)
+3+ 93.94% (79.77%, 99.26%)
+b. Precision/Reproducibility:
+A study was conducted at one clinical site to assess the intra-instrument and
+inter-instrument precision for manual digital reads.
+A subset of thirty (30) slides from the comparison with conventional
+microscopy study was used. The slides were selected to provide an equal
+7
+
+[Table 1 on page 7]
+PA Exact 95% CI
+85.19% (66.27%, 95.81%)
+80.95% (65.88%, 91.40%)
+100% (88.78%, 100%)
+
+[Table 2 on page 7]
+	15			0		1 0
+4 0
+29 0						16
+18
+30
+36
+	2			12								
+0 1 29
+0 0 3							29					
+										33		
+17 13 37 33												100
+
+[Table 3 on page 7]
+PA Exact 95% CI
+96.67% (82.78%, 99.92%)
+78.38% (61.79%, 90.17%)
+100% (89.42%, 100%)
+
+[Table 4 on page 7]
+	11			1		0 0
+0 0
+25 2						12
+11
+40
+37
+	3			8								
+0 13 25
+0 0 6							25					
+										31		
+14 22 31 33												100
+
+[Table 5 on page 7]
+PA Exact 95% CI
+63.89% (46.22%, 79.18%)
+80.65% (62.53%, 92.55%)
+93.94% (79.77%, 99.26%)
+
+--- Page 8 ---
+distribution of HER2 scores in the trichotomous categorization of the HER2
+scores combining 0 and 1+, and leaving 2+ and 3+ uncombined.
+For comparison, a pathologist read the thirty (30) glass-slides three times
+using the same conventional microscope. Then, the same pathologist read the
+images of the thirty (30) glass- slides three times on a computer monitor, re-
+scanned each time on the same instrument. Finally, the same pathologist read
+the images of the thirty (30) glass-slides another three times on a computer
+monitor, this time the slides were re-scanned each time on a different
+instrument. The wash-out period between reads was at least one week and
+the slides were randomized between reads.
+The statistical analysis is presented across all slides, with pair-wise
+comparisons of all reads by the pathologist, using Percent Agreement (PA)
+with a 95% Confidence Interval (CI). The statistical analysis is provided
+for a trichotomous categorization of the HER2 scores combining 0 and 1+,
+and leaving 2+ and 3+ uncombined.
+PA 95% CI
+Manual Microscopy Reads - Intra-Instrument - Intra-Pathologist 97.8% (92.20, 99.73)
+Manual Digital Reads - Intra-Instrument - Intra-Pathologist 100.0% (95.98, 100.0)
+Manual Digital Reads - Inter-Instruments - Intra-Pathologist 95.6% (89.01, 98.78)
+c. Linearity:
+Not applicable.
+d. Carryover:
+Not applicable.
+e. Interfering Substances:
+Not applicable.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Not applicable.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+8
+
+[Table 1 on page 8]
+97.8%	(92.20, 99.73)
+100.0%	(95.98, 100.0)
+95.6%	(89.01, 98.78)

@@ -1,0 +1,96 @@
+1. Purpose The purpose of this standard operating procedure
+(SOP) is to define the analytical processes for generating
+results in MISCELLANEOUS HNL GENOMICS. This
+encompasses the utilization of genomic data obtained from
+various next-generation sequencing (NGS) platforms, the
+interpretation of results, and the quality control measures
+needed for accurate and reliable reporting.
+2. Definitions
+• NGS (Next-Generation Sequencing): High-throughput sequencing
+methodologies enabling large-scale sequencing of genomes.
+• Bioinformatics Analysis: Computational analysis of genomic data.
+• Variant Calling: Process of identifying variants (e.g., SNPs,
+insertions, deletions) from sequence data.
+1. Procedure
+A) Specimen Preparation and Handling
+• Upon receiving the specimens, ensure that they are properly
+labeled, stored, and transported according to accessioning SOPs.
+• Extract genomic DNA from specimens using designated and
+validated extraction methods.
+• Quantitate and assess the quality of the extracted DNA using
+spectrophotometry (e.g., NanoDrop) and fluorescence-based
+quantification (e.g., Qubit).
+B) Library Preparation
+• Utilize the appropriate NGS library preparation kit according to the
+manufacturer's instructions.
+• Perform fragmentation, end-repair, A-tailing, adapter ligation, and
+PCR amplification steps specific to the library kit.
+• Clean and size-select the libraries using magnetic beads or gel
+electrophoresis.
+• Quantitate and assess the quality of the prepared libraries using
+qPCR or Bioanalyzer.
+C) Sequencing
+• Load the prepared libraries onto the designated NGS platform
+(e.g., Illumina, ThermoFisher, PacBio) following the
+manufacturer's protocol.
+• Ensure the sequencing run parameters (read length, depth of
+coverage, etc.) are set according to the study design.
+• Monitor the sequencing run and troubleshoot any issues that
+arise, following instrument-specific SOPs.
+D) Data Processing
+• Transfer raw sequencing data (FASTQ files) to the designated
+bioinformatics server.
+• Perform initial quality control on sequencing reads using tools like
+FastQC.
+• Use a suitable aligner (e.g., BWA, STAR) to align reads to the
+reference genome.
+E) Variant Calling
+• Use validated variant calling pipelines (e.g., GATK, FreeBayes) to
+identify genomic variants.
+• Filter variants based on quality metrics and annotations.
+• Annotate variants with biological information using databases like
+dbSNP, ClinVar, etc.
+F) Data Analysis and Interpretation
+• Review and interpret the variant data.
+• Use bioinformatics tools and integrative genome viewers (e.g.,
+IGV) to visualize variants.
+• Consult relevant literature and databases for potential clinical
+significance.
+• Generate a draft report of the significant findings including variant
+details, interpretations, and any associated annotations.
+G) Quality Control
+• Perform internal quality control measures at every critical step
+(e.g., variant calling, data logging).
+• Utilize external quality assessment programs for periodic external
+validation.
+• Maintain a log of quality control activities and outcomes in the
+laboratory information management system (LIMS).
+H) Reporting
+• Validate and finalize the report ensuring that it includes all
+relevant findings.
+• Have the report reviewed by a senior genomicist or laboratory
+director for accuracy and completeness.
+• Ensure proper documentation and archival of all data and reports
+for future reference.
+1. Responsibility All laboratory personnel involved in the
+processing, analysis, and reporting of the genomic data must
+adhere to this SOP. It is the responsibility of the designated
+senior genomicist or laboratory director to oversee and ensure
+adherence to these procedures.
+2. References
+• Relevant kit and instrument manufacturer manuals and protocols
+• Human genome reference databases (e.g., GRCh37, GRCh38)
+• Genetic variant databases (e.g., dbSNP, ClinVar)
+• Internal laboratory SOPs for DNA extraction, library preparation,
+sequencing, and bioinformatics analysis
+1. Approval and Review
+• This protocol is subject to review on an annual basis or as needed
+upon significant changes in technology or methodology.
+• Document approved by: [Laboratory Director Name]
+• Date of approval: [Date]
+• Next review date: [One year from approval date]
+End of Protocol
+Note: Although every effort is made to streamline this SOP for
+MISCELLANEOUS HNL GENOMICS, certain specific adjustments
+may be necessary based on particular case studies or unique
+specimen types.

@@ -1,0 +1,356 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+k103195
+B. Purpose for Submission:
+Adding wireless functionality to the i-STAT Analyzer (k001387) to communicate
+testing results to a PC
+C. Manufacturer and Instrument Name:
+Abbott Point of Care, Inc. i-STAT 1 Wireless Analyzer
+D. Type of Test or Tests Performed:
+Hematocrit, glucose, blood urea nitrogen, sodium, potassium, chloride, ionized
+calcium, blood gases (oxygen, carbon dioxide, and pH), creatinine, lactate, activated
+clotting time, prothrombin time, bicarbonate/carbon dioxide, troponin, creatine
+phosphokinase, and beta natriuretic peptide.
+E. System Descriptions:
+1. Device Description:
+The i-STAT 1 Wireless Analyzer incorporates a radio-frequency transceiver
+(IEEE 802.11 b/g protocol), also known as a wireless module. This design
+modification provides a new method for users to transmit patient data to a Data
+Manager. It does not replace the existing method for transmitting data that uses an
+Infra-Red (IR) transceiver in the i-STAT Analyzer together with accessories that
+provide a wired connection to a Data Manager. The capability of the Wireless
+Analyzer to transmit test results and information by Radio Frequency (RF)
+transmission is an option that the user may choose but it is not required for the
+Wireless analyzer to fulfill the intended use or to meet the indications for use.
+(Which method is used to transmit data is selected by the user.)
+The operation of the wireless function during the User Interface application of the
+JAMS firmware is temporally distinct from the operation of the Measurement
+Cycle application when the i-STAT test cartridges are being processed and tests
+are being conducted. The control of the i-STAT 1 Wireless Analyzer assures that
+the RF module is not powered during the measurement cycle. All operations
+during the measurement cycle are identical in the predicate i-STAT Analyzer and
+in the Wireless Analyzer.
+2. Principles of Operation:
+Once the Measurement Cycle within an i-STAT test cartridge has been
+completed, the test results are stored in the analyzer and are displayed on the
+Analyzer LCD display where they are available for use by the medical
+professional. At this point, the User Interface Cycle begins during which the
+stored test results can be transmitted to a Data Manager via the IR transceiver or
+1
+
+--- Page 2 ---
+RF transmission at the convenience of the user.
+3. Modes of Operation:
+This submission only pertains to a wireless mode of data transmission being
+added to a previously cleared i-STAT Analyzer (k001387). The Analyzer
+software and the data transmission to a PC via the IR transceiver have been
+reviewed in that previous submission.
+4. Specimen Identification:
+See k001387.
+5. Specimen Sampling and Handling:
+See k001387.
+6. Calibration:
+See k001387.
+7. Quality Control:
+See k001387.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes___x_____ or No________
+F. Regulatory Information:
+Product Classification Regulation Section Panel
+Code
+JGS II 21 CFR 862.1665 Sodium test system Chemistry
+CEM II 21 CFR 862.1600 Potassium test system Chemistry
+CGZ II 21 CFR 862.1170 Chloride test system Chemistry
+CDS II 21 CFR 862.1770 Urea Nitrogen test system Chemistry
+JPI II 21 CFR 864.6400 Hematocrit measuring Hematology
+device
+JFP II 21 CFR 862.1145 Calcium test system Chemistry
+CHL II 21 CFR 862.1120 Blood gases (PCO2, PO2) Chemistry
+and blood pH test system
+CGL II 21 CFR 862.1225 Creatinine test system Chemistry
+2
+
+[Table 1 on page 2]
+	Product		Classification	Regulation Section	Panel
+	Code				
+JGS			II	21 CFR 862.1665 Sodium test system	Chemistry
+CEM			II	21 CFR 862.1600 Potassium test system	Chemistry
+CGZ			II	21 CFR 862.1170 Chloride test system	Chemistry
+CDS			II	21 CFR 862.1770 Urea Nitrogen test system	Chemistry
+JPI			II	21 CFR 864.6400 Hematocrit measuring
+device	Hematology
+JFP			II	21 CFR 862.1145 Calcium test system	Chemistry
+CHL			II	21 CFR 862.1120 Blood gases (PCO2, PO2)
+and blood pH test system	Chemistry
+CGL			II	21 CFR 862.1225 Creatinine test system	Chemistry
+
+--- Page 3 ---
+KHP II 21 CFR 862.1450 Lactic acid test system Chemistry
+JBP II 21 CFR 864.7140 Activated whole blood Hematology
+clotting time test
+GJS II 21 CFR 864.7750 Prothrombin time test Hematology
+JFL II 21 CFR 862.1160 Bicarbonate/carbon Chemistry
+dioxide test system
+MMI II 21 CFR 862.1215 Creatine Chemistry
+phosphokinase/creatine kinase or
+isoenzymes test system
+MYT II 21 CFR 862.1215 Creatine Chemistry
+phosphokinase/creatine kinase or
+isoenzymes test system
+NBC II 21 CFR 862.1117 B-type natriuretic peptide Chemistry
+test system
+CGA II 21 CFR 862.1345 Glucose test system Chemistry
+JJX I 21 CFR 862.1660 Quality control material Chemistry
+G. Intended Use:
+1. Indication(s) for Use:
+The i-STAT 1 Wireless Analyzer is used by trained medical professionals for
+running a variety of clinical chemistry tests and test panels contained in i-STAT
+test cartridges. These tests include hematocrit, glucose, blood urea nitrogen,
+sodium, potassium, chloride, ionized calcium, blood gases (oxygen, carbon
+dioxide, and pH), creatinine, lactate, activated clotting time, prothrombin time,
+bicarbonate/carbon dioxide, troponin, creatine phosphokinase, and beta natriuretic
+peptide.
+• Sodium measurements are used for monitoring electrolyte imbalances.
+• Potassium measurements are used for diagnosis and monitoring of diseases
+and clinical conditions that manifest high and low Potassium levels.
+• Chloride measurements are primarily used in the diagnosis, monitoring and
+treatment of electrolyte and metabolic disorders including but not limited to
+cystic fibrosis, diabetic acidosis and hydration disorders.
+• Glucose measurements are used in the diagnosis, monitoring and treatment of
+carbohydrate metabolism disorders including but not limited to diabetes
+mellitus, neonatal hypoglycemia, and idiopathic hypoglycemia, and of
+pancreatic islet cell carcinoma.
+3
+
+[Table 1 on page 3]
+KHP	II	21 CFR 862.1450 Lactic acid test system	Chemistry
+JBP	II	21 CFR 864.7140 Activated whole blood
+clotting time test	Hematology
+GJS	II	21 CFR 864.7750 Prothrombin time test	Hematology
+JFL	II	21 CFR 862.1160 Bicarbonate/carbon
+dioxide test system	Chemistry
+MMI	II	21 CFR 862.1215 Creatine
+phosphokinase/creatine kinase or
+isoenzymes test system	Chemistry
+MYT	II	21 CFR 862.1215 Creatine
+phosphokinase/creatine kinase or
+isoenzymes test system	Chemistry
+NBC	II	21 CFR 862.1117 B-type natriuretic peptide
+test system	Chemistry
+CGA	II	21 CFR 862.1345 Glucose test system	Chemistry
+JJX	I	21 CFR 862.1660 Quality control material	Chemistry
+
+--- Page 4 ---
+• Hematocrit measurements can aid in the determination and monitoring of
+normal or abnormal total red cell volume status including but not limited to
+conditions such anemia and erythrocytosis and blood loss related to trauma
+and surgery.
+• Blood urea nitrogen measurements are used for the diagnosis, monitoring and
+treatment of certain renal and metabolic diseases.
+• Ionized calcium measurements are used in the diagnosis, monitoring and
+treatment of conditions including but not limited to parathyroid disease, a
+variety of bone diseases, chronic renal disease and tetany and disturbances
+related to surgical and intensive care.
+• pH, pCO2 and pO2 measurements are used in the diagnosis, monitoring and
+treatment of respiratory disturbances and metabolic and respiratory based
+acid-base disturbances.
+• Creatinine measurements are used in the diagnosis and treatment of renal
+diseases, in monitoring renal dialysis, and as a calculation basis for measuring
+other urine analytes.
+• The i-STAT lactate test is useful for (1) the diagnosis and treatment of lactic
+acidosis in conjunction with measurements of blood acid/base status, (2)
+monitoring tissue hypoxia and strenuous physical exertion, and (3) diagnosis
+of hyperlactatemia.
+• The i-STAT Kaolin Activated Clotting Time (ACT) test is an in vitro
+diagnostic test used to monitor high-dose heparin anticoagulation frequently
+associated with cardiovascular surgery.
+• The i-STAT PT, a prothrombin time test, is useful in monitory patients
+receiving oral anticoagulation therapy such as Coumadin or warfarin.
+• Bicarbonate/carbon dioxide measurements are used in the diagnosis and
+treatment of numerous potentially serious disorders associated with changes in
+body acid-base balance.
+• The i-STAT Cardiac Troponin I (cTnI) test is an in vitro diagnostic test for the
+quantitative measurement of cardiac troponin I in whole blood or plasma.
+Measurements of cardiac troponin I are used in the diagnosis and treatment of
+myocardial infarction and as an aid in the risk stratification of patients with
+acute coronary syndromes with respect to their relative risk of mortality.
+• The i-STAT CKMB test is an in vitro diagnostic test for the quantitative
+measurement of creatinine kinase MB mass in whole blood or plasma
+samples. CK-MB measurements can be used as an aid in the diagnosis and
+treatment of myocardial infarction (MI).
+• The i-STAT BNP test is an in vitro diagnostic test for the quantitative
+measurement of B-Type Natriuretic Peptide (BNP) in whole blood or plasma
+samples using EDTA as the anticoagulant. BNP measurements can be used as
+an aid in the diagnosis and assessment of the severity of congestive heart
+failure.
+• The i-STAT Celite ACT test is useful for monitoring patients receiving
+heparin for treatment of pulmonary embolism or venous thrombosis, and for
+monitoring anticoagulation therapy in patients undergoing medical procedures
+such as catheterization, cardiac surgery, surgery, organ transplant and dialysis
+4
+
+--- Page 5 ---
+2. Special Conditions for Use Statement(s):
+Prescription use only.
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+i-STAT Analyzer (Model 300), k001387
+2. Comparison with Predicate Device:
+Similarities
+Item Predicate device (k001387) Proposed device
+Indications for use The i-STAT Analyzer is used by
+trained medical professionals for
+running a variety of clinical chemistry Same
+tests and test panels contained in i-
+STAT test cartridges.
+Cartridge use Compatible with i-STAT cartridges Same
+Control of the
+JAMS software Same
+transmission of data
+Software updates Via short range IR Same
+Differences
+Item Predicate device Proposed device
+(k001387)
+Hematocrit, glucose, Hematocrit, glucose, blood urea
+blood urea nitrogen, nitrogen, sodium, potassium, chloride,
+sodium, potassium, ionized calcium, blood gases (oxygen,
+chloride, ionized carbon dioxide, and pH), creatinine,
+calcium, blood gases lactate, activated clotting time,
+Analytes
+(oxygen, carbon prothrombin time (originally cleared
+dioxide, and pH, under k020355), bicarbonate/carbon
+creatinine, lactate and dioxide (k053110), troponin (k031739),
+activated clotting creatine phosphokinase (k051433), and
+time. beta natriuretic peptide (k053597).
+5
+
+[Table 1 on page 5]
+Similarities								
+	Item			Predicate device (k001387)			Proposed device	
+Indications for use			The i-STAT Analyzer is used by
+trained medical professionals for
+running a variety of clinical chemistry
+tests and test panels contained in i-
+STAT test cartridges.			Same		
+Cartridge use			Compatible with i-STAT cartridges			Same		
+Control of the
+transmission of data			JAMS software			Same		
+Software updates			Via short range IR			Same		
+
+[Table 2 on page 5]
+Differences				
+Item		Predicate device		Proposed device
+		(k001387)		
+Analytes	Hematocrit, glucose,
+blood urea nitrogen,
+sodium, potassium,
+chloride, ionized
+calcium, blood gases
+(oxygen, carbon
+dioxide, and pH,
+creatinine, lactate and
+activated clotting
+time.			Hematocrit, glucose, blood urea
+nitrogen, sodium, potassium, chloride,
+ionized calcium, blood gases (oxygen,
+carbon dioxide, and pH), creatinine,
+lactate, activated clotting time,
+prothrombin time (originally cleared
+under k020355), bicarbonate/carbon
+dioxide (k053110), troponin (k031739),
+creatine phosphokinase (k051433), and
+beta natriuretic peptide (k053597).
+
+--- Page 6 ---
+Incorporates a wireless module
+Wireless based upon the IEEE 802.11 b/g
+test result Not available communication protocol (“Wi-
+transmission Fi”) to be used to transmit test
+results to a Data Manager
+Data
+transmission IR Port IP Port or Wireless Module
+option
+Analyzer Blue; a “wireless” symbol is
+Beige
+appearance present on the bezel
+I. Special Control/Guidance Document Referenced (if applicable):
+• IEC 61326-2-6: Electrical equipment for measurement, control and
+laboratory use - EMC requirements - Part 2-6: Particular requirements - In
+vitro diagnostic (IVD) medical equipment
+• IEC 61326-1: Electrical equipment for measurement, control and laboratory
+use - EMC requirements - Part 1: General requirements
+• UL 61010-1:2nd Ed. 07/04 Rev 07/2/05 Safety of Electrical Equipment for
+Measurement, Control and Laboratory Use
+• FCC: 47 CFR Part 15.247:2005 (Subpart C)
+• FCC: 47 CFR Part 15.247:2006 (Subpart C)
+• FCC: 47 CFR Part 15 Subpart B: Class A
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+The measurement cycle activities performed within the i-STAT cartridges are
+identical in the i-STAT 1 Analyzer and in the Wireless Analyzer, therefore
+accuracy studies were not performed.
+b. Precision/Reproducibility:
+The measurement cycle activities performed within the i-STAT cartridges are
+identical in the i-STAT 1 Analyzer and in the Wireless Analyzer, therefore
+new precision studies were not performed.
+c. Linearity:
+The measurement cycle activities performed within the i-STAT cartridges are
+identical in the i-STAT 1 Analyzer and in the Wireless Analyzer, therefore
+new linearity studies were not performed.
+6
+
+[Table 1 on page 6]
+Wireless
+test result
+transmission	Not available	Incorporates a wireless module
+based upon the IEEE 802.11 b/g
+communication protocol (“Wi-
+Fi”) to be used to transmit test
+results to a Data Manager
+Data
+transmission
+option	IR Port	IP Port or Wireless Module
+Analyzer
+appearance	Beige	Blue; a “wireless” symbol is
+present on the bezel
+
+--- Page 7 ---
+d. Carryover:
+The measurement cycle activities performed within the i-STAT cartridges are
+identical in the i-STAT 1 Analyzer and in the Wireless Analyzer, therefore
+new carryover studies were not performed.
+e. Interfering Substances:
+The measurement cycle activities performed within the i-STAT cartridges are
+identical in the i-STAT 1 Analyzer and in the Wireless Analyzer, therefore
+new studies to evaluate potential interfering substances were not performed.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+The following testing was performed to evaluate the wireless function:
+1. Testing that demonstrated that i-STAT patient results are transmitted
+successfully to the pertinent data fields on the receiving computer for all i-
+STAT tests that can be used with the i-STAT wireless analyzer.
+2. Testing that demonstrated that multiple i-STAT 1Wireless Analyzers can
+transmit results to a computer simultaneously without corruption of the data or
+patient mix-up.
+3. Testing that demonstrated that the wireless module is not powered during the
+measurement cycle
+4. Testing that demonstrated that the wireless module is off if the analyzer is off.
+The integrity of transmitted data is assured by the use of:
+• A cyclic redundancy check (CRC) of data that is the same as that used in the
+predicate i-STAT 1 Analyzer (Model 300). Approximately 99.9985% of any
+corrupted data will be detected by the CRC.
+• A TCP/IP protocol that is the same as used in the predicate device.
+• The IEEE 802.11 protocol that is inherent in the operation of the healthcare
+facility’s wireless router.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+7

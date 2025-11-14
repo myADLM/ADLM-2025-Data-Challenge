@@ -1,0 +1,113 @@
+1. PURPOSE
+The purpose of this procedure is to provide step-by-step instructions
+for performing B-CATENIN mutation analysis using next-generation
+sequencing (NGS) on tumor samples.
+2. SCOPE
+This protocol applies to the analysis of tumor samples for B-
+CATENIN mutations using NGS technology in a CLIA-certified
+laboratory.
+3. RESPONSIBILITY
+It is the responsibility of the trained laboratory personnel to perform
+the procedures outlined in this document accurately and efficiently.
+Supervisors are responsible for ensuring that all personnel are
+properly trained and all procedures are followed correctly.
+4. DEFINITIONS
+• B-CATENIN: A protein encoded by the CTNNB1 gene, mutations
+of which are implicated in various cancers.
+• Next-Generation Sequencing (NGS): A high-throughput
+sequencing technology used to analyze genetic material.
+5. PROCEDURE
+5.1 Sample Preparation
+5.1.1 Sample Requirements
+• Tumor tissue samples, freshly frozen or formalin-fixed paraffin-
+embedded (FFPE).
+• Minimum DNA quantity: 50 ng
+• DNA purity: A260/A280 ratio between 1.8 and 2.0
+5.1.2 DNA Extraction
+• Use designated DNA extraction kits following the manufacturer's
+protocol.
+• Quantify DNA using a Qubit fluorometer or spectrophotometer.
+• Assess DNA quality using an Agilent Bioanalyzer or similar
+instrument.
+5.2 Library Preparation
+5.2.1 Library Preparation Kit
+• Use a validated library preparation kit specific for targeted
+sequencing.
+5.2.2 Library Preparation Steps
+• Fragmentation: Fragment the DNA to the desired size
+(approximately 200-300 bp) using a Covaris sonicator or
+equivalent.
+• End Repair: Perform end repair to create blunt ends.
+• A-Tailing: Add an "A" nucleotide to the 3' ends of the DNA
+fragments.
+• Adapter Ligation: Ligate adapters to the DNA fragments.
+• Cleanup: Perform cleanup using AMPure XP beads to remove
+excess reagents.
+• PCR Enrichment: Amplify the library using PCR (polymerase
+chain reaction) following the recommended cycling conditions.
+• Final Cleanup: Use AMPure XP beads to purify the amplified
+library.
+5.3 Library Quantification and Quality Control
+• Quantify the library using a Qubit fluorometer or similar.
+• Assess the library size distribution using an Agilent Bioanalyzer or
+similar.
+• Ensure the library concentration meets the minimum requirement
+for sequencing (e.g., 4 nM).
+5.4 Sequencing
+5.4.1 Sequencer Preparation
+• Calibrate and prepare the sequencer according to the
+manufacturer's protocol.
+• Load the purified library into the sequencer.
+5.4.2 Sequencing Run
+• Ensure proper sequencing parameters are set (such as read
+length and depth).
+• Initiate the sequencing run.
+• Monitor the run for any issues.
+5.5 Data Analysis
+5.5.1 Data Generation
+• Transfer the raw sequencing data from the sequencer to the
+bioinformatics workstation.
+5.5.2 Data QC
+• Perform quality control checks on the raw sequencing data using
+software such as FastQC.
+• Filter and trim reads to remove low-quality bases and adapter
+sequences.
+5.5.3 Alignment and Variant Calling
+• Align the filtered reads to a reference genome using alignment
+software such as BWA-MEM.
+• Perform variant calling using tools like GATK or VarScan to
+identify B-CATENIN mutations.
+5.5.4 Annotation and Interpretation
+• Annotate identified mutations using tools such as ANNOVAR to
+add functional information.
+• Interpret the clinical relevance of mutations in the context of the
+tumor type.
+5.6 Reporting Results
+5.6.1 Results Compilation
+• Review the list of identified B-CATENIN mutations for accuracy.
+• Generate a comprehensive report including the detected
+mutations, their clinical significance, and recommended follow-up
+actions.
+5.6.2 Verification and Documentation
+• Verify the results by a qualified laboratory professional.
+• Document the entire analytical process and results in the
+laboratory information system (LIS).
+5.6.3 Communication of Results
+• Communicate the verified results to the requesting physician or
+healthcare provider.
+• Ensure the report is added to the patient’s medical record.
+6. QUALITY CONTROL
+Routine quality control processes should be followed, including:
+• Use of positive and negative control samples with each batch of
+analyses.
+• Participation in external proficiency testing as required.
+• Regular calibration of all equipment and validation of processes.
+7. REFERENCES
+Pertinent references and manufacturer's guidelines should include:
+• Manufacturer instructions for DNA extraction kits and library
+preparation kits.
+• Sequencer operation manuals.
+• Bioinformatics tools documentation.
+8. REVISION HISTORY
+Document the version history and revisions made to the SOP.
+Version 1.0: Initial protocol creation - October 2023.

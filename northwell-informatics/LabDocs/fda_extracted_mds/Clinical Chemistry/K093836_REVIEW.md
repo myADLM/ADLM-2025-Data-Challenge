@@ -1,0 +1,107 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k093836   
+B. Purpose for Submission: New device   
+C. Measurand: Calibration verification and assay range verification material for TSH (thyroid stimulating hormone)   
+D. Type of Test: Not applicable   
+E. Applicant: Roche Diagnostics   
+F. Proprietary and Established Names: Elecsys TSH CalCheck 5   
+G. Regulatory Information:
+
+#
+
+1. Regulation section: 21 CFR §862.1660, Quality Control Material (Assayed and Unassayed)
+
+2. Classification: Class I, reserved
+
+3. Product code: JJX - Single (Specified) Analyte Controls (Assayed and Unassayed)
+
+4. Panel:
+
+# Clinical Chemistry
+
+# H. Intended Use:
+
+1. Intended use(s): See indications for use below.
+
+2. Indication(s) for use:
+
+The Elecsys TSH CalCheck 5 is an assayed control for use in calibration verification and for use in the verification of the assay range established by the Elecsys TSH reagent on the indicated Elecsys and cobas e immunoassay analyzers.
+
+3. Special conditions for use statement(s):
+
+• Not intended to be used as a primary calibrator or routine control material   
+• For in vitro diagnostic use   
+• For prescription use only
+
+4. Special instrument requirements:
+
+The labeling states that the CalChecks are for use with the Elecsys TSH reagent on the Elecsys 2010/cobas e411 and Modular Analytics E170/cobas e601 test systems.
+
+# I. Device Description:
+
+The Elecsys TSH CalCheck 5 is a lyophilized product consisting of human TSH in equine serum matrix. During manufacture, the TSH is spiked into the matrix at the target concentrations listed below.
+
+<table><tr><td>Elecsys TSH CalCheck level</td><td>Target Value (μg/mL)</td></tr><tr><td>Level 1</td><td>&lt; 0.1</td></tr><tr><td>Level 2</td><td>2</td></tr><tr><td>Level 3</td><td>50</td></tr><tr><td>Level 4</td><td>83</td></tr><tr><td>Level 5</td><td>100</td></tr></table>
+
+The human source materials were prepared exclusively from the blood of donors tested individually and shown to be free from HBsAg and antibodies to HCV and HIV. The testing methods applied were FDA-approved or cleared in compliance with the European Directive 98/79/EC, Annex II, List A.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Elecsys CalCheck TSH
+
+2. Predicate K number(s): k963147
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=1>Characteristic</td><td rowspan=1 colspan=1>Elecsys CalCheck TSH(k963147)</td><td rowspan=1 colspan=1>Elecsys TSH CalCheck 5</td></tr><tr><td rowspan=1 colspan=1>Indications for use</td><td rowspan=1 colspan=1>Verification of the calibrationcurve established by the ElecsysTSH reagents</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>Elecsys CalCheck TSH isintended for use in thequantitative verification of thecalibration curve established bythe Elecsys TSH reagents andcalibrators on Elecsys 1010 and2010 immunoassay analyzers.</td><td rowspan=1 colspan=1>The Elecsys TSH CalCheck 5 isan assayed control for use incalibration verification and foruse in the verification of theassay range established by theElecsys TSH reagent on theindicated Elecsys cobas eimmunoassay analyzers.</td></tr><tr><td rowspan=1 colspan=1>Analyzers</td><td rowspan=1 colspan=1>Elecsys 1010 and 2010</td><td rowspan=1 colspan=1>Elecsys cobas e</td></tr><tr><td rowspan=1 colspan=1>Levels</td><td rowspan=1 colspan=1>Three</td><td rowspan=1 colspan=1>Five</td></tr><tr><td rowspan=1 colspan=1>Format</td><td rowspan=1 colspan=1>Lyophilized</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Handling</td><td rowspan=1 colspan=1>Reconstitute the contents ofCheck 1, Check 2 and Check 3with exactly 1.0 mL distilled ordeionized water. Allow thebottle to stand closed for 15minutes. Mix gently byinversion to ensurehomogeneity.</td><td rowspan=1 colspan=1>Reconstitute Check 1, Check 2,Check 3, Check 4, and Check 5with exactly 1.0 mL distilled ordeionized water. Allow to standclosed for 15 minutes, then mixgently by inversion.</td></tr><tr><td rowspan=1 colspan=1>Stability</td><td rowspan=1 colspan=1>Unopened:Store at 2-8°C untilexpiration dateReconstituted:3  20 - 25°C : 4 hrs</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Matrix</td><td rowspan=1 colspan=1>Equine serum matrix</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+None referenced.
+
+L. Test Principle: Not applicable.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: a. Precision/Reproducibility: Not applicable b. Linearity/assay reportable range: Not applicable c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Traceability and value assignment   
+Elecsys TSH CalCheck 5 is standardized using internally produced master calibrators which are traceable to the World Health Organization’s Second International Reference Preparation (WHO $2 ^ { \mathrm { n d } }$ IRP 80/558) human recombinant standardization material.
+
+Value assignment testing is conducted and pre-defined acceptance criteria are applied. Specifically, each of the five CalCheck levels is value assigned using a minimum of three Elecsys 2010/cobas e411 analyzers and MODULAR ANALYTICS E170/cobas e 601 analyzers. Each sample is tested in duplicate. The target value for each CalCheck is the median of the observed values.
+
+The labeling states that laboratories should establish appropriate acceptance criteria when using this product for its intended use.
+
+# Stability
+
+Real time and accelerated stability testing protocols and acceptance criteria were described and found to be adequate. CalCheck 5 is stable for 24 months when stored unopened at $2 - 8 ^ { \circ } \mathrm { C }$ . The reconstituted vials are stable up to four hours at $2 0 – 2 5 ^ { \circ } \mathrm { C }$ .
+
+d. Detection limit: Not applicable e. Analytical specificity:
+
+Not applicable f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: The expected values are provided in the labeling for each specific lot.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

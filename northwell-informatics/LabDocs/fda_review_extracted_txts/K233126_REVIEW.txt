@@ -1,0 +1,492 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K233126
+B Applicant
+Due to an administrative error, the applicant’s name was previously stated as “AetherAI Co.,
+Ltd” and is now corrected.
+aetherAI Co., Ltd.
+C Proprietary and Established Names
+aetherSlide
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 - Whole
+QKQ Class II PA - Pathology
+Slide Imaging System
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Type of Test:
+Software only device
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700 - Whole
+Slide Imaging System			PA - Pathology
+
+--- Page 2 ---
+B Indication(s) for Use:
+For In Vitro Diagnostic Use
+aetherSlide is a software-only device intended for viewing and managing digital images of
+scanned surgical pathology slides prepared from formalin-fixed paraffin embedded (FFPE)
+tissue. It is an aid to the pathologist to review, interpret, and manage digital images of pathology
+slides for primary diagnosis. aetherSlide is not intended for use with frozen section, cytology, or
+non-FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ appropriate procedures and safeguards
+to assure the quality of the images obtained and, where necessary, use conventional light
+microscopy review when making a diagnostic decision. aetherSlide is intended for use with the
+Philips Ultra Fast Scanner (UFS) and the Philips PS27QHDCR monitor.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+aetherSlide, version 101692 is a web-based, software only device that is intended to aid
+pathology professionals in viewing, interpretation and management of digital whole slide images
+(WSI) of scanned surgical pathology slides prepared from formalin-fixed paraffin-embedded
+(FFPE) tissue obtained from Philips Ultra Fast Scanner (UFS). It aids the pathologist in the
+review, interpretation, and management of pathology slide digital images used to generate a
+primary diagnosis.
+aetherSlide is operated as follows:
+1. Image acquisition is performed using the Philips UFS. The operator conducts quality control
+of the digital slides according to Philips UFS instructions and laboratory specifications to
+determine if re-scans are necessary.
+2. Once the WSI is acquired using Philips UFS, it becomes available in the Philips IntelliSite
+Pathology Solution (PIPS) database file systems. The operator then exports the WSI in
+iSyntax format from PIPS Image Management System (IMS) to a designated storage path.
+3. The operator can manually upload the exported WSI into aetherSlide via aetherSlide
+Gateway, which is a separate medical image communications software. Alternatively, the
+aetherSlide Gateway can automatically initiate the upload of the WSI into aetherSlide when
+the auto-upload function is activated on the settings page of aetherSlide Gateway. Once the
+WSI is uploaded, the reading pathologist uses the device to perform the following actions:
+ View slide image
+ Zoom and pan the image
+ Measure distances in the image
+ Annotate the image
+K233126 - Page 2 of 8
+
+--- Page 3 ---
+4. After viewing all images for a patient case, the pathologist will make a diagnosis. The
+diagnosis will be documented in another system, e.g., a Laboratory Information System
+(LIS).
+aetherSlide is designed to be deployed to a customer-managed infrastructure and may be
+accessed on the user's workstation browser. aetherSlide operates with and is validated for use
+with the components specified the tables below:
+Table 1. Interoperable Components for Use with aetherSlide
+Components Manufacturer Model
+Scanner Philips Medical Systems Ultra Fast Scanner
+Nederland B.V.
+Display Philips Medical Systems PS27QHDCR
+Nederland B.V. Monitor
+Table 2. Computer Environment/System Requirements
+Environment Component Minimum Requirements
+Client PC
+Hardware Processor Intel or AMD with 64-bit support, at least
+2 GHz, at least 2 cores
+Memory 4 GB RAM or higher
+Storage 128 GB SSD or higher
+Network 100 Mbps Ethernet or above
+Software Operating System Microsoft Windows 11
+Browser Google Chrome (122 or higher)
+Gateway Workstation
+Hardware Processor Intel or AMD with 64-bit support, at least
+2 GHz, at least 2 cores
+Memory 4 GB RAM or higher
+Storage 128 GB SSD or higher
+Network 100 Mbps Ethernet or above
+Software Operating System Microsoft Windows 11
+Server
+Hardware Processor Intel or AMD with 64-bit support, at least
+2 GHz, at least 8 cores
+Memory 16 GB RAM or higher
+Storage 512 GB SSD or higher
+Network 1 Gbps or above
+Software Operating System Ubuntu 22.04 LTS
+B Instrument Description Information:
+1. Instrument Name:
+aetherSlide
+2. Specimen Identification:
+K233126 - Page 3 of 8
+
+[Table 1 on page 3]
+	Components			Manufacturer			Model	
+Scanner			Philips Medical Systems
+Nederland B.V.			Ultra Fast Scanner		
+Display			Philips Medical Systems
+Nederland B.V.			PS27QHDCR
+Monitor		
+
+[Table 2 on page 3]
+	Environment			Component			Minimum Requirements	
+Client PC								
+Hardware			Processor			Intel or AMD with 64-bit support, at least
+2 GHz, at least 2 cores		
+			Memory			4 GB RAM or higher		
+			Storage			128 GB SSD or higher		
+			Network			100 Mbps Ethernet or above		
+Software			Operating System			Microsoft Windows 11		
+			Browser			Google Chrome (122 or higher)		
+Gateway Workstation								
+Hardware			Processor			Intel or AMD with 64-bit support, at least
+2 GHz, at least 2 cores		
+			Memory			4 GB RAM or higher		
+			Storage			128 GB SSD or higher		
+			Network			100 Mbps Ethernet or above		
+Software			Operating System			Microsoft Windows 11		
+Server								
+Hardware			Processor			Intel or AMD with 64-bit support, at least
+2 GHz, at least 8 cores		
+			Memory			16 GB RAM or higher		
+			Storage			512 GB SSD or higher		
+			Network			1 Gbps or above		
+Software			Operating System			Ubuntu 22.04 LTS		
+
+--- Page 4 ---
+aetherSlide uses digital images of scanned surgical pathology slides of human samples
+prepared from formalin-fixed paraffin embedded (FFPE) tissue. The reading pathologist
+selects a case (patient) from a worklist whereby the subject device fetches the associated
+images from the image storage. The scanned images are identified based on the previously
+assigned specimen identifier.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is H&E stained. Digital
+images are then obtained from these glass slides using the PIPS Ultra Fast Scanner.
+4. Calibration:
+Not applicable
+5. Quality Control:
+Prior to using a whole slide image for diagnosis, the operator shall conduct quality control of
+the digital slides according to Philips UFS instructions and any additional laboratory
+specifications. This process ensures the acceptability of image quality for all scanned slide
+images and determines if re-scans are necessary.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Philips IntelliSite Pathology Solution
+B Predicate 510(k) Number(s):
+DEN160056
+C Comparison with Predicate(s):
+Device &
+Predicate K233126 DEN160056
+Device(s):
+Device Trade aetherSlide Philips IntelliSite Pathology Solution
+Name (PIPS)
+General Device Characteristic Similarities
+For In Vitro Diagnostic Use The Philips IntelliSite Pathology
+Solution (PIPS) is an automated
+aetherSlide is a software-only digital slide creation, viewing, and
+Intended device intended for viewing and management system. The PIPS is
+Use/Indications managing digital images of intended for in vitro diagnostic use as
+For Use scanned surgical pathology slides an aid to the pathologist to review
+prepared from formalin-fixed and interpret digital images of
+paraffin embedded (FFPE) tissue. surgical pathology slides prepared
+It is an aid to the pathologist to
+K233126 - Page 4 of 8
+
+[Table 1 on page 4]
+	Device &		K233126	DEN160056	
+	Predicate				
+	Device(s):				
+Device Trade
+Name			aetherSlide	Philips IntelliSite Pathology Solution
+(PIPS)	
+	General Device Characteristic Similarities				
+Intended
+Use/Indications
+For Use			For In Vitro Diagnostic Use
+aetherSlide is a software-only
+device intended for viewing and
+managing digital images of
+scanned surgical pathology slides
+prepared from formalin-fixed
+paraffin embedded (FFPE) tissue.
+It is an aid to the pathologist to	The Philips IntelliSite Pathology
+Solution (PIPS) is an automated
+digital slide creation, viewing, and
+management system. The PIPS is
+intended for in vitro diagnostic use as
+an aid to the pathologist to review
+and interpret digital images of
+surgical pathology slides prepared	
+
+--- Page 5 ---
+review, interpret, and manage from formalin-fixed paraffin
+digital images of pathology slides embedded (FFPE) tissue. The PIPS is
+for primary diagnosis. aetherSlide not intended for use with frozen
+is not intended for use with frozen section, cytology, or non FFPE
+section, cytology, or non-FFPE hematopathology specimens.
+hematopathology specimens.
+The PIPS comprises the Image
+It is the responsibility of a
+Management System (IMS), the
+qualified pathologist to employ
+Ultra Fast Scanner (UFS) and
+appropriate procedures and
+Display. The PIPS is for creation and
+safeguards to assure the quality of
+viewing of digital images of scanned
+the images obtained and, where
+glass slides that would otherwise be
+necessary, use conventional light
+appropriate for manual visualization
+microscopy review when making a
+by conventional light microscopy. It
+diagnostic decision. aetherSlide is
+is the responsibility of a qualified
+intended for use with the Philips
+pathologist to employ appropriate
+Ultra Fast Scanner (UFS) and the
+procedures and safeguards to assure
+Philips PS27QHDCR monitor.
+the validity of the interpretation of
+images obtained using PIPS.
+Digitized surgical pathology Same
+Specimen Type slides prepared from FFPE tissue
+Diagnostic iSyntax Same
+Image File
+Format
+Type of Internet browser-based application Same
+Software
+Application
+Principle of After WSI images are successfully After WSI images are successfully
+Operation acquired by using PIPS UFS, the acquired by using PIPS UFS, the
+WSI images are stored in the WSI images are stored in IMS
+image storage provided by the end Application Server & Storage
+user. During review, the software that is not provided as part
+pathologist opens WSI images of the PIPS, but may be located in a
+from storage, performs further QC central server room separate from the
+and reads WSI images of the workstation with the IMS viewing
+slides to make a diagnosis. software and Display. During review,
+the pathologist opens WSI images
+from IMS Server & Storage, perform
+further QC and reads WSI images of
+the slides to make a diagnosis.
+Image Storage Images are stored in an end user Images are stored in the end user
+provided image storage attached to provided image storage (PIPS IMS
+the local network. Application Server & Storage)
+attached to the local network.
+Image Panning, zooming, color Panning, zooming, color
+Manipulation manipulation function, manipulation function, annotations,
+K233126 - Page 5 of 8
+
+[Table 1 on page 5]
+	review, interpret, and manage
+digital images of pathology slides
+for primary diagnosis. aetherSlide
+is not intended for use with frozen
+section, cytology, or non-FFPE
+hematopathology specimens.
+It is the responsibility of a
+qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the quality of
+the images obtained and, where
+necessary, use conventional light
+microscopy review when making a
+diagnostic decision. aetherSlide is
+intended for use with the Philips
+Ultra Fast Scanner (UFS) and the
+Philips PS27QHDCR monitor.	from formalin-fixed paraffin
+embedded (FFPE) tissue. The PIPS is
+not intended for use with frozen
+section, cytology, or non FFPE
+hematopathology specimens.
+The PIPS comprises the Image
+Management System (IMS), the
+Ultra Fast Scanner (UFS) and
+Display. The PIPS is for creation and
+viewing of digital images of scanned
+glass slides that would otherwise be
+appropriate for manual visualization
+by conventional light microscopy. It
+is the responsibility of a qualified
+pathologist to employ appropriate
+procedures and safeguards to assure
+the validity of the interpretation of
+images obtained using PIPS.
+Specimen Type	Digitized surgical pathology
+slides prepared from FFPE tissue	Same
+Diagnostic
+Image File
+Format	iSyntax	Same
+Type of
+Software
+Application	Internet browser-based application	Same
+Principle of
+Operation	After WSI images are successfully
+acquired by using PIPS UFS, the
+WSI images are stored in the
+image storage provided by the end
+user. During review, the
+pathologist opens WSI images
+from storage, performs further QC
+and reads WSI images of the
+slides to make a diagnosis.	After WSI images are successfully
+acquired by using PIPS UFS, the
+WSI images are stored in IMS
+Application Server & Storage
+software that is not provided as part
+of the PIPS, but may be located in a
+central server room separate from the
+workstation with the IMS viewing
+software and Display. During review,
+the pathologist opens WSI images
+from IMS Server & Storage, perform
+further QC and reads WSI images of
+the slides to make a diagnosis.
+Image Storage	Images are stored in an end user
+provided image storage attached to
+the local network.	Images are stored in the end user
+provided image storage (PIPS IMS
+Application Server & Storage)
+attached to the local network.
+Image
+Manipulation	Panning, zooming, color
+manipulation function,	Panning, zooming, color
+manipulation function, annotations,
+
+--- Page 6 ---
+and Review annotations, and measurements and measurements
+Functions (only for distance) (distance & area)
+General Device Characteristic Differences
+Device aetherSlide imaging viewing Ultra Fast Scanner (UFS), Image
+Components software, aetherSlide Gateway Management System (IMS), Display
+End User’s aetherSlide PIPS IMS
+Interface
+VI Standards/Guidance Documents Referenced:
+1. FDA Guidance for Industry “Technical Performance Assessment of Digital Pathology Whole
+Slide Imaging Devices", April 20, 2016.
+2. FDA Guidance for the Applying Human Factors and Usability Engineering to Medical
+Devices (2016)
+3. FDA Guidance for the Content of Premarket Submissions for Device Software Functions
+(2023)
+4. ISO 14971:2019, Medical devices - Application of risk management to medical devices
+5. ISO/TR 24971:2020, Medical devices — Guidance on the application of ISO 14971
+6. ISO 13485:2016, Medical devices — Quality management systems — Requirements for
+regulatory purposes
+7. IEC 62304:2006/Amd:2015, medical device software — Software life cycle processes —
+Amendment 1
+8. FDA Guidance for the Content of Premarket Submissions for Management of Cybersecurity in
+Medical Devices (2014)
+9. ISO 14971:2019, Medical devices - Application of risk management to medical devices
+10. NIST Special Publication 800-115, Technical Guide to Information Security Testing and
+Assessment
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+K233126 - Page 6 of 8
+
+[Table 1 on page 6]
+and Review
+Functions		annotations, and measurements
+(only for distance)	and measurements
+(distance & area)	
+	General Device Characteristic Differences			
+Device
+Components		aetherSlide imaging viewing
+software, aetherSlide Gateway	Ultra Fast Scanner (UFS), Image
+Management System (IMS), Display	
+End User’s
+Interface		aetherSlide	PIPS IMS	
+
+--- Page 7 ---
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing was conducted with aetherSlide. The subject device was
+compared to the predicate device’s image review manipulation software (IRMS, as defined in
+FDA guidance document, “Guidance for Industry – Technical Performance Assessment of
+Digital Pathology Whole Slide Imaging Devices,” dated April 20, 2016) using the quantitative
+pixel-wise comparison method. The basis for the comparison was the CIEDE2000 color
+difference equation, ΔE.
+1. Bench Testing - Pixelwise comparison test
+Pixel-wise comparison testing to demonstrate identical image reproduction was conducted to
+compare WSIs reproduced by the subject device and PIPS IMS. The devices were tested as
+operating with the intended components, including the scanner (PIPS UFS), image
+management system (PIPS IMS, aetherSlide with Google Chrome,) and display
+(PS27QHDCR).
+The device was tested with multiple slides across multiple regions of interest (ROI) at
+multiple magnification levels. A total of 30 H&E-stained, FFPE glass slides of normal and
+tumor tissues from various human anatomical organs were used in the testing. The glass
+slides were scanned on a PIPS UFS to obtain 30 WSIs. For each of the 30 WSIs, 3 ROIs
+from different locations were selected by qualified personnel to represent various features in
+the tissue samples. Each ROI was captured at 4 magnification levels (5x, 10x, 20x, 40x).
+The screenshots were captured from the intended display while viewing with the subject
+device and predicate PIPS IMS. The screenshots were cropped and registered to be pixelwise
+comparable. The cropped image included most of the pixels in the image except for those in
+the viewer-specific user interface areas.
+Two sets of images were collected: PIPS IMS and aetherSlide using Google Chrome. Each
+image set included 360 images that covered all combinations of 30 slides, 3 ROIs and 4
+magnification levels. The testing data, including the overview images of the 30 glass slides
+with annotations of the ROIs, registration/cropping information, and captured images, were
+provided in the FDA specific format.
+The PIPS image set was used as the reference to compare the aetherSlide image set to
+determine whether all the 360 image-pairs were identical. Two images are considered
+identical if the 95th percentile of the pixelwise differences, computed using the International
+Commission on Illumination (CIE) color difference metric CIEDE2000 (ΔE00), is less than 3
+ΔE00. Testing results showed that the pixelwise differences across all 360 image-pairs were
+less than 3 ΔE00. The mean 95th percentile ΔE00 value was 0.16 with the lowest value
+reported as 0.00 and the highest reported as 0.71. Testing results demonstrated that WSIs
+reproduced by aetherSlide are identical to images reproduced by the predicate device.
+2. Turnaround Time
+The turnaround time for opening an image and panning were measured in the subject device
+when using Google Chrome over different magnifications levels and over multiple fields of
+view (FOVs). The test results show that:
+K233126 - Page 7 of 8
+
+--- Page 8 ---
+• When selecting a case, the average duration time until the image was fully loaded was
+4.31 seconds.
+• When panning the images (one quarter of the monitor), the average panning time was
+1.05 seconds, 0.85 seconds, 0.99 seconds and 0.78 seconds at magnification levels of 4x,
+10x, 20x, and 40x respectively.
+The subject device has been found to have an acceptable turnaround time with respect to its
+intended use for opening and panning the image.
+3. Measurements
+Measurement accuracy testing was performed using the scanned image of a grid micrometer.
+The scanned image of a grid micrometer (R1L3S3P, Positive Grid Distortion Target,
+ThorLabs) was used as the test target to verify the length measurement accuracy of the
+subject device. The 100 µm grid with horizontal and vertical spacing of 0.1 mm was used in
+the testing. The task of the human tester was to use the subject device’s measurement tool to
+measure 0.1 mm (1 cell) and 0.2 mm (2 cells), both horizontally and vertically, at 5x, 10x,
+20x, and 40x magnifications. Each measurement was conducted three times and the average
+was reported. Results showed that all measurement values obtained by the human tester using
+the measurement tool were also 0.1 mm or 0.2 mm for each of the specified measurements
+above. Test results demonstrated that the subject device performed accurate measurements
+with respect to its intended use.
+4. Human Factor (Usability) testing
+The aetherSlide device Human Factors (HF) validation test was conducted to demonstrate
+that the device can be used by the intended users without serious use errors or problems, for
+the intended uses and under the expected use conditions. The HF validation test was
+performed by representative users and conducted per FDA’s Guidance on Applying Human
+Factors and Usability Engineering to Medical Devices (2016). A systematic evaluation of
+task-based usability including critical tasks required for operation of the device were
+evaluated at multiple sites using multiple users. All tasks associated with reviewing and
+reporting results for cases including confirmation that all slides belonging to specific cases
+are reviewed before reporting results, were included in the HF validation test. Overall, the
+results of the human factors testing were acceptable. The aetherSlide device has been found
+to be safe and effective for intended users, users and use environments.
+VIII Proposed Labeling:
+The labeling supports or the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K233126 - Page 8 of 8

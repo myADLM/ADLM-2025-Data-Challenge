@@ -1,0 +1,85 @@
+Standard Operating Procedure (SOP) for MAYOCOMPLETE
+LIQUID BIOPSY PANEL, NEXT-GENERATION SEQUENCING,
+CELL-FREE DNA
+1. PURPOSE
+To provide a detailed guideline for the analytical phase of processing
+and generating results for the MAYOCOMPLETE Liquid Biopsy Panel
+using Next-Generation Sequencing (NGS) technology on cell-free
+DNA (cfDNA). This procedure ensures accurate, consistent, and
+reliable results.
+2. SCOPE
+This procedure applies to all staff involved in the analytical phase of
+the MAYOCOMPLETE Liquid Biopsy Panel, including preparation,
+sequencing, data analysis, and result reporting.
+3. RESPONSIBILITY
+All designated laboratory personnel are responsible for following this
+SOP during the analytical phase. It is the responsibility of the
+laboratory supervisor to ensure adherence to the protocol and to
+address any deviations.
+4. SPECIMEN REQUIREMENTS
+- Preferred Specimen: Plasma from blood collected in specialized cfDNA tubes.
+- Volume: Minimum of 10 mL of plasma.
+- Stability: Process plasma within 6 hours of collection to ensure cfDNA integrity.
+5. EQUIPMENT AND REAGENTS
+- NGS platform (e.g., Illumina, Thermo Fisher)
+- cfDNA extraction kits
+- Library preparation kits
+- Quantitative PCR (qPCR) machine
+- Bioanalyzer for library quality control
+- Required buffers, enzymes, and reagents for library preparation and sequencing
+- Calibration and maintenance records for all equipment used
+- Computer and software for bioinformatics analysis
+6. PROCEDURE
+6.1. Pre-Analytical Quality Check
+- Verify sample identification and documentation.
+- Centrifuge blood samples at 1600 x g for 10 minutes at 4°C to isolate plasma.
+- Transfer plasma to a clean, labeled tube without disturbing the buffy coat.
+6.2. cfDNA Extraction
+- Follow the manufacturer's protocol for cfDNA extraction.
+- Elute cfDNA in a low-TE buffer.
+- Quantify cfDNA using a fluorometric method (e.g., Qubit).
+6.3. Library Preparation
+- Prepare cfDNA libraries using the designated library preparation kit.
+- Follow manufacturer's instructions for enzymatic fragmentation, end-repair, dA-tailing, and adapter ligation.
+- Enrich libraries using targeted capture or amplicon-based methods specific to the MAYOCOMPLETE Panel.
+- Purify the library using magnetic beads.
+6.4. Library Quality Control
+- Assess library size distribution and concentration using a Bioanalyzer.
+- Ensure the library is within the expected size range for cfDNA libraries.
+6.5. NGS Sequencing
+- Load prepared libraries onto the sequencing platform according to manufacturer instructions.
+- Set up the sequencing run with appropriate parameters and barcoding strategies.
+- Monitor the sequencing run for quality metrics such as cluster density and Q30 score.
+6.6. Data Analysis
+- Transfer raw sequence data to the designated bioinformatics pipeline.
+- Perform primary data analysis including base-calling, demultiplexing, and alignment to the reference genome.
+- Apply secondary analysis for variant calling, including single nucleotide variants (SNVs), insertions/deletions (indels), copy number variations (CNVs), and structural rearrangements.
+- Tertiary analysis includes annotation and filtering of variants to identify clinically relevant mutations.
+6.7. Data Review and Interpretation
+- Review data for quality control metrics and ensure adherence to established thresholds.
+- Validate identified variants with secondary methods if necessary (e.g., digital PCR).
+- Interpret results in the context of clinical relevance, considering variant pathogenicity databases and guidelines.
+6.8. Reporting Results
+- Generate a detailed report summarizing the findings, including identified mutations, variant classifications, and clinical interpretations.
+- Ensure the report is reviewed and signed off by a qualified laboratory director.
+- Distribute the final report through the designated laboratory information system (LIS) or electronic health record (EHR) portals.
+7. QUALITY CONTROL
+- Utilize positive and negative control samples in each batch to monitor assay performance.
+- Document and investigate any deviations or anomalies observed during the process.
+- Conduct regular proficiency testing and participate in external quality assurance programs.
+8. SAFETY
+- Adhere to all laboratory safety protocols and use personal protective equipment (PPE) as required.
+- Handle all biological specimens and reagents according to biosafety guidelines.
+9. REFERENCES
+- Manufacturer's instructions for cfDNA extraction kit, library preparation kit, and NGS platform.
+- CAP/CLIA guidelines for molecular diagnostic laboratories.
+- Relevant scientific literature pertaining to the interpretation of cfDNA NGS results.
+10. DOCUMENT HISTORY
+- Version 1.0 by [Author Name], Effective Date: [Date]
+- Review Date: [Date]
+- Revised by: [Reviser’s Name], Revision Date: [Date]
+Ensure that this document is updated regularly to reflect any changes
+in protocols, instrumentation, or regulatory requirements.
+Effective adherence to this SOP ensures the highest standards of
+quality and accuracy in the analytical phase of the MAYOCOMPLETE
+Liquid Biopsy Panel using NGS for cell-free DNA.

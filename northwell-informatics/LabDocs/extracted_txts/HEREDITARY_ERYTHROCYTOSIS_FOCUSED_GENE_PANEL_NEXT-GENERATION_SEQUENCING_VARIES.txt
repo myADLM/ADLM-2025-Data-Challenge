@@ -1,0 +1,121 @@
+Standard Operating Procedure (SOP)
+HEREDITARY ERYTHROCYTOSIS FOCUSED GENE PANEL,
+NEXT-GENERATION SEQUENCING, VARIES
+1. PURPOSE
+This SOP outlines the steps and responsibilities for the detection of
+variants associated with hereditary erythrocytosis using next-
+generation sequencing (NGS). The procedure details the analytical
+phase starting from the reception of the extracted DNA to the
+generation and interpretation of sequencing results.
+2. RESPONSIBILITY
+Laboratory personnel are responsible for ensuring that the NGS
+workflow is performed accurately and efficiently. This includes quality
+control, library preparation, sequencing, data analysis, and reporting
+of results. Supervisors are responsible for reviewing data, validating
+results, and addressing any discrepancies that arise during the
+analytical process.
+3. DEFINITIONS
+• NGS: Next-Generation Sequencing, a high-throughput method to
+determine nucleotide sequences in DNA.
+• Library Preparation: The process of preparing DNA samples for
+sequencing.
+• Hereditary Erythrocytosis (HE): A genetic condition
+characterized by an increased number of red blood cells.
+• Focused Gene Panel: A set of genes known to be associated
+with HE that will be specifically sequenced.
+4. PROCEDURE
+The analytical phase includes NGS workflow, starting from DNA
+quality assessment to the final generation and analysis of sequencing
+data.
+A) DNA Quality Check
+1. Quantify DNA:
+◦ Use a fluorometric method (Qubit or similar) to determine
+the concentration of extracted DNA.
+◦ Record values. Acceptable DNA concentration: 10-100 ng/
+µL.
+2. Assess DNA Integrity:
+◦ Evaluate DNA integrity using agarose gel electrophoresis or
+an automated system (e.g., TapeStation).
+◦ DNA should present as a high molecular weight band.
+B) Library Preparation
+1. Fragmentation:
+◦ Perform DNA fragmentation using enzymatic or mechanical
+methods to generate an average fragment size of 200-300
+bp.
+2. End Repair and A-Tailing:
+◦ Repair DNA fragments to blunt ends followed by A-tailing to
+add adenine (A) overhangs.
+3. Adapter Ligation:
+◦ Ligate sequencing adapters, which contain indices for
+sample identification.
+4. PCR Amplification:
+◦ Perform PCR amplification to enrich adapter-ligated
+fragments.
+◦ Evaluate the success of library preparation using
+quantitative PCR (qPCR) or electrophoresis.
+C) Target Enrichment
+1. Hybridization with Capture Probes:
+◦ Use capture probes specific for genes associated with HE to
+enrich the target regions.
+2. Post-Hybridization Amplification:
+◦ Perform additional PCR amplification to further enrich target
+regions.
+D) Sequencing
+1. Loading Libraries:
+◦ Quantify the prepared libraries and pool equimolar amounts.
+◦ Load the pooled libraries onto the NGS platform (e.g.,
+Illumina).
+2. Sequencing Run:
+◦ Initiate a sequencing run, monitoring the process to ensure
+optimal cluster generation and data quality.
+E) Data Analysis
+1. Initial Data Processing:
+◦ Generate FASTQ files and perform initial quality control
+checks using software such as FastQC.
+2. Alignment:
+◦ Align sequences to the reference genome using alignment
+tools such as BWA or Bowtie2.
+3. Variant Calling:
+◦ Call variants using software like GATK or samtools.
+◦ Annotate variants using databases such as ClinVar or
+dbSNP.
+4. Filtering and Prioritization:
+◦ Filter variants based on quality scores and allele frequency.
+◦ Prioritize clinically relevant variants associated with HE.
+F) Reporting Results
+1. Generate Report:
+◦ Create a comprehensive report summarizing identified
+variants, their potential clinical significance, and supporting
+evidence.
+2. Review and Validation:
+◦ Have a senior technologist or supervisor review and validate
+the report.
+◦ Discuss any uncertain findings or rare variants with a
+geneticist or other specialist.
+G) Documenting Results:
+• Record all findings in the laboratory information system (LIS) with
+the date, time, and initials of the technologist.
+• Archive sequencing data and associated analysis files on secure
+storage systems.
+5. QUALITY CONTROL
+• Perform QC checks at each step of the procedure using both
+positive and negative controls.
+• Review sequencing quality metrics to ensure they meet the
+laboratory’s predefined standards.
+• Re-run samples or steps if QC metrics fall outside acceptable
+ranges.
+6. REFERENCES
+1. Manufacturer's instructions for DNA extraction, library
+preparation kits, and sequencing platforms.
+2. GATK Best Practices workflows for variant discovery.
+3. Institutional guidelines for NGS-based diagnostic testing.
+4. Relevant literature on the genetic basis of hereditary
+erythrocytosis.
+7. HISTORY
+• Created: [Date]
+• Revised: [Date; changes incorporated]
+8. APPROVALS
+• Name [Lab Director/Supervisor]
+• Date:
+• Signatures:
+End of Document.

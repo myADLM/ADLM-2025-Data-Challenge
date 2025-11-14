@@ -1,0 +1,320 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY
+
+I Background Information:
+
+A 510(k) Number K221890   
+B Applicant Roche Diagnostics   
+C Proprietary and Established Names Elecsys Tg II   
+D Regulatory Information
+
+<table><tr><td rowspan=1 colspan=1>ProductCode(s)</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>RegulationSection</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>MSW</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR 866.6010 - TumorAssociated Antigen ImmunologicalTest System</td><td rowspan=1 colspan=1>IM -Immunology</td></tr></table>
+
+II Submission/Device Overview:
+
+A Purpose for Submission: New Device   
+B Measurand: Thyroglobulin   
+C Type of Test: Quantitative, Electrochemiluminescence immunoassay (ECLIA)
+
+# III Intended Use/Indications for Use:
+
+A Intended Use(s):
+
+See Indications for Use below.
+
+# B Indication(s) for Use:
+
+Immunoassay for the in vitro quantitative determination of thyroglobulin in human serum and plasma. Determination of Tg is used as an aid in monitoring for the presence of persistent or recurrent/metastatic disease in patients who have differentiated thyroid cancer (DTC) and have had thyroid surgery (with or without ablative therapy).
+
+The electrochemiluminescence immunoassay “ECLIA” is intended for use on cobas e immunoassay analyzers.
+
+# C Special Conditions for Use Statement(s):
+
+Rx - For Prescription Use Only In Vitro Diagnostic Use Only
+
+The Instruction for Use of the Elecsys Tg II contains the following blackbox statement:
+
+Thyroglobulin $( \mathrm { T g } )$ determinations can be affected by the presence of $\mathrm { T g }$ autoantibodies (anti-Tg) in some patient samples. These autoantibodies may interfere with the assay used to measure Tg, causing false high or false low Tg values.
+
+The measured Tg value of a patient’s sample can also vary depending on the assay used.The laboratory finding must therefore always contain a statement on the Tg assay method used. Tg values determined on patient samples by different assays cannot be directly compared with one another and could be the cause of erroneous medical interpretations. If there is a change in the Tg assay procedure used while patient monitoring, the Tg values obtained upon changing to the new procedure must be confirmed by parallel measurements with both methods.
+
+# D Special Instrument Requirements:
+
+cobas e 411 analyzer (cleared under K062279)
+
+# IV Device/System Characteristics:
+
+# A Device Description:
+
+Materials included in the Elecsys TgII assay
+
+Elecsys Tg II consists of the reagent rack-pack. Each reagent rack-pack is for 100 tests and contains:
+
+• M $( 6 . 5 \mathrm { m L } )$ ): Streptavidin-coated microparticles (transparent cap) $0 . 7 2 ~ \mathrm { m g / m L }$ and preservative.
+
+R1 $( 9 \mathrm { m L }$ ): Biotinylated monoclonal anti Tg antibody (mouse) (gray cap) $1 \mathrm { m g / L }$ in Bis Tris buffer $5 0 \mathrm { m m o l / L }$ , $\mathsf { p H } 6 . 3$ and preservative. R2 $\mathrm { 9 { m L } }$ : Monoclonal anti $\mathrm { T g }$ antibodies (mouse) labeled with ruthenium complex (black cap) $3 . 1 \mathrm { m g / L }$ in Bis Tris buffer $5 0 \mathrm { m m o l / L }$ , $\mathsf { p H } 6 . 3$ and preservative.
+
+# Materials required (but not supplied)
+
+Tg II CalSet $( 4 \mathrm { ~ x ~ } 1 . 0 \mathrm { m L }$ ): 2 vials each of $\mathrm { T g }$ at $0 . 1 5 ~ \mathrm { { n g / m L } }$ , and $1 8 0 ~ \mathrm { n g / m L }$ PreciControl Universal $\mathrm { ~ 4 ~ x ~ } 3 . 0 ~ \mathrm { m L }$ ): 2 vials each of Tg at $2 5 ~ \mathrm { n g / m L }$ , and $1 0 0 ~ \mathrm { { n g / m L } }$   
+$\bullet$ PreciControl TS $( 4 \mathrm { ~ x ~ } 2 . 0 \mathrm { m L }$ ): 4 vials of $1 \mathrm { n g / m L }$ Diluent MultiAssay $( 2 \mathrm { ~ x ~ } 1 6 \mathrm { ~ m L }$ ): sample diluent   
+$\bullet$ Anti-Tg assay: to verify the presence of antibodies to $\mathrm { T g }$ in patient samples Distilled or deionized water
+
+# B Principle of Operation:
+
+The Elecsys Tg II assay is a quantitative, two-step, double antigen sandwich assay. In the first incubation, thyroglobulin (Tg) in the patient sample reacts with a biotinylated monoclonal Tgspecific antibody and monoclonal Tg-specific antibodies labeled with a ruthenium complex to form a sandwich complex. After addition of streptavidin-coated microparticles, the complex bounds to the solid phase via interaction of biotin and streptavidin in second incubation. The reaction mixture is aspirated into the measuring cell where the microparticles are magnetically captured onto the surface of the electrode. Unbound substances are then removed with ProCell/ProCell M. Application of a voltage to the electrode then induces chemiluminescent emission which is measured by a photomultiplier. Results for the Tg concentration of samples are determined via a calibration curve, which is instrument-specifically generated by 2-point calibration and a master curve provided via the reagent barcode.
+
+# V Substantial Equivalence Information:
+
+A Predicate Device Name(s): Access Thyroglobulin Reagents On The Access Immunoassay Systems   
+B Predicate 510(k) Number(s): K002905   
+C Comparison with Predicate(s):
+
+<table><tr><td colspan="1" rowspan="1">Device &amp; PredicateDevice(s):</td><td colspan="1" rowspan="1">K221890Candidate Device</td><td colspan="1" rowspan="1">K002905Predicate</td></tr><tr><td colspan="1" rowspan="1">Device Trade Name</td><td colspan="1" rowspan="1">Elecsys Tg II</td><td colspan="1" rowspan="1">Access Thyroglobulin</td></tr><tr><td colspan="3" rowspan="1">General Device Characteristic Similarities</td></tr><tr><td colspan="1" rowspan="1">Intended Use /Indications For Use</td><td colspan="1" rowspan="1">Immunoassay for the in vitroquantitative determination ofthyroglobulin in human serum andplasma. Determination of Tg isused as an aid in monitoring for thepresence of persistent orrecurrent/metastatic disease inpatients who have differentiatedthyroid cancer (DTC) and have hadthyroid surgery (with or withoutablative therapy).The electrochemiluminescenceimmunoassay "ECLIA" is intendedfor use on cobas e immunoassayanalyzers.</td><td colspan="1" rowspan="1">The Access Thyroglobulin assay isa paramagnetic particle,chemiluminescent immunoassayfor the quantitative determinationof thyroglobulin levels in humanserum and plasma, using AccessImmunoassay Systems. This deviceis intended to aid in the monitoringfor the presence of local andmetastatic thyroid tissue in patientswho have had thyroid glandablation (using thyroid surgerywith or without radioactivity) andwho lack serum thyroglobulinantibodies.</td></tr><tr><td colspan="1" rowspan="1">Analyte</td><td colspan="1" rowspan="1">Thyroglobulin</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Test format</td><td colspan="1" rowspan="1">Quantitative</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Traceability /Standardization</td><td colspan="1" rowspan="1">Standardized against CRM(Certified Reference Material) 457of the BCR (Community Bureau ofReference) of the European Union.</td><td colspan="1" rowspan="1">Calibrators are traceable to theEuropean Community Bureau ofReference (BCR) CRM 457thyroglobulin standard</td></tr><tr><td colspan="1" rowspan="1">Measuring Range</td><td colspan="1" rowspan="1">0.1 ng/mL − 500 ng/mL</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="2" rowspan="1">General Device Characteristic Differences</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Sample Type /Matrix</td><td colspan="1" rowspan="1">Serum and Plasma (Li-Heparin,K2-EDTA, and K3-EDTA)</td><td colspan="1" rowspan="1">Serum and Plasma (heparinized)</td></tr><tr><td colspan="1" rowspan="1">Calibrator</td><td colspan="1" rowspan="1">Tg II CalSet(0.15, and 180 ng/mL)</td><td colspan="1" rowspan="1">Access Thyroglobulin Calibrators(0, 1.0, 10, 100, 250, and 500ng/mL)</td></tr><tr><td colspan="1" rowspan="1">Calibration Interval</td><td colspan="1" rowspan="1">28 days when using the samereagent lot•7 days (when using the samereagent kit on the analyzer)as required: e.g., quality controlsoutside the defined limits</td><td colspan="1" rowspan="1">Calibration is required every 56days or whenever new lot numbersof reagents are placed into use</td></tr><tr><td colspan="1" rowspan="1">Controls</td><td colspan="1" rowspan="1">PreciControl UniversalPreciControl TSOther suitable control material</td><td colspan="1" rowspan="1">Commercial Control Materials</td></tr><tr><td colspan="1" rowspan="1">Reagent Stability</td><td colspan="1" rowspan="1">• Up to the stated expiration date(unopened at 28°C)84 days (12 weeks) after opening,stored at 28°</td><td colspan="1" rowspan="1">Up to stated expiration date(unopened at 210°C)28 days (4 weeks) after opening,stored as 210°</td></tr><tr><td rowspan="2">Detection Limit</td><td>LoB: 0.02 ng/mL</td><td>LoB: 0.03 ng/mL</td></tr><tr><td>LoD: 0.04 ng/mL</td><td>LoD: Not available</td></tr><tr><td rowspan="2"></td><td>LoQ: 0.1 ng/mL</td><td>LoQ: 0.1 ng/mL</td></tr><tr><td></td><td></td></tr></table>
+
+# VI Standards/Guidance Documents Referenced:
+
+The following Clinical and Laboratory Standards Institute (CLSI) guidelines were used:
+
+• CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures   
+• CLSI EP06 $2 ^ { \mathrm { n d } }$ Edition, Evaluation of Linearity of Quantitative Measurement Procedures   
+• CLSI EP07 $3 ^ { \mathrm { r d } }$ Edition, Interference Testing in Clinical Chemistry   
+• CLSI EP09c $3 ^ { \mathrm { r d } }$ Edition, Measurement Procedure Comparison and Bias Estimation Using Patient Samples   
+• CLSI EP12 $3 ^ { \mathrm { r d } }$ Edition, Evaluation of Qualitative, Binary Output Examination Performance   
+• CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement Procedures; Approved Guideline – Second Edition   
+• CLSI EP37 $1 ^ { \mathrm { s t } }$ Edition, Supplemental Tables for Interference Testing in Clinical Chemistry
+
+# VII Performance Characteristics (if/when applicable):
+
+# A Analytical Performance:
+
+1. Precision/Reproducibility:
+
+The precision of the Elecsys Tg II assay was evaluated according the CLSI EP05-A3 guideline.
+
+# Within-Laboratory Precision:
+
+A panel of six native serum samples (Sample #1–6) and one pooled serum sample (Sample #7) and three controls (PreciControl Universal 1 and 2 (PCU1 and PCU2), and PreciControl TS (PC TS)) were tested on one cobas e 411 analyzer using one reagent lot. Each sample was tested with two replicates per run, two runs per day for 21 days, yielding a total of 84 measurements.
+
+The data were analyzed for repeatability (within-run), between-run, between-day, and withinlaboratory precision. The mean $\mathrm { ( n g / m L ) }$ , standard deviation (SD) $\mathrm { ( n g / m L ) }$ and percent coefficient of variation $( \% C V )$ are summarized in the table below:
+
+<table><tr><td rowspan=2 colspan=1>Sample</td><td rowspan=2 colspan=1>N</td><td rowspan=2 colspan=1>Mean(ng/mL)</td><td rowspan=1 colspan=2>Repeatability(Within Run)</td><td rowspan=1 colspan=2>Between-Run</td><td rowspan=1 colspan=2>Between-Day</td><td rowspan=1 colspan=2>Within-Laboratory</td></tr><tr><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>0.13</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>7.56</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>5.49</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>9.34</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>0.15</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>5.86</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>6.50</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>8.75</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>0.23</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>4.00</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>1.81</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>3.59</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>5.67</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>1.67</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>2.67</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>0.91</td><td rowspan=1 colspan=1>0.03</td><td rowspan=1 colspan=1>1.50</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>3.20</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>38.70</td><td rowspan=1 colspan=1>0.50</td><td rowspan=1 colspan=1>1.30</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.46</td><td rowspan=1 colspan=1>1.19</td><td rowspan=1 colspan=1>0.68</td><td rowspan=1 colspan=1>1.76</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>235</td><td rowspan=1 colspan=1>4.52</td><td rowspan=1 colspan=1>1.92</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>2.90</td><td rowspan=1 colspan=1>1.23</td><td rowspan=1 colspan=1>5.37</td><td rowspan=1 colspan=1>2.28</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>459</td><td rowspan=1 colspan=1>7.76</td><td rowspan=1 colspan=1>1.69</td><td rowspan=1 colspan=1>5.00</td><td rowspan=1 colspan=1>1.09</td><td rowspan=1 colspan=1>4.39</td><td rowspan=1 colspan=1>0.96</td><td rowspan=1 colspan=1>10.20</td><td rowspan=1 colspan=1>2.23</td></tr><tr><td rowspan=1 colspan=1>PCU 1</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>24.10</td><td rowspan=1 colspan=1>0.27</td><td rowspan=1 colspan=1>1.11</td><td rowspan=1 colspan=1>0.04</td><td rowspan=1 colspan=1>0.16</td><td rowspan=1 colspan=1>0.31</td><td rowspan=1 colspan=1>1.28</td><td rowspan=1 colspan=1>0.41</td><td rowspan=1 colspan=1>1.70</td></tr><tr><td rowspan=1 colspan=1>PCU 2</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>84.40</td><td rowspan=1 colspan=1>0.87</td><td rowspan=1 colspan=1>1.02</td><td rowspan=1 colspan=1>0.51</td><td rowspan=1 colspan=1>0.60</td><td rowspan=1 colspan=1>1.03</td><td rowspan=1 colspan=1>1.22</td><td rowspan=1 colspan=1>1.44</td><td rowspan=1 colspan=1>1.71</td></tr><tr><td rowspan=1 colspan=1>PC TS</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>1.05</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>1.55</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>1.79</td><td rowspan=1 colspan=1>0.03</td><td rowspan=1 colspan=1>2.37</td></tr></table>
+
+# Lot-to-lot imprecision and reproducibility:
+
+Testing was performed on three cobas e 411 analyzers (at three external sites) with three reagent lots. Two of three lots were distributed to each of the three sites as below:
+
+<table><tr><td rowspan=1 colspan=1>Testing Site</td><td rowspan=1 colspan=1>Lot 1</td><td rowspan=1 colspan=1>Lot 2</td><td rowspan=1 colspan=1>Lot 3</td></tr><tr><td rowspan=1 colspan=1>Site 1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1>X</td></tr><tr><td rowspan=1 colspan=1>Site 2</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td></tr><tr><td rowspan=1 colspan=1>Site 3</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td></tr></table>
+
+Seven serum samples (Sample 1–5: native serum samples, Sample 6–7: pooled native sera) and three controls (PCU1, PCU2, and PC TS) were tested in five replicates per run, one run per day, for five days, yielding $_ { \mathrm { N } = 2 5 }$ datapoints per sample per lot and $\mathrm { N } { = } 5 0$ datapoints per sample at each site. The results are summarized in the following table:
+
+<table><tr><td rowspan=2 colspan=1>Sample</td><td rowspan=2 colspan=1>N*</td><td rowspan=2 colspan=1>Mean(ng/mL)</td><td rowspan=1 colspan=2>Within-Run</td><td rowspan=1 colspan=2>Between-Day</td><td rowspan=1 colspan=2>Between-Lot</td><td rowspan=1 colspan=2>Between-Site</td><td rowspan=1 colspan=2>Total</td></tr><tr><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>148</td><td rowspan=1 colspan=1>0.22</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>7.56</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>6.66</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>6.49</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>6.45</td><td rowspan=1 colspan=1>0.03</td><td rowspan=1 colspan=1>13.61</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>148</td><td rowspan=1 colspan=1>0.32</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>6.62</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>7.14</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>3.77</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>6.88</td><td rowspan=1 colspan=1>0.04</td><td rowspan=1 colspan=1>12.50</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>146</td><td rowspan=1 colspan=1>2.00</td><td rowspan=1 colspan=1>0.08</td><td rowspan=1 colspan=1>3.79</td><td rowspan=1 colspan=1>0.09</td><td rowspan=1 colspan=1>4.52</td><td rowspan=1 colspan=1>0.01</td><td rowspan=1 colspan=1>0.62</td><td rowspan=1 colspan=1>0.07</td><td rowspan=1 colspan=1>3.34</td><td rowspan=1 colspan=1>0.14</td><td rowspan=1 colspan=1>6.81</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>148</td><td rowspan=1 colspan=1>39.70</td><td rowspan=1 colspan=1>1.26</td><td rowspan=1 colspan=1>3.17</td><td rowspan=1 colspan=1>2.02</td><td rowspan=1 colspan=1>5.08</td><td rowspan=1 colspan=1>0.54</td><td rowspan=1 colspan=1>1.36</td><td rowspan=1 colspan=1>1.53</td><td rowspan=1 colspan=1>3.86</td><td rowspan=1 colspan=1>2.88</td><td rowspan=1 colspan=1>7.26</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>149</td><td rowspan=1 colspan=1>261</td><td rowspan=1 colspan=1>10.97</td><td rowspan=1 colspan=1>4.20</td><td rowspan=1 colspan=1>12.10</td><td rowspan=1 colspan=1>4.64</td><td rowspan=1 colspan=1>8.02</td><td rowspan=1 colspan=1>3.07</td><td rowspan=1 colspan=1>13.43</td><td rowspan=1 colspan=1>5.15</td><td rowspan=1 colspan=1>22.62</td><td rowspan=1 colspan=1>8.67</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>148</td><td rowspan=1 colspan=1>407</td><td rowspan=1 colspan=1>13.95</td><td rowspan=1 colspan=1>3.43</td><td rowspan=1 colspan=1>17.79</td><td rowspan=1 colspan=1>4.37</td><td rowspan=1 colspan=1>10.62</td><td rowspan=1 colspan=1>2.61</td><td rowspan=1 colspan=1>20.39</td><td rowspan=1 colspan=1>5.01</td><td rowspan=1 colspan=1>32.24</td><td rowspan=1 colspan=1>7.92</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>149</td><td rowspan=1 colspan=1>464</td><td rowspan=1 colspan=1>17.55</td><td rowspan=1 colspan=1>3.79</td><td rowspan=1 colspan=1>19.27</td><td rowspan=1 colspan=1>4.16</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>18.47</td><td rowspan=1 colspan=1>3.98</td><td rowspan=1 colspan=1>31.95</td><td rowspan=1 colspan=1>6.89</td></tr><tr><td rowspan=1 colspan=1>PCU 1</td><td rowspan=1 colspan=1>149</td><td rowspan=1 colspan=1>24.20</td><td rowspan=1 colspan=1>1.16</td><td rowspan=1 colspan=1>4.80</td><td rowspan=1 colspan=1>1.79</td><td rowspan=1 colspan=1>7.43</td><td rowspan=1 colspan=1>0.89</td><td rowspan=1 colspan=1>3.70</td><td rowspan=1 colspan=1>1.26</td><td rowspan=1 colspan=1>5.2</td><td rowspan=1 colspan=1>2.63</td><td rowspan=1 colspan=1>10.91</td></tr><tr><td rowspan=1 colspan=1>PCU 2</td><td rowspan=1 colspan=1>148</td><td rowspan=1 colspan=1>92.99</td><td rowspan=1 colspan=1>4.31</td><td rowspan=1 colspan=1>4.63</td><td rowspan=1 colspan=1>4.62</td><td rowspan=1 colspan=1>4.97</td><td rowspan=1 colspan=1>3.32</td><td rowspan=1 colspan=1>3.57</td><td rowspan=1 colspan=1>3.10</td><td rowspan=1 colspan=1>3.34</td><td rowspan=1 colspan=1>7.78</td><td rowspan=1 colspan=1>8.36</td></tr><tr><td rowspan=1 colspan=1>PC TS</td><td rowspan=1 colspan=1>149</td><td rowspan=1 colspan=1>1.08</td><td rowspan=1 colspan=1>0.03</td><td rowspan=1 colspan=1>3.15</td><td rowspan=1 colspan=1>0.05</td><td rowspan=1 colspan=1>4.23</td><td rowspan=1 colspan=1>0.03</td><td rowspan=1 colspan=1>3.08</td><td rowspan=1 colspan=1>0.02</td><td rowspan=1 colspan=1>1.57</td><td rowspan=1 colspan=1>0.07</td><td rowspan=1 colspan=1>6.30</td></tr></table>
+
+\* Reason for N being less than 150: Failed quality control, handling errors, or flag from instrument; Outliers were removed for analysis as per CLSI EP05-A3 guideline.
+
+The linearity of the Elecys Tg II assay was assessed based on CLSI document $\mathrm { E P 0 6 2 ^ { n d } }$ Edition. Linearity series were prepared by mixing High and low native serum samples to create 13 levels that span across the analytical measuring interval (AMI). Each level was measured with four replicates using three lots of reagents on the cobas e 411 analyzer. For each level, the mean value of the measured values, predicted value and the deviation from linearity were calculated. Predicted values were calculated using a best fitted straight line by a weighted least squares linear regression analysis. Percent deviations from linearity were calculated as differences between the observed values (mean values) and the predicted values divided by the predicted values. The table below summarizes the linearity data analysis:
+
+<table><tr><td rowspan=1 colspan=1>Lot(Sample)</td><td rowspan=1 colspan=1>Range(ng/mL)</td><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>Intercept</td><td rowspan=1 colspan=1>%Deviation*</td><td rowspan=1 colspan=1>Deviation**</td></tr><tr><td rowspan=1 colspan=1>1 (1)</td><td rowspan=1 colspan=1>0.029-568</td><td rowspan=1 colspan=1>0.926</td><td rowspan=1 colspan=1>-0.009</td><td rowspan=1 colspan=1>-4.4%−-8.0%</td><td rowspan=1 colspan=1>-0.0004-0.017</td></tr><tr><td rowspan=1 colspan=1>1 (2)</td><td rowspan=1 colspan=1>0.006-506</td><td rowspan=1 colspan=1>0.917</td><td rowspan=1 colspan=1>0.007</td><td rowspan=1 colspan=1>-9.7%—-9.5%</td><td rowspan=1 colspan=1>-0.013−0.0002</td></tr><tr><td rowspan=1 colspan=1>2 (1)</td><td rowspan=1 colspan=1>0.022-578</td><td rowspan=1 colspan=1>0.924</td><td rowspan=1 colspan=1>-0.004</td><td rowspan=1 colspan=1>-6.6%—8.2%</td><td rowspan=1 colspan=1>0.003−0.005</td></tr><tr><td rowspan=1 colspan=1>2 (2)</td><td rowspan=1 colspan=1>0.005-516</td><td rowspan=1 colspan=1>0.925</td><td rowspan=1 colspan=1>0.006</td><td rowspan=1 colspan=1>-7.7% 8.2%</td><td rowspan=1 colspan=1>-0.0150.0001</td></tr><tr><td rowspan=1 colspan=1>3 (1)</td><td rowspan=1 colspan=1>0.035-567</td><td rowspan=1 colspan=1>0.932</td><td rowspan=1 colspan=1>0.005</td><td rowspan=1 colspan=1>-6.1%- 7.3%</td><td rowspan=1 colspan=1>-0.003-0.0005</td></tr><tr><td rowspan=1 colspan=1>3 (2)</td><td rowspan=1 colspan=1>0.089- 521</td><td rowspan=1 colspan=1>0.936</td><td rowspan=1 colspan=1>-0.015</td><td rowspan=1 colspan=1>-8.8%- 6.8%</td><td rowspan=1 colspan=1>0.002 0.026</td></tr></table>
+
+$* \%$ Deviation from Linearity for concentrations $\ge 0 . 3 ~ \mathrm { n g / m L }$ $^ { * * }$ Deviation $\scriptstyle ( { \mathrm { n g / m L } }$ ) from Linearity for concentrations $< 0 . 3 ~ \mathrm { n g / m L }$
+
+The data support the linearity interval from 0.005 to $5 7 8 ~ \mathrm { { n g / m L } }$ with deviations from linearity within $\pm 1 0 \%$ for values $\ge 0 . 3 ~ \mathrm { n g / m L }$ and $\pm 0 . 0 3 ~ \mathrm { n g / m L }$ for values $< 0 . 3 ~ \mathrm { n g / m L }$ . The study results support the linearity of the claimed analytical measuring interval (AMI): $0 . 1 -$ $5 0 0 ~ \mathrm { { n g / m L } }$ .
+
+# High Dose Hook Effect:
+
+The high-dose hook effect of the Elecsys Tg II assay was assessed using three samples spiked with purified human Thyroglobulin up to concentrations at 226,021, 229,820, and $2 4 4 { , } 9 2 7 \mathrm { n g / m L }$ . Each sample was diluted with Diluent MultiAssay to produce a set of 11 samples with concentrations spanning between 55.1 and 226,021, 56.1 and 229,820, and 59.8 and $2 4 4 { , } 9 2 7 \mathrm { n g / m L }$ . All samples were tested in singleton using the Elecsys Tg II on one cobas e 411 analyzer. The hook concentration reported corresponds to the highest analyte concentration that generates a signal $\geq 1 0 \%$ above the upper limit of the measuring range. No hook effect was observed for the Elecsys Tg II up to $1 2 0 , 0 0 0 \mathrm { n g / m L }$ .
+
+# 3. Analytical Specificity/Interference:
+
+The studies were performed to evaluate potential interference and cross reactivity of the Elecsys Tg II assay following the CLSI EP07 $3 ^ { \mathrm { r d } }$ Edition) and EP37 ( $1 ^ { \mathrm { s t } }$ Edition) guidelines.
+
+# Endogenous Interfering Substances:
+
+Potential endogenous interfering substances were tested for their ability to interfere with the Elecsys Tg II assay using three serum samples with thyroglobulin concentration around 0.2 $\mathrm { n g / m L }$ , $2 \mathrm { n g / m L }$ , and $4 0 ~ \mathrm { n g / m L }$ . For each interfering substance, test samples were spiked with the test substance and results were compared to control samples spiked with an equal volume of solvent. All samples were measured in five replicates using one Elecsys Tg II assay on one cobas e 411 analyzer. The interference was calculated by comparing the mean measurements of the test and control samples. No-significant interference $( \leq \pm 1 0 \%$ difference of test from control) were observed for the Elecsys Tg II up to the following concentrations for each endogenous substance tested:
+
+<table><tr><td rowspan=1 colspan=1>Endogenous Substance</td><td rowspan=1 colspan=1>Concentration</td></tr><tr><td rowspan=1 colspan=1>Bilirubin*</td><td rowspan=1 colspan=1>66 mg/dL</td></tr><tr><td rowspan=1 colspan=1>Hemoglobin</td><td rowspan=1 colspan=1>600 mg/dL</td></tr><tr><td rowspan=1 colspan=1>Intralipid</td><td rowspan=1 colspan=1>2,000 mg/dL</td></tr><tr><td rowspan=1 colspan=1>Biotin</td><td rowspan=1 colspan=1>1,200 ng/mL</td></tr><tr><td rowspan=1 colspan=1>IgG</td><td rowspan=1 colspan=1>2 g/dL</td></tr><tr><td rowspan=1 colspan=1>Albumin</td><td rowspan=1 colspan=1>7 mg/dL</td></tr></table>
+
+$\ast 9 0 \%$ unconjugated $+ \ 1 0 \%$ conjugated Bilirubin
+
+# Exogenous Interfering Substances:
+
+Potential exogenous interfering substances (drugs) were tested for their ability to interfere with the Elecsys $\mathrm { T g } \mathrm { I I }$ assay using three serum samples with thyroglobulin concentrations around $0 . 2 ~ \mathrm { n g / m L }$ , $2 \mathrm { n g / m L }$ , and $5 0 ~ \mathrm { n g / m L }$ . For each interfering substance, test samples were spiked with the test substance and results were compared to control samples spiked with an equal volume of solvent (blank). All samples were measured in five replicates using one Elecsys $\mathrm { T g } \mathrm { I I }$ assay on one cobas e 411 analyzer. The interference was calculated by comparing measurements of the test and control samples. No significant interference (≤ $\pm 1 0 \%$ difference of test from control) for the Elecsys Tg II was observed up to the following concentrations of the potential exogenous interfering substances tested:
+
+<table><tr><td rowspan=1 colspan=1>Exogenous Substance</td><td rowspan=1 colspan=1>Concentration</td><td rowspan=1 colspan=1>Exogenous Substance</td><td rowspan=1 colspan=1>Concentration</td></tr><tr><td rowspan=1 colspan=1>Acetaminophen</td><td rowspan=1 colspan=1>156 mg/L</td><td rowspan=1 colspan=1>Lenvatinib Mesylate</td><td rowspan=1 colspan=1>0.15 mg/L</td></tr><tr><td rowspan=1 colspan=1>Acetylcysteine</td><td rowspan=1 colspan=1>150 mg/L</td><td rowspan=1 colspan=1>Levodopa</td><td rowspan=1 colspan=1>7.5 mg/L</td></tr><tr><td rowspan=1 colspan=1>Acetylsalicylic Acid</td><td rowspan=1 colspan=1>30 mg/L</td><td rowspan=1 colspan=1>Methyldopa +1.5</td><td rowspan=1 colspan=1>22.5 mg/L</td></tr><tr><td rowspan=1 colspan=1>Amiodarone</td><td rowspan=1 colspan=1>200 mg/L</td><td rowspan=1 colspan=1>Metronidazole</td><td rowspan=1 colspan=1>123 mg/L</td></tr><tr><td rowspan=1 colspan=1>Ampicillin-Na</td><td rowspan=1 colspan=1>75 mg/L</td><td rowspan=1 colspan=1>Octreotide</td><td rowspan=1 colspan=1>0.3 mg/dL</td></tr><tr><td rowspan=1 colspan=1>Ascorbic acid</td><td rowspan=1 colspan=1>52.5 mg/L</td><td rowspan=1 colspan=1>Perchlorate</td><td rowspan=1 colspan=1>2,000 mg/L</td></tr><tr><td rowspan=1 colspan=1>Cabozantinib-S-</td><td rowspan=1 colspan=1>4.14 mg/L</td><td rowspan=1 colspan=1>Phenylbutazone</td><td rowspan=1 colspan=1>107*mg/L</td></tr><tr><td rowspan=1 colspan=1>Carbimazole</td><td rowspan=1 colspan=1>30 mg/L</td><td rowspan=1 colspan=1>Prednisolone</td><td rowspan=1 colspan=1>100mg/L</td></tr><tr><td rowspan=1 colspan=1>Cefoxitin</td><td rowspan=1 colspan=1>750 mg/L</td><td rowspan=1 colspan=1>Propranolol</td><td rowspan=1 colspan=1>240 mg/L</td></tr><tr><td rowspan=1 colspan=1>Cyclosporine</td><td rowspan=1 colspan=1>1.8 mg/L</td><td rowspan=1 colspan=1>Propylthiouracil</td><td rowspan=1 colspan=1>300 mg/L</td></tr><tr><td rowspan=1 colspan=1>Doxycycline</td><td rowspan=1 colspan=1>6* mg/L</td><td rowspan=1 colspan=1>Rifampicin</td><td rowspan=1 colspan=1>16* mg/L</td></tr><tr><td rowspan=1 colspan=1>Fluocortolone</td><td rowspan=1 colspan=1>100 mg/L</td><td rowspan=1 colspan=1>Theophylline</td><td rowspan=1 colspan=1>60 mg/L</td></tr><tr><td rowspan=1 colspan=1>Heparin</td><td rowspan=1 colspan=1>3,300 IU/L</td><td rowspan=1 colspan=1>Thiamazole</td><td rowspan=1 colspan=1>80 mg/L</td></tr><tr><td rowspan=1 colspan=1>Hydrocortisone</td><td rowspan=1 colspan=1>200 mg/L</td><td rowspan=1 colspan=1>D-T3</td><td rowspan=1 colspan=1>0.5 mg/L</td></tr><tr><td rowspan=1 colspan=1>Ibuprofen</td><td rowspan=1 colspan=1>219 mg/L</td><td rowspan=1 colspan=1>L-T3</td><td rowspan=1 colspan=1>0.5 mg/L</td></tr><tr><td rowspan=1 colspan=1>Iodide</td><td rowspan=1 colspan=1>0.2 mg/L</td><td rowspan=1 colspan=1>D-T4</td><td rowspan=1 colspan=1>5 mg/L</td></tr><tr><td rowspan=1 colspan=1>Itraconazole</td><td rowspan=1 colspan=1>10* mg/L</td><td rowspan=1 colspan=1>L-T4</td><td rowspan=1 colspan=1>5 mg/L</td></tr></table>
+
+\*Corresponds to one-time maximum daily dose
+
+Cross-reactivity:
+
+Each potential cross-reacting substance was tested with serum samples at two thyroglobulin concentrations: $5 \mathrm { n g / m L }$ and $5 0 ~ \mathrm { n g / m L }$ . Test samples were prepared by spiking with the potential cross-reacting substances. Results were compared to control samples which were spiked with an equal volume of solvent (blank) where appropriate. All samples were measured in five replicates using one Elecsys $\mathrm { T g } \mathrm { I I }$ assay on one cobas e 411 analyzer. The cross-reactivity was calculated by comparing measurements of the test and control samples. No significant cross reactivity $\leq \pm 1 0 \%$ difference of test from control) for the Elecsys Tg II was observed up to the following concentrations of the potential cross-reacting substances tested:
+
+<table><tr><td rowspan=1 colspan=1>Cross-reacting Substance</td><td rowspan=1 colspan=1>Concentration</td></tr><tr><td rowspan=1 colspan=1>Thyroxine Binding Globulin (TBG)</td><td rowspan=1 colspan=1>200,000 ng/mL</td></tr><tr><td rowspan=1 colspan=1>Thyroid Stimulating Hormone (TSH)</td><td rowspan=1 colspan=1>1,000 mIU/mL)</td></tr></table>
+
+# Blocking Effect of HAMA/Heterophilic $A b$ :
+
+The effect of the presence of human anti-mouse antibodies (HAMA) on the Elecsys Tg II assay was assessed on the cobas e 411 analyzer. A serum pool with thyroglobulin concentration of $7 \mathrm { n g / m L }$ was used to spike in HAMA. The spiked sample and the corresponding serum pool without HAMA were tested in four replicates. The recovery of the serum pool containing HAMA compared to the serum pool without HAMA was calculated. No interference was observed up to $8 0 5 ~ \mu \mathrm { g / L }$ of HAMA.
+
+# 4. Assay Reportable Range:
+
+The analytical measuring interval (AMI) for the Elecsys TgII is $0 . 1 - 5 0 0 \mathrm { n g / m L }$
+
+The instrument has a 1:10 auto-dilution feature for the device. The claimed extended measuring range is from $5 0 0 ~ \mathrm { { n g / m L } }$ to $5 , 0 0 0 \mathrm { n g / m L }$ . Samples with concentrations above $5 , 0 0 0 \mathrm { n g / m L }$ are reported as $> 5 , 0 0 0 ~ \mathrm { n g / m L }$ .
+
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+
+Traceability:
+
+The Elecsys Tg II was standardized against the Certified Reference Material (CRM) 457 of the Community Bureau of Reference of the European Union.
+
+Stability:
+
+Shelf-life stability:
+
+The shelf-life stability of the Elecsys Tg II was conducted. The reagent packs were stored at $2 { - } 8 ^ { \circ } \mathrm { C }$ and the real-time stability was evaluated at baseline and testing timepoints up to 17 months. The data support a shelf-life of the Elecsys Tg II up to 15 months at $2 { - } 8 ^ { \circ } \mathrm { C }$ .
+
+Open-pack reagent stability:
+
+Reagent stability at $2 { - } 8 ^ { \circ } \mathrm { C }$ after first opening for the Elecsys Tg II assay was evaluated on one cobas e 411 analyzer. A fresh reagent rack pack was placed on the analyzer and calibrated. Five native single donor serum samples covering the AMI of the assay were tested at baseline and other time points up to 101 days. The data of each sample at each testing time point were compared to the data of initial value tested at baseline. The data support the reagent stability of 84 days at $2 { - } 8 ^ { \circ } \mathrm { C }$ after first opening.
+
+# On-board reagent stability:
+
+On-board reagent stability for the Elecsys $\mathrm { T g } \mathrm { I I }$ was evaluated on one cobas e 411 analyzer. Five native serum samples covering the AMI of the assay were tested at baseline and other time points up to 44 days. The data of each sample at each testing time point were compared to the data of initial value tested at baseline. The data support the claim of 28 days stability for the Elecsys Tg II reagents stored on-board on the cobas e 411 analyzer.
+
+# Calibration stability:
+
+The Elecsys Tg II was calibrated with a fresh reagent kit on Day 0 using one cobas e 411 analyzer. Five native serum samples covering the AMI of the assay were tested up to 29 days. On each testing day, a new reagent kit of the same lot stored at $2 { - } 8 ^ { \circ } \mathrm { C }$ was used, and recovery of samples was determined using the calibration curve of day 0. The data support the claim of 28 days calibration stability on the cobas e 411.
+
+# On-board calibration stability:
+
+On-board calibration stability for the Elecsys Tg II assay was evaluated on one cobas e 411 immunoassay analyzer. A fresh Elecsys Tg II reagent rack pack was placed on the analyzer. Five serum samples covering the AMI of the assay were tested at baseline and other time points up to 22 days. After specific time point, the same samples were measured using a separate Elecsys Tg II reagent kit kept under on-board condition $( 2 0 \pm 3 ^ { \circ } \mathrm { C } )$ without recalibration of the reagent kit. The data support the claim of 7 days for the on-board calibration stability on the cobas e 411.
+
+# Sample stability:
+
+The sample stability of serum, Li-Heparin plasma, K2-EDTA and K3-EDTA plasma was evaluated using samples stored at $2 { - } 8 ^ { \circ } \mathrm { C }$ , $1 5 { - } 2 5 ^ { \circ } \mathrm { C }$ , and $- 2 0 ^ { \circ } \mathrm { C }$ $( \pm 5 ^ { \circ } \mathrm { C } )$ (-25 to $- 1 5 ^ { \circ } \mathrm { C }$ ) for each sample matrix. Seven samples were prepared covering the AMI of the assay and tested using the Elecsys Tg II on the cobas e 411 analyzer at Day 0 and at various testing timepoints during storage: $2 { - } 8 ^ { \circ } \mathrm { C }$ and $1 5 { - } 2 5 ^ { \circ } \mathrm { C }$ up to 15 days, and $- 2 0 ^ { \circ } \mathrm { C }$ $( \pm 5 ^ { \circ } \mathrm { C } )$ up to 41 months. At each testing point, measurements were performed in three replicates and recovery was calculated as percent or absolute deviation compared to the values of Day 0. The data support the stability for all sample types for 14 days at $2 { - } 8 ^ { \circ } \mathrm { C }$ , 14 days at $1 5 { - } 2 5 ^ { \circ } \mathrm { C }$ , and 24 months at $- 2 0 ( \pm 5 ) ^ { \circ } \mathrm { C }$ .
+
+# 6. Detection Limit:
+
+The Limit of Blank (LoB), Limit of Detection (LoD) and Limit of Quantitation (LoQ) for Elecsys Tg II reagent pack were determined based on the CLSI EP17-A2 guidelines.
+
+# LoB:
+
+The LoB was determined by testing five analyte-free serum samples with at least two Elecsys Tg II reagent lots on one cobas e 411 analyzer. Samples were tested in two replicates per run, two runs per day for two days, and one run per day for another two days, for a toal of 60 measurements per reaget lot. LoB was defined as the value corresponding to the $9 5 ^ { \mathrm { t h } }$ percentile of the rank position of the distribution of values. The highest LoB value observed across tested reagent lots was $0 . 0 1 7 ~ \mathrm { n g / m L }$ . The claimed LoD for the Elecsys Tg II is 0.02 $\mathrm { n g / m L }$ .
+
+# LoD:
+
+The LoD was determined by testing five serum samples containing low levels of thyroglobulin with three reagent lots on one cobas e 411 analyzer. Samples were run in two replicates per run, two runs per day for two days, and one run per day for another two days, yielding a total of 60 measurements per lot. The LoD was calculated LoD was calculated based on $\mathrm { L o D } = \mathrm { L o B } + 1 . 6 5 3 \mathrm { ~ x ~ S D }$ (total of low analyte samples). The highest LoD value observed across three lots was $0 . 0 4 ~ \mathrm { n g / m L }$ . The claimed LoD for Elecsys Tg II test is 0.04 $\mathrm { n g / m L }$ .
+
+#
+
+The LoQ was determined by testing a set of seven low level of serum samples using three reagent lots on one cobas e 411 analyzer. The samples were analyzed in five replicates on one cobas e 411 analyzer, one run per day over five days, for a total of $_ { \mathrm { N } = 2 5 }$ determinations per sample per reagent lot. The LoQ was determined to be the lowest analyte concentration that measured with a $\% \mathrm { C V }$ of within-laboratory precision $\leq 2 0 \%$ and %bias within $\pm 1 5 \%$ . The highest LoQ value observed across lots was $0 . 0 5 7 ~ \mathrm { n g / m L }$ . The claimed LoQ for Elecsys Tg II test is $0 . 1 ~ \mathrm { n g / m L }$ .
+
+# 7. Assay Cut-Off:
+
+See Clinical Cut-Off below.
+
+# B Comparison Studies:
+
+1. Method Comparison with Predicate Device:
+
+Method comparison study were conducted by testing 141 native serum samples in singleton at one clinical site using one reagent lot of Elecsys Tg II (candidate device) on cobas e 411 analyzer, and one reagent lot of Access Thyroglobulin assay (predicate device) on Beckman Access DxI 800. Among 141 samples, 126 samples had values within the measuring ranges of both candidate and predicate devices and analyzed with Passing-Bablok regression. The results showed a slope of 1.394 with an intercept of -0.102. Such results indicated a systematic difference between the candidate and predicate devices. Therefore, in addition to the method comparison study, the recovery study was conducted as follows:
+
+The recovery study used the master calibrator material traceable to the Certified Reference Material (CRM) for spiking into the Diluent MultiAssay (sample diluent used for the Elecsys Tg II). A dilution series including 17 samples were prepared by diluting the sample with value of $5 5 7 \mathrm { n g / m L }$ with Diluent MultiAssay. Samples with spiked values from $1 \mathrm { n g / m L }$ to
+
+$5 5 7 \mathrm { n g / m L }$ were measured in four replicates and samples with spiked values from 0.0557 $\mathrm { n g / m L }$ to $0 . 1 9 5 ~ \mathrm { n g / m L }$ were measured in 10 replicates. All measurements were performed using one Elecsys Tg II reagent lot on one cobas e 411 analyzer. The mean-value of replicates for each sample level was compared to its expected concentration level, and the percent recovery $\%$ recovery) was calculated. The results showed that the $\%$ recovery for 17 samples is from $9 1 . 7 \%$ to $1 1 0 . 5 \%$ .
+
+# 2. Matrix Comparison:
+
+A study was performed to demonstrate that lithium heparin, K2-EDTA, and K3-EDTA plasma matrices yield comparable values as serum with the Elecsys Tg II. The study included 65 matched native single and pooled samples with thyroglobulin concentration covering the measuring range of the assay. Samples were tested in singleton using one reagent lot on cobas e 401. Passing-Bablok regression analyses were performed by comparing the results of samples from different plasma samples (y) to the results of corresponding serum samples (x) for two different ranges of the serum sample concentrations (0.197 to $1 9 . 9 \mathrm { n g / m L }$ and 20 to $4 9 0 ~ \mathrm { { n g / m L } }$ ). The results are summarized in the tables below:
+
+<table><tr><td rowspan=1 colspan=1>Plasma/Serum</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>Range(ng/mL)</td><td rowspan=1 colspan=1>Slope(95% CI)</td><td rowspan=1 colspan=1>Intercept(95% CI)</td><td rowspan=1 colspan=1>R</td></tr><tr><td rowspan=2 colspan=1>Li-heparin plasmavS serum</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>0.197 -19.9</td><td rowspan=1 colspan=1>0.9752(0.9553; 0.9940)</td><td rowspan=1 colspan=1>-0.0001(-0.0900; 0.09745</td><td rowspan=1 colspan=1>0.997</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>20 - 490</td><td rowspan=1 colspan=1>1.0133(0.9962; 1.0452)</td><td rowspan=1 colspan=1>-0.9379(-3.0174; -0.1074)</td><td rowspan=1 colspan=1>1.000</td></tr><tr><td rowspan=2 colspan=1>K2-EDTA plasmaVS serum</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>0.197 - 19.9</td><td rowspan=1 colspan=1>0.9904(0.9774; 1.0059)</td><td rowspan=1 colspan=1>0.0005(-0.1142; 0.0620)</td><td rowspan=1 colspan=1>0.996</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>20 - 490</td><td rowspan=1 colspan=1>1.0070(0.9546; 1.0196)</td><td rowspan=1 colspan=1>-0.5143(-1.1575; 0.7477)</td><td rowspan=1 colspan=1>1.000</td></tr><tr><td rowspan=2 colspan=1>K3-EDTA plasmavs serum</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>0.197 - 19.9</td><td rowspan=1 colspan=1>0.9535(0.9350; 0.9731)</td><td rowspan=1 colspan=1>0.0291(-0.0367; 0.1401)</td><td rowspan=1 colspan=1>0.998</td></tr><tr><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>20 - 490</td><td rowspan=1 colspan=1>0.9919(0.9219; 1.0043)</td><td rowspan=1 colspan=1>-1.0145(-1.9147; 1.1720)</td><td rowspan=1 colspan=1>0.999</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Li-Heparinvs Serum</td><td rowspan=1 colspan=1>K2-EDTA vsSerum</td><td rowspan=1 colspan=1>K3-EDTA vsSerum</td></tr><tr><td rowspan=1 colspan=1>Bias at 0.2 ng/mL</td><td rowspan=1 colspan=1>-2.5%</td><td rowspan=1 colspan=1>-0.7%</td><td rowspan=1 colspan=1>9.9%</td></tr><tr><td rowspan=1 colspan=1>Bias at 1 ng/mL</td><td rowspan=1 colspan=1>-2.5%</td><td rowspan=1 colspan=1>-0.9%</td><td rowspan=1 colspan=1>-1.7%</td></tr><tr><td rowspan=1 colspan=1>Biasat 2 ng/mL</td><td rowspan=1 colspan=1>-2.5%</td><td rowspan=1 colspan=1>-0.9%</td><td rowspan=1 colspan=1>-3.2%</td></tr><tr><td rowspan=1 colspan=1>Biasat 10 ng/mL</td><td rowspan=1 colspan=1>-2.5%</td><td rowspan=1 colspan=1>-1.0%</td><td rowspan=1 colspan=1>-4.4%</td></tr><tr><td rowspan=1 colspan=1>Bias at100ng/mL</td><td rowspan=1 colspan=1>0.4%</td><td rowspan=1 colspan=1>0.2%</td><td rowspan=1 colspan=1>-1.8%</td></tr><tr><td rowspan=1 colspan=1>Biasat200ng/mL</td><td rowspan=1 colspan=1>0.9%</td><td rowspan=1 colspan=1>0.4%</td><td rowspan=1 colspan=1>-1.3%</td></tr><tr><td rowspan=1 colspan=1>Bias at 400ng/mL</td><td rowspan=1 colspan=1>1.1%</td><td rowspan=1 colspan=1>0.6%</td><td rowspan=1 colspan=1>-1.1%</td></tr></table>
+
+# C Clinical Studies:
+
+The effectiveness of the Elecsys $\mathrm { T g } \mathrm { I I }$ assay as an aid in monitoring of disease status in patients who have differentiated thyroid cancer (DTC) and have had thyroid surgery (with or without ablative therapy) was determined from a prospective, multi-center study. The clinical performance of the Elecsys $\mathrm { T g } \mathrm { I I }$ at a cut-off of $0 . 2 ~ \mathrm { n g / m L }$ was evaluated by comparing the test results with the clinical status, the presence of structural disease (SD) over a 24-month period after surgery in subjects with a diagnosis of DTC based on an estimated real-world structural disease prevalence. The clinical study consists of two sets of patients: longitudinal cohort and cross-sectional cohort.
+
+Subject inclusion and exclusion criteria are as follows:
+
+# Inclusion criteria:
+
+Subject $\geq 2 2$ years of age at the time of enrollment Subject able and willing to provide informed consent Histologically confirmed and documented papillary or follicular thyroid carcinoma, including Hurthle and follicular variants of papillary carcinoma
+
+# For Longitudinal Cohort
+
+Subject diagnosed with DTC and has undergone total/near- total thyroidectomy within 4 – 12 weeks prior to enrollment Subjects who have a total/near total thyroidectomy as a result of a completion thyroidectomy following lobectomy and who meet all other entry requirements may be enrolled once at least 4 weeks have elapsed following the completion surgery Subject willing and able to tolerate removal of up to $2 0 ~ \mathrm { m L }$ of blood per visit
+
+# For Cross-sectional cohort
+
+Subject diagnosed with DTC and has undergone total/near total thyroidectomy $> 1 2$ weeks prior to enrollment with current evidence of structural disease Subject willing and able to tolerate removal of up to $2 0 ~ \mathrm { m L }$ of blood or in the case of residual samples, approximately $1 ~ \mathrm { m L }$ of serum is available.
+
+# Exclusion criteria:
+
+Subjects with medullary or anaplastic histology (including tumors that have any component of poorly differentiated histology if not classified as anaplastic cancer) Subjects with TSH-secreting pituitary adenomas   
+Presence of Tg antibodies (Elecsys anti- $\cdot \mathrm { T g } \geq 2 2 \ \mathrm { I U } / \mathrm { m L }$ or local anti-Tg test positive) Known pregnancy or lactating   
+Participation in an investigational medicinal product known to interfere with Tg synthesi or secretion or any other substance known to interfere directly or indirectly with Tg synthesis or secretion within the last 3 months (90 days) before enrollment, if applicable.
+
+From nine different sites in U.S., a total of 772 samples from 219 subjects were collected for longitudinal cohort (Group 1) and a total of 72 samples from 72 subjects were collected from cross-sectional cohort (Group 2). Among them, 242 samples were excluded (due to subject discontinuation or other reasons) and therefore, a total of 530 samples including 461 samples in Group 1 and 69 samples in Group 2 were used in the study analysis.
+
+For the samples of 530 evaluated in the study, the distributions of demographic and clinical variables are described in the table below:
+
+<table><tr><td rowspan=1 colspan=4>N=530</td></tr><tr><td rowspan=1 colspan=1>Category</td><td rowspan=1 colspan=1>Demographic or Clinical Variable</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>% Total</td></tr><tr><td rowspan=6 colspan=1>Race</td><td rowspan=1 colspan=1>White, Caucasian</td><td rowspan=1 colspan=1>430</td><td rowspan=1 colspan=1>81.1</td></tr><tr><td rowspan=1 colspan=1>African American</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>5.7</td></tr><tr><td rowspan=1 colspan=1>Asian or Asian American</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>2.5</td></tr><tr><td rowspan=1 colspan=1>Native Hawaiian or other Pacific Islander</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0.8</td></tr><tr><td rowspan=1 colspan=1>Other</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>4.3</td></tr><tr><td rowspan=1 colspan=1>Unknown/ Not reported</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>5.7</td></tr><tr><td rowspan=3 colspan=1>Ethnicity</td><td rowspan=1 colspan=1>Hispanic or Latino</td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>10.9</td></tr><tr><td rowspan=1 colspan=1>Non-Hispanic or Latino</td><td rowspan=1 colspan=1>470</td><td rowspan=1 colspan=1>88.7</td></tr><tr><td rowspan=1 colspan=1>Unknown</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0.4</td></tr><tr><td rowspan=2 colspan=1>Sex</td><td rowspan=1 colspan=1>Female</td><td rowspan=1 colspan=1>363</td><td rowspan=1 colspan=1>68.5</td></tr><tr><td rowspan=1 colspan=1>Male</td><td rowspan=1 colspan=1>167</td><td rowspan=1 colspan=1>31.5</td></tr><tr><td rowspan=3 colspan=1>Age</td><td rowspan=1 colspan=1>Minimum</td><td rowspan=1 colspan=2>23 years</td></tr><tr><td rowspan=1 colspan=1>Median</td><td rowspan=1 colspan=2>53 years</td></tr><tr><td rowspan=1 colspan=1>Maximum</td><td rowspan=1 colspan=2>97 years</td></tr><tr><td rowspan=2 colspan=1>RAI*-Treated</td><td rowspan=1 colspan=1>Yes</td><td rowspan=1 colspan=1>108</td><td rowspan=1 colspan=1>20.4</td></tr><tr><td rowspan=1 colspan=1>No</td><td rowspan=1 colspan=1>422</td><td rowspan=1 colspan=1>79.6</td></tr><tr><td rowspan=3 colspan=1>ATA RiskClassification</td><td rowspan=1 colspan=1>Low</td><td rowspan=1 colspan=1>237</td><td rowspan=1 colspan=1>44.7</td></tr><tr><td rowspan=1 colspan=1>Intermediate</td><td rowspan=1 colspan=1>172</td><td rowspan=1 colspan=1>32.5</td></tr><tr><td rowspan=1 colspan=1>High</td><td rowspan=1 colspan=1>121</td><td rowspan=1 colspan=1>22.8</td></tr></table>
+
+\*RAI: Radioactive iodine
+
+For the Group 1 longitudinal cohort, serum samples were collected from subjects within 4 – 12 weeks following total or near total thyroidectomy but before radioiodine ablation (if planned). Thyroglobulin levels were measured at four additional time points (approximately 6 months, 12 months, 18 months, and 24 months post-surgery/radioiodine ablation) resulting in five planned visits per patient. For the Group 2 cross-sectional cohort, samples from subjects had only one single visit. All samples were tested with the Elecsys Tg II on cobas e 411 analyzer.
+
+For each sample at each visit, structural disease $( \mathrm { S D + } )$ was defined as evidence of disease on ultrasound, cross-sectional or functional imaging, or biopsy proven disease as determined by the investigator.
+
+# Results:
+
+In this study, samples from the cross-sectional cohort (Group 2) were used to increase the number of observations from the patients with structural disease due to the low prevalence of structural disease in the longitudinal cohort. This increased number of observations from patients with structural disease provides estimations of sensitivity and negative predictive value (NPV) with less uncertainty. Because the longitudinal and the cross-sectional cohorts were combined, the prevalence of structural disease was larger than the real-life prevalence, the estimates of NPV and positive predictive value (PPV) were adjusted using the real-world prevalence of structural disease observed in the longitudinal cohort $( 4 . 9 9 \% = 2 3 / 4 6 1$ ).
+
+The following tables represent the combined data from two groups and the clinical performance:
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=2>Disease Status</td><td rowspan=2 colspan=1>Total</td></tr><tr><td rowspan=1 colspan=1>SD+</td><td rowspan=1 colspan=1>SD-</td></tr><tr><td rowspan=3 colspan=1>Elecsys Tg II</td><td rowspan=1 colspan=1>≥0.2 ng/mL</td><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>204</td><td rowspan=1 colspan=1>295</td></tr><tr><td rowspan=1 colspan=1>&lt;0.2 ng/mL</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>234</td><td rowspan=1 colspan=1>235</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>92</td><td rowspan=1 colspan=1>438</td><td rowspan=1 colspan=1>530</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1>Clinical Performance Measures</td><td rowspan=1 colspan=1>Estimate</td><td rowspan=1 colspan=1>95% CI</td></tr><tr><td rowspan=1 colspan=1>Sensitivity</td><td rowspan=1 colspan=1>98.91% (91/92)</td><td rowspan=1 colspan=1>(94.10%; 99.81%)</td></tr><tr><td rowspan=1 colspan=1>Specificity</td><td rowspan=1 colspan=1>53.42%b (234/438)</td><td rowspan=1 colspan=1>(48.74%; 58.05%)</td></tr><tr><td rowspan=1 colspan=1>Prevalence</td><td rowspan=1 colspan=1>4.99%(23/461)</td><td rowspan=1 colspan=1>(3.35%; 7.37%)</td></tr><tr><td rowspan=1 colspan=1>NPV</td><td rowspan=1 colspan=1>99.89%</td><td rowspan=1 colspan=1>(99.42%; 99.98%)</td></tr><tr><td rowspan=1 colspan=1>PPV</td><td rowspan=1 colspan=1>10.03%</td><td rowspan=1 colspan=1>(9.16%; 11.03%)</td></tr></table>
+
+The pre-defined suppressed $\mathrm { T g }$ concentrations according to the ATA Response Classification categories is shown in the table below:
+
+<table><tr><td rowspan=1 colspan=1>Excellent Response</td><td rowspan=1 colspan=1>Tg &lt; 0.2ng/mL</td></tr><tr><td rowspan=1 colspan=1>Indeterminate Response</td><td rowspan=1 colspan=1>Tg≥0.2ng/mL AND Tg &lt; 1.0 ng/mL</td></tr><tr><td rowspan=1 colspan=1>Biochemical Incomplete Response</td><td rowspan=1 colspan=1>Tg≥ 1.0ng/mL</td></tr></table>
+
+Likelihood ratios for the above three different $\mathrm { T g }$ value ranges were calculated for the RAI (radioactive iodine)- treated patients and Not-RAI treated patients separately. Results of the calculations were presented in the tables below:
+
+Combined Cohorts- RAI-Treated   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=2>Disease Status</td><td rowspan=2 colspan=1>Total</td><td rowspan=2 colspan=1>LR* (95%CI)</td></tr><tr><td rowspan=1 colspan=1>SD+</td><td rowspan=1 colspan=1>SD-</td></tr><tr><td rowspan=3 colspan=1>ElecsysTg II(ng/mL)</td><td rowspan=1 colspan=1>Tg &lt; 0.2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>0.03 (0.00; 0.14)</td></tr><tr><td rowspan=1 colspan=1>Tg ≥0.2 and Tg&lt;1.0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>0.00 (0.00; 0.23)</td></tr><tr><td rowspan=1 colspan=1>Tg≥1.0</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>7.22 (3.67; 15.44)</td></tr><tr><td rowspan=1 colspan=2>Total</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>108</td><td rowspan=1 colspan=1></td></tr></table>
+
+\*The confidence intervals for the LR were calculated as confidence intervals for the ratios of two independent binomial proportions by the asymptotic method.
+
+Combined Cohorts- Not RAI-Treated   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=2>Disease Status</td><td rowspan=2 colspan=1>Total</td><td rowspan=2 colspan=1>LR* (95%CI)</td></tr><tr><td rowspan=1 colspan=1>SD+</td><td rowspan=1 colspan=1>SD-</td></tr><tr><td rowspan=3 colspan=1>ElecsysTg II(ng/mL)</td><td rowspan=1 colspan=1>Tg &lt; 0.2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>207</td><td rowspan=1 colspan=1>207</td><td rowspan=1 colspan=1>0.00 (0.00; 0.23)</td></tr><tr><td rowspan=1 colspan=1>Tg ≥0.2 and Tg&lt;1.0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>124</td><td rowspan=1 colspan=1>124</td><td rowspan=1 colspan=1>0.00 (0.00; 0.39)</td></tr><tr><td rowspan=1 colspan=1>Tg≥1.0</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>91</td><td rowspan=1 colspan=1>6.25 (5.02; 7.88)</td></tr><tr><td rowspan=1 colspan=2>Total</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>394</td><td rowspan=1 colspan=1>422</td><td rowspan=1 colspan=1></td></tr></table>
+
+\*The confidence intervals for the LR were calculated as confidence intervals for the ratios of two independent binomial proportions by the asymptotic method.
+
+In 491 samples in the longitudinal study, 49 samples were from RAI-treated patients and 412 samples were from Not-RAI-treated patients. The prevalence of $\mathrm { S D + }$ based on this study cohort was determined as: $1 0 . 2 0 \%$ (5/49) for RAI-treated patients and $4 . 3 7 \%$ (18/412) for Not-RAItreated patients. The probability of $\mathrm { S D + }$ for three ranges of the Elecsys Tg II described above is presented in the table below for RAI-treated and Not RAI-treated patients separately and these probabilities were adjusted for the $\mathrm { S D + }$ real-world prevalence of $1 0 . 2 0 \%$ for RAI-treated and $4 . 3 7 \%$ for Not RAI-treated patients separately [PV probability of $\mathrm { S D + }$ then PV/(1- $\scriptstyle \mathrm { P V } = \mathrm { L R } ^ { * }$ prevalence/(1-prevalence)].
+
+<table><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>Prevalence</td><td rowspan=1 colspan=3>Probability of SD+, (95% CI)</td></tr><tr><td rowspan=1 colspan=1>Tg &lt;0.2 ng/mL</td><td rowspan=1 colspan=1>Tg ≥0.2 ng/mL andTg &lt;1.0 ng/mL</td><td rowspan=1 colspan=1>Tg ≥1.0 ng/mL</td></tr><tr><td rowspan=1 colspan=1>RAI-Treated</td><td rowspan=1 colspan=1>10.20%</td><td rowspan=1 colspan=1>0.29%(0.05%; 1.55%)</td><td rowspan=1 colspan=1>0.00%(0.00%; 2.56%)</td><td rowspan=1 colspan=1>45.07%(29.44%; 63.70%)</td></tr><tr><td rowspan=1 colspan=1>Not RAI-Treated</td><td rowspan=1 colspan=1>4.37%</td><td rowspan=1 colspan=1>0.00%(0.00%; 1.04%)</td><td rowspan=1 colspan=1>0.00%(0.00%; 1.73%)</td><td rowspan=1 colspan=1>22.22%(18.64%; 26.46%)</td></tr></table>
+
+The results from the clinical study demonstrated that at $\mathrm { T g }$ concentrations $\geq 1 . 0 \mathrm { n g / m L }$ (corresponding to ATA “Biochemical Incomplete Response”), the probability of structural disease (i.e., $45 \%$ for RAI-treated patients and $22 \%$ for Not RAI-treated patients) was much higher than the probability of structural disease for $\mathrm { T g }$ concentrations $< 0 . 2 \ \mathrm { n g / m L }$ (corresponding to ATA “Excellent Response”).
+
+# D Clinical Cut-Off:
+
+The clinical cut-off for the Elecsys $\mathrm { T g } \mathrm { I I }$ is $0 . 2 ~ \mathrm { n g / m L }$ . This was set based on 2015 ATA Guidelines which introduced an “Excellent response” with “no clinical, biochemical or structural evidence of disease” and for patients without TSH stimulation is defined by negative imaging and a suppressed $\mathrm { T g } < 0 . 2 \ \mathrm { n g / m L }$ in the absence of Tg antibodies. $\mathrm { T g } \geq 0 . 2$ AND $\mathrm { T g } < 1 . 0$ was used corresponding to the ATA response to therapy classification to determine “Indeterminate Response.” $\mathrm { T g } > 1 . 0 \mathrm { n g } / \mathrm { m L }$ was used corresponding to the ATA response to therapy classification to determine “Biochemical Incomplete Response.”
+
+# E Expected Values/Reference Range:
+
+A reference range of the Elecsys Tg II was established by testing serum samples from a total of 463 apparently healthy individuals including 244 males and 219 females. The results are summarized in the following table:
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Male</td><td rowspan=1 colspan=1>Female</td><td rowspan=1 colspan=1>Total</td></tr><tr><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>244</td><td rowspan=1 colspan=1>219</td><td rowspan=1 colspan=1>463</td></tr><tr><td rowspan=1 colspan=1>Age (years)</td><td rowspan=1 colspan=1>2279</td><td rowspan=1 colspan=1>2277</td><td rowspan=1 colspan=1>2279</td></tr><tr><td rowspan=1 colspan=1>Min  Max (ng/mL)</td><td rowspan=1 colspan=1>2.6682.5</td><td rowspan=1 colspan=1>1.65234</td><td rowspan=1 colspan=1>1.65234</td></tr><tr><td rowspan=1 colspan=1>Median (ng/mL)</td><td rowspan=1 colspan=1>15.1</td><td rowspan=1 colspan=1>18.3</td><td rowspan=1 colspan=1>16.6</td></tr><tr><td rowspan=1 colspan=1>2.5th percentile (ng/mL)</td><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=1>3.9</td><td rowspan=1 colspan=1>3.6</td></tr><tr><td rowspan=1 colspan=1>97.5th percentile (ng/mL)</td><td rowspan=1 colspan=1>63.2</td><td rowspan=1 colspan=1>104</td><td rowspan=1 colspan=1>77</td></tr></table>
+
+Addtionally, the value of the Elecsys Tg II was evaluated in a total of 127 subjects with differentiated thyroid cancer with no evidence of disease for 4 or more years following total/near-total thyroidectomy. The study included 100 female patients aged 26 to 92 years, and 27 male patients aged 34 to 81 years. The results showed that the thyroglobulin concentration ranged 0.1 to $1 1 . 6 \ : \mathrm { n g / m L }$ . About $8 0 . 3 \%$ (102/127) of subjects had thyroglobulin level below 0.1 $\mathrm { n g / m L }$ , and $9 5 \%$ of patients had thyroglobulin level $\leq 0 . 7 8 6 ~ \mathrm { n g / m L }$ .
+
+# VIII Proposed Labeling:
+
+The labeling supports the finding of substantial equivalence for this device.
+
+# IX Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

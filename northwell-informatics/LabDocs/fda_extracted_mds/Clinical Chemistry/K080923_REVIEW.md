@@ -1,0 +1,192 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+C. Measurand: Whole blood glucose
+
+D. Type of Test: Whole blood glucose concentration through a quantitative amperometric assay (Glucose Oxidase)
+
+E. Applicant: I-Sens, Inc.
+
+F. Proprietary and Established Names: CareSens II Blood Glucose Monitoring System CareSens POP Blood Glucose Monitoring System
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR $\ S 8 6 2 . 1 3 4 5$ , Glucose Test System 21 CFR $\$ 862.1660$ , Quality control material (assayed and unassayed)
+
+2. Classification: Class II Class I (reserved)
+
+3. Product code: NBW, CGA JJX
+
+4. Panel: 75 (Clinical Chemistry)
+
+# H. Intended Use:
+
+1. Intended use(s): See indications for use below.
+
+2. Indication(s) for use: The CareSens II, CareSens POP Meters are used for the quantitative measurement of glucose level in capillary whole blood as an aid in monitoring the effectiveness of diabetes management at home or in clinical settings. CareSens Blood Glucose System is only for testing outside the body (in vitro diagnostic use only). Testing sites include the traditional fingertip along with alternate sites (forearm, palm, thigh, and calf).
+
+CareSens Test Strips work with the CareSens II, CareSens POP meters to quantitatively measure glucose level in capillary whole blood as an aid in monitoring the effectiveness of diabetes management in at home or in clinical settings. CareSens Blood Glucose System is only for testing outside the body (in vitro diagnostic use only). Testing sites include the traditional fingertip along with alternate sites (forearm, palm, thigh and calf).
+
+CareSens Normal and Middle Control Solutions are a red liquid which is to be used to check that both the CareSens meters and CareSens test strips are working together properly. It contains a known range of glucose as specified on the vial.
+
+3. Special conditions for use statement(s):
+
+• Not for use on critically ill patients, dehydrated patients or hyperosmolar patients   
+• Not for neonatal use   
+• Not for screening or diagnosis of diabetes mellitus   
+• Alternative site testing is for use at times of steady state only
+
+4. Special instrument requirements:
+
+CareSens II Blood Glucose Monitoring System CareSens POP Blood Glucose Monitoring System
+
+# I. Device Description:
+
+The CareSens II and CareSens POP Blood Glucose Monitoring System are based on an electrochemical biosensor technology (electrochemical) and the principle of capillary action. Capillary action at the end of the test strip draws the blood into the action chamber and the blood glucose result is displayed in 5 seconds. The control solutions available are used to test the performance of the device.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): LifeScan, Inc., OneTouch Ultra Blood Glucose Monitoring System
+
+2. Predicate 510(k) number(s): k024194
+
+3. Comparison with predicate:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Devices</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Detection Method</td><td colspan="1" rowspan="1">Amperometry</td><td colspan="1" rowspan="1">Amperometry</td></tr><tr><td colspan="1" rowspan="1">Enzyme</td><td colspan="1" rowspan="1">Glucose Oxidase</td><td colspan="1" rowspan="1">Glucose Oxidase</td></tr><tr><td colspan="1" rowspan="1">Test Range</td><td colspan="1" rowspan="1">20 - 600 mg/dL</td><td colspan="1" rowspan="1">20 - 600 mg/dL</td></tr><tr><td colspan="1" rowspan="1">Equivalency</td><td colspan="1" rowspan="1">Plasma equivalent</td><td colspan="1" rowspan="1">Plasma equivalent</td></tr><tr><td colspan="1" rowspan="1">Test Time</td><td colspan="1" rowspan="1">5 seconds</td><td colspan="1" rowspan="1">5 seconds</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Volume Required</td><td rowspan=1 colspan=1>0.5 μL</td><td rowspan=1 colspan=1>1.0 μL</td></tr><tr><td rowspan=1 colspan=1>Hematocrit Range</td><td rowspan=1 colspan=1>20-60%</td><td rowspan=1 colspan=1>30-55%</td></tr><tr><td rowspan=1 colspan=1>Alternate Site Testing</td><td rowspan=1 colspan=1>Yes</td><td rowspan=1 colspan=1>No</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+ISO 15197: In vitro diagnostic test systems - Requirements for blood-glucose monitoring systems for self-testing in managing diabetes mellitus.
+
+# L. Test Principle:
+
+Glucose measurement is based on electrical potential caused by the reaction of glucose with the reagents contained on the strip’s electrodes. The glucose in the sample is oxidized by the enzyme glucose oxidase, and the current resulting from this enzymatic reaction is measured and converted to glucose concentration by the meter. The magnitude of the current is proportional to the concentration of glucose in the sample.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Reproducibility: The sponsor evaluated the within run and between run precision of the device using 10 replicate measurements (in a single day) from 10 meters (100 tests) of 5 concentrations of glucose-adjusted heparinized whole blood whole blood with 1 strip lot. Results are summarized below.
+
+<table><tr><td rowspan=1 colspan=6>CareSens II</td></tr><tr><td rowspan=1 colspan=1>Average glucoseconcentration (mg/dL)</td><td rowspan=1 colspan=1>37.6</td><td rowspan=1 colspan=1>86.8</td><td rowspan=1 colspan=1>126.1</td><td rowspan=1 colspan=1>186.3</td><td rowspan=1 colspan=1>343.8</td></tr><tr><td rowspan=1 colspan=1>SD (mg/dL)</td><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>2.9</td><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>6.3</td><td rowspan=1 colspan=1>10.9</td></tr><tr><td rowspan=1 colspan=1>CV (%)</td><td rowspan=1 colspan=1>5.5</td><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=1>3.4</td><td rowspan=1 colspan=1>3.4</td><td rowspan=1 colspan=1>3.2</td></tr><tr><td rowspan=1 colspan=6>CareSens POP</td></tr><tr><td rowspan=1 colspan=1>Average glucoseconcentration (mg/dL)</td><td rowspan=1 colspan=1>38.7</td><td rowspan=1 colspan=1>86.2</td><td rowspan=1 colspan=1>121.2</td><td rowspan=1 colspan=1>185.2</td><td rowspan=1 colspan=1>341.9</td></tr><tr><td rowspan=1 colspan=1>SD (mg/dL)</td><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1>2.8</td><td rowspan=1 colspan=1>3.8</td><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>13.4</td></tr><tr><td rowspan=1 colspan=1>CV (%)</td><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>3.1</td><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1>3.9</td></tr></table>
+
+Day to Day Precision:
+
+The sponsor evaluated intermediate precision of the device using 10 replicate measurements (over 10 days) from 10 meters (100 tests) of the 3 concentrations of control solutions with 1 strip lot. Results are summarized below.
+
+<table><tr><td rowspan=1 colspan=4>CareSens II</td></tr><tr><td rowspan=1 colspan=1>Average glucose concentration(mg/dL)</td><td rowspan=1 colspan=1>44.1</td><td rowspan=1 colspan=1>116.0</td><td rowspan=1 colspan=1>387.0</td></tr><tr><td rowspan=1 colspan=1>SD (mg/dL)</td><td rowspan=1 colspan=1>2.5</td><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>14.7</td></tr><tr><td rowspan=1 colspan=1>CV (%)</td><td rowspan=1 colspan=1>5.6</td><td rowspan=1 colspan=1>3.9</td><td rowspan=1 colspan=1>3.8</td></tr><tr><td rowspan=1 colspan=4>CareSens POP</td></tr><tr><td rowspan=1 colspan=1>Average glucose concentration(mg/dL)</td><td rowspan=1 colspan=1>41.8</td><td rowspan=1 colspan=1>114.2</td><td rowspan=1 colspan=1>383.3</td></tr><tr><td rowspan=1 colspan=1>SD (mg/dL)</td><td rowspan=1 colspan=1>1.9</td><td rowspan=1 colspan=1>3.8</td><td rowspan=1 colspan=1>15.8</td></tr><tr><td rowspan=1 colspan=1>CV (%)</td><td rowspan=1 colspan=1>4.6</td><td rowspan=1 colspan=1>3.3</td><td rowspan=1 colspan=1>4.1</td></tr></table>
+
+# b. Linearity/assay reportable range:
+
+To establish the linearity of the system through the range of 20 to $6 0 0 \mathrm { m g / d L } :$ 8 glucose adjusted whole blood samples (actual range tested was 24 to $5 9 5 \mathrm { m g / d L }$ according to YSI and 20 to $5 8 0 ~ \mathrm { m g / d L }$ when tested with the meters) were compared to YSI 2300 using 10 replicate measurements from 5 meters (50 tests) with 1 strip lot. Linear regression yields the following statistics:
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>y-intercept</td><td rowspan=1 colspan=1>r2 }$</td></tr><tr><td rowspan=1 colspan=1>CareSens II</td><td rowspan=1 colspan=1>0.98</td><td rowspan=1 colspan=1>-2.07</td><td rowspan=1 colspan=1>0.9989</td></tr><tr><td rowspan=1 colspan=1>CareSens POP</td><td rowspan=1 colspan=1>0.96</td><td rowspan=1 colspan=1>-0.74</td><td rowspan=1 colspan=1>0.9988</td></tr></table>
+
+The sponsor claims $2 0 \mathrm { m g / d L }$ as the lowest detectable limit in the labeling.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): The device is traceable to a laboratory analyzer which is calibrated to a glucose standard (NIST SRM 917a).
+
+The two control solutions consist of buffered aqueous solutions of D $( + )$ -glucose containing stabilizers, preservatives, and other non-reactive ingredients. Lot-specific ranges are printed on the test strip bottle label.
+
+Closed Vial Stability of Control Solution: The measured glucose levels of 3 lots of CareSens control solutions during the shelf lifetime period (24 months) are all within the specified ranges $\mathrm { ( 8 8 m g / d L - 1 3 2 m g / d L }$ for mid level, $1 6 0 \mathrm { m g } / \mathrm { d L } - 2 4 0 \mathrm { m g } / \mathrm { d L }$ for high level solutions), and the average bias with respect to the mean value throughout the lifetime is less than $\pm 4 \%$ .
+
+Opened Vial Stability of Control Solution: The measured glucose levels of 3 lots of CareSens control solutions during the use lifetime period (90 days) are all within the specified ranges $\mathrm { ( 8 8 m g / d L - 1 3 2 m g / d L }$ for mid level, $1 6 0 \mathrm { m g } / \mathrm { d L } - 2 4 0 \mathrm { m g } / \mathrm { d L }$ for high level solutions), and the average bias with respect to the mean value throughout the lifetime is less than $\pm 6 . 5 \%$ .
+
+The expected values the glucose control solutions were established by repeat testing of 10 meters with 5 test strips each and measuring of the two levels of control solution. The glucose levels of each control solution are then determined in the $+ .$ - $20 \%$ range from the observed averages of the 50 measurements taken for each solution. The expected results may change with each new lot, but the control range is listed in the product insert.
+
+d. Detection limit:
+
+The measuring range of the system is $2 0 - 6 0 0 \mathrm { m g / d L }$ . This range was verified by the linearity study (above section M.1.b.).
+
+e. Analytical specificity:
+
+Spiked whole blood samples containing normal levels of glucose $( 3 0 - 2 6 0 \mathrm { m g / d L } )$ with and without interfering substances were prepared to test common endogenous and exogenous substances for interference. Levels tested for each interferant are summarized below:
+
+<table><tr><td rowspan=1 colspan=1>Interferent(mg/dL)</td><td rowspan=1 colspan=1>Level 1</td><td rowspan=1 colspan=1>Level 2</td><td rowspan=1 colspan=1>Level 3</td><td rowspan=1 colspan=1>Level 4</td><td rowspan=1 colspan=1>Level 5</td></tr><tr><td rowspan=1 colspan=1>Dopamine</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3.75</td><td rowspan=1 colspan=1>6.5</td><td rowspan=1 colspan=1>9.75</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=1>Acetaminophen</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Uric acid</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Ascorbic acid</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Ascorbate</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.75</td><td rowspan=1 colspan=1>1.5</td><td rowspan=1 colspan=1>2.25</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>Galactose</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12.5</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>37.5</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Bilirubin</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1>Methyldopa</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.625</td><td rowspan=1 colspan=1>1.25</td><td rowspan=1 colspan=1>1.875</td><td rowspan=1 colspan=1>2.5</td></tr><tr><td rowspan=1 colspan=1>Levodopa</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td></tr><tr><td rowspan=1 colspan=1>Maltose</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12.5</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>37.5</td><td rowspan=1 colspan=1>50</td></tr><tr><td rowspan=1 colspan=1>Creatinine</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>7.5</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>22.5</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>Salicylic acid</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12.5</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>37.5</td><td rowspan=1 colspan=1>50</td></tr></table>
+
+Interference testing showed that the CareSens II and CareSens POP systems result in less than $\pm 1 0 \%$ bias in the presence of high concentrations of interferants even beyond clinically significant ranges. Positive errors greater than $10 \%$ where found in the presence of galactose $( \geq 5 0 \ \mathrm { m g / d L }$ at glucose levels of $8 5 \mathrm { m g / d L }$ and $\geq 1 2 . 5 ~ \mathrm { m g / d L }$ at glucose levels of $3 0 \mathrm { m g / d L }$ ), maltose $( \geq 5 0 \mathrm { \ m g / d L }$ at glucose levels of $3 0 \mathrm { m g / d L } )$ , and ascorbic acid $\mathrm { ( { > } 1 0 ~ m g / d L ) }$ . Ascorbate showed that the interfering response may be significant if its concentration is over $3 \mathrm { m g / d L }$ .
+
+An altitude study was performed with volunteers in an altitude simulation chamber with capillary whole blood from volunteers whose blood glucose ranged from ${ \sim } 8 0$ to
+
+$1 4 0 \mathrm { m g / d L }$ and spiked whole blood samples of 60 and $3 1 0 \mathrm { m g / d L }$ . The simulator was set to 10,000 feet. The test data using capillary blood samples using both meters showed that the bias versus YSI at 10,000 feet is the same bias versus YSI as that observed at sea level. These data indicate no additional effect due to altitude up to 10,000 feet.
+
+To test the accuracy of the hematocrit effect, blood adjusted to hematocrit levels of $20 \%$ , $40 \%$ , and $60 \%$ at glucose concentrations of 63, 144, 264, $4 4 0 \mathrm { m g / d L }$ for the CareSens II meter and 60, 143, 244, $4 1 4 \mathrm { m g / d L }$ for the POP meter were tested a total of 10 times at each concentration and averaged and compared to the $40 \%$ hematocrit result ( $40 \%$ being considered a normal hematocrit value for patients). The sponsor demonstrated that no bias greater than $1 5 \%$ when samples were compared to $40 \%$ hematocrit occurred within the claimed range of $20 \%$ to $60 \%$ .
+
+f. Assay cut-off: Not Applicable.
+
+# 2. Comparison studies:
+
+a. Method comparison with predicate device: To demonstrate the accuracy performance of the CareSens II and POP Blood Glucose Monitoring Systems, trained specialists tested the capillary blood samples from the finger of 110 patients (with samples ranging from 30 to $4 8 5 \mathrm { m g / d L } )$ and compared the results to the results from a laboratory reference method (YSI) using samples taken at the same time. \*Samples with blood glucose levels below $5 0 \mathrm { m g / d L }$ were obtained by glycolysis of patient samples. The pO2 levels of the glycolyzed blood samples were adjusted to that of capillary blood samples before the measurements. Results are summarized below:
+
+<table><tr><td rowspan=1 colspan=1>CareSens II</td><td rowspan=1 colspan=1>Fingerstick* vs. YSI</td></tr><tr><td rowspan=1 colspan=1>Samples &lt; 75 mg/dL within ±15 mg/dL YSI</td><td rowspan=1 colspan=1>17/17 (100%)</td></tr><tr><td rowspan=1 colspan=1>Samples ≥ 75 mg/dL within ± 20% YSI</td><td rowspan=1 colspan=1>93/93 (100%)</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>110/110 (100%)</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1>POP</td><td rowspan=1 colspan=1>Fingerstick* vs. YSI</td></tr><tr><td rowspan=1 colspan=1>Samples &lt; 75 mg/dL within ±15 mg/dL YSI</td><td rowspan=1 colspan=1>17/17 (100%)</td></tr><tr><td rowspan=1 colspan=1>Samples ≥ 75mg/dLwithin ± 20% YSI</td><td rowspan=1 colspan=1>93/93 (100%)</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>110/110 (100%)</td></tr></table>
+
+To demonstrate the accuracy performance of the CareSens II and POP Blood Glucose Monitoring Systems using alternate sites, a study was performed with 140 lay users being instructed on how to use the device by technicians. Samples were taken by the lay users from the fingertip, palm, forearm, thigh, and calf and were compared to the users fingerstick result. Samples ranged from $7 0 - 3 0 0 \mathrm { m g / d L }$ . Results are summarized below for samples $< 7 5 ~ \mathrm { m g / d L }$ being within $\pm 1 5 \mathrm { m g / d L }$ YSI and $\ge 7 5$ $\mathrm { m g / d L }$ within $\pm 2 0 \%$ YSI:
+
+<table><tr><td>CareSens II</td><td>Fingerstick vs. YSI</td><td>Palm vs. Fingerstick</td><td>Forearm VS. Fingerstick</td><td>Thigh vs. Fingerstick</td><td>Calf vs. Fingerstick</td></tr><tr><td>Total</td><td>139/140 (99%)</td><td>137/140 (98%)</td><td>137/140 (98%)</td><td>137/140 (98%)</td><td>138/140 (99%)</td></tr></table>
+
+<table><tr><td>POP</td><td>Fingerstick vs. YSI</td><td>Palm vs. Fingerstick</td><td>Forearm VS. Fingerstick</td><td>Thigh vs. Fingerstick</td><td>Calf vs. Fingerstick</td></tr><tr><td>Total</td><td>139/140 (99%)</td><td>138/140 (99%)</td><td>138/140 (99%)</td><td>138/140 (99%)</td><td>139/140 (99%)</td></tr></table>
+
+A consumer study was performed with 48 lay-users and a technician to see if glucose readings from the fingertip, palm, forearm, thigh, and calf were comparable a reference method (alternate site testing being comparable to fingertip when obtained by lay users. The labeling provided to the users was in English only. Each participant performed their own test and tested their blood using the instructions in the user’s manual, then a technician performed a test using the same meter. Samples ranged from $8 0 - 2 4 0 \mathrm { m g / d L }$ . Results are summarized below:
+
+<table><tr><td rowspan=1 colspan=1>CareSensII</td><td rowspan=1 colspan=1>Palm vs.Fingerstick</td><td rowspan=1 colspan=1>Forearm vs.Fingerstick</td><td rowspan=1 colspan=1>Thigh vs.Fingerstick</td><td rowspan=1 colspan=1>Calf vs.Fingerstick</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>48/48 (100%)</td><td rowspan=1 colspan=1>48/48 (100%)</td><td rowspan=1 colspan=1>48/48 (100%)</td><td rowspan=1 colspan=1>48/48 (100%)</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1>POP</td><td rowspan=1 colspan=1>Palm vs.Fingerstick</td><td rowspan=1 colspan=1>Forearm vs.Fingerstick</td><td rowspan=1 colspan=1>Thigh vs.Fingerstick</td><td rowspan=1 colspan=1>Calf vs.Fingerstick</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>48/48 (100%)</td><td rowspan=1 colspan=1>48/48 (100%)</td><td rowspan=1 colspan=1>48/48 (100%)</td><td rowspan=1 colspan=1>48/48 (100%)</td></tr></table>
+
+b. Matrix comparison: Not applicable. Capillary whole blood is the only indicated matrix.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not Applicable.   
+b. Clinical specificity: Not Applicable.   
+c. Other clinical supportive data (when a. and b. are not applicable): The sponsor provided a readability study that indicated that the user manual, test strip labeling, and control solution labeling is at an ${ 8 } ^ { \mathrm { t h } }$ grade reading level or below.
+
+4. Clinical cut-off: Not Applicable.
+
+5. Expected values/Reference range:
+
+The sponsor included the following expected values for normal glucose levels in their strip labeling:
+
+$7 0 { \mathrm { - } } 1 1 0 \ \mathrm { m g / d L }$ (3.9-6.1 mmol/L) One-hour after a meal: less than 160 mg/dL (8.9 mmol/L)
+
+Diagnosis of Diabetes, NIH Publication No. 05-4642, January 2005
+
+# N. Instrument Name:
+
+CareSens II Blood Glucose Monitoring System CareSens POP Blood Glucose Monitoring System
+
+# O. System Descriptions:
+
+1. Modes of Operation: Each test strip is single use and must be replaced with a new strip for additional readings.
+
+2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for   
+this line of product types:   
+Yes ___X_ or No
+
+3. Specimen Identification:
+
+There is no sample identification function with this device. Samples are applied directly to the test strip as they are collected.
+
+4. Specimen Sampling and Handling:
+
+This device is intended to be used with capillary whole blood from the finger, palm, forearm, thigh, and calf. Since the whole blood sample is applied directly to the test strip there are no special handling or storage issues.
+
+5. Calibration:
+
+A code number is provided with each batch of test strips to calibrate the meter for that batch. The code number is associated with the meter by inserting a test strip and entering the code number to match that found on the test strip bottle. No further calibrations are required of the user.
+
+6. Quality Control:
+
+The sponsor has two levels of controls available for this meter with both levels coming with the kit and also being available through the distributor. When a test strip is inserted into the meter, a control can be run. An acceptable range for each control level is printed on the test strip vial label. The user is referred to a troubleshooting section at the end of the control test instructions of the owner’s manual to identify possible reasons control results fall outside these ranges.
+
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above: None.
+
+Q. Proposed Labeling: The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

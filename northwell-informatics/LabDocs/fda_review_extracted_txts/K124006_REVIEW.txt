@@ -1,0 +1,2238 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k124006
+B. Purpose for Submission:
+New device
+C. Measurand:
+CFTR (cystic fibrosis transmembrane conductance regulator) gene from human peripheral
+whole blood specimens
+D. Type of Test:
+High-throughput, Targeted DNA Sequencing
+E. Applicant:
+Illumina, Inc.
+F. Proprietary and Established Names:
+Illumina MiSeqDx™ Cystic Fibrosis 139-Variant Assay
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 866.5900 CFTR (cystic fibrosis transmembrane conductance regulatory) gene
+mutation detection system
+2. Classification:
+Class II
+3. Product code:
+PFR, System, cystic fibrosis transmembrane conductance regulator gene, mutations &
+variants panel sequencing detection
+1
+
+--- Page 2 ---
+4. Panel:
+Immunology (82)
+H. Intended Use:
+1. Intended use(s):
+The Illumina MiSeqDx™ Cystic Fibrosis 139-Variant Assay is a qualitative in vitro
+diagnostic system used to simultaneously detect 139 clinically relevant cystic fibrosis
+disease‐causing mutations and variants of the cystic fibrosis transmembrane conductance
+regulator (CFTR) gene in genomic DNA isolated from human peripheral whole blood
+specimens. The variants include those recommended in 2004 by the American College of
+Medical Genetics (ACMG) and in 2011 by the American College of Obstetricians and
+Gynecologists (ACOG). The test is intended for carrier screening in adults of
+reproductive age, in confirmatory diagnostic testing of newborns and children, and as an
+initial test to aid in the diagnosis of individuals with suspected cystic fibrosis. The results
+of this test are intended to be interpreted by a board-certified clinical molecular geneticist
+or equivalent and should be used in conjunction with other available laboratory and
+clinical information.
+This test is not indicated for use for newborn screening, fetal diagnostic testing, pre-
+implantation testing, or for stand‐alone diagnostic purposes.
+The test is intended to be used on the Illumina MiSeqDx™ instrument.
+2. Indication(s) for use:
+Same as intended use.
+3. Special conditions for use statement(s):
+For prescription use only.
+4. Special instrument requirements:
+Illumina MiSeqDx Instrument using the following software versions: MOS v1.0.27; RTA
+v1.16.18; MSR v2.2.30; IWM v1.0.14; UMS v1.0.0.5; MTS v1.0.7; Reference Genome
+File v1.1; Recipe Fragments File v1.0.0; and Manifest File Revision B
+I. Device Description:
+The Illumina MiSeqDx Cystic Fibrosis System consists of library preparation and sample
+indexing reagents, sequencing reagents and consumables, MiSeqDx instrument and data
+analysis software. Illumina MiSeqDx Cystic Fibrosis 139-Variant Assay is designed to
+identify the following mutations and variants:
+2
+
+--- Page 3 ---
+Table 1. Variants included in MiSeqDx Cystic Fibrosis 139-Variant Assay.
+M1V T338I R553X 3272-26A>G
+CFTR dele2,3 1154insTC A559T L1065P
+Q39X S341P R560T R1066C
+E60X R347H R560K R1066H
+P67L R347P 1811+1.6kb A->G L1077P
+R75X R352Q 1812-1 G->A W1089X
+G85E 1213delT E585X Y1092X(C>A)
+394delTT 1248+1G>A 1898+1G>A Y1092X(C>G)
+405+1 G->A 1259insA 1898+3A>G M1101K
+406-1G>A W401X (c.1202G>A) 2143delT E1104X
+E92X W401X (c.1203G>A) R709X R1158X
+E92K 1341+1G->A K710X R1162X
+Q98X 1461ins4 2183delAA>G 3659delC
+457TAT->G A455E 2184insA S1196X
+D110H 1525-1G->A 2184delA W1204X (c.3611G>A)
+R117C S466X (C->A) 2307insA W1204X (c.3612G>A)
+R117H S466X (C->G) L732X 3791delC
+Y122X L467P 2347delG 3849+10kbC>T
+574delA 1548delG† R764X G1244E
+621+1G>T S489X 2585delT 3876delA
+663delT S492F E822X S1251N
+G178R Q493X 2622+1G>A 3905insT
+711+1G>T I507del E831X W1282X
+711+3A>G F508del W846X 4005+1G->A
+711+5 G->A 1677delTA R851X N1303K
+712-1 G->T V520F 2711delT 4016insT
+H199Y Q525X† 2789+5G>A Q1313X
+P205S 1717-8G->A Q890X 4209TGTT>AA
+L206W 1717-1G>A L927P CFTRdele22,23
+Q220X G542X S945L 4382delA
+852del22 S549R (c.1645A>C) 3007delG I506V
+1078delT S549R (c.1647T>G) G970R I507V
+G330X S549N 3120G>A F508C
+R334W G551D 3120+1G>A PolyTG/PolyT
+I336K Q552X 3121-1G->A
+Bold=ACMG-23 recommended; Italics=Conditionally reported
+† Classified in the CFTR2 database as a CF-causing variant, however the supplementary data in the article by Sosnay
+et al (2013) classifies these variants as an indeterminate. The database classification is more current and reflects the
+completed functional testing and clinical information which was not available at the time of publication.
+The assay is designed in two configurations: for 2 runs of up to 96 samples per kit and 20
+runs for up to 960 samples per kit. The reagents of each box of the different configurations
+are the same and only differ in the number of tubes or consumable items. Each reagent is
+designed for single use and the larger configuration contains 10 times as many items as the
+number in the smaller kit. The assay components are divided into 7 separate boxes and
+include the following components:
+3
+
+[Table 1 on page 3]
+M1V	T338I	R553X	3272-26A>G
+CFTR dele2,3	1154insTC	A559T	L1065P
+Q39X	S341P	R560T	R1066C
+E60X	R347H	R560K	R1066H
+P67L	R347P	1811+1.6kb A->G	L1077P
+R75X	R352Q	1812-1 G->A	W1089X
+G85E	1213delT	E585X	Y1092X(C>A)
+394delTT	1248+1G>A	1898+1G>A	Y1092X(C>G)
+405+1 G->A	1259insA	1898+3A>G	M1101K
+406-1G>A	W401X (c.1202G>A)	2143delT	E1104X
+E92X	W401X (c.1203G>A)	R709X	R1158X
+E92K	1341+1G->A	K710X	R1162X
+Q98X	1461ins4	2183delAA>G	3659delC
+457TAT->G	A455E	2184insA	S1196X
+D110H	1525-1G->A	2184delA	W1204X (c.3611G>A)
+R117C	S466X (C->A)	2307insA	W1204X (c.3612G>A)
+R117H	S466X (C->G)	L732X	3791delC
+Y122X	L467P	2347delG	3849+10kbC>T
+574delA	1548delG†	R764X	G1244E
+621+1G>T	S489X	2585delT	3876delA
+663delT	S492F	E822X	S1251N
+G178R	Q493X	2622+1G>A	3905insT
+711+1G>T	I507del	E831X	W1282X
+711+3A>G	F508del	W846X	4005+1G->A
+711+5 G->A	1677delTA	R851X	N1303K
+712-1 G->T	V520F	2711delT	4016insT
+H199Y	Q525X†	2789+5G>A	Q1313X
+P205S	1717-8G->A	Q890X	4209TGTT>AA
+L206W	1717-1G>A	L927P	CFTRdele22,23
+Q220X	G542X	S945L	4382delA
+852del22	S549R (c.1645A>C)	3007delG	I506V
+1078delT	S549R (c.1647T>G)	G970R	I507V
+G330X	S549N	3120G>A	F508C
+R334W	G551D	3120+1G>A	PolyTG/PolyT
+I336K	Q552X	3121-1G->A	
+
+--- Page 4 ---
+Quantity per assay configuration
+20 run 2 run Volume
+Box 1A Pre-Amplification Reagents
+CF 139-Variant Assay Oligo Pool 10 tubes 1 tube 600 µL
+Hybridization Buffer 10 tubes 1 tube 4.32 mL
+Extension-Ligation Mix 10 tubes 1 tube 4.8 mL
+Index Primers A (A501) - H (A508) 10 tubes per primer 1 tube per primer 192 µL
+Index Primers 1 (A701) - 12 (A712) 10 tubes per primer 1 tube per primer 128 µL
+PCR Polymerase 10 tubes 1 tube 56 µL
+PCR Master Mix 10 tubes 1 tube 2.8 mL
+Box 1B Post-Amp Reagents
+Library Normalization Diluent 10 tubes 1 tube 4.6 mL
+Library Dilution Buffer 10 tubes 1 tube 4.5 mL
+PhiX Internal Control 1 tube 1 tube 10 µL
+Box 2 Post-Amp Reagents
+MiSeqDx Cartridge – CF 139-Variant Assay 20 cartridges 2 cartridges N/A
+Box 3A Pre-Amp Reagents
+Stringent Wash Buffer 10 bottles 1 bottle 24 mL
+Universal Wash Buffer 10 tubes 1 tube 4.8 mL
+Box 3B Post-Amp Reagents
+PCR Clean-Up Beads 10 tubes 1 tube 5 mL
+Library Normalization Wash 20 tubes 2 tubes 4.8 mL
+Library Beads 10 tubes 1 tube 1.2 mL
+MiSeqDx Flow Cell – CF 139-Variant Assay 20 containers 2 containers 1 flow cell
+Box 4 Post-Amp Reagents
+MiSeqDx SBS Solution (PR2) – CF 139-
+20 bottles 2 bottles 353.1 mL
+Variant Assay
+Box 5 Pre-Amp Reagents
+Filter Plate 20 plates 2 plates N/A
+Elution Buffer 10 tubes 1 tube 4.8 mL
+Library Storage Buffer 10 tubes 1 tube 3.5 mL
+A brief description of some of the primary components is listed below:
+· CF Carrier Screen Oligo Pools: Oligonucleotides specific for genomic regions
+targeted by the test. For each region, there is an upstream locus specific
+oligonucleotide and a downstream locus specific oligonucleotide.
+· Extension-Ligation Mix: Buffer containing DNA polymerase and DNA ligase, which
+is applied to the sample on the filter plate and catalyzes the connection of the
+4
+
+[Table 1 on page 4]
+	Quantity per assay configuration		Volume
+	20 run	2 run	
+Box 1A Pre-Amplification Reagents			
+CF 139-Variant Assay Oligo Pool	10 tubes	1 tube	600 µL
+Hybridization Buffer	10 tubes	1 tube	4.32 mL
+Extension-Ligation Mix	10 tubes	1 tube	4.8 mL
+Index Primers A (A501) - H (A508)	10 tubes per primer	1 tube per primer	192 µL
+Index Primers 1 (A701) - 12 (A712)	10 tubes per primer	1 tube per primer	128 µL
+PCR Polymerase	10 tubes	1 tube	56 µL
+PCR Master Mix	10 tubes	1 tube	2.8 mL
+Box 1B Post-Amp Reagents			
+Library Normalization Diluent	10 tubes	1 tube	4.6 mL
+Library Dilution Buffer	10 tubes	1 tube	4.5 mL
+PhiX Internal Control	1 tube	1 tube	10 µL
+Box 2 Post-Amp Reagents			
+MiSeqDx Cartridge – CF 139-Variant Assay	20 cartridges	2 cartridges	N/A
+Box 3A Pre-Amp Reagents			
+Stringent Wash Buffer	10 bottles	1 bottle	24 mL
+Universal Wash Buffer	10 tubes	1 tube	4.8 mL
+Box 3B Post-Amp Reagents			
+PCR Clean-Up Beads	10 tubes	1 tube	5 mL
+Library Normalization Wash	20 tubes	2 tubes	4.8 mL
+Library Beads	10 tubes	1 tube	1.2 mL
+MiSeqDx Flow Cell – CF 139-Variant Assay	20 containers	2 containers	1 flow cell
+Box 4 Post-Amp Reagents			
+MiSeqDx SBS Solution (PR2) – CF 139-
+Variant Assay	20 bottles	2 bottles	353.1 mL
+Box 5 Pre-Amp Reagents			
+Filter Plate	20 plates	2 plates	N/A
+Elution Buffer	10 tubes	1 tube	4.8 mL
+Library Storage Buffer	10 tubes	1 tube	3.5 mL
+
+--- Page 5 ---
+upstream locus specific oligonucleotide to the downstream locus specific
+oligonucleotide.
+· PCR Master Mix: Contains all of the components required for PCR amplification
+except for PCR primers and DNA polymerase.
+· Index PCR Primers: Twelve (12) i7 and eight (8) i5 index PCR primers for universal
+amplification of the ligated products. These primers incorporate P5 and P7
+sequences, which are complementary to the sequences of the capture oligonucleotides
+attached to the flow cell. These primers also incorporate a sample specific sequence
+tag that allows for pooling of up to 48 samples into a single flow cell/MiSeq run.
+· AMPure XP beads: Streptavidin coated magnetic beads used to capture the PCR
+product for removal of unincorporated primers and nucleotides.
+· Library Normalization Diluent/Library Breads: Allow for bead-based normalization
+of the amount of PCR product produced across different samples.
+· MiSeq Reagent Cartridge: Pre-filled, single use reagent cartridge which contains the
+reagents required for cluster generation and SBS sequencing. The pooled libraries are
+added to the cartridge which is then inserted into the MiSeq instrument. The
+components of the Reagent Cartridge are as follows:
+o Incorporation Mix: Contains DNA polymerase, fluorescently labeled
+nucleotides and buffer used for incorporation of reversible terminator
+nucleotide during SBS reaction.
+o Scan Mix: Contains buffers to flush out unincorporated fluorescently labeled
+nucleotides in order to facilitate scanning of the clusters during the SBS
+reaction.
+o Cleavage Mix: Contains buffers and enzyme that removes the terminator and
+fluorescent signal from incorporated fluorescently labeled nucleotide, which
+allows the incorporation of additional nucleotides in later rounds of the SBS
+reaction.
+o Amplification Mix: Contains buffer, DNA polymerase, and unlabeled
+nucleotides that are used to bridge amplify the prepared library during the
+cluster generation process.
+o Amplification Mix for Read 2
+o Linearization Pre-mix
+o Formamide
+o Linearization Mix 1: Contains enzyme and buffer required to linearize the first
+read clusters in preparation for their use in the SBS reaction.
+o Linearization Mix 2
+o Resynthesis Mix: Contains enzyme and buffer for the synthesis of reads
+during the cluster generation process
+o SBS Primer for Read 1
+o SBS Primer for Indexing Read
+o SBS Primer for Read 2
+o Water
+· Flow Cell: Single-use glass substrate with covalently bound oligonucleotides for
+capture and solid phase amplification and SBS sequencing of the targets created
+during library preparation.
+5
+
+--- Page 6 ---
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Luminex xTAG Cystic Fibrosis 60 Kit v2
+2. Predicate 510(k) number(s):
+k083845
+3. Comparison with predicate:
+Similarities
+Item Device Predicate
+Illumina MiSeqDx Cystic Luminex xTAG Cystic
+Fibrosis 139-Variant Assay Fibrosis 60 Kit v2
+Intended Use The Illumina MiSeqDx™ Cystic The xTAG® Cystic Fibrosis
+Fibrosis 139-Variant Assay is a 60 Kit v2 is a device used to
+qualitative in vitro diagnostic simultaneously detect and
+system used to simultaneously identify a panel of mutations
+detect 139 clinically relevant and variants in the cystic
+cystic fibrosis disease‐causing fibrosis transmembrane
+mutations and variants of the conductance regulator (CFTR)
+cystic fibrosis transmembrane gene in human blood
+conductance regulator (CFTR) specimens. The panel includes
+gene in genomic DNA isolated mutations and variants
+from human peripheral whole currently recommended by the
+blood specimens. The variants American College of Medical
+include those recommended in Genetics and American
+2004 by the American College College of Obstetricians and
+of Medical Genetics (ACMG) Gynecologists
+and in 2011 by the American (ACMG/ACOG), plus some
+College of Obstetricians and of the world’s most common
+Gynecologists (ACOG). The test and North American prevalent
+is intended for carrier screening mutations. The xTAG®
+in adults of reproductive age, in Cystic Fibrosis 60 Kit v2 is a
+confirmatory diagnostic testing qualitative genotyping test
+of newborns and children, and as which provides information
+an initial test to aid in the intended to be used for carrier
+diagnosis of individuals with testing in adults of
+suspected cystic fibrosis. reproductive age, as an aid in
+newborn screening, and in
+confirmatory diagnostic
+testing in newborns and
+children.
+Specimen type Genomic DNA (gDNA) isolated Same
+from peripheral whole blood
+Anticoagulant EDTA EDTA or Citrate
+6
+
+[Table 1 on page 6]
+Similarities								
+	Item			Device			Predicate	
+				Illumina MiSeqDx Cystic			Luminex xTAG Cystic	
+				Fibrosis 139-Variant Assay			Fibrosis 60 Kit v2	
+Intended Use			The Illumina MiSeqDx™ Cystic
+Fibrosis 139-Variant Assay is a
+qualitative in vitro diagnostic
+system used to simultaneously
+detect 139 clinically relevant
+cystic fibrosis disease‐causing
+mutations and variants of the
+cystic fibrosis transmembrane
+conductance regulator (CFTR)
+gene in genomic DNA isolated
+from human peripheral whole
+blood specimens. The variants
+include those recommended in
+2004 by the American College
+of Medical Genetics (ACMG)
+and in 2011 by the American
+College of Obstetricians and
+Gynecologists (ACOG). The test
+is intended for carrier screening
+in adults of reproductive age, in
+confirmatory diagnostic testing
+of newborns and children, and as
+an initial test to aid in the
+diagnosis of individuals with
+suspected cystic fibrosis.			The xTAG® Cystic Fibrosis
+60 Kit v2 is a device used to
+simultaneously detect and
+identify a panel of mutations
+and variants in the cystic
+fibrosis transmembrane
+conductance regulator (CFTR)
+gene in human blood
+specimens. The panel includes
+mutations and variants
+currently recommended by the
+American College of Medical
+Genetics and American
+College of Obstetricians and
+Gynecologists
+(ACMG/ACOG), plus some
+of the world’s most common
+and North American prevalent
+mutations. The xTAG®
+Cystic Fibrosis 60 Kit v2 is a
+qualitative genotyping test
+which provides information
+intended to be used for carrier
+testing in adults of
+reproductive age, as an aid in
+newborn screening, and in
+confirmatory diagnostic
+testing in newborns and
+children.		
+Specimen type			Genomic DNA (gDNA) isolated
+from peripheral whole blood			Same		
+Anticoagulant			EDTA			EDTA or Citrate		
+
+--- Page 7 ---
+Similarities
+Item Device Predicate
+Illumina MiSeqDx Cystic Luminex xTAG Cystic
+Fibrosis 139-Variant Assay Fibrosis 60 Kit v2
+Sample DNA extraction followed by Same
+Preparation targeted PCR amplification and
+specific sequence extension.
+Detection Method Performs fluorescence signal Same
+detection by LED
+Differences
+Item Device Predicate
+Illumina MiSeqDx Cystic Luminex xTAG Cystic
+Fibrosis 139-Variant Assay Fibrosis 60 Kit v2
+Interpretation of The results of this test are Specialized interpretation not
+results intended to be interpreted by a required
+board-certified clinical molecular
+geneticist or equivalent and
+should be used in conjunction
+with other available laboratory
+and clinical information.
+Contra-indication Not indicated for newborn Indicated for newborn
+screening screening
+Number of 139 60
+mutations/variants
+detected
+Technology High-throughput, Targeted DNA Multiplex PCR followed by
+Sequencing, Sequencing by multiplex allele specific
+Synthesis (SBS). Reversible primer extension for
+terminator-based method to detect genotyping, hybridized to
+single bases as they are multiplex fluorescent
+incorporated into growing DNA microparticles, and run on
+strands. Fluorescently-labeled fluidic microbead reader
+terminators are detected using a which includes a dual-color
+dual-color laser. Base calls are laser detection system that
+made directly from signal enables optical scanning by
+intensity measurements during flow cytometry.
+each sequencing cycle.
+Instrument System MiSeqDx Luminex 100 or 200 IS
+K. Standard/Guidance Document Referenced (if applicable):
+Guidance for Industry and FDA Staff: Class II Special Controls Guidance Document: CFTR
+(Cystic Fibrosis Transmembrane Conductance Regulator) Gene Mutation Detection Systems;
+October 26, 2005
+7
+
+[Table 1 on page 7]
+Similarities								
+	Item			Device			Predicate	
+				Illumina MiSeqDx Cystic			Luminex xTAG Cystic	
+				Fibrosis 139-Variant Assay			Fibrosis 60 Kit v2	
+Sample
+Preparation			DNA extraction followed by
+targeted PCR amplification and
+specific sequence extension.			Same		
+Detection Method			Performs fluorescence signal
+detection by LED			Same		
+
+[Table 2 on page 7]
+Differences								
+	Item			Device			Predicate	
+				Illumina MiSeqDx Cystic			Luminex xTAG Cystic	
+				Fibrosis 139-Variant Assay			Fibrosis 60 Kit v2	
+Interpretation of
+results			The results of this test are
+intended to be interpreted by a
+board-certified clinical molecular
+geneticist or equivalent and
+should be used in conjunction
+with other available laboratory
+and clinical information.			Specialized interpretation not
+required		
+Contra-indication			Not indicated for newborn
+screening			Indicated for newborn
+screening		
+Number of
+mutations/variants
+detected			139			60		
+Technology			High-throughput, Targeted DNA
+Sequencing, Sequencing by
+Synthesis (SBS). Reversible
+terminator-based method to detect
+single bases as they are
+incorporated into growing DNA
+strands. Fluorescently-labeled
+terminators are detected using a
+dual-color laser. Base calls are
+made directly from signal
+intensity measurements during
+each sequencing cycle.			Multiplex PCR followed by
+multiplex allele specific
+primer extension for
+genotyping, hybridized to
+multiplex fluorescent
+microparticles, and run on
+fluidic microbead reader
+which includes a dual-color
+laser detection system that
+enables optical scanning by
+flow cytometry.		
+Instrument System			MiSeqDx			Luminex 100 or 200 IS		
+
+--- Page 8 ---
+Guidance for Industry and FDA Staff: Guidance for the Content of Premarket Submissions
+for Software Contained in Medical Devices; May 11, 2005
+General Principles of Software Validation; Final Guidance for Industry and FDA Staff;
+January 11, 2002
+Guidance for Industry - Cybersecurity for Networked Medical Devices Containing Off-the-
+Shelf (OTS) Software; January 14, 2005
+Guidance for Industry, FDA Reviewers and Compliance on Off-the-Shelf Software Use in
+Medical Devices; September 9, 1999
+CLSI Standard EP05-A2, Evaluation of Precision Performance of Quantitative Measurement
+Methods; Approved Guideline – Second Edition.
+CLSI Standard EP07-A3, Interference Testing in Clinical Chemistry, Approved Guideline –
+Third Edition.
+CLSI Standard EP09-A2, Method Comparison and Bias Estimation Using Patient Samples,
+Approved Guideline – Second Edition.
+CLSI Standard EP12-A2, User Protocol for Evaluation of Qualitative Test Performance;
+Approved Guideline – Second Edition.
+CLSI Standard EP14-A2, Evaluation of Matrix Effects, Approved Guideline – Second
+Edition.
+CLSI Standard EP17-A, Protocols for the Determination of Limits of Detection and Limits of
+Quantification, Approved Guideline.
+CLSI Standard EP25-A, Evaluation of Stability on In Vitro Diagnostic Reagents, Approved
+Guideline.
+L. Test Principle:
+The Illumina MiSeqDx Cystic Fibrosis 139-Variant Assay begins with the isolation of
+genomic DNA (gDNA) from a peripheral whole blood specimen by routine laboratory
+methods. Briefly, gDNA is processed through the library preparation steps, which
+specifically amplifies the intended genomic regions of each sample while also adding the
+indexes for sample identification. Flow cell capture sequences are also added to the amplified
+products. The resulting sample libraries are then transferred into a MiSeqDx reagent
+cartridge which contains all of the reagents required for cluster generation and Sequencing by
+Synthesis (SBS). The MiSeqDx Cartridge, MiSeqDx Flow Cell, and MiSeqDx SBS Solution
+are then inserted into the MiSeqDx instrument, which performs cluster generation,
+sequencing and data analysis. All components of the assay are coded with radio-frequency
+identifiers (RFID) to assure the proper reagents are used in the assay.
+8
+
+--- Page 9 ---
+The Cystic Fibrosis 139-Variant assay protocol involves two main procedures prior to the
+data analysis step. The first, library preparation, is to manually prepare the gDNA samples
+for sequencing. Library preparation consists of four key steps: Hybridization, Extension-
+Ligation, PCR Amplification, and Library Normalization. The second procedure is to
+sequence the prepared sample using sequencing by synthesis (SBS) chemistry on the
+MiSeqDx instrument.
+Library Preparation:
+Hybridization: The first step, Hybridization, hybridizes a pool of upstream and
+downstream oligonucleotides specific to the MiSeqDx Cystic Fibrosis 139-Variant Assay
+to the sample gDNA. At the end of this process, a three-step wash procedure with a filter
+capable of size selection removes unbound oligonucleotides from the gDNA.
+Extension-Ligation: The second step, Extension-Ligation, connects the hybridized
+upstream and downstream oligonucleotides. A DNA polymerase extends from the
+upstream oligonucleotides through the targeted region, followed by ligation to the 5’ end
+of the downstream oligonucleotide using a DNA ligase. The result is the formation of
+products that contain the CF specific oligonucleotides flanked by sequences required for
+amplification.
+PCR Amplification: The third step, PCR Amplification, amplifies the extension-ligation
+products using primers that add index sequences for sample multiplexing, as well as
+common adapters required for cluster generation on the MiSeqDx. At the end of this
+process, a PCR clean-up procedure using coated magnetic beads and several washing
+steps to purify the PCR products (referred to as a library) from unincorporated reaction
+components (e.g., PCR primers).
+Library Normalization: The final step, Library Normalization, normalizes the quantity of
+each library by hybridization of each purified library (from the previous step) to magnetic
+beads. The hybridized beads are washed and the bound libraries are eluted. This step
+ensures a more equal library representation in the final pooled library. At the end of this
+process, the pooled library is loaded onto the MiSeqDx for sequencing using SBS
+chemistry.
+Sequencing:
+The SBS chemistry uses a reversible-terminator method to detect single nucleotide bases
+as they are incorporated into growing DNA strands. During each sequencing cycle, a
+single fluorescently labeled deoxynucleotide triphosphate (dNTP) is added to the nucleic
+acid chain. The labeled dNTP serves as a terminator for polymerization. So after each
+labeled dNTP is incorporated, the fluorescent dye is imaged to identify the base and then
+enzymatically cleaved to allow incorporation of the next nucleotide. Because all four
+reversible terminator-bound dNTPs (A, G, T, C) are present as single, separate
+molecules, natural competition minimizes incorporation bias. Base calls are made directly
+9
+
+--- Page 10 ---
+from signal intensity measurements during each sequencing cycle. The end result is base-
+by-base sequencing.
+Data Analysis:
+MiSeq Reporter processes base calls generated during primary analysis and produces
+information about each sample based on information specified in the sample sheet, called
+secondary analysis. As described below, secondary analysis includes demultiplexing,
+FASTQ file generation, alignment, variant calling, and generation of VCF files
+containing information about CFTR variants found at specific positions in the reference
+genome.
+· Demultiplexing: This is the first step in secondary analysis if the sample sheet lists
+multiple samples and the run has index reads. Demultiplexing separates data from
+pooled samples based upon the unique sequence indexes that were added during the
+PCR amplification step.
+· FASTQ File Generation: After demultiplexing, MiSeq Reporter generates
+intermediate files in the FASTQ format, which is a text format used to represent
+sequences. FASTQ files contain the reads for each sample and the quality scores,
+excluding reads from any clusters that did not pass filter.
+· Alignment: Alignment compares sequences against the reference to identify a
+relationship between the sequences and assigns a score based on regions of similarity.
+Aligned reads are written to files in BAM format. MiSeq Reporter software uses a
+banded Smith-Waterman algorithm that performs local sequence alignments to
+determine similar regions between two sequences.
+· Variant Calling: This final step records the single nucleotide variants (SNVs),
+insertions and deletions (indels), and other structural variants for the specific panel of
+variants identified by the assay in a standardized and parsable test file format.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Reproducibility:
+The reproducibility study was performed at 3 external sites by two operators at each
+site. Each operator performed a single run per day for 3 non-consecutive days for
+each of the two panels of specimens. The two sample panels consisted of ‘mock
+blood’ [cultured cell lines spiked into leukocyte-depleted whole blood (LDWB)
+specimens to represent blood specimens at normal white blood cell counts) and
+gDNA samples isolated from cell lines. A new sample library was prepared for each
+run. The variant profiles of the samples were masked to the operators. Panel A was
+comprised of 8 mock blood samples and 38 gDNA samples. Panel B was comprised
+10
+
+--- Page 11 ---
+of 38 gDNA samples for a total of 76 different samples and 522 calls per variant/site.
+Positive and negative control samples were included in each run.
+The assay software includes internal quality requirements for making both a positive
+and wild type call for each kind of variant. The software will make wild type and
+variant calls are reported only if they pass the stringent confidence value thresholds
+which take into account coverage, base quality score, alignment, etc. The study
+resulted in 4 miscalls for F508del/W1282X and F508del/3272‐26A>G, that were
+attributed to two (#9 and #10) samples being switched on the plate during the library
+preparation step for a single replicate run at site 2. One replicate each for two samples
+(#5 and #75) generated a 0% call rate, which resulted in No Calls for all variant and
+wild type calls at site #2 during one run. Upon further investigation, it was
+determined that the samples were not added when making up the library preparation.
+In two instances a No Call was generated for two wild type locations for two samples
+(one run in singlicate and one run in duplicate) due to insufficient coverage at that
+location.
+In order to assess reproducibility for all alleles reported by the assay, a more sequence
+specific evaluation of the reproducible accuracy for the bases representing and
+surrounding each allele was undertaken. The results of the analysis identified four
+samples (#5, #30, #35, and #70) which contained variants not reported by the panel
+(i.e., CFTR variants not tested for in the assay panel) or codons that differ from the
+reference wild-type (R75Q, R1162L, F508C). These results were assessed for their
+accuracy (Table 3), and all alternate variants considered wild type were correctly
+identified as such in the study.
+Reproducibility is reported as positive percent agreement (PPA), negative percent
+agreement (NPA), and overall agreement (OA). The results of the reproducibility
+study, displayed by panel and sample, are shown in Tables 2 and 3, below.
+Homozygous samples are represented with (HOM). Each site generated a total of 810
+calls for all samples. Those samples in which Exon 10 variants (I506V, I507V,
+F508C) were conditionally reported generated 828 total calls, and those samples
+which contained an R117H variant generated 816 total calls. The total number of calls
+from this study was 74,556.
+Table 2. Reproducibility of Variants by Sample:
+Positive Agreeing calls Negative Agreeing
+Variants
+Sample (Variants) calls (Wild type) # # No PPA NPA OA
+# Present Conditionally reported Site 1 Site 2 Site 3 Site 1 Site 2 Site 3 Miscalls Calls % % %
+1 S549N 6 6 6 804 804 804 0 0 100 100 100
+2 1812‐1 G‐>A 6 6 6 804 804 804 0 0 100 100 100
+3 Q493X/F508del 12 12 12 798 798 798 0 0 100 100 100
+4* F508del/2184delA 12 12 12 797 798 798 0 1* 100 100 100
+5^ Y122X/R1158X 12 10 12 798 665 798 0 135^ 94.44 94.44 94.44
+6 F508del/2183AA>G 12 12 12 798 798 798 0 0 100 100 100
+7 R75X 6 6 6 804 804 804 0 0 100 100 100
+8 I507del/F508del 12 12 12 798 798 798 0 0 100 100 100
+11
+
+[Table 1 on page 11]
+Sample
+#	Variants		Positive Agreeing calls
+(Variants)			Negative Agreeing
+calls (Wild type)			#
+Miscalls	# No
+Calls	PPA
+%	NPA
+%	OA
+%
+	Present	Conditionally reported	Site 1	Site 2	Site 3	Site 1	Site 2	Site 3					
+1	S549N		6	6	6	804	804	804	0	0	100	100	100
+2	1812‐1 G‐>A		6	6	6	804	804	804	0	0	100	100	100
+3	Q493X/F508del		12	12	12	798	798	798	0	0	100	100	100
+4*	F508del/2184delA		12	12	12	797	798	798	0	1*	100	100	100
+5^	Y122X/R1158X		12	10	12	798	665	798	0	135^	94.44	94.44	94.44
+6	F508del/2183AA>G		12	12	12	798	798	798	0	0	100	100	100
+7	R75X		6	6	6	804	804	804	0	0	100	100	100
+8	I507del/F508del		12	12	12	798	798	798	0	0	100	100	100
+
+--- Page 12 ---
+9ᵹ F508del/W1282X 12 11 12 798 797 798 2ᵹ 0 97.22 99.96 99.9
+10ᵹ F508del/3272‐26A>G 12 11 12 798 797 798 2ᵹ 0 97.22 99.96 99.9
+11 F508del/3849+10kbC>T 12 12 12 798 798 798 0 0 100 100 100
+12 621+1G>T/3120+1G>A 12 12 12 798 798 798 0 0 100 100 100
+13 E60X/F508del 12 12 12 798 798 798 0 0 100 100 100
+14 M1101K 6 6 6 804 804 804 0 0 100 100 100
+15 M1101K (HOM) 6 6 6 804 804 804 0 0 100 100 100
+16 F508del (HOM) I506V, I507V, F508C (NP) 6 6 6 822 822 822 0 0 100 100 100
+17 F508del/3659delC 12 12 12 798 798 798 0 0 100 100 100
+18 R117H/F508del (TG)10(T)9/(TG)12(T)5 18 18 18 798 798 798 0 0 100 100 100
+19 621+1G>T/711+1G>T 12 12 12 798 798 798 0 0 100 100 100
+20 G85E/621+1G>T 12 12 12 798 798 798 0 0 100 100 100
+21 A455E/F508del 12 12 12 798 798 798 0 0 100 100 100
+22 F508del/R560T 12 12 12 798 798 798 0 0 100 100 100
+23 F508del/Y1092X (C>A) 12 12 12 798 798 798 0 0 100 100 100
+24 N1303K 6 6 6 804 804 804 0 0 100 100 100
+25 G542X (HOM) 6 6 6 804 804 804 0 0 100 100 100
+26 G542X 6 6 6 804 804 804 0 0 100 100 100
+27 G551D/R553X 12 12 12 798 798 798 0 0 100 100 100
+28 3849+10kbC>T (HOM) 6 6 6 804 804 804 0 0 100 100 100
+29 WT 0 0 0 810 810 810 0 0 N/A 100 100
+30 F508del 6 6 6 804 804 804 0 0 100 100 100
+31 1717‐1G>A 6 6 6 804 804 804 0 0 100 100 100
+32 R1162X 6 6 6 804 804 804 0 0 100 100 100
+33 R347P/G551D 12 12 12 798 798 798 0 0 100 100 100
+34 R334W 6 6 6 804 804 804 0 0 100 100 100
+35 WT 0 0 0 810 810 810 0 0 N/A 100 100
+36 G85E 6 6 6 804 804 804 0 0 100 100 100
+37 I336K 6 6 6 804 804 804 0 0 100 100 100
+38 WT 0 0 0 810 810 810 0 0 N/A 100 100
+39 F508del/3849+10kbC>T 12 12 12 798 798 798 0 0 100 100 100
+40 621+1G>T/3120+1G>A 12 12 12 798 798 798 0 0 100 100 100
+41 F508del/3659delC 12 12 12 798 798 798 0 0 100 100 100
+42 R117H/F508del (TG)10(T)9/(TG)12(T)5 18 18 18 798 798 798 0 0 100 100 100
+43 G85E/621+1G>T 12 12 12 798 798 798 0 0 100 100 100
+44 A455E/F508del 12 12 12 798 798 798 0 0 100 100 100
+45 N1303K 6 6 6 804 804 804 0 0 100 100 100
+46 G551D/R553X 12 12 12 798 798 798 0 0 100 100 100
+47 2789+5G>A (HOM) 6 6 6 804 804 804 0 0 100 100 100
+48 CFTR dele2, 3/F508del 12 12 12 798 798 798 0 0 100 100 100
+49 F508del/1898+1G>A 12 12 12 798 798 798 0 0 100 100 100
+50 WT 0 0 0 810 810 810 0 0 N/A 100 100
+51 F508del/2143delT 12 12 12 798 798 798 0 0 100 100 100
+52 3876delA 6 6 6 804 804 804 0 0 100 100 100
+53 3905insT 6 6 6 804 804 804 0 0 100 100 100
+54 394delTT 6 6 6 804 804 804 0 0 100 100 100
+55 F508del 6 6 6 804 804 804 0 0 100 100 100
+12
+
+[Table 1 on page 12]
+9ᵹ	F508del/W1282X		12	11	12	798	797	798	2ᵹ	0	97.22	99.96	99.9
+10ᵹ	F508del/3272‐26A>G		12	11	12	798	797	798	2ᵹ	0	97.22	99.96	99.9
+11	F508del/3849+10kbC>T		12	12	12	798	798	798	0	0	100	100	100
+12	621+1G>T/3120+1G>A		12	12	12	798	798	798	0	0	100	100	100
+13	E60X/F508del		12	12	12	798	798	798	0	0	100	100	100
+14	M1101K		6	6	6	804	804	804	0	0	100	100	100
+15	M1101K (HOM)		6	6	6	804	804	804	0	0	100	100	100
+16	F508del (HOM)	I506V, I507V, F508C (NP)	6	6	6	822	822	822	0	0	100	100	100
+17	F508del/3659delC		12	12	12	798	798	798	0	0	100	100	100
+18	R117H/F508del	(TG)10(T)9/(TG)12(T)5	18	18	18	798	798	798	0	0	100	100	100
+19	621+1G>T/711+1G>T		12	12	12	798	798	798	0	0	100	100	100
+20	G85E/621+1G>T		12	12	12	798	798	798	0	0	100	100	100
+21	A455E/F508del		12	12	12	798	798	798	0	0	100	100	100
+22	F508del/R560T		12	12	12	798	798	798	0	0	100	100	100
+23	F508del/Y1092X (C>A)		12	12	12	798	798	798	0	0	100	100	100
+24	N1303K		6	6	6	804	804	804	0	0	100	100	100
+25	G542X (HOM)		6	6	6	804	804	804	0	0	100	100	100
+26	G542X		6	6	6	804	804	804	0	0	100	100	100
+27	G551D/R553X		12	12	12	798	798	798	0	0	100	100	100
+28	3849+10kbC>T (HOM)		6	6	6	804	804	804	0	0	100	100	100
+29	WT		0	0	0	810	810	810	0	0	N/A	100	100
+30	F508del		6	6	6	804	804	804	0	0	100	100	100
+31	1717‐1G>A		6	6	6	804	804	804	0	0	100	100	100
+32	R1162X		6	6	6	804	804	804	0	0	100	100	100
+33	R347P/G551D		12	12	12	798	798	798	0	0	100	100	100
+34	R334W		6	6	6	804	804	804	0	0	100	100	100
+35	WT		0	0	0	810	810	810	0	0	N/A	100	100
+36	G85E		6	6	6	804	804	804	0	0	100	100	100
+37	I336K		6	6	6	804	804	804	0	0	100	100	100
+38	WT		0	0	0	810	810	810	0	0	N/A	100	100
+39	F508del/3849+10kbC>T		12	12	12	798	798	798	0	0	100	100	100
+40	621+1G>T/3120+1G>A		12	12	12	798	798	798	0	0	100	100	100
+41	F508del/3659delC		12	12	12	798	798	798	0	0	100	100	100
+42	R117H/F508del	(TG)10(T)9/(TG)12(T)5	18	18	18	798	798	798	0	0	100	100	100
+43	G85E/621+1G>T		12	12	12	798	798	798	0	0	100	100	100
+44	A455E/F508del		12	12	12	798	798	798	0	0	100	100	100
+45	N1303K		6	6	6	804	804	804	0	0	100	100	100
+46	G551D/R553X		12	12	12	798	798	798	0	0	100	100	100
+47	2789+5G>A (HOM)		6	6	6	804	804	804	0	0	100	100	100
+48	CFTR dele2, 3/F508del		12	12	12	798	798	798	0	0	100	100	100
+49	F508del/1898+1G>A		12	12	12	798	798	798	0	0	100	100	100
+50	WT		0	0	0	810	810	810	0	0	N/A	100	100
+51	F508del/2143delT		12	12	12	798	798	798	0	0	100	100	100
+52	3876delA		6	6	6	804	804	804	0	0	100	100	100
+53	3905insT		6	6	6	804	804	804	0	0	100	100	100
+54	394delTT		6	6	6	804	804	804	0	0	100	100	100
+55	F508del		6	6	6	804	804	804	0	0	100	100	100
+
+--- Page 13 ---
+56 WT 0 0 0 810 810 810 0 0 N/A 100 100
+57 WT 0 0 0 810 810 810 0 0 N/A 100 100
+58 F508del 6 6 6 804 804 804 0 0 100 100 100
+59 WT 0 0 0 810 810 810 0 0 N/A 100 100
+60 L206W 6 6 6 804 804 804 0 0 100 100 100
+61 WT 0 0 0 810 810 810 0 0 N/A 100 100
+62 G330X 6 6 6 804 804 804 0 0 100 100 100
+63 WT 0 0 0 810 810 810 0 0 N/A 100 100
+64 R347H 6 6 6 804 804 804 0 0 100 100 100
+65 1078delT 6 6 6 804 804 804 0 0 100 100 100
+66 G178R/F508del 12 12 12 798 798 798 0 0 100 100 100
+67 S549R (c.1647T>G) 6 6 6 804 804 804 0 0 100 100 100
+68 S549N 6 6 6 804 804 804 0 0 100 100 100
+69 W846X 6 6 6 804 804 804 0 0 100 100 100
+70 WT 0 0 0 810 810 810 0 0 N/A 100 100
+71 E92X/F508del 12 12 12 798 798 798 0 0 100 100 100
+72# 621+1G>T/1154insTC 12 12 12 798 798 797 0 1# 100 99.96 99.96
+73 G542X 6 6 6 804 804 804 0 0 100 100 100
+74 F508del 6 6 6 804 804 804 0 0 100 100 100
+75^ F508del 6 5 6 804 670 804 0 135^ 94.44 94.44 94.44
+76 F508del 6 6 6 804 804 804 0 0 100 100 100
+77 621+1G>T/A455E 12 12 12 798 798 798 0 0 100 100 100
+78 1812‐1 G‐>A 6 6 6 804 804 804 0 0 100 100 100
+79 WT 0 0 0 810 810 810 0 0 N/A 100 100
+80 F508del/R553X 12 12 12 798 798 798 0 0 100 100 100
+81 F508del/G551D 12 12 12 798 798 798 0 0 100 100 100
+82 R347P/F508del 12 12 12 798 798 798 0 0 100 100 100
+83 R117H/F508del (TG)10(T)9/(TG)12(T)5 18 18 18 798 798 798 0 0 100 100 100
+84 I507del 6 6 6 804 804 804 0 0 100 100 100
+85 2789+5G>A (HOM) 6 6 6 804 804 804 0 0 100 100 100
+86# CFTR dele2, 3/F508del 12 12 12 798 797 798 0 1# 100 99.96 99.96
+87 F508del/1898+1G>A 12 12 12 798 798 798 0 0 100 100 100
+88 WT 0 0 0 810 810 810 0 0 N/A 100 100
+89 F508del/2143delT 12 12 12 798 798 798 0 0 100 100 100
+90 3905insT 6 6 6 804 804 804 0 0 100 100 100
+91 394delTT 6 6 6 804 804 804 0 0 100 100 100
+92 F508del 6 6 6 804 804 804 0 0 100 100 100
+Total 2,210 221,181 4 273 99.82 99.88 99.88
+Panel A: Samples 1-46; Panel B: Samples 47-92
+Abbreviations: NP = Not Present, WT = wild type, HOM = homozygous
+* The wild type location corresponding to the N1303K variant for one replicate resulted in a No Call due to
+insufficient coverage.
+^ One replicate of samples 5 and 75 had a 0% call rate. Further investigation indicates that samples may not have
+been added to the sample plate prior to library preparation.
+ᵹ Evidence indicates that samples 9 and 10 were likely switched by the operator prior to library preparation.
+# The wild type location corresponding to the M1V variant for one replicate of each of two samples resulted in a No
+Call due to insufficient coverage.
+13
+
+[Table 1 on page 13]
+56	WT		0	0	0	810	810	810	0	0	N/A	100	100
+57	WT		0	0	0	810	810	810	0	0	N/A	100	100
+58	F508del		6	6	6	804	804	804	0	0	100	100	100
+59	WT		0	0	0	810	810	810	0	0	N/A	100	100
+60	L206W		6	6	6	804	804	804	0	0	100	100	100
+61	WT		0	0	0	810	810	810	0	0	N/A	100	100
+62	G330X		6	6	6	804	804	804	0	0	100	100	100
+63	WT		0	0	0	810	810	810	0	0	N/A	100	100
+64	R347H		6	6	6	804	804	804	0	0	100	100	100
+65	1078delT		6	6	6	804	804	804	0	0	100	100	100
+66	G178R/F508del		12	12	12	798	798	798	0	0	100	100	100
+67	S549R (c.1647T>G)		6	6	6	804	804	804	0	0	100	100	100
+68	S549N		6	6	6	804	804	804	0	0	100	100	100
+69	W846X		6	6	6	804	804	804	0	0	100	100	100
+70	WT		0	0	0	810	810	810	0	0	N/A	100	100
+71	E92X/F508del		12	12	12	798	798	798	0	0	100	100	100
+72#	621+1G>T/1154insTC		12	12	12	798	798	797	0	1#	100	99.96	99.96
+73	G542X		6	6	6	804	804	804	0	0	100	100	100
+74	F508del		6	6	6	804	804	804	0	0	100	100	100
+75^	F508del		6	5	6	804	670	804	0	135^	94.44	94.44	94.44
+76	F508del		6	6	6	804	804	804	0	0	100	100	100
+77	621+1G>T/A455E		12	12	12	798	798	798	0	0	100	100	100
+78	1812‐1 G‐>A		6	6	6	804	804	804	0	0	100	100	100
+79	WT		0	0	0	810	810	810	0	0	N/A	100	100
+80	F508del/R553X		12	12	12	798	798	798	0	0	100	100	100
+81	F508del/G551D		12	12	12	798	798	798	0	0	100	100	100
+82	R347P/F508del		12	12	12	798	798	798	0	0	100	100	100
+83	R117H/F508del	(TG)10(T)9/(TG)12(T)5	18	18	18	798	798	798	0	0	100	100	100
+84	I507del		6	6	6	804	804	804	0	0	100	100	100
+85	2789+5G>A (HOM)		6	6	6	804	804	804	0	0	100	100	100
+86#	CFTR dele2, 3/F508del		12	12	12	798	797	798	0	1#	100	99.96	99.96
+87	F508del/1898+1G>A		12	12	12	798	798	798	0	0	100	100	100
+88	WT		0	0	0	810	810	810	0	0	N/A	100	100
+89	F508del/2143delT		12	12	12	798	798	798	0	0	100	100	100
+90	3905insT		6	6	6	804	804	804	0	0	100	100	100
+91	394delTT		6	6	6	804	804	804	0	0	100	100	100
+92	F508del		6	6	6	804	804	804	0	0	100	100	100
+	Total			2,210		221,181			4	273	99.82	99.88	99.88
+
+--- Page 14 ---
+The reproducibility of the assay was also assessed by variant and is shown in the table
+below. Each site generated a total of 552 calls per site for a total of 100 unique
+samples representing 53 variants.
+Table 3. Reproducibility by Variant:
+Wild Type (WT ) Positive Agreeing Negative Agreeing
+Panel Total #
+Variant Sequence¥ Calls (Variant) Calls (WT)
+Variant Unique
+(Common Name) [Alternate WT
+Sequence ¥ Samples
+Sequence] £
+14
+sllacsiM
+#
+sllaC
+oN
+#
+^
+PPA
+Panel NPA
+Variants (%)
+(%)
+Site1 Site2 Site3 Site 1 Site 2 Site 3
+F508del CATCTTTGG CATTGGⱡ 29 222 221 222 330 329 330 0 2 99.8 99.9
+621+1G>T AGGTA AGTTA 5 42 42 42 510 508 510 0 2 100.0 99.9
+G542X GGA TGA 3 18 18 18 534 532 534 0 2 100.0 99.9
+G551D GGT GAT 3 24 24 24 528 526 528 0 2 100.0 99.9
+G85E GGA GAA 2 18 18 18 534 532 534 0 2 100.0 99.9
+R117H CGC CAC 2 18 18 18 534 532 534 0 2 100.0 99.9
+R347P CGC CCC 2 12 12 12 540 538 540 0 2 100.0 99.9
+A455E GCG GAG 2 18 18 18 534 532 534 0 2 100.0 99.9
+I507del ATCATCTTT ATCTTT 2 12 12 12 534 532 534 0 2 100.0 99.9
+[ATCATCTGT] 6 6 6
+S549N AGT AAT 2 12 12 12 540 538 540 0 2 100.0 99.9
+R553X CGA TGA 2 18 18 18 534 532 534 0 2 100.0 99.9
+1812-1 G>A TAGAG TAAAG 2 12 12 12 540 538 540 0 2 100.0 99.9
+M1101K ATG AAG 2 12 12 12 540 538 540 0 2 100.0 99.9
+3849+10kbC>T GGCGA GGTGA 2 18 18 18 534 532 534 0 2 100.0 99.9
+PolyTG/PolyT§ N/A N/A 2 18 18 18 0 0 0 0 0 100.0 N/A
+CFTR dele2, 3 N/A N/A 1 12 12 12 540 538 540 0 2 100.0 99.9
+E60X GAG TAG 1 6 6 6 546 544 546 0 2 100.0 99.9
+R75X CGA TGA 1 6 6 6 540 539 540 0 2 100.0 99.9
+[CAA] 6 5 6
+394delTT TTTTTATA TTTATA 1 12 12 12 540 538 540 0 2 100.0 99.9
+E92X GAA TAA 1 6 6 6 546 544 546 0 2 100.0 99.9
+Y122X TAT TAA 1 6 5 6 546 545 546 0 2 94.4 99.9
+G178R GGA AGA 1 6 6 6 546 544 546 0 2 100.0 99.9
+711+1G>T AAGTA AATTA 1 6 6 6 546 544 546 0 2 100.0 99.9
+L206W TTG TGG 1 6 6 6 546 544 546 0 2 100.0 99.9
+1078delT CTTTGTG CTTGTG 1 6 6 6 546 544 546 0 2 100.0 99.9
+G330X GGA TGA 1 6 6 6 546 544 546 0 2 100.0 99.9
+R334W CGG TGG 1 6 6 6 546 544 546 0 2 100.0 99.9
+I336K ATA AAA 1 6 6 6 546 544 546 0 2 100.0 99.9
+1154insTC CTCATT CTCTCATT 1 6 6 6 546 544 546 0 2 100.0 99.9
+R347H CGC CAC 1 6 6 6 546 544 546 0 2 100.0 99.9
+Q493X CAG TAG 1 6 6 6 546 544 546 0 2 100.0 99.9
+1717-1G>A TAGGA TAAGA 1 6 6 6 546 544 546 0 2 100.0 99.9
+S549R
+AGT AGG 1 6 6 6 546 544 546 0 2 100.0 99.9
+(c.1647T>G)
+R560T AGG ACG 1 6 6 6 546 544 546 0 2 100.0 99.9
+
+[Table 1 on page 14]
+Variant
+(Common Name)	Wild Type (WT )
+Sequence¥
+[Alternate WT
+Sequence] £	Panel
+Variant
+Sequence ¥	Total #
+Unique
+Samples	Positive Agreeing
+Calls (Variant)			Negative Agreeing
+Calls (WT)			sllacsiM
+#	sllaC
+^
+oN
+#	PPA
+Panel
+Variants
+(%)	NPA
+(%)
+				Site1	Site2	Site3	Site 1	Site 2	Site 3				
+F508del	CATCTTTGG	CATTGGⱡ	29	222	221	222	330	329	330	0	2	99.8	99.9
+621+1G>T	AGGTA	AGTTA	5	42	42	42	510	508	510	0	2	100.0	99.9
+G542X	GGA	TGA	3	18	18	18	534	532	534	0	2	100.0	99.9
+G551D	GGT	GAT	3	24	24	24	528	526	528	0	2	100.0	99.9
+G85E	GGA	GAA	2	18	18	18	534	532	534	0	2	100.0	99.9
+R117H	CGC	CAC	2	18	18	18	534	532	534	0	2	100.0	99.9
+R347P	CGC	CCC	2	12	12	12	540	538	540	0	2	100.0	99.9
+A455E	GCG	GAG	2	18	18	18	534	532	534	0	2	100.0	99.9
+I507del	ATCATCTTT
+[ATCATCTGT]	ATCTTT	2	12	12	12	534	532	534	0	2	100.0	99.9
+							6	6	6				
+S549N	AGT	AAT	2	12	12	12	540	538	540	0	2	100.0	99.9
+R553X	CGA	TGA	2	18	18	18	534	532	534	0	2	100.0	99.9
+1812-1 G>A	TAGAG	TAAAG	2	12	12	12	540	538	540	0	2	100.0	99.9
+M1101K	ATG	AAG	2	12	12	12	540	538	540	0	2	100.0	99.9
+3849+10kbC>T	GGCGA	GGTGA	2	18	18	18	534	532	534	0	2	100.0	99.9
+PolyTG/PolyT§	N/A	N/A	2	18	18	18	0	0	0	0	0	100.0	N/A
+CFTR dele2, 3	N/A	N/A	1	12	12	12	540	538	540	0	2	100.0	99.9
+E60X	GAG	TAG	1	6	6	6	546	544	546	0	2	100.0	99.9
+R75X	CGA
+[CAA]	TGA	1	6	6	6	540	539	540	0	2	100.0	99.9
+							6	5	6				
+394delTT	TTTTTATA	TTTATA	1	12	12	12	540	538	540	0	2	100.0	99.9
+E92X	GAA	TAA	1	6	6	6	546	544	546	0	2	100.0	99.9
+Y122X	TAT	TAA	1	6	5	6	546	545	546	0	2	94.4	99.9
+G178R	GGA	AGA	1	6	6	6	546	544	546	0	2	100.0	99.9
+711+1G>T	AAGTA	AATTA	1	6	6	6	546	544	546	0	2	100.0	99.9
+L206W	TTG	TGG	1	6	6	6	546	544	546	0	2	100.0	99.9
+1078delT	CTTTGTG	CTTGTG	1	6	6	6	546	544	546	0	2	100.0	99.9
+G330X	GGA	TGA	1	6	6	6	546	544	546	0	2	100.0	99.9
+R334W	CGG	TGG	1	6	6	6	546	544	546	0	2	100.0	99.9
+I336K	ATA	AAA	1	6	6	6	546	544	546	0	2	100.0	99.9
+1154insTC	CTCATT	CTCTCATT	1	6	6	6	546	544	546	0	2	100.0	99.9
+R347H	CGC	CAC	1	6	6	6	546	544	546	0	2	100.0	99.9
+Q493X	CAG	TAG	1	6	6	6	546	544	546	0	2	100.0	99.9
+1717-1G>A	TAGGA	TAAGA	1	6	6	6	546	544	546	0	2	100.0	99.9
+S549R
+(c.1647T>G)	AGT	AGG	1	6	6	6	546	544	546	0	2	100.0	99.9
+R560T	AGG	ACG	1	6	6	6	546	544	546	0	2	100.0	99.9
+
+--- Page 15 ---
+1898+1G>A AGGTA AGATA 1 12 12 12 540 538 540 0 2 100.0 99.9
+2143delT CATTAGA CATAGA 1 12 12 12 540 538 540 0 2 100.0 99.9
+2183AA>G AAAAACAA AAAGCAA 1 6 6 6 546 544 546 0 2 100.0 99.9
+2184delA AAAACAA AAACAA 1 6 6 6 546 544 546 0 2 100.0 99.9
+W846X TGG TAG 1 6 6 6 546 544 546 0 2 100.0 99.9
+2789+5G>A GAGTA GAATA 1 12 12 12 540 538 540 0 2 100.0 99.9
+3120+1G>A AGGTA AGATA 1 12 12 12 540 538 540 0 2 100.0 99.9
+3272-26A>Gᵹ CAATG CAGTG 1 6 5 6 546 543 546 2ᵹ 2 94.4 99.8
+Y1092X (C>A) TAC TAA 1 6 6 6 546 544 546 0 2 100.0 99.9
+R1158X CGA TGA 1 6 5 6 546 545 546 0 2 94.4 99.9
+R1162X CGA TGA 1 6 6 6 534 532 534 0 2 100.0 99.9
+[CTA] 12 12 12
+3659delC CTACCAA CTACAA 1 12 12 12 540 538 540 0 2 100.0 99.9
+3876delA ATCAGGG ATCGGG 1 6 6 6 546 544 546 0 2 100.0 99.9
+3905insT TTTGAG TTTTGAG 1 12 12 12 540 538 540 0 2 100.0 99.9
+W1282Xᵹ TGG TGA 1 6 5 6 546 543 546 2ᵹ 2 94.4 99.8
+N1303K* AAC AAG 1 12 12 12 539 538 540 0 3* 100.0 99.8
+I506V¤ ATC GTC 1 0 0 0 6 6 6 0 0 N/A 100.0
+I507V¤ ATC GTC 1 0 0 0 6 6 6 0 0 N/A 100.0
+F508C¤ TTT TGT 1 0 0 0 6 6 6 0 0 N/A 100.0
+M1V ATG GTG 0 0 0 0 552 549 551 0 4€ N/A 99.8
+Q39X CAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+P67L CCT CTT 0 0 0 0 552 550 552 0 2 N/A 99.9
+405+1G>A GGGTA GGATA 0 0 0 0 552 550 552 0 2 N/A 99.9
+406-1G>A TAGGA TAAGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+E92K GAA AAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+Q98X CAG TAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+457TAT>G TCCTATGAC TCCGGAC 0 0 0 0 552 550 552 0 2 N/A 99.9
+D110H GAC CAC 0 0 0 0 552 550 552 0 2 N/A 99.9
+R117C CGC TGC 0 0 0 0 552 550 552 0 2 N/A 99.9
+574delA CACATTG CACTTG 0 0 0 0 552 550 552 0 2 N/A 99.9
+663delT TATTGGA TATGGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+711+3A>G GTATG GTGTG 0 0 0 0 552 550 552 0 2 N/A 99.9
+711+5G>A ATGTA ATATA 0 0 0 0 552 550 552 0 2 N/A 99.9
+712-1G>T CAGGG CATGG 0 0 0 0 552 550 552 0 2 N/A 99.9
+H199Y CAT TAT 0 0 0 0 552 550 552 0 2 N/A 99.9
+P205S CCT TCT 0 0 0 0 552 550 552 0 2 N/A 99.9
+Q220X CAG TAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+GCTAGGGAGAATGA
+852del22 GCTAGG 0 0 0 0 552 550 552 0 2 N/A 99.9
+TGATGAAGTACAGG
+T338I ACC ATC 0 0 0 0 552 550 552 0 2 N/A 99.9
+S341P TCA CCA 0 0 0 0 552 550 552 0 2 N/A 99.9
+R352Q CGG CAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+1213delT ACATGGT ACAGGT 0 0 0 0 552 550 552 0 2 N/A 99.9
+1248+1G>A AGGTA AGATA 0 0 0 0 552 550 552 0 2 N/A 99.9
+1259insA TACAAA TACAAAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+W401X
+TGG TAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+(c.1202G>A)
+15
+
+[Table 1 on page 15]
+2143delT	CATTAGA	CATAGA	1	12	12	12	540	538	540	0	2	100.0	99.9
+2183AA>G	AAAAACAA	AAAGCAA	1	6	6	6	546	544	546	0	2	100.0	99.9
+2184delA	AAAACAA	AAACAA	1	6	6	6	546	544	546	0	2	100.0	99.9
+W846X	TGG	TAG	1	6	6	6	546	544	546	0	2	100.0	99.9
+2789+5G>A	GAGTA	GAATA	1	12	12	12	540	538	540	0	2	100.0	99.9
+3120+1G>A	AGGTA	AGATA	1	12	12	12	540	538	540	0	2	100.0	99.9
+3272-26A>Gᵹ	CAATG	CAGTG	1	6	5	6	546	543	546	2ᵹ	2	94.4	99.8
+Y1092X (C>A)	TAC	TAA	1	6	6	6	546	544	546	0	2	100.0	99.9
+R1158X	CGA	TGA	1	6	5	6	546	545	546	0	2	94.4	99.9
+R1162X	CGA
+[CTA]	TGA	1	6	6	6	534	532	534	0	2	100.0	99.9
+							12	12	12				
+3659delC	CTACCAA	CTACAA	1	12	12	12	540	538	540	0	2	100.0	99.9
+3876delA	ATCAGGG	ATCGGG	1	6	6	6	546	544	546	0	2	100.0	99.9
+3905insT	TTTGAG	TTTTGAG	1	12	12	12	540	538	540	0	2	100.0	99.9
+W1282Xᵹ	TGG	TGA	1	6	5	6	546	543	546	2ᵹ	2	94.4	99.8
+N1303K*	AAC	AAG	1	12	12	12	539	538	540	0	3*	100.0	99.8
+I506V¤	ATC	GTC	1	0	0	0	6	6	6	0	0	N/A	100.0
+I507V¤	ATC	GTC	1	0	0	0	6	6	6	0	0	N/A	100.0
+F508C¤	TTT	TGT	1	0	0	0	6	6	6	0	0	N/A	100.0
+M1V	ATG	GTG	0	0	0	0	552	549	551	0	4€	N/A	99.8
+Q39X	CAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+P67L	CCT	CTT	0	0	0	0	552	550	552	0	2	N/A	99.9
+405+1G>A	GGGTA	GGATA	0	0	0	0	552	550	552	0	2	N/A	99.9
+406-1G>A	TAGGA	TAAGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+E92K	GAA	AAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+Q98X	CAG	TAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+457TAT>G	TCCTATGAC	TCCGGAC	0	0	0	0	552	550	552	0	2	N/A	99.9
+D110H	GAC	CAC	0	0	0	0	552	550	552	0	2	N/A	99.9
+R117C	CGC	TGC	0	0	0	0	552	550	552	0	2	N/A	99.9
+574delA	CACATTG	CACTTG	0	0	0	0	552	550	552	0	2	N/A	99.9
+663delT	TATTGGA	TATGGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+711+3A>G	GTATG	GTGTG	0	0	0	0	552	550	552	0	2	N/A	99.9
+711+5G>A	ATGTA	ATATA	0	0	0	0	552	550	552	0	2	N/A	99.9
+712-1G>T	CAGGG	CATGG	0	0	0	0	552	550	552	0	2	N/A	99.9
+H199Y	CAT	TAT	0	0	0	0	552	550	552	0	2	N/A	99.9
+P205S	CCT	TCT	0	0	0	0	552	550	552	0	2	N/A	99.9
+Q220X	CAG	TAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+852del22	GCTAGGGAGAATGA
+TGATGAAGTACAGG	GCTAGG	0	0	0	0	552	550	552	0	2	N/A	99.9
+T338I	ACC	ATC	0	0	0	0	552	550	552	0	2	N/A	99.9
+S341P	TCA	CCA	0	0	0	0	552	550	552	0	2	N/A	99.9
+R352Q	CGG	CAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+1213delT	ACATGGT	ACAGGT	0	0	0	0	552	550	552	0	2	N/A	99.9
+1248+1G>A	AGGTA	AGATA	0	0	0	0	552	550	552	0	2	N/A	99.9
+1259insA	TACAAA	TACAAAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+W401X
+(c.1202G>A)	TGG	TAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+
+--- Page 16 ---
+W401X
+TGG TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+(c.1203G>A)
+1341+1G>A AGGTC AGATC 0 0 0 0 552 550 552 0 2 N/A 99.9
+1461ins4 GATATT GATAGATATT 0 0 0 0 552 550 552 0 2 N/A 99.9
+1525-1G>A CAGAC CAAAC 0 0 0 0 552 550 552 0 2 N/A 99.9
+S466X (C>A) TCA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+S466X (C>G) TCA TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+L467P CTT CCT 0 0 0 0 552 550 552 0 2 N/A 99.9
+1548delG ATGGGAG ATGGAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+S489X TCA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+S492F TCT TTT 0 0 0 0 552 550 552 0 2 N/A 99.9
+1677delTA ATATAGAT ATAGAT 0 0 0 0 552 550 552 0 2 N/A 99.9
+V520F GTC TTC 0 0 0 0 552 550 552 0 2 N/A 99.9
+Q525X CAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+1717-8G>A TTGGT TTAGT 0 0 0 0 552 550 552 0 2 N/A 99.9
+S549R
+AGT CGT 0 0 0 0 552 550 552 0 2 N/A 99.9
+(c.1645A>C)
+Q552X CAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+A559T GCA ACA 0 0 0 0 552 550 552 0 2 N/A 99.9
+R560K AGG AAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+1811+1.6kb A>G ATATA ATGTA 0 0 0 0 552 550 552 0 2 N/A 99.9
+E585X GAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+1898+3A>G GTATG GTGTG 0 0 0 0 552 550 552 0 2 N/A 99.9
+2184insA AAACAA AAAACAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+R709X CGA TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+K710X AAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+2307insA GAAGAG GAAAGAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+L732X TTA TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+2347delG TTAGTAC TTATAC 0 0 0 0 552 550 552 0 2 N/A 99.9
+R764X CGA TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+2585delT GCTTGGA GCTGGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+E822X GAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+2622+1G>A AGGTA AGTTA 0 0 0 0 552 550 552 0 2 N/A 99.9
+E831X GAG TAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+R851X CGA TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+2711delT TTTTGTG TTTGTG 0 0 0 0 552 550 552 0 2 N/A 99.9
+Q890X CAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+L927P CTT CCT 0 0 0 0 552 550 552 0 2 N/A 99.9
+S945L TCG TTG 0 0 0 0 552 550 552 0 2 N/A 99.9
+3007delG CAAGCAC CAACAC 0 0 0 0 552 550 552 0 2 N/A 99.9
+G970R GGT CGT 0 0 0 0 552 550 552 0 2 N/A 99.9
+3120G>A CAG CAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+3121-1G>A CAGTT CAATT 0 0 0 0 552 550 552 0 2 N/A 99.9
+L1065P CTT CCT 0 0 0 0 552 550 552 0 2 N/A 99.9
+R1066C CGT TGT 0 0 0 0 552 550 552 0 2 N/A 99.9
+R1066H CGT CAT 0 0 0 0 552 550 552 0 2 N/A 99.9
+L1077P CTG CCG 0 0 0 0 552 550 552 0 2 N/A 99.9
+W1089X TGG TAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+Y1092X (C>G) TAC TAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+16
+
+[Table 1 on page 16]
+1341+1G>A	AGGTC	AGATC	0	0	0	0	552	550	552	0	2	N/A	99.9
+1461ins4	GATATT	GATAGATATT	0	0	0	0	552	550	552	0	2	N/A	99.9
+1525-1G>A	CAGAC	CAAAC	0	0	0	0	552	550	552	0	2	N/A	99.9
+S466X (C>A)	TCA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+S466X (C>G)	TCA	TGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+L467P	CTT	CCT	0	0	0	0	552	550	552	0	2	N/A	99.9
+1548delG	ATGGGAG	ATGGAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+S489X	TCA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+S492F	TCT	TTT	0	0	0	0	552	550	552	0	2	N/A	99.9
+1677delTA	ATATAGAT	ATAGAT	0	0	0	0	552	550	552	0	2	N/A	99.9
+V520F	GTC	TTC	0	0	0	0	552	550	552	0	2	N/A	99.9
+Q525X	CAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+1717-8G>A	TTGGT	TTAGT	0	0	0	0	552	550	552	0	2	N/A	99.9
+S549R
+(c.1645A>C)	AGT	CGT	0	0	0	0	552	550	552	0	2	N/A	99.9
+Q552X	CAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+A559T	GCA	ACA	0	0	0	0	552	550	552	0	2	N/A	99.9
+R560K	AGG	AAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+1811+1.6kb A>G	ATATA	ATGTA	0	0	0	0	552	550	552	0	2	N/A	99.9
+E585X	GAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+1898+3A>G	GTATG	GTGTG	0	0	0	0	552	550	552	0	2	N/A	99.9
+2184insA	AAACAA	AAAACAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+R709X	CGA	TGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+K710X	AAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+2307insA	GAAGAG	GAAAGAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+L732X	TTA	TGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+2347delG	TTAGTAC	TTATAC	0	0	0	0	552	550	552	0	2	N/A	99.9
+R764X	CGA	TGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+2585delT	GCTTGGA	GCTGGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+E822X	GAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+2622+1G>A	AGGTA	AGTTA	0	0	0	0	552	550	552	0	2	N/A	99.9
+E831X	GAG	TAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+R851X	CGA	TGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+2711delT	TTTTGTG	TTTGTG	0	0	0	0	552	550	552	0	2	N/A	99.9
+Q890X	CAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+L927P	CTT	CCT	0	0	0	0	552	550	552	0	2	N/A	99.9
+S945L	TCG	TTG	0	0	0	0	552	550	552	0	2	N/A	99.9
+3007delG	CAAGCAC	CAACAC	0	0	0	0	552	550	552	0	2	N/A	99.9
+G970R	GGT	CGT	0	0	0	0	552	550	552	0	2	N/A	99.9
+3120G>A	CAG	CAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+3121-1G>A	CAGTT	CAATT	0	0	0	0	552	550	552	0	2	N/A	99.9
+L1065P	CTT	CCT	0	0	0	0	552	550	552	0	2	N/A	99.9
+R1066C	CGT	TGT	0	0	0	0	552	550	552	0	2	N/A	99.9
+R1066H	CGT	CAT	0	0	0	0	552	550	552	0	2	N/A	99.9
+L1077P	CTG	CCG	0	0	0	0	552	550	552	0	2	N/A	99.9
+W1089X	TGG	TAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+Y1092X (C>G)	TAC	TAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+
+--- Page 17 ---
+E1104X GAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+S1196X TCA TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+W1204X
+TGG TAG 0 0 0 0 552 550 552 0 2 N/A 99.9
+(c.3611G>A)
+W1204X
+TGG TGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+(c.3612G>A)
+3791delC ACACAGA ACAAGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+G1244E GGA GAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+S1251N AGT AAT 0 0 0 0 552 550 552 0 2 N/A 99.9
+4005+1G>A AGGTG AGATG 0 0 0 0 552 550 552 0 2 N/A 99.9
+4016insT TATTTT TATTTTT 0 0 0 0 552 550 552 0 2 N/A 99.9
+Q1313X CAA TAA 0 0 0 0 552 550 552 0 2 N/A 99.9
+4209TGTT>AA ATCTGTTCTC ATCAACTC 0 0 0 0 552 550 552 0 2 N/A 99.9
+CFTRdele22,23 N/A N/A 0 0 0 0 552 550 552 0 2 N/A 99.9
+4382delA TAGAAGA TAGAGA 0 0 0 0 552 550 552 0 2 N/A 99.9
+Total 100 2209 221111 4 273 99.77 99.88
+¥For SNV variants within exons, the codon is reported; for SNV variants within introns, the variant is reported with
+two flanking bases; for indel variants, the variant is reported with three flanking bases.
+£Alternative WT sequences are non-panel variants which are similar to panel variants but differ by one base (R75X
+vs. R75Q). These are identified as WT by the assay.
+^Two samples had 0% call rate. Further investigation indicates that samples may not have been added to the sample
+plate prior to library preparation
+€Variant M1V was not called in two samples
+ⱡIn one sample run in duplicate (sample IDs 55 and 92), I507V was a flanking variant of F508del, therefore the
+sequence CGTTGG is also a panel variant result
+ᵹEvidence indicates that two samples, sample 9 (having genotype F508del/W1282X) and sample 10 (having
+genotype F508del/3272-26A>G) were likely switched by the operator prior to library preparation.
+*Variant N1303K was not called in one sample
+§PolyTG/PolyT is reported only when R117H is positive
+¤These variants are benign and are only reported when a sample is homozygous for variant F508del
+Reproducibility of Conditionally Reported Variants:
+PolyTG/PolyT results were unmasked for all samples in order to evaluate the
+reproducibility of these results in the reproducibility study. A total of 276 results
+were generated per site and 828 results for each panel, yielding a total of 1,656 results
+in total. Results showed a total of 14 no calls and 19 miscalls. Eighteen (18) of the
+miscalled results were from all 18 replicates of the same sample. One replicate of one
+sample in Panel A at Site 2 was discordant with the bi-directional sequencing result
+by 1TG result [10TG (MiSeq) vs. 11TG (sequencing)]. In this study, replicates which
+generated a no call result were not repeated. The overall percent agreement (OA) for
+Panels A and B were 99.03% and 96.98%, respectively, and 98.00% in total.
+Results for the 3 Exon 10 benign variants (I506V, I507V, and F508C) were
+unmasked for all samples to evaluate the reproducibility of these variant results. One
+sample included in Panel A (#35) which contained the F508C variant and one which
+was run in duplicate in panel B (#55 and #92) which contained the I507V variant
+were reproduced successfully 18 and 36 times, respectively, across the three sites.
+17
+
+[Table 1 on page 17]
+S1196X	TCA	TGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+W1204X
+(c.3611G>A)	TGG	TAG	0	0	0	0	552	550	552	0	2	N/A	99.9
+W1204X
+(c.3612G>A)	TGG	TGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+3791delC	ACACAGA	ACAAGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+G1244E	GGA	GAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+S1251N	AGT	AAT	0	0	0	0	552	550	552	0	2	N/A	99.9
+4005+1G>A	AGGTG	AGATG	0	0	0	0	552	550	552	0	2	N/A	99.9
+4016insT	TATTTT	TATTTTT	0	0	0	0	552	550	552	0	2	N/A	99.9
+Q1313X	CAA	TAA	0	0	0	0	552	550	552	0	2	N/A	99.9
+4209TGTT>AA	ATCTGTTCTC	ATCAACTC	0	0	0	0	552	550	552	0	2	N/A	99.9
+CFTRdele22,23	N/A	N/A	0	0	0	0	552	550	552	0	2	N/A	99.9
+4382delA	TAGAAGA	TAGAGA	0	0	0	0	552	550	552	0	2	N/A	99.9
+Total			100	2209			221111			4	273	99.77	99.88
+
+--- Page 18 ---
+Each yielded a PPA of 100%. Correct wild type calls were demonstrated for all three
+Exon 10 benign variants for a homozygous F508del sample (#16).
+Lot-to-Lot Reproducibility:
+Three kit lots were compared by testing 47 gDNA samples plus a No Template
+Control (NTC) in duplicate. Each library preparation was split into two sequencing
+runs for a total of 6 runs. The sample panel included samples for every allele of the
+ACMG 23 mutations, 21 deletion insertion variants (including insertion/deletions in
+homopolymeric regions and indels in the same region), 5 homozygous samples, 22
+compound heterozygotes, 17 heterozygous, and 3 wild type samples. One of the
+compound heterozygous samples contained one of the targeted large deletions and the
+PolyTG/PolyT results were unmasked for all samples in order to evaluate the
+performance for those results. Results showed that all reagent lots met the ≥ 99% for
+call rate and reproducibility, ≥ 99.9% accuracy, and that ≥ 95% of the samples needed
+a first pass rate of ≥ 99% acceptance criteria. The accuracy and first pass call rate
+were 100% for each lot. The call rate for each lot was 99.98% due to 4 no calls for
+Lot 1, 99.99% due to 1 no call for Lot 2, and 100% for Lot 3.
+Instrument-to-Instrument:
+To establish instrument comparability, three operators each performed a single run
+over three different days on each of three MiSeqDx instruments at the highest sample
+multiplexing level using the same sample panel as described in the Lot-to-Lot study.
+The recommended input amount of 250ng was used in accordance with the
+instructions for use. The study’s acceptance criteria consisted of ≥ 99% for call rate
+and reproducibility, ≥ 99.9% accuracy, and that ≥ 95% of the samples needed a first
+pass rate of ≥ 99%. The agreement results for call rate (by sample and base),
+accuracy, and reproducibility was 100%, with the exception of one sample on
+instrument #2 which resulted in one No Call for the PolyTG/PolyT variant.
+Thermal Cycler Evaluation:
+Three different commonly used, commercially available thermal cyclers were
+compared for library preparation for the CF 139-Variant assay. Three unique sample
+sets were processed through the 3 thermal cyclers across 3 days. Each sample set was
+processed in triplicate each day (one replicate per thermal cycler). The sample set
+consisted of 15 extracted gDNAs isolated from cell lines and a no template control
+(NTC). The sample used was the same sample panel as described in the Lot-to-Lot
+study. The data for each thermal cycler resulted in 100% correct calls for accuracy
+and call rate. No samples failed to provide a valid result on first pass.
+Extraction Study
+To evaluate the effect of the extraction step on sample reproducibility, an additional,
+separate extraction study was conducted. The pre-analytical (sample extraction) step
+18
+
+--- Page 19 ---
+was evaluated at a single site, using fourteen EDTA whole blood specimens,
+representing 3 different mutations/variants reported by the assay. Genomic DNA was
+isolated using three commonly used commercially available kits representing
+different methodologies (i.e., magnetic bead separation, alcohol precipitation, and
+silica filter column). All three DNA extraction methods were tested independently by
+2 different operators who each performed 3 runs per extraction method. Each
+extraction was performed by each operator on different days. The DNA concentration
+and A260/A280 ratio of the extracted gDNA samples was determined using
+spectrophotometry and the assays were performed according to the instructions for
+use. All extracted gDNA samples were run in duplicate using the MiSeqDx CF
+Carrier Screen assay. The total number of assay replicates per sample was 36 [(3
+extraction methods) x (2 operators/extraction method) x (3 runs/operator) x (2
+replicates/extracted gDNA sample)]. Library preparation was done at a throughput of
+96 samples at once. The samples from the 96-well plate were subsequently
+normalized and pooled into 2 sets of 48 samples for sequencing.
+Table 4. Sample Concentration and Purity Results for Each Extraction Method
+Extraction Total # # Samples # Samples # Re- # Re-
+Method Extracted >30 ng/µL >1.5 A /A conc. extracted
+260 280
+1 84 81 76 3 1
+2 84 74 45 10 0
+3 84 82 84 2 0
+The variants for all samples were verified using bi-directional sequencing (BDS) and
+the genotype of the 2 large deletions was confirmed using an internally validated
+duplex PCR assay followed by sequencing of the amplicons. The genotype calls for
+all samples matched the BDS/PCR data and PolyTG/PolyT results were unmasked for
+this study. The study demonstrated 100% accuracy of calls. One replicate each of 6
+specimens resulted in a no call for PolyTG/PolyT variant, however in each instance
+the no call result which occurred only occurred in one extraction method. Of the 126
+samples extracted over the course of 9 days, between two different operators, and run
+in duplicate (a total of 504 sequenced gDNA samples), 100% of samples passed the
+call rate, reproducibility, and sample first pass rates of ≥99% and ≥99%, respectively,
+for ≥95% of the samples tested.
+b. Linearity/assay reportable range:
+Not applicable.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Real-Time Stability:
+The study to determine the expiration dating of the MiSeqDx CF 139-Variant assay
+reagents and consumables were evaluated at six time points after manufacturing: 5
+months, 6.25 months, 7.25 months, 9 months, 9.25 months, and 12 months. Three
+19
+
+[Table 1 on page 19]
+Extraction
+Method	Total #
+Extracted	# Samples
+>30 ng/µL	# Samples
+>1.5 A /A
+260 280	# Re-
+conc.	# Re-
+extracted
+1	84	81	76	3	1
+2	84	74	45	10	0
+3	84	82	84	2	0
+
+--- Page 20 ---
+separately manufactured lots of reagents and consumables. Each lot of reagents was
+run in duplicate for the first 3 time points and singlicate at the 9 month time point. A
+panel of 45 specimens was used to assess performance. The results from each lot at
+each time point was assessed for call rate (acceptance criteria ≥99%), and accuracy
+(acceptance criteria ≥99.9%). No miscalls were observed for any of the time points.
+The largest number of no calls (N = 5) was observed with one lot at 7.25 months;
+however the call rate exceeded the acceptance criteria. All No Calls observed at any
+time point were for the PolyTG/PolyT variant. Based on the data provided, the initial
+shelf-life for the assay is 9.25 months.
+Open Tube Stability (Freeze/Thaw):
+Three independently manufactured lots of frozen library preparation reagents were
+used for testing. The assay reagents are single use and not stored frozen, and so were
+not tested in this protocol. All reagents were subjected to 6 freeze/thaw cycles. At
+each cycle (1 per day for 6 days), reagents were thawed at room temperature, the
+reagent volume required for testing was withdrawn, and the tubes were returned to -
+15 to -25°C for overnight storage. Thirteen gDNA samples were tested, including 1
+NTC for a total of 14 samples. The 14 samples were pooled into a single library at
+each freeze/thaw time point and sequencing was run in the CF 139-Variant assay
+mode. Each freeze/thaw cycle was assessed for first pass rate (acceptance criteria
+≥95% samples need to meet sample call rate specification of ≥99%), call rate
+(acceptance criteria ≥99%), and accuracy (acceptance criteria ≥99.9%). The data
+provided supports a maximum of 6 rounds of freeze/thaw.
+Reagent Integrity and Shipping:
+Shipping studies were designed to evaluate product performance after simulated
+shipping conditions to mimic domestic and international shipping during summer and
+winter. The product is expected to maintain its functional characteristics when
+internal shipment temperature of the container is within the specification ranges
+provided. Reagents believed to be sensitive to heat (e.g., enzymes, oligos, etc.), were
+subjected to temperatures between 22°C to 35°C and those reagents believed to be
+sensitive to freeze/thaw were subjected to temperatures between -10°C to 18°C. The
+product packaging was separated into three containers and the internal shipping
+container temperatures were monitored in order to ensure that the reagents were
+maintained at pre-specified temperature profiles based on recommended storage
+conditions of ≤ -15ºC, between 2 to 8ºC and Room Temperature (15°C to 30°C).
+Products remained stable after being subjected to the above conditions for 48 and 96
+hour time periods to simulate domestic and international shipping, respectively.
+d. Detection limit:
+Analytical Sensitivity
+20
+
+--- Page 21 ---
+The recommended DNA input for this assay is 250 ng. An initial study was
+conducted to estimate the performance of the assay when the gDNA input is greater
+or less than the recommended DNA input concentration. Four (4) DNA amounts
+were evaluated (1250 ng, 250 ng, 50ng, and 25 ng). Four cell line derived gDNA
+samples (3 compound heterozygous and 1 homozygous) representing different types
+of sequence variations and 5 variants in CFTR gene. Twenty-four replicates of each
+sample at the 25 ng – 250 ng amounts and 20 replicates of each sample at 1250 ng
+were tested. A single positive control was included. The samples were processed by
+2 operators over the course of 4 days, to reflect variability across multiple users and
+runs. Two operators processed two 96-sample library preparations that were
+subsequently split into four 48-sample sequencing runs each, for a total of 8 runs. A
+single no call result for a PolyTG/PolyT variant in one sample was observed at the
+1250 ng input amount and 8 no calls at the 25 ng input amount. Six of the 8 no calls
+were due to the failure of the PolyTG/PolyT variant being called in 6 replicates of the
+same sample.
+A second study was conducted in two parts to more thoroughly evaluate the impact of
+DNA input on the assay and confirm the results observed for the lower threshold of
+DNA input on the assay that met pre-specified acceptance criteria. First, gDNA from
+14 samples were serially diluted to 9 different DNA concentrations where the total
+DNA per reaction was 1250 ng, 500 ng, 250 ng, 100 ng, 50 ng, 25 ng, 10 ng, 5 ng,
+and 1 ng. Each DNA input level was tested in duplicate. DNA samples represented
+different types of sequence variations which may be present in clinical samples, and
+included samples with heterozygous and homozygous SNVs in different regions of
+the genome, heterozygous and homozygous small insertion/deletions, a large deletion,
+a small indel in homopolymeric region, and a compound insertion/deletion. All
+replicates of all DNA input levels between 1250 ng (upper bound) and 25 ng (lower
+bound) demonstrated 100% call and first pass rates. The 10ng, 5ng, and 1ng DNA
+input levels because they did not meet the specification for call rate.
+Second, 25ng DNA was tested with 10 additional DNA samples to confirm the ability
+of the assay to reliably perform at this DNA input level. The lower bound for DNA
+input was defined as the DNA input that is higher than the input that failed to meet
+the specifications (i.e., call rate and accuracy ≥99.0% and sample first pass call rate of
+≥95%). All replicates of all DNA input levels at 25 ng demonstrated 100% call and
+first pass rates.
+e. Analytical specificity:
+Interfering Substances:
+The effect of potential interferents on the performance of the assay was examined
+using 8 whole blood samples representing 4 variants and 4 wild type results. Two
+concentrations of each potential interferents: bilirubin (684 and 137 µmol/L),
+hemoglobin (2 and 0.4 g/L), and cholesterol (13 and 2.6 mmol/L) were spiked into
+blood aliquots prior to DNA extraction. Additionally, excess wash buffer from DNA
+21
+
+--- Page 22 ---
+extraction (15%) was spiked into gDNA samples prior to library preparation. For the
+assessment of each inhibiting substance, data for each spiked sample was compared
+to an untreated aliquot of the same blood/DNA sample. Impact on call rate,
+reproducibility, and sample first pass rate were determined and compared to the non-
+spiked aliquot. In all cases no negative impact on assay performance were observed.
+A second study to assess the potential interference of triglycerides (37 mmol/L and
+7.4 mmol/L) and high and low concentrations of K EDTA (7 mg/mL and 2.8 mg/mL)
+2
+to mimic short blood draws was conducted. The sample panel represented 8 variants
+(6 PolyTG/PolyT variants) and was assessed for potential interference to both variant
+and wild type calls. The solvents for both the triglycerides (100% ethanol) and EDTA
+(1μmol/L NaOH pH 8.0, 3% blood volume) were also tested. DNA was extracted
+using a silica filter spin column extraction method. The gDNA concentration and
+A260/A280 ratio of extracted samples was measured using spectrophotometry at the
+completion of each extraction protocol each day. The extracted gDNA samples were
+stored at ‐15°C to ‐25°C until all extractions had been completed and all DNA
+samples were ready for library preparation and sequencing. Impact on call rate,
+reproducibility, and sample first pass rate were determined and compared to the non-
+spiked aliquot. The results demonstrated that performance was not impacted by high
+levels of anticoagulant or triglycerides.
+Index contamination:
+Two gDNA samples, which to have known to have different homozygous genotypes
+at the same coordinates, were selected to assess the level of index contamination
+necessary for an incorrect variant call to occur. One sample was mixed with the other
+through mixing of the indexing primers and the results were evaluated to discern at
+what concentration the genotype of the second sample was impacted to result in a
+heterozygous call at the homozygous location. The first sample used different i7
+indexes (i701-i708) but the same i5 index, all at 100%. For the second sample two i5
+indexes were used at percentages ranging from 90% i501:10% i502 in 10%
+increments to 30%:70%, respectively. A final combination of 100%:0% was also
+evaluated. The results demonstration that an index contamination of 40% or greater
+was necessary to result in an incorrect call.
+f. Assay cut-off:
+Not Applicable
+g. Sample Carryover:
+The goal of this study was to ascertain that sample carryover between samples within
+an instrument run and between successive sequencing runs meets design
+requirements. An error rate of ≤ 2% was pre-specified for all studies. The error rate
+was calculated as 1 minus the percent correct reads at the read level for each base
+22
+
+--- Page 23 ---
+position sequenced. For the NTCs, no base call is expected and the call rate should
+be ≤ 2%.
+Two gDNA samples with unique CFTR genotypes were assessed. One sample had a
+single variant (F508del) and the second had 2 variants (Y122X/R1158X). In the
+intra-run test, one 48-sample library composed of 22 replicates of 2 samples with
+unique variants was set up in a checkerboard matrix pattern at alternating high (500
+ng) and low (100 ng) concentrations along with 4 NTCs. Two additional libraries
+were prepared, one for each sample which was composed of 47 replicates of a single
+gDNA sample and one NTC to evaluate inter-run sample carryover tested the system
+for sample carryover between successive sequencing runs. Data demonstrated that
+the resulting sample carryover between samples was minimal (≤ 0.31%) with high
+(500 ng) gDNA input levels adjacent to NTCs, but otherwise, any carryover did not
+result in miscalls for adjacent gDNA samples.
+2. Comparison studies:
+a. Method comparison with predicate device:
+Accuracy:
+Accuracy of the Illumina MiSeqDx CF 139-Variant Assay was assessed by
+evaluating 500 samples representing a wide variety of CFTR variants from four
+separate sources. The samples consisted of: 355 archived, anonymized clinical gDNA
+specimens isolated from human blood, 14 whole blood samples, gDNA obtained from
+79 cell line samples obtained from commercial vendor, and 52 synthetic plasmids.
+The 52 synthetic plasmids were designed to include the genomic context of the rare
+variants and contained anywhere from 1 to 10 variants within the same construct. The
+accuracy of all calls for all samples was compared to bi-directional sequencing.
+Due to the rarity of many of the variants included in the assay (frequency of ≤0.001%
+observed from the data based on the CFTR2 database published in Sosnay et al,
+2013), it was not possible to obtain clinical specimens for all variants detected by the
+assay. Therefore, the accuracy of the assay to detect these variants was established
+using synthetic heterozygous constructs created by blending linearized synthetic
+plasmids with CFTR wild type gDNA. For those specimens only validated using
+these surrogate specimens, it is recommended in the instructions for use that
+laboratories confirm the presence of these variants in a patient specimens using a
+second validated method prior to reporting the result.
+Samples which generated no calls were not repeated. One miscall was observed for a
+synthetic sample heterozygous for exon 8 which was reported as heterozygous for the
+variant CFTR dele22, 23, which was attributed to a sample contamination. A
+synthetic plasmid blend for L1077P initially failed to be identified however it was
+determined to have been not prepared correctly (see Plasmid Accuracy below).
+23
+
+--- Page 24 ---
+The final accuracy results for the assay based on all results are listed in Table 5
+below.
+Table 5. Accuracy study results.
+Total Positive calls (Variants) Negative
+Mutation calls Cell calls # # No PPA NPA OA
+Clinical Synthetic
+(Common Name) per Line (Wild Miscalls Calls (%) (%) (%)
+Samples Samples
+variant Samples Type)
+CFTR dele2, 3 500 4 1 0 495 0 0 100 100 100
+E60X 500 6 1 0 493 0 0 100 100 100
+P67L 500 1 0 1 498 0 0 100 100 100
+R75X 500 3 1 0 496 0 0 100 100 100
+G85E 500 6 2 0 492 0 0 100 100 100
+394delTT 500 3 1 0 496 0 0 100 100 100
+406-1G>A 500 4 0 0 496 0 0 100 100 100
+E92X 500 0 1 1 498 0 0 100 100 100
+D110H 500 1 0 1 498 0 0 100 100 100
+R117C 500 4 0 0 496 0 0 100 100 100
+R117H 500 17 2 0 481 0 0 100 100 100
+Y122X 500 0 1 0 499 0 0 100 100 100
+621+1G>T 500 7 5 0 488 0 0 100 100 100
+663delT 500 1 0 1 498 0 0 100 100 100
+G178R 500 1 1 0 498 0 0 100 100 100
+711+1G>T 500 3 1 0 496 0 0 100 100 100
+P205S 500 1 0 1 498 0 0 100* 100 100
+L206W 500 8 1 0 491 0 0 100 100 100
+1078delT 500 1 1 0 498 0 0 100 100 100
+G330X 500 1 1 0 498 0 0 100 100 100
+R334W 500 6 1 0 493 0 0 100 100 100
+I336K 500 0 1 0 499 0 0 100 100 100
+1154insTC 500 0 1 0 499 0 0 100 100 100
+R347H 500 6 1 1 492 0 0 100 100 100
+R347P 500 3 2 0 495 0 0 100 100 100
+R352Q 500 5 0 0 495 0 0 100 100 100
+A455E 500 4 2 0 494 0 0 100 100 100
+S466X (C->G) 500 1 0 1 498 0 0 100 100 100
+1548delG 500 1 0 1 498 0 0 100 100 100
+Q493X 500 4 2 0 494 0 0 100 100 100
+I507del 500 4 2 0 494 0 0 100 100 100
+F508del 500 84 29 0 387 0 0 100 100 100
+1677delTA 500 1 0 0 499 0 0 100 100 100
+V520F 500 2 0 0 498 0 0 100 100 100
+1717-1G>A 500 4 1 0 495 0 0 100 100 100
+24
+
+[Table 1 on page 24]
+	Total	Positive calls (Variants)			Negative					
+Mutation	calls		Cell		calls	#	# No	PPA	NPA	OA
+		Clinical		Synthetic						
+(Common Name)	per		Line		(Wild	Miscalls	Calls	(%)	(%)	(%)
+		Samples		Samples						
+	variant		Samples		Type)					
+										
+CFTR dele2, 3	500	4	1	0	495	0	0	100	100	100
+E60X	500	6	1	0	493	0	0	100	100	100
+P67L	500	1	0	1	498	0	0	100	100	100
+R75X	500	3	1	0	496	0	0	100	100	100
+G85E	500	6	2	0	492	0	0	100	100	100
+394delTT	500	3	1	0	496	0	0	100	100	100
+406-1G>A	500	4	0	0	496	0	0	100	100	100
+E92X	500	0	1	1	498	0	0	100	100	100
+D110H	500	1	0	1	498	0	0	100	100	100
+R117C	500	4	0	0	496	0	0	100	100	100
+R117H	500	17	2	0	481	0	0	100	100	100
+Y122X	500	0	1	0	499	0	0	100	100	100
+621+1G>T	500	7	5	0	488	0	0	100	100	100
+663delT	500	1	0	1	498	0	0	100	100	100
+G178R	500	1	1	0	498	0	0	100	100	100
+711+1G>T	500	3	1	0	496	0	0	100	100	100
+P205S	500	1	0	1	498	0	0	100*	100	100
+L206W	500	8	1	0	491	0	0	100	100	100
+1078delT	500	1	1	0	498	0	0	100	100	100
+G330X	500	1	1	0	498	0	0	100	100	100
+R334W	500	6	1	0	493	0	0	100	100	100
+I336K	500	0	1	0	499	0	0	100	100	100
+1154insTC	500	0	1	0	499	0	0	100	100	100
+R347H	500	6	1	1	492	0	0	100	100	100
+R347P	500	3	2	0	495	0	0	100	100	100
+R352Q	500	5	0	0	495	0	0	100	100	100
+A455E	500	4	2	0	494	0	0	100	100	100
+S466X (C->G)	500	1	0	1	498	0	0	100	100	100
+1548delG	500	1	0	1	498	0	0	100	100	100
+Q493X	500	4	2	0	494	0	0	100	100	100
+I507del	500	4	2	0	494	0	0	100	100	100
+F508del	500	84	29	0	387	0	0	100	100	100
+1677delTA	500	1	0	0	499	0	0	100	100	100
+V520F	500	2	0	0	498	0	0	100	100	100
+1717-1G>A	500	4	1	0	495	0	0	100	100	100
+
+--- Page 25 ---
+G542X 500 12 3 0 485 0 0 100 100 100
+S549N 500 2 2 1 495 0 0 100 100 100
+S549R
+500 3 1 0 496 0 0 100 100 100
+(c.1647T>G)
+G551D 500 8 3 0 489 0 0 100 100 100
+R553X 500 8 2 0 490 0 0 100 100 100
+A559T 500 4 0 1 495 0 0 100 100 100
+R560T 500 6 1 0 493 0 0 100 100 100
+1812-1G->A 500 0 2 0 498 0 0 100 100 100
+1898+1G>A 500 2 1 0 497 0 0 100 100 100
+2143delT 500 2 1 0 497 0 0 100 100 100
+2183AA>G 500 3 1 0 496 0 0 100 100 100
+2184insA 500 3 0 1 496 0 0 100 100 100
+2184delA 500 1 1 0 498 0 0 100 100 100
+R709X 500 1 0 2 497 0 0 100 100 100
+K710X 500 3 0 0 497 0 0 100 100 100
+2307insA 500 3 0 2 495 0 0 100 100 100
+R764X 500 1 0 2 497 0 0 100 100 100
+W846X 500 0 1 0 499 0 0 100 100 100
+2789+5G>A 500 9 1 0 490 0 0 100 100 100
+Q890X 500 1 0 0 499 0 0 100 100 100
+3120G>A 500 1 0 0 499 0 0 100 100 100
+3120+1G>A 500 7 1 0 492 0 0 100 100 100
+3272-26A>G 500 0 1 0 499 0 0 100 100 100
+R1066C 500 6 0 0 494 0 0 100 100 100
+R1066H 500 1 0 1 498 0 0 100 100 100
+W1089X 500 4 0 0 496 0 0 100 100 100
+Y1092X (C>A) 500 3 1 0 496 0 0 100 100 100
+M1101K 500 2 2 0 496 0 0 100 100 100
+R1158X 500 7 1 0 492 0 0 100 100 100
+R1162X 500 5 1 0 494 0 0 100 100 100
+3659delC 500 4 1 0 495 0 0 100 100 100
+S1196X 500 1 0 0 499 0 0 100 100 100
+3791delC 500 2 0 0 498 0 0 100 100 100
+3849+10kbC>T 500 11 2 0 487 0 0 100 100 100
+3876delA 500 6 1 0 493 0 0 100 100 100
+S1251N 500 1 0 1 498 0 0 100 100 100
+3905insT 500 3 1 0 496 0 0 100 100 100
+W1282X 500 9 1 0 490 0 0 100 100 100
+N1303K 500 9 1 0 490 0 0 100 100 100
+CFTRdele22,23 500 1 0 1 498 1ᵹ 0 100 99.8 99.8
+M1V 500 0 0 1 499 0 0 100 100 100
+25
+
+[Table 1 on page 25]
+G542X	500	12	3	0	485	0	0	100	100	100
+S549N	500	2	2	1	495	0	0	100	100	100
+S549R
+(c.1647T>G)	500	3	1	0	496	0	0	100	100	100
+G551D	500	8	3	0	489	0	0	100	100	100
+R553X	500	8	2	0	490	0	0	100	100	100
+A559T	500	4	0	1	495	0	0	100	100	100
+R560T	500	6	1	0	493	0	0	100	100	100
+1812-1G->A	500	0	2	0	498	0	0	100	100	100
+1898+1G>A	500	2	1	0	497	0	0	100	100	100
+2143delT	500	2	1	0	497	0	0	100	100	100
+2183AA>G	500	3	1	0	496	0	0	100	100	100
+2184insA	500	3	0	1	496	0	0	100	100	100
+2184delA	500	1	1	0	498	0	0	100	100	100
+R709X	500	1	0	2	497	0	0	100	100	100
+K710X	500	3	0	0	497	0	0	100	100	100
+2307insA	500	3	0	2	495	0	0	100	100	100
+R764X	500	1	0	2	497	0	0	100	100	100
+W846X	500	0	1	0	499	0	0	100	100	100
+2789+5G>A	500	9	1	0	490	0	0	100	100	100
+Q890X	500	1	0	0	499	0	0	100	100	100
+3120G>A	500	1	0	0	499	0	0	100	100	100
+3120+1G>A	500	7	1	0	492	0	0	100	100	100
+3272-26A>G	500	0	1	0	499	0	0	100	100	100
+R1066C	500	6	0	0	494	0	0	100	100	100
+R1066H	500	1	0	1	498	0	0	100	100	100
+W1089X	500	4	0	0	496	0	0	100	100	100
+Y1092X (C>A)	500	3	1	0	496	0	0	100	100	100
+M1101K	500	2	2	0	496	0	0	100	100	100
+R1158X	500	7	1	0	492	0	0	100	100	100
+R1162X	500	5	1	0	494	0	0	100	100	100
+3659delC	500	4	1	0	495	0	0	100	100	100
+S1196X	500	1	0	0	499	0	0	100	100	100
+3791delC	500	2	0	0	498	0	0	100	100	100
+3849+10kbC>T	500	11	2	0	487	0	0	100	100	100
+3876delA	500	6	1	0	493	0	0	100	100	100
+S1251N	500	1	0	1	498	0	0	100	100	100
+3905insT	500	3	1	0	496	0	0	100	100	100
+W1282X	500	9	1	0	490	0	0	100	100	100
+N1303K	500	9	1	0	490	0	0	100	100	100
+CFTRdele22,23	500	1	0	1	498	1ᵹ	0	100	99.8	99.8
+M1V	500	0	0	1	499	0	0	100	100	100
+
+--- Page 26 ---
+Q39X 500 0 0 1 499 0 0 100 100 100
+405+1 G->A 500 0 0 1 499 0 0 100 100 100
+E92K 500 0 0 1 499 0 0 100 100 100
+Q98X 500 0 0 2 498 0 0 100 100 100
+457TAT->G 500 0 0 1 499 0 0 100 100 100
+574delA 500 0 0 2 498 0 0 100 100 100
+711+3A>G 500 0 0 1 499 0 0 100 100 100
+711+5 G->A 500 0 0 1 499 0 0 100 100 100
+712-1 G->T 500 0 0 1 499 0 0 100 100 100
+H199Y 500 0 0 1 499 0 0 100 100 100
+Q220X 500 0 0 1 499 0 0 100 100 100
+852del22 500 0 0 1 499 0 0 100 100 100
+T338I 500 0 0 1 499 0 0 100 100 100
+S341P 500 0 0 1 499 0 0 100 100 100
+1213delT 500 0 0 1 499 0 0 100 100 100
+1248+1G>A 500 0 0 1 499 0 0 100 100 100
+1259insA 500 0 0 2 498 0 0 100 100 100
+W401X
+500 0 0 1 499 0 0 100 100 100
+(c.1202G>A)
+W401X
+500 0 0 1 499 0 0 100 100 100
+(c.1203G>A)
+1341+1G->A 500 0 0 2 498 0 0 100 100 100
+1461ins4 500 0 0 1 499 0 0 100 100 100
+1525-1G->A 500 0 0 1 499 0 0 100 100 100
+S466X (C->A) 500 0 0 1 499 0 0 100 100 100
+L467P 500 0 0 1 499 0 0 100 100 100
+S489X 500 0 0 2 498 0 0 100 100 100
+S492F 500 0 0 1 499 0 0 100 100 100
+Q525X 500 0 0 1 499 0 0 100 100 100
+1717-8G->A 500 0 0 1 499 0 0 100 100 100
+S549R
+500 0 0 1 499 0 0 100 100 100
+(c.1645A>C)
+Q552X 500 0 0 1 499 0 0 100 100 100
+R560K 500 0 0 1 499 0 0 100 100 100
+1811+1.6kb A->G 500 0 0 1 499 0 0 100 100 100
+E585X 500 0 0 1 499 0 0 100 100 100
+1898+3A>G 500 0 0 1 499 0 0 100 100 100
+L732X 500 0 0 2 498 0 0 100 100 100
+2347delG 500 0 0 2 498 0 0 100 100 100
+2585delT 500 0 0 2 498 0 0 100 100 100
+E822X 500 0 0 2 498 0 0 100 100 100
+2622+1G>A 500 0 0 2 498 0 0 100 100 100
+E831X 500 0 0 1 499 0 0 100 100 100
+26
+
+[Table 1 on page 26]
+Q39X	500	0	0	1	499	0	0	100	100	100
+405+1 G->A	500	0	0	1	499	0	0	100	100	100
+E92K	500	0	0	1	499	0	0	100	100	100
+Q98X	500	0	0	2	498	0	0	100	100	100
+457TAT->G	500	0	0	1	499	0	0	100	100	100
+574delA	500	0	0	2	498	0	0	100	100	100
+711+3A>G	500	0	0	1	499	0	0	100	100	100
+711+5 G->A	500	0	0	1	499	0	0	100	100	100
+712-1 G->T	500	0	0	1	499	0	0	100	100	100
+H199Y	500	0	0	1	499	0	0	100	100	100
+Q220X	500	0	0	1	499	0	0	100	100	100
+852del22	500	0	0	1	499	0	0	100	100	100
+T338I	500	0	0	1	499	0	0	100	100	100
+S341P	500	0	0	1	499	0	0	100	100	100
+1213delT	500	0	0	1	499	0	0	100	100	100
+1248+1G>A	500	0	0	1	499	0	0	100	100	100
+1259insA	500	0	0	2	498	0	0	100	100	100
+W401X
+(c.1202G>A)	500	0	0	1	499	0	0	100	100	100
+W401X
+(c.1203G>A)	500	0	0	1	499	0	0	100	100	100
+1341+1G->A	500	0	0	2	498	0	0	100	100	100
+1461ins4	500	0	0	1	499	0	0	100	100	100
+1525-1G->A	500	0	0	1	499	0	0	100	100	100
+S466X (C->A)	500	0	0	1	499	0	0	100	100	100
+L467P	500	0	0	1	499	0	0	100	100	100
+S489X	500	0	0	2	498	0	0	100	100	100
+S492F	500	0	0	1	499	0	0	100	100	100
+Q525X	500	0	0	1	499	0	0	100	100	100
+1717-8G->A	500	0	0	1	499	0	0	100	100	100
+S549R
+(c.1645A>C)	500	0	0	1	499	0	0	100	100	100
+Q552X	500	0	0	1	499	0	0	100	100	100
+R560K	500	0	0	1	499	0	0	100	100	100
+1811+1.6kb A->G	500	0	0	1	499	0	0	100	100	100
+E585X	500	0	0	1	499	0	0	100	100	100
+1898+3A>G	500	0	0	1	499	0	0	100	100	100
+L732X	500	0	0	2	498	0	0	100	100	100
+2347delG	500	0	0	2	498	0	0	100	100	100
+2585delT	500	0	0	2	498	0	0	100	100	100
+E822X	500	0	0	2	498	0	0	100	100	100
+2622+1G>A	500	0	0	2	498	0	0	100	100	100
+E831X	500	0	0	1	499	0	0	100	100	100
+
+--- Page 27 ---
+R851X 500 0 0 1 499 0 0 100 100 100
+2711delT 500 0 0 1 499 0 0 100 100 100
+L927P 500 0 0 1 499 0 0 100 100 100
+S945L 500 0 0 1 499 0 0 100 100 100
+3007delG 500 0 0 1 499 0 0 100 100 100
+G970R 500 0 0 1 499 0 0 100 100 100
+3121-1G->A 500 0 0 1 499 0 0 100 100 100
+L1065P 500 0 0 1 499 0 0 100 100 100
+L1077P 500 0 0 1 499 0 0 100^ 100 100
+Y1092X (C>G) 500 0 0 1 499 0 0 100 100 100
+E1104X 500 0 0 1 499 0 0 100 100 100
+W1204X
+500 0 0 1 499 0 0 100 100 100
+(c.3611G>A)
+W1204X
+500 0 0 1 499 0 0 100 100 100
+(c.3612G>A)
+G1244E 500 0 0 1 499 0 0 100 100 100
+4005+1G->A 500 0 0 1 499 0 0 100 100 100
+4016insT 500 0 0 1 499 0 0 100 100 100
+Q1313X 500 0 0 1 499 0 0 100 100 100
+4209TGTT>AA 500 0 0 1 499 0 0 100 100 100
+4382delA 500 0 0 1 499 0 0 100 100 100
+PolyTG/PolyTⱡ 448 439 2 0 N/A 4 3 98.44 N/A 100
+I506V¥ 500 7 0 0 493 0 0 100 100 100
+I507V¥ 500 0 1 0 499 0 0 100 100 100
+F508C¥ 500 1 1 0 498 0 0 100 100 100
+Total 69,448 989 68,452 5 3 >99.98 >99.99 >99.99
+* The Sanger report indicated the P205S variant as heterozygous for the clinical sample. A review of the Sanger
+trace data however indicated that the variant was in fact homozygous and incorrectly reported. The MiSeqDx
+reported the variant as homozygous.
+ᵹ A synthetic sample heterozygous for exon 8 was reported as heterozygous for the variant CFTR dele22, 23. Further
+investigation revealed that this result was likely from low level contamination.
+^ The original synthetic heterozygous specimen was determined to be improperly prepared. When it was
+subsequently tested after it was re-prepared, using the same plasmid, it would be accurately detected.
+ⱡ When R117H is positive the PolyTG/PolyT variant is additionally reported. Results displayed are based on
+unmasked results of all samples included in the study.
+¥ In the case of one homozygous F508del variant, three additional wild type bases (i.e., variants I506V, I507V,
+F508C) were not identified in the specimen) were additionally reported. The results displayed are based on
+unmasked results of all samples included in the study.
+Plasmid Accuracy:
+For those variants that were not able to be represented by clinical or cell line samples,
+a total of 52 synthetic plasmids were used to establish accuracy. Fifty synthetic
+plasmid-gDNA heterozygous samples were created and used to assess the accuracy of
+the assay for those variants not represented by a clinical or cell line specimen due to
+inability to obtain specimens due to rarity (≤ 0.001 prevalence). Separate synthetic
+27
+
+[Table 1 on page 27]
+R851X	500	0	0	1	499	0	0	100	100	100
+2711delT	500	0	0	1	499	0	0	100	100	100
+L927P	500	0	0	1	499	0	0	100	100	100
+S945L	500	0	0	1	499	0	0	100	100	100
+3007delG	500	0	0	1	499	0	0	100	100	100
+G970R	500	0	0	1	499	0	0	100	100	100
+3121-1G->A	500	0	0	1	499	0	0	100	100	100
+L1065P	500	0	0	1	499	0	0	100	100	100
+L1077P	500	0	0	1	499	0	0	100^	100	100
+Y1092X (C>G)	500	0	0	1	499	0	0	100	100	100
+E1104X	500	0	0	1	499	0	0	100	100	100
+W1204X
+(c.3611G>A)	500	0	0	1	499	0	0	100	100	100
+W1204X
+(c.3612G>A)	500	0	0	1	499	0	0	100	100	100
+G1244E	500	0	0	1	499	0	0	100	100	100
+4005+1G->A	500	0	0	1	499	0	0	100	100	100
+4016insT	500	0	0	1	499	0	0	100	100	100
+Q1313X	500	0	0	1	499	0	0	100	100	100
+4209TGTT>AA	500	0	0	1	499	0	0	100	100	100
+4382delA	500	0	0	1	499	0	0	100	100	100
+PolyTG/PolyTⱡ	448	439	2	0	N/A	4	3	98.44	N/A	100
+I506V¥	500	7	0	0	493	0	0	100	100	100
+I507V¥	500	0	1	0	499	0	0	100	100	100
+F508C¥	500	1	1	0	498	0	0	100	100	100
+Total	69,448	989			68,452	5	3	>99.98	>99.99	>99.99
+
+--- Page 28 ---
+DNA sequences were designed for each variant within each exon. All synthetic DNA
+sequences were synthesized and embedded into pUC57 plasmid. The synthetic
+plasmids were linearized, diluted, and blended with a CFTR wild type gDNA sample
+to human genomic copy numbers at an approximate concentration of 50ng/µL to
+create a synthetic plasmid-gDNA heterozygous sample.
+A second accuracy study was performed to assess the ability of the assay to call 2
+variants not originally represented in the first study and one which failed due to
+improper preparation. The synthetic plasmids were diluted to human genomic copy
+numbers at an approximate concentration of 50ng/µL. Two of the plasmids contained
+single variants and one contained 3 different variants. The study achieved 100% call
+rate and 100% accuracy for all 3 synthetic samples.
+Conditionally Reported Variants
+Exon 10 Benign Variants:
+There are 3 conditionally reported benign variants (I506V, I507V, and F508C)
+located on Exon 10, which are recommended to be assessed for hybridization based
+assays, when homozygous results for variants F508del and I507del are identified to
+verify that the homozygous result is not due to interference by these benign variants.
+This phenomenon was not observed in the performance of this assay. Two samples in
+the reproducibility study carried the F508C and I507V variants in the absence of the
+F507del and I507del variants. Each sample however gave the correct calls for all 18
+and 36 replicates, respectively, based on unmasked results. The I506V variant was
+also assessed 7 specimens in the accuracy study and correctly identified 100% of the
+time, based on unmasked results.
+PolyTG/PolyT Accuracy:
+To establish the accuracy of the assay to correctly call the PolyTG/PolyT variants, the
+results were unmasked and reported for all samples included in the accuracy study.
+The resulting variant calls for each sample were compared to bi-directional
+sequencing. Four samples were discordant with bi-directional sequencing results.
+Each of the discordances was noted to be within ±1 PolyTG relative to the bi-
+directional sequencing results. However due to the homopolymeric nature of the
+PolyTG/PolyT region, this is not unexpected. The accuracy of the PolyTG/PolyT
+results were assessed for all the samples included in the study and a demonstrated a
+miscall rate of 0.89% (4/448).
+Table 6. Accuracy for PolyTG/PolyT results.
+Clinical Cell Line # No %
+Genotype # Miscalls
+Samples Samples Calls^ Accuracy
+(TG)9(T)7/(TG)11(T)7 2 0 0 1 50.0
+(TG)9(T)9/(TG)10(T)7 1 0 0 0 100
+(TG)9(T)9/(TG)11(T)7 5 1 0 0 100
+28
+
+[Table 1 on page 28]
+Genotype	Clinical
+Samples	Cell Line
+Samples	# Miscalls	# No
+Calls^	%
+Accuracy
+(TG)9(T)7/(TG)11(T)7	2	0	0	1	50.0
+(TG)9(T)9/(TG)10(T)7	1	0	0	0	100
+(TG)9(T)9/(TG)11(T)7	5	1	0	0	100
+
+--- Page 29 ---
+(TG)9(T)9/(TG)11(T)9 1 0 0 0 100
+(TG)10(T)7/(TG)10(T)7 25 8 0 0 100
+(TG)10(T)7/(TG)10(T)9 39 16 0 0 100
+(TG)10(T)7/(TG)11(T)5 2 0 0 0 100
+(TG)10(T)7/(TG)11(T)7 72 11 0 0 100
+(TG)10(T)7/(TG)12(T)5 1 0 0 0 100
+(TG)10(T)7/(TG)12(T)7 10 1 0 1 90.9
+(TG)10(T)9/(TG)10(T)9 7 6 0 0 100
+(TG)10(T)9/(TG)11(T)5 5 0 0 0 100
+(TG)10(T)9/(TG)11(T)7 76 20 0 0 100
+(TG)10(T)9/(TG)11(T)9 3 0 0 0 100
+(TG)10(T)9/(TG)12(T)5 3 2 0 0 100
+(TG)10(T)9/(TG)12(T)7 13 0 0 1 92.3
+(TG)11(T)5/(TG)11(T)7 6 0 1 0 83.3
+(TG)11(T)7/(TG)11(T)7 52 8 0 0 100
+(TG)11(T)7/(TG)11(T)9* 2 1 3 0 0.0
+(TG)11(T)7/(TG)12(T)5 2 0 0 0 100
+(TG)11(T)7/(TG)12(T)7 37 3 0 0 100
+(TG)11(T)9/(TG)12(T)7 3 0 0 0 100
+(TG)12(T)7/(TG)12(T)7 2 2 0 0 100
+Total 448 4 3 98.44
+*One of the discordant results was from the reproducibility study. The PolyTG/PolyT result for the sample
+was concordant across all 18 replicates, but discordant with Sanger bi-directional sequencing.
+^Samples were not retested.
+b. Matrix comparison:
+Not applicable.
+3. Clinical studies:
+a. Clinical Sensitivity and Specificity:
+The clinical sensitivity and specificity can be estimated based on the information
+from the CFTR2 database (as of August 2013) as published in Sosnay PR et al.,
+“Defining the disease liability of variants in the cystic fibrosis transmembrane
+conductance regulator gene” Nat. Genet., published online on 25 August 2013;
+doi:10.1038/ng.2745.
+4. Clinical cut-off:
+Not applicable.
+5. Expected values/Reference range:
+29
+
+[Table 1 on page 29]
+(TG)10(T)7/(TG)10(T)7	25	8	0	0	100
+(TG)10(T)7/(TG)10(T)9	39	16	0	0	100
+(TG)10(T)7/(TG)11(T)5	2	0	0	0	100
+(TG)10(T)7/(TG)11(T)7	72	11	0	0	100
+(TG)10(T)7/(TG)12(T)5	1	0	0	0	100
+(TG)10(T)7/(TG)12(T)7	10	1	0	1	90.9
+(TG)10(T)9/(TG)10(T)9	7	6	0	0	100
+(TG)10(T)9/(TG)11(T)5	5	0	0	0	100
+(TG)10(T)9/(TG)11(T)7	76	20	0	0	100
+(TG)10(T)9/(TG)11(T)9	3	0	0	0	100
+(TG)10(T)9/(TG)12(T)5	3	2	0	0	100
+(TG)10(T)9/(TG)12(T)7	13	0	0	1	92.3
+(TG)11(T)5/(TG)11(T)7	6	0	1	0	83.3
+(TG)11(T)7/(TG)11(T)7	52	8	0	0	100
+(TG)11(T)7/(TG)11(T)9*	2	1	3	0	0.0
+(TG)11(T)7/(TG)12(T)5	2	0	0	0	100
+(TG)11(T)7/(TG)12(T)7	37	3	0	0	100
+(TG)11(T)9/(TG)12(T)7	3	0	0	0	100
+(TG)12(T)7/(TG)12(T)7	2	2	0	0	100
+Total	448		4	3	98.44
+
+--- Page 30 ---
+Cystic fibrosis is the most common autosomal recessive disorder in the Caucasian
+population with an incidence of approximately 1 in 3,200 live births. The incidence of CF
+in other ethnic groups varies: approximately 1 in 9,500 in Hispanics, 1 in 15,300 in
+African Americans, and 1 in 32,100 in Asian Americans.
+Table 7. Allelic frequency of panel variants found in original CFTR2 project population.
+Allele Variant legacy Allele
+Variant legacy name Variant legacy name Allele freq.*
+freq.* name freq.*
+1078delT 0.0015 574delA 0.0003 Q220X 0.0005
+1154insTC 0.0014 621+1G->T 0.0115 Q39X 0.0003
+1213delT 0.0001 663delT 0.0002 Q493X 0.0024
+1248+1G->A 0.0002 711+1G->T 0.0023 Q525X 0.0002
+1259insA 0.0002 711+3A->G 0.0003 Q552X 0.0004
+1341+1G->A 0.0001 711+5G->A 0.0007 Q890X 0.0003
+1461ins4 0.0002 712-1G->T 0.0002 Q98X 0.0002
+1525-1G->A 0.0004 852del22 0.0002 R1066C 0.0017
+1548delG 0.0001 A455E 0.0031 R1066H 0.0004
+1677delTA 0.0007 A559T 0.0006 R1158X 0.0013
+1717-1G->A 0.0090 CFTRdele2,3 0.0039 R1162X 0.0049
+1717-8G->A 0.0001 CFTRdele22,23 0.0002 R117C 0.0009
+1811+1.6kbA->G 0.0005 D110H 0.0005 R117H 0.0114
+1812-1G->A 0.0003 E1104X 0.0002 R334W 0.0025
+1898+1G->A 0.0035 E585X 0.0006 R347H 0.0013
+1898+3A->G 0.0002 E60X 0.0023 R347P 0.0033
+2143delT 0.0011 E822X 0.0004 R352Q 0.0007
+2183AA->G 0.0053 E831X 0.0003 R553X 0.0091
+2184delA 0.0017 E92K 0.0002 R560K 0.0001
+2184insA 0.0019 E92X 0.0003 R560T 0.0028
+2307insA 0.0004 F508del 0.7028 R709X 0.0003
+2347delG 0.0004 G1244E 0.0007 R75X 0.0007
+2585delT 0.0002 G178R 0.0007 R764X 0.0002
+2622+1G->A 0.0004 G330X 0.0002 R851X 0.0002
+2711delT 0.0003 G542X 0.0262 S1196X 0.0002
+2789+5G->A 0.0076 G551D 0.0202 S1251N 0.0012
+3007delG 0.0004 G85E 0.0045 S341P 0.0001
+3120+1G->A 0.0038 G970R 0.0001 S466X 0.0003
+3120G->A 0.0006 H199Y 0.0002 S489X 0.0004
+3121-1G->A 0.0001 I336K 0.0004 S492F 0.0002
+3272-26A->G 0.0027 I507del 0.0045 S549N 0.0013
+3659delC 0.0035 K710X 0.0004 S549R 0.0007
+3791delC 0.0002 L1065P 0.0004 S945L 0.0009
+3849+10kbC->T 0.0074 L1077P 0.0007 T338I 0.0008
+30
+
+[Table 1 on page 30]
+Variant legacy name	Allele
+freq.*	Variant legacy name	Allele freq.*	Variant legacy
+name	Allele
+freq.*
+1078delT	0.0015	574delA	0.0003	Q220X	0.0005
+1154insTC	0.0014	621+1G->T	0.0115	Q39X	0.0003
+1213delT	0.0001	663delT	0.0002	Q493X	0.0024
+1248+1G->A	0.0002	711+1G->T	0.0023	Q525X	0.0002
+1259insA	0.0002	711+3A->G	0.0003	Q552X	0.0004
+1341+1G->A	0.0001	711+5G->A	0.0007	Q890X	0.0003
+1461ins4	0.0002	712-1G->T	0.0002	Q98X	0.0002
+1525-1G->A	0.0004	852del22	0.0002	R1066C	0.0017
+1548delG	0.0001	A455E	0.0031	R1066H	0.0004
+1677delTA	0.0007	A559T	0.0006	R1158X	0.0013
+1717-1G->A	0.0090	CFTRdele2,3	0.0039	R1162X	0.0049
+1717-8G->A	0.0001	CFTRdele22,23	0.0002	R117C	0.0009
+1811+1.6kbA->G	0.0005	D110H	0.0005	R117H	0.0114
+1812-1G->A	0.0003	E1104X	0.0002	R334W	0.0025
+1898+1G->A	0.0035	E585X	0.0006	R347H	0.0013
+1898+3A->G	0.0002	E60X	0.0023	R347P	0.0033
+2143delT	0.0011	E822X	0.0004	R352Q	0.0007
+2183AA->G	0.0053	E831X	0.0003	R553X	0.0091
+2184delA	0.0017	E92K	0.0002	R560K	0.0001
+2184insA	0.0019	E92X	0.0003	R560T	0.0028
+2307insA	0.0004	F508del	0.7028	R709X	0.0003
+2347delG	0.0004	G1244E	0.0007	R75X	0.0007
+2585delT	0.0002	G178R	0.0007	R764X	0.0002
+2622+1G->A	0.0004	G330X	0.0002	R851X	0.0002
+2711delT	0.0003	G542X	0.0262	S1196X	0.0002
+2789+5G->A	0.0076	G551D	0.0202	S1251N	0.0012
+3007delG	0.0004	G85E	0.0045	S341P	0.0001
+3120+1G->A	0.0038	G970R	0.0001	S466X	0.0003
+3120G->A	0.0006	H199Y	0.0002	S489X	0.0004
+3121-1G->A	0.0001	I336K	0.0004	S492F	0.0002
+3272-26A->G	0.0027	I507del	0.0045	S549N	0.0013
+3659delC	0.0035	K710X	0.0004	S549R	0.0007
+3791delC	0.0002	L1065P	0.0004	S945L	0.0009
+3849+10kbC->T	0.0074	L1077P	0.0007	T338I	0.0008
+
+--- Page 31 ---
+Allele Variant legacy Allele
+Variant legacy name Variant legacy name Allele freq.*
+freq.* name freq.*
+3876delA 0.0005 L206W 0.0019 V520F 0.0010
+3905insT 0.0019 L467P 0.0002 W1089X 0.0006
+394delTT 0.0022 L732X 0.0002 W1204X 0.0002
+4005+1G->A 0.0003 L927P 0.0002 W1282X 0.0149
+4016insT 0.0005 M1101K 0.0021 W401X 0.0002
+405+1G->A 0.0003 M1V 0.0001 W846X 0.0005
+406-1G->A 0.0003 N1303K 0.0175 Y1092X 0.0020
+4209TGTT->AA 0.0001 P205S 0.0002 Y122X 0.0011
+4382delA 0.0004 P67L 0.0011
+457TAT->G 0.0001 Q1313X 0.0004
+*alleles/70,777
+N. Instrument Name:
+MiSeqDx™ Instrument (k123989)
+O. System Descriptions:
+1. Modes of Operation:
+Semi-automatic. The MiSeqDx instrument requires limited user interaction to operate and
+commence a sequencing run. The software uses a graphical interface to walk the user
+step-by-step through loading of the reagents for a run (i.e., flow cell, reagent cartridge,
+and PR2 buffer) and empty the waste bottle. The system then automatically initializes the
+fluidics and optics, performs cluster generation, and commences the sequencing by
+synthesis cycles while acquiring data.
+The MiSeqDx system consists of four software applications are installed on the
+instrument [MiSeq Operating Software (MOS); and Real Time Analysis (RTA), MiSeq
+Reporter (MRS), and MiSeq Test Software (MTS)] and two software applications
+[Illumina Worklist Manager (IWM) and User Management Software (UMS)] are
+installed on user supplied PCs. The MTS is only utilized by field service personnel and
+the MRS may also be installed on user supplied PCs for off instrument analysis. The
+IWM software is used to create a sample sheet during library preparation and the UMS is
+used to grant various access level permissions to users. The MiSeq Operating Software
+(MOS) supports the ability to setup and run the sequencing workflow and save the
+resulting files for image processing and base calling (primary data analysis) performed by
+RTA software and MRS which performs de-multiplexing, alignment, variant calling, and
+report generation (secondary data analyses).
+The MiSeqDx software utilizes assay specific radio-frequency identifier (RFID) tagged
+reagents and consumables which enables it to automatically select and configure the
+appropriate run type to match the kit being used and control the in vitro diagnostic
+31
+
+[Table 1 on page 31]
+Variant legacy name	Allele
+freq.*	Variant legacy name	Allele freq.*	Variant legacy
+name	Allele
+freq.*
+3876delA	0.0005	L206W	0.0019	V520F	0.0010
+3905insT	0.0019	L467P	0.0002	W1089X	0.0006
+394delTT	0.0022	L732X	0.0002	W1204X	0.0002
+4005+1G->A	0.0003	L927P	0.0002	W1282X	0.0149
+4016insT	0.0005	M1101K	0.0021	W401X	0.0002
+405+1G->A	0.0003	M1V	0.0001	W846X	0.0005
+406-1G->A	0.0003	N1303K	0.0175	Y1092X	0.0020
+4209TGTT->AA	0.0001	P205S	0.0002	Y122X	0.0011
+4382delA	0.0004	P67L	0.0011		
+457TAT->G	0.0001	Q1313X	0.0004		
+
+--- Page 32 ---
+workflow. The RFID tag allows the system to ensure that the correct consumable type is
+being used and this information is stored as part of the instrument run-log for traceability
+purposes.
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes __X__ or No ________
+3. Specimen Identification:
+Samples from up to 96 unique specimens can be analyzed, including controls on two flow
+cells (pooling of 48 samples per single flow cell) per MiSeqDx CF run. Twelve unique
+index i7 reverse PCR primer (named A701-A712) and eight unique forward index i5
+forward PCR primers (named A501-A508) for universal amplification of the ligated
+products. When combined in a pair wise manner, produce 96 unique index combinations
+allowing for up to 96 samples to be processed in parallel during the library preparation
+process. These are added during the library preparation process. The sample sheet, a file
+that the user provides the software, contains the link between each of the sample names
+and their associated index sequences. After completion of the sequence run, MiSeqDx
+CF Reporter software de-multiplexes the samples using the index sequences and creates
+FASTQ files as the data analysis output. The user can also utilize the MiSeq Reporter
+Software for sequence alignment and variant calling.
+4. Specimen Sampling and Handling:
+Samples are handled manually prior to being placed on the instrument. The test begins
+with the isolation of gDNA from a peripheral whole blood sample. The gDNA is then
+quantified and qualified prior to being processed through the library preparation step.
+This step specifically amplifies the intended genomic regions of each sample while also
+adding the indexes (for sample identification). The library is then processed to remove
+any remaining preparation reagents (e.g., unused primers). It is then normalized, to
+ensure that each library is equally represented, and pooled. The pooled library is then
+added to the flow cell capture sequences to the amplified products. The resulting sample
+libraries are then transferred into a MiSeq reagent cartridge which contains all of the
+reagents required for cluster generation and SBS (Sequencing by Synthesis). The
+MiSeqDx Reagent Cartridge, MiSeqDx Flow Cell, and MiSeqDx SBS Solution are then
+inserted into the MiSeqDx instrument, which performs cluster generation, sequencing and
+data analysis.
+The sample throughput per MiSeqDx run can be between 8 and 48 samples per run
+(including required controls), with a minimum requirement of 8 samples per run.
+32
+
+--- Page 33 ---
+5. Calibration:
+There is no end-user calibration of the system. During installation of the platform, a
+company representative (Field Applications Scientist) begins a series of tests to validate
+the performance of the instrument subsystems, which include optical alignment, fluidic
+delivery, and thermal calibration, among others. In the case of a test failure, the MiSeqDx
+company representative uses a set of instrument-specific tools to adjust and/or repair the
+instrument to meet operational specifications. Re-calibration occurs during the
+preventive maintenance visit.
+6. Quality Control:
+An internal control, bacteriophage PhiX (ΦX174) gDNA is added at the end of the library
+preparation step, prior to library pooling and placement on the instrument. Successful
+sequencing of the PhiX genome indicates that the sequencing chemistry worked as
+expected.
+It is recommended that both positive and negative controls (not included with the assay)
+be included with every run.
+Illumina requires that one positive control DNA sample and a negative control [No
+Template Control (NTC)] is included in every run, which is defined as a set of samples
+processed in parallel. The positive control DNA sample should be a well-characterized
+sample with one or more known CFTR variants and positive controls should be rotated in
+a manner consistent with the 2008 ACMG Technical Standards and Guidelines for CF
+mutation testing18 and the 2013 ACMG clinical laboratory standards for next-generation
+sequencing. The use of a wild type control, run as a sample, is recommended, but it
+should not replace the positive or negative control.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In the
+“Performance Characteristics” Section above:
+Acceptance of plasmids for accuracy:
+A serial dilution study was performed to demonstrate that the use of plasmids did not
+artificially inflate test accuracy, i.e., that the results were not biased when compared to
+gDNA from either clinical or cell line samples. If performance observed with plasmids is
+improved over cell lines, one would expect that the results observed with plasmids would be
+observed at lower dilutions where testing with cell lines was invalid or wrong. Four plasmids
+were selected for comparison against clinical or cell line gDNA samples which contained the
+same variant (E92X, CFTR dele2,3, D110H, and S549N). PolyTG/PolyT results were also
+assessed from each sample and the synthetic blends. The prepared plasmids were linearized
+and then combined in equal amounts (copy number) with human gDNA from a CFTR wild
+type sample, in order to generate a synthetic HET sample. Two of the 4 plasmids were
+complex constructs, each containing four different variants located on the same exon. The
+remaining two contained only a single variant. Each sample was tested in duplicate across
+33
+
+--- Page 34 ---
+four DNA input levels: 250ng, 125ng (2x less), 50ng (5x less) and 25ng (10x less). Overall,
+no bias appeared to be observed with the use of the synthetic plasmids.
+Specimen Storage:
+To verify the storage conditions and handling of blood samples for use with the Illumina
+MiSeqDx Cystic Fibrosis System, six K2EDTA anti-coagulated blood samples were
+provided by a third party vendor. The six blood samples were divided to six aliquots, one
+aliquot of each blood sample were stored under 6 different conditions: 2°C to 8°C for 1 day; -
+15°C to -25°C for 1 day; 2°C to 8°C for 30 days; -15°C to -25°C for 30 days; room
+temperature (20-25°C) for 7 days; and controlled room temperature (30°C) for 7 days.
+Genomic DNA was isolated from each aliquot using a commonly used commercial DNA
+extraction kit. All extractions were performed by a single operator. The extracted gDNA
+samples were stored at -15°C to -25°C until the libraries were prepared and sequencing.
+Genomic DNA Freeze-Thaw:
+The impact of repeated freeze-thaws on gDNA samples isolated from cell lines were tested
+by subjecting 15 DNA samples to 6 freeze thaw cycles. The fifteen samples represented 17
+different variants and consisted of two heterozygous, one homozygous, and 12 compound
+heterozygotes. The freeze/thaw cycles were performed across 6 different days and the
+samples allowed to freeze overnight at -20°C between consecutive thaws. After the
+freeze/thaw cycles were complete, the samples were stored at -15°C to -25°C until library
+preparation.
+Library preparations for both the samples from both the specimen storage and gDNA freeze-
+thaw studies were performed at the same time point. The samples from a single library
+preparation were pooled into one run of 48 samples and a second run of 32 samples prior to
+sequencing. Impact on call rate, reproducibility, and sample first pass rate were determined
+for each sample as compared to a respective control sample and assessed for each variant
+included in the panel. No miscalls or no calls were observed for any of the specimens and
+demonstrated that the blood and gDNA storage conditions tested did not affect assay results.
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+34

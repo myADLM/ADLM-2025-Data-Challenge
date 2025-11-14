@@ -1,0 +1,132 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+A. 510(k) Number: k062395
+
+C. Measurand: Whole blood glucose
+
+E. Applicant: Roche Diagnostics Corp.
+
+F. Proprietary and Established Names: Accu-Chek Smart Pix
+
+# G. Regulatory Information:
+
+Regulation section:   
+21CFR Sec.- 862.1345-Glucose test system.   
+21CFR Sec.-880.5725 Infusion pump   
+21CFR Sec.-862.2100 - Calculator/data processing module for clinical use
+
+2. Classification: Class 2, 2 and 1, respectively
+
+3. Product code: NBW - System, Test, Blood Glucose, Over the Counter LZG - pump, infusion, insulin JQP-Calculator/Data Processing Module, For Clinical Use
+
+4. Panel: Chemistry (75)
+
+# H. Intended Use:
+
+1. Intended use(s): See indication(s) for use below.
+
+2. Indication(s) for use:
+
+The ACCU-CHEK Smart Pix enables persons with diabetes or healthcare professionals to send stored data from their compatible ACCU-CHEK blood glucose monitor and/or Disetronic/ACCU-CHEK insulin infusion pump to a compatible computer as a set of reports or data stream.
+
+The ACCU-CHEK Smart Pix is intended to help monitor and clinically manage individuals with diabetes.
+
+3. Special conditions for use statement(s): None
+
+4. Special instrument requirements: ACCU-CHEK blood glucose monitor and/or Disetronic/ACCU-CHEK insulin infusion pump
+
+# I. Device Description:
+
+The Accu-Chek Smart Link is an interface device processing Diabetes related data. The system supports presentation, analysis, documentation, and sharing of Diabetes related data. Data originates from the metabolic self control, i.e. BG monitoring (Accu-Chek BG meters), insulin treatment (Accu-Chek insulin pumps) and documentation (Accu-Chek diary devices) of patients with Diabetes. Data stored in the devices can be uploaded by Smart Link, viewed, analyzed and printed from a PC without the use of additional installed software. A standard web browser (e.g. Internet Explorer) can be used for viewing the data. Storing and forwarding (e.g. by email) the information out of the connected devices can also be done by software already available on a typical PC. The connectivity of Smart Link to all types of specific devices used by patients (e.g. blood glucose meters, insulin umps) provides ease of use, speed, data integrity and flexibility.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Roche Diagnostics, Acculink Modem
+
+2. Predicate 510(k) number(s): k000364
+
+3. Comparison with predicate: The following is a list of similarities between the ACCU-CHEK Smart Pix and the predicate device.
+
+<table><tr><td rowspan=1 colspan=1>Feature / Claim</td><td rowspan=1 colspan=1>Detail</td></tr><tr><td rowspan=1 colspan=1>Connected to blood glucosemonitors</td><td rowspan=1 colspan=1>Both devices connect to and downloadinformation stored on ACCU-CHEKbrand blood glucose monitors.</td></tr><tr><td rowspan=1 colspan=1>Warnings and precautions</td><td rowspan=1 colspan=1>For in vitro diagnostic use only.</td></tr><tr><td rowspan=1 colspan=1>State Messaging</td><td rowspan=1 colspan=1>Both devices provide feedback to theconsumer through a combination ofLED flashes.</td></tr><tr><td rowspan=1 colspan=1>Reports</td><td rowspan=1 colspan=1>Both devices create reports and graphsusing basic statistical calculations ofthe historic data stored in the devicesthey can connect to.</td></tr></table>
+
+The following is a listing of the key differences between .the ACCU-CHEK Smart Pix and the predicate device.
+
+<table><tr><td rowspan=1 colspan=1>Feature / Claim</td><td rowspan=1 colspan=1>ACCU-CHEK SmartPix</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Power supply</td><td rowspan=1 colspan=1>USB port</td><td rowspan=1 colspan=1>AC adapter</td></tr><tr><td rowspan=1 colspan=1>Weight</td><td rowspan=1 colspan=1>90 g</td><td rowspan=1 colspan=1>205 g</td></tr><tr><td rowspan=1 colspan=1>Size</td><td rowspan=1 colspan=1>104x 74x38 mm</td><td rowspan=1 colspan=1>137x 113x41 mm</td></tr><tr><td rowspan=1 colspan=1>Intended use</td><td rowspan=1 colspan=1>The ACCU-CHEK SmartPix enables persons withdiabetes or healthcareprofessionals to sendstored data from theircompatible ACCU-CHEK blood glucosemonitor and/orDisetronic/ACCU- CHEKInsulin infusion pump to acompatible computer as aset of reports or datastream. The ACCU-CHEK Smart Pix isintended to help monitorand clinically manageindividuals with diabetes.</td><td rowspan=1 colspan=1>The ACCU-CHEKAcculink modem isdesigned to enable theself-tester to send datafrom a supported Accu-Chek brand meter toeither a facsimile (fax)machine or Rochesupported softwareutilized by a physician,pharmacist, or othermember of the self-tester&#x27;s health careteam. The datatransmission takes placeover standard telephoneservice (POTS) lines ortelephone line emulator.</td></tr><tr><td rowspan=1 colspan=1>Ambient conditions</td><td rowspan=1 colspan=1>Service temperature:</td><td rowspan=1 colspan=1>Operating temperature:</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>5-40C</td><td rowspan=1 colspan=1>0-50C</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Storage temperature:</td><td rowspan=1 colspan=1>Storage temperature:</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-25 -70 C</td><td rowspan=1 colspan=1>-25 -65 C</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Humidity:</td><td rowspan=1 colspan=1>Humidity:</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>9.6 -98% Rh</td><td rowspan=1 colspan=1>0-95%Rh</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Guidance on the Content of Premarket Notification [510(k)] Submissions for External Infusion Pumps • Review Criteria for Assessment of Portable Blood Glucose In Vitro Diagnostic Devices Using Glucose Oxidase, Dehydrogenase, or Hexokinase Methodology Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices
+
+# L. Test Principle:
+
+The ACCU-CHEK Smart Pix is an accessory to the ACCU-CHEK blood glucose monitors such as ACCU-CHEK Aviva see k060620 for meter test principle.
+
+M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: See above associated devices   
+b. Linearity/assay reportable range: See above associated devices   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): See above associated devices   
+d. Detection limit: See above associated devices   
+e. Analytical specificity: See above associated devices   
+f. Assay cut-off: See above associated devices
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: See above associated devices   
+b. Matrix comparison: See above associated devices
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: See above associated devices b. Clinical specificity: See above associated devices
+
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+A Human Factors (HF) study was conducted to survey Accu-Chek Spirit insulin pump users and assess Accu-Chek Smart Pix's usability as it pertains to safe and effective use. The USA-based home use study, in which each subject used the Accu-Chek Smart Pix for two weeks, followed two similar ones conducted in Germany with a total of 45 device users. Representing 37 individuals' feedback, the report evaluated the English-language software user interface's usability during a 2-week use trial.
+
+All 37 study subjects currently use the Accu-Chek Spirit insulin pump and 32 of those individuals use Accu-Chek glucose meters compatible with AccuChek Smart Pix. The population sample included 24 men and 13 women with diabetes between the ages of 15 and 74 (average $= 4 5$ ) who have had diabetes for 1 to 56 years (average $= 2 5$ ). Accu-Chek Smart Pix received subjective ratings ranging between 2.6 and 4.1 (scale: $1 \cdot 7 \colon 1 =$ excellent, $7 = \mathrm { p o o r } )$ in regards to numerous usability-related criteria. The product received the highest ratings in conjunction with the statements $" \mathrm { I }$ prefer graphs for data presentation" and "I could transfer data quickly from my insulin pump and/or glucose meter" (mean ratings of $2 . 6 \colon 1 =$ complete agreement, $7 =$ complete disagreement, $62 \%$ agreement). The product received the lowest average rating (4.1 - placing it in the neutral range, $4 6 \%$ rated positively) for its user interaction qualities. Ultimately, some subjects regarded the Accu-Chek Smart Pix to be a helpful and usable tool. Conversely, a few subjects faced difficulties reading and analyzing uploaded data as well as utilizing the user manual.
+
+From a descriptive statistical perspective, USA subjects viewed the AccuChek Smart Pix less favorably than the European subjects who participated in the two previous studies that focused on a German version of the software. However, Roche’s data collection effort was not structured to support inferential statistical analyses. Therefore, while the data appears to vary somewhat, there might not actually be a significant difference between the user populations' views of the device. As such, users in the USA and abroad might actually have an equivalent view of the device's usability. Generally, their expressed views and ratings place the device's usability squarely in the middle-range.
+
+4. Clinical cut-off: See above associated devices
+
+5. Expected values/Reference range: See above associated devices
+
+# N. Instrument Name:
+
+Roche Diagnostic’s ACCU-CHEK Smart Pix - accessory to the ACCU-CHEK blood
+
+glucose monitors such as ACCU-CHEK Aviva and the Disetronic/ACCU-CHEK insulin infusion pump
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+The Smart Link-system consists of the following: Smart Link's main housing including all necessary electronics including the Infer Red electronics to communicate with IR devices (meters, pumps and diary devices). Hardware and software ware for setup installation of new software ware will be inc1uded. A light indicating system ('light pipe') which will give a clear visible feedback on the device itself to the user. This will indicate the status of the device, communication progress and error messages. A USB cable connects the Smart Link to a PC. Power is supplied by the PC via the USB connection. A slot/garage to store an Accu-Chek IR Key is provided. To be used with Microsoft Windows 2000, XP home or XP professional operating systems and Internet Explorer 5.00. 6.0, Mozilla Firefox 1.0 or Opera 8.02. The user has the ability to generate reports and printouts such as Trend Graph report for beginners, Trend Graph report for advanced users, Daily profile report for beginners, Daily profile report for advanced users, Weekly profile report for beginners, Weekly profile report for advanced users, Daily distribution report, Metabolic Control Graph, and Logbook report.
+
+# 2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ___X____ or No
+
+3. Specimen Identification: Individual use - date and time identification
+
+4. Specimen Sampling and Handling: See above associated devices
+
+5. Calibration: See above associated devices
+
+6. Quality Control: See above associated devices
+
+# P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+Not Applicable
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

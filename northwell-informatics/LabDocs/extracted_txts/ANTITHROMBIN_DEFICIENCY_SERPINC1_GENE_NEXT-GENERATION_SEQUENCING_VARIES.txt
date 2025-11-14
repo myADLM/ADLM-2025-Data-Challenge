@@ -1,0 +1,106 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase for Generating Results for Antithrombin
+Deficiency, SERPINC1 Gene, Next-Generation Sequencing (NGS)
+1. PURPOSE
+The purpose of this SOP is to outline the procedures necessary for
+the analytical phase of antithrombin deficiency testing involving the
+SERPINC1 gene using next-generation sequencing (NGS). This SOP
+ensures accurate, reliable, and timely results for diagnosing
+antithrombin deficiency.
+2. SCOPE
+This procedure applies to all laboratory personnel performing NGS
+for the SERPINC1 gene related to antithrombin deficiency.
+3. RESPONSIBILITY
+It is the responsibility of the laboratory personnel to:
+• Perform NGS data analysis following this SOP.
+• Ensure the integrity and accuracy of the test results through
+appropriate quality control measures.
+• Report results accurately and in a timely manner.
+• Bring any issues or anomalies to the attention of a supervisor.
+• Document all procedures and results thoroughly.
+4. DEFINITIONS
+• Antithrombin Deficiency: A condition characterized by a
+deficiency in antithrombin, leading to an increased risk of
+thrombosis.
+• SERPINC1 Gene: The gene encoding antithrombin, mutations of
+which can cause antithrombin deficiency.
+• Next-Generation Sequencing (NGS): A high-throughput method
+used to determine the sequence of nucleotides in coding and non-
+coding regions of a gene.
+5. PROCEDURE
+5.1. Sample Preparation:
+• Ensure that the specimen has been properly collected, received,
+and accessioned. The sample type typically required is peripheral
+blood in an EDTA tube.
+• Extract DNA using a standardized DNA extraction kit. Document
+any deviations from the standard procedure.
+5.2. Library Preparation:
+• Quantify the extracted DNA using a fluorometer to ensure
+sufficient starting material.
+• Use a targeted enrichment protocol to prepare the library for the
+SERPINC1 gene. This includes:
+◦ Fragmentation of DNA.
+◦ End repair, A-tailing, and adapter ligation.
+◦ PCR amplification (if applicable).
+◦ Quality assessment using a bioanalyzer or similar instrument.
+5.3. Sequencing:
+• Load the prepared library onto the specified NGS platform
+according to the manufacturer’s protocol.
+• Perform sequencing run following the manufacturer's instructions.
+5.4. Data Analysis:
+• Perform initial quality control (QC) checks on raw sequence data.
+Parameters to assess include read quality, read length, and
+overall yield.
+• Align sequence data to the reference human genome sequence
+(GRCh38/hg38).
+• Identify variants using a validated bioinformatics pipeline. This
+typically involves:
+◦ Read alignment.
+◦ Variant calling.
+◦ Filtering based on quality metrics.
+• Annotate identified variants using appropriate software tools.
+5.5. Variants Interpretation:
+• Review identified variants for quality and confirm the presence of
+clinically significant variants in the SERPINC1 gene.
+• Interpret the clinical significance of each variant based on current
+scientific literature and mutation databases (e.g., ClinVar).
+5.6. Quality Control:
+• Include positive and negative control samples in each run to
+ensure the reliability of the sequencing process.
+• Document any discrepancies or anomalies observed during the
+analysis and take corrective actions as necessary.
+5.7. Reporting Results:
+• Compile a comprehensive report detailing the identified variants,
+their clinical significance, and any relevant interpretation.
+• Review and approve the report by designated personnel.
+• Communicate the results to the ordering healthcare provider
+following laboratory guidelines and policies.
+6. QUALITY ASSURANCE AND TROUBLESHOOTING:
+• Verify instrument calibration and performance before each run.
+• Document any instrument issues and notify the supervisor
+immediately for any deviation or instrument failure.
+• Use validated software tools and ensure regular updates to
+maintain data analysis accuracy.
+• Regularly participate in proficiency testing to ensure
+methodological consistency and accuracy.
+7. DOCUMENTATION:
+• Maintain accurate and thorough records of all procedures, results,
+quality control measures, and corrective actions taken.
+• Ensure traceability by documenting all steps from sample
+accessioning to reporting.
+8. REFERENCES:
+• Latest Peer-reviewed literature on Antithrombin Deficiency and
+SERPINC1 gene.
+• Manufacturer’s guidelines for NGS platforms and library
+preparation kits.
+• Institutional guidelines for molecular genetic testing.
+9. REVIEW/REVISION HISTORY:
+• Document control numbers, version history, and approval
+information should be maintained up-to-date.
+10. APPROVAL:
+• Signatures from reviewing and approving personnel with dates to
+ensure compliance.
+By following this SOP, the laboratory will ensure consistent, accurate,
+and reliable results for antithrombin deficiency testing involving the
+SERPINC1 gene using next-generation sequencing.
+End of SOP

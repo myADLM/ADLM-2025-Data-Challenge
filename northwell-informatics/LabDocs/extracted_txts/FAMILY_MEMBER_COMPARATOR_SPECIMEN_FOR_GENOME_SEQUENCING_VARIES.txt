@@ -1,0 +1,95 @@
+1. PURPOSE
+This protocol outlines the procedures for the analytical phase of
+generating results for family member comparator specimens for
+genome sequencing. The aim is to ensure accurate and reliable
+processing and analysis of genomic data to aid in genetic
+comparisons within families.
+Responsibility:
+• It is the responsibility of the designated staff to carry out the
+procedures outlined in this protocol.
+• All laboratory personnel must ensure adherence to SOPs, ensure
+the quality and integrity of the specimens and interpret the results
+accurately.
+• The designated laboratory supervisor/manager is responsible for
+overseeing the analysis and addressing any discrepancies.
+1. DEFINITIONS
+Family Member Comparator Specimen: Biological specimen
+collected from one or more family members for the purpose of
+genetic comparison in genome sequencing studies.
+1. PROCEDURE
+3A: Specimen Reception and Preparation
+1. Verify that family member comparator specimens have been
+correctly labeled with patient identifiers, collection date, and
+relevant clinical information.
+2. Record specimen details in the laboratory information
+management system (LIMS).
+3. Inspect specimens for integrity and acceptability following
+predefined criteria.
+4. If specimens are acceptable, proceed to DNA extraction. If
+unacceptable, coordinate for recollection.
+3B: DNA Extraction and Quantification
+1. Follow the standard DNA extraction protocol applicable to the
+specimen type (e.g., blood, saliva).
+2. Ensure that DNA extraction is performed in a clean,
+contamination-free environment.
+3. Quantify and assess the quality of extracted DNA using
+spectrophotometry (e.g., Nanodrop) and gel electrophoresis,
+documenting all findings.
+4. If DNA quality and quantity are within acceptable limits, proceed
+to library preparation. If deviations occur, take corrective actions
+that may include re-extraction.
+3C: Library Preparation and Quality Control
+1. Prepare sequencing libraries using the appropriate kit and
+protocol, ensuring proper indexing for each family member
+comparator specimen.
+2. Perform quality control of the libraries using techniques such as
+capillary electrophoresis (e.g., Bioanalyzer). Document the
+results.
+3. Normalize the concentration of libraries to ensure uniformity for
+sequencer loading.
+3D: Sequencing
+1. Load the prepared libraries onto the sequencer following the
+manufacturer's instructions.
+2. Confirm correct placement and configuration of the library
+pools.
+3. Initiate sequencing runs and closely monitor the process for any
+errors or inconsistencies.
+4. Ensure that all run parameters meet the sequencing quality
+criteria defined by the laboratory.
+3E: Data Analysis
+1. Use bioinformatics pipelines to process the raw sequencing
+data, including quality assessment, alignment to reference
+genome, and variant calling.
+2. Conduct family-based variant annotation and analysis using
+standardized tools and databases. Verify the analysis results.
+3. Generate a comprehensive report that includes the identified
+variants and their potential clinical significance. Ensure that
+findings are interpretable in the familial context.
+3F: Quality Assurance
+1. Perform internal quality control assessments at every step,
+adhering to the laboratory’s QA/QC programs.
+2. Compare findings with previously validated results or known
+controls to confirm accuracy and consistency.
+3. Document all quality control measures and corrective actions to
+maintain the integrity of the analysis.
+4. REPORTING RESULTS
+5. Results are to be reviewed and interpreted by a qualified
+laboratory scientist or geneticist.
+6. Document findings in a structured format that is consistent with
+laboratory templates and regulatory requirements.
+7. Prepare reports for release, ensuring clarity and inclusion of all
+relevant genetic findings and recommendations.
+8. Communicate results to the ordering clinician or genetic
+counselor in a timely manner.
+9. REFERENCES
+List applicable references, including guidelines from relevant
+regulatory bodies, published protocols, and manufacturer's
+instructions for the reagents and equipment used.
+1. APPENDICES
+Include appendices as necessary, such as standard templates for
+documentation, detailed flowcharts of procedures, contact
+information for support essentials, and troubleshooting guides.
+1. REVIEW AND REVISION LOG
+Document the date of the latest review and any amendments made.
+Ensure protocols are regularly updated to reflect the latest technical
+and regulatory developments.

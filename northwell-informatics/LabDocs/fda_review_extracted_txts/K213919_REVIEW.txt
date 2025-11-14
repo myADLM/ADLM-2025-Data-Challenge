@@ -1,0 +1,1950 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K213919
+B Applicant
+Dexcom, Inc.
+C Proprietary and Established Names
+Dexcom G7 Continuous Glucose Monitoring (CGM) System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1355 -
+CH - Clinical
+QBJ Class II Integrated Continuous
+Chemistry
+Glucose Monitoring System
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Measurand:
+Glucose in Interstitial Fluid
+C Type of Test:
+Quantitative, amperometric assay (Glucose Oxidase)
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QBJ			Class II	21 CFR 862.1355 -
+Integrated Continuous
+Glucose Monitoring System			CH - Clinical
+Chemistry
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The Dexcom G7 Continuous Glucose Monitoring (CGM) System is a real time, continuous
+glucose monitoring device indicated for the management of diabetes in persons 2 years and
+older.
+The Dexcom G7 CGM System is intended to replace fingerstick BG testing for diabetes
+treatment decisions. Interpretation of the Dexcom G7 CGM System results should be based on
+the glucose trends and several sequential sensor readings over time. The Dexcom G7 CGM
+System also aids in the detection of episodes of hyperglycemia and hypoglycemia, facilitating
+both acute and long-term therapy adjustments.
+The Dexcom G7 CGM System is also intended to autonomously communicate with digitally
+connected devices, including automated insulin dosing (AID) systems. The Dexcom G7 CGM
+System can be used alone or in conjunction with these digitally connected medical devices for
+the purpose of managing diabetes.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+• Users of the Dexcom G7 Continuous Glucose Monitoring System can take a standard
+dose of acetaminophen (up to 1 gram every 6 hours in adults) and still use the Dexcom
+G7 System readings. Sensor glucose readings will be falsely higher if the user is taking
+more than a standard acetaminophen dose.
+• Sensor glucose readings will also be falsely higher if the user is taking hydroxyurea.
+Users should not use the Dexcom G7 System for diabetes treatment decisions if they are
+taking hydroxyurea.
+• Don't wear any Dexcom G7 CGM System component during magnetic resonance
+imaging (MRI) or high-frequency electrical heat (diathermy) treatment. However, it's safe
+to have a CT scan if you keep the sensor out of the scanned area and cover the sensor
+with a lead apron during the scan.
+• Don't ignore low/high symptoms: Use BG meter to make treatment decisions when the
+sensor readings don't match the user's low/high symptoms. If needed, seek immediate
+medical attention.
+• Use BG meter to make treatment decisions when the Dexcom G7 CGM System doesn't
+show both a number and trend arrow as well as during the 30-minute sensor warmup
+period.
+• Don't use if on dialysis or critically ill: The Dexcom G7 CGM System performance hasn't
+been evaluated in these populations and sensor readings may be inaccurate.
+• Don't ignore broken or detached sensor wires. If this happens, contact 24/7 technical
+support.
+K213919 - Page 2 of 25
+
+--- Page 3 ---
+• Insert only in the arm or buttocks: Don’t wear it on other sites as it may not work as
+expected.
+• Store sensors at room temperature or in the refrigerator, between 36° F and 86° F, but
+not in the freezer.
+• Check settings: Make sure the smart device volume is turned up, not muted, and the
+speaker works. When a headphone is connected, alerts will only sound through the
+headphone, not on the smart device speaker.
+• Make sure Bluetooth is on. Otherwise, the user won't get readings or alerts.
+• Make sure the smart device settings follow Dexcom’s recommended settings.
+Certain phone settings such as Android's Digital Wellbeing and Apple’s Screen
+Time may prevent notifications if enabled.
+• Allow Dexcom G7 CGM System app notifications to show on Lock screen. This
+will ensure the user can receive Dexcom notifications and allow the user to see
+notifications without unlocking the phone.
+• Android users must allow Location Permission, Do Not Disturb Access, and
+Notifications to use the app.
+• Apple users must allow Critical Alerts to use the app.
+• Battery: Keep the battery charged.
+• Quiet Mode (Vibrate): When this setting is enabled all System alerts will vibrate. The
+Urgent Low Glucose and technical alerts will still escalate to sound if not acknowledged.
+• Quiet Mode (Silence All): When this setting is enabled, all System alerts will be silent.
+The user won't receive sound or vibration for any alerts. The user will still receive visual
+alerts on the display device. (Exceptions: App Stopped alerts will still sound.) Check the
+display device frequently to avoid missing a low/high event.
+• Before upgrading the smart device or its operating system, check
+dexcom.com/compatibility. Always update manually and verify correct device settings
+afterward.
+• Let the date and time on the smart device automatically update when traveling across
+time zones or switch between standard and daylight saving times. Don’t manually change
+the smart device time because the user may not get readings or alerts and it may make the
+time on the trend screen wrong.
+Use electrical equipment as directed:
+Portable radio frequency communications equipment (including peripherals such as antenna
+cables and external antennas) should be used no closer than 12 inches to any part of the Dexcom
+G7 CGM System including cables specified by the manufacturer. Otherwise, degradation of the
+performance of this equipment could result.
+Use of this equipment adjacent to, or stacked with, other equipment should be avoided because it
+could result in improper operation.
+Not using supplied USB charger and cable may cause the receiver battery to not charge. Don't
+use if the supplied USB charger or cable is damaged. Store supplied USB charger and cable
+safely. Misuse of the USB cable can be a strangulation risk.
+K213919 - Page 3 of 25
+
+--- Page 4 ---
+D Special Instrument Requirements:
+Not applicable.
+IV Device/System Characteristics:
+A Device Description:
+The Dexcom G7 Continuous Glucose Monitoring System (G7 System) is an interoperable
+continuous glucose monitoring (CGM) system intended to continuously measure the glucose in
+the interstitial fluid, calculate the glucose reading and make this value available to the user. It
+consists of the following components:
+• G7 Glucose Sensing Subsystem (GSS)
+• G7 Mobile Applications Subsystem (MAS)
+• G7 Receiver Subsystem (RVS)
+To achieve the intended functions and performance of the G7 System, one GSS and one
+receiving device (MAS or RVS) must be used together. The receiving device acts as the primary
+display device and the user may choose to use only the MAS or only the RVS as the sole display
+device; they may also choose to use both display devices simultaneously (MAS and RVS). The
+user must pair the receiving device(s) with each unique GSS to enable communication and start a
+sensor session. During an active session, the GSS reports new glucose data to a receiving device
+every 5-minutes. The receiving device then displays glucose data and provides alerts and
+information signals to the user. The reportable glucose range for the G7 System is 40 mg/dL to
+400 mg/dL. Glucose values below this range are reported as ‘LOW’ and glucose values above
+this range are reported as ‘HIGH’. The sensor has an expected wear period of up to 10 days with
+an extended 12-hour grace period after the sensor session. The grace period allows additional
+time for the user to change the sensor at a convenient time.
+The Dexcom G7 System is an interoperable connected device that can communicate glucose
+readings and other information wirelessly and securely to and from interoperable electronic
+interfaces; including compatible AID systems.
+B Principle of Operation:
+The Dexcom G7 Continuous Glucose Monitoring System detects glucose levels from the fluid
+just beneath the skin (interstitial fluid). The sensor probe continuously measures glucose
+concentration in the interstitial fluid via an enzymatic electrochemical reaction using glucose
+oxidase. The enzyme, glucose oxidase, catalyzes the oxidation of glucose and produces hydrogen
+peroxide. The production of hydrogen peroxide generates an electrical current that is
+proportionate to the interstitial glucose concentration. The transmitter converts the signal using
+an algorithm to a glucose value read in mg/dL, which is then transmitted to the receiver/mobile
+application for the user to see and use accordingly.
+K213919 - Page 4 of 25
+
+--- Page 5 ---
+C Instrument Description Information:
+1. Instrument Name:
+Dexcom G7 Continuous Glucose Monitoring (CGM) System
+2. Specimen Identification:
+Not applicable.
+3. Specimen Sampling and Handling:
+Not applicable.
+4. Calibration:
+The G7 Continuous Glucose Monitoring System is factory calibrated and does not require a
+sensor code. User may enter optional calibration using fingerstick blood glucose values.
+5. Quality Control:
+Not applicable.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Dexcom G6 Continuous Glucose Monitoring (CGM) System
+B Predicate 510(k) Number(s):
+K201328
+C Comparison with Predicate(s):
+Device & Predicate
+K213919 K201328
+Device(s):
+Dexcom G6 Continuous
+Dexcom G7 Continuous Glucose
+Device Trade Name Glucose Monitoring
+Monitoring System
+System
+General Device
+Characteristic
+Similarities
+An integrated continuous glucose
+monitoring system (iCGM) is
+intended to automatically measure
+glucose in bodily fluids continuously
+Intended or frequently for a specified period of
+Use/Indications For time. iCGM systems are designed to Same
+Use reliably and securely transmit glucose
+measurement data to digitally
+connected devices, including
+automated insulin dosing systems,
+and are intended to be used alone or
+K213919 - Page 5 of 25
+
+[Table 1 on page 5]
+	Device & Predicate		K213919	K201328
+	Device(s):			
+Device Trade Name			Dexcom G7 Continuous Glucose
+Monitoring System	Dexcom G6 Continuous
+Glucose Monitoring
+System
+	General Device			
+	Characteristic			
+	Similarities			
+Intended
+Use/Indications For
+Use			An integrated continuous glucose
+monitoring system (iCGM) is
+intended to automatically measure
+glucose in bodily fluids continuously
+or frequently for a specified period of
+time. iCGM systems are designed to
+reliably and securely transmit glucose
+measurement data to digitally
+connected devices, including
+automated insulin dosing systems,
+and are intended to be used alone or	Same
+
+--- Page 6 ---
+Device & Predicate
+K213919 K201328
+Device(s):
+in conjunction with these digitally
+connected medical devices for the
+purpose of managing a disease or
+condition related to glycemic control.
+Amperometric measurement of
+Principle of current proportional to glucose
+Same
+Operation concentration in interstitial fluid via
+glucose oxidase chemical reaction.
+Factory calibrated, optional manual
+Sensor Calibration Same
+calibration
+Primary Display Mobile app installed on compatible
+Same
+Device smart device or Receiver
+Compatible with digitally connected
+Compatibility with
+devices, including automated insulin Same
+connected devices
+dosing (AID) systems
+General Device
+Characteristic
+Differences
+Sensor Probe 90º insertion angle 45° insertion angle
+Dimensions
+Anatomical Wear Arm (age 2+ years) or upper buttocks Abdomen (age 2+
+Location (age 2-6 years) years) or upper
+buttocks (age 2-17
+years)
+Sensor Warm Up Within 30 minutes 2 hours
+Time
+Sensor Useful Life Up to 10 days with 12 hour grace Up to 10 days
+period (automatic sensor shut off) (automatic sensor shut
+off)
+Transmitter Useful
+Single Use (10.5 days) Reusable (90 days)
+Life
+VI Standards/Guidance Documents Referenced:
+1. ISO 14971:2007, Medical devices - Application of Risk Management to Medical Devices
+2. IEC 60601-1-2:2014, Medical Electrical Equipment - Part 1-2: General requirements for
+basic safety and essential performance - Collateral standard: Electromagnetic compatibility -
+Requirements and tests
+3. IEC 60601-1-11:2015, Medical Electrical Equipment – Part 1-11 – General requirements for
+basic safety and essential performance - Collateral Standard: Requirements for Medical
+Electrical Equipment and Medical Electrical Systems used in the Home Healthcare
+Environment
+K213919 - Page 6 of 25
+
+[Table 1 on page 6]
+	Device & Predicate		K213919	K201328
+	Device(s):			
+			in conjunction with these digitally
+connected medical devices for the
+purpose of managing a disease or
+condition related to glycemic control.	
+Principle of
+Operation			Amperometric measurement of
+current proportional to glucose
+concentration in interstitial fluid via
+glucose oxidase chemical reaction.	Same
+Sensor Calibration			Factory calibrated, optional manual
+calibration	Same
+Primary Display
+Device			Mobile app installed on compatible
+smart device or Receiver	Same
+Compatibility with
+connected devices			Compatible with digitally connected
+devices, including automated insulin
+dosing (AID) systems	Same
+	General Device			
+	Characteristic			
+	Differences			
+Sensor Probe
+Dimensions			90º insertion angle	45° insertion angle
+Anatomical Wear
+Location			Arm (age 2+ years) or upper buttocks
+(age 2-6 years)	Abdomen (age 2+
+years) or upper
+buttocks (age 2-17
+years)
+Sensor Warm Up
+Time			Within 30 minutes	2 hours
+Sensor Useful Life			Up to 10 days with 12 hour grace
+period (automatic sensor shut off)	Up to 10 days
+(automatic sensor shut
+off)
+Transmitter Useful
+Life			Single Use (10.5 days)	Reusable (90 days)
+
+--- Page 7 ---
+4. ISO 14155: 2011, Clinical investigation of medical devices for human subjects – Good
+clinical practice
+5. IEC 62366-1:2015, Medical Devices – Application of Usability Engineering to Medical
+Devices
+6. ISO 10993-1:2018, Biological Evaluation of Medical Devices - Part 1: Evaluation and testing
+within a Risk Management Process
+7. ISO 10993-2:2006, Biological Evaluation of medical devices – Part 2: Animal Welfare
+Requirements
+8. ISO 10993-3: 2014 Biological Evaluation of Medical Devices - Part 3: Tests for
+genotoxicity, carcinogenicity and reproductive toxicity
+9. ISO 10993 -5:2009, Biological Evaluation of Medical Devices - Part 5: Tests for in vitro
+toxicity.
+10. ISO 10993-6 :2016, Biological evaluation of Medical Devices - Part 6: Tests for local effects
+after implantation
+11. ISO 10993-7:2008, Biological evaluation of medical devices -- Part 7: Ethylene oxide
+sterilization residuals
+12. ISO 10993-10:2010, Biological Evaluation of Medical Devices – Part 10: Tests for irritation
+and delayed-type hyper sensitivity
+13. ISO 10993-11:2017, Biological evaluation of medical devices - Part 11: Tests for systemic
+toxicity
+14. ISO 10993-12:2012, Biological Evaluation of Medical Devices – Part 12: Sample preparation
+and reference materials
+15. ISO 10993-17:2002, Biological evaluation of medical devices Part 17: Establishment of
+allowable limits for leachable substances
+16. ISO 10993-18:2020, Biological evaluation of medical devices - Part 18: Chemical
+characterization of medical device materials within a risk management process
+17. ISO 11607-1:2019, Packaging for terminally sterilized medical devices Part 1: Requirements
+for Material, Sterile Barrier Systems, and Packaging Systems
+18. ISO 11607-2:2019, Packaging for terminally sterilized Medical Devices – Part 2: Validation
+Requirements for forming, sealing and assembly processes
+19. ISO 11737 -1:2018 , Sterilization of Medical Devices - Microbiological Methods, Part 1 -
+Determination of a population of microorganisms on products
+K213919 - Page 7 of 25
+
+--- Page 8 ---
+20. ISO 11737-2:2018, Sterilization of Medical Devices - Microbiological Methods, Part 2 Tests
+of sterility performed in the definition, validation and maintenance of a sterilization process
+21. ISO 15223-1:2016, Medical devices – Symbol to be used with medical device labels,
+labelling and information to be supplied – Part 1: General Requirements
+22. ISO 14644-1:2015, Cleanrooms and associated controlled environments - Part 1:
+Classification of air cleanliness by particle concentration
+23. ISO 14644-2:2015, Cleanrooms and associated controlled environments - Part 2: Monitoring
+to provide evidence of cleanroom performance related to air cleanliness by particle
+concentration
+24. ASTM D4169-16, Standard Practice for Performance Testing of Shipping Containers and
+Systems
+25. ASTM F2503-20, Standard Practice for Marking Medical Devices and Other Items for Safety
+in the Magnetic Resonance Environment
+26. ISO 23908:2011, Sharps injury protection -- Requirements and test methods -- Sharps
+protection features for single-use hypodermic needles, introducers for catheters and needles
+used for blood sampling
+27. IEC 62133-2:2017, Secondary Cells And Batteries Containing Alkaline Or Other Non-Acid
+Electrolytes - Safety Requirements For Portable Sealed Secondary Cells, And For Batteries
+Made From Them, For Use In Portable Applications - Part 2: Lithium Systems
+28. IEC/TR 60601-4-2: 2016, Medical Electrical Equipment - PART 4-2: Guidance and
+Interpretation - Electromagnetic Immunity: Performance of Medical Electrical Equipment
+and Medical Electrical Systems
+29. AIM 7351731: 2017-02-23, AIM Standard - Medical Electrical Equipment & System
+Electromagnetic Immunity Test for RFID Readers
+30. IEEE/ANSI C63.27-2017, American National Standard for Evaluation of Wireless
+Coexistence
+31. IEC 60417: 2002, Graphical symbols for use on equipment
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+iCGM performance was evaluated in clinical studies described below in section C(3). A
+subset of subjects wore two G7 CGMs at the same time (n=82). Precision was evaluated by
+K213919 - Page 8 of 25
+
+--- Page 9 ---
+comparing the glucose readings from the two systems worn on the same subject on the same
+location.
+Precision by Insertion Site and Age
+18+ YO 7-17 YO 2-6 YO
+Upper
+Arm Arm Arm
+Buttocks*
+CGM-CGM
+50,542 22,345 2,611 4,245
+Matched Pairs (n)
+Number of Subjects (N) 43 21 9 9
+Paired Absolute
+Difference
+13.8 14.4 12.8 15.4
+(mg/dL)
+Paired Absolute Relative
+8.9 9.3 6.1 9.7
+Difference (%)
+Coefficient of
+6.3 6.6 4.3 6.8
+Variation (%)
+*Only pediatrics aged between 2-6 YO wore devices on the upper buttocks.
+2. Linearity:
+The reportable range for the System is 40 to 400 mg/dL. Data supporting this claimed
+measurement range was generated in the clinical study described in Section C(3) below.
+3. Analytical Specificity/Interference:
+Users of the Dexcom G7 Continuous Glucose Monitoring System can take a standard or
+maximum dose of acetaminophen (up to 1 gram every 6 hours in adults) and still use the
+Dexcom G7 System readings. Sensor glucose readings will be falsely higher if the user is
+taking more than a standard acetaminophen dose.
+Sensor glucose readings will also be falsely higher if the user is taking hydroxyurea. Users
+should not use the Dexcom G7 System for diabetes treatment decisions if they are taking
+hydroxyurea.
+4. Assay Reportable Range:
+See Linearity section above.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+The Dexcom GSS (sensor and transmitter) has a storage shelf-life of up to 9 months with the
+insert molded needle hub design and up to 6 months with the bonded needle hub design.
+Shelf life was evaluated at 35.6°-86°F and 10-90% relative humidity. Sensors should be
+stored at 36°- 86°F and 10-90% relative humidity.
+K213919 - Page 9 of 25
+
+[Table 1 on page 9]
+				
+	18+ YO	7-17 YO	2-6 YO	
+				
+				Upper
+	Arm	Arm	Arm	
+				
+				Buttocks*
+				
+				
+CGM-CGM
+Matched Pairs (n)	50,542	22,345	2,611	4,245
+Number of Subjects (N)	43	21	9	9
+Paired Absolute
+Difference
+(mg/dL)	13.8	14.4	12.8	15.4
+Paired Absolute Relative
+Difference (%)	8.9	9.3	6.1	9.7
+Coefficient of
+Variation (%)	6.3	6.6	4.3	6.8
+
+--- Page 10 ---
+6. Detection Limit:
+If a glucose measurement is less than 40 mg/dL, the result is displayed by the system as
+LOW. If a glucose measurement exceeds 400 mg/dL, result is displayed as HIGH.
+7. Assay Cut-Off:
+Not applicable.
+8. Accuracy (Instrument):
+Not applicable.
+9. Carry-Over:
+Not applicable.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Not applicable. Accuracy is determined by comparing device values to an FDA cleared
+laboratory grade glucose analyzer (Yellow Springs Instrument 2300 STAT Plus™ Glucose
+Analyzer) and referred to as the “comparator method” in Section C(3) below.
+2. Matrix Comparison:
+Not applicable. Interstitial fluid is the only indicated matrix.
+C Clinical Studies:
+1. Clinical Sensitivity:
+Not applicable.
+2. Clinical Specificity:
+Not applicable.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Two prospective clinical studies were conducted to evaluate the Dexcom G7 Continuous
+Glucose Monitoring System (Dexcom G7 CGM System or G7):
+• Study 1 – a pivotal study conducted at 12 clinic sites in the United States to evaluate
+the safety and effectiveness of the Dexcom G7 CGM System. A total of 482 adult and
+pediatric subjects (ages 2 and older) were enrolled.
+K213919 - Page 10 of 25
+
+--- Page 11 ---
+• Study 2 – a pivotal study conducted at two clinic sites in the United States to evaluate
+the data transmission reliability of the Dexcom G7 CGM System. A total of 60 adult
+and pediatric subjects (ages 12 and older) were enrolled.
+The G7 wearables (sensor, data-logging transmitter, and adhesive patch) worn in Study 1 logged
+the glucose data but did not transmit real-time glucose data to a display device. As such, Study 2
+was conducted to characterize the reliability of the real-time communication between the G7
+wearable and the G7 display devices.
+Data from Study 1 are presented in the tables below.
+iCGM Reading Accuracy to Comparator
+Percent and Point Accuracy Between iCGM and Comparator by iCGM Glucose Range -
+≥ 18 YO Arm (N=308)
+Mean
+iCGM Percent Percent Percent Percent
+Bias
+Glucose Matched Within Within Within Within
+(mg/dL)
+Range Pairs (N) 15 mg/dL 40 mg/dL 15% 40%
+(95%
+(mg/dL) (95% LB) (95% LB) (95% LB) (95% LB)
+UB)
+<70 4,869 92.0 (90.0) 99.5 (99.1) ---- ---- -6.5 (-5.4)
+70-180 18,379 ---- --- 85.4 (83.8) 99.5 (99.3) -3.1 (-2.0)
+>180 15,945 ---- --- 92.2 (91.1) 99.9 (99.9) 1.6 (2.8)
+Percent and Point Accuracy Between iCGM and Comparator by iCGM Glucose Range
+- Pediatrics 7-17 YO Arm (N=122)
+Percent Mean
+iCGM Percent Percent Percent
+Within Bias
+Glucose Matched Within Within Within
+40 (mg/dL)
+Range Pairs (N) 15 mg/dL 40 mg/dL 15%
+% (95%
+(mg/dL) (95% LB) (95% LB) (95% LB)
+(95% LB) UB)
+<70 881 85.7 (79.9) 96.8 (92.0) ---- ---- -7.8 (-5.6)
+70-180 3,996 ---- ---- 86.0 (82.1) 99.6 (99.3) -3.6 (-1.5)
+>180 3,191 ---- ---- 92.2 (89.4) 100.0 (99.8) 1.6 (3.9)
+Percent and Point Accuracy Between iCGM and Comparator by Comparator Glucose
+Range - ≥ 18 YO Arm (N=308)
+Comparator Percent Percent Percent Percent Mean
+Glucose Matched Within Within Within Within Bias
+Range Pairs (N) 15 mg/dL 40 mg/dL 15% 40% (mg/dL)
+(mg/dL) (95% LB) (95% LB) (95% LB) (95% LB) (95% UB)
+<70 5,262 93.4 (91.8) 99.8 (99.2) ---- ---- 1.2 (2.2)
+70-180 17,910 ---- --- 85.7 (84.2) 99.5 (99.3) -0.5 (0.5)
+>180 16,021 ---- --- 91.9 (90.6) 99.8 (99.7) -3.9 (-2.5)
+K213919 - Page 11 of 25
+
+[Table 1 on page 11]
+iCGM
+Glucose
+Range
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15 mg/dL
+(95% LB)	Percent
+Within
+40 mg/dL
+(95% LB)	Percent
+Within
+15%
+(95% LB)	Percent
+Within
+40%
+(95% LB)	Mean
+Bias
+(mg/dL)
+(95%
+UB)
+<70	4,869	92.0 (90.0)	99.5 (99.1)	----	----	-6.5 (-5.4)
+70-180	18,379	----	---	85.4 (83.8)	99.5 (99.3)	-3.1 (-2.0)
+>180	15,945	----	---	92.2 (91.1)	99.9 (99.9)	1.6 (2.8)
+
+[Table 2 on page 11]
+iCGM
+Glucose
+Range
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15 mg/dL
+(95% LB)	Percent
+Within
+40 mg/dL
+(95% LB)	Percent
+Within
+15%
+(95% LB)	Percent
+Within
+40
+%
+(95% LB)	Mean
+Bias
+(mg/dL)
+(95%
+UB)
+<70	881	85.7 (79.9)	96.8 (92.0)	----	----	-7.8 (-5.6)
+70-180	3,996	----	----	86.0 (82.1)	99.6 (99.3)	-3.6 (-1.5)
+>180	3,191	----	----	92.2 (89.4)	100.0 (99.8)	1.6 (3.9)
+
+[Table 3 on page 11]
+Comparator
+Glucose
+Range
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15 mg/dL
+(95% LB)	Percent
+Within
+40 mg/dL
+(95% LB)	Percent
+Within
+15%
+(95% LB)	Percent
+Within
+40%
+(95% LB)	Mean
+Bias
+(mg/dL)
+(95% UB)
+<70	5,262	93.4 (91.8)	99.8 (99.2)	----	----	1.2 (2.2)
+70-180	17,910	----	---	85.7 (84.2)	99.5 (99.3)	-0.5 (0.5)
+>180	16,021	----	---	91.9 (90.6)	99.8 (99.7)	-3.9 (-2.5)
+
+--- Page 12 ---
+Percent and Point Accuracy Between iCGM and Comparator by Comparator Glucose
+Range - Pediatrics 7-17 YO Arm (N=122)
+Comparator Percent Percent Percent Percent Mean
+Glucose Matched Within Within Within Within Bias
+Range Pairs (N) 15 mg/dL 40 mg/dL 15% 40% (mg/dL)
+(mg/dL) (95% LB) (95% LB) (95% LB) (95% LB) (95% UB)
+<70 877 93.2 (90.2) 100.0 (100.0) ---- ---- -0.2 (1.9)
+70-180 3,936 ---- ---- 87.2 (83.6) 98.6 (97.4) -1.2 (0.7)
+>180 3,255 ---- ---- 89.8 (86.5) 99.9 (99.7) -2.7 (-0.4)
+The G7 percent and point accuracy between iCGM and the comparator is equal to or better than
+that of the predicate G6 CGM System (K201328).
+Percent of values within 20% of comparator method were calculated across the measuring range
+overall, and for pediatric and adult populations.
+Percent of iCGM Within 20% of Comparator Glucose by Study Population and Wear
+Location (N=453)
+Percent within
+Patient Population/ Wear location Matched Pairs (n) 20%
+(95% LB)
+Overall (40-400 mg/dL)
+Arm 47,261 93.5 (92.7)
+18 years and up
+Arm 39,193 94.1 (93.3)
+Pediatrics (7-17 years old)
+Arm 8,068 94.4 (92.7)
+Pediatrics (2 - 6 years old)
+Arm 148 96.4 (90.8)
+Upper buttocks 143 87.4 (79.1)
+Percent of values within 15%/15 mg/dL, 20%/20 mg/dL, and 40%/40 mg/dL stratified by
+glucose ranges of <54, 54-69, 70-180, 181-250, and >250 mg/dL for iCGM and comparator
+were also provided for arm insertion site in adult and pediatric subjects.
+K213919 - Page 12 of 25
+
+[Table 1 on page 12]
+Comparator
+Glucose
+Range
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15 mg/dL
+(95% LB)	Percent
+Within
+40 mg/dL
+(95% LB)	Percent
+Within
+15%
+(95% LB)	Percent
+Within
+40%
+(95% LB)	Mean
+Bias
+(mg/dL)
+(95% UB)
+<70	877	93.2 (90.2)	100.0 (100.0)	----	----	-0.2 (1.9)
+70-180	3,936	----	----	87.2 (83.6)	98.6 (97.4)	-1.2 (0.7)
+>180	3,255	----	----	89.8 (86.5)	99.9 (99.7)	-2.7 (-0.4)
+
+[Table 2 on page 12]
+Patient Population/ Wear location	Matched Pairs (n)	Percent within
+20%
+(95% LB)
+Overall (40-400 mg/dL)
+Arm	47,261	93.5 (92.7)
+18 years and up
+Arm	39,193	94.1 (93.3)
+Pediatrics (7-17 years old)
+Arm	8,068	94.4 (92.7)
+Pediatrics (2 - 6 years old)
+Arm
+Upper buttocks	148
+143	96.4 (90.8)
+87.4 (79.1)
+
+--- Page 13 ---
+System Accuracy to Comparator Within iCGM Glucose Ranges - ≥ 18 YO Arm
+(N=308)
+iCGM Percent Percent Percent
+Matched Percent Percent Percent Mean
+Glucose Within Within Within
+Pairs Within Within Within Bias MARD
+Range 15 20 40
+(N) 15% 20% 40% (mg/dL) (%)
+(mg/dL) mg/dL mg/dL mg/dL
+<54 1,140 79.7 88.9 98.9 ---- ---- ---- -9.3 16.0
+54-69 3,729 92.8 96.1 99.3 ---- ---- ---- -2.3 9.1
+70-180 18,379 ---- ---- ---- 83.6 91.9 99.0 0.4 8.9
+181-250 6,055 ---- ---- ---- 89.3 95.2 99.8 -2.7 7.5
+>250 9,890 ---- ---- ---- 94.5 98.2 100.0 -2.3 6.0
+System Accuracy to Comparator Within iCGM Glucose Ranges - Pediatrics 7-17 YO Arm
+(N=122)
+iCGM Percent Percent Percent
+Percent Percent Percent Mean
+Glucose Matched Within Within Within MARD
+Within Within Within Bias
+Range Pairs (N) 15 20 40 (%)
+15% 20% 40% (mg/dL)
+(mg/dL) mg/dL mg/dL mg/dL
+<54 162 52.5 71.0 92.0 ---- ---- ---- -17.7 24.1
+54-69 719 89.8 94.0 97.4 ---- ---- ---- -4.7 9.0
+70-180 3,996 ---- ---- ---- 85.1 92.6 99.6 -0.7 8.3
+181-250 1,316 ---- ---- ---- 87.9 95.9 99.9 -3.2 7.5
+>250 1,875 ---- ---- ---- 94.1 99.3 100.0 -3.2 6.3
+System Accuracy to Comparator Within Comparator Glucose Ranges - ≥ 18 YO Arm
+(N=308)
+Comparator Percent Percent Percent
+Percent Percent Percent Mean
+Glucose Within Within Within
+Matched Within Within Within Bias MARD
+Range 15 20 40
+Pairs (N) 15% 20% 40% (mg/dL) (%)
+(mg/dL) mg/dL mg/dL mg/dL
+<54 732 91.0 93.7 98.8 ---- ---- ---- 4.0 14.0
+54-69 4,530 92.0 97.0 99.8 ---- ---- ---- 1.1 10.7
+70-180 17,910 ---- ---- ---- 84.6 92.6 99.3 1.1 8.6
+181-250 5,905 ---- ---- ---- 89.9 95.0 99.6 -1.9 7.4
+>250 10,116 ---- ---- ---- 92.8 97.1 99.9 -6.6 6.4
+K213919 - Page 13 of 25
+
+[Table 1 on page 13]
+iCGM
+Glucose
+Range
+(mg/dL)	Matched
+Pairs
+(N)	Percent
+Within
+15
+mg/dL	Percent
+Within
+20
+mg/dL	Percent
+Within
+40
+mg/dL	Percent
+Within
+15%	Percent
+Within
+20%	Percent
+Within
+40%	Mean
+Bias
+(mg/dL)	MARD
+(%)
+<54	1,140	79.7	88.9	98.9	----	----	----	-9.3	16.0
+54-69	3,729	92.8	96.1	99.3	----	----	----	-2.3	9.1
+70-180	18,379	----	----	----	83.6	91.9	99.0	0.4	8.9
+181-250	6,055	----	----	----	89.3	95.2	99.8	-2.7	7.5
+>250	9,890	----	----	----	94.5	98.2	100.0	-2.3	6.0
+
+[Table 2 on page 13]
+iCGM
+Glucose
+Range
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15
+mg/dL	Percent
+Within
+20
+mg/dL	Percent
+Within
+40
+mg/dL	Percent
+Within
+15%	Percent
+Within
+20%	Percent
+Within
+40%	Mean
+Bias
+(mg/dL)	MARD
+(%)
+<54	162	52.5	71.0	92.0	----	----	----	-17.7	24.1
+54-69	719	89.8	94.0	97.4	----	----	----	-4.7	9.0
+70-180	3,996	----	----	----	85.1	92.6	99.6	-0.7	8.3
+181-250	1,316	----	----	----	87.9	95.9	99.9	-3.2	7.5
+>250	1,875	----	----	----	94.1	99.3	100.0	-3.2	6.3
+
+[Table 3 on page 13]
+Comparator
+Glucose
+Range
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15
+mg/dL	Percent
+Within
+20
+mg/dL	Percent
+Within
+40
+mg/dL	Percent
+Within
+15%	Percent
+Within
+20%	Percent
+Within
+40%	Mean
+Bias
+(mg/dL)	MARD
+(%)
+<54	732	91.0	93.7	98.8	----	----	----	4.0	14.0
+54-69	4,530	92.0	97.0	99.8	----	----	----	1.1	10.7
+70-180	17,910	----	----	----	84.6	92.6	99.3	1.1	8.6
+181-250	5,905	----	----	----	89.9	95.0	99.6	-1.9	7.4
+>250	10,116	----	----	----	92.8	97.1	99.9	-6.6	6.4
+
+--- Page 14 ---
+System Accuracy to Comparator Within Comparator Glucose Ranges - Pediatrics 7-17
+YO Arm (N=122)
+Comparator Percent Percent Percent
+Percent Percent Percent Mean
+Glucose Within Within Within
+Matched Within Within Within Bias MARD
+Range 15 20 40
+Pairs (N) 15% 20% 40% (mg/dL) (%)
+(mg/dL) mg/dL mg/dL mg/dL
+<54 66 92.4 98.5 100.0 ---- ---- ---- 2.0 10.4
+54-69 811 91.0 96.9 100.0 ---- ---- ---- 0.7 9.8
+70-180 3,936 ---- ---- ---- 85.5 92.4 98.6 -0.4 8.5
+181-250 1,275 ---- ---- ---- 88.0 94.7 99.8 -2.3 7.6
+>250 1,980 ---- ---- ---- 90.9 97.8 99.9 -7.9 6.8
+Concurrence
+Concurrence of iCGM values compared to the comparator method across the entire
+measuring range was also evaluated. iCGM glucose ranges of <40, 40-60, 61-80, 81-120,
+121-160, 161-200, 201-250, 251-300, 301-350, 351-400, and >400 mg/dL were evaluated
+against comparator glucose ranges and percent of iCGM values within those ranges were
+reported in the following tables.
+K213919 - Page 14 of 25
+
+[Table 1 on page 14]
+Comparator
+Glucose
+Range
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15
+mg/dL	Percent
+Within
+20
+mg/dL	Percent
+Within
+40
+mg/dL	Percent
+Within
+15%	Percent
+Within
+20%	Percent
+Within
+40%	Mean
+Bias
+(mg/dL)	MARD
+(%)
+<54	66	92.4	98.5	100.0	----	----	----	2.0	10.4
+54-69	811	91.0	96.9	100.0	----	----	----	0.7	9.8
+70-180	3,936	----	----	----	85.5	92.4	98.6	-0.4	8.5
+181-250	1,275	----	----	----	88.0	94.7	99.8	-2.3	7.6
+>250	1,980	----	----	----	90.9	97.8	99.9	-7.9	6.8
+
+--- Page 15 ---
+Concurrence of iCGM and Comparator by iCGM Glucose Range - ≥ 18 YO Arm
+(N=308)
+Comparator Glucose Values
+(mg/dL)
+iCGM
+61- 121- 161- 201- 251- 301- 351-
+(mg/dL) <40 40-60 81-120 >400 Total
+80 160 200 250 300 350 400
+(%)
+16 105 97 3 3
+<40 224
+7.1% 46.9% 43.3% 1.3% 1.3%
+9 1,418 944 71 2
+40-60 2,444
+0.4% 58.0% 38.6% 2.9% 0.1%
+1 657 4,134 678 11 4
+61-80 5,485
+0.0% 12.0% 75.4% 12.4% 0.2% 0.1%
+49 1,175 5,570 671 30 7
+81-120 7,502
+0.7% 15.7% 74.2% 8.9% 0.4% 0.1%
+2 2 855 3,950 636 58 5
+121-160 5,508
+0.0% 0.0% 15.5% 71.7% 11.5% 1.1% 0.1%
+6 9 691 2,916 668 55 4
+161-200 4,349
+0.1% 0.2% 15.9% 67.0% 15.4% 1.3% 0.1%
+9 608 2,687 651 51 6 3
+201-250 4,015
+0.2% 15.1% 66.9% 16.2% 1.3% 0.1% 0.1%
+4 538 2,604 1,187 77
+251-300 4,410
+0.1% 12.2% 59.0% 26.9% 1.7%
+7 547 2,795 598 6
+301-350 3,953
+0.2% 13.8% 70.7% 15.1% 0.2%
+9 530 940 48
+351-400 1,527
+0.6% 34.7% 61.6% 3.1%
+14 143 121
+>400 278
+5.0% 51.4% 43.5%
+K213919 - Page 15 of 25
+
+[Table 1 on page 15]
+	Comparator Glucose Values
+(mg/dL)											
+iCGM
+(mg/dL)
+(%)	<40	40-60	61-
+80	81-120	121-
+160	161-
+200	201-
+250	251-
+300	301-
+350	351-
+400	>400	Total
+<40	16	105
+46.9%	97
+43.3%	3
+1.3%	3
+1.3%							224
+	7.1%											
+40-60	9
+0.4%	1,418	944
+38.6%	71
+2.9%	2
+0.1%							2,444
+		58.0%										
+61-80	1
+0.0%	657
+12.0%	4,134	678
+12.4%	11
+0.2%	4
+0.1%						5,485
+			75.4%									
+81-120		49
+0.7%	1,175
+15.7%	5,570	671
+8.9%	30
+0.4%	7
+0.1%					7,502
+				74.2%								
+121-160		2
+0.0%	2
+0.0%	855
+15.5%	3,950	636
+11.5%	58
+1.1%	5
+0.1%				5,508
+					71.7%							
+161-200			6
+0.1%	9
+0.2%	691
+15.9%	2,916	668
+15.4%	55
+1.3%	4
+0.1%			4,349
+						67.0%						
+201-250					9
+0.2%	608
+15.1%	2,687	651
+16.2%	51
+1.3%	6
+0.1%	3
+0.1%	4,015
+							66.9%					
+251-300						4
+0.1%	538
+12.2%	2,604	1,187
+26.9%	77
+1.7%		4,410
+								59.0%				
+301-350							7
+0.2%	547
+13.8%	2,795	598
+15.1%	6
+0.2%	3,953
+									70.7%			
+351-400								9
+0.6%	530
+34.7%	940	48
+3.1%	1,527
+										61.6%		
+>400									14
+5.0%	143
+51.4%	121	278
+											43.5%	
+
+--- Page 16 ---
+Concurrence of iCGM and Comparator by iCGM Glucose Range - Pediatrics 7-17 YO
+Arm (N=122)
+Comparator Glucose Values
+(mg/dL)
+iCGM
+121-
+(mg/dL) <40 40-60 61-80 81-120 161-200 201-250 251-300 301-350 351-400 >400 Total
+160
+(%)
+3 33 33 5
+<40 74
+4.1% 44.6% 44.6% 6.8%
+186 196 15 5
+40-60 402
+46.3% 48.8% 3.7% 1.2%
+61 895 120 11 2
+61-80 1,089
+5.6% 82.2% 11.0% 1.0% 0.2%
+2 278 1,103 168 5
+81-120 1,556
+0.1% 17.9% 70.9% 10.8% 0.3%
+156 908 215 16
+121-160 1,295
+12.0% 70.1% 16.6% 1.2%
+1 173 605 148 10
+161-200 937
+0.1% 18.5% 64.6% 15.8% 1.1%
+122 610 169 13
+201-250 914
+13.3% 66.7% 18.5% 1.4%
+87 344 279 3
+251-300 713
+12.2% 48.2% 39.1% 0.4%
+86 589 110 1
+301-350 786
+10.9% 74.9% 14.0% 0.1%
+1 114 240 21
+351-400 376
+0.3% 30.3% 63.8% 5.6%
+3 43 32
+>400 78
+3.8% 55.1% 41.0%
+K213919 - Page 16 of 25
+
+[Table 1 on page 16]
+	Comparator Glucose Values
+(mg/dL)											
+iCGM
+(mg/dL)
+(%)	<40	40-60	61-80	81-120	121-
+160	161-200	201-250	251-300	301-350	351-400	>400	Total
+<40	3	33
+44.6%	33
+44.6%	5
+6.8%								74
+	4.1%											
+40-60		186	196
+48.8%	15
+3.7%	5
+1.2%							402
+		46.3%										
+61-80		61
+5.6%	895	120
+11.0%	11
+1.0%	2
+0.2%						1,089
+			82.2%									
+81-120		2
+0.1%	278
+17.9%	1,103	168
+10.8%	5
+0.3%						1,556
+				70.9%								
+121-160				156
+12.0%	908	215
+16.6%	16
+1.2%					1,295
+					70.1%							
+161-200				1
+0.1%	173
+18.5%	605	148
+15.8%	10
+1.1%				937
+						64.6%						
+201-250						122
+13.3%	610	169
+18.5%	13
+1.4%			914
+							66.7%					
+251-300							87
+12.2%	344	279
+39.1%	3
+0.4%		713
+								48.2%				
+301-350								86
+10.9%	589	110
+14.0%	1
+0.1%	786
+									74.9%			
+351-400								1
+0.3%	114
+30.3%	240	21
+5.6%	376
+										63.8%		
+>400									3
+3.8%	43
+55.1%	32	78
+											41.0%	
+
+--- Page 17 ---
+Concurrence of iCGM and Comparator by Comparator Glucose Range - ≥ 18 YO
+Arm (N=308)
+Comparator Glucose Values
+(mg/dL)
+iCGM
+81- 121- 161- 201- 251- 301- 351-
+(mg/dL) <40 40-60 61-80 >400
+120 160 200 250 300 350 400
+(%)
+16 105 97 3 3
+<40
+61.5% 4.7% 1.5% 0.0% 0.1%
+9 1,418 944 71 2
+40-60
+34.6% 63.6% 14.8% 1.0% 0.0%
+1 657 4,134 678 11 4
+61-80
+3.8% 29.4% 65.0% 9.4% 0.2% 0.1%
+49 1,175 5,570 671 30 7
+81-120
+2.2% 18.5% 77.5% 12.6% 0.7% 0.2%
+2 2 855 3,950 636 58 5
+121-160
+0.1% 0.0% 11.9% 74.0% 15.2% 1.5% 0.1%
+6 9 691 2,916 668 55 4
+161-200
+0.1% 0.1% 12.9% 69.5% 16.8% 1.4% 0.1%
+9 608 2,687 651 51 6 3
+201-250
+0.2% 14.5% 67.8% 16.8% 1.1% 0.3% 1.7%
+4 538 2,604 1,187 77
+251-300
+0.1% 13.6% 67.3% 25.9% 4.4%
+7 547 2,795 598 6
+301-350
+0.2% 14.1% 61.0% 33.9% 3.4%
+9 530 940 48
+351-400
+0.2% 11.6% 53.3% 27.0%
+14 143 121
+>400
+0.3% 8.1% 68.0%
+Total 26 2,231 6,358 7,186 5,337 4,198 3,965 3,871 4,581 1,764 178
+K213919 - Page 17 of 25
+
+[Table 1 on page 17]
+	Comparator Glucose Values
+(mg/dL)										
+iCGM
+(mg/dL)
+(%)	<40	40-60	61-80	81-
+120	121-
+160	161-
+200	201-
+250	251-
+300	301-
+350	351-
+400	>400
+<40	16	105
+4.7%	97
+1.5%	3
+0.0%	3
+0.1%						
+	61.5%										
+40-60	9
+34.6%	1,418	944
+14.8%	71
+1.0%	2
+0.0%						
+		63.6%									
+61-80	1
+3.8%	657
+29.4%	4,134	678
+9.4%	11
+0.2%	4
+0.1%					
+			65.0%								
+81-120		49
+2.2%	1,175
+18.5%	5,570	671
+12.6%	30
+0.7%	7
+0.2%				
+				77.5%							
+121-160		2
+0.1%	2
+0.0%	855
+11.9%	3,950	636
+15.2%	58
+1.5%	5
+0.1%			
+					74.0%						
+161-200			6
+0.1%	9
+0.1%	691
+12.9%	2,916	668
+16.8%	55
+1.4%	4
+0.1%		
+						69.5%					
+201-250					9
+0.2%	608
+14.5%	2,687	651
+16.8%	51
+1.1%	6
+0.3%	3
+1.7%
+							67.8%				
+251-300						4
+0.1%	538
+13.6%	2,604	1,187
+25.9%	77
+4.4%	
+								67.3%			
+301-350							7
+0.2%	547
+14.1%	2,795	598
+33.9%	6
+3.4%
+									61.0%		
+351-400								9
+0.2%	530
+11.6%	940	48
+27.0%
+										53.3%	
+>400									14
+0.3%	143
+8.1%	121
+											68.0%
+Total	26	2,231	6,358	7,186	5,337	4,198	3,965	3,871	4,581	1,764	178
+
+--- Page 18 ---
+Concurrence of iCGM and Comparator by Comparator Glucose Range - Pediatrics
+7-17 YO Arm (N=122)
+Comparator Glucose Values
+(mg/dL)
+iCGM
+121- 161- 201- 251- 301- 351-
+(mg/dL) <40 40-60 61-80 81-120 >400
+160 200 250 300 350 400
+(%)
+3 33 33 5
+<40
+100.0% 11.7% 2.4% 0.4%
+186 196 15 5
+40-60
+66.0% 14.0% 1.1% 0.4%
+61 895 120 11 2
+61-80
+21.6% 63.8% 8.6% 0.9% 0.2%
+2 278 1,103 168 5
+81-120
+0.7% 19.8% 78.8% 13.3% 0.5%
+156 908 215 16
+121-160
+11.1% 71.8% 22.7% 1.9%
+1 173 605 148 10
+161-200
+0.1% 13.7% 63.8% 17.2% 1.6%
+122 610 169 13
+201-250
+12.9% 70.8% 27.7% 1.3%
+87 344 279 3
+251-300
+10.1% 56.4% 28.0% 0.8%
+86 589 110 1
+301-350
+14.1% 59.0% 27.8% 1.9%
+1 114 240 21
+351-400
+0.2% 11.4% 60.6% 38.9%
+3 43 32
+>400
+0.3% 10.9% 59.3%
+Total 3 282 1,402 1,400 1,265 949 861 610 998 396 54
+Tread Accuracy
+Trend accuracy describes the accuracy of the sensor during times of rapidly changing glucose
+and are characterized by slopes, such as from >2 mg/dL to <-2 mg/dL. Trend accuracy was
+assessed by the concurrence rate of the glucose rate of change (changes in mg/dL of glucose per
+minute) determined by the iCGM values and the corresponding comparator values for each
+iCGM-comparator measured pairs (typically collected once every 15 minutes).
+K213919 - Page 18 of 25
+
+[Table 1 on page 18]
+	Comparator Glucose Values
+(mg/dL)										
+iCGM
+(mg/dL)
+(%)	<40	40-60	61-80	81-120	121-
+160	161-
+200	201-
+250	251-
+300	301-
+350	351-
+400	>400
+<40	3	33
+11.7%	33
+2.4%	5
+0.4%							
+	100.0%										
+40-60		186	196
+14.0%	15
+1.1%	5
+0.4%						
+		66.0%									
+61-80		61
+21.6%	895	120
+8.6%	11
+0.9%	2
+0.2%					
+			63.8%								
+81-120		2
+0.7%	278
+19.8%	1,103	168
+13.3%	5
+0.5%					
+				78.8%							
+121-160				156
+11.1%	908	215
+22.7%	16
+1.9%				
+					71.8%						
+161-200				1
+0.1%	173
+13.7%	605	148
+17.2%	10
+1.6%			
+						63.8%					
+201-250						122
+12.9%	610	169
+27.7%	13
+1.3%		
+							70.8%				
+251-300							87
+10.1%	344	279
+28.0%	3
+0.8%	
+								56.4%			
+301-350								86
+14.1%	589	110
+27.8%	1
+1.9%
+									59.0%		
+351-400								1
+0.2%	114
+11.4%	240	21
+38.9%
+										60.6%	
+>400									3
+0.3%	43
+10.9%	32
+											59.3%
+Total	3	282	1,402	1,400	1,265	949	861	610	998	396	54
+
+--- Page 19 ---
+Trend Accuracy Between iCGM and Comparator - ≥ 18 YO Arm (N=308)
+Comparator Rate Range (mg/dL/min)
+iCGM Rate Number
+Range of Paired
+(mg/dL/min) <-2 [-2,-1) [-1,-0) [0,1] (1,2] >2 iCGM-
+N Comparator
+(Row %) (Row N)
+221 235 213 69 17 3 758
+<-2
+(29.2) (31.0) (28.1) (9.1) (2.2) (0.4)
+209 989 1,314 281 48 10 2,851
+[-2,-1)
+(7.3) (34.7) (46.1) (9.9) (1.7) (0.4)
+143 951 9,822 2,792 221 51 13,980
+[-1,0)
+(1.0) (6.8) (70.3) (20.0) (1.6) (0.4)
+63 230 3,292 6,370 1,140 200 11,295
+[0,1]
+(0.6) (2.0) (29.1) (56.4) (10.1) (1.8)
+4 43 262 1,114 1,401 469 3,302
+(1,2]
+(0.1) (1.3) (7.9) (33.7) (42.4) (14.2)
+2 8 84 258 622 1,058 2,035
+>2
+(0.1) (0.4) (4.1) (12.7) (30.6) (52.0)
+Note: RoC was calculated using comparator data with consecutive measurements greater than 5
+minutes
+Trend Accuracy Between iCGM and Comparator - Pediatrics 7-17 YO Arm
+(N=122)
+Comparator Rate Range (mg/dL/min)
+iCGM Rate Number
+Range of Paired
+(mg/dL/min) <-2 [-2,-1) [-1,-0) [0,1] (1,2] >2 iCGM-
+N Comparator
+(Row %) (Row N)
+63 78 50 19 3 0 213
+<-2
+(29.6) (36.6) (23.5) (8.9) (1.4) (0.0)
+54 386 308 56 7 2 813
+[-2,-1)
+(6.6) (47.5) (37.9) (6.9) (0.9) (0.2)
+16 222 1,860 522 37 9 2,666
+[-1,0)
+(0.6) (8.3) (69.8) (19.6) (1.4) (0.3)
+6 38 545 1,403 202 27 2,221
+[0,1]
+(0.3) (1.7) (24.5) (63.2) (9.1) (1.2)
+3 7 66 263 324 73 736
+(1,2]
+(0.4) (1.0) (9.0) (35.7) (44.0) (9.9)
+0 4 21 49 138 242 454
+>2
+(0.0) (0.9) (4.6) (10.8) (30.4) (53.3)
+Note: RoC was calculated using comparator data with consecutive measurements greater than 5
+minutes
+K213919 - Page 19 of 25
+
+[Table 1 on page 19]
+	Comparator Rate Range (mg/dL/min)						
+iCGM Rate
+Range
+(mg/dL/min)
+N
+(Row %)	<-2	[-2,-1)	[-1,-0)	[0,1]	(1,2]	>2	Number
+of Paired
+iCGM-
+Comparator
+(Row N)
+<-2	221	235
+(31.0)	213
+(28.1)	69
+(9.1)	17
+(2.2)	3
+(0.4)	758
+	(29.2)						
+[-2,-1)	209
+(7.3)	989	1,314
+(46.1)	281
+(9.9)	48
+(1.7)	10
+(0.4)	2,851
+		(34.7)					
+[-1,0)	143
+(1.0)	951
+(6.8)	9,822	2,792
+(20.0)	221
+(1.6)	51
+(0.4)	13,980
+			(70.3)				
+[0,1]	63
+(0.6)	230
+(2.0)	3,292
+(29.1)	6,370	1,140
+(10.1)	200
+(1.8)	11,295
+				(56.4)			
+(1,2]	4
+(0.1)	43
+(1.3)	262
+(7.9)	1,114
+(33.7)	1,401	469
+(14.2)	3,302
+					(42.4)		
+>2	2
+(0.1)	8
+(0.4)	84
+(4.1)	258
+(12.7)	622
+(30.6)	1,058	2,035
+						(52.0)	
+
+[Table 2 on page 19]
+	Comparator Rate Range (mg/dL/min)						
+iCGM Rate
+Range
+(mg/dL/min)
+N
+(Row %)	<-2	[-2,-1)	[-1,-0)	[0,1]	(1,2]	>2	Number
+of Paired
+iCGM-
+Comparator
+(Row N)
+<-2	63	78
+(36.6)	50
+(23.5)	19
+(8.9)	3
+(1.4)	0
+(0.0)	213
+	(29.6)						
+[-2,-1)	54
+(6.6)	386	308
+(37.9)	56
+(6.9)	7
+(0.9)	2
+(0.2)	813
+		(47.5)					
+[-1,0)	16
+(0.6)	222
+(8.3)	1,860	522
+(19.6)	37
+(1.4)	9
+(0.3)	2,666
+			(69.8)				
+[0,1]	6
+(0.3)	38
+(1.7)	545
+(24.5)	1,403	202
+(9.1)	27
+(1.2)	2,221
+				(63.2)			
+(1,2]	3
+(0.4)	7
+(1.0)	66
+(9.0)	263
+(35.7)	324	73
+(9.9)	736
+					(44.0)		
+>2	0
+(0.0)	4
+(0.9)	21
+(4.6)	49
+(10.8)	138
+(30.4)	242	454
+						(53.3)	
+
+--- Page 20 ---
+Agreement When iCGM Reads “LOW” or “HIGH”
+G7 reports glucose readings between 40 and 400 mg/dL. When G7 determines the sensor reading
+is below 40 mg/dL, it displays “LOW” on the receiver or mobile app. When G7 determines the
+glucose level is above 400 mg/dL, it displays “HIGH” on the receiver or mobile app. Because the
+System does not display glucose values below 40 mg/dL or above 400 mg/dL, the comparisons
+to the actual blood glucose levels (as determined by the comparator method) when the iCGM
+value is classified as LOW or HIGH is evaluated separately, and the cumulative percentages
+when laboratory comparator values were less than certain glucose levels (for LOW), and when
+laboratory comparator values were greater than certain glucose levels (for HIGH) are presented
+in the table below.
+Distribution of Comparator for iCGM Readings LOW or HIGH - Adults
+and Pediatrics 7-17 YO Arm (N=430)
+Comparator (mg/dL)
+iCGM-
+iCGM
+Comparato <55 <60 <70 <80 ≥80 Total
+Readings
+r Pairs
+n 99 145 233 286 12 298
+Cumulative
+LOW 33 49 78 96 4
+Percent
+iCGM-
+iCGM
+Comparato >340 >320 >280 >250 ≤250 Total
+Readings
+r Pairs
+n 347 356 356 356 0 356
+Cumulative
+HIGH 97 100 100 100 0
+Percent
+Alert Performance
+The Hypoglycemic Alert Rate shows how often the alert is right or wrong. The True Alert Rate
+is the % of time the device alarmed when the blood glucose level was at or below the alert
+setting within 15 minutes before or after the device alarmed (as confirmed by the comparator
+method). The False Alert Rate is the % of time the device alarmed when the blood glucose level
+was above the alert setting within 15 minutes before or after the device alarmed. The Correct
+Detection Rate is the % of time the device alarmed when the blood glucose level was at or below
+the alert setting within 15 minutes before or after the hypoglycemic event. The Missed Detection
+Rate is the % of time the device did not alarm when the blood glucose level was at or below the
+alert setting within 15 minutes before and after the hypoglycemic event.
+K213919 - Page 20 of 25
+
+[Table 1 on page 20]
+		Comparator (mg/dL)					
+iCGM
+Readings	iCGM-
+Comparato
+r Pairs	<55	<60	<70	<80	≥80	Total
+LOW	n	99	145	233	286	12	298
+	Cumulative
+Percent	33	49	78	96	4	
+							
+iCGM
+Readings	iCGM-
+Comparato
+r Pairs	>340	>320	>280	>250	≤250	Total
+HIGH	n	347	356	356	356	0	356
+	Cumulative
+Percent	97	100	100	100	0	
+
+--- Page 21 ---
+Hypoglycemic Threshold Alerts and Detections - ≥ 18 YO Arm (N=308)
+Alerts Detections
+Hypoglycemic
+True True Missed
+Alert Setting # of alerts False Alert # of events
+Alert Detection Detection
+(mg/dL) (n) (%) (n)
+(%) (%) (%)
+55 2,189 51.0 49.0 1,037 75.8 24.2
+60 3,504 69.7 30.3 2,263 81.1 18.9
+70 7,339 86.9 13.1 5,651 88.8 11.2
+80 11,893 90.2 9.8 8,645 93.7 6.3
+90 16,749 92.2 7.8 10,674 96.1 3.9
+Hypoglycemic Threshold Alerts and Detections - Pediatrics 7-17 YO Arm (N=122)
+Alerts Detections
+Hypoglycemic
+True True Missed
+Alert Setting # of alerts False Alert # of events
+Alert Detection Detection
+(mg/dL) (n) (%) (n)
+(%) (%) (%)
+55 462 36.8 63.2 106 80.2 19.8
+60 728 59.9 40.1 288 89.2 10.8
+70 1,543 81.5 18.5 976 90.4 9.6
+80 2,477 89.9 10.1 1,692 92.5 7.5
+90 3,415 92.4 7.6 2,059 96.8 3.2
+The Hyperglycemic Alert Rate shows how often the alert is right or wrong. The True
+Notification Rate is the % of time the device alarmed when the blood glucose level was at or
+above the alert setting within 15 minutes before or after the device alarmed. The False
+Notification Rate is the % of time the device alarmed when the blood glucose level was below
+the alert setting within 15 minutes before or after the device alarmed. The Correct Detection Rate
+is the % of time the device alarmed when the blood glucose level was at or above the alert setting
+within 15 minutes before or after the hyperglycemic event. The Missed Detection Rate is the %
+of time the device did not alarm when the blood glucose level was at or above the alert setting
+within 15 minutes before and after the hyperglycemic event.
+Hyperglycemic Threshold Alerts and Detections - ≥ 18 YO Arm (N=308)
+Alerts Detections
+Hyperglycemic
+True True Missed
+Alert Setting # of alerts False Alert # of events
+Alert Detection Detection
+(mg/dL) (n) (%) (n)
+(%) (%) (%)
+120 56,899 97.0 3.0 24,147 98.5 1.5
+140 48,771 96.8 3.2 21,222 98.2 1.8
+180 35,465 96.4 3.6 16,454 97.8 2.2
+200 29,941 96.3 3.7 14,521 97.1 2.9
+220 25,145 96.2 3.8 12,799 96.5 3.5
+240 20,970 95.6 4.4 11,244 95.9 4.1
+300 8,884 90.1 9.9 6,630 88.7 11.3
+K213919 - Page 21 of 25
+
+[Table 1 on page 21]
+Hypoglycemic
+Alert Setting
+(mg/dL)	Alerts			Detections		
+	# of alerts
+(n)	True
+Alert
+(%)	False Alert
+(%)	# of events
+(n)	True
+Detection
+(%)	Missed
+Detection
+(%)
+55	2,189	51.0	49.0	1,037	75.8	24.2
+60	3,504	69.7	30.3	2,263	81.1	18.9
+70	7,339	86.9	13.1	5,651	88.8	11.2
+80	11,893	90.2	9.8	8,645	93.7	6.3
+90	16,749	92.2	7.8	10,674	96.1	3.9
+
+[Table 2 on page 21]
+Hypoglycemic
+Alert Setting
+(mg/dL)	Alerts			Detections		
+	# of alerts
+(n)	True
+Alert
+(%)	False Alert
+(%)	# of events
+(n)	True
+Detection
+(%)	Missed
+Detection
+(%)
+55	462	36.8	63.2	106	80.2	19.8
+60	728	59.9	40.1	288	89.2	10.8
+70	1,543	81.5	18.5	976	90.4	9.6
+80	2,477	89.9	10.1	1,692	92.5	7.5
+90	3,415	92.4	7.6	2,059	96.8	3.2
+
+[Table 3 on page 21]
+Hyperglycemic
+Alert Setting
+(mg/dL)	Alerts			Detections		
+	# of alerts
+(n)	True
+Alert
+(%)	False Alert
+(%)	# of events
+(n)	True
+Detection
+(%)	Missed
+Detection
+(%)
+120	56,899	97.0	3.0	24,147	98.5	1.5
+140	48,771	96.8	3.2	21,222	98.2	1.8
+180	35,465	96.4	3.6	16,454	97.8	2.2
+200	29,941	96.3	3.7	14,521	97.1	2.9
+220	25,145	96.2	3.8	12,799	96.5	3.5
+240	20,970	95.6	4.4	11,244	95.9	4.1
+300	8,884	90.1	9.9	6,630	88.7	11.3
+
+--- Page 22 ---
+Hyperglycemic Threshold Alerts and Detections - Pediatrics 7-17 YO Arm
+(N=122)
+Alerts Detections
+Hyperglycemic
+True True Missed
+Alert Setting # of alerts False Alert # of events
+Alert Detection Detection
+(mg/dL) (n) (%) (n)
+(%) (%) (%)
+120 11,557 97.6 2.4 5,192 98.6 1.4
+140 9,695 97.7 2.3 4,542 97.9 2.1
+180 6,600 96.3 3.7 3,374 97.2 2.8
+200 5,476 95.7 4.3 2,951 97.1 2.9
+220 4,384 93.7 6.3 2,532 96.0 4.0
+240 3,496 94.6 5.4 2,218 96.1 3.9
+300 1,649 93.5 6.5 1,467 87.7 12.3
+Sensor Stability
+Sensor stability describes the performance over the sensor intended lifetime (up to 10 days,
+including the optional 12-hour grace period). Performance was estimated by calculating
+the percentage of iCGM readings within 15 mg/dL or 15% (15/15%), 20 mg/dL or 20%
+(20/20%), and 40 mg/dL or 40% (40/40%) of the laboratory comparator values at the
+beginning (Day 1, 2), middle (Day 4, 7), and end (Day 10, 10.5) of the System lifecycle.
+The mean of the absolute relative difference was evaluated over the sensor life within the
+measuring range.
+Accuracy of iCGM vs Comparator by Wear Period - ≥ 18 YO and Pediatrics 7- 17
+YO Arm (N=430)
+%15/1 %20/2 %40/4
+Wear Matched MARD
+5 0 0
+Period Pairs (n) (%)
+(%) (%) (%)
+Beginning 17,658 9.9 82.2 91.0 98.9
+Middle 16,551 7.1 92.2 97.1 99.9
+End 13,052 7.2 91.9 96.4 99.8
+Sensor Life
+A total of 460 sensors worn on the arm by adult and pediatric subjects were evaluated to
+determine the percentage of sensors that lasted through the 10-day sensor life. Seventy-nine
+percent (79%) of the 460 sensors lasted through the end of the entire wear period (e.g., Day 10).
+Among the 460 sensors evaluated, 66 sensors (14.3%) had “early sensor shut-off” where the
+sensor algorithm would have detected sensors that did not function as intended and shut them
+off.
+K213919 - Page 22 of 25
+
+[Table 1 on page 22]
+Hyperglycemic
+Alert Setting
+(mg/dL)	Alerts			Detections		
+	# of alerts
+(n)	True
+Alert
+(%)	False Alert
+(%)	# of events
+(n)	True
+Detection
+(%)	Missed
+Detection
+(%)
+120	11,557	97.6	2.4	5,192	98.6	1.4
+140	9,695	97.7	2.3	4,542	97.9	2.1
+180	6,600	96.3	3.7	3,374	97.2	2.8
+200	5,476	95.7	4.3	2,951	97.1	2.9
+220	4,384	93.7	6.3	2,532	96.0	4.0
+240	3,496	94.6	5.4	2,218	96.1	3.9
+300	1,649	93.5	6.5	1,467	87.7	12.3
+
+[Table 2 on page 22]
+Wear
+Period	Matched
+Pairs (n)	MARD
+(%)	%15/1
+5
+(%)	%20/2
+0
+(%)	%40/4
+0
+(%)
+Beginning	17,658	9.9	82.2	91.0	98.9
+Middle	16,551	7.1	92.2	97.1	99.9
+End	13,052	7.2	91.9	96.4	99.8
+
+--- Page 23 ---
+The survival rates summarized separately for adult and pediatric populations are provided in the
+tables below:
+Summary of System Survival by Day - ≥ 18 YO Arm (N = 315)
+Day of Number of Sensors Survival Rate
+Wear (N=315) (%)
+1 310 98.4
+2 303 96.8
+3 300 95.9
+4 291 93.6
+5 286 92.0
+6 282 90.7
+7 273 88.5
+8 267 86.5
+9 259 83.9
+10 152 80.5
+From the 315 sensors with valid CGM readings, 256 did not fail prior to Day 10 and reached
+the planned device removal (n=250) or were removed early due to subject withdrawal (n=6).
+The remaining 59 sensors (18.7%) failed before Day 10. In total, 38 sensors had early sensor
+shutoff (ESS) failure and 21 had adhesive failure.
+Summary of System Survival by Day - Pediatrics 2-17 YO Arm (N = 145)
+Day of Number of Sensors Survival Rate
+Wear (N=145) (%)
+1 141 97.2
+2 140 96.6
+3 138 95.2
+4 137 95.2
+5 135 93.8
+6 132 91.7
+7 128 88.9
+8 122 84.8
+9 115 79.9
+10 102 75.0
+From the 145 sensors with valid CGM readings (Table 20-35), 109 did not fail prior to Day
+10 and reached the planned device removal (n=108) or were removed early due to subject
+withdrawal (n=1). The remaining 36 sensors (24.8%) failed early. In total, 28 sensors had
+early sensor shutoff (ESS) failure and 8 had adhesive failures.
+K213919 - Page 23 of 25
+
+[Table 1 on page 23]
+Day of
+Wear	Number of Sensors
+(N=315)	Survival Rate
+(%)
+1	310	98.4
+2	303	96.8
+3	300	95.9
+4	291	93.6
+5	286	92.0
+6	282	90.7
+7	273	88.5
+8	267	86.5
+9	259	83.9
+10	152	80.5
+
+[Table 2 on page 23]
+Day of
+Wear	Number of Sensors
+(N=145)	Survival Rate
+(%)
+1	141	97.2
+2	140	96.6
+3	138	95.2
+4	137	95.2
+5	135	93.8
+6	132	91.7
+7	128	88.9
+8	122	84.8
+9	115	79.9
+10	102	75.0
+
+--- Page 24 ---
+Summary of System Survival by Day - Pediatrics 2-6 YO Buttocks (N = 16)
+Day of Number of Sensors Survival Rate
+Wear (N=16) (%)
+1 15 93.8
+2 13 81.3
+3 13 81.3
+4 13 81.3
+5 13 81.3
+6 13 81.3
+7 11 68.8
+8 10 62.5
+9 10 62.5
+10 8 50.0
+Data Capture Rate
+The data capture rate characterizes the reliability of the communication between components
+of the system.
+The next table describes the data availability rate as the percentage of readings expected to be
+calculated throughout the 10-day life span of the sensor life for adults and pediatrics (arm
+only).
+Data Availability Rate by Wear Day - Adults and Pediatrics 2-17 YO Arm
+(N=460) (Study 1)
+Wear Day Number of Sensors Data Availability Rate
+(%)
+1 460 99.5
+2 451 99.8
+3 443 99.9
+4 438 99.7
+5 428 99.6
+6 421 99.6
+7 414 99.5
+8 401 99.2
+9 389 98.5
+10 374 98.1
+Overall 460 99.4
+K213919 - Page 24 of 25
+
+[Table 1 on page 24]
+Day of
+Wear	Number of Sensors
+(N=16)	Survival Rate
+(%)
+1	15	93.8
+2	13	81.3
+3	13	81.3
+4	13	81.3
+5	13	81.3
+6	13	81.3
+7	11	68.8
+8	10	62.5
+9	10	62.5
+10	8	50.0
+
+[Table 2 on page 24]
+Wear Day	Number of Sensors	Data Availability Rate
+(%)
+1	460	99.5
+2	451	99.8
+3	443	99.9
+4	438	99.7
+5	428	99.6
+6	421	99.6
+7	414	99.5
+8	401	99.2
+9	389	98.5
+10	374	98.1
+Overall	460	99.4
+
+--- Page 25 ---
+D Clinical Cut-Off:
+Not applicable.
+E Expected Values/Reference Range:
+Not applicable.
+F Other Supportive Instrument Performance Characteristics Data:
+Not applicable.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K213919 - Page 25 of 25

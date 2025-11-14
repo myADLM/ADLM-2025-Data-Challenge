@@ -1,0 +1,76 @@
+Standard Operating Procedure (SOP): Analytical Phase of
+Generating Results for Inherited Ataxia Gene Panel
+1. PURPOSE
+The purpose of this SOP is to detail the analytical phase procedures
+for generating results from the Inherited Ataxia Gene Panel, which
+includes the sequencing and interpretation of genes that are known
+to be associated with inherited ataxias.
+1. RESPONSIBILITY
+It is the responsibility of the trained genetic technologist/scientist to
+perform the procedures as outlined in this document. The lab
+supervisor is responsible for ensuring compliance and overseeing the
+quality control and validation steps.
+1. DEFINITION
+Inherited ataxia refers to a group of genetic disorders that primarily
+affect the cerebellum, causing coordination and balance issues. The
+gene panel includes multiple genes known to be associated with
+these disorders.
+1. PROCEDURE
+A. DNA Extraction and Quality Check i. Obtain the collected sample
+(blood, saliva, or buccal swab). ii. Extract DNA using an appropriate
+extraction kit, following manufacturer instructions. iii. Assess the
+quality (purity and concentration) of extracted DNA using
+spectrophotometry (e.g., Nanodrop) and gel electrophoresis.
+B. Library Preparation i. Perform library preparation using a
+commercially available gene panel kit designed for inherited ataxias.
+ii. Follow the manufacturer's protocol for library preparation, including
+fragmenting DNA, adapter ligation, and PCR amplification. iii.
+Quantify and verify the library using methods such as Qubit
+fluorometry and Bioanalyzer.
+C. Sequencing i. Load prepared libraries onto the sequencing
+platform (e.g., Illumina or Ion Torrent) as per manufacturer
+instructions. ii. Run sequencing with appropriate parameters for
+coverage and depth required (e.g., minimum of 50x coverage for
+targeted regions).
+D. Data Analysis i. Transfer raw sequence data to the bioinformatics
+pipeline for analysis. ii. Perform primary analysis (base calling,
+alignment to reference genome, and variant calling) using specified
+software (e.g., BWA, GATK, DeepVariant). iii. Filter and classify
+variants using established criteria (e.g., pathogenic, likely pathogenic,
+uncertain significance, likely benign, benign).
+E. Variant Interpretation i. Review variants in the context of inherited
+ataxia using databases such as ClinVar, OMIM, HGMD, etc. ii.
+Correlate findings with patient clinical history and phenotype. iii.
+Consult with genetic counselors and/or clinical geneticists for final
+interpretation and reporting.
+F. Quality Control i. Run controls (positive and negative) alongside
+patient samples to ensure fidelity of the test. ii. Perform internal
+quality controls, such as replicate sequencing and consistency
+checks. iii. Document all QC results and address any discrepancies
+or failures with corrective actions.
+G. Reporting Results i. Compile a comprehensive report including
+details of variants detected, interpretation, classification, and
+potential clinical implications. ii. Review and validate the report by a
+senior geneticist or lab supervisor. iii. Ensure timely delivery of the
+report to the referring clinician or genetic counselor.
+H. Documentation and Record-Keeping i. Maintain accurate and
+detailed records of all steps performed in the analytical phase,
+including sample handling, library prep, sequencing data, analyses,
+QC results, and reports. ii. Store raw sequence data and reports in
+secure databases, as per institutional guidelines for data retention
+and privacy.
+1. REFERENCES
+Provide references to all relevant protocols and manufacturer
+guidelines, including: - Manufacturer's protocol for DNA extraction
+and library preparation kits. - Sequencing platform manuals. -
+Standard bioinformatics software documentation. - Guidelines from
+genetic and clinical associations related to ataxias.
+1. TRAINING AND COMPETENCY
+Staff performing these procedures must be trained and competent in:
+- Molecular biology techniques including DNA extraction and PCR. -
+Sequencing technology and bioinformatics analysis. - Genetic variant
+interpretation and reporting.
+Documentation of training and competency must be maintained.
+Completion of this protocol ensures accurate and reliable generation
+of results for inherited ataxia gene panels, aiding clinical diagnosis
+and management.

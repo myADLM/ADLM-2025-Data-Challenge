@@ -1,0 +1,101 @@
+Standard Operating Procedure (SOP)
+1. PURPOSE
+The purpose of this SOP is to outline procedures for the analytical
+phase of testing for Hereditary Paraganglioma/Pheochromocytoma
+Panel. This SOP ensures optimal quality, accuracy, and reliability of
+results obtained through the analysis.
+Responsibility: Designated laboratory staff are responsible for
+performing all procedures as described in this SOP. All staff must
+ensure compliance with the specified methods and promptly report
+any discrepancies or issues to a supervisor.
+1. SPECIMEN REQUIREMENTS
+Preferred Specimen:
+• Blood: 2-5 mL whole blood in an EDTA tube (lavender top).
+Acceptable Specimen:
+• Extracted DNA: A minimum of 2 µg of high-quality DNA with an
+A260/280 ratio of 1.8-2.0.
+Unacceptable Specimen:
+• Hemolyzed blood samples
+• Clotted blood samples
+• Specimens not properly labeled or lacking adequate identification
+1. PROCEDURE
+A. DNA Extraction:
+1. Follow the manufacturer's recommended procedure for DNA
+extraction.
+2. Measure DNA concentration using a spectrophotometer and
+ensure purity (A260/280 ratio).
+3. Store extracted DNA at -20°C until further analysis.
+B. Library Preparation:
+1. Use a validated library preparation kit designed for next-
+generation sequencing (NGS) of the Hereditary Paraganglioma/
+Pheochromocytoma Panel.
+2. Follow the manufacturer's instructions for library preparation.
+3. Quantify and validate libraries using a fluorometer and/or
+qPCR.
+4. Pool libraries to ensure equal representation of each sample.
+C. Sequencing:
+1. Load pooled libraries onto the sequencing platform as per the
+manufacturer’s instructions.
+2. Perform sequencing on a compatible NGS instrument (e.g.,
+Illumina MiSeq or NextSeq).
+3. Monitor the sequencing run to ensure quality metrics are met.
+D. Data Analysis:
+1. Transfer sequencing data files to the bioinformatics platform.
+2. Use validated bioinformatics software to align sequencing reads
+to the reference genome.
+3. Perform variant calling to identify single nucleotide variants
+(SNVs) and indels.
+4. Annotate variants using a curated database of known
+pathogenic and benign variants.
+E. Interpretation of Results:
+1. Review annotated variants for clinical significance.
+2. Consider current literature, clinical databases, and in silico
+prediction tools.
+3. Classify variants according to established guidelines (e.g.,
+ACMG standards) as pathogenic, likely pathogenic, VUS
+(variant of uncertain significance), likely benign, or benign.
+F. Quality Control:
+1. Include positive and negative controls throughout DNA
+extraction, library preparation, and sequencing.
+2. Perform regular maintenance and calibration of equipment.
+3. Implement periodic proficiency testing to maintain laboratory
+accreditation.
+4. Document all QC activities and review logs monthly.
+5. RESULT REPORTING
+A. Reporting:
+1. Generate a comprehensive report summarizing all identified
+variants and their clinical significance.
+2. Verify the report for accuracy and completeness before release.
+3. The report must include: a. Patient identification and sample
+information b. List of identified variants with interpretation c.
+Methodological details and references d. Any limitations of the
+test
+B. Communication:
+1. Reports will be promptly communicated to the ordering
+physician via secured electronic methods or hard copy delivery,
+as requested.
+2. Any critical findings will be communicated immediately by
+phone followed by a formal report.
+C. Record Keeping:
+1. Store all records related to the Hereditary Paraganglioma/
+Pheochromocytoma Panel testing for a minimum of 10 years.
+2. Maintain records in both electronic and hard copy formats to
+ensure availability.
+3. REFERENCES
+• Manufacturer’s Instruction Manuals for DNA Extraction, Library
+Preparation, and Sequencing Kits
+• American College of Medical Genetics and Genomics (ACMG)
+Standards and Guidelines
+• Molecular Testing for Hereditary Paraganglioma/
+Pheochromocytoma: Current Best Practices
+1. REVIEW AND UPDATES This SOP will be reviewed annually or
+as required due to significant procedural changes or updates in
+technology and industry standards.
+Reviewed by: ________________ Date: ________________
+Approved by: ________________ Date: ________________
+For additional details, refer to the specific equipment user manuals
+and the laboratory’s quality control policies.
+This concludes the SOP for the Hereditary Paraganglioma/
+Pheochromocytoma Panel in the analytical phase. Ensure all staff is
+trained and familiar with these procedures for consistent, accurate,
+and reliable testing results.

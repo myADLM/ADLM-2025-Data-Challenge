@@ -1,0 +1,786 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K241273
+B Applicant
+Paige.AI, Inc.
+C Proprietary and Established Names
+FullFocus
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CRF 864.3700 – Whole
+QKQ Class II slide imaging system PA - Pathology
+II Submission/Device Overview:
+A Purpose for Submission
+New device
+B Type of Test:
+Software only device
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+For In Vitro Diagnostic Use
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CRF 864.3700 – Whole
+slide imaging system			PA - Pathology
+
+--- Page 2 ---
+FullFocus is a software intended for viewing and management of digital images of scanned
+surgical pathology slides prepared from formalin-fixed paraffin embedded (FFPE) tissue. It is an
+aid to the pathologist to review, interpret and manage digital images of pathology slides for
+primary diagnosis. FullFocus is not intended for use with frozen sections, cytology, or non-FFPE
+hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ appropriate procedures and safeguards
+to assure the quality of the images obtained and, where necessary, use conventional light
+microscopy review when making a diagnostic decision. FullFocus is intended to be used with the
+interoperable components specified in the below Table.
+Table: Interoperable Components of FullFocus
+Scanner Hardware Scanner Output file Interoperable Displays
+format
+Leica Aperio GT 450 DX DICOM, SVS Dell UP3017
+scanner Dell U3023E
+Hamamatsu NanoZoomer NDPI Dell U3223QE
+S360MD Slide Scanner JVC-Kenwood JD-C240BN01A
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+FullFocus, version 2.29, is a web-based software-only device that facilitates the viewing and
+navigating of digitized pathology images of slides prepared from FFPE tissue specimens
+acquired from FDA cleared digital pathology scanners on FDA cleared displays as specified in
+the intended use Table above. FullFocus renders these digitized pathology images for review,
+management, and navigation for pathology primary diagnosis.
+Image acquisition is performed using the intended scanner(s), with the operator conducting
+quality control on the whole-slide images according to the scanner's instructions for use and lab
+specifications to determine if re-scans are needed.
+Once a whole slide image is acquired using the intended scanner and becomes available in the
+scanner's database file system, a separate medical image communications software (not part of
+the device) automatically uploads the image and its corresponding metadata to persistent cloud
+storage. Integrity checks are performed during the upload to ensure data accuracy.
+The WSIs undergo intentional compression and are converted into standardized Paige TIFF files
+when visualized in FullFocus, as shown in Table below. Testing was conducted to ensure that the
+compressed images maintain fidelity to their original images.
+K241273 - Page 2 of 10
+
+[Table 1 on page 2]
+Scanner Hardware		Scanner Output file		Interoperable Displays
+		format		
+Leica Aperio GT 450 DX
+scanner	DICOM, SVS			Dell UP3017
+Dell U3023E
+Dell U3223QE
+JVC-Kenwood JD-C240BN01A
+Hamamatsu NanoZoomer
+S360MD Slide Scanner	NDPI			
+
+--- Page 3 ---
+Table 1. WSIs Compression when Visualized in FullFocus
+Scanner
+Scanner Hardware Output Compression Methods
+File
+Format
+Leica Aperio GT 450 DICOM FullFocus uses the WebP image format, configured with
+DX scanner quality 85 and method 4
+SVS FullFocus uses the AVIF image format, configured with
+quality 70 and 4:4:4 subsampling
+Hamamatsu NDPI FullFocus utilizes the AVIF image file format
+NanoZoomer S360MD compression which is tailored with settings configured to
+Slide scanner quality 70 and subsampling 4:4:4
+The subject device enables the reading pathologist to open a patient case, view the images, and
+perform actions such as zooming, panning, measuring distances and areas, and annotating
+images as needed. After reviewing all images for a case, the pathologist will render a diagnosis.
+The computer environment for during the use of FullFocus is specified in the Table below:
+Table 2. Computer Environment/System Requirements
+Environment Component Minimum Requirements
+Hardware Processor 1 CPU, 2 cores, 1.6 GHz
+Memory 4 GB RAM
+Network Bandwidth of 10 Mbps
+Software Operating System • Windows
+• macOS
+Browser • Google Chrome (129.0.6668.90 or higher)
+• Microsoft Edge (129.0.2792.79 or higher)
+B Instrument Description Information:
+1. Instrument Name:
+FullFocus
+2. Specimen Identification:
+The FullFocus device utilizes digital pathology images acquired from Hematoxylin and
+Eosin (H&E) stained glass slides using the Leica Aperio GT 450 DX scanner or the
+Hamamatsu NanoZoomer S360MD Slide scanner. A reading pathologist selects a case
+(patient) from an external worklist, and the subject device retrieves the corresponding images
+from external image storage. The scanned images are identified using the specimen identifier
+previously assigned to the case.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are conducted independently and prior to the use of the
+subject device. This process involves obtaining biopsy or resection specimens, which are
+K241273 - Page 3 of 10
+
+[Table 1 on page 3]
+	Scanner	
+Scanner Hardware	Output	Compression Methods
+	File	
+	Format	
+Leica Aperio GT 450
+DX scanner	DICOM	FullFocus uses the WebP image format, configured with
+quality 85 and method 4
+	SVS	FullFocus uses the AVIF image format, configured with
+quality 70 and 4:4:4 subsampling
+Hamamatsu
+NanoZoomer S360MD
+Slide scanner	NDPI	FullFocus utilizes the AVIF image file format
+compression which is tailored with settings configured to
+quality 70 and subsampling 4:4:4
+
+[Table 2 on page 3]
+	Environment			Component			Minimum Requirements	
+Hardware			Processor			1 CPU, 2 cores, 1.6 GHz		
+			Memory			4 GB RAM		
+			Network			Bandwidth of 10 Mbps		
+Software			Operating System			• Windows
+• macOS		
+			Browser			• Google Chrome (129.0.6668.90 or higher)
+• Microsoft Edge (129.0.2792.79 or higher)		
+
+--- Page 4 ---
+then processed using standard histology techniques. After H&E staining of the FFPE tissue
+sections, digital images are generated from the glass slides using the Leica Aperio GT 450
+DX Scanner, or the Hamamatsu NanoZoomer S360MD Slide scanner.
+4. Calibration:
+Not applicable
+5. Quality Control:
+The subject device receives whole-slide images from the Paige image storage system. All
+WSI files are quality-controlled and acquired in accordance with the scanner’s instructions
+for use. The subject device incorporates specific quality control measures to ensure the
+accuracy and completeness of the images. Each pathologist must perform quality checks
+prior to analyzing pathology images using the subject device. This includes verifying that all
+scanned slide images have been successfully imported. For each case, the pathologist should
+review the thumbnails in the pathology image window to confirm that all required slides are
+present. Additionally, the tissue block and staining information should be manually verified
+against data from the Laboratory Information System (LIS).
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Aperio GT450X; NanoZoomer S360MD Slide scanner system
+B Predicate 510(k) Number(s):
+K232202; K213883
+C Comparison with Predicate(s):
+K241273 - Page 4 of 10
+
+--- Page 5 ---
+Device &
+Predicate K241273 K232202
+K213883
+Device(s):
+Device Trade FullFocus Aperio GT450X NanoZoomer S360MD Slide scanner system
+Name
+General Device Characteristic Similarities
+For In Vitro Diagnostic Use The Aperio GT 450 DX is an automated digital slide The NanoZoomer S360MD Slide scanner system
+FullFocus is a software intended for viewing creation and viewing system. The Aperio GT450 DX is (“NanoZoomer System”) is an automated digital
+and management of digital images of scanned intended for in vitro diagnostic use as an aid to the slide creation, viewing, and management system.
+surgical pathology slides prepared from pathologist to review and interpret digital images of surgical The NanoZoomer System is intended for in vitro
+formalin-fixed paraffin embedded (FFPE) pathology slides prepared from formalin-fixed paraffin diagnostic use as an aid to the pathologist to review
+tissue. It is an aid to the pathologist to review, embedded (FFPE) tissue. The Aperio GT 450 DX is for and interpret digital images of surgical pathology
+interpret and manage digital images of creation and viewing of digital images of scanned glass slides prepared from formalin-fixed paraffin
+pathology slides for primary diagnosis. slides that would otherwise be appropriate for manual embedded (“FFPE”) tissue. The NanoZoomer
+FullFocus is not intended for use with frozen visualization by conventional light microscopy. System is not intended for use with frozen section,
+sections, cytology, or non-FFPE Aperio GT 450 DX is comprised of the Aperio GT 450 DX cytology, or non-FFPE hematopathology specimens.
+hematopathology specimens. scanner, which generates images in the Digital Imaging and
+Communications in Medicine (DICOM) and in the The NanoZoomer System comprises the
+It is the responsibility of a qualified pathologist ScanScope Virtual Slide (SVS) file formats, the Aperio NanoZoomer S360MD Slide scanner, the
+to employ appropriate procedures and WebViewer DX viewer, and the displays. The Aperio GT NZViewMD Software and the JVC Kenwood JD-
+safeguards to assure the quality of the images 450 DX is intended to be used with the interoperable C240BN01A display. The NanoZoomer System is
+obtained and, where necessary, use components specified in Table 1. for creation and viewing of digital images of scanned
+Intended Use conventional light microscopy review when
+Table 1: Interoperable components of Aperio GT 450 DX glass slides that would otherwise be appropriate for
+/Indications making a diagnostic decision. FullFocus is
+Scanner Scanner Interoperable Interoperable manual visualization by conventional light
+For Use intended to be used with the interoperable
+Hardware Output Viewing Displays microscopy. It is the responsibility of a qualified
+components specified in the below Table.
+file Software pathologist to employ appropriate procedures and
+format safeguards to assure the validity of the interpretation
+Table: Interoperable components of
+Aperio GT SVS Aperio Barco MDPC-8127 of images obtained using NanoZoomer System.
+FullFocus
+450 DX WebViewer DX Dell UP3017
+Scanner Scanner Interoperable
+scanner Dell U3023E
+Hardware Output Displays
+file Dell U3223QE
+format Aperio GT SVS Sectra Digital Dell U3223QE
+Leica Aperio DICOM, Dell UP3017 450 DX Pathology
+GT 450 DX SVS Dell U3023E scanner Module (3.3)
+scanner Dell U3223QE Aperio GT DICOM Sectra Digital Dell U3223QE
+Hamamatsu NDPI JVC Kenwood 450 DX Pathology
+NanoZoomer JD- scanner Module (3.3)
+S360MD C240BN01A The Aperio GT 450 DX is not intended for use with frozen
+Slide scanner section, cytology, or non-FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ
+K241273 - Page 5 of 10
+
+[Table 1 on page 5]
+	Device &		K241273	K232202	K213883	
+	Predicate					
+	Device(s):					
+Device Trade
+Name			FullFocus	Aperio GT450X	NanoZoomer S360MD Slide scanner system	
+	General Device Characteristic Similarities					
+Intended Use
+/Indications
+For Use			For In Vitro Diagnostic Use
+FullFocus is a software intended for viewing
+and management of digital images of scanned
+surgical pathology slides prepared from
+formalin-fixed paraffin embedded (FFPE)
+tissue. It is an aid to the pathologist to review,
+interpret and manage digital images of
+pathology slides for primary diagnosis.
+FullFocus is not intended for use with frozen
+sections, cytology, or non-FFPE
+hematopathology specimens.
+It is the responsibility of a qualified pathologist
+to employ appropriate procedures and
+safeguards to assure the quality of the images
+obtained and, where necessary, use
+conventional light microscopy review when
+making a diagnostic decision. FullFocus is
+intended to be used with the interoperable
+components specified in the below Table.
+Table: Interoperable components of
+FullFocus
+Scanner Scanner Interoperable
+Hardware Output Displays
+file
+format
+Leica Aperio DICOM, Dell UP3017
+GT 450 DX SVS Dell U3023E
+scanner Dell U3223QE
+Hamamatsu NDPI JVC Kenwood
+NanoZoomer JD-
+S360MD C240BN01A
+Slide scanner	The Aperio GT 450 DX is an automated digital slide
+creation and viewing system. The Aperio GT450 DX is
+intended for in vitro diagnostic use as an aid to the
+pathologist to review and interpret digital images of surgical
+pathology slides prepared from formalin-fixed paraffin
+embedded (FFPE) tissue. The Aperio GT 450 DX is for
+creation and viewing of digital images of scanned glass
+slides that would otherwise be appropriate for manual
+visualization by conventional light microscopy.
+Aperio GT 450 DX is comprised of the Aperio GT 450 DX
+scanner, which generates images in the Digital Imaging and
+Communications in Medicine (DICOM) and in the
+ScanScope Virtual Slide (SVS) file formats, the Aperio
+WebViewer DX viewer, and the displays. The Aperio GT
+450 DX is intended to be used with the interoperable
+components specified in Table 1.
+Table 1: Interoperable components of Aperio GT 450 DX
+Scanner Scanner Interoperable Interoperable
+Hardware Output Viewing Displays
+file Software
+format
+Aperio GT SVS Aperio Barco MDPC-8127
+450 DX WebViewer DX Dell UP3017
+scanner Dell U3023E
+Dell U3223QE
+Aperio GT SVS Sectra Digital Dell U3223QE
+450 DX Pathology
+scanner Module (3.3)
+Aperio GT DICOM Sectra Digital Dell U3223QE
+450 DX Pathology
+scanner Module (3.3)
+The Aperio GT 450 DX is not intended for use with frozen
+section, cytology, or non-FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ	The NanoZoomer S360MD Slide scanner system
+(“NanoZoomer System”) is an automated digital
+slide creation, viewing, and management system.
+The NanoZoomer System is intended for in vitro
+diagnostic use as an aid to the pathologist to review
+and interpret digital images of surgical pathology
+slides prepared from formalin-fixed paraffin
+embedded (“FFPE”) tissue. The NanoZoomer
+System is not intended for use with frozen section,
+cytology, or non-FFPE hematopathology specimens.
+The NanoZoomer System comprises the
+NanoZoomer S360MD Slide scanner, the
+NZViewMD Software and the JVC Kenwood JD-
+C240BN01A display. The NanoZoomer System is
+for creation and viewing of digital images of scanned
+glass slides that would otherwise be appropriate for
+manual visualization by conventional light
+microscopy. It is the responsibility of a qualified
+pathologist to employ appropriate procedures and
+safeguards to assure the validity of the interpretation
+of images obtained using NanoZoomer System.	
+
+[Table 2 on page 5]
+
+K213883
+
+[Table 3 on page 5]
+Scanner	Scanner	Interoperable	Interoperable
+Hardware	Output	Viewing	Displays
+	file	Software	
+	format		
+Aperio GT
+450 DX
+scanner	SVS	Aperio
+WebViewer DX	Barco MDPC-8127
+Dell UP3017
+Dell U3023E
+Dell U3223QE
+Aperio GT
+450 DX
+scanner	SVS	Sectra Digital
+Pathology
+Module (3.3)	Dell U3223QE
+Aperio GT
+450 DX
+scanner	DICOM	Sectra Digital
+Pathology
+Module (3.3)	Dell U3223QE
+
+[Table 4 on page 5]
+Scanner
+Hardware	Scanner
+Output
+file
+format	Interoperable
+Displays
+Leica Aperio
+GT 450 DX
+scanner	DICOM,
+SVS	Dell UP3017
+Dell U3023E
+Dell U3223QE
+JVC Kenwood
+JD-
+C240BN01A
+Hamamatsu
+NanoZoomer
+S360MD
+Slide scanner	NDPI	
+
+--- Page 6 ---
+appropriate procedures and safeguards to assure the validity
+of the interpretation of images obtained using the Aperio GT
+450 DX.
+Principle of After WSI images are successfully acquired by The Aperio GT 450 DX is a WSI system. The technician The NanoZoomer S360MD Slide scanner system
+Operation using Aperio GT 450 DX scanner, or places the slides into the Aperio GT 450 DX scanner. The (“NanoZoomer System”) is an automated digital
+Hamamatsu NanoZoomer S360MD Slide Aperio GT 450 DX scanner automatically loads the slides, slide creation, viewing, and management system.
+scanner, the WSI images are stored in the takes the micro images, finds the tissues, and scans the The NanoZoomer System is intended for in vitro
+slides. The scanner also automatically performs quality diagnostic use as an aid to the pathologist to review
+cloud. During review, the pathologist opens
+control (QC) and notifies the user of any image quality issue and interpret digital images of surgical pathology
+WSI images from storage, perform further QC
+during the image acquisition. The image data is sent to end- slides prepared from formalin-fixed paraffin
+and reads WSI images of the slides to make a
+user-provided image storage attached to the local network. embedded (“FFPE”) tissue. The NanoZoomer
+diagnosis.
+During the review, the pathologist opens WSI images System is not intended for use with frozen section,
+acquired with the WSI scanner from the image storage, cytology, or non-FFPE hematopathology specimens.
+performs further QC, and reads WSI images of the slides to The system’s embedded image processing software
+make a diagnosis. is responsible for image acquisition and the
+processing of individual tiles prior to image
+composition or stitching. Hamamatsu’s
+NZAcquireMD software organizes all WSI tiles into
+a single NDPi file, which is a proprietary file format.
+During the review, the pathologist opens the WSI on
+the NZViewMD software to render a diagnosis.
+Specimen Digitized surgical pathology slides prepared Same Same
+Type from FFPE tissue
+Type of Internet browser-based application Same PC-based installed application
+Software
+Application
+Image Panning, zooming, annotations, and Same Functions for continuous panning and zooming,
+Manipulation measurements annotations, distance/area measurements, track
+and Review visited areas, export images, discrete Z-axis
+Functions displacement, and display of diagnostic status of
+images.
+General Device Characteristic Differences
+Device FullFocus image viewing software WSI scanner (Aperio GT450 DX scanner), Image WSI scanner (NanoZoomer S360MD Slide scanner),
+Components Management System (Aperio WebViewer DX image Image Management System (NZViewMD), Display
+viewing software), Display
+Diagnostic Leica SVS and DICOM, Leica SVS and DICOM Hamamatsu NDPI
+Image File Hamamatsu NDPI
+Format
+End User’s FullFocus Aperio WebViewer DX for Leica SVS, NZViewMD
+Interface Sectra Digital Pathology Module (3.3) for Leica SVS and
+DICOM
+K241273 - Page 6 of 10
+
+[Table 1 on page 6]
+			appropriate procedures and safeguards to assure the validity
+of the interpretation of images obtained using the Aperio GT
+450 DX.		
+Principle of
+Operation		After WSI images are successfully acquired by
+using Aperio GT 450 DX scanner, or
+Hamamatsu NanoZoomer S360MD Slide
+scanner, the WSI images are stored in the
+cloud. During review, the pathologist opens
+WSI images from storage, perform further QC
+and reads WSI images of the slides to make a
+diagnosis.	The Aperio GT 450 DX is a WSI system. The technician
+places the slides into the Aperio GT 450 DX scanner. The
+Aperio GT 450 DX scanner automatically loads the slides,
+takes the micro images, finds the tissues, and scans the
+slides. The scanner also automatically performs quality
+control (QC) and notifies the user of any image quality issue
+during the image acquisition. The image data is sent to end-
+user-provided image storage attached to the local network.
+During the review, the pathologist opens WSI images
+acquired with the WSI scanner from the image storage,
+performs further QC, and reads WSI images of the slides to
+make a diagnosis.	The NanoZoomer S360MD Slide scanner system
+(“NanoZoomer System”) is an automated digital
+slide creation, viewing, and management system.
+The NanoZoomer System is intended for in vitro
+diagnostic use as an aid to the pathologist to review
+and interpret digital images of surgical pathology
+slides prepared from formalin-fixed paraffin
+embedded (“FFPE”) tissue. The NanoZoomer
+System is not intended for use with frozen section,
+cytology, or non-FFPE hematopathology specimens.
+The system’s embedded image processing software
+is responsible for image acquisition and the
+processing of individual tiles prior to image
+composition or stitching. Hamamatsu’s
+NZAcquireMD software organizes all WSI tiles into
+a single NDPi file, which is a proprietary file format.
+During the review, the pathologist opens the WSI on
+the NZViewMD software to render a diagnosis.	
+Specimen
+Type		Digitized surgical pathology slides prepared
+from FFPE tissue	Same	Same	
+Type of
+Software
+Application		Internet browser-based application	Same	PC-based installed application	
+Image
+Manipulation
+and Review
+Functions		Panning, zooming, annotations, and
+measurements	Same	Functions for continuous panning and zooming,
+annotations, distance/area measurements, track
+visited areas, export images, discrete Z-axis
+displacement, and display of diagnostic status of
+images.	
+	General Device Characteristic Differences				
+Device
+Components		FullFocus image viewing software	WSI scanner (Aperio GT450 DX scanner), Image
+Management System (Aperio WebViewer DX image
+viewing software), Display	WSI scanner (NanoZoomer S360MD Slide scanner),
+Image Management System (NZViewMD), Display	
+Diagnostic
+Image File
+Format		Leica SVS and DICOM,
+Hamamatsu NDPI	Leica SVS and DICOM	Hamamatsu NDPI	
+End User’s
+Interface		FullFocus	Aperio WebViewer DX for Leica SVS,
+Sectra Digital Pathology Module (3.3) for Leica SVS and
+DICOM	NZViewMD	
+
+--- Page 7 ---
+VI Standards/Guidance Documents Referenced:
+1. FDA Guidance “Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices". April 20, 2016.
+2. FDA Guidance “Applying Human Factors and Usability Engineering to Medical Devices”.
+February 3, 2016.
+3. FDA Guidance “Content of Premarket Submissions for Device Software Functions”. June
+14, 2023.
+4. FDA Guidance “Cybersecurity in Medical Devices: Quality System Considerations and
+Content of Premarket Submissions”. September 27, 2023.
+5. AAMI TIR 45:2012 - Guidance on the use of AGILE practices in the development of
+medical device software.
+6. IEC 62304 Edition 1.1 2015-06 CONSOLIDATED VERSION, 13-79. Medical device
+software – Software life cycle processes.
+7. ISO 14971 Third Edition 2019-12, 5-125, Medical devices – Applications of risk
+management to medical devices.
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing was conducted with the subject device, FullFocus as specified
+below.
+1. Bench Testing - Pixelwise comparison test
+FullFocus supports multiple file formats, multiple browsers, and multiple displays,
+constituting various configurations to be tested. Pixel-wise comparison testing to demonstrate
+identical image reproduction was conducted to compare WSIs reproduced by the subject
+device and the comparators as listed in Table 3 below. The subject device was compared to
+the predicate device’s image review manipulation software (IRMS, as defined in FDA
+K241273 - Page 7 of 10
+
+--- Page 8 ---
+guidance document, “Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices” dated April 20, 2016) using the quantitative pixel-wise comparison
+method. The basis for the comparison was the CIEDE2000 color difference equation, ΔE00.
+The devices were tested as operating with the intended components, including the scanner,
+specific file format, image management systems (subject device with the intended browsers,
+comparator [predicate device IRMS]) and displays, as specified in the Table 3 below.
+For each of the 6 configurations in Table 3 below, the device was tested with multiple slides
+across multiple regions of interest (ROI) at multiple magnification levels, on multiple
+displays. A total of 30 H&E-stained, FFPE glass slides of normal and tumor tissues from
+various human anatomical organs were used in the testing. For each configuration, the glass
+slides were scanned on a corresponding intended scanner to obtain 30 WSIs. For each of the
+30 WSIs, 3 ROIs from different locations were selected by qualified personnel to represent
+various features in the tissue samples. Each ROI was captured at 2 magnification levels (10x,
+40x).
+The screenshots were captured for each of the intended display while viewing with the
+subject device and predicate device IRMS. The screenshots were cropped and registered to
+be pixelwise comparable. The cropped image included most of the pixels in the image except
+for those in the viewer-specific user interface areas.
+For each configuration and each intended display, two sets of images were collected:
+comparator (predicate device IRMS) and the subject device (FullFocus with the intended
+browser). Each image set included 180 images that covered all combinations of 30 slides, 3
+ROIs and 2 magnification levels. The testing data, including the overview images of the 30
+glass slides with annotations of the ROIs, registration/cropping information, and captured
+images, were provided in the FDA specific format. The above procedure was repeated for
+each corresponding intended display.
+The comparator (predicate device IRMS) image set was used as the reference to compare the
+subject device image set to determine whether all the 180 image-pairs were identical for each
+configuration and each intended display. Two images are considered identical if the 95th
+percentile of the pixelwise differences, computed using the International Commission on
+Illumination (CIE) color difference metric CIEDE2000 (ΔE00), is less than 3 ΔE00. Testing
+results showed that the pixelwise differences across all 180 image-pairs per configuration and
+per intended display were less than 3 ΔE00. The maximum (max), minimum (min), and mean
+of the 95th percentile ΔE00 value were reported in Table 3. Testing results demonstrated that
+WSIs reproduced by FullFocus are identical to images reproduced by the predicate devices.
+Table 3. FullFocus Pixelwise Comparison Testing Results
+Image Subject Comparator
+Scanner File Device/ (Predicate Displays Results
+Format Browser device IRMS
+/Browser)
+Leica Aperio DICOM FullFocus Sectra UniView • Dell UP3017 max (95th percentile ΔE
+00
+) = 2.95
+GT450DX /Chrome /Chrome • Dell U3023E min (95th percentile ΔE
+00
+) = 1.61
+scanner • Dell mean (95th percentile ΔE
+00
+) = 2.44
+FullFocus Sectra UniView U3223QE max (95th percentile ΔE ) = 2.95
+00
+/Edge /Edge min (95th percentile ΔE ) = 1.61
+00
+K241273 - Page 8 of 10
+
+[Table 1 on page 8]
+Scanner	Image
+File
+Format	Subject
+Device/
+Browser		Comparator		Displays	Results
+				(Predicate			
+				device IRMS			
+				/Browser)			
+Leica Aperio
+GT450DX
+scanner	DICOM	FullFocus
+/Chrome	Sectra UniView
+/Chrome			• Dell UP3017
+• Dell U3023E
+• Dell
+U3223QE	max (95th percentile ΔE ) = 2.95
+00
+min (95th percentile ΔE ) = 1.61
+00
+mean (95th percentile ΔE ) = 2.44
+00
+		FullFocus
+/Edge	Sectra UniView
+/Edge				max (95th percentile ΔE ) = 2.95
+00
+min (95th percentile ΔE ) = 1.61
+00
+
+[Table 2 on page 8]
+
+Scanner
+
+[Table 3 on page 8]
+Image
+File
+Format
+
+[Table 4 on page 8]
+Subject
+Device/
+Browser
+
+[Table 5 on page 8]
+
+Displays
+
+[Table 6 on page 8]
+
+Results
+
+--- Page 9 ---
+• JVC-Kenwood mean (95th percentile ΔE
+00
+) = 2.44
+SVS FullFocus Aperio JD- max (95th percentile ΔE ) = 2.90
+00
+/Chrome WebViewer C240BN01A min (95th percentile ΔE ) = 1.37
+00
+DX/Chrome mean (95th percentile ΔE ) = 2.46
+00
+FullFocus Aperio max (95th percentile ΔE ) = 2.90
+00
+/Edge WebViewer min (95th percentile ΔE ) = 1.37
+00
+DX/Edge mean (95th percentile ΔE ) = 2.46
+00
+Hamamatsu NDPI FullFocus NZViewMD max (95th percentile ΔE ) = 2.94
+00
+NanoZoomer /Chrome min (95th percentile ΔE ) = 1.43
+00
+S360MD mean (95th percentile ΔE ) = 2.17
+00
+Slide scanner FullFocus NZViewMD max (95th percentile ΔE ) = 2.94
+00
+/Edge min (95th percentile ΔE ) = 1.43
+00
+mean (95th percentile ΔE ) = 2.17
+00
+2. Turnaround Time
+The turnaround times of the subject device were measured for the operations of image
+opening, panning, and zooming for different scenarios. Below acceptance criteria was used:
+• < 10 seconds to load first image in FOV across all images
+• < 7 seconds to render the Field of View (FOV) while zooming and panning across all
+images
+Test results for different scenarios met the test acceptance criteria and showed acceptable
+turnaround time for the intended use of the subject device.
+Table 4. FullFocus Turnaround Time Testing Results
+Scanner Image File Subject Turnaround Time Results
+Format Device/Browser
+Leica Aperio GT DICOM • FullFocus/Chrome The overall median load time
+450 DX scanner • FullFocus/Edge (sec) for first image is 1.63, for
+panning is 0.93 and zooming is
+1.86.
+SVS • FullFocus/Chrome The overall median load time
+• FullFocus/Edge (sec) for first image is 1.68, for
+panning is 1.03 and zooming
+2.00.
+Hamamatsu NDPI • FullFocus/Chrome The overall median load time
+NanoZoomer • FullFocus/Edge (sec) for first image is 2.27, for
+S360MD Slide panning is 0.84 and zooming is
+scanner 1.45.
+3. Measurement – distance and area
+The length and area measurement accuracy of the subject device was tested across multiple
+magnification levels. An image of a calibration scale slide with known object sizes was used
+to verify the measurement accuracy. A series of annotations were created to cover different
+orientations and different magnification levels in 4 intended browsers. The differences
+between the actual and reported measurements were calculated for each annotation. The
+acceptance criteria were as follows: 1) The 1 mm measured line should match the reference
+K241273 - Page 9 of 10
+
+[Table 1 on page 9]
+				• JVC-Kenwood
+JD-
+C240BN01A	mean (95th percentile ΔE ) = 2.44
+00
+	SVS	FullFocus
+/Chrome	Aperio
+WebViewer
+DX/Chrome		max (95th percentile ΔE ) = 2.90
+00
+min (95th percentile ΔE ) = 1.37
+00
+mean (95th percentile ΔE ) = 2.46
+00
+		FullFocus
+/Edge	Aperio
+WebViewer
+DX/Edge		max (95th percentile ΔE ) = 2.90
+00
+min (95th percentile ΔE ) = 1.37
+00
+mean (95th percentile ΔE ) = 2.46
+00
+Hamamatsu
+NanoZoomer
+S360MD
+Slide scanner	NDPI	FullFocus
+/Chrome	NZViewMD		max (95th percentile ΔE ) = 2.94
+00
+min (95th percentile ΔE ) = 1.43
+00
+mean (95th percentile ΔE ) = 2.17
+00
+		FullFocus
+/Edge	NZViewMD		max (95th percentile ΔE ) = 2.94
+00
+min (95th percentile ΔE ) = 1.43
+00
+mean (95th percentile ΔE ) = 2.17
+00
+
+[Table 2 on page 9]
+Scanner	Image File	Subject	Turnaround Time Results
+	Format	Device/Browser	
+Leica Aperio GT
+450 DX scanner	DICOM	• FullFocus/Chrome
+• FullFocus/Edge	The overall median load time
+(sec) for first image is 1.63, for
+panning is 0.93 and zooming is
+1.86.
+	SVS	• FullFocus/Chrome
+• FullFocus/Edge	The overall median load time
+(sec) for first image is 1.68, for
+panning is 1.03 and zooming
+2.00.
+Hamamatsu
+NanoZoomer
+S360MD Slide
+scanner	NDPI	• FullFocus/Chrome
+• FullFocus/Edge	The overall median load time
+(sec) for first image is 2.27, for
+panning is 0.84 and zooming is
+1.45.
+
+--- Page 10 ---
+value exactly 1 mm ± 0mm and 2). The measured area must match the reference area exactly
+0.2 x 0.2 mm for a total of 0.04 mm2 ± 0 mm2. Test results showed that the subject device
+performed accurate measurements of length and area and all line and area measurements
+compared to the reference value were exactly the same with no error, across multiple
+magnification settings with respect to its intended use.
+4. Human Factor (Usability) Testing
+Human factors study designed around critical user tasks and use scenarios performed by
+representative users were conducted for previously cleared FullFocus, version 1.2.1, in
+K201005, per FDA guidance “Applying Human Factors and Usability Engineering to
+Medical Devices (2016)”. Human factors validation testing is not necessary as the user
+interface and workflow remain unchanged.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K241273 - Page 10 of 10
+
+[Table 1 on page 10]
+Human factors study designed around critical user tasks and use scenarios performed by
+representative users were conducted for previously cleared FullFocus, version 1.2.1, in
+K201005, per FDA guidance “Applying Human Factors and Usability Engineering to
+Medical Devices (2016)”. Human factors validation testing is not necessary as the user
+interface and workflow remain unchanged.

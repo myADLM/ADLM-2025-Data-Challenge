@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔬 SOP Query System</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 SOP Query System</h1>
+            <p>Laboratory Standard Operating Procedure Analysis</p>
+        </div>
+        
+        <div class="main-content">
+            <!-- Connection Info -->
+            <div class="connection-info">
+                <h4>🌐 Production Flask Application</h4>
+                <p>This application runs with Gunicorn for production deployment and background service operation:</p>
+                <div class="access-info">
+                    <div class="access-item">
+                        <strong>Local Access:</strong><br>
+                        http://localhost:5000
+                    </div>
+                    <div class="access-item">
+                        <strong>Network Access:</strong><br>
+                        http://10.252.96.40:5000
+                    </div>
+                    <div class="access-item">
+                        <strong>Service Control:</strong><br>
+                        Use service.sh start/stop/status
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Status Messages -->
+            <div id="statusMsg" style="display: none;"></div>
+            
+            <!-- Loading -->
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Processing your request...</p>
+            </div>
+            
+            <!-- Directory Selection Section -->
+            <div class="section file-selection">
+                <h3>Select SOP Directory</h3>
+                <div class="form-group">
+                    <label for="directorySelect">Choose a directory containing JSON files to query:</label>
+                    <select id="directorySelect">
+                        <option value="">-- Select an SOP directory --</option>
+                        {% for directory in json_directories %}
+                        <option value="{{ directory.path }}" data-count="{{ directory.file_count }}">
+                            {{ directory.name }} ({{ directory.file_count }} files)
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button id="loadBtn">📂 Load SOP Directory</button>
+                <button id="refreshBtn">🔄 Refresh Directory List</button>
+                
+                <div id="directoryInfo" class="file-info" style="display: none;">
+                    <h4>📊 Loaded SOP Directory Information</h4>
+                    <div id="directoryDetails"></div>
+                    <div id="classSummary" class="class-summary"></div>
+                    <div id="fileSummary" class="class-summary" style="margin-top: 15px;"></div>
+                </div>
+            </div>
+            
+            <!-- Query Section with Chat Interface -->
+            <div class="section query-section">
+                <h3>Chat with SOP System</h3>
+                
+                <!-- Conversation History -->
+                <div id="chatContainer" class="chat-container">
+                    <div id="chatHistory" class="chat-history">
+                        <div class="welcome-message">
+                            <p>👋 Welcome! Load a directory and start asking questions about your SOPs.</p>
+                            <p>💬 Your conversation history will be preserved to provide better context-aware answers.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Query Input -->
+                <div class="chat-input-section">
+                    <div class="form-group">
+                        <label for="questionInput">Ask a question about the SOPs:</label>
+                        <textarea id="questionInput" disabled placeholder="Ask about equipment, procedures, specimen requirements, quality control, reference ranges, etc.
+
+Example questions:
+• What is the reference range for A1C?
+• What specimen is required for this test?
+• Follow-up: What about the storage requirements?
+• Can you explain that procedure in more detail?"></textarea>
+                    </div>
+                    
+                    <div class="chat-controls">
+                        <div class="chat-options">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="useEnhanced" checked>
+                                <label for="useEnhanced">Enhanced LLM Analysis (recommended)</label>
+                            </div>
+                            
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="showDebug">
+                                <label for="showDebug">Show debug information</label>
+                            </div>
+                        </div>
+                        
+                        <div class="chat-buttons">
+                            <button id="queryBtn" disabled>💬 Send Message</button>
+                            <button id="clearChatBtn" class="secondary-btn">🗑️ Clear Chat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Debug Section (hidden by default) -->
+            <div class="section results-section" id="debugSection" style="display: none;">
+                <h3>Debug Information</h3>
+                <div id="debugContainer" class="debug-info"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Response Container (hidden) -->
+    <div id="responseContainer" style="display: none;"></div>
+
+    <!-- External JavaScript -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

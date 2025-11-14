@@ -1,0 +1,103 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase of Generating Results for Focal Segmental
+Glomerulosclerosis (FSGS) and Nephrotic Syndrome Gene Panel
+1. PURPOSE
+This protocol provides comprehensive instructions for the analytical
+phase of generating genetic test results for Focal Segmental
+Glomerulosclerosis (FSGS) and Nephrotic Syndrome gene panels,
+ensuring accurate and reliable analysis for clinical diagnosis and
+research applications.
+Responsibility:
+It is the responsibility of trained laboratory staff to perform genetic
+analyses following this protocol, ensuring adherence to procedural
+guidelines and accuracy in result reporting. Supervisors are
+responsible for overseeing the implementation of the protocol and
+addressing any discrepancies or issues that arise during the
+analytical phase.
+1. DEFINITIONS
+Focal Segmental Glomerulosclerosis (FSGS): A type of kidney
+disease characterized by scarring in the glomeruli, which can lead to
+nephrotic syndrome.
+Nephrotic Syndrome: A kidney disorder causing the body to excrete
+too much protein in the urine.
+Gene Panel: A set of genes tested simultaneously to identify genetic
+mutations related to FSGS and nephrotic syndrome.
+1. PROCEDURE
+A) Preparation and DNA Extraction
+1. Confirm specimen identity and accessioning information.
+2. Utilize a commercially available DNA extraction kit (e.g.,
+QIAamp DNA Mini Kit) following the manufacturer’s instructions.
+3. Quantify the extracted DNA using a spectrophotometer (e.g.,
+NanoDrop) and assess purity.
+4. Store extracted DNA at -20°C until ready for analysis.
+B) Library Preparation
+1. Perform library preparation using a validated gene panel kit
+(e.g., Ion Torrent Invitrogen AmpliSeq Custom Panel).
+2. Follow manufacturer's protocol for target enrichment and library
+amplification, ensuring proper reagent handling and barcode
+assignment.
+3. Quantify libraries using qPCR or appropriate quantification
+methodology.
+4. Pool libraries at equimolar concentrations as per the protocol.
+C) Sequencing
+1. Load prepared libraries onto the sequencing platform (e.g., Ion
+Torrent S5).
+2. Run sequencer according to established protocols, monitoring
+for proper instrument function and reagent consumption.
+3. Upon completion of sequencing run, download raw sequencing
+data for analysis.
+D) Bioinformatics Analysis
+1. Use validated bioinformatics pipeline (e.g., Torrent Suite
+Software) for initial processing of sequencing data:
+◦ Base calling and read alignment to the reference genome.
+◦ Variant calling to identify SNPs, insertions, deletions, and
+CNVs.
+2. Utilize secondary analysis tools (e.g., Integrative Genomics
+Viewer (IGV), SAMtools) for in-depth inspection of identified
+variants.
+3. Filter and annotate variants using databases such as ClinVar,
+dbSNP, and proprietary lab databases to classify variant
+pathogenicity.
+E) Quality Control
+1. Perform initial data quality checks including read depth, base
+quality scores, and alignment statistics.
+2. Utilize internal quality control metrics (e.g., known positive and
+negative controls) to ensure accuracy of variant detection.
+3. Re-run analysis or repeat sample preparation if quality control
+thresholds are not met.
+F) Data Interpretation and Reporting
+1. Interpret annotated variants in the context of FSGS and
+nephrotic syndrome pathogenesis:
+◦ Correlate findings with clinical presentation.
+◦ Utilize expertise from clinical geneticists and nephrologists,
+as appropriate.
+2. Compile a comprehensive report including:
+◦ Patient identification details.
+◦ List of identified variants with clinical significance.
+◦ Interpretative comments including recommendations for
+further testing or clinical follow-up.
+3. Review the report collaboratively among multidisciplinary team
+members for final approval.
+4. QUALITY CONTROL
+5. Regularly participate in external proficiency testing and inter-
+laboratory comparisons to ensure methodological robustness.
+6. Maintain documentation of all steps performed, ensuring
+traceability and accountability.
+7. Archive sequencing data and analysis reports electronically,
+adhering to data integrity and confidentiality protocols.
+8. REFERENCES
+• Manufacturer’s Protocols for DNA Extraction Kit and Gene Panel
+Kit.
+• Current literature on genetic mutations associated with FSGS and
+nephrotic syndrome.
+• Standard bioinformatics tools and databases for genetic variant
+annotation.
+1. REPORTING RESULTS
+Results are transmitted to the Laboratory Information System (LIS)
+and reviewed by the supervising technologist for verification. Adhere
+to critical result reporting guidelines, ensuring prompt communication
+with healthcare providers.
+This SOP delineates the protocol for the analytical phase,
+ensuring thorough, accurate, and reliable genetic analysis for
+FSGS and nephrotic syndrome gene panels in a CLIA-certified
+laboratory.

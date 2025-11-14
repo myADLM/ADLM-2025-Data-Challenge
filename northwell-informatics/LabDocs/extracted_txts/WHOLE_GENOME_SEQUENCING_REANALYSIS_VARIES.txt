@@ -1,0 +1,93 @@
+Standard Operating Procedure (SOP) for Whole Genome
+Sequencing (WGS) Reanalysis
+1. PURPOSE
+This SOP outlines the process for reanalyzing Whole Genome
+Sequencing (WGS) data to ensure accurate and updated
+interpretations of genomic results. Reanalysis may be warranted due
+to new scientific findings, improved computational tools, or at the
+request of healthcare providers.
+1. SCOPE
+This protocol applies to all staff involved in the reanalysis of WGS
+data within the laboratory. It covers the computational, quality control,
+and interpretive aspects of reanalyzing WGS data.
+1. RESPONSIBILITY
+It is the responsibility of designated bioinformaticians, clinical
+geneticists, and laboratory technicians to adhere to this procedure.
+The laboratory supervisor must ensure compliance with this SOP and
+facilitate any necessary corrective actions.
+1. DEFINITIONS
+• WGS Reanalysis: The process of reexamining previously
+sequenced whole genome data using updated tools, databases,
+and knowledge.
+• FASTQ files: Raw sequence data files from a sequencing run.
+• BAM files: Binary Alignment/Map files, the binary version of
+Sequence Alignment/Map files that store aligned sequences.
+• VCF files: Variant Call Format files that contain information about
+variants found in the genomic data.
+• HGMD: Human Gene Mutation Database, a repository of known
+human gene mutations causing disease.
+1. PROCEDURE
+A. Confirm Need for Reanalysis
+1. Reanalysis may be initiated based on a clinician's request,
+identification of significant updates in relevant databases, or the
+release of new bioinformatics tools.
+2. Document the reason for reanalysis and the date of the
+request.
+B. Data Retrieval
+1. Access the original FASTQ, BAM, and VCF files stored in the
+laboratory’s secure data repository.
+2. Ensure the integrity and completeness of the files before
+proceeding.
+C. Reanalysis Workflow
+1. Use the updated reference genome (as per current guidelines,
+e.g., GRCh38).
+2. Align the raw sequence data (FASTQ files) to the reference
+genome using the latest alignment tools (e.g., BWA MEM).
+3. Sort and index BAM files using the SAMtools suite.
+4. Perform variant calling using an appropriate variant caller (e.g.,
+GATK, FreeBayes) to generate updated VCF files.
+5. Annotate variants using the latest annotations from databases
+such as ClinVar, HGMD, and gnomAD.
+D. Quality Control
+1. Assess the quality of the reanalysis using established metrics
+such as alignment rates, coverage statistics, and variant call
+confidence.
+2. Document any quality issues and take corrective action if
+necessary.
+E. Variant Interpretation
+1. Review annotated variants for clinical significance using current
+guidelines (e.g., ACMG criteria).
+2. Compare results with previous analyses to identify any new
+findings or changes in interpretation.
+3. Confer with clinical geneticists for the final interpretation and
+classification of variants.
+F. Reporting Results
+1. Prepare an updated report detailing the reanalyzed findings,
+including any new variants of interest.
+2. Highlight changes from the previous analysis and provide
+clinical interpretation for new or reclassified variants.
+3. Ensure the report is reviewed and approved by a clinical
+geneticist before dissemination.
+4. Upload the reanalyzed results to the Laboratory Information
+System (LIS) and notify the requesting clinician.
+G. Data Management
+1. Maintain a secure backup of all reanalyzed data and relevant
+documentation.
+2. Update the laboratory’s WGS data inventory to reflect the
+reanalysis.
+3. RECORD KEEPING
+Document the reanalysis procedures and findings in a dedicated log.
+Ensure all records are accurate, complete, and stored securely.
+Records must be retained as per laboratory policy and regulatory
+requirements.
+1. REFERENCES
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants
+• GATK Best Practices Documentation
+• Database repositories: ClinVar, HGMD, gnomAD
+1. REVISION HISTORY
+• Version 1.0: Initial draft (Date: October 2023).
+• (Subsequent versions will be documented along with dates and
+nature of updates).
+LABORATORY SUPERVISOR SIGNATURE:
+___________________________ DATE: ______________________

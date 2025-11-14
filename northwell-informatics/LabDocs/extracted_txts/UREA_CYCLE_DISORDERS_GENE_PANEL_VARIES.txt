@@ -1,0 +1,105 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Generating Results for Urea Cycle Disorders Gene Panel, Varies
+1. PURPOSE
+To outline the standardized procedures for performing the analytical
+phase of generating results for the Urea Cycle Disorders (UCD)
+Gene Panel.
+Responsibility:
+• Designated laboratory personnel, including molecular
+technologists and laboratory supervisors, are responsible for
+conducting and overseeing the procedures outlined in this SOP.
+• Laboratory supervisors are responsible for reviewing results,
+addressing discrepancies, and ensuring compliance with this
+SOP.
+1. MATERIALS AND EQUIPMENT
+• DNA Extraction Kit
+• PCR Amplification Kit
+• Qubit or NanoDrop Spectrophotometer
+• Thermal Cycler (PCR machine)
+• Agarose Gel Electrophoresis System
+• Next-Generation Sequencing (NGS) Platform (e.g., Illumina
+MiSeq)
+• Bioinformatics analysis software (e.g., BaseSpace, VariantStudio)
+• Pipettes and tips
+• Nuclease-free water
+• 1.5 mL microcentrifuge tubes
+• Refrigerator (2-8°C) and Freezer (-20°C)
+• Laboratory bench and PPE (personal protective equipment)
+1. PREPARATION
+3.1 Specimen Handling
+• Acceptable specimens: Whole blood, saliva or tissues collected in
+EDTA tubes or appropriate specimen collection containers.
+• Specimens should be stored at 2-8°C and processed within 7
+days of collection for blood and within 30 days for saliva. For
+tissues, store at -80°C until ready for DNA extraction.
+3.2 DNA Extraction
+• Extract DNA from specimens using the DNA Extraction Kit as per
+manufacturer’s protocol.
+• Quantify extracted DNA using Qubit or NanoDrop
+Spectrophotometer.
+• Ensure DNA purity (A260/A280 ratio between 1.8 and 2.0).
+1. PROCEDURE
+4.1 PCR Amplification
+• Prepare PCR reactions using specific primers for UCD genes.
+• Set up reactions according to PCR Amplification Kit instructions.
+• Include positive and negative control samples.
+• Amplify target regions using the Thermal Cycler.
+4.2 Verification of PCR Products
+• Run PCR products on a 1.5% agarose gel (90V for 45 minutes) to
+verify successful amplification.
+• Visualize using a UV transilluminator and document results.
+4.3 Library Preparation for NGS
+• Prepare sequencing libraries using the PCR products as per NGS
+platform protocols.
+• Quantify and normalize libraries to the required concentration.
+• Pool libraries for sequencing, ensuring enough copies/sample.
+4.4 Sequencing Run
+• Load pooled libraries on the NGS platform following
+manufacturer’s instructions.
+• Monitor sequencing run and address any alerts or issues.
+4.5 Bioinformatics Analysis
+• Transfer sequence data to bioinformatics analysis software.
+• Perform quality control checks on raw data.
+• Align reads to reference genome and call variants.
+• Annotate variants using appropriate databases (e.g., ClinVar,
+dbSNP).
+1. RESULT GENERATION AND INTERPRETATION
+5.1 Data Review
+• Review variant calls and annotation results for accuracy.
+• Reconfirm suspicious variants by Sanger sequencing if required.
+• Classify variants according to ACMG guidelines.
+5.2 Quality Control
+• Analyze positive and negative controls to confirm the validity of
+results.
+• Document any deviations and corrective actions taken during the
+process.
+5.3 Result Reporting
+• Compile results into a standardized report format.
+• Include identified variants, their significance, and any
+recommendations.
+• Review final report for accuracy and completeness.
+• Sign-off by authorized personnel before releasing the report.
+1. DOCUMENTATION AND RECORD KEEPING
+• Maintain detailed records of all steps performed, including
+specimen details, extraction yields, PCR setup, library
+preparation, and sequencing run logs.
+• Keep traceability of all reagents and consumables used.
+• Store copies of final reports and raw data securely as per
+laboratory data retention policies.
+1. TROUBLESHOOTING
+• If PCR fails, re-evaluate primer design, DNA template quality, and
+amplification conditions.
+• If sequencing quality is suboptimal, inspect library preparation
+steps and ensure accurate pooling.
+• For bioinformatics issues, verify software settings, and ensure
+correct reference genome usage.
+1. REFERENCES
+• Manufacturer's protocols for DNA Extraction Kit, PCR
+Amplification Kit, and NGS Platform.
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+• Bioinformatics software user guides for data analysis.
+By following this SOP, laboratory personnel will ensure the analytical
+phase of generating results for the Urea Cycle Disorders Gene Panel
+is standardized, accurate, and reliable.
+Approved by: [Supervisor's Name] Date: [Date] Signatures: ___

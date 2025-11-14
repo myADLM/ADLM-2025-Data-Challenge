@@ -1,0 +1,107 @@
+Standard Operating Procedure: GATEWAYSEQ NGS PANEL
+WITH INTERPRETATION
+1. PURPOSE To provide a standardized protocol for the analytical
+phase in generating results for GATEWAYSEQ NGS Panel, including
+data interpretation and reporting. This SOP ensures accuracy,
+reproducibility, and consistency in the handling and processing of
+next-generation sequencing data.
+Responsibility: Designated staff members from the molecular
+diagnostics team are responsible for performing the analytical phase,
+documenting results, and conducting data interpretation as defined in
+this SOP. It is the responsibility of the staff and supervisors to
+recognize and address any deviations, ensuring procedural
+compliance.
+2. DEFINITION The GATEWAYSEQ NGS Panel is designed for
+comprehensive sequencing and analysis of multiple genes. The
+procedure includes qPCR, library preparation, sequencing, data
+analysis, and interpretation.
+3. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Thermal cycler for PCR
+• Magnetic beads for cleanup
+• Library preparation kit
+• NGS sequencer (e.g., Illumina platform)
+• Bioinformatics software (e.g., BaseSpace, DNAnexus)
+• Quality control materials and standard references
+• Laboratory notebooks and electronic documentation tools
+4. PROCEDURE
+A) PCR Amplification: Preparation of Template DNA
+1. Extract genomic DNA from the sample using a certified
+extraction kit.
+2. Quantify DNA using a fluorometer or spectrophotometer.
+3. Normalize the DNA concentration to the desired level (typically
+10-50 ng/μL).
+PCR Reaction Setup
+1. Prepare the PCR master mix according to the reagent
+specifications.
+2. Aliquot the master mix into PCR tubes or plates.
+3. Add the template DNA samples to the tubes/plates.
+4. Perform PCR amplification using the thermal cycler.
+Protocols
+• Follow thermal cycling conditions as specified in the
+manufacturer's protocol for the PCR assays.
+B) Library Preparation:
+1. Fragment the amplified DNA using enzymatic or mechanical
+methods.
+2. Perform end repair and A-tailing as specified in the library
+preparation kit instructions.
+3. Ligate indexed adapters to the DNA fragments.
+4. Purify the ligated products using magnetic beads.
+5. Validate the library preparation by quantification and sizing
+analysis.
+C) Sequencing: Sequencing Setup
+1. Load the purified libraries into the sequencer following the
+platform-specific protocols.
+2. Configure the sequencing run using the appropriate settings for
+read length and pair-end sequencing.
+3. Monitor the sequencing process for quality metrics and
+completion.
+D) Data Analysis:
+1. Ensure the raw sequencing data is transferred to the secure
+server equipped with bioinformatics software.
+2. Process the data through the automated pipeline, including:
+◦ Base calling
+◦ Read alignment to reference genome
+◦ Variant calling
+◦ Annotation
+Quality Control Metrics
+• Base Quality Score: ≥ Q30 for over 85% of the bases.
+• Read Coverage: Minimum depth of 20x (as specified for clinical
+use).
+• Alignment rate: Over 99% of reads should align to the reference
+genome.
+E) Interpretation:
+1. Review variants identified in the sequencing data, cross-
+referencing with clinical databases and literature.
+2. Classify identified variants according to ACMG guidelines (e.g.,
+pathogenic, likely pathogenic, VUS, benign).
+3. Document findings and interpretations in the sample report.
+F) Reporting Results:
+1. Generate a laboratory report summarizing the sequencing
+results, variant interpretation, and clinical relevance.
+2. Verify the report against raw data for accuracy and
+completeness.
+3. Enter results into the Laboratory Information System (LIS).
+4. Provide the finalized report to the ordering physician for
+integration into patient records.
+5. QUALITY CONTROL Internal QC:
+1. Run positive and negative controls alongside each batch of
+samples to ensure assay reliability.
+2. Record all metrics, deviations, and corrective actions in
+electronic documentation tools.
+Inter-lab QC:
+1. Participate in external proficiency testing at regular intervals.
+2. Compare inter-lab data and follow corrective actions for
+discrepancies.
+Reference Materials
+• Manufacturer's protocols for reagents and library preparation kits.
+• Bioinformatics software user manuals and guides.
+• ACMG guidelines for variant interpretation.
+References:
+• Next-Generation Sequencing platforms and manufacturers'
+documentation.
+• Clinical laboratory guidelines (CLIA and CAP).
+Review and Approval: Reviewed by: [Supervisor/Lead Molecular
+Technician] Approved by: [Lab Director/Quality Manager]
+Review Date: October 2023
+Please ensure compliance with this SOP and report deviations and
+corrective actions to the supervisor immediately.

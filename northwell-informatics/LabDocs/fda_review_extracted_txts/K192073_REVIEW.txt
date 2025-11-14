@@ -1,0 +1,1703 @@
+
+--- Page 1 ---
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY ONLY
+I Background Information:
+A 510(k) Number
+K192073
+B Applicant
+Helix OpCo, LLC
+C Proprietary and Established Names
+The Helix Genetic Health Risk App for late-onset Alzheimer's disease
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.5950 -
+PTA Class II Genetic Health Risk IM - Immunology
+Assessment System
+II Submission/Device Overview:
+A Purpose for Submission:
+New Device
+B Measurand:
+rs7412 SNP and rs429358 SNP in genomic DNA obtained from a human saliva sample
+C Type of Test:
+The Helix Genetic Health Risk App for late-onset Alzheimer’s disease is intended to provide the
+late-onset Alzheimer’s disease risk report. The report is based on a qualitative genetic test for
+detecting single nucleotide polymorphisms (SNP), rs429358 and rs7412, and for reporting e2, e3
+and e4 alleles in the APOE gene. The Helix Genetic Health Risk App is for over-the-counter.
+K192073 - Page 1 of 19
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PTA			Class II	21 CFR 866.5950 -
+Genetic Health Risk
+Assessment System			IM - Immunology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use / Indications for Use:
+The Helix Genetic Health Risk App (HRA) uses qualitative genotyping to detect clinically
+relevant variants in genomic DNA isolated from human saliva collected from individuals ≥18
+years with Oragene Dx OGD-610 for the purpose of reporting and interpreting Genetic Health
+Risks (GHR):
+The Helix Genetic Health Risk App (HRA) for late-onset Alzheimer’s disease is indicated for
+reporting of the e2/e2, e2/e3, e3/e3, e2/e4, e3/e4 and e4/e4 genotypes in the APOE gene. The
+report describes if a person's genetic result is associated with an increased or decreased risk of
+developing late-onset Alzheimer’s disease. The e2 and e4 variants included in this report are
+found and have been studied in many ethnicities. Detailed risk estimates have been studied the
+most in people of European descent.
+The Helix Genetic Health Risk App (HRA) is to be used with the Helix Laboratory Platform.
+B Special Conditions for Use Statement(s):
+• For over-the-counter (OTC) use.
+• The customer must first opt-in to receive the late-onset Alzheimer’s disease risk report.
+• The test is intended for users ≥ 18 years old.
+• This test is not intended to diagnose a disease, determine medical treatment or other
+medical intervention, or tell the user anything about their current state of health.
+• Any diagnostic or treatment decisions must be based on confirmatory prescription testing
+and/or other information that a healthcare professional determines to be appropriate for
+the patient, such as additional clinical testing and other risk factors that may affect
+individual risk and health care.
+• This test is not a substitute for visits to a healthcare provider. It is recommended that you
+consult with a healthcare provider if you have any questions or concerns about your
+results.
+• Subject to meeting the limitations contained in the special controls under regulation
+21 CFR 866.5950.
+• The laboratory may not be able to process a user’s sample. The probability that the
+laboratory cannot process a sample can be up to 2.5%.
+• A user’s race, ethnicity, age, and sex may affect how the genetic test results are
+interpreted.
+• The test does not detect all genetic variants associated with late-onset Alzheimer’s
+Disease (AD). The absence of a variant tested does not rule out the presence of other
+genetic variants that may be disease-related.
+• The test does not describe a person's overall risk of developing Alzheimer’s Disease. In
+addition, other genetic and all non-genetic factors should be considered.
+• Third-party application developers must discuss with FDA the usability of the original
+data generated on the Helix Laboratory Platform (HLP).
+K192073 - Page 2 of 19
+
+--- Page 3 ---
+C Special Instrument Requirements:
+Helix Laboratory Platform
+IV Device/System Characteristics:
+A Device Description:
+The HRA is an OTC and direct-to-consumer DNA genetic testing service. The HRA for late-
+onset Alzheimer’s disease reports the lifetime risk of developing Alzheimer’s disease at or above
+age 65 years based on six genotypes (e2/e2, e2/e3, e2/e4, e3/e3, e3/e4 and e4/e4) of the APOE
+gene combining qualitative genotyping data with descriptive information derived from peer-
+reviewed published genetic research studies. A customer’s saliva is self-collected using the
+Oragene Dx OGD-610 (K192920) manufactured by DNA Genotek, Inc., which consists of a
+sealable collection tube containing a stabilizing buffer solution. Once the saliva sample is
+collected, it is shipped to the Clinical Laboratory Improvement Amendments (CLIA)-certified
+and College of American Pathologists (CAP)-accredited Helix Clinical Laboratory for testing.
+DNA is isolated from the saliva and tested using Helix’s proprietary whole exome sequencing
+assay in the Helix clinical laboratory. The genomic DNA is processed and sequenced using next
+generation sequencing (NGS) reagents and instrumentation manufactured by Illumina. The
+sequencing data is analyzed using Helix’s proprietary software, where the genetic variants of
+interest are determined. All samples must pass Helix’s quality control metrics prior to analysis.
+Samples that do not pass quality thresholds undergo re-sequencing and/or sample re-collection.
+The APOE genotypes are used to generate personalized reports for each user. These reports tell
+the user which genetic variant(s) has/have been detected in their sample and provide information
+on the risk of disease associated with the genetic variants. If no variant was detected, that
+information is also provided. The personalized reports are designed to present scientific concepts
+to users in an easy-to-understand format. The reports provide scientifically valid information
+about the risks associated with the presence of a particular genetic variant. The reports are
+designed to help users understand the meaning of their results and any appropriate actions that
+may be taken based on their results.
+B Principle of Operation:
+DNA is isolated from a user’s saliva sample and tested on the HLP. The HLP detects the
+rs429358 and rs7412 variants in the APOE gene and determines each user’s APOE genotype.
+The HRA interprets and categorizes each user’s APOE genotype (e2/e2, e2/e3, e2/e4, e3/e3,
+e3/e4 and e4/e4) into risk groups (decreased, average, and increased) based on the estimated
+lifetime risk of developing late-onset Alzheimer’s disease.
+K192073 - Page 3 of 19
+
+--- Page 4 ---
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+23andMe PGS Genetic Health Risk Report for Late-onset Alzheimer’s Disease
+B Predicate 510(k) Number(s):
+DEN160026
+C Comparison with Predicate(s):
+Device &
+Device Predicate
+Predicate
+K192073 DEN160026
+Device(s):
+23andMe PGS Genetic Health
+Device Trade The Helix Genetic Health Risk App
+Risk Report for Late-onset
+Name for late-onset Alzheimer’s disease
+Alzheimer’s Disease
+General Device Characteristic Similarities
+The 23andMe Personal Genome
+The Helix Genetic Health Risk App Service (PGS) Test uses
+(HRA) uses qualitative genotyping qualitative genotyping to detect
+to detect clinically relevant variants the following clinically relevant
+in genomic DNA isolated from variants in genomic DNA isolated
+human saliva collected from from human saliva collected from
+individuals ≥18 years with Oragene individuals ≥18 years with the
+Dx OGD-610 for the purpose of Oragene Dx model OGD-500.001
+reporting and interpreting Genetic for the purpose of reporting and
+Health Risks (GHR): interpreting Genetic Health Risks
+(GHR):
+The Helix Genetic Health Risk App
+(HRA) for late-onset Alzheimer’s The 23andMe PGS Genetic Health
+Intended disease is indicated for reporting of Risk Report for Late-onset
+Use/Indications the e2/e2, e2/e3, e3/e3, e2/e4, e3/e4 Alzheimer’s Disease is indicated
+For Use and e4/e4 genotypes in the APOE for reporting of the ε4 variant in
+gene. The report describes if a the APOE gene. The report
+person's genetic result is associated describes if a person's genetic
+with an increased or decreased risk result is associated with an
+of developing late-onset increased risk of developing Late-
+Alzheimer’s disease. The e2 and e4 onset Alzheimer’s Disease, but it
+variants included in this report are does not describe a person's
+found and have been studied in overall risk of developing
+many ethnicities. Detailed risk Alzheimer’s Disease. The ε4
+estimates have been studied the variant included in this report is
+most in people of European found and has been studied in
+descent. many ethnicities. Detailed risk
+estimates have been studied the
+K192073 - Page 4 of 19
+
+[Table 1 on page 4]
+	Device &		Device
+K192073	Predicate
+DEN160026	
+	Predicate				
+	Device(s):				
+Device Trade
+Name			The Helix Genetic Health Risk App
+for late-onset Alzheimer’s disease	23andMe PGS Genetic Health
+Risk Report for Late-onset
+Alzheimer’s Disease	
+	General Device Characteristic Similarities				
+Intended
+Use/Indications
+For Use			The Helix Genetic Health Risk App
+(HRA) uses qualitative genotyping
+to detect clinically relevant variants
+in genomic DNA isolated from
+human saliva collected from
+individuals ≥18 years with Oragene
+Dx OGD-610 for the purpose of
+reporting and interpreting Genetic
+Health Risks (GHR):
+The Helix Genetic Health Risk App
+(HRA) for late-onset Alzheimer’s
+disease is indicated for reporting of
+the e2/e2, e2/e3, e3/e3, e2/e4, e3/e4
+and e4/e4 genotypes in the APOE
+gene. The report describes if a
+person's genetic result is associated
+with an increased or decreased risk
+of developing late-onset
+Alzheimer’s disease. The e2 and e4
+variants included in this report are
+found and have been studied in
+many ethnicities. Detailed risk
+estimates have been studied the
+most in people of European
+descent.	The 23andMe Personal Genome
+Service (PGS) Test uses
+qualitative genotyping to detect
+the following clinically relevant
+variants in genomic DNA isolated
+from human saliva collected from
+individuals ≥18 years with the
+Oragene Dx model OGD-500.001
+for the purpose of reporting and
+interpreting Genetic Health Risks
+(GHR):
+The 23andMe PGS Genetic Health
+Risk Report for Late-onset
+Alzheimer’s Disease is indicated
+for reporting of the ε4 variant in
+the APOE gene. The report
+describes if a person's genetic
+result is associated with an
+increased risk of developing Late-
+onset Alzheimer’s Disease, but it
+does not describe a person's
+overall risk of developing
+Alzheimer’s Disease. The ε4
+variant included in this report is
+found and has been studied in
+many ethnicities. Detailed risk
+estimates have been studied the	
+
+[Table 2 on page 4]
+Device
+K192073
+
+[Table 3 on page 4]
+Predicate
+DEN160026
+
+--- Page 5 ---
+Device &
+Device Predicate
+Predicate
+K192073 DEN160026
+Device(s):
+The Helix Genetic Health Risk App most in people of European
+(HRA) is to be used with the Helix descent.
+Laboratory Platform.
+Classification Class II Same
+Product code PTA Same
+Regulation 21 CFR 866.5950 Same
+Target population ≥ 18 years old Same
+For over the counter use (OTC).
+Interpretation of
+Specialized interpretation by a Same
+results
+physician not required
+Human factors User comprehension testing Same
+Software application that includes
+product information page, e-
+Design commerce (registration and order Same
+DNA kit), secure login, download
+genetic report
+Measurand DNA Same
+Sample type Saliva Same
+General Device Characteristic Differences
+APOE genotype (e2) is the result of
+a ‘T’ nucleotide at the rs7412 SNP
+and a ‘T’ nucleotide at the
+rs429358 SNP.
+APOE genotype (e3) is the result of
+Variants detected
+a ‘C’ nucleotide at the rs7412 SNP
+and alleles rs429358 SNP for APOE e4 allele
+and a ‘T’ nucleotide at the
+reported
+rs429358 SNP.
+APOE genotype (e4) is the result of
+a ‘C’ nucleotide at the rs7412 SNP
+and a ‘C’ nucleotide at the
+rs429358 SNP.
+Technology Next Generation Sequencing Microarray genotyping
+Magnetic bead DNA extraction is
+Whole exome sequencing is
+performed using Tecan Evo.
+conducted using Helix Laboratory
+Method and Platform (HLP) and pipeline Genotyping and PCR analysis is
+sequencing analysis using Helix Bioinformatics conducted using a chip-based
+platform Pipeline (FDA-cleared under method with Illumina Infinium’s
+DEN190035). BeadChip v4 assay, the Illumina
+iScan System for detection and
+K192073 - Page 5 of 19
+
+[Table 1 on page 5]
+	Device &		Device
+K192073	Predicate
+DEN160026	
+	Predicate				
+	Device(s):				
+			The Helix Genetic Health Risk App
+(HRA) is to be used with the Helix
+Laboratory Platform.	most in people of European
+descent.	
+Classification			Class II	Same	
+Product code			PTA	Same	
+Regulation			21 CFR 866.5950	Same	
+Target population			≥ 18 years old	Same	
+Interpretation of
+results			For over the counter use (OTC).
+Specialized interpretation by a
+physician not required	Same	
+Human factors			User comprehension testing	Same	
+Design			Software application that includes
+product information page, e-
+commerce (registration and order
+DNA kit), secure login, download
+genetic report	Same	
+Measurand			DNA	Same	
+Sample type			Saliva	Same	
+	General Device Characteristic Differences				
+Variants detected
+and alleles
+reported			APOE genotype (e2) is the result of
+a ‘T’ nucleotide at the rs7412 SNP
+and a ‘T’ nucleotide at the
+rs429358 SNP.
+APOE genotype (e3) is the result of
+a ‘C’ nucleotide at the rs7412 SNP
+and a ‘T’ nucleotide at the
+rs429358 SNP.
+APOE genotype (e4) is the result of
+a ‘C’ nucleotide at the rs7412 SNP
+and a ‘C’ nucleotide at the
+rs429358 SNP.	rs429358 SNP for APOE e4 allele	
+Technology			Next Generation Sequencing	Microarray genotyping	
+Method and
+sequencing
+platform			Whole exome sequencing is
+conducted using Helix Laboratory
+Platform (HLP) and pipeline
+analysis using Helix Bioinformatics
+Pipeline (FDA-cleared under
+DEN190035).	Magnetic bead DNA extraction is
+performed using Tecan Evo.
+Genotyping and PCR analysis is
+conducted using a chip-based
+method with Illumina Infinium’s
+BeadChip v4 assay, the Illumina
+iScan System for detection and	
+
+[Table 2 on page 5]
+Device
+K192073
+
+[Table 3 on page 5]
+Predicate
+DEN160026
+
+--- Page 6 ---
+Device &
+Device Predicate
+Predicate
+K192073 DEN160026
+Device(s):
+analysis is facilitated with the use
+of GenomeStudio and Coregen
+software.
+Specimen DNA Genotek Inc., Oragene Dx DNA Genotek Inc., Oragene Dx
+collection kit OGD-610 OGD500.001
+VI Standards/Guidance Documents Referenced:
+• Guidance for Industry and Food and Drug Administration Staff - Format for Traditional
+and Abbreviated 510(k)s (2019)
+• Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices (2005)
+• General Principles of Software Validation Guidance for Industry and FDA Staff (2002)
+• Off-The-Shelf Software Use in Medical Devices Guidance for Industry and Food and
+Drug Administration Staff (2019)
+• Content of Premarket Submissions for Management of Cybersecurity in Medical
+Devices (2014)
+• Class II Special Control: 866.5950 - Code of Federal Regulations Title 21
+• Direct-to-Consumer test (https://www.fda.gov/medical-devices/vitro-diagnostics/direct-
+consumer-tests)
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+All results presented below met the sponsor’s pre-defined acceptance criteria outlined in the
+Special Controls of 21 CFR 866.5950. Information regarding samples that failed quality
+control (FQC) was also evaluated and presented in each study below.
+1. Precision / Reproducibility:
+Reproducibility of the APOE genotype calls made by the HRA for late-onset
+Alzheimer’s disease was assessed by testing 24 samples that include six human B-
+lymphocyte cell lines (6 cell lines hereafter) and 18 unique saliva-derived DNA
+samples) in two independent studies (Study 1 and Study 2). The APOE genotype calls
+for the in the well-characterized cell line samples were compared to known APOE
+genotypes.
+Study 1 tested 24 samples (6 cell lines and 18 unique saliva-derived DNA samples)
+with up to 72 replicates (3 replicates / sample / library prep plate x 3 plates x 2
+enrichments x 4 independent runs of cBot and HiSeq instruments) for the APOE
+genotype calls. The test results are summarized below:
+K192073 - Page 6 of 19
+
+[Table 1 on page 6]
+	Device &		Device
+K192073	Predicate
+DEN160026
+	Predicate			
+	Device(s):			
+				analysis is facilitated with the use
+of GenomeStudio and Coregen
+software.
+Specimen
+collection kit			DNA Genotek Inc., Oragene Dx
+OGD-610	DNA Genotek Inc., Oragene Dx
+OGD500.001
+
+[Table 2 on page 6]
+Device
+K192073
+
+[Table 3 on page 6]
+Predicate
+DEN160026
+
+--- Page 7 ---
+Percent
+No. of No. of
+Percent of Correct
+APOE No. of Correct Incorrect No. of
+N FQC Genotype
+Cell Line Genotype replicates Genotype Genotype FQC
+(%) Calls
+Calls Calls
+(%)
+Study 1: Cell lines
+NA24385 1 e2/e3 72 72 0 0 0 100
+NA24149 1 e2/e4 72 72 0 0 0 100
+1 e3/e3 72 72 0 0 0 100
+NA12877 1 e3/e4 72 72 0 0 0 100
+NA24143 1 e3/e4 72 72 0 0 0 100
+NA24631 1 e4/e4 72 72 0 0 0 100
+Study 1: Clinical Samples
+4 e2/e3 288 276 0 12 4.2 100
+2 e2/e4 144 141 0 3 2.1 100
+7 e3/e3 504 484 0 20 4.0 100
+2 e3/e4 144 136 0 8 5.6 100
+2 e4/e4 144 141 0 3 2.1 100
+1 Unknown 72 N/A N/A 72 100 N/A
+Study 2 tested 24 samples (6 cell lines and 18 unique saliva-derived DNA samples)
+with up to 54 replicates (3 replicates / sample / library prep plate x 3 plates x 2
+enrichments x 3 reagent lots) for the APOE genotype calls. The test results are
+summarized below:
+Percent
+No. of No. of
+Percent of Correct
+APOE No. of Correct Incorrect No. of
+N FQC Genotype
+Cell Line Genotype replicates Genotype Genotype FQC
+(%) Calls
+Calls Calls
+(%)
+Study 2: Cell lines
+NA24385 1 e2/e3 54 54 0 0 0 100
+NA24149 1 e2/e4 54 54 0 0 0 100
+NA12878 1 e3/e3 54 54 0 0 0 100
+NA12877 1 e3/e4 54 54 0 0 0 100
+NA24143 1 e3/e4 54 54 0 0 0 100
+K192073 - Page 7 of 19
+
+[Table 1 on page 7]
+Cell Line	N	APOE
+Genotype	No. of
+replicates	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent of
+FQC
+(%)		Percent	
+									Correct	
+									Genotype	
+									Calls	
+									(%)	
+Study 1: Cell lines										
+NA24385	1	e2/e3	72	72	0	0	0	100		
+NA24149	1	e2/e4	72	72	0	0	0	100		
+	1	e3/e3	72	72	0	0	0	100		
+NA12877	1	e3/e4	72	72	0	0	0	100		
+NA24143	1	e3/e4	72	72	0	0	0	100		
+NA24631	1	e4/e4	72	72	0	0	0	100		
+Study 1: Clinical Samples										
+	4	e2/e3	288	276	0	12	4.2	100		
+	2	e2/e4	144	141	0	3	2.1	100		
+	7	e3/e3	504	484	0	20	4.0	100		
+	2	e3/e4	144	136	0	8	5.6	100		
+	2	e4/e4	144	141	0	3	2.1	100		
+	1	Unknown	72	N/A	N/A	72	100	N/A		
+
+[Table 2 on page 7]
+No. of
+Correct
+Genotype
+Calls
+
+[Table 3 on page 7]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 4 on page 7]
+Percent of
+FQC
+(%)
+
+[Table 5 on page 7]
+APOE
+Genotype
+
+[Table 6 on page 7]
+No. of
+replicates
+
+[Table 7 on page 7]
+No. of
+FQC
+
+[Table 8 on page 7]
+Cell Line	N	APOE
+Genotype	No. of
+replicates	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent of
+FQC
+(%)		Percent	
+									Correct	
+									Genotype	
+									Calls	
+									(%)	
+Study 2: Cell lines										
+NA24385	1	e2/e3	54	54	0	0	0	100		
+NA24149	1	e2/e4	54	54	0	0	0	100		
+NA12878	1	e3/e3	54	54	0	0	0	100		
+NA12877	1	e3/e4	54	54	0	0	0	100		
+NA24143	1	e3/e4	54	54	0	0	0	100		
+
+[Table 9 on page 7]
+No. of
+Correct
+Genotype
+Calls
+
+[Table 10 on page 7]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 11 on page 7]
+Percent of
+FQC
+(%)
+
+[Table 12 on page 7]
+APOE
+Genotype
+
+[Table 13 on page 7]
+No. of
+replicates
+
+[Table 14 on page 7]
+No. of
+FQC
+
+--- Page 8 ---
+Percent
+No. of No. of
+Percent of Correct
+APOE No. of Correct Incorrect No. of
+N FQC Genotype
+Cell Line Genotype replicates Genotype Genotype FQC
+(%) Calls
+Calls Calls
+(%)
+NA24631 1 e4/e4 54 48 0 6 11.1 100
+Stud 2: Clinical Samples
+2 e2/e3 108 108 0 0 0 100
+7 e3/e3 378 377 0 1 0.3 100
+7 e3/e4 378 376 0 2 0.5 100
+2 e4/e4 108 108 0 0 0 100
+The calls for concordance the APOE genotypes were analyzed in the clinical samples.
+Genotyping results produced 100% of replicates that were called correctly for all
+APOE genotypes.
+2. Linearity:
+Not applicable
+3. Analytical Specificity / Interference:
+Four studies were performed to determine the effects of substances found in saliva
+that may interfere with the performance of the HRA for late-onset Alzheimer’s
+disease. Per study protocol, for sequenced samples to be included in the data analyses
+(e.g., evaluable samples), the sample(s) must pass pre-defined QC thresholds.
+a. Study 1 evaluated four endogenous proteins commonly found in saliva. Each of
+the following were added to saliva samples: alpha-amylase (395 U/mL),
+hemoglobin (20 mg/mL), immunoglobulin A (IgA) (0.43 mg/mL), and albumin
+(2.67mg/mL). The study showed that these proteins did not affect test
+performance for saliva samples (n=29–30 evaluable samples across four
+endogenous proteins). The test results are shown below.
+No. of No. of Percent
+Percent
+APOE No. of Correct Incorrect No. of Correct
+of FQC
+Genotype replicates Genotype Genotype FQC Genotype
+(%)
+Calls Calls (%)
+e2/e3 18 18 0 0 0 100
+e2/e4 4 4 0 0 0 100
+e3/e3 76 75 0 1 1.3 100
+K192073 - Page 8 of 19
+
+[Table 1 on page 8]
+Cell Line	N	APOE
+Genotype	No. of
+replicates	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent of
+FQC
+(%)		Percent	
+									Correct	
+									Genotype	
+									Calls	
+									(%)	
+NA24631	1	e4/e4	54	48	0	6	11.1	100		
+Stud 2: Clinical Samples										
+	2	e2/e3	108	108	0	0	0	100		
+	7	e3/e3	378	377	0	1	0.3	100		
+	7	e3/e4	378	376	0	2	0.5	100		
+	2	e4/e4	108	108	0	0	0	100		
+
+[Table 2 on page 8]
+No. of
+Correct
+Genotype
+Calls
+
+[Table 3 on page 8]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 4 on page 8]
+Percent of
+FQC
+(%)
+
+[Table 5 on page 8]
+APOE
+Genotype
+
+[Table 6 on page 8]
+No. of
+replicates
+
+[Table 7 on page 8]
+No. of
+FQC
+
+[Table 8 on page 8]
+APOE
+Genotype	No. of
+replicates		No. of			No. of		No. of
+FQC	Percent
+of FQC
+(%)		Percent	
+			Correct			Incorrect					Correct	
+			Genotype			Genotype					Genotype	
+			Calls			Calls					(%)	
+e2/e3	18	18			0			0	0	100		
+e2/e4	4	4			0			0	0	100		
+e3/e3	76	75			0			1	1.3	100		
+
+[Table 9 on page 8]
+Percent
+of FQC
+(%)
+
+[Table 10 on page 8]
+APOE
+Genotype
+
+[Table 11 on page 8]
+No. of
+replicates
+
+[Table 12 on page 8]
+No. of
+FQC
+
+--- Page 9 ---
+No. of No. of Percent
+Percent
+APOE No. of Correct Incorrect No. of Correct
+of FQC
+Genotype replicates Genotype Genotype FQC Genotype
+(%)
+Calls Calls (%)
+e3/e4 18 18 0 0 0 100
+e4/e4 4 4 0 0 0 100
+b. In study 2, saliva samples were tested before and after (either immediately or 30
+minutes after) exposure to one of four exogenous substances: eating food,
+drinking liquids, using mouthwash, or chewing gum. The study showed that
+exogenous substances did not interfere with test performance for saliva samples
+(n=12–15 evaluable samples across testing time for four exogenous substances.
+The test results are shown below.
+Percent
+No. of No. of
+Percent Correct
+APOE No. of Correct Incorrect No. of
+of FQC Genotype
+Genotype replicates Genotype Genotype FQC
+(%) Calls
+Calls Calls
+(%)
+e2/e4 12 12 0 0 0 100
+e3/e3 90 83 0 7 7.8 100
+e3/e4 24 21 0 3 12.5 100
+Unknown 6 N/A N/A 6 100 N/A
+c. Study 3 evaluated saliva samples tested at 60 minutes before smoking,
+immediately after smoking, and 30 minutes after smoking and showed that
+smoking did not interfere with test performance (n=15 evaluable samples across
+three smoking conditions). The test results are shown below.
+Percent
+No. of No. of
+Percent Correct
+APOE No. of Correct Incorrect No. of
+of FQC Genotype
+Genotype replicates Genotype Genotype FQC
+(%) Calls
+Calls Calls
+(%)
+e3/e3 18 18 0 0 0 100
+e3/e4 12 12 0 0 0 100
+d. In study 4, bacterial DNA from a commercial source (American Type Culture
+Collection) was added in various amounts into six cell line DNA samples
+(NA24385, NA24149, NA12878, NA12877, NA24143, and NA24631) to
+evaluate the effects of bacterial contamination in the test performance. This
+bacterial sample (ATCC MSA-1003) is comprised of 20 fully sequenced cultures
+that encompass a variety of characteristics including bacterial species found in
+K192073 - Page 9 of 19
+
+[Table 1 on page 9]
+APOE
+Genotype	No. of
+replicates		No. of			No. of		No. of
+FQC	Percent
+of FQC
+(%)		Percent	
+			Correct			Incorrect					Correct	
+			Genotype			Genotype					Genotype	
+			Calls			Calls					(%)	
+e3/e4	18	18			0			0	0	100		
+e4/e4	4	4			0			0	0	100		
+
+[Table 2 on page 9]
+Percent
+of FQC
+(%)
+
+[Table 3 on page 9]
+No. of
+FQC
+
+[Table 4 on page 9]
+APOE
+Genotype	No. of
+replicates	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent
+of FQC
+(%)		Percent	
+							Correct	
+							Genotype	
+							Calls	
+							(%)	
+e2/e4	12	12	0	0	0	100		
+e3/e3	90	83	0	7	7.8	100		
+e3/e4	24	21	0	3	12.5	100		
+Unknown	6	N/A	N/A	6	100	N/A		
+
+[Table 5 on page 9]
+No. of
+Correct
+Genotype
+Calls
+
+[Table 6 on page 9]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 7 on page 9]
+Percent
+of FQC
+(%)
+
+[Table 8 on page 9]
+No. of
+FQC
+
+[Table 9 on page 9]
+APOE
+Genotype	No. of
+replicates	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent
+of FQC
+(%)	Percent
+Correct
+Genotype
+Calls
+(%)
+e3/e3	18	18	0	0	0	100
+e3/e4	12	12	0	0	0	100
+
+[Table 10 on page 9]
+Percent
+Correct
+Genotype
+Calls
+(%)
+
+[Table 11 on page 9]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 12 on page 9]
+Percent
+of FQC
+(%)
+
+[Table 13 on page 9]
+No. of
+replicates
+
+[Table 14 on page 9]
+No. of
+FQC
+
+--- Page 10 ---
+mouse and oral cavity. The six cell lines were tested across five levels of bacterial
+content (0%, 10%, 20%, 30%, and 50%). This study showed that microbial DNA
+did not interfere with test performance (n=11–18 evaluable samples across five
+levels of bacterial content). Study 4 also tested various amounts of microbial and
+yeast DNA added to the saliva samples from three volunteers (0%, 10% Candida
+albicans, and 30% of ATCC MSA-1003). This study showed that yeast DNA did
+not interfere with test performance in clinical samples. The test results are shown
+below.
+No. of No. of Percent
+Percent
+APOE No. of Correct Incorrect No. of Correct
+of FQC
+Genotype replicates Genotype Genotype FQC Genotype Calls
+(%)
+Calls Calls (%)
+Cell lines
+e2/e3 15 15 0 0 0 100
+e2/e4 15 13 0 2 13.3 100
+e3/e3 15 11 0 4 26.7 100
+e3/e4 30 28 0 2 6.7 100
+e4/e4 15 14 0 1 6.7 100
+Clinical samples
+e3/e3 12 12 0 0 0 100
+e3/e4 6 6 0 0 0 100
+4. Assay Reportable Range:
+Not applicable
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Refer to K192920 for pre-collection shelf-life stability of the collection device,
+stability of samples post-saliva collection, and freeze-thaw stability of samples stored
+in the Oragene Dx collection device.
+6. Detection Limit:
+The detection limit study evaluated the impact of different levels of DNA input on the
+performance of the HRA for late-onset Alzheimer’s disease. The study yielded
+concordant test results for all 19 saliva samples with known APOE genotypes when
+tested at sample DNA concentrations between 3.5 to 10 ng/µL, an input
+corresponding to a range of 35 to 100 ng of DNA in the library preparation.
+K192073 - Page 10 of 19
+
+[Table 1 on page 10]
+APOE
+Genotype	No. of
+replicates	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent
+of FQC
+(%)	Percent
+Correct
+Genotype Calls
+(%)
+Cell lines						
+e2/e3	15	15	0	0	0	100
+e2/e4	15	13	0	2	13.3	100
+e3/e3	15	11	0	4	26.7	100
+e3/e4	30	28	0	2	6.7	100
+e4/e4	15	14	0	1	6.7	100
+Clinical samples						
+e3/e3	12	12	0	0	0	100
+e3/e4	6	6	0	0	0	100
+
+[Table 2 on page 10]
+No. of
+Correct
+Genotype
+Calls
+
+[Table 3 on page 10]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 4 on page 10]
+Percent
+Correct
+Genotype Calls
+(%)
+
+[Table 5 on page 10]
+Percent
+of FQC
+(%)
+
+[Table 6 on page 10]
+APOE
+Genotype
+
+[Table 7 on page 10]
+No. of
+replicates
+
+[Table 8 on page 10]
+No. of
+FQC
+
+--- Page 11 ---
+No. of No. of Percent
+Percent of
+APOE No. of Correct Incorrect No. of Correct
+FQC
+Genotype replicates Genotype Genotype FQC Genotype Calls
+(%)
+Calls Calls (%)
+e2/e3 12 12 0 0 0 100
+e3/e3 84 79 0 5 6 100
+e3/e4 18 18 0 0 0 100
+B Comparison Studies:
+1. Method Comparison:
+Three method comparison studies were conducted to evaluate accuracy: the first
+study was conducted with human saliva samples with known genotypes and a second
+study was conducted with human cell line samples with known genotypes to
+determine the rates of correct APOE genotype calls. A third study was conducted
+with human saliva and/or human cell line samples with known variants in genes other
+than the APOE gene to determine the agreement of the genotype calls.
+a) Accuracy study with human saliva samples:
+Accuracy of the HRA for late-onset Alzheimer’s disease was evaluated by testing
+human saliva samples with known APOE genotypes. The presence of the two
+variants in the APOE gene was analyzed on the HLP and the genotyping results
+were compared to the known genotypes confirmed by Sanger sequencing
+(comparator). The accuracy for detecting the two variants in the APOE gene on
+the HLP (genotype call) using DNA isolated from human saliva samples (n=99)
+was 100% with a lower bound of 95% CI as 96.3% for all samples tested. The test
+results are shown in the table below.
+Percent
+No. of No. of
+Percent of Correct
+APOE Correct Incorrect No. of
+N FQC Genotype
+Genotype Genotype Genotype FQC
+(%) Calls
+Calls Calls
+(%)
+e2/e2 12 12 0 0 0 100
+e2/e3 17 17 0 0 0 100
+e2/e4 10 10 0 0 0 100
+e3/e3 20 20 0 0 0 100
+e3/e4 20 20 0 0 0 100
+e4/e4 20 20 0 0 0 100
+All 99 99 0 0 0 100
+K192073 - Page 11 of 19
+
+[Table 1 on page 11]
+APOE
+Genotype	No. of
+replicates		No. of			No. of		No. of
+FQC	Percent of
+FQC
+(%)		Percent	
+			Correct			Incorrect					Correct	
+			Genotype			Genotype					Genotype Calls	
+			Calls			Calls					(%)	
+e2/e3	12	12			0			0	0	100		
+e3/e3	84	79			0			5	6	100		
+e3/e4	18	18			0			0	0	100		
+
+[Table 2 on page 11]
+Percent of
+FQC
+(%)
+
+[Table 3 on page 11]
+APOE
+Genotype
+
+[Table 4 on page 11]
+No. of
+replicates
+
+[Table 5 on page 11]
+No. of
+FQC
+
+[Table 6 on page 11]
+APOE
+Genotype	N	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent of
+FQC
+(%)		Percent	
+							Correct	
+							Genotype	
+							Calls	
+							(%)	
+e2/e2	12	12	0	0	0	100		
+e2/e3	17	17	0	0	0	100		
+e2/e4	10	10	0	0	0	100		
+e3/e3	20	20	0	0	0	100		
+e3/e4	20	20	0	0	0	100		
+e4/e4	20	20	0	0	0	100		
+All	99	99	0	0	0	100		
+
+[Table 7 on page 11]
+No. of
+Correct
+Genotype
+Calls
+
+[Table 8 on page 11]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 9 on page 11]
+Percent of
+FQC
+(%)
+
+[Table 10 on page 11]
+APOE
+Genotype
+
+[Table 11 on page 11]
+No. of
+FQC
+
+--- Page 12 ---
+b) Accuracy study with human cell line samples:
+Accuracy for detecting two variants, rs7412 and rs429358, in the APOE gene on
+the HLP was evaluated by using six cell lines with known APOE genotypes
+(e2/e3, e2/e4, e3/e3, e3/e4, e3/e4, and e4/e4). The accuracy for detecting the two
+variants in the APOE gene was 100% for all samples tested.
+Percent
+No. of No. of
+No. of Percent Correct
+APOE Correct Incorrect No. of
+Cell Line N replicat of FQC Genotype
+Genotype Genotype Genotype FQC
+es (%) Calls
+Calls Calls
+(%)
+NA24385 1 e2/e3 1 1 0 0 0 100
+NA24149 1 e2/e4 1 1 0 0 0 100
+NA12878 1 e3/e3 1 1 0 0 0 100
+NA12877 1 e3/e4 1 1 0 0 0 100
+NA24143 1 e3/e4 1 1 0 0 0 100
+NA24631 1 e4/e4 1 1 0 0 0 100
+c) Accuracy study with 3,295 human saliva and cell line samples with known
+variants in genes other than APOE:
+In addition to the two variants in the APOE gene, accuracy of the HRA for late-
+onset Alzheimer’s disease for detecting variants in the genes associated with other
+clinical conditions included in DEN160026 was evaluated on the HLP using
+specimens carrying unique genetic variants linked to the specific clinical
+conditions as listed in the table below:
+Clinical condition Gene SNP
+Hereditary Thrombophilia FS rs6025
+Hereditary Thrombophilia F2 rs1799963
+Alpha-1 Antitrypsin Deficiency SERPINA1 rs28929474
+Alpha-1 Antitrypsin Deficiency SERPINA1 rs17580
+Late-Onset Alzheimer’s Disease APOE rs429358
+Parkinson’s Disease LRRK2 rs34637584
+Parkinson’s Disease; Gaucher Disease Type 1 GBA rs76763715
+Gaucher Disease Type 1 GBA rs387906315
+Gaucher Disease Type 1 GBA rs80356769
+Factor XI Deficiency FXI rs121965064
+Factor XI Deficiency FXI rs121965063
+Factor XI Deficiency FXI rs373297713
+Celiac Disease HLA-DQA1 rs2187668
+Glucose-6-Phosphate-Dehydrogenase
+G6PD rs1050828
+Deficiency
+Hereditary Hemochromatosis HFE rs1800562
+Hereditary Hemochromatosis HFE rs1799945
+Early-Onset Primary Dystonia DYT1 rs724159981
+K192073 - Page 12 of 19
+
+[Table 1 on page 12]
+Cell Line	N	APOE
+Genotype	No. of
+replicat
+es	No. of
+Correct
+Genotype
+Calls	No. of
+Incorrect
+Genotype
+Calls	No. of
+FQC	Percent
+of FQC
+(%)	Percent
+Correct
+Genotype
+Calls
+(%)
+NA24385	1	e2/e3	1	1	0	0	0	100
+NA24149	1	e2/e4	1	1	0	0	0	100
+NA12878	1	e3/e3	1	1	0	0	0	100
+NA12877	1	e3/e4	1	1	0	0	0	100
+NA24143	1	e3/e4	1	1	0	0	0	100
+NA24631	1	e4/e4	1	1	0	0	0	100
+
+[Table 2 on page 12]
+Percent
+Correct
+Genotype
+Calls
+(%)
+
+[Table 3 on page 12]
+No. of
+Correct
+Genotype
+Calls
+
+[Table 4 on page 12]
+No. of
+Incorrect
+Genotype
+Calls
+
+[Table 5 on page 12]
+No. of
+replicat
+es
+
+[Table 6 on page 12]
+Percent
+of FQC
+(%)
+
+[Table 7 on page 12]
+APOE
+Genotype
+
+[Table 8 on page 12]
+No. of
+FQC
+
+[Table 9 on page 12]
+	Clinical condition			Gene			SNP	
+Hereditary Thrombophilia			FS			rs6025		
+Hereditary Thrombophilia			F2			rs1799963		
+Alpha-1 Antitrypsin Deficiency			SERPINA1			rs28929474		
+Alpha-1 Antitrypsin Deficiency			SERPINA1			rs17580		
+Late-Onset Alzheimer’s Disease			APOE			rs429358		
+Parkinson’s Disease			LRRK2			rs34637584		
+Parkinson’s Disease; Gaucher Disease Type 1			GBA			rs76763715		
+Gaucher Disease Type 1			GBA			rs387906315		
+Gaucher Disease Type 1			GBA			rs80356769		
+Factor XI Deficiency			FXI			rs121965064		
+Factor XI Deficiency			FXI			rs121965063		
+Factor XI Deficiency			FXI			rs373297713		
+Celiac Disease			HLA-DQA1			rs2187668		
+Glucose-6-Phosphate-Dehydrogenase
+Deficiency			G6PD			rs1050828		
+Hereditary Hemochromatosis			HFE			rs1800562		
+Hereditary Hemochromatosis			HFE			rs1799945		
+Early-Onset Primary Dystonia			DYT1			rs724159981		
+
+--- Page 13 ---
+The overall number of true positive, false positives, true negative and false
+negatives were analyzed for 17 variants in 11 genes. A total of 4,282 true positive
+and 51,731 true negative calls were reported. There were no false positive and no
+false negative results reported for the known variants tested and one no call was
+reported each for rs76763715 and rs429358.
+2. Matrix Comparison:
+Not applicable
+C Clinical Studies:
+1. Clinical Sensitivity:
+Not applicable
+2. Clinical Specificity:
+Not applicable
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+1) Risk of developing late-onset Alzheimer’s disease and APOE allele frequency
+Late-onset Alzheimer’s disease is characterized by onset of the disease in people at
+or older than age 65 years. Many factors have been suggested to be associated with
+a decreased or increased risk of developing late-onset Alzheimer’s disease,
+including age, genetic variants, family history of dementia, and lifestyle. The
+association of the APOE e2 and e4 alleles with the modified risk of developing
+late-onset Alzheimer’s disease is one of the well-known genetic determinants
+across various ethnicities based on peer-reviewed scientific literature. The clinical
+performance and genetic variant detection by the HRA for late-onset Alzheimer’s
+disease are supported by peer-reviewed scientific literature. The APOE e2 allele is
+associated with a decreased risk to develop late-onset Alzheimer's disease at or
+above age 65 years, whereas the APOE e4 allele is associated with an increased
+risk to develop late-onset Alzheimer's disease at or above age 65 years. The HLP
+detects the two single nucleotide polymorphisms (SNPs), rs429358 and rs7412,
+that determine the status of the e2, e3, and e4 alleles of the APOE gene.
+The different combinations of the APOE alleles (e2, e3 and e4) were grouped
+based on the risk of developing late-onset Alzheimer’s disease as follows:
+a. Individuals with the APOE e3/e3 genotype have an average risk of developing
+late-onset Alzheimer’s disease.
+K192073 - Page 13 of 19
+
+--- Page 14 ---
+b. Individuals with the APOE e2/e2 or e2/e3 genotype have a decreased risk of
+developing late-onset Alzheimer’s disease compared to individuals with the
+APOE e3/e3 genotype for the European, African, and South Asian descent.
+c. Individuals with the APOE e2/e4, e3/e4, or e4/e4 genotype have an increased
+risk of developing late-onset Alzheimer’s disease compared to individuals with
+the APOE e3/e3 genotype.
+d. Individuals who have none of these APOE genotypes will not receive
+information on their relative risk to develop late-onset Alzheimer’s disease due
+to the lack of studies in the scientific literature.
+Three APOE alleles covered by this test are found in people of all ethnicities. The
+percentage of the population carrying each of the six possible APOE genotypes
+will vary from study to study based on the enrollment criteria of the genetic study.
+A summary of the frequency of each APOE genotype in different ethnicities
+collected from multiple published peer-reviewed scientific studies is presented in
+the table below:
+Allele frequency (%)
+e2/e2 e2/e3 e3/e3 e2/e4 e3/e4 e4/e4 Reference
+Average
+Decreased risk Increased risk
+risk
+AD* 0.2 4.8 36.4 2.6 41.1 14.8
+European Farrer et al.,
+descent 1997
+controls 0.8 12.7 60.9 2.6 21.3 1.8
+African AD 0.6 7.4 37.7 3.7 37.7 13.0
+Murrell et al.,
+American
+2006
+descent controls 1.9 15.1 51.3 4.1 24.2 3.5
+South AD 0.2 6.2 44.8 6.2 37.2 5.3
+Agarwal et al.,
+Asian
+2014
+descent controls 2.0 11.8 72.0 1.5 11.7 0.9
+AD 0.9 7.9 51.0 3.3 29.3 7.6
+East Asian
+Liu et al., 2014
+descent
+controls 0.8 11.8 73.1 1.7 12.4 0.3
+*AD = Alzheimer’s disease
+Using the same references, the likelihood ratios (LR) for APOE e2, e3 and e4
+combinations in different ethnicities, which represent an estimate of how the test
+results affects the chances of a condition was calculated as shown in the table
+below.
+K192073 - Page 14 of 19
+
+[Table 1 on page 14]
+														
+					Allele frequency (%)									
+														
+				e2/e2		e2/e3	e3/e3	e2/e4	e3/e4	e4/e4		Reference		
+				Decreased risk			Average
+risk	Increased risk						
+European
+descent		AD*		0.2		4.8	36.4	2.6	41.1	14.8		Farrer et al.,
+1997		
+		controls		0.8		12.7	60.9	2.6	21.3	1.8				
+African
+American
+descent		AD		0.6		7.4	37.7	3.7	37.7	13.0		Murrell et al.,
+2006		
+		controls		1.9		15.1	51.3	4.1	24.2	3.5				
+South
+Asian
+descent		AD		0.2		6.2	44.8	6.2	37.2	5.3		Agarwal et al.,
+2014		
+		controls		2.0		11.8	72.0	1.5	11.7	0.9				
+East Asian
+descent		AD		0.9		7.9	51.0	3.3	29.3	7.6		Liu et al., 2014		
+		controls		0.8		11.8	73.1	1.7	12.4	0.3				
+*AD = Alzheimer’s disease														
+
+--- Page 15 ---
+95% CI for
+Ethnicity Test result Genotype LR References Study summary
+LR
+e2/e2 0.3 0.1–0.5
+Decreased A meta-analysis of 5,930
+risk e2/e3 0.4 0.3–0.4 patients who met criteria for
+probable or definite
+Alzheimer’s disease and 8,607
+European Average risk e3/e3 0.6 0.57–0.62 Farrer et al., controls. Among study
+descent 1997 participants, there were 5,107
+e2/e4 1 0.8–1.3 Alzheimer’s disease patients
+Increased from European descent, and
+risk e3/e4 1.9 1.8–2.1 6,262 controls from European
+descent.
+e4/e4 8.2 6.8–10.0
+e2/e2 0.3 0.04–2.7
+Decreased
+This study included 162
+risk
+e2/e3 0.5 0.3–0.9 individuals from African
+African
+Murrell et descent (African American)
+American Average risk e3/e3 0.7 0.6–0.9
+al., 2006 with Alzheimer’s disease and
+descent
+e2/e4 0.9 0.4–2.3 318 controls from African
+Increased
+e3/e4 1.6 1.2–2.1 descent (African American).
+risk
+e4/e4 3.8 1.9–7.6
+Decreased e2/e2 0.1 0.02–0.9
+risk e2/e3 0.5 0.3–0.8 A meta-analysis of 417
+individuals from South Asian
+South Asian Average risk e3/e3 0.6 0.6–0.7 Agarwal et
+descent with Alzheimer’s
+descent e2/e4 4.1 2.0–8.3 al., 2014
+disease and 651 controls from
+Increased
+e3/e4 3.2 2.5–4.1 South Asian descent.
+risk
+e4/e4 5.7 2.3–14.0
+e2/e2 1.1* 0.5– 2.3 A meta-analysis of 1,576
+Average risk e2/e3 0.7 0.5–0.8 individuals from East Asian
+descent with Alzheimer’s
+East Asian e3/e3 0.7 0.6–0.7 Liu et al.,
+disease and 1,741 controls from
+descent e2/e4 1.9 1.2–3.0 2014
+East Asian descent. (*limited
+Increased
+e3/e4 2.5 2.2–2.9 number of e2/e2 samples used
+risk
+e4/e4 25.6 10.5–62.6 for analysis)
+2) User comprehension study
+a. Saliva collection kit user study:
+Refer to K192920 for the saliva collection device (Oragene Dx OGD-610)
+instructions for use and to assess the ability of lay users to provide samples adequate
+for testing.
+b. HRA user comprehension study:
+Objectives:
+The user comprehension study was performed to assess user comprehension of the
+HRA reports. The study was performed with a demographically diverse group of
+study participants (e.g. age, gender, ethnicity, and education level) by asking
+questions for five comprehension categories (purpose of test, limitation, relevant
+ethnicities, meaning of results, and appropriate follow-up) of the HRA in the pre-
+purchase page and the test reports in a controlled online setting.
+K192073 - Page 15 of 19
+
+[Table 1 on page 15]
+Ethnicity	Test result	Genotype	LR		95% CI for		References	Study summary
+					LR			
+European
+descent	Decreased
+risk	e2/e2	0.3	0.1–0.5			Farrer et al.,
+1997	A meta-analysis of 5,930
+patients who met criteria for
+probable or definite
+Alzheimer’s disease and 8,607
+controls. Among study
+participants, there were 5,107
+Alzheimer’s disease patients
+from European descent, and
+6,262 controls from European
+descent.
+		e2/e3	0.4	0.3–0.4				
+	Average risk	e3/e3	0.6	0.57–0.62				
+	Increased
+risk	e2/e4	1	0.8–1.3				
+		e3/e4	1.9	1.8–2.1				
+		e4/e4	8.2	6.8–10.0				
+African
+American
+descent	Decreased
+risk	e2/e2	0.3	0.04–2.7			Murrell et
+al., 2006	This study included 162
+individuals from African
+descent (African American)
+with Alzheimer’s disease and
+318 controls from African
+descent (African American).
+		e2/e3	0.5	0.3–0.9				
+	Average risk	e3/e3	0.7	0.6–0.9				
+	Increased
+risk	e2/e4	0.9	0.4–2.3				
+		e3/e4	1.6	1.2–2.1				
+		e4/e4	3.8	1.9–7.6				
+South Asian
+descent	Decreased
+risk	e2/e2	0.1	0.02–0.9			Agarwal et
+al., 2014	A meta-analysis of 417
+individuals from South Asian
+descent with Alzheimer’s
+disease and 651 controls from
+South Asian descent.
+		e2/e3	0.5	0.3–0.8				
+	Average risk	e3/e3	0.6	0.6–0.7				
+	Increased
+risk	e2/e4	4.1	2.0–8.3				
+		e3/e4	3.2	2.5–4.1				
+		e4/e4	5.7	2.3–14.0				
+East Asian
+descent	Average risk	e2/e2	1.1*	0.5– 2.3			Liu et al.,
+2014	A meta-analysis of 1,576
+individuals from East Asian
+descent with Alzheimer’s
+disease and 1,741 controls from
+East Asian descent. (*limited
+number of e2/e2 samples used
+for analysis)
+		e2/e3	0.7	0.5–0.8				
+		e3/e3	0.7	0.6–0.7				
+	Increased
+risk	e2/e4	1.9	1.2–3.0				
+		e3/e4	2.5	2.2–2.9				
+		e4/e4	25.6	10.5–62.6				
+
+--- Page 16 ---
+Methods:
+Quota-based sampling per U.S. Census was employed to recruit a diverse set of study
+participants based on their demographic variables in age, gender, ethnicity, and
+education level. Study participants who enrolled into the user comprehension study
+were randomly assigned into one of four risk category groups (increased, average,
+decrease, and result not available). Study participants took the test on their personal
+desktop. Voice and screen recordings of each study participant are captured during
+the test. The user comprehension was tested through a two-step process. First,
+participants' understanding of genetics was tested prior to viewing the pre-purchase
+page and test reports. Second, participants were shown the pre-purchase page and the
+test reports and completed the comprehension assessment. A total of 303 study
+participants met the inclusion criteria and were enrolled in the study. Fifty-nine (59)
+participants were non-complete users and removed from final analysis due to one of
+the following reasons across four risk category groups.
+• Exited test: an automated reason generated by Usertesting.com when their
+software detects there was some type of technical difficulty that resulted in the
+participant leaving the study prior to completion.
+• Session Expired is an automated reason generated by Usertesting.com when their
+software detects that a participant does not start the study within 30 minutes.
+• Uploading Issue is an automated reason generated by Usertesting.com when their
+software detects that a participant had issues uploading the test answers to the
+testing site.
+The number of non-complete users in each risk category group were as follows: 16
+users (20%) in the increased risk group, 9 users (12.8%) in the average risk group, 12
+users (16.4%) in the decreased risk group, and 22 users (26.5%) in the result not
+available group. There were no timed-out users in this study. A total of 244 study
+participants assigned to a risk category group across all risk categories (increased,
+average, decrease, and result not available) were included in the comprehension rate
+analysis. The completion rate was 100% for all 244 study participants.
+Results:
+The overall comprehension rate per comprehension category ranged 90.6 to 98.4%
+across all risk categories. The comprehension rate within the risk category ranged
+from 85.2 to 100% per comprehension category. The user comprehension study
+results are shown in the table below.
+Overall
+Comprehension Comprehension rates (%)
+comprehension
+category within Risk category
+rate (%)
+Increased Average Decreased Result not
+Risk Risk Risk available
+Purpose of Test 96.7 98.4 100 98.4 98.4
+Limitation 93.4 92.6 100 96.7 95.7
+Relevant Ethnicities 90.2 91.8 93.4 91.8 91.8
+Meaning of Results 85.2 89.6 90.7 96.7 90.6
+Appropriate Follow-up 96.7 95.9 100 96.7 97.3
+K192073 - Page 16 of 19
+
+[Table 1 on page 16]
+					Overall
+Comprehension	Comprehension rates (%)				
+					comprehension
+category	within Risk category				
+					rate (%)
+					
+	Increased
+Risk	Average
+Risk	Decreased
+Risk	Result not
+available	
+Purpose of Test	96.7	98.4	100	98.4	98.4
+Limitation	93.4	92.6	100	96.7	95.7
+Relevant Ethnicities	90.2	91.8	93.4	91.8	91.8
+Meaning of Results	85.2	89.6	90.7	96.7	90.6
+Appropriate Follow-up	96.7	95.9	100	96.7	97.3
+
+--- Page 17 ---
+The comprehension rates were also analyzed by age, gender, race, and education
+level for each comprehension category. The comprehension rates ranged 87–
+100% across ages, 93–99% across genders, 79–100% across ethnicities, and 87–
+100% across education levels as summarized in the table as below.
+Purpose of Test Limitations Relevant Ethnicities Meaning of Appropriate follow-
+Results up
+correct correct correct correct correct
+responses / responses / responses / responses / responses /
+% % % % %
+total total total total total
+responses responses responses responses responses
+Age (group)
+18-24 98 39/40 93 74/80 87 35/40 94 75/80 98 78/80
+25-34 100 43/43 94 81/86 95 41/43 99 85/85 100 96/86
+35-44 100 42/42 98 82/84 93 39/42 96 81/84 100 84/84
+45-54 100 44/44 98 86/88 89 39/44 95 84/88 100 88/88
+55-64 100 35/36 97 70/72 92 33/36 94 68/72 97 70/72
+65+ 95 37/39 96 74/78 94 37/39 97 76/78 95 74/78
+Gender (male or female)
+Male 98 123/124 97 233/240 93 112/120 97 232/240 98 234/240
+Female 98 117/120 94 234/248 90 112/124 96 237/248 99 246/248
+Race/Ethnicity
+Caucasian 99 139/140 97 272/280 94 131/140 97 272/281 99 278/280
+Black 94 32/34 93 63/68 79 27/34 91 62/68 94 64/68
+Hispanic /
+98 40/41 94 77/82 95 39/41 95 77/81 98 80/82
+Latino
+All other
+100 29/29 95 55/58 93 27/29 100 58/58 100 58/58
+ethnicities
+Education Level
+High School 99 83/84 94 158/168 90 76/84 94 158/168 99 166/168
+Some
+98 53/54 97 105/108 93 50/54 93 100/107 98 106/108
+College
+College
+97 71/73 97 142/146 95 69/74 100 144/144 97 142/146
+or equivalent
+Post
+100 33/33 94 62/66 87 29/33 97 67/69 100 66/66
+Graduate
+c. Frequently Asked Questions Material:
+A Frequently Asked Questions (FAQ) section was developed and included in each
+Genetic Health Risk Report. The FAQ section was to provide users information to
+adequately understand the purpose, limitations, and the meaning of the results of the test,
+and was developed using methodology consistent with the Manufacturer's labeling
+design, identification of communication messages, and label comprehension. The
+concepts covered in the FAQ section include: the test results, the purpose of the test,
+limitations of the test, relevance of race and ethnicity on test results, the meaning of the
+result, other risks factors that contribute to disease, appropriate follow-up procedures,
+how the results of the test may affect the user's family and children, and links to resources
+that provide additional information. The questions included in the FAQ section for each
+of the tests report included the following:
+K192073 - Page 17 of 19
+
+[Table 1 on page 17]
+							Meaning of		Appropriate follow-	
+	Purpose of Test		Limitations		Relevant Ethnicities					
+							Results		up	
+	%	correct
+responses /
+total
+responses	%	correct
+responses /
+total
+responses	%	correct
+responses /
+total
+responses	%	correct
+responses /
+total
+responses	%	correct
+responses /
+total
+responses
+										
+Age (group)										
+										
+18-24	98	39/40	93	74/80	87	35/40	94	75/80	98	78/80
+25-34	100	43/43	94	81/86	95	41/43	99	85/85	100	96/86
+35-44	100	42/42	98	82/84	93	39/42	96	81/84	100	84/84
+45-54	100	44/44	98	86/88	89	39/44	95	84/88	100	88/88
+55-64	100	35/36	97	70/72	92	33/36	94	68/72	97	70/72
+65+	95	37/39	96	74/78	94	37/39	97	76/78	95	74/78
+										
+Gender (male or female)										
+										
+Male	98	123/124	97	233/240	93	112/120	97	232/240	98	234/240
+Female	98	117/120	94	234/248	90	112/124	96	237/248	99	246/248
+										
+Race/Ethnicity										
+										
+Caucasian	99	139/140	97	272/280	94	131/140	97	272/281	99	278/280
+Black	94	32/34	93	63/68	79	27/34	91	62/68	94	64/68
+Hispanic /
+Latino	98	40/41	94	77/82	95	39/41	95	77/81	98	80/82
+All other
+ethnicities	100	29/29	95	55/58	93	27/29	100	58/58	100	58/58
+										
+Education Level										
+										
+High School	99	83/84	94	158/168	90	76/84	94	158/168	99	166/168
+Some
+College	98	53/54	97	105/108	93	50/54	93	100/107	98	106/108
+College
+or equivalent	97	71/73	97	142/146	95	69/74	100	144/144	97	142/146
+Post
+Graduate	100	33/33	94	62/66	87	29/33	97	67/69	100	66/66
+
+--- Page 18 ---
+• What does this test do?
+• What does this test not do?
+• My report says my result is e2/e2 what does this mean about my late onset
+Alzheimer's disease risk?
+• What does "decreased risk" mean?
+• Based on my result, what are some things I could do?
+• The report says that estimates about risk are best studied in people of European
+descent. What if I am not of European descent?
+• How could these results affect my family?
+• Where can I find references for this information?
+• How private is my result?
+Each Genetic Health Report has answers to the FAQs that are specific to the variant(s)
+and disease being reported, where applicable.
+d. User Opt-In page:
+Due to the nature of late-onset Alzheimer’s disease, users are informed on the pre-
+purchase page, which shows information on the user opt-in section prior to adding the
+HRA for late-onset Alzheimer’s disease to the (purchase) cart as indicated below.
+• Are you sure you want to view your Helix Genetic Health Risk App for late-onset
+Alzheimer's Disease test report?
+• By purchasing this product, you are opting-in to receive personal health
+information for Alzheimer's disease alone. This test will indicate whether you are
+at an increased, decreased or average risk of developing late-onset Alzheimer's
+disease. Note that there are currently no genetic testing guidelines or treatment
+options available for Alzheimer's disease. Talk to a healthcare provider if you
+have any questions or concerns.
+Before the report is generated, users are asked to opt-in for viewing the report as below.
+• Are you sure you want to view your Alzheimer's Disease Gene Test report?
+• This test will indicate whether you are at an increased, decreased or average risk
+of developing Alzheimer's disease. Note that there are currently no genetic testing
+guidelines or treatment options available for Alzheimer's disease. Talk to a
+healthcare provider if you have any questions or concerns.
+i. Yes, I want to view my report
+ii. No, I do not want to view my report
+iii. Ask me again later
+D Clinical Cut-off:
+Not applicable
+K192073 - Page 18 of 19
+
+--- Page 19 ---
+E Expected Values/Reference Range
+Not applicable
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K192073 - Page 19 of 19

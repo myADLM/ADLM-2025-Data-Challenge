@@ -1,0 +1,905 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K220916
+B Applicant
+Beta Bionics, Inc.
+C Proprietary and Established Names
+iLet® Dosing Decision Software
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1356 – Interoperable
+QJI Class II CH – Clinical Chemistry
+Automatic Glycemic Controller
+E Purpose for Submission:
+New device
+II Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The iLet Dosing Decision Software is intended for use with compatible integrated continuous
+glucose monitors (iCGM) and alternate controller enabled (ACE) pumps. A self-monitoring of
+blood glucose (SMBG) meter may also be used for manual input of blood glucose values to
+continue insulin dosing for a limited period of time when input from the iCGM is temporarily not
+available.
+The iLet Dosing Decision Software autonomously determines and commands an increase,
+decrease, maintenance, or suspension of all basal doses of insulin and autonomously determines
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QJI			Class II	21 CFR 862.1356 – Interoperable
+Automatic Glycemic Controller			CH – Clinical Chemistry
+
+--- Page 2 ---
+and commands correction doses of insulin based on input from an iCGM, and it autonomously
+determines and commands meal doses of insulin based on meal announcements.
+iLet Dosing Decision Software is intended for the management of type 1 diabetes mellitus in
+people 6 years of age or older. iLet Dosing Decision Software is intended for single patient use
+and requires a prescription.
+C Special Conditions for Use Statement(s):
+Rx – For prescription use only.
+Do not use the iLet Dosing Decision Software if you are unable or unwilling to test blood
+glucose (BG) levels with an SMBG meter when input from the iCGM is not available.
+Do not use the iLet Dosing Decision Software if you are unable or unwilling to recognize and
+respond to iLet safety alerts.
+Do not use the iLet System if you are taking hydroxyurea, also known as Hydrea. This
+medication is sometimes used in the treatment of blood disorders and some kinds of cancer. The
+use of hydroxyurea can result in falsely elevated sensor glucose readings. The iLet System relies
+on sensor glucose readings to adjust insulin, provide insulin doses, and provide high and low
+glucose alerts. If the iLet System receives sensor readings that are higher than actual glucose
+levels, it could result in missed hypoglycemia alerts and potential errors in diabetes management,
+such as too much insulin being delivered. Hydroxyurea can also result in errors when reviewing,
+analyzing, and interpreting historical patterns for assessing glucose control.
+Do not use the iLet ACE Pump and Dosing Decision Software in people under 6 years of age.
+The iLet ACE Pump and Dosing Decision Software have not been studied in these populations.
+Do not use the iLet Dosing Decision Software in people who are pregnant, on dialysis or
+critically ill. The iLet Dosing Decision Software has not been studied in these populations.
+The system should NOT be used in hospitalized people as the safety of the technology has not
+been evaluated in this population.
+The iLet Dosing Decision Software is only for use with insulin U-100 lispro (Humalog), insulin
+U-100 aspart (Novolog), or insulin U-100 aspart (Fiasp).
+Do not use the iLet Dosing Decision Software with the U-100 Fiasp in individuals under 18
+years of age. The iLet Dosing Decision Software has not been studied with the U-100 Fiasp in
+these populations.
+The iLet Dosing Decision Software is only for use with the Dexcom G6 iCGM. When using the
+iLet device, wear an iCGM.
+K220916 - Page 2 of 13
+
+--- Page 3 ---
+Remove the iLet device, steel infusion set, CGM sensor, and CGM transmitter before undergoing
+radiation therapy, Magnetic Resonance Imaging (MRI), Computed Tomography (CT) scan, or
+diathermy treatment procedures. Exposure of the iLet device, steel infusion set, CGM sensor, or
+CGM transmitter to any of these may damage them.
+Do not expose your iLet device, steel infusion set, CGM transmitter, or CGM sensor to
+equipment used in procedures for Pacemaker/Automatic Implantable Cardioverter Defibrillator
+(AICD) placement or reprogramming, Cardiac Catheterization, or Nuclear Stress Test.
+The iLet Go App is compatible with the iOS platform. The iLet Go App provides the ability to
+perform over-the-air updates and / or pull data from an iLet device to share with the Beta Bionics
+Cloud. The iLet Go App is not currently compatible with Android or other platforms.
+If your CGM is offline for an extended period of time, dosing will stop and you should switch to
+alternative therapy until you are able to reconnect to a CGM sensor. A countdown timer will
+appear before dosing would stop.
+III Device Description
+The iLet Dosing Decision software is part of the iLet Bionic Pancreas and is intended for use by
+people with diabetes. The iLet Dosing Decision software works in conjunction with a compatible
+alternate controller enabled (ACE) pump. The iLet Dosing Decision Software requires
+initialization with the user’s body mass (body weight), as well as meal announcements. When
+initiating a meal announcement with the iLet Dosing Decision Software, the user qualitatively
+approximates carbohydrate content (meal size) relative to the usual carbohydrate content for each
+of the three meal types (breakfast, lunch, or dinner). The iLet Dosing Decision Software
+autonomously determine the size of the insulin dose in response to a meal announcement by the
+user.
+The iLet Dosing Decision software works to control glucose to a user-set glucose target of
+“lower” (110 mg/dL), “usual” (120 mg/dL), or “higher” (130 mg/dL) within the device settings.
+Users can also set glucose targets specific for sleep.
+The iLet Dosing Decision software also includes a feature, called “BG-Run mode”, which
+enables the device to continue insulin delivery in the event CGM-data is unavailable. Use of the
+feature, however, should be temporary and always for the shortest duration possible, with the
+goal to resume CGM-guided insulin dosing as soon as possible.
+IV Substantial Equivalence Information:
+A Predicate Device Name(s):
+Control IQ-Technology
+B Predicate 510(k) Number(s):
+K200467
+K220916 - Page 3 of 13
+
+--- Page 4 ---
+C Comparison with Predicate(s):
+Device & Predicate
+K220916 K200467
+Device(s):
+iLet® Dosing Decision
+Device Trade Name Control-IQ Technology
+Software
+General Device
+Characteristic
+Similarities
+Intended for use with Same
+compatible integrated
+continuous glucose monitors
+(iCGM) and alternate
+Intended controller enabled (ACE)
+Use/Indications For pumps to automatically
+Use increase, decrease, and
+suspend delivery of basal
+insulin, as well as command
+correction doses, based on
+glucose values.
+Age Range of Intended
+6 years and older Same
+Users
+General Device
+Characteristic
+Differences
+Specific Drug/Biologic U-100 insulins: NovoLog, U-100 insulins:
+Use Humalog, and Fiasp NovoLog and Humalog
+V Standards/Guidance Documents Referenced:
+Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices:
+Guidance for Industry and FDA Staff
+General Principles of Software Validation: Guidance for Industry and FDA Staff
+Design Considerations and Pre-market Submission Recommendations for Interoperable Medical
+Devices: Guidance for Industry and Food and Drug Administration Staff
+AAMI TIR36:2007 - Validation of software for regulated processes
+AAMI/AAMI HE75:2009(R2018)- Human factors engineering - Design of medical devices
+AAMI/IEC TIR62366-2:2016 -Medical Devices Part 2: Guidance on the Application of
+Usability Engineering to Medical Devices
+K220916 - Page 4 of 13
+
+[Table 1 on page 4]
+	Device & Predicate		K220916	K200467
+	Device(s):			
+Device Trade Name			iLet® Dosing Decision
+Software	Control-IQ Technology
+	General Device			
+	Characteristic			
+	Similarities			
+Intended
+Use/Indications For
+Use			Intended for use with
+compatible integrated
+continuous glucose monitors
+(iCGM) and alternate
+controller enabled (ACE)
+pumps to automatically
+increase, decrease, and
+suspend delivery of basal
+insulin, as well as command
+correction doses, based on
+glucose values.	Same
+Age Range of Intended
+Users			6 years and older	Same
+	General Device			
+	Characteristic			
+	Differences			
+Specific Drug/Biologic
+Use			U-100 insulins: NovoLog,
+Humalog, and Fiasp	U-100 insulins:
+NovoLog and Humalog
+
+--- Page 5 ---
+IEC 62304:2006+A1:2015 -Medical device software - Software life-cycle processes
+AAMI/IEC 62366-1:2015 -Medical devices – Application of usability engineering to medical
+devices
+ISO 14155:2020 - Clinical investigation of medical devices for human subjects - Good clinical
+practice
+VI Performance Characteristics:
+A. Analytical Performance
+For the purposes of analytical and clinical validation testing, the iLet Dosing Decision
+Software was installed on the iLet ACE pump (K223846), which was paired with the
+Dexcom G6 continuous glucose monitoring system (K223931). Details on the performance
+characteristics of these devices can be found in the public decision summaries for each
+device.
+B. Other Supportive Instrument Performance Characteristics Data
+1. Summary of Clinical Testing
+The sponsor conducted a randomized-controlled, prospective, multicenter pivotal clinical
+trial consisting of 440 participants (275 subjects ≥ 18 years old, and 165 subjects 6-17 years
+old) with type 1 diabetes. Subjects are randomized into the Bionic Pancreas (BP) Group or
+the Usual Care (UC) Group to complete the 13-week study period. The sponsor also
+conducted an ancillary study in which the iLet system’s functioning was based only on
+SMBG manual entry, and no CGM data was available to the system.
+K220916 - Page 5 of 13
+
+--- Page 6 ---
+Study Feature Description
+Title The Insulin-Only Bionic Pancreas Pivotal
+Trial: Testing the iLet in Adults and
+Children with Type 1 Diabetes
+Study Design Randomized, prospective, multicenter
+clinical trial
+Number of Sites 16
+Population Adults and children who were diagnosed
+with type 1 diabetes and were using insulin
+for at least a year were eligible for the study.
+Sample Size 440 participants (275 adults, 165 pediatrics)
+Treatment Groups Pediatric (6-17 years old) Study: Random
+assignment in a 2:1 ratio to the BP Group
+(with Novolog or Humalog, hereafter
+referred to as the iLet-N/H group, ~ 110
+participants) or the UC Group ( ~55
+participants) , such that a minimum of 100
+in the BP group will complete the 13-week
+Randomized Controlled Trial (RCT).
+Adult (≥18 years) Study: Random
+assignment in a 2:2:1 ratio to the BP Group
+(with Novolog or Humalog, iLet-N/H, ~ 110
+participants), the BP Fiasp Group (iLet-F, ~
+110 participants), or the UC Group (~55
+participants), such that a minimum of 100 in
+each BP Group complete the 13-week RCT.
+Study Duration 3 months for primary study
+Protocol Overview/Synopsis The 13-week, parallel-group, multi-center
+RCT Period is designed to compare the
+insulin-only iLet BP Group using insulin
+lispro, insulin aspart, or Fiasp (adults only);
+and a control group following standard care
+(SC Group).
+Key Eligibility Criteria
+Inclusion
+1. Clinical diagnosis of T1D for at least
+one year and using insulin for at
+least 1 year
+2. Diabetes managed using the same
+regimen (either pump or MDI, with
+or without CGM) for ≥ 3 months
+3. Age ≥ 6 years old
+4. If a GLP-1 agonist or pramlintide is
+being used, participant must be
+K220916 - Page 6 of 13
+
+[Table 1 on page 6]
+	Study Feature			Description	
+Title			The Insulin-Only Bionic Pancreas Pivotal
+Trial: Testing the iLet in Adults and
+Children with Type 1 Diabetes		
+Study Design			Randomized, prospective, multicenter
+clinical trial		
+Number of Sites			16		
+Population			Adults and children who were diagnosed
+with type 1 diabetes and were using insulin
+for at least a year were eligible for the study.		
+Sample Size			440 participants (275 adults, 165 pediatrics)		
+Treatment Groups			Pediatric (6-17 years old) Study: Random
+assignment in a 2:1 ratio to the BP Group
+(with Novolog or Humalog, hereafter
+referred to as the iLet-N/H group, ~ 110
+participants) or the UC Group ( ~55
+participants) , such that a minimum of 100
+in the BP group will complete the 13-week
+Randomized Controlled Trial (RCT).
+Adult (≥18 years) Study: Random
+assignment in a 2:2:1 ratio to the BP Group
+(with Novolog or Humalog, iLet-N/H, ~ 110
+participants), the BP Fiasp Group (iLet-F, ~
+110 participants), or the UC Group (~55
+participants), such that a minimum of 100 in
+each BP Group complete the 13-week RCT.		
+Study Duration			3 months for primary study		
+Protocol Overview/Synopsis			The 13-week, parallel-group, multi-center
+RCT Period is designed to compare the
+insulin-only iLet BP Group using insulin
+lispro, insulin aspart, or Fiasp (adults only);
+and a control group following standard care
+(SC Group).
+Key Eligibility Criteria
+Inclusion
+1. Clinical diagnosis of T1D for at least
+one year and using insulin for at
+least 1 year
+2. Diabetes managed using the same
+regimen (either pump or MDI, with
+or without CGM) for ≥ 3 months
+3. Age ≥ 6 years old
+4. If a GLP-1 agonist or pramlintide is
+being used, participant must be		
+
+--- Page 7 ---
+Study Feature Description
+willing to discontinue use while the
+iLet BP system is being used,
+including the randomized trial and
+extension study.
+Exclusion
+1. Plan to change usual diabetes
+regimen in the next 3 months
+2. Use of Apidra as the pre-study rapid-
+acting insulin analog and unwilling
+to switch to lispro or aspart for the
+duration of the study
+3. Known hemoglobinopathy (sickle
+cell trait is not an exclusion)
+4. History of cystic fibrosis,
+pancreatitis, or other pancreatic
+disease, including pancreatic tumor
+or insulinoma, or history of complete
+pancreatectomy
+5. Current use of SGLT2 inhibitors or a
+sulfonylurea drug (use more than 3
+months prior to enrollment is
+acceptable)
+6. Pregnant, breast feeding, plan to
+become pregnant in the next 3
+months, or sexually active without
+use of contraception
+7. Renal failure on dialysis or with an
+eGFR <30mL/min
+Primary Endpoints
+1. HbA1c at 13 weeks
+2. CGM time < 54 mg/dl
+Key Safety Outcomes
+• severe hypoglycemia
+• diabetic ketoacidosis
+• other serious adverse events
+K220916 - Page 7 of 13
+
+[Table 1 on page 7]
+	Study Feature			Description	
+			willing to discontinue use while the
+iLet BP system is being used,
+including the randomized trial and
+extension study.
+Exclusion
+1. Plan to change usual diabetes
+regimen in the next 3 months
+2. Use of Apidra as the pre-study rapid-
+acting insulin analog and unwilling
+to switch to lispro or aspart for the
+duration of the study
+3. Known hemoglobinopathy (sickle
+cell trait is not an exclusion)
+4. History of cystic fibrosis,
+pancreatitis, or other pancreatic
+disease, including pancreatic tumor
+or insulinoma, or history of complete
+pancreatectomy
+5. Current use of SGLT2 inhibitors or a
+sulfonylurea drug (use more than 3
+months prior to enrollment is
+acceptable)
+6. Pregnant, breast feeding, plan to
+become pregnant in the next 3
+months, or sexually active without
+use of contraception
+7. Renal failure on dialysis or with an
+eGFR <30mL/min
+Primary Endpoints
+1. HbA1c at 13 weeks
+2. CGM time < 54 mg/dl
+Key Safety Outcomes
+• severe hypoglycemia
+• diabetic ketoacidosis
+• other serious adverse events		
+
+--- Page 8 ---
+Demographics
+Adult Study Standard Care iLet-F iLet-N/H
+(N = 54) (N = 114) (N = 107)
+Age (years)
+Mean (SD) 44 (16) 42 (16) 44 (15)
+18 to < 25 7 (13%) 21 (18%) 16 (15%)
+25 to < 45 21 (39%) 46 (40%) 38 (36%)
+45 to < 60 13 (24%) 29 (25%) 33 (31%)
+≥ 60 13 (24%) 18 (16%) 20 (19%)
+Range 18 to 79 18 to 83 18 to 73
+Diabetes Duration
+(years)
+Mean (SD) 29 (14) 24 (14) 26 (14)
+HbA1c Level at
+Randomization (%)*
+Mean (SD) 7.6 (1.2) 7.8 (1.2) 7.6 (1.2)
+<7.0 18 (34%) 31 (27%) 37 (35%)
+7.1-7.4 6 (11%) 17 (15%) 17 (16%)
+7.5%-<9.5 26 (49%) 56 (50%) 46 (43%)
+≥9.5 3 (6%) 9 (8%) 7 (7%)
+Range 5.5 to 11.3 5.3 to 14.9 5.5 to 13.1
+Sex – Female n (%) 26 (48%) 62 (54%) 52 (49%)
+Race/Ethnicity
+Group n (%)
+White non-Hispanic 47 (87%) 98 (86%) 85 (79%)
+Black non-Hispanic 2 (4%) 10 (9%) 14 (13%)
+Hispanic or Latino 3 (6%) 6 (5%) 7 (7%)
+Asian 1 (2%) 0 (0%) 0 (0%)
+American 1 (2%) 0 (0%) 0 (0%)
+Indian/Alaskan
+Native
+More than one race 0 (0%) 0 (0%) 1 (<1%)
+Unknown 0 (0%) 0 (0%) 0 (0%)
+Pediatric Study Standard Care iLet-N/H
+(N = 53) (N = 114)
+Age (years)
+Mean (SD) 12 (3) 12 (3)
+6 to <12 47 (42%) 47 (42%)
+12 to <18 65 (58%) 65 (58%)
+Range 6 to17 6 to17
+Diabetes Duration (years)
+Mean (SD) 7 (4) 6 (4)
+K220916 - Page 8 of 13
+
+[Table 1 on page 8]
+Adult Study			Standard Care			iLet-F			iLet-N/H	
+			(N = 54)			(N = 114)			(N = 107)	
+	Age (years)									
+Mean (SD)		44 (16)			42 (16)			44 (15)		
+18 to < 25		7 (13%)			21 (18%)			16 (15%)		
+25 to < 45		21 (39%)			46 (40%)			38 (36%)		
+45 to < 60		13 (24%)			29 (25%)			33 (31%)		
+≥ 60		13 (24%)			18 (16%)			20 (19%)		
+Range		18 to 79			18 to 83			18 to 73		
+	Diabetes Duration									
+	(years)									
+Mean (SD)		29 (14)			24 (14)			26 (14)		
+	HbA1c Level at									
+	Randomization (%)*									
+Mean (SD)		7.6 (1.2)			7.8 (1.2)			7.6 (1.2)		
+<7.0		18 (34%)			31 (27%)			37 (35%)		
+7.1-7.4		6 (11%)			17 (15%)			17 (16%)		
+7.5%-<9.5		26 (49%)			56 (50%)			46 (43%)		
+≥9.5		3 (6%)			9 (8%)			7 (7%)		
+Range		5.5 to 11.3			5.3 to 14.9			5.5 to 13.1		
+Sex – Female n (%)		26 (48%)			62 (54%)			52 (49%)		
+	Race/Ethnicity									
+	Group n (%)									
+White non-Hispanic		47 (87%)			98 (86%)			85 (79%)		
+Black non-Hispanic		2 (4%)			10 (9%)			14 (13%)		
+Hispanic or Latino		3 (6%)			6 (5%)			7 (7%)		
+Asian		1 (2%)			0 (0%)			0 (0%)		
+American
+Indian/Alaskan
+Native		1 (2%)			0 (0%)			0 (0%)		
+More than one race		0 (0%)			0 (0%)			1 (<1%)		
+Unknown		0 (0%)			0 (0%)			0 (0%)		
+
+[Table 2 on page 8]
+Pediatric Study			Standard Care			iLet-N/H	
+			(N = 53)			(N = 114)	
+	Age (years)						
+Mean (SD)		12 (3)			12 (3)		
+6 to <12		47 (42%)			47 (42%)		
+12 to <18		65 (58%)			65 (58%)		
+Range		6 to17			6 to17		
+	Diabetes Duration (years)						
+Mean (SD)		7 (4)			6 (4)		
+
+--- Page 9 ---
+Range 1 to 15 1 to 16
+HbA1c Level at
+Randomization (%)
+Mean (SD) 7.8 (1.1) 8.1 (1.2)
+<7.0 12 (23%) 18 (16%)
+7.1-7.4 19 (36%) 34 (30%)
+7.5%-<9.5 15 (28%) 33 (29%)
+≥9.5 7 (13%) 27 (24%)
+Range 5.8 to 10.6 6.1 to 12.2
+Sex – Female n (%) 15 (28%) 55 (49%)
+Race/Ethnicity
+Group n (%)
+White non-Hispanic 36 (68%) 72 (64%)
+Black non-Hispanic 3 (6%) 13 (12%)
+Hispanic or Latino 8 (15%) 16 (14%)
+Asian 2 (4%) 2 (2%)
+American 0 (0%) 1 (<1%)
+Indian/Alaskan
+Native
+More than one race 4 (8%) 6 (5%)
+Unknown 0 (0%) 2 (2%)
+Safety Results
+Adult (Age ≥ 18 yr) Pediatrics (Age < 18 yr)
+Standard of Standard of
+iLet – N/H iLet – F iLet – N/H
+Care Care
+(N=107) (N=113) (N=112)
+(N=54) (N=53)
+Total Number
+of Adverse 63 83 6 181 4
+Events (AEs)
+Severe Hypoglycemic (SH) Events
+Number of SH
+Events per
+Participant n
+(%)
+0 100 (93%) 111 (97%) 53 (98%) 109 (97%) 52 (98%)
+1 7 (7%) 3 (3%) 0 (0%) 3 (3%) 1 (2%)
+2 0 (0%) 0 (0%) 1 (2%) 0 (0%) 0 (0%)
+Incidence Rate
+per 100 25.5 10.2 14.2 10.4 7.3
+Person-Years
+Diabetic Ketoacidosis (DKA) Events
+Number of
+OKA Events
+K220916 - Page 9 of 13
+
+[Table 1 on page 9]
+Range		1 to 15	1 to 16	
+	HbA1c Level at			
+	Randomization (%)			
+Mean (SD)		7.8 (1.1)	8.1 (1.2)	
+<7.0		12 (23%)	18 (16%)	
+7.1-7.4		19 (36%)	34 (30%)	
+7.5%-<9.5		15 (28%)	33 (29%)	
+≥9.5		7 (13%)	27 (24%)	
+Range		5.8 to 10.6	6.1 to 12.2	
+Sex – Female n (%)		15 (28%)	55 (49%)	
+	Race/Ethnicity			
+	Group n (%)			
+White non-Hispanic		36 (68%)	72 (64%)	
+Black non-Hispanic		3 (6%)	13 (12%)	
+Hispanic or Latino		8 (15%)	16 (14%)	
+Asian		2 (4%)	2 (2%)	
+American
+Indian/Alaskan
+Native		0 (0%)	1 (<1%)	
+More than one race		4 (8%)	6 (5%)	
+Unknown		0 (0%)	2 (2%)	
+
+[Table 2 on page 9]
+			Adult (Age ≥ 18 yr)						Pediatrics (Age < 18 yr)			
+		iLet – N/H
+(N=107)		iLet – F
+(N=113)		Standard of		iLet – N/H
+(N=112)			Standard of	
+						Care					Care	
+						(N=54)					(N=53)	
+Total Number
+of Adverse
+Events (AEs)		63		83	6			181		4		
+	Severe Hypoglycemic (SH) Events											
+Number of SH
+Events per
+Participant n
+(%)												
+0		100 (93%)		111 (97%)	53 (98%)			109 (97%)		52 (98%)		
+1		7 (7%)		3 (3%)	0 (0%)			3 (3%)		1 (2%)		
+2		0 (0%)		0 (0%)	1 (2%)			0 (0%)		0 (0%)		
+Incidence Rate
+per 100
+Person-Years		25.5		10.2	14.2			10.4		7.3		
+	Diabetic Ketoacidosis (DKA) Events											
+Number of
+OKA Events												
+
+[Table 3 on page 9]
+iLet – N/H
+(N=107)
+
+[Table 4 on page 9]
+iLet – F
+(N=113)
+
+[Table 5 on page 9]
+iLet – N/H
+(N=112)
+
+--- Page 10 ---
+Adult (Age ≥ 18 yr) Pediatrics (Age < 18 yr)
+Standard of Standard of
+iLet – N/H iLet – F iLet – N/H
+Care Care
+(N=107) (N=113) (N=112)
+(N=54) (N=53)
+per Participant
+n (%)
+0 107 (100%) 112 (98%) 54 (100%) 112 (100%) 53 (100%)
+1 0 (0%) 2 (2%) 0 (0%) 0 (0%) 0 (0%)
+Incidence Rate
+per 100 0 6.8 0 0 0
+Person-Years
+Other Serious Adverse Events (SAEs)
+Number of
+SAEs per
+Participant n
+(%)
+0 106 (>99%) 114 (100%) 53 (98%) 110 (98%) 52 (98%)
+1 1 (1%) 0 (0%) 1 (2%) 2 (2%) 1 (2%)
+Incidence Rate
+per 100 3.6 0 7.1 6.9 7.3
+Person-Years
+Participants with Worsening of HbA1c
+from baseline to 13 weeks by >0.5%
+n (%) 4 (4%) 7 (6%) 4 (8%) 13 (12%) 4 (8%)
+Other Adverse Events
+(N Events / N Participants)
+Hyperglycemia
+with or
+without
+Ketosis 34 / 27 52 / 40 0 / 0 126 / 68 0 / 0
+Related to
+Study Device
+Hyperglycemia
+with or
+without
+Ketosis Not 13 / 12 14 / 12 0 / 0 41 / 32 2 / 1
+Related to
+Study Device
+Non-Severe
+1 / 1 0 / 0 0 / 0 1 / 1 0 / 0
+Hypoglycemia
+Other
+Reportable
+7 / 7 12 / 10 3 / 3 8 / 7 0 / 0
+Adverse
+Events
+K220916 - Page 10 of 13
+
+[Table 1 on page 10]
+			Adult (Age ≥ 18 yr)						Pediatrics (Age < 18 yr)			
+		iLet – N/H
+(N=107)		iLet – F
+(N=113)		Standard of		iLet – N/H
+(N=112)			Standard of	
+						Care					Care	
+						(N=54)					(N=53)	
+per Participant
+n (%)												
+0		107 (100%)		112 (98%)	54 (100%)			112 (100%)		53 (100%)		
+1		0 (0%)		2 (2%)	0 (0%)			0 (0%)		0 (0%)		
+Incidence Rate
+per 100
+Person-Years		0		6.8	0			0		0		
+	Other Serious Adverse Events (SAEs)											
+Number of
+SAEs per
+Participant n
+(%)												
+0		106 (>99%)		114 (100%)	53 (98%)			110 (98%)		52 (98%)		
+1		1 (1%)		0 (0%)	1 (2%)			2 (2%)		1 (2%)		
+Incidence Rate
+per 100
+Person-Years		3.6		0	7.1			6.9		7.3		
+	Participants with Worsening of HbA1c											
+	from baseline to 13 weeks by >0.5%											
+n (%)		4 (4%)		7 (6%)	4 (8%)			13 (12%)		4 (8%)		
+	Other Adverse Events											
+	(N Events / N Participants)											
+Hyperglycemia
+with or
+without
+Ketosis
+Related to
+Study Device		34 / 27		52 / 40	0 / 0			126 / 68		0 / 0		
+Hyperglycemia
+with or
+without
+Ketosis Not
+Related to
+Study Device		13 / 12		14 / 12	0 / 0			41 / 32		2 / 1		
+Non-Severe
+Hypoglycemia		1 / 1		0 / 0	0 / 0			1 / 1		0 / 0		
+Other
+Reportable
+Adverse
+Events		7 / 7		12 / 10	3 / 3			8 / 7		0 / 0		
+
+[Table 2 on page 10]
+iLet – N/H
+(N=107)
+
+[Table 3 on page 10]
+iLet – F
+(N=113)
+
+[Table 4 on page 10]
+iLet – N/H
+(N=112)
+
+--- Page 11 ---
+Observed Results
+Adult (Age ≥ 18 years) Pediatric (Age < 18 years)
+Standard of Standard of
+iLet – N/H iLet – F iLet – N/H
+Care Care
+(N=107) (N=113) (N=112)
+(N=54) (N=53)
+% Time<54 mg/dL
+Baseline 0.21% 0.12% 0.11% 0.20% 0.22%
+median (0.02%, (0.02%, (0.00%, (0.03%, (0.03%,
+(IQR) 0.57%) 0.68%) 0.37%) 0.59%) 0.46%)
+Week 13 -0.04%
+0.33% 0.00%
+median (-0.13%,
+(0.14%, (-0.07%, –* –*
+(IQR) 0.03%)
+0.52%) 0.05%)
+[0.24]
+% Time 70-180 mg/dL
+Baseline
+mean 56% (19%) 54% (18%) 53% (21%) 47% (17%) 48% (19%)
+(SD)
+Week 13
+mean 69% (8% 71% (8%) 58% (17%) 60% (8%) 50% (16%)
+(SD)
+% Time 70-180 mg/dL
+Adjusted
+Group
+Difference 10%
+11% 14%
+over 13 (7%, 13%)
+(8%, 13%) (11%,17%) –* –*
+weeks [<0.001]
+[<0.001] [<0.001]
+(95% CI)
+[p-value]
+Mean CGM Glucose (mg/dL)
+Baseline
+179 (41) 181 (34) 186 (42) 195 (39) 195 (42)
+mean (SD)
+Week 13
+157 (12) 155 (11) 174 (30) 172 (14) 187 (34)
+mean (SD)
+Adjusted
+Group
+Difference -16 -18 -15
+over 13 (-20, -11) (-22, -14) –* (-21, -9) –*
+weeks [<0.001] [<0.001] [<0.001]
+(95% CI)
+[p-value]
+Change in HbA1c after 13 Weeks
+Baseline 7.6 7.8 7.6 8.1 7.8
+Week 13 7.1 7.1 7.5 7.5 7.8
+* no data available
+K220916 - Page 11 of 13
+
+[Table 1 on page 11]
+			Adult (Age ≥ 18 years)						Pediatric (Age < 18 years)			
+		iLet – N/H
+(N=107)		iLet – F
+(N=113)		Standard of		iLet – N/H
+(N=112)			Standard of	
+						Care					Care	
+						(N=54)					(N=53)	
+	% Time<54 mg/dL											
+Baseline
+median
+(IQR)		0.21%
+(0.02%,
+0.57%)		0.12%
+(0.02%,
+0.68%)	0.11%
+(0.00%,
+0.37%)			0.20%
+(0.03%,
+0.59%)		0.22%
+(0.03%,
+0.46%)		
+Week 13
+median
+(IQR)		0.33%
+(0.14%,
+0.52%)		0.00%
+(-0.07%,
+0.05%)	–*			-0.04%
+(-0.13%,
+0.03%)
+[0.24]		–*		
+	% Time 70-180 mg/dL											
+Baseline
+mean
+(SD)		56% (19%)		54% (18%)	53% (21%)			47% (17%)		48% (19%)		
+Week 13
+mean
+(SD)		69% (8%		71% (8%)	58% (17%)			60% (8%)		50% (16%)		
+	% Time 70-180 mg/dL											
+Adjusted
+Group
+Difference
+over 13
+weeks
+(95% CI)
+[p-value]		11%
+(8%, 13%)
+[<0.001]		14%
+(11%,17%)
+[<0.001]	–*			10%
+(7%, 13%)
+[<0.001]		–*		
+	Mean CGM Glucose (mg/dL)											
+Baseline
+mean (SD)		179 (41)		181 (34)	186 (42)			195 (39)		195 (42)		
+Week 13
+mean (SD)		157 (12)		155 (11)	174 (30)			172 (14)		187 (34)		
+Adjusted
+Group
+Difference
+over 13
+weeks
+(95% CI)
+[p-value]		-16
+(-20, -11)
+[<0.001]		-18
+(-22, -14)
+[<0.001]	–*			-15
+(-21, -9)
+[<0.001]		–*		
+	Change in HbA1c after 13 Weeks											
+Baseline		7.6		7.8	7.6			8.1		7.8		
+Week 13		7.1		7.1	7.5			7.5		7.8		
+
+[Table 2 on page 11]
+iLet – N/H
+(N=107)
+
+[Table 3 on page 11]
+iLet – F
+(N=113)
+
+[Table 4 on page 11]
+iLet – N/H
+(N=112)
+
+--- Page 12 ---
+BG-Run Mode
+The sponsor conducted an ancillary study after the conclusion of the RTC to evaluate the
+safety of utilizing BG values obtained by fingerstick instead of CGM as input into the iLet
+System. Fifty-four subjects (43 adults and 11 pediatrics) participated in the ancillary-phase of
+the study. Median time using BG measurements as input for the iLet System was 49.5 hours,
+with all participants having at least 46.5 hours of continued BG-run mode use. Median
+number of BG measurements entered during the first 24 hours was 9 and during the second
+24 hours was 10. There were no incidences of severe hypoglycemia, DKA, or other serious
+adverse events (SAEs). Results of the ancillary study indicated that the frequency of low-
+sensor glucose events during the BG-run period appeared similar to the pre-randomization
+period and the RCT period, and the frequency of high-sensor glucose events during the BG-
+run period appeared higher than in the RCT-period.
+2. Human Factors Testing
+Human factors validation tests were conducted with the iLet Dosing Decision Software
+installed on the iLet ACE insulin pump (K223846). The summative human factors validation
+study was performed with 60 total users (45 primary users and 15 secondary users). All study
+participants received training that was consistent with the training that patients would receive
+with the commercial product. Usability evaluations assessed comprehension and usability of
+the device for critical device tasks. Results of the study demonstrated that the device could be
+used safely by intended users in the intended use environment when used in combination
+with a digitally connected device.
+3. Insulin Compatibility
+The iLet Dosing Decision Software used with the iLet Bionic Pancreas System is designed to
+use rapid-acting U-100 insulins including: NovoLog® (insulin aspart), Humalog® (insulin
+lispro), and Fiasp® (insulin aspart). These insulins were used in the pivotal clinical study for
+this device and no other insulins have been tested for use with the device.
+4. Data Logging
+Software verification testing has demonstrated the device records timestamped critical
+events, including information related to its state, user inputs, and device settings, as required
+by the special controls.
+5. Interoperability
+A plan and approach for interoperability were provided according to the FDA Guidance
+“Design Considerations and Pre-market Submission Recommendations for Interoperable
+Medical Devices - Guidance for Industry and Food and Drug Administration Staff” (issued
+on September 6, 2017) and determined to be adequate to support and clearly specify
+expectations, requirements, and interface specifications to potential interoperable devices. In
+addition, the plans provided by the sponsor covered their approach to working with
+connected device companies regarding contractual issues, interfaces for data communication
+and exchange, and post-market reporting procedures and responsibilities (e.g., who is
+responsible for investigating and reporting complaints, malfunctions, and adverse events).
+K220916 - Page 12 of 13
+
+--- Page 13 ---
+The sponsor additionally provided validated software protocols intended to ensure secure,
+accurate, and reliable communication with digital interfacing devices, as well as failsafe
+design features to mitigate the risks associated with interruption of communication with
+digitally connected devices. These protocols were reviewed and found to be adequate.
+6. Cybersecurity
+Detailed information on cybersecurity of the device was reviewed and found to be
+acceptable. The sponsor also provided a software bill of materials, which provided details on
+all software used in the device and the hardware platform that the device was installed on.
+This included all manufacturer-developed, commercially licensed, open source, and off-the-
+shelf software components (including firmware as relevant), along with an identification of
+the hardware runtime environment in which each resides, with relevant version and/or model
+information, as well as details on whether each component was actively supported by its
+manufacturer or legacy licensed.
+7. Postmarket Surveillance Study
+There is uncertainty remaining regarding the risk/benefit profile of the device when used in
+the broader intended use population. While the premarket clinical study provided to support
+the 510(k) showed some benefits, it was not adequately powered to assess differences in the
+rates of safety events (e.g., diabetic ketoacidosis and severe hypoglycemia). Accordingly, a
+postmarket surveillance study will be ordered by FDA to confirm understanding of safety.
+VII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+VIII Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K220916 - Page 13 of 13

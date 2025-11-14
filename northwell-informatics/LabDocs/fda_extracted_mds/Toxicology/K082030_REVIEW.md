@@ -1,0 +1,78 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k082030   
+B. Purpose for Submission: New device   
+C. Measurand: Calibrator for Cyclosporine   
+D. Type of Test: Calibrator Materials   
+E. Applicant: Siemens Healthcare Diagnostics Inc.   
+F. Proprietary and Established Names: Dimension Vista Cyclosporine Extended Range Calibrator (p/n KC440)   
+G. Regulatory Information:
+
+<table><tr><td rowspan=1 colspan=1>Product Code</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>Regulation Section</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>DLJ</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR§ 862.3200</td><td rowspan=1 colspan=1>Toxicology</td></tr></table>
+
+# H. Intended Use:
+
+1. Intended use(s): See Indications for Use below.   
+2. Indication(s) for use: The CSAE CAL is an in vitro diagnostic product for the calibration of CSAE method on the Dimension Vista system.   
+3. Special conditions for use statement(s): For prescription use only   
+4. Special instrument requirements: Dimension Vista system
+
+# I. Device Description:
+
+The Dimension Vista Cyclosporine Extended Range Calibrator contains cyclosporine in a preserved whole blood hemolysate. The kit consists of three vials of Calibrator A $( 2 0 0 ~ \mathrm { n g / m L } )$ and three vials of Calibrator B $2 0 0 0 ~ \mathrm { n g / m L } )$ ). The intermediate calibrator levels (400, 800 and $1 4 0 0 ~ \mathrm { { n g / m L } }$ ) are prepared on-board the Dimension $\textsuperscript { \textregistered }$ Vista analyzer.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Dimension CSAE Cyclosporine Extended Range Calibrator   
+2. Predicate 510(k) number(s): k061503
+
+3. Comparison with predicate:
+
+The Dimension Vista CSA Extended Range Calibrator has the same analytes, form, matrix, stability and traceability as the predicate device. The predicate device is used for calibration of the Dimension clinical chemistry system and the Syva Emit 2000 Cyclosporine Specific Assay whereas the new device is used for the calibration of the Dimension Vista system. Another difference is that the new device has two levels (200 and $2 0 0 0 ~ \mathrm { { n g / m L } ) }$ , with the intermediate levels (400, 800 and $1 4 0 0 ~ \mathrm { n g / m L }$ ) prepared onboard the Dimension Vista analyzer, whereas the predicate has five levels (200, 400, 800, 1400 and $2 0 0 0 \mathrm { n g / m L }$ ).
+
+K. Standard/Guidance Document Referenced (if applicable): None referenced.
+
+L. Test Principle: Not Applicable
+
+M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: a. Precision/Reproducibility: Not Applicable
+
+b. Linearity/assay reportable range: Not Applicable
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Traceability:
+
+Stability:
+
+Stability testing protocols and acceptance criteria were described and found to be acceptable. The product stored at $- 2 0 ^ { \circ } \mathrm { C }$ is stable for 12 months. An unopened but thawed $( 2 - 8 ^ { \circ } \mathrm { C } )$ product is stable for 14 days. A punctured vial onboard the Dimension Vista system is stable for 14 days, as is an open (non-punctured) vial refrigerated at $2 - 8 ~ ^ { \circ } C$ . The intermediate calibrators that are prepared onboard the Dimension Vista system are prepared fresh each time they are needed, and then disposed of immediately afterwards.
+
+Value Assignment:
+
+Values are assigned to commercial stocks by using a Dimension or Dimension Vista instrument calibrated with master pools. The master pools are created by gravimetric addition of Cyclosporine USP Reference Material into drug free whole blood hemolysate and are assigned values using Dimension instruments calibrated with anchor pools. The anchor pools are prepared through the same method but are assigned values using LC/MS/MS.
+
+d. Detection limit: Not Applicable e. Analytical specificity: Not Applicable
+
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not Applicable
+
+b. Matrix comparison: Not Applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: Not Applicable
+
+N. Proposed Labeling: The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

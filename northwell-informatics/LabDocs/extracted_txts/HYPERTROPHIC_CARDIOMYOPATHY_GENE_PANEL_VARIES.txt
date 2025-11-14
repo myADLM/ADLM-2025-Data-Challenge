@@ -1,0 +1,91 @@
+Standard Operating Procedure Analytical Phase: Hypertrophic
+Cardiomyopathy Gene Panel Analysis
+1. PURPOSE
+To accurately detect pathogenic variants associated with
+Hypertrophic Cardiomyopathy (HCM) through the analysis of a gene
+panel. This SOP outlines the steps necessary for the extraction,
+amplification, sequencing, and interpretation of genetic material to
+identify relevant mutations.
+Responsibility:
+Designated clinical laboratory technologists will perform all steps in
+the procedure, document results, and report findings. It is the
+responsibility of all staff to identify any incidental findings that may
+affect the analysis and reporting and to bring them to the attention of
+a supervisor. Staff and supervisors are responsible for ensuring all
+steps are performed accurately, including the execution of any
+corrective actions if required.
+1. DEFINITION
+Hypertrophic Cardiomyopathy (HCM) is a genetic condition
+characterized by abnormal thickening of the heart muscle, which can
+lead to complications such as arrhythmia and congestive heart
+failure. The gene panel includes analysis of genes such as MYH7,
+MYBPC3, TNNT2, TNNI3, and others known to be related to HCM.
+1. PROCEDURE
+A. DNA Extraction
+Collect specimen (assumed already collected, received, and
+accessioned). Extract genomic DNA from the specimen using an
+appropriate extraction kit following the manufacturer's instructions.
+Quantify and assess the quality of the extracted DNA using
+spectrophotometric analysis (e.g., Nanodrop) and gel
+electrophoresis. Store extracted DNA at -20°C until further
+processing.
+B. Target Amplification
+Select the gene panel for HCM including specific exons and regions
+of interest. Perform PCR amplification of the target regions using
+gene-specific primers and a high-fidelity polymerase. Use thermal
+cycling conditions optimized for the primer set. Confirm the quality
+and size of amplifications through agarose gel electrophoresis.
+C. Library Preparation for Sequencing
+Quantify PCR products using fluorometric methods (e.g., Qubit).
+Perform the necessary steps to prepare the sequencing library
+according to chosen Next-Generation Sequencing (NGS) platform
+instructions (e.g., Illumina). Ensure proper adapter ligation, clean-up,
+and quantification steps. Pool libraries accordingly if multiplexing.
+D. Next-Generation Sequencing
+Load the prepared libraries into the sequencer following the
+manufacturer's instructions. Run the sequencing protocol optimized
+for the HCM gene panel. Monitor the sequencing run for quality
+metrics and take necessary action if deviations occur.
+E. Data Analysis and Interpretation
+Use bioinformatics tools to align sequence data to a reference
+genome and identify variants. Apply variant calling algorithms to
+detect single nucleotide variants (SNVs), insertions, deletions, and
+copy number variations relevant to HCM. Filter variants based on
+quality metrics and clinical significance. Review detected variants
+against databases (e.g., ClinVar) for pathogenicity known
+associations with HCM.
+F. Results Validation and Quality Control
+Each detected variant will be confirmed through Sanger sequencing
+for validation. Compare the results against previously published data
+and internal controls. Quality control checks must include running
+controls during each experimental batch to ensure reliability and
+repeatability. Document all findings in laboratory information
+management systems (LIMS).
+G. Reporting Results
+Generate a comprehensive report detailing identified variants, their
+clinical significance, and recommendations. Review and verify the
+report by a senior clinical scientist or geneticist. Transmit results to
+the ordering physician through secure electronic medical records
+(EMR).
+H. Corrective Actions
+If discrepancies or errors are noted during any phase of the
+procedure: Review and re-run the affected steps if necessary.
+Document all actions taken including the root cause analysis and
+corrective measures. Inform the supervisor and relevant stakeholder
+about the error and corrective actions.
+1. Reference Intervals:
+The interpretation of variant pathogenicity will be based on
+established databases including ClinVar, dbSNP, and literature
+review.
+1. Method Limitations:
+The NGS panel may not detect all mutations associated with HCM.
+Large structural variants, low coverage regions, and variants in non-
+targeted areas are potential limitations. Biological interpretation
+should be corroborated by clinical information.
+1. References:
+Manufacturer protocols and user guides for DNA extraction kits, PCR
+reagents, sequencing platforms, and bioinformatics tools. Literature
+on HCM gene panel analysis and variant interpretation guidelines.
+This protocol aims to ensure accurate detection and reporting of
+pathogenic variants in the HCM gene panel to support clinical
+management of the condition.

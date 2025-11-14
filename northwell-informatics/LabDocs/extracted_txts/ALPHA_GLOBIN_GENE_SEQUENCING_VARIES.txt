@@ -1,0 +1,93 @@
+Standard Operating Procedure for the Analysis of Alpha Globin
+Gene Sequencing
+1. PURPOSE:
+This procedure describes the process to analyze and generate
+results for Alpha Globin Gene Sequencing using the laboratory’s
+designated sequencing platform. It ensures that sequences are
+accurately processed, analyzed, and interpreted to assist in the
+diagnosis of conditions related to alpha globin gene mutations.
+1. SCOPE:
+This SOP applies to the designated laboratory personnel responsible
+for handling, processing, and analyzing the sequencing data for
+Alpha Globin gene sequencing.
+1. RESPONSIBILITY:
+It is the responsibility of the trained laboratory personnel to perform
+the procedures as outlined, ensure all data is handled accurately, and
+perform quality control checks. Supervisors are responsible for
+reviewing and validating final results.
+1. DEFINITIONS:
+Alpha Globin Gene: Genes coding for the alpha chain of hemoglobin.
+Sequencing Platform: The laboratory instrument and associated
+software used for next-generation sequencing (NGS).
+1. PROCEDURE:
+5.1. Specimen Requirements:
+• Specimen type: EDTA whole blood (3-5 mL) or DNA extracted
+from blood.
+• DNA concentration: 20-50 ng/μL with 260/280 ratio of 1.7-2.0.
+• DNA quantity: Minimum 500 ng total yield.
+5.2. Pre-Analysis Setup:
+• Verify specimen meets requirements and document any
+deviations.
+• Label all samples appropriately with unique identifiers.
+5.3. Library Preparation:
+• Follow established protocol for library preparation specific to the
+sequencer.
+• Include necessary controls (positive and negative) during library
+prep.
+• Quantify libraries and normalize concentrations to the
+recommended input for the sequencer.
+5.4. Sequencing Run:
+• Load prepared libraries onto the sequencer according to
+manufacturer’s instructions.
+• Set up sequencing run parameters specific to the Alpha Globin
+gene target regions.
+• Monitor run progress, handle any alerts or errors following
+troubleshooting guidelines.
+5.5. Data Analysis:
+• Transfer sequencing data from the sequencer’s output to the
+analysis pipeline.
+• Utilize bioinformatics tools to align sequences to the reference
+genome.
+• Implement variant calling algorithms to identify single nucleotide
+polymorphisms (SNPs), insertions, and deletions.
+5.6. Data Interpretation:
+• Review variant calls in the context of known alpha globin
+mutations.
+• Annotate variants using clinical databases and literature.
+• Use established criteria to classify variants as pathogenic, likely
+pathogenic, of uncertain significance, likely benign, or benign.
+5.7. Quality Control:
+• Perform quality control checks at each stage: raw data quality
+metrics, alignment quality, variant calling consistency.
+• Reanalyze any samples failing QC metrics.
+5.8. Result Reporting:
+• Document results in the laboratory information system (LIS).
+• Generate a comprehensive report correlating clinical significance
+of variants.
+• Reports must be reviewed and validated by a supervisor or
+designated sign-off personnel.
+5.9. Documentation and Record-keeping:
+• Keep detailed records of all processes, including library
+preparation, sequencing run parameters, QC checks, and final
+reports.
+• Archive sequencing data and analysis reports securely according
+to laboratory policies.
+1. REFERENCES:
+• Laboratory Sequencing Platform User Manual (e.g., Illumina, Ion
+Torrent).
+• Variant Annotation Software Documentation.
+• Clinical guidelines and literature on alpha globin mutations.
+1. ATTACHMENTS:
+• Sequencing Platform Setup Guide.
+• Analysis Pipeline Workflow Chart.
+• Standard Report Template.
+1. REVIEW AND REVISION:
+This protocol should be reviewed annually or whenever significant
+changes to techniques, equipment, or standards occur. Revisions
+must be documented, and all personnel must be trained on updated
+procedures.
+Approval Signature: Date:
+Reviewed by: Date:
+This Standard Operating Procedure ensures comprehensive analysis
+and accurate reporting of Alpha Globin gene sequencing data while
+maintaining quality and compliance with laboratory standards.

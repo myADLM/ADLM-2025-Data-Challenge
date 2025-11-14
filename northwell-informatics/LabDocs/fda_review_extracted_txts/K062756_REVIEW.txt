@@ -1,0 +1,589 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k062756
+B. Purpose for Submission:
+New device.
+C. Manufacturer and Instrument Name:
+BioImagene, Inc.’s Pathiam IHC Module software for Her2/neu
+D. Type of Test or Tests Performed:
+Computer-assisted image analyzer for immunohistochemistry
+(immunocytochemistry) slides. The Her2/neu test is semi-quantitative.
+E. System Descriptions:
+1. Device Description:
+PATHIAM is a standalone software program employing image analysis in an
+assessment of shape, size and density of a digital image of a specimen. It will
+provide semi-quantitative assessment of Her-2/neu staining intensity and
+distribution in user-selected fields, and display a semi-quantitative score, which
+can be reviewed by the pathologist as he/she views the digital image of the
+selected field.
+PATHIAM software is a standalone software application that will work on a
+system with the following accessories (required but not provided) with the
+following features:
+Computer
+• Processor: 2.4 GHz, Pentium IV equivalent
+• Memory: 512 MB RAM
+• Operating System: Windows 2000 or later
+• Hard Drive: minimum 100MB for software installation, 20GB for image
+storage
+• LAN connectivity, minimum 100 MBPS (recommended), support for USB
+interface, support for HTTP, TCP/IP protocols (using the Operating system)
+• High Speed Graphic Accelerator Card (1024 x 768)
+• 17” High resolution display monitor
+• 24 bit color depth
+• Font Setting: Small font (DPI setting: 96 DPI)
+Digitizing Equipment: Camera
+• Resolution: at least 2048 x 1536 pixels
+• Frame rate: 20 fps@1200 x 768 resolution (6 fps @ 2048 x 1536 resolution)
+• Sampling Frequency of 6.26 square/µm
+• Compression format: JPEG 2000, BMP, TIFF. JPEG
+• Color 24-bit (R, G, B)
+• Connection to computer
+1
+
+--- Page 2 ---
+Digitizing Equipment: Digital Side Scanner
+• Input Format: 25X75mm microscope slides
+• Resolution: 54,000 pixel/inch with 20X objective
+• Method: Line-scanning
+• File Format: TIFF/JPEG2000; compliant with TIFF 6.0 standard.
+• Color 24-bit (R, G, B)
+• Connectivity: 100/1000 MBPS Ethernet
+• Compression format: JPEG 2000, BMP, TIFF. JPEG
+The software allows both archiving of the digital image, and semi quantitative
+analysis of extent and intensity of stained tissue, providing the pathologist with an
+aid to interpretation of level of expression of Her2/neu in breast cancer tissue.
+The pathologist is presented with a digital image of the tissue section and a
+suggested staining score (0 to 3). The pathologist then makes an assessment of
+the digital image and reports his/her score.
+PATHIAM employs several Quality Assurance algorithms to assure that only
+analyzable images are processed by the software.
+2. Principles of Operation:
+The first step in the process requires the user to acquire an image using a digital
+scanner or camera. From this image, the user must use their judgment and
+training as a pathologist to select the field(s) that contains the representative
+tumor cells. This process mimics the current practice of pathologists examining
+tissue under a microscope, finding the areas that contain diagnostically useful
+information and ignoring areas that are not useful. Once the field(s) is selected,
+the user may use the drawing tools to select sections within a field that are most
+representative of the tumor.
+Within the user selected sections, there are tumor cells and also likely artifacts
+and stromal cells. When the user launches the analysis function, the software
+automatically detects and differentiates between tumor cells, stromal cells and
+artifacts using morphological features. After eliminating stromal cells and
+artifacts, the software automatically determines the total number of positively
+stained and unstained tumor cells as well as the median intensity, extent and
+thickness of membrane staining. Therefore, the section(s) is user-selected. Then
+the software automatically identifies certain features in that section. The user
+does not need to manually dissect away stromal cells and artifacts in the field.
+This device is not yet well established, but neither is it new or unproven.
+3. Modes of Operation:
+Semi-automated computer-assisted interpretation.
+4. Specimen Identification:
+A JPEG, BMP or TIFF image is captured from an individual slide by a
+pathologist using a digitizing scanner or digital camera and placed in an identified
+computer file. This file is acquired by the PATHIAM software. Each patient’s
+file is identified using a “surgical pathology number” (SPN) assigned to each
+2
+
+--- Page 3 ---
+patient.
+5. Specimen Sampling and Handling:
+Formalin-fixed paraffin embedded slides of breast tissues are handled manually.
+6. Calibration:
+No calibration is employed.
+7. Quality Control:
+The performance of the system depends on the quality control of the staining
+using the recommended immunohistochemistry (immunocytochemistry) kit
+associated with the PATHIAM. The PATIAM software also assesses the quality
+of the image to make sure it passes minimum standards before it is analyzed.
+The image analysis algorithms consider the following Image Quality Aspects and
+the image will be rejected if there is:
+1. Small tissue area: Where the area % < 20
+2. Poor overall contrast:
+a. Gray standard deviation< 10, OR
+3. Counter-stained poor contrast:
+a. Counter-stained standard deviation< 5
+b. If stained pixel % < 15 AND counter-stained standard deviation ≤ 11
+4. Over stained: Stained pixel % ≥ 98.5
+5. Mask on Image: Stained pixel % = 100 or a tint throughout the image due
+to color filter settings of the digital camera.
+6. High texture: If the tissue was too thick, it will result in an image of poorer
+quality with muddy background and more artifacts due to lack of light
+passing through the tissue.
+a. If stained pixel % < 2 AND Red Mean is < 160 AND the value of
+Blue - Red mean is ≥ 20
+8. Software:
+FDA has reviewed the applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR §864.1860 Immunohistochemistry reagents and kits
+2. Classification:
+Class II
+3 Product code:
+NOT (microscope, automated, image analysis, operator intervention)
+4. Panel:
+Pathology 88
+G. Intended Use:
+1. Indication(s) for Use:
+For laboratory use as an accessory to the Dako HercepTest® to aid a pathologist in
+semi-quantitative measurement of HER2/neu [c-erb-2] in Formalin-fixed,
+paraffin-embedded breast cancer tissue.
+3
+
+--- Page 4 ---
+When used with the Dako HercepTest® it is indicated as an aid in the assessment
+of breast cancer patients for whom Herceptin® (Trastuzumab) treatment is being
+considered.
+2. Special Conditions for Use Statement(s):
+To be used only with Dako HercepTest®
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Software HER2/neu application of ChromaVision Medical Systems, Inc.
+Automated Cellular Imaging System (ACIS™) for Her2/neu, k032113.
+2. Comparison with Predicate Device:
+Attribute ACIS HER2/neu software PATHIAM
+component
+Intended use The imaging software is Same
+intended to detect and classify
+cells of clinical interest by
+analyzing digitized images of
+microscope slides based on
+object identification of cellular
+objects of particular intensity,
+shape, size and color. The
+software can be used with a
+computer and image digitizer
+with features specified in the
+labeling.
+Indications for use As an accessory to an assay As an accessory to the Dako
+which is indicated as an aid in HercepTest® to aid a
+the assessment of breast cancer pathologist in semi-quantitative
+patients for whom Herceptin measurement of HER2/neu (c-
+treatment is considered. erbB-2) in Formalin-fixed,
+paraffin-embedded breast cancer
+tissue.
+When used with the Dako
+HercepTest it is indicated as an
+aid in the assessment of breast
+cancer patients for whom
+Herceptin® (Trastuzumab)
+treatment is being considered.
+Specimen Type Formalin-fixed, paraffin- Same
+embedded specimens stained
+by immunohistochemistry
+reagent for HER2/neu
+4
+
+[Table 1 on page 4]
+Attribute	ACIS HER2/neu software
+component	PATHIAM
+Intended use	The imaging software is
+intended to detect and classify
+cells of clinical interest by
+analyzing digitized images of
+microscope slides based on
+object identification of cellular
+objects of particular intensity,
+shape, size and color. The
+software can be used with a
+computer and image digitizer
+with features specified in the
+labeling.	Same
+Indications for use	As an accessory to an assay
+which is indicated as an aid in
+the assessment of breast cancer
+patients for whom Herceptin
+treatment is considered.	As an accessory to the Dako
+HercepTest® to aid a
+pathologist in semi-quantitative
+measurement of HER2/neu (c-
+erbB-2) in Formalin-fixed,
+paraffin-embedded breast cancer
+tissue.
+When used with the Dako
+HercepTest it is indicated as an
+aid in the assessment of breast
+cancer patients for whom
+Herceptin® (Trastuzumab)
+treatment is being considered.
+Specimen Type	Formalin-fixed, paraffin-
+embedded specimens stained
+by immunohistochemistry
+reagent for HER2/neu	Same
+
+--- Page 5 ---
+Attribute ACIS HER2/neu software PATHIAM
+component
+Image Analysis Histologic observation by a Histologic observation by a
+System pathologist through a pathologist through a specified
+controlled microscope/digital microscope/digital camera
+camera combination combination or slide scanner
+Method of Cell Colorimetric pattern Object identification of a
+Detection recognition by microscopic digitized field of view of a
+examination of prepared cells pathology slide, using size,
+by size, shape, hue and shape, color and intensity as
+intensity as observed by a observed by a software, and by
+computer assisted microscope visual observation of the
+and by visual observation by a digitized image by a health care
+health care professional. professional
+Hardware Dedicated computer Are required but not provided:
+components microscope, color monitor, Computer, either microscope
+keyboard, automatic storage of with digitizing camera or slide
+acquired images scanner, keyboard, mouse, hi-
+resolution color monitor, and
+hard drive for storage
+Assay used DAKO HerceptTest Same
+I. Special Control/Guidance Document Referenced (if applicable):
+None
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy (Comparison to Manual Method):
+(NOTE: the DAKO HercepTest™ kit was used to stain the tissue slides for all the
+performance studies.)
+Agreement with Manual Scoring
+Agreement was evaluated between manual HER2/neu scores and raw PATHIAM scores,
+and manual HER2/neu scores and PATHIAM HER2/neu score after they had been
+reviewed by three pathologists at three different laboratories employing the following
+different image acquisition setups to produce images of the same set of slides. The
+equipments used at the different laboratories were:
+• Site #1: Light Microscope: Olympus BH2, Lens: Olympus S Plan 20X PL
+microscope objective. Magnification = 20X. Numeric Aperture: 0.46. Tube Length:
+160. Cover slip = 0.17. Light source: Halogen lamp. Camera: PAXcam 3, Model
+number Px3 – CM. Serial Number = 4110130
+• Site #2: ScanScope T3 (Aperio Technologies Inc), digital slide scanner
+• Site #3: ScanScope T2 (Aperio Technologies Inc), digital slide scanner
+176 specimens of breast cancer were stained for HER2/neu using the DAKO HercepTest,
+and were used for the study. The images were first scored by PATHIAM. One week
+later they were read manually by the same pathologist. The results are presented in 4X4
+tabulations for HER2/neu scores of 0, 1+, 2+, and 3+.
+5
+
+[Table 1 on page 5]
+Attribute	ACIS HER2/neu software
+component	PATHIAM
+Image Analysis
+System	Histologic observation by a
+pathologist through a
+controlled microscope/digital
+camera combination	Histologic observation by a
+pathologist through a specified
+microscope/digital camera
+combination or slide scanner
+Method of Cell
+Detection	Colorimetric pattern
+recognition by microscopic
+examination of prepared cells
+by size, shape, hue and
+intensity as observed by a
+computer assisted microscope
+and by visual observation by a
+health care professional.	Object identification of a
+digitized field of view of a
+pathology slide, using size,
+shape, color and intensity as
+observed by a software, and by
+visual observation of the
+digitized image by a health care
+professional
+Hardware
+components	Dedicated computer
+microscope, color monitor,
+keyboard, automatic storage of
+acquired images	Are required but not provided:
+Computer, either microscope
+with digitizing camera or slide
+scanner, keyboard, mouse, hi-
+resolution color monitor, and
+hard drive for storage
+Assay used	DAKO HerceptTest	Same
+
+--- Page 6 ---
+Results
+Comparison between Manual (M) and PATHIAM (P) Raw Scores
+Site #1
+M vs. P P0 P1 P2 P3
+M0 13 16 0 0
+M1 0 44 7 0
+M2 0 2 45 6
+M3 0 0 3 40
+Percent Agreement = (142/176) x 100 = 80.68%
+Adjusted Wald 95% Confidence Interval = 74.18% - 85.87%
+Exact 95% Confidence Interval = 74.07% - 86.23%
+Site #2
+M vs. P P0 P1 P2 P3
+M0 13 12 0 0
+M1 0 47 8 0
+M2 0 3 44 4
+M3 0 0 3 42
+Percent Agreement = (146/176) x 100 = 82.95%
+Adjusted Wald 95% Confidence Interval = 76.67% - 87.83%
+Exact 95% Confidence Interval = 76.57% – 88.19%
+Site #3
+M vs. P P0 P1 P2 P3
+M0 8 6 0 0
+M1 3 52 17 1
+M2 0 6 37 6
+M3 0 0 0 38
+Percent Agreement = (135/174) x 100 = 77.58%
+Adjusted Wald 95% Confidence Interval = 70.8%% - 83.18%
+Exact 95 % Confidence Interval = 70.66% – 83.55%
+Comparison between Manual (M) and PATHIAM Assisted Pathologist’s (PP) Final
+Score
+Site #1
+M vs. PP PP0 PP1 PP2 PP3
+M0 15 14 0 0
+M1 0 47 4 0
+M2 0 10 40 3
+M3 0 0 2 41
+Percent Agreement = (143/176) x 100 = 81.25%
+Adjusted Wald 95% Confidence Interval = 74.8% - 86.36%
+Exact 95 % Confidence Interval = 74.69% – 86.73%
+6
+
+[Table 1 on page 6]
+M vs. P	P0	P1	P2	P3
+M0	13	16	0	0
+M1	0	44	7	0
+M2	0	2	45	6
+M3	0	0	3	40
+
+[Table 2 on page 6]
+M vs. P	P0	P1	P2	P3
+M0	13	12	0	0
+M1	0	47	8	0
+M2	0	3	44	4
+M3	0	0	3	42
+
+[Table 3 on page 6]
+M vs. P	P0	P1	P2	P3
+M0	8	6	0	0
+M1	3	52	17	1
+M2	0	6	37	6
+M3	0	0	0	38
+
+[Table 4 on page 6]
+M vs. PP	PP0	PP1	PP2	PP3
+M0	15	14	0	0
+M1	0	47	4	0
+M2	0	10	40	3
+M3	0	0	2	41
+
+--- Page 7 ---
+Site #2
+M vs. PP PP0 PP1 PP2 PP3
+M0 15 10 0 0
+M1 0 51 4 0
+M2 0 7 39 5
+M3 0 0 2 43
+Percent Agreement = (148/176) x 100 = 84.09%
+Adjusted Wald 95% Confidence Interval = 77.92% - 88.81%
+Exact 95% Confidence Interval = 77.83% - 89.16%
+Site #3
+M vs. PP PP0 PP1 PP2 PP3
+M0 12 4 0 0
+M1 7 58 8 0
+M2 0 8 37 4
+M3 0 0 0 38
+Percent Agreement = (145/176) x 100 = 82.38%
+Adjusted Wald 95% Confidence Interval = 76.04% - 87.35%
+Exact 95 % Confidence Interval = 75.94% – 87.71%
+Comparison between Pathologist Agreement (Manual to Manual) for Comparison
+Purposes
+Site #1 vs. Site #2
+1 vs. 2 M0 M1 M2 M3
+M0 25 4 0 0
+M1 0 51 0 0
+M2 0 0 51 2
+M3 0 0 0 43
+Percent Agreement = (170/176) x 100 = 96.59%
+Adjusted Wald 95% Confidence Interval = 92.6% - 98.59%
+Exact 95% Confidence Interval = 92.73% - 98.74%
+Site #1 vs. Site #3
+1 vs. 3 M0 M1 M2 M3
+M0 14 15 0 0
+M1 2 44 5 0
+M2 0 14 38 1
+M3 0 0 6 37
+Percent Agreement = (133/176) x 100 = 75.56%
+Adjusted Wald 95% Confidence Interval = 68.70% - 81.35%
+Exact 95% Confidence Interval = 68.53% – 81.72%
+7
+
+[Table 1 on page 7]
+M vs. PP	PP0	PP1	PP2	PP3
+M0	15	10	0	0
+M1	0	51	4	0
+M2	0	7	39	5
+M3	0	0	2	43
+
+[Table 2 on page 7]
+M vs. PP	PP0	PP1	PP2	PP3
+M0	12	4	0	0
+M1	7	58	8	0
+M2	0	8	37	4
+M3	0	0	0	38
+
+[Table 3 on page 7]
+1 vs. 2	M0	M1	M2	M3
+M0	25	4	0	0
+M1	0	51	0	0
+M2	0	0	51	2
+M3	0	0	0	43
+
+[Table 4 on page 7]
+1 vs. 3	M0	M1	M2	M3
+M0	14	15	0	0
+M1	2	44	5	0
+M2	0	14	38	1
+M3	0	0	6	37
+
+--- Page 8 ---
+Site #2 vs. Site #3
+2 vs. 3 M0 M1 M2 M3
+M0 14 11 0 0
+M1 2 48 5 0
+M2 0 14 37 0
+M3 0 0 7 38
+Percent Agreement = (137/176) x 100 = 77.84%
+Adjusted Wald 95% Confidence Interval = 71.12% - 83.37%
+Exact 95% Confidence Interval = 70.98% - 83.74%
+Conclusion: It can be seen that the agreement of the manual scores compared to the
+PATHIAM raw score is more consistent than inter-pathologist comparison.
+The consistency is improved even more when the PATHIAM score assists
+the pathologist in their interpretation.
+b. Precision/Reproducibility:
+PATHIAM Reproducibility between Three Different Set-ups using
+PATHIAM Software
+Site #1 vs. Site #2
+1 vs. 2 P0 P1 P2 P3
+P0 12 1 0 0
+P1 1 60 1 0
+P2 0 1 52 2
+P3 0 0 2 44
+Percent Agreement = (168/176) x 100 = 95.45%
+Adjusted Wald 95% Confidence Interval = 91.15% - 97.82%
+Exact 95% Confidence Interval = 91.24% - 98.02%
+Site #1 vs. Site #3
+1 vs. 3 P0 P1 P2 P3
+P0 10 1 0 0
+P1 1 60 1 0
+P2 0 3 50 2
+P3 0 0 3 43
+Percent Agreement = (163/174) x 100 = 93.67%
+Adjusted Wald 95% Confidence Interval = 88.92% - 96.55%
+Exact 95% Confidence Interval = 88.97% - 96.80%
+Site #2 vs. Site #3
+2 vs. 3 P0 P1 P2 P3
+P0 11 0 0 0
+P1 0 60 2 0
+P2 0 4 49 2
+P3 0 0 3 43
+Percent Agreement = 163/174 X 100 = 93.67%
+Adjusted Wald 95% Confidence Interval = 88.92% - 96.55%
+8
+
+[Table 1 on page 8]
+2 vs. 3	M0	M1	M2	M3
+M0	14	11	0	0
+M1	2	48	5	0
+M2	0	14	37	0
+M3	0	0	7	38
+
+[Table 2 on page 8]
+1 vs. 2	P0	P1	P2	P3
+P0	12	1	0	0
+P1	1	60	1	0
+P2	0	1	52	2
+P3	0	0	2	44
+
+[Table 3 on page 8]
+1 vs. 3	P0	P1	P2	P3
+P0	10	1	0	0
+P1	1	60	1	0
+P2	0	3	50	2
+P3	0	0	3	43
+
+[Table 4 on page 8]
+2 vs. 3	P0	P1	P2	P3
+P0	11	0	0	0
+P1	0	60	2	0
+P2	0	4	49	2
+P3	0	0	3	43
+
+--- Page 9 ---
+Exact 95% Confidence Interval = 88.97% - 96.80%
+As can be seen, the comparison of the PATHIAM raw scores across the three different
+set-ups in three different laboratories is very good. Differences may be due to the
+selection, by the pathologists, of different field of view (FOV) for analysis.
+Reproducibility of PATHIAM Assisted Scores
+Site #1 vs Site #2
+1 vs. 2 PP0 PP1 PP2 PP3
+PP0 15 0 0 0
+PP1 0 68 3 0
+PP2 0 0 42 4
+PP3 0 0 0 44
+Percent Agreement = (169/176) x 100 = 96.02%
+Adjusted Wald 95% Confidence Interval = 91.87% - 98.21%
+Exact 95% Confidence Interval = 91.98% - 98.39%
+Site #1 vs. Site #3
+1 vs. 3 PP0 PP1 PP2 PP3
+PP0 14 1 0 0
+PP1 5 58 8 0
+PP2 0 11 32 3
+PP3 0 0 5 39
+Percent Agreement = (143/176) x 100 = 81.25%
+Adjusted Wald 95% Confidence Interval = 74.80% - 86.36%
+Exact 95% Confidence Interval = 74.69% - 86.73%
+Site #2 vs. Site #3
+2 vs. 3 PP0 PP1 PP2 PP3
+PP0 14 1 0 0
+PP1 5 57 6 0
+PP2 0 12 31 2
+PP3 0 0 8 40
+Percent Agreement = (142/176) x 100 = 80.68%
+Adjusted Wald 95% Confidence Interval = 74.18% - 85.87%
+Exact 95% Confidence Interval = 74.07% - 86.23%
+c. Linearity:
+Not applicable because this is not a quantitative test
+d. Carryover:
+Not applicable because the images of microscopic slides are examined one-at-
+a-time.
+e. Interfering Substances:
+Not applicable to the software image analysis.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+None.
+9
+
+[Table 1 on page 9]
+1 vs. 2	PP0	PP1	PP2	PP3
+PP0	15	0	0	0
+PP1	0	68	3	0
+PP2	0	0	42	4
+PP3	0	0	0	44
+
+[Table 2 on page 9]
+1 vs. 3	PP0	PP1	PP2	PP3
+PP0	14	1	0	0
+PP1	5	58	8	0
+PP2	0	11	32	3
+PP3	0	0	5	39
+
+[Table 3 on page 9]
+2 vs. 3	PP0	PP1	PP2	PP3
+PP0	14	1	0	0
+PP1	5	57	6	0
+PP2	0	12	31	2
+PP3	0	0	8	40
+
+--- Page 10 ---
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+10

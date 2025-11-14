@@ -1,0 +1,568 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+A. 510(k) Number:
+K182405
+B. Purpose for Submission:
+New Device
+C. Measurand:
+Glucose in interstitial fluid
+D. Type of Test:
+Quantitiative, amperometric assay (Glucose Oxidase)
+E. Applicant:
+Dexcom, Inc.
+F. Proprietary and Established Names:
+Dexcom Pro Q Continuous Glucose Monitoring System
+G. Regulatory Information:
+1. Regulation section: 21 CFR 862.1355
+2. Classification: Class II
+3. Product code: QDL
+4. Panel: Chemistry (75)
+H. Intended Use:
+1. Intended use(s):
+See indications for use.
+1
+
+--- Page 2 ---
+2. Indication(s) for use:
+The Dexcom Pro Q Continuous Glucose Monitoring System (Dexcom Pro Q System) is a
+factory calibrated continuous glucose recording device indicated for the retrospective
+discovery, analysis and interpretation of glycemic variability in persons age 2 and older
+under the supervision of a healthcare professional. The Dexcom Pro Q System collects
+and processes data for aiding in the management of a disease or condition related to
+glycemic control.
+Interpretation of the data recorded by the Dexcom Pro Q System results should be made
+only by a qualified healthcare professional based on glucose trends and several sequential
+readings over time. The Dexcom Pro Q System aids in detecting glucose excursions
+facilitating care plan adjustments. The Dexcom Pro Q System is also intended to interface
+with digitally connected devices.
+3. Special conditions for use statement(s):
+• This device is for prescription use only. Results should be interpreted only by
+qualified health care professionals.
+• The components of the Dexcom Pro Q System (sensor and transmitter) must be
+removed prior to magnetic resonance imaging (MRI), computed tomography (CT)
+scan, or high frequency electrical (diathermy) treatment. The Dexcom Pro Q System
+has not been tested in those situations.
+• This device is not intended for pregnant women, people on dialysis, or critically ill
+patients.
+• Although standard dosing of acetaminophen (1000 mg per every 6 hours) does not
+appear to cause significant bias, higher supra-therapeutic levels of acetaminophen
+have shown significant positive bias.
+• Sensor placement is important to ensure system performance. Users should choose a
+site:
+o At least 3 inches from insulin pump infusion set or injection site or previous
+CGM insertion site.
+o Away from irritated skin, tattoos, near waistband, bones, or scarring.
+o Unlikely to be bumped, pushed or laid on while sleeping.
+• Store sensors only between 36° F and 86° F. Do not store sensors in the freezer.
+4. Special instrument requirements:
+Not applicable.
+I. Device Description:
+The Dexcom Pro Q Continuous Glucose Monitoring (CGM) System is a glucose recording
+device that measures and logs glucose readings at five-minute intervals for up to ten days.
+The Pro Q System consists of a sensor and a Bluetooth Low Energy (BLE) transmitter. The
+sensor is a small, flexible wire inserted into the subcutaneous tissue where it converts glucose
+into electrical current. The transmitter, which is connected to the sensor and worn on the
+body, samples the electrical current produced by the senor and converts these measurements
+2
+
+--- Page 3 ---
+into glucose readings using an onboard algorithm. The system does not have a way to display
+glucose values in real-time and cannot be authorized to do so. A user must use an authorized
+extraction device after the sensor session has ended to extract and view data collected by the
+Pro Q Transmitter.
+Pro Q CGM SENSOR
+The sensor component is a sterile device that consists of the sensor applicator,
+plastic base (“transmitter holder”), and sensor probe. The applicator is a single use,
+disposable unit that contains an introducer needle holding the sensor probe. The applicator
+deploys the needle and inserts the sensor under the skin. The needle is retracted back into the
+applicator after insertion. The sensor probe continuously measures glucose concentration in
+interstitial fluid and can be worn for up to 10 days.
+The sensor may be worn in the abdomen for adults, and both the abdomen and buttock for
+children ages 2-17 years old. The sensor is identical to the predicate G6 sensor.
+Pro Q CGM TRANSMITTER
+The Pro Q CGM Transmitter is a miniature radio transmitter that incorporates data
+processing functionality. The transmitter contains a Bluetooth radio transceiver to enable
+transmittance of stored data once the sensor session has ended. The transmitter attaches to the
+sensor and is not reusable. The transmitter hardware is unchanged from the predicate G6
+transmitter, with the exception of a firmware (see above). An authorized extraction device
+must be used to extract and view data collected by the Pro Q Transmitter.
+J. Substantial Equivalence Information:
+1. Predicate device name(s): G6 Continuous Glucose Monitoring System
+2. Predicate 510(k) number(s): DEN170088
+3. Comparison with predicate:
+The Dexcom Pro Q System is largely identical to the predicate device with the exception
+of aspects related to data storage and display; the device stores glucose data for the entire
+sensor wear period and data are intended for retrospective analysis by a healthcare
+provider using an authorized extraction device; by contrast, the predicate device includes
+a display that provides users with glucose information in real-time. The Dexcom Pro Q
+System includes only a sensor and transmitter, and patients must see their healthcare
+provider for insertion and removal of the sensor.
+Similarities
+Item Dexcom Pro Q Continuous Dexcom G6 Continuous
+Glucose Monitoring System Glucose Monitoring
+(Candidate) System (Predicate)
+Intended Use Intended to automatically Same
+measure glucose in bodily
+3
+
+[Table 1 on page 3]
+Similarities						
+Item		Dexcom Pro Q Continuous			Dexcom G6 Continuous	
+		Glucose Monitoring System			Glucose Monitoring	
+		(Candidate)			System (Predicate)	
+Intended Use	Intended to automatically
+measure glucose in bodily			Same		
+
+--- Page 4 ---
+Similarities
+Item Dexcom Pro Q Continuous Dexcom G6 Continuous
+Glucose Monitoring System Glucose Monitoring
+(Candidate) System (Predicate)
+fluids continuously or
+frequently for a specified period
+of time. iCGM systems are
+designed to reliably and
+securely transmit glucose
+measurement data to digitally
+connected devices and are
+intended to be used alone or in
+conjunction with these digitally
+connected medical devices for
+the purpose of managing a
+disease or condition related to
+glycemic control.
+Principle of Operation Amperometric measurement of Same
+current proportional to glucose
+concentration in interstitial
+fluid via glucose oxidase
+chemical reaction
+Detection Method Amperometric electrochemical Same
+Sample Type Interstitial fluid Same
+Test Range 40-400 mg/dL Same
+Enzyme Glucose oxidase Same
+Glucose reading update Autonomously every 5 minutes Same
+interval
+Wireless Bluetooth Core Specification Same
+communications v4.0
+protocol
+Anatomical sensor Abdomen (age 2+ years) or Same
+wear locations upper buttocks (age 2-17 years)
+Sensor dimensions 45º insertion angle, 8mm depth, Same
+0.2mm diameter
+Sensor warm up time 2 hours Same
+Sensor life Up to 10 days (automatic Same
+sensor shutoff)
+Operational conditions Ambient Temperature: 50ºF – Same
+107.6ºF
+Humidity: 10%-95% RH
+Altitude: -1300 feet to 13,800
+feet
+Transmitter power Lithium manganese dioxide Same
+supply battery (not
+replaceable or rechargeable)
+Communications range 20 feet Same
+4
+
+[Table 1 on page 4]
+Similarities						
+Item		Dexcom Pro Q Continuous			Dexcom G6 Continuous	
+		Glucose Monitoring System			Glucose Monitoring	
+		(Candidate)			System (Predicate)	
+	fluids continuously or
+frequently for a specified period
+of time. iCGM systems are
+designed to reliably and
+securely transmit glucose
+measurement data to digitally
+connected devices and are
+intended to be used alone or in
+conjunction with these digitally
+connected medical devices for
+the purpose of managing a
+disease or condition related to
+glycemic control.					
+Principle of Operation	Amperometric measurement of
+current proportional to glucose
+concentration in interstitial
+fluid via glucose oxidase
+chemical reaction			Same		
+Detection Method	Amperometric electrochemical			Same		
+Sample Type	Interstitial fluid			Same		
+Test Range	40-400 mg/dL			Same		
+Enzyme	Glucose oxidase			Same		
+Glucose reading update
+interval	Autonomously every 5 minutes			Same		
+Wireless
+communications
+protocol	Bluetooth Core Specification
+v4.0			Same		
+						
+Anatomical sensor
+wear locations	Abdomen (age 2+ years) or
+upper buttocks (age 2-17 years)			Same		
+Sensor dimensions	45º insertion angle, 8mm depth,
+0.2mm diameter			Same		
+Sensor warm up time	2 hours			Same		
+Sensor life	Up to 10 days (automatic
+sensor shutoff)			Same		
+Operational conditions	Ambient Temperature: 50ºF –
+107.6ºF
+Humidity: 10%-95% RH
+Altitude: -1300 feet to 13,800
+feet			Same		
+Transmitter power
+supply	Lithium manganese dioxide
+battery (not
+replaceable or rechargeable)			Same		
+Communications range	20 feet			Same		
+
+--- Page 5 ---
+Differences
+Item Dexcom Pro Q Continuous Dexcom G6 Continuous
+Glucose Monitoring Glucose Monitoring
+System (Candidate) System (Predicate)
+Application Retrospective discovery, Real-time glucose
+analysis and interpretation monitoring
+of glucose values
+System Components Sensor/Applicator and Sensor/Applicator,
+Transmitter Transmitter, Display
+Device (Mobile App and
+Receiver)
+Data Presentation Real-Time Data: no real Real-Time Data: users are
+time data are presented to presented with real-time
+users. glucose values and glucose
+rate of change.
+Historical Glucose Data:
+The glucose data collected Historical Glucose Data:
+throughout the entire wear- Users can view their
+period is presented to the previous three, six, twelve,
+user and healthcare or twenty-four hours of
+professional after the glucose data.
+sensor session has ended.
+Glucose Value Every 5 minutes (glucose Every 5 minutes (glucose
+Transmission Interval values are collected every values are collected and
+30 seconds and stored for sent to the display device)
+later data extraction and
+analysis)
+Features Analysis with a healthcare Real time data and connect
+professional: Extraction via to Dexcom Share app:
+authorized tool
+User Interaction The system includes an The system includes an
+automatic applicator for automatic applicator for
+sensor insertion. sensor insertion.
+The system does not During system start-up and
+include a display device or prior to the start of each
+require any user input to sensor session, the system
+start a session or calibrate requires the user to input
+the system. the sensor code into the
+display device for
+calibration. User may also
+choose to calibrate using
+blood glucose values.
+The user can enter an
+optional calibration at any
+time, even after the sensor
+5
+
+[Table 1 on page 5]
+Differences						
+Item		Dexcom Pro Q Continuous			Dexcom G6 Continuous	
+		Glucose Monitoring			Glucose Monitoring	
+		System (Candidate)			System (Predicate)	
+Application	Retrospective discovery,
+analysis and interpretation
+of glucose values			Real-time glucose
+monitoring		
+System Components	Sensor/Applicator and
+Transmitter			Sensor/Applicator,
+Transmitter, Display
+Device (Mobile App and
+Receiver)		
+Data Presentation	Real-Time Data: no real
+time data are presented to
+users.
+Historical Glucose Data:
+The glucose data collected
+throughout the entire wear-
+period is presented to the
+user and healthcare
+professional after the
+sensor session has ended.			Real-Time Data: users are
+presented with real-time
+glucose values and glucose
+rate of change.
+Historical Glucose Data:
+Users can view their
+previous three, six, twelve,
+or twenty-four hours of
+glucose data.		
+Glucose Value
+Transmission Interval	Every 5 minutes (glucose
+values are collected every
+30 seconds and stored for
+later data extraction and
+analysis)			Every 5 minutes (glucose
+values are collected and
+sent to the display device)		
+Features	Analysis with a healthcare
+professional: Extraction via
+authorized tool			Real time data and connect
+to Dexcom Share app:		
+User Interaction	The system includes an
+automatic applicator for
+sensor insertion.
+The system does not
+include a display device or
+require any user input to
+start a session or calibrate
+the system.			The system includes an
+automatic applicator for
+sensor insertion.
+During system start-up and
+prior to the start of each
+sensor session, the system
+requires the user to input
+the sensor code into the
+display device for
+calibration. User may also
+choose to calibrate using
+blood glucose values.
+The user can enter an
+optional calibration at any
+time, even after the sensor		
+
+--- Page 6 ---
+Differences
+Item Dexcom Pro Q Continuous Dexcom G6 Continuous
+Glucose Monitoring Glucose Monitoring
+System (Candidate) System (Predicate)
+code has been entered.
+Compatibility with Compatible authorized Compatible with iPhone
+intended environments extraction device 5S through iPhone X,
+Samsung Note 5, Note 8,
+Galaxy S6-S9, J3, Google
+Pixel, LG G5-G6
+Compatible with Android
+OS version 7.0 and above,
+and iOS version 10.3.2 and
+above
+Compatible with
+authorized interoperable
+devices, including
+automated insulin delivery
+devices.
+Calibration Factory calibrated (no user Factory calibrated (user
+calibration code necessary), enters calibration code)
+no user calibration possible and optional user
+calibration
+K. Standard/Guidance Document Referenced (if applicable):
+ISO 13485:2003; Medical Devices-Quality management systems-Requirements for
+regulatory purposes
+ISO 14971:2012; Medical devices – Applications of risk management to medical devices
+IEC 62304, Ed. 1.1:2015; Medical Device Software – Software Lifecycle Processes
+(2006+AMD1:2015)
+IEC 62366 Ed. 1.1:2014; Medical Devices – Application of usability engineering to medical
+devices, Edition 1.1 (2014)
+IEC 60601-1:2005; Medical Electrical Equipment – Part 1: Requirements for basic safety and
+essential performance
+ISO 15223-1:2012; Medical devices – Symbols to be used with medical device labels,
+labeling and information to be supplied – Part 1: General requirements
+Guidance for Industry and FDA Staff, Format for Traditional and Abbreviated 510(k)s, dated
+August 2005
+6
+
+[Table 1 on page 6]
+Differences						
+Item		Dexcom Pro Q Continuous			Dexcom G6 Continuous	
+		Glucose Monitoring			Glucose Monitoring	
+		System (Candidate)			System (Predicate)	
+				code has been entered.		
+Compatibility with
+intended environments	Compatible authorized
+extraction device			Compatible with iPhone
+5S through iPhone X,
+Samsung Note 5, Note 8,
+Galaxy S6-S9, J3, Google
+Pixel, LG G5-G6
+Compatible with Android
+OS version 7.0 and above,
+and iOS version 10.3.2 and
+above
+Compatible with
+authorized interoperable
+devices, including
+automated insulin delivery
+devices.		
+Calibration	Factory calibrated (no user
+calibration code necessary),
+no user calibration possible			Factory calibrated (user
+enters calibration code)
+and optional user
+calibration		
+
+--- Page 7 ---
+Guidance for Industry and FDA Staff, Guidance for the Content of Premarket Submissions
+for Software Contained in Medical Devices, dated May 11, 2005
+General Principles of Software Validation; Final Guidance for Industry and FDA Staff, dated
+January 11, 2002
+Guidance for Industry, FDA Reviewers and Compliance on Off-the-Shelf Software Use in
+Medical Devices, dated September 9, 1999
+Guidance for Industry, Cybersecurity for Networked Medical Devices Containing Off-the-
+Shelf Software, dated January 14, 2005
+Content of Premarket Submissions for Management of Cybersecurity in Medical Devices,
+Guidance for Industry and Food and Drug Administration Staff, dated October 2, 2014
+Applying Human Factors and Usability Engineering to Medical Devices –Guidance for
+Industry and FDA Staff, dated February 3, 2016
+Guidance for Industry and FDA Staff Use of Symbols on Labels and in Labeling of In Vitro
+Diagnostic Devices Intended for Professional Use, dated November 30, 2004
+L. Test Principle:
+The Dexcom Pro Q System detects glucose levels from the fluid just beneath the skin
+(interstitial fluid). The sensor probe continuously measures glucose concentration in the
+interstitial fluid via an enzymatic electrochemical reaction using glucose oxidase. The
+enzyme, glucose oxidase, catalyzes the oxidation of glucose and produces hydrogen
+peroxide. The production of hydrogen peroxide generates an electrical current that is
+proportionate to the interstitial glucose concentration. The transmitter converts the signal
+using an algorithm to a glucose value read in mg/dL, which is recorded and stored on the
+transmitter until the data is extracted by a qualified healthcare professional for interpretation
+and use.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+The Pro Q CGM uses the same sensor, transmitter, and algorithm as the predicate
+device, the Dexcom G6 Continuous Glucose Monitoring System. Therefore,
+performance was evaluated under DEN170088. Please see the decision summary for
+the Dexcom G6 Continuous Glucose Monitoring System (DEN170088)
+b. Linearity/assay reportable range:
+The reportable range for the Pro Q CGM is 40 to 400 mg/dL. Data supporting this
+claimed measurement range was reviewed under DEN170088. Please see the
+decision summary for DEN170088.
+7
+
+--- Page 8 ---
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+The Pro Q CGM sensor has a storage shelf-life of 12 months and testing is on-going.
+Shelf life was evaluated at 32⁰-86⁰ F and 10-90% relative humidity.
+The Pro Q Transmitter has sufficient battery life to function for 3 months as intended
+following its maximum storage time of 8 months. Shelf life was evaluated at 32⁰-
+113⁰ F and 10-95% relative humidity.
+d. Detection limit:
+If a glucose measurement is less than 40 mg/dL, the result is displayed by the system
+as ‘Lo’. If a glucose measurement exceeds 400 mg/dL, result is displayed as ‘Hi’.
+Data supporting this claimed measurement range was generated in the clinical study
+described in Section L(3) below. Data supporting this was reviewed under
+DEN170088. Please see the decision summary for DEN170088.
+e. Analytical specificity:
+Data supporting the analytical specificity was reviewed under DEN170088. Please
+see the decision summary for DEN170088.
+f. Assay cut-off:
+Not applicable.
+2. Comparison studies:
+a. Method comparison with predicate device:
+Not applicable.
+b. Matrix comparison:
+Not applicable. Interstitial fluid is the only indicated matrix.
+3. Clinical studies:
+Data supporting clinical studies was reviewed under DEN170088. Please see the
+decision summary for DEN170088.
+4. Expected values:
+Not applicable.
+N. Instrument Name:
+Dexcom Pro Q Continuous Glucose Monitoring System
+8
+
+--- Page 9 ---
+O. System Descriptions:
+1. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ___X____ or No ________
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes ___X___ or No ________
+1. Specimen Identification:
+Not applicable
+2. Specimen Sampling and Handling:
+Not applicable
+5. Calibration:
+Not applicable (factory calibrated).
+6. Quality Control:
+Not applicable.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+Biocompatibility:
+Data supporting biocompatibility was reviewed under DEN170088. Please see the decision
+summary for DEN170088.
+Sterility:
+Data supporting sterility was reviewed under DEN170088. Please see the decision summary
+for DEN170088.
+9
+
+--- Page 10 ---
+Mechanical Engineering:
+The physical dimensions and hardware are identical to the predicate device. Data supporting
+the mechanical engineering was reviewed under DEN170088. Please see the decision
+summary for DEN170088.
+Electromagnetic Compatibility:
+Data supporting electrocompatibility testing was reviewed under DEN170088. Please see the
+decision summary for DEN170088.
+Electrical Safety:
+Data supporting electrical safety was reviewed under DEN170088. Please see the decision
+summary for DEN170088.
+Environmental Testing:
+Data supporting environmental testing was reviewed under DEN170088. Please see the
+decision summary for DEN170088.
+Shelf-Life Stability:
+Data supporting the shelf life stability was reviewed under DEN170088. Please see the
+decision summary for DEN170088.
+Packaging Integrity/Shipping Integrity:
+Packaging and shipping specifications are the same as the predicate. Data supporting the
+package and shipping integrity was reviewed under DEN170088. Please see the decision
+summary for DEN170088.
+Interoperability:
+A plan and approach for interoperability were provided according to the FDA Guidance
+“Design Considerations and Pre-market Submission Recommendations for Interoperable
+Medical Devices - Guidance for Industry and Food and Drug Administration Staff” and
+determined to be adequate to support and clearly specify expectations, requirements, and
+interface specifications to potential interoperable devices. In addition, their plan covered
+their approach to working with connected device companies regarding contractual
+approaches, interfaces for data communication and exchange, and post-market reporting
+procedures and responsibilities (e.g., who is responsible for investigating and reporting
+complaints, malfunctions, and adverse events). The device cannot be authorized for real-
+time data display. In addition, after data extraction, glucose data collected by the Dexcom
+Pro Q System must pass through Dexcom’s cloud-based data infrastructure before being
+made available for display or analysis. Access to the data is controlled by Dexcom, through
+user credentials.
+Cyber Security:
+The following information was provided for the device:
+· Risk Management
+o A model describing the assets, threats, vulnerabilities, and controls related to
+the device system was provided reviewed. Cyber security parameters were
+identified for each asset and included the transmitter, receiver, and smart
+device applications. Traceability was provided and adequate. Risk
+management was acceptable.
+10
+
+--- Page 11 ---
+· Planning for Continuing Support
+o A plan for continuing to keep the device secure was provided and found to be
+complete and adequate.
+· Plan for Malware-Free Shipping
+o A plan to ensure the device is shipped without Malware was provided and
+found to be complete and adequate.
+Contact Resistance:
+Data supporting the contact resistance was reviewed under DEN170088. Please see the
+decision summary for DEN170088.
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+11

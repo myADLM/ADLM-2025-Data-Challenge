@@ -1,0 +1,122 @@
+STANDARD OPERATING PROCEDURE (SOP)
+1. PURPOSE
+The purpose of this SOP is to outline the analytical phase steps for
+generating results for CHROMOSEQ - HEME GENETIC PROFILING
+(Whole Genome Sequencing - WGS) with interpretation, ensuring
+consistent quality and accuracy of results in accordance with CLIA-
+certified laboratory standards.
+2. SCOPE
+This SOP applies to all laboratory staff involved in the analysis and
+interpretation of genetic profiling for hematologic disorders using
+Whole Genome Sequencing (WGS).
+3. RESPONSIBILITIES
+• Laboratory Technologists: Responsible for performing and
+documenting all steps in the WGS process, including sequencing,
+quality control, data analysis, and initial data interpretation.
+• Bioinformaticians: Responsible for data processing, variant
+calling, and advanced bioinformatics analyses.
+• Geneticists/Pathologists: Responsible for the final interpretation
+of results and clinical reporting.
+4. DEFINITIONS
+• CHROMOSEQ: A comprehensive genetic profiling assay that
+utilizes Whole Genome Sequencing for the detection of
+hematologic malignancies.
+• WGS: Whole Genome Sequencing, a method for sequencing all
+the DNA in a genome.
+• Variant Calling: The process of identifying variants from
+sequence data.
+5. PROCEDURE
+A. Pre-Analytical Verification:
+1. Sample Check-in: Ensure that the specimen received matches
+the patient information and requisition. Verify that it is properly
+labelled and has been accessioned according to laboratory
+protocols.
+2. DNA Extraction: If not already completed, extract DNA using a
+validated DNA extraction method. Quantify and assess the
+quality of the DNA using spectrophotometry and fluorometry.
+B. Library Preparation and Sequencing:
+1. Library Preparation:
+◦ Follow the validated protocol for preparing sequencing
+libraries from the extracted DNA.
+◦ Perform quality control checks on the libraries using
+appropriate methods (e.g., Bioanalyzer, Qubit).
+◦ Ensure that library preparation and QC steps are recorded
+and documented.
+2. Sequencing:
+◦ Load the prepared libraries onto the sequencer following the
+manufacturer’s instructions.
+◦ Initiate the sequencing run and ensure the proper run setup,
+including appropriate run parameters.
+◦ Monitor the sequencing run for any technical issues and
+document any deviations from the standard procedure.
+C. Data Analysis:
+1. Data Quality Control:
+◦ Assess the raw sequencing data quality using established
+bioinformatics tools (e.g., FASTQC).
+◦ Ensure that the sequencing data meets the minimum quality
+thresholds (e.g., Phred score ≥ Q30, adequate coverage
+depth).
+2. Alignment and Variant Calling:
+◦ Align the sequencing reads to the human reference genome
+(GRCh38 or the latest version) using a validated alignment
+tool (e.g., BWA, Bowtie2).
+◦ Perform variant calling using established algorithms (e.g.,
+GATK, FreeBayes) to identify single nucleotide variants
+(SNVs), insertions, deletions (indels), copy number
+variations (CNVs), and structural variations (SVs).
+◦ Filter and annotate the variants using appropriate databases
+(e.g., ClinVar, COSMIC, dbSNP).
+3. Primary Data Interpretation:
+◦ Generate preliminary variant interpretation reports focusing
+on clinically relevant variants.
+◦ Incorporate additional analyses as necessary (e.g.,
+karyotyping, translocations).
+D. Variant Interpretation and Reporting:
+1. Clinical Interpretation:
+◦ Review the identified variants for clinical significance
+following established guidelines (e.g., ACMG guidelines).
+◦ Correlate the findings with the patient’s clinical information
+and medical history.
+◦ Generate a comprehensive clinical report that includes the
+interpretation of findings, potential implications for diagnosis,
+prognosis, and recommended follow-up actions.
+2. Report Review and Validation:
+◦ The clinical report must be reviewed and validated by a
+certified geneticist or pathologist.
+◦ Ensure that the final report is accurate, clear, and compliant
+with regulatory standards.
+3. Result Documentation:
+◦ Document all variant findings, interpretations, and clinical
+recommendations in the laboratory information system
+(LIS).
+◦ Ensure the proper transmission of the final report to the
+requesting clinician.
+E. Quality Control and Assurance:
+1. Internal Quality Control:
+◦ Run known control samples periodically to ensure the
+accuracy and precision of the sequencing and analytical
+workflow.
+◦ Document and address any deviations from acceptable QC
+metrics.
+2. Proficiency Testing:
+◦ Participate in external proficiency testing programs and
+document performance results.
+◦ Implement corrective actions for any identified deficiencies.
+6. REFERENCES
+• ACMG Standards and Guidelines for Reporting Genomic Variants.
+• NCBI ClinVar Database.
+• COSMIC (Catalog of Somatic Mutations in Cancer) Database.
+• GATK Best Practices for Variant Discovery in High-Throughput
+Sequencing Data.
+• Whole Genome Sequencing Protocols and Manufacturer’s
+Instructions for Sequencers.
+7. DOCUMENTATION
+• Data Analysis Log: Document details of sequences run,
+alignment, and variant calling protocols, QC metrics, and any
+deviations observed.
+• Clinical Report: Include findings, interpretations, correlation with
+clinical data, and recommendations.
+• Quality Control Log: Document internal and external QC
+measures, proficiency test results, and corrective actions taken.
+This SOP will be reviewed annually and updated as necessary to
+reflect changes in technology, regulations, or laboratory practices.

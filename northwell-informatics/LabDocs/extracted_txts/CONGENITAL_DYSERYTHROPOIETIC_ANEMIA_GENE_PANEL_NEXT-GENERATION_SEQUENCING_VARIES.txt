@@ -1,0 +1,86 @@
+Protocol for Congenital Dyserythropoietic Anemia Gene Panel, Next-
+Generation Sequencing, Varies
+1. PURPOSE The purpose of this protocol is to ensure accurate
+and consistent results in the analysis of congenital
+dyserythropoietic anemia gene panel using next-generation
+sequencing (NGS). This protocol outlines procedures for data
+generation, analysis, and reporting of identified variants.
+Responsibility: It is the responsibility of all designated laboratory
+personnel to follow the procedures described below and to document
+any deviations or observations during the process.
+1. DEFINITIONS Next-Generation Sequencing (NGS): High-
+throughput sequencing methodology used to analyze multiple
+genes simultaneously. Congenital Dyserythropoietic Anemia
+(CDA): A rare group of hereditary anemias characterized by
+abnormal red blood cell production in the bone marrow.
+2. SPECIMEN REQUIREMENTS AND STABILITY Specimen
+Type: Peripheral blood or bone marrow aspirate Preferred
+Collection Tubes: EDTA (lavender top) Specimen Stability: Up
+to 7 days at 2-8°C Unacceptable Specimens: Hemolyzed,
+clotted, or improperly labeled specimens
+3. PROCEDURE A) Specimen Preparation:
+4. Upon receipt of the specimen, verify the integrity and proper
+labeling.
+5. Extract DNA from the specimen using a validated extraction
+protocol.
+6. Quantify the extracted DNA and assess purity using
+spectrophotometric analysis (e.g., Nanodrop) and fluorometric
+quantification (e.g., Qubit).
+B) Library Preparation:
+1. Perform library preparation using a commercially available and
+validated kit for targeted sequencing of CDA-related genes.
+2. Follow the manufacturer's protocol for DNA fragmentation,
+adapter ligation, and library amplification.
+3. Validate library quality using electrophoretic methods (e.g.,
+Bioanalyzer or TapeStation).
+C) Sequencing:
+1. Load prepared libraries onto the NGS platform (e.g., Illumina
+MiSeq, NextSeq).
+2. Run sequencing according to manufacturer’s instructions.
+3. Monitor sequencing run metrics in real-time to ensure optimal
+performance.
+D) Data Analysis:
+1. Transfer sequencing data to appropriate bioinformatics software
+for alignment to the reference genome and variant calling.
+2. Perform initial data quality control checks - assess depth of
+coverage, mapping quality, and read distribution.
+3. Annotate identified variants using appropriate databases (e.g.,
+ClinVar, dbSNP).
+4. Interpret pathogenicity of variants based on ACMG guidelines
+and database information.
+E) Validation and Reporting:
+1. Confirm identified variants by reviewing sequencing data and, if
+necessary, performing orthogonal testing (e.g., Sanger
+sequencing).
+2. Prepare a detailed report summarizing the identified variants,
+clinical significance, and recommendations.
+3. Review the report for accuracy by a qualified geneticist or
+molecular pathologist.
+4. Transmit verified results to the Laboratory Information System
+(LIS) and prepare results notification to ordering clinician.
+5. QUALITY CONTROL A) Internal Control: Include positive and
+negative controls in each sequencing run to ensure assay
+reliability. Monitor sequencing quality metrics including read
+depth, uniformity, and target coverage. B) Proficiency Testing:
+Participate in external proficiency testing programs to ensure
+accuracy and reliability of results. Regularly review proficiency
+testing results and implement corrective actions as needed.
+6. LIMITATIONS The results are dependent on the quality of the
+DNA extracted and the depth of sequencing coverage
+achieved. Certain regions of the genome may be challenging to
+sequence due to high GC content, repeats, or other factors.
+Results may be inconclusive without further validation by
+orthogonal methods or additional clinical correlation.
+7. REFERENCES Refer to the manufacturer’s protocol for NGS
+library preparation. ACMG Guidelines for Variant Interpretation
+Current literature on CDA-related gene mutations and their
+clinical significance.
+8. APPENDICES Include detailed protocols for DNA extraction,
+library preparation, sequencing run setup, and data analysis.
+Documentation templates for maintaining records of quality
+control, specimen handling, and reporting.
+Documentation of staff training and competency evaluations for NGS
+procedures.
+This protocol is intended to ensure the accuracy, reproducibility, and
+reliability of the gene panel results for congenital dyserythropoietic
+anemia using next-generation sequencing.

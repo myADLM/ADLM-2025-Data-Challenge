@@ -1,0 +1,100 @@
+Inherited Emery-Dreifuss Gene Panel SOP
+1. Purpose: The purpose of this procedure is to outline the
+analytical steps required for testing inherited Emery-Dreifuss
+gene panel. This procedure ensures accurate and reliable
+detection of variants associated with Emery-Dreifuss muscular
+dystrophy.
+Responsibility: It is the responsibility of the laboratory personnel to
+follow this procedure precisely and to ensure the quality and integrity
+of the test results.
+1. Definitions: Emery-Dreifuss muscular dystrophy (EDMD) is an
+inherited disorder characterized by muscle weakness,
+contractures, and cardiac involvement. This panel includes, but
+is not limited to, genes such as EMD, LMNA, FHL1, SYNE1,
+and SYNE2.
+2. Specimen Requirements and Stability:
+◦ Specimen Type: Whole blood or extracted genomic DNA.
+◦ Blood Specimens: Collected in EDTA (lavender top) tubes,
+3–5 mL.
+◦ DNA Specimens: Minimum of 10 µg of high-quality DNA with
+an OD260/280 ratio of 1.8–2.0.
+◦ Stability:
+▪ Blood in EDTA can be stored at 4°C for up to 7 days.
+▪ Extracted DNA should be frozen at -20°C and is stable
+for several years.
+3. Equipment, Reagents and Supplies:
+◦ Thermocycler (PCR machine)
+◦ Next-generation sequencing (NGS) system (e.g., Illumina
+MiSeq, Ion Torrent)
+◦ Quantification reagents (e.g., Qubit, Nanodrop)
+◦ Library preparation kits
+◦ Primer sets for target genes
+◦ Reagents for PCR, such as dNTPs, Taq polymerase, buffers
+◦ Bioinformatics software for data analysis (e.g., GATK,
+VarSeq)
+4. Procedure:
+A. DNA Extraction If using whole blood, extract genomic DNA
+using a validated DNA extraction kit.
+◦ Conduct quality and quantity checks using Qubit or
+Nanodrop spectrophotometer.
+B. Library Preparation
+◦ Prepare the library using the gene-specific primer sets
+according to the manufacturer’s protocol.
+◦ Quantify and assess the quality of the libraries using Qubit,
+Nanodrop, and Bioanalyzer or TapeStation.
+C. PCR Amplification
+◦ Perform PCR amplification as prescribed in the library
+preparation protocol.
+◦ Ensure PCR products are of expected size by running on an
+agarose gel.
+D. Next-Generation Sequencing (NGS)
+◦ Pool the libraries in equimolar concentrations.
+◦ Load the pooled libraries onto the NGS platform following
+the manufacturer’s instructions.
+◦ Run the sequencing protocol appropriate for the platform in
+use.
+E. Data Analysis
+◦ Transfer sequencing data to the bioinformatics system.
+◦ Perform quality checks on raw sequence data to filter out
+low-quality reads.
+◦ Map reads to the human reference genome.
+◦ Call variants using validated pipelines.
+◦ Annotate variants and filter for potential pathogenic changes
+in EMD, LMNA, FHL1, SYNE1, SYNE2.
+5. Quality Control:
+◦ Run positive and negative controls alongside patient
+samples.
+◦ Ensure the limit of detection (LOD) meets respective clinical
+guidelines.
+◦ Use well-characterized reference standards to confirm
+assay performance.
+◦ Evaluate run metrics to ensure data quality e.g., average
+depth of coverage, percentage of target region covered at
+the desired depth.
+6. Reporting Results:
+◦ Interpret variants based on ACMG guidelines.
+◦ Confirm all pathogenic or likely pathogenic variants by
+Sanger sequencing.
+◦ Generate clinical reports, including interpretation of results
+based on the latest literature and databases (e.g., ClinVar,
+HGMD).
+◦ Review all findings and QA checks before releasing results
+to the clinician.
+7. Reference Intervals: N/A – Results are qualitative, based on
+the presence or absence of variants of clinical significance.
+8. Method Limitations:
+◦ Sensitivity of the detection may be impaired by low-quality
+DNA.
+◦ Some genomic regions may have low coverage or be
+refractory to amplification.
+◦ Variants in non-targeted regions will not be detected.
+9. References:
+◦ Manufacturer’s library preparation and sequencing guides.
+◦ ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+◦ Latest research and clinical literature on Emery-Dreifuss
+muscular dystrophy.
+By adhering to this SOP, the laboratory ensures the production of
+high-quality, reliable data essential for the proper diagnosis and
+management of individuals with suspected Emery-Dreifuss muscular
+dystrophy.

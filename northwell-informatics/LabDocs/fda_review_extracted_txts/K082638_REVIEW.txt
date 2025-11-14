@@ -1,0 +1,277 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+A. 510(k) Number:
+k082638
+B. Purpose for Submission:
+This is a new 510(k) to support the integration of a StreamLAB Laboratory
+Automation System (LAS) (k043546) to the ADVIA Centaur Analyzer (k041133)
+using the ADVIA Centaur T4 Assay (k905532) to show acceptable performance.
+C. Measurand:
+Thyroxine
+D. Type of Test:
+Quantitative Chemiluminescent Immunoassay
+E. Applicant:
+Siemens Healthcare Diagnostics Inc.
+F. Proprietary and Established Names:
+Advia Centaur System with StreamLAB Analytical Workcell
+G. Regulatory Information:
+1. Regulation section:
+21CFR Sec.862.1700 Total thyroxine test system.
+21CFR Sec.- 862.2160-Discrete photometric chemistry analyzer for clinical use.
+2. Classification:
+Class II and I, respectively
+3. Product code:
+KLI - Enzyme Immunoassay, Non-Radiolabeled, Total Thyroxine
+JJE - Analyzer, Chemistry (Photometric, Discrete), For Clinical Use
+4. Panel:
+Chemistry (75)
+H. Intended Use:
+1. Intended use(s):
+See indication(s) for use below.
+2. Indication(s) for use:
+The ADVIA Centaur with StreamLAB Analytical Workcell is an automated
+immunoassay analyzer designed to perform in vitro diagnostic immunochemical
+assay analysis on clinical specimens. The system menu will include assays based
+on chemiluminescent technology, such as Thyroxine, along with other various
+
+--- Page 2 ---
+chemiluminescent assays that may be adaptable to the analyzer depending on the
+reagent used to induce the chemiluminescent reaction.
+The ADVIA Centaur T4 assay is for in vitro diagnostic use in the quantitative
+determination of thyroxine (T4) in serum on the ADVIA Centaur and ADVIA
+Centaur XP systems. Measurements obtained by this device are used in the
+diagnosis and treatment of thyroid diseases.
+3. Special conditions for use statement(s):
+Prescription use
+4. Special instrument requirements:
+ADVIA Centaur with StreamLAB® Analytical Workcell
+I. Device Description:
+The ADVIA Centaur is a continuous operation, immunochemistry analyzer designed
+to perform in vitro diagnostic testing on clinical specimens.
+The StreamLAB® Analytical Workcell is a laboratory automation system (LAS)
+designed to automate sample handling and processing in the clinical laboratory.
+The ADVIA Centaur with StreamLAB® Analytical Workcell combines the features
+of both the analyzer and the laboratory automation system.
+The StreamLAB routes samples to the Centaur analyzer based on test request
+information it (StreamLAB) receives from the Laboratory Information System (LIS)
+and the test map established for the Centaur analyzer. StreamLAB and Centaur
+communicate sample and analyzer status via Centaur’s Laboratory Automation
+System (LAS) interface. Via its LIS interface, the Centaur analyzer interfaces
+separately with the hospital’s LIS to receive its test instructions (test requests) and to
+report results for each sample. Centaur’s test instructions and test results for each
+sample are not processed through the StreamLAB.
+The StreamLAB performs the following pre and post-analytical functions.
+• Sample bar code identification (previously performed by the Centaur)
+• Sample transport and tracking
+• Sample centrifugation (optional functionality)
+• Sample de-capping (optional functionality)
+• Sample transport and tracking
+• Tube sealing (optional functionality)
+The Centaur continues to perform the following functions, when connected to the
+StreamLAB.
+All functions except reading the sample tube bar code. When Centaur is connected to
+2 of 7
+
+--- Page 3 ---
+StreamLAB, samples can be loaded directly onto Centaur and/or loaded onto
+StreamLAB and routed to Centaur. For samples loaded onto StreamLAB,
+StreamLAB reads the sample tube bar code (sample identification) and passes it
+electronically to Centaur via the LAS interface to Centaur.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+ADVIA Centaur T4 Assay
+ADVIA Centaur Analyzer
+StreamLAB Laboratory Automation System (LAS)
+2. Predicate 510(k) number(s):
+k905532, k041133, and k043546 respectively
+3. Comparison with predicate:
+Predicate device: Proposed device:
+Feature ADVIA Centaur ADVIA Centaur with StreamLAB Analytical
+(K041133) Workcell
+Principles of Chemiluminescence using magnetic-particle solid phase and
+Operation chemiluminescent label
+Optical System Photomultiplier tube used in photon counting mode
+Sample Sample cups or primary
+Sample cups* or primary tubes
+Containers tubes
+Sample Load directly onto the Load directly onto the Centaur and/or load onto
+Loading Centaur the StreamLAB
+Manually centrifuged Manually centrifuged samples or automatically
+samples centrifuged samples by the StreamLAB.
+Serum &
+Plasma Sample
+Manually decapped sample tubes or
+Preparation
+Manually decapped automatically decapped tubes by StreamLAB.
+sample tubes
+Tube bar code (identification) is read by the
+Centaur (when tubes are placed directly on the
+Sample
+Tube bar code Centaur);
+Identification
+(identification) is read by
+of Bar-coded
+the Centaur. or tube bar code read by StreamLAB and
+Tubes
+communicated electronically to the Centaur
+(when tubes are loaded onto StreamLAB).
+Test Orders Unidirectional communication with external LIS
+Test Results Unidirectional communication with external LIS
+Laboratory Centaur’s software communicates with Lab Automation System via LAS
+Automation interface. Centaur performs direct sampling from tube on the track.
+* Sample cups cannot be used on the StreamLAB. Sample cups must be loaded directly onto
+the Centaur when connected to the StreamLAB. The StreamLAB does not impact Centaur’s
+capability to accept sample cups.
+3 of 7
+
+[Table 1 on page 3]
+Feature		Predicate device:			Proposed device:	
+		ADVIA Centaur			ADVIA Centaur with StreamLAB Analytical	
+		(K041133)			Workcell	
+Principles of Chemiluminescence using magnetic-particle solid phase and
+Operation chemiluminescent label
+Optical System Photomultiplier tube used in photon counting mode
+Sample Sample cups or primary
+Sample cups* or primary tubes
+Containers tubes
+Sample Load directly onto the Load directly onto the Centaur and/or load onto
+Loading Centaur the StreamLAB
+Manually centrifuged Manually centrifuged samples or automatically
+samples centrifuged samples by the StreamLAB.
+Serum &
+Plasma Sample
+Manually decapped sample tubes or
+Preparation
+Manually decapped automatically decapped tubes by StreamLAB.
+sample tubes
+Tube bar code (identification) is read by the
+Centaur (when tubes are placed directly on the
+Sample
+Tube bar code Centaur);
+Identification
+(identification) is read by
+of Bar-coded
+the Centaur. or tube bar code read by StreamLAB and
+Tubes
+communicated electronically to the Centaur
+(when tubes are loaded onto StreamLAB).
+Test Orders Unidirectional communication with external LIS
+Test Results Unidirectional communication with external LIS
+Laboratory Centaur’s software communicates with Lab Automation System via LAS
+Automation interface. Centaur performs direct sampling from tube on the track.
+* Sample cups cannot be used on the StreamLAB. Sample cups must be loaded directly onto
+the Centaur when connected to the StreamLAB. The StreamLAB does not impact Centaur’s
+capability to accept sample cups.						
+
+--- Page 4 ---
+K. Standard/Guidance Document Referenced (if applicable):
+None were referenced
+L. Test Principle:
+Chemiluminescence using magnetic-particle solid phase and chemiluminescent label
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+The precision of ADVIA Centaur T4 Assay was evaluated by analyzing three
+levels of a quality control product in triplicate once a day for five (5) days on
+the Advia Centaur System with StreamLAB Analytical Workcell. The data
+were analyzed using Analysis of Variance (ANOVA). The results are similar
+to the precision of the predicate device.
+S.D. (%CV)
+LEVEL n Mean Repeatability Within Laboratory
+1 15 5.45 μg/dL 0.13 (2.4) 0.25 (4.7)
+2 15 8.26 μg/dL 0.18 (2.1) 0.28 (3.4)
+3 15 14.49 μg/dL 0.39 (2.7) 0.44 (3.0
+b. Linearity/assay reportable range:
+Provided in k905532
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Provided in k905532
+d. Detection limit:
+Provided in k905532
+e. Analytical specificity:
+Provided in k905532
+f. Assay cut-off:
+Provided in k905532
+2. Comparison studies:
+a. Method comparison with predicate device:
+Split-sample method comparison studies were conducted using the ADVIA Centaur
+T4 Assay. Samples were processed on the predicate device and on the proposed
+device. The data were analyzed by linear regression and the results are summarized
+in the table below.
+4 of 7
+
+[Table 1 on page 4]
+			S.D. (%CV)	
+LEVEL	n	Mean	Repeatability	Within Laboratory
+1	15	5.45 μg/dL	0.13 (2.4)	0.25 (4.7)
+2	15	8.26 μg/dL	0.18 (2.1)	0.28 (3.4)
+3	15	14.49 μg/dL	0.39 (2.7)	0.44 (3.0
+
+--- Page 5 ---
+Slope Intercept r Sy,x n Range
+1.050 -0.299 0.993 0.36 66 1.60 – 17.00 µg/dL
+b. Matrix comparison:
+Not applicable
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable
+b. Clinical specificity:
+Not applicable
+c. Other clinical supportive data (when a. and b. are not applicable):
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+Provided in k905532
+N. Instrument Name:
+Advia Centaur System with StreamLAB Analytical Workcell
+5 of 7
+
+[Table 1 on page 5]
+Slope	Intercept	r	Sy,x	n	Range
+1.050 -0.299 0.993 0.36 66 1.60 – 17.00 µg/dL					
+
+--- Page 6 ---
+O. System Descriptions:
+1. Modes of Operation:
+The ADVIA Centaur is a continuous operation, immunochemistry analyzer
+designed to perform in vitro diagnostic testing on clinical specimens.
+Pre-analytical and Post-analytical activity is performed by StreamLAB.
+Centaur’s software communicates with Lab Automation System via LAS
+interface. Centaur performs direct sampling from tube on the track.
+The ADVIA Centaur with StreamLAB Analytical Workcell combines the features
+of both the analyzer and the laboratory automation system.
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development
+processes for this line of product types:
+Yes ____X___ or No ________
+The applicant provided software documentation that supports the device was
+designed and developed under good software LifeCycle processes.
+3. Specimen Identification:
+Sample tube bar code (identification) is read by the Centaur (when tubes are
+placed directly on the Centaur); or sample tube bar code read by StreamLAB and
+communicated electronically to the Centaur (when tubes are loaded onto
+StreamLAB).
+4. Specimen Sampling and Handling:
+Load directly onto the Centaur and/or load onto the StreamLAB, Manually
+centrifuged samples or automatically centrifuged samples by the StreamLAB.
+Manually decapped sample tubes or automatically decapped tubes by
+StreamLAB. Sample cups cannot be used on the StreamLAB. Sample cups must be
+loaded directly onto the Centaur when connected to the StreamLAB. The StreamLAB
+does not impact Centaur’s capability to accept sample cups.
+5. Calibration:
+Provided in k041133
+6 of 7
+
+--- Page 7 ---
+6. Quality Control:
+Provided in k041133
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In
+The “Performance Characteristics” Section above:
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+7 of 7

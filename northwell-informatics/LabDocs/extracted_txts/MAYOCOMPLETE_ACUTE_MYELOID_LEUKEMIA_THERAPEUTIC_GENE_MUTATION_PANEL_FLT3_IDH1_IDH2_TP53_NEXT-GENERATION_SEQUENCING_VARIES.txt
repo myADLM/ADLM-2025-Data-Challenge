@@ -1,0 +1,101 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+MAYOCOMPLETE Acute Myeloid Leukemia, Therapeutic Gene
+Mutation Panel (FLT3, IDH1, IDH2, TP53), Next-Generation
+Sequencing
+1. PURPOSE: This procedure outlines the analytical phase of
+generating results for the MAYOCOMPLETE Acute Myeloid
+Leukemia, Therapeutic Gene Mutation Panel. This panel
+employs next-generation sequencing (NGS) to identify
+mutations in the FLT3, IDH1, IDH2, and TP53 genes, which are
+crucial for the diagnosis, prognosis, and therapeutic decision-
+making in Acute Myeloid Leukemia (AML).
+Responsibility: Designated trained laboratory personnel are
+responsible for performing the steps in this SOP, analyzing data, and
+ensuring the accuracy and validity of the results.
+1. DEFINITIONS:
+• NGS: Next-Generation Sequencing
+• PCR: Polymerase Chain Reaction
+• SOP: Standard Operating Procedure
+• QC: Quality Control
+• AML: Acute Myeloid Leukemia
+1. PROCEDURE:
+A) Sample Preparation:
+1. Confirm sample identity and adequacy in the Laboratory
+Information System (LIS).
+2. Extract DNA from the received specimen using appropriate
+extraction kits and following standard extraction protocols.
+3. Quantify extracted DNA using spectrophotometry (e.g., Qubit or
+Nanodrop) and assess quality using agarose gel
+electrophoresis or TapeStation/Fragment Analyzer.
+B) Library Preparation:
+1. Amplify target regions (FLT3, IDH1, IDH2, TP53) using targeted
+PCR.
+2. Attach sequencing adapters and molecular barcodes to the
+amplified DNA fragments according to the Illumina library
+preparation protocol or the equivalent approved protocol.
+3. Purify amplified libraries with magnetic beads to remove
+unspecific products and primers.
+4. Assess library quality and quantity using a Bioanalyzer or
+TapeStation.
+C) Next-Generation Sequencing (NGS):
+1. Pool libraries of different samples ensuring equal
+representation.
+2. Perform sequencing using an NGS platform (e.g., Illumina
+MiSeq or NextSeq) following the manufacturer's protocols.
+3. Load the pooled library onto the sequencer, set up the run
+according to the panel specifications, and initiate sequencing.
+D) Data Analysis:
+1. Post-sequencing, transfer the raw data to the bioinformatics
+workstation.
+2. Use specialized software to align the sequencing reads to the
+human genome reference sequence.
+3. Identify variants (mutations) in the FLT3, IDH1, IDH2, and TP53
+genes using variant calling algorithms.
+4. Annotate identified variants and filter out common benign
+variants using databases such as dbSNP, 1000 Genomes,
+ExAC, and relevant AML-specific mutation databases.
+E) Quality Control:
+1. Examine sequencing quality metrics (e.g., Q30 score, read
+depth) to ensure they meet the predetermined acceptance
+criteria.
+2. Include positive and negative controls in every batch to verify
+assay performance.
+3. Re-run samples that failed QC metrics or controls to ensure
+reliable and accurate results.
+F) Result Interpretation and Reporting:
+1. Review the annotated variant data for clinical relevance and
+pathogenicity based on the latest scientific literature and clinical
+guidelines.
+2. Confirm identified mutations using additional techniques (e.g.,
+Sanger Sequencing) if required.
+3. Compile a comprehensive report including detected mutations,
+their clinical significance, and potential therapeutic implications.
+4. Verify and authorize the report by a trained clinical laboratory
+geneticist or pathologist.
+5. Record the results in the Laboratory Information System (LIS)
+and communicate them to the requesting physician.
+G) Documentation:
+1. Document all steps in the sample processing and analysis
+workflow, ensuring traceability.
+2. Maintain all records, including raw data, QC logs, and final
+reports, according to CLIA regulations.
+3. REFERENCES:
+• Illumina NGS Platform User Manual
+• Manufacturer Protocols for DNA Extraction and Library
+Preparation
+• Variants Annotations and Clinical Databases (dbSNP, 1000
+Genomes, ExAC)
+• Clinical Guidelines for AML Gene Mutations Interpretation
+1. NOTES:
+2. Ensure regular maintenance of all equipment and adherence to
+calibration schedules.
+3. Update procedures and manuals annually or as needed to
+comply with new guidelines and technological advancements.
+4. Train all personnel on this SOP before performing the assay
+independently.
+5. SAFETY CONSIDERATIONS: Follow all laboratory safety
+guidelines, including the use of personal protective equipment
+(PPE) and safe handling of biological specimens and reagents.
+Approved by:
+Laboratory Director/Manager
+Date:

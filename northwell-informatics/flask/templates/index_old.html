@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔬 SOP Query System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+                                 <button onclick="sendMessage()" id="queryBtn" disabled>💬 Send Message</button>  }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 25px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            background: #fafafa;
+        }
+        
+        .section h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section h3::before {
+            content: '📁';
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        
+        .file-selection h3::before { content: '📁'; }
+        .query-section h3::before { content: '🔍'; }
+        .results-section h3::before { content: '💬'; }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        select, textarea, input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        
+        select:focus, textarea:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+            font-family: inherit;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        .status {
+            background: #e8f5e8;
+            border: 1px solid #4caf50;
+            color: #2e7d32;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .error {
+            background: #ffeaea;
+            border: 1px solid #f44336;
+            color: #c62828;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .response-box {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+            white-space: pre-wrap;
+            line-height: 1.6;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        
+        .debug-info {
+            background: #f0f8ff;
+            border: 1px solid #2196f3;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .debug-info h4 {
+            color: #1565c0;
+            margin-bottom: 10px;
+        }
+        
+        .debug-item {
+            margin-bottom: 8px;
+        }
+        
+        .debug-item strong {
+            color: #1565c0;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Chat Interface Styles */
+        .chat-container {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .chat-history {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px;
+            background: #fafafa;
+        }
+        
+        .welcome-message {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            padding: 20px;
+        }
+        
+        .chat-message {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .message-user {
+            align-items: flex-end;
+        }
+        
+        .message-assistant {
+            align-items: flex-start;
+        }
+        
+        .message-bubble {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            line-height: 1.4;
+        }
+        
+        .message-user .message-bubble {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .message-assistant .message-bubble {
+            background: white;
+            border: 1px solid #e0e0e0;
+            color: #333;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .message-timestamp {
+            font-size: 11px;
+            color: #999;
+            margin: 5px 10px;
+        }
+        
+        .message-system {
+            font-size: 12px;
+            color: #667eea;
+            margin: 2px 10px;
+            font-weight: 500;
+        }
+        
+        .chat-input-section {
+            border-top: 1px solid #e0e0e0;
+            padding-top: 15px;
+        }
+        
+        .chat-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 15px;
+            gap: 20px;
+        }
+        
+        .chat-options {
+            flex: 1;
+        }
+        
+        .chat-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .secondary-btn {
+            background: #6c757d;
+        }
+        
+        .secondary-btn:hover {
+            background: #5a6268;
+            transform: translateY(-1px);
+        }
+        
+        .typing-indicator {
+            display: none;
+            padding: 12px 16px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 18px;
+            border-bottom-left-radius: 5px;
+            max-width: 80px;
+            margin-bottom: 15px;
+        }
+        
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+        }
+        
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #ccc;
+            animation: typing 1.5s infinite;
+        }
+        
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+                opacity: 0.4;
+            }
+            30% {
+                transform: translateY(-10px);
+                opacity: 1;
+            }
+        }
+        
+        .file-info {
+            background: #e3f2fd;
+            border: 1px solid #2196f3;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        
+        .class-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .class-item {
+            background: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+        
+        /* Chat Interface Styles */
+        .chat-container {
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            background: white;
+            margin-bottom: 20px;
+        }
+        
+        .chat-history {
+            height: 400px;
+            overflow-y: auto;
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .welcome-message {
+            background: #e8f5e8;
+            border: 1px solid #4caf50;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            color: #2e7d32;
+        }
+        
+        .user-message, .bot-message, .system-message {
+            margin-bottom: 15px;
+            padding: 12px;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+        
+        .user-message {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            margin-left: 20px;
+        }
+        
+        .bot-message {
+            background: #f9f9f9;
+            border-left: 4px solid #4caf50;
+            margin-right: 20px;
+        }
+        
+        .system-message {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .loading-message {
+            opacity: 0.7;
+        }
+        
+        .chat-input-section {
+            padding: 15px;
+        }
+        
+        .chat-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+        }
+        
+        .chat-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .secondary-btn {
+            background: #6c757d;
+        }
+        
+        .secondary-btn:hover {
+            background: #5a6268;
+        }
+        
+        .connection-info {
+            background: #fff3e0;
+            border: 1px solid #ff9800;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .connection-info h4 {
+            color: #e65100;
+            margin-bottom: 10px;
+        }
+        
+        .access-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .access-item {
+            background: white;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .main-content {
+                padding: 20px;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 SOP Query System</h1>
+            <p>Laboratory Standard Operating Procedure Analysis</p>
+        </div>
+        
+        <div class="main-content">
+            <!-- Connection Info -->
+            <div class="connection-info">
+                <h4>🌐 Production Flask Application</h4>
+                <p>This application runs with Gunicorn for production deployment and background service operation:</p>
+                <div class="access-info">
+                    <div class="access-item">
+                        <strong>Local Access:</strong><br>
+                        http://localhost:5000
+                    </div>
+                    <div class="access-item">
+                        <strong>Network Access:</strong><br>
+                        http://10.252.96.40:5000
+                    </div>
+                    <div class="access-item">
+                        <strong>Service Control:</strong><br>
+                        Use service.sh start/stop/status
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Directory Selection Section -->
+            <div class="section file-selection">
+                <h3>Select SOP Directory</h3>
+                <div class="form-group">
+                    <label for="directorySelect">Choose a directory containing JSON files to query:</label>
+                    <select id="directorySelect">
+                        <option value="">-- Select an SOP directory --</option>
+                        {% for directory in json_directories %}
+                        <option value="{{ directory.path }}" data-count="{{ directory.file_count }}">
+                            {{ directory.name }} ({{ directory.file_count }} files)
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button onclick="loadDirectory()">Load SOP Directory</button>
+                <button onclick="refreshDirectories()">🔄 Refresh Directory List</button>
+                
+                <div id="directoryInfo" class="file-info" style="display: none;">
+                    <h4>� Loaded SOP Directory Information</h4>
+                    <div id="directoryDetails"></div>
+                    <div id="classSummary" class="class-summary"></div>
+                    <div id="fileSummary" class="class-summary" style="margin-top: 15px;"></div>
+                </div>
+            </div>
+            
+            <!-- Query Section with Chat Interface -->
+            <div class="section query-section">
+                <h3>Chat with SOP System</h3>
+                
+                <!-- Conversation History -->
+                <div id="chatContainer" class="chat-container">
+                    <div id="chatHistory" class="chat-history">
+                        <div class="welcome-message">
+                            <p>👋 Welcome! Load a directory and start asking questions about your SOPs.</p>
+                            <p>💬 Your conversation history will be preserved to provide better context-aware answers.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Query Input -->
+                <div class="chat-input-section">
+                    <div class="form-group">
+                        <label for="questionInput">Ask a question about the SOPs:</label>
+                        <textarea id="questionInput" placeholder="Ask about equipment, procedures, specimen requirements, quality control, reference ranges, etc.
+
+Example questions:
+• What is the reference range for A1C?
+• What specimen is required for this test?
+• Follow-up: What about the storage requirements?
+• Can you explain that procedure in more detail?"></textarea>
+                    </div>
+                    
+                    <div class="chat-controls">
+                        <div class="chat-options">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="useEnhanced" checked>
+                                <label for="useEnhanced">Enhanced LLM Analysis (recommended)</label>
+                            </div>
+                            
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="showDebug">
+                                <label for="showDebug">Show debug information</label>
+                            </div>
+                        </div>
+                        
+                        <div class="chat-buttons">
+                            <button onclick="submitQuery()" id="queryBtn" disabled>� Send Message</button>
+                            <button onclick="clearConversation()" class="secondary-btn">🗑️ Clear Chat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Legacy Results Section (for debug info) -->
+            <div class="section results-section" id="debugSection" style="display: none;">
+                <h3>Debug Information</h3>
+                <div id="statusMsg"></div>
+                
+                <div id="loading" class="loading">
+                    <div class="spinner"></div>
+                    <p>Processing your question...</p>
+                </div>
+                
+                <div id="debugContainer" class="debug-info"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentDirectory = null;
+        
+        function showStatus(message, isError = false) {
+            const statusMsg = document.getElementById('statusMsg');
+            statusMsg.className = isError ? 'error' : 'status';
+            statusMsg.textContent = message;
+            statusMsg.style.display = 'block';
+        }
+        
+        function hideStatus() {
+            document.getElementById('statusMsg').style.display = 'none';
+        }
+        
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('responseContainer').style.display = 'none';
+        }
+        
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+        
+        async function refreshDirectories() {
+            showLoading();
+            hideStatus();
+            
+            try {
+                const response = await fetch('/refresh_directories', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+                
+                const result = await response.json();
+                hideLoading();
+                
+                if (result.success) {
+                    // Clear current selection
+                    const directorySelect = document.getElementById('directorySelect');
+                    directorySelect.innerHTML = '<option value="">-- Select an SOP directory --</option>';
+                    
+                    // Add new directories
+                    result.directories.forEach(directory => {
+                        const option = document.createElement('option');
+                        option.value = directory.path;
+                        option.textContent = `${directory.name} (${directory.file_count} files)`;
+                        option.setAttribute('data-count', directory.file_count);
+                        directorySelect.appendChild(option);
+                    });
+                    
+                    showStatus(`✅ Refreshed directory list - found ${result.count} directories`);
+                } else {
+                    showStatus(`❌ Error refreshing directories: ${result.error}`, true);
+                }
+            } catch (error) {
+                hideLoading();
+                showStatus(`❌ Network error: ${error.message}`, true);
+            }
+        }
+        
+        async function loadDirectory() {
+            const directorySelect = document.getElementById('directorySelect');
+            const directoryPath = directorySelect.value;
+            
+            if (!directoryPath) {
+                showStatus('Please select a directory first.', true);
+                return;
+            }
+            
+            showLoading();
+            hideStatus();
+            
+            try {
+                const response = await fetch('/load_directory', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ directory_path: directoryPath })
+                });
+                
+                const result = await response.json();
+                hideLoading();
+                
+                if (result.success) {
+                    currentDirectory = result.directory_name;
+                    showStatus(`✅ Successfully loaded ${result.directory_name} with ${result.extraction_count} extractions from ${result.file_count} files`);
+                    
+                    // Show directory info
+                    document.getElementById('directoryInfo').style.display = 'block';
+                    document.getElementById('directoryDetails').innerHTML = `
+                        <strong>Directory:</strong> ${result.directory_name}<br>
+                        <strong>Files Loaded:</strong> ${result.file_count}<br>
+                        <strong>Total Extractions:</strong> ${result.extraction_count}
+                    `;
+                    
+                    // Show class summary
+                    const classSummary = document.getElementById('classSummary');
+                    classSummary.innerHTML = '<h4>📊 Extraction Types:</h4>';
+                    for (const [className, count] of Object.entries(result.class_summary)) {
+                        const classItem = document.createElement('div');
+                        classItem.className = 'class-item';
+                        classItem.innerHTML = `<strong>${className}:</strong> ${count} items`;
+                        classSummary.appendChild(classItem);
+                    }
+                    
+                    // Show file summary (first 10 files)
+                    const fileSummary = document.getElementById('fileSummary');
+                    fileSummary.innerHTML = '<h4>📁 File Summary (sample):</h4>';
+                    for (const [fileName, count] of Object.entries(result.file_summary)) {
+                        const fileItem = document.createElement('div');
+                        fileItem.className = 'class-item';
+                        fileItem.innerHTML = `<strong>${fileName}:</strong> ${count} extractions`;
+                        fileSummary.appendChild(fileItem);
+                    }
+                    
+                    // Enable query button and focus on question input
+                    document.getElementById('queryBtn').disabled = false;
+                    setTimeout(() => {
+                        document.getElementById('questionInput').focus();
+                    }, 100);
+                } else {
+                    showStatus(`❌ Error loading directory: ${result.error}`, true);
+                }
+            } catch (error) {
+                hideLoading();
+                showStatus(`❌ Network error: ${error.message}`, true);
+            }
+        }
+        
+        async function submitQuery() {
+            const chatInput = document.getElementById('questionInput'); // Define chatInput here
+            const question = chatInput.value.trim();
+            if (!question) {
+                showStatus('Please enter a question.', true);
+                return;
+            }
+            
+            if (!currentDirectory) {
+                showStatus('Please load a directory first.', true);
+                return;
+            }
+            
+            // Add user message to chat
+            addMessageToChat(question, true);
+            chatInput.value = '';
+            
+            // Show loading in chat
+            const loadingMsg = document.createElement('div');
+            loadingMsg.className = 'bot-message loading-message';
+            loadingMsg.innerHTML = '<strong>SOP Assistant:</strong> <em>Thinking...</em>';
+            const chatHistory = document.getElementById('chatHistory');
+            if (chatHistory) {
+                chatHistory.appendChild(loadingMsg);
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            }
+            
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        question: question,
+                        use_enhanced: true,
+                        show_debug: false
+                    })
+                });
+                
+                const result = await response.json();
+                
+                // Remove loading message
+                if (loadingMsg && loadingMsg.parentNode) {
+                    loadingMsg.parentNode.removeChild(loadingMsg);
+                }
+                
+                if (result.success) {
+                    // Add bot response to chat
+                    addMessageToChat(result.response, false);
+                    
+                    // Update conversation history
+                    conversationHistory.push({
+                        question: question,
+                        response: result.response,
+                        timestamp: new Date().toISOString()
+                    });
+                    
+                    showStatus('✅ Response generated');
+                } else {
+                    addMessageToChat(`Error: ${result.error}`, false);
+                    showStatus(`❌ Query error: ${result.error}`, true);
+                }
+            } catch (error) {
+                // Remove loading message
+                if (loadingMsg && loadingMsg.parentNode) {
+                    loadingMsg.parentNode.removeChild(loadingMsg);
+                }
+                
+                addMessageToChat(`Network error: ${error.message}`, false);
+                showStatus(`❌ Network error: ${error.message}`, true);
+            }
+        }
+        
+        function clearChat() {
+            const chatHistory = document.getElementById('chatHistory');
+            if (chatHistory) {
+                chatHistory.innerHTML = '<div class="system-message">💬 Chat cleared. Ask me anything about the loaded SOPs.</div>';
+            }
+            conversationHistory = [];
+            hideStatus();
+        }
+        
+        
+        function showLoading() {
+            const loading = document.getElementById('loading');
+            const responseContainer = document.getElementById('responseContainer');
+            if (loading) loading.style.display = 'block';
+            if (responseContainer) responseContainer.style.display = 'none';
+        }
+        
+        function hideLoading() {
+            const loading = document.getElementById('loading');
+            if (loading) loading.style.display = 'none';
+        }
+        
+        async function refreshDirectories() {
+            try {
+                showStatus('🔄 Refreshing directory list...');
+                
+                const response = await fetch('/refresh_directories', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    // Update the select dropdown
+                    const directorySelect = document.getElementById('directorySelect');
+                    directorySelect.innerHTML = '<option value="">-- Select an SOP directory --</option>';
+                    
+                    result.directories.forEach(directory => {
+                        const option = document.createElement('option');
+                        option.value = directory.path;
+                        option.textContent = `${directory.name} (${directory.file_count} files)`;
+                        option.setAttribute('data-count', directory.file_count);
+                        directorySelect.appendChild(option);
+                    });
+                    
+                    showStatus(`✅ Found ${result.directories.length} directories`);
+                } else {
+                    showStatus(`❌ Error refreshing: ${result.error}`, true);
+                }
+            } catch (error) {
+                showStatus(`❌ Network error: ${error.message}`, true);
+            }
+        }
+        
+        async function loadDirectory() {
+            const directorySelect = document.getElementById('directorySelect');
+            const directoryPath = directorySelect.value;
+            
+            if (!directoryPath) {
+                showStatus('Please select a directory first.', true);
+                return;
+            }
+            
+            showLoading();
+            hideStatus();
+            
+            try {
+                const response = await fetch('/load_directory', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ directory_path: directoryPath })
+                });
+                
+                const result = await response.json();
+                hideLoading();
+                
+                if (result.success) {
+                    currentDirectory = result.directory_name;
+                    showStatus(`✅ Successfully loaded ${result.directory_name} with ${result.extraction_count} extractions from ${result.file_count} files`);
+                    
+                    // Show directory info
+                    const directoryInfo = document.getElementById('directoryInfo');
+                    if (directoryInfo) {
+                        directoryInfo.style.display = 'block';
+                        
+                        const directoryDetails = document.getElementById('directoryDetails');
+                        if (directoryDetails) {
+                            directoryDetails.innerHTML = `
+                                <strong>Directory:</strong> ${result.directory_name}<br>
+                                <strong>Files Loaded:</strong> ${result.file_count}<br>
+                                <strong>Total Extractions:</strong> ${result.extraction_count}
+                            `;
+                        }
+                        
+                        // Show class summary
+                        const classSummary = document.getElementById('classSummary');
+                        if (classSummary) {
+                            classSummary.innerHTML = '<h4>📊 Extraction Types:</h4>';
+                            for (const [className, count] of Object.entries(result.class_summary)) {
+                                const classItem = document.createElement('div');
+                                classItem.className = 'class-item';
+                                classItem.innerHTML = `<strong>${className}:</strong> ${count} items`;
+                                classSummary.appendChild(classItem);
+                            }
+                        }
+                        
+                        // Show file summary (first 10 files)
+                        const fileSummary = document.getElementById('fileSummary');
+                        if (fileSummary) {
+                            fileSummary.innerHTML = '<h4>📁 File Summary (sample):</h4>';
+                            for (const [fileName, count] of Object.entries(result.file_summary)) {
+                                const fileItem = document.createElement('div');
+                                fileItem.className = 'class-item';
+                                fileItem.innerHTML = `<strong>${fileName}:</strong> ${count} extractions`;
+                                fileSummary.appendChild(fileItem);
+                            }
+                        }
+                    }
+                    
+                    // Enable chat
+                    const chatInput = document.getElementById('questionInput'); // Use existing questionInput ID
+                    const sendBtn = document.getElementById('queryBtn'); // Use existing queryBtn ID
+                    if (chatInput) chatInput.disabled = false;
+                    if (sendBtn) sendBtn.disabled = false;
+                    
+                    // Clear any previous conversation
+                    conversationHistory = [];
+                    const chatHistory = document.getElementById('chatHistory');
+                    if (chatHistory) {
+                        chatHistory.innerHTML = '<div class="system-message">📂 Directory loaded successfully! Ask me anything about the SOPs.</div>';
+                    }
+                } else {
+                    showStatus(`❌ Error loading directory: ${result.error}`, true);
+                }
+            } catch (error) {
+                hideLoading();
+                showStatus(`❌ Network error: ${error.message}`, true);
+            }
+        }
+        
+        function addMessageToChat(message, isUser = true, isSystem = false) {
+            const chatHistory = document.getElementById('chatHistory');
+            if (!chatHistory) return;
+            
+            const messageDiv = document.createElement('div');
+            
+            if (isSystem) {
+                messageDiv.className = 'system-message';
+                messageDiv.innerHTML = message;
+            } else if (isUser) {
+                messageDiv.className = 'user-message';
+                messageDiv.innerHTML = `<strong>You:</strong> ${message}`;
+            } else {
+                messageDiv.className = 'bot-message';
+                messageDiv.innerHTML = `<strong>SOP Assistant:</strong> ${message}`;
+            }
+            
+            chatHistory.appendChild(messageDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }
+        
+        async function sendMessage() {
+            const chatInput = document.getElementById('questionInput'); // Use existing questionInput ID
+            if (!chatInput) return;
+            
+            const question = chatInput.value.trim();
+            if (!question) {
+                showStatus('Please enter a question.', true);
+                return;
+            }
+            
+            if (!currentDirectory) {
+                showStatus('Please load a directory first.', true);
+                return;
+            }
+            
+            // Add user message to chat
+            addMessageToChat(question, true);
+            chatInput.value = '';
+            
+            // Show loading in chat
+            const loadingMsg = document.createElement('div');
+            loadingMsg.className = 'bot-message loading-message';
+            loadingMsg.innerHTML = '<strong>SOP Assistant:</strong> <em>Thinking...</em>';
+            const chatHistory = document.getElementById('chatHistory');
+            if (chatHistory) {
+                chatHistory.appendChild(loadingMsg);
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            }
+            
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        question: question,
+                        use_enhanced: true,
+                        show_debug: false
+                    })
+                });
+                
+                const result = await response.json();
+                
+                // Remove loading message
+                if (loadingMsg && loadingMsg.parentNode) {
+                    loadingMsg.parentNode.removeChild(loadingMsg);
+                }
+                
+                if (result.success) {
+                    // Add bot response to chat
+                    addMessageToChat(result.response, false);
+                    
+                    // Update conversation history
+                    conversationHistory.push({
+                        question: question,
+                        response: result.response,
+                        timestamp: new Date().toISOString()
+                    });
+                    
+                    showStatus('✅ Response generated');
+                } else {
+                    addMessageToChat(`Error: ${result.error}`, false);
+                    showStatus(`❌ Query error: ${result.error}`, true);
+                }
+            } catch (error) {
+                // Remove loading message
+                if (loadingMsg && loadingMsg.parentNode) {
+                    loadingMsg.parentNode.removeChild(loadingMsg);
+                }
+                
+                addMessageToChat(`Network error: ${error.message}`, false);
+                showStatus(`❌ Network error: ${error.message}`, true);
+            }
+        }
+        
+        function clearChat() {
+            const chatHistory = document.getElementById('chatHistory');
+            if (chatHistory) {
+                chatHistory.innerHTML = '<div class="system-message">💬 Chat cleared. Ask me anything about the loaded SOPs.</div>';
+            }
+            conversationHistory = [];
+            hideStatus();
+        }
+        
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            // Enter key to send message
+            const chatInput = document.getElementById('questionInput');
+            if (chatInput) {
+                chatInput.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        sendMessage();
+                    }
+                });
+            }
+            
+            // Auto-focus chat input when directory is loaded
+            const directorySelect = document.getElementById('directorySelect');
+            if (directorySelect) {
+                directorySelect.addEventListener('change', function() {
+                    if (this.value) {
+                        setTimeout(() => {
+                            if (chatInput) chatInput.focus();
+                        }, 100);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

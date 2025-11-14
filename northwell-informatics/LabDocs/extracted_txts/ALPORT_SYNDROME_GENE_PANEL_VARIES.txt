@@ -1,0 +1,105 @@
+STANDARD OPERATING PROCEDURE (SOP) ALPORT
+SYNDROME GENE PANEL (VARIES) TESTING
+1. PURPOSE To establish a standardized procedure for
+processing and analyzing specimens for the Alport Syndrome
+Gene Panel (VARIES). This protocol ensures the accuracy,
+precision, and reproducibility of the test results to support the
+diagnosis of Alport Syndrome.
+Responsibility:
+• Designated molecular technologists are responsible for
+performing and documenting the analysis steps described in this
+procedure.
+• Laboratory supervisors are responsible for verifying the
+compliance of the procedure and the accuracy of the results.
+1. DEFINITION Alport Syndrome is a genetic disorder
+characterized by kidney disease, hearing loss, and eye
+abnormalities. Early genetic diagnosis can assist in clinical
+management and inform at-risk family members.
+2. PROCEDURE
+3.1 Specimen Requirements
+• Specimen Type: Peripheral blood, buccal cells, or saliva.
+• Volume:
+◦ Peripheral blood: 5-10 mL collected in EDTA tubes.
+◦ Buccal cells: Two buccal swabs.
+◦ Saliva: 2-4 mL collected in a DNA stabilization collection kit.
+• Transport and Storage:
+◦ Blood samples should be kept at 4°C and processed within 72
+hours.
+◦ Buccal cells and saliva samples can be stored at room
+temperature and processed within 14 days.
+3.2 Reagent and Supplies
+• DNA extraction kits (validated for sample type).
+• PCR reagents and primer sets specific to the Alport Syndrome
+gene panel.
+• NGS (Next-Generation Sequencing) library preparation kits.
+• Sequencing platform (e.g., Illumina MiSeq, Ion Torrent).
+• Bioinformatics software for data analysis.
+3.3 Procedure Steps
+3.3.1 DNA Extraction
+1. Follow the manufacturer's protocol for DNA extraction.
+2. Measure and record DNA concentration and purity using a
+spectrophotometer.
+3. If the DNA is of sufficient quality (A260/280 ratio of 1.8-2.0),
+proceed to the next step. If not, re-extract or purify the DNA.
+3.3.2 PCR Amplification
+1. Prepare PCR master mix according to the primer sets designed
+for the Alport Syndrome gene panel.
+2. Add DNA template to the master mix.
+3. Set up PCR cycling conditions as specified in the primer
+instruction set.
+4. Verify PCR amplification by running 5 µL of the product on an
+agarose gel.
+3.3.3 Library Preparation and Sequencing
+1. Follow the NGS library preparation kit instructions to prepare
+the amplified DNA for sequencing.
+2. Quantify and normalize the library concentrations.
+3. Load the prepared libraries onto the sequencing platform.
+4. Configure the sequencing run according to the manufacturer's
+guidelines for the gene panel.
+3.3.4 Data Analysis
+1. Transfer the sequencing output data to the bioinformatics
+pipeline.
+2. Perform quality control checks on raw sequence data.
+3. Align sequences to the human reference genome (hg19 or
+hg38).
+4. Identify variants using validated software.
+5. Filter and annotate variants pertinent to Alport Syndrome.
+3.4 Quality Control
+• Include positive controls (known Alport Syndrome mutations) and
+negative controls (non-template) in each run.
+• Validate new lots of reagents and release new batches only after
+passing the appropriate quality control checks.
+• Perform bi-weekly internal quality assessments.
+3.5 Reporting
+• Compile results into a summarized report.
+• Include variant interpretation based on current clinical knowledge
+and databases.
+• Peer-reviewed by a second qualified technologist or supervisor
+prior to release.
+• Results shall be verified before being sent to the ordering
+physician.
+3.6 Documentation and Record Keeping
+• Document all steps in the laboratory information system (LIS).
+• Store all paper and digital records according to the laboratory
+retention policy.
+• Maintain logs of specimen receipt, DNA extraction, PCR setup,
+sequencing runs, and data analysis.
+1. LIMITATIONS
+• Negative results do not exclude the diagnosis of Alport Syndrome,
+especially if the clinical suspicion is high.
+• Variants of unknown significance (VUS) must be interpreted within
+the clinical context.
+• Technical variations can occur due to DNA quality, PCR efficiency,
+and sequencing depth.
+1. REFERENCES
+• Refer to manufacturer's guidelines for the specific kits and
+instruments used.
+• Relevant literature on Alport Syndrome and mutation databases
+(e.g., ClinVar, HGMD).
+1. APPENDIX
+• Detailed protocols for DNA extraction, PCR, sequencing library
+preparation, and data analysis.
+• Troubleshooting guide for common issues encountered during the
+testing process.
+This protocol shall be reviewed and updated annually or as needed
+based on advancements in technology and scientific knowledge.

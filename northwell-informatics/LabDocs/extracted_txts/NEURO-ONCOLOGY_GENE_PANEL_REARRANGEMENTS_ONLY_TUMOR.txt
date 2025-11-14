@@ -1,0 +1,94 @@
+Standard Operating Procedure (SOP) Title: Analytical Phase of the
+Neuro-Oncology Gene Panel, Rearrangements Only, Tumor
+1. PURPOSE
+The purpose of this document is to provide a standardized procedure
+for the analytical phase of generating results for the Neuro-Oncology
+Gene Panel, Rearrangements Only, Tumor. This procedure ensures
+accuracy, reproducibility, and reliability in detecting gene
+rearrangements associated with neuro-oncology tumors.
+Responsibility: It is the responsibility of designated laboratory
+personnel to perform the analysis according to this SOP. All results
+must be reviewed and verified by a qualified technologist or
+supervisor before reporting.
+1. DEFINITIONS
+Gene Rearrangement: A structural alteration in the genome involving
+the rearrangement of regions within a gene or between genes, often
+resulting in oncogenic fusion proteins.
+Tumor Specimen: A tissue sample from a neuro-oncology patient that
+has been confirmed to be appropriate for genetic testing.
+1. PROCEDURE
+3.1 Specimen Preparation
+a. Ensure the tumor specimen has been appropriately collected,
+transported, and stored according to the relevant specimen handling
+SOP. b. Verify that the specimen has been accessioned and labeled
+correctly. c. Extract genomic DNA or RNA from the tumor tissue using
+an approved extraction method (i.e., commercial extraction kit
+following the manufacturer's protocol). d. Quantify and assess the
+quality of the extracted nucleic acids using a spectrophotometer and
+electrophoresis as needed.
+3.2 Library Preparation
+a. Prepare the library using a targeted enrichment method specific for
+neuro-oncology gene rearrangements (e.g., hybrid capture or
+amplicon-based approach). b. Follow the manufacturer's instructions
+for library preparation, ensuring all reagents are within their expiration
+dates and stored correctly. c. Index libraries with unique barcodes to
+enable multiplex sequencing. d. Assess the quality and concentration
+of the libraries using a fluorometer and electrophoresis.
+3.3 Next-Generation Sequencing (NGS)
+a. Set up the NGS run following the sequencer manufacturer's
+protocol. b. Pool the indexed libraries at equimolar concentrations
+and load them onto the sequencing instrument. c. Initiate the
+sequencing run, ensuring proper calibration and maintenance checks
+have been completed on the instrument.
+3.4 Data Analysis
+a. Perform primary data analysis using the instrument’s onboard
+software to generate FASTQ files. b. Use appropriate bioinformatics
+tools and pipelines for secondary analysis, including alignment to the
+reference genome, identification of gene rearrangements, and quality
+control checks. c. Annotate the detected gene rearrangements with
+relevant clinical information using a curated database or
+bioinformatics software.
+3.5 Results Verification
+a. Review the analysis results, including quality metrics and detected
+rearrangements. b. Confirm the validity of detected gene
+rearrangements by cross-referencing with in-house or external
+databases. c. Verify the findings independently by a qualified
+technologist or supervisor.
+3.6 Reporting
+a. Prepare the final report including detailed findings of the gene
+rearrangements, their clinical significance, and implications for
+patient treatment and prognosis. b. Ensure the report is clear,
+concise, and includes all necessary patient and specimen
+information. c. Submit the report for final review and authorization by
+a qualified supervisor or pathologist. d. Communicate the validated
+report to the requesting physician or medical team, adhering to
+confidentiality and data protection policies.
+1. QUALITY CONTROL
+a. Include positive and negative control samples in each run to
+ensure the reliability and accuracy of the assay. b. Perform regular
+instrument maintenance and calibration procedures as recommended
+by the manufacturer. c. Participate in external proficiency testing and
+inter-laboratory comparison programs to maintain high standards of
+test performance.
+1. TROUBLESHOOTING
+a. If any issues arise during specimen preparation, library
+preparation, sequencing, or data analysis, document the issue and
+perform troubleshooting steps as outlined in the respective
+instrument or kit manuals. b. Consult with a supervisor or technical
+support if the problem persists or cannot be resolved.
+1. REFERENCES
+a. Manufacturer’s instructions for the extraction kit, library preparation
+kit, and sequencing instrument. b. Bioinformatics pipeline and
+annotation software manuals. c. Relevant clinical guidelines and
+peer-reviewed literature on neuro-oncology gene rearrangements.
+1. DOCUMENTATION
+a. Maintain all records of specimen receipt, processing, and results in
+accordance with laboratory policy and regulatory requirements. b.
+Ensure that all documentation is accurate, complete, and readily
+accessible for review.
+By following this SOP, laboratory personnel will ensure the accurate
+and consistent generation of results for the Neuro-Oncology Gene
+Panel, Rearrangements Only, Tumor, thereby aiding in the effective
+management and treatment of neuro-oncology patients.
+Effective Date: [Insert Date] Review Date: [Insert Date] Approved by:
+[Insert Name] Signature: ____________________

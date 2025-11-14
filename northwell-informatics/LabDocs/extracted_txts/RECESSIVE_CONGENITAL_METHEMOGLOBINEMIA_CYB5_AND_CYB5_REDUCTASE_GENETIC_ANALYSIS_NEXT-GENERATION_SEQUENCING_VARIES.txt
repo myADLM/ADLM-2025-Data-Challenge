@@ -1,0 +1,105 @@
+Standard Operating Procedure (SOP) Title: Analytical Phase Protocol
+for CYB5 and CYB5 Reductase Genetic Analysis using Next-
+Generation Sequencing (NGS)
+1. PURPOSE: To outline the detailed procedure for the analysis of
+CYB5 and CYB5 Reductase genes using next-generation
+sequencing (NGS) for the diagnosis of Recessive Congenital
+Methemoglobinemia. This protocol ensures consistent,
+accurate, and timely analytical results.
+2. SCOPE: This procedure applies to all laboratory personnel
+involved in the NGS analysis of CYB5 and CYB5 Reductase
+genes. It covers the preparation, execution, and documentation
+of the analytical phase for genetic analysis.
+3. RESPONSIBILITY:
+• Laboratory Technologists: Perform the NGS workflow according to
+this SOP.
+• Supervisors: Ensure compliance with the SOP, review data, and
+validate results.
+• Quality Control (QC) Personnel: Monitor QC procedures and
+equipment calibration.
+1. DEFINITIONS:
+• CYB5: Cytochrome b5 gene.
+• CYB5R: Cytochrome b5 reductase gene.
+• NGS: Next-Generation Sequencing.
+• DNA: Deoxyribonucleic Acid.
+1. EQUIPMENT AND MATERIALS:
+• NGS sequencer (e.g., Illumina MiSeq or equivalent)
+• DNA extraction kits (e.g., QIAamp DNA Mini Kit)
+• Library preparation kits (e.g., Nextera DNA Flex Library Prep Kit)
+• PCR reagents and consumables (e.g., thermal cycler)
+• Bioinformatics software (e.g., SeqPilot, VarSeq)
+• Laboratory-grade reagents (e.g., molecular-grade water, ethanol)
+• Pipettes and sterile pipette tips
+• Vortex mixer, centrifuge, and magnetic stand
+• Personal protective equipment (PPE) and laboratory coat
+1. PROCEDURE:
+6.1. DNA Extraction:
+1. Obtain and accession the sample as per laboratory standards.
+2. Extract genomic DNA using the designated DNA extraction kit
+according to the manufacturer's instructions.
+3. Quantify and assess the purity of the DNA using
+spectrophotometry (e.g., NanoDrop) or fluorometry (e.g.,
+Qubit).
+4. Document DNA concentration and purity in the laboratory
+information system (LIS).
+6.2. Library Preparation:
+1. Perform DNA fragmentation if required (according to the library
+preparation kit instructions).
+2. Prepare the DNA library using the designated library
+preparation kit following the manufacturer's protocol.
+3. Amplify the library using PCR and purify the amplified product.
+4. Assess library concentration and size distribution using a
+bioanalyzer or equivalent instrument.
+6.3. NGS Sequencing:
+1. Load the prepared libraries onto the NGS sequencer according
+to the manufacturer's instructions.
+2. Set up the sequencing run, including the selection of
+appropriate sequencing parameters (e.g., read length,
+chemistry).
+3. Monitor the sequencing run and document any deviations or
+issues encountered.
+4. Ensure proper documentation of sequencing run conditions and
+performance.
+6.4. Data Analysis:
+1. Process raw sequencing reads using bioinformatics software to
+align sequences to the reference genome.
+2. Identify variants in CYB5 and CYB5 Reductase genes.
+3. Annotate variants based on known databases (e.g., ClinVar,
+dbSNP) and predict their potential impact.
+4. Document variant calls and their interpretation in the
+laboratory's LIS.
+6.5. Quality Control & Validation:
+1. Perform internal quality control using controls specified for
+NGS, including samples with known variants.
+2. Validate the sequencing run by verifying that quality metrics
+(e.g., coverage, read depth, base quality) are within acceptable
+limits.
+3. If quality metrics are not met, troubleshoot and rerun samples if
+necessary.
+4. REPORTING RESULTS:
+5. Generate a comprehensive report detailing the variants
+identified in CYB5 and CYB5 Reductase genes.
+6. Include interpretation of the significance of the variants
+concerning recessive congenital methemoglobinemia.
+7. Review and validate the report by a qualified laboratory
+supervisor or director.
+8. Issue the final report to the requesting physician or appropriate
+entity.
+9. REFERENCES:
+• Manufacturer's instructions for the DNA extraction kit.
+• Manufacturer's instructions for the library preparation kit.
+• Manufacturer's instructions for the NGS sequencer.
+• Relevant bioinformatics software user guides.
+• Clinical guidelines for the interpretation of genetic variants
+associated with methemoglobinemia.
+1. DOCUMENTATION: Ensure all steps from sample accessioning
+to final report generation are documented in the LIS. Include
+details of any interventions, deviations, and corrective actions.
+2. REVISION HISTORY: Record of SOP versions and
+amendments.
+Approved by: ________________ Date: ________________
+Implemented by: ________________ Date: ________________
+This SOP is effective from the implementation date and supersedes
+previous versions of the analytical phase protocol for CYB5 and
+CYB5 Reductase genetic analysis. Regular reviews and updates will
+be conducted to ensure continued accuracy and relevance.

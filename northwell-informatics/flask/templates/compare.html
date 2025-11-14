@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Prompt Comparison - Compare Different Models</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .comparison-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .prompt-panel {
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        .prompt-panel.model1 {
+            border-color: #17a2b8;
+            background-color: #f8f9fa;
+        }
+        
+        .prompt-panel.model2 {
+            border-color: #fd7e14;
+            background-color: #fff8f3;
+        }
+        
+        .prompt-input {
+            margin-bottom: 15px;
+        }
+        
+        .response-area {
+            background: white;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            padding: 15px;
+            min-height: 300px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+        }
+        
+        .model-badge {
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+        
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .status-indicator {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .comparison-stats {
+            background-color: #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .vs-separator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #6c757d;
+            margin: 20px 0;
+        }
+        
+        .run-comparison-btn {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Status Indicator -->
+        <div class="status-indicator">
+            <div id="status-badge" class="badge bg-secondary">
+                <i class="fas fa-circle"></i> Ready
+            </div>
+        </div>
+
+        <!-- Header -->
+        <div class="row mt-3">
+            <div class="col">
+                <h1 class="display-4">
+                    <i class="fas fa-balance-scale text-primary"></i>
+                    LLM Prompt Comparison
+                </h1>
+                <p class="lead">Compare responses from different LLM models with custom prompts</p>
+                
+                <!-- Navigation -->
+                <nav class="mb-4">
+                    <a href="/" class="btn btn-outline-primary">
+                        <i class="fas fa-home"></i> Main Query Interface
+                    </a>
+                    <a href="/status" class="btn btn-outline-info" target="_blank">
+                        <i class="fas fa-info-circle"></i> System Status
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Central Run Button -->
+        <div class="row mb-4">
+            <div class="col text-center">
+                <button id="run-comparison-btn" class="btn btn-success btn-lg run-comparison-btn">
+                    <i class="fas fa-play"></i> Run Comparison
+                </button>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading-spinner" class="loading-spinner">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Processing prompts...</span>
+            </div>
+            <p class="mt-2">Running prompts on both models...</p>
+        </div>
+
+        <!-- Comparison Stats -->
+        <div id="comparison-stats" class="comparison-stats" style="display: none;">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <strong>Model 1 Time:</strong><br>
+                    <span id="stats-model1-time" class="badge bg-primary">-</span>
+                </div>
+                <div class="col-md-3">
+                    <strong>Model 1 Status:</strong><br>
+                    <span id="stats-model1-status" class="badge bg-info">-</span>
+                </div>
+                <div class="col-md-3">
+                    <strong>Model 2 Status:</strong><br>
+                    <span id="stats-model2-status" class="badge bg-warning">-</span>
+                </div>
+                <div class="col-md-3">
+                    <strong>Model 2 Time:</strong><br>
+                    <span id="stats-model2-time" class="badge bg-primary">-</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- VS Separator -->
+        <div class="vs-separator">
+            <i class="fas fa-arrows-alt-h"></i> VS <i class="fas fa-arrows-alt-h"></i>
+        </div>
+
+        <!-- Side-by-Side Prompt Panels -->
+        <div class="comparison-container">
+            <!-- Model 1 Panel -->
+            <div class="prompt-panel model1">
+                <h4 class="text-info">
+                    <i class="fas fa-robot"></i> Model 1
+                </h4>
+                
+                <!-- Model Selection -->
+                <div class="mb-3">
+                    <label for="model1-select" class="form-label">Select Model:</label>
+                    <select id="model1-select" class="form-select">
+                        <option value="claude-3.7-sonnet" selected>Claude 3.7 Sonnet</option>
+                        <option value="o3">O3</option>
+                        <option value="o4-mini">O4 Mini</option>
+                        <option value="gpt-4.1">GPT-4.1</option>
+                        <option value="gpt-4.1-nano">GPT-4.1 Nano</option>
+                        <option value="gpt-4.1-mini">GPT-4.1 Mini</option>
+                        <option value="claude-sonnet-4">Claude Sonnet 4</option>
+                        <option value="claude-opus-4">Claude Opus 4</option>
+                        <option value="claude-3.5-haiku">Claude 3.5 Haiku</option>
+                        <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+                        <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+                        <option value="o1-mini">O1 Mini</option>
+                        <option value="gpt-4o-mini">GPT-4o Mini</option>
+                        <option value="gpt-4o">GPT-4o</option>
+                        <option value="claude-3.5-sonnet">Claude 3.5 Sonnet</option>
+                        <option value="gemini-2.0-flash-lite">Gemini 2.0 Flash Lite</option>
+                        <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
+                        <option value="o3-mini">O3 Mini</option>
+                        <option value="o1">O1</option>
+                        <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
+                        <option value="gemini-2.5-pro">Gemini 2.5 Pro</option>
+                    </select>
+                </div>
+
+                <!-- Prompt Input -->
+                <div class="prompt-input">
+                    <label for="prompt1-input" class="form-label">Prompt:</label>
+                    <textarea id="prompt1-input" class="form-control" rows="4" 
+                            placeholder="Enter your prompt for Model 1..."></textarea>
+                </div>
+
+                <!-- Response Area -->
+                <div class="mb-3">
+                    <label class="form-label">Response:</label>
+                    <div id="response1-area" class="response-area">
+                        No response yet. Enter a prompt and click "Run Comparison" to see the result.
+                    </div>
+                </div>
+
+                <!-- Model Badge -->
+                <div class="model-badge">
+                    <span class="badge bg-info" id="model1-badge">Model 1</span>
+                </div>
+            </div>
+
+            <!-- Model 2 Panel -->
+            <div class="prompt-panel model2">
+                <h4 class="text-warning">
+                    <i class="fas fa-robot"></i> Model 2
+                </h4>
+                
+                <!-- Model Selection -->
+                <div class="mb-3">
+                    <label for="model2-select" class="form-label">Select Model:</label>
+                    <select id="model2-select" class="form-select">
+                        <option value="o3">O3</option>
+                        <option value="o4-mini">O4 Mini</option>
+                        <option value="gpt-4.1">GPT-4.1</option>
+                        <option value="gpt-4.1-nano">GPT-4.1 Nano</option>
+                        <option value="gpt-4.1-mini" selected>GPT-4.1 Mini</option>
+                        <option value="claude-sonnet-4">Claude Sonnet 4</option>
+                        <option value="claude-opus-4">Claude Opus 4</option>
+                        <option value="claude-3.5-haiku">Claude 3.5 Haiku</option>
+                        <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+                        <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+                        <option value="o1-mini">O1 Mini</option>
+                        <option value="gpt-4o-mini">GPT-4o Mini</option>
+                        <option value="gpt-4o">GPT-4o</option>
+                        <option value="claude-3.5-sonnet">Claude 3.5 Sonnet</option>
+                        <option value="gemini-2.0-flash-lite">Gemini 2.0 Flash Lite</option>
+                        <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
+                        <option value="o3-mini">O3 Mini</option>
+                        <option value="o1">O1</option>
+                        <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
+                        <option value="gemini-2.5-pro">Gemini 2.5 Pro</option>
+                        <option value="claude-3.7-sonnet">Claude 3.7 Sonnet</option>
+                    </select>
+                </div>
+
+                <!-- Prompt Input -->
+                <div class="prompt-input">
+                    <label for="prompt2-input" class="form-label">Prompt:</label>
+                    <textarea id="prompt2-input" class="form-control" rows="4" 
+                            placeholder="Enter your prompt for Model 2..."></textarea>
+                </div>
+
+                <!-- Response Area -->
+                <div class="mb-3">
+                    <label class="form-label">Response:</label>
+                    <div id="response2-area" class="response-area">
+                        No response yet. Enter a prompt and click "Run Comparison" to see the result.
+                    </div>
+                </div>
+
+                <!-- Model Badge -->
+                <div class="model-badge">
+                    <span class="badge bg-warning" id="model2-badge">Model 2</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Judge Panel -->
+        <div id="judge-panel" class="mt-4" style="display: none;">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">
+                        <i class="fas fa-gavel"></i> AI Judge Evaluation
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="judge-model-select" class="form-label">Select Judge Model:</label>
+                            <select id="judge-model-select" class="form-select">
+                                <option value="claude-3.5-sonnet" selected>Claude 3.5 Sonnet</option>
+                                <option value="o3">O3</option>
+                                <option value="o4-mini">O4 Mini</option>
+                                <option value="gpt-4.1">GPT-4.1</option>
+                                <option value="gpt-4.1-nano">GPT-4.1 Nano</option>
+                                <option value="gpt-4.1-mini">GPT-4.1 Mini</option>
+                                <option value="claude-sonnet-4">Claude Sonnet 4</option>
+                                <option value="claude-opus-4">Claude Opus 4</option>
+                                <option value="claude-3.5-haiku">Claude 3.5 Haiku</option>
+                                <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+                                <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+                                <option value="o1-mini">O1 Mini</option>
+                                <option value="gpt-4o-mini">GPT-4o Mini</option>
+                                <option value="gpt-4o">GPT-4o</option>
+                                <option value="gemini-2.0-flash-lite">Gemini 2.0 Flash Lite</option>
+                                <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
+                                <option value="o3-mini">O3 Mini</option>
+                                <option value="o1">O1</option>
+                                <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
+                                <option value="gemini-2.5-pro">Gemini 2.5 Pro</option>
+                                <option value="claude-3.7-sonnet">Claude 3.7 Sonnet</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-end">
+                            <button id="judge-responses-btn" class="btn btn-primary">
+                                <i class="fas fa-gavel"></i> Judge Responses
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Judge Loading -->
+                    <div id="judge-loading" class="text-center mb-3" style="display: none;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Judge is evaluating...</span>
+                        </div>
+                        <p class="mt-2">Judge is evaluating responses...</p>
+                    </div>
+                    
+                    <!-- Winner Display -->
+                    <div id="winner-display" class="alert" style="display: none;">
+                        <h5 id="winner-title"><i class="fas fa-trophy"></i> Judgment Result</h5>
+                        <div id="winner-content"></div>
+                        <div class="mt-2">
+                            <small class="text-muted">Judge: <span id="judge-model-used"></span> | Processing time: <span id="judge-time"></span></small>
+                        </div>
+                    </div>
+                    
+                    <!-- Full Judgment -->
+                    <div id="judgment-display" style="display: none;">
+                        <h6>Full Evaluation:</h6>
+                        <div id="judgment-content" class="border p-3 bg-light" style="white-space: pre-wrap; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.5;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Display -->
+        <div id="error-display" class="alert alert-danger mt-4" style="display: none;">
+            <h5><i class="fas fa-exclamation-triangle"></i> Error</h5>
+            <p id="error-message"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let processingStartTime = 0;
+        let lastComparison = null; // Store the last comparison results for judging
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            updateModelBadges();
+            
+            // Event listeners
+            document.getElementById('run-comparison-btn').addEventListener('click', runComparison);
+            document.getElementById('judge-responses-btn').addEventListener('click', judgeResponses);
+            
+            // Update badges when model selection changes
+            document.getElementById('model1-select').addEventListener('change', updateModelBadges);
+            document.getElementById('model2-select').addEventListener('change', updateModelBadges);
+            
+            // Enable ctrl+enter for running comparison
+            document.getElementById('prompt1-input').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && e.ctrlKey) {
+                    runComparison();
+                }
+            });
+            document.getElementById('prompt2-input').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && e.ctrlKey) {
+                    runComparison();
+                }
+            });
+        });
+
+        function updateModelBadges() {
+            const model1 = document.getElementById('model1-select').value;
+            const model2 = document.getElementById('model2-select').value;
+            
+            document.getElementById('model1-badge').textContent = model1;
+            document.getElementById('model2-badge').textContent = model2;
+        }
+
+        function runComparison() {
+            const prompt1 = document.getElementById('prompt1-input').value.trim();
+            const prompt2 = document.getElementById('prompt2-input').value.trim();
+            const model1 = document.getElementById('model1-select').value;
+            const model2 = document.getElementById('model2-select').value;
+
+            if (!prompt1 || !prompt2) {
+                showError('Please enter prompts for both models.');
+                return;
+            }
+
+            // Show loading
+            processingStartTime = Date.now();
+            document.getElementById('loading-spinner').style.display = 'block';
+            document.getElementById('comparison-stats').style.display = 'none';
+            document.getElementById('judge-panel').style.display = 'none'; // Hide judge panel until comparison is done
+            document.getElementById('run-comparison-btn').disabled = true;
+            hideError();
+
+            // Clear previous responses and results
+            document.getElementById('response1-area').textContent = 'Processing...';
+            document.getElementById('response2-area').textContent = 'Processing...';
+            lastComparison = null;
+
+            // Call the actual LLM comparison endpoint
+            fetch('/llm_compare', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    prompt1: prompt1,
+                    prompt2: prompt2,
+                    model1: model1,
+                    model2: model2
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Store comparison data for judging
+                    lastComparison = {
+                        prompt1: prompt1,
+                        prompt2: prompt2,
+                        response1: data.model1.response,
+                        response2: data.model2.response,
+                        model1: model1,
+                        model2: model2,
+                        error1: data.model1.error,
+                        error2: data.model2.error
+                    };
+                    
+                    displayResults(
+                        data.model1.response, 
+                        data.model2.response, 
+                        model1, 
+                        model2, 
+                        data.model1.error, 
+                        data.model2.error,
+                        data.model1.processing_time_ms,
+                        data.model2.processing_time_ms
+                    );
+                    
+                    // Show judge panel if both responses are successful
+                    if (!data.model1.error && !data.model2.error) {
+                        document.getElementById('judge-panel').style.display = 'block';
+                        // Clear any previous judgment
+                        document.getElementById('winner-display').style.display = 'none';
+                        document.getElementById('judgment-display').style.display = 'none';
+                    }
+                } else {
+                    showError('Comparison failed: ' + data.error);
+                    document.getElementById('response1-area').textContent = 'Error occurred';
+                    document.getElementById('response2-area').textContent = 'Error occurred';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showError('Network error: ' + error.message);
+                document.getElementById('response1-area').textContent = 'Network error';
+                document.getElementById('response2-area').textContent = 'Network error';
+            })
+            .finally(() => {
+                document.getElementById('loading-spinner').style.display = 'none';
+                document.getElementById('run-comparison-btn').disabled = false;
+            });
+        }
+
+        function judgeResponses() {
+            if (!lastComparison) {
+                showError('No comparison results to judge. Please run a comparison first.');
+                return;
+            }
+            
+            if (lastComparison.error1 || lastComparison.error2) {
+                showError('Cannot judge responses when one or both models returned errors.');
+                return;
+            }
+            
+            const judgeModel = document.getElementById('judge-model-select').value;
+            
+            // Show loading
+            document.getElementById('judge-loading').style.display = 'block';
+            document.getElementById('judge-responses-btn').disabled = true;
+            document.getElementById('winner-display').style.display = 'none';
+            document.getElementById('judgment-display').style.display = 'none';
+            hideError();
+            
+            // Use the first prompt as the original prompt (they should be the same for fair comparison)
+            const originalPrompt = lastComparison.prompt1;
+            
+            fetch('/judge_responses', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    original_prompt: originalPrompt,
+                    response_a: lastComparison.response1,
+                    response_b: lastComparison.response2,
+                    judge_model: judgeModel
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    displayJudgment(data.judgment, data.winner, data.judge_model, data.processing_time_ms);
+                } else {
+                    showError('Judgment failed: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showError('Network error during judgment: ' + error.message);
+            })
+            .finally(() => {
+                document.getElementById('judge-loading').style.display = 'none';
+                document.getElementById('judge-responses-btn').disabled = false;
+            });
+        }
+
+        function displayJudgment(judgment, winner, judgeModel, processingTime) {
+            // Update judge info
+            document.getElementById('judge-model-used').textContent = judgeModel;
+            document.getElementById('judge-time').textContent = processingTime ? `${processingTime}ms` : 'N/A';
+            
+            // Display winner
+            const winnerDisplay = document.getElementById('winner-display');
+            const winnerContent = document.getElementById('winner-content');
+            
+            let winnerText = '';
+            let alertClass = 'alert-info';
+            
+            if (winner === 'A') {
+                winnerText = `🏆 <strong>Model 1 (${lastComparison.model1}) wins!</strong>`;
+                alertClass = 'alert-success';
+            } else if (winner === 'B') {
+                winnerText = `🏆 <strong>Model 2 (${lastComparison.model2}) wins!</strong>`;
+                alertClass = 'alert-success';
+            } else if (winner === 'Tie') {
+                winnerText = `🤝 <strong>It's a tie!</strong> Both responses are roughly equal.`;
+                alertClass = 'alert-warning';
+            } else {
+                winnerText = `🤔 <strong>Unclear result.</strong> The judge couldn't determine a clear winner.`;
+                alertClass = 'alert-secondary';
+            }
+            
+            winnerContent.innerHTML = winnerText;
+            winnerDisplay.className = `alert ${alertClass}`;
+            winnerDisplay.style.display = 'block';
+            
+            // Display full judgment
+            document.getElementById('judgment-content').textContent = judgment;
+            document.getElementById('judgment-display').style.display = 'block';
+        }
+
+        function displayResults(response1, response2, model1, model2, error1, error2, time1, time2) {
+            const totalTime = Date.now() - processingStartTime;
+            
+            // Update individual model times and status
+            document.getElementById('stats-model1-time').textContent = time1 ? `${time1}ms` : 'N/A';
+            document.getElementById('stats-model2-time').textContent = time2 ? `${time2}ms` : 'N/A';
+            document.getElementById('stats-model1-status').textContent = error1 ? `${model1} - Error` : `${model1} - Complete`;
+            document.getElementById('stats-model2-status').textContent = error2 ? `${model2} - Error` : `${model2} - Complete`;
+            
+            // Update responses with better error formatting
+            if (error1) {
+                document.getElementById('response1-area').innerHTML = `
+                    <div style="color: #dc3545; font-weight: bold; margin-bottom: 10px;">
+                        ❌ Error occurred with ${model1}:
+                    </div>
+                    <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; border-radius: 4px; padding: 10px; font-family: monospace; white-space: pre-wrap;">
+${error1}
+                    </div>
+                    <div style="margin-top: 10px; font-style: italic; color: #6c757d;">
+                        Processing time: ${time1 ? time1 + 'ms' : 'N/A'} | Check the server logs for more details or try a different model.
+                    </div>`;
+            } else {
+                document.getElementById('response1-area').textContent = response1;
+            }
+            
+            if (error2) {
+                document.getElementById('response2-area').innerHTML = `
+                    <div style="color: #dc3545; font-weight: bold; margin-bottom: 10px;">
+                        ❌ Error occurred with ${model2}:
+                    </div>
+                    <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; border-radius: 4px; padding: 10px; font-family: monospace; white-space: pre-wrap;">
+${error2}
+                    </div>
+                    <div style="margin-top: 10px; font-style: italic; color: #6c757d;">
+                        Processing time: ${time2 ? time2 + 'ms' : 'N/A'} | Check the server logs for more details or try a different model.
+                    </div>`;
+            } else {
+                document.getElementById('response2-area').textContent = response2;
+            }
+            
+            // Change status badge colors based on success/error and add time color coding
+            const status1Badge = document.getElementById('stats-model1-status');
+            const status2Badge = document.getElementById('stats-model2-status');
+            const time1Badge = document.getElementById('stats-model1-time');
+            const time2Badge = document.getElementById('stats-model2-time');
+            
+            status1Badge.className = error1 ? 'badge bg-danger' : 'badge bg-success';
+            status2Badge.className = error2 ? 'badge bg-danger' : 'badge bg-success';
+            
+            // Color code processing times - faster time gets green, slower gets yellow
+            if (time1 && time2 && !error1 && !error2) {
+                if (time1 < time2) {
+                    time1Badge.className = 'badge bg-success';  // Model 1 faster
+                    time2Badge.className = 'badge bg-warning';  // Model 2 slower
+                } else if (time2 < time1) {
+                    time1Badge.className = 'badge bg-warning';  // Model 1 slower
+                    time2Badge.className = 'badge bg-success';  // Model 2 faster
+                } else {
+                    time1Badge.className = 'badge bg-info';     // Same time
+                    time2Badge.className = 'badge bg-info';     // Same time
+                }
+            } else {
+                // Default green for Model 1, blue for Model 2 when no comparison possible
+                time1Badge.className = 'badge bg-success';
+                time2Badge.className = 'badge bg-primary';
+            }
+            
+            // Show results
+            document.getElementById('comparison-stats').style.display = 'block';
+            
+            // Hide loading and re-enable button
+            document.getElementById('loading-spinner').style.display = 'none';
+            document.getElementById('run-comparison-btn').disabled = false;
+        }
+
+        function showError(message) {
+            document.getElementById('error-message').textContent = message;
+            document.getElementById('error-display').style.display = 'block';
+        }
+
+        function hideError() {
+            document.getElementById('error-display').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

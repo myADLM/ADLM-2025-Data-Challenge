@@ -1,0 +1,117 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Generating Results for TYROSINE DISORDERS GENE PANEL,
+VARIES
+1. PURPOSE
+The purpose of this procedure is to provide a standardized method
+for the analysis of the Tyrosine Disorders Gene Panel. This SOP
+outlines the process for generating results, from sample preparation
+to final data analysis, ensuring consistency and accuracy in the
+detection of genetic variants associated with tyrosine metabolism
+disorders.
+Responsibility:
+• Designated laboratory personnel are responsible for adhering to
+this protocol.
+• The laboratory supervisor is responsible for verifying that these
+procedures are followed and for addressing any deviations.
+2. DEFINITIONS
+• Tyrosine Disorders Gene Panel: A molecular diagnostic test
+used to detect mutations in genes associated with tyrosine
+metabolism disorders.
+• NGS (Next Generation Sequencing): High-throughput
+sequencing method used to analyze multiple genes
+simultaneously.
+• Bioinformatics Analysis: The use of software tools to interpret
+sequencing data and identify genetic variants.
+3. PROCEDURE
+A. Sample Preparation
+1. DNA Extraction:
+◦ Extract genomic DNA from 2-5 mL of whole blood or 1-2 mg
+of tissue sample using a validated DNA extraction kit.
+◦ Quantify DNA concentration using a spectrophotometer or
+fluorometer.
+◦ Assess DNA quality by running an aliquot on a 1% agarose
+gel.
+2. Library Preparation:
+◦ Shear the DNA to the desired fragment size (150-200 bp)
+using a sonicator or enzyme-based method.
+◦ Use a validated library preparation kit to construct
+sequencing libraries, following the manufacturer's
+instructions.
+◦ Assess library quality and concentration using a Bioanalyzer
+or similar instrument.
+B. Sequencing
+1. Loading Samples:
+◦ Dilute libraries to the appropriate concentration for
+sequencing.
+◦ Load libraries onto the sequencing platform (e.g., Illumina
+MiSeq, NextSeq) according to the manufacturer's protocol.
+2. Sequencing Run:
+◦ Initiate the sequencing run and monitor for any issues.
+◦ Ensure that sequencing metrics (e.g., cluster density, Q-
+score) meet the quality control standards.
+C. Data Analysis
+1. Raw Data Processing:
+◦ Perform base calling to convert raw sequencing data into
+sequence reads.
+◦ Demultiplex the reads if multiple samples were pooled in a
+single run.
+2. Alignment and Variant Calling:
+◦ Align sequence reads to the reference genome (e.g.,
+GRCh38) using a validated alignment tool (e.g., BWA).
+◦ Perform variant calling to identify single nucleotide variants
+(SNVs), insertions, deletions (INDELs), and copy number
+variations (CNVs) using a validated variant caller (e.g.,
+GATK).
+3. Annotation:
+◦ Use an annotation tool (e.g., ANNOVAR) to provide
+functional annotations for identified variants.
+◦ Cross-reference variants with databases (e.g., ClinVar,
+dbSNP, OMIM) to determine clinical significance.
+D. Quality Control
+1. Internal Controls:
+◦ Include positive and negative controls in each batch of
+samples to ensure the reliability of the sequencing process.
+◦ Monitor the sequencing run quality metrics (e.g., coverage
+depth, base quality) and compare with predetermined
+thresholds.
+2. External Validation:
+◦ Periodically participate in external quality assessment (EQA)
+programs to validate the accuracy of the test.
+E. Reporting Results
+1. Result Interpretation:
+◦ Clinical scientists or geneticists shall review the variants
+identified in the context of patient clinical information to
+determine their relevance.
+◦ Interpret findings according to the latest guidelines and
+recommendations from genetics societies (e.g., ACMG
+guidelines).
+2. Result Documentation:
+◦ Document the findings in the patient report including details
+of identified variants, their clinical significance, and
+recommendations for follow-up testing if necessary.
+◦ Ensure that reports are reviewed and signed by a qualified
+clinical geneticist.
+3. Data Storage and Security
+1. Data Storage:
+◦ Store raw sequencing data, processed data, and analysis
+results securely on laboratory servers, ensuring compliance
+with data protection regulations.
+2. Data Security:
+◦ Implement appropriate security measures for data storage,
+access, and transmission to ensure patient confidentiality
+and data integrity.
+4. REFERENCES
+• Manufacturer's instructions for DNA extraction and library
+preparation kits.
+• Sequencing platform user's manual.
+• Software manuals for bioinformatics tools used (e.g., BWA,
+GATK, ANNOVAR).
+• Current genetics guidelines (e.g., ACMG guidelines) for variant
+interpretation.
+5. REVISION HISTORY
+• Include details of SOP version, date of revision, and brief
+description of changes made.
+Note: This protocol is subject to modifications and updates as
+technology evolves and new evidence-based practices emerge.
+Regular review and alignment with best practices and guidelines are
+essential for maintaining high analytical standards.

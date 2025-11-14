@@ -1,0 +1,61 @@
+{
+    "Trade/Device Name(s)": [
+        "Galen\u2122 Second Read\u2122"
+    ],
+    "Submitter Information": "Ibex Medical Analytics Ltd.",
+    "510(k) Number": "K241232",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "DEN200080"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "QPN"
+    ],
+    "Summary Letter Date": "May 2, 2024",
+    "Summary Letter Received Date": "May 2, 2024",
+    "Submission Date": "",
+    "Regulation Number(s)": [
+        "21 CFR 864.3750"
+    ],
+    "Regulation Name(s)": [
+        "Software algorithm device to assist users in digital pathology"
+    ],
+    "Analyte Class(es)": [
+        "anatomic pathology"
+    ],
+    "Analyte(s)": [
+        "Prostate adenocarcinoma (AdC)",
+        "Atypical small acinar proliferation (ASAP)"
+    ],
+    "Specimen Type(s)": [
+        "Prostate core needle biopsy (PCNB)",
+        "Formalin-fixed paraffin embedded (FFPE) tissue"
+    ],
+    "Specimen Container(s)": [],
+    "Instrument(s)/Platform(s)": [
+        "Philips Ultra Fast Scanner",
+        "Philips IMS",
+        "Philips PS27QHDCR display",
+        "Barco N.V. NV MDPC-8127 display",
+        "Computer system with Windows v10 or Mac OS v11 or higher",
+        "Web browser (Google Chrome v120 or later)"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Deep convolutional neural network",
+        "Image analysis software",
+        "Whole slide imaging"
+    ],
+    "Methodologies": [
+        "Digital pathology",
+        "Image analysis",
+        "Heatmap visualization"
+    ],
+    "Submission Type(s)": [
+        "Software",
+        "Accessory",
+        "Component"
+    ],
+    "Document Summary": "FDA 510(k) summary for Galen\u2122 Second Read\u2122 software device using deep learning to flag prostate core needle biopsy slides suspicious for cancer from digital histopathology images.",
+    "Indications for Use Summary": "Software to analyze digitized prostate core needle biopsy slides from H&E-stained FFPE tissue, flagging cases initially diagnosed as benign for pathologist review if suspicious for prostate adenocarcinoma, with outputs intended to support but not replace standard diagnosis.",
+    "fda_folder": "Pathology"
+}

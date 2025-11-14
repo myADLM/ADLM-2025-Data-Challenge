@@ -1,0 +1,125 @@
+Standard Operating Procedure (SOP) for Analytical Phase:
+Bleeding Disorders Focused Gene Panel – Next-Generation
+Sequencing
+1. PURPOSE
+The purpose of this protocol is to outline the specific procedures
+involved in the analytical phase of processing, evaluating, and
+generating results from a Bleeding Disorders Focused Gene Panel
+using next-generation sequencing (NGS).
+Responsibility:
+• Designated laboratory technologists and supervisors are
+responsible for performing, monitoring, and documenting all steps
+outlined in this protocol.
+• All personnel involved must ensure high-quality, accurate, and
+valid results by strictly adhering to the procedures.
+1. DEFINITIONS
+• Bleeding Disorders Focused Gene Panel: A specific array of
+genes associated with bleeding disorders analyzed for mutations
+or genetic variations.
+• Next-Generation Sequencing (NGS): High-throughput sequencing
+technology used to determine the sequence of nucleotides in
+DNA.
+• Quality Control (QC): Procedures followed to maintain accuracy
+and precision in assays.
+1. PROCEDURE
+Equipment, Instruments, and Reagents:
+• NGS System (e.g., Illumina, Thermo Fisher)
+• Quantification instruments (e.g., fluorometer, qPCR machine)
+• DNA extraction kits
+• Library preparation kits
+• Sequencing reagents and consumables
+• Clean and DNA-free workspace
+• Appropriate PPE (lab coats, gloves, etc.)
+• Laboratory Information System (LIS)
+A) DNA Extraction and Quantification:
+1. Sample Preparation:
+◦ Ensure each sample is properly labeled and processed
+promptly.
+◦ Perform DNA extraction using the appropriate blood or
+tissue sample according to the supplied kit’s instructions.
+◦ Quantify DNA concentration using a fluorometer and assess
+purity using UV spectroscopy.
+2. Criteria for DNA:
+◦ Final DNA concentration should fall within the acceptable
+range specified by the library preparation protocol.
+◦ Purity ratios (A260/A280) must be between 1.8 to 2.0.
+3. Documentation:
+◦ Record DNA concentration, purity, sample ID, date, and
+technologist’s initials.
+B) Library Preparation:
+1. Procedure:
+◦ Follow the manufacturer's protocol for enzymatic
+fragmentation, adapter ligation, and PCR enrichment.
+◦ Ensure proper mixing and volume precision to avoid errors.
+2. Quality Control:
+◦ Assess the size distribution of libraries using an automated
+electrophoresis system (e.g., Bioanalyzer or TapeStation).
+◦ Quantify the final libraries using qPCR.
+3. Documentation:
+◦ Log all data including library size distribution and
+concentration.
+C) Sequencing:
+1. Loading and Running:
+◦ Load libraries onto the sequencing flow cell as per
+manufacturer’s guidelines.
+◦ Enter sample information into the NGS instrument’s
+software system and initiate the sequencing run.
+◦ Monitor sequencing progress regularly.
+2. Quality Control:
+◦ Perform a real-time data check for base call accuracy,
+cluster density, and Q-scores.
+3. Documentation:
+◦ Record run ID, start and completion times, any issues
+encountered, and technologists’ initials.
+D) Data Analysis:
+1. Primary Analysis:
+◦ Use onboard software for base calling and quality filtering of
+raw sequencing data.
+◦ Generate FASTQ files.
+2. Secondary Analysis:
+◦ Align FASTQ files to the reference genome using
+bioinformatics tools (e.g., BWA, Bowtie).
+◦ Call variants (e.g., GATK, SAMtools).
+3. Tertiary Analysis:
+◦ Annotate variants using databases and tools (e.g.,
+ANNOVAR, ClinVar) to classify pathogenicity.
+4. Bioinformatics QC:
+◦ Ensure adherence to parameters like depth of coverage
+(>30X), variant quality score, and read mapping percentage.
+5. Documentation:
+◦ Maintain accurate logs of analysis workflow, parameters
+used, software versions, and technologists’ initials.
+E) Result Validation and Reporting:
+1. Review:
+◦ Have a secondary technologist or supervisor review the
+analyzed data and findings.
+◦ Check for consistency and accuracy.
+2. Interpretation:
+◦ Interpret and correlate identified variants with clinical data
+available.
+◦ Generate a comprehensive report including relevant
+findings, associated literature, and clinical significance.
+3. Documentation and Verification:
+◦ The final report must be documented in the LIS and undergo
+verification from a quality control supervisor.
+◦ Ensure patient confidentiality while handling data.
+4. Report Delivery:
+◦ Send the final validated report to the authorized healthcare
+provider.
+◦ Retain a copy of the report as per laboratory policy.
+4. QUALITY CONTROL AND TROUBLESHOOTING
+1. Regular QC:
+◦ Perform regular QC of equipment, reagents, and data to
+ensure ongoing accuracy.
+◦ Troubleshoot immediately if QC parameters fall outside the
+acceptable range.
+2. Documentation:
+◦ All QC performed must be documented in detail, including
+dates, findings, and actions taken.
+5. REFERENCES
+• Manufacturer's Instructions for all kits and instruments used.
+• Current literature on bleeding disorders and NGS guidelines.
+• CLIA guidelines and laboratory accreditation protocols.
+By adhering to this protocol, the laboratory ensures accurate and
+reliable results for the Bleeding Disorders Focused Gene Panel,
+adhering to all regulated standards.

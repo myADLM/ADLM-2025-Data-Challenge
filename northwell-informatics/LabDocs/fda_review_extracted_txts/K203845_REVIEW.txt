@@ -1,0 +1,362 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K203845
+B Applicant
+Philips Medical Systems Nederland B.V.
+C Proprietary and Established Names
+Philips IntelliSite Pathology Solution
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 -
+PSY Class II Whole Slide Imaging PA - Pathology
+System
+II Submission/Device Overview:
+A Purpose for Submission:
+Philips Medical Systems Nederland B.V., submitted K203845 due to a significant change to the
+Image Management System (IMS) subsystem of their Philips IntelliSite Pathology Solution
+(PIPS, K192259). The change is as follows: client-side rendering.
+B Type of Test:
+Not applicable.
+III Intended Use/Indications for Use:
+A Intended Use(s):
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PSY			Class II	21 CFR 864.3700 -
+Whole Slide Imaging
+System			PA - Pathology
+
+--- Page 2 ---
+See Indications for Use below.
+B Indication(s) for Use:
+The Philips IntelliSite Pathology Solution (PIPS) is an automated digital slide creation, viewing,
+and management system. The PIPS is intended for in vitro diagnostic use as an aid to the
+pathologist to review and interpret digital images of surgical pathology slides prepared from
+formalin-fixed paraffin embedded (FFPE) tissue. The PIPS is not intended for use with frozen
+section, cytology, or non-FFPE hematopathology specimens.
+The PIPS comprises the Image Management System (IMS), the Ultra Fast Scanner (UFS) and
+display. The PIPS is for creation and viewing of digital images of scanned glass slides that would
+otherwise be appropriate for manual visualization by conventional light microscopy. It is the
+responsibility of a qualified pathologist to employ appropriate procedures and safeguards to
+assure the validity of the interpretation of images obtained using PIPS.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+Philips IntelliSite Pathology Solution (PIPS) is an automated digital slide creation, viewing, and
+management system. PIPS consists of two subsystems and a display component:
+Ultra-Fast Scanner (UFS): There are no major changes to the UFS cleared under K172174. In
+summary, the UFS subsystem scans cover-slipped glass slides at 40x magnification to produce
+high-quality Whole Slide Images (WSIs) of the tissue material mounted on the glass slides. The
+slides are placed in racks which are then placed in rack slots in the UFS. The scanning procedure
+requires minimal user interaction. The UFS has a loading capacity for large batches (up to 300
+slides). On the touchscreen the scanning progress is shown. Proprietary software is used for
+image processing during acquisition. Philips’ proprietary format, iSyntax, is used to store and
+transmit the images between the UFS and the IMS. The UFS consists of optical, mechanical and
+electronic elements as well as software components. The UFS is located and operated on site in
+healthcare institutions such as clinical pathology laboratories, etc.
+Image Management System (IMS): The IMS is a software only subsystem and consists of the
+IMS Application Server and Storage software and IMS Viewer software installed on compatible
+server hardware. Functionality of the IMS includes the ability to view WSIs, organize workload,
+and annotate and bookmark scanned WSIs. The IMS Viewer will operate in the user's work
+environment using the display (component of the PIPS) to display WSIs. The IMS Application
+Server and Storage software will operate in a controlled environment, typically a server room
+separate from the pathology departments. One or more client computers with intranet/internet
+connection to the IMS, meeting the minimum requirements (see Table 16-3 and Table 16-4 of
+Section 16.3.1), and display are required for viewing images from the IMS. Client computers are
+K203845 - Page 2 of 7
+
+--- Page 3 ---
+not part of the PIPS and will either be located in healthcare institutions such as clinical pathology
+laboratories, etc. or in a pathology office.
+Client-Side Rendering: Image processing is performed at the client computer (i.e., client-side
+rendering) instead of at the server side. Client-side rendering utilizes Web Graphics Library
+(WebGL), which is a JavaScript Application Programming Interface (API), for image processing
+within a browser. WebGL allows using the computational power of a Graphics Processing Unit
+(GPU) on the client computer. Offloading image processing to the GPU speeds up rendering. A
+Philips service engineer can only configure the server or client-side rendering option. This option
+is called “Use my computer for image processing”. When the option “Use my computer for
+image processing” is enabled, additional requirements with respect to the Video Card are
+applicable as follows: Video card minimum specifications - GPU Memory: 4GB; GeForce GTX
+1050 Ti or similar; Memory bandwidth: 112 GB/s. The recommended browser for client-side
+rendering is Chrome.
+Philips PP27QHD Display: There are no changes introduced for the display. In summary, the
+Philips PP27QHD display is connected to a client computer with access to the IMS Viewer. The
+display is calibrated using the built-in calibration sensor and software tool, which perform
+automatically a periodic calibration. The pathologist uses the display for viewing WSIs using the
+IMS Viewer software.
+B Instrument Description Information:
+1. Instrument Name:
+Philips IntelliSite Pathology Solution (PIPS)
+2. Specimen Identification:
+Not applicable.
+3. Specimen Sampling and Handling:
+Not applicable.
+4. Calibration:
+Not applicable.
+5. Quality Control:
+Not applicable.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+K203845 - Page 3 of 7
+
+--- Page 4 ---
+Philips IntelliSite Pathology Solution (PIPS)
+B Predicate 510(k) Number(s):
+K192259
+C Comparison with Predicate:
+Device & Predicate
+K203845 K192259
+Device(s):
+Philips Intellisite Philips Intellisite
+Device Trade Name Pathology Solution Pathology Solution
+(PIPS) (PIPS)
+General Device
+Characteristic Similarities
+The Philips IntelliSite
+Pathology Solution
+(PIPS) is an automated
+digital slide creation,
+viewing, and
+management system.
+The PIPS is intended
+for in vitro diagnostic
+use as an aid to the
+pathologist to review
+and interpret digital
+images of surgical
+pathology slides
+prepared from formalin-
+Intended Use/Indications
+fixed paraffin Same
+For Use
+embedded (FFPE)
+tissue. The PIPS is not
+intended for use with
+frozen section,
+cytology, or non-FFPE
+hematopathology
+specimens.
+The PIPS comprises the
+Image Management
+System (IMS), the Ultra
+Fast Scanner (UFS) and
+display. The PIPS is for
+creation and viewing of
+digital images of
+K203845 - Page 4 of 7
+
+[Table 1 on page 4]
+	Device & Predicate		K203845	K192259
+	Device(s):			
+Device Trade Name			Philips Intellisite
+Pathology Solution
+(PIPS)	Philips Intellisite
+Pathology Solution
+(PIPS)
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			The Philips IntelliSite
+Pathology Solution
+(PIPS) is an automated
+digital slide creation,
+viewing, and
+management system.
+The PIPS is intended
+for in vitro diagnostic
+use as an aid to the
+pathologist to review
+and interpret digital
+images of surgical
+pathology slides
+prepared from formalin-
+fixed paraffin
+embedded (FFPE)
+tissue. The PIPS is not
+intended for use with
+frozen section,
+cytology, or non-FFPE
+hematopathology
+specimens.
+The PIPS comprises the
+Image Management
+System (IMS), the Ultra
+Fast Scanner (UFS) and
+display. The PIPS is for
+creation and viewing of
+digital images of	Same
+
+--- Page 5 ---
+scanned glass slides that
+would otherwise be
+appropriate for manual
+visualization by
+conventional light
+microscopy. It is the
+responsibility of a
+qualified pathologist to
+employ appropriate
+procedures and
+safeguards to assure the
+validity of the
+interpretation of images
+obtained using PIPS.
+General Device
+Characteristic Differences
+To reduce the network
+bandwidth requirements
+and improve scalability,
+an option is added
+Most image processing
+(configurable by a
+logic (e.g.
+Philips service
+decompression,
+engineer) that moves
+Image Review and sharpening and contrast
+the image processing
+enhancement) are
+Manipulation Software –
+logic (i.e.
+performed on the server
+Computer Environment
+decompression,
+side.
+sharpening and contrast
+The programming
+enhancement) from the
+language is C#.
+server side to the client
+side.
+The programming
+language is JavaScript.
+VI Standards/Guidance Documents Referenced:
+• ISO 14971: 2007: Medical devices – Application of risk management to medical devices
+• ISO 15223-1: 2016: Medical devices: Symbols to be used with medical device labels,
+labelling and information to be supplied – Part 1: General requirements
+• IEC 62304:2006 Amd 1: 2015: Medical device software – Software life-cycle processes
+• IEC 62366-1: 2015: Medical devices – Application of usability engineering to medical
+devices
+VII Performance Characteristics (if/when applicable):
+K203845 - Page 5 of 7
+
+[Table 1 on page 5]
+			scanned glass slides that
+would otherwise be
+appropriate for manual
+visualization by
+conventional light
+microscopy. It is the
+responsibility of a
+qualified pathologist to
+employ appropriate
+procedures and
+safeguards to assure the
+validity of the
+interpretation of images
+obtained using PIPS.	
+	General Device			
+	Characteristic Differences			
+Image Review and
+Manipulation Software –
+Computer Environment			To reduce the network
+bandwidth requirements
+and improve scalability,
+an option is added
+(configurable by a
+Philips service
+engineer) that moves
+the image processing
+logic (i.e.
+decompression,
+sharpening and contrast
+enhancement) from the
+server side to the client
+side.
+The programming
+language is JavaScript.	Most image processing
+logic (e.g.
+decompression,
+sharpening and contrast
+enhancement) are
+performed on the server
+side.
+The programming
+language is C#.
+
+--- Page 6 ---
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable.
+2. Linearity:
+Not applicable.
+3. Analytical Specificity/Interference:
+Not applicable.
+4. Accuracy (Instrument):
+Not applicable.
+5. Carry-Over:
+Not applicable.
+B Other Supportive Instrument Performance Characteristics Data:
+The K203845 was submitted to seek clearance for one significant change, the client-side
+rendering to the Image Management System (IMS), the software subsystem of the Philips
+IntelliSite Pathology Solution (PIPS, K192259).
+Verification testing activities have been performed to support the substantial equivalence
+determination for the modified IMS containing the client-side rendering change which included:
+1. A pixel comparison test to determine pixel equivalence using the ‘Regression SingleTest’
+methodology that loads a reference image and reads the displayed pixel from the user
+interface into a test image to verify that the displayed RGB output values of each pixel are
+identical with the reference image input.
+Reference Data Set: A Reference Data Set is created by importing a set of 85 Whole Slide
+Images (WSIs) in a clinically validated product and storing from the pixels from 3377
+selected regions of these WSIs in png images (i.e. reference png image) with 1.2*109 pixels.
+Test acceptance criteria: The displayed RGB output values of each pixel in the test image of
+the proposed product need to be identical with the reference bitmap image from the clinically
+validated product. When all test images are identical with the related reference bitmap
+images then the test results meet the acceptance criteria and the conclusion is that the test
+‘passed’.
+Test execution: During the test execution, the same WSIs used to create the Reference Data
+Set are imported in the proposed product. For this RegressionSingleTest a version of the IMS
+HTML viewer is used that does not contain users controls but allows for retrieval of the pixel
+data by a test framework.
+K203845 - Page 6 of 7
+
+--- Page 7 ---
+IMS HTML viewer test method: The RegressionSingleTest executes the following steps for
+each browser (i.e., Chrome):
+1. Import 85 WSIs from the Reference Data Set in the proposed IMS.
+2. For each of the 3377 selected regions:
+• Open the region in the IMS HTML viewer,
+• Read the displayed pixels from the User Interface (HTMLCanvasElement class)
+into a test image,
+• Load the pixels from the reference bitmap image,
+• Compare the displayed pixels (RGB) of the test image with the pixels in the related
+reference bitmap image for equivalence.
+3. When all 3377 test images are identical with the reference bitmap images then report
+‘passed’, otherwise report ‘fail’.
+Test Results: All test results passed.
+2. Testing of requirements, risk control measures, integration and regression
+The verification testing activities performed, support the substantial equivalence determination
+of the subject Philips Intellisite Pathology Solution (PIPS) (K203845) with the modified Image
+Management System to the predicate Philips Intellisite Pathology Solution (PIPS) (K192259).
+Cybersecurity
+Security Threat analysis was performed for IMS version 4.1.1 and compared to previous version,
+IMS 3.2.1. No additional security risks were identified.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K203845 - Page 7 of 7

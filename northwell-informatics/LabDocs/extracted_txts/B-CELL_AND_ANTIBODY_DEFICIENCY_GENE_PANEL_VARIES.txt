@@ -1,0 +1,105 @@
+STANDARD OPERATING PROCEDURE (SOP)
+Title: Analytical Phase of Generating Results for B-Cell and
+Antibody Deficiency Gene Panel, Varies
+1. PURPOSE
+To outline the procedure for the analysis and generation of results for
+the B-Cell and Antibody Deficiency Gene Panel, which involves next-
+generation sequencing (NGS) for detecting genetic variants
+associated with B-cell and antibody deficiencies.
+2. SCOPE
+This SOP applies to all qualified laboratory personnel involved in the
+analytical phase of the B-Cell and Antibody Deficiency Gene Panel
+testing.
+3. RESPONSIBILITIES
+• Laboratory Technologist/Scientist: Responsible for performing
+the sequencing run, data analysis, and initial result interpretation.
+• Bioinformatics Specialist: Responsible for advanced data
+analysis and annotation.
+• Laboratory Supervisor/Manager: Responsible for reviewing and
+approving the final report.
+4. DEFINITIONS
+• NGS: Next-Generation Sequencing, a method used to rapidly
+sequence large amounts of DNA.
+• FASTQ: A text-based format used to store both a nucleotide
+sequence and its corresponding quality scores.
+• VCF: Variant Call Format, a standard format for storing gene
+sequence variations.
+• BAM: Binary Alignment Map, a binary format for storing sequence
+data.
+• QC: Quality Control, a set of procedures intended to ensure that a
+manufactured product or performed service adheres to a defined
+set of quality criteria or meets the requirements of the client or
+customer.
+5. EQUIPMENT AND MATERIALS
+• NGS Sequencer (e.g., Illumina MiSeq)
+• Pipettes and filter tips
+• Thermal Cycler
+• Reagents and consumables specific to the NGS platform
+6. PROCEDURE
+A. DNA Extraction and Quantification
+1. Extract DNA from patient samples using a validated extraction
+kit following the manufacturer’s instructions.
+2. Measure DNA concentration and purity using a
+spectrophotometer or fluorometric method.
+3. Ensure DNA quality meets the specified criteria (e.g., A260/280
+ratio between 1.8 and 2.0).
+B. Library Preparation
+1. Prepare DNA libraries using a validated library preparation kit.
+2. Quantify and assess the quality of prepared libraries using a
+fluorometer and/or Bioanalyzer.
+3. Pool libraries to meet the required sequencing coverage.
+C. Sequencing
+1. Load the pooled library onto the NGS sequencer according to
+the manufacturer’s instructions.
+2. Start the sequencing run according to the software protocol.
+3. Monitor the sequencing run for completion and any errors.
+D. Data Analysis
+1. Generate FASTQ files from the sequencer.
+2. Perform initial quality control (QC) on the FASTQ files using
+suitable QC software (e.g., FastQC).
+3. Align sequence reads to the reference genome using an
+alignment tool (e.g., BWA).
+4. Convert the alignment file to BAM format and sort the BAM file.
+5. Perform variant calling to generate a VCF file.
+6. Annotate variants using a variant annotation tool (e.g.,
+ANNOVAR).
+E. Quality Control and Data Interpretation
+1. Review alignment statistics and variant calling metrics to
+ensure data quality.
+2. Filter variants based on quality criteria (e.g., read depth, allele
+frequency).
+3. Interpret clinically relevant variants in the context of B-cell and
+antibody deficiency.
+F. Reporting
+1. Compile results into a draft report including information on
+detected variants, their clinical significance, and any relevant
+literature references.
+2. Present the draft report to a senior laboratory staff member for
+review.
+3. Generate the final report after review and approval.
+4. Upload the report to the Laboratory Information System (LIS)
+and notify the ordering physician.
+7. QUALITY CONTROL
+• Run positive and negative controls with each batch of samples.
+• Perform periodic calibration and maintenance of equipment per
+manufacturer's guidelines.
+• Document all quality control procedures and any deviations.
+8. REFERENCES
+• Refer to the manufacturer’s user manuals for extraction kits,
+library preparation kits, and sequencing instruments.
+• Current literature on B-cell and antibody deficiency guidelines.
+9. REVISION HISTORY
+• v1.0 – Initial release (January 2023)
+• v2.0 – Revision for compliance with updated guidelines (October
+2023)
+10. APPROVALS
+Prepared by:
+(Name, Title, Date)
+Reviewed by:
+(Name, Title, Date)
+Approved by:
+(Name, Title, Date)
+This protocol ensures consistent and high-quality results in the
+analysis of the B-Cell and Antibody Deficiency Gene Panel,
+contributing to accurate diagnosis and treatment planning for affected
+patients.

@@ -1,0 +1,106 @@
+Standard Operating Procedure (SOP)
+SARCOMA TARGETED GENE FUSION/REARRANGEMENT
+PANEL, NEXT-GENERATION SEQUENCING, TUMOR
+1. PURPOSE
+To provide a standardized procedure for the analytical phase of
+performing Next-Generation Sequencing (NGS) targeted gene fusion/
+rearrangement panel for sarcoma tumors. This ensures accurate and
+reliable detection of clinically relevant gene fusions and
+rearrangements, aiding in the diagnosis and treatment of sarcoma
+patients.
+Responsibility:
+Designated laboratory personnel are responsible for performing and
+documenting each step of this procedure. Laboratory supervisors are
+responsible for ensuring adherence to this SOP and for addressing
+any deviations or issues that arise.
+2. DEFINITION
+Next-Generation Sequencing (NGS): A high-throughput sequencing
+method that allows the simultaneous sequencing of multiple DNA or
+RNA fragments to identify genetic variations.
+Gene Fusion/Rearrangement: A genetic alteration where one gene
+fuses with another or undergoes rearrangement, which can result in
+abnormal cell function and is often associated with cancer.
+3. PROCEDURE
+A. Sample Preparation
+1. Specimen: Formalin-Fixed Paraffin-Embedded (FFPE) tissue
+blocks or slides from sarcoma tumor samples.
+2. Extraction: Extract DNA and/or RNA using validated extraction
+kits and protocols. Ensure the quality and quantity of nucleic
+acids by measuring concentration and assessing purity.
+3. Quality Control: Determine the integrity of extracted nucleic
+acids using agarose gel electrophoresis or a bioanalyzer.
+Document all quality control results.
+B. Library Preparation
+1. Input Requirements: Ensure DNA/RNA input meets the
+required quantity and quality thresholds as specified by the
+library preparation kit manufacturer.
+2. Reverse Transcription (if RNA): Convert RNA into
+complementary DNA (cDNA) using reverse transcriptase.
+3. Target Enrichment: Use a targeted enrichment kit specific to
+sarcoma gene fusions/rearrangements to capture regions of
+interest.
+4. Library Construction: Complete the library preparation
+process by adding adapters and unique molecular identifiers
+(UMIs) for sequencing.
+5. Amplification: Amplify the enriched library using PCR. Ensure
+that the number of cycles does not exceed the recommended
+limit to avoid over-amplification.
+6. Quality Control: Assess the quality and size distribution of the
+prepared libraries using a bioanalyzer. Document all quality
+control results.
+C. Sequencing
+1. Platform: Load the prepared libraries onto the sequencer (e.g.,
+Illumina, Thermo Fisher) according to the manufacturer's
+instructions.
+2. Sequencing Run: Initiate the sequencing run and monitor its
+progress. Ensure that all quality metrics meet the acceptable
+thresholds for a successful run (e.g., Q30 scores, cluster
+density).
+D. Data Analysis
+1. Raw Data Processing: Use bioinformatics pipelines to process
+raw sequencing data. Steps include demultiplexing, adapter
+trimming, and alignment to the reference genome.
+2. Variant Calling: Identify gene fusions and rearrangements
+using specialized software tools. Ensure high confidence in
+variant calls by applying appropriate filters and thresholds.
+3. Interpretation: Annotate identified gene fusions/
+rearrangements with relevant clinical information and
+classification. Use databases and literature to aid in
+interpretation.
+4. Quality Control: Perform quality checks at each analysis step
+to ensure data integrity. Document any deviations from
+expected results and take corrective actions if necessary.
+E. Reporting
+1. Result Verification: Verify the final results by an experienced
+molecular pathologist or designated personnel.
+2. Report Generation: Create a comprehensive report
+summarizing the identified gene fusions/rearrangements, their
+clinical significance, and any recommended follow-up actions.
+3. Result Communication: Ensure timely communication of
+results to the requesting physician or clinical team. Document
+the communication of critical results following laboratory policy.
+F. Quality Control and Assurance
+1. External Controls and Standards: Run positive and negative
+controls alongside patient samples to ensure assay accuracy
+and specificity.
+2. Proficiency Testing: Participate in external proficiency testing
+programs to validate the accuracy and reliability of the assay.
+3. Documentation: Maintain thorough documentation of all steps,
+controls, and results. Store data in compliance with regulatory
+requirements.
+4. REFERENCES
+• Manufacturer’s instructions for DNA/RNA extraction kits.
+• Manufacturer’s protocol for library preparation and sequencing
+kits.
+• Bioinformatics software manuals for data processing and variant
+calling.
+• Relevant clinical guidelines and literature for the interpretation of
+gene fusions/rearrangements.
+5. TRAINING AND COMPETENCY
+All laboratory personnel performing sarcoma targeted gene fusion/
+rearrangement panel NGS testing must undergo initial training and
+yearly competency assessments. Training records should be
+maintained and reviewed regularly.
+Note: This protocol is subject to change based on new
+developments and regulatory guidelines. Always refer to the
+latest version of the SOP.

@@ -1,0 +1,347 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k102778
+B. Purpose for Submission:
+Modification of device for additional body fluid application
+C. Manufacturer and Instrument Name:
+CellaVision AB, CellaVision® DM 1200 with the body fluid application
+D. Type of Test or Tests Performed:
+White Blood Cells differential (peripheral blood smear), RBC characterization,
+Platelet estimation, White Blood Cells differential (cytocentrifuged body fluid
+smear).
+E. System Descriptions:
+1. Device Description:
+CellaVision® DM 1200 with the body fluid application is very similar to the
+predicate (CellaVision® DM96 with the body fluid application, k080595) in
+terms of technology, functionality, and intended use. The device automatically
+locates and presents images of nucleated cells on cytocentrifuged body fluid
+preparations. The system suggests a classification for each cell and the operator
+verifies the classification and has the opportunity to change the suggested
+classification of any cell. The system preclassifies to the following WBC classes:
+Unidentified, Neutrophils, Eosinophils, Lymphocytes, Macrophages (including
+Monocytes) and Other. Cells preclassified as Basophils, Lymphoma cells,
+Atypical Lymphocytes, Blasts and Tumor cells are automatically forwarded to the
+cell class Other. Unidentified is a class for cells and objects which the system has
+preclassified with a low confidence level.
+2. Principles of Operation:
+Body fluid samples are prepared by using a cytocentrifuge and a staining unit.
+Twelve slides can be loaded into each magazine. The magazines are put into the
+system and the slides are then processed individually. The analysis process
+consists of an overview image processing and a cell-location step. The body fluid
+overview image displays the entire sample area. The overview image can be used
+to find cells of interest and for getting an overall impression of the sample. The
+overview image can either have one 10x zoom level or both 10x and 50x zoom
+levels. The cell-location step uses the optical unit and a camera taking images of
+the identified cells and transferring them to a computer system. The computer
+system preclassifies the images and stores the images of the located cells and the
+results in a database, and displays the images in an organized manner.
+3. Modes of Operation:
+The CellaVision® DM 1200 is an automated cell-locating device. Stained slides
+are loaded into a magazine with the capacity for 12 slides. The device fits one
+magazine.
+4. Specimen Identification:
+The device requires barcode labeled slides for processing.
+5. Specimen Sampling and Handling:
+1
+
+--- Page 2 ---
+Glass slide with ground or clipped corners containing cytocentrifuged and stained
+body fluid is analyzed. The cytocetrifugation and staining occurs separately from
+the device.
+6. Calibration:
+Not applicable
+7. Quality Control:
+The cell location test is used to verify the slide preparation process and the system
+hardware. In addition, the device performs self-tests during startup of the
+software, and at certain points during the operation of the system. When the
+software starts, the system is checked before the operator can start analyses.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.5260, Automated cell-locating device
+2. Classification:
+Class II
+3 Product code:
+JOY
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+DM1200 is an automated system intended for in-vitro diagnostic use.
+The body fluid application is intended for differential count of white blood cells.
+The system automatically locates and presents images of cells on cytocentrifuged
+body fluid preparations. The operator identifies and verifies the suggested
+classification of each cell according to type.
+DM1200 is intended to be used by skilled operators, trained in the use of the
+device and in recognition of blood cells.
+2. Special Conditions for Use Statement(s):
+Not applicable
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+CellaVision® DM96 with the body fluid application, k080595
+2. Comparison with Predicate Device:
+Similarities
+Item DM1200 DM96 (Predicate)
+Intended use Automated cell-locating device for cell- Same
+location and identification of white blood
+cells in cytocentrifuged body fluid
+preparations, for in-vitro diagnostic use.
+Verification of results by skilled human
+operator.
+2
+
+[Table 1 on page 2]
+Similarities								
+	Item			DM1200			DM96 (Predicate)	
+Intended use			Automated cell-locating device for cell-
+location and identification of white blood
+cells in cytocentrifuged body fluid
+preparations, for in-vitro diagnostic use.
+Verification of results by skilled human
+operator.			Same		
+
+--- Page 3 ---
+Similarities
+Item DM1200 DM96 (Predicate)
+Sample type/Sample Body fluid samples are prepared using a Same
+preparation cytocentrifuge and stained with a
+Romanowsky stain.
+Analysis technique Nucleated cells are located/counted by Same
+moving according to the battlement track
+pattern. Cell images are analyzed using
+standard mathematical methods, including
+deterministic artificial neural networks
+(ANN’s) trained to distinguish between
+classes of white blood cells.
+The cell images are preclassified by the
+system and the operator verifies the suggested
+classification by either accepting or
+reclassifying.
+Overview image The device presents an overview image. The Same
+image gives the operator possibilities to get an
+overview on parts of or the whole slide in
+different magnifications.
+Differences
+Item DM1200 DM96 (Predicate)
+Slide handling/ Slides are loaded into a magazine with the Slides are loaded into
+Loading capacity capacity of 12 slides. Device fits one magazines with the
+magazine. capacity of 12 slides
+each. Device fits eight
+magazines.
+Throughput estimate 3 to 15 slides per hour for differential 7 to 25 slides per hour
+for differential
+I. Special Control/Guidance Document Referenced (if applicable):
+EP05-A2, Evaluation of Precision Performance of Quantitative Measurement
+Methods. Approved Guideline – Second Edition. CLSI
+EP09-A2, Method Comparison and Bias Estimation Using Patient Samples;
+Approved Guideline, Second Edition. CLSI
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+A method comparison of CellaVision® DM 1200 with the body fluid
+application (test method) and Cellavision® DM96 with the body fluid
+application (predicate method) was performed. A 200-cell differential
+leukocyte count was obtained on duplicate slides. The study occurred at two
+separate clinical sites. The acceptance criteria are as follows: Slope between
+0.9 – 1.1 within 95% confidence interval and an intercept between -0.1 - +0.1
+within the 95% confidence interval.
+3
+
+[Table 1 on page 3]
+Similarities								
+	Item			DM1200			DM96 (Predicate)	
+Sample type/Sample
+preparation			Body fluid samples are prepared using a
+cytocentrifuge and stained with a
+Romanowsky stain.			Same		
+Analysis technique			Nucleated cells are located/counted by
+moving according to the battlement track
+pattern. Cell images are analyzed using
+standard mathematical methods, including
+deterministic artificial neural networks
+(ANN’s) trained to distinguish between
+classes of white blood cells.
+The cell images are preclassified by the
+system and the operator verifies the suggested
+classification by either accepting or
+reclassifying.			Same		
+Overview image			The device presents an overview image. The
+image gives the operator possibilities to get an
+overview on parts of or the whole slide in
+different magnifications.			Same		
+
+[Table 2 on page 3]
+Differences								
+	Item			DM1200			DM96 (Predicate)	
+Slide handling/
+Loading capacity			Slides are loaded into a magazine with the
+capacity of 12 slides. Device fits one
+magazine.			Slides are loaded into
+magazines with the
+capacity of 12 slides
+each. Device fits eight
+magazines.		
+Throughput estimate			3 to 15 slides per hour for differential			7 to 25 slides per hour
+for differential		
+
+--- Page 4 ---
+Total samples included in the study.
+Type Number of samples
+CSF 62
+Serous fluid 151
+Synovial fluid 47
+Total 260
+Accuracy results. All samples included (pooled data).
+Cell class Accuracy 95% CI Slope 95% CI Intercept Number of
+samples
+Neutrophils y = 0.9969x + 0.0050 0.9868–1.0070 0.0004–0.0096 260
+R2= 0.9932
+Lymphocytes y = 0.9815x + 0.0016 0.9656–0.9973 -0.0049–0.0081 260
+R2 = 0.9829
+Eosinophils y = 1.1048x - 0.0002 1.0782–1.1314 -0.0007–0.0003 260
+R2 = 0.9629
+Macrophages y = 1.0067x - 0.0050 0.9901–1.0232 -0.0125–0.0024 260
+R2 = 0.9823
+Other cells y = 0.9534 + 0.0032 0.9207–0.9861 -0.0002–0.0065 260
+R2 = 0.9273
+b. Precision
+Repeatability:
+Two samples were prepared in duplicate and labeled sample A and sample B.
+The evaluation consisted of a 200-cell differential count performed on
+cytocentrifuged body fluid preparations. The differential count was repeated
+twenty times (n = 20) using two CellaVision® DM 1200 instruments. Results
+of the study including acceptance criteria are displayed in the following
+tables:
+Precision results sample A
+Cell Class Mean S % CV % S % CV % Acceptance
+r T
+% within- within- within- within- Criteria
+run run device device
+Neutrophils 3.8 1.6 N/A 1.5 N/A ≤ 3% SD
+Lymphocytes 29.0 2.9 10.2 3.4 11.8 ≤ 20% CV
+Macrophages 63.0 2.6 4.2 3.1 3.9 ≤ 8% CV
+Other Cells 1.0 0.9 N/A 0.8 N/A ≤ 3% SD
+Neutrophils 6.9 1.5 N/A 1.4 N/A ≤ 3% SD
+Lymphocytes 30.1 4.2 13.9 3.9 12.9 ≤ 20% CV
+Macrophages 59.0 3.5 5.9 3.5 6.0 ≤ 20% CV
+Other Cells 1.0 1.0 N/A 0.9 N/A ≤ 3% SD
+4
+
+[Table 1 on page 4]
+Type	Number of samples
+CSF	62
+Serous fluid	151
+Synovial fluid	47
+Total	260
+
+[Table 2 on page 4]
+Cell class	Accuracy	95% CI Slope	95% CI Intercept	Number of
+samples
+Neutrophils	y = 0.9969x + 0.0050
+R2= 0.9932	0.9868–1.0070	0.0004–0.0096	260
+Lymphocytes	y = 0.9815x + 0.0016
+R2 = 0.9829	0.9656–0.9973	-0.0049–0.0081	260
+Eosinophils	y = 1.1048x - 0.0002
+R2 = 0.9629	1.0782–1.1314	-0.0007–0.0003	260
+Macrophages	y = 1.0067x - 0.0050
+R2 = 0.9823	0.9901–1.0232	-0.0125–0.0024	260
+Other cells	y = 0.9534 + 0.0032
+R2 = 0.9273	0.9207–0.9861	-0.0002–0.0065	260
+
+[Table 3 on page 4]
+Cell Class	Mean
+%	S %
+r
+within-
+run	CV %
+within-
+run	S %
+T
+within-
+device	CV %
+within-
+device	Acceptance
+Criteria
+Neutrophils	3.8	1.6	N/A	1.5	N/A	≤ 3% SD
+Lymphocytes	29.0	2.9	10.2	3.4	11.8	≤ 20% CV
+Macrophages	63.0	2.6	4.2	3.1	3.9	≤ 8% CV
+Other Cells	1.0	0.9	N/A	0.8	N/A	≤ 3% SD
+Neutrophils	6.9	1.5	N/A	1.4	N/A	≤ 3% SD
+Lymphocytes	30.1	4.2	13.9	3.9	12.9	≤ 20% CV
+Macrophages	59.0	3.5	5.9	3.5	6.0	≤ 20% CV
+Other Cells	1.0	1.0	N/A	0.9	N/A	≤ 3% SD
+
+--- Page 5 ---
+Precision results sample B
+Cell Class Mean S % CV % S % CV % Acceptance
+r T
+% within- within- within- within- Criteria
+run run device device
+Neutrophils 4.2 1.2 N/A 1.1 N/A ≤ 3% SD
+Lymphocytes 71.2 2.6 3.7 2.2 3.1 ≤ 8% CV
+Macrophages 18.6 1.7 9.3 1.7 9.0 ≤ 20% CV
+Other Cells 2.2 0.8 N/A 0.7 N/A ≤ 3% SD
+Neutrophils 3.3 1.6 N/A 1.2 N/A ≤ 3% SD
+Lymphocytes 72.4 1.9 2.6 1.6 2.2 ≤ 8% CV
+Macrophages 20.2 1.7 8.7 1.4 7.0 ≤ 20% CV
+Other Cells 1.8 0.9 N/A 0.7 N/A ≤ 3% SD
+Reproducibility
+A reproducibility study was conducted at three sites using three CellaVision®
+DM 1200 instruments with each site processing the same twelve samples in
+duplicate, for 20 operating days (n = 120 per sample). All results of the study
+demonstrate that the precision of the CellaVision® DM 1200 between
+different devices, sites, operators, and days is within the acceptance criteria
+listed in the following table:
+Precision acceptance criteria (reproducibility)
+Differential value Acceptance criteria
+0-10 % ≤ 3% SD
+11-60 % ≤ 20% CV
+61-100 % ≤ 8% CV
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above: none
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+5
+
+[Table 1 on page 5]
+Cell Class	Mean
+%	S %
+r
+within-
+run	CV %
+within-
+run	S %
+T
+within-
+device	CV %
+within-
+device	Acceptance
+Criteria
+Neutrophils	4.2	1.2	N/A	1.1	N/A	≤ 3% SD
+Lymphocytes	71.2	2.6	3.7	2.2	3.1	≤ 8% CV
+Macrophages	18.6	1.7	9.3	1.7	9.0	≤ 20% CV
+Other Cells	2.2	0.8	N/A	0.7	N/A	≤ 3% SD
+Neutrophils	3.3	1.6	N/A	1.2	N/A	≤ 3% SD
+Lymphocytes	72.4	1.9	2.6	1.6	2.2	≤ 8% CV
+Macrophages	20.2	1.7	8.7	1.4	7.0	≤ 20% CV
+Other Cells	1.8	0.9	N/A	0.7	N/A	≤ 3% SD
+
+[Table 2 on page 5]
+Differential value	Acceptance criteria
+0-10 %	≤ 3% SD
+11-60 %	≤ 20% CV
+61-100 %	≤ 8% CV

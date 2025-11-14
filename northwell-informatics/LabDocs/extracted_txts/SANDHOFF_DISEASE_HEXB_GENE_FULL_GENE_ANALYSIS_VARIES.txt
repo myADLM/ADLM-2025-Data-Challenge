@@ -1,0 +1,109 @@
+STANDARD OPERATING PROCEDURE (SOP)
+Title: Analytical Phase Protocol for Detection of Variants in
+HEXB Gene for Sandhoff Disease
+1. PURPOSE
+To provide a standardized protocol for the analytical phase of genetic
+testing for Sandhoff Disease through full gene analysis of the HEXB
+gene.
+2. SCOPE
+This SOP applies to the molecular diagnostic testing for Sandhoff
+Disease within our CLIA-certified laboratory.
+3. RESPONSIBILITY
+It is the responsibility of qualified laboratory personnel to perform the
+HEXB gene analysis according to this SOP. All staff are responsible
+for the accurate documentation and quality control throughout the
+testing process. Supervisors are responsible for reviewing and
+verifying the results.
+4. SAMPLE REQUIREMENT
+• DNA sample extracted from peripheral blood, saliva, or buccal
+swab.
+• Minimum DNA concentration: 10 ng/µL.
+• Total volume: at least 30 µL.
+5. EQUIPMENT AND REAGENTS
+• PCR Thermal Cycler.
+• Next-Generation Sequencing (NGS) platform.
+• Standard PCR reagents including buffers, dNTPs, HEXB-specific
+primers, and Taq polymerase.
+• NGS library preparation kit.
+• Quality control reagents for DNA quantification (e.g., Qubit dsDNA
+HS Assay Kit).
+• Bioinformatics pipeline tools (e.g., BWA, GATK, ANNOVAR).
+6. PROCEDURE
+Step 1: PCR Amplification of HEXB Gene
+A) PCR Reaction Setup:
+• Prepare the PCR master mix as follows:
+◦ 10 µL of DNA sample.
+◦ 2.5 µL of 10X PCR buffer.
+◦ 2.0 µL of MgCl2 (25 mM).
+◦ 0.5 µL of dNTPs (10 mM each).
+◦ 0.5 µL of HEXB-specific forward primer (10 µM).
+◦ 0.5 µL of HEXB-specific reverse primer (10 µM).
+◦ 0.25 µL of Taq polymerase.
+◦ Nuclease-free water to a final volume of 25 µL.
+B) PCR Cycling Conditions:
+• Initial denaturation: 95°C for 5 minutes.
+• 35 cycles of:
+◦ Denaturation: 95°C for 30 seconds.
+◦ Annealing: 60°C for 30 seconds.
+◦ Extension: 72°C for 1 minute.
+• Final extension: 72°C for 7 minutes.
+• Hold: 4°C.
+Step 2: Gel Electrophoresis
+• Run 5 µL of the PCR product on a 1.5% agarose gel with ethidium
+bromide. Verify amplification specificity and the size of the PCR
+products.
+Step 3: NGS Library Preparation
+• Follow the NGS library preparation kit protocol to ligate adapters
+to the PCR products.
+• Purify the prepared libraries using magnetic beads.
+• Quantify and assess quality of the libraries using Qubit and
+TapeStation.
+Step 4: Sequencing
+• Load the libraries onto the NGS platform according to the
+manufacturer’s instructions.
+• Sequence the HEXB gene with a sufficient read depth to ensure
+≥100X coverage across the gene.
+Step 5: Bioinformatics Analysis
+A) Sequence Alignment:
+• Use BWA MEM to align the sequencing reads to the reference
+genome (hg19 or hg38).
+B) Variant Calling:
+• Use GATK HaplotypeCaller to identify variants in the HEXB gene.
+C) Annotation:
+• Annotate the variants using ANNOVAR.
+Step 6: Interpretation of Results
+• Analyze the identified variants for their potential pathogenicity
+using databases such as ClinVar, HGMD, and population
+databases like gnomAD.
+• Correlate the identified variants with clinical information and
+known phenotypes of Sandhoff disease.
+Step 7: Reporting Results
+• Document the results in the Laboratory Information System (LIS).
+• Ensure that results are reviewed and verified by a qualified
+supervisor before final reporting.
+• Provide an interpretive report that includes details of the variants
+found, their clinical significance, and possible consequences for
+the patient.
+7. QUALITY CONTROL
+• Perform regular calibration and maintenance of all equipment.
+• Run positive and negative controls with each batch of tests to
+ensure accuracy.
+• Include internal quality control data with each sequencing run and
+review results for consistency.
+• Participate in external proficiency testing programs for genetic
+testing.
+8. REFERENCES
+• Use primary literature and updated HEXB-specific guidelines for
+the interpretation of variants.
+• Utilize manufacturer's manuals for all equipment and reagents.
+• Refer to the latest curated databases for variant annotation and
+pathogenicity assessment.
+9. DOCUMENTATION and RECORDS MANAGEMENT
+• Keep accurate records of all steps of the procedure, including
+sample identification, results from each quality check, and any
+deviations from the protocol.
+• Maintain all records for a minimum of 10 years as required by
+CLIA.
+By following this SOP, the laboratory ensures the generation of
+accurate and reliable results for the detection of variants in the HEXB
+gene, aiding in the diagnosis of Sandhoff Disease.

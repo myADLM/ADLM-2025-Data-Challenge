@@ -1,0 +1,82 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATIONDECISION SUMMARYINSTRUMENT ONLY TEMPLATE
+
+A. 510(k) Number: K061574   
+B. Purpose for Submission: To obtain clearance for a labeling modification to the COULTER LH 750 Hematology Analyzer to reflect a revised MCV accuracy specification.   
+C. Manufacturer and Instrument Name: Beckman Coulter, Inc. COULTER LH 750 Hematology Analyzer   
+D. Type of Test or Tests Performed: Automated differential cell counter   
+E. System Descriptions:
+
+1. Device Description:
+
+The COULTER LH 750 is an automated hematology analyzer capable of supplying a complete blood cells analysis and includes a differential leukocyte cell count. The product also provides automated reticulocyte analysis and enumeration of nucleated red blood cells (NRBCs) as well as an automated method for the enumeration of RBCs and WBCs in body fluids.
+
+2. Principles of Operation:
+
+The COULTER LH 750 Hematology Analyzer utilizes the Coulter Principle for enumerating and sizing blood cells, automatic diluting and mixing for sample processing and a sing beam photometer for hemoglobinometry. It used COULTER VCS (volume, conductivity, light scatter) technology for WBC Differential analysis and classification and reticulocyte analysis. The analyzer uses a reagent system consisting of an isotonic diluent, lytic reagents to lyse the red cells without significantly affecting the white cells and an instrument cleaner. All systems include reagents used for reticulocyte staining and analysis.
+
+For body fluids analysis, the specimen is aspirated into the LH 750 Analyzer via the manual mode and is diluted in separate WBC and RBC baths. The Coulter Method of counting cells is used to detect and measure changes in electrical resistance when a cell, suspended in a conductive diluent, passes through a small aperture. Each suspended cell acts as an insulator. As the cell passes through the aperture, it momentarily increases the resistance of the electrical path between two submerged electrodes, one located on each side of the aperture. The resistance generates an electrical pulse. The accumulation of electrical pulses are channelized, processed for coincidence correction, and multiplied by a calibration factor, yielding the WBC and RBC counts. The WBC result represents the TNC (total nucleated cell count) in the analysis of body fluids.
+
+\*Note: Refer to previously cleared 510(k) submissions – K011342 & K030606
+
+3. Modes of Operation:
+
+4. Specimen Identification:
+
+5. Specimen Sampling and Handling:
+
+6. Calibration:
+
+7. Quality Control:
+
+8. Software: FDA has reviewed applicant’s Hazard Analysis and Software Development processes for this line of product types: Yes_ or No_
+
+# F. Regulatory Information:
+
+1. Regulation section:   
+21 CFR 864.5220
+
+2. Classification: Class II
+
+3 Product code: GKZ
+
+4. Panel:
+
+# 81 Hematology
+
+# G. Intended Use:
+
+1. Indication(s) for Use:
+
+The COULTER LH 750 Hematology Analyzer is a quantitative, automated hematology analyzer and leukocyte differential counter for in vitro diagnostic use in clinical laboratories. The COULTER LH 750 Hematology Analyzer provides automated reticulocyte analysis and enumeration of nucleated red blood cells (NRBCs) as well as an automated method for enumeration of RBCs and WBCs in body fluids.
+
+2. Special Conditions for Use Statement(s):
+
+# H. Substantial Equivalence Information:
+
+1. Predicate Device Name(s) and 510(k) numbers:
+
+(a) COULTER LH 750 Hematology Analyzer K011342 (b) COULTER LH 750 Hematology Analyzer with Body Fluids Application K030606
+
+# 2. Comparison with Predicate Device:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LH 750 (modified)</td><td rowspan=1 colspan=1>LH 750 (predicate K011342)</td></tr><tr><td rowspan=1 colspan=3>No changes from previously cleared device except the MCV accuracy specification.</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>LH 750 (modified)</td><td rowspan=1 colspan=1>LH 750 (predicate K011342)</td></tr><tr><td rowspan=1 colspan=1>MCV AccuracySpecification</td><td rowspan=1 colspan=1>Mean % Difference ±2.0%**Due to the effect of temperatureon red cell size, the specificationapplies to a temperature range of70 to 80° F.Performance characteristicsprovided for each reagentsystem at 60 and 90° F.</td><td rowspan=1 colspan=1>Mean % Difference ±2.0%</td></tr></table>
+
+# I. Special Control/Guidance Document Referenced (if applicable):
+
+# J. Performance Characteristics:
+
+\*Note: Refer to previously cleared 510(k) submissions – K011342 & K030606
+
+1. Analytical Performance: a. Accuracy: b. Precision/Reproducibility: c. Linearity: d. Carryover: e. Interfering Substances:
+
+2. Other Supportive Instrument Performance Data Not Covered Above:
+
+# K. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# L. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

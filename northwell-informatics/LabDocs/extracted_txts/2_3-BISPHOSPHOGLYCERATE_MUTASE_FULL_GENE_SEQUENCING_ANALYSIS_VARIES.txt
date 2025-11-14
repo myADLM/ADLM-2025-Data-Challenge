@@ -1,0 +1,132 @@
+Standard Operating Procedure
+Title: 2,3-BISPHOSPHOGLYCERATE MUTASE Full Gene
+Sequencing Analysis
+Effective Date: [Date]
+Reviewed by: [Name/Position]
+Approved by: [Name/Position]
+1. PURPOSE
+The purpose of this SOP is to provide a detailed method for
+performing full gene sequencing analysis of the 2,3-
+bisphosphoglycerate mutase (BPGM) gene. This protocol includes
+the steps for sample preparation, DNA extraction, PCR amplification,
+sequencing, data analysis, and reporting of results.
+2. RESPONSIBILITY
+Designated laboratory personnel are responsible for carrying out this
+procedure. It is the responsibility of all staff performing the analysis to
+ensure the protocol is followed and documented accurately. Any
+deviations or issues should be promptly reported to a supervisor.
+3. SPECIMEN
+Acceptable Specimens
+• EDTA blood: 2-5 mL
+• Fresh or frozen tissue: ≤100 mg
+• Cultured cells: ≥10^6 viable cells
+Unacceptable Specimens
+• Specimens with hemolysis
+• Contaminated specimens
+• Insufficient quantity of sample
+• Samples not stored or transported properly
+4. MATERIALS AND REAGENTS
+• EDTA blood collection tubes
+• DNA extraction kit (e.g., Qiagen DNA Mini Kit)
+• PCR reagents (e.g., Taq polymerase, primers specific for BPGM
+gene)
+• Sequencing kit (e.g., Illumina MiSeq Reagent Kit)
+• Agarose gel electrophoresis equipment
+• Pipettes and tips (aerosol-resistant)
+• Nuclease-free water
+• 70% Ethanol
+• Sequencing analysis software
+5. EQUIPMENT
+• Thermocycler
+• Nanodrop spectrophotometer
+• Agarose gel electrophoresis apparatus
+• DNA sequencer (e.g., Illumina MiSeq)
+• Computer with sequencing analysis software
+6. PROCEDURE
+Step 1: Sample Preparation
+1.1 Blood Samples:
+• Collect 2-5 mL of peripheral blood in EDTA tubes.
+1.2 Tissue Samples:
+• Ensure tissue is fresh or properly frozen, not exceeding 100 mg.
+1.3 Cell Cultures:
+• Confirm ≥10^6 viable cells.
+Step 2: DNA Extraction
+2.1 Using the DNA Extraction Kit:
+• Follow the manufacturer's protocol for the extraction of DNA from
+the specified sample type.
+• Quantify and check purity of the extracted DNA using a Nanodrop
+spectrophotometer. Acceptable A260/A280 ratio is between 1.8 –
+2.0.
+Step 3: PCR Amplification of BPGM Gene
+3.1 Primer Design:
+• Use primer sets that flank the exons and exon-intron boundaries
+of the BPGM gene.
+3.2 PCR Reaction Setup:
+• Prepare the PCR mix as follows:
+◦ DNA template: 50 ng
+◦ Forward primer: 10 pmol
+◦ Reverse primer: 10 pmol
+◦ Taq polymerase: as per manufacturer instructions
+◦ dNTPs: 200 µM each
+◦ Buffer: supplied with Taq enzyme
+◦ Nuclease-free water: to 50 µL total volume
+3.3 PCR Cycling Conditions:
+• Initial denaturation: 95°C for 3 minutes
+• 35 cycles of:
+◦ Denaturation: 95°C for 30 seconds
+◦ Annealing: [primer-specific temperature] for 30 seconds
+◦ Extension: 72°C for 1 minute
+• Final extension: 72°C for 10 minutes
+Step 4: Gel Electrophoresis
+4.1 Prepare Agarose Gel:
+• Prepare a 1.5% agarose gel with DNA-safe dye.
+4.2 Load PCR Product:
+• Mix 5 µL of PCR product with 1 µL loading buffer and load into the
+gel.
+4.3 Run Gel Electrophoresis:
+• Run the gel at 100V for 45 minutes. Visualize the bands using a
+UV transilluminator.
+Step 5: Sequencing
+5.1 PCR Product Purification:
+• Purify the PCR products using an appropriate purification method
+(e.g., ExoSAP-IT).
+5.2 Library Preparation:
+• Prepare the sequencing library using the Illumina MiSeq Reagent
+Kit following the manufacturer's instructions.
+5.3 Sequencing Reaction:
+• Load the prepared library into the DNA sequencer and start the
+sequencing run.
+Step 6: Data Analysis
+6.1 Sequence Alignment:
+• Align the raw sequence data to the reference BPGM gene
+sequence using bioinformatics software.
+6.2 Variant Calling:
+• Identify variants using variant calling software and annotate using
+an appropriate database (e.g., ClinVar, dbSNP).
+6.3 Data Interpretation:
+• Interpret variants in the context of known functional
+consequences and clinical significance.
+Step 7: Reporting Results
+7.1 Report Preparation:
+• Compile a report including patient information, sequencing
+methodology, findings, interpretation, and recommendations.
+7.2 Review and Verification:
+• Review the report for accuracy and completeness. Obtain
+verification from a senior scientist or supervisor.
+7.3 Results Transmission:
+• Send the finalized report to the ordering physician or healthcare
+provider. Ensure all documentation complies with regulatory
+standards.
+7. QUALITY CONTROL
+• Perform positive and negative controls with each sequencing run
+to ensure the accuracy and validity of results.
+• Ensure reagents and equipment are within their usage life and
+maintain calibration of instruments regularly.
+8. REFERENCES
+• Manufacturer's instructions for DNA extraction kit, thermocycler,
+DNA sequencer, and reagents.
+• Current literature and database for BPGM gene analysis.
+This SOP provides a comprehensive guide for the full gene
+sequencing of the 2,3-bisphosphoglycerate mutase gene, ensuring
+consistency, accuracy, and compliance with regulatory standards
+throughout the analytical phase.

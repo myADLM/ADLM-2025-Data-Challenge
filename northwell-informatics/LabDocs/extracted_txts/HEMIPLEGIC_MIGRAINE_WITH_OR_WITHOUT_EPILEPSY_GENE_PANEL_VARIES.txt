@@ -1,0 +1,125 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Generating Results for Hemiplegic Migraine with or without
+Epilepsy Gene Panel, Varies
+1. PURPOSE
+To provide a standardized procedure for the analysis of the
+Hemiplegic Migraine with or without Epilepsy Gene Panel, ensuring
+the accuracy, reliability, and integrity of the results.
+Responsibility:
+It is the responsibility of designated laboratory personnel to follow this
+SOP to perform the gene panel analysis accurately. Any
+discrepancies or concerns during the process must be reported to a
+supervisor.
+2. DEFINITION
+This procedure describes the steps to be followed during the
+analytical phase of genetic testing for Hemiplegic Migraine with or
+without Epilepsy using a gene panel. This includes DNA extraction,
+PCR amplification, sequencing, data analysis, and reporting of
+results.
+3. PROCEDURE
+A) Sample Preparation
+1. DNA Extraction:
+◦ Ensure that the sample received is properly labeled and
+verified.
+◦ Use the laboratory's standard DNA extraction protocol for
+extracting high-quality genomic DNA from the specimen
+(blood, saliva, or buccal swab).
+◦ Record the sample ID, extraction date, and technician
+initials in the lab logbook.
+◦ Measure the concentration and purity of the extracted DNA
+using a NanoDrop spectrophotometer.
+◦ Store the DNA at -20°C until further processing.
+2. PCR Amplification:
+◦ Design primers specific to the genes of interest in the
+Hemiplegic Migraine with or without Epilepsy gene panel.
+◦ Prepare the PCR master mix according to the
+manufacturer’s instructions.
+◦ Add the genomic DNA to the PCR master mix.
+◦ Perform PCR amplification using a thermal cycler with
+optimized cycling conditions.
+◦ Verify the amplification success by running 5 µL of the PCR
+product on an agarose gel.
+B) Sequencing and Data Generation
+1. Library Preparation:
+◦ Use an appropriate library preparation kit for next-
+generation sequencing (NGS) compatible with the
+sequencer.
+◦ Follow the kit protocols for end-repair, adapter ligation, and
+amplification of the PCR products.
+◦ Quantify the library using Qubit or another appropriate
+method.
+◦ Perform quality checks of the library on an Agilent
+Bioanalyzer.
+2. Sequencing:
+◦ Load the prepared library onto the sequencing instrument
+(e.g., Illumina MiSeq or NextSeq).
+◦ Set up the sequencing run according to the manufacturer's
+instructions.
+◦ Monitor the sequencing run for quality metrics.
+C) Data Analysis
+1. Raw Data Processing:
+◦ Obtain FASTQ files after the completion of the sequencing
+run.
+◦ Use bioinformatics tools for quality control and trimming of
+low-quality reads and adapter sequences.
+2. Sequence Alignment:
+◦ Align the high-quality reads to the reference genome (hg19
+or hg38) using appropriate alignment software (e.g., BWA-
+MEM).
+3. Variant Calling:
+◦ Use variant calling tools (e.g., GATK, FreeBayes) to identify
+single nucleotide variants (SNVs) and small insertions/
+deletions (indels).
+◦ Generate variant call format (VCF) files.
+4. Variant Annotation:
+◦ Annotate the variants using bioinformatics tools (e.g., VEP,
+Annovar) to predict the functional impact.
+D) Result Interpretation and Reporting
+1. Variant Evaluation:
+◦ Filter the variants based on quality metrics, allele frequency,
+and pathogenicity predictions.
+◦ Cross-reference variants with clinical databases (e.g.,
+ClinVar, HGMD).
+◦ Interpret the clinical significance of the identified variants.
+2. Technical Review:
+◦ Perform a secondary review of the data and interpretation
+by another qualified laboratory scientist.
+3. Report Generation:
+◦ Generate a comprehensive report summarizing the
+identified variants, their clinical significance, and the
+interpretation.
+◦ Review and sign the report by the laboratory director or an
+authorized personnel.
+4. Result Communication:
+◦ Deliver the final signed report to the ordering physician.
+◦ Ensure proper documentation and archiving of all the
+records in compliance with regulatory requirements.
+Reference Intervals and Quality Control:
+• Include internal positive and negative controls in each run.
+• Ensure that all quality control samples meet the predefined
+criteria.
+• Follow the lab’s specific guidelines for handling and reporting any
+out-of-range or unexpected QC results.
+Reporting Template Example:
+• Patient Details: Name, DOB, Sample ID, Collection Date.
+• Test Details: Gene Panel Name, Indication.
+• Methods: Description of DNA extraction, PCR conditions,
+sequencing method, and data analysis pipeline.
+• Results: Detailed list of detected variants.
+• Interpretations/Comments: Clinical significance of detected
+variants and recommendations.
+• References: Relevant literature and database entries.
+References:
+• Relevant scientific articles and protocol references.
+• Database sources for variant annotations.
+• Manufacturer’s instructions for all kits and instruments used.
+Document Review: This SOP shall be reviewed annually and
+updated as necessary to incorporate any new guidelines or
+technological advancements.
+Approval:
+• Name, Title, Signature of Approving Authority
+• Date of Approval
+This SOP ensures that the process of generating results from the
+Hemiplegic Migraine with or without Epilepsy Gene Panel is
+meticulously documented and consistently applied across all relevant
+laboratory activities.

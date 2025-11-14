@@ -1,0 +1,238 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+# G. Regulatory Information:
+
+1. Regulation section:   
+21 CFR 864.5700
+
+2. Classification: Class II
+
+3. Product code: JOZ
+
+4. Panel:
+
+# 81 Hematology
+
+# H. Intended Use:
+
+1. Intended use(s): The VerifyNow-P2Y12 Assay is a whole blood assay used in the laboratory or point of care setting to measure the level of platelet P2Y12 receptor blockade.
+
+2. Indication(s) for use:
+
+The VerifyNow-P2Y12 Assay is a whole blood assay used in the laboratory or point of care setting to measure the level of platelet P2Y12 receptor blockade.
+
+3. Special conditions for use statement(s):
+
+4. Special instrument requirements:
+
+The VerifyNow P2Y12 Assay is designed to be run on the VerifyNow Instrument.
+
+# I. Device Description:
+
+The VerifyNow P2Y12 Assay is comprised of the VerifyNow P2Y12 cartridge, Wet Quality Controls 1 and 2, and the VerifyNow instrument and Electronic Quality Control. The VerifyNow System is a turbidometric based optical detection system, which measures platelet induced aggregation as an increase in light transmittance. The system consists of a stand-alone instrument and a single-use disposable assay device with reagents based on microbead agglutination technology. The quality control system includes an electronic control, an assay device internal control, and two levels of liquid control. The instrument controls assay sequencing, establishes the assay temperature, controls the reagent-sample mixing for the required duration, determines the degree of platelet function, displays the results and status information to the user, and performs self-diagnostics.
+
+The assay device contains a lyophilized preparation of human fibrinogen coated beads, adenosine-5-diphosphate (ADP), a peptide, a fatty acid, buffer and preservative. The patient sample is citrated whole blood, which is automatically dispensed from the blood collection tube into the assay device by the instrument, with no blood handling required by the user.
+
+Fibrinogen-coated microparticles are used in the VerifyNow P2Y12 assay device to bind activated platelet GP IIb/IIIa receptors. ADP is incorporated into the assay to activate platelets, and the reagent is formulated to specifically measure P2Y12-mediated platelet aggregation. When the activated platelets are exposed to the fibrinogen-coated microparticles, aggregation occurs in proportion to the number of activated platelet receptors. The VerifyNow P2Y12 Assay reports results in P2Y12 Reaction Units (PRU).
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s):
+
+(a) CHRONO-LOG Whole Blood Aggregometer with CHRONO-PAR ADP Reagent   
+(b) VerifyNow-Aspirin Assay   
+(c) VerifyNow IIb/IIIa Assay
+
+2. Predicate 510(k) number(s):
+
+(a) K830749   
+(b) K042423   
+(c) K992531
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=4>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=2>Predicate</td></tr><tr><td rowspan=1 colspan=1>Feature</td><td rowspan=1 colspan=1>VerifyNow P2Y12Assay</td><td rowspan=1 colspan=1>CHRONO-LOGAggregometer(optical)</td><td rowspan=1 colspan=1>CHRONO-LOGWhole BloodAggregometer(impedance)</td></tr><tr><td rowspan=1 colspan=1>Principle ofOperation</td><td rowspan=1 colspan=1>Fibrinogen bead/plateletaggregation with opticaldetection</td><td rowspan=1 colspan=1>Platelet aggregationwith optical detection</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Indication for Use</td><td rowspan=1 colspan=1>Platelet function testing:measure the level ofplatelet P2Y12 blockade</td><td rowspan=1 colspan=1>Platelet function testing</td><td rowspan=1 colspan=1>Platelet functiontesting</td></tr><tr><td rowspan=1 colspan=1>Type of Specimen</td><td rowspan=1 colspan=1>Citrated whole blood</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Citrated whole blood</td></tr><tr><td rowspan=1 colspan=1>Testing Site</td><td rowspan=1 colspan=1>Point of care orlaboratory</td><td rowspan=1 colspan=1>Laboratory</td><td rowspan=1 colspan=1>Laboratory</td></tr></table>
+
+<table><tr><td colspan="4" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="2" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Feature</td><td colspan="1" rowspan="1">VerifyNow P2Y12Assay</td><td colspan="1" rowspan="1">CHRONO-LOGAggregometer(optical)</td><td colspan="1" rowspan="1">CHRONO-LOGWhole BloodAggregometer(impedance)</td></tr><tr><td colspan="1" rowspan="1">Principle ofOperation</td><td colspan="1" rowspan="1">Fibrinogen bead/plateletaggregation with opticaldetection</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Platelet aggregationwith detection byelectrical impedance</td></tr><tr><td colspan="1" rowspan="1">Indication for Use</td><td colspan="1" rowspan="1">Platelet function testing:measure the level ofplatelet P2Y12 blockade</td><td colspan="1" rowspan="1">Platelet function testing</td><td colspan="1" rowspan="1">Platelet functiontesting</td></tr><tr><td colspan="1" rowspan="1">Sample preparation</td><td colspan="1" rowspan="1">None</td><td colspan="1" rowspan="1">Centrifugation andplatelet count</td><td colspan="1" rowspan="1">Manual addition ofsample and reagents</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Y</td><td colspan="1" rowspan="1">adjustment</td><td colspan="1" rowspan="1">by operator</td></tr><tr><td colspan="1" rowspan="1">Type of Specimen</td><td colspan="1" rowspan="1">Citrated whole blood</td><td colspan="1" rowspan="1">Platelet rich plasma(PRP) from citratedwhole blood</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Test procedure</td><td colspan="1" rowspan="1">1. Add cartridge toinstrument2Attach bloodcollection tubeNo other operatorintervention</td><td colspan="1" rowspan="1">Manual addition ofsample and reagents byoperator</td><td colspan="1" rowspan="1">Manual addition ofsample and reagentsby operator</td></tr><tr><td colspan="1" rowspan="1">Results</td><td colspan="1" rowspan="1">P2Y12 Reaction Units(PRU)</td><td colspan="1" rowspan="1">Amplitude (extent) andslope</td><td colspan="1" rowspan="1">Ohms</td></tr><tr><td colspan="1" rowspan="1">Calibration</td><td colspan="1" rowspan="1">Factory</td><td colspan="1" rowspan="1">Extensive, at site</td><td colspan="1" rowspan="1">Extensive, at site</td></tr><tr><td colspan="1" rowspan="1">Controls</td><td colspan="1" rowspan="1">1. Pre-packaged two-level Wet QualityControls (WQC)2.Internal control ineach assay device</td><td colspan="1" rowspan="1">None provided</td><td colspan="1" rowspan="1">None provided</td></tr><tr><td colspan="1" rowspan="1">Time to result</td><td colspan="1" rowspan="1">3 minutes</td><td colspan="1" rowspan="1">30 to 60 minutes</td><td colspan="1" rowspan="1">30 to 60 minutes</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+EP5-A, Evaluation of Precision Performance of Clinical Chemistry Devices
+
+C28-A2, How to Define and Determine Reference Intervals in the Clinical Laboratory, Second Edition
+
+EP7-A, Interference Testing
+
+C24-A2, Statistical Quality Control for Quantitative Measurements: Principles and Definitions, Second Edition
+
+# L. Test Principle:
+
+The VerifyNow P2Y12 Assay is designed to measure platelet P2Y12 receptor blockade. The assay is based upon the ability of activated platelets to bind fibrinogen. Fibrinogencoated microparticles aggregate in whole blood in proportion to the number of unblocked platelet GP IIb/IIIa receptors. The rate of microbead aggregation is more rapid and reproducible if platelets are activated; therefore the reagent adenosine-5-diphosphate (ADP) and an additive (fatty acid) are incorporated into the assay to induce platelet activation without fibrin formation. The reagent is formulated to specifically measure P2Y12 – mediated platelet aggregation. Light transmittance increases as activated platelets bind and aggregate fibrinogen-coated beads. The instrument measures this change in optical signal and reports results in P2Y12 Reaction Units (PRU).
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+Precision for the VerifyNow P2Y12 Assay was evaluated according to NCCLS (CLSI) Guideline EP5-A, Evaluation of Precision Performance of Clinical Chemistry Devices: Approved Guideline. Precision studies (preliminary and Complex) of the VerifyNow P2Y12 Assay were performed by testing Wet Quality Controls (WQC), Levels 1 and 2, and blood samples from volunteer donors, using three different lots of assay devices and three instruments.
+
+# Preliminary Precision
+
+The preliminary (simple) precision study evaluated within-run precision and lot to lot assay device variation of the VerifyNow P2Y12 Assay. Twenty replicates each of WQC Levels 1 and 2 and blood samples from three volunteer donors (one female and two males) were tested. Blood samples collected in $3 . 2 \%$ sodium citrate from each donor were divided into $1 ~ \mathrm { m l }$ aliquots, and tested according to the VerifyNow P2Y12 test procedure instructions outlined in the draft package insert.
+
+The summary of precision data for whole blood samples are as follows: $\mathrm { C V s } = 7 . 1 \%$ , $4 . 3 \%$ , and $3 . 6 \%$ for within run precision (design goal ${ \leq } 8 \%$ CV).
+
+Precision data for WQC Levels 1 and 2 include standard deviations (SD) and CV values for Level 2. CV was not calculated for Level 1 because the nominal PRU value is zero. Values for Level $1 \mathrm { S D } = 1 . 7$ , 1.5, and 1.8; Level $2 \mathrm { S D } = 2 1 . 0$ , 16.5, and 18.6; Level $2 \mathrm { C V } = 7 . 0$ , 5.5, and 6.2.
+
+# Complex Precision
+
+Complex precision was evaluated in two male blood donor and WQC Levels 1 and 2. Testing was done on 20 days, two runs per day (AM and PM). Blood was drawn in two $3 . 2 \%$ sodium citrate tubes following a $2 \mathrm { m l }$ discard. Testing of controls was performed on one lot of Level 1 and one lot of Level 2 WQC.
+
+Summary values for the two donors include: Within-run: $\mathrm { S D } = 1 0 . 6$ , $\mathrm { C V } = 4 . 8$ ; Dayto-day-day precision: $\mathrm { S D } = 1 0 . 2$ , $\mathrm { C V } = 4 . 7$ and Run-to-run: $\mathrm { S D } = 1 2 . 8$ , CV 5.7. Total complex precision for donor samples: $\mathrm { S D } = 1 9 . 5 $ and $\mathrm { C V } = 8 . 8$ .
+
+Precision results for WQC Levels 1 Total (within-run, day-to-day, run-to-run) standard deviation for three lots of Level $1 \mathrm { W Q C } = 1 . 4$ .
+
+Precision results for WQC Levels 2 Total (within-run, day-to-day, run-to-run) standard deviation for three lots of Level $2 \ : \mathrm { W Q C } = \ : 1 9 . 5$ and CV 6.2.
+
+b. Linearity/assay reportable range:
+
+Not applicable
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Traceability: No reference material known or available.
+
+Stability: A study was performed to evaluate the optimal time to store whole blood samples after blood draw and prior to performing the VerifyNow P2Y12 Assay. The study was performed in two parts: Initial Blood Stability and Long Term Blood Stability. The Initial Blood Stability study entails storing blood samples for various time periods between zero and 30 minutes after blood draw. Blood samples from five volunteer donors were tested (single determinations) at 0, 3, 5, 10, 14, 18, 25 and 30 minutes after blood draw. Study results show that PRU values stabilized after 10 minutes. The VerifyNow package insert instructs the user to wait a minimum of 10 minutes after blood draw before running the assay.
+
+Long-term stability was evaluated both for baseline samples and samples with platelet inhibition induced by addition of Pletal (cilostazol). Pletal, a known inhibitor of platelet aggregation without first being metabolized by the liver, was added ex-vivo to healthy donor blood to mimic clopidogrel-like effects. Long-term storage was evaluated by storing blood samples from ten volunteer donors, baseline and inhibited, fro periods ranging from 0 to 240 minutes prior to testing in duplicate. A fair amount of variability was observed between time points over the 4-hour period, although there were no discernable trends in PRU values. Study results indicate that samples may be stored for up to 4 hours after blood draw without affecting PRU or percent inhibition results. The VerifyNow package insert instructs the user to test blood samples within 4 hours after blood draw.
+
+Three stability studies are in progress to evaluate the stability of VerifyNow P2Y12 assay devices. The first study is being performed to determine the shelf life of VerifyNow P2Y12 assay devices when stored at recommended storage temperature. The planned storage temperature for VerifyNow P2Y12 assay devices is between 2 and $2 5 ^ { \circ } \mathrm { C }$ .
+
+The second study is similar to the first except that the reagents which are lyophilized as pellets are stored in bulk. Three lots of reagent pellets will be stored at $2 - 8 ^ { \circ } \mathrm { C }$ and $2 5 ^ { \circ } \mathrm { C }$ before testing. This data is needed to show equivalent stability of bulk reagent and reagent incorporated into assay devices due to manufacturing processes.
+
+The third study examined the effect of simulated shipping conditions on the VerifyNow P2Y12 assay device. Assay devices were subjected to a simulated 24- hour summer shipping profile and a 48-hour summer shipping profile. Then they were placed on a 14-month real time stability study as described above.
+
+Wet Quality Controls Levels 1 and 2 and volunteer donor blood were tested as samples in the three stability studies. The data presented supports VerifyNow P2Y12 assay device stability for at least nine months when stored at $2 - 2 5 ^ { \circ } \mathrm { C }$ .
+
+d. Detection limit: Not assessed.
+
+e. Analytical specificity:
+
+Interference testing was performed to evaluate the effect of common substances in patient samples on the VerifyNow P2Y12 Assay. Substances likely to affect P2Y12 receptor and drugs commonly used by patients on clopidogrel therapy were evaluated in in-house laboratory studies. Substances for the Interfering Substances Test Panel were added ex-vivo to blood from healthy donors. The intent of the analyses was to determine whether changes in clinical parameters resulted in corresponding changes in observed PRU values.
+
+Variation of certain normal blood constituents, such as platelet count, hematocrit, fibrinogen, and lipid as well as additional factors of age , and weight were performed on clinical subjects as part of the clinical study to establish ranges over which the VerifyNow-P2Y12 Assay performed accurately and without interference. Correlation coefficients and $\mathrm { R } ^ { 2 }$ values were performed to determine whether a relationship between varying levels of the parameters and the PRU values were observed. An interference effect was reported only if the amount of the effecting PRU was greater than an amount that would be caused by normal variability of the VerifyNow P2Y12 Assay (measurement noise - $C V = 8 \%$ ). NCCLS Guideline C28-A2 was used to evaluate the relationship between the levels of these potentially interfering substances and the reported VerifyNow P2Y12 assay results.
+
+• Glycoprotein IIb/IIIa inhibitor (abciximab) demonstrates PRU interference effect by $43 \%$ and $2 5 \%$ at doses of $1 . 5 ~ \mu \mathrm { g / m l }$ and $0 . 5 ~ { \mu \mathrm { g / m l } }$ , respectively. Antiplatelet agent (cilastazol) demonstrated PRU interference effects of $1 3 \%$ , $32 \%$ and $50 \%$ when dosed at $5 \mu \mathrm { M }$ , $1 0 ~ \mu \mathrm { M }$ and $1 5 \mu \mathrm { M }$ respectively.   
+• Drugs that affect platelet function may be detected up to 14 days after ingestion.   
+• Other classes of commonly used drugs were tested with no significant effect on VerifyNow P2Y12 assay performance (antioxidants, ACE inhibitor, antiarrhythmics, anticoagulants, antidepressants, insulin, allopurinol alcohol, beta blockers, bronchodilators, calcium channel blockers, gastrointestinal medications, betamethasone, lovastatin, NSAID (including COX-1 and COX2 enzymes), and the thyroid hormone L-thyroxine. The thrombolytic agent streptokinase show no significant inhibition of platelet function, as measured by the VerifyNow P2Y12 assay.   
+• Assay performance was not affected by hematocrit values between $3 3 . 5 2 \%$ , or platelet count values between $1 1 9 , 0 0 0 - 5 0 2 , 0 0 0 / \mu 1$ . No significant interference was observed on samples studied with triglyceride concentrations between $4 1 { - } 8 2 4 \ \mathrm { m g / d l }$ . No significant interference was observed on samples studied with cholesterol concentrations between 98-316 $\mathrm { m g / d l }$ .   
+No assay interference was observed when samples with fibrinogen levels between $1 7 1 - 5 5 9 \mathrm { m g / d l }$ were tested with the VerifyNow P2Y12 Assay. The VerifyNow P2Y12 package insert advises the user not to use samples where hemolysis is suspected.
+
+# f. Assay cut-off:
+
+Citrated whole blood was drawn and testing performed on samples from 147 evaluable patients with planned treatment with clopidogrel. Patients enrolled in the study had a history of vascular disease or two of eight risk factors for developing vascular disease as noted in the American Heart Association criteria (current or previous history of smoking, hypertension, hyperlipidemia, family history of vascular disease, post-menopausal females, diabetes mellitus, morbid obesity or sedentary lifestyle). Subjects were on aspirin therapy for at least two days prior to participation.
+
+Evaluable subjects had a mean age of 50 (range 22-88), with females comprising $6 1 . 2 \%$ of the population and ethnicity was $7 4 . 1 \%$ Caucasian. 52 patients $( 3 5 . 4 \% )$ had a previous history of vascular disease, while the remaining subjects $( 3 2 \% )$ had at least two of eight risk factors, $1 9 \%$ of the population had three risk factors, and $1 3 . 6 \%$ with four or more risk factors.
+
+Exclusion criteria included treatment with platelet inhibiting drugs such as thienopyridines (clopidogrel or ticlopidine) dipyridamole or glycoprotein IIb/IIIa inhibitors.
+
+A reference range for the VerifyNow P2Y12 Assay was calculated at the $9 5 \%$ confidence level for the baseline (pre-clopidogrel) dataset. The reference range for baseline subjects is 194 - 418 PRU. The mean PRU value is 306.7 with a SD of 58.5.
+
+2. Comparison studies:
+
+# a. Method comparison with predicate device:
+
+The clinical study measured platelet response to clopidogrel therapy in subjects with vascular disease or at risk for vascular disease with the P2Y12 assay. The VerifyNow P2Y12 Assay was evaluated in patients treated with clopidogrel, a drug known to specifically block the platelet P2Y12 ADP receptor. External clinical studies were performed at four institutions on the VerifyNow P2Y12 Assay and the CHRONOLOG Optical Aggregometer with CHRONO-PAR ADP reagent. The CHRONOLOG Whole Blood Aggregometer was cleared using the CHROLO-LOG Optical Aggregometer as the predicated device.
+
+Testing was performed on samples from 147 evaluable patients with planned treatment with clopidogrel. Subjects enrolled in the study had a history of vascular disease or two of eight risk factors for developing vascular disease as noted in the American Heart Association criteria (current or previous history of smoking, hypertension, hyperlipidemia, family history of vascular disease, post-menopausal females, diabetes mellitus, morbid obesity or sedentary lifestyle).
+
+Exclusion criteria included treatment with platelet inhibiting drugs such as thienopyridines (clopidogrel or ticlopidine) dipyridamole or glycoprotein IIb/IIIa inhibitors, known history of platelet count $< 1 0 0 \mathrm { ~ x ~ } 1 0 ^ { 9 } / \mathrm { L }$ , known history or family history of bleeding or bruising, hypersensitivity to thienopyridines, females who are pregnant or nursing and participation in another clinical trial of an investigation drug within the past 30 days.
+
+Subjects were placed on one of two dosing regimens, a single loading dose $( 4 5 0 \mathrm { m g } )$ , or a daily dose of $7 5 ~ \mathrm { m g }$ for seven consecutive days. Subjects were on aspirin therapy for at least two days prior to participation. Blood samples were drawn for testing prior to clopidogrel administration and after the dosing regimen was completed.
+
+The VerifyNow Assay was compared to optical platelet aggregometry using 5mM ADP as the agonist. The unit of measure for the VerifyNow P2Y12 Assay is P2Y12 Reaction Units (PRU), and is based upon both the rate and extent of platelet and fibrinogen-coated beads binding over a defined period.
+
+The clinical trials were designed to obtain samples at two time points: 1) Baseline, prior to clopidogrel ingestion; and 2) either 24 hours post ingestion of a single 450 mg loading dose, or post ingestion of $7 5 \mathrm { m g }$ a day for at least seven days. For each patient, a baseline and post ingestion (24-hour or 7 days) sample was measured by each test method and the results recorded. Subjects were considered non-evaluable if any of the following conditions occurred:
+
+• Known interfering substances present at baseline   
+• Hematology values outside the institutional protocol limits Subjects did not have evaluable data at both time points for both P2Y12 and aggregometry
+
+In order to compare the clinical P2Y12 Reaction Units (PRU) and light transmittance aggregometry (LTA) results, post-clopidogrel data were expressed as percent inhibition or percent reduction from baseline in the following calculation:
+
+$\% \mathrm { I N H } =$ ((Baseline PRU – Post-drug PRU) / Baseline PRU) x 100 $\% \mathrm { I N H } =$ ((Baseline LTA – Post-drug LTA) / Baseline LTA) x 100
+
+A reference range for the VerifyNow P2Y12 Assay was calculated at the $9 5 \%$ confidence level for the baseline (pre-clopidogrel) dataset. The reference range for baseline subjects is 194 - 418 PRU. The mean PRU value is 306.7 with a SD of 58.5.
+
+The percent inhibition for P2Y12 Assay and optical platelet aggregometry for all sites is as follows:
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>% Inhibition Overall</td><td rowspan=1 colspan=1>% Inhibition 450 mg</td><td rowspan=1 colspan=1>% Inhibition 75 mg</td></tr><tr><td rowspan=1 colspan=1>P2Y12 &#x27;n&#x27;</td><td rowspan=1 colspan=1>147</td><td rowspan=1 colspan=1>110</td><td rowspan=1 colspan=1>37</td></tr><tr><td rowspan=1 colspan=1>Mean ± SD</td><td rowspan=1 colspan=1>64.0 ± 25.3</td><td rowspan=1 colspan=1>62.5 ± 25.5</td><td rowspan=1 colspan=1>68.7 ± 24.5</td></tr><tr><td rowspan=1 colspan=1>Range</td><td rowspan=1 colspan=1>16.6 - 99.8</td><td rowspan=1 colspan=1>16.9 - 99.8</td><td rowspan=1 colspan=1>23.2 - 99.0</td></tr><tr><td rowspan=1 colspan=1>Aggregometry &#x27;n&#x27;</td><td rowspan=1 colspan=1>147</td><td rowspan=1 colspan=1>110</td><td rowspan=1 colspan=1>37</td></tr><tr><td rowspan=1 colspan=1>Mean ± SD</td><td rowspan=1 colspan=1>35.5 ± 26.1</td><td rowspan=1 colspan=1>35.6 ± 24.0</td><td rowspan=1 colspan=1>34.9 ± 26.7</td></tr><tr><td rowspan=1 colspan=1>Range</td><td rowspan=1 colspan=1>-43.6  93.8</td><td rowspan=1 colspan=1>-43.6  95.8</td><td rowspan=1 colspan=1>-10.3 - 91.1</td></tr></table>
+
+As further substantiation, percent inhibition was measured by comparing light transmittance aggregometry (LTA) using $1 0 \mu \mathrm { M }$ ADP alone, and LTA with both ADP and additive. The VerifyNow P2Y12 assay was run using the same samples. Blood drawn from 10 individuals was tested in the presence of 2-methylthio-AMP (2Me SAMP), a known specific P2Y12 inhibitor, at a concentration of $7 0 \mu \mathrm { M }$ to achieve near maximal inhibition. Results of the study demonstrate that for all 10 samples, the percent inhibition is less for LTA with ADP only ( $73 \%$ avg. inhibition) than for aggregometry with ADP and the additive ( $9 5 \%$ avg. inhibition). Agreement between VerifyNow P2Y12 Assay and LTA using the additive was $93 \%$ vs $9 5 \%$ avg. inhibition.
+
+b. Matrix comparison: Not assessed.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+4. Clinical cut-off: The VerifyNow P2Y12 Assay reports patient results in P2Y12 Reaction Units (PRU), which are calculated as a function of the rate and extent of aggregation. The VerifyNow P2Y12 Assay allows the user to compare the PRU value for a post-drug sample to the baseline PRU result for a pre-drug sample for the same patient and to calculate the percent inhibition. A cutoff linked to a clinical outcome has not been established.
+
+5. Expected values/Reference range:
+
+A reference range for the VerifyNow P2Y12 Assay was calculated at the $9 5 \%$ confidence level for the baseline (pre-clopidogrel) dataset. The reference range for baseline subjects is 194-418 PRU. The mean PRU value is 306.7 with a SD of 58.5.
+
+# N. Instrument Name:
+
+Accumetrics, Inc., VerifyNow System
+
+# O. System Descriptions:
+
+1. Modes of Operation: Operator inserts sample tube into test device; individual, closed-tube assay
+
+2. Software:
+
+The VerifyNow Instrument software has been updated to incorporate the use of the VerifyNow P2Y12 Assay. Software modifications include calculation and reporting of PRU results for patient samples and controls, calculation of percent inhibition, and reporting an error message when the calculated results for the internal control channel fall outside the acceptable range.
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types: (See software review)
+
+Yes ___X_____ or No _
+
+3. Specimen Identification:
+
+The VerifyNow System’s default setting does not require the user to enter a Patient ID, however the system can be programmed to require a Patient ID before an assay can be performed.
+
+# 4. Specimen Sampling and Handling:
+
+Fresh citrated whole blood samples in the appropriate collection device are required for use with the VerifyNow instrument. The sample well contains a needle for sampling directly from a closed vacuum collection tube.
+
+5. Calibration:
+
+The VerifyNow P2Y12 Assay devices are calibrated at the factory and requires no calibration by the user. The calibration information is contained in the barcode on the pouch of each assay device. The barcode must be scanned whenever a new lot of assay devices are to be tested.
+
+# 6. Quality Control:
+
+Each assay device includes internal controls to determine whether the VerifyNow P2Y12 Assay result is valid and causes the instrument to report an error message for an invalid test. The negative internal control test is performed during the first five seconds of the assay, before platelet activation and binding to the fibrinogen-coated beads occurs.
+
+The positive internal control consists of a reagent channel that is similar to the P2Y12 assay channel, except it uses Thrombin Receptor Activating Peptide (TRAP) instead of ADP as the agonist. The positive internal control test is performed during the active phase of the assay.
+
+The VerfyNow P2Y12 Assay utilizes VerifyNow Wet Quality Controls (WQC) Levels 1 and 2 for verifying the integrity of the VerifyNow System. Controls have been formulated at clinically relevant levels with WQC Level 1 providing low level P2Y12 results. WQC Level 1 is a carbon sol suspension, used to mimic the optical properties of whole blood. WQC Level 2 is designed to provide high level P2Y12 results, comparable to results obtained from patient samples prior to ingestion of clopidogrel. WQC Level 2 is a lyophilized pellet, which is added to the diluent vial and reconstituted before use. WQC Level 2 uses a peptide that binds to fibrinogen to induce aggregation, which simulates the binding of fibrinogen-coated microparticles to platelets in the VerifyNow P2Y12 Assay. Assigned values for WQC Level 1 $\leq 3 0$ PRU) and Level 2 (228 - 372 PRU) are included in the package insert.
+
+The VerifyNow System contains the following internal controls:
+
+The instrument automatically verifies sample filling, correct fluid transfer and mixing. It also monitor the electronic and mechanical components Each assay device incorporates two levels of quality control to identify invalid test runs caused by random error, reagent degradation or inappropriate blood samples. Before platelet activation and fibrinogen binding begin, the negative internal control performs a test for non-specific aggregation. During the active phase of the assay, the positive internal control channel monitors the reaction and calculates Control Units, which must fall within specified limits.
+
+Electronic Quality Control (EQC) is the primary quality control mechanism for the VerifyNow instrument. It is a reusable device that is inserted by the operator into the assay port and is used to perform a comprehensive testing routine that confirms performance of instrument optics, the pneumatics system, reagent mixing parameters, calibration parameters, simulates assay testing at two levels to check correct data acquisition and calculation and the required EQC testing frequency. Accumetrics recommends that EQC be run at least on a daily basis, although a preferred testing frequency may be selected by an institution. When the established interval has elapsed, the used is locked out from running a patient test until the EQC test has been successfully completed.
+
+# P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+1. The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

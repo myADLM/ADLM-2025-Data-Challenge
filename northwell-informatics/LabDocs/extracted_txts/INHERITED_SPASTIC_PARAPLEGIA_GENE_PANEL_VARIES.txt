@@ -1,0 +1,146 @@
+STANDARD OPERATING PROCEDURE (SOP)
+Title: Analytical Phase of Generating Results for Inherited
+Spastic Paraplegia Gene Panel
+1. PURPOSE
+To outline the procedures for the analysis and reporting of the
+Inherited Spastic Paraplegia (HSP) Gene Panel, ensuring accuracy,
+validity, and compliance with CLIA regulations.
+2. SCOPE
+This SOP applies to the analytical phase of testing for the HSP gene
+panel once the specimen has been collected, received, and
+accessioned. It includes DNA extraction, library preparation,
+sequencing, data analysis, and result interpretation.
+3. RESPONSIBILITY
+• Laboratory Director: Ensures overall compliance with SOP.
+• Technical Supervisor: Responsible for overseeing the analysis
+and ensuring quality control measures are maintained.
+• Medical Laboratory Scientists: Perform the analysis according
+to this SOP and document each step.
+• Bioinformaticians: Analyze sequencing data and generate the
+initial report for review.
+4. DEFINITIONS
+• HSP Gene Panel: A set of genes commonly associated with
+Inherited Spastic Paraplegia.
+• PCR (Polymerase Chain Reaction): A technique used to amplify
+DNA.
+• NGS (Next Generation Sequencing): A method to sequence
+DNA rapidly and accurately.
+• QC (Quality Control): Procedures to detect and correct errors in
+the analytical phase.
+5. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Equipment: Thermocycler, NGS platform (e.g., Illumina MiSeq),
+centrifuges, nanopure water system, pipettes, gel electrophoresis
+apparatus, spectrophotometer.
+• Reagents: DNA extraction kits, PCR reaction components, NGS
+library prep kits, sequencing reagents.
+• Supplies: Sterile tubes, pipette tips with filters, gloves, lab coats,
+DNA-free benches.
+6. PROCEDURE
+A) DNA EXTRACTION
+1. Sample Preparation:
+◦ Ensure that specimens are kept at the appropriate
+temperature to ensure DNA integrity (e.g., 4-8°C).
+◦ Use a validated DNA extraction kit according to the
+manufacturer's instructions.
+2. DNA Extraction:
+◦ Aliquot the appropriate volume of specimen into sterile
+tubes.
+◦ Add lysis buffer and incubate as required.
+◦ Mix the sample with binding buffer and use silica columns or
+magnetic beads to isolate DNA.
+◦ Wash the bound DNA and elute in an appropriate buffer.
+◦ Measure DNA concentration and purity using a
+spectrophotometer or fluorometer.
+B) LIBRARY PREPARATION
+1. Fragmentation:
+◦ Fragment the DNA to the desired size using a mechanical
+shearing device or enzymatic method.
+2. Adaptor Ligation:
+◦ Prepare the reaction mix with fragmented DNA, adaptors,
+and ligase enzyme.
+◦ Incubate the mixture according to the manufacturer's
+protocol.
+3. PCR Amplification:
+◦ Amplify the adaptor-ligated DNA using specific primers and
+a thermocycler.
+◦ Cleanup the PCR product to remove any unused primers
+and nucleotides.
+4. Quality Control:
+◦ Check the size distribution using agarose gel
+electrophoresis or Bioanalyzer.
+◦ Quantify the DNA library using a fluorometer.
+C) SEQUENCING
+1. Loading the Sequencer:
+◦ Prepare the sequencing flow cell according to the
+manufacturer's instructions.
+◦ Load the prepared libraries onto the sequencer.
+◦ Execute the sequencing run following standard operating
+protocols of the NGS platform.
+2. Monitoring the Run:
+◦ Monitor the sequencing run for any errors or issues.
+◦ Ensure that all required controls are within acceptable limits.
+D) DATA ANALYSIS
+1. Initial Data Processing:
+◦ Import raw sequencing data into the bioinformatics pipeline.
+◦ Perform read alignment to reference genome.
+◦ Identify variants using variant calling algorithms.
+2. Post-Processing:
+◦ Filter variants based on established criteria (e.g., quality
+score, read depth).
+◦ Annotate variants with known databases to determine
+clinical relevance.
+E) REPORTING
+1. Result Interpretation:
+◦ A designated clinical geneticist reviews the annotated
+variants.
+◦ Correlate findings with clinical presentation and family
+history.
+2. Generating the Final Report:
+◦ Summarize significant findings, including pathogenic, likely
+pathogenic, variants of uncertain significance, and benign
+variants.
+◦ The report should include the interpretation of variants in the
+context of the patient's phenotype.
+3. Quality Control Review:
+◦ Ensure that all quality control measures for library prep,
+sequencing, and data analysis are met.
+◦ Document all findings and QC measures in the laboratory
+information system (LIS).
+4. Delivering Results:
+◦ The final report should be reviewed and signed by a
+qualified laboratory director.
+◦ Transmit the result to the ordering healthcare provider
+securely and update in both LIS and Electronic Medical
+Record (EMR) if applicable.
+7. QUALITY CONTROL
+• Regularly calibrate and maintain all equipment used in the
+analytical process.
+• Utilize positive and negative controls at each step of the process.
+• Document all reagent lot numbers and expiration dates.
+• Perform proficiency testing as recommended by accrediting
+agencies.
+8. TROUBLESHOOTING
+• Low DNA Yield: Re-extract the DNA using an alternative method
+or additional sample if necessary.
+• Library Prep Issues: Repeat library prep and ensure all reagents
+are mixed thoroughly and incubations are performed accurately.
+• Sequencing Failures: Restart sequencing with new reagents
+and flow cells, if needed.
+• Bioinformatics Pipeline Errors: Contact IT support for resolution
+and ensure all software is updated to the latest version.
+9. REFERENCES
+• Illumina NGS system user manual.
+• DNA extraction kit instructions.
+• PCR and Library Preparation kit manuals.
+• Relevant clinical guidelines for hereditary spastic paraplegia gene
+analysis.
+10. APPROVALS
+• Prepared by: [Your Name], Medical Laboratory Scientist
+• Date: [Today's Date]
+• Reviewed by: [Supervisor's Name], Technical Supervisor
+• Approved by: [Lab Director's Name], Laboratory Director
+11. REVISION HISTORY
+• Version 1.0: Initial SOP creation on [Date].
+Ensure this document is reviewed periodically and updated to reflect
+any changes in procedures, equipment, or reagents used in the
+laboratory.

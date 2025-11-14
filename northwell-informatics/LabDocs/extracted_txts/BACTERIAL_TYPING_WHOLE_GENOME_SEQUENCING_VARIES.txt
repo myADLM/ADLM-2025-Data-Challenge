@@ -1,0 +1,105 @@
+Standard Operating Procedure (SOP) for Bacterial Typing using
+Whole Genome Sequencing (WGS)
+1. PURPOSE
+To outline the procedure for bacterial typing using Whole Genome
+Sequencing (WGS) to ensure accurate and reliable generation of
+sequence-based bacterial profiles for epidemiological and clinical
+purposes.
+1. SCOPE
+This procedure applies to the sequencing and analysis of bacterial
+genomic DNA in a Clinical Laboratory Improvement Amendments
+(CLIA) certified laboratory. It covers the steps from DNA extraction to
+data analysis and interpretation of results.
+1. RESPONSIBILITY
+Designated laboratory scientists are responsible for performing WGS
+and bacterial typing according to this SOP. It is the responsibility of
+these individuals to ensure that all steps are meticulously followed
+and documented. The supervisor is responsible for verifying that the
+procedures are adhered to and for addressing any discrepancies.
+1. SPECIMEN REQUIREMENTS
+4.1 Acceptable Specimens
+• Fresh bacterial cultures isolated and grown on appropriate agar
+media.
+• Cultures must be pure and evaluated under sterile conditions.
+4.2 Unacceptable Specimens
+• Mixed or contaminated bacterial cultures.
+• Degraded or improperly stored samples.
+1. EQUIPMENT AND SUPPLIES
+• DNA extraction kits (e.g., Qiagen, Promega).
+• Spectrophotometer/Fluorometer (for DNA quantification) (e.g.,
+Nanodrop, Qubit).
+• Thermal Cycler (for library preparation).
+• High-throughput Sequencer (e.g., Illumina MiSeq, NovaSeq).
+• Bioinformatics software and computational resources (e.g., CLC
+Genomics Workbench, Galaxy).
+1. PROCEDURE
+6.1 DNA Extraction
+• Extract genomic DNA from bacterial cultures using a commercially
+available DNA extraction kit according to the manufacturer’s
+instructions.
+• Quantify and assess the purity of the extracted DNA using a
+spectrophotometer or a fluorometer. Acceptable purity ranges for
+absorbance ratios (A260/A280) are between 1.8-2.0.
+6.2 Library Preparation
+• Prepare sequencing libraries using a library preparation kit
+compatible with the selected high-throughput sequencer.
+• Follow the manufacturer’s recommended protocol to ensure
+optimal library construction.
+• Quantify and normalize libraries and pool multiple samples as per
+the sequencer capacity.
+6.3 Whole Genome Sequencing
+• Load prepared libraries into the sequencer following the
+manufacturer's protocol.
+• Run WGS on the specified sequencer (e.g., Illumina MiSeq,
+NovaSeq).
+• Ensure quality controls are in place, including internal controls, to
+monitor sequencing performance.
+6.4 Data Analysis
+• Use bioinformatics tools to process raw sequence data, including
+quality assessment, trimming, and filtering of reads.
+• Assemble genomes using user-verified pipeline e.g., SPAdes,
+Velvet.
+• Perform variant calling and bacterial typing using tools e.g.,
+Prokka for annotation, MLST for sequence typing, and BGCV for
+clonal complex assignment.
+• Validate data accuracy with quality metrics (e.g., read coverage,
+assembly quality).
+6.5 Interpretation of Results
+• Compare results against reference databases for bacterial typing,
+e.g., NCBI, PubMLST.
+• Generate reports with identified bacterial types and relevant
+epidemiological information.
+1. QUALITY CONTROL
+• Include negative and positive extraction controls with each batch
+of DNA extractions.
+• Sequence known reference strains to verify sequencing and
+analysis integrity.
+• Perform routine verification of bioinformatics pipelines and
+software tools to ensure up-to-date methodologies.
+• Adhere to manufacturer’s guidelines for maintenance and
+calibration of equipment.
+1. REPORTING RESULTS
+• Compile sequencing run data and bacterial typing results in an
+accessible format.
+• Review and verify results before final documentation.
+• Report to the appropriate stakeholders with clinical and
+epidemiological interpretations.
+1. TROUBLESHOOTING
+Inconsistent results or issues observed during the procedure should
+be documented and the supervisor notified immediately. The
+following checks should be considered:
+• Verify DNA quality and concentration.
+• Ensure proper sequence library preparation, adjust workflows as
+needed.
+• Re-run quality controls specific to software tools.
+• Consult with bioinformatics team or sequencer technical support if
+problems persist.
+1. REFERENCES
+• Manufacturer’s Instructions for DNA extraction kits, sequencing
+platforms, and library preparation kits.
+• Current literature on bacterial typing and WGS data analysis.
+• Bioinformatics tool manuals and user guides.
+By following these steps, the laboratory ensures accurate and
+reliable results for bacterial typing through Whole Genome
+Sequencing, adding valuable data for clinical and epidemiological
+research.

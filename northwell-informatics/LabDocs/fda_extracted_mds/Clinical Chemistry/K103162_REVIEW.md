@@ -1,0 +1,107 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k103162   
+B. Purpose for Submission: New device   
+C. Measurand: Calibration verification and assay range verification for Elecsys Parathyroid Hormone CalCheck 5   
+D. Type of Test: Not applicable   
+E. Applicant: Roche Diagnostics   
+F. Proprietary and Established Names: Elecsys Parathyroid Hormone CalCheck 5
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR 862.1660, Quality Control Material (Assayed and Unassayed)
+
+2. Classification: Class I, reserved
+
+3. Product code: JJX – Single (Specified) Analyte Controls (Assayed and Unassayed)
+
+4. Panel:
+
+# Clinical Chemistry (75)
+
+# H. Intended Use:
+
+1. Intended use(s): See indications for use below
+
+2. Indication(s) for use:
+
+The Elecsys Parathyroid Hormone (PTH) CalCheck 5 is an assayed control for use in calibration verification and for use in the verification of the assay range established by the Elecsys PTH reagent on the indicated Elecsys and cobas e immunoassay analyzers
+
+3. Special conditions for use statement(s): For prescription use only
+
+4. Special instrument requirements: Roche Elecsys 2010 / cobas e 411 and MODULAR ANALYTICS E170 / cobas e 601 / cobas e 602 immunoassay analyzers
+
+# I. Device Description:
+
+Elecsys PTH CalCheck 5 set is an in vitro diagnostic device that contains 5 levels of PTH in a human serum matrix (all human derived products are prepared exclusively from donors tested and found free of HBsAg and antibodies to HCV and HIV). The vials contain lyophilized material which is reconstituted to $1 . 0 \mathrm { m L }$ each and are packaged in sets of 5. Each CalCheck contains $0 . 0 8 \%$ methylisothiazolinone and $0 . 1 \%$ oxypyrion as preservatives.
+
+<table><tr><td rowspan=1 colspan=1>CalCheck Level</td><td rowspan=1 colspan=1>Approximate TargetRange (pg/mL)</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>≤ 1</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>55 - 65</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2250 - 2750</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3800 - 4200</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>4800 - 5200</td></tr></table>
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Elecsys Parathyroid Hormone CalCheck
+
+2. Predicate K number(s): k993642
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Indications for Use</td><td rowspan=1 colspan=1>Same</td><td rowspan=1 colspan=1>For use in the verification of thecalibration established by theElecsys PTH reagent on theindicated Elecsys and cobas eimmunoassay analyzers.</td></tr><tr><td rowspan=1 colspan=1>Analyte</td><td rowspan=1 colspan=1>Same</td><td rowspan=1 colspan=1>PTH</td></tr><tr><td rowspan=1 colspan=1>Format</td><td rowspan=1 colspan=1>Same</td><td rowspan=1 colspan=1>Lyophilized</td></tr><tr><td rowspan=1 colspan=1>Handling</td><td rowspan=1 colspan=1>Same</td><td rowspan=1 colspan=1>Reconstitute each CalCheck levelwith exactly 1.0 mL distilled water.Allow to stand closed for 15minutes, then gently mix byinversion.</td></tr><tr><td rowspan=1 colspan=1>Matrix</td><td rowspan=1 colspan=1>Same</td><td rowspan=1 colspan=1>Human serum matrix</td></tr><tr><td rowspan=1 colspan=1>Assay Measuring Range</td><td rowspan=1 colspan=1>Same</td><td rowspan=1 colspan=1>1.20 - 5000 pg/mL</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Levels</td><td rowspan=1 colspan=1>Five</td><td rowspan=1 colspan=1>Three</td></tr><tr><td rowspan=1 colspan=1>Stability</td><td rowspan=1 colspan=1>Unopened:Store at 2-8°C untilexpiration dateReconstituted:20-25°C: 5 hours</td><td rowspan=1 colspan=1>Unopened:Store at 2-8°C untilexpiration dateReconstituted:20-25°C: 4 hours</td></tr><tr><td rowspan=1 colspan=1>Check Target Values(pg/mL)</td><td rowspan=1 colspan=1>Check 1: ≤ 1Check 2: 60Check 3: 2500Check 4: 4000Check 5: 5000</td><td rowspan=1 colspan=1>Check 1: &lt;5Check 2: 60Check 3: 3000</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Guidance for Industry and FDA Staff – Assayed and Unassayed Quality Control Material
+
+L. Test Principle: Not applicable
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: a. Precision/Reproducibility: Not applicable $b$ . Linearity/assay reportable range: Not applicable c. Traceability, Stability, Expected values (controls, calibrators, or methods): Traceability and Value Assignment
+
+A Master calibration curve is generated on the MODULAR ANALYTICS E170 / cobas e 601 / cobas e 602 analyzer and is used to calculate $\mathsf { p g / m L }$ PTH in each CalCheck for value assignment. Each master calibrator is standardized using a commercial PTH radioimmunoassay (RIA).
+
+For each Elecsys PTH CalCheck 5 lot manufactured, the CalCheck devices are assayed in duplicate on at least three MODULAR ANALYTICS E170 / cobas e 601 / cobas e 602 analyzers (master platform). The assigned value of each CalCheck is defined as the median value obtained over at least 6 determinations (duplicate runs on at least 3 analyzers) of the respective CalCheck. The assigned range is calculated as $\pm 3 0 \%$ of the assigned value (chosen as the sum of $\pm 1 0 \%$ for betweenanalyzer platform tolerance, $\pm 1 0 \%$ for stability tolerance, and $+ 1 0 \%$ CV of the assay). The label states that each laboratory should establish appropriate acceptance criteria when using this product for its intended use.
+
+To ensure the values assigned using the master platform are transferrable and valid for the other instrument platforms, the value assignment process is repeated for each additional analyzer and the assigned values are compared to the values obtained on the master platform. The additional analyzer assigned values must be within $10 \%$ of the values assigned using the master platform. After this acceptance criterion is met, the assigned values from the master platform are deemed valid for the Elecsys 2010 / cobas e 411 immunoassay analyzers.
+
+# Stability
+
+Open-vial and accelerated stability study protocols and acceptance criteria were described. The data support the package insert claims that open-vial reconstituted Elecsys PTH CalCheck 5 is stable for up to 5 hours at 20- $2 5 ^ { \circ } \mathrm { C }$ , and that closed vial storage at $2 { - } 8 ^ { \circ } \mathrm { C }$ provides stability for 18 months. The expiration date listed on each CalCheck bottle label reflects this stability time of 18 months. A real-time stability study is ongoing.
+
+d. Detection limit: Not applicable e. Analytical specificity: Not applicable
+
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+Not applicable
+
+4. Clinical cut-off:
+
+Not applicable
+
+5. Expected values/Reference range:
+
+There are 5 levels of the CalCheck 5 kit which span the $1 . 2 { \cdot } 5 0 0 0 \mathrm { p g / m L }$ measuring range of the PTH assay (see Device Description under section I above). The final assigned values are lot specific and are provided in the labeling. There is a note in the labeling stating that the level 1 CalCheck recovers below the detection limit.
+
+If CalCheck 5 generated a result greater than $5 0 0 0 \mathrm { p g / m L }$ , the sponsor recommends that the user perform a 1:1 dilution of CalCheck 5 with CalCheck 4 to determine whether it is within the assay measuring range or not. Dilution studies were performed where CalCheck 4 and CalCheck 5 were mixed in a 1:1 ratio (as instructed in the draft package insert for dilutions) and measured in twofold determination. The PTH CalCheck 5 dilution values were within the assay measuring range after dilution.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

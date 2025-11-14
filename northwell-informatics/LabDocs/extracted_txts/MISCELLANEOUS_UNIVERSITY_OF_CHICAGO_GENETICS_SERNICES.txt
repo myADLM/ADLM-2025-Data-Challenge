@@ -1,0 +1,111 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Generating Results for University of Chicago Genetics Services
+1. PURPOSE
+The purpose of this SOP is to define the procedures for generating,
+analyzing, and reporting results for various genetic tests provided by
+the University of Chicago Genetics Services. This SOP ensures
+accuracy, reliability, and consistency in the analytical phase of
+genetic testing.
+2. SCOPE
+This SOP applies to all laboratory personnel involved in the analytical
+phase of genetic testing at the University of Chicago Genetics
+Services laboratory. This includes preparation, execution, and
+documentation of all analytical procedures.
+3. RESPONSIBILITY
+• Laboratory Technologists: Perform analytical procedures, ensure
+the accuracy of data, conduct quality control checks, and prepare
+reports.
+• Laboratory Supervisor: Verify and validate analytical results,
+review quality control data, and ensure compliance with the SOP.
+• Laboratory Director: Oversight of the entire analytical process,
+resolution of any discrepancies, and final approval of the results.
+4. EQUIPMENT AND MATERIALS
+• PCR Thermocycler
+• Next-Generation Sequencer (NGS) or Sanger Sequencer
+• Centrifuge
+• Pipettes and related consumables
+• Laboratory Information Management System (LIMS)
+• Reagents and master mixes specific to the genetic tests
+• DNA isolation and purification kits
+5. PROCEDURE
+A. SAMPLE PREPARATION
+1. Verify that all specimens received have been accessioned
+properly and are accompanied by the necessary
+documentation.
+2. Extract DNA from the specimen using an appropriate DNA
+isolation kit. Follow the manufacturer’s protocol to ensure high-
+quality DNA yield.
+◦ For blood samples, use the Qiagen Blood DNA Mini Kit.
+◦ For saliva samples, use the Oragene DNA Kit.
+3. Quantify and assess the purity of the extracted DNA using a
+NanoDrop spectrophotometer or Qubit fluorometer.
+4. Store the extracted DNA at -20°C until further analysis.
+B. PCR AMPLIFICATION AND SEQUENCING
+1. Prepare PCR reactions using specific primers targeted to the
+gene(s) of interest.
+2. Set up the thermocycler with the appropriate cycling conditions
+for the gene(s) under study.
+3. Run the PCR reactions in the thermocycler and verify
+amplification success by running an aliquot on a 1-2% agarose
+gel.
+4. For NGS:
+◦ Prepare libraries using the Illumina DNA Prep Kit.
+◦ Quantify and pool libraries as per the sequencing platform’s
+requirements.
+◦ Load the pooled libraries onto the appropriate Illumina
+sequencing platform (e.g., MiSeq, NextSeq).
+5. For Sanger Sequencing:
+◦ Purify PCR products using the ExoSAP-IT method.
+◦ Set up sequencing reactions with BigDye Terminator v3.1
+cycle sequencing kit.
+◦ Run the sequencing reactions on an Applied Biosystems
+Genetic Analyzer.
+C. DATA ANALYSIS
+1. For NGS:
+◦ Use the Illumina BaseSpace platform or equivalent for initial
+data processing.
+◦ Align reads to the reference genome using BWA or a similar
+aligner.
+◦ Call variants using GATK or a similar variant caller.
+◦ Annotate variants using ANNOVAR or another annotation
+tool.
+2. For Sanger Sequencing:
+◦ Use Sequencing Analysis Software to process sequence
+traces and align them to reference sequences.
+◦ Examine chromatograms for any sequence variations and
+confirm by manual inspection if necessary.
+D. QUALITY CONTROL
+1. Include positive and negative controls in each batch of tests to
+validate the process.
+2. Perform repeat analysis if results do not meet the laboratory’s
+quality criteria.
+3. Document all quality control measures and any corrective
+actions taken in the LIMS.
+E. REPORTING RESULTS
+1. Review and verify all analytical data and variant interpretations
+with the Laboratory Supervisor.
+2. Prepare a detailed report including patient information, test
+methodology, results, and interpretation.
+3. Submit the final report for approval by the Laboratory Director.
+4. Once approved, upload the results into the LIMS and notify the
+ordering clinician.
+6. DOCUMENTATION AND RECORD KEEPING
+• Maintain all records of specimen processing, DNA extraction,
+PCR setup, sequencing runs, data analysis, and quality control in
+the laboratory’s LIMS.
+• Ensure all records are accurate, complete, and easily retrievable
+for audit purposes.
+7. REFERENCES
+• Qiagen Blood DNA Mini Kit: Manufacturer’s protocol.
+• Oragene DNA Kit: Manufacturer’s protocol.
+• Illumina DNA Prep Kit: Manufacturer’s protocol.
+• GATK Best Practices (Genome Analysis Toolkit - Broad Institute)
+• ANNOVAR Manual
+8. REVISION HISTORY
+• Version 1.0: Initial release - [Date]
+• Version 1.1: Updates to data analysis protocol - [Date]
+This SOP is subject to regular review and updates to ensure it
+reflects current best practices and technological advancements.
+By following this SOP, University of Chicago Genetics Services
+aims to ensure the highest standards of quality and accuracy in
+its genetic testing services.

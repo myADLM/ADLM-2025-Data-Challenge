@@ -1,0 +1,182 @@
+
+--- Page 1 ---
+SPECIAL 510(K): DEVICE MODIFICATION
+OIR DECISION SUMMARY
+510(k) Number: ____K192259__________
+This 510(k) submission contains information/data on modifications made to the applicant’s own class
+II or class I devices requiring 510(k). The following items are present and acceptable:
+1. The name and 510(k) number of the applicant’s previously cleared device. (For a preamendments
+device, a statement to this effect has been provided.)
+K172174
+Philips IntelliSite Pathology Solution
+2. Applicant’s statement that the INDICATION/INTENDED USE of the modified device as
+described in its labeling HAS NOT CHANGED along with the proposed labeling which includes
+instructions for use, package labeling, and, if available, advertisements or promotional materials
+(labeling changes are permitted as long as they do not affect the intended use).
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams,
+engineering drawings, photographs, user’s and/or service manuals in sufficient detail to
+demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified
+device has not changed.
+The changes were for
+• New LCD panel for display PP27QHD
+• Implementation Unique Device Identification (UDI) in product labeling
+• SQL/Windows servers, review browser and viewer client application
+Verification and validation activities are performed for every change to Philips IntelliSite
+Pathology Solution. The verification and validation procedures, methods and acceptance criteria
+for product changes remain the same as those performed for and described in the predicate device,
+K172174.
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate
+device for technical performance characteristics of the display and operating system and
+programming language.
+Subject device
+Item Predicate device (K172174)
+(K192259)
+Device Name Philips IntelliSite Pathology Solutio Same
+1
+
+[Table 1 on page 1]
+Item	Predicate device (K172174)	Subject device
+(K192259)
+Device Name	Philips IntelliSite Pathology Solutio	Same
+
+--- Page 2 ---
+The Philips IntelliSite Pathology Solution
+(PIPS) is an automated digital slide creation,
+viewing, and management system. The PIPS
+is intended for in vitro diagnostic use as an
+aid to the pathologist to review and interpret
+digital images of surgical pathology slides
+prepared from formalin-fixed paraffin
+embedded (FFPE) tissue. The PIPS is not
+intended for use with frozen section, cytology,
+or non-FFPE hematopathology specimens.
+Intended Use /
+Same
+Indications for Use The PIPS comprises the Image Management
+System (IMS), the Ultra Fast Scanner (UFS)
+and Display. The PIPS is for creation and
+viewing of digital images of scanned glass
+slides that would otherwise be appropriate for
+manual visualization by conventional light
+microscopy. It is the responsibility of a
+qualified pathologist to employ appropriate
+procedures and safeguards to assure the
+validity of the interpretation of images
+obtained using PIPS.
+• Panel type: Color LCD
+• Technology: IPS technology with a-Si
+LCD Panel technical
+Thin Film Transistor Same
+characteristics
+• Physical display size: 648.5 mm x 423
+mm x 91.3 mm (with backlight disc)
+LCD Panel
+Bi-Search Korea Inc./LG display Co., Ltd. Innolux Corporation
+manufacturer
+Microsoft SQL
+SQL server Microsoft SQL server 2008
+server 2014
+Windows server
+Windows server Windows server 2008R2
+2012R2
+Server processor Server software 64-
+Server software 32-bit
+architecture bit
+Operating system Windows 7, 8, 8.1 and 10 Unchanged
+Google Chrome,
+Internet Explorer,
+Review browser Google Chrome and Internet Explorer
+Mozilla FireFox and
+Microsoft Edge
+Viewer client
+Silverlight HTML
+application
+5. A Design Control Activities Summary which includes:
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the
+device and its components, and the results of the analysis
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities
+required, including methods or tests used and acceptance criteria to be applied
+Risk assessments for LCD panel changes were performed to assess the impact and potential risks that
+may exist due to the new LCD panel for PP27QHD. The Risk Analyses took into account device hazards
+associated with the intended use of the device. This safety risk assessment did not reveal any new safety
+2
+
+[Table 1 on page 2]
+Intended Use /
+Indications for Use	The Philips IntelliSite Pathology Solution
+(PIPS) is an automated digital slide creation,
+viewing, and management system. The PIPS
+is intended for in vitro diagnostic use as an
+aid to the pathologist to review and interpret
+digital images of surgical pathology slides
+prepared from formalin-fixed paraffin
+embedded (FFPE) tissue. The PIPS is not
+intended for use with frozen section, cytology,
+or non-FFPE hematopathology specimens.
+The PIPS comprises the Image Management
+System (IMS), the Ultra Fast Scanner (UFS)
+and Display. The PIPS is for creation and
+viewing of digital images of scanned glass
+slides that would otherwise be appropriate for
+manual visualization by conventional light
+microscopy. It is the responsibility of a
+qualified pathologist to employ appropriate
+procedures and safeguards to assure the
+validity of the interpretation of images
+obtained using PIPS.	Same
+LCD Panel technical
+characteristics	• Panel type: Color LCD
+• Technology: IPS technology with a-Si
+Thin Film Transistor
+• Physical display size: 648.5 mm x 423
+mm x 91.3 mm (with backlight disc)	Same
+LCD Panel
+manufacturer	Bi-Search Korea Inc./LG display Co., Ltd.	Innolux Corporation
+SQL server	Microsoft SQL server 2008	Microsoft SQL
+server 2014
+Windows server	Windows server 2008R2	Windows server
+2012R2
+Server processor
+architecture	Server software 32-bit	Server software 64-
+bit
+Operating system	Windows 7, 8, 8.1 and 10	Unchanged
+Review browser	Google Chrome and Internet Explorer	Google Chrome,
+Internet Explorer,
+Mozilla FireFox and
+Microsoft Edge
+Viewer client
+application	Silverlight	HTML
+
+--- Page 3 ---
+risks or changes to existing safety risks for the display. The risk profiles remain identical and it was
+concluded that the display with new panel is safe to be used as a component of PIPS.
+The following verification and validation studies were performed:
+• Non-Clinical performance testing based on the outcome of the safety risk assessement and the
+test methods described in FDA Guidance “Technical Performance Assessment of Digital
+Pathology Whole Slide Imaging Devices” issued April 20, 2016. The protocol, test methods
+and acceptance criteria used are the same as those used in predicate device submission
+K172174.
+Safety testing
+o
+Testing of display device characteristics
+o
+ Spatial resolution
+ Pixel defects
+ Temporal response
+ Grayscale
+ Luminance uniformity and Mura test
+ Stability of luminance and chromaticity
+ Specular and diffuse reflection coefficients
+ Gray tracking
+ Color scale response
+ sRGB (standard Red, Green, Blue) color gamut
+For each test, acceptance criteria were identified and observed results were compared to expected
+results. All acceptance criteria were met and all tests passed.
+The labeling for this modified subject device has been reviewed to verify that the indication/intended
+use for the device is unaffected by the modification. In addition, the applicant’s description of the
+particular modification(s) and the comparative information between the modified and unmodified
+devices demonstrate that the fundamental scientific technology has not changed. The applicant has
+provided the design control information as specified in The New 510(k) Paradigm and on this basis, I
+recommend the device be determined substantially equivalent to the previously cleared (or their
+preamendment) device.
+3

@@ -1,0 +1,120 @@
+Standard Operating Procedure for SDH GENES MUTATION
+ANALYSIS, NEXT-GENERATION SEQUENCING, TUMOR
+1. PURPOSE
+The purpose of this SOP is to provide detailed instructions for the
+analysis of SDH (Succinate Dehydrogenase) genes mutation in
+tumor samples using next-generation sequencing (NGS) technology.
+This procedure outlines the necessary steps to ensure accurate and
+reliable generation of sequencing results, including the library
+preparation, sequencing, data analysis, and result validation.
+2. SCOPE
+This procedure applies to all laboratory personnel involved in the
+analysis of tumor samples for SDH gene mutations using NGS
+technology.
+3. RESPONSIBILITY
+• Laboratory Technologists: Responsible for performing the NGS
+procedure and ensuring the accuracy and quality of the results.
+• Supervisors: Ensure that all steps are performed as per the
+guidelines, validate results, and address any issues with the test
+process.
+• Quality Control (QC) Personnel: Ensure the procedure's
+conformity to set quality standards and document any deviations
+or corrective actions taken.
+4. DEFINITIONS
+• SDH Genes: Genes encoding the subunits of the succinate
+dehydrogenase enzyme complex, including SDHA, SDHB, SDHC,
+SDHD.
+• NGS: Next-Generation Sequencing, a high-throughput method
+used to determine the sequence of nucleotides in DNA.
+• Library: A collection of DNA fragments that have been prepared
+for high-throughput sequencing.
+5. EQUIPMENT AND MATERIALS
+• DNA extraction kit
+• NanoDrop spectrophotometer
+• Qubit fluorometer
+• PCR thermocycler
+• NGS library preparation kit
+• Magnetic beads (for purification)
+• Microcentrifuge and pipettes
+• Next-generation sequencer (e.g., Illumina platform)
+• Bioinformatics software for data analysis
+6. PROCEDURE
+6.1. DNA Extraction and Quality Check
+1. Isolate DNA from the tumor tissue sample using the DNA
+extraction kit as per manufacturer’s protocol.
+2. Measure DNA concentration using NanoDrop
+spectrophotometer and verify quality using Qubit fluorometer.
+3. Check the DNA integrity by running an aliquot on an agarose
+gel or using a Fragment Analyzer.
+6.2. Library Preparation
+1. Shear the genomic DNA to the desired fragment size (150-200
+bp).
+2. Perform end-repair, A-tailing, and adapter ligation steps as per
+the library preparation kit instructions.
+3. Amplify the adapter-ligated DNA with specific primers for
+SDHA, SDHB, SDHC, and SDHD.
+4. Purify the PCR products with magnetic beads.
+6.3. Library Quantification and Normalization
+1. Quantify the library using Qubit fluorometer and validate
+fragment size distribution on a Bioanalyzer or similar.
+2. Normalize the library for equimolar pooling.
+6.4. Sequencing
+1. Load the pooled library onto an appropriate flow cell or
+sequencing chip.
+2. Set up sequencing run parameters on the sequencer according
+to manufacturer’s instructions for paired-end sequencing (e.g.,
+2x150 bp reads).
+3. Start the sequencing run and monitor performance through run
+metrics.
+6.5. Data Analysis
+1. Download the raw sequencing data post-sequencing.
+2. Perform quality control using quality assessment tools (e.g.,
+FASTQC).
+3. Align reads to the reference human genome (GRCh38) using a
+suitable aligner (e.g., BWA, Bowtie2).
+4. Identify variants using a variant caller (e.g., GATK, VarScan).
+5. Annotate variants with functional effects using appropriate tools
+(e.g., ANNOVAR, snpEff).
+6.6. Interpretation of Results
+1. Review and interpret variants in SDHA, SDHB, SDHC, and
+SDHD genes.
+2. Classify variants based on established clinical guidelines (e.g.,
+ACMG criteria).
+3. Validate significant findings using Sanger sequencing, if
+necessary.
+6.7. Reporting of Results
+1. Compile results including raw data, read alignment, variant call
+reports, and annotated variants.
+2. Document variant interpretation, including clinical relevance
+and potential therapeutic implications.
+3. Prepare a detailed report and review with supervisory or QC
+personnel.
+4. Communicate results to the requesting clinician or appropriate
+medical personnel.
+7. QUALITY CONTROL
+• Include positive and negative controls in each run to ensure
+reliability.
+• Follow calibration and maintenance protocols for all equipment.
+• Regular proficiency testing participation as part of external QA
+programs.
+8. SAFETY AND PRECAUTIONS
+• Follow universal laboratory safety guidelines.
+• Adhere to proper laboratory waste disposal protocols.
+• Handle reagents and samples according to the material safety
+data sheets (MSDS).
+9. DOCUMENTATION
+• Maintain a record of all steps and observations during the
+procedure in the laboratory’s information management system
+(LIMS).
+• Archive all versions of software and databases used for analysis.
+10. REFERENCES
+• Manufacturer’s instructions for all reagents and equipment.
+• Relevant peer-reviewed literature and clinical guidelines for SDH
+gene variants.
+Approval and Review This SOP will be reviewed annually or as
+required by new advances or regulatory updates. Ensure all
+laboratory personnel are trained on this SOP.
+Approved by: [Name, Title] Date: [Approval Date]
+Reviewers:
+• Supervisor: [Name]
+• Quality Control Manager: [Name]

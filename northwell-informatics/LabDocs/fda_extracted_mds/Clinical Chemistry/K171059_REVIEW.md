@@ -1,0 +1,27 @@
+# SPECIAL 510(k): Device Modification OIR Decision Summary
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class II, Class III or Class I devices requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device.
+
+Nova StatSensor Creatinine Hospital Meter System (Nova StatSensor Creatinine Hospital Meter and Nova StatSensor Creatinine Test Strips), k070068.
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use).
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+# This change was for:
+
+a. Updates in the ergonomic design of the creatinine meter:
+
+Lighter, plastic outer housing Larger font on the display New flat, top surface design that eliminates ridges, recessed corners and raised edges The addition of an optional use mechanical test strip eject button Relocation of the test strip port from the top of the meter to the bottom of the meter The addition of a 2-dimensional bar code scanner which can interpret additional identification formats Relocation of the bar code scanner from the bottom of the meter to the top of the meter Elimination of the extra duplicate hard key design of the keypad
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics, and performance studies of the Nova StatSensor Creatinine Hospital Meter.
+
+# 5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis
+
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.

@@ -1,0 +1,116 @@
+Standard Operating Procedure
+(SOP)
+Title: Analytical Phase of Generating
+Results for Red Blood Cell Membrane
+Disorders Gene Panel, Next-Generation
+Sequencing (NGS)
+1. PURPOSE
+The purpose of this Standard Operating Procedure (SOP) is to
+outline the methods and responsibilities associated with the analytical
+phase of generating results from Next-Generation Sequencing (NGS)
+for the Red Blood Cell Membrane Disorders Gene Panel.
+2. SCOPE
+This procedure applies to all laboratory personnel involved in the
+various stages of the analytical phase which includes sequencing,
+bioinformatics analysis, variant interpretation, and reporting.
+3. RESPONSIBILITY
+• Laboratory Technical Staff: Perform NGS run and preliminary data
+analysis.
+• Bioinformatics Staff: Carry out bioinformatics analysis, including
+raw data processing, alignment, variant calling, and annotation.
+• Clinical Scientists/Geneticists: Review and interpret variants,
+prepare the final report and verify results.
+• Quality Assurance (QA) Staff: Oversight of the entire analytical
+process to ensure compliance with regulatory requirements and
+SOPs.
+4. DEFINITION
+Red Blood Cell Membrane Disorders Gene Panel: A gene panel
+designed to detect mutations associated with hereditary conditions
+affecting red blood cell membrane proteins.
+Next-Generation Sequencing (NGS): A high-throughput methodology
+to sequence DNA bases in gene panels, exomes, and genomes.
+5. EQUIPMENT AND MATERIALS
+• NGS Platform (e.g., Illumina, Ion Torrent)
+• Library Preparation Kit
+• Sequencing Reagents
+• Sample Tracking System
+• Bioinformatics Analysis Software (e.g., BWA, GATK, Annovar)
+• Reference Genome (e.g., hg19 or hg38)
+• Laboratory Information Management System (LIMS)
+6. PROCEDURE
+A. Sample Preparation and Sequencing
+1. Extract genomic DNA from the provided patient sample using a
+validated DNA extraction method.
+2. Quantify and qualify the extracted DNA.
+3. Prepare the sequencing library using the designated library
+preparation kit according to the manufacturer's protocol.
+4. Run quality control checks to determine the concentration and
+size distribution of the prepared library using a Bioanalyzer or
+similar instrument.
+5. Load the library onto the NGS platform according to the
+manufacturer's instructions. Initiate the sequencing run.
+B. Data Generation and Primary Analysis
+1. Retrieve raw sequencing data (FASTQ files) after the
+sequencing run is complete.
+2. Perform initial quality assessment of sequence data using
+quality control software (e.g., FastQC).
+3. If necessary, trim low-quality reads and adapter sequences
+using appropriate software tools (e.g., Trimmomatic).
+C. Bioinformatics Analysis
+1. Align the quality-checked reads to the reference genome using
+a suitable aligner (e.g., BWA).
+2. Perform duplicate marking, local realignment, and base quality
+recalibration using software such as GATK.
+3. Call variants (Single Nucleotide Variants (SNVs) and Insertions/
+Deletions (indels)) using variant calling software (e.g., GATK
+HaplotypeCaller).
+4. Annotate the identified variants using variant annotation tools
+(e.g., Annovar) and relevant databases (e.g., ClinVar, HGMD).
+D. Variant Interpretation
+1. Filter variants to identify potential pathogenic mutations based
+on various criteria including quality score, read depth, allele
+frequency, and predicted impact on protein function.
+2. Interpret clinical significance of variants based on pathogenicity
+from established databases, literature, and in silico predictions.
+3. Cross-reference results with patient phenotype and clinical
+information.
+E. Reporting
+1. Compile the results into the laboratory information system (LIS).
+2. Review results and interpretations by a clinical scientist or
+geneticist.
+3. Generate the final report which includes:
+◦ Patient and sample information
+◦ Methodology of the test
+◦ Results and interpretations
+◦ Conclusion and recommendations (if applicable).
+4. Verify and sign off by the appropriate personnel.
+5. Deliver and archive the report as per the laboratory protocols.
+7. QUALITY CONTROL AND ASSURANCE
+1. Perform routine QC checks on sequencing instruments and
+sequencing reagents to ensure quality standards.
+2. Implement validation tests and control runs to verify assay
+performance.
+3. Review and update SOPs periodically in line with
+advancements and feedback.
+4. Document any deviations, malfunctions, and corrective actions
+in the QC records.
+8. SAFETY AND COMPLIANCE
+• All personnel must follow the laboratory's safety guidelines,
+including the use of personal protective equipment (PPE).
+• Maintain compliance with CLIA regulations and accreditation
+requirements: ensure accurate documentation and reporting.
+9. REFERENCES
+• Manufacturer's Instructions for NGS Platform and Library
+Preparation Kits.
+• Bioinformatics Tools Documentation (e.g., BWA, GATK, FastQC,
+Annovar).
+• Relevant Clinical Guidelines and Databases (e.g., ClinVar,
+HGMD).
+• Internal Laboratory Protocols and Quality Manual.
+Reviewed and Approved by:
+Name: __________________________________
+Position: _________________________________
+Date: _____________________________________
+Next Review Date: _____________________________________
+Document Control
+Version: 1.0 Effective Date: [Insert Date] Supersedes: N/A

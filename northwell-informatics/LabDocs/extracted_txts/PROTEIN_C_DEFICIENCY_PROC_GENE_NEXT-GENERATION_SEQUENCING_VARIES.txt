@@ -1,0 +1,106 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for Protein C Deficiency (PROC Gene) via Next-
+Generation Sequencing (NGS)
+1. PURPOSE
+The purpose of this SOP is to outline the procedures for the analytical
+phase in generating results for Protein C Deficiency (PROC gene)
+using Next-Generation Sequencing (NGS). This procedure ensures
+accurate and reliable analysis of DNA sequences to detect mutations
+or variations in the PROC gene.
+Responsibility:
+• The designated laboratory staff and technologists are responsible
+for performing and documenting the steps outlined in this SOP.
+• Supervisors and quality control personnel are responsible for
+reviewing and verifying the accuracy and integrity of results.
+1. DEFINITIONS
+Next-Generation Sequencing (NGS): Modern DNA sequencing
+technology that allows for high-throughput sequencing of multiple
+DNA strands simultaneously. PROC Gene: A gene that encodes
+Protein C, which is essential for blood coagulation regulation.
+1. SPECIMEN REQUIREMENTS
+Specimen Type: Peripheral blood in EDTA tubes. Specimen Stability:
+Store at 2-8°C for up to 72 hours. For long-term storage, freeze at
+-20°C or lower.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• NGS Sequencer (e.g., Illumina MiSeq or HiSeq)
+• DNA Extraction Kits (e.g., Qiagen Blood DNA Mini Kit)
+• Library Preparation Kits for NGS (e.g., NEBNext Ultra DNA
+Library Prep Kit)
+• PCR Thermocycler
+• DNA Quantitation Tools (e.g., Qubit Fluorometer)
+• Bioinformatics Software (e.g., GATK, BWA)
+• Standard Laboratory Consumables (tips, tubes, plates, etc.)
+1. PROCEDURE
+A) DNA Extraction:
+1. Extract genomic DNA from the blood samples using the
+designated DNA extraction kit.
+2. Quantify the extracted DNA using the Qubit Fluorometer.
+3. Ensure DNA quality by measuring the A260/A280 ratio
+(acceptable range: 1.8-2.0).
+B) Library Preparation:
+1. Fragment the genomic DNA to the desired size using a Covaris
+instrument.
+2. Follow the instructions provided in the library preparation kit to
+construct DNA libraries.
+3. Perform adapter ligation and PCR amplification as per the kit
+protocol.
+4. Purify the PCR products using AMPure XP beads.
+5. Quantify the purified libraries.
+C) Next-Generation Sequencing:
+1. Dilute the libraries to the appropriate concentration as per the
+NGS sequencer requirements.
+2. Pool the libraries and load them onto the NGS sequencer.
+3. Begin the sequencing run following the instrument-specific
+protocol.
+D) Data Analysis:
+1. Raw Data Generation: The sequencer generates raw sequence
+data (FASTQ files).
+2. Quality Control: Assess the raw data quality using
+bioinformatics tools (e.g., FastQC).
+3. Sequence Alignment: Align the reads to the reference genome
+using BWA or an equivalent tool.
+4. Variant Calling: Identify variants using GATK or an equivalent
+variant calling software.
+5. Annotation: Annotate the identified variants using a suitable
+annotation tool (e.g., ANNOVAR).
+E) Interpretation and Reporting:
+1. Review the annotated variants to identify clinically significant
+mutations in the PROC gene.
+2. Verify the quality and accuracy of the sequencing data and the
+interpretation.
+3. Generate a comprehensive report detailing the findings,
+including any identified variants and their potential clinical
+significance.
+4. Review and sign off the report by a qualified clinical geneticist
+or laboratory director.
+5. QUALITY CONTROL
+• Include positive and negative controls in each sequencing run.
+• Utilize internal quality control standards (QC metrics) to ensure
+the accuracy and reliability of results.
+• Document and address any deviations from the standard
+procedure.
+1. REPORTING RESULTS
+• Enter results into the Laboratory Information System (LIS) for
+review.
+• Ensure compliance with site-specific reporting guidelines for
+NGS-based results.
+• Communicate significant findings to the ordering physician or
+healthcare provider promptly.
+1. REFERENCE INTERVALS
+• Specific reference intervals for the PROC gene will be as defined
+by the clinical geneticist or established laboratory guidelines.
+1. LIMITATIONS
+• Sequencing depth and coverage may affect the detection of
+certain mutations.
+• Ensure adequate DNA quality and quantity to prevent false-
+negative results.
+1. REFERENCES
+• Manufacturer’s instructions for NGS sequencers (Illumina MiSeq/
+HiSeq).
+• Library Preparation Kit protocols (e.g., NEBNext Ultra DNA
+Library Prep Kit).
+• Bioinformatics software documentation (e.g., GATK, BWA).
+Approved By: ____________________________ Date:
+____________________________
+Review Date: ____________________________
+Effective Date: ____________________________

@@ -1,0 +1,126 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for Autoinflammatory Disorders Gene Panel
+1. PURPOSE
+This procedure describes the necessary steps for the analysis of
+specimens submitted for the Autoinflammatory Disorders Gene
+Panel. The protocol ensures accurate, reliable, and reproducible
+analytical results for diagnosing genetic mutations associated with
+autoinflammatory disorders.
+2. RESPONSIBILITY
+Laboratory technologists and genetic analysts are responsible for
+following the outlined processes for the analysis. It is the
+responsibility of the laboratory supervisor to ensure compliance,
+quality control, and timely review of results.
+3. DEFINITIONS
+• Autoinflammatory Disorders: Inherited disorders characterized by
+episodes of inflammation without high-titer autoantibodies or
+autoreactive T cells.
+• Gene Panel: A diagnostic test that sequences a group of genes
+related to a particular disease.
+4. SPECIMEN REQUIREMENTS
+• Type: Whole blood, bone marrow, or extracted DNA.
+◦ Whole blood: Use EDTA (lavender-top) tubes.
+◦ Bone marrow: Use heparin or EDTA tubes.
+◦ Extracted DNA: Store in TE Buffer or equivalent.
+• Volume:
+◦ Whole blood: Minimum 3 mL.
+◦ Bone marrow: Minimum 1 mL.
+◦ Extracted DNA: Minimum of 5 µg at a concentration of at least
+50 ng/µL.
+• Stability and Transport:
+◦ Whole blood and bone marrow: Store at 2-8°C, stable for 7
+days.
+◦ Extracted DNA: Store at -20°C or lower, stable for up to 6
+months.
+◦ Avoid freeze-thaw cycles.
+5. EQUIPMENT AND REAGENTS
+• DNA extraction kits (e.g., Qiagen DNA Mini Kit).
+• PCR machines and related reagents.
+• Next-Generation Sequencing (NGS) platform (e.g., Illumina
+MiSeq).
+• DNA quantification and quality control instruments (e.g., Qubit,
+NanoDrop).
+• Bioinformatics software for data analysis (e.g., BWA, GATK, IGV).
+6. PROCEDURE
+A. DNA Extraction
+1. Whole Blood/Bone Marrow:
+◦ Use appropriate DNA extraction kit following the
+manufacturer's protocol.
+◦ Elute DNA in a final volume of 100 µL TE buffer.
+2. Quality Control:
+◦ Measure DNA concentration using Qubit or NanoDrop.
+◦ Assess integrity and purity (A260/A280 ratio).
+B. Library Preparation
+1. Fragmentation:
+◦ Fragment DNA to 150-200 bp using enzymatic or
+mechanical shearing.
+2. End Repair and A-tailing:
+◦ Perform end repair and A-tailing according to the NGS
+library preparation protocol.
+3. Adapter Ligation:
+◦ Ligate sequencing adapters compatible with the NGS
+platform.
+4. PCR Enrichment:
+◦ Amplify the adapter-ligated DNA using PCR.
+C. Target Enrichment
+1. Hybridization:
+◦ Hybridize the PCR products with biotinylated probes specific
+to the gene panel.
+2. Capture:
+◦ Capture target regions using streptavidin beads.
+3. Post-Capture Amplification:
+◦ Amplify captured libraries with PCR.
+D. Sequencing
+1. Load Library:
+◦ Load the enriched library onto the NGS platform.
+2. Run Sequencing:
+◦ Perform sequencing according to the instrument
+manufacturer’s protocol.
+E. Data Analysis
+1. Base Calling and Demultiplexing:
+◦ Use sequencing software for initial base calling and
+demultiplexing of reads.
+2. Alignment and Variant Calling:
+◦ Align reads to the reference genome (e.g., hg19) using
+BWA.
+◦ Call variants using GATK.
+3. Annotation:
+◦ Annotate identified variants using annotation tools (e.g.,
+ANNOVAR).
+F. Interpretation and Reporting
+1. Variant Classification:
+◦ Classify variants based on ACMG guidelines.
+2. Technical Review:
+◦ Review sequencing coverage, quality metrics, and variant
+data.
+3. Clinical Reporting:
+◦ Generate a clinical report including significant variants, their
+potential impact, and relevant clinical correlations.
+7. QUALITY CONTROL
+• Include positive and negative control samples throughout the
+process.
+• Use internal quality control standards as part of the assay
+validation.
+• Routine verification and calibration of instruments.
+• Participation in external proficiency testing programs.
+8. REPORTING RESULTS
+• Results are reviewed and verified by the laboratory technologist
+before being reported.
+• Critical findings are communicated immediately to the ordering
+physician.
+• Final report is issued according to laboratory turnaround time
+standards.
+9. REFERENCES
+• Manufacturer's manuals and package inserts for all reagents and
+instruments used.
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+• Relevant scientific literature.
+10. RELATED DOCUMENTS
+• DNA Extraction SOP
+• NGS Library Preparation SOP
+• Bioinformatics Analysis SOP
+By following this SOP, we ensure high-quality, accurate genetic
+testing that aids in the diagnosis and management of
+autoinflammatory disorders, providing essential information for
+patient care.

@@ -1,0 +1,103 @@
+Hereditary Thrombotic Thrombocytopenic Purpura (TTP),
+ADAMTS13 Gene, Next-Generation Sequencing (NGS) Protocol
+1. PURPOSE: The purpose of this SOP is to define the
+procedures for the analytical phase of generating results for
+Hereditary Thrombotic Thrombocytopenic Purpura (TTP)
+through the sequencing of the ADAMTS13 gene using next-
+generation sequencing (NGS).
+Responsibility:
+• Designated laboratory personnel are responsible for performing
+and documenting each step of this procedure.
+• Supervisors must ensure that all steps are followed accurately
+and that any issues are reported and resolved in a timely manner.
+1. DEFINITION: Hereditary TTP is a rare, genetic blood disorder
+characterized by recurrent episodes of microvascular
+thrombosis often due to mutations in the ADAMTS13 gene.
+Reduced activity of the ADAMTS13 enzyme results in unusually
+large von Willebrand factor multimers in the blood, leading to
+small-vessel clots, low platelet counts, and hemolytic anemia.
+2. PROCEDURE:
+Equipment and Reagents:
+• NGS platform (e.g., Illumina, Ion Torrent)
+• DNA extraction kit
+• Library preparation kit
+• PCR reagents and equipment
+• Clean laboratory areas for pre- and post-PCR processes
+• Computer with bioinformatics software for NGS data analysis
+Specimen:
+• Peripheral blood or saliva sample collected and processed to
+extract DNA.
+A) DNA Extraction:
+1. Follow the manufacturer’s instructions of the DNA extraction kit
+to isolate genomic DNA from the sample.
+2. Measure DNA concentration and purity using a
+spectrophotometer.
+3. Document the DNA concentration and purity in the laboratory
+information system (LIS).
+B) Library Preparation:
+1. Quantify 100 ng of high-quality genomic DNA for library
+preparation.
+2. Fragment DNA to the desired size range specific for the NGS
+platform used.
+3. Perform end-repair, dA-tailing, and adapter ligation steps as per
+the library preparation kit instructions.
+4. Amplify the library using PCR, ensuring conditions and cycles
+are optimized for the ADAMTS13 gene.
+5. Purify PCR products and evaluate the library size distribution
+using a Bioanalyzer or Fragment Analyzer.
+6. Document each step and results of library preparation in the
+LIS.
+C) Sequencing:
+1. Load the prepared and quantified library onto the NGS platform
+following the manufacturer’s instructions.
+2. Set up the sequencing run ensuring that parameters are
+optimized for sequencing of the ADAMTS13 gene.
+3. Monitor sequencing run and ensure the run completes without
+interruption. If the run fails, document and troubleshoot as per
+the manufacturer's guidelines.
+D) Data Analysis:
+1. Transfer raw sequencing data to the bioinformatics pipeline for
+analysis.
+2. Perform quality control checks on the sequencing data.
+3. Align sequencing reads to the reference human genome
+(GRCh38 or latest).
+4. Identify variants in the ADAMTS13 gene using appropriate
+variant calling software.
+5. Annotate identified variants to predict their effect and clinical
+significance.
+6. Validate identified variants using Sanger sequencing or another
+orthogonal method, if required.
+E) Reporting:
+1. Review and interpret the variant data in the context of the
+patient’s clinical presentation.
+2. Generate a comprehensive report, including a description and
+clinical significance of the identified variants.
+3. Document the results in the LIS and prepare the report for the
+requesting clinician.
+4. Ensure that all critical and actionable results are promptly
+communicated to the requesting physician.
+F) Quality Control:
+1. Include positive and negative controls and ensure expected
+results are obtained.
+2. Perform periodic proficiency testing and equipment calibration.
+3. Maintain records of all control results, calibrations, and any
+deviations from standard procedure.
+4. QUALITY ASSURANCE:
+• Results should be verified and reviewed by a qualified laboratory
+supervisor before releasing them.
+• All instruments should be maintained and calibrated regularly.
+• Periodic review of procedures and updating protocols to reflect
+the latest best practices.
+1. REFERENCES:
+• Manufacturer’s instructions for DNA extraction, library preparation,
+and sequencing platforms.
+• Bioinformatics software user manuals.
+• Latest clinical guidelines for the interpretation of ADAMTS13
+genetic variants.
+1. NOTES:
+• Proper biosafety and contamination control measures should be
+followed at all times.
+• Ensure all documentation is legible and adequately archived.
+By adhering to this SOP, results generated for Hereditary TTP
+through NGS of the ADAMTS13 gene will be standardized, accurate,
+and clinically relevant.

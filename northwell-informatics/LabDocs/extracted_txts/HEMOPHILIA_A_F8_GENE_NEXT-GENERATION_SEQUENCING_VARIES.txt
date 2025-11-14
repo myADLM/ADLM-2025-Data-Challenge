@@ -1,0 +1,87 @@
+SOP Title: Analytical Phase for Hemophilia A, F8 Gene, Next-
+Generation Sequencing
+1. Purpose: To outline procedures for the analytical phase in
+generating diagnostic results for Hemophilia A using next-
+generation sequencing (NGS) of the F8 gene.
+Responsibility: Laboratory personnel trained in NGS technology are
+responsible for following this protocol and ensuring test accuracy,
+precision, and efficient result generation.
+1. Scope: This procedure covers all steps from DNA extraction to
+data analysis and result reporting for samples submitted for
+Hemophilia A, F8 gene sequencing using NGS.
+2. Definitions:
+• NGS: Next-generation sequencing, a method used to sequence
+DNA rapidly and affordably.
+• F8 gene: The gene responsible for encoding coagulation factor
+VIII, mutations in which are linked to Hemophilia A.
+• QC: Quality control, steps taken to ensure the accuracy and
+precision of laboratory tests.
+1. Procedure:
+A. Sample Preparation:
+1. Ensure the integrity and identity of samples are maintained
+from the time of receipt to result reporting.
+2. Record patient identifiers linked to unique laboratory accession
+numbers in the Laboratory Information System (LIS).
+B. DNA Extraction:
+1. Extract genomic DNA from patient samples using a validated
+extraction kit/method.
+2. Measure the DNA concentration and assess purity using a
+spectrophotometer (e.g., NanoDrop).
+3. Store extracted DNA at -20°C until ready for library preparation.
+C. Library Preparation:
+1. Generate an NGS library from the extracted DNA using a
+validated library preparation kit following the manufacturer's
+protocols.
+2. Perform targeted enrichment for the F8 gene using specific
+capture probes or amplicons.
+3. Assess the quality and quantity of the prepared library using a
+bioanalyzer and fluorometer to ensure it meets input
+requirements for sequencing.
+D. Next-Generation Sequencing:
+1. Load the prepared library onto the NGS sequencer as per the
+manufacturer's instructions.
+2. Ensure appropriate sequencing run parameters are set,
+including read length and coverage depth.
+3. Initiate sequencing and monitor the run to ensure there are no
+technical issues.
+E. Data Analysis:
+1. Utilize bioinformatics pipelines, including FASTQ file
+generation, alignment to the reference genome (GRCh38 or
+latest), and variant calling.
+2. Review the raw sequencing reads and assess data quality
+metrics, including read depth, uniformity of coverage, and base
+call accuracy.
+3. Annotate identified variants using a comprehensive database to
+interpret their clinical significance.
+F. Quality Control:
+1. Perform a quality check on all steps, including DNA extraction,
+library preparation, and sequencing, ensuring QC metrics meet
+acceptance criteria.
+2. Include positive and negative controls in the sequencing run to
+evaluate process reliability.
+3. Document any deviations from protocol and corrective actions
+taken.
+G. Result Interpretation:
+1. Correlate genetic findings with clinical data.
+2. Determine the pathogenicity of identified variants, referencing
+literature, databases (ClinVar, HGMD), and existing guidelines
+(ACMG).
+3. Prepare a comprehensive result report detailing detected
+variants, their clinical implications, and any recommended
+follow-up.
+H. Reporting:
+1. Verify results by a qualified molecular geneticist or designated
+personnel.
+2. Ensure all patient results are accurately entered into the LIS.
+3. Communicate significant findings to the referring physician,
+including any critical or actionable variants.
+References:
+• Specific NGS platform and kit inserts.
+• ClinVar, HGMD, ACMG guidelines on variant classification.
+1. Documentation: Record all findings, inclusive of QC results, in
+the Laboratory Information System and retain raw data files as
+required by laboratory regulatory standards.
+Approval: Lab Director/MD: [Name] Signature: Effective Date: [Date]
+This protocol should be reviewed and updated annually to
+incorporate the latest best practices, technology, and guidelines
+relevant to next-generation sequencing for Hemophilia A diagnosis.

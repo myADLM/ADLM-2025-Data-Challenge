@@ -1,0 +1,131 @@
+Standard Operating Procedure (SOP)
+Title: Generating Results for Tickborne Bacterial PCR and
+Sequencing, Blood
+1. PURPOSE The purpose of this SOP is to outline the analytical
+procedures for generating results for the tickborne bacterial
+PCR and sequencing test using blood specimens. This ensures
+consistency, accuracy, and reliability in detecting tickborne
+bacterial pathogens.
+Responsibility: Laboratory scientists trained in molecular diagnostics
+and sequencing techniques are responsible for performing and
+documenting all analytical steps according to this procedure.
+It is the responsibility of all staff to identify any deficiencies in the
+procedure that may affect test results and bring them to the attention
+of a supervisor.
+Supervisors are responsible for ensuring compliance with the SOP
+and addressing any issues or corrective actions.
+1. DEFINITION Tickborne bacterial PCR and sequencing tests
+involve the amplification and subsequent sequencing of
+tickborne bacterial DNA from blood specimens. This test is used
+for the identification of bacterial pathogens that are vectored by
+ticks, such as Borrelia burgdorferi, Anaplasma
+phagocytophilum, Ehrlichia spp., and Rickettsia spp.
+2. PROCEDURE
+A) PCR Amplification
+1. Reagents and Supplies:
+◦ DNA extraction kit (e.g., Qiagen or similar)
+◦ PCR Master Mix
+◦ Tickborne bacterial primers
+◦ Nuclease-free water
+◦ Positive and negative controls
+2. Sample Preparation:
+◦ Retrieve blood specimens from storage. Ensure the
+specimens are properly labeled and have been
+accessioned.
+◦ Perform DNA extraction according to the DNA extraction kit
+manual. Use appropriate controls to monitor the extraction
+process.
+▪ Note the sample conditions (e.g., hemolysis, clots) and
+report any issues.
+◦ Store extracted DNA at -20°C or proceed directly to PCR
+amplification.
+3. PCR Setup:
+◦ Prepare the PCR Master Mix according to the
+manufacturer's specifications and add tickborne bacterial
+primers.
+◦ Aliquot the PCR Master Mix into PCR tubes or plates.
+◦ Add the extracted DNA sample to the PCR tubes or plates.
+Include positive and negative controls in each run.
+◦ Seal tubes or plates to prevent contamination.
+4. PCR Cycling:
+◦ Load the tubes or plates into the PCR machine.
+◦ Program the PCR machine with the following cycle
+parameters:
+▪ Initial denaturation: 95°C for 3 minutes
+▪ 30-40 cycles of:
+▪ Denaturation: 95°C for 30 seconds
+▪ Annealing: 55-60°C for 30 seconds (depending on
+primer optimal conditions)
+▪ Extension: 72°C for 1 minute
+▪ Final extension: 72°C for 5 minutes
+◦ Ensure the PCR machine completes the cycles and store
+the amplified products at 4°C until further analysis.
+B) Sequencing
+1. Reagents and Supplies:
+◦ Sequencing kit (e.g., Illumina or similar)
+◦ Sequencing primers
+◦ Nucleotides
+◦ Sequencing buffer
+2. Sample Preparation:
+◦ Clean amplified PCR products using a purification kit to
+remove residual primers and nucleotides.
+◦ Quantify purified PCR products using a spectrophotometer
+or similar quantification device.
+3. Sequencing Setup:
+◦ Prepare the sequencing Master Mix according to the
+sequencing kit manual.
+◦ Add the purified PCR products and sequencing primers to
+the sequencing Master Mix.
+◦ Load the samples into the sequencing instrument (follow the
+manufacturer protocol).
+4. Sequencing Run:
+◦ Program the sequencing instrument with the appropriate
+settings for microbial sequencing.
+◦ Monitor the run for quality metrics and completion.
+C) Data Analysis
+1. Quality Control:
+◦ Ensure the sequencing data passes quality control checks.
+If data quality is insufficient, repeat sequencing or PCR
+amplification steps.
+◦ Check positive and negative controls for expected results.
+2. Sequence Alignment:
+◦ Align the sequenced data against reference bacterial
+genomes using bioinformatics software (e.g., BLAST, BWA).
+3. Identification:
+◦ Identify tickborne bacterial pathogens by comparing aligned
+sequences to a database of known tickborne bacterial
+sequences.
+4. Reporting Results:
+◦ Document identified bacteria and associated quality metrics.
+◦ Review results and verify for accuracy.
+◦ Transmit results to the Laboratory Information System (LIS)
+and prepare patient reports, including information on
+detected pathogens.
+D) Quality Control and Troubleshooting:
+1. Controls:
+◦ Run positive and negative controls with each batch to
+validate the test rigorously.
+◦ Implement corrective actions if controls do not exhibit
+expected results.
+2. Troubleshooting Steps:
+◦ Repeat the PCR amplification step with fresh reagents if
+amplification fails.
+◦ Re-purify PCR products if sequencing data quality is low.
+◦ Consult with a supervisor and follow additional
+troubleshooting procedures if repeated issues occur.
+References:
+1. DNA Extraction Kit Manual
+2. PCR Master Mix Manufacturer Instructions
+3. Sequencing Kit Manufacturer Instructions
+4. Bioinformatics Software Manuals
+Document Revision History: Review and update this SOP annually or
+as needed to ensure accuracy and compliance with current best
+practices.
+Approval: Supervisor: _____________________________________
+Date: _______________ Director:
+_________________________________________ Date:
+_______________
+Reviewed by: _____________________________________ Date:
+_______________
+Effective Date: ____________________________________
+End of SOP

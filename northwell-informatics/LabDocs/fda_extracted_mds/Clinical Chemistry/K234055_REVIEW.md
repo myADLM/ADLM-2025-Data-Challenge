@@ -1,0 +1,125 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+I Background Information:
+
+A 510(k) Number K234055   
+B Applicant Deka Research and Development   
+C Proprietary and Established Names DEKA Loop   
+D Regulatory Information
+
+<table><tr><td rowspan=1 colspan=1>ProductCode(s)</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>RegulationSection</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>QJII</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR 862.1356 - InteroperableAutomated Glycemic Controller</td><td rowspan=1 colspan=1>CH - ClinicalChemistry</td></tr></table>
+
+# E Purpose for Submission
+
+New device
+
+II Intended Use/Indications for Use:
+
+A Intended Use(s): See Indications for Use below. B Indication(s) for Use:
+
+DEKA Loop is intended for use with compatible integrated continuous glucose monitors (iCGM) and the DEKA alternate controller enabled (ACE) insulin infusion pump to automatically increase, decrease, and suspend delivery of basal insulin based on iCGM readings and predicted glucose values. It can also recommend, and with the user’s confirmation, control the delivery of correction boluses when glucose values are predicted to exceed user configurable thresholds.
+
+DEKA Loop is intended for the management of Type 1 diabetes mellitus in persons six years of age and greater.
+
+DEKA Loop is intended for single patient use and requires a prescription.
+
+C Special Conditions for Use Statement(s): Rx - For Prescription Use Only
+
+DEKA Loop is not indicated for use by anyone who is pregnant, on dialysis, or critically ill. It is not known how different conditions or medications used in these scenarios may affect performance of the DEKA ACE Pump System with DEKA Loop. CGM readings being used by the system may be inaccurate in these cases, meaning the DEKA Loop will not have accurate information to use for dosage recommendations. This could result in over-delivery or underdelivery of insulin, which can lead to low and high blood glucose.
+
+Do not use DEKA Loop when using hydroxyurea, a medication used in the treatment of diseases including cancer and sickle cell anemia. CGM readings being used by the system may be inaccurate while taking hydroxyurea, meaning the DEKA Loop will not have accurate information to use for dosage recommendations. This could result in over-delivery of insulin, which can lead to hypoglycemia. Talk to your healthcare provider about using your BG meter for treatment decisions instead.
+
+Do not use DEKA Loop if you are taking GLP-1 agonists or SGLT-2 inhibitors, metformin, or DPP-4. DEKA Loop has not been tested in populations using additional diabetes medications and the performance of the system in conjunction with these medications is unknown.
+
+Do not take external insulin, such as manual insulin injections or inhaled insulins, while the DEKA Loop automation is enabled on the DEKA ACE Pump System. DEKA Loop does not receive information about insulin taken outside the system. If you choose to take additional insulin with another method while the DEKA Loop automation is enabled on the DEKA ACE Pump System, over-delivery or under-delivery of insulin may occur, which can lead to low and high blood glucose. Consult with your healthcare provider about how long to wait after manually taking insulin before enabling DEKA Loop automated insulin delivery.
+
+# III Device/System Characteristics:
+
+# A Device Description:
+
+The DEKA Loop is a software-only device and resides on the DEKA ACE pump (K233952). The DEKA Loop is an interoperable Alternate Glycemic Controller (iAGC) and works to control an ACE (Alternate Controller Enabled) insulin pump to automatically increase, decrease, and suspend delivery of basal insulin based on readings from an iCGM (integrated continuous glucose monitor) and glucose values predicted by the DEKA Loop. The DEKA Loop can also recommend, and with the user’s confirmation, control the delivery of correction boluses when glucose values are predicted to exceed user configurable thresholds.
+
+The DEKA Loop is a ported version of the Tidepool Loop iAGC cleared in K203689 and is embedded within the DEKA ACE Pump System. As with the cleared Tidepool Loop device, the
+
+DEKA Loop predicts glucose levels up to 6 hours in the future based on prior iCGM readings, insulin delivery history, and user input (e.g., carbohydrate intake and exercise), and uses that prediction to adjust insulin delivery. DEKA Loop requires that users input their specific therapy settings, which are established with the help of their health care provider before using the device, as part of the prescription process. These settings include:
+
+• Target Correction Ranges for normal operation, pre-meal, and workout presets o Settings can be programmed as low as $8 7 \mathrm { m g / d L }$ and as high as $1 8 0 ~ \mathrm { m g / d L }$ and different ranges can be added for different times of day. Glucose Safety Limit o Settings can be programmed as low as $6 7 \mathrm { m g / d L }$ , or as high as $1 1 0 \mathrm { m g / d L }$ or the Correction Range minimum, whichever is lower.   
+• Carb to Insulin Ratios   
+• Insulin sensitivity factors   
+• Basal rates   
+• Max basal rate   
+• Max bolus
+
+IV Substantial Equivalence Information:
+
+A Predicate Device Name(s): Tidepool Loop   
+B Predicate 510(k) Number(s): K203689
+
+C Comparison with Predicate(s):
+
+<table><tr><td colspan="1" rowspan="1">Device &amp; PredicateDevice(s):</td><td colspan="1" rowspan="1">K234055</td><td colspan="1" rowspan="1">K203689</td></tr><tr><td colspan="1" rowspan="1">Device Trade Name</td><td colspan="1" rowspan="1">DEKA Loop</td><td colspan="1" rowspan="1">Tidepool Loop</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristic Similarities</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Intended Use/IndicationsFor Use</td><td colspan="1" rowspan="1">The device is intended for use withcompatible integrated continuousglucose monitors (iCGM) andalternate controller enabled (ACE)pumps to automatically increase,decrease, and suspend delivery ofbasal insulin based on iCGMreadings and predicted glucosevalues. It can also recommend anddeliver correction boluses whenglucose values are predicted toexceed user configurablethresholds.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Intended use population</td><td colspan="1" rowspan="1">Persons with Type 1 DiabetesMellitus ages 6 and above</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristic Differences</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Device Hosting Controller</td><td colspan="1" rowspan="1">DEKA ACE Pump System</td><td colspan="1" rowspan="1">iPhone</td></tr><tr><td colspan="1" rowspan="1">Compatible ACE Pump</td><td colspan="1" rowspan="1">DEKA ACE Pump System</td><td colspan="1" rowspan="1">ACE pumps that havethe specifications andmeet the pre-specifiedacceptance criteria.</td></tr></table>
+
+# V Standards/Guidance Documents Referenced:
+
+Special controls established under 21 CFR 862.1356 for interoperable automated glycemic controller.
+
+VI Performance Characteristics (if/when applicable):
+
+# A Other Supportive Instrument Performance Characteristics Data:
+
+1. In-silico simulation testing
+
+The DEKA Loop is a ported version of the Tidepool Loop device, cleared under k203689. The DEKA Loop is intended to function identically to the Tidepool Loop, with the only differences being the physical location of the algorithm (i.e., integrated into the DEKA ACE pump in the case of the DEKA Loop, versus residing on a separate smartphone app in the case of the Tidepool Loop), and the programming language the device software is written in.
+
+To demonstrate that the DEKA Loop functions identically to the Tidepool Loop, and to support leveraging the clinical validation used for the Tidepool Loop, DEKA provided the results of software equivalency tests.
+
+DEKA used a layered approach as the test strategy to verify algorithm equivalence between the Tidepool Loop and the DEKA Loop. In addition to unit testing and software requirement verification testing for supporting the porting strategy, DEKA has performed equivalence testing to demonstrate clinical equivalence between the DEKA Loop and the Tidepool Loop, including single input vector integration testing, targeted scenario in-silico testing, and massively distributed random in-silico testing. Integration-level in-silico testing was conducted using target hardware for the DEKA Loop and Tidepool Loop (e.g., the DEKA ACE pump hardware, and an Apple iPhone developer’s emulator, respectively).
+
+DEKA conducted side-by-side unit testing on the DEKA Loop and Tidepool Loop devices with $100 \%$ code coverage. Results of the unit testing demonstrated that the two devices are logically equivalent at the unit level.
+
+The primary equivalence metric used by DEKA to compare the two iAGC devices during integration testing with time series data is the Raw Glucose Equivalence over the duration of testing, which is defined as the root mean squared (RMS) percent difference.
+
+The single input vector integration testing challenged both the DEKA Loop and the Tidepool Loop with a series of pre-defined input vectors and verified the equivalence of their outputs, as well as equivalence of intermediate calculations used in the calculation of outputs. In the single input vector integration testing, 25 input vectors were used, and the results of multiple different computations within the iAGC algorithms were compared to evaluate the equivalence of the two iAGC devices, including device output (bolus and basal recommendations), as well as multiple intermediate calculations. The overall Raw Glucose Equivalence metric was $9 9 . 9 9 \%$ , and the range across individual scenarios was $9 9 . 6 2 \%$ to $100 \%$ . Comparing device outputs, bolus recommendations showed overall equivalence of $100 \%$ , and basal recommendations showed overall equivalence of $9 9 . 9 7 \%$ (range: 99.62 - $1 0 0 \%$ . All instances of discrepant results were analyzed and determined to be the result of differences in the floating-point hardware used on the two different hardware platforms and not the result of different iAGC functionality. Results supported a finding of substantial equivalence.
+
+Targeted scenario in-silico testing provided additional supporting evidence of clinical equivalence between the subject device and the predicate. This testing added an in-silico human body model to the test system to challenge the combined algorithm/body model systems with clinically-relevant scenario-based inputs. In the targeted scenario in-silico testing, 15 scenarios were chosen to characterize the relative responses of the two iAGC devices across the expected variety of inputs including meals, exercise, CGM bias, CGM signal loss, and boluses. These scenarios were a series of events that would be expected under normal operation of the system and were designed to last 24 hours. The Raw Glucose Equivalence metric range for these 15 scenarios was from $9 9 . 7 6 \%$ to $100 \%$ . Results supported a finding of substantial equivalence.
+
+Massively distributed random in-silico testing was used to create approximately one million random variants of a 24-hour sequence of input conditions to test the equivalence of the DEKA Loop and the Tidepool Loop for 24 million simulated-use hours. In the massively distributed random in-silico testing, the test system used software to generate 24-hour sequences of random inputs from a set of defined variables. The same set of input scenarios were applied to both the Tidepool Loop and DEKA Loop algorithms to permit assessment of overall equivalency between the algorithms to be evaluated. Results showed numerically and/or clinically equivalent performance in $9 9 . 7 6 \%$ of scenarios. In $0 . 2 4 \%$ of scenarios, nonequivalent performance was observed. All non-equivalent results were reviewed and analyzed individually. The differences in simulation results were determined to be the result of numerical differences in floating-point calculations that, on rare occasions, could result in a transition above or below a hard threshold in the simulation framework or in the Loop algorithm, leading to different simulation results. In all instances it was determined that the DEKA Loop algorithm behaved as expected.
+
+Taken together, the results of all software equivalency tests support a finding of substantial equivalence.
+
+# 2. Human Factors
+
+Human factors validation tests were conducted with the DEKA Loop in its finished configuration (i.e., integrated into the DEKA ACE Pump System). All study participants received training that was consistent with the training that healthcare professionals and patients would receive with the commercial product. Usability evaluations assessed comprehension and usability of the device for critical tasks. Results of the study demonstrated that the DEKA Loop within the DEKA ACE Pump System is validated for its intended use.
+
+# 3. User Training
+
+The following user training modes were validated as part of the human factors validation:
+
+In-person training of health care professionals o Certified Diabetes Care and Education Specialists (CDCES) o Registered Nurses (RNs)   
+In-person training, 1:1 from the trained trainers described above
+
+The commercial implementation of the device utilizes a “train the trainer” approach wherein CDCES and RNs receive a 5 hour training from the manufacturer of the device and become qualified trainers. The device manufacturer determined if the trainers had sufficient system knowledge to then train the patients that use the device. This method of training the trainers was validated in the human factors study.
+
+1:1 in-person user training provided by trained healthcare professionals representative of those available in a clinical setting was validated as part of human factors that had a duration of 3 hours. As part of this evaluation, a trainer guide was provided for the trainer to follow to train the intended users of this device. The trainer guide covers how the device works, what is included in the box, setting up the device, and assessment of user training results at each step for use of the device. A user training guide was also provided for device users. The trainer is expected to determine that users are competent in the use of the system or if additional training is required.
+
+# 4. Interoperability
+
+A plan and approach for interoperability were provided and determined to be adequate to support and clearly specify expectations, requirements, and interface specifications for potential interoperable devices. The sponsor has established plans for interfacing with ACE pumps and iCGMs. The DEKA ACE Pump System is designed to be interoperable with the Dexcom G6 using Bluetooth LE. Details were provided in the Software Requirements and Design for iCGM Interface Subsystem. Further, the sponsor has performed software and bench testing to verify and validate that these interface control specifications meet the special controls and their controller’s requirements for performance, communications, and data logging. The same approach will be used when integrating with other iCGMs in the future. The DEKA Loop uses the same requirements for compatible iCGM performance as established for Tidepool Loop.
+
+DEKA Loop will not allow use of an unvalidated ACE pump or iCGM. By design, DEKA Loop can only be used with compatible ACE Pumps (e.g., DEKA ACE Pump System, K233952) and iCGMs (e.g., Dexcom G6, K203089) with which it has been validated for use. DEKA Loop currently receives glucose information through the DEKA ACE Pump System that only contains the interface to the Dexcom G6 iCGM.
+
+In addition, the plans provided by the sponsor covered their approach to working with connected device companies regarding contractual issues, interfaces for data communication and exchange, and post-market reporting procedures and responsibilities (e.g., who is responsible for investigating and reporting complaints, malfunctions, and adverse events). The approach was determined to acceptably align with FDA-recognized ANSI/AAMI/UL 2800-1:2019 Standard for Safety for Medical Device Interoperability.
+
+# 5. Postmarket Surveillance Study:
+
+As described in the decision summary for the predicate device, at the time of clearance for the predicate Tidepool Loop (K203689) there was uncertainty remaining regarding the clinical performance and risk/benefit profile of that device when used in the broader intended use population as compared to those studied in the Tidepool premarket study, and a postmarket surveillance study would be ordered by FDA to confirm understanding of safety. As of the time of this clearance for the DEKA Loop device, the Tidepool Loop device has not begun commercial distribution. Therefore, the planned postmarket surveillance study for the Tidepool Loop has not begun.
+
+The premarket clinical study of the Tidepool Loop was leveraged to support clearance of the DEKA Loop. As a result, the same uncertainty regarding clinical performance and risk/benefit profile exists for the DEKA Loop device. Accordingly, a postmarket surveillance study will be ordered by FDA to confirm performance and understanding of safety of this device.
+
+# VII Proposed Labeling:
+
+The labeling supports the finding of substantial equivalence for this device.
+
+# VIII Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

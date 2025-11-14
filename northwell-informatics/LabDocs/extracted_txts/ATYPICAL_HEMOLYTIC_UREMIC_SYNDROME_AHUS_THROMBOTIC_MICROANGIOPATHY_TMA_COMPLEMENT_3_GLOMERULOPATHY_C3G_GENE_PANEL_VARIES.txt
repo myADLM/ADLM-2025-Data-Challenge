@@ -1,0 +1,82 @@
+Protocol for Analytical Phase of Generating Results for ATYPICAL
+HEMOLYTIC UREMIC SYNDROME (AHUS)/THROMBOTIC
+MICROANGIOPATHY (TMA)/COMPLEMENT 3 GLOMERULOPATHY
+(C3G) GENE PANEL, VARIES
+1. PURPOSE
+To ensure accurate and timely analysis of samples submitted for the
+AHUS/TMA/C3G gene panel using Next Generation Sequencing
+(NGS) technology. This protocol outlines the steps required for the
+detection of genetic variants associated with these conditions.
+Responsibility: Designated laboratory staff are responsible for
+carrying out the procedures as outlined in this protocol and ensuring
+all steps are followed meticulously to guarantee the integrity and
+accuracy of the results.
+1. DEFINITION
+The AHUS/TMA/C3G gene panel includes genes known to be
+associated with atypical hemolytic uremic syndrome, thrombotic
+microangiopathy, and complement 3 glomerulopathy. These genes
+typically include but are not limited to CFH, CFI, MCP (CD46), CFB,
+CFHR1-5, and DGKE.
+1. PROCEDURE
+A. Sample Preparation
+1. Ensure sample integrity and proper labeling.
+2. Perform DNA extraction and quantification from the collected
+blood or tissue samples according to the laboratory's standard
+DNA extraction protocol.
+3. Validate DNA quality and concentration using appropriate
+quantification techniques (e.g., Qubit or Nanodrop, and quality
+assessment using agarose gel electrophoresis).
+4. Dilute the DNA sample to the required concentration for the
+library preparation (typically >= 20ng/ul).
+B. Library Preparation
+1. Use a validated library preparation kit specific for NGS
+applications. Follow manufacturer's instructions.
+2. Perform DNA fragmentation as required (if shearing is needed
+based on the system).
+3. Construct DNA libraries ensuring proper adapter ligation, PCR
+amplification, and indexing for sample identification.
+4. Validate the quality and size distribution of the libraries using a
+bioanalyzer or equivalent.
+C. Sequencing
+1. Load the libraries onto the sequencing platform (e.g., Illumina,
+Ion Torrent) following the manufacturer's instructions.
+2. Ensure proper calibration and setup of the sequencing
+instrument.
+3. Perform sequencing run according to the pre-established
+parameters for depth and coverage suitable for the gene panel.
+4. Monitor the sequencing process regularly to ensure it proceeds
+without errors.
+D. Data Analysis
+1. Transfer raw sequencing data to the bioinformatics pipeline.
+2. Perform initial data processing including base calling, alignment
+to reference genome, and variant calling using validated
+software packages.
+3. Apply quality control measures to filter out low-quality reads
+and artifacts.
+4. Annotate detected variants with known databases (e.g., ClinVar,
+dbSNP) relevant for clinical interpretation.
+E. Interpretation and Reporting
+1. Review and interpret the genetic variants with respect to their
+pathogenic significance.
+2. Consult relevant databases and literature for unknown or novel
+variants.
+3. Compile a comprehensive report detailing the detected genetic
+variants and their clinical significance.
+4. Include recommendations for further testing, genetic
+counseling, or follow-up based on the findings.
+5. Verify and sign off the report by qualified personnel before
+submitting to the ordering physician.
+Quality Control:
+1. Include negative and positive controls in every batch of library
+preparation and sequencing.
+2. Perform internal quality checks and validations regularly to
+ensure consistency of results.
+3. Document any anomalies and troubleshooting steps taken
+during the analytical phase.
+References: Refer to standard operating procedures for DNA
+extraction, NGS protocols, bioinformatics pipeline, and variant
+interpretation guidelines.
+This protocol must be reviewed regularly and updated according to
+advancements in technology and best practices in genetic analysis.
+Approval: This protocol has been reviewed and approved by
+[Approver Name] on [Date]. Revisions will be noted as necessary.

@@ -1,0 +1,29 @@
+# SPECIAL 510(k): Device Modification ODE Review Memorandum (Decision Making Document is Attached)
+
+To: THE FILE
+
+RE: DOCUMENT NUMBER K060931 HemosIL PT-Fibrinogen HS PLUS
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class II, Class III or Class I devices requiring 510(k). The following items are present and acceptable:
+
+1. Previously cleared device: HemosIL PT-Fibrinogen HS PLUS K933252
+
+2. INDICATION/INTENDED USE: HemosIL PT-Fibrinogen HS PLUS is a very high sensitivity calcium thromboplastin for simultaneous determinations of Prothrombin Time (PT) and Fibrinogen (Fib), for evaluation of the extrinsic coagulation pathway and monitoring Oral Anticoagulant Therapy in human citrated plasma on the IL Coagulation Systems.
+
+3. MODIFICATION(S): This change was for modification of the package insert to replace existing expected values data for Prothrombin Time and Fibrinogen on the ACL Futura/ACL Advance. The expected range value study data was generated from testing on the HemosIL PT-Fibrinogen reagent on the ACL TOP (K033414) and the ACL Futura (K951891).
+
+4. Comparison Information: Similarities – There are no changes to Indications for Use, Intended Use, reagent formulation or test principle. There are no differences in data reduction software, analytical functionality, performance claims or intended use between the ACL Futura and ACL Advance. Differences – modified product insert to replace the existing expected values data for the ACL Futura and ACL Advance. The performance of HemosIL PT-Fibrinogen HS PLUS with modified stability claims for the ACL Futura and ACL Advance is not materially different from the FDA cleared device K933252.
+
+# 5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied   
+c) A declaration of conformity with design controls. The declaration of conformity should include: i) A statement signed by the individual responsible, that, as required by the risk analysis, all verification and validation activities were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met, and ii) A statement signed by the individual responsible, that the manufacturing facility is in conformance with design control procedure requirements as specified in 21 CFR 820.30 and the records are available for review.
+
+# 6. A Truthful and Accurate Statement, a 510(k) Summary or Statement and the Indications for Use Enclosure (and Class III Summary for Class III devices).
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.
+
+Leonthena R. Carrington
+
+Comments

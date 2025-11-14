@@ -1,0 +1,165 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: K072695   
+B. Purpose for Submission: The addition of the antibiotic Tigecycline to the VITEK $^ { \textregistered 2 }$ Antimicrobial Susceptibility Test (AST) System.   
+C. Measurand VITEK $^ \mathrm { \textregistered }$ 2 Gram Positive Tigecycline $( \leq 0 . 1 2 - \geq 2 \ \mu \mathrm { g / m l } )$   
+D. Type of Test: Quantitative growth based detection algorithm using optics light detection   
+E. Applicant: bioMérieux, Inc.   
+F. Proprietary and Established Names: Vitek $^ { \textregistered 2 }$ Gram Positive Tigecycline.
+
+# G. Regulatory Information:
+
+1. Regulation section: 866.1645 Short-Term Antimicrobial Susceptibility Test System   
+2. Classification: II   
+3. Product Code: LON System, Test, Automated, Antimicrobial Susceptibility, Short Incubation   
+4. Panel: 83 Microbiology
+
+# H. Intended Use:
+
+1. Intended use(s): VITEK $^ \mathrm { \textregistered }$ 2 Gram Positive Susceptibility Card is intended for use with VITEK $^ \mathrm { \textregistered }$ 2 System in clinical laboratories as an in vitro test to determine the susceptibility of gram positive organisms to Tigecycline when used as instructed in the System Product Information manual.
+
+The VITEK $^ \mathrm { \textregistered }$ 2 Antimicrobial Susceptibility Test (AST) is intended to be used with the VITEK $^ \mathrm { \textregistered }$ 2 and VITEK $^ \mathrm { \textregistered }$ 2 Compact Systems for the automated quantitative or qualitative susceptibility testing of isolated colonies for the most clinically significant aerobic gram negative bacilli, Staphylococcus spp., Enterococcus spp., Streptococcus agalactiae, and S. pneumoniae.
+
+2. Indication(s) for use:
+
+This submission is for the addition of the antibiotic tigecycline at concentrations of 0.25, 0.5, and $1 . 0 ~ \mu \mathrm { g / m l }$ to VITEK $^ \mathrm { \textregistered }$ 2 Gram Positive (ASTGP) panels. It is intended for use with the VITEK $^ \mathrm { \textregistered }$ 2 and VITEK $^ \mathrm { \textregistered }$ 2 Compact Systems as a laboratory aid in the determination of in vitro susceptibility to antimicrobial agents. VITEK $^ \mathrm { \textregistered }$ 2 Gram Positive Tigecycline has been shown to be active in vitro against Enterococcus faecalis (vancomycin-susceptible), Staphylococcus aureus (methicillin – susceptible and –resistant isolates), and Streptococcus agalactiae; and against Enterococcus faecium (vancomycin-susceptible and - resistant isolates), Staphylococcus epidermidis, Staphylococcus haemolyticus and Enterococcus casseliflavus, but the clinical significance is unknown.
+
+3. Special condition for use statement(s):
+
+a. The VITEK 2 AST cards cannot be used with direct clinical specimens or other sources containing mixed flora. Any change or modification in the procedure may affect the results.   
+b. The ability of Tigecycline to detect resistance with Enterococcus faecalis (vancomycin-susceptible), Staphylococcus aureus (methicillin – susceptible and – resistant isolates), and Streptococcus agalactiae is unknown because these strains have not yet been detected and should be restested. If a “non-susceptible” result is obtained the strain should be submitted to reference laboratory for further testing.   
+c. Prescription Use Only
+
+# 4. Special instrument Requirements: Not Applicable
+
+# I. Device Description:
+
+Each VITEK $^ \mathrm { \textregistered }$ 2 test card contains 64 microwells. A control well, that contains only microbiological culture medium is resident on all cards, with the remaining wells containing pre-measured amounts of a specific antibiotic combined with culture medium. A suspension of organism is made in $0 . 4 5 – 0 . 5 \%$ sterile saline from a pure culture in a clear plastic polystyrene tube and standardized to a McFarland 0.5 standard using the DensiChek Turbidity meter. The desired card (s) are placed in the cassette along with an empty tube for the preparation of a bacterial suspension. The cassette is placed into the VITEK $^ \mathrm { \textregistered }$ 2 instrument where a susceptibility test will be automatically diluted from the ID suspension by the Vitek $^ \mathrm { \textregistered }$ 2. Alternately, a manual dilution specific for each AST product type card can be made. The cards are then automatically vacuum filled; the tubes are cut and the cards sealed prior to proceeding to the Incubator Loading Station. Cards are then transferred from the cassette into the carousel for incubation $( 3 5 . 5 ^ { \mathrm { o } } \mathrm { C } )$ and optical scanning during testing. Readings are performed every 15 minutes.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Vitek 2 Gram Positive Daptomycin
+
+2. Predicate K number(s): K050075
+
+# 3. Comparison with predicate
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Test Card</td><td rowspan=1 colspan=1>VITEK® 2 card formatwith base broth</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Instrument</td><td rowspan=1 colspan=1>VITEK® 2 and VITEK ®2Compact System</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Dilution methods</td><td rowspan=1 colspan=1>Auto-dilution and manual</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Antibiotic</td><td rowspan=1 colspan=1>Tigecycline</td><td rowspan=1 colspan=1>Daptomycin</td></tr><tr><td rowspan=1 colspan=1>Test organisms</td><td rowspan=1 colspan=1>Enterococcus faecalis(vancomycin-susceptible),Staphylococcus aureus(methicillin  susceptibleand resistant isolates), andStreptococcus agalactiae</td><td rowspan=1 colspan=1>Enterococcus faecalisStaphylococcus aureusStreptococcus agalactiaeEnterococcus faeciumStaphylococcus epidermidisand Staphylococcushaemolyticus</td></tr><tr><td rowspan=1 colspan=1>Reading algorithm</td><td rowspan=1 colspan=1>Unique for Tigecycline</td><td rowspan=1 colspan=1>Unique for Daptomycin</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Class II Special Controls Guidance Document: Antimicrobial Susceptibility Test (AST) Systems; Guidance for Industry and FDA”; CLSI M7 (M100-S16) “Methods for Dilution Antimicrobial Susceptibility Tests for Bacteria That Grow Aerobically; Approved Standard”; CLSI Document M7-A7, Methods for Dilution Antimicrobial Susceptibility Tests for Bacteria that Grow Aerobically – Seventh Edition.
+
+# L. Test Principle:
+
+Optics systems use visible light to directly measure organism growth. These transmittance optics are based on an initial light reading of a well before significant growth has begun. Periodic light transmittance samplings of the same well measure organism growth by how much light is prevented from going through the well. An interpretive call is made between 4 and 16 hours with the majority of the S.
+
+pneumoniae between 5 and nine hours. The VITEK Susceptibility Card test is based on the microdilution minimum inhibitory concentration (MIC) technique with concentrations equivalent to standard method concentrations. Several parameters based on the growth characteristics observed are used to provide appropriate input for the MIC calculations. Discriminate analysis is used to develop the algorithm that determines the susceptibility result for all antimicrobials on the VITEK 2 system. The MIC result must be linked to an organism identification in order to determine a category interpretation. A category interpretation will be reported along with a MIC.
+
+# M. Performance Characteristics (if/when applicable):
+
+An external evaluation was conducted with fresh and stock clinical isolates and challenge strains. The external evaluations were designed to confirm the acceptability of VITEK $^ \mathrm { \textregistered }$ 2 Gram Positive Tigecycline, using both the auto-dilution and the manual dilution methods, by comparing its performance with the CLSI broth microdilution reference method read at 24 hours.
+
+This submission is for the AST Panel only. The ID System was not reviewed.
+
+# 1. Analytical performance:
+
+# a. Precision/Reproducibility:
+
+Reproducibility was demonstrated using a panel of 10 Staphylococcus aureus isolates in triplicate, each for three days at three sites with VITEK $^ \mathrm { \textregistered }$ 2 AST-GP13 Tigecycline, for a total of 270 results. The reproducibility did not include Enterococcus spp. isolates. There were a total of 12 off-scale results in the auto-dilution and in the manual dilution methods, respectively. The mode for the off-scale results was more susceptible than the on-scale results mode by greater than two dilutions. On-scale results were $> 9 5 ~ \%$ reproducible for both dilutions methods.
+
+# b. Linearity/assay reportable range: Not Applicable
+
+c. Traceability (controls, calibrators, or method):
+
+The recommended QC isolates were tested by VITEK 2 GP13 containing Tigecycline, and broth microdilution plates containing Tigecycline. QC organisms Staphylococcus aureus ATCC 29213 and Enterococcus faecalis ATCC 29212 were tested at each clinical trial site. One Streptococcus pneumoniae ATCC 49619 quality control organism was tested throughout comparative testing with Streptococcus agalactiae by the reference method only (data not presented). This was done to perform further quality control of the broth microdilution panels supplemented with lysed horse blood. The VITEK 2 GP13 card was tested a sufficient number of times to demonstrate that the system can produce QC results in the recommended range $> 9 5 \%$ of the time. The following tables provide the frequency of the results in each
+
+concentration at each of the 3 testing sites for the manual and the autodilution (automated) dilution methods.
+
+AUTO-DILUTION QC (Tigecycline– TGC)   
+
+<table><tr><td rowspan=11 colspan=1>QCORGANISMEnterococcusfaecalisATCC 29212ExpectedRange 0.03-0.125 μg/mL</td><td rowspan=1 colspan=1>Concentration</td><td rowspan=1 colspan=1>Vitek 2</td><td rowspan=1 colspan=1>Reference</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≤ 0.015625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.03125</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>0.0625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>71</td></tr><tr><td rowspan=1 colspan=1>0.0125 *</td><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>0.25*</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.5 *</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1*</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2*</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≥4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+
+\* VITEK 2 Card Result Range
+
+MANUAL-DILUTION QC (Tigecycline– TGC)   
+
+<table><tr><td rowspan=1 colspan=1>QCORGANISM</td><td rowspan=1 colspan=1>Concentration</td><td rowspan=1 colspan=1>Vitek 2</td><td rowspan=1 colspan=1>Reference</td></tr><tr><td rowspan=10 colspan=1>EnterococcusfaecalisATCC 29212ExpectedRange0.03-0.125μg/mL</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≤ 0.015625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.03125</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>0.0625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>70</td></tr><tr><td rowspan=1 colspan=1>0.0125 *</td><td rowspan=1 colspan=1>71</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>0.25*</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.5 *</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1 *</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2 *</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≥4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+
+\* VITEK 2 Card Result Range
+
+# AUTO-DILUTION QC (Tigecycline– TGC)
+
+<table><tr><td rowspan=11 colspan=1>QCORGANISMStaphylococcusaureusATCC 29213ExpectedRange0.03-0.25μg/mL</td><td rowspan=1 colspan=1>Concentration</td><td rowspan=1 colspan=1>Vitek 2</td><td rowspan=1 colspan=1>Reference</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≤ 0.015625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.03125</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.0625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>0.0125 *</td><td rowspan=1 colspan=1>89</td><td rowspan=1 colspan=1>88</td></tr><tr><td rowspan=1 colspan=1>0.25*</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.5 *</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1 *</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2*</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≥4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+
+\* VITEK 2 Card Result Range
+
+# Page 6 of 8
+
+# MANUAL -DILUTION QC (Tigecycline– TGC)
+
+<table><tr><td rowspan=11 colspan=1>QCORGANISMStaphylococcusaureusATCC 29213ExpectedRange0.03-0.25μg/mL</td><td rowspan=1 colspan=1>Concentration</td><td rowspan=1 colspan=1>Vitek 2</td><td rowspan=1 colspan=1>Reference</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≤ 0.015625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.03125</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.0625</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>0.0125 *</td><td rowspan=1 colspan=1>88</td><td rowspan=1 colspan=1>87</td></tr><tr><td rowspan=1 colspan=1>0.25*</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>0.5 *</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>1 *</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2 *</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>≥4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>
+
+\* VITEK 2 Card Result Range
+
+E. faecalis ATCC 29212 QC performance: The modes for the VITEK 2 GP13 results were one dilution more resistant than the modes of the reference methods for both dilution methods. Two results, in the VITEK2- GP13 (TGC), (2/73, $2 . 7 \% )$ , were interpreted outside the expected QC result range of $0 . 0 3 \mathrm { - } 0 1 2 \mu \mathrm { g / m L }$ . However, overall QC results were within the expected range $2 9 5 \%$ of the time for both dilution methods, which is acceptable.
+
+S. aureus ATCC 29213 QC performance: The modes for the VITEK 2- GP13 results were the same as the reference methods for both dilution methods. Two results, in the Vitek GP13 (TGC), (2/90, $2 . 2 \%$ ), were interpreted outside the expected QC result range of $0 . 0 3 { \cdot } 0 2 5 \ \mu \mathrm { g / m L }$ . However, overall QC results were within the expected range $2 9 5 \%$ of the time for both dilution methods, which is acceptable.
+
+No QC trending was observed.
+
+Inoculum density control: A turbidity meter was used (DensiCheck) for the turbidity inoculation method. DensiChek Calibration verification procedure was also included.
+
+a. Detection limit: Not Applicable   
+b. Analytical specificity: Not Applicable   
+c. Assay cut-off: Not Applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Clinical testing was conducted at 3 sites. The addition of the antibiotic Tigecycline to the VITEK $^ { \textregistered 2 }$ Antimicrobial Susceptibility Test (AST) System included 862 clinical isolates of which 280 were fresh, along with a challenge set with known
+
+results. Two methods of inoculation (manual and automated) were evaluated by both VITEK 2 AST-GP13 Tigecycline and broth microdilution dilution containing Tigecycline. All isolates with the exception of one completed incubation in the VITEK 2 AST-GP13 card in ${ < } 1 6$ hours. A panel of 105 organisms were used for Challenge testing at one site. Each challenge organism was tested one time by manual dilution, automatic dilution, and broth microdilution, and the Disk Approximation Test (data not presented). A comparison was provided to the reference method with the following agreement.
+
+Clinical and Challenge Data - Automated Dilution Method comparison for Tigecycline (TGC)   
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>EA</td><td rowspan=1 colspan=1>%EA</td><td rowspan=1 colspan=1>Totalevaluable</td><td rowspan=1 colspan=1>EA ofevaluable</td><td rowspan=1 colspan=1>%EA</td><td rowspan=1 colspan=1>CA</td><td rowspan=1 colspan=1>%CA</td><td rowspan=1 colspan=1>#R</td><td rowspan=1 colspan=1>min</td><td rowspan=1 colspan=1>maj</td><td rowspan=1 colspan=1>vmj</td></tr><tr><td rowspan=1 colspan=1>Clinical</td><td rowspan=1 colspan=1>858</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>853</td><td rowspan=1 colspan=1>99.4</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>Challenge</td><td rowspan=1 colspan=1>105</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>104</td><td rowspan=1 colspan=1>99.0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Combined</td><td rowspan=1 colspan=1>963</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>957</td><td rowspan=1 colspan=1>99.4</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>2</td></tr></table>
+
+EA-Essential Agreement maj-major discrepancies CA-Category Agreement vmj-very major discrepancies R-resistant isolates min- minor discrepancies N/A – Not applicable (due to Categorical Agreement claim only)
+
+Challenge Data - Manual Read Method comparison for Tigecycline (TGC)   
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>EA</td><td rowspan=1 colspan=1>%EA</td><td rowspan=1 colspan=1>Totalevaluable</td><td rowspan=1 colspan=1>EA ofevaluable</td><td rowspan=1 colspan=1>%EA</td><td rowspan=1 colspan=1>CA</td><td rowspan=1 colspan=1>%CA</td><td rowspan=1 colspan=1>#R</td><td rowspan=1 colspan=1>min</td><td rowspan=1 colspan=1>maj</td><td rowspan=1 colspan=1>vmj</td></tr><tr><td rowspan=1 colspan=1>Challenge</td><td rowspan=1 colspan=1>105</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>105</td><td rowspan=1 colspan=1>100.0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr></table>
+
+The performance characteristics of the antimicrobial agents included in VITEK 2 GP13 cards were established using the manual and automated modes at multiple clinical laboratories. The VITEK 2 AST GP 13 card results were compared to results from a reference method prepared according to CLSI. Essential Agreement (EA) was calculated for clinical trial data. However, the VITEK 2 AST-GP13 Tigecycline claims are for Category Agreement (CA) only. A statement to that effect is included on the VITEK 2 AST-GP13 Tigecycline package insert. Category Agreement (CA), in this case, occurs when the VITEK 2 GP13 and the reference interpretative result agree as Susceptible or Non-susceptible.
+
+The Clinical testing and Challenge testing using the automated method in the categorical agreement data demonstrated 2 very major discrepancies (vmj) and 3 major discrepancies (maj). There was only 1 major discrepancy (maj) in the Challenge set using the automated dilution method and no discrepancies produced using the manual dilution method as shown in the tables above. Additional data was provided focusing on the Vancomycin resistant Enterococcus spp., since their performance in Tigecycline, has
+
+shown to be active in vitro, but their clinical significance is unknown. 37 Vancomycin Resistant Enterococcus (VREs) isolates showed no discrepancies in both clinical and challenge studies. Overall results demonstrated a combined CA of $9 9 . 4 \%$ which was very good.
+
+The test device had a growth rate of $59 5 \%$ .
+
+b. Matrix comparison: Not Applicable
+
+3. Clinical studies:
+
+a. Clinical sensitivity: Not Applicable   
+b. Clinical specificity: Not Applicable   
+c. Other clinical supportive data (when a and b are not applicable
+
+4. Clinical cut-off: Not Applicable
+
+# 5. Expected values/Reference range
+
+<table><tr><td rowspan=2 colspan=1>NAME OF THE ORGANISM</td><td rowspan=1 colspan=3>INTERPRETATIVECRITERIA</td></tr><tr><td rowspan=1 colspan=1>Susceptible</td><td rowspan=1 colspan=1>Intermediate</td><td rowspan=1 colspan=1>Resistant</td></tr><tr><td rowspan=1 colspan=1>Streptococcus spp. (other than S. pneumoniae.)</td><td rowspan=1 colspan=1>≤0.25</td><td rowspan=1 colspan=1>* Not applicable</td><td rowspan=1 colspan=1>* Not applicable</td></tr><tr><td rowspan=1 colspan=1>Enterococcus faecalis(Vancomycin-susceptible isolates only)</td><td rowspan=1 colspan=1>≤ 0.25</td><td rowspan=1 colspan=1>* Not applicable</td><td rowspan=1 colspan=1>* Not applicable</td></tr><tr><td rowspan=1 colspan=1>Staphylococcus aureus</td><td rowspan=1 colspan=1>≤ 0.5</td><td rowspan=1 colspan=1>* Not applicable</td><td rowspan=1 colspan=1>* Not applicable</td></tr><tr><td rowspan=1 colspan=4>oNonsuseptible&quot; category should be submitted to reference laboratory for further testing</td></tr></table>
+
+# N. Proposed Labeling:
+
+The expected value range, interpretive criteria and QC for Tigecycline (TGC) are the same as recommended by FDA. Additionally, the most current in vivo and in vitro organisms shown to be active with Tigecycline are also included in the package insert along with their appropriate interpretative limitations.
+
+\* The current absence of resistant isolates precludes defining any results other than “Susceptible”. Isolates yielding MIC results suggestive of “Nonsusceptible” category should be submitted to reference laboratory for further testing.
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and support a substantial equivalence decision.

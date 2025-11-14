@@ -1,0 +1,28 @@
+# SPECIAL 510(k): Device Modification OIR Decision Summary
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class II, Class III or Class I devices requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device. k081703, MyGlucoHealth Glucose Monitoring System.   
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials.   
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+# This change was for:
+
+a) b) Change from two Triple A batteries tChanged dimensions (LxWxH) from $5 3 \times 1 0 2 \times 2 0 . 5 \ : \mathrm { m m }$ hiu to $5 2 . 2 \times 9 8 . 5 \times 2 3 . 4 \ : \mathrm { m m }$   
+c) Changed weight from 87g (3.06 oz.) with battery to 74.5g (2.5 oz.) with battery   
+d) Changed the data transmission capability of the meter from Bluetooth technology to cellular technology.   
+e) Incorporated validated cleaning and disinfection procedures for the meter into the labeling   
+f) Name changed from MyGlucoHealth Glucose Monitoring System to MyGlucoHealth Wireless System   
+g) Changed meter color from black to silver   
+h) Addition of LED light to the test strip port
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics.
+
+# 5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.
+
+The MyGlucoHealth Wireless System, is intended for single-patient use only. Disinfection efficacy studies were performed on the materials comprising the meter by an outside commercial testing laboratory demonstrating complete inactivation of hepatitis B virus (HBV) with the chosen disinfectant, CaviWipes XL (EPA Registration #46781-8). Robustness studies were also performed by the sponsor demonstrating that there was no change in performance or external materials of the meter after 156 cleaning and disinfection cycles with the CaviWipes. The robustness studies were designed to simulate 3 years of single-patient use. Labeling was reviewed for adequate instructions for the validated cleaning and disinfection procedures.

@@ -1,0 +1,232 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY
+
+I Background Information:
+
+# B Applicant
+
+Siemens Healthcare Diagnostics Inc.
+
+# C Proprietary and Established Names
+
+ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone (TSTII), ADVIA Centaur $\textsuperscript { \textregistered }$ SHBG
+
+# D Regulatory Information
+
+<table><tr><td rowspan=1 colspan=1>ProductCode(s)</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>RegulationSection</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>CDZ</td><td rowspan=1 colspan=1>Class I, reserved</td><td rowspan=1 colspan=1>21 CFR 862.1680 -Testosterone Test System</td><td rowspan=1 colspan=1>CH - ClinicalChemistry</td></tr></table>
+
+# II Submission/Device Overview:
+
+# A Purpose for Submission:
+
+Testosterone II (TSTII) - Assay re-standardization to align with Center for Disease Control and Prevention (CDC) HoSt Testosterone Reference Measurement Procedure.
+
+Sex hormone-binding globulin (SHBG) - Updated reference intervals and biotin interference testing.
+
+# B Measurand:
+
+Testosterone and Sex Hormone Binding Globulin (SHBG)
+
+# C Type of Test:
+
+Quantitative, chemiluminescent immunoassays
+
+# III Intended Use/Indications for Use:
+
+A Intended Use(s): See Indications for Use below.
+
+# B Indication(s) for Use:
+
+The ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay is for in vitro diagnostic use in the quantitative determination of total testosterone (bound and unbound) in human serum and plasma using the ADVIA Centaur $\textsuperscript { \textregistered }$ XP system. Measurements of testosterone are used in the diagnosis and treatment of disorders involving the male sex hormones (androgens), including primary and secondary hypogonadism, delayed or precocious puberty, impotence in males and, in females, hirsutism (excessive hair) and virilization (masculinization) due to tumors, polycystic ovaries, and adrenogenital syndromes.
+
+The ADVIA Centaur $\textsuperscript { \textregistered }$ SHBG assay is an in vitro diagnostic immunoassay for the quantitative determination of sex hormone-binding globulin (SHBG) in human serum and plasma using the ADVIA Centaur $\textsuperscript { \textregistered }$ XP system. The ADVIA Centaur $\textsuperscript { \textregistered }$ SHBG assay is intended for use as an aid in the diagnosis of androgen disorders.
+
+C Special Conditions for Use Statement(s): Rx - For Prescription Use Only
+
+D Special Instrument Requirements:
+
+ADVIA Centaur XP System
+
+# IV Device/System Characteristics:
+
+# A Device Description:
+
+The ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) consist of the following reagents:
+
+<table><tr><td rowspan=1 colspan=3>ADVIA Centaur TSTII Primary Reagent ReadyPack (included in assay kit)</td></tr><tr><td rowspan=1 colspan=1>Component</td><td rowspan=1 colspan=1>Volume</td><td rowspan=1 colspan=1>Ingredients</td></tr><tr><td rowspan=1 colspan=1>ADVIA Centaur TSTII LiteReagent</td><td rowspan=1 colspan=1>10.0 mL/pack</td><td rowspan=1 colspan=1>Acridinium ester-labeled hapten (36μg/mL) in buffered saline withpreservatives</td></tr><tr><td rowspan=1 colspan=1>ADVIA Centaur TSTII SolidPhase Reagent</td><td rowspan=1 colspan=1>17.0 mL/pack</td><td rowspan=1 colspan=1>Streptavidin-coated latex particles (0.33g/L) in buffered saline with preservatives</td></tr></table>
+
+The ADVIA Centaur $\textsuperscript { \textregistered }$ SHBG consist of the following reagents:   
+
+<table><tr><td rowspan=1 colspan=3>ADVIA Centaur TSTII Ancillary Reagent ReadyPack (included in assay kit)</td></tr><tr><td rowspan=1 colspan=1>Component</td><td rowspan=1 colspan=1>Volume</td><td rowspan=1 colspan=1>Ingredients</td></tr><tr><td rowspan=1 colspan=1>ADVIA Centaur TSTIIReleasing Agent</td><td rowspan=1 colspan=1>10.0 mL/pack</td><td rowspan=1 colspan=1>Steroid releasing agent (0.4 µg/mL) andbiotinylated sheep monoclonal anti-testosterone antibody (27 μg/L) inbuffered saline and preservatives</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>ADVIA Centaur SHBG Primary Reagent ReadyPack (included in assay kit)</td></tr><tr><td rowspan=1 colspan=1>Component</td><td rowspan=1 colspan=1>Volume</td><td rowspan=1 colspan=1>Ingredients</td></tr><tr><td rowspan=1 colspan=1>ADVIA Centaur SHBG LiteReagent</td><td rowspan=1 colspan=1>3.0 mL/pack</td><td rowspan=1 colspan=1>Mouse monoclonal anti-SHBG antibody(~130 ng/mL) labeled with acridiniumester in HEPES-buffered saline withbovine serum albumin, mouse serum,sodium azide (&lt; 0.1%), surfactant, andpreservatives</td></tr><tr><td rowspan=1 colspan=1>ADVIA Centaur SHBG SolidPhase Reagent</td><td rowspan=1 colspan=1>11.0 mL/pack</td><td rowspan=1 colspan=1>Streptavidin coupled to latexparamagnetic particles (~150 µg/mL) inHEPES buffered saline with bovineserum albumin, mouse serum, sodiumazide (&lt; 0.1%), surfactant, andpreservatives</td></tr><tr><td rowspan=1 colspan=1>ADVIA Centaur SHBGAncillary Well Reagent</td><td rowspan=1 colspan=1>3.0 mL/pack</td><td rowspan=1 colspan=1>Biotinylated monoclonal mouse anti-SHBG antibody (~6 µg/mL) in HEPESbuffered saline with bovine serumalbumin, mouse serum, sodium azide (&lt;0.1%), surfactant, and preservatives</td></tr></table>
+
+# B Principle of Operation:
+
+ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone (TSTII) assay is a competitive immunoassay using direct chemiluminescent technology. Testosterone in the sample competes with acridinium esterlabeled hapten in the Lite Reagent for binding with the anti-testosterone sheep monoclonal antibody in the ADVIA Centaur TSTII Releasing Agent and streptavidin magnetic latex particles in the Solid Phase Reagent. The ADVIA Centaur TSTII assay uses ADVIA Centaur TSTII Releasing Agent to release bound testosterone from the endogenous binding proteins in the sample.
+
+The ADVIA Centaur $\textsuperscript { \textregistered }$ SHBG assay is a sandwich immunoassay that uses three reagent components: Solid Phase, Ancillary Well Reagent, and Lite Reagent. Solid Phase is streptavidincoupled magnetic latex particles, Ancillary Well Reagent contains biotinylated F(ab)2 monoclonal antibody to SHBG, and Lite Reagent consists of a second F(ab)2 monoclonal antibody to SHBG labeled with acridinium ester (SHBG-AE). The amount of SHBG present in the patient sample is proportional to the amount of relative light units (RLUs) detected by the system. Results are calculated from a master curve adjusted by using high and low calibrators.
+
+# V Substantial Equivalence Information:
+
+A Predicate Device Name(s): ADVIA Centaur Testosterone II (TSTII), ADVIA Centaur SHBG   
+B Predicate 510(k) Number(s): K151986   
+C Comparison with Predicate(s):
+
+TSTII   
+
+<table><tr><td colspan="1" rowspan="1">Device &amp;PredicateDevice(s):</td><td colspan="1" rowspan="1">K191533</td><td colspan="1" rowspan="1">K151986</td></tr><tr><td colspan="1" rowspan="1">Device TradeName</td><td colspan="1" rowspan="1">ADVIA Centaur®Testosterone II (TSTII)</td><td colspan="1" rowspan="1">ADVIA CentaurTestosterone II (TSTII)</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristicSimilarities</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">IntendedUse/IndicationsFor Use</td><td colspan="1" rowspan="1">For in vitro diagnostic use in thequantitative determination of totaltestosterone (bound and unbound) inserum using the ADVIA Centaur andADVIA Centaur XP Systems.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Methodology</td><td colspan="1" rowspan="1">Chemiluminescence</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Assay Protocol</td><td colspan="1" rowspan="1">Competitive immunoassay</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Traceability/Standardization</td><td colspan="1" rowspan="1">ID-LC-MS/MS</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Specimen Type</td><td colspan="1" rowspan="1">Human serum and plasma</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Sample Volume</td><td colspan="1" rowspan="1">20 μL</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Measuring Range</td><td colspan="1" rowspan="1">7.0-1500 ng/dL</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Calibration</td><td colspan="1" rowspan="1">2-point calibration</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristicDifferences</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">ReferenceInterval(ng/dL)</td><td colspan="1" rowspan="1">AdultsMales:&lt;50 yr: 197.44-669.58≥50 yr: 187.72-684.19Females:&lt;50 yr: 8.38-35.01≥50 yr: &lt;7.00-35.92</td><td colspan="1" rowspan="1">AdultsMales:&lt;50 yr: 123.06-813.86≥50 yr: 86.98-780.10Females:&lt;50 yr: 9.01-47.94≥50 yr: &lt;7.00-45.62</td></tr><tr><td colspan="1" rowspan="1">Device &amp;PredicateDevice(s):</td><td colspan="2" rowspan="1">K191533</td><td colspan="1" rowspan="1">K151986</td></tr><tr><td colspan="1" rowspan="3"></td><td colspan="2" rowspan="2">PediatricsMales:Tanner Stage 1: &lt;7.00-13.06Tanner Stage 2: &lt;7.00-79.13Tanner Stage 3: &lt;7.00-499.18Tanner Stage 4: 79.10-747.17Tanner Stage 5: 224.83-669.65Age 2-10: &lt;7.00-10.50Age 11: &lt;7.00-478.50Age 12: &lt;7.00-487.97Age 13: 8.28-549.79Age 14: 8.91-535.34Age 15: 65.96-756.50Age 16-21: 228.16-710.74Females:Tanner Stage 1: &lt;7.00-10.06</td><td colspan="1" rowspan="3">PediatricsMales:Tanner Stage 1: &lt;7.00-47.43Tanner Stage 2: &lt;7.00-174.45Tanner Stage 3: 10.54-802.75Tanner Stage 4: 63.89-736.20Tanner Stage 5: 55.69-897.40Age 2-10: &lt;7.00-29.44Age 11: &lt;7.00-353.00Age 12: &lt;7.00-562.42Age 13: 8.19-528.87Age 14: 20.35-777.38Age 15: 127.21-849.36Age 16-21: 113.19-882.10Females:Tanner Stage 1: &lt;7.00-89.56Tanner Stage 2: &lt;7.00-38.29Tanner Stage 3: &lt;7.00-33.86Tanner Stage 4: &lt;7.00-38.72Tanner Stage 5: 10.83-50.08Age 2-10: &lt;7.00-117.76Age 11-15: &lt;7.00-38.92Age 16-21: 15.06-42.41</td></tr><tr><td colspan="1" rowspan="1">−</td></tr><tr><td colspan="2" rowspan="1">Tanner Stage 2: &lt;7.00-30.11Tanner Stage 3: &lt;7.00-30.49Tanner Stage 4: &lt;7.00-35.19Tanner Stage 5: 11.80-39.30Age 2-10: &lt;7.00-11.86Age 11-15: &lt;7.00-27.57Age 16-21: 11.78-43.34</td></tr></table>
+
+SHBG   
+
+<table><tr><td colspan="1" rowspan="1">Device &amp;PredicateDevice(s):</td><td colspan="1" rowspan="1">K191533</td><td colspan="1" rowspan="1">K151986</td></tr><tr><td colspan="1" rowspan="1">Device TradeName</td><td colspan="1" rowspan="1">ADVIA Centaur® SHBG</td><td colspan="1" rowspan="1">ADVIA Centaur SHBG</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristicSimilarities</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">IntendedUse/IndicationsFor Use</td><td colspan="1" rowspan="1">For the quantitative determination ofsex hormone-binding globulin (SHBG)in human serum and plasma using theADVIA Centaur XP system.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Methodology</td><td colspan="1" rowspan="1">Chemiluminescence</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Assay Protocol</td><td colspan="1" rowspan="1">Sandwich immunoassay</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Traceability/Standardization</td><td colspan="1" rowspan="1">WHO 2nd International Standard(08/226)</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Specimen Type</td><td colspan="1" rowspan="1">Human serum and plasma</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Sample Volume</td><td colspan="1" rowspan="1">20 μL</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Measuring Range</td><td colspan="1" rowspan="1">1.60180 nmol/L</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Calibration</td><td colspan="1" rowspan="1">2-point calibration</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristicDifferences</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">ReferenceInterval(nmol/L)</td><td colspan="1" rowspan="1">AdultsMales:&lt;50 yr: 11.54-54.49≥50 yr: 17.33-71.50Females:&lt;50 yr: 17.69-138.26≥50 yr: 23.65-110.61</td><td colspan="1" rowspan="1">AdultsMales:&lt;50 yr: 14.55-94.64≥50 yr: 21.63-113.13Females:&lt;50 yr: 10.84-&gt;180.00≥50 yr: 23.15-159.07</td></tr></table>
+
+# VI Standards/Guidance Documents Referenced:
+
+CLSI EP05-A3, 2004 Evaluation of Precision Performance of Quantitative Measurement   
+Procedures; Approved Guideline – Third Edition   
+CLSI EP06-A, 2003 Evaluation of the Linearity of Quantitative Measurement   
+Procedures: A Statistical Approach; Approved Guideline – First Edition   
+CLSI EP17-A2, 2013; Evaluation of Detection Capability for Clinical Laboratory   
+Measurement Procedures; Approved Guideline – Second Edition   
+CLSI EP28-A3c, 2010; Defining, Establishing and Verifying Reference Intervals in the   
+Clinical Laboratory; Approved Guideline – Third Edition
+
+# VII Performance Characteristics (if/when applicable):
+
+# A Analytical Performance:
+
+1. Precision/Reproducibility:
+
+TSTII: A precision study was performed in accordance with CLSI EP05-A3 guideline. The panel of 9 samples used in the study included 5 human serum pools (Medical Decision Pools MDP), one female human serum sample pool and three controls. Each sample was tested using one reagent lot over 20 days, with 2 runs per testing day and 2 replicates per run. The results of the precision studies are shown below:
+
+<table><tr><td rowspan=2 colspan=1>Sample</td><td rowspan=2 colspan=1>N</td><td rowspan=2 colspan=1>Mean(ng/dL)</td><td rowspan=1 colspan=2>Within-run</td><td rowspan=1 colspan=2>Total</td></tr><tr><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>%CV</td></tr><tr><td rowspan=1 colspan=1>Control 1</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>257.38</td><td rowspan=1 colspan=1>9.06</td><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>14.38</td><td rowspan=1 colspan=1>5.6</td></tr><tr><td rowspan=1 colspan=1>Control 2</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>636.57</td><td rowspan=1 colspan=1>45.14</td><td rowspan=1 colspan=1>7.1</td><td rowspan=1 colspan=1>53.12</td><td rowspan=1 colspan=1>8.3</td></tr><tr><td rowspan=1 colspan=1>Control 3</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>1,021.93</td><td rowspan=1 colspan=1>62.28</td><td rowspan=1 colspan=1>6.1</td><td rowspan=1 colspan=1>81.02</td><td rowspan=1 colspan=1>7.9</td></tr><tr><td rowspan=1 colspan=1>MDP 1</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>20.92</td><td rowspan=1 colspan=1>1.3</td><td rowspan=1 colspan=1>6.2</td><td rowspan=1 colspan=1>1.86</td><td rowspan=1 colspan=1>8.9</td></tr><tr><td rowspan=1 colspan=1>MDP 2</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>73.57</td><td rowspan=1 colspan=1>3.54</td><td rowspan=1 colspan=1>4.8</td><td rowspan=1 colspan=1>5.24</td><td rowspan=1 colspan=1>7.1</td></tr><tr><td rowspan=1 colspan=1>MDP 3</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>312.81</td><td rowspan=1 colspan=1>13.4</td><td rowspan=1 colspan=1>4.3</td><td rowspan=1 colspan=1>23.99</td><td rowspan=1 colspan=1>7.7</td></tr><tr><td rowspan=1 colspan=1>MDP 4</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>776.64</td><td rowspan=1 colspan=1>42.59</td><td rowspan=1 colspan=1>5.5</td><td rowspan=1 colspan=1>58.26</td><td rowspan=1 colspan=1>7.5</td></tr><tr><td rowspan=1 colspan=1>MDP 5</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>1,123.83</td><td rowspan=1 colspan=1>59.22</td><td rowspan=1 colspan=1>5.3</td><td rowspan=1 colspan=1>109.57</td><td rowspan=1 colspan=1>9.7</td></tr><tr><td rowspan=1 colspan=1>Female Human Serum</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>15.86</td><td rowspan=1 colspan=1>1.84</td><td rowspan=1 colspan=1>11.6</td><td rowspan=1 colspan=1>2.39</td><td rowspan=1 colspan=1>15.1</td></tr></table>
+
+SHBG: See previous performance in k091867.
+
+2. Linearity:
+
+TSTII: A linearity study was performed in accordance with CLSI EP06-A guideline. A dilution series consisting of 9 levels with concentrations ranging from 6.94 to $1 , 6 5 5 . 9 0 \mathrm { n g / d L }$ was prepared by mixing high and low pools of testosterone. For each dilution sample, 3 replicate measurements were made using a single reagent lot, on a single instrument, in a single day. The deviation of the results from the expected linear fit was analyzed. The linear regression formula obtained from the analysis of the results was as follows:
+
+$$
+\mathrm { y } = 1 . 0 0 4 \mathrm { x } - 0 . 0 1 5
+$$
+
+The results from the linearity study support an analytical measuring range from 7 - 1,500 $\mathrm { n g / d L }$ .
+
+SHBG: See previous performance in k151986.
+
+3. Analytical Specificity/Interference:
+
+TSTII: Refer to the interference studies reported in k091867.
+
+The sponsor conducted additional testing to evaluate biotin interference on the TSTII assay. Up to $1 { , } 5 0 0 \ \mathrm { n g / m L }$ biotin was spiked into two concentrations of TSTII, $8 3 ~ \mu \mathrm { g / m L }$ and 289 $\mu \mathrm { g / m L }$ . Triplicate measurements were recorded for each sample (including a negative control without biotin) using a single lot of TSTII assay reagent on the ADVIA Centaur XP Instrument. The sponsor defines no significant interference as ${ < } 1 0 \%$ change in results, and states that no significant interference was observed at biotin concentrations $\leq 3 0 ~ \mathrm { n g / m L }$ for both concentrations of TSTII tested.
+
+<table><tr><td rowspan=1 colspan=8>% Bias for Samples Containing Various Concentration of Biotin</td></tr><tr><td rowspan=2 colspan=1>Testosterone Conc.</td><td rowspan=1 colspan=7>Biotin Concentration (ng/mL)</td></tr><tr><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>500</td><td rowspan=1 colspan=1>1200</td><td rowspan=1 colspan=1>1500</td></tr><tr><td rowspan=1 colspan=1>83 ng/dL</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>84</td><td rowspan=1 colspan=1>370</td><td rowspan=1 colspan=1>3981</td><td rowspan=1 colspan=1>6837</td></tr><tr><td rowspan=1 colspan=1>289 ng/dL</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>107</td><td rowspan=1 colspan=1>441</td><td rowspan=1 colspan=1>&gt;AMR*</td><td rowspan=1 colspan=1>&gt;AMR*</td></tr></table>
+
+\* Interference could not be calculated because the results of the biotin spiked samples were above the claimed analytical measuring range of the assay.
+
+The labeling includes the following limitation: “Specimens that contain biotin at a concentration of $3 0 ~ \mathrm { n g / m L }$ demonstrate a less than or equal to $10 \%$ change in results. Biotin concentrations greater than this may lead to falsely elevated results for patient samples. The recommended adult daily dietary intake for biotin is $3 0 ~ \mu \mathrm { g } / \mathrm { d a y }$ . Over the counter dietary supplements promoted for use in hair, skin and nail health may contain $5 { \mathrm { - } } 1 0 ~ { \mathrm { m g } }$ of biotin. Pharmacokinetic studies in healthy adults have shown that ingesting $5 \mathrm { m g }$ of biotin can result in serum levels as high as $7 3 ~ \mathrm { n g / m L }$ . In rare cases, subjects are prescribed up to $3 0 0 \mathrm { m g }$ of biotin per day for therapeutic applications, resulting in serum biotin levels as high as 1,160 $\mathrm { n g / m L }$ .”
+
+SHBG: Refer to the interference studies reported in k091867.
+
+The sponsor conducted additional testing to evaluate biotin interference on the SHBG assay. Up to $1 { , } 2 0 0 \mathrm { n g / m L }$ biotin was spiked into two concentrations of SHBG, 19.6 and 44.1 nmol/L. Triplicate measurements were recorded for each sample (including a negative control without biotin) using a single lot of SHBG assay reagent on the ADVIA Centaur XP Instrument. The sponsor defines no significant interference as ${ < } 1 0 \%$ change in results, and states that no significant interference was observed at biotin concentrations $\leq 6 0 0 ~ \mathrm { n g / m L }$ for both concentrations of SHBG tested.
+
+<table><tr><td rowspan=1 colspan=7>% Bias for Samples Containing Various Concentration of Biotin</td></tr><tr><td rowspan=2 colspan=1>SHBG Conc.</td><td rowspan=1 colspan=6>Biotin Concentration (ng/mL)</td></tr><tr><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>150</td><td rowspan=1 colspan=1>3000</td><td rowspan=1 colspan=1>600</td><td rowspan=1 colspan=1>1200</td></tr><tr><td rowspan=1 colspan=1>19.6 nmol/L</td><td rowspan=1 colspan=1>-3</td><td rowspan=1 colspan=1>-3</td><td rowspan=1 colspan=1>-9</td><td rowspan=1 colspan=1>-7</td><td rowspan=1 colspan=1>-7</td><td rowspan=1 colspan=1>-25</td></tr><tr><td rowspan=1 colspan=1>44.1 nmol/L</td><td rowspan=1 colspan=1>-2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>-3</td><td rowspan=1 colspan=1>-7</td><td rowspan=1 colspan=1>-9</td><td rowspan=1 colspan=1>-26</td></tr></table>
+
+The labeling includes the following limitation: “Specimens that contain biotin at a concentration of $3 0 0 ~ \mathrm { { n g / m L } }$ demonstrate a less than or equal to $10 \%$ change in results. Biotin concentrations greater than this may lead to falsely depressed results for patient samples. Over the counter dietary supplements promoted for use in hair, skin and nail health may contain $5 { \mathrm { - } } 1 0 ~ { \mathrm { m g } }$ of biotin. Pharmacokinetic studies in healthy adults have shown that ingesting $1 0 ~ \mathrm { m g }$ of biotin can result in serum levels as high as $1 4 1 ~ \mathrm { { n g / m L } }$ . In rare cases, subjects are prescribed up to $3 0 0 \mathrm { m g }$ of biotin per day for therapeutic applications, resulting in serum biotin levels as high as $1 , 1 6 0 \mathrm { n g / m L }$ .”
+
+4. Assay Reportable Range: TSTII: 7.00 - 1,500.00 ng/dL SHBG: 1.6 - 180.0 nmol/L
+
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods): Traceability:
+
+TSTII: The ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay is standardized using internal standards made from USP-grade testosterone, which are traceable to isotope dilution-liquid chromatography-tandem mass spectrometry (ID-LC-MS/MS). The ID-LCMS/MS is traceable to the primary testosterone standard National Measurement Institute (NMI) M914.
+
+SHBG: The ADVIA Centaur SHBG assay is traceable to the WHO 2nd International Standard for Sex Hormone Binding Globulin (08/226) from National Institute for Biological Standards and Control (NIBSC).
+
+# Standardization:
+
+The ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay was re-standardized to more closely align with the CDC HoSt Testosterone Reference Measurement Procedure (RMP). The ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay is standardized using internal standards manufactured using USP grade testosterone; the assigned values of these standards correlate to the CDC HoSt Testosterone RMP via method comparison. The assigned value of three of the 10 assay gold standards was modified.
+
+The low and high calibrator specifications remain unchanged. Similar to the predicate TSTII assay (K151986), the re-standardized ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay is still standardized using internal standards made from USP-grade testosterone, which are traceable to ID-LC-MS/MS CDC HoST Testosterone RMP. The ADVIA Centaur TSTII Calibrators included in the assay kit for the re-standardized ADVIA Centaur TSTII assay are the same formulation as the calibrators for the predicate ADVIA Centaur TSTII assay.
+
+# 6. Detection Limit:
+
+TSTII: Limit of blank (LoB) study was performed by testing 5 blank samples of human serum pools using 2 reagent lots over 5 days on a single instrument. Each day, 2 runs were conducted. For each sample, 6 replicate measurements were recorded per run (300 replicates total). LoB was calculated non-parametrically at the 95th percentile for each lot. The LoB for each lot was the result at this rank position. If the rank position was a non-integer, the LoB was determined by interpolation between the bracketing values. The largest LoB for both reagent lots was chosen as the assay’s LoB.
+
+Limit of detection (LoD) study was performed by testing 10 low level samples (female human serum pools) using 2 reagent lots over 5 days on a single instrument. Each day, 2 runs were performed and for each sample, 6 replicate measurements were recorded per run (1,200 replicates total). LoD was calculated non-parametrically. The higher LoD of the two lots was the assay’s LoD.
+
+Limit of quantitation (LoQ) study was performed using 10 female human sera samples with low levels of analytes and 5 blank male and female human serum pools measured over 5 days using 2 reagent lots on 1 instrument per lot. Each day, 2 runs were performed and for each sample, 6 replicate measurements were recorded. For each reagent lot, the within-laboratory precision (expressed as $\% C V$ ) was plotted against the mean concentration for each sample. The sponsor defines LoQ as the analyte concentration corresponding to $20 \%$ within-lab CV. The largest LoQ for both reagent lots was chosen as the assay’s LoQ.
+
+Detection Limits Summary for ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay:   
+
+<table><tr><td rowspan=1 colspan=1>LoB</td><td rowspan=1 colspan=1>LoD</td><td rowspan=1 colspan=1>LoQ</td></tr><tr><td rowspan=1 colspan=1>1.3 ng/dL</td><td rowspan=1 colspan=1>3.57 ng/dL</td><td rowspan=1 colspan=1>4.57 ng/dL</td></tr></table>
+
+SHBG: See previous performance in k091867.
+
+7. Assay Cut-Off: Not applicable.
+
+# B Comparison Studies:
+
+1. Method Comparison with Predicate Device:
+
+TSTII: The sponsor conducted a method comparison study to verify that the restandardization of the assay does not have a significant impact on the performance of the device compared to the previous assay (originally cleared in k151986). The study was designed to compare the performance of the TSTII assay to that of the recognized reference method (CDC HoSt Testosterone Reference Measurement Procedure (RMP) ID-LSMS/MS). The study evaluated a total of 108 individual male and female adult serum samples spanning the assay range. Of these, 72 samples were individual (non-pooled) human sera from single donors obtained by Siemens, with testosterone concentrations assigned by CDC HoSt Testosterone RMP ID-LS-MS/MS. 30 samples were supplied directly by CDC, and were individual human serum obtained from individual blood bank donors, with testosterone concentrations assigned by CDC HoSt Testosterone RMP ID-LS-MS/MS. Less than $5 \%$ of the samples were contrived to cover concentrations at the extreme ends of the measuring range. All samples were run singlicate on one ADVIA Centaur XP system using a single reagent lot over 3 days. The results for ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone (TSTII) versus CDC HoSt Testosterone RMP ID-LS-MS/MS were analyzed using Passing-Bablok regression analysis. The results are summarized below:
+
+<table><tr><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>108</td></tr><tr><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>0.97</td></tr><tr><td rowspan=1 colspan=1>Intercept</td><td rowspan=1 colspan=1>-0.22</td></tr><tr><td rowspan=1 colspan=1>R</td><td rowspan=1 colspan=1>0.98</td></tr><tr><td rowspan=1 colspan=1>Test Range</td><td rowspan=1 colspan=1>7.27-1,394 ng/dL</td></tr></table>
+
+In addition, a method comparison study was performed to evaluate the performance of the restandardized ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay against the previously cleared assay (k151986). A total of 108 individual male and female adult serum samples spanning the assay range were run on one ADVIA Centaur XP instrument using a single reagent lot. Samples were assayed in singlicate over 3 days. Weighted Deming regression was used for data analysis.
+
+<table><tr><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>108</td></tr><tr><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>1.04</td></tr><tr><td rowspan=1 colspan=1>Intercept</td><td rowspan=1 colspan=1>-4.14</td></tr><tr><td rowspan=1 colspan=1>R</td><td rowspan=1 colspan=1>1.00</td></tr><tr><td rowspan=1 colspan=1>Test Range</td><td rowspan=1 colspan=1>10.93-1,439.77 ng/dL</td></tr></table>
+
+An additional method comparison study was performed to evaluate the performance of the re-standardized ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay against a commercially available testosterone assay, Dimension Vista LOCI Total Testosterone (k151529). A total of 124 serum samples (79 adults and 45 pediatric subjects) spanning the assay range were run on one ADVIA Centaur XP instrument using a single reagent lot and on one Dimension Vista instrument using one Dimension Vista LOCI TSTT reagent lot. Samples were assayed in singlicate over 3 days. Weighted Deming regression was used for data analysis. The results for all specimens are reported below.
+
+<table><tr><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>124</td></tr><tr><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>1.01</td></tr><tr><td rowspan=1 colspan=1>Intercept</td><td rowspan=1 colspan=1>-3.32</td></tr><tr><td rowspan=1 colspan=1>R</td><td rowspan=1 colspan=1>0.99</td></tr><tr><td rowspan=1 colspan=1>Test Range</td><td rowspan=1 colspan=1>9.00-984 ng/dL</td></tr></table>
+
+SHBG: See previous performance in k151986.
+
+2. Matrix Comparison:
+
+TSTII: Following a technical risk assessment of the assay performance attributes that may be impacted by re-standardization of the current TSTII assay, the sponsor determined that assay re-standardization is not expected to impact the results dependent on specimen matrix. The sponsor indicated study control is equally affected by the re-standardization, therefore, there is no effect on the result and the claim is unaffected, this is supported by the data showing similar performance to the predicate device. FDA found this justification to be acceptable. Therefore, the matrix comparison study data from the ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone (TSTII) assay cleared in k151986 remains applicable.
+
+SHBG: See previous matrix comparison study in k151986.
+
+# C Clinical Studies:
+
+1. Clinical Sensitivity: Not applicable.
+
+2. Clinical Specificity: Not applicable.
+
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable): Not applicable.
+
+# D Clinical Cut-Off:
+
+Not applicable.
+
+# E Expected Values/Reference Range:
+
+TSTII: A reference interval study was performed for the ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay in accordance with CLSI EP28-A3c guideline. A total of 940 pediatrics and 760 adult samples were collected from apparently healthy individuals. The sample groups tested consisted of:
+
+• 250 adult males under 50 years of age • 135 adult males ages $\ge 5 0$ years old 224 adult females under 50 years of age • 151 adult females ages $\ge 5 0$ years old • 460 male pediatrics, ages 2-21 across Tanner Stages 1-5 483 female pediatrics, ages 2-21 across Tanner Stages 1-5
+
+Testing was performed using the re-standardized assay. Each sample was assayed in singlicate. For adults, the lower and upper reference limits were estimated as the 5th and the 95th percentiles of the distribution of test results using a non-parametric approach in accordance with the recommendation in CLSI EP28-A3c guideline. Due to the limited availability of pediatric samples, the sample analysis method varied depending on the number of samples in each subgroup. Please see the following descriptions of each subgroup reference intervals determination:
+
+For groups of 120 or more subjects, the lower and upper reference limits were estimated as the 2.5th and the 97.5th percentiles of the distribution of test results using a non-parametric approach in accordance with the recommendation in CLSI guideline EP28-A3. For groups of 40 to 119 subjects, the lower and upper reference limits were estimated as the 2.5th and the 97.5th percentiles of the distribution of test results using a robust measure of location and spread, as developed by Horn and Pesce. • For groups of less than 40 subjects, the lower and upper reference limits were estimated as the 5th and the 95th percentiles of the distribution of test results.
+
+A summary of the median and reference interval values calculated for adult and pediatrics using the re-standardized ADVIA Centaur $\textsuperscript { \textregistered }$ Testosterone II (TSTII) assay is shown below:
+
+<table><tr><td colspan="1" rowspan="3"></td><td colspan="1" rowspan="3">Age</td><td colspan="1" rowspan="3">N</td><td colspan="3" rowspan="1">ng/dL</td></tr><tr><td colspan="1" rowspan="2">Median</td><td colspan="2" rowspan="1">Central 90th Ref Interval</td></tr><tr><td colspan="1" rowspan="1">5th</td><td colspan="1" rowspan="1">95th</td></tr><tr><td colspan="1" rowspan="2">AdultMale</td><td colspan="1" rowspan="1">Under 50</td><td colspan="1" rowspan="1">250</td><td colspan="1" rowspan="1">409.72</td><td colspan="1" rowspan="1">197.44</td><td colspan="1" rowspan="1">669.58</td></tr><tr><td colspan="1" rowspan="1">50 and Over</td><td colspan="1" rowspan="1">135</td><td colspan="1" rowspan="1">377.46</td><td colspan="1" rowspan="1">187.72</td><td colspan="1" rowspan="1">684.19</td></tr><tr><td colspan="1" rowspan="2">AdultFemale</td><td colspan="1" rowspan="1">Under 50</td><td colspan="1" rowspan="1">224</td><td colspan="1" rowspan="1">18.01</td><td colspan="1" rowspan="1">8.38</td><td colspan="1" rowspan="1">35.01</td></tr><tr><td colspan="1" rowspan="1">50 and Over</td><td colspan="1" rowspan="1">151</td><td colspan="1" rowspan="1">14.18</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">35.92</td></tr><tr><td colspan="1" rowspan="4">PercNMtt</td><td colspan="1" rowspan="1">Tanner Stage 1</td><td colspan="1" rowspan="1">101</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">13.06</td></tr><tr><td colspan="1" rowspan="1">Tanner Stage 2</td><td colspan="1" rowspan="1">78</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">79.13</td></tr><tr><td colspan="1" rowspan="1">Tanner Stage 3</td><td colspan="1" rowspan="1">64</td><td colspan="1" rowspan="1">59.67</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">499.18</td></tr><tr><td colspan="1" rowspan="1">Tanner Stage 4</td><td colspan="1" rowspan="1">88</td><td colspan="1" rowspan="1">376.84</td><td colspan="1" rowspan="1">79.10</td><td colspan="1" rowspan="1">747.17</td></tr><tr><td colspan="1" rowspan="8">b</td><td colspan="1" rowspan="1">Tanner Stage 5</td><td colspan="1" rowspan="1">129</td><td colspan="1" rowspan="1">451.17</td><td colspan="1" rowspan="1">224.83</td><td colspan="1" rowspan="1">669.65</td></tr><tr><td colspan="1" rowspan="1">Age 2-10</td><td colspan="1" rowspan="1">147</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">10.50</td></tr><tr><td colspan="1" rowspan="1">Age 11</td><td colspan="1" rowspan="1">34</td><td colspan="1" rowspan="1">10.73</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">478.50</td></tr><tr><td colspan="1" rowspan="1">Age 12</td><td colspan="1" rowspan="1">35</td><td colspan="1" rowspan="1">132.47</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">487.97</td></tr><tr><td colspan="1" rowspan="1">Age 13</td><td colspan="1" rowspan="1">34</td><td colspan="1" rowspan="1">199.02</td><td colspan="1" rowspan="1">8.28</td><td colspan="1" rowspan="1">549.79</td></tr><tr><td colspan="1" rowspan="1">Age 14</td><td colspan="1" rowspan="1">34</td><td colspan="1" rowspan="1">228.39</td><td colspan="1" rowspan="1">8.91</td><td colspan="1" rowspan="1">535.34</td></tr><tr><td colspan="1" rowspan="1">Age 15</td><td colspan="1" rowspan="1">27</td><td colspan="1" rowspan="1">327.89</td><td colspan="1" rowspan="1">65.96</td><td colspan="1" rowspan="1">756.50</td></tr><tr><td colspan="1" rowspan="1">Age 16-21</td><td colspan="1" rowspan="1">149</td><td colspan="1" rowspan="1">453.86</td><td colspan="1" rowspan="1">228.16</td><td colspan="1" rowspan="1">710.74</td></tr><tr><td colspan="1" rowspan="8">Pt d</td><td colspan="1" rowspan="1">TannerStage1</td><td colspan="1" rowspan="1">138</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">10.06</td></tr><tr><td colspan="1" rowspan="1">TannerStage 2</td><td colspan="1" rowspan="1">60</td><td colspan="1" rowspan="1">8.17</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">30.11</td></tr><tr><td colspan="1" rowspan="1">TannerStage 3</td><td colspan="1" rowspan="1">49</td><td colspan="1" rowspan="1">12.98</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">30.49</td></tr><tr><td colspan="1" rowspan="1">TannerStage 4</td><td colspan="1" rowspan="1">98</td><td colspan="1" rowspan="1">17.37</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">35.19</td></tr><tr><td colspan="1" rowspan="1">Tanner Stage 5</td><td colspan="1" rowspan="1">133</td><td colspan="1" rowspan="1">19.76</td><td colspan="1" rowspan="1">11.80</td><td colspan="1" rowspan="1">39.30</td></tr><tr><td colspan="1" rowspan="1">Age 2-10</td><td colspan="1" rowspan="1">159</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">11.86</td></tr><tr><td colspan="1" rowspan="1">Age 11-15</td><td colspan="1" rowspan="1">174</td><td colspan="1" rowspan="1">12.95</td><td colspan="1" rowspan="1">&lt;7.00</td><td colspan="1" rowspan="1">27.57</td></tr><tr><td colspan="1" rowspan="1">Age 16-21</td><td colspan="1" rowspan="1">145</td><td colspan="1" rowspan="1">19.81</td><td colspan="1" rowspan="1">11.78</td><td colspan="1" rowspan="1">43.34</td></tr></table>
+
+SHBG: A reference interval study was performed for the ADVIA Centaur $^ \mathrm { \textregistered }$ SHBG assay in accordance with CLSI EP28-A3c guideline. A total of 760 adult samples were collected from apparently healthy individuals. The sample groups tested consisted of:
+
+• 250 adult males under 50 years of age • 135 adult males ages $\ge 5 0$ years old • 224 adult females under 50 years of age • 151 adult females ages $\ge 5 0$ years old
+
+Each sample was assayed in singlicate. The lower and upper reference limits were estimated as the 5th and the 95th percentiles of the distribution of test results using a nonparametric approach in accordance with the recommendation in CLSI guideline EP28- A3c.
+
+A summary of the median and reference interval values calculated using the restandardized ADVIA Centaur $\textsuperscript { \textregistered }$ SHBG assay is shown below:
+
+<table><tr><td rowspan=3 colspan=1></td><td rowspan=3 colspan=1>Age</td><td rowspan=3 colspan=1>N</td><td rowspan=1 colspan=3>nmol/L</td></tr><tr><td rowspan=2 colspan=1>Median</td><td rowspan=1 colspan=2>Central 90th Ref Interval</td></tr><tr><td rowspan=1 colspan=1>5th</td><td rowspan=1 colspan=1>95th</td></tr><tr><td rowspan=2 colspan=1>AdultMale</td><td rowspan=1 colspan=1>&lt; 50 yrs.</td><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>23.80</td><td rowspan=1 colspan=1>11.54</td><td rowspan=1 colspan=1>54.49</td></tr><tr><td rowspan=1 colspan=1>≥ 50 yrs.</td><td rowspan=1 colspan=1>135</td><td rowspan=1 colspan=1>36.91</td><td rowspan=1 colspan=1>17.33</td><td rowspan=1 colspan=1>71.50</td></tr><tr><td rowspan=2 colspan=1>AdultFemale</td><td rowspan=1 colspan=1>&lt; 50 yrs.</td><td rowspan=1 colspan=1>224</td><td rowspan=1 colspan=1>46.72</td><td rowspan=1 colspan=1>17.69</td><td rowspan=1 colspan=1>138.26</td></tr><tr><td rowspan=1 colspan=1>≥ 50 yrs.</td><td rowspan=1 colspan=1>151</td><td rowspan=1 colspan=1>47.86</td><td rowspan=1 colspan=1>23.65</td><td rowspan=1 colspan=1>110.61</td></tr></table>
+
+The labeling supports the finding of substantial equivalence for this device.
+
+# IX Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

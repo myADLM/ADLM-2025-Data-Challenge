@@ -1,0 +1,121 @@
+STANDARD OPERATING PROCEDURE (SOP)
+1. PURPOSE
+To provide a detailed procedure for the analysis and reporting of Beta
+Globin Gene Sequencing using the PCR method, covering the
+processes from the preparation of samples to the final interpretation
+and generation of results.
+Responsibility:
+• All designated personnel conducting Beta Globin Gene
+Sequencing must adhere strictly to this procedure.
+• The supervisor must ensure compliance, regularly review the
+process, and handle any aberrations.
+1. SCOPE
+This procedure applies to all Beta Globin Gene Sequencing tests
+performed in the molecular diagnostics laboratory.
+1. DEFINITION
+Beta Globin Gene Sequencing is a method used to identify mutations
+in the HBB gene responsible for β-thalassemia and other
+hemoglobinopathies.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Automated DNA sequencer
+• PCR thermal cycler
+• DNA extraction kits
+• Reagents and chemicals for PCR and sequencing
+• Pipettes and related consumables (tips, tubes, etc.)
+• Thermal cycler plates
+• Centrifuges
+• NCBI/Ensembl genome databases
+1. PROCEDURE
+Procedure for Beta Globin Gene Sequencing:
+A) DNA Extraction:
+1. Ensure that the sample is received, verified, and accessioned
+properly.
+2. Extract genomic DNA from whole blood using the DNA
+extraction kit following the manufacturer's instructions.
+3. Quantify and assess the purity of the extracted DNA using a
+spectrophotometer.
+4. Document the DNA concentration and purity on the DNA
+extraction log.
+B) PCR Amplification:
+1. Prepare the PCR master mix according to the manufacturer's
+instructions.
+2. Add an appropriate amount of DNA template to the PCR mix.
+3. Perform the PCR with the following cycling parameters for Beta
+Globin Gene amplification:
+◦ Initial denaturation: 95°C for 5 minutes
+◦ 35 cycles of:
+▪ Denaturation: 95°C for 30 seconds
+▪ Annealing: 55–60°C for 30 seconds (adjusted based on
+the primer specificity)
+▪ Extension: 72°C for 1 minute
+◦ Final extension: 72°C for 10 minutes
+◦ Hold at 4°C until further processing
+4. Confirm the presence of amplified product by running an aliquot
+on an agarose gel and visualizing under UV light after ethidium
+bromide or SYBR Safe staining.
+C) Preparation for Sequencing:
+1. Purify the PCR product to remove unincorporated primers and
+dNTPs using a PCR cleanup kit, following the manufacturer's
+protocol.
+2. Quantify the purified PCR product to ensure appropriate
+concentration for sequencing.
+3. Prepare sequencing reactions using cycle sequencing
+chemistry according to the manufacturer's instructions.
+4. Purify sequencing reactions to remove excess dye terminators
+using a sequencing purification kit.
+D) Sequencing:
+1. Load the purified sequencing reaction into the automated DNA
+sequencer.
+2. Perform sequencing as per the instrument's protocol.
+3. Save and back up raw sequence data from the sequencer to a
+secure data storage.
+E) Data Analysis:
+1. Analyze the sequenced data using bioinformatics software
+designed for mutation detection in the Beta Globin gene.
+2. Compare the patient's sequence to the reference sequence to
+identify mutations.
+3. Document identified mutations and validate with a second
+technologist if discrepancies arise.
+F) Quality Control:
+1. Include positive and negative control samples in each run to
+ensure the validity of results.
+2. Repeat sequencing if control samples do not give expected
+results.
+3. Record all quality control results and actions taken in the
+appropriate log.
+G) Validation and Reporting:
+1. Validate the identified variants using a second independent
+method, such as Sanger sequencing or another reliable
+molecular technique.
+2. Review the results and interpret the clinical significance of
+identified mutations using established guidelines and reference
+databases (NCBI, Ensembl).
+3. Prepare and sign the final report that highlights identified
+mutations, their clinical significance, and recommendations.
+4. Document and securely store all procedural records and patient
+data files.
+5. REPORTING RESULTS
+• Results must be documented on the laboratory information
+system (LIS).
+• Each report must pass through a review and verification process
+by a qualified molecular pathologist before being released.
+1. REFERENCE INTERVALS
+Refer to databases like NCBI, Ensembl, and ClinVar for variant
+interpretation guidelines and normal reference intervals. Variant
+classification (benign, likely benign, VUS, likely pathogenic,
+pathogenic) should be made adhering to ACMG/AMP guidelines.
+1. METHOD LIMITATIONS
+• DNA quality and quantity can impact amplification and sequencing
+outcomes.
+• Known polymorphisms or homologous sequences can potentially
+interfere with specific primer binding.
+• Low-level mosaicism may not be detected.
+1. REFERENCES
+• Manufacturer’s guidelines for DNA extraction and purification kits.
+• PCR reagent and thermal cycler manufacturer manuals.
+• The sequencer's operating manual.
+• Guidelines from the American College of Medical Genetics and
+Genomics (ACMG).
+This protocol is subject to subsequent reviews and updates to ensure
+alignment with the latest methodological advancements and
+regulatory compliance.

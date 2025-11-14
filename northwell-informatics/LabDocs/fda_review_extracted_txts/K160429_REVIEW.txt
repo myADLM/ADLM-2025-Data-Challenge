@@ -1,0 +1,989 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K160429
+B. Purpose for Submission:
+Clearance of a new device
+C. Manufacturer and Instrument Name:
+Shenzhen Mindray Bio-Medical Electronics Co. LTD, BC-5390 Auto Hematology Analyzer
+D. Type of Test or Tests Performed:
+Complete blood count: WBC (103/µL), RBC (106/µL), HGB (g/dL), HCT (%), MCV (fL),
+MCH (pg), MCHC (g/dL), RDW-CV (%), RDW-SD, PLT (103/µL), MPV (fL) and
+leukocyte 5-part differential: Neu#, Lym#, Mon#, Eos#, Bas#, Neu%, Lym%, Mon%, Eos%,
+Bas%.
+E. System Descriptions:
+1. Device Description:
+The BC-5390 Auto Hematology Analyzer is a quantitative, automated hematology
+analyzer and leukocyte differential counter for in vitro diagnostic use in clinical
+laboratories. It is only to be used by trained medical professionals to identify the normal
+patient, with all normal system-generated parameters, and to flag or identify patient
+results that require additional studies. The analyzer provides analysis results for 21
+parameters of human blood and three histograms and one scattergram. The BC-5390
+Auto Hematology Analyzer system consists of the following components:
+- Sample processing unit (SPU) and Data Managing Unit (DMU)
+- M-53D DILUENT
+- M-5LEO(I) LYSE
+- M-5LEO(II) LYSE
+- M-53LH LYSE
+- Probe Cleanser
+- BC-5D Hematology Control (K160606)
+- SC-CAL PLUS Hematology Calibrator (K955925)
+2. Principles of Operation:
+The BC-5390 Auto Hematology Analyzer (hereafter referred to as BC-5390) uses the
+electrical impedance method to count and measure the size of WBC, RBC, BAS, and
+1
+
+--- Page 2 ---
+PLT in human whole blood. The WBC, BAS, RBC and PLT parameters are counted in a
+dedicated channel using the measurement of changes in electrical resistance (i.e.,
+electrical impedance method). These blood cells are suspended in a conductive diluent as
+the cells pass through an aperture of known dimensions. As each cell passes through the
+aperture, the change in resistance produces an electrical pulse. The number of generated
+electrical pulses signal the number of particles (cells) passing the aperture; whereas the
+amplitude of each pulse is proportional to the volume of each particle. HGB is
+determined by the colorimetric method, which is measurable at 530-535 nm. The BC-
+5390 measures the leukocyte differential (Neu, Lym, Mon, Eos) by flow cytometry. As
+the cells pass through the flow cell they are exposed to a laser beam. The intensity of the
+light scatter reflects the cell size and intracellular density.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___X___ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ___X____
+4. Specimen Identification:
+Specimen identification is manual entry by keyboard or barcode reader, or automated
+identification by barcode scanner.
+5. Specimen Sampling and Handling:
+The BC-5390 supports three different analysis modes: autoloader whole blood mode,
+closed whole blood mode, and predilute mode. To analyze a sample in the closed
+predilute mode, the sample is first manually diluted (20µL of venous or capillary whole
+blood and 180 µL of diluent) then well-mixed according to the BC-5390 Operator’s
+Manual and presented uncapped to the sample compartment for aspiration. To analyze a
+sample in the closed whole blood mode, the operator manually presents the sample to the
+sample compartment. For the autoloader whole blood mode, the operator loads closed
+tubes into a tube rack (with the respective tube adapter); when analysis begins, the BC-
+5390 pierces the tube cap and aspirates the sample. All samples processed in each mode
+should be well-mixed and processed according to the BC-5390 Operator’s Manual.
+6. Calibration:
+Calibration and verification of calibration with the use of the SC-CAL PLUS calibrator is
+performed by automated or manual method according to the instructions for use, laboratory
+procedures, and local or national regulations.
+2
+
+--- Page 3 ---
+7. Quality Control:
+BC-5D Hematology Control (low, normal and high); K160606
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR § 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+3. Product code:
+GKZ – Counter, Differential Cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The BC-5390 Auto Hematology Analyzer is a quantitative, automated hematology
+analyzer for in vitro diagnostic use in clinical laboratories. The BC-5390 Auto
+Hematology Analyzer provides complete blood count (WBC, RBC, HGB, HCT, MCV,
+MCH, MCHC, RDW-CV, RDW-SD, PLT, MPV) and leukocyte 5-Part differential
+(Neu#, Lym#, Mon#, Eos#, Bas#, Neu%, Lym%, Mon%, Eos%, Bas%) for whole blood
+specimens collected in a salt of EDTA [dipotassium (K ) or tripotassium (K )] obtained
+2 3
+from venous or capillary blood collection. The purpose of the BC-5390 Auto
+Hematology Analyzer is to identify the normal human patient, with normal system-
+generated parameters, from patients whose results require additional studies.
+2. Special Conditions for Use Statement(s):
+For prescription use only.
+H. Substantial Equivalence Information:
+3
+
+--- Page 4 ---
+1. Predicate Device Name(s) and 510(k) numbers:
+Sysmex XE-2100 Automated Hematology Analyzer (K992875)
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+Intended Use The BC-5390 Auto Hematology The Sysmex XE-2100 is a
+Analyzer is a quantitative, automated multi-parameter hematology
+hematology Analyzer for in vitro analyzer intended to classify
+diagnostic use in clinical laboratories. the following formed
+The BC-5390 Auto Hematology elements in EDTA anti-
+Analyzer provides complete blood count coagulated blood.
+(WBC, RBC, HGB, HCT, MCV, MCH,
+MCHC, RDW-CV, RDW-SD, PLT,
+WBC, Neut%, Neut#,
+MPV) and leukocyte 5-Part differential
+Lymph%, Lymph#, Mon%,
+(Neu#, Lym#, Mon#, Eos#, Bas#,
+Mono#, Eo%, Eo#, Baso%,
+Neu%, Lym%, Mon%, Eos%, Bas%)
+Baso#, NRBC%, NRBC#,
+for whole blood specimens, collected in
+RBC, HGB, HCT, MCV,
+a salt of EDTA [dipotassium (K2) or
+MCH, MCHC, RDW-CV,
+tripotassium (K3)] obtained from venous
+RDW-SD, RET%, RET#,
+or capillary blood collection. The
+IRF, PLT, MPV
+purpose of the BC-5390 Auto
+Hematology Analyzer is to identify the
+normal human patient, with normal
+system-generated parameters, from
+patients whose results require additional
+studies.
+Sample Type Whole Blood Same
+Sample Automatic sampling, diluting and
+Same
+Processing mixing device
+Sample Manual or automatic barcode scanning
+Identification of sample tube Same
+Manual keyboard entry
+Software Risk Moderate
+Same
+Level
+Differences
+Item Device Predicate
+Test Principle Flow cytometry method with a Flow cytometry method with
+(Lym%, semiconductor laser. A 2-dimensional a semiconductor laser.
+Mon%, Eos%, scattergram is obtained from the signal The lateral-scattered light
+Neu%) collected by the low-angle scattered and lateral fluorescent light
+light and the high-angle scattered light are detected in DIFF, and 2-
+in which x-axis represents the dimensional scattergram are
+intracellular density and y-axis the generated.
+4
+
+[Table 1 on page 4]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			The BC-5390 Auto Hematology
+Analyzer is a quantitative, automated
+hematology Analyzer for in vitro
+diagnostic use in clinical laboratories.
+The BC-5390 Auto Hematology
+Analyzer provides complete blood count
+(WBC, RBC, HGB, HCT, MCV, MCH,
+MCHC, RDW-CV, RDW-SD, PLT,
+MPV) and leukocyte 5-Part differential
+(Neu#, Lym#, Mon#, Eos#, Bas#,
+Neu%, Lym%, Mon%, Eos%, Bas%)
+for whole blood specimens, collected in
+a salt of EDTA [dipotassium (K2) or
+tripotassium (K3)] obtained from venous
+or capillary blood collection. The
+purpose of the BC-5390 Auto
+Hematology Analyzer is to identify the
+normal human patient, with normal
+system-generated parameters, from
+patients whose results require additional
+studies.			The Sysmex XE-2100 is a
+multi-parameter hematology
+analyzer intended to classify
+the following formed
+elements in EDTA anti-
+coagulated blood.
+WBC, Neut%, Neut#,
+Lymph%, Lymph#, Mon%,
+Mono#, Eo%, Eo#, Baso%,
+Baso#, NRBC%, NRBC#,
+RBC, HGB, HCT, MCV,
+MCH, MCHC, RDW-CV,
+RDW-SD, RET%, RET#,
+IRF, PLT, MPV		
+Sample Type			Whole Blood			Same		
+Sample
+Processing			Automatic sampling, diluting and
+mixing device			Same		
+Sample
+Identification			Manual or automatic barcode scanning
+of sample tube
+Manual keyboard entry			Same		
+Software Risk
+Level			Moderate			Same		
+
+[Table 2 on page 4]
+Differences								
+	Item			Device			Predicate	
+Test Principle
+(Lym%,
+Mon%, Eos%,
+Neu%)			Flow cytometry method with a
+semiconductor laser. A 2-dimensional
+scattergram is obtained from the signal
+collected by the low-angle scattered
+light and the high-angle scattered light
+in which x-axis represents the
+intracellular density and y-axis the			Flow cytometry method with
+a semiconductor laser.
+The lateral-scattered light
+and lateral fluorescent light
+are detected in DIFF, and 2-
+dimensional scattergram are
+generated.		
+
+--- Page 5 ---
+Differences
+Item Device Predicate
+blood cell size.
+Test Principle WBC: Electrical impedance and flow Flow cytometry method with
+(WBC/Bas%) cytometry a semiconductor laser
+Bas%: Electrical impedance
+Test Principle RBC/PLT: Electrical impedance RBC/PLT: Sheath flow DC
+detection method
+HGB: Colorimetric method HGB: SLS-Hgb method
+Throughput Closed Whole Blood Mode: maximum CBC, CBC+DIFF:
+of 51 samples/hour Approx. 150 samples/hour
+Autoloader Whole Blood Mode: Mode with NRBC, RET:
+maximum of 60 samples/hour Approx. 113-150
+Closed Predilute Mode: samples/hour
+maximum of 53 samples/hour
+Sample Sample assignment syringe Sample rotary valve (SRV)
+Assignment
+Mechanism
+Drive Source Pump Pneumatic unit
+Unit
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated Hematology
+Analyzers; Proposed Standard – Second Edition
+CLSI EP06-A, Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach; Approved Guideline
+CLSI H20-A2, Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard – Second Edition
+CLSI EP09-A3, Measurement Procedure Comparison and Bias Estimation Using Patient
+Samples; Approved Guideline – Third Edition
+CLSI EP17-A, Protocols for Determination of Limits of Detection and Limits of
+Quantitation; Approved Guideline
+CLSI EP05-A2, Evaluation of Precision Performance of Quantitative Measurement Methods;
+Approved Guideline – Second Edition
+CLSI EP28-A3c, Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory; Approved Guideline – Third Edition
+CLSI EP25-A, Evaluation of Stability of In Vitro Diagnostic Reagents; Approved Guideline
+5
+
+[Table 1 on page 5]
+Differences								
+	Item			Device			Predicate	
+			blood cell size.					
+Test Principle
+(WBC/Bas%)			WBC: Electrical impedance and flow
+cytometry
+Bas%: Electrical impedance			Flow cytometry method with
+a semiconductor laser		
+Test Principle			RBC/PLT: Electrical impedance
+HGB: Colorimetric method			RBC/PLT: Sheath flow DC
+detection method
+HGB: SLS-Hgb method		
+Throughput			Closed Whole Blood Mode: maximum
+of 51 samples/hour
+Autoloader Whole Blood Mode:
+maximum of 60 samples/hour
+Closed Predilute Mode:
+maximum of 53 samples/hour			CBC, CBC+DIFF:
+Approx. 150 samples/hour
+Mode with NRBC, RET:
+Approx. 113-150
+samples/hour		
+Sample
+Assignment
+Mechanism			Sample assignment syringe			Sample rotary valve (SRV)		
+Drive Source
+Unit			Pump			Pneumatic unit		
+
+--- Page 6 ---
+CLSI EP07-A2, Interference Testing in Clinical Chemistry; Approved Guideline ‒ Second
+Edition
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Method Comparison
+Method comparison studies were performed at three clinical sites (one site in U.S.
+and two sites in China) to assess the performance of the BC-5390 analyzer compared
+to the Sysmex XE-2100 using a total of 1,531 native venous whole blood samples
+collected in K EDTA. The study population consisted of 57.1% males and 42.6%
+2
+females including pediatric (i.e. neonates, infants, children, and adolescents) and
+adult subjects up to 100 years of age. The gender for 0.3% of the study population (5
+samples) was reported as unknown. In addition to healthy individuals, subjects with
+the following clinical conditions were included in the studies: acute
+inflammation/bacterial infection, chronic inflammation, parasitic infection/allergic
+reaction, viral infections, lymphoma, acute lymphoblastic leukemia (ALL), acute
+myeloblastic leukemia (AML), chronic lymphoblastic leukemia (CLL), chronic
+myeloblastic leukemia (CML), plasma cell leukemia, other unidentified leukemias,
+severe anemia, myeloproliferative disorders, aplastic anemia, HIV (human
+immunodeficiency virus), macrocytic anemia, microcytic/hypochromic anemias, and
+normocytic/normochromic anemias. Each whole blood sample was analyzed in
+duplicate on the BC-5390 and Sysmex XE-2100 analyzers.
+Deming regression and weighted Deming regression were used to estimate the
+parameters of the regression model (slope, intercept, 95% confidence intervals and
+correlation coefficient) according to CLSI EP09-A3. Weighted Deming regression
+was used for the WBC, RBC, HGB, and PLT parameters. Deming regression was
+used for the following parameters: HCT, MCV, MCH, MCHC, RDW-CV, RDW-SD,
+Neu#, Lym#, Mon#, Eos#, Bas#, Neu%, Lym%, Mon%, Eos%, and Bas%. Bias
+between the BC-5390 and Sysmex XE-2100 was calculated from the regression line
+at multiple clinical evaluation points for each parameter. Confidence limits of bias
+estimates were calculated based on standard errors of bias and 95% confidence. In
+addition, the mean difference and percent differences for each parameter at the
+defined clinical evaluation points were calculated. The Bland-Altman (difference)
+plots and 95% limits of agreement (LOA), and the hypothesis test to the slope and
+intercept were analyzed by statistical software. The estimated average bias for each
+parameter was provided for each clinical site and for all sites combined.
+Correlation and Estimated Bias of BC-5390 Compared to Sysmex XE-2100 – Combined
+Sites (excluding flagged parameters)
+95% CI 95% CI Mean
+Intercept
+Parameter (r) Slope Lower Upper Lower Upper
+(95% CI) XE-2100 BC-3600
+Limit Limit Limit Limit
+WBC 0.999 1.006 0.990 1.021 -0.075 -0.212 0.062 10.246 10.23
+6
+
+[Table 1 on page 6]
+Parameter	(r)	Slope		95% CI					Intercept
+(95% CI)		95% CI						Mean		
+				Lower			Upper				Lower			Upper		XE-2100		BC-3600	
+				Limit			Limit				Limit			Limit					
+WBC	0.999	1.006	0.990			1.021			-0.075	-0.212			0.062			10.246		10.23	
+
+[Table 2 on page 6]
+Intercept
+(95% CI)
+
+--- Page 7 ---
+95% CI 95% CI Mean
+Intercept
+Parameter (r) Slope Lower Upper Lower Upper
+(95% CI) XE-2100 BC-3600
+Limit Limit Limit Limit
+Neu# 0.999 1.011 0.997 1.025 -0.292 -0.094 0.036 5.359 5.388
+Lym# 0.993 0.975 0.964 0.986 -0.013 -0.034 0.009 2.013 1.95
+Mon# 0.966 0.930 0.891 0.969 0.027 0.011 0.043 0.466 0.461
+Eos# 0.995 0.994 0.960 1.028 9.386E-04 -0.004 0.006 0.186 0.186
+Bas# 0.624 0.916 0.227 1.605 0.007 -0.006 0.020 0.021 0.025
+Neu% 0.995 0.984 0.976 0.992 1.487 0.960 2.013 61.97 62.48
+Lym% 0.995 0.990 0.981 0.998 -0.272 -0.486 0.058 28.06 27.50
+Mon% 0.930 0.965 0.930 1.000 0.226 0.038 0.413 5.855 5.877
+Eos% 0.994 0.988 0.969 1.006 0.027 -0.014 0.068 2.497 2.493
+Bas% 0.415 0.431 0.2936 0.568 0.215 0.182 0.247 0.272 0.332
+RBC 0.997 1.004 0.999 1.008 -0.002 -0.018 0.014 4.238 4.255
+HGB 0.998 1.010 1.005 1.014 -0.055 -0.102 0.008 12.2 12.258
+HCT 0.995 1.013 1.006 1.019 -0.567 -0.799 0.335 37.303 37.209
+MCV 0.993 1.036 1.029 1.043 -3.763 -4.368 3.158 88.776 88.233
+MCH 0.977 1.020 1.008 1.032 -0.545 -0.885 0.205 29.531 29.578
+MCHC 0.825 1.184 1.130 1.238 -5.834 -7.657 4.010 33.228 33.509
+RDW-CV 0.978 1.024 1.004 1.044 -0.190 -0.481 0.102 15.005 15.17
+RDW-SD 0.988 0.988 0.976 0.999 -0.089 -0.634 0.455 48.133 47.458
+PLT 0.996 1.019 1.012 1.026 -1.157 -2.215 0.100 288.512 292.552
+MPV 0.951 1.057 1.037 1.078 -0.774 -0.996 0.552 10.661 10.496
+After analysis, three blood smears were prepared from each sample according to the
+respective laboratory standard operating procedures. Utilizing manual light
+microscopy, two readers each performed a 200-cell (leukocyte) differential (including
+morphology evaluation) for each sample. The overall morphology and distributional
+flagging efficiency (agreement), false positive (FP) and false negative (FN) rates, as
+well as clinical sensitivity and specificity were determined using a total of 1,514
+whole blood samples.
+95% CI 95% CI
+WBC Distribution Flagging (Clopper-Pearson) (Wilson Score)
+Combined Sites Manual Efficiency 79.1% 77.0% – 81.2% 77.0% – 81.1%
+BC-5390 P N Total FP% 18.7% 15.1% – 22.7% 15.3% – 22.7%
+P 850 80 930 FN% 21.7% 19.3% – 24.3% 19.4% – 24.3%
+N 236 348 584 Sensitivity 78.3% 75.7% – 80.7% 75.7% – 80.6%
+Total 1086 428 1514 Specificity 81.3% 77.3% – 84.9% 77.3% – 84.7%
+95% CI 95% CI
+WBC Morphology Flagging (Clopper-Pearson) (Wilson Score)
+Combined Sites Manual Efficiency 88.1% 86.4% – 89.7% 86.4% – 89.6%
+BC-5390 P N Total FP% 11.8% 10.2% – 13.6% 10.2% – 13.6%
+P 86 167 253 FN% 13.1% 7.2% – 21.4% 7.8% – 21.2%
+N 13 1248 1261 Sensitivity 86.9% 78.6% – 92.8% 78.8% – 92.2%
+Total 99 1415 1514 Specificity 88.2% 86.4% – 89.8% 86.4% – 89.8%
+7
+
+[Table 1 on page 7]
+Parameter	(r)	Slope		95% CI					Intercept
+(95% CI)		95% CI						Mean		
+				Lower			Upper				Lower			Upper		XE-2100		BC-3600	
+				Limit			Limit				Limit			Limit					
+Neu#	0.999	1.011	0.997			1.025			-0.292	-0.094			0.036			5.359		5.388	
+Lym#	0.993	0.975	0.964			0.986			-0.013	-0.034			0.009			2.013		1.95	
+Mon#	0.966	0.930	0.891			0.969			0.027	0.011			0.043			0.466		0.461	
+Eos#	0.995	0.994	0.960			1.028			9.386E-04	-0.004			0.006			0.186		0.186	
+Bas#	0.624	0.916	0.227			1.605			0.007	-0.006			0.020			0.021		0.025	
+Neu%	0.995	0.984	0.976			0.992			1.487	0.960			2.013			61.97		62.48	
+Lym%	0.995	0.990	0.981			0.998			-0.272	-0.486			0.058			28.06		27.50	
+Mon%	0.930	0.965	0.930			1.000			0.226	0.038			0.413			5.855		5.877	
+Eos%	0.994	0.988	0.969			1.006			0.027	-0.014			0.068			2.497		2.493	
+Bas%	0.415	0.431	0.2936			0.568			0.215	0.182			0.247			0.272		0.332	
+RBC	0.997	1.004	0.999			1.008			-0.002	-0.018			0.014			4.238		4.255	
+HGB	0.998	1.010	1.005			1.014			-0.055	-0.102			0.008			12.2		12.258	
+HCT	0.995	1.013	1.006			1.019			-0.567	-0.799			0.335			37.303		37.209	
+MCV	0.993	1.036	1.029			1.043			-3.763	-4.368			3.158			88.776		88.233	
+MCH	0.977	1.020	1.008			1.032			-0.545	-0.885			0.205			29.531		29.578	
+MCHC	0.825	1.184	1.130			1.238			-5.834	-7.657			4.010			33.228		33.509	
+RDW-CV	0.978	1.024	1.004			1.044			-0.190	-0.481			0.102			15.005		15.17	
+RDW-SD	0.988	0.988	0.976			0.999			-0.089	-0.634			0.455			48.133		47.458	
+PLT	0.996	1.019	1.012			1.026			-1.157	-2.215			0.100			288.512		292.552	
+MPV	0.951	1.057	1.037			1.078			-0.774	-0.996			0.552			10.661		10.496	
+
+[Table 2 on page 7]
+Intercept
+(95% CI)
+
+[Table 3 on page 7]
+											95% CI			95% CI	
+											(Clopper-Pearson)			(Wilson Score)	
+	Combined Sites			Manual				Efficiency	79.1%	77.0% – 81.2%			77.0% – 81.1%		
+BC-5390			P		N		Total	FP%	18.7%	15.1% – 22.7%			15.3% – 22.7%		
+P			850		80		930	FN%	21.7%	19.3% – 24.3%			19.4% – 24.3%		
+N			236		348		584	Sensitivity	78.3%	75.7% – 80.7%			75.7% – 80.6%		
+Total			1086		428		1514	Specificity	81.3%	77.3% – 84.9%			77.3% – 84.7%		
+
+[Table 4 on page 7]
+											95% CI			95% CI	
+											(Clopper-Pearson)			(Wilson Score)	
+	Combined Sites			Manual				Efficiency	88.1%	86.4% – 89.7%			86.4% – 89.6%		
+BC-5390			P		N		Total	FP%	11.8%	10.2% – 13.6%			10.2% – 13.6%		
+P			86		167		253	FN%	13.1%	7.2% – 21.4%			7.8% – 21.2%		
+N			13		1248		1261	Sensitivity	86.9%	78.6% – 92.8%			78.8% – 92.2%		
+Total			99		1415		1514	Specificity	88.2%	86.4% – 89.8%			86.4% – 89.8%		
+
+--- Page 8 ---
+95% CI 95% CI
+Overall WBC Flagging (Clopper-Pearson) (Wilson Score)
+Combined Sites Manual Efficiency 80.6% 78.5% – 82.5% 78.5% – 82.5%
+BC-5390 P N Total FP% 21.7% 19.4% – 24.2% 19.5% – 24.1%
+P 283 260 543 FN% 10.7% 7.5% – 14.7% 7.8% – 14.6%
+N 34 937 971 Sensitivity 89.3% 85.3% – 92.5% 85.4% – 92.2%
+Total 317 1197 1514 Specificity 78.3% 75.8% – 80.6% 75.9% – 80.5%
+b. Precision/Reproducibility:
+Precision performance of the BC-5390 was evaluated by performing a repeatability
+study at one clinical laboratory site with three analyzers and three operators and
+reproducibility studies across three clinical laboratory sites.
+The repeatability study was conducted at one external clinical laboratory site using
+multiple operators and three BC-5390 analyzers over multiple operating days.
+Residual native whole blood samples collected in K EDTA collection tubes were
+2
+selected within the defined ranges and around medical decision points per CLSI H26-
+A2. Each sample was analyzed 10 consecutive times in the closed whole blood
+CBC+DIFF and predilute CBC+DIFF modes.
+To obtain measures of reproducibility imprecision (%CV and SD), three levels of
+commercial quality control (single lot) were analyzed over 20 operating days, two
+runs per day and two replicates per run across three sites (one analyzer per site). To
+further demonstrate precision performance %CV and SD of within-run, between-run,
+between-day, and within-device were calculated per site and for the combined sites as
+shown below.
+Reproducibility for Combined Sites – BC-5D Low Level Control (N=240)
+Within- Between- Within- Between- Within- Between-
+Total
+Parameter Mean run run day day device device
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+WBC 3.44 0.07 1.96 0.03 0.99 0.06 1.70 0.02 0.53 0.08 2.26 0.05 1.42 0.09 2.66
+Neu# 1.75 0.04 2.48 0.02 1.33 0.04 2.20 0.02 0.96 0.05 2.97 0.03 1.78 0.06 3.46
+Lym# 1.34 0.04 3.12 0.00 0.00 0.03 2.08 0.02 1.35 0.05 3.40 0.01 0.70 0.05 3.47
+Mon# 0.19 0.02 8.49 0.00 0.00 0.01 5.61 0.01 3.70 0.02 9.26 0.02 8.99 0.02 12.91
+Eos# 0.16 0.01 8.92 0.01 5.22 0.01 8.19 0.00 0.00 0.02 10.34 0.00 1.00 0.02 10.38
+Bas# 0.80 0.02 2.76 0.01 0.95 0.02 2.17 0.00 0.00 0.02 2.92 0.01 1.37 0.03 3.22
+Neu% 50.92 0.91 1.79 0.00 0.00 0.62 1.22 0.33 0.64 0.97 1.90 0.15 0.29 0.98 1.92
+Lym% 38.76 0.93 2.41 0.00 0.00 0.57 1.48 0.45 1.16 1.04 2.67 0.55 1.41 1.17 3.02
+Mon% 5.54 0.44 7.90 0.00 0.00 0.28 5.13 0.20 3.52 0.48 8.65 0.42 7.59 0.64 11.50
+Eos% 4.77 0.37 7.71 0.24 4.96 0.35 7.37 0.00 0.00 0.44 9.17 0.00 0.00 0.44 9.17
+Bas% 23.16 0.41 1.77 0.15 0.66 0.33 1.41 0.00 0.00 0.44 1.89 0.00 0.00 0.44 1.89
+RBC 2.49 0.02 1.00 0.01 0.24 0.02 0.75 0.02 0.76 0.03 1.28 0.06 2.22 0.06 2.56
+HGB 6.02 0.06 0.93 0.03 0.48 0.05 0.82 0.05 0.78 0.08 1.31 0.03 0.45 0.08 1.38
+HCT 18.64 0.19 1.03 0.12 0.64 0.18 0.97 0.19 1.03 0.30 1.58 0.47 2.54 0.56 2.99
+MCV 74.75 0.16 0.21 0.36 0.49 0.38 0.51 0.41 0.54 0.57 0.76 0.72 0.96 0.92 1.23
+MCH 24.13 0.21 0.87 0.07 0.27 0.16 0.67 0.03 0.11 0.22 0.92 0.44 1.84 0.50 2.06
+MCHC 32.28 0.28 0.87 0.12 0.36 0.23 0.71 0.20 0.62 0.37 1.13 0.75 2.34 0.84 2.59
+RDW-CV 13.70 0.13 0.93 0.06 0.42 0.11 0.78 0.11 0.80 0.18 1.30 0.07 0.49 0.19 1.39
+8
+
+[Table 1 on page 8]
+									95% CI		95% CI
+									(Clopper-Pearson)		(Wilson Score)
+Combined Sites		Manual				Efficiency	80.6%	78.5% – 82.5%			78.5% – 82.5%
+BC-5390		P	N		Total	FP%	21.7%	19.4% – 24.2%			19.5% – 24.1%
+P		283	260		543	FN%	10.7%	7.5% – 14.7%			7.8% – 14.6%
+N		34	937		971	Sensitivity	89.3%	85.3% – 92.5%			85.4% – 92.2%
+Total		317	1197		1514	Specificity	78.3%	75.8% – 80.6%			75.9% – 80.5%
+
+[Table 2 on page 8]
+		Within-
+run		Between-		Within-
+day		Between-
+day		Within-
+device		Between-
+device		Total	
+Parameter	Mean			run											
+		SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+WBC	3.44	0.07	1.96	0.03	0.99	0.06	1.70	0.02	0.53	0.08	2.26	0.05	1.42	0.09	2.66
+Neu#	1.75	0.04	2.48	0.02	1.33	0.04	2.20	0.02	0.96	0.05	2.97	0.03	1.78	0.06	3.46
+Lym#	1.34	0.04	3.12	0.00	0.00	0.03	2.08	0.02	1.35	0.05	3.40	0.01	0.70	0.05	3.47
+Mon#	0.19	0.02	8.49	0.00	0.00	0.01	5.61	0.01	3.70	0.02	9.26	0.02	8.99	0.02	12.91
+Eos#	0.16	0.01	8.92	0.01	5.22	0.01	8.19	0.00	0.00	0.02	10.34	0.00	1.00	0.02	10.38
+Bas#	0.80	0.02	2.76	0.01	0.95	0.02	2.17	0.00	0.00	0.02	2.92	0.01	1.37	0.03	3.22
+Neu%	50.92	0.91	1.79	0.00	0.00	0.62	1.22	0.33	0.64	0.97	1.90	0.15	0.29	0.98	1.92
+Lym%	38.76	0.93	2.41	0.00	0.00	0.57	1.48	0.45	1.16	1.04	2.67	0.55	1.41	1.17	3.02
+Mon%	5.54	0.44	7.90	0.00	0.00	0.28	5.13	0.20	3.52	0.48	8.65	0.42	7.59	0.64	11.50
+Eos%	4.77	0.37	7.71	0.24	4.96	0.35	7.37	0.00	0.00	0.44	9.17	0.00	0.00	0.44	9.17
+Bas%	23.16	0.41	1.77	0.15	0.66	0.33	1.41	0.00	0.00	0.44	1.89	0.00	0.00	0.44	1.89
+RBC	2.49	0.02	1.00	0.01	0.24	0.02	0.75	0.02	0.76	0.03	1.28	0.06	2.22	0.06	2.56
+HGB	6.02	0.06	0.93	0.03	0.48	0.05	0.82	0.05	0.78	0.08	1.31	0.03	0.45	0.08	1.38
+HCT	18.64	0.19	1.03	0.12	0.64	0.18	0.97	0.19	1.03	0.30	1.58	0.47	2.54	0.56	2.99
+MCV	74.75	0.16	0.21	0.36	0.49	0.38	0.51	0.41	0.54	0.57	0.76	0.72	0.96	0.92	1.23
+MCH	24.13	0.21	0.87	0.07	0.27	0.16	0.67	0.03	0.11	0.22	0.92	0.44	1.84	0.50	2.06
+MCHC	32.28	0.28	0.87	0.12	0.36	0.23	0.71	0.20	0.62	0.37	1.13	0.75	2.34	0.84	2.59
+RDW-CV	13.70	0.13	0.93	0.06	0.42	0.11	0.78	0.11	0.80	0.18	1.30	0.07	0.49	0.19	1.39
+
+--- Page 9 ---
+Within- Between- Within- Between- Within- Between-
+Total
+Parameter Mean run run day day device device
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+RDW-SD 38.86 0.36 0.93 0.04 0.09 0.26 0.66 0.17 0.44 0.40 1.03 0.31 0.81 0.51 1.31
+PLT 53.28 3.24 6.09 0.00 0.00 2.20 4.12 1.96 3.68 3.79 7.12 1.37 2.57 4.03 7.57
+MPV 10.01 0.46 4.60 0.07 0.72 0.33 3.33 0.00 0.00 0.47 4.65 0.23 2.28 0.52 5.18
+Reproducibility for Combined Sites – BC-5D Normal Level Control (N=240)
+Within- Between- Within- Between- Within- Between-
+Total
+Parameter Mean run run day day device device
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+WBC 7.53 0.12 1.64 0.04 0.52 0.10 1.27 0.08 1.01 0.15 1.99 0.03 0.38 0.15 2.03
+Neu# 4.40 0.09 2.07 0.00 0.00 0.06 1.35 0.05 1.13 0.10 2.36 0.03 0.62 0.11 2.44
+Lym# 2.17 0.05 2.39 0.03 1.24 0.05 2.10 0.03 1.18 0.06 2.94 0.03 1.31 0.07 3.22
+Mon# 0.40 0.02 5.97 0.01 1.90 0.02 4.63 0.02 4.48 0.03 7.70 0.03 7.50 0.04 10.75
+Eos# 0.56 0.03 5.24 0.01 2.42 0.02 4.42 0.01 1.58 0.03 5.98 0.00 0.00 0.03 5.98
+Bas# 2.02 0.04 1.94 0.01 0.36 0.03 1.42 0.02 0.78 0.04 2.12 0.01 0.30 0.04 2.14
+Neu% 58.42 0.60 1.03 0.24 0.42 0.49 0.84 0.00 0.00 0.65 1.11 0.12 0.21 0.66 1.13
+Lym% 28.80 0.59 2.04 0.00 0.00 0.41 1.42 0.27 0.93 0.65 2.24 0.51 1.75 0.82 2.85
+Mon% 5.32 0.30 5.55 0.10 1.80 0.23 4.32 0.25 4.61 0.40 7.44 0.38 7.12 0.55 10.29
+Eos% 7.46 0.38 5.07 0.14 1.93 0.30 4.07 0.00 0.00 0.40 5.42 0.00 0.00 0.40 5.42
+Bas% 26.88 0.27 0.99 0.12 0.46 0.22 0.83 0.00 0.00 0.29 1.09 0.00 0.00 0.29 1.09
+RBC 4.70 0.05 0.96 0.02 0.50 0.04 0.85 0.05 1.03 0.07 1.50 0.00 0.00 0.07 1.50
+HGB 13.41 0.08 0.61 0.08 0.62 0.10 0.76 0.14 1.08 0.19 1.39 0.05 0.34 0.19 1.43
+HCT 40.75 0.37 0.90 0.34 0.83 0.43 1.05 0.49 1.21 0.70 1.72 0.37 0.91 0.79 1.95
+MCV 86.67 0.17 0.20 0.39 0.45 0.41 0.48 0.31 0.36 0.53 0.61 0.79 0.92 0.95 1.10
+MCH 28.51 0.21 0.74 0.00 0.00 0.15 0.53 0.05 0.18 0.22 0.77 0.11 0.39 0.25 0.86
+MCHC 32.90 0.23 0.69 0.13 0.39 0.21 0.63 0.11 0.35 0.29 0.87 0.18 0.54 0.34 1.02
+RDW-CV 13.39 0.11 0.85 0.00 0.00 0.07 0.52 0.13 1.00 0.18 1.31 0.11 0.80 0.21 1.54
+RDW-SD 43.74 0.33 0.74 0.01 0.03 0.23 0.53 0.23 0.52 0.40 0.91 0.56 1.28 0.69 1.57
+PLT 262.45 5.63 2.15 2.20 0.84 4.55 1.73 5.38 2.05 8.09 3.08 0.00 0.00 8.09 3.08
+MPV 10.59 0.15 1.41 0.00 0.00 0.10 0.91 0.17 1.65 0.23 2.17 0.09 0.83 0.25 2.32
+Reproducibility for Combined Sites – BC-5D High Level Control (N=240)
+Within- Between- Within- Between- Within- Between-
+Total
+Parameter Mean run run day day device device
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+WBC 15.98 0.20 1.26 0.08 0.48 0.16 1.02 0.14 0.90 0.26 1.62 0.09 0.57 0.27 1.72
+Neu# 10.34 0.15 1.47 0.03 0.32 0.11 1.09 0.07 0.71 0.17 1.67 0.05 0.53 0.18 1.75
+Lym# 3.08 0.08 2.51 0.03 1.10 0.06 2.09 0.06 1.86 0.10 3.31 0.00 0.00 0.10 3.31
+Mon# 0.92 0.05 5.94 0.00 0.00 0.03 3.78 0.02 2.72 0.06 6.53 0.04 4.54 0.07 4.55
+Eos# 1.65 0.06 3.81 0.04 2.27 0.06 3.52 0.01 0.79 0.07 4.51 0.01 0.64 0.07 4.55
+Bas# 4.91 0.07 1.38 0.01 0.30 0.05 1.02 0.04 0.83 0.08 1.64 0.03 0.58 0.09 1.74
+Neu% 64.69 0.50 0.77 0.20 0.31 0.41 0.63 0.20 0.31 0.57 0.89 0.12 0.19 0.59 0.91
+Lym% 19.30 0.44 2.28 0.10 0.53 0.33 1.70 0.22 1.14 0.50 2.61 0.08 0.44 0.51 2.64
+Mon% 5.73 0.33 5.84 0.00 0.00 0.21 3.66 0.16 2.86 0.37 6.51 0.25 4.33 0.45 7.82
+Eos% 10.28 0.35 3.43 0.22 2.18 0.34 3.26 0.00 0.00 0.42 4.06 0.00 0.00 0.42 4.06
+Bas% 30.70 0.17 0.56 0.00 0.00 0.11 0.36 0.08 0.25 0.19 0.61 0.00 0.00 0.19 0.61
+RBC 5.31 0.05 0.99 0.02 0.36 0.04 0.78 0.05 0.93 0.07 1.41 0.02 0.28 0.08 1.43
+HGB 16.85 0.11 0.66 0.08 0.48 0.11 0.67 0.17 1.02 0.22 1.30 0.10 0.62 0.24 1.44
+HCT 50.93 0.47 0.93 0.28 0.54 0.43 0.85 0.64 1.26 0.84 1.66 0.50 0.97 0.98 1.92
+MCV 95.86 0.19 0.19 0.40 0.42 0.42 0.44 0.37 0.38 0.57 0.60 0.86 0.89 1.03 1.07
+MCH 31.70 0.23 0.73 0.08 0.27 0.18 0.58 0.03 0.11 0.25 0.78 0.22 0.68 0.33 1.04
+9
+
+[Table 1 on page 9]
+		Within-
+run		Between-		Within-
+day		Between-
+day		Within-
+device		Between-
+device		Total	
+Parameter	Mean			run											
+		SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+RDW-SD	38.86	0.36	0.93	0.04	0.09	0.26	0.66	0.17	0.44	0.40	1.03	0.31	0.81	0.51	1.31
+PLT	53.28	3.24	6.09	0.00	0.00	2.20	4.12	1.96	3.68	3.79	7.12	1.37	2.57	4.03	7.57
+MPV	10.01	0.46	4.60	0.07	0.72	0.33	3.33	0.00	0.00	0.47	4.65	0.23	2.28	0.52	5.18
+
+[Table 2 on page 9]
+		Within-		Between-		Within-
+day		Between-
+day		Within-
+device		Between-
+device		Total	
+Parameter	Mean	run		run											
+		SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+WBC	7.53	0.12	1.64	0.04	0.52	0.10	1.27	0.08	1.01	0.15	1.99	0.03	0.38	0.15	2.03
+Neu#	4.40	0.09	2.07	0.00	0.00	0.06	1.35	0.05	1.13	0.10	2.36	0.03	0.62	0.11	2.44
+Lym#	2.17	0.05	2.39	0.03	1.24	0.05	2.10	0.03	1.18	0.06	2.94	0.03	1.31	0.07	3.22
+Mon#	0.40	0.02	5.97	0.01	1.90	0.02	4.63	0.02	4.48	0.03	7.70	0.03	7.50	0.04	10.75
+Eos#	0.56	0.03	5.24	0.01	2.42	0.02	4.42	0.01	1.58	0.03	5.98	0.00	0.00	0.03	5.98
+Bas#	2.02	0.04	1.94	0.01	0.36	0.03	1.42	0.02	0.78	0.04	2.12	0.01	0.30	0.04	2.14
+Neu%	58.42	0.60	1.03	0.24	0.42	0.49	0.84	0.00	0.00	0.65	1.11	0.12	0.21	0.66	1.13
+Lym%	28.80	0.59	2.04	0.00	0.00	0.41	1.42	0.27	0.93	0.65	2.24	0.51	1.75	0.82	2.85
+Mon%	5.32	0.30	5.55	0.10	1.80	0.23	4.32	0.25	4.61	0.40	7.44	0.38	7.12	0.55	10.29
+Eos%	7.46	0.38	5.07	0.14	1.93	0.30	4.07	0.00	0.00	0.40	5.42	0.00	0.00	0.40	5.42
+Bas%	26.88	0.27	0.99	0.12	0.46	0.22	0.83	0.00	0.00	0.29	1.09	0.00	0.00	0.29	1.09
+RBC	4.70	0.05	0.96	0.02	0.50	0.04	0.85	0.05	1.03	0.07	1.50	0.00	0.00	0.07	1.50
+HGB	13.41	0.08	0.61	0.08	0.62	0.10	0.76	0.14	1.08	0.19	1.39	0.05	0.34	0.19	1.43
+HCT	40.75	0.37	0.90	0.34	0.83	0.43	1.05	0.49	1.21	0.70	1.72	0.37	0.91	0.79	1.95
+MCV	86.67	0.17	0.20	0.39	0.45	0.41	0.48	0.31	0.36	0.53	0.61	0.79	0.92	0.95	1.10
+MCH	28.51	0.21	0.74	0.00	0.00	0.15	0.53	0.05	0.18	0.22	0.77	0.11	0.39	0.25	0.86
+MCHC	32.90	0.23	0.69	0.13	0.39	0.21	0.63	0.11	0.35	0.29	0.87	0.18	0.54	0.34	1.02
+RDW-CV	13.39	0.11	0.85	0.00	0.00	0.07	0.52	0.13	1.00	0.18	1.31	0.11	0.80	0.21	1.54
+RDW-SD	43.74	0.33	0.74	0.01	0.03	0.23	0.53	0.23	0.52	0.40	0.91	0.56	1.28	0.69	1.57
+PLT	262.45	5.63	2.15	2.20	0.84	4.55	1.73	5.38	2.05	8.09	3.08	0.00	0.00	8.09	3.08
+MPV	10.59	0.15	1.41	0.00	0.00	0.10	0.91	0.17	1.65	0.23	2.17	0.09	0.83	0.25	2.32
+
+[Table 3 on page 9]
+		Within-		Between-
+run		Within-
+day		Between-
+day		Within-
+device		Between-
+device		Total	
+Parameter	Mean	run													
+		SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+WBC	15.98	0.20	1.26	0.08	0.48	0.16	1.02	0.14	0.90	0.26	1.62	0.09	0.57	0.27	1.72
+Neu#	10.34	0.15	1.47	0.03	0.32	0.11	1.09	0.07	0.71	0.17	1.67	0.05	0.53	0.18	1.75
+Lym#	3.08	0.08	2.51	0.03	1.10	0.06	2.09	0.06	1.86	0.10	3.31	0.00	0.00	0.10	3.31
+Mon#	0.92	0.05	5.94	0.00	0.00	0.03	3.78	0.02	2.72	0.06	6.53	0.04	4.54	0.07	4.55
+Eos#	1.65	0.06	3.81	0.04	2.27	0.06	3.52	0.01	0.79	0.07	4.51	0.01	0.64	0.07	4.55
+Bas#	4.91	0.07	1.38	0.01	0.30	0.05	1.02	0.04	0.83	0.08	1.64	0.03	0.58	0.09	1.74
+Neu%	64.69	0.50	0.77	0.20	0.31	0.41	0.63	0.20	0.31	0.57	0.89	0.12	0.19	0.59	0.91
+Lym%	19.30	0.44	2.28	0.10	0.53	0.33	1.70	0.22	1.14	0.50	2.61	0.08	0.44	0.51	2.64
+Mon%	5.73	0.33	5.84	0.00	0.00	0.21	3.66	0.16	2.86	0.37	6.51	0.25	4.33	0.45	7.82
+Eos%	10.28	0.35	3.43	0.22	2.18	0.34	3.26	0.00	0.00	0.42	4.06	0.00	0.00	0.42	4.06
+Bas%	30.70	0.17	0.56	0.00	0.00	0.11	0.36	0.08	0.25	0.19	0.61	0.00	0.00	0.19	0.61
+RBC	5.31	0.05	0.99	0.02	0.36	0.04	0.78	0.05	0.93	0.07	1.41	0.02	0.28	0.08	1.43
+HGB	16.85	0.11	0.66	0.08	0.48	0.11	0.67	0.17	1.02	0.22	1.30	0.10	0.62	0.24	1.44
+HCT	50.93	0.47	0.93	0.28	0.54	0.43	0.85	0.64	1.26	0.84	1.66	0.50	0.97	0.98	1.92
+MCV	95.86	0.19	0.19	0.40	0.42	0.42	0.44	0.37	0.38	0.57	0.60	0.86	0.89	1.03	1.07
+MCH	31.70	0.23	0.73	0.08	0.27	0.18	0.58	0.03	0.11	0.25	0.78	0.22	0.68	0.33	1.04
+
+--- Page 10 ---
+Within- Between- Within- Between- Within- Between-
+Total
+Parameter Mean run run day day device device
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+MCHC 33.08 0.23 0.69 0.12 0.37 0.20 0.61 0.12 0.36 0.28 0.86 0.14 0.43 0.32 0.96
+RDW-CV 12.78 0.10 0.75 0.06 0.50 0.09 0.73 0.15 1.19 0.19 1.49 0.10 0.75 0.21 1.67
+RDW-SD 45.52 0.33 0.72 0.10 0.22 0.25 0.55 0.25 0.55 0.42 0.93 0.54 1.18 0.68 1.50
+PLT 508.65 8.36 1.64 4.18 0.82 7.24 1.42 7.09 1.39 11.73 2.31 3.89 0.76 12.36 2.43
+MPV 10.44 0.08 0.78 0.01 0.06 0.06 0.55 0.12 1.14 0.14 1.38 0.11 1.04 0.18 1.73
+c. Linearity:
+The linear ranges for the WBC and PLT parameters were established by testing two
+different sample sets (for each parameter with a wide overlap) prepared by diluting
+FDA cleared commercially available linearity materials to span the analytical
+measuring range (AMR). For each sample set, seven proportional dilutions were
+prepared (0%, 10%, 20%, 40%, 60%, 80%, and 100%). Three replicates were
+performed for each theoretical concentration on three different BC-5390 analyzers in
+the closed mode.
+The linear ranges for the RBC, HGB, and HCT parameters were established by
+testing diluted samples prepared from native whole blood. For each parameter, seven
+proportional dilutions were prepared (0%, 10%, 20%, 40%, 60%, 80%, and 100%).
+Three replicates were performed for each dilution on two different BC-5390
+analyzers in the closed mode.
+Polynomial regression analyses for the first, second and third-order polynomials were
+performed for each evaluated parameter.
+Analytical Measurement
+Parameter
+Range (AMR)
+WBC (x103/µL) 0.3–200
+RBC (x106/µL) 0.20–8.00
+HGB (g/dL) 0.5–25.0
+HCT (%) 2.0–75.0
+PLT (x103/µL) 5–2000
+d. Carryover:
+Carryover studies for the WBC, RBC, HGB, HCT, and PLT parameters were
+conducted using high target value (HTV) and low target value (LTV) contrived native
+whole blood samples. Testing was conducted to evaluate the carryover of whole
+blood within-mode, predilute within-mode, and mode-to-mode.
+For within-mode carryover, the following combinations were evaluated: whole blood
+CBC+DIFF to whole blood CBC+DIFF and predilute CBC+DIFF to predilute
+CBC+DIFF. For mode-to-mode carryover, the following combinations were
+evaluated: whole blood CBC+DIFF to whole blood CBC mode, whole blood
+CBC+DIFF to predilute CBC+DIFF mode, whole blood CBC+DIFF to predilute
+10
+
+[Table 1 on page 10]
+		Within-		Between-
+run		Within-
+day		Between-
+day		Within-
+device		Between-
+device		Total	
+Parameter	Mean	run													
+		SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+MCHC	33.08	0.23	0.69	0.12	0.37	0.20	0.61	0.12	0.36	0.28	0.86	0.14	0.43	0.32	0.96
+RDW-CV	12.78	0.10	0.75	0.06	0.50	0.09	0.73	0.15	1.19	0.19	1.49	0.10	0.75	0.21	1.67
+RDW-SD	45.52	0.33	0.72	0.10	0.22	0.25	0.55	0.25	0.55	0.42	0.93	0.54	1.18	0.68	1.50
+PLT	508.65	8.36	1.64	4.18	0.82	7.24	1.42	7.09	1.39	11.73	2.31	3.89	0.76	12.36	2.43
+MPV	10.44	0.08	0.78	0.01	0.06	0.06	0.55	0.12	1.14	0.14	1.38	0.11	1.04	0.18	1.73
+
+[Table 2 on page 10]
+Parameter	Analytical Measurement
+Range (AMR)	
+WBC (x103/µL)	0.3–200	
+RBC (x106/µL)	0.20–8.00	
+HGB (g/dL)	0.5–25.0	
+HCT (%)	2.0–75.0	
+PLT (x103/µL)	5–2000	
+
+--- Page 11 ---
+CBC mode, predilute CBC+DIFF to predilute CBC mode, predilute CBC+DIFF to
+whole blood CBC+DIFF, and predilute CBC+DIFF to whole blood CBC mode.
+For each of the mode-to-mode and within-mode combinations the HTV samples (H1,
+H2, and H3) were aspirated and analyzed three times consecutively followed by three
+aspirations of the LTV samples (L1, L2, and L3). Carryover % was determined using
+the following calculation: % Carryover = 10 (LTV1−LTV3) / (HTV3−LTV3) × 100.
+The results of the carryover study were within the predefined specifications of ≤ 1.0%
+for WBC, RBC, HGB, HCT and PLT.
+e. Interfering Substances:
+Interfering substance studies were performed for the following: bilirubin,
+hemoglobin, triglycerides, high WBC, and high PLT. Whole blood samples
+(K EDTA) within the defined reference ranges were spiked with each interferent at
+2
+different concentrations.
+There was no significant bilirubin interference up to a concentration 500 mg/L for the
+following parameters: WBC, Neu#, Lym#, Mon#, Eos#, Bas#, Neu%, Lym%, Mon%,
+Eos%, Bas%, RBC, HCT, MCV, RDW-CV, RDW-SD, PLT and MPV parameters.
+There was no significant hemoglobin interference up to a concentration 1110 mg/dL
+for the following parameters: WBC, Neu#, Lym#, Mon#, Eos#, Bas#, Neu%, Lym%,
+Mon%, Eos%, Bas%, RBC, HCT, MCV, RDW-CV, RDW-SD, PLT and MPV
+parameters. There was no significant hemoglobin interference up to a concentration
+751 mg/dL for the HGB parameter; up to a concentration 693 mg/dL for the MCH
+parameter; and up to a concentration of 677 mg/dL for the MCHC parameter.
+There was no significant triglyceride interference up to a concentration of 29.4
+mmol/L for the HCT and MCV parameters. There was no significant triglyceride
+interference up to a concentration of 20 mmol/L for the HGB and MCH parameters
+and up to a concentration of 25 mmol/L for the MCHC parameter.
+There was no significant interference observed for WBC up to a concentration of
+183.72 x 103/µL for the following parameters: HGB, HCT, MCV, MCH, and MCHC.
+There was no significant interference observed for PLT up to a concentration of 1809
+x 103/µL for the following parameters: HGB, HCT, MCV, MCH, and MCHC.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+a. Specimen Stability
+To evaluate sample stability for the whole blood mode (closed and autoloader) a
+combination of freshly collected whole blood samples drawn from patients and
+residual whole blood samples from clinical laboratory sites were analyzed. The
+11
+
+--- Page 12 ---
+sample size totaled 54 specimens spanning the defined analytical measurement range
+for the WBC, RBC, HGB, and PLT parameters in addition to clinical evaluation
+points for other measurands. Aliquots were prepared and stored at the defined
+condition for each specimen, then analyzed in duplicate at different time points
+according to the study design. The sample stability for all measurands analyzed in
+the whole blood mode at room temperature (18–26°C) and refrigerated temperature
+(2–8°C) was established at 24 hours and 36 hours from the time of collection
+respectively.
+Sample stability for the closed predilute mode was evaluated using a total of 35
+residual whole blood samples spanning the defined analytical measurement range for
+the WBC, RBC, HGB, and PLT parameters in addition to clinical evaluation points
+for other measurands. Aliquots were prepared and stored at the defined condition for
+each specimen, then analyzed in duplicate at different time points according to the
+study design. The sample stability at room temperature for all measurands was
+established at 25 minutes from the time of sample preparation (dilution).
+Acceptance criteria for each parameter was established for defined time intervals at
+each storage condition as the difference between the recovery of the measurand at
+defined time points and time point zero (T0). The acceptance criteria were met for
+each claimed storage condition: 25 minutes for prediluted samples, 24 hours for
+whole blood samples stored at room temperature (18–26°C) and 36 hours for whole
+blood samples stored at refrigerated temperature (2–8°C).
+b. Sample Matrix Comparison
+To demonstrate matrix equivalency of capillary whole blood to venous whole blood,
+a matrix comparison study was conducted using 57 paired samples collected in
+K EDTA. The samples were selected to cover the analytical measurement range of
+2
+the WBC, RBC, HGB, and PLT parameters in addition to the medical decision levels
+of other measurands. Deming and weighted Deming approaches were used to
+estimate the parameters of the regression model (slope, intercept, 95% confidence
+intervals and correlation coefficient) according to CLSI EP09-A3. Confidence limits
+of bias estimates were calculated based on standard errors of bias and 95%
+confidence intervals. The results of the Deming and weighted Deming regression
+analyses and bias between the paired samples on the BC-5390 analyzer met the
+defined acceptance criteria for all parameters.
+c. Mode Comparison
+To demonstrate sample equivalency between the whole blood mode and predilute
+mode, a comparison study was conducted using 124 residual samples collected in
+K EDTA. The samples were selected to cover the analytical measuring range of the
+2
+WBC, RBC, HGB, and PLT parameters in addition to the medical decision levels of
+other measurands.
+12
+
+--- Page 13 ---
+For the comparison of the CBC whole blood mode to the CBC+DIFF whole blood
+mode, a total of 103 samples were analyzed in duplicate in each mode. Similarly, for
+the comparison between the CBC predilute and the CBC+DIFF predilute modes, a
+total of 75 samples were analyzed in duplicate in each mode. The samples were
+selected to cover the analytical measurement ranges of the WBC, RBC, HGB, and
+PLT parameters in addition to clinical evaluation points of the other parameters.
+Deming and weighted Deming approaches were used to estimate the parameters of
+the regression model (slope, intercept, 95% confidence intervals and correlation
+coefficient) according to CLSI EP09-A3. Results for each comparison and parameter
+met the defined acceptance criteria.
+d. Anticoagulant Comparison
+To demonstrate equivalency between samples collected in K EDTA versus those
+3
+collected in K EDTA, a comparison study was conducted using 70 paired samples
+2
+collected in K EDTA and K EDTA. The samples were selected to cover the normal
+2 3
+range and medical decision levels for all measurands. Deming and weighted Deming
+approaches were used to estimate the parameters of the regression model (slope,
+intercept, 95% confidence intervals and correlation coefficient) according to CLSI
+EP09-A3. Results for each comparison and parameter met the defined acceptance
+criteria.
+e. Limits of Detection, Blank, and Quantitation (LoD, LoB, and LoQ)
+Limit of Blank (LoB) was determined using five blank samples containing the
+predilute solution (diluent). Each blank sample was analyzed 12 times in the whole
+blood and predilute modes on three BC-5390 analyzers at one clinical laboratory site.
+To determine the Limit of Detection (LoD) and Limit of Quantitation (LoQ), five low
+level samples were derived from native whole blood. Each low level sample was
+analyzed 12 times in the whole blood and predilute modes on three BC-5390
+analyzers at one clinical laboratory site.
+Whole Blood Mode Predilute Mode
+Parameter LoB LoD LoQ LoB LoD LoQ
+WBC
+0.00 0.03 0.03 0.01 0.06 0.06
+(x103/µL)
+PLT
+0.00 3.0 3.0 0.00 2.5 2.5
+(x103/µL)
+f. Background Counts
+To establish the allowable background count for the BC-5390, diluent was analyzed
+as a sample in the whole blood and predilute modes, one run per day over multiple
+operating days at three clinical laboratory sites.
+13
+
+[Table 1 on page 13]
+				Whole Blood Mode									Predilute Mode							
+	Parameter			LoB			LoD			LoQ			LoB			LoD			LoQ	
+WBC
+(x103/µL)			0.00			0.03			0.03			0.01			0.06			0.06		
+PLT
+(x103/µL)			0.00			3.0			3.0			0.00			2.5			2.5		
+
+--- Page 14 ---
+Background
+Parameter
+Specifications
+WBC ≤ 0.1 x 103/µL
+RBC ≤ 0.02 x 106/µL
+HGB ≤ 0.1 g/dL
+PLT ≤ 5 x 103/µL
+g. Adult Reference Intervals
+The adult reference interval for each BC-5390 parameter was established by
+analyzing whole blood samples collected in K EDTA from a total population of 251
+2
+healthy individuals (N=121 males, and N=130 females) representative of the United
+States population (i.e. race demographics). Due to the sample size of each gender
+(N≥120), confidence intervals for each parameter were calculated using a 90%
+probability (90% CI).
+Male Female Overall
+(N=121) (N=130) (N=251)
+Parameter
+Lower Upper Lower Upper Lower Upper
+Limit Limit Limit Limit Limit Limit
+WBC (x103/µL) 3.782 12.049 4.374 11.193 3.972 11.726
+Neu# (x103/µL) 1.744 9.728 2.229 8.363 2.029 8.578
+Lym# (x103/µL) 1.181 4.268 1.288 3.778 1.214 3.858
+Mon# (x103/µL) 0.210 0.869 0.211 0.667 0.210 0.787
+Eos# (x103/µL) 0.031 0.599 0.023 0.487 0.030 0.557
+Bas# (x103/µL) 0.010 0.100 0.010 0.080 0.010 0.080
+Neu% 39.06 78.14 41.94 76.49 41.33 76.90
+Lymph% 14.13 50.47 16.14 49.67 15.13 49.84
+Mon% 3.61 10.90 3.63 8.87 3.63 9.77
+Eos% 0.41 8.82 0.40 8.12 0.40 8.10
+Bas% 0.20 1.20 0.20 1.00 0.20 1.10
+RBC (x106/µL) 4.231 6.219 3.728 5.454 3.907 6.021
+HGB (g/dL) 13.01 18.28 10.18 16.27 10.68 17.47
+HCT (%) 38.50 54.13 31.93 47.30 33.81 51.47
+MCV (fL) 74.28 100.68 74.33 96.87 74.33 97.64
+MCH (pg) 24.96 34.54 23.36 32.40 23.90 33.18
+MCHC (g/dL) 32.01 36.00 30.80 35.87 31.02 35.90
+RDW-CV (%) 12.01 17.39 11.80 18.63 12.00 17.67
+RDW-SD 36.74 55.63 37.08 56.00 37.09 55.55
+PLT (x103/µL) 141.1 456.6 186.4 405.5 147.7 435.4
+MPV (fL) 9.30 14.26 9.30 13.59 9.30 13.61
+h. Pediatric Reference Interval Verification
+A literature reference interval verification study was performed for the pediatric
+population. A total of 161 samples were collected from apparently healthy pediatric
+patients ranging from neonate to 21 years of age within each pediatric subcategory
+(see table below). The results of the WBC, Neu#, Lym#, Eos#, Bas#, RBC, HGB,
+14
+
+[Table 1 on page 14]
+	
+	Background
+Parameter	
+	Specifications
+	
+	
+WBC	≤ 0.1 x 103/µL
+RBC	≤ 0.02 x 106/µL
+HGB	≤ 0.1 g/dL
+PLT	≤ 5 x 103/µL
+
+[Table 2 on page 14]
+Parameter		Male						Female						Overall				
+		(N=121)						(N=130)						(N=251)				
+		Lower			Upper			Lower			Upper			Lower			Upper	
+		Limit			Limit			Limit			Limit			Limit			Limit	
+WBC (x103/µL)	3.782			12.049			4.374			11.193			3.972			11.726		
+Neu# (x103/µL)	1.744			9.728			2.229			8.363			2.029			8.578		
+Lym# (x103/µL)	1.181			4.268			1.288			3.778			1.214			3.858		
+Mon# (x103/µL)	0.210			0.869			0.211			0.667			0.210			0.787		
+Eos# (x103/µL)	0.031			0.599			0.023			0.487			0.030			0.557		
+Bas# (x103/µL)	0.010			0.100			0.010			0.080			0.010			0.080		
+Neu%	39.06			78.14			41.94			76.49			41.33			76.90		
+Lymph%	14.13			50.47			16.14			49.67			15.13			49.84		
+Mon%	3.61			10.90			3.63			8.87			3.63			9.77		
+Eos%	0.41			8.82			0.40			8.12			0.40			8.10		
+Bas%	0.20			1.20			0.20			1.00			0.20			1.10		
+RBC (x106/µL)	4.231			6.219			3.728			5.454			3.907			6.021		
+HGB (g/dL)	13.01			18.28			10.18			16.27			10.68			17.47		
+HCT (%)	38.50			54.13			31.93			47.30			33.81			51.47		
+MCV (fL)	74.28			100.68			74.33			96.87			74.33			97.64		
+MCH (pg)	24.96			34.54			23.36			32.40			23.90			33.18		
+MCHC (g/dL)	32.01			36.00			30.80			35.87			31.02			35.90		
+RDW-CV (%)	12.01			17.39			11.80			18.63			12.00			17.67		
+RDW-SD	36.74			55.63			37.08			56.00			37.09			55.55		
+PLT (x103/µL)	141.1			456.6			186.4			405.5			147.7			435.4		
+MPV (fL)	9.30			14.26			9.30			13.59			9.30			13.61		
+
+--- Page 15 ---
+HCT, MCV, and PLT parameters were compared to literature pediatric reference
+intervals.1234
+Pediatric Category Age Range
+Newborn (neonate) Birth to 1 month of age
+Infant > 1 month to 2 years of age
+Child > 2 to 12 years of age
+Adolescent > 12 to 21 years of age
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+1 Mayo, Mayo Clinic – Mayo Medical Laboratories. Rochester 2014 Interpretive Handbook. 2014 Mayo
+Foundation for Medical Education and Research (MFMER).
+2 Lanzkowsky, Philip. Pediatric Hematology-Oncology: a Treatise for the Clinician. New York: McGraw-Hill,
+1980.
+3 Nathan, David G. and Oski, Frank A. Hematology of Infancy and Childhood. 1987.
+4 Miller, Denis R., et al. Blood Diseases of Infancy and Childhood. St. Louis: Mosby, 1984.
+15
+
+[Table 1 on page 15]
+	Pediatric Category			Age Range	
+Newborn (neonate)			Birth to 1 month of age		
+Infant			> 1 month to 2 years of age		
+Child			> 2 to 12 years of age		
+Adolescent			> 12 to 21 years of age		

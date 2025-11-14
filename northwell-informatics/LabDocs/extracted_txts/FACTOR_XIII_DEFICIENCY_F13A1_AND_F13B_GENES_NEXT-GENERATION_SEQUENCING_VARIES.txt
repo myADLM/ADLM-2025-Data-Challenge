@@ -1,0 +1,116 @@
+Standard Operating Procedure (SOP): Analytical Phase for
+Factor XIII Deficiency, F13A1 and F13B Genes Next-Generation
+Sequencing (NGS)
+1. PURPOSE
+The purpose of this SOP is to ensure the accurate and efficient
+analysis of Factor XIII deficiency by sequencing the F13A1 and F13B
+genes using next-generation sequencing techniques. This SOP
+outlines steps and responsibilities in the analytical phase post
+specimen collection and accessioning.
+2. SCOPE
+This procedure is applicable to all trained personnel performing NGS
+for Factor XIII deficiency analysis in the laboratory.
+3. RESPONSIBILITY
+Designated staff are responsible for executing the procedures
+outlined in this SOP, including equipment setup, sample preparation,
+sequencing, data analysis, result interpretation, quality control, and
+reporting.
+4. DEFINITIONS
+• Factor XIII Deficiency: A rare genetic bleeding disorder
+characterized by a defect in the Factor XIII protein.
+• F13A1 and F13B Genes: Genes encoding the subunits of Factor
+XIII protein, mutations in which can cause Factor XIII deficiency.
+• Next-Generation Sequencing (NGS): A high-throughput method
+for sequencing DNA, providing comprehensive data on genetic
+variants.
+5. EQUIPMENT AND SUPPLIES
+• Automated NGS sequencer (e.g., Illumina, Ion Torrent)
+• DNA extraction kits
+• Library preparation kits
+• Custom gene panels for F13A1 and F13B genes
+• Thermal cycler
+• Microcentrifuge
+• Quantification instruments (e.g., Qubit, Nanodrop)
+• PCR machines
+• Bioinformatics software
+• Quality control materials
+6. PROCEDURE
+A) Sample Preparation
+1. DNA Extraction:
+◦ Extract DNA from the provided sample using a validated
+DNA extraction kit.
+◦ Measure DNA concentration using Qubit or Nanodrop.
+◦ Ensure DNA purity (A260/A280 ratio between 1.8-2.0).
+2. Library Preparation:
+◦ Follow the library preparation protocol specific to the
+sequencing platform and gene panel.
+◦ Perform PCR amplification targeting the F13A1 and F13B
+genes using customized primers.
+3. Library Quantification and Normalization:
+◦ Quantify the prepared library using Qubit or a similar
+system.
+◦ Normalize the library concentration according to the
+sequencing platform’s requirements.
+B) Sequencing
+1. Load Samples:
+◦ Load the prepared and normalized library onto the
+sequencer.
+◦ Ensure the instrumentation is calibrated and the reagent is
+loaded as required.
+2. Run Sequencing:
+◦ Start the sequencing run using the manufacturer's
+instructions specific to the sequencer.
+◦ Monitor sequencing progress and address any instrument
+alerts immediately.
+C) Data Analysis
+1. Raw Data Processing:
+◦ Transfer raw sequencing data to the bioinformatics
+computer.
+◦ Perform initial quality checks using FASTQC or equivalent
+software.
+2. Alignment and Variant Calling:
+◦ Align the sequence data to the reference genome using
+appropriate software (e.g., BWA, Bowtie).
+◦ Perform variant calling using GATK, VarScan, or another
+validated variant caller.
+◦ Annotate variants using databases (e.g., ClinVar, dbSNP).
+D) Interpretation
+1. Variant Interpretation:
+◦ Interpret the identified variants using established guidelines
+and reference databases.
+◦ Use in silico tools to predict the pathogenicity of the
+variants.
+2. Review:
+◦ Verify data integrity and confirm any findings through
+secondary analysis if necessary.
+◦ Document interpretations and findings.
+E) Quality Control
+1. Control Samples:
+◦ Run quality control samples (positive/negative controls)
+alongside patient samples.
+◦ Verify that control sample results meet expected outcomes.
+2. Validation:
+◦ Validate new batches of reagents and equipment regularly
+using a control set.
+◦ Record and analyze quality control data for trends.
+F) Reporting Results
+1. Result Documentation:
+◦ Document sequencing results clearly, including detailed
+variant interpretation and clinical relevance.
+◦ Follow site-specific guidelines for reporting results in the
+Laboratory Information System (LIS).
+2. Critical Results Handling:
+◦ Communicate critical findings to the responsible clinician
+promptly.
+◦ Document the communication process of critical results.
+7. REFERENCES
+• Manufacturer's instruction manuals for NGS instruments.
+• Clinical guidelines for genetic testing of Factor XIII Deficiency.
+• Bioinformatics tools documentation.
+8. REVISION HISTORY
+• Version 1.0: Initial SOP creation.
+9. APPROVALS
+Reviewed and approved by:
+Lab Director/Manager
+Date:
+End of Document

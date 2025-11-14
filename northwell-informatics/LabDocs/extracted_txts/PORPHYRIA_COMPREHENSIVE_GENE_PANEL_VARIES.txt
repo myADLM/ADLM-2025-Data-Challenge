@@ -1,0 +1,111 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for Porphyria Comprehensive Gene Panel,
+Varies
+1. PURPOSE To provide a detailed protocol for the analytical phase
+of generating results for the Porphyria Comprehensive Gene Panel,
+Varies. This includes the procedures for preparation, quality control,
+sequencing, data analysis, and result validation, ensuring accurate
+and reliable diagnostic data for patients.
+2. RESPONSIBILITY Designated laboratory personnel are
+responsible for performing the steps outlined in this procedure. It is
+the responsibility of all staff to adhere to the protocol and report any
+deviations to a supervisor.
+3. DEFINITIONS Porphyria Comprehensive Gene Panel: A diagnostic
+test designed to detect mutations in genes associated with various
+types of porphyria.
+4. EQUIPMENT AND REAGENTS
+• Nucleic acid extraction kit
+• Quantitative PCR (qPCR) machine
+• Next-Generation Sequencing (NGS) platform (e.g., Illumina, Ion
+Torrent)
+• Porphyria gene panel kit (specific to the sequencing platform)
+• Bioinformatics analysis software
+• Analytical instruments and computers with necessary software
+• Quality control materials
+5. SAMPLE PREPARATION
+A. DNA Extraction
+1. Use the nucleic acid extraction kit to extract DNA from the
+clinical specimen.
+2. Measure DNA concentration using Qubit or Nanodrop.
+3. Ensure the DNA purity (A260/A280 ratio between 1.8 and 2.0).
+B. Library Preparation
+1. Follow the protocol specific to the Porphyria gene panel kit.
+2. Fragment the DNA into appropriate sizes if necessary.
+3. Perform end-repair, A-tailing, and adapter ligation.
+4. Amplify the library using PCR (conditions will vary based on the
+kit used).
+C. Quality Control of Libraries
+1. Measure the library concentration using qPCR or Bioanalyzer.
+2. Verify the size distribution using Bioanalyzer or TapeStation.
+6. SEQUENCING
+A. Load Libraries onto Sequencing Platform
+1. Dilute the libraries to the required concentration specified by the
+sequencing platform.
+2. Load the libraries into the sequencer following the
+manufacturer's instructions.
+B. Run Sequencing
+1. Set up the sequencing run parameters based on the
+recommendations for the Porphyria gene panel.
+2. Monitor the run to ensure proper performance.
+7. DATA ANALYSIS
+A. Primary Data Analysis
+1. Upload sequencing data to the analysis software.
+2. Perform base calling and generate FASTQ files.
+3. Assess the quality of reads (e.g., Q30 score, read length).
+B. Secondary Data Analysis
+1. Align reads to the human reference genome.
+2. Identify variants (SNPs, indels) using variant calling software.
+3. Annotate variants with relevant databases (e.g., dbSNP,
+ClinVar).
+C. Tertiary Data Analysis
+1. Interpret variant pathogenicity using ACMG guidelines.
+2. Use bioinformatics tools to predict the impact of detected
+variants on protein function.
+3. Cross-reference variants with known porphyria mutations.
+8. QUALITY CONTROL
+A. Internal Quality Control
+1. Run positive and negative controls with each batch of samples.
+2. Monitor sequence quality indicators (e.g. coverage, depth, base
+quality scores).
+3. If controls fail, troubleshoot and rerun the affected samples.
+B. Proficiency Testing
+1. Participate in external proficiency testing programs if available.
+2. Compare laboratory performance against external benchmarks.
+9. REPORTING RESULTS
+1. Verify the analytical validity of the results.
+2. Double-check all data analysis steps and results interpretation.
+3. Generate a comprehensive report including:
+◦ Detected variants and their clinical significance.
+◦ Methodological notes.
+◦ Limitations of the test.
+4. Review the report with a qualified supervisor or laboratory
+director.
+5. Provide reports to the attending clinician or referring entity.
+10. METHOD LIMITATIONS
+1. This test detects only the mutations in genes included in the
+panel.
+2. The sensitivity and specificity of variant detection are influenced
+by the sequencing depth and quality.
+3. Certain types of genetic mutations (e.g., large deletions,
+duplications) may not be detected by this method.
+11. REFERENCES
+Any related literature, manufacturer's manuals, professional
+guidelines, and databases, including but not limited to:
+• "ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants"
+• Porphyria Gene Panel Kit Insert and Manual
+• NGS Platform Manufacturer’s Handbook
+• Databases: dbSNP, ClinVar, HGMD
+12. DOCUMENTATION AND VERIFICATION
+1. Maintain all records of sample processing, sequencing runs,
+data analysis, and result interpretation.
+2. Document all deviations, corrective actions, and preventive
+measures.
+3. Verify that all SOPS, logs, and manual entries are signed by the
+performing technician and approved by a supervisor.
+Acknowledgment: Prepared by: _______________________ Date:
+______________________________ Reviewed by:
+_______________________ Date:
+______________________________ Approved by:
+_______________________
+Date: ______________________________

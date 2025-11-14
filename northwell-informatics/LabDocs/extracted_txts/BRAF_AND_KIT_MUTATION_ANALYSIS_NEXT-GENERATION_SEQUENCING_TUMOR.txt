@@ -1,0 +1,116 @@
+Standard Operating Procedure for BRAF and KIT Mutation
+Analysis Using Next-Generation Sequencing (NGS), Tumor
+1. PURPOSE: To provide a systematic and standardized method for
+the detection of BRAF and KIT mutations in tumor samples using
+next-generation sequencing (NGS).
+Responsibility: It is the responsibility of designated laboratory
+personnel to perform BRAF and KIT mutation analyses as outlined in
+this procedure. The laboratory supervisor must ensure all staff are
+trained and follow the SOP precisely. Laboratory personnel must
+document all processes accurately and report any problems
+encountered during the procedure to the supervisor.
+2. DEFINITIONS:
+• BRAF: Serine/threonine-protein kinase B-Raf, mutations in which
+are often associated with various cancers.
+• KIT: A receptor tyrosine kinase, mutations in which are related to
+gastrointestinal stromal tumors, melanoma, and other
+malignancies.
+• NGS (Next-Generation Sequencing): A high-throughput method
+to sequence DNA and RNA to detect genetic variants, including
+mutations.
+• Tumor Sample: A biopsy or surgical specimen from a tumor.
+3. PROCEDURE:
+A. Sample Preparation:
+1. Specimen:
+◦ Formalin-fixed paraffin-embedded (FFPE) tissue samples or
+fresh frozen tumor tissue.
+◦ Preferred tumor content should be greater than 50%.
+2. DNA Extraction:
+◦ Use a commercially available DNA extraction kit specifically
+designed for FFPE or fresh frozen tissue.
+◦ Follow the manufacturer’s instructions for DNA extraction.
+◦ Quantify the extracted DNA using spectrophotometry or
+fluorometry.
+◦ Assess DNA quality using gel electrophoresis or a
+bioanalyzer.
+B. Library Preparation:
+1. Target Enrichment:
+◦ Use a commercially available target enrichment kit specific
+for BRAF and KIT mutations.
+◦ Follow the manufacturer's protocol for hybridization-based
+capture of target regions.
+2. Library Construction:
+◦ Fragment the DNA to the desired size (typically 150-200
+bp).
+◦ End-repair and A-tail the fragmented DNA.
+◦ Ligate adapters to the DNA fragments.
+◦ Amplify the library using PCR and purify the amplified
+library.
+C. Sequencing:
+1. Sequencing Platform:
+◦ Load the prepared library onto an NGS platform (e.g.,
+Illumina, Thermo Fisher).
+◦ Use paired-end sequencing with a suitable read length (e.g.,
+2x100 bp).
+2. Run Setup:
+◦ Follow the manufacturer's instructions to load the samples
+and set up the sequencing run.
+◦ Include appropriate positive and negative controls in the
+sequencing run.
+D. Data Analysis:
+1. Quality Control:
+◦ Use bioinformatics tools to assess the quality of sequencing
+reads (e.g. FastQC).
+◦ Perform trimming to remove low-quality bases and adapter
+sequences.
+2. Alignment and Variant Calling:
+◦ Align the sequencing reads to the reference genome using a
+suitable aligner (e.g., BWA, Bowtie2).
+◦ Call variants using appropriate software (e.g., GATK,
+FreeBayes).
+◦ Filter variants based on quality metrics (e.g., read depth,
+variant allele frequency).
+3. Annotation and Interpretation:
+◦ Annotate variants using a variant annotation tool (e.g.,
+ANNOVAR, VEP).
+◦ Interpret the clinical significance of detected mutations using
+relevant databases (e.g., COSMIC, ClinVar).
+E. Reporting Results:
+1. Documentation:
+◦ Prepare a report summarizing the results, including detected
+mutations, their clinical significance, and any potential
+implications for patient management.
+◦ Include details on the methodology, including DNA input
+amount, library preparation, sequencing platform, and
+bioinformatics pipeline used.
+2. Review and Verification:
+◦ Have the report reviewed and verified by a second qualified
+individual.
+◦ Ensure that any discrepancies are reconciled and noted in
+the final report.
+3. Communication:
+◦ Provide the final report to the requesting clinician or
+healthcare provider.
+◦ Ensure any critical findings are communicated promptly.
+F. Quality Control and Validation:
+1. Controls:
+◦ Routinely run positive and negative controls with each batch
+of samples.
+◦ Perform competency testing of laboratory personnel
+annually.
+2. Proficiency Testing:
+◦ Participate in external proficiency testing programs to
+ensure the accuracy and reliability of test results.
+References:
+• Manufacturer’s instructions for DNA extraction and library
+preparation kits.
+• NGS platform user guides.
+• Latest guidelines from relevant professional organizations and
+regulatory agencies (e.g., CAP, CLIA).
+• Relevant scientific literature on BRAF and KIT mutation analysis
+using NGS.
+Conclusion: This SOP ensures the accurate, reliable, and
+standardized detection of BRAF and KIT mutations in tumor samples
+using next-generation sequencing. Adherence to the SOP is essential
+for maintaining high-quality laboratory results and supporting clinical
+decision-making.

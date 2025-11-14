@@ -1,0 +1,880 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K191364
+B Applicant
+Fujimori Kogyo Co., Ltd.
+C Proprietary and Established Names
+Total Thrombus-formation Analysis (T-TAS) 01 System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5700 -
+JOZ Class II Automated Platelet HE - Hematology
+Aggregation System
+II Submission/Device Overview:
+A Purpose for Submission:
+Clearance of a new device
+B Measurand:
+Platelet function
+C Type of Test:
+Platelet aggregation
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+JOZ			Class II	21 CFR 864.5700 -
+Automated Platelet
+Aggregation System			HE - Hematology
+
+--- Page 2 ---
+B Indication(s) for Use:
+The T-TAS 01 Instrument is intended for use with T-TAS reagent chips in the clinical
+laboratory.
+The T-TAS 01 PL chip is intended for use in the clinical laboratory for the analysis of the
+platelet thrombus formation process (primary hemostatic function) in patients age 21 and older
+with a history of conditions associated with impaired primary hemostatic function or use of
+antiplatelet therapy. The test uses BAPA-anticoagulated whole blood specimens to measure
+platelet adhesion to a thrombogenic collagen-coated surface and aggregation, which causes an
+increase in flow pressure inside the PL chip. The test measures primary hemostatic function as
+the area under the pressure-time curve (AUC), with AUC < 260 suggesting abnormal primary
+hemostatic function. Additional testing may be necessary to identify the cause(s) of abnormal
+primary hemostatic function. The test has been evaluated in patients taking antiplatelet therapy,
+in patients with von Willebrand disease, and in patients with Glanzmann’s thrombasthenia. Other
+primary hemostasis disorders have not been evaluated.
+The BAPA tube for T-TAS 01 is intended to be used for the collection, transport, and storage of
+blood specimens for use with the T-TAS 01 system.
+C Special Conditions for Use Statement(s):
+• Rx - For Prescription Use Only
+• Additional testing may be necessary to identify the cause(s) of a primary hemostasis
+defect.
+• The BAPA tube is used for the collection, transport, and storage of blood specimens for
+use with the T-TAS 01 system.
+D Special Instrument Requirements:
+IV Device/System Characteristics:
+A Device Description:
+The T-TAS 01 system is an automated platelet function system. It consists of a tabletop
+instrument controlled by a dedicated PC, a disposable, single-use flow chamber microchip, and
+anticoagulant collection tubes with benzylsulfonyl-D-Arg-Pro-4-amidinobenzylamide (BAPA).
+The PL Chip for T-TAS 01 contains a collagen-coated analytical path consisting of 26
+microcapillary channels.
+B Principle of Operation:
+The assay is performed using BAPA-anticoagulated whole blood samples. BAPA inhibits
+thrombin and factor Xa. During the assay, the blood sample is exposed to arterial shear stresses
+at 1500 s-1 in the presence of a collagen-coated surface, which causes platelet attachment to
+collagen mediated by von Willebrand factor (vWF) and platelet activation. Platelet activation
+causes the release of endogenous factors that recruit and activate other platelets and cause
+aggregation, or platelet thrombus formation (PTF) and growth.
+K191364 - Page 2 of 14
+
+--- Page 3 ---
+PTF causes occlusion of the microcapillary channels, which increases the flow pressure within
+the assay chip. The process of PTF in the flow chamber is continuously monitored by a pressure
+sensor that tracks pressure changes in the flow path. After the start button is pressed, the blood
+sample is injected into the chip at a high flow rate for the purpose of moving blood samples into
+the chip and past the microcapillaries without creating air bubbles. After the initial step, the
+assay begins, using a set flow rate. The flow pressure readings subtract the base pressure and are
+plotted in the pressure waveform graph. The assay is completed at 10 minutes or when the
+occlusion pressure reaches 60 kPa, whichever occurs first. The area under the flow pressure
+curve (AUC) over 10 minutes is automatically calculated. The end users will see the pressure
+waveform graph and the AUC results.
+AUC results less than 260 are associated with abnormal primary hemostasis.
+C Instrument Description Information:
+Modes of Operation Yes No
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Software
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.
+1. Instrument Name:
+T-TAS 01 Instrument
+2. Specimen Identification:
+Specimen identification is performed by use of a barcode scanner or manually typing the
+specimen information.
+3. Specimen Sampling and Handling:
+• The T-TAS 01 system uses BAPA-anticoagulated whole blood freshly collected with a
+21 gauge or larger-bore needle.
+• The whole blood is mixed with anticoagulant by gently inverting the tube 5 times.
+• The whole blood sample should be incubated upright at room temperature for 30 minutes
+prior to testing.
+• Blood samples should be measured between 30 minutes to 6 hours after collection.
+• Specimens should be transported at room temperature and extreme temperatures should
+be avoided
+• Use of pneumatic tube transport systems may cause platelet activation. Such transport
+systems will need to be validated by the laboratory for suitability
+• Avoid using hemolyzed specimens
+K191364 - Page 3 of 14
+
+[Table 1 on page 3]
+	Modes of Operation			Yes			No	
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?								
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?								
+	Software							
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.								
+
+--- Page 4 ---
+4. Calibration:
+All calibration is performed by the manufacturer. There are no calibration activities
+performed by the end-user.
+5. Quality Control:
+The following three types of System Checks (SCs) are automatically performed but focus
+primarily on the functionality of the instrument:
+SC Type Frequency Function
+Simple SC Automatically performed during each Check for pressure leaks
+test inside the pumps. Check the
+solenoid valve, pump and
+tubing.
+Automatic SC Automatically performed every time the Check for pressure leaks
+system is powered on or the PL chip is inside the pumps. Check the
+selected from the measurement screen. solenoid valve, pump and
+tubing.
+Manual SC Monthly (recommended) Check for pressure leaks
+within the overall system,
+including the tubing from
+the pumps to the nozzles.
+Testing of blood samples from a normal healthy donor is needed to confirm reagent integrity
+and performance of the PL chip. It is recommended to test a control donor blood sample in
+duplicate with each new shipment of PL chips received or to verify the performance of the
+system.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Dade PFA-100 Platelet Function Analyzer and Dade PFA-100 Reagents
+B Predicate 510(k) Number(s):
+K060489
+C Comparison with Predicate(s):
+Device & Predicate
+K191364 K060489
+Device(s):
+Dade® PFA-100®
+Total Thrombus- Platelet Function
+Device Trade Name formation Analysis (T- Analyzer
+TAS) 01 System Dade® PFA-100®
+Reagents
+K191364 - Page 4 of 14
+
+[Table 1 on page 4]
+	SC Type			Frequency			Function	
+Simple SC			Automatically performed during each
+test			Check for pressure leaks
+inside the pumps. Check the
+solenoid valve, pump and
+tubing.		
+Automatic SC			Automatically performed every time the
+system is powered on or the PL chip is
+selected from the measurement screen.			Check for pressure leaks
+inside the pumps. Check the
+solenoid valve, pump and
+tubing.		
+Manual SC			Monthly (recommended)			Check for pressure leaks
+within the overall system,
+including the tubing from
+the pumps to the nozzles.		
+
+[Table 2 on page 4]
+	Device & Predicate		K191364	K060489
+	Device(s):			
+
+[Table 3 on page 4]
+Dade® PFA-100®
+Platelet Function
+Analyzer
+Dade® PFA-100®
+Reagents
+
+--- Page 5 ---
+Device & Predicate
+K191364 K060489
+Device(s):
+General Device
+Characteristic Similarities
+The T-TAS 01
+Instrument is intended
+for use with T-TAS
+reagent chips in the
+clinical laboratory.
+The T-TAS 01 PL chip
+is intended for use in
+the clinical laboratory
+for the analysis of the
+platelet thrombus
+formation process
+(primary hemostatic
+function) in patients age
+21 and older with a
+history of conditions
+associated with
+The Dade® PFA-100®
+impaired primary
+Platelet Function
+hemostatic function or
+Analyzer and Dade®
+use of antiplatelet
+PFA-100® Reagents
+therapy. The test uses
+are in vitro diagnostic
+Intended Use/Indications BAPA-anticoagulated
+devices intended to aid
+For Use whole blood specimens
+in the detection of
+to measure platelet
+platelet dysfunction in
+adhesion to a
+citrated human whole
+thrombogenic collagen-
+blood.
+coated surface and
+aggregation, which
+causes an increase in
+flow pressure inside the
+PL chip. The test
+measures primary
+hemostatic function as
+the area under the
+pressure-time curve
+(AUC), with AUC <
+260 suggesting
+abnormal primary
+hemostatic function.
+Additional testing may
+be necessary to identify
+the cause(s) of
+abnormal primary
+hemostatic function.
+K191364 - Page 5 of 14
+
+[Table 1 on page 5]
+	Device & Predicate		K191364	K060489
+	Device(s):			
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			The T-TAS 01
+Instrument is intended
+for use with T-TAS
+reagent chips in the
+clinical laboratory.
+The T-TAS 01 PL chip
+is intended for use in
+the clinical laboratory
+for the analysis of the
+platelet thrombus
+formation process
+(primary hemostatic
+function) in patients age
+21 and older with a
+history of conditions
+associated with
+impaired primary
+hemostatic function or
+use of antiplatelet
+therapy. The test uses
+BAPA-anticoagulated
+whole blood specimens
+to measure platelet
+adhesion to a
+thrombogenic collagen-
+coated surface and
+aggregation, which
+causes an increase in
+flow pressure inside the
+PL chip. The test
+measures primary
+hemostatic function as
+the area under the
+pressure-time curve
+(AUC), with AUC <
+260 suggesting
+abnormal primary
+hemostatic function.
+Additional testing may
+be necessary to identify
+the cause(s) of
+abnormal primary
+hemostatic function.	The Dade® PFA-100®
+Platelet Function
+Analyzer and Dade®
+PFA-100® Reagents
+are in vitro diagnostic
+devices intended to aid
+in the detection of
+platelet dysfunction in
+citrated human whole
+blood.
+
+--- Page 6 ---
+Device & Predicate
+K191364 K060489
+Device(s):
+The test has been
+evaluated in patients
+taking antiplatelet
+therapy, in patients with
+von Willebrand disease,
+and in patients with
+Glanzmann’s
+thrombasthenia. Other
+primary hemostasis
+disorders have not been
+evaluated.
+The BAPA tube for T-
+TAS 01 is intended to
+be used for the
+collection, transport,
+and storage of blood
+specimens for use with
+the T-TAS 01 system.
+Platelet Adhesion Matrix Collagen Same
+Calibration Factory calibrated Same
+Self-test performed at
+Internal Quality Control least once per shift at Same
+the start of each shift
+External quality control
+External Quality Control uses known control Same
+donor blood samples
+Assay Temperature 36˚C 37.9 ± 1˚C
+Chip/Cartridge Warm-up
+Time in Instrument Prior to Same < 2.5 minutes
+Assay
+Recommended Operating 68˚F to 86˚F 64˚F to 90˚F
+Temperature (20˚C to 30˚C) (18˚C to 29˚C)
+General Device
+Characteristic Differences
+Buffered sodium
+BAPA-anticoagulated
+Specimen Type citrate-anticoagulated
+whole blood
+whole blood
+Measures integrated Measures time required
+area under the curve of for platelets to adhere
+pressure over time as and aggregate, resulting
+Detection Principle
+platelets adhere to a in occlusion of an
+thrombogenic surface aperture under high
+under high shear flow shear flow conditions.
+K191364 - Page 6 of 14
+
+[Table 1 on page 6]
+	Device & Predicate		K191364	K060489
+	Device(s):			
+			The test has been
+evaluated in patients
+taking antiplatelet
+therapy, in patients with
+von Willebrand disease,
+and in patients with
+Glanzmann’s
+thrombasthenia. Other
+primary hemostasis
+disorders have not been
+evaluated.
+The BAPA tube for T-
+TAS 01 is intended to
+be used for the
+collection, transport,
+and storage of blood
+specimens for use with
+the T-TAS 01 system.	
+Platelet Adhesion Matrix			Collagen	Same
+Calibration			Factory calibrated	Same
+Internal Quality Control			Self-test performed at
+least once per shift at
+the start of each shift	Same
+External Quality Control			External quality control
+uses known control
+donor blood samples	Same
+Assay Temperature			36˚C	37.9 ± 1˚C
+Chip/Cartridge Warm-up
+Time in Instrument Prior to
+Assay			Same	< 2.5 minutes
+Recommended Operating
+Temperature			68˚F to 86˚F
+(20˚C to 30˚C)	64˚F to 90˚F
+(18˚C to 29˚C)
+	General Device			
+	Characteristic Differences			
+Specimen Type			BAPA-anticoagulated
+whole blood	Buffered sodium
+citrate-anticoagulated
+whole blood
+Detection Principle			Measures integrated
+area under the curve of
+pressure over time as
+platelets adhere to a
+thrombogenic surface
+under high shear flow	Measures time required
+for platelets to adhere
+and aggregate, resulting
+in occlusion of an
+aperture under high
+shear flow conditions.
+
+--- Page 7 ---
+Device & Predicate
+K191364 K060489
+Device(s):
+conditions.
+Soluble exogenous
+vWF-mediated binding agonist (epinephrine) +
+Mechanism of Platelet
+to collagen at high shear vWF-mediated binding
+Activation
+rate to collagen at high shear
+rate
+Shear Rate During Assay 1500 s-1 5000 s-1
+Other Reagents Necessary
+Mineral oil Trigger solution
+for Assay
+300–330 µL (320 µL
+Sample Volume 800 µL
+recommended)
+Sample Incubation Time 30 minutes at room 15 minutes at room
+Prior to Assay temperature temperature
+Maximum Allowable
+6 hours at room 4 hours at room
+Sample Stability Time Prior
+temperature temperature
+to Assay
+Assay Units AUC Closure time (seconds)
+Recommended Cutoff AUC < 260 > 170 seconds
+AUC ≥ 260 indicates
+the overall primary
+hemostatic function is
+normal.
+Closure time > 170
+AUC < 260 is
+seconds is considered
+Interpretation of Result considered abnormal
+abnormal and indicates
+and indicates impaired
+platelet dysfunction
+primary hemostatic
+function (reduced
+platelet thrombus
+formation).
+VI Standards/Guidance Documents Referenced:
+CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline – Third Edition
+CLSI EP07-A2, Interference Testing in Clinical Chemistry; Approved Guideline – Second
+Edition
+CLSI EP28-A3c, Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory; Approved Guideline – Third Edition
+CLSI EP25-A, Evaluation of Stability of In Vitro Diagnostic Reagents; Approved Guideline
+K191364 - Page 7 of 14
+
+[Table 1 on page 7]
+	Device & Predicate		K191364	K060489
+	Device(s):			
+			conditions.	
+Mechanism of Platelet
+Activation			vWF-mediated binding
+to collagen at high shear
+rate	Soluble exogenous
+agonist (epinephrine) +
+vWF-mediated binding
+to collagen at high shear
+rate
+Shear Rate During Assay			1500 s-1	5000 s-1
+Other Reagents Necessary
+for Assay			Mineral oil	Trigger solution
+Sample Volume			300–330 µL (320 µL
+recommended)	800 µL
+Sample Incubation Time
+Prior to Assay			30 minutes at room
+temperature	15 minutes at room
+temperature
+Maximum Allowable
+Sample Stability Time Prior
+to Assay			6 hours at room
+temperature	4 hours at room
+temperature
+Assay Units			AUC	Closure time (seconds)
+Recommended Cutoff			AUC < 260	> 170 seconds
+Interpretation of Result			AUC ≥ 260 indicates
+the overall primary
+hemostatic function is
+normal.
+AUC < 260 is
+considered abnormal
+and indicates impaired
+primary hemostatic
+function (reduced
+platelet thrombus
+formation).	Closure time > 170
+seconds is considered
+abnormal and indicates
+platelet dysfunction
+
+--- Page 8 ---
+CLSI GP34-A, Validation and Verification of Tubes for Venous and Capillary Blood Specimen
+Collection; Approved Guidance
+ISO 14971, Medical devices – Applications of Risk Management to Medical Devices
+CLSI GP39-A6, Tubes and Additives for Venous and Capillary Blood Specimen Collection;
+Approved Standard – Sixth Edition
+EN 61326-1, Electrical equipment for measurement, control, and laboratory use – EMC
+requirements – Part 1: General requirements
+EN 61326-2-6, Electrical equipment for measurement, control, and laboratory use – EMC
+requirements – Part 2-6: Particular requirements for in vitro diagnostic (IVD) medical equipment
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision:
+a. Repeatability Study
+The repeatability study was performed at a single laboratory. Three unique venous blood
+samples representing different AUC levels (low, middle, high) were tested on either two
+of the three T-TAS 01 instruments. A normal donor provided the sample with normal
+primary hemostatic ability (high). Two donors taking aspirin provided specimens with
+primary hemostatic ability around the assay cutoff (middle) and abnormal primary
+hemostatic ability (low). Each sample was analyzed in duplicate on three PL chip lots and
+two T-TAS 01 instruments by three different trained operators. The results met the pre-
+defined acceptance criteria.
+Operator A B C
+T-TAS 01
+4 5 5 6 4 6
+instrument
+PL chip lot 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3
+Replicate AB AB AB AB AB AB AB AB AB AB AB AB AB AB AB AB AB AB
+Between- Between-
+Within-Run Between-Lot Total
+Sample N Mean Operator Instrument
+(SD, %CV) (SD, %CV) (SD, %CV)
+(SD, %CV) (SD, %CV)
+High 36 428.1 10.7, 2.5 2.0, 0.5 4.7, 1.1 1.6, 0.4 11.9, 2.8
+Middle 36 237.3 31.7, 13.4 6.4, 2.7 10.5, 4.4 0.0, 0.0 34.0, 14.3
+Low 36 130.7 18.4, 14.1 11.8, 9.0 13.5, 10.3 0.0, 0.0 25.7, 19.6
+b. Reproducibility
+The reproducibility study was conducted at three sites over five days. At each site, four
+unique whole blood samples were tested in five duplicate measurements with one PL
+K191364 - Page 8 of 14
+
+[Table 1 on page 8]
+Operator	A						B						C					
+T-TAS 01
+instrument	4			5			5			6			4			6		
+PL chip lot	1	2	3	1	2	3	1	2	3	1	2	3	1	2	3	1	2	3
+Replicate	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB	AB
+
+[Table 2 on page 8]
+		Mean	Within-Run
+(SD, %CV)	Between-	Between-Lot
+(SD, %CV)	Between-	Total
+(SD, %CV)
+Sample	N			Operator		Instrument	
+				(SD, %CV)		(SD, %CV)	
+High	36	428.1	10.7, 2.5	2.0, 0.5	4.7, 1.1	1.6, 0.4	11.9, 2.8
+Middle	36	237.3	31.7, 13.4	6.4, 2.7	10.5, 4.4	0.0, 0.0	34.0, 14.3
+Low	36	130.7	18.4, 14.1	11.8, 9.0	13.5, 10.3	0.0, 0.0	25.7, 19.6
+
+--- Page 9 ---
+chip lot and one T-TAS 01 instrument. The four donor types used in the study are as
+follows, considering inter-individual variability in response to aspirin:
+Donor AUC Result Category Aspirin Use Aspirin Response
+(AUC < 260 = Abnormal)
+1 Normal No N/A
+2 Normal Yes Poor Response
+3 High Abnormal Yes Medium Response
+4 Low Abnormal Yes High Response
+The study evaluated the within-run and between-day precision. Since different donors
+were recruited at each site for the precision study, results were not pooled across days or
+donors due to natural inter- and intra-individual variability in response to aspirin. The
+pre-defined acceptance criteria were. All results met the pre-defined acceptance criteria.
+Site 1:
+Within-Run Between-Day Total
+Donor N Mean
+(SD, %CV) (SD, %CV) (SD, %CV)
+1 25 413.4 12.8, 3.1 16.7, 4.0 21.1, 5.1
+2 25 366.5 25.8, 7.7 0.0, 0.0 25.8, 7.7
+3 25 140.8 23.9, 17.0 27.9, 19.8 36.7, 26.1
+4 25 50.0 15.2, 30.3 12.9, 25.9 19.9, 39.9
+Site 2:
+Within-Run Between-Day Total
+Donor N Mean
+(SD, %CV) (SD, %CV) (SD, %CV)
+1 25 417.7 20.0, 4.8 13.1, 3.1 23.9, 5.7
+2 25 347.5 27.5, 7.9 10.7, 3.1 29.5, 8.5
+3 25 176.0 26.0, 14.8 21.9, 12.5 34.0, 19.3
+4 25 78.4 22.7, 29.0 20.8, 26.5 30.8, 39.3
+Site 3:
+Within-Run Between-Day Total
+Donor N Mean
+(SD, %CV) (SD, %CV) (SD, %CV)
+1 25 411.1 11.9, 2.9 10.0, 2.4 15.5, 3.8
+2 25 336.4 20.2, 6.0 23.2, 6.9 30.7, 9.1
+3 25 162.6 28.9, 17.7 3.6, 2.2 29.1, 17.9
+4 25 54.6 10.2, 18.7 13.6, 24.8 17.0, 31.1
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+The interference studies were conducted to determine whether various substances commonly
+encountered in the intended use population affect the T-TAS 01 PL assay results. The
+analytical specificity for the T-TAS 01 PL assay was determined by spiking venous whole
+K191364 - Page 9 of 14
+
+[Table 1 on page 9]
+Donor		AUC Result Category		Aspirin Use	Aspirin Response
+		(AUC < 260 = Abnormal)			
+1	Normal			No	N/A
+2	Normal			Yes	Poor Response
+3	High Abnormal			Yes	Medium Response
+4	Low Abnormal			Yes	High Response
+
+[Table 2 on page 9]
+Donor	N	Mean		Within-Run			Between-Day			Total	
+				(SD, %CV)			(SD, %CV)			(SD, %CV)	
+1	25	413.4	12.8, 3.1			16.7, 4.0			21.1, 5.1		
+2	25	366.5	25.8, 7.7			0.0, 0.0			25.8, 7.7		
+3	25	140.8	23.9, 17.0			27.9, 19.8			36.7, 26.1		
+4	25	50.0	15.2, 30.3			12.9, 25.9			19.9, 39.9		
+
+[Table 3 on page 9]
+Donor	N	Mean		Within-Run			Between-Day			Total	
+				(SD, %CV)			(SD, %CV)			(SD, %CV)	
+1	25	417.7	20.0, 4.8			13.1, 3.1			23.9, 5.7		
+2	25	347.5	27.5, 7.9			10.7, 3.1			29.5, 8.5		
+3	25	176.0	26.0, 14.8			21.9, 12.5			34.0, 19.3		
+4	25	78.4	22.7, 29.0			20.8, 26.5			30.8, 39.3		
+
+[Table 4 on page 9]
+Donor	N	Mean		Within-Run			Between-Day			Total	
+				(SD, %CV)			(SD, %CV)			(SD, %CV)	
+1	25	411.1	11.9, 2.9			10.0, 2.4			15.5, 3.8		
+2	25	336.4	20.2, 6.0			23.2, 6.9			30.7, 9.1		
+3	25	162.6	28.9, 17.7			3.6, 2.2			29.1, 17.9		
+4	25	54.6	10.2, 18.7			13.6, 24.8			17.0, 31.1		
+
+--- Page 10 ---
+blood samples taken from a normal donor (AUC ≥ 260) and a donor taking aspirin (AUC <
+260). There were at least four replicate measurements for each control and test blood sample.
+The following endogenous and exogenous interfering substances were evaluated and showed
+no significant interference up to the specified concentration in the venous whole blood
+samples collected in the BAPA tubes.
+Compound Concentration Compound Concentration
+Acetaminophen 7.8 mg/dL Heparin 525 U/mL
+Bilirubin 40 mg/dL L-Thyroxine 0.0858 mg/dL
+Caffeine 21.6 mg/dL Metformin 2.4 mg/dL
+Captopril 0.528 mg/dL Omeprazole 1.68 mg/dL
+Catechin 5 mg/dL Pravastatin 0.414 mg/dL
+Cilostazol 1.25 mg/dL Propranolol 0.202 mg/dL
+Dabigatran 0.047 mg/dL Rivaroxaban 0.044 mg/dL
+Dextran 40 2400 mg/dL Streptokinase 50,000 U/dL
+Diltiazem 0.18 mg/dL Theophylline 6 mg/dL
+Dipyridamole 0.25 mg/dL Triglycerides 750 mg/dL
+Fish Oil 25.6 mg/dL Warfarin 7.5 mg/dL
+Ibuprofen 0.438 mg/dL
+Cilostazol, dipyridamole, ibuprofen and tirofiban are known to reduce platelet activity in a
+dose-dependent manner. The maximum tirofiban concentration without interference was not
+determined.
+Hemolysis significantly affects assay AUC results due to shear-induced platelet activation
+and aggregation. Therefore, a statement is included in the package insert to alert the user not
+to use hemolyzed specimens when performing the T-TAS 01 PL assay.
+There was no significant hemodilution effect on AUC results up to 20%.
+There was no significant effect of under-filling the BAPA blood collection tube on AUC
+results up to 50%.
+4. Assay Reportable Range:
+The reportable range and the analytical measurement range for the T-TAS 01 assay were
+determined upon the range of clinical samples as 0.3–467.7. However, the numeric output of
+the PL assay has not been evaluated for correlation to disease severity.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+a. Shelf Life/Stability
+i. Reagent stability for T-TAS 01 PL chip
+Open-pouch stability studies were isochronously performed to characterize the
+stability of PL chips following removal from the sealed pouch and storage at ambient
+temperature. Venous whole blood samples were collected from a single healthy donor
+K191364 - Page 10 of 14
+
+[Table 1 on page 10]
+	Compound			Concentration			Compound			Concentration	
+Acetaminophen			7.8 mg/dL			Heparin			525 U/mL		
+Bilirubin			40 mg/dL			L-Thyroxine			0.0858 mg/dL		
+Caffeine			21.6 mg/dL			Metformin			2.4 mg/dL		
+Captopril			0.528 mg/dL			Omeprazole			1.68 mg/dL		
+Catechin			5 mg/dL			Pravastatin			0.414 mg/dL		
+Cilostazol			1.25 mg/dL			Propranolol			0.202 mg/dL		
+Dabigatran			0.047 mg/dL			Rivaroxaban			0.044 mg/dL		
+Dextran 40			2400 mg/dL			Streptokinase			50,000 U/dL		
+Diltiazem			0.18 mg/dL			Theophylline			6 mg/dL		
+Dipyridamole			0.25 mg/dL			Triglycerides			750 mg/dL		
+Fish Oil			25.6 mg/dL			Warfarin			7.5 mg/dL		
+Ibuprofen			0.438 mg/dL								
+
+--- Page 11 ---
+with normal primary hemostatic ability into BAPA-anticoagulated tubes. Three PL
+chip lots were tested and two PL chips from each lot were removed from their
+pouches and stored at ambient temperature for the following durations prior to
+testing: <5 minutes, 4 hour, 6 hours, 8 hours and 10 hours. Each chip was tested with
+normal donor blood in quadruplicate. The “<5 minute” condition serves as the control
+condition for comparison. The data support a stability claim of up to 8 hours at
+ambient temperature after PL chip removal from the pouch.
+Closed-pouch stability studies were isochronously performed to characterize the
+stability of PL chips when stored in sealed pouches under refrigeration (2–8˚C).
+Venous whole blood samples were collected into BAPA-anticoagulated tubes from
+two healthy donors with normal primary hemostatic ability and a native donor with
+abnormal AUC result. Three PL chip lots were tested. Two PL chips from each lot
+were tested following the tested storage condition at the following durations after
+their manufacture: 0–13 months. Each chip was tested with each blood sample in
+quadruplicate. The control condition was a fresh PL chip lot that was newly
+manufactured prior to the testing timepoint. The data support a stability claim of 12
+months when stored at 2–8˚C.
+ii. Blood sample stability
+The stability of BAPA-anticoagulated blood specimens stored at room temperature
+was tested by collecting venous whole blood samples from two healthy normal
+donors and two subjects taking aspirin with abnormal primary hemostatic function.
+Blood samples were stored upright at room temperature for 30 minutes, 1 hour, 2
+hours, 4 hours, 6 hours, 8 hours, and 24 hours prior to testing. Three T-TAS 01
+instruments and one lot of PL chips were used in the test. Six replicate measurements
+were performed for each tested time point. The control condition was established as
+30 minutes after sample collection. Results were averaged prior to analysis. Each
+condition was compared to the control condition by calculating the % of control for
+the average of the replicates. The results demonstrate that BAPA-anticoagulated
+venous blood samples are stable for up to 6 hours after collection.
+6. Detection Limit:
+Not applicable
+7. Assay Cut-Off:
+The T-TAS PL 01 assay cut off (AUC < 260) was established in a group of 122 apparently
+healthy adults (34 females, 88 males, ages 20–45). The recruited participants did not take
+antiplatelet or nonsteroidal anti-inflammatory drugs (NSAID). They did not have any history
+of significant bleeding or diagnosis of a primary hemostatic abnormality.
+8. Accuracy (Instrument):
+Not applicable
+9. Carry-Over:
+K191364 - Page 11 of 14
+
+--- Page 12 ---
+Not applicable
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+The method comparison study was performed to compare the performance of T-TAS 01 PL
+assay to the predicate device PFA-100 assay. Both assays evaluated 25 patients with vWD
+and three patients with GT. The predicate device involves the measurement of the
+collagen/epinephrine (Col/Epi) cartridge and collagen/ADP (Col/ADP) cartridge. The result
+interpretation was according to the PFA-100 test cartridge package insert. The following
+table demonstrates the percent positive, percent negative and overall agreement between the
+T-TAS 01 PL assay and the PFA-100 assay for the vWD and GT patients.
+Subject Type N Percent Positive Percent Negative Overall Agreement
+Agreement Agreement (95% CI)
+(95% CI) (95% CI)
+vWD 25 72% 100.0% 88%
+(51–88%) (40–100%) (69– 97%)
+GT 3 100% 100%
+N/A
+(43.9–100.0%) (43.9–100.0%)
+2. Matrix Comparison:
+Not applicable
+C Clinical Studies:
+1. Clinical Sensitivity:
+Six investigational sites recruited 142 healthy subjects, 57 patients on aspirin (81-mg ASA)
+monotherapy, 47 subjects taking dual antiplatelet therapy (18 subjects on clopidogrel and
+ASA, 15 subjects on prasugrel and ASA, and 14 subjects on ticagrelor and ASA), 25 vWD
+patients and three GT patients. Among vWD patients, there were 12 patients with Type 1, 10
+patients with Type 2 and three patients with Type 3. The study was to evaluate the sensitivity
+and specificity of the T-TAS 01 PL assay to detect conditions associated with the abnormal
+primary hemostatic function. At each investigational site, blood samples were tested in
+duplicate using BAPA-anticoagulated whole blood samples. Measurements were performed
+within four hours of sample collection. The first measurement was used for the data analysis.
+The following table provides a summary for each subject group.
+Parameter N Value 95% CI
+Sensitivity (ASA) 57 68.4% 55.5-79.0%
+Sensitivity (clopidogrel + ASA DAPT) 18 100.0% 81.5-100.0%
+Sensitivity (prasugrel + ASA DAPT) 15 100.0% 78.2-100.0%
+Sensitivity (ticagrelor + ASA DAPT) 14 100.0% 76.8-100.0%
+Sensitivity (vWD) 25 72.0% 51–88%
+K191364 - Page 12 of 14
+
+[Table 1 on page 12]
+Subject Type	N		Percent Positive			Percent Negative		Overall Agreement
+(95% CI)
+			Agreement			Agreement		
+			(95% CI)			(95% CI)		
+vWD	25	72%
+(51–88%)			100.0%
+(40–100%)			88%
+(69– 97%)
+GT	3	100%
+(43.9–100.0%)			N/A			100%
+(43.9–100.0%)
+
+[Table 2 on page 12]
+Overall Agreement
+(95% CI)
+
+[Table 3 on page 12]
+	Parameter		N			Value			95% CI	
+Sensitivity (ASA)			57		68.4%			55.5-79.0%		
+Sensitivity (clopidogrel + ASA DAPT)			18		100.0%			81.5-100.0%		
+Sensitivity (prasugrel + ASA DAPT)			15		100.0%			78.2-100.0%		
+Sensitivity (ticagrelor + ASA DAPT)			14		100.0%			76.8-100.0%		
+Sensitivity (vWD)			25		72.0%			51–88%		
+
+--- Page 13 ---
+Parameter N Value 95% CI
+Sensitivity (GT) 3 100.0% 43.9-100%
+Negative agreement (healthy) 142 95.8% 91.1–98.0 %
+2. Clinical Specificity:
+See Clinical Sensitivity above.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Not applicable
+D Clinical Cut-Off:
+Not applicable
+E Expected Values/Reference Range:
+Three clinical sites recruited 142 healthy adult subjects to establish the reference range for the T-
+TAS 01 PL assay. At each testing site, blood samples were tested in duplicate using BAPA-
+anticoagulated whole blood samples. Measurements were performed within four hours of sample
+collection. The first measurement was used for the data analysis. The central 90% reference
+interval is 270.0–447.7. Measurements from a separate group of 20 healthy subjects validated the
+established reference interval (302.5–429.1).
+F Other Supportive Instrument Performance Characteristics Data:
+1. BAPA blood collection tube validation
+a. BAPA tube vacuum performance
+The BAPA tube vacuum performance was conducted to demonstrate the stability of the
+tube vacuum at ambient temperature. BAPA tubes from three production lots were stored
+at room temperature. The tube vacuum was measured by allowing the tube to fill with
+water, measuring the weight of the water inside the tube and converting the weight
+(gram) to volume (mL). Five replicate measurements were performed for each condition.
+The study is on-going. Current results support the vacuum present in the BAPA tube for
+T-TAS 01 is stable for 10 months.
+b. BAPA tube anticoagulant fill
+The BAPA tube anticoagulant fill study was conducted to determine the consistency of
+BAPA anticoagulant added to the BAPA tube for the T-TAS 01 system. Three lots of the
+BAPA tubes were used and ten replicate measurements were performed for each lot. The
+results demonstrated that the amount of BAPA anticoagulant added to the BAPA tube for
+the T-TAS 01 system is consistent.
+c. Sterilization
+K191364 - Page 13 of 14
+
+[Table 1 on page 13]
+	Parameter			N			Value			95% CI	
+Sensitivity (GT)			3			100.0%			43.9-100%		
+Negative agreement (healthy)			142			95.8%			91.1–98.0 %		
+
+--- Page 14 ---
+The BAPA tube was sterilized by gamma irradiation. Sterilization validation was
+conducted and concluded that there is a 1 in 1,000,000 possibility that the product is not
+sterile.
+d. Transportation stress test
+Transport stress test was conducted to demonstrate the stability of BAPA tubes after
+transportation. The randomly selected samples were put on the oscillation device for
+three days (frequency at 150 times/min) to simulate the bumping situation in
+transportation. The device was also exposed to high temperature (40˚C) and high
+humidity (80% relative humidity) for 30 days. The test results support the stability of
+BAPA tubes after transportation.
+2. Restriction of Hazardous Substances Directive (RoHS)
+The following substances in the T-TAS 01 do not exceed any threshold as set forth by the
+RoHS directive: cadmium, hexavalent chromium, lead, mercury, polybrominated biphenyls,
+polybrominated diphenyl ethers
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K191364 - Page 14 of 14

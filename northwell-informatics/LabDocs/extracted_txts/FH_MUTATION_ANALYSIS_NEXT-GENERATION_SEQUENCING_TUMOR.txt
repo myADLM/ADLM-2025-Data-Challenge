@@ -1,0 +1,118 @@
+Standard Operating Procedure (SOP) for FH Mutation
+Analysis using Next-Generation Sequencing (NGS) for
+Tumor Samples
+1. PURPOSE
+The purpose of this SOP is to outline the procedures for the analytical
+phase of generating results for FH (Fumarate Hydratase) mutation
+analysis using Next-Generation Sequencing (NGS) in tumor samples.
+This protocol ensures the accurate, precise, and timely detection of
+FH mutations for diagnosis, prognosis, and therapeutic decision-
+making in patients with suspected hereditary leiomyomatosis and
+renal cell carcinoma (HLRCC) syndrome.
+2. RESPONSIBILITY
+• The Laboratory Director oversees the implementation and
+compliance with the SOP.
+• Laboratory Technologists/Scientists are responsible for performing
+the analytical procedures as described and documenting all
+actions and observations.
+• The Quality Control (QC) Officer ensures adherence to quality
+assurance standards and monitors QC procedures.
+3. SPECIMEN REQUIREMENTS
+Sample Types:
+• Formalin-Fixed Paraffin-Embedded (FFPE) tumor tissue.
+• Fresh frozen tumor tissue.
+Volume:
+• Minimum of 5-10 sections of 5-10 micrometer FFPE tissue slices,
+or 20-50 mg of fresh frozen tissue.
+4. EQUIPMENT, REAGENTS, AND SUPPLIES
+Equipment:
+• Microtome
+• DNA extraction kit suitable for FFPE or fresh frozen tissue (e.g.,
+QIAGEN DNA FFPE Tissue Kit)
+• Quantification instruments (e.g., NanoDrop, Qubit)
+• NGS platform (e.g., Illumina MiSeq, NextSeq)
+• Thermal cycler for PCR
+• Bioanalyzer or TapeStation for DNA quality assessment
+Reagents:
+• DNA extraction kit reagents (buffers, enzymes)
+• PCR primers specific for FH gene
+• NGS library preparation kit
+• Sequencing reagents specific to the chosen NGS platform
+• QC standards for quality control (e.g., Human gDNA)
+Supplies:
+• RNase-free water
+• Nuclease-free tubes and pipette tips
+• Ethanol for DNA precipitation
+• Sequencing consumables (flow cells, reagent cartridges)
+5. PROCEDURE
+5.1. DNA Extraction
+1. FFPE Tissue:
+◦ Deparaffinize FFPE sections using a xylene-ethanol series
+or manufacturer’s instructions.
+◦ Follow the DNA extraction kit protocol to isolate DNA from
+deparaffinized sections.
+2. Fresh Frozen Tissue:
+◦ Follow the DNA extraction kit protocol to isolate DNA from
+fresh frozen tumor tissue.
+3. DNA Quantification and Quality Check:
+◦ Quantify the extracted DNA using NanoDrop or Qubit,
+ensuring a minimum yield of 500 ng.
+◦ Assess DNA integrity using Bioanalyzer or TapeStation to
+confirm DNA quality suitable for NGS.
+5.2. PCR Amplification (If necessary)
+• Design and verify primers specific to the FH gene regions of
+interest.
+• Perform PCR amplification of target regions under optimal cycling
+conditions.
+• Purify PCR products using appropriate purification kits.
+5.3. Library Preparation
+• Prepare sequencing libraries using the NGS library preparation kit
+according to the manufacturer’s protocol.
+• Include steps for end-repair, A-tailing, adapter ligation, and
+enrichment PCR.
+• Assess library quality and size distribution using Bioanalyzer or
+TapeStation.
+5.4. Sequencing
+1. Library Normalization and Pooling:
+◦ Quantify libraries and normalize to required concentration.
+◦ Pool libraries if running multiple samples.
+2. Load Libraries onto NGS Platform:
+◦ Load appropriately pooled libraries onto the NGS platform.
+◦ Set up sequencing run according to the manufacturer’s
+instructions.
+5.5. Data Analysis
+1. Quality Control Checking:
+◦ Utilize bioinformatics software tools to assess raw
+sequencing data quality (e.g., FastQC).
+◦ Filter out low-quality reads and adapters using appropriate
+software.
+2. Alignment and Variant Calling:
+◦ Align filtered reads to the reference human genome (e.g.,
+hg19 or hg38) using aligners like BWA or Bowtie2.
+◦ Perform variant calling using software tools like GATK or
+VarScan.
+3. Annotation and Interpretation:
+◦ Annotate identified variants using variant annotation tools
+(e.g., ANNOVAR, SnpEff).
+◦ Interpret the detected FH mutations based on variant
+databases (e.g., ClinVar, COSMIC) and current literature.
+5.6. Reporting Results
+• Document findings in the Laboratory Information System (LIS).
+• Review and interpret results according to the clinical context.
+• Generate and issue a comprehensive report to the referring
+clinician, detailing mutation type, zygosity, clinical relevance, and
+recommended follow-up actions.
+6. QUALITY CONTROL
+• Include positive and negative controls throughout the process.
+• Perform bi-weekly and monthly QC checks as described in the
+relevant QC section.
+• Log and review QC data regularly to ensure consistency and
+reliability.
+7. REFERENCES
+• Manufacturer’s instructions for DNA extraction kits, library
+preparation kits, and NGS platforms.
+• Current literature on FH mutation analysis and HLRCC.
+• Internal laboratory quality assurance guidelines.
+By adhering to this SOP, the laboratory will ensure consistency and
+accuracy in the generation of results for FH mutation analysis using
+Next-Generation Sequencing on tumor samples.

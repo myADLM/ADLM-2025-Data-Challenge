@@ -1,0 +1,155 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number: K052499   
+B. Purpose for Submission: New device(s)   
+C. Measurand: Toxoplasma IgG antibodies & Toxoplasma IgM antibodies   
+D. Type of Test: Chemiluminescence immunoassay   
+E. Applicant: DiaSorin, Inc.   
+F. Proprietary and Established Names: LIAISON® Toxo IgG Assay & LIAISON® Toxo IgM Assay
+
+# G. Regulatory Information:
+
+1. Regulation section: 21CFR 866.3780; Toxoplasma gondii Serological Reagents
+
+2. Classification: Class: II
+
+3. Product code: LGD; Enzyme Linked Immunosorbent Assay, Toxoplasma gondii
+
+4. Panel: 83 Microbiology
+
+# H. Intended Use:
+
+IgG Assay: The LIAISON® Toxo IgG assay uses chemiluminescent immunoassay (CLIA) technology on the LIAISON® Analyzer (Catolog number 15970) for the the qualitative determination of specific $\mathrm { I g \bar { G } }$ antibodies to Toxoplasma gondii in human serum. The results of this assay can be used as an aid in the assessment of the patient’s serological status to infection with Toxoplasma gondii and in the determination of immune status of individuals including pregnant women.
+
+Caution: This assay has not been cleared/approved by the F.D.A for blood/plasma donor screening.
+
+IgM Assay: The DiaSorin LIAISON® Toxo IgM assay uses chemiluminescent immunoassay (CLIA) technology on the LIAISON® Analyzer for the presumptive qualitative determination of IgM antibodies to Toxoplasma gondii in human serum. The LIAISON® Toxo IgM can be used as an aid in the presumptive diagnosis of acute or recent Toxoplasma gondii infection. It is recommended that the LIAISON® Toxo IgM assay be performed in conjunction with a Toxoplasma gondii IgG assay.
+
+Caution: This assay has not been cleared/approved by the F.D.A for blood/plasma donor screening.
+
+# 2. Indication(s) for use:
+
+IgG Assay: The LIAISON® Toxo IgG assay uses chemiluminescent immunoassay (CLIA) technology on the LIAISON® Analyzer (Catolog number 15970) for the the qualitative determination of specific IgG antibodies to Toxoplasma gondii in human serum. The results of this assay can be used as an aid in the assessment of the patient’s serological status to infection with Toxoplasma gondii and in the determination of immune status of individuals including pregnant women.
+
+This assay has not been cleared/approved by the FDA for blood/plasma donor screening.
+
+IgM Assay: The DiaSorin LIAISON® Toxo IgM assay uses chemiluminescent immunoassay (CLIA) technology on the LIAISON® Analyzer for the presumptive qualitative determination of $\mathrm { I g M }$ antibodies to Toxoplasma gondii in human serum. The LIAISON® Toxo IgM can be used as an aid in the presumptive diagnosis of acute or recent Toxoplasma gondii infection. It is recommended that the LIAISON $\textsuperscript { \textregistered }$ Toxo IgM assay be performed in conjunction with a Toxoplasma gondii IgG assay.
+
+This assay has not been cleared/approved by the FDA for blood/plasma donor screening.
+
+3. Special conditions for use statement(s): For prescription use
+
+4. Special instrument requirements: None
+
+# I. Device Description:
+
+IgG Assay: The method for qualitative determination of IgG antibodies to Toxoplasma gondii (anti-Toxo IgG) is an indirect chemiluminescence
+
+immunoassay (CLIA). All assay steps (with the exception of magnetic particle resuspension) and incubations are performed by the LIAISON® Analyzer. The principal components of the test are magnetic particles (solid phase) coated with Toxoplasma gondii and a conjugate of mouse monoclonal antibodies to human IgG linked to an isoluminol derivative (isoluminol-antibody conjugate). During the first incubation, Toxoplasma gondii antibodies present in diluted calibrators, samples or controls bind to the solid phase. During the second incubation, the monoclonal antibody conjugate reacts with anti-Toxo IgG that is already bound to the solid phase. After each incubation, unbound material is removed with a wash cycle. Subsequently, the starter reagents are added and a flash chemiluminescence reaction is thus induced. The light signal and therefore, the amount of isoluminol-antibody conjugate, is measured by a photomultiplier as relative light units (RLU) and is indicative of the presence of anti-Toxo IgG in calibrators, samples or controls.
+
+IgM Assay: The method for qualitative determination of IgM antibodies to Toxoplasma gondii (anti-Toxo IgM) is an antibody capture chemiluminescence immunoassay (CLIA). All assay steps (with the exception of magnetic particle resuspension) and incubations are performed by the LIAISON® Analyzer. The principal components of the test are magnetic particles (solid phase) coated with IgG to human IgM (mouse, monoclonal), Toxoplasma gondii antigen, and a conjugate of mouse monoclonal antibodies to Toxoplasma gondii linked to an isoluminol derivative (isoluminol-antibody conjugate). During the first incubation, IgM antibodies present in diluted calibrators, samples or controls bind to the solid phase. During the second incubation, the mouse monoclonal antibody conjugate reacts with Toxoplasma gondii antigen previously added and the immune complex thus formed reacts with $\mathrm { I g M }$ already bound to the solid phase. After each incubation, the unbound material is removed with a wash cycle. Subsequently, the starter reagents are added and a flash chemiluminescence reaction is thus induced. The light signal, and therefore the amount of isoluminolantibody conjugate, is measured by a photomultiplier as relative light units (RLU) and is indicative of the presence of anti-Toxo IgM in calibrators, samples or controls.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Is-Toxoplasma IgG ELISA Kit and Toxoplasma IgM ELISA Kit
+
+2. Predicate 510(k) number(s): k981498 (IgG Device) and k963289 (IgM Device)
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>IgG Assay:Specimen TypeIgM Assay:Method and typeSpecimen Type</td><td rowspan=1 colspan=1>Human serumQualitativeHuman serum</td><td rowspan=1 colspan=1>Human serumQualitativeHuman serum</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>IgG Assay:Method and TypeInstrumentationIgM Assay:Method and TypeInstrumentation</td><td rowspan=1 colspan=1>ChemiluminescentImmunoassayQualitativeAutomatedChemiluminescentImmunoassayAutomated</td><td rowspan=1 colspan=1>ELISAQualitative &amp; quantitativeManual and automatedELISAManual</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Not applicable
+
+# L. Test Principle:
+
+Chemiluminescence immunoassay
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: a. Precision/Reproducibility: IgG Assay: An assay reproducibility study was conducted at two external US laboratories and at DiaSorin. A coded panel comprised of 9 frozen repository samples was prepared by DiaSorin and provided to each site for testing by the LIAISON® Toxo IgG assay. The panel contained samples prepared to represent low to mid positive analyte levels. All panel members were divided into aliquots and stored frozen prior to testing. The same coded panel was tested at all three sites, in three replicates per run for ten runs. The overall CV for the positive specimens ranged from $5 - 8 \%$ .
+
+IgM Assay: An assay reproducibility study was conducted at two external US laboratories and at DiaSorin. A coded panel comprised of 9 frozen repository serum samples was prepared by DiaSorin and provided to each site for testing by the LIAISON® Toxo $\mathrm { I g } \mathrm { \bar { M } }$ assay. The panel contained 3 sets of serum samples. The sets were prepared to represent low to mid positive analyte levels. All panel members were divided into aliquots and stored frozen prior to testing. The same coded panel was tested at all three sites, in three replicates per run for ten runs. The overall CV for the positive specimens ranged from $1 9 - 3 2 \%$ .
+
+$b$ . Linearity/assay reportable range: Not applicable   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Not applicable   
+d. Detection limit: Not applicable
+
+e. Analytical specificity:
+
+IgG Assay: Cross-reactivity studies for the LIAISON® Toxo IgG assay were designed to evaluate potential interference from IgG immunoglobulins directed against closely-related members of the herpes virus family, organisms that may cause symptoms similar to Toxoplasmosis and other conditions that may result from atypical immune system activity. No positive result was found for the samples when tested by LIAISON® Toxoplasma IgG.
+
+IgM Assay: Cross-reactivity studies for the LIAISON® Toxo IgM assay were designed to evaluate potential interference from IgM immunoglobulins directed against closely-related members of the herpes virus family, organisms that may cause symptoms similar to Toxoplasmosis and other conditions that may result from atypical immune system activity. No positive result was found for the samples when tested by LIAISON® Toxoplasma IgM
+
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+# IgG Assay
+
+A total of 887 prospectively collected samples were tested – 613 collected from the U.S and 274 collected from Europe. The U.S. collection included 200 samples from pregnant women. In addition, 200 archived samples from acute, chronic,
+
+and normal patients were tested. The testing was performed at four sites. All samples were tested with the LIAISON® Toxo IgG Assay and an enzyme immunoassay, ELISA or Sabin Feldman Dye test.
+
+U.S. specimens – agreement with comparison IgG ELISA
+
+Positive $9 1 . 8 \%$ (78/85) Negative $9 5 . 3 \%$ (304/319) Overall $9 3 . 5 \%$ (386/413)
+
+European specimens - agreement with comparison IgG ELISA
+
+Positive $9 8 . 6 \%$ (139/141) Negative 91.3% (116/127) Overall $9 4 . 5 \%$ (255/268)
+
+Pregnant women (U.S.) - agreement with comparison IgG ELISA
+
+Positive 96% (48/50) Negative 97.3% (143/147) Overall 96.5% (190/197)
+
+Retrospective specimens: Two-hundred specimens were compared against the reference method Sabin Feldman Dye test, out of which 199 samples agreed with the DiaSorin test.
+
+CDC Panel Study: The CDC (Centers for Disease Control and Prevention) Toxoplasma 1998 Human Serum Panel was tested by LIAISON® Toxo IgG assay. The panel is comprised of 100 frozen blinded specimens, 70 Toxoplasma positive samples and 30 toxoplasma negative samples. The data obtained were submitted to the CDC for analysis. The LIAISON® Toxo IgG Assay correctly detected the 70 positive and the 30 negative specimens.
+
+# IgM Assay
+
+A total of 892 prospectively collected samples were tested – 613 collected from the U.S and 279 collected from Europe. The U.S. collection included 200 samples from pregnant women. The testing was performed at three sites – a hospital, a physician’s laboratory, and at DiaSorin. All samples were tested with the LIAISON® Toxo IgG Assay and an enzyme immunoassay, ELISA.
+
+U.S. specimens – agreement with comparison IgM ELISA
+
+Positive $3 3 . 3 \%$ (1/3) Negative $9 9 . 8 \%$ (408/409)
+
+Overall 99.3% (409/412)
+
+European specimens - agreement with comparison IgM ELISA
+
+Positive 91.1% (41/45) Negative 98.7% (223/226) Overall $9 4 . 9 \%$ (265/279)
+
+Pregnant women (U.S.) - agreement with comparison IgM ELISA
+
+Positive 33.3% (1/3) Negative $9 9 . 5 \%$ (194/195) Overall $9 8 . 5 \%$ (195/198)
+
+CDC Panel Study: The CDC (Centers for Disease Control and Prevention) Toxoplasma 1998 Human Serum Panel was tested by LIAISON® Toxo IgM assay. The panel is comprised of 100 frozen blinded specimens: 32 Toxoplasma IgM positive, 3 dilutions of three true Toxoplasma IgM positive, and 65 Toxoplasma IgM negative samples. Of the $6 5 \mathrm { I g M }$ negative samples 30 were Toxoplasma $\mathrm { I g G }$ negative and $3 5 \mathrm { I g G }$ positive. The data obtained were submitted to the CDC for analysis. The LIAISON® Toxo IgM Assay correctly detected the 32 out of the $3 2 \mathrm { I g M }$ positives, 1 out of the three IgM positive dilutions, and 63 out of the $6 5 \mathrm { I g M }$ negatives.
+
+$b$ . Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range:
+
+Not applicable
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

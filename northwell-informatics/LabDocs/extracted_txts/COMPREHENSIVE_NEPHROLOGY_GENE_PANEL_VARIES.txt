@@ -1,0 +1,133 @@
+Standard Operating Procedure (SOP) for Comprehensive
+Nephrology Gene Panel, Varies
+1. PURPOSE
+This SOP details the analytical phase procedures for generating
+results for the Comprehensive Nephrology Gene Panel testing. The
+objective is to ensure accuracy, reliability, and consistency in the
+testing and reporting process.
+Responsibility:
+It is the responsibility of designated laboratory personnel to perform
+and document all procedures as described herein. It is also the
+responsibility of all staff to report any issues or non-conformities to
+the supervisor.
+2. DEFINITIONS
+Comprehensive Nephrology Gene Panel: A genomic test designed to
+analyze multiple genes associated with hereditary nephrological
+disorders.
+3. SPECIMEN REQUIREMENTS
+• Preferred Specimen Type: Whole blood in EDTA (lavender top)
+tube or alternatively saliva sample collected using a DNA
+stabilization kit.
+• Specimen Volume: At least 4 mL of whole blood or sufficient
+saliva to meet the requirements of the DNA stabilization kit
+manufacturer.
+• Specimen Stability: Whole blood samples must be stored at
+2-8°C and processed within 72 hours of collection. Saliva samples
+should be stored as per the DNA stabilization kit instructions.
+4. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA extraction kits
+• PCR amplification reagents
+• Next-Generation Sequencing (NGS) platform
+• Bioinformatics tools for variant analysis
+• Quality control materials
+5. PROCEDURE
+A. DNA Extraction:
+1. Sample Verification and Logging:
+◦ Verify the sample labeling and accompanying
+documentation.
+◦ Log the sample into the Laboratory Information System
+(LIS).
+2. DNA Extraction:
+◦ Follow the DNA extraction protocol specific to the extraction
+kit being used (e.g., Qiagen DNA Mini Kit).
+◦ Record the concentration and purity of the extracted DNA
+using a spectrophotometer.
+3. Documentation:
+◦ Document the extracted DNA volume and quality control
+(QC) results in the DNA Extraction Log.
+B. Library Preparation and Sequencing:
+1. Library Preparation:
+◦ Use the appropriate reagent kits for library preparation (e.g.,
+Illumina TruSeq DNA Library Prep Kit).
+◦ Follow the standard protocol, including fragmentation, end-
+repair, adapter ligation, and amplification.
+◦ Perform QC using a bioanalyzer to verify library size
+distribution and concentration.
+2. Sequencing:
+◦ Load the prepared library onto the NGS platform following
+the manufacturer’s instructions.
+◦ Use appropriate run parameters as per the Comprehensive
+Nephrology Gene Panel requirements.
+◦ Document run information in the Sequencing Log.
+C. Data Analysis:
+1. Primary Analysis:
+◦ Perform base calling and demultiplexing using the NGS
+platform’s software.
+◦ Ensure data integrity and completeness.
+2. Secondary Analysis:
+◦ Use bioinformatics tools to align sequences to the reference
+genome and perform variant calling.
+◦ Filter and annotate variants to identify potential pathogenic
+mutations related to nephrological disorders.
+◦ Document all analysis steps and software versions in the
+Bioinformatics Analysis Log.
+3. Tertiary Analysis:
+◦ Review annotated results and cross-reference with clinical
+databases.
+◦ Perform a manual review of significant variants and interpret
+their clinical relevance.
+◦ Document all findings in the Result Interpretation Log.
+D. Quality Control:
+• Perform QC at each stage, including DNA extraction, library
+preparation, sequencing, and data analysis.
+• Utilize internal controls and reference samples to ensure assay
+performance.
+• Document and review QC results to confirm assay validity before
+proceeding to result generation.
+6. REPORTING RESULTS
+1. Review and Verification:
+◦ The final interpreted results must be reviewed and verified
+by a certified laboratory scientist.
+◦ Ensure all associated raw data and QC logs are complete
+and meet the laboratory’s standards.
+2. Report Generation:
+◦ Generate a comprehensive report including patient
+identification, methodology, identified variants, clinical
+interpretation, and any recommendations.
+◦ Reports should be drafted using the standard laboratory
+reporting format and reviewed by the laboratory director or
+designee before release.
+3. Documentation:
+◦ Ensure all steps, findings, and communications related to
+the test are documented within the LIS.
+◦ Archive raw data, analysis logs, and final reports according
+to laboratory data retention policies.
+7. REFERENCES:
+• Manufacturer instructions for the DNA extraction kit, library
+preparation kit, and NGS platform.
+• Standard bioinformatics protocols for variant calling and
+annotation.
+• Clinical databases for variant interpretation.
+8. ATTACHMENTS:
+• DNA Extraction Protocol
+• Library Preparation Protocol
+• NGS Platform Operation Guide
+• Bioinformatics Analysis Workflow
+• Example Comprehensive Nephrology Gene Panel Report
+Template
+9. REVIEW AND APPROVAL
+This SOP will be reviewed annually or as necessary by the laboratory
+director and amended as needed to reflect current practices and
+technological advancements.
+Reviewed By:
+[Laboratory Director Name]
+[Signature]
+[Date]
+Approved By:
+[Laboratory Supervisor Name]
+[Signature]
+[Date]
+This SOP ensures that the Comprehensive Nephrology Gene Panel
+testing procedures are carried out efficiently, consistently, and
+accurately, thereby maintaining high standards of quality and
+compliance with regulatory requirements.

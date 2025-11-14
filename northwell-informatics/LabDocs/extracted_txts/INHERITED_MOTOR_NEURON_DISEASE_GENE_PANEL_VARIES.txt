@@ -1,0 +1,101 @@
+INHERITED MOTOR NEURON DISEASE GENE PANEL ANALYSIS
+1. PURPOSE
+The purpose of this protocol is to outline the procedures for the
+accurate and reliable analysis of the inherited motor neuron disease
+gene panel. This analysis involves the identification of variants in
+genes known to be associated with inherited motor neuron diseases
+using next-generation sequencing (NGS). The results are primarily
+used to aid in the diagnosis and clinical management of patients with
+suspected inherited motor neuron disorders.
+1. SPECIMEN
+Acceptable Specimen Types:
+• Whole blood collected in EDTA anticoagulant (preferred)
+• Extracted DNA (from whole blood, saliva, or buccal swabs)
+Unacceptable Specimen Types:
+• Specimens collected in heparinized tubes
+• Specimens exhibiting hemolysis or containing clotting
+• DNA samples with low concentration or degraded integrity
+Specimen Stability:
+• Whole blood: stable for 7 days at 2-8°C
+• Extracted DNA: stable for up to 1 year at -20°C
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+◦ DNA extraction kit (e.g., Qiagen QIAamp DNA Blood Mini
+Kit)
+◦ Quantification and quality assessment instruments (e.g.,
+Qubit Fluorometer, NanoDrop)
+◦ Library preparation kit for NGS (e.g., Illumina DNA Prep)
+◦ NGS platform (e.g., Illumina MiSeq, NextSeq)
+◦ Bioinformatics software for variant analysis (e.g.,
+BaseSpace, Galaxy)
+◦ Ensembl VEP for variant annotation
+◦ Internal quality control materials for NGS validation
+2. PROCEDURE
+A. DNA Extraction
+1. Extract genomic DNA from 200 µL of whole blood or saliva
+using the Qiagen QIAamp DNA Blood Mini Kit according to
+manufacturer’s instructions.
+2. Quantify the extracted DNA using the Qubit Fluorometer. For
+saliva samples, also assess purity using the NanoDrop
+spectrophotometer.
+3. Ensure DNA concentration is ≥50 ng/µL and within the volume
+range of 5-50 µL.
+4. Store extracted DNA at -20°C until library preparation.
+B. Library Preparation
+1. Prepare DNA libraries using the Illumina DNA Prep kit following
+the manufacturer’s protocol.
+2. Ensure the DNA input is within the range specified by the library
+preparation protocol.
+3. Utilize quality control metrics to assess the quality of the DNA
+libraries (e.g., Fragment Analyzer, Bioanalyzer).
+C. NGS Sequencing
+1. Load the prepared libraries onto the Illumina sequencing
+platform (MiSeq or NextSeq).
+2. Follow platform-specific instructions for setup and run of the
+sequencing operation.
+3. Perform the sequencing run ensuring appropriate instrument
+quality control.
+D. Bioinformatics Analysis
+1. Upload the sequencing data to the chosen bioinformatics
+platform (e.g., BaseSpace, Galaxy).
+2. Execute data alignment and variant calling pipelines specific to
+the inherited motor neuron disease gene panel.
+3. Perform variant annotation using tools such as Ensembl VEP.
+E. Data Interpretation and Reporting
+1. Review the identified variants in the context of known disease
+associations and interpret their clinical significance.
+2. Ensure the proper documentation and verification of all
+significant variants.
+3. Generate a detailed report including identified variants, their
+clinical interpretation, and recommendations for further clinical
+management.
+4. QUALITY CONTROL
+A. Procedural Quality Control
+1. Include internal quality control (QC) samples with each run
+(positive and negative control samples).
+2. Document all QC results and ensure they fall within acceptable
+ranges prior to proceeding with the analysis.
+B. Analytical Quality Control
+1. Review sequencing data quality metrics (e.g., cluster density,
+Q30 scores) ensuring values are within platform-specific
+acceptable ranges.
+2. If quality control criteria are not met, investigate potential
+issues, repeat the sequencing run if necessary, and document
+all corrective actions taken.
+3. REPORTING RESULTS
+4. Confirm each report for accuracy and completeness before
+issuance.
+5. All results must be verified and validated by a qualified
+technologist or laboratory director before reporting to the
+clinician.
+6. Follow site-specific guidelines for electronic and paper-based
+result reporting.
+7. REFERENCES
+◦ Qiagen QIAamp DNA Blood Mini Kit Handbook
+◦ Illumina DNA Prep Reference Guide
+◦ Illumina Sequencing Platforms: MiSeq System User Guide,
+NextSeq System Guide
+◦ Bioinformatics Platform Documentation: BaseSpace, Galaxy
+◦ Ensembl Variant Effect Predictor (VEP) Documentation
+This protocol ensures that accurate and high-quality results are
+obtained for the inherited motor neuron disease gene panel,
+optimizing the clinical value of the genetic analysis for patient care.

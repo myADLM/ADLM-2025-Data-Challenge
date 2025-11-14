@@ -1,0 +1,1208 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K193124
+B Applicant
+Beckman Coulter
+C Proprietary and Established Names
+Unicel DxH 800 Coulter Cellular Analysis System and Unicel DxH 800 Coulter Cellular
+Analysis System with Early Sepsis Indicator Application
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5220 -
+GKZ Class II Automated Differential HE - Hematology
+Cell Counter
+21 CFR 866.3215 - Device
+to detect and measure non-
+microbial analyte(s) in
+QFS Class II human clinical specimens MI - Microbiology
+to aid in assessment of
+patients with suspected
+sepsis
+II Submission/Device Overview:
+A Purpose for Submission:
+This modification to the DxH 800 is being implemented as part of corrective action for a field
+action initiated by Beckman Coulter (BEC) in July 2018. The field action was issued on the
+UniCel DxH 800, DxH 600 and DxH 900 Coulter Cellular Analysis systems to notify customers
+that BEC identified sporadic erroneously elevated platelet results without flags or system
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+GKZ			Class II	21 CFR 864.5220 -
+Automated Differential
+Cell Counter			HE - Hematology
+QFS			Class II	21 CFR 866.3215 - Device
+to detect and measure non-
+microbial analyte(s) in
+human clinical specimens
+to aid in assessment of
+patients with suspected
+sepsis			MI - Microbiology
+
+--- Page 2 ---
+messages on all software versions. As part of an initial corrective action, BEC developed a
+software patch that contains an additional criterion to an existing algorithm flag in the software,
+alerting the user of a suspect PLT finding and to review the result.
+The modification is an update to the DxH 800 software to version 3.9.0 which contains the
+following changes: 1) The addition of a criteria to an existing rule to detect erroneously elevated
+platelet results caused by sweep flow obstructions; 2) disable the Clear RBC Aperture update; 3)
+strengthen cybersecurity, and; 4) the addition of an automated VCSn optimization feature.
+Note that although the DxH 800 is the subject of this Traditional 510(k), the changes described
+for software version 3.9.0 will also be applicable to the DxH 600 (software version 1.9.0) and
+DxH 900 (software version 1.1.1). The DxH 600, CLIA categorized under document CR140130,
+and the DxH 900, CLIA categorized under document CR180382, are both currently marketed as
+members of the instrument family of the DxH 800 hematology analyzers in accordance with
+FDA’s Guidance for Industry and FDA Staff, Replacement Reagent and Instrument Family
+Policy.
+B Measurand:
+WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW, RDW-SD, PLT, MPV, NE%, NE#,
+LY%, LY#, MO%, MO#, EO%, EO#, BA%, BA#, NRBC%, NRBC#, RET%, RET#, MRV,
+IRF, and body fluid (TNC and RBC) parameters.
+Monocyte Distribution Width (MDW)
+C Type of Test:
+Quantitative test for WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW, RDW-SD, PLT,
+MPV, NE%, NE#, LY%, LY#, MO%, MO#, EO%, EO#, BA%, BA#, NRBC%, NRBC#,
+RET%, RET#, MRV, IRF, and body fluid (TNC and RBC) parameters.
+Quantitative assay to measure Monocyte Distribution Width (MDW) parameter
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The UniCel DxH 800 Analyzer is a quantitative multi-parameter, automated hematology
+analyzer for in vitro diagnostic use in screening patient populations found in clinical laboratories.
+The UniCel DxH 800 Analyzer identifies and enumerates the parameters indicated below on the
+following sample types:
+K193124 - Page 2 of 21
+
+--- Page 3 ---
+Whole Blood (Venous and Capillary) - WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW,
+RDW-SD, PLT, MPV, NE%, NE#, LY%, LY#, MO%, MO#, EO%, EO#, BA%, BA#, NRBC%,
+NRBC#, RET%, RET#, MRV, IRF
+Pre-Diluted Whole Blood (Venous and Capillary) - WBC, RBC, HGB, HCT, MCV, MCH,
+MCHC, RDW, RDW-SD, PLT, MPV
+Body Fluids (cerebrospinal, serous and synovial) - TNC and RBC
+The Unicel DxH 800 Coulter Cellular Analysis System with Early Sepsis Indicator Application
+is the quantitative measurement of Monocyte Distribution Width (MDW). The Early Sepsis
+Indicator is intended for use with adult patients presenting to the emergency department, on
+whom a white cell differential test has been ordered.
+MDW is measured from a (K2EDTA) whole-blood venous sample within 2 hours of collection.
+MDW values greater than 20.0 together with other laboratory findings and clinical information,
+aids in identifying patients with sepsis or at increased risk of developing sepsis within the first 12
+hours of hospital admission.
+MDW values greater than 20.0 should be interpreted in association with other clinical
+information and diagnostic testing, as a proportion of patients without sepsis may have an
+elevated MDW value at baseline.
+MDW values less than or equal to 20.0 cannot rule out sepsis or the development of sepsis within
+12 hours of hospital admission. The Early Sepsis Indicator should not be used as the sole basis to
+determine the absence of sepsis.
+The predictive value of the Early Sepsis Indicator for identifying sepsis in patients with
+hematological abnormalities has not been established.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+D Special Instrument Requirements:
+Unicel DxH 800 System (MDW parameter)
+IV Device/System Characteristics:
+A Device Description:
+The UniCel DxH 800 System contains an automated hematology analyzer (DxH 800) designed
+for in vitro diagnostic use in screening patient populations by clinical laboratories. The system
+provides a Complete Blood Count (CBC), Leukocyte 5-Part Differential (Diff), Reticulocyte
+K193124 - Page 3 of 21
+
+--- Page 4 ---
+(Retic), Nucleated Red Blood Cell (NRBC) on whole blood, as well as, Total Nucleated Count
+(TNC), and Red Cell Count (RBC) on Body Fluids (cerebrospinal, serous and synovial) and
+Monocyte Distribution Width (MDW). This parameter has been shown to aid in the early
+detection of Sepsis in emergency room patients.
+The system consists of two primary components, the workstation and the DxH 800 analyzer, the
+primary function of which is to process samples and provide results to the workstation. The
+primary functions of the workstation are: user interface, system control, results processing and
+storage and external communications.
+The version of the system proposed in this submission is DxH800 v3.9.0. This system is an
+update to DxH800 v3.8.0 (see K181599) to: add an automated VCSn optimization feature, which
+is a software change to verify the Latron CP-X control (beads) recovers within the limits and
+optimize the calibration factor of the VCSn module; improve cybersecurity; include additional
+criteria for a flag, and; disable the Clear RBC Apertures function.
+B Principle of Operation:
+The Coulter Principle of automated cell counting and sizing is used in the analysis of the whole
+blood and body fluid specimens. Each cell suspended in a conductive liquid (diluent) acts as an
+insulator. As each cell goes through the aperture, it momentarily increases the resistance of the
+electrical path between two submerged electrodes on either side of the aperture. This causes a
+measurable electronic pulse. While the number of pulses indicates particle count, the amplitude
+of the electrical pulse is proportional to the cell volume. These pulses are sent to the Signal
+Conditioner for analog to digital conversion. Pulse counts and digitized pulse measurements are
+sent to the System Manager for processing by the algorithms where the reported parameter
+values, flags and histograms are generated.
+The lytic reagent used for the white cell count prepares the blood so the system can count
+leukocytes and measure the amount of hemoglobin. The lytic reagent rapidly and simultaneously
+destroys the erythrocytes and converts a substantial proportion of the hemoglobin to a stable
+pigment while it leaves leukocyte nuclei intact. The absorbance of the pigment is directly
+proportional to the hemoglobin concentration of the sample.
+Hemoglobin is measured photometrically at 525 nm using the sample from the white cell
+analysis. Clean diluent is introduced into the cuvette during each operating cycle and is used as a
+blank in the calculation of the HGB.
+The COULTER® VCSn technology is used to determine the white cell differential, nucleated
+red blood cell count and reticulocyte parameters along with associated flags, messages,
+histograms and data plots.
+The sample preparation and analysis use specific reagents and analytical processes for the WBC
+differential, NRBC and Retic analysis. The prepared sample is delivered to the flow cell for
+sample detection. As the cells pass through the sensing zone, a diode laser illuminates the
+K193124 - Page 4 of 21
+
+--- Page 5 ---
+particles causing light scatter and light absorption. Simultaneously to the light scatter
+measurements, cell volume and cell conductivity are also measured.
+The data collected during each of the analytical processes is transferred to the System Manager
+where the digital raw values are processed by the algorithm using mathematical approaches
+designed for finding optimal separation between clusters of data. The identified clusters are used
+to calculate the frequency of cells within each population, generate parameter values, flags,
+histograms and data plots.
+C Instrument Description Information:
+Modes of Operation Yes No
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Software
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.
+1. Instrument Name:
+Unicel DxH 800 Coulter Cellular Analysis System, Unicel DxH 800 Coulter Cellular
+Analysis System with Early Sepsis Indicator Application
+2. Specimen Identification:
+Specimen identification is automated or by manual sample identification with the use of a
+hand-held barcode scanner.
+3. Specimen Sampling and Handling:
+The DxH 800 provides the user with the ability to obtain a variety of combinations of
+parameter results through the use of analytical test panels. In addition, specimen analysis can
+occur via a number of sampling methods on the analyzer (see modes of operation above).
+4. Calibration:
+COULTER® S-CAL® Calibrator (K862122) is used for determining calibration factors to
+ensure accurate measurements of directly measured CBC parameters. Assigned assay values
+are traceable to reference methods.
+5. Quality Control:
+COULTER® 6C Cell Control (K081822) enables monitoring of system performance for all
+directly measured and calculated CBC, Diff and NRBC parameters.
+K193124 - Page 5 of 21
+
+[Table 1 on page 5]
+	Modes of Operation			Yes			No	
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?								
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?								
+	Software							
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.								
+
+--- Page 6 ---
+COULTER® Retic-X Cell Control (K930119) monitors system performance of the
+reticulocyte parameters.
+COULTER® LIN-X Linearity Control (K081641) verifies the reportable range, and assesses
+the calibration of the WBC, RBC, HGB, and PLT parameters.
+COULTER® Body Fluid Control (K082162) monitors system performance of the body fluid
+cycle’s RBC and TNC count parameters. Additionally, COULTER Body Fluid Control can
+be used for verification of the measuring range and linearity of the TNC and RBC in the
+body fluid panel.
+COULTER® LATRON™ CP-X Control (K885028) determines calibration factors to ensure
+accurate measurements of directly measured CBC parameters. Assigned assay values are
+traceable to reference methods.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Unicel Dxh 800 Coulter Cellular Analysis System/Unicel Dxh Slidemaker Stainer Coulter
+Cellular Analysis System, Unicel DxH 800 Cellular Analysis System with Early Sepsis Indicator
+Application
+B Predicate 510(k) Number(s):
+K140911, K181599
+C Comparison with Predicate(s):
+Device & Predicate
+K193124 K140911 K181599
+Device(s):
+Unicel DxH 800 Coulter Cellular Analysis
+System
+Device Trade Name Same Same
+Unicel DxH 800 Coulter Cellular Analysis
+System with Early Sepsis Indicator Application
+General Device
+Characteristic
+Similarities
+The UniCel DxH 800 Analyzer is a quantitative
+Intended Use / multi-parameter, automated hematology
+Same Same
+Indications For Use analyzer for in vitro diagnostic use in screening
+patient populations found in clinical
+laboratories. The UniCel DxH 800 Analyzer
+K193124 - Page 6 of 21
+
+[Table 1 on page 6]
+	Device & Predicate		K193124	K140911	K181599
+	Device(s):				
+Device Trade Name			Unicel DxH 800 Coulter Cellular Analysis
+System
+Unicel DxH 800 Coulter Cellular Analysis
+System with Early Sepsis Indicator Application	Same	Same
+	General Device				
+	Characteristic				
+	Similarities				
+Intended Use /
+Indications For Use			The UniCel DxH 800 Analyzer is a quantitative
+multi-parameter, automated hematology
+analyzer for in vitro diagnostic use in screening
+patient populations found in clinical
+laboratories. The UniCel DxH 800 Analyzer	Same	Same
+
+--- Page 7 ---
+Device & Predicate
+K193124 K140911 K181599
+Device(s):
+identifies and enumerates the parameters
+indicated below on the following sample types:
+Whole Blood (Venous and Capillary) - WBC,
+RBC, HGB, HCT, MCV, MCH, MCHC, RDW,
+RDW-SD, PLT, MPV, NE%, NE#, LY%, LY#,
+MO%, MO#, EO%, EO#, BA%, BA#,
+NRBC%, NRBC#, RET%, RET#, MRV, IRF
+Pre-Diluted Whole Blood (Venous and
+Capillary) - WBC, RBC, HGB, HCT, MCV,
+MCH, MCHC, RDW, RDW-SD, PLT, MPV
+Body Fluids (cerebrospinal, serous and
+synovial) - TNC and RBC
+The Unicel DxH 800 Coulter Cellular Analysis
+System with Early Sepsis Indicator Application
+is the quantitative measurement of Monocyte
+Distribution Width (MDW). The Early Sepsis
+Indicator is intended for use with adult patients
+presenting to the emergency department, on
+whom a white cell differential test has been
+ordered.
+MDW is measured from a (K2EDTA) whole-
+blood venous sample within 2 hours of
+collection. MDW values greater than 20.0
+together with other laboratory findings and
+clinical information, aids in identifying patients
+with sepsis or at increased risk of developing
+sepsis within the first 12 hours of hospital
+admission.
+MDW values greater than 20.0 should be
+interpreted in association with other clinical
+information and diagnostic testing, as a
+proportion of patients without sepsis may have
+an elevated MDW value at baseline.
+MDW values less than or equal to 20.0 cannot
+rule out sepsis or the development of sepsis
+within 12 hours of hospital admission. The
+Early Sepsis Indicator should not be used as the
+sole basis to determine the absence of sepsis.
+The predictive value of the Early Sepsis
+Indicator for identifying sepsis in patients with
+K193124 - Page 7 of 21
+
+[Table 1 on page 7]
+	Device & Predicate		K193124	K140911	K181599
+	Device(s):				
+			identifies and enumerates the parameters
+indicated below on the following sample types:
+Whole Blood (Venous and Capillary) - WBC,
+RBC, HGB, HCT, MCV, MCH, MCHC, RDW,
+RDW-SD, PLT, MPV, NE%, NE#, LY%, LY#,
+MO%, MO#, EO%, EO#, BA%, BA#,
+NRBC%, NRBC#, RET%, RET#, MRV, IRF
+Pre-Diluted Whole Blood (Venous and
+Capillary) - WBC, RBC, HGB, HCT, MCV,
+MCH, MCHC, RDW, RDW-SD, PLT, MPV
+Body Fluids (cerebrospinal, serous and
+synovial) - TNC and RBC
+The Unicel DxH 800 Coulter Cellular Analysis
+System with Early Sepsis Indicator Application
+is the quantitative measurement of Monocyte
+Distribution Width (MDW). The Early Sepsis
+Indicator is intended for use with adult patients
+presenting to the emergency department, on
+whom a white cell differential test has been
+ordered.
+MDW is measured from a (K2EDTA) whole-
+blood venous sample within 2 hours of
+collection. MDW values greater than 20.0
+together with other laboratory findings and
+clinical information, aids in identifying patients
+with sepsis or at increased risk of developing
+sepsis within the first 12 hours of hospital
+admission.
+MDW values greater than 20.0 should be
+interpreted in association with other clinical
+information and diagnostic testing, as a
+proportion of patients without sepsis may have
+an elevated MDW value at baseline.
+MDW values less than or equal to 20.0 cannot
+rule out sepsis or the development of sepsis
+within 12 hours of hospital admission. The
+Early Sepsis Indicator should not be used as the
+sole basis to determine the absence of sepsis.
+The predictive value of the Early Sepsis
+Indicator for identifying sepsis in patients with		
+
+--- Page 8 ---
+Device & Predicate
+K193124 K140911 K181599
+Device(s):
+hematological abnormalities has not been
+established.
+WBC, RBC, MCV, PLT – Aperture impedance
+(Coulter Principle)
+Hemoglobin – Spectrophotometric
+WBC Differential, Reticulocytes, NRBC,
+Principles of
+MDW – VCSn Technology using: Same Same
+Measurement
+• Aperture impedance (DC)
+• Conductivity (RF)
+• Laser Light Scatter (Multiple angles)
+• Laser Light Absorbance
+Analysis Reagents
+COULTER DxH Diluent
+COULTER DxH Diff Pack
+COULTER DxH Cell Lyse
+COULTER DxH Retic Pack
+COULTER DxH Cleaner
+Quality Control & Calibrator
+Reagents Same Same
+COULTER 6C Cell Control
+COULTER 6C Plus Cell Control
+COULTER Latron CP-X Control
+COULTER RETTC-X Cell Control
+COULTER LTN-X Control
+COULTER Body Fluids Control
+COULTER S-CAL Calibrator kit
+System configuration
+PC based workstation running Microsoft
+Windows XP application specific software
+Handheld Barcode Scanner Printer
+Sampling Mechanism
+Pre-Analytic
+Same Same
+Features Single tube presentation - open and closed vial
+sampling.
+Automated presentation - closed vial sampling
+from 5 position cassette; Maximum initial load
+capacity 20 racks
+K193124 - Page 8 of 21
+
+[Table 1 on page 8]
+	Device & Predicate		K193124	K140911	K181599
+	Device(s):				
+			hematological abnormalities has not been
+established.		
+Principles of
+Measurement			WBC, RBC, MCV, PLT – Aperture impedance
+(Coulter Principle)
+Hemoglobin – Spectrophotometric
+WBC Differential, Reticulocytes, NRBC,
+MDW – VCSn Technology using:
+• Aperture impedance (DC)
+• Conductivity (RF)
+• Laser Light Scatter (Multiple angles)
+• Laser Light Absorbance	Same	Same
+Reagents			Analysis Reagents
+COULTER DxH Diluent
+COULTER DxH Diff Pack
+COULTER DxH Cell Lyse
+COULTER DxH Retic Pack
+COULTER DxH Cleaner
+Quality Control & Calibrator
+COULTER 6C Cell Control
+COULTER 6C Plus Cell Control
+COULTER Latron CP-X Control
+COULTER RETTC-X Cell Control
+COULTER LTN-X Control
+COULTER Body Fluids Control
+COULTER S-CAL Calibrator kit	Same	Same
+Pre-Analytic
+Features			System configuration
+PC based workstation running Microsoft
+Windows XP application specific software
+Handheld Barcode Scanner Printer
+Sampling Mechanism
+Single tube presentation - open and closed vial
+sampling.
+Automated presentation - closed vial sampling
+from 5 position cassette; Maximum initial load
+capacity 20 racks	Same	Same
+
+--- Page 9 ---
+Device & Predicate
+K193124 K140911 K181599
+Device(s):
+Mechanisms for processing
+Mechanisms to achieve process of:
+Automated cassette transportation and
+specimen mixing (by rocking), sample
+aspiration, sample preparation, sample and
+reagent presentation to analytical modules,
+sample analysis, raw data collection,
+algorithmic processing and data reporting.
+Cassette transportation by magnetic drive
+allowing multi-directional moves and capability
+to return cassette to Sampling position for
+repeat / reflex testing.
+Sample identification
+Sample aspiration module (SAM) mounted
+barcode reader for automated barcode reading
+of cassette and sample tube identifiers
+Manual barcode scanning of sample tube
+identifier (Handheld scanner)
+Manual keyboard entry of sample identifier
+Aspiration Pathway
+Single sampling probe and common aspiration
+pathway used for all sample presentation
+modes.
+Sample aspiration volume
+Automatic, cap-piercing: 165 µL
+Single tube - open-vial and cap pierce: 165 µL
+Pre-dilute 165 µL - fixed ratio of 1 in 5 dilution
+of blood with diluent
+Throughput
+Sample Processing Same Same
+For automatic mode:
+• CBC at 100 specimens/hr.
+• CBC and Differential at 100 specimens/hr.
+• CBC and Differential with NRBC at 90
+specimens/hr.
+• Retic at 45 specimens/hr.
+Data reporting
+Workstation display graphics, hardcopy
+printing and transmission to Laboratory
+Information System (LIS)
+K193124 - Page 9 of 21
+
+[Table 1 on page 9]
+	Device & Predicate		K193124	K140911	K181599
+	Device(s):				
+			Mechanisms for processing
+Mechanisms to achieve process of:
+Automated cassette transportation and
+specimen mixing (by rocking), sample
+aspiration, sample preparation, sample and
+reagent presentation to analytical modules,
+sample analysis, raw data collection,
+algorithmic processing and data reporting.
+Cassette transportation by magnetic drive
+allowing multi-directional moves and capability
+to return cassette to Sampling position for
+repeat / reflex testing.
+Sample identification
+Sample aspiration module (SAM) mounted
+barcode reader for automated barcode reading
+of cassette and sample tube identifiers
+Manual barcode scanning of sample tube
+identifier (Handheld scanner)
+Manual keyboard entry of sample identifier		
+Sample Processing			Aspiration Pathway
+Single sampling probe and common aspiration
+pathway used for all sample presentation
+modes.
+Sample aspiration volume
+Automatic, cap-piercing: 165 µL
+Single tube - open-vial and cap pierce: 165 µL
+Pre-dilute 165 µL - fixed ratio of 1 in 5 dilution
+of blood with diluent
+Throughput
+For automatic mode:
+• CBC at 100 specimens/hr.
+• CBC and Differential at 100 specimens/hr.
+• CBC and Differential with NRBC at 90
+specimens/hr.
+• Retic at 45 specimens/hr.
+Data reporting
+Workstation display graphics, hardcopy
+printing and transmission to Laboratory
+Information System (LIS)	Same	Same
+
+--- Page 10 ---
+Device & Predicate
+K193124 K140911 K181599
+Device(s):
+Controlling software
+System software (embedded and workstation)
+designed specific to support all features of DxH
+800. The software system consists of a Data
+Manager component, a System Manager
+component (including algorithms), the User
+Interface, all of which are resident in the
+Workstation.
+In addition, an Embedded Application is
+resident in the analyzer. The Embedded
+application uploads from the workstation on
+system power-up.
+System Control and
+Same Same
+Extensive real time monitoring and reporting of
+Software
+system status including:
+Component and module activities,
+• System Voltages and Currents
+• System Pressure and Vacuum
+• System Temperatures
+• Motor activity
+• Mechanism Sensor status
+• Reagent Pump Operation
+Raw data collection, Single sampling probe and
+common aspiration pathway used for all sample
+presentation modes.
+General Device
+Characteristic
+Differences
+Version 3.9.0
+• Includes the additional criteria for a flag
+Software Version • Disable Clear RBC Aperture Version 3.8.0 Version 3.8.0
+• Strengthened Cybersecurity
+•Automated VCSn Optimization
+VI Standards/Guidance Documents Referenced:
+CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline - Third Edition.
+CLSI EP06-A, Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach. Approved Guideline.
+K193124 - Page 10 of 21
+
+[Table 1 on page 10]
+	Device & Predicate		K193124	K140911	K181599
+	Device(s):				
+System Control and
+Software			Controlling software
+System software (embedded and workstation)
+designed specific to support all features of DxH
+800. The software system consists of a Data
+Manager component, a System Manager
+component (including algorithms), the User
+Interface, all of which are resident in the
+Workstation.
+In addition, an Embedded Application is
+resident in the analyzer. The Embedded
+application uploads from the workstation on
+system power-up.
+Extensive real time monitoring and reporting of
+system status including:
+Component and module activities,
+• System Voltages and Currents
+• System Pressure and Vacuum
+• System Temperatures
+• Motor activity
+• Mechanism Sensor status
+• Reagent Pump Operation
+Raw data collection, Single sampling probe and
+common aspiration pathway used for all sample
+presentation modes.	Same	Same
+	General Device				
+	Characteristic				
+	Differences				
+Software Version			Version 3.9.0
+• Includes the additional criteria for a flag
+• Disable Clear RBC Aperture
+• Strengthened Cybersecurity
+•Automated VCSn Optimization	Version 3.8.0	Version 3.8.0
+
+--- Page 11 ---
+CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated Hematology
+Analyzers; Approved Standard – Second Edition.
+CLSI EP09c, Measurement Procedure Comparison and Bias Estimation Using Patient Samples -
+Third Edition.
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Precision (Sample Repeatability) – PLT
+The objective of the study was to assess system precision (sample repeatability) for the PLT
+parameter on the modified DxH 800 system. The study evaluated the repeatability of whole
+blood measurements across the low, normal, and high ranges for the PLT parameter. Studies
+were conducted according to CLSI EP05-A3.
+Data was generated using the instrument’s repeatability and closed-vial sampling modes.
+Fresh whole blood specimens within 8 hours of collection with a minimum of 1 mL volume
+remaining were used for this testing. The study was executed with two instruments (DxH 800
+(Test A) and DxH 800 (Test B)) at one internal BEC site. Within-run repeatability of the PLT
+parameter was performed using 10 aspirations of normal whole blood samples collected in
+K2EDTA. Three samples within each range were tested on each instrument. When possible,
+additional runs were collected to compensate for flagged runs. With some abnormal blood
+samples, where the volume obtained for testing may be less than the required amount to
+obtain 10 replicates, a second sample was analyzed for the same parameter and range. One
+run was excluded on one instrument for insufficient quantity for one of the three low range
+samples. Mean and CV% were reported for each sample automatically from the instrument.
+All PLT results met the precision (sample repeatability) specifications. There was no impact
+to PLT precision on the DxH 800 from the software design change implementing the
+additional criteria for a flag (Change 1) and disabling the Clear RBC Procedure (Change 2).
+Repeatability – Test A
+Test
+Platelet Test Result
+Concentration N Result
+Range Mean
+%CV
+Low >15.0 to <200.0 10 172.5 1.77
+Low >15.0 to <200.0 10 133.8 2.2
+Low >15.0 to <200.0 10 189.8 1.78
+Normal 200.00 to 400.00 10 321.9 1.8
+Normal 200.00 to 400.00 10 301.6 2.04
+K193124 - Page 11 of 21
+
+[Table 1 on page 11]
+Platelet			Test Result	Test
+	Concentration	N		Result
+Range			Mean	
+				%CV
+				
+Low	>15.0 to <200.0	10	172.5	1.77
+Low	>15.0 to <200.0	10	133.8	2.2
+Low	>15.0 to <200.0	10	189.8	1.78
+Normal	200.00 to 400.00	10	321.9	1.8
+Normal	200.00 to 400.00	10	301.6	2.04
+
+--- Page 12 ---
+Test
+Platelet Test Result
+Concentration N Result
+Range Mean
+%CV
+Normal 200.00 to 400.00 10 331.5 2.09
+High >400.0 to 3,000.00 10 418.3 2.26
+High >400.0 to 3,000.00 10 499.8 2.4
+High >400.0 to 3,000.00 10 449.2 1.33
+Repeatability – Test B
+Test
+Platelet Test Result
+Concentration N Result
+Range Mean
+%CV
+Low >15.0 to <200.0 9 98.5 2.09
+Low >15.0 to <200.0 10 170.2 1.42
+Low >15.0 to <200.0 10 163.5 1.74
+Normal 200.00 to 400.00 10 319.6 1.14
+Normal 200.00 to 400.00 10 340.6 1.6
+Normal 200.00 to 400.00 10 311.6 1.89
+High >400.0 to 3,000.00 10 463.6 1.51
+High >400.0 to 3,000.00 10 464.9 0.94
+High >400.0 to 3,000.00 10 511.3 1.38
+System Precision (Sample Repeatability) – Change 4
+The objective of the study was to assess system precision (sample repeatability) for the
+parameters measured directly or derived through histogram on the DxH 800 version 3.9.0
+system inclusive of all software design changes (includes the automated VSCn Optimization
+(Change 4)). The study evaluated the customer use validation of repeatability as described in
+the Instructions for Use (IFU) for whole blood measurements across the low, normal and
+high ranges for parameters measured directly or derived through histogram (WBC, RBC,
+Hgb, MCV, RDW, RDW-SD, PLT, MPV, LY%, MO%, NE%, EO%, BA%, NRBC,
+Reticulocyte %, IRF and MRV). Studies were conducted according to CLSI EP05-A3.
+Data was generated using the instrument’s repeatability and closed-vial sampling modes.
+Fresh whole blood specimens within 8 hours of collection with a minimum of 1 mL volume
+remaining were used for this testing. The study was executed with two instruments (Test A
+and Test B) at one internal BEC site. Within-run repeatability of the parameters was
+performed using 10 aspirations of normal whole blood samples collected in K2EDTA. A
+single sample within each range was tested on each instrument. When sufficient sample
+volume existed, the same sample was used across instruments. For MDW, a sample close to
+the cut-off (20) was chosen to test the sample repeatability. When possible, additional runs
+were collected to compensate for flagged runs. With some abnormal blood samples, where
+the volume obtained for testing may be less than the required amount to obtain 10 replicates,
+K193124 - Page 12 of 21
+
+[Table 1 on page 12]
+Platelet			Test Result	Test
+	Concentration	N		Result
+Range			Mean	
+				%CV
+				
+Normal	200.00 to 400.00	10	331.5	2.09
+High	>400.0 to 3,000.00	10	418.3	2.26
+High	>400.0 to 3,000.00	10	499.8	2.4
+High	>400.0 to 3,000.00	10	449.2	1.33
+
+[Table 2 on page 12]
+Platelet			Test Result	Test
+	Concentration	N		Result
+Range			Mean	
+				%CV
+				
+Low	>15.0 to <200.0	9	98.5	2.09
+Low	>15.0 to <200.0	10	170.2	1.42
+Low	>15.0 to <200.0	10	163.5	1.74
+Normal	200.00 to 400.00	10	319.6	1.14
+Normal	200.00 to 400.00	10	340.6	1.6
+Normal	200.00 to 400.00	10	311.6	1.89
+High	>400.0 to 3,000.00	10	463.6	1.51
+High	>400.0 to 3,000.00	10	464.9	0.94
+High	>400.0 to 3,000.00	10	511.3	1.38
+
+--- Page 13 ---
+a second sample was analyzed for the same parameter and range. Two runs were excluded
+due to partial aspiration for the Retic parameter. Mean and %CV were reported for each
+sample automatically from the instrument.
+Repeatability – Test A
+Test
+Test Result
+Parameter N Result
+%CV or SD
+Mean
+WBC 10 5.873 2.02%
+RBC 10 4.721 0.9%
+Hgb 10 15.47 1.12%
+MCV 10 88.18 0.32%
+RDW % 10 13.09 0.8%
+RDW-SD 10 40.25 1.0%
+Platelet 10 230.4 3.3%
+MPV 10 8.32 1.03%
+Neut % 10 58.99 1.21%
+Lymph % 10 31.12 1.34%
+Mono % 10 9.89 3.01%
+Eos % 10 3.42
+4.4%
+Baso % 10 0.64 0.16 SD
+NRBC NA N/A N/A
+NRBC 10 4.27 19.68%
+NRBC N/A NA N/A
+Retic % 10 0.701 0.06 SD
+Retic % 10 3.08 0.21 SD
+Retic % 9 4.23 3.60%
+IRF 10 0.282 16.16%
+MRV 10 107.94 1.42%
+MDW 10 18.97
+4.06%
+Repeatability – Test B
+Test
+Test Result
+Result
+%CV or SD
+Parameter N
+Mean
+WBC 10 6.092 1.08%
+K193124 - Page 13 of 21
+
+[Table 1 on page 13]
+		Test	
+			Test Result
+Parameter	N	Result	
+			%CV or SD
+		Mean	
+			
+WBC	10	5.873	2.02%
+RBC	10	4.721	0.9%
+Hgb	10	15.47	1.12%
+MCV	10	88.18	0.32%
+RDW %	10	13.09	0.8%
+RDW-SD	10	40.25	1.0%
+Platelet	10	230.4	3.3%
+MPV	10	8.32	1.03%
+Neut %	10	58.99	1.21%
+Lymph %	10	31.12	1.34%
+Mono %	10	9.89	3.01%
+Eos %	10	3.42	4.4%
+Baso %	10	0.64	0.16 SD
+NRBC	NA	N/A	N/A
+NRBC	10	4.27	19.68%
+NRBC	N/A	NA	N/A
+Retic %	10	0.701	0.06 SD
+Retic %	10	3.08	0.21 SD
+Retic %	9	4.23	3.60%
+IRF	10	0.282	16.16%
+MRV	10	107.94	1.42%
+MDW	10	18.97	4.06%
+
+[Table 2 on page 13]
+			
+		Test	
+			
+			Test Result
+		Result	
+			%CV or SD
+Parameter	N		
+		Mean	
+			
+			
+			
+WBC	10	6.092	1.08%
+
+--- Page 14 ---
+Test
+Test Result
+Result
+%CV or SD
+Parameter N
+Mean
+RBC 10 4.926 0.62%
+Hgb 10 14.98 0.7%
+MCV 10 86.52 0.43%
+RDW % 10 13.96 0.88%
+RDW-SD 10 43.66 1.48%
+Platelet 10 323.8 1.18%
+MPV 10 8.18 1.21%
+Neut % 10 58.81 0.88%
+Lymph % 10 30.69 1.65%
+Mono % 10 6.66 2.49%
+Eos % 10 2.87
+3.13%
+Baso % 10 0.96 0.29 SD
+NRBC N/A N/A N/A
+NRBC 10 2.09 10.15%
+NRBC N/A N/A N/A
+Retic % 10 0.926 0.06 SD
+Retic % 10 2.013 0.12 SD
+Retic % 9 4.222 3.10%
+IRF 10 0.468 5.79%
+MRV 10 117.96 1.23%
+MDW 10 20.55
+5.26%
+System Precision (Sample Repeatability) – Change 4 with daily shutdown cycles
+(additional precision study)
+The objective of the study was to assess system precision (sample repeatability) for the
+parameters measured directly or derived through histogram on the DxH 800 version 3.9.0
+system inclusive of all software design changes (includes the automated VSCn Optimization
+(Change 4)). To verify repeatability for all parameters except MDW, three runs with 10
+replicates of the same sample were tested, including a Latron CP-X control run for each set.
+After each run, the daily shutdown cycle was performed. To verify repeatability for the
+MDW parameter, two runs with 10 replicates of the same sample were tested including a
+Latron CP-X control run for each set, performed within the 2-hour stability claim. After each
+run, the daily shutdown cycle was performed.
+K193124 - Page 14 of 21
+
+[Table 1 on page 14]
+			
+		Test	
+			
+			Test Result
+		Result	
+			%CV or SD
+Parameter	N		
+		Mean	
+			
+			
+			
+RBC	10	4.926	0.62%
+Hgb	10	14.98	0.7%
+MCV	10	86.52	0.43%
+RDW %	10	13.96	0.88%
+RDW-SD	10	43.66	1.48%
+Platelet	10	323.8	1.18%
+MPV	10	8.18	1.21%
+Neut %	10	58.81	0.88%
+Lymph %	10	30.69	1.65%
+Mono %	10	6.66	2.49%
+Eos %	10	2.87	3.13%
+Baso %	10	0.96	0.29 SD
+NRBC	N/A	N/A	N/A
+NRBC	10	2.09	10.15%
+NRBC	N/A	N/A	N/A
+Retic %	10	0.926	0.06 SD
+Retic %	10	2.013	0.12 SD
+Retic %	9	4.222	3.10%
+IRF	10	0.468	5.79%
+MRV	10	117.96	1.23%
+MDW	10	20.55	5.26%
+
+--- Page 15 ---
+Data was generated using the instrument’s repeatability and closed-vial sampling modes.
+Fresh whole blood specimen collected within 24 hours were used for this testing. For the
+MDW parameter, specimens were processed within 30 minutes of collection. The study was
+executed with two instruments at one internal BEC site. For each calibration adjustment
+cycle which included the Automated VSCn Optimization change, within-run repeatability
+was performed using 10 aspirations of normal whole blood samples collected in K2EDTA
+for all parameters except for NRBC where 6C Control Level 2 was used for the 2–15 range
+and Retic-X Cell Control Level 3 was used for the Retic 4–15 range.
+Three sets of analyses were completed for all parameters except for MDW within 24 hours of
+collection. For MDW, two sets of analyses were performed within 2 hours from blood
+collection. Each data set is inclusive of one instrument calibration cycle. The instrument
+calibration cycle consists of a Shutdown, Startup, Daily Checks and Latron CP-X Control.
+The sequence for the three sets of analyses were as follows:
+• Shutdown 1, Startup, Daily Checks, Latron CP-X Control 1, Precision Set 1
+• Shutdown 2, Startup, Daily Checks, Latron CP-X Control 2, Precision Set 2
+• Shutdown 3, Startup, Daily Checks, Latron CP-X Control 3, Precision Set 3
+For MDW, two sets of analysis were performed within 2 hours from blood collection
+inclusive of two instrument calibration adjustment cycles. The sequence for the two sets of
+analyses were as follows:
+• Shutdown 1, Startup, Daily Checks, Latron CP-X Control 1, Precision Set 1
+• Shutdown 2, Startup, Daily Checks, Latron CP-X Control 2, Precision Set 2
+For each repeatability dataset, the mean, SD and CV% were reported for each parameter
+where the mean represents the range while SD or CV% the repeatability performance. All
+parameters met the precision (sample repeatability) specifications.
+2. Linearity:
+The objective of the study was to evaluate linearity measurands on the DxH 800 version
+3.9.0 system inclusive of the software design changes in accordance with CLSI EP06-A.
+Linearity was assessed by demonstrating that the reported results were directly proportional
+to the concentration of the measurand in a test sample for the WBC, RBC, Hgb and PLT
+parameters. Linearity was performed on three instruments located at a BEC internal testing
+site, using one dilution series per measurand to cover the Analytical Measuring Interval
+(AMI). Four replicates of each dilution were analyzed in random order. Replicates 2 through
+4 were used for the analysis.
+Fresh whole blood was obtained and concentrated to achieve high starting values near the
+upper limit of the AMI for the RBC and Hgb parameters. WBC and PLT linearity used cell
+analogs and media material. Dilutions were prepared to cover the AMI for each parameter
+and analyzed in quadruplicate in random order. There were four WBC results exclusions (3
+partial aspirations and 1 with an “R” flag).
+Data were analyzed including all dilution points for each parameter. Linearity was evaluated
+by fitting linear and non-linear (quadratic and cubic) models and assessing that the deviations
+K193124 - Page 15 of 21
+
+--- Page 16 ---
+from linearity (difference between the non-linear and linear fits) were within acceptance
+criteria. WBC, RBC, Hgb, and PLT parameters met the linearity specifications.
+3. Analytical Specificity/Interference:
+Refer to 510(k) cleared device: K102771
+4. Assay Reportable Range:
+Not applicable
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Refer to 510(k) cleared device: K140911
+6. Detection Limit:
+Refer to 510(k) cleared device: K140911
+7. Assay Cut-Off:
+Not applicable
+8. Accuracy (Instrument):
+Not applicable
+9. Carry-Over:
+The objective of the study was to evaluate specimen carryover on the DxH 800 version 3.9.0
+system inclusive of the software design changes. The study assessed the impact of a
+specimen with high target value (HTV) preceding a low target value sample (LTV).
+Carryover was evaluated in accordance with CLSI H26-A2.
+Testing was performed on three instruments, at an internal BEC site, using the instrument’s
+carryover mode, in closed vial sampling mode and used whole blood specimens. Testing was
+performed for high WBC, RBC, Hgb, and PLT. Low target value samples (LTV) were
+diluted (a small amount of whole blood was added to particle-free plasma) to achieve the
+desired range. All samples were concentrated to achieve the high target values (HTV) for
+WBC, RBC, PLT and HGB. In addition, analogs were used to achieve WBC HTV > 300.
+The target number for each measurand was three sets for each parameter on all three
+instruments to assure the minimum number was achieved. The same donor was used across
+all three instruments. Different donors were used for each parameter.
+Carryover was calculated as follows:
+% carryover = [(LTV 1-LTV 3)/( HTV 3-LTV 3)] X100,
+Where HTV is the high whole blood specimen and LTV is the low whole blood specimen.
+K193124 - Page 16 of 21
+
+--- Page 17 ---
+The carryover by parameter for each system was calculated. All carryover testing (by sample
+and overall) for WBC, RBC, Hgb and PLT passed. The WBC and RBC carryover testing
+were <0.5%, meeting the acceptance limit. PLT and Hgb also met the requirement of
+carryover. Carryover specifications were not impacted by the DxH 800 version 3.9.0
+software design changes.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Method Comparison (Change 1 & Change 2)
+The objective of the study was to support substantial equivalence by comparison of the PLT
+values obtained on the DxH 800 system version 3.9.0, including the additional criteria for a
+flag (Change 1) and the disabled Clear RBC Procedure (Change 2), to the values obtained on
+the predicate device, DxH 800 version 3.0.0 (K140911). The predicate device software does
+not include the additional criteria for a flag nor the clear RBC procedure.
+A total of 127 whole blood specimens (27 normal, 100 clinical) collected in K2EDTA were
+included in the study. Specimens were less than 24 hours old from the time of draw and were
+targeted to cover the AMI for the PLT parameter. The CBC calibration of instruments was
+verified prior to the start of testing and each day that testing occurred. Verification was met
+and no adjustments made to the calibration of any instrument. The measurement procedure
+comparison paired study design was performed with two test systems (Test A and Test B)
+and one predicate system at one site with varying clinical samples.
+Basic summary statistics and Bland-Altman plots were calculated for PLT. The Weighted
+Deming approach was used to estimate PLT regression. Weighted Deming approach was
+used for PLT because the variability (scatter) of the data depended on the range of
+measurements. Regression analysis was performed using replicate 1 of the test vs. replicate 1
+of the comparator. Bias between methods was calculated from the regression line at the 25th,
+50th, and 75th percentile of the range and at medical decision points. Confidence limits were
+calculated based on standard errors and 95% confidence. The upper/lower confidence limits
+were compared to the Acceptance Limits.
+Regression Statistics and Correlation
+Test A
+95% Confidence Limits 95% Confidence Limits
+Analyte Unit Slope Lower Upper Intercept Lower Upper Correlation
+PLT 10^3 cells/uL 1.041 1.033 1.050 -0.242 -1.019 0.536 0.998
+Test B
+95% Confidence Limits 95% Confidence Limits
+Analyte Unit Slope Lower Upper Intercept Lower Upper Correlation
+PLT 10^3 cells/uL 0.989 0.983 0.995 0.216 -0.462 0.895 0.999
+K193124 - Page 17 of 21
+
+[Table 1 on page 17]
+			95% Confidence Limits			95% Confidence Limits		
+Analyte	Unit	Slope	Lower	Upper	Intercept	Lower	Upper	Correlation
+PLT	10^3 cells/uL	1.041	1.033	1.050	-0.242	-1.019	0.536	0.998
+
+[Table 2 on page 17]
+			95% Confidence Limits			95% Confidence Limits		
+Analyte	Unit	Slope	Lower	Upper	Intercept	Lower	Upper	Correlation
+PLT	10^3 cells/uL	0.989	0.983	0.995	0.216	-0.462	0.895	0.999
+
+--- Page 18 ---
+Method Comparison (Change 4)
+The objective of the study was to support substantial equivalence of the DxH 800 system version
+3.9.0 (automated VSCn Optimization - Change 4) to the predicate device, DxH 800 version 3.8.0
+(K181599) by comparing parameters measured directly or derived through histogram.
+A total of 224 whole blood specimens (40 normal, 184 clinical) collected in a K2EDTA were
+included in this study covering the AMI for the parameters measured. The CBC calibration of
+instruments was verified prior to the start of testing and each day that testing occurred.
+Verification was met and no adjustments were made to the calibration of any instrument. The
+measurement procedure comparison paired study design was performed with two test systems
+(Test A and Test B) and one predicate system at one site with varying clinical samples.
+Basic summary statistics and Bland-Altman plots were calculated for each parameter. The
+Deming approach was used to estimate regression parameters. Weighted Deming approach was
+used for cell counts parameters because the variability (scatter) of the data depended on the range
+of measurements. Regression analysis was performed using replicate 1 of the test vs. replicate 1
+of the comparator. Bias between methods was calculated from the regression line at the 25th, 50th,
+and 75th percentile of the range and at medical decision points. Confidence limits were calculated
+based on standard errors and 95% confidence. The upper/lower confidence limits were compared
+to the instrument accuracy claim. Estimated biases and their 95% confidence limits for the 25th,
+50th, and 75th percentiles and medical decision levels were calculated for each test instrument
+against the same comparator.
+Regression Statistics and Correlation
+Test A
+95% Confidence Limits 95% Confidence Limits
+Analyte Unit Slope Lower Upper Intercept Lower Upper Correlation
+WBC 10^3 cells/uL 0.985 0.978 0.992 0.010 -0.022 0.041 1.000
+RBC 10^6 cells/uL 0.992 0.987 0.997 0.027 0.011 0.043 0.999
+HGB g/dL 0.998 0.993 1.003 -0.031 -0.081 0.019 0.999
+MCV fL 0.998 0.989 1.007 0.678 -0.090 1.446 0.998
+RDW % 1.014 1.001 1.027 -0.240 -0.445 -0.035 0.997
+RDWSD fL 1.007 0.993 1.022 -0.593 -1.296 0.110 0.995
+PLT 10^3 cells/uL 1.039 1.031 1.046 0.259 -0.593 1.110 0.999
+MPV fL 0.985 0.947 1.022 0.165 -0.152 0.482 0.969
+NE % 1.002 0.994 1.010 -0.179 -0.763 0.405 0.999
+LY % 1.007 0.996 1.019 -0.043 -0.263 0.177 0.998
+MO % 0.996 0.979 1.013 -0.042 -0.189 0.104 0.997
+EO % 0.977 0.935 1.019 0.005 -0.086 0.096 0.996
+BA % 1.478 0.982 1.975 -0.247 -0.512 0.019 0.705
+NRBC per 100 WBC 1.008 0.882 1.133 -0.015 -0.055 0.026 0.987
+RET % 0.992 0.953 1.031 -0.062 -0.124 -0.001 0.990
+MRV fL 0.966 0.934 0.998 3.026 -0.705 6.757 0.977
+IRF N/A 0.969 0.907 1.030 0.018 -0.012 0.048 0.935
+K193124 - Page 18 of 21
+
+[Table 1 on page 18]
+			95% Confidence Limits			95% Confidence Limits		
+Analyte	Unit	Slope	Lower	Upper	Intercept	Lower	Upper	Correlation
+WBC	10^3 cells/uL	0.985	0.978	0.992	0.010	-0.022	0.041	1.000
+RBC	10^6 cells/uL	0.992	0.987	0.997	0.027	0.011	0.043	0.999
+HGB	g/dL	0.998	0.993	1.003	-0.031	-0.081	0.019	0.999
+MCV	fL	0.998	0.989	1.007	0.678	-0.090	1.446	0.998
+RDW	%	1.014	1.001	1.027	-0.240	-0.445	-0.035	0.997
+RDWSD	fL	1.007	0.993	1.022	-0.593	-1.296	0.110	0.995
+PLT	10^3 cells/uL	1.039	1.031	1.046	0.259	-0.593	1.110	0.999
+MPV	fL	0.985	0.947	1.022	0.165	-0.152	0.482	0.969
+NE	%	1.002	0.994	1.010	-0.179	-0.763	0.405	0.999
+LY	%	1.007	0.996	1.019	-0.043	-0.263	0.177	0.998
+MO	%	0.996	0.979	1.013	-0.042	-0.189	0.104	0.997
+EO	%	0.977	0.935	1.019	0.005	-0.086	0.096	0.996
+BA	%	1.478	0.982	1.975	-0.247	-0.512	0.019	0.705
+NRBC	per 100 WBC	1.008	0.882	1.133	-0.015	-0.055	0.026	0.987
+RET	%	0.992	0.953	1.031	-0.062	-0.124	-0.001	0.990
+MRV	fL	0.966	0.934	0.998	3.026	-0.705	6.757	0.977
+IRF	N/A	0.969	0.907	1.030	0.018	-0.012	0.048	0.935
+
+--- Page 19 ---
+Test B
+95% Confidence Limits 95% Confidence Limits
+Analyte Unit Slope Lower Upper Intercept Lower Upper Correlation
+WBC 10^3 cells/uL 1.001 0.996 1.006 0.003 -0.014 0.020 1.000
+RBC 10^6 cells/uL 1.011 1.000 1.023 -0.003 -0.042 0.037 0.999
+HGB g/dL 1.006 1.001 1.011 0.006 -0.042 0.054 0.999
+MCV fL 0.987 0.980 0.993 1.020 0.424 1.617 0.999
+RDW % 0.999 0.984 1.014 -0.025 -0.261 0.212 0.996
+RDWSD fL 1.003 0.986 1.020 -0.117 -0.929 0.695 0.994
+PLT 10^3 cells/uL 1.000 0.994 1.007 -0.301 -1.130 0.528 0.999
+MPV fL 0.984 0.940 1.029 0.122 -0.251 0.494 0.973
+NE % 1.001 0.992 1.010 -0.233 -0.911 0.446 0.998
+LY % 1.006 0.994 1.018 0.086 -0.140 0.312 0.998
+MO % 1.000 0.984 1.017 -0.091 -0.227 0.046 0.996
+EO % 0.974 0.923 1.025 0.039 -0.070 0.147 0.995
+BA % 1.123 0.814 1.432 -0.027 -0.185 0.131 0.676
+NRBC per 100 WBC 1.003 0.885 1.122 -0.008 -0.049 0.032 0.985
+RET % 1.053 1.007 1.099 -0.064 -0.136 0.009 0.992
+MRV fL 1.009 0.971 1.048 -1.697 -6.152 2.758 0.973
+IRF N/A 0.978 0.929 1.027 0.004 -0.020 0.028 0.945
+Measurement Procedure Comparison to Predicate device (DxH 800 v 3.8) for MDW
+– Change 4
+The objective of the study was to support substantial equivalence by comparison of the MDW
+values obtained on the DxH 800 system version 3.9.0, (automated VSCn Optimization (Change
+4)) to the values obtained on the predicate device, DxH 800 version 3.8.0 (K181599).
+A total of 107 whole blood specimens (18 normal, 89 clinical) collected in in K2EDTA
+comprised of normal specimens obtained from the in-house donor program, and clinical
+specimens obtained from spent hospital samples, meeting the following criteria:
+• Normal: 4 – 24 hours old stored at room temperature
+• Abnormal: 4 – 24 hours old. Defined as native samples from ambulatory subjects. Use for
+MDW range coverage 20 – 25+
+Regression analysis was performed using replicate 1 of the test instrument versus replicate 1 of
+the comparator instrument. Basic summary statistics and Bland-Altman plots were calculated.
+Deming approach was used to estimate regression parameters. Bias was calculated at 50th
+percentile point and cut-off levels when appropriate. Confidence limits were calculated based on
+standard errors and 95% confidence. The upper/lower confidence limits were compared to the
+Acceptance Limits. The 50th percentile and cut-off levels (near 20) correspond to the cut-off
+point for the early detection of Sepsis. MDW comparability results met the specifications.
+K193124 - Page 19 of 21
+
+[Table 1 on page 19]
+			95% Confidence Limits			95% Confidence Limits		
+Analyte	Unit	Slope	Lower	Upper	Intercept	Lower	Upper	Correlation
+WBC	10^3 cells/uL	1.001	0.996	1.006	0.003	-0.014	0.020	1.000
+RBC	10^6 cells/uL	1.011	1.000	1.023	-0.003	-0.042	0.037	0.999
+HGB	g/dL	1.006	1.001	1.011	0.006	-0.042	0.054	0.999
+MCV	fL	0.987	0.980	0.993	1.020	0.424	1.617	0.999
+RDW	%	0.999	0.984	1.014	-0.025	-0.261	0.212	0.996
+RDWSD	fL	1.003	0.986	1.020	-0.117	-0.929	0.695	0.994
+PLT	10^3 cells/uL	1.000	0.994	1.007	-0.301	-1.130	0.528	0.999
+MPV	fL	0.984	0.940	1.029	0.122	-0.251	0.494	0.973
+NE	%	1.001	0.992	1.010	-0.233	-0.911	0.446	0.998
+LY	%	1.006	0.994	1.018	0.086	-0.140	0.312	0.998
+MO	%	1.000	0.984	1.017	-0.091	-0.227	0.046	0.996
+EO	%	0.974	0.923	1.025	0.039	-0.070	0.147	0.995
+BA	%	1.123	0.814	1.432	-0.027	-0.185	0.131	0.676
+NRBC	per 100 WBC	1.003	0.885	1.122	-0.008	-0.049	0.032	0.985
+RET	%	1.053	1.007	1.099	-0.064	-0.136	0.009	0.992
+MRV	fL	1.009	0.971	1.048	-1.697	-6.152	2.758	0.973
+IRF	N/A	0.978	0.929	1.027	0.004	-0.020	0.028	0.945
+
+--- Page 20 ---
+Regression Statistics and Correlation (MDW)
+95% Confidence Limits 95% Confidence Limits
+Slope Lower Upper Intercept Lower Upper Correlation
+Test A 1.023 0.899 1.148 -0.385 -3.013 2.242 0.952
+Test B 1.029 0.910 1.147 -0.388 -2.895 2.120 0.948
+2. Matrix Comparison:
+Refer to 510(k) cleared device: K120771
+C Clinical Studies:
+1. Clinical Sensitivity:
+Refer to 510(k) cleared device: K120771
+2. Clinical Specificity:
+Refer to 510(k) cleared device: K120771
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Refer to 510(k) cleared devices: K120771 and K140911
+D Clinical Cut-Off:
+Not applicable
+E Expected Values/Reference Range:
+Refer to 510(k) cleared device: K120771
+F Other Supportive Instrument Performance Characteristics Data:
+Refer to 510(k) cleared devices: K120771 and K140911
+Retrospective Data Analysis
+The objective was to conduct a retrospective data analysis using data obtained during the
+investigation to determine the flagging rates of erroneous PLT events before and after the
+addition of the flagging criteria. The study involved comparison of erroneously elevated platelet
+event rates in pre- and post- release of the additional platelet flagging criteria on the DxH
+800/600 software.
+K193124 - Page 20 of 21
+
+[Table 1 on page 20]
+							
+		95% Confidence Limits			95% Confidence Limits		
+							
+	Slope	Lower	Upper	Intercept	Lower	Upper	Correlation
+Test A	1.023	0.899	1.148	-0.385	-3.013	2.242	0.952
+Test B	1.029	0.910	1.147	-0.388	-2.895	2.120	0.948
+
+--- Page 21 ---
+Sample runs on 678 DxH 800/600 instruments (connected to BEC via ProService) containing the
+platelet flagging criteria software were analyzed. The calculated results and flags from runs on
+these instruments were evaluated for the presence of the low-end platelet interference flag (PLT
+Inter: Debris) pre- and post- installation of the flagging criteria software. Pre- and Post- software
+release event rates were compared to each other and the difference between event rates was
+normally distributed and the standardized zscore was calculated.
+The retrospective data analysis demonstrated the flagging rate remained statistically unchanged
+with or without the addition of the additional platelet flagging criteria.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K193124 - Page 21 of 21

@@ -1,0 +1,181 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+To change a limitation statement pertaining to pregnant women in the Cepheid Xpert CT/NG Assay package insert
+
+# D. Type of Test:
+
+# E. Applicant:
+
+F. Proprietary and Established Names: Xpert CT/NG
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CRF 866.3990, Neisseria spp. direct serological test reagents
+
+2. Classification: Class II
+
+3. Product code: LSL: DNA-Reagents, Neisseria MKZ: DNA Probe, Nucleic Acid Amplification, Chlamydia OOI: Real Time Nucleic Acid Amplification System
+
+4. Panel:
+
+# Microbiology (83)
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+Xpert CT/NG Assay
+
+The Xpert CT/NG Assay, performed on the GeneXpert Instrument Systems, is a qualitative in vitro real-time PCR test for the automated detection and differentiation of genomic DNA from Chlamydia trachomatis (CT) and/or Neisseria gonorrhoeae (NG) to aid in the diagnosis of chlamydial and gonorrheal urogenital disease. The assay may be used to test the following specimens from asymptomatic and symptomatic individuals: female and male urine, endocervical swab, and patient-collected vaginal swab (collected in a clinical setting).
+
+Ancillary Collection Kits
+
+Xpert Vaginal/Endocervical Specimen Collection Kit
+
+The Cepheid Xpert Vaginal/Endocervical Specimen Collection Kit is designed to collect, preserve and transport Chlamydia trachomatis, Neisseria gonorrhoeae, and Trichomonas vaginalis DNA in endocervical swab specimens (collected by a clinician) and patientcollected vaginal swab specimens (collected in a clinical setting) from symptomatic and asymptomatic women prior to analysis with the Xpert CT/NG Assay and the Xpert TV Assay.
+
+Xpert Urine Specimen Collection Kit
+
+The Cepheid Xpert Urine Specimen Collection Kit is designed to preserve and transport Chlamydia trachomatis, Neisseria gonorrhoeae, and Trichomonas vaginalis DNA in first-catch male and female urine specimens from symptomatic and asymptomatic individuals prior to analysis with the Xpert CT/NG Assay and the Xpert TV Assay.
+
+2. Indication(s) for use: Same as Intended Use.
+
+3. Special conditions for use statement(s): For Prescription Use
+
+4. Special instrument requirements: To be used only with the GeneXpert Instrument Systems
+
+# I. Device Description:
+
+The Xpert CT/NG Assay is an automated in vitro diagnostic test for qualitative detection and differentiation of DNA from Chlamydia trachomatis (CT) and/or Neisseria gonorrhoeae (NG).
+
+The Xpert CT/NG assay is performed on the Cepheid GeneXpert Instrument Systems. The GeneXpert Instrument System consists of an instrument, personal computer, and preloaded software for running tests and viewing the results. The system requires single-use, disposable cartridges that hold the PCR reagents and host the PCR process. It automates and integrates sample purification, nucleic acid amplification, and detection of the target sequences in the urogenital samples using real-time PCR for gene specific sequence amplification.
+
+The Xpert CT/NG Assay includes reagents for the $5 ^ { \circ }$ exonuclease real-time PCR detection and differentiation of CT and NG. Reagents for the detection of a Sample Processing Control (SPC), a Sample Adequacy Control (SAC), and a Probe Check Control (PCC) are also included in the cartridge. The SPC is present to control for adequate processing of the target bacteria and to monitor the presence of inhibitors in the PCR reaction. The SAC reagents detect the presence of a single copy human gene and monitor whether the specimen contains human DNA. The PCC verifies reagent rehydration, PCR tube filling in the cartridge, probe integrity, and dye stability. The primers and probes in the Xpert CT/NG Assay detect chromosomal sequences in the bacteria.
+
+The Xpert CT/NG Assay is desined for use with urogenital specimens collected using the ancillary specimen collection kits (described in section H above). The specimen collected from asymptomatic or symptomatic individual is briefly mixed and transferred to the sample chamber of the Xpert CT/NG cartridge using the supplied transfer pipette. The cartridge is loaded onto the GeneXpert Instrument System platform, which performs hands-off, automated sample processing and real-time PCR for detection of DNA. Test results are obtained in approximately 90 minutes and are displayed in tabular and graphic formats.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Xpert CT/NG
+
+2. Predicate 510(k) number(s): K121710
+
+3. Comparison with predicate:
+
+Table 1: Similarities between Cepheid Xpert CT/NG and Predicate Device   
+
+<table><tr><td colspan="3">Similarities</td></tr><tr><td rowspan="2">Item</td><td>Device</td><td>Predicate Device</td></tr><tr><td>Cepheid Xpert CT/NG (K173840)</td><td>Cepheid Xpert CT/NG (K121710)</td></tr><tr><td>Regulation</td><td>866.3390</td><td>866.3390</td></tr><tr><td>Device Class</td><td>I</td><td>II</td></tr><tr><td>Technology/ Detection</td><td>Multiplex real-time polymerase chain reaction</td><td>Same</td></tr><tr><td>Intended Use</td><td>The Xpert CT/NG Assay, performed on the GeneXpert Instrument Systems, is a qualitative in vitro real-time PCR test for the automated detection and differentiation of genomic DNA from Chlamydia trachomatis (CT) and/or Neisseria gonorrhoeae (NG) to aid in the diagnosis of chlamydial and gonorrheal urogenital disease. The assay may be used to test the following specimens from asymptomatic and symptomatic individuals: female and male urine, endocervical swab, and patient-collected vaginal swab (collected in a clinical setting). Ancillary Collection Kits: Xpert Vaginal/Endocervical Specimen Collection Kit</td><td>Same</td></tr><tr><td colspan="1" rowspan="1">Cepheid Xpert CT/NG(K173840)</td><td colspan="1" rowspan="1">Cepheid Xpert CT/NG(K121710)</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">setting) from symptomatic andasymptomatic women prior toanalysis with the Xpert CT/NGAssay and the Xpert TV Assay.Xpert Urine Specimen CollectionKitThe Cepheid Xpert UrineSpecimen Collection Kit isdesigned to preserve andtransport Chlamydia trachomatis,Neisseria gonorrhoeae, andTrichomonas vaginalis DNA infirst-catch male and female urinespecimens from symptomatic andasymptomatic individuals prior toanalysis with the Xpert CT/NGAssay and the Xpert TV Assay.</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Assay Targets</td><td colspan="1" rowspan="1">DNA from Chlamydiatrachomatis (CT) and/orNeisseria gonorrhoeae (NG)</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Specimen Type</td><td colspan="1" rowspan="1">Urine (male and female),endocervical swab, and patient-collected vaginal swab (collectedin a clinical setting)</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">CT Analyte Targets</td><td colspan="1" rowspan="1">CT genomic DNA</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">NG Analyte Targets</td><td colspan="1" rowspan="1">NG genomic DNA</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Collection Kit</td><td colspan="1" rowspan="1">Urine collection kitSwab collection kit</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Nucleic Acid Extraction</td><td colspan="1" rowspan="1">Yes</td><td colspan="1" rowspan="1">Yes</td></tr><tr><td colspan="1" rowspan="1">Assay Controls</td><td colspan="1" rowspan="1">Internal sample processingcontrol (SPC), sample adequacycontrol (SAC), and probe checkcontrol (PCC)</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Assay Results</td><td colspan="1" rowspan="1">Qualitative</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Instrument System</td><td colspan="1" rowspan="1">Cepheid GeneXpert</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Instrument Systems</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Time to test results</td><td colspan="1" rowspan="1">Approximately 90 minutes (1.5hours) to results.</td><td colspan="1" rowspan="1">Same</td></tr></table>
+
+Table 2: Differences Between Cepheid Xpert CT/NG and Predicate Device   
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>cYanmaGtYellowb</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate Device</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Cepheid Xpert CT/NG(K173840)</td><td rowspan=1 colspan=1>Cepheid Xpert CT/NG(K121710)</td></tr><tr><td rowspan=1 colspan=1>Limitation</td><td rowspan=1 colspan=1>Xpert CT/NG Assay performancehas not been evaluated in patientswith a history of hysterectomy.</td><td rowspan=1 colspan=1>Xpert CT/NG Assay performancehas not been evaluated inpregnant women, or in patientswith a history of hysterectomy.</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+1. BS EN ISO 23640, In vitro diagnostic medical devices. Evaluation of Stability Testing of in vitro Diagnostic Reagents, June 2015.   
+2. ASTM D4169-2005 and ASTM D4169-2009, Standard Practice for Performance Testing of Shipping Containers and Systems.   
+3. CLSI EP5-A2, Evaluation of Precision Performance of Quantitative Measurement Methods; Approved Guideline –Second Edition.   
+4. CLSI MM3-A2, Molecular Diagnostic Methods for Infectious Disease; Approved Guideline –Second Edition.   
+5. Nucleic Acid Based In Vitro Diagnostic Devices for Detection of Microbial Pathogens - Draft Guidance for Industry and FDA Staff, December 8, 2005.   
+6. Guidance for Industry and FDA Staff, Format for Traditional and Abbreviated 510(k), August 12, 2005.   
+7. Guidance for Industry and FDA Staff - Class II Special Controls Guidance Document: Instrumentation for Clinical Multiplex Test Systems, March 10, 2005.   
+8. Guidance for Industry- Cybersecurity for Network Medical devices containing Off-theshelf (OTS) Software, issued January 14, 2005.   
+9. Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices - Guidance for Industry and FDA Staff, May 11, 2005.   
+10. Guidance for Off-the-Shelf Software Use in Medical Devices; Final, September 9, 1999.
+
+# L. Test Principle:
+
+This assay amplifies Chlamydia trachomatis and Neisseria gonorrhoeae unique chromosomal gene sequences using real time polymerase chain reaction technology. The amplified DNA is detected by fluorogenic target-specific probe hybridization followed by $5 ^ { \circ }$ - nuclease cleavage of the probe to release the fluorophore. The resulting fluorescent signal is measured using the GeneXpert instrument system.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Reproducibility and within laboratory precision studies were previously reviewed and described in K121710.
+
+b. Linearity/assay reportable range: Not Applicable; this is a qualitative assay.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Specimen stability and controls were previously reviewed and described in K121710.
+
+d. Detection limit: Limit of detection study was previously reviewed and described in K121710.
+
+e. Analytical reactivity: Inclusivity was previously reviewed and described in K121710.
+
+f. Analytical specificity:
+
+Cross-reactivity with relevant microorganisms and interference by potentially interfering substances were previously reviewed and described in K121710.
+
+g. Carryover/Cross-contamination:
+
+Carryover/Cross-contamination study was previously reviewed and described in K121710.
+
+h. Assay cut-off:
+
+Assay cut-off was previously reviewed and described in K121710.
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable.   
+b. Matrix comparison: Not applicable.
+
+3. Clinical studies:
+
+The clinical data from K121710 was reanalyzed to evaluate the performance of the Xpert CT/NG for urine specimens, endocervical swabs, and patient-collected vaginal swabs (in the clinical setting) collected from pregnant women. Please refer to the decision summary of K121710 for the details of the clinical study. The specimens included in K121710 clinical study were collected at 36 geographically diverse sites (including four sites located in the United Kingdom) from consenting asymptomatic and symptomatic, sexually active males and females seen at locations including, but not limited to: OB/GYN, sexually transmitted disease (STD), teen, public health, and family planning clinics. The samples were tested at 15 sites. The clinical study included 3781 eligible female subjects; the current submission included reanalysis of data for 106 women pregnant at the time of specimen collection amongst the 3781eligible women. Result obtained by the Xpert CT/NG for each claimed specimen type (endocervical swab, patient-collected vaginal swab, and female urine specimen) was evaluated against the Patient Infected Status (PIS). The Xpert CT/NG showed a point estimate of $100 \%$ for both sensitivity and specificity with endocervical, patient-collected vaginal swab, and urine from pregnant females. Additionally, published clinicial literature was provided that supported the use of the Xpert CT/NG in pregnant women.
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: Please refer to the decision summary of K121710.
+
+# N. Instrument Name:
+
+GeneXpert Instrument Systems
+
+· GeneXpert Dx System · GeneXpert Infinity-48 System · GeneXpert Infinity-80 System
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+Does the applicant’s device contain the ability to transmit data to a computer, webserver, or mobile device?
+
+Yes ____X____ or No
+
+Does the applicant’s device transmit data to a computer, webserver, or mobile device using wireless transmission?
+
+Yes _ or No ___X_
+
+2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ___X____ or No
+
+3. Specimen Identification:
+
+Specimen identification is performed with a barcode scanner or by manually entering the information into GeneXpert system software.
+
+4. Specimen Sampling and Handling:
+
+Specimen handling is performed in either an Automation Mode or in a Manual Mode. In the Automation Mode, test cartridges are placed on a conveyor belt, picked up by a gantry, and introduced into an available module for processing.
+
+5. Calibration:
+
+Calibration is performed by Cepheid prior to installation. The user does not calibrate or perform any serviceable functions on the instruments. A calibration check is recommended on the annual basis. In the GeneXpert Operator’s Manual, the user is instructed to contact Cepheid Technical Support for information about calibration.
+
+# 6. Quality Control:
+
+The integrity of the system is verified and controlled by specific hardware/software checks during the cartridge load process, and during the test itself. The Xpert CT/NG includes a sample adequacy control to verify that human DNA is present in the sample, a sample processing control to verify adequate processing of sample, and a probe check control to ensure adequate regaent rehydration, probe integrity, and dye stability.
+
+# P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+N/A
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

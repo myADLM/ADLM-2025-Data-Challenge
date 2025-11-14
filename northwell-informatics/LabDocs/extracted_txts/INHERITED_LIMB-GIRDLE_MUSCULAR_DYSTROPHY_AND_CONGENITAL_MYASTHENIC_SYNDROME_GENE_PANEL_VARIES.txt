@@ -1,0 +1,97 @@
+Standard Operating Procedures (SOP) for Inherited Limb-Girdle
+Muscular Dystrophy and Congenital Myasthenic Syndrome Gene
+Panel Testing
+1. PURPOSE
+The purpose of this SOP is to outline the procedures for generating
+accurate and reproducible results in the analytical phase for the
+Inherited Limb-Girdle Muscular Dystrophy and Congenital
+Myasthenic Syndrome Gene Panel. This SOP ensures all processes
+are rigorously controlled to provide high-quality genetic testing
+results.
+Responsibility:
+It is the responsibility of the laboratory technologists and molecular
+biologists to adhere to this SOP, ensuring the integrity and accuracy
+of the gene panel testing. Supervisors must verify compliance and
+address any deviations from the standard procedure.
+1. DEFINITION
+Inherited Limb-Girdle Muscular Dystrophy and Congenital
+Myasthenic Syndrome Gene Panel Testing involves sequencing and
+analysis of genes known to be associated with these conditions. The
+test aims at identifying pathogenic variants that could explain the
+clinical symptoms observed in patients.
+1. PROCEDURE
+Equipment, Reagents, and Supplies:
+• Thermocyclers
+• DNA Sequencers (e.g., Illumina NextSeq, MiSeq)
+• Reagent Kits (e.g., amplification, library preparation kits)
+• Quality Control Materials (positive and negative controls)
+• Laboratory Information Management System (LIMS) for data
+tracking and reporting
+Specimens:
+Preferred/acceptable:
+• 3 mL of whole blood collected in EDTA tubes and transported to
+the laboratory within 48 hours of collection.
+• Extracted DNA with a minimum concentration of 20 ng/µL, with a
+total volume of at least 50 µL.
+Unacceptable:
+• Samples arriving beyond 48 hours of collection without
+temperature-controlled transport.
+• Specimens without collection date/time indicated.
+• Samples visibly contaminated or degraded.
+Procedure:
+A. DNA Extraction:
+1. Follow the specific protocol for DNA extraction from whole
+blood using Qiagen DNeasy Blood & Tissue Kit.
+2. Quantify and assess the purity of DNA using Nanodrop
+spectrophotometer and Qubit fluorometer.
+3. Store DNA at -20°C until ready to use.
+B. Library Preparation:
+1. Normalize DNA concentration to 20 ng/µL.
+2. Perform PCR amplification using designated primers for the
+gene panel.
+3. Clean up PCR products using AMPure XP beads.
+4. Quantify and assess the quality of the library using Bioanalyzer
+or TapeStation.
+C. Sequencing:
+1. Load libraries onto the sequencing platform following
+manufacturer’s instructions.
+2. Perform sequencing run, ensuring optimal cluster density and
+quality metrics.
+D. Data Analysis:
+1. Generate FASTQ files from sequencing data.
+2. Use bioinformatics pipelines like BWA (Burrows-Wheeler
+Aligner) to align sequences to the reference genome.
+3. Call variants using tools like GATK (Genome Analysis Toolkit).
+4. Annotate variants and filter for potential pathogenic mutations
+associated with the target conditions.
+E. Quality Control:
+1. Include positive and negative controls in each run.
+2. Ensure sequencing data meets quality metrics (e.g., Q30 score,
+coverage depth).
+3. Review variant calls manually for concordance and potential
+errors.
+4. Document all QC steps and report any anomalies to the
+supervisor.
+Reporting Results:
+1. Validate results in LIMS.
+2. Interpret pathogenicity of detected variants based on ACMG
+guidelines.
+3. Generate a comprehensive report detailing identified mutations,
+their potential clinical significance, and recommendations for
+further action.
+4. Review and sign-off by a certified geneticist before reporting to
+clinicians.
+Reference Intervals:
+Refer to the established pathogenicity classifications and gene-
+specific reference intervals as per ACMG guidelines.
+Method Limitations:
+All limitations are detailed in manufacturers' kits insert and
+bioinformatics pipelines documentation. It is the responsibility of the
+technologist to be aware of these when interpreting the results.
+References:
+Refer to the manufacturer's protocol for library preparation kits,
+sequencing platform manuals, and ACMG guidelines for variant
+classification.
+This SOP ensures a systematic approach to generating reliable and
+clinically relevant genetic data for Inherited Limb-Girdle Muscular
+Dystrophy and Congenital Myasthenic Syndrome gene panels.

@@ -1,0 +1,100 @@
+STANDARD OPERATING PROCEDURE BCR::ABL1 T(9;22) MINOR
+(P190), QUANTITATIVE ANALYSIS
+1. PURPOSE
+To provide a standardized procedure for the detection and
+quantification of the BCR::ABL1 T(9;22) MINOR (P190) fusion
+transcript in peripheral blood or bone marrow samples using reverse
+transcription quantitative polymerase chain reaction (RT-qPCR).
+Responsibility:
+• Designated laboratory personnel are responsible for performing
+this procedure accurately and maintaining all necessary
+documentation.
+• Supervisors are responsible for ensuring all personnel are
+adequately trained and all equipment and reagents are
+appropriate for use.
+1. SPECIMEN REQUIREMENTS AND STORAGE
+Specimen Types:
+• Peripheral blood or bone marrow samples collected in EDTA
+tubes are acceptable.
+Specimen Handling:
+• Samples should be processed and RNA extracted as soon as
+possible after collection.
+• If processing is delayed, store specimens at 2-8°C for up to 24
+hours or at -80°C for long-term storage.
+Unacceptable Specimens:
+• Hemolyzed, clotted, or improperly labeled specimens.
+• Specimens stored more than 24 hours at 2-8°C or not frozen
+immediately for long-term storage.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+Equipment:
+• Class II Biosafety Cabinet
+• Microcentrifuge
+• Real-Time PCR Instrument
+• Micropipettes and tips
+• Vortex mixer
+• Thermal cycler for cDNA synthesis
+Reagents and Supplies:
+• RNA Extraction Kit
+• Reverse Transcriptase Kit
+• BCR::ABL1 T(9;22) MINOR (P190) specific primers and probes
+• DNase/RNase-free water
+• PCR tubes or plates
+• Quantitative PCR Master Mix
+1. PROCEDURE
+4.1 RNA Extraction
+1. Isolate total RNA from 1-5 mL of peripheral blood or 1-2 mL of
+bone marrow using the RNA Extraction Kit following the
+manufacturer's instructions.
+2. Assess the quantity and quality of RNA by measuring the A260/
+A280 ratio; acceptable purity is 1.8-2.0.
+4.2 cDNA Synthesis
+1. Prepare cDNA synthesis reactions using the Reverse
+Transcriptase Kit and 1 μg of total RNA in a final reaction
+volume of 20 μL as per the kit guidelines.
+2. Incubate in a thermal cycler under the recommended conditions
+(e.g., 42°C for 60 minutes, followed by 70°C for 5 minutes).
+4.3 Quantitative PCR
+1. Prepare PCR reactions in a sterile area by combining the
+following in each PCR tube or well (total volume: 25 μL): • 12.5
+μL of 2X Quantitative PCR Master Mix • 1 μL of each primer
+(final concentration 400 nM) • 1 μL of BCR::ABL1 probe (final
+concentration 200 nM) • 5 μL of cDNA template • 5.5 μL of
+DNase/RNase-free water
+2. Perform multiplex RT-qPCR assays including housekeeping
+gene control (e.g., ABL1).
+3. Setup the reaction on the Real-Time PCR Instrument with the
+following cycling parameters: • Initial denaturation: 95°C for 10
+minutes • 40 cycles of 95°C for 15 seconds, 60°C for 1 minute
+4.4 Data Analysis and Interpretation
+1. Evaluate the amplification plots and determine the threshold
+cycle (Ct) values for the test and control reactions.
+2. Normalize the BCR::ABL1 minor transcript levels to the
+housekeeping gene control using the ΔCt method.
+3. Calculate the relative quantity of BCR::ABL1 minor transcripts
+in the sample using the 2^-(ΔΔCt) method.
+4.5 Quality Control
+1. Include negative and positive controls in each run. Positive
+controls should consist of previously quantified RNA known to
+contain BCR::ABL1 minor P190 fusion transcript.
+2. Negative controls should contain all components except the
+RNA template to check for contamination.
+4.6 Reporting Results
+1. Quantitate BCR::ABL1 minor (P190) fusion transcript levels and
+express results as a normalized ratio to the control gene.
+2. Document and review results ensuring consistency with quality
+control values.
+3. Report results in the laboratory information system (LIS)
+ensuring all associated data (e.g., method, controls) is
+accurately recorded.
+4. REFERENCES
+• Manufacturer’s insert for RNA Extraction Kit
+• Manufacturer’s insert for Reverse Transcriptase Kit
+• Manufacturer’s insert for Quantitative PCR Master Mix
+Note: The procedure and protocols should continuously be reviewed
+and updated based on the latest research and recommendations
+from relevant governing bodies and the manufacturer’s guidelines.
+Attachments:
+• RNA Extraction Protocol
+• Reverse Transcription Protocol
+• Example Data Analysis Sheet
+• Quality Control Log

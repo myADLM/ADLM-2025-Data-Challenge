@@ -1,0 +1,548 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I. Background Information:
+A. 510(k) Number
+K201005
+B. Applicant
+Paige.AI, Inc.
+C. Proprietary and Established Names
+FullFocusTM
+D. Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+QKQ Class II 21 CFR 864.3700 Pathology
+II. Submission/Device Overview:
+A. Purpose for Submission:
+New device
+B. Type of Test:
+Not applicable – software-only device
+III. Intended Use/Indications for Use:
+A. Intended Use(s):
+See Indications for Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700			Pathology
+
+--- Page 2 ---
+B. Indication(s) for Use:
+For In Vitro Diagnostic Use
+FullFocus™ is a software only device intended for viewing and management of digital images of
+scanned surgical pathology slides prepared from formalin-fixed paraffin embedded (FFPE)
+tissue. It is an aid to the pathologist to review, interpret, and manage digital images of pathology
+slides for primary diagnosis. FullFocus is not intended for use with frozen sections, cytology, or
+non-FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ appropriate procedures and safeguards
+to assure the quality of the images obtained and, where necessary, use conventional light
+microscopy review when making a diagnostic decision. FullFocus is intended for use with
+Philips Ultra Fast Scanner and monitor displays validated with verified test methods to meet
+required performance characteristics.
+C. Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV. Device/System Characteristics:
+A. Device Description:
+FullFocus (version 1.2.1) is a web-based software-only device for viewing and manipulating
+digital pathology images of glass slides obtained from the Philips IntelliSite Pathology Solution
+(PIPS) Ultra Fast Scanner (UFS) on the monitor displays that are validated with verified test
+methods to meet required performance characteristics. FullFocus renders the uploaded slide
+images and is an aid to the pathologist to review, interpret and manage digital images of
+pathology slides for primary diagnosis.
+The subject device is operated as follows:
+1. The image acquisition is performed using the predicate device, PIPS UFS. The operator
+performs quality control of the digital slides per the instructions of PIPS UFS and lab
+specifications to determine if re-scans are necessary.
+2. Once slide image is acquired using PIPS UFS, according to its Instructions for Use, and
+becomes available in scanner database file systems, a separate medical image
+communications software (not part of the device) will automatically initiate uploading the
+slide image and corresponding metadata to persistent cloud storage. Integrity checks are
+being performed at upload time when data is copied to storage.
+3. The reading pathologist uses the subject device to select a case (patient), view the images
+and is able to perform the following actions, as needed:
+a. Zoom and pan the image
+b. Measure distances and areas in the image
+c. Annotate images
+K201005 - Page 2 of 9
+
+--- Page 3 ---
+4. After viewing all images belonging to a particular case (patient), the pathologist will
+make a diagnosis.
+Minimum System Requirements - Computer Environment
+The system requirements are given in Tables 1 through 4 below.
+Table 1: WSI scanner(s) that can be used with FullFocus
+Manufacturer Model
+Philips Medical Systems Nederland B.V. Ultra Fast Scanner (UFS)
+Table 2: Monitors that can be used with FullFocus
+Manufacturer Model
+Barco N.V. PP27QHD
+Philips PS27QHDCR
+Table 3: Computer environment minimum requirements for FullFocus
+Computer Environment Minimum Requirements
+Hardware Network bandwidth: 10 Mbps or above
+CPU: 2 cores, 1.6 GHz
+RAM: 4 GB
+Software Browsers:
+• Google Chrome (minimum version 83.0.4103.116)
+• Microsoft Edge (minimum version 44.18362.449.0)
+• Firefox (minimum version 72.0.2)
+Table 4: Test methods to be used for evaluating additional monitors.
+Minimum
+ID Specification Test method
+Requirement
+1 Warm-up Time +/-1.25% / hour IDMS 10.1
+MTF >35% at
+2 Resolution TG-18 4.5.4.1.1
+Nyquist
+Visual assessment – Stuck ON and
+3 Pixel defect < 5 pixels Stuck OFF per Defective Pixels
+(IDMS 7.6)
+4 Gray tracking +/- 0.02 delta-u’v’ AAPM Task Group 18 and 196 Reports
+K201005 - Page 3 of 9
+
+[Table 1 on page 3]
+Manufacturer	Model
+Philips Medical Systems Nederland B.V.	Ultra Fast Scanner (UFS)
+
+[Table 2 on page 3]
+Manufacturer	Model
+Barco N.V.	PP27QHD
+Philips	PS27QHDCR
+
+[Table 3 on page 3]
+Computer Environment	Minimum Requirements
+Hardware	Network bandwidth: 10 Mbps or above
+CPU: 2 cores, 1.6 GHz
+RAM: 4 GB
+Software	Browsers:
+• Google Chrome (minimum version 83.0.4103.116)
+• Microsoft Edge (minimum version 44.18362.449.0)
+• Firefox (minimum version 72.0.2)
+
+[Table 4 on page 3]
+ID	Specification		Minimum		Test method
+			Requirement		
+1	Warm-up Time	+/-1.25% / hour			IDMS 10.1
+2	Resolution	MTF >35% at
+Nyquist			TG-18 4.5.4.1.1
+3	Pixel defect	< 5 pixels			Visual assessment – Stuck ON and
+Stuck OFF per Defective Pixels
+(IDMS 7.6)
+4	Gray tracking	+/- 0.02 delta-u’v’			AAPM Task Group 18 and 196 Reports
+
+--- Page 4 ---
+<= 0.02 delta-u'v'
+5 Color Temperature AAPM Task Group 196 report
+(D65)
+Contrast response deviation calculated by
+Grayscale Function –
+using TG-18 testing method for all 256
+6 Contrast Response +/-20%
+levels with the target model according to
+Deviation
+sRGB
+Vantage-Point Suite of Measurement
+7 Luminance max >= 350 cd/m2
+(IDMS 2.4)
+8 Contrast ratio >= 1000:1 Sequential Contrast (IDMS 5.10)
+9 Color gamut >= 99% sRGB IDMS 5.18.1
+Vantage-Point Suite of Measurement (2.4)
+Spatial luminance
+10 < 20% IDMS 8.1.2 Sampled Vantage Point
+uniformity
+Uniformity
+Measured using a spectrophotometer over
+11 Color error < 4 dE the IEC61966-4 color patches using sRGB
+00
+color space with D65 white point
+Response Time (IDMS 10.2.2)
+12 Response time <= 20ms and Gray-to-gray Response time (IDMS
+10.2.3) 9x9 points, equal lightness
+Specular reflection
+13 Specular < 2% IDMS 11.7
+coefficient
+Diffuse Reflection
+14 Diffuse < 4% IDMS 11.3.2
+coefficient
+B. Instrument Description Information:
+Modes of Operation Yes No
+Does the applicant’s device contain the ability to transmit data to a
+computer, webserver, or mobile device?
+Does the applicant’s device transmit data to a computer, webserver, or
+mobile device using wireless transmission?
+Software
+FDA has reviewed applicant’s Hazard Analysis and software
+development processes for this line of product types.
+1. Instrument Name:
+FullFocusTM
+K201005 - Page 4 of 9
+
+[Table 1 on page 4]
+5	Color Temperature	<= 0.02 delta-u'v'
+(D65)	AAPM Task Group 196 report
+6	Grayscale Function –
+Contrast Response
+Deviation	+/-20%	Contrast response deviation calculated by
+using TG-18 testing method for all 256
+levels with the target model according to
+sRGB
+7	Luminance max	>= 350 cd/m2	Vantage-Point Suite of Measurement
+(IDMS 2.4)
+8	Contrast ratio	>= 1000:1	Sequential Contrast (IDMS 5.10)
+9	Color gamut	>= 99% sRGB	IDMS 5.18.1
+10	Spatial luminance
+uniformity	< 20%	Vantage-Point Suite of Measurement (2.4)
+IDMS 8.1.2 Sampled Vantage Point
+Uniformity
+11	Color error	< 4 dE
+00	Measured using a spectrophotometer over
+the IEC61966-4 color patches using sRGB
+color space with D65 white point
+12	Response time	<= 20ms	Response Time (IDMS 10.2.2)
+and Gray-to-gray Response time (IDMS
+10.2.3) 9x9 points, equal lightness
+13	Specular reflection
+coefficient	Specular < 2%	IDMS 11.7
+14	Diffuse Reflection
+coefficient	Diffuse < 4%	IDMS 11.3.2
+
+[Table 2 on page 4]
+	Modes of Operation			Yes			No	
+Does the applicant’s device contain the ability to transmit data to a
+computer, webserver, or mobile device?								
+Does the applicant’s device transmit data to a computer, webserver, or
+mobile device using wireless transmission?								
+	Software							
+FDA has reviewed applicant’s Hazard Analysis and software
+development processes for this line of product types.								
+
+--- Page 5 ---
+2. Specimen Identification:
+The FullFocus uses digital pathology images obtained from the Philips IntelliSite Pathology
+Solution (PIPS) Ultra Fast Scanner (UFS) of Hematoxylin and Eosin (H&E) stained glass
+slides. The reading pathologist selects a case (patient) from a worklist external to the subject
+device whereby the subject device fetches the associated images from the external image
+storage. The scanned images are identified based on the previously assigned specimen
+identifier.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is H&E stained. Digital
+images are then obtained from these glass slides using the PIPS UFS.
+4. Calibration:
+Not applicable
+5. Quality Control:
+The subject device receives whole-slide images from the Paige (image) storage. All WSI
+files are quality-controlled images acquired from the scanner according the scanner’s
+instructions for use. The subject device specific quality control measures are as follows:
+• View pathology images - Every pathologist should perform this test on review
+workstation before reading pathology images using the subject device to ensure that
+all scanned slide images have been imported and for every case, view the thumbnails
+in the pathology image window to verify that each slide that should be in the case is
+present (manually verifying tissue block and staining information from LIS).
+Additional details of the quality control procedures are provided in the device Instructions for
+Use.
+V. Substantial Equivalence Information:
+A. Predicate Device Name(s):
+Philips IntelliSite Pathology Solution
+B. Predicate 510(k) Number(s):
+DEN160056
+K201005 - Page 5 of 9
+
+--- Page 6 ---
+C. Comparison with Predicate(s):
+Device & Predicate
+K201005 DEN160056
+Device(s):
+Device Trade Name FullFocusTM Philips IntelliSite Pathology Solution
+General Device
+Characteristic
+Similarities
+FullFocus is a software-only The Philips IntelliSite Pathology
+device intended for viewing Solution (PIPS) is an automated
+and management of digital digital slide creation, viewing, and
+images of scanned surgical
+management system. The PIPS is
+pathology slides prepared from
+intended for in vitro diagnostic use as
+formalin-fixed paraffin
+an aid to the pathologist to review
+embedded (FFPE) tissue. It is
+and interpret digital images of
+an aid to the pathologist to
+surgical pathology slides prepared
+review, interpret, and manage
+from formalin-fixed paraffin
+digital images of pathology
+embedded (FFPE) tissue.
+slides for primary diagnosis.
+FullFocus is not intended for The PIPS is not intended for use with
+use with frozen sections, frozen section, cytology, or non-
+cytology, or non-FFPE FFPE hematopathology specimens.
+hematopathology specimens. The PIPS comprises the Image
+Intended Use
+Management System (IMS), the
+It is the responsibility of a Ultra Fast Scanner (UFS) and
+qualified pathologist to employ Display. The PIPS is for creation and
+appropriate procedures and viewing of digital images of scanned
+safeguards to assure the quality glass slides that would otherwise be
+of the images obtained and, appropriate for manual visualization
+where necessary, use by conventional light microscopy. It
+conventional light microscopy is the responsibility of a qualified
+review when making a pathologist to employ appropriate
+diagnostic decision. FullFocus procedures and safeguards to assure
+is intended for use with Philips the validity of the interpretation of
+Ultra Fast Scanner and monitor images obtained using PIPS.
+displays validated with verified
+test methods to meet required
+performance characteristics.
+Surgical pathology slides
+Specimen Type
+prepared from FFPE tissue Surgical pathology slides prepared
+(scanned digital images is the from FFPE tissue
+starting point)
+Image file format iSyntax Same
+K201005 - Page 6 of 9
+
+[Table 1 on page 6]
+	Device & Predicate		K201005	DEN160056
+	Device(s):			
+Device Trade Name			FullFocusTM	Philips IntelliSite Pathology Solution
+	General Device			
+	Characteristic			
+	Similarities			
+Intended Use			FullFocus is a software-only
+device intended for viewing
+and management of digital
+images of scanned surgical
+pathology slides prepared from
+formalin-fixed paraffin
+embedded (FFPE) tissue. It is
+an aid to the pathologist to
+review, interpret, and manage
+digital images of pathology
+slides for primary diagnosis.
+FullFocus is not intended for
+use with frozen sections,
+cytology, or non-FFPE
+hematopathology specimens.
+It is the responsibility of a
+qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the quality
+of the images obtained and,
+where necessary, use
+conventional light microscopy
+review when making a
+diagnostic decision. FullFocus
+is intended for use with Philips
+Ultra Fast Scanner and monitor
+displays validated with verified
+test methods to meet required
+performance characteristics.	The Philips IntelliSite Pathology
+Solution (PIPS) is an automated
+digital slide creation, viewing, and
+management system. The PIPS is
+intended for in vitro diagnostic use as
+an aid to the pathologist to review
+and interpret digital images of
+surgical pathology slides prepared
+from formalin-fixed paraffin
+embedded (FFPE) tissue.
+The PIPS is not intended for use with
+frozen section, cytology, or non-
+FFPE hematopathology specimens.
+The PIPS comprises the Image
+Management System (IMS), the
+Ultra Fast Scanner (UFS) and
+Display. The PIPS is for creation and
+viewing of digital images of scanned
+glass slides that would otherwise be
+appropriate for manual visualization
+by conventional light microscopy. It
+is the responsibility of a qualified
+pathologist to employ appropriate
+procedures and safeguards to assure
+the validity of the interpretation of
+images obtained using PIPS.
+Specimen Type			Surgical pathology slides
+prepared from FFPE tissue
+(scanned digital images is the
+starting point)	Surgical pathology slides prepared
+from FFPE tissue
+Image file format			iSyntax	Same
+
+--- Page 7 ---
+Panning, zooming, color
+Image Manipulation manipulation function,
+Same
+Functions annotations, and measurements
+(distance & area)
+Type of Software Internet browser-based
+Same
+Application applications
+General Device
+Characteristic
+Differences
+FullFocus image viewing Ultra Fast Scanner (UFS), Image
+Device Components
+software Management System (IMS), Display
+Principle of After WSI images are After WSI images are successfully
+Operation successfully acquired by using acquired by using PIPS UFS, the
+PIPS UFS, the WSI images are WSI images are stored in IMS
+stored in the cloud . During Application Server & Storage
+review, the pathologist opens software that is not provided as part
+WSI images from storage, of the PIPS, but may be located in a
+perform further QC and reads central server room separate from the
+WSI images of the slides to workstation with the IMS viewing
+make a diagnosis. software and Display. During review,
+the pathologist opens WSI images
+from IMS Server & Storage, perform
+further QC and reads WSI images of
+the slides to make a diagnosis.
+Image Storage Images are stored in an end user
+provided image storage (PIPS IMS
+Images are stored in the cloud.
+Application Server & Storage)
+attached to the local network
+PIPS Image Management System
+End User’s Interface FullFocus
+(IMS)
+VI. Standards/Guidance Documents Referenced:
+1. Guidance for Industry “Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices", dated April 20, 2016
+2. Special controls under 21 CFR Sec. 864.3700 Whole slide imaging system
+3. ISO 14971: Second Edition 2007-03-01 - Medical devices - Applications of risk management to
+medical devices
+4. ANSI: AAMI IEC 62304: 2006/A1:2016 - Medical device software - Software life cycle
+processes
+5. ANSI: AAMI IEC 62366-1:2015 - Medical devices - Part 1: Application of usability engineering
+to medical devices
+6. AAMI TIR 45:2012 - Guidance on the use of AGILE practices in the development of medical
+device software
+K201005 - Page 7 of 9
+
+[Table 1 on page 7]
+Image Manipulation
+Functions			Panning, zooming, color
+manipulation function,
+annotations, and measurements
+(distance & area)	Same
+Type of Software
+Application			Internet browser-based
+applications	Same
+	General Device			
+	Characteristic			
+	Differences			
+Device Components			FullFocus image viewing
+software	Ultra Fast Scanner (UFS), Image
+Management System (IMS), Display
+Principle of
+Operation			After WSI images are
+successfully acquired by using
+PIPS UFS, the WSI images are
+stored in the cloud . During
+review, the pathologist opens
+WSI images from storage,
+perform further QC and reads
+WSI images of the slides to
+make a diagnosis.	After WSI images are successfully
+acquired by using PIPS UFS, the
+WSI images are stored in IMS
+Application Server & Storage
+software that is not provided as part
+of the PIPS, but may be located in a
+central server room separate from the
+workstation with the IMS viewing
+software and Display. During review,
+the pathologist opens WSI images
+from IMS Server & Storage, perform
+further QC and reads WSI images of
+the slides to make a diagnosis.
+Image Storage			Images are stored in the cloud.	Images are stored in an end user
+provided image storage (PIPS IMS
+Application Server & Storage)
+attached to the local network
+End User’s Interface			FullFocus	PIPS Image Management System
+(IMS)
+
+--- Page 8 ---
+VII. Performance Characteristics (if/when applicable):
+A. Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+B. Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing for FullFocus device was performed. The new device was
+compared to the image management software component of the predicate
+device. The following testing was performed:
+a. Pixel-wise comparison with the predicate device including zooming operations across
+multiple tiles and vertical/horizontal stitching seams
+The equivalence between the subject and predicate image review manipulation software
+{IRMS, as defined in the FDA guidance titled “Guidance for Industry “Technical
+Performance Assessment of Digital Pathology Whole Slide Imaging Devices", dated
+April 20, 2016 [TPA guidance, IV(A)(9)]} was evaluated by bench testing data based on
+pixel-level comparison. The subject IRMS was tested as operating with the intended
+components, including the scanner and monitor display to evaluate the pixel-wise
+differences. WSI files from 22 FFPE tissue glass slides from different anatomic locations
+that were H&E stained were used as the test input. For each region of interest (ROI), the
+differences between the views generated by the subject and predicate IRMS were
+evaluated with the International Commission on Illumination (CIE) color difference
+metric CIEDE2000 (ΔE) for each corresponding pixel pair. The two views generated by
+the subject and predicate IRMS were registered and cropped to find the maximum
+common areas. The test cases of ROIs included relevant biological features at
+magnification levels 20x and 40x. Horizontal/vertical stitching seams between the tiles
+were included in the ROIs when possible. The color differences of all pixel pairs within
+each ROI were reported. The image data of all ROIs were also provided for verification.
+K201005 - Page 8 of 9
+
+--- Page 9 ---
+The test results demonstrated that the median ΔE values across all ROIs range from 0.80
+ΔE to 3.85 ΔE with a median of 1.72 ΔE and mean of 1.85 ΔE (standard deviation: 0.67
+ΔE). The mean ΔE values across all ROIs range from 0.89 ΔE to 4.58 ΔE with a median
+of 2.13 ΔE and mean of 2.24 ΔE (standard deviation: 0.81 ΔE). The median ΔE by
+browser and magnification was also reported and comparable to overall results.
+The subject device has been found to visually adequately reproduce digital pathology
+images to human readers with respect to its intended use.
+b. Turnaround Time for the image to be fully loaded while opening a slide from a medical
+device data system (MDDS) and for panning/zooming
+The turnaround times for opening an image and panning have been measured in the
+subject device. The subject device has been found to have an acceptable turnaround time
+with respect to its intended use for opening the first image, and panning and zooming
+within the image.
+c. Measurements – area and distance
+Measurement accuracy has been verified using a test image containing objects of
+known sizes. The following set of tests were used to validate the measurement accuracy
+of the subject device.
+• Measurements verified using calibration slide with known distances: An image of a
+calibration slide with known distances was used to verify the measurement accuracy
+of the subject device. Test results showed that the subject device performed accurate
+measurements with respect to its intended use.
+d. Human Factors Testing
+Human factors study designed around critical user tasks and use scenarios performed by
+representative users were conducted. A systematic evaluation of task-based usability
+including critical tasks required for operation of the device were evaluated at multiple
+sites using multiple users. All tasks associated with reviewing and reporting results for
+cases including confirmation that all slides belonging to specific cases are reviewed
+before reporting results, were included in the study. Overall, the results of the human
+factors testing were acceptable.
+VIII. Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX. Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K201005 - Page 9 of 9

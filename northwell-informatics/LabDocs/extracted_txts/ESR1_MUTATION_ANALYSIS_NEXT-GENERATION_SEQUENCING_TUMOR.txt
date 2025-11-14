@@ -1,0 +1,150 @@
+Standard Operating Procedure (SOP) ESR1 Mutation Analysis,
+Next-Generation Sequencing (NGS), Tumor
+1. PURPOSE
+The purpose of this protocol is to outline the analytical procedures for
+ESR1 Mutation Analysis using Next-Generation Sequencing (NGS)
+on tumor samples. This procedure ensures that the analysis is
+accurate, efficient, and consistent with laboratory standards.
+Responsibility:
+Designated laboratory personnel with appropriate training are
+responsible for performing the analysis as outlined in this protocol.
+They must ensure the integrity of test results and report any issues
+promptly to a supervisor.
+2. DEFINITIONS
+• ESR1: Estrogen Receptor 1 gene, mutations of which can be
+implicated in hormone receptor-positive breast cancer resistance.
+• NGS: Next-Generation Sequencing, a method used to sequence
+DNA or RNA to detect genetic variations.
+• Tumor Sample: Pathological tissue specimen obtained from the
+patient, specifically targeting neoplastic cells.
+3. EQUIPMENT AND MATERIALS
+• NGS Platform (e.g., Illumina MiSeq, Thermo Fisher Ion Torrent)
+• DNA Extraction Kit
+• Qubit or equivalent for DNA quantification
+• Polymerase Chain Reaction (PCR) Reagents
+• ESR1-specific primers
+• Bioinformatics software for sequence analysis
+• Pipettes and Pipette Tips
+• Centrifuge
+• Thermal Cycler
+• Vortex Mixer
+• Microcentrifuge Tubes
+• Dry Ice/Freezer for storage
+• Laboratory-grade Gloves and Personal Protective Equipment
+(PPE)
+4. REAGENTS AND SUPPLIES
+• DNA extraction reagents (buffers, proteinase K, etc.)
+• PCR reagents (dNTPs, Taq polymerase, etc.)
+• ESR1 mutation-specific primers
+• NGS library preparation kit (including adapters and barcodes)
+• Ethanol (for purification steps)
+• PBS buffer
+• Sequencing reagents (flow cells and sequencing buffers)
+5. PROCEDURE
+5.1 DNA Extraction
+1. Tumor tissue preparation
+◦ Prepare the tumor specimen according to standard
+histopathological practices.
+◦ Ensure ~10-50 mg of tumor tissue is transferred to a sterile
+microcentrifuge tube for subsequent DNA extraction.
+2. Lysis of Cells
+◦ Add appropriate lysis buffer and Proteinase K, vortex and
+incubate as specified by the DNA extraction kit protocols.
+3. DNA Purification
+◦ Follow the DNA extraction kit protocol to purify DNA from the
+lysate, ensuring elimination of proteins and other
+contaminants.
+◦ Use silica columns or magnetic beads as specified by the
+kit.
+4. DNA Quantification
+◦ Quantify the purified DNA using a Qubit fluorometer or
+equivalent.
+◦ Store DNA samples at -20°C until ready for PCR
+amplification.
+5.2 PCR Amplification
+1. PCR Mix Preparation
+◦ Prepare a PCR master mix containing DNA template, ESR1-
+specific primers, dNTPs, Taq polymerase, and buffer
+according to the manufacturer’s instructions.
+2. PCR Cycling Conditions
+◦ Execute the PCR according to the optimized cycling
+conditions:
+Initial denaturation at 95°C for 10 minutes
+Denaturation at 95°C for 30 seconds
+Annealing at 60°C for 30 seconds
+Extension at 72°C for 1 minute
+Final extension at 72°C for 5 minutes
+Hold at 4°C
+3. PCR Product Purification
+◦ Purify the PCR products using a PCR purification kit.
+◦ Quantify purified products for NGS library preparation.
+5.3 Library Preparation and Sequencing
+1. Library Preparation
+◦ Prepare sequencing libraries from the purified PCR products
+using the NGS library preparation kit according to
+manufacturer’s guidelines.
+◦ Include adapters and barcodes specific to ESR1 amplicons
+for indexing.
+2. Quality Check and Quantification
+◦ Perform a quality check (QC) of library using Bioanalyzer/
+TapeStation.
+◦ Quantify the library using Qubit or equivalent.
+3. Sequencing
+◦ Load the prepared libraries onto the NGS platform and
+follow the standard workflow for sequencing.
+5.4 Data Analysis
+1. Raw Data Processing
+◦ Load raw sequencing data into bioinformatics software.
+◦ Perform quality control using metrics such as read depth,
+quality score distribution, and adapter/primer contamination.
+2. Alignment and Variant Calling
+◦ Align the obtained sequences to the reference genome.
+◦ Call variants using software such as GATK, SAMtools, or an
+equivalent pipeline.
+3. Interpretation and Reporting
+◦ Analyze the detected ESR1 mutations and their clinical
+significance using databases (e.g., COSMIC, ClinVar).
+◦ Generate a detailed report including the mutation type,
+genomic location, and potential clinical implications.
+◦ Review and validate the report for consistency and
+correctness.
+6. QUALITY CONTROL
+• Include positive and negative controls in each PCR and
+sequencing run.
+• Validate sequencing performance regularly with known reference
+samples.
+• Follow the laboratory’s standard QA/QC procedures to ensure
+data integrity.
+7. REPORTING RESULTS
+• Review and verify all results by a qualified technologist.
+• Report findings according to site-specific reporting guidelines.
+• Confirm the release of results in the Laboratory Information
+System (LIS).
+8. REFERENCE VALUES
+• Reference ranges and interpretations should be based on the
+most current clinical guidelines and genetic mutation databases.
+9. METHOD LIMITATIONS
+• Ensure recognizing and reporting any limitations in the data (such
+as low coverage or ambiguous calls).
+• Interpretations should be cautious if the NGS data contains
+discrepancies or fails QC metrics.
+10. REFERENCES
+• Include the latest protocols and guidelines from the manufacturers
+of the NGS platform, Library Preparation Kits, and DNA Extraction
+Kits.
+• Relevant scientific literature and genetic databases for ESR1
+mutation interpretation.
+11. DOCUMENTATION
+• Maintain comprehensive records of all procedures, reagent lot
+numbers, and results in the laboratory management system.
+• Ensure all steps and findings are thoroughly documented and
+traceable for future reference.
+12. PERSONNEL QUALIFICATION
+• Ensure all personnel performing the procedure have the required
+qualifications and training.
+• Conduct regular competency assessments as per CLIA
+regulations.
+By closely adhering to the outlined procedure, the laboratory ensures
+the accuracy, reproducibility, and clinical relevance of the ESR1
+mutation analysis using Next-Generation Sequencing on tumor
+samples.

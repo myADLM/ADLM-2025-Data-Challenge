@@ -1,0 +1,110 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for MAYOCOMPLETE ACUTE MYELOID
+LEUKEMIA, 11-GENE PANEL, VARIES
+1. PURPOSE
+To provide and document the standardized procedure for the
+analytical phase of generating results for the MAYOCOMPLETE
+ACUTE MYELOID LEUKEMIA, 11-GENE PANEL, VARIES test,
+ensuring accuracy, reproducibility, and reliability of test results.
+2. SCOPE
+This SOP applies to all laboratory personnel responsible for
+performing the 11-gene panel test for Acute Myeloid Leukemia (AML)
+using samples that have been received, accessioned, and prepared.
+3. RESPONSIBILITY
+All laboratory technologists and technicians performing this test are
+responsible for adhering to this SOP. It is also the responsibility of the
+laboratory supervisor to ensure compliance with this SOP and to
+address any procedural issues or deviations.
+4. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Next-Generation Sequencing (NGS) platform
+• PCR Thermal Cycler
+• Centrifuge
+• Agilent Bioanalyzer or TapeStation
+• DNA Extraction Kits
+• PCR Amplification Kits
+• NGS Library Preparation Kits
+• Clean Microfuge Tubes
+• Pipettes and Pipette Tips
+• Disposable Gloves
+5. PROCEDURE
+A. DNA Extraction:
+1. Carefully extract genomic DNA from the patient's bone marrow
+or peripheral blood sample using a validated DNA extraction kit.
+2. Quantify and assess the purity of the extracted DNA using a UV
+spectrophotometer (e.g., NanoDrop).
+3. Ensure that the DNA concentration meets the minimum
+requirement for downstream applications, typically 10-50 ng/µL.
+B. PCR Amplification:
+1. Set up PCR reactions with primers specific to the 11 genes
+included in the AML panel according to the manufacturer's
+protocol.
+2. Mix the reaction components in a clean microfuge tube,
+ensuring accurate pipetting and minimal contamination.
+3. Load the reaction tubes into the PCR thermal cycler, and run
+the PCR program as specified by the kit's instructions.
+4. After PCR completion, verify the success of amplification via
+agarose gel electrophoresis or Agilent Bioanalyzer/TapeStation.
+C. NGS Library Preparation:
+1. Prepare the NGS libraries using the amplified PCR products
+according to the library preparation kit's instructions.
+2. Perform indexed adapter ligation and ensure proper indexing
+for sample identification.
+3. Purify the NGS libraries to remove unincorporated adapters and
+primers, using magnetic beads or column-based cleanup
+methods.
+4. Quantify and assess the quality of prepared libraries using a
+fluorometer and Bioanalyzer/TapeStation.
+D. Sequencing:
+1. Load the prepared libraries onto the NGS platform following the
+manufacturer's instructions.
+2. Run the sequencing reaction under recommended conditions,
+typically involving paired-end sequencing.
+3. Monitor the sequencing run to ensure it proceeds without
+technical issues, following the platform's real-time monitoring
+tools.
+E. Data Analysis:
+1. After sequencing, transfer the raw data to the bioinformatics
+pipeline for analysis.
+2. Perform sequence alignment against the reference genome
+and variant calling to identify mutations in the 11 genes of
+interest.
+3. Interpret the variant data using validated bioinformatics tools
+and databases (e.g., COSMIC, ClinVar).
+4. Compile the identified variants into a comprehensive report,
+including interpretations of clinical significance.
+F. Result Reporting:
+1. Ensure that all identified variants are reviewed and verified by a
+certified clinical laboratory scientist or pathologist.
+2. Assemble the final report, highlighting clinically relevant
+mutations and their potential impact on patient diagnosis,
+prognosis, and treatment.
+3. Submit the verified results to the Laboratory Information System
+(LIS) for final review and dissemination to the ordering
+physician.
+6. QUALITY CONTROL AND ASSURANCE
+1. Include positive and negative control samples in every batch of
+DNA extraction, PCR, library preparation, and sequencing to
+validate results for each run.
+2. Regularly perform routine maintenance and calibration of all
+equipment following manufacturer recommendations.
+3. Document all steps and observations in laboratory logbooks
+and ensure adherence to quality control guidelines.
+7. REFERENCES
+• Manufacturer’s instructions for DNA extraction kits, PCR
+amplification kits, and NGS library preparation kits.
+• NGS platform user manual.
+• Mayo Clinic guidelines for reporting molecular diagnostic results.
+• Internal quality control SOPs and procedures.
+8. DEVIATIONS AND CORRECTIVE ACTIONS
+Any deviation from this SOP must be documented and reviewed by
+the laboratory supervisor. Corrective actions will be undertaken to
+address any issues and prevent future occurrences.
+9. REVIEW AND APPROVAL
+This SOP is reviewed annually and updated as needed by the
+laboratory manager and approved by the Laboratory Director.
+Reviewed by: [Name] [Position] [Date]
+Approved by: [Name] [Position] [Date]
+This protocol ensures that each step in the analytical phase of
+processing the MAYOCOMPLETE ACUTE MYELOID LEUKEMIA,
+11-GENE PANEL is performed systematically, maintaining reliability
+and validity of the test results.

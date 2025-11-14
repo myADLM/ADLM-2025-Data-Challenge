@@ -1,0 +1,126 @@
+Standard Operating Procedure (SOP)
+Analytical Phase for Generating Results for Hunter Syndrome
+(Full Gene Analysis)
+1. PURPOSE
+This SOP outlines the steps and procedures for the analytical phase
+in the detection of Hunter Syndrome by analyzing the IDS (iduronate
+2-sulfatase) gene using a full gene analysis technique. The
+procedure is designed to ensure accurate, reproducible, and timely
+reporting of results to aid in the diagnosis and subsequent
+management of patients suspected of having Hunter Syndrome.
+2. APPLICABILITY
+This procedure applies to the Clinical Laboratory Improvement
+Amendments (CLIA)-certified laboratory conducting full gene analysis
+for Hunter Syndrome.
+3. RESPONSIBILITY
+Trained laboratory personnel are responsible for performing the
+procedures described in this SOP. The laboratory supervisor or
+designated personnel must ensure compliance with the SOP and
+handle any discrepancies or quality control issues.
+4. DEFINITIONS
+Hunter Syndrome (Mucopolysaccharidosis II): A lysosomal storage
+disorder caused by mutations in the IDS gene, leading to defective
+iduronate 2-sulfatase enzyme activity.
+5. MATERIALS AND EQUIPMENT
+• IDS gene-specific primers and probes
+• PCR reagents (Master Mix, dNTPs, Taq polymerase)
+• DNA extraction kit
+• Thermal cycler
+• Agarose gel electrophoresis apparatus
+• DNA sequencing platform (e.g., Sanger sequencing or Next-
+Generation Sequencing)
+• Appropriate positive and negative controls
+• DNA ladder
+• Microcentrifuge
+• Pipettes and filtered tips
+• Analytical software for sequence analysis
+6. PROCEDURE
+6.1 DNA Extraction
+1. Follow the DNA extraction kit protocol to isolate genomic DNA
+from patient samples.
+2. Assess the quality and quantity of the extracted DNA using a
+Nanodrop or Qubit fluorometer.
+6.2 PCR Amplification
+1. Set up the PCR reaction as follows:
+◦ Master Mix: 25 μL
+◦ Forward Primer (10 μM): 1 μL
+◦ Reverse Primer (10 μM): 1 μL
+◦ DNA Template: 2 μL (50 ng)
+◦ Nuclease-Free Water: Adjust to a final volume of 50 μL
+2. Perform the PCR as per the following thermal cycling
+conditions:
+◦ Initial denaturation: 95°C for 3 minutes
+◦ Cycle (35 cycles):
+▪ Denaturation: 95°C for 30 seconds
+▪ Annealing: 55-60°C for 30 seconds (ideal temperature
+depends on the primers)
+▪ Extension: 72°C for 1 minute
+◦ Final extension: 72°C for 5 minutes
+3. Hold at 4°C until further analysis.
+6.3 Gel Electrophoresis
+1. Prepare a 1.5% agarose gel with ethidium bromide.
+2. Load the PCR products alongside a DNA ladder to verify the
+amplification.
+3. Run the gel at 100V for 30-45 minutes.
+4. Visualize the DNA bands under UV light and document the
+results.
+6.4 DNA Sequencing
+1. Purify the PCR product using a suitable purification kit.
+2. Quantify the purified PCR product.
+3. Set up sequencing reactions using purified PCR product and
+sequencing primers.
+◦ For Sanger sequencing, follow the protocol specific to the
+sequencer being used.
+◦ For Next-Generation Sequencing, prepare the library as per
+the manufacturer's instructions and proceed with
+sequencing.
+4. Analyze the sequencing data using appropriate software to
+identify mutations in the IDS gene.
+5. Confirm any detected variants by re-amplification and
+resequencing if necessary.
+6.5 Quality Control
+1. Include positive and negative controls in each PCR and
+sequencing run to ensure the validity of the results.
+2. Any anomalies in control results must be addressed before
+proceeding with patient result analysis.
+3. Validate all new lots of reagents and verify by comparison with
+previous results.
+6.6 Interpretation of Results
+1. Identify mutations by comparing the patient's sequence data
+with the reference IDS gene sequence.
+2. Report any pathogenic variants, variants of unknown
+significance (VUS), or benign variants.
+3. Utilize databases such as ClinVar, HGMD, and others for
+variant interpretation.
+6.7 Documentation
+1. Record all observations, controls, and results in the laboratory
+information system (LIS).
+2. Prepare a comprehensive report detailing the genetic findings
+and their clinical significance.
+3. Ensure that all data is reviewed and verified by a qualified
+laboratory supervisor or geneticist before releasing results.
+7. REPORTING RESULTS
+1. Ensure that results are transmitted from the sequencing
+platform to the LIS securely.
+2. The technologist must review and verify the results for accuracy
+and completeness.
+3. Report critical findings promptly following the laboratory's
+critical value reporting procedure.
+8. REFERENCE INTERVALS
+N/A (The IDS gene analysis is qualitative, identifying presence of
+mutations rather than quantitative measurement.)
+9. METHOD LIMITATIONS
+1. The sensitivity and specificity depend on the technology used
+(Sanger sequencing vs. NGS).
+2. PCR inhibitors in the sample could potentially lead to false-
+negative results.
+3. Rare variants not covered by the primers or probes used in the
+analysis may be missed.
+10. REFERENCES
+• IDS Gene Analysis Protocol (Clinical reference)
+• Manufacturer’s instructions and reagent inserts
+• Relevant literature on Hunter Syndrome genetics and diagnostics
+This SOP should be reviewed periodically to ensure compliance with
+the latest professional guidelines and technological advancements.
+Updates or modifications must be approved by laboratory
+management.

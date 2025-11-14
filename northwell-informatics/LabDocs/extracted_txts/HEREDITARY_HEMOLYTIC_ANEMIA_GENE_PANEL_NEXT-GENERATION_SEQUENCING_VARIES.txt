@@ -1,0 +1,120 @@
+Protocol for HEREDITARY HEMOLYTIC
+ANEMIA GENE PANEL Using Next-
+Generation Sequencing
+1. PURPOSE
+To provide standardized procedures for the analysis of the
+HEREDITARY HEMOLYTIC ANEMIA GENE PANEL using Next-
+Generation Sequencing (NGS) to ensure consistent, accurate, and
+reproducible results.
+1. SCOPE
+This protocol applies to the analytical phase of generating results for
+the HEREDITARY HEMOLYTIC ANEMIA GENE PANEL, including
+the preparation, sequencing, data analysis, and result reporting.
+1. RESPONSIBILITIES
+Designated laboratory staff are responsible for performing and
+documenting all steps in this procedure. It is the responsibility of all
+staff to identify any issues that may affect test results and report them
+to a supervisor.
+1. MATERIALS AND EQUIPMENT
+• DNA Extraction Kit
+• Quantitative and Qualitative DNA Assessment Equipment (e.g.,
+Qubit, NanoDrop, Bioanalyzer)
+• Next-Generation Sequencing System (e.g., Illumina, Ion Torrent)
+• Reagents for Library Preparation (e.g., Illumina TruSeq, Ion
+Torrent Ampliseq)
+• Amplification and Sequencing Primers specific to the gene panel
+• Bioinformatics Tools and Software for Data Analysis (e.g., BWA,
+GATK, VarSeq)
+• Laboratory Information Management System (LIMS)
+1. PROCEDURE
+A. DNA Extraction and Quality Control
+1. DNA Extraction
+◦ Extract DNA from the specimen using the designated DNA
+extraction kit following the manufacturer’s instructions.
+◦ Store the DNA at -20°C until ready for quality control (QC)
+and library preparation.
+2. Quality Control of DNA
+◦ Quantify DNA concentration using Qubit and check purity
+with NanoDrop.
+◦ Assess DNA integrity with Bioanalyzer or agarose gel
+electrophoresis.
+B. Library Preparation
+1. Fragment DNA
+◦ Depending on the sequencing platform, fragment the DNA
+to the appropriate size range (e.g., 150-300 bp).
+2. Library Preparation
+◦ Perform end-repair, A-tailing, and adapter ligation according
+to the library preparation kit protocol.
+◦ Purify the ligated DNA fragments using magnetic beads or
+column purification.
+3. Amplification
+◦ Amplify the library with primers specific to the HEREDITARY
+HEMOLYTIC ANEMIA GENE PANEL.
+◦ Perform PCR enrichment and purification of the amplified
+products.
+4. Quality Control of Library
+◦ Quantify the library using Qubit or similar quantification
+methods.
+◦ Assess the size distribution of the library using Bioanalyzer.
+C. Sequencing
+1. Load Sequencing Platform
+◦ Load prepared libraries onto the sequencing platform
+following the manufacturer’s protocols.
+◦ Perform cluster generation or template preparation as
+required by the sequencing system.
+2. Run Sequencing
+◦ Initiate the sequencing run and monitor the process for any
+errors or issues.
+D. Data Analysis
+1. Data Transfer
+◦ Transfer raw sequence data to the designated
+bioinformatics server for further analysis.
+2. Quality Control of Sequence Data
+◦ Evaluate the quality of the raw reads using quality control
+software (e.g., FastQC).
+3. Alignment and Variant Calling
+◦ Align reads to the human reference genome (e.g., hg19 or
+hg38) using software such as BWA.
+◦ Call variants using tools like GATK.
+4. Annotation and Interpretation
+◦ Annotate detected variants with clinical significance using
+databases and annotation tools (e.g., ClinVar, dbSNP).
+◦ Interpret variants in the context of hereditary hemolytic
+anemia following ACMG guidelines.
+E. Reporting Results
+1. Result Verification
+◦ Verify all identified variants through a review process
+involving bioinformaticians and geneticists.
+◦ Ensure the accuracy and clinical relevance of reported
+variants.
+2. Result Documentation
+◦ Document the sequence data and analysis results in the
+LIMS.
+◦ Generate a comprehensive report, including identified
+variants and their clinical interpretation.
+3. Communication of Results
+◦ Report results to the referring clinician or authorized
+personnel.
+◦ Clearly document any limitations or uncertainties in the
+report.
+4. QUALITY CONTROL AND QUALITY ASSURANCE
+• Internal Quality Control
+◦ Include known control samples in each run to validate the
+sequencing and analysis pipeline.
+◦ Monitor sequencing quality metrics and repeat runs if
+necessary.
+• Proficiency Testing
+◦ Participate in external proficiency testing programs to ensure
+ongoing assay performance.
+1. REFERENCES
+Provide complete references for all equipment, reagents, and
+protocols used in library preparation, sequencing, and data analysis,
+with a focus on standard references such as manufacturer manuals
+and published guidelines from authoritative sources.
+1. REVIEW AND APPROVAL
+This SOP must be reviewed and approved by the laboratory director
+or designated representative on an annual basis or whenever
+significant changes to the protocol are made.
+Effective Date: [Date]
+Approved By: [Name, Title]
+Date of Next Review: [Date]

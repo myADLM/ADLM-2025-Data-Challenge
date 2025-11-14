@@ -1,0 +1,98 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for INHERITED MOTOR NEUROPATHY (IMN)
+GENE PANEL
+1. PURPOSE
+To outline the standard operating procedures for the analytical phase
+of generating results for the Inherited Motor Neuropathy (IMN) Gene
+Panel in order to ensure accurate, reproducible, and reliable results.
+Responsibility:
+It is the responsibility of laboratory technologists and supervisors to
+follow and enforce this SOP. Proper adherence is necessary for
+quality assurance and reliability of test results.
+1. DEFINITION
+The IMN Gene Panel tests for genetic mutations known to be
+associated with inherited motor neuropathy, using next-generation
+sequencing (NGS) techniques.
+1. PROCEDURE
+A. Sample Preparation
+1. Verify Sample Integrity:
+Ensure the received DNA samples meet the quality and quantity
+standards required for NGS. If necessary, perform DNA extraction
+using proper extraction kits as per manufacturer's protocol.
+1. DNA Quantification and Quality Check:
+Quantify DNA using a fluorometric method (e.g., Qubit) to ensure
+accurate measurement. Assess the purity and integrity of DNA using
+a spectrophotometer and gel electrophoresis, respectively.
+B. Library Preparation
+1. DNA Fragmentation:
+Accurately fragment DNA to the desired size (e.g., 150-200 bp) using
+a mechanical shearing method (e.g., sonicator). Ensure uniform
+fragmentation by performing quality checks.
+1. Adapter Ligation:
+Ligate adapters to the ends of fragmented DNA using ligation
+reagents as specified in the kit protocol. Purify and confirm adapter-
+ligated products using bead-based purification methods and gel
+electrophoresis.
+1. PCR Amplification:
+Perform PCR amplification of the ligation products using specific
+primers provided in the kit, following the manufacturer's instructions.
+Purify amplified products and assess their quality.
+C. Sequencing
+1. Sequencer Preparation:
+Load the prepared DNA libraries onto the appropriate sequencing
+platform (e.g., Illumina) following the manufacturer's guidelines.
+Perform instrument quality checks and ensure proper calibration prior
+to sequencing.
+1. Sequencing Run:
+Initiate the sequencing run as per the pre-set parameters specific to
+the chosen gene panel. Monitor the sequencing performance and
+parameters throughout the run.
+D. Bioinformatic Analysis
+1. Raw Data Processing:
+Upload raw sequencing data to the bioinformatics server. Perform
+quality control checks on raw sequencing reads using software tools
+(e.g., FASTQC).
+1. Alignment and Variant Calling:
+Align sequencing reads to the human reference genome using
+alignment tools (e.g., BWA-MEM). Call variants (SNVs and Indels)
+using variant calling software (e.g., GATK).
+1. Annotation and Filtering:
+Annotate identified variants using annotation software (e.g.,
+ANNOVAR) to understand the clinical relevance. Filter variants based
+on quality metrics, allele frequencies, and predicted pathogenicity.
+E. Interpretation and Reporting
+1. Clinical Interpretation:
+Review the filtered variants for clinical significance by comparing
+them to known databases (e.g., ClinVar, HGMD). Use guidelines
+(e.g., ACMG) for variant classification (pathogenic, likely pathogenic,
+VUS, likely benign, benign).
+1. Report Generation:
+Prepare a comprehensive report summarizing the identified variants,
+their clinical significance, and any recommended follow-up actions.
+Ensure that the report is reviewed and signed off by a qualified
+laboratory director or geneticist.
+1. QUALITY CONTROL
+2. Negative and Positive Controls:
+Include both negative and positive controls in each run to ensure the
+reliability and accuracy of the results. Analyze control results to
+confirm the success of the sequencing and data analysis process.
+1. Repeat Runs:
+Any samples or runs that do not pass quality control checks should
+be repeated to confirm results. Implement corrective actions for any
+recurrent issues identified during the process.
+1. DOCUMENTATION
+Maintain a log of all processes and results, including sample
+reception, DNA quantification, library preparation, sequencing run
+details, and bioinformatics analysis run parameters. Keep records of
+all reports generated and ensure they are stored securely and
+confidentially.
+1. REFERENCES
+Manufacturer's guidelines for DNA extraction and library preparation
+kits. Platform-specific sequencing and bioinformatics tool user
+manuals. ACMG guidelines for the interpretation of sequence
+variants. Databases like ClinVar, HGMD for variant annotations.
+This SOP version is effective as of [Date] and will be reviewed
+annually or upon any significant changes in the process or
+technology.
+Prepared by: [Your Name] Reviewed by: [Supervisor's Name]
+Approved by: [Laboratory Director's Name]

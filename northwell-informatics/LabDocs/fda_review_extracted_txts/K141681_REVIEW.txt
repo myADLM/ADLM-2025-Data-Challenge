@@ -1,0 +1,1770 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k141681
+B. Purpose for Submission:
+Clearance of Sysmex® XN-Series (XN-11, XN-21)
+C. Manufacturer and Instrument Name:
+Sysmex America, Inc.; Sysmex® XN-Series (XN-11, XN-21) Automated Hematology
+Analyzers
+D. Type of Test or Tests Performed:
+Quantitative test for white blood count (WBC), red blood count (RBC), hemoglobin (HGB),
+hematocrit (HCT), mean corpuscular volume (MCV), mean corpuscular hemoglobin (MCH),
+mean corpuscular hemoglobin concentration (MCHC), platelets (PLT), neutrophil
+(NEUT)%/#, lymphocyte (LYMPH)%/#, monocyte (MONO)%/#, eosinophil (EO)%/#,
+basophil (BASO)%/#, immature granulocytes (IG)%/#, red cell distribution width coefficient
+variation (RDW-CV), red cell distribution width standard deviation (RDW-SD), mean
+platelet volume (MPV), nucleated red blood cells (NRBC)#/%, reticulocyte (RET)%/#,
+immature platelet fraction (IPF), immature reticulocyte information (IRF), reticulocyte
+hemoglobin (RET-He), white blood count body fluid (WBC-BF), red blood count body fluid
+(RBC-BF), mononuclear (MN)%/#, polymorphonuclear (PMN)%/#, and total cell count body
+fluid (TC-BF) parameters.
+E. System Descriptions:
+1. Device Description:
+The Sysmex® XN-Series modules (XN-11, XN-21) are multi-parameter hematology
+analyzers intended to perform tests on whole blood samples collected in K₂ or K₃EDTA
+anticoagulant and body fluids (pleural, peritoneal and synovial) collected in K₂
+anticoagulant. Sysmex® XN-11 and XN-21 are part of the family of XN-Series devices
+(XN-10, XN-20 which were cleared under k112605) with technical modifications aimed
+to stabilize the HCT/MCV parameters to within +8% after storage at room temperature
+(18-26°C) for 24 hours and at refrigerated temperature (2-8°C) for 48 hours. These
+modifications include software and hardware updates as well as reagent modifications,
+i.e. CELLSHEATH(C). Software and hardware modifications include the addition of a
+heating block and changes to the instrument tubing. The listed modifications only impact
+the RBC/PLT and HGB dilution step: RBC/PLT and HGB will be diluted with
+CELLSHEATH(C) reagent after prewarming past 30°C.
+1
+
+--- Page 2 ---
+The complete instrument consists of four principal units: (1) Two Main Units (XN-11,
+XN-21) which aspirate, dilute, mix, and analyze blood and body fluid samples; (2) Two
+Auto Sampler Units (SA-10 for a single module, or SA-20 for two modules) which
+supply samples to the Main Unit automatically; (3) IPU (Information Processing Unit)
+which processes data from the Main Unit and provides the operator interface with the
+system; (4) Pneumatic Unit which supplies pressure and vacuum from the Main Unit.
+Operator interface with the IPU is accomplished with the use of a 22-key panel keyboard.
+Three configurations for the XN-Series modules are provided:
+a. XN-1000 comprised of:
+1) XN-11
+2) XN-21
+3) SA-10 (Auto Sampler for single module)
+b. XN-2000 comprised of:
+1) Two XN-11 or XN-21 or combination
+2) SA-20 (Auto Sampler for two modules)
+c. XN-9000 comprised of:
+1) One to nine XN-11 or XN-21 or combination of both modules
+2) One to nine conveyors (CV), one for each XN module or Slide Preparation
+Unit (SP)
+3) SP-10 (Slide Preparation Unit)
+4) BT-40 (Barcode Terminal)
+2. Principles of Operation:
+The XN-Series analyzers perform analysis using the following methods: Sheath Flow DC
+Detection Method, and Flow Cytometry Methods using a Semiconductor Laser and
+Sodium Lauryl Sulfate (SLS)-hemoglobin. Cells pass through the aperture of the detector
+surrounded by sheath fluid using the sheath flow method. The principle of flow
+cytometry is also used. A semiconductor laser beam is emitted to the cells passing
+through the flow cell. The forward scattered light is received by the photodiode; the
+lateral scattered light and lateral fluorescent light are received by the photo multiplier
+tube. This light is converted into electrical pulses, thus making it possible to obtain cell
+information. Particle characterization and identification is based on detection of forward
+scatter, fluorescence and adaptive cluster analysis. The system carries out all processes
+automatically from aspiration of the sample to outputting results and uses Microsoft
+Windows Operating System.
+The body fluid analysis mode of the XN-Series analyzers uses the 4 part differential
+scattergram and the RBC distribution obtained from a specialized analysis sequence to
+calculate and display the WBC (WBC-BF) counts, mononuclear cell (MN) /
+polymorphonuclear cell (PMN) counts and percentages, TC-BF (Total Count) & RBC
+(RBC-BF) counts found in the body fluid.
+Analysis results and graphics are displayed on the IPU screen. They can be printed on
+any of the available printers or transmitted to a host computer.
+2
+
+--- Page 3 ---
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___x_____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ____x____
+4. Specimen Identification:
+Specimen identification input is manual (by operator) or by barcode reader.
+5. Specimen Sampling and Handling:
+There are two modes of sample introduction: (1) Sampler Mode; (2) Manual Mode. Each
+analysis mode uses the same single fluidic and aspiration pathway.
+In the Sampler Analysis Mode the operator loads the sample tubes into a rack, which is
+then automatically transported and analyzed by the instrument. This mode automatically
+mixes, aspirates, and analyzes samples without removing their caps.
+In the Manual Analysis Mode, there are two sample tube holders: (1) Normal sample tube
+holder; (2) Micro collection tube holder. In this mode the operator loads and mixes the
+samples tubes individually by hand.
+· In the Normal Sample Tube Holder position, whole blood and body fluid samples
+can be analyzed with cap on or cap off.
+· The Micro Collection Tube Holder position is used for analyzing a minute amount
+of whole blood or whole blood after diluting the sample to 1:7 that has been
+collected in a micro collection tube. Samples are analyzed with cap off in this
+position.
+· Low WBC Count (LWBC) Mode is used for retesting whole blood samples with
+low white blood cell counts based on user defined rules criteria. The counting
+time is set to 3 times that of the Whole Blood mode to increase white blood cell
+measurement accuracy at very low counts.
+6. Calibration:
+The XN CALTM calibrator (k141962) is used for calibration of the instrument for WBC,
+RBC, HGB, HCT, PLT and RET. XN CAL PF TM (k141955) is used for calibration of the
+instrument for PLT-F (platelet count obtained from the PLT-F channel). Calibration is
+performed as needed (e.g., when QC data is fluctuating) to ensure accuracy of the system.
+7. Quality Control:
+The XN CHECKTM (k141964) whole blood quality control material (three levels) and the
+XN BF CHECKTM (k141957) body fluid quality control material (two levels) are used to
+monitor the performance of the XN-Series analyzers. Quality control should be run
+according to licensing agency regulations.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+3
+
+--- Page 4 ---
+this line of product types:
+Yes___X___ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+3 Product code:
+GKZ, Counter, differential cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+7. Indication(s) for Use:
+The XN-Series modules (XN-11, XN-21) are quantitative multi-parameter automated
+hematology analyzers intended for in vitro diagnostic use in screening patient populations
+found in clinical and reference laboratories.
+The XN-Series modules classify and enumerate the following parameters in whole blood:
+WBC, RBC, HGB, HCT, MCV, MCH, MCHC, PLT, NEUT%/#, LYMPH%/#,
+MONO%/#, EO%/#, BASO%/#, IG%/#, RDW-CV, RDW-SD, MPV, NRBC#/%,
+RET%/#, IPF, IRF, RET-He and has a Body Fluid mode for body fluids. The Body Fluid
+mode enumerates the WBC-BF, RBC-BF, MN%/#, PMN%/#, and TC-BF parameters in
+body fluids (peritoneal, pleural and synovial). Whole blood should be collected in K₂ or
+K₃EDTA anticoagulant and peritoneal, pleural and synovial fluids in K₂EDTA
+anticoagulant to prevent clotting of fluid.
+2. Special Conditions for Use Statement(s):
+For prescription use only.
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Sysmex® XE-5000 Automated Hematology Analyzer; k071967
+4
+
+--- Page 5 ---
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+XN-Series (XN-11, XN-21) XE-5000 (k071967)
+Intended Use The Sysmex® XN-Series modules Sysmex® XE-5000 is an
+(XN-11, XN-21) are quantitative automated hematology analyzer
+multi-parameter automated for in vitro diagnostic use in
+hematology analyzers intended for in screening patient populations
+vitro diagnostic use in screening found in clinical laboratories. The
+patient populations found in clinical XE-5000 classifies and
+and reference laboratories. The XN- enumerates the same parameters
+Series modules classify and as the XE-2100 (K992875) using
+enumerate the following parameters whole blood as described below,
+in whole blood: WBC, RBC, HGB, cord blood for HPC and has a
+HCT, MCV, MCH, MCHC, PLT, body fluid mode for body fluids.
+NEUT%/#, LYMPH%/#, MONO%/#, The Body Fluid mode analyzes
+EO%/#, BASO%/#, IG%/#, RDW- WBC-BF, RBC-BF, MN%/#,
+CV, RDW-SD, MPV, NRBC#/%, PMN%/# and TC-BF in body
+RET%/#, IPF, IRF, RET-He and has a fluids (cerebrospinal fluids (CSF),
+Body Fluid mode for body fluids. The serous fluids, and synovial fluids
+Body Fluid mode enumerates the with EDTA, as needed). WBC,
+WBC-BF, RBC-BF, MN%/#, RBC, HGB, HCT, MCV, MCH,
+PMN%/#, and TC-BF parameters in MCHC, PLT, NEUT% / #,
+body fluids (peritoneal, pleural and LYMPH% / #, MONO% / #,
+synovial fluids). Whole blood should EO% / #, BASO% / #, NRBC% /
+be collected in K₂ or K₃EDTA #, RDW-SD, RDW-CV, MPV,
+anticoagulant and, peritoneal, pleural RET% / #, IRF, IG% / #, RET-
+and synovial fluids in K₂EDTA He, IPF, HPC WBC-BF, RBC-
+anticoagulant to prevent clotting of BF, MN% / #, PMN%/ #, TC-
+fluid. BF#.
+Specimen Type Whole Blood and Body Fluids Same
+Test Principle Performs hematology analyses Same
+according to the Hydro Dynamic
+Focusing (DC Detection), flow
+cytometry method (using a
+semiconductor laser), and SLS-
+hemoglobin method.
+Parameters Whole Blood Mode: Same
+WBC, RBC, HGB, HCT, MCV,
+MCH, MCHC, PLT, NEUT%/#,
+LYMPH%/#, MONO%/#, EO%/#,
+BASO%/#, NRBC%/#, RDW-CV,
+RDW-SD, MPV, RET%/#, IRF,
+IG%/#, RET-He, IPF.
+Body Fluid Mode:
+WBC-BF, RBC-BF, MN%/#,
+PMN%/#, TC-BF
+Reagents SULFOLYSER (Lyse) Same
+5
+
+[Table 1 on page 5]
+Similarities						
+Item		Device			Predicate	
+		XN-Series (XN-11, XN-21)			XE-5000 (k071967)	
+Intended Use	The Sysmex® XN-Series modules
+(XN-11, XN-21) are quantitative
+multi-parameter automated
+hematology analyzers intended for in
+vitro diagnostic use in screening
+patient populations found in clinical
+and reference laboratories. The XN-
+Series modules classify and
+enumerate the following parameters
+in whole blood: WBC, RBC, HGB,
+HCT, MCV, MCH, MCHC, PLT,
+NEUT%/#, LYMPH%/#, MONO%/#,
+EO%/#, BASO%/#, IG%/#, RDW-
+CV, RDW-SD, MPV, NRBC#/%,
+RET%/#, IPF, IRF, RET-He and has a
+Body Fluid mode for body fluids. The
+Body Fluid mode enumerates the
+WBC-BF, RBC-BF, MN%/#,
+PMN%/#, and TC-BF parameters in
+body fluids (peritoneal, pleural and
+synovial fluids). Whole blood should
+be collected in K₂ or K₃EDTA
+anticoagulant and, peritoneal, pleural
+and synovial fluids in K₂EDTA
+anticoagulant to prevent clotting of
+fluid.			Sysmex® XE-5000 is an
+automated hematology analyzer
+for in vitro diagnostic use in
+screening patient populations
+found in clinical laboratories. The
+XE-5000 classifies and
+enumerates the same parameters
+as the XE-2100 (K992875) using
+whole blood as described below,
+cord blood for HPC and has a
+body fluid mode for body fluids.
+The Body Fluid mode analyzes
+WBC-BF, RBC-BF, MN%/#,
+PMN%/# and TC-BF in body
+fluids (cerebrospinal fluids (CSF),
+serous fluids, and synovial fluids
+with EDTA, as needed). WBC,
+RBC, HGB, HCT, MCV, MCH,
+MCHC, PLT, NEUT% / #,
+LYMPH% / #, MONO% / #,
+EO% / #, BASO% / #, NRBC% /
+#, RDW-SD, RDW-CV, MPV,
+RET% / #, IRF, IG% / #, RET-
+He, IPF, HPC WBC-BF, RBC-
+BF, MN% / #, PMN%/ #, TC-
+BF#.		
+Specimen Type	Whole Blood and Body Fluids			Same		
+Test Principle	Performs hematology analyses
+according to the Hydro Dynamic
+Focusing (DC Detection), flow
+cytometry method (using a
+semiconductor laser), and SLS-
+hemoglobin method.			Same		
+Parameters	Whole Blood Mode:
+WBC, RBC, HGB, HCT, MCV,
+MCH, MCHC, PLT, NEUT%/#,
+LYMPH%/#, MONO%/#, EO%/#,
+BASO%/#, NRBC%/#, RDW-CV,
+RDW-SD, MPV, RET%/#, IRF,
+IG%/#, RET-He, IPF.
+Body Fluid Mode:
+WBC-BF, RBC-BF, MN%/#,
+PMN%/#, TC-BF			Same		
+Reagents	SULFOLYSER (Lyse)			Same		
+
+--- Page 6 ---
+Similarities
+Item Device Predicate
+XN-Series (XN-11, XN-21) XE-5000 (k071967)
+Mode of Operation Sampler Analysis Mode Same
+Manual Closed Analysis Mode
+Body Fluid Analysis Mode
+Measuring Channels RBC/RET/PLT Same
+Differences
+Item Device Predicate
+XN-Series (XN-11, XN-21) XE-5000 (k071967)
+Specimen type Not Available Body Fluid – CSF
+Not Available Umbilical Cord Blood
+Test Principal Not Available RF/DC detection method
+Controls & Calibrators Whole Blood Whole Blood
+XN CHECK – 3 Levels e-Check (XE) – 3 Levels
+XN CAL (XN-Series Calibrator) X CAL (XE Calibrator)
+XN CAL PF (Platelet F Calibrator) Not Available
+Body Fluid Body Fluid
+XN CHECK BF – 2 Levels Not Available
+IPU Multi-Module connect Single Module connect
+Modes of Operation Manual Open Cap Analysis Mode Manual Open Cap Analysis Mode
+(Sample placed in tube holder (Operator presents sample to
+position) aspiration needle)
+Pre-dilute Analysis Mode Capillary Analysis Mode
+Dilute sample 1:7 Dilute sample 1:5
+Low WBC Mode (LWBC) Not Available
+Parameters Not Available HPC
+Sample Aspiration/ Single pathway Two pathways
+Fluidic Pathway
+Software/Hardware Rules-based rerun/reflex Not Available
+Throughput Whole Blood Whole Blood
+100 samples/hour maximum Approximately 113-150 depending
+depending on mode used. on mode used.
+Body Fluid Body Fluid
+40 samples/hour maximum 38 samples/hour
+Measuring Channels WNR,WDF, WNR, WBC/BASO, DIFF, NRBC, IMI
+WPC (Not available on XN-11) Not Available
+PLT-F
+Reagents CELLPACK® DCL (Diluent) CELLPACK® (Diluent)
+CELLPACKTM DFL (Diluent) CELLSHEATHTM (Diluent)
+CELLSHEATH(C)TM (Diluent) Not Available
+Lysercell™ WNR (Lyse) STROMATOLYSER™-FB (Lyse)
+Lysercell™ WDF (Lyse) STROMATOLYSER™-4DL
+Lysercell™ WPC* (Lyse) (Lyse) STROMATOLYSER™-
+6
+
+[Table 1 on page 6]
+Similarities						
+Item		Device			Predicate	
+		XN-Series (XN-11, XN-21)			XE-5000 (k071967)	
+Mode of Operation	Sampler Analysis Mode
+Manual Closed Analysis Mode
+Body Fluid Analysis Mode			Same		
+Measuring Channels	RBC/RET/PLT			Same		
+
+[Table 2 on page 6]
+Differences						
+Item		Device			Predicate	
+		XN-Series (XN-11, XN-21)			XE-5000 (k071967)	
+Specimen type	Not Available
+Not Available			Body Fluid – CSF
+Umbilical Cord Blood		
+Test Principal	Not Available			RF/DC detection method		
+Controls & Calibrators	Whole Blood
+XN CHECK – 3 Levels
+XN CAL (XN-Series Calibrator)
+XN CAL PF (Platelet F Calibrator)
+Body Fluid
+XN CHECK BF – 2 Levels			Whole Blood
+e-Check (XE) – 3 Levels
+X CAL (XE Calibrator)
+Not Available
+Body Fluid
+Not Available		
+IPU	Multi-Module connect			Single Module connect		
+Modes of Operation	Manual Open Cap Analysis Mode
+(Sample placed in tube holder
+position)
+Pre-dilute Analysis Mode
+Dilute sample 1:7
+Low WBC Mode (LWBC)			Manual Open Cap Analysis Mode
+(Operator presents sample to
+aspiration needle)
+Capillary Analysis Mode
+Dilute sample 1:5
+Not Available		
+Parameters	Not Available			HPC		
+Sample Aspiration/
+Fluidic Pathway	Single pathway			Two pathways		
+Software/Hardware	Rules-based rerun/reflex			Not Available		
+Throughput	Whole Blood
+100 samples/hour maximum
+depending on mode used.
+Body Fluid
+40 samples/hour maximum			Whole Blood
+Approximately 113-150 depending
+on mode used.
+Body Fluid
+38 samples/hour		
+Measuring Channels	WNR,WDF, WNR,
+WPC (Not available on XN-11)
+PLT-F			WBC/BASO, DIFF, NRBC, IMI
+Not Available		
+Reagents	CELLPACK® DCL (Diluent)
+CELLPACKTM DFL (Diluent)
+CELLSHEATH(C)TM (Diluent)
+Lysercell™ WNR (Lyse)
+Lysercell™ WDF (Lyse)
+Lysercell™ WPC* (Lyse)			CELLPACK® (Diluent)
+CELLSHEATHTM (Diluent)
+Not Available
+STROMATOLYSER™-FB (Lyse)
+STROMATOLYSER™-4DL
+(Lyse) STROMATOLYSER™-		
+
+--- Page 7 ---
+Differences
+Item Device Predicate
+XN-Series (XN-11, XN-21) XE-5000 (k071967)
+Fluorocell™ WNR (Stain) 4DS (Stain)
+Fluorocell™ WDF (Stain) STROMATOLYSER™-NR
+Fluorocell™ RET (Stain) (Diluent)
+Fluorocell™ PLT (Stain) STROMATOLYSER™-NR (Stain)
+Fluorocell™ WPC* (Stain) RET-SEARCH II (Diluent)
+RET-SEARCH II (Stain)
+*Not used on XN-11 module STROMATOLYSER™- IM (Lyse)
+Sample Aspiration Sampler Mode - 88µL Sampler Mode - 200µL
+Volume Manual (Closed Cap) Mode - 88µL Manual (Closed Cap) Mode -
+Manual (Open Cap) Mode - 88µL 200µL
+Dilution Mode - 70µL Manual (Open Cap) Mode - 130µL
+Body Fluid Mode - 88µL Capillary Mode - 130µL
+Body Fluid Mode - 130µL
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI EP5-A2, Evaluation of Precision Performance of Quantitative Measurement Methods;
+Approved Guideline-Second Edition
+CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated Hematology
+Analyzers; Approved Standard-Second Edition
+CLSI EP6-A, Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach; Approved Guideline
+CLSI EP10-A3, Preliminary Evaluation of Quantitative Clinical Laboratory Measurement
+Procedures; Approved Guideline-Third Edition
+CLSI H20-A2, Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard-Second Edition
+CLSI H56-A, Body Fluid Analysis for Cellular Composition; Approved Guideline
+CLSI EP12-A2, User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline-Second Edition
+CLSI C24-A3, Statistical Quality Control for Quantitative Measurement Procedures:
+Principles and Definitions; Approved Guideline-Third Edition
+CLSI EP9-A2, Method Comparison and Bias Estimation Using Patient Samples; Approved
+Guideline-Second Edition
+CLSI EP9-A3, Measurement Procedure Comparison and BIAS Estimation Using Patient
+Samples; Approved Guideline-Third Edition
+7
+
+[Table 1 on page 7]
+Differences						
+Item		Device			Predicate	
+		XN-Series (XN-11, XN-21)			XE-5000 (k071967)	
+	Fluorocell™ WNR (Stain)
+Fluorocell™ WDF (Stain)
+Fluorocell™ RET (Stain)
+Fluorocell™ PLT (Stain)
+Fluorocell™ WPC* (Stain)
+*Not used on XN-11 module			4DS (Stain)
+STROMATOLYSER™-NR
+(Diluent)
+STROMATOLYSER™-NR (Stain)
+RET-SEARCH II (Diluent)
+RET-SEARCH II (Stain)
+STROMATOLYSER™- IM (Lyse)		
+Sample Aspiration
+Volume	Sampler Mode - 88µL
+Manual (Closed Cap) Mode - 88µL
+Manual (Open Cap) Mode - 88µL
+Dilution Mode - 70µL
+Body Fluid Mode - 88µL			Sampler Mode - 200µL
+Manual (Closed Cap) Mode -
+200µL
+Manual (Open Cap) Mode - 130µL
+Capillary Mode - 130µL
+Body Fluid Mode - 130µL		
+
+--- Page 8 ---
+CLSI EP17-A, Protocol for Determination of Limits of Detection and Limits of Quantitation;
+Approved Guideline 2004
+CLSI H18-A3, Procedures for the Handling and Processing of Blood Specimens; Approved
+Guideline-Third Edition
+CLSI C28-A3, Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory; Approved Guideline-Third Edition
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Method comparison:
+Whole Blood
+Method comparison studies were performed to access the performance of the XN-
+Series (XN-11, XN-21) analyzers when compared to the XE-5000 (predicate device).
+The XN-11 and XN-21 analyzers are the same as the XN-Series (XN-10, XN-20)
+analyzers (k112605) with modifications to stabilize the HCT/MCV parameter to
+within +8% at room temperature (18°-26°C) for 24 hours and at refrigerated
+temperature (2-8°C) for 48 hours for commercial and reference laboratories. The
+changes only impact the RBC/PLT and HGB dilution step. The WBC (WNR, WDF,
+WPC), RET and PLT-F measuring channels do not use the CELLSHEATH(C)
+reagent and therefore are not impacted. Method Comparison studies were performed
+to evaluate the performance of the RBC, HGB, HCT/MCV and PLT-I parameters on
+the XN-11 and XN-21 Series analyzers when compared to the XE-5000. The method
+comparison studies consisted of a total of 299 residual K₂EDTA whole blood samples
+collected by three (3) U.S. sites. All samples were run in the Automated Sampling
+Mode in singlet on the XE-5000 and within two hours on the XN-11 and XN-21
+Series analyzers. Samples covered clinical medical decision levels and of the full
+reportable measuring ranges of the XN-11 and XN-21 Series analyzers. The results of
+the linear regression and bias analyses between the XE-5000 and the XN-11, XN-21
+Series Whole Blood Mode met the acceptance criteria for all applicable parameters.
+An example of the results between XN-11 and XE-5000 is shown below and
+comparable results were obtained with the XN-21.
+8
+
+--- Page 9 ---
+Correlation and Estimated Bias (Whole Blood – combined sites): (XE-5000 vs. XN-11)
+Result Slope Intercept Mean Mean
+Measurand N Range r (95% CI) (95% CI) Diff %Diff
+WBC 1.033 -0.316
+(10³/µL) 299 0.68-387.67 0.9998 (1.031, 1.035) (-0.378, -0.254) 0.06 0.5
+MPV 1.235 -2.63
+(fL) 299 8.4-14.2 0.8426 (1.155, 1.315) (-3.49, -1.77) -0.11 -1.0
+RET 0.984 -0.062
+(%) 299 0.10-10.88 0.9462 (0.946,1.021) (-0.151,0.028) -0.90 -4.6
+IRF 0.847 1.17
+(%) 299 0.0-51.4 0.8958 (0.802,0.892) (0.31,2.02) -1.26 -7.8
+PLT-F 1.011 0.2
+(10³/µL) 299 11-1416 0.9931 (0.997,1.025) (-3.7,4.0) 2.8 1.1
+NEUT 0.973 3.13
+(%) 299 0.0-98.2 0.9851 (0.954,0.992) (1.84,4.41) 1.39 2.1
+LYMPH 0.990 -0.72
+(%) 299 1.0-93.6 0.9841 (0.970,1.010) (-1.28,-0.16) -0.96 -4.0
+MONO 0.967 -0.25
+(%) 299 0.2-71.0 0.9557 (0.934,1.000) (-0.63,0.13) -0.56 -5.9
+EO 0.987 0.03
+(%) 299 0.0-26.0 0.9873 (0.969,1.005) (-0.03,0.10) 0.01 0.4
+BASO 0.745 0.23
+(%) 299 0.0-10.8 0.8369 (0.695,0.795) (0.19,0.28) 0.11 22.4
+NRBC 0.845 0.064
+(%) 299 0.0-12.3 0.9463 (0.813,0.877) (0.031,0.096) 0.03 13.0
+IG 1.228 0.13
+(%) 299 0.0-18.1 0.9161 (1.171,1.285) (-0.03,0.29) 0.42 32.8
+RDW-CV 0.831 1.42
+(%) 299 11.4-26.9 0.9577 (0.804,0.859) (0.98,1.86) -1.25 -8.0
+RDW-SD 0.760 8.22
+(fL) 299 35.5-96.0 0.9332 (0.728,0.792) (6.56,9.87) -3.9 -7.7
+RET-He 0.906 1.60
+(pg) 299 18.3-43.4 0.9443 (0.871,0.941) (0.45,2.75) -1.45 -4.4
+IPF 0.856 -0.33
+(%) 299 0.9-32.0 0.8865 (0.808,0.904) (-0.63,-0.03) -1.3 -27.4
+1.069 -0.186
+Site 1 106 1.21-6.15 0.9979 (1.056,1.083) (-0.239,-0.133) 0.08 2.0
+RBC 1.047 -0.223
+(10⁶/µL) Site 2 93 1.28-6.43 0.9950 (1.026,1.069) (-0.310,-0.137) -0.04 -1.0
+1.033 -0.168
+Site 3 100 2.27-5.85 0.9986 (1.022,1.043) (-0.209,-0.127) -0.04 -1.3
+1.014 -0.12
+Site 1 106 3.8-18.2 0.9991 (1.006,1.022) (-0.22,-0.03) 0.04 0.3
+HGB 1.004 0.09
+(g/dL) Site 2 93 4.1-19.6 0.9992 (0.996,1.013) (-0.01,0.18) 0.14 1.2
+0.997 -0.05
+Site 3 100 7.3-17.3 0.9991 (0.989,1.005) (-0.14,0.04) -0.08 -0.7
+1.041 -1.30
+Site 1 106 11.4-51.5 0.9951 (1.021,1.061) (-2.01,-0.60) 0.10 0.2
+HCT 1.059 -2.48
+(%) Site 2 93 12.0-58.9 0.9924 (1.032,1.086) (-3.44,-1.51) -0.48 -1.3
+1.066 -2.34
+Site 3 100 22.6-50.1 0.9884 (1.034,1.099) (-3.46,-1.22) -0.10 -0.2
+0.896 7.73
+Site 1 106 65.0-112.9 0.9664 (0.850,0.941) (3.70,11.75) -1.54 -1.7
+MCV 0.978 1.74
+(fL) Site 2 93 67.3-106.6 0.9296 (0.902,1.055) (-5.19,8.67) -0.32 -0.3
+0.870 12.80
+Site 3 100 72.4-116.3 0.9566 (0.818,0.921) (8.05,17.56) 0.81 0.8
+9
+
+[Table 1 on page 9]
+Measurand	N	Result
+Range	r	Slope
+(95% CI)	Intercept
+(95% CI)	Mean
+Diff	Mean
+%Diff
+WBC
+(10³/µL)	299	0.68-387.67	0.9998	1.033
+(1.031, 1.035)	-0.316
+(-0.378, -0.254)	0.06	0.5
+MPV
+(fL)	299	8.4-14.2	0.8426	1.235
+(1.155, 1.315)	-2.63
+(-3.49, -1.77)	-0.11	-1.0
+RET
+(%)	299	0.10-10.88	0.9462	0.984
+(0.946,1.021)	-0.062
+(-0.151,0.028)	-0.90	-4.6
+IRF
+(%)	299	0.0-51.4	0.8958	0.847
+(0.802,0.892)	1.17
+(0.31,2.02)	-1.26	-7.8
+PLT-F
+(10³/µL)	299	11-1416	0.9931	1.011
+(0.997,1.025)	0.2
+(-3.7,4.0)	2.8	1.1
+NEUT
+(%)	299	0.0-98.2	0.9851	0.973
+(0.954,0.992)	3.13
+(1.84,4.41)	1.39	2.1
+LYMPH
+(%)	299	1.0-93.6	0.9841	0.990
+(0.970,1.010)	-0.72
+(-1.28,-0.16)	-0.96	-4.0
+MONO
+(%)	299	0.2-71.0	0.9557	0.967
+(0.934,1.000)	-0.25
+(-0.63,0.13)	-0.56	-5.9
+EO
+(%)	299	0.0-26.0	0.9873	0.987
+(0.969,1.005)	0.03
+(-0.03,0.10)	0.01	0.4
+BASO
+(%)	299	0.0-10.8	0.8369	0.745
+(0.695,0.795)	0.23
+(0.19,0.28)	0.11	22.4
+NRBC
+(%)	299	0.0-12.3	0.9463	0.845
+(0.813,0.877)	0.064
+(0.031,0.096)	0.03	13.0
+IG
+(%)	299	0.0-18.1	0.9161	1.228
+(1.171,1.285)	0.13
+(-0.03,0.29)	0.42	32.8
+RDW-CV
+(%)	299	11.4-26.9	0.9577	0.831
+(0.804,0.859)	1.42
+(0.98,1.86)	-1.25	-8.0
+RDW-SD
+(fL)	299	35.5-96.0	0.9332	0.760
+(0.728,0.792)	8.22
+(6.56,9.87)	-3.9	-7.7
+RET-He
+(pg)	299	18.3-43.4	0.9443	0.906
+(0.871,0.941)	1.60
+(0.45,2.75)	-1.45	-4.4
+IPF
+(%)	299	0.9-32.0	0.8865	0.856
+(0.808,0.904)	-0.33
+(-0.63,-0.03)	-1.3	-27.4
+RBC
+(10⁶/µL)	Site 1 106	1.21-6.15	0.9979	1.069
+(1.056,1.083)	-0.186
+(-0.239,-0.133)	0.08	2.0
+	Site 2 93	1.28-6.43	0.9950	1.047
+(1.026,1.069)	-0.223
+(-0.310,-0.137)	-0.04	-1.0
+	Site 3 100	2.27-5.85	0.9986	1.033
+(1.022,1.043)	-0.168
+(-0.209,-0.127)	-0.04	-1.3
+HGB
+(g/dL)	Site 1 106	3.8-18.2	0.9991	1.014
+(1.006,1.022)	-0.12
+(-0.22,-0.03)	0.04	0.3
+	Site 2 93	4.1-19.6	0.9992	1.004
+(0.996,1.013)	0.09
+(-0.01,0.18)	0.14	1.2
+	Site 3 100	7.3-17.3	0.9991	0.997
+(0.989,1.005)	-0.05
+(-0.14,0.04)	-0.08	-0.7
+HCT
+(%)	Site 1 106	11.4-51.5	0.9951	1.041
+(1.021,1.061)	-1.30
+(-2.01,-0.60)	0.10	0.2
+	Site 2 93	12.0-58.9	0.9924	1.059
+(1.032,1.086)	-2.48
+(-3.44,-1.51)	-0.48	-1.3
+	Site 3 100	22.6-50.1	0.9884	1.066
+(1.034,1.099)	-2.34
+(-3.46,-1.22)	-0.10	-0.2
+MCV
+(fL)	Site 1 106	65.0-112.9	0.9664	0.896
+(0.850,0.941)	7.73
+(3.70,11.75)	-1.54	-1.7
+	Site 2 93	67.3-106.6	0.9296	0.978
+(0.902,1.055)	1.74
+(-5.19,8.67)	-0.32	-0.3
+	Site 3 100	72.4-116.3	0.9566	0.870
+(0.818,0.921)	12.80
+(8.05,17.56)	0.81	0.8
+
+--- Page 10 ---
+Result Slope Intercept Mean Mean
+Measurand N Range r (95% CI) (95% CI) Diff %Diff
+0.968 1.3
+Site 1 106 44-594 0.9919 (0.944,0.992) (-5.4,7.9) -7.1 -2.8
+PLT-I 0.987 -4.987
+(10³/µL) Site 2 93 2-1243 0.9894 (0.957,1.016) (-14.194,4.221) -10.0 -4.1
+0.954 2.4
+Site 3 100 9-753 0.9952 (0.935,0.972) (-3.0,7.7) -8.9 -3.8
+1.038 -1.56
+Site 1 106 20.1-39.0 0.9744 (0.992,1.084) (-2.94,-0.18) -0.42 -1.3
+MCH 1.070 -1.21
+(pg) Site 2 93 21.7-33.3 0.9108 (0.976,1.163) (-3.96,1.54) 0.82 2.8
+1.026 -0.57
+Site 3 100 20.9-37.9 0.9886 (0.995,1.057) (-1.49,0.36) 0.21 0.7
+0.832 5.77
+Site 1 106 30.4-37.4 0.8015 (0.728,0.936) (2.23,9.31) 0.07 0.2
+MCHC 1.330 -9.68
+(g/dL) Site 2 93 28.2-35.3 0.5041 (1.070,1.589) (-18.09,-1.27) 1.01 3.1
+0.742 8.19
+Site 3 100 26.6-35.3 0.8102 (0.648,0.837) (5.14,11.25) -0.11 -0.3
+Body Fluid
+Method Comparison studies were performed to evaluate the performance of the Body
+Fluid Mode RBC-BF parameter of the XN-Series (XN-11, XN21) when compared to
+the XE-5000 using a total of 299 residual body fluid samples at three U.S sites. The
+body fluids (peritoneal, pleural, and synovial) were collected in K₂EDTA
+anticoagulant. All samples were run in singlet on the XE-5000 and within two hours
+on the XN-11 and XN-21 analyzers. The samples used in this study covered the full
+reportable measuring ranges to the extent possible of the XN-11 and XN-21
+analyzers. The estimation of the bias of the body fluids collected met the bias limits.
+Shown below are comparison results for XN-11. Similar results were obtained for
+XN-21.
+Correlation and Estimated Bias (Body Fluid – combined sites): (XE-5000 vs. XN-11)
+Fluid Slope Intercept Mean Mean
+Type Measurand N Result Range r (95% CI) (95% CI) Diff %Diff
+WBC-BF 1.035 -0.0295
+(10³/µL) 106 0.002-12.232 0.9858 (1.001,1.069) (-0.1229,0.0639) 0.020 1.4
+TC-BF 1.038 -0.0259
+(10³/µL) 106 0.002-12.233 0.9856 (1.004,1.073) (-0.1223,0.0705) 0.031 2.0
+RBC-BF 1.002 -0.0022
+(10⁶/µL) 106 0.000-3.300 0.9995 (0.996,1.008) (-0.0054,0.0010) -0.001 -0.9
+MN# 0.997 0.0177
+Pleural
+(10³/µL) 106 0.000-4.077 0.9601 (0.942,1.052) (-0.0400,0.0754) 0.016 1SD
+MN 1.085 -1.34
+(%) 106 0.0-100.0 0.9166 (0.999,1.171) (-6.61,3.94) 3.4 1SD
+PMN# 1.057 -0.0415
+(10³/µL) 106 0.000-10.703 0.9836 (1.020,1.094) (-0.1203,0.0373) 0.004 1SD
+PMN 1.085 -7.20
+(%) 106 0.0-100.0 0.9162 (0.999,1.171) (-11.65,-2.74) -3.4 1SD
+WBC-BF 1.004 -0.0133
+(10³/µL) 75 0.002-12.412 0.9978 (0.989,1.020) (-0.0627,0.0362) -0.007 -0.5
+TC-BF 1.004 -0.0113
+Peritoneal
+(10³/µL) 75 0.002-12.425 0.9975 (0.987,1.020) (-0.0635,0.0408) -0.006 -0.4
+RBC-BF 1.018 -0.0006
+(10⁶/µL) 75 0.000-3.430 0.9999 (1.015,1.021) (-0.0025,0.0013) 0.003 1.5
+10
+
+[Table 1 on page 10]
+Measurand	N	Result
+Range	r	Slope
+(95% CI)	Intercept
+(95% CI)	Mean
+Diff	Mean
+%Diff
+PLT-I
+(10³/µL)	Site 1 106	44-594	0.9919	0.968
+(0.944,0.992)	1.3
+(-5.4,7.9)	-7.1	-2.8
+	Site 2 93	2-1243	0.9894	0.987
+(0.957,1.016)	-4.987
+(-14.194,4.221)	-10.0	-4.1
+	Site 3 100	9-753	0.9952	0.954
+(0.935,0.972)	2.4
+(-3.0,7.7)	-8.9	-3.8
+MCH
+(pg)	Site 1 106	20.1-39.0	0.9744	1.038
+(0.992,1.084)	-1.56
+(-2.94,-0.18)	-0.42	-1.3
+	Site 2 93	21.7-33.3	0.9108	1.070
+(0.976,1.163)	-1.21
+(-3.96,1.54)	0.82	2.8
+	Site 3 100	20.9-37.9	0.9886	1.026
+(0.995,1.057)	-0.57
+(-1.49,0.36)	0.21	0.7
+MCHC
+(g/dL)	Site 1 106	30.4-37.4	0.8015	0.832
+(0.728,0.936)	5.77
+(2.23,9.31)	0.07	0.2
+	Site 2 93	28.2-35.3	0.5041	1.330
+(1.070,1.589)	-9.68
+(-18.09,-1.27)	1.01	3.1
+	Site 3 100	26.6-35.3	0.8102	0.742
+(0.648,0.837)	8.19
+(5.14,11.25)	-0.11	-0.3
+
+[Table 2 on page 10]
+Fluid
+Type	Measurand	N	Result Range	r	Slope
+(95% CI)	Intercept
+(95% CI)	Mean
+Diff	Mean
+%Diff
+Pleural	WBC-BF
+(10³/µL)	106	0.002-12.232	0.9858	1.035
+(1.001,1.069)	-0.0295
+(-0.1229,0.0639)	0.020	1.4
+	TC-BF
+(10³/µL)	106	0.002-12.233	0.9856	1.038
+(1.004,1.073)	-0.0259
+(-0.1223,0.0705)	0.031	2.0
+	RBC-BF
+(10⁶/µL)	106	0.000-3.300	0.9995	1.002
+(0.996,1.008)	-0.0022
+(-0.0054,0.0010)	-0.001	-0.9
+	MN#
+(10³/µL)	106	0.000-4.077	0.9601	0.997
+(0.942,1.052)	0.0177
+(-0.0400,0.0754)	0.016	1SD
+	MN
+(%)	106	0.0-100.0	0.9166	1.085
+(0.999,1.171)	-1.34
+(-6.61,3.94)	3.4	1SD
+	PMN#
+(10³/µL)	106	0.000-10.703	0.9836	1.057
+(1.020,1.094)	-0.0415
+(-0.1203,0.0373)	0.004	1SD
+	PMN
+(%)	106	0.0-100.0	0.9162	1.085
+(0.999,1.171)	-7.20
+(-11.65,-2.74)	-3.4	1SD
+Peritoneal	WBC-BF
+(10³/µL)	75	0.002-12.412	0.9978	1.004
+(0.989,1.020)	-0.0133
+(-0.0627,0.0362)	-0.007	-0.5
+	TC-BF
+(10³/µL)	75	0.002-12.425	0.9975	1.004
+(0.987,1.020)	-0.0113
+(-0.0635,0.0408)	-0.006	-0.4
+	RBC-BF
+(10⁶/µL)	75	0.000-3.430	0.9999	1.018
+(1.015,1.021)	-0.0006
+(-0.0025,0.0013)	0.003	1.5
+
+--- Page 11 ---
+Fluid Slope Intercept Mean Mean
+Type Measurand N Result Range r (95% CI) (95% CI) Diff %Diff
+MN# 1.267 -0.0417
+(10³/µL) 75 0.001-2.741 0.9247 (1.153,1.381) (-0.0997,0.0162) 0.023 1SD
+MN 1.191 -3.47
+(%) 75 4.0-92.4 0.8781 (1.055,1.327) (-11.00,4.06) 6.0 1SD
+PMN# 0.974 -0.0058
+(10³/µL) 75 0.001-10.760 0.9932 (0.948,1.001) (-0.0774,0.0658) -0.033 1SD
+PMN 1.192 -15.74
+(%) 75 7.6-96.0 0.8787 (1.056,1.326) (-23.30,-8.17) -6.1 1SD
+WBC-BF 0.919 -0.0072
+(10³/µL) 89 0.004-23.403 0.9906 (0.892,0.946) (-0.1599,0.1456) -0.256 -8.33
+TC-BF 0.918 0.0128
+(10³/µL) 89 0.004-23.410 0.9906 (0.891,0.945) (-0.1410,0.1666) -0.242 -7.77
+RBC-BF 1.023 -0.0046
+(10⁶/µL) 89 0.000-5.962 0.9998 (1.019,1.027) (-0.0086,-0.0006) 0.002 0.8
+MN# 0.874 -0.0096
+Synovial
+(10³/µL) 89 0.001-7.664 0.9594 (0.820,0.927) (-0.0934,0.0742) -0.118 1SD
+MN 1.108 -1.59
+(%) 89 4.2-96.1 0.9333 (1.022,1.194) (-5.89,2.71) 3.0 1SD
+PMN# 0.952 -0.0276
+(10³/µL) 89 0.001-20.145 0.9894 (0.923,0.982) (-0.1610,0.1058) -0.132 1SD
+PMN 1.108 -9.21
+(%) 89 3.9-95.8 0.9333 (1.022,1.194) (-14.62,-3.81) -3.0 1SD
+Flagging capabilities
+Clinical sensitivity/specificity studies were conducted to evaluate the flagging
+capabilities of the XN-11, XN-21 analyzers using patient samples representing a
+variety of abnormal conditions in comparison to the XE-5000. The results of the XN-
+11, XN-21 analyzers flagging to the XE-5000 flagging evaluation were divided into
+two categories: (1) Normal, healthy adults – No Flags, Negative Judgment (2)
+Patients with positive morphology/Differential – Flags present, Positive Judgment.
+The results obtained from the flagging comparison study met the specification of
+≥90.0% Agreement. Note: XN-11, XN-21 Site 2, eight (8) samples were removed due
+to protocol deviation and three (3) for incomplete results. XN-11, XN-21 Site 3, 14
+samples were removed due to protocol deviation and one (1) for incomplete results.
+Total number of samples excluded or missing = 26.
+Overall Flagging Analysis – XE-5000 vs. XN-11 – Combined sites
+All Sites XE-5000
+(N=299) Positive Negative
+(Abnormal) (Normal) Total
+Positive
+(Abnormal) 156 5 161
+Negative
+XN-11
+(Normal) 4 134 138
+Total 160 139 299
+Positive Percent Agreement (PPA) = 156/(156 + 4) x 100 = 97.5%
+Negative Percent Agreement (NPA) = 134/(134 + 5) x 100 = 96.4%
+Overall Agreement = (156+134/299) x100= 97.0%
+11
+
+[Table 1 on page 11]
+Fluid
+Type	Measurand	N	Result Range	r	Slope
+(95% CI)	Intercept
+(95% CI)	Mean
+Diff	Mean
+%Diff
+	MN#
+(10³/µL)	75	0.001-2.741	0.9247	1.267
+(1.153,1.381)	-0.0417
+(-0.0997,0.0162)	0.023	1SD
+	MN
+(%)	75	4.0-92.4	0.8781	1.191
+(1.055,1.327)	-3.47
+(-11.00,4.06)	6.0	1SD
+	PMN#
+(10³/µL)	75	0.001-10.760	0.9932	0.974
+(0.948,1.001)	-0.0058
+(-0.0774,0.0658)	-0.033	1SD
+	PMN
+(%)	75	7.6-96.0	0.8787	1.192
+(1.056,1.326)	-15.74
+(-23.30,-8.17)	-6.1	1SD
+Synovial	WBC-BF
+(10³/µL)	89	0.004-23.403	0.9906	0.919
+(0.892,0.946)	-0.0072
+(-0.1599,0.1456)	-0.256	-8.33
+	TC-BF
+(10³/µL)	89	0.004-23.410	0.9906	0.918
+(0.891,0.945)	0.0128
+(-0.1410,0.1666)	-0.242	-7.77
+	RBC-BF
+(10⁶/µL)	89	0.000-5.962	0.9998	1.023
+(1.019,1.027)	-0.0046
+(-0.0086,-0.0006)	0.002	0.8
+	MN#
+(10³/µL)	89	0.001-7.664	0.9594	0.874
+(0.820,0.927)	-0.0096
+(-0.0934,0.0742)	-0.118	1SD
+	MN
+(%)	89	4.2-96.1	0.9333	1.108
+(1.022,1.194)	-1.59
+(-5.89,2.71)	3.0	1SD
+	PMN#
+(10³/µL)	89	0.001-20.145	0.9894	0.952
+(0.923,0.982)	-0.0276
+(-0.1610,0.1058)	-0.132	1SD
+	PMN
+(%)	89	3.9-95.8	0.9333	1.108
+(1.022,1.194)	-9.21
+(-14.62,-3.81)	-3.0	1SD
+
+[Table 2 on page 11]
+All Sites
+(N=299)			XE-5000			
+		Positive
+(Abnormal)		Negative
+(Normal)	Total	
+XN-11	Positive
+(Abnormal)	156		5	161	
+	Negative
+(Normal)	4		134	138	
+	Total	160		139	299	
+
+--- Page 12 ---
+Overall Flagging Analysis – XE-5000 vs. XN-21 – Combined sites
+All Sites XE-5000
+(N=299) Positive Negative
+(Abnormal) (Normal) Total
+Positive
+(Abnormal) 157 7 164
+Negative
+XN-21
+(Normal) 3 132 135
+Total 160 139 299
+Positive Percent Agreement (PPA) = 157/(157 + 3) x 100= 98.1%
+Negative Percent Agreement (NPA) = 132/(132 + 7) x 100= 95.0%
+Overall Agreement = (157+132/299) x100= 96.7%
+b. Precision/Reproducibility:
+Precision/Repeatability Study – Whole Blood Mode
+Within-run precision studies of the direct measurement parameters RBC, HGB, HCT,
+and PLT-I which use CELLSHEATH(C) diluent were evaluated by using residual
+K₂EDTA whole blood samples around medical decision levels and the upper and
+lower limit of the analytical measuring range. Ten replicates of each sample were
+tested in the whole blood manual mode at three clinical sites. The mean, standard
+deviation (SD), and coefficient of variation (CV) were calculated for each sample. All
+sites met manufacturer’s specifications (CV%) for precision.
+Precision/Reproducibility – Whole Blood Mode
+Evaluation of whole blood reproducibility for RBC, HGB, HCT/MCV and PLT-I
+parameters which use the CELLSHEATH(C) reagent was assessed using three levels
+of quality control material (Low, Normal, and High) performed on the XN-11 and
+XN-21 analyzers. Each level was run in duplicate twice each day for the length of the
+study or a minimum of 20 days using a single lot of control, calibration and reagent at
+each of the three test sites. Controls were automatically mixed by the analyzers before
+sampling. Results of the whole blood reproducibility included the precision results for
+each site separately and then combined data to show the within-run, between-run,
+between-day, between-site and total imprecision. Both XN-11 and XN-21 have
+similar results and met the acceptance criteria. Table below summarizes results from
+XN-11.
+12
+
+[Table 1 on page 12]
+All Sites
+(N=299)			XE-5000			
+		Positive
+(Abnormal)		Negative
+(Normal)	Total	
+XN-21	Positive
+(Abnormal)	157		7	164	
+	Negative
+(Normal)	3		132	135	
+	Total	160		139	299	
+
+--- Page 13 ---
+Whole Blood Reproducibility – Combined Sites- XN- 11 Module
+All Sites Combined Within-Run Between-Run Between-Day Between-Site Total
+Control
+Measurand Level N Mean SD %CV SD %CV SD %CV SD %CV SD %CV
+Level 1 272 2.790 0.055 1.97 0.000 0.00 0.024 0.87 0.064 2.29 0.088 3.14
+WBC
+Level 2 259 7.179 0.087 1.21 0.034 0.47 0.032 0.44 0.154 2.14 0.183 2.54
+(x 10³/µL)
+Level 3 271 17.22 0.187 1.08 0.000 0.00 0.133 0.77 0.546 3.17 0.593 3.44
+Level 1 272 2.203 0.016 0.73 0.010 0.46 0.007 0.33 0.002 0.11 0.021 0.94
+RBC
+Level 2 259 4.260 0.028 0.65 0.011 0.27 0.013 0.31 0.008 0.19 0.034 0.80
+(x 106/µL)
+Level 3 271 5.228 0.034 0.65 0.000 0.00 0.020 0.38 0.023 0.45 0.046 0.87
+Level 1 272 5.896 0.053 0.89 0.000 0.00 0.020 0.34 0.045 0.77 0.072 1.22
+HGB
+Level 2 259 12.02 0.059 0.49 0.031 0.26 0.050 0.42 0.124 1.03 0.149 1.24
+(g/dL)
+Level 3 271 16.34 0.073 0.45 0.036 0.22 0.054 0.33 0.197 1.21 0.220 1.35
+Level 1 272 17.69 0.156 0.88 0.111 0.63 0.138 0.78 0.197 1.12 0.308 1.74
+HCT
+Level 2 259 34.53 0.261 0.75 0.219 0.64 0.224 0.65 0.471 1.36 0.623 1.80
+(%)
+Level 3 271 46.55 0.392 0.84 0.201 0.43 0.374 0.80 0.709 1.52 0.914 1.96
+Level 1 272 80.30 0.324 0.40 0.233 0.29 0.516 0.64 0.773 0.96 1.011 1.26
+MCV
+Level 2 260 81.06 0.272 0.34 0.357 0.44 0.445 0.55 0.951 1.17 1.141 1.41
+(fL)
+Level 3 272 89.05 0.331 0.37 0.358 0.40 0.498 0.56 0.969 1.09 1.194 1.34
+Level 1 272 26.76 0.272 1.02 0.000 0.00 0.089 0.33 0.230 0.86 0.368 1.37
+MCH
+Level 2 260 28.22 0.227 0.80 0.136 0.48 0.073 0.26 0.335 1.19 0.433 1.53
+(pg)
+Level 3 272 31.27 0.256 0.82 0.000 0.00 0.145 0.46 0.500 1.60 0.580 1.86
+Level 1 272 33.32 0.383 1.15 0.113 0.34 0.255 0.76 0.512 1.54 0.697 2.09
+MCHC
+Level 2 260 34.84 0.294 0.84 0.238 0.68 0.185 0.53 0.831 2.38 0.931 2.67
+(g/dL)
+Level 3 272 35.12 0.328 0.93 0.082 0.23 0.315 0.90 0.953 2.71 1.059 3.02
+Level 1 271 54.52 2.577 4.73 0.000 0.00 1.711 3.14 0.999 1.83 3.251 5.96
+PLT-I
+Level 2 259 206.2 4.630 2.25 1.811 0.88 4.468 2.17 5.550 2.69 8.688 4.21
+(x 10³/µL)
+Level 3 271 492.9 7.574 1.54 0.000 0.00 4.926 1.00 17.01 3.45 19.257 3.91
+Level 1 272 54.50 2.540 4.66 0.000 0.00 1.692 3.11 1.015 1.86 3.217 5.90
+PLT-F
+Level 2 259 206.2 4.630 2.25 1.811 0.88 4.468 2.17 5.550 2.69 8.688 4.21
+(x 10³/µL)
+Level 3 271 492.9 7.574 1.54 0.000 0.00 4.926 1.00 17.01 3.45 19.257 3.91
+Level 1 272 46.27 0.400 0.87 0.167 0.36 0.362 0.78 0.445 0.96 0.719 1.55
+RDW-SD
+Level 2 260 42.66 0.344 0.81 0.222 0.52 0.320 0.75 0.409 0.96 0.662 1.55
+(fL)
+Level 3 272 44.96 0.276 0.61 0.000 0.00 0.219 0.49 0.436 0.97 0.561 1.25
+Level 1 272 16.08 0.096 0.60 0.030 0.18 0.000 0.00 0.057 0.36 0.116 0.72
+RDW-CV
+Level 2 260 14.81 0.082 0.56 0.000 0.00 0.020 0.13 0.048 0.32 0.097 0.66
+(%)
+Level 3 272 13.97 0.065 0.47 0.000 0.00 0.040 0.29 0.046 0.33 0.089 0.64
+MPV (fL) Level 1 272 8.951 0.276 3.09 0.026 0.29 0.224 2.50 0.639 7.14 0.732 8.17
+13
+
+[Table 1 on page 13]
+All Sites Combined				Within-Run		Between-Run		Between-Day		Between-Site			
+												Total	
+Measurand	Control	N	Mean	SD	%CV	SD	%CV	SD	%CV		%CV	SD	
+	Level									SD			%CV
+WBC
+(x 10³/µL)	Level 1	272	2.790	0.055	1.97	0.000	0.00	0.024	0.87	0.064	2.29	0.088	3.14
+	Level 2	259	7.179	0.087	1.21	0.034	0.47	0.032	0.44	0.154	2.14	0.183	2.54
+	Level 3	271	17.22	0.187	1.08	0.000	0.00	0.133	0.77	0.546	3.17	0.593	3.44
+RBC
+(x 106/µL)	Level 1	272	2.203	0.016	0.73	0.010	0.46	0.007	0.33	0.002	0.11	0.021	0.94
+	Level 2	259	4.260	0.028	0.65	0.011	0.27	0.013	0.31	0.008	0.19	0.034	0.80
+	Level 3	271	5.228	0.034	0.65	0.000	0.00	0.020	0.38	0.023	0.45	0.046	0.87
+HGB
+(g/dL)	Level 1	272	5.896	0.053	0.89	0.000	0.00	0.020	0.34	0.045	0.77	0.072	1.22
+	Level 2	259	12.02	0.059	0.49	0.031	0.26	0.050	0.42	0.124	1.03	0.149	1.24
+	Level 3	271	16.34	0.073	0.45	0.036	0.22	0.054	0.33	0.197	1.21	0.220	1.35
+HCT
+(%)	Level 1	272	17.69	0.156	0.88	0.111	0.63	0.138	0.78	0.197	1.12	0.308	1.74
+	Level 2	259	34.53	0.261	0.75	0.219	0.64	0.224	0.65	0.471	1.36	0.623	1.80
+	Level 3	271	46.55	0.392	0.84	0.201	0.43	0.374	0.80	0.709	1.52	0.914	1.96
+MCV
+(fL)	Level 1	272	80.30	0.324	0.40	0.233	0.29	0.516	0.64	0.773	0.96	1.011	1.26
+	Level 2	260	81.06	0.272	0.34	0.357	0.44	0.445	0.55	0.951	1.17	1.141	1.41
+	Level 3	272	89.05	0.331	0.37	0.358	0.40	0.498	0.56	0.969	1.09	1.194	1.34
+MCH
+(pg)	Level 1	272	26.76	0.272	1.02	0.000	0.00	0.089	0.33	0.230	0.86	0.368	1.37
+	Level 2	260	28.22	0.227	0.80	0.136	0.48	0.073	0.26	0.335	1.19	0.433	1.53
+	Level 3	272	31.27	0.256	0.82	0.000	0.00	0.145	0.46	0.500	1.60	0.580	1.86
+MCHC
+(g/dL)	Level 1	272	33.32	0.383	1.15	0.113	0.34	0.255	0.76	0.512	1.54	0.697	2.09
+	Level 2	260	34.84	0.294	0.84	0.238	0.68	0.185	0.53	0.831	2.38	0.931	2.67
+	Level 3	272	35.12	0.328	0.93	0.082	0.23	0.315	0.90	0.953	2.71	1.059	3.02
+PLT-I
+(x 10³/µL)	Level 1	271	54.52	2.577	4.73	0.000	0.00	1.711	3.14	0.999	1.83	3.251	5.96
+	Level 2	259	206.2	4.630	2.25	1.811	0.88	4.468	2.17	5.550	2.69	8.688	4.21
+	Level 3	271	492.9	7.574	1.54	0.000	0.00	4.926	1.00	17.01	3.45	19.257	3.91
+PLT-F
+(x 10³/µL)	Level 1	272	54.50	2.540	4.66	0.000	0.00	1.692	3.11	1.015	1.86	3.217	5.90
+	Level 2	259	206.2	4.630	2.25	1.811	0.88	4.468	2.17	5.550	2.69	8.688	4.21
+	Level 3	271	492.9	7.574	1.54	0.000	0.00	4.926	1.00	17.01	3.45	19.257	3.91
+RDW-SD
+(fL)	Level 1	272	46.27	0.400	0.87	0.167	0.36	0.362	0.78	0.445	0.96	0.719	1.55
+	Level 2	260	42.66	0.344	0.81	0.222	0.52	0.320	0.75	0.409	0.96	0.662	1.55
+	Level 3	272	44.96	0.276	0.61	0.000	0.00	0.219	0.49	0.436	0.97	0.561	1.25
+RDW-CV
+(%)	Level 1	272	16.08	0.096	0.60	0.030	0.18	0.000	0.00	0.057	0.36	0.116	0.72
+	Level 2	260	14.81	0.082	0.56	0.000	0.00	0.020	0.13	0.048	0.32	0.097	0.66
+	Level 3	272	13.97	0.065	0.47	0.000	0.00	0.040	0.29	0.046	0.33	0.089	0.64
+MPV (fL)	Level 1	272	8.951	0.276	3.09	0.026	0.29	0.224	2.50	0.639	7.14	0.732	8.17
+
+--- Page 14 ---
+All Sites Combined Within-Run Between-Run Between-Day Between-Site Total
+Control
+Measurand Level N Mean SD %CV SD %CV SD %CV SD %CV SD %CV
+Level 2 260 10.89 0.135 1.24 0.040 0.36 0.332 3.05 0.648 5.95 0.741 6.81
+Level 3 272 10.53 0.076 0.72 0.000 0.00 0.208 1.97 0.815 7.73 0.844 8.01
+Level 1 272 1.107 0.036 3.28 0.009 0.86 0.016 1.45 0.024 2.16 0.047 4.27
+NEUT# Level 2 259 3.123 0.069 2.22 0.000 0.00 0.021 0.66 0.069 2.20 0.100 3.20
+Level 3 271 8.438 0.189 2.24 0.000 0.00 0.096 1.14 0.254 3.01 0.331 3.92
+Level 1 272 39.69 1.058 2.67 0.000 0.00 0.411 1.04 0.049 0.12 1.136 2.86
+NEUT% Level 2 260 43.51 0.851 1.96 0.000 0.00 0.270 0.62 0.126 0.29 0.902 2.07
+Level 3 272 49.01 0.926 1.89 0.000 0.00 0.358 0.73 0.310 0.63 1.040 2.12
+Level 1 272 0.929 0.052 5.64 0.000 0.00 0.014 1.50 0.018 1.91 0.057 6.14
+LYMPH# Level 2 259 1.985 0.077 3.86 0.000 0.00 0.022 1.13 0.011 0.57 0.081 4.06
+Level 3 271 3.852 0.117 3.05 0.043 1.11 0.018 0.47 0.094 2.45 0.158 4.09
+Level 1 272 33.20 1.501 4.52 0.000 0.00 0.213 0.64 0.199 0.60 1.530 4.61
+LYMPH% Level 2 260 27.66 1.011 3.66 0.000 0.00 0.126 0.45 0.406 1.47 1.097 3.97
+Level 3 272 22.36 0.703 3.14 0.154 0.69 0.000 0.00 0.153 0.69 0.735 3.29
+Level 1 272 0.352 0.039 10.97 0.000 0.00 0.006 1.75 0.017 4.96 0.043 12.17
+MONO# Level 2 259 0.970 0.068 7.06 0.021 2.12 0.000 0.00 0.057 5.85 0.091 9.41
+Level 3 271 2.098 0.111 5.28 0.040 1.88 0.000 0.00 0.119 5.67 0.167 7.97
+Level 1 272 12.62 1.370 10.86 0.000 0.00 0.211 1.67 0.393 3.11 1.441 11.42
+MONO% Level 2 260 13.50 0.930 6.89 0.239 1.77 0.000 0.00 0.504 3.74 1.085 8.04
+Level 3 272 12.18 0.615 5.05 0.245 2.01 0.000 0.00 0.325 2.67 0.738 6.06
+Level 1 272 0.271 0.020 7.34 0.000 0.00 0.006 2.07 0.005 2.02 0.021 7.89
+EO# Level 2 259 0.755 0.056 7.42 0.000 0.00 0.014 1.87 0.011 1.48 0.059 7.79
+Level 3 271 1.997 0.145 7.26 0.045 2.26 0.029 1.43 0.064 3.18 0.167 8.37
+Level 1 272 9.726 0.687 7.07 0.053 0.55 0.219 2.25 0.000 0.00 0.723 7.44
+EO% Level 2 260 10.52 0.762 7.24 0.000 0.00 0.194 1.84 0.133 1.26 0.797 7.58
+Level 3 272 11.61 0.834 7.19 0.286 2.46 0.143 1.23 0.126 1.09 0.902 7.77
+Level 1 272 0.133 0.005 4.10 0.001 1.02 0.001 0.47 0.003 2.26 0.006 4.82
+BASO# Level 2 259 0.346 0.009 2.71 0.002 0.63 0.003 0.85 0.008 2.20 0.013 3.65
+Level 3 271 0.834 0.019 2.30 0.000 0.00 0.005 0.61 0.027 3.29 0.034 4.06
+Level 1 272 4.767 0.181 3.79 0.029 0.61 0.000 0.00 0.012 0.25 0.183 3.84
+BASO% Level 2 260 4.817 0.125 2.59 0.032 0.66 0.009 0.18 0.000 0.00 0.129 2.68
+Level 3 272 4.846 0.105 2.17 0.000 0.00 0.012 0.25 0.024 0.50 0.109 2.24
+Level 1 272 0.156 0.029 18.86 0.000 0.00 0.002 1.10 0.017 11.15 0.034 21.94
+NRBC# Level 2 259 0.390 0.022 5.76 0.006 1.44 0.000 0.00 0.011 2.86 0.026 6.59
+Level 3 271 1.086 0.036 3.34 0.000 0.00 0.016 1.47 0.041 3.76 0.057 5.24
+14
+
+[Table 1 on page 14]
+All Sites Combined				Within-Run		Between-Run		Between-Day		Between-Site			
+												Total	
+Measurand	Control	N	Mean	SD	%CV	SD	%CV	SD	%CV		%CV	SD	
+	Level									SD			%CV
+	Level 2	260	10.89	0.135	1.24	0.040	0.36	0.332	3.05	0.648	5.95	0.741	6.81
+	Level 3	272	10.53	0.076	0.72	0.000	0.00	0.208	1.97	0.815	7.73	0.844	8.01
+NEUT#	Level 1	272	1.107	0.036	3.28	0.009	0.86	0.016	1.45	0.024	2.16	0.047	4.27
+	Level 2	259	3.123	0.069	2.22	0.000	0.00	0.021	0.66	0.069	2.20	0.100	3.20
+	Level 3	271	8.438	0.189	2.24	0.000	0.00	0.096	1.14	0.254	3.01	0.331	3.92
+NEUT%	Level 1	272	39.69	1.058	2.67	0.000	0.00	0.411	1.04	0.049	0.12	1.136	2.86
+	Level 2	260	43.51	0.851	1.96	0.000	0.00	0.270	0.62	0.126	0.29	0.902	2.07
+	Level 3	272	49.01	0.926	1.89	0.000	0.00	0.358	0.73	0.310	0.63	1.040	2.12
+LYMPH#	Level 1	272	0.929	0.052	5.64	0.000	0.00	0.014	1.50	0.018	1.91	0.057	6.14
+	Level 2	259	1.985	0.077	3.86	0.000	0.00	0.022	1.13	0.011	0.57	0.081	4.06
+	Level 3	271	3.852	0.117	3.05	0.043	1.11	0.018	0.47	0.094	2.45	0.158	4.09
+LYMPH%	Level 1	272	33.20	1.501	4.52	0.000	0.00	0.213	0.64	0.199	0.60	1.530	4.61
+	Level 2	260	27.66	1.011	3.66	0.000	0.00	0.126	0.45	0.406	1.47	1.097	3.97
+	Level 3	272	22.36	0.703	3.14	0.154	0.69	0.000	0.00	0.153	0.69	0.735	3.29
+MONO#	Level 1	272	0.352	0.039	10.97	0.000	0.00	0.006	1.75	0.017	4.96	0.043	12.17
+	Level 2	259	0.970	0.068	7.06	0.021	2.12	0.000	0.00	0.057	5.85	0.091	9.41
+	Level 3	271	2.098	0.111	5.28	0.040	1.88	0.000	0.00	0.119	5.67	0.167	7.97
+MONO%	Level 1	272	12.62	1.370	10.86	0.000	0.00	0.211	1.67	0.393	3.11	1.441	11.42
+	Level 2	260	13.50	0.930	6.89	0.239	1.77	0.000	0.00	0.504	3.74	1.085	8.04
+	Level 3	272	12.18	0.615	5.05	0.245	2.01	0.000	0.00	0.325	2.67	0.738	6.06
+EO#	Level 1	272	0.271	0.020	7.34	0.000	0.00	0.006	2.07	0.005	2.02	0.021	7.89
+	Level 2	259	0.755	0.056	7.42	0.000	0.00	0.014	1.87	0.011	1.48	0.059	7.79
+	Level 3	271	1.997	0.145	7.26	0.045	2.26	0.029	1.43	0.064	3.18	0.167	8.37
+EO%	Level 1	272	9.726	0.687	7.07	0.053	0.55	0.219	2.25	0.000	0.00	0.723	7.44
+	Level 2	260	10.52	0.762	7.24	0.000	0.00	0.194	1.84	0.133	1.26	0.797	7.58
+	Level 3	272	11.61	0.834	7.19	0.286	2.46	0.143	1.23	0.126	1.09	0.902	7.77
+BASO#	Level 1	272	0.133	0.005	4.10	0.001	1.02	0.001	0.47	0.003	2.26	0.006	4.82
+	Level 2	259	0.346	0.009	2.71	0.002	0.63	0.003	0.85	0.008	2.20	0.013	3.65
+	Level 3	271	0.834	0.019	2.30	0.000	0.00	0.005	0.61	0.027	3.29	0.034	4.06
+BASO%	Level 1	272	4.767	0.181	3.79	0.029	0.61	0.000	0.00	0.012	0.25	0.183	3.84
+	Level 2	260	4.817	0.125	2.59	0.032	0.66	0.009	0.18	0.000	0.00	0.129	2.68
+	Level 3	272	4.846	0.105	2.17	0.000	0.00	0.012	0.25	0.024	0.50	0.109	2.24
+NRBC#	Level 1	272	0.156	0.029	18.86	0.000	0.00	0.002	1.10	0.017	11.15	0.034	21.94
+	Level 2	259	0.390	0.022	5.76	0.006	1.44	0.000	0.00	0.011	2.86	0.026	6.59
+	Level 3	271	1.086	0.036	3.34	0.000	0.00	0.016	1.47	0.041	3.76	0.057	5.24
+
+--- Page 15 ---
+All Sites Combined Within-Run Between-Run Between-Day Between-Site Total
+Control
+Measurand Level N Mean SD %CV SD %CV SD %CV SD %CV SD %CV
+Level 1 272 5.321 0.546 10.26 0.000 0.00 0.072 1.36 0.071 1.33 0.555 10.44
+NRBC% Level 2 260 5.421 0.304 5.60 0.038 0.70 0.000 0.00 0.033 0.61 0.308 5.68
+Level 3 272 6.304 0.210 3.33 0.000 0.00 0.085 1.34 0.040 0.64 0.230 3.65
+Level 1 272 0.097 0.003 2.90 0.000 0.34 0.000 0.00 0.013 13.35 0.013 13.66
+RET# Level 2 259 0.077 0.002 3.10 0.000 0.00 0.004 5.08 0.008 10.27 0.009 11.87
+Level 3 271 0.034 0.002 5.41 0.000 0.00 0.000 0.00 0.006 16.69 0.006 17.54
+Level 1 272 4.396 0.125 2.84 0.007 0.17 0.000 0.00 0.587 13.35 0.600 13.65
+RET% Level 2 260 1.810 0.052 2.86 0.000 0.00 0.092 5.11 0.184 10.14 0.212 11.71
+Level 3 272 0.659 0.035 5.38 0.000 0.00 0.000 0.00 0.110 16.63 0.115 17.48
+Level 1 272 36.98 2.532 6.85 1.586 4.29 4.488 12.14 5.080 13.74 7.408 20.03
+IRF% Level 2 260 33.70 2.368 7.03 1.181 3.50 4.017 11.92 4.454 13.22 6.556 19.45
+Level 3 272 23.12 2.178 9.42 0.798 3.45 1.395 6.03 2.455 10.62 3.654 15.81
+Level 1 272 0.285 0.011 3.88 0.003 0.97 0.006 1.96 0.006 2.09 0.014 4.92
+IG# Level 2 259 0.793 0.026 3.25 0.000 0.00 0.010 1.32 0.019 2.43 0.034 4.26
+Level 3 271 2.126 0.069 3.24 0.010 0.49 0.028 1.32 0.072 3.37 0.104 4.88
+Level 1 272 10.23 0.370 3.62 0.051 0.50 0.141 1.37 0.035 0.34 0.400 3.92
+IG% Level 2 260 11.04 0.315 2.85 0.043 0.39 0.103 0.94 0.000 0.00 0.334 3.03
+Level 3 272 12.34 0.385 3.12 0.014 0.11 0.116 0.94 0.000 0.00 0.403 3.26
+Level 1 271 19.03 0.583 3.06 0.000 0.00 0.170 0.89 0.000 0.00 0.607 3.19
+IPF% Level 2 260 19.98 0.673 3.37 0.000 0.00 0.309 1.55 0.000 0.00 0.741 3.71
+Level 3 271 19.90 0.677 3.40 0.000 0.00 0.369 1.85 0.114 0.57 0.779 3.91
+Level 1 271 23.70 0.140 0.59 0.059 0.25 0.051 0.22 0.619 2.61 0.640 2.70
+RET-He
+Level 2 260 24.96 0.175 0.70 0.083 0.33 0.230 0.92 0.469 1.88 0.557 2.23
+(pg)
+Level 3 272 27.16 0.370 1.36 0.000 0.00 0.116 0.43 0.891 3.28 0.972 3.58
+Precision/Repeatability – Body Fluid
+Repeatability (within-run precision) studies were performed to evaluate the
+performance of the RBC-BF parameter when diluted with CELLSHEATH(C)
+reagent. The studies were conducted on the XN-11, XN-21 analyzers Body Fluid
+Mode at three clinical sites using two high and two low residual body fluid samples
+for pleural, peritoneal and synovial fluids around the upper and lower limit of the
+analytical measuring range. Pleural, peritoneal and synovial fluids were collected in
+K₂EDTA anticoagulant. Each sample was run 10 consecutive times at each clinical
+site. The mean, standard deviation (SD), and coefficient of variation (CV) were
+calculated for each sample included in the study. Results of the
+Precision/Repeatability met the performance specifications (CV%) for the XN-Series
+analyzers.
+15
+
+[Table 1 on page 15]
+All Sites Combined				Within-Run		Between-Run		Between-Day		Between-Site			
+												Total	
+Measurand	Control	N	Mean		%CV	SD	%CV	SD	%CV		%CV	SD	
+	Level			SD						SD			%CV
+NRBC%	Level 1	272	5.321	0.546	10.26	0.000	0.00	0.072	1.36	0.071	1.33	0.555	10.44
+	Level 2	260	5.421	0.304	5.60	0.038	0.70	0.000	0.00	0.033	0.61	0.308	5.68
+	Level 3	272	6.304	0.210	3.33	0.000	0.00	0.085	1.34	0.040	0.64	0.230	3.65
+RET#	Level 1	272	0.097	0.003	2.90	0.000	0.34	0.000	0.00	0.013	13.35	0.013	13.66
+	Level 2	259	0.077	0.002	3.10	0.000	0.00	0.004	5.08	0.008	10.27	0.009	11.87
+	Level 3	271	0.034	0.002	5.41	0.000	0.00	0.000	0.00	0.006	16.69	0.006	17.54
+RET%	Level 1	272	4.396	0.125	2.84	0.007	0.17	0.000	0.00	0.587	13.35	0.600	13.65
+	Level 2	260	1.810	0.052	2.86	0.000	0.00	0.092	5.11	0.184	10.14	0.212	11.71
+	Level 3	272	0.659	0.035	5.38	0.000	0.00	0.000	0.00	0.110	16.63	0.115	17.48
+IRF%	Level 1	272	36.98	2.532	6.85	1.586	4.29	4.488	12.14	5.080	13.74	7.408	20.03
+	Level 2	260	33.70	2.368	7.03	1.181	3.50	4.017	11.92	4.454	13.22	6.556	19.45
+	Level 3	272	23.12	2.178	9.42	0.798	3.45	1.395	6.03	2.455	10.62	3.654	15.81
+IG#	Level 1	272	0.285	0.011	3.88	0.003	0.97	0.006	1.96	0.006	2.09	0.014	4.92
+	Level 2	259	0.793	0.026	3.25	0.000	0.00	0.010	1.32	0.019	2.43	0.034	4.26
+	Level 3	271	2.126	0.069	3.24	0.010	0.49	0.028	1.32	0.072	3.37	0.104	4.88
+IG%	Level 1	272	10.23	0.370	3.62	0.051	0.50	0.141	1.37	0.035	0.34	0.400	3.92
+	Level 2	260	11.04	0.315	2.85	0.043	0.39	0.103	0.94	0.000	0.00	0.334	3.03
+	Level 3	272	12.34	0.385	3.12	0.014	0.11	0.116	0.94	0.000	0.00	0.403	3.26
+IPF%	Level 1	271	19.03	0.583	3.06	0.000	0.00	0.170	0.89	0.000	0.00	0.607	3.19
+	Level 2	260	19.98	0.673	3.37	0.000	0.00	0.309	1.55	0.000	0.00	0.741	3.71
+	Level 3	271	19.90	0.677	3.40	0.000	0.00	0.369	1.85	0.114	0.57	0.779	3.91
+RET-He
+(pg)	Level 1	271	23.70	0.140	0.59	0.059	0.25	0.051	0.22	0.619	2.61	0.640	2.70
+	Level 2	260	24.96	0.175	0.70	0.083	0.33	0.230	0.92	0.469	1.88	0.557	2.23
+	Level 3	272	27.16	0.370	1.36	0.000	0.00	0.116	0.43	0.891	3.28	0.972	3.58
+
+--- Page 16 ---
+Precision/Reproducibility – Body Fluid
+Evaluation of body fluid reproducibility for the RBC-BF parameter which uses the
+CELLSHEATH(C) reagent was performed on the XN-11 and XN-21 Body Fluid
+Mode using two levels of quality control material (Low, and High). Each level was
+run in duplicate twice each day for the duration of the study or a minimum of 20 days
+at each of three test sites using a single control, calibration and reagent lot. All other
+body fluid parameters were analyzed only to show that modifications made to create
+the XN-11 and XN-21 analyzers does not affect the performance of all other
+reportable parameters. All results met the acceptance criteria for both XN-11 and XN-
+21. Results of XN-11 are shown below.
+Body Fluid Reproducibility – Combined Sites - XN-11 Module
+Total
+All Combined Sites Within-Run Between-Run Between-Day Between-Site Imprecision
+Control
+Analyte Level N Mean SD %CV SD %CV SD %CV SD %CV SD %CV
+WBC-BF Level 1 244 0.081 0.003 3.87 0.002 2.79 0.004 4.88 0.007 8.49 0.009 10.89
+(x 10³/µL)
+Level 2 244 0.315 0.007 2.34 0.000 0.00 0.005 1.74 0.026 8.28 0.028 8.78
+RBC-BF Level 1 244 0.025 0.001 3.18 0.000 0.85 0.001 2.47 0.000 0.52 0.001 4.14
+(x 106/µL)
+Level 2 244 0.074 0.001 1.77 0.000 0.00 0.001 1.64 0.001 2.01 0.002 3.14
+TC-BF Level 1 244 0.081 0.003 3.87 0.002 2.79 0.004 4.88 0.007 8.49 0.009 10.89
+(x 10³/µL)
+Level 2 244 0.315 0.007 2.34 0.000 0.00 0.005 1.74 0.026 8.28 0.028 8.78
+MN# Level 1 244 0.028 0.002 7.79 0.000 0.00 0.001 3.38 0.003 10.59 0.004 13.57
+(x 10³/µL)
+Level 2 244 0.108 0.005 4.85 0.000 0.00 0.003 2.63 0.013 12.29 0.014 13.47
+PMN# Level 1 244 0.054 0.003 5.47 0.002 3.15 0.003 6.02 0.004 7.62 0.006 11.58
+(x 10³/µL)
+Level 2 244 0.207 0.007 3.21 0.001 0.72 0.003 1.63 0.013 6.19 0.015 7.20
+MN Level 1 244 33.98 2.280 6.71 0.000 0.00 0.921 2.71 1.013 2.98 2.659 7.83
+(%)
+Level 2 244 34.08 1.438 4.22 0.000 0.00 0.419 1.23 1.298 3.81 1.982 5.82
+PMN Level 1 244 66.02 2.280 3.45 0.000 0.00 0.921 1.39 1.013 1.53 2.659 4.03
+(%)
+Level 2 244 65.92 1.438 2.18 0.000 0.00 0.419 0.64 1.298 1.97 1.982 3.01
+c. Linearity:
+Whole blood
+Linearity of the RBC, HGB, HCT and PLT-I parameters which uses
+CELLSHEATH(C) diluent was evaluated using the Linearity Kit of known
+concentrations of RBC, HGB and PLT which spanned the full measuring range of
+each of the measured parameters at three clinical sites. Linearity studies were
+performed according to the manufacturer’s recommended procedures provided in the
+package insert. Linearity was demonstrated from lower limit to upper limit and within
+measured allowable max % diff for each interval. Results of XN-11 are shown below.
+XN-21 has comparable performance.
+16
+
+[Table 1 on page 16]
+				Within-Run		Between-Run		Between-Day		Between-Site			
+												Total	
+All Combined Sites												Imprecision	
+Analyte	Control	N		SD	%CV	SD	%CV		%CV	SD	%CV		%CV
+	Level		Mean					SD				SD	
+WBC-BF
+(x 10³/µL)	Level 1	244	0.081	0.003	3.87	0.002	2.79	0.004	4.88	0.007	8.49	0.009	10.89
+	Level 2	244	0.315	0.007	2.34	0.000	0.00	0.005	1.74	0.026	8.28	0.028	8.78
+RBC-BF
+(x 106/µL)	Level 1	244	0.025	0.001	3.18	0.000	0.85	0.001	2.47	0.000	0.52	0.001	4.14
+	Level 2	244	0.074	0.001	1.77	0.000	0.00	0.001	1.64	0.001	2.01	0.002	3.14
+TC-BF
+(x 10³/µL)	Level 1	244	0.081	0.003	3.87	0.002	2.79	0.004	4.88	0.007	8.49	0.009	10.89
+	Level 2	244	0.315	0.007	2.34	0.000	0.00	0.005	1.74	0.026	8.28	0.028	8.78
+MN#
+(x 10³/µL)	Level 1	244	0.028	0.002	7.79	0.000	0.00	0.001	3.38	0.003	10.59	0.004	13.57
+	Level 2	244	0.108	0.005	4.85	0.000	0.00	0.003	2.63	0.013	12.29	0.014	13.47
+PMN#
+(x 10³/µL)	Level 1	244	0.054	0.003	5.47	0.002	3.15	0.003	6.02	0.004	7.62	0.006	11.58
+	Level 2	244	0.207	0.007	3.21	0.001	0.72	0.003	1.63	0.013	6.19	0.015	7.20
+MN
+(%)	Level 1	244	33.98	2.280	6.71	0.000	0.00	0.921	2.71	1.013	2.98	2.659	7.83
+	Level 2	244	34.08	1.438	4.22	0.000	0.00	0.419	1.23	1.298	3.81	1.982	5.82
+PMN
+(%)	Level 1	244	66.02	2.280	3.45	0.000	0.00	0.921	1.39	1.013	1.53	2.659	4.03
+	Level 2	244	65.92	1.438	2.18	0.000	0.00	0.419	0.64	1.298	1.97	1.982	3.01
+
+--- Page 17 ---
+Whole Blood Linearity (Analytical Measuring Interval) – XN-11 Module
+Mean Max
+Parameter Units r² r Slope Intercept Replicate Allowable Range
+%Diff %Diff
+Site 1
+RBC 106/μL 0.999 1.000 1.008 -0.023 0.33 ±2% 0.10-8.52
+HGB g/dL 1.000 1.000 0.998 0.020 0.22 ±2% 0.2-27.2
+HCT % 0.999 1.000 1.008 -0.23 1.64 ±3% 1.2-76.9
+PLT-I 10³/µL 1.000 1.000 0.993 4.29 1.52 ±5% 8-4917
+Site 2
+RBC 106/μL 0.999 1.000 1.014 -0.031 1.43 ±2% 0.10-8.71
+Mean Max
+XN-11
+UNITS r² r Slope Intercept Replicate Allowable Range
+Parameter
+%Diff %Diff
+HGB g/dL 0.999 1.000 0.980 0.182 0.58 ±2% 0.2-26.3
+HCT % 0.999 1.000 0.998 -0.164 0.28 ±3% 1.3-81.0
+PLT-I 10³/µL 1.000 1.000 1.013 -12.52 1.15 ±5% 8-4760
+Site 3
+RBC 106/μL 0.999 1.000 0.990 0.037 1.43 ±2% 0.10-8.50
+HGB g/dL 0.999 1.000 0.990 0.072 0.58 ±2% 0.2-26.1
+HCT % 0.999 1.000 0.990 0.343 0.28 ±3% 1.3-78.5
+PLT-I 10³/µL 1.000 1.000 0.999 -0.640 1.15 ±5% 9-5127
+Body Fluid
+The linearity of the RBC-BF parameter which uses CELLSHEATH(C) diluent was
+evaluated at three clinical sites using serial dilutions of known high concentrations of
+body fluid samples. The samples spanned the full measuring range of the RBC-BF
+parameters. Pleural, peritoneal and synovial fluids were collected in K₂EDTA
+anticoagulant. All samples were aspirated in the body fluid mode. Each serial dilution
+was run in duplicate. Linearity was demonstrated from lower limit to upper limit and
+within measured allowable max % diff for each interval. Results for XN-11 are
+shown below. Similar results were obtained for XN-21.
+Body Fluids Linearity - XN-11 Module
+Mean Max
+Parameter Units r² r Slope Intercept Replicate Allowable Range
+%Diff %Diff
+Site 1 Pleural
+RBC-BF x 106/μL 1.000 1.000 0.995 0.003 0.45 ±2% 0.001-6.286
+Site 2 Pleural
+RBC-BF x 106/μL 1.000 1.000 0.987 0.009 0.293 ±2% 0.001-5.220
+Site 3 Pleural
+RBC-BF x 106/μL 0.999 1.000 1.001 -0.003 0.76 ±2% 0.011-5.404
+17
+
+[Table 1 on page 17]
+Parameter	Units	r²	r	Slope	Intercept		Mean			Max		Range
+							Replicate			Allowable		
+							%Diff			%Diff		
+Site 1												
+RBC	106/μL	0.999	1.000	1.008	-0.023	0.33			±2%			0.10-8.52
+HGB	g/dL	1.000	1.000	0.998	0.020	0.22			±2%			0.2-27.2
+HCT	%	0.999	1.000	1.008	-0.23	1.64			±3%			1.2-76.9
+PLT-I	10³/µL	1.000	1.000	0.993	4.29	1.52			±5%			8-4917
+Site 2												
+RBC	106/μL	0.999	1.000	1.014	-0.031	1.43			±2%			0.10-8.71
+XN-11
+Parameter	UNITS	r²	r	Slope	Intercept		Mean			Max		Range
+							Replicate			Allowable		
+							%Diff			%Diff		
+HGB	g/dL	0.999	1.000	0.980	0.182	0.58			±2%			0.2-26.3
+HCT	%	0.999	1.000	0.998	-0.164	0.28			±3%			1.3-81.0
+PLT-I	10³/µL	1.000	1.000	1.013	-12.52	1.15			±5%			8-4760
+Site 3												
+RBC	106/μL	0.999	1.000	0.990	0.037	1.43			±2%			0.10-8.50
+HGB	g/dL	0.999	1.000	0.990	0.072	0.58			±2%			0.2-26.1
+HCT	%	0.999	1.000	0.990	0.343	0.28			±3%			1.3-78.5
+PLT-I	10³/µL	1.000	1.000	0.999	-0.640	1.15			±5%			9-5127
+
+[Table 2 on page 17]
+Parameter	Units	r²	r	Slope	Intercept		Mean			Max		Range
+							Replicate			Allowable		
+							%Diff			%Diff		
+Site 1		Pleural										
+RBC-BF	x 106/μL	1.000	1.000	0.995	0.003	0.45			±2%			0.001-6.286
+Site 2		Pleural										
+RBC-BF	x 106/μL	1.000	1.000	0.987	0.009	0.293			±2%			0.001-5.220
+Site 3		Pleural										
+RBC-BF	x 106/μL	0.999	1.000	1.001	-0.003	0.76			±2%			0.011-5.404
+
+--- Page 18 ---
+Mean Max
+Parameter Units r² r Slope Intercept Replicate Allowable Range
+%Diff %Diff
+Site 1 Synovial
+RBC-BF x 106/μL 1.000 1.000 1.005 -0.001 0.73 ±2% 0.002-4.178
+Site 2 Synovial
+RBC-BF x 106/μL 1.000 1.000 1.008 0.002 0.563 ±2% 0.000-5.142
+Site 3 Synovial
+RBC-BF x 106/μL 1.000 1.000 1.005 -0.001 1.270 ±2% 0.005-4.911
+Mean Max
+Parameter Units r² r Slope Intercept Replicate Allowable Range
+%Diff %Diff
+SITE 1 Peritoneal
+RBC-BF x 106/μL 1.000 1.000 1.007 -0.002 0.90 ±2% 0.001-4.865
+SITE 2 Peritoneal
+RBC-BF x 106/μL 1.000 1.000 1.012 -0.004 0.85 ±2% 0.000-5.293
+SITE 3 Peritoneal
+RBC-BF x 106/μL 1.000 1.000 1.002 -0.001 1.20 ±2% 0.004-4.962
+d. Carryover:
+Whole blood
+Carryover of the XN-11 and XN-21 analyzers for the directly measured RBC, HGB,
+HCT and PLT-I parameters which use the CELLSHEATH(C) diluent, was evaluated
+by assaying whole blood K₂EDTA samples with high RBC, HGB, and PLT counts
+three consecutive times (H1, H2, H3) followed immediately by testing samples with
+low target values around medical decision levels consecutively three times (L1, L2,
+L3). Three sets of carryover sequences were run for each type of carryover test at
+three clinical sites. Carryover effect was calculated for each measurand and results
+were within specification (≤1.0%) for WBC, RBC, HGB and PLT.
+Body Fluid
+Carryover of the RBC-BF parameter which uses the CELLSHEATH(C) diluent was
+assessed by assaying residual body fluid samples with a high RBC-BF count three
+consecutive times (H1, H2, H3) followed immediately by testing samples with low
+target values around medical decision levels consecutively three times (L1, L2, L3) in
+accordance with CLSI protocol H26-A2 section 5.7. Three sets of carryover
+sequences were run for each type of carryover test at three clinical sites. Pleural,
+Peritoneal and Synovial fluids were collected in K EDTA anticoagulant. Carryover
+2
+effect was calculated for each measurand and results were within specification
+(≤0.3%) for WBC-BF, RBC-BF and TC-BF#.
+e. Interfering Substances:
+A study was conducted to determine at what level Bilirubin C interferes with the
+hematology results of the XN-11 and XN-21 analyzers. Six whole blood samples
+18
+
+[Table 1 on page 18]
+Parameter	Units	r²	r	Slope	Intercept		Mean			Max		Range
+							Replicate			Allowable		
+							%Diff			%Diff		
+Site 1		Synovial										
+RBC-BF	x 106/μL	1.000	1.000	1.005	-0.001	0.73			±2%			0.002-4.178
+Site 2		Synovial										
+RBC-BF	x 106/μL	1.000	1.000	1.008	0.002	0.563			±2%			0.000-5.142
+Site 3		Synovial										
+RBC-BF	x 106/μL	1.000	1.000	1.005	-0.001	1.270			±2%			0.005-4.911
+
+[Table 2 on page 18]
+Parameter	Units	r²	r	Slope	Intercept		Mean			Max		Range
+							Replicate			Allowable		
+							%Diff			%Diff		
+SITE 1		Peritoneal										
+RBC-BF	x 106/μL	1.000	1.000	1.007	-0.002	0.90			±2%			0.001-4.865
+SITE 2		Peritoneal										
+RBC-BF	x 106/μL	1.000	1.000	1.012	-0.004	0.85			±2%			0.000-5.293
+SITE 3		Peritoneal										
+RBC-BF	x 106/μL	1.000	1.000	1.002	-0.001	1.20			±2%			0.004-4.962
+
+--- Page 19 ---
+from each of three donors were centrifuged and 150 µL of plasma removed from each
+sample tube. Bilirubin C from Interference Check A Plus (Sysmex Corp) was diluted
+(0%, 20%, 40%, 60%, 80%, 100%). 150 µL of each dilution was added to one of the
+six whole blood sample tubes. Each sample was mixed and measured three times by
+the whole blood mode of the instruments for RBC, HGB, HCT, and PLT-I
+parameters. There was no significant Bilirubin C interference up to a concentration of
+40.6 mg/dL.
+A study was conducted to determine at what level Bilirubin F interferes with the
+hematology results of the XN-11 and XN-21 analyzers. Six whole blood samples
+from each of three donors were centrifuged and 150 µL of plasma removed from each
+sample tube. Bilirubin F from Interference Check A Plus (Sysmex Corp) was diluted
+(0%, 20%, 40%, 60%, 80%, 100%). 150 µL of each dilution was added to one of the
+six whole blood sample tubes. Each sample was mixed and measured three times by
+the whole blood mode of the instruments for RBC, HGB, HCT, and PLT-I
+parameters. There was no significant Bilirubin F interference up to a concentration of
+38.8 mg/dL.
+A study was conducted to determine at what level Hemolytic Hemoglobin interferes
+with the hematology results of the XN-11 and XN-21 analyzers. Six whole blood
+samples from each of three donors were centrifuged and 150 µL of plasma removed
+from each sample tube. Bilirubin C from Interference Check A Plus (Sysmex Corp)
+was diluted (0%, 20%, 40%, 60%, 80%, 100%). 150 µL of each dilution was added to
+one of the six whole blood sample tubes. Each sample was mixed and measured three
+times by the whole blood mode of the instruments. Parameters tested: RBC, HGB,
+HCT, and PLT-I. There was no significant hemolysis interference up to a
+concentration of 982.0 mg/dL for RBC, HCT and PLT-I parameters and up to a
+concentration of 196.4 mg/dL for HGB parameter.
+A study was conducted to determine at what level lipid interferes with the
+hematology results of the XN-11 and XN-21 analyzers. Six whole blood samples
+from each of three donors were centrifuged and 150 µL of plasma removed from each
+sample tube. Intralipid (fresenius-kabi AB) was diluted (0%, 1%, 5%, 10%, 50%,
+100%). 150 µL of each dilution was added to one of the six whole blood sample
+tubes. Each sample was mixed and measured three times by the whole blood mode of
+the instruments. Parameters tested: RBC, HGB, HCT, and PLT-I. There was no
+significant Intralipid interference up to a concentration of 55.980 OD for RBC, HCT
+and PLT-I parameters. There was no significant Intralipid interference up to a
+concentration of 6.160 OD for HGB parameter.
+A study was conducted to determine at what level Chyle interferes with the
+hematology results of the XN-11 and XN-21 analyzers. Six whole blood samples
+from each of three donors were centrifuged and 150 µL of plasma removed from each
+sample tube. Chyle from Inteference Check Plus (Sysmex Corp.) was diluted (0%,
+20%, 40%, 60%, 80%, 100%). 150 µL of each dilution was added to one of the six
+whole blood sample tubes. Each sample was mixed and measured three times by the
+19
+
+--- Page 20 ---
+whole blood mode of the instruments. Parameters tested: WBC, RBC, HGB, HCT,
+and PLT-I. There was no significant Chyle interference up to a concentration of 2820
+OD for RBC, HCT and HGB parameters. There was no significant Chyle interference
+up to a concentration of 1128 FTU for PLT-I parameter.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+a. Specimen Stability Studies:
+Stability – Whole Blood
+Whole blood stability was evaluated at one clinical site using a total of 30 (10
+normal and 20 abnormal MCV) residual K₂EDTA whole blood samples on
+the XN-11. Twenty samples (10 normal and 10 abnormal MCV) were tested
+on the XN-21 due to insufficient sample volume. Two sets of samples were
+collected from each donor (room temperature and refrigerated). The samples
+were run in singlet on the XN-11 and XN-21 analyzers. Each sample was
+tested within 2 hours on all methods at baseline or zero (0) time, 8 hours, 24
+hours, 36 hours, 48 hours and 56 hours at room temperature (RT) (18-26°C)
+and refrigerated temperature (LT) (2-8°C). The mean percent difference was
+recorded for each sample. Stability for HCT/MCV on the XN-11 and XN-21
+met bias percent limits at 24 and 48 hours.
+Short Term Stability– Body Fluid
+Body fluid short term stability for RBC-BF parameter which uses
+CELLSHEATH(C) diluent was evaluated using two (2) residual Pleural,
+Peritoneal and Synovial fluids at Site 3. Pleural, peritoneal and synovial fluids
+were collected in K₂EDTA anticoagulant and run in singlet in the Body Fluid
+Mode. Each sample was carefully mixed by gentle hand inversion at least 10
+times before analyzing on the XN-11 and XN-21 analyzers and tested at
+baseline (zero (0) time), 1 hour, 4 hours and 6 hours at room temperature (20-
+25°C). The results of the body fluid short term stability study met the
+acceptance bias percent limits.
+b. Anticoagulant Comparison Study - K₂EDTA vs. K₃EDTA whole blood:
+Anticoagulant comparison studies were performed to demonstrate
+comparability between K₂EDTA and K₃EDTA whole blood samples for the
+RBC, HGB, HCT, MCV and PLT-I parameters using the XN-Series
+analyzers. A total of 30 paired whole blood samples (K₂EDTA, K₃EDTA)
+drawn from healthy subjects were used for this study. The samples were run in
+singlet on the XN-11 and the results of the K₂EDTA samples were compared
+to the corresponding results of the K₃EDTA sample for the same donor. The
+results of the linear regression analysis and bias between the K EDTA and
+2
+K EDTA whole blood met the acceptance criteria for all applicable
+3
+parameters. This study was conducted on the XN-11 module since the data
+output from both the XN-11 and XN-21 is considered equal.
+c. Bridging Study- Comparison of venous whole blood samples to capillary
+20
+
+--- Page 21 ---
+whole blood:
+A small comparison study was performed to demonstrate comparability
+between venous whole blood samples and capillary whole blood samples
+using the XN-21 analyzer. A total of 20 paired whole blood venous samples
+and capillary samples (K₂EDTA) drawn from healthy subjects were used for
+this study. The samples were run in singlet on the XN-21 and the results of the
+venous whole blood sample results were compared to the corresponding
+results of the capillary sample for the same donor. Testing was performed in
+the Whole Blood Manual Analysis Mode. The venous whole blood samples
+were placed in the Normal Tube Position of the Manual Mode and the
+capillary samples were placed in the Micro-collection Tube Position of the
+Manual Mode for analysis. Of the 20 samples tested, less than 10 samples
+contained NRBCs which is an insufficient number for correlation coefficient
+value. The results of the linear regression analysis and bias between venous
+whole blood samples and capillary whole blood samples on the XN-21
+analyzer met the acceptance criteria for all applicable parameters.
+d. Bridging Study- Comparison of K EDTA tubes and micro-collection tubes:
+2
+Sixty three residual K₂EDTA whole blood samples with analyte
+concentrations representative of normal patient samples and patient samples
+across clinical medical decision levels were used to determine the presence or
+absence of matrix effect between K₂EDTA normal tubes and micro collection
+tubes on the XN-11 analyzer. K₂EDTA whole blood samples were first
+analyzed in singlet in the Manual Mode Normal Tube Position and within two
+hours of analysis the samples were transferred to micro-collection tubes
+(without additive) and analyzed in the Manual Mode Micro-collection Tube
+Position. The results of the linear regression analysis and bias between the
+K EDTA tube and micro-collection tubes on the XN-11 analyzers met the
+2
+acceptance criteria for all applicable parameters.
+e. Bridging Study- Pre-dilute Mode Normal Tube to Micro Tube Position
+Comparison:
+Twenty (20) residual K₂EDTA (4mL tubes) patient whole blood samples were
+used to determine the equivalency between the Pre-dilute Mode Normal Tube
+Position and the Pre-dilute Mode Micro-collection tube position. Pre-dilute
+(1:7) samples were prepared for each of the 20 samples by dispensing 420 μL
+of the analyzers diluent into plain top tubes (4mL tubes) then adding 70 μL of
+whole blood and mixing 10 times by gentle inversion. The plain top 4mL
+tubes were analyzed in singlet on the XN-21 analyzer within 1 hour of
+dilution preparation in the Pre-dilute Mode normal tube position. Immediately
+following, the samples were mixed 10 times then transferred to micro-
+collection tubes (without additive) and analyzed in the Pre-dilute Mode
+Micro-collection tube position (Cap Off). The pre-dilute mode automatically
+multiplies sample results by 7 before results are displayed therefore no
+additional calculation is required. The results of the linear regression analysis
+21
+
+--- Page 22 ---
+and bias between the Pre-dilute Mode normal tube and Pre-dilute mode micro-
+collection tube on the XN-21 analyzer met the acceptance criteria in the Pre-
+dilute Mode for all applicable parameters.
+f. Bridging Study- Low WBC Mode Normal Tube to Micro Tube Position
+Comparison:
+Forty (40) residual K₂EDTA anticoagulated whole blood patient samples were
+selected to determine the equivalency between the Low WBC Mode normal
+tube position and the Low WBC Mode micro-collection tube position. The
+patients original K₂EDTA tube was mixed by gentle hand inversion 10 times
+and run in singlet in the Low WBC Mode Normal Tube Position on the XN-
+21 analyzer. The samples were then transferred to micro-collection tubes
+(without additive), mixed 8-10 times before running in the Low WBC Mode
+Micro-collection Tube Position (Cap Off) on the XN-21 analyzer within 1
+hour of analysis of the Low WBC Mode Normal Tube Position. The results of
+the linear regression analysis and bias between the Low WBC Mode normal
+tube position and Low WBC Mode micro-collection tube position met the
+acceptance criteria for the Low WBC Mode for all applicable parameters.
+g. Determination of limit of blank, lower limits of detection and quantitation:
+Verification of Limit of Blank (LoB)
+Verification of the Limit of Blank (LoB) was obtained from 40 repeated
+measurements of one blank sample (CELLPACK) on the XN-11 module. Testing
+was performed by one operator in the appropriate sampling mode for whole blood
+and body fluid mode for body fluids. The Mean, SD and Limit of Blank were
+calculated for the RBC, HCT, HGB, PLT-I, and RBC-BF parameters. The
+estimated LoB equals the 95th percentile of the distribution of blank values. The
+LoB for both the XN-11 and XN-21 analyzers for whole blood parameters RBC,
+HGB, HCT, PLT-I and the body fluid RBC-BF is zero (0) cells/µL.
+Verification of the Limit of Detection (LoD)
+Verification of the Limit of Detection was obtained from 40 repeated
+measurements of two low concentration samples over a two day period (1 sample
+each day) on the XN-11 module. Two whole blood K EDTA samples and two
+2
+body fluid samples (pleural and peritoneal) were diluted using instrument diluent
+to achieve low cell concentrations with target values of 0.02 – 0.06 x 106/µL for
+RBC (HGB,HCT), 1 – 3 x 10³/µL for PLT-I and 0.003 – 0.005 x 106/µL for
+RBC-BF parameters. Testing was performed by one operator in the appropriate
+sampling mode for whole blood and body fluid mode for body fluids. The mean,
+SD and LoD were calculated for the RBC, HGB, HCT, PLT-I and RBC-BF
+parameters.
+Verification of the Limit of Quantitation (LoQ)
+Verification of the Limit of Quantitation was obtained by using the test results
+from the LoD study to determine the bias and imprecision for that level of
+analyte. Forty replicate measurements (one sample) of the lowest measured
+concentration for each analyte were performed on the XN-11 module to verify
+precision at the low end of the analytical measuring range. The mean, SD and
+22
+
+--- Page 23 ---
+2SD were calculated for the RBC, HGB, HCT, PLT-I and RBC-BF parameters to
+verify precision at the lower end of the measuring range for each parameter.
+The results of the LoB, LoD and LoQ meet the manufacturer’s expected
+performance for background limits and the lower limit of the measuring range
+for RBC, HGB, HCT and PLT-I.
+h. SP-10 automated slide stainer
+i. Verification of Method Comparison Using Whole Blood with the addition
+of the SP-10 automated slide stainer:
+Verification of comparability of whole blood on the XN-Series analyzer
+when connected to the SP-10 automated slide preparation and staining unit
+were performed by comparing the data from a configuration consisting of
+two (2) XN-11 analyzers connected to one another and a SP-10 unit was
+compared with data from a standalone XN-21 analyzer (not connected to a
+SP-10). Samples included normal healthy donors and abnormal samples
+with a variety of hematological conditions and spanned the analytical
+measuring range. Samples were analyzed first on the standalone XN-21
+analyzer in the Whole Blood Sampling Mode. Within 2 hours of analysis
+on the standalone XN-21 analyzer, whole blood samples were analyzed on
+the XN-11 analyzer that is connected to the SP-10 unit. The XN-11/XN-21
+analyzers performed within the manufacturer’s specifications when
+connected to the SP-10.
+ii. Verification of XN-Series Body Fluid Performance when connected to the
+SP-10 automated stainer:
+A small method comparison study was performed to verify performance
+claims for the XN-11 and XN-21 analyzers are met when connected to
+each other and a SP-10 unit. Samples used in this study covered the full
+reportable measuring ranges to the extent possible of the XN-Series
+analyzers. All samples were collected in K EDTA anticoagulant. Sample
+2
+concentrations and dilutions were also used when native samples
+representing the full reportable range of WBC-BF and RBC-BF
+parameters were not available. Data from a configuration consisting of
+two XN-11 analyzers connected to one another and a SP-10 unit was
+compared with data from a standalone XN-21 analyzer (not connected to a
+SP-10). The XN-11/XN-21 analyzers performed within the manufacturer’s
+specifications when connected to the SP-10.
+iii. Determination of Limit of Blank (LoB), Lower Limits of Detection (LoD)
+and Quantitation (LoQ) when connected to the SP-10:
+Verification of Limit of Blank (LoB)
+Verification of the Limit of Blank (LoB) was obtained from 40 repeated
+measurements of one blank sample (CELLPACK) on the XN-11 module.
+Testing was performed by one operator in the appropriate sampling mode
+23
+
+--- Page 24 ---
+for whole blood. The mean, SD and LoB were calculated for the RBC,
+HCT, HGB and PLT-I parameters.
+Verification of the Limit of Detection (LoD) and Limit of Quantitation
+(LoQ)
+The manufacturer’s lower bound analytical range for WBC, RBC, HGB,
+HCT and PLT parameters were selected as target values to verify the LoD
+and LoQ for these parameters. Forty replicate measurements (one sample)
+of the lowest measured concentration for each analyte were performed in
+the whole blood mode on the XN-11 module to verify precision at the low
+end of the analytical measuring range. The mean, SD and 2SD were
+calculated for the WBC, RBC, HGB, HCT and PLT to verify precision at
+the lower end of the measuring range for each parameter.
+The results of the whole blood LoB, LoD and LoQ for the XN-11 module
+met the manufacturer’s performance claims for the WBC, RBC, HGB,
+HCT and PLT parameters.
+iv. SP-10 Functionality - Slides for Positive Specimens
+The ability of the SP-10 when connected to two XN-Series analyzers to
+appropriately read sample barcode identification labels, receive sample
+judgment results (Negative/Positive) and generate blood smears was
+conducted using 50 de-identified residual whole blood samples. Sample
+flagging (Negative/Positive) results generated from the XN-Series
+analyzers were compared to the number of slides produced by the SP-10
+(produced for positive/abnormal samples) and slides not produced by the
+SP-10 (not produced for negative/normal samples). Slides were divided
+into two categories: (1) P - slide was made for a Positive sample, and (2)
+N - no slide was made for a Negative sample. Slides for positive
+Specimens Analysis results met pre-defined acceptance criteria of the
+number of samples flagged as Positive (abnormal) and the number of
+slides produced from the SP-10 will have an Overall Agreement of ≥90%.
+The SP-10 will not produce slides from samples flagged as Negative
+(normal) by the XN analyzers.
+i. Reference Intervals:
+Verification of Adult Reference Intervals
+Adult Reference intervals (normal population reference ranges) were assessed
+for the XN-11 and XN- 21 series analyzers by comparing normal K₂EDTA
+anticoagulated samples collected from normal male and female donors >21
+years of age. Pre-established reference intervals from the XE-5000 predicate
+device were used as a default normal range flag. The study results showed that
+less than 10 percent of samples tested were outside the proposed reference
+intervals.
+Due to the unavailability of obtaining normal body fluid samples, it is difficult
+for laboratories to establish reference intervals; therefore, Sysmex
+24
+
+--- Page 25 ---
+recommends that laboratories reference textbook values for their body fluid
+reference intervals.
+Sysmex recommends that each laboratory establishes its own expected
+reference intervals based upon the laboratory’s patient population encountered
+during daily operation. Expected reference intervals may vary due to the
+differences in sex, age, diet, fluid intake, geographic location.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+25

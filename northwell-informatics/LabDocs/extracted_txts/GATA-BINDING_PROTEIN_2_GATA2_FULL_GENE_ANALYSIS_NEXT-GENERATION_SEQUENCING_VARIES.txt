@@ -1,0 +1,124 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase of Generating Results for GATA-
+BINDING PROTEIN 2, GATA2, FULL GENE ANALYSIS
+via Next-Generation Sequencing
+1. PURPOSE
+To establish a standardized procedure for the analytical phase of
+generating results for the GATA2 full gene analysis using next-
+generation sequencing (NGS). This includes data processing, variant
+calling, annotation, and interpretation to ensure accurate and reliable
+diagnostic results.
+2. SCOPE
+This SOP applies to the analytical phase of GATA2 gene sequencing
+testing conducted in our CLIA-certified laboratory.
+3. RESPONSIBILITY
+Designated laboratory personnel, including molecular biologists,
+bioinformaticians, and geneticists, are responsible for adhering to this
+SOP during the data analysis phase. It is the responsibility of the
+laboratory supervisor to ensure that all personnel are adequately
+trained and that the procedure is followed correctly.
+4. DEFINITIONS
+• NGS (Next-Generation Sequencing): A method used to
+sequence DNA with high throughput, generating thousands to
+millions of sequences concurrently.
+• GATA2: A gene that encodes a protein involved in regulating the
+development of hematopoietic cells.
+• Variant Calling: The process of identifying variations from
+sequence data compared to a reference genome.
+• Annotation: The process of identifying the functional impact of
+genetic variants and their association with diseases.
+5. PROCEDURE
+A. Initial Sequencing Data Processing
+1. Raw Data Acquisition:
+◦ Obtain raw sequencing data (.fastq files) from the NGS
+platform.
+◦ Transfer raw data to the designated analysis server for
+processing.
+2. Quality Control:
+◦ Perform initial quality assessment of raw reads using tools
+such as FastQC.
+◦ Generate a quality control report and review the results.
+◦ Perform necessary data cleaning/trimming using tools like
+Trimmomatic to remove low-quality bases and adapter
+sequences.
+◦ Ensure that the reads have a Phred quality score ≥ Q30 for
+≥ 80% of the bases.
+3. Alignment:
+◦ Align cleaned reads to the reference genome (UCSC hg19/
+GRCh37 or UCSC hg38/GRCh38, depending on the lab's
+version in use) using BWA-MEM.
+◦ Sort and index the aligned reads using SAMtools.
+◦ Remove PCR duplicates using Picard MarkDuplicates.
+B. Variant Calling
+1. Generate Variant Calls:
+◦ Use GATK HaplotypeCaller or an equivalent tool to perform
+variant calling on the aligned reads.
+◦ Generate a variant call format (VCF) file containing detected
+variants.
+2. Variant Filtering:
+◦ Apply standard filtering criteria (minimum read depth, base
+quality, mapping quality, etc.) using tools like GATK
+VariantFiltration.
+◦ Filter out low-quality variants and retain only high-
+confidence calls.
+C. Variant Annotation
+1. Annotate Variants:
+◦ Annotate the filtered variants using tools like Annovar, VEP,
+or equivalent.
+◦ Include annotation details such as gene impact, population
+frequency from databases like dbSNP, 1000 Genomes,
+ExAC, gnomAD, predicted pathogenicity, and clinical
+relevance.
+2. Evaluate Variants:
+◦ Review annotations and identify variants of clinical
+significance.
+◦ Classify variants according to ACMG guidelines
+(pathogenic, likely pathogenic, VUS, likely benign, benign).
+D. Data Interpretation and Reporting
+1. Interpret Variants:
+◦ Evaluate the clinical relevance of identified variants in the
+context of GATA2-related conditions.
+◦ Correlate findings with available patient clinical data and
+relevant literature.
+2. Report Generation:
+◦ Compile a comprehensive report including the methods,
+findings, and interpretation.
+◦ Include information on detected pathogenic and likely
+pathogenic variants with their potential clinical impact.
+◦ Provide recommendations for follow-up testing, if applicable.
+3. Quality Control:
+◦ Include a section on the technical quality of the sequencing
+data and analysis.
+◦ Document any failed QC metrics and corrective actions
+taken.
+4. Review and Verification:
+◦ The final report should be reviewed and verified by a senior
+geneticist or molecular biologist.
+◦ Ensure accurate reporting and clear communication of
+results.
+E. Documentation and Record Keeping
+• Ensure all analytical steps, software versions, and parameters
+used are documented.
+• Store raw data, intermediary files, and final reports in accordance
+with laboratory data retention policies.
+• Maintain a secure backup of all data and reports.
+6. REFERENCES
+• ACMG Standards and Guidelines for Interpretation and Reporting
+of Sequence Variants (http://www.acmg.net)
+• GATK Best Practices (https://gatk.broadinstitute.org/hc/en-us/
+categories/360002310952-Getting-started-with-GATK)
+• Annovar Documentation (https://annovar.openbioinformatics.org/
+en/latest/)
+• VEP Documentation (http://www.ensembl.org/info/docs/tools/vep/
+index.html)
+7. REVIEW AND REVISION HISTORY
+• SOP Version 1.0: Initial release (October 2023)
+This SOP will be reviewed annually or as necessary to incorporate
+updated procedures, standards, and technological advancements.
+Feedback from laboratory staff is encouraged to improve the protocol
+continuously.
+This protocol was developed for the analytical phase of generating
+results for GATA2 full gene analysis using next-generation
+sequencing, in compliance with CLIA regulatory requirements.
+Please ensure adherence to this SOP to maintain laboratory
+accreditation and ensure high-quality diagnostic results.

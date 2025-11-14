@@ -1,0 +1,392 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+K082248
+B. Purpose for Submission:
+Clearance of a modified cleared device
+C. Manufacturer and Instrument Name:
+Diagnostica Stago STA Satellite™ Automated Multi-Parametric Analyzer
+D. Type of Test or Tests Performed:
+Coagulation
+E. System Descriptions:
+1. Device Description:
+The DSI STA Satellite™ is a fully automated bench-top system. Samples and test
+reagents are loaded into the instrument where sample handling, reagent delivery,
+analysis, and reporting or results are performed automatically.
+The STA Satellite™ System consists of a cuvette, which holds patient sample and
+any needed reagent ; a metal ball located in the cuvette that oscilates to measure
+coagulation ; a needle that aspirates and dispenses sample and reagent into the
+cuvette ; a camera to measure coagulation by chronometric method ; a light
+source and sensor to transmit light through the cuvette and subsequently measure
+the light absorbed; and application software.
+2. Principles of Operation:
+The STA Satellite™ system uses the well established photometric and
+chronometric methods of detection. The photometric measurement is based on
+measured absorbance of monochromatic light passing through the cuvette as
+clotting takes place. The chronometric method consists of measuring variation of
+the oscillation amplitude of the metal ball in the sample cuvette. A decrease in
+amplitude corresponds to coagulation.
+3. Modes of Operation:
+1
+
+--- Page 2 ---
+Automated, Random access, Stat
+4. Specimen Identification:
+Specimens are identified by barcode and rack position.
+5. Specimen Sampling and Handling:
+Centrifuged, open tube samples are loaded onto a sample carousel. Tubes are
+sampled by the instrument and loaded into the appropriate cuvette for assaying.
+6. Calibration:
+The STA Satellite™ automatically requires calibration for each lot of reagents
+used. The calibration can be automatically validated if calibration controls are
+used (user must define two control plasmas) or manually validated if control
+values are outside the acceptable range.
+7. Quality Control:
+QC for each test is mandatory. User can use up to three control plasmas, one of
+which must be defined. Control values outside a pre-determined range are
+flagged by the system.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes___X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.5425
+2. Classification:
+Class II
+3 Product code:
+JPA
+4. Panel:
+2
+
+--- Page 3 ---
+81 Hematology
+G. Intended Use:
+1. Indication(s) for Use:
+The STA Satellite™ Automate Multi-Parametric Analyzer is a fully automatic
+clinical instrument indicated and intended for the performance of tests on human
+plasmas, the results of which aid in the diagnosis of coagulation abnormalities or
+in monitoring anticoagulant therapy.
+2. Special Conditions for Use Statement(s):
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Diagnostica Stago STA-R ® Automated Multi-Parametric Analyzer (K983460)
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+Intended Use An automated clinical same
+instrument for the
+performance of tests on
+human plasmas, the
+results of which aid in the
+diagnosis of coagulation
+abnormalities or in the
+monitoring anticoagulant
+therapy.
+Principle of Operation Photometric and same
+chronometric
+Differences
+Item Device Predicate
+Technological Chronometric detection Chronometric detection
+characteristics method of a photo-optical of a mechanical
+detection detection system
+Architecture Bench top Floor model
+3
+
+[Table 1 on page 3]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			An automated clinical
+instrument for the
+performance of tests on
+human plasmas, the
+results of which aid in the
+diagnosis of coagulation
+abnormalities or in the
+monitoring anticoagulant
+therapy.			same		
+Principle of Operation			Photometric and
+chronometric			same		
+
+[Table 2 on page 3]
+Differences								
+	Item			Device			Predicate	
+Technological
+characteristics			Chronometric detection
+method of a photo-optical
+detection			Chronometric detection
+of a mechanical
+detection system		
+Architecture			Bench top			Floor model		
+
+--- Page 4 ---
+I. Special Control/Guidance Document Referenced (if applicable):
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+Data comparing the STA Satellite™ was collected at 3 sites- 2 foreign sites
+(one being the manufactures site) and 1 US site. Samples were obtained from
+liver disease patients, patients on Coumadin therapy, unfractionated heparin
+(UFH) and low molecular weight heparin (LMWH) therapy and normal
+outpatients.
+Data was presented by site and pooled. Initial testing at the US site did not
+meet acceptance criteria. Routine preventive maintenance was performed and
+testing repeated which produced acceptable results.
+Instrument Comparison: PT, seconds
+70.0
+y = 0.9919x - 0.3827
+R2 = 0.9944
+60.0
+50.0
+40.0
+30.0
+20.0
+10.0
+0.0
+0.0 10.0 20.0 30.0 40.0 50.0 60.0 70.0
+STA-R, PT mean of duplicates, seconds
+4
+sdnoces
+,setacilpud
+fo
+naem
+TP
+,etilletaS
+
+--- Page 5 ---
+Instrument comparison: APTT, seconds
+250
+y = 0.9308x + 2.214
+R2 = 0.9693
+200
+150
+100
+50
+0
+0 50 100 150 200 250
+STA-R, mean APTT in seconds
+5
+sdnoces
+ni
+TTPA
+naem
+,etilletaS
+Instrument comparison : mean Fibrinogen, mg/dl
+1400
+1200
+y = 1.0279x - 6.5189
+R2 = 0.9829
+1000
+800
+600
+400
+200
+0
+0 200 400 600 800 1000 1200 1400
+STA R (mg/dL)
+)Ld/gm(
+etilletaS
+ATS
+
+--- Page 6 ---
+Instrument Comparison: AT, mean % of normal
+180.0
+160.0 y = 0.9704x + 3.3345
+R2 = 0.9327
+140.0
+120.0
+100.0
+80.0
+60.0
+40.0
+20.0
+0.0
+0.0 50.0 100.0 150.0 200.0
+STA-R, % of normal
+6
+lamron
+fo
+%
+,etilletaS
+Instrument Comparison: UFH, IU/ml
+1.10
+0.90 y = 1.0308x + 0.0087
+R2 = 0.9727
+0.70
+0.50
+0.30
+0.10
+-0.10
+-0.10 0.10 0.30 0.50 0.70 0.90 1.10
+STA-R, mean IU/ml
+lm/UI
+naem
+,etilletaS
+
+[Table 1 on page 6]
+	y = 1.0308x + 0.0087
+R2 = 0.9727
+	
+
+--- Page 7 ---
+Instrument Comparison: LMWH, IU/ml
+2.00 y = 1.0224x + 0.0123
+R2 = 0.9688
+1.50
+1.00
+0.50
+0.00
+0.00 0.50 1.00 1.50 2.00
+STA-R, IU/ml
+7
+lm/UI
+,etilletaS
+
+--- Page 8 ---
+Instrument comparison: D-Dimer, ug/ml
+20
+y = 0.9391x + 0.0948
+R2 = 0.9869
+15
+10
+5
+0
+0 5 10 15 20
+STA R (µg/mL)
+8
+)Lm/gµ(
+etilletaS
+ATS
+b. Precision/Reproducibility:
+Within-run precision was evaluated on 21 single tests using the following
+controls: STA® Coag N + ABN (PT< APTT> Fibrinogen), STA® System
+Control P (AT III), STA® Heparin control (UFH), STA®Quality LMWH
+(LMWH) and STA® Liatest Control (D-Dimer). Precision was assessed on
+three instruments.
+Statistical Summary of the STA-Satellite® Intra-run Precision
+Mean Std Dev C.V. 95% CI
+PT Normal 13.71 0.14 1.06 13.28 – 14.15
+PT Abnormal 21.46 0.3 1.40 20.55 – 22.36
+APTT Normal 35.25 0.16 0.45 34.78 – 35.72
+APTT Abnormal 54.39 0.41 0.75 53.16 – 55.61
+
+[Table 1 on page 8]
+	Mean	Std Dev	C.V.	95% CI
+PT Normal	13.71	0.14	1.06	13.28 – 14.15
+PT Abnormal	21.46	0.3	1.40	20.55 – 22.36
+APTT Normal	35.25	0.16	0.45	34.78 – 35.72
+APTT Abnormal	54.39	0.41	0.75	53.16 – 55.61
+
+--- Page 9 ---
+Fibrinogen Normal 326.86 11.17 3.42 293.36 – 360.35
+Fibrinogen 106.06 4.71 4.44 91.92 – 120.21
+Abnormal
+AT Normal 97.56 1.67 1.72 92.54 – 102.57
+AT Abnormal 43.49 0.72 1.65 41.35 – 45.64
+UFH Normal 0.28 0.01 4.95 0.24 – 0.32
+UFH Abnormal 0.57 0.01 2.23 0.53 – 0.60
+LMWH Normal 0.74 0.03 3.58 0.66 – 0.82
+LMWH Abnormal 1.45 0.06 4.15 1.27 – 1.63
+D-Dimer Normal .24 0.04 17.36 0.11 – 0.36
+D-Dimer Abnormal 2.08 0.05 2.27 1.93 – 2.22
+Inter-run (day-to-day) precision was evaluated on n≥ 20 days with the results
+of the daily controls: STA® Coag N + ABN (PT< APTT> Fibrinogen),
+STA® System Control P (AT III), STA® Heparin control (UFH),
+STA®Quality LMWH (LMWH) and STA® Liatest Control (D-Dimer).
+Mean Std Dev C.V. 95% CI
+PT Normal 13.93 0.20 1.45 13.32 – 14.53
+PT Abnormal 20.99 0.25 1.20 20.23 – 21.74
+APTT Normal 33.92 0.39 1.15 32.75 – 35.09
+APTT Abnormal 55.25 1.16 2.11 51.76 – 58.75
+Fibrinogen Normal 337.00 9.98 2.96 307.06 –
+366.94
+Fibrinogen Abnormal 115.07 3.05 2.65 105.92 - 124.22
+AT Normal 109.43 2.85 2.60 100.89 –
+117.98
+AT Abnormal 44.70 2.74 6.14 36.47 – 52.93
+UFH Normal 0.29 0.01 4.72 0.25 – 0.33
+9
+
+[Table 1 on page 9]
+Fibrinogen Normal	326.86	11.17	3.42	293.36 – 360.35
+Fibrinogen
+Abnormal	106.06	4.71	4.44	91.92 – 120.21
+AT Normal	97.56	1.67	1.72	92.54 – 102.57
+AT Abnormal	43.49	0.72	1.65	41.35 – 45.64
+UFH Normal	0.28	0.01	4.95	0.24 – 0.32
+UFH Abnormal	0.57	0.01	2.23	0.53 – 0.60
+LMWH Normal	0.74	0.03	3.58	0.66 – 0.82
+LMWH Abnormal	1.45	0.06	4.15	1.27 – 1.63
+D-Dimer Normal	.24	0.04	17.36	0.11 – 0.36
+D-Dimer Abnormal	2.08	0.05	2.27	1.93 – 2.22
+
+[Table 2 on page 9]
+	Mean	Std Dev	C.V.	95% CI
+PT Normal	13.93	0.20	1.45	13.32 – 14.53
+PT Abnormal	20.99	0.25	1.20	20.23 – 21.74
+APTT Normal	33.92	0.39	1.15	32.75 – 35.09
+APTT Abnormal	55.25	1.16	2.11	51.76 – 58.75
+Fibrinogen Normal	337.00	9.98	2.96	307.06 –
+366.94
+Fibrinogen Abnormal	115.07	3.05	2.65	105.92 - 124.22
+AT Normal	109.43	2.85	2.60	100.89 –
+117.98
+AT Abnormal	44.70	2.74	6.14	36.47 – 52.93
+UFH Normal	0.29	0.01	4.72	0.25 – 0.33
+
+--- Page 10 ---
+UFH Abnormal 0.58 0.02 3.00 0.53 – 0.63
+LMWH Normal 0.75 0.02 3.26 0.68 – 0.82
+LMWH Abnormal 1.45 0.06 4.18 1.27 – 1.63
+c. Linearity:
+A Fibrinogen reportable range of 150-900 mg/dl was demonstrated by testing
+13 samples containing fibrinogen from 140 to 1040 mg/dl, on two STA
+Satellite® analyzers. Percent recovery (STA Satellite value/expected value x
+100%) varied from 94 – 105 % across the range of values.
+An ATIII reportable range of up to 140% for the photometric ATIII assay was
+demonstrated by testing 13 samples containing 0 to 153% ATIII, on two STA
+Satellite® analyzers. Percent recovery (STA Satellite value/expected value x
+100%) varied from 84 – 105 % across the range of values.
+Unfractionated Heparin (UFH) linearity of up to 0.70 anti-Xa IU/ml for the
+UFH assay was demonstrated by testing 13 samples containing 0 to 0.75
+IU/ml UFH, on two STA Satellite® analyzers. Percent recovery (STA
+Satellite value/expected value x 100%) varied from 89 to 110%.
+A D-Dimer reportable range of 0.0 -4.0 µg/ml was demonstrated by testing 14
+samples containing from 0 -4 µg/ml of d-dimer, on two STA Satellite®
+analyzers. Percent recovery (STA Satellite value/expected value x 100%)
+varied from 93 – 105 % across the range of values.
+Low Molecular Weight Heparin (LMWH) linearity of up to 2.0 anti-Xa IU/ml
+was demonstrated by testing samples containing 0 to 2.40 anti-Xa IU/ml of
+LMWH on two STA Satellite® analyzers. Percent recovery (STA Satellite
+value/expected value x 100%) varied from 92 to 103%.
+d. Carryover:
+Sample to sample carry-over was evaluated on three STA Satellite™
+analyzers. A normal human plasma pool was prepared and divided into two
+portions. 10 IU of UFH was added to one portion which caused the APTT
+value to be >100 secs. The heparinized pool was tested five times followed
+by the normal pool. This cycle was repeated five times. The APTT values of
+the normal pool remained unaffected by the heparinized pool, demonstrating
+the lack of sample-to-sample carryover.
+e. Interfering Substances:
+10
+
+[Table 1 on page 10]
+UFH Abnormal	0.58	0.02	3.00	0.53 – 0.63
+LMWH Normal	0.75	0.02	3.26	0.68 – 0.82
+LMWH Abnormal	1.45	0.06	4.18	1.27 – 1.63
+
+--- Page 11 ---
+N/A
+2. Other Supportive Instrument Performance Data Not Covered Above:
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+11
+
+--- Page 12 ---
+12

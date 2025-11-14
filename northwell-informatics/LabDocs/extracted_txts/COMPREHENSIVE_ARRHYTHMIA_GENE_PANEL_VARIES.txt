@@ -1,0 +1,110 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase Protocol for Generating Results for
+Comprehensive Arrhythmia Gene Panel, Varies
+Effective Date: [Insert Date] Review Date: [Insert Date] Version:
+1.0
+1. PURPOSE
+This protocol establishes the standard procedures for the analytical
+phase of generating and validating results for the Comprehensive
+Arrhythmia Gene Panel, Varies. This ensures accuracy, reliability, and
+proper documentation of genetic testing results.
+2. SCOPE
+This procedure applies to all laboratory personnel involved in the
+analysis of DNA samples for arrhythmia-related genetic variants
+using next-generation sequencing (NGS).
+3. RESPONSIBILITIES
+• Laboratory Technologists/Analysts: Execute analytical
+procedures, monitor equipment, document findings, and perform
+validation checks.
+• Bioinformatics Personnel: Analyze sequencing data, confirm
+variant calls, and ensure data integrity.
+• Supervisors/Quality Assurance: Review and approve results,
+oversee quality control, and ensure protocol compliance.
+4. DEFINITIONS
+• Comprehensive Arrhythmia Gene Panel: A targeted next-
+generation sequencing test assessing multiple genes associated
+with arrhythmias.
+• NGS: Next-Generation Sequencing, a method of DNA sequencing
+capable of sequencing multiple genes simultaneously with high
+throughput.
+• LIS: Laboratory Information System, a software system that
+records, manages, and stores data related to laboratory
+operations.
+5. EQUIPMENT AND MATERIALS
+• NGS Platform (e.g., Illumina MySeq, NextSeq)
+• DNA Extraction Kits
+• Library Preparation Kits
+• Thermal Cycler
+• Reagents for NGS (e.g., primers, enzymes)
+• Computer with bioinformatics analysis software (e.g., GATK,
+Annovar, IGV)
+• Laboratory Information System (LIS)
+6. PROCEDURE
+A. DNA Extraction and Quantification
+1. Extract DNA from the provided samples using the designated
+DNA extraction kit according to the manufacturer’s instructions.
+2. Quantify the extracted DNA using a fluorometric method (e.g.,
+Qubit) and assess purity using spectrophotometry (e.g.,
+NanoDrop).
+B. Library Preparation
+1. Perform library preparation using the designated library
+preparation kit, following the manufacturer’s protocols.
+2. Assess the quality and quantity of the prepared library using a
+bioanalyzer or equivalent system.
+C. Sequencing
+1. Load the prepared libraries onto the sequencing platform
+following the manufacturer’s guidelines.
+2. Configure the sequencing run parameters specific to the
+arrhythmia gene panel.
+3. Start the sequencing run and monitor for any errors. Notify the
+supervisor immediately if any issues arise.
+D. Data Analysis
+1. Upon completion of the sequencing run, retrieve raw data
+(FASTQ files) from the sequencing platform.
+2. Perform quality control checks on the raw data using software
+such as FastQC.
+3. Align the sequences to the reference genome (e.g., hg19 or
+hg38) using an aligner (e.g., BWA-MEM).
+4. Perform variant calling using appropriate software (e.g., GATK),
+and generate a variant call file (VCF).
+5. Annotate the variants using tools (e.g., Annovar) to predict
+functional impacts.
+6. Filter and prioritize variants based on clinical significance
+related to arrhythmias.
+E. Result Validation and Reporting
+1. Validate identified variants by reviewing alignment and variant
+call data using IGV (Integrated Genome Viewer).
+2. Confirm clinical relevance by cross-referencing with databases
+(e.g., ClinVar, HGMD) and primary literature.
+3. Interpret variants per ACMG guidelines and classify
+(Pathogenic, Likely Pathogenic, VUS, etc.).
+4. Enter finalized results into the LIS with proper documentation.
+5. Generate a comprehensive report summarizing findings,
+interpretations, and recommendations.
+6. Obtain supervisor or qualified personnel’s review and approval
+before releasing results.
+F. Quality Control
+1. Include positive and negative controls in every run to ensure
+test accuracy.
+2. Perform proficiency testing regularly as per CLIA requirements.
+3. Document all QC activities and corrective actions in the Quality
+Control Log.
+7. REPORTING RESULTS
+Report comprehensive results through LIS with the following details:
+• Gene and variant identified
+• Zygosity of the variant (heterozygous, homozygous)
+• Clinical significance classification
+• Interpretation and recommendations for clinical management
+8. REFERENCES
+• ACMG Guidelines for Interpretation of Sequence Variants.
+• Manufacturer’s Instructions for DNA Extraction and Library
+Preparation Kits.
+• FastQC, BWA-MEM, GATK, Annovar, and IGV User Manuals.
+• ClinVar, HGMD databases for variant reference.
+Approved by:
+• [Name, Title]
+• [Date]
+Reviewed by:
+• [Name, Title]
+• [Date]
+End of SOP

@@ -1,0 +1,148 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: K080812   
+B. Purpose for Submission: Revision of 510(k) product insert (k961062) Performance Characteristi   
+C. Measurand: Human Hemoglobin   
+D. Type of Test: Fecal Occult Blood   
+E. Applicant: Beckman Coulter, Inc.   
+F. Proprietary and Established Names: Hemoccult ICT (Immunochemical Fecal Occult Blood Test)   
+G. Regulatory Information:
+
+1. Regulation section: 864.6550 Occult Blood Test
+
+2. Classification: Class II
+
+3. Product code: KHE
+
+4. Panel: Hematology (81)
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+Hemoccult ICT (Immunochemical Fecal Occult Blood Test) is a rapid, visually read, qualitative immunochemical chromatographic method for detection of human hemoglobin in fecal samples.
+
+2. Indication(s) for use:
+
+Fecal occult blood tests are useful screening aids for detecting primarily lower gastrointestinal (GI) disorders that may be related to iron deficiency anemia, diverticulitis, ulcerative colitis, polyps, adenomas, colorectal cancers or other GI lesions that can bleed. Hemoccult ICT is recommended for use by health professionals as part of routine physical examinations or when lower GI disorders are suspected.
+
+3. Special conditions for use statement(s): For prescription use only.
+
+4. Special instrument requirements:
+
+N/A
+
+# I. Device Description:
+
+Hemoccult $\textsuperscript { \textregistered }$ ICT (Immunochemical Fecal Occult Blood Test) is a rapid, visually ready, qualitative immunochemical chromatographic method for detection of human hemoglobin in fecal samples. It incorporates multiple components including separate sample collection cards(s), applicator sticks, test devices, buffer, patient instructions, physician instructions and product instructions for use.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Hemoccult $\textsuperscript { \textregistered }$ ICT
+
+2. Predicate K number(s): k961062
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>Qualitativeimmunochemicalchromatographic methodfor detection of humanhemoglobin from blood infecal samples</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Test Procedure</td><td rowspan=1 colspan=1>Immunoassay utilizinggoat anti-humanpolyclonal antibodies forthe detection ofhemoglobin</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Extraction Buffer</td><td rowspan=1 colspan=1>PBS, bovine serumalbumin and 0.09%sodium azide</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Hemoccult® ICTCollection Cards</td><td rowspan=1 colspan=1>Single Collection Cards,3-day Patient ScreeningKits, 2-day PatientScreening Kits</td><td rowspan=1 colspan=1>3-day Patient ScreeningKit</td></tr><tr><td rowspan=1 colspan=1>Product Insert ClinicalPerformance Data</td><td rowspan=1 colspan=1>Includes clinicalperformance data for 3days, 2 days and 1 day ofspecimen collection</td><td rowspan=1 colspan=1>Includes clinicalperformance data forthree days of specimencollection only</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Deciding When to Submit a 510(k) for a Change to an Existing Device (K97-1)   
+In Vitro Diagnostic Devices: Guidance for the Preparation of $5 1 0 ( \mathrm { k } )$ Submissions   
+Frequently Asked Questions on the New 510(k) Paradigm; Final   
+Format for Traditional and Abbreviated 510(k)s - Guidance for Industry and FDA Staff   
+Points to Consider for Collection of Data in Support of In-Vitro Device Submissions for   
+510(k) Clearance   
+A New 510(k) Paradigm - Alternate Approaches to Demonstrating Substantial   
+Equivalence in Premarket Notifications   
+User Fees and Refunds for Premarket Notification Submissions $( 5 1 0 ( \mathrm { k } ) \mathrm { s } )$ - Guidance for   
+Industry and FDA Staff
+
+# L. Test Principle:
+
+Hemoccult ICT uses the principle of immunochromatography to detect human hemoglobin from blood in fecal samples. The test requires a Collection Card and a Test Device for each fecal sample. A portion of feces from two different areas of the stool is applied in a thin smear to the Collection Card which serves as a means to transport the sample to the testing site. The dried sample is transferred from the Collection Card to the Test Device using a pull-out Sample Tab. Next it is rehydrated with buffer to extract the hemoglobin, if present, from the sample. When the Test Device is closed, the sample is brought into contact with the test strip which initiates chromatographic flow. The sample flows down the test strip, rehydrates the colloidal gold anti-human hemoglobin antibody conjugate and, if hemoglobin is present in the sample, forms a hemoglobin-conjugate immune complex. The complex is then captured on the test strip in a zone containing anti-human hemoglobin antibodies to form a visible Test Line - a positive test. No Test Line forms in the absence of human hemoglobin in the sample - a negative test. Unbound conjugate continues to migrate down the test strip and binds to the Control Line which contains conjugate-specific antibodies.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+The precision and reproducibility of Hemoccult $\textsuperscript { \textregistered }$ ICT was evaluated in blind studies using Collection Cards smeared with fecal samples spiked with a range of blood levels to give negative, borderline positive and positive test results. The precision study was performed by three technicians, working independently in the same laboratory, who tested each sample 10 times. The agreement was $100 \%$ (90/90). The reproducibility study was performed by three individual technicians, working in three geographically separate locations, who tested each sample 10 times. The reproducibility was $9 7 \%$ (30/30 for the negative samples, 30/30 for the positive samples, and 27/30 for the borderline samples)
+
+b. Linearity/assay reportable range:
+
+N/A
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Internal Quality Control: The test device contains built-in procedural controls including a positive Control Line and a negative background control area on the control strip. A test is valid when the built-in procedural controls perform as indicated, assuring that the test device and buffer reagents are functioning properly and that the procedure has been performed correctly.
+
+External Quality Control: Positive and negative controls are available. When running the test device for the first time, it is recommend that external controls be tested and the correct results obtained before proceeding to patient samples.
+
+# d. Detection limit:
+
+In vitro studies, following the recommend procedures for sample collection and storage, demonstrated that $9 5 \%$ of the time Hemoccult $\textsuperscript { \textregistered }$ ICT detected 0.2 mL of added blood per $1 0 0 \mathrm { g }$ of feces ( $1 ~ \mathrm { m L }$ of blood/ $1 0 0 \mathrm { g }$ feces is on average $1 . 5 \mathrm { m g H b / g }$ feces). Hemoccult $\textsuperscript { \textregistered }$ ICT also reliably detected blood levels up to $1 7 \mathrm { m L }$ per $1 0 0 \mathrm { g }$ of feces.
+
+# e. Analytical specificity:
+
+# Cross Reactivity
+
+Hemoccult $\textsuperscript { \textregistered }$ ICT was examined in vitro by spiking fecal samples with myoglobin from horse and hemoglobin from beef, chicken, fish, horse, pig, rabbit, goat, sheep and turkey, to determine whether dietary substances cross reacted with the test. Spiked fecal samples were incubated at $3 7 ^ { \circ } \mathrm { C }$ for 24 hours prior to testing to mimic the transit time in the colon. Hemoccult $\textsuperscript { \textregistered }$ ICT gave negative test results when tested with these substances at a concentration of $5 \mathrm { m g / g }$ feces, a level in excess of normal dietary intake which consistently gave false-positive results with guaiac-based tests.
+
+# Effect of Diet
+
+Hemoccult $\textsuperscript { \textregistered }$ ICT does not require the patient to follow any special dietary restrictions. Fecal samples from different individuals were spiked with $2 5 \mathrm { m g / g }$ feces of horseradish peroxidase and $2 5 \mathrm { m g / }$ gfeces of ferrous sulfate to check for possible false-positive test results,and with a mixture of $2 5 \mathrm { m g / g }$ feces vitamin C and $5 \mathrm { m g / g }$ feces of human hemoglobin to check for possible false-negative test results. These studies demonstrated that Hemoccult $\textsuperscript { \textregistered }$ ICT was not affected by abnormally high concentrations of substances shown to cause false-positive or false-negative results with guaiac-based tests.
+
+f. Assay cut-off:
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+The candidate device is exactly the same as the predicate device. The sponsor is requesting revision of the labeling to separate the results for 1, 2 and 3 days of testing rather than 3 days combined alone. Results from the comparison to the original predicate device (Hemoccult $\textsuperscript { \textregistered }$ ) are presented below in the Clinical Studies section.
+
+b. Matrix comparison:
+
+3. Clinical studies:
+
+a. Clinical Sensitivity:
+
+Average Risk Screening Population   
+The test positivity rate, estimated positive predictive value, relative   
+sensitivity, and false positivity rate for lower GI pathology, based on the detection of bleeding, was evaluated using Hemoccult $\textsuperscript { \textregistered }$ ICT and Hemoccult $\textsuperscript { \textregistered }$ in a group of 1734 asymptomatic, average risk individuals following the usual dietary restrictions for guaiac-based tests for 3 days of testing combined. Individuals with a positive result on Hemoccult $\textsuperscript { \textregistered }$ or Hemoccul $\textsuperscript { \textregistered }$ ICT were scheduled for follow-up colonoscopy to confirm the presence or absence of any lower GI pathology. Patients who were negative by both fecal occult blood tests were “presumed” to be negative for lower GI pathology. The test positivity rates for multi-day screening were $1 . 8 \%$ (32/1734) for Hemoccult $\textsuperscript { \textregistered }$ ICT and $2 . 9 \%$ (51/1734) for Hemoccult $\textsuperscript { \textregistered }$ . In order to estimate the sensitivity, positive predictive value, and false positivity rate, the results obtained were independently compared directly to clinical pathology findings. As expected in an average risk screening population, few cases of colorectal neoplasia were found. For multi day screening the sensitivity for colorectal neoplasia was $100 \%$ (5/5) for Hemoccult $\textsuperscript { \textregistered }$ ICT and $40 \%$ (2/5) for Hemoccult $\textsuperscript { \textregistered }$ . The estimated positive predictive value for colorectal neoplasia was $1 5 . 6 \%$ (5/32) for Hemoccult $\textsuperscript { \textregistered }$ ICT and $3 . 9 \%$ (2/51) for Hemoccult $\textsuperscript { \textregistered }$ . The false positivity rate for other GI pathology was $0 . 9 \%$ (15/1681) for Hemoccult $\textsuperscript { \textregistered }$ ICT and $1 . 2 \%$ (20/1681) for Hemoccult $\textsuperscript { \textregistered }$ . The apparent specificity was $9 9 . 1 \%$ for Hemoccult $\textsuperscript { \textregistered }$ ICT and $9 8 . 8 \%$ for Hemoccult $\textsuperscript { \textregistered }$ .
+
+The results for one, two and three days screening are presented below.
+
+Average Risk Screening Study Hemoccult ICT and Hemoccult vs. Clinical Pathology Hemoccult $^ \mathrm { \textregistered }$ ICT One, Two and Three Day Screening (1 Day analysis represents day 1 fecal collections, 2 Day is days 1 and 2, and 3 Day is all 3 days of collection)   
+
+<table><tr><td></td><td>Hemoccult® ICT 1 Day</td><td>Hemoccult® ICT 2 Day</td><td>Hemoccult® ICT 3 Day</td></tr><tr><td>Test Positivity Rate</td><td>0.6% (10/1670)* [0.3-1.1%]**</td><td>1.3% (21/1670)* [0.8-1.9%]***</td><td>1.9% (33/1670)* [1.4-2.8%]**</td></tr><tr><td>Estimated Positive</td><td></td><td></td><td></td></tr><tr><td>Predictive Value Colorectal Neoplasia***</td><td></td><td></td><td>16.1% (5/31)</td></tr><tr><td></td><td>20.0% (2/10) [2.5-55.6%]</td><td>19.0% (4/21) [5.4-41.9%]</td><td>[5.5-33.7%]</td></tr><tr><td rowspan="2">Any G.I. Pathology</td><td>60.0% (6/10)</td><td>52.4% (11/21)</td><td>54.8% (17/31)</td></tr><tr><td>[26.2-87.8%]</td><td>[29.8-74.3%]</td><td>[36.0-72.7%]</td></tr><tr><td>Sensitivity for Specified Pathology</td><td></td><td></td><td></td></tr><tr><td>Colorectal Cancer</td><td>1/1</td><td>1/1</td><td>1/1</td></tr><tr><td>Adenomas &gt; 1 cm</td><td>1/4</td><td>3/4</td><td>4/4</td></tr><tr><td>Colorectal Neoplasia***</td><td>2/5</td><td>4/5</td><td>5/5</td></tr><tr><td>False Positivity Rate</td><td></td><td></td><td></td></tr><tr><td>Colorectal Neoplasia***</td><td>0.5% (8/1665) [0.2-0.9%]</td><td>1.0% (17/1665) [0.6-1.6%]</td><td>1.6% (26/1665) [1.0-2.3%]</td></tr><tr><td rowspan="2">Any Lower G.I. Pathology</td><td></td><td></td><td></td></tr><tr><td>0.2% (4/1617) [0.1-0.6%]</td><td>0.6% (10/1617) [0.3-1.1%]</td><td>0.9% (14/1617) [0.5-1.4%]</td></tr><tr><td>Apparent Specificity1</td><td>99.8%</td><td>99.4%</td><td>99.1%</td></tr></table>
+
+\* Sixty-four samples were removed from 1, 2 & 3 Day analysis due to a lack of paired data all 3 days. $^ { \ast \ast }$ $9 5 \%$ confidence interval in brackets [ ] \*\*\* Colorectal cancer and adenomas $> 1$ cm 1 Apparent specificity for any GI pathology was determined by subtracting the false positivity rate from $1 0 0 \%$ .
+
+# Clinical Sensitivity in a High Risk Population
+
+High risk patients with a personal or family history of colorectal neoplasia and/or physical signs or symptoms suggestive of lower GI disorders were recruited for a study designed to evaluate fecal occult blood tests relative to clinical pathology. A diagnostic work-up was performed on all patients using either colonoscopy or a combination of flexible sigmoidoscopy and double contrast barium x-ray. A clinical diagnosis based on endoscopy was made for each patient and compared to test results.
+
+A comparison of Hemoccult $\textsuperscript { \textregistered }$ ICT and Hemoccult $\textsuperscript { \textregistered }$ versus clinical diagnosis of colorectal neoplasia was completed for 45 patients. The clinical sensitivity of Hemoccult $\textsuperscript { \textregistered }$ ICT and Hemoccult $\textsuperscript { \textregistered }$ for colorectal cancer was $90 \%$ (18/20); the clinical sensitivity of Hemoccult $\textsuperscript { \textregistered }$ ICT for large adenomas was $2 8 \%$ (7/25) and for Hemoccult $\textsuperscript { \textregistered }$ was $20 \%$ (5/25). The clinical sensitivity of Hemoccult $\textsuperscript { \textregistered }$ ICT for colorectal neoplasia (cancers and large adenomas combined) was $56 \%$ (25/45) and for Hemoccult $\textsuperscript { \textregistered }$ was $51 \%$ (23/45).
+
+To evaluate the performance of Hemoccult $\textsuperscript { \textregistered }$ ICT and HemeSelect $\textsuperscript { \textregistered }$ (reference immunochemical test) versus clinical diagnosis of colorectal neoplasia, a study was completed with 53 patients. Hemoccult $\textsuperscript { \textregistered }$ ICT and HemeSelect $\textsuperscript { \textregistered }$ had a clinical sensitivity for colorectal cancer of $90 \%$ (27/30); Hemoccult $\textsuperscript { \textregistered }$ ICT had a clinical sensitivity of $30 \%$ (7/23) for large adenomas, and HemeSelect $\textsuperscript { \textregistered }$ had a clinical sensitivity of $2 6 \%$ (6/23) for large adenomas. The clinical sensitivity for colorectal neoplasia (cancers and large adenomas combined) was $64 \%$ (34/53) for Hemoccult $\textsuperscript { \textregistered }$ ICT and $62 \%$ (33/53) for HemeSelect $\textsuperscript { \textregistered }$ .
+
+4. Clinical cut-off:
+
+N/A
+
+5. Expected values/Reference range:
+
+N/A
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

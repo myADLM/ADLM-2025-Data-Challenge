@@ -1,0 +1,110 @@
+Standard Operating Procedure for the Analytical Phase of MYH9-
+RELATED DISORDERS, MYH9 GENE, NEXT-GENERATION
+SEQUENCING
+1. Purpose To outline the standard procedures for analyzing
+MYH9 gene sequences in patients with MYH9-related disorders
+using next-generation sequencing (NGS) technology, ensuring
+the accuracy and reliability of reported results.
+2. Scope This SOP applies to all laboratory personnel responsible
+for the processing and analysis of NGS data for MYH9-related
+disorders.
+3. Responsibility
+• The Clinical Laboratory Director is responsible for ensuring
+adherence to the SOP.
+• Laboratory Technologists/Scientists are responsible for executing
+the procedures as described.
+• It is the responsibility of all staff to report any discrepancies or
+issues to a supervisor immediately.
+1. Specimen Information Assume that the blood or tissue
+samples have been collected, received, and accessioned. DNA
+extraction has been completed prior to this procedure.
+2. Procedure
+A. DNA Library Preparation
+1. Quantification and Quality Check
+◦ Use a fluorometric method (e.g., Qubit) to quantify DNA.
+◦ Assess DNA quality using agarose gel electrophoresis or a
+fragment analyzer.
+◦ Record DNA concentration and quality metrics.
+2. Library Construction
+◦ Normalize DNA to the required concentration (e.g., 10 ng/μl)
+as per the library preparation kit protocol.
+◦ Follow the manufacturer's instruction specific for NGS library
+preparation (e.g., Illumina or Ion Torrent).
+◦ Include all necessary controls (positive, negative) and
+ensure proper indexing.
+3. Quality Control
+◦ Assess the quantity and quality of the constructed library
+using a suitable method (e.g., Qubit, Bioanalyzer).
+◦ Only proceed if the library meets the specified quality
+metrics.
+B. Sequencing
+1. Loading Samples
+◦ Follow the manufacturer’s guidelines to load the prepared
+libraries onto the sequencing platform.
+◦ Utilize proper pipetting techniques to prevent contamination.
+2. Sequencing Run
+◦ Initiate a sequencing run following instrument presets and
+protocols.
+◦ Monitor the sequencing run for any alerts or system errors.
+3. Data Quality Check
+◦ Perform quality control checks on the sequencing run data
+using analysis software (e.g., FastQC).
+◦ Criteria for high-quality data include Q-scores, read length,
+percentage of reads passing filter, and overall yield.
+C. Data Analysis
+1. Alignment and Variant Calling
+◦ Use bioinformatics tools (e.g., BWA, GATK) to align
+sequencing reads to the reference genome (GRCh38/hg38).
+◦ Perform variant calling to identify deviations from the
+reference sequence.
+2. Data Filtering
+◦ Apply relevant filters to retain high-confidence variants (e.g.,
+depth of coverage > 20x, variant allele frequency > 20%).
+◦ Annotate variants using a variant annotation tool (e.g.,
+ANNOVAR, VEP).
+3. Variant Interpretation
+◦ Interpret variants based on established databases (e.g.,
+ClinVar, HGMD) and guidelines (ACMG).
+◦ Evaluate pathogenicity in the context of the patient’s clinical
+presentation.
+D. Reporting Results
+1. Report Generation
+◦ Generate a draft report including patient details, observed
+variants, and their clinical significance.
+◦ Present findings in a clear, concise manner, ensuring
+scientific accuracy and correctness.
+2. Quality Control Review
+◦ Have a second qualified scientist independently review the
+data and the draft report.
+◦ Confirm accuracy and completeness before finalizing the
+report.
+3. Final Review and Sign-Out
+◦ The Clinical Laboratory Director will review and sign out the
+final report.
+◦ Ensure timely delivery of the report to the requesting
+clinician.
+4. Documentation and Record Keeping
+◦ Store all analysis records, raw data, and reports securely in
+accordance with laboratory guidelines.
+◦ Ensure confidentiality and data protection protocols are
+adhered to.
+5. Quality Control and Troubleshooting
+• Regularly calibrate and maintain sequencing equipment as per
+manufacturer recommendations.
+• Participate in external proficiency testing (e.g., CAP, EMQN) for
+NGS.
+• Document and resolve any discrepancies or errors in data
+analysis promptly.
+1. References
+• Latest relevant publications and guidelines on NGS data analysis
+and variant interpretation.
+• Instrument-specific standard manuals and manufacturer's
+instructions.
+1. Review and Revision
+• This SOP should be reviewed annually and updated as necessary
+to remain current with technological advances and regulatory
+standards.
+This protocol should provide a complete guide to generating and
+reporting accurate results for MYH9-related disorders using NGS.
+Ensure all lab personnel are properly trained and familiar with this
+SOP prior to performing any tasks outlined within it.

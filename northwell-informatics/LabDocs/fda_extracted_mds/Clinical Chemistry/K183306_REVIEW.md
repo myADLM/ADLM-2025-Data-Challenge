@@ -1,0 +1,23 @@
+# SPECIAL 510(K): DEVICE MODIFICATION OIR DECISION SUMMARY
+
+# 510(k) Number: k183306
+
+This 510(k) submission contains information/data on modifications made to the applicant’s own class II or class I devices requiring 510(k). The following items are present and acceptable:
+
+This change was for the following:
+
+• Addition of Bluetooth 4.0 wireless communication function Addition of user-settable hyperglycemia indicators, bedtime and daylight savings time flags Increase in meter size and weight   
+• Change of button material and position   
+• Addition of backlight to display and change in display from black font on white background to white font on black background   
+• Change from $1 \mathrm { ~ x ~ } 3$ lithium battery (CR2032) to 3-volt LR03/2 x 1.5 AAA Addition of test strip port light Change in device system name from GLUCOCARD W Blood Glucose Monitoring System to GLUCOCARD W onyx Blood Glucose Monitoring System
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics, and component design.
+
+5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the applicant’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The applicant has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.
+
+The GLUCOCARD W onyx Blood Glucose Monitoring System is intended for single patient home use. Disinfection efficacy studies were performed on the external materials comprising the meter by an outside commercial testing laboratory demonstrating complete inactivation of hepatitis B virus (HBV) with the chosen disinfectant, Clorox Germicidal Wipe (EPA Reg. No: 67619-12). The sponsor also conducted robustness studies and demonstrated that there was no change in performance or in the external materials of the meter after 160 cleaning and disinfection cycles representing 3 years of single patient use. Labeling was reviewed for adequate instructions for the validated cleaning and disinfection procedures.

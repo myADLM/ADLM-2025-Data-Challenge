@@ -1,0 +1,561 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K212361
+B Applicant
+PathAI, LLC
+C Proprietary and Established Names
+Novo
+D Regulatory Information
+Product Code(s) Classification Regulation Section Panel
+21 CFR 864.3700 - Whole Slide
+QKQ Class II PA - Pathology
+Imaging System
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Type of Test:
+Not applicable – software only device
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product Code(s)			Classification			Regulation Section			Panel	
+QKQ			Class II			21 CFR 864.3700 - Whole Slide
+Imaging System			PA - Pathology		
+
+--- Page 2 ---
+B Indication(s) for Use:
+Novo is a software only device intended for viewing and management of digital images of
+scanned surgical pathology slides prepared from formalin-fixed paraffin embedded (FFPE)
+tissue. It is an aid to the pathologist to review, interpret, and manage digital images of these
+slides for primary diagnosis. Novo is not intended for use with frozen sections, cytology, or non-
+FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ appropriate procedures and safeguards
+to assure the quality of the images obtained and, where necessary, use conventional light
+microscopy review when making a diagnostic decision. Novo is intended for use with the Philips
+Ultra Fast Scanner and the Barco PP27QHD or Philips PS27QHDCR display.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+Novo is a web-based software-only device that is intended to aid pathology professionals in the
+viewing, interpretation, and management of digital whole slide images (WSIs) of scanned
+surgical pathology slides prepared from formalin-fixed paraffin embedded (FFPE) tissue using
+the Philips IntelliSite Pathology Solution (PIPS) Ultra Fast Scanner (UFS). Novo functionalities
+include image upload, image management, image conversion and viewing WSIs.
+Novo is operated as follows:
+1. The user prepares and scans slides and reviews the slide quality in accordance with the PIPS
+UFS indication for use (IFU) and any other laboratory specific procedures.
+2. The user uploads WSIs to cloud storage using Novo and builds a patient accession using the
+patient’s medical record number (MRN), date of birth (DOB) and accession ID to support
+linkage of one or more slides from a single procedure using patient identifiers in Novo.
+3. Once slide image is acquired using PIPS UFS according to its IFU and becomes available in
+scanner database file systems, Novo will automatically initiate uploading the slide image
+(using Novo uploader) and corresponding metadata to persistent cloud storage. Integrity
+checks are performed at upload time when data is copied to storage. During review, the
+pathologist opens WSI images from storage [displayed as Deep Zoom Image (DZI) images]
+using Novo , performs further QC and reads WSI images of the slides to make a primary
+diagnosis. The workflow of a pathologist includes zooming and panning images.
+After viewing all images belonging to a particular accession, the pathologist renders a diagnosis.
+K212361 - Page 2 of 9
+
+--- Page 3 ---
+Novo operates with the following components:
+Table 1: WSI Scanner and Displays
+Manufacturer Model
+Philips Medical Systems Nederland B.V. Ultra-Fast Scanner (UFS)
+Barco N.V. Display PP27QHD
+Philips Display PS27QHDCR
+Table 2: Computer Environment/System Requirements
+System Details
+Computer System RAM: 4.0 GB
+Display Calibration tool: MediCal QAWeb Agent for Philips and Barco
+Displays
+Display Barco (PP27QHD) or Philips (PS27QHDCR)
+Pixel resolution: 2560w x 1440h
+Panel type: Color LCD
+Technology: IPS technology with a-Si Thin Film Transistor
+Physical size: 648.5 mm x 423 mm x 91.3 mm (with backlight disc)
+Web Browser Google Chrome 81.0 or later.
+Network Internet access
+Outbound traffic enabled to port 443
+25 Mbps download and upload speed
+C. Instrument Description Information:
+1. Instrument Name:
+Not applicable – software only device
+2. Specimen Identification:
+Novo uses digital pathology images obtained from the PIPS UFS of Hematoxylin and Eosin
+(H&E) stained glass slides. The reading pathologist selects a case (patient) from a worklist
+external to the subject device whereby the subject device fetches the associated images from
+the external image storage. The scanned images are identified based on the previously
+assigned specimen identifier.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is H&E stained. Digital
+images are them obtained from these glass slides using the PIPS UFS.
+4. Calibration:
+Not applicable
+K212361 - Page 3 of 9
+
+[Table 1 on page 3]
+	Manufacturer			Model	
+Philips Medical Systems Nederland B.V.			Ultra-Fast Scanner (UFS)		
+Barco N.V. Display			PP27QHD		
+Philips Display			PS27QHDCR		
+
+[Table 2 on page 3]
+System	Details
+Computer System	RAM: 4.0 GB
+Display Calibration tool: MediCal QAWeb Agent for Philips and Barco
+Displays
+Display	Barco (PP27QHD) or Philips (PS27QHDCR)
+Pixel resolution: 2560w x 1440h
+Panel type: Color LCD
+Technology: IPS technology with a-Si Thin Film Transistor
+Physical size: 648.5 mm x 423 mm x 91.3 mm (with backlight disc)
+Web Browser	Google Chrome 81.0 or later.
+Network	Internet access
+Outbound traffic enabled to port 443
+25 Mbps download and upload speed
+
+--- Page 4 ---
+5. Quality Control:
+Before reading pathology images using the Novo device, the pathologist should ensure that
+all scanned slide images have been imported and for every case, view the thumbnails in the
+pathology image window to verify that each slide that should be in the case is present
+(manually verifying tissue block and staining information from LIS).
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Philips IntelliSite Pathology Solution (PIPS)
+B Predicate 510(k) Number(s):
+DEN160056
+C Comparison with Predicate(s):
+Device &
+K212361 DEN160056
+Predicate Device(s):
+Device Trade Philips IntelliSite Pathology Solution
+Novo
+Name (PIPS)
+General Device Characteristic: Similarities
+The Philips IntelliSite Pathology
+Novo is a software only device
+Solution (PIPS) is an automated digital
+intended for viewing and
+slide creation, viewing, and
+management of digital
+management system. The PIPS is
+images of scanned surgical
+intended for in vitro diagnostic use as
+pathology slides prepared from
+an aid to the pathologist to review and
+formalin-fixed paraffin embedded
+interpret digital images of surgical
+(FFPE) tissue. It is an
+pathology slides prepared from
+aid to the pathologist to review,
+formalin-fixed paraffin embedded
+interpret, and manage digital
+(FFPE) tissue. The PIPS is not
+images of pathology slides for
+intended for use with frozen section,
+primary diagnosis.
+cytology, or non-FFPE
+Novo is not intended for use with
+Intended Use/ hematopathology specimens.
+frozen sections, cytology, or non-
+Indications For Use
+FFPE, hematopathology
+The PIPS comprises the Image
+specimens.
+Management System (IMS), the Ultra
+Fast Scanner (UFS) and Display. The
+It is the responsibility of a qualified
+PIPS is for creation and viewing of
+pathologist to employ appropriate
+digital images of scanned glass slides
+procedures and safeguards to
+that would otherwise be appropriate for
+assure the quality of the images
+manual visualization by conventional
+obtained and, where necessary, use
+light microscopy. It is the
+conventional light microscopy
+responsibility of a qualified pathologist
+review when making a diagnostic
+to employ appropriate procedures and
+decision. Novo is intended for use
+safeguards to assure the validity of the
+with the Philips Ultra Fast Scanner
+interpretation of images obtained using
+K212361 - Page 4 of 9
+
+[Table 1 on page 4]
+	Device &	:	K212361	DEN160056	
+	Predicate Device(s)				
+Device Trade
+Name			Novo	Philips IntelliSite Pathology Solution
+(PIPS)	
+	General Device Characteristic: Similarities				
+Intended Use/
+Indications For Use			Novo is a software only device
+intended for viewing and
+management of digital
+images of scanned surgical
+pathology slides prepared from
+formalin-fixed paraffin embedded
+(FFPE) tissue. It is an
+aid to the pathologist to review,
+interpret, and manage digital
+images of pathology slides for
+primary diagnosis.
+Novo is not intended for use with
+frozen sections, cytology, or non-
+FFPE, hematopathology
+specimens.
+It is the responsibility of a qualified
+pathologist to employ appropriate
+procedures and safeguards to
+assure the quality of the images
+obtained and, where necessary, use
+conventional light microscopy
+review when making a diagnostic
+decision. Novo is intended for use
+with the Philips Ultra Fast Scanner	The Philips IntelliSite Pathology
+Solution (PIPS) is an automated digital
+slide creation, viewing, and
+management system. The PIPS is
+intended for in vitro diagnostic use as
+an aid to the pathologist to review and
+interpret digital images of surgical
+pathology slides prepared from
+formalin-fixed paraffin embedded
+(FFPE) tissue. The PIPS is not
+intended for use with frozen section,
+cytology, or non-FFPE
+hematopathology specimens.
+The PIPS comprises the Image
+Management System (IMS), the Ultra
+Fast Scanner (UFS) and Display. The
+PIPS is for creation and viewing of
+digital images of scanned glass slides
+that would otherwise be appropriate for
+manual visualization by conventional
+light microscopy. It is the
+responsibility of a qualified pathologist
+to employ appropriate procedures and
+safeguards to assure the validity of the
+interpretation of images obtained using	
+
+--- Page 5 ---
+and the Barco PP27QHD or Philips PIPS.
+PS27QHDCR display.
+Image File Philips UFS iSyntax File converted
+Philips UFS iSyntax File
+Format to device specific image format
+Internet Browser Google Chrome
+Same
+Based
+General Device Characteristic: Differences
+Image Panning, zooming, color manipulation
+Panning, zooming, notes
+Manipulation function, annotations, and
+Functions measurements (distance & area)
+Device Ultra Fast Scanner (UFS), Image
+Image viewing software
+Components Management System (IMS), Display
+After WSI images are successfully After WSI images are successfully
+acquired by using PIPS UFS, the acquired by using PIPS UFS, the WSI
+WSI images and are stored in the images are stored in IMS Application
+cloud. During review, the Server & Storage software that is not
+pathologist opens WSI images provided as part of the PIPS but may
+from storage (displayed as be located in a central server room
+Principle of
+DZI images), performs further QC separate from the workstation with the
+Operation
+and reads WSI images of the slides IMS viewing software and Display.
+to make a diagnosis. During review, the pathologist opens
+WSI images from IMS Server &
+Storage, perform further QC and reads
+WSI images of the slides to make a
+diagnosis.
+Images are stored in an end user
+provided image storage (PIPS IMS
+Image Storage Images are stored in the cloud
+Application Server & Storage) attached
+to the local network
+VI Standards/Guidance Documents Referenced:
+1. ANSI AAMI ISO 14971:2019, Medical devices – Applications of risk management to
+medical devices
+2. IEC 62304:2006/AMD 1:2015, Medical Device Software – Software Life Cycle Processes
+3. IEC 62366-1:2015, Medical devices – Part 1: Application of usability engineering to medical
+devices
+4. IEC 82304-1:2016, Health software – Part 1: General requirements for product safety
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+K212361 - Page 5 of 9
+
+[Table 1 on page 5]
+		and the Barco PP27QHD or Philips
+PS27QHDCR display.	PIPS.	
+Image File
+Format		Philips UFS iSyntax File converted
+to device specific image format	Philips UFS iSyntax File	
+Internet Browser
+Based		Google Chrome	Same	
+	General Device Characteristic: Differences			
+Image
+Manipulation
+Functions		Panning, zooming, notes	Panning, zooming, color manipulation
+function, annotations, and
+measurements (distance & area)	
+Device
+Components		Image viewing software	Ultra Fast Scanner (UFS), Image
+Management System (IMS), Display	
+Principle of
+Operation		After WSI images are successfully
+acquired by using PIPS UFS, the
+WSI images and are stored in the
+cloud. During review, the
+pathologist opens WSI images
+from storage (displayed as
+DZI images), performs further QC
+and reads WSI images of the slides
+to make a diagnosis.	After WSI images are successfully
+acquired by using PIPS UFS, the WSI
+images are stored in IMS Application
+Server & Storage software that is not
+provided as part of the PIPS but may
+be located in a central server room
+separate from the workstation with the
+IMS viewing software and Display.
+During review, the pathologist opens
+WSI images from IMS Server &
+Storage, perform further QC and reads
+WSI images of the slides to make a
+diagnosis.	
+Image Storage		Images are stored in the cloud	Images are stored in an end user
+provided image storage (PIPS IMS
+Application Server & Storage) attached
+to the local network	
+
+--- Page 6 ---
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing for Novo device was performed. The new device was compared to
+the image management software component of the predicate device. The following testing was
+performed:
+a. Bench Testing – Pixel-wise comparison test
+A pixel-wise comparison test was performed to compare images reproduced by Novo and PIPS
+IMS for the same iSyntax file to demonstrate identical image reproduction. Thirty H&E-stained
+FFPE glass slides from various organs and tissue types were used in this test. The slides were
+scanned with the PIPS UFS, and each slide image was read by a qualified pathologist to choose
+three regions of interest (ROIs) that included relevant, biologically representative anatomical
+features. Each ROI was selected with the relevant features placed at the center at magnification
+levels 20x and 40x. A total of 180 ROIs were made available for both PIPS IMS and Novo to
+display on the screen using the default settings.
+Cypress, a JavaScript-based end-to-end testing framework, was used to capture the screenshots.
+The Cypress built-in screenshot functionality captured the image sized 1458 pixels by 897 pixels
+by specifying the HTML canvas element that was displayed. The captured screenshots were then
+aligned and converted to RGB pixel data using the python imaging library Pillow.
+The RGB pixel data was bound to the sRGB color space and converted to the CIELAB color
+space. The color difference of each corresponding pixel-pair was calculated using the
+CIEDE2000 (ΔE ) formula for further analysis.
+00
+For each ROI, the ΔE histogram was calculated as well as its cumulative distribution function,
+00
+which allows for observation of many statistical results such as maximum ΔE , minimum ΔE ,
+00 00
+99-percentile, 4-ΔE , area-over-the-curve, etc.
+00
+Test results show that the color differences (ΔE00) between Novo and PIPS/IMS are not zero.
+Test results are shown in Table 3 below.
+K212361 - Page 6 of 9
+
+--- Page 7 ---
+Table 3: Pixel-Wise Comparison Test Results
+Statistical Results ΔE00 Value (n=180)
+Minimum Mean 0.50
+Maximum Mean 1.97
+Average Mean 1.10
+Minimum Median 0.46
+Maximum Median 1.61
+Average Median 0.93
+Further, testing was conducted to compare Novo-generated images with JPEG-compressed
+PIPS/IMS-generated images. Test results show that the Novo-generated images are similar to
+PIPS/IMS-generated images that had been JPEG-compressed at quality 95.
+Based on the findings from bench testing, an additional clinical study was performed to establish
+the safety and effectiveness of the device.
+b. Clinical Study
+A clinical study was conducted to demonstrate that viewing, reviewing, and diagnosing WSIs of
+H&E stained FFPE tissue slides using Novo [manual digital read (MD)] is non-inferior to glass
+slide reads using optical (light) microscopy [manual optical (MO)]. The primary endpoint of the
+study was the difference in major discordance rates between MD and MO when compared to the
+reference (main) diagnosis, which was the original sign-out pathologic diagnosis using MO
+[ground truth, (GT)] rendered at the institution.
+This study included 264 cases which were representative of the breadth and range of organs,
+sample types and diagnosis including challenging diagnoses in histopathology. Study cases
+included one representative H&E slide per case. Slides were scanned using the FDA cleared
+Philips UFS at 40x magnification at one site and reviewed by the study pathologists at their
+individual sites using the Novo device and a Barco PP27QHD monitor, as specified by Phillips
+UFS and Novo IFU. Images were checked for image quality according to scanner instructions
+before upload to the platform.
+Three (3) pathologists read all cases which were deidentified, using MD and MO with a washout
+of two (2) weeks in between the MD and MO. All 3 reading pathologists read the slides for all
+cases at their individual sites using both MD and MO. The reading pathologists were provided
+with 3 batches of slides. A case report form (CRF) was completed to document the reading
+pathologist’s diagnosis for each batch, and each read (MD and MO). Reads from both modalities
+(MD or MO) were adjudicated by one independent pathologist who was not part of the study to
+determine agreement with the GT and to each other, using standardized pre-defined definitions
+of harm as follows: 1) concordant, 2) major discordant or 3) minor discordant.
+The primary endpoint was to demonstrate that the proportion of major discordances between
+diagnosis based on MD and GT diagnosis is no worse than 0.04 above the proportion of major
+discordances between diagnosis based on MO and GT. The secondary endpoint was to show the
+observed proportion of concordances between diagnosis based on glass slides and WSI is at least
+95%.
+K212361 - Page 7 of 9
+
+[Table 1 on page 7]
+	Statistical Results			ΔE00 Value (n=180)	
+Minimum Mean			0.50		
+Maximum Mean			1.97		
+Average Mean			1.10		
+Minimum Median			0.46		
+Maximum Median			1.61		
+Average Median			0.93		
+
+--- Page 8 ---
+Of the 264 cases, one slide was not available for scanning due to breakage and was excluded
+from both primary and secondary analysis; a second slide was marked as “adjudication not
+available” and was excluded from primary analysis; a third slide was excluded from both
+analysis since the slide ID was not confirmed by one of the pathologists. Therefore, the primary
+analysis included 261 cases and the secondary analysis included 262 cases.
+The differences in major discordance rates between MD and GT compared to MO and GT were -
+0.1% (95% CI, -2.05, 1.78) for all organs as shown in Table 4 below. The upper limit of the CI
+for the major discordance rate was 1.78%, which is less than the prespecified noninferiority
+threshold of 4%, therefore meeting the primary objective of the study.
+Table 4: Clinical Study Results Based on Major Discordance Rates, all organs
+Modality (n/N) Discordance 95% CI (%)
+Rate (%)
+MO vs GT (132/783) 16.9 (13.05, 20.79)
+MD vs GT (131/783) 16.7 (12.86, 20.64)
+Difference -0.1 (-2.05, 1.78)
+Secondary analysis (Table 5 below) showed the observed proportion of concordances between
+diagnosis based on MO and MD was 95.7%, which surpasses the secondary objective of
+concordance between MO and MD of at least 95%.
+Table 5: Concordance Rate Between MO and MD
+Modality (n/N) Concordance Rate (%) Bootstrap 95% CI
+MO vs MD (752/786) 95.7 (93.74, 97.35)
+The major discordance rate between MO and MD by organ is shown in Table 6 below.
+Table 6: Major Discordance Rates by Organ and Modality
+Major discordance rate
+Organ Type Manual digital (MD) Manual optical (MO) Difference%
+% (n/N) % (n/N) (MD – MO)
+Adrenal 0 (0/3) 0 (0/3) 0
+Anus 6.06 (2/33) 9.09 (3/33) -3.03
+Bladder 45.83 (11/24) 45.83 (11/24) 0
+Brain/Neuro 16.67 (1/6) 0 (0/6) 16.67
+Breast 28.33 (34/120) 25.83 (34/120) 2.5
+Colon 13.58 (11/81) 11.11 (9/81) 2.47
+Esophagus/GE Junction 21.21 (7/33) 12.12 (4/33) 9.09
+Gynecological/Ovary 20 (3/15) 20 (3/15) 0
+Kidney/Neoplastic 0 (0/21) 0 (0/21) 0
+K212361 - Page 8 of 9
+
+[Table 1 on page 8]
+Modality	(n/N)	Discordance	95% CI (%)
+		Rate (%)	
+MO vs GT	(132/783)	16.9	(13.05, 20.79)
+MD vs GT	(131/783)	16.7	(12.86, 20.64)
+Difference		-0.1	(-2.05, 1.78)
+
+[Table 2 on page 8]
+Modality	(n/N)	Concordance Rate (%)	Bootstrap 95% CI
+			
+MO vs MD	(752/786)	95.7	(93.74, 97.35)
+
+[Table 3 on page 8]
+	Major discordance rate		
+Organ Type	Manual digital (MD)	Manual optical (MO)	Difference%
+	% (n/N)	% (n/N)	(MD – MO)
+Adrenal	0 (0/3)	0 (0/3)	0
+Anus	6.06 (2/33)	9.09 (3/33)	-3.03
+Bladder	45.83 (11/24)	45.83 (11/24)	0
+Brain/Neuro	16.67 (1/6)	0 (0/6)	16.67
+Breast	28.33 (34/120)	25.83 (34/120)	2.5
+Colon	13.58 (11/81)	11.11 (9/81)	2.47
+Esophagus/GE Junction	21.21 (7/33)	12.12 (4/33)	9.09
+Gynecological/Ovary	20 (3/15)	20 (3/15)	0
+Kidney/Neoplastic	0 (0/21)	0 (0/21)	0
+
+--- Page 9 ---
+Major discordance rate
+Organ Type Manual digital (MD) Manual optical (MO) Difference%
+% (n/N) % (n/N) (MD – MO)
+Liver/BD 0 (0/6) 0 (0/6) 0
+Lymph Node 0 (0/24) 4.17 (1/24) -4.17
+Oral Cavity 3.03 (1/33) 3.03 (1/33) 0
+Pancreas 16.67 (2/12) 16.67 (2/12) 0
+Prostate 19.81 (41/207) 22.22 (46/207) -2.42
+Respiratory 0 (0/36) 0 (0/36) 0
+Salivary Gland 0 (0/6) 0 (0/6) 0
+Skin 9.72 (7/72) 13.89 (10/72) -4.17
+Soft Tissue (Tumors) 20 (3/15) 20 (3/15) 0
+Stomach 6.67 (1/15) 6.67 (1/15) 0
+Thyroid 33.33 (7/21) 33.33 (7/21) 0
+Overall, these results demonstrate that the PathAI Novo image viewer is safe and effective when
+used by pathologists for primary diagnoses purposes.
+c. Turnaround Time for the image to be fully loaded while opening a slide for
+panning/zooming
+Turnaround time (TAT) testing was performed for WSI file processing and DZI loading,
+panning, and zooming in the subject device. The subject device demonstrated acceptable
+turnaround time with respect to its intended use for opening the first image and panning and
+zooming within the image.
+d. Human Factors testing
+Human factors study designed around critical user tasks and use scenarios performed by
+representative users were conducted. A systematic evaluation of task-based usability including
+critical tasks required for operation of the device were evaluated at multiple sites using multiple
+users. All tasks associated with reviewing and reporting results for cases including confirmation
+that all slides belonging to specific cases are reviewed before reporting results, were included in
+the study. Overall, the results of the human factors testing are acceptable.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K212361 - Page 9 of 9
+
+[Table 1 on page 9]
+	Major discordance rate		
+Organ Type	Manual digital (MD)	Manual optical (MO)	Difference%
+	% (n/N)	% (n/N)	(MD – MO)
+Liver/BD	0 (0/6)	0 (0/6)	0
+Lymph Node	0 (0/24)	4.17 (1/24)	-4.17
+Oral Cavity	3.03 (1/33)	3.03 (1/33)	0
+Pancreas	16.67 (2/12)	16.67 (2/12)	0
+Prostate	19.81 (41/207)	22.22 (46/207)	-2.42
+Respiratory	0 (0/36)	0 (0/36)	0
+Salivary Gland	0 (0/6)	0 (0/6)	0
+Skin	9.72 (7/72)	13.89 (10/72)	-4.17
+Soft Tissue (Tumors)	20 (3/15)	20 (3/15)	0
+Stomach	6.67 (1/15)	6.67 (1/15)	0
+Thyroid	33.33 (7/21)	33.33 (7/21)	0

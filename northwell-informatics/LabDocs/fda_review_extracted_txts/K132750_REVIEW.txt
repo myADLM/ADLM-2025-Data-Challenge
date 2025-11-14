@@ -1,0 +1,2940 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K132750
+B. Purpose for Submission:
+New device
+C. Measurand:
+Protein coding regions and intron/exon boundaries of the cystic fibrosis transmembrane
+conductance gene regulator (CFTR) gene
+D. Type of Test:
+High-throughput, Targeted DNA Sequencing
+E. Applicant:
+Illumina, Inc.
+F. Proprietary and Established Names:
+Illumina MiSeqDx Cystic Fibrosis Clinical Sequencing Assay
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 866.5900 CFTR (cystic fibrosis transmembrane conductance regulatory) gene
+mutation detection system
+2. Classification:
+Class II
+3. Product code:
+PFS, System, Cystic Fibrosis Transmembrane Conductance Regulator Gene, Variant
+Gene Sequence Detection
+1
+
+--- Page 2 ---
+4. Panel:
+Immunology (82)
+H. Intended Use:
+1. Intended use(s):
+The Illumina MiSeqDxTM Cystic Fibrosis Clinical Sequencing Assay is a targeted
+sequencing in vitro diagnostic system that re-sequences the protein coding regions and
+intron/exon boundaries of the Cystic Fibrosis Transmembrane Conductance Regulator
+(CFTR) gene in genomic DNA isolated from human peripheral whole blood specimens
+collected in K EDTA. The test detects single nucleotide variants, and small InDels within
+2
+the region sequenced, and additionally reports on two deep intronic mutations and two
+large deletions. The test is intended to be used on the Illumina MiSeqDx Instrument. The
+test is intended to be used as an aid in the diagnosis of individuals with suspected cystic
+fibrosis (CF). The test is most appropriate when the patient has an atypical or non-classic
+presentation of CF or when other mutation panels have failed to identify both causative
+mutations. The results of the test are intended to be interpreted by a board-certified
+clinical molecular geneticist or equivalent and should be used in conjunction with other
+available information including clinical symptoms, other diagnostic tests, and family
+history. This test is not indicated for use for stand-alone diagnostic purposes, fetal
+diagnostic testing, for pre-implantation testing, carrier screening, newborn screening, or
+population screening.
+2. Indication(s) for use:
+Same as intended use
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+Illumina MiSeqDx Instrument using the following software versions: MOS v1.0.27; RTA
+v1.16.18; MSR v2.2.30; IWM v1.0.14; UMS v1.0.0.5; MTS v1.0.7; Reference Genome
+File v1.1; Recipe Fragments File v1.0.0; and Manifest File Revision B.
+I. Device Description:
+The Illumina MiSeqDx Cystic Fibrosis Clinical Sequencing Assay consists of library
+preparation and sample indexing reagents, sequencing reagents and consumables,
+MiSeqDx instrument and data analysis software. A total of 5203 base pairs are sequenced
+in this assay. The assay additionally reports on the PolyT/PolyTG region in intron 9 and 2
+large deletions (CFTRdele2,3 and CFTRdele22,23), bringing the total number of callable
+positions to 5206.
+2
+
+--- Page 3 ---
+The following is a description of the assay coverage using human genome build 19
+(hg19) as the reference sequence.
+Table 1. Regions of the CFTR gene sequenced by the assay
+hg19 Genomic hg19 Genomic
+Length
+CFTR Exon coordinate start coordinate stop
+(base pair)
+(chr7) (chr7)
+CFTR_Exon 1 117120041 117120211 171
+CFTR_Exon 2 117144297 117144427 131
+CFTR_Exon 3 117149078 117149206 129
+CFTR_Exon 4 117170943 117171178 236
+CFTR_Exon 5 117174320 117174429 110
+CFTR_Exon 6 117175292 117175475 184
+CFTR_Exon 7^ 117176597 117176737 141
+CFTR_Exon 8 117180144 117180410 267
+CFTR_Exon 9 117182060 117182172 113
+CFTR_Exon 10^ 117188690 117188887 198
+CFTR_Exon 11 117199508 117199719 212
+CFTR_Exon 12 117227783 117227897 115
+CFTR_Intron 12* 117229516 117229526 11
+CFTR_Exon 13 117230397 117230503 107
+CFTR_Exon 14 117231978 117232721 744
+CFTR_Exon 15 117234974 117235122 149
+CFTR_Exon 16 117242870 117242927 58
+CFTR_Exon 17 117243576 117243846 271
+CFTR_Exon 18 117246718 117246817 100
+CFTR_Exon 19 117250563 117250733 171
+CFTR_Exon 20 117251605 117251872 268
+CFTR_Exon 21 117254657 117254777 121
+CFTR_Exon 22 117267566 117267834 269
+CFTR_Intron 22* 117280010 117280020 11
+CFTR_Exon 23 117282482 117282657 176
+CFTR_Exon 24 117292886 117292995 110
+CFTR_Exon 25 117304732 117304924 193
+CFTR_Exon 26 117305503 117305628 126
+CFTR_Exon 27 117306952 117307262 311
+Total Bases 5203
+^For Exon 7 and Exon 10, only 5nt of flanking intronic sequence is included
+upstream of the exon. This is to avoid homopolymeric stretches in these regions. In
+the case of Exon 10, this is the PolyT/Poly TG region in Intron 9. This region is
+3
+
+[Table 1 on page 3]
+CFTR Exon	hg19 Genomic
+coordinate start
+(chr7)	hg19 Genomic
+coordinate stop
+(chr7)	Length
+(base pair)
+CFTR_Exon 1	117120041	117120211	171
+CFTR_Exon 2	117144297	117144427	131
+CFTR_Exon 3	117149078	117149206	129
+CFTR_Exon 4	117170943	117171178	236
+CFTR_Exon 5	117174320	117174429	110
+CFTR_Exon 6	117175292	117175475	184
+CFTR_Exon 7^	117176597	117176737	141
+CFTR_Exon 8	117180144	117180410	267
+CFTR_Exon 9	117182060	117182172	113
+CFTR_Exon 10^	117188690	117188887	198
+CFTR_Exon 11	117199508	117199719	212
+CFTR_Exon 12	117227783	117227897	115
+CFTR_Intron 12*	117229516	117229526	11
+CFTR_Exon 13	117230397	117230503	107
+CFTR_Exon 14	117231978	117232721	744
+CFTR_Exon 15	117234974	117235122	149
+CFTR_Exon 16	117242870	117242927	58
+CFTR_Exon 17	117243576	117243846	271
+CFTR_Exon 18	117246718	117246817	100
+CFTR_Exon 19	117250563	117250733	171
+CFTR_Exon 20	117251605	117251872	268
+CFTR_Exon 21	117254657	117254777	121
+CFTR_Exon 22	117267566	117267834	269
+CFTR_Intron 22*	117280010	117280020	11
+CFTR_Exon 23	117282482	117282657	176
+CFTR_Exon 24	117292886	117292995	110
+CFTR_Exon 25	117304732	117304924	193
+CFTR_Exon 26	117305503	117305628	126
+CFTR_Exon 27	117306952	117307262	311
+Total Bases			5203
+
+--- Page 4 ---
+treated separately.
+*For the deep intronic mutations, 5 nucleotides flanking the SNV on either side are
+also included.
+The assay is designed in a single configuration for 6 runs of 48 samples per kit. The
+reagent cartridge, flow cell, SBS solution, and filter plates are designed for single use.
+The assay components are divided into 8 separate boxes, based on amplification stage
+(pre- or post-amplification) and storage conditions, and include the following
+components:
+Quantity per kit Volume
+Box 1A Pre-Amplification Reagents
+CF Clinical Sequencing Assay Oligo Pool 1 tube 600 µL
+Hybridization Buffer 1 tube 4.32 mL
+Extension-Ligation Mix 1 tube 4.8 mL
+Index Primers C (A503), D (A504), and E (A505) 1 tube per primer 192 µL
+Index Primers 1 (A701), 2 (A702), and 10 (A710) 1 tube per primer 128 µL
+PCR Polymerase 1 tube 56 µL
+PCR Master Mix 1 tube 2.8 mL
+Box 1B Post-Amp Reagents
+Library Normalization Diluent 1 tube 4.6 mL
+Library Dilution Buffer 1 tube 4.5 mL
+PhiX Internal Control 1 tube 10 µL
+Box 2 Post-Amp Reagents
+MiSeqDx Reagent Cartridge – CF Clinical Sequencing Assay 6 cartridges 1 cartridge
+Box 3A Pre-Amp Reagents
+Stringent Wash Buffer 1 bottle 24 mL
+Universal Wash Buffer 1 tube 4.8 mL
+Box 3B Post-Amp Reagents
+PCR Clean-Up Beads 1 tube 5 mL
+Library Normalization Wash 6 tubes 4.8 mL
+Library Beads 1 tube 1.2 mL
+MiSeqDx Flow Cell – CF Clinical Sequencing Assay 6 containers 1 flow cell
+Box 4 Post-Amp Reagents
+MiSeqDx SBS Solution (PR2) – CF Clinical Sequencing Assay 6 bottles 353.1 mL
+Box 5 Pre-Amp Reagents
+Filter Plate 6 plates N/A
+Box 5 Post-Amp Reagents
+Elution Buffer 1 tube 4.8 mL
+Library Storage Buffer 1 tube 3.5 mL
+A brief description of some of the primary components is listed below:
+· CF Clinical Sequencing Oligo Pools: Oligonucleotides specific for the genomic
+4
+
+[Table 1 on page 4]
+	Quantity per kit	Volume
+Box 1A Pre-Amplification Reagents		
+CF Clinical Sequencing Assay Oligo Pool	1 tube	600 µL
+Hybridization Buffer	1 tube	4.32 mL
+Extension-Ligation Mix	1 tube	4.8 mL
+Index Primers C (A503), D (A504), and E (A505)	1 tube per primer	192 µL
+Index Primers 1 (A701), 2 (A702), and 10 (A710)	1 tube per primer	128 µL
+PCR Polymerase	1 tube	56 µL
+PCR Master Mix	1 tube	2.8 mL
+Box 1B Post-Amp Reagents		
+Library Normalization Diluent	1 tube	4.6 mL
+Library Dilution Buffer	1 tube	4.5 mL
+PhiX Internal Control	1 tube	10 µL
+Box 2 Post-Amp Reagents		
+MiSeqDx Reagent Cartridge – CF Clinical Sequencing Assay	6 cartridges	1 cartridge
+Box 3A Pre-Amp Reagents		
+Stringent Wash Buffer	1 bottle	24 mL
+Universal Wash Buffer	1 tube	4.8 mL
+Box 3B Post-Amp Reagents		
+PCR Clean-Up Beads	1 tube	5 mL
+Library Normalization Wash	6 tubes	4.8 mL
+Library Beads	1 tube	1.2 mL
+MiSeqDx Flow Cell – CF Clinical Sequencing Assay	6 containers	1 flow cell
+Box 4 Post-Amp Reagents		
+MiSeqDx SBS Solution (PR2) – CF Clinical Sequencing Assay	6 bottles	353.1 mL
+Box 5 Pre-Amp Reagents		
+Filter Plate	6 plates	N/A
+Box 5 Post-Amp Reagents		
+Elution Buffer	1 tube	4.8 mL
+Library Storage Buffer	1 tube	3.5 mL
+
+--- Page 5 ---
+regions targeted by the test. For each region, there is an upstream locus specific
+oligonucleotide and a downstream locus specific oligonucleotide
+· Extension-Ligation Mix: Buffer containing DNA polymerase and DNA ligase, which
+is applied to the sample on the filter plate and catalyzes the connection of the
+upstream locus specific oligonucleotide to the downstream locus specific
+oligonucleotide
+· PCR Master Mix: Contains all of the components required for PCR amplification
+except for PCR primers and DNA polymerase
+· Index PCR Primers: three (3) i7 and three (3) i5 index PCR primers for universal
+amplification of the ligated products. These primers incorporate P5 and P7 sequences,
+which are complementary to the sequences of the capture oligonucleotides attached to
+the flow cell. These primers also incorporate a sample specific sequence tag that is
+required to pool 8 samples into a single flow cell/MiSeq run.
+· AMPure XP beads: Streptavidin coated magnetic beads used to capture the PCR
+product for removal of unincorporated primers and nucleotides.
+· Library Normalization Diluent/Library Breads: Allow for bead-based normalization
+of the amount of PCR product produced across different samples.
+· MiSeq Reagent Cartridge: Pre-filled, single use reagent cartridge which contains the
+reagents required for cluster generation and SBS sequencing. The pooled libraries are
+added to the cartridge which is then inserted into the MiSeq instrument. The
+components of the Reagent Cartridge are as follows:
+o Incorporation Mix: Contains DNA polymerase, fluorescently labeled
+nucleotides and buffer used for incorporation of reversible terminator
+nucleotide during SBS reaction
+o Scan Mix: Contains buffers to flush out unincorporated fluorescently labeled
+nucleotides in order to facilitate scanning of the clusters during the SBS
+reaction
+o Cleavage Mix: Contains buffers and enzyme that removes the terminator and
+fluorescent signal from incorporated fluorescently labeled nucleotide, which
+allows the incorporation of additional nucleotides in later rounds of the SBS
+reaction
+o Amplification Mix: Contains buffer, DNA polymerase, and unlabeled
+nucleotides that are used to bridge amplify the prepared library during the
+cluster generation process
+o Amplification Mix for Read 2
+o Linearization Pre-mix
+o Formamide
+o Linearization Mix 1: Contains enzyme and buffer required to linearize the first
+read clusters in preparation for their use in the SBS reaction
+o Linearization Mix 2
+o Resynthesis Mix: Contains enzyme and buffer for the synthesis of reads
+during the cluster generation process
+o SBS Primer for Read 1
+o SBS Primer for Indexing Read
+o SBS Primer for Read 2
+o Water
+5
+
+--- Page 6 ---
+· Flow Cell: Single-use glass substrate with covalently bound oligonucleotides for
+capture and solid phase amplification and SBS sequencing of the targets created
+during library preparation
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Luminex xTAG Cystic Fibrosis 60 Kit v2
+2. Predicate 510(k) number(s):
+k083845
+3. Comparison with predicate:
+Similarities
+Item New Device Predicate
+MiSeqDx CF Clinical Sequencing Luminex xTAG Cystic
+Assay Fibrosis 60 Kit v2
+Indication for Use The test is intended to be used as Same
+an aid in the diagnosis of
+individuals with suspected cystic
+fibrosis (CF).
+Specimen Type Genomic DNA isolated from Same
+peripheral whole blood
+Anticoagulant EDTA EDTA or citrate
+Nucleic Acid DNA extraction using validated Same
+Extraction laboratory method
+Differences
+Item New Device Predicate
+MiSeqDx CF Clinical Sequencing Luminex xTAG Cystic
+Assay Fibrosis 60 Kit v2
+Intended Use The Illumina MiSeqDx(TM) The xTAG® Cystic Fibrosis
+Cystic Fibrosis Clinical 60 kit v2 is a device used to
+Sequencing Assay is a targeted simultaneously detect and
+sequencing in vitro diagnostic identify a panel of
+system that re-sequences the mutations and variants in
+protein coding regions and the cystic fibrosis
+intron/exon boundaries of the transmembrane
+Cystic Fibrosis Transmembrane conductance regulator
+Conductance Regulator (CFTR) (CFTR) gene in human
+gene in genomic DNA isolated blood specimens. The
+6
+
+[Table 1 on page 6]
+Similarities							
+Item			New Device			Predicate	
+			MiSeqDx CF Clinical Sequencing			Luminex xTAG Cystic	
+			Assay			Fibrosis 60 Kit v2	
+Indication for Use		The test is intended to be used as
+an aid in the diagnosis of
+individuals with suspected cystic
+fibrosis (CF).			Same		
+Specimen Type		Genomic DNA isolated from
+peripheral whole blood			Same		
+Anticoagulant		EDTA			EDTA or citrate		
+Nucleic Acid
+Extraction		DNA extraction using validated
+laboratory method			Same		
+
+[Table 2 on page 6]
+Differences		
+Item	New Device	Predicate
+Luminex xTAG Cystic
+Fibrosis 60 Kit v2
+	MiSeqDx CF Clinical Sequencing	
+	Assay	
+Intended Use	The Illumina MiSeqDx(TM)
+Cystic Fibrosis Clinical
+Sequencing Assay is a targeted
+sequencing in vitro diagnostic
+system that re-sequences the
+protein coding regions and
+intron/exon boundaries of the
+Cystic Fibrosis Transmembrane
+Conductance Regulator (CFTR)
+gene in genomic DNA isolated	The xTAG® Cystic Fibrosis
+60 kit v2 is a device used to
+simultaneously detect and
+identify a panel of
+mutations and variants in
+the cystic fibrosis
+transmembrane
+conductance regulator
+(CFTR) gene in human
+blood specimens. The
+
+--- Page 7 ---
+Differences
+Item New Device Predicate
+MiSeqDx CF Clinical Sequencing Luminex xTAG Cystic
+Assay Fibrosis 60 Kit v2
+from human peripheral whole panel includes mutations
+blood specimens collected in and variants currently
+K2EDTA. The test detects single recommended by the
+nucleotide variants, and small American College of
+InDels within the region Medical Genetics and
+sequenced, and additionally American College of
+reports on two deep intronic Obstetricians and
+mutations and two large deletions. Gynecologists
+The test is intended to be used on (ACMG/ACOG) plus some
+the Illumina MiSeqDx Instrument. of the world’s most
+The test is intended to be used as common and North
+an aid in the diagnosis of American prevalent
+individuals with suspected cystic mutations. The xTAG
+fibrosis (CF). The test is most Cystic Fibrosis 60 kit v2 is
+appropriate when the patient has a qualitative genotyping
+an atypical or non-classic test which provides
+presentation of CF or when other information intended to be
+mutation panels have failed to used for carrier testing in
+identify both causative mutations. adults of reproductive age,
+The results of the test are intended as an aid in newborn
+to be interpreted by a board- screening, and in
+certified clinical molecular confirmatory diagnostic
+geneticist or equivalent and should testing in newborns and
+be used in conjunction with other children.
+available information including
+clinical symptoms, other
+diagnostic tests, and family
+history.
+Uses for which the Test Not indicated for stand-alone Not indicated for fetal
+is Not Indicated diagnostic purposes, fetal diagnostic testing, pre-
+diagnostic testing, for pre- implantation testing, or for
+implantation testing, carrier stand-alone diagnostic
+screening, newborn screening, or purposes
+population screening
+Interpretation of Intended to be interpreted by a Specialized interpretation
+Results board-certified clinical molecular not required
+geneticist or equivalent
+Assay Type High-throughput targeted Qualitative nucleic acid
+amplicon-based sequencing multiplex test
+Variants Detected Single nucleotide variants and 60 CFTR mutations and 4
+small indels (<3 bp) from the variants (benign
+protein coding regions and polymorphisms)
+7
+
+[Table 1 on page 7]
+Differences		
+Item	New Device	Predicate
+	MiSeqDx CF Clinical Sequencing	Luminex xTAG Cystic
+	Assay	Fibrosis 60 Kit v2
+	from human peripheral whole
+blood specimens collected in
+K2EDTA. The test detects single
+nucleotide variants, and small
+InDels within the region
+sequenced, and additionally
+reports on two deep intronic
+mutations and two large deletions.
+The test is intended to be used on
+the Illumina MiSeqDx Instrument.
+The test is intended to be used as
+an aid in the diagnosis of
+individuals with suspected cystic
+fibrosis (CF). The test is most
+appropriate when the patient has
+an atypical or non-classic
+presentation of CF or when other
+mutation panels have failed to
+identify both causative mutations.
+The results of the test are intended
+to be interpreted by a board-
+certified clinical molecular
+geneticist or equivalent and should
+be used in conjunction with other
+available information including
+clinical symptoms, other
+diagnostic tests, and family
+history.	panel includes mutations
+and variants currently
+recommended by the
+American College of
+Medical Genetics and
+American College of
+Obstetricians and
+Gynecologists
+(ACMG/ACOG) plus some
+of the world’s most
+common and North
+American prevalent
+mutations. The xTAG
+Cystic Fibrosis 60 kit v2 is
+a qualitative genotyping
+test which provides
+information intended to be
+used for carrier testing in
+adults of reproductive age,
+as an aid in newborn
+screening, and in
+confirmatory diagnostic
+testing in newborns and
+children.
+Uses for which the Test
+is Not Indicated	Not indicated for stand-alone
+diagnostic purposes, fetal
+diagnostic testing, for pre-
+implantation testing, carrier
+screening, newborn screening, or
+population screening	Not indicated for fetal
+diagnostic testing, pre-
+implantation testing, or for
+stand-alone diagnostic
+purposes
+Interpretation of
+Results	Intended to be interpreted by a
+board-certified clinical molecular
+geneticist or equivalent	Specialized interpretation
+not required
+Assay Type	High-throughput targeted
+amplicon-based sequencing	Qualitative nucleic acid
+multiplex test
+Variants Detected	Single nucleotide variants and
+small indels (<3 bp) from the
+protein coding regions and	60 CFTR mutations and 4
+variants (benign
+polymorphisms)
+
+--- Page 8 ---
+Differences
+Item New Device Predicate
+MiSeqDx CF Clinical Sequencing Luminex xTAG Cystic
+Assay Fibrosis 60 Kit v2
+intron/exon boundaries of the
+CFTR gene, including two deep
+intronic mutations and two large
+deletions
+Technology High-throughput, Targeted DNA Multiplex PCR followed by
+Sequencing, Sequencing by multiplex allele specific
+Synthesis (SBS). Reversible primer extension for
+terminator-based method to detect genotyping, hybridized to
+single bases as they are multiplex fluorescent
+incorporated into growing DNA microparticles, and run on
+strands. Fluorescently-labeled fluidic microbead reader
+terminators are detected using a which includes a dual-color
+dual-color laser. Base calls are laser detection system that
+made directly from signal intensity enables optical scanning by
+measurements during each flow cytometry.
+sequencing cycle.
+Instrument System MiSeqDx Luminex 100 or 200 IS
+K. Standard/Guidance Document Referenced (if applicable):
+Guidance for Industry and FDA Staff: Class II Special Controls Guidance Document: CFTR
+(Cystic Fibrosis Transmembrane Conductance Regulator) Gene Mutation Detection Systems;
+October 26, 2005
+Guidance for Industry and FDA Staff: Guidance for the Content of Premarket Submissions
+for Software Contained in Medical Devices; May 11, 2005
+General Principles of Software Validation; Final Guidance for Industry and FDA Staff;
+January 11, 2002
+Guidance for Industry - Cybersecurity for Networked Medical Devices Containing Off-the-
+Shelf (OTS) Software; January 14, 2005
+Guidance for Industry, FDA Reviewers and Compliance on Off-the-Shelf Software Use in
+Medical Devices; September 9, 1999
+CLSI Standard EP05-A2, Evaluation of Precision Performance of Quantitative Measurement
+Methods; Approved Guideline – Second Edition.
+CLSI Standard EP07-A3, Interference Testing in Clinical Chemistry, Approved Guideline –
+Third Edition.
+8
+
+[Table 1 on page 8]
+Differences		
+Item	New Device	Predicate
+	MiSeqDx CF Clinical Sequencing	Luminex xTAG Cystic
+	Assay	Fibrosis 60 Kit v2
+	intron/exon boundaries of the
+CFTR gene, including two deep
+intronic mutations and two large
+deletions	
+Technology	High-throughput, Targeted DNA
+Sequencing, Sequencing by
+Synthesis (SBS). Reversible
+terminator-based method to detect
+single bases as they are
+incorporated into growing DNA
+strands. Fluorescently-labeled
+terminators are detected using a
+dual-color laser. Base calls are
+made directly from signal intensity
+measurements during each
+sequencing cycle.	Multiplex PCR followed by
+multiplex allele specific
+primer extension for
+genotyping, hybridized to
+multiplex fluorescent
+microparticles, and run on
+fluidic microbead reader
+which includes a dual-color
+laser detection system that
+enables optical scanning by
+flow cytometry.
+Instrument System	MiSeqDx	Luminex 100 or 200 IS
+
+--- Page 9 ---
+CLSI Standard EP09-A2, Method Comparison and Bias Estimation Using Patient Samples,
+Approved Guideline – Second Edition.
+CLSI Standard EP12-A2, User Protocol for Evaluation of Qualitative Test Performance;
+Approved Guideline – Second Edition.
+CLSI Standard EP14-A2, Evaluation of Matrix Effects, Approved Guideline – Second
+Edition.
+CLSI Standard EP17-A, Protocols for the Determination of Limits of Detection and Limits of
+Quantification, Approved Guideline.
+CLSI Standard EP25-A, Evaluation of Stability on In Vitro Diagnostic Reagents, Approved
+Guideline.
+L. Test Principle:
+The Illumina MiSeqDx Cystic Fibrosis Clinical Sequencing Assay encompasses two main
+procedures. The first is to manually prepare the samples for sequencing, which is called
+library preparation. Library preparation consists of four key steps: Hybridization, Extension-
+Ligation, PCR Amplification, and Library Normalization. The first step, Hybridization,
+hybridizes a pool of upstream and downstream oligonucleotides specific to the MiSeqDx
+Cystic Fibrosis Clinical Sequencing Assay to the sample genomic DNA. At the end of this
+process a three-step wash procedure with a filter capable of size selection removes unbound
+oligonucleotides from the genomic DNA. The second step, Extension-Ligation, connects the
+hybridized upstream and downstream oligonucleotides. A DNA polymerase extends from the
+upstream oligonucleotides through the targeted region, followed by ligation to the 5’ end of
+the downstream oligonucleotide using a DNA ligase. The result is the formation of products
+that contain the CF specific oligonucleotides flanked by sequences required for amplification.
+The third step, PCR Amplification, amplifies the extension-ligated products using primers
+that add index sequences for sample multiplexing, as well as common adapters required for
+cluster generation on the MiSeqDx. At the end of this process, a PCR clean-up procedure
+purifies the PCR products (referred to as a library). The final step, Library Normalization,
+normalizes the quantity of each library to ensure more equal library representation in the final
+pooled library. At the end of this process, the pooled library is loaded onto the MiSeqDx for
+sequencing by Sequencing by Synthesis (SBS) chemistry.
+The second procedure is to sequence the prepared samples using SBS chemistry on the
+MiSeqDx. SBS chemistry uses a reversible-terminator method to detect single nucleotide
+bases as they are incorporated into growing DNA strands. During each sequencing cycle, a
+single fluorescently labeled deoxynucleotide triphosphate (dNTP) is added to the nucleic acid
+chain. The nucleotide label serves as a terminator for polymerization, so after each dNTP
+incorporation, the fluorescent dye is imaged to identify the base and then enzymatically
+cleaved to allow incorporation of the next nucleotide. Because all four reversible terminator-
+bound dNTPs (A, G, T, C) are present as single, separate molecules, natural competition
+minimizes incorporation bias. Base calls are made directly from signal intensity
+measurements during each sequencing cycle. The end result is base-by-base sequencing.
+9
+
+--- Page 10 ---
+The MiSeq Reporter software processes base calls generated during primary analysis and
+produces information about each sample based on information specified in the samples sheet,
+called secondary analysis. As described below, secondary analysis includes de-multiplexing,
+FASTQ file generation, alignment, variant calling, and generation of VCF files containing
+information about CFTR variants found at specific positions. De-multiplexing separates data
+from pooled samples based upon the unique sequence indexes that were added during the
+PCR amplification step. The FASTQ format is a text format used to represent sequences.
+FASTQ files contain the reads for each sample and the quality scores, excluding reads from
+any clusters that did not pass filter. Alignment compares sequences against the reference to
+identify a relationship between the sequences and assigns a score based on regions of
+similarity. Aligned reads are written to files in BAM format. MiSeq Reporter software uses a
+banded Smith-Waterman algorithm that performs local sequence alignments to determine
+similar regions between two sequences. Variant calling then records insertion and deletions
+(indels), and other structural variants in a standardized and parsable test file.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Reproducibility:
+The reproducibility of the MiSeqDx assay was evaluated at 3 external sites, by two
+operators at each site on 3 nonconsecutive days. The study included 2 sample panels
+consisting of mock blood and genomic DNA (gDNA) samples. The mock blood
+samples were created from leukocyte-depleted whole blood spiked with cell lines
+known to harbor a CFTR mutation. The gDNA samples were derived from cell lines
+with known CFTR variants. Panel A was comprised of 8 mock blood samples and 38
+gDNA samples. Panel B was comprised of 38 gDNA samples. A new sample library
+was prepared for each run. A total of 18 runs per panel were performed. There were
+16 duplicate samples between the 2 panels, giving a total of 76 unique samples of the
+total 92. Positive and negative control samples were included in each run.
+A positive percent agreement (PPA), negative percent agreement (NPA), and overall
+agreement (OA) were assessed. Sanger sequencing was used to identify the variants
+with the exception of the 2 large deletions that were verified using a validated PCR
+assay followed by sequencing of the resulting amplicons.
+There were 7 runs identified as invalid due to failed QC metrics and were re-run.
+Additionally, 5 samples failed QC metrics. These samples were not run again and
+results from these samples were considered non-matches at every position. Two of
+the samples had a 0% call rate, which upon further investigation, it was determined
+that the samples were not added when making up the library preparation. For the
+remaining samples, there were 63 discordant results between the assay and Sanger
+10
+
+--- Page 11 ---
+sequencing along the 5206 callable positions. Of these 39 were due to a no call by the
+assay. Of the remaining 24 discordant calls, 18 occurred in sample 80 and were for
+the PolyTG/PolyT region. The remaining 6 discordant results were miscalls occurring
+in a single run (i.e., disagreed with calls reported by the other 17 runs).
+Overall, the study achieved a genotype-level PPA of 99.2%, NPA of 99.7%, and OA
+of 99.7% which met all of the acceptance criteria for the study.
+Table 2 below represents the summary reproducibility results for observed variants,
+excluding the PolyTG/PolyT region, while the Table 3 summarizes the PolyTG/PolyT
+results. PPA, NPA, and OA were determined for all 5206 callable positions. However
+the variants observed are shown below for simplicity and because the majority of
+discordant results were in the context of variant detection, most notably in the
+PolyTG/PolyT region.
+Table 2: Reproducibility for Variants Observed in Sample Panel
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+1 c.1408G>A V470M 6 18 6 6 6 0 0 100
+1 c.1646G>A S549N 6 18 6 6 6 0 0 100
+1 c.2562T>G T854T 6 18 6 6 6 0 0 100
+2 c.1408G>A V470M 6 18 6 6 6 0 0 100
+2 c.1581A>G E527E 6 18 6 6 6 0 0 100
+2 c.1680-1G>A 1812-1 G>A 6 18 6 6 6 0 0 100
+2 c.2562T>G T854T 6 18 6 6 6 0 0 100
+2 c.312delA 444delA 6 18 6 6 6 0 0 100
+2 c.3870A>G P1290P 6 18 6 5 6 0 1 94.44
+2 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+3 c.1408G>A V470M 6 18 6 6 6 0 0 100
+3 c.1477C>T Q493X 6 18 6 6 6 0 0 100
+3 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+3 c.2562T>G T854T 6 18 6 6 6 0 0 100
+3 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+4 c.1408G>A V470M 6 18 5 6 6 1 0 94.44
+4 c.1521_1523delCTT F508del 6 18 5 6 6 1 0 94.44
+4 c.2052delA 2184delA 6 18 5 6 6 1 0 94.44
+5 c.1408G>A V470M 6 18 6 5 6 1¶ 0 94.44
+5 c.224G>A R75Q 6 18 6 5 6 1¶ 0 94.44
+5 c.2562T>G T854T 6 18 6 5 6 1¶ 0 94.44
+5 c.3472C>T R1158X 6 18 6 5 6 1¶ 0 94.44
+5 c.366T>A Y122X 6 18 6 5 6 1¶ 0 94.44
+11
+
+[Table 1 on page 11]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+1	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+1	c.1646G>A	S549N	6	18	6	6	6	0	0	100
+1	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+2	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+2	c.1581A>G	E527E	6	18	6	6	6	0	0	100
+2	c.1680-1G>A	1812-1 G>A	6	18	6	6	6	0	0	100
+2	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+2	c.312delA	444delA	6	18	6	6	6	0	0	100
+2	c.3870A>G	P1290P	6	18	6	5	6	0	1	94.44
+2	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+3	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+3	c.1477C>T	Q493X	6	18	6	6	6	0	0	100
+3	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+3	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+3	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+4	c.1408G>A	V470M	6	18	5	6	6	1	0	94.44
+4	c.1521_1523delCTT	F508del	6	18	5	6	6	1	0	94.44
+4	c.2052delA	2184delA	6	18	5	6	6	1	0	94.44
+5	c.1408G>A	V470M	6	18	6	5	6	1¶	0	94.44
+5	c.224G>A	R75Q	6	18	6	5	6	1¶	0	94.44
+5	c.2562T>G	T854T	6	18	6	5	6	1¶	0	94.44
+5	c.3472C>T	R1158X	6	18	6	5	6	1¶	0	94.44
+5	c.366T>A	Y122X	6	18	6	5	6	1¶	0	94.44
+
+--- Page 12 ---
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+5 c.625G>T A209S 6 18 6 5 6 1¶ 0 94.44
+6 c.1408G>A V470M 6 18 6 6 6 0 0 100
+6 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+c.2051_2052delAAins
+6 2183AA>G 6 18 6 6 6 0 0 100
+G
+7 c.1408G>A V470M 6 18 6 6 6 0 0 100
+7 c.223C>T R75X 6 18 6 6 6 0 0 100
+7 c.2562T>G T854T 6 18 6 6 6 0 0 100
+8 c.1408G>A V470M 6 18 6 6 6 0 0 100
+8 c.1519_1521delATC I507del 6 18 6 6 6 0 0 100
+8 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+8 c.2562T>G T854T 6 18 6 6 6 0 0 100
+8 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+9 c.1408G>A V470M 6 18 6 6 6 0 0 100
+9 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+9 c.2562T>G T854T 6 18 6 6 6 0 0 100
+9 c.3846G>A W1282X 6 18 6 5 6 0 1# 94.44
+9 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+10 c.1408G>A V470M 6 18 6 6 6 0 0 100
+10 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+10 c.2562T>G T854T 6 18 6 6 6 0 0 100
+10 c.3140-26A>G 3272-26A>G 6 18 6 5 6 0 1# 94.44
+10 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+11, 39 c.1408G>A V470M 12 36 12 12 12 0 0 100
+11, 39 c.1521_1523delCTT F508del 12 36 12 12 12 0 0 100
+11, 39 c.2002C>T R668C 12 36 12 12 12 0 0 100
+11, 39 c.2562T>G T854T 12 36 12 12 12 0 0 100
+11, 39 c.3717+12191C>T 3849+10kbC>T 12 36 12 12 12 0 0 100
+11, 39 c.4389G>A Q1463Q 12 36 12 12 12 0 0 100
+12, 40 c.1408G>A V470M 12 36 12 12 12 0 0 100
+12, 40 c.2562T>G T854T 12 36 12 12 12 0 0 100
+12, 40 c.2988+1G>A 3120+1G>A 12 36 12 12 12 0 0 100
+12, 40 c.4389G>A Q1463Q 12 36 12 12 12 0 0 100
+12, 40 c.489+1G>T 621+1G>T 12 36 12 12 12 0 0 100
+13 c.1408G>A V470M 6 18 6 6 6 0 0 100
+13 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+13 c.178G>T E60X 6 18 6 6 6 0 0 100
+13 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+14 c.1408G>A V470M 6 18 6 6 6 0 0 100
+12
+
+[Table 1 on page 12]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+5	c.625G>T	A209S	6	18	6	5	6	1¶	0	94.44
+6	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+6	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+6	c.2051_2052delAAins
+G	2183AA>G	6	18	6	6	6	0	0	100
+7	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+7	c.223C>T	R75X	6	18	6	6	6	0	0	100
+7	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+8	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+8	c.1519_1521delATC	I507del	6	18	6	6	6	0	0	100
+8	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+8	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+8	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+9	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+9	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+9	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+9	c.3846G>A	W1282X	6	18	6	5	6	0	1#	94.44
+9	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+10	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+10	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+10	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+10	c.3140-26A>G	3272-26A>G	6	18	6	5	6	0	1#	94.44
+10	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+11, 39	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+11, 39	c.1521_1523delCTT	F508del	12	36	12	12	12	0	0	100
+11, 39	c.2002C>T	R668C	12	36	12	12	12	0	0	100
+11, 39	c.2562T>G	T854T	12	36	12	12	12	0	0	100
+11, 39	c.3717+12191C>T	3849+10kbC>T	12	36	12	12	12	0	0	100
+11, 39	c.4389G>A	Q1463Q	12	36	12	12	12	0	0	100
+12, 40	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+12, 40	c.2562T>G	T854T	12	36	12	12	12	0	0	100
+12, 40	c.2988+1G>A	3120+1G>A	12	36	12	12	12	0	0	100
+12, 40	c.4389G>A	Q1463Q	12	36	12	12	12	0	0	100
+12, 40	c.489+1G>T	621+1G>T	12	36	12	12	12	0	0	100
+13	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+13	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+13	c.178G>T	E60X	6	18	6	6	6	0	0	100
+13	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+14	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+
+--- Page 13 ---
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+14 c.1584G>A E528E 6 18 6 6 6 0 0 100
+14 c.2562T>G T854T 6 18 6 6 6 0 0 100
+14 c.3302T>A M1101K 6 18 6 6 6 0 0 100
+15 c.1408G>A V470M 6 18 6 6 6 0 0 100
+15 c.1584G>A E528E 6 18 6 6 6 0 0 100
+15 c.2562T>G T854T 6 18 6 6 6 0 0 100
+15 c.3302T>A M1101K 6 18 6 6 6 0 0 100
+16 c.1408G>A V470M 6 18 6 6 6 0 0 100
+16 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+16 c.3080T>C I1027T 6 18 6 6 6 0 0 100
+17, 41 c.1408G>A V470M 12 36 12 12 12 0 0 100
+17, 41 c.1521_1523delCTT F508del 12 36 12 12 12 0 0 100
+17, 41 c.3528delC 3659delC 12 36 12 12 12 0 0 100
+18, 42 117120145 117120145 12 36 12 12 12 0 0 100
+18, 42 c.1408G>A V470M 12 36 12 12 12 0 0 100
+18, 42 c.1521_1523delCTT F508del 12 36 12 12 12 0 0 100
+18, 42 c.350G>A R117H 12 36 12 12 12 0 0 100
+19 c.1408G>A V470M 6 18 6 6 6 0 0 100
+19 c.489+1G>T 621+1G>T 6 18 6 6 6 0 0 100
+19 c.579+1G>T 711+1G>T 6 18 6 6 6 0 0 100
+20, 43 c.1408G>A V470M 12 36 12 12 12 0 0 100
+20, 43 c.254G>A G85E 12 36 12 12 12 0 0 100
+20, 43 c.489+1G>T 621+1G>T 12 36 12 12 12 0 0 100
+21, 44 c.1364C>A A455E 12 36 12 12 12 0 0 100
+21, 44 c.1408G>A V470M 12 36 12 12 12 0 0 100
+21, 44 c.1521_1523delCTT F508del 12 36 12 12 12 0 0 100
+22 c.1408G>A V470M 6 18 6 6 6 0 0 100
+22 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+22 c.1679G>C R560T 6 18 6 6 6 0 0 100
+22 c.2562T>G T854T 6 18 6 6 6 0 0 100
+22 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+23 c.1408G>A V470M 6 18 6 6 6 0 0 100
+23 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+23 c.3276C>A Y1092X (C>A) 6 18 6 6 6 0 0 100
+24, 45 c.1408G>A V470M 12 36 12 12 12 0 0 100
+24, 45 c.3909C>G N1303K 12 36 12 12 12 0 0 100
+24, 45 c.4046G>A G1349D 12 36 12 12 12 0 0 100
+25 c.1408G>A V470M 6 18 6 6 6 0 0 100
+25 c.1624G>T G542X 6 18 6 6 6 0 0 100
+13
+
+[Table 1 on page 13]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+14	c.1584G>A	E528E	6	18	6	6	6	0	0	100
+14	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+14	c.3302T>A	M1101K	6	18	6	6	6	0	0	100
+15	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+15	c.1584G>A	E528E	6	18	6	6	6	0	0	100
+15	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+15	c.3302T>A	M1101K	6	18	6	6	6	0	0	100
+16	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+16	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+16	c.3080T>C	I1027T	6	18	6	6	6	0	0	100
+17, 41	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+17, 41	c.1521_1523delCTT	F508del	12	36	12	12	12	0	0	100
+17, 41	c.3528delC	3659delC	12	36	12	12	12	0	0	100
+18, 42	117120145	117120145	12	36	12	12	12	0	0	100
+18, 42	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+18, 42	c.1521_1523delCTT	F508del	12	36	12	12	12	0	0	100
+18, 42	c.350G>A	R117H	12	36	12	12	12	0	0	100
+19	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+19	c.489+1G>T	621+1G>T	6	18	6	6	6	0	0	100
+19	c.579+1G>T	711+1G>T	6	18	6	6	6	0	0	100
+20, 43	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+20, 43	c.254G>A	G85E	12	36	12	12	12	0	0	100
+20, 43	c.489+1G>T	621+1G>T	12	36	12	12	12	0	0	100
+21, 44	c.1364C>A	A455E	12	36	12	12	12	0	0	100
+21, 44	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+21, 44	c.1521_1523delCTT	F508del	12	36	12	12	12	0	0	100
+22	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+22	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+22	c.1679G>C	R560T	6	18	6	6	6	0	0	100
+22	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+22	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+23	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+23	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+23	c.3276C>A	Y1092X (C>A)	6	18	6	6	6	0	0	100
+24, 45	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+24, 45	c.3909C>G	N1303K	12	36	12	12	12	0	0	100
+24, 45	c.4046G>A	G1349D	12	36	12	12	12	0	0	100
+25	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+25	c.1624G>T	G542X	6	18	6	6	6	0	0	100
+
+--- Page 14 ---
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+26 117120141 117120141 6 18 6 6 6 0 0 100
+26 c.1408G>A V470M 6 18 6 6 6 0 0 100
+26 c.1624G>T G542X 6 18 6 6 6 0 0 100
+27, 46 c.1408G>A V470M 12 36 12 12 12 0 0 100
+27, 46 c.1652G>A G551D 12 36 12 12 12 0 0 100
+27, 46 c.1657C>T R553X 12 36 12 12 12 0 0 100
+27, 46 c.2562T>G T854T 12 36 12 12 12 0 0 100
+27, 46 c.4389G>A Q1463Q 12 36 12 12 12 0 0 100
+28 c.1408G>A V470M 6 18 6 6 6 0 0 100
+28 c.2562T>G T854T 6 18 6 6 6 0 0 100
+28 c.3717+12191C>T 3849+10kbC>T 6 18 6 6 6 0 0 100
+28 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+29 c.1408G>A V470M 6 18 6 6 6 0 0 100
+29 c.2562T>G T854T 6 18 6 6 6 0 0 100
+29 c.91C>T R31C 6 18 6 6 6 0 0 100
+30 c.1408G>A V470M 6 18 6 6 6 0 0 100
+30 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+30 c.2562T>G T854T 6 18 6 6 6 0 0 100
+30 c.3485G>T R1162L 6 18 6 6 6 0 0 100
+30 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+31 c.1408G>A V470M 6 18 6 6 6 0 0 100
+31 c.1585-1G>A 1717-1G>A 6 18 6 6 6 0 0 100
+31 c.2562T>G T854T 6 18 6 6 6 0 0 100
+31 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+32 c.1408G>A V470M 6 18 6 6 6 0 0 100
+32 c.2562T>G T854T 6 18 6 6 6 0 0 100
+32 c.3484C>T R1162X 6 18 6 6 6 0 0 100
+32 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+33 c.1040G>C R347P 6 18 6 6 6 0 0 100
+33 c.1408G>A V470M 6 18 6 6 6 0 0 100
+33 c.1652G>A G551D 6 18 6 6 6 0 0 100
+33 c.2562T>G T854T 6 18 6 6 6 0 0 100
+33 c.4272C>T Y1424Y 6 18 6 6 6 0 0 100
+33 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+34 c.1000C>T R334W 6 18 6 6 6 0 0 100
+34 c.3368-2A>T c.3368-2A>T 6 18 6 6 6 0 0 100
+35 c.1523T>G F508C 6 18 6 6 6 0 0 100
+36 c.254G>A G85E 6 18 6 6 6 0 0 100
+36 c.3454G>C D1152H 6 18 6 6 6 0 0 100
+14
+
+[Table 1 on page 14]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+26	117120141	117120141	6	18	6	6	6	0	0	100
+26	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+26	c.1624G>T	G542X	6	18	6	6	6	0	0	100
+27, 46	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+27, 46	c.1652G>A	G551D	12	36	12	12	12	0	0	100
+27, 46	c.1657C>T	R553X	12	36	12	12	12	0	0	100
+27, 46	c.2562T>G	T854T	12	36	12	12	12	0	0	100
+27, 46	c.4389G>A	Q1463Q	12	36	12	12	12	0	0	100
+28	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+28	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+28	c.3717+12191C>T	3849+10kbC>T	6	18	6	6	6	0	0	100
+28	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+29	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+29	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+29	c.91C>T	R31C	6	18	6	6	6	0	0	100
+30	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+30	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+30	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+30	c.3485G>T	R1162L	6	18	6	6	6	0	0	100
+30	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+31	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+31	c.1585-1G>A	1717-1G>A	6	18	6	6	6	0	0	100
+31	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+31	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+32	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+32	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+32	c.3484C>T	R1162X	6	18	6	6	6	0	0	100
+32	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+33	c.1040G>C	R347P	6	18	6	6	6	0	0	100
+33	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+33	c.1652G>A	G551D	6	18	6	6	6	0	0	100
+33	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+33	c.4272C>T	Y1424Y	6	18	6	6	6	0	0	100
+33	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+34	c.1000C>T	R334W	6	18	6	6	6	0	0	100
+34	c.3368-2A>T	c.3368-2A>T	6	18	6	6	6	0	0	100
+35	c.1523T>G	F508C	6	18	6	6	6	0	0	100
+36	c.254G>A	G85E	6	18	6	6	6	0	0	100
+36	c.3454G>C	D1152H	6	18	6	6	6	0	0	100
+
+--- Page 15 ---
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+37 c.1007T>A I336K 6 18 6 6 6 0 0 100
+37 c.1408G>A V470M 6 18 6 6 6 0 0 100
+37 c.2562T>G T854T 6 18 6 6 6 0 0 100
+37 c.3705T>G S1235R 6 18 6 6 6 0 0 100
+38 c.1408G>A V470M 6 18 6 6 6 0 0 100
+38 c.1727G>C G576A 6 18 6 6 6 0 0 100
+38 c.2002C>T R668C 6 18 6 6 6 0 0 100
+38 c.2057C>A S686Y 6 18 6 6 6 0 0 100
+38 c.2562T>G T854T 6 18 6 6 6 0 0 100
+38 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+47, 85 c.1408G>A V470M 12 36 12 12 12 0 0 100
+47, 85 c.2562T>G T854T 12 36 12 12 12 0 0 100
+47, 85 c.2657+5G>A 2789+5G>A 12 36 12 12 12 0 0 100
+47, 85 c.4389G>A Q1463Q 12 36 12 12 12 0 0 100
+c.54-5940_273
+48, 86 CFTRdele2,3 12 36 12 11 12 1 0 97.22
++10250del21kb
+48, 86 c.1408G>A V470M 12 36 12 11 12 1 0 97.22
+48, 86 c.1521_1523delCTT F508del 12 36 12 11 12 1 0 97.22
+49, 87 c.1408G>A V470M 12 36 12 12 12 0 0 100
+49, 87 c.1521_1523delCTT F508del 12 36 12 12 12 0 0 100
+49, 87 c.1766+1G>A 1898+1G>A 12 36 12 12 12 0 0 100
+50, 88 c.1408G>A V470M 12 36 12 12 12 0 0 100
+50, 88 c.220C>T R74W 12 36 12 12 12 0 0 100
+50, 88 c.2562T>G T854T 12 36 12 12 12 0 0 100
+50, 88 c.3808G>A D1270N 12 36 12 12 12 0 0 100
+51, 89 c.1408G>A V470M 12 36 12 12 12 0 0 100
+51, 89 c.1521_1523delCTT F508del 12 36 12 12 12 0 0 100
+51, 89 c.2012delT 2143delT 12 36 12 12 12 0 0 100
+52 c.3744delA 3876delA 6 18 6 6 6 0 0 100
+53, 90 c.3773_3774insT 3905insT 12 36 12 12 12 0 0 100
+54, 91 c.1408G>A V470M 12 36 12 12 12 0 0 100
+54, 91 c.262_263delTT 394delTT 12 36 12 12 12 0 0 100
+55, 92 c.1408G>A V470M 12 36 12 12 12 0 0 100
+55, 92 c.1519A>G I507V 12 36 12 12 12 0 0 100
+55, 92 c.1521_1523delCTT F508del 12 36 12 12 12 0 0 100
+55, 92 c.2562T>G T854T 12 36 12 12 12 0 0 100
+55, 92 c.3080T>C I1027T 12 36 12 12 12 0 0 100
+55, 92 c.4389G>A Q1463Q 12 36 12 12 12 0 0 100
+56 c.1408G>A V470M 6 18 6 6 6 0 0 100
+15
+
+[Table 1 on page 15]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+37	c.1007T>A	I336K	6	18	6	6	6	0	0	100
+37	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+37	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+37	c.3705T>G	S1235R	6	18	6	6	6	0	0	100
+38	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+38	c.1727G>C	G576A	6	18	6	6	6	0	0	100
+38	c.2002C>T	R668C	6	18	6	6	6	0	0	100
+38	c.2057C>A	S686Y	6	18	6	6	6	0	0	100
+38	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+38	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+47, 85	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+47, 85	c.2562T>G	T854T	12	36	12	12	12	0	0	100
+47, 85	c.2657+5G>A	2789+5G>A	12	36	12	12	12	0	0	100
+47, 85	c.4389G>A	Q1463Q	12	36	12	12	12	0	0	100
+48, 86	c.54-5940_273
++10250del21kb	CFTRdele2,3	12	36	12	11	12	1	0	97.22
+48, 86	c.1408G>A	V470M	12	36	12	11	12	1	0	97.22
+48, 86	c.1521_1523delCTT	F508del	12	36	12	11	12	1	0	97.22
+49, 87	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+49, 87	c.1521_1523delCTT	F508del	12	36	12	12	12	0	0	100
+49, 87	c.1766+1G>A	1898+1G>A	12	36	12	12	12	0	0	100
+50, 88	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+50, 88	c.220C>T	R74W	12	36	12	12	12	0	0	100
+50, 88	c.2562T>G	T854T	12	36	12	12	12	0	0	100
+50, 88	c.3808G>A	D1270N	12	36	12	12	12	0	0	100
+51, 89	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+51, 89	c.1521_1523delCTT	F508del	12	36	12	12	12	0	0	100
+51, 89	c.2012delT	2143delT	12	36	12	12	12	0	0	100
+52	c.3744delA	3876delA	6	18	6	6	6	0	0	100
+53, 90	c.3773_3774insT	3905insT	12	36	12	12	12	0	0	100
+54, 91	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+54, 91	c.262_263delTT	394delTT	12	36	12	12	12	0	0	100
+55, 92	c.1408G>A	V470M	12	36	12	12	12	0	0	100
+55, 92	c.1519A>G	I507V	12	36	12	12	12	0	0	100
+55, 92	c.1521_1523delCTT	F508del	12	36	12	12	12	0	0	100
+55, 92	c.2562T>G	T854T	12	36	12	12	12	0	0	100
+55, 92	c.3080T>C	I1027T	12	36	12	12	12	0	0	100
+55, 92	c.4389G>A	Q1463Q	12	36	12	12	12	0	0	100
+56	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+
+--- Page 16 ---
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+56 c.2562T>G T854T 6 18 6 6 6 0 0 100
+56 c.3154T>G F1052V 6 18 6 6 6 0 0 100
+56 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+57 117120141 117120141 6 18 6 6 6 0 0 100
+57 c.1408G>A V470M 6 18 6 6 6 0 0 100
+57 c.2562T>G T854T 6 18 6 6 6 0 0 100
+57 c.3209G>A R1070Q 6 18 6 6 6 0 0 100
+58 c.1408G>A V470M 6 18 6 6 6 0 0 100
+58 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+58 c.2991G>C L997F 6 18 6 6 6 0 0 100
+59 c.1408G>A V470M 6 18 6 6 6 0 0 100
+59 c.2562T>G T854T 6 18 6 6 6 0 0 100
+59 c.3205G>A G1069R 6 18 6 6 6 0 0 100
+60 c.1408G>A V470M 6 18 6 6 6 0 0 100
+60 c.2562T>G T854T 6 18 6 6 6 0 0 100
+60 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+60 c.617T>G L206W 6 18 6 6 6 0 0 100
+61 c.1408G>A V470M 6 18 6 6 6 0 0 100
+61 c.2260G>A V754M 6 18 6 6 6 0 0 100
+61 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+62 c.1408G>A V470M 6 18 6 6 6 0 0 100
+62 c.2562T>G T854T 6 18 6 6 6 0 0 100
+62 c.988G>T G330X 6 18 6 6 6 0 0 100
+64 c.1040G>A R347H 6 18 6 6 6 0 0 100
+64 c.1408G>A V470M 6 18 6 6 6 0 0 100
+64 c.2562T>G T854T 6 18 6 6 6 0 0 100
+64 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+65 c.948delT 1078delT 6 18 6 6 6 0 0 100
+66 c.1408G>A V470M 6 18 6 6 6 0 0 100
+66 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+66 c.532G>A G178R 6 18 6 6 6 0 0 100
+67 c.1408G>A V470M 6 18 6 6 6 0 0 100
+S549R
+67 c.1647T>G 6 18 6 6 6 0 0 100
+(c.1647T>G)
+68 c.1408G>A V470M 6 18 6 6 6 0 0 100
+68 c.1646G>A S549N 6 18 6 6 6 0 0 100
+68 c.2562T>G T854T 6 18 6 6 6 0 0 100
+68 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+69 c.2506G>T D836Y 6 18 6 6 6 0 0 100
+16
+
+[Table 1 on page 16]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+56	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+56	c.3154T>G	F1052V	6	18	6	6	6	0	0	100
+56	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+57	117120141	117120141	6	18	6	6	6	0	0	100
+57	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+57	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+57	c.3209G>A	R1070Q	6	18	6	6	6	0	0	100
+58	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+58	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+58	c.2991G>C	L997F	6	18	6	6	6	0	0	100
+59	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+59	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+59	c.3205G>A	G1069R	6	18	6	6	6	0	0	100
+60	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+60	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+60	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+60	c.617T>G	L206W	6	18	6	6	6	0	0	100
+61	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+61	c.2260G>A	V754M	6	18	6	6	6	0	0	100
+61	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+62	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+62	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+62	c.988G>T	G330X	6	18	6	6	6	0	0	100
+64	c.1040G>A	R347H	6	18	6	6	6	0	0	100
+64	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+64	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+64	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+65	c.948delT	1078delT	6	18	6	6	6	0	0	100
+66	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+66	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+66	c.532G>A	G178R	6	18	6	6	6	0	0	100
+67	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+67	c.1647T>G	S549R
+(c.1647T>G)	6	18	6	6	6	0	0	100
+68	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+68	c.1646G>A	S549N	6	18	6	6	6	0	0	100
+68	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+68	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+69	c.2506G>T	D836Y	6	18	6	6	6	0	0	100
+
+--- Page 17 ---
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+69 c.2537G>A W846X 6 18 6 6 6 0 0 100
+70 c.1408G>A V470M 6 18 6 6 6 0 0 100
+70 c.2562T>G T854T 6 18 6 6 6 0 0 100
+70 c.3485G>T R1162L 6 18 6 6 6 0 0 100
+70 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+71 c.1408G>A V470M 6 18 6 6 6 0 0 100
+71 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+71 c.2562T>G T854T 6 18 6 6 6 0 0 100
+71 c.274G>T E92X 6 18 6 6 6 0 0 100
+71 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+72 c.1022_1023insTC 1154insTC 6 18 6 6 5 1 0 94.44
+72 c.1408G>A V470M 6 18 6 6 5 1 0 94.44
+72 c.2562T>G T854T 6 18 6 6 5 1 0 94.44
+72 c.4389G>A Q1463Q 6 18 6 6 5 1 0 94.44
+72 c.489+1G>T 621+1G>T 6 18 6 6 5 1 0 94.44
+73 c.1408G>A V470M 6 18 6 6 6 0 0 100
+73 c.1624G>T G542X 6 18 6 6 6 0 0 100
+73 c.1826A>G H609R 6 18 6 6 6 0 0 100
+74 c.1408G>A V470M 6 18 6 6 5 0 1 94.44
+74 c.1429C>T P477S 6 18 6 6 6 0 0 100
+74 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+75 c.1408G>A V470M 6 18 6 5 6 1¶ 0 94.44
+75 c.1521_1523delCTT F508del 6 18 6 5 6 1¶ 0 94.44
+75 c.1721C>A P574H 6 18 6 5 6 1¶ 0 94.44
+76 c.1408G>A V470M 6 18 6 6 6 0 0 100
+76 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+76 c.2562T>G T854T 6 18 6 6 6 0 0 100
+76 c.425delT F143LfsX10 6 18 6 6 6 0 0 100
+76 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+77 c.1364C>A A455E 6 18 6 6 6 0 0 100
+77 c.1408G>A V470M 6 18 6 6 6 0 0 100
+77 c.489+1G>T 621+1G>T 6 18 6 6 6 0 0 100
+78 c.1408G>A V470M 6 18 6 6 6 0 0 100
+78 c.1581A>G E527E 6 18 6 6 6 0 0 100
+78 c.1680-1G>A 1812-1 G>A 6 18 6 6 6 0 0 100
+78 c.2562T>G T854T 6 18 6 6 6 0 0 100
+78 c.312delA 444delA 6 18 6 6 6 0 0 100
+78 c.3870A>G P1290P 6 18 6 6 6 0 0 100
+17
+
+[Table 1 on page 17]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+69	c.2537G>A	W846X	6	18	6	6	6	0	0	100
+70	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+70	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+70	c.3485G>T	R1162L	6	18	6	6	6	0	0	100
+70	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+71	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+71	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+71	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+71	c.274G>T	E92X	6	18	6	6	6	0	0	100
+71	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+72	c.1022_1023insTC	1154insTC	6	18	6	6	5	1	0	94.44
+72	c.1408G>A	V470M	6	18	6	6	5	1	0	94.44
+72	c.2562T>G	T854T	6	18	6	6	5	1	0	94.44
+72	c.4389G>A	Q1463Q	6	18	6	6	5	1	0	94.44
+72	c.489+1G>T	621+1G>T	6	18	6	6	5	1	0	94.44
+73	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+73	c.1624G>T	G542X	6	18	6	6	6	0	0	100
+73	c.1826A>G	H609R	6	18	6	6	6	0	0	100
+74	c.1408G>A	V470M	6	18	6	6	5	0	1	94.44
+74	c.1429C>T	P477S	6	18	6	6	6	0	0	100
+74	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+75	c.1408G>A	V470M	6	18	6	5	6	1¶	0	94.44
+75	c.1521_1523delCTT	F508del	6	18	6	5	6	1¶	0	94.44
+75	c.1721C>A	P574H	6	18	6	5	6	1¶	0	94.44
+76	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+76	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+76	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+76	c.425delT	F143LfsX10	6	18	6	6	6	0	0	100
+76	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+77	c.1364C>A	A455E	6	18	6	6	6	0	0	100
+77	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+77	c.489+1G>T	621+1G>T	6	18	6	6	6	0	0	100
+78	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+78	c.1581A>G	E527E	6	18	6	6	6	0	0	100
+78	c.1680-1G>A	1812-1 G>A	6	18	6	6	6	0	0	100
+78	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+78	c.312delA	444delA	6	18	6	6	6	0	0	100
+78	c.3870A>G	P1290P	6	18	6	6	6	0	0	100
+
+--- Page 18 ---
+Total # (All
+Total Results Agreeing Calls
+HGVS Name (or Sites) OA
+Sample Variant Name
+Location if no HGVS) No (%)
+Per Site All Sites Site 1 Site 2 Site 3 Miscalls
+Calls¤
+78 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+79 c.1408G>A V470M 6 18 6 6 6 0 0 100
+79 c.220C>T R74W 6 18 6 6 6 0 0 100
+79 c.2562T>G T854T 6 18 6 6 6 0 0 100
+79 c.3808G>A D1270N 6 18 6 6 6 0 0 100
+80 117120141 117120141 6 18 6 6 6 0 0 100
+80 c.1408G>A V470M 6 18 6 6 6 0 0 100
+80 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+80 c.1657C>T R553X 6 18 6 6 6 0 0 100
+80 c.2562T>G T854T 6 18 6 6 6 0 0 100
+81 c.1408G>A V470M 6 18 6 6 6 0 0 100
+81 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+81 c.1652G>A G551D 6 18 6 6 6 0 0 100
+81 c.2562T>G T854T 6 18 6 6 6 0 0 100
+81 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+82 c.1040G>C R347P 6 18 6 6 6 0 0 100
+82 c.1408G>A V470M 6 18 6 6 6 0 0 100
+82 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+82 c.4272C>T Y1424Y 6 18 6 6 6 0 0 100
+83 11720145 11720145 6 18 6 6 6 0 0 100
+83 c.1408G>A V470M 6 18 6 6 6 0 0 100
+83 c.1521_1523delCTT F508del 6 18 6 6 6 0 0 100
+83 c.350G>A R117H 6 18 6 6 6 0 0 100
+84 c.1408G>A V470M 6 18 6 6 6 0 0 100
+84 c.1519_1521delATC I507del 6 18 6 6 6 0 0 100
+84 c.2562T>G T854T 6 18 6 6 6 0 0 100
+84 c.4389G>A Q1463Q 6 18 6 6 6 0 0 100
+Total All Variants (PPA)* 2580 7740 2562 2553 2565 37 23 99.22
+Total All WT (NPA) 2871132 8613396 2865930 2855526 2865932 26006 2 99.70
+Total All WT and variants (OA) 2873712 8621136 2868492 2858079 2868497 26043 25 99.70
+¤Samples were not retested.
+¶ One replicate each of samples 5 and 75 had a 0% call rate. Further investigation indicated that the samples had likely not been
+added to the sample plate prior to library preparation.
+# Upon review, samples 9 and 10 were likely switched by the operator prior to library preparation.
+* Excluding PolyTG/PolyT variants, the PA was 99.60%
+a Covers all 5206 callable positions interrogated by the assay
+The panels used for the reproducibility studies included a number of PolyTG/PolyT
+tract variations that allowed for examination of assay performance over the majority
+of permutations in tract size. With the exception of (TG)11(T)7/(TG)11(T)9 samples,
+18
+
+[Table 1 on page 18]
+								Total # (All		
+			Total Results		Agreeing Calls					
+	HGVS Name (or							Sites)		OA
+Sample		Variant Name								
+	Location if no HGVS)							No		(%)
+			Per Site	All Sites	Site 1	Site 2	Site 3		Miscalls	
+								Calls¤		
+										
+78	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+79	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+79	c.220C>T	R74W	6	18	6	6	6	0	0	100
+79	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+79	c.3808G>A	D1270N	6	18	6	6	6	0	0	100
+80	117120141	117120141	6	18	6	6	6	0	0	100
+80	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+80	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+80	c.1657C>T	R553X	6	18	6	6	6	0	0	100
+80	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+81	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+81	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+81	c.1652G>A	G551D	6	18	6	6	6	0	0	100
+81	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+81	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+82	c.1040G>C	R347P	6	18	6	6	6	0	0	100
+82	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+82	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+82	c.4272C>T	Y1424Y	6	18	6	6	6	0	0	100
+83	11720145	11720145	6	18	6	6	6	0	0	100
+83	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+83	c.1521_1523delCTT	F508del	6	18	6	6	6	0	0	100
+83	c.350G>A	R117H	6	18	6	6	6	0	0	100
+84	c.1408G>A	V470M	6	18	6	6	6	0	0	100
+84	c.1519_1521delATC	I507del	6	18	6	6	6	0	0	100
+84	c.2562T>G	T854T	6	18	6	6	6	0	0	100
+84	c.4389G>A	Q1463Q	6	18	6	6	6	0	0	100
+Total All Variants (PPA)*			2580	7740	2562	2553	2565	37	23	99.22
+Total All WT (NPA)			2871132	8613396	2865930	2855526	2865932	26006	2	99.70
+Total All WT and variants (OA)			2873712	8621136	2868492	2858079	2868497	26043	25	99.70
+
+--- Page 19 ---
+the assay performed similarly regardless of PolyTG/PolyT tract size. The table below
+outlines reproducibility results by PolyTG/PolyT tract size.
+Table 3: Reproducibility for PolyTG/PolyT Variants Observed in Sample Panel
+Test Results Agreeing Calls Total (All Sites)
+%
+Panel Sample Genotype All Site Site Site
+Per Site No Calls Miscalls Agreement
+Sites 1 2 3
+(TG)12(T)7/
+A 1 6 18 6 6 6 0 0 100%
+(TG)12(T)7
+(TG)10(T)9/
+A 2 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)7/
+A 3 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)10(T)9/
+A 4 6 18 5 6 6 1 0 94.44%
+(TG)11(T)7
+(TG)10(T)7/
+A 5 6 18 6 5 6 1 0 94.44%
+(TG)11(T)7
+(TG)10(T)9/
+A 6 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)9/
+A 7 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+A 8 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)10(T)9/
+A 9 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)9/
+A 10 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)9/
+A 11, 39 12 36 12 12 12 0 0 100%
+(TG)10(T)7
+(TG)10(T)9/
+A 12, 40 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+A 13 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+A 14 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+A 15 6 18 6 5 6 1 0 94.44%
+(TG)11(T)7
+(TG)10(T)9/
+A 16 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)10(T)9/
+A 17, 41 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+A 18, 42 12 36 12 12 12 0 0 100%
+(TG)12(T)5
+(TG)10(T)9/
+A 19 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+A 20, 43 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+A 21, 44 12 36 12 12 12 0 0 100%
+(TG)10(T)9
+(TG)10(T)9/
+A 22 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)9/
+A 23 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+A 24, 45 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+A 25 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)10(T)9/
+A 26 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+19
+
+[Table 1 on page 19]
+			Test Results		Agreeing Calls			Total (All Sites)		
+										%
+Panel	Sample	Genotype		All	Site	Site	Site			
+			Per Site					No Calls	Miscalls	Agreement
+				Sites	1	2	3			
+										
+		(TG)12(T)7/								
+A	1		6	18	6	6	6	0	0	100%
+		(TG)12(T)7								
+										
+		(TG)10(T)9/								
+A	2		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)7/								
+A	3		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+A	4		6	18	5	6	6	1	0	94.44%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+A	5		6	18	6	5	6	1	0	94.44%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	6		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)9/								
+A	7		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+A	8		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+A	9		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)9/								
+A	10		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)9/								
+A	11, 39		12	36	12	12	12	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)9/								
+A	12, 40		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	13		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+A	14		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+A	15		6	18	6	5	6	1	0	94.44%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	16		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+A	17, 41		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	18, 42		12	36	12	12	12	0	0	100%
+		(TG)12(T)5								
+										
+		(TG)10(T)9/								
+A	19		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	20, 43		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	21, 44		12	36	12	12	12	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+A	22		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)9/								
+A	23		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	24, 45		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+A	25		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+A	26		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+
+--- Page 20 ---
+(TG)10(T)7/
+A 27, 46 12 36 11 12 12 0 1 97.22%
+(TG)11(T)7
+(TG)10(T)7/
+A 28 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)7/
+A 29 6 18 6 4 4 4 0 77.78%
+(TG)12(T)7
+(TG)10(T)9/
+A 30 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)7/
+A 31 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+A 32 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)7/
+A 33 6 18 5 6 6 1 0 94.44%
+(TG)11(T)7
+(TG)11(T)7/
+A 34 6 18 6 6 6 0 0 100%
+(TG)12(T)7
+(TG)11(T)7/
+A 35 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)11(T)7/
+A 36 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)11(T)7/
+A 37 6 18 6 6 6 0 0 100%
+(TG)12(T)7
+(TG)10(T)7/
+A 38 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+B 47, 85 12 36 12 12 12 0 0 100%
+(TG)10(T)7
+(TG)10(T)9/
+B 48, 86 12 36 11 11 12 2 0 94.44%
+(TG)11(T)7
+(TG)10(T)9/
+B 49, 87 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 50, 88 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 51, 89 12 36 12 12 12 0 0 100%
+(TG)10(T)9
+(TG)11(T)7/
+B 52 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)11(T)7/
+B 53, 90 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 54, 91 12 36 12 12 12 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 55, 92 12 36 12 12 12 0 0 100%
+(TG)10(T)7
+(TG)10(T)7/
+B 56 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)12(T)7/
+B 57 6 18 6 6 6 0 0 100%
+(TG)12(T)7
+(TG)10(T)9/
+B 58 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)11(T)7/
+B 59 6 18 5 6 6 1 0 94.44%
+(TG)12(T)7
+(TG)9(T)9/
+B 60 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 61 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+B 62 6 18 5 6 6 1 0 94.44%
+(TG)11(T)7
+(TG)11(T)7/
+B 63 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+B 64 6 18 5 6 6 1 0 94.44%
+(TG)11(T)7
+20
+
+[Table 1 on page 20]
+		(TG)10(T)7/								
+A	27, 46		12	36	11	12	12	0	1	97.22%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+A	28		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)7/								
+A	29		6	18	6	4	4	4	0	77.78%
+		(TG)12(T)7								
+										
+		(TG)10(T)9/								
+A	30		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)7/								
+A	31		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+A	32		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)7/								
+A	33		6	18	5	6	6	1	0	94.44%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+A	34		6	18	6	6	6	0	0	100%
+		(TG)12(T)7								
+										
+		(TG)11(T)7/								
+A	35		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+A	36		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+A	37		6	18	6	6	6	0	0	100%
+		(TG)12(T)7								
+										
+		(TG)10(T)7/								
+A	38		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+B	47, 85		12	36	12	12	12	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)9/								
+B	48, 86		12	36	11	11	12	2	0	94.44%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	49, 87		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	50, 88		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	51, 89		12	36	12	12	12	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)11(T)7/								
+B	52		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+B	53, 90		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	54, 91		12	36	12	12	12	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	55, 92		12	36	12	12	12	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)7/								
+B	56		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)12(T)7/								
+B	57		6	18	6	6	6	0	0	100%
+		(TG)12(T)7								
+										
+		(TG)10(T)9/								
+B	58		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)11(T)7/								
+B	59		6	18	5	6	6	1	0	94.44%
+		(TG)12(T)7								
+										
+		(TG)9(T)9/								
+B	60		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	61		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+B	62		6	18	5	6	6	1	0	94.44%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+B	63		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+B	64		6	18	5	6	6	1	0	94.44%
+		(TG)11(T)7								
+										
+
+--- Page 21 ---
+(TG)11(T)7/
+B 65 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 66 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)11(T)7/
+B 67 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+B 68 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)11(T)7/
+B 69 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+B 70 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+(TG)10(T)9/
+B 71 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+B 72 6 18 5 6 5 2 0 88.89%
+(TG)10(T)9
+(TG)10(T)9/
+B 73 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 74 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)7/
+B 75 6 18 6 5 6 1 0 94.44%
+(TG)10(T)9
+(TG)10(T)7/
+B 76 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)10(T)9/
+B 77 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)10(T)7/
+B 78 6 18 5 6 6 1 0 94.44%
+(TG)10(T)9
+(TG)10(T)7/
+B 79 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)11(T)7/
+B 80 6 18 0 0 0 0 18†† 0%
+(TG)11(T)9
+(TG)10(T)7/
+B 81 6 18 6 6 6 0 0 100%
+(TG)10(T)9
+(TG)10(T)9/
+B 82 6 18 6 6 6 0 0 100%
+(TG)11(T)7
+(TG)10(T)9/
+B 83 6 18 6 6 6 0 0 100%
+(TG)12(T)5
+(TG)10(T)7/
+B 84 6 18 6 6 6 0 0 100%
+(TG)10(T)7
+Total PolyTG/PolyT Variants (PA) 552 1656 537 540 543 17 19 97.83%
+†† All 18 samples were concordant with each other but discordant with Sanger bi-directional sequencing.
+Lot-to-Lot Reproducibility:
+A single operator performed a lot-to-lot reproducibility study using the three kit
+lots and one instrument. Each kit lot included all the reagents and materials
+intended to be packaged as part of the Illumina MiSeqDx Cystic Fibrosis Clinical
+Sequencing Assay. A panel of 47 unique gDNA samples tested in duplicate was
+tested on each lot. The samples were selected to represent a wide array of
+potential variants. Samples were extracted from immortalized cell lines and
+included the ACMG 23 mutations, 21 deletion/insertion variants, 5 homozygous
+samples, 28 compound heterozygotes, 1 sample containing 1 of the large
+deletions, samples which represent the commonly observed sequence possibilities
+at the PolyTG/Poly T region, and single nucleotide polymorphisms (SNPs) in 15
+21
+
+[Table 1 on page 21]
+		(TG)11(T)7/								
+B	65		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	66		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+B	67		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+B	68		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+B	69		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+B	70		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+		(TG)10(T)9/								
+B	71		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+B	72		6	18	5	6	5	2	0	88.89%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+B	73		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	74		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)7/								
+B	75		6	18	6	5	6	1	0	94.44%
+		(TG)10(T)9								
+										
+		(TG)10(T)7/								
+B	76		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+B	77		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)7/								
+B	78		6	18	5	6	6	1	0	94.44%
+		(TG)10(T)9								
+										
+		(TG)10(T)7/								
+B	79		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)11(T)7/								
+B	80		6	18	0	0	0	0	18††	0%
+		(TG)11(T)9								
+										
+		(TG)10(T)7/								
+B	81		6	18	6	6	6	0	0	100%
+		(TG)10(T)9								
+										
+		(TG)10(T)9/								
+B	82		6	18	6	6	6	0	0	100%
+		(TG)11(T)7								
+										
+		(TG)10(T)9/								
+B	83		6	18	6	6	6	0	0	100%
+		(TG)12(T)5								
+										
+		(TG)10(T)7/								
+B	84		6	18	6	6	6	0	0	100%
+		(TG)10(T)7								
+										
+Total PolyTG/PolyT Variants (PA)			552	1656	537	540	543	17	19	97.83%
+
+--- Page 22 ---
+different exons and 9 different intronic regions. There were no miscalls. There
+were 5 no calls for lot 1, 1 no call for lot 2 and 0 no calls for lot 3. Results
+showed that all reagent lots met their acceptance criteria and performed
+equivalently.
+Instrument-to-Instrument Reproducibility:
+To establish instrument comparability, assay performance (call rate,
+reproducibility, sample first pass rate, and accuracy) was assessed on 3 different
+MiSeqDx instruments. Three operators each performed a single run on 3 different
+days on each of 3 different MiSeqDx instruments using a single lot of reagents.
+Instrument performance metrics were defined by sequencing output (in
+gigabases), reads (in millions), read length (2x150), and quality base calling score
+(%Q) > 30.
+The 48 sample panel used in the lot-to-lot reproducibility study (47 samples plus a
+no-template control [NTC]) which represented different types of sequence
+variations was used in this study. If a NTC generated a call rate of <2%, then
+contamination would be suspected and the entire sequencing run would be
+considered failed and must be repeated starting from library preparation.
+The Clinical Sequencing Assay sequences 5203 bases within the exonic regions
+and flanking intronic sequence and additionally reports on 2 large deletions and
+the PolyTG/PolyT sequence within intron 9, making the total number of positions
+sequences 5,206. With the exception of a single sample which had a no-call at a
+PolyTG/PolyT site, all 423 tests (47 samples x 9runs [3 operators x 3
+instruments]) had a 100% call rate and reproducibility was 100% concordant.
+Accuracy examination by bi-directional sequencing also showed all samples had
+the expected sequence/genotype.
+Thermal Cycler Evaluation:
+Three different commonly used, commercially available thermal cyclers were
+compared for use in library preparation for the MiSeqDx Cystic Fibrosis Clinical
+Sequencing Assay. Three unique sample sets were processed through the 3
+thermal cyclers across 3 days. Each sample set was processed in triplicate each
+day (one replicate per thermal cycler). The sample set consisted of 15 extracted
+gDNAs from cell lines and 1 NTC. The sample panel included variants for every
+allele of the ACMG 23, 21 deletion/insertion variants, 5 homozygous samples, 27
+compound heterozygotes, 1 sample containing one of the targeted large deletions,
+samples with commonly observed variants in the Poly TG/PolyT region and SNPs
+in 15 different exons and 9 different intronic regions. The data for each thermal
+cycler met specifications for call rate, accuracy and sample first pass rate.
+22
+
+--- Page 23 ---
+DNA Extraction Study:
+To evaluate the effect of the extraction step on sample reproducibility, an
+additional, separate extraction study was conducted. Three different commonly
+used DNA extraction methods from K EDTA anticoagulated whole blood were
+2
+tested on 14 blood samples (2 samples were wild-type, while the other 12
+represented 8 unique genotypes). The genomic DNA was isolated using three
+commonly used commercially available kits representing different methodologies
+(i.e., magnetic bead separation, alcohol precipitation, and silica filter column).
+The 3 DNA extraction methods were tested by 2 different operators who
+performed 3 runs per extraction method giving 9 replicate extractions per sample
+performed on separate days. All extracted gDNA samples were run in duplicate.
+All 3 extraction methods met acceptance criteria for call rate, reproducibility, and
+pass rate with an accuracy of 100%.
+Repeatability:
+To examine assay repeatability, 47 replicates of a single sample (with a NTC)
+were tested. The same experiment was repeated for a second sample by the same
+operator on the same instrument. The percent coefficient of variation (% CV) for
+coverage was determined for each of the 80 amplicons examined in this assay
+across 47 replicates. Results ranged from 7-18% CV with an average of 12% for
+sample 1 and 12% for sample 2.
+b. Linearity/Assay Reportable range:
+Not applicable.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Real-Time Stability:
+In order to determine the expiration dating of the MiSeqDx Cystic Fibrosis Clinical
+Sequencing Assay reagents and consumables, the kit was evaluated at six time points
+after manufacturing: 5 months, 6.25 months, 7.25 months, 9 months, 9.25 months,
+and 12 months with three separately manufactured lots of reagents and consumables.
+Each lot of reagents was run in duplicate for the first 3 time points and singlicate at
+the 9 month time point. A panel of 45 specimens was used to assess performance.
+The results from each lot at each time point was assessed for call rate (acceptance
+criteria ≥99%), and accuracy (acceptance criteria ≥99.9%). No miscalls were
+observed for any of the time points. The largest number of no calls (N = 5) was
+observed with one lot at 7.25 months; however the call rate exceeded the acceptance
+criteria. All No Calls observed at any time point were for the PolyTG/PolyT variant.
+Based on the data provided, the initial shelf-life for the assay is 9.25 months.
+23
+
+--- Page 24 ---
+Open Tube Stability (Freeze/Thaw):
+Three independently manufactured lots of frozen library preparation/normalization
+reagents were used for testing. The assay reagents are single use and not stored
+frozen, and so were not tested in this protocol. All reagents were subjected to 6
+freeze/thaw cycles. At each cycle (1 per day for 6 days), reagents were thawed at
+room temperature, the reagent volume required for testing was withdrawn, and the
+tubes were returned to -15 to -25°C for overnight storage. Thirteen gDNA samples
+were tested, including 1 NTC for a total of 14 samples. The 14 samples were pooled
+into a single library at each freeze/thaw time point and sequencing was run in the
+assay mode. Each freeze/thaw cycle was assessed for first pass rate (acceptance
+criteria ≥95% samples need to meet sample call rate specification of ≥99%), call rate
+(acceptance criteria ≥99%), and accuracy (acceptance criteria ≥99.9%). The data
+provided supports a maximum of 6 rounds of freeze/thaw.
+Specimen Sampling and Handling:
+The specimen handling study included the following conditions:
+· DNA extracted from K EDTA anti-coagulated blood stored at room
+2
+temperature (20-25°C) for 7 days (claimed in package insert)
+· DNA extracted from K EDTA anti-coagulated blood stored at 2°C to 4°C for
+2
+30 days (claimed in package insert)
+· DNA extracted from K EDTA anti-coagulated blood stored at -15°C to -25°C
+2
+for 30 days (claimed in package insert)
+· Genomic DNA subjected to 6 freeze/thaw cycles
+Additionally, 6 blood samples were divided into 6 aliquots and stored under the
+following conditions:
+· 2°C to 8°C for 1 day
+· -15°C to -25°C for 1 day
+· 2°C to 8°C for 30 days
+· -15°C to -25°C for 30 days
+· Room temperature for 7 days
+· 30°C for 7 days
+Extracted blood was then stored at -15°C to -25°C until the study commenced.
+Fifteen samples aliquoted into 6 tubes were used to assess sample storage claims and
+2 aliquots of each sample were used to assess freeze/thaw claims (one sample stored
+and the other undergoing freeze/thaw once a day for 6 days). Samples included SNVs
+and DIVs as well as homozygotes, heterozygotes, and compound heterozygotes.
+Acceptance criteria were based on call rate, sample first-pass rate and reproducibility,
+and all studies met their acceptance criteria.
+24
+
+--- Page 25 ---
+Reagent Integrity and Shipping:
+Shipping studies were designed to evaluate product performance after exposure to
+simulated shipping conditions. Study elements included atmospheric thermal cycling
+with both summer and winter profiles depending on the reagent being tested.
+Reagents believed to be sensitive to heat were subjected to summer profiles
+(enzymes, oligos, etc), while reagents believed to be sensitive to freeze/thaw were
+subjected to winter profiles. Distribution testing was also performed to include the
+following:
+· Atmospheric pre-conditioning
+· Shock-drop (8 and 9 drops)
+· Vibration – Random dynamic load
+· Random Vibration – Pick-up and Delivery Vehicle Spectrum
+· Vibration – Random under low pressure vacuum
+Shipping validation testing was conducted with 8 samples that included
+deletion/insertion variants (including in a homopolymeric region), SNVs, and 1 large
+deletion. After shipping testing was complete, all kit components were stored at
+recommended conditions until functional testing could be performed. Acceptance
+criteria included the assay requirements (call rate and accuracy ≥ 99%), payload and
+shipping testing had internal temperature acceptance criteria, and container integrity
+testing only required no major visual defects (minor defects including punctures,
+tears, and cracks in the container were acceptable). All testing passed by meeting all
+acceptance criteria.
+d. Detection Limit (Analytical sensitivity):
+Analytical Sensitivity at High DNA Input:
+The recommended DNA input for this assay is 250 ng. An initial study was
+conducted to estimate the performance of the assay when the gDNA input is greater
+or less than the recommended DNA input concentration. Four different DNA samples
+were tested at input levels of 1250, 250, 100, and 25 ng. The 4 DNA samples
+covered 7 mutations and included heterozygous single nucleotide variants (SNVs),
+heterozygous and homozygous deletion/insertion variants (DIVs), one large deletion,
+and a deletion cum insertion. Either 20 (1250 ng) or 24 (all other concentrations)
+replicates were tested for each sample. Samples were processed by 2 operators over 4
+days using a single lot of reagents and a single thermal cycler. The same lot of gDNA
+samples was used throughout the study. Genotype calls were compared to
+bidirectional Sanger sequencing except for the 2 large deletions which were
+confirmed using validated duplex PCR followed by sequencing of resulting
+amplicons. Both assays met the pre-determined acceptance criteria for all
+concentrations tested.
+One sample at 25 ng had a call rate of 98% which was deemed unacceptable. There
+was a single no-call at 1250 ng (both no-calls at 1250 ng were at the PolyTG/PolyT
+25
+
+--- Page 26 ---
+region). At 25 ng there were 140 no-calls with 136 arising from 6 replicates of the
+same sample.
+Analytical Sensitivity at Low DNA Input:
+Fourteen DNA specimens were tested at 9 different DNA input levels; 1250, 500,
+250, 100, 50 25, 10, 5, and 1 ng. Variation types tested included SNVs, small
+insertion/deletions (including F508del), one large deletion, and compound
+insertion/deletions. A single lot of reagents were used and the same lot of DNA
+samples and a single thermal cycler were used. This study passed acceptance criteria
+at all concentrations except 1, 5, and 10 ng (25-fold below recommended DNA
+input). Based on the results of both studies, the upper and lower bounds for DNA
+input into the assay are 1250 and 25 ng, respectively.
+e. Analytical Specificity (Interfering Substances):
+Bilirubin, Hemoglobin, Cholesterol, and Buffer Component Interference:
+The effect of potential interferents on the performance of the assay was examined
+using 8 samples carrying 8 unique genotypes, and blood from the same individual
+was tested across all 4 interfering substances. Sample types included 1 PolyTG/PolyT
+variant, 1 indel (F508del), and 6 SNVs. Bilirubin (684 and 137 µmol/L), hemoglobin
+(2 and 0.4 g/L), and cholesterol (13 and 2.6 mmol/L) were spiked into blood aliquots
+prior to DNA extraction. Wash buffer from DNA extraction (15%) was spiked into
+genomic DNA samples prior to library preparation. For the assessment of each
+inhibiting substance, data for each spiked sample was compared to an untreated
+aliquot of the same blood/DNA sample. Impact on call rate, reproducibility, and
+sample first pass rate were determined. All 88 samples met the acceptance criteria of
+the test.
+Lipid and Short Draw Interference:
+A study to assess the potential interference of triglycerides (37 mmol/L and 7.4
+mmol/L) and high and low concentrations of K EDTA (7 mg/mL and 2.8 mg/mL) to
+2
+mimic short blood draws was conducted. Eight whole blood samples were used for
+this study. Two samples were WT, 2 were F508del, and the remaining 4 were SNVs.
+With the exception of R75Q, all SNVs were replicates of those tested in Interference
+Study A (above), but were different blood samples. All tested conditions gave 100%
+correct calls, and no samples required a re-concentration to obtain the appropriate
+amount of DNA for the assay.
+f. Assay cut-off:
+Not applicable
+26
+
+--- Page 27 ---
+g. Sample carryover:
+The goal of this study was to ascertain that sample carryover between samples within
+an instrument run and between successive sequencing runs met design requirements.
+Two genomic DNA samples with unique CFTR genotypes were assessed. One
+sample had 2 variants and one sample had 3 variants. In the intra-run test, 1 library
+composed of 2 samples with unique variants was set up in a checkerboard matrix
+pattern at alternating high (500 ng) and low (100 ng) concentrations along with 4
+NTCs. For the inter-run test, 2 libraries were prepared; the library contained either a
+single distinct genomic DNA sample or one NTC. For both the inter and intra-run
+tests, sample carryover was assessed by measuring the error rate at the position of
+variant calls for all samples used in the study. The design input requirement was
+carryover ≤ 2%.The highest carryover rate seen in this test was 0.31% for intra-run
+testing and 0.3% for inter-run testing.
+2. Comparison studies:
+a. Method comparison to reference method:
+Accuracy:
+Accuracy of the Illumina MiSeqDx Clinical Sequencing Assay was assessed by
+evaluating 500 samples representing a wide variety of CFTR variants from four
+separate sources; 369 were clinical gDNA specimens, 79 were cell line gDNA, and
+52 were synthetic samples derived from plasmid DNA. Accuracy was based on
+comparison with Sanger sequencing of all 500 samples over all 5,206 positions
+interrogated by the MiSeqDx assay. A total of 203 variants from reference were
+detected. These variants covered most of the 27 exons (with the exception of exons
+16 and 26) and an intronic region within CFTR including the PolyTG/PolyT
+homopolymeric region. Variant types analyzed in the accuracy study included SNVs,
+small indels, and 2 large deletions. All 23 mutations recommended by the ACMG
+were included in the study, and all were examined with clinical samples in addition to
+other sample types. As noted below there were 6 miscalls and 4 no calls in the study.
+One of the no calls was in the context of wild-type sequence, while the rest were in
+the context of variants, most notably in the PolyTG/PolyT region. Overall this study
+met its acceptance criteria.
+Table 4: Accuracy by Variant
+Positive calls (Variants)
+Genotype
+CFTR gene
+(Common Variant No
+Name/cDNA Type region Clinical Cell Line Synthetic Calls¤ Miscalls PPA (%)
+(hg19) Samples Samples Samples
+name/coordinate)
+117120141 SNV Exon1 25 3 0 0 0 100
+117120145 SNV Exon1 3 2 0 0 0 100
+M1V SNV Exon1 0 0 1 0 0 100
+27
+
+[Table 1 on page 27]
+Genotype
+(Common
+Name/cDNA
+name/coordinate)	Variant
+Type	CFTR gene
+region
+(hg19)	Positive calls (Variants)			No
+Calls¤	Miscalls	PPA (%)
+			Clinical
+Samples	Cell Line
+Samples	Synthetic
+Samples			
+117120141	SNV	Exon1	25	3	0	0	0	100
+117120145	SNV	Exon1	3	2	0	0	0	100
+M1V	SNV	Exon1	0	0	1	0	0	100
+
+--- Page 28 ---
+CFTR dele2, 3 Del Intron1 4 1 0 0 0 100
+R31C SNV Exon2 3 1 0 0 0 100
+Q39X SNV Exon2 0 0 1 0 0 100
+E60X SNV Exon3 6 1 0 0 0 100
+P67L SNV Exon3 1 0 1 0 0 100
+R74W SNV Exon3 0 2 0 0 0 100
+R74Q SNV Exon3 2 0 0 0 0 100
+R75X SNV Exon3 3 1 0 0 0 100
+R75Q SNV Exon3 20 1 0 0 0 100
+G85E SNV Exon3 6 2 0 0 0 100
+394delTT DIV Exon3 3 1 0 0 0 100
+405+1G>A SNV Intron3 0 0 1 0 0 100
+406-1G>A SNV Exon4 4 0 0 0 0 100
+E92K SNV Exon4 0 0 1 0 0 100
+E92X SNV Exon4 0 1 1 0 0 100
+Q98X SNV Exon4 0 0 2 0 0 100
+I105SfsX2 DIV Exon4 0 2 0 0 0 100
+457TAT>G DIV Exon4 0 0 1 0 0 100
+D110H SNV Exon4 1 0 1 0 0 100
+R117C SNV Exon4 4 0 0 0 0 100
+R117H SNV Exon4 17 2 0 0 0 100
+Y122X SNV Exon4 0 1 0 0 0 100
+F143LfsX10 DIV Exon4 0 1 0 0 0 100
+574delA DIV Exon4 0 0 2 0 0 100
+Q151K SNV Exon4 1 0 0 0 0 100
+621+1G>T SNV Intron4 7 5 0 0 0 100
+621+3A>G SNV Intron4 1 0 0 0 0 100
+663delT DIV Exon5 1 0 1 0 0 100
+G178R SNV Exon5 1 1 0 0 0 100
+711+1G>T SNV Intron5 3 1 0 0 0 100
+711+3A>G SNV Intron5 0 0 1 0 0 100
+711+5 G->A SNV Intron5 0 0 1 0 0 100
+712-1 G->T SNV Exon6 0 0 1 0 0 100
+H199Y SNV Exon6 0 0 1 0 0 100
+P205S SNV Exon6 1 0 1 0 0* 100
+L206W SNV Exon6 8 1 0 0 0 100
+A209S SNV Exon6 0 1 0 0 0 100
+Q220X SNV Exon6 0 0 1 0 0 100
+L227R SNV Exon6 0 0 1 0 0 100
+852del22 DIV Exon6 0 0 1 0 0 100
+E279D SNV Exon7 1 0 0 0 0 100
+28
+
+[Table 1 on page 28]
+R31C	SNV	Exon2	3	1	0	0	0	100
+Q39X	SNV	Exon2	0	0	1	0	0	100
+E60X	SNV	Exon3	6	1	0	0	0	100
+P67L	SNV	Exon3	1	0	1	0	0	100
+R74W	SNV	Exon3	0	2	0	0	0	100
+R74Q	SNV	Exon3	2	0	0	0	0	100
+R75X	SNV	Exon3	3	1	0	0	0	100
+R75Q	SNV	Exon3	20	1	0	0	0	100
+G85E	SNV	Exon3	6	2	0	0	0	100
+394delTT	DIV	Exon3	3	1	0	0	0	100
+405+1G>A	SNV	Intron3	0	0	1	0	0	100
+406-1G>A	SNV	Exon4	4	0	0	0	0	100
+E92K	SNV	Exon4	0	0	1	0	0	100
+E92X	SNV	Exon4	0	1	1	0	0	100
+Q98X	SNV	Exon4	0	0	2	0	0	100
+I105SfsX2	DIV	Exon4	0	2	0	0	0	100
+457TAT>G	DIV	Exon4	0	0	1	0	0	100
+D110H	SNV	Exon4	1	0	1	0	0	100
+R117C	SNV	Exon4	4	0	0	0	0	100
+R117H	SNV	Exon4	17	2	0	0	0	100
+Y122X	SNV	Exon4	0	1	0	0	0	100
+F143LfsX10	DIV	Exon4	0	1	0	0	0	100
+574delA	DIV	Exon4	0	0	2	0	0	100
+Q151K	SNV	Exon4	1	0	0	0	0	100
+621+1G>T	SNV	Intron4	7	5	0	0	0	100
+621+3A>G	SNV	Intron4	1	0	0	0	0	100
+663delT	DIV	Exon5	1	0	1	0	0	100
+G178R	SNV	Exon5	1	1	0	0	0	100
+711+1G>T	SNV	Intron5	3	1	0	0	0	100
+711+3A>G	SNV	Intron5	0	0	1	0	0	100
+711+5 G->A	SNV	Intron5	0	0	1	0	0	100
+712-1 G->T	SNV	Exon6	0	0	1	0	0	100
+H199Y	SNV	Exon6	0	0	1	0	0	100
+P205S	SNV	Exon6	1	0	1	0	0*	100
+L206W	SNV	Exon6	8	1	0	0	0	100
+A209S	SNV	Exon6	0	1	0	0	0	100
+Q220X	SNV	Exon6	0	0	1	0	0	100
+L227R	SNV	Exon6	0	0	1	0	0	100
+852del22	DIV	Exon6	0	0	1	0	0	100
+E279D	SNV	Exon7	1	0	0	0	0	100
+
+--- Page 29 ---
+R297Q SNV Exon8 2 0 0 0 0 100
+1078delT DIV Exon8 1 1 0 0 0 100
+L320V SNV Exon8 1 0 0 0 0 100
+G330X SNV Exon8 1 1 0 0 0 100
+R334W SNV Exon8 6 1 0 0 0 100
+I336K SNV Exon8 0 1 0 0 0 100
+T338I SNV Exon8 0 0 1 0 0 100
+1154insTC DIV Exon8 0 1 0 0 0 100
+S341P SNV Exon8 0 0 1 0 0 100
+R347H SNV Exon8 6 1 1 0 0 100
+R347P SNV Exon8 3 2 0 0 0 100
+R352Q SNV Exon8 5 0 0 0 0 100
+Q359K/T360K SNV Exon8 0 0 1 0 0 100
+1213delT DIV Exon8 0 0 1 0 0 100
+1248+1G>A SNV Intron8 0 0 1 0 0 100
+1259insA DIV Exon9 0 0 2 0 0 100
+W401X
+SNV Exon9 0 0 1 0 0 100
+(c.1202G>A)
+W401X
+SNV Exon9 0 0 1 0 0 100
+(c.1203G>A)
+1341+1G->A SNV Intron9 0 0 2 0 0 100
+PolyTG/Po
+PolyTGPolyT Intron9 369 79 52 3 4# 98.60
+lyT
+1461ins4 DIV Exon10 0 0 1 0 0 100
+A455E SNV Exon10 4 2 0 0 0 100
+1525-1G->A SNV Exon11 0 0 1 0 0 100
+S466X (C->A) SNV Exon11 0 0 1 0 0 100
+S466X (C->G) SNV Exon11 1 0 1 0 0 100
+L467P SNV Exon11 0 0 1 0 0 100
+V470M SNV Exon11 311 71 0 0 0 100
+1548delG DIV Exon11 1 0 1 0 0 100
+P477S SNV Exon11 0 1 0 0 0 100
+S485T SNV Exon11 1 0 0 0 0 100
+S489X SNV Exon11 0 0 2 0 0 100
+S492F SNV Exon11 0 0 1 0 0 100
+Q493X SNV Exon11 4 2 0 0 0 100
+I506V SNV Exon11 7 0 0 0 0 100
+I507del DIV Exon11 4 2 0 0 0 100
+F508del DIV Exon11 84 29 0 0 0 100
+I507V SNV Exon11 0 1 0 0 0 100
+F508C SNV Exon11 1 1 0 0 0 100
+1677delTA DIV Exon11 1 0 0 0 0 100
+29
+
+[Table 1 on page 29]
+1078delT	DIV	Exon8	1	1	0	0	0	100
+L320V	SNV	Exon8	1	0	0	0	0	100
+G330X	SNV	Exon8	1	1	0	0	0	100
+R334W	SNV	Exon8	6	1	0	0	0	100
+I336K	SNV	Exon8	0	1	0	0	0	100
+T338I	SNV	Exon8	0	0	1	0	0	100
+1154insTC	DIV	Exon8	0	1	0	0	0	100
+S341P	SNV	Exon8	0	0	1	0	0	100
+R347H	SNV	Exon8	6	1	1	0	0	100
+R347P	SNV	Exon8	3	2	0	0	0	100
+R352Q	SNV	Exon8	5	0	0	0	0	100
+Q359K/T360K	SNV	Exon8	0	0	1	0	0	100
+1213delT	DIV	Exon8	0	0	1	0	0	100
+1248+1G>A	SNV	Intron8	0	0	1	0	0	100
+1259insA	DIV	Exon9	0	0	2	0	0	100
+W401X
+(c.1202G>A)	SNV	Exon9	0	0	1	0	0	100
+W401X
+(c.1203G>A)	SNV	Exon9	0	0	1	0	0	100
+1341+1G->A	SNV	Intron9	0	0	2	0	0	100
+PolyTGPolyT	PolyTG/Po
+lyT	Intron9	369	79	52	3	4#	98.60
+1461ins4	DIV	Exon10	0	0	1	0	0	100
+A455E	SNV	Exon10	4	2	0	0	0	100
+1525-1G->A	SNV	Exon11	0	0	1	0	0	100
+S466X (C->A)	SNV	Exon11	0	0	1	0	0	100
+S466X (C->G)	SNV	Exon11	1	0	1	0	0	100
+L467P	SNV	Exon11	0	0	1	0	0	100
+V470M	SNV	Exon11	311	71	0	0	0	100
+1548delG	DIV	Exon11	1	0	1	0	0	100
+P477S	SNV	Exon11	0	1	0	0	0	100
+S485T	SNV	Exon11	1	0	0	0	0	100
+S489X	SNV	Exon11	0	0	2	0	0	100
+S492F	SNV	Exon11	0	0	1	0	0	100
+Q493X	SNV	Exon11	4	2	0	0	0	100
+I506V	SNV	Exon11	7	0	0	0	0	100
+I507del	DIV	Exon11	4	2	0	0	0	100
+F508del	DIV	Exon11	84	29	0	0	0	100
+I507V	SNV	Exon11	0	1	0	0	0	100
+F508C	SNV	Exon11	1	1	0	0	0	100
+1677delTA	DIV	Exon11	1	0	0	0	0	100
+
+--- Page 30 ---
+V520F SNV Exon11 2 0 0 0 0 100
+Q525X SNV Exon11 0 0 1 0 0 100
+E527E SNV Exon11 3 2 0 0 0 100
+E528E SNV Exon11 6 2 0 0 0 100
+1717-8G->A SNV Intron11 0 0 1 0 0 100
+1717-1G>A SNV Exon12 4 1 0 0 0 100
+G542X SNV Exon12 12 3 0 0 0 100
+S549R
+SNV Exon12 0 0 1 0 0 100
+(c.1645A>C)
+S549N SNV Exon12 2 2 1 0 0 100
+S549R
+SNV Exon12 3 1 0 0 0 100
+(c.1647T>G)
+G551D SNV Exon12 8 3 0 0 0 100
+Q552X SNV Exon12 0 0 1 0 0 100
+R553X SNV Exon12 8 2 0 0 0 100
+I556V SNV Exon12 1 0 0 0 0 100
+L558S SNV Exon12 0 0 1 0 0 100
+A559T SNV Exon12 4 0 1 0 0 100
+R560K SNV Exon12 0 0 1 0 0 100
+R560T SNV Exon12 6 1 0 0 0 100
+1811+1.6kb A->G SNV Intron12 0 0 1 0 0 100
+1812-1 G->A SNV Exon13 0 2 0 0 0 100
+A561T SNV Exon13 1 0 0 0 0 100
+V562I SNV Exon13 1 0 0 0 0 100
+Y569D SNV Exon13 0 0 1 0 0 100
+P574H SNV Exon13 0 1 0 0 0 100
+G576A SNV Exon13 4 1 0 0 0 100
+D579G SNV Exon13 0 0 1 0 0 100
+E585X SNV Exon13 0 0 1 0 0 100
+1898+1G>A SNV Intron13 2 1 0 0 0 100
+1898+3A>G SNV Intron13 0 0 1 0 0 100
+H609R SNV Exon14 0 1 0 0 0 100
+D614G SNV Exon14 0 0 2 0 0 100
+R668C SNV Exon14 5 2 0 0 0 100
+R668H SNV Exon14 1 0 0 0 0 100
+2143delT DIV Exon14 2 1 0 0 0 100
+K684TfsX4 DIV Exon14 0 0 1 0 0 100
+2183AA>G DIV Exon14 3 1 0 0 0 100
+2184delA DIV Exon14 1 1 0 0 0 100
+2184insA DIV Exon14 3 0 1 0 0 100
+S686Y SNV Exon14 0 1 0 0 0 100
+R709X SNV Exon14 1 0 2 0 0 100
+30
+
+[Table 1 on page 30]
+Q525X	SNV	Exon11	0	0	1	0	0	100
+E527E	SNV	Exon11	3	2	0	0	0	100
+E528E	SNV	Exon11	6	2	0	0	0	100
+1717-8G->A	SNV	Intron11	0	0	1	0	0	100
+1717-1G>A	SNV	Exon12	4	1	0	0	0	100
+G542X	SNV	Exon12	12	3	0	0	0	100
+S549R
+(c.1645A>C)	SNV	Exon12	0	0	1	0	0	100
+S549N	SNV	Exon12	2	2	1	0	0	100
+S549R
+(c.1647T>G)	SNV	Exon12	3	1	0	0	0	100
+G551D	SNV	Exon12	8	3	0	0	0	100
+Q552X	SNV	Exon12	0	0	1	0	0	100
+R553X	SNV	Exon12	8	2	0	0	0	100
+I556V	SNV	Exon12	1	0	0	0	0	100
+L558S	SNV	Exon12	0	0	1	0	0	100
+A559T	SNV	Exon12	4	0	1	0	0	100
+R560K	SNV	Exon12	0	0	1	0	0	100
+R560T	SNV	Exon12	6	1	0	0	0	100
+1811+1.6kb A->G	SNV	Intron12	0	0	1	0	0	100
+1812-1 G->A	SNV	Exon13	0	2	0	0	0	100
+A561T	SNV	Exon13	1	0	0	0	0	100
+V562I	SNV	Exon13	1	0	0	0	0	100
+Y569D	SNV	Exon13	0	0	1	0	0	100
+P574H	SNV	Exon13	0	1	0	0	0	100
+G576A	SNV	Exon13	4	1	0	0	0	100
+D579G	SNV	Exon13	0	0	1	0	0	100
+E585X	SNV	Exon13	0	0	1	0	0	100
+1898+1G>A	SNV	Intron13	2	1	0	0	0	100
+1898+3A>G	SNV	Intron13	0	0	1	0	0	100
+H609R	SNV	Exon14	0	1	0	0	0	100
+D614G	SNV	Exon14	0	0	2	0	0	100
+R668C	SNV	Exon14	5	2	0	0	0	100
+R668H	SNV	Exon14	1	0	0	0	0	100
+2143delT	DIV	Exon14	2	1	0	0	0	100
+K684TfsX4	DIV	Exon14	0	0	1	0	0	100
+2183AA>G	DIV	Exon14	3	1	0	0	0	100
+2184delA	DIV	Exon14	1	1	0	0	0	100
+2184insA	DIV	Exon14	3	0	1	0	0	100
+S686Y	SNV	Exon14	0	1	0	0	0	100
+R709X	SNV	Exon14	1	0	2	0	0	100
+
+--- Page 31 ---
+K710X SNV Exon14 3 0 0 0 0 100
+E725K SNV Exon14 2 0 0 0 0 100
+2307insA DIV Exon14 3 0 2 0 0 100
+L732X SNV Exon14 0 0 2 0 0 100
+2347delG DIV Exon14 0 0 2 0 0 100
+P750L SNV Exon14 1 0 0 0 0 100
+V754M SNV Exon14 2 1 0 0 0 100
+R764X SNV Exon14 1 0 2 0 0 100
+2585delT DIV Exon14 0 0 2 0 0 100
+E822X SNV Exon14 0 0 2 0 0 100
+2622+1G>A SNV Intron14 0 0 2 0 0 100
+E831X SNV Exon15 0 0 1 0 0 100
+D836Y SNV Exon15 0 1 0 0 0 100
+W846X SNV Exon15 0 1 0 0 0 100
+R851X SNV Exon15 0 0 1 0 0 100
+T854T SNV Exon15 212 44 0 0 0 100
+2711delT DIV Exon15 0 0 1 0 0 100
+V868V SNV Exon15 2 0 0 0 0 100
+c.2657+2_2657+3
+DIV Intron16 0 0 1 0 0 100
+insA
+2789+5G>A SNV Intron16 9 1 0 0 0 100
+Q890X SNV Exon17 1 0 0 0 0 100
+A923A SNV Exon17 1 0 0 0 0 100
+L927P SNV Exon17 0 0 1 0 0 100
+S945L SNV Exon17 0 0 1 0 0 100
+M952T SNV Exon17 1 0 0 0 0 100
+3007delG DIV Exon17 0 0 1 0 0 100
+T966T SNV Exon17 5 0 0 0 0 100
+G970R SNV Exon17 0 0 1 0 0 100
+S977F SNV Exon18 0 0 1 0 0 100
+3120G>A SNV Exon18 1 0 0 0 0 100
+3120+1G>A SNV Intron18 7 1 0 0 0 100
+CF
+3121-1G->A SNV 0 0 1 0 0 100
+Syn_Ex19
+L997F SNV Exon19 2 1 0 0 0 100
+I1027T SNV Exon19 1 2 0 0 0 100
+3272-26A>G SNV Intron19 0 1 0 0 0 100
+F1052V SNV Exon20 0 1 0 0 0 100
+L1065P SNV Exon20 0 0 1 0 0 100
+R1066C SNV Exon20 6 0 0 0 0 100
+R1066H SNV Exon20 1 0 1 0 0 100
+G1069R SNV Exon20 0 1 0 0 0 100
+31
+
+[Table 1 on page 31]
+E725K	SNV	Exon14	2	0	0	0	0	100
+2307insA	DIV	Exon14	3	0	2	0	0	100
+L732X	SNV	Exon14	0	0	2	0	0	100
+2347delG	DIV	Exon14	0	0	2	0	0	100
+P750L	SNV	Exon14	1	0	0	0	0	100
+V754M	SNV	Exon14	2	1	0	0	0	100
+R764X	SNV	Exon14	1	0	2	0	0	100
+2585delT	DIV	Exon14	0	0	2	0	0	100
+E822X	SNV	Exon14	0	0	2	0	0	100
+2622+1G>A	SNV	Intron14	0	0	2	0	0	100
+E831X	SNV	Exon15	0	0	1	0	0	100
+D836Y	SNV	Exon15	0	1	0	0	0	100
+W846X	SNV	Exon15	0	1	0	0	0	100
+R851X	SNV	Exon15	0	0	1	0	0	100
+T854T	SNV	Exon15	212	44	0	0	0	100
+2711delT	DIV	Exon15	0	0	1	0	0	100
+V868V	SNV	Exon15	2	0	0	0	0	100
+c.2657+2_2657+3
+insA	DIV	Intron16	0	0	1	0	0	100
+2789+5G>A	SNV	Intron16	9	1	0	0	0	100
+Q890X	SNV	Exon17	1	0	0	0	0	100
+A923A	SNV	Exon17	1	0	0	0	0	100
+L927P	SNV	Exon17	0	0	1	0	0	100
+S945L	SNV	Exon17	0	0	1	0	0	100
+M952T	SNV	Exon17	1	0	0	0	0	100
+3007delG	DIV	Exon17	0	0	1	0	0	100
+T966T	SNV	Exon17	5	0	0	0	0	100
+G970R	SNV	Exon17	0	0	1	0	0	100
+S977F	SNV	Exon18	0	0	1	0	0	100
+3120G>A	SNV	Exon18	1	0	0	0	0	100
+3120+1G>A	SNV	Intron18	7	1	0	0	0	100
+3121-1G->A	SNV	CF
+Syn_Ex19	0	0	1	0	0	100
+L997F	SNV	Exon19	2	1	0	0	0	100
+I1027T	SNV	Exon19	1	2	0	0	0	100
+3272-26A>G	SNV	Intron19	0	1	0	0	0	100
+F1052V	SNV	Exon20	0	1	0	0	0	100
+L1065P	SNV	Exon20	0	0	1	0	0	100
+R1066C	SNV	Exon20	6	0	0	0	0	100
+R1066H	SNV	Exon20	1	0	1	0	0	100
+G1069R	SNV	Exon20	0	1	0	0	0	100
+
+--- Page 32 ---
+R1070W SNV Exon20 0 2 0 0 0 100
+R1070Q SNV Exon20 0 1 0 0 0 100
+L1077P SNV Exon20 0 0 1 0 0^ 100
+W1089X SNV Exon20 4 0 0 0 0 100
+Y1092X (C>A) SNV Exon20 3 1 0 0 0 100
+Y1092X (C>G) SNV Exon20 0 0 1 0 0 100
+T1095T SNV Exon20 7 0 0 0 0 100
+M1101K SNV Exon20 2 2 0 0 0 100
+E1104X SNV Exon20 0 0 1 0 0 100
+c.3368-2A>T SNV Intron20 0 1 0 0 0 100
+D1152H SNV Exon21 10 1 0 0 0 100
+V1153E SNV Exon21 1 0 0 0 0 100
+R1158X SNV Exon22 7 1 0 0 0 100
+R1162X SNV Exon22 5 1 0 0 0 100
+R1162L SNV Exon22 0 2 0 0 0 100
+3659delC DIV Exon22 4 1 0 0 0 100
+S1196X SNV Exon22 1 0 0 0 0 100
+W1204X
+SNV Exon22 0 0 1 0 0 100
+(c.3611G>A)
+W1204X
+SNV Exon22 0 0 1 0 0 100
+(c.3612G>A)
+3791delC DIV Exon22 2 0 0 0 0 100
+I1234V SNV Exon22 1 0 1 0 0 100
+S1235R SNV Exon22 9 1 0 0 0 100
+3849+10kbC>T SNV Intron22 11 2 0 0 0 100
+G1244E SNV Exon23 0 0 1 0 0 100
+3876delA DIV Exon23 6 1 0 0 0 100
+S1251N SNV Exon23 1 0 1 0 0 100
+3905insT DIV Exon23 3 1 0 0 0 100
+D1270N SNV Exon23 0 2 0 0 0 100
+W1282X SNV Exon23 9 1 0 0 0 100
+P1290P SNV Exon23 10 3 0 0 0 100
+4005+1G->A SNV Intron23 0 0 1 0 0 100
+4016insT DIV Exon24 0 0 1 0 0 100
+T1299T SNV Exon24 3 0 0 0 0 100
+N1303K SNV Exon24 9 1 0 0 0 100
+Q1313X SNV Exon24 0 0 1 0 0 100
+G1349D SNV Exon25 0 1 0 0 0 100
+4209TGTT>AA DIV Exon25 0 0 1 0 0 100
+CFTRdele22,23 Del Intron24 1 0 1 0 0 100
+4382delA DIV Exon27 0 0 1 0 0 100
+Y1424Y SNV Exon27 6 2 0 0 0 100
+32
+
+[Table 1 on page 32]
+R1070Q	SNV	Exon20	0	1	0	0	0	100
+L1077P	SNV	Exon20	0	0	1	0	0^	100
+W1089X	SNV	Exon20	4	0	0	0	0	100
+Y1092X (C>A)	SNV	Exon20	3	1	0	0	0	100
+Y1092X (C>G)	SNV	Exon20	0	0	1	0	0	100
+T1095T	SNV	Exon20	7	0	0	0	0	100
+M1101K	SNV	Exon20	2	2	0	0	0	100
+E1104X	SNV	Exon20	0	0	1	0	0	100
+c.3368-2A>T	SNV	Intron20	0	1	0	0	0	100
+D1152H	SNV	Exon21	10	1	0	0	0	100
+V1153E	SNV	Exon21	1	0	0	0	0	100
+R1158X	SNV	Exon22	7	1	0	0	0	100
+R1162X	SNV	Exon22	5	1	0	0	0	100
+R1162L	SNV	Exon22	0	2	0	0	0	100
+3659delC	DIV	Exon22	4	1	0	0	0	100
+S1196X	SNV	Exon22	1	0	0	0	0	100
+W1204X
+(c.3611G>A)	SNV	Exon22	0	0	1	0	0	100
+W1204X
+(c.3612G>A)	SNV	Exon22	0	0	1	0	0	100
+3791delC	DIV	Exon22	2	0	0	0	0	100
+I1234V	SNV	Exon22	1	0	1	0	0	100
+S1235R	SNV	Exon22	9	1	0	0	0	100
+3849+10kbC>T	SNV	Intron22	11	2	0	0	0	100
+G1244E	SNV	Exon23	0	0	1	0	0	100
+3876delA	DIV	Exon23	6	1	0	0	0	100
+S1251N	SNV	Exon23	1	0	1	0	0	100
+3905insT	DIV	Exon23	3	1	0	0	0	100
+D1270N	SNV	Exon23	0	2	0	0	0	100
+W1282X	SNV	Exon23	9	1	0	0	0	100
+P1290P	SNV	Exon23	10	3	0	0	0	100
+4005+1G->A	SNV	Intron23	0	0	1	0	0	100
+4016insT	DIV	Exon24	0	0	1	0	0	100
+T1299T	SNV	Exon24	3	0	0	0	0	100
+N1303K	SNV	Exon24	9	1	0	0	0	100
+Q1313X	SNV	Exon24	0	0	1	0	0	100
+G1349D	SNV	Exon25	0	1	0	0	0	100
+4209TGTT>AA	DIV	Exon25	0	0	1	0	0	100
+CFTRdele22,23	Del	Intron24	1	0	1	0	0	100
+4382delA	DIV	Exon27	0	0	1	0	0	100
+Y1424Y	SNV	Exon27	6	2	0	0	0	100
+
+--- Page 33 ---
+Q1463Q SNV Exon27 150 32 0 0 0 100
+Total All Variants (PPA) 2072 3 4 99.66
+Total All WT (NPA) 2600928a 1 2** 100.00
+Total All WT and Variants (OA) 2603000 4 6 100.00
+Bold = ACMG recommended variants
+¤Samples were not retested.
+* The Sanger report listed the P205S variant as heterozygous for the clinical sample. A review of
+the Sanger trace data however indicated that the variant was in fact homozygous and incorrectly
+reported. MiSeqDx reported the variant as homozygous.
+#One of the discordant results was from the reproducibility study. The PolyTG/PolyT result for
+the sample was concordant
+across all 18 replicates, but discordant with Sanger bi-directional sequencing.
+^ The original synthetic heterozygous specimen was determined to be improperly prepared. When
+it was subsequently tested after it was re-prepared, using the same plasmid, it would be detected.
+** A synthetic sample heterozygous for exon 8 was reported as heterozygous for the variant CFTR
+dele22, 23. Further investigation revealed that this result was likely from low level contamination.
+Additionally, for a second sample, Sanger primers could not fully detect the variant Q1463Q due
+to indels both upstream and downstream of the variant site.
+a Covers all 5206 callable positions interrogated by the assay
+PolyTG/PolyT Accuracy:
+Twenty-three different PolyTG/PolyT genotypes were examined across 448 samples.
+The resulting variant calls for each sample were compared to bi-directional
+sequencing. Four samples were discordant with bi-directional sequencing results.
+Each of the discordances was noted to be within ±1 PolyTG relative to the bi-
+directional sequencing results. The accuracy of the PolyTG/PolyT results were
+assessed for all the samples included in the study and a demonstrated a miscall rate of
+0.89% (4/448).
+Table 5: Accuracy for the PolyTG/PolyT Tract Variants
+Clinical Cell Line Synthetic # # No %
+Genotype Samples Samples Samples Miscalls Calls Accuracy
+(TG)9(T)7/(TG)11(T)7 2 0 0 0 1 50.0
+(TG)9(T)9/(TG)10(T)7 1 0 0 0 0 100
+(TG)9(T)9/(TG)11(T)7 5 1 0 0 0 100
+(TG)9(T)9/(TG)11(T)9 1 0 0 0 0 100
+(TG)10(T)7/(TG)10(T)7 25 8 0 0 0 100
+(TG)10(T)7/(TG)10(T)9 39 16 0 0 0 100
+(TG)10(T)7/(TG)11(T)5 2 0 0 0 0 100
+(TG)10(T)7/(TG)11(T)7 72 11 0 0 0 100.0
+(TG)10(T)7/(TG)12(T)5 1 0 0 0 0 100
+(TG)10(T)7/(TG)12(T)7 10 1 0 0 1 90.9
+(TG)10(T)9/(TG)10(T)9 7 6 0 0 0 100
+33
+
+[Table 1 on page 33]
+Total All Variants (PPA)	2072	3	4	99.66
+Total All WT (NPA)	2600928a	1	2**	100.00
+Total All WT and Variants (OA)	2603000	4	6	100.00
+
+[Table 2 on page 33]
+				Clinical			Cell Line			Synthetic			#	s		# No			%	
+	Genotype			Samples			Samples			Samples			Miscall			Calls			Accuracy	
+(TG)9(T)7/(TG)11(T)7			2			0			0			0			1			50.0		
+(TG)9(T)9/(TG)10(T)7			1			0			0			0			0			100		
+(TG)9(T)9/(TG)11(T)7			5			1			0			0			0			100		
+(TG)9(T)9/(TG)11(T)9			1			0			0			0			0			100		
+(TG)10(T)7/(TG)10(T)7			25			8			0			0			0			100		
+(TG)10(T)7/(TG)10(T)9			39			16			0			0			0			100		
+(TG)10(T)7/(TG)11(T)5			2			0			0			0			0			100		
+(TG)10(T)7/(TG)11(T)7			72			11			0			0			0			100.0		
+(TG)10(T)7/(TG)12(T)5			1			0			0			0			0			100		
+(TG)10(T)7/(TG)12(T)7			10			1			0			0			1			90.9		
+(TG)10(T)9/(TG)10(T)9			7			6			0			0			0			100		
+
+--- Page 34 ---
+Clinical Cell Line Synthetic # # No %
+Genotype Samples Samples Samples Miscalls Calls Accuracy
+(TG)10(T)9/(TG)11(T)5 5 0 0 0 0 100
+(TG)10(T)9/(TG)11(T)7 76 20 0 0 0 100.0
+(TG)10(T)9/(TG)11(T)9 3 0 0 0 0 100
+(TG)10(T)9/(TG)12(T)5 3 2 0 0 0 100
+(TG)10(T)9/(TG)12(T)7 13 0 0 0 1 92.3
+(TG)11(T)5/(TG)11(T)7 6 0 0 1 0 83.3
+(TG)11(T)7/(TG)11(T)7 52 8 0 0 0 100
+(TG)11(T)7/(TG)11(T)9 2 1 0 3 0 0.0
+(TG)11(T)7/(TG)12(T)5 2 0 0 0 0 100
+(TG)11(T)7/(TG)12(T)7 37 3 0 0 0 100
+(TG)11(T)9/(TG)12(T)7 3 0 0 0 0 100.0
+(TG)12(T)7/(TG)12(T)7 2 2 0 0 0 100
+Total 448 4 3 98.44
+b. Matrix comparison:
+Not applicable
+3. Clinical studies:
+a. Clinical Sensitivity and Specificity:
+The clinical sensitivity and specificity can be estimated based on the information
+from the CFTR2 database (as of August 2013) as published in Sosnay PR et al.,
+“Defining the disease liability of variants in the cystic fibrosis transmembrane
+conductance regulator gene” Nat. Genet., published online on 25 August 2013;
+doi:10.1038/ng.2745.
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+Cystic fibrosis is the most common autosomal recessive disorder in the Caucasian
+population with an incidence of approximately 1 in 3,200 live births. The incidence of CF
+in other ethnic groups varies: approximately 1 in 9,500 in Hispanics, 1 in 15,300 in
+African Americans, and 1 in 32,100 in Asian Americans. Variants identified by this assay
+will vary in frequency among different populations.
+N. Instrument Name:
+MiSeqDx Instrument
+34
+
+[Table 1 on page 34]
+				Clinical			Cell Line			Synthetic			#			# No			%	
+	Genotype			Samples			Samples			Samples			Miscalls			Calls			Accuracy	
+(TG)10(T)9/(TG)11(T)5			5			0			0			0			0			100		
+(TG)10(T)9/(TG)11(T)7			76			20			0			0			0			100.0		
+(TG)10(T)9/(TG)11(T)9			3			0			0			0			0			100		
+(TG)10(T)9/(TG)12(T)5			3			2			0			0			0			100		
+(TG)10(T)9/(TG)12(T)7			13			0			0			0			1			92.3		
+(TG)11(T)5/(TG)11(T)7			6			0			0			1			0			83.3		
+(TG)11(T)7/(TG)11(T)7			52			8			0			0			0			100		
+(TG)11(T)7/(TG)11(T)9			2			1			0			3			0			0.0		
+(TG)11(T)7/(TG)12(T)5			2			0			0			0			0			100		
+(TG)11(T)7/(TG)12(T)7			37			3			0			0			0			100		
+(TG)11(T)9/(TG)12(T)7			3			0			0			0			0			100.0		
+(TG)12(T)7/(TG)12(T)7			2			2			0			0			0			100		
+Total			448									4			3			98.44		
+
+--- Page 35 ---
+O. System Descriptions:
+1. Modes of Operation:
+The MiSeqDx instrument requires limited user interaction to operate and commence a
+sequencing run. The software uses a graphical interface to walk the user step-by-step
+through loading of the reagents for a run (i.e., flow cell, reagent cartridge, and PR2
+buffer) and empty the waste bottle. The system then automatically initializes the fluidics
+and optics, performs cluster generation, and commences the sequencing by synthesis
+cycles while acquiring data.
+The MiSeqDx system consists of four software applications that are installed on the
+instrument [MiSeq Operating Software (MOS); and Real Time Analysis (RTA), MiSeq
+Reporter (MRS), and MiSeq Test Software (MTS)] and two software applications
+[Illumina Worklist Manager (IWM) and User Management Software (UMS)] that are
+installed on user supplied personal computers. The MTS is only utilized by field service
+personnel and the MRS may also be installed on user supplied personal computers for off
+instrument analysis. The IWM software is used to create a sample sheet during library
+preparation and the UMS is used to grant various access level permissions to users. The
+MiSeq Operating Software (MOS) supports the ability to setup and run the sequencing
+workflow and save the resulting files for image processing and base calling (primary data
+analysis) performed by RTA software and MRS which performs de-multiplexing,
+alignment, variant calling, and report generation (secondary data analyses).
+The MiSeqDx software utilizes assay specific radio-frequency identifier (RFID) tagged
+reagents and consumables which enables it to automatically select and configure the
+appropriate run type to match the kit being used and control the in vitro diagnostic
+workflow. The RFID tag allows the system to ensure that the correct consumable type is
+being used and this information is stored as part of the instrument run-log for traceability
+purposes.
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes ___x_____ or No ________
+3. Specimen Identification:
+The MiSeqDx Cystic Fibrosis Clinical Sequencing Assay kit contains materials sufficient
+for up to 48 samples per kit. Eight samples, including controls, must be analyzed for each
+run, and the kit contains sufficient reagents for 6 runs. If 6 patient samples and 2 controls
+are not available for a run, the remaining samples can be made up with normal genomic
+DNA. Three unique index i7 reverse PCR primers (named A701, A702, and A710) and
+three unique index i5 forward PCR primers (named A503-A505) for universal
+35
+
+--- Page 36 ---
+amplification of the ligated products are included. These are added during the library
+preparation process. The sample sheet, a file that the end user provides the software,
+contains the link between each of the sample names and their associated index sequences.
+After completion of the sequencing run, MiSeqDx CF Reporter software de-multiplexes
+the samples using the index sequences and creates FASTQ files as the data analysis
+output for sequence alignment and variant calling.
+4. Specimen Sampling and Handling:
+Samples are handled manually prior to being placed on the instrument. The test begins
+with the isolation of gDNA from a peripheral whole blood sample. The gDNA is then
+quantified and qualified prior to being processed through the library preparation step.
+This step specifically amplifies the intended genomic regions of each sample while also
+adding the indexes (for sample identification). The library is then processed to remove
+any remaining preparation reagents (e.g., unused primers). It is then normalized, to
+ensure that each library is equally represented, and pooled. The resulting sample libraries
+are then transferred into a MiSeq reagent cartridge which contains all of the reagents
+required for cluster generation and SBS. The MiSeqDx Reagent Cartridge, MiSeqDx
+Flow Cell, and MiSeqDx SBS Solution are then inserted into the MiSeqDx instrument,
+which performs cluster generation, sequencing and data analysis.
+5. Calibration:
+There is no end-user calibration of the system. During installation of the platform, a
+company representative (Field Applications Scientist) begins a series of tests to validate
+the performance of the instrument subsystems, which include optical alignment, fluidic
+delivery, and thermal calibration, among others. In the case of a test failure, the MiSeqDx
+company representative uses a set of instrument-specific tools to adjust and/or repair the
+instrument to meet operational specifications. Re-calibration occurs during the
+preventive maintenance visit.
+6. Quality Control:
+An internal control, bacteriophage PhiX (ΦX174) gDNA is added at the end of the library
+preparation step, prior to library pooling and placement on the instrument. Successful
+sequencing of the PhiX genome indicates that the sequencing chemistry worked as
+expected.
+Illumina requires that one positive control DNA sample and a negative control [No
+Template Control (NTC)] be included in every run, which is defined as a set of samples
+processed in parallel. The positive control DNA sample should be a well-characterized
+sample with one or more known CFTR variants and positive controls should be rotated in
+a manner consistent with the 2008 ACMG Technical Standards and Guidelines for CF
+mutation testing and the 2013 ACMG clinical laboratory standards for next-generation
+sequencing. The use of a wild type control, run as a sample, is recommended, but it
+should not replace the positive or negative control.
+36
+
+--- Page 37 ---
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+1. Validation of PCR Method Used for Large Deletion Confirmation in Accuracy Studies:
+The assay reports on 2 large deletions within the CFTR gene. Because Sanger
+sequencing is not designed to detect large deletions, a PCR assay was validated as a
+confirmatory method for large deletion detection.
+For each deletion, a duplex PCR containing 2 primer sets was used. One primer set
+flanks the deletion breakpoints while the other amplifies a region internal to the deletion.
+Therefore, homozygotes will have one PCR product while heterozygotes will have 2
+which are detected by size separation on an agarose gel.
+In order to validate this assay, a panel of 22 samples was tested. The panel consisted of
+cell line gDNA samples, blood-derived gDNA samples, and synthetic plasmids. No
+clinical samples were used in the validation studies because these variants are quite rare
+(~250 for dele2,3 and 9 for dele22,23 in the CFTR2 database). Plasmids were generated
+such that they contain the gDNA in the context of the deletion and 300bp on either side.
+The plasmids were either used as is, or were blended with cell line gDNA to give
+synthetic heterozygote samples.
+The following studies were performed to validate the assay:
+· Accuracy: PCR products were Sanger sequenced to confirm identity
+· Specificity: Based on the presence of only 2 bands of expected size
+· Reproducibility: For intra-run 8 replicates each of 6 samples from the 22 sample
+set were tested in a single run for both assays. For inter-run, the set of 22 samples
+3 times
+· Robustness: DNA quality robustness was assessed with 6 DNA samples that
+underwent freeze/thaw 6 times. DNA quantity robustness was assessed with WT,
+het, and homozygous samples of each deletion tested at 7 different DNA inputs
+(from 10x to 0.1x).
+All testing met acceptance criteria.
+2. Library Normalization:
+The library normalization step of the assay was validated retrospectively by testing the
+following parameters.
+· Intra and inter-run reproducibility
+· Repeatability
+· Working DNA input range in which normalization works effectively
+· Robustness of library normalization method
+37
+
+--- Page 38 ---
+All testing met acceptance criteria based on call rate.
+3. G/C content:
+In order to determine if certain regions of the CFTR gene had unusually high G/C content
+such that a separate evaluation of assay performance would need to be done in this genomic
+context, the G/C contend of the targeted regions in CFTR was provided. As can be seen
+from the chart below, the G/C content of CFTR for the regions analyzed in this assay is
+generally below 50%.
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+38

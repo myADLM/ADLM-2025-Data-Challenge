@@ -1,0 +1,1634 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION MEMORANDUM
+A. 510(k) Number:
+k140691
+B. Purpose for Submission:
+New assay and instrument
+C. Measurand:
+Autoantibodies to deamidated gliadin peptide (DGP) IgG and IgA classes
+Autoantibodies to tissue transglutaminase (tTG) IgG and IgA classes
+D. Type of Test:
+Multiplexed Immunoassay
+E. Applicant:
+SQI Diagnostic Systems, Inc.
+F. Proprietary and Established Names:
+SQI Ig_plex Celiac DGP Panel
+G. Regulatory Information:
+1. Regulation section:
+21 CFR §866.5750: Radioallergosorbent (RAST) immunological test system
+21 CFR§866.5660: Multiple autoantibodies immunological test system
+21 CFR §862.2570: Instrumentation for Clinical Multiplex Test Systems
+2. Classification:
+Class II
+3. Product code:
+MST: Antibodies, gliadin
+MVM: Autoantibodies, Endomysial (Tissue transglutaminase)
+NSU: Instrumentation for Clinical Multiplex Test Systems
+1
+
+--- Page 2 ---
+4. Panel:
+Immunology (82)
+H. Intended Use:
+1. Intended use(s):
+The Ig_plex Celiac DGP Panel is an in vitro diagnostic test for the semi-quantitative
+detection of the IgA and IgG immunoglobulin classes of antibodies to deamidated gliadin
+peptide (DGP) and tissue transglutaminase (tTG) in human serum. The test is intended
+for use in clinical laboratories as an aid in the diagnosis of celiac disease in conjunction
+with other laboratory and clinical findings, and requires the sqid-X system.
+2. Indication(s) for use:
+Same as intended use.
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+For use on the sqid-X system
+I. Device Description:
+1. Microarray plate: 1 package, storage 2-8°C
+The Ig_plex Celiac DGP Panel microarray plate consists of an array of capture replicate
+spots, covalently bound to the surface of coated glass within each well of a
+96-well SBS compliant assay plate. All wells have the identical eight by eight grid
+containing:
+o Eighteen (18) capture spots each of DGP and tTG
+o Six (6) capture spots each of human IgG control and human IgA/IgG mix control
+o Four (4) spots of Dy649-BSA
+o Twelve (12) blanks
+The control IgG and IgG/IgA captures are used to confirm that the reporter mix is
+performing within specification and for other internal quality checks. The fluorescently
+tagged BSA spots are used as “Landing Lights” for the spot finding algorithm’s grid
+registration. The spots are approximately 200µm in diameter. The outer plate holder is
+labeled with a barcode indicating the control number which the system reads to identify the
+assay type and lot number.
+2. Reporter mix: mouse or goat anti-human antibodies, fluorescently labeled with Cy5 or
+Cy3 1 amber bottle, store ≤ -15°C
+2
+
+--- Page 3 ---
+3. Standards: Eight (8) 2.0 mL tubes, store ≤ -15°C
+4. Positive Control #1: Human One (1) 2.0 mL tube, store ≤ -15°C
+5. Positive Control #2:- Human One (1) 2.0 mL tube, store ≤ -15°C
+6. Negative Control: One (1) 2.0 mL tube, store ≤ -15°C
+7. Sample Diluent: Three (3) Translucent bottles, store ≤ -15°C
+8. Wash Buffer Concentrates: Four (4) Translucent bottles, store 2-8°C
+9. Ig_plex software: The Ig_plex configuration software contains several modules: washer,
+scanner, spot finding algorithm, data analysis algorithm, report generation algorithm, and
+the user interface.
+10. The sqid-X system consists of the following components:
+Component Description Manufacturer
+FLAIR™ Scanner High resolution plate imaging instrument Sensovation AG
+ELx405UCWVS™ BioTek Instruments
+Microarray plate washing instrument
+Plate Washer Inc.
+SQI Diagnostics
+Drying Station Microarray plate final drying station
+Systems Inc.
+ME 4C NT Vario Vacuum pump for drying microarray VacuuBrand Inc.
+P l
+Microplate Shaker Plate shaker used during incubation steps VWR
+Computer running Microsoft Windows™ Hewlett Packard,
+Computer System
+XP with peripherals Microsoft etc.
+SQI Diagnostics
+sqid-X software Ig_plex Celiac DGP panel configuration
+Systems Inc.
+The system combines manual liquid handling (samples and reagents) including sample
+pipetting into the plate, with automated steps for washing, scanning, data analyses and
+reporting. Results for each patient sample are obtained simultaneously and independently for
+each of the four Ig_plex Celiac DGP Panel markers: DGP IgA, DGP IgG, tTG IgA and tTG
+IgG using the data from one well containing one sample of the patient’s serum. The system
+uses an integrated hardware and software solution to create a procedure that is semi-
+automated. The system is configured with assay specific software to perform the automated
+steps of the assay protocol.
+J. Substantial Equivalence Information:
+1. Predicate device names and numbers:
+Assays:
+INOVA Diagnostics Inc. Quanta Lite™ Gliadin IgA II ELISA (k052143); Quanta Lite™
+Gliadin IgG II ELISA (k052142); Quanta Lite™ h-tTG IgA ELISA (k011566) and
+Quanta Lite™ h-tTG IgG ELISA (k011570)
+Instrument: SQI Diagnostics SQiDworks Diagnostics Platform (k102490).
+3
+
+[Table 1 on page 3]
+Component	Description	Manufacturer
+FLAIR™ Scanner	High resolution plate imaging instrument	Sensovation AG
+ELx405UCWVS™
+Plate Washer	Microarray plate washing instrument	BioTek Instruments
+Inc.
+Drying Station	Microarray plate final drying station	SQI Diagnostics
+Systems Inc.
+ME 4C NT Vario	Vacuum pump for drying microarray	VacuuBrand Inc.
+P
+Microplate Shaker	l
+Plate shaker used during incubation steps	VWR
+Computer System	Computer running Microsoft Windows™
+XP with peripherals	Hewlett Packard,
+Microsoft etc.
+sqid-X software	Ig_plex Celiac DGP panel configuration	SQI Diagnostics
+Systems Inc.
+
+--- Page 4 ---
+2. Comparison with predicate:
+Similarities- All devices
+Item Device Predicates
+Quanta Quanta Quanta
+SQI Ig_plex Quanta Lite™
+Lite™ Lite™ Lite™ h-tTG
+Celiac DGP h-tTG IgA
+Gliadin IgA Gliadin IgG IgA
+Panel (k011566)
+II (k052143) II (k052142) (k011570)
+Intended Use Detection of
+autoantibodies
+to aid in the Same Same Same Same
+diagnosis of
+celiac disease.
+Assay format Semi-
+quantitative,
+manual Same Same Same Same
+washing and
+preparation
+Sample Human serum Same Same Same Same
+Assay substrate 96-well plate Same Same Same Same
+Calibration On each plate Same Same Same Same
+Differences- All devices
+Item Device Predicates
+Quanta Quanta
+Quanta Quanta
+SQI Ig_plex Lite™ Lite™
+Lite™ h-tTG Lite™ h-tTG
+Celiac DGP Gliadin Gliadin
+IgA IgA
+Panel IgA II IgG II
+(k011566) (k011566)
+(k052143) (k052142)
+Sample Dilution 1:151 1:101 1:101 1:101 1:101
+Automation Semi-
+Manual Manual Manual Manual
+automated
+Technology Microarray-
+based
+ELISA ELISA ELISA ELISA
+Fluorescence
+detection
+Mutiplexed assay
+Yes No No No No
+Shelf life Stability Not stated Not stated
+6 months One year One year
+in months in months
+Controls/Standards Eight Three Three Three Three
+standards, controls: controls: controls: controls:
+three controls: Negative Negative Negative Negative
+Negative, High High High High
+Positive #1 and positive, positive, positive, positive,
+Positive #2 low low low positive low positive
+positive positive
+4
+
+[Table 1 on page 4]
+Similarities- All devices											
+	Item			Device			Predicates				
+			SQI Ig_plex
+Celiac DGP
+Panel			Quanta
+Lite™
+Gliadin IgA
+II (k052143)		Quanta
+Lite™
+Gliadin IgG
+II (k052142)	Quanta Lite™
+h-tTG IgA
+(k011566)	Quanta
+Lite™ h-tTG
+IgA
+(k011570)	
+Intended Use			Detection of
+autoantibodies
+to aid in the
+diagnosis of
+celiac disease.			Same		Same	Same	Same	
+Assay format			Semi-
+quantitative,
+manual
+washing and
+preparation			Same		Same	Same	Same	
+Sample			Human serum			Same		Same	Same	Same	
+Assay substrate			96-well plate			Same		Same	Same	Same	
+Calibration			On each plate			Same		Same	Same	Same	
+
+[Table 2 on page 4]
+Differences- All devices										
+Item			Device			Predicates				
+		SQI Ig_plex
+Celiac DGP
+Panel			Quanta
+Lite™
+Gliadin
+IgA II
+(k052143)		Quanta
+Lite™
+Gliadin
+IgG II
+(k052142)	Quanta
+Lite™ h-tTG
+IgA
+(k011566)	Quanta
+Lite™ h-tTG
+IgA
+(k011566)	
+Sample Dilution		1:151			1:101		1:101	1:101	1:101	
+Automation		Semi-
+automated			Manual		Manual	Manual	Manual	
+Technology		Microarray-
+based
+Fluorescence
+detection			ELISA		ELISA	ELISA	ELISA	
+Mutiplexed assay		Yes			No		No	No	No	
+Shelf life Stability		6 months			Not stated
+in months		Not stated
+in months	One year	One year	
+Controls/Standards		Eight
+standards,
+three controls:
+Negative,
+Positive #1 and
+Positive #2			Three
+controls:
+Negative
+High
+positive,
+low
+positive		Three
+controls:
+Negative
+High
+positive,
+low
+positive	Three
+controls:
+Negative
+High
+positive,
+low positive	Three
+controls:
+Negative
+High
+positive,
+low positive	
+
+--- Page 5 ---
+Device-specific similarities and differences
+Ig_plex Celiac Panel DGP Quanta Lite™ Gliadin IgA II
+Item
+IgA (k052143)
+Deamidated gliadin peptide (DGP) IgA
+Analyte Gliadin IgA antibodies
+antibodies
+Capture antigen Synthetic DGP Similar
+Measuring range 8.0–110.0 U/mL Not specified
+Cut-off 15.0 U/mL 20.0 U/mL
+Device-specific similarities and differences
+Ig_plex Celiac DGP Panel Quanta LITE™ Gliadin IgG II
+Item
+DGP IgG (k052142)
+Deamidated gliadin peptide (DGP) IgG
+Analyte Gliadin IgG antibodies
+antibodies
+Capture antigen Synthetic DGP Similar
+Measuring range 9.0–120.0 U/mL Not specified
+Cut-off 13.0 U/mL 20.0 U/mL
+Device-specific similarities and differences
+Ig_plex Celiac DGP Panel Quanta Lite™ h-tTG IgA
+Item
+tTGIgA (k011566)
+Tissue transglutaminase (tTG) IgA Human tissue Transglutaminase (h-
+Analyte
+antibodies tTG) IgA antibodies
+Capture antigen Recombinant human tTG Native human red blood cell tTG
+Measuring range 16.0–140.0 U/mL Not specified
+Cut-off 20.0 U/mL 20.0 U/mL
+Device-specific similarities and differences
+Ig_plex Celiac DGP Panel Quanta Lite™ h-tTG IgG
+Item
+tTG IgG (k011570)
+Tissue transglutaminase (tTG) IgG Human tissue Transglutaminase (h-
+Analyte
+antibody. tTG) IgG antibodies
+Capture antigen Recombinant human tTG Native human red blood cell tTG
+Measuring range 24.0–100.0 U/mL Not specified
+Cut-off 36.0 U/mL 20.0 U/mL
+5
+
+[Table 1 on page 5]
+Device-specific similarities and differences		
+	Ig_plex Celiac Panel DGP	Quanta Lite™ Gliadin IgA II
+Item		
+	IgA	(k052143)
+		
+Analyte	Deamidated gliadin peptide (DGP) IgA
+antibodies	Gliadin IgA antibodies
+Capture antigen	Synthetic DGP	Similar
+Measuring range	8.0–110.0 U/mL	Not specified
+Cut-off	15.0 U/mL	20.0 U/mL
+
+[Table 2 on page 5]
+Device-specific similarities and differences		
+	Ig_plex Celiac DGP Panel	Quanta LITE™ Gliadin IgG II
+Item		
+	DGP IgG	(k052142)
+		
+Analyte	Deamidated gliadin peptide (DGP) IgG
+antibodies	Gliadin IgG antibodies
+Capture antigen	Synthetic DGP	Similar
+Measuring range	9.0–120.0 U/mL	Not specified
+Cut-off	13.0 U/mL	20.0 U/mL
+
+[Table 3 on page 5]
+Device-specific similarities and differences		
+	Ig_plex Celiac DGP Panel	Quanta Lite™ h-tTG IgA
+Item		
+	tTGIgA	(k011566)
+		
+Analyte	Tissue transglutaminase (tTG) IgA
+antibodies	Human tissue Transglutaminase (h-
+tTG) IgA antibodies
+Capture antigen	Recombinant human tTG	Native human red blood cell tTG
+Measuring range	16.0–140.0 U/mL	Not specified
+Cut-off	20.0 U/mL	20.0 U/mL
+
+[Table 4 on page 5]
+Device-specific similarities and differences		
+	Ig_plex Celiac DGP Panel	Quanta Lite™ h-tTG IgG
+Item		
+	tTG IgG	(k011570)
+		
+Analyte	Tissue transglutaminase (tTG) IgG
+antibody.	Human tissue Transglutaminase (h-
+tTG) IgG antibodies
+Capture antigen	Recombinant human tTG	Native human red blood cell tTG
+Measuring range	24.0–100.0 U/mL	Not specified
+Cut-off	36.0 U/mL	20.0 U/mL
+
+--- Page 6 ---
+SQiDworks Diagnostics
+Item Sqid-X platform
+Platform
+Sample, Reagent and
+Manual Automated
+Plate Handling
+Multichannel fluorescence LED Multichannel fluorescence CCD
+Detector
+camera scanner camera scanner
+K. Standard/Guidance Document Referenced (if applicable):
+1. CLSI EP05-A2: Evaluation of Precision Performance of Quantitative Measurement
+Methods; Approved Guideline
+2. CLSI EP06-A: Evaluation of the Linearity of Quantitative Analytical Methods
+3. CLSI EP07-A2: Interference Testing in Clinical Chemistry, Approved Guideline
+4. CLSI EP09-A2: Method Comparison Bias Estimate using Patient Samples
+5. CLSI C28-A3: Defining, Establishing, and Verifying Reference Interval s in the Clinical
+Laboratory; Approved Guideline- Third Edition
+6. CLSI EP17-A: Protocols for Determination of Limits of Detection and Limits of
+Quantitation, Approved Guideline
+L. Test Principle:
+The system is a multiplex immunoassay analyzer that semi-automates the protocol of a
+specific Ig_plex assay from plate washing to reporting of all assay markers for each
+individual patient sample. The system combines manual liquid handling (samples and
+reagents) with automated steps for washing, scanning, data analyses and reporting.
+The system uses graphical user interface software to lead the operator through manual
+sample, reagent, and plate handling operations. The software controls the instruments,
+analysis and reporting using the same core software as the predicate instrument. The sqid-X
+software also provides access to maintenance procedures.
+The system controls the washer to ensure that the same wash programs are used every time
+and in the correct sequence. Once the assay’s biochemical reactions are complete and the
+plate is placed in the scanner, the instrument automatically performs a multi- wavelength
+fluorescent scan of each well in the microarray plate, analyzes the data, and generates a
+report containing results for all assay markers. The sqid-X system also includes numerous
+internal quality checks.
+Results for each patient sample are obtained simultaneously for each of the four Ig_plex
+Celiac DGP Panel markers: DGP IgA, DGP IgG, tTG IgA and tTG IgG using the data from
+one well containing one sample of the patient’s serum. The system does not interpret the
+results with respect to diagnosis; it simply reports each result independently. The
+biochemical reactions and analysis for the measurements are found in 4.5 Principle of
+Operation following the description of the device components.
+6
+
+[Table 1 on page 6]
+		SQiDworks Diagnostics
+Item	Sqid-X platform	
+		Platform
+		
+		
+Sample, Reagent and
+Plate Handling	Manual	Automated
+Detector	Multichannel fluorescence LED
+camera scanner	Multichannel fluorescence CCD
+camera scanner
+
+--- Page 7 ---
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+The sample sets used in these studies together covered the measuring range for each
+assay, although not every sample contained all four analytes. The specific number of
+samples for each element is described below. The manufacturer’s acceptance
+criterion is that all reproducibility results should have % CVs of ≤10%.
+i. Within-Run (intra-assay) Reproducibility Testing
+Negative and positive samples covering the measuring range for each device,
+including at least 10% of total samples within ±25% of the cut-off for each
+assay, were run in replicates of twelve (12) on one kit. A total of four (4) kits
+were run on different days.
+DGP IgA DGP IgG tTG IgA tTG IgG
+Mean Mean Mean Mean
+%CV %CV %CV %CV
+(U/mL) (U/mL) (U/mL) (U/mL)
+11.33 3.5% 11.97 3.4% 17.43 2.9% 32.58 4.5%
+17.99 2.6% 15.23 3.4% 27.26 3.4% 35.78 3.4%
+20.08 4.3% 27.31 2.7% 38.35 4.8% 40.82 4.9%
+32.30 3.1% 38.42 2.6% 41.80 2.8% 44.53 5.2%
+43.23 2.2% 54.69 3.5% 56.68 3.9% 58.51 3.5%
+56.08 4.6% 69.51 2.7% 64.03 3.3% 61.70 5.2%
+64.03 6.3% 86.69 3.8% 86.56 1.9% 71.01 2.7%
+117.26 2.3% 125.66 3.1% 78.36 3.2%
+98.78 4.8%
+ii. Day-to-Day Reproducibility Testing
+Negative and positive samples covering the measuring range for each device,
+including at least 10% of total samples within ±25% of the cut-off for each assay,
+were run in replicates of two (2) per run, two (2) runs per day, for 20 non-
+consecutive days, on one system by two operators (31 runs by operator 1 and 9
+runs by operator 2) using one kit lot for a maximum of 80 results per sample per
+analyte (2x2x20=80).
+DGP IgA- Day to day reproducibility
+Within Run Between Run Between Day Total Precision
+Mean
+(U/mL) SD %CV SD %CV SD %CV SD %CV
+7
+
+[Table 1 on page 7]
+DGP IgA		DGP IgG		tTG IgA		tTG IgG	
+							
+Mean		Mean	%CV	Mean	%CV	Mean	
+	%CV						%CV
+(U/mL)		(U/mL)		(U/mL)		(U/mL)	
+							
+							
+11.33	3.5%	11.97	3.4%	17.43	2.9%	32.58	4.5%
+17.99	2.6%	15.23	3.4%	27.26	3.4%	35.78	3.4%
+20.08	4.3%	27.31	2.7%	38.35	4.8%	40.82	4.9%
+32.30	3.1%	38.42	2.6%	41.80	2.8%	44.53	5.2%
+43.23	2.2%	54.69	3.5%	56.68	3.9%	58.51	3.5%
+56.08	4.6%	69.51	2.7%	64.03	3.3%	61.70	5.2%
+64.03	6.3%	86.69	3.8%	86.56	1.9%	71.01	2.7%
+		117.26	2.3%	125.66	3.1%	78.36	3.2%
+							
+						98.78	4.8%
+							
+
+[Table 2 on page 7]
+DGP IgA- Day to day reproducibility								
+								
+Mean	Within Run		Between Run		Between Day		Total Precision	
+(U/mL)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+								
+
+--- Page 8 ---
+DGP IgA- Day to day reproducibility
+Within Run Between Run Between Day Total Precision
+Mean
+(U/mL) SD %CV SD %CV SD %CV SD %CV
+9.13 0.43 4.70% 0.31 3.30% 0.00 0.00% 0.52 5.70%
+15.83 0.64 4.00% 0.27 1.70% 0.31 2.00% 0.76 4.80%
+20.28 0.70 3.50% 0.98 4.80% 0.00 0.00% 1.21 6.00%
+28.47 1.68 5.90% 1.23 4.30% 0.66 2.30% 2.18 7.70%
+36.2 2.02 5.60% 1.14 3.20% 0.59 1.60% 2.39 6.60%
+47.84 1.83 3.80% 2.59 5.40% 1.16 2.40% 3.38 7.10%
+54.63 2.97 5.40% 1.82 3.30% 1.56 2.90% 3.81 7.00%
+78.94 4.75 6.00% 3.47 4.40% 1.43 1.80% 6.06 7.70%
+104.24 3.80 3.60% 5.39 5.20% 0.00 0.00% 6.60 6.30%
+DGP IgG- Day to day reproducibility
+Within Run Between Run Between Day Total Precision
+Mean
+(U/mL) SD %CV SD %CV SD %CV SD %CV
+15.38 0.71 4.60% 0.47 3.00% 0.70 4.50% 1.10 7.10%
+22.09 1.01 4.60% 1.01 4.60% 0.75 3.40% 1.61 7.30%
+31.89 1.26 4.00% 0.61 1.90% 0.91 2.90% 1.67 5.20%
+41.51 2.02 4.90% 0.61 1.50% 0.69 1.70% 2.22 5.30%
+50.08 2.61 5.20% 1.42 2.80% 1.17 2.30% 3.19 6.40%
+71.35 2.74 3.80% 2.64 3.70% 0.00 0.00% 3.80 5.30%
+85.57 3.22 3.80% 2.34 2.70% 0.00 0.00% 3.98 4.60%
+119.12 6.06 5.10% 2.27 1.90% 0.00 0.00% 6.47 5.40%
+tTG IgA- Day to day reproducibility
+Within Run Between Run Between Day Total Precision
+Mean
+(U/mL) SD %CV SD %CV SD %CV SD %CV
+17.29 0.64 3.70% 0.67 3.90% 0 0.00% 0.93 5.40%
+24.46 1.00 4.10% 0.62 2.60% 0.53 2.20% 1.29 5.30%
+32.35 1.62 5.00% 0.56 1.70% 0 0.00% 1.71 5.30%
+35.19 1.38 3.90% 0.74 2.10% 1.71 4.90% 2.32 6.60%
+43.29 1.95 4.50% 1.79 4.10% 0 0.00% 2.64 6.10%
+60.05 3.26 5.40% 1.42 2.40% 1.21 2.00% 3.75 6.30%
+86.24 3.88 4.50% 1.95 2.30% 2.86 3.30% 5.20 6.00%
+120.73 7.52 6.20% 1.90 1.60% 2.92 2.40% 8.28 6.90%
+136.63 6.42 4.70% 3.29 2.40% 1.84 1.30% 7.44 5.40%
+8
+
+[Table 1 on page 8]
+DGP IgA- Day to day reproducibility								
+								
+Mean	Within Run		Between Run		Between Day		Total Precision	
+(U/mL)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+								
+9.13	0.43	4.70%	0.31	3.30%	0.00	0.00%	0.52	5.70%
+15.83	0.64	4.00%	0.27	1.70%	0.31	2.00%	0.76	4.80%
+20.28	0.70	3.50%	0.98	4.80%	0.00	0.00%	1.21	6.00%
+28.47	1.68	5.90%	1.23	4.30%	0.66	2.30%	2.18	7.70%
+36.2	2.02	5.60%	1.14	3.20%	0.59	1.60%	2.39	6.60%
+47.84	1.83	3.80%	2.59	5.40%	1.16	2.40%	3.38	7.10%
+54.63	2.97	5.40%	1.82	3.30%	1.56	2.90%	3.81	7.00%
+78.94	4.75	6.00%	3.47	4.40%	1.43	1.80%	6.06	7.70%
+104.24	3.80	3.60%	5.39	5.20%	0.00	0.00%	6.60	6.30%
+
+[Table 2 on page 8]
+DGP IgG- Day to day reproducibility								
+								
+	Within Run		Between Run		Between Day		Total Precision	
+Mean								
+(U/mL)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+								
+15.38	0.71	4.60%	0.47	3.00%	0.70	4.50%	1.10	7.10%
+22.09	1.01	4.60%	1.01	4.60%	0.75	3.40%	1.61	7.30%
+31.89	1.26	4.00%	0.61	1.90%	0.91	2.90%	1.67	5.20%
+41.51	2.02	4.90%	0.61	1.50%	0.69	1.70%	2.22	5.30%
+50.08	2.61	5.20%	1.42	2.80%	1.17	2.30%	3.19	6.40%
+71.35	2.74	3.80%	2.64	3.70%	0.00	0.00%	3.80	5.30%
+85.57	3.22	3.80%	2.34	2.70%	0.00	0.00%	3.98	4.60%
+119.12	6.06	5.10%	2.27	1.90%	0.00	0.00%	6.47	5.40%
+
+[Table 3 on page 8]
+tTG IgA- Day to day reproducibility								
+Mean	Within Run		Between Run		Between Day		Total Precision	
+								
+(U/mL)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+								
+17.29	0.64	3.70%	0.67	3.90%	0	0.00%	0.93	5.40%
+24.46	1.00	4.10%	0.62	2.60%	0.53	2.20%	1.29	5.30%
+32.35	1.62	5.00%	0.56	1.70%	0	0.00%	1.71	5.30%
+35.19	1.38	3.90%	0.74	2.10%	1.71	4.90%	2.32	6.60%
+43.29	1.95	4.50%	1.79	4.10%	0	0.00%	2.64	6.10%
+60.05	3.26	5.40%	1.42	2.40%	1.21	2.00%	3.75	6.30%
+86.24	3.88	4.50%	1.95	2.30%	2.86	3.30%	5.20	6.00%
+120.73	7.52	6.20%	1.90	1.60%	2.92	2.40%	8.28	6.90%
+136.63	6.42	4.70%	3.29	2.40%	1.84	1.30%	7.44	5.40%
+
+--- Page 9 ---
+tTG IgG- Day to day reproducibility
+Within Run Between Run Between Day Total Precision
+Mean
+SD %CV SD %CV SD %CV SD %CV
+(U/mL)
+27.56 1.04 3.80% 1.19 4.30% 0.69 2.50% 1.72 6.20%
+28.22 2.01 7.10% 1.18 4.20% 1.09 3.90% 2.58 9.10%
+33.72 2.54 7.50% 0.00 0.00% 1.02 3.00% 2.73 8.10%
+40.65 2.30 5.70% 2.19 5.40% 1.39 3.40% 3.47 8.50%
+48.39 3.40 7.00% 1.49 3.10% 0.00 0.00% 3.71 7.70%
+50.61 3.19 6.30% 0.00 0.00% 1.39 2.70% 3.48 6.90%
+78.54 4.84 6.20% 2.00 2.50% 2.99 3.80% 6.03 7.70%
+87.78 3.72 4.20% 2.44 2.80% 3.28 3.70% 5.53 6.30%
+99.21 6.20 6.20% 3.51 3.50% 3.22 3.20% 7.82 7.90%
+iii. Lot-to-Lot Reproducibility Testing
+Negative and positive samples covering the measuring range for each device,
+including at least 10% of total samples within ±25% of the cut-off for each assay,
+were run in replicates of five (5) per kit, two (2) kits per lot, from three (3) kit
+lots were tested on one instrument by one operator for a maximum of 30 results
+(5x2x3) per sample per analyte. Ten (10) results per sample per analyte, per
+lot were evaluated.
+Lot-to-lot reproducibility
+DGP IgA DGP IgG tTG IgA tTG IgG
+Mean Mean Mean Mean
+%C.V. %C.V. %C.V. %C.V.
+(U/mL) (U/mL) (U/mL) (U/mL)
+9.35 9.4% 11.74 5.1%
+11.90 7.2% 15.42 5.8% 19.54 5.8% 29.58 6.6%
+15.04 6.0% 17.98 4.7% 32.60 6.7% 34.40 8.1%
+16.65 6.9% 33.08 6.3% 38.05 6.1% 43.83 6.8%
+18.66 4.7% 46.42 4.6% 44.31 6.8% 50.13 9.5%
+20.07 5.0% 74.15 6.7% 60.49 6.1% 62.01 7.6%
+59.91 5.7% 85.92 6.0% 95.28 4.5% 65.06 7.5%
+65.01 7.1% 116.14 4.5% 135.20 6.8% 103.74 8.4%
+iv. Instrument-to-Instrument Reproducibility Testing
+Two studies were performed. In the first study, the same samples from the lot-
+to-lot study were tested in replicates of five (5) per kit, two (2) kits per lot,
+9
+
+[Table 1 on page 9]
+tTG IgG- Day to day reproducibility								
+	Within Run		Between Run		Between Day		Total Precision	
+Mean								
+(U/mL)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+								
+27.56	1.04	3.80%	1.19	4.30%	0.69	2.50%	1.72	6.20%
+28.22	2.01	7.10%	1.18	4.20%	1.09	3.90%	2.58	9.10%
+33.72	2.54	7.50%	0.00	0.00%	1.02	3.00%	2.73	8.10%
+40.65	2.30	5.70%	2.19	5.40%	1.39	3.40%	3.47	8.50%
+48.39	3.40	7.00%	1.49	3.10%	0.00	0.00%	3.71	7.70%
+50.61	3.19	6.30%	0.00	0.00%	1.39	2.70%	3.48	6.90%
+78.54	4.84	6.20%	2.00	2.50%	2.99	3.80%	6.03	7.70%
+87.78	3.72	4.20%	2.44	2.80%	3.28	3.70%	5.53	6.30%
+99.21	6.20	6.20%	3.51	3.50%	3.22	3.20%	7.82	7.90%
+
+[Table 2 on page 9]
+Lot-to-lot reproducibility							
+DGP IgA		DGP IgG		tTG IgA		tTG IgG	
+							
+Mean		Mean		Mean		Mean	
+	%C.V.		%C.V.		%C.V.		%C.V.
+(U/mL)		(U/mL)		(U/mL)		(U/mL)	
+							
+9.35	9.4%	11.74	5.1%				
+11.90	7.2%	15.42	5.8%	19.54	5.8%	29.58	6.6%
+15.04	6.0%	17.98	4.7%	32.60	6.7%	34.40	8.1%
+16.65	6.9%	33.08	6.3%	38.05	6.1%	43.83	6.8%
+18.66	4.7%	46.42	4.6%	44.31	6.8%	50.13	9.5%
+20.07	5.0%	74.15	6.7%	60.49	6.1%	62.01	7.6%
+59.91	5.7%	85.92	6.0%	95.28	4.5%	65.06	7.5%
+65.01	7.1%	116.14	4.5%	135.20	6.8%	103.74	8.4%
+
+--- Page 10 ---
+from three (3) kit lots on three (3) instruments at three (3) different sites
+(one internal, one external in Canada and one external in USA) by three (3)
+operators for a maximum 30 results (5x2x3) per instrument per analyte and 90
+results (5x2x3x3) per sample per analyte.
+Instrument-to-instrument Study #1
+DGP IgA DGP IgG tTG IgA tTG IgG
+Mean Mean Mean Mean
+%C.V. %C.V. %C.V. %C.V.
+(U/mL) (U/mL) (U/mL) (U/mL)
+8.58 9.6% 16.61 9.3% 19.22 5.5% 29.52 9.9%
+16.64 7.8% 32.52 8.0% 32.12 6.4% 47.76 9.8%
+18.73 7.5% 88.87 6.9% 46.76 8.6% 51.00 10.1%
+21.01 7.9% 123.18 6.0% 65.78 6.4% 63.68 9.9%
+61.71 9.0% 177.91 5.7% 105.62 8.6%
+In study two, a set of fourteen (14) celiac samples with results near the cut-off for
+one or more analytes were tested at a single site in duplicates on each of three
+instruments for a maximum of six (6) results per sample. Three kits from the same
+lot were used. A minimum of four (4) samples were reported per analyte. Two of the
+three instruments used in the study were used in the original instrument-to-instrument
+study (SQX1 and SQX 2) and the third instrument is a new one (SQX 3). All three
+runs were performed by one operator at SQI.
+Instrument-to-instrument Study #2
+DGP IgA DGP IgG tTG IgA tTG IgG
+Mean Mean Mean Mean
+%C.V. %C.V. %C.V. %C.V.
+(U/mL) (U/mL) (U/mL) (U/mL)
+15.37 6.27 13.63 7.18 24.64 6.30 35.49 6.46
+15.81 6.06 11.41 3.63 23.35 4.18 29.34 8.91
+9.77 6.43 15.75 5.73 23.59 4.40 33.11 7.07
+18.85 3.93 17.90 5.56 17.69 2.91 37.53 5.61
+16.69 4.57 30.59 6.19
+17.82 2.86 50.12 2.84
+b. Linearity/assay reportable range:
+i. Linearity
+Serial dilutions of high positive clinical samples in normal serum were assayed across
+each analyte range. A minimum of seven levels with three replicates at each level
+10
+
+[Table 1 on page 10]
+Instrument-to-instrument Study #1							
+DGP IgA		DGP IgG		tTG IgA		tTG IgG	
+Mean		Mean		Mean		Mean	
+	%C.V.		%C.V.		%C.V.		%C.V.
+(U/mL)		(U/mL)		(U/mL)		(U/mL)	
+							
+8.58	9.6%	16.61	9.3%	19.22	5.5%	29.52	9.9%
+16.64	7.8%	32.52	8.0%	32.12	6.4%	47.76	9.8%
+18.73	7.5%	88.87	6.9%	46.76	8.6%	51.00	10.1%
+21.01	7.9%	123.18	6.0%	65.78	6.4%	63.68	9.9%
+61.71	9.0%			177.91	5.7%	105.62	8.6%
+
+[Table 2 on page 10]
+							
+Instrument-to-instrument Study #2							
+							
+							
+DGP IgA		DGP IgG		tTG IgA		tTG IgG	
+							
+Mean		Mean		Mean		Mean	
+	%C.V.		%C.V.		%C.V.		%C.V.
+(U/mL)		(U/mL)		(U/mL)		(U/mL)	
+							
+15.37	6.27	13.63	7.18	24.64	6.30	35.49	6.46
+15.81	6.06	11.41	3.63	23.35	4.18	29.34	8.91
+9.77	6.43	15.75	5.73	23.59	4.40	33.11	7.07
+18.85	3.93	17.90	5.56	17.69	2.91	37.53	5.61
+		16.69	4.57			30.59	6.19
+		17.82	2.86			50.12	2.84
+
+--- Page 11 ---
+were evaluated. Because the instrument reports values below the cut-off as “<”
+instead of with a number, the concentration of analyte in normal serum was arbitrarily
+assigned a value below the cut-off so expected concentrations could be calculated.
+Using the analyte concentration values for different dilutions, a graph of observed
+(measured) values vs. expected concentrations was plotted. The claimed upper limit
+is rounded off to the nearest tenth of the result.
+Linearity
+Test Range Linear Range
+Analyte Sample R2 Intercept Slope
+(U/mL) (U/mL)
+S1 6.80–115.01 0.994 -3.427 1.030
+DGP IgA S2 9.27–73.86 0.992 -1.846 0.977 8.0 – 110.0
+S3 6.34–44.87 0.992 -0.614 0.995
+S1 11.18–129.70 0.997 -1.506 1.036
+DGP IgG S2 5.20–86.34 0.992 -2.302 1.033 9.0 – 120.0
+S3 5.84–60.09 0.996 -0.466 0.991
+S1 10.42–142.72 0.996 1.879 1.015
+tTG IgA S2 11.37–94.50 0.996 0.082 1.013 16.0-140.0
+S3 11.89–94.7211 0.991 0.697 1.045
+S1 13.07–103.60 0.991 2.996 1.017
+tTG IgG S2 12.19–87.89 0.995 1.331 1.016 24.0 – 100.0
+S3 11.71–82.17 0.984 4.226 1.013
+ii. Analytical Measuring Range:
+The measuring range was defined as lower and upper limit of reporting range:
+DGP IgA: 8.0–110.0 U/mL
+DGP IgG: 9.0–120.0 U/mL
+tTG IgA: 16.0–140.0 U/mL
+tTG IgG: 24.0–100.0 U/mL
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+i. Controls and Calibrators
+a. Assay Standards (Calibrators)
+There are no international standard materials available for celiac anti-DGP
+IgA and IgG, and anti-tTG IgA and IgG. The calibrators were assigned with
+arbitrary units. The raw material for the standards is celiac positive patient
+11
+
+[Table 1 on page 11]
+						
+Linearity						
+						
+						
+		Test Range				Linear Range
+Analyte	Sample		R2	Intercept	Slope	
+		(U/mL)				(U/mL)
+						
+						
+DGP IgA	S1	6.80–115.01	0.994	-3.427	1.030	8.0 – 110.0
+	S2	9.27–73.86	0.992	-1.846	0.977	
+	S3	6.34–44.87	0.992	-0.614	0.995	
+DGP IgG	S1	11.18–129.70	0.997	-1.506	1.036	9.0 – 120.0
+	S2	5.20–86.34	0.992	-2.302	1.033	
+	S3	5.84–60.09	0.996	-0.466	0.991	
+tTG IgA	S1	10.42–142.72	0.996	1.879	1.015	16.0-140.0
+	S2	11.37–94.50	0.996	0.082	1.013	
+	S3	11.89–94.7211	0.991	0.697	1.045	
+tTG IgG	S1	13.07–103.60	0.991	2.996	1.017	24.0 – 100.0
+	S2	12.19–87.89	0.995	1.331	1.016	
+	S3	11.71–82.17	0.984	4.226	1.013	
+
+--- Page 12 ---
+serum sample with high titers for anti-DGP IgA and IgG and anti-tTG IgA
+and IgG.
+During development, the raw material samples were diluted to a desired
+anchorage point, e.g., 2000x, 4000x and 16000x for a U/mL value assignment.
+These anchorage levels were selected to ensure coverage of the hypothetical
+cut-off points. A standard curve was constructed using the chosen dilution
+levels for each. The external standards are eight serial dilutions of a sample
+derived from human sera containing an appropriate representation of each of
+the analytes to be reported. Each assay has a specific standard range that is
+present in the standards; these are encoded in the bar code for each standard.
+In-house standards are prepared, and are assigned with arbitrary units. For
+new standards, the repetitiveness of the standard curves and bias of fit versus
+measured values were considered. Eight standard levels were then selected.
+Curve fitting algorithms were configured for each analyte. Finally, the
+standards were validated using celiac positive and normal samples. In this
+study, cut-off values and sensitivity/specificity of the assay were evaluated
+and to a large extent were found within industry range.
+The positive and negative control samples are derived from human samples.
+The positive controls were prepared by diluting celiac positive patient serum
+sample to give results above cut-off for applicable analytes and negative
+control was prepared by diluting normal human serum sample to give results
+below cut-off for all four analytes. Expected results for each applicable
+analyte of each control are provided in the Certificate of Analysis.
+b. Antigen
+The DGP peptides are a mix of custom sequences, which are conjugated and
+then lyophilized. Upon receipt, the Certificate of Analysis is confirmed and
+an incoming acceptance test is performed using an HPLC method to verify the
+purity and consistency of the peptides.
+The tTG is recombinant tissue transglutaminase in a buffer solution. The
+Certificate of Analysis is verified upon receipt of the material and incoming
+acceptance testing confirms protein concentration, content, and characteristics
+using Bradford Protein Assay, Western Blot and SDS-Page methods,
+respectively.
+c. Reporter mix
+The reporter mix is comprised of fluorescently labeled secondary antibodies,
+Mouse anti-human IgG- Cy5; goat anti-human IgA: Cy3. The same dyes are
+used for anti-DGP and anti-tTG, but different capture spots in the microarray
+are analyzed to provide the results for each of the four analytes.
+12
+
+--- Page 13 ---
+ii. Hook Effect:
+High positive samples were selected and tested at a starting dilution of 1:51.
+Therefore, since the assay’s dilution as per package insert is 1:151, at least three
+fold higher values can be achieved. All of the samples were serially diluted to
+evaluate any hook effect in the assays.
+It was observed that the results were above the assay’s reportable range, therefore,
+during this development study, a manual analysis was performed to see how high
+above the reportable range the actual values were. The instrument saturated at
+>200 U/mL for DGP IgG and IgA, so no hook effect was detected. No hook
+effect was detected at 1354 U/mL for tTG IgA and 835 U/mL for tTG IgG.
+iii. Stability:
+a. Sample stability - The sponsor provided data supporting a claim of 1 week
+stability at 2-8°C.
+b. Shelf life stability - the sponsor provided data supporting a claim of 6 months
+stability when stored according to the package insert.
+c. Open-vial stability - The directions for use state that the kit is single-use only;
+therefore, open vial stability is not applicable.
+d. Detection limit:
+i. Limit of Blank (LoB):
+Sample diluent from the kit was tested in replicates of seventy three (73) on one
+kit to determine the software-derived values for each analyte. Values are
+reported in fluorescence intensity units. All measurements are below the
+bottom of the AMR.
+DPG DPG tTG tTG
+LoB
+IgA IgG IgA IgG
+Mean 159.6 192.0 125.2 77.8
+STDEV 64.5 37.0 108.4 33.0
+LoB 265.6 252.7 303.4 132.1
+ii. Limit of Detection (LoD):
+Thirteen (13) normal human serum samples were tested in replicates of five (5),
+on two runs (total n=130) using two different kit lots and two different
+instruments to determine the software-derived LoD values for each analyte.
+For analytes, where some replicates reported numerical values, the probability
+13
+
+[Table 1 on page 13]
+LoB				DPG			DPG			tTG			tTG	
+				IgA			IgG			IgA			IgG	
+	Mean		159.6			192.0			125.2			77.8		
+	STDEV		64.5			37.0			108.4			33.0		
+	LoB		265.6			252.7			303.4			132.1		
+
+--- Page 14 ---
+of values being the same as the intensity values was calculated and reported as a
+percentage.
+DPG DPG tTG tTG
+IgA IgG IgA IgG
+LoB 265.6 252.7 303.4 132.1
+STDEV 116.7 241.6 125.3 196.1
+LoD 457.5 650.1 509.4 454.7
+iii. Limit of Quantitation (LoQ):
+Eleven (11) diluted celiac positive samples (to report three samples per
+analyte) were tested over five (5) runs, nine (9) replicates per run. Two kit lots
+were used for a total of ten (10) runs.
+Bias was calculated based on the expected value and mean, SD and %CV
+were calculated for each sample. The claimed LoQs meet the manufacturer’s
+required acceptance criteria.
+Result for LoQ LoQ Claim
+Analyte Bias (%) CV (%)
+(U/mL) (U/mL)
+DGP IgA 8.25 8.0 0.4 8.9
+DGP IgG 9.02 9.0 2.2 6.2
+tTG IgA 16.23 16.0 4.5 7.9
+tTG IgG 24.30 24.0 1.8 6.0
+e. Analytical specificity:
+i. Cross-reactivity
+This information is contained in the Clinical Sensitivity and Specificity section.
+ii. Interference
+This study was performed according to the recommendations in CLSI EP7-A2,
+Interference Testing in Clinical Chemistry, Approved Guideline. Eight celiac
+positive samples (from the SQI Diagnostics’ Sample Bank) and one normal
+(negative sample) were included in the study in order to report two levels per
+analyte.
+The individual specimens were spiked with three concentrations of the
+interferents, starting at the maximum concentration and titering down to low
+levels. The samples were assayed in replicates of n=5 for control and for un-
+spiked, and the mean result reported. Interference was calculated as the analyte
+recovery in the presence of interferent, relative to the measurement of the analyte
+14
+
+[Table 1 on page 14]
+				DPG			DPG			tTG			tTG	
+				IgA			IgG			IgA			IgG	
+	LoB		265.6			252.7			303.4			132.1		
+	STDEV		116.7			241.6			125.3			196.1		
+	LoD		457.5			650.1			509.4			454.7		
+
+[Table 2 on page 14]
+	Result for LoQ	LoQ Claim	Bias (%)	
+Analyte				CV (%)
+	(U/mL)	(U/mL)		
+				
+				
+DGP IgA	8.25	8.0	0.4	8.9
+DGP IgG	9.02	9.0	2.2	6.2
+tTG IgA	16.23	16.0	4.5	7.9
+tTG IgG	24.30	24.0	1.8	6.0
+
+--- Page 15 ---
+in a control, unspiked sample. The level of non-interference claimed was that
+level where there was ≤15% difference between “control results” and “spiked
+results.”
+Interferent testing concentrations:
+Interferent Test Level (20x stock)
+Interferent
+Test Level 1 Test Level 2 Test Level 3
+Bilirubin (conjugated) 3.0 mg/mL 1.5 mg/mL 0.8 mg/mL
+Hemoglobin 100.0 mg/mL 50.0 mg/mL 25.0 mg/mL
+Triglycerides 100.0 mg/mL 50.0 mg/mL 25.0 mg/mL
+IgG 10.0 mg/mL 5.0 mg/mL 2.5 mg/mL
+There was no interference detected by any of the interfering substances at the
+concentrations tested.
+f. Assay cut-off:
+Specimens from 110 celiac diagnosed patients, 126 normal donors and 56 other
+autoimmune diseases (total =292) were collected from commercial sources and
+collaborative laboratories representative of North American and European
+populations. Specimens were tested according to standard procedure, and all
+specimens were assayed in duplicate on separate kits using two lots of assay kits
+on two different sqid-X instruments for the determination of mean values. These
+samples were not used in any other validation assays. The samples and
+demographic information are presented below:
+Gender Age (years) Demographic
+Condition N
+North
+M F Unk Min Max Ave. Europe
+America
+Celiac, Biopsy
+Confirmed 10 4 6 0 21 46 29 10 0
+Celiac, EMA
+Positive (adult) 50 12 38 0 22 90 45 12 38
+Celiac, EMA
+positive
+(pediatric) 50 16 30 4 0 21 12 10 40
+Normal
+Female Serum 54 0 54 0 20 63 40 54 0
+Normal Male
+Serum 72 72 0 0 18 64 41 72 0
+Crohn's
+Disease 5 2 3 0 26 66 46 5 0
+15
+
+[Table 1 on page 15]
+			
+	Interferent Test Level (20x stock)		
+Interferent			
+			
+	Test Level 1	Test Level 2	Test Level 3
+			
+Bilirubin (conjugated)	3.0 mg/mL	1.5 mg/mL	0.8 mg/mL
+Hemoglobin	100.0 mg/mL	50.0 mg/mL	25.0 mg/mL
+Triglycerides	100.0 mg/mL	50.0 mg/mL	25.0 mg/mL
+IgG	10.0 mg/mL	5.0 mg/mL	2.5 mg/mL
+
+[Table 2 on page 15]
+									
+		Gender			Age (years)			Demographic	
+Condition	N								
+								North	
+		M	F	Unk	Min	Max	Ave.		Europe
+								America	
+									
+Celiac, Biopsy
+Confirmed	10	4	6	0	21	46	29	10	0
+Celiac, EMA
+Positive (adult)	50	12	38	0	22	90	45	12	38
+Celiac, EMA
+positive
+(pediatric)	50	16	30	4	0	21	12	10	40
+Normal
+Female Serum	54	0	54	0	20	63	40	54	0
+Normal Male
+Serum	72	72	0	0	18	64	41	72	0
+Crohn's
+Disease	5	2	3	0	26	66	46	5	0
+
+--- Page 16 ---
+Gender Age (years) Demographic
+Condition N
+North
+M F Unk Min Max Ave. Europe
+America
+Ulcerative
+Colitis 5 3 2 0 17 68 38 5 0
+Systemic Lupus
+Erythematous 14 2 12 0 24 63 38 10 4
+Rheumatoid
+Arthritis (RA) 22 15 7 0 45 72 58 22 0
+Vasculitis 10 0 10 0 26 63 44 0 10
+The cut-offs were selected by balancing sensitivity and specificity using ROC
+curves using Analyze-it v.2.30. The chosen cut-offs for each assay are:
+Analyte Cut-off (U/mL) Sensitivity (%) 95% CI Specificity (%) 95% CI
+DGP IgA 15.0 85.5 0.775 – 0.915 99.5 0.970 to 1.00
+DGP IgG 13.0 94.5 0.885 – 0.980 97.8 0.945 to .994
+tTG IgA 20.0 97.3 0.922 – 0.994 97.8 0.945 to .994
+tTG IgG 36.0 58.2 0.484 – 0.675 97.8 0.944 to .994
+2. Comparison studies:
+a. Method comparison with predicate device:
+229 positive celiac patient samples and 150 non-celiac disease samples including
+presumptively normal samples were assayed with the Ig_plex Celiac DGP Panel and
+with the available predicates’ ELISA method for each of the analytes. The celiac
+patient samples were classified using the following characteristics: 147 samples from
+celiac diagnosed, biopsy confirmed patients, 27 Endomysial Antibody (EMA)
+positive pediatric patient samples, 45 EMA positive adult patient samples, nine celiac
+diagnosed without additional information, and one IgA deficient celiac sample. The
+non-celiac samples included 132 presumptively normal samples and 18 other
+autoimmune disease samples. The sponsor analyzed the discrepant samples around
+the cut-off; the majority that were positive in the Ig_plex assays were Celiac-biopsy
+positive.
+i. DGP IgA
+Quanta Lite DGP IgA PPA and NPA
+Total
+Positive Negative % Agreement 95% CI
+Positive 126 9 135 Positive 93.3 87.8–96.5
+Ig_plex
+Negative 9 173 182 Negative 95.1 90.9– 97.4
+DGP IgA
+Total 135 182 317 Overall 94.3 91.2–96.4
+16
+
+[Table 1 on page 16]
+									
+		Gender			Age (years)			Demographic	
+Condition	N								
+								North	
+		M	F	Unk	Min	Max	Ave.		Europe
+								America	
+									
+Ulcerative
+Colitis	5	3	2	0	17	68	38	5	0
+Systemic Lupus
+Erythematous	14	2	12	0	24	63	38	10	4
+Rheumatoid
+Arthritis (RA)	22	15	7	0	45	72	58	22	0
+Vasculitis	10	0	10	0	26	63	44	0	10
+
+[Table 2 on page 16]
+	Analyte			Cut-off (U/mL)		Sensitivity (%)		95% CI			Specificity (%)		95% CI	
+DGP IgA			15.0		85.5			0.775 – 0.915		99.5		0.970 to 1.00		
+DGP IgG			13.0		94.5			0.885 – 0.980		97.8		0.945 to .994		
+tTG IgA			20.0		97.3			0.922 – 0.994		97.8		0.945 to .994		
+tTG IgG			36.0		58.2			0.484 – 0.675		97.8		0.944 to .994		
+
+[Table 3 on page 16]
+		Quanta Lite DGP IgA			PPA and NPA		
+				Total			
+		Positive	Negative			% Agreement	95% CI
+							
+	Positive	126	9	135	Positive	93.3	87.8–96.5
+Ig_plex							
+	Negative	9	173	182	Negative	95.1	90.9– 97.4
+DGP IgA							
+	Total	135	182	317	Overall	94.3	91.2–96.4
+							
+
+--- Page 17 ---
+ii. DGP IgG
+Quanta Lite DGP IgG PPA and NPA
+Total
+Positive Negative % Agreement 95% CI
+Positive 129 19 148 Positive 98.5 94.6–99.6
+Ig_plex
+Negative 2 176 178 Negative 90.3 85.3–93.7
+DGP IgG
+Total 131 195 326 Overall 93.6 90.4–95.7
+iii. tTG IgA
+Quanta Lite tTG IgA Total PPA and NPA
+Positive Negative % Agreement 95% CI
+Positive 133 23 156 Positive 100.0 97.2–100.0
+Ig_plex
+Negative 0 167 167 Negative 87.9 82.5–91.8
+tTG IgA
+Total 133 190 323 Overall 92.9 89.5–95.2
+iv. tTG IgG
+Quanta Lite tTG IgG Total PPA and NPA
+Positive Negative % Agreement 95% CI
+Positive 48 35 83 Positive 94.1 84.1–98.0
+Ig_plex
+Negative 3 192 195 Negative 84.6 79.3–88.7
+tTG IgG
+Total 51 227 277 Overall 86.3 81.8–89.9
+b. Matrix comparison
+Not applicable
+3. Clinical studies:
+a. Clinical Sensitivity and specificity:
+The study included 378 samples, collected from the following groupings: 128 celiac
+diagnosed by Marsh III criteria, biopsy confirmed, and 250 samples from other non-
+celiac autoimmune diseases. Samples were assayed according to the Ig_plex Celiac
+DGP Panel Instructions for Use. Clinical sensitivity was calculated from celiac
+disease patients. Clinical specificity was calculated for each disease subgroup and
+the overall specificity for the total of non-celiac disease patients and normal subject
+samples were also calculated.
+The sample distribution included both pediatric and adult subjects:
+17
+
+[Table 1 on page 17]
+				Quanta Lite DGP IgG		Total	PPA and NPA		
+				Positive	Negative			% Agreement	95% CI
+Ig_plex
+DGP IgG		Positive		129	19	148	Positive	98.5	94.6–99.6
+		Negative		2	176	178	Negative	90.3	85.3–93.7
+		Total		131	195	326	Overall	93.6	90.4–95.7
+
+[Table 2 on page 17]
+Ig_plex
+DGP IgG
+
+[Table 3 on page 17]
+				Quanta Lite tTG IgA				Total	PPA and NPA			
+					Positive		Negative			% Agreement	95% CI	
+Ig_plex
+tTG IgA	Positive			133			23	156	Positive	100.0	97.2–100.0	
+		Negative		0			167	167	Negative	87.9	82.5–91.8	
+		Total		133			190	323	Overall	92.9	89.5–95.2	
+
+[Table 4 on page 17]
+Ig_plex
+tTG IgA
+
+[Table 5 on page 17]
+				Quanta Lite tTG IgG			Total	PPA and NPA			
+					Positive	Negative				% Agreement	95% CI
+Ig_plex
+tTG IgG	Positive			48		35	83	Positive	94.1		84.1–98.0
+		Negative		3		192	195	Negative	84.6		79.3–88.7
+		Total		51		227	277	Overall	86.3		81.8–89.9
+
+[Table 6 on page 17]
+Ig_plex
+tTG IgG
+
+--- Page 18 ---
+Disease Code Disease Category Age (years)
+Celiac Biopsy Celiac Disease Biopsy Confirmed 4-82
+SLE SLE 21-85
+SS Sjögren’s Syndrome 30-76
+Wheat Allergy Wheat Allergy 2 (3 unknown)
+IBD (Crohn's Disease) IBD (Crohn's Disease) 23-92
+IBD (Ulcerative Colitis) IBD (Ulcerative Colitis) 19-68
+Lactose Intolerant Lactose Intolerant 32-60
+Osteoarthritis Osteoarthritis 46-83
+Celiac 1⁰ Relative Celiac 1o Relative 20-59
+IgA Def, non-Celiac IgA Deficient, non-Celiac 60-101
+RA Rheumatoid Arthritis (RA) 45-72
+HT Hashimoto’s Thyroiditis 30-57
+GT Grave’s Thyroiditis 27-67
+Vasculitis Vasculitis 26-62
+EBV Positive EBV Positive 34-54
+Syphilis Positive Syphilis Positive 18-60
+Diabetes Mellitus (Types 1 and 2) Diabetes Mellitus 39-70
+Suspected Celiac, biopsy negative Suspected Celiac, biopsy negative 20-73
+OAD Other Autoimmune Diseases 20-83
+Normal Female Normal Female 18-66
+Normal Male Normal Male 19-90
+The manufacturer’s pre-specified acceptance criteria are: Specificity for each analyte
+should be >95%; Sensitivity should be >72% for DGP IgA, >85% for DGP IgG,
+>90% for tTG IgA and >45% for tTG IgG.
+i. DGP IgA
+Celiac Disease
+Total
+DGP IgA
+Positive Negative
+Positive 102 2 104
+Ig_plex Negative 26 248 274
+Total 128 250 378
+Sensitivity: 79.7% (95% CI 76.1% - 83.2%)
+Specificity: 99.2% (95% CI 98.6% - 99.8%)
+18
+
+[Table 1 on page 18]
+Disease Code	Disease Category	Age (years)
+		
+Celiac Biopsy	Celiac Disease Biopsy Confirmed	4-82
+SLE	SLE	21-85
+SS	Sjögren’s Syndrome	30-76
+Wheat Allergy	Wheat Allergy	2 (3 unknown)
+IBD (Crohn's Disease)	IBD (Crohn's Disease)	23-92
+IBD (Ulcerative Colitis)	IBD (Ulcerative Colitis)	19-68
+Lactose Intolerant	Lactose Intolerant	32-60
+Osteoarthritis	Osteoarthritis	46-83
+Celiac 1⁰ Relative	Celiac 1o Relative	20-59
+IgA Def, non-Celiac	IgA Deficient, non-Celiac	60-101
+RA	Rheumatoid Arthritis (RA)	45-72
+HT	Hashimoto’s Thyroiditis	30-57
+GT	Grave’s Thyroiditis	27-67
+Vasculitis	Vasculitis	26-62
+EBV Positive	EBV Positive	34-54
+Syphilis Positive	Syphilis Positive	18-60
+Diabetes Mellitus (Types 1 and 2)	Diabetes Mellitus	39-70
+Suspected Celiac, biopsy negative	Suspected Celiac, biopsy negative	20-73
+OAD	Other Autoimmune Diseases	20-83
+Normal Female	Normal Female	18-66
+Normal Male	Normal Male	19-90
+
+[Table 2 on page 18]
+DGP IgA		Celiac Disease		
+				Total
+		Positive	Negative	
+				
+				
+Ig_plex	Positive	102	2	104
+	Negative	26	248	274
+	Total	128	250	378
+
+--- Page 19 ---
+DGP IgA Number of Ig_plex
+Sample Disease Classification Sens
+Sample Group Samples
+TP FN
+Celiac Disease
+Celiac Disease Biopsy confirmed 128 102 26 79.7%
+(Sensitivity)
+TN FP Spec
+SLE 30 0 30 100%
+Sjögren’s syndrome 14 0 14 100%
+Wheat allergy 4 0 4 100%
+IBD (Crohn’s Disease) 24 0 24 100%
+IBD (Ulcerative Colitis) 25 0 25 100%
+Lactose Intolerant 8 1 7 87.5
+Osteoarthritis 10 0 10 100.0%
+Celiac 1⁰ relative 5 0 5 100%
+Non-Celiac IgA Deficient, non-Celiac 3 1 2 66.7%
+Diseases Rheumatoid Arthritis 26 0 26 100%
+(Specificity) Hashimoto’s thyroiditis 20 0 20 100%
+Vasculitis 16 0 16 100%
+EBV positive 6 0 6 100%
+Syphilis positive 7 0 7 100%
+Type 2 Diabetes 2 0 2 100%
+Type I Diabetes 10 0 10 100%
+Grave’s Thyroiditis 12 0 12 100%
+Suspected celiac, negative biopsy 10 0 10 100%
+Other autoimmune disease 16 0 16 100%
+Total non-celiac diseases 250 2 248 99.2%
+ii. DGP IgG
+Celiac Disease
+DGP IgG Total
+Positive Negative
+Positive 114 1 115
+Ig_plex Negative 14 249 263
+Total 128 250 378
+Sensitivity: 89.1% (95% CI 86.3% - 91.8%)
+Specificity: 99.6% (95% CI 99.2% - 100.0%)
+19
+
+[Table 1 on page 19]
+DGP IgA
+Sample Group		Sample Disease Classification	Number of
+Samples		Ig_plex						Sens		
+						TP			FN				
+Celiac Disease
+(Sensitivity)		Celiac Disease Biopsy confirmed	128		102			26			79.7%		
+						TN			FP			Spec	
+Non-Celiac
+Diseases
+(Specificity)		SLE	30		0			30			100%		
+		Sjögren’s syndrome	14		0			14			100%		
+		Wheat allergy	4		0			4			100%		
+		IBD (Crohn’s Disease)	24		0			24			100%		
+		IBD (Ulcerative Colitis)	25		0			25			100%		
+		Lactose Intolerant	8		1			7			87.5		
+		Osteoarthritis	10		0			10			100.0%		
+		Celiac 1⁰ relative	5		0			5			100%		
+		IgA Deficient, non-Celiac	3		1			2			66.7%		
+		Rheumatoid Arthritis	26		0			26			100%		
+		Hashimoto’s thyroiditis	20		0			20			100%		
+		Vasculitis	16		0			16			100%		
+		EBV positive	6		0			6			100%		
+		Syphilis positive	7		0			7			100%		
+		Type 2 Diabetes	2		0			2			100%		
+		Type I Diabetes	10		0			10			100%		
+		Grave’s Thyroiditis	12		0			12			100%		
+		Suspected celiac, negative biopsy	10		0			10			100%		
+		Other autoimmune disease	16		0			16			100%		
+		Total non-celiac diseases	250		2			248			99.2%		
+
+[Table 2 on page 19]
+DGP IgA
+Sample Group
+
+[Table 3 on page 19]
+Number of
+Samples
+
+[Table 4 on page 19]
+DGP IgG					Celiac Disease				Total
+					Positive		Negative		
+Ig_plex		Positive		114			1		115
+		Negative		14			249		263
+		Total		128			250		378
+
+--- Page 20 ---
+DGP IgG Number of Ig_plex
+Sample Disease Classification Sens
+Sample Group Samples
+TP FN
+Celiac Disease
+Celiac Disease Biopsy confirmed 128 114 14 89.1%
+(Sensitivity)
+TN FP Spec
+SLE 30 0 30 100%
+Sjögren’s syndrome 14 0 14 100%
+Wheat allergy 4 0 4 100%
+IBD (Crohn’s Disease) 24 0 24 100%
+IBD (Ulcerative Colitis) 25 0 25 100%
+Lactose Intolerant 8 0 8 100%
+Osteoarthritis 10 0 10 100%
+Celiac 1⁰ relative 5 0 5 100%
+Non-Celiac IgA Deficient, non-Celiac 3 0 3 100%
+Diseases Rheumatoid Arthritis 26 1 25 96.2%
+(Specificity) Hashimoto’s thyroiditis 20 0 20 100%
+Vasculitis 16 0 16 100%
+EBV positive 6 0 6 100%
+Syphilis positive 7 0 7 100%
+Type 2 Diabetes 2 0 2 100%
+Type 1 Diabetes 10 0 10 100%
+Other autoimmune disease 16 0 16 100%
+Grave’s Thyroiditis 12 0 12 100%
+Suspected celiac, negative biopsy 10 0 10 100%
+Total non-celiac diseases 250 1 249 99.6%
+iii. tTG IgA
+Celiac Disease
+tTG IgA Total
+Positive Negative
+Positive 126 0 126
+Ig_plex Negative 2 250 252
+Total 128 250 378
+Sensitivity: 98.4% (95% CI 97.3% - 99.5%)
+Specificity: 100.0% (95% CI 100.0% - 100.0%)
+20
+
+[Table 1 on page 20]
+DGP IgG
+Sample Group		Sample Disease Classification	Number of
+Samples		Ig_plex						Sens		
+						TP			FN				
+Celiac Disease
+(Sensitivity)		Celiac Disease Biopsy confirmed	128		114			14			89.1%		
+						TN			FP			Spec	
+Non-Celiac
+Diseases
+(Specificity)		SLE	30		0			30			100%		
+		Sjögren’s syndrome	14		0			14			100%		
+		Wheat allergy	4		0			4			100%		
+		IBD (Crohn’s Disease)	24		0			24			100%		
+		IBD (Ulcerative Colitis)	25		0			25			100%		
+		Lactose Intolerant	8		0			8			100%		
+		Osteoarthritis	10		0			10			100%		
+		Celiac 1⁰ relative	5		0			5			100%		
+		IgA Deficient, non-Celiac	3		0			3			100%		
+		Rheumatoid Arthritis	26		1			25			96.2%		
+		Hashimoto’s thyroiditis	20		0			20			100%		
+		Vasculitis	16		0			16			100%		
+		EBV positive	6		0			6			100%		
+		Syphilis positive	7		0			7			100%		
+		Type 2 Diabetes	2		0			2			100%		
+		Type 1 Diabetes	10		0			10			100%		
+		Other autoimmune disease	16		0			16			100%		
+		Grave’s Thyroiditis	12		0			12			100%		
+		Suspected celiac, negative biopsy	10		0			10			100%		
+		Total non-celiac diseases	250		1			249			99.6%		
+
+[Table 2 on page 20]
+DGP IgG
+Sample Group
+
+[Table 3 on page 20]
+tTG IgA					Celiac Disease				Total
+					Positive			Negative	
+Ig_plex		Positive		126			0		126
+		Negative		2			250		252
+		Total		128			250		378
+
+--- Page 21 ---
+Ig_plex
+tTG IgA Number of
+Sample Disease Classification Sens
+Sample Group Samples
+TP FN
+Celiac Disease
+Celiac Disease Biopsy confirmed 128 126 2 98.4%
+(Sensitivity)
+TN FP Spec
+SLE 30 0 30 100%
+Sjögren’s syndrome 14 0 14 100%
+Wheat allergy 4 0 4 100%
+IBD (Crohn’s Disease) 24 0 24 100%
+IBD (Ulcerative Colitis) 25 0 25 100%
+Lactose Intolerant 8 0 8 100%
+Celiac 1⁰ relative 5 0 5 100%
+IgA Deficient, non-Celiac 3 0 3 100%
+Non-Celiac
+Rheumatoid Arthritis 26 0 26 100%
+Diseases
+Hashimoto’s thyroiditis 20 0 20 100%
+(Specificity)
+Vasculitis 16 0 16 100%
+EBV positive 6 0 6 100%
+Syphilis positive 7 0 7 100%
+Type 2 Diabetes 2 0 2 100%
+Type I Diabetes 10 0 10 100%
+Other autoimmune disease 16 0 16 100%
+Grave’s Thyroiditis 12 0 12 100%
+Suspected celiac, negative biopsy 10 0 10 100%
+Total non-celiac diseases 250 0 250 100%
+iv. tTG IgG
+Celiac Disease
+tTG IgG Total
+Positive Negative
+Positive 60 3 63
+Ig_plex Negative 68 247 315
+Total 128 250 378
+Sensitivity: 46.9% (95% CI 42.5% - 51.3%)
+Specificity: 98.8% (95% CI 98.1% - 99.5%)
+21
+
+[Table 1 on page 21]
+tTG IgA
+Sample Group		Sample Disease Classification	Number of
+Samples		Ig_plex						Sens		
+						TP			FN				
+Celiac Disease
+(Sensitivity)		Celiac Disease Biopsy confirmed	128		126			2			98.4%		
+						TN			FP			Spec	
+Non-Celiac
+Diseases
+(Specificity)		SLE	30		0			30			100%		
+		Sjögren’s syndrome	14		0			14			100%		
+		Wheat allergy	4		0			4			100%		
+		IBD (Crohn’s Disease)	24		0			24			100%		
+		IBD (Ulcerative Colitis)	25		0			25			100%		
+		Lactose Intolerant	8		0			8			100%		
+		Celiac 1⁰ relative	5		0			5			100%		
+		IgA Deficient, non-Celiac	3		0			3			100%		
+		Rheumatoid Arthritis	26		0			26			100%		
+		Hashimoto’s thyroiditis	20		0			20			100%		
+		Vasculitis	16		0			16			100%		
+		EBV positive	6		0			6			100%		
+		Syphilis positive	7		0			7			100%		
+		Type 2 Diabetes	2		0			2			100%		
+		Type I Diabetes	10		0			10			100%		
+		Other autoimmune disease	16		0			16			100%		
+		Grave’s Thyroiditis	12		0			12			100%		
+		Suspected celiac, negative biopsy	10		0			10			100%		
+		Total non-celiac diseases	250		0			250			100%		
+
+[Table 2 on page 21]
+tTG IgA
+Sample Group
+
+[Table 3 on page 21]
+tTG IgG		Celiac Disease		Total
+		Positive	Negative	
+Ig_plex	Positive	60	3	63
+	Negative	68	247	315
+	Total	128	250	378
+
+--- Page 22 ---
+tTG IgG Number of Ig_plex
+Sample Disease Classification Sens
+Sample Group Samples
+TP FN
+Celiac Disease
+Celiac Disease Biopsy confirmed 128 60 68 46.9%
+(Sensitivity)
+TN FP Spec
+SLE 30 1 29 96.7%
+Sjögren’s syndrome 14 0 14 100%
+Wheat allergy 4 0 4 100%
+IBD (Crohn’s Disease) 24 0 24 100%
+IBD (Ulcerative Colitis) 25 0 25 100%
+Lactose Intolerant 8 1 7 87.5%
+Osteoarthritis 10 0 10 100%
+Celiac 1⁰ relative 5 0 5 100%
+Non-Celiac IgA Deficient, non-Celiac 3 0 3 100%
+Diseases Rheumatoid Arthritis 26 1 25 96.2%
+(Specificity) Hashimoto’s thyroiditis 20 1 19 95.0%
+Vasculitis 16 0 16 100%
+EBV positive 6 0 6 100%
+Syphilis positive 7 0 7 100%
+Type 2 diabetes 2 0 2 100%
+Type 1 diabetes 10 0 10 100%
+Grave’s Thyroiditis 12 0 12 100%
+Suspected celiac, negative biopsy 10 0 10 100%
+Other autoimmune disease 16 0 16 100%
+Total non-celiac diseases 250 3 247 98.8%
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable
+4. Clinical cut-off:
+See assay cut-off
+5. Expected values/Reference range:
+Specimens from 328 presumptively normal donors (including 167 males ranging in age
+from 19 to 90 years, and 161 females ranging in age from 18 to 66 years) were collected
+from commercial sources. Specimens were tested according to standard procedure, and
+all specimens were assayed in single replicates. The normal response is negative.
+22
+
+[Table 1 on page 22]
+tTG IgG
+Sample Group		Sample Disease Classification	Number of
+Samples		Ig_plex						Sens		
+						TP			FN				
+Celiac Disease
+(Sensitivity)		Celiac Disease Biopsy confirmed	128		60			68			46.9%		
+						TN			FP			Spec	
+Non-Celiac
+Diseases
+(Specificity)		SLE	30		1			29			96.7%		
+		Sjögren’s syndrome	14		0			14			100%		
+		Wheat allergy	4		0			4			100%		
+		IBD (Crohn’s Disease)	24		0			24			100%		
+		IBD (Ulcerative Colitis)	25		0			25			100%		
+		Lactose Intolerant	8		1			7			87.5%		
+		Osteoarthritis	10		0			10			100%		
+		Celiac 1⁰ relative	5		0			5			100%		
+		IgA Deficient, non-Celiac	3		0			3			100%		
+		Rheumatoid Arthritis	26		1			25			96.2%		
+		Hashimoto’s thyroiditis	20		1			19			95.0%		
+		Vasculitis	16		0			16			100%		
+		EBV positive	6		0			6			100%		
+		Syphilis positive	7		0			7			100%		
+		Type 2 diabetes	2		0			2			100%		
+		Type 1 diabetes	10		0			10			100%		
+		Grave’s Thyroiditis	12		0			12			100%		
+		Suspected celiac, negative biopsy	10		0			10			100%		
+		Other autoimmune disease	16		0			16			100%		
+		Total non-celiac diseases	250		3			247			98.8%		
+
+[Table 2 on page 22]
+tTG IgG
+Sample Group
+
+[Table 3 on page 22]
+Number of
+Samples
+
+--- Page 23 ---
+Analyte DGP IgA DGP IgG tTG IgA tTG IgG
+N (% Positive) 4 (1.22%) 10 (3.05%) 2 (0.61%) 2 (0.61%)
+Range (U/mL)
+<8.00 – 46.30 <9.00 – 55.04 <16.00 – 100.96 <24.00 – 54.33
+Negative Result
+(U/mL) <15.0 <13.0 <20.0 <36.0
+Positive Result
+(U/mL) ≥15.0 ≥13.0 ≥20.0 ≥36.0
+N. Instrument Name:
+sqid-X system
+O. System Descriptions:
+1. Modes of Operation:
+Semi-automated: All sample handling and preparation is performed by the user, and adds
+reagents to each well. The instrument incubates, washes, scans and analyzes the results.
+The sqid-X software provides processing instructions and analysis which are configured
+for the Ig_plex Celiac DGP Panel.
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes ____x____ or No ________
+3. Specimen Identification:
+Each 96-well plate has a barcode. The user types the sample information into the
+computer file.
+4. Specimen Sampling and Handling:
+The system uses graphical user interface software to lead the operator through manual
+sample, reagent, and plate handling operations. The system controls the washer to ensure
+that the same wash programs are used every time and in the correct sequence. Once the
+assay’s biochemical reactions are complete and the plate is placed in the scanner, the
+instrument automatically performs a multi-wavelength fluorescent scan of each well in
+the microarray, analyzes the data, and generates a report containing results for all assay
+markers. Results for each patient sample are obtained simultaneously for each of the four
+23
+
+[Table 1 on page 23]
+Analyte	DGP IgA	DGP IgG	tTG IgA	tTG IgG
+N (% Positive)	4 (1.22%)	10 (3.05%)	2 (0.61%)	2 (0.61%)
+Range (U/mL)	<8.00 – 46.30	<9.00 – 55.04	<16.00 – 100.96	<24.00 – 54.33
+Negative Result
+(U/mL)	<15.0	<13.0	<20.0	<36.0
+Positive Result
+(U/mL)	≥15.0	≥13.0	≥20.0	≥36.0
+
+--- Page 24 ---
+Ig_plex Celiac DGP Panel markers: DGP IgA, DGP IgG, tTG IgA and tTG IgG using the
+data from one well containing one sample of the patient’s serum. The system does not
+interpret the results with respect to diagnosis; it reports each result independently. The
+sqid-X system also includes numerous internal quality checks.
+5. Calibration:
+The assay has eight calibrators/standards that are aliquoted into specific wells of the 96-
+well plate. These wells do not have the microarray of antigens/controls that are in the
+sample wells.
+6. Quality Control:
+In addition to the results calculation, a set of internal quality control rules are invoked to
+evaluate the data that is produced. These rules were identified by safety and hazard
+analysis to mitigate risks such as general failures in the reaction. They include quality
+control rules for checking the fitness of the standardization curves, as well as thresholds
+of controls measuring reporter activity. When data is found that does not fit the required
+control levels or rules, further processing of the data is halted and the value “No Result”
+is reported. The internal quality control rules, or invalidation rules, are at each level of
+data processing. Single analyte results in a well may be invalidated due to high CV of the
+replicate capture spots; results for an entire well may be invalidated due to failing to meet
+a control threshold, and all results for an analyte on a plate may be invalidated due to an
+improper standard curve.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+Not applicable.
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+24

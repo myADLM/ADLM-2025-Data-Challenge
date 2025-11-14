@@ -1,0 +1,110 @@
+Standard Operating Procedure (SOP): Analytical Phase of
+Generating Results for MAYOCOMPLETE T-CELL LYMPHOMA,
+NEXT-GENERATION SEQUENCING
+1. PURPOSE
+The purpose of this protocol is to outline the standard operating
+procedures (SOP) for the analytical phase of generating results for
+the MAYOCOMPLETE T-CELL LYMPHOMA, next-generation
+sequencing (NGS) assay. This ensures the accuracy, reliability, and
+timely reporting of test results.
+2. SCOPE
+This SOP applies to all laboratory personnel trained and authorized
+to perform next-generation sequencing analysis for detecting genetic
+variations associated with T-cell lymphoma. The specimens have
+already been collected, received, and accessioned.
+3. RESPONSIBILITY
+Laboratory scientists and technologists are responsible for
+performing this procedure. The laboratory supervisor is responsible
+for ensuring compliance with this protocol and addressing any issues
+that arise during the process.
+4. EQUIPMENT AND MATERIALS
+• Next-Generation Sequencer
+• Analytical software for NGS data interpretation
+• QC control materials
+• Pipettes, tubes, and other standard laboratory supplies
+• Reagents and chemicals specific to the library preparation kits
+• Computer with LIMS (Laboratory Information Management
+System) access
+5. SAFETY PRECAUTIONS
+• Follow all safety protocols for handling biological specimens.
+• Wear appropriate personal protective equipment (PPE) including
+lab coats, gloves, and eye protection.
+• Dispose of waste materials according to laboratory biosafety
+guidelines.
+6. PROCEDURE
+A. Library Preparation:
+1. Prepare DNA samples per library preparation kit instructions.
+2. Quantify the DNA using a fluorometric or spectrophotometric
+method.
+3. Prepare libraries from the DNA samples following the kit
+protocol, including end-repair, A-tailing, adapter ligation, and
+PCR amplification.
+4. Validate library size and concentration using an Agilent
+Bioanalyzer or equivalent instrument.
+5. Pool libraries as appropriate for sequencing run.
+B. Sequencing Run:
+1. Load pooled libraries onto the flow cell/chip according to the
+sequencer manufacturer's instructions.
+2. Run the sequencing protocol as recommended by the
+instrumentation.
+3. Monitor the sequencing process for quality and performance
+using the instrument's software.
+4. At the run's completion, verify that the run meets quality control
+metrics.
+C. Data Analysis:
+1. Transfer raw sequencing data to the appropriate data storage
+system and initiate the data analysis pipeline.
+2. Perform initial quality assessment using FastQC or an
+equivalent tool to ensure that sequencing data meets the
+quality criteria.
+3. Use the appropriate bioinformatics tools to align reads to a
+reference genome and call variants.
+4. Filter and annotate variants using the laboratory’s standard
+bioinformatics pipeline.
+5. Perform secondary validation and interpretation of results by
+licensed pathologist or qualified personnel as needed.
+D. Quality Control and Troubleshooting:
+1. Include positive and negative controls in each sequencing run
+to ensure that the procedure works correctly.
+2. Document the performance of quality control materials and
+address any deviations observed.
+3. Troubleshooting steps to follow in case of failed quality controls:
+◦ Re-evaluate library preparation steps and reagent integrity.
+◦ Re-run QC metrics on the sequencer.
+◦ If necessary, resequence the sample or consult with the
+supervisor.
+E. Documentation and Reporting:
+1. Thoroughly document each step of the process in the
+laboratory notebook or LIMS.
+2. Review and verify the sequence data and variant calls before
+finalizing the report.
+3. Assemble the final report, detailing the findings relative to T-cell
+lymphoma, and include comprehensive interpretations as
+required.
+4. Ensure that all results are reviewed and signed off by a
+qualified laboratory director or designated expert.
+5. Report the results electronically to the ordering clinician through
+the LIS.
+7. REPORTING RESULTS
+• Result verification: Ensure that results are verified and meet
+internal quality criteria.
+• Reference ranges and interpretation: Include reference ranges
+specific to T-cell lymphoma and interpret results in clinical context.
+8. METHOD LIMITATIONS
+• Highlight the limitations of the NGS assay, including potential false
+negatives or positives, regions with poor coverage, and limitations
+in detecting certain variants.
+• Acknowledge any assay-specific limitations as outlined in the
+package insert or validation studies.
+9. REFERENCES
+• Manufacturer’s instructions for library preparation and sequencing
+• Package inserts for all reagents and kits used in the process
+• NGS platform user manual
+• Publicly available standards and guidelines for NGS
+This SOP will be reviewed and updated at least annually or whenever
+necessary changes in the process or technology arise. The
+adherence to this protocol ensures accurate and reliable outcomes in
+T-cell lymphoma genetic sequencing diagnostics.
+Reviewed and Approved by:
+Laboratory Supervisor Date
+Laboratory Director Date

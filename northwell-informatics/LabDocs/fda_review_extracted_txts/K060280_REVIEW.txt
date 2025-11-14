@@ -1,0 +1,910 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+k060280
+B. Purpose for Submission:
+Modified 510(k): The sponsor wishes to establish clear ownership of their earlier cleared test
+system which will now be marketed under a new name. Additionally, the analyzer software
+was modified since the initial clearance of the product.
+C. Manufacturer and Instrument Name:
+Iris Diagnostics facility in Marburg, Germany, iChem 100 Urine Chemistry Analyzer
+(IRIS is an abbreviation for International Remote Imaging Systems.)
+D. Type of Test(s) Performed:
+Qualitative and Semi-quantitative urine chemistry assays
+E. System Description
+1. Device Description:
+This is a semi-automated benchtop instrument, intended exclusively for use with the
+sponsors earlier cleared test strips (k030600). Components include a keyboard, transport
+mechanism, display screen, printer, and barcode reader.
+Test strips are manually dipped into the urine sample and placed on the instrument
+transport belt. The strip is transported into the instrument where readings of each
+chemistry are taken at timed intervals. Readings are converted to concentrations which
+are displayed to the operator. There are also options to print results or to transmit them to
+a Laboratory Information System.
+2. Principles of Operation:
+The technology utilized in the instrument is reflectance spectroscopy. The reflectance
+densitometer reads at three wavelengths; 450, 530, and 625 nm. Instead of using a
+photodiode detector to measure the reflected light, the instrument utilizes a
+complementary metal oxide semiconductor (CMOS) image sensor. This technology is
+1
+
+--- Page 2 ---
+well established and is the same as the sponsor’s earlier cleared instrument.
+3. Modes of Operation:
+The instrument allows both batch and stat modes.
+4. Specimen Identification:
+Specimens are identified by a barcode reader or by manual input via the keyboard. A
+work list can also be created by the operator.
+5. Specimen Sampling and Handling:
+The iChem reagent strip is manually dipped into a urine specimen then placed on the
+instrument transport belt. All steps that follow are automatically controlled by the
+instrument’s software.
+6. Calibration:
+No external calibration strips or procedures are required. Prior to each measurement the
+device is calibrated using a one-point optics alignment calibration. If readings fall
+outside of acceptable limits, a secondary standard is moved into place to perform a two-
+point calibration. The approach to calibration is appropriate for the CMOS image sensor
+technology.
+7. Quality Control (QC):
+A control file may be set up by the operator to record the lot and expiration of the control
+material, and to establish the frequency for running controls. The software also allows
+manual microscopic examination results to be entered into the system.
+Commercially available control materials (negative and known positive concentrations)
+are recommended for use according to local, state, and federal regulatory guidelines.
+Specific controls are not identified.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes X or No ________
+The following sections are presented in the submission, and they appear adequate:
+2
+
+--- Page 3 ---
+Level of Concern –The sponsor has classified their device as a Moderate Level of
+Concern.
+Software Description- An overview of the features controlled by the software and the
+software operating environment is present.
+Hazard Analysis- A summary of the Failure Mode and Effects Analysis activity is
+presented. It lists hardware and software hazards, severity assessments, and mitigations.
+It identifies the cause(s) of hazards, methods of control (e.g., alarm, hardware design),
+corrective measures taken, including an explanation of the aspects of the device
+design/requirements, that eliminate, reduce, or warn of a hazardous event, and
+verification that the method of control was implemented correctly.
+Software Requirements Specification (SRS) - A document listing functional requirements
+for the software, e.g., interface, performance, or functional needs is provided.
+Architecture Design Chart- A design specification document is provided.
+Traceability Analysis- Traceability among requirements, specifications, identified
+hazards and mitigations, and Verification and Validation testing is provided.
+Software Development Environment Description- A summary of the software
+development life cycle and the processes that are in place to manage the various life cycle
+activities is provided, e.g., changes or adjustments to software after released into market.
+Additionally, an annotated list of control documents generated during the development
+process is present. It includes a summary of the configuration management and
+maintenance activities. (The waterfall process model of development was used.)
+Verification and Validation Documentation- A description of V&V activities at the unit,
+integration, and system level are present. System level test protocols, including pass/fail
+criteria, and test results are also provided.
+Revision Level History - The sponsor has provided the Revision history log, including
+release version number and date.
+Unresolved Anomalies - The sponsor indicates there are no known unresolved anomalies
+at the time of this submission. Therefore, a list of remaining software anomalies,
+annotated with an explanation of the impact on safety or effectiveness, including operator
+usage and human factors is not needed.
+F. Regulatory Information:
+1. Regulation section:
+Class II:
+21CFR §862.1340 - Urinary glucose (nonquantitative) test system
+21CFR §864.6550 - Occult blood test
+3
+
+--- Page 4 ---
+Class I:
+21 CFR §862.1095 - Ascorbic acid test system
+21 CFR §862.1115 - Urinary bilirubin and its conjugates (nonquantitative) test
+system.
+21 CFR §862.1435 - Ketones (nonquantitative) test system
+21 CFR §862.1510 - Nitrite (nonquantitative) test system
+21 CFR §862.1550 - Urinary pH (nonquantitative) test system
+21 CFR §862.1645 - Urinary protein or albumin (nonquantitative) test system
+21 CFR §862.1785 - Urinary urobilinogen (nonquantitative) test system
+21 CFR §862.2300 - Colorimeter, photometer, or spectrophotometer for clinical use
+21 CFR §864.7675 - Leukocyte peroxidase test
+21CFR §862.2900 - Automated urinalysis system
+2. Classification:
+Class II (blood and glucose) and the remainder are Class I (The class I analyzer is
+subject to review because Class II analytes are run on it. Class I analytes are reviewed
+because they are part of a device which includes class II devices.)
+3. Product code:
+Class II: JIL, JIO
+Class I: JMA, JJB, JIN, JMT, CEN, JIR, CDM, JJQ, LJX, KQO
+4. Panel:
+75 (Chemistry)
+G. Intended Use:
+1. Indication(s) for use:
+The iChem100 Urine Chemistry Analyzer (iChem100) is a semi-automated benchtop
+urine chemistry analyzer intended for the in vitro measurement of the following analytes:
+glucose, protein, bilirubin, urobilinogen, pH, specific gravity, blood, ketones, nitrite,
+leukocyte esterase, ascorbic acid, and color. The iChem100 is intended for use only with
+iChem 10 SG Urine Chemistry Strips provided by Iris Diagnostics and is intended for use
+exclusively by healthcare professionals.
+These measurements are useful in the evaluation of renal, urinary, and metabolic
+disorders.
+2. Special conditions for use statement(s):
+4
+
+--- Page 5 ---
+For professional use.
+H. Substantial Equivalence Information:
+1. Predicate device name(s):
+AUTION JET AJ-4270, IRIS Diagnostics
+2. Predicate 510(k) number(s):
+k030600
+3. Comparison with predicate:
+Both devices measure various chemistry parameters in urine, are semi-automated
+analyzers, and utilize the same test methodology.
+The site where the instruments are manufactured are different, however both are
+manufactured by IRIS Diagnostics, International.
+I. Standard/Guidance Document Referenced (if applicable):
+The sponsor references the following standards:
+EN 51010A-1 Safety requirements for electrical equipment, Part 1, General requirements.
+CAN/CSA-C22.2, No. 1010.1, Safety requirements for electrical equipment, Part 1, General
+requirements.
+J. Performance Characteristics):
+1. Analytical performance: To demonstrate performance of the iChem analyzer the sponsor
+presents data from two types of studies, as appropriate. (Not all studies are done for each
+analyte.)
+a. Accuracy:
+Results from the iChem100 were compared to those from a commercially available
+system, the AUTION JET AJ-4270 test system. Ascorbic Acid was compared to the
+UrinQuic device.
+Testing was performed by skilled personnel at IRIS. Clinical Urine samples for the study
+were obtained from a local medical center. The samples include both normal and
+abnormal levels of urine analytes.
+Results obtained in these correlation studies are presented in block tables according to the
+5
+
+--- Page 6 ---
+ranges reported by the individual systems. Additionally, values obtained from all urine
+samples were referred to as either negative (normal) or positive (abnormal) findings.
+These data are presented in 2X2 tables for comparison of the two assay methods.
+Glucose Correlation Study: Categorized by Reporting Ranges (mg/dL)
+Arkray Result
+Neg. @ 30/50 @ 70/100 @ 150/200 @ 300/500 @ > 1000 Total
+Neg. 156 0 0 0 0 0 156
+@ 50 2 5 5 0 0 0 12
+iChem
+@ 150 0 0 1 3 4 3 11
+Result
+@ 500 0 0 0 0 1 5 6
+@ > 1000 0 0 0 0 0 3 3
+Total 158 5 6 3 5 11 188
+Glucose Correlation Study: Categorized by Negative/Positive Findings
+Arkray Negative Arkray Positive Total
+iChem
+Negative 156 0 156
+iChem
+Positive 2 30 32
+Total 158 30 188
+Blood Correlation Study: Categorized by Reporting Ranges (mg/dL)
+Arkray Result
+0 @ 0.03 @ 0.06/0.1 @ 0.2/0.5 @ 1 Total
+0 147 1 2 0 0 150
+@ 0.03 4 12 3 1 0 20
+iChem Results
+@ 0.2 0 1 0 3 2 6
+@ 1.0 1 0 0 2 9 12
+Total 152 14 5 6 11 188
+Blood Correlation Study: Categorized by Negative/Positive Findings
+Arkray Negative Arkray Positive Total
+iChem Negative 147 3 150
+iChem Positive 5 33 38
+Total 152 36 188
+The following analytes were tested using both spiked samples (compared to expected spiked
+6
+
+[Table 1 on page 6]
+		Arkray Result						
+		Neg.	@ 30/50	@ 70/100	@ 150/200	@ 300/500	@ > 1000	Total
+	Neg.	156	0	0	0	0	0	156
+	@ 50	2	5	5	0	0	0	12
+	@ 150	0	0	1	3	4	3	11
+	@ 500	0	0	0	0	1	5	6
+	@ > 1000	0	0	0	0	0	3	3
+	Total	158	5	6	3	5	11	188
+
+[Table 2 on page 6]
+	Arkray Negative	Arkray Positive	Total
+iChem			
+Negative	156	0	156
+			
+iChem			
+Positive	2	30	32
+			
+Total	158	30	188
+
+[Table 3 on page 6]
+							
+		Arkray Result					
+		0	@ 0.03	@ 0.06/0.1	@ 0.2/0.5	@ 1	Total
+	0	147	1	2	0	0	150
+	@ 0.03	4	12	3	1	0	20
+	@ 0.2	0	1	0	3	2	6
+	@ 1.0	1	0	0	2	9	12
+	Total	152	14	5	6	11	188
+
+[Table 4 on page 6]
+	Arkray Negative	Arkray Positive	Total
+iChem Negative	147	3	150
+			
+iChem Positive	5	33	38
+			
+Total	152	36	188
+
+--- Page 7 ---
+value) and clinical samples compared to results from a predicate device:
+Ascorbic Acid
+Spiked Concentration (mg/dL)
+0 10 20 30 40
+40 3 25 40
+20 60 38 23
+iChem 100 Neg 63 63
+Predicate Device (mg/dL)
+Neg 20 40
+iChem 100 40 3 1
+20 2 9
+Neg 89
+Bilirubin
+Spiked Concentration (mg/dL)
+0 0.8 1 1.5 2 4
+4 9
+iChem 100
+2 22 53 53
+1 30 7 1
+Neg 63 63 63 27 3
+Predicate Device (mg/dl)
+0 0.5-1.0 2.0 6.0-10.0 >10.0
+4 1 3 1
+iChem 100
+2 8 3 14
+1 6 7
+Neg 141 2 2
+Ketones
+Spiked Concentration (mg/dL)
+0 20 25 30 100 300
+300 2 55
+iChem 100
+100 59 2
+25 42 53 48
+Neg 54
+7
+
+[Table 1 on page 7]
+iChem 100		Spiked Concentration (mg/dL)				
+		0	10	20	30	40
+	40			3	25	40
+	20			60	38	23
+	Neg	63	63			
+
+[Table 2 on page 7]
+iChem 100		Predicate Device (mg/dL)		
+		Neg	20	40
+	40		3	1
+	20	2	9	
+	Neg	89		
+
+[Table 3 on page 7]
+iChem 100		Spiked Concentration (mg/dL)					
+		0	0.8	1	1.5	2	4
+	4						9
+	2				22	53	53
+	1				30	7	1
+	Neg	63	63	63	27	3	
+
+[Table 4 on page 7]
+iChem 100		Predicate Device (mg/dl)				
+		0	0.5-1.0	2.0	6.0-10.0	>10.0
+	4	1		3		1
+	2	8	3	14		
+	1	6	7			
+	Neg	141	2	2		
+
+[Table 5 on page 7]
+iChem 100		Spiked Concentration (mg/dL)					
+		0	20	25	30	100	300
+	300					2	55
+	100					59	2
+	25		42	53	48		
+	Neg	54					
+
+--- Page 8 ---
+Predicate Device (mg/dL)
+0 5-60 80-100 >150
+300
+iChem 100
+100
+25 4 16
+Neg 167 1
+Leukocytes
+Spiked Concentration (WBC/µL)
+0 15 25 50 75 500
+500 11 9 10 57
+iChem 100
+75 6 29 24 22 6
+25 57 26 32 27
+Neg 63 1 4
+Predicate Device (WBC/µL)
+0 25 75 250 500
+500 3 5 11
+iChem 100
+75 1 1
+25 17 3 2 1
+Neg 142 2
+Nitrite
+Spiked Concentration (mg/dL)
+0 0.03 0.05 0.08
+iChem 100
+Pos 32 44 59
+Neg 57 32 19 4
+Predicate Device (mg/dL)
+0 0.03 0.05 0.08
+iChem 100
+Pos 2 31
+Neg 154 1
+pH
+Spiked Concentration (pH meter)
+5 6 7 8 9
+5.0 10
+iChem 100 6.0 2
+7.0 8
+8.0 10
+9.0 10 10
+8
+
+[Table 1 on page 8]
+iChem 100		Predicate Device (mg/dL)			
+		0	5-60	80-100	>150
+	300				
+	100				
+	25	4	16		
+	Neg	167	1		
+
+[Table 2 on page 8]
+iChem 100		Spiked Concentration (WBC/µL)					
+		0	15	25	50	75	500
+	500			11	9	10	57
+	75		6	29	24	22	6
+	25		57	26	32	27	
+	Neg	63		1		4	
+
+[Table 3 on page 8]
+iChem 100		Predicate Device (WBC/µL)				
+		0	25	75	250	500
+	500			3	5	11
+	75		1			1
+	25	17	3	2	1	
+	Neg	142		2		
+
+[Table 4 on page 8]
+iChem 100		Spiked Concentration (mg/dL)			
+		0	0.03	0.05	0.08
+	Pos		32	44	59
+	Neg	57	32	19	4
+
+[Table 5 on page 8]
+iChem 100		Predicate Device (mg/dL)			
+		0	0.03	0.05	0.08
+	Pos	2	31		
+	Neg	154	1		
+
+[Table 6 on page 8]
+iChem 100		Spiked Concentration (pH meter)				
+		5	6	7	8	9
+	5.0	10				
+	6.0		2			
+	7.0		8			
+	8.0			10		
+	9.0				10	10
+
+--- Page 9 ---
+Predicate Device (pH)
+5.0-5.5 6.0-6.5 7.0-7.5 8.0-8.5 9.0
+9.0 1 2
+iChem 100 8.0 8
+7.0 15 5
+6.0 10 34 1
+5.0 87 25
+Protein
+Spiked Concentration (mg/dL)
+0 15 30 50 100 500
+500 42
+iChem 100
+100 14 42
+30 5 42 28
+Neg 42 37
+Predicate Device (mg/dL)
+0 10-70 100-200 300-600
+500 3
+iChem 100
+100 2 15 2
+30 13 37 1
+Neg 112 2 1
+Specific Gravity
+Spiked Concentration (refractometer)
+1.000 1.005 1.010 1.015 1.020 1.025 1.030 1.035
+1.000 10
+1.005 10 8
+1.010 2 2
+iChem 100
+1.015 8 2
+1.020 8 1
+1.025 9 3
+1.030 7 10
+1.035
+9
+
+[Table 1 on page 9]
+iChem 100		Predicate Device (pH)				
+		5.0-5.5	6.0-6.5	7.0-7.5	8.0-8.5	9.0
+	9.0			1		2
+	8.0			8		
+	7.0		15	5		
+	6.0	10	34	1		
+	5.0	87	25			
+
+[Table 2 on page 9]
+iChem 100		Spiked Concentration (mg/dL)					
+		0	15	30	50	100	500
+	500						42
+	100				14	42	
+	30		5	42	28		
+	Neg	42	37				
+
+[Table 3 on page 9]
+iChem 100		Predicate Device (mg/dL)			
+		0	10-70	100-200	300-600
+	500				3
+	100		2	15	2
+	30	13	37	1	
+	Neg	112	2	1	
+
+[Table 4 on page 9]
+iChem 100		Spiked Concentration (refractometer)							
+		1.000	1.005	1.010	1.015	1.020	1.025	1.030	1.035
+	1.000	10							
+	1.005		10	8					
+	1.010			2	2				
+	1.015				8	2			
+	1.020					8	1		
+	1.025						9	3	
+	1.030							7	10
+	1.035								
+
+--- Page 10 ---
+Predicate Device (Sp. Grav.)
+1.000 1.005 1.010 1.015 1.020 1.025 1.030 >1.030
+1.035 3 1
+1.030 1 9 9
+1.025 1 3 5 13 9
+iChem 100
+1.020 8 14 3 5
+1.015 1 16 8 1
+1.010 1 12 12
+1.005 15 8 9 5 2
+1.000 3
+Urobilinogen
+Spiked Concentration (mg/dL)
+0 1 2 3 4 8 12
+12
+iChem 100 8 57 56 57 58
+4 5 24 1 3
+2 52 9 1
+Neg 63 23 1
+Predicate Device (mg/dL)
+0 2-3 4-6 8-12 >12
+12 1
+iChem 100 8 1 2 3 1
+4 4
+2 12 5
+Neg 157 2
+Color
+Since the predicate device and the subject device differ in the number of colors for reporting
+results (16 for the predicate and 10 for the subject device), the sponsor compared the color on the
+two devices in 629 clinical samples:
+10
+
+[Table 1 on page 10]
+iChem 100		Predicate Device (Sp. Grav.)							
+		1.000	1.005	1.010	1.015	1.020	1.025	1.030	>1.030
+	1.035							3	1
+	1.030						1	9	9
+	1.025		1			3	5	13	9
+	1.020					8	14	3	5
+	1.015				1	16	8	1	
+	1.010			1	12	12			
+	1.005		15	8	9	5	2		
+	1.000		3						
+
+[Table 2 on page 10]
+iChem 100		Spiked Concentration (mg/dL)						
+		0	1	2	3	4	8	12
+	12							
+	8				57	56	57	58
+	4		5	24	1	3		
+	2		52	9		1		
+	Neg	63	23	1				
+
+[Table 3 on page 10]
+iChem 100		Predicate Device (mg/dL)				
+		0	2-3	4-6	8-12	>12
+	12					1
+	8	1	2	3	1	
+	4		4			
+	2	12	5			
+	Neg	157	2			
+
+--- Page 11 ---
+Predicate Device (color)
+sselroloC
+wolleY
+thgiL
+wolleY
+kraD/wolleY thgiL
+kraD/egnarO/egnarO
+egnarO
+kraD/deR/deR
+thgiL
+deR
+thgiL
+kraD/nworB/nworB
+nworB neerG
+eulB/teloiV
+Black 1
+Green
+Brown
+Red Brown 1
+Red 18 6
+Orange 2 1 3
+Amber 4 2 111 2 11 8
+Yellow 52 72 305 4 1
+Straw 12 4 6
+001
+mehCi
+Colorless 3
+b. Precision/Reproducibility:
+Two levels of commercially available control (normal and abnormal concentrations of
+each analyte) were analyzed to estimate precision of the test system. Testing was
+performed in the sponsor’s own laboratory by their employees.
+To estimate total imprecision, 23 abnormal samples and 20 normal samples were run over
+a 13 day period. To estimate within-run imprecision 20 normal and 20 abnormal samples
+were analyzed in a single run. Testing was performed on the candidate device, and the
+candidate device prior to the software modifications. Testing was done in the sponsor’s
+laboratory by trained laboratory technicians.
+Total Precision, Candidate Device at Normal Levels
+95%
+Control
+% Standard % Confidence
+Analyte
+Reflectance deviation CV Interval
+Range
+for CV
+Bilirubin Neg 63.6 2.1 3.3 [2.6-4.7]
+Urobilinogen Norm 57.7 1.9 3.3 [2.6-4.7]
+Ketones Neg 57.9 2.3 4.0 [3.1-5.6]
+Ascorbic 20-40 56.2 1.2 2.1 [1.6-3.0]
+Acid mg/dL
+Protein Neg 61.9 1.2 1.9 [1.5-2.7]
+11
+
+[Table 1 on page 11]
+001
+mehCi		Predicate Device (color)							
+		sselroloC	wolleY
+thgiL	wolleY
+kraD/wolleY	kraD/egnarO/egnarO
+egnarO
+thgiL	kraD/deR/deR
+deR
+thgiL	kraD/nworB/nworB
+nworB
+thgiL	neerG	eulB/teloiV
+	Black						1		
+	Green								
+	Brown								
+	Red Brown						1		
+	Red			18		6			
+	Orange			2	1		3		
+	Amber	4	2	111	2	11	8		
+	Yellow	52	72	305	4	1			
+	Straw	12	4	6					
+	Colorless			3					
+
+[Table 2 on page 11]
+Analyte	Control
+Range	%
+Reflectance	Standard
+deviation	%
+CV	95%
+Confidence
+Interval
+for CV
+Bilirubin	Neg	63.6	2.1	3.3	[2.6-4.7]
+Urobilinogen	Norm	57.7	1.9	3.3	[2.6-4.7]
+Ketones	Neg	57.9	2.3	4.0	[3.1-5.6]
+Ascorbic
+Acid	20-40
+mg/dL	56.2	1.2	2.1	[1.6-3.0]
+Protein	Neg	61.9	1.2	1.9	[1.5-2.7]
+
+--- Page 12 ---
+95%
+Control
+% Standard % Confidence
+Analyte
+Reflectance deviation CV Interval
+Range
+for CV
+PH 5-9 66.6 1.0 1.5 [1.2-2.1]
+Nitrite Neg 65.1 2.1 3.3 [2.5-4.6]
+Leukocyte Neg 62.5 1.9 3.0 [2.4-4.3]
+Specific 1.000- 27.9 1.3 4.5 [3.6-6.6]
+Gravity 1.035
+Blood Neg 65.4 0.8 1.2 [0.9-1.7]
+Glucose Neg 78.9 1.4 1.8 [1.4-2.5]
+Total Precision, Candidate Device at Abnormal Levels
+Analyte Control % Standard % CV 95%
+Range Reflectance deviation Confidence
+Interval for
+CV
+Bilirubin 1-4 mg/dL 28.5 2.5 8.8 [6.8-12.5]
+Urobilinogen 2-12 mg/dL 38.2 1.9 5.0 [3.8-7.0]
+Ketones 25-300 mg/dL 7.5 0.7 9.3 [7.2-13.3]
+Ascorbic Neg 7.9 0.7 8.9 [6.8-12.6]
+Acid
+Protein 30 - ≥500 29.0 0.9 3.1 [2.4-4.4]
+mg/dL
+PH 5-9 39.8 1.3 3.3 [2.5-4.6]
+Nitrite Pos 46.4 1.5 3.2 [2.5-4.6]
+Leukocyte 25-500 54.3 1.3 2.4 [1.8-3.4]
+WBC’s/uL
+Specific 1.000-1.035 19.8 1.5 7.6 [5.8-10.8]
+Gravity
+Blood 0.03-1 mg/dl 4.1 0.1 2.4 [1.9-3.4]
+Glucose 50- 20.8 1.3 6.2 [4.8-8.9]
+≥1000/mg/dL
+Within-Run Precision, Candidate Device at Normal Levels
+Analyte Control % Standard % CV 95%
+Range Reflectance deviation Confidence
+Interval for
+CV
+Bilirubin Neg 65.1 1.7 2.6 [2.0-3.8]
+Urobilinogen Norm 59.9 1.4 2.3 [1.8-3.4]
+Ketones Neg 60.6 1.5 2.5 [1.9-3.6]
+Ascorbic Acid 20-40 55.4 0.7 1.3 [1.0-1.8]
+12
+
+[Table 1 on page 12]
+Analyte	Control
+Range	%
+Reflectance	Standard
+deviation	%
+CV	95%
+Confidence
+Interval
+for CV
+PH	5-9	66.6	1.0	1.5	[1.2-2.1]
+Nitrite	Neg	65.1	2.1	3.3	[2.5-4.6]
+Leukocyte	Neg	62.5	1.9	3.0	[2.4-4.3]
+Specific
+Gravity	1.000-
+1.035	27.9	1.3	4.5	[3.6-6.6]
+Blood	Neg	65.4	0.8	1.2	[0.9-1.7]
+Glucose Neg 78.9 1.4 1.8 [1.4-2.5]					
+
+[Table 2 on page 12]
+Analyte	Control
+Range	%
+Reflectance	Standard
+deviation	% CV	95%
+Confidence
+Interval for
+CV
+Bilirubin	1-4 mg/dL	28.5	2.5	8.8	[6.8-12.5]
+Urobilinogen	2-12 mg/dL	38.2	1.9	5.0	[3.8-7.0]
+Ketones	25-300 mg/dL	7.5	0.7	9.3	[7.2-13.3]
+Ascorbic
+Acid	Neg	7.9	0.7	8.9	[6.8-12.6]
+Protein	30 - ≥500
+mg/dL	29.0	0.9	3.1	[2.4-4.4]
+PH	5-9	39.8	1.3	3.3	[2.5-4.6]
+Nitrite	Pos	46.4	1.5	3.2	[2.5-4.6]
+Leukocyte	25-500
+WBC’s/uL	54.3	1.3	2.4	[1.8-3.4]
+Specific
+Gravity	1.000-1.035	19.8	1.5	7.6	[5.8-10.8]
+Blood	0.03-1 mg/dl	4.1	0.1	2.4	[1.9-3.4]
+Glucose	50-
+≥1000/mg/dL	20.8	1.3	6.2	[4.8-8.9]
+
+[Table 3 on page 12]
+Analyte	Control
+Range	%
+Reflectance	Standard
+deviation	% CV	95%
+Confidence
+Interval for
+CV
+Bilirubin	Neg	65.1	1.7	2.6	[2.0-3.8]
+Urobilinogen	Norm	59.9	1.4	2.3	[1.8-3.4]
+Ketones	Neg	60.6	1.5	2.5	[1.9-3.6]
+Ascorbic Acid	20-40	55.4	0.7	1.3	[1.0-1.8]
+
+--- Page 13 ---
+Analyte Control % Standard % CV 95%
+Range Reflectance deviation Confidence
+Interval for
+CV
+mg/dL
+Protein Neg 60.7 0.4 0.66 [0.5-1.0]
+PH 5-9 65.4 1.0 1.5 [1.2-2.2]
+Nitrite Neg 67.8 1.8 2.6 [2.0-3.9]
+Leukocyte Neg 64.8 1.2 1.8 [1.4-2.7]
+Specific 1.000- 26.1 0.8 3.1 [2.3-4.5]
+Gravity 1.035
+Blood Neg 65.0 0.6 0.9 [0.7-1.3]
+Glucose Neg 79.0 1.4 1.8 [1.3-2.6]
+Within-Run Precision, Candidate Device at Abnormal Levels
+95%
+Control % Standard Confidence
+Analyte % CV
+Range Reflectance deviation Interval for
+CV
+Bilirubin 1-4 mg/dL 30.5 1.7 5.6 [4.2-8.2]
+Urobilinogen 2-12 mg/dL 40.2 1.8 4.5 [3.4-6.5]
+Ketones 25-300 8.8 0.5 5.7 [4.3-8.3]
+mg/dL
+Ascorbic Acid Neg 8.1 0.3 3.7 [2.8-5.4]
+Protein 30 - ≥500 29.0 0.4 1.4 [1.0-2.0]
+mg/dL
+PH 5-9 38.6 1.2 3.1 [2.4-4.5]
+Nitrite Pos 47.9 1.2 2.5 [1.9-3.7]
+Leukocyte 25-500 55.5 0.8 1.4 [1.1-2.1]
+WBC’s/uL
+Specific 1.000-1.035 21.1 1.4 6.6 [5.0-9.7]
+Gravity
+Blood 0.03—1 3.8 0.1 2.6 [2.0-3.8]
+mg/dl
+Glucose 50- 20.1 1.5 7.4 [5.7-10.9]
+≥1000/mg/dL
+c. Linearity/assay reportable range:
+Analyte free urine was fortified with glucose or hemoglobin to various concentrations
+spanning the reportable range of the assay. Results appear linear.
+The discrete reporting levels for glucose are 0, 50, 150, 500, and ≥ 1000 mg/dL of glucose.
+Glucose Linearity Study Results
+13
+
+[Table 1 on page 13]
+Analyte	Control
+Range	%
+Reflectance	Standard
+deviation	% CV	95%
+Confidence
+Interval for
+CV
+	mg/dL				
+Protein	Neg	60.7	0.4	0.66	[0.5-1.0]
+PH	5-9	65.4	1.0	1.5	[1.2-2.2]
+Nitrite	Neg	67.8	1.8	2.6	[2.0-3.9]
+Leukocyte	Neg	64.8	1.2	1.8	[1.4-2.7]
+Specific
+Gravity	1.000-
+1.035	26.1	0.8	3.1	[2.3-4.5]
+Blood	Neg	65.0	0.6	0.9	[0.7-1.3]
+Glucose	Neg	79.0	1.4	1.8	[1.3-2.6]
+
+[Table 2 on page 13]
+Analyte	Control
+Range	%
+Reflectance	Standard
+deviation	% CV	95%
+Confidence
+Interval for
+CV
+Bilirubin	1-4 mg/dL	30.5	1.7	5.6	[4.2-8.2]
+Urobilinogen	2-12 mg/dL	40.2	1.8	4.5	[3.4-6.5]
+Ketones	25-300
+mg/dL	8.8	0.5	5.7	[4.3-8.3]
+Ascorbic Acid	Neg	8.1	0.3	3.7	[2.8-5.4]
+Protein	30 - ≥500
+mg/dL	29.0	0.4	1.4	[1.0-2.0]
+PH	5-9	38.6	1.2	3.1	[2.4-4.5]
+Nitrite	Pos	47.9	1.2	2.5	[1.9-3.7]
+Leukocyte	25-500
+WBC’s/uL	55.5	0.8	1.4	[1.1-2.1]
+Specific
+Gravity	1.000-1.035	21.1	1.4	6.6	[5.0-9.7]
+Blood	0.03—1
+mg/dl	3.8	0.1	2.6	[2.0-3.8]
+Glucose	50-
+≥1000/mg/dL	20.1	1.5	7.4	[5.7-10.9]
+
+--- Page 14 ---
+Known Observed
+Analyte Result
+Concentration (mg/dL)
+(mg/dL)
+1500 ≥ 1000
+1000 ≥ 1000
+500 500
+400 500
+200 150
+100 150
+50 50
+30 50
+0 0
+Discrete reporting levels for blood are 0, 0.03, 0.2, and 1.0 mg/dL hemoglobin.
+Hemoglobin Linearity Study Results
+Known Observed
+Analyte Result
+Concentration
+(mg/dL)
+1.0 1.0
+0.9 1.0
+0.5 1.0
+0.1 0.2
+0.03 0.03
+0 0
+See the method comparison section above for performance of spiked
+samples with the other analytes.
+d. Carryover:
+There are no apparent carryover issues with this test system/ instrument. Strips are
+unitized devices. They are manually dipped, with excess liquid being removed. Strips
+are then placed in a horizontal position for analysis. There is little chance for run over,
+and no problems were observed during studies.
+e. Interfering Substances:
+Because test strips have not been changed, and only minor modifications have been made
+to the instrument which should not affect performance, these studies were not repeated.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+14
+
+[Table 1 on page 14]
+Known
+Analyte
+Concentration
+(mg/dL)	Observed
+Result
+(mg/dL)
+1500	≥ 1000
+1000	≥ 1000
+500	500
+400	500
+200	150
+100	150
+50	50
+30	50
+0	0
+
+[Table 2 on page 14]
+Known
+Analyte
+Concentration
+(mg/dL)	Observed
+Result
+1.0	1.0
+0.9	1.0
+0.5	1.0
+0.1	0.2
+0.03	0.03
+0	0
+
+--- Page 15 ---
+Instrument maintenance is minimal, i.e., wiping the outside of the instrument and
+transporter belt, and emptying the waste container.
+K. Proposed Labeling:
+The labeling is sufficient and satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+15

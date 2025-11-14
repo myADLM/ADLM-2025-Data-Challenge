@@ -1,0 +1,9 @@
+langchain
+langchain_core
+langgraph
+flask>=2.3.0
+requests>=2.31.0
+openai>=1.3.0
+pyopenssl>=23.0.0
+gunicorn>=21.2.0
+waitress>=2.1.2

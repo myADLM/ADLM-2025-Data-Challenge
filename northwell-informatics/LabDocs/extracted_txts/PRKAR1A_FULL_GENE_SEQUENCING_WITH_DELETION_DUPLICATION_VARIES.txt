@@ -1,0 +1,102 @@
+PRKAR1A FULL GENE SEQUENCING WITH DELETION/
+DUPLICATION
+1. PURPOSE The purpose of this Standard Operating Procedure
+(SOP) is to outline the protocol for conducting PRKAR1A full gene
+sequencing with deletion/duplication analysis. This procedure
+ensures that accurate and reproducible results are obtained for
+diagnostic purposes.
+2. RESPONSIBILITY All designated laboratory personnel who have
+been trained on this procedure are responsible for performing and
+documenting the analysis. It is the responsibility of the laboratory
+supervisor to ensure that the staff strictly adheres to this SOP and
+that any deviations or issues are promptly addressed.
+3. SPECIMEN REQUIREMENTS
+• Preferred specimen type: EDTA whole blood or extracted DNA
+• Minimum volume: 3-5 mL of whole blood (for DNA extraction) or
+minimum 20 µL of extracted DNA (concentration ≥ 50 ng/µL)
+• Storage conditions: Whole blood should be stored at 2-8°C and
+processed within 3 days of collection. Extracted DNA should be
+stored at -20°C.
+4. EQUIPMENT, REAGENTS, AND SUPPLIES
+• PCR Thermocycler
+• DNA extraction kit (Supplier: [Name])
+• Gene sequencing kit (Supplier: [Name])
+• Deletion/duplication analysis kit (Supplier: [Name])
+• Microcentrifuge tubes (0.2 mL and 1.5 mL)
+• Agarose gel electrophoresis apparatus
+• Sequencing software (e.g., BCL Convert, MiSeq Reporter)
+• Reference DNA sample for QC
+• Molecular grade water and buffers
+5. PROCEDURE
+A. DNA Extraction
+1. Receive and verify specimen integrity.
+2. Extract DNA using the designated DNA extraction kit following
+the manufacturer's instructions.
+3. Quantify and assess the quality of extracted DNA using
+spectrophotometric analysis (e.g., NanoDrop) and agarose gel
+electrophoresis.
+4. Store DNA at -20°C until ready for sequencing.
+B. PCR Amplification
+1. Design primers covering the entire PRKAR1A gene, including
+all exons and intron-exon boundaries.
+2. Prepare PCR reaction mix according to the conditions specified
+in the gene sequencing kit.
+3. Amplify target regions using the PCR Thermocycler under the
+conditions optimized for PRKAR1A.
+4. Assess PCR product quality and quantity using agarose gel
+electrophoresis.
+C. Sequencing
+1. Purify PCR products using a purification kit to remove primers
+and nucleotides.
+2. Prepare sequencing reactions according to the specifications in
+the sequencing kit.
+3. Load purified PCR products into a sequencer (e.g., MiSeq or
+Illumina platform) and initiate sequencing.
+4. Monitor sequencing run and QC metrics periodically to ensure
+run success.
+D. Analysis of Sequencing Data
+1. Use the designated sequencing software to analyze raw
+sequencing data.
+2. Align the sequence reads to the reference PRKAR1A gene and
+identify variants.
+3. Perform deletion/duplication analysis using software designed
+for CNV analysis.
+4. Validate identified variants using secondary analysis tools if
+required.
+5. Classify the variants according to ACMG guidelines.
+E. Quality Control
+1. Include a reference DNA sample in each sequencing run for
+internal QC.
+2. Perform bi-weekly inter-laboratory comparisons to ensure
+consistent and accurate results.
+3. Document all QC results and any corrective actions taken in the
+laboratory log.
+6. REPORTING RESULTS
+1. Interpret the analyzed data by correlating identified mutations
+with clinical significance.
+2. Generate a detailed report including mutation nomenclature,
+zygosity, and predicted impact.
+3. Review results with a qualified geneticist before final release.
+4. Transmit final verified results to the LIS (Laboratory Information
+System) and ensure proper documentation.
+7. METHOD LIMITATIONS
+• Possibility of missing deep intronic mutations that may affect gene
+function.
+• PCR and sequencing artifacts may occasionally result in false
+positives.
+• Variants in homonucleotide regions may pose challenges for
+accurate calling.
+8. REFERENCES
+• SOP for DNA Extraction using [Supplier] kit
+• SOP for Gene Sequencing using [Supplier] kit
+• ACMG Guidelines for Interpretation of Sequence Variants
+• [Supplier] Sequencing Software User Manual
+9. DOCUMENTATION Complete recording of all steps including
+specimen receipt, DNA extraction, PCR setup, sequencing, data
+analysis, and QC results in the tracking log. Ensure traceability and
+compliance with regulatory standards.
+By adhering strictly to this SOP, we aim to generate reliable and
+precise results for PRKAR1A full gene sequencing with deletion/
+duplication analysis, thereby providing critical insights for clinical
+diagnosis and management.
+Reviewed by: [Name] Date: [Date]

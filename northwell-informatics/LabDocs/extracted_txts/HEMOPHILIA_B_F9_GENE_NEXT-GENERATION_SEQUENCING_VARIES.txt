@@ -1,0 +1,101 @@
+Standard Operating Procedure
+HEMOPHILIA B, F9 GENE, NEXT-GENERATION SEQUENCING
+1. PURPOSE: To provide a detailed standard operating procedure
+(SOP) for the analysis phase specifically for generating results
+for Hemophilia B, F9 Gene using Next-Generation Sequencing
+(NGS). This protocol ensures accurate identification of genetic
+variations within the F9 gene that may contribute to Hemophilia
+B.
+2. RESPONSIBILITY: It is the responsibility of the laboratory
+personnel to perform the procedure as specified and ensure
+accurate and reliable results. Any deviation from the SOP
+should be documented and approved by the laboratory
+supervisor.
+3. EQUIPMENT AND REAGENTS:
+• NGS platform (e.g., Illumina MiSeq, Ion Torrent)
+• Agilent 2100 Bioanalyzer
+• PCR Amplification System (Thermocycler)
+• High-sensitivity DNA reagents
+• Library preparation kit (e.g., Nextera XT DNA Library Prep Kit)
+• Clean-room environment
+• Calibrated pipettes and sterile tips
+• Personal Protective Equipment (PPE)
+• Bioinformatics software (e.g., Illumina Basespace)
+1. SPECIMEN PREPARATION: 4.1 Sample Type:
+• Genomic DNA extracted from a peripheral blood sample or buccal
+swab.
+4.2 Initial Quality Control:
+• Measure DNA concentration using Qubit or NanoDrop
+spectrophotometer.
+• Assess DNA integrity using Agilent 2100 Bioanalyzer. High-quality
+DNA should show a sharp band with minimal degradation.
+1. PROCEDURE: 5.1 Library Preparation:
+2. Quantify extracted DNA using the Qubit fluorometer.
+3. Normalize DNA concentration to the required input amount as
+specified by the library kit manufacturer's instructions.
+4. Perform DNA fragmentation as recommended (e.g., enzymatic
+or mechanical shearing).
+5. Construct NGS library using the Nextera XT DNA Library
+Preparation Kit, following the manufacturer's protocol precisely.
+6. Perform PCR amplification of the target regions (F9 gene) and
+purify the amplified products using provided magnetic beads.
+5.2 Quality Control of Library:
+1. Analyze the prepared library using Agilent 2100 Bioanalyzer to
+ensure appropriate size distribution (typically 200-300 bp).
+2. Quantify the library using Qubit or qPCR.
+5.3 Sequencing:
+1. Load the library onto the NGS platform following the
+manufacturer's guidelines.
+2. Ensure correct run setup, including correct reference genome
+(e.g., hg38) and target region specifications.
+3. Start the sequencing run and monitor quality metrics and
+sequencing performance regularly.
+5.4 Bioinformatics Analysis:
+1. Perform initial data quality assessment using the NGS
+platform’s base-calling software.
+2. Perform read alignment to the human reference genome (hg38)
+using appropriate bioinformatics software (e.g., BWA or
+Bowtie2).
+3. Identify genetic variants within the F9 gene using variant calling
+software (e.g., GATK or Varscan) and annotate using
+appropriate annotation tools (e.g., Annovar).
+5.5 Variant Interpretation:
+1. Filtering: Apply filters to exclude common polymorphisms and
+artifacts.
+2. Clinical Interpretation: Classify variants according to ACMG
+guidelines.
+3. Cross-reference significant variants with public databases (e.g.,
+ClinVar, dbSNP).
+4. Validate significant findings by Sanger sequencing if necessary.
+5. REPORTING RESULTS:
+6. Draft a detailed report including:
+◦ Sample details
+◦ Summary of methods and analysis
+◦ Identified variants with interpretation
+◦ Clinical significance
+7. Review the report by a clinical geneticist.
+8. Finalize and issue the report through the Lab Information
+System (LIS).
+9. Discuss critical findings with the patient’s attending physician, if
+needed.
+10. QUALITY CONTROL AND ASSURANCE:
+11. Run positive and negative controls with each batch of samples.
+12. Maintain instrument calibration records and perform routine
+maintenance as per manufacturer guidelines.
+13. Participate in proficiency testing (e.g., CAP, EMQN) to ensure
+the accuracy of the testing process.
+14. REFERENCES:
+• Nextera XT DNA Library Preparation Kit: User Manual.
+• Illumina MiSeq System Guide.
+• Bioinformatics software manuals: BWA, GATK, Annovar.
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+• Relevant publications and database resources (ClinVar, dbSNP).
+1. DOCUMENTATION:
+2. Record all steps in the laboratory notebooks or electronic
+systems.
+3. Document any deviations from the SOP and corrective actions.
+This protocol ensures that results generated for Hemophilia B, F9
+Gene by Next-Generation Sequencing are accurate, reliable, and
+clinically relevant. Proper adherence to this SOP will aid in the
+effective diagnosis and management of Hemophilia B.

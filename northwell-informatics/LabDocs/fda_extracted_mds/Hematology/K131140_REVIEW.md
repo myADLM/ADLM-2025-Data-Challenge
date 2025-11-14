@@ -1,0 +1,170 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+Omnyx, LLC, Omnyx Manual Read of the Digital HER2 Application
+
+# D. Type of Test or Tests Performed:
+
+Manual scoring of digital images on a computer monitor of glass slides stained immunohistochemically with the Dako HercepTest™ pharmDx™ kit.
+
+# E. System Descriptions:
+
+1. Device Description:
+
+The Omnyx Manual Read of the Digital HER2 Application is intended to aid pathology professionals in creating, managing, storing, annotating, measuring, and viewing digital whole slide images from formalin-fixed, paraffin-embedded (FFPE) tissue sections stained with the Dako HercepTest™.
+
+The system is composed of the following components:
+
+VL4 Scanner: A hardware device that captures and compresses bright field images o tissue samples.   
+Data and Workflow Infrastructure: A set of networked applications which enables case data entry, acquisition, indexing, storage and acceptance of digital pathology images, workflow management, and retrieval of case and image data.   
+Digital Histology Workstation: The application which permits the histologist to review or enter case data and check quality of scanned images.   
+Digital Pathology Workstation: The application which allows the pathologist to retrieve case data and review and annotate slide images.
+
+In addition, the Manual Read of the Digital HER2 Application includes a specific computer and monitor.
+
+Hardware:
+
+The Omnyx™ VL4 scanner is an automated imaging system that can be loaded with up to 4 slides at a time. The Digital Histology Workstation computer consists of a monitor, keyboard and mouse all provided by Omnyx. The Digital Pathology Workstation consists of a workstation computer, dual high-resolution monitors, keyboard and mouse all provided by Omnyx.
+
+# Software:
+
+The Omnyx IDP system software is composed of 1) the VL4 scanner software which performs tissue identification, scan planning, focusing, image acquisition, stitching and compression of digital slide images and sends them to the Digital Archive and 2) the DPS software that manages the Histologist and Pathologist workstation functions, image viewer, workflow service, database, interface engine, APLIS service, digital archive, image store and the administrator client application.
+
+# 2. Principles of Operation:
+
+Glass slides with FFPE tissue sections stained with the Dako HercepTest™ are scanned and digitized using the Omnyx VL4 scanner. The Omnyx™ VL4 is an automated imaging system that captures and compresses bright field images of tissue samples. Slides are scanned at $4 0 \mathrm { x } ( 0 . 2 7 5 \mu \mathrm { m / p i x e l } )$ magnification. The VL4 scanner calculates the region to be scanned. If not in the auto scan mode, the user can optionally check the region to be scanned by touching the slide displaying the macro image, which then displays the ‘scan area’ in a green overlay. If satisfied, the user can commence the scan.
+
+The VL4 scans $2 5 \mathrm { m m } \mathrm { ~ x ~ } 7 5 \mathrm { m m }$ and $2 6 \mathrm { { m m } \times 7 6 \mathrm { { m m } } }$ slides.
+
+Once a scan is complete, the scanner ensures that both the slide metadata and the compressed image are correctly associated with the unique scan identifier. The scanner then sends the image and metadata to the Digital Archive. The Digital Archive verifies that the image and metadata are correctly associated with the unique scan identifier. It then sends confirmation to the VL4 that it has completed this verification and stores the scans. The scanned images can be viewed without magnification at the VL4 touch screen, but images captured at high magnifications require an external viewing system (Omnyx Histologist or Pathologist Workstation) to view the images at the scanned resolution. The Omnyx Histology Workstation supports the histologist process from case creation to case review before release to the pathologist. The Pathologist Workstation enables the pathologist to review the digital HercepTest™ IHC whole slide image via the Omnyx Image Viewer. The Image Viewer is used by the pathologist for annotating images, making measurements and for HER2 scoring of the slides. Slides are scored by the pathologist based on the review of the digital image of the HER2 stained glass slide. HER2 scoring is performed according to the instructions in the package insert for the Dako HercepTest™ pharmDx kit™.
+
+# 3. Modes of Operation:
+
+Manual scoring of digital images on a computer monitor of glass slides stained with the Dako HercepTest™ pharmDx kit™.
+
+4. Specimen Identification:
+
+Glass tissue slides are identified by barcoded slide label or manual matching of whole slide images to the slides.
+
+5. Specimen Sampling and Handling:
+
+HER2 IHC stained slides manually loaded onto the VL4 slide scanner. The scanner holds four sides at a time. Slides are scanned at the $4 0 \mathrm { x } ( 0 . 2 7 5 \mu \mathrm { m / p i x e l } )$ magnification.
+
+6. Calibration:
+
+Calibration is performed at installation and after 1300 hours of use by the systems administrator.
+
+7. Quality Control:
+
+Quality control is performed by the operator before releasing the images to the pathologist for review. Slides with sub-optimal images will be rescanned.
+
+The accuracy of the system depends on the laboratory following the quality control instructions for the Dako HercepTest™ pharmDx kit™ assay. The positive and negative control slides are also scanned along with the patient slides which are reviewed by the pathologist before scoring.
+
+# 8. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for this line of product types:
+
+Yes____X_ ___ or No_
+
+# F. Regulatory Information:
+
+1. Regulation section: 21 CFR §864.1860, Immunohistochemistry reagents and kits
+
+2. Classification: Class II
+
+3 Product code:
+
+OEO − Automated Digital Image Manual Interpretation Microscope
+
+4. Panel: Pathology (88)
+
+# G. Intended Use:
+
+1. Indication(s) for Use:
+
+The Omnyx Manual Read of the Digital HER2 Application on the Omnyx IDP System is intended for in vitro diagnostic use as an aid to pathology professionals for creating, managing, storing, annotating, measuring, and viewing digital Whole Slide Images (WSI) from formalin-fixed, paraffin-embedded (FFPE) tissue sections stained with the Dako
+
+HercepTest™.
+
+The Omnyx Manual Read of the Digital HER2 Application on the Omnyx IDP System is intended for use as an aid to the pathologist in the detection and semi-quantitative measurement of HER2/neu (c-erbB-2) in digital images of FFPE breast cancer tissue immunohistochemically stained with the Dako HercepTest™ and viewed on a computer monitor.
+
+The Dako HercepTest™ is indicated for use as an aid in the assessment of breast cancer patients for whom HERCEPTIN $\textsuperscript { \textregistered }$ (Trastuzumab) treatment is being considered.
+
+2. Special Conditions for Use Statement(s): For prescription use only Indicated for use with the Dako Autostainer Link 48
+
+# H. Substantial Equivalence Information:
+
+1. Predicate Device Name(s) and 510(k) numbers: ScanScope $\textsuperscript { \textregistered }$ XT System for HER2 − k071671
+
+2. Comparison with Predicate Device:
+
+<table><tr><td colspan="3">Similarities</td></tr><tr><td>Item</td><td>New Device Omnyx Manual Read of the Digital HER2 Application</td><td>Predicate Device ScanScope® XT System for HER2</td></tr><tr><td>Intended Use</td><td>The Omnyx Integrated Digital Pathology System (IDP) for Immunohistochemistry is intended for in vitro diagnostic use as an aid to pathology professionals for creating, receiving, managing, storing, annotating, measuring, and viewing digital Whole Slide Images (WSI) from formalin- fixed, paraffin-embedded (FFPE) tissue sections stained with the Dako HercepTestTM. The Omnyx IDP for IHC Manual Application is intended for use as an aid to the pathologist in the detection and semi-quantitative measurement</td><td>The ScanScope® System is an automated digital slide creation, management, viewing and analysis system. It is intended for IVD use as an aid to the pathologist in the display, detection, counting and classification of tissues and cells of clinical interest based on particular color, intensity, size, pattern and shape. The IHC HER2 Manual Read of a Digital Slide application is intended for use as an aid to the pathologist in the detection and semi-quantitative measurement of HER2/neu (c-erbB-2) in</td></tr><tr><td></td><td>of HER2/neu (c-erbB-2) in digital images of FFPE breast cancer tissue immunohistochemically stained with the Dako HercepTestTM and viewed on a computer monitor. Dako HercepTestTM is indicated for use as an aid in the assessment of breast cancer patients for whom HERCEPTIN® (Trastuzumab) treatment is being considered.</td><td>formalin-fixed, paraffin- embedded normal and neoplastic tissue immunohistochemically stained for HER-2 receptors on a computer monitor. HER2 results are indicated for use as an aid in the management, prognosis and prediction of therapy outcomes in breast cancer. The IHC HER2 Manual Read of a Digital Slide application is intended for use as an accessory to the Dako HercepTestTM to aid in the detection and semi- quantitative measurement of HER2/neu (c-ebB-2) in formalin-fixed, paraffin- embedded normal and neoplastic tissue immunohistochemically stained for HER-2 receptors on a computer monitor. When used with the Dako HercepTest, it is indicated for use as an aid in the assessment of breast cancer patients for whom HERCEPTIN® (Trastuzumab) treatment is being considered. Note: The actual correlation of</td></tr><tr><td>Sample Type</td><td>Formalin-fixed, paraffin- embedded tissue stained by</td><td>the Dako HercepTestTM to Herceptin® clinical outcome has not been established. Same</td></tr><tr><td>Device components</td><td>immunohistochemical technique. Automated digital slide scanner, computer, color monitor, keyboard and digital pathology information management software</td><td>Same</td></tr><tr><td colspan="3" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">New DeviceOmnyx Manual Read of theHER2 Digital Application</td><td colspan="1" rowspan="1">Predicate DeviceScanScope® XT System forHER2</td></tr><tr><td colspan="1" rowspan="1">Image Acquisition</td><td colspan="1" rowspan="1">Tile sensor technology</td><td colspan="1" rowspan="1">Line scanning technology</td></tr><tr><td colspan="1" rowspan="1">Light Source</td><td colspan="1" rowspan="1">LED</td><td colspan="1" rowspan="1">Tungsten Light</td></tr></table>
+
+# I. Special Control/Guidance Document Referenced (if applicable):
+
+None
+
+# J. Performance Characteristics:
+
+1. Analytical Performance:
+
+a. Accuracy:
+
+A method comparison study was performed to compare the HER2 scores under the manual microscopy method (MM) to the corresponding scores using the glass slide digital image read on a computer monitor (M-WSI).
+
+The study used 200 formalin-fixed paraffin-embedded (FFPE) human breast cancer specimens with different levels of HER2 expression. All slides were stained with the Dako HercepTest™ pharmDx™ kit using the Dako Autostainer Link 48. There was approximately the same number of slides in each of the scoring categories ( $0 , 1 + , 2 +$ and 3). Slides were scanned at 2 different locations (3 different laboratories) using 3 scanners at $4 0 \mathrm { x }$ magnification. Four study sites were used with one pathologist at each site. The corresponding negative control reagent slides and the positive control slides were also scanned along with the study cases and evaluated by the study pathologists before scoring the slides. Thirteen slides were excluded from analysis due to “uncertain or no definite invasive carcinoma” $( \mathrm { n } { = } 1 1 )$ ), poor staining quality $\scriptstyle ( \mathrm { n = 1 } )$ ) and slide breakage $( \mathrm { n } { = } 1 )$ ). HER2 scoring was performed according to the instructions in the package insert for the Dako HerceptTest™ pharm $\mathrm { \nabla _ { \Omega } D x ^ { T M } }$ kit. After a minimum of two-week washout period, the same pathologist at each site accessed the scanned images of the HER2 IHC stained slides through the Omnyx Pathologist Workstation and performed the M-WSI reads of the same slides. The table below shows the data for this study.
+
+Table 1: Intra-Reader/Inter-Modality comparison between MM vs. M-WSI – Discrete score categories   
+
+<table><tr><td rowspan=3 colspan=2></td><td rowspan=1 colspan=16>Glass (MM)</td></tr><tr><td rowspan=1 colspan=4>Site 1</td><td rowspan=1 colspan=4>Site 2</td><td rowspan=1 colspan=4>Site 3</td><td rowspan=1 colspan=4>Site 4</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td></tr><tr><td rowspan=4 colspan=1>Digital(M-WSI)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>47</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>52</td></tr><tr><td rowspan=1 colspan=2>% Agreement(95% CI)(Trichotomous)**</td><td rowspan=1 colspan=4>93.0% (89%-96%)</td><td rowspan=1 colspan=4>85.0% (79%-89%)</td><td rowspan=1 colspan=4>70.9% (64%-77%)</td><td rowspan=1 colspan=4>91.4% (87%-95%)</td></tr></table>
+
+Note: \*\*Scores of 0 and $1 +$ combined, $^ { 2 + }$ and $^ { 3 + }$ as separate
+
+Table 2: Intra-Reader/Inter-Modality comparison between MM vs. M-WSI – Binary score categories   
+
+<table><tr><td rowspan=1 colspan=8>Glass (MM)</td></tr><tr><td rowspan=1 colspan=2>Site 1</td><td rowspan=1 colspan=2>Site 2</td><td rowspan=1 colspan=2>Site 3</td><td rowspan=1 colspan=2>Site 4</td></tr><tr><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td></tr><tr><td rowspan=2 colspan=1>Digital(M-WSI)</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>86</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>99</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>103</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>107</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>75</td></tr><tr><td rowspan=1 colspan=2>Overall PercentAgreement(95% CI)</td><td rowspan=1 colspan=2>92.5%(88%-96%)</td><td rowspan=1 colspan=2>91.5%(87%-95%)</td><td rowspan=1 colspan=2>89.4%(79%-89%)</td><td rowspan=1 colspan=2>93.0%(88%-96%)</td></tr><tr><td rowspan=1 colspan=2>Negative PercentAgreement(95% CI)</td><td rowspan=1 colspan=2>94.5%(88%-98%)</td><td rowspan=1 colspan=2>89.9%(82%-95%)</td><td rowspan=1 colspan=2>67.4%(57%-76%)</td><td rowspan=1 colspan=2>94.3%(88%-97%)</td></tr><tr><td rowspan=1 colspan=2>Positive PercentAgreement(95% CI)</td><td rowspan=1 colspan=2>90.4%(82%-95%)</td><td rowspan=1 colspan=2>92.8%(86%-96%)</td><td rowspan=1 colspan=2>100%(97%-100%)</td><td rowspan=1 colspan=2>91.5%(83%-96%)</td></tr></table>
+
+Table 3: Inter-reader agreement rates for M-WSI   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=2>Pathologist2</td><td rowspan=1 colspan=2>Pathologist3</td><td rowspan=1 colspan=2>Pathologist4</td><td rowspan=1 colspan=2>Pathologist3</td><td rowspan=1 colspan=2>Pathologist4</td><td rowspan=1 colspan=2>Pathologist4</td></tr><tr><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>Pos</td></tr><tr><td rowspan=2 colspan=1>Pathologist1</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>85</td><td rowspan=1 colspan=1>3</td><td rowspan=4 colspan=6>62   26   83    10   111  24   80</td></tr><tr><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>99</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>106</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>78</td></tr><tr><td rowspan=2 colspan=1>Pathologist2</td><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=6></td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=6></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>111</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>80</td></tr><tr><td rowspan=2 colspan=1>Pathologist3</td><td rowspan=1 colspan=1>Neg</td><td rowspan=2 colspan=10></td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Pos</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>81</td></tr><tr><td rowspan=1 colspan=2>Overall PercentAgreement(95% CI)</td><td rowspan=1 colspan=2>89.9%(85%-93%)</td><td rowspan=1 colspan=2>83.9%(78%-88%)</td><td rowspan=1 colspan=2>86.7%(81%-91%)</td><td rowspan=1 colspan=2>86.9%(82%-91%)</td><td rowspan=1 colspan=2>86.7%(81%-91%)</td><td rowspan=1 colspan=2>73.9%(67%-80%)</td></tr><tr><td rowspan=1 colspan=2>Average PositiveAgreement(95% CI)</td><td rowspan=1 colspan=2>88.9%(83%-93%)</td><td rowspan=1 colspan=2>79.2%(72%-85%)</td><td rowspan=1 colspan=2>87.2%(82%-91%)</td><td rowspan=1 colspan=2>82.7%(76%-88%)</td><td rowspan=1 colspan=2>86.9%(81%-91%)</td><td rowspan=1 colspan=2>70.3%(63%-77%)</td></tr><tr><td rowspan=1 colspan=2>Average NegativeAgreement( 5C)</td><td rowspan=1 colspan=2>90.8%(86%-94%)</td><td rowspan=1 colspan=2>86.9%(82%-91%)</td><td rowspan=1 colspan=2>86.2%(80%-90%)</td><td rowspan=1 colspan=2>89.5%(85%-93%)</td><td rowspan=1 colspan=2>86.5%(81%-91%)</td><td rowspan=1 colspan=2>76.8%(71%-82%)</td></tr></table>
+
+# b. Precision/Reproducibility:
+
+# Intra-Pathologist/Inter-Day
+
+The intra-reader/inter-day was performed using M-WSI reads by 3 independent pathologists. Forty HER2 stained slides with even score distribution were read by each pathologist 3 times digitally (M-WSI). The slides used in this study were a different set of clinical slides from the method comparison study. The slides were scanned on a single Omnyx VL4 scanner and the final images were used. There was a 2-week minimum washout period and 10 additional slides were added during each reading as “wildcards” (unique wildcards during each read) to minimize recall bias.
+
+Pair-wise comparisons between the 3 reads were performed (i.e., read 1 vs. read 2, read 1 vs. read 3, and read 2 vs. read 3) and the results are shown in the tables below.
+
+Table 4.1: Intra-Reader/Inter-Day, Pathologist 1   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=5>Read 2</td><td rowspan=1 colspan=4>Read 3</td><td rowspan=1 colspan=4>Read 3</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=2>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td></tr><tr><td rowspan=4 colspan=1>Read 1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=2>3</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=4 colspan=4></td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=2>3</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>9</td></tr><tr><td rowspan=4 colspan=1>Read 2</td><td rowspan=1 colspan=1>0</td><td rowspan=4 colspan=9></td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=2>% Agreement(95% CI)(Trichotomous)</td><td rowspan=1 colspan=5>62.5%(47%-76%)</td><td rowspan=1 colspan=4>77.5%(62%-88%)</td><td rowspan=1 colspan=4>85.0%(71%-93%)</td></tr></table>
+
+Table 4.2: Intra-Reader/Inter-Day, Pathologist 2   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=5>Read 2</td><td rowspan=1 colspan=4>Read 3</td><td rowspan=1 colspan=4>Read 3</td></tr><tr><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td></tr><tr><td rowspan=4 colspan=1>Read 1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=2>8</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=4 colspan=4></td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=5 colspan=1>Read 2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=9></td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=2 colspan=1>1+</td><td rowspan=1 colspan=2></td><td rowspan=2 colspan=7></td><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>8</td><td rowspan=2 colspan=1>0</td><td rowspan=2 colspan=1>0</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=7></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=9></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=2>% Agreement(95% CI)(Trichotomous)</td><td rowspan=1 colspan=5>95.0%(83%-99%)</td><td rowspan=1 colspan=4>97.5%(87%-100%)</td><td rowspan=1 colspan=4>97.5%(87%-100%)</td></tr></table>
+
+Table 4.3: Intra-Reader/Inter-Day, Pathologist 3   
+
+<table><tr><td rowspan=1 colspan=4>Read 2</td><td rowspan=1 colspan=4>Read 3</td><td rowspan=1 colspan=4>Read 3</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td></tr><tr><td rowspan=4 colspan=1>Read 1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=4 colspan=4></td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=4></td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=4 colspan=1>Read 2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=8></td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=8></td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=8></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=8></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>13</td></tr><tr><td rowspan=1 colspan=2>% Agreement(95% CI)(Trichotomous)</td><td rowspan=1 colspan=4>90.0%(77%-96%)</td><td rowspan=1 colspan=4>90.0%(77%-96%)</td><td rowspan=1 colspan=4>95.0%(83%-99%)</td></tr></table>
+
+# Precision:
+
+In the inter-scanner precision study, a single pathologist reviewed and scored 80 ROIs (Regions of Interest) which were extracted from scans of 40 slides. The four HER2 scoring categories were equally represented in this set of slides. The slides were scanned by 3 different VL4 scanners. Due to slide damage, some slides were not scanned on all three scanners. There was a washout period of at least two weeks between each set of reads. Additionally, a separate set of 60 “wildcard” ROIs were extracted from the WSIs (unique set of 20 ROIs used per read session) to be included during each reading session to reduce recall bias. The pathologist reviewed and scored each ROI. Precision among each scanner pair was determined based on the HercepTest™ scores of the 80 ROIs. The inter-scanner precision data is shown in table 5 below.
+
+Table 5: Inter-Scanner Precision   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=6>Scanner 2</td><td rowspan=1 colspan=4>Scanner 3</td><td rowspan=1 colspan=6>Scanner 3</td></tr><tr><td rowspan=1 colspan=3>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=1>2+</td><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=2>1+</td><td rowspan=1 colspan=2>2+</td><td rowspan=1 colspan=1>3+</td></tr><tr><td rowspan=5 colspan=1>Scanner 1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=3>25</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=6></td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=3>3</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=3 colspan=6></td></tr><tr><td rowspan=2 colspan=1>2+</td><td rowspan=2 colspan=3>0</td><td rowspan=2 colspan=1>0</td><td rowspan=2 colspan=1>19</td><td rowspan=2 colspan=1>3</td><td rowspan=2 colspan=1>0</td><td rowspan=2 colspan=1>1</td><td rowspan=2 colspan=1>15</td><td rowspan=2 colspan=1>6</td><td rowspan=2 colspan=3></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=3>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=6></td></tr><tr><td rowspan=5 colspan=1>Scanner 2</td><td rowspan=1 colspan=1>0</td><td rowspan=2 colspan=10></td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=2>2</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>1+</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=2>9</td><td rowspan=1 colspan=2>1</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=2 colspan=1>2+</td><td rowspan=1 colspan=3></td><td rowspan=2 colspan=7>EY</td><td rowspan=2 colspan=1>0</td><td rowspan=2 colspan=2>1</td><td rowspan=2 colspan=2>15</td><td rowspan=2 colspan=1>4</td></tr><tr><td rowspan=1 colspan=2></td><td></td></tr><tr><td rowspan=1 colspan=1>3+</td><td rowspan=1 colspan=10></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=2>1</td><td rowspan=1 colspan=1>18</td></tr></table>
+
+<table><tr><td>% Agreement (95% CI) (Trichotomous)</td><td>95.0% (88%-98%)</td><td>88.8% (80%-94%)</td><td>91.3% (83%-96%)</td></tr></table>
+
+c. Linearity: Not applicable d. Carryover: Not applicable. e. Interfering Substances: Not applicable.
+
+2. Other Supportive Instrument Performance Data Not Covered Above: None
+
+# K. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# L. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

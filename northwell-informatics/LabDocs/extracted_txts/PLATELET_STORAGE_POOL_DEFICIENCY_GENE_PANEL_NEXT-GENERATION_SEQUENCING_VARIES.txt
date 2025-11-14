@@ -1,0 +1,123 @@
+Standard Operating Procedure
+PLATELET STORAGE POOL DEFICIENCY GENE PANEL, NEXT-
+GENERATION SEQUENCING
+1. PURPOSE
+To provide a standardized protocol for the analytical phase of next-
+generation sequencing (NGS) to identify variants in genes associated
+with platelet storage pool deficiency (PSPD). This SOP ensures the
+accurate and efficient generation of results that can be used for
+diagnostic, prognostic, and therapeutic purposes.
+Responsibility:
+• Clinical Laboratory Scientists (CLS) performing the assay.
+• Laboratory Technologists responsible for equipment maintenance
+and quality control.
+• Supervisors overseeing the testing process and result validation.
+2. DEFINITION
+This protocol outlines the steps to be followed in preparing DNA
+libraries, sequencing, and bioinformatics analysis for detecting
+genetic variants associated with platelet storage pool deficiency
+using NGS technology.
+3. PROCEDURE
+A) DNA Extraction and Quantification:
+Objective: To isolate high-quality DNA from the patient’s blood
+sample.
+1. Sample Preparation:
+◦ Use a blood sample already collected, received, and
+accessioned.
+◦ Store samples at 2-8°C until processing.
+2. DNA Extraction:
+◦ Follow the instructions provided with the DNA extraction kit
+(e.g., Qiagen DNA Blood Mini Kit).
+◦ Ensure to include a negative extraction control to monitor for
+contamination.
+3. DNA Quantification and Quality Assessment:
+◦ Quantify DNA using fluorometric methods (e.g., Qubit) and
+assess purity using spectrophotometric methods (e.g.,
+NanoDrop).
+◦ Ensure the concentration is between 20-50 ng/µL and the
+A260/A280 ratio is between 1.8-2.0.
+B) Library Preparation:
+Objective: To prepare sequencing-ready libraries from input DNA.
+1. Target Enrichment:
+◦ Use a PSPD gene panel target enrichment kit (e.g., Agilent
+SureSelect).
+◦ Follow the manufacturer's protocol for hybridization and
+capture.
+2. Library Construction:
+◦ Perform end-repair and adapter ligation as per the kit
+instructions.
+◦ Purify the libraries using magnetic beads (e.g., AMPure XP).
+3. Library Quantification and Quality Control:
+◦ Quantify libraries using qPCR, or a bioanalyzer to ensure
+proper sizing and concentration.
+◦ Ensure library concentration is within the required range for
+sequencing.
+C) Next-Generation Sequencing:
+Objective: To sequence the prepared libraries using an NGS platform.
+1. Sequencing Setup:
+◦ Load the prepared libraries onto the sequencing instrument
+(e.g., Illumina MiSeq, HiSeq).
+◦ Configure the run parameters according to the
+manufacturer's recommendations and desired coverage.
+2. Run Monitoring and Quality Assurance:
+◦ Monitor the sequencing run to ensure proper performance.
+◦ Include positive and negative controls in the sequencing
+run.
+D) Data Analysis:
+Objective: To analyze sequencing data and identify genetic variants.
+1. Data Preprocessing:
+◦ Demultiplex the sequencing reads and perform quality
+filtering using appropriate software (e.g., FASTQ).
+◦ Trim adapter sequences and low-quality bases using quality
+control tools (e.g., Trimmomatic).
+2. Alignment and Variant Calling:
+◦ Align trimmed reads to the reference genome (e.g.,
+GRCh38) using a reliable aligner (e.g., BWA).
+◦ Perform variant calling using a validated pipeline (e.g.,
+GATK).
+3. Annotation and Interpretation:
+◦ Annotate detected variants using an annotation tool (e.g.,
+Annovar) to identify their impact and clinical relevance.
+◦ Compare identified variants against known databases (e.g.,
+ClinVar, HGMD).
+E) Reporting Results:
+Objective: To generate a comprehensive report of identified variants.
+1. Variant Review:
+◦ Perform a manual review of significant variants by a CLS
+and a clinical geneticist.
+◦ Verify the presence of variants using orthogonal methods if
+necessary (e.g., Sanger sequencing).
+2. Report Generation:
+◦ Compile a detailed report including detected variants, their
+clinical significance, and recommended follow-up actions.
+◦ Ensure the report is reviewed and signed off by a qualified
+clinical geneticist.
+3. Result Communication:
+◦ Deliver the final report to the ordering physician using
+secure methods according to laboratory policy.
+◦ Ensure proper documentation and archiving of the test
+results.
+4. QUALITY CONTROL AND ASSURANCE
+• Maintain and calibrate equipment as per manufacturer guidelines
+and laboratory policies.
+• Include quality control samples in each run to monitor
+performance.
+• Document any deviations from the SOP and corrective actions
+taken.
+5. REFERENCES
+• Manufacturer manuals for DNA extraction kits, library preparation
+kits, and NGS platforms.
+• Clinical guidelines for NGS-based variant analysis and reporting
+(e.g., ACMG standards).
+6. DOCUMENTS AND FORMS
+• DNA extraction log.
+• Library preparation log.
+• Sequencing run log.
+• Variant review and interpretation form.
+• Final test report template.
+This SOP must be reviewed and updated annually or as needed to
+incorporate new methodologies and technologies.
+Reviewed by:
+Date:
+Approved by:
+Date:

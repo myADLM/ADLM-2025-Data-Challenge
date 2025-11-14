@@ -1,0 +1,119 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase of Generating Results for
+MAYOCOMPLETE COMPREHENSIVE SARCOMA PANEL, NEXT-
+GENERATION SEQUENCING (NGS), TUMOR
+1. Purpose
+To delineate the procedure for the analytical phase of generating
+results for the MAYOCOMPLETE COMPREHENSIVE SARCOMA
+PANEL, NEXT-GENERATION SEQUENCING, TUMOR in order to
+ensure accurate, reliable, and reproducible results.
+1. Scope
+This SOP applies to all laboratory personnel performing the analytical
+phase of the NGS procedure for tumor specimens submitted for the
+MAYOCOMPLETE COMPREHENSIVE SARCOMA PANEL.
+1. Responsibilities
+• Laboratory Technologists: Responsible for performing the NGS
+procedure, monitoring quality control, and documenting results.
+• Laboratory Supervisors: Oversee the technologists, validate
+results, and address any procedural issues.
+• Quality Control Unit: Validate calibration and maintenance of all
+NGS instrumentation and monitoring adherence to predefined
+quality control measures.
+1. Definitions
+• NGS: Next-Generation Sequencing.
+• Tumor DNA: DNA extracted and purified from tumor tissue
+specimens.
+• QC: Quality Control.
+1. Equipment and Reagents
+• NGS Sequencer (e.g., Illumina, ThermoFisher)
+• DNA Extraction Kit
+• Library Preparation Kit specific for the sarcoma panel
+• PCR Thermocycler
+• High-sensitivity DNA chip (e.g., Agilent Bioanalyzer)
+• Qubit Fluorometer for DNA quantification
+• Reagents for sequencing (e.g., buffers, primers)
+1. Procedure
+A. DNA Extraction:
+1. DNA is extracted according to the laboratory’s validated DNA
+Extraction SOP. The purity and concentration of the DNA are
+assessed using a NanoDrop and Qubit fluorometer.
+2. Aim for a concentration of 20-200 ng/µL.
+B. Library Preparation:
+1. Prepare DNA library following the Library Preparation Kit
+instructions specific for the sarcoma panel.
+2. Ensure accurate quantification of the prepared library using
+Qubit Fluorometer.
+3. Validate the size and quality of libraries on an Agilent
+Bioanalyzer using a high-sensitivity DNA chip.
+4. Pool prepared libraries to the appropriate concentration and
+volume based on sequencer’s specifications.
+C. Sequencing:
+1. Load the pooled libraries onto the NGS Sequencer.
+2. Enter run parameters into the sequencing software, ensuring
+that the parameters align with the sarcoma panel specifications.
+3. Begin sequencing run and closely monitor initial quality control
+metrics provided by the sequencing software.
+D. Quality Control:
+1. Monitor sequencing run parameters and performance metrics in
+real-time.
+2. Post-run, validate sequencing quality metrics, including Q30
+scores, read depth, and sequencing coverage.
+3. Utilize internal controls to ensure run validity.
+4. Repeat sequencing if quality parameters do not meet the
+predefined standards.
+E. Data Analysis:
+1. Pipeline analysis begins automatically or is initiated through
+analysis software specific to the NGS platform.
+2. Ensure data alignment to the appropriate reference genome
+(e.g., hg38).
+3. Utilize variant calling software to identify single nucleotide
+variants (SNVs), insertions/deletions (Indels), copy number
+variations (CNVs), and structural variants (SVs).
+4. Annotate identified variants using established databases and
+bioinformatics tools.
+5. Review the variant calls and filter out artifacts based on the
+predefined criteria ensuring clinical relevance.
+F. Result Interpretation:
+1. Confirm that identified variants are presented within the clinical
+context of the sarcoma panel.
+2. Draft a preliminary report including identified relevant variants
+and their potential clinical significance.
+3. Consult with the pathologist or molecular geneticist for
+validation and final sign-off on the report.
+4. Document the finalized report in the Laboratory Information
+System (LIS).
+G. Documentation and Reporting:
+1. Ensure all quality control checks, interim results, and the final
+report are comprehensively documented and stored securely in
+the LIS.
+2. Ensure that all data and generated reports comply with
+laboratory quality management standards and regulatory
+requirements.
+3. Quality Control and Maintenance
+• Regular calibration and maintenance of sequencing equipment
+should be performed following the manufacturer’s instructions.
+• Maintain and verify calibration certificates for all equipment.
+• Document and address any deviations from standard procedures
+or instrument malfunctions.
+1. Safety and Compliance
+• Follow all laboratory safety protocols, including the use of
+personal protective equipment (PPE) and proper waste disposal.
+• Ensure compliance with all relevant regulations, including CLIA,
+CAP, and other governing bodies.
+1. References
+• Manufacturer’s equipment and reagent manuals.
+• Laboratory’s internal quality management protocols.
+• Relevant scientific literature and guidelines on sarcoma NGS
+panels.
+1. Review and Approvals
+• This SOP will be reviewed annually by laboratory supervisor or
+designee.
+• Document versioning and approval signatures.
+• Record of any procedural changes or updates to reflect current
+best practices.
+This SOP provides systematic guidance for laboratory personnel to
+ensure the precise and accurate execution of the analytical phase for
+the MAYOCOMPLETE COMPREHENSIVE SARCOMA PANEL,
+NEXT-GENERATION SEQUENCING, TUMOR ensuring high
+standards and regulatory compliance in test results.
+--- End of Document ---

@@ -1,0 +1,314 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY ONLY TEMPLATE
+A. 510(k) Number:
+k151639
+B. Purpose for Submission:
+To modify the software to incorporate limitations of reporting glucose results when pO
+2
+value is low.
+C. Measurand:
+Whole Blood Glucose
+D. Type of Test:
+Amperometric Test
+E. Applicant:
+SenDx Medical, Inc.
+F. Proprietary and Established Names:
+ABL80 FLEX and ABL80 FLEX CO-OX
+G. Regulatory Information:
+1. Regulation section:
+862.1345
+2. Classification:
+Class II
+3. Product code:
+CGA
+1
+
+--- Page 2 ---
+4. Panel:
+Clinical Chemistry
+H. Intended Use:
+1. Intended use(s):
+See indications for use below
+2. Indication(s) for use:
+The ABL80 FLEX analyzer is a portable, automated analyzer that measures glucose, in
+whole blood. The ABL80 FLEX analyzer system is intended for use by trained
+technologists, nurses, physicians and therapists. It is intended for use in a laboratory
+environment, near patient or point-of-care setting.
+The ABL80 FLEX CO-OX analyzer is a portable, automated analyzer that measures
+glucose, in whole blood. The ABL80 FLEX CO-OX analyzer system is intended for use
+by trained technologists, nurses, physicians and therapists. It is intended for use in a
+laboratory environment, near patient or point-of-care setting.
+For in vitro diagnostic use.
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+ABL80 FLEX and ABL80 FLEX CO-OX Analyzers
+I. Device Description:
+The ABL80 FLEX and ABL80 FLEX CO-OX analyzers are portable, automated systems
+intended for in vitro testing of samples of whole blood for the parameters pH, pO , pCO ,
+2 2
+potassium, sodium, calcium, chloride, glucose, hematocrit (ABL80 FLEX analyzer only) and
+the oximetry parameters (ABL80 FLEX CO-OX only) total hemoglobin, oxygen saturation,
+FO2Hb, FCOHb, FMetHb, and FHHb.
+The ABL80 FLEX and ABL80 FLEX CO-OX analyzers each exist in two different software
+configurations differing in the number of parameters available.
+The ABL80 FLEX and ABL80 FLEX CO-OX analyzers consist of an instrument with a
+sensor cassette and a solution pack as the main accessories. Multiple models of sensor
+cassettes are available. The various sensor cassette models include models for different
+2
+
+--- Page 3 ---
+parameter combinations. For each parameter combination, models allowing for different test
+loads are available. The solution pack is available in four models, one model for each of the
+four different configurations of the analyzer.
+The ABL80 FLEX and ABL80 FLEX CO-OX analyzers were previously cleared in k051804
+and k080370. The current modification to the glucose measurement software is to
+automatically handle certain glucose results depending on the pO value in the sample. This
+2
+will allow incorporating limitations of reporting glucose results when the pO value of the
+2
+sample is low.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+ABL800 FLEX
+2. Predicate 510(k) number(s):
+k043218
+3. Comparison with predicate:
+Item Candidate Device Predicate
+ABL80 FLEX and ABL80 ABL800 FLEX (k043218)
+FLEX CO-OX
+Intended Use The ABL80 FLEX and Same, plus the following
+ABL80 FLEX CO-OX parameters: pH, pO , pCO ,
+2 2
+analyzers are portable, potassium, sodium,
+automated analyzer that calcium, chloride, glucose,
+measures glucose in lactate, total bilirubin, and
+whole blood. co-oximetry parameters
+(total hemoglobin, oxygen
+saturation, and the
+hemoglobin fractions
+FO Hb, FCOHb, FMetHb,
+2
+FHHb and FHbF)
+Intended Use Site Laboratory and Point of Laboratory
+Care
+Measuring Method Amperometric Same
+Calibration Method Two-point liquid calibration Same
+Glucose measuring range 36-180 mg/dL (pO between 36-270 mg/dL
+2
+20 - 40 mmHg);
+36-270 mg/dL (pO ≥ 41
+2
+mmHg).
+3
+
+[Table 1 on page 3]
+Item		Candidate Device		Predicate
+ABL800 FLEX (k043218)
+		ABL80 FLEX and ABL80		
+		FLEX CO-OX		
+Intended Use	The ABL80 FLEX and
+ABL80 FLEX CO-OX
+analyzers are portable,
+automated analyzer that
+measures glucose in
+whole blood.			Same, plus the following
+parameters: pH, pO , pCO ,
+2 2
+potassium, sodium,
+calcium, chloride, glucose,
+lactate, total bilirubin, and
+co-oximetry parameters
+(total hemoglobin, oxygen
+saturation, and the
+hemoglobin fractions
+FO Hb, FCOHb, FMetHb,
+2
+FHHb and FHbF)
+Intended Use Site	Laboratory and Point of
+Care			Laboratory
+Measuring Method	Amperometric			Same
+Calibration Method	Two-point liquid calibration			Same
+Glucose measuring range	36-180 mg/dL (pO between
+2
+20 - 40 mmHg);
+36-270 mg/dL (pO ≥ 41
+2
+mmHg).			36-270 mg/dL
+
+[Table 2 on page 3]
+Predicate
+ABL800 FLEX (k043218)
+
+--- Page 4 ---
+K. Standard/Guidance Document Referenced (if applicable):
+CLSI EP7-A2: Interference testing in clinical chemistry; Approved Guideline – Second
+Edition (2005).
+CSLI EP05-A2: Evaluation of Precision Performance of Quantitative Measurement Methods;
+Approved Guideline – Second Edition (2004).
+CSLI EP6-A: Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach; Approved Guideline (2003).
+CLSI EP09-A3: Measurement procedure comparison and bias estimation using patient
+samples; Approved Guideline - Third Edition (2013).
+CLSI EP17-A2: Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition (2012).
+L. Test Principle:
+The amperometric test principle is used for the measurement of both pO and glucose
+2
+because glucose measurement is dependent upon enough pO in the sample; therefore, pO
+2 2
+and glucose are measured simultaneously. The magnitude of an electric flow of current is
+proportional to the concentration of the substance being oxidized or reduced at an electrode.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+See k051804 and k080370.
+b. Linearity/assay reportable range:
+See k051804 and k080370.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+See k051804 and k080370.
+d. Detection limit:
+See k051804 and k080370.
+e. Analytical specificity:
+4
+
+--- Page 5 ---
+Analytical Specificity for glucose measurement was reviewed and cleared in k051804
+and k080370. However, additional studies were conducted to further characterize the
+impact of, or interference from, limitations on the amounts of oxygen in the sample.
+The cause of this interference effect is that the enzymatic conversion of glucose in the
+sensor is oxygen consuming, the oxygen coming from the sample. The interference
+study was performed according to the CLSI “Interference testing in clinical
+chemistry; Approved Guideline – Second Edition”, CLSI document EP7-A2. Testing
+was performed on three ABL80 FLEX and three ABL80 FLEX CO-OX instruments
+with five levels of glucose and four levels of pO . Base pools of whole blood were
+2
+prepared for each glucose level and split into two samples with one being
+tonometered to 100 mmHg pO (control sample) and the other to the pO level being
+2 2
+tested (test sample). Each sample was tested on the ABL80 FLEX and ABL80 FLEX
+CO-OX analyzers, and the glucose bias for each test sample vs. the control sample
+was calculated. The bias for the test sample was calculated and should be less than or
+equal to the acceptance criterion which was set to 10% of the control value. Results
+are summarized below:
+ABL80 FLEX:
+Glucose pO mmHg
+2
+Concentration < 20 20 40 80
+(mg/dL)
+270 -67% -17% -5% 1%
+180 -51% -3% 9% -1%
+90 -37% -7% -6% 0%
+54 -26% -10% 6% 1%
+36 Not needed -7% -4% 2%
+ABL80 FLEX CO-OX:
+Glucose pO mmHg
+2
+Concentration < 20 20 40 80
+(mg/dL)
+270 -69% -20% 3% 0%
+180 -55% -4% 8% 0%
+90 -42% -8% -7% -2%
+54 -31% -9% 6% 0%
+36 Not needed -9% -4% 2%
+The interference study test results support the glucose linearity ranges shown below
+and documented in the labeling:
+Glucose linearity versus pO level
+2
+pO (mmHg) range Glucose concentration
+2
+(mg/dL) linearity range
+20 – 40 36 – 180
+≥ 41 36 – 270
+5
+
+[Table 1 on page 5]
+Glucose
+Concentration
+(mg/dL)	pO mmHg
+2			
+	< 20	20	40	80
+270	-67%	-17%	-5%	1%
+180	-51%	-3%	9%	-1%
+90	-37%	-7%	-6%	0%
+54	-26%	-10%	6%	1%
+36	Not needed	-7%	-4%	2%
+
+[Table 2 on page 5]
+Glucose
+Concentration
+(mg/dL)	pO mmHg
+2			
+	< 20	20	40	80
+270	-69%	-20%	3%	0%
+180	-55%	-4%	8%	0%
+90	-42%	-8%	-7%	-2%
+54	-31%	-9%	6%	0%
+36	Not needed	-9%	-4%	2%
+
+[Table 3 on page 5]
+pO (mmHg) range
+2	Glucose concentration
+(mg/dL) linearity range
+20 – 40	36 – 180
+≥ 41	36 – 270
+
+--- Page 6 ---
+The labeling (reference manual and owner’s manual) highlights awareness of
+dependency of glucose measurement on sample pO levels and includes the following
+2
+description for flagging glucose results outside the validated glucose linear range and
+the pO level of the sample:
+2
+· All glucose results at pO level <20 mmHg are suppressed and flagged by the
+2
+symbol “>” with a message “Glu not usable. pO too low for reliable
+2
+cGlucose measurement”.
+· All glucose results >180 mg/dL at pO level between 20 – 40 mmHg will be
+2
+suppressed and flagged by the symbol “>” with a message “Glu not usable.
+pO too low for reliable cGlucose measurement”.
+2
+· When the measured value of pO is not numeric (Not Reportable (N/R)) or
+2
+pO parameter is Lockout (P/L) or Not Derived (N/D) or Inactive (I/A) or QC
+2
+Lockout (L/O), then the results for glucose measurement will not be displayed
+and the symbol “N/R” is displayed.
+· If the results are outside the test range of the analyzer for glucose
+measurement (see table above), the results are highlighted in red and flagged
+with “ or ”.
+f. Assay cut-off:
+Not applicable
+2. Comparison studies:
+a. Method comparison with predicate device:
+See k051804 and k080370.
+b. Matrix comparison:
+Not applicable
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable
+b. Clinical specificity:
+Not applicable
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable
+6
+
+--- Page 7 ---
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+The glucose reference range for adults’ arterial blood at 37 °C is 70.02 – 104.9 mg/dL
+(3.89 – 5.83 mmol/L)
+Reference: Tietz NW, Logan NM. Reference ranges. In: Tietz NW, ed. Fundamentals of
+clinical chemistry. 3rd ed. Philadelphia: WB Saunders Company, 1987: 944-75.
+N. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+O. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+7

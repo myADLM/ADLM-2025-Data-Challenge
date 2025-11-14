@@ -1,0 +1,149 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number: K073381   
+B. Purpose for Submission: New application   
+C. Measurand: EBV viral capsid antigen (VCA) and heterophile antibodies   
+D. Type of Test: Multiplexed Flow Immunoassay   
+E. Applicant: Focus Diagnostics, Inc.   
+F. Proprietary and Established Names: Plexus™ EBV IgM Multi-Analyte Diagnostics Test Kit
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR 866.3235, Epstein-Barr virus serological reagents
+
+2. Product code: LJN
+
+3. Classification: Class: I
+
+4. Panel: 83 Microbiology
+
+# H. Intended Use:
+
+Focus Diagnostics’ Plexus™ EBV IgM Multi-Analyte Diagnostics test kit is intended for qualitatively detecting the presence or absence of human IgM class antibodies to viral capsid antigen (VCA), and heterophile antibodies in human sera. The test is indicated as an aid in the diagnosis of EBV infection and EBV-associated infectious mononucleosis.
+
+The performance of this assay has not been established for use in the diagnosis of nasopharyngeal carcinoma and Burkitt's lymphoma, for testing of immunocompromised patients, for use by a point of care facility or for use with automated equipment. This assay has not been evaluated for donor screening.
+
+2. Indication(s) for use: Same as Intended Use
+
+3. Special conditions for use statement(s): For prescription use only
+
+4. Special instrument requirements:
+
+Instrument: The Luminex xMAP $\textsuperscript { \textregistered }$ System.
+
+Software: PlexusTM Multi Analyte Diagnostic Software for Luminex xMAP instrument with Luminex IS 2.3 software (SW.MP0001)
+
+# I. Device Description:
+
+The Focus Diagnostics Plexus™ EBV IgM uses an Antigen Bead suspension that contains two distinct EBV antigen bead types (VCA and Heterophile) and one process control bead type that fluoresce at different wavelengths and/or intensities.
+
+1. Patient sera are diluted, and the diluted sera are incubated with Antigen Beads. If EBV antibodies are present, then the antibodies bind to the corresponding antigen beads.   
+2. Phycoerythrin-conjugated goat Anti-human IgM (Conjugate) is added, binds to the bound EBV antibody (if present), and forms a Conjugate-EBV antibody-antigen bead sandwich.   
+3. Fluorescence from each distinct EBV antigen bead type is measured and compared against a Cutoff Calibrator.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Athena Multi-Lyte EBV VCA IgM Test System Osom $\textsuperscript { \textregistered }$ Mono Test
+
+2. Predicate 510(k) number(s): K042092 - Athena Multi-Lyte EBV VCA IgM Test System K972231 - Osom $\textcircled{8}$ Mono Test
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=4>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=2>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=3 colspan=1>Intended useSpecimen typeMethodAntigen</td><td rowspan=2 colspan=2>Qualitative detection ofEBV VCA IgMantibodies to aid in</td><td rowspan=3 colspan=1>Qualitative detectionof EBV VCA IgMantibodies to aid indiagnosis ofinfectiousmononucleosisSerumQualitativeEBV VCA gp125</td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>diagnosis of infectiousmononucleosisSerumQualitativeEBV VCA gp 125</td></tr><tr><td rowspan=1 colspan=4>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=2>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Type of assayInterpretation of testresults</td><td rowspan=1 colspan=2>Multiplex MicrobeadImmunoassay (MMIA)based on Luminex XMAPtechnology.Automated calculationsusing Plexus software.</td><td rowspan=1 colspan=1>Multiplex FlowcytometryimmunoassayAtheNA Multi-Lyteinstrument software</td></tr></table>
+
+Predicate Device 2: Osom $\textsuperscript { \textregistered }$ Mono Test, Heterophile   
+
+<table><tr><td colspan="4" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td></td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Intended use</td><td colspan="2" rowspan="1">Qualitative detectionof EBV heterophileIgM antibodies to aidin diagnosis ofinfectiousmononucleosis</td><td colspan="1" rowspan="1">Qualitative detection ofEBV heterophile IgMantibodies to aid indiagnosis of infectiousmononucleosis</td></tr><tr><td colspan="4" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="2" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">MethodSpecimen typeType of assay</td><td colspan="2" rowspan="1">QualitativeSerumMultiplex Microbead</td><td colspan="1" rowspan="1">QuantitativeSerum, plasma, bloodImmunochromatorgraphy</td></tr><tr><td rowspan="2">Antigen</td><td>Immunoassay (MMIA) based on Luminex XMAP technology.</td><td></td></tr><tr><td>Heterophile: purified protein</td><td>Heterophile: native protein</td></tr><tr><td>Interpretation of test results</td><td>Automated calculations</td><td>Visual evaluation</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Guidance for Industry and FDA Staff, Format for Traditional and Abbreviated 510(k), 08/12/2005, (http://www.fda.gov/cdrh/ode/guidance/1567.pdf)
+
+Off-The-Shelf Software Use in Medical Devices, 09/9/1999, (http://www.fda.gov/cdrh/ode/guidance/585.pdf)
+
+Cyber security for Networked Medical Devices Containing Off-The-Shelf (OTS) Software, 01/14/2005, (http://www.fda.gov/cdrh/comp/guidance/1553.pdf)
+
+Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices, 05/11/2005, (http://www.fda.gov/cdrh/ode/guidance/337.pdf)
+
+General Principles of Software Validation, 01/11/2002, (http://www.fda.gov/cdrh/comp/guidance/938.pdf)
+
+# L. Test Principle:
+
+Multiplexed flow immunoassay
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: a. Precision/Reproducibility: The inter/intra-assay reproducibility and the inter-laboratory reproducibility testing were performed at three laboratories. Each of the three laboratories tested twelve samples in triplicate on five different days. For positive specimens, the inter-lab $\%$ CV varied from $9 - 1 6 \%$ for VCA IgM and $7 - 1 4 \%$ for heterophile antibody assays.
+
+b. Linearity/assay reportable range:
+
+Not applicable
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Not applicable
+
+d. Detection limit: Not applicable e. Analytical specificity:
+
+A cross-reactivity study was performed to determine if samples from various disease states and other potentially cross-reactivity factors interfere with test results when tested with the Plexus EBV IgM kit.
+
+<table><tr><td rowspan=1 colspan=9>Cross-Reactivity</td></tr><tr><td rowspan=2 colspan=1>Cross Reactives</td><td rowspan=2 colspan=1>N</td><td rowspan=2 colspan=1>Method</td><td rowspan=1 colspan=3>EBV VCA IgM</td><td rowspan=1 colspan=3>EBV Heterophile</td></tr><tr><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Equivocal</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Equivocal</td><td rowspan=1 colspan=1>Negative</td></tr><tr><td rowspan=3 colspan=1>ANA</td><td rowspan=3 colspan=1>28</td><td rowspan=1 colspan=1>Plexus</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>28</td></tr><tr><td rowspan=1 colspan=1>ELISA</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>28</td></tr><tr><td rowspan=1 colspan=1>Discrepants</td><td rowspan=1 colspan=2>$22}$</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>0</td></tr><tr><td rowspan=3 colspan=1>Cytomegalovirus(CMV)</td><td rowspan=3 colspan=1>25</td><td rowspan=1 colspan=1>Plexus4</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>24</td></tr><tr><td rowspan=1 colspan=1>ELISA</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>25</td></tr><tr><td rowspan=1 colspan=1>Discrepants</td><td rowspan=1 colspan=2>51</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>14</td></tr><tr><td rowspan=3 colspan=1>HSV 1 &amp; HSV 2</td><td rowspan=3 colspan=1>2</td><td rowspan=1 colspan=1>Plexus</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>ELISA</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>Discrepants</td><td rowspan=1 colspan=3>0</td><td rowspan=1 colspan=3>0</td></tr><tr><td rowspan=3 colspan=1>Rheumatoid Factor(Rh)</td><td rowspan=3 colspan=1>29</td><td rowspan=1 colspan=1>Plexus</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>29</td></tr><tr><td rowspan=1 colspan=1>ELISA</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>29</td></tr><tr><td rowspan=1 colspan=1>Discrepants</td><td rowspan=1 colspan=2>4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>0</td></tr><tr><td rowspan=3 colspan=1>Rubella</td><td rowspan=3 colspan=1>5</td><td rowspan=1 colspan=1>Plexus</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>ELISA</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>Discrepants</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>0</td></tr><tr><td rowspan=3 colspan=1>Varicella-zoster(VZV)</td><td rowspan=3 colspan=1>42</td><td rowspan=1 colspan=1>Plexus</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1>ELISA</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1>Discrepants</td><td rowspan=1 colspan=3>3$</td><td rowspan=1 colspan=3>0</td></tr></table>
+
+1 One Equivocal Sample; 2 Two Equivocal Samples; 3 Three Equivocal Samples; 4 One Invalid Sample
+
+# f. Assay cut-off:
+
+Establishment of the cutoff values for the EBV IgM Plexus was performed using 585 patient serum samples submitted for EBV testing. These samples were first tested on the predicate devices (Diamedix ELISA for VCA IgM, and the Accutest for infectious mononucleosis). Each sample was classified as positive, negative or equivocal for each of these assays. The serum samples were then run on the EBV IgM Plexus assay. Comparisons were made for each analyte with its respective predicate test (excluding equivocal samples on the predicated device) on a Receiver Operating Characteristics (ROC) analysis. Based on the ROC analysis graphs a cutoff value was obtained.
+
+<table><tr><td rowspan=1 colspan=6>PlexusTM EBV IgM Multi-Analyte Diagnostics</td></tr><tr><td rowspan=1 colspan=1>Antigen</td><td rowspan=1 colspan=1>PositiveWithpredicateDevice</td><td rowspan=1 colspan=1>% PositiveAgreement(sensitivity</td><td rowspan=1 colspan=1>NegativeWithpredicateDevice</td><td rowspan=1 colspan=1>% NegativeAgreement(specificity)</td><td rowspan=1 colspan=1>Cutoffscore</td></tr><tr><td rowspan=1 colspan=1>Heterophile</td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>91.9%57/62</td><td rowspan=1 colspan=1>522</td><td rowspan=1 colspan=1>90.4%472/522</td><td rowspan=1 colspan=1>0.664</td></tr><tr><td rowspan=1 colspan=1>VCA IgM</td><td rowspan=1 colspan=1>123</td><td rowspan=1 colspan=1>83.7%103/123</td><td rowspan=1 colspan=1>447</td><td rowspan=1 colspan=1>93.1%416/447</td><td rowspan=1 colspan=1>0.849</td></tr></table>
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+# Method Comparison: EBV VCA IgM Assay
+
+Performance of the Plexus EBV VCA IgM analyte was tested against a combination (hereafter referred to as ‘consensus comparator’) of a FDA-cleared commercially available ELISA, an immunofluorescent (IFA) test and a flow cytometry based immunoassay. For each sample, a consensus based algorithm (2/3) was used to determine the predicate result for comparison with the Plexus VCA IgM result. Serological status was determined by the use of commercially available ELISA assays for the EBV analytes EBNA-1 IgG, VCA IgG, EA-D IgG, VCA IgM and heterophile antibody.
+
+EBV VCA-IgM vs. Consensus Comparator: Comparison by serological status of prospective population $\left( \mathrm { N } = 7 2 3 \right)$ ). Samples were collected and tested by a Northeast investigator $( n = 3 5 0 ,$ ), a Mid-West investigator $( n { = } 2 4 9 )$ , and Focus $( n { = } I 2 4 )$ .
+
+<table><tr><td rowspan=1 colspan=8>EBV VCA IgM Results</td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>Consensus Predicate</td><td rowspan=1 colspan=3>Plexus</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>Serological Status byPredicates</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>n</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Equivocal</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>% Agreement</td></tr><tr><td rowspan=6 colspan=1>Acute</td><td rowspan=3 colspan=1>PrimaryAcute</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>59</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>94.9%(56/59), 95% CI:86.1-98.3%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>100%(1/1), 95% CI:20.7-100%</td></tr><tr><td rowspan=1 colspan=1>No consensus</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=3 colspan=1>Late Acute</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>64.3%(9/14), 95% CI:38.8-83.7%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>96.6%(56/58), 95% CI:88.3-99%</td></tr><tr><td rowspan=1 colspan=1>No consensus</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=3 colspan=2>Recovering</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>100%(1/1), 95% CI:20.7-100%</td></tr><tr><td rowspan=1 colspan=1>No consensus</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=3 colspan=2>Previous Infection</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0%(0/1), 95% CI:0-79.3%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>296</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>286</td><td rowspan=1 colspan=1>96.3%(286/297), 95% Cl:93.5-97.9%</td></tr><tr><td rowspan=1 colspan=1>No consensus</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=3 colspan=2>No Infection</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>50%(1/2), 95% CI:9.5-90.5%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>225</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>225</td><td rowspan=1 colspan=1>100%(225/225), 95% CI:98.3-100%</td></tr><tr><td rowspan=1 colspan=1>No consensus</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=3 colspan=2>Indeterminate1</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>81.3%(13/16), 95% Cl:57.0-93.4%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>49</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>98%(48/49), 95% CI:89.3-99.6%</td></tr><tr><td rowspan=1 colspan=1>No consensus</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>NA</td></tr></table>
+
+1 No consensus results: the combination of three predicates could not yield a conclusive result for these samples – a $_ { 2 / 3 }$ majority could not be obtained.
+
+EBV VCA IgM vs. Consensus Comparator: Comparison by serological status of retrospective presumed acute population. Samples were collected and tested by a Mid-West investigator $( n { = } I 5 0 )$ .
+
+<table><tr><td colspan="8" rowspan="1">EBV VCA IgM Results</td></tr><tr><td colspan="2" rowspan="1"></td><td colspan="2" rowspan="1">Consensus Predicate</td><td colspan="3" rowspan="1">Plexus</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="2" rowspan="1">Serological Status byPredicates</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">n</td><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Equivocal</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">% Agreement</td></tr><tr><td colspan="1" rowspan="5">Acute</td><td colspan="1" rowspan="3">PrimaryAcute</td><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">104</td><td colspan="1" rowspan="1">103</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">99%(103/104), 95% CI:94.8-99.8%</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">50%(1/2), 95% CI:9.5-90.5%</td></tr><tr><td colspan="1" rowspan="1">No consensus</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">NA</td></tr><tr><td colspan="1" rowspan="2">LateAcute</td><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">8</td><td colspan="1" rowspan="1">7</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">87.5%(7/8), 95% CI:52.9-97.8%</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">NA</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">No consensus</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">NA</td></tr><tr><td colspan="2" rowspan="3">No Infection</td><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">NA</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">2</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">50%(1/2), 95% CI:9.5-90.5%</td></tr><tr><td colspan="1" rowspan="1">No consensus</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">NA</td></tr><tr><td colspan="2" rowspan="3">Indeterminate1</td><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">31</td><td colspan="1" rowspan="1">30</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">93.8%(30/32), 95% CI:79.9-98.3%</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">2</td><td colspan="1" rowspan="1">2</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0%(0/2), 95% CI:0-65.8%</td></tr><tr><td colspan="1" rowspan="1">No consensus</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">NA</td></tr></table>
+
+1 No consensus results: the combination of three predicates could not yield a conclusive result for these samples – a $_ { 2 / 3 }$ majority could not be obtained.
+
+# Method Comparison: EBV Heterophile Assay
+
+EBV Heterophile vs. Predicate: Comparison by serological status of prospective population $\mathrm { N } = 7 2 3 )$ ). Samples were collected and tested by a Northeast investigator $( n = 3 5 0 )$ , a Mid-West investigator $( n { = } 2 4 9 )$ , and Focus $( n { = } I 2 4 )$ .
+
+<table><tr><td rowspan=1 colspan=8>EBV Heterophile IgM Results</td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>Predicate HeterophileRapid Test</td><td rowspan=1 colspan=3>Plexus</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>Serological Status byPredicates</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>n</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Equivocal</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>% Agreement</td></tr><tr><td rowspan=4 colspan=1>Acute</td><td rowspan=2 colspan=1>PrimaryAcute</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>94.1%(48/51), 95% CI:84.1-98%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>88.9%(8/9), 95% CI:56.5-98%</td></tr><tr><td rowspan=2 colspan=1>Late Acute</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>40%(2/5), 95% CI:11.8-76.9%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>98.5%(66/67), 95% CI:92-99.7%</td></tr><tr><td rowspan=2 colspan=2>Recovering</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>100%(1/1), 95% CI:20.7-100%</td></tr><tr><td rowspan=2 colspan=2>Previous Infection</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>298</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>296</td><td rowspan=1 colspan=1>99.3%(296/298), 95% CI:97.6-99.8%</td></tr><tr><td rowspan=2 colspan=2>No Infection</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>227</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>224</td><td rowspan=1 colspan=1>98.7%(224/227), 95% CI:96.2-99.5%</td></tr><tr><td rowspan=2 colspan=2>Indeterminate</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>52.6%(10/19), 95% CI:31.7-72.7%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>46</td><td rowspan=1 colspan=1>100%(46/46), 95% CI:92.3-100%</td></tr></table>
+
+EBV Heterophile vs Predicate: Comparison by serological status of retrospective presumed acute population. Samples were collected and tested by a Mid-West investigator $( n { = } I 5 0 )$ .   
+
+<table><tr><td rowspan=1 colspan=8>EBV Heterophile IgM Results</td></tr><tr><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2>Predicate HeterophileRapid Test</td><td rowspan=1 colspan=3>Plexus</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>Serological Status byPredicates</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>n</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Equivocal</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>% Agreement</td></tr><tr><td rowspan=4 colspan=1>Acute</td><td rowspan=2 colspan=1>PrimaryAcute</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>75</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>86.2%(75/87), 95% CI:77.4-91.9%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>89.5%(17/19), 95% CI:68.6-97.1%</td></tr><tr><td rowspan=2 colspan=1>LateAcute</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>66.7%(2/3), 95% CI:20.8-93.9%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>100%(5/5), 95% CI:56.6-100%</td></tr><tr><td rowspan=2 colspan=2>No Infection</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>100%(2/2), 95% CI:34.2-100%</td></tr><tr><td rowspan=2 colspan=2>Indeterminate</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>95.5%(21/22), 95% CI:78.2-99.2%</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>91.7%(11/12), 95% CI:64.6-98.5%</td></tr></table>
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: See 1 f
+
+5. Expected values/Reference range:
+
+Not applicable
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

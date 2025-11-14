@@ -1,0 +1,122 @@
+Standard Operating Procedure (SOP) Metagenomic Sequencing of
+Bacteria, Virus, Fungus, and Parasite in Spinal Fluid
+1. PURPOSE
+The purpose of this SOP is to outline the procedures for performing
+metagenomic sequencing to detect and identify bacteria, viruses,
+fungi, and parasites in spinal fluid samples. This protocol ensures
+consistency, accuracy, and reliability of results.
+Responsibility: It is the responsibility of the designated clinical
+laboratory staff to perform the procedures as described, report results
+accurately, and document any issues promptly.
+1. BACKGROUND
+Metagenomic sequencing allows for the comprehensive and
+unbiased detection of pathogenic microorganisms in clinical samples.
+This technique is invaluable in diagnosing infections, especially when
+traditional culture-based methods fail or are inconclusive.
+1. PROCEDURE
+A. Specimen Preparation
+1. Specimen Collection and Handling
+◦ Ensure the spinal fluid specimen has been collected,
+received, and accessioned appropriately.
+◦ Store the specimen at 2-8°C if immediate processing is not
+possible.
+◦ If longer storage is required, store the sample at -80°C to
+preserve nucleic acids.
+2. Nucleic Acid Extraction
+◦ Label all tubes and reagents clearly with patient information
+and date.
+◦ Follow the manufacturer's instructions for the nucleic acid
+extraction kit (e.g., QIAGEN QIAamp DNA/RNA Mini Kit).
+◦ Ensure that appropriate positive and negative controls are
+included in each batch extraction.
+◦ Quantify the extracted nucleic acids using a Qubit
+Fluorometer or NanoDrop Spectrophotometer.
+◦ Assess the quality of the extracted nucleic acids via agarose
+gel electrophoresis or Bioanalyzer to ensure integrity.
+B. Library Preparation
+1. Library Preparation for Sequencing
+◦ Use a library preparation kit compatible with the sequencing
+platform (e.g., NEBNext Ultra DNA Library Prep Kit for
+Illumina).
+◦ Follow the manufacturer’s instructions step-by-step to
+prepare sequencing libraries.
+◦ Include appropriate controls to detect potential
+contamination or technical artifacts.
+◦ Perform library quantification using Qubit and assess library
+size distribution using a Bioanalyzer or TapeStation.
+C. Sequencing
+1. Loading Libraries onto the Sequencing Platform
+◦ Sequence the prepared libraries using an Illumina
+sequencing platform (e.g., MiSeq, NextSeq).
+◦ Follow the platform-specific instructions for loading libraries
+and setting up the sequencing run.
+◦ Include an appropriate sequencing control in each run.
+2. Data Generation
+◦ Monitor the sequencing run to ensure it progresses as
+expected.
+◦ After completion, export raw sequencing data (FASTQ files)
+for subsequent data analysis.
+D. Bioinformatic Analysis
+1. Preprocessing and Quality Control
+◦ Use a quality control tool (e.g., FastQC) to assess the
+quality of raw sequencing data.
+◦ Trim sequencing adapters and low-quality bases using
+Trimmomatic or Cutadapt.
+2. Taxonomic Classification and Pathogen Identification
+◦ Align the reads to a comprehensive microbial reference
+database (e.g., Kraken2, Centrifuge).
+◦ Perform taxonomic classification and identify potential
+pathogens present in the sample.
+◦ Confirm any identified pathogens using additional
+bioinformatics tools or databases (e.g., BLAST, MEGAN).
+3. Analytical Validation
+◦ Validate the analysis by comparing the sequencing results
+with known positive and negative controls.
+◦ Document and interpret the findings in the context of clinical
+relevance.
+E. Reporting Results
+1. Data Interpretation
+◦ Interpret the metagenomic results considering the patient's
+clinical context.
+◦ Consult with clinical microbiologists or infectious disease
+specialists if required for accurate diagnosis and
+management.
+2. Documentation and Reporting
+◦ Document all steps, from nucleic acid extraction to analytical
+validation, in laboratory records.
+◦ Prepare a comprehensive report summarizing the
+sequencing results and their clinical implications.
+◦ Upload results to the Laboratory Information System (LIS)
+and notify the physician promptly if a pathogen of clinical
+concern is identified.
+3. QUALITY CONTROL
+4. Internal QC
+◦ Include positive and negative controls throughout the
+nucleic acid extraction and sequencing processes.
+◦ Regularly perform proficiency testing and inter-laboratory
+comparisons to ensure accuracy and reliability.
+5. Instrument and Reagent QC
+◦ Maintain and calibrate all instruments (e.g., sequencers,
+Qubit, Bioanalyzer) regularly as per manufacturer
+guidelines.
+◦ Store all reagents and kits according to the manufacturer’s
+recommendations to preserve their integrity.
+6. METHOD LIMITATIONS
+7. Sensitivity and Specificity
+◦ While highly sensitive, metagenomic sequencing may detect
+low-level contaminants.
+◦ Specificity may be influenced by the quality of the reference
+database used.
+8. Clinical Interpretation
+◦ Detection of microbial DNA/RNA might not always indicate
+active infection; clinical correlation is essential.
+9. REFERENCES
+• Manufacturer’s instructions for nucleic acid extraction kits.
+• Manufacturer’s instructions for library preparation kits.
+• Manufacturer’s instructions for sequencing platforms.
+• Relevant peer-reviewed literature on metagenomic sequencing.
+This SOP will be reviewed and revised annually or as needed to keep
+it up to date with advancements in methodology and instrumentation.
+Laboratory Director: _________________________ Date:
+______________ Approved by:
+_______________________________ Date: ______________

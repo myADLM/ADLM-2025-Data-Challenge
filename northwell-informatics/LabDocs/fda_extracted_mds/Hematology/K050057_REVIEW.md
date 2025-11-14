@@ -1,0 +1,86 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATIONDECISION SUMMARYINSTRUMENT ONLY TEMPLATE
+
+A. 510(k) Number: K050057   
+B. Purpose for Submission: Special 510(k) for a modification of sample stability claims   
+C. Manufacturer and Instrument Name: Beckman Coulter Coulter $\textsuperscript { \textregistered }$ LH 750 Hematology Analyzer
+
+# D. Type of Test or Tests Performed:
+
+The Coulter $\textsuperscript { \textregistered }$ LH 750 Hematology Analyzer is capable of providing a complete blood cell analysis (CBC) including a differential leukocyte cell count. This application is for the enumeration of leukocytes (WBC) and erythrocytes (RBC) in body fluids.
+
+# E. System Descriptions:
+
+1. Device Description: The Coulter $\textsuperscript { \textregistered }$ $\mathrm { L H } 7 5 0$ is a quantitative hematology analyzer with complete blood count (CBC), leukocyte differential, reticulocyte analysis, and nucleated RBC capability. It uses a reagent system consisting of isotonic diluent, lytic reagents to lyse the red cells without significantly affecting the white cells and an instrument cleaner. Additionally, the system includes reagents used for reticulocyte staining and analysis.
+
+2. Principles of Operation: The Coulter $\textsuperscript { \textregistered }$ LH 750 uses the Coulter Principle for enumerating and sizing blood cells, automatic diluting and mixing for sample processing and a single beam photometer for hemoglobinometry. It utilizes Coulter VCS (volume, conductivity, and light scatter) technology for WBC differential analysis and classification and reticulocyte analysis.
+
+For body fluid analysis, specimen is aspirated into the LH 700 via the manual mode and is diluted in separate WBC and RBC baths. The Coulter Method of counting cells is used to detect and measure changes in electrical resistance when a cell passes through a small aperture. The resistance generates an electrical pulse. The accumulation of electrical pulses are channelized, processed for coincidence correction, and multiplied by a calibration factor, yielding the WBC and RBC counts.
+
+3. Modes of Operation: Manual mode.
+
+4. Specimen Identification: Bar code scanner or manual input
+
+5. Specimen Sampling and Handling: Samples are manually mixed and handled
+
+6. Calibration: User calibration with whole blood and/or commercial calibration materials.
+
+7. Quality Control: Commercial quality control material is available for daily monitoring of the instrument.
+
+8. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for this line of product types:
+
+Yes___X_ _ or No The software was reviewed and cleared in a previous submission for this instrument (K032342)
+
+# F. Regulatory Information:
+
+1. Regulation section:   
+21 CFR 864.5220
+
+2. Classification: II
+
+3 Product code: GKZ
+
+4. Panel:
+
+# G. Intended Use:
+
+1. Indication(s) for Use:
+
+The LH 750 Series Body Fluid Application is a procedure for obtaining in vitro quantitative determinations of leukocytes (WBC) and erythrocytes (RBC) in cerebrospinal fluid, serous fluids, and synovial fluid, using a Coulter LH 700 Series Hematology Analyzer.
+
+2. Special Conditions for Use Statement(s):
+
+# H. Substantial Equivalence Information:
+
+1. Predicate Device Name(s) and 510(k) numbers: Coulter LH 750 Body Fluids Application - K030606
+
+2. Comparison with Predicate Device:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">The LH 750 Series BodyFluid Application is aprocedure for obtainingin vitro quantitativedeterminations ofleukocytes (WBC) anderythrocytes (RBC) incerebrospinal fluid,serous fluids, andsynovial fluid, using aCoulter LH 700 SeriesHematology Analyzer.</td><td colspan="1" rowspan="1">same</td></tr><tr><td colspan="1" rowspan="1">Reagent systems</td><td colspan="1" rowspan="1">Coulter® LH 700 Seriesor Isoton 4 diluent,Coulter Lyse S® III orLyse S® 4, CoulterClenz®, CoulterLatronTM Primer andLatron Control, CoulterLH 700 Series Pak</td><td colspan="1" rowspan="1">same</td></tr><tr><td colspan="1" rowspan="1">Operating principle</td><td colspan="1" rowspan="1">Coulter principle andCoulter VCS</td><td colspan="1" rowspan="1">same</td></tr><tr><td colspan="3" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Sample stability</td><td colspan="1" rowspan="1">8 hrs for synovial fluidanalysis and 8 hrs forserous fluids</td><td colspan="1" rowspan="1">1 hr for synovial fluidand 24 hrs for serousfluids</td></tr></table>
+
+# I. Special Control/Guidance Document Referenced (if applicable):
+
+# J. Performance Characteristics:
+
+1. Analytical Performance: a. Accuracy:
+
+b. Precision/Reproducibility:
+
+c. Linearity:
+
+d. Carryover:
+
+e. Interfering Substances:
+
+2. Other Supportive Instrument Performance Data Not Covered Above:
+
+As required for a Special 510(k), the Sponsor has provided a risk analysis as well as a Declaration of Conformity with Design Controls indicating that development activities were conducted under appropriate design controls procedures, and the overall product specifications were met.
+
+# K. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# L. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

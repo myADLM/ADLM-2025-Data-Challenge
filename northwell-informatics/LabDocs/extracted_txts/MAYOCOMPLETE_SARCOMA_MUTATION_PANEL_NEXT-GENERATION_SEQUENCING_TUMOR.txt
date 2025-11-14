@@ -1,0 +1,84 @@
+SOP for MAYOCOMPLETE Sarcoma Mutation Panel, Next-
+Generation Sequencing, Tumor
+1. PURPOSE
+The purpose of this document is to outline the procedures for the
+analytical phase of generating results for the MAYOCOMPLETE
+Sarcoma Mutation Panel using Next-Generation Sequencing (NGS)
+technology from tumor specimens.
+Responsibility: It is the responsibility of the designated staff to
+perform the procedures as outlined in this document.
+1. SPECIMEN
+Preferred specimens: - Formalin-fixed, paraffin-embedded (FFPE)
+tumor tissue blocks or slides - Fresh or frozen tumor tissue -
+Minimum DNA requirement: 50 ng of high-quality DNA
+Unacceptable specimens: - Specimens with less than 10% tumor
+content - Severely degraded or fragmented DNA with an A260/A280
+ratio outside 1.8-2.0 range
+1. EQUIPMENT AND REAGENTS
+Equipment: - NGS Sequencer (Illumina HiSeq, MiSeq or equivalent) -
+DNA extraction kits (validated for FFPE and fresh/frozen tissue) -
+PCR thermal cycler - Magnetic stand for DNA purification -
+Bioanalyzer or equivalent for DNA quality assessment - Computer
+with bioinformatics software for data analysis
+Reagents: - MAYOCOMPLETE Sarcoma Mutation Panel primers and
+probes - PCR reagents (high-fidelity DNA polymerase, dNTPs, etc.) -
+Library preparation kit (compatible with NGS sequencer) - Magnetic
+beads for DNA cleanup
+1. PROCEDURE
+A) DNA Extraction - Extract DNA from FFPE or fresh/frozen tumor
+tissue using a validated kit. - Measure DNA concentration and assess
+purity using a NanoDrop Spectrophotometer or equivalent. - Analyze
+DNA integrity on a Bioanalyzer (or equivalent) to ensure samples
+meet quality criteria.
+B) Library Preparation - Quantify and normalize DNA to 50 ng. -
+Adhere to the manufacturers' protocol for the MAYOCOMPLETE
+Sarcoma Mutation Panel for multiplex PCR amplification. - Purify
+PCR products using magnetic beads and assess quality.
+C) Sequencing - Prepare sequencing libraries according to the library
+preparation kit instructions. - Normalize and pool libraries. - Load
+libraries onto the NGS sequencer and perform sequencing according
+to the manufacturer’s instructions.
+D) Data Analysis - Transfer raw sequencing data to the bioinformatics
+pipeline. - Perform quality control on sequencing reads. - Align reads
+to the human genome reference (hg19/hg38). - Call variants using
+appropriate variant caller software. - Annotate variants to identify
+clinically significant mutations in sarcoma genes.
+E) Reporting Results - Verify and interpret variant data. - Document
+all findings and interpretations into the Laboratory Information
+System (LIS). - Review data with a pathologist or molecular
+geneticist. - Generate a comprehensive report summarizing the
+mutations detected and provide clinical significance.
+1. QUALITY CONTROL
+◦ Use positive and negative controls during DNA extraction.
+◦ Include reference samples with known mutations for every
+sequencing run.
+◦ Verify library preparation efficiency using
+electropherograms.
+◦ Perform inter-laboratory comparisons periodically to ensure
+result consistency.
+◦ Engage in routine maintenance of sequencers and data
+analysis software updates.
+2. LIMITATIONS
+◦ Low tumor content in the specimen may result in reduced
+assay sensitivity.
+◦ Extensive DNA fragmentation may compromise the quality
+of library preparation and sequencing.
+◦ Rare variant detection may require confirmation with
+orthogonal methods.
+3. REFERENCES
+◦ Manufacturers’ manuals for DNA extraction, PCR, library
+preparation, and NGS sequencing.
+◦ Bioinformatics tools documentation (e.g., BWA, GATK, and
+Annovar).
+◦ Relevant guidelines from the College of American
+Pathologists (CAP) and Clinical Laboratory Improvement
+Amendments (CLIA).
+4. DEVELOPED BY:
+◦ [Your Name], Medical Laboratory Scientist
+◦ [Date]
+5. APPROVED BY:
+◦ [Lab Director’s Name]
+◦ [Date]
+6. REVIEW SCHEDULE:
+◦ This SOP will be reviewed annually or whenever significant
+changes occur in protocols, equipment, or guidelines.

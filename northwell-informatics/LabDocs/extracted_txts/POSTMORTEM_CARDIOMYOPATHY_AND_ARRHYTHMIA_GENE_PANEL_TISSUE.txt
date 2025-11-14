@@ -1,0 +1,112 @@
+Standard Operating Procedure (SOP) Title: Analytical Phase Protocol
+for Postmortem Cardiomyopathy and Arrhythmia Gene Panel, Tissue
+1. PURPOSE
+To outline the procedures for the analytical phase of generating
+genetic results for the Postmortem Cardiomyopathy and Arrhythmia
+Gene Panel from tissue samples to ensure accurate, reliable, and
+timely results.
+Responsibility:
+• It is the responsibility of designated laboratory personnel to follow
+the outlined procedures accurately.
+• All staff must ensure the integrity of the sample and report any
+potential issues to a supervisor.
+1. DEFINITION
+Postmortem Cardiomyopathy and Arrhythmia Gene Panel refers to a
+comprehensive genetic analysis focused on identifying genetic
+mutations associated with cardiomyopathy and arrhythmia in tissue
+samples taken postmortem.
+1. SPECIMEN REQUIREMENTS
+• Tissue Types: Heart, liver, or other relevant tissues.
+• Tissue Preservation: Fresh-frozen or paraffin-embedded tissue is
+preferred.
+• Quantity: At least a 250 mg tissue sample is necessary for
+accurate analysis.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• High-throughput sequencer (e.g., Illumina or Ion Torrent)
+• DNA extraction kits (e.g., Qiagen)
+• PCR reagents and consumables
+• Various library preparation kits specific to panel requirements
+• Quantification tools (e.g., Qubit fluorometer, Bioanalyzer)
+• Thermal cycler
+• Pipettes and pipette tips
+• Vortex mixer
+• Centrifuge
+• Ice and ice buckets
+• Computer and bioinformatics software for data analysis
+1. PROCEDURE
+A) Tissue Processing and DNA Extraction
+1. Fresh-frozen Tissue: a. Retrieve the tissue sample from storage
+and keep on ice. b. Cut approximately 250 mg of tissue using
+sterile instruments. c. Homogenize the tissue using a bead mill
+or mortar and pestle with liquid nitrogen. d. Extract genomic
+DNA according to the manufacturer’s protocol using a
+commercial DNA extraction kit.
+2. Paraffin-embedded Tissue: a. Obtain a tissue section (5-10 µm
+thick) in a microtome. b. Deparaffinize tissue sections using
+xylene and rehydrate through a graded ethanol series. c.
+Extract genomic DNA using a commercial DNA extraction kit
+suitable for FFPE samples according to the manufacturer’s
+protocol.
+B) DNA Quantification and Quality Assessment
+1. Quantify the extracted DNA using a Qubit fluorometer. Follow
+the manufacturer's instructions for the DNA quantitation kit.
+2. Assess the quality of DNA using a Bioanalyzer or similar
+instrument to ensure high molecular weight and integrity of
+DNA.
+C) Library Preparation
+1. Prepare DNA libraries using a library preparation kit appropriate
+for the Postmortem Cardiomyopathy and Arrhythmia Gene
+Panel.
+2. Follow the manufacturer's protocol for preparing the libraries,
+including fragmentation, end repair, adapter ligation, and
+amplification.
+3. Quantify and assess the quality of prepared libraries using the
+Qubit fluorometer and Bioanalyzer, respectively.
+D) Sequencing
+1. Load the prepared libraries onto the high-throughput sequencer
+following the instrument’s protocol.
+2. Set up the sequencing run parameters according to the needs
+of the gene panel (e.g., read length, coverage).
+E) Data Analysis
+1. After sequencing, transfer the raw data files to the
+bioinformatics workstation.
+2. Use bioinformatics software to perform the alignment of
+sequencing reads to the human reference genome.
+3. Detect variants and annotate them using appropriate variant
+calling pipelines.
+4. Filter the variants based on quality and relevance to
+cardiomyopathy and arrhythmia genes.
+F) Results Interpretation and Reporting
+1. Correlate identified variants with known pathogenic, likely
+pathogenic, benign, or uncertain significance categories.
+2. Generate a detailed report summarizing the genetic findings,
+their potential clinical significance, and recommendations for
+further investigation.
+3. Review the report for accuracy and completeness before final
+verification by a qualified laboratory director or geneticist.
+4. QUALITY CONTROL
+• Conduct regular calibration and maintenance of equipment as per
+the manufacturer’s guidelines.
+• Run positive and negative controls with each batch of samples to
+ensure the reliability of the procedure.
+• Perform periodic proficiency testing to ensure the laboratory's
+technical performance and accuracy.
+1. DOCUMENTATION
+• Record all sample information, reagent lot numbers, and
+equipment identifiers in the laboratory information management
+system (LIMS).
+• Document all steps and observations throughout the procedure in
+laboratory notebooks or electronic records.
+1. SAFETY CONSIDERATIONS
+• Follow all laboratory safety protocols, including wearing
+appropriate personal protective equipment (PPE).
+• Handle all chemicals, biological samples, and hazardous reagents
+according to safety data sheets (SDS) and laboratory protocols.
+1. REFERENCES
+• Manufacturer’s DNA extraction kit protocol
+• Sequencer operator manual
+• Bioinformatics data analysis tools documentation
+Review and Approval: [Name] [Title] [Date]
+This SOP is effective as of [Date] and remains in effect until revised
+or withdrawn.
+End of SOP

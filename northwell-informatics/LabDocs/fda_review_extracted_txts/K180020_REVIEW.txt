@@ -1,0 +1,1023 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K180020
+B. Purpose for Submission:
+Clearance of a new device
+C. Manufacturer and Instrument Name:
+PixCell Medical Technologies, Ltd.; HemoScreen Hematology Analyzer
+D. Type of Test or Tests Performed:
+Quantitative complete blood count with 5-part leukocyte differential: RBC, WBC, PLT,
+HGB, HCT, MCV, MCH, MCHC, RDW, MPV, NEUT#, NEUT%, MONO#, MONO%,
+LYMP#, LYMP%, EO#, EO% and BASO#, BASO%.
+E. System Descriptions:
+1. Device Description:
+The HemoScreen is a point-of-care (POC), automated hematology analyzer that provides
+results for CBC parameters and a 5-part leukocyte differential, in capillary and venous
+whole blood samples. The HemoScreen system is a tabletop device and is comprised of
+the following components: HemoScreen reader (analyzer), software, cartridge preloaded
+with reagents, sampler, on-board internal quality control, and external liquid quality
+controls. The cartridge module comprises reagent compartments, a microfluidic chip and
+a translucent measurement portion. The reagents in the cartridge enable visoelastic
+focusing, lysis of red blood cells and white blood cell (WBC) staining. In addition to the
+cartridge, the system includes a disposable sampler, which is used to collect the blood
+sample and then transfer it to the cartridge.
+2. Principles of Operation:
+The HemoScreen analyzer includes several modules (optical, mechanical, and electrical
+modules), a processor and controller that work together to measure blood samples that
+have been prepared inside disposable cartridges. The blood sample is collected with an
+additional disposable unit called a sampler. Once filled, the sampler is inserted into the
+cartridge in a single action, whereupon the cartridge is inserted into the reader for
+automatic sample preparation/staining and measurement. The cartridge is supplied
+preloaded with all required reagents.
+1
+
+--- Page 2 ---
+Once the cartridge is inserted into the reader, blood is expelled from the capillaries into
+the reagent compartments. The reader then mixes the blood sample with the reagents by
+alternately pressing compressible portions of the cartridge, eventually causing the
+suspension of cells to flow into the microfluidic chamber. Cells flowing in the
+microfluidic chamber focus into a single-cell plane due to viscoelastic focusing. The
+reader then captures images of the focused cells and analyzes them in real time using
+machine vision algorithms. The reader interfaces with the cartridge mechanically and
+optically, and has no direct contact with the fluid inside the cartridge. When analysis is
+complete, the results are displayed to the user on the reader's touch screen.
+Leukocytes are classified based on their staining properties and morphology, whereas
+absolute counts are obtained by counting the cells contained in a chamber of predetermined
+volume. Test results are obtained within six minutes and the results are saved.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ____X___ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ___X____
+4. Specimen Identification:
+Specimen identification is performed by manual keyboard entry or use of a barcode
+reader.
+5. Specimen Sampling and Handling:
+HemoScreen can be used with either capillary or venous anticoagulated whole blood,
+collected in K2EDTA. Capillary blood sampling is performed by routine fingertip
+puncture using a standard lancet, and the blood is collected in an K2EDTA microtube.
+Venous blood, thoroughly mixed and at room temperature, can be used as well.
+6. Calibration:
+Factory calibration. The calibration of HemoScreen is traceable to the reference methods
+described in CLSI H26-A2.
+7. Quality Control:
+The HemoScreen system includes both on-board internal and external quality controls.
+Internal quality control where the software verifies performance of the optics, reagent
+2
+
+--- Page 3 ---
+mixing, and instrument pneumatics.
+PIX-CBC Hematology Controls, 3-level commercial liquid quality controls will be used
+to cover all HemoScreen parameters. PIX-CBC Hematology controls are produced by
+R&D Systems, a Bio-Techne brand, Minneapolis, MN.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+3 Product code:
+GKZ – Counter, Differential Cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The HemoScreen is a point-of-care (POC) automated hematology analyzer intended for
+the enumeration and classification of the following parameters in capillary and venous
+whole blood (K2EDTA anticoagulated): WBC, RBC, HGB, HCT, MCV, MCH, MCHC,
+RDW, PLT, MPV, NEUT%, NEUT#, LYMP%, LYMP#, MONO%, MONO#, EO%,
+EO#, BASO%, and BASO#. The HemoScreen is for in vitro diagnostic use in clinical
+laboratories and/or POC settings for adults and children at least 2 years of age.
+2. Special Conditions for Use Statement(s):
+For prescription use only
+3
+
+--- Page 4 ---
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Sysmex® XN-Series (XN-10, XN-20) Automated Hematology Analyzer (Sysmex
+Analyzer) – K112605
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+HemoScreen Sysmex XN Series
+Intended Use The HemoScreen is a point-of- The XN-Series modules (XN-10
+care (POC) automated and XN-20) modules are
+hematology analyzer intended quantitative multi-parameter
+for the enumeration and automated hematology analyzers
+classification of the following intended for in vitro diagnostic use
+parameters in capillary and in screening patient populations
+venous whole blood (K2EDTA found in clinical laboratories. The
+anticoagulated): WBC, RBC, XN-Series modules classify and
+HGB, HCT, MCV, MCH, enumerate the following
+MCHC, RDW, PLT, MPV, parameters for whole blood: WBC,
+NEUT%, NEUT#, LYMP%, RBC, HGB, HCT, MCV, MCH,
+LYMP#, MONO%, MONO#, MCHC, PLT, NEUT%/#,
+EO%, EO#, BASO%, and LYMPH%/#, MONO%/#, EO%/#,
+BASO#. The HemoScreen is BASO%/#, IG%/#, RDW-CV,
+for in vitro diagnostic use in RDW-SD, MPV, NRBC%/#,
+clinical laboratories and/or RET%/#, IPF, IRF, RET-He and
+POC settings for adults and has a Body Fluid mode for body
+children at least 2 years of age. fluids. The Body Fluid mode
+enumerates the WBC-BF, RBC-
+BF, MN%/#, PMN%/# and TC-BF
+parameters in cerebrospinal fluids
+(CSF), serous fluids (peritoneal,
+pleural) and synovial fluids.
+Whole blood should be collected
+in K2 or K3EDTA anticoagulant
+and, Serous and Synovial fluids in
+K2EDTA anticoagulant to prevent
+clotting of fluid. The use of
+anticoagulants with CSF
+specimens is neither required nor
+recommended.
+Sample Type Venous and capillary Same
+anticoagulated whole blood
+4
+
+[Table 1 on page 4]
+Similarities						
+Item		Device			Predicate	
+		HemoScreen			Sysmex XN Series	
+Intended Use	The HemoScreen is a point-of-
+care (POC) automated
+hematology analyzer intended
+for the enumeration and
+classification of the following
+parameters in capillary and
+venous whole blood (K2EDTA
+anticoagulated): WBC, RBC,
+HGB, HCT, MCV, MCH,
+MCHC, RDW, PLT, MPV,
+NEUT%, NEUT#, LYMP%,
+LYMP#, MONO%, MONO#,
+EO%, EO#, BASO%, and
+BASO#. The HemoScreen is
+for in vitro diagnostic use in
+clinical laboratories and/or
+POC settings for adults and
+children at least 2 years of age.			The XN-Series modules (XN-10
+and XN-20) modules are
+quantitative multi-parameter
+automated hematology analyzers
+intended for in vitro diagnostic use
+in screening patient populations
+found in clinical laboratories. The
+XN-Series modules classify and
+enumerate the following
+parameters for whole blood: WBC,
+RBC, HGB, HCT, MCV, MCH,
+MCHC, PLT, NEUT%/#,
+LYMPH%/#, MONO%/#, EO%/#,
+BASO%/#, IG%/#, RDW-CV,
+RDW-SD, MPV, NRBC%/#,
+RET%/#, IPF, IRF, RET-He and
+has a Body Fluid mode for body
+fluids. The Body Fluid mode
+enumerates the WBC-BF, RBC-
+BF, MN%/#, PMN%/# and TC-BF
+parameters in cerebrospinal fluids
+(CSF), serous fluids (peritoneal,
+pleural) and synovial fluids.
+Whole blood should be collected
+in K2 or K3EDTA anticoagulant
+and, Serous and Synovial fluids in
+K2EDTA anticoagulant to prevent
+clotting of fluid. The use of
+anticoagulants with CSF
+specimens is neither required nor
+recommended.		
+Sample Type	Venous and capillary
+anticoagulated whole blood			Same		
+
+--- Page 5 ---
+Differences
+Item Device Predicate
+Parameters · Red Blood Cells (RBC), · Red Blood Cells (RBC),
+Measured · White Blood Cells (WBC), · White Blood Cells (WBC),
+· Platelets (PLT), · Platelets (PLT),
+· Hemoglobin (HGB), · Hemoglobin (HGB),
+· Hematocrit (HCT), · Hematocrit (HCT),
+· Mean Corpuscular · Mean Corpuscular (erythrocyte)
+(erythrocyte) Volume Volume (MCV),
+(MCV), · Mean Cell (erythrocyte)
+· Mean Cell (erythrocyte) Hemoglobin (MCH),
+Hemoglobin (MCH), · Mean Cell (erythrocyte)
+· Mean Cell (erythrocyte) Hemoglobin Concentration
+Hemoglobin Concentration (MCHC),
+(MCHC), · Red Blood Cell Distribution
+· Red Blood Cell Distribution Width (RDW)-CV/SD
+Width (RDW)-CV · Mean Platelets Volume (MPV),
+· Mean Platelets Volume · Neutrophils (NEUT; #/%),
+(MPV), · Monocytes (MONO; #/%),
+· Neutrophils (NEUT; #/%), · Lymphocytes (LYMP; #/%),
+· Monocytes (Mono: #/%) · Eosinophils (EO; #/%) and
+· Lymphocytes (Lymp; #/%) · Basophils (BASO; #/%)
+· Eosinophils (EO, #/%) · IG%/#,
+· Basophils (Baso; #/%) · NRBC#/%,
+· RET%/#,
+· IPF, IRF,
+· RET-He,
+· WBC-BF, (Body fluids)
+· RBC-BF, (Body fluids)
+· MN%/#, (Body fluids)
+· PMN%/#, (Body fluids)
+· TC-BF (Body fluids)
+Throughput 10 samples/hour 100 samples/hour maximum
+depending on mode used
+Test Principle The HemoScreen uses The XN Series performs analyses
+viscoelastic focusing which using the following methods:
+causes the cells to perfectly fluorescence flow cytometry and
+align into a plane. High sheath flow DC detection. The
+resolution microscopic images first is used to differentiate
+are taken of the flowing cells. between WBC types and abnormal
+Each image is analyzed using cells while the second is used for
+machine vision algorithms and RBC and PLT analysis.
+5
+
+[Table 1 on page 5]
+Differences								
+	Item			Device			Predicate	
+Parameters
+Measured			· Red Blood Cells (RBC),
+· White Blood Cells (WBC),
+· Platelets (PLT),
+· Hemoglobin (HGB),
+· Hematocrit (HCT),
+· Mean Corpuscular
+(erythrocyte) Volume
+(MCV),
+· Mean Cell (erythrocyte)
+Hemoglobin (MCH),
+· Mean Cell (erythrocyte)
+Hemoglobin Concentration
+(MCHC),
+· Red Blood Cell Distribution
+Width (RDW)-CV
+· Mean Platelets Volume
+(MPV),
+· Neutrophils (NEUT; #/%),
+· Monocytes (Mono: #/%)
+· Lymphocytes (Lymp; #/%)
+· Eosinophils (EO, #/%)
+· Basophils (Baso; #/%)			· Red Blood Cells (RBC),
+· White Blood Cells (WBC),
+· Platelets (PLT),
+· Hemoglobin (HGB),
+· Hematocrit (HCT),
+· Mean Corpuscular (erythrocyte)
+Volume (MCV),
+· Mean Cell (erythrocyte)
+Hemoglobin (MCH),
+· Mean Cell (erythrocyte)
+Hemoglobin Concentration
+(MCHC),
+· Red Blood Cell Distribution
+Width (RDW)-CV/SD
+· Mean Platelets Volume (MPV),
+· Neutrophils (NEUT; #/%),
+· Monocytes (MONO; #/%),
+· Lymphocytes (LYMP; #/%),
+· Eosinophils (EO; #/%) and
+· Basophils (BASO; #/%)
+· IG%/#,
+· NRBC#/%,
+· RET%/#,
+· IPF, IRF,
+· RET-He,
+· WBC-BF, (Body fluids)
+· RBC-BF, (Body fluids)
+· MN%/#, (Body fluids)
+· PMN%/#, (Body fluids)
+· TC-BF (Body fluids)		
+Throughput			10 samples/hour			100 samples/hour maximum
+depending on mode used		
+Test Principle			The HemoScreen uses
+viscoelastic focusing which
+causes the cells to perfectly
+align into a plane. High
+resolution microscopic images
+are taken of the flowing cells.
+Each image is analyzed using
+machine vision algorithms and			The XN Series performs analyses
+using the following methods:
+fluorescence flow cytometry and
+sheath flow DC detection. The
+first is used to differentiate
+between WBC types and abnormal
+cells while the second is used for
+RBC and PLT analysis.		
+
+--- Page 6 ---
+Differences
+Item Device Predicate
+the different cell types are The HGB is measured using a
+differentiated and counted. standard photometric method on
+WBCs are stained prior to the lysed RBC solution which is
+analysis so as to enable reacted with SLS forming a
+differentiation between their colored SLS-HGB complex.
+subtypes and abnormal cells.
+HGB is calculated based on
+the optical density measured
+on individual intact cells.
+Calibration Factory calibrated Requires calibration by the
+operator
+Anticoagulant K2EDTA K2EDTA and K3DTA
+Sample 40 μL 88 μL
+Volume
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline – Third Edition
+CLSI H20-A2, Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard – Second Edition
+CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated Hematology
+Analyzers; Approved Standard – Second Edition
+CLSI EP06-A, Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach; Approved Guideline
+CLSI EP07-A2, Interference Testing In Clinical Chemistry; Approved Guideline -Second
+Edition
+CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition
+CLSI EP28-A3c, Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory; Approved Guideline – Third Edition
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+6
+
+[Table 1 on page 6]
+Differences								
+	Item			Device			Predicate	
+			the different cell types are
+differentiated and counted.
+WBCs are stained prior to
+analysis so as to enable
+differentiation between their
+subtypes and abnormal cells.
+HGB is calculated based on
+the optical density measured
+on individual intact cells.			The HGB is measured using a
+standard photometric method on
+the lysed RBC solution which is
+reacted with SLS forming a
+colored SLS-HGB complex.		
+Calibration			Factory calibrated			Requires calibration by the
+operator		
+Anticoagulant			K2EDTA			K2EDTA and K3DTA		
+Sample
+Volume			40 μL			88 μL		
+
+--- Page 7 ---
+Method comparison studies were performed at three point-of-care (POC) sites (2 sites
+in the U.S. and one site in Israel) with 495 residual venous blood specimens collected
+in standard K2EDTA tubes. The studies included normal and pathological samples to
+assess the HemoScreen performance across the analytical measurement ranges
+(AMRs) as well as at medical decision points. The pathological samples included
+conditions: acute inflammation, bacterial and viral infections, aplastic anemia, acute
+and chronic leukemias (lymphocytic or myelocytic), multiple myeloma (plasma cell
+leukemia), microcytic anemia, normocytic anemia, macrocytic anemia,
+hemoglobinopathies, thalassemia, iron and folate deficiencies. The samples were
+represented by an age range of 4–92 years old, and the study population included 277
+males (56%) and 218 females (44%). Each blood sample was analyzed in duplicate
+on the Hemoscreen and Sysmex XN-10, but only the first replicateHemoscreen
+results was used for all data analyses.
+Bias was determined based on the results of the Deming regression model. For the
+regression analysis, the 95% confidence intervals (CI) and predicted bias/difference
+for each parameter was determined by sites and all sites combined. All results were
+within the pre-defined acceptance criteria with the exception of the basophil
+parameters.
+Correlation of HemoScreen vs. Sysmex XN-10 -All sites combined
+Correlation Intercept Slope
+Parameter Result Range
+Coefficient (95% CI) (95% CI)
+WBC -0.256 1.040
+0.77 to 78.09 0.993
+(103/μL) (-0.396, -0.116) (1.019, 1.061)
+RBC 0.021 1.000
+1.15 to 7.91 0.989
+(106/μL) (-0.047, 0.088) (0.983, 1.016)
+-0.334 1.038
+HGB (g/dL) 3.94 to 24.20 0.985
+(-0.549, -0.119) (1.019, 1.056)
+-0.184 1.036
+HCT (%) 12.80 to 74.45 0.982
+(-0.872, 0.505) (1.017, 1.056)
+-2.367 1.053
+MCV (fL) 54.20 to 131.38 0.956
+(-6.216, 1.482) (1.009, 1.096)
+0.131 0.998
+MCH (pg) 15.47 to 44.00 0.957
+(-0.560, 0.822) (0.974, 1.021)
+MCHC 8.309 0.727
+27.78 to 37.12 0.675
+(g/dL) (5.921, 10.697) (0.655, 0.799)
+0.504 0.965
+RDW (%) 11.94 to 31.29 0.946
+(-0.018, 1.025) (0.928, 1.002
+PLT -6.581 1.093
+20.17 to 771.57 0.967
+(103/μL) (-10.494, -2.668) (1.068, 1.118)
+0.043 1.016
+MPV (fL) 8.73 to 20.28 0.831
+(-0.660, 0.745) (0.949, 1.082)
+NEUT# 0.026 1.032
+0.18 to 64.05 0.989
+(103/μL) (-0.069, 0.120) (1.007, 1.057)
+LYMPH# -0.003 1.058
+0.06 to 70.89 0.997
+(103/μL) (-0.037, 0.032) (1.035, 1.082)
+MONO# -0.014 0.781
+0.01 to 24.55 0.718
+(103/μL) (-0.077, 0.049) (0.671, 0.892)
+EO# 0.00 to 2.97 0.981 -0.002 0.984
+7
+
+[Table 1 on page 7]
+		Correlation	Intercept	Slope
+Parameter	Result Range			
+		Coefficient	(95% CI)	(95% CI)
+				
+WBC
+(103/μL)	0.77 to 78.09	0.993	-0.256
+(-0.396, -0.116)	1.040
+(1.019, 1.061)
+RBC
+(106/μL)	1.15 to 7.91	0.989	0.021
+(-0.047, 0.088)	1.000
+(0.983, 1.016)
+HGB (g/dL)	3.94 to 24.20	0.985	-0.334
+(-0.549, -0.119)	1.038
+(1.019, 1.056)
+HCT (%)	12.80 to 74.45	0.982	-0.184
+(-0.872, 0.505)	1.036
+(1.017, 1.056)
+MCV (fL)	54.20 to 131.38	0.956	-2.367
+(-6.216, 1.482)	1.053
+(1.009, 1.096)
+MCH (pg)	15.47 to 44.00	0.957	0.131
+(-0.560, 0.822)	0.998
+(0.974, 1.021)
+MCHC
+(g/dL)	27.78 to 37.12	0.675	8.309
+(5.921, 10.697)	0.727
+(0.655, 0.799)
+RDW (%)	11.94 to 31.29	0.946	0.504
+(-0.018, 1.025)	0.965
+(0.928, 1.002
+PLT
+(103/μL)	20.17 to 771.57	0.967	-6.581
+(-10.494, -2.668)	1.093
+(1.068, 1.118)
+MPV (fL)	8.73 to 20.28	0.831	0.043
+(-0.660, 0.745)	1.016
+(0.949, 1.082)
+NEUT#
+(103/μL)	0.18 to 64.05	0.989	0.026
+(-0.069, 0.120)	1.032
+(1.007, 1.057)
+LYMPH#
+(103/μL)	0.06 to 70.89	0.997	-0.003
+(-0.037, 0.032)	1.058
+(1.035, 1.082)
+MONO#
+(103/μL)	0.01 to 24.55	0.718	-0.014
+(-0.077, 0.049)	0.781
+(0.671, 0.892)
+EO#	0.00 to 2.97	0.981	-0.002	0.984
+
+--- Page 8 ---
+Correlation Intercept Slope
+Parameter Result Range
+Coefficient (95% CI) (95% CI)
+(103/μL) (-0.007, 0.003) (0.915, 1.053)
+BASO# -0.002 0.240
+0.00 to 0.21 0.055
+(103/μL) (-0.005, 0.001) (0.166, 0.330)
+2.161 0.996
+NEUT% 6.91 to 97.45 0.984
+(1.182, 3.139) (0.978, 1.014)
+0.411 1.029
+LYMPH% 1.37 to 90.78 0.991
+(-0.011, 0.833) (1.007, 1.051)
+-0.370 0.809
+MONO% 0.51 to 42.06 0.780
+(-1.271, 0.531) (0.693, 0.924)
+0.005 0.949
+EO% 0.00 to 24.07 0.981
+(-0.002, 0.013) (0.893, 1.006)
+-0.009 0.214
+BASO% 0.00 to 2.24 0.098
+(-0.044, 0.023) (0.148, 0.293)
+For the comparison of the HemoScreen to the Sysmex XN-10, the range of results
+was limited to 0.00–2.24; therefore, an additional method comparison study was
+conducted to evaluate the WBC differential parameters with elevated basophils.This
+study was conducted at one site with 95 whole blood samples (2–88 years of age, 39
+females and 56 males) comparing the HemoScreen to manual light microscopy (400
+cells per blood film) for basophil percentages.The WBC differential absolute counts
+were compared to the Sysmex XN-10. Deming linear regression analysis was used to
+calculate the correlation coefficient, slope and intercept along with the 95% CI. The
+results met the pre-defined acceptance criteria.
+WBC differential analysis with elevated basophil samples
+Correlation Intercept Slope
+Parameter Result Range Comparator
+Coefficient (95% CI) (95% CI)
+NEUT# -0.005 0.962
+0.49 to 27.74 Sysmex 0.988
+(103/μL) (-0.122, 0.111) (0.921, 1.002)
+LYMPH# 0.022 1.159
+0.12 to 23.75 Sysmex 0.982
+(103/μL) (-0.119, 0.162) (1.025, 1.294)
+MONO# 0.014 0.955
+0.08 to 7.04 Sysmex 0.930
+(103/μL) (-0.035, 0.062) (0.846, 1.064)
+EO# 0.006 1.082
+0.00 to 1.71 Sysmex 0.940
+(103/μL) (0.001, 0.011) (0.918, 1.247)
+BASO# 0.007 0.866
+0.00 to 1.69 Sysmex 0.484
+(103/μL) (-0.008, 0.023) (0.333, 1.398)
+7.477 0.768
+NEU% 13.89 to 92.56 Blood Smear 0.916
+(-16.142, 31.096) (0.381, 1.155)
+1.456 1.214
+LYMPH% 1.52 to 82.49 Blood Smear 0.921
+(-0.595, 3.507) (1.041, 1.388)
+1.190 1.230
+MONO% 1.25 to 45.43 Blood Smear 0.762
+(0.221, 2.159) (1.036, 1.423)
+0.022 1.342
+EO% 0.00 to 19.50 Blood Smear 0.915
+(-0.031, 0.075) (1.016, 1.668)
+0.334 0.466
+BASO% 0.13 to 12.22 Blood Smear 0.725
+(0.260, 0.408) (0.209, 0.724)
+8
+
+[Table 1 on page 8]
+		Correlation	Intercept	Slope
+Parameter	Result Range			
+		Coefficient	(95% CI)	(95% CI)
+				
+(103/μL)			(-0.007, 0.003)	(0.915, 1.053)
+BASO#
+(103/μL)	0.00 to 0.21	0.055	-0.002
+(-0.005, 0.001)	0.240
+(0.166, 0.330)
+NEUT%	6.91 to 97.45	0.984	2.161
+(1.182, 3.139)	0.996
+(0.978, 1.014)
+LYMPH%	1.37 to 90.78	0.991	0.411
+(-0.011, 0.833)	1.029
+(1.007, 1.051)
+MONO%	0.51 to 42.06	0.780	-0.370
+(-1.271, 0.531)	0.809
+(0.693, 0.924)
+EO%	0.00 to 24.07	0.981	0.005
+(-0.002, 0.013)	0.949
+(0.893, 1.006)
+BASO%	0.00 to 2.24	0.098	-0.009
+(-0.044, 0.023)	0.214
+(0.148, 0.293)
+
+[Table 2 on page 8]
+			Correlation	Intercept	Slope
+Parameter	Result Range	Comparator			
+			Coefficient	(95% CI)	(95% CI)
+					
+NEUT#
+(103/μL)	0.49 to 27.74	Sysmex	0.988	-0.005
+(-0.122, 0.111)	0.962
+(0.921, 1.002)
+LYMPH#
+(103/μL)	0.12 to 23.75	Sysmex	0.982	0.022
+(-0.119, 0.162)	1.159
+(1.025, 1.294)
+MONO#
+(103/μL)	0.08 to 7.04	Sysmex	0.930	0.014
+(-0.035, 0.062)	0.955
+(0.846, 1.064)
+EO#
+(103/μL)	0.00 to 1.71	Sysmex	0.940	0.006
+(0.001, 0.011)	1.082
+(0.918, 1.247)
+BASO#
+(103/μL)	0.00 to 1.69	Sysmex	0.484	0.007
+(-0.008, 0.023)	0.866
+(0.333, 1.398)
+NEU%	13.89 to 92.56	Blood Smear	0.916	7.477
+(-16.142, 31.096)	0.768
+(0.381, 1.155)
+LYMPH%	1.52 to 82.49	Blood Smear	0.921	1.456
+(-0.595, 3.507)	1.214
+(1.041, 1.388)
+MONO%	1.25 to 45.43	Blood Smear	0.762	1.190
+(0.221, 2.159)	1.230
+(1.036, 1.423)
+EO%	0.00 to 19.50	Blood Smear	0.915	0.022
+(-0.031, 0.075)	1.342
+(1.016, 1.668)
+BASO%	0.13 to 12.22	Blood Smear	0.725	0.334
+(0.260, 0.408)	0.466
+(0.209, 0.724)
+
+--- Page 9 ---
+Flagging studies
+The WBC flagging rate for HemoScreen was compared to the WBC differential
+results displayed by the Sysmex XN and CellaVision for 460 samples. Three blood
+film slides were prepared for each sample for measurement on the CellaVision (2
+slides/200 cells counted per slide for a total of 400 cells). Competent operators trained
+to use the CellaVision performed the differentials, and the results were verified by
+these operators. Two types of abnormalities were evaluated: (1) distributional
+abnormal samples, which are samples where the quantity of at least one of the
+parameters resides outside of the normal concentrations, and (2) morphological
+abnormal samples, which are samples that contain atypical forms of the normal cell
+types contained in ordinary blood samples.
+Overall WBC Flagging, HemoScreen versus Predicate
+All Sites 95% CI
+Positive Percent Agreement 95.9 (93.0, 97.9)
+Negative Percent Agreement 82.1 (73.4, 88.8)
+% Overall Agreement 92.3 (89.2, 94.7)
+Overall WBC Flagging, HemoScreen versus Blood Smear
+All Sites 95% CI
+Positive Percent Agreement 93.8 (90.3, 96.3)
+Negative Percent Agreement 71.7 (62.4, 79.8)
+% Overall Agreement 87.6 (83.9, 90.6)
+b. Precision/Reproducibility:
+Repeatability-Whole blood
+Two short term precision studies were conducted across three sites (one internal site
+and 2 POC sites) with POC operators to assess within-run precision (repeatability) in
+accordance with the CLSI EP05-A3 approved guideline. Sixty-five K2EDTA whole
+blood samples that spanned the analytical measuring range and medical decision
+levels were assayed 15 times and for all 20 parameters. All results met the pre-
+defined acceptance criteria.
+Reproducibility-Whole blood
+The study was conducted at three sites, over five days with five replicates per run
+using a 3-level control set comprising low, normal and high levels of measurands.
+The data generated from this assessment was used to calculate, between-day and
+between-run precision, between-laboratory precision (includes variability of different
+systems and operators), and reproducibility (total precision). For each reported
+parameter and for each level of control tested, the mean, SD and %CV of the various
+9
+
+[Table 1 on page 9]
+	All Sites			95% CI	
+Positive Percent Agreement			95.9 (93.0, 97.9)		
+Negative Percent Agreement			82.1 (73.4, 88.8)		
+% Overall Agreement			92.3 (89.2, 94.7)		
+
+[Table 2 on page 9]
+	All Sites			95% CI	
+Positive Percent Agreement			93.8 (90.3, 96.3)		
+Negative Percent Agreement			71.7 (62.4, 79.8)		
+% Overall Agreement			87.6 (83.9, 90.6)		
+
+--- Page 10 ---
+components of precision were calculated along with the 95% CI of the SD and %CV
+for repeatability and reproducibility (total precision). The results were analyzed in
+accordance with the CLSI EP05-A3 approved guideline and met the pre-acceptance
+defined criteria.
+All Sites Combined Between-run Between-Day Between-site Total
+Measurand Level Mean SD %CV SD %CV SD %CV SD %CV
+WBC Low 2.82 0.203 7.2% 0.000 0.0% 0.116 4.1% 0.234 8.3%
+WBC Normal 8.98 0.424 4.7% 0.078 0.9% 0.234 2.6% 0.490 5.5%
+WBC High 20.62 0.802 3.9% 0.219 1.1% 0.355 1.7% 0.904 4.4%
+RBC Low 2.66 0.052 1.9% 0.011 0.4% 0.040 1.5% 0.066 2.5%
+RBC Normal 4.93 0.096 1.9% 0.016 0.3% 0.065 1.3% 0.117 2.4%
+RBC High 5.92 0.108 1.8% 0.020 0.3% 0.038 0.6% 0.116 2.0%
+HGB Low 7.01 0.168 2.4% 0.049 0.7% 0.045 0.6% 0.181 2.6%
+HGB Normal 15.48 0.430 2.8% 0.078 0.5% 0.075 0.5% 0.444 2.9%
+HGB High 22.04 0.469 2.1% 0.076 0.3% 0.073 0.3% 0.481 2.2%
+HCT Low 19.01 0.376 2.0% 0.073 0.4% 0.340 1.8% 0.512 2.7%
+HCT Normal 40.48 0.819 2.0% 0.080 0.2% 0.567 1.4% 0.999 2.5%
+HCT High 57.32 1.077 1.9% 0.214 0.4% 0.334 0.6% 1.148 2.0%
+MCV Low 71.42 0.438 0.6% 0.000 0.0% 0.506 0.7% 0.669 0.9%
+MCV Normal 82.19 0.526 0.6% 0.000 0.0% 0.273 0.3% 0.593 0.7%
+MCV High 96.90 0.486 0.5% 0.116 0.1% 0.280 0.3% 0.573 0.6%
+MCH Low 26.32 0.465 1.8% 0.000 0.0% 0.218 0.8% 0.513 1.9%
+MCH Normal 31.43 0.442 1.4% 0.084 0.3% 0.198 0.6% 0.492 1.6%
+MCH High 37.26 0.402 1.1% 0.070 0.2% 0.319 0.9% 0.518 1.4%
+MCHC Low 36.86 0.764 2.1% 0.023 0.1% 0.502 1.4% 0.915 2.5%
+MCHC Normal 38.24 0.648 1.7% 0.111 0.3% 0.312 0.8% 0.727 1.9%
+MCHC High 38.46 0.491 1.3% 0.125 0.3% 0.379 1.0% 0.633 1.6%
+RDW Low 13.80 0.114 0.8% 0.000 0.0% 0.112 0.8% 0.160 1.2%
+RDW Normal 16.57 0.072 0.4% 0.000 0.0% 0.129 0.8% 0.148 0.9%
+RDW High 13.79 0.193 1.4% 0.097 0.7% 0.180 1.3% 0.281 2.0%
+PLT Low 70.71 3.408 4.8% 1.329 1.9% 4.222 6.0% 5.586 7.9%
+PLT Normal 269.42 9.208 3.4% 3.300 1.2% 11.328 4.2% 14.967 5.6%
+PLT High 567.99 17.348 3.1% 2.958 0.5% 14.760 2.6% 22.969 4.0%
+MPV Low 9.91 0.084 0.8% 0.000 0.0% 0.057 0.6% 0.101 1.0%
+MPV Normal 9.82 0.069 0.7% 0.014 0.1% 0.051 0.5% 0.087 0.9%
+MPV High 9.98 0.062 0.6% 0.004 0.0% 0.051 0.5% 0.080 0.8%
+NEU# Low 1.48 0.120 8.1% 0.010 0.7% 0.043 2.9% 0.128 8.6%
+NEU# Normal 4.44 0.221 5.0% 0.000 0.0% 0.000 0.0% 0.221 5.0%
+NEU# High 9.17 0.544 5.9% 0.107 1.2% 0.532 5.8% 0.768 8.4%
+LYM# Low 0.97 0.094 9.6% 0.000 0.0% 0.070 7.2% 0.117 12.0%
+LYM# Normal 3.34 0.211 6.3% 0.098 2.9% 0.232 7.0% 0.329 9.8%
+LYM# High 9.02 0.640 7.1% 0.150 1.7% 0.737 8.2% 0.987 10.9%
+MON# Low 0.25 0.040 15.6% 0.012 4.7% 0.000 0.0% 0.042 16.3%
+MON# Normal 0.86 0.078 9.1% 0.000 0.0% 0.013 1.5% 0.079 9.2%
+MON# High 1.66 0.126 7.6% 0.000 0.0% 0.025 1.5% 0.129 7.8%
+EOS# Low 0.10 0.020 21.2% 0.000 0.0% 0.000 0.0% 0.020 21.2%
+EOS# Normal 0.30 0.041 13.7% 0.000 0.0% 0.007 2.4% 0.042 13.9%
+EOS# High 0.69 0.059 8.5% 0.000 0.0% 0.012 1.8% 0.060 8.7%
+BAS# Low 0.01 0.002 15.3% 0.000 2.5% 0.001 4.5% 0.002 16.1%
+BAS# Normal 0.04 0.004 10.0% 0.000 0.0% 0.002 4.0% 0.004 10.8%
+10
+
+[Table 1 on page 10]
+All Sites Combined			Between-run		Between-Day		Between-site		Total	
+Measurand	Level	Mean	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+WBC	Low	2.82	0.203	7.2%	0.000	0.0%	0.116	4.1%	0.234	8.3%
+WBC	Normal	8.98	0.424	4.7%	0.078	0.9%	0.234	2.6%	0.490	5.5%
+WBC	High	20.62	0.802	3.9%	0.219	1.1%	0.355	1.7%	0.904	4.4%
+RBC	Low	2.66	0.052	1.9%	0.011	0.4%	0.040	1.5%	0.066	2.5%
+RBC	Normal	4.93	0.096	1.9%	0.016	0.3%	0.065	1.3%	0.117	2.4%
+RBC	High	5.92	0.108	1.8%	0.020	0.3%	0.038	0.6%	0.116	2.0%
+HGB	Low	7.01	0.168	2.4%	0.049	0.7%	0.045	0.6%	0.181	2.6%
+HGB	Normal	15.48	0.430	2.8%	0.078	0.5%	0.075	0.5%	0.444	2.9%
+HGB	High	22.04	0.469	2.1%	0.076	0.3%	0.073	0.3%	0.481	2.2%
+HCT	Low	19.01	0.376	2.0%	0.073	0.4%	0.340	1.8%	0.512	2.7%
+HCT	Normal	40.48	0.819	2.0%	0.080	0.2%	0.567	1.4%	0.999	2.5%
+HCT	High	57.32	1.077	1.9%	0.214	0.4%	0.334	0.6%	1.148	2.0%
+MCV	Low	71.42	0.438	0.6%	0.000	0.0%	0.506	0.7%	0.669	0.9%
+MCV	Normal	82.19	0.526	0.6%	0.000	0.0%	0.273	0.3%	0.593	0.7%
+MCV	High	96.90	0.486	0.5%	0.116	0.1%	0.280	0.3%	0.573	0.6%
+MCH	Low	26.32	0.465	1.8%	0.000	0.0%	0.218	0.8%	0.513	1.9%
+MCH	Normal	31.43	0.442	1.4%	0.084	0.3%	0.198	0.6%	0.492	1.6%
+MCH	High	37.26	0.402	1.1%	0.070	0.2%	0.319	0.9%	0.518	1.4%
+MCHC	Low	36.86	0.764	2.1%	0.023	0.1%	0.502	1.4%	0.915	2.5%
+MCHC	Normal	38.24	0.648	1.7%	0.111	0.3%	0.312	0.8%	0.727	1.9%
+MCHC	High	38.46	0.491	1.3%	0.125	0.3%	0.379	1.0%	0.633	1.6%
+RDW	Low	13.80	0.114	0.8%	0.000	0.0%	0.112	0.8%	0.160	1.2%
+RDW	Normal	16.57	0.072	0.4%	0.000	0.0%	0.129	0.8%	0.148	0.9%
+RDW	High	13.79	0.193	1.4%	0.097	0.7%	0.180	1.3%	0.281	2.0%
+PLT	Low	70.71	3.408	4.8%	1.329	1.9%	4.222	6.0%	5.586	7.9%
+PLT	Normal	269.42	9.208	3.4%	3.300	1.2%	11.328	4.2%	14.967	5.6%
+PLT	High	567.99	17.348	3.1%	2.958	0.5%	14.760	2.6%	22.969	4.0%
+MPV	Low	9.91	0.084	0.8%	0.000	0.0%	0.057	0.6%	0.101	1.0%
+MPV	Normal	9.82	0.069	0.7%	0.014	0.1%	0.051	0.5%	0.087	0.9%
+MPV	High	9.98	0.062	0.6%	0.004	0.0%	0.051	0.5%	0.080	0.8%
+NEU#	Low	1.48	0.120	8.1%	0.010	0.7%	0.043	2.9%	0.128	8.6%
+NEU#	Normal	4.44	0.221	5.0%	0.000	0.0%	0.000	0.0%	0.221	5.0%
+NEU#	High	9.17	0.544	5.9%	0.107	1.2%	0.532	5.8%	0.768	8.4%
+LYM#	Low	0.97	0.094	9.6%	0.000	0.0%	0.070	7.2%	0.117	12.0%
+LYM#	Normal	3.34	0.211	6.3%	0.098	2.9%	0.232	7.0%	0.329	9.8%
+LYM#	High	9.02	0.640	7.1%	0.150	1.7%	0.737	8.2%	0.987	10.9%
+MON#	Low	0.25	0.040	15.6%	0.012	4.7%	0.000	0.0%	0.042	16.3%
+MON#	Normal	0.86	0.078	9.1%	0.000	0.0%	0.013	1.5%	0.079	9.2%
+MON#	High	1.66	0.126	7.6%	0.000	0.0%	0.025	1.5%	0.129	7.8%
+EOS#	Low	0.10	0.020	21.2%	0.000	0.0%	0.000	0.0%	0.020	21.2%
+EOS#	Normal	0.30	0.041	13.7%	0.000	0.0%	0.007	2.4%	0.042	13.9%
+EOS#	High	0.69	0.059	8.5%	0.000	0.0%	0.012	1.8%	0.060	8.7%
+BAS#	Low	0.01	0.002	15.3%	0.000	2.5%	0.001	4.5%	0.002	16.1%
+BAS#	Normal	0.04	0.004	10.0%	0.000	0.0%	0.002	4.0%	0.004	10.8%
+
+--- Page 11 ---
+All Sites Combined Between-run Between-Day Between-site Total
+Measurand Level Mean SD %CV SD %CV SD %CV SD %CV
+BAS# High 0.09 0.005 6.3% 0.001 1.4% 0.002 2.5% 0.006 6.9%
+NEU% Low 52.57 2.002 3.8% 0.000 0.0% 0.419 0.8% 2.046 3.9%
+NEU% Normal 49.49 1.340 2.7% 0.443 0.9% 1.388 2.8% 1.979 4.0%
+NEU% High 44.48 2.313 5.2% 0.240 0.5% 2.893 6.5% 3.712 8.3%
+LYM% Low 34.55 2.022 5.9% 0.357 1.0% 1.000 2.9% 2.284 6.6%
+LYM% Normal 37.16 1.237 3.3% 0.641 1.7% 1.584 4.3% 2.109 5.7%
+LYM% High 43.73 2.421 5.5% 0.383 0.9% 3.017 6.9% 3.888 8.9%
+MON% Low 9.04 1.276 14.1% 0.383 4.2% 0.259 2.9% 1.357 15.0%
+MON% Normal 9.56 0.777 8.1% 0.120 1.3% 0.273 2.9% 0.832 8.7%
+MON% High 8.05 0.458 5.7% 0.000 0.0% 0.102 1.3% 0.469 5.8%
+EOS% Low 3.42 0.698 20.4% 0.000 0.0% 0.025 0.7% 0.699 20.4%
+EOS% Normal 3.37 0.438 13.0% 0.000 0.0% 0.000 0.0% 0.438 13.0%
+EOS% High 3.33 0.249 7.5% 0.000 0.0% 0.120 3.6% 0.276 8.3%
+BAS% Low 0.42 0.052 12.4% 0.011 2.6% 0.000 0.0% 0.053 12.7%
+BAS% Normal 0.42 0.038 9.2% 0.000 0.0% 0.005 1.2% 0.039 9.2%
+BAS% High 0.41 0.021 5.0% 0.000 0.0% 0.001 0.3% 0.021 5.0%
+c. Linearity:
+Linearity was defined for WBC, RBC, HGB, HCT and PLT using 6 venous whole
+blood samples. These samples were contrived to create the test panels for WBC,
+RBC, HGB, HCT, and PLT to cover the specified ranges. Seven concentrations were
+used for RBC/HGB and HCT, 10 concentrations were used for PLT, and 14
+concentrations were used for WBC. Each concentration level was tested in duplicate
+on each of the two HemoScreen analyzers.
+Regression analysis was used to assess linearity for first order model (e.g. linear), and
+weighted polynomial regression was used to assess linearity for second and third
+order models (e.g, quadratic and cubic). PLT achieved linearity with a first order
+model while for all other parameters linearity was achieved through polynomial
+regression.
+Measurand Analytical Measuring Range
+WBC (103/µL) 0.5-80.0
+RBC (106/µL) 1.0-8.8
+HGB (g/dL) 3.0-25.0
+HCT (%) 9.0-78.0
+PLT (103/µL) 20 -800
+11
+
+[Table 1 on page 11]
+All Sites Combined			Between-run		Between-Day		Between-site		Total	
+Measurand	Level	Mean	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+BAS#	High	0.09	0.005	6.3%	0.001	1.4%	0.002	2.5%	0.006	6.9%
+NEU%	Low	52.57	2.002	3.8%	0.000	0.0%	0.419	0.8%	2.046	3.9%
+NEU%	Normal	49.49	1.340	2.7%	0.443	0.9%	1.388	2.8%	1.979	4.0%
+NEU%	High	44.48	2.313	5.2%	0.240	0.5%	2.893	6.5%	3.712	8.3%
+LYM%	Low	34.55	2.022	5.9%	0.357	1.0%	1.000	2.9%	2.284	6.6%
+LYM%	Normal	37.16	1.237	3.3%	0.641	1.7%	1.584	4.3%	2.109	5.7%
+LYM%	High	43.73	2.421	5.5%	0.383	0.9%	3.017	6.9%	3.888	8.9%
+MON%	Low	9.04	1.276	14.1%	0.383	4.2%	0.259	2.9%	1.357	15.0%
+MON%	Normal	9.56	0.777	8.1%	0.120	1.3%	0.273	2.9%	0.832	8.7%
+MON%	High	8.05	0.458	5.7%	0.000	0.0%	0.102	1.3%	0.469	5.8%
+EOS%	Low	3.42	0.698	20.4%	0.000	0.0%	0.025	0.7%	0.699	20.4%
+EOS%	Normal	3.37	0.438	13.0%	0.000	0.0%	0.000	0.0%	0.438	13.0%
+EOS%	High	3.33	0.249	7.5%	0.000	0.0%	0.120	3.6%	0.276	8.3%
+BAS%	Low	0.42	0.052	12.4%	0.011	2.6%	0.000	0.0%	0.053	12.7%
+BAS%	Normal	0.42	0.038	9.2%	0.000	0.0%	0.005	1.2%	0.039	9.2%
+BAS%	High	0.41	0.021	5.0%	0.000	0.0%	0.001	0.3%	0.021	5.0%
+
+[Table 2 on page 11]
+	
+Measurand	Analytical Measuring Range
+	
+WBC (103/µL)	0.5-80.0
+RBC (106/µL)	1.0-8.8
+HGB (g/dL)	3.0-25.0
+HCT (%)	9.0-78.0
+PLT (103/µL)	20 -800
+
+--- Page 12 ---
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+The objective of the study was to evaluate the effect of various potential interfering
+substances and blood constituents on HemoScreen clinical and analytical
+performance. The scope of the potential interferents included lipemia, high bilirubin,
+high WBC, high PLT, and NRBCs.
+There was no significant bilirubin interference up to a concentration 50 mg/dL for the
+following parameters: WBC, HGB, RBC, HCT, MCV, MCH, MCHC, and RDW. For
+PLT and MPV, there was no significant bilirubin interference up to a concentration of
+30 mg/dL.
+When blood samples with high triglycerides (319-729 mg/dL) were tested, it was
+confirmed that all parameters met the claims. There was no significant interference
+detected when evaluated at this concentration.
+For high white blood cell (up to 317 x103/μL) and platelet (up to 2,045 x103/μL)
+concentrations, no significant bias was observed in any of the evaluated parameters
+and no significant NRBC interference was noted.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+a. Limits of Detection, Blank, and Quantitation (LoD, LoB, and LoQ)
+Limit of blank was determined using five plasma depleted residual normal venous
+blood samples. Each of the five plasma samples were assayed six times on two
+HemoScreen devices for a total of 60 measurements per parameter, using three
+cartridge and sampler lots. The study results are provided in the following table.
+Parameter LoB
+WBC 0.0 x 103/μL
+RBC 0.0 x 106/µL
+HGB 0.0 g/dL
+HCT 0.0%
+PLT 0.0 x 103/μL
+To determine the LoD and LoQ for WBC, RBC, HGB, HCT and PLT, five low level
+samples were derived from native whole blood. Each of the prepared samples was
+assayed six times on each of the two HemoScreen devices for a total of 60
+measurements. The results of the LoD and LoQ are provided in the table below.
+12
+
+[Table 1 on page 12]
+	Parameter			LoB	
+WBC			0.0 x 103/μL		
+RBC			0.0 x 106/µL		
+HGB			0.0 g/dL		
+HCT			0.0%		
+PLT			0.0 x 103/μL		
+
+--- Page 13 ---
+Parameter Units LoD LoQ
+WBC x 103/µL 0.2 0.51
+RBC x 106/µL 0.03 0.65
+HGB g/dL 0.11 1.87
+HCT % 0.28 5.66
+PLT x 103/µL 4.57 4.57
+b. Capillary and venous whole blood comparison studies
+This study was conducted to demonstrate comparability between capillary and venous
+blood from the same subject tested on the HemoScreen. This study was performed
+using 75 paired normal and abnormal whole blood samples that included clinical
+decision points for WBC, HGB, and PLT from three clinical sites. Blood was drawn
+twice from each donor, once via venipuncture (venous) and once via fingerstick
+(capillary). For all samples, results from the HemoScreen were comparable for
+capillary and venous blood. The venous whole blood sample results were compared
+to the corresponding results of the capillary samples for the same donor. All results
+met the pre-defined acceptance criteria.
+c. Reference Intervals
+Adult reference range
+The normal adult reference interval for all parameters reported by the HemoScreen
+analyzer was established by analyzing venous whole blood samples collected in
+K2EDTA from a total population of 243 healthy individuals (N=120 males, N=123
+females) collected at one site. Results were established by calculating the non-
+parametric 95% confidence interval (2.5th to 97.5th percentiles). The calculated
+normal reference ranges are listed below.
+Female (n=123) Male (n=120)
+Parameter
+Lower Limit Upper Limit Lower Limit Upper Limit
+WBC (103/μL) 4.0 11.5 3.6 10.2
+RBC (106/μL) 3.6 5.1 4.2 6.0
+HGB (g/dL) 10.8 15.6 12.5 17.6
+HCT (%) 32.9 45.6 39.0 52.0
+MCV (fL) 78.1 99.2 74.9 98.0
+MCH (pg) 24.4 32.8 23.8 32.8
+MCHC (g/dL) 30.7 34.7 30.9 35.6
+RDW (%) 11.7 16.1 11.8 14.9
+PLT (103/μL) 179 450 141 437
+MPV (fL) 9.6 14.0 9.3 15.9
+NEUT# (103/μL) 1.8 8.4 1.7 7.4
+LYMPH# (103/μL) 1.3 3.9 1.2 3.8
+MONO# (103/μL) 0.1 0.6 0.1 0.8
+13
+
+[Table 1 on page 13]
+	Parameter			Units			LoD			LoQ	
+WBC			x 103/µL			0.2			0.51		
+RBC			x 106/µL			0.03			0.65		
+HGB			g/dL			0.11			1.87		
+HCT			%			0.28			5.66		
+PLT			x 103/µL			4.57			4.57		
+
+[Table 2 on page 13]
+Parameter		Female (n=123)						Male (n=120)				
+		Lower Limit			Upper Limit			Lower Limit			Upper Limit	
+WBC (103/μL)	4.0			11.5			3.6			10.2		
+RBC (106/μL)	3.6			5.1			4.2			6.0		
+HGB (g/dL)	10.8			15.6			12.5			17.6		
+HCT (%)	32.9			45.6			39.0			52.0		
+MCV (fL)	78.1			99.2			74.9			98.0		
+MCH (pg)	24.4			32.8			23.8			32.8		
+MCHC (g/dL)	30.7			34.7			30.9			35.6		
+RDW (%)	11.7			16.1			11.8			14.9		
+PLT (103/μL)	179			450			141			437		
+MPV (fL)	9.6			14.0			9.3			15.9		
+NEUT# (103/μL)	1.8			8.4			1.7			7.4		
+LYMPH# (103/μL)	1.3			3.9			1.2			3.8		
+MONO# (103/μL)	0.1			0.6			0.1			0.8		
+
+--- Page 14 ---
+Female (n=123) Male (n=120)
+Parameter
+Lower Limit Upper Limit Lower Limit Upper Limit
+EO# (103/μL) 0.0 0.4 0.0 0.5
+BASO# (103/μL) 0.00 0.03 0.00 0.02
+NEUT% 41.0 79.6 34.7 73.4
+LYMPH% 16.7 51.7 20.7 56.9
+MONO% 1.7 7.5 1.7 9.4
+EO% 0.3 5.9 0.3 7.7
+BASO% 0.0 0.3 0.0 0.4
+Pediatric reference range
+A peer review literature reference range was provided for the pediatric population,
+Soldin S, Brugnara C, Wong E (eds.) (2007): Pediatric reference intervals. 6th ed.
+AACC Press, Washington, DC, 217-71.
+d. Sample Stability
+Sample stability was determined for 18 freshly collected venous normal and abnormal
+blood samples. The venous blood samples were collected into K2EDTA tubes. The
+samples were subsequently kept at room temperature (20–25°C) and were analyzed
+again, in duplicate at the following time points: 2 hours, 4 hours, 6 hours, 7 hours and
+8 hours. For each time point, results were compared to the respective baseline results.
+The data at each time point met the acceptance criteria. The data support a sample
+stability claim of 7 hours at room temperature.
+e. Shipping and shelf life stability
+The objective of this combined study was to evaluate the reagent cartridges and
+samplers (the system’s disposable components). The packaging/shipping integrity,
+and shelf life claims of HemoScreen reagent cartridges along with the potential
+environmental effects that could be encountered during shipment under routine
+storage conditions (room temperature) were assessed.
+Three cartridge lots were used for the environmental testing and for the shelf life
+testing (3.5 months,6.5 months and 7 months):There was no significant effect on
+HemoScreen performance when comparing 3.5 month, 6.5 month and 7 month aged
+cartridges to newly produced cartridges. The results from all evaluations performed
+during this study met the predefinedacceptance criteria. The data support a stability
+claim for 6.5 month for the system’s disposable components.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Parts 801 and 809.10.
+14
+
+[Table 1 on page 14]
+Parameter		Female (n=123)						Male (n=120)				
+		Lower Limit			Upper Limit			Lower Limit			Upper Limit	
+EO# (103/μL)	0.0			0.4			0.0			0.5		
+BASO# (103/μL)	0.00			0.03			0.00			0.02		
+NEUT%	41.0			79.6			34.7			73.4		
+LYMPH%	16.7			51.7			20.7			56.9		
+MONO%	1.7			7.5			1.7			9.4		
+EO%	0.3			5.9			0.3			7.7		
+BASO%	0.0			0.3			0.0			0.4		
+
+[Table 2 on page 14]
+Soldin S, Brugnara C, Wong E (eds.) (2007): Pediatric reference intervals. 6th ed.
+AACC Press, Washington, DC, 217-71
+
+--- Page 15 ---
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+15

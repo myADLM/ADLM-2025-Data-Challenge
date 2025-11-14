@@ -1,0 +1,2058 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K193371
+B Applicant
+Abbott Diabetes Care Inc.
+C Proprietary and Established Names
+FreeStyle Libre 2 Flash Glucose Monitoring System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1355 -
+Integrated Continuous
+QLG Class II CH - Clinical Chemistry
+Glucose Monitoring
+System
+21 CFR 862.1345 -
+NBW Class II CH - Clinical Chemistry
+Glucose test system
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Measurand:
+Glucose in Interstitial Fluid
+C Type of Test:
+Quantitative, amperometric assay (Glucose Oxidase)
+K193371 - Page 1 of 30
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QLG			Class II	21 CFR 862.1355 -
+Integrated Continuous
+Glucose Monitoring
+System			CH - Clinical Chemistry
+NBW			Class II	21 CFR 862.1345 -
+Glucose test system			CH - Clinical Chemistry
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The FreeStyle Libre 2 Flash Glucose Monitoring System is a continuous glucose monitoring
+(CGM) device with real time alarms capability indicated for the management of diabetes in
+persons age 4 and older. It is intended to replace blood glucose testing for diabetes treatment
+decisions, unless otherwise indicated.
+The System also detects trends and tracks patterns and aids in the detection of episodes of
+hyperglycemia and hypoglycemia, facilitating both acute and long-term therapy adjustments.
+Interpretation of the System readings should be based on the glucose trends and several
+sequential readings over time.
+The System is also intended to autonomously communicate with digitally connected devices.
+The System can be used alone or in conjunction with these digitally connected devices where the
+user manually controls actions for therapy decisions.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+The System must not be used with automated insulin dosing (AID) systems, including closed
+loop, hybrid closed loop, and insulin suspend systems.
+Taking ascorbic acid (Vitamin C) supplements while wearing the Sensor may falsely raise
+Sensor glucose readings. Inaccurate sensor readings due to ascorbic acid interfernce may be
+clinically significant and result in harm if relied on to make treatment decisions. Taking more
+than 500 mg of ascorbic acid per day may affect the Sensor readings which could cause you to
+miss a severe low glucose event.
+The System must be removed prior to Magnetic Resonance Imaging (MRI), Computed
+Tomography (CT) scan, or high-frequency electrical heat (diathermy) treatment. The effect of
+MRI, CT scans, or diathermy on the performance of the System has not been evaluated. The
+exposure may damage the Sensor and may impact proper function of the device which could
+cause incorrect readings.
+Do not use this system if you are pregnant, on dialysis, or critically ill. The System is not cleared
+for use in these groups and it is not known how different conditions or medications common to
+these populations may affect performance of the System.
+Do not ignore symptoms that may be due to low or high blood glucose: if you are experiencing
+symptoms that are not consistent with the glucose readings, consult your health care
+professional.
+Do not use the Sysetm in people less than 4 years of age.
+K193371 - Page 2 of 30
+
+--- Page 3 ---
+Use your blood glucose meter to make diabetes treatment decisions when you see the "check
+blood glucose" symbol during the first 12 hours or wearing a Sensor. In additoin, use your blood
+glucose meter to make diabetes treatment decisions if your Sensor glucose reading does not
+match how you feel, or if the reading does not include a number.
+Wash application site on the back of your upper arm using a plain soap, dry, and then clea with
+an alcohol wipe. This will hep remove any oily residue that may prevent the sensor from sticking
+properly. Allow site to air dry before proceeding. Carefully preparing the site according to these
+instructions will help the Sensor stay on your body for the full 14-day wear period and help
+prevent it from falling off early.
+Store the Sensor Kit between 36°F and 82°F. If you suspect that the temperature may exceeed
+82°F (e.g., an un-airconditioned home in the summer), you should refridgerate your Sensor Kit.
+Do not freeze your Sensor Kit.
+You must scan the Sensor to get your real-time current glucose level as the Reader will not
+provide this information without a scan.
+The Readers's built-in meter is not for use on people who are dehydrated, hypotensive, in shock,
+or for individuals in hyperglycemic-hyperosmolar state, with or without ketosis.
+The Reader's built-in meter is not for use on neonates, in critically-ill patients, or for diagnosis or
+screening of diabetes.
+Take standard precautions for transmission of blood borne pathogens to avoid contamination.
+Use of the Sensor with devices, apps, and software that are not listed by the manufacturer as
+compatible with the System may cause inaccuracte glucose readings.
+If a Sensor breaks inside a user’s body, they should call their healthcare professional.
+D Special Instrument Requirements:
+N/A
+IV Device/System Characteristics:
+A Device Description:
+The FreeStyle Libre 2 Flash Glucose Monitoring System (hereon referred to as the ‘FreeStyle
+Libre 2 System or ‘System’) is an integrated continuous glucose monitoring system (iCGM) that
+provides continuous glucose measurements every minute to provide glucose levels, trends and
+alerts. The FreeStyle Libre 2 System consist of two primary components: a sensor which
+transmits via Bluetooth Low Energy (BLE) and a BLE enabled display device (Reader). User-
+initiated scanning provides the user with current glucose measurements (glucose values)
+accompanied by trend information (glucose arrows) and historical glucose information (glucose
+graph). The user may determine their treatment based on the glucose values provided by the
+K193371 - Page 3 of 30
+
+--- Page 4 ---
+System. The Reader does not provide glucose values, arrows, or graph information to users in the
+absence of a user-initiated action (a sensor scan). The Reader only monitors glucose values in
+real-time to provide alerts and alarms which, when enabled, warn the user of Low Glucose, High
+Glucose or Signal Loss and prompt the user to scan the Sensor.
+FreeStyle Libre 2 Sensor
+• The Sensor is single use and disposable. The Sensor is provided as two secondary
+components, Sensor Applicator and Sensor Pack (sterile device) which are used to
+assemble and apply the Sensor to the back of the user’s arm. The Sensor continuously
+measures glucose concentration in interstitial fluid and has an 8-hour memory
+capacity. The Sensor is factory calibrated, does not require fingerstick calibration and
+can be worn for up to 14 days.
+FreeStyle Libre 2 Reader
+• The Reader is a small handheld device, which uses RFID communication to start new
+sensors and to scan sensors to display and record data. It also uses BLE
+communication to issue alarms that notify the user to perform a user-initiated scan
+when glucose has passed a high or low glucose threshold. The Reader also has a built-
+in strip port with blood glucose meter functionality (that is intended to work with the
+FreeStyle Precision Neo Blood Glucose test strips, cleared under K171941), and a
+user interface which includes event logging features. Modifications to the blood
+glucose meter functionality include the addition of a BLE chip. (The modifications
+would not impact the blood glucose meter performance, therefore new performance
+data was not evaluated in this submission.)
+The FreeStyle Libre 2 System is an interoperable connected device that can communicate
+glucose readings and other information wirelessly and securely to and from interoperable
+electronic interfaces. The System is intended to be used where the user utilizes CGM information
+to manually control actions for therapy decisions. The device is also designed, and has been
+validated, to be able to provide real-time glucose information to other digitally connected devices
+that are authorized to be used in that manner. The System must not be used with automated
+insulin dosing (AID) systems, including full closed loop, hybrid closed loop, and insulin suspend
+(e.g., threshold suspend and predictive low glucose suspend) systems.
+B Principle of Operation:
+The FreeStyle Libre 2 Flash Glucose Monitoring System uses an electrochemical sensor to
+monitor glucose levels in the interstitial fluid (ISF). The sensor incorporates both the
+subcutaneously implanted sensor and associated electronics. The sensor uses a glucose oxidase
+enzyme to oxidize glucose and transfer electrons to a metal electrode, producing a current. The
+strength of the current is proportional to the amount of glucose present in the interstitial fluid.
+The FreeStyle Libre 2 System converts the electrical current signal to a glucose value (in mg/dL)
+for display on the handheld Reader.
+K193371 - Page 4 of 30
+
+--- Page 5 ---
+C Instrument Description Information:
+Modes of Operation Yes No
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Software
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.
+1. Instrument Name:
+FreeStyle Libre 2 Flash Glucose Monitoring System
+2. Specimen Identification:
+N/A
+3. Specimen Sampling and Handling:
+N/A
+4. Calibration:
+The sensor is factory calibrated and does not require calibration from the user/operator.
+5. Quality Control:
+N/A
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Dexcom G6 Continuous Glucose Monitoring System
+B Predicate 510(k) Number(s):
+DEN170088
+C Comparison with Predicate(s):
+Device & Predicate
+K193371 DEN170088
+Device(s):
+FreeStyle Libre 2 Flash Dexcom G6 Continuous
+Device Trade Name Glucose Monitoring Glucose Monitoring
+System System
+General Device
+Characteristic Similarities
+The FreeStyle Libre 2 The Dexcom G6
+Intended Use/Indications Flash Glucose Continuous Glucose
+For Use Monitoring System is a Monitoring System
+continuous glucose (Dexcom G6 System) is
+K193371 - Page 5 of 30
+
+[Table 1 on page 5]
+	Modes of Operation			Yes			No	
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?								
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?								
+	Software							
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.								
+
+[Table 2 on page 5]
+	Device & Predicate		K193371	DEN170088
+	Device(s):			
+Device Trade Name			FreeStyle Libre 2 Flash
+Glucose Monitoring
+System	Dexcom G6 Continuous
+Glucose Monitoring
+System
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			The FreeStyle Libre 2
+Flash Glucose
+Monitoring System is a
+continuous glucose	The Dexcom G6
+Continuous Glucose
+Monitoring System
+(Dexcom G6 System) is
+
+[Table 3 on page 5]
+Dexcom G6 Continuous
+Glucose Monitoring
+
+--- Page 6 ---
+monitoring (CGM) a real time, continuous
+device with real time glucose monitoring
+alarms capability device indicated for the
+indicated for the management of diabetes
+management of diabetes in persons age 2 years
+in persons age 4 and and older.
+older. It is intended to
+replace blood glucose
+The Dexcom G6
+testing for diabetes
+System is intended to
+treatment decisions,
+replace fingerstick
+unless otherwise
+blood glucose testing
+indicated.
+for diabetes treatment
+The System also detects decisions. Interpretation
+trends and tracks of the Dexcom G6
+patterns and aids in the System results should
+detection of episodes of be based on the glucose
+hyperglycemia and trends and several
+hypoglycemia, sequential readings over
+facilitating both acute time. The Dexcom G6
+and long-term therapy System also aids in the
+adjustments. detection of episodes of
+Interpretation of the hyperglycemia and
+System readings should hypoglycemia,
+be based on the glucose facilitating both acute
+trends and several and long-term therapy
+sequential readings over adjustments.
+time.
+The System is also
+The Dexcom G6
+intended to
+System is also intended
+autonomously
+to autonomously
+communicate with
+communicate with
+digitally connected
+digitally connected
+devices. The System
+devices, including
+can be used alone or in
+automated insulin
+conjunction with these
+dosing (AID) systems.
+digitally connected
+The Dexcom G6
+devices where the user
+System can be used
+manually controls
+alone or in conjunction
+actions for therapy
+with these digitally
+decisions.
+connected medical
+devices for the purpose
+of managing diabetes.
+Amperometric
+measurement of current
+Principle of Operation proportional to glucose Same
+concentration in
+interstitial fluid via
+K193371 - Page 6 of 30
+
+[Table 1 on page 6]
+	monitoring (CGM)
+device with real time
+alarms capability
+indicated for the
+management of diabetes
+in persons age 4 and
+older. It is intended to
+replace blood glucose
+testing for diabetes
+treatment decisions,
+unless otherwise
+indicated.
+The System also detects
+trends and tracks
+patterns and aids in the
+detection of episodes of
+hyperglycemia and
+hypoglycemia,
+facilitating both acute
+and long-term therapy
+adjustments.
+Interpretation of the
+System readings should
+be based on the glucose
+trends and several
+sequential readings over
+time.
+The System is also
+intended to
+autonomously
+communicate with
+digitally connected
+devices. The System
+can be used alone or in
+conjunction with these
+digitally connected
+devices where the user
+manually controls
+actions for therapy
+decisions.	a real time, continuous
+glucose monitoring
+device indicated for the
+management of diabetes
+in persons age 2 years
+and older.
+The Dexcom G6
+System is intended to
+replace fingerstick
+blood glucose testing
+for diabetes treatment
+decisions. Interpretation
+of the Dexcom G6
+System results should
+be based on the glucose
+trends and several
+sequential readings over
+time. The Dexcom G6
+System also aids in the
+detection of episodes of
+hyperglycemia and
+hypoglycemia,
+facilitating both acute
+and long-term therapy
+adjustments.
+The Dexcom G6
+System is also intended
+to autonomously
+communicate with
+digitally connected
+devices, including
+automated insulin
+dosing (AID) systems.
+The Dexcom G6
+System can be used
+alone or in conjunction
+with these digitally
+connected medical
+devices for the purpose
+of managing diabetes.
+Principle of Operation	Amperometric
+measurement of current
+proportional to glucose
+concentration in
+interstitial fluid via	Same
+
+--- Page 7 ---
+glucose oxidase
+chemical reaction
+Sample Type Interstitial fluid Same
+Enzyme Glucose Oxidase Same
+Clinical Setting/Sites of Use Home use Same
+Current glucose value,
+current glucose trend,
+Data Displayed graph with recent Same
+glucose history, user
+entered events
+General Device
+Characteristic Differences
+Factory calibrated,
+Sensor Calibration Factory calibrated optional manual
+calibration
+Can be used in
+conjunction with
+digitally connected
+medical devices where
+Can be used in
+the user manually
+conjunction with
+controls actions for
+digitally connected
+Connected devices therapy decisions.
+medical devices
+Cannot be used with
+including automated
+automated insulin
+insulin dosing systems.
+delivery systems,
+including closed loop
+and insulin suspend
+systems.
+Near Field
+Communication (NFC):
+Wireless Communication (13.56 MHz RFID) Bluetooth Core
+Protocol Specification v4.0
+Bluetooth Low Energy
+(BLE) 4.0
+Abdomen (age 2+
+Anatomical Sensor Wear
+Back of the upper arm years) or upper buttocks
+Locations
+(age 2-17 years)
+Up to 14 days Up to 10 days
+Sensor Life (automatic sensor shut (automatic sensor shut
+off) off)
+• The user’s • The user’s
+Situations where fingerstick symptoms do not symptoms do not
+is required to confirm sensor match the glucose match the glucose
+reading (adjunctive use) values displayed by values displayed by
+the device. the device.
+K193371 - Page 7 of 30
+
+[Table 1 on page 7]
+			glucose oxidase
+chemical reaction	
+Sample Type			Interstitial fluid	Same
+Enzyme			Glucose Oxidase	Same
+Clinical Setting/Sites of Use			Home use	Same
+Data Displayed			Current glucose value,
+current glucose trend,
+graph with recent
+glucose history, user
+entered events	Same
+	General Device			
+	Characteristic Differences			
+Sensor Calibration			Factory calibrated	Factory calibrated,
+optional manual
+calibration
+Connected devices			Can be used in
+conjunction with
+digitally connected
+medical devices where
+the user manually
+controls actions for
+therapy decisions.
+Cannot be used with
+automated insulin
+delivery systems,
+including closed loop
+and insulin suspend
+systems.	Can be used in
+conjunction with
+digitally connected
+medical devices
+including automated
+insulin dosing systems.
+Wireless Communication
+Protocol			Near Field
+Communication (NFC):
+(13.56 MHz RFID)
+Bluetooth Low Energy
+(BLE) 4.0	Bluetooth Core
+Specification v4.0
+Anatomical Sensor Wear
+Locations			Back of the upper arm	Abdomen (age 2+
+years) or upper buttocks
+(age 2-17 years)
+Sensor Life			Up to 14 days
+(automatic sensor shut
+off)	Up to 10 days
+(automatic sensor shut
+off)
+Situations where fingerstick
+is required to confirm sensor
+reading (adjunctive use)			• The user’s
+symptoms do not
+match the glucose
+values displayed by
+the device.	• The user’s
+symptoms do not
+match the glucose
+values displayed by
+the device.
+
+--- Page 8 ---
+• The device does not • The device does not
+show a glucose show a glucose
+value. value or trend
+• During the first 12 arrow.
+hours of wear
+during which the
+check blood glucose
+icon is displayed.
+Temperature: 36°F – Temperature: 36°F –
+82°F 86°F
+Storage Conditions (Sensor)
+Humidity: 10-90%, Humidity: 10%-90%
+noncondensing RH
+Persons with diabetes Persons with diabetes
+Intended Use Population mellitus age 4 and mellitus age 2 and
+above above
+Low Glucose alarm,
+Urgent low glucose (55
+High Glucose alarm,
+mg/dL), predictable low
+signal loss alarm, scan
+glucose, threshold low
+error, sensor error
+glucose, threshold high
+Alerts and Alarms glucose, rising rate of
+For Low and High
+glucose, falling rate of
+Glucose alarms, a user -
+glucose, signal loss,
+initiated action is
+sensor failure,
+required to see glucose
+transmitter failure.
+values
+Compatible with
+Compatible with
+digitally connected
+digitally connected
+Compatibility with devices where the user
+devices, including
+Connected Devices manually controls
+automated insulin
+actions for therapy
+dosing (AID) systems.
+decisions.
+Hardware receiver or
+Primary Display Device Reader mobile app installed on
+compatible smart device
+8 hours, 24-hour graph
+Trend Graph Glucose and other reports can be
+1, 3, 6, 12, and 24 hours
+History used to view logged
+data
+VI Standards/Guidance Documents Referenced:
+• 21 CFR 862.1355 (integrated continuous glucose monitoring system (iCGM)) special
+controls
+• ISO14971-“Medical Devices-Application of Risk Management to Medical Devices”
+K193371 - Page 8 of 30
+
+[Table 1 on page 8]
+	• The device does not
+show a glucose
+value.
+• During the first 12
+hours of wear
+during which the
+check blood glucose
+icon is displayed.	• The device does not
+show a glucose
+value or trend
+arrow.
+Storage Conditions (Sensor)	Temperature: 36°F –
+82°F
+Humidity: 10-90%,
+noncondensing	Temperature: 36°F –
+86°F
+Humidity: 10%-90%
+RH
+Intended Use Population	Persons with diabetes
+mellitus age 4 and
+above	Persons with diabetes
+mellitus age 2 and
+above
+Alerts and Alarms	Low Glucose alarm,
+High Glucose alarm,
+signal loss alarm, scan
+error, sensor error
+For Low and High
+Glucose alarms, a user -
+initiated action is
+required to see glucose
+values	Urgent low glucose (55
+mg/dL), predictable low
+glucose, threshold low
+glucose, threshold high
+glucose, rising rate of
+glucose, falling rate of
+glucose, signal loss,
+sensor failure,
+transmitter failure.
+Compatibility with
+Connected Devices	Compatible with
+digitally connected
+devices where the user
+manually controls
+actions for therapy
+decisions.	Compatible with
+digitally connected
+devices, including
+automated insulin
+dosing (AID) systems.
+Primary Display Device	Reader	Hardware receiver or
+mobile app installed on
+compatible smart device
+Trend Graph Glucose
+History	8 hours, 24-hour graph
+and other reports can be
+used to view logged
+data	1, 3, 6, 12, and 24 hours
+
+--- Page 9 ---
+• AAMI/IEC 62366-1-“Medical Devices-Application of Usability Engineering to
+Medical Devices”
+• AAMI/ANSI HE75-“Human Factors Engineering -Design of Medical Devices”
+• IEC 60601-1-“Medical Electrical Equipment -Part 1: General Requirements for Basic
+Safety and Essential Performance
+• AAMI TIR69-“Risk Management of Radio-Frequency Wireless Coexistence for
+Medical Devices and Systems”
+• EN 62304-“Medical Device Software-Software Life Cycle Processes
+• AAMI/ANSI/ISO 10993-1-“ Biological Evaluation of Medical Devices-Part 1:
+Evaluation and Testing within a Risk Management Process”
+• ISO 11137-1-“Sterilization of Health Care Products-Radiation Part 1: Requirements
+for Development, Validation and Routine Control of a Sterilization Process for
+Medical Devices”
+• ISO11137-2-“Sterilization of Health Care Products-Radiation Part 2: Establishing of
+the Sterilization Dose”
+• ISO 11607-1-“Packaging for Terminally Sterilized Medical Devices-Part 1:
+Requirements for Materials, Sterile Barrier Systems and Packaging Systems”
+• ISO 11607-2-“Packaging for Terminally Sterilized Medical Devices-Part 2:
+Validation Requirements for Forming, Sealing and Assembly Processes”
+• ASTM D4169-“Standard Practice for Performance Testing of Shipping Containers
+and System”
+• ISO 15223-1-“Medical Device-Symbols to be used with Medical Device Labels,
+Labeling and Information to be Supplied-Part 1: General Requirements
+• IEC 60417-“DB Graphical Symbols for Use on Equipment”
+• FAA AC no. 91.21-1C-“Use of Portable Electronic Devices Aboard Aircraft”
+• FCC Title 47: Part 15-“Radio Frequency Devices, Conducted Limits, Section 15.225
+and Section 15.247”
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+iCGM performance was evaluated in clinical studies described below in section C(3).
+Subjects wore two sensors concurrently, one on the back of each upper arm, to evaluate
+device precision.
+In the Adult study (18 years and older), the mean paired absolute relative difference (between
+the 2 concurrently worn devices) was 8.1%; and the mean coefficient of variation (mean
+%CV) was 5.7%.
+For pediatric age 4-5 years old, the mean paired absolute relative difference was 6.7%; and
+the mean %CV was 4.8%. For pediatric age 6-17 years, the mean paired absolute relative
+difference was 8.2%; and the mean %CV
+was 5.8%.
+K193371 - Page 9 of 30
+
+--- Page 10 ---
+Precision by subject age group:
+Subject age Coefficient Paired Paired Number of Number of
+group of Absolute Absolute Subjects Paired
+Variation Difference Relative Readings
+(%) (mg/dL) Difference
+(%)
+Adults 5.7 12.4 8.1 146 26791
+(18+)
+Pediatric 4.8 10.7 6.7 7 248
+4-5 years
+Pediatric 5.8 13.0 8.2 130 10623
+6-17 years
+2. Linearity:
+The reportable range for the FreeStyle Libre 2 System is 40 to 400 mg/dL. Data supporting
+this claimed measurement range was generated in the clinical study described in Section C(3)
+below.
+3. Analytical Specificity/Interference:
+Certain endogenous and exogenous substances in the interstitial fluid may interfere with
+iCGM measurements. The types of potential interference and the extent of bias are dependent
+on the test principle of the sensor technology. For this device, ascorbic acid (vitamin C) has
+been shown to significantly interfere with system performance.
+A clinical study was conducted to evaluate ascorbic acid interference for the FreeStyle Libre
+2 System. This was a prospective, multi-center, single-arm study that enrolled 60 subjects at
+4 sites. The study was designed to evaluate performance of the system in people with
+diabetes (age 18 and older) taking ascorbic acid. Each subject wore two sensors, one on the
+back of each upper arm, for a period of up to 10 days.
+The interference effect of ascorbic acid on the Freestyle Libre 2 System was assessed by the
+difference (mg/dL) between CGM and comparator method (CM), in this case the Yellow
+Springs Instrument Life Sciences 2300 STAT PlusTM Glucose and Lactate Analyzer, readings
+at baseline and after each ascorbic acid doses. In this study, maximum bias was observed
+approximately 2 to 3 hours after each ascorbic acid dose.
+The maximum average bias was +9.3 mg/dL after one1000 mg dose. The maximum average
+total biases were 18.4 mg/dL and 19.7 mg/dL (vs. baseline) after the second and third 1000
+mg doses (given every 4 hours), respectively. Based on the clinical study to assess vitamin C
+interference and the bench studies, the expected positive bias from a single dose of 500 mg
+ascorbic acid (vitamin C) was estimated to be approximately 4.5 mg/dL.
+The sponsor’s bench dose response studies demonstrated that ascorbic acid interference is
+proportional to ascorbic acid concentration and is independent of the background glucose
+concentration. Therefore, there is significant risk that a positive bias of 10-20 mg/dL when
+true glucose values are low (e.g., 65-70) could lead users to miss clinically important low
+K193371 - Page 10 of 30
+
+[Table 1 on page 10]
+Subject age	Coefficient	Paired	Paired	Number of	Number of
+group	of	Absolute	Absolute	Subjects	Paired
+	Variation	Difference	Relative		Readings
+	(%)	(mg/dL)	Difference		
+			(%)		
+Adults	5.7	12.4	8.1	146	26791
+(18+)					
+Pediatric	4.8	10.7	6.7	7	248
+4-5 years					
+Pediatric	5.8	13.0	8.2	130	10623
+6-17 years					
+
+--- Page 11 ---
+glucose values. This bias is also in the context of an additional positive systemic bias in the
+Sensor in the low glucose range. In the absence of high dose vitamin C supplementation,
+information in the public domain suggests that the mean vitamin C intake (dietary intake and
+low dose supplement combined) of the intended use population is less than 500 mg per day.
+However, high dose vitamin C supplements (e.g., 1000 mg per dose) are common, and may
+be taken sporadically (e.g. at times of air travel or illness). In addition, some people take high
+dose supplements more than once per day. Finally, vitamin C levels not always clearly
+understood by lay users. For example, one gram may seem smaller than 500 mg to users who
+do not completely understand the metric system.
+The Benefit/Risk Analysis completed at the time of the De Novo request for evaluation of
+automatic class III designation for the predicate device that resulted in the iCGM regulation
+states that “risks of this device include … Use of an iCGM as part of another digitally
+connected medical device system, such as an AID system, when the iCGM has inadequate
+analytical or clinical performance to support the intended use of the digitally connected device”.
+The Special Controls proposed mitigating this risk by stating that “(4) The device must
+demonstrate clinically acceptable performance in the presence of clinically relevant levels of
+potential interfering substances that are reasonably present in the intended use population,
+including but not limited to endogenous substances and metabolites, foods, dietary supplements,
+and medications.”
+iCGM systems have multiple types of uses. They are generally used to generate glucose readings
+for the management of diabetes, to send alarms as a safety feature, and provide the convenience
+of digital connection to many devices. One of the proposed uses of the Freestyle Libre 2 System
+is to replace most blood glucose readings that users would need to make treatment decisions. We
+considered that some blood glucose meters have interference from vitamin C and other
+compounds, and labeling language has been frequently used to mitigate those risks. Labeling in
+the case of certain interferences for blood glucose meters is adequate mitigation because the user
+evaluates each reading prior to using it to make a treatment decision to determine whether it
+matches the way they feel and their current activities/actions. We determined that when the
+Freestyle Libre 2 system is for a use similar to a blood glucose meter, where users make
+decisions themselves for each reading, labeling is also adequate to mitigate the risks of this high
+bias due to vitamin C. For example, if a user sees sensor readings that look incorrect to them,
+they may realize that they took vitamin C, or take a blood glucose reading, and take safe action to
+adjust their response to the sensor readings.
+The following statements have been placed in the device labeling to inform users of the risk
+of falsely high glucose results when taking vitamin C containing supplements:
+• User Manual Warning: Taking ascorbic acid (vitamin C) supplements while wearing
+the Sensor may falsely raise Sensor glucose readings. Taking more than 500 mg of
+ascorbic acid per day may affect the Sensor readings which could cause you to miss a
+severe low glucose event. Ascorbic acid can be found in supplements including
+multivitamins. Some supplements, including cold remedies such as Airborne® and
+Emergen-C®, may contain high doses of 1000 mg of ascorbic acid and should not be
+taken while using the Sensor. See your healthcare professional to understand how
+long ascorbic acid is active in your body.
+• Reader Screen Warning: Do not take high doses of vitamin C (more than 500 mg per
+day). This may falsely raise your Sensor readings. Supplements like Airborne or
+K193371 - Page 11 of 30
+
+--- Page 12 ---
+Emergen-C have high doses of vitamin C. Read labeling for all supplements to
+determine vitamin C content.
+However, when values from the Freestyle Libre 2 system are used automatically by an AID
+system to start or stop insulin or other medications, the user has less opportunity to recognize the
+interference prior to erroneous treatment. The risks introduced by this interference when used
+with an AID system are greater than for similar iCGM devices, yet the benefits are largely equal.
+Therefore, the benefits do not outweigh the risks for that use. Thus, the Freestyle Libre 2 system
+must not be used with AID systems.
+4. Assay Reportable Range:
+The reportable range for the FreeStyle Libre 2 System is 40 to 400 mg/dL. Data supporting
+this claimed measurement range was generated in the clinical study described in Section C(3)
+below.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+The FreeStyle Libre 2 sensor has a storage shelf-life of 9 months. Shelf-life was evaluated at
+36° –82° Fahrenheit within the humidity range of 10% - 90%.
+6. Detection Limit:
+If a glucose measurement is less than 40 mg/dL, the result will be displayed by the system as
+‘LO’. If the glucose measurement exceeds 400 mg/dL, the result will be displayed as ‘HI’.
+Data supporting this claimed measurement range was generated in the clinical study
+described in Section C(3) below.
+7. Assay Cut-Off:
+Not applicable.
+8. Accuracy (Instrument):
+Not applicable.
+9. Carry-Over:
+Not applicable.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Not applicable. Accuracy is determined by comparing device values to an FDA cleared
+laboratory grade glucose measurement method.
+2. Matrix Comparison:
+Not applicable. Interstitial fluid is the only indicated matrix.
+C Clinical Studies:
+1. Clinical Sensitivity:
+Not applicable.
+K193371 - Page 12 of 30
+
+--- Page 13 ---
+2. Clinical Specificity:
+See Section A(3), Analytical Specificity/Interference, above.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Study Name Patient Population Study Objective
+FreeStyle Libre Flash Pivotal study to evaluate
+18 + years of age
+Glucose Monitoring safety and effectiveness of
+Type 1 or Type 2 Diabetes
+System Accuracy Study the FreeStyle Libre Flash
+Glucose Monitoring System
+(Study 1) in comparison to laboratory
+glucose reference.
+Effectiveness and Safety
+4 – 17 years of age Pivotal study to evaluate
+Study of the FreeStyle Libre
+Type 1 or Type 2 Diabetes safety and effectiveness of
+Flash Glucose Monitoring
+the FreeStyle Libre Flash
+System in Pediatric
+Glucose Monitoring System
+Populations
+in pediatric populations in
+comparison to laboratory
+(Study 2)
+glucose reference.
+To demonstrate the accuracy performance of the FreeStyle Libre 2 Flash Glucose Monitoring
+System, two prospective clinical studies were conducted in the United States at five and four
+centers, respectively.
+Study 1 enrolled 146 adult subjects with diabetes (91.1% with Type 1 diabetes and 8.9% with
+insulin-requiring Type 2 diabetes). Subjects wore 2 sensors for up to 14 days but accuracy
+analysis is based on the first applied sensor to each subject only. Subjects took part in up to
+three ten-hour clinical sessions that took place during four distinct periods: Days 1-3; Days 7-
+8; Days 9-12, and Days 13-14. During each clinic session, each subject’s glucose was
+manipulated to observe data spanning the measuring range.
+Study 2 enrolled 139 pediatric subjects with diabetes (98.6% with Type 1 diabetes and 1.4%
+with insulin-requiring Type 2 diabetes). Subjects wore 2 sensors for up to 14 days and
+accuracy analysis is based on the first applied sensor to each subject only. Subjects age six
+and older took part in one or two eight-hour clinical sessions. Self-monitoring blood glucose
+meter (SMBG) was used as the comparator method for subjects 4-5 years of age. Clinic
+sessions for each subject took place during four distinct periods: Days 1-2; Days 7-8; Days 9-
+12, and Days 13-. During each clinic session, glucose levels were manipulated in Subjects 11
+years and older to observe data spanning the measuring range. Subjects 10 years and younger
+underwent observation only without glucose manipulation.
+In both studies, accuracy of the FreeStyle Libre 2 Flash Glucose Monitoring System was
+evaluated by comparing iCGM glucose values to an FDA-cleared laboratory grade
+comparator method (YSI 2300) for subjects 6 years and older, and to SMBG in subjects 4-5
+years old.
+K193371 - Page 13 of 30
+
+[Table 1 on page 13]
+Study Name	Patient Population	Study Objective
+		
+FreeStyle Libre Flash
+Glucose Monitoring
+System Accuracy Study
+(Study 1)	18 + years of age
+Type 1 or Type 2 Diabetes	Pivotal study to evaluate
+safety and effectiveness of
+the FreeStyle Libre Flash
+Glucose Monitoring System
+in comparison to laboratory
+glucose reference.
+Effectiveness and Safety
+Study of the FreeStyle Libre
+Flash Glucose Monitoring
+System in Pediatric
+Populations
+(Study 2)	4 – 17 years of age
+Type 1 or Type 2 Diabetes	Pivotal study to evaluate
+safety and effectiveness of
+the FreeStyle Libre Flash
+Glucose Monitoring System
+in pediatric populations in
+comparison to laboratory
+glucose reference.
+
+--- Page 14 ---
+Glucose values were obtained from the system and from the comparator at the same or
+similar time. In both studies, absolute differences in mg/dL of values compared to the
+comparator method were calculated for all values below 70 mg/dL. For values of 70 mg/dL
+and above, percentage differences compared to the comparator method were calculated.
+Data from the two clinical studies are presented in the tables below.
+Percent and Point Accuracy by iCGM Glucose Range (Adults)
+Percent Percent Percent Percent Mean Bias,
+iCGM within within within 15% within 40% mg/dL
+No.
+Glucose Pair 15 mg/dL 40 mg/dL (95% LCL) (95% LCL) (95%
+(95% LCL*) (95% LCL)
+Range UCL*)
+(mg/dL)
+<70 3530 89.0 (86.7) 99.4 (99.1) -2.9 (-1.9)
+70-180 7785 75.9 (73.1) 99.6 (99.4) -5.8 (-4.1)
+>180 7420 91.5 (89.4) 100.0 (99.9) -6.5 (-4.1)
+*95% LCL is the lower bound of the 95% confidence limit and 95% UCL is the upper bound of the 95%
+confidence limit
+Percent and Point Accuracy by iCGM Glucose Range (Pediatric*)
+Percent Percent Percent Percent Mean Bias,
+iCGM No. within within within 15% within 40% mg/dL
+Glucose Pairs 15 mg/dL 40 mg/dL (95% LCL) (95% LCL) (95% UCL)
+(95% LCL) (95% LCL)
+Range
+(mg/dL)
+<70 1002 82.7 (77.2) 98.6 (97.5) -6.3 (-4.0)
+70-180 2690 78.0 (74.8) 99.3 (98.9) -3.8 (-1.7)
+>180 2854 87.3 (84.4) 99.7 (99.5) -1.4 (1.8)
+*Includes children 6-17 years of age. No Comparator measurements were obtained for
+children 4-5 years of age.
+Percent and Point Accuracy by Comparator Glucose Range (Adult)
+Percent within Percent Percent Percent Mean Bias,
+CM 15 mg/dL within within 15% within 40% mg/dL
+Glucose P N a o ir . (95% LCL) 40 mg/dL (95% LCL) (95% LCL) (95% UCL)
+Range (95% LCL)
+(mg/dL)
+<70 3468 95.3 (93.9) 100.0 (100.0) 1.5 (2.4)
+70-180 7504 76.5 (73.8) 99.6 (99.4) -4.8 (-3.5)
+>180 7763 88.9 (86.3) 99.9 (99.8) -8.7 (-6.3)
+K193371 - Page 14 of 30
+
+[Table 1 on page 14]
+		Percent	Percent	Percent	Percent	Mean Bias,
+iCGM	No.	within	within	within 15%	within 40%	mg/dL
+Glucose		15 mg/dL	40 mg/dL	(95% LCL)	(95% LCL)	(95%
+	Pair					
+Range		(95% LCL*)	(95% LCL)			UCL*)
+						
+(mg/dL)						
+<70	3530	89.0 (86.7)	99.4 (99.1)			-2.9 (-1.9)
+						
+70-180	7785			75.9 (73.1)	99.6 (99.4)	-5.8 (-4.1)
+						
+>180	7420			91.5 (89.4)	100.0 (99.9)	-6.5 (-4.1)
+						
+
+[Table 2 on page 14]
+		Percent	Percent	Percent	Percent	Mean Bias,
+iCGM	No.	within	within	within 15%	within 40%	mg/dL
+Glucose	Pairs	15 mg/dL	40 mg/dL	(95% LCL)	(95% LCL)	(95% UCL)
+Range		(95% LCL)	(95% LCL)			
+						
+(mg/dL)						
+<70	1002	82.7 (77.2)	98.6 (97.5)			-6.3 (-4.0)
+						
+70-180	2690			78.0 (74.8)	99.3 (98.9)	-3.8 (-1.7)
+						
+>180	2854			87.3 (84.4)	99.7 (99.5)	-1.4 (1.8)
+						
+
+[Table 3 on page 14]
+		Percent within	Percent	Percent	Percent	Mean Bias,
+CM	No.	15 mg/dL	within	within 15%	within 40%	mg/dL
+Glucose		(95% LCL)	40 mg/dL	(95% LCL)	(95% LCL)	(95% UCL)
+Range	Pair		(95% LCL)			
+(mg/dL)						
+<70	3468	95.3 (93.9)	100.0 (100.0)			1.5 (2.4)
+						
+70-180	7504			76.5 (73.8)	99.6 (99.4)	-4.8 (-3.5)
+						
+>180	7763			88.9 (86.3)	99.9 (99.8)	-8.7 (-6.3)
+						
+
+--- Page 15 ---
+Percent and Point Accuracy by Comparator Glucose Range (Pediatric*)
+Percent Percent Percent Percent Mean Bias,
+CM No. within within within 15% within mg/dL (95%
+Glucose Pairs 15 mg/dL 40 mg/dL (95% LCL) 40% (95% UCL)
+Range (95% LCL) (95% LCL) LCL)
+(mg/dL)
+<70 882 94.9 (92.1) 100.0 (100.0) 2.1 (3.3)
+70-180 2743 75.6 (72.2) 99.0 (98.5) -2.2 (-0.5)
+>180 2921 87.7 (84.9) 99.1 (97.9) -4.3 (-0.8)
+*Includes children 6-17 years of age. No comparator measurements were obtained for
+children 4-5 years of age
+Percent of iCGM values within 20% of Comparator Glucose Values
+Percent
+iCGM
+No. Pairs No. Subject within 20%
+Glucose
+(95% LCL)
+Range
+(mg/dL)
+Adult (18
+18735 144 90.2 (88.7)
+years and up)
+Pediatric (6-
+6546 129 90.3 (88.1)
+17 years)
+Pediatric (4-
+341 8 85.4 (80.3)
+5 years old)*
+* Subjects 4-5 years old were compared to an SMBG meter
+Percent values within 15%/15 mg/dL, 20%/20 mg/dL and 40%/40 mg/dL stratified by
+glucose ranges of <54, 54-69, 70-180. 181-250 and >250 mg/dL for iCGM and laboratory
+comparator were also provided. For pediatric subjects ages 4-5, values were compared to
+SMBG.
+Accuracy to Comparator within iCGM Glucose Ranges (Adult)
+CGM Number Percent Percent Percent Percent Percent Percent Mean
+(MARD*)
+Glucose of CGM- Within Within Within Within Within Within bias
+Level Reference ±15 ±20 ±40 ±15% ±20% ±40% (mg/dL) (%)
+mg/dL mg/dL mg/dL
+(mg/dL) Pairs
+<54 518 85.9 93.8 99.4 -6.4 13.8
+54-69 3012 89.5 94.2 99.1 -3.3 10.8
+70-180 7785 76.5 86.6 99.2 -4.8 10.6
+181- 3037 89.1 95.0 99.9 -10.1 7.8
+250
+>250 4383 94.0 97.9 100.0 -6.3 6.1
+*Mean Absolute Relative Difference
+K193371 - Page 15 of 30
+
+[Table 1 on page 15]
+		Percent	Percent	Percent	Percent	Mean Bias,
+CM	No.	within	within	within 15%	within	mg/dL (95%
+Glucose	Pairs	15 mg/dL	40 mg/dL	(95% LCL)	40% (95%	UCL)
+Range		(95% LCL)	(95% LCL)		LCL)	
+(mg/dL)						
+<70	882	94.9 (92.1)	100.0 (100.0)			2.1 (3.3)
+						
+70-180	2743			75.6 (72.2)	99.0 (98.5)	-2.2 (-0.5)
+						
+>180	2921			87.7 (84.9)	99.1 (97.9)	-4.3 (-0.8)
+						
+
+[Table 2 on page 15]
+iCGM			Percent
+	No. Pairs	No. Subject	within 20%
+Glucose			
+			(95% LCL)
+Range			
+			
+(mg/dL)			
+Adult (18	18735	144	90.2 (88.7)
+years and up)			
+Pediatric (6-	6546	129	90.3 (88.1)
+17 years)			
+Pediatric (4-	341	8	85.4 (80.3)
+5 years old)*			
+
+[Table 3 on page 15]
+									
+CGM	Number	Percent	Percent	Percent	Percent	Percent	Percent	Mean	(MARD*)
+Glucose	of CGM-	Within	Within	Within	Within	Within	Within	bias	
+Level	Reference	±15	±20	±40	±15%	±20%	±40%	(mg/dL)	(%)
+(mg/dL)	Pairs	mg/dL	mg/dL	mg/dL					
+									
+<54	518	85.9	93.8	99.4				-6.4	13.8
+									
+54-69	3012	89.5	94.2	99.1				-3.3	10.8
+									
+70-180	7785				76.5	86.6	99.2	-4.8	10.6
+									
+181-	3037				89.1	95.0	99.9	-10.1	7.8
+									
+250									
+>250	4383				94.0	97.9	100.0	-6.3	6.1
+									
+
+--- Page 16 ---
+Accuracy to Comparator within iCGM Glucose Ranges (Pediatric)
+CGM Number Percent Percent Percent Percent Percent Percent Mean
+MARD
+Glucose of CGM- Within Within Within Within Within Within bias
+Level Reference ±15 ±20 ±40 ±15% ±20% ±40% (mg/dL) (%)
+mg/dL mg/dL mg/dL
+(mg/dL) Pairs
+<54 139 71.9 79.1 97.1 -9.9 17.1
+54-69 863 86.4 90.5 97.1 -4.9 12.0
+70- 2690 77.4 87.6 98.7 -3.4 10.6
+180
+181- 1236 86.0 94.7 99.7 -8.9 8.3
+250
+>250 1618 92.2 97.7 99.8 -2.2 7.2
+Accuracy to Comparator within Comparator Glucose Ranges (Adult)
+CM Number Percent Percent Percent Percent Percent Percent Mean
+MARD
+Glucose of CGM- Within Within Within Within Within Within bias
+Level Reference ±15 ±20 ±40 ±15% ±20% ±40% (mg/dL) (%)
+mg/dL mg/dL mg/dL
+(mg/dL) Pairs
+<54 440 91.1 97.5 100.0 7.4 15.5
+54-69 3028 94.7 98.6 100.0 1.5 10.2
+70-180 7504 77.5 86.9 99.4 -4.8 10.4
+181- 2937 87.9 93.7 99.7 -8.0 8.0
+250
+>250 4826 90.9 95.9 99.7 -11.8 6.9
+Accuracy to Comparator within Comparator Glucose Ranges (Pediatric)
+CM Number Percent Percent Percent Percent Percent Percent Mean
+MARD
+Glucose of CGM- Within Within Within Within Within Within bias
+Level Reference ±15 ±20 ±40 ±15% ±20% ±40% (mg/dL) (%)
+mg/dL mg/dL mg/dL
+(mg/dL) Pairs
+<54 131 93.9 98.5 100.0 6.6 14.2
+54-69 751 96.5 98.8 100.0 1.0 9.3
+70- 2743 74.3 84.8 98.0 -3.0 11.4
+180
+181- 1104 86.6 92.9 99.0 -3.9 8.4
+250
+>250 1817 90.2 97.5 99.9 -10.2 7.6
+K193371 - Page 16 of 30
+
+[Table 1 on page 16]
+									
+CGM	Number	Percent	Percent	Percent	Percent	Percent	Percent	Mean	MARD
+Glucose	of CGM-	Within	Within	Within	Within	Within	Within	bias	
+Level	Reference	±15	±20	±40	±15%	±20%	±40%	(mg/dL)	(%)
+(mg/dL)	Pairs	mg/dL	mg/dL	mg/dL					
+									
+<54	139	71.9	79.1	97.1				-9.9	17.1
+									
+54-69	863	86.4	90.5	97.1				-4.9	12.0
+									
+70-	2690				77.4	87.6	98.7	-3.4	10.6
+									
+180									
+181-	1236				86.0	94.7	99.7	-8.9	8.3
+									
+250									
+>250	1618				92.2	97.7	99.8	-2.2	7.2
+									
+
+[Table 2 on page 16]
+									
+CM	Number	Percent	Percent	Percent	Percent	Percent	Percent	Mean	MARD
+Glucose	of CGM-	Within	Within	Within	Within	Within	Within	bias	
+Level	Reference	±15	±20	±40	±15%	±20%	±40%	(mg/dL)	(%)
+(mg/dL)	Pairs	mg/dL	mg/dL	mg/dL					
+									
+<54	440	91.1	97.5	100.0				7.4	15.5
+									
+54-69	3028	94.7	98.6	100.0				1.5	10.2
+									
+70-180	7504				77.5	86.9	99.4	-4.8	10.4
+									
+181-	2937				87.9	93.7	99.7	-8.0	8.0
+									
+250									
+>250	4826				90.9	95.9	99.7	-11.8	6.9
+									
+
+[Table 3 on page 16]
+									
+CM	Number	Percent	Percent	Percent	Percent	Percent	Percent	Mean	MARD
+Glucose	of CGM-	Within	Within	Within	Within	Within	Within	bias	
+Level	Reference	±15	±20	±40	±15%	±20%	±40%	(mg/dL)	(%)
+(mg/dL)	Pairs	mg/dL	mg/dL	mg/dL					
+									
+<54	131	93.9	98.5	100.0				6.6	14.2
+									
+54-69	751	96.5	98.8	100.0				1.0	9.3
+									
+70-	2743				74.3	84.8	98.0	-3.0	11.4
+									
+180									
+181-	1104				86.6	92.9	99.0	-3.9	8.4
+									
+250									
+>250	1817				90.2	97.5	99.9	-10.2	7.6
+									
+
+--- Page 17 ---
+Concurrence of iCGM values compared to the comparator method across the entire
+measuring range was also evaluated. iCGM glucose ranges of <40, 40-60, 61-80, 81-120,
+121-160, 161-200, 201-250, 251-300, 351-400 and >400 mg/dL were evaluated against the
+comparator glucose ranges and percent of iCGM values within those ranges were reported.
+Concurrence Analysis by iCGM Glucose Level (Adult)
+CM(mg/d
+CGM L) N
+(mg/dL) 40- 61- 81- 121- 161- 201- 251- 301- 351-
+<40 60 80 120 160 200 250 300 350 400 >400
+<40 20.0 20.0 40.0 20.0 . . . . . . . 5
+40-60 0.4 52.9 43.3 3.3 . 0.1 . . . . . 1889
+61-80 . 18.9 62.7 18.1 0.4 0.0 . . . . . 3090
+81-120 . 0.2 11.0 70.1 17.8 0.8 0.1 . . . . 3040
+121-160 . . 0.1 9.1 69.9 18.9 1.6 0.3 0.2 . . 2407
+161-200 . . . . 10.6 60.6 26.9 1.6 0.3 . . 1745
+201-250 . . . . . 7.0 65.5 25.6 1.9 0.1 . 2181
+251-300 . . . . . 0.1 8.4 66.9 22.7 1.8 0.1 2327
+301-350 . . . . . . 0.4 13.6 68.8 16.0 1.2 1522
+351-400 . . . . . . . 0.6 27.5 63.3 8.6 534
+>400 . . . . . . . . 2.5 62.8 34.7 121
+Concurrence Analysis by iCGM Glucose Level (Pediatric)
+CM(mg/d
+CGM L) N
+(mg/dL) 40- 61- 81- 121- 161- 201- 251- 301- 351-
+<40 60 80 120 160 200 250 300 350 400 >400
+<40 . 50.0 50.0 . . . . . . . . 2
+40-60 0.6 48.6 42.5 7.8 0.6 . . . . . . 527
+61-80 . 12.1 61.9 24.3 1.7 . . . . . . 915
+81-120 . 0.2 11.2 69.0 18.2 1.3 0.1 . . . . 1006
+121-160 . . . 11.4 71.0 15.8 1.8 . . . . 868
+161-200 . . . 0.1 18.2 61.3 20.1 0.3 . . . 703
+201-250 . . . . 0.2 9.6 55.3 33.6 1.2 0.1 . 909
+251-300 . . . . . 0.1 14.1 60.8 23.7 1.3 . 818
+301-350 . . . . . . 0.3 24.8 58.2 16.5 0.2 593
+351-400 . . . . . 1.0 . 0.5 33.8 59.4 5.3 207
+>400 . . . . . . . 4.4 6.7 33.3 55.6 45
+K193371 - Page 17 of 30
+
+[Table 1 on page 17]
+	CM(mg/d											
+CGM	L)											N
+(mg/dL)		40-	61-	81-	121-	161-	201-	251-	301-	351-		
+	<40	60	80	120	160	200	250	300	350	400	>400	
+<40	20.0	20.0	40.0	20.0	.	.	.	.	.	.	.	5
+40-60	0.4	52.9	43.3	3.3	.	0.1	.	.	.	.	.	1889
+61-80	.	18.9	62.7	18.1	0.4	0.0	.	.	.	.	.	3090
+81-120	.	0.2	11.0	70.1	17.8	0.8	0.1	.	.	.	.	3040
+121-160	.	.	0.1	9.1	69.9	18.9	1.6	0.3	0.2	.	.	2407
+161-200	.	.	.	.	10.6	60.6	26.9	1.6	0.3	.	.	1745
+201-250	.	.	.	.	.	7.0	65.5	25.6	1.9	0.1	.	2181
+251-300	.	.	.	.	.	0.1	8.4	66.9	22.7	1.8	0.1	2327
+301-350	.	.	.	.	.	.	0.4	13.6	68.8	16.0	1.2	1522
+351-400	.	.	.	.	.	.	.	0.6	27.5	63.3	8.6	534
+>400	.	.	.	.	.	.	.	.	2.5	62.8	34.7	121
+
+[Table 2 on page 17]
+	CM(mg/d											
+CGM	L)											N
+(mg/dL)		40-	61-	81-	121-	161-	201-	251-	301-	351-		
+	<40	60	80	120	160	200	250	300	350	400	>400	
+<40	.	50.0	50.0	.	.	.	.	.	.	.	.	2
+40-60	0.6	48.6	42.5	7.8	0.6	.	.	.	.	.	.	527
+61-80	.	12.1	61.9	24.3	1.7	.	.	.	.	.	.	915
+81-120	.	0.2	11.2	69.0	18.2	1.3	0.1	.	.	.	.	1006
+121-160	.	.	.	11.4	71.0	15.8	1.8	.	.	.	.	868
+161-200	.	.	.	0.1	18.2	61.3	20.1	0.3	.	.	.	703
+201-250	.	.	.	.	0.2	9.6	55.3	33.6	1.2	0.1	.	909
+251-300	.	.	.	.	.	0.1	14.1	60.8	23.7	1.3	.	818
+301-350	.	.	.	.	.	.	0.3	24.8	58.2	16.5	0.2	593
+351-400	.	.	.	.	.	1.0	.	0.5	33.8	59.4	5.3	207
+>400	.	.	.	.	.	.	.	4.4	6.7	33.3	55.6	45
+
+--- Page 18 ---
+Concurrence Analysis by Comparator Glucose Level (Adult)
+CGM
+CM (mg/dL) N
+(mg/dL) 40- 61- 81- 121- 161- 201- 251- 301- 351-
+<40 60 80 120 160 200 250 300 350 400 >400
+<40 12.5 87.5 . . . . . . . . . 8
+40-60 0.1 62.9 36.6 0.4 . . . . . . . 1591
+61-80 0.1 26.4 62.6 10.8 0.1 . . . . . . 3093
+81-120 0.0 2.1 18.8 71.7 7.3 . . . . . . 2971
+121-160 . . 0.5 22.3 69.6 7.7 . . . . . 2418
+161-200 . 0.1 0.1 1.5 26.9 62.5 9.0 0.1 . . . 1694
+201-250 . . . 0.1 1.8 21.9 66.8 9.1 0.3 . . 2139
+251-300 . . . . 0.3 1.2 23.7 66.0 8.8 0.1 . 2359
+301-350 . . . . 0.3 0.3 2.3 29.8 58.9 8.3 0.2 1777
+351-400 . . . . . . 0.3 6.1 34.7 48.1 10.8 703
+>400 . . . . . . . 1.9 16.7 42.6 38.9 108
+Concurrence Analysis by Comparator Glucose Level (Pediatric)
+CGM
+CM (mg/dL) N
+(mg/dL) 40- 61- 81- 121- 161- 201- 251- 301- 351-
+<40 60 80 120 160 200 250 300 350 400 >400
+. 100. . . . . . . . . . 3
+0
+<40
+40-60 0.3 69.2 30.0 0.5 . . . . . . . 370
+61-80 0.1 24.8 62.6 12.5 . . . . . . . 904
+81-120 . 3.9 21.0 65.7 9.4 0.1 . . . . . 1057
+121-160 . 0.3 1.7 19.3 65.0 13.5 0.2 . . . . 948
+161-200 . . . 1.9 20.4 64.2 13.0 0.1 . 0.3 . 671
+201-250 . . . 0.1 2.1 18.1 64.7 14.8 0.3 . . 778
+251-300 . . . . . 0.2 32.0 52.1 15.4 0.1 0.2 954
+301-350 . . . . . . 1.8 31.1 55.4 11.2 0.5 623
+351-400 . . . . . . 0.4 4.4 39.5 49.6 6.0 248
+>400 . . . . . . . . 2.7 29.7 67.6 37
+Trend Accuracy
+Trend accuracy describes the accuracy of the sensor during times of rapidly changing glucose
+and is characterized by slopes, such as from > 2mg/dL/min to <-2 mg/dL/min. Trend
+accuracy was assessed by the concurrence rate of the glucose rate of change from the iCGM
+and the corresponding comparator values for each iCGM-comparator measurement pair.
+K193371 - Page 18 of 30
+
+[Table 1 on page 18]
+	CGM											
+CM	(mg/dL)											N
+(mg/dL)		40-	61-	81-	121-	161-	201-	251-	301-	351-		
+	<40	60	80	120	160	200	250	300	350	400	>400	
+<40	12.5	87.5	.	.	.	.	.	.	.	.	.	8
+40-60	0.1	62.9	36.6	0.4	.	.	.	.	.	.	.	1591
+61-80	0.1	26.4	62.6	10.8	0.1	.	.	.	.	.	.	3093
+81-120	0.0	2.1	18.8	71.7	7.3	.	.	.	.	.	.	2971
+121-160	.	.	0.5	22.3	69.6	7.7	.	.	.	.	.	2418
+161-200	.	0.1	0.1	1.5	26.9	62.5	9.0	0.1	.	.	.	1694
+201-250	.	.	.	0.1	1.8	21.9	66.8	9.1	0.3	.	.	2139
+251-300	.	.	.	.	0.3	1.2	23.7	66.0	8.8	0.1	.	2359
+301-350	.	.	.	.	0.3	0.3	2.3	29.8	58.9	8.3	0.2	1777
+351-400	.	.	.	.	.	.	0.3	6.1	34.7	48.1	10.8	703
+>400	.	.	.	.	.	.	.	1.9	16.7	42.6	38.9	108
+
+[Table 2 on page 18]
+	CGM											
+CM	(mg/dL)											N
+(mg/dL)		40-	61-	81-	121-	161-	201-	251-	301-	351-		
+	<40	60	80	120	160	200	250	300	350	400	>400	
+	.	100.
+0	.	.	.	.	.	.	.	.	.	3
+<40												
+40-60	0.3	69.2	30.0	0.5	.	.	.	.	.	.	.	370
+61-80	0.1	24.8	62.6	12.5	.	.	.	.	.	.	.	904
+81-120	.	3.9	21.0	65.7	9.4	0.1	.	.	.	.	.	1057
+121-160	.	0.3	1.7	19.3	65.0	13.5	0.2	.	.	.	.	948
+161-200	.	.	.	1.9	20.4	64.2	13.0	0.1	.	0.3	.	671
+201-250	.	.	.	0.1	2.1	18.1	64.7	14.8	0.3	.	.	778
+251-300	.	.	.	.	.	0.2	32.0	52.1	15.4	0.1	0.2	954
+301-350	.	.	.	.	.	.	1.8	31.1	55.4	11.2	0.5	623
+351-400	.	.	.	.	.	.	0.4	4.4	39.5	49.6	6.0	248
+>400	.	.	.	.	.	.	.	.	2.7	29.7	67.6	37
+
+--- Page 19 ---
+Concurrence Analysis by Glucose Rate of Change (Adult)
+CM Rate
+CGM Rate
+Range
+N
+Range (mg/dL/min)
+(mg/dL/min)
+<-2 [-2, -1) [-1, 0) [0, 1] (1, 2] >2
+<-2 34.4 44.9 18.3 2.2 0.3 . 323
+[-2, -1) 6.8 46.6 41.2 4.0 0.9 0.5 1090
+[-1, 0) 1.2 8.3 67.1 19.7 2.6 1.2 9389
+[0, 1] 0.9 3.4 26.0 46.9 15.5 7.3 5420
+(1, 2] 0.1 1.7 7.7 31.6 38.4 20.5 1151
+>2 0.2 0.2 3.1 14.6 32.9 49.0 881
+Concurrence Analysis by Glucose Rate of Change (Pediatric*)
+CM Rate
+CGM Rate
+Range N
+Range
+(mg/dL/min)
+(mg/dL/min)
+<-2 [-2, -1) [-1, 0) [0, 1] (1, 2] >2
+<-2 44.1 44.7 8.8 2.4 . . 170
+[-2, -1) 11.4 49.5 32.8 5.2 0.4 0.6 463
+[-1, 0) 2.1 11.2 60.0 20.8 3.9 1.9 2587
+[0, 1] 1.4 5.6 25.2 43.2 14.8 9.7 2095
+(1, 2] 0.2 2.6 10.4 29.7 35.5 21.5 498
+>2 . 0.9 4.2 15.0 29.7 50.2 448
+*includes children 6-17 years of age. No CM measurements were obtained for children 4-5
+years of age
+Agreement When iCGM Reads ‘LO’ or ‘HI’
+The FreeStyle Libre 2 Glucose Monitoring System reports glucose readings between 40 and
+400 mg/dL. When the system determines that the glucose reading is below 40 mg/dL, it will
+display ‘LO’ whenever the sensor is scanned. When the system determines that the glucose
+reading is above 400 mg/dL, it will display ‘HI’ whenever the sensor is scanned. Because the
+system does not display glucose values below 40 mg/dL or above 400 mg/dL, the
+comparisons to the actual blood glucose levels (as determined by the comparator) when the
+iCGM value is classified as ‘LO’ or ‘HI’ are evaluated separately. The cumulative
+percentages of when the comparator values were less than certain glucose values (for ‘LO’)
+and when comparator values were more that certain glucose values (for ‘HI’) are presented in
+the tables below.
+Concurrence Analysis with ‘LO’ CGM Reading (Adult)
+CGM- Comparator (mg/dL)
+Reference
+<50 <60 <70 <80 ≥ N
+Pairs
+80
+n 1 2 2 4 1 5
+Cumulative
+20.0 40.0 40.0 80.0 20.0
+%
+K193371 - Page 19 of 30
+
+[Table 1 on page 19]
+CGM Rate	CM Rate						
+	Range						N
+Range							
+	(mg/dL/min)						
+							
+(mg/dL/min)	<-2	[-2, -1)	[-1, 0)	[0, 1]	(1, 2]	>2	
+							
+<-2	34.4	44.9	18.3	2.2	0.3	.	323
+							
+[-2, -1)	6.8	46.6	41.2	4.0	0.9	0.5	1090
+							
+[-1, 0)	1.2	8.3	67.1	19.7	2.6	1.2	9389
+[0, 1]	0.9	3.4	26.0	46.9	15.5	7.3	5420
+							
+(1, 2]	0.1	1.7	7.7	31.6	38.4	20.5	1151
+							
+>2	0.2	0.2	3.1	14.6	32.9	49.0	881
+
+[Table 2 on page 19]
+CGM Rate	CM Rate						
+	Range						N
+Range							
+	(mg/dL/min)						
+(mg/dL/min)							
+	<-2	[-2, -1)	[-1, 0)	[0, 1]	(1, 2]	>2	
+							
+<-2	44.1	44.7	8.8	2.4	.	.	170
+							
+[-2, -1)	11.4	49.5	32.8	5.2	0.4	0.6	463
+[-1, 0)	2.1	11.2	60.0	20.8	3.9	1.9	2587
+[0, 1]	1.4	5.6	25.2	43.2	14.8	9.7	2095
+							
+(1, 2]	0.2	2.6	10.4	29.7	35.5	21.5	498
+>2	.	0.9	4.2	15.0	29.7	50.2	448
+
+[Table 3 on page 19]
+CGM-	Comparator (mg/dL)					
+Reference	<50	<60	<70	<80	≥	N
+Pairs						
+						
+					80	
+						
+n	1	2	2	4	1	5
+Cumulative	20.0	40.0	40.0	80.0	20.0	
+%						
+
+--- Page 20 ---
+Concurrence Analysis with ‘LO’ CGM Reading (Pediatric*)
+CGM- Comparator (mg/dL)
+Reference N
+<50 <60 <70 <80 ≥ 80
+Pairs
+n 0 1 2 2 0 2
+Cumulative
+0.0 50.0 100.0 100.0 0.0
+%
+*includes children 6-17 years of age. No CM measurements were obtained for children 4-5
+years of age
+Concurrence Analysis with ‘HI’ CGM Reading (Adult)
+CGM- Comparator (mg/dL)
+Reference N
+>35 >300 >250 >250
+Pairs
+0
+n 118 121 121 0 121
+Cumulativ
+97.5 100.0 100.0 0.0
+e
+%
+Concurrence Analysis with ‘HI’ CGM Reading (Pediatric*)
+CGM- Comparator (mg/dL)
+Reference N
+>35 >30 >250 >250
+Pairs
+0 0
+n 40 43 45 0 45
+Cumulative
+88.9 95.6 100.0 0.0
+%
+*includes children 6-17 years of age. No CM measurements were obtained for children 4-5
+years of age
+Alarm Performance
+The tables in this section show the accuracy of the System’s Low and High Glucose Alarms.
+The Alarm Rate tells the user how often the alarm is right or wrong. The Detection Rate tells
+the user how often the System is able to recognize and notify the user about a low or high
+glucose event (within 15 minutes before or after the event).
+Low Glucose Alarm Performance
+True Alarm Rate: Percentage of time the alarm issued, and blood glucose was below the
+alarm level within 15 minutes before or after the alarm.
+False Alarm Rate: Percentage of time the alarm issued, and blood glucose was not below the
+alarm level within 15 minutes before or after the alarm.
+K193371 - Page 20 of 30
+
+[Table 1 on page 20]
+CGM-	Comparator (mg/dL)					
+Reference	<50	<60	<70	<80	≥ 80	N
+Pairs						
+						
+n	0	1	2	2	0	2
+Cumulative	0.0	50.0	100.0	100.0	0.0	
+%						
+
+[Table 2 on page 20]
+CGM-	Comparator (mg/dL)				
+Reference	>35	>300	>250	>250	N
+Pairs					
+	0				
+					
+n	118	121	121	0	121
+Cumulativ	97.5	100.0	100.0	0.0	
+e					
+%					
+
+[Table 3 on page 20]
+CGM-	Comparator (mg/dL)				
+Reference	>35	>30	>250	>250	N
+Pairs					
+	0	0			
+					
+n	40	43	45	0	45
+Cumulative	88.9	95.6	100.0	0.0	
+%					
+
+--- Page 21 ---
+Detection Rate: Percentage of time blood glucose was below the alarm level and the alarm
+issued within 15 minutes before or after the glucose event.
+Missed Detection Rate: Percentage of time blood glucose was below the alarm level and the
+alarm didn’t issue within 15 minutes before or after the glucose event.
+Low Glucose Alarm Performance (Adult)
+Low
+Alarm Rate Detection Rate
+Glucose
+Hypo True False Hypo Correct Missed
+Alarm level
+Alerts (n) Alarm Alarm Events (n) Detection Detection
+(mg/dL)
+Rate (%) Rate (%) Rate (%) Rate (%)
+60 9861 72.6 27.4 1527 75.7 24.3
+70 21504 86.0 14.0 3652 89.3 10.7
+80 32784 91.3 8.7 4753 97.3 2.7
+90 41299 93.6 6.4 5591 98.5 1.5
+Low Glucose Alarm Performance (Pediatric*)
+Low
+Alarm Rate Detection
+Glucose
+Rate
+Alarm level
+Hypo Alerts True False Hypo Correct Missed
+(mg/dL)
+(n) Alarm Alarm Events (n) Detection Detection
+Rate (%) Rate (%) Rate (%) Rate (%)
+60 2780 62.9 37.1 373 87.4 12.6
+70 6363 80.3 19.7 963 93.5 6.5
+80 9747 85.6 14.4 1318 96.4 3.6
+90 12550 92.2 7.8 1656 97.3 2.7
+* Includes children 6-17 years of age. No Comparator measurements were obtained for children 4-5 years of age.
+High Glucose Alarm Performance
+True Alarm Rate: Percentage of time the alarm issued, and blood glucose was above the
+alarm level within 15 minutes before or after the alarm.
+False Alarm Rate: Percentage of time the alarm issued, and blood glucose was not above the
+alarm level within 15 minutes before or after the alarm.
+Detection Rate: Percentage of time blood glucose was above the alarm level and the alarm
+issued within 15 minutes before or after the glucose event.
+Missed Detection Rate: Amount of time blood glucose was above the alarm level and the
+alarm didn’t issue within 15 minutes before or after the glucose event.
+K193371 - Page 21 of 30
+
+[Table 1 on page 21]
+Low	Alarm Rate			Detection Rate		
+Glucose						
+	Hypo	True	False	Hypo	Correct	Missed
+Alarm level						
+	Alerts (n)	Alarm	Alarm	Events (n)	Detection	Detection
+(mg/dL)						
+		Rate (%)	Rate (%)		Rate (%)	Rate (%)
+						
+60	9861	72.6	27.4	1527	75.7	24.3
+70	21504	86.0	14.0	3652	89.3	10.7
+80	32784	91.3	8.7	4753	97.3	2.7
+90	41299	93.6	6.4	5591	98.5	1.5
+
+[Table 2 on page 21]
+Low	Alarm Rate				Detection	
+Glucose						
+					Rate	
+Alarm level						
+	Hypo Alerts	True	False	Hypo	Correct	Missed
+(mg/dL)						
+	(n)	Alarm	Alarm	Events (n)	Detection	Detection
+						
+		Rate (%)	Rate (%)		Rate (%)	Rate (%)
+60	2780	62.9	37.1	373	87.4	12.6
+70	6363	80.3	19.7	963	93.5	6.5
+80	9747	85.6	14.4	1318	96.4	3.6
+90	12550	92.2	7.8	1656	97.3	2.7
+
+--- Page 22 ---
+High Glucose Alarm Performance (Adult)
+High
+Alarm Rate Detection Rate
+Glucose
+Missed
+Alarm level Hyper True False Hyper Correct
+Detection
+(mg/dL) Alerts (n) Alarm Alarm Events (n) Detection
+Rate (%)
+Rate (%) Rate Rate (%)
+(%)
+120 105544 99.1 0.9 11417 98.2 1.8
+140 93574 99.1 0.9 10152 98.1 1.9
+180 74290 99.2 0.8 8080 97.8 2.2
+200 66039 99.2 0.8 7269 97.1 2.9
+220 57549 99.0 1.0 6390 96.9 3.1
+240 48733 98.4 1.6 5550 95.6 4.4
+300 21512 96.3 3.7 2672 90.0 10.0
+High Glucose Alarm Performance (Pediatric*)
+High
+Alarm Rate Detection Rate
+Glucose
+Missed
+Alarm level Hyper True False Hyper Correct
+Detection
+(mg/dL) Alerts (n) Alarm Alarm Events (n) Detection
+Rate (%)
+Rate (%) Rate (%) Rate (%)
+120 34176 98.8 1.2 4441 98.2 1.8
+140 30107 98.0 2.0 3945 98.4 1.6
+180 22430 98.4 1.6 3125 98.0 2.0
+200 19425 98.0 2.0 2791 98.0 2.0
+220 16371 98.2 1.8 2492 96.9 3.1
+240 13359 98.0 2.0 2172 95.7 4.3
+300 6064 90.8 9.2 962 91.0 9.0
+* Includes children 6-17 years of age. No Comparator measurements were obtained for children 4-5 years of age.
+Sensor Stability
+Sensor stability describes the performance of the sensor over the sensor lifetime. Sensors can
+be worn for up to 14 days. Performance was estimated by calculating the mean of the
+absolute relative differences between iCGM and comparator measurement and percentage of
+device readings within 15 mg/dL or 15% (15/15%), 20 mg/dL or 20% (20/20%) and 40
+mg/dL or 405 (40/40%) of the comparator values during the beginning, early middle, late
+middle, and end of the wear period. These times were defined as follows:
+• Beginning (Adult Days 1-3, Pediatric: Days 1-2)
+• Early Middle (Adult: Days 7-8, Pediatric: Days 7-8),
+• Late Middle (Adult: Days 9-12, Pediatric: Days 9-12), and
+• End (Adult: Days 13-14, Pediatric: Days 13-14).
+K193371 - Page 22 of 30
+
+[Table 1 on page 22]
+High	Alarm Rate			Detection Rate		
+Glucose						
+	Hyper	True	False	Hyper	Correct	Missed
+Alarm level						
+						Detection
+(mg/dL)	Alerts (n)	Alarm	Alarm	Events (n)	Detection	
+						Rate (%)
+		Rate (%)	Rate		Rate (%)	
+						
+			(%)			
+120	105544	99.1	0.9	11417	98.2	1.8
+140	93574	99.1	0.9	10152	98.1	1.9
+180	74290	99.2	0.8	8080	97.8	2.2
+200	66039	99.2	0.8	7269	97.1	2.9
+220	57549	99.0	1.0	6390	96.9	3.1
+240	48733	98.4	1.6	5550	95.6	4.4
+300	21512	96.3	3.7	2672	90.0	10.0
+
+[Table 2 on page 22]
+High	Alarm Rate			Detection Rate		
+Glucose						
+	Hyper	True	False	Hyper	Correct	Missed
+Alarm level						
+						Detection
+(mg/dL)	Alerts (n)	Alarm	Alarm	Events (n)	Detection	
+						Rate (%)
+		Rate (%)	Rate (%)		Rate (%)	
+						
+120	34176	98.8	1.2	4441	98.2	1.8
+140	30107	98.0	2.0	3945	98.4	1.6
+180	22430	98.4	1.6	3125	98.0	2.0
+200	19425	98.0	2.0	2791	98.0	2.0
+220	16371	98.2	1.8	2492	96.9	3.1
+240	13359	98.0	2.0	2172	95.7	4.3
+300	6064	90.8	9.2	962	91.0	9.0
+
+--- Page 23 ---
+The mean absolute relative difference (MARD) and agreement rates with the comparator
+method were evaluated over 14 day life of the sensor.
+Sensor Accuracy Relative to Comparator Over the Wear Duration (Adult)
+Number
+of Within Within
+Wear MARD Within
+CGM- ±15%/ ±20%/
+Period (%) ±40%/
+referenc ±15mg/dL ±20mg/dL
+±40mg/dL
+e pairs
+Beginning 6955 9.9 83.4 90.4 99.3
+Early 4522 8.5 87.7 94.5 99.8
+Middle
+Late Middle 3503 8.8 86.8 93.4 99.7
+End 3755 9.1 86.4 92.9 100.0
+Sensor Accuracy Relative to Comparator Over the Wear Duration (Pediatric*)
+Number
+of CGM- Within ±15% Within ±20%
+Wear MARD Within ±40%
+reference / ±15mg/dL / ±20mg/dL
+Period (%) / ±40mg/dL
+pairs
+Beginning 1828 10.7 79.6 88.5 98.6
+Early 1642 8.0 89.5 94.2 98.5
+Middle
+Late 1534 9.7 83.6 92.9 99.5
+Middle
+End 1542 10.2 82.6 91.1 99.3
+* Includes children 6-17 years of age. No Comparator measurements were obtained for children 4-5 years of age.
+Sensor Life
+The Sensor can be worn for up to 14 days. 146 Sensors were evaluated in the Adult Study
+and 139 Sensors were evaluated in the Pediatric Study to determine how many days of
+readings each Sensor provided. Of the 146 Sensors in the Adult study, 71.1% lasted until the
+final day of use. Six (6) Sensors (4.1%) had “early sensor shut-off” where the Sensor
+algorithm detected that the Sensors did not function as intended and presented the user with a
+“Replace Sensor” message. In the Pediatric study, 78.1% of the Sensors lasted until the final
+day of use. Three (3) Sensors (2.2%) had “early sensor shut-off” and presented the user with
+a “Replace Sensor” message.
+K193371 - Page 23 of 30
+
+[Table 1 on page 23]
+	Number				
+Wear	of	MARD	Within	Within	Within
+	CGM-		±15%/	±20%/	
+Period		(%)			±40%/
+	referenc		±15mg/dL	±20mg/dL	
+					±40mg/dL
+	e pairs				
+					
+Beginning	6955	9.9	83.4	90.4	99.3
+Early
+Middle	4522	8.5	87.7	94.5	99.8
+Late Middle	3503	8.8	86.8	93.4	99.7
+End	3755	9.1	86.4	92.9	100.0
+
+[Table 2 on page 23]
+	Number				
+Wear	of CGM-	MARD	Within ±15%	Within ±20%	Within ±40%
+	reference		/ ±15mg/dL	/ ±20mg/dL	
+Period		(%)			/ ±40mg/dL
+	pairs				
+					
+Beginning	1828	10.7	79.6	88.5	98.6
+Early
+Middle	1642	8.0	89.5	94.2	98.5
+Late
+Middle	1534	9.7	83.6	92.9	99.5
+End	1542	10.2	82.6	91.1	99.3
+
+--- Page 24 ---
+Sensor Survival Rate Over Wear Duration (Adult)
+Day of Wear Number of Survival Rate
+Sensors (%)
+1 145 99.3
+2 142 97.3
+3 140 95.9
+4 137 93.8
+5 134 93.8
+6 133 91.1
+7 132 90.4
+8 127 87.0
+9 123 84.9
+10 119 82.2
+11 112 77.3
+12 111 76.6
+13 104 71.8
+14 100 71.1
+Sensor Survival Rate Over Wear Duration (Pediatric)
+Day of Wear Number of Survival Rate
+Sensors (%)
+1 137 98.6
+2 136 97.8
+3 134 97.1
+4 133 96.4
+5 133 96.4
+6 133 96.4
+7 133 96.4
+8 131 94.9
+9 126 91.3
+K193371 - Page 24 of 30
+
+[Table 1 on page 24]
+Day of Wear	Number of	Survival Rate
+	Sensors	(%)
+1	145	99.3
+2	142	97.3
+3	140	95.9
+4	137	93.8
+5	134	93.8
+6	133	91.1
+7	132	90.4
+8	127	87.0
+9	123	84.9
+10	119	82.2
+11	112	77.3
+12	111	76.6
+13	104	71.8
+14	100	71.1
+
+[Table 2 on page 24]
+Day of Wear	Number of	Survival Rate
+	Sensors	(%)
+1	137	98.6
+2	136	97.8
+3	134	97.1
+4	133	96.4
+5	133	96.4
+6	133	96.4
+7	133	96.4
+8	131	94.9
+9	126	91.3
+
+--- Page 25 ---
+Day of Wear Number of Survival Rate
+Sensors (%)
+10 124 89.9
+11 122 88.4
+12 120 87.0
+13 114 83.4
+14 104 78.1
+A separate analysis was done regarding early sensor terminations due to sensor knock-offs
+(when a sensor falls off due to being forcibly pushed off). All adult and pediatric subjects
+wore two sensors (one on each arm) and all sensors worn within the study were included in
+the sensor survival rate analysis. It was observed that sensors worn on the patient’s dominant
+arm were more likely to be knocked off than those worn on the non-dominant arm.
+In a previously conducted adult sensor wear study, participants cleaned the sensor application
+site with soap and water prior to sensor application. It was observed that those subjects who
+cleaned the application site appropriately were able to achieve the full 14-day sensor wear
+time. To mitigate the risk of early sensor termination due to sensor knock off and failure to
+clean insertion site, the following information was provided in the User Guide:
+Wash application site using a plain soap, dry, and then clean with an alcohol wipe. This will
+help remove any oily residue that may prevent the Sensor from sticking properly. Allow site
+to air dry before proceeding. Note: The area MUST be clean and dry following these
+instructions, or the Sensor may not stay on for the full 14-day wear period.
+A third clinical study was also conducted to further evaluate wear duration in subjects who
+first washed the insertion site with a plain soap and water, according to the full instructions in
+the labeling and wore only a single Sensor. Of the 39 Sensors evaluated in this study, 38
+sensors (97%) lasted until the final day of use (14 days).
+Glucose Reading Availability
+The System is designed to show a Sensor glucose reading after each scan that is performed
+throughout the wear period after the start-up time. As such, the capture rate characterizes the
+reliability of the communication between components of the system.
+K193371 - Page 25 of 30
+
+[Table 1 on page 25]
+Day of Wear	Number of	Survival Rate
+	Sensors	(%)
+10	124	89.9
+11	122	88.4
+12	120	87.0
+13	114	83.4
+14	104	78.1
+
+--- Page 26 ---
+Glucose Reading Capture Rate Over Wear Duration (Adult)
+Day of Wear Number of Capture Rate
+Sensors (%)
+1 146 98.3
+2 145 98.1
+3 143 98.3
+4 140 98.3
+5 138 98.4
+6 135 98.3
+7 134 98.4
+8 131 98.4
+9 128 98.4
+10 123 98.4
+11 120 98.4
+12 113 98.5
+13 112 98.5
+14 104 98.6
+Glucose Reading Capture Rate Over Wear Duration (Pediatric)
+Day of Wear Number of Survival Rate
+Sensors (%)
+1 139 94.6
+2 137 94.9
+3 136 95.2
+4 133 95.3
+5 134 95.5
+6 133 95.6
+7 133 96.0
+8 133 95.9
+9 130 95.7
+K193371 - Page 26 of 30
+
+[Table 1 on page 26]
+Day of Wear	Number of	Capture Rate
+	Sensors	(%)
+1	146	98.3
+2	145	98.1
+3	143	98.3
+4	140	98.3
+5	138	98.4
+6	135	98.3
+7	134	98.4
+8	131	98.4
+9	128	98.4
+10	123	98.4
+11	120	98.4
+12	113	98.5
+13	112	98.5
+14	104	98.6
+
+[Table 2 on page 26]
+Day of Wear	Number of	Survival Rate
+	Sensors	(%)
+1	139	94.6
+2	137	94.9
+3	136	95.2
+4	133	95.3
+5	134	95.5
+6	133	95.6
+7	133	96.0
+8	133	95.9
+9	130	95.7
+
+--- Page 27 ---
+Day of Wear Number of Survival Rate
+Sensors (%)
+10 125 95.6
+11 125 95.6
+12 122 95.8
+13 119 95.9
+14 116 95.8
+D Clinical Cut-Off:
+Not applicable.
+E Expected Values/Reference Range:
+Not applicable.
+F Other Supportive Instrument Performance Characteristics Data:
+Human Factors
+Human factors and usability testing of the FreeStyle Libre 2 System was conducted to determine
+whether the user interface design and labeling would impact the performance of the device.
+Human factors testing was conducted in accordance with:
+• Applying Human Factors and Usability Engineering to Medical Devices, Guidance to
+FDA Staff and Industry, February 3, 2016
+• ANSI/AAMI/IEC 62366: Medical devices - Application of Usability Engineering to
+Medical Devices
+• IEC 60601-1-6: Medical electrical equipment - Part 1-6: General requirements for basic
+safety and essential performance - Collateral standard: Usability
+Specific use scenarios and tasks the user would have to carry out correctly in order to use the
+device safely were identified. An analysis of hazards and risks was conducted on the FreeStyle
+Libre 2 System to determine safety risks associated with use of the system. All critical tasks for
+which a use error could lead to high severity harm were evaluated with validation testing.
+Software Verification and Validation
+Software verification and validation testing was conducted to confirm that the software used in
+the FreeStyle Libre 2 System performed in accordance with established specifications, EN 62304
+and FDA Guidance document “Guidance for the Content of Premarket Submissions for Software
+Contained in Medical Devices,” May 11, 2005. Evaluation activities included unit, system
+integration (SIT), and system level testing which verified functionality of the device against
+established software requirements. Results of the software executed protocols for FreeStyle Libre
+K193371 - Page 27 of 30
+
+[Table 1 on page 27]
+Day of Wear	Number of	Survival Rate
+	Sensors	(%)
+10	125	95.6
+11	125	95.6
+12	122	95.8
+13	119	95.9
+14	116	95.8
+
+--- Page 28 ---
+2 met the acceptance criteria and therefore supports that the System’s embedded software is
+acceptable for its intended use.
+Biocompatibility
+Biocompatibility testing in accordance with ISO10993-1 and FDA Guidance “Use of
+International Standard ISO 10993-1, “Biological evaluation of medical devices Part 1:
+Evaluation and testing within a risk management process,” June 16, 2016 was performed on
+Sensor materials including the outer Sensor, casing, adhesive pad, and sensor tail. Biological
+evaluation included cytotoxicity, genotoxicity, irritation, sensitization, and system toxicity
+testing. All biocompatibility testing met the acceptance criteria.
+Biocompatibility testing on the user-contacting materials on the Reader and Sensor sub-
+components (Patch mount, adhesive pad, plug components, introducer sharp and sensor
+component) was leveraged from previous FreeStyle Libre Flash CGM systems as these
+components remained unchanged.
+Sterilization
+Electron beam sterilization validation was performed per ISO11137-1 and ISO 11137-2.
+Sterilization validation confirmed that the Sterility Assurance Level (SAL) of 10-6 is achieved
+with the selected target dose of 25kGy. The sterilization dose was established by the VDmax25
+method described in ISO 11137-2. All sterilization testing conducted met the acceptance criteria,
+and supports sterility of the patient contact components of the device.
+Shelf Life and Stability
+The Sensor Kit shelf life stability testing supports a shelf life of 9 months. Additional testing was
+conducted to support sensor kit storage temperature range of 36°F and 82°F. Results
+demonstrated no impact to sensor stability when stored at these storage temperatures.
+Packaging Integrity/Shipping Integrity
+. Packaging and shipping integrity testing evaluated the Sensor Kits and Reader Kits in
+accordance with EN ISO 11607-1, EN ISO 11607-2, ASTM D4169-14, and ASTM D4332-13
+guidelines. All tested units passed the testing requirements of all distribution tests.
+Electromagnetic Compatibility
+Electromagnetic compatibility (EMC) testing was performed for the FreeStyle Libre 2 System to
+verify that the system is able to withstand the electromagnetic interference in compliance with
+IEC 60601-1-2, IEC CISPR 11 and Federal Communication Commission Regulations Part
+15.209 and 15.225. EMC coexistence testing was also performed to confirm that the Reader and
+Patch remain functional and perform within acceptable limits while in the presence of common
+radiating electronic devices in accordance with FDA guidance Radio Frequency Wireless
+Technology in Medical Devices. Testing was also performed to demonstrate compliance of the
+FreeStyle Libre 2 System with Category M of RTCA DO-160:
+• The FreeStyle Libre 2 Reader and Patch underwent electromagnetic compatibility (EMC)
+and electromagnetic immunity (EMI) testing and both demonstrated compliance with IEC
+60601-1-2:2014.
+• The FreeStyle Libre 2 Reader and Patch were exposed to electrostatic events (i.e., static
+electricity discharges from operators directly and from personnel to adjacent objects) in
+K193371 - Page 28 of 30
+
+--- Page 29 ---
+accordance with IEC 61000-4-2 Edition. Electrostatic discharge testing was performed at
+± 8 kV for contact discharge and at ± 15 kV for air discharge. The FreeStyle Libre 2
+System met the performance requirements for the ESD Immunity Test.
+• Testing was performed to determine compliance with Federal Communications
+Commission (FCC) standards. The FreeStyle Libre 2 System successfully demonstrated
+compliance with FCC Part 15 Subpart C §15.247 (2016) and FCC Part 15 Subpart B
+(2016).
+• The FreeStyle Libre 2 System demonstrated compliance with airworthiness requirements
+per the Federal Aviation Administration (FAA) Advisory Circular RTCA/DO-160
+Edition G section 21, Category M (RF Emission specification).
+• The FreeStyle Libre 2 System underwent coexistence testing in the presence of common
+RF interfering devices that are likely to be encountered by users in a home environment.
+A representative set of devices known to operate in the same frequency band (2.4 GHz)
+was selected. The test results showed that the FreeStyle Libre 2 System could tolerate
+interference generated by these RF interfering devices and still meet the target
+performance criteria.
+• Conducted emissions and radiated emissions testing for the FreeStyle Libre 2 System was
+performed in accordance with IEC/EN 60601-1-2:2014 and CISPR 11. The FreeStyle
+Libre 2 System demonstrated that maximum emissions did not exceed the limits
+established for residential or home use (Class B).
+Electrical Safety
+The basic safety and essential performance of the FreeStyle Libre 2 System was evaluated to IEC
+60601-1:2006/A1:2013. Tested units included the FreeStyle Libre 2 Reader and Patch and both
+demonstrated compliance to the requirements of IEC 60601-1:2006/A1:2013.
+Environmental Testing
+Environmental testing on the FreeStyle Libre 2 System was performed in accordance with IEC
+60601-1 to ensure the device specifications for operating temperature, operating humidity,
+operating pressure, impact resistance, vibration resistance, shock resistance, drop resistance, and
+storage conditions were met.
+Blood Glucose Meter Functionality
+The FreeStyle Precision Neo Blood Glucose Test Strips cleared under K171941 are compatible
+for use with the FreeStyle Libre 2 Reader’s built-in blood glucose meter for quantitative
+measurement of glucose from fresh capillary whole blood drawn from fingertips. Studies have
+been conducted to support the use of the FreeStyle Libre 2 Reader’s built-in meter with the
+FreeStyle Precision Neo Blood Glucose Test Strips.
+Interoperability
+The FreeStyle Libre 2 System incorporates an approach for interoperability developed in
+alignment with FDA guidance, “Design Considerations and Pre-market Submission
+Recommendations for Interoperable Medical Devices,” September 6, 2017, which includes
+expectations, requirements, and interface specifications to potential interoperable devices. In
+addition, the ADC approach to interoperability includes working with connected device
+companies regarding contractual approaches, interfaces for data communication and exchange,
+and post-market reporting procedures and responsibilities with respect to managing complaints
+K193371 - Page 29 of 30
+
+--- Page 30 ---
+(e.g., who is responsible for investigating and reporting complaints, malfunctions, and adverse
+events).
+Cybersecurity
+ADC has provided cybersecurity risk management documentation for the FreeStyle Libre 2
+System that includes analysis of confidentiality, integrity, and availability for data, information
+and software related to the System. For each identified threat and vulnerability risk event
+scenario, risk assessment of impact to confidentiality, integrity, and availability was performed
+and documented within the cybersecurity risk management documentation. Risk mitigation
+controls have been implemented and tested.
+In addition, ADC has controls and processes in place to ensure continued support for keeping the
+device secure and to ensure that the device firmware, software and components are malware free.
+Additional controls are also in place in manufacturing through distribution to ensure that the
+medical device firmware and software are malware free from point of origin to the hands of the
+end user.
+Proposed Labeling
+The FreeStyle Libre 2 Flash Glucose Monitoring System labeling is sufficient and satisfies the
+requirements of 21 CFR Parts 801 and 809, and the special controls for this type of device.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K193371 - Page 30 of 30

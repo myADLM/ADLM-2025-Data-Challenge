@@ -1,0 +1,2100 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K210254
+B Applicant
+MeMed Diagnostics Ltd.
+C Proprietary and Established Names
+MeMed BV
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.3215 - Device
+To Detect And Measure
+Non-Microbial Analyte(S)
+QPS Class II In Human Clinical MI - Microbiology
+Specimens To Aid In
+Assessment Of Patients
+With Suspected Sepsis
+II Submission/Device Overview:
+A Purpose for Submission:
+To obtain a substantial equivalence determination for the MeMed BV device.
+B Measurand:
+Three host immune protein biomarkers: TRAIL, IP-10, and CRP.
+C Type of Test:
+Chemiluminescent immunoassay
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QPS			Class II	21 CFR 866.3215 - Device
+To Detect And Measure
+Non-Microbial Analyte(S)
+In Human Clinical
+Specimens To Aid In
+Assessment Of Patients
+With Suspected Sepsis			MI - Microbiology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The MeMed BV test is an automated semi-quantitative immunoassay that measures three non-
+microbial (host) proteins (TRAIL, IP-10, and CRP) in adult and pediatric serum samples and is
+intended for use in conjunction with clinical assessments and other laboratory findings as an aid
+to differentiate bacterial from viral infection. The MeMed BV is indicated for use in patients
+presenting to the emergency department or urgent care center and with samples collected at
+hospital admission from patients with suspected acute bacterial or viral infection, who have had
+symptoms for less than seven days. The MeMed BV test generates a numeric score that falls
+within discrete interpretation bins based on the increasing likelihood of bacterial infection.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+For prescription use only.
+D Special Instrument Requirements:
+MeMed Key Instrument
+IV Device/System Characteristics:
+A Device Description:
+The MeMed BV (“BV Test” or the “Test”) is an In Vitro Diagnostic device that measures in
+parallel the blood concentrations of TRAIL, IP-10 and CRP. The Test consists of an automated
+analyzer with built-in hardware and software that conduct chemiluminescence-based analyte
+measurements of patient serum samples and their computational integration (MeMed Key),
+and a disposable cartridge that contains the reagents and controls needed to detect the
+analytes of interest (MeMed BV cartridge). The Test generates an answer to each sample,
+with a test run time of approximately 15 minutes.
+B Principle of Operation:
+The test system is composed of the analyzer (MeMed Key) and the cartridge, and their respective
+sub-components. The product is designed to allow straightforward sample-to-answer testing,
+with a test run time of approximately 15 minutes.
+The patient’s serum specimen is pipetted by the user into the designated cartridge area. The users
+are instructed to fill 100 μl of sample. Each single-use cartridge is provided in a package that
+contains all necessary components for conducting a single patient test. This consists of the
+cartridge itself, all disposables (pipette tips), reagents and a waste collection well. The cartridge
+assembly contains both the reagents for the different assays and the pipette tips. The cartridge is
+K210254 - Page 2 of 30
+
+--- Page 3 ---
+a multi-cavity plastic container that is sealed off with foil and covered with a label on the foil
+that indicates the sample type, the test name, indication to the user where to input the sample,
+required sample volume, lot number, cartridge expiry date and a barcode with test data and
+parameters that are intended to be read by the analyzer.
+The cartridge contains the several reagents in separate cavities, which are required to perform the
+test. Upon insertion of the cartridge, the analyzer conducts three immunoassays on a single
+serum sample of 100 μL. The cartridge also securely stores all waste materials collected during
+the test.
+The user inserts the cartridge with sample into the analyzer and is guided by the carriage caddy.
+The analyzer auto-reads the cartridge's barcode and verifies that the requested test matches the
+cartridge type, cartridge expiration date, and that the calibration curve matches the cartridge lot
+number. The analyzer notifies the user when specimen processing is initiated and when the user
+should expect the test result.
+After the cartridge has been inserted, the carriage caddy system locks and guides the cartridge
+during the insertion phase. Once loaded, the cartridge holder is driven by the robot to the left, in
+position for processing.
+The liquids are handled through the pipettor, which operates through measurement of displaced
+air volumes by means of a flow sensor, integrated directly in the pipetting head that is connected
+to a high-speed solenoid valve. The flow sensor is based on a differential pressure measurement
+across flow restriction. The cartridge is then heated through the heater block. A software-driven
+Proportional Integral Derivative (PID) control system is used to set and regulate the temperature
+of the heater block, using the center thermistor for feedback.
+Once the sample has been diluted and mixed with magnetic particles, it is processed by the bead
+immobilizer magnet, which generates a high magnetic field strength, and allows both the
+reduction of immobilization time and a high percentage of bead retention per immobilization to
+be achieved. The sample is then washed and the chemiluminescence step takes place.
+The chemiluminescence of the assay is measured by a Photo Multiplier Tube (PMT) Module, a
+highly sensitive light detection device. The selected PMT Module has a spectral range which
+matches the expected wavelength generated by the chemistry luminescence. When a PMT
+reading is required, the software then turns the PMT Module on and a reading is taken. Once
+readings have been completed, the software automatically turns the PMT Module off.
+Each RLU measurement for each of the analytes is processed and translated to a concentration
+measurement using a calibration curve that is generated using calibration materials provided by
+MeMed. When a clinical serum sample is run, the resulting concentrations are also processed to
+apply a clinical correction factor, which is pre-determined for each of the analytes. This clinical
+correction factor exists primarily because of matrix-effects (in the serum) which may impact the
+generated signal compared to the calibration which is run on recombinant proteins. Final
+concentrations for each analyte are then processed to generate a Score result which places the
+specimen into one of five distinct bins, with higher score values corresponding to increasing
+likelihood of a bacterial infection.
+K210254 - Page 3 of 30
+
+--- Page 4 ---
+The MeMed BV™ test result is a score between 0 and 100 derived from computational
+integration of the measurements of the three proteins TRAIL, IP-10, and CRP, where low scores
+are indicative of viral infection and high score of bacterial infection.
+• 0 ≤ score ≤10: High likelihood of viral infection (or other non-bacterial etiology)
+• 10 < score <35: Moderate likelihood of viral infection (or other non-bacterial etiology)
+• 35 ≤ score ≤65: Equivocal
+• 65 < score <90: Moderate likelihood of bacterial infection (or co-infection)
+• 90 ≤ score ≤100: High likelihood of bacterial infection (or co-infection)
+C Instrument Description Information:
+1. Instrument Name:
+MeMed Key
+2. Specimen Identification:
+The cartridge is a multi-cavity plastic container that is sealed off with foil and covered with a
+label on the foil that indicates the sample type, the test name, indication to the user where to
+input the sample, required sample volume, lot number, cartridge expiry date and a barcode
+with test data and parameters that are intended to be read by the analyzer.
+3. Specimen Sampling and Handling:
+The patient’s serum specimen is pipetted by the user into the designated cartridge area. The
+users are instructed to fill 100μl of sample. Each single-use cartridge is provided in a package
+that contains all necessary components for conducting a single patient test.
+4. Calibration:
+A calibration is unique to a device and a cartridge lot. The calibration process assures that the
+unique characteristics of each device and the unique state of each cartridge lot – are
+accounted for in the calibration and that the concentration results are consistent and accurate.
+The calibration is valid only for a limited amount of time after the calibration takes place
+because the cartridge itself is decaying, producing different RLU measurements after a
+certain period of time (currently the calibration is valid for a period of 2 weeks). Every two
+weeks, or whenever a new lot needs to be used – the calibration process needs to be repeated.
+This is also monitored by the device which prevents the user from running on a lot which
+was never calibrated or a lot which has an expired calibration by displaying an
+error message.
+The calibration is a process used to generate the calibration curve. The calibration curve
+translates RLU measurements to concentration of each analyte. A calibration is unique to a
+device and a cartridge lot. Each calibrator is a solution of the 3 analytes introduced as
+recombinant proteins. The calibrators are in effect a synthetic sample which can be measured
+by the device using the normal cartridge.
+K210254 - Page 4 of 30
+
+--- Page 5 ---
+5. Quality Control:
+External controls are available through MeMed Diagnostics. The control set includes two
+control vials containing purified TRAIL, IP-10, and CRP antigens in a protein buffer. One
+vial corresponds to a bacterial MeMed BV test score (expected score 90-100) and one vial
+corresponds to a viral MeMed BV test score (expected score 0-10). The software evaluates
+each control and notifies the user whether the evaluation is completed successfully.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Vidas B.r.a.h.m.s. Pct (pct)
+B Predicate 510(k) Number(s):
+K162827
+C Comparison with Predicate(s):
+Device & Predicate
+K210254 K162827
+Device(s):
+VIDAS B·R·A·H·M·S
+Device Trade Name MeMed BV
+PCT
+General Device
+Characteristic Similarities
+The MeMed BV test is VIDAS B·R·A·H·M·S
+an automated semi- PCT (PCT) is an
+quantitative automated test for use
+immunoassay that on the instruments of
+measures three non- the VIDAS family for
+microbial (host) the determination of
+proteins (TRAIL, IP-10, human procalcitonin in
+and CRP) in adult and human serum or plasma
+pediatric serum samples (lithium heparinate)
+and is intended for use using the ELFA
+Intended Use/Indications in conjunction with (Enzyme-Linked
+For Use clinical assessments and Fluorescent Assay)
+other laboratory technique.
+findings as an aid to
+differentiate bacterial Used in conjunction
+from viral infection. with other laboratory
+The MeMed BV is findings and clinical
+indicated for use in assessments, VIDAS
+patients presenting to B•R•A•H•M•S PCT is
+the emergency intended for use as
+department or urgent follows:
+care center and with
+K210254 - Page 5 of 30
+
+[Table 1 on page 5]
+	Device & Predicate		K210254	K162827
+	Device(s):			
+Device Trade Name			MeMed BV	VIDAS B·R·A·H·M·S
+PCT
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			The MeMed BV test is
+an automated semi-
+quantitative
+immunoassay that
+measures three non-
+microbial (host)
+proteins (TRAIL, IP-10,
+and CRP) in adult and
+pediatric serum samples
+and is intended for use
+in conjunction with
+clinical assessments and
+other laboratory
+findings as an aid to
+differentiate bacterial
+from viral infection.
+The MeMed BV is
+indicated for use in
+patients presenting to
+the emergency
+department or urgent
+care center and with	VIDAS B·R·A·H·M·S
+PCT (PCT) is an
+automated test for use
+on the instruments of
+the VIDAS family for
+the determination of
+human procalcitonin in
+human serum or plasma
+(lithium heparinate)
+using the ELFA
+(Enzyme-Linked
+Fluorescent Assay)
+technique.
+Used in conjunction
+with other laboratory
+findings and clinical
+assessments, VIDAS
+B•R•A•H•M•S PCT is
+intended for use as
+follows:
+
+--- Page 6 ---
+samples collected at • to aid in the risk
+hospital admission from assessment of
+patients with suspected critically ill patients on
+acute bacterial or viral their first day of
+infection, who have had ICU admission for
+symptoms for less than progression to
+seven days. The severe sepsis and septic
+MeMed BV test shock,
+generates a numeric
+score that falls within • to aid in assessing the
+discrete interpretation cumulative 28-
+bins based on the day risk of all-cause
+increasing likelihood of mortality for
+bacterial infection. patients diagnosed with
+severe sepsis
+or septic shock in the
+ICU or when
+obtained in the
+emergency department
+or other medical wards
+prior to ICU
+admission, using a
+change in PCT
+level over time,
+• to aid in decision
+making on antibiotic
+therapy for patients
+with suspected or
+confirmed lower
+respiratory tract
+infections (LRTI)
+defined as
+community-acquired
+pneumonia
+(CAP), acute bronchitis,
+and acute
+exacerbation of chronic
+obstructive
+pulmonary disease
+(AECOPD) – in an
+inpatient setting or an
+emergency
+department,
+• to aid in decision
+making on antibiotic
+discontinuation for
+K210254 - Page 6 of 30
+
+[Table 1 on page 6]
+	samples collected at
+hospital admission from
+patients with suspected
+acute bacterial or viral
+infection, who have had
+symptoms for less than
+seven days. The
+MeMed BV test
+generates a numeric
+score that falls within
+discrete interpretation
+bins based on the
+increasing likelihood of
+bacterial infection.	• to aid in the risk
+assessment of
+critically ill patients on
+their first day of
+ICU admission for
+progression to
+severe sepsis and septic
+shock,
+• to aid in assessing the
+cumulative 28-
+day risk of all-cause
+mortality for
+patients diagnosed with
+severe sepsis
+or septic shock in the
+ICU or when
+obtained in the
+emergency department
+or other medical wards
+prior to ICU
+admission, using a
+change in PCT
+level over time,
+• to aid in decision
+making on antibiotic
+therapy for patients
+with suspected or
+confirmed lower
+respiratory tract
+infections (LRTI)
+defined as
+community-acquired
+pneumonia
+(CAP), acute bronchitis,
+and acute
+exacerbation of chronic
+obstructive
+pulmonary disease
+(AECOPD) – in an
+inpatient setting or an
+emergency
+department,
+• to aid in decision
+making on antibiotic
+discontinuation for
+
+--- Page 7 ---
+patients with
+suspected or confirmed
+sepsis.
+Health Care Providers Health Care Providers
+requesting samples to requesting samples to
+User Population
+be tested by clinical be tested by clinical
+laboratory technicians laboratory technicians
+Sandwich immunoassay
+Assay Principle Same
+technology
+Assay Type Same Automated
+Numerical values with
+Test Result Reporting Same
+risk bins
+General Device
+Characteristic Differences
+Human serum or
+Specimen Human serum
+plasma
+Measurand(s) TRAIL, IP-10, and CRP Procalcitonin (PCT)
+Chemiluminescence- Fluorescence-based
+based analyte analyte measurement
+Detection Method
+measurement using using VIDAS
+MeMed Key instrument instrument
+Approximately 15 Approximately 20
+Time to result
+minutes minutes
+Calibration frequency Every two weeks Every 28 days
+Sample volume 100 µL 200 µL
+VI Standards/Guidance Documents Referenced:
+CLSI EP17-A2 Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures
+CLSI EP05-A3 Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline
+CLSI EP06-A Evaluation of the Linearity of Quantitative Measurement Procedures: A Statistical
+Approach; Approved Guideline
+62304 IEC Medical Device Software - Software life cycle processes 1.1
+CLSI EP25-A Evaluation of Stability of In Vitro Diagnostic Reagents; Approved Guideline
+CLSI EP07 Interference testing in clinical chemistry
+CLSI EP37 Supplemental tables for interference testing in clinical chemistry
+K210254 - Page 7 of 30
+
+[Table 1 on page 7]
+				patients with
+suspected or confirmed
+sepsis.
+User Population			Health Care Providers
+requesting samples to
+be tested by clinical
+laboratory technicians	Health Care Providers
+requesting samples to
+be tested by clinical
+laboratory technicians
+Assay Principle			Same	Sandwich immunoassay
+technology
+Assay Type			Same	Automated
+Test Result Reporting			Same	Numerical values with
+risk bins
+	General Device			
+	Characteristic Differences			
+Specimen			Human serum	Human serum or
+plasma
+Measurand(s)			TRAIL, IP-10, and CRP	Procalcitonin (PCT)
+Detection Method			Chemiluminescence-
+based analyte
+measurement using
+MeMed Key instrument	Fluorescence-based
+analyte measurement
+using VIDAS
+instrument
+Time to result			Approximately 15
+minutes	Approximately 20
+minutes
+Calibration frequency			Every two weeks	Every 28 days
+Sample volume			100 µL	200 µL
+
+--- Page 8 ---
+CLSI EP28-A3c Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+A multi-site reproducibility study was performed across three laboratories. The
+measurements were performed over five non-consecutive days. At each site, a single operator
+conducted the tests on two different analyzers using one cartridge lot, with three runs
+performed each day per panel member.
+Calibration was performed on the first day on each analyzer; one calibrator lot was used.
+External controls (ECs) were also run daily using one lot of ECs.
+The ‘infectious’ specimens were collected from non-U.S. individuals recruited to an
+infectious cohort as defined by the MeMed BV test intended use/indications for use under an
+appropriate clinical study protocol. The ‘healthy’ specimens were collected from non-U.S.
+individuals recruited to the healthy cohort recruited from a) patients’ family members, b)
+medical staff not affiliated with the study, and c) elective pre-operative children and adults.
+The determination that the participant is healthy was adjudicated by an expert based on the
+patient data provided to them in an anonymized electronic case report form. The expert
+decided if the patient can be included in the healthy cohort in line with the healthy cohort
+eligibility criteria.
+The samples were collected, centrifuged within 1 hr after blood withdrawal, aliquoted (120
+μL) and frozen at -80°C. Prior initiation of the reproducibility study, the aliquots were sent
+on dry ice to the participating laboratories. Each aliquot was thawed 10-15 min on a roller
+prior to measurement on the MeMed Key instrument.
+The following panel members were utilized for the reproducibility study:
+Table 1. Reproducibility Study Panel Members
+Panel Member Sample Type Score
+A Infectious Serum Specimen High (Score = 96)
+B Infectious Serum Specimen Medium (Score = 53)
+C Infectious Serum Specimen Low (Score = 1)
+D Healthy Serum Specimen Low (Score = 4)
+Results from the reproducibility study are summarized in the table below including
+repeatability (between-run variation), intermediate precision, and reproducibility.
+Table 2. Reproducibility Study Results
+K210254 - Page 8 of 30
+
+[Table 1 on page 8]
+	Panel Member			Sample Type			Score	
+A			Infectious Serum Specimen			High (Score = 96)		
+B			Infectious Serum Specimen			Medium (Score = 53)		
+C			Infectious Serum Specimen			Low (Score = 1)		
+D			Healthy Serum Specimen			Low (Score = 4)		
+
+--- Page 9 ---
+Intermediate
+Repeatability Reproducibility
+Panel Measurand Precision
+Mean N
+Member or Score CV CV
+SD CV (%) SD SD
+(%) (%)
+A TRAIL 34.0 90 2.9 8.5 2.9 8.5 4.1 12.0
+B TRAIL 68.0 90 6.0 8.9 6.3 9.3 7.6 11.1
+C TRAIL 266.5 90 17.6 6.6 18.1 6.8 25.9 9.7
+D TRAIL 77.2 90 7.0 9.1 7.7 9.9 9.8 12.7
+A IP-10 930.7 90 40.1 4.3 43.2 4.7 48.6 5.2
+B IP-10 372.3 90 20.0 5.4 20.5 5.5 21.3 5.7
+C IP-10 558.4 90 22.3 4.0 24.4 4.4 25.8 4.6
+D IP-10 101.4 90 6.2 6.1 6.2 6.1 6.3 6.2
+A CRP 126.0 90 10.5 8.3 10.5 8.3 14.6 11.6
+B CRP 63.2 90 5.2 8.3 5.7 9.0 6.5 10.2
+C CRP 60.9 90 4.9 8.1 5.3 8.6 6.3 10.4
+D CRP 1.0 90 0.1 4.9 0.1 5.0 0.1 5.0
+A Score 96.0 90 1.3 N/A1 1.3 N/A1 1.8 N/A1
+B Score 53.4 90 7.5 N/A1 7.7 N/A1 9.4 N/A1
+C Score 0.9 90 0.3 N/A1 0.3 N/A1 0.4 N/A1
+D Score 3.6 90 1.0 N/A1 1.2 N/A1 1.4 N/A1
+1CV analysis was not considered for the logistic scale of the MeMed BV Score. The acceptance criterion for the
+score was set to be SD < 12.5 score units which reflects a small probability of scores falling into nonadjacent
+bins.
+An additional study was performed to estimate lot-to-lot variance for each measurand and the
+test result for four panel members. The lot-to-lot study was performed on 3 days as follows:
+Operator 1 at Site 1 conducted three runs per day for each of the four panel members using
+two lots of cartridges on the same Analyzer. Two calibration lots were used, one for each
+cartridge lot. External controls were run daily using one lot of EC reagents. Results from the
+lot variability study are included in Table 3 below.
+Table 3. Lot-to-Lot Variability Study Results
+K210254 - Page 9 of 30
+
+[Table 1 on page 9]
+Panel
+Member	Measurand
+or Score	Mean	N	Repeatability			Intermediate				Reproducibility			
+							Precision							
+				SD	CV (%)	SD			CV		SD		CV	
+									(%)				(%)	
+A	TRAIL	34.0	90	2.9	8.5	2.9		8.5			4.1	12.0		
+B	TRAIL	68.0	90	6.0	8.9	6.3		9.3			7.6	11.1		
+C	TRAIL	266.5	90	17.6	6.6	18.1		6.8			25.9	9.7		
+D	TRAIL	77.2	90	7.0	9.1	7.7		9.9			9.8	12.7		
+A	IP-10	930.7	90	40.1	4.3	43.2		4.7			48.6	5.2		
+B	IP-10	372.3	90	20.0	5.4	20.5		5.5			21.3	5.7		
+C	IP-10	558.4	90	22.3	4.0	24.4		4.4			25.8	4.6		
+D	IP-10	101.4	90	6.2	6.1	6.2		6.1			6.3	6.2		
+A	CRP	126.0	90	10.5	8.3	10.5		8.3			14.6	11.6		
+B	CRP	63.2	90	5.2	8.3	5.7		9.0			6.5	10.2		
+C	CRP	60.9	90	4.9	8.1	5.3		8.6			6.3	10.4		
+D	CRP	1.0	90	0.1	4.9	0.1		5.0			0.1	5.0		
+A	Score	96.0	90	1.3	N/A1	1.3		N/A1			1.8	N/A1		
+B	Score	53.4	90	7.5	N/A1	7.7		N/A1			9.4	N/A1		
+C	Score	0.9	90	0.3	N/A1	0.3		N/A1			0.4	N/A1		
+D	Score	3.6	90	1.0	N/A1	1.2		N/A1			1.4	N/A1		
+
+[Table 2 on page 9]
+Panel
+Member
+
+[Table 3 on page 9]
+Measurand
+or Score
+
+--- Page 10 ---
+Panel Measurand Between Lots
+Mean N
+Member or Score SD CV (%)
+A TRAIL 33.1 18 0.5 1.6
+B TRAIL 66.4 18 0.0 0.0
+C TRAIL 258.8 18 0.0 0.0
+D TRAIL 74.5 18 0.0 0.0
+A IP-10 950.1 18 69.7 7.3
+B IP-10 385.8 18 16.9 4.4
+C IP-10 575.2 18 44.4 7.7
+D IP-10 100.0 18 0.0 0.0
+A CRP 117.6 18 0.8 0.7
+B CRP 60.8 18 0.0 0.0
+C CRP 58.5 18 0.7 1.2
+D CRP 1.0 18 0.0 0.6
+A Score 95.8 18 0.0 N/A1
+B Score 54.2 18 0.0 N/A1
+C Score 1.0 18 0.0 N/A1
+D Score 3.8 18 0.0 N/A1
+1CV analysis was not considered for the logistic scale of the MeMed BV Score. The acceptance criterion for the
+score was set to be SD < 12.5 score units which reflects a small probability of scores falling into nonadjacent
+bins.
+2. Linearity:
+A study was performed to assess the linearity of measurement for each of the three
+measurands (TRAIL/IP-10/CRP) with acceptance criteria for bias due to non-linearity or less
+than 10% or, alternatively, 10 mg/L for CRP, 10 pg/mL for TRAIL, and 50 pg/mL for IP-10.
+Linearity is not applicable to the Test result (score), as it is calculated using a pre-defined
+weighted multinomial logistic regression model. The study was performed in a single
+laboratory with one analyzer, two lots of cartridges, and one lot of calibration and external
+control reagents. Eleven dilutions of individual analytes were prepared in protein rich buffer
+and measured four times. The range of concentrations tested spanned the applicable range for
+determination of the MeMed BV score and were 15-290 pg/mL for TRAIL, 96-1930 pg/mL
+for IP-10, and 1-289 µg/mL for CRP. Linearity for all MeMed BV measurands fell within the
+acceptance criteria.
+3. Analytical Specificity/Interference:
+Interference Study
+An interference study was performed to evaluate the impact of select interferents and cross-
+reactants on the test score. Each interferent and cross-reactant was tested using two panel
+members that represent score bins 1 and 5 (a ‘low’ score, and ‘high’ score, respectively).
+Interference was assessed by estimating the bias for each specimen when compared to a
+sample without interferent. Each interferant was tested using eight replicates for each spiked
+and non-spiked (no interferent) specimen. Results from the interference study are included in
+the below table.
+K210254 - Page 10 of 30
+
+[Table 1 on page 10]
+	Panel			Measurand		Mean	N		Between Lots				
+	Member			or Score					SD			CV (%)	
+A			TRAIL			33.1	18	0.5			1.6		
+B			TRAIL			66.4	18	0.0			0.0		
+C			TRAIL			258.8	18	0.0			0.0		
+D			TRAIL			74.5	18	0.0			0.0		
+A			IP-10			950.1	18	69.7			7.3		
+B			IP-10			385.8	18	16.9			4.4		
+C			IP-10			575.2	18	44.4			7.7		
+D			IP-10			100.0	18	0.0			0.0		
+A			CRP			117.6	18	0.8			0.7		
+B			CRP			60.8	18	0.0			0.0		
+C			CRP			58.5	18	0.7			1.2		
+D			CRP			1.0	18	0.0			0.6		
+A			Score			95.8	18	0.0			N/A1		
+B			Score			54.2	18	0.0			N/A1		
+C			Score			1.0	18	0.0			N/A1		
+D			Score			3.8	18	0.0			N/A1		
+
+--- Page 11 ---
+Table 4. Interference Study Results
+High High Low Low
+Interferant Test Level Score Score Score Score
+Bias Bias CI Bias Bias CI
+Acetaminophen 0.156 mg/mL 0.1 -0.4-0.6 -0.1 -0.4-0.1
+Amoxicillin 54 µg/mL -0.1 -0.6-0.4 -0.1 -0.4-0.1
+Ampicillin 75 µg/mL 0 -0.5-0.5 0 0-0
+Aspirin 0.03 mg/mL -0.4 -1.4-0.6 -0.5 -0.9-(-0.1)
+Azithromycin 11.1 µg/mL 0 -0.5-0.5 0.1 -0.5-0.7
+Caffeine 108 µg/mL 0.4 -0.9-1.7 0.3 -1-1.5
+Cetirizine 4.35 µg/mL 0 -0.5-0.5 0.1 -0.1-0.4
+Conjugated Bilirubin 0.4 mg/mL 0.1 -0.3-0.6 1.0 -2.2-4.2
+Dextramethorphan 15.6 ng/mL 0 -0.5-0.5 0.4 0-0.7
+Doxycycline 18 µg/mL 0.1 -0.4-0.6 0.1 -0.1-0.4
+Ethanol 0.5% v/v -0.1 -0.8-0.5 -0.4 -0.7-0
+Hemoglobin 10% v/v 0.7 -1.1-0.4 -0.4 -2.3-3.6
+Heparin 3300 U/L -0.7 -1.3-(-0.2) 0.2 -0.6-0.1
+Human Serum
+60 mg/mL -1.5 -2.7-(-0.3) -0.3 -2.4-1.7
+Albumin
+Ibuprofen 219 µg/mL 0.5 0-1 0.1 -0.1-0.4
+Levoflaxacin 36 µg/mL 0 -1.4-1.4 0 -1.5-1.5
+Loratidine 87 ng/mL 0 -0.5-0.5 0 -0.8-0.8
+Nicotine 969 ng/mL -0.2 -0.5-0.3 0.6 0-1.2
+Oxymetazoline 0.0006 µg/mL -0.1 -1.3-1.1 -0.3 -1.7-0.9
+Phenylephrine 30 ng/mL -0.9 -2.5-0.8 -0.1 -1.8-1.5
+Prednisolone 1200 ng/mL 0.2 -0.2-0.7 -0.3 -0.8-0.3
+Rheumatoid factor 500 IU/mL 0.4 -0.6-1.4 0.7 -1.1-2.6
+Triglyceride 15 mg/mL 1.0 0.2-1.8 0.8 -1.2-3
+Unconjugated
+0.4 mg/mL 1.6 0-3.2 -3.6 -6.7-(-0.6)
+Bilirubin
+4-1BB Ligand 50 ng/mL -0.8 -1.9-0.4 0.1 -0.5-0.7
+Adiponectin 50 ng/mL 0.1 -2.8-3 0.5 -0.2-1.2
+CXCL1/GRO\alpha 50 ng/mL -0.1 -1.3-1.1 0.1 -0.4-0.6
+CXCL11/I-TAC 50 ng/mL -0.6 -3-1.7 0.2 -0.6-1.1
+CXCL12/SDF1a 50 ng/mL 0.5 -1.4-2.4 1.4 -2.2-5
+CXCL13/BLC/BCA-
+50 ng/mL -0.4 -1.7-1 -0.3 -0.6-0.1
+1
+CXCL3/GRO\gamma 50 ng/mL 0.5 -1.6-2.6 -0.1 -3.6-3.3
+K210254 - Page 11 of 30
+
+[Table 1 on page 11]
+Interferant	Test Level		High			High			Low			Low	
+			Score			Score			Score			Score	
+			Bias			Bias CI			Bias			Bias CI	
+Acetaminophen	0.156 mg/mL	0.1			-0.4-0.6			-0.1			-0.4-0.1		
+Amoxicillin	54 µg/mL	-0.1			-0.6-0.4			-0.1			-0.4-0.1		
+Ampicillin	75 µg/mL	0			-0.5-0.5			0			0-0		
+Aspirin	0.03 mg/mL	-0.4			-1.4-0.6			-0.5			-0.9-(-0.1)		
+Azithromycin	11.1 µg/mL	0			-0.5-0.5			0.1			-0.5-0.7		
+Caffeine	108 µg/mL	0.4			-0.9-1.7			0.3			-1-1.5		
+Cetirizine	4.35 µg/mL	0			-0.5-0.5			0.1			-0.1-0.4		
+Conjugated Bilirubin	0.4 mg/mL	0.1			-0.3-0.6			1.0			-2.2-4.2		
+Dextramethorphan	15.6 ng/mL	0			-0.5-0.5			0.4			0-0.7		
+Doxycycline	18 µg/mL	0.1			-0.4-0.6			0.1			-0.1-0.4		
+Ethanol	0.5% v/v	-0.1			-0.8-0.5			-0.4			-0.7-0		
+Hemoglobin	10% v/v	0.7			-1.1-0.4			-0.4			-2.3-3.6		
+Heparin	3300 U/L	-0.7			-1.3-(-0.2)			0.2			-0.6-0.1		
+Human Serum
+Albumin	60 mg/mL	-1.5			-2.7-(-0.3)			-0.3			-2.4-1.7		
+Ibuprofen	219 µg/mL	0.5			0-1			0.1			-0.1-0.4		
+Levoflaxacin	36 µg/mL	0			-1.4-1.4			0			-1.5-1.5		
+Loratidine	87 ng/mL	0			-0.5-0.5			0			-0.8-0.8		
+Nicotine	969 ng/mL	-0.2			-0.5-0.3			0.6			0-1.2		
+Oxymetazoline	0.0006 µg/mL	-0.1			-1.3-1.1			-0.3			-1.7-0.9		
+Phenylephrine	30 ng/mL	-0.9			-2.5-0.8			-0.1			-1.8-1.5		
+Prednisolone	1200 ng/mL	0.2			-0.2-0.7			-0.3			-0.8-0.3		
+Rheumatoid factor	500 IU/mL	0.4			-0.6-1.4			0.7			-1.1-2.6		
+Triglyceride	15 mg/mL	1.0			0.2-1.8			0.8			-1.2-3		
+Unconjugated
+Bilirubin	0.4 mg/mL	1.6			0-3.2			-3.6			-6.7-(-0.6)		
+4-1BB Ligand	50 ng/mL	-0.8			-1.9-0.4			0.1			-0.5-0.7		
+Adiponectin	50 ng/mL	0.1			-2.8-3			0.5			-0.2-1.2		
+CXCL1/GRO\alpha	50 ng/mL	-0.1			-1.3-1.1			0.1			-0.4-0.6		
+CXCL11/I-TAC	50 ng/mL	-0.6			-3-1.7			0.2			-0.6-1.1		
+CXCL12/SDF1a	50 ng/mL	0.5			-1.4-2.4			1.4			-2.2-5		
+CXCL13/BLC/BCA-
+1	50 ng/mL	-0.4			-1.7-1			-0.3			-0.6-0.1		
+CXCL3/GRO\gamma	50 ng/mL	0.5			-1.6-2.6			-0.1			-3.6-3.3		
+
+--- Page 12 ---
+CXCL5/ENA-78 50 ng/mL 1.1 -0.5-2.7 0.3 -0.2-0.7
+CXCL7/NAP-1 50 ng/mL -1.2 -4.4-2.1 -1.1 -3.5-1.2
+CXCL8/IL8 50 ng/mL 1.2 -0.9-3.4 -0.5 -3.5-2.5
+CXCL9/MIG 50 ng/mL -0.5 -2.5-1.5 -0.2 -3.2-2.7
+CXCL6/GCP-2 50 ng/mL 1.6 0.1-3.1 0.4 -0.2-1
+IFN gamma 50 ng/mL -0.4 -2.9-2.2 0 -0.8-0.8
+LT alpha1 beta2 50 ng/mL 1.0 -0.5-2.5 -0.4 -0.8-0.1
+LTalpha2beta1 50 ng/mL 0 -1.1-1.1 0 -0.5-0.5
+PTX2 50 ng/mL -2.0 -5.2-1.2 0 -0.5-0.5
+PTX3 50 ng/mL 0.6 -1.3-2.6 0.6 -0.1-1.3
+SDF1b 50 ng/mL -0.1 -2.2-2 0 -0.8-0.8
+TNF alpha 50 ng/mL 0.5 -1.6-2.6 -0.1 -0.6-0.4
+TNF beta 50 ng/mL 1.1 -0.1-2.3 -0.2 -0.5-0.3
+These data demonstrate that the presence of commonly encountered interferants does not
+significantly alter the MeMed BV score. For all evaluated specimens, the 95% confidence
+interval for the bias lies within +/-12.5 score units for all the interferants and cross-reactants
+in the indicated concentrations for both bacterial and viral clinical samples.
+Interference by Human Anti-Mouse Antibody (HAMA) was also assessed by evaluating 3
+contrived serum specimens that contained different amounts of HAMA. To generate these
+specimens a clinical serum sample (Level 1) was intermixed with a commercially available
+serum sample that contained high concentrations of HAMA (Level 5). Each individual
+specimen was run on two analyzers with a total of eight repeats for each sample. Acceptance
+criteria were that individual TRAIL, CRP, and IP-10 concentrations in the presence of
+HAMA should fall within 10% of the concentration without interferant. All samples
+successfully met the acceptance criteria demonstrating a lack of interference from HAMA.
+Table 5. HAMA Interference Testing Results
+TRAIL CRP IP10 Score
+% % %
+Mean Mean Mean Mean Nominal
+Recovery Recovery Recovery
+Level 1 132.3 109.5 1338.6 16
+Level 2 103.8 97% 78.1 92% 991.8 98% 21 21
+Sample 1 Level 3 81.7 97% 59.8 108% 681.7 90% 34 29
+Level 4 57.3 98% 32.1 106% 409.7 96% 52 49
+Level 5 35.8 1.0 175.0 36
+Level 1 138.1 109.7 1293.6 14
+Level 2 115.5 100% 83.7 98% 967.0 99% 17 17
+Sample 2 Level 3 93.4 93% 60.4 109% 661.1 95% 25 18
+Level 4 79.9 103% 31.9 103% 355.5 93% 28 28
+Level 5 62.3 1.5 101.1 9
+K210254 - Page 12 of 30
+
+[Table 1 on page 12]
+CXCL5/ENA-78	50 ng/mL	1.1	-0.5-2.7	0.3	-0.2-0.7
+CXCL7/NAP-1	50 ng/mL	-1.2	-4.4-2.1	-1.1	-3.5-1.2
+CXCL8/IL8	50 ng/mL	1.2	-0.9-3.4	-0.5	-3.5-2.5
+CXCL9/MIG	50 ng/mL	-0.5	-2.5-1.5	-0.2	-3.2-2.7
+CXCL6/GCP-2	50 ng/mL	1.6	0.1-3.1	0.4	-0.2-1
+IFN gamma	50 ng/mL	-0.4	-2.9-2.2	0	-0.8-0.8
+LT alpha1 beta2	50 ng/mL	1.0	-0.5-2.5	-0.4	-0.8-0.1
+LTalpha2beta1	50 ng/mL	0	-1.1-1.1	0	-0.5-0.5
+PTX2	50 ng/mL	-2.0	-5.2-1.2	0	-0.5-0.5
+PTX3	50 ng/mL	0.6	-1.3-2.6	0.6	-0.1-1.3
+SDF1b	50 ng/mL	-0.1	-2.2-2	0	-0.8-0.8
+TNF alpha	50 ng/mL	0.5	-1.6-2.6	-0.1	-0.6-0.4
+TNF beta	50 ng/mL	1.1	-0.1-2.3	-0.2	-0.5-0.3
+
+[Table 2 on page 12]
+					TRAIL					CRP					IP10					Score		
+				Mean			%		Mean			%		Mean			%		Mean		Nominal	
+							Recovery					Recovery					Recovery					
+Sample 1		Level 1		132.3					109.5					1338.6					16			
+		Level 2		103.8		97%			78.1		92%			991.8		98%			21		21	
+		Level 3		81.7		97%			59.8		108%			681.7		90%			34		29	
+		Level 4		57.3		98%			32.1		106%			409.7		96%			52		49	
+		Level 5		35.8					1.0					175.0					36			
+Sample 2		Level 1		138.1					109.7					1293.6					14			
+		Level 2		115.5		100%			83.7		98%			967.0		99%			17		17	
+		Level 3		93.4		93%			60.4		109%			661.1		95%			25		18	
+		Level 4		79.9		103%			31.9		103%			355.5		93%			28		28	
+		Level 5		62.3					1.5					101.1					9			
+
+--- Page 13 ---
+Cumulatively, these data establish that HAMA exhibits minimal interference in the detection
+of target analytes measured by the MeMed BV assay and does not significantly impact the
+MeMed BV Score.
+4. Assay Reportable Range:
+Not applicable.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Calibration
+The calibration is a process used to generate the calibration curve and must be repeated every
+two weeks and/or when introducing a new test cartridge lot. The calibration curve translates
+RLU measurements to concentration of each analyte. A calibration is unique to a device and
+a cartridge lot. The calibrators are in effect synthetic samples which can be measured by the
+device using the normal cartridge. Each calibrator is a solution of the 3 analytes introduced as
+recombinant proteins. Each calibration set includes three vials that represent high, medium,
+and low values of the analyte ranges that impact the MeMed BV test score. Calibrators are
+provided by MeMed in vials which need to be stored in normal refrigerators (2-8°C). All
+three analytes are traceable to a standard. The TRAIL analyte is traced to international
+biological reference standard, NIBSC code: 04/166. The CRP analyte is traced to
+international standard, IFCC/BCR/CAP CRM 474. The IP-10 analyte is traced to an internal
+standard prepared by R&D Systems (Cat. #890836) due to the unavailability of international
+standards for IP-10.The material was produced following ISO Guide 34:2009.
+The quality indicators (i.e., max/min slope, max/min intercept, min slope, and R2) represent
+specifications for calibration curves created with released cartridges. These thresholds are
+established for each lot of cartridges during manufacturing (based on actual performance of
+the produced lot). The data is then encoded to the cartridge barcode, to be read by the
+analyzer when running a calibration. Failure to meet these thresholds (during run-time of a
+calibration) will fail the calibration. In case of a calibration failure the device will issue a
+failure message to the user and will prevent the failed cartridge-lot from running. The device
+will only run with cartridges from a lot which has a valid calibration. It is possible to
+calibrate more than one cartridge lot.
+Controls
+The MeMed BV External controls are intended for quality control testing in clinical
+laboratories. The control set includes two control vials containing purified TRAIL, IP-10,
+and CRP antigens in a protein buffer. One vial corresponds to a bacterial MeMed BV test
+score (expected score 90-100) and one vial corresponds to a viral MeMed BV test score
+(expected score 0-10). The software evaluates each control and notifies the user whether the
+evaluation is completed successfully.
+Specimen Stability Study
+A stability study was conducted to demonstrate appropriate handling conditions from blood
+draw to serum sample input to a MeMed BV cartridge. Four panel members were evaluated
+K210254 - Page 13 of 30
+
+--- Page 14 ---
+as part of this study which was performed in a single laboratory over four days (one day per
+panel member). The stability study panel included two clinical samples that represent score
+bin 1 (i.e., a low score ~ 5) and two clinical samples that represent score bin 5 (i.e., a high
+score, ~95).
+Each panel member was subjected to the following incubations at room temperature in the
+SST tube before centrifugation and running of the MeMed BV test. Three repeat runs were
+performed in parallel for each timepoint on three independent analyzers.
+Table 6. Specimen Stability Study Room Temperature Storage Conditions
+Incubation Time
+Sample #
+(Min)
+1 30
+2 60
+3 90
+4 120
+5 150
+Table 7. Specimen Stability Study Results
+Incubation Mean Mean Mean
+Mean
+Sample Time Concentration Concentration Concentration
+Score
+(min) TRAIL CRP IP-10
+30 65 162 211 92
+60 63 158 182 92
+High
+90 61 167 197 94
+Score 1
+120 58 170 194 95
+150 62 164 176 94
+30 33 119 220 97
+60 35 133 211 97
+High
+90 38 130 226 96
+Score 2
+120 41 115 228 94
+150 39 126 246 95
+30 104 14 144 8
+60 103 13 174 8
+Low
+900 97 13 172 10
+Score 1
+120 92 12 166 12
+150 94 13 198 11
+30 156 87 2,170 5
+60 165 97 2,036 5
+Low
+900 164 86 2,025 4
+Score 2
+120 153 100 1,983 6
+150 157 101 2,100 6
+K210254 - Page 14 of 30
+
+[Table 1 on page 14]
+Sample #	Incubation Time
+(Min)
+1	30
+2	60
+3	90
+4	120
+5	150
+
+[Table 2 on page 14]
+Incubation Time
+(Min)
+
+[Table 3 on page 14]
+Sample		Incubation			Mean			Mean			Mean		Mean
+Score
+		Time			Concentration			Concentration			Concentration		
+		(min)			TRAIL			CRP			IP-10		
+High
+Score 1	30			65			162			211			92
+	60			63			158			182			92
+	90			61			167			197			94
+	120			58			170			194			95
+	150			62			164			176			94
+High
+Score 2	30			33			119			220			97
+	60			35			133			211			97
+	90			38			130			226			96
+	120			41			115			228			94
+	150			39			126			246			95
+Low
+Score 1	30			104			14			144			8
+	60			103			13			174			8
+	900			97			13			172			10
+	120			92			12			166			12
+	150			94			13			198			11
+Low
+Score 2	30			156			87			2,170			5
+	60			165			97			2,036			5
+	900			164			86			2,025			4
+	120			153			100			1,983			6
+	150			157			101			2,100			6
+
+[Table 4 on page 14]
+Mean
+Score
+
+--- Page 15 ---
+Results from the stability study were analyzed via linear regression to identify whether slopes
+of best fit lines were statistically different from 0. If a slope was determined to have a
+statistically significant non-zero, slope, the earliest acceptable time point would be
+determined by the intersection of the 95% confidence interval bands with cutoff thresholds
+that correspond to a 20% increase or decrease in the value at 30 minutes, the shortest time for
+coagulation in the SST tubes instructions for use. Separate acceptance criteria were applied to
+the MeMed BV score that correspond to a maximal change of 12.5 score units. The TRAIL
+regression from the High Score 2 sample met these criteria with an acceptable storage limit
+of 120 minutes. These data cumulatively support a 120 minute storage claim before final
+processing and testing of serum specimens. No significant changes in MeMed Score were
+observed.
+An additional stability study was performed to identify potential effects of storage of
+centrifuged and collected serum specimens on MeMed BV test scores. Four clinical samples
+representing two high score and two low score specimens were measured after storage at
+either room temperature or 4°C. No significant changes were observed and which supports
+the recommended storage claims in labeling.
+Freeze-thaw Stability Study
+An additional stability study was performed to establish equivalence between fresh and
+frozen specimens and support the use of archived frozen specimens in the clinical validation
+study. A total of 40 clinical specimens were evaluated that spanned the entire assay range as
+indicated in the table below.
+Table 8. Freeze-thaw Stability Study Specimens
+# of Specimens
+Bin Index Score Bin Interpretation
+Evaluated
+High likelihood of
+5 90 ≤ s ≤ 100 12
+bacterial infection
+Moderate likelihood
+4 65 < s < 90 6
+of bacterial infection
+3 35 < s <65 Equivocal 4
+Moderate likelihood
+2 10 < s <35 6
+of viral infection
+High likelihood of
+1 0 ≤ s ≤ 10 12
+viral infection
+All collected serum aliquots were evaluated in triplicate on the MeMed BV test both fresh
+and after being stored frozen for the following time points: 24 hours, 1 month, 2 months, 3
+months, 6 months, and 9 months. No significant changes in MeMed Score were observed
+after a single freeze thaw cycle over the duration of this study which successfully
+demonstrated stability of frozen specimens when tested with the MeMed BV assay.
+K210254 - Page 15 of 30
+
+[Table 1 on page 15]
+Bin Index	Score Bin	Interpretation		# of Specimens	
+				Evaluated	
+5	90 ≤ s ≤ 100	High likelihood of
+bacterial infection	12		
+4	65 < s < 90	Moderate likelihood
+of bacterial infection	6		
+3	35 < s <65	Equivocal	4		
+2	10 < s <35	Moderate likelihood
+of viral infection	6		
+1	0 ≤ s ≤ 10	High likelihood of
+viral infection	12		
+
+--- Page 16 ---
+Stability of MeMed BV Calibrators
+Stability of calibrators for the MeMed BV Key instrument were evaluated in Real-Time,
+Transport, In-use, and open vial stability studies.
+Real-time Stability Study
+Real time stability testing was performed on three production lots when stored at 2-8°C and
+demonstrated stability of up to 3.5 months.
+Transport Stability Study
+A transport stability study was performed that evaluated the stability of one calibrator lot
+after exposure to several temperatures that simulate possible temperature deviations during
+shipment. Stability of the calibrators was demonstrated when exposed to room temperature
+for up to 48 hours or 30°C for up to 24 hours.
+In-use Stability
+An in-use stability study was conducted to evaluate the effect of calibrator exposure to
+ambient working conditions for a predefined period before running the MeMed BV test.
+Individual calibrators retained their activity for up to 4 hours at room temperature before
+running the BV test.
+Open Vial Stability
+Testing was conducted to evaluate the shelf-life of the calibrator vials after first being opened
+and used. Overall protein instability and decay was addressed in the real-time stability study.
+To demonstrate that opening vials did not affect calibrator homogeneity, precision of opened
+vials were compared to unopen vials after storage at the recommended conditions for various
+timepoints. No significant differences in calibrator precision were observed.
+Stability of MeMed BV Cartridges
+Shelf-life of the MeMed BV cartridge has been established in real-time, transport, and in-use
+stability studies.
+Real-time Stability Study
+Stability of MeMed BV cartridges was demonstrated at the recommended storage conditions
+(2-8°C) for 12 months from the manufacturing date.
+Transport Stability
+MeMed BV cartridges were exposed to temperature variations to simulate potential
+temperature deviations during shipment. Cartridges demonstrated stability after exposure to
+25°C for up to 48 hours and 30°C for up to 24 hours.
+In-use Stability
+K210254 - Page 16 of 30
+
+--- Page 17 ---
+In-use stability was assessed for MeMed BV cartridges after removal from recommended
+storage conditions (2-8°C). The study demonstrated in-use stability of up to 5 minutes after
+removal from cold storage. MeMed BV test cartridges should be kept at 2-8°C until just
+before use.
+6. Detection Limit:
+Limit of Quantitation
+For evaluated specimens with analyte levels below the limit of quantitation, the limit of
+quantitation value will be used to generate the MeMed BV score. Therefore a limit of
+detection and a limit of blank was not evaluated.
+The Total Error and precision for the lowest concentration of each measurand that could be
+reliably measured (i.e., Limit of Quantification or LoQ) by the MeMed BV Test was
+evaluated in accordance with CLSI EP17-A2, Evaluation of Detection Capability for Clinical
+Laboratory Measurement Procedures.
+The study used two cartridge lots with one MeMed Key analyzer and the samples described
+in Table 9 below. Each sample was tested three times on three non-consecutive days.
+Table 9. LoQ Study Panel Members
+TRAIL IP-10 CRP
+Sample
+(pg/mL) (pg/mL) (mg/L)
+1 12 80 0.8
+2 13.5 90 0.9
+3 15 100 1
+4 16.5 110 1.1
+The Total Error was calculated for each of the four concentration levels for three analytes as
+2X the observed SD.
+K210254 - Page 17 of 30
+
+[Table 1 on page 17]
+Sample		TRAIL			IP-10			CRP	
+		(pg/mL)			(pg/mL)			(mg/L)	
+1	12			80			0.8		
+2	13.5			90			0.9		
+3	15			100			1		
+4	16.5			110			1.1		
+
+--- Page 18 ---
+Table 10. LoQ Study Results
+Cartridge Lot Lot 1 Lot 2
+TRAIL IP-10 CRP TRAIL IP-10 CRP
+Sample Parameter
+(pg/mL) (pg/mL) (mg/L) (pg/mL) (pg/mL) (mg/L)
+Mean 13.4 90.3 0.9 13.9 80.4 0.9
+STD 0.8 7.0 0.1 1.1 11.0 0.1
+1
+CV (%) 6% 8% 7% 8% 14% 8%
+TE (%) 11% 15% 13% 16% 27% 16%
+Mean 15.0 98.7 1.0 15.8 85.8 1.0
+STD 1.2 14.0 0.1 1.0 11.6 0.1
+2
+CV (%) 8% 14% 7% 6% 13% 11%
+TE (%) 16% 28% 14% 12% 27% 22%
+Mean 17.3 106.2 1.1 16.9 93.6 1.1
+STD 2.5 5.4 0.03 1.6 2.8 0.1
+3
+CV (%) 14% 5% 3% 10% 3% 13%
+TE (%) 29% 10% 7% 19% 6% 26%
+Mean 18.1 111.1 1.2 18.1 103.3 1.2
+STD 1.1 4.4 0.1 1.6 15.7 0.1
+4
+CV (%) 6% 4% 9% 9% 15% 9%
+TE (%) 12% 8% 18% 18% 30% 18%
+The results show that for all the tested samples, MeMed BV test passes the acceptance
+criteria of TE. The formal LLOQ is established to the following values TRAIL -15pg/mL,
+CRP-1 mg/mL, IP-10 – 100 pg/mL as is set in MeMed Key analyzer.
+7. Assay Cut-Off:
+See clinical cut-off.
+8. Accuracy (Instrument):
+Not applicable.
+9. Carry-Over:
+A study was performed to evaluate the risk of carry-over between multiple cartridges
+evaluated on the MeMed Key instrument. Specifically, a low score (“L”) and high score
+(“H”) clinical specimen were evaluated according to the following sequences:
+1) H, H, H, H, H, L, H, L, H, L, H, L, H, L, H
+2) L, L, L, L, L, H, L, H, L, H, L, H, L, H, L.
+For both sequences evaluated, no significant difference was observed in assay score for either
+the high or low clinical specimens. These data support that no carry over occurs in the
+MeMed Key instrument with the MeMed BV assay cartridges.
+K210254 - Page 18 of 30
+
+[Table 1 on page 18]
+	Cartridge Lot					Lot 1									Lot 2							
+Sample		Parameter				TRAIL			IP-10			CRP			TRAIL			IP-10			CRP	
+						(pg/mL)			(pg/mL)			(mg/L)			(pg/mL)			(pg/mL)			(mg/L)	
+1			Mean		13.4			90.3			0.9			13.9			80.4			0.9		
+			STD		0.8			7.0			0.1			1.1			11.0			0.1		
+			CV (%)		6%			8%			7%			8%			14%			8%		
+			TE (%)		11%			15%			13%			16%			27%			16%		
+2			Mean		15.0			98.7			1.0			15.8			85.8			1.0		
+			STD		1.2			14.0			0.1			1.0			11.6			0.1		
+			CV (%)		8%			14%			7%			6%			13%			11%		
+			TE (%)		16%			28%			14%			12%			27%			22%		
+3			Mean		17.3			106.2			1.1			16.9			93.6			1.1		
+			STD		2.5			5.4			0.03			1.6			2.8			0.1		
+			CV (%)		14%			5%			3%			10%			3%			13%		
+			TE (%)		29%			10%			7%			19%			6%			26%		
+4			Mean		18.1			111.1			1.2			18.1			103.3			1.2		
+			STD		1.1			4.4			0.1			1.6			15.7			0.1		
+			CV (%)		6%			4%			9%			9%			15%			9%		
+			TE (%)		12%			8%			18%			18%			30%			18%		
+
+--- Page 19 ---
+10. Hook Effect:
+Contrived samples containing high levels of each measurand were prepared by spiking
+protein rich buffer with recombinant proteins. For each concentration level, three runs were
+measured on one analyzer on the same day.
+Table 11. Hook Effect Study Analyte Concentrations
+Samples TRAIL (pg/mL) IP-10 (pg/mL) CRP (mg/L)
+Sample 1 300 6000 250
+Sample 2 533 7333 333
+Sample 3 767 8666 417
+Sample 4 1000 10000 500
+Table 12. Hook Effect Study Results.
+Analyzer Measurement (RLUs)
+Samples TRAIL IP-10 CRP
+Sample 1 2018979 6645676 3656138
+Sample 2 3209761 8029144 4693431
+Sample 3 4448549 9508794 5348636
+Sample 4 6111236 10904508 6125845
+No significant loss of signal was observed for the evaluated specimens containing high
+analyte concentrations. Therefore, no Hook effect has been identified for the MeMed BV
+test.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Not applicable.
+2. Matrix Comparison:
+Not applicable.
+C Clinical Studies:
+1. Clinical Sensitivity:
+The diagnostic performance of the MeMed BV test was established by a prospective, multi-
+center, observational, blinded study (Apollo, Clinicaltrials.gov identifier: NCT04690569)
+across 11 medical centers (9 in the US and 2 in Israel). Prospectively enrolled cases were
+further supplemented with archived cases randomly drawn from two previously completed
+prospective clinical studies conducted outside the U.S. (Observer, NCT03011515; and
+AutoPilot, NCT03052088).The primary analysis of the complete clinical study cohort
+K210254 - Page 19 of 30
+
+[Table 1 on page 19]
+	Samples			TRAIL (pg/mL)			IP-10 (pg/mL)			CRP (mg/L)	
+Sample 1			300			6000			250		
+Sample 2			533			7333			333		
+Sample 3			767			8666			417		
+Sample 4			1000			10000			500		
+
+[Table 2 on page 19]
+				Analyzer Measurement (RLUs)							
+	Samples			TRAIL			IP-10			CRP	
+Sample 1			2018979			6645676			3656138		
+Sample 2			3209761			8029144			4693431		
+Sample 3			4448549			9508794			5348636		
+Sample 4			6111236			10904508			6125845		
+
+--- Page 20 ---
+established the diagnostic performance of the MeMed BV test for differentiating bacterial
+from viral infection in patients with suspected acute bacterial or viral infection using forced
+expert adjudication as the comparator method (in which physicians were forced to make a
+bacterial, viral, or noninfectious diagnosis with categorization of patients as indeterminate
+not allowed). In this analysis, experts were blinded to both C-reactive protein (CRP) and
+procalcitonin (PCT) values. A secondary analysis was also performed using consensus expert
+adjudication as a comparator method (in which indeterminate cases were removed from
+analysis and with the experts given CRP and PCT values). Data from the secondary objective
+is also presented below and should be considered supplementary information. Patients
+classified as indeterminate span the complete range of MeMed BV score values (0-100).
+The study population comprised hospital admitted, Emergency Department (ED) and urgent
+care center patients over the age of 90 days, with suspected acute bacterial or viral infection.
+The primary objective cohort (forced adjudication) comprised 1016 patients (476
+prospectively recruited adult and pediatric patients and 540 archived cases). Enrolled
+patients ranged in age from 3 months to 98.3 years, with mean age 28.6 years and 49.9%
+female. The race and ethnicity representation in the U.S. patients of this cohort
+(Hispanic/Latino 15.6%, Asian 5.4%, Black or African American 22.0% and White
+American 62.9%) is comparable to that given in the 2019 U.S. Census (Hispanic/Latino
+18.5%, Asian 5.9%, Black or African American 13.4% and White American 76.3%). Almost
+half of the cohort (46.0%) presented by the second day of symptom onset and one third
+(33.0%) were hospitalized. Prior to enrollment 3.9% received antibiotics. The most common
+clinical syndrome was respiratory tract infection (RTI; 76.3%).
+The demographics of the forced adjudication study population are found in Table 13 below.
+Table 13. Demographics of the Primary Objective Clinical Study Cohort (Forced
+Adjudication)
+Forced Forced
+Study
+Bacterial Viral/Noninfectious
+Demographic/Clinical Category Population
+Adjudication Adjudication
+(N = 1016)
+(N = 160) (N = 856)
+Female 507 (49.9%) 73 (45.6%) 434 (50.7%)
+Gender
+Male 509 (50.1%) 87 (54.4%) 422 (49.3%)
+3 months to ≤ 2
+167 (16.4%) 12 (7.5%) 155 (18.1%)
+years
+Age > 2 to ≤ 12 years 223 (21.9%) 30 (18.8%) 193 (22.5%)
+> 12 to ≤ 18 years 42 (4.1%) 4 (2.5%) 38 (4.4%)
+> 18 years 584 (57.5%) 114 (71.3%) 470 (54.9%)
+Ethnicity Hispanic/Latino 59 (5.8%) 4 (2.5%) 55 (6.4%)
+Native American 0 (0.0%, 0.0%) 0 (0.0%, 0.0%) 0 (0.0%, 0.0%)
+Asian 20 (2.0%,
+1 (0.6%, 2.4%) 10 (2.2%, 5.7%)
+5.4%)
+Race1
+Black or African 82 (8.1%, 10 (6.3%,
+72 (8.4%, 21.8%)
+American 22.0%) 24.4$)
+Native Hawaiian 0 (0.0%, 0.0%) 0 (0.0%, 0.0%) 0 (0.0%, 0.0%)
+K210254 - Page 20 of 30
+
+[Table 1 on page 20]
+Demographic/Clinical Category		Study
+Population
+(N = 1016)		Forced			Forced	
+				Bacterial			Viral/Noninfectious	
+				Adjudication			Adjudication	
+				(N = 160)			(N = 856)	
+Gender	Female	507 (49.9%)	73 (45.6%)			434 (50.7%)		
+	Male	509 (50.1%)	87 (54.4%)			422 (49.3%)		
+Age	3 months to ≤ 2
+years	167 (16.4%)	12 (7.5%)			155 (18.1%)		
+	> 2 to ≤ 12 years	223 (21.9%)	30 (18.8%)			193 (22.5%)		
+	> 12 to ≤ 18 years	42 (4.1%)	4 (2.5%)			38 (4.4%)		
+	> 18 years	584 (57.5%)	114 (71.3%)			470 (54.9%)		
+Ethnicity	Hispanic/Latino	59 (5.8%)	4 (2.5%)			55 (6.4%)		
+Race1	Native American	0 (0.0%, 0.0%)	0 (0.0%, 0.0%)			0 (0.0%, 0.0%)		
+	Asian	20 (2.0%,
+5.4%)	1 (0.6%, 2.4%)			10 (2.2%, 5.7%)		
+	Black or African
+American	82 (8.1%,
+22.0%)	10 (6.3%,
+24.4$)			72 (8.4%, 21.8%)		
+	Native Hawaiian	0 (0.0%, 0.0%)	0 (0.0%, 0.0%)			0 (0.0%, 0.0%)		
+
+[Table 2 on page 20]
+Study
+Population
+(N = 1016)
+
+--- Page 21 ---
+White 234 (23.0%, 25 (15.6%,
+209 (24.4%, 63.1%)
+62.9%) 61.0%)
+Other 36 (3.5%, 5 (3.1%,
+31 (3.6%, 9.4%)
+9.7%) 12.2%)
+Non-US 644 (63.4%) 119 (74.4%) 525 (61.3%)
+Maximal
+Temperature °C, 38.6 (1.03) 38.9 (0.86) 38.6 (1.05)
+(Mean [SD])
+Received antibiotics
+40 (3.9%) 6 (3.8%) 34 (4.0%)
+prior to enrollment
+Days from symptom
+Medical
+onset (median 3.0 (2.00) 3.0 (2.00) 3.0 (2.00)
+History
+[IQR])
+≤ 2 days from
+467 (46.0%) 72 (45.0%) 395 (46.1%)
+symptom onsent
+Hospital admission 335 (33.0%) 94 (58.8%) 241 (28.2%)
+Days hospitalized
+4.0 (3.0) 5.0 (3.0) 4.0 (3.0)
+(median [IQR])
+Diabetes 94 (9.3%) 33 (20.6%) 61 (7.1%)
+Hypertension 164 (16.1%) 46 (28.8%) 118 (13.8%)
+Ischemic heart
+Comorbidity 46 (4.5%) 17 (10.6%) 29 (3.4%)
+disease
+COPD 34 (3.3%) 15 (9.4%) 19 (2.2%)
+Hyperlipidemia 115 (11.3%) 39 (24.4%) 76 (8.9%)
+CNS infection 1 (0.1%) 1 (0.6%) 0 (0.0%)
+Fever without source 6 (0.6%) 1 (0.6%) 5 (0.6%)
+Clinical LRTI 292 (28.7%) 82 (51.3%) 210 (24.5%)
+Syndrome2 URTI 505 (49.7%) 44 (27.5%) 461 (53.9%)
+UTI 18 (1.8%) 14 (8.8%) 4 (0.5%)
+Other 219 (21.6%) 20 (12.5%) 199 (23.2%)
+1Each patient can only be included in one category. Patients labeled as having more than one
+race are included in the other category. Percentages are relative to all patients and all US
+patients, respectively.
+2Patients can be included in more than one clinical syndrome category except for “Other”.
+The Other category includes abdominal pain, appendicitis, asthma, cellulitis, febrile
+convulsions, fever, gastroenteritis, headache, and unspecified viral infection.
+The cohort for the secondary study objective (in which indeterminate cases were removed
+from the analysis) comprised 872 patients ranging in age from 3 months to 98.3 years, with
+mean age 28.2 years and 49.9% female. The race and ethnicity representation in the US
+patients of this cohort (Hispanic/Latino 15.5%, Asian 5.6%, Black or African American
+22.6% and White American 62.8%) is comparable to that given in the 2019 US Census
+(Hispanic/Latino 18.5%, Asian 5.9%, Black or African American 13.4% and White
+American 76.3%). Almost half of the cohort (45.9%) presented by the second day of
+symptom onset and one third (32.5%) were hospitalized. Prior to enrollment 3.6% received
+antibiotics. The most common clinical syndrome was URTI (50.9%) followed by LRTI
+(26.9%).
+K210254 - Page 21 of 30
+
+[Table 1 on page 21]
+	White	234 (23.0%,
+62.9%)	25 (15.6%,
+61.0%)	209 (24.4%, 63.1%)
+	Other	36 (3.5%,
+9.7%)	5 (3.1%,
+12.2%)	31 (3.6%, 9.4%)
+	Non-US	644 (63.4%)	119 (74.4%)	525 (61.3%)
+Medical
+History	Maximal
+Temperature °C,
+(Mean [SD])	38.6 (1.03)	38.9 (0.86)	38.6 (1.05)
+	Received antibiotics
+prior to enrollment	40 (3.9%)	6 (3.8%)	34 (4.0%)
+	Days from symptom
+onset (median
+[IQR])	3.0 (2.00)	3.0 (2.00)	3.0 (2.00)
+	≤ 2 days from
+symptom onsent	467 (46.0%)	72 (45.0%)	395 (46.1%)
+	Hospital admission	335 (33.0%)	94 (58.8%)	241 (28.2%)
+	Days hospitalized
+(median [IQR])	4.0 (3.0)	5.0 (3.0)	4.0 (3.0)
+Comorbidity	Diabetes	94 (9.3%)	33 (20.6%)	61 (7.1%)
+	Hypertension	164 (16.1%)	46 (28.8%)	118 (13.8%)
+	Ischemic heart
+disease	46 (4.5%)	17 (10.6%)	29 (3.4%)
+	COPD	34 (3.3%)	15 (9.4%)	19 (2.2%)
+	Hyperlipidemia	115 (11.3%)	39 (24.4%)	76 (8.9%)
+Clinical
+Syndrome2	CNS infection	1 (0.1%)	1 (0.6%)	0 (0.0%)
+	Fever without source	6 (0.6%)	1 (0.6%)	5 (0.6%)
+	LRTI	292 (28.7%)	82 (51.3%)	210 (24.5%)
+	URTI	505 (49.7%)	44 (27.5%)	461 (53.9%)
+	UTI	18 (1.8%)	14 (8.8%)	4 (0.5%)
+	Other	219 (21.6%)	20 (12.5%)	199 (23.2%)
+
+--- Page 22 ---
+The demographics of the consensus adjudication study population are found in Table 14
+below.
+Table 14. Demographics of the Secondary Objective Clinical Study Cohort (Consensus
+Adjudication)
+Consensus Consensus
+Study
+Bacterial Viral/Noninfectious
+Demographic/Clinical Category Population
+Adjudication Adjudication
+(N = 872)
+(N = 128) (N = 744)
+Female 435 (49.9%) 61 (47.7%) 374 (50.3%)
+Gender
+Male 437 (50.1%) 67 (52.3%) 370 (49.7%)
+3 months to ≤ 2
+147 (16.9%) 7 (5.5%) 140 (18.8%)
+years
+Age > 2 to ≤ 12 years 195 (22.4%) 20 (15.6%) 175 (23.5%)
+> 12 to ≤ 18 years 37 (4.2%) 2 (1.6%) 35 (4.7%)
+> 18 years 493 (56.5%) 99 (77.3%) 394 (53.0%)
+Ethnicity Hispanic/Latino 51 (5.8%) 4 (3.1%) 47 (6.3%)
+Native American 0 (0.0%, 0.0%) 0 (0.0%, 0.0%) 0 (0.0%, 0.0%)
+Asian 18 (2.1%,
+0 (0.0%, 0.0%) 18 (2.4%, 6.1%)
+5.6%)
+Black or African 73 (8.4%, 6 (4.7%,
+67 (9.0%, 22.6%)
+American 22.6%) 22.2%)
+Race1 Native Hawaiian 0 (0.0%, 0.0%) 0 (0.0%, 0.0%) 0 (0.0%, 0.0%)
+203 (23.3%, 18 (14.1%,
+White 185 (24.9%, 62.5%)
+62.8%) 66.7%)
+29 (3.3%, 3 (2.3%,
+Other 26 (3.5%, 8.8%)
+9.0%) 11.1%)
+Non-US 549 (63.0%) 101 (78.9%) 448 (60.2%)
+Maximal
+Temperature °C, 38.6 (1.03) 38.9 (0.84) 38.6 (1.05)
+(Mean [SD])
+Received antibiotics
+31 (3.6%) 4 (3.1%) 27 (3.6%)
+prior to enrollment
+Days from symptom
+Medical
+onset (median 3.0 (2.00) 3.0 (2.00) 3.0 (2.00)
+History
+[IQR])
+≤ 2 days from
+400 (45.9%) 53 (41.4%) 347 (46.6%)
+symptom onsent
+Hospital admission 283 (32.5%) 85 (66.4%) 198 (26.6%)
+Days hospitalized
+4.0 (3.00) 6.0 (4.00) 4.0 (2.00)
+(median [IQR])
+Diabetes 82 (9.4%) 31 (24.2%) 51 (6.9%)
+Hypertension 140 (16.1%) 40 (31.3%) 100 (13.4%)
+Ischemic heart
+Comorbidity 35 (4.0%) 15 (11.7%) 11 (1.5%)
+disease
+COPD 26 (3.0%) 15 (11.7%) 11 (1.5%)
+Hyperlipidemia 99 (11.4%) 39 (30.5%) 60 (8.1%)
+K210254 - Page 22 of 30
+
+[Table 1 on page 22]
+Demographic/Clinical Category		Study
+Population
+(N = 872)		Consensus			Consensus	
+				Bacterial			Viral/Noninfectious	
+				Adjudication			Adjudication	
+				(N = 128)			(N = 744)	
+Gender	Female	435 (49.9%)	61 (47.7%)			374 (50.3%)		
+	Male	437 (50.1%)	67 (52.3%)			370 (49.7%)		
+Age	3 months to ≤ 2
+years	147 (16.9%)	7 (5.5%)			140 (18.8%)		
+	> 2 to ≤ 12 years	195 (22.4%)	20 (15.6%)			175 (23.5%)		
+	> 12 to ≤ 18 years	37 (4.2%)	2 (1.6%)			35 (4.7%)		
+	> 18 years	493 (56.5%)	99 (77.3%)			394 (53.0%)		
+Ethnicity	Hispanic/Latino	51 (5.8%)	4 (3.1%)			47 (6.3%)		
+Race1	Native American	0 (0.0%, 0.0%)	0 (0.0%, 0.0%)			0 (0.0%, 0.0%)		
+	Asian	18 (2.1%,
+5.6%)	0 (0.0%, 0.0%)			18 (2.4%, 6.1%)		
+	Black or African
+American	73 (8.4%,
+22.6%)	6 (4.7%,
+22.2%)			67 (9.0%, 22.6%)		
+	Native Hawaiian	0 (0.0%, 0.0%)	0 (0.0%, 0.0%)			0 (0.0%, 0.0%)		
+	White	203 (23.3%,
+62.8%)	18 (14.1%,
+66.7%)			185 (24.9%, 62.5%)		
+	Other	29 (3.3%,
+9.0%)	3 (2.3%,
+11.1%)			26 (3.5%, 8.8%)		
+	Non-US	549 (63.0%)	101 (78.9%)			448 (60.2%)		
+Medical
+History	Maximal
+Temperature °C,
+(Mean [SD])	38.6 (1.03)	38.9 (0.84)			38.6 (1.05)		
+	Received antibiotics
+prior to enrollment	31 (3.6%)	4 (3.1%)			27 (3.6%)		
+	Days from symptom
+onset (median
+[IQR])	3.0 (2.00)	3.0 (2.00)			3.0 (2.00)		
+	≤ 2 days from
+symptom onsent	400 (45.9%)	53 (41.4%)			347 (46.6%)		
+	Hospital admission	283 (32.5%)	85 (66.4%)			198 (26.6%)		
+	Days hospitalized
+(median [IQR])	4.0 (3.00)	6.0 (4.00)			4.0 (2.00)		
+Comorbidity	Diabetes	82 (9.4%)	31 (24.2%)			51 (6.9%)		
+	Hypertension	140 (16.1%)	40 (31.3%)			100 (13.4%)		
+	Ischemic heart
+disease	35 (4.0%)	15 (11.7%)			11 (1.5%)		
+	COPD	26 (3.0%)	15 (11.7%)			11 (1.5%)		
+	Hyperlipidemia	99 (11.4%)	39 (30.5%)			60 (8.1%)		
+
+[Table 2 on page 22]
+Study
+Population
+(N = 872)
+
+--- Page 23 ---
+CNS infection 1 (0.1%) 1 (0.8%) 0 (0.0%)
+Fever without source 4 (0.5%) 0 (0.0%) 4 (0.5%)
+Clinical LRTI 235 (26.9%) 73 (57.0%) 162 (21.8%)
+Syndrome2 URTI 505 (49.7%) 44 (27.5%) 461 (53.9%)
+UTI 18 (1.8%) 14 (8.8%) 4 (0.5%)
+Other 219 (21.6%) 20 (12.5%) 199 (23.2%)
+1Each patient can only be included in one category. Patients labeled as having more than one
+race are included in the other category. Percentages are relative to all patients and all US
+patients, respectively.
+2Patients can be included in more than one clinical syndrome category except for “Other”.
+The Other category includes abdominal pain, appendicitis, asthma, cellulitis, febrile
+convulsions, fever, gastroenteritis, headache, and unspecified viral infection.
+The distribution of scores among different demographic groups for both the U.S. primary
+cohort (forced adjudication) and the U.S. secondary cohort (consensus adjudication) are
+presented in Tables 15 and 16 below.
+Table 15. Forced Physician Diagnosis Score Distribution Among Demographic Groups
+MeMed BV Score Bin
+Race N 0 ≤ score ≤ 10 10 < score < 35 35 ≤ score ≤ 65 65 < score < 90 90 ≤ score ≤ 100
+Viral/ Viral/ Viral/ Viral/ Viral/
+Bacterial Bacterial Bacterial Bacterial Bacterial
+NI1 NI1 NI1 NI1 NI1
+Asian 20 0 12 0 2 1 3 0 0 0 2
+Black 82 0 51 1 10 1 6 3 3 5 2
+White 234 2 128 5 40 4 19 3 18 11 4
+Hispanic
+or 58 0 36 0 7 1 5 0 4 3 2
+Latino
+1NI, non-infectious
+Table 16. Consensus Physician Diagnosis Score Distribution Among Demographic
+Groups
+MeMed BV Score Bin
+Race N 0 ≤ score ≤ 10 10 < score < 35 35 ≤ score ≤ 65 65 < score < 90 90 ≤ score ≤ 100
+Viral/ Viral/ Viral/ Viral/ Viral/
+Bacterial Bacterial Bacterial Bacterial Bacterial
+NI1 NI1 NI1 NI1 NI1
+Asian 18 0 12 0 2 0 3 0 0 0 1
+Black 73 0 49 0 9 0 5 3 2 3 2
+White 203 2 122 1 37 1 13 3 13 11 0
+Hispanic
+or 51 0 35 0 6 1 3 0 3 3 0
+Latino
+1NI, non-infectious
+K210254 - Page 23 of 30
+
+[Table 1 on page 23]
+Clinical
+Syndrome2	CNS infection	1 (0.1%)	1 (0.8%)	0 (0.0%)
+	Fever without source	4 (0.5%)	0 (0.0%)	4 (0.5%)
+	LRTI	235 (26.9%)	73 (57.0%)	162 (21.8%)
+	URTI	505 (49.7%)	44 (27.5%)	461 (53.9%)
+	UTI	18 (1.8%)	14 (8.8%)	4 (0.5%)
+	Other	219 (21.6%)	20 (12.5%)	199 (23.2%)
+
+[Table 2 on page 23]
+Race	N	MeMed BV Score Bin																								
+			0 ≤ score ≤ 10					10 < score < 35					35 ≤ score ≤ 65					65 < score < 90					90 ≤ score ≤ 100			
+		Bacterial			Viral/		Bacterial			Viral/		Bacterial			Viral/		Bacterial			Viral/		Bacterial			Viral/	
+					NI1					NI1					NI1					NI1					NI1	
+Asian	20	0		12			0		2			1		3			0		0			0		2		
+Black	82	0		51			1		10			1		6			3		3			5		2		
+White	234	2		128			5		40			4		19			3		18			11		4		
+Hispanic
+or
+Latino	58	0		36			0		7			1		5			0		4			3		2		
+
+[Table 3 on page 23]
+Race	N	MeMed BV Score Bin																								
+			0 ≤ score ≤ 10					10 < score < 35					35 ≤ score ≤ 65					65 < score < 90					90 ≤ score ≤ 100			
+		Bacterial			Viral/		Bacterial			Viral/		Bacterial			Viral/		Bacterial			Viral/		Bacterial			Viral/	
+					NI1					NI1					NI1					NI1					NI1	
+Asian	18	0		12			0		2			0		3			0		0			0		1		
+Black	73	0		49			0		9			0		5			3		2			3		2		
+White	203	2		122			1		37			1		13			3		13			11		0		
+Hispanic
+or
+Latino	51	0		35			0		6			1		3			0		3			3		0		
+
+--- Page 24 ---
+The clinical study results show a relationship between the MeMed BV Score and the
+increasing probability of bacterial infection across each MeMed Score Bins. The Likelihood
+Ratios (LR) in Tables 17-18 (below) were calculated using the standard definition where LR
+equals the probability that an individual with disease has the test result divided by the
+probability that an individual without disease has the test result. This formula was applied to
+each MeMed Score Bin separately. These predictive values depend on the likelihood ratios
+and the prevalence of disease. Laboratories and other users should establish their own
+reference intervals for their patient populations using the MeMed BV test to reflect potential
+sources of variability, such as patient gender, race, age, and preparation techniques. Results
+from prospectively collected samples are included in Table 17 and results from testing of
+frozen archived specimens are included in Table 18.
+Table 17. Likelihood Ratios for Prospective Clinical Study Population Using the Forced
+Diagnosis (N = 476)
+Forced Forced Viral/ % % % Patients
+MeMed BV LR (95%
+N Bacterial Noninfectious Total Patients Viral/
+Score Bin CI)
+Diagnosis Diagnosis Patients Bacterial Noninfectious
+12.25 (6.9-
+90 ≤ score ≤ 100 42 27 15 8.8 64.3 35.7
+21.7)
+3.40 (1.8-
+65 < score < 90 39 13 26 8.2 33.3 66.7
+6.3)
+1.89 (1.0-
+35 ≤ score ≤ 65 46 10 36 9.7 21.7 78.3
+3.6)
+0.68 (0.3-
+10 < score < 35 77 7 70 16.2 9.1 90.9
+1.4)
+0 ≤ score ≤ 10 272 4 268 57.1 1.5 98.5 0.1 (0.0-0.3)
+Total 476 61 415 100
+Table 18. Likelihood Ratios for Archived Specimens Using the Forced Diagnosis (N =
+540)
+Forced Forced Viral/ % % % Patients
+MeMed BV LR (95%
+N Bacterial Noninfectious Total Patients Viral/
+Score Bin CI)
+Diagnosis Diagnosis Patients Bacterial Noninfectious
+6.42 (4.9-
+90 ≤ score ≤ 100 127 75 52 23.5 59.1 40.9
+8.5)
+1.38 (0.8-
+65 < score < 90 55 13 42 10.2 23.6 76.4
+2.5)
+0.53 (0.2-
+35 ≤ score ≤ 65 56 6 50 10.4 10.7 89.3
+1.2)
+0.09 (0.0-
+10 < score < 35 96 2 94 17.8 2.1 97.9
+0.2)
+0.07 (0.0-
+0 ≤ score ≤ 10 206 3 203 38.2 1.5 98.5
+0.2)
+Total 540 99 441 100
+K210254 - Page 24 of 30
+
+[Table 1 on page 24]
+MeMed BV
+Score Bin	N	Forced
+Bacterial
+Diagnosis	Forced Viral/
+Noninfectious
+Diagnosis	%
+Total
+Patients	%
+Patients
+Bacterial	% Patients
+Viral/
+Noninfectious	LR (95%
+CI)
+90 ≤ score ≤ 100	42	27	15	8.8	64.3	35.7	12.25 (6.9-
+21.7)
+65 < score < 90	39	13	26	8.2	33.3	66.7	3.40 (1.8-
+6.3)
+35 ≤ score ≤ 65	46	10	36	9.7	21.7	78.3	1.89 (1.0-
+3.6)
+10 < score < 35	77	7	70	16.2	9.1	90.9	0.68 (0.3-
+1.4)
+0 ≤ score ≤ 10	272	4	268	57.1	1.5	98.5	0.1 (0.0-0.3)
+Total	476	61	415	100			
+
+[Table 2 on page 24]
+Forced
+Bacterial
+Diagnosis
+
+[Table 3 on page 24]
+Forced Viral/
+Noninfectious
+Diagnosis
+
+[Table 4 on page 24]
+%
+Total
+Patients
+
+[Table 5 on page 24]
+%
+Patients
+Bacterial
+
+[Table 6 on page 24]
+% Patients
+Viral/
+Noninfectious
+
+[Table 7 on page 24]
+MeMed BV
+Score Bin
+
+[Table 8 on page 24]
+LR (95%
+CI)
+
+[Table 9 on page 24]
+MeMed BV
+Score Bin	N	Forced
+Bacterial
+Diagnosis	Forced Viral/
+Noninfectious
+Diagnosis	%
+Total
+Patients	%
+Patients
+Bacterial	% Patients
+Viral/
+Noninfectious	LR (95%
+CI)
+90 ≤ score ≤ 100	127	75	52	23.5	59.1	40.9	6.42 (4.9-
+8.5)
+65 < score < 90	55	13	42	10.2	23.6	76.4	1.38 (0.8-
+2.5)
+35 ≤ score ≤ 65	56	6	50	10.4	10.7	89.3	0.53 (0.2-
+1.2)
+10 < score < 35	96	2	94	17.8	2.1	97.9	0.09 (0.0-
+0.2)
+0 ≤ score ≤ 10	206	3	203	38.2	1.5	98.5	0.07 (0.0-
+0.2)
+Total	540	99	441	100			
+
+[Table 10 on page 24]
+Forced
+Bacterial
+Diagnosis
+
+[Table 11 on page 24]
+Forced Viral/
+Noninfectious
+Diagnosis
+
+[Table 12 on page 24]
+%
+Total
+Patients
+
+[Table 13 on page 24]
+%
+Patients
+Bacterial
+
+[Table 14 on page 24]
+% Patients
+Viral/
+Noninfectious
+
+[Table 15 on page 24]
+MeMed BV
+Score Bin
+
+[Table 16 on page 24]
+LR (95%
+CI)
+
+--- Page 25 ---
+The Cochran Armitage test demonstrated a significant trend between the MeMed BV Score
+and the increasing likelihood of bacterial infection across the MeMed BV Score Bins (p <
+0.0001). Across both study cohorts, a high percentage of patients are found in the outer bins
+(bin 1[0 ≤ score ≤ 10] and bin 5 [90 ≤ score ≤ 100]), representing a very high likelihood of
+viral or bacterial infection, respectively.
+Table 19. Likelihood Ratios for Prospective Clinical Study Population Using the
+Consensus Diagnosis (N = 416)
+Forced Forced Viral/ % % % Patients
+MeMed BV LR (95%
+N Bacterial Noninfectious Total Patients Viral/
+Score Bin CI)
+Diagnosis Diagnosis Patients Bacterial Noninfectious
+33.8 (14.6-
+90 ≤ score ≤ 100 30 24 6 7.2 80.0 20.0
+78.2)
+5.3 (2.8-
+65 < score < 90 31 12 19 7.5 38.7 61.3
+10.2)
+35 ≤ score ≤ 65 30 4 26 7.2 13.3 86.7 1.3 (0.5-3.6)
+0.13 (0.0-
+10 < score < 35 66 1 65 15.9 1.5 98.5
+0.9)
+0 ≤ score ≤ 10 259 3 256 62.3 1.2 98.8 0.1 (0.0-0.3)
+Total 416 44 372 100
+Table 20. Likelihood Ratios for Archived Clinical Study Population Using the
+Consensus Diagnosis (N = 456)
+Forced Forced Viral/ % % % Patients
+MeMed BV LR (95%
+N Bacterial Noninfectious Total Patients Viral/
+Score Bin CI)
+Diagnosis Diagnosis Patients Bacterial Noninfectious
+19.5 (12.2-
+90 ≤ score ≤ 100 92 75 17 20.2 81.5 18.5
+31.3)
+65 < score < 90 34 7 27 7.5 20.6 79.4 1.2 (0.5-2.5)
+35 ≤ score ≤ 65 42 2 40 9.2 4.8 95.2 0.2 (0.1-0.9)
+10 < score < 35 89 0 89 19.5 0.0 100.0 0.0
+0 ≤ score ≤ 10 199 0 199 43.6 0.0 100.0 0.0
+Total 456 84 372 100
+The Cochran Armitage test demonstrated a significant trend between the MeMed BV Score
+and the increasing likelihood of bacterial infection across the MeMed BV Score Bins (p <
+0.0001). Once again, across both study cohorts, a large percentage of patients are found in
+the outer bins (bin 1[0 ≤ score ≤ 10] and bin 5 [90 ≤ score ≤ 100], representing a very high
+likelihood of viral or bacterial infection, respectively.
+K210254 - Page 25 of 30
+
+[Table 1 on page 25]
+MeMed BV
+Score Bin	N	Forced
+Bacterial
+Diagnosis	Forced Viral/
+Noninfectious
+Diagnosis	%
+Total
+Patients	%
+Patients
+Bacterial	% Patients
+Viral/
+Noninfectious	LR (95%
+CI)
+90 ≤ score ≤ 100	30	24	6	7.2	80.0	20.0	33.8 (14.6-
+78.2)
+65 < score < 90	31	12	19	7.5	38.7	61.3	5.3 (2.8-
+10.2)
+35 ≤ score ≤ 65	30	4	26	7.2	13.3	86.7	1.3 (0.5-3.6)
+10 < score < 35	66	1	65	15.9	1.5	98.5	0.13 (0.0-
+0.9)
+0 ≤ score ≤ 10	259	3	256	62.3	1.2	98.8	0.1 (0.0-0.3)
+Total	416	44	372	100			
+
+[Table 2 on page 25]
+Forced
+Bacterial
+Diagnosis
+
+[Table 3 on page 25]
+Forced Viral/
+Noninfectious
+Diagnosis
+
+[Table 4 on page 25]
+%
+Total
+Patients
+
+[Table 5 on page 25]
+%
+Patients
+Bacterial
+
+[Table 6 on page 25]
+% Patients
+Viral/
+Noninfectious
+
+[Table 7 on page 25]
+MeMed BV
+Score Bin
+
+[Table 8 on page 25]
+LR (95%
+CI)
+
+[Table 9 on page 25]
+MeMed BV
+Score Bin	N	Forced
+Bacterial
+Diagnosis	Forced Viral/
+Noninfectious
+Diagnosis	%
+Total
+Patients	%
+Patients
+Bacterial	% Patients
+Viral/
+Noninfectious	LR (95%
+CI)
+90 ≤ score ≤ 100	92	75	17	20.2	81.5	18.5	19.5 (12.2-
+31.3)
+65 < score < 90	34	7	27	7.5	20.6	79.4	1.2 (0.5-2.5)
+35 ≤ score ≤ 65	42	2	40	9.2	4.8	95.2	0.2 (0.1-0.9)
+10 < score < 35	89	0	89	19.5	0.0	100.0	0.0
+0 ≤ score ≤ 10	199	0	199	43.6	0.0	100.0	0.0
+Total	456	84	372	100			
+
+[Table 10 on page 25]
+Forced
+Bacterial
+Diagnosis
+
+[Table 11 on page 25]
+Forced Viral/
+Noninfectious
+Diagnosis
+
+[Table 12 on page 25]
+%
+Total
+Patients
+
+[Table 13 on page 25]
+%
+Patients
+Bacterial
+
+[Table 14 on page 25]
+% Patients
+Viral/
+Noninfectious
+
+[Table 15 on page 25]
+MeMed BV
+Score Bin
+
+[Table 16 on page 25]
+LR (95%
+CI)
+
+--- Page 26 ---
+To further demonstrate whether the MeMed BV test will provide clinically significant results
+in the intended use population, the sponsor also considered analysis of the area under the
+receiver operating characteristic curve for the MeMed BV test and also for comparison
+biomarkers (i.e., PCT, CRP, WBC, and absolute neutrophil count [ANC]). For the primary
+objective cohort, where the adjudicators were blinded to CRP, PCT, and MeMed BV, the
+MeMed BV (AUC 0.9; 95% CI:0.87-0.94) test outperformed WBC (AUC 0.77; 95% CI:
+0.73-0.82), ANC (AUC 0.80; 95% CI:0.76-0.85), CRP (AUC 0.86; 95% CI:0.82-0.90.), and
+PCT (AUC 0.7; 95% CI:0.65-0.74) across the patients with all biomarker measurements
+(N=1011).
+MeMed BV Performance Across Viral Detections
+57.6% (N = 585) and 60.7% (N = 529) of the clinical study patients had at least one viral
+detection by Polymerase Chain Reaction or rapid antigen testing in the primary (Figure 1)
+and secondary (Figure 2) objective cohorts, respectively.
+Every dot is a patient; blue indicates RV (viral physician diagnosis) and RNI (non-Infectious
+physician diagnosis) patients and red indicates RB (bacterial physician diagnosis) patients.
+The x-axis is each viral detection and the y-axis is the MeMed BV score. The black line
+denotes the group median and the purple circle corresponds to group mean. The box indicates
+patients with values between the 25 and 75 percentiles.
+Figure 1. MeMed BV Score Values in Patients with Viral Detections (Primary Cohort)
+K210254 - Page 26 of 30
+
+--- Page 27 ---
+Figure 2. MeMed BV Score Values in Patients with Viral Detections (Secondary
+Cohort)
+Across the viral PCR detections that included adenovirus, influenza, parainfluenza,
+respiratory syncytial virus, coronavirus and human rhinovirus/enterovirus, 33 and 26 were
+adjudicated as bacterial infections in the primary and secondary objective cohorts
+respectively, with 24 and 25 of these correctly receiving a bacterial score, respectively.
+These data show that a bacterial immune response can be detected irrespective of viral
+detection, supporting that MeMed BV can complement direct viral detection tests by
+identifying bacterial-viral co-infection.
+2. Clinical Specificity:
+See Clinical Sensitivity above.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+121 healthy individuals with demographic characteristics similar to the Intended Use
+population were recruited at several U.S. and Israeli clinical sites. The distribution of age of
+the healthy individuals was 8.9-71.9 years. The determination that the participant is healthy
+was adjudicated by an expert based on the patient data provided to them in an anonymized
+electronic case report form. Results from the study are included in the table below and
+stratified by demographic group.
+K210254 - Page 27 of 30
+
+--- Page 28 ---
+Table 21. Reference Interval for the MeMed BV Score in Healthy Individuals
+MeMed BV Score Band
+1 2 3 4 5
+Race
+(0 ≤ score ≤ (10 < score (35 ≤ score (65 < score (90 ≤ score ≤
+10) < 35) ≤ 65) < 90) 100)
+N 4 3 1 0 0
+Asian
+% 50.0% 37.5% 12.5% 0.0% 0.0%
+N 10 3 0 0 0
+Black
+% 76.9% 23.1% 0.0% 0.0% 0.0%
+N 7 3 0 0 0
+Hispanic
+% 70.0% 30.0% 0.0% 0.0% 0.0%
+N 58 20 5 1 0
+White
+% 69.0% 23.8% 6.0% 1.2% 0%
+According to the CLSI guideline EP28, lower limit of the reference interval corresponds to
+the 2.5th percentile and the upper limit corresponds to the 97.5th percentile. The
+corresponding MeMed BV score values for the lower and upper limits across the entire
+healthy population are 0 and 46, respectively.
+D Clinical Cut-Off:
+MeMed BV cut-off values were established prior to the clinical trial. Specifically, the host
+biomarker signature used in the MeMed BV test was developed in the Curiosity study
+(Clinicaltrials.gov identifier: NCT01917461). Candidate proteins were screened from 1,002
+prospectively enrolled patients with acute infections to identify differentially expressed
+biomarkers of infection. Multiple feature selection algorithms and computational models were
+evaluated to identify the optimal combination of proteins to discriminate bacterial and viral
+infection. The current signature was further validated in two independent studies: Pathfinder
+(NCT01911143) and Opportunity (NCT01931254).
+The following MeMed BV Score Bin Interpretation tables are the results from non-interventional
+observational clinical trials. U.S. patients were prospectively enrolled in the Apollo trial
+(NCT04690569). Prospective cases were supplemented with archived cases randomly drawn
+from two previously completed prospective clinical studies conducted outside the U.S.
+(Observer, NCT03011515; and AutoPilot, NCT03052088). Data from the clinical study establish
+a trend between increasing MeMed BV Score value and the likelihood of a bacterial infection.
+Table 22. Recommendations for interpretation of MeMed BV Score Bins using Forced
+Diagnosis
+MeMed Prevalence (%) Bacterial Infection
+BV Score Interpretation Bacterial Viral Infection/ Likelihood Ratio
+Band Infection Noninfectious (95% CI)
+Bin 5
+High likelihood of bacterial
+90 ≤ score 60.4 39.6 8.1 (6.3-10.5)
+infection (or co-infection)
+≤ 100
+K210254 - Page 28 of 30
+
+[Table 1 on page 28]
+Race			MeMed BV Score Band													
+			1			2			3			4			5	
+			(0 ≤ score ≤			(10 < score			(35 ≤ score			(65 < score			(90 ≤ score ≤	
+			10)			< 35)			≤ 65)			< 90)			100)	
+Asian	N	4			3			1			0			0		
+	%	50.0%			37.5%			12.5%			0.0%			0.0%		
+Black	N	10			3			0			0			0		
+	%	76.9%			23.1%			0.0%			0.0%			0.0%		
+Hispanic	N	7			3			0			0			0		
+	%	70.0%			30.0%			0.0%			0.0%			0.0%		
+White	N	58			20			5			1			0		
+	%	69.0%			23.8%			6.0%			1.2%			0%		
+
+[Table 2 on page 28]
+	MeMed		Interpretation		Prevalence (%)						Bacterial Infection	
+	BV Score				Bacterial			Viral Infection/			Likelihood Ratio	
+	Band				Infection			Noninfectious			(95% CI)	
+Bin 5
+90 ≤ score
+≤ 100			High likelihood of bacterial
+infection (or co-infection)	60.4			39.6			8.1 (6.3-10.5)		
+
+--- Page 29 ---
+MeMed Prevalence (%) Bacterial Infection
+BV Score Interpretation Bacterial Viral Infection/ Likelihood Ratio
+Band Infection Noninfectious (95% CI)
+Bin 4 Moderate Likelihood of
+65 < score Bacterial Infection (or co- 27.7 72.3 2.1 (1.3-3.1)
+< 90 infection)
+Bin 3
+35 ≤ score Equivocal 15.7 84.3 1.0 (0.6-1.7)
+≤ 65
+Bin 2 Moderate likelihood of
+10 < score viral infection (or other 5.2 94.8 0.3 (0.2-0.6)
+< 35 non-bacterial etiology)
+Bin 1 High Likelihood of viral
+0 ≤ score infection (or other non- 1.5 98.5 0.1 (0.0-0.2)
+≤ 10 bacterial etiology)
+Table 23. Recommendations for interpretation of MeMed BV Score Bins using Consensus
+Diagnosis
+MeMed Prevalence (%) Bacterial Infection
+BV Score Interpretation Bacterial Viral Infection/ Likelihood Ratio
+Band Infection Noninfectious (95% CI)
+Bin 5
+High likelihood of bacterial
+90 ≤ score 81.2 18.9 25.0 (16.6-37.8)
+infection (or co-infection)
+≤ 100
+Bin 4 Moderate Likelihood of
+65 < score Bacterial Infection (or co- 29.2 70.8 2.4 (1.5-4.0)
+< 90 infection)
+Bin 3
+35 ≤ score Equivocal 8.3 91.7 0.5 (0.2-1.2)
+≤ 65
+Bin 2 Moderate likelihood of
+10 < score viral infection (or other 0.7 99.4 0.0 (0.0-0.3)
+< 35 non-bacterial etiology)
+Bin 1 High Likelihood of viral
+0 ≤ score infection (or other non- 0.7 99.3 0.0 (0.0-0.1)
+≤ 10 bacterial etiology)
+E Expected Values/Reference Range:
+See Clinical cut-off. Predictive values depend on the likelihood ratios and the prevalence of
+disease. Laboratories and other users should establish their own reference intervals for their
+patient populations using the MeMed BV test to reflect potential sources of variability, such as
+patient gender, race, or age.
+F Other Supportive Instrument Performance Characteristics Data:
+Not applicable.
+K210254 - Page 29 of 30
+
+[Table 1 on page 29]
+	MeMed		Interpretation		Prevalence (%)						Bacterial Infection	
+	BV Score				Bacterial			Viral Infection/			Likelihood Ratio	
+	Band				Infection			Noninfectious			(95% CI)	
+Bin 4
+65 < score
+< 90			Moderate Likelihood of
+Bacterial Infection (or co-
+infection)	27.7			72.3			2.1 (1.3-3.1)		
+Bin 3
+35 ≤ score
+≤ 65			Equivocal	15.7			84.3			1.0 (0.6-1.7)		
+Bin 2
+10 < score
+< 35			Moderate likelihood of
+viral infection (or other
+non-bacterial etiology)	5.2			94.8			0.3 (0.2-0.6)		
+Bin 1
+0 ≤ score
+≤ 10			High Likelihood of viral
+infection (or other non-
+bacterial etiology)	1.5			98.5			0.1 (0.0-0.2)		
+
+[Table 2 on page 29]
+	MeMed		Interpretation		Prevalence (%)						Bacterial Infection	
+	BV Score				Bacterial			Viral Infection/			Likelihood Ratio	
+	Band				Infection			Noninfectious			(95% CI)	
+Bin 5
+90 ≤ score
+≤ 100			High likelihood of bacterial
+infection (or co-infection)	81.2			18.9			25.0 (16.6-37.8)		
+Bin 4
+65 < score
+< 90			Moderate Likelihood of
+Bacterial Infection (or co-
+infection)	29.2			70.8			2.4 (1.5-4.0)		
+Bin 3
+35 ≤ score
+≤ 65			Equivocal	8.3			91.7			0.5 (0.2-1.2)		
+Bin 2
+10 < score
+< 35			Moderate likelihood of
+viral infection (or other
+non-bacterial etiology)	0.7			99.4			0.0 (0.0-0.3)		
+Bin 1
+0 ≤ score
+≤ 10			High Likelihood of viral
+infection (or other non-
+bacterial etiology)	0.7			99.3			0.0 (0.0-0.1)		
+
+--- Page 30 ---
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K210254 - Page 30 of 30

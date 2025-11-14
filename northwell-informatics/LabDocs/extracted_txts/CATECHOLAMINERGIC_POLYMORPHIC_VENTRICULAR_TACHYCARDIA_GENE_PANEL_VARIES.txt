@@ -1,0 +1,108 @@
+**Standard Operating Procedure (SOP)
+**For the Analysis of Catecholaminergic Polymorphic Ventricular
+Tachycardia
+Gene Panel Using Next-Generation Sequencing
+1. PURPOSE
+This document outlines the detailed steps for the analytical phase of
+generating results for the Catecholaminergic Polymorphic Ventricular
+Tachycardia (CPVT) Gene Panel using Next-Generation Sequencing
+(NGS). This procedure ensures that all sequencing and
+bioinformatics analyses are performed consistently and accurately to
+meet the required standards of quality and validity for clinical
+reporting.
+Responsibility:
+Designated staff involved in sequencing and bioinformatics analysis
+are responsible for the execution, monitoring, and documentation of
+the procedures as outlined in this SOP. Supervisors are responsible
+for ensuring adherence to the SOP, assessing data quality, and
+verifying results before release.
+2. SCOPE
+This SOP applies to all laboratory personnel involved in sequencing
+and analysis of the CPVT Gene Panel. It includes protocols for
+sample preparation, sequencing, data analysis, interpretation, and
+documentation.
+3. SPECIMEN REQUIREMENTS
+• A minimum of 3 mL whole blood collected in an EDTA (lavender-
+top) tube.
+• Specimen must be received within 72 hours of collection if stored
+at 2-8°C.
+• Alternatively, extracted genomic DNA with a minimum
+concentration of 20 ng/μL and a total volume of 50 μL.
+4. EQUIPMENT AND REAGENTS
+• NGS Instrument (e.g., Illumina MiSeq, NextSeq)
+• DNA Extraction Kit (as per manufacturer’s instructions)
+• Library Preparation Kit
+• Indexing Primers
+• Reagents for PCR amplification
+• Clean room and benchtop workspace
+• Thermal Cycler
+• Qubit Fluorometer or equivalent concentration measurement
+device
+• Agilent Bioanalyzer or similar for library sizing
+5. PROCEDURE
+5.1 DNA Extraction
+• Extract DNA from whole blood or other specified specimen using
+the designated DNA extraction kit.
+• Quantify and assess purity using Qubit and NanoDrop.
+• Ensure the DNA integrity by running an aliquot on 1% agarose
+gel.
+5.2 Library Preparation and Quantification
+• Prepare DNA library using a validated library preparation kit
+according to the manufacturer’s protocol.
+• Amplify target regions by PCR using gene-specific primers.
+• Verify the size and quality of the library using an Agilent
+Bioanalyzer.
+• Quantify libraries using Qubit.
+5.3 Sequencing
+• Load prepared libraries onto the NGS instrument following the
+manufacturer's guidelines.
+• Sequences are generated in paired-end 150 bp reads.
+• Run appropriate internal controls to ensure sequencing accuracy.
+5.4 Data Analysis
+• Use automated bioinformatics pipeline for initial data processing,
+including sequence alignment to the human genome reference
+(hg38).
+• Perform variant calling using variant callers like GATK or
+equivalent.
+• Annotate variants with databases (e.g., ClinVar, dbSNP).
+5.5 Data Interpretation and Reporting
+• Review the quality of sequencing data using appropriate metrics
+(e.g., read depth, coverage).
+• Pathogenic variants are identified as per the American College of
+Medical Genetics and Genomics (ACMG) guidelines.
+• Confirm findings by visual inspection of alignments in Integrative
+Genomics Viewer (IGV).
+• Interpret and classify variants in the context of clinical data.
+• Generate a comprehensive clinical report that includes
+methodology, findings, interpretation, and recommendations.
+6. QUALITY ASSURANCE
+• Include positive and negative controls.
+• Evaluate reproducibility by performing duplicate runs for random
+samples.
+• Utilize external proficiency testing programs.
+• Document all steps, instruments, reagents, and results in the
+laboratory information system (LIS).
+7. TROUBLESHOOTING
+• If poor quality or insufficient quantity DNA is obtained, repeat the
+extraction protocol.
+• For QC failures in library preparation, remake libraries from the
+same DNA or new extractions.
+• Resolve sequencing run failures per NGS instrument
+troubleshooting guides.
+• Reanalyze raw data if unexpected results are obtained.
+8. SAFETY AND COMPLIANCE
+• Follow established lab safety protocols during all procedures.
+• Dispose of biohazard materials according to local regulations.
+• Ensure compliance with CAP, CLIA, and HIPAA guidelines.
+9. REFERENCES
+• Library preparation kit manual.
+• NGS instrument user guide.
+• ACMG guidelines for sequence interpretation.
+Version History:
+• Version 1.0 (Date): Original Document
+• Version 2.0 (Updates)
+Approval Signatures:
+•
+[Laboratory Director]
+•
+[Technical Supervisor]

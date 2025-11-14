@@ -1,0 +1,90 @@
+{
+    "Trade/Device Name(s)": [
+        "BD FACSLyric Flow Cytometer",
+        "BD Multitest 6-color TBNK",
+        "BD Multitest IMK kit",
+        "BD Multitest CD3/CD8/CD45/CD4",
+        "BD Multitest CD3/CD16+CD56/CD45/CD19",
+        "BD Trucount Tubes",
+        "BD Multi-Check Control",
+        "BD Multi-Check CD4 Low Control",
+        "BD FC beads 7-color kit",
+        "BD CS&T beads"
+    ],
+    "Submitter Information": "Becton, Dickinson and Company (BD Biosciences)",
+    "510(k) Number": "K170974",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "K141468",
+        "K062087",
+        "K040026",
+        "K090967",
+        "K980858",
+        "K974360",
+        "K961610",
+        "K982231",
+        "K970836"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "OYE"
+    ],
+    "Summary Letter Date": "August 28, 2017",
+    "Summary Letter Received Date": "April 03, 2017",
+    "Submission Date": "March 31, 2017",
+    "Regulation Number(s)": [
+        "21 CFR 864.5220"
+    ],
+    "Regulation Name(s)": [
+        "Automated differential cell counter"
+    ],
+    "Analyte Class(es)": [
+        "immunology",
+        "hematology",
+        "flow cytometry"
+    ],
+    "Analyte(s)": [
+        "T lymphocytes (CD3+)",
+        "B lymphocytes (CD19+)",
+        "Natural killer (NK) lymphocytes (CD3\u2013CD16+ and/or CD56+)",
+        "Helper/inducer T lymphocytes (CD3+CD4+)",
+        "Suppressor/cytotoxic T lymphocytes (CD3+CD8+)",
+        "Leukocytes"
+    ],
+    "Specimen Type(s)": [
+        "Peripheral whole blood"
+    ],
+    "Specimen Container(s)": [
+        "EDTA tube"
+    ],
+    "Instrument(s)/Platform(s)": [
+        "BD FACSLyric Flow Cytometer",
+        "BD FACSuite Clinical Software",
+        "BD FACSCanto II",
+        "BD FACSCanto",
+        "BD FACSCalibur",
+        "Optional BD FACS Universal Loader"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Flow cytometry",
+        "Immunofluorescence"
+    ],
+    "Methodologies": [
+        "Enumeration of lymphocyte subsets",
+        "Multiparametric flow cytometry",
+        "Automated differential cell counting"
+    ],
+    "Submission Type(s)": [
+        "Analyzer",
+        "Reagent",
+        "Control",
+        "Tube",
+        "Kit",
+        "Software",
+        "Accessory",
+        "Quality control material",
+        "Component"
+    ],
+    "Document Summary": "FDA 510(k) summary for BD FACSLyric Flow Cytometer system and associated reagents and controls for immunophenotyping and enumeration of lymphocyte subsets in peripheral whole blood using flow cytometry.",
+    "Indications for Use Summary": "Intended for immunophenotyping of mature human lymphocyte subsets (T, B, and NK cells) in peripheral whole blood of normal and immunodeficient individuals, using up to six fluorescence channels for in vitro diagnostic applications.",
+    "fda_folder": "Hematology"
+}

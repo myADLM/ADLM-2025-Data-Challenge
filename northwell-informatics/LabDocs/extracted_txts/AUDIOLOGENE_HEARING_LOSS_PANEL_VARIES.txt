@@ -1,0 +1,137 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Generating Results for AUDIOLOGENE HEARING LOSS PANEL
+1. PURPOSE
+The purpose of this procedure is to provide standardized instructions
+for processing and analyzing specimens for the AUDIOLOGENE
+Hearing Loss Panel in order to produce reliable and accurate genetic
+test results that aid in the diagnosis of hereditary hearing loss.
+2. SCOPE
+This SOP applies to all laboratory personnel engaged in the testing of
+the AUDIOLOGENE Hearing Loss Panel, utilizing designated
+laboratory equipment, reagents, and software for genetic analysis.
+3. RESPONSIBILITY
+Laboratory personnel trained in molecular genetic techniques are
+responsible for performing the steps outlined in this SOP. It is also the
+responsibility of laboratory supervisors to ensure proper adherence to
+this procedure and to handle any deviations or issues that may arise.
+4. SPECIMEN REQUIREMENTS
+4.1 Acceptable Specimens:
+• Peripheral blood: Collected in EDTA (purple top) tubes.
+• Saliva: Collected with an approved DNA stabilization kit.
+• Buccal swabs: Collected using approved buccal swab collection
+kits.
+4.2 Unacceptable Specimens:
+• Hemolyzed blood samples.
+• Saliva samples not collected with stabilization media.
+• Buccal swabs that are improperly labeled or contaminated.
+4.3 Specimen Handling:
+• Blood specimens should be stored at 2–8°C and processed within
+72 hours.
+• Saliva specimens in stabilization media should be stored at room
+temperature and processed within seven days.
+• Buccal swabs should be stored at room temperature and
+processed within 48 hours.
+5. EQUIPMENT, REAGENTS, AND SUPPLIES
+5.1 Equipment:
+• Thermocyclers
+• Next-generation sequencing (NGS) platform (e.g., Illumina, Ion
+Torrent)
+• Real-time PCR system (for quality control)
+• NanoDrop spectrophotometer or Qubit fluorometer (for DNA
+quantification)
+• Centrifuge
+• Vortex mixer
+• Pipettes and tips (sterile)
+5.2 Reagents:
+• DNA extraction kits specific to the specimen type
+• NGS library preparation kits
+• Indexes/adapters for sequencing
+• Sequencing reagents according to the NGS platform
+manufacturer’s instructions
+5.3 Supplies:
+• Microcentrifuge tubes (sterile)
+• Disposable gloves
+• Cleaning materials for decontamination
+• Sequencing chips or flow cells
+6. PROCEDURE
+6.1 DNA Extraction:
+• Extract DNA from the specimen using the designated DNA
+extraction kit following the manufacturer's protocol.
+• Quantify and assess the purity of extracted DNA using a
+NanoDrop spectrophotometer or Qubit fluorometer.
+• Document the concentration and purity ratios (A260/A280) in the
+laboratory information system (LIS).
+6.2 Library Preparation:
+• Follow the appropriate NGS library preparation protocol for the
+AUDIOLOGENE Hearing Loss Panel.
+• Perform targeted amplification and capture of relevant genes
+associated with hearing loss.
+• Verify the quality and expected fragment sizes of the prepared
+library via gel electrophoresis or a bioanalyzer.
+6.3 Sequencing:
+• Load the prepared library onto the NGS platform according to the
+manufacturer’s guidelines.
+• Enter required information into the sequencing software, including
+sample IDs, indexes/adapters used, and run parameters.
+• Initiate the sequencing run and monitor the progress.
+6.4 Bioinformatics Analysis:
+• Upon completion of sequencing, transfer data to the designated
+bioinformatics pipeline for processing.
+• Perform sequence alignment, variant calling, and annotation
+against the human reference genome (hg19 or hg38).
+• Apply quality control filters to ensure the integrity and reliability of
+detected variants.
+6.5 Data Interpretation:
+• Review and interpret variants using reference databases and
+published literature.
+• Confirm pathogenicity and potential clinical significance of
+identified variants.
+• Document findings and interpretations in the LIS.
+6.6 Reporting Results:
+• Compile and generate the final report, ensuring it includes:
+◦ Specimen information
+◦ Methodology
+◦ Detected variants and their clinical significance
+◦ Interpretation and recommendations based on the results
+• Send the report to the ordering physician or genetic counselor
+through secure means.
+7. QUALITY CONTROL
+7.1 Internal Quality Control:
+• Include positive and negative controls in each batch of DNA
+extractions and NGS runs.
+• Review and document control results before releasing patient
+results.
+• Perform regular calibration and maintenance of equipment
+according to the manufacturer's instructions.
+7.2 External Quality Assessment:
+• Participate in external proficiency testing programs to assess the
+accuracy and reliability of test results.
+• Document and address any discrepancies from proficiency testing
+in a corrective action log.
+8. TROUBLESHOOTING
+8.1 Equipment Malfunction:
+• Refer to the equipment manual for troubleshooting steps.
+• Contact technical support or service if the issue cannot be
+resolved internally.
+8.2 Poor DNA Quality/Inadequate Yield:
+• Re-extract DNA from the specimen if the initial extraction fails to
+meet quality or yield requirements.
+• Ensure that the correct procedures for specimen collection and
+storage are followed.
+9. RECORD KEEPING AND DOCUMENTATION
+9.1 Documentation:
+• Maintain accurate and complete records of all tests performed,
+including specimen details, reagents, equipment, results, and
+quality control data.
+9.2 Archiving:
+• Store all raw sequencing data, analysis files, and reports securely
+in accordance with data retention policies.
+10. REFERENCES
+Laboratory-specific guidelines and manufacturer instruction manuals
+for all equipment, reagents, and kits used in the AUDIOLOGENE
+Hearing Loss Panel analysis.
+11. REVIEW AND APPROVAL
+This SOP should be reviewed annually or as needed to reflect any
+updates in procedures, protocols, or regulations. Approval by the
+laboratory director is required before implementation.
+End of Document

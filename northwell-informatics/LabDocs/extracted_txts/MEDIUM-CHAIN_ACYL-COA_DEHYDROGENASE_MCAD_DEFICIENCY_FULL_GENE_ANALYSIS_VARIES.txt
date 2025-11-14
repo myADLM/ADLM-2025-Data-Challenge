@@ -1,0 +1,135 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Procedure for Medium-Chain Acyl-CoA
+Dehydrogenase (MCAD) Deficiency Full Gene Analysis
+1. PURPOSE
+This SOP describes the detailed analytical procedures for generating
+and reporting results for the full gene analysis of Medium-Chain Acyl-
+CoA Dehydrogenase (MCAD) Deficiency. Accurate results are critical
+for the diagnosis and management of MCAD deficiency, an inherited
+metabolic disorder that affects the body's ability to break down
+medium-chain fatty acids.
+1. SCOPE
+This procedure applies to the molecular genetics laboratory
+performing full gene analysis for MCAD deficiency.
+1. RESPONSIBILITY
+Qualified laboratory personnel including molecular genetic
+technologists and laboratory supervisory staff are responsible for
+following this SOP to ensure accurate and reliable test results.
+1. DEFINITIONS
+MCAD Deficiency: An autosomal recessive metabolic disorder
+caused by mutations in the ACADM gene, leading to a deficiency of
+the enzyme MCAD, which is essential in the fatty acid oxidation
+pathway.
+1. REQUIRED EQUIPMENT, REAGENTS, AND SUPPLIES
+• Pipettes and tips
+• Nuclease-free water
+• DNA extraction kits
+• PCR thermal cycler
+• PCR reagents (e.g., primers, dNTPs, Taq polymerase, buffers)
+• Agarose and electrophoresis apparatus
+• DNA ladders
+• Gel documentation system
+• Next-Generation Sequencing (NGS) platform or Sanger
+sequencing reagents
+• Bioinformatics tools for sequence analysis
+• Personal protective equipment (PPE)
+• Sample tubes and labeling materials
+1. SAMPLE REQUIREMENTS AND STABILITY
+• Specimen Type: Blood or buccal swab
+• Collection Tubes: EDTA tubes for blood samples or buccal swab
+collection kits
+• Volume Required: 2-5 mL of blood or appropriate buccal swab
+sampling
+• Specimen Stability: Room temperature for up to 7 days or 4°C
+for up to 14 days. Long-term storage at -20°C or lower.
+1. PROCEDURE
+7.1 DNA Extraction
+1. Purpose: Isolate genomic DNA from the blood or buccal swab
+sample.
+2. Procedure:
+1. Follow the manufacturer’s protocol for the DNA extraction
+kit.
+2. Quantify DNA using a spectrophotometer or fluorometer.
+3. Store extracted DNA at -20°C until analysis.
+7.2 PCR Amplification
+1. Purpose: Amplify targeted exons and flanking intronic regions
+of the ACADM gene.
+2. Procedure:
+1. Design specific primers for all exons and flanking regions
+of ACADM.
+2. Prepare PCR reaction mixture including primers, dNTPs,
+Taq polymerase, buffer, and DNA template.
+3. Thermal cycling conditions:
+▪ Initial denaturation: 95°C for 5 minutes
+▪ 35 cycles of:
+▪ Denaturation: 95°C for 30 seconds
+▪ Annealing: 55-65°C for 30 seconds (depending on
+primer melting temperature)
+▪ Extension: 72°C for 1 minute
+▪ Final extension: 72°C for 10 minutes
+4. Verify PCR product size and yield via agarose gel
+electrophoresis.
+7.3 NGS or Sanger Sequencing
+1. Purpose: Determine the nucleotide sequence of the amplified
+ACADM gene regions.
+2. Procedure for NGS:
+1. Pool amplified products and prepare sequencing library.
+2. Perform sequencing run on NGS platform following
+manufacturer’s instructions.
+3. Analyze sequence data using bioinformatics tools to
+identify mutations.
+3. Procedure for Sanger Sequencing:
+1. Purify PCR products using a gel extraction kit.
+2. Set up sequencing reactions with BigDye Terminator v3.1
+Cycle Sequencing Kit.
+3. Perform sequencing on a capillary electrophoresis
+instrument.
+4. Analyze sequence data using software to identify
+mutations.
+7.4 Bioinformatics Analysis
+1. Purpose: Identify and interpret variants in the ACADM gene.
+2. Procedure:
+1. Align sequence reads to the reference genome using
+bioinformatics software.
+2. Identify and annotate variants.
+3. Confirm pathogenic variants based on mutation
+databases and literature.
+3. QUALITY CONTROL
+• Include positive and negative control samples in each run.
+• Validate new reagents and primers with known positive samples.
+• Document all quality control measures and take corrective actions
+as necessary.
+1. RESULTS INTERPRETATION AND REPORTING
+• Review sequence data and confirm variant pathogenicity.
+• Generate a comprehensive report including:
+◦ Patient identification
+◦ Variant details
+◦ Pathogenicity interpretation
+◦ Literature references supporting the interpretation
+• Ensure lab director reviews and signs off on the report before
+releasing to the clinician.
+1. REFERENCE INTERVALS
+Not applicable for genetic analysis. Report findings based on the
+presence or absence of mutations and their pathogenic significance.
+1. METHOD LIMITATIONS
+• Potential PCR artifacts or sequencing errors.
+• Coverage gaps in NGS.
+• Interpretation depending on current knowledge and available
+databases.
+1. REFERENCES
+• Manufacturer’s instructions for DNA extraction, PCR, and
+sequencing kits.
+• Current literature on MCAD deficiency mutations.
+• Mutation databases (e.g., ClinVar, HGMD, etc.).
+1. APPENDIX
+• PCR primer sequences for ACADM gene.
+• Example report template for MCAD deficiency full gene analysis.
+Revision History
+• Date: [Insert Date]
+• Author: [Insert Name]
+• Reviewed by: [Insert Name]
+Signature Page
+• [Insert Laboratory Name]
+• [Insert Laboratory Director Name & Signature]
+• [Insert Date]
+[End of Document]

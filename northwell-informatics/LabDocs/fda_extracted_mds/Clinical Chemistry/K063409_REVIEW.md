@@ -1,0 +1,111 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k063409   
+B. Purpose for Submission: Addition of an alternate testing site   
+C. Measurand: Whole blood glucose   
+D. Type of Test: Quantitative   
+E. Applicant: AgaMatrix Inc.   
+F. Proprietary and Established Names: Liberty™ Blood Glucose Monitoring System
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR $\ S 8 6 2 . 1 3 4 5$ , Blood Glucose Test System 21 CFR $\ S 8 6 2 . 1 6 6 0$ , Quality control material
+
+2. Classification: Class II
+
+3. Product code: NBW, system, test, blood glucose, over the counter CGA, glucose oxidase, glucose JJX, single (specified) analyte controls
+
+4. Panel: Clinical Chemistry (75)
+
+# H. Intended Use:
+
+1. Intended use(s): See Indications for use below.
+
+2. Indication(s) for use:
+
+# AgaMatrix Liberty™ Blood Glucose Monitoring System:
+
+AgaMatrix Liberty™ Blood Glucose Monitoring System is intended for the quantitative measurement of glucose in fresh capillary whole blood from the fingertip, palm, or forearem. Testing is done outside the body (in vitro diagnostic use). It is intended for use at home (over the counter (OTC)) by persons with diabetes, or in a clinical setting by healthcare professionals, as an aid to monitor the effectiveness of diabetes control.
+
+# AgaMatrix Liberty™ Blood Glucose Meter:
+
+AgaMatrix Liberty™ Blood Glucose is intended for use with AgaMatrix Liberty™ Blood Glucose Test Strips for the quantitative measurement of glucose in fresh capillary whole blood. Testing is done outside the body (in vitro diagnostic use). It is intended for use at home (over the counter (OTC)) by persons with diabetes, or in a clinical setting by healthcare professionals, as an aid to monitor the effectiveness of diabetes control.
+
+# AgaMatrix Liberty™ Blood Glucose Test Strips:
+
+AgaMatrix Liberty™ Blood Glucose is intended for use with AgaMatrix Liberty™ Blood Glucose Meter for the quantitative measurement of glucose in fresh capillary whole blood. Testing is done outside the body (in vitro diagnostic use). It is intended for use at home (over the counter (OTC)) by persons with diabetes, or in a clinical setting by healthcare professionals, as an aid to monitor the effectiveness of diabetes control.
+
+# AgaMatrix Liberty™ Control Solutions (Normal level and High level):
+
+AgaMatrix Liberty™ Control Solutions are intended for use with the AgaMatrix Liberty™ Meter and AgaMatrix Liberty™ Blood Glucose Test Strips as a quality control check to verify the accuracy of blood glucose test results.
+
+3. Special conditions for use statement(s): Provides plasma equivalent results.
+
+4. Special instrument requirements: Liberty™ Blood Glucose Monitoring System
+
+# I. Device Description:
+
+The Liberty™ Blood Glucose Monitoring System consists of: the Liberty™ Blood Glucose Meter, Test Strips, and Control Solutions.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Liberty™ Blood Glucose Monitoring System   
+2. Predicate 510(k) number(s): k052762   
+3. Comparison with predicate: The only modification claimed by the sponsor is to add an alternate site claim for forearm sampling. The meter and its software, the test strips, and the controls are unchanged.
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+See k052762 for more information.
+
+# L. Test Principle:
+
+The Liberty blood glucose test is based on measurement of electrical current caused by the reaction of glucose with the reagents on the electrode of the test strip. The blood sample is drawn into the end of the test strip through capillary action. Glucose in the sample reacts with glucose oxidase and hexaammineruthenium (III) chloride, generating a current that is proportional to the glucose concentration in the sample. The result is shown on the meter display.
+
+M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: For a detailed description see k052762.   
+$b$ . Linearity/assay reportable range: For a detailed description see k052762.   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): For a detailed description see k052762.   
+$d .$ . Detection limit: For a detailed description see k052762. The operating range of the meter is 20 $- 6 0 0 \mathrm { m g / d L }$ .   
+e. Analytical specificity: For a detailed description see k052762.   
+$f .$ Assay cut-off: Not applicable.
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: 49 individuals participated in a study to see if glucose readings from the forearm were comparable to glucose reading from fingertips. The subjects ranged in age, education, and were about equally divided between males and females; the majority of the participants had Type II diabetes. The study was performed in a clinic setting. Forearm blood was tested once by the participant then, in a second lanced site, by a healthcare provider (HCP); fingertip blood was tested by the HCP.
+
+Subjects claimed to be in a glucose steady state having not eaten, taken diabetes medication, or exercised vigorously for two hours prior to the study; steady state was not confirmed independently.
+
+The median fingertip Liberty blood glucose result for the 49 study subjects was $1 5 2 \mathrm { m g / d L }$ , with results ranging from 84 to $3 2 0 \mathrm { m g / d L }$ . The median hematocrit of the subject blood samples was $4 1 . 3 \%$ with results ranging from 31.5 to $4 6 . 6 \%$ .
+
+Values obtained from the forearm testing were compared to fingerstick results; linear regression analysis yielded the following results:
+
+Regression Analysis of Liberty BGM: Forearm Testing Compared to Fingerstick Testing   
+
+<table><tr><td rowspan=1 colspan=1>ASTSite</td><td rowspan=1 colspan=1>Slope</td><td rowspan=1 colspan=1>r</td><td rowspan=1 colspan=1>w/in ± 20%</td></tr><tr><td rowspan=1 colspan=1>Lay User</td><td rowspan=1 colspan=1>y= 0.98x + 10.8</td><td rowspan=1 colspan=1>0.93</td><td rowspan=1 colspan=1>96 %</td></tr><tr><td rowspan=1 colspan=1>HCP *</td><td rowspan=1 colspan=1>y = 1.01x + 5.8</td><td rowspan=1 colspan=1>0.97</td><td rowspan=1 colspan=1>94 %</td></tr></table>
+
+\* As per ISO 15197 Section 7.3.3.1, one outlier was excluded from the regression calculations but not from the determination of system accuracy. In this patient, the HCP fingerstick value was $8 4 ~ \mathrm { m g / d L }$ while the HCP forearm value was $1 3 3 \mathrm { m g / d L }$ . The forearm reading obtained by the lay user was $1 2 0 \mathrm { m g / d L }$ .
+
+b. Matrix comparison: Not applicable.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable.   
+b. Clinical specificity: Not applicable.   
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+4. Clinical cut-off: Not applicable.
+
+5. Expected values/Reference range:
+
+The normal fasting adult glucose range for a non-diabetic is $7 0 - 1 0 5 \mathrm { m g / d L }$ . One to two hours after a meal, normal blood glucose levels should be less than 140 mg/dL. A medical professional should determine the range that is appropriate for diabetes patients.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

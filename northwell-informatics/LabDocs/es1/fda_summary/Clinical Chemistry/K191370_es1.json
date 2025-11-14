@@ -1,0 +1,57 @@
+{
+    "Trade/Device Name(s)": [
+        "DreaMed Advisor Pro"
+    ],
+    "Submitter Information": "DreaMed Diabetes Ltd.",
+    "510(k) Number": "K191370",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "DEN170043"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "QCC"
+    ],
+    "Summary Letter Date": "July 18, 2019",
+    "Summary Letter Received Date": "May 22, 2019",
+    "Submission Date": "May 20, 2019",
+    "Regulation Number(s)": [
+        "21 CFR 862.1358"
+    ],
+    "Regulation Name(s)": [
+        "Insulin therapy adjustment device"
+    ],
+    "Analyte Class(es)": [
+        "chemistry",
+        "endocrine"
+    ],
+    "Analyte(s)": [
+        "Glucose",
+        "Insulin"
+    ],
+    "Specimen Type(s)": [
+        "Capillary blood (for SMBG)",
+        "Interstitial fluid (CGM)"
+    ],
+    "Specimen Container(s)": [],
+    "Instrument(s)/Platform(s)": [
+        "Insulin pump",
+        "Continuous glucose monitoring (CGM) system",
+        "Blood glucose meter",
+        "Qualified Diabetes Management System (DMS)"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Software algorithm",
+        "Decision-support software"
+    ],
+    "Methodologies": [
+        "Data analysis",
+        "Recommendation engine"
+    ],
+    "Submission Type(s)": [
+        "Software",
+        "Decision-support software"
+    ],
+    "Document Summary": "FDA 510(k) summary for DreaMed Advisor Pro decision-support software for insulin therapy adjustment in type 1 diabetes using insulin pump, CGM, and SMBG data.",
+    "Indications for Use Summary": "Assists healthcare professionals in managing patients aged 6-65 with type 1 diabetes using insulin pumps and CGM/SMBG, by generating recommendations for insulin pump settings (basal rate, carbohydrate ratio, correction factor) without considering full clinical status; does not replace clinical judgment.",
+    "fda_folder": "Clinical Chemistry"
+}

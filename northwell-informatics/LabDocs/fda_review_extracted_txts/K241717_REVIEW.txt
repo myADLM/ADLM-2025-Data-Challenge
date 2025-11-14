@@ -1,0 +1,992 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K241717
+B Applicant
+Shandon Diagnostics Limited
+C Proprietary and Established Names
+Epredia E1000 Dx Digital Pathology Solution
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+PSY Class II 21 CFR 864.3700 88-Pathology
+II Submission/Device Overview:
+A Purpose for Submission:
+New Device
+B Type of Test:
+Digital pathology whole slide imaging
+III Intended Use/Indications for Use:
+A Intended Use(s):
+The Epredia E1000 Dx Digital Pathology Solution is an automated digital slide creation,
+viewing, and management system. The Epredia E1000 Dx Digital Pathology Solution is intended
+for in vitro diagnostic use as an aid to the pathologist to review and interpret digital images of
+surgical pathology slides prepared from formalin-fixed paraffin embedded (FFPE) tissue. The
+Epredia E1000 Dx Digital Pathology Solution is not intended for use with frozen section,
+cytology, or non-FFPE hematopathology specimens.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PSY			Class II	21 CFR 864.3700			88-Pathology
+
+--- Page 2 ---
+The Epredia E1000 Dx Digital Pathology Solution consists of a Scanner (E1000 Dx Digital
+Pathology Scanner), which generates images in MRXS image file format, E1000 Dx Scanner
+Software, Image Management System (E1000 Dx IMS), E1000 Dx Viewer Software, and
+Display (Barco MDPC-8127). The Epredia E1000 Dx Digital Pathology Solution is for creation
+and viewing of digital images of scanned glass slides that would otherwise be appropriate for
+manual visualization by conventional light microscopy. It is the responsibility of a qualified
+pathologist to employ appropriate procedures and safeguards to assure the validity of the
+interpretation of images obtained using Epredia E1000 Dx Digital Pathology Solution.
+B Indication(s) for Use:
+Same as Intended Use.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+For In vitro diagnostic (IVD) use only.
+IV Device/System Characteristics:
+A Device Description:
+The E1000 Dx Digital Pathology Solution is an automated whole slide imaging system for the
+creation, viewing, and management of digital images of surgical pathology slides, which consists
+of the following three components:
+Scanner component:
+• E1000 Dx Digital Pathology Scanner with E1000 firmware version 2.0.3
+• E1000 Dx Scanner Software version 2.0.3
+Viewer component:
+• E1000 Dx Image Management System (IMS) Server version 2.3.2
+• E1000 Dx Viewer Software version 2.7.2
+Display component:
+• Barco MDPC-8127
+The E1000 Dx Digital Pathology Solution creates digital whole slide images (WSIs) by scanning
+FFPE tissue slides. The user loads prepared glass slides into commercially available (Sakura
+Tissue-Tek® 20-Slide Basket) slide baskets which holds a maximum of 20 slides. The total
+capacity of the system is 50 baskets, resulting in a capacity of 1,000 slides.The E1000 Dx
+Scanner Software (EDSS) runs on the scanner workstation and controls the operation of the
+E1000 Dx Digital Pathology Scanner. The scanner workstation, provided with the E1000 Dx
+Digital Pathology Solution, includes a PC, monitor, keyboard, and mouse. The EDSS user
+interface allows the user to select baskets conatining slides for scanning and generation of WSIs.
+The system will only scan areas of the glass slide where tissue sample is present using a machine
+learning model trained on annotated samples to automatically detect the presence and location of
+the tissue sample on the glass slide. Once the sample has been located, the system generates a
+scan-map from the data. FFPE tissue mounted on glass slides are scanned at a resolution of at
+least 0.24 μm per pixel using a 20x objective. The system acquires images in a square matrix
+pattern. The device uses a proprietary MRXS format to store and transmit images between the
+K241717 - Page 2 of 17
+
+--- Page 3 ---
+E1000 Dx Digital Pathology Scanner and the E1000 Dx Image Management System (IMS).
+MRXS images displayed in E1000 Dx Viewer are compressed to 80% of the source MRXS file,
+or JPEG Q = 80.
+The E1000 Dx IMS is a software only component which contains two modules hosted on the
+IMS server: E1000 Dx IMS (allows the pathologist to manage patient cases from digitization
+through to pathologist assignment and viewing of images) and E1000 Dx Storage (server
+software for storing and managing WSIs created by the E1000 scanner and provides background
+processes for storing and managing the digital slides to be used within E1000 Dx IMS and E1000
+Dx Viewer). IMS local server is connected to the Scanner Workstation on a high-speed local
+LAN network. The server runs all IMS services and applications as well as authentication and
+logging services. A user can access the IMS through a web browser via the E1000 Dx IMS web
+application user interface (UI) and open slides in the E1000 Dx Viewer software from a
+customer provided computer environment.
+The E1000 Dx Viewer is a Windows application that allows viewing and annotating MRXS
+digital slides created by the E1000 Whole Slide Imaging System. It is integrated with the E1000
+Dx IMS and it cannot be used as a standalone application. The E1000 Dx Viewer can only be
+launched from the E1000 Dx IMS web application by clicking on a digital slide attached to a
+case. The main features of the viewing software are:
+• Display image with seamless zooming and panning
+• Record and recall image annotations
+• Export image snapshots
+• Display multiple slides from the same case side by side
+The Barco MDPC-8127 display (cleared under K203364) allows the WSIs images to be viewed.
+B Instrument Description Information:
+1. Instrument Name:
+Epredia E1000 Dx Digital Pathology Solution
+2. Specimen Identification:
+Glass slides and scanned images are identified based on the previously assigned specimen
+identifiers such as patient identifiers, barcodes, etc. Digital images of surgical pathology
+slides prepared from FFPE tissue. The preview image captures the barcode information on
+the slide, which links the scanned slides to the correct entry in the E1000 Dx IMS.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed independently of the system. Specimen
+sampling includes surgical pathology specimens such as biopsy or resection specimens which
+are processed using standard histology techniques. The FFPE tissue sections are stained
+using the Hematoxylin and Eosin (H&E) staining procedure. Then digital images are
+obtained from these glass slides using the Epredia E1000 Dx Digital Pathology scanner.
+4. Calibration:
+The E1000 Dx Digital Pathology Scanner is factory calibrated. No calibration is required by
+the operator of the instrument. The spectral properties of components in the pixel pathway,
+including the light source, are stable by design, so no regular color recalibration is needed.
+K241717 - Page 3 of 17
+
+--- Page 4 ---
+Image intensity might vary from slide to slide depending on the slide thickness, and the
+system automatically adjusts for it. The E1000 Dx IMS subsystem does not need calibration.
+The Barco MDPC-8127 8MP 27” Pathology Monitor Display is automatically calibrated.
+5. Quality Control:
+Before loading the slide to the instrument, the operator ensures the slide is within the
+specifications of the instrument and laboratory standards such as slide size, coverslip size and
+placement, barcode placement, staining quality, etc. After scanning a lab technician checks if
+the WSI quality and rescans the slide(s) as needed.
+Before reading the scanned WSIs, the pathologist should ensure that all scanned slide images
+have been imported for every case and the images are of acceptable quality for diagnostic
+purposes. The pathologist reviews scanned images of all slides associated with a case before
+rendering a diagnosis.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Philips IntelliSite Pathology Solution (PIPS)
+B Predicate 510(k) Number(s):
+DEN160056
+C Comparison with Predicate(s):
+Device & Predicate
+K241717 DEN160056
+Device(s):
+Epredia E1000 Dx Digital Philips IntelliSite Pathology
+Device Trade Name
+Pathology Solution Solution (PIPS)
+General Device Characteristic Similarities
+The Epredia E1000 Dx Digital
+The Philips IntelliSite Pathology
+Pathology Solution is an
+Solution (PIPS) is an automated
+automated digital slide creation,
+digital slide creation, viewing,
+viewing, and management system.
+and management system. The
+The Epredia E1000 Dx Digital
+PIPS is intended for in vitro
+Pathology Solution is intended for
+diagnostic use as an aid to the
+in vitro diagnostic use as an aid to
+pathologist to review and
+Intended the pathologist to review and
+interpret digital images of
+Use/Indications For interpret digital images of surgical
+surgical pathology slides
+Use pathology slides prepared from
+prepared from formalin-fixed
+formalin-fixed paraffin embedded
+paraffin embedded (FFPE)
+(FFPE) tissue. The Epredia E1000
+tissue. The PIPS is not intended
+Dx Digital Pathology Solution is
+for use with frozen section,
+not intended for use with frozen
+cytology, or non-FFPE
+section, cytology, or non-FFPE
+hematopathology specimens.
+hematopathology specimens.
+The PIPS comprises the Image
+K241717 - Page 4 of 17
+
+[Table 1 on page 4]
+	Device & Predicate		K241717	DEN160056	
+	Device(s):				
+Device Trade Name			Epredia E1000 Dx Digital
+Pathology Solution	Philips IntelliSite Pathology
+Solution (PIPS)	
+	General Device Characteristic Similarities				
+Intended
+Use/Indications For
+Use			The Epredia E1000 Dx Digital
+Pathology Solution is an
+automated digital slide creation,
+viewing, and management system.
+The Epredia E1000 Dx Digital
+Pathology Solution is intended for
+in vitro diagnostic use as an aid to
+the pathologist to review and
+interpret digital images of surgical
+pathology slides prepared from
+formalin-fixed paraffin embedded
+(FFPE) tissue. The Epredia E1000
+Dx Digital Pathology Solution is
+not intended for use with frozen
+section, cytology, or non-FFPE
+hematopathology specimens.	The Philips IntelliSite Pathology
+Solution (PIPS) is an automated
+digital slide creation, viewing,
+and management system. The
+PIPS is intended for in vitro
+diagnostic use as an aid to the
+pathologist to review and
+interpret digital images of
+surgical pathology slides
+prepared from formalin-fixed
+paraffin embedded (FFPE)
+tissue. The PIPS is not intended
+for use with frozen section,
+cytology, or non-FFPE
+hematopathology specimens.
+The PIPS comprises the Image	
+
+--- Page 5 ---
+The Epredia E1000 Dx Digital Management System (IMS), the
+Pathology Solution consists of a Ultra-Fast Scanner (UFS) and
+Scanner (E1000 Dx Digital Display. The PIPS is for creation
+Pathology Scanner), which and viewing of digital images of
+generates images in MRXS image scanned glass slides that would
+file format, E1000 Dx Scanner otherwise be appropriate for
+Software, Image Management manual visualization by
+System (E1000 Dx IMS), E1000 conventional light microscopy.
+Dx Viewer Software, and Display It is the responsibility of a
+(Barco MDPC-8127). The Epredia qualified pathologist to employ
+E1000 Dx Digital Pathology appropriate procedures and
+Solution is for creation and safeguards to assure the validity
+viewing of digital images of of the interpretation of images
+scanned glass slides that would obtained using PIPS.
+otherwise be appropriate for
+manual visualization by
+conventional light microscopy. It
+is the responsibility of a qualified
+pathologist to employ appropriate
+procedures and safeguards to
+assure the validity of the
+interpretation of images obtained
+using Epredia E1000 Dx Digital
+Pathology Solution.
+WSI Scanner (E1000 Dx Digital
+PIPS Ultra Fast Scanner, Image
+Pathology Scanner), Image
+Management System and color
+Management System (E1000 Dx
+monitor display.
+Device Components
+IMS), Image Viewer (E1000 Dx
+Viewer) and color monitor
+display.
+Scanning
+0.25 µm per pixel 0.24 μm per pixel
+Magnification
+The technician performs quality Prior to scanning the slide on the
+control procedures per the Ultra Fast Scanner (UFS), the
+laboratory’s standard and loads technician conducts quality
+surgical pathology slides, prepared control on the slides prepared
+from FFPE tissue, into the Epredia from FFPE tissue per the
+Dx Digital Scanner. Subsequently, laboratory’s standards. The
+Principles of the scanner scans the slides, technician places the slides then
+Operation generating WSIs from each slide. into slide racks, loads the racks
+The resulting WSI images are into the UFS. The images
+stored in the image storage system scanned in the UFS are
+included in the device. During the transmitted to the IMS
+review process, the pathologist subsystem. The pathologist
+uses the IMS to open the E1000 accesses WSI images acquired
+Dx Viewer to view the images through the UFS from the image
+K241717 - Page 5 of 17
+
+[Table 1 on page 5]
+	The Epredia E1000 Dx Digital
+Pathology Solution consists of a
+Scanner (E1000 Dx Digital
+Pathology Scanner), which
+generates images in MRXS image
+file format, E1000 Dx Scanner
+Software, Image Management
+System (E1000 Dx IMS), E1000
+Dx Viewer Software, and Display
+(Barco MDPC-8127). The Epredia
+E1000 Dx Digital Pathology
+Solution is for creation and
+viewing of digital images of
+scanned glass slides that would
+otherwise be appropriate for
+manual visualization by
+conventional light microscopy. It
+is the responsibility of a qualified
+pathologist to employ appropriate
+procedures and safeguards to
+assure the validity of the
+interpretation of images obtained
+using Epredia E1000 Dx Digital
+Pathology Solution.	Management System (IMS), the
+Ultra-Fast Scanner (UFS) and
+Display. The PIPS is for creation
+and viewing of digital images of
+scanned glass slides that would
+otherwise be appropriate for
+manual visualization by
+conventional light microscopy.
+It is the responsibility of a
+qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the validity
+of the interpretation of images
+obtained using PIPS.
+Device Components	WSI Scanner (E1000 Dx Digital
+Pathology Scanner), Image
+Management System (E1000 Dx
+IMS), Image Viewer (E1000 Dx
+Viewer) and color monitor
+display.	PIPS Ultra Fast Scanner, Image
+Management System and color
+monitor display.
+Scanning
+Magnification	0.25 µm per pixel	0.24 μm per pixel
+Principles of
+Operation	The technician performs quality
+control procedures per the
+laboratory’s standard and loads
+surgical pathology slides, prepared
+from FFPE tissue, into the Epredia
+Dx Digital Scanner. Subsequently,
+the scanner scans the slides,
+generating WSIs from each slide.
+The resulting WSI images are
+stored in the image storage system
+included in the device. During the
+review process, the pathologist
+uses the IMS to open the E1000
+Dx Viewer to view the images	Prior to scanning the slide on the
+Ultra Fast Scanner (UFS), the
+technician conducts quality
+control on the slides prepared
+from FFPE tissue per the
+laboratory’s standards. The
+technician places the slides then
+into slide racks, loads the racks
+into the UFS. The images
+scanned in the UFS are
+transmitted to the IMS
+subsystem. The pathologist
+accesses WSI images acquired
+through the UFS from the image
+
+--- Page 6 ---
+from the image storage and storage and proceeds to analyze
+proceeds to analyze the WSI the WSI images of the slides.
+images of the slides.
+General Device Characteristic Differences
+Continuous panning and pre-
+Continuous panning and pre-
+fetching, continuous zooming,
+fetching, continuous zooming
+discrete Z-axis displacement,
+capability to compare multiple
+ability to compare multiple
+slides simultaneously on multiple
+Image Review windows, image enhancement and slides simultaneously on
+Manipulation color manipulation, and annotation multiple windows, image
+Functionality tools. Sharpening is done on the enhancement and sharpening
+functions, color manipulation,
+scanner side.
+annotation tools, digital
+bookmarks, and virtual multi-
+head microscope.
+Proprietary format MRXS is used Philips’s proprietary format,
+to store and transmit images iSyntax, is used to store and
+Image File Format
+between the E1000Dx Scanner transmit the images between the
+and the IMS. UFS and the IMS.
+1000 slides (50 glass slide racks 300 slides (15 glass slide racks
+Slide feeder
+with up to 20 slides per rack). with up to 20 slides per rack).
+Barco MDPC-8127 Philips PP27QHD (Barco
+Display
+MMPC-4227F1)
+VI Standards/Guidance Documents Referenced:
+1. FDA guidance “Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices," dated April 20, 2016.
+2. Applying Human Factors and Usability Engineering to Medical Devices: Guidance for
+Industry and Food and Drug Administration Staff February 3, 2016.
+3. ISO 13485 Third Edition 2016-03 - Medical devices — Quality management systems —
+Requirements for regulatory purposes.
+4. ISO 14971 Third edition 2019-12 - Medical devices — Application of risk management
+to medical devices.
+5. IEC 62304 Edition 1.1 2015-06 - Medical device software — Software life cycle
+processes.
+6. IEC 61010-1 Edition 3.1 2017-01 - Safety requirements for electrical equipment for
+measurement, control, and laboratory use - Part 1: General requirements.
+7. IEC 61010-2-101 Third Edition 2018-10 - Safety requirements for electrical equipment
+for measurement, control, and laboratory use - Part 2-101: Particular requirements for in
+vitro diagnostic (IVD) medical equipment.
+8. IEC 61326-1: 2020 - Electrical equipment for measurement, control, and laboratory use -
+EMC requirements - Part 1: General requirements.
+K241717 - Page 6 of 17
+
+[Table 1 on page 6]
+		from the image storage and
+proceeds to analyze the WSI
+images of the slides.	storage and proceeds to analyze
+the WSI images of the slides.	
+	General Device Characteristic Differences			
+Image Review
+Manipulation
+Functionality		Continuous panning and pre-
+fetching, continuous zooming
+capability to compare multiple
+slides simultaneously on multiple
+windows, image enhancement and
+color manipulation, and annotation
+tools. Sharpening is done on the
+scanner side.	Continuous panning and pre-
+fetching, continuous zooming,
+discrete Z-axis displacement,
+ability to compare multiple
+slides simultaneously on
+multiple windows, image
+enhancement and sharpening
+functions, color manipulation,
+annotation tools, digital
+bookmarks, and virtual multi-
+head microscope.	
+Image File Format		Proprietary format MRXS is used
+to store and transmit images
+between the E1000Dx Scanner
+and the IMS.	Philips’s proprietary format,
+iSyntax, is used to store and
+transmit the images between the
+UFS and the IMS.	
+Slide feeder		1000 slides (50 glass slide racks
+with up to 20 slides per rack).	300 slides (15 glass slide racks
+with up to 20 slides per rack).	
+Display		Barco MDPC-8127	Philips PP27QHD (Barco
+MMPC-4227F1)	
+
+--- Page 7 ---
+9. IEC 61326-2-6: 2020 - Electrical equipment for measurement, control and laboratory use-
+EMC Requirements. Part 2-6: Particular requirements- In vitro diagnostic (IVD) medical
+equipment.
+10. IEC 62366-1:2015 +A1:2020 - Medical devices — Part 1: Application of usability
+engineering to medical devices — Amendment 1
+11. IEC 60825-1:2014 - Safety of laser products - Part 1: Equipment classification and
+requirements.
+12. IEC 62471:2006-07 - Photobiological safety of lamps and lamp systems (including
+LEDs)
+13. IEC 63000:2018 - Technical documentation for the assessment of electrical and
+electronic products with respect to the restriction of hazardous substance.
+14. ISO 15223-1 Fourth edition 2021-07 - Medical devices — Symbols to be used with
+information to be supplied by the manufacturer — Part 1: General requirements.
+15. ISO 18113-1:2011- In vitro diagnostic medical devices Information supplied by the
+manufacturer (labelling) — Part 1: Terms, definitions, and general requirements.
+16. ISO 18113-3:2011 In vitro diagnostic medical devices Information supplied by the
+manufacturer (labelling) — Part 3: In vitro diagnostic instruments for professional use.
+17. ISO 20417: 2021 - Medical devices - Information to be supplied by the manufacturer.
+VII Performance Characteristics (if/when applicable):
+A. Analytical Performance:
+1. Precision/Reproducibility:
+The objective of this study was to evaluate the repeatability (within- and between- system) and
+reproducibility (between-site) of the E1000 Dx Digital Pathology Solution.
+The precision of the device was evaluated based on the review and identification of specific
+histopathologic “features” that are observed in FFPE H&E stained slides. Features selected for
+the study included tissue level features, cellular level features and sub-cellular level features. The
+study included 279 “study” features and 42 additional "wild card" features at different
+magnifications (10x, 20x, 40x) from 257 glass slides as shown in Table 1 below. Wild card
+features were used to reduce the risk of reader recall bias and were not used in the analysis. A
+minimum of 5 different features were evaluated at each relevant magnification level. Three
+scanning sites, 3 reading sites and a total of 9 US board-certified reading pathologists (RPs) were
+used in this study.
+Table 1: Primary Histologic Study Features in Precision Study
+10x Magnification (n) 20x Magnification (n) 40x Magnification (n)
+Tissue level Feature Cellular level Feature Subcellular level Feature
+Adipocytes (16) Clear Cells (18) Pigment (17)
+Small Artery (16) Duct (17) Macrophages/Histocytes (17)
+K241717 - Page 7 of 17
+
+[Table 1 on page 7]
+10x Magnification (n)	20x Magnification (n)	40x Magnification (n)
+		
+Tissue level Feature	Cellular level Feature	Subcellular level Feature
+		
+Adipocytes (16)	Clear Cells (18)	Pigment (17)
+Small Artery (16)	Duct (17)	Macrophages/Histocytes (17)
+
+--- Page 8 ---
+Nerve (16) Lymphoid Aggregate (16) Intercellular Bridges (16)
+Necrosis (15) Myxoid Stroma (16) Lobular Carcinoma (15)
+Squamous Epithelium (16) Goblet Cells (16) Nucleoli (14)
+Gland (16) Calcification (12) Cilia (13)
+Muscle (16) Nuclear Pleomorphism (12)
+-
+Keratin Pearl (11)
+-
+-
+Study Feature =111 Study Feature =95 Study Feature =115
+Wild Card Feature = 15 Wild Card Feature =12 Wild Card Feature = 15
+Consecutive cases were selected from the pathology laboratory using the laboratory information
+system (LIS) by an enrollment pathologist (EP). A different validating enrollment pathologist
+(VEP) confirmed whether the feature was present on the glass slide. Slide scanning of the same
+set of enrolled slides was performed sequentially at all three scanning sites. Three rescans, as
+needed, of each slide was allowed. Once the slides were scanned, the EP reviewed the image and
+defined an area (bookmark) containing the selected feature(s) at the appropriate magnification.
+Then a static full resolution extraction image of the bookmark was created and defined as the
+Field of View (FOV). The VEP confirmed whether the feature(s) was present in the FOV. After
+VEP confirmation, the FOV was considered enrolled into the study. These FOV images were
+randomly rotated in 90-degree increments and randomly assigned to the reading pathologists
+(RPs) to minimize recall bias. The reading pathologist (RP) at each site recorded the presence of
+each observed feature on a checklist. For each magnification, a separate checklist containing
+features was developed with a multiple answer list of up to 9 possible answers. There was a
+minimum washout period of 14 days between pathologist reading sessions. Only the primary
+features were used in the data analysis.
+The precision of the Epredia E1000 Dx Digital Pathology Solution was assessed in the following
+studies:
+• Intra-System (Within-System) precision was assessed using 3 independent systems.
+Overall within system precision was also assessed.
+• Inter-System (Between-System) precision was assessed using 3 independent systems at 3
+different sites.
+• Within- and Between-pathologist precision was assessed using images generated from a
+single system.
+Study acceptance criteria: The precision was considered acceptable if the lower bounds of the 2-
+sided 95% confidence interval (CI) of the overall agreements for each precision component
+(within-system, between-system/site, within-pathologist, and between-pathologist) were ≥ 85%.
+K241717 - Page 8 of 17
+
+[Table 1 on page 8]
+Nerve (16)	Lymphoid Aggregate (16)	Intercellular Bridges (16)
+Necrosis (15)	Myxoid Stroma (16)	Lobular Carcinoma (15)
+Squamous Epithelium (16)	Goblet Cells (16)	Nucleoli (14)
+Gland (16)	Calcification (12)	Cilia (13)
+Muscle (16)	-	Nuclear Pleomorphism (12)
+-	-	Keratin Pearl (11)
+Study Feature =111
+Wild Card Feature = 15	Study Feature =95
+Wild Card Feature =12	Study Feature =115
+Wild Card Feature = 15
+
+--- Page 9 ---
+Within-System Precision
+In total, 321 features (3 x 93 study features + 42 wild card features) were used. Each of 279
+study slides had at least one primary feature. The study slide set was divided equally (n = 93
+study slides + 42 wild card slides) over 3 systems. Each slide set was scanned three times with at
+least six hours between scanning iterations on each system. From these scans, a total of 405
+FOVs (279 study + 126 wild card) were extracted.
+Randomly selected FOVs originating from three different systems and three different iterations
+were read by each of three RPs for a total of 3,645 [(93+42 FOVs) x 3 systems x 3 scans x 3
+Pathologists] reads. The reading pathologist at the site recorded the presence of each observed
+feature on a checklist for each pre-determined magnification level. Data analysis included 2,511
+(93 study FOVs x 3 systems x 3 scans x 3 Pathologists) reads out of 3,645 reads.
+Study results are shown in Table 2 below. The data showed that the acceptance criteria of a
+lower limit of the 95% Confidence interval (CI) greater than 85%, with an Average Positive
+Agreement (APA) of 96.9% (lower limit of 96.1%) was met.
+Table 2: Within Systems Precision Study Results
+Number of Pairwise Number of Agreement Rate
+System
+Agreements* Comparison Pairs % 95% CI
+System 1 820 837 98.0 (96.8, 98.8)
+System 2 803 837 95.9 (94.5, 97.3)
+System 3 810 837 96.8 (95.4, 97.9)
+Total 2,433 2,511 96.9 (96.1, 97.6)
+Between-System Precision Study
+The between-system precision study utilized the full set of glass slides from the within-system
+study, including the same extracted FOVs, primary study features and wildcard features. Each
+slide was scanned once on each system. Three reading pathologists then evaluated each enrolled
+FOV once on each system. The pathologists recorded the presence of each observed feature on a
+checklist for each magnification level. Each RP read 321 FOVs (279 Study FOVs, 42 wild card
+FOVs) in each of three (3) different reading sessions. There was a total of 2,889 reads [(279
+study slides + 42 wild card slides) x 3 systems x 1 times x 3 Pathologists] and 378 of wild-card
+FOVs readings were excluded. There were 2,511 pairwise comparisons used for calculating the
+agreement rates.
+Study results are shown in Table 3 below. The data showed that the acceptance criteria of a
+lower limit of 95% CI greater than 85%, with an APA of 95.1% (lower limit of 94%) was met.
+Table 3: Between-System Precision Study Results
+Number of Pairwise Number of Agreement Rate
+System
+Agreements Comparison Pairs % 95% CI
+System 1 vs 2 788 837 94.1 (91.3, 96.0)
+System 1 vs 3 793 837 94.7 (92.6, 96.5)
+System 2 vs 3 808 837 96.5 (94.7, 97.9)
+Total 2,389 2,511 95.1 (94.1, 96.1)
+K241717 - Page 9 of 17
+
+[Table 1 on page 9]
+System	Number of Pairwise	Number of	Agreement Rate	
+	Agreements*	Comparison Pairs	%	95% CI
+				
+System 1	820	837	98.0	(96.8, 98.8)
+System 2	803	837	95.9	(94.5, 97.3)
+System 3	810	837	96.8	(95.4, 97.9)
+Total	2,433	2,511	96.9	(96.1, 97.6)
+
+[Table 2 on page 9]
+System	Number of Pairwise	Number of	Agreement Rate	
+	Agreements	Comparison Pairs	%	95% CI
+				
+System 1 vs 2	788	837	94.1	(91.3, 96.0)
+System 1 vs 3	793	837	94.7	(92.6, 96.5)
+System 2 vs 3	808	837	96.5	(94.7, 97.9)
+Total	2,389	2,511	95.1	(94.1, 96.1)
+
+--- Page 10 ---
+Between-Site Reproducibility
+For the between-site reproducibility study, the FOVs from the within-system and between-
+system precision studies were used as the study FOVs. The study involved 3 different RPs, each
+located at one of 3 different sites, each equipped with its own E1000 Dx Digital Pathology
+Solution. The order of FOV evaluation at each site was randomly determined. Each pathologist
+evaluated each FOV once and recorded the presence of each observed feature on a checklist for
+each magnification level.
+Study results are shown in Table 4 below. The data showed that the acceptance criteria of a
+lower limit of 95% CI greater than 85%, with an APA of 95.4% (lower limit of 93.5%) was met.
+Table 4: Between-Site Reproducibility Agreement Rates
+Number of Pairwise Number of Agreement Rate
+System
+Agreements Comparison Pairs % 95% CI
+Site 1 vs 2 261 279 93.5 (89.4, 96.7)
+Site 1 vs 3 268 279 96.1 (92.5, 98.4)
+Site 2 vs 3 270 279 96.8 (93.3, 98.8)
+Total 799 837 95.4 (93.6, 97.2)
+Between-Pathologist Reproducibility
+Each RP read 321 FOVs (279 Study FOVs, 42 wild card FOVs) in each of the 3 different reading
+sessions. There were a total 2,889 reads (963 reads per RP), and 378 of wild-card FOVs readings
+were excluded from the analysis. A total of 2,511 pairwise comparisons were used for calculating
+the agreement rates.
+Study results are shown in Table 5 below. The data show that the study acceptance criterion
+of the lower limit of the 95% confidence interval of the % of agreement rate exceeding 85%
+was met.
+Table 5: Between-Pathologist Reproducibility
+Number of Pairwise Number of Agreement Rate
+System
+Agreements Comparison Pairs % 95% CI
+Pathologist 1 vs 2 818 837 97.7 (96.6, 98.7)
+Pathologist 1 vs 3 813 837 97.1 (95.9, 98.3)
+Pathologist 2 vs 3 816 837 97.5 (96.4, 98.5)
+Total 2,447 2,511 97.5 (96.9, 98.1)
+Within-Pathologist Reproducibility
+Each RP read 321 FOVs (279 Study FOVs, 42 wild card FOVs) in each of 3 different reading
+sessions. There was a total of 2,889 reads (963 reads per RP), and 378 wild-card FOVs
+readings were excluded from the analysis. Agreement pairs were scored for each pathologist
+between repeated scans (Scan 1 vs 2, Scan 1 vs 3, and Scan 2 vs 3) across all 3 systems. Totals
+for each pathologist as well as aggregated data from all pathologists was also calculated.
+Study results are shown in Table 6 below. The data show that the study acceptance criterion
+of the lower limit of the 95% confidence interval of the % of agreement rate exceeding 85%
+was met.
+K241717 - Page 10 of 17
+
+[Table 1 on page 10]
+System	Number of Pairwise	Number of	Agreement Rate	
+	Agreements	Comparison Pairs	%	95% CI
+				
+Site 1 vs 2	261	279	93.5	(89.4, 96.7)
+Site 1 vs 3	268	279	96.1	(92.5, 98.4)
+Site 2 vs 3	270	279	96.8	(93.3, 98.8)
+Total	799	837	95.4	(93.6, 97.2)
+
+[Table 2 on page 10]
+System	Number of Pairwise	Number of	Agreement Rate	
+	Agreements	Comparison Pairs	%	95% CI
+				
+Pathologist 1 vs 2	818	837	97.7	(96.6, 98.7)
+Pathologist 1 vs 3	813	837	97.1	(95.9, 98.3)
+Pathologist 2 vs 3	816	837	97.5	(96.4, 98.5)
+Total	2,447	2,511	97.5	(96.9, 98.1)
+
+--- Page 11 ---
+Table 6: Between-Pathologist Reproducibility
+Number of Pairwise Number of Agreement Rate
+System
+Agreements Comparison Pairs % 95% CI
+RP 1, System 1 269 279 96.4 (93.6, 98.4)
+RP 1, System 2 269 279 96.4 (93.6, 98.4)
+RP 1, System 3 265 279 95.0 (91.9 97.3)
+RP 1 (Total) 803 837 95.9 (94.4, 97.2)
+RP 2, System 1 271 279 97.1 (94.5, 98.8)
+RP 2, System 2 269 279 96.4 (93.7, 98.4)
+RP 2, System 3 267 279 95.7 (92.6, 97.9)
+RP 2 (Total) 807 837 96.4 (94.9, 97.7)
+RP 3, System 1 271 279 97.1 (94.5, 98.8)
+RP 3, System 2 267 279 95.7 (92.6, 97.8)
+RP 3, System 3 269 279 96.4 (93.6, 96.5)
+RP 3 (Total) 807 837 96.4 (95.0, 97.6)
+Overall 2417 2,511 96.3 (95.5, 97.2)
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+B. Technical Studies:
+Multiple studies were conducted to evaluate the performance of the E1000 Dx Digital Pathology
+Solution as recommended in FDA Guidance, “Technical Performance Assessment of Digital
+Pathology Whole Slide Imaging Devices”.
+a. Slide Feeder
+The slide feeder mechanism was described, including a physical description of the slide, the
+number of slides in queue (carrier), and the class of automation. The user interaction with the
+slide feeder was also described, including hardware, software, and feedback mechanisms.
+b. Light Source
+Descriptive information about the lamp and the condenser was provided. Testing information
+was provided to verify the spectral distribution of the light source as part of the color
+reproduction capability of the E1000 Dx Scanner subsystem.
+K241717 - Page 11 of 17
+
+[Table 1 on page 11]
+System	Number of Pairwise	Number of	Agreement Rate	
+	Agreements	Comparison Pairs	%	95% CI
+				
+RP 1, System 1	269	279	96.4	(93.6, 98.4)
+RP 1, System 2	269	279	96.4	(93.6, 98.4)
+RP 1, System 3	265	279	95.0	(91.9 97.3)
+RP 1 (Total)	803	837	95.9	(94.4, 97.2)
+RP 2, System 1	271	279	97.1	(94.5, 98.8)
+RP 2, System 2	269	279	96.4	(93.7, 98.4)
+RP 2, System 3	267	279	95.7	(92.6, 97.9)
+RP 2 (Total)	807	837	96.4	(94.9, 97.7)
+RP 3, System 1	271	279	97.1	(94.5, 98.8)
+RP 3, System 2	267	279	95.7	(92.6, 97.8)
+RP 3, System 3	269	279	96.4	(93.6, 96.5)
+RP 3 (Total)	807	837	96.4	(95.0, 97.6)
+Overall	2417	2,511	96.3	(95.5, 97.2)
+
+--- Page 12 ---
+c. Imaging Optics
+An optical schematic was provided, showing all optical elements from the slide (object
+plane) to the digital image sensor (image plane). Descriptive information about the
+microscope objective, the auxiliary lenses, and the magnification of the imaging optics was
+also provided. Testing information about the relative irradiance, image distortions, and lateral
+chromatic aberrations was also provided.
+d. Mechanical Scanner Movement
+Information and specifications about the configuration of the stage, the method of movement,
+and the control of movement of the stage were provided. Test data to verify the repeatability
+of the stage movement and to verify that the stage movement stays within limits during
+operations was also provided.
+e. Digital Imaging Sensor
+Information and specifications about the sensor type, pixel information, responsivity
+specifications, noise specifications, readout rate, and digital output format were provided.
+Vendor provided test data to determine the correct functioning of the digital image sensor,
+which converts optical signals of the slide to digital signals that consist of a set of numerical
+values corresponding to the brightness and color at each point in the optical image, was also
+provided.
+f. Image Processing Software
+Information and specifications on the exposure control, white balance, color correction, and
+flat-field correction was provided.
+g. Image Composition
+Information and specifications on the scanning method was provided. Test data to analyze
+the image composition performance was provided.
+h. Image Files Format
+Information and specifications on the compression method, compression ratio, file format,
+and file organization were provided.
+i. Image Review Manipulation Software
+Information and specifications on continuous panning and pre-fetching, continuous zooming,
+discrete Z-axis displacement, ability to compare multiple slides simultaneously on multiple
+windows, image enhancement and sharpening functions, color manipulation, annotation
+tools, digital bookmarks, and virtual multihead microscope was provided.
+j. Computer Environment
+Information and specifications on the computer hardware, operating system, graphics card,
+graphics card driver, color management settings, color profile, and display interface was
+provided.
+k. Display
+Information and specifications on the technological characteristics of the display device,
+physical size of the viewable area and aspect ratio, backlight type and properties, frame rate
+and refresh rate, pixel pitch, and supported color spaces, color depth, display interface, user
+K241717 - Page 12 of 17
+
+--- Page 13 ---
+controls of brightness, contrast ratio, gamma, color space, etc., via the on-screen display
+menu, ambient light adaptation, and color calibration tools was provided.
+l. Color Reproducibility
+Test data to evaluate the color reproducibility of the system was provided.
+m. Spatial Resolution
+Test data to evaluate the composite optical performance of all components in the image
+acquisition phase was provided.
+n. Focusing Test
+Test data to evaluate the technical focus quality of the system was provided.
+o. Whole Slide Tissue Coverage
+Test data to demonstrate that the entire tissue specimen on the glass slide is detected by the
+tissue detection algorithms and that all the tissue specimens are included in the digital image
+file was provided.
+p. Stitching Error
+Test data to evaluate the stitching errors and artifacts in the reconstructed image was
+provided.
+q. Turnaround Time
+Test data to evaluate the turnaround time of the system was provided.
+C. Clinical Study:
+A retrospective, multi-center study was conducted to demonstrate that viewing, reviewing, and
+diagnosing digital images of surgical pathology FFPE tissue slides using the Epredia E1000 Dx
+Digital Pathology Solution is non-inferior to using traditional optical light microscopy. The
+primary endpoint was the difference in agreement rates between diagnoses rendered using
+Epredia E1000 Dx Digital Pathology Solution’s digital WSI review modality [Manual Digital
+(MD)] and the manual microscopy slide review modality [Manual Optical (MO)] when each was
+compared to the reference diagnosis, which is based on the original main sign-out diagnosis (SD)
+rendered at the study sites using an optical light microscope. The study consisted of reviewing
+archived, de-identified and previously “signed-out” slides representing main organ systems
+within surgical pathology. Cases included retrospective H&E stained FFPE tissue, special stains
+and/or immunohistochemical stains (IHC) from the pathology practice, but did not include
+frozen sections, or cytological and hematological cases.
+The study included 1,299 consecutively enrolled cases containing 1796 individual slides. These
+cases were at least one year old for which a sign-out diagnosis is available at 3 enrollment sites.
+These slides were scanned in one site using the Epredia E1000 Dx slide scanner. Slides
+corresponding to each case were selected by the Enrollment Pathologist (EP) from the original
+slide(s) used for the main (sign-out) diagnosis and then given a case identifier using a barcode
+label and randomized. The EP reviewed the pathology report for each case and determined the
+main diagnosis for each case. The EP then matched the case to the list of types of cases to be
+evaluated and selected the representative slide(s) that reflected the main diagnosis.
+K241717 - Page 13 of 17
+
+--- Page 14 ---
+Cases were randomly distributed to 3 reading sites. At site one, 24 pathologists were divided into
+3 groups with each group consisting of pathologists representing 10 subspecialties. Some
+pathologists had expertise in two subspecialties. Cases within each subspecialty were read three
+times by the corresponding specialists at site one, distributed across the three groups for their
+respective subspecialties. At sites two and three, 3 RPs read every case assigned to the site. Each
+case was read 3 times in an alternating and randomized order, with a washout period of at least
+30 days between reads, resulting in a case total of 3,897 WSI reads and 3,881 Glass reads.
+Study Inclusion Criteria
+• The case is at least one year for which a sign-out diagnosis is available.
+• Formalin Fixed Paraffin Embedded (FFPE) tissue slides.
+• All glass slides, with human tissue obtained via surgical pathology of original case are
+available.
+• The original sign-out diagnosis and ancillary supporting information is available.
+• The selected slide or slides for the main diagnosis and the control slide(s) fulfill quality checks
+according to general practice.
+• Case, including cases previously referred to another site, for which Hematoxylin and Eosin
+(H&E), Immunohistochemistry (IHC) or special stains slides used for the original sign-out
+diagnosis is available at the site.
+• The selected slide (s) for the main diagnosis match any subtype of the organ for which the case
+is selected.
+Study Exclusion Criteria
+• Cases that were signed out less than one year prior to the date of curation.
+• Case with an amended report resulting in a change in diagnosis.
+• Case with slides containing indelible markings.
+• Case with slides that are damaged.
+• Glass slide that is broken, has many pen markings or dirt that cannot be removed, has abnormal
+size/thickness, beveled edges, poor coverslip (cracks, waviness, scratches), is sticky, contains
+air bubbles and overhanging labels that can’t be corrected, and if the stain is severely faded.
+• More than one case selected (only one case may be enrolled per patient).
+• Case consists of frozen section(s) only.
+• Case consists of gross specimen(s) only.
+An independent adjudication panel consisting of 5 Adjudication Pathologists (APs)
+independent of the study were utilized for this study to determine if the study diagnosis to
+consistent with the reference (sign-out) diagnosis. Four of the 5 APs were divided into 2
+Adjudication Groups (AGs) of 2 APs each. The remaining 1 AP was assigned as tiebreaker
+Adjudication Pathologist (TAP). Each CRF was independently reviewed by both 2 APs of 1 of
+the 2 AGs to determine whether the diagnosis is consistent with the sign-out (main) diagnosis. A
+major discordance was defined as a difference in diagnosis that would be associated with a
+clinically important difference in patient management. A minor discordance was defined as a
+difference in diagnosis that would not be associated with a clinically important difference in
+patient management. In the event the APs in an AG disagreed, the TAP reviewed the case to
+achieve majority vote (tiebreaker). In cases where all APs and TAP have a different opinion,
+consensus was achieved in an adjudication panel meeting consisting of the same three APs.
+K241717 - Page 14 of 17
+
+--- Page 15 ---
+The observed major discordance rates were observed and calculated using a Generalized Linear
+Mixed Model (GLIMMIX) logistic regression. For each reading result, the dependent variable
+was the major discordance status and independent variables included modality as a fixed effect
+(MD vs MO) and site, reader, and case as random effects. A two-sided 95% Confidence Interval
+(CI) for the overall discordance between reading modalities (MD-MO) was calculated from this
+analysis.
+Out of the 1,299 cases included in the study, 5 cases were removed from the study and therefore
+did not undergo MO review Due to the following reasons: Two cases were recalled to their original
+clinics as the patients were readmitted and the slides were requested by the primary physicians and
+slides from 3 cases were damaged during transport and were not able to be read. The reading
+sessions resulted in a total of 7,778 reading pairs (3,897 WSI and 3,881 Glass). In total, 3,897
+(1299 cases x 3 pathologist) readings of WSI cases and 3,881(*) readings of glass slide cases were
+adjudicated [*final cases (glass) reviewed (1299-5)=1294; 1 case was reviewed by 2 out of 3
+pathologists due to a slide breaking during transit, which resulted in 3881 glass slide case reads
+[(1293 cases x 3 pathologists) + (1 case x 2 pathologists)]= 3881].
+Study Results
+The major discordance rate between WSI and SD (MD) was observed to be 2.54% (99/3897) and
+the major discordance rate between Glass and SD (MO) was observed to be 2.65% (103/3881).
+The overall major discordance rates estimated by the generalized linear model were 2.51% (95%
+CI: 2.26%; 2.79%) for MD and 2.59% (95% CI: 2.29%, 2.82%) for MO. The estimated
+difference in major discordance between the MD and MO rates was calculated to be -0.15%
+(95% CI: -0.40%, 0.41%). These results met the acceptance criteria for the study. Specifically,
+the major discordance rate for WSI (MD), which was 2.5%, was required to be <7.0% and the
+upper limit of the 95% confidence interval of the difference in major discordance rate between
+WSI and Glass (MD-MO), which was 0.41%, was required to be <4.0%.
+The study results are shown in Table 7 below.
+Table 7: Overall Major Discordance Rate for MD and MO
+MD: Major Discordance MO: Major Discordance Difference
+Rate Rate MD - MO
+N % 95% CI N % 95% CI % 95% CI
+Observed 2.54% 2.65% -0.11%
+Modeled 3897 (2.26%; 3881 (2.29%, (-0.40%,
+-0.15%
+2.51% 2.79%) 2.59% 2.82%) 0.41%)
+The detailed list of the major discordance rate for each organ system and anatomical region are
+shown in Table 8 below.
+Table 8: Major Discordance Rates Observed Across Organ Systems
+MD Major MO Major MD – MO
+Organ System
+Discordance Discordance Difference
+N % N % % Difference
+Breast 360 0.6% 357 1.1% -0.6%
+K241717 - Page 15 of 17
+
+[Table 1 on page 15]
+		MD: Major Discordance						MO: Major Discordance						Difference				
+		Rate						Rate						MD - MO				
+	N		%	95% CI			N		%	95% CI			%			95% CI		
+Observed	3897		2.54%				3881		2.65%					-0.11%				
+Modeled			2.51%		(2.26%;				2.59%		(2.29%,		-0.15%				(-0.40%,	
+					2.79%)						2.82%)						0.41%)	
+
+[Table 2 on page 15]
+	MD Major		MO Major		MD – MO
+Organ System					
+	Discordance		Discordance		Difference
+					
+	N	%	N	%	% Difference
+Breast	360	0.6%	357	1.1%	-0.6%
+
+--- Page 16 ---
+Dermatological 297 3.4% 297 1.7% 1.7%
+Endocrine 270 3.0% 270 3.3% -0.4%
+Gastrointestinal 1047 1.5% 1037 1.3% 0.3%
+Genitourinary 777 2.2% 777 1.4% 0.8%
+Gynecological 357 7.3% 357 10.1% -2.8%
+Hematopoietic 222 1.8% 222 3.2% -1.4%
+Pulmonary 210 2.4% 207 4.3% -2.0%
+Musculoskeletal 150 1.3% 150 2.0% -0.7%
+Neurological 207 4.3% 207 2.9% 1.4%
+An additional analysis was performed on the 3881 pairs in which diagnoses were recorded using
+both reading modalities (MD and MO) by the same pathologist. The reported diagnoses from each
+case were directly compared between the two reading modalities (without comparison to SD) for
+each pathologist. Each diagnosis deemed “Major Discordance” to SD by the adjudication panel
+was compared to that same pathologist’s diagnosis using the other reading modality. If the
+diagnoses for both reading modalities were the same, that pair result was “agree”. Otherwise, the
+pair was marked “disagree”. All pairs not containing a “Major Discordance” were assumed to be
+“agree”. Using this methodology, all available pairs were scored and the summary of the agreement
+rate per site is listed below in Table 9 below.
+Table 9: Agreement Rate Between MD and MO (without comparing to SD)
+Study sites Number of Number of Agree Disagree
+cases reads N % N %
+Site 1 569 1706 1671 97.9% 35 2.1%
+Site 2 429 1287 1243 96.6% 44 3.4%
+Site 3 296 888 876 98.6% 12 1.4%
+Total 1294 3881 3790 97.7% 91 2.3%
+D. Human Factor Study:
+Human factors studies for E1000 Dx Digital Pathology Solution to assess performance of critical
+user tasks and use scenarios by representative users, including anatomic pathology lab
+technicians and pathologists were conducted. The studies were designed around critical user
+tasks and use scenarios performed by representative users from histotechnicians and pathologists
+(15 pathologists and 15 laboratory technicians) to assess software interface, hardware interface,
+and product labeling. All participants were able to perform all tasks (including the critical tasks)
+and no critical task failures were observed. Critical tasks were identified internally by conducting
+a detailed uFMEA (user Failure Modes and Effects Analysis). Both user groups perceived that
+the risk mitigation steps for critical tasks were successfully implemented and that the E1000 Dx
+Digital Pathology Solution can be used safely and effectively by its intended users, for its
+intended purpose, and in its intended use environment.
+VIII Proposed Labeling:
+The labeling is sufficient, and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable, and the special controls for this device type under 21 CFR 864.3700.
+K241717 - Page 16 of 17
+
+[Table 1 on page 16]
+Dermatological	297	3.4%	297	1.7%	1.7%
+Endocrine	270	3.0%	270	3.3%	-0.4%
+Gastrointestinal	1047	1.5%	1037	1.3%	0.3%
+Genitourinary	777	2.2%	777	1.4%	0.8%
+Gynecological	357	7.3%	357	10.1%	-2.8%
+Hematopoietic	222	1.8%	222	3.2%	-1.4%
+Pulmonary	210	2.4%	207	4.3%	-2.0%
+Musculoskeletal	150	1.3%	150	2.0%	-0.7%
+Neurological	207	4.3%	207	2.9%	1.4%
+
+[Table 2 on page 16]
+Study sites		Number of			Number of			Agree						Disagree				
+		cases			reads			N			%			N			%	
+Site 1	569			1706			1671			97.9%			35			2.1%		
+Site 2	429			1287			1243			96.6%			44			3.4%		
+Site 3	296			888			876			98.6%			12			1.4%		
+Total	1294			3881			3790			97.7%			91			2.3%		
+
+--- Page 17 ---
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K241717 - Page 17 of 17

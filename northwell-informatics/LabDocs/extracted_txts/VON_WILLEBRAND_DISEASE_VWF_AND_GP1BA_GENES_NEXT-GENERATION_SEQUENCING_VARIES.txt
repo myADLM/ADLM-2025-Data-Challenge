@@ -1,0 +1,88 @@
+Standard Operating Procedure for Next-Generation Sequencing
+(NGS) Analysis of VWF and GP1BA Genes for Von Willebrand
+Disease
+1. PURPOSE
+To outline the standard protocol for the analytical phase of Next-
+Generation Sequencing (NGS) for the VWF and GP1BA genes in
+patients suspected of having Von Willebrand Disease. This protocol
+ensures accurate and systematic generation of results, making
+optimal use of NGS technology.
+Responsibility: All designated staff must adhere to this SOP to ensure
+quality and accuracy of data generated. The lead molecular
+technologist is responsible for overseeing the analytic phase and
+ensuring compliance with the SOP.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• NGS sequencer (e.g., Illumina, Ion Torrent)
+• NGS library preparation kits
+• DNA extraction kits
+• PCR machine
+• Thermocycler
+• Microcentrifuge
+• Gel electrophoresis unit
+• Quantification tools (e.g., Qubit, Bioanalyzer)
+• Pipettes and tips
+• Consumables (e.g., tubes, plates)
+• Software for data analysis
+1. PROTOCOL
+A) DNA Extraction:
+1. Extract DNA from patient samples using a commercially
+available extraction kit.
+2. Verify DNA quality and quantity using spectrophotometry (e.g.,
+NanoDrop) and fluorometry (e.g., Qubit).
+3. Store DNA samples at -20°C until library preparation.
+B) NGS Library Preparation:
+1. Use appropriate library preparation kits for target enrichment of
+VWF and GP1BA genes.
+2. Perform PCR amplification of target regions according to kit
+instructions.
+3. Purify PCR products using a column or magnetic bead-based
+system.
+4. Quantify and assess the quality of prepared libraries using
+fluorometry and capillary electrophoresis (e.g., Bioanalyzer).
+C) Sequencing:
+1. Load the purified libraries onto the NGS sequencer and follow
+the manufacturer's instrument protocol.
+2. Monitor sequencing run for quality and completeness.
+D) Data Analysis:
+1. Transfer raw sequencing data to the bioinformatics software.
+2. Perform quality control on raw data (e.g., FASTQ files) to
+ensure sequencing accuracy.
+3. Align reads to reference genome and identify variants using
+appropriate software tools (e.g., GATK, BWA).
+4. Annotate identified variants with relevant databases (e.g.,
+dbSNP, ClinVar).
+E) Validation and Interpretation:
+1. Confirm variants of interest using secondary validation methods
+(e.g., Sanger sequencing).
+2. Interpret results using clinical criteria and guidelines for Von
+Willebrand Disease.
+3. Prepare a comprehensive report summarizing findings.
+4. QUALITY CONTROL
+5. Include appropriate positive and negative control samples in
+each run of the NGS process.
+6. Ensure consistent performance of equipment and reagents
+through regular maintenance and calibration.
+7. Document all steps meticulously, including any deviations from
+the protocol.
+8. REPORTING RESULTS
+9. Review generated reports for accuracy.
+10. Validate critical results before dissemination.
+11. Submit the report to the ordering physician through the
+Laboratory Information System (LIS).
+12. Document any discrepancies or unexpected findings.
+13. REFERENCES
+Refer to manufacturer's instructions for NGS kits, sequencing
+instruments, and software tools. Consult current clinical guidelines for
+Von Willebrand Disease to interpret genetic findings.
+1. METHOD LIMITATIONS
+Refer to specific product inserts and literature for limitations related to
+NGS technology and variant interpretation in VWF and GP1BA
+genes.
+1. SAFETY CONSIDERATIONS
+Ensure compliance with all laboratory safety protocols and handling
+guidelines for reagents and specimens.
+This SOP ensures a systematic approach to the analytical phase of
+NGS testing for Von Willebrand Disease, promoting reliable and
+accurate genetic analysis.
+Appendix: Attach relevant product inserts, example report templates,
+and specific clinical guidelines for disease interpretation as required.

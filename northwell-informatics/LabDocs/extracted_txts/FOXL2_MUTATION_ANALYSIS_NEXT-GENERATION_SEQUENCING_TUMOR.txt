@@ -1,0 +1,118 @@
+Protocol for FOXL2 Mutation Analysis: Next-Generation
+Sequencing, Tumor Samples
+1. Purpose
+To provide a standardized protocol for the detection of mutations in
+the FOXL2 gene via next-generation sequencing (NGS) in tumor
+samples. This protocol ensures the accurate and reliable
+identification of genetic mutations associated with specific tumor
+pathologies.
+Responsibility: It is the responsibility of the technologists and
+laboratory personnel to follow this protocol accurately and perform all
+necessary steps, quality control checks, and documentation during
+the analytical phase of the process.
+1. Specimen Requirements:
+◦ Tumor tissue obtained via biopsy or surgical resection.
+◦ Specimens must be stored in 10% neutral buffered formalin
+and processed into formalin-fixed, paraffin-embedded
+(FFPE) tissue blocks.
+◦ A minimum of 5-10 µm tissue sections should be cut and
+mounted onto slides. Approximately 5-10 slides provide
+sufficient material for DNA extraction.
+2. Reagents and Supplies:
+◦ DNA extraction kit (validated for use with FFPE tissue).
+◦ Qubit fluorometer or equivalent for DNA quantification.
+◦ Next-Generation Sequencing (NGS) platform (e.g., Illumina
+MiSeq, Ion Torrent).
+◦ FOXL2-specific primers and probes.
+◦ Library preparation kit.
+◦ PCR thermocycler.
+◦ Sequencing data analysis software (e.g., Illumina
+BaseSpace, Ion Reporter).
+3. Equipment:
+◦ Microtome.
+◦ Thermocycler.
+◦ NGS sequencer.
+◦ Bioanalyzer or TapeStation for assessing library quality.
+◦ Qubit fluorometer or equivalent for DNA quantification.
+◦ Computer with necessary software for data analysis.
+4. Procedure:
+A) DNA Extraction:
+1. Prepare Tissue Sections:
+◦ Cut 5-10 µm sections from FFPE blocks and place on
+slides.
+◦ Deparaffinize sections in xylene and rehydrate through
+graded alcohols to water.
+2. DNA Isolation:
+◦ Use the DNA extraction kit according to the manufacturer's
+instructions for FFPE samples.
+◦ Quantify DNA yield using Qubit fluorometer or equivalent.
+B) Library Preparation:
+1. Amplification:
+◦ Perform PCR amplification of the FOXL2 gene using
+specific primers.
+◦ Confirm successful amplification via gel electrophoresis.
+2. Library Construction:
+◦ Use the library preparation kit to create NGS libraries from
+the amplified DNA.
+◦ Quantify and assess the quality of the libraries using a
+Bioanalyzer or TapeStation.
+C) Sequencing:
+1. Loading:
+◦ Load the prepared libraries into the NGS platform according
+to manufacturer's instructions.
+◦ Perform sequencing run. Ensure all necessary controls are
+included in the sequencing run.
+D) Data Analysis:
+1. Initial Processing:
+◦ Use sequencing data analysis software to align reads to the
+reference genome.
+◦ Identify variants, focusing on mutations in the FOXL2 gene.
+2. Variant Annotation:
+◦ Annotate identified variants using appropriate databases
+and tools (e.g., ClinVar, COSMIC).
+3. Interpretation:
+◦ Interpret the clinical significance of identified FOXL2
+mutations in the context of the tumor pathology.
+◦ Verify interpreted results through secondary analysis if
+necessary.
+E) Quality Control:
+• Include known positive and negative controls in each batch of
+samples processed.
+• Monitor the performance and maintenance of all equipment
+according to established schedules.
+• Ensure replicability by performing duplicate tests on a subset of
+samples.
+F) Reporting Results:
+1. Documentation:
+◦ Document all steps, including DNA quantification, library
+preparation, sequencing run details, data analysis, and
+quality control in the laboratory information system.
+2. Report Generation:
+◦ Generate a comprehensive report detailing the identified
+FOXL2 mutations and their clinical significance.
+◦ Review and verify results by a qualified technologist before
+issuing the final report.
+3. Critical Results:
+◦ Communicate critical or unexpected mutations immediately
+to the requesting clinician, according to the laboratory's
+critical result notification policy.
+4. Storage of Data and Specimens:
+◦ Store sequencing data securely on the laboratory's data
+storage system.
+◦ Archive raw data for at least five years.
+◦ Retain DNA samples as per institutional policy for potential
+further analysis.
+References:
+• Manufacturer’s instructions for the DNA Extraction Kit.
+• Manufacturer’s instructions for the Library Preparation Kit.
+• Manufacturer’s instructions for the NGS platform.
+• Clinical databases such as ClinVar and COSMIC for variant
+interpretation.
+Related Documents:
+• Laboratory critical value policy.
+• NGS data storage policy.
+• FFPE tissue handling SOP.
+Review and Revision:
+• This protocol shall be reviewed annually and revised as
+necessary in response to advances in technology, new research
+findings, and updates in industry standards.

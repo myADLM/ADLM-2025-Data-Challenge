@@ -1,0 +1,127 @@
+STANDARD OPERATING PROCEDURES (SOP) FOR THE
+ANALYTICAL PHASE OF INHERITED CONGENITAL
+MYASTHENIC SYNDROME GENE PANEL TESTING
+1. Purpose
+To provide detailed guidelines for the analytical phase of generating
+results for the Inherited Congenital Myasthenic Syndrome (CMS)
+Gene Panel. These procedures ensure accurate, reliable, and
+reproducible testing outcomes for patient samples.
+2. Scope
+This protocol applies to all laboratory technologists and personnel
+conducting the CMS Gene Panel analysis in the designated
+molecular diagnostics laboratory.
+3. Responsibility
+It is the responsibility of the laboratory technologist to adhere to these
+protocols to ensure quality and accuracy. Supervisors are responsible
+for oversight and validation of all processes. All staff must report any
+deviations or deficiencies to their supervisors.
+4. Definition
+Inherited Congenital Myasthenic Syndrome (CMS) Gene Panel: A
+targeted next-generation sequencing (NGS) assay for the detection
+of pathogenic variants in genes known to be associated with CMS.
+5. Equipment, Reagents, and Supplies
+• NGS platform (e.g., Illumina or equivalent)
+• DNA extraction kits
+• Library preparation kits
+• Custom or commercial CMS gene panel
+• PCR reagents
+• Gel electrophoresis apparatus
+• Bioinformatics tools for sequence alignment and variant calling
+• Quality control materials (positive and negative controls)
+• Laboratory Information Management System (LIMS)
+• Reference materials
+• Sterile lab consumables (e.g., pipette tips, tubes)
+• Molecular grade water
+6. Procedure
+6.1 DNA Extraction
+1. Specimen:
+◦ Blood: 3-5 ml in EDTA tube.
+◦ Saliva: Collected using a commercial kit.
+◦ Tissue: Fresh or frozen tissue samples.
+2. Extraction:
+◦ Follow the DNA extraction kit protocol.
+◦ Quantify and assess the quality of DNA using Nanodrop and
+Qubit.
+6.2 Library Preparation
+1. Fragmentation:
+◦ Fragment the extracted DNA to the desired size range
+(typically 150-300bp) using a suitable method or device.
+2. End-Repair, A-Tailing, and Adapter Ligation:
+◦ Perform end-repair and A-tailing according to the library
+preparation kit protocol.
+◦ Ligate sequencing adapters to the prepared DNA fragments.
+3. Library Amplification:
+◦ Amplify the adapter-ligated DNA fragments by PCR.
+◦ Purify the PCR products and assess the library quality and
+quantity.
+6.3 Target Enrichment
+1. Hybridization:
+◦ Hybridize the prepared library to the CMS gene panel
+probes according to the kit manufacturer’s protocol.
+2. Capture:
+◦ Capture the hybridized DNA using streptavidin beads.
+3. Post-Capture Amplification:
+◦ Perform post-capture amplification to enrich the target
+regions.
+6.4 Sequencing
+1. Loading:
+◦ Load the enriched libraries onto the sequencing platform.
+2. Run:
+◦ Execute the sequencing run following the manufacturer's
+instructions.
+6.5 Data Analysis
+1. Base Calling and Alignment:
+◦ Perform base calling using the sequencing platform
+software.
+◦ Align reads to the human reference genome (e.g., hg19 or
+hg38) using appropriate bioinformatics tools.
+2. Variant Calling:
+◦ Identify variants using variant calling software.
+◦ Annotate variants with known databases (e.g., ClinVar,
+dbSNP).
+6.6 Quality Control
+1. QC Metrics:
+◦ Evaluate sequencing quality metrics (e.g., Q30 scores,
+coverage depth) to ensure they meet the predetermined
+acceptance criteria.
+◦ Include positive and negative controls in every batch of
+samples to validate the run.
+2. Review and Validation:
+◦ Technologists review raw sequencing data, variant calls,
+and QC metrics.
+◦ Supervisors validate the results and address any anomalies.
+7. Reporting Results
+1. Interpretation:
+◦ Interpret the clinical significance of detected variants with
+respect to known pathogenicity and according to ACMG
+guidelines.
+2. Documentation:
+◦ Document findings and interpretations in the LIMS.
+◦ Prepare a comprehensive report summarizing the patient’s
+results, including identified variants and their clinical
+relevance.
+3. Verification:
+◦ A second technologist or supervisor reviews the final report
+for accuracy and completeness.
+4. Release:
+◦ Finalize and release the report to the ordering physician
+through the established secure channels.
+8. Quality Assurance
+1. Proficiency Testing:
+◦ Participate in external proficiency testing programs to
+ensure ongoing accuracy and reliability of testing.
+2. Internal Audits:
+◦ Regularly conduct internal audits to ensure adherence to all
+SOPs and regulatory requirements.
+9. References
+• Manufacturer’s instructions for all kits and equipment used.
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+• Relevant peer-reviewed literature on CMS gene mutations and
+related disorders.
+For further details on methodologies, consult the specific reagent,
+instrument, and software user manuals and inserts.
+All staff must ensure familiarity with these procedures and are
+encouraged to seek clarification when uncertain. Any procedure
+updates or revisions must be approved by the laboratory director and
+documented accordingly.

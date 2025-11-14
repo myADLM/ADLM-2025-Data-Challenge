@@ -1,0 +1,107 @@
+Standard Operating Procedure
+Title: Analysis for Factor VII Deficiency, F7 Gene, Next-Generation
+Sequencing (NGS)
+1. PURPOSE To provide a detailed and standard procedure for the
+analysis of Factor VII deficiency through the sequencing of the F7
+gene using Next-Generation Sequencing (NGS), which ensures high-
+quality, accurate, and reliable genetic test results.
+Responsibility:
+• It is the responsibility of trained laboratory personnel to follow the
+procedures as outlined in this document.
+• Supervisory staff must ensure that staff are competent in
+conducting the procedures and overseeing adherence to the
+protocols.
+• Quality control and troubleshooting should be managed promptly
+to avoid discrepancies.
+2. DEFINITIONS Factor VII Deficiency: A rare bleeding disorder
+caused by a deficiency or dysfunction of the protein factor VII, which
+is encoded by the F7 gene. Next-Generation Sequencing (NGS): A
+modern sequencing technology that allows for the rapid sequencing
+of large stretches of DNA, such as the entire F7 gene.
+3. PROCEDURE
+A. Pre-analytical Phase Ensure that the specimen has already been
+collected, received, and properly accessioned per standard
+laboratory protocols.
+B. Equipment and Supplies:
+• DNA extraction kit
+• NGS library preparation kit
+• DNA sequencer (e.g., Illumina or similar)
+• PCR reagents
+• Thermal cycler
+• Bioinformatics software for data analysis
+• Quality control materials
+• Personal protective equipment (PPE)
+C. DNA Extraction:
+1. Extract genomic DNA from the received blood or tissue
+samples using the standardized DNA extraction kit.
+2. Quantify the extracted DNA using spectrophotometry (e.g.,
+Nanodrop) and confirm the quality via gel electrophoresis.
+D. Library Preparation:
+1. Prepare the NGS library using the library preparation kit
+according to the manufacturer’s instructions.
+2. Perform a quality check on the prepared libraries using a
+bioanalyzer or similar instrument.
+3. Quantify the libraries by qPCR or fluorometry.
+E. Sequencing:
+1. Load the prepared libraries onto the NGS platform.
+2. Set up the sequencing run by following the sequencer’s user
+manual and enter the required sample details.
+3. Start the sequencing run ensuring that all settings match the
+requirements for sequencing the F7 gene.
+F. Data Analysis:
+1. Perform base calling and generate raw sequence data.
+2. Conduct alignment of reads to the reference human genome
+using bioinformatics software.
+3. Identify variants within the F7 gene and annotate using a
+variant annotation tool.
+4. Assess the quality of data with quality metrics such as
+coverage, depth, and read quality.
+5. Utilize bioinformatics pipelines to filter, classify, and interpret
+variants as pathogenic, likely pathogenic, uncertain
+significance, likely benign, or benign.
+G. Quality Control and Troubleshooting:
+1. Include internal controls (e.g., known positive and negative
+controls) in each run to ensure run validity.
+2. Perform routine instrument maintenance as per the
+manufacturer’s recommendations.
+3. Address any discrepancies or instrument alarms according to
+the troubleshooting guidelines.
+4. For failed runs, identify the possible causes, rectify and repeat
+the sequencing run.
+H. Result Validation and Reporting:
+1. Verify and review the obtained results by a qualified
+professional.
+2. If variants of interest are identified, confirm the results through
+Sanger sequencing if necessary.
+3. Interpret results concerning the clinical context provided.
+4. Generate a comprehensive report including variant details,
+pathogenicity classification, and potential clinical relevance.
+5. Communicate and document the results in the Laboratory
+Information System (LIS) and ensure that the result is
+accurately reported to the referring clinician.
+4. QUALITY CONTROL:
+• Perform regular proficiency testing.
+• Ensure compliance with external quality assurance schemes.
+• Regularly audit the entire process to maintain high accuracy and
+reliability.
+5. SAFETY:
+• Follow all biosafety regulations.
+• Use appropriate PPE.
+• Dispose of all hazardous waste according to the regulations.
+6. DOCUMENTATION:
+• Maintain detailed records of all procedures, results, and quality
+control checks.
+• Record any deviations from SOPs, corrective actions taken, and
+results of corrective actions.
+• Ensure all documentation is reviewed, signed off, and stored
+according to laboratory policy.
+7. REFERENCES:
+• Manufacturer’s guidelines for DNA extraction kit, library
+preparation kit, and sequencer.
+• Current literature and guidelines on the interpretation of genetic
+variants (e.g., ACMG guidelines).
+Reviewed and Approved By:
+[Supervisor's Name] [Date]
+Signature:
+This SOP is applicable from [Effective Date: Month, Year] and is
+subject to review on [Review Date: Month, Year].

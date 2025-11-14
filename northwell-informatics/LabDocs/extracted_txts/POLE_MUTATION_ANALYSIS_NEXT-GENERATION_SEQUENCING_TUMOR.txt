@@ -1,0 +1,101 @@
+Standard Operating Procedures (SOP) for POLE Mutation Analysis,
+Next-Generation Sequencing (NGS), Tumor
+1. PURPOSE
+To outline the standard operating procedures for the analysis of
+POLE gene mutations in tumor samples using next-generation
+sequencing (NGS) technology. This includes various steps from
+specimen preparation to data analysis and reporting, ensuring
+consistency, accuracy, and reliability of the results.
+Responsibility:
+• Designated staff will perform the NGS analysis and ensure the
+procedure is followed accurately.
+• It is the responsibility of all staff to identify any anomalies or
+issues during the procedure that may affect the test results and
+notify the supervisor immediately.
+• Supervisors are responsible for ensuring that staff are properly
+trained and adhere to SOPs.
+1. SCOPE
+This SOP applies to the laboratory personnel performing the NGS
+analysis for POLE mutations in tumor samples. It covers specimen
+preparation, library preparation, sequencing, bioinformatics analysis,
+quality control, and result reporting.
+1. PROCEDURE
+A) Specimen Requirements
+• Tumor tissue samples (preferably formalin-fixed, paraffin-
+embedded [FFPE]) or fresh frozen tissue.
+• Minimum of 10 unstained sections (5-10 μm thick) or an
+equivalent volume of macro-dissected tissue.
+• A matched normal sample (e.g., blood or buccal swab) may also
+be requested for paired analysis.
+B) DNA Extraction
+• Extract DNA from tumor samples using a validated extraction kit
+(e.g., QIAamp DNA FFPE Tissue Kit).
+• Measure DNA quantity and quality using a spectrophotometer
+(e.g., NanoDrop) and a fluorometer (e.g., Qubit).
+C) Library Preparation
+• Use a validated library preparation kit (e.g., Illumina DNA Prep) to
+prepare DNA libraries.
+• Fragment DNA to the desired size (e.g., 150-200 bp) using a
+sonicator or a fragmentation enzyme.
+• Perform end-repair, A-tailing, and adapter ligation according to the
+library preparation kit protocol.
+• Amplify the library using polymerase chain reaction (PCR) and
+purify using magnetic beads.
+• Quantify the library using a fluorometer and assess the size
+distribution using a bioanalyzer (e.g., Agilent Bioanalyzer).
+D) Target Enrichment
+• Use a validated POLE gene target enrichment kit or custom
+probes to selectively capture POLE gene regions.
+• Follow the manufacturer’s protocol for hybridization, washing, and
+post-capture amplification steps.
+E) Sequencing
+• Load the prepared libraries onto the NGS instrument (e.g.,
+Illumina MiSeq or NovaSeq).
+• Run the sequencing according to the manufacturer’s instructions,
+ensuring appropriate sequencing depth (e.g., minimum coverage
+of 500x for target regions).
+F) Bioinformatics Analysis
+• Use a validated bioinformatics pipeline for NGS data analysis.
+• Perform quality control checks on raw sequencing data (e.g.,
+FastQC).
+• Align reads to the reference genome (e.g., human reference
+genome GRCh38) using a suitable aligner (e.g., BWA).
+• Identify variants using a variant caller (e.g., GATK) and annotate
+variants using a mutation annotation tool (e.g., ANNOVAR).
+• Filter and prioritize variants based on their significance and
+relevance to POLE gene mutations.
+G) Quality Control
+• Confirm that quality control metrics meet the required standards
+(e.g., read quality, alignment rates, coverage depth).
+• Include both positive and negative controls in each run to ensure
+assay performance.
+• Repeat the analysis for any samples that do not meet quality
+control criteria.
+H) Result Interpretation and Reporting
+• Review and interpret the identified POLE gene mutations in the
+context of clinical significance.
+• Generate the final report including detailed information on
+identified mutations, their potential impact, and clinical relevance.
+• Ensure that reports are reviewed and verified by a qualified
+clinical molecular geneticist or pathologist.
+• Report results to the referring physician or oncologist.
+I) References
+• Ensure all steps follow the manufacturer's protocols and
+laboratory accreditation guidelines.
+• Consult the latest research literature and clinical databases (e.g.,
+COSMIC, ClinVar) for mutation interpretation.
+1. REFERENCES
+• Manufacturer's SOP for DNA Extraction Kits
+• Manufacturer's SOP for Library Preparation Kits
+• Current Literature and Guidelines on POLE Mutation Analysis
+• Bioinformatics Tools Manual (BWA, GATK, ANNOVAR)
+• External Quality Assessment Schemes and Guidelines
+1. DOCUMENTATION
+• Maintain detailed records of specimen receipt, DNA extraction,
+library preparation, sequencing runs, and quality control
+measures.
+• Store all data securely in the laboratory information management
+system (LIMS) and ensure traceability at all stages.
+This SOP ensures standardized, reproducible, and high-quality
+results for POLE mutation analysis using next-generation sequencing
+in tumor samples.

@@ -1,0 +1,565 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K230839
+B Applicant
+Proscia, Inc.
+C Proprietary and Established Names
+Concentriq Dx
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 - Whole Slide
+QKQ Class II PA - Pathology
+Imaging System
+II Submission/Device Overview:
+A Purpose for Submission:
+New Device
+B Type of Test:
+Not applicable – software only device
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for the Use below.
+B Indication(s) for Use:
+For In Vitro Diagnostic Use
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700 - Whole Slide
+Imaging System			PA - Pathology
+
+--- Page 2 ---
+Concentriq® Dx is a software only device intended for viewing and management of digital
+images of scanned surgical pathology slides prepared from formalin-fixed paraffin embedded
+(FFPE) tissue. It is an aid to the pathologist to review, interpret and manage these digital slide
+images for the purpose of primary diagnosis. Concentriq® Dx is not intended for use with frozen
+sections, cytology, or non-FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ appropriate procedures and safeguards
+to assure the quality of the images obtained and the validity of the interpretation of images using
+Concentriq Dx. Concentriq Dx is intended for use with the Hamamatsu NanoZoomer S360MD
+Slide scanner and JVC JD-C240BN01A monitor.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+Concentriq Dx is a web-based, software-only device that is intended to aid pathology
+professionals in viewing, interpretation and management of digital whole slide images (WSI) of
+scanned surgical pathology slides prepared from formalin-fixed, paraffin-embedded (FFPE)
+tissue obtained from Hamamatsu NanoZoomer S360MD Slide scanner. It aids the pathologist in
+the review, interpretation, and management of pathology slide digital images used to generate a
+primary diagnosis.
+Concentriq Dx is operated as follows:
+1. After the WSI image is acquired using the Hamamatsu NanoZoomer S360MD Slide
+scanner accordance to the WSI scanner Instructional Manual and any additional standard
+laboratory procedures, the WSI from the local file system is ingested into Concentriq Dx at
+which point the Concentriq Dx workflow is initiated.
+2. The reading pathologist selects a case from a worklist external to the subject device or
+from within the subject device, whereby the subject device fetches the associated images
+from the image storage.
+3. The image quality and other image data is evaluated and deemed acceptable, prior to
+using a whole slide image for diagnosis.
+4. The reading pathologist uses the subject device to view and interpret the images using the
+following actions:
+• Zoom and pan the image
+• Measure distances in the image
+• Annotate the image
+• View multiple images side by side
+5. The above steps are repeated as required.
+K230839 - Page 2 of 10
+
+--- Page 3 ---
+6. After viewing all images for a case, the pathologist will make a diagnosis. The diagnosis will
+be documented in another system, e.g., a Laboratory Information System (LIS).
+7. Upon conclusion of using the system, the pathologist clicks "Sign Out" in the user menu.
+Concentriq Dx is designed to be deployed to a customer-managed infrastructure and may be
+accessed on the user's workstation browser. Concentriq Dx operates with and is validated for use
+with the components specified the tables below:
+Table 1: WSI Scanner and Display
+Manufacturer Model
+Hamamatsu NanoZoomer S360MD Slide scanner
+JVC Display JD-C240BN01A
+Table 2: Computer Environment/System Requirements:
+Workstation Component Specifications
+Processor 2 GHz processor or higher with at least 4 cores
+Memory 8 GB or higher
+Monitor JVC JD-C240BN01A for use with Hamamatsu NanoZoomer
+S360MD Slide scanner
+Network connectivity 100 Mbps. (1 Gbps LAN recommended) connection
+Keyboard / Mouse / Windows 10 compatible
+Trackpad Optional: 3Dconnexion SpaceMouse Pro, 3Dconnexion
+SpaceMouse Compact
+Operating system Windows 10
+Supported browsers Google Chrome 96 and above, Microsoft Edge 95 and above
+Antivirus software McAfee, Norton, or equivalent
+B Instrument Description Information:
+1. Instrument Name:
+Not applicable – software only device
+2. Specimen Identification:
+Concentriq Dx uses digital images of Hematoxylin and Eosin (H&E) stained glass slides
+obtained from the NanoZoomer S360MD Slide scanner. The reading pathologist selects a
+case (patient) from a worklist whereby the subject device fetches the associated images from
+K230839 - Page 3 of 10
+
+[Table 1 on page 3]
+	Manufacturer			Model	
+Hamamatsu			NanoZoomer S360MD Slide scanner		
+JVC Display			JD-C240BN01A		
+
+[Table 2 on page 3]
+	
+Workstation Component	Specifications
+	
+Processor	2 GHz processor or higher with at least 4 cores
+Memory	8 GB or higher
+Monitor	JVC JD-C240BN01A for use with Hamamatsu NanoZoomer
+S360MD Slide scanner
+Network connectivity	100 Mbps. (1 Gbps LAN recommended) connection
+Keyboard / Mouse /
+Trackpad	Windows 10 compatible
+Optional: 3Dconnexion SpaceMouse Pro, 3Dconnexion
+SpaceMouse Compact
+Operating system	Windows 10
+Supported browsers	Google Chrome 96 and above, Microsoft Edge 95 and above
+Antivirus software	McAfee, Norton, or equivalent
+
+--- Page 4 ---
+the image storage. The scanned images are identified based on the previously assigned
+specimen identifier.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is H&E stained. Digital
+images are then obtained from these glass slides using the NanoZoomer S360MD Slide
+scanner.
+4. Calibration:
+Not applicable
+5. Quality Control:
+Prior to using a whole slide image for diagnosis, the pathologist should ensure that all
+scanned slide images have been imported for every case and the images are of acceptable
+quality for diagnostic purposes. The pathologist reviews scanned images from all the slides
+associated with a case before rendering a diagnosis.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+NanoZoomer S360MD Slide scanner system
+B Predicate 510(k) Number(s):
+K213883
+C Comparison with Predicate(s):
+The following table summarizes the similarities and differences between the Concentriq Dx and
+the predicate device, NanoZoomer S360MD Slide scanner System.
+Device &
+K230839 K213883
+Predicate Device(s):
+Device Trade
+Proscia Concentriq® Dx NanoZoomer System (NZViewMD)
+Name
+General Device Characteristic: Similarities
+For In Vitro Diagnostic Use NanoZoomer S360MD Slide
+scanner system ('NanoZoomer
+Intended Use/ Concentriq® Dx is a software only System") is an automated digital
+Indications For Use device intended for viewing and slide creation, viewing, and
+management of digital images of management system. The
+scanned surgical pathology slides NanoZoomer System is intended for
+K230839 - Page 4 of 10
+
+[Table 1 on page 4]
+	Device &	:	K230839	K213883	
+	Predicate Device(s)				
+Device Trade
+Name			Proscia Concentriq® Dx	NanoZoomer System (NZViewMD)	
+	General Device Characteristic: Similarities				
+Intended Use/
+Indications For Use			For In Vitro Diagnostic Use
+Concentriq® Dx is a software only
+device intended for viewing and
+management of digital images of
+scanned surgical pathology slides	NanoZoomer S360MD Slide
+scanner system ('NanoZoomer
+System") is an automated digital
+slide creation, viewing, and
+management system. The
+NanoZoomer System is intended for	
+
+--- Page 5 ---
+Device &
+K230839 K213883
+Predicate Device(s):
+prepared from formalin-fixed in vitro diagnostic use as an aid to
+paraffin embedded (FFPE) tissue. It the pathologist to review and
+is an aid to the pathologist to interpret digital images of surgical
+review, interpret and manage these pathology slides prepared from
+digital slide images for the purpose formalin- fixed paraffin embedded
+("FFPE") tissue. The NanoZoomer
+of primary diagnosis. Concentriq®
+System is not intended for use with
+Dx is not intended for use with
+frozen section, cytology, or non-
+frozen sections, cytology, or non-
+FFPE hematopathology specimens.
+FFPE hematopathology specimens.
+It is the responsibility of a qualified The NanoZoomer System comprises
+pathologist to employ appropriate the NanoZoomer S360MD Slide
+procedures and safeguards to scanner, the NZViewMD Software
+assure the quality of the images and the NC Kenwood JD-
+obtained and the validity of the C240BN01A display. The
+interpretation of images using NanoZoomer System is for creation
+Concentriq Dx. Concentriq Dx is and viewing of digital images of
+scanned glass slides that would
+intended for use Hamamatsu
+otherwise be appropriate for manual
+NanoZoomer S360MD Slide
+visualization by conventional light
+scanner and JVC JD-C240BN01A
+microscopy. It is the responsibility
+monitor.
+of a qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the validity of
+the interpretation of images obtained
+using NanoZoomer System.
+Hamamatsu’s NZAcquireMD
+Image File software organizes all WSI tiles
+Same (.ndpi)
+Format into a single .ndpi file, which is a
+proprietary file format.
+Type of Software
+Internet Browser based Windows based
+Application
+Image Panning, zooming, image
+Manipulation adjustments, annotations, and
+Same
+Functions distance/area measurements
+User Interface Concentriq Dx NZViewMD
+General Device Characteristic: Differences
+Device Image Management Software Scanner, Image Management Software,
+Components Display
+After WSI are acquired by using
+After the WSI are acquired by
+Principle of
+using NanoZoomer S360MD NanoZoomer S360MD Slide scanner,
+Operation
+Slide scanner, the WSI are stored the WSI are automatically saved to the
+K230839 - Page 5 of 10
+
+[Table 1 on page 5]
+	Device &	:	K230839	K213883	
+	Predicate Device(s)				
+			prepared from formalin-fixed
+paraffin embedded (FFPE) tissue. It
+is an aid to the pathologist to
+review, interpret and manage these
+digital slide images for the purpose
+of primary diagnosis. Concentriq®
+Dx is not intended for use with
+frozen sections, cytology, or non-
+FFPE hematopathology specimens.
+It is the responsibility of a qualified
+pathologist to employ appropriate
+procedures and safeguards to
+assure the quality of the images
+obtained and the validity of the
+interpretation of images using
+Concentriq Dx. Concentriq Dx is
+intended for use Hamamatsu
+NanoZoomer S360MD Slide
+scanner and JVC JD-C240BN01A
+monitor.	in vitro diagnostic use as an aid to
+the pathologist to review and
+interpret digital images of surgical
+pathology slides prepared from
+formalin- fixed paraffin embedded
+("FFPE") tissue. The NanoZoomer
+System is not intended for use with
+frozen section, cytology, or non-
+FFPE hematopathology specimens.
+The NanoZoomer System comprises
+the NanoZoomer S360MD Slide
+scanner, the NZViewMD Software
+and the NC Kenwood JD-
+C240BN01A display. The
+NanoZoomer System is for creation
+and viewing of digital images of
+scanned glass slides that would
+otherwise be appropriate for manual
+visualization by conventional light
+microscopy. It is the responsibility
+of a qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the validity of
+the interpretation of images obtained
+using NanoZoomer System.	
+Image File
+Format			Hamamatsu’s NZAcquireMD
+software organizes all WSI tiles
+into a single .ndpi file, which is a
+proprietary file format.	Same (.ndpi)	
+Type of Software
+Application			Internet Browser based	Windows based	
+Image
+Manipulation
+Functions			Panning, zooming, image
+adjustments, annotations, and
+distance/area measurements	Same	
+User Interface			Concentriq Dx	NZViewMD	
+	General Device Characteristic: Differences				
+Device
+Components			Image Management Software	Scanner, Image Management Software,
+Display	
+Principle of
+Operation			After the WSI are acquired by
+using NanoZoomer S360MD
+Slide scanner, the WSI are stored	After WSI are acquired by using
+NanoZoomer S360MD Slide scanner,
+the WSI are automatically saved to the	
+
+--- Page 6 ---
+Device &
+K230839 K213883
+Predicate Device(s):
+in customer provided image hard disk during scanning and may be
+storage. During image review, the viewed later by using the included
+pathologist opens the WSI viewing software. During review, the
+(displayed as .ndpi images) from pathologist opens WSI from the image
+the image storage using storage attached to local network,
+Concentriq Dx; performs further
+performs further QC and reads WSI of
+QC and then reads the WSI to
+the slides to make a diagnosis.
+make a diagnosis.
+VI Standards/Guidance Documents Referenced:
+1. Technical Performance Assessment of Digital Pathology Whole Slide Imaging Devices:
+Guidance for Industry and Food and Drug Administration Staff, April 20, 2016
+2. Applying Human Factors and Usability Engineering to Medical Devices: Guidance for
+Industry and Food and Drug Administration Staff February 3, 2016
+3. ANSI AAMI ISO 14971:2019, Medical devices – Applications of risk management to
+medical devices
+4. IEC 62304:2006/AMD 1:2015, Medical Device Software – Software Life Cycle Processes
+5. IEC 62366-1:2015, Medical devices – Part 1: Application of usability engineering to medical
+devices
+6. IEC 82304-1:2016, Health software – Part 1: General requirements for product safety
+7. CIE ISO 11664-6 First edition 2014-02-01 - Colorimetry - Part 6: CIEDE2000 colour-
+difference formula
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+K230839 - Page 6 of 10
+
+[Table 1 on page 6]
+	Device &	:	K230839	K213883
+	Predicate Device(s)			
+			in customer provided image
+storage. During image review, the
+pathologist opens the WSI
+(displayed as .ndpi images) from
+the image storage using
+Concentriq Dx; performs further
+QC and then reads the WSI to
+make a diagnosis.	hard disk during scanning and may be
+viewed later by using the included
+viewing software. During review, the
+pathologist opens WSI from the image
+storage attached to local network,
+performs further QC and reads WSI of
+the slides to make a diagnosis.
+
+--- Page 7 ---
+5. Carry-Over:
+Not applicable
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing was conducted with Concentriq Dx. The subject device was
+compared to the image management software component of the predicate devices image
+review manipulation software (IRMS, as defined in FDA guidance document, “Guidance for
+Industry – Technical Performance Assessment of Digital Pathology Whole Slide Imaging
+Devices,” dated April 20, 2016) using the quantitative pixel-wise comparison method. The
+basis for the comparison was the CIEDE2000 color difference equation, ΔE.
+a. Bench Testing – Pixel-wise comparison test
+The objective of the study was to validate the performance of Concentriq® Dx in processing
+and rendering images produced by the Hamamatsu NanoZoomer S360MD Slide scanner
+system (NZ) in the native and proprietary NDPI format (Predicate Device). In addition, the
+Concentriq® Dx image fidelity and performance between the Concentriq Dx image viewer
+software (Test Device) and the Hamamatsu NZViewMD software image viewer were
+evaluated.
+A total of 30 whole slide images of formalin-fixed paraffin-embedded (FFPE) tissue glass
+slides from a diverse set of human anatomic sites, including but not limited to Breast, Colon,
+Esophagus, Skin and Prostate were used in the analysis. These slides were scanned using the
+NanoZoomer 360MD scanner. For each of the 30 tissue slides, 6 ROIs were captured,
+including 3 at 20x and 3 at 40x magnification, for a total of 180 ROIs. Each ROI was
+captured under 3 viewer environments: the Predicate Device, the Test Device under Google
+Chrome, and the Test Device under Microsoft Edge. The image data of all the ROIs were
+provided for verification.
+Test results were provided by computing the ΔE value between each pair of corresponding
+pixels using the CIEDE2000 color difference equation. Test results showed that the 95th
+percentile of the pixel-wise color difference in any image pair between the subject and
+predicate device was not less than 3 CIEDE2000 (i.e., < 3 ΔE00 was not achieved).
+Therefore, a clinical validation study was conducted to supplement the non-clinical
+performance test data to support the performance of the device.
+b. Clinical Validation Study
+A clinical study was conducted to demonstrate that viewing, reviewing and diagnosing WSIs of
+H&E stained FFPE tissue slides using the Concentriq Dx [manual digital read (MD)] is non-
+inferior to glass slide reads using optical (light) microscopy [manual optical read (MO)]. The
+primary endpoint of the study was the difference in major discordance rates between MD and
+MO when compared to the original sign-out pathologic diagnosis, defined as the ground truth
+(GT) diagnosis.
+The study included 275 samples that represented the breadth and range of organs in routine
+K230839 - Page 7 of 10
+
+--- Page 8 ---
+clinical practice which also including challenging sample types and diagnoses in
+histopathology. Study samples included one representative H&E slide per case. Of the 275
+samples, the diagnosis for one slide was not available due to a missing data point and was
+excluded from all statistical analyses. Therefore, all analyses included 274 individual samples.
+The glass slides were scanned using the FDA-cleared Hamamatsu NanoZoomer S360 MD Slide
+Scanner at 40x magnification at one site and reviewed by 3 study pathologists at their individual
+sites using the Concentriq Dx device and a JVC JD-C240BN01A monitor, as specified by the
+NanoZoomer instructions for use (IFU) and the Concentriq Dx IFU. Images were reviewed for
+image quality according to the NanoZoomer IFU prior to uploading to the Concentriq Dx
+platform.
+Three pathologists read all deidentified glass slide samples using the MD and MO modalities
+with a washout of 2 weeks between each separate modality read. All 3 reading pathologists read
+the slides for all cases using both MD and MO. The reading pathologists were provided with 3
+batches of slides and the batches were randomized for each modality read. A case report form
+(CRF) was completed to document the reading pathologist’s diagnosis for each batch and each
+read (MD and MO). Reads from both modalities (MD or MO) were adjudicated by an
+independent pathologist who did not participate in any of the MD or MO reads to determine
+agreement with the GT and to each other to determine concordance, minor discordance or major
+discordance between the study diagnosis (by WSI and glass methods) and the GT. A major
+discordance was defined as a difference in diagnosis that would be associated with a clinically
+important difference in patient management. A minor discordance was defined as a difference
+in diagnosis that would not be associated with a clinically important difference in patient
+management.
+The primary endpoint was the difference in major discordance rates between MD and MO
+diagnoses relative to GT diagnoses. The primary analysis evaluated the null hypothesis that the
+difference in major discordances rates between MD and MO is not less than 0.04 (4% of slides)
+using a one-sided noninferiority assessment. A secondary analysis was to evaluate the major
+discordance rate between the MO and MD diagnoses.
+The difference in the major discordance rate between MD and GT compared to MO and GT
+were -0.1% (95% CI, -1.0, 0.4) for all cases across the 3 reading pathologists (N: 274*3=822)
+as shown in Table 4 below. The upper limit of the confidence interval (CI) for the difference in
+the major discordance rate was 0.4%, which is less than the prespecified noninferiority
+threshold of 4%; therefore, the clinical study met the primary study endpoint.
+Table 3. Clinical Study Results Based on Major Discordance Rates
+Modality (n/N) Discordance Rate (%) 95% CI (%)
+MO vs GT 21/822 2.6 (0.2, 6.2)
+MD vs GT 20/822 2.4 (0.2, 5.8)
+Difference -0.1 (-1.0, 0.4)
+The major discordance rate between each modality (MO and MD) and the GT by organ is shown
+in Table 4 below.
+K230839 - Page 8 of 10
+
+[Table 1 on page 8]
+Modality	(n/N)	Discordance Rate (%)	95% CI (%)
+MO vs GT	21/822	2.6	(0.2, 6.2)
+MD vs GT	20/822	2.4	(0.2, 5.8)
+Difference		-0.1	(-1.0, 0.4)
+
+--- Page 9 ---
+Table 4. Major Discordance Rates Relative to GT by Organ Type
+MO v GT MD v GT
+Organ Type Discordance Rate% Discordance Rate% Difference (%)
+(n/N) (n/N)
+Adrenal 0.0% (0/3) 0.0% (0/3) 0.0
+Anus/Perianal 0.0% (0/33) 0.0% (0/33) 0.0
+Bladder 0.0% (0/24) 0.0% (0/24) 0.0
+Brain/Neuro 0.0% (0/6) 0.0% (0/6) 0.0
+Breast 2.6% (3/117) 2.6% (3/117) 0.0
+Colorectal 4.4% (4/90) 4.4% (4/90) 0.0
+GE Junction 17.8% (8/45) 17.8% (8/45) 0.0
+Gynecological 0.0% (0/15) 0.0% (0/15) 0.0
+Kidney 4.8% (1/21) 4.8% (1/21) 0.0
+Liver/Bile Duct 0.0% (0/6) 0.0% (0/6) 0.0
+Lymph Node 0.0% (0/24) 0.0% (0/24) 0.0
+Oral Cavity 0.0% (0/33) 0.0% (0/33) 0.0
+Pancreas 0.0% (0/12) 0.0% (0/12) 0.0
+Prostate 1.0% (2/210) 1.0% (2/210) 0.0
+Respiratory 2.8% (1/36) 0.0% (0/36) -2.8
+Salivary Gland 0.0% (0/6) 0.0% (0/6) 0.0
+Skin 1.1% (1/90) 1.1% (1/90) 0.0
+Soft Tissue Tumors 0.0% (0/15) 0.0% (0/15) 0.0
+Stomach 0.0% (0/15) 0.0% (0/15) 0.0
+Thyroid 4.8% (1/21) 4.8% (1/21) 0.0
+Table 5 below shows the observed proportion of major discordance between the diagnosis based
+on MO and MD was 0.9%.
+Table 5. Major Discordance Rate Between MO and MD
+Modality (n/N) Discordance Rate (%) 95% CI (%)
+MO vs MD 7/822 0.9 (0.1, 1.8)
+The cumulative data of the clinical study support the conclusion that Concentriq Dx is safe and
+effective when used by pathologists in rendering a primary diagnosis as compared to a glass
+slide assessment when used according to the device intended use.
+c. Turnaround Time
+Turnaround time was measured and recorded for the time to initially load an image and the
+time to load an image when panning and zooming while using Concentriq Dx to view WSI
+images acquired on the predicate devices. The results of each test scenario met the success
+criteria. The test execution demonstrated acceptable image load time during different
+scenarios anticipated during regular use of Concentriq Dx.
+K230839 - Page 9 of 10
+
+[Table 1 on page 9]
+	MO v GT	MD v GT	
+Organ Type	Discordance Rate%	Discordance Rate%	Difference (%)
+	(n/N)	(n/N)	
+Adrenal	0.0% (0/3)	0.0% (0/3)	0.0
+Anus/Perianal	0.0% (0/33)	0.0% (0/33)	0.0
+Bladder	0.0% (0/24)	0.0% (0/24)	0.0
+Brain/Neuro	0.0% (0/6)	0.0% (0/6)	0.0
+Breast	2.6% (3/117)	2.6% (3/117)	0.0
+Colorectal	4.4% (4/90)	4.4% (4/90)	0.0
+GE Junction	17.8% (8/45)	17.8% (8/45)	0.0
+Gynecological	0.0% (0/15)	0.0% (0/15)	0.0
+Kidney	4.8% (1/21)	4.8% (1/21)	0.0
+Liver/Bile Duct	0.0% (0/6)	0.0% (0/6)	0.0
+Lymph Node	0.0% (0/24)	0.0% (0/24)	0.0
+Oral Cavity	0.0% (0/33)	0.0% (0/33)	0.0
+Pancreas	0.0% (0/12)	0.0% (0/12)	0.0
+Prostate	1.0% (2/210)	1.0% (2/210)	0.0
+Respiratory	2.8% (1/36)	0.0% (0/36)	-2.8
+Salivary Gland	0.0% (0/6)	0.0% (0/6)	0.0
+Skin	1.1% (1/90)	1.1% (1/90)	0.0
+Soft Tissue Tumors	0.0% (0/15)	0.0% (0/15)	0.0
+Stomach	0.0% (0/15)	0.0% (0/15)	0.0
+Thyroid	4.8% (1/21)	4.8% (1/21)	0.0
+
+[Table 2 on page 9]
+Modality	(n/N)	Discordance Rate (%)	95% CI (%)
+MO vs MD	7/822	0.9	(0.1, 1.8)
+
+--- Page 10 ---
+d. Measurements – area and distance
+Measurement accuracy was demonstrated through a study comparing the measurements of
+markings made in the Concentriq viewer to those on a calibration slide with a grid of known
+dimensions. Study data showed that the distance and area measurements made in the
+Concentriq Dx viewer were consistent with the ground truth. These results demonstrated
+acceptable measurements accuracy with respect to its intended use.
+e. Human Factors (Usability) Testing
+A human factors summative study was conducted to assess the use-related safety and
+effectiveness of Concentriq Dx with representative users in a representative use
+environment to provide adequate evidence that the user interface design (including the
+device and labeling) supports safe and effective use.
+The evaluation method was based on applicable content of the human factors process,
+human factors validation testing and risk management guidance as described in the 2016
+Food and Drug Administration Guidance titled “Applying Human Factors and Usability
+Engineering to Medical Devices” and the Consensus Standard titled “AAMI HE75:2009
+and IEC 62366-1:2015 Medical devices – Part 1: Application of Usability Engineering to
+Medical Devices”.
+The Concentriq Dx device has been found to be safe and effective for the intended users,
+uses and use environments.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K230839 - Page 10 of 10

@@ -1,0 +1,7 @@
+{
+    "Test Name": "Whole Exome Sequencing (WES) Reanalysis",
+    "Specimen Type": "Previously generated WES data files (FASTQ, BAM/CRAM, VCF)",
+    "Purpose": "To re-evaluate existing WES data with updated databases, tools, and clinical information to detect pathogenic variants that were previously missed or reclassified.",
+    "Container": "Secure digital storage repository or laboratory information system",
+    "Equipment": "High-performance computing environment with bioinformatics tools (BWA-MEM, SAMtools, GATK, ANNOVAR, VEP)"
+}

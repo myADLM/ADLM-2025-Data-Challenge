@@ -1,0 +1,100 @@
+Standard Operating Procedure (SOP): Analytical Phase for
+Generating Results at MISC Center for Human Genetics
+1. PURPOSE
+The purpose of this SOP is to provide detailed, standardized
+procedures for the analytical phase required to generate accurate
+and reproducible genetic test results at the MISC Center for Human
+Genetics. This phase involves DNA extraction, quantification,
+amplification, sequencing, and data analysis to identify genetic
+variations.
+2. SCOPE
+This SOP applies to all laboratory personnel involved in the analysis
+of genetic specimens at MISC Center for Human Genetics.
+3. RESPONSIBILITY
+All laboratory staff conducting genetic analyses should follow this
+SOP. Personnel must be trained and competent in the specific tasks
+they perform and ensure compliance with quality control measures
+and regulatory standards.
+4. EQUIPMENT, REAGENTS AND SUPPLIES
+• DNA Extraction Kits
+• NanoDrop Spectrophotometer or Qubit Fluorometer
+• PCR Thermocycler
+• DNA Sequencers (e.g., Illumina, ABI)
+• Reagents for PCR and Sequencing (primers, dNTPs, enzymes,
+buffers)
+• LIMS (Laboratory Information Management System)
+• Computer with bioinformatics software
+• Pipettes and consumables (tips, tubes, plates)
+5. PROCEDURE
+a. DNA Extraction
+i. Follow the manufacturer's protocol for the DNA extraction kit being
+used.
+ii. Record the extraction date, sample ID, and operator initials in the
+LIMS.
+iii. Store extracted DNA at -20°C until needed for further processing.
+b. DNA Quantification
+i. Measure the concentration and purity of extracted DNA using
+NanoDrop or Qubit, as specified in the specific assay requirements.
+ii. Document the DNA concentration, A260/A280 (if using NanoDrop),
+and any dilutions prepared in the LIMS.
+c. PCR Amplification
+i. Prepare the PCR reaction mix according to the assay-specific
+protocol, ensuring all reagents are properly thawed and mixed.
+ii. Aliquot the reaction mix into PCR tubes or plates, and add the
+sample DNA.
+iii. Use a PCR thermocycler and select the appropriate program for
+the analysis being conducted.
+iv. Record PCR conditions, including cycling times and temperatures,
+in the LIMS.
+d. Sequencing
+i. Prepare sequencing libraries from PCR products or genomic DNA
+following the protocol for the specific sequencer being used.
+ii. Quantify and normalize libraries to ensure appropriate loading onto
+the sequencer.
+iii. Load the prepared libraries into the sequencer according to the
+manufacturer's instructions. iv. Document sequencing run parameters
+and sample IDs in the LIMS.
+e. Data Analysis
+i. Once sequencing is complete, use bioinformatics tools to analyze
+raw data, including quality control, alignment, variant calling, and
+annotation. ii. Validate significant findings by a secondary analysis
+method if required. iii. Upload the analysis results to the LIMS and
+ensure that all findings are reviewed by a qualified geneticist.
+6. QUALITY CONTROL
+i. Perform routine maintenance and calibration on all instruments as
+recommended by the manufacturers. ii. Include negative and positive
+controls in each batch of DNA extraction, PCR, and sequencing. iii.
+Document all quality control measures in the LIMS and take
+corrective actions for any deviations from expected results.
+7. REPORTING RESULTS
+i. Review and verify all analytical results before reporting. ii. Compile
+a final report with genetic findings, including relevant clinical
+interpretations. iii. Ensure results are communicated to the
+appropriate healthcare provider securely and confidentially.
+8. REFERENCE INTERVALS
+Define reference ranges for validated genetic variants and document
+them in associated laboratory procedure guides.
+9. DOCUMENTATION AND RECORD KEEPING
+Maintain records of all procedures, instrumentation, quality control
+measures, and results in the LIMS for a minimum of 10 years, as per
+regulatory requirements.
+10. REFERENCES
+• Manufacturer's Instructions for DNA Extraction Kits
+• User Manuals for NanoDrop, Qubit, PCR Thermocycler, and DNA
+Sequencer
+• Current Best Practices in Genetic Analysis and Bioinformatics
+APPENDIX
+A. Template Log Sheets for PCR Conditions and Sequencing Data
+B. Troubleshooting Guide for Common Issues in DNA Extraction,
+PCR, and Sequencing
+C. Contact Information for Technical Support and Equipment
+Servicing
+Approval:
+[Authorized Personnel Signature]
+[Position]
+[Date]
+Revision History:
+Version | Date | Description of Changes | Author
+:-------:|:------:|:-------------------:|:------:
+1.0 | [Date] | Initial SOP | [Name]
+End of Document.

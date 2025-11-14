@@ -1,0 +1,102 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k090940   
+B. Purpose for Submission: New device
+
+D. Type of Test: Quality control materials
+
+E. Applicant: Astoria-Pacific, Inc.
+
+F. Proprietary and Established Names: SPOTCHECK Blood Spot Controls
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR §862.1660, Quality control material
+
+2. Classification: Class I, reserved
+
+3. Product code: JJT, Enzyme controls
+
+4. Panel: Clinical Chemistry (75)
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+SPOTCHECK Blood Spot Controls are used for monitoring assay performance during in vitro diagnostic newborn screening for deficient Galactose-1-phosphate Uridyltransferase (GALT) and/or Biotinidase enzyme activity. Enzyme response quantitation is provided in the product insert.
+
+2. Indication(s) for use: See intended use(s) above.
+
+3. Special conditions for use statement(s): For prescription use only.
+
+4. Special instrument requirements: Astoria-Pacific SPOTCHECK Analyzer
+
+# I. Device Description:
+
+The controls are prepared with mixtures of human serum and human red blood cells, and adjusted to approximately $5 5 \%$ hematocrit. Enzyme activity in the Deficient Control is decreased by heating. Enzyme activity in the Normal Control is supported by the addition of dithioerythritol (DTE). The mixtures are spotted on Whatman 903A filter paper and allowed to air dry at room temperature.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Bio-Rad Laboratories Quantase Neonatal GALT control set
+
+2. Predicate K number(s): k990827
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Predicate Device (k990827)</td><td rowspan=1 colspan=1>Proposed Device</td></tr><tr><td rowspan=1 colspan=1>Matrix</td><td rowspan=1 colspan=1>Dried blood spots</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Intended use</td><td rowspan=1 colspan=1>Both devices intend toestablish performance of acontrol below the assay cutoff(deficient) and above thecutoff (within normal limits).</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Predicate Device (k990827)</td><td rowspan=1 colspan=1>Proposed Device</td></tr><tr><td rowspan=1 colspan=1>Analytes</td><td rowspan=1 colspan=1>Galactose-1-phosphateUridyltransferase (GALT)</td><td rowspan=1 colspan=1>Galactose-1-phosphateUridyltransferase (GALT)and Biotinidase</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+• Guidance for Industry and FDA Staff - Assayed and Unassayed Quality Control Material
+
+L. Test Principle: Not applicable.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Not applicable.
+
+b. Linearity/assay reportable range: Not applicable.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Value assignment: Control lots are individually tested using FDA-cleared SPOTCHECK Biotinidase and Uridyl Transferase 50-Hour Reagent Kits to determine the response of each analyte (enzyme) present. The controls are analyzed internally on multiple SPOTCHECK instruments. The Normal Control spots on each card in a series of selected cards are randomly punched until each card has been sampled 10 times. Similarly, Deficient Control spots are punched until each card in a series has been sampled 2 times. From each lot analysis, the mean activity, standard deviation with confidence intervals, and coefficient of variation are calculated.
+
+The target values are:
+
+• The Normal Control mean activity must be in the range of 30 – 60 ERU for the biotinidase assay and $> 1 5 0 \mu \mathrm { m }$ NADH for the GALT assay. • The Deficient Control mean activity must be in the range of 0 – 6 ERU for the biotinidase assay and $0 - 3 0 \mu \mathrm { m }$ NADH for the GALT assay.
+
+Inter and intra-card homogeneity is also evaluated for each new lot.
+
+Stability: Recommended storage conditions for the Blood Spot Controls are $< - 1 0 ^ { \circ } \mathrm { C }$ and desiccated. Stored in this manner, the controls are stable for a minimum of 2 years from the manufacture date. The stability has been determined using real-time stability studies. The stability study protocol and the acceptance criteria have been reviewed and found to be acceptable.
+
+d. Detection limit: Not applicable.   
+e. Analytical specificity: Not applicable.   
+f. Assay cut-off: Not applicable.
+
+2. Comparison studies: a. Method comparison with predicate device: Not applicable.
+
+b. Matrix comparison: Not applicable.
+
+3. Clinical studies: a. Clinical Sensitivity: Not applicable.
+
+b. Clinical specificity: Not applicable.
+
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off: Not applicable.
+
+5. Expected values/Reference range:
+
+Value assignment for each lot of the SPOTCHECK Blood Spot Controls on the SPOTCHECK Biotinidase and Uridyl Transferase 50-Hour Reagent Kits will be provided on the package insert to demonstrate that the normal and deficient levels are appropriate with regard to approximate cut-offs for these devices.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

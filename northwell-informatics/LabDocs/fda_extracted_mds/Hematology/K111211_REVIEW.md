@@ -1,0 +1,91 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number: k111211   
+B. Purpose for Submission: Clearance of a new device   
+C. Measurand: Assayed parameters: WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW, PLT, MPV, $N E U \%$ , $\mathrm { L Y M \% }$ , $M O N \%$ , $\mathrm { E O S \% }$ , $B A S \%$ , NEU#, LYM#, MON#, EOS#, and BAS#.   
+D. Type of Test: Quantitative   
+E. Applicant: Streck Inc.   
+F. Proprietary and Established Names: CELL-DYN 22 Plus Control   
+G. Regulatory Information: 1. Regulation section: 21 CFR $\ S 8 6 4 . 8 6 2 5$ , Hematology quality control mixture 2. Classification: Class II 3. Product code: GLQ - Mixture, control, white cell and red cell indices 4. Panel: Hematology (81)
+
+# H. Intended Use:
+
+1. Intended use(s): CELL-DYN 22 Plus Control is an assayed hematology control for evaluating the accuracy and precision of the CELL-DYN 22 system. Assayed parameters include: WBC $( 1 0 ^ { 9 } / \mathrm { L } )$ , RBC $( 1 0 ^ { 1 2 } / \mathrm { L } )$ , HGB $( \mathrm { g } / \mathrm { d L } )$ , HCT $( \% )$ , MCV (fL), MCH (pg), MCHC $( \mathrm { g } / \mathrm { d L } )$ , RDW $( \% )$ , PLT $( 1 0 ^ { 9 } / \mathrm { L } )$ , MPV (fL), $N E U ( \% )$ , NEU $( 1 0 ^ { 9 } / \mathrm { L } )$ , LYM $( \% )$ , LYM $( 1 0 ^ { 9 } / \mathrm { L } )$ , MON $( \% )$ , MON $( 1 0 ^ { 9 } / \mathrm { L } )$ , EOS $( \% )$ , EOS $( 1 0 ^ { 9 } / \mathrm { L } )$ , BAS $( \% )$ , BAS $( 1 0 ^ { 9 } / \mathrm { L } )$ .   
+2. Indication(s) for use: Same as intended use   
+3. Special conditions for use statement(s): For prescription use only   
+4. Special instrument requirements: CELL-DYN Emerald 22
+
+# I. Device Description:
+
+CELL-DYN 22 Plus Control is an in-vitro diagnostic product that contains stabilized human red blood cells, human, mammalian or simulated white blood cells and a platelet component in a preservative medium. The control vials are made of polypropylene plastic with polyethylene-lined screw caps, containing 2.5 mL of control material. Three different levels (low, normal, and high) of each
+
+vial will be packaged in a six or twelve vacuum formed clamshell container with the product information sheet/assay sheet. The product must be stored at $2 { \cdot } 1 0 ^ { \circ } \mathrm { C }$
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Para 12 Plus   
+2. Predicate K number(s): k901875   
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device: CELL-DYN 22 Plus</td><td rowspan=1 colspan=1>Predicate: Para 12 Plus</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>CELL-DYN 22 Plus Control is anassayed hematology control forevaluating the accuracy and precision ofthe CELL-DYN 22 system.Assayed parameters include: WBC(10%/L), RBC (1012/L), HGB (g/dL),HCT (%), MCV (fL), MCH (pg),MCHC (g/dL), RDW (%), PLT (10%/L),MPV (fL), NEU (%), NEU (10%/L),LYM (%), LYM (10%/L), MON (%),MON (10°%/L), EOS (%), EOS (10%/L),BAS (%), BAS (10°/L).</td><td rowspan=1 colspan=1>Para 12 Plus is an assayedhematology control forevaluating the accuracy andprecision of hematologyinstruments that provide awhite blood cell differential.Same assayed parameters</td></tr><tr><td rowspan=1 colspan=1>Closed VialStability</td><td rowspan=1 colspan=1>75 days</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Reagents</td><td rowspan=1 colspan=1>The product may contain any or all ofthe following: stabilized human ormammalian red blood cells, human,mammalian or simulated white bloodcells and a platelet component in apreservative medium.</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>StorageConditions</td><td rowspan=1 colspan=1>2-10</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device CELL-DYN 22 Plus</td><td rowspan=1 colspan=1>Predicate Para 12 Plus</td></tr><tr><td rowspan=1 colspan=1>Open VialStability</td><td rowspan=1 colspan=1>8 days</td><td rowspan=1 colspan=1>7 days</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+CLSI EP5-A2, Evaluation of Precision Performance of Quantitative Measurement   
+Methods; Approved Guideline-Second Edition   
+CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated   
+Hematology Analyzers; Proposed Standard-Second Edition
+
+# L. Test Principle:
+
+The tri-level CELL-DYN 22 Plus Control is designed to evaluate the accuracy and precision of the Abbott CELL-DYN Emerald 22 instrument for CBC and 5-part differential.
+
+# M. Performance Characteristics:
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Run-to-run repeatability was performed using three lots of the CELL-DYN 22 Plus Control. Repeatability was tested using 10 consecutive runs per vial of each level of control using the CELL-DYN Emerald 22 instrument. All associated data recovered within the parameter specific assay range assignments with $\% C V$ values within acceptable limits.
+
+Run-to-run repeatability was also evaluated by direct comparison with fresh whole blood: Repeatability was assessed in 10 runs using a fresh $\mathrm { K } _ { 2 } \mathrm { E D T A }$ whole blood sample. Parameter specific SD and $\% \mathrm { C V }$ were compared to those reported with normal levels of three lots of the CELL-DYN 22 Plus Control. Results from the whole blood run show that the precision attributes are comparable and parallel those of the three lots of the normal control with $\% \mathrm { C V }$ values within acceptable limits.
+
+Precision performance: Data was collected internally and at two external sites across seven different CELL-DYN Emerald 22 instruments with multiple operators using 3 lots of CELL-DYN 22 Plus Controls. The external sites performed 10 consecutive runs across two different instruments with separate vials of control from each lot. Internally, Streck ran 10 consecutive runs per lot across three instruments. The acceptance criteria is based on a compilation of the $\% \mathrm { C V }$ for each measurand. All $\% \mathrm { C V }$ values were within the acceptable threshold value as shown below,
+
+<table><tr><td rowspan=2 colspan=1>Measurand</td><td rowspan=1 colspan=3>Lot # 09210</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>Lot # 09202</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>Lot # 09189-1</td><td rowspan=2 colspan=1>%CV</td></tr><tr><td rowspan=1 colspan=1>Low</td><td rowspan=1 colspan=1>Nor</td><td rowspan=1 colspan=1>High</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>Low</td><td rowspan=1 colspan=1>Nor</td><td rowspan=1 colspan=1>High</td><td rowspan=1 colspan=1>%CV</td><td rowspan=1 colspan=1>Low</td><td rowspan=1 colspan=1>Nor</td><td rowspan=1 colspan=1>High</td></tr><tr><td rowspan=1 colspan=1>WBC</td><td rowspan=1 colspan=1>3.05</td><td rowspan=1 colspan=1>2.29</td><td rowspan=1 colspan=1>1.88</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3.34</td><td rowspan=1 colspan=1>2.51</td><td rowspan=1 colspan=1>2.17</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3.53</td><td rowspan=1 colspan=1>2.99</td><td rowspan=1 colspan=1>2.61</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>RBC</td><td rowspan=1 colspan=1>2.39</td><td rowspan=1 colspan=1>2.04</td><td rowspan=1 colspan=1>1.82</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.21</td><td rowspan=1 colspan=1>2.15</td><td rowspan=1 colspan=1>1.91</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>1.79</td><td rowspan=1 colspan=1>1.68</td><td rowspan=1 colspan=1>1.99</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>HGB</td><td rowspan=1 colspan=1>2.26</td><td rowspan=1 colspan=1>1.80</td><td rowspan=1 colspan=1>1.41</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>1.80</td><td rowspan=1 colspan=1>1.50</td><td rowspan=1 colspan=1>1.54</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>1.70</td><td rowspan=1 colspan=1>1.74</td><td rowspan=1 colspan=1>1.64</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>HCT</td><td rowspan=1 colspan=1>2.34</td><td rowspan=1 colspan=1>2.21</td><td rowspan=1 colspan=1>2.04</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.54</td><td rowspan=1 colspan=1>2.96</td><td rowspan=1 colspan=1>2.25</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.24</td><td rowspan=1 colspan=1>1.97</td><td rowspan=1 colspan=1>2.56</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>MCV</td><td rowspan=1 colspan=1>0.85</td><td rowspan=1 colspan=1>0.81</td><td rowspan=1 colspan=1>0.78</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>0.95</td><td rowspan=1 colspan=1>0.90</td><td rowspan=1 colspan=1>0.90</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>1.04</td><td rowspan=1 colspan=1>0.93</td><td rowspan=1 colspan=1>1.05</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>MCH</td><td rowspan=1 colspan=1>2.04</td><td rowspan=1 colspan=1>2.15</td><td rowspan=1 colspan=1>2.31</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.61</td><td rowspan=1 colspan=1>2.74</td><td rowspan=1 colspan=1>2.29</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.01</td><td rowspan=1 colspan=1>2.05</td><td rowspan=1 colspan=1>2.61</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>MCHC</td><td rowspan=1 colspan=1>2.53</td><td rowspan=1 colspan=1>2.71</td><td rowspan=1 colspan=1>2.80</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3.28</td><td rowspan=1 colspan=1>3.44</td><td rowspan=1 colspan=1>2.96</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.79</td><td rowspan=1 colspan=1>2.72</td><td rowspan=1 colspan=1>3.33</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>RDW</td><td rowspan=1 colspan=1>3.73</td><td rowspan=1 colspan=1>3.53</td><td rowspan=1 colspan=1>2.34</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3.42</td><td rowspan=1 colspan=1>2.95</td><td rowspan=1 colspan=1>2.26</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3.10</td><td rowspan=1 colspan=1>3.76</td><td rowspan=1 colspan=1>2.40</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>PLT</td><td rowspan=1 colspan=1>11.30</td><td rowspan=1 colspan=1>5.58</td><td rowspan=1 colspan=1>3.74</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>11.05</td><td rowspan=1 colspan=1>5.17</td><td rowspan=1 colspan=1>3.73</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>9.66</td><td rowspan=1 colspan=1>5.30</td><td rowspan=1 colspan=1>3.97</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>MPV</td><td rowspan=1 colspan=1>3.07</td><td rowspan=1 colspan=1>2.05</td><td rowspan=1 colspan=1>1.76</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3.08</td><td rowspan=1 colspan=1>2.78</td><td rowspan=1 colspan=1>2.06</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3.12</td><td rowspan=1 colspan=1>2.99</td><td rowspan=1 colspan=1>2.10</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>NEU%</td><td rowspan=1 colspan=1>2.49</td><td rowspan=1 colspan=1>1.98</td><td rowspan=1 colspan=1>1.05</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.54</td><td rowspan=1 colspan=1>1.59</td><td rowspan=1 colspan=1>1.17</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>2.88</td><td rowspan=1 colspan=1>2.09</td><td rowspan=1 colspan=1>1.35</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>NEU#</td><td rowspan=1 colspan=1>3.92</td><td rowspan=1 colspan=1>3.18</td><td rowspan=1 colspan=1>2.22</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>4.35</td><td rowspan=1 colspan=1>2.75</td><td rowspan=1 colspan=1>2.57</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>4.90</td><td rowspan=1 colspan=1>3.58</td><td rowspan=1 colspan=1>2.68</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>LYM%</td><td rowspan=1 colspan=1>6.35</td><td rowspan=1 colspan=1>5.14</td><td rowspan=1 colspan=1>5.02</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>5.70</td><td rowspan=1 colspan=1>4.38</td><td rowspan=1 colspan=1>3.96</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>5.81</td><td rowspan=1 colspan=1>4.64</td><td rowspan=1 colspan=1>4.28</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>LYM#</td><td rowspan=1 colspan=1>7.60</td><td rowspan=1 colspan=1>5.89</td><td rowspan=1 colspan=1>4.92</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>6.91</td><td rowspan=1 colspan=1>4.53</td><td rowspan=1 colspan=1>3.74</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>6.15</td><td rowspan=1 colspan=1>4.92</td><td rowspan=1 colspan=1>4.12</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=1>MON%</td><td rowspan=1 colspan=1>8.57</td><td rowspan=1 colspan=1>5.87</td><td rowspan=1 colspan=1>5.01</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>8.18</td><td rowspan=1 colspan=1>7.17</td><td rowspan=1 colspan=1>4.71</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>10.54</td><td rowspan=1 colspan=1>8.45</td><td rowspan=1 colspan=1>4.89</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>MON#</td><td rowspan=1 colspan=1>13.53</td><td rowspan=1 colspan=1>7.96</td><td rowspan=1 colspan=1>6.12</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>11.39</td><td rowspan=1 colspan=1>8.93</td><td rowspan=1 colspan=1>6.18</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>12.39</td><td rowspan=1 colspan=1>9.78</td><td rowspan=1 colspan=1>6.03</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>EOS%</td><td rowspan=1 colspan=1>16.79</td><td rowspan=1 colspan=1>14.15</td><td rowspan=1 colspan=1>10.76</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>15.34</td><td rowspan=1 colspan=1>10.95</td><td rowspan=1 colspan=1>7.76</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>17.69</td><td rowspan=1 colspan=1>16.09</td><td rowspan=1 colspan=1>14.14</td><td rowspan=1 colspan=1>N/A</td></tr><tr><td rowspan=1 colspan=1>EOS#</td><td rowspan=1 colspan=1>26.57</td><td rowspan=1 colspan=1>16.26</td><td rowspan=1 colspan=1>12.27</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>35.51</td><td rowspan=1 colspan=1>19.45</td><td rowspan=1 colspan=1>9.11</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>38.33</td><td rowspan=1 colspan=1>18.03</td><td rowspan=1 colspan=1>17.14</td><td rowspan=1 colspan=1>N/A</td></tr><tr><td rowspan=1 colspan=1>BAS%</td><td rowspan=1 colspan=1>56.14</td><td rowspan=1 colspan=1>51.31</td><td rowspan=1 colspan=1>38.64</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>45.36</td><td rowspan=1 colspan=1>39.03</td><td rowspan=1 colspan=1>25.36</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>60.65</td><td rowspan=1 colspan=1>44.30</td><td rowspan=1 colspan=1>34.11</td><td rowspan=1 colspan=1>N/A</td></tr><tr><td rowspan=1 colspan=1>BAS#</td><td rowspan=1 colspan=1>120.35</td><td rowspan=1 colspan=1>50.26</td><td rowspan=1 colspan=1>43.66</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>188.13</td><td rowspan=1 colspan=1>72.78</td><td rowspan=1 colspan=1>32.64</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>99.16</td><td rowspan=1 colspan=1>63.51</td><td rowspan=1 colspan=1>38.70</td><td rowspan=1 colspan=1>N/A</td></tr></table>
+
+b. Linearity/assay reportable range: Not applicable   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Value assignment: A minimum of three vials per level were tested on the CELL-DYN Emerald 22 instrument. Each vial was tested for a minimum of
+
+three test events on different dates, yielding a minimum of nine data points. Off-site laboratories ran each vial in duplicate consecutively generating a minimum of six data points. The data were entered into the validated QC link database program to calculate the mean, standard deviation, and coefficient of variation for each parameter analyzed. Final assay assignment values were determined using data collected and established product performance characteristics. Expected range values assigned to the assay were based on $\pm 3 \mathrm { S D }$ of the assay data.
+
+Open vial stability: The 8-day open vial stability claim was verified using three lots of the CELL-DYN 22 Plus Control. Each vial was mixed and opened daily to effectively simulate customer usage. Each level was tested using the CELL-DYN Emerald instrument on days 1 and 8, and a minimum of two intermediate time intervals.
+
+Closed vial stability: A 75-day closed vial stability claim was verified using three lots of the CELL-DYN 22 Plus Control. Each level was tested using the CELL-DYN Emerald instrument at minimum every 14 days over a minimum period of 75 days.
+
+The acceptance criteria for both open and closed vial stability is based on a compilation of the $\% \mathrm { C V }$ for each measurand over the data collected across 7 different CELL-DYN Emerald 22 instruments, at 3 sites, throughout the product dating claim. Reported $\% \mathrm { C V }$ for each measurand was within the threshold value $( < 1 0 \% \mathrm { C V } )$ .
+
+d. Detection limit: Not applicable e. Analytical specificity: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable
+
+$b$ . Matrix comparison: Not applicable
+
+Clinical studies:   
+a. Clinical Sensitivity: Not applicable   
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: The end-user is instructed to refer to the product assay sheet accompanying the product information sheet.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

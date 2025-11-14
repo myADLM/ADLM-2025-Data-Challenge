@@ -1,0 +1,174 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATIONDECISION SUMMARYASSAY AND INSTRUMENT
+
+I Background Information:
+
+A 510(k) Number K222921   
+B Applicant Healthy.io Ltd.   
+C Proprietary and Established Names Minuteful-kidney test   
+D Regulatory Information
+
+<table><tr><td rowspan=1 colspan=1>ProductCode(s)</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>RegulationSection</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>JFY</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR 862.1225 -Creatinine TestSystem</td><td rowspan=1 colspan=1>CH - ClinicalChemistry</td></tr><tr><td rowspan=1 colspan=1>JIR</td><td rowspan=1 colspan=1>Class I</td><td rowspan=1 colspan=1>21 CFR 862.1645 -Urinary protein oralbumin(nonquantitative) testsystem</td><td rowspan=1 colspan=1>CH - ClinicalChemistry</td></tr><tr><td rowspan=1 colspan=1>KQO</td><td rowspan=1 colspan=1>Class I</td><td rowspan=1 colspan=1>21 CFR 862.2900 -Automated urinalysissystem</td><td rowspan=1 colspan=1>CH - ClinicalChemistry</td></tr></table>
+
+# II Submission/Device Overview:
+
+A Purpose for Submission: Modification to an existing device
+
+# B Measurand:
+
+Albumin and Creatinine in urine
+
+# C Type of Test:
+
+Semi-quantitative urinalysis
+
+# III Intended Use/Indications for Use:
+
+A Intended Use(s): See Indications for Use below.
+
+# B Indication(s) for Use:
+
+The Minuteful - kidney test is an in-vitro diagnostic, home-use urine analysis test system for the semi-quantitative measurement of albumin and creatinine in urine, as well as the presentation of their ratio, the albumin-creatinine ratio (ACR). The system consists of a smartphone application, proprietary Color-Board and an ACR Reagent Strip. The system is available for prescription-use only and is intended for people at risk of kidney disease. Results are intended to be used in conjunction with clinical evaluation as an aid in the assessment of kidney health.
+
+C Special Conditions for Use Statement(s): Rx - For Prescription Use Only
+
+# D Special Instrument Requirements:
+
+The following representative smartphone models and operating system (OS) versions were used in the different studies described in Section VII (Performance Characteristics).
+
+<table><tr><td rowspan=1 colspan=1>Manufacturer</td><td rowspan=1 colspan=1>Model</td><td rowspan=1 colspan=1>OS†version</td></tr><tr><td rowspan=1 colspan=1>Apple</td><td rowspan=1 colspan=1>iPhone 8 plus</td><td rowspan=1 colspan=1>iOS16</td></tr><tr><td rowspan=1 colspan=1>Apple</td><td rowspan=1 colspan=1>iPhone 11</td><td rowspan=1 colspan=1>iOS13</td></tr><tr><td rowspan=1 colspan=1>Apple</td><td rowspan=1 colspan=1>iPhone 13 Pro</td><td rowspan=1 colspan=1>iOS16</td></tr><tr><td rowspan=1 colspan=1>Motorola</td><td rowspan=1 colspan=1>Moto G60S</td><td rowspan=1 colspan=1>Android 11</td></tr><tr><td rowspan=1 colspan=1>Google</td><td rowspan=1 colspan=1>Pixel 5</td><td rowspan=1 colspan=1>Android 13</td></tr><tr><td rowspan=1 colspan=1>Samsung</td><td rowspan=1 colspan=1>GalaxyA42</td><td rowspan=1 colspan=1>Android 12</td></tr><tr><td rowspan=1 colspan=1>Samsung</td><td rowspan=1 colspan=1>GalaxyNote 10+</td><td rowspan=1 colspan=1>Android 11</td></tr><tr><td rowspan=1 colspan=1>Samsung</td><td rowspan=1 colspan=1>Galaxy 22</td><td rowspan=1 colspan=1>Android 13</td></tr></table>
+
+†Operating System
+
+Phones and OS versions that are not compatible with the Minuteful – kidney test will be blocked from downloading the application.
+
+# IV Device/System Characteristics:
+
+# A Device Description:
+
+The device description is the same as described in K210069. The device has been modified to increase control over the two camera features, exposure and white balance, during the image capturing process.
+
+# B Principle of Operation:
+
+The principle of operation is the same as described in K210069.
+
+# C Instrument Description Information:
+
+1. Instrument Name: Minuteful - kidney test
+
+2. Specimen Identification: The specimen identification is the same as described in K210069.
+
+3. Specimen Sampling and Handling: The specimen sampling and handling is the same as described in K210069.
+
+4. Calibration: As described in K210069, calibration is not needed.
+
+5. Quality Control: Quality control is the same as described in K210069.
+
+# V Substantial Equivalence Information:
+
+A Predicate Device Name(s): Minuteful - kidney test B Predicate 510(k) Number(s): K210069
+
+C Comparison with Predicate(s):
+
+<table><tr><td colspan="1" rowspan="1">Device &amp; PredicateDevice(s):</td><td colspan="1" rowspan="1">K222921</td><td colspan="1" rowspan="1">K210069</td></tr><tr><td colspan="1" rowspan="1">Device Trade Name</td><td colspan="1" rowspan="1">Healthy.io Minuteful -kidney test</td><td colspan="1" rowspan="1">Healthy.io Minuteful -kidney test</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristic Similarities</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Intended Use/IndicationsFor Use</td><td colspan="1" rowspan="1">The Minuteful - kidneytest is an in-vitro</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">diagnostic home- useurine analysis testsystem, for the semi-quantitativemeasurement ofalbumin and creatininein urine, as well as thepresentation of theirratio, the albumin-creatinine ratio (ACR).The system consists of asmartphone application,proprietary Color-Boardand an ACR ReagentStrip. The system isavailable forprescription-use only.Results are intended tobe used in conjunctionwith clinical evaluationas an aid in theassessment of kidneyhealth.</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Detection Methodology</td><td colspan="1" rowspan="1">Reflectance photometry</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Detection Device</td><td colspan="1" rowspan="1">Photosensitive diode</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Measuring Range</td><td colspan="1" rowspan="1">10-150mg/L albumin10-300 mg/dLcreatinine</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">General DeviceCharacteristic Differences</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Camera Features</td><td colspan="1" rowspan="1">Advanced control ofwhite balance andexposure</td><td colspan="1" rowspan="1">Without advancedcontrol</td></tr></table>
+
+# VI Standards/Guidance Documents Referenced:
+
+• CLSI EP l7-A2: Evaluation of Detection Capability for Clinical Laboratory Measurement Procedures, Approved Guideline - 2nd Ed.
+
+• CLSI EP12-A2 2nd Edition, User Protocol for Evaluation of Qualitative Test Performance
+
+# VII Performance Characteristics (if/when applicable):
+
+A Analytical Performance:
+
+1. Precision/Reproducibility: This was previously established in K210069.
+
+2. Linearity: This was previously established in K210069.
+
+3. Analytical Specificity/Interference: This was previously established in K210069.
+
+4. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods): This was previously established in K210069.
+
+5. Detection Limit/Cutoffs:
+
+The sponsor collected a total of 57 urine samples from subjects with Diabetes Mellitus Type II, Diabetes Mellitus Type I, Hypertension, Dyslipidemia, Cardiovascular disease, a known kidney disease (e.g., Minimal Change Disease, Nephrolithiasis, IgA nephropathy), known Malignancy (e.g., Prostate, Lymphoma), Autoimmune disease, Tobacco use disorder, and obesity. The median age of this population was 61. The samples were pooled and diluted with negative urine to produce different levels of albumin and creatinine.
+
+Albumin and creatinine were measured in test samples using a commercially available device that quantitatively measures albumin and creatinine in urine.
+
+The sponsor conducted testing with 3 lots of their device. Several samples with albumin and creatinine levels around the cutoffs were tested and the sponsor used a Probit model described in the CLSI EP17-A2 guideline to estimate the C5, C50 and C95 for each of the cutoffs. Testing was conducted with 8 representative smartphones.
+
+The sponsor’s study supports that the modification to the device did not change the cutoffs between the albumin and creatinine categories when the test is used with different smartphones and operating systems.
+
+6. Assay Cut-Off: Not Applicable.
+
+7. Accuracy (Instrument): This was previously established in K210069.
+
+# 8. Carry-Over:
+
+This was previously established in K210069.
+
+# B Comparison Studies:
+
+1. Method Comparison with Predicate Device: This was previously established in K210069.
+
+2. Matrix Comparison: Not Applicable. This test is only for urine samples.
+
+# C Clinical Studies:
+
+1. Clinical Sensitivity: Not Applicable.
+
+2. Clinical Specificity: Not Applicable.
+
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable): Not Applicable.
+
+# D Clinical Cut-Off:
+
+Not Applicable.
+
+# E Expected Values/Reference Range:
+
+This was previously established in K210069.
+
+# F Other Supportive Instrument Performance Characteristics Data:
+
+The sponsor conducted several validation studies with urine samples spiked with albumin and creatinine to three levels of albumin, creatinine, and ACR. The expected results for the three levels of urine samples tested were $1 0 \mathrm { m g / L }$ , $3 0 { - } 8 0 \mathrm { m g / L }$ , and $1 5 0 \mathrm { m g / L }$ for albumin; $1 0 \mathrm { m g / d L }$ , $5 0 \mathrm { m g / d L }$ , and $2 0 0 { - } 3 0 0 \ \mathrm { m g / d L }$ for creatinine; Normal, Abnormal, and High-abnormal for ACR.
+
+# Illumination
+
+Testing was conducted under different lighting conditions of different color “temperatures” and intensities from different light sources representative of those that may be used in the home setting. Testing was conducted with 8 representative smart phones of different models using different operating systems. The results of the study support that the performance is not impacted by lighting conditions that are likely to be found in the home use environment.
+
+Boundary conditions- extreme illumination
+
+a) Testing was conducted under different lighting conditions with different saturation of red, green, and blue light. Testing was conducted with 8 representative phones of different models and operating systems. Phones were tested under “boundary conditions” that were the maximum saturation of red, green, or blue light under which the device allowed the phone to take a picture of the urine test strip and color-board (under red, green, or blue light saturation that exceeded the boundary conditions, the application blocks the user from taking a picture). The results of this testing support that the device performance is not impacted by different light color saturation.
+
+b) Testing was conducted under different light intensities (darkness and brightness measured in lux). Testing was conducted with 8 representative phones of different models and operating systems. Phones were tested under “boundary conditions” of light intensity that were the minimum light intensity and the maximum light intensity at which the device allows the phone to take a picture of the color board and urine test strip (under lighting conditions that exceeded the “boundary conditions” of light intensity i.e., darkness or brightness, the application blocks the user from taking a picture). The results of this testing support that the device is not impacted by different light intensities.
+
+Boundary conditions- Shadow
+
+Testing was conducted with 8 representative smart phones of different models and operating systems under different shadow configurations of different intensity and covering different portions of the color-board and urine test strip. Six different shadow configurations and 2 different shadow intensities were tested. For 3 of the shadow configurations, the device blocked the user from taking a picture of the color-board and urine test strip. For the other 3 shadow configurations, the device performance was not impacted by the presence of shadows on the color-board and test strip.
+
+# Boundary conditions- Blurry
+
+Testing was conducted with 8 representative smart phones of different models and operating systems under 14 different conditions of blurred images consisting of different levels of focus and motion blur. Under conditions that the devices detected too much image blur, the user was blocked from taking a picture of the color-board and the urine test strip. Under conditions where the device allowed a picture of the color-board and urine test strip to be taken, the device performance was not impacted by image blur.
+
+# Boundary conditions- Distance and Angle
+
+Testing was conducted with 8 representative smart phones of different models and operating systems. Each phone was tested under “boundary conditions” that were 2 different distance conditions and 2 different angle conditions. The distance conditions were the longest distance from the color board and the shortest distance from the color board at which the device allowed the phone to take a picture of the strip and color board (at longer or shorter distances, the device blocks the user from taking a picture). The angle conditions were the most acute and most obtuse angles at which the device allowed the phone to take a picture of the urine test strip and color board (at more acute or obtuse angles, the device blocks the user from taking a picture). The performance of the device was not impacted under these “boundary conditions”.
+
+Boundary conditions- Misplaced Urine Strip
+
+Testing was conducted with 8 representative smart phones of different models and operating systems with 8 different urine test strip placements. Of the 8 different placements, 4 urine test strip placements were recognized as invalid by the device and the device blocked the user from taking a picture of the color-board and urine test strip. When the device determined the stick placement to be valid, variations in stick placement did not impact the performance of the device.
+
+# Boundary conditions- Dirty Color-Board
+
+Testing was conducted with 8 representative smart phones of different models and operating systems. Testing was conducted with 3 substances (urine, coffee, and ink) and 4 different “dirty” configurations covering different sections of the color-board and urine test strip. The device blocked the user from taking a picture of the color-board and urine test strip under “dirty” configurations that the device determined to be invalid. Under the “dirty” conditions the device determined to be valid, the performance of the device was not impacted.
+
+The sponsor’s studies support that under these conditions, the modified device will correctly prevent unqualified images for downstream data analysis. For the qualified images, the performance of the modified device is equivalent to that of the predicate.
+
+# VIII Proposed Labeling:
+
+The labeling supports the finding of substantial equivalence for this device.
+
+# IX Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

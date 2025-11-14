@@ -1,0 +1,115 @@
+1. PURPOSE
+To provide a detailed and standardized procedure for the analysis
+and interpretation of specimens for the Lipodystrophy Gene Panel
+using next-generation sequencing (NGS). This protocol aims to
+ensure accurate, high-throughput genetic analysis for diagnosing
+lipodystrophy and to outline steps to ensure quality control, data
+validation, and result reporting.
+1. SCOPE
+This procedure applies to all specimens received in the laboratory
+that have been collected, received, and accessioned for
+Lipodystrophy Gene Panel testing.
+1. RESPONSIBILITY
+It is the responsibility of all trained laboratory personnel to perform
+the steps in this procedure accurately. Supervisors must ensure that
+staff follow this procedure and perform regular quality checks.
+Personnel must also handle the experimental data with strict
+confidentiality and according to HIPAA guidelines.
+1. EQUIPMENT AND MATERIALS
+• Next-Generation Sequencer (e.g., Illumina MiSeq, Thermo Fisher
+Ion Torrent)
+• DNA extraction kits (e.g., QIAamp DNA Mini Kit)
+• Lipodystrophy Gene Panel reagents (e.g., custom-designed gene
+panel kits)
+• Quantification and quality assessment devices (e.g., Qubit
+Fluorometer, TapeStation)
+• PCR and Library Preparation Kits (e.g., KAPA Library Preparation
+Kit)
+• Thermocycler
+• Bioinformatics software for NGS data analysis
+• Computer and applicable software for data analysis and results
+reporting
+• Standard laboratory supplies (pipettes, tubes, etc.)
+1. PROCEDURE
+A) DNA Extraction:
+• Extract genomic DNA from the received sample using the
+QIAamp DNA Mini Kit following the manufacturer’s instructions.
+• Quantify the extracted DNA using a Qubit Fluorometer and
+assess the quality using TapeStation.
+B) Library Preparation and Target Enrichment:
+• Dilute the extracted DNA to the required concentration for library
+preparation.
+• Prepare the DNA libraries using the KAPA Library Preparation Kit
+according to the manufacturer’s protocols. Include DNA
+fragmentation, end-repair, A-tailing, adaptor ligation, and library
+amplification steps.
+• Perform target enrichment using the custom-designed
+Lipodystrophy Gene Panel. Follow the manufacturer’s instructions
+for hybridization-based capture of target regions.
+C) Sequencing:
+• Load the prepared libraries onto the NGS sequencing platform
+(e.g., Illumina MiSeq) according to the instrument manufacturer’s
+protocols.
+• Set up the sequencing run parameters, ensuring appropriate
+settings for read length and depth necessary for accurate variant
+detection.
+D) Data Analysis:
+• After sequencing, raw data (FASTQ files) will be generated
+automatically.
+• Use bioinformatics software to perform alignment of the raw
+sequences to the human reference genome (GRCh38).
+• Detect variants (single nucleotide polymorphisms and insertions/
+deletions) using appropriate variant calling tools (e.g., GATK).
+• Annotate detected variants with clinical significance using publicly
+available databases (e.g., ClinVar, HGMD) and proprietary
+pipelines.
+• Filter variants based on quality metrics, depth of coverage, and
+clinical relevance.
+E) Quality Control:
+• Include appropriate negative and positive controls in the
+sequencing run.
+• Assess the quality metrics of sequencing runs, including read
+depth, coverage uniformity, and on-target rates.
+• Confirm identified pathogenic or likely pathogenic variants with
+Sanger sequencing or other orthogonal methods if needed.
+F) Reporting Results:
+• Compile the final report, including detailed information on
+identified variants, their predicted effect, and clinical significance.
+Confirmatory results (if any), quality metrics, and interpretation
+notes should be included.
+• Review and sign-off by the lab director or a qualified geneticist.
+• Deliver the report securely to the referring clinician or ordering
+entity.
+1. QUALITY CONTROL
+Quality control must be implemented at all stages of the procedure:
+• Use validated DNA extraction and library preparation methods.
+• Ensure sequencing metrics meet acceptable thresholds.
+• Perform regular calibration and maintenance of all equipment.
+• Regularly review and update bioinformatics pipelines and
+databases.
+1. REFERENCE INTERVALS
+Interpretation of the identified variants should follow the American
+College of Medical Genetics and Genomics (ACMG) guidelines for
+the interpretation of sequence variants.
+1. REPORTING GUIDELINES
+• Ensure accuracy and confidentiality of patient results.
+• Results should be reported in conjunction with a licensed genetic
+counselor or a qualified clinical geneticist.
+• Refer to site-specific guidelines for consistency and regulatory
+compliance.
+1. REFERENCES
+• Manufacturer's Instructions for DNA extraction, library preparation
+kits, and sequencing instruments.
+• ACMG Guidelines for the Interpretation of Sequence Variants.
+• Relevant literature on lipodystrophy-associated genetic variants.
+• Internal Quality Control SOPs and validation records.
+1. METHOD LIMITATIONS
+• The test may not detect variants outside the targeted regions.
+• Low-quality DNA samples may affect the accuracy of sequencing
+results.
+• Interpretation is limited to known variant databases; novel variants
+require further clinical correlation and validation.
+This SOP ensures a high standard of technical performance and
+reliable results for Lipodystrophy Gene Panel Testing. Adherence to
+these guidelines supports clinical diagnostics and guides patient
+management by healthcare professionals.

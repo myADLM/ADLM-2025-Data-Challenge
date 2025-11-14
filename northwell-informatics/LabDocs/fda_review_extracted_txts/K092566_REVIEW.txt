@@ -1,0 +1,519 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number: K092566
+B. Purpose for Submission: New System comprising of a reader unit and a Processor
+(SP) containing a hybridization module with modules for sample extraction and target
+amplification added.
+C. Measurand: Influenza virus and Respiratory Syncytial Virus (RSV) nucleic acids target
+sequences. Influenza A, Influenza B, and RSV are detected.
+D. Type of Test: Multiplex nucleic acid assay for qualitative detection and identification of
+Influenza A Virus, Influenza B Virus, and Respiratory Syncytial Virus (RSV) target
+sequences in nasopharyngeal swab specimens including nucleic acid isolation, multiplex RT-
+PCR amplification, capture of the amplicons hybridized to gold-labeled probes on a
+microarray-based chip, and detection of the signal enhanced with elemental silver using the
+Verigene® System
+E. Applicant: Nanosphere, Inc.
+F. Proprietary and Established Names:
+For instrument:
+Verigene® SP System
+For the assay:
+Verigene® Respiratory Virus Nucleic Acid Test on the Verigene® SP System (RVNAT )
+SP
+G. Regulatory Information:
+Product Classification Regulation Section Panel
+Code
+OCC and Class II 21CFR 866.3980 Respiratory viral panel Microbiology
+NSU multiplex nucleic acid assay; 21 CFR (83)
+862.2570 Instrumentation for clinical
+multiplex test systems
+H. Intended Use: Same as K083088 described below:
+The Verigene® Respiratory Virus Nucleic Acid Test is a qualitative multiplex in vitro
+diagnostic test for the detection and identification of Influenza A Virus, Influenza B Virus,
+and Respiratory Syncytial Virus (RSV) nucleic acids purified from nasopharyngeal swab
+specimens obtained from patients symptomatic for viral upper respiratory infection. The test
+is intended to be used on the Verigene® System as an aid in the differential diagnosis of
+Influenza A, Influenza B, and RSV infections. The test is not intended to detect influenza C
+virus.
+Negative results do not preclude influenza virus or RSV infection and should not be used
+1
+
+[Table 1 on page 1]
+	Product		Classification	Regulation Section	Panel
+	Code				
+OCC and
+NSU			Class II	21CFR 866.3980 Respiratory viral panel
+multiplex nucleic acid assay; 21 CFR
+862.2570 Instrumentation for clinical
+multiplex test systems	Microbiology
+(83)
+
+--- Page 2 ---
+as the sole basis for treatment or other management decisions. It is recommended that
+negative test results be confirmed by culture.
+Performance characteristics for Influenza A Virus were established when Influenza A/H3
+and A/H1 were the predominant Influenza A viruses in circulation. When other Influenza
+A viruses are emerging, performance characteristics may vary.
+If infections with a novel Influenza A virus is suspected based on current clinical and
+epidemiological screening criteria recommended by public health authorities, specimens
+should be collected with appropriate infection control precautions for novel virulent
+Influenza viruses and sent to state or local health department for testing. Viral culture
+should not be attempted in these cases unless a BSL 3+ facility is available to receive and
+culture specimens.
+2. Indication(s) for use: Same as Intended Use
+3) Special conditions for use statement(s): For Prescription use only
+4) Special instrument requirements: Verigene® System consisting of the Verigene
+Processor (software version 2.0) and the Verigene Reader (software version 1.5.6).
+I. Device Description:
+The Verigene SP consists of two core instruments, the Verigene Reader and the Verigene
+SP that offers ‘sample-to-result’ testing capability. The Verigene SP System utilizes
+single-use disposable test units. Up to 32 SP units may be connected to a single Verigene
+Reader. Each SP unit can be independently accessed through the Reader to run different
+tests. The Verigene Reader in the Verigene SP is the same as in the cleared system
+(K083088).
+The SP unit is a reconfiguration of the Processor within the cleared Verigene System to
+allow on-board Sample Extraction and Target Amplification – steps that were previously
+performed externally. Added in the SP’s package are an Extraction Module to extract
+nucleic acids from clinical samples and an Amplification Module to amplify the extracted
+nucleic acids. The amplified target is then detected in the Verigene Test as in the cleared
+Verigene System. All fluid transfers and mixing operations in the SP are performed by an
+automated pipettor.
+Assay technology is same as described below in K083088: Magnetic bead-based isolation
+technology for sample preparation, multiplex RT-PCR for target amplification, gold
+nanoparticle probe technology for the Verigene test. The VRNAT also includes control
+materials as described in K083088.
+The Verigene® Respiratory Virus Nucleic Acid Test (VRNAT) is a set of reagents and
+supplies designed to be utilized in RT-PCR and hybridization assay using the Verigene®
+instrument SP system for detection and identification of human influenza A, influenza B,
+and RSV viral RNA. The VRNAT primers target matrix (M) gene of influenza A, non
+2
+
+--- Page 3 ---
+structural (NS) and M genes of influenza B, and L gene and F gene of RSV. The
+amplicons are hybridized to gold nanoparticle probes through a mediator oligonucleotide
+and target-specific capture oligonucleotides on a microarray-based chip in a disposable
+test cartridge. The signal enhanced with elemental silver at the test site is detected using
+the Verigene Processor.
+J. Substantial Equivalence Information:
+a) Predicate device name (s):
+Verigene® Respiratory Virus Nucleic Acid Test on the Verigene System
+(VRNAT)
+b) Predicate Numbers (s):
+K083088
+Comparison with predicate:
+Verigene® (Cleared System) K083088 Verigene® SP (New System) K092566
+DEVICE
+Processor Processor SP
+1) Sample Extraction is performed 1) Sample Extraction is performed within the added
+externally on the NucliSENS EasyMAG Extraction Module using Roche reagents. NOTE:
+(bioMerieux) Roche licenses extraction technology from
+bioMerieux
+2) Target Amplification by RT-PCR is 2) Target Amplification by RT-PCR is performed
+performed on an external thermocylcer within the added Amplification Module using same
+reagents and procedure
+3) Verigene Test (hybridization) is 3) No change in reagent or procedure
+performed in the hybridization module
+housed in the Processor of the Verigene®
+System
+4) Pipetting between the three steps is 4) Pipetting module added to automate fluid transfer
+performed by the user. steps
+Reader – provides the user interface, Reader – No change
+controls the Processor, performs image
+analysis, and provides results.
+Verigene® System is built under QSR Verigene® SP is built under QSR
+SOFTWARE
+Software – no change in the architecture. Software
+programming to control the Extraction and
+Amplification Modules has been added.
+ASSAY PARAMETERS
+Sample Extraction – parameters as on the Sample Extraction – parameters are similar to the
+NucliSENS EasyMAG (bioMerieux) NucliSENS EasyMAG (bioMerieux)
+Target Amplification – parameters for RT-PCR – no change
+multiplex RT-PCR were developed to
+work on thermocyclers.
+3
+
+[Table 1 on page 3]
+Verigene® (Cleared System) K083088	Verigene® SP (New System) K092566
+DEVICE	
+Processor	Processor SP
+1) Sample Extraction is performed
+externally on the NucliSENS EasyMAG
+(bioMerieux)	1) Sample Extraction is performed within the added
+Extraction Module using Roche reagents. NOTE:
+Roche licenses extraction technology from
+bioMerieux
+2) Target Amplification by RT-PCR is
+performed on an external thermocylcer	2) Target Amplification by RT-PCR is performed
+within the added Amplification Module using same
+reagents and procedure
+3) Verigene Test (hybridization) is
+performed in the hybridization module
+housed in the Processor of the Verigene®
+System	3) No change in reagent or procedure
+4) Pipetting between the three steps is
+performed by the user.	4) Pipetting module added to automate fluid transfer
+steps
+Reader – provides the user interface,
+controls the Processor, performs image
+analysis, and provides results.	Reader – No change
+Verigene® System is built under QSR	Verigene® SP is built under QSR
+SOFTWARE	
+	Software – no change in the architecture. Software
+programming to control the Extraction and
+Amplification Modules has been added.
+ASSAY PARAMETERS	
+Sample Extraction – parameters as on the
+NucliSENS EasyMAG (bioMerieux)	Sample Extraction – parameters are similar to the
+NucliSENS EasyMAG (bioMerieux)
+Target Amplification – parameters for
+multiplex RT-PCR were developed to
+work on thermocyclers.	RT-PCR – no change
+
+--- Page 4 ---
+Verigene Test - for the detection of No change
+amplified DNA targets on the Verigene
+System
+K. Standard/Guidance Document Referenced (if applicable):
+1. Guidance for the Content of Premarket Submissions for Software Contained in
+Medical Devices, May 11, 2005. http://www.fda.gov/cdrh/ode/guidance/337.pdf
+2. Draft Guidance for Industry and FDA Staff: Assay Migration Studies for In Vitro
+Diagnostic Devices - http://www.fda.gov/OHRMS/DOCKETS/98fr/FDA-2008-D-0642-gdl.pdf
+3. Draft Guidance for Industry and FDA Staff: Establishing the Performance
+Characteristics of In Vitro Diagnostic Devices for the Detection or Detection and
+Differentiation of Influenza Viruses - http://www.fda.gov/cdrh/oivd/guidance/1638.pdf
+L. Test Principle: Same as K083088
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+Limit of Detection (Analytical Sensitivity)
+The analytical sensitivity of the RVNAT was compared to the cleared VRNAT
+SP
+(K083088) by determining the Limit of Detection (LoD) of Influenza A, Influenza B,
+RSV A, and RSV B viruses. Strains with established titers were used for each virus.
+Each virus stock was serially diluted into a sample matrix (Universal Transport Media,
+Copan), and each concentration was tested in quadruplicate using the RVNAT . The
+SP
+LoD was confirmed by performing an additional 20 replicates for each strain in order to
+demonstrate that the virus was detected ≥95% of the time. The LoD for each virus was
+identical to the LoD observed with the same strains on the cleared VRNAT (K083088)
+Limit of Detection
+Limits of Detection Concentration
+Influenza A (A/Wisconsin/67/05) 2 TCID /mL
+50
+Influenza B (B/Florida/04/2006) 50 TCID /mL
+50
+RSV A (Strain Long) 10 TCID /mL
+50
+RSV B (B-1 Wild Type (B
+2 TCID /mL
+WV/14617/85)) 50
+4
+
+[Table 1 on page 4]
+Verigene Test - for the detection of
+amplified DNA targets on the Verigene
+System	No change
+
+[Table 2 on page 4]
+	Limits of Detection		Concentration	
+Influenza A (A/Wisconsin/67/05)			2 TCID /mL
+50	
+Influenza B (B/Florida/04/2006)			50 TCID /mL
+50	
+RSV A (Strain Long)			10 TCID /mL
+50	
+RSV B (B-1 Wild Type (B
+WV/14617/85))			2 TCID /mL
+50	
+
+--- Page 5 ---
+Carry-over contamination studies: High positive samples of Influenza A, Influenza B,
+RSV A, and RSV B were alternated with high negative samples for all four viruses.
+Based on the collective data, there was no evidence of cross-contamination from any of
+the test steps including sample preparation, multiplex RT-PCR step, and the Verigene
+Hybridization Test.
+A. Precision/Reproducibility Studies Comparison between the RVNAT and the cleared
+SP
+VRNAT (K083088)
+The Precision/Reproducibility Studies were performed at each of three sites. At Site
+1, the reproducibility study was part of a larger precision study.
+Precision/Reproducibility Studies for the RVNAT were conducted exactly as for the
+SP
+previously cleared VRNAT (K083088) to allow equivalency comparisons. As before,
+eight unique samples were created by diluting known concentrations of viral particles
+with Viral Transport Medium. Since the Analytical Sensitivity of the RVNAT was
+SP
+identical to the cleared VRNAT, the same strains and levels were used in the studies.
+Each strain was represented at 3 distinct concentrations: high negative, low positive,
+and moderate positive.
+Sample panel for the Precision/Reproducibility Studies.
+Unique
+Viral Strains and Levels
+Samples
+1 Influenza A - High Negative; Influenza B - High Negative
+2 RSV A - High Negative; RSV B – High Negative
+3 Influenza A - Low Positive
+4 Influenza B - Low Positive
+5 RSV A - Low Positive
+6 RSV B - Low Positive
+7 Influenza A - Moderate Positive; RSV A - Moderate Positive
+8 Influenza B - Moderate Positive; RSV B - Moderate Positive
+The Precision Study (Site 1) tested the sample set over 12 non-consecutive days. On
+each test day, two operators performed the RVNAT in duplicate for each sample
+SP
+(i.e., 4 sample sets per day total). In the reproducibility study performed by sites 2
+and 3, the sample set was tested in triplicate daily by 2 operators on each of five non-
+consecutive days.
+Performance characteristics of the RVNAT in the Precision/Reproducibility Studies
+SP
+were equivalent to those for the cleared VRNAT as shown in the following table.
+5
+
+[Table 1 on page 5]
+	Unique		Viral Strains and Levels
+	Samples		
+1			Influenza A - High Negative; Influenza B - High Negative
+2			RSV A - High Negative; RSV B – High Negative
+3			Influenza A - Low Positive
+4			Influenza B - Low Positive
+5			RSV A - Low Positive
+6			RSV B - Low Positive
+7			Influenza A - Moderate Positive; RSV A - Moderate Positive
+8			Influenza B - Moderate Positive; RSV B - Moderate Positive
+
+--- Page 6 ---
+Comparison of Precision/Reproducibility data from the new RVNAT to the cleared
+SP
+VRNAT
+Site 1 Site 2 Site 3 All % All %
+95% Score CI Site 1 Site 2 Site 3 95% Score CI
+NSPH MPLN MCW Sites Agreement Sites Agreement
+High
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 46/48 14/15 15/15 75/78 96% 89.3 - 98.7%
+Negative
+Low
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 48/48 14/15 15/15 77/78 98.7% 93.1 - 99.8%
+Positive
+Moderate
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 48/48 15/15 15/15 78/78 100.0% 95.3 - 100%
+Positive
+High
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 48/48 15/15 15/15 78/78 100% 95.3 - 100%
+Negative
+Low
+47/48 15/15 15/15 77/78 98.7% 93.1 - 99.8% 47/48 15/15 15/15 77/78 98.7% 93.1 - 99.8%
+Positive
+Moderate
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 48/48 15/15 15/15 78/78 100% 95.3 - 100%
+Positive
+High
+48/48 15/15 14/15 77/78 99% 93.1 - 99.8% 48/48 13/15 15/15 76/78 97% 91.1 - 99.3%
+Negative
+Low
+47/48 15/15 15/15 77/78 98.7% 93.1 - 99.8% 47/48 15/15 15/15 77/78 98.7% 93.1 - 99.8%
+Positive
+Moderate
+48/48 15/15 15/15 78/78 100.0% 95.3 - 100% 48/48 15/15 15/15 78/78 100.0% 95.3 - 100%
+Positive
+High
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 48/48 14/15 14/15 74/78 95% 87.5 - 98.0%
+Negative
+Low
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 48/48 15/15 15/15 78/78 100% 95.3 - 100%
+Positive
+Moderate
+48/48 15/15 15/15 78/78 100% 95.3 - 100% 48/48 15/15 15/15 78/78 100.0% 95.3 - 100%
+Positive
+B
+VSR
+Agreement of 'Observed Results' to 'Expected Results'
+Panel Member
+A
+azneulfnI
+B
+azneulfnI
+A
+VSR
+New RVNAT Cleared VRNAT
+SP
+B. Method Comparison Studies between RVNAT and the cleared VRNAT (K083088)
+SP
+A sample set representing Influenza A, Influenza B, and RSV was prepared by diluting
+culture positive nasopharyngeal swab samples with negative samples. Dilutions were
+aimed to yield viral load levels close to the low positive levels for each virus type. A total
+of 62 unique samples were diluted, aliquoted, and frozen. The sample set was tested at the
+internal site (Site 1) using the cleared VRNAT,and at all three sites using the RVNAT .
+SP
+This sample testing yielded a total of 62 x 4=248 unique tests.
+Each sample set yielded a total of 186 decisions from 62 unique samples as each test
+provides a decision of ‘Detected’ or ‘Not Detected’ for each of the 3 viruses, Influenza A,
+Influenza B, and RSV. Of the 62 samples, 3 samples had dual infections where 2 viruses
+were present.
+6
+
+[Table 1 on page 6]
+		Agreement of 'Observed Results' to 'Expected Results'											
+		New RVNAT
+SP						Cleared VRNAT					
+Panel Member		Site 1
+NSPH	Site 2
+MPLN	Site 3
+MCW	All
+Sites	%
+Agreement	95% Score CI	Site 1	Site 2	Site 3	All
+Sites	%
+Agreement	95% Score CI
+A
+azneulfnI	High
+Negative	48/48	15/15	15/15	78/78	100%	95.3 - 100%	46/48	14/15	15/15	75/78	96%	89.3 - 98.7%
+	Low
+Positive	48/48	15/15	15/15	78/78	100%	95.3 - 100%	48/48	14/15	15/15	77/78	98.7%	93.1 - 99.8%
+	Moderate
+Positive	48/48	15/15	15/15	78/78	100%	95.3 - 100%	48/48	15/15	15/15	78/78	100.0%	95.3 - 100%
+B
+azneulfnI	High
+Negative	48/48	15/15	15/15	78/78	100%	95.3 - 100%	48/48	15/15	15/15	78/78	100%	95.3 - 100%
+	Low
+Positive	47/48	15/15	15/15	77/78	98.7%	93.1 - 99.8%	47/48	15/15	15/15	77/78	98.7%	93.1 - 99.8%
+	Moderate
+Positive	48/48	15/15	15/15	78/78	100%	95.3 - 100%	48/48	15/15	15/15	78/78	100%	95.3 - 100%
+A
+VSR	High
+Negative	48/48	15/15	14/15	77/78	99%	93.1 - 99.8%	48/48	13/15	15/15	76/78	97%	91.1 - 99.3%
+	Low
+Positive	47/48	15/15	15/15	77/78	98.7%	93.1 - 99.8%	47/48	15/15	15/15	77/78	98.7%	93.1 - 99.8%
+	Moderate
+Positive	48/48	15/15	15/15	78/78	100.0%	95.3 - 100%	48/48	15/15	15/15	78/78	100.0%	95.3 - 100%
+B
+VSR	High
+Negative	48/48	15/15	15/15	78/78	100%	95.3 - 100%	48/48	14/15	14/15	74/78	95%	87.5 - 98.0%
+	Low
+Positive	48/48	15/15	15/15	78/78	100%	95.3 - 100%	48/48	15/15	15/15	78/78	100%	95.3 - 100%
+	Moderate
+Positive	48/48	15/15	15/15	78/78	100%	95.3 - 100%	48/48	15/15	15/15	78/78	100.0%	95.3 - 100%
+
+--- Page 7 ---
+Study Sample Set
+Sample Set Positives Negatives Totals
+Influenza A 15 47 62
+Influenza B 16 46 62
+RSV A/B 34 28 62
+Total 65* 121 186
+*3 samples had 2 viruses raising the total number of positives from 62 to 65
+Decisions on the RVNAT for each site were compared to the cleared VRNAT. The data
+SP
+is shown in the tables below:
+RVNAT Method Comparison Data collected at Site 1
+SP
+VRNAT(Old System)
+All Viruses
+Positive Negative Total
+PPA 100.0 %
+Positive 65 0 65
+RVNAT SP (95%CI=94.4% - 100.0%)
+(New System) NPA 100.0%
+Negative 0 121 121
+(95%CI=96.9% - 100.0%)
+Total 65 121 186
+RVNAT Method Comparison Data collected at Site 2
+SP
+VRNAT (Old System)
+All Viruses
+Positive Negative Total
+PPA 98.5 % (95%CI=91.8%
+Positive 64 0 64
+RVNAT SP -99.7%)
+(New System) NPA 100.0%
+Negative 1a 121 122
+(95%CI=96.9% - 100.0%)
+Total 65 121 186
+aLow positive discordant for Influenza A. Repeat tests were positive and gave the expected result.
+RVNAT Method Comparison Data collected at Site 3
+SP
+VRNAT (Old System)
+All Viruses
+Positive Negative Total
+PPA 95.4 % (95%CI=87.3%
+Positive 62 0 62
+-98.4%)
+RVNAT NPA 100.0%
+SP Negative 3a 121 124
+(New System) (95%CI=96.9% - 100.0%)
+Total 65 121 186
+aAll discordant samples were Influenza A low positive. Repeat tests were positive and gave the
+expected result.
+7
+
+[Table 1 on page 7]
+Sample Set	Positives	Negatives	Totals
+Influenza A	15	47	62
+Influenza B	16	46	62
+RSV A/B	34	28	62
+			
+Total	65*	121	186
+
+[Table 2 on page 7]
+All Viruses				VRNAT(Old System)											
+					Positive			Negative			Total				
+RVNAT
+SP
+(New System)	Positive			65			0			65			PPA 100.0 %
+(95%CI=94.4% - 100.0%)		
+	Negative			0			121			121			NPA 100.0%
+(95%CI=96.9% - 100.0%)		
+		Total		65			121			186					
+
+[Table 3 on page 7]
+All Viruses				VRNAT (Old System)											
+					Positive			Negative			Total				
+RVNAT
+SP
+(New System)	Positive			64			0			64			PPA 98.5 % (95%CI=91.8%
+-99.7%)		
+	Negative			1a			121			122			NPA 100.0%
+(95%CI=96.9% - 100.0%)		
+		Total		65			121			186					
+
+[Table 4 on page 7]
+All Viruses		VRNAT (Old System)											
+			Positive			Negative			Total				
+RVNAT
+SP
+(New System)	Positive	62			0			62			PPA 95.4 % (95%CI=87.3%
+-98.4%)		
+	Negative	3a			121			124			NPA 100.0%
+(95%CI=96.9% - 100.0%)		
+	Total	65			121			186					
+
+--- Page 8 ---
+RVNAT Method Comparison Data – Combined data from all 3 sites
+SP
+VRNAT (Old System)
+All Viruses/All Sites
+Positive Negative Total
+PPA 97.9 %
+Positive 191 0 191
+RVNAT SP (95%CI=94.8% - 99.0%)
+(New System) NPA 100.0%
+Negative 4a 363 367
+(95%CI=99.0% - 100.0%)
+Total 195 363 558
+aAll discordant samples were Influenza A low positive. Repeat tests were positive and gave the
+expected result.
+N. Proposed Labeling: The labeling is sufficient and it satisfies the requirements of 21
+CFR Part 809.10.
+O. Conclusion: The submitted information in this premarket notification is complete and
+supports a substantial equivalence decision.
+8
+
+[Table 1 on page 8]
+All Viruses/All Sites				VRNAT (Old System)											
+					Positive			Negative			Total				
+RVNAT
+SP
+(New System)	Positive			191			0			191			PPA 97.9 %
+(95%CI=94.8% - 99.0%)		
+	Negative			4a			363			367			NPA 100.0%
+(95%CI=99.0% - 100.0%)		
+		Total		195			363			558					

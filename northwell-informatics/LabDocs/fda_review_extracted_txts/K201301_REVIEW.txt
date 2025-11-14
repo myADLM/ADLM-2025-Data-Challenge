@@ -1,0 +1,866 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K201301
+B Applicant
+Scopio Labs LTD.
+C Proprietary and Established Names
+X100 with Full Field Peripheral Blood Smear (PBS) Application
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5260 -
+JOY Class II Automated Cell-Locating HE - Hematology
+Device
+II Submission/Device Overview:
+A Purpose for Submission:
+Clearance of a new device
+B Type of Test:
+White blood cell (WBC) differential, red blood cell (RBC) morphology evaluation and
+platelet estimation
+III Intended Use/Indications for Use:
+A Intended Use(s):
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+JOY			Class II	21 CFR 864.5260 -
+Automated Cell-Locating
+Device			HE - Hematology
+
+--- Page 2 ---
+See Indications for Use below.
+B Indication(s) for Use:
+The X100 with Full Field Peripheral Blood Smear Application is intended to locate and display
+images of white cells, red cells, and platelets acquired from fixed and stained peripheral blood
+smears and assists a qualified technologist in conducting a WBC differential, RBC morphology
+evaluation, and platelet estimate using those images. For in vitro diagnostic use only. For
+professional use only.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+X100 with Full Field Peripheral Blood Smear (PBS) Application automatically locates and
+presents images of blood cells on peripheral smears. The user browses through the imaged smear
+to gain high-level general impression. The user reviews the suggested classification of each
+white cell according to type and may manually change the suggested classification of any cell.
+The user can also characterize red cell morphology on observed images. In addition, the system
+suggests the location of platelets. The user reviews each detected platelet and the suggested
+platelet estimation and may manually change the detections or the estimation. The Full Field
+PBS is intended to be used by skilled users, trained in the use of the device and in the
+identification of blood cells.
+The Full Field PBS consists of two major components: 1) The X100 Microscope, an optic
+scanning unit where sample slides are inserted to the digital microscope for imaging, and 2) The
+X100 Scopiobox, an operating and analyzing computer which controls the X100 microscope and
+serves the Full Field PBS application.
+To acquire a high-resolution image, the sample slide is moved by the X100 microscope
+positioning stage under its main optic tube, which has a microscope objective with a tube lens
+and high-resolution camera. The X100 microscope captures multiple images of the sample under
+a plurality of illumination conditions (different durations, different illumination angles, different
+illumination patterns, different wavelengths), without the need for immersion oil. Using a
+physical model and the captured images, the X100 Scopiobox reconstructs high-resolution
+images of the sample.
+B Instrument Description Information:
+1. Instrument Name:
+X100 with Full Field Peripheral Blood Smear Application
+2. Specimen Identification:
+K201301 - Page 2 of 11
+
+--- Page 3 ---
+The slide’s barcode is captured automatically and assigned to each case. The device also
+supports typing the barcode manually.
+3. Specimen Sampling and Handling:
+A peripheral blood sample collected in K EDTA or K EDTA tubes is mixed manually or
+2 3
+automatically. A thin blood film is wedged on a clean dry glass slide (a blood smear) and
+stained with Romanowsky stain. After the staining process is completed, the slide is covered
+using any standard cover slipping method.
+4. Calibration:
+The Full Field PBS system requires initial calibration for its mechanical and optical
+performances. An initial calibration process is performed on a standard blood smear slide as
+part of the manufacturing process of the device. The calibration is verified after installation
+by a technician or a qualified operator. Calibration can also be performed if a problem arises
+in the daily QC testing.
+5. Quality Control:
+Quality Control (QC) testing is performed on a daily basis (“daily QC”). The daily QC
+involves testing a standard blood smear slide prepared on the same day. During the daily QC
+the user reviews the images received from the Full Field PBS and verifies that at least 95% of
+the WBCs in the scanned image were identified and located correctly by the system. The Full
+Field PBS application maintains a digital QC log, enabling the user to review and to track the
+history of QC testing performed by the Full Field PBS.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Easy Cell Locator
+Light, Microscope
+B Predicate 510(k) Number(s):
+K092116
+C Comparison with Predicate(s):
+Device & Predicate
+K201301 K092116
+Device(s):
+X100 with Full Field
+Device Trade Name Peripheral Blood Smear EasyCell Cell Locator
+Application
+K201301 - Page 3 of 11
+
+[Table 1 on page 3]
+	Device & Predicate		K201301	K092116
+	Device(s):			
+
+--- Page 4 ---
+General Device
+Characteristic
+Similarities
+The X100 with Full Field The EasyCell is intended
+Peripheral Blood Smear to locate and display
+Application is intended to images of white cells, red
+locate and display images cells, and platelets
+of white cells, red cells, and acquired from fixed and
+platelets acquired from stained peripheral blood
+fixed and stained peripheral smears and assists a
+Intended Use / blood smears and assists a qualified technologist in
+Indications for Use qualified technologist in conducting a WBC
+conducting a WBC differential, RBC
+differential, RBC morphology evaluation,
+morphology evaluation, and and platelet estimate
+platelet estimate using those using those images. For
+images. For in vitro in vitro diagnostic use
+diagnostic use only. For only. For professional
+professional use only. use only.
+Stained blood film glass
+Sample Type slides of peripheral whole Same
+blood
+Sample Preparation Romanowsky stain Same
+WBC are located/counted
+by moving according to the
+battlement pattern (ensuring
+that each cell is counted
+only once). Cell images are
+analyzed using standard
+mathematical methods,
+including deterministic
+Analysis Technique:
+artificial neural networks Same
+White Blood Cells
+(ANN's) trained to
+distinguish between classes
+of white blood cells. The
+cell images are pre-
+classified, and the user
+reviews the suggested
+classification, and accepts
+or reclassifies the images.
+Red blood cells: The device
+presents an overview
+Analysis Technique: image. The examiners
+Same
+Red Blood Cells characterize red blood cell
+morphology from the
+image.
+K201301 - Page 4 of 11
+
+[Table 1 on page 4]
+	General Device			
+	Characteristic			
+	Similarities			
+Intended Use /
+Indications for Use			The X100 with Full Field
+Peripheral Blood Smear
+Application is intended to
+locate and display images
+of white cells, red cells, and
+platelets acquired from
+fixed and stained peripheral
+blood smears and assists a
+qualified technologist in
+conducting a WBC
+differential, RBC
+morphology evaluation, and
+platelet estimate using those
+images. For in vitro
+diagnostic use only. For
+professional use only.	The EasyCell is intended
+to locate and display
+images of white cells, red
+cells, and platelets
+acquired from fixed and
+stained peripheral blood
+smears and assists a
+qualified technologist in
+conducting a WBC
+differential, RBC
+morphology evaluation,
+and platelet estimate
+using those images. For
+in vitro diagnostic use
+only. For professional
+use only.
+Sample Type			Stained blood film glass
+slides of peripheral whole
+blood	Same
+Sample Preparation			Romanowsky stain	Same
+Analysis Technique:
+White Blood Cells			WBC are located/counted
+by moving according to the
+battlement pattern (ensuring
+that each cell is counted
+only once). Cell images are
+analyzed using standard
+mathematical methods,
+including deterministic
+artificial neural networks
+(ANN's) trained to
+distinguish between classes
+of white blood cells. The
+cell images are pre-
+classified, and the user
+reviews the suggested
+classification, and accepts
+or reclassifies the images.	Same
+Analysis Technique:
+Red Blood Cells			Red blood cells: The device
+presents an overview
+image. The examiners
+characterize red blood cell
+morphology from the
+image.	Same
+
+--- Page 5 ---
+The QC procedure controls
+for slide preparation (both
+smearing and staining) and
+device performance. If the
+Daily QC QC procedure does not Same
+pass, the operator must
+resolve the problem and
+rerun the QC before
+processing samples.
+General Device
+Characteristic
+Differences
+Platelets are automatically
+located/counted by moving The device presents a
+according to the battlement series of images. The
+pattern (ensuring that each reviewers manually
+Analysis Technique: cell is counted only once). count and estimate the
+Platelets The user reviews the platelet concentration
+suggested estimate of the from the images
+platelet concentration, and according to a procedure
+accepts or modifies the in the User's Manual.
+result.
+Cell images are grouped
+into eighteen (18)
+categories: Band Cell images are grouped
+Neutrophils; Segmented into eight (8) categories:
+Neutrophils; Lymphocytes; Neutrophils (Band or
+Atypical Lymphocytes; Segmented;
+Large Granular Lymphocytes;
+Lymphocytes; Aberrant Monocytes; Eosinophils;
+Pre-classified WBC
+Lymphocytes; Monocytes; Basophils; Nucleated
+Eosinophils; Basophils; Red Blood Cells;
+Promyelocyte; Smudge cells; Other
+Metamyelocytes; (which is intended to
+Myelocytes; Blasts; Plasma hold morphologically
+Cells; Nucleated Red Blood abnormal cells.)
+Cells; Unclassified;
+Smudge cells; Dirt
+Fully automated scan and Fully automated scan and
+image acquisition. Captures image acquisition.
+multiple images under Captures images at 10X
+plurality of illumination resolution to locate
+High-Resolution
+conditions and reconstructs certain cells and then
+Image Acquisition
+a 100X magnification capture images of those
+image of the viewed area, cells using a 100X
+without the need for magnification lens and
+immersion oil. immersion oil.
+K201301 - Page 5 of 11
+
+[Table 1 on page 5]
+Daily QC			The QC procedure controls
+for slide preparation (both
+smearing and staining) and
+device performance. If the
+QC procedure does not
+pass, the operator must
+resolve the problem and
+rerun the QC before
+processing samples.	Same
+	General Device			
+	Characteristic			
+	Differences			
+Analysis Technique:
+Platelets			Platelets are automatically
+located/counted by moving
+according to the battlement
+pattern (ensuring that each
+cell is counted only once).
+The user reviews the
+suggested estimate of the
+platelet concentration, and
+accepts or modifies the
+result.	The device presents a
+series of images. The
+reviewers manually
+count and estimate the
+platelet concentration
+from the images
+according to a procedure
+in the User's Manual.
+Pre-classified WBC			Cell images are grouped
+into eighteen (18)
+categories: Band
+Neutrophils; Segmented
+Neutrophils; Lymphocytes;
+Atypical Lymphocytes;
+Large Granular
+Lymphocytes; Aberrant
+Lymphocytes; Monocytes;
+Eosinophils; Basophils;
+Promyelocyte;
+Metamyelocytes;
+Myelocytes; Blasts; Plasma
+Cells; Nucleated Red Blood
+Cells; Unclassified;
+Smudge cells; Dirt	Cell images are grouped
+into eight (8) categories:
+Neutrophils (Band or
+Segmented;
+Lymphocytes;
+Monocytes; Eosinophils;
+Basophils; Nucleated
+Red Blood Cells;
+Smudge cells; Other
+(which is intended to
+hold morphologically
+abnormal cells.)
+High-Resolution
+Image Acquisition			Fully automated scan and
+image acquisition. Captures
+multiple images under
+plurality of illumination
+conditions and reconstructs
+a 100X magnification
+image of the viewed area,
+without the need for
+immersion oil.	Fully automated scan and
+image acquisition.
+Captures images at 10X
+resolution to locate
+certain cells and then
+capture images of those
+cells using a 100X
+magnification lens and
+immersion oil.
+
+--- Page 6 ---
+VI Standards/Guidance Documents Referenced:
+CLSI EP05-A3: Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline - Third Edition
+CLSI EP12-A2: User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline - Second Edition
+CLSI EP17-A2: Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline - Second Edition
+CLSI H20-A2: Reference Leukocyte (WBC) Differential Count (Proportional) and Evaluation of
+Instrumental Methods; Approved Standard - Second Edition
+IEC 62471 First edition 2006-07: Photobiological safety of lamps and lamp systems
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Repeatability
+The repeatability study was performed according to the CLSI EP05-A3 Evaluation of
+Precision of Quantitative Measurement Procedures; Approved Guideline—Third Edition.
+A 20x2x2 repeatability study for the analyses of white blood cells differential and platelet
+estimation was conducted using a single instrument at a single site with 15 selected test
+samples. Over the course of 20 testing days, 2 daily runs were performed using 2 replicas.
+The selected samples represented different clinical conditions, to include all automatically
+located and pre-classified cell types. In total, 1,200 scans were analyzed.
+As a high-level summary, the following tables capture, for each variance component, the
+maximum measurement received for the upper bound of the 95% CI of the standard
+deviation. All repeatability study results met acceptance criteria.
+Maximum SD upper bound values of 95% CI
+Variance Components
+Within-Laboratory
+Repeatability Between-Run Between-Day
+Precision
+Cell Type
+SD upper SD upper SD upper SD upper
+Mean bound of Mean bound of Mean bound of Mean bound of
+95% CI 95% CI 95% CI 95% CI
+Segmented &
+Band 53.3 % 1.8 % 83.4% 1.3 % 66.4 % 1.9 % 75.2 % 2.2 %
+Neutrophil
+Lymphocyte 48.6 % 1.6 % 48.6% 0.8 % 18.2 % 1.9 % 18.2 % 2.1 %
+Variant Forms 6 % 1.3 % 6 % 0.4 % 2.8 % 0.7 % 6 % 1.3 %
+Lymphocyte
+Monocyte 9.7 % 1.6 % 3.7 % 0.5 % 5.9 % 0.8 % 9.7 % 1.6 %
+Eosinophil 6.3 % 0.6 % 2.6 % 0.3 % 3.3 % 0.8 % 3.3 % 0.8 %
+Basophil 0.5 % 0.4 % 0.5 % 0.3 % 0.5 % 0.6 % 0.5 % 0.7 %
+Plasma cell 0.6 % 0.4 % 0.6 % 0.2 % 0.5 % 0.1 % 0.5 % 0.4 %
+K201301 - Page 6 of 11
+
+[Table 1 on page 6]
+Maximum SD upper bound values of 95% CI								
+	Variance Components							
+	Repeatability		Between-Run		Between-Day		Within-Laboratory	
+Cell Type							Precision	
+								
+		SD upper		SD upper		SD upper		SD upper
+								
+	Mean	bound of	Mean	bound of	Mean	bound of	Mean	bound of
+		95% CI		95% CI		95% CI		95% CI
+Segmented &
+Band
+Neutrophil	53.3 %	1.8 %	83.4%	1.3 %	66.4 %	1.9 %	75.2 %	2.2 %
+Lymphocyte	48.6 %	1.6 %	48.6%	0.8 %	18.2 %	1.9 %	18.2 %	2.1 %
+Variant Forms
+Lymphocyte	6 %	1.3 %	6 %	0.4 %	2.8 %	0.7 %	6 %	1.3 %
+Monocyte	9.7 %	1.6 %	3.7 %	0.5 %	5.9 %	0.8 %	9.7 %	1.6 %
+Eosinophil	6.3 %	0.6 %	2.6 %	0.3 %	3.3 %	0.8 %	3.3 %	0.8 %
+Basophil	0.5 %	0.4 %	0.5 %	0.3 %	0.5 %	0.6 %	0.5 %	0.7 %
+Plasma cell	0.6 %	0.4 %	0.6 %	0.2 %	0.5 %	0.1 %	0.5 %	0.4 %
+
+--- Page 7 ---
+Maximum SD upper bound values of 95% CI
+Variance Components
+Within-Laboratory
+Repeatability Between-Run Between-Day
+Precision
+Cell Type
+SD upper SD upper SD upper SD upper
+Mean bound of Mean bound of Mean bound of Mean bound of
+95% CI 95% CI 95% CI 95% CI
+Immature 0.8 % 0.5 % 0.7 % 0.3 % 0.7 % 0.7 % 0.7 % 0.7 %
+Granulocyte
+Blast 3 % 1.2 % 3 % 0.4 % 0 % 0 % 3 % 1.1%
+NRBC 5.8 % 0.6 % 3.5 % 0.2 % 3.5 % 0.4 % 5.8 % 0.6 %
+Maximum SD upper bound values of 95% CI
+Variance Components
+Repeatability Between-Run Between-Day Within-Laboratory
+Precision
+Cell Type SD upper SD upper SD upper SD upper
+bound bound bound bound
+Mean Mean Mean Mean
+values of values of values of values of
+95% CI 95% CI 95% CI 95% CI
+Platelet
+305.5 31.7 155.3 18.1 153.1 23.8 213.9 34.4
+Estimation
+Reproducibility
+The reproducibility study was performed according to the CLSI EP05-A3 Evaluation of
+Precision of Quantitative Measurement Procedures; Approved Guideline—Third Edition.
+A 3x5x5 reproducibility study for the analyses of white blood cells differential and platelet
+estimation was performed across 3 different sites. The study was conducted at each site, with
+10 test samples, for 5 testing days, using 5 replicas scanned with the local device. The
+selected samples represented different clinical conditions, to include all automatically located
+and pre- classified cell types. In total, 750 scans were analyzed.
+As a high-level summary, the following tables capture, for each variance component, the
+maximum measurement received for the standard deviation. Reproducibility study results
+passed pre-defined acceptance criteria.
+Maximum SD Values
+Variance Components
+Within-Laboratory
+Cell Type Repeatability Between-Day Between-Site Reproducibility
+Precision
+Mean SD Mean SD Mean SD Mean SD Mean SD
+Segmented
+& Band 52.9 % 1.7 % 50.6 % 1.1 % 52.9 % 1.7 % 50.6 % 3.9 % 50.6 % 4.2 %
+Neutrophil
+Lymphocyte 23.4 % 1.4 % 26.5 % 2 % 26.5 % 2.2 % 17.2 % 2.8 % 26.5 % 3.1 %
+Variant
+Forms 9.9 % 1.1 % 5.2 % 5.2 % 1.1 % 5.2 % 1.9 %
+1.3 % 5.2 % 1.5 %
+Lymphocyte
+Monocyte 6.5 % 1.2 % 6.5 % 0.6 % 6.5 % 1.3 % 8.2 % 1.2 % 8.2 % 1.5 %
+Eosinophil 2.7 % 0.4 % 2.7 % 0.3 % 2.7 % 0.5 % 2.7 % 0.4 % 2.7 % 0.7 %
+Basophil 0.5 % 0.3 % 0.8 % 0.1 % 0.5 % 0.3 % 0.6 % 0.3 % 0.8 % 0.4 %
+Plasma cell 0.6 % 0.2 % 0.6 % 0.1 % 0.6 % 0.3 % 0.6 % 0.4 % 0.6 % 0.5 %
+Immature
+1.8 % 0.5 % 1.8 % 1.8 % 1 % 1.8 % 1.2 %
+Granulocyte 0.4 % 1.8 % 0.6 %
+Blast 4.3 % 0.8 % 4.3 % 0.1 % 4.3 % 0.8 % 4.3 % 1.1 % 4.3 % 1.4 %
+NRBC 6.7 % 0.5 % 6.7 % 0.1 % 6.7 % 0.6 % 6.7 % 0.9 % 6.7 % 1.1 %
+K201301 - Page 7 of 11
+
+[Table 1 on page 7]
+Maximum SD upper bound values of 95% CI								
+	Variance Components							
+	Repeatability		Between-Run		Between-Day		Within-Laboratory	
+Cell Type							Precision	
+								
+		SD upper		SD upper		SD upper		SD upper
+								
+	Mean	bound of	Mean	bound of	Mean	bound of	Mean	bound of
+		95% CI		95% CI		95% CI		95% CI
+Immature
+Granulocyte	0.8 %	0.5 %	0.7 %	0.3 %	0.7 %	0.7 %	0.7 %	0.7 %
+Blast	3 %	1.2 %	3 %	0.4 %	0 %	0 %	3 %	1.1%
+NRBC	5.8 %	0.6 %	3.5 %	0.2 %	3.5 %	0.4 %	5.8 %	0.6 %
+
+[Table 2 on page 7]
+Maximum SD upper bound values of 95% CI								
+	Variance Components							
+	Repeatability		Between-Run		Between-Day		Within-Laboratory	
+							Precision	
+Cell Type	Mean	SD upper
+bound
+values of
+95% CI	Mean	SD upper
+bound
+values of
+95% CI	Mean	SD upper
+bound
+values of
+95% CI	Mean	SD upper
+bound
+values of
+95% CI
+								
+Platelet
+Estimation	305.5	31.7	155.3	18.1	153.1	23.8	213.9	34.4
+
+[Table 3 on page 7]
+Maximum SD Values											
+	Variance Components										
+Cell Type	Repeatability		Between-Day		Within-Laboratory		Between-Site		Reproducibility		
+					Precision						
+											
+	Mean	SD	Mean	SD	Mean	SD	Mean	SD		Mean	SD
+Segmented
+& Band
+Neutrophil	52.9 %	1.7 %	50.6 %	1.1 %	52.9 %	1.7 %	50.6 %	3.9 %		50.6 %	4.2 %
+Lymphocyte	23.4 %	1.4 %	26.5 %	2 %	26.5 %	2.2 %	17.2 %	2.8 %		26.5 %	3.1 %
+Variant
+Forms
+Lymphocyte	9.9 %	1.1 %	5.2 %	1.3 %	5.2 %	1.5 %	5.2 %	1.1 %		5.2 %	1.9 %
+Monocyte	6.5 %	1.2 %	6.5 %	0.6 %	6.5 %	1.3 %	8.2 %	1.2 %		8.2 %	1.5 %
+Eosinophil	2.7 %	0.4 %	2.7 %	0.3 %	2.7 %	0.5 %	2.7 %	0.4 %		2.7 %	0.7 %
+Basophil	0.5 %	0.3 %	0.8 %	0.1 %	0.5 %	0.3 %	0.6 %	0.3 %		0.8 %	0.4 %
+Plasma cell	0.6 %	0.2 %	0.6 %	0.1 %	0.6 %	0.3 %	0.6 %	0.4 %		0.6 %	0.5 %
+Immature
+Granulocyte	1.8 %	0.5 %	1.8 %	0.4 %	1.8 %	0.6 %	1.8 %	1 %		1.8 %	1.2 %
+Blast	4.3 %	0.8 %	4.3 %	0.1 %	4.3 %	0.8 %	4.3 %	1.1 %		4.3 %	1.4 %
+NRBC	6.7 %	0.5 %	6.7 %	0.1 %	6.7 %	0.6 %	6.7 %	0.9 %		6.7 %	1.1 %
+
+--- Page 8 ---
+Maximum SD Values
+Variance Components
+Repeatability Between-Day Within- Between-Site Reproducibility
+Cell Type Laboratory
+Precision
+Mean SD Mean SD Mean SD Mean SD Mean SD
+Platelet
+217.2 22.0 217.2 17.8 217.2 28.3 217.2 29.7 217.2 41.0
+Estimation
+2. Linearity:
+Not applicable.
+3. Analytical Specificity/Interference:
+Not applicable.
+4. Accuracy (Instrument):
+Method Comparison
+A Method Comparison study was conducted to compare the results achieved by trained
+examiners using the X100 with Full Field Peripheral Blood Smear Application (the Test
+Method) to the results achieved by using a manual light microscope. The study was
+performed according to the CLSI H20-A2: Reference Leukocyte (WBC) Differential Count
+(Proportional) and Evaluation of Instrumental Methods; Approved Standard— Second
+Edition.
+A total of 645 specimens were collected and analyzed at three sites. 335 specimens were
+from normal (healthy) subjects and 310 were from subjects with specific disease conditions.
+Slides were prepared from each specimen. The slides were randomly selected, blinded and
+evaluated by two examiners at each site.
+White Blood Cells
+Following analysis at each site, a pooled analysis of the multi-center results was conducted.
+The following table summarizes the results of the Deming regression comparison method for
+the multi-center study. All 95% CI of slope and intercept and Pearson correlation coefficient
+met the acceptance criteria for accuracy measured by Deming regression for WBC
+differential.
+WBC correlation between reference method and test method
+(Multi-center Deming Regression for 200 WBC Differential)
+Pearson
+Intercept Slope
+Cell Type correlation
+(95% CI) (95% CI)
+coefficient (r)
+0.39 1.00
+Neutrophil (%) 98%
+(-0.44 to 1.21) (0.99 to 1.01)
+K201301 - Page 8 of 11
+
+[Table 1 on page 8]
+Maximum SD Values										
+	Variance Components									
+	Repeatability		Between-Day		Within-		Between-Site		Reproducibility	
+					Laboratory					
+Cell Type										
+					Precision					
+	Mean	SD	Mean	SD	Mean	SD	Mean	SD	Mean	SD
+										
+Platelet
+Estimation	217.2	22.0	217.2	17.8	217.2	28.3	217.2	29.7	217.2	41.0
+
+[Table 2 on page 8]
+	Intercept	Slope	Pearson
+Cell Type			correlation
+	(95% CI)	(95% CI)	
+			coefficient (r)
+			
+Neutrophil (%)	0.39	1.00	98%
+	(-0.44 to 1.21)	(0.99 to 1.01)	
+
+--- Page 9 ---
+Pearson
+Intercept Slope
+Cell Type correlation
+(95% CI) (95% CI)
+coefficient (r)
+-0.51 0.99
+Lymphocyte (%) 96%
+(-1.02 to 0.00) (0.96 to 1.02)
+-0.15 0.94
+Monocyte (%) 95%
+(-0.60 to 0.31) (0.86 to 1.02)
+0.00 0.89
+Eosinophil (%) 98%
+(-0.17 to 0.16) (0.82 to 0.96)
+Overall WBC differential efficiency (agreement), sensitivity and specificity were measured,
+as well as for distributional WBC (Band and Segmented Neutrophil, Monocyte, Lymphocyte
+and Eosinophil) and morphological WBC (Immature Granulocyte, Variant Forms
+Lymphocyte, Blast, NRBC and Plasma cell) between subject device and manual microscope.
+WBC Differential Efficiency, Sensitivity and Specificity
+Morphological Distributional
+Overall
+Abnormality Abnormality
+96.82% 95.75% 96.29%
+Efficiency
+(96.12% to 97.43%) (94.95% to 96.46%) (95.77% to 96.76%)
+85.46% 88.83% 87.86%
+Sensitivity
+(80.19% to 89.78%) (85.94% to 91.31%) (85.38% to 90.06%)
+97.79% 97.43% 97.62%
+Specificity
+(97.16% to 98.31%) (96.70% to 98.03%) (97.16% to 98.02%)
+Predicted bias analysis (Bland-Altman) of WBC differential is summarized below. The mean
+differences and 95% limits of agreements per cell type were measured.
+Red Blood Cells
+Results of overall agreement for RBC morphology evaluation are shown below. Results
+passed pre-defined acceptance criteria.
+Red blood cells overall agreement
+RBC Overall Agreement with 95% CI
+99.77%
+Overall
+(99.71% to 99.83%)
+RBC Morphology Group Overall Agreement with 95% CI
+99.49%
+Color
+(99.14% to 99.73%)
+99.77%
+Shape
+(99.68% to 99.84%)
+99.61%
+Size
+(99.36% to 99.78%)
+100.00%
+Inclusions
+(99.93% to 100.00%)
+K201301 - Page 9 of 11
+
+[Table 1 on page 9]
+	Intercept	Slope	Pearson
+Cell Type			correlation
+	(95% CI)	(95% CI)	
+			coefficient (r)
+			
+Lymphocyte (%)	-0.51	0.99	96%
+	(-1.02 to 0.00)	(0.96 to 1.02)	
+Monocyte (%)	-0.15	0.94	95%
+	(-0.60 to 0.31)	(0.86 to 1.02)	
+Eosinophil (%)	0.00	0.89	98%
+	(-0.17 to 0.16)	(0.82 to 0.96)	
+
+[Table 2 on page 9]
+	Morphological	Distributional	Overall
+	Abnormality	Abnormality	
+			
+Efficiency	96.82%
+(96.12% to 97.43%)	95.75%
+(94.95% to 96.46%)	96.29%
+(95.77% to 96.76%)
+Sensitivity	85.46%
+(80.19% to 89.78%)	88.83%
+(85.94% to 91.31%)	87.86%
+(85.38% to 90.06%)
+Specificity	97.79%
+(97.16% to 98.31%)	97.43%
+(96.70% to 98.03%)	97.62%
+(97.16% to 98.02%)
+
+[Table 3 on page 9]
+RBC	Overall Agreement with 95% CI
+Overall	99.77%
+(99.71% to 99.83%)
+
+[Table 4 on page 9]
+RBC Morphology Group	Overall Agreement with 95% CI
+Color	99.49%
+(99.14% to 99.73%)
+Shape	99.77%
+(99.68% to 99.84%)
+Size	99.61%
+(99.36% to 99.78%)
+Inclusions	100.00%
+(99.93% to 100.00%)
+
+--- Page 10 ---
+RBC Morphology Group Overall Agreement with 95% CI
+96.65%
+Arrangement
+(95.52% to 97.57%)
+Platelet Estimation
+Platelet estimation efficiency, sensitivity and specificity measurements between subject
+device and manual microscope are as follows. Results passed pre-defined acceptance criteria.
+Platelet Estimation Efficiency, Sensitivity and Specificity
+Platelet Estimation
+94.89%
+Efficiency
+(92.78% to 96.53%)
+90.00%
+Sensitivity
+(83.51% to 94.57%)
+96.28%
+Specificity
+(94.11% to 97.82%)
+Method Comparison Study of 100 to 200 WBC Differential and 5 to 10 FOV Platelet
+Estimation
+All slides from the Method Comparison study were also analyzed by Full Field PBS device
+using 100 WBC differential and 5 FOV platelet estimation. The results were compared to the
+200 WBC differential and 10 FOV platelet estimation of the manual light microscope.
+Accuracy (Deming Regression), efficiency, sensitivity and specificity were measured.
+White Blood Cells
+100 WBC correlation between reference method and 200 WBC test method
+Pearson
+Intercept Slope
+Cell Type correlation
+(95% CI) (95% CI)
+coefficient (r)
+0.87 0.99
+Neutrophil (%) 98%
+(0.00 to 1.75) (0.98 to 1.01)
+-0.50 0.99
+Lymphocyte (%) 96%
+(-1.01 to 0.00) (0.96 to 1.01)
+-0.13 0.93
+Monocyte (%) 94%
+(-0.57 to 0.31) (0.86 to 1.01)
+0.01 0.88
+Eosinophil (%) 97%
+(-0.20 to 0.22) (0.80 to 0.97)
+100 WBC Efficiency, Sensitivity and Specificity
+Morphological Distributional
+Overall
+Abnormality Abnormality
+96.48% 95.06% 95.77%
+Efficiency
+(95.74% to 97.12%) (94.21% to 95.82%) (95.22% to 96.27%)
+K201301 - Page 10 of 11
+
+[Table 1 on page 10]
+RBC Morphology Group	Overall Agreement with 95% CI
+Arrangement	96.65%
+(95.52% to 97.57%)
+
+[Table 2 on page 10]
+Platelet Estimation	
+Efficiency	94.89%
+(92.78% to 96.53%)
+Sensitivity	90.00%
+(83.51% to 94.57%)
+Specificity	96.28%
+(94.11% to 97.82%)
+
+[Table 3 on page 10]
+	Intercept	Slope	Pearson
+Cell Type			correlation
+	(95% CI)	(95% CI)	
+			coefficient (r)
+			
+Neutrophil (%)	0.87
+(0.00 to 1.75)	0.99
+(0.98 to 1.01)	98%
+Lymphocyte (%)	-0.50
+(-1.01 to 0.00)	0.99
+(0.96 to 1.01)	96%
+Monocyte (%)	-0.13
+(-0.57 to 0.31)	0.93
+(0.86 to 1.01)	94%
+Eosinophil (%)	0.01
+(-0.20 to 0.22)	0.88
+(0.80 to 0.97)	97%
+
+[Table 4 on page 10]
+	Morphological	Distributional	Overall
+	Abnormality	Abnormality	
+			
+Efficiency	96.48%
+(95.74% to 97.12%)	95.06%
+(94.21% to 95.82%)	95.77%
+(95.22% to 96.27%)
+
+--- Page 11 ---
+81.06% 86.35% 84.83%
+Sensitivity
+(75.34% to 85.94%) (83.23% to 89.07%) (82.14% to 87.26%)
+97.79% 97.17% 97.50%
+Specificity
+(97.16% to 98.31%) (96.41% to 97.80%) (97.03% to 97.91%)
+Platelets
+5 FOV Platelet Estimation Efficiency, Sensitivity and Specificity
+Platelet Estimation
+94.55%
+Efficiency
+(92.39% to 96.24%)
+90.00%
+Sensitivity
+(83.51% to 94.57%)
+95.84%
+Specificity
+(93.58% to 97.48%)
+5. Carry-Over:
+Not applicable.
+B Other Supportive Instrument Performance Characteristics Data:
+Not Applicable.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K201301 - Page 11 of 11
+
+[Table 1 on page 11]
+Sensitivity	81.06%
+(75.34% to 85.94%)	86.35%
+(83.23% to 89.07%)	84.83%
+(82.14% to 87.26%)
+Specificity	97.79%
+(97.16% to 98.31%)	97.17%
+(96.41% to 97.80%)	97.50%
+(97.03% to 97.91%)
+
+[Table 2 on page 11]
+Platelet Estimation	
+Efficiency	94.55%
+(92.39% to 96.24%)
+Sensitivity	90.00%
+(83.51% to 94.57%)
+Specificity	95.84%
+(93.58% to 97.48%)

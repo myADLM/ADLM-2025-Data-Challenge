@@ -1,0 +1,98 @@
+INHERITED FRONTOTEMPORAL DEMENTIA AND AMYOTROPHIC
+LATERAL SCLEROSIS GENE PANEL ANALYTICAL PROCEDURE
+1. PURPOSE This protocol describes the analytical procedures for
+the Inherited Frontotemporal Dementia and Amyotrophic Lateral
+Sclerosis Gene Panel testing to ensure accurate and reliable
+results. This test encompasses next-generation sequencing
+(NGS) to identify potential pathogenic variants in relevant
+genes associated with inherited frontotemporal dementia (FTD)
+and amyotrophic lateral sclerosis (ALS).
+Responsibility: Laboratory technologists, bioinformaticians, and
+clinical staff are responsible for ensuring that all procedures are
+followed as outlined. It is the responsibility of the laboratory
+supervisor to ensure adherence to the protocol and address any
+deficiencies.
+1. SAMPLE PREPARATION A) DNA Extraction:
+◦ Use a commercial DNA extraction kit or an automated
+extraction system.
+◦ Quantify and assess the purity of the extracted DNA using a
+NanoDrop spectrophotometer and a Qubit fluorometer.
+◦ DNA quality assessment: Ensure the A260/A280 ratio is
+between 1.8 - 2.0, and DNA concentration is >20 ng/µL.
+B) DNA Library Preparation:
+• Use a validated library preparation kit specific for targeted NGS
+panels.
+• Follow manufacturer's instructions for DNA fragmentation, end
+repair, adapter ligation, and amplification.
+• Perform a quality check of the library using Agilent BioAnalyzer or
+equivalent to ensure the appropriate size distribution.
+1. SEQUENCING A) Instrumentation:
+◦ Use Illumina NextSeq 550 or another validated NGS
+instrument.
+◦ Load prepared libraries onto the sequencing instrument and
+follow the sequencer-specific protocol.
+◦ Ensure all sequencings run metrics, including cluster
+density, Q30 scores, and output yield, meet the
+manufacturer’s specifications.
+B) Sequencing Control:
+• Include positive control samples (with known variants) and
+negative control samples (no pathogenic variants) for each run.
+• Ensure that the sequencing results of control samples are within
+expected ranges.
+1. BIOINFORMATICS ANALYSIS A) Data Processing:
+◦ Demultiplexing of raw data files using Illumina bcl2fastq
+software or equivalent.
+◦ Alignment of reads to the human reference genome (hg19
+or hg38) using BWA-MEM or equivalent.
+◦ Variant Calling: Use validated variant calling software (e.g.,
+GATK, FreeBayes) to identify single nucleotide variants
+(SNVs) and indels.
+B) Variant Annotation:
+• Use tools such as ANNOVAR, VEP, or equivalent for functional
+annotation of variants.
+• Filter variants based on quality scores, read depth, and
+annotation relevance.
+1. INTERPRETATION OF RESULTS A) Pathogenicity
+Assessment:
+◦ Classify variants according to ACMG guidelines into
+categories (pathogenic, likely pathogenic, VUS, likely
+benign, benign).
+◦ Consider evidence from clinical databases (ClinVar, HGMD),
+population databases (gnomAD), and literature review.
+B) Reporting:
+• Generate a clinical report that includes identified variants, their
+classification, and interpretation.
+• Include recommendations for follow-up testing or genetic
+counseling as necessary.
+• Ensure all analyzed results are reviewed and verified by at least
+one clinical geneticist or a certified molecular biologist.
+1. QUALITY CONTROL AND TROUBLESHOOTING A) Quality
+Control:
+◦ Participate in external quality assessment programs.
+◦ Perform repeated runs for any sample that does not meet
+quality criteria initially.
+◦ Maintain records of all quality control measures, including
+reagent lot numbers and instrument maintenance logs.
+B) Troubleshooting:
+• Address issues such as low library yields, sequencing run
+failures, poor alignment rates, or unexpected control results.
+• Document corrective actions taken in response to encountered
+issues.
+1. DOCUMENTATION AND REVIEW A) Documentation:
+◦ Maintain comprehensive records, including sample tracking,
+library preparation, sequencing metrics, variant annotations,
+and final reports.
+◦ Ensure confidentiality and secure storage of all patient data.
+B) Review and Revision:
+• Regularly review this SOP to incorporate new technologies or
+improvements in methodologies.
+• Revalidate the procedure and update documentation accordingly.
+REFERENCES:
+• ACMG guidelines for interpretation of sequence variants.
+• Illumina platform-specific manuals and library preparation guides.
+• Bioinformatics software user manuals and best practice
+documentation.
+This protocol ensures standardized processing and analysis for the
+Inherited Frontotemporal Dementia and Amyotrophic Lateral
+Sclerosis Gene Panel testing, achieving high-quality and reliable
+genetic testing results.

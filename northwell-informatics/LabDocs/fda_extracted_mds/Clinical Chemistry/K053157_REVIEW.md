@@ -1,0 +1,25 @@
+# SPECIAL 510(k): Device Modification ODE Review Memorandum
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class II device requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device. (k032798, HDL Flex Reagent Cartridge)
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials.
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+This change was for adjusting the concentration of the lowest of the assay’s three calibrators from 10 mg/dL to 0 mg/dL cholesterol, and for dropping the CRMLN certification statement.
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics, and
+
+# 5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied   
+c) A declaration of conformity with design controls. The declaration of conformity should include: i) A statement signed by the individual responsible, that, as required by the risk analysis, all verification and validation activities were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met, and ii) A statement signed by the individual responsible, that the manufacturing facility is in conformance with design control procedure requirements as specified in 21 CFR 820.30 and the records are available for review.
+
+# 6. A Truthful and Accurate Statement, a 510(k) Statement and the Indications for Use are enclosed.
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared device.
+
+Comments: The concentration of the calibrators is now 0, 40, and $1 6 5 \mathrm { m g / d L }$ cholesterol. The medical decision points for HDL are 40 and $6 0 \mathrm { m g / d L }$ . After running a method comparison/bias study according to NCCLS guidelines, the sponsor’s acceptance criteria was that for concentrations less than $4 0 \mathrm { m g / d L }$ , values increased between 1 and $6 \mathrm { m g / d L }$ . The sponsor also indicates that the greatest shifts were found closer to $1 0 \mathrm { m g / d L }$ .

@@ -1,0 +1,66 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY DEVICE ONLY TEMPLATE
+
+A. 510(k) Number: K060688   
+B. Purpose for Submission: Special submission for a modification to the APTT parameter settings for HemosIL SynthASil on the ACL Futura and ACL Advance which allows for improved correlation with the ACL TOP   
+C. Analyte: Activated Partial Thromboplastin Time (APTT)   
+D. Type of Test: Clotting   
+E. Applicant: Instrumentation Laboratories   
+F. Proprietary and Established Names: HemosIL SynthASil   
+G. Regulatory Information: 1. Regulation section: 21 CFR 864.7925 2. Classification: Class II 3. Product Code: GFO 4. Panel: 81 Hematology
+
+# H. Intended Use:
+
+1. Intended use(s): The HemosIL SynthASil is a high quality synthetic phospholipid reagent for the in vitro determination of Activated Partial Thromboplastin Time (APTT) in human citrated plasma on IL Coagulation and ELECTRA Systems   
+2. Indication(s) for use:   
+3. Special condition for use statement(s):   
+4. Special instrument Requirements: IL Coagulation and ELECTRA Systems
+
+# I. Device Description:
+
+The HemosIL SynthASil is a phospholipid reagent for the in vitro determination of APTT in human citrated plasma. It is used for the evaluation of the intrinsic coagulation pathway, and the monitoring of heparin therapy.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): HemosIL SynthASil
+
+2. Predicate K number(s): K953981
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>Hemosil SynthASil is ahigh quality syntheticphospholipid reagent for thein vitro determination ofAPTT in human citratedplasma on IL Coagulationand ELECTRA Systems</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Test Principle</td><td rowspan=1 colspan=1>When sample testing isinitiated, sample , APTTreagent, a negativelycharged contact activatorand buffer are incubatedat 37°C for a specificperiod of time whichinitiates the activation ofthe intrinsic coagulationpathway. Calcium isthem added to trigger thecoagulation process andthe time required for clotformation is measured.</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Normalized CurveSmoothing</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>9</td></tr><tr><td rowspan=1 colspan=1>Offset %</td><td rowspan=1 colspan=1>67</td><td rowspan=1 colspan=1>35</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+L. Test Principle: See table above
+
+M. Performance Characteristics (if/when applicable): 1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+b. Linearity/assay reportable range:
+
+c. Traceability (controls, calibrators, or method):
+
+d. Detection limit: e. Analytical specificity: f. Assay cut-off:
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+b. Matrix comparison:
+
+3. Clinical studies:
+
+a. Clinical sensitivity:
+
+b. Clinical specificity:
+
+c. Other clinical supportive data (when a and b are not applicable): As required for a Special 510(k), the Sponsor has provided a risk analysis as well as a Declaration of Conformity with Design Controls indicating that development activities were conducted under appropriate design controls procedures, and the overall product specifications were met.
+
+4. Clinical cut-off:
+
+5. Expected values/Reference range:
+
+# N. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision for a “special” submission.

@@ -1,0 +1,100 @@
+Standard Operating Procedure (SOP) for Tuberous Sclerosis
+Gene Panel Analysis
+1. PURPOSE
+This document outlines the procedure for the analytical phase of
+generating results for the Tuberous Sclerosis Gene Panel. This panel
+is designed to detect mutations in genes associated with Tuberous
+Sclerosis Complex (TSC), including TSC1 and TSC2. The protocol
+covers the processes from DNA extraction to data analysis and result
+interpretation.
+2. RESPONSIBILITY
+The designated laboratory personnel are responsible for carrying out
+the procedure as described. It is the responsibility of the laboratory
+manager to ensure all staff are adequately trained and competent in
+these procedures.
+3. SPECIMEN REQUIREMENTS
+• Specimen Type: Peripheral blood in EDTA tubes.
+• Volume: Minimum 3 mL.
+• Storage: Keep at 2-8°C if processing is delayed. Samples should
+ideally be processed within 24 hours of collection.
+4. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Automated DNA Extractor (e.g., QIAsymphony)
+• PCR Thermocycler
+• Next-Generation Sequencing (NGS) Platform (e.g., Illumina
+MiSeq)
+• Reagents for DNA extraction, library preparation, and sequencing
+• TSC Gene Panel Kit
+• Standard laboratory consumables (pipettes, tips, microcentrifuge
+tubes, etc.)
+5. PROCEDURE
+5.1 DNA Extraction
+1. Load EDTA tube into the automated DNA extractor.
+2. Follow the manufacturer’s protocol for DNA extraction.
+3. Quantify DNA using a spectrophotometer or fluorometer.
+4. Dilute DNA to the required concentration for library preparation.
+5.2 Library Preparation
+1. Prepare the DNA library using the TSC Gene Panel Kit
+following the manufacturer’s instructions.
+2. Quantify and assess the quality of the prepared library using a
+bioanalyzer or equivalent device.
+3. Pool libraries as per protocol.
+5.3 Sequencing
+1. Load the pooled libraries onto the NGS platform according to
+the manufacturer’s instructions.
+2. Set up the sequencing run and initiate the process.
+5.4 Data Analysis
+1. Transfer raw sequencing data to the bioinformatics pipeline for
+analysis.
+2. Perform read alignment to the reference genome, variant
+calling, and annotation.
+3. Utilize software tools (e.g., GATK, Annovar) as per standard
+bioinformatics guidelines.
+5.5 Result Interpretation
+1. Review and validate variants using appropriate databases (e.g.,
+ClinVar, HGMD).
+2. Interpret pathogenicity based on ACMG/AMP guidelines.
+3. Compile a comprehensive report detailing the findings.
+6. QUALITY CONTROL
+1. Include positive and negative controls in each batch of DNA
+extraction, library preparation, and sequencing.
+2. Run internal quality controls for sequencing, including standard
+reference materials.
+3. Document and investigate any deviations from expected
+results.
+7. TROUBLESHOOTING
+• If DNA yield is insufficient, repeat extraction ensuring optimal
+technique.
+• If library quality is poor, verify reagent integrity and repeat library
+preparation.
+• In case of sequencing failure, review run parameters, reagent
+volumes, and possible contamination sources. Correct and repeat
+the run if necessary.
+8. REPORTING RESULTS
+1. Results are reviewed by a certified clinical geneticist.
+2. Final validated results are entered into the Laboratory
+Information System (LIS).
+3. Reports are generated and communicated to the referring
+clinician.
+9. RECORD KEEPING
+Maintain comprehensive records of all steps including:
+• DNA extraction logs
+• Library preparation and sequencing logs
+• Data analysis records
+• QC logs and results
+10. REFERENCES
+• Manufacturer’s instructions for DNA extraction, library preparation,
+and sequencing kits.
+• ACMG/AMP guidelines for variant interpretation.
+• Relevant scientific literature and databases for variant annotation
+and interpretation.
+11. REVISION HISTORY
+Version 1.0: Initial draft created on [insert date].
+12. APPROVAL
+Lab Director: _____________________________ Date:
+________________
+Lab Manager: _____________________________ Date:
+________________
+This document must be reviewed periodically and revised as
+necessary to ensure compliance with the latest standards and
+technologies. Ensure all personnel are adequately trained on any
+updates.

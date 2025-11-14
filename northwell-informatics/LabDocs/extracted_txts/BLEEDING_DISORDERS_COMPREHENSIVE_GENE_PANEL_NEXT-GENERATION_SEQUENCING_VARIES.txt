@@ -1,0 +1,113 @@
+Standard Operating Procedure: Analytical Phase for Generating
+Results for Bleeding Disorders, Comprehensive Gene Panel by
+Next-Generation Sequencing
+1. PURPOSE This procedure details the steps needed to analyze
+and generate accurate and reproducible results for comprehensive
+gene panels investigating bleeding disorders using next-generation
+sequencing (NGS).
+2. SCOPE This SOP applies to the Clinical Laboratory staff
+performing NGS for the detection of genetic variants associated with
+bleeding disorders.
+3. RESPONSIBILITY
+• Laboratory Technologists are responsible for performing the
+steps as outlined in this SOP.
+• Supervisors ensure compliance with the SOP and address any
+issues arising during the process.
+• Laboratory Director oversees procedures and is the final
+authority on data interpretation.
+4. MATERIALS AND EQUIPMENT
+• Illumina MiSeq or equivalent NGS platform
+• DNA extraction kit (validated for use in NGS)
+• Library preparation kit specific for target gene panel
+• PCR reagents and thermal cycler
+• NGS sequencing kits and reagents
+• Bioinformatics software for data analysis (e.g., BWA, GATK,
+Annovar)
+• Positive and negative controls
+5. PROCEDURE
+A) DNA Extraction
+1. Extract DNA from the collected specimens using a validated
+extraction method.
+2. Measure DNA concentration and assess the quality using a
+spectrophotometer or fluorometer.
+3. Ensure DNA integrity by running an aliquot on an agarose gel
+or using capillary electrophoresis, if necessary.
+B) Library Preparation and Enrichment
+1. Perform DNA fragmentation as required by the library
+preparation kit.
+2. Prepare DNA libraries following the manufacturer’s protocol,
+including end-repair, A-tailing, adapter ligation, and PCR
+amplification.
+3. Enrich the target regions using the appropriate gene panel kit.
+4. Perform quality control of the prepared libraries using either
+bioanalyzer or similar technology to confirm the size distribution
+and concentration of the libraries.
+C) Sequencing
+1. Load libraries onto the NGS platform according to the
+manufacturer's protocols.
+2. Run sequencing using appropriate flow cell and sequencing
+kits.
+D) Data Analysis
+1. Initial Data Processing
+◦ Perform base calling and generate FASTQ files.
+◦ Assess read quality (e.g., using FastQC or similar tools).
+2. Alignment and Variant Calling
+◦ Align reads to the reference human genome (e.g., using
+BWA).
+◦ Perform variant calling using tools like GATK, SAMtools, etc.
+3. Variant Annotation
+◦ Annotate variants with information on gene function,
+potential pathogenicity, and population frequency using tools
+such as Annovar, SnpEff, or equivalent.
+4. Data Filtering
+◦ Filter out common benign variants based on population
+frequency databases (e.g., ExAC, gnomAD).
+◦ Prioritize variants based on clinical relevance, predicted
+pathogenicity, and the known association with bleeding
+disorders.
+E) Interpretation
+1. Interpret the filtered variants considering the clinical details
+provided.
+2. Confirm potential pathogenic variants with orthogonal methods,
+if necessary (e.g., Sanger sequencing).
+3. Document and report findings in a clear, concise, and clinically
+relevant format.
+F) Reporting Results
+1. Generate a comprehensive report detailing:
+◦ Patient identification and clinical information
+◦ Methods used (including library preparation, sequencing,
+and data analysis tools)
+◦ Identified variants and their clinical significance
+◦ Interpretation and clinical correlation
+2. Ensure results are reviewed and verified by a qualified clinical
+geneticist or laboratory director.
+3. Communicate the results to the ordering physician following the
+lab’s guidelines for reporting.
+6. QUALITY CONTROL
+• Include positive and negative controls in each run to ensure the
+reliability of the results.
+• Validate the sequencing run by checking the quality metrics (e.g.,
+Q30 scores, coverage).
+• Perform regular maintenance and calibration of equipment as per
+manufacturers' guidelines.
+• Document and address any deviations from expected
+performance metrics promptly.
+7. SAFETY AND PRECAUTIONS
+• Follow all safety protocols, including using appropriate PPE.
+• Handle all reagents and specimens according to the laboratory’s
+biosafety guidelines.
+• Dispose of waste materials in compliance with local regulations.
+8. REFERENCES
+• Manufacturer's manuals for DNA extraction kits, library
+preparation kits, and sequencing platforms.
+• Illumina MiSeq User Guide or equivalent for NGS platform.
+• Publications and databases related to bleeding disorders and
+genetic variants.
+9. REVISION HISTORY
+• SOP Version: 1.0
+• Effective Date: [Date]
+• Review Date: [Date]
+• Approval Authority: [Name and Title]
+Prepared by: Reviewed by: Approved by:
+Signature: Date:
+[End of SOP]

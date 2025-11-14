@@ -1,0 +1,117 @@
+Standard Operating Procedure (SOP) for DPYD Full Gene
+Sequencing
+1. PURPOSE
+The purpose of this SOP is to outline the analytical procedure for the
+full gene sequencing of the dihydropyrimidine dehydrogenase
+(DPYD) gene to detect variants and mutations. The procedure will
+ensure accurate and reliable results, maintaining compliance with
+CLIA regulations.
+1. RESPONSIBILITY
+It is the responsibility of the designated molecular technologist to
+perform the sequencing and data analysis. The supervisor is
+responsible for reviewing the generated results and ensuring the
+procedure is followed accurately.
+1. SPECIMEN REQUIREMENTS
+3.1 Preferred Specimen:
+• Whole blood collected in EDTA tubes (purple top).
+• Minimum volume: 3 mL.
+• Transport the specimen at 2-8°C.
+3.2 Acceptable Specimen:
+• Buccal swab in proper collection medium.
+• Transport the specimen at 2-8°C.
+3.3 Unacceptable Specimen:
+• Specimens clotted or hemolyzed.
+• Specimens collected in heparin tubes.
+• Specimens subjected to extreme temperatures.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+4.1 Equipment:
+• Thermal cycler.
+• Capillary or Next-Generation Sequencer (depending on the lab
+setup).
+• Pipettes and filtered tips.
+• Microcentrifuges.
+• Vortex mixer.
+• Qubit Fluorometer.
+4.2 Reagents:
+• DNA extraction kit.
+• PCR master mix.
+• Primers specific to DPYD exons.
+• Sequencing buffer and reagents (compatible with the sequencer
+used).
+• Ethanol (70% and 100%).
+4.3 Supplies:
+• PCR tubes or plate.
+• Microcentrifuge tubes.
+• Gloves.
+• DNA extraction columns.
+1. PROCEDURE
+5.1 DNA Extraction:
+• Follow the instructions provided with the DNA extraction kit to
+extract genomic DNA from the collected specimen.
+• Quantify the isolated DNA using a Qubit Fluorometer.
+• Record DNA concentration and purity.
+5.2 PCR Amplification:
+• Design primers to cover the entire coding region of the DPYD
+gene.
+• Prepare the PCR master mix according to the manufacturer's
+instructions.
+• Aliquot the master mix into PCR tubes or plate.
+• Add the DNA template (50 ng/reaction) into each tube, making
+sure all controls (positive, negative, and no template) are
+included.
+• Program the thermal cycler: Denaturation at 95°C for 30 seconds,
+Annealing at specific temperature (determined by primer design)
+for 30 seconds, and Extension at 72°C for 60 seconds, repeat for
+35 cycles.
+5.3 Purification and Quantification:
+• Purify the PCR products using appropriate cleanup columns or
+beads.
+• Quantify the purified amplicons using the Qubit Fluorometer.
+5.4 Sequencing Reaction:
+• Set up the sequencing reaction using the manufacturer’s
+recommended protocol for the sequencer in use (Sanger or
+NGS).
+• Denature the purified PCR product.
+• Load the sequencing plate/tube onto the sequencer.
+5.5 Data Analysis:
+• Transfer the raw sequencing data to the bioinformatics system.
+• Utilize software (e.g., BLAST, Clustal Omega) for alignment and
+variant calling.
+• Identify any variants based on reference gene sequences.
+• Validate results with a secondary bioinformatics tool for accuracy.
+5.6 Report Generation:
+• Compile the identified variants and interpret the clinical relevance.
+• Generate a comprehensive report including patient details,
+results, interpretation, and comments on detected mutations.
+1. QUALITY CONTROL
+6.1 Positive Control:
+• Run known DPYD variant samples to ensure PCR amplification
+and sequencing efficiency.
+6.2 Negative Control:
+• Include samples with no template (water) to check for
+contamination.
+6.3 Validation:
+• Perform inter-run validation for consistency in sequencing results.
+1. REPORTING RESULTS
+Results, including identified variants, will be reviewed and verified by
+a senior technologist or supervisor before being released to the LIS.
+Ensure that any critical findings are promptly communicated to the
+ordering physician.
+1. SAFETY AND PRECAUTIONS
+• Follow standard laboratory biosafety guidelines.
+• Handle all reagents and specimens with appropriate PPE.
+• Dispose of all biological waste according to laboratory protocol.
+1. REFERENCES
+• CLIA guidelines for genetic testing.
+• Manufacturer guidelines for DNA extraction and sequencing
+reagents.
+• Relevant peer-reviewed publications on DPYD gene sequencing
+methods.
+1. RECORD KEEPING
+Maintain all records of DNA extraction, PCR, sequencing run, and
+data analysis according to CLIA and laboratory policy for future
+reference and audits.
+This protocol ensures the accurate and efficient sequencing of the
+DPYD gene for the genetic assessment of patients, aiding in the
+diagnosis and management of conditions associated with
+dihydropyrimidine dehydrogenase deficiency.

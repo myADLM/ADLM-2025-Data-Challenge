@@ -1,0 +1,113 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for PHENYLALANINE DISORDERS GENE
+PANEL, VARIES
+1. Purpose
+The purpose of this SOP is to provide a detailed and standardized
+procedure for the analysis of the Phenylalanine Disorders Gene
+Panel, ensuring accurate, reliable, and reproducible results in a
+CLIA-certified laboratory.
+Responsibility:
+All laboratory personnel involved in the analytical phase of the
+Phenylalanine Disorders Gene Panel testing are responsible for
+following this SOP precisely. It is the responsibility of the supervising
+clinical geneticist to review and validate the final reports.
+1. Definition
+Phenylalanine Disorders Gene Panel: A comprehensive genetic test
+designed to detect mutations in genes associated with phenylalanine
+metabolism disorders, including phenylketonuria (PKU).
+Target genes may include but are not limited to PAH, PTS, GCH1,
+and QDPR.
+1. Procedure
+A. Pre-Analytical Requirements
+1. Verify that the specimen is appropriately labeled and has been
+accessioned correctly.
+2. Review the patient’s demographic information and clinical
+history for quality assurance.
+3. Ensure that the specimen meets the laboratory’s acceptance
+criteria (e.g., type, volume, stability conditions).
+B. DNA Extraction
+1. Record all patient identifiers and specimen details in the
+Laboratory Information System (LIS).
+2. Extract DNA from the submitted specimen using a validated
+extraction method (e.g., automated DNA extractor).
+3. Quantify DNA using a spectrophotometer and assess purity
+(A260/A280 ratio).
+4. Aliquot DNA and store at –20°C until ready for library
+preparation.
+C. Library Preparation
+1. Use a validated library preparation kit compatible with the
+sequencing platform (e.g., Illumina).
+2. Follow the manufacturer’s instructions precisely, including steps
+for DNA fragmentation, end repair, adaptor ligation, and
+amplification.
+3. Assess the quality and quantity of the prepared library using a
+validated method (e.g., bioanalyzer).
+D. Target Enrichment
+1. Use a validated gene panel kit to capture the genes of interest.
+2. Follow the manufacturer’s protocol for hybridization and
+enrichment of the target sequences.
+3. Purify the enriched DNA using magnetic beads and assess
+quality and quantity.
+E. Next-Generation Sequencing (NGS)
+1. Load the prepared and enriched library onto the NGS platform
+following the manufacturer’s instructions.
+2. Configure the sequencing run parameters (e.g., read length,
+number of cycles) according to the specific requirements of the
+gene panel.
+3. Monitor the sequencing run for quality control (e.g., cluster
+density, Q30 scores).
+F. Data Analysis
+1. Transfer raw sequencing data to the bioinformatics pipeline for
+analysis.
+2. Perform alignment of reads to the human reference genome
+(e.g., GRCh38) using a validated aligner.
+3. Identify variants using a validated variant caller.
+4. Annotate and prioritize variants based on clinical significance
+using an appropriate database (e.g., ClinVar).
+5. Apply stringent quality control filters (e.g., read depth, allele
+frequency) to ensure accurate variant calls.
+G. Interpretation and Reporting
+1. Review the filtered variant list for potential pathogenic, likely
+pathogenic, and variants of uncertain significance.
+2. Interpret the clinical relevance of identified variants considering
+the patient's clinical history.
+3. Compile the final report including:
+◦ Patient identification and clinical history.
+◦ Methodology and limitations of the test.
+◦ Identified variants with their clinical significance.
+◦ Recommendations for follow-up testing or genetic
+counseling, if applicable.
+4. Have the supervising clinical geneticist review and sign off on
+the final report.
+H. Quality Control and Assurance
+1. Include positive and negative controls in each run to ensure the
+accuracy and reliability of results.
+2. Participate in external proficiency testing programs for further
+validation.
+3. Routinely audit the process and update the SOP as required to
+reflect the most current best practices and regulatory
+requirements.
+4. Handling Unexpected Results
+5. If a previously undocumented variant of unknown significance is
+detected, re-test to confirm the result.
+6. Collaborate with geneticists for interpretation of rare variants.
+7. Document any troubleshooting steps and corrective actions
+taken.
+Documentation:
+• Temperature logs for all equipment used.
+• Quality control logs.
+• DNA quantification and purity records.
+• Sequencing run reports.
+• Bioinformatics analysis logs.
+• Final report sign-off sheet.
+References:
+• Manufacturer’s user manuals for DNA extraction, library
+preparation kits, and sequencing platforms.
+• Current literature on phenylalanine disorder genetics.
+• Relevant clinical practice guidelines and regulatory requirements.
+This SOP is to be reviewed and updated annually or when new
+relevant information is available.
+Approved By: ___________________________ Date:
+___________________ Review Date: ___________________
+Note: Always refer to specific manufacturer’s instructions and adjust
+the SOP to meet the specific needs of your laboratory environment.

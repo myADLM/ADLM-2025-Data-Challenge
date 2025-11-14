@@ -1,0 +1,297 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number: K083278   
+B. Purpose for Submission: New device   
+C. Measurand: Influenza A/H5 virus non structural protein 1 (NS1) PDZ ligands (PL) containing ESKV, ESEV, and ESEI sequence motifs.   
+D. Type of Test: An immunoassay for the qualitative detection of influenza A H5N1 virus in nasal and nasopharyngeal swabs, using PDZs as capture reagents for nonstructural protein 1 (NS1) from H5N1 and highly sensitive monoclonal antibodies as detection reagents.   
+E. Applicant: Arbor Vita Corporation, Sunnyvale, CA   
+F. Proprietary and Established Names: AVantage™ A/H5N1 Flu Test   
+G. Regulatory Information:
+
+<table><tr><td rowspan=1 colspan=1>Product Code</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>Regulation Section</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>OMS</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR 866.3332Reagents for detectionof specific novelinfluenza A viruses</td><td rowspan=1 colspan=1>Microbiology (83)</td></tr></table>
+
+# H. Intended Use:
+
+# 1. Intended use(s):
+
+The AVantage™ A/H5N1 Flu Test is intended for the in vitro qualitative detection of influenza A/H5N1 virus directly from symptomatic patient nasal or throat swab specimens or in viral cultures for the presumptive laboratory identification of influenza A/H5N1 virus.
+
+Results from testing with the AVantage™ A/H5N1 Flu Test should be used in conjunction with other laboratory testing and clinical and epidemiological risk factors for the presumptive identification of patients infected with Influenza H5N1 virus. AVantage™ A/H5N1 Flu Test is intended as a Prescription Use device.
+
+Testing should not be performed unless the patient meets the most current U.S. Department of Health and Human Services (DHHS) clinical and epidemiologic criteria for testing suspect A/H5 specimens. The definitive identification of influenza A/H5 either directly from patient specimens or from viral cultures requires additional laboratory testing, along with clinical and epidemiological assessment in consultation with national influenza surveillance experts.
+
+Negative results do not preclude influenza virus infection and should not be used as the sole basis for treatment or other patient management decisions.
+
+2. Indication(s) for use: Same as Intended Use
+
+3. Special conditions for use statement(s):
+
+For prescription use only The AVantage™ A/H5N1 Flu Test is indicated for use only in high complexity laboratories.   
+• Although this test has been shown to detect cultured human-derived Influenza A subtype H5N1 virus, the performance characteristics of this test with specimens from humans infected with H5N1 or other avian influenza viruses are unknown. May also detect other subtypes of influenza A viruses that express NS1 protein with the following binding domain sequence motifs: ESKV, ESEV, and ESEI. It has been reported (2) that binding domains detected by the AVantage™ A/H5N1 Flu Test can be present in viruses infecting swine and equine hosts. The performance of the test with viruses infecting swine and other animal hosts, or specimens from humans infected with swine influenza viruses has not been established.   
+• Monoclonal antibodies or PDZ’s may fail to detect or show lower sensitivity of detection with influenza A viruses that have undergone reassortment or amino acid changes in the target epitope region. The performance of the AVantage™ A/H5N1 Flu Test with specimens obtained from humans infected with influenza A H7N3, H7N7, and H7N2 viruses has not been established.   
+• The AVantage™ A/H5N1 Flu Test does not detect avian or human viruses with the binding domain containing the EPEV motif. The EPEV PL does not bind to the PDZ in Line 1 of the test to any measurable extent. The EPEV binding domain was characteristic in clade 0 avian viruses and human derived viruses (3). No clade 0 infections have been reported since 2002.
+
+4. Special instrument requirements: None
+
+# I. Device Description:
+
+The AVantage™ A/H5N1 Flu Test is a rapid immunoassay that detects the presence of the influenza A/H5N1 virus from nasal swabs or throat swabs using a combination of gold-conjugated pan-reactive monoclonal anti-influenza A antibodies and recombinant proteins containing PDZ domains to selectively capture the nonstructural protein 1 (NS1) from H5N1. The PDZ proteins uniquely bind PDZ ligands (PL) through specific amino acid sequences at carboxy-terminus of the PL. The carboxyterminus sequences of NS1 are unique and different in H5N1 as compared to seasonal influenza (2) and provide the scientific basis for selective and specific detection of avian influenza viruses containing ESKV, ESEV, and ESEI sequence motifs in the PL of the NS1 protein.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): CDC Human Influenza Virus Real-time RT-PCR Detection and Characterization Panel and the Quidel QuickVue Influenza Test
+
+2. Predicate K number(s): K080570 K053146
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=5>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=2>Device</td><td rowspan=1 colspan=1>Predicate 1</td><td rowspan=1 colspan=1>Predicate 2</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>AVantageTM A/H5N1 FluTest</td><td rowspan=1 colspan=1>CDC Human InfluenzaVirus Real-time RT-PCR Detection andCharacterization Panel(K080570)</td><td rowspan=1 colspan=1>Quidel QuickVueInfluenza A+B Test(K053146)</td></tr><tr><td rowspan=1 colspan=1>SpecimenTypes</td><td rowspan=1 colspan=2>Nasal or throat swab, orvirus cultures</td><td rowspan=1 colspan=1>Nasopharyngeal or nasalswab, respiratoryspecimens, or viruscultures</td><td rowspan=1 colspan=1>Nasal swab, nasalwash, and nasalaspirate</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=2>Qualitative in vitrodetection of influenzaA/H5N1 virus</td><td rowspan=1 colspan=1>Qualitative in-vitrodetection of influenzaA/H1, A/H3, A/H5(Asian lineage), andinfluenza B viruses</td><td rowspan=1 colspan=1>Rapid qualitativedetection of influenzatype A and influenzatype B antigens</td></tr><tr><td rowspan=1 colspan=5>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=2>Predicate 1</td><td rowspan=1 colspan=1>Predicate 2</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>AVantageTM A/H5N1Flu Test</td><td rowspan=1 colspan=2>CDC Human InfluenzaVirus Real-time RT-PCRDetection and</td><td rowspan=1 colspan=1>Quidel QuickVueInfluenza A+B Test(K053146)</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=4>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate 1</td><td rowspan=1 colspan=1>Predicate 2</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Characterization Panel(K080570)</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>OrganismDetected</td><td rowspan=1 colspan=1>Influenza A/H5N1</td><td rowspan=1 colspan=1>Influenza A/H1, A/H3,A/H5 (Asian lineage), andinfluenza B viruses</td><td rowspan=1 colspan=1>Influenza A and Bviruses</td></tr><tr><td rowspan=1 colspan=1>SamplePreparation</td><td rowspan=1 colspan=1>M4 Viral TransportMedia (Remel) andReagent A- Lysis Buffer</td><td rowspan=1 colspan=1>QIAamp® Viral RNA MiniKit and RNeasy® Mini Kit,Qiagen, Inc.MagNA Pure LC TotalNucleic Acid Isolation Kitand MagNA Pure LC RNAIsolation Kit II RocheApplied Science</td><td rowspan=1 colspan=1>The material from theswab is extracted withExtraction Reagentsupplied in the kit.</td></tr><tr><td rowspan=1 colspan=1>Technology</td><td rowspan=1 colspan=1>Two-step immuno-chromatographic assay</td><td rowspan=1 colspan=1>Real-time RT-PCR anddual-labeled hydrolysis(Taqman®) probes</td><td rowspan=1 colspan=1>One-step lateral flowimmuno-chromatographic assay</td></tr><tr><td rowspan=1 colspan=1>DetectionMethod</td><td rowspan=1 colspan=1>Visual</td><td rowspan=1 colspan=1>Real Time Fluorescencemonitored by AppliedBiosystems 7500 Fast DxReal-Time PCR Instrumentwith SDS software v 1.4</td><td rowspan=1 colspan=1>Visual</td></tr></table>
+
+# K. Standard/Guidance Documents Referenced:
+
+Class II Special Controls Guidance Document: Reagents for Detection of Specific Novel Influenza A Viruses - http://www.fda.gov/cdrh/oivd/guidance/1596.pdf. Guidance on In Vitro Diagnostic Devices to Detect Influenza A Viruses: Labeling and Regulatory Path - http://www.fda.gov/cdrh/oivd/guidance/1594.pdf.   
+Draft Guidance for Industry and FDA Staff: Establishing the Performance Characteristics of In Vitro Diagnostic Devices for the Detection or Detection and Differentiation of Influenza Viruses -   
+http://www.fda.gov/cdrh/oivd/guidance/1638.pdf
+
+# L. Test Principle:
+
+The AVantage™ A/H5N1 Flu Test comprises a cassette containing a lateral flow strip with a positive control line and two test lines. The control line contains goat antimouse polyclonal antibody. Test Line 1 (PDZ #1) contains N-terminal GST-tagged fusion protein, PDZ domain 2 from the PSD 95 protein (GI: 197927399) (12) with preferential binding to H5N1 NS1. Test Line 2 (PDZ #2) preferentially binds to NS1 protein from seasonal influenza subtypes H1N1 and H3N2 and contains PDZ domain 8 from the INADL protein (GI:112382256) (13). A fourth line printed just above line 2 also contains PDZ #2 and binds excess non-H5N1 protein from a sample. The AVantage™ test has been demonstrated to specifically detect NS1 protein from
+
+H5N1 Clades 1, 2.1, 2.2, and 2.3. Other subtypes of influenza A viruses that express NS1 protein with identical binding domain sequence motifs may also be detected.
+
+The patient sample is transferred to the lyophilized Lysis Buffer vial (Reagent A), where cells are lysed releasing intracellular proteins. The Loading Buffer (Reagent B) is added to condition the sample. The sample is then added to the Detector (Reagent C), which contains lyophilized colloidal gold-conjugated monoclonal anti-influenza A antibodies that recognize a broad range of influenza A subtypes and strains. After resuspension of the antibodies, the solution is added to the sample well of the AVantage™ A/H5N1 Flu Test cassette, where NS1 protein in the specimen will react with reagents on the membrane of the cassette. The results are interpreted visually by observing the presence or absence and relative intensity of the color lines at the indicated locations on the membrane.
+
+# Interpretation of Results:
+
+xpected Performance of External Controls
+
+Each AVantage™ A/H5N1 Flu Test Kit includes an external positive control containing recombinant influenza A H5N1 NS1 protein. M4 Viral Transport Media (Remel) should be used as the negative control. External positive and negative controls should be performed in conformance with local, state, and federal regulations or accreditation requirements and the user’s laboratory’s standard quality control procedures. At a minimum, a positive and a negative control test must be performed and the expected results documented prior to using each kit for the first time. The kit should be used for patient specimens only if both the positive and negative controls tests yield expected results.
+
+# Specimen Results and Interpretation
+
+Test cassette must be read between 30-45 minutes after sample transfer to the cassette.   
+Readings outside this window of time may affect the accuracy of results.
+
+Appearance of red line(s) indicates a reaction. Lines can occur in four positions. Lines for test interpretation are position C (control), position 1 or / and position 2.
+
+Note: If two lines appear close to each other near the bottom of the read window, always read the lower one as Line 2.
+
+# Readings:
+
+# Test Sample is H5N1 Flu Negative
+
+– If only the Control line (C) is present, OR – If only Control line (C) and Line 2 are present, OR – If the Control line is present and Line 2 intensity is greater than or equal to Line 1 intensity
+
+<table><tr><td colspan="5">Negative</td></tr><tr><td>E</td><td>$$t-↑ OR</td><td>$t + OR</td><td>OR</td><td>2 O →</td></tr></table>
+
+# Test Sample is H5N1 Flu Positive
+
+– If Control line (C) and Line 1 are present, OR – If the Control line is present and Line 1 intensity is greater than Line 2 intensity
+
+![](images/c632e1666c1112d464f4ab1714d1584a62f967dd99203f4ec8561e5916aa7d67.jpg)
+
+Report the specimen to be presumptive positive for influenza A/H5 virus and notify immediately the appropriate local, state or federal public health authorities to coordinate transfer of the specimen for additional testing.
+
+# Test is Invalid
+
+– If no Control line (C) is present, OR   
+– If the Control line is present and both Line 1 and Line 2 intensities are greater than Control Line intensity (proceed immediately to section VI).
+
+![](images/4f156cdda9cd8972e1cbf0dee628c527cb8baa462a30b2c624e15870afe39b1a.jpg)
+
+# ADDITIONAL INSTRUCTIONS FOR INVALID SAMPLES
+
+IMPORTANT: For an invalid test which shows both Line 1 and Line 2 intensities are greater than Control Line intensity, dilute sample 1:10 in M4 VTM and repeat the AVantage™ A/H5N1 Flu Test with the diluted sample. This result may occur with samples having high viral concentrations such as viral culture specimens.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+# Within Laboratory Precision
+
+The within laboratory precision of the AVantage™ A/H5N1Flu Test was demonstrated by conducting within-laboratory testing of full length recombinant protein H5N1 NS1 analyte (A/Viet Nam/1194/2004 (H5N1) isolate) spiked into M4 VTM at "high negative", "low positive", and a "moderate positive" concentrations.
+
+1. High Negative $\left( \mathbf { C } _ { 5 } \right)$ $4 { \mathrm { p g } } { \mathrm { N S 1 / 1 0 0 } } { \mu \mathrm { L } }$ M4   
+2. Low positive $\left( \mathrm { C } _ { 9 5 } \right)$ 9 pg NS1/100 µL M4   
+3. Moderate positive $( 2 . 7 ^ { * } \mathrm { C } _ { 9 5 } )$ 24 pg NS1/100 µL M4
+
+The tests were conducted at Arbor Vita Corporation over 12 days, two runs per day, in duplicate per H5N1 NS1 analyte concentration, for a total of 48 tests per analyte level. A Negative control was included in each run.
+
+# Summary of Within Lab Precision Results
+
+<table><tr><td rowspan=1 colspan=1>Sample Type</td><td rowspan=1 colspan=1>Recombinant H5N1 NS1Positive</td></tr><tr><td rowspan=1 colspan=1>High Negative</td><td rowspan=1 colspan=1>4+/48</td></tr><tr><td rowspan=1 colspan=1>Low Positive</td><td rowspan=1 colspan=1>46+/48</td></tr><tr><td rowspan=1 colspan=1>Moderate Positive</td><td rowspan=1 colspan=1>48+/48</td></tr><tr><td rowspan=1 colspan=1>Negative Control</td><td rowspan=1 colspan=1>0+/24</td></tr></table>
+
+Performance of the assay was consistent with the Negative Control yielding $100 \%$ negative results, the High Negative sample yielding $8 \%$ positive results while the Low Positive and Moderate Positive samples respectively yielded $9 6 \%$ and $100 \%$ positive results.
+
+# Reproducibility
+
+The reproducibility of the AVantage™ A/H5N1 Flu Test was determined by measuring the consistency of assay performance using the full length recombinant protein H5N1 NS1 analyte (A/Viet Nam/1194/2004 (H5N1) isolate) spiked in M4 VTM at levels of 0.4xLoD (High Negative), 2.7xLoD (Moderate Positive) and 4xLoD (High Positive). Since the nonstructural protein 1 (NS1 protein) is not part of the intact virion but rather is expressed in infected cells and released into secretions and/or media, recombinant NS1 protein expressed in mammalian cells was used for the reproducibility study. Due to safety concerns a reproducibility study with live H5N1 virus infected cells was not performed.
+
+The testing was conducted over five days at three sites with two operators at each site. A Negative control was included in each run. On the fifth day an additional Challenge Sample was tested at each site. This sample had no H5N1 NS1 protein but did include $2 5 0 \mathrm { p g } / 1 0 0 \mu \mathrm { L }$ of recombinant H1N1 NS1 protein (A/Taiwan/112/1996(H1N1)).
+
+# Summary of Reproducibility Study Results
+
+Results of interpretations at each site and for each sample type are combined for each operator across the five different days of testing. Visual interpretations are designated as negative $( - )$ or positive $( + )$ .
+
+<table><tr><td rowspan=1 colspan=1>Site</td><td rowspan=1 colspan=1>Operator</td><td rowspan=1 colspan=1>NegativeControl</td><td rowspan=1 colspan=1>HighNegative</td><td rowspan=1 colspan=1>ModeratePositive</td><td rowspan=1 colspan=1>HighPositive</td><td rowspan=1 colspan=1>ChallengeSample</td></tr><tr><td rowspan=2 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>3-/3</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>14-/15</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>14+/15</td><td rowspan=1 colspan=1>3-/3</td></tr><tr><td rowspan=2 colspan=1>2</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>3-/3</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>3-/3</td></tr><tr><td rowspan=2 colspan=1>3</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>3-/3</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15-/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>15+/15</td><td rowspan=1 colspan=1>3-/3</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>89-/90</td><td rowspan=1 colspan=1>90-/90</td><td rowspan=1 colspan=1>90+/90</td><td rowspan=1 colspan=1>89+/90</td><td rowspan=1 colspan=1>18-/18</td></tr></table>
+
+b. Linearity/assay reportable range: Not applicable, qualitative assay   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+# Assay Controls
+
+Quality Control requirements must be performed in conformance with local, state, and/or federal regulations or accreditation requirements and a laboratory’s standard quality control procedures. It is recommended that the user refer to CLSI document C24-A3.
+
+Each AVantage™ A/H5N1 Flu Test Kit contains an internal procedural positive control. When running the test, the appearance of a red Control Line in each test indicates proper function of the buffer reagents, capillary flow, and functional integrity of the test strip within the cassette. If the Control Line does not appear, the test is considered Invalid.
+
+External positive control provided with the kit contains a non-pathogenic, lyophilized pellet of recombinant NS-1 protein that must be reconstituted in M4 (VTM) solution prior to use.
+
+External negative control is not provided with the kit. M4 Viral Transport Media (Remel) should be used as the negative control sample. The kit should not be used if external control tests do not produce the correct results.
+
+# d. Detection limit:
+
+# Analytical Sensitivity
+
+The Limit of Detection (LoD) was determined using a full length recombinant NS1 protein from Influenza A virus (A/Viet Nam/1194/2004 (H5N1) clade 1 and two H5N1 clade 2.2 cultured viruses derived from clinical specimens. The LoD was calculated as the lowest detectable level of the analyte at which approximately $9 5 \%$ of all replicates tested positive using visual interpretation.
+
+Serial dilutions of the recombinant H5N1 NS1 protein in M4 medium were prepared and tested in the AVantage™ A/H5N1 Flu Test assay in replicates of four. The lowest dilution $1 2 ~ \mathrm { p g / 1 0 0 \mu L }$ expected to yield $4 / 4$ positive results from this titration was then chosen as the nominal (N) and three additional dilutions with concentrations N, 0.5N and 0.75N were prepared. Each of these concentrations and a negative control were tested in replicates of 20 with the AVantage™ A/H5N1 Flu Test. The LoD was determined to be $9 \ : \mathrm { p g / 1 0 0 \ : \mu L }$ .
+
+Summary of AVantage™ A/H5N1 Flu Test LoD Results Determination with Recombinant NS1 Protein   
+
+<table><tr><td rowspan=1 colspan=1>Concentration H5N1 NS1pg NS1/100 µL</td><td rowspan=1 colspan=1>Visual Interpretation Results</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0+/5</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7+/20</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>20+/20</td></tr><tr><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>20+/20</td></tr></table>
+
+Two cultured H5N1 strains derived from positive human specimens were serially diluted by a factor of 10 and tested to obtain an initial approximation of LoD. Based on the preliminary results the specimens were further diluted 1/50, 1/100, and 1/200 in a background of Negative Clinical Pool (NCP) and tested in triplicate to determine the LoD. Additional 20 replicates of the 1/100 and 1/200 dilutions were tested to confirm the LoD.
+
+Summary of AVantage™ A/H5N1 Flu Test LoD Results Determination with Viral Cultures in a Negative Clinical Pool   
+
+<table><tr><td rowspan=1 colspan=1>Influenza A Virus Isolate Name</td><td rowspan=1 colspan=1>Dilution1:100</td><td rowspan=1 colspan=1>Viral Titer,TCID50/mL</td></tr><tr><td rowspan=1 colspan=1>A/Egypt/14724-NAMRU3/2006(H5N1)</td><td rowspan=1 colspan=1>20+/20</td><td rowspan=1 colspan=1>36</td></tr><tr><td rowspan=1 colspan=1>A/Egypt/3158-NAMRU3/2008(H5N1)</td><td rowspan=1 colspan=1>20+/20</td><td rowspan=1 colspan=1>134</td></tr></table>
+
+Note: Sample A/Egypt/14724-NAMRU3/2006(H5N1) with LoD of 36 $\mathrm { T C I D } _ { 5 0 } / \mathrm { m L }$ corresponds to a NS1 protein concentration of $3 0 { \mathrm { p g } } { \mathrm { N S 1 / 1 0 0 } } { \mu \mathrm { L } }$ ; Sample A/Egypt/3158-NAMRU3/2008(H5N1) with LoD of $1 3 4 \mathrm { T C I D } _ { 5 0 } / \mathrm { m L }$ corresponds to an NS1 protein concentration of $2 7 \mathrm { p g / l 0 0 \mu L }$ .
+
+# e. Analytical specificity:
+
+Analytical specificity of the AVantage™ A/H5N1 Flu Test was evaluated with respect to 1) reactivity (inclusivity) with a number of human-derived cultured viruses and full length NS1 recombinant proteins representing geographically diverse H5N1 viruses 2) potential cross-reactivity with non-influenza pathogens associated with respiratory tract infections and 3) potential interference by substances commonly encountered in nasal and throat specimens.
+
+# 1) Reactivity/Inclusivity
+
+Clinical reactivity of AVantage™A/H5N1 Flu Test with H5N1 viruses from Clade 2.2 was demonstrated by testing 24 independent viral culture samples all identified as Clade 2.2. The NS1 protein PDZ Ligand (or PL) from Clade 2.2 H5N1 viruses is predominantly ESEV $( 9 9 \% )$ with rare instances of ESEI PL.
+
+Confirmed A/H5N1 Positive Specimens Tested with AVantage™ A/H5N1 Flu Test   
+
+<table><tr><td rowspan=1 colspan=1>WHO ID #</td><td rowspan=1 colspan=1>Isolate Name</td><td rowspan=1 colspan=1>Reference</td></tr><tr><td rowspan=1 colspan=1>2008902289</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/2289-NAMRU3/2008(H5N1))</td><td rowspan=1 colspan=1>http//h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2006902782</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/2782-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://www.who.int/csr/disease/influenza/tree_large.pdf</td></tr><tr><td rowspan=1 colspan=1>2008903401</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/3401-NAMRU3/2008(H5N1))</td><td rowspan=1 colspan=1>http:/h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2008902546</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/2546-NAMRU3/2008(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2006903458</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/3458-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://www.who.int/csr/disease/influenza/tree_large.pdf</td></tr><tr><td rowspan=1 colspan=1>2006902786</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/2786-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://www.who.int/csr/disease/influenza/tree_large.pdf</td></tr><tr><td rowspan=1 colspan=1>2007904082</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/4082-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2007910211</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/10211-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2006902838</td><td rowspan=1 colspan=1>Influenza A virus (A/Azerbaijan/008-208/2006(H5N1))</td><td rowspan=1 colspan=1>http:/www.who.int/csr/disease/influenza/tree_large.pdf</td></tr><tr><td rowspan=1 colspan=1>2006902834</td><td rowspan=1 colspan=1>Influenza A virus (A/Azerbaijan/006-207/2006(H5N1))</td><td rowspan=1 colspan=1>ht:/ww.who.in/r/disease/iuenza/teelar.pdf</td></tr><tr><td rowspan=1 colspan=1>2007904226</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/4226-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2006902991</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/2991-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2006902992</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/2992-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2006914724</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/14724-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://www.who.int/csr/disease/influenza/treelarge.pdfhttp://h5n1.flugenome.org/showsubtypes.php</td></tr><tr><td rowspan=1 colspan=1>2006914725</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/14725-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://www.who.int/csr/disease/influenza/tree_large.pdfhttp://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2008901980</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/1980-NAMRU3/2008(H5N1))</td><td rowspan=1 colspan=1>http:/h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2007901902</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/1902-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2007902321</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/2321-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>http://www.who.int/csr/disease/avian_influenza/guidelines/H5VaccineVirusUpdate20080214.pdf</td></tr><tr><td rowspan=1 colspan=1>2008903300</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/3300-NAMRU3/2008(H5N1))</td><td rowspan=1 colspan=1>http://www.who.int/csr/disease/avian_influenza/guidelines/200809 H5VaccineVirusUpdate.pdf</td></tr><tr><td rowspan=1 colspan=1>2008903158</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/3158-NAMRU3/2008(H5N1))</td><td rowspan=1 colspan=1>http//h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2007910216</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/10216-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>http:/h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2007910217</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/10217-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>Sequence not yet in GenBank</td></tr><tr><td rowspan=1 colspan=1>2006900207</td><td rowspan=1 colspan=1>Influenza A virus (A/human/Iraq/207-NAMRU3/2006(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr><tr><td rowspan=1 colspan=1>2007910215</td><td rowspan=1 colspan=1>Influenza A virus (A/Egypt/10215-NAMRU3/2007(H5N1))</td><td rowspan=1 colspan=1>http://h5n1.flugenome.org/show_subtypes.php</td></tr></table>
+
+Analytical reactivity of the AVantage™ A/H5N1 Flu Test with H5N1 viruses from Clades 1, 2.1, 2.2, and 2.3 was further demonstrated by testing full length recombinant NS1 proteins containing the PLs ESKV, ESEV, and ESEI.
+
+# 2) Cross-Reactivity
+
+The AVantage™ A/H5N1 Flu Test was evaluated for potential cross-reactivity (analytical specificity) with a total of 21 bacterial and 28 viral isolates representing common respiratory pathogens or flora commonly present in nasal and throat clinical specimens. The bacterial isolates were tested at concentrations of approximately $1 . 5 \mathrm { x } 1 0 ^ { 8 }$ cfu/mL. The viral isolates were tested at concentrations of $\mathrm { 1 \dot { 0 } ^ { 4 } - 1 0 ^ { 9 } T C i D _ { 5 0 } / m L }$ , or $1 0 ^ { 2 } - 1 0 ^ { 4 } \mathrm { C E I D } _ { 5 0 } / \mathrm { m L }$ . Testing for each organism was performed in triplicate. None of the pathogens tested exhibited cross-reactivity with the assay.
+
+# Bacterial Panel:
+
+<table><tr><td>Bacteroides fragilis Bordetella pertussis Corynebacterium xerosis Escherichia coli Haemophilus influenzae Lactobacillus casei Legionella pneumonphila Moraxella catarrhalis Mycoplasma pneumoniae Neisseria meningitidis Neisseria mucosa</td><td>Peptostreptococcus anaerobius Porphyromonas asaccharolyticus Pseudomonas aeruginosa Staphylococcus aureus Staphylococcus epidermidis Streptococcus pneumoniae Streptococcus pyogenes Group.A Streptococcus salivarius Streptococcus sp. Group B Streptococcus sp. Group C</td></tr></table>
+
+# Viral Panel
+
+<table><tr><td>Adenovirus, Type 2 Adenovirus Type 3 Adenovirus Type 7 Adenovirus Type 14 Coronavirus OC 43 Coronavirus 299E Coxsackievirus Type A9 Coxsackievirus Type B5 Cytomegalovirus Echovirus Type 2 Echovirus Type 3 Echovirus Type 6 Enterovirus Herpes simplex virus Type 1</td><td>Measles virus Mumps virus Parainfluenza virus Type 1 Parainfluenza virus Type 2 Parainfluenza virus Type 3 Rhinovirus Type 1A Respiratory Syncytial virus Type A Respiratory Syncytial virus Type B A2/Wisconsin/67/2005 (H3N2-like) A/Hiroshima/52/2005 (H3N2-like) A/Port Chalmers/1/73 (H3N2) A/PR8/34 (H1N1)</td></tr></table>
+
+# Bioinformatic Analysis and AVantage™ A/H5N1 Flu Test Inclusivity and Cross Reactivity
+
+There have been reported cases of humans infected with pathogenic influenza A H7N3, H7N7, and H7N2 subtypes. Based on bioinformatics analysis of the full length NS1 sequences from H7 viruses isolated from humans, the AVantage™ A/H5N1 Flu Test will likely detect samples from such cases as positive. Out of four (4) NS1 PL sequences available in GenBank, two (2) H7N7 NS1 PLs are ESEV, one (1) H7N3 NS1 PL is ESEV, and one (1) H7N2 NS1 PL is ESEI (11). The performance of the AVantage™ A/H5N1 Flu Test with specimens obtained from humans infected with these viruses has not been established.
+
+The AVantage ™ A/H5N1 Flu Test detects the H5N1 influenza virus NS1 protein by its C-terminal PDZ-ligand sequence (or PL). The PL sequence distribution among influenza A subtypes supports high specificity for all tested H5N1 with no cross reactivity with other subtypes. As shown in the tables, for each subtype there is a predominant NS1 PL sequence in isolates found throughout the world and over time. In addition, these sequences include many strains, suggesting that the PL is highly invariant. The PLs found in H1 and H3 are biochemically distinct from those observed in H5N1. The H1/H3 PLs have been demonstrated to bind to PDZs with different affinities relative to H5N1. In the clinical study 168 patient samples positive for seasonal influenza were tested using the AVantage ™ A/H5N1 Flu Test without any false positive results for H5N1.
+
+# Temporal Distribution of PLs
+
+(Analysis of $6 4 4 ^ { * }$ H1N1 and $1 6 4 7 ^ { * * }$ H3N2 NS1 Sequences)
+
+Geographical Distribution of PLs (Analysis of $6 4 4 ^ { * }$ H1N1 and $1 6 4 7 ^ { * * }$ H3N2 NS1 Sequences)   
+
+<table><tr><td rowspan=1 colspan=1>Year</td><td rowspan=1 colspan=1>Subtype(# seqs)</td><td rowspan=1 colspan=1>RSEV</td><td rowspan=1 colspan=1>RSEI</td><td rowspan=1 colspan=1>RSKV</td><td rowspan=1 colspan=1>ESEV</td><td rowspan=1 colspan=1>RSKI</td></tr><tr><td rowspan=2 colspan=1>1918-1954</td><td rowspan=1 colspan=1>H1N1 (25)</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2 (0)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=2 colspan=1>1970-1994</td><td rowspan=1 colspan=1>H1N1 (6)</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2 (140)</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=2 colspan=1>1995-2005</td><td rowspan=1 colspan=1>H1N1 (304)</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2 (1358)</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>99%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>1%</td></tr><tr><td rowspan=2 colspan=1>2006</td><td rowspan=1 colspan=1>H1N1 (13)</td><td rowspan=1 colspan=1>85%</td><td rowspan=1 colspan=1>15%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2 (29)</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=2 colspan=1>2007</td><td rowspan=1 colspan=1>H1N1 (299)</td><td rowspan=1 colspan=1>78%</td><td rowspan=1 colspan=1>22%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2 (108)</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>99%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>1%</td></tr><tr><td rowspan=2 colspan=1>2008</td><td rowspan=1 colspan=1>H1N1 (0)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NA</td></tr><tr><td rowspan=1 colspan=1>H3N2 (12)</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=7>* includes 96 different H1N1 strains** includes 161 different H3N2 strains</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=1>Region</td><td rowspan=1 colspan=1>Subtype</td><td rowspan=1 colspan=1>RSEV</td><td rowspan=1 colspan=1>RSEI</td><td rowspan=1 colspan=1>RSKV</td><td rowspan=1 colspan=1>ESEV</td><td rowspan=1 colspan=1>RSKI</td></tr><tr><td rowspan=2 colspan=1>Asia</td><td rowspan=1 colspan=1>H1N1</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=2 colspan=1>Europe</td><td rowspan=1 colspan=1>H1N1</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=2 colspan=1>N. America</td><td rowspan=1 colspan=1>H1N1</td><td rowspan=1 colspan=1>84%</td><td rowspan=1 colspan=1>16%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>98%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>2%</td></tr><tr><td rowspan=2 colspan=1>Oceania</td><td rowspan=1 colspan=1>H1N1</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>H3N2</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0%*</td></tr><tr><td rowspan=1 colspan=7>* includes 96 different H1N1 sstrains** includes 161 different H3N2 strains</td></tr></table>
+
+# 3) Interference
+
+Substances commonly encountered in nasal and throat specimens were tested at clinically relevant concentrations for their potential inhibitory effect on the performance of the AVantage™ A/H5N1 Flu Test. The recombinant H5N1 NS1 protein was spiked into the interfering substance solution to a final concentration of $2 4 ~ \mathrm { p g / l 0 0 \mu L }$ (2.7xLoD) and tested in triplicate. Listed below are the substances and concentrations at which they were tested.
+
+<table><tr><td rowspan=1 colspan=1>Potentially Interfering Substances</td><td rowspan=1 colspan=1>Concentration Tested</td></tr><tr><td rowspan=1 colspan=1>Whole blood</td><td rowspan=1 colspan=1>2%</td></tr><tr><td rowspan=1 colspan=1>Mucin</td><td rowspan=1 colspan=1>500 μg/mL</td></tr><tr><td rowspan=1 colspan=1>Mouthwash (Scope®)</td><td rowspan=1 colspan=1>25%</td></tr><tr><td rowspan=1 colspan=1>Dextromethoraphan (Robitussin®)</td><td rowspan=1 colspan=1>5 mg/mL</td></tr><tr><td rowspan=1 colspan=1>Acetaminophen (Tylenol®)</td><td rowspan=1 colspan=1>10 mg/mL</td></tr><tr><td rowspan=1 colspan=1>Throat lozenge (Cepacol® - cetypyridium chloride,benzocaine and menthol)</td><td rowspan=1 colspan=1>25%</td></tr><tr><td rowspan=1 colspan=1>Oxymetazoline (Afrin®)</td><td rowspan=1 colspan=1>10%</td></tr><tr><td rowspan=1 colspan=1>Erythromycin</td><td rowspan=1 colspan=1>20 μg/mL</td></tr><tr><td rowspan=1 colspan=1>Nasal corticosteroids (triamcinolone)</td><td rowspan=1 colspan=1>25 mg/mL</td></tr><tr><td rowspan=1 colspan=1>Zanamivir (Relenza®)</td><td rowspan=1 colspan=1>1 mg/mL</td></tr><tr><td rowspan=1 colspan=1>Phenyephrine (Neosynephrine®)</td><td rowspan=1 colspan=1>100 mg/mL</td></tr><tr><td rowspan=1 colspan=1>Diphenhydramine (Benadryl®)</td><td rowspan=1 colspan=1>1 mg/mL</td></tr><tr><td rowspan=1 colspan=1>Luffa operculata, Galphimia glauca, Histaminumhydrochloricum and sulfur (Zicam®)</td><td rowspan=1 colspan=1>1%</td></tr><tr><td rowspan=1 colspan=1>Rimantadine</td><td rowspan=1 colspan=1>250 ng/mL</td></tr></table>
+
+None of the substances tested had an inhibitory effect on assay performance.
+
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+Not applicable, performance of the assay was evaluated in comparison to the gold standard/reference method, viral culture followed by Immunoflourescence Assay (IFA) and hemagglutinin inhibition (HAI) for subtyping of influenza A positive specimens.
+
+b. Matrix comparison: Not applicable
+
+# 3. Clinical studies:
+
+The performance of the AVantage™ A/H5N1Flu Test was assessed in a prospective clinical study during the 2007-2008 influenza season (December 07- March 08). Due to the rare occurrence of H5N1 infection, 27 retrospective specimens from infected individuals collected in the course of WHO/NAMRU-3 (World Health Organization; Naval Medical Research Unit-3) pandemic surveillance and response activities were tested to demonstrate the performance of the AVantage™ A/H5N1 Flu Test in detecting the influenza A/H5N1 virus.
+
+a and b. Clinical Sensitivity and Specificity:
+
+# Prospective Study
+
+A total of 464 symptomatic subjects were recruited from four clinics at three US sites into a respiratory illness surveillance study conducted by the Naval Health Research Center (NHRC). Of these 464 subjects, 110 had influenza infection, 73 subjects had Influenza A (113 positive specimens) and 37 subjects had Influenza B (55 positive specimens). Swab sample collection was attempted from two anatomical sites, nasal and throat, for each subject. For twenty subjects only one sample was obtained (15 nasal only, 5 throat only), resulting in a total of 908 specimens. The reference method was viral culture followed by Immunoflourescence Assay (IFA) based on unlabeled influenza A or B specific mouse monoclonal antibody visualized with fluorescein-labeled anti-mouse polyclonal antibodies. The hemagglutinin inhibition (HAI) assay was used for subtyping of influenza A positive specimens.
+
+Of the 908 samples tested, invalid results were reported for 13 samples, $( 1 . 4 \% )$ and were not included in the analyses. A total of 895 sample results were included in the study.
+
+Clinical Sensitivity and Specificity Performance Summary - Prospective Specimens   
+
+<table><tr><td rowspan=2 colspan=1>NHRCComparisonResults</td><td rowspan=1 colspan=4>Virus Culture (Gold Standard) Results</td><td rowspan=2 colspan=1>Performance</td></tr><tr><td rowspan=1 colspan=1>H5N1 (+)</td><td rowspan=1 colspan=1>Influenza A(+)H5N1 (-</td><td rowspan=1 colspan=1>Influenza B(+)H5N1-</td><td rowspan=1 colspan=1>InfluenzaA&amp;B (-)H5N1 (-</td></tr><tr><td rowspan=1 colspan=1>AVantageTMA/H5N1Flu TestPositive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>N/A*</td></tr><tr><td rowspan=1 colspan=1>AVantageTMA/H5N1Flu TestNegative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>113</td><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>727</td><td rowspan=1 colspan=1>Specificity 100%95% CI= (99.57%;100%)</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>113**</td><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>727</td><td rowspan=1 colspan=1></td></tr></table>
+
+Sample status was confirmed by IFA and HAI. \* No true positive samples were identified by Gold Standard methods.
+
+\*\* 8 samples were not subtyped by IFA or HAI, but were determined to be H3 by Lightcycler RT-PCR using primers developed by the Air Force Institute of Operational Health.
+
+# Retrospective Study
+
+Due to the rare occurrence of H5N1 infection and the absence of infection in the United States, a formal prospective clinical evaluation of human and/or avian influenza A/H5N1 virus could not be accomplished. To demonstrate performance of the AVantage™ A/H5N1 Flu Test detecting influenza A/H5N1 virus retrospective specimens from infected individuals collected in the course of WHO/NAMRU-3 pandemic surveillance and response activities were tested. All isolates were classified as Clade 2.2 and were part of the CDC global H5N1 repository.
+
+The 24 human-derived H5N1 viral culture specimens were grown in MDCK cells or eggs. Included in the study were three H5N1 negative samples. Study personnel were blinded to the true H5N1 status. The reference method used to verify H5N1-positive status of the viral culture samples was HAI. Eleven of these specimens were from first passage cultures, and 13 of the specimens were from second passage cultures. The study was conducted at a BSL-3 facility.
+
+Influenza A/H5N1 Testing with Retrospective Specimens   
+
+<table><tr><td rowspan=2 colspan=1>NAMRU-3ComparisonResults</td><td rowspan=1 colspan=2>Virus Culture (Gold Standard)Results</td><td rowspan=1 colspan=1>Performance</td></tr><tr><td rowspan=1 colspan=1>H5N1 (+)</td><td rowspan=1 colspan=1>H5N1 (-)</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>AVantageTMA/H5N1Flu Test Positive</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>100%Positive Agreement*95% CI = (86.2%, 100% )</td></tr><tr><td rowspan=1 colspan=1>AVantageTMA/H5N1Flu Test Negative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>100% Negative Agreement95% CI = (43.8%, 100% )</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1></td></tr></table>
+
+$\ast 4 / 2 4$ samples $( 1 7 \% )$ produced invalid results due to high signal intensities in the initial test. The samples were diluted and retested yielding positive results.
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range:
+
+Outbreaks of Avian influenza infections in humans are very rare, but localized cases of the Avian Flu (H5N1 subtype) have been documented in various regions of the world, including the Middle East (Egypt, Iraq), Asia and Africa. As of September 2008, 387 cases of human H5N1 infection have been observed worldwide, primarily in Indonesia, Vietnam, Egypt, China, and Thailand. The mortality rate has been over $60 \%$ among those infected. The World Health Organization is tracking the outbreaks of the virus and coordinating the global response to human cases of H5N1 avian influenza http://www.who.int/csr/disease/avian_influenza/en/
+
+The definitive identification of influenza A/H5 either directly from patient specimens or from viral cultures requires additional laboratory testing, along with clinical and epidemiological assessment in consultation with national influenza surveillance experts.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+Select References
+
+1. CDC website (http://www.cdc.gov/flu/avian/gen-info/facts.htm)   
+2. Obenauer et al, Science 17 March 2006, Vol. 311. no. 5767, pp. 1576 – 1580   
+3. Antigenic and genetic characteristics of H5N1 viruses and candidate H5N1 vaccine viruses developed for potential use in human vaccines. September 2008. http://www.who.int/csr/disease/avian_influenza/guidelines/200809_H5VaccineVirusU pdate.pdf   
+4. CDC website (http://www.cdc.gov/flu/avian/professional/#keyfacts)   
+5. United States Department of Health and Human Services. "Laboratory Diagnostics. Supplement 2 to HHS Pandemic Influenza Plan," Washington D.C, November 2005, [cited 12 January 2006], http://www.hhs.gov/pandemicflu/plan/   
+6. World Health Organization, "Avian Influenza, Including Influenza A (H5N1), in Humans: WHO Interim Infection Control Guideline for Health Care Facilities," http://www.who.int/csr/disease/avian_influenza/guidelines/infectioncontrol1/en/   
+7. United States Food and Drug Administration, "Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Test," http://www.fda.gov/cdrh/osb/guidance/1620.html   
+8. United States Food and Drug Administration , “Cautions in Using Rapid Tests for Detecting Influenza A Viruses,” http://www.fda.gov/cdrh/oivd/tips/rapidflu.pdf   
+9. CDC website, “Biosafety in Microbiological and Biomedical Laboratories (BMBL) 4th Edition BMBL,” http://www.cdc.gov/OD/ohs/biosfty/bmbl4/bmbl4toc.htm   
+10. WHO website (http://www.who.int)   
+11. http://www.ncbi.nlm.nih.gov/genomes/FLU/Database/select.cgi   
+12. NCBI Entrez Database website (http://www.ncbi.nlm.nih.gov/protein/3318653)   
+13. NCBI Entrez Database website (http://www.ncbi.nlm.nih.gov/protein/3123565)
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

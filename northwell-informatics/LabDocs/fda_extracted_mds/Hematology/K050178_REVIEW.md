@@ -1,0 +1,130 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k050178   
+B. Purpose for Submission: New device   
+C. Measurand: Hemoglobin A1c   
+D. Type of Test: Quantitative   
+E. Applicant: General Atomics/Diazyme Laboratories   
+F. Proprietary and Established Names: Diazyme HbA1c Enzymatic Assay
+
+# G. Regulatory Information:
+
+1. Regulation section:
+
+21 CFR 864.7470, Glycosylated Hemoglobin Assay   
+21 CFR 862.1150, Calibrator   
+21 CFR 862.1660, Quality Control Material (Assayed and Unassayed)
+
+2. Classification: Assay and Calibrator – Class II Controls – Class I
+
+3. Product code: LCP, Glycosylated Hemoglobin JIS, Calibrator, Primary
+
+# JJX, Single (Specified) Analyte Controls (Assayed and Unassayed)
+
+4. Panel: Assay – Hematology (HE) Calibrator and Control – Chemistry (CH)
+
+# H. Intended Use:
+
+1. Intended use(s): See Indications for Use below
+
+2. Indication(s) for use:
+
+The Diazyme HbA1c Enzymatic Assay is intended for the quantitative determination of stable HbA1c (glycated hemoglobin A1c) in human whole blood samples. Measurement of HbA1c is a valuable indicator for long term diabetic control.
+
+3. Special conditions for use statement(s): N/A
+
+4. Special instrument requirements: Hitachi 717 application sheet provided
+
+# I. Device Description:
+
+The Diazyme Hemoglobin A1c Enzymatic Assay contains reagents for the quantitative analysis of glycated hemoglobin A1c and total hemoglobin in whole blood. The $\%$ hemoglobin A1c is then calculated as the ratio of HbA1c to total hemoglobin. The assay contains calibrators and controls will be available.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Tosoh Medics G7 Automated Hemoglobin A1c Assay
+
+2. Predicate 510(k) number(s): k011434
+
+3. Comparison with predicate:
+
+Same intended use and utility. They differ in type of test, with the predicate being an ion exchange HPLC assay.
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+None were referenced
+
+# L. Test Principle:
+
+Lysed whole blood samples are subjected to extensive protease digestion. This process releases amino acids including glycated valines from the hemoglobin beta chains. Glycated valines then serve as a substrate for fructosyl valineoxidase (FVO) enzyme which specifically cleaves N-terminal valines and produces hydrogen peroxide. The hydrogen peroxide is measured using a peroxidase catalyzed reaction and a suitable chromagen. Total hemoglobin is determined separately by conversion of all hemoglobin derivatives of the samples into hematin using an alkaline method as described in Zander et al (1984).
+
+Fresh whole blood samples are treated with lysis reagent to release hemoglobin. The same lysate is then subjected to two parallel tests. The first determines glycated hemoglobin (GHb) content and the second test determines total hemoglobin (THb) content of the samples. The A1c concentration is expressed as a concentration ratio of glycated hemoglobin to total hemoglobin.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+Precision studies were conducted by testing a low and high control 14 times each for intra-assay precision and in twenty runs for inter-assay precision.
+
+Intra-assay
+
+<table><tr><td></td><td>Level 1 (5.3% HbA1c)</td><td>Level 2 (12% HbA1c)</td></tr><tr><td>Mean</td><td>5.3%</td><td>11.9%</td></tr><tr><td>SD</td><td>0.3</td><td>0.2</td></tr><tr><td>CV%</td><td>3.5</td><td>1.6</td></tr></table>
+
+Inter-assay
+
+<table><tr><td>Mean</td><td>5.3% 12.04%</td></tr><tr><td>SD</td><td>0.3 0.9</td></tr><tr><td>CV%</td><td>5.0 7.2</td></tr></table>
+
+# b. Linearity/assay reportable range:
+
+Six samples were prepared by dilution of a sample with a known concentration of HbA1c of $1 5 . 7 \%$ . The diluent was a whole blood sample with a known value of $4 . 2 \%$ HbA1c. The assay was determined to be linear from $4 . 0 - 1 6 . 0 \%$ HbA1c.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+The firm has not applied for certification by the National Glycohemoglobin Standardization Program (NGSP).
+
+Accelerated and open vial stability are provided for the reagents. Value assignment, verification, and stability are provided for controls and calibrators which are to be sold separately. Values are obtained by replicate analysis using the listed manufacturer method and reagent lots available at the time of value assignment.
+
+d. Detection limit:
+
+See linearity in section b above.
+
+e. Analytical specificity:
+
+The effects of triglycerides, bilirubin, ascorbic acid, uric acid, and glucose were confirmed by analysis of whole blood samples spiked with $2 0 0 0 \mathrm { m g / d L }$ triglycerides, $1 0 \mathrm { m g / d L }$ bilirubin, $4 \mathrm { m g / d L }$ ascorbic acid, $5 \mathrm { m g / d L }$ uric acid and $2 4 0 0 \mathrm { m g / d L }$ glucose. The results showed $< 1 0 \%$ interference for each substance at the levels tested.
+
+f. Assay cut-off: N/A
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+Seventy four whole blood samples ranging from $4 . 2 \% \cdot$ - $1 5 . 7 \%$ HbA1c were compared to Tosoh Medics G7 HbA1c assay on the Hitachi 717. Linear regression was $\mathbf { y } = 1 . 0 1 \mathbf { x } - 0 . 2 4$ , $\Gamma = 0 . 9 2$ .
+
+$^ b$ . Matrix comparison: N/A
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: N/A
+
+b. Clinical specificity: N/A   
+c. Other clinical supportive data (when a. and b. are not applicable): N/A
+
+4. Clinical cut-off:
+
+N/A
+
+5. Expected values/Reference range:
+
+non diabetics $3 \text{‰}$   
+controlled diabetics $6 \mathrm { - } 9 \%$   
+primary treatment goal - $7 \%$   
+- referenced from The American Diabetes Association (ADA) guidelines, 1999
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

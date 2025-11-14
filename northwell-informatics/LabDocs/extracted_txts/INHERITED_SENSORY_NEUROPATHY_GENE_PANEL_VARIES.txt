@@ -1,0 +1,129 @@
+Standard Operating Procedures (SOPs) for the Analytical Phase of
+Generating Results for INHERITED SENSORY NEUROPATHY
+GENE PANEL, VARIES
+1. PURPOSE
+The purpose of this protocol is to provide detailed instructions for the
+analytical phase of generating results for the Inherited Sensory
+Neuropathy Gene Panel. This ensures the accuracy, reliability, and
+consistency of data interpretation and reporting of genetic variants
+associated with inherited sensory neuropathies.
+2. SCOPE
+This SOP applies to all laboratory personnel involved in the analytical
+process for the Inherited Sensory Neuropathy Gene Panel within the
+molecular genetics laboratory.
+3. RESPONSIBILITY
+• Technologists: Responsible for performing the analytical
+procedures as outlined, including DNA extraction, quantification,
+library preparation, sequencing, data analysis, and variant
+interpretation.
+• Supervisors: Ensure that all steps are performed correctly and
+that any deviations are documented and addressed promptly.
+Provide guidance for troubleshooting and confirm final results
+before reporting.
+4. DEFINITIONS
+• Inherited Sensory Neuropathy: A group of genetic disorders
+characterized by sensory nerve damage leading to pain, tingling,
+or numbness, predominantly in the hands and feet.
+• Gene Panel: A targeted set of genes known to be associated with
+a particular condition, in this case, inherited sensory
+neuropathies.
+5. PROCEDURE
+A. DNA EXTRACTUON AND QUANTIFICATION
+1. Sample Preparation:
+◦ Retrieve accessioned DNA samples from storage.
+◦ Ensure samples are correctly labeled and include necessary
+documentation.
+2. DNA Extraction:
+◦ Perform DNA extraction using standard protocols such as
+phenol-chloroform extraction or commercially available kits
+(e.g., QIAamp DNA Mini Kit).
+◦ Follow kit instructions or SOPs for extraction methods.
+3. DNA Quantification and Quality Assessment:
+◦ Measure DNA concentration using a fluorometer (Qubit) or
+spectrophotometer (Nanodrop).
+◦ Assess the purity of DNA by calculating the A260/A280 ratio.
+Acceptable range: 1.8-2.0.
+◦ Evaluate DNA integrity through gel electrophoresis.
+B. LIBRARY PREPARATION AND SEQUENCING
+1. Library Preparation:
+◦ Use targeted gene enrichment methods (e.g., hybrid capture
+or amplicon-based approach) specific to the inherited
+sensory neuropathy gene panel.
+◦ Follow manufacturer’s instructions or standard protocols for
+library preparation kits (e.g., Illumina TruSeq Custom
+Amplicon Kit).
+2. Library Quantification:
+◦ Quantify prepared libraries using qPCR or fluorometric
+methods.
+◦ Pool libraries for sequencing according to concentration and
+target coverage requirements.
+3. Sequencing:
+◦ Load pooled libraries onto the sequencer following the
+manufacturer’s protocol.
+◦ Set up run parameters (e.g., read length, indexing) specific
+to the sequencing platform used (e.g., Illumina MiSeq,
+NextSeq).
+C. DATA ANALYSIS
+1. Raw Data Processing:
+◦ Transfer sequencing data to designated bioinformatics
+workstations or servers.
+◦ Perform initial quality checks using FASTQC or similar
+software.
+◦ Trim low-quality bases and adapters using tools such as
+Trimmomatic or Cutadapt.
+2. Alignment and Variant Calling:
+◦ Align reads to the human reference genome (e.g., GRCh37/
+hg19 or GRCh38) using a suitable aligner (e.g., BWA,
+Bowtie2).
+◦ Perform variant calling using software such as GATK,
+FreeBayes, or SAMtools.
+◦ Filter and annotate variants using tools like VEP, ANNOVAR,
+or SnpEff.
+3. Quality Control and Confirmation:
+◦ Review variant quality metrics (e.g., read depth, variant
+allele frequency) and filter out low-quality variants.
+◦ Confirm potentially pathogenic variants with Sanger
+sequencing or other orthogonal methods if necessary.
+D. VARIANT INTERPRETATION AND REPORTING
+1. Variant Interpretation:
+◦ Classify variants according to guidelines from ACMG (The
+American College of Medical Genetics and Genomics).
+◦ Cross-reference each variant with literature, databases
+(e.g., ClinVar, HGMD), and in-house data for clinical
+significance.
+2. Report Generation:
+◦ Compile a comprehensive report including patient
+information, method summary, identified variants,
+interpretation, and clinical recommendations.
+◦ Review and sign off the final report by a qualified clinical
+geneticist or laboratory director.
+3. Results Validation:
+◦ Ensure all results meet established validation criteria.
+◦ Document any deviations or out-of-specification results and
+implement corrective actions.
+6. QUALITY CONTROL
+• Perform standard quality control (QC) measures at each step,
+including DNA extraction efficiency, library preparation,
+sequencing run quality, and data analysis metrics.
+• Regularly calibrate and maintain equipment as per manufacturer's
+guidelines.
+• Satisfy proficiency testing requirements as per CLIA regulations
+and participate in external quality assessment schemes.
+7. RECORD KEEPING AND DOCUMENTATION
+• Maintain comprehensive logs for sample handling, reagents,
+instrumentation, and analytical procedures.
+• Store raw data, intermediate files, and final reports securely and
+ensure backup.
+• Document troubleshooting, corrective actions, and quality control
+outcomes.
+8. REFERENCES
+• ACMG Standards and Guidelines for Variant Interpretation.
+• Relevant operator manuals for DNA extraction kits, library
+preparation kits, sequencers, and bioinformatics tools.
+• In-house policy documents and previous validated protocols for
+genetic testing.
+This protocol ensures reliable and accurate detection and
+interpretation of genetic variants associated with inherited sensory
+neuropathies. Proper adherence to each step and thorough
+documentation will maintain the integrity and quality of the test
+results.

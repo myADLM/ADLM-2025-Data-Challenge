@@ -1,0 +1,92 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Protocol for HEREDITARY WILMS TUMOR PANEL,
+VARIES
+1. PURPOSE To provide a detailed and standardized procedure
+for analyzing and generating results for the Hereditary Wilms
+Tumor Panel (HWTP), ensuring accurate and reliable results,
+compliance with regulatory standards, and consistency in
+testing.
+2. SCOPE This procedure applies to all laboratory personnel
+involved in the analysis of the Hereditary Wilms Tumor Panel.
+The process begins after specimen collection, receipt, and
+accessioning, continuing through to the generation and
+reporting of results.
+3. RESPONSIBILITY All laboratory personnel performing the
+HWTP assay are responsible for adhering to this SOP.
+Supervisors are responsible for training staff, ensuring
+compliance, and addressing any deviations from the protocol.
+4. DEFINITIONS Hereditary Wilms Tumor Panel (HWTP): A
+genetic testing panel designed to detect mutations linked to
+hereditary Wilms Tumor, including aberrations in genes such as
+WT1, WTX, and other relevant markers.
+5. SPECIMEN REQUIREMENTS • Specimen Type: Peripheral
+blood (3-5 mL in EDTA tube) or buccal swab. • Transport:
+Specimens should be stored and transported at room
+temperature. • Stability: Specimens are stable for up to 72
+hours at room temperature. If delay is anticipated, refrigeration
+at 4°C is acceptable for up to 7 days. Frozen specimens must
+not be thawed and refrozen.
+6. EQUIPMENT, REAGENTS, AND SUPPLIES • Thermal cycler
+for PCR amplification. • Next-generation sequencing (NGS)
+platform. • DNA extraction kit(s) appropriate for the specimen
+type. • PCR reagents including Taq polymerase, dNTPs,
+primers specific to HWTP. • Sequencing reagents, flow cells,
+and buffers compatible with the NGS platform in use. •
+Appropriate bioinformatics software for sequence alignment,
+variant calling, and interpretation.
+7. PROCEDURE A. DNA Extraction:
+8. Follow the manufacturer’s protocol for DNA extraction from
+peripheral blood or buccal swabs.
+9. Quantify and assess the purity of extracted DNA using a
+spectrophotometer or fluorometer.
+10. Document DNA concentrations and A260/A280 ratios.
+B. PCR Amplification:
+1. Prepare the PCR reaction mix including primers specific to
+HWTP target regions.
+2. Set up the thermal cycler with the appropriate PCR program
+parameters.
+3. Perform PCR amplification and check the product using
+agarose gel electrophoresis.
+4. Confirm the presence and expected size of PCR products.
+C. Library Preparation for NGS:
+1. Follow the NGS library preparation kit's protocol specific to the
+sequencing platform.
+2. Quantify and quality-check the prepared libraries.
+D. Next-Generation Sequencing:
+1. Load the prepared library onto the NGS sequencing instrument.
+2. Configure the run parameters according to the sequencing kit
+and platform requirements.
+3. Perform sequencing.
+E. Data Analysis:
+1. Use bioinformatics tools to align sequences to the human
+reference genome (e.g., hg19 or GRCh38).
+2. Perform variant calling to identify potential mutations in the
+HWTP.
+3. Annotate and interpret the variants, focusing on pathogenic,
+likely pathogenic, uncertain significance, likely benign, and
+benign classifications.
+4. Confirm significant findings with secondary methods if
+necessary.
+5. QUALITY CONTROL • Include positive and negative controls in
+each PCR and sequencing run. • Periodically participate in
+external quality assessment schemes. • Review control results
+before reporting patient results. Re-run assays if controls fail.
+6. REPORTING RESULTS • Review the raw data, alignment, and
+variant calling reports for accuracy. • Generate a
+comprehensive report including detected genetic variants, their
+clinical significance, and recommendations for clinical
+correlation. • Reports must be reviewed and signed-off by a
+certified laboratory director or qualified personnel.
+7. DOCUMENTATION • Maintain detailed records of DNA
+extraction, PCR results, sequencing run parameters, and data
+analysis results. • All documentation should be stored according
+to laboratory policy and retained for a period compliant with
+regulatory and accreditation requirements.
+8. REFERENCES • Manufacturer’s manuals and product inserts
+for all equipment and reagents used. • Relevant scientific
+literature and guidelines for hereditary cancer genetic testing.
+9. REVIEW AND APPROVAL This SOP should be reviewed and
+approved by the laboratory director and revised annually or as
+needed for updates in technology, regulations, or procedures.
+Prepared by: [Your Name] Date: [Today's Date] Approved by:
+[Laboratory Director's Name] Date: [Approval Date]

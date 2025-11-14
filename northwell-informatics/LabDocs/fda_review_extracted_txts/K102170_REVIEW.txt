@@ -1,0 +1,1922 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K102170
+B. Purpose for Submission:
+This is a new 510k application for a qualitative Real-Time Reverse Transcription-
+Polymerase Chain Reaction (RT-PCR) assay used with the 3M Integrated Cycler
+instrument for the in vitro qualitative detection and discrimination of influenza A
+virus, influenza B virus and respiratory syncytial virus (RSV) RNA in
+nasopharyngeal swabs (NPS) from symptomatic human patients
+C. Measurand:
+Target RNA sequences for the highly conserved regions of the matrix protein genes
+of influenza A and influenza B viruses and the M gene of RSV.
+D. Type of Test:
+Real-Time Reverse Transcription-Polymerase Chain Reaction (RT-PCR) assay for
+the qualitative detection and differentiation of influenza A virus, influenza B virus
+and RSV RNA in nasopharyngeal swabs using nucleic acid isolation and
+amplification. The isolation and purification of the viral RNA is performed using
+either the MagNA Pure LC Instrument (Roche) and the MagNA Pure Total Nucleic
+Acid Isolation Kit (Roche) or the NucliSENS® easyMAGTM System (bioMérieux)
+and the Automated Magnetic Extraction Reagents (bioMérieux). The amplification
+and detection is performed on the 3M Integrated Cycler with Integrated Cycler Studio
+Software version 2.1 or higher.
+E. Applicant:
+Focus Diagnostics, Inc.
+F. Proprietary and Established Names:
+SimplexaTM Flu A/B & RSV
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 866.3980
+1
+
+--- Page 2 ---
+2. Classification:
+Class II
+3. Product code:
+OCC
+4. Panel:
+Microbiology (83)
+H. Intended Use:
+1. Intended use(s):
+The Focus Diagnostics SimplexaTM Flu A/B & RSV assay is intended for use on
+the 3M Integrated Cycler instrument for the in vitro qualitative detection and
+discrimination of influenza A virus, influenza B virus, and respiratory syncytial
+virus (RSV) RNA in nasopharyngeal swabs (NPS) from human patients with
+signs and symptoms of respiratory tract infection in conjunction with clinical and
+epidemiological risk factors. This test is intended for use as an aid in the
+differential diagnosis of influenza A, influenza B, and RSV viral infections in
+humans and is not intended to detect influenza C.
+Negative results do not preclude influenza virus or RSV infection and should not
+be used as the sole basis for treatment or other patient management decisions.
+Performance characteristics for influenza A were established during the 2010
+influenza season when 2009 H1N1 influenza was the predominant influenza A
+virus in circulation. When other influenza A viruses are emerging, performance
+characteristics may vary.
+If infection with a novel Influenza A virus is suspected based on current clinical
+and epidemiological screening criteria recommended by public health authorities,
+specimens should be collected with appropriate infection control precautions for
+novel virulent Influenza viruses and sent to state or local health department for
+testing. Viral culture should not be attempted in these cases unless a BSL 3+
+facility is available to receive and culture specimens.
+2. Indication(s) for use:
+Same as Intended Use
+3. Special conditions for use statement(s):
+2
+
+--- Page 3 ---
+For prescription use only
+4. Special instrument requirements:
+To be used with the 3M Integrated Cycler with Integrated Cycler Studio Software
+version 2.1 or higher and either a Roche MagNA Pure LC Instrument (Roche) and
+the MagNA Pure Total Nucleic Acid Isolation Kit (Roche) or a NucliSENS®
+easyMAGTM System (bioMérieux) and the Automated Magnetic Extraction
+Reagents (bioMérieux).
+I. Device Description:
+The Focus Diagnostics SimplexaTM Flu A/B & RSV assay is a multiplex Real-Time
+RT-PCR test that detects and differentiates influenza A ,influenza B, and RSV RNA
+from nasopharyngeal swabs from human patients with signs and symptoms of viral
+respiratory tract infection.
+Patient specimens are collected and placed in sterile viral transport medium
+containing protein stabilizer, antibiotics to inhibit bacterial and fungal growth, and
+buffer solution. An Internal Control (RNA IC) is added to each sample prior to
+nucleic acid extraction by either the MagNA Pure Total Nucleic Acid Isolation Kit
+(Roche) or the Automated Magnetic Extraction Reagents (bioMérieux). In the case
+of the MagNA Pure kit, it is recommended that extraction be carried out with
+qualified MagNA Pure reagent lots only; a list of these qualified extraction reagents
+will be maintained at www.focusdx.com.
+A sample of the extracted nucleic acid is added to the SimplexaTM Flu A/B & RSV
+assay reagents that contain four sets of a primer and a bi-functional fluorescent
+probe-primer. Each set of primer and bi-functional fluorescent probe-primer
+recognizes a specific target, namely, influenza A matrix gene, influenza B matrix
+gene, RSV M gene, and RNA IC. PCR amplification is carried out on the 3M
+Integratede Cycler. The fluorescence output is is analyzed and test results are
+determined using the Integrated Cycler Studio Software.
+The SimplexaTM Flu A/B & RSV kit contains Primer Mix (PM), Master Mix (MM),
+RT Mix (RT), RNA Internal Control (RNA IC), No Template Control (NTC), Flu
+A/B & RSV Positive Control (PC), Simplexa™ Flu A/B & RSV Barcode Card, and
+Package Insert.
+3
+
+--- Page 4 ---
+SimplexaTM Flu A/B & RSV Gene targets and Probe Labels:
+Gene Probe Absorbance Emission
+Analyte
+Targeted Fluorophore Peak (nm) Peak (nm)
+Influenza A Matrix FAM 495 520
+Influenza B Matrix JOE 520 548
+RSV M gene CFR610 590 610
+Internal Control (RNA IC) N/A Q670 644 670
+Interpretation of Sample Results:
+Reporting results is a three step process.
+1. Determine if the run is valid by examining the Flu A/B & RSV Positive Control,
+No Template Control, and RNA Internal Control.
+Criteria for a Valid Control (simplified)*
+Flu A Flu B RSV RNA IC
+Control
+Ct Ct Ct Ct
+No Template Control 0 0 0 ≤40, ≠0
+Not Applicable
+Positive Control ≤40, ≠0 ≤40, ≠0 ≤40, ≠0
+(N/A)
+* See notes below for full description.
+a. No Template Control:
+i. If the No Template Control is Positive (Ct value ≤40, ≠0 for Flu A, Flu B
+or RSV), then this indicates possible contamination of prepared samples.
+The control is invalid and all patient specimens must be re-assayed.
+ii. If the RNA IC is not detected in the No Template Control, the assay run is
+invalid and all patient specimens must be re-assayed.
+iii. If the No Template Control is Negative for Flu A, Flu B or RSV detector
+(Ct = 0) AND If the RNA IC is detected for the No Template Control,
+then this control is valid and acceptable.
+b. Positive Control
+i. If the Positive Control result is a Ct = 0 for Flu A, Flu B or RSV, the assay
+run is considered invalid and unacceptable. All patient specimens must be
+re-assayed.
+ii. If the Ct values for Flu A, Flu B and RSV A are ≤40, ≠0 the assay run is
+considered valid and acceptable.
+c. RNA Internal Control:
+4
+
+[Table 1 on page 4]
+Analyte	Gene
+Targeted	Probe
+Fluorophore	Absorbance
+Peak (nm)	Emission
+Peak (nm)
+Influenza A	Matrix	FAM	495	520
+Influenza B	Matrix	JOE	520	548
+RSV	M gene	CFR610	590	610
+Internal Control (RNA IC)	N/A	Q670	644	670
+
+[Table 2 on page 4]
+Control	Flu A
+Ct	Flu B RSV
+Ct Ct	RNA IC
+Ct
+No Template Control	0	0 0	≤40, ≠0
+Positive Control	≤40, ≠0	≤40, ≠0 ≤40, ≠0	Not Applicable
+(N/A)
+
+--- Page 5 ---
+i. Detection of the Simplexa™ RNA Internal Control is required to report a
+negative result.
+ii. Detection of the Simplexa™ RNA Internal Control is not required to
+report a positive result.
+2. Examination of Patient Specimen Results.
+Examination of clinical specimen results should be performed after the Positive
+and No Template Controls have been examined and determined to be valid and
+acceptable. Flu A, Flu B, RSV and RNA IC results must be examined for each
+patient specimen.
+a. Amplification plots should be examined for every result with a “Data
+Quality” message. From the Data tab, the user selects the curve to review and
+then clicks Refresh. The software will draw the selected curves and adjust
+the scale of the graph. A valid amplification curve shows a smooth,
+exponential increase. An invalid amplification curve may be a non-
+exponential or linear curve or a curve with data “spikes” where the curve may
+cross the threshold. If the curve is valid after examination, the Ct value
+reported may be used to determine if Flu A, Flu B, or RSV targets are
+detected.
+b. If the amplification curve is valid for Flu A, Flu B, or RSV, the RNA IC is
+not required to be detected to report a positive result.
+3. Interpretation of Results.
+The interpretation of the assay specimen results is as follows:
+Flu A Flu B RSV RNA IC
+Example Interpretation
+Ct value Ct value Ct value Ct value*
+Flu A, Flu B and RSV Not
+1 0 0 0 ≤40, ≠0
+Detected
+2 ≤40, ≠0 0 0 N/A Flu A Detected
+3 0 ≤40, ≠0 0 N/A Flu B Detected
+4 0 0 ≤40, ≠0 N/A RSV Detected
+5 ≤40, ≠0 ≤40, ≠0 0 N/A Flu A, Flu B Detected
+6 0 ≤40, ≠0 ≤40, ≠0 N/A Flu B, RSV Detected
+7 ≤40, ≠0 0 ≤40, ≠0 N/A Flu A, RSV Detected
+8 ≤40, ≠0 ≤40, ≠0 ≤40, ≠0 N/A Flu A, Flu B and RSV Detected
+9 0 0 0 0 Invalid, re-extract and repeat.
+Ct = cycle threshold. Detected is a Ct ≤40, ≠0. Not Detected is a Ct = 0, * Detection of the
+Simplexa™ RNA Internal Control is not required to be detected to report a positive result.
+5
+
+[Table 1 on page 5]
+Example	Flu A
+Ct value	Flu B
+Ct value	RSV
+Ct value	RNA IC
+Ct value*	Interpretation
+1	0	0	0	≤40, ≠0	Flu A, Flu B and RSV Not
+Detected
+2	≤40, ≠0	0	0	N/A	Flu A Detected
+3	0	≤40, ≠0	0	N/A	Flu B Detected
+4	0	0	≤40, ≠0	N/A	RSV Detected
+5	≤40, ≠0	≤40, ≠0	0	N/A	Flu A, Flu B Detected
+6	0	≤40, ≠0	≤40, ≠0	N/A	Flu B, RSV Detected
+7	≤40, ≠0	0	≤40, ≠0	N/A	Flu A, RSV Detected
+8	≤40, ≠0	≤40, ≠0	≤40, ≠0	N/A	Flu A, Flu B and RSV Detected
+9	0	0	0	0	Invalid, re-extract and repeat.
+
+--- Page 6 ---
+J. Substantial Equivalence Information:
+1. Predicate device name(s): Prodesse ProFlu+ Assay
+2. Predicate Numbers (s): K092500 , K081030, K073029
+3. Comparison with predicate:
+Similarities
+Device
+Simplexa™ Flu A/B & RSV Prodesse ProFlu+
+Characteristics
+Intended Use The Focus Diagnostics SimplexaTM The ProFlu™+ Assay is a multiplex
+Flu A/B & RSV assay is intended for Real-Time PCR (RT-PCR) in vitro
+use on the 3M Integrated Cycler diagnostic test for the rapid and
+instrument for the in vitro qualitative qualitative detection and
+detection and discrimination of discrimination of Influenza A Virus,
+influenza A virus, influenza B virus, Influenza B Virus, and Respiratory
+and respiratory syncytial virus (RSV) Syncytial Virus (RSV) nucleic acids
+RNA in nasopharyngeal swabs (NPS) isolated and purified from
+from human patients with signs and nasopharyngeal (NP) swab specimens
+symptoms of respiratory tract obtained from symptomatic patients.
+infection in conjunction with clinical This test is intended for use to aid in
+and epidemiological risk factors. the differential diagnosis of Influenza
+This test is intended for use as an aid A, Influenza B and RSV viral
+in the differential diagnosis of infections in humans and is not
+influenza A, influenza B, and RSV intended to detect Influenza C.
+viral infections in humans and is not Negative results do not preclude
+intended to detect influenza C. influenza or RSV virus infection and
+should not be used as the sole basis
+Negative results do not preclude for treatment or other management
+influenza virus or RSV infection and decisions. It is recommended that
+should not be used as the sole basis negative RSV results be confirmed
+for treatment or other patient by culture. Performance
+management decisions. characteristics for Influenza A Virus
+were established when Influenza
+Performance characteristics for A/H3 and A/H1 were the
+influenza A were established during predominant Influenza A viruses in
+the 2010 influenza season when 2009 circulation. When other Influenza A
+H1N1 influenza was the predominant viruses are emerging, performance
+influenza A virus in circulation. characteristics may vary.
+When other influenza A viruses are If infection with a novel Influenza A
+emerging, performance virus is suspected based on current
+characteristics may vary. clinical and epidemiological
+screening criteria recommended by
+If infection with a novel Influenza A public health authorities, specimens
+virus is suspected based on current should be collected with appropriate
+6
+
+[Table 1 on page 6]
+Device
+Characteristics	Simplexa™ Flu A/B & RSV	Prodesse ProFlu+
+Intended Use	The Focus Diagnostics SimplexaTM
+Flu A/B & RSV assay is intended for
+use on the 3M Integrated Cycler
+instrument for the in vitro qualitative
+detection and discrimination of
+influenza A virus, influenza B virus,
+and respiratory syncytial virus (RSV)
+RNA in nasopharyngeal swabs (NPS)
+from human patients with signs and
+symptoms of respiratory tract
+infection in conjunction with clinical
+and epidemiological risk factors.
+This test is intended for use as an aid
+in the differential diagnosis of
+influenza A, influenza B, and RSV
+viral infections in humans and is not
+intended to detect influenza C.
+Negative results do not preclude
+influenza virus or RSV infection and
+should not be used as the sole basis
+for treatment or other patient
+management decisions.
+Performance characteristics for
+influenza A were established during
+the 2010 influenza season when 2009
+H1N1 influenza was the predominant
+influenza A virus in circulation.
+When other influenza A viruses are
+emerging, performance
+characteristics may vary.
+If infection with a novel Influenza A
+virus is suspected based on current	The ProFlu™+ Assay is a multiplex
+Real-Time PCR (RT-PCR) in vitro
+diagnostic test for the rapid and
+qualitative detection and
+discrimination of Influenza A Virus,
+Influenza B Virus, and Respiratory
+Syncytial Virus (RSV) nucleic acids
+isolated and purified from
+nasopharyngeal (NP) swab specimens
+obtained from symptomatic patients.
+This test is intended for use to aid in
+the differential diagnosis of Influenza
+A, Influenza B and RSV viral
+infections in humans and is not
+intended to detect Influenza C.
+Negative results do not preclude
+influenza or RSV virus infection and
+should not be used as the sole basis
+for treatment or other management
+decisions. It is recommended that
+negative RSV results be confirmed
+by culture. Performance
+characteristics for Influenza A Virus
+were established when Influenza
+A/H3 and A/H1 were the
+predominant Influenza A viruses in
+circulation. When other Influenza A
+viruses are emerging, performance
+characteristics may vary.
+If infection with a novel Influenza A
+virus is suspected based on current
+clinical and epidemiological
+screening criteria recommended by
+public health authorities, specimens
+should be collected with appropriate
+
+--- Page 7 ---
+Device
+Simplexa™ Flu A/B & RSV Prodesse ProFlu+
+Characteristics
+clinical and epidemiological infection control precautions for
+screening criteria recommended by novel virulent Influenza viruses and
+public health authorities, specimens sent to state or local health
+should be collected with appropriate department for testing. Viral culture
+infection control precautions for should not be attempted in these
+novel virulent Influenza viruses and cases unless a BSL 3+ facility is
+sent to state or local health available to receive and culture
+department for testing. Viral culture specimens.
+should not be attempted in these
+cases unless a BSL 3+ facility is
+available to receive and culture
+specimens.
+510(k) K102170 K073029, K081030, K092500
+Regulation 21 CFR 866.3980 21 CFR 866.3980
+Product Code OCC OCC
+RNA from Influenza A, Influenza B, RNA fromInfluenza A, Influenza B,
+Assay Targets
+and RSV and RSV
+Sample Types Nasopharyngeal swabs Nasopharyngeal swabs
+Extraction Roche MagNA Pure LC System, Roche MagNA Pure LC System,
+Methods bioMérieux NucliSENS easyMAG bioMérieux NucliSENS easyMAG
+Assay Type Real-Time RT-PCR based system Real-Time RT-PCR based
+Assay Results Qualitative Qualitative
+Different fluorescent reporter dyes Different fluorescent reporter dyes
+Detection
+for each target. for each target.
+Multiplex
+Capability for
+influenza A, Yes Yes
+influenza B,
+RSV
+Influenza A
+Matrix gene Matrix gene
+Viral Target
+Differences
+Device
+Simplexa™ Flu A/B & RSV Prodesse ProFlu+
+Characteristics
+Influenza B
+Matrix gene Non-structural NS1 and NS2
+Viral Target
+7
+
+[Table 1 on page 7]
+Device
+Characteristics	Simplexa™ Flu A/B & RSV	Prodesse ProFlu+
+	clinical and epidemiological
+screening criteria recommended by
+public health authorities, specimens
+should be collected with appropriate
+infection control precautions for
+novel virulent Influenza viruses and
+sent to state or local health
+department for testing. Viral culture
+should not be attempted in these
+cases unless a BSL 3+ facility is
+available to receive and culture
+specimens.	infection control precautions for
+novel virulent Influenza viruses and
+sent to state or local health
+department for testing. Viral culture
+should not be attempted in these
+cases unless a BSL 3+ facility is
+available to receive and culture
+specimens.
+510(k)	K102170	K073029, K081030, K092500
+Regulation	21 CFR 866.3980	21 CFR 866.3980
+Product Code	OCC	OCC
+Assay Targets	RNA from Influenza A, Influenza B,
+and RSV	RNA fromInfluenza A, Influenza B,
+and RSV
+Sample Types	Nasopharyngeal swabs	Nasopharyngeal swabs
+Extraction
+Methods	Roche MagNA Pure LC System,
+bioMérieux NucliSENS easyMAG	Roche MagNA Pure LC System,
+bioMérieux NucliSENS easyMAG
+Assay Type	Real-Time RT-PCR based system	Real-Time RT-PCR based
+Assay Results	Qualitative	Qualitative
+Detection	Different fluorescent reporter dyes
+for each target.	Different fluorescent reporter dyes
+for each target.
+Multiplex
+Capability for
+influenza A,
+influenza B,
+RSV	Yes	Yes
+Influenza A
+Viral Target	Matrix gene	Matrix gene
+
+[Table 2 on page 7]
+Device
+Characteristics	Simplexa™ Flu A/B & RSV	Prodesse ProFlu+
+Influenza B
+Viral Target	Matrix gene	Non-structural NS1 and NS2
+
+--- Page 8 ---
+Device
+Simplexa™ Flu A/B & RSV Prodesse ProFlu+
+Characteristics
+RSV Target M gene Polymerase
+Assay 3M Integrated Cycler Cepheid SmartCycler II System
+Instrument
+K. Standard/Guidance Document Referenced (if applicable):
+• Guidance for Industry and FDA Staff: Format for Traditional and Abbreviated
+510(k)s, August 12, 2005
+• Guidance for Industry and FDA Staff: In Vitro Diagnostic Devices to Detect
+Influenza A Viruses: Labeling and Regulatory Path, May 1, 2007
+• Draft Guidance for Industry and FDA Staff: Establishing Performance
+Characteristics of In Vitro Diagnostic Devices for Detection or Detection and
+Differentiation of Influenza Viruses, February 12, 2008
+• Guidance for Industry and FDA Staff: Class II Special Controls Guidance
+Document: Respiratory Viral Panel Multiplex Nucleic Acid Assay, October 9,
+2009
+L. Test Principle:
+The SimplexaTM Flu A/B & RSV assay is a nucleic acid amplification assay that uses
+Real-Time Reverse Transcription-Polymerase Chain Reaction (RT-PCR)
+amplification to enable simultaneous and distinct detection of viral RNA from
+influenza A, influenza B and RNA from nasopharyngeal swabs from human patients
+with signs and symptoms of respiratory infection in conjunction with clinical and
+epidemiological risk factors.
+The assay combines real-time PCR amplification with fluorescent signal detection
+technology. A bi-functional fluorescent probe-primer is used together with a reverse
+primer to amplify a specific target (for each analyte and internal control). A
+fluorescent signal is generated after the separation of the fluorophore from the
+quencher as a result of the binding of a probe element to the extended RNA fragment
+synthesized during amplification.
+The 3M Integrated Cycler is a rapid real-time Polymerase Chain Reaction
+thermocycler used for the identification of nucleic acid from prepared biological
+samples. The instrument utilizes disk media to contain and to process samples. The
+instrument uses real time flourometric detection to identify targets within the sample
+wells. The instrument is controlled by an external computer running the Integrated
+Cycler Studio Software. Together, the instrument, software and test kit are referred
+to as the “Microfluidic Molecular System.”
+M. Performance Characteristics (if/when applicable):
+8
+
+[Table 1 on page 8]
+Device
+Characteristics	Simplexa™ Flu A/B & RSV	Prodesse ProFlu+
+RSV Target	M gene	Polymerase
+Assay
+Instrument	3M Integrated Cycler	Cepheid SmartCycler II System
+
+--- Page 9 ---
+1. Analytical performance:
+a. Precision/Reproducibility:
+Inter-lot Precision
+Inter-lot precision was assessed by testing three (3) samples and a positive
+control for each target across three different lots. The panel of samples
+consisted of high negative, low positive, and moderately positive samples for
+each of influenza A, influenza B, and RSV. The samples were generated from
+swabs and were run in triplicate. One operator at one study site made one
+extraction of each sample and tested across lots.
+The variability attributable to lot-to-lot imprecision was found by fitting the
+appropriate general linear mixed model, with “lot” as a random variable, and
+partitioning out the variance. Total variability was split into inter-lot
+variability, and intra-lot variability (the unexplained variability, or error term
+of the model). The inter-lot variability component is summarized in the tables
+below. Imprecision estimates (%CV) for all samples in the panel were ≤5.4%.
+Simplexa Inter-lot Reproducibility – FLU A1
+Inter-lot
+Sample ID n Mean Ct Inter-lot SD Inter-lot %CV
+No Template Control 9 40.0 0.00 0.0
+Positive Control 9 30.4 0.24 0.8
+Flu A High Negative 9 40.0 0.00 0.0
+Flu A Low Positive 9 33.3 0.06 0.2
+Flu A Medium Positive 9 30.3 0.08 0.3
+Simplexa Inter-lot Reproducibility – FLU B1
+Inter-lot
+Sample ID n Mean Ct Inter-lot SD Inter-lot %CV
+No Template Control 9 40.0 0.00 0.0
+Positive Control 9 28.2 0.16 0.6
+Flu B High Negative 9 40.0 0.00 0.0
+Flu B Low Positive 9 33.4 0.39 1.2
+Flu B Medium Positive 9 29.9 0.14 0.5
+9
+
+[Table 1 on page 9]
+Inter-lot				
+Sample ID	n	Mean Ct	Inter-lot SD	Inter-lot %CV
+No Template Control	9	40.0	0.00	0.0
+Positive Control	9	30.4	0.24	0.8
+Flu A High Negative	9	40.0	0.00	0.0
+Flu A Low Positive	9	33.3	0.06	0.2
+Flu A Medium Positive	9	30.3	0.08	0.3
+
+[Table 2 on page 9]
+Inter-lot				
+Sample ID	n	Mean Ct	Inter-lot SD	Inter-lot %CV
+No Template Control	9	40.0	0.00	0.0
+Positive Control	9	28.2	0.16	0.6
+Flu B High Negative	9	40.0	0.00	0.0
+Flu B Low Positive	9	33.4	0.39	1.2
+Flu B Medium Positive	9	29.9	0.14	0.5
+
+--- Page 10 ---
+Simplexa Inter-lot Reproducibility – RSV1
+Inter-lot
+Sample ID n Mean Ct Inter-lot SD Inter-lot %CV
+No Template Control 9 40.0 0.00 0.0
+Positive Control 9 30.3 1.65 5.4
+RSV High Negative 9 40.0 0.00 0.0
+RSV Low Positive 9 33.7 0.00 0.0
+RSV Medium Positive 9 30.3 0.27 0.9
+1 For the purposes of calculating averages and variance components, samples that offered a negative result (Ct=0) were
+assigned to a value of 40.0, as a value of 40.0 is more representative of negative samples which have Ct values at the
+upper limit of the range.
+Inter-laboratory, Inter-assay and Intra-assay Reproducibility
+Sample pools of influenza A, influenza B, and RSV were created by spiking
+concentrated stock of each virus into a matrix generated from negative swabs.
+Three sample pools were generated per virus corresponding to high negative,
+low positive, and medium positive levels of virus. Each sample was tested in
+triplicate at three separate sites: one run per operator, per day, two operators
+per site, at three sites for 5 days. Nine sample pools corresponding to the
+three viruses, each at the three levels described earlier, were tested along with
+No Template Control and Positive Control. No Template Control and Positive
+Control were also tested in triplicate. A total of 990 samples were tested in
+the reproducibility studies. Estimates of variability were determined with a
+random effects model that includes run and site as predictors, with run nested
+within site. This allowed for partitioning of the total variance to provide best
+estimates of inter-assay, intra-assay, and inter-lab variability.
+Three sites assessed the device's inter-laboratory reproducibility and
+inter/intra-assay reproducibility. Site 1 performed the extraction using the
+MagNA Pure LC Total Nucleic Acid Isolation Kit and Sites 2 and 3
+performed the extraction step using the NucliSENS® easyMAGTM System
+(bioMérieux). All sample results were included in the analysis. The total
+%CV at each site for positive samples ranged from 0.6% to 2.1% for FLU A,
+from 0.5% to 6.7% for FLU B, and from 2.0% to 4.5% for RSV
+10
+
+[Table 1 on page 10]
+Inter-lot				
+Sample ID	n	Mean Ct	Inter-lot SD	Inter-lot %CV
+No Template Control	9	40.0	0.00	0.0
+Positive Control	9	30.3	1.65	5.4
+RSV High Negative	9	40.0	0.00	0.0
+RSV Low Positive	9	33.7	0.00	0.0
+RSV Medium Positive	9	30.3	0.27	0.9
+
+--- Page 11 ---
+Reproducibility – FLU A
+Site 1 Site 2 Site 3
+Agreement Agreement Agreement
+Sample Total Agreement
+with Avg. Total with Total with Avg. Total
+Avg. Ct with 95% CI
+expected Ct %CV expected %CV expected Ct %CV
+expected results
+results results results
+No Template Control 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Positive Control 30/30 30.2 1.6 30/30 29.6 1.5 30/30 29.8 1.3 90/90 (100.0%) 95.9% - 100.0%
+Flu A High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu A Low Positive 30/30 33.0 0.9 30/30 33.3 1.3 30/30 33.5 2.1 90/90 (100.0%) 95.9% - 100.0%
+Flu A Medium Positive 30/30 29.6 0.9 30/30 29.4 0.6 30/30 29.5 0.8 90/90 (100.0%) 95.9% - 100.0%
+Flu B High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu B Low Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu B Medium Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+RSV High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+RSV Low Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+RSV Medium Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Total Agreement 330/330 (100.0%) 330/330 (100.0%) 330/330 (100.0%) 990/990 (100.0%) 99.6% – 100.0%
+Reproducibility – FLU B
+Site 1 Site 2 Site 3
+Agreement Agreement Agreement
+Sample Total Agreement
+with Avg. Total with Total with Avg. Total
+Avg. Ct with 95% CI
+expected Ct %CV expected %CV expected Ct %CV
+expected results
+results results results
+No Template Control 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Positive Control 30/30 28.8 1.2 30/30 28.4 1.0 30/30 28.1 1.5 90/90 (100.0%) 95.9% - 100.0%
+Flu A High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu A Low Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu A Medium Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu B High Negative 30/30 40.0 0.0 29/30 39.2 11.7 30/30 40.0 0.0 89/90 (98.9%) 94.0% - 100.0%
+Flu B Low Positive 30/30 33.8 1.2 26/30 35.3 5.7 25/30 35.0 6.7 81/90 (90.0%) 82.1% - 100.0%
+Flu B Medium Positive 30/30 30.4 0.7 30/30 30.1 0.5 30/30 29.9 1.2 90/90 (100.0%) 95.9% - 100.0%
+RSV High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+RSV Low Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+RSV Medium Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Total Agreement 330/330 (100.0%) 325/330 (98.5%) 325/330 (98.5%) 980/990 (99.0%) 98.2% - 99.5%
+Reproducibility – RSV
+Site 1 Site 2 Site 3
+Agreement Agreement Agreement
+Sample Total Agreement
+with Avg. Total with Total with Avg. Total
+Avg. Ct with 95% CI
+expected Ct %CV expected %CV expected Ct %CV
+expected results
+results results results
+No Template Control 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+11
+
+[Table 1 on page 11]
+Sample	Site 1			Site 2			Site 3				
+	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg. Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Total Agreement
+with
+expected results	95% CI
+No Template Control	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Positive Control	30/30	30.2	1.6	30/30	29.6	1.5	30/30	29.8	1.3	90/90 (100.0%)	95.9% - 100.0%
+Flu A High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu A Low Positive	30/30	33.0	0.9	30/30	33.3	1.3	30/30	33.5	2.1	90/90 (100.0%)	95.9% - 100.0%
+Flu A Medium Positive	30/30	29.6	0.9	30/30	29.4	0.6	30/30	29.5	0.8	90/90 (100.0%)	95.9% - 100.0%
+Flu B High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu B Low Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu B Medium Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+RSV High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+RSV Low Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+RSV Medium Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Total Agreement	330/330 (100.0%)			330/330 (100.0%)			330/330 (100.0%)			990/990 (100.0%)	99.6% – 100.0%
+
+[Table 2 on page 11]
+Sample	Site 1			Site 2			Site 3				
+	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg. Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Total Agreement
+with
+expected results	95% CI
+No Template Control	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Positive Control	30/30	28.8	1.2	30/30	28.4	1.0	30/30	28.1	1.5	90/90 (100.0%)	95.9% - 100.0%
+Flu A High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu A Low Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu A Medium Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu B High Negative	30/30	40.0	0.0	29/30	39.2	11.7	30/30	40.0	0.0	89/90 (98.9%)	94.0% - 100.0%
+Flu B Low Positive	30/30	33.8	1.2	26/30	35.3	5.7	25/30	35.0	6.7	81/90 (90.0%)	82.1% - 100.0%
+Flu B Medium Positive	30/30	30.4	0.7	30/30	30.1	0.5	30/30	29.9	1.2	90/90 (100.0%)	95.9% - 100.0%
+RSV High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+RSV Low Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+RSV Medium Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Total Agreement	330/330 (100.0%)			325/330 (98.5%)			325/330 (98.5%)			980/990 (99.0%)	98.2% - 99.5%
+
+[Table 3 on page 11]
+Sample	Site 1			Site 2			Site 3				
+	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg. Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Total Agreement
+with
+expected results	95% CI
+No Template Control	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+
+--- Page 12 ---
+Site 1 Site 2 Site 3
+Agreement Agreement Agreement
+Sample Total Agreement
+with Avg. Total with Total with Avg. Total
+Avg. Ct with 95% CI
+expected Ct %CV expected %CV expected Ct %CV
+expected results
+results results results
+Positive Control 30/30 31.1 2.9 30/30 29.4 3.2 30/30 28.4 2.7 90/90 (100.0%) 95.9% - 100.0%
+Flu A High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu A Low Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu A Medium Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu B High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu B Low Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+Flu B Medium Positive 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+RSV High Negative 30/30 40.0 0.0 30/30 40.0 0.0 30/30 40.0 0.0 90/90 (100.0%) 95.9% - 100.0%
+RSV Low Positive 30/30 33.8 4.5 30/30 33.3 3.6 30/30 32.3 2.0 90/90 (100.0%) 95.9% - 100.0%
+RSV Medium Positive 30/30 30.4 4.3 30/30 28.6 4.4 30/30 28.5 4.1 90/90 (100.0%) 95.9% - 100.0%
+Total Agreement 330/330 (100.0%) 330/330 (100.0%) 330/330 (100.0%) 990/990 (100.0%) 99.6% – 100.0%
+b. Linearity/assay reportable range:
+Not applicable.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Controls
+The following controls are provided in the Focus Diagnostics SimplexaTM Flu
+A/B & RSV assay kit:
+Positive Control (PC): The kit contains a Positive Control consisting of a
+mixture of inactivated influenza A virus, inactivated influenza B virus, and
+inactivated RSV. The PC, in conjunction with the SimplexaTM RNA Internal
+Control, is used to verify reagent and system performance. The Positive
+Control is meant to be a control for global failure of the assay (missing
+reaction component, instrument failure, etc.). A Positive Control should be
+included in each run.
+RNA Internal Control (RNA IC): The RNA IC is an encapsulated RNA
+sequence. The RNA IC is incorporated into every sample and is carried
+through all steps of the procedure from nucleic acid isolation and purification
+through amplification. The RNA IC is intended to monitor for PCR
+inhibition.
+No Template Control (NTC): The NTC consists of nuclease-free water and,
+after addition of RNA IC, is taken through the RNA extraction process and
+12
+
+[Table 1 on page 12]
+Sample	Site 1			Site 2			Site 3				
+	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg. Ct	Total
+%CV	Agreement
+with
+expected
+results	Avg.
+Ct	Total
+%CV	Total Agreement
+with
+expected results	95% CI
+Positive Control	30/30	31.1	2.9	30/30	29.4	3.2	30/30	28.4	2.7	90/90 (100.0%)	95.9% - 100.0%
+Flu A High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu A Low Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu A Medium Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu B High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu B Low Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+Flu B Medium Positive	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+RSV High Negative	30/30	40.0	0.0	30/30	40.0	0.0	30/30	40.0	0.0	90/90 (100.0%)	95.9% - 100.0%
+RSV Low Positive	30/30	33.8	4.5	30/30	33.3	3.6	30/30	32.3	2.0	90/90 (100.0%)	95.9% - 100.0%
+RSV Medium Positive	30/30	30.4	4.3	30/30	28.6	4.4	30/30	28.5	4.1	90/90 (100.0%)	95.9% - 100.0%
+Total Agreement	330/330 (100.0%)			330/330 (100.0%)			330/330 (100.0%)			990/990 (100.0%)	99.6% – 100.0%
+
+--- Page 13 ---
+subsequent amplification and detection. The NTC reaction should not exhibit
+fluorescence growth curves that cross the threshold line in any of the FLU A,
+FLU B, or RSV detection channels but must provide a valid Ct value (Ct ≤40,
+≠0) for the RNA IC. If any of the FLU A, FLU B, or RSV channels provide a
+Ct value ≤40, ≠0 for the NTC, contamination may have occurred in one or
+more components of the system. The NTC should be included in each run.
+Quality control ranges have been established as indicated in the table below.
+If the controls are not within these parameters, patient results should be
+considered invalid and the assay repeated. Each laboratory should establish
+its own Quality Control ranges and frequency of QC testing based on
+applicable local laws, regulations and standard good laboratory practice.
+Control Flu A Ct Flu B Ct RSV Ct RNA IC Ct
+No Template Control 0 0 0 ≤40, ≠0
+Positive Control ≤40, ≠0 ≤40, ≠0 ≤40, ≠0 Not Applicable (N/A)
+d. Detection limits:
+Analytical sensitivity was estimated for two strains of influenza A (A/PR/8/34
+H1N1, A/Hong Kong/8/68 H3N2), two strains of influenza B (B/Great
+Lakes/1739/54, B/Malaysia/2506/2004), and two strains of RSV (RSV A2,
+RSV B2). The Limit of Detection (LoD) for each strain of virus was
+determined by limiting dilution studies using quantified stocks of the viruses.
+The viruses used in this study were grown, re-titered, and diluted with
+negative swab matrix. A preliminary estimate of the LoD for each virus was
+carried out by testing four dilutions of each virus around the theoretical LoD
+with each dilution extracted three times using the Roche MagNA Pure LC
+System. A single extraction of Positive Control (PC) and No Template
+Control (NTC) were included in each extraction cartridge. Each extracted
+sample and control was assayed in a single well. The lowest concentration at
+which all three replicates were positive were taken as the tentative LoD.
+Confirmation of LoD was determined over multiple runs. Each strain was
+spiked into negative swab at the level of the preliminary LoD and extracted
+using both the Roche MagNA Pure LC System and the NucliSENS easyMAG
+extraction method. A single extraction of Positive Control (PC) and No
+Template Control (NTC) was included in each run.
+The LoD was determined as the lowest concentration that was detected ≥95%
+of the time (i.e. concentration at which at least 19 out of 20 replicates were
+determined to be positive). The tables below summarize the data obtained
+during estimation of the preliminary LoD and confirmation of LoD for the six
+viral strains.
+Simplexa™ FLU A/B &RSV Limit of Detection Screening and Confirmation
+13
+
+[Table 1 on page 13]
+Control	Flu A Ct	Flu B Ct RSV Ct	RNA IC Ct
+No Template Control	0	0 0	≤40, ≠0
+Positive Control	≤40, ≠0	≤40, ≠0 ≤40, ≠0	Not Applicable (N/A)
+
+--- Page 14 ---
+– FLU A
+Initial Screening
+Confirmation of
+Confirmation of LoD NucliSENS
+MagNA Pure LoD MagNA Pure easyMAG
+Influenza A Strain TCID /mL Extraction Extraction Extraction
+50
+1.0 x 102 3/3 - -
+1.0 x 101 3/3 - -
+A/PR/8/34 (H1N1) 1.0 x 100 3/3 - -
+1.0 x 10-1 3/3 - -
+1.0 x 10-2 3/3 20/20 20/20
+1.0 x 102 3/3 - -
+1.0 x 101 3/3 20/20 19/19
+A/Hong Kong/8/68
+1.0 x 100 2/3 - -
+(H3N2)
+1.0 x 10-1 0/3 - -
+1.0 x 10-2 0/3 - -
+Simplexa™ FLU A/B &RSV Limit of Detection – FLU A
+LoD MagNA Pure extraction LoD NucliSENS easyMAG
+Viral Strain
+(TCID /mL) extraction (TCID /mL)
+50 50
+Influenza A/PR/8/34 (H1N1) 1.0 x10-2 1.0 x10-2
+Influenza A/Hong Kong/8/68 (H3N2) 1.0 x101 1.0 x101
+Simplexa™ FLU A/B &RSV Limit of Detection Screening and Confirmation
+– FLU B
+Initial Screening
+Confirmation of
+Confirmation of LoD NucliSENS
+MagNA Pure LoD MagNA Pure easyMAG
+Influenza B Strain TCID /mL Extraction Extraction Extraction
+50
+1.0 x 102 3/3 - -
+5.0 x 101 3/3 - -
+2.5 x 101 3/3 - -
+B/Great Lakes/1739/54
+1.0 x 101 3/3 - -
+5.0 x 100 n/a - 20/20
+1.0 x 100 3/3 20/20 17/20
+1.0 x 102 3/3 - -
+5.0 x 101 3/3 - -
+B/Malaysia/2506/2004 2.5 x 101 3/3 - -
+1.0 x 101 3/3 20/20 20/20
+1.0 x 100 2/3 - -
+14
+
+[Table 1 on page 14]
+Influenza A Strain	TCID /mL
+50	Initial Screening	Confirmation of
+LoD MagNA Pure
+Extraction	Confirmation of
+LoD NucliSENS
+easyMAG
+Extraction
+		MagNA Pure
+Extraction		
+A/PR/8/34 (H1N1)	1.0 x 102	3/3	-	-
+	1.0 x 101	3/3	-	-
+	1.0 x 100	3/3	-	-
+	1.0 x 10-1	3/3	-	-
+	1.0 x 10-2	3/3	20/20	20/20
+A/Hong Kong/8/68
+(H3N2)	1.0 x 102	3/3	-	-
+	1.0 x 101	3/3	20/20	19/19
+	1.0 x 100	2/3	-	-
+	1.0 x 10-1	0/3	-	-
+	1.0 x 10-2	0/3	-	-
+
+[Table 2 on page 14]
+Viral Strain	L	oD MagNA Pure extraction			LoD NucliSENS easyMAG	
+		(TCID /mL)
+50			extraction (TCID /mL)
+50	
+Influenza A/PR/8/34 (H1N1)	1.0 x10-2			1.0 x10-2		
+Influenza A/Hong Kong/8/68 (H3N2)	1.0 x101			1.0 x101		
+
+[Table 3 on page 14]
+Influenza B Strain	TCID /mL
+50	Initial Screening	Confirmation of
+LoD MagNA Pure
+Extraction	Confirmation of
+LoD NucliSENS
+easyMAG
+Extraction
+		MagNA Pure
+Extraction		
+B/Great Lakes/1739/54	1.0 x 102	3/3	-	-
+	5.0 x 101	3/3	-	-
+	2.5 x 101	3/3	-	-
+	1.0 x 101	3/3	-	-
+	5.0 x 100	n/a	-	20/20
+	1.0 x 100	3/3	20/20	17/20
+B/Malaysia/2506/2004	1.0 x 102	3/3	-	-
+	5.0 x 101	3/3	-	-
+	2.5 x 101	3/3	-	-
+	1.0 x 101	3/3	20/20	20/20
+	1.0 x 100	2/3	-	-
+
+--- Page 15 ---
+Simplexa™ FLU A/B &RSV Limit of Detection – FLU B
+LoD MagNA Pure extraction LoD NucliSENS easyMAG
+Viral Strain
+(TCID /mL) extraction (TCID /mL)
+50 50
+Influenza B/Great Lakes/1739/54 1.0 x100 5.0 x100
+Influenza B/Malaysia/2506/2004 1.0 x101 1.0 x101
+Simplexa™ FLU A/B &RSV Limit of Detection Screening and Confirmation
+– RSV
+Initial Screening
+Confirmation of
+Confirmation of LoD NucliSENS
+MagNA Pure LoD MagNA Pure easyMAG
+RSV Strain TCID /mL Extraction Extraction Extraction
+50
+1.0 x 102 3/3 - -
+1.0 x 101 3/3 - -
+RSV A2 1.0 x 100 3/3 20/20 20/20
+1.0 x 10-1 2/3 - -
+1.0 x 10-2 0/3 - -
+1.0 x 102 3/3 - -
+1.0 x 101 3/3 - -
+5.0 x 100 - 20/20
+RSV B1
+1.0 x 100 3/3 19/20 15/20
+1.0 x 10-1 0/3 - -
+1.0 x 10-2 0/3 - -
+Simplexa™ FLU A/B &RSV Limit of Detection – RSV
+LoD MagNA Pure extraction LoD NucliSENS easyMAG
+Viral Strain
+(TCID /mL) extraction (TCID /mL)
+50 50
+RSV A2 1.0 x100 1.0 x100
+RSV B1 1.0 x100 5.0 x100
+e. Analytical specificity:
+Cross reactivity
+A panel of thirty-two (32) potentially cross reacting microorganisms
+representing common respiratory pathogens or flora commonly present in the
+nasopharynx was evaluated for cross reactivity. Each potential cross reactant
+was individually spiked at a high level into a negative swab matrix. The level
+of each microorganism was determined by growing and titering the
+microorganism listed. The unspiked matrix was also tested to serve as a
+baseline. Samples were extracted with the Roche MagNA Pure LC System
+and tested in triplicate to screen for cross reactivity. According to the study
+15
+
+[Table 1 on page 15]
+Viral Strain	L	oD MagNA Pure extraction			LoD NucliSENS easyMAG	
+		(TCID /mL)
+50			extraction (TCID /mL)
+50	
+Influenza B/Great Lakes/1739/54	1.0 x100			5.0 x100		
+Influenza B/Malaysia/2506/2004	1.0 x101			1.0 x101		
+
+[Table 2 on page 15]
+RSV Strain	TCID /mL
+50	Initial Screening	Confirmation of
+LoD MagNA Pure
+Extraction	Confirmation of
+LoD NucliSENS
+easyMAG
+Extraction
+		MagNA Pure
+Extraction		
+RSV A2	1.0 x 102	3/3	-	-
+	1.0 x 101	3/3	-	-
+	1.0 x 100	3/3	20/20	20/20
+	1.0 x 10-1	2/3	-	-
+	1.0 x 10-2	0/3	-	-
+RSV B1	1.0 x 102	3/3	-	-
+	1.0 x 101	3/3	-	-
+	5.0 x 100	-		20/20
+	1.0 x 100	3/3	19/20	15/20
+	1.0 x 10-1	0/3	-	-
+	1.0 x 10-2	0/3	-	-
+
+[Table 3 on page 15]
+Viral Strain	L	oD MagNA Pure extraction			LoD NucliSENS easyMAG	
+		(TCID /mL)
+50			extraction (TCID /mL)
+50	
+RSV A2	1.0 x100			1.0 x100		
+RSV B1	1.0 x100			5.0 x100		
+
+--- Page 16 ---
+protocol, if influenza A virus, influenza B virus, or RSV was detected in any
+of the three replicates, an additional 5 replicates were to be tested for
+confirmation. One extraction was used to make the original three replicates
+and the confirmatory five replicates.
+No confirmatory testing was required as all initial replicates gave negative
+results for influenza A, influenza B, and RSV. The results are summarized in
+the table below.
+Simplexa FluTM A/B & RSV – Cross Reactivity
+Testing
+Cross-Reactant Concentration Units Flu A Flu B RSV
+Adenovirus 1 1.02 x105 TCID /mL – – –
+50
+Adenovirus 7A 4.57 x105 TCID /mL – – –
+50
+Bordetella pertussis 5.80 x105 cfu/mL – – –
+Chlamydia pneumoniae 1.52 x105 IFU/mL – – –
+Coronavirus 229E 2.45 x105 TCID /mL – – –
+50
+Coronavirus OC43 1.70 x105 TCID /mL – –
+50
+Corynebacterium diphtheriae 2.87 x106 cfu/mL – – –
+Cytomegalovirus 3.55 x105 TCID /mL – – –
+50
+Enterovirus 71 1.41 x105 TCID /mL – – –
+50
+Epstein Barr Virus 6.04 x105 copies/mL1 – – –
+Escherichia coli, O157H7 2.34 x106 cfu/mL – – –
+Haemophilus influenzae 2.60 x106 cfu/mL – – –
+Lactobacillus plantarum, 17-5 1.75 x106 cfu/mL – – –
+Legionella longbeachae 7.10 x106 cfu/mL – – –
+Measles 1.26 x105 TCID /mL – – –
+50
+Metapneumovirus 5.01 x105 TCID /mL – – –
+50
+Moraxella catarrhalis, Ne 11 6.83 x106 cfu/mL – – –
+Mumps 8.51 x105 TCID /mL – – –
+50
+Mycobacterium tuberculosis 2.20 x106 cfu/mL – – –
+Mycoplasma pneumoniae, Strain M129 5.63 x106 TCID /mL – – –
+50
+Neisseria elongata 1.99 x106 cfu/mL – – –
+Neisseria meningitides 1.63 x106 cfu/mL – – –
+Parainfluenza 1 6.61 x105 TCID /mL – – –
+50
+Parainfluenza 2 5.89 x105 TCID /mL – – –
+50
+Parainfluenza 3 6.61 x105 TCID /mL – – –
+50
+Pseudomonas aeruginosa 1.05 x106 cfu/mL – – –
+Rhinovirus 1A 3.16 x105 TCID /mL – – –
+50
+Staphylcoccus aureus, COL 8.40 x106 cfu/mL – – –
+Staphylococcus epidermidis 3.80 x106 cfu/mL – – –
+Streptococcus pneumoniae 5.54 x106 cfu/mL – – –
+Streptococcus pyogenes 1.55 x106 cfu/mL – – –
+Streptococcus salivarius 1.14 x106 cfu/mL – – –
+1) The EBV virus is grown in a transformed cell line (marmoset leukocytes). Transformed cells are not an appropriate
+cell line for quantitation using TCID
+50
+/mL, instead, copies/mL is calculated using a quantitative PCR method.
+16
+
+[Table 1 on page 16]
+Cross-Reactant	Testing
+Concentration	Units	Flu A	Flu B	RSV
+Adenovirus 1	1.02 x105	TCID /mL
+50	–	–	–
+Adenovirus 7A	4.57 x105	TCID /mL
+50	–	–	–
+Bordetella pertussis	5.80 x105	cfu/mL	–	–	–
+Chlamydia pneumoniae	1.52 x105	IFU/mL	–	–	–
+Coronavirus 229E	2.45 x105	TCID /mL
+50	–	–	–
+Coronavirus OC43	1.70 x105	TCID /mL
+50	–	–	
+Corynebacterium diphtheriae	2.87 x106	cfu/mL	–	–	–
+Cytomegalovirus	3.55 x105	TCID /mL
+50	–	–	–
+Enterovirus 71	1.41 x105	TCID /mL
+50	–	–	–
+Epstein Barr Virus	6.04 x105	copies/mL1	–	–	–
+Escherichia coli, O157H7	2.34 x106	cfu/mL	–	–	–
+Haemophilus influenzae	2.60 x106	cfu/mL	–	–	–
+Lactobacillus plantarum, 17-5	1.75 x106	cfu/mL	–	–	–
+Legionella longbeachae	7.10 x106	cfu/mL	–	–	–
+Measles	1.26 x105	TCID /mL
+50	–	–	–
+Metapneumovirus	5.01 x105	TCID /mL
+50	–	–	–
+Moraxella catarrhalis, Ne 11	6.83 x106	cfu/mL	–	–	–
+Mumps	8.51 x105	TCID /mL
+50	–	–	–
+Mycobacterium tuberculosis	2.20 x106	cfu/mL	–	–	–
+Mycoplasma pneumoniae, Strain M129	5.63 x106	TCID /mL
+50	–	–	–
+Neisseria elongata	1.99 x106	cfu/mL	–	–	–
+Neisseria meningitides	1.63 x106	cfu/mL	–	–	–
+Parainfluenza 1	6.61 x105	TCID /mL
+50	–	–	–
+Parainfluenza 2	5.89 x105	TCID /mL
+50	–	–	–
+Parainfluenza 3	6.61 x105	TCID /mL
+50	–	–	–
+Pseudomonas aeruginosa	1.05 x106	cfu/mL	–	–	–
+Rhinovirus 1A	3.16 x105	TCID /mL
+50	–	–	–
+Staphylcoccus aureus, COL	8.40 x106	cfu/mL	–	–	–
+Staphylococcus epidermidis	3.80 x106	cfu/mL	–	–	–
+Streptococcus pneumoniae	5.54 x106	cfu/mL	–	–	–
+Streptococcus pyogenes	1.55 x106	cfu/mL	–	–	–
+Streptococcus salivarius	1.14 x106	cfu/mL	–	–	–
+
+[Table 2 on page 16]
+Testing
+Concentration
+
+--- Page 17 ---
+Reactivity
+In addition to the six viral strains tested for LoD, ten additional influenza A
+strains, nine additional influenza B strains, and four additional strains of RSV
+were tested for reactivity with the Simplexa™ Flu A/B & RSV assay. A
+strain of 2009 H1N1 influenza A virus was included in the study. Each virus
+tested for reactivity was diluted in negative swab matrix at 1.0 x 102
+TCID /mL and extracted using the Roche MagNA Pure LC instrument. Each
+50
+strain was extracted in triplicate and assayed to provide an estimate of LoD.
+If 3/3 replicates did not provide a positive result in the correct channel, an
+additional dilution to provide a two-fold higher level of virus was created and
+tested. The following table summarizes the additional strains of virus tested
+for reactivity and the level of each strain of virus that provided 3/3 positive
+results.
+Analytical Reactivity with Additional Viral Strains
+Lowest Concentration Detected
+Viral Strain Result
+(TCID /mL)
+50
+Influenza A/Wisconsin/67/05 H3 1.0 x102 Flu A Detected (3/3)
+Influenza A/New Caledonia/10/07 H1N1 1.0 x102 Flu A Detected (3/3)
+Influenza A/Brisbane/10/07 H3 1.0 x102 Flu A Detected (3/3)
+Influenza A/Solomon Island/03/06 H1 1.0 x102 Flu A Detected (3/3)
+Influenza A/Taiwan/42/06 H1N1 1.0 x102 Flu A Detected (3/3)
+Influenza A/Brisbane/59/07 H1 1.0 x102 Flu A Detected (3/3)
+Influenza A/Swine NY/02/2009 H1 1.0 x102 Flu A Detected (3/3)
+Influenza A/WS/33 H1N1 1.0 x102 Flu A Detected (3/3)
+Influenza A/Port Chalmers/1/73 H3N2 1.0 x102 Flu A Detected (3/3)
+Influenza A/California/7/2009 NYMC X-179A 1.0 x102 Flu A Detected (3/3)
+Influenza B/Florida/02/06 1.0 x102 Flu B Detected (3/3)
+Influenza B/Florida/04/06 2.0 x102 Flu B Detected (3/3)
+Influenza B/Florida/07/04 1.0 x102 Flu B Detected (3/3)
+Influenza B/Lee/40 1.0 x102 Flu B Detected (3/3)
+Influenza B/Maryland/1/59 1.0 x102 Flu B Detected (3/3)
+Influenza B/Hong Kong/5/72 1.0 x102 Flu B Detected (3/3)
+Influenza B/Allen/45 1.0 x102 Flu B Detected (3/3)
+Influenza B/Taiwan/2/62 2.0 x102 Flu B Detected (3/3)
+Influenza B/Panama/45/90 2.0 x102 Flu B Detected (3/3)
+RSV A-Long 1.0 x102 RSV Detected (3/3)
+RSV B-Wash/18537/62 1.0 x102 RSV Detected (3/3)
+RSV B-WV/14617/85 1.0 x102 RSV Detected (3/3)
+RSV B-9320 1.0 x102 RSV Detected (3/3)
+f. Interference Studies:
+Interfering Substances
+The performance of the SimplexaTM Flu A/B & RSV assay was evaluated with
+potentially interfering substances that may be present in nasopharyngeal swab
+specimens at the concentrations indicated in the table below. The potentially
+interfering substances were evaluated in influenza A (influenza A/Hong
+17
+
+[Table 1 on page 17]
+Viral Strain		Lowest Concentration Detected		Result
+		(TCID /mL)
+50		
+Influenza A/Wisconsin/67/05 H3	1.0 x102			Flu A Detected (3/3)
+Influenza A/New Caledonia/10/07 H1N1	1.0 x102			Flu A Detected (3/3)
+Influenza A/Brisbane/10/07 H3	1.0 x102			Flu A Detected (3/3)
+Influenza A/Solomon Island/03/06 H1	1.0 x102			Flu A Detected (3/3)
+Influenza A/Taiwan/42/06 H1N1	1.0 x102			Flu A Detected (3/3)
+Influenza A/Brisbane/59/07 H1	1.0 x102			Flu A Detected (3/3)
+Influenza A/Swine NY/02/2009 H1	1.0 x102			Flu A Detected (3/3)
+Influenza A/WS/33 H1N1	1.0 x102			Flu A Detected (3/3)
+Influenza A/Port Chalmers/1/73 H3N2	1.0 x102			Flu A Detected (3/3)
+Influenza A/California/7/2009 NYMC X-179A	1.0 x102			Flu A Detected (3/3)
+Influenza B/Florida/02/06	1.0 x102			Flu B Detected (3/3)
+Influenza B/Florida/04/06	2.0 x102			Flu B Detected (3/3)
+Influenza B/Florida/07/04	1.0 x102			Flu B Detected (3/3)
+Influenza B/Lee/40	1.0 x102			Flu B Detected (3/3)
+Influenza B/Maryland/1/59	1.0 x102			Flu B Detected (3/3)
+Influenza B/Hong Kong/5/72	1.0 x102			Flu B Detected (3/3)
+Influenza B/Allen/45	1.0 x102			Flu B Detected (3/3)
+Influenza B/Taiwan/2/62	2.0 x102			Flu B Detected (3/3)
+Influenza B/Panama/45/90	2.0 x102			Flu B Detected (3/3)
+RSV A-Long	1.0 x102			RSV Detected (3/3)
+RSV B-Wash/18537/62	1.0 x102			RSV Detected (3/3)
+RSV B-WV/14617/85	1.0 x102			RSV Detected (3/3)
+RSV B-9320	1.0 x102			RSV Detected (3/3)
+
+--- Page 18 ---
+Kong/8/68) and influenza B (influenza B/Malaysia/2506/2004), each at a level
+of 50 TCID /mL, and RSV A2 at a level of 5 TCID /mL. All samples of
+50 50
+virus plus potential interferent were extracted with the Roche MagNA Pure
+LC instrument and tested in triplicate. There was no evidence of interference
+caused by the substances tested.
+Interfering Substances Panel
+Interferent
+Potential Interferents Active Ingredient Concentration
+Afrin Nasal Spray Oxymetazoline 15% (v/v)
+Anti-viral drug-Relenza Zanamivir 3.3 mg/ml
+Anti-viral drug-Tamiflu Oseltamivir 25 mg/ml
+Antibacterial, systemic Tobramycin 4.0 μg/ml
+Antibiotic, nasal ointment Mupirocin 6.6 mg/ml
+Blood N/A 2% (v/v)
+Mucin Bovine Submaxillary Glad Purified Mucin Protein 60 μg/ml
+Type I-S
+Nasal Corticosteroid-Beconase AQ Beclomethasone 5% (v/v)
+Nasal Corticosteroid-Fluticasone Fluticasone 5% (v/v)
+Zicam Nasal Gel Luffa Opperculata, Galphimia 5% (v/v)
+glauca, histaminum
+hydrochloricum
+Interfering Microorganisms
+A study was carried out to determine if any of the panel of thirty-two
+potentially cross-reacting microorganisms (listed in Section M.1.e (Analytical
+specificity)) could inhibit detection of influenza A, influenza B, or RSV by the
+SimplexaTM Flu A/B & RSV assay. These potentially inhibitory
+microorganismsms were individually spiked into a pool containing a low level
+(2 x LoD) of influenza A (A/PR/8/34), influenza B (B/Malaysia/2506/2004)
+and RSV (A2). Each sample was tested in triplicate. The results from the
+study are summarized in the table below. No inhibitory effects on detection
+of influenza A, influenza B, or RSV were confirmed.
+Flu
+Microorganism Microorganism Concentration Concentration Units Flu B RSV
+A
+Adenovirus 1 1.1 x105 TCID /mL + + +
+50
+Adenovirus 7A 1.1 x105 TCID /mL + + +
+50
+Bordatella pertussis 1.1 x106 cfu/mL + + +
+Chlamydia pneumoniae 1.1 x106 copies/mL + + +
+CMV 1.1 x105 TCID /mL + + +
+50
+18
+
+[Table 1 on page 18]
+Potential Interferents		Interferent
+Concentration
+	Active Ingredient	
+Afrin Nasal Spray	Oxymetazoline	15% (v/v)
+Anti-viral drug-Relenza	Zanamivir	3.3 mg/ml
+Anti-viral drug-Tamiflu	Oseltamivir	25 mg/ml
+Antibacterial, systemic	Tobramycin	4.0 μg/ml
+Antibiotic, nasal ointment	Mupirocin	6.6 mg/ml
+Blood	N/A	2% (v/v)
+Mucin Bovine Submaxillary Glad
+Type I-S	Purified Mucin Protein	60 μg/ml
+		
+Nasal Corticosteroid-Beconase AQ	Beclomethasone	5% (v/v)
+Nasal Corticosteroid-Fluticasone	Fluticasone	5% (v/v)
+Zicam Nasal Gel	Luffa Opperculata, Galphimia	5% (v/v)
+	glauca, histaminum	
+	hydrochloricum	
+
+[Table 2 on page 18]
+Microorganism	Microorganism Concentration	Concentration Units	Flu
+A		
+				Flu B	RSV
+					
+Adenovirus 1	1.1 x105	TCID /mL
+50	+	+	+
+Adenovirus 7A	1.1 x105	TCID /mL
+50	+	+	+
+Bordatella pertussis	1.1 x106	cfu/mL	+	+	+
+Chlamydia pneumoniae	1.1 x106	copies/mL	+	+	+
+CMV	1.1 x105	TCID /mL
+50	+	+	+
+
+[Table 3 on page 18]
+Flu
+A
+
+--- Page 19 ---
+Flu
+Microorganism Microorganism Concentration Concentration Units Flu B RSV
+A
+Coronavirus 229E 1.1 x105 TCID /mL + + +
+50
+Coronavirus OC431 1.1 x105 TCID /mL + + +
+50
+Corynebacterium diphtheriae 1.1 x106 cfu/mL + + +
+E. coli O157 1.1 x106 cfu/mL + + +
+EBV 1.1 x105 copies/mL + + +
+Enterovirus 71 1.1 x105 TCID /mL + + +
+50
+Haemophilus influenzae 1.1 x106 cfu/mL + + +
+Lactobacillus plantarum, 17-5 1.1 x106 cfu/mL + + +
+Legionella longbeachae 1.1 x106 cfu/mL + + +
+Measles 1.1 x105 TCID /mL + + +
+50
+Metapneumovirus1 1.1 x105 TCID /mL + + +
+50
+Moraxella catarrhalis Ne11 1.1 x106 cfu/mL + + +
+Mumps 1.1 x105 TCID /mL + + +
+50
+Mycobacterium tuberculosis 1.1 x106 cfu/mL + + +
+Mycoplasma pneumoniae M129 1.1 x106 TCID /mL + + +
+50
+Neisseria elongata 1.1 x106 cfu/mL + + +
+Neisseria meningitides 1.1 x106 cfu/mL + + +
+Parainfluenza 1 1.1 x105 TCID /mL + + +
+50
+Parainfluenza 2 1.1 x105 TCID /mL + + +
+50
+Parainfluenza 3 1.1 x105 TCID /mL + + +
+50
+Pseudomonas aeruginosa 1.1 x106 cfu/mL + + +
+Rhinovirus 1A 1.1 x105 TCID /mL + + +
+50
+Staphylococcus aereus, COL 1.1 x106 cfu/mL + + +
+Staphylococcus epidermidis 1.1 x106 cfu/mL + + +
+Streptococcus pneumoniae 1.1 x106 cfu/mL + + +
+Streptococcus pyogenes 1.1 x106 cfu/mL + + +
+Streptococcus salivarius 1.1 x106 cfu/mL + + +
+1 Initial testing appeared to show possible inhibition, upon repeat testing there was no evidence of inhibition.
+Competitive Interference
+The Competitive Interference study evaluated the effects of clinically relevant
+co-infections with each of the analytes probed by the assay. The study
+assessed whether a high concentration of one virus in the specimen could
+potentially affect the SimplexaTM FluA/B &RSV assay performance for
+another target present at low levels in the multiplex assay. A low positive
+sample was contrived at approximately 4 to 6 times the LoD for each target
+(influenza A, influenza B and RSV), and a baseline Ct was determined for
+each sample. A high level of each potential concomitant infecting virus was
+spiked into the low level specimen as summarized in the table below.
+Baseline Strain (Concentration) Competitive Strain (Concentration)
+19
+
+[Table 1 on page 19]
+Microorganism	Microorganism Concentration	Concentration Units	Flu
+A		
+				Flu B	RSV
+					
+Coronavirus 229E	1.1 x105	TCID /mL
+50	+	+	+
+Coronavirus OC431	1.1 x105	TCID /mL
+50	+	+	+
+Corynebacterium diphtheriae	1.1 x106	cfu/mL	+	+	+
+E. coli O157	1.1 x106	cfu/mL	+	+	+
+EBV	1.1 x105	copies/mL	+	+	+
+Enterovirus 71	1.1 x105	TCID /mL
+50	+	+	+
+Haemophilus influenzae	1.1 x106	cfu/mL	+	+	+
+Lactobacillus plantarum, 17-5	1.1 x106	cfu/mL	+	+	+
+Legionella longbeachae	1.1 x106	cfu/mL	+	+	+
+Measles	1.1 x105	TCID /mL
+50	+	+	+
+Metapneumovirus1	1.1 x105	TCID /mL
+50	+	+	+
+Moraxella catarrhalis Ne11	1.1 x106	cfu/mL	+	+	+
+Mumps	1.1 x105	TCID /mL
+50	+	+	+
+Mycobacterium tuberculosis	1.1 x106	cfu/mL	+	+	+
+Mycoplasma pneumoniae M129	1.1 x106	TCID /mL
+50	+	+	+
+Neisseria elongata	1.1 x106	cfu/mL	+	+	+
+Neisseria meningitides	1.1 x106	cfu/mL	+	+	+
+Parainfluenza 1	1.1 x105	TCID /mL
+50	+	+	+
+Parainfluenza 2	1.1 x105	TCID /mL
+50	+	+	+
+Parainfluenza 3	1.1 x105	TCID /mL
+50	+	+	+
+Pseudomonas aeruginosa	1.1 x106	cfu/mL	+	+	+
+Rhinovirus 1A	1.1 x105	TCID /mL
+50	+	+	+
+Staphylococcus aereus, COL	1.1 x106	cfu/mL	+	+	+
+Staphylococcus epidermidis	1.1 x106	cfu/mL	+	+	+
+Streptococcus pneumoniae	1.1 x106	cfu/mL	+	+	+
+Streptococcus pyogenes	1.1 x106	cfu/mL	+	+	+
+Streptococcus salivarius	1.1 x106	cfu/mL	+	+	+
+
+[Table 2 on page 19]
+Flu
+A
+
+[Table 3 on page 19]
+Baseline Strain (Concentration)	Competitive Strain (Concentration)
+
+--- Page 20 ---
+Influenza A/PR/8/34 (8.80 × 101 TCID /mL) RSV A2 (1.60 × 104 TCID /mL)
+50 50
+Influenza B/Malaysia/2506/2004 (1.29 × 102 TCID /mL) RSV A2 (1.60 × 104 TCID /mL)
+50 50
+Influenza A/PR/8/34 (2.50 × 105 TCID /mL)*
+50
+RSV A2 (<10 TCID /mL)
+50
+Influenza B/Malaysia/2506/2004 (2.58 × 105 TCID /mL)
+50
+*When very high levels of influenza A are present with low levels of RSV the signal from the RSV reaction may not be
+adequate to be detected, due to competitive interference. When all three viruses are present at moderate levels (as in
+the Positive Control) there is no evidence of competitive interference.
+g. Assay cut-off:
+Forty-five cycles of amplification were performed during assay development
+to allow for the appropriate determination of assay cut off. Analysis of the
+Limit of Detection study showed that all Ct values at the Limit of Detection
+were <40 with the exception of one influenza A sample which gave a Ct result
+>40. The Limit of Detection is defined as the lowest concentration of sample
+where ≥ 95% of twenty replicates are detected. A review of the Method
+Comparison (Clinical Performance) data showed that >95% of the positive
+clinical specimens had a Ct value ≤35. Specimens that were positive for
+influenza A had Ct values in the range 15.2 to 37.3. Specimens that were
+positive for influenza B had Ct values in the range 16.5 to 34.0. Specimens
+that were positive for RSV had Ct values in the range 16.0 to 41.4 with one
+specimen giving a Ct value >40. The data thus indicate that Ct=40 is an
+appropriate assay cut-off
+h. Carry-over/Cross-Contamination
+The study was designed by alternately placing high positive and high negative
+(5 x 106 dilution of high positive) samples on both the MagNA Pure cartridge
+for extraction and the Universal Disc for amplification. A total of 180 high
+negative samples were tested across 5 runs. The sample size of 180 was
+chosen to provide 80% power of detecting a carry over/contamination effect
+of 5% or greater, with alpha = 0.05. The carryover effect was evaluated by
+comparing the observed positive rate for the high negative samples with the
+expected rate under normal reproducibility conditions. The purpose of
+analysis was to determine if the positive rate for the high negative samples
+was elevated beyond what was probable. A one sample, one sided test for a
+proportion (binomial) was used to test for significance for all three FLU A,
+FLU B, and RSV channels.
+The baseline negative samples were positive 0% (0 of 90 replicates) of the
+time for the FLU B and RSV channels and 1.1% (1of 90 replicates) of the
+time for the FLUA channel. When tested with high positive samples, no
+significant carry-over contamination effect was seen in any of the channels.
+The data from the study are summarized in the table below.
+Carry-Over Contamination
+20
+
+[Table 1 on page 20]
+Influenza A/PR/8/34 (8.80 × 101 TCID /mL)
+50	RSV A2 (1.60 × 104 TCID /mL)
+50
+Influenza B/Malaysia/2506/2004 (1.29 × 102 TCID /mL)
+50	RSV A2 (1.60 × 104 TCID /mL)
+50
+RSV A2 (<10 TCID /mL)
+50	Influenza A/PR/8/34 (2.50 × 105 TCID /mL)*
+50
+	Influenza B/Malaysia/2506/2004 (2.58 × 105 TCID /mL)
+50
+
+--- Page 21 ---
+Channel
+FLU A FLU B RSV
+Positive Count 2 0 0
+Negative Count 178 180 180
+Total observations2 180 180 180
+Percent positive 1.1 0 0
+One-sided binomial test (p-value) 0.0054 0.00 0.00
+2. Comparison studies:
+a. Method comparison with reference methods:
+The performance of the SimplexaTM FluA/B &RSV assay was compared with
+reference methods during testing of clinical specimens. For influenza A and
+influenza B, the reference method was a high performance FDA cleared
+nucleic acid test. For RSV, the reference method was culture/DFA.
+b. Matrix Comparison:
+Not applicable
+c. Performance in Fresh vs. Frozen Clinical Specimens:
+The performance of the SimplexaTM FluA/B &RSV assay was determined by
+comparing fresh (never frozen, unextracted and tested within 72 hours of
+collection) versus frozen (unextracted) clinical specimens. A panel of one
+hundred and eighty (180) nasopharyngeal swab specimens including sixty
+(60) positive swabs for each virus (influenza A, influenza B, RSV) was
+contrived for testing so that they covered the range expected from clinical
+specimens. Three aliquots of each sample were prepared, representing fresh,
+short-term frozen (at least 2 hours frozen at -20ºC) and long-term frozen (at
+least 7 days frozen at -70ºC) states. All testing was performed at Focus
+Diagnostics using one Simplexa ™ Flu A/B & RSV lot.
+The plots of short-term frozen Ct values and long-term frozen Ct values vs.
+fresh Ct values visually show the existence of a linear relationship.
+Additionally, for all comparisons, the value of the coefficient of determination
+(R2) is greater than 0.95, meaning that at least 95% of the variation seen in the
+frozen (short-term and long-term) Ct values are explained by the variation
+seen in fresh Ct values.
+The slopes, along with the 95% confidence interval and percent bias for the
+above comparisons, are summarized in the following table. The 95%
+confidence interval indicates that slope estimates are not statistically
+significant at 5% level of significance. The observed bias for both short-term
+and long-term frozen Ct values is small and is not clinically significant. This
+21
+
+[Table 1 on page 21]
+	Channel		
+	FLU A	FLU B	RSV
+Positive Count	2	0	0
+Negative Count	178	180	180
+Total observations2	180	180	180
+Percent positive	1.1	0	0
+One-sided binomial test (p-value)	0.0054	0.00	0.00
+
+--- Page 22 ---
+indicates that short-term and long-term frozen samples are stable in
+comparison with fresh samples.
+95% Confidence
+Channel Frozen Term Slope R2 Bias
+Interval
+FLU A1 Short-term 1.00 0.997 – 1.001 1.00 0% - 3.0%
+Long-term 1.00 1.001 – 1.006 1.00 0%
+FLU B1 Short-term 1.00 0.993 – 1.003 1.00 0%
+Long-term 1.03 1.020 – 1.030 1.00 3%
+RSV1 Short-term 1.04 1.011 – 1.076 0.96 4%
+Long-term 1.06 1.023 – 1.097 0.95 1.0%6%
+1 For the purposes of regression analysis, samples that offered a negative result (Ct=0) were assigned to a
+value of 40.0, as a value of 40.0 is more representative of negative samples which have Ct values at the
+upper limit of the range.
+d. Extraction Efficiency:
+Assessment of the equivalence of the two extraction methods was determined
+by several approaches: (1) One clinical testing site performed Clinical
+Performance and Reproducibility studies using the MagNA Pure LC Total
+Nucleic Acid Isolation kit and two sites used the NucliSENS easyMAg system
+and (2) Determinations of Limit of Detection were carried out using both
+extraction systems. Based on the results from these studies, there does not appear
+to be any significant difference in the performance of the SimplexaTM FluA/B
+&RSV assay using either the MagNA Pure LC Total Nucleic Acid Isolation kit
+or the NucliSENS easyMAg system.
+3. Clinical studies:
+Three external testing sites participated in the Clinical Agreement Study.
+Reference results for influenza A and influenza B viruses were generated using a
+high performance FDA cleared nucleic acid test (NAT). Reference results for
+RSV were generated using culture/DFA. Culture/DFA results were carried
+forward from the results obtained at the time of sample collection or banking. A
+total of 735 nasopharyngeal swabs specimens were obtained from a combination
+of prospectively collected specimens (n = 558) and retrospective, banked
+specimens (n=177) from patients with signs and symptoms of viral respiratory
+tract infection.
+Prospective samples were collected in Southern United States from 26-February-
+2010 to 24-March-2010 and in Australia from 04-July-2010 to 17-August-2010.
+Three (3) samples were excluded from the prospective analysis due to
+“Unresolved” status on the reference nucleic acid assay and two (2) samples were
+excluded due to “invalid” status on the Simplexa assay. The samples remained
+unresolved or invalid upon repeat testing. One (1) sample was excluded from the
+prospective analysis due to lack of culture/DFA result for RSV. Due to the low
+prevalence rate of influenza during the collection period and the rareness of RSV
+in the adult population, retrospectively collected specimens from the, 2008 – 2009
+22
+
+[Table 1 on page 22]
+Channel	Frozen Term	Slope	95% Confidence
+Interval	R2	Bias
+FLU A1	Short-term	1.00	0.997 – 1.001	1.00	0% - 3.0%
+	Long-term	1.00	1.001 – 1.006	1.00	0%
+FLU B1	Short-term	1.00	0.993 – 1.003	1.00	0%
+	Long-term	1.03	1.020 – 1.030	1.00	3%
+RSV1	Short-term	1.04	1.011 – 1.076	0.96	4%
+	Long-term	1.06	1.023 – 1.097	0.95	1.0%6%
+
+--- Page 23 ---
+and early 2010 influenza and RSV seasons in Eastern and Mid-Western United
+States from patients with signs and symptoms of viral respiratory tract infection
+were also evaluated (n = 177); of the 177 samples collected 47 were not analyzed
+by culture/DFA for influenza A or influenza B.
+The clinical samples were tested at three sites. One site extracted specimens
+using the MagNA Pure LC Total Nucleic Acid Isolation kit and the other two
+sites used the NucliSENS easyMAg system. No apparent different difference in
+clinical performance was observed for the two extraction systems. The clinical
+performance of the SimplexaTM FluA/B &RSV assay is summarized in the
+following tables.
+Influenza A Clinical Summary – Prospective Samples
+*H
+N
+ig
+A
+h
+T
+P
+1
+e rf. Simplexa (Culture/DFA) Simplexa
+Not
+Not
+n Detected Detected Sensitivity/Specificity
+n Detected Detected % Agreement
+100%(22/22)
+100%(25/25) Detected 22 22 0
+Detected 25 25 0 95% CI:85.1-100%
+95% CI:86.7-100%
+Not 99.3%(530/534)
+Not 99.8%(527/528) 534 4 530
+528 1 527 Detected 95% CI:98.1-99.7%
+Detected 95% CI:98.9-100%
+Influenza B Clinical Summary – Prospective Samples
+*H
+N
+ig
+A
+h
+T
+P
+1
+e rf. Simplexa (Culture/DFA) Simplexa
+Not
+Not
+n Detected Detected Sensitivity/Specificity
+n Detected Detected % Agreement
+100%(1/1)
+50%(1/2) Detected 1 1 0
+Detected 2 1 1 95% CI:20.7-100%
+95% CI:9.5-90.5%
+Not 99.8%(554/555)
+Not 99.8%(550/551) 555 1 554
+551 1 550 Detected 95% CI:99-100%
+Detected 95% CI:99-100%
+RSV Clinical Summary – Prospective Samples
+NAT Simplexa (Culture/DFA) Simplexa
+Not Not
+n Detected Detected % Agreement n Detected Detected Sensitivity/Specificity
+99.1%(110/111) 98%(98/100)
+Detected 111 110 1 Detected 100 98 2
+95% CI:95.1-99.8% 95% CI:93-99.4%
+Not 99.5%(440/442) Not 96.9%(441/455)
+442 2 440 455 14 441
+Detected 95% CI:98.4-99.9% Detected 95% CI:94.9-98.2%
+Influenza A Clinical Agreement Summary – Retrospective Samples
+23
+
+[Table 1 on page 23]
+*High Perf.
+NAT1		Simplexa		
+n		Not
+Detected Detected		% Agreement
+Detected	25	25	0	100%(25/25)
+95% CI:86.7-100%
+Not
+Detected	528	1	527	99.8%(527/528)
+95% CI:98.9-100%
+
+[Table 2 on page 23]
+(Culture/DFA)		Simplexa		
+	n	Detected	Not
+Detected	Sensitivity/Specificity
+				
+Detected	22	22	0	100%(22/22)
+95% CI:85.1-100%
+Not	534	4	530	99.3%(530/534)
+95% CI:98.1-99.7%
+Detected				
+
+[Table 3 on page 23]
+*High Perf.
+NAT1		Simplexa		
+n		Not
+Detected Detected		
+				% Agreement
+Detected	2	1	1	50%(1/2)
+				95% CI:9.5-90.5%
+Not
+Detected	551	1	550	99.8%(550/551)
+				95% CI:99-100%
+
+[Table 4 on page 23]
+(Culture/DFA)		Simplexa		
+	n	Detected	Not
+Detected	Sensitivity/Specificity
+				
+Detected	1	1	0	100%(1/1)
+95% CI:20.7-100%
+Not	555	1	554	99.8%(554/555)
+95% CI:99-100%
+Detected				
+
+[Table 5 on page 23]
+NAT		Simplexa		
+	n	Detected	Not
+Detected	% Agreement
+Detected	111	110	1	99.1%(110/111)
+95% CI:95.1-99.8%
+Not
+Detected	442	2	440	99.5%(440/442)
+95% CI:98.4-99.9%
+
+[Table 6 on page 23]
+(Culture/DFA)		Simplexa		
+	n	Detected	Not
+Detected	
+				Sensitivity/Specificity
+Detected	100	98	2	98%(98/100)
+				95% CI:93-99.4%
+Not
+Detected	455	14	441	96.9%(441/455)
+				95% CI:94.9-98.2%
+
+--- Page 24 ---
+*H
+N
+ig
+A
+h
+T
+P
+1
+e rf. Simplexa (Culture/DFA) Simplexa
+Not
+Not
+n Detected Detected Sensitivity/Specificity
+n Detected Detected % Agreement
+100%(80/80)
+100%(79/79) Detected 80 80 0
+Detected 79 79 0 95% CI:95.4-100%
+95% CI:95.4-100%
+Not 100%(50/50)
+Not 99%(97/98) 50 0 50
+98 1 97 Detected 95% CI:92.9-100%
+Detected 95% CI:94.4-99.8%
+Influenza B Clinical Agreement Summary – Retrospective Samples
+*High Perf. Simplexa (Culture/DFA) Simplexa
+NAT1
+Not
+Not
+n Detected Detected Sensitivity/Specificity
+n Detected Detected % Agreement
+100%(50/50)
+100%(50/50) Detected 50 50 0
+Detected 50 50 0 95% CI:92.9-100%
+95% CI:92.9-100%
+Not 100%(93/93)
+Not 100%(127/127) 93 0 93
+127 0 127 Detected 95% CI:96-100%
+Detected 95% CI:97.1-100%
+RSV Clinical Agreement Summary – Retrospective Samples
+NAT Simplexa (Culture/DFA) Simplexa
+Not Not
+n Detected Detected % Agreement n Detected Detected Sensitivity/Specificity
+100%(22/22) 100%(22/22)
+Detected 22 22 0 Detected 22 22 0
+95% CI:85.1-100% 95% CI:85.1-100%
+Not 99.4%(154/155) Not 96%(24/25)
+155 1 154 25 1 24
+Detected 95% CI:96.4-99.9% Detected 95% CI:80.5-99.3%
+1High Perf. NAT = High Performance FDA Cleared Nucleic Acid Test
+*Reference method for clinical performance evaluation for 510(k) clearance.
+4. Clinical cut-off: N/A
+5. Expected values/Reference range:
+Prospective specimens used in this clinical study were obtained from the United
+States (Texas and Ohio) and Australia. The prevalence of all influenza viruses in
+the US1 during the February to March 2010 collection period ranged from 3.5 to
+6.4%. Among influenza positives, 97 to 99.6% were positive for Influenza A and
+0 to 1.5% for Influenza B.
+Prevalence observed during the clinical study
+24
+
+[Table 1 on page 24]
+*High Perf.
+NAT1		Simplexa		
+n		Not
+Detected Detected		% Agreement
+Detected	79	79	0	100%(79/79)
+95% CI:95.4-100%
+Not
+Detected	98	1	97	99%(97/98)
+95% CI:94.4-99.8%
+
+[Table 2 on page 24]
+(Culture/DFA)		Simplexa		
+	n	Detected	Not
+Detected	Sensitivity/Specificity
+Detected	80	80	0	100%(80/80)
+95% CI:95.4-100%
+Not
+Detected	50	0	50	100%(50/50)
+95% CI:92.9-100%
+
+[Table 3 on page 24]
+*High Perf.
+NAT1		Simplexa		
+n		Not
+Detected Detected		% Agreement
+Detected	50	50	0	100%(50/50)
+95% CI:92.9-100%
+Not
+Detected	127	0	127	100%(127/127)
+95% CI:97.1-100%
+
+[Table 4 on page 24]
+(Culture/DFA)		Simplexa		
+	n	Detected	Not
+Detected	Sensitivity/Specificity
+Detected	50	50	0	100%(50/50)
+95% CI:92.9-100%
+Not
+Detected	93	0	93	100%(93/93)
+95% CI:96-100%
+
+[Table 5 on page 24]
+NAT		Simplexa		
+		Detected	Not
+Detected	% Agreement
+	n			
+Detected	22	22	0	100%(22/22)
+95% CI:85.1-100%
+Not
+Detected	155	1	154	99.4%(154/155)
+95% CI:96.4-99.9%
+				
+
+[Table 6 on page 24]
+(Culture/DFA)		Simplexa		
+	n	Detected	Not
+Detected	Sensitivity/Specificity
+Detected	22	22	0	100%(22/22)
+95% CI:85.1-100%
+Not
+Detected	25	1	24	96%(24/25)
+95% CI:80.5-99.3%
+				
+
+--- Page 25 ---
+Region Flu A Flu B RSV
+Texas2 10.2% 0% 18.0
+Ohio2 0% 1.0% 49.0%
+Australia3 1.6% 0.4% 5.6%
+1. http://www.cdc.gov/flu/weekly/fluactivity.htm
+2. Collection period was February to March, 2010.
+3. Collection period was July to August, 2010.
+N. Instrument Name:
+Integrated Cycler with Integrated Cycler Studio Software version 2.1 or higher (3M)
+MagNA Pure LC Instrument (Roche)
+NucliSENS® easyMAG™ System (bioMérieux)
+O. System Descriptions:
+1. Modes of Operation:
+The Microfluidic Molecular System includes the computer, related peripherals,
+handheld barcode scanner, Integrated Cycler, Integrated Cycler Studio software
+and operator manual. The Integrated Cycler is a Real-Time Polymerase Chain
+Reaction (PCR) thermocycler used for detection of nucleic acid from prepared
+biological samples. The instrument utilizes disc media to contain and to process
+samples and real-time fluorometric detection to identify targets within the sample
+wells. The instrument’s operation parameters are controlled by the use of an
+external personal computer and associated software. The disc can process up to 96
+independent samples.
+The Roche MagNA Pure LC is an automated nucleic acid isolation and
+purification system based upon binding of nucleic acids to glass particles and has
+the capability to process a total of 32 reactions within one run. Nucleic acid is
+purified in multiple plastic reaction tips and cartridges by several steps that
+include cell lysis and binding of nucleic acid to magnetic glass particles, wash
+steps, and a heated elution to unbind the nucleic acid from the glass particles.
+The bioMérieux NucliSens easyMAG is an automated nucleic acid isolation and
+purification system that is based upon the same silica extraction technology as the
+MagNA Pure. The easyMAG is capable of processing a total of 24 reactions with
+variable sample types, sample volumes, and elution volumes within a single run.
+Nucleic acid is purified within a single cartridge by several steps that include lysis
+and binding of nucleic acid to high affinity magnetic silica beads, a series of wash
+steps and heated elution of purified nucleic acid from the silica beads.
+25
+
+[Table 1 on page 25]
+	Region			Flu A			Flu B			RSV	
+Texas2			10.2%			0%			18.0		
+Ohio2			0%			1.0%			49.0%		
+Australia3			1.6%			0.4%			5.6%		
+
+--- Page 26 ---
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development
+processes for this line of product types:
+Yes ____X____ or No ________
+3. Specimen Identification:
+User manually enters Patient ID/Sample ID.
+4. Specimen Sampling and Handling:
+Not applicable
+5. Calibration:
+Not applicable
+6. Quality Control:
+The following controls are provided:
+Positive Control (PC): A mixture of inactivated influenza A virus, inactivated
+influenza B virus, and inactivated RSV. The PC, in conjunction with the RNA IC is
+used to verify reagent and system performance. The positive control is meant to be a
+control for global failure of the assay (missing reaction component, instrument
+failure, etc.). A positive control should be included in each run.
+RNA Internal Control (RNA IC): The RNA IC is an encapsulated RNA sequence.
+The RNA IC is incorporated into every sample and is carried through all steps of
+the procedure from nucleic acid isolation and purification through amplification.
+The RNA IC is intended to monitor for PCR inhibition..
+No Template Control (NTC): The NTC consists of nuclease-free water and, after
+addition of RNA IC, is taken through the RNA extraction process and subsequent
+amplification and detection. The NTC reaction should not exhibit fluorescence
+growth curves that cross the threshold line in any of the FLU A, FLU B, or RSV
+detection channels but must provide a valid Ct value (Ct ≤40, ≠0) for the RNA IC. If
+any of the FLU A, FLU B, or RSV channels provide a Ct value ≤40, ≠0 for the NTC,
+contamination may have occurred in one or more components of the system. The
+NTC should be included in each run.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In
+the “Performance Characteristics” Section above:
+Not applicable
+26
+
+--- Page 27 ---
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.1.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+27

@@ -1,0 +1,96 @@
+Standard Operating Procedure for Gamma-Globin Full Gene
+Sequencing
+1. PURPOSE
+This protocol describes the analytical procedures and guidelines to
+be followed for generating results of Gamma-Globin Full Gene
+Sequencing. The sequencing is intended for the detection of
+mutations, deletions, insertions, and other variations within the
+gamma-globin gene.
+1. SCOPE
+This SOP applies to all laboratory personnel performing gamma-
+globin gene sequencing in the CLIA-certified laboratory.
+1. RESPONSIBILITY
+It is the responsibility of the trained laboratory personnel to: a. Follow
+this SOP accurately. b. Document all required information carefully. c.
+Report any deviations or issues encountered during the procedure to
+the supervisor. d. Maintain the confidentiality and integrity of patient
+information and results.
+1. EQUIPMENT, MATERIALS, AND REAGENTS
+• DNA extraction kit (validated for clinical use)
+• DNA quantification instrument (e.g., Qubit Fluorometer)
+• Polymerase Chain Reaction (PCR) reagents and thermal cycler
+• Gamma-Globin gene-specific primers
+• Sequencing library preparation kit
+• Next-Generation Sequencing (NGS) platform (e.g., Illumina
+MiSeq)
+• Computational resources and bioinformatics software for data
+analysis
+• Personal protective equipment (gloves, lab coat, safety glasses)
+• Micropipettes and sterile pipette tips
+• DNAse/RNAse-free tubes
+• Positive and negative control samples
+1. PROCEDURE
+5.1 DNA Extraction a. Extract genomic DNA from the patient's
+provided specimen using the designated DNA extraction kit following
+the manufacturer’s instructions. b. Quantify the extracted DNA using
+an appropriate quantification method (e.g., Qubit Fluorometer) and
+record the concentration and purity ratios (A260/A280).
+5.2 PCR Amplification of Gamma-Globin Gene a. Design and
+validate primers specific to the regions of interest within the gamma-
+globin gene. b. Set up PCR reactions with the extracted genomic
+DNA, using appropriate reagent volumes and thermal cycling
+conditions. c. Include positive and negative control samples to
+validate the PCR amplification.
+5.3 Library Preparation for Sequencing a. Follow the sequencing
+library preparation kit instructions to generate sequencing-ready
+libraries from the PCR products. b. Check library quality and
+concentration using a suitable method (e.g., Agilent Bioanalyzer or
+TapeStation).
+5.4 Next-Generation Sequencing a. Load the prepared sequencing
+libraries onto the NGS platform according to the manufacturer’s
+protocols. b. Monitor the sequencing run to ensure it progresses
+without errors.
+5.5 Data Analysis a. Transfer the raw sequencing data to the
+bioinformatics team or designated computational resources. b. Use
+bioinformatics pipelines to process, align, and analyze the
+sequencing data against reference gamma-globin gene sequences.
+c. Identify and annotate any variants detected, including single
+nucleotide polymorphisms (SNPs), insertions, deletions, and any
+structural variations.
+5.6 Result Interpretation and Reporting a. Review the analysis
+results for accuracy and potential clinical significance. b. Compare
+the detected variants with known reference databases and literature.
+c. Document the results in the patient’s laboratory information system
+(LIS). d. Generate a comprehensive report including: i. Patient
+identification information (ensuring confidentiality). ii. Methodology
+and quality control information. iii. Identified variants and their
+potential clinical significance. iv. Interpretive comments and
+references to relevant literature.
+1. QUALITY CONTROL
+• Regularly validate and calibrate all equipment and instruments
+used in the process.
+• Perform internal quality control checks using positive and
+negative control samples in each run.
+• Participate in external proficiency testing and quality assurance
+programs to ensure accuracy and reliability of results.
+1. DOCUMENTATION
+• Document all steps, observations, and deviations in a laboratory
+notebook or an electronic laboratory information management
+system (LIMS).
+• Retain all records, including raw data files, analysis outputs, and
+result reports, in accordance with regulatory requirements and
+laboratory policies.
+1. REFERENCES
+• Refer to the manufacturer’s manuals for equipment and reagents.
+• Follow the guidelines for clinical next-generation sequencing
+provided by the College of American Pathologists (CAP) and the
+Clinical and Laboratory Standards Institute (CLSI).
+• Refer to relevant scientific literature for information on gamma-
+globin gene variants and their clinical significance.
+APPROVAL AND REVIEW
+This SOP was prepared/updated by: [Name], [Title], [Date]
+Reviewed and approved by: [Name], [Title], [Date]
+Next review date: [Date]
+NOTE: This SOP is a standardized procedure and must be adhered
+to strictly. Any modifications or deviations from the protocol will
+require supervisory approval and appropriate documentation.

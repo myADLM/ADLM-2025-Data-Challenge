@@ -1,0 +1,2238 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+A. 510(k) Number:
+K111387
+B. Purpose for Submission:
+The purpose of this submission is evaluation of a new assay (Liat™ Influenza A/B Assay) for
+the detection of Influenza A and Influenza B performed on a new point-of-care instrument
+(Liat™ Analyzer).
+C. Measurand:
+The Liat Influenza A/B Assay is a rapid, automated in vitro diagnostic test for qualitative
+detection of Influenza A and Influenza B from nasopharyngeal (NP) swab specimens from
+patients with signs and symptoms of respiratory infection.
+D. Type of Test:
+Multiplex nucleic acid assay for qualitative detection of Influenza A and Influenza B from
+NP specimens including nucleic acid isolation and multiplex real-time RT-PCR amplification
+using the Liat Analyzer.
+E. Applicant:
+IQuum, Inc.
+F. Proprietary and Established Names:
+Liat™ Influenza A/B Assay, Liat™ Analyzer
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 866.3980, Respiratory Viral Panel Multiplex Nucleic Acid Assay
+2. Classification:
+Class II
+1
+
+--- Page 2 ---
+3. Product code:
+OCC, OOI
+4. Panel:
+Microbiology (83)
+H. Intended Use:
+1. Intended use(s):
+The IQuum Liat™ Influenza A/B Assay performed on the Liat™ Analyzer is an automated
+multiplex real-time RT-PCR assay for the rapid in vitro qualitative detection and
+discrimination of influenza A virus and influenza B virus RNA in nasopharyngeal swab
+specimens from patients with signs and symptoms of respiratory infection in conjunction
+with clinical and epidemiological risk factors. The test is intended for use as an aid in the
+differential diagnosis of influenza A and influenza B in humans and is not intended to detect
+influenza C.
+Negative results do not preclude influenza virus infection and should not be used as the sole
+basis for treatment or other patient management decisions. Conversely, positive results do not
+rule-out bacterial infection or co-infection with other viruses. The agent detected may not be
+the definite cause of disease.
+Performance characteristics for influenza A were established when influenza A/H1 and A/H3
+were the predominant influenza A viruses in circulation. When other influenza A viruses are
+emerging, performance characteristics may vary.
+If infection with a novel influenza A virus is suspected based on current clinical and
+epidemiological screening criteria recommended by public health authorities, specimens
+should be collected with appropriate infection control precautions for novel virulent
+Influenza viruses and sent to state or local health department for testing. Viral culture should
+not be attempted in these cases unless a BSL 3+ facility is available to receive and culture
+specimens.
+2. Indication(s) for use:
+Same as Intended Use
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+Requires the Liat Analyzer (Software version 1.0)
+2
+
+--- Page 3 ---
+I. Device Description:
+The Liat™ Influenza A/B Assay targets a well-conserved region of the matrix gene of
+Influenza A viral RNA (Inf A target) and non-structural protein gene of Influenza B (Inf B
+target). An Internal Process Control (IPC) is also included. The IPC is present to control for
+adequate processing of the target viruses and to monitor the presence of inhibitors in the RT-
+PCR reactions.
+The Liat Influenza A/B Assay is performed on the lab-in-a-tube technology platform. The
+system consists of a disposable Liat Influenza A/B Assay Tube and the Liat™ Analyzer. The
+Liat™ Tube uses a flexible tube as a sample vessel. It contains all required unit dose reagents
+pre-packed in tube segments, separated by peelable seals, in the order of reagent use. The
+Liat Analyzer performs all assay steps from clinical sample and reports assay result
+automatically. During the testing process, multiple sample processing actuators of the
+analyzer compress the Liat Tube to selectively release reagents from tube segments, move
+the sample from one segment to another, and control reaction volume, temperature, and time
+to conduct sample preparation, nucleic acid extraction, target enrichment, inhibitor removal,
+nucleic acid elution and real-time RT-PCR. An embedded microprocessor controls and
+coordinates the actions of these sample processors to perform all required assay processes
+within the closed Liat Tube. Turnaround time for analysis of a sample is ~20 minutes.
+Positive control is provided in the Liat Influenza A/B Assay Quality Control Kit. The
+positive control comprises a pooled sample of inactivated Influenza A and B virus. Negative
+control is provided in the Liat Influenza A/B Assay Quality Control Kit. The negative control
+comprises universal transport medium (UTM). The solution is provided in unit dose quantity
+and labeled as Dilution UTM. To use the negative control, an operator transfers the entire
+contents of the Dilution UTM tube into the Liat tube using a transfer pipette and runs the
+assay following the Instructions for Use.
+The results are interpolated by the Liat Analyzer software from measured fluorescent signals
+and real time curve recognition algorithm. All possible final test results are described and
+depicted below.
+3
+
+--- Page 4 ---
+1. Influenza A Not Detected, Influenza B Not Detected
+• Inf A target and Inf B target are not
+IQM-RESULT
+detected.
+[Report]
+• Internal process control (IPC) has a Ct
+Assay: Liat Influenza Assay (FABA)
+within the valid range and fluorescence Use: For in vitro Diagnostic Use
+Sample ID: 1231
+endpoint above the minimum setting.
+Time/Date: 15:39:48, 2011-03-24
+The PCR curve of the IPC fits the Report Results:
+pattern recognition setting. Influenza A Not Detected
+Influenza B Not Detected
+Details:
+Run status: OK
+Device S/N: M1-D-00082
+SW Ver: H
+Run No. : 1129
+Tube S/N: 13JA997
+Tube Lot: 13JA
+Tube Exp: 2011-09-30
+Ctrl Exp: N/A
+Operator: USER01
+Approved by: N/A
+[Status]
+Completed OK
+2. Influenza A Detected, Influenza B Not Detected
+• The Inf A target has a Ct within the
+IQM-RESULT
+valid range and fluorescence endpoint
+above the minimum setting. The PCR [Report]
+Assay: Liat Influenza Assay (FABA)
+curve of Inf A target fits the pattern
+Use: For in vitro Diagnostic Use
+recognition setting. Sample ID: 1232
+Time/Date: 15:59:38, 2011-03-24
+• Inf B target is not detected.
+Report Results:
+Influenza A Detected
+• High concentration of Inf A target may
+Influenza B Not Detected
+inhibit the PCR of the IPC. The IPC
+will not be taken into consideration in Details:
+Run status: OK
+these cases.
+Device S/N: M1-D-00065
+SW Ver: H
+Run No. : 2129
+Tube S/N: 13JA995
+Tube Lot: 13JA
+Tube Exp: 2011-09-30
+Ctrl Exp: N/A
+Operator: USER01
+Approved by: N/A
+[Status]
+Completed OK
+4
+
+--- Page 5 ---
+3. Influenza A Not Detected, Influenza B Detected
+• Inf A target is not detected.
+IQM-RESULT
+• The Inf B target has a Ct within the
+[Report]
+valid range and fluorescence endpoint
+Assay: Liat Influenza Assay (FABA)
+above the minimum setting. The PCR Use: For in vitro Diagnostic Use
+Sample ID: 1233
+curve of Inf B target fits the pattern
+Time/Date: 16:19:42, 2011-03-24
+recognition setting. Report Results:
+Influenza A Not Detected
+• High concentration of Inf B target may
+Influenza B Detected
+inhibit the PCR of IPC. The IPC will
+not be taken into consideration in these Details:
+Run status: OK
+cases.
+Device S/N: M1-D-00054
+SW Ver: H
+Run No. : 896
+Tube S/N: 13JA053
+Tube Lot: 13JA
+Tube Exp: 2011-09-30
+Ctrl Exp: N/A
+Operator: USER01
+Approved by: N/A
+[Status]
+Completed OK
+4. Influenza A Detected, Influenza B Detected
+IQM-RESULT
+• The Inf A target has a Ct within the
+[Report]
+valid range and fluorescence endpoint
+Assay: Liat Influenza Assay (FABA)
+above the minimum setting. The PCR Use: For in vitro Diagnostic Use
+Sample ID: 1234
+curve of Inf A target fits the pattern
+Time/Date: 16:39:38, 2011-03-24
+recognition setting. Report Results:
+Influenza A Detected
+• The Inf B target has a Ct within the
+Influenza B Detected
+valid range and fluorescence endpoint
+above the minimum setting. The PCR Details:
+Run status: OK
+curve of Inf B target fits the pattern
+Device S/N: M1-D-00034
+recognition setting. SW Ver: H
+Run No. : 2658
+• High concentration of Inf A or Inf B
+Tube S/N: 13JA996
+targets may inhibit the PCR of the IPC. Tube Lot: 13JA
+Tube Exp: 2011-09-30
+The IPC will not be taken into
+Ctrl Exp: N/A
+consideration in these cases.
+Operator: USER01
+Approved by: N/A
+[Status]
+Completed OK
+5
+
+--- Page 6 ---
+5. Influenza A Detected, Influenza B Indeterminate
+• The Inf A target has a Ct within the
+IQM-RESULT
+valid range and fluorescence endpoint
+above the minimum setting. The PCR [Report]
+Assay: Liat Influenza Assay (FABA)
+curve of Inf A target fits the pattern
+Use: For in vitro Diagnostic Use
+recognition setting. Sample ID: 1236
+Time/Date: 16:49:18, 2011-03-24
+• Presence or absence of Influenza B Report Results:
+cannot be determined. The Inf B target Influenza A Detected
+Influenza B Indeterminate
+has a Ct within the valid range and
+fluorescence endpoint above the Details:
+minimum setting. However, the PCR Pattern Code: B110
+Run status: OK
+curve of Inf B target does NOT fit the
+Device S/N: M1-D-00030
+pattern recognition setting. SW Ver: H
+Run No. : 2158
+• High concentration of Inf A or Inf B
+Tube S/N: 13JA956
+targets may inhibit the PCR of the IPC. Tube Lot: 13JA
+Tube Exp: 2011-09-30
+The IPC will not be taken into
+Ctrl Exp: N/A
+consideration in these cases.
+Operator: USER01
+Approved by: N/A
+• Requires retest to determine if Inf B is
+detected [Status]
+Completed OK
+6. Influenza A Indeterminate, Influenza B Detected
+• Presence or absence of Influenza A
+IQM-RESULT
+cannot be determined. The Inf A target
+[Report]
+has a Ct within the valid range and
+Assay: Liat Influenza Assay (FABA)
+fluorescence endpoint above the
+Use: For in vitro Diagnostic Use
+minimum setting. However, the PCR Sample ID: 1236
+Time/Date: 15:29:23, 2011-03-24
+curve of Inf A target does NOT fit the
+Report Results:
+pattern recognition setting. Influenza A Indeterminate
+Influenza B Detected
+• The Inf B target has a Ct within the
+valid range and fluorescence endpoint Details:
+above the minimum setting. The PCR Pattern Code: A62
+Run status: OK
+curve of Inf B target does NOT fits the
+Device S/N: M1-D-00036
+pattern recognition setting. SW Ver: H
+Run No. : 2489
+• High concentration of Inf A or Inf B
+Tube S/N: 13JA731
+targets may inhibit the PCR of the IPC. Tube Lot: 13JA
+Tube Exp: 2011-09-30
+The IPC will not be taken into
+Ctrl Exp: N/A
+consideration in these cases.
+Operator: USER01
+Approved by: N/A
+• Requires retest to determine if Inf A is
+detected [Status]
+Completed OK
+6
+
+--- Page 7 ---
+7. Assay Invalid. Repeat Test.
+IQM-RESULT
+• Presence or absence of Influenza A and
+[Report]
+B cannot be determined.
+Assay: Liat Influenza Assay (FABA)
+Use: For in vitro Diagnostic Use
+• Inf A and Inf B targets are not detected
+Sample ID: 1237
+or the PCR curves do not fit the pattern Time/Date: 15:10:08, 2011-03-24
+recognition setting. Report Results:
+Assay Invalid. Repeat test.
+• IPC Ct is not within the valid range, Failure code: r0
+fluorescence endpoint is not above the
+Details:
+minimum setting, or the PCR curve of
+Run status: OK
+IPC does not fit the pattern recognition Device S/N: M1-D-00042
+setting. SW Ver: H
+Run No. : 2186
+Tube S/N: 13JA998
+Tube Lot: 13JA
+Tube Exp: 2011-09-30
+Ctrl Exp: N/A
+Operator: USER01
+Approved by: N/A
+[Status]
+Completed OK
+Reasons to Repeat the Assay
+If any of the test results mentioned below occur, repeat the test according to instructions in
+Starting Liat Assay section using a new Liat Tube (do not reuse Liat Tubes).
+• An “Assay Invalid. Repeat test.” result indicates that (1) the IPC was not detected
+when Inf A and Inf B were both not detected, or (2) all detected PCR curve(s) for Inf
+A and/or Inf B have abnormal PCR curve pattern. This may result from the sample
+not being properly processed or the RT-PCR being inhibited.
+• An “Error” is reported and the assay is aborted. Possible causes include temperature
+control, motion control failure and power failure.
+• An “Indeterminate” result is reported for one Influenza target and “Detected” for the
+other Influenza target. This results from an abnormal PCR curve pattern for the
+“Indeterminate” Influenza target. Retest is required to determine whether the
+“Indeterminate” Influenza target is detected.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Cepheid Xpert Flu Assay
+7
+
+--- Page 8 ---
+2. Predicate 510(k) number(s):
+K103766
+3. Comparison with predicate:
+Device: Predicate:
+Item Name Liat Influenza A/B Cepheid Xpert Flu
+Intended Use The IQuum Liat™ Influenza A/B The Cepheid® Xpert Flu Assay is an
+Assay performed on the Liat™ automated, multiplex real-time RT-PCR
+Analyzer is an automated multiplex assay intended for the in vitro
+real-time RT-PCR assay for the rapid qualitative detection and differentiation
+in vitro qualitative detection and of influenza A, influenza B and 2009
+discrimination of influenza A virus H1N1 influenza viral RNA. The Xpert
+Flu Assay uses nasal aspirates/washes
+and influenza B virus RNA in
+and nasopharyngeal swab specimens
+nasopharyngeal swab specimens from
+collected from patients with signs and
+patients with signs and symptoms of
+symptoms of respiratory infection in
+respiratory infection in conjunction
+conjunction with clinical and
+with clinical and epidemiological risk
+epidemiological risk factors. The Xpert
+factors. The test is intended for use
+Flu Assay is intended as an aid in the
+as an aid in the differential diagnosis
+diagnosis of influenza.
+of influenza A and influenza B in
+humans and is not intended to detect Negative results do not preclude
+influenza C. influenza virus infection and should not
+be used as the sole basis for treatment or
+Negative results do not preclude
+other patient management decisions.
+influenza virus infection and should
+Performance characteristics for
+not be used as the sole basis for
+influenza A were established during the
+treatment or other patient
+2009-2010 influenza season when 2009
+management decisions. Conversely,
+H1N1 influenza was the predominant
+positive results do not rule-out
+influenza A virus in circulation. When
+bacterial infection or co-infection
+other influenza A viruses are emerging,
+with other viruses. The agent detected
+performance characteristics may vary.
+may not be the definite cause of
+disease. If infection with a novel influenza A
+virus is suspected based on current
+Performance characteristics for
+clinical and epidemiological screening
+influenza A were established when
+criteria recommended by public health
+influenza A/H3 and A/H1 were the
+authorities, specimens should be
+predominant influenza A viruses in collected with appropriate infection
+circulation. When other influenza A control precautions for novel virulent
+viruses are emerging, performance influenza viruses and sent to state or
+characteristics may vary. local health department for testing. Viral
+culture should not be attempted in these
+If infection with a novel influenza A
+cases unless a BSL 3+ facility is
+virus is suspected based on current
+available to receive and culture
+clinical and epidemiological
+specimens.
+screening criteria recommended by
+8
+
+[Table 1 on page 8]
+Item Name	Device:
+Liat Influenza A/B	Predicate:
+Cepheid Xpert Flu
+Intended Use	The IQuum Liat™ Influenza A/B
+Assay performed on the Liat™
+Analyzer is an automated multiplex
+real-time RT-PCR assay for the rapid
+in vitro qualitative detection and
+discrimination of influenza A virus
+and influenza B virus RNA in
+nasopharyngeal swab specimens from
+patients with signs and symptoms of
+respiratory infection in conjunction
+with clinical and epidemiological risk
+factors. The test is intended for use
+as an aid in the differential diagnosis
+of influenza A and influenza B in
+humans and is not intended to detect
+influenza C.
+Negative results do not preclude
+influenza virus infection and should
+not be used as the sole basis for
+treatment or other patient
+management decisions. Conversely,
+positive results do not rule-out
+bacterial infection or co-infection
+with other viruses. The agent detected
+may not be the definite cause of
+disease.
+Performance characteristics for
+influenza A were established when
+influenza A/H3 and A/H1 were the
+predominant influenza A viruses in
+circulation. When other influenza A
+viruses are emerging, performance
+characteristics may vary.
+If infection with a novel influenza A
+virus is suspected based on current
+clinical and epidemiological
+screening criteria recommended by	The Cepheid® Xpert Flu Assay is an
+automated, multiplex real-time RT-PCR
+assay intended for the in vitro
+qualitative detection and differentiation
+of influenza A, influenza B and 2009
+H1N1 influenza viral RNA. The Xpert
+Flu Assay uses nasal aspirates/washes
+and nasopharyngeal swab specimens
+collected from patients with signs and
+symptoms of respiratory infection in
+conjunction with clinical and
+epidemiological risk factors. The Xpert
+Flu Assay is intended as an aid in the
+diagnosis of influenza.
+Negative results do not preclude
+influenza virus infection and should not
+be used as the sole basis for treatment or
+other patient management decisions.
+Performance characteristics for
+influenza A were established during the
+2009-2010 influenza season when 2009
+H1N1 influenza was the predominant
+influenza A virus in circulation. When
+other influenza A viruses are emerging,
+performance characteristics may vary.
+If infection with a novel influenza A
+virus is suspected based on current
+clinical and epidemiological screening
+criteria recommended by public health
+authorities, specimens should be
+collected with appropriate infection
+control precautions for novel virulent
+influenza viruses and sent to state or
+local health department for testing. Viral
+culture should not be attempted in these
+cases unless a BSL 3+ facility is
+available to receive and culture
+specimens.
+
+--- Page 9 ---
+Device: Predicate:
+Item Name Liat Influenza A/B Cepheid Xpert Flu
+public health authorities, specimens
+should be collected with appropriate
+infection control precautions for
+novel virulent Influenza viruses and
+sent to state or local health
+department for testing. Viral culture
+should not be attempted in these cases
+unless a BSL 3+ facility is available
+to receive and culture specimens.
+Regulation 21 CFR 866.3980 21 CFR 866.3332
+Product Code OCC, OOI OQW, OCC, OOI
+Assay Target Influenza A Influenza A
+Influenza B Influenza B
+Influenza A subtype 2009 H1N1
+Sample Type Nasopharyngeal Swab Nasopharyngeal Swab
+Nasal aspirates/washes
+Internal Control Yes Yes
+Influenza A Viral Matrix gene Matrix gene
+Target
+Influenza B Viral Non-structural protein (NSP) gene Hemagglutinin gene
+Target
+Assay Method RT-PCR for detecting the presence / RT-PCR for detecting the presence /
+absence of viral RNA in clinical absence of viral RNA in clinical
+specimens specimens
+Detection Multiplex assay using different Multiplex assay using different
+Technique reporter dyes for each target reporter dyes for each target
+Assay Result Qualitative Qualitative
+Assay Instrument Liat™ Analyzer GeneXpert instruments
+Self-contained Integrated PC, software, and touch- External PC computer and software for
+System screen display running tests and viewing the results
+All Assay No manual reagent addition required Requires manual dispensing of
+Reagents Binding Reagent into the chamber
+Contained in with the small opening of the Xpert
+Disposable Flu Assay Cartridge
+Automated Assay Yes, sample preparation, Yes, sample preparation,
+amplification, detection and result amplification, detection and result
+interpretation interpretation
+Result Automated Automated
+Interpretation
+Laboratory Users CLIA moderate complexity and high CLIA moderate complexity and high
+complexity laboratory complexity laboratory
+Time-to-result ~20 minutes ~75 minutes
+9
+
+[Table 1 on page 9]
+Item Name	Device:
+Liat Influenza A/B	Predicate:
+Cepheid Xpert Flu
+	public health authorities, specimens
+should be collected with appropriate
+infection control precautions for
+novel virulent Influenza viruses and
+sent to state or local health
+department for testing. Viral culture
+should not be attempted in these cases
+unless a BSL 3+ facility is available
+to receive and culture specimens.	
+Regulation	21 CFR 866.3980	21 CFR 866.3332
+Product Code	OCC, OOI	OQW, OCC, OOI
+Assay Target	Influenza A
+Influenza B	Influenza A
+Influenza B
+Influenza A subtype 2009 H1N1
+Sample Type	Nasopharyngeal Swab	Nasopharyngeal Swab
+Nasal aspirates/washes
+Internal Control	Yes	Yes
+Influenza A Viral
+Target	Matrix gene	Matrix gene
+Influenza B Viral
+Target	Non-structural protein (NSP) gene	Hemagglutinin gene
+Assay Method	RT-PCR for detecting the presence /
+absence of viral RNA in clinical
+specimens	RT-PCR for detecting the presence /
+absence of viral RNA in clinical
+specimens
+Detection
+Technique	Multiplex assay using different
+reporter dyes for each target	Multiplex assay using different
+reporter dyes for each target
+Assay Result	Qualitative	Qualitative
+Assay Instrument	Liat™ Analyzer	GeneXpert instruments
+Self-contained
+System	Integrated PC, software, and touch-
+screen display	External PC computer and software for
+running tests and viewing the results
+All Assay
+Reagents
+Contained in
+Disposable	No manual reagent addition required	Requires manual dispensing of
+Binding Reagent into the chamber
+with the small opening of the Xpert
+Flu Assay Cartridge
+Automated Assay	Yes, sample preparation,
+amplification, detection and result
+interpretation	Yes, sample preparation,
+amplification, detection and result
+interpretation
+Result
+Interpretation	Automated	Automated
+Laboratory Users	CLIA moderate complexity and high
+complexity laboratory	CLIA moderate complexity and high
+complexity laboratory
+Time-to-result	~20 minutes	~75 minutes
+
+--- Page 10 ---
+K. Standard/Guidance Document Referenced (if applicable):
+• Establishing Performance Characteristics of In Vitro Diagnostic Devices for Detection or
+Detection and Differentiation of Influenza Viruses. DRAFT GUIDANCE. Document
+issued on February 15, 2008. Docket number FDA-2008-D-0095.
+L. Test Principle:
+Liat Influenza A/B Assay uses an established nucleic acid test chemistry and assay protocol for
+detection of viral RNA. The sample preparation methodology is based on lysis by a chaotropic
+agent followed by magnetic particle based nucleic acid purification. First, the NPS sample in
+UTM is diluted and mixed with an internal process control (IPC) comprising an encapsulated
+RNA. Chaotropic and proteolytic reagents then disrupt the three dimensional structure of the
+macromolecules such as proteins and nucleic acids in the sample. Second, nucleic acids are
+isolated from lysates through binding to silica magnetic beads in the presence of the chaotropic
+salt. Third, the beads with the bound nucleic acid are separated from the lysate using a magnetic
+field, and the lysate removed. Fourth, the beads with captured nucleic acids are washed to
+remove possible inhibitors in the sample. Finally, the captured nucleic acids are then eluted
+under low-salt conditions into a small volume of elution buffer.
+Target amplification and detection uses TaqMan-probe based real-time polymerase chain
+reaction (RT-PCR). The Inf A primer and probe set is designed for the detection of matrix RNA
+from type A Influenza virus; while the Inf B primer and probe sets are designed to specifically
+detect the non-structural protein (NSP) RNA from Influenza B viruses. An IPC primer and
+probe set is also included to amplify the target region of the encapsulated RNA internal control.
+Eluted viral RNA is first transcribed into cDNA using reverse transcriptase. This cDNA then
+undergoes a polymerase chain reaction (PCR) where the reaction mixture is repeatedly heated to
+denature the nucleic acid and cooled to allow annealing of primers and extension of annealed
+primers by DNA polymerase to logarithmically amplify a specific region of the cDNA. Dual-
+labeled fluorogenic hydrolysis (TaqMan) probes anneal to specific target sequences located
+between the binding regions of forward and reverse primers. During the extension phase of the
+PCR cycle, the 5′ nuclease activity of polymerase degrades the probes, causing the reporter dyes
+(e.g., FAM) to separate from the quenchers (e.g., BHQ, Black Hole Quencher), thus generating
+fluorescent signals. Fluorescence intensities are monitored at each PCR cycle. When the
+fluorescence intensities exceed pre-determined thresholds, cycle threshold (Ct) values are
+returned for the specific analyte corresponding to the fluorescence channel.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+The multi-site reproducibility study assesses the total variability of the Liat Influenza A/B
+Assay across operators, study sites, testing days, Liat Analyzers, and Liat assay tube lots. The
+10
+
+--- Page 11 ---
+Liat assay was evaluated at 3 sites. Two operators at each of the 3 sites tested an 8 member
+reproducibility panel in triplicate on 5 different days, for a total of 720 runs (8 panel
+members × 3 replicates × 2 operators × 5 days × 3 sites). Fifteen (15) Liat Analyzers and 3
+Liat Influenza A/B Assay tube lots were used. The reproducibility panel comprises a high
+negative, a low positive and a medium positive of each of Influenza A and B, and the assay
+positive and negative controls. Percent agreement with expected result, mean Ct, and Ct
+%CV for each site are shown below. The %CV for Influenza A ranged between 1.3% and
+3.8% and that for Influenza B ranged between 1.1% and 3.4%. Total percent agreement was
+≥99.9%.
+The reproducibility panel samples were constructed by spiking viruses of known titer into
+negative NPS matrix. A/NY/01/09 and B/Florida/04/06 were used in this study. The medium
+positive, low positive, and high negative concentrations used for each of the strains
+corresponded to C100 (4xLOD), C95 (1xLOD), and C5 (as determined by Probit analysis
+using LOD data), respectively.
+Positive and negative control panel members were the Liat assay positive and negative
+controls. Positive control, comprising a mixture of inactivated flu A and B virus at
+concentration close to LOD, was provided in a unit dose 5x solution. An additional step of
+diluting the positive control 5x solution with UTM using a transfer pipette was required prior
+to loading into the Liat tube. Negative control comprised UTM.
+Influenza A and B Reproducibility Panel
+# Panel Members Virus Strain TCID /mL
+50
+1 Negative Control - -
+Pooled inactivated
+2 Positive Control N/A
+Influenza A & B virus
+3 Flu A Medium Positive (C100) 1.20
+4 Flu A Low Positive (C95) A/NY/01/09 3.0x10-1
+5 Flu A High Negative (C5) 1.7x10-2
+6 Flu B Medium Positive (C100) 9.6x10-1
+7 Flu B Low Positive (C95) B/Florida/04/06 2.4x10-1
+8 Flu B High Negative (C5) 5.4x10-3
+The six operators at 3 sites tested the members of the reproducibility panel in triplicate on 5
+different days. Five (5) Liat Analyzers were used at each site for a total of 15 Liat Analyzers.
+The sites also used different lots of Liat Influenza A/B Assay tubes for a total of 3 lots. A
+total of 720 runs (8 panel members × 3 replicates × 2 operators × 5 days × 3 sites) were
+performed.
+The % total agreement with expected results, Ct average and Ct %CV for each panel member
+from each site is shown below. For Ct data analysis, a Ct of 39.0 is used for all negative
+results given the Ct cutoff of 38.5. %CV for Influenza A ranged between 1.3% and 3.8% and
+that for Influenza B ranged between 1.1% and 3.4%.
+Of the 90 total replicates, one Flu B high negative (C5) was detected as Inf B positive (1.1%
+11
+
+[Table 1 on page 11]
+#	Panel Members	Virus Strain	TCID /mL
+50
+1	Negative Control	-	-
+2	Positive Control	Pooled inactivated
+Influenza A & B virus	N/A
+3	Flu A Medium Positive (C100)	A/NY/01/09	1.20
+4	Flu A Low Positive (C95)		3.0x10-1
+5	Flu A High Negative (C5)		1.7x10-2
+6	Flu B Medium Positive (C100)	B/Florida/04/06	9.6x10-1
+7	Flu B Low Positive (C95)		2.4x10-1
+8	Flu B High Negative (C5)		5.4x10-3
+
+--- Page 12 ---
+detection rate, 95% CI 0.0%-6.0%). This result can be expected given that the C5 sample is
+expected to be detected 5% of the time. All other results agree with the expected result.
+Across 3 sites, 6 operators, 15 Liat Analyzers, 3 Liat Influenza A/B Assay tube lots, and 5
+days of testing, 100% and 99.9% agreement with expected results was achieved for Influenza
+A and B reproducibility, respectively.
+Influenza A Reproducibility
+Site 1 Site 2 Site 3 Total
+Agree- Agree- Agree- Agree-
+ment w/ Avg Total ment w/ Avg Total ment w/ Avg Total ment w/
+Sample 95% CI
+expected Ct %CV expected Ct %CV expected Ct %CV expected
+result result result result
+Positive 90/90
+30/30 32.0 1.4% 30/30 32.0 2.2% 30/30 31.5 1.3% 95.9%-100.0%
+Control (100%)
+Negative 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Control (100%)
+Flu A High 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Negative (100%)
+Flu A Low 90/90
+30/30 32.1 3.8% 30/30 32.0 2.1% 30/30 31.8 1.8% 95.9%-100.0%
+Positive (100%)
+Flu A Med. 90/90
+30/30 29.9 2.0% 30/30 29.6 2.0% 30/30 29.3 1.9% 95.9%-100.0%
+Positive (100%)
+Flu B High 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Negative (100%)
+Flu B Low 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Positive (100%)
+Flu B Med. 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Positive (100%)
+Total 720/720
+240/240 (100%) 240/240 (100%) 240/240 (100%) 99.5%-100.0%
+Agreement (100%)
+Influenza B Reproducibility
+Site 1 Site 2 Site 3 Total
+Agree- Agree- Agree- Agree-
+ment w/ Avg Total ment w/ Avg Total ment w/ Avg Total ment w/
+Sample 95% CI
+expected Ct %CV expected Ct %CV expected Ct %CV expected
+result result result result
+Positive 90/90
+30/30 31.2 1.5% 30/30 31.0 2.2% 30/30 30.6 1.1% 95.9%-100.0%
+Control (100%)
+Negative 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Control (100%)
+Flu A High 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Negative (100%)
+Flu A Low 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Positive (100%)
+Flu A Med. 90/90
+30/30 39.0 0.0% 30/30 39.0 0.0% 30/30 39.0 0.0% 95.9%-100.0%
+Positive (100%)
+Flu B High 89/90
+30/30 39.0 0.0% 29/30 38.9 1.7% 30/30 39.0 0.0% 94.0%-99.8%
+Negative (98.9%)
+Flu B Low 90/90
+30/30 31.3 2.3% 30/30 31.0 3.4% 30/30 30.9 1.7% 95.9%-100.0%
+Positive (100%)
+Flu B Med. 30/30 29.4 2.6% 30/30 29.5 3.0% 30/30 28.6 3.3% 90/90 95.9%-100.0%
+12
+
+[Table 1 on page 12]
+	Site 1			Site 2			Site 3			Total	
+Sample	Agree-
+ment w/
+expected
+result	Avg
+Ct	Total
+%CV	Agree-
+ment w/
+expected
+result	Avg
+Ct	Total
+%CV	Agree-
+ment w/
+expected
+result	Avg
+Ct	Total
+%CV	Agree-
+ment w/
+expected
+result	95% CI
+Positive
+Control	30/30	32.0	1.4%	30/30	32.0	2.2%	30/30	31.5	1.3%	90/90
+(100%)	95.9%-100.0%
+Negative
+Control	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu A High
+Negative	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu A Low
+Positive	30/30	32.1	3.8%	30/30	32.0	2.1%	30/30	31.8	1.8%	90/90
+(100%)	95.9%-100.0%
+Flu A Med.
+Positive	30/30	29.9	2.0%	30/30	29.6	2.0%	30/30	29.3	1.9%	90/90
+(100%)	95.9%-100.0%
+Flu B High
+Negative	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu B Low
+Positive	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu B Med.
+Positive	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Total
+Agreement	240/240 (100%)			240/240 (100%)			240/240 (100%)			720/720
+(100%)	99.5%-100.0%
+
+[Table 2 on page 12]
+	Site 1			Site 2			Site 3			Total	
+Sample	Agree-
+ment w/
+expected
+result	Avg
+Ct	Total
+%CV	Agree-
+ment w/
+expected
+result	Avg
+Ct	Total
+%CV	Agree-
+ment w/
+expected
+result	Avg
+Ct	Total
+%CV	Agree-
+ment w/
+expected
+result	95% CI
+Positive
+Control	30/30	31.2	1.5%	30/30	31.0	2.2%	30/30	30.6	1.1%	90/90
+(100%)	95.9%-100.0%
+Negative
+Control	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu A High
+Negative	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu A Low
+Positive	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu A Med.
+Positive	30/30	39.0	0.0%	30/30	39.0	0.0%	30/30	39.0	0.0%	90/90
+(100%)	95.9%-100.0%
+Flu B High
+Negative	30/30	39.0	0.0%	29/30	38.9	1.7%	30/30	39.0	0.0%	89/90
+(98.9%)	94.0%-99.8%
+Flu B Low
+Positive	30/30	31.3	2.3%	30/30	31.0	3.4%	30/30	30.9	1.7%	90/90
+(100%)	95.9%-100.0%
+Flu B Med.	30/30	29.4	2.6%	30/30	29.5	3.0%	30/30	28.6	3.3%	90/90	95.9%-100.0%
+
+--- Page 13 ---
+Positive (100%)
+Total 719/720
+240/240 (100%) 239/240 (99.6%) 240/240 (100%) 99.2%-100.0%
+Agreement (99.9%)
+b. Inter-lot Precision
+Inter-lot precision assesses the Liat tube manufacturing process as a potential source of assay
+variability. Three lots of Liat Influenza A/B Assay tubes were tested with one Influenza A
+strain at C95 (LOD, n=180), C100 (4xLOD, n=60) and C0 (negative NPS matrix, n=60).
+Results from all runs agreed with expected results. Imprecision in Ct from inter-lot variability
+was <1.8%.
+Inter-lot Precision
+Stdev %CV
+Inf A n % Agreement Avg Ct
+Inter-lot Inter-lot
+C100 60 100% 29.6 0.49 1.6%
+C95 180 100% 32.0 0.59 1.8%
+C0 60 100% 42.0 0.00 0.0%
+Three Liat Influenza A/B Assay tube lots were manufactured at IQuum according to released
+procedures. One hundred (100) Liat tubes were selected at random from each lot.
+Influenza A/Brisbane/10/2007 was used as the sample in this study. The virus was spiked
+into negative NPS matrix at C95 (LOD, 1.0x10-1 TCID /mL) or C100 (4xLOD, 4.0x10-1
+50
+TCID /mL). Negative samples (C0) comprised UTM without spiked virus. Samples were
+50
+aliquoted into unit dose quantities and stored at -80°C until use.
+From each of the 3 Liat tube lots, 60 tubes were tested at C95 (n=180 total), 20 at C100
+(n=60 total) and 20 at C0 (n=60 total). One operator performed all runs on one Liat Analyzer.
+Testing occurred over 18 days, with an equal number of tubes from each lot being tested on
+each day. A total of 300 runs were performed in this study.
+Results for all tubes from all lots agreed with the expected results as shown below. One-way
+Analysis of Variance (ANOVA) showed no statistically significant difference in Ct between
+lots (p-value = 0.63 for C95, and 0.52 for C100). Ct %CV due to inter-lot variation
+(calculated as square root of the inter-lot variance (MS) divided by average Ct) was 1.6% for
+C100 and 1.8% for C95 and is summarized below.
+Inter-lot Precision Data
+Liat Tube Lot 1 Liat Tube Lot 2 Liat Tube Lot 3 Total
+Agree- Agree- Agree- Agree-
+ment w/ Avg ment w/ Avg ment w/ Avg ment w/ Avg
+Inf A %CV %CV %CV %CV
+Expected Ct Expected Ct Expected Ct Expected Ct
+Result Result Result Result
+C100 20 / 20 29.5 1.6% 20 / 20 29.7 2.2% 20 / 20 29.4 3.3% 60 / 60 29.6 2.4%
+C95 60 / 60 31.9 2.1% 60 / 60 32.0 2.7% 60 / 60 32.0 1.8% 180 / 180 32.0 2.2%
+C0 20 / 20 42.0 0.0% 20 / 20 42.0 0.0% 20 / 20 42.0 0.0% 60 / 60 42.0 0.0%
+Total 100 / 100 (100%) 100 / 100 (100%) 100 / 100 (100%) 300 / 300 (100%)
+13
+
+[Table 1 on page 13]
+Total
+Agreement	240/240 (100%)	239/240 (99.6%)	240/240 (100%)	719/720
+(99.9%)	99.2%-100.0%
+
+[Table 2 on page 13]
+Inf A	n	% Agreement	Avg Ct	Stdev
+Inter-lot	%CV
+Inter-lot
+C100	60	100%	29.6	0.49	1.6%
+C95	180	100%	32.0	0.59	1.8%
+C0	60	100%	42.0	0.00	0.0%
+
+[Table 3 on page 13]
+	Liat Tube Lot 1			Liat Tube Lot 2			Liat Tube Lot 3			Total		
+Inf A	Agree-
+ment w/
+Expected
+Result	Avg
+Ct	%CV	Agree-
+ment w/
+Expected
+Result	Avg
+Ct	%CV	Agree-
+ment w/
+Expected
+Result	Avg
+Ct	%CV	Agree-
+ment w/
+Expected
+Result	Avg
+Ct	%CV
+C100	20 / 20	29.5	1.6%	20 / 20	29.7	2.2%	20 / 20	29.4	3.3%	60 / 60	29.6	2.4%
+C95	60 / 60	31.9	2.1%	60 / 60	32.0	2.7%	60 / 60	32.0	1.8%	180 / 180	32.0	2.2%
+C0	20 / 20	42.0	0.0%	20 / 20	42.0	0.0%	20 / 20	42.0	0.0%	60 / 60	42.0	0.0%
+Total	100 / 100 (100%)			100 / 100 (100%)			100 / 100 (100%)			300 / 300 (100%)		
+
+--- Page 14 ---
+c. Linearity/assay reportable range:
+Not Applicable
+d. Traceability, Stability, Expected values (controls, calibrators, or methods):
+The Liat Influenza A/B Assay has 3 controls: (1) internal process control, (2) positive control
+and (3) negative control.
+Internal process control
+The internal process control (IPC) comprises a bacteriophage MS2 that is pre-packed in each
+Liat tube. The IPC is designed to be detected at a Ct of ~32 on the Liat Influenza A/B Assay,
+similar to the Ct obtained from the 4x LOD concentration of Influenza viruses. When
+conducting an assay, it is first mixed with sample and then processed through all the test
+steps to monitor both the sample preparation and the RT-PCR reaction performance. The IPC
+RNA is detected in a separate channel by MS2 specific primers and probe.
+Positive Control
+Positive control is provided in the Liat Influenza A/B Assay Quality Control Kit. The
+positive control comprises a pooled sample of inactivated Influenza A and B virus. The
+inactivated virus is obtained from ZeptoMetrix as individual NATtrol Influenza A and B
+Viruses (NATFLUA-ST, A/Singapore/63/04 H1N1 and NATFLUB-ST,
+B/Yamanishi/166/98). NATrol products are prepared from highly purified infectious viruses,
+and are isolated from cell culture. Once purified, the virus is chemically and enzymatically
+treated to alter its surface proteins. This treatment results in a completely intact viral particle
+that is unable to bind, penetrate or infect a host cell. This viral particle, while modified on its
+surface, still retains a complete viral genome in its core, making it the ideal control for all
+steps of amplification assays.
+The individual NATrol viruses are diluted and titered at IQuum to be detected at near LOD
+Ct for Influenza A and B using Liat Influenza A/B Assay. The viruses are then pooled to
+make the positive control solution. Positive control is provided in unit dose quantities as a 5x
+solution. To use the positive control, an operator first dilutes the positive control using UTM
+(also provided in unit dose) by transferring the entire contents of the Dilution UTM tube into
+the positive control tube using a transfer pipette, mixing the sample and then transferring the
+entire mixture into the Liat tube. The Liat tube is then run on a Liat Analyzer according to
+the Instructions for Use.
+The stability of positive control has been assessed using 3 lots. The studies show that the
+positive control is stable for >3 months at 4ºC. The 3 month time point at 4ºC was the last
+point tested and there was no significant change in the detected Inf A and B Ct and
+amplitude. Based on this data, the labeled shelf life of the Quality Control Kit is 3 months.
+The positive control is required to be run during the “Add Lot” process, where the Liat tube
+lot is validated at the end user site. Additional positive control runs may be performed by the
+end-user to confirm the performance of a Liat Analyzer and a Liat tube lot through positive
+target detection, to check if there is a false negative result, or as required by the end user’s
+quality control standards.
+14
+
+--- Page 15 ---
+Negative Control
+Negative control is provided in the Liat Influenza A/B Assay Quality Control Kit. The
+negative control comprises UTM. The solution is provided in unit dose quantity and labeled
+as Dilution UTM. To use the negative control, an operator transfers the entire contents of the
+Dilution UTM tube into the Liat tube using a transfer pipette and runs the assay following the
+Instructions for Use.
+The negative control is required to be run during the “Add Lot” process. Additional negative
+control runs may be performed by the end-user to check if contamination is present resulting
+in a false positive result, or as required by the end user’s quality control standards.
+e. Detection limit:
+LOD studies determine the lowest detectable concentration of influenza virus at which
+greater than or equal to 95% of all replicates test positive. The LOD of the Liat assay for
+Influenza A and Influenza B was determined by limiting dilution studies using titered virus.
+Three strains of Influenza A (A/Brisbane/10/2007, A/Brisbane/59/2007, and A/NY/01/2009)
+and two strains of Influenza B (B/Malaysia/2506/04 and B/Florida/04/06) were used.
+Virus strains obtained from ZeptoMetrix (Buffalo, NY) were cultured and re-titered using
+TCID procedure before their use in LOD determination. Each characterized influenza
+50
+strain was first adjusted to the highest log10 TCID /mL in UTM as diluent. The working
+50
+viral stock was further serially diluted in 10 fold increments in UTM to obtain the test
+concentrations.
+Influenza Strains & Viral Stock Titer Used in LOD Study
+TCID /mL
+Viral Strain Type Source 50
+Supplied
+A/Brisbane/10/2007 A/H3N2 ZeptoMetrix 5.6x104
+A/Brisbane/59/2007 A/H1N1 ZeptoMetrix 1.4x105
+A/NY/01/2009 A/2009 H1N1 ZeptoMetrix 1.7x105
+B/Malaysia/2506/04 B ZeptoMetrix 1.4x105
+B/Florida/04/06 B ZeptoMetrix 1.4x105
+To prepare the testing sample, the virus at different concentrations was spiked into a pooled
+nasopharyngeal swab (NPS) sample matrix. NPS were collected throughout the study period
+from healthy donors that did not show symptoms of flu. The swabs were eluted in UTM,
+pooled, and then tested to confirm that this NPS matrix was negative for Influenza. Virus was
+spiked into the NPS matrix at no more than 5% the final volume to prepare the test sample.
+For each run, 100 μL of the spiked sample was added into the Liat Influenza A/B Assay Tube
+according to the operation procedures indicated in the Liat Influenza A/B Assay Instructions
+for Use (IFU). The Liat Tube was then inserted into the Liat Analyzer. Serial dilutions of the
+15
+
+[Table 1 on page 15]
+Viral Strain	Type	Source	TCID /mL
+50
+Supplied
+A/Brisbane/10/2007	A/H3N2	ZeptoMetrix	5.6x104
+A/Brisbane/59/2007	A/H1N1	ZeptoMetrix	1.4x105
+A/NY/01/2009	A/2009 H1N1	ZeptoMetrix	1.7x105
+B/Malaysia/2506/04	B	ZeptoMetrix	1.4x105
+B/Florida/04/06	B	ZeptoMetrix	1.4x105
+
+--- Page 16 ---
+characterized influenza viruses were tested in triplicates. The lowest concentration at which
+all three replicates tested positive was treated as the tentative LOD for each strain. The LOD
+of each strain was then confirmed by testing at least 20 replicates with concentrations at the
+tentative LOD.
+A total of 188 runs were performed in this study. Runs were performed on 27 Liat Analyzers
+and primarily using 3 lots of Liat tubes.
+The test concentrations and corresponding call rates (positive result/total replicates) for each
+strain are listed below. The LOD of each strain was determined as the lowest concentration
+resulting in positive detection of at least 19 out of 20 replicates.
+LOD Determination
+Stock Virus Test
+Call Ct Ct
+Virus Strain Analyte Concentration Concentration
+Rate Avg %CV
+(TCID /ml) (TCID /ml)
+50 50
+1.0x10-2 0 / 3 - -
+A/Brisbane/10/2007 Inf A 5.6×104
+1.0x10-1 20 / 20 33.4 2.4%
+4.0x10-3 2 / 4 - -
+A/Brisbane/59/2007 Inf A 1.4x105 8.0x10-3 21 / 22 34.7 6.2%
+1.0x10-2 3 / 3 - -
+1.0x10-3 0 / 3 - -
+1.0x10-2 0 / 3 - -
+A/NY/01/2009 Inf A 1.7x105 2.0x10-2 1 / 10 - -
+5.0x10-2 8 / 10 - -
+1.0x10-1 21 / 21 33.1 4.9%
+2.5x10-3 0 / 10 - -
+1.0x10-2 5 / 14 - -
+2.0x10-2 3 / 10 - -
+B/Florida/04/06 Inf B 1.4x105
+4.0x10-2 2 / 4 - -
+8.0x10-2 20 / 20 32.5 3.3%
+1.0x10-1 3 / 3 - -
+1.0x10-3 3 / 5 - -
+B/Malaysia/2506/04 Inf B 1.4x105 2.0x10-3 20 / 20 33.3 2.5%
+1.0x10-2 3 / 3 - -
+The Limit of Detection (LOD) of the Liat Influenza A/B Assay was tested using 3 strains of
+Influenza A (A/Brisbane/10/2007, A/Brisbane/59/2007, and A/NY/01/2009) and 2 strains of
+Influenza B (B/Malaysia/2506/04 and B/Florida/04/06). The LOD was determined by
+16
+
+[Table 1 on page 16]
+Virus Strain	Analyte	Stock Virus
+Concentration
+(TCID /ml)
+50	Test
+Concentration
+(TCID /ml)
+50			Call
+Rate			Ct
+Avg			Ct
+%CV		
+A/Brisbane/10/2007	Inf A	5.6×104	1.0x10-2			0 / 3			-			-		
+			1.0x10-1			20 / 20			33.4			2.4%		
+A/Brisbane/59/2007	Inf A	1.4x105	4.0x10-3			2 / 4			-			-		
+			8.0x10-3			21 / 22			34.7			6.2%		
+			1.0x10-2			3 / 3			-			-		
+A/NY/01/2009	Inf A	1.7x105	1.0x10-3			0 / 3			-			-		
+			1.0x10-2			0 / 3			-			-		
+			2.0x10-2			1 / 10			-			-		
+			5.0x10-2			8 / 10			-			-		
+			1.0x10-1			21 / 21			33.1			4.9%		
+B/Florida/04/06	Inf B	1.4x105	2.5x10-3			0 / 10			-			-		
+			1.0x10-2			5 / 14			-			-		
+			2.0x10-2			3 / 10			-			-		
+			4.0x10-2			2 / 4			-			-		
+				8.0x10-2			20 / 20			32.5			3.3%	
+			1.0x10-1			3 / 3			-			-		
+B/Malaysia/2506/04	Inf B	1.4x105	1.0x10-3			3 / 5			-			-		
+				2.0x10-3			20 / 20			33.3			2.5%	
+			1.0x10-2			3 / 3			-			-		
+
+--- Page 17 ---
+limiting dilution studies using these titered viruses. The viruses were spiked into
+nasopharyngeal swab (NPS) sample matrix, and then tested using the Liat Influenza A/B
+Assay. The LOD was determined as the lowest log virus concentration that was detected
+≥95% of the time (i.e. log concentration at which at least 19 out of 20 replicates tested
+positive). The LOD for 3 strains of Influenza A were 10-2 to 10-1 TCID /mL, while those for
+50
+the 2 strains of Influenza B were 10-3 to 10-1 TCID /mL.
+50
+f. Analytical specificity (reactivity):
+Reactivity study evaluates the ability of the Liat Influenza A/B Assay to detect influenza
+strains representing temporal and geographical diversity. The Liat Influenza A/B Assay was
+evaluated for reactivity with 22 Influenza A strains and 10 Influenza B strains. Influenza A
+strains included 8 seasonal Influenza A/H1 strains, 8 seasonal Influenza A/H3 strains, 3
+Influenza A 2009 H1N1 strains, 3 swine origin Influenza A strains. The Liat Influenza A/B
+Assay detected all strains tested.
+Cultured viral strains were obtained from ZeptoMetrix Corporation (Buffalo, NY), American
+Type Culture Collection (Manassas, VA) and Advanced Biotechnology (Columbia, MD). All
+strains were frozen from the vendor and were accompanied by Certificate of Analysis
+including TCID /mL or CEID /mL titer information.
+50 50
+Each viral strain under test was serially diluted in 10 fold increments in UTM using the same
+procedure as that for the LOD study. The virus was then spiked in negative NPS matrix, and
+100 μL of this spiked sample was tested using the Liat assay.
+Each viral strain was tested in triplicate at the LOD for influenza strains used in LOD studies,
+and at “near LOD” level for other strains. To estimate “near LOD” level, each strain was first
+tested at 1.0×102 TCID /mL or 1.0×102 CEID /mL and then higher or lower concentrations
+50 50
+until a concentration that gave a Ct between 32 and 34 was determined. Given that the Ct at
+LOD was 32-34 based on LOD study data, a Ct value in this range was used to estimate the
+“near LOD” level. This concentration was then tested in triplicate to demonstrate reactivity.
+If less than 3 / 3 runs are detected as positive, viral concentration was increased in log
+increments until triplicate positive results are observed.
+A total of 115 runs were performed in this study. Runs were preformed on primarily 13 Liat
+Analyzers and using 2 lots of Liat tubes.
+Influenza Strains Used for Reactivity Study
+Influenza Strain Supplied Concentration Source
+A/Brisbane/59/2007 1.4×105 TCID /mL ZeptoMetrix
+50
+A/New Caledonia/20/99 3.4×107 TCID /mL ZeptoMetrix
+50
+A/Solomon Island/3/2006 4.2×105 TCID /mL ZeptoMetrix
+50
+A/Mal/302/54 8.9×109 TCID /mL ATCC
+50
+A/Denver/1/57 8.9×108 TCID /mL ATCC
+50
+A/FM/1/47 1.6×109 TCID /mL ATCC2
+50
+A/PR/8/34 3.0×109 TCID /mL AB
+50
+A/Weiss/43 5.6×1010 TCID /mL ATCC
+50
+17
+
+[Table 1 on page 17]
+Influenza Strain	Supplied Concentration		Source
+A/Brisbane/59/2007	1.4×105	TCID /mL
+50	ZeptoMetrix
+A/New Caledonia/20/99	3.4×107	TCID /mL
+50	ZeptoMetrix
+A/Solomon Island/3/2006	4.2×105	TCID /mL
+50	ZeptoMetrix
+A/Mal/302/54	8.9×109	TCID /mL
+50	ATCC
+A/Denver/1/57	8.9×108	TCID /mL
+50	ATCC
+A/FM/1/47	1.6×109	TCID /mL
+50	ATCC2
+A/PR/8/34	3.0×109	TCID /mL
+50	AB
+A/Weiss/43	5.6×1010	TCID /mL
+50	ATCC
+
+--- Page 18 ---
+A/Brisbane/10/2007 5.6×104 TCID /mL ZeptoMetrix
+50
+A/Alice 5.0×108 TCID /mL ATCC
+50
+A/MRC2 8.9×107 TCID /mL ATCC
+50
+A/Hong Kong/8/68 8.9×106 TCID /mL AB
+50
+A/Victoria/3/75 8.9×107 TCID /mL ATCC
+50
+A/Wisconsin/67/05 3.2×106 TCID /mL ZeptoMetrix
+50
+A/Port Chalmers/1/73 1.5×108 TCID /mL ATCC
+50
+A/Aichi/2/68 1.6×108 CEID /mL ATCC
+50
+A/NY/01/2009 1.7×105 TCID /mL ZeptoMetrix
+50
+A/NY/02/2009 2.5×105 TCID /mL ZeptoMetrix
+50
+A/NY/03/2009 1.0×106 TCID /mL ZeptoMetrix
+50
+A/New Jersey/8/76 8.9×106 TCID /mL ATCC
+50
+A/Swine/1976/31 8.9×107 TCID /mL ATCC
+50
+A/Swine/Iowa/15/30 8.9×108 TCID /mL ATCC
+50
+B/Florida/04/06 1.4×105 TCID /mL ZeptoMetrix
+50
+B/Malaysia/2506/04 1.4×105 TCID /mL ZeptoMetrix
+50
+B/Florida/7/04 4.2×105 TCID /mL ZeptoMetrix
+50
+B/Allen/45 1.6×106 CEID /mL ATCC
+50
+B/GL/1739/54 1.6×107 TCID /mL ATCC
+50
+B/Taiwan/2/62 2.8×105 TCID /mL ATCC
+50
+B/Maryland/1/59 8.9×104 TCID /mL ATCC
+50
+B/Mass/3/66 8.9×107 TCID /mL ATCC
+50
+B/Hong Kong/5/72 8.9×106 TCID /mL ATCC
+50
+B/Lee/40 1.4×109 TCID /mL AB
+50
+Reactivity
+Inf A
+Influenza A Strain Type / Subtype Test Concentration Call
+Avg Ct
+Rate
+A/New Caledonia/20/99 Influenza A, seasonal H1 1.0×102 TCID /mL 3 / 3 33.4
+50
+A/Solomon Island/3/2006 Influenza A, seasonal H1 5.0×10-2 TCID /mL 3 / 3 33.3
+50
+A/Mal/302/54 Influenza A, seasonal H1 1.0×103 TCID /mL 3 / 3 33.5
+50
+A/Denver/1/57 Influenza A, seasonal H1 5.0×102 TCID /mL 3 / 3 33.2
+50
+A/FM/1/47 Influenza A, seasonal H1 1.0×102 TCID /mL 3 / 3 33.2
+50
+A/PR/8/34 Influenza A, seasonal H1 2.5×101 TCID /mL 3 / 3 32.3
+50
+A/Weiss/43 Influenza A, seasonal H1 2.5×103 TCID /mL 3 / 3 33.1
+50
+A/Alice Influenza A, seasonal H3 5.0×101 TCID /mL 3 / 3 33.1
+50
+A/MRC2 Influenza A, seasonal H3 1.0×102 TCID /mL 3 / 3 32.8
+50
+A/Hong Kong/8/68 Influenza A, seasonal H3 2.0×101 TCID /mL 3 / 3 33.2
+50
+18
+
+[Table 1 on page 18]
+A/Alice	5.0×108	TCID /mL
+50	ATCC
+A/MRC2	8.9×107	TCID /mL
+50	ATCC
+A/Hong Kong/8/68	8.9×106	TCID /mL
+50	AB
+A/Victoria/3/75	8.9×107	TCID /mL
+50	ATCC
+A/Wisconsin/67/05	3.2×106	TCID /mL
+50	ZeptoMetrix
+A/Port Chalmers/1/73	1.5×108	TCID /mL
+50	ATCC
+A/Aichi/2/68	1.6×108	CEID /mL
+50	ATCC
+A/NY/01/2009	1.7×105	TCID /mL
+50	ZeptoMetrix
+A/NY/02/2009	2.5×105	TCID /mL
+50	ZeptoMetrix
+A/NY/03/2009	1.0×106	TCID /mL
+50	ZeptoMetrix
+A/New Jersey/8/76	8.9×106	TCID /mL
+50	ATCC
+A/Swine/1976/31	8.9×107	TCID /mL
+50	ATCC
+A/Swine/Iowa/15/30	8.9×108	TCID /mL
+50	ATCC
+B/Florida/04/06	1.4×105	TCID /mL
+50	ZeptoMetrix
+B/Malaysia/2506/04	1.4×105	TCID /mL
+50	ZeptoMetrix
+B/Florida/7/04	4.2×105	TCID /mL
+50	ZeptoMetrix
+B/Allen/45	1.6×106	CEID /mL
+50	ATCC
+B/GL/1739/54	1.6×107	TCID /mL
+50	ATCC
+B/Taiwan/2/62	2.8×105	TCID /mL
+50	ATCC
+B/Maryland/1/59	8.9×104	TCID /mL
+50	ATCC
+B/Mass/3/66	8.9×107	TCID /mL
+50	ATCC
+B/Hong Kong/5/72	8.9×106	TCID /mL
+50	ATCC
+B/Lee/40	1.4×109	TCID /mL
+50	AB
+
+[Table 2 on page 18]
+Influenza A Strain	Type / Subtype	Test Concentration	Inf A	
+			Call
+Rate	Avg Ct
+A/New Caledonia/20/99	Influenza A, seasonal H1	1.0×102 TCID /mL
+50	3 / 3	33.4
+A/Solomon Island/3/2006	Influenza A, seasonal H1	5.0×10-2 TCID /mL
+50	3 / 3	33.3
+A/Mal/302/54	Influenza A, seasonal H1	1.0×103 TCID /mL
+50	3 / 3	33.5
+A/Denver/1/57	Influenza A, seasonal H1	5.0×102 TCID /mL
+50	3 / 3	33.2
+A/FM/1/47	Influenza A, seasonal H1	1.0×102 TCID /mL
+50	3 / 3	33.2
+A/PR/8/34	Influenza A, seasonal H1	2.5×101 TCID /mL
+50	3 / 3	32.3
+A/Weiss/43	Influenza A, seasonal H1	2.5×103 TCID /mL
+50	3 / 3	33.1
+A/Alice	Influenza A, seasonal H3	5.0×101 TCID /mL
+50	3 / 3	33.1
+A/MRC2	Influenza A, seasonal H3	1.0×102 TCID /mL
+50	3 / 3	32.8
+A/Hong Kong/8/68	Influenza A, seasonal H3	2.0×101 TCID /mL
+50	3 / 3	33.2
+
+--- Page 19 ---
+A/Victoria/3/75 Influenza A, seasonal H3 2.5×101 TCID /mL 3 / 3 33.0
+50
+A/Wisconsin/67/05 Influenza A, seasonal H3 5.0×10-1 TCID /mL 3 / 3 33.4
+50
+A/Port Chalmers/1/73 Influenza A, seasonal H3 5.0×102 TCID /mL 3 / 3 31.9
+50
+A/Aichi/2/68 Influenza A, seasonal H3 2.0×102 CEID /mL 3 / 3 33.0
+50
+A/NY/02/2009 Influenza A, 2009 H1N1 2.5×10-2 TCID /mL 3 / 3 33.4
+50
+A/NY/03/2009 Influenza A, 2009 H1N1 4.0×10-1 TCID /mL 3 / 3 32.7
+50
+A/New Jersey/8/76 Influenza A, H1N1 non 2009 1.0×101 TCID /mL 3 / 3 31.5
+50
+A/Swine/1976/31 Influenza A, H1N1 non 2009 2.0×101 TCID /mL 3 / 3 33.2
+50
+A/Swine/Iowa/15/30 Influenza A, H1N1 non 2009 2.0×102 TCID /mL 3 / 3 32.8
+50
+Inf B
+Influenza B Strain Type Test Concentration Call
+Avg Ct
+Rate
+B/Florida/7/04 Influenza B 5.0×10-2 TCID /mL 3 / 3 32.2
+50
+B/Allen/45 Influenza B 5.0×10-1 CEID /mL 3 / 3 33.2
+50
+B/GL/1739/54 Influenza B 2.0×101 TCID /mL 3 / 3 31.6
+50
+B/Taiwan/2/62 Influenza B 5.0×10-2 TCID /mL 3 / 3 32.5
+50
+B/Maryland/1/59 Influenza B 5.0×10-3 TCID /mL 3 / 3 33.1
+50
+B/Mass/3/66 Influenza B 1.0×101 TCID /mL 3 / 3 33.2
+50
+B/Hong Kong/5/72 Influenza B 2.5×10-1 TCID /mL 3 / 3 33.5
+50
+B/Lee/40 Influenza B 1.0×100 TCID /mL 3 / 3 32.8
+50
+The Influenza strains tested for reactivity and the concentration of each strain that provided
+3/3 positive results. At the determined “near LOD” level, all triplicate runs for each strain
+were detected as positive, with average Ct in the 32-34 range. Data demonstrates that the Liat
+Influenza A/B Assay is reactive against all strains tested.
+g. Analytical specificity (Cross-reactivity):
+Cross reactivity study evaluates the Liat Influenza A/B Assay’s potential cross-reactivity
+with non-influenza respiratory pathogens and other microorganisms with which the majority
+of the population may have been infected. The Liat assay was evaluated against a panel of 31
+human pathogens. Bacteria were tested at 105–106 CFU/mL. Viruses were tested at 103–105
+TCID /mL. The Liat Influenza A/B Assay showed no cross reactivity for the tested
+50
+organisms. The test panel comprised 15 viral and 16 bacterial strains. Cultured virus and
+bacteria were obtained from ZeptoMetrix Corporation (Buffalo, NY), American Type
+Culture Collection (Manassas, VA) and Advanced Biotechnology (Columbia, MD). All
+cultured viruses were frozen from the vendor and were accompanied by Certificate of
+Analysis including TCID /mL titers. All bacteria were cultured and titered at IQuum
+50
+following receipt from vendor. Bacterial culture and titering were performed based on
+methods described in Bacteriological Analytical Manual.
+Each virus or bacteria was spiked individually into negative NPS matrix with the spiked
+volume not exceeding 5% of the sample volume. The tested concentrations were ≥ 106
+19
+
+[Table 1 on page 19]
+A/Victoria/3/75	Influenza A, seasonal H3	2.5×101 TCID /mL
+50	3 / 3	33.0
+A/Wisconsin/67/05	Influenza A, seasonal H3	5.0×10-1 TCID /mL
+50	3 / 3	33.4
+A/Port Chalmers/1/73	Influenza A, seasonal H3	5.0×102 TCID /mL
+50	3 / 3	31.9
+A/Aichi/2/68	Influenza A, seasonal H3	2.0×102 CEID /mL
+50	3 / 3	33.0
+A/NY/02/2009	Influenza A, 2009 H1N1	2.5×10-2 TCID /mL
+50	3 / 3	33.4
+A/NY/03/2009	Influenza A, 2009 H1N1	4.0×10-1 TCID /mL
+50	3 / 3	32.7
+A/New Jersey/8/76	Influenza A, H1N1 non 2009	1.0×101 TCID /mL
+50	3 / 3	31.5
+A/Swine/1976/31	Influenza A, H1N1 non 2009	2.0×101 TCID /mL
+50	3 / 3	33.2
+A/Swine/Iowa/15/30	Influenza A, H1N1 non 2009	2.0×102 TCID /mL
+50	3 / 3	32.8
+Influenza B Strain	Type	Test Concentration	Inf B	
+			Call
+Rate	Avg Ct
+B/Florida/7/04	Influenza B	5.0×10-2 TCID /mL
+50	3 / 3	32.2
+B/Allen/45	Influenza B	5.0×10-1 CEID /mL
+50	3 / 3	33.2
+B/GL/1739/54	Influenza B	2.0×101 TCID /mL
+50	3 / 3	31.6
+B/Taiwan/2/62	Influenza B	5.0×10-2 TCID /mL
+50	3 / 3	32.5
+B/Maryland/1/59	Influenza B	5.0×10-3 TCID /mL
+50	3 / 3	33.1
+B/Mass/3/66	Influenza B	1.0×101 TCID /mL
+50	3 / 3	33.2
+B/Hong Kong/5/72	Influenza B	2.5×10-1 TCID /mL
+50	3 / 3	33.5
+B/Lee/40	Influenza B	1.0×100 TCID /mL
+50	3 / 3	32.8
+
+--- Page 20 ---
+CFU/mL for bacteria and ≥105 TCID /mL for virus, or the highest titers obtained. One
+50
+hundred microliters (100 μL) of the spiked sample was tested using the Liat Influenza A/B
+Assay. Each pathogen was tested in triplicate. A total of 93 runs were performed in this
+study. Runs were preformed primarily on 9 Liat Analyzers and using 2 lots of Liat assay
+tubes. Negative results in all runs confirmed no cross-reactivity for the pathogens tested.
+Pathogens and Test Levels for Potential Cross-reactivity
+Viral Pathogens Source Test Concentration
+Adenovirus Type 1 ATCC 8.9×105 TCID /mL
+50
+Adenovirus Type 7 ATCC 4.5×104 TCID /mL
+50
+Human Coronavirus 229E ATCC 1.4×103 TCID /mL
+50
+Human Coronavirus OC43 ATCC 7.9×104 TCID /mL
+50
+Enterovirus ATCC 1×105 TCID /mL
+50
+Human Parainfluenza Type 1 ATCC 2.8×103 TCID /mL
+50
+Human Parainfluenza Type 2 ATCC 1.4×105 TCID /mL
+50
+Human Parainfluenza Type 3 ATCC 1.6×105 TCID /mL
+50
+Measles ATCC 7.9×104 TCID /mL
+50
+Human Metapneumovirus ZeptoMetrix 7×103 TCID /mL
+50
+Mumps virus ATCC 7.9×104 TCID /mL
+50
+Respiratory syncytial virus type B ATCC 1.4×104 TCID /mL
+50
+Rhinovirus Type 1A ATCC 1.6×105 TCID /mL
+50
+Cytomegalovirus ATCC 4.5×104 TCID /mL
+50
+Epstein Barr virus AB 1.9×105 copies/mL
+Bordetella pertussis ATCC 1.8×105 CFU/mL
+Chlamydia pneumoniae ATCC 8×104 TCID /mL
+50
+Corynebacterium sp. ATCC 5.0×106 CFU/mL
+Escherichia coli ATCC 6.6×106 CFU/mL
+Haemophilus influenzae ATCC 3×106 CFU/mL
+Lactobacillus sp. ATCC 1.6×106 CFU/mL
+Legionella pneumophila ATCC 7×106 CFU/mL
+Moraxella catarrhalis ATCC 5.8×106 CFU/mL
+Neisseria meningitidis ATCC 3.2×106 CFU/mL
+Neisseria sp. ATCC 1.8×106 CFU/mL
+Pseudomonas aeruginosa ATCC 1.6×106 CFU/mL
+Staphylococcus aureus ATCC 4.5×106 CFU/mL
+Staphylococcus epidermidis ATCC 6×106 CFU/mL
+Streptococcus pneumoniae ATCC 1.9×106 CFU/mL
+Streptococcus pyogenes ATCC 3.7×106 CFU/mL
+20
+
+[Table 1 on page 20]
+Viral Pathogens	Source	Test Concentration
+Adenovirus Type 1	ATCC	8.9×105 TCID /mL
+50
+Adenovirus Type 7	ATCC	4.5×104 TCID /mL
+50
+Human Coronavirus 229E	ATCC	1.4×103 TCID /mL
+50
+Human Coronavirus OC43	ATCC	7.9×104 TCID /mL
+50
+Enterovirus	ATCC	1×105 TCID /mL
+50
+Human Parainfluenza Type 1	ATCC	2.8×103 TCID /mL
+50
+Human Parainfluenza Type 2	ATCC	1.4×105 TCID /mL
+50
+Human Parainfluenza Type 3	ATCC	1.6×105 TCID /mL
+50
+Measles	ATCC	7.9×104 TCID /mL
+50
+Human Metapneumovirus	ZeptoMetrix	7×103 TCID /mL
+50
+Mumps virus	ATCC	7.9×104 TCID /mL
+50
+Respiratory syncytial virus type B	ATCC	1.4×104 TCID /mL
+50
+Rhinovirus Type 1A	ATCC	1.6×105 TCID /mL
+50
+Cytomegalovirus	ATCC	4.5×104 TCID /mL
+50
+Epstein Barr virus	AB	1.9×105 copies/mL
+Bordetella pertussis	ATCC	1.8×105 CFU/mL
+Chlamydia pneumoniae	ATCC	8×104 TCID /mL
+50
+Corynebacterium sp.	ATCC	5.0×106 CFU/mL
+Escherichia coli	ATCC	6.6×106 CFU/mL
+Haemophilus influenzae	ATCC	3×106 CFU/mL
+Lactobacillus sp.	ATCC	1.6×106 CFU/mL
+Legionella pneumophila	ATCC	7×106 CFU/mL
+Moraxella catarrhalis	ATCC	5.8×106 CFU/mL
+Neisseria meningitidis	ATCC	3.2×106 CFU/mL
+Neisseria sp.	ATCC	1.8×106 CFU/mL
+Pseudomonas aeruginosa	ATCC	1.6×106 CFU/mL
+Staphylococcus aureus	ATCC	4.5×106 CFU/mL
+Staphylococcus epidermidis	ATCC	6×106 CFU/mL
+Streptococcus pneumoniae	ATCC	1.9×106 CFU/mL
+Streptococcus pyogenes	ATCC	3.7×106 CFU/mL
+
+--- Page 21 ---
+Streptococcus salivarius ATCC 4.3×106 CFU/mL
+h. Interfering Microorganisms:
+Interfering microorganism study evaluates whether non-influenza respiratory pathogens and
+other microorganisms with which the majority of the population may have been infected can
+interfere in the detection of Influenza A or B by the Liat assay. The panel of 31 human
+pathogens tested in the cross-reactivity study was tested for potential interference. Bacteria
+were tested at 105–106 CFU/mL and viruses were tested at 103–105 TCID /mL in the
+50
+presence of either A/Brisbane/59/2007 or B/Malaysia/2506/04 at 3x LOD concentration in
+negative NPS matrix. One hundred microliters (100 μL) of the spiked sample was tested
+using the Liat Influenza A/B Assay. Each microorganism was tested in triplicate with each of
+A/Brisbane/59/2007 or B/Malaysia/2506/04. Results demonstrate that the presence of the
+tested microorganisms do not interfere with the detection of Inf A or Inf B.
+Interfering Microorganisms – Influenza A Detection
+A/Brisbane/59/2007 (2.4×10-2 TCID /mL)
+Pathogen 50
+Pathogen Call Inf A Call Inf B Avg
+Concentration
+Rate Avg Ct Rate Ct
+Control - 3 / 3 32.0 0 / 3 42.0
+Adenovirus Type 1 8.9×105 TCID /mL 3 / 3 32.9 0 / 3 42.0
+50
+Adenovirus Type 7 4.5×104 TCID /mL 3 / 3 32.1 0 / 3 42.0
+50
+Human Coronavirus 229E 1.4×103 TCID /mL 3 / 3 32.4 0 / 3 42.0
+50
+Human Coronavirus OC43 7.9×104 TCID /mL 3 / 3 32.5 0 / 3 42.0
+50
+Enterovirus 1×105 TCID /mL 3 / 3 32.4 0 / 3 42.0
+50
+Human Parainfluenza Type 1 2.8×103 TCID /mL 3 / 3 32.6 0 / 3 42.0
+50
+Human Parainfluenza Type 2 1.4×105 TCID /mL 3 / 3 31.1 0 / 3 42.0
+50
+Human Parainfluenza Type 3 1.6×105 TCID /mL 3 / 3 32.3 0 / 3 42.0
+50
+Measles 7.9×104 TCID /mL 3 / 3 32.2 0 / 3 42.0
+50
+Human Metapneumovirus 7×103 TCID /mL 3 / 3 32.8 0 / 3 42.0
+50
+Mumps virus 7.9×104 TCID /mL 3 / 3 33.1 0 / 3 42.0
+50
+Respiratory syncytial virus type B 1.4×104 TCID /mL 3 / 3 32.2 0 / 3 42.0
+50
+Rhinovirus Type 1A 1.6×105 TCID /mL 3 / 3 33.2 0 / 3 42.0
+50
+Cytomegalovirus 4.5×104 TCID /mL 3 / 3 31.7 0 / 3 42.0
+50
+Epstein Barr virus 1.9×105 copies/mL 3 / 3 33.2 0 / 3 42.0
+Bordetella pertussis 1.8×105 CFU/mL 3 / 3 32.7 0 / 3 42.0
+Chlamydia pneumoniae 8×104 TCID /mL 3 / 3 32.8 0 / 3 42.0
+50
+Corynebacterium sp. 5.0×106 CFU/mL 3 / 3 32.5 0 / 3 42.0
+Escherichia coli 6.6×106 CFU/mL 3 / 3 33.0 0 / 3 42.0
+Haemophilus influenzae 3×106 CFU/mL 3 / 3 32.9 0 / 3 42.0
+21
+
+[Table 1 on page 21]
+Streptococcus salivarius	ATCC	4.3×106 CFU/mL
+
+[Table 2 on page 21]
+Pathogen	Pathogen
+Concentration	A/Brisbane/59/2007 (2.4×10-2 TCID /mL)
+50			
+		Call
+Rate	Inf A
+Avg Ct	Call
+Rate	Inf B Avg
+Ct
+Control	-	3 / 3	32.0	0 / 3	42.0
+Adenovirus Type 1	8.9×105 TCID /mL
+50	3 / 3	32.9	0 / 3	42.0
+Adenovirus Type 7	4.5×104 TCID /mL
+50	3 / 3	32.1	0 / 3	42.0
+Human Coronavirus 229E	1.4×103 TCID /mL
+50	3 / 3	32.4	0 / 3	42.0
+Human Coronavirus OC43	7.9×104 TCID /mL
+50	3 / 3	32.5	0 / 3	42.0
+Enterovirus	1×105 TCID /mL
+50	3 / 3	32.4	0 / 3	42.0
+Human Parainfluenza Type 1	2.8×103 TCID /mL
+50	3 / 3	32.6	0 / 3	42.0
+Human Parainfluenza Type 2	1.4×105 TCID /mL
+50	3 / 3	31.1	0 / 3	42.0
+Human Parainfluenza Type 3	1.6×105 TCID /mL
+50	3 / 3	32.3	0 / 3	42.0
+Measles	7.9×104 TCID /mL
+50	3 / 3	32.2	0 / 3	42.0
+Human Metapneumovirus	7×103 TCID /mL
+50	3 / 3	32.8	0 / 3	42.0
+Mumps virus	7.9×104 TCID /mL
+50	3 / 3	33.1	0 / 3	42.0
+Respiratory syncytial virus type B	1.4×104 TCID /mL
+50	3 / 3	32.2	0 / 3	42.0
+Rhinovirus Type 1A	1.6×105 TCID /mL
+50	3 / 3	33.2	0 / 3	42.0
+Cytomegalovirus	4.5×104 TCID /mL
+50	3 / 3	31.7	0 / 3	42.0
+Epstein Barr virus	1.9×105 copies/mL	3 / 3	33.2	0 / 3	42.0
+Bordetella pertussis	1.8×105 CFU/mL	3 / 3	32.7	0 / 3	42.0
+Chlamydia pneumoniae	8×104 TCID /mL
+50	3 / 3	32.8	0 / 3	42.0
+Corynebacterium sp.	5.0×106 CFU/mL	3 / 3	32.5	0 / 3	42.0
+Escherichia coli	6.6×106 CFU/mL	3 / 3	33.0	0 / 3	42.0
+Haemophilus influenzae	3×106 CFU/mL	3 / 3	32.9	0 / 3	42.0
+
+--- Page 22 ---
+Lactobacillus sp. 1.6×106 CFU/mL 3 / 3 32.4 0 / 3 42.0
+Legionella pneumophila 7×106 CFU/mL 3 / 3 32.7 0 / 3 42.0
+Moraxella catarrhalis 5.8×106 CFU/mL 3 / 3 33.0 0 / 3 42.0
+Neisseria meningitidis 3.2×106 CFU/mL 3 / 3 33.2 0 / 3 42.0
+Neisseria sp. 1.8×106 CFU/mL 3 / 3 32.8 0 / 3 42.0
+Pseudomonas aeruginosa 1.6×106 CFU/mL 3 / 3 31.5 0 / 3 42.0
+Staphylococcus aureus 4.5×106 CFU/mL 3 / 3 32.7 0 / 3 42.0
+Staphylococcus epidermidis 6×106 CFU/mL 3 / 3 32.9 0 / 3 42.0
+Streptococcus pneumoniae 1.9×106 CFU/mL 3 / 3 32.8 0 / 3 42.0
+Streptococcus pyogenes 3.7×106 CFU/mL 3 / 3 31.8 0 / 3 42.0
+Streptococcus salivarius 4.3×106 CFU/mL 3 / 3 32.6 0 / 3 42.0
+Interfering Microorganisms – Influenza B Detection
+B/Malaysia/2506/04 (6.0×10-3 TCID /mL)
+Pathogen 50
+Pathogen Call Inf A Call Inf B Avg
+Concentration
+Rate Avg Ct Rate Ct
+Control - 0 / 3 42.0 3 / 3 31.1
+Adenovirus Type 1 8.9×105 TCID /mL 0 / 3 42.0 3 / 3 32.1
+50
+Adenovirus Type 7 4.5×104 TCID /mL 0 / 3 42.0 3 / 3 33.0
+50
+Human Coronavirus 229E 1.4×103 TCID /mL 0 / 3 42.0 3 / 3 31.3
+50
+Human Coronavirus OC43 7.9×104 TCID /mL 0 / 3 42.0 3 / 3 32.1
+50
+Enterovirus 1×105 TCID /mL 0 / 3 42.0 3 / 3 31.5
+50
+Human Parainfluenza Type 1 2.8×103 TCID /mL 0 / 3 42.0 3 / 3 31.9
+50
+Human Parainfluenza Type 2 1.4×105 TCID /mL 0 / 3 42.0 3 / 3 32.4
+50
+Human Parainfluenza Type 3 1.6×105 TCID /mL 0 / 3 42.0 3 / 3 34.5
+50
+Measles 7.9×104 TCID /mL 0 / 3 42.0 3 / 3 31.6
+50
+Human Metapneumovirus 7×103 TCID /mL 0 / 3 42.0 3 / 3 32.2
+50
+Mumps virus 7.9×104 TCID /mL 0 / 3 42.0 3 / 3 31.2
+50
+Respiratory syncytial virus type B 1.4×104 TCID /mL 0 / 3 42.0 3 / 3 31.7
+50
+Rhinovirus Type 1A 1.6×105 TCID /mL 0 / 3 42.0 3 / 3 31.9
+50
+Cytomegalovirus 4.5×104 TCID /mL 0 / 3 42.0 3 / 3 31.2
+50
+Epstein Barr virus 1.9×105 copies/mL 0 / 3 42.0 3 / 3 30.9
+Bordetella pertussis 1.8×105 CFU/mL 0 / 3 42.0 3 / 3 33.3
+Chlamydia pneumoniae 8×104 TCID /mL 0 / 3 42.0 3 / 3 32.2
+50
+Corynebacterium sp. 5.0×106 CFU/mL 0 / 3 42.0 3 / 3 33.9
+Escherichia coli 6.6×106 CFU/mL 0 / 3 42.0 3 / 3 31.3
+22
+
+[Table 1 on page 22]
+Lactobacillus sp.	1.6×106 CFU/mL	3 / 3	32.4	0 / 3	42.0
+Legionella pneumophila	7×106 CFU/mL	3 / 3	32.7	0 / 3	42.0
+Moraxella catarrhalis	5.8×106 CFU/mL	3 / 3	33.0	0 / 3	42.0
+Neisseria meningitidis	3.2×106 CFU/mL	3 / 3	33.2	0 / 3	42.0
+Neisseria sp.	1.8×106 CFU/mL	3 / 3	32.8	0 / 3	42.0
+Pseudomonas aeruginosa	1.6×106 CFU/mL	3 / 3	31.5	0 / 3	42.0
+Staphylococcus aureus	4.5×106 CFU/mL	3 / 3	32.7	0 / 3	42.0
+Staphylococcus epidermidis	6×106 CFU/mL	3 / 3	32.9	0 / 3	42.0
+Streptococcus pneumoniae	1.9×106 CFU/mL	3 / 3	32.8	0 / 3	42.0
+Streptococcus pyogenes	3.7×106 CFU/mL	3 / 3	31.8	0 / 3	42.0
+Streptococcus salivarius	4.3×106 CFU/mL	3 / 3	32.6	0 / 3	42.0
+
+[Table 2 on page 22]
+Pathogen	Pathogen
+Concentration	B/Malaysia/2506/04 (6.0×10-3 TCID /mL)
+50			
+		Call
+Rate	Inf A
+Avg Ct	Call
+Rate	Inf B Avg
+Ct
+Control	-	0 / 3	42.0	3 / 3	31.1
+Adenovirus Type 1	8.9×105 TCID /mL
+50	0 / 3	42.0	3 / 3	32.1
+Adenovirus Type 7	4.5×104 TCID /mL
+50	0 / 3	42.0	3 / 3	33.0
+Human Coronavirus 229E	1.4×103 TCID /mL
+50	0 / 3	42.0	3 / 3	31.3
+Human Coronavirus OC43	7.9×104 TCID /mL
+50	0 / 3	42.0	3 / 3	32.1
+Enterovirus	1×105 TCID /mL
+50	0 / 3	42.0	3 / 3	31.5
+Human Parainfluenza Type 1	2.8×103 TCID /mL
+50	0 / 3	42.0	3 / 3	31.9
+Human Parainfluenza Type 2	1.4×105 TCID /mL
+50	0 / 3	42.0	3 / 3	32.4
+Human Parainfluenza Type 3	1.6×105 TCID /mL
+50	0 / 3	42.0	3 / 3	34.5
+Measles	7.9×104 TCID /mL
+50	0 / 3	42.0	3 / 3	31.6
+Human Metapneumovirus	7×103 TCID /mL
+50	0 / 3	42.0	3 / 3	32.2
+Mumps virus	7.9×104 TCID /mL
+50	0 / 3	42.0	3 / 3	31.2
+Respiratory syncytial virus type B	1.4×104 TCID /mL
+50	0 / 3	42.0	3 / 3	31.7
+Rhinovirus Type 1A	1.6×105 TCID /mL
+50	0 / 3	42.0	3 / 3	31.9
+Cytomegalovirus	4.5×104 TCID /mL
+50	0 / 3	42.0	3 / 3	31.2
+Epstein Barr virus	1.9×105 copies/mL	0 / 3	42.0	3 / 3	30.9
+Bordetella pertussis	1.8×105 CFU/mL	0 / 3	42.0	3 / 3	33.3
+Chlamydia pneumoniae	8×104 TCID /mL
+50	0 / 3	42.0	3 / 3	32.2
+Corynebacterium sp.	5.0×106 CFU/mL	0 / 3	42.0	3 / 3	33.9
+Escherichia coli	6.6×106 CFU/mL	0 / 3	42.0	3 / 3	31.3
+
+--- Page 23 ---
+Haemophilus influenzae 3×106 CFU/mL 0 / 3 42.0 3 / 3 34.6
+Lactobacillus sp. 1.6×106 CFU/mL 0 / 3 42.0 3 / 3 34.0
+Legionella pneumophila 7×106 CFU/mL 0 / 3 42.0 3 / 3 34.1
+Moraxella catarrhalis 5.8×106 CFU/mL 0 / 3 42.0 3 / 3 35.1
+Neisseria meningitidis 3.2×106 CFU/mL 0 / 3 42.0 3 / 3 33.7
+Neisseria sp. 1.8×106 CFU/mL 0 / 3 42.0 3 / 3 34.1
+Pseudomonas aeruginosa 1.6×106 CFU/mL 0 / 3 42.0 3 / 3 34.1
+Staphylococcus aureus 4.5×106 CFU/mL 0 / 3 42.0 3 / 3 33.6
+Staphylococcus epidermidis 6×106 CFU/mL 0 / 3 42.0 3 / 3 34.9
+Streptococcus pneumoniae 1.9×106 CFU/mL 0 / 3 42.0 3 / 3 32.5
+Streptococcus pyogenes 3.7×106 CFU/mL 0 / 3 42.0 3 / 3 33.0
+Streptococcus salivarius 4.3×106 CFU/mL 0 / 3 42.0 3 / 3 32.9
+A total of 192 runs were performed in this study. Runs were preformed on 18 Liat Analyzers
+and using 3 lots of Liat tubes.
+i. Interfering substances
+The Liat Influenza A/B Assay was evaluated with potentially interfering substances that may
+be encountered in respiratory specimens. Medically and/or physiologically relevant
+concentrations of potential interferents were tested with 2 influenza A strains and 2 influenza
+B strains at 3x LOD (10-1–10-2 TCID /mL). Results showed that substances tested did not
+50
+interfere in the detection of influenza A and B strains.
+Interfering Substance Panel
+Potential Interferent Active Ingredient Concentration
+Mucin 0.1 mg/ml and 25
+Purified mucin protein
+Bovine submaxillary gland, type I-S mg/ml
+Blood - 5% (v/v)
+Nasal spray – Afrin Oxymetazoline 5% (v/v)
+Nasal corticosteroids – Veramyst Fluticasone 5% (v/v)
+Galphimia glauca, Histaminum
+Nasal gel – Zicam 5% (v/v)
+hydrochloricum, Luffa operculata, Sulphur
+Throat lozenges, oral anesthetic and
+Benzocaine, Menthol 5 mg/ml
+analgesic – Cepacol
+Antibiotic, nasal ointment – Bactroban Mupirocin 5 mg/ml
+Antiviral drug – Relenza Zanamivir 5 mg/ml
+Antiviral drug – Tamiflu Oseltamivir 7.5 mg/ml
+Antimicrobial, systemic Tobramycin 4 μg/ml
+23
+
+[Table 1 on page 23]
+Haemophilus influenzae	3×106 CFU/mL	0 / 3	42.0	3 / 3	34.6
+Lactobacillus sp.	1.6×106 CFU/mL	0 / 3	42.0	3 / 3	34.0
+Legionella pneumophila	7×106 CFU/mL	0 / 3	42.0	3 / 3	34.1
+Moraxella catarrhalis	5.8×106 CFU/mL	0 / 3	42.0	3 / 3	35.1
+Neisseria meningitidis	3.2×106 CFU/mL	0 / 3	42.0	3 / 3	33.7
+Neisseria sp.	1.8×106 CFU/mL	0 / 3	42.0	3 / 3	34.1
+Pseudomonas aeruginosa	1.6×106 CFU/mL	0 / 3	42.0	3 / 3	34.1
+Staphylococcus aureus	4.5×106 CFU/mL	0 / 3	42.0	3 / 3	33.6
+Staphylococcus epidermidis	6×106 CFU/mL	0 / 3	42.0	3 / 3	34.9
+Streptococcus pneumoniae	1.9×106 CFU/mL	0 / 3	42.0	3 / 3	32.5
+Streptococcus pyogenes	3.7×106 CFU/mL	0 / 3	42.0	3 / 3	33.0
+Streptococcus salivarius	4.3×106 CFU/mL	0 / 3	42.0	3 / 3	32.9
+
+[Table 2 on page 23]
+Potential Interferent	Active Ingredient	Concentration
+Mucin
+Bovine submaxillary gland, type I-S	Purified mucin protein	0.1 mg/ml and 25
+mg/ml
+Blood	-	5% (v/v)
+Nasal spray – Afrin	Oxymetazoline	5% (v/v)
+Nasal corticosteroids – Veramyst	Fluticasone	5% (v/v)
+Nasal gel – Zicam	Galphimia glauca, Histaminum
+hydrochloricum, Luffa operculata, Sulphur	5% (v/v)
+Throat lozenges, oral anesthetic and
+analgesic – Cepacol	Benzocaine, Menthol	5 mg/ml
+Antibiotic, nasal ointment – Bactroban	Mupirocin	5 mg/ml
+Antiviral drug – Relenza	Zanamivir	5 mg/ml
+Antiviral drug – Tamiflu	Oseltamivir	7.5 mg/ml
+Antimicrobial, systemic	Tobramycin	4 μg/ml
+
+--- Page 24 ---
+Concentration of Influenza Stains used in Interfering Substance Study
+Concentration (3x
+Strain
+LOD)
+A/Brisbane/10/07 3.0×10-1 TCID /mL
+50
+A/Brisbane/59/07 2.4×10-2 TCID /mL
+50
+B/Florida/04/06 2.4×10-1 TCID /mL
+50
+B/Malaysia/2506/04 6.0×10-3 TCID /mL
+50
+Each potential interferent was individually spiked into negative NPS matrix at the indicated
+concentration along with one of the 4 influenza viruses. One hundred microliters (100 μL) of
+these spiked samples were tested using the Liat assay. Each interferent and influenza virus
+combination was tested in triplicate. Results were compared against a control containing no
+spiked interferent. Nasal administered Influenza vaccine was not evaluated as part of this
+study, and therefore the performance of this device in the presence of this potential
+interferent can not be evaluated. A statement in the warnings and precautions has been
+included.
+A total of 132 runs were performed in this study. Runs were preformed primarily on 19 Liat
+Analyzers and using 2 lots of Liat tubes.
+All triplicate runs agreed with the expected results for all interfering substances tested. The
+average Ct for testing each interfering substance is also shown below. Results showed that
+substances tested did not interfere in the detection of influenza A and B strains.
+Interfering Substance Results
+A/Brisbane/10/07 A/Brisbane/59/07 B/Florida/04/06 B/Malaysia/2506/04
+Potential
+Conc. Inf A Inf A Inf A Inf A Inf B Inf B Inf B Inf B
+Interferent
+Detected Ct Avg Detected Ct Avg Detected Ct Avg Detected Ct Avg
+Control - 3 / 3 30.2 3 / 3 31.6 3 / 3 31.5 3 / 3 32.0
+Afrin 5% (v/v) 3 / 3 31.2 3 / 3 32.9 3 / 3 30.7 3 / 3 31.3
+Blood 5% (v/v) 3 / 3 30.7 3 / 3 32.2 3 / 3 31.0 3 / 3 31.9
+Cepacol 5 mg/ml 3 / 3 30.9 3 / 3 33.2 3 / 3 31.1 3 / 3 31.6
+Mucin 0.1 mg/ml 3 / 3 30.4 3 / 3 31.7 3 / 3 30.3 3 / 3 31.2
+Mupirocin 5 mg/ml 3 / 3 31.0 3 / 3 32.3 3 / 3 30.8 3 / 3 31.1
+Relenza 5 mg/ml 3 / 3 31.1 3 / 3 32.8 3 / 3 30.3 3 / 3 31.1
+Tamiflu 7.5 mg/ml 3 / 3 31.9 3 / 3 33.6 3 / 3 30.9 3 / 3 32.9
+Tobramycin 4 μg/ml 3 / 3 30.1 4 / 3 32.4 3 / 3 32.0 3 / 3 30.6
+Veramyst 5% (v/v) 3 / 3 31.2 3 / 3 32.6 3 / 3 30.5 3 / 3 31.7
+Zicam 5% (v/v) 3 / 3 30.6 3 / 3 32.4 3 / 3 30.7 3 / 3 30.9
+j. Fresh vs. Frozen Equivalency
+The Liat Influenza A/B Assay was tested by comparing its performance using fresh and
+frozen specimens. One Influenza A strain (A/Brisbane/10/07) and one Influenza B strain
+(B/Malaysia/2506/04) were individually spiked into negative NPS matrix at different levels
+of viral load, including near LOD, and levels reflecting the clinical range. For each strain, 60
+24
+
+[Table 1 on page 24]
+Strain	Concentration (3x
+LOD)
+A/Brisbane/10/07	3.0×10-1 TCID /mL
+50
+A/Brisbane/59/07	2.4×10-2 TCID /mL
+50
+B/Florida/04/06	2.4×10-1 TCID /mL
+50
+B/Malaysia/2506/04	6.0×10-3 TCID /mL
+50
+
+[Table 2 on page 24]
+Potential
+Interferent	Conc.	A/Brisbane/10/07		A/Brisbane/59/07		B/Florida/04/06		B/Malaysia/2506/04	
+		Inf A
+Detected	Inf A
+Ct Avg	Inf A
+Detected	Inf A
+Ct Avg	Inf B
+Detected	Inf B
+Ct Avg	Inf B
+Detected	Inf B
+Ct Avg
+Control	-	3 / 3	30.2	3 / 3	31.6	3 / 3	31.5	3 / 3	32.0
+Afrin	5% (v/v)	3 / 3	31.2	3 / 3	32.9	3 / 3	30.7	3 / 3	31.3
+Blood	5% (v/v)	3 / 3	30.7	3 / 3	32.2	3 / 3	31.0	3 / 3	31.9
+Cepacol	5 mg/ml	3 / 3	30.9	3 / 3	33.2	3 / 3	31.1	3 / 3	31.6
+Mucin	0.1 mg/ml	3 / 3	30.4	3 / 3	31.7	3 / 3	30.3	3 / 3	31.2
+Mupirocin	5 mg/ml	3 / 3	31.0	3 / 3	32.3	3 / 3	30.8	3 / 3	31.1
+Relenza	5 mg/ml	3 / 3	31.1	3 / 3	32.8	3 / 3	30.3	3 / 3	31.1
+Tamiflu	7.5 mg/ml	3 / 3	31.9	3 / 3	33.6	3 / 3	30.9	3 / 3	32.9
+Tobramycin	4 μg/ml	3 / 3	30.1	4 / 3	32.4	3 / 3	32.0	3 / 3	30.6
+Veramyst	5% (v/v)	3 / 3	31.2	3 / 3	32.6	3 / 3	30.5	3 / 3	31.7
+Zicam	5% (v/v)	3 / 3	30.6	3 / 3	32.4	3 / 3	30.7	3 / 3	30.9
+
+--- Page 25 ---
+samples were tested immediately while another 60 samples were frozen at -80°C for 7 days,
+thawed and then tested. The strains, test concentration, and number of replicates (n) are
+shown below.
+Comparing fresh and frozen sample results, Ct showed a delay of 0.5 Ct on average for flu A
+and 1.2 Ct on average for flu B. Such Ct delay reflects the degradation of virus during freeze-
+thaw cycle and is well established in the literature. However, fresh and frozen samples
+demonstrated 100% detection across all levels of viral load, including those near LOD. This
+demonstrates that sample freeze thaw had no effect on the detection of Influenza A and B by
+the Liat Influenza A/B Assay. A total of 240 runs were performed in this study. Runs were
+preformed on primarily 16 Liat Analyzers and using 1 lot of Liat tubes.
+Freeze Thaw Study Results
+Fresh Frozen
+Conc. Call Avg Call Avg
+Inf x LOD n Stdev %CV Stdev %CV
+(TCID /mL) Rate Ct Rate Ct
+50
+3 3.00E-01 30 30 / 30 30.8 0.40 1.3% 30 / 30 31.4 0.47 1.5%
+20 2.00E+00 10 10 / 10 27.9 0.31 1.1% 10 / 10 28.5 0.28 1.0%
+200 2.00E+01 10 10 / 10 24.7 0.19 0.8% 10 / 10 25.0 0.27 1.1%
+2,000 2.00E+02 5 5 / 5 21.3 0.18 0.9% 5 / 5 21.7 0.27 1.2%
+70/01/enabsirB/A
+20,000 2.00E+03 5 5 / 5 17.4 0.19 1.1% 5 / 5 17.9 0.17 0.9%
+3 6.00E-03 30 30 / 30 31.5 1.10 3.5% 30 / 30 33.2 1.03 3.1%
+20 4.00E-02 10 10 / 10 28.8 0.92 3.2% 10 / 10 29.7 0.77 2.6%
+200 4.00E-01 10 10 / 10 25.8 0.44 1.7% 10 / 10 26.6 0.77 2.9%
+2,000 4.00E+00 5 5 / 5 22.7 0.25 1.1% 5 / 5 23.8 0.41 1.7%
+40/6052/aisyalaM/B
+50,000 1.00E+02 5 5 / 5 17.4 0.19 1.1% 5 / 5 18.7 0.37 2.0%
+k. Assay cut-off:
+The PCR crossing threshold (Ct) for different Influenza stains at LOD was determined to be
+33.5 ± 0.8 (average ± standard deviation), with the maximum Ct average of 34.7. Using
+Probit analysis for two Influenza strains (B/Florida/04/06 and A/NY/01/2009), the lowest Ct
+was determined by linear regression. The Ct at the lowest detectable virus concentration (as
+determined by Probit analysis) was estimated to be 37.3 for B/Florida/04/06 and 38 for
+A/NY/01/2009. A Ct cutoff of 38.5 was selected for both Influenza A and Influenza B. In
+order to reliably detect the Ct of 38.5 an additional 3.5 cycles are run after the indicated cut-
+off Ct resulting in a total of 42 PCR cycles.
+l. Carry-over/Cross-contamination:
+The Liat Influenza A/B Assay utilizes a single-use consumable. All reagents are pre-packed
+and stored in unit-dose quantities in tube segments contained within the disposable Liat tube.
+Once the sample is loaded into the Liat tube, the tube remains closed during the entire assay
+25
+
+[Table 1 on page 25]
+				Fresh				Frozen			
+Inf	x LOD	Conc.
+n
+(TCID /mL)
+50		Call
+Rate	Avg
+Ct	Stdev	%CV	Call
+Rate	Avg
+Ct	Stdev	%CV
+70/01/enabsirB/A	3	3.00E-01	30	30 / 30	30.8	0.40	1.3%	30 / 30	31.4	0.47	1.5%
+	20	2.00E+00	10	10 / 10	27.9	0.31	1.1%	10 / 10	28.5	0.28	1.0%
+	200	2.00E+01	10	10 / 10	24.7	0.19	0.8%	10 / 10	25.0	0.27	1.1%
+	2,000	2.00E+02	5	5 / 5	21.3	0.18	0.9%	5 / 5	21.7	0.27	1.2%
+	20,000	2.00E+03	5	5 / 5	17.4	0.19	1.1%	5 / 5	17.9	0.17	0.9%
+40/6052/aisyalaM/B	3	6.00E-03	30	30 / 30	31.5	1.10	3.5%	30 / 30	33.2	1.03	3.1%
+	20	4.00E-02	10	10 / 10	28.8	0.92	3.2%	10 / 10	29.7	0.77	2.6%
+	200	4.00E-01	10	10 / 10	25.8	0.44	1.7%	10 / 10	26.6	0.77	2.9%
+	2,000	4.00E+00	5	5 / 5	22.7	0.25	1.1%	5 / 5	23.8	0.41	1.7%
+	50,000	1.00E+02	5	5 / 5	17.4	0.19	1.1%	5 / 5	18.7	0.37	2.0%
+
+--- Page 26 ---
+processing. Additionally, each Liat Analyzer performs one run on one sample at a time. As
+such, given the sealed single-use nature of the consumable, the risk of carry-over or cross-
+contamination is negligible.
+2. Comparison studies:
+a. Method comparison with predicate device:
+Not applicable, performance of the assay was evaluated in comparison to the gold
+standard/reference method, viral culture followed by DFA and/or viral culture followed by
+sequencing.
+b. Matrix comparison:
+Not applicable
+3. Clinical studies:
+a. Clinical Sensitivity and Specificity:
+Prospective Samples
+Prospective samples were collected at 6 clinical sites between 12-Feburary-2009 to 26-
+March-2009. Patients were enrolled based on the inclusion/exclusion criteria summarized in
+the table below.
+Inclusion criteria
+1 Symptomatic: Patients exhibiting 2 or more flu-like clinical signs and symptoms within
+the past 24-48 hours. Signs and symptoms of the flu include fever (usually high);
+headache; extreme tiredness; dry cough; sore throat; runny or stuffy nose; muscle aches;
+and, gastro-intestinal symptoms, such as nausea, vomiting, and diarrhea.*
+2 Patients who can understand and read English or Spanish;
+3 Patients who complete the Informed Consent Form;
+4 When under the age of 18, Patients who are accompanied by a parent to provide guardian
+consent; and,
+5 When aged 6-17, Patients who complete the Minor Assent form.
+Exclusion Criteria
+1 Subjects not experiencing Flu-like symptoms; and, subjects currently taking anti-viral
+medication.
+* Symptoms and time from on-set of symptoms were self-reported by the patient in order to
+identify patients who had contemporaneous signs and symptoms of respiratory infection.
+Clinical samples (nasopharyngeal swabs (NPS)) were collected for the validation of the Liat
+Influenza Assay, which detects Influenza A and B. Data from prospective samples were
+compared against viral culture as the reference method. The two-by-two tables comparing the
+26
+
+[Table 1 on page 26]
+Inclusion criteria	
+1	Symptomatic: Patients exhibiting 2 or more flu-like clinical signs and symptoms within
+the past 24-48 hours. Signs and symptoms of the flu include fever (usually high);
+headache; extreme tiredness; dry cough; sore throat; runny or stuffy nose; muscle aches;
+and, gastro-intestinal symptoms, such as nausea, vomiting, and diarrhea.*
+2	Patients who can understand and read English or Spanish;
+3	Patients who complete the Informed Consent Form;
+4	When under the age of 18, Patients who are accompanied by a parent to provide guardian
+consent; and,
+5	When aged 6-17, Patients who complete the Minor Assent form.
+Exclusion Criteria	
+1	Subjects not experiencing Flu-like symptoms; and, subjects currently taking anti-viral
+medication.
+
+--- Page 27 ---
+Liat Influenza A/B Assay against viral culture for Influenza A and B detection are shown
+below.
+No false negative results were detected in 435 NPS samples tested, while 13 false positives
+according to culture results were reported for Influenza A and 24 false positive results
+according to culture were reported for Influenza B. PCR and bi-directional sequencing were
+used to investigate these discordant results. This method confirmed the Liat assay result in
+the majority of samples tested (see footnotes in performance tables).
+Overall, the Liat Influenza A/B Assay demonstrated 100% sensitivity (95% CI: 89.8% -
+100.0%) and 96.8% specificity (95% CI: 94.5% - 98.1%) for Influenza A, and 100%
+sensitivity (95% CI: 88.6% - 100.0%) and 94.1% specificity (95% CI: 91.3% - 96.0%) for
+Influenza B.
+Liat Assay Clinical Performance – Prospective Samples
+Viral Culture
+Influenza A
+Positive Negative Total % 95% CI
+Positive 34 13a 47 Sensitivity 100.0% (89.8% - 100.0%)
+Liat
+Negative 0 388 388 Specificity 96.8% (94.5% - 98.1%)
+Total 34 401 435
+a Of 13 false positive samples, 8 were Influenza A positive by PCR/sequencing, 4 were negative by
+PCR/sequencing, and 1 was indeterminate by PCR/sequencing due to poor sequence quality score.
+Viral Culture
+Influenza B
+Positive Negative Total % 95% CI
+Positive 30 24b 54 Sensitivity 100.0% (88.6% - 100.0%)
+Liat
+Negative 0 381 381 Specificity 94.1% (91.3% - 96.0%)
+Total 30 405 435
+b Of 24 false positive samples, 13 were Influenza B positive by PCR/sequencing, 3 were negative by
+PCR/sequencing, and 8 samples were indeterminate by PCR/sequencing due to poor sequence quality scores.
+Retrospective Samples
+Data from retrospective samples were compared against PCR/sequencing as the reference
+method. The two-by-two tables comparing Liat Influenza A/B Assay against
+PCR/sequencing for Influenza A and B detection are shown below.
+Of the 180 samples tested, 1 sample was indeterminate by PCR/sequencing, and was thus
+excluded from the analysis.
+Of 74 Influenza A positive retrospective samples, 44 were confirmed to be 2009 H1N1 and
+20 were confirmed and A/H3 by PCR/sequencing; the remaining 10 samples were confirmed
+to be Influenza A positive by PCR/sequencing but subtype sequencing was not successful.
+The Liat Influenza A/B Assay detected all these samples as Influenza A positive.
+In retrospective sample tests, the Liat Influenza A/B Assay demonstrated 100% positive
+agreement (95% CI: 95.1% - 100.0%) and 97.1% negative agreement (95% CI: 91.9% -
+27
+
+[Table 1 on page 27]
+		Viral Culture		
+		Positive	Negative	Total
+Liat	Positive	34	13a	47
+	Negative	0	388	388
+	Total	34	401	435
+
+[Table 2 on page 27]
+		
+	%	95% CI
+Sensitivity	100.0%	(89.8% - 100.0%)
+Specificity	96.8%	(94.5% - 98.1%)
+
+[Table 3 on page 27]
+		Viral Culture		
+		Positive	Negative	Total
+Liat	Positive	30	24b	54
+	Negative	0	381	381
+	Total	30	405	435
+
+[Table 4 on page 27]
+		
+	%	95% CI
+Sensitivity	100.0%	(88.6% - 100.0%)
+Specificity	94.1%	(91.3% - 96.0%)
+
+--- Page 28 ---
+99.0%) for Influenza A, and 100% positive agreement (95% CI: 64.6% - 100.0%) and 99.4%
+negative agreement (95% CI: 96.8%-99.9%) for Influenza B.
+Liat Assay Clinical Performance – Retrospective Samples
+PCR/Sequencing
+Influenza A
+Positive Negative Total % 95% CI
+Positive
+Positive 74c 3 77 100.0% (95.1% - 100.0%)
+Agreement
+Liat
+Negative
+Negative 0 102 102 97.1% (91.9% - 99.0%)
+Agreement
+Total 74 105 179
+c Of 74 Influenza A positive retrospective samples, 44 were 2009 H1N1 positive, and 20 were seasonal H3
+positive by PCR/sequencing. The remaining 10 samples were verified to be Flu A positive, no further subtyping
+was done.
+PCR/Sequencing
+Influenza B
+Positive Negative Total % 95% CI
+Positive
+Positive 7 1 8 100.0% (64.6% - 100.0%)
+Agreement
+Liat
+Negative
+Negative 0 171 171 99.4% (96.8% - 99.9%)
+Agreement
+Total 7 172 179
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+In the prospective Liat Influenza A/B clinical study there was a total of 435 NPS samples
+analyzed. All 435 NPS specimens were tested for influenza A and influenza B by the Liat
+Influenza A/B Assay and compared to viral culture followed by fluorescence analysis. These
+samples were collected during the 2009 influenza season at six clinical laboratories in the
+U.S. from February and March. The age demographics for the prospectively collected
+samples are as follows:
+28
+
+[Table 1 on page 28]
+		PCR/Sequencing		
+		Positive	Negative	Total
+Liat	Positive	74c	3	77
+	Negative	0	102	102
+	Total	74	105	179
+
+[Table 2 on page 28]
+		
+	%	95% CI
+Positive
+Agreement	100.0%	(95.1% - 100.0%)
+Negative
+Agreement	97.1%	(91.9% - 99.0%)
+
+[Table 3 on page 28]
+		PCR/Sequencing		
+		Positive	Negative	Total
+Liat	Positive	7	1	8
+	Negative	0	171	171
+	Total	7	172	179
+
+[Table 4 on page 28]
+		
+	%	95% CI
+Positive
+Agreement	100.0%	(64.6% - 100.0%)
+Negative
+Agreement	99.4%	(96.8% - 99.9%)
+
+--- Page 29 ---
+Prospective
+Age Number %
+≤5 years 49 11%
+6-21 years 130 30%
+22-59 years 210 48%
+≥60 years 46 11%
+Male 197 45%
+Female 238 55%
+N. Instrument Name:
+Liat Analyzer
+O. System Descriptions:
+1. Modes of Operation:
+The Liat Analyzer functions as a point-of-care platform with sample-to-answer
+capabilities in which all sample processing steps as well as detection are carried out using
+a single-use, disposable Liat Tube.
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes X or No ________
+3. Specimen Identification:
+Each test cartridge handles one sample and has a unique barcode identifier that is scanned
+into the Liat Analyzer to code the sample ID. A nasopharyngeal swab sample is loaded
+directly into a Liat assay tube using a transfer pipette. After the tube is capped, the Liat
+Analyzer scans the tube barcode, and the tube is inserted into the analyzer.
+4. Specimen Sampling and Handling:
+Specimen sampling and handling is controlled using 11 sample processing modules
+contained within the Liat Analyzer. The sample processing modules are composed of two
+assemblies, a moving side assembly comprised of 11 sample processing plungers and 10
+clamps and a fixed side assembly. When performing an assay, a Liat tube is inserted into
+the tube slot of a Liat Analyzer. The plungers and clamps selectively compress the Liat
+tube segments against the fixed side assembly to release reagents from the segments,
+move the sample from one segment to another, and control reaction conditions.
+29
+
+[Table 1 on page 29]
+	Prospective	
+Age	Number	%
+≤5 years	49	11%
+6-21 years	130	30%
+22-59 years	210	48%
+≥60 years	46	11%
+		
+Male	197	45%
+Female	238	55%
+
+--- Page 30 ---
+5. Calibration:
+Not required. Test cartridges are single use and part of a closed system.
+6. Quality Control:
+An internal control used in conjunction with procedural checks monitors instrument
+functionality, performance, fluidics, and result determination based on a pre-defined
+decision algorithm.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+Not applicable
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+30

@@ -1,0 +1,129 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATIONDECISION SUMMARYINSTRUMENT ONLY TEMPLATE
+
+A. 510(k) Number: k110614   
+B. Purpose for Submission: New device   
+C. Manufacturer and Instrument Name: SEJU Engineering Co., Ltd. PAD – Personal Alcohol Detector   
+D. Type of Test or Tests Performed: Quantitative - semiconductor oxide senso   
+E. System Descriptions:
+
+1. Device Description:
+
+The front of the unit consists of the inhaler area, LCD display, a power button, and a scale button. The blood alcohol equivalent concentration (BAC) is reported in percent to two decimal places on the LCD display. On the back side of the unit is the battery compartment which houses two AAA batteries.
+
+To use the unit, users are instructed to press the power button. The device performs a self-check while counting down from 100 and displaying WAIT. When BLOW is displayed the unit is ready for a measurement. Users are instructed to inhale deeply and then blow steadily into the inhaler area for 3 - 4 seconds. The user can then read the blood alcohol equivalent concentration in $\%$ BAC.
+
+# 2. Principle of Operation:
+
+The semiconductor gas sensor used (tin dioxide) has n-type conductivity when exposed to the atmosphere. This exposure causes a decrease in the number of electrons affecting absorbed oxygen molecules and thus increases resistance. If a reducing gas is presented, a reaction occurs with the absorbed oxygen which causes an increase in the electrons in the oxide molecules causing a decrease in resistance. This change in resistance can be measured and used to identify a
+
+specific gas (such as alcohol) and can be quantified into a $\%$ concentration. Breath Alcohol Concentration (BrAC) is calculated first, and then converted to an equivalent Blood Alcohol Concentration (BAC).
+
+3. Modes of Operation: This device has only one mode of operation.
+
+4. Specimen Identification: There is no mechanism to identify the specimen.
+
+5. Specimen Sampling and Handling: The user provides a breath sample by exhaling into the device.
+
+6. Calibration:
+
+The device is calibrated at the factory and sent directly to the end user. The sponsor recommends a recalibration interval of every 200 tests or every six months. These intervals are based on calibration stability data collected internally. The unit must be sent back to the factory for calibration.
+
+Traceability:
+
+This device is traceable to a commercially available certified ethyl alcohol reference solution.
+
+7. Quality Control:
+
+There are no external quality controls available for these types of devices for over-the-counter use.
+
+8. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for this line of product types:
+
+Yes____X____ or No_
+
+# F. Regulatory Information:
+
+1. Regulation section: 21 CFR § 862.3050, Breath-alcohol test system
+
+2. Classification: Class I, reserved
+
+3 Product code: DJZ
+
+4. Panel: Toxicology (91)
+
+# G. Intended Use:
+
+1. Indication(s) for Use:
+
+The PAD Breath Alcohol Test System is a screening device for the rapid detection of alcohol in the human breath. Measurements obtained by this device are used in the diagnosis of alcohol intoxication.
+
+2. Special Conditions for Use Statement(s): For over the counter (OTC) use
+
+# H. Substantial Equivalence Information:
+
+1. Predicate Device Name(s) and 510(k) numbers: Sentech AlcoScan AL-2500 k053332
+
+2. Comparison with Predicate Device:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Indications for Use</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">For the rapid detection ofalcohol in human breath.</td></tr><tr><td colspan="1" rowspan="1">Sensor Type</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">Semiconductor Oxide</td></tr><tr><td colspan="1" rowspan="1">Mouthpiece</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">None</td></tr><tr><td colspan="1" rowspan="1">Display</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">3 digit LCD</td></tr><tr><td colspan="1" rowspan="1">Intended User</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">Lay user (OTC)</td></tr><tr><td colspan="3" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Blowing Time</td><td colspan="1" rowspan="1">3 seconds</td><td colspan="1" rowspan="1">3 - 4 seconds</td></tr><tr><td colspan="1" rowspan="1">Warm-up Time</td><td colspan="1" rowspan="1">Less than 1 minute</td><td colspan="1" rowspan="1">20 seconds</td></tr><tr><td colspan="1" rowspan="1">Power Source</td><td colspan="1" rowspan="1">2 AAA batteries</td><td colspan="1" rowspan="1">2 AA batteries</td></tr><tr><td colspan="1" rowspan="1">Testing Capacity</td><td colspan="1" rowspan="1">Approximately 150 tests</td><td colspan="1" rowspan="1">Approximately 200-300tests</td></tr><tr><td colspan="1" rowspan="1">Measuring Range</td><td colspan="1" rowspan="1">0.00% to 0.20% BAC</td><td colspan="1" rowspan="1">0.00% to 0.40% BAC</td></tr><tr><td colspan="1" rowspan="1">Weight</td><td colspan="1" rowspan="1">45 g</td><td colspan="1" rowspan="1">171 g</td></tr><tr><td colspan="1" rowspan="1">Dimensions</td><td colspan="1" rowspan="1">90 x 30 x 17 mm</td><td colspan="1" rowspan="1">127 x 83 x 25 mm</td></tr></table>
+
+# I. Special Control/Guidance Document Referenced (if applicable):
+
+EN61326-1:2006 Electrical equipment for measurement, control, and laboratory useEMC requirement
+
+# J. Performance Characteristics:
+
+1. Analytical Performance:
+
+a. Accuracy:
+
+The sponsor performed a consumer study to determine if consumers could correctly use and interpret the device using only the supplied user manual, and to compare the results to the predicate. There were 128 paired comparisons, and the volunteers ranged in age from 21 to 60 years of age. Each participant took their breath alcohol reading with the PAD Breath Alcohol Test system and recorded the result. Immediately afterward, the participants were administered a breath alcohol test using the predicate device operated by a trained individual. The breath alcohol concentrations ranged from a BAC of $0 . 0 0 0 \%$ to $0 . 2 0 \%$ (by the predicate device). Linear regression analysis of the data produced a slope of 0.963, a y-intercept of 0.003 and a correlation coefficient (r) of 0.993. After the study, participants were asked to respond to statements about ease of use and interpretation of the device. Results are summarized as follows:
+
+<table><tr><td rowspan=1 colspan=1>Question</td><td rowspan=1 colspan=1>PercentResponding&quot;StronglyDisagree&quot;</td><td rowspan=1 colspan=1>PercentResponding&quot;Disagree&quot;</td><td rowspan=1 colspan=1>PercentResponding&quot;NeitherAgree norDisagree&quot;</td><td rowspan=1 colspan=1>PercentResponding&quot;Agree&quot;</td><td rowspan=1 colspan=1>PercentResponding&quot;StronglyAgree&quot;</td></tr><tr><td rowspan=1 colspan=1>I understood howto use the PADafter reading thedevice labelingand instructionmanual.</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>64</td></tr><tr><td rowspan=1 colspan=1>I was able tooperate the PADeasily.</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>27</td><td rowspan=1 colspan=1>70</td></tr><tr><td rowspan=1 colspan=1>I was able tooperate the PADeasily because ofthe instructionsand labelingprovided with thedevice.</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>85</td></tr><tr><td rowspan=1 colspan=1>I was able toeasily understandand interpret thetest resultsdisplayed by thePAD</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>64</td></tr></table>
+
+# b. Precision/Reproducibility:
+
+The precision and accuracy of this device was evaluated at an independent testing lab. The testing lab performed the testing following the protocol of the National Highway Traffic Safety Administration (NHTSA). Requirements of this protocol (referred to as Model Specifications) consist of 20 trials at a Blood Alcohol Concentration (BAC) of 0.008, 20 trials at a BAC of 0.032, and 20 trials at a BAC of 0.000. Blood Alcohol Concentrations are simulated in breath by a Breath Alcohol Sample Simulator (BASS), which provides an alcohol-in-air test sample with known alcohol concentrations, flow rate, and air composition. The acceptance criteria for the Model Specifications are: not more than one negative result at 0.032 BAC, not more than one positive result at 0.008 BAC, and not more than one negative greater than zero and no positives at 0.000 BAC. NOTE: for the purposes of this study, a BAC of 0.020 is used to distinguish a positive from a negative result.
+
+The PAD – Personal Alcohol Detector met all of the applicable NHTSA requirements for precision and accuracy.
+
+# c. Linearity:
+
+This device will report concentrations from 0.00 to $0 . 2 0 \%$ BAC. However, the DOT Model Specifications require accuracy and precision testing up to a concentration of 0.032 only; therefore, true linearity over the entire measuring range of the device was not evaluated by DOT. This device met all of the applicable NHTSA requirements for precision and accuracy as described above.
+
+# d. Carryover:
+
+Carryover studies are not required by NHTSA and were not performed using this device.
+
+# e. Interfering Substances:
+
+The DOT Model Specifications require testing with cigarette smoke to assess any possible interference. Five trials are required at 0.000 BAC. An alcohol free individual who smokes cigarettes is appropriate for this trial. The subject is asked to smoke approximately one half of a cigarette. Within one minute after smoking, or after a waiting period specified in the manufacturer’s instructions\*, the subject performs the breath alcohol test according to the manufacturer’s instructions. The subject is then asked to smoke another inhalation and repeat the test to produce a total of five trials. The acceptance criterion for this trial is: no positive results. The PAD – Personal Alcohol Detector device had no positive results.
+
+\*The sponsor’s labeling recommends the user wait 25 minutes after consuming alcohol, smoking, or eating to test a breath sample.
+
+2. Other Supportive Instrument Performance Data Not Covered Above:
+
+a. Limit of Detection
+
+The DOT Model Specifications do not specifically address the detection limit of breath alcohol devices. However, the devices must be tested at a BAC of zero (blank reading) to assess the possibility of false positives. This consists of 20 trials under normal laboratory conditions at a BAC of 0.000. Nonalcoholic human breath is to be used as the sample. For devices capable of providing a reading of greater than 0.000 BAC and less than 0.020 BAC, the acceptance criterion is: not more than one such result. The PAD – Personal Alcohol Detector had no false positives in this trial.
+
+b. Temperature
+
+The DOT Model Specifications require testing 10 and $4 0 ^ { \circ } \mathrm { C }$ to assess any possible effects of temperature. At $1 0 ^ { \circ } \mathrm { C }$ , 20 trials are required at 0.008 BAC and 20 trials are required at 0.032 BAC. Acceptance criteria are: not more than one positive result at 0.008 BAC, and not more than one non-positive result at 0.032 BAC. The PAD – Personal Alcohol Detector had no positive results at 0.008 BAC and no non-positive results at 0.032 BAC. At $4 0 ^ { \circ } \mathrm { C }$ , the requirements are identical. The PAD – Personal Alcohol Detector had no positive results at 0.008 BAC and no non-positive results at 0.032 BAC.
+
+# c. Vibration
+
+The DOT Model Specifications require vibration testing to assess any possible vibrational effects. Twenty trials are required at 0.008 BAC and 0.032 BAC. Acceptance criteria are: not more than one positive result at 0.008 BAC, and not more than one non-positive result at 0.032 BAC. The PAD – Personal Alcohol Detector had no positive results at 0.008 BAC and no non-positive results at 0.032 BAC.
+
+# d. Cutoff
+
+For the purposes of performance testing, a BAC cutoff of 0.020 was used to distinguish positive from negative samples.
+
+# K. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# L. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

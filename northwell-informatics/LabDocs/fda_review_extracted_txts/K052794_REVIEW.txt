@@ -1,0 +1,1063 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k052794
+B. Purpose for Submission:
+New Device
+C. Manufacturer and Instrument Name:
+DiaSorin Inc.
+DiaSorin ETI-MAX 3000™
+D. Type of Test or Tests Performed:
+For qualitative and semi-quantitative assays. The instrument performance was
+validated using three 510(k) cleared devices (ENA Screen, ANA Screen and Anti-SS-
+A (Ro) from Euro-Diagnostica).
+E. System Descriptions:
+1. Device Description:
+The ETI-MAX 3000™ is a fully automated, EIA microtiter plate laboratory
+analyzer performing the complete sample processing (barcode scanner,
+predilution station, pipetting station, plate transport, wash station, incubators
+and photometric measurement). The instrument is controlled by the Windows
+PC software ETI-MAX 3000™. This software allows the user to process the
+pre-defined assays of DiaSorin.
+The ETI-MAX 3000™ consists of 3 main components; sample processing,
+management system and software.
+The sample processing system automates the steps required to process
+microplate assays from barcode reading, sample distribution, sample dilution,
+incubation, washing, reagent addition and detection using absorbance
+technology. The plate loading is managed with time scheduling, the plate
+capacity is 4, but can be up to 7 in continuous loading mode. There is also the
+capability to run multiple assays per plate.
+The management system (computer) is a Pentium III, 500MHz, 64 Mbytes
+RAM or equivalent with a 3.5” Floppy drive, a 6.4 Gbyte Hard Disk, an
+Alphanumeric keyboard, standard Mouse, 15” color monitor, and Standard
+Inkjet printer.
+The software (Operating system) uses Microsoft Windows® 95, 98 or 2000
+32-bit application, for all operations, including assay creation and worklist
+generation, time scheduling, data reduction and reporting of results, and has
+multi-language capabilities. The software also provides in-process control,
+validation and verification.
+2. Principles of Operation:
+The ETI MAX and its predicate devices share the same principle of operation.
+The device consists of pipetting, washing and incubation station and uses the
+same basic technology to provide specimen pipetting and dilution, reagent
+pipetting, microplate washing and incubation.
+1
+
+--- Page 2 ---
+The instrument is programmed to mimic the steps of the manual assay procedures
+for EIA/ELISA microtiter plate assays.
+3. Modes of Operation:
+The ETI-MAX 3000™ Analyzer is an open tube, batch mode analyzer with a
+continuous load option. The reagent bottles used from the test kit are placed on
+the instrument with the caps removed. The sample tubes can be the primary tubes
+with stoppers removed or the serum/plasma can be poured off into identified test
+tubes.
+4. Specimen Identification:
+There are multiple ways to identify the patient. Each ETI-MAX 3000™ sample
+rack holds 20 patient specimens. The sample rack has a barcode label at each
+position which identifies the rack and the unique sample position (1-20). There
+are 12 spaces (channels) numbered 1-12 which holds 1 sample rack each. The
+samples are placed in the rack and then put onto the instrument where the barcode
+scanner reads the barcodes on the rack.
+1. The customer can use patient barcode identifiers if so desired. Patients are
+placed into samples racks, put on the instrument and the barcode scanner
+scans the rack, the rack barcode identifiers and the patient sample barcode
+identifier in each position.
+2. LIS system – patient ID’s and test requests can be sent to the instrument
+through the lab LIS.
+3. Manual identification
+Patient names/ID’s can be entered via Patient Editor
+The ETI-MAX 3000™ Analyzer can be set to pipette the samples in ascending
+order, descending order or None (no order).
+-Ascending order – the samples will be pipetted in ascending order whether they
+are in the same rack or spread throughout several racks.
+-Descending order – the samples will be pipetted in descending order whether
+they are the same rack or spread throughout several racks.
+-None – if this option is selected, the instrument will pipette the all the samples in
+positions 1-20, starting in channel 12 (which is always the 1st position loaded)
+then once all the samples are pipetted in that rack, it will move to the next rack
+(channel 11) and pipette those samples (1-20).
+5. Specimen Sampling and Handling:
+The DiaSorin assays programmed on the ETI-MAX 3000™ do not use whole
+blood. All the DiaSorin assays use either serum or plasma as the sample type.
+Samples can be loaded onto the instrument in their primary tubes, or they can be
+poured off into test tubes ranging in size from 10 -16 mm in diameter.
+If a dilution step is required, the instrument dispenses sample into the specimen
+diluent. Once this is completed the samples is then aspirated and dispensed into
+2
+
+--- Page 3 ---
+the dilution tube a couple of times to ensure a good mixing of the sample and
+diluent.
+The ETI-MAX 3000™ also performs a shaking of the microtiter plate once the
+specimens and reagents are added to the wells.
+The operator is responsible for placing samples in the sample racks and loading or
+unloading the racks from the ETI-MAX 3000™ analyzer.
+6. Calibration:
+Each of the instrument modules require calibration. The calibration procedure is
+described in the Service manual of the instrument. The calibration procedures do
+not use whole blood or commercial calibration materials.
+The calibration procedures use a Dye Test that is performed by the Service
+Engineers at the time of Installation, whenever service to one of the modules is
+performed and at the 6 month PM intervals.
+Each assay also has its own calibration (assay verification) to ensure the assay is
+valid. Each of these verification specifications that are used for the manual assay
+are programmed into the ETI-MAX™ 3000 protocol and are used to ensure the
+Validity of the assay on the ETI-MAX 3000™.
+7. Quality Control:
+The ETI-MAX 3000™ Analyzer in and of itself does not require quality control
+procedures or commercial quality control materials. Each individual assay that is
+programmed on the ETI-MAX 3000™ follows the quality control information as
+recommended in the Instructions for Use for that assay. The quality control used
+on the ETI-MAX 3000™ would be the same as required for running the assay by
+the manual method.
+Additional commercial quality control materials are used by the operator for the
+assay as required by their laboratory or regulating agency.
+A quality control analysis report (Levy-Jennings plot), are available for tracking
+the results of a selected quality control material over a period of time. The QA
+Analysis report has to be activated on the ETI-MAX 3000™ by defining QA
+Labels in the Lot specific Values dialogue box, while preparing a worklist.
+The QA-Label must match the label which is used in the assay layout definition.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes__√______ or No________
+F. Regulatory Information:
+3
+
+--- Page 4 ---
+1. Regulation section:
+21 CFR 862.2170 (Micro chemistry analyzer for clinical use)
+2. Classification:
+Class I
+3 Product code:
+JJF
+4. Panel:
+Chemistry (75)
+G. Intended Use:
+1. Indication(s) for Use:
+The ETI-MAX 3000™ is a fully automated EIA microtiter plate analyzer
+designed to perform the complete sample processing of qualitative and semi-
+quantitative assays with respect to (sample dilutions, sample and reagent
+dispensing, incubations, wash processes, plate transports) as well as the
+photometric measurement and evaluation. The qualitative and semi-quantitative
+performance of the ETI-MAX™ instrument were assessed using the DiaSorin
+ANAScreen ELISA kit, the DiaSorin Anti-SS-A(Ro)ELISA kit and the
+EuroDiagnostica AB ENA Single Well Screen kit.
+2. Special Conditions for Use Statement(s):
+For Prescription Use only
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Labotech (a.k.a ETI-LAB) (K922081)
+Mago™ Automated EIA Processor (K973177)
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate (Labotech)
+Intended Use/Indications The DiaSorin ETI-MAX The Labotech is a fully
+for Use 3000™ is a fully automated automated microtiter plate
+microtiter plate analyzer analyzer designed to perform
+designed to perform the the complete sample
+complete sample processing processing (sample dilutions,
+(sample dilutions, sample and sample and reagent
+reagent dispensing, dispensing, incubations, wash
+incubations, wash processes, processes, plate transports) as
+plate transports) as well as the well as the photometric
+photometric measurement and measurement and evaluation.
+evaluation.
+Barcode Reading Yes Yes
+x X
+Internal
+External Hand Held x x
+*Optional
+Sample Identification x X
+Batch Loading X X
+Sample / Reagent Yes Yes
+Dispensing Unit
+4
+
+[Table 1 on page 4]
+Similarities								
+	Item			Device			Predicate (Labotech)	
+Intended Use/Indications
+for Use			The DiaSorin ETI-MAX
+3000™ is a fully automated
+microtiter plate analyzer
+designed to perform the
+complete sample processing
+(sample dilutions, sample and
+reagent dispensing,
+incubations, wash processes,
+plate transports) as well as the
+photometric measurement and
+evaluation.			The Labotech is a fully
+automated microtiter plate
+analyzer designed to perform
+the complete sample
+processing (sample dilutions,
+sample and reagent
+dispensing, incubations, wash
+processes, plate transports) as
+well as the photometric
+measurement and evaluation.		
+Barcode Reading			Yes			Yes		
+Internal			x			X		
+External Hand Held
+*Optional			x			x		
+Sample Identification			x			X		
+Batch Loading			X			X		
+Sample / Reagent
+Dispensing Unit			Yes			Yes		
+
+--- Page 5 ---
+Similarities
+Item Device Predicate (Labotech)
+Disposable Tips x X
+Metal Needle * optional X
+Pipetting area capacity (# of 4 3
+plates)
+Mixing x X
+Multi-Dispensing x X
+Liquid Level Detection Yes Yes
+Clot Detection Yes Yes
+Incubation Assembly Yes Yes
+Temperature controlled x X
+chambers
+Reading Assembly Yes Yes
+# of Chambers 1 3
+# of Channels (per 8 8
+chamber)
+Vertical with Photodiodes X X
+Absorbance Reading X X
+Method
+Single or Double Beam X X
+w/over range filter
+Spectrum (400nm to 700 X X
+nm)
+Filters (404, 450, 492, 550, X X
+620)
+Washer Assembly Yes Yes
+Buffer Capacity 4 2
+Wash Head (8 channel, X X
+dual needle)
+Buffer Level Sensing X X
+Waste Tank Level Sensing X X
+Standards Met IEC 61010 IEC 1010-1/1990
+1:90+A1:92+A2:95 IEC 801/1988
+EN 61326 - 1:97 + A1:98 IEC 825
+IEC 60027 EN 55011
+ASTM E 1381 – 91
+ASTM E 1394 - 91
+Differences
+Item Device Predicate (Labotech)
+Barcode Reading x
+Reagent Identification
+Loading Random Access X
+Liquid Level Detection Electronic Pneumatic
+Clot Detection Electronic Pneumatic
+(Incubation) # of Chambers 4 3
+Shaking (longitudinal) X
+(Reading) # of Chambers 1 3
+Kinetic Reading X
+5
+
+[Table 1 on page 5]
+Similarities								
+	Item			Device			Predicate (Labotech)	
+Disposable Tips			x			X		
+Metal Needle * optional						X		
+Pipetting area capacity (# of
+plates)			4			3		
+Mixing			x			X		
+Multi-Dispensing			x			X		
+Liquid Level Detection			Yes			Yes		
+Clot Detection			Yes			Yes		
+Incubation Assembly			Yes			Yes		
+Temperature controlled
+chambers			x			X		
+Reading Assembly			Yes			Yes		
+# of Chambers			1			3		
+# of Channels (per
+chamber)			8			8		
+Vertical with Photodiodes			X			X		
+Absorbance Reading			X			X		
+Method								
+Single or Double Beam
+w/over range filter			X			X		
+Spectrum (400nm to 700
+nm)			X			X		
+Filters (404, 450, 492, 550,
+620)			X			X		
+Washer Assembly			Yes			Yes		
+Buffer Capacity			4			2		
+Wash Head (8 channel,
+dual needle)			X			X		
+Buffer Level Sensing			X			X		
+Waste Tank Level Sensing			X			X		
+Standards Met			IEC 61010
+1:90+A1:92+A2:95
+EN 61326 - 1:97 + A1:98
+IEC 60027
+ASTM E 1381 – 91
+ASTM E 1394 - 91			IEC 1010-1/1990
+IEC 801/1988
+IEC 825
+EN 55011		
+
+[Table 2 on page 5]
+Differences								
+	Item			Device			Predicate (Labotech)	
+Barcode Reading
+Reagent Identification			x					
+Loading Random Access			X					
+Liquid Level Detection			Electronic			Pneumatic		
+Clot Detection			Electronic			Pneumatic		
+(Incubation) # of Chambers			4			3		
+Shaking (longitudinal)			X					
+(Reading) # of Chambers			1			3		
+Kinetic Reading			X					
+
+--- Page 6 ---
+Similarities
+Item Device Predicate (Mago)
+Description/ Intended Use/ The DiaSorin ETI-MAX The Diamedix Mago™
+Indications for Use 3000™ is a fully automated Automated EIA Processor is
+microtiter plate analyzer indicated for use as a general
+designed to perform the purpose automated EIA
+complete sample processing processor for use in clinical
+(sample dilutions, sample and laboratories.
+reagent dispensing,
+incubations, wash processes,
+plate transports) as well as the
+photometric measurement and
+evaluation.
+I. Special Control/Guidance Document Referenced (if applicable):
+NCCLS EP5-A2
+NCCLS EP17-A
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+The clinical studies were conducted at DiaSorin Inc. and at two external US
+laboratories. Testing was performed on 159 repository samples in each of the
+three assays. The breakdown for the 159 ANA repository samples is as
+follows:
+• 88 negative samples (negative result using manual assay)
+• 64 positive samples (positive result using manual assay)
+• 7 equivocal samples (equivocal result using manual assay)
+The breakdown for the 159 ENA repository samples is as follows:
+• 92 negative samples (negative result using manual assay)
+• 63 positive samples (positive result using manual assay)
+• 4 equivocal samples (equivocal result using manual assay)
+The breakdown for the 159 Anti-SS-A (Ro) repository samples is as follows:
+• 104 negative samples (negative result using manual assay)
+• 55 positive samples (positive result using manual assay)
+• 0 equivocal samples (equivocal result using manual assay)
+Study Analysis
+All assay results were expressed in OD and S/CO. In addition, the Anti-SS-A
+(Ro) included U/mL. A sample was considered negative, equivocal, or
+positive based on the criteria as specified in the currently released assay
+package inserts.
+ANA Screen:
+• negative <0.7 S/CO.
+• equivocal ≥0.7 and <1.0 S/CO.
+• positive ≥1.0 S/CO.
+6
+
+[Table 1 on page 6]
+Similarities								
+	Item			Device			Predicate (Mago)	
+Description/ Intended Use/
+Indications for Use	Description/ Intended Use/			The DiaSorin ETI-MAX		The Diamedix Mago™
+Automated EIA Processor is
+indicated for use as a general
+purpose automated EIA
+processor for use in clinical
+laboratories.	The Diamedix Mago™	
+	Indications for Use			3000™ is a fully automated			Automated EIA Processor is	
+				microtiter plate analyzer			indicated for use as a general	
+				designed to perform the			purpose automated EIA	
+				complete sample processing			processor for use in clinical	
+				(sample dilutions, sample and			laboratories.	
+				reagent dispensing,				
+				incubations, wash processes,				
+				plate transports) as well as the				
+				photometric measurement and				
+				evaluation.				
+
+--- Page 7 ---
+ENA Screen:
+• negative <0.95 S/CO.
+• equivocal ≥0.95 and ≤1.0 S/CO.
+• positive >1.0 S/CO.
+Anti-SS-A (Ro) Qualitative:
+• negative <0.95 S/CO.
+• equivocal ≥0.95 and ≤1.0 S/CO.
+• positive >1.0 S/CO.
+Anti-SS-A (Ro) Quantitative:
+• negative ≤2.0 U/mL.
+• positive >2.0 U/mL.
+The performance of the ETI-Max was determined by calculating the percent
+agreement among negative samples, percent agreement among positive
+samples, and overall percent agreement with the reference (manual) method
+for each assay. The relevant 95% confidence limits were computed by
+applying the exact method.
+Results:
+The tables below show the comparison of the ETI-Max and Manual assay
+results for the retrospective samples population. The results are summarized
+below as positive, negative, and overall percent agreement with the Manual
+assay results with 95% exact confidence intervals.
+ANA Screen Manual Method
+ETI-MAX 3000™ Positive Negative Equivocal Total
+Positive ≥1.0 S/CO 62 0 0 62
+Negative <0.7 S/CO 0 88 3 91
+Equivocal ≥0.7 and <1.0 S/CO 2 0 4 6
+Total 64 88 7 159
+Positive agreement = 96.9% (62/64) (Exact 95% CI: 89.2 – 99.6%)
+Negative agreement = 100.0% (88/88) (Exact 95% CI: 95.9 – 100.0%)
+Overall agreement = 96.9% (154/159) (Exact 95% CI: 92.8 – 99.0%)
+ENA Screen Manual Method
+ETI-MAX 3000™ Positive Negative Equivocal Total
+Positive >1.0 S/CO 59 0 0 59
+7
+
+[Table 1 on page 7]
+ANA Screen	Manual Method			
+ETI-MAX 3000™	Positive	Negative	Equivocal	Total
+Positive ≥1.0 S/CO	62	0	0	62
+Negative <0.7 S/CO	0	88	3	91
+Equivocal ≥0.7 and <1.0 S/CO	2	0	4	6
+Total	64	88	7	159
+
+[Table 2 on page 7]
+ENA Screen	Manual Method			
+ETI-MAX 3000™	Positive	Negative	Equivocal	Total
+Positive >1.0 S/CO	59	0	0	59
+
+--- Page 8 ---
+Negative <0.95 S/CO 4 92 4 100
+Equivocal ≥0.95 and ≤1.0 S/CO 0 0 0 0
+Total 63 92 4 159
+Positive agreement = 93.7% (59/63) (Exact 95% CI: 87.6 – 99.7%)
+Negative agreement = 100.0% (92/92) (Exact 95% CI: 96.1 – 100.0%)
+Overall agreement = 95.0% (151/159) (Exact 95% CI: 90.3 – 97.8%)
+Anti-SS-A (Ro) Qualitative Manual Method
+ETI-MAX 3000™ Positive Negative Equivocal Total
+Positive >1.0 S/CO 55 0 0 55
+Negative <0.95 S/CO 0 104 0 104
+Equivocal ≥0.95 and ≤1.0 S/CO 0 0 0 0
+Total 55 104 0 159
+Positive agreement = 100.0% (55/55) (Exact 95% CI: 93.5 – 100.0%)
+Negative agreement = 100.0% (104/104) (Exact 95% CI: 96.5 – 100.0%)
+Overall agreement = 100.0% (159/159) (Exact 95% CI: 97.7 – 100.0%)
+Anti-SS-A (Ro) Quantitative Manual Method
+ETI-MAX 3000™ Positive Negative Total
+Positive >2.0 U/mL 54 1 55
+Negative ≤2.0 U/mL 0 104 104
+Total 54 105 159
+Positive agreement = 100.0% (54/54) (Exact 95% CI: 93.4 – 100.0%)
+Negative agreement = 99.0% (104/105) (Exact 95% CI: 94.8 – 100.0%)
+Overall agreement = 99.4% (158/159) (Exact 95% CI: 96.6 – 100.0%)
+Intercept X Variable 1
+Lower Upper Lower Upper
+R Square 95.0% 95.0% 95.0% 95.0%
+ANA Screen 0.974 -0.007 0.056 0.779 0.82
+ENA Screen 0.979 0.039 0.122 0.754 0.79
+SSA (Semi-
+quantitative) 0.953 -0.544 0.345 0.816 0.876
+SSA (Qualitative) 0.983 -0.125 -0.046 0.955 0.996
+8
+
+[Table 1 on page 8]
+Negative <0.95 S/CO	4	92	4	100
+Equivocal ≥0.95 and ≤1.0 S/CO	0	0	0	0
+Total	63	92	4	159
+
+[Table 2 on page 8]
+Anti-SS-A (Ro) Qualitative	Manual Method			
+ETI-MAX 3000™	Positive	Negative	Equivocal	Total
+Positive >1.0 S/CO	55	0	0	55
+Negative <0.95 S/CO	0	104	0	104
+Equivocal ≥0.95 and ≤1.0 S/CO	0	0	0	0
+Total	55	104	0	159
+
+[Table 3 on page 8]
+Anti-SS-A (Ro) Quantitative	Manual Method		
+ETI-MAX 3000™	Positive	Negative	Total
+Positive >2.0 U/mL	54	1	55
+Negative ≤2.0 U/mL	0	104	104
+Total	54	105	159
+
+[Table 4 on page 8]
+	R Square	Intercept		X Variable 1	
+		Lower
+95.0%	Upper
+95.0%	Lower
+95.0%	Upper
+95.0%
+ANA Screen	0.974	-0.007	0.056	0.779	0.82
+ENA Screen	0.979	0.039	0.122	0.754	0.79
+SSA (Semi-
+quantitative)	0.953	-0.544	0.345	0.816	0.876
+SSA (Qualitative)	0.983	-0.125	-0.046	0.955	0.996
+
+--- Page 9 ---
+ANAScreen Method Comparison S/CO
+y = 0.8034x + 0.0226
+R2 = 0.9734
+5.000
+4.500
+4.000
+3.500
+3.000
+2.500
+2.000
+1.500
+1.000
+0.500
+0.000
+0.000 0.500 1.000 1.500 2.000 2.500 3.000 3.500 4.000 4.500 5.000 5.500
+Manual
+9
+0003
+xaM-ITE
+y = 0.7722x + 0.0802
+R2 = 0.9786 ENAScreen Method Comparison S/CO
+5.500
+5.000
+4.500
+4.000
+3.500
+3.000
+2.500
+2.000
+1.500
+1.000
+0.500
+0.000
+0.000 0.500 1.000 1.500 2.000 2.500 3.000 3.500 4.000 4.500 5.000 5.500 6.000 6.500
+Manual
+0003
+xaM-ITE
+
+--- Page 10 ---
+y = 1.0068x + 0.1096 SSA qual method comparison
+R2 = 0.9826
+8.000
+7.000
+6.000
+5.000
+4.000
+3.000
+2.000
+1.000
+0.000
+0.000 1.000 2.000 3.000 4.000 5.000 6.000 7.000 8.000
+Manual
+10
+0003
+xaM-ITE
+y = 1.143x + 0.3888 SSA semi quant Method comparison
+R2 = 0.9545
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+0.000 10.000 20.000 30.000 40.000 50.000 60.000 70.000
+Manual
+0003
+xaM-ITE
+b. Precision/Reproducibility:
+The instrument reproducibility/precision study was conducted at two external
+US laboratories and at DiaSorin Inc A coded panel comprised of 8 frozen
+
+--- Page 11 ---
+repository serum samples was prepared at DiaSorin and provided to each site
+for testing by the DiaSorin ETI-MAX 3000™ instrument and the three
+autoimmune assays. The samples were at or near the cut-off. All panel
+members were divided into aliquots and stored frozen prior to testing. The
+same coded panel was tested at all three sites, using four replicates per run in
+one run per day during five operating days at each trial site on the ETI-MAX
+3000™ and manually.
+Table of Precision for ANA Screen ETI-MAX 3000™ Method:
+within between total instrument to
+mean
+run run instrument
+ID# Site N (S/CO) %CV %CV %CV %CV
+#1 1 20 0.98 6.6 0 6.3
+2 20 0.86 8.5 25.7 27.1 6.8
+3 20 0.93 20.6 0 20.4
+#2 1 20 1.05 3.1 2.6 4.0
+2 20 1.12 1.9 1.1 2.2 3.2
+3 20 1.09 2.0 0.5 2.0
+#3 1 20 0.73 4.0 2.6 4.8
+2 20 0.51 4.2 50.4 50.6 18.6
+3 20 0.71 4.3 3.2 5.4
+#4 1 20 1.21 2.3 3.3 4.1
+2 20 1.29 1.5 3.3 3.6 3.1
+3 20 1.25 4.3 0 4.2
+#5 1 20 1.17 4.0 2.6 4.8
+2 20 1.22 2.4 4.0 4.6 2.7
+3 20 1.23 2.7 2.0 3.4
+#6 1 20 1.26 3.0 3.0 4.3
+2 20 1.08 10.9 36.4 37.9 8.4
+3 19 1.23 22.0 0 21.8
+#7 1 20 1.33 2.0 3.6 4.2
+2 20 1.34 2.7 7.0 7.5 2.8
+3 20 1.40 3.0 0 2.9
+#8 1 20 1.29 3.0 0.3 3.0
+2 20 1.28 2.2 16.0 16.1 3.2
+3 20 1.36 2.9 4.2 5.1
+11
+
+[Table 1 on page 11]
+			mean	within
+run	between
+run	total	instrument to
+instrument
+ID#	Site	N	(S/CO)	%CV	%CV	%CV	%CV
+#1	1	20	0.98	6.6	0	6.3	
+	2	20	0.86	8.5	25.7	27.1	6.8
+	3	20	0.93	20.6	0	20.4	
+#2	1	20	1.05	3.1	2.6	4.0	
+	2	20	1.12	1.9	1.1	2.2	3.2
+	3	20	1.09	2.0	0.5	2.0	
+#3	1	20	0.73	4.0	2.6	4.8	
+	2	20	0.51	4.2	50.4	50.6	18.6
+	3	20	0.71	4.3	3.2	5.4	
+#4	1	20	1.21	2.3	3.3	4.1	
+	2	20	1.29	1.5	3.3	3.6	3.1
+	3	20	1.25	4.3	0	4.2	
+#5	1	20	1.17	4.0	2.6	4.8	
+	2	20	1.22	2.4	4.0	4.6	2.7
+	3	20	1.23	2.7	2.0	3.4	
+#6	1	20	1.26	3.0	3.0	4.3	
+	2	20	1.08	10.9	36.4	37.9	8.4
+	3	19	1.23	22.0	0	21.8	
+#7	1	20	1.33	2.0	3.6	4.2	
+	2	20	1.34	2.7	7.0	7.5	2.8
+	3	20	1.40	3.0	0	2.9	
+#8	1	20	1.29	3.0	0.3	3.0	
+	2	20	1.28	2.2	16.0	16.1	3.2
+	3	20	1.36	2.9	4.2	5.1	
+
+--- Page 12 ---
+Table of Precision for ENA 6 Screen ETI-MAX 3000™ Method:
+within between total instrument to
+mean
+run run instrument
+ID# Site N (S/CO) %CV %CV %CV %CV
+#1 1 20 0.52 7.1 5.1 8.7
+2 20 0.48 3.0 8.9 9.4 4.5
+3 20 0.50 6.0 5.7 8.3
+#2 1 20 1.61 4.5 4.3 6.2
+2 20 1.82 3.5 2.4 4.2 6.2
+3 20 1.70 2.8 4.4 5.2
+#3 1 20 1.60 3.4 6.4 7.3
+2 20 1.63 6.8 5.9 8.9 1.6
+3 20 1.66 4.0 3.0 5.0
+#4 1 20 1.81 5.3 7.5 9.1
+2 20 1.76 5.3 19.6 20.3 3.0
+3 20 1.87 2.8 4.2 5.0
+#5 1 20 1.25 5.0 4.9 7.0
+2 20 1.20 10.9 20.8 23.4 3.1
+3 20 1.27 5.4 3.2 6.3
+#6 1 20 1.45 4.2 3.7 5.6
+2 20 1.51 6.0 8.8 10.7 2.0
+3 20 1.50 4.4 4.6 6.3
+#7 1 20 1.30 3.2 2.9 4.3
+2 20 1.50 13.7 10.2 17.1 8.3
+3 20 1.30 9.9 5.1 11.1
+#8 1 20 1.47 5.8 3.9 7.0
+2 20 1.59 7.9 10.2 12.9 5.0
+3 20 1.45 3.4 6.5 7.4
+12
+
+[Table 1 on page 12]
+			mean	within
+run	between
+run	total	instrument to
+instrument
+ID#	Site	N	(S/CO)	%CV	%CV	%CV	%CV
+#1	1	20	0.52	7.1	5.1	8.7	
+	2	20	0.48	3.0	8.9	9.4	4.5
+	3	20	0.50	6.0	5.7	8.3	
+#2	1	20	1.61	4.5	4.3	6.2	
+	2	20	1.82	3.5	2.4	4.2	6.2
+	3	20	1.70	2.8	4.4	5.2	
+#3	1	20	1.60	3.4	6.4	7.3	
+	2	20	1.63	6.8	5.9	8.9	1.6
+	3	20	1.66	4.0	3.0	5.0	
+#4	1	20	1.81	5.3	7.5	9.1	
+	2	20	1.76	5.3	19.6	20.3	3.0
+	3	20	1.87	2.8	4.2	5.0	
+#5	1	20	1.25	5.0	4.9	7.0	
+	2	20	1.20	10.9	20.8	23.4	3.1
+	3	20	1.27	5.4	3.2	6.3	
+#6	1	20	1.45	4.2	3.7	5.6	
+	2	20	1.51	6.0	8.8	10.7	2.0
+	3	20	1.50	4.4	4.6	6.3	
+#7	1	20	1.30	3.2	2.9	4.3	
+	2	20	1.50	13.7	10.2	17.1	8.3
+	3	20	1.30	9.9	5.1	11.1	
+#8	1	20	1.47	5.8	3.9	7.0	
+	2	20	1.59	7.9	10.2	12.9	5.0
+	3	20	1.45	3.4	6.5	7.4	
+
+--- Page 13 ---
+Table of Precision for Anti-SS-A (Ro) ETI-MAX 3000™ Method:
+within between total instrument to
+mean
+run run instrument
+ID# Site N (S/CO) %CV %CV %CV %CV
+#1 1 20 0.81 4.2 6.1 7.4
+2 20 0.80 8.1 5.9 10.0 3.7
+3 20 0.86 7.1 0 7.1
+#2 1 20 0.93 3.1 4.8 5.7
+2 20 0.88 4.7 2.8 5.5 2.9
+3 20 0.91 2.6 3.1 4.1
+#3 1 20 1.00 3.1 5.0 5.9
+2 20 0.84 8.4 42.6 43.4 12.1
+3 20 1.07 5.1 0 4.9
+#4 1 20 1.00 4.3 3.0 5.2
+2 20 0.80 4.8 42.0 42.3 12.2
+3 20 1.00 3.6 4.7 5.9
+#5 1 20 0.99 4.3 3.7 5.6
+2 20 1.04 4.3 2.7 5.1 4.7
+3 20 1.08 7.0 7.7 10.4
+#6 1 20 1.01 3.4 3.9 5.2
+2 20 0.99 3.7 3.8 5.3 2.5
+3 20 1.04 3.8 2.6 4.6
+#7 1 20 1.10 4.2 3.7 5.5
+2 20 1.05 12.7 6.5 14.3 8.3
+3 20 1.23 6.6 3.9 7.6
+#8 1 20 1.00 3.9 3.4 5.2
+2 20 1.03 4.3 1.4 4.5 4.7
+3 20 1.09 4.6 7.4 8.7
+c. Linearity:
+Four samples were serially diluted across the assay range to study the
+linearity of the ANA Screen, ENA 6 Screen and Anti-SS-A (Ro) semi-
+quantitative assays using the manual and ETI-MAX methods. Samples
+were tested in singlicate. Acceptance Criteria: The ETI-MAX 3000™
+result within +/- 1 dilution of the manual result.
+Results:
+13
+
+[Table 1 on page 13]
+			mean	within
+run	between
+run	total	instrument to
+instrument
+ID#	Site	N	(S/CO)	%CV	%CV	%CV	%CV
+#1	1	20	0.81	4.2	6.1	7.4	
+	2	20	0.80	8.1	5.9	10.0	3.7
+	3	20	0.86	7.1	0	7.1	
+#2	1	20	0.93	3.1	4.8	5.7	
+	2	20	0.88	4.7	2.8	5.5	2.9
+	3	20	0.91	2.6	3.1	4.1	
+#3	1	20	1.00	3.1	5.0	5.9	
+	2	20	0.84	8.4	42.6	43.4	12.1
+	3	20	1.07	5.1	0	4.9	
+#4	1	20	1.00	4.3	3.0	5.2	
+	2	20	0.80	4.8	42.0	42.3	12.2
+	3	20	1.00	3.6	4.7	5.9	
+#5	1	20	0.99	4.3	3.7	5.6	
+	2	20	1.04	4.3	2.7	5.1	4.7
+	3	20	1.08	7.0	7.7	10.4	
+#6	1	20	1.01	3.4	3.9	5.2	
+	2	20	0.99	3.7	3.8	5.3	2.5
+	3	20	1.04	3.8	2.6	4.6	
+#7	1	20	1.10	4.2	3.7	5.5	
+	2	20	1.05	12.7	6.5	14.3	8.3
+	3	20	1.23	6.6	3.9	7.6	
+#8	1	20	1.00	3.9	3.4	5.2	
+	2	20	1.03	4.3	1.4	4.5	4.7
+	3	20	1.09	4.6	7.4	8.7	
+
+--- Page 14 ---
+R Square Intercept X Variable 1
+Lower Upper Lower Upper
+95.0% 95.0% 95.0% 95.0%
+ANA Screen 0.982 -0.112 -0.067 1.196 1.307
+ENA Screen 0.983 -0.037 0.059 1.197 1.324
+Anti-SS-A (Ro) 0.996 0.036 0.066 1.169 1.216
+y = 1.2415x - 0.0871
+R2 = 0.9825 ANAScreen Dilution Linearity
+1.000
+0.900
+0.800
+0.700
+0.600
+0.500
+0.400
+0.300
+0.200
+0.100
+0.000
+0.000 0.100 0.200 0.300 0.400 0.500 0.600 0.700 0.800 0.900
+Manual
+14
+0003
+xaM-ITE
+y = 1.2606x + 0.0105 ENAScreen Dilution Linearity
+R2 = 0.9834
+2.600
+2.400
+2.200
+2.000
+1.800
+1.600
+1.400
+1.200
+1.000
+0.800
+0.600
+0.400
+0.200
+0.000
+0.000 0.200 0.400 0.600 0.800 1.000 1.200 1.400 1.600 1.800 2.000
+Manual
+0003
+xaM-ITE
+
+[Table 1 on page 14]
+	R Square	Intercept		X Variable 1	
+		Lower
+95.0%	Upper
+95.0%	Lower
+95.0%	Upper
+95.0%
+ANA Screen	0.982	-0.112	-0.067	1.196	1.307
+ENA Screen	0.983	-0.037	0.059	1.197	1.324
+Anti-SS-A (Ro)	0.996	0.036	0.066	1.169	1.216
+
+--- Page 15 ---
+SSA Dilution Linearity
+y = 1.1928x + 0.0512
+R2 = 0.9961
+15
+000.2
+008.1
+006.1
+004.1
+002.1
+000.1
+008.0
+006.0
+004.0
+002.0
+000.0
+0.000 0.200 0.400 0.600 0.800 1.000 1.200 1.400 1.600 1.800
+Manual
+0003
+xaM-ITE
+d. Carryover:
+Study Design
+A Reference Plate consisting of 5 strips of Negative samples (n=40) was
+tested in each assay (ANA Screen, ENA 6 Screen, and Anti-SS-A (Ro) to
+establish the baseline for comparison during the carry over tests. The mean,
+SD and +/- 3SD range of the negative sample on the reference plate were
+calculated.
+Pipettor and Washer Carryover Tests
+One high dose sample was tested in replicates of four, followed by a negative
+sample tested in replicates of eight (in 3 separate sequences) to evaluate
+Pipettor carryover.
+Two high dose sample strips (n=16) followed by 2 negative sample strips
+(n=16) were tested to evaluate washer carryover.
+Acceptance Criteria: The mean of the negative samples on the Pipettor and
+Washer Carry Over Test plates within the 3SD range of the Negative Sample
+on the Reference Plate.
+Results
+ANA Screen
+Reference Plate Pipettor Carry Over Washer Carry Over
+Negative Negative Sample Negative Sample
+Sample
+Mean OD 0.141 0.143 0.141
+SD 0.014
++/- 3SD Range 0.099 – 0.183 Pass Pass
+ENA 6 Screen
+
+[Table 2 on page 15]
+	Reference Plate
+Negative
+Sample	Pipettor Carry Over
+Negative Sample	Washer Carry Over
+Negative Sample
+Mean OD	0.141	0.143	0.141
+SD	0.014		
++/- 3SD Range	0.099 – 0.183	Pass	Pass
+
+--- Page 16 ---
+Reference Plate Pipettor Carry Over Washer Carry Over
+Negative Negative Sample Negative Sample
+Sample
+Mean OD 0.160 0.141 0.128
+SD 0.009
++/- 3SD Range 0.133 – 0.187 Pass Pass
+Anti-SS-A (Ro)
+Reference Plate Pipettor Carry Over Washer Carry
+Negative Sample Negative Sample Over Negative
+Sample
+Mean OD 0.105 0.098 0.093
+SD 0.012
++/- 3SD Range 0.069 – 0.141 Pass Pass
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Analytical Sensitivity:
+Analytical sensitivity was established using parametric methods for the
+determination of Limit of Detection (LOD) according to NCCLS EP17-A. Limit
+of Blank (LOB) was estimated from a minimum of 60 measurements of multiple
+blank (analyte-free) samples. The Blank standard deviation was multiplied by
+1.645 (95th percent of the standard Gaussian distribution) and added to the Blank
+average. In order to establish LOD, a sample standard deviation was obtained
+from repeated measurement of several low-concentration samples; a minimum of
+60 results were then used to calculate a pooled standard deviation. The pooled
+standard deviation was multiplied by a term C , representing the 95th percentile of
+β
+the standard Gaussian distribution and a correction factor, and then added to LOB
+to establish LOD.
+Assay Manual ETI-MAX 3000™
+n LOB n LOD n LOB n LOD
+ANAScreen 68 0.087 70 0.144 68 0.116 71 0.133
+ENAScreen 90 0.070 88 0.122 90 0.106 88 0.136
+Anti-SSA(Ro) 82 0.084 80 0.133 74 0.109 104 0.138
+Assay Drift:
+Eight replicates of a low positive sample were tested at the beginning of the plate
+in strip 2 (just after the reference sample and assay controls) and again at the end
+of the plate in strip 12 to evaluate assay drift. The mean, SD and +/-2SD range
+for S/CO and OD were calculated. OD and U/mL were calculated for the
+Quantitative Anti-SSA assay.
+16
+
+[Table 1 on page 16]
+	Reference Plate
+Negative
+Sample	Pipettor Carry Over
+Negative Sample	Washer Carry Over
+Negative Sample
+Mean OD	0.160	0.141	0.128
+SD	0.009		
++/- 3SD Range	0.133 – 0.187	Pass	Pass
+
+[Table 2 on page 16]
+	Reference Plate
+Negative Sample	Pipettor Carry Over
+Negative Sample	Washer Carry
+Over Negative
+Sample
+Mean OD	0.105	0.098	0.093
+SD	0.012		
++/- 3SD Range	0.069 – 0.141	Pass	Pass
+
+[Table 3 on page 16]
+Assay	Manual				ETI-MAX 3000™			
+	n	LOB	n	LOD	n	LOB	n	LOD
+ANAScreen	68	0.087	70	0.144	68	0.116	71	0.133
+ENAScreen	90	0.070	88	0.122	90	0.106	88	0.136
+Anti-SSA(Ro)	82	0.084	80	0.133	74	0.109	104	0.138
+
+--- Page 17 ---
+Acceptance Criteria: The low positive S/CO, U/mL and OD results from strip 12
+must fall within the 2 SD range (S/CO, U/mL and OD) calculated for strip 2. If
+the results from strip 12 do not fall within the 2SD ranges the assay will need to
+be repeated.
+Results
+ANA Screen
+Strip 2 Low Positive Sample Strip 12 Low Positive Sample
+OD S/CO OD S/CO
+Mean 0.315 0.757 0.303 0.728
+SD 0.010 0.023
++/- 2SD Range 0.295-0.335 0.711-0.803 Pass Pass
+ENA 6 Screen
+Strip 2 Low Positive Sample Strip 12 Low Positive Sample
+OD S/CO OD S/CO
+Mean 0.418 1.502 0.379 1.363
+SD 0.024 0.085
++/- 2SD Range 0.370-0.466 1.332-1.672 Pass Pass
+Anti-SS-A (Ro) Semi-quantitative
+Strip 2 Low Positive Sample Strip 12 Low Positive Sample
+OD U/mL OD U/mL
+Mean 0.796 7.31 0.773 7.04
+SD 0.023 0.27
++/- 2SD Range 0.751-0.841 6.77-7.86 Pass Pass
+Dye test data to determine the accuracy of pipettor and washer:
+Upon request, the sponsor provided the dye tests data which is used to determine the
+accuracy of the pipettor and washer. A summary of the results of the pipettor and
+washer dye test along with the Acceptance/Validation Criteria is listed below. These
+tests were performed on the ETI-MAX 3000™ Analyzer asset number 10142 at the
+DiaSorin site. A printout from the instrument for each test is attached for your
+review.
+Verification of Residual Volume (Washer)
+Assay Name Criteria Result
+Val-Wash.Asy Max(W1) < 1.2% 0.675 < 1.2
+W1 < 0.4% 0.310313 < 0.4
+Verification of Dilution 1:100 and 10μL+200μL
+Assay Name Criteria Result
+Dilution.asy CV(W1) <= 10% 1.66693 <= 10
+CV(D) <= 5% 2.56137 <= 5
+17
+
+[Table 1 on page 17]
+	Strip 2 Low Positive Sample		Strip 12 Low Positive Sample	
+	OD	S/CO	OD	S/CO
+Mean	0.315	0.757	0.303	0.728
+SD	0.010	0.023		
++/- 2SD Range	0.295-0.335	0.711-0.803	Pass	Pass
+
+[Table 2 on page 17]
+	Strip 2 Low Positive Sample		Strip 12 Low Positive Sample	
+	OD	S/CO	OD	S/CO
+Mean	0.418	1.502	0.379	1.363
+SD	0.024	0.085		
++/- 2SD Range	0.370-0.466	1.332-1.672	Pass	Pass
+
+[Table 3 on page 17]
+	Strip 2 Low Positive Sample		Strip 12 Low Positive Sample	
+	OD	U/mL	OD	U/mL
+Mean	0.796	7.31	0.773	7.04
+SD	0.023	0.27		
++/- 2SD Range	0.751-0.841	6.77-7.86	Pass	Pass
+
+[Table 4 on page 17]
+Assay Name	Criteria	Result
+Val-Wash.Asy	Max(W1) < 1.2%	0.675 < 1.2
+	W1 < 0.4%	0.310313 < 0.4
+
+[Table 5 on page 17]
+Assay Name	Criteria	Result
+Dilution.asy	CV(W1) <= 10%	1.66693 <= 10
+	CV(D) <= 5%	2.56137 <= 5
+
+--- Page 18 ---
+Verification of Multi-Dispensing 8x100μL
+Assay Name Criteria Result
+8x100.asy CV(W1) <= 2.5% 1.47316 <= 2.5
+Verification of Single Pipette 100μL and 50μL
+Assay Name Criteria Result
+100x50.asy CV(W1) <= 2.5% 0.784174 <= 2.5
+CV(W2) <= 5% 3.30849 <=5
+These tests are performed at the time of installation of the instrument, every 6
+months for Preventative Maintenance and whenever service on the pipettor is
+performed.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+18
+
+[Table 1 on page 18]
+Assay Name	Criteria	Result
+8x100.asy	CV(W1) <= 2.5%	1.47316 <= 2.5
+
+[Table 2 on page 18]
+Assay Name	Criteria	Result
+100x50.asy	CV(W1) <= 2.5%	0.784174 <= 2.5
+	CV(W2) <= 5%	3.30849 <=5

@@ -1,0 +1,1437 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K203774
+B Applicant
+Insulet Corporation
+C Proprietary and Established Names
+SmartAdjust technology
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1356 -
+QJI Class II Interoperable Automated CH - Clinical Chemistry
+Glycemic Controller
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Type of Test:
+Not applicable
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+SmartAdjust technology is intended for use with compatible integrated continuous glucose
+monitors (iCGM) and alternate controller enabled (ACE) pumps to automatically increase,
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QJI			Class II	21 CFR 862.1356 -
+Interoperable Automated
+Glycemic Controller			CH - Clinical Chemistry
+
+--- Page 2 ---
+decrease, and pause delivery of insulin based on current and predicted glucose values.
+SmartAdjust technology is intended for the management of type 1 diabetes mellitus in persons 6
+years of age and older. SmartAdjust technology is intended for single patient use and requires a
+prescription.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+SmartAdjust technology should not be used in anyone under the age of 6 years old. SmartAdjust
+technology should also NOT be used in people who require less than 6 units of insulin per day as
+the safety of the technology has not been evaluated in this population.
+Do not use SmartAdjust technology in pregnant women, critically ill patients, and those on
+dialysis. The safety of the SmartAdjust technology has not been evaluated in these populations.
+Do not use SmartAdjust technology if you are taking hydroxyurea as it could lead to falsely
+elevated CGM values and result in over-delivery of insulin that can lead to severe hypoglycemia.
+Do not use SmartAdjust technology if you do NOT have adequate hearing and/or vision to allow
+recognition of all functions of the Omnipod 5 System, including alerts, alarms, and reminders.
+SmartAdjust technology used with the Omnipod 5 System is designed to use rapid-acting U-100
+insulins. The following U-100 rapid-acting insulin analogs have been tested and found to be safe
+for use in the Pod: NovoLog® (insulin aspart), Humalog® (insulin lispro), and Admelog®
+(insulin lispro) for use up to 72 hours (3 days). Before using a different insulin with the Omnipod
+5 System, check the insulin drug label and consult your healthcare provider. Refer to the insulin
+labeling and follow your healthcare provider’s directions for how often to replace the Pod.
+SmartAdjust technology used with the Omnipod 5 System relies on accurate, current CGM
+values to determine your insulin needs. Always make sure you are using the CGM per
+manufacturer's instructions and do not extend the sensor wear beyond the recommended
+duration.
+Do NOT attempt to use the SmartAdjust technology with the Omnipod 5 System before you
+receive training. Inadequate training could put your health and safety at risk.
+Device components used with the SmartAdjust technology including the pod, CGM transmitter,
+and CGM sensor must be removed before Magnetic Resonance Imaging (MRI), Computed
+Tomography (CT) scan, or diathermy treatment. In addition, the SmartAdjust Controller and
+smartphone should be placed outside of the precedure room. Exposure to MRI, CT, or diathery
+treatment can damage the components.
+At the time of device authorization, the compatible integrated continuous glucose monitor
+(iCGM) is the Dexcom G6 iCGM.
+K203774 - Page 2 of 20
+
+--- Page 3 ---
+IV Device/System Characteristics:
+A Device Description:
+SmartAdjust technology (the Omnipod 5 interoperable automated glycemic controller, or iAGC)
+is a software-only medical device intended for the management of type 1 diabetes mellitus. The
+Omnipod 5 iAGC uses data from a connected iCGM along with user-defined parameters to
+predict future glucose trends and automatically increase, decrease, or pause the delivery of
+insulin via a compatible alternate controller enabled (ACE) pump.
+The SmartAdjust technology software is part of the Omnipod 5 Automated Insulin Delivery
+System, which also includes the Omnipod 5 ACE Pump (K203768), Omnipod 5 Bolus
+Calculator (K203772), and an integrated continuous glucose monitor (iCGM, Dexcom G6). The
+SmartAdjust technology is intended to be digitally connected to an iCGM and an ACE Pump.
+The SmartAdjust technology software resides on the Omnipod 5 ACE Pump (the Omnipod 5 Pod
+and Omnipod 5 App). The iAGC software is responsible for controlling insulin delivery via
+compatible ACE Pump when the system is in Automated Mode. iCGM data is transmitted from
+the iCGM to the ACE Pump via Bluetooth Low Energy technology. The SmartAdjust technology
+uses this transmitted iCGM data in its calculations. The SmartAdjust technology can be turned
+off, and the Omnipod 5 ACE Pump will operate in Manual Mode, which delivers insulin based
+on healthcare provider (HCP) or user-defined basal programs.
+The SmartAdjust technology has three states of operation: Automated Mode, Automated:
+Limited, and Activity. In Automated Mode, the system calculates insulin delivery every 5
+minutes based on the user-customizable glucose target (110–150 mg/dL). Automated: Limited is
+enabled when the SmartAdjust technology is not receiving data from a connected iCGM for 20
+minutes or more and during sensor warm-up. While in Automated: Limited, the user will receive
+no more than pre-programmed basal insulin. When a valid glucose value is received from the
+iCGM, the SmartAdjust technology will resume delivery of insulin in full Automated Mode.
+Activity is a temporary mode which the user may select for various time durations during
+automated mode up to 24 hours. With Activity, the algorithm reduces insulin delivery, by setting
+a temporary glucose target to 150mg/dL. Activity is intended for use during periods when insulin
+sensitivity is expected to be higher, such as during exercise.
+K203774 - Page 3 of 20
+
+--- Page 4 ---
+B Instrument Description Information:
+1. Instrument Name:
+SmartAdjust technology
+2. Specimen Identification:
+Not applicable
+3. Specimen Sampling and Handling:
+Not applicable
+4. Calibration:
+Not applicable
+5. Quality Control:
+Not applicable
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Control-IQ Technology
+B Predicate 510(k) Number(s):
+K200467
+C Comparison with Predicate(s):
+Device & Predicate
+K203774 K200467
+Device(s):
+SmartAdjust
+Device Trade Name Control-IQ Technology
+Technology
+General Device
+Characteristic Similarities
+For use with compatible
+integrated continuous
+glucose monitors
+(iCGM) and alternate
+controller enabled
+(ACE) pumps to
+Intended Use/Indications
+automatically increase, Same
+For Use
+decrease, and pause
+delivery of insulin
+based on current and
+predicted glucose
+values. (It) is intended
+for the management of
+K203774 - Page 4 of 20
+
+[Table 1 on page 4]
+	Device & Predicate		K203774	K200467
+	Device(s):			
+Device Trade Name			SmartAdjust
+Technology	Control-IQ Technology
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			For use with compatible
+integrated continuous
+glucose monitors
+(iCGM) and alternate
+controller enabled
+(ACE) pumps to
+automatically increase,
+decrease, and pause
+delivery of insulin
+based on current and
+predicted glucose
+values. (It) is intended
+for the management of	Same
+
+--- Page 5 ---
+type 1 diabetes mellitus
+in persons 6 years of
+age and older.
+Age Range of intended users Ages 6 years and older Same
+Bluetooth Low Energy
+Communication and Pairing Same
+(BLE)
+General Device
+Characteristic Differences
+U-100 insulins:
+U-100 Insulins:
+Specific Drug/Biologic Use NovoLog, Humalog,
+NovoLog and Humalog
+and Admelog
+OP5 Pod (ACE Pump)
+and Android OS device
+Device Hosting Controller (locked down PDM or T:slim X2 insulin pump
+user’s compatible smart
+phone)
+• Out of Range Alert
+• Out of Range Alert
+• Low Alert
+• Low Alert
+• High Alert
+Alarms/Alerts • Maximum
+• Maximum
+Insulin/Delivery
+Insulin/Delivery
+Alert
+Alert
+Target Glucose Range 110-150 mg/dL 112.50-160 mg/dL
+VI Standards/Guidance Documents Referenced:
+Special controls established under 21 CFR 862.1356.
+ISO 14971:2007: Medical Devices - Application of Risk Management to Medical Devices FDA
+Recognition No: 5-40
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable.
+2. Linearity:
+Not applicable.
+K203774 - Page 5 of 20
+
+[Table 1 on page 5]
+			type 1 diabetes mellitus
+in persons 6 years of
+age and older.	
+Age Range of intended users			Ages 6 years and older	Same
+Communication and Pairing			Bluetooth Low Energy
+(BLE)	Same
+	General Device			
+	Characteristic Differences			
+Specific Drug/Biologic Use			U-100 insulins:
+NovoLog, Humalog,
+and Admelog	U-100 Insulins:
+NovoLog and Humalog
+Device Hosting Controller			OP5 Pod (ACE Pump)
+and Android OS device
+(locked down PDM or
+user’s compatible smart
+phone)	T:slim X2 insulin pump
+Alarms/Alerts			• Out of Range Alert
+• Low Alert
+• Maximum
+Insulin/Delivery
+Alert	• Out of Range Alert
+• Low Alert
+• High Alert
+• Maximum
+Insulin/Delivery
+Alert
+Target Glucose Range			110-150 mg/dL	112.50-160 mg/dL
+
+--- Page 6 ---
+3. Analytical Specificity/Interference:
+Not applicable.
+4. Accuracy (Instrument):
+Not applicable.
+5. Carry-Over:
+Not applicable.
+B Other Supportive Instrument Performance Characteristics Data:
+For the evaluation of the system in the clinical studies, the SmartAdjust technology was installed
+on the Omnipod 5 ACE Pump (Pod) insulin pump with interoperable technology (K203768),
+which was paired with the Dexcom G6 integrated continuous glucose monitor (iCGM). Details
+on the performance characteristics of these devices can be found in the public decision
+summaries for each device.
+Summary of Clinical Testing:
+Two clinical studies were conducted to evaluate the SmartAdjust technology in subjects 6-70
+years of age with type 1 diabetes. The first study was the pre-pivotal study which was followed
+by the pivotal study.
+Pre-pivotal
+Study Feature Description
+Title Pre-pivotal evaluation of the safety and effectiveness of the
+Omnipod Horizon Automated Glucose Control System in
+patients with type 1 diabetes
+Study Design Single-arm, multi-center, prospective clinical study
+Number of Sites Six (6) US clinical sites
+Population 18 subjects aged 6-13.9 years, and 18 subjects aged 14-70
+years.
+Key Inclusion Criteria
+• Age 6-70 years old
+• Type 1 diabetes for at least 6 months
+• Hemoglobin A1c (HbA1c) <10% at screening
+Key Exclusion Criteria
+• Use of non-insulin anti-diabetic medication other than
+metformin
+Protocol Overview/Synopsis The study consisted of two phases:
+1. 14 day outpatient standard therapy phase followed by;
+2. 14 day hybrid closed-loop phase
+K203774 - Page 6 of 20
+
+[Table 1 on page 6]
+Study Feature	Description
+Title	Pre-pivotal evaluation of the safety and effectiveness of the
+Omnipod Horizon Automated Glucose Control System in
+patients with type 1 diabetes
+Study Design	Single-arm, multi-center, prospective clinical study
+Number of Sites	Six (6) US clinical sites
+Population	18 subjects aged 6-13.9 years, and 18 subjects aged 14-70
+years.
+Key Inclusion Criteria
+• Age 6-70 years old
+• Type 1 diabetes for at least 6 months
+• Hemoglobin A1c (HbA1c) <10% at screening
+Key Exclusion Criteria
+• Use of non-insulin anti-diabetic medication other than
+metformin
+Protocol Overview/Synopsis	The study consisted of two phases:
+1. 14 day outpatient standard therapy phase followed by;
+2. 14 day hybrid closed-loop phase
+
+--- Page 7 ---
+Study Feature Description
+For the standard therapy (ST) phase, current Dexcom G6
+iCGM users could provide data from a 14-day period within
+the last 30 days. For non-G6 users, subjects wore a study
+iCGM, in blinded mode, to record glucose measurements over
+14 days while subjects managed their diabetes at home per
+their usual routine and remained on their current multiple
+daily injection (MDI) or pump therapy, and sensor, if
+applicable.
+After completion of the standard therapy phase, subjects were
+trained on the system and transitioned to the hybrid closed-
+loop (HCL) phase initiating treatment with the Omnipod
+Horizon™ System. For the hybrid closed-loop phase, subjects
+were divided into two groups:
+Group 1:
+N=16 subjects aged 6.0-70.0 years participated in the hybrid
+closed-loop phase for the first 2-days while in a supervised
+hotel/rental house environment and then transitioned to a 12
+day outpatient environment.
+• N=8 subjects aged 6.0-13.9 years
+• N=8 subjects aged 14.0-70.0 years
+Group 2:
+N=20 subjects aged 6.0-70.0 years participated in the hybrid
+closed-loop phase in a 14 day outpatient environment with
+• N=10 subjects aged 6.0-13.9 years
+• N=10 subjects aged 14.0-70.0 years
+After all subjects from the first group completed the 2 day
+hotel phase, the second group of subjects could commence
+hybrid closed-loop.
+All subjects participated in target glucose challenges during
+the hybrid closed-loop phase. In total, all subjects completed
+14 days of hybrid closed-loop, with approximately 72 hours
+spent at each target blood glucose challenge level of 130
+mg/dL, 140 mg/dL and 150 mg/dL.
+Clinical site staff received alerts through a remote monitoring
+system during the study for real-time assessments of subject
+safety.
+After each subject in the pre-pivotal study successfully
+completed 14 days of hybrid-closed loop, they could
+immediately enroll into the pivotal study.
+K203774 - Page 7 of 20
+
+[Table 1 on page 7]
+Study Feature	Description
+	For the standard therapy (ST) phase, current Dexcom G6
+iCGM users could provide data from a 14-day period within
+the last 30 days. For non-G6 users, subjects wore a study
+iCGM, in blinded mode, to record glucose measurements over
+14 days while subjects managed their diabetes at home per
+their usual routine and remained on their current multiple
+daily injection (MDI) or pump therapy, and sensor, if
+applicable.
+After completion of the standard therapy phase, subjects were
+trained on the system and transitioned to the hybrid closed-
+loop (HCL) phase initiating treatment with the Omnipod
+Horizon™ System. For the hybrid closed-loop phase, subjects
+were divided into two groups:
+Group 1:
+N=16 subjects aged 6.0-70.0 years participated in the hybrid
+closed-loop phase for the first 2-days while in a supervised
+hotel/rental house environment and then transitioned to a 12
+day outpatient environment.
+• N=8 subjects aged 6.0-13.9 years
+• N=8 subjects aged 14.0-70.0 years
+Group 2:
+N=20 subjects aged 6.0-70.0 years participated in the hybrid
+closed-loop phase in a 14 day outpatient environment with
+• N=10 subjects aged 6.0-13.9 years
+• N=10 subjects aged 14.0-70.0 years
+After all subjects from the first group completed the 2 day
+hotel phase, the second group of subjects could commence
+hybrid closed-loop.
+All subjects participated in target glucose challenges during
+the hybrid closed-loop phase. In total, all subjects completed
+14 days of hybrid closed-loop, with approximately 72 hours
+spent at each target blood glucose challenge level of 130
+mg/dL, 140 mg/dL and 150 mg/dL.
+Clinical site staff received alerts through a remote monitoring
+system during the study for real-time assessments of subject
+safety.
+After each subject in the pre-pivotal study successfully
+completed 14 days of hybrid-closed loop, they could
+immediately enroll into the pivotal study.
+
+--- Page 8 ---
+Pre-Pivotal Study Safety Results:
+There were no serious device-related adverse events reported during the pre-pivotal study.
+Additionally, there were no subjects with severe hypoglycemia (SH) or diabetic ketoacidosis
+(DKA) reported during the HCL phase of the pre-pivotal study.
+Pre-Pivotal Study Observed Results:
+CGM Data at Various Target Glucose Settings
+Overall (24 hours) CGM results at target glucose settings in children (6 to 13.9 years) from
+Pre-pivotal study
+Characteristic 110mg/dL 120mg/dL 130mg/dL 140mg/dL 150mg/dL
+Target Target Target Target Glucose Target
+Glucose Glucose (n=3) Glucose (n=18) Glucose
+(n=11) (n=18) (n=18)
+Avg % time 70- 71.2% 66.8% 61.5% 64.8% 53.5%
+180 mg/dL (10.2%) (12.9%) (7.7%) (11.6%) (11.0%)
+(std dev)
+Avg sensor 155.2 170 174.1 172.7 182.9
+glucose, mg/dL (18.2) (16) (11.4) (17.2) (15.3)
+(std dev)
+% Time in glucose range
+Median % <54 0.1% 0.2% 0.0% 0.0% 0.0%
+mg/dL
+(Q1, Q3) (0.0, 0.4) (0.0, 0.3) (0.0, 0.3) (0.0, 0.0) (0.0, 0.1)
+Median % <70 0.9% 0.3% 0.5% 0.1% 0.5%
+mg/dL
+(Q1, Q3) (0.4, 2.8) (0.2. 2.2) (0.1, 0.8) (0.0, 0.5) (0.0, 0.8)
+Avg % >180 27.1% 32.3% 37.7% 34.6% 45.9%
+mg/dL
+(std dev) (11.4%) (11.9%) (7.9) (12.1%) (11.0%)
+Avg % ≥250 6.8% 14.4% 13.2% 10.6% 12.8%
+mg/dL
+(std dev) (6.3%) (6.2%) (5.8%) (7.3%) (8.1%)
+Cumulative 47.7 8.7 73.3 56.3 61.5
+number of
+person-days
+K203774 - Page 8 of 20
+
+[Table 1 on page 8]
+Characteristic	110mg/dL	120mg/dL	130mg/dL	140mg/dL	150mg/dL
+	Target	Target	Target	Target Glucose	Target
+	Glucose	Glucose (n=3)	Glucose	(n=18)	Glucose
+	(n=11)		(n=18)		(n=18)
+Avg % time 70-
+180 mg/dL
+(std dev)	71.2%
+(10.2%)	66.8%
+(12.9%)	61.5%
+(7.7%)	64.8%
+(11.6%)	53.5%
+(11.0%)
+Avg sensor
+glucose, mg/dL
+(std dev)	155.2
+(18.2)	170
+(16)	174.1
+(11.4)	172.7
+(17.2)	182.9
+(15.3)
+% Time in glucose range					
+Median % <54
+mg/dL
+(Q1, Q3)	0.1%
+(0.0, 0.4)	0.2%
+(0.0, 0.3)	0.0%
+(0.0, 0.3)	0.0%
+(0.0, 0.0)	0.0%
+(0.0, 0.1)
+Median % <70
+mg/dL
+(Q1, Q3)	0.9%
+(0.4, 2.8)	0.3%
+(0.2. 2.2)	0.5%
+(0.1, 0.8)	0.1%
+(0.0, 0.5)	0.5%
+(0.0, 0.8)
+Avg % >180
+mg/dL
+(std dev)	27.1%
+(11.4%)	32.3%
+(11.9%)	37.7%
+(7.9)	34.6%
+(12.1%)	45.9%
+(11.0%)
+Avg % ≥250
+mg/dL
+(std dev)	6.8%
+(6.3%)	14.4%
+(6.2%)	13.2%
+(5.8%)	10.6%
+(7.3%)	12.8%
+(8.1%)
+Cumulative
+number of
+person-days	47.7	8.7	73.3	56.3	61.5
+
+--- Page 9 ---
+Overall (24 hours) CGM results at target glucose settings in adolescents and adults (14 to
+70 years) from Pre-pivotal study
+Characteristic 110mg/dL 120mg/dL 130mg/dL 140mg/dL 150mg/dL
+Target Target Target Target Glucose Target
+Glucose Glucose (n=7) Glucose (n=18) Glucose
+(n=12) (n=18) (n=18)
+Avg % time 70- 72.5% 70.9% 75.1% 67.6% 63.7%
+180 mg/dL (9.4%) (11.3%) (11.6%) (9.2%) (7.8%)
+(std dev)
+Avg sensor 153.8 159.7 153.8 165.4 169.8
+glucose, mg/dL (14.8) (11) (14.9) (11.5) (9.4)
+(std dev)
+% Time in
+glucose range
+Median % <54 0.0% 0.0% 0.0% 0.0% 0.0%
+mg/dL
+(Q1, Q3) (0.0, 0.0) (0.0, 0.0) (0.0, 0.2) (0.0, 0.1) (0.0, 0.2)
+Median % <70 0.5% 0.4% 0.9% 0.1% 0.2%
+mg/dL
+(Q1, Q3) (0.0, 1.4) (0.0, 0.6) (0.4, 1.2) (0.0, 0.6) (0.0, 0.9)
+Avg % >180 26.4% 28.7% 23.4% 31.7% 35.7%
+mg/dL
+(std dev) (10.0%) (11.2%) (11.4%) (9.2%) (7.9%)
+Avg % ≥250 4.1% 5.2% 5.0% 5.1% 6.0%
+mg/dL
+(std dev) (3.4%) (5.5%) (4.6%) (4.5%) (4.8%)
+Cumulative 41.1 28 58.8 58.4 60.3
+number of
+person-days
+Pivotal Study
+The Pivotal study evaluated the safety and effectiveness of the SmartAdjust technology in
+patients with type 1 diabetes. The study was a single-arm, multi-center, prospective clinical study
+that enrolled 240 subjects 6-70 years of age, across 17 clinical sites to obtain at least 100
+evaluable subjects in the 6.0-13.9 years of age cohort and at least 100 evaluable subjects in the
+14.0-70.0 years of age cohort.
+The Pivotal study was conducted in three outpatient phases. Phase 1 consisted of a 14 day
+standard therapy phase followed by Phase 2 which consisted of a 13 week hybrid closed-loop
+phase. Phase 3 is the extension phase and is currently ongoing.
+K203774 - Page 9 of 20
+
+[Table 1 on page 9]
+Characteristic	110mg/dL	120mg/dL	130mg/dL	140mg/dL	150mg/dL
+	Target	Target	Target	Target Glucose	Target
+	Glucose	Glucose (n=7)	Glucose	(n=18)	Glucose
+	(n=12)		(n=18)		(n=18)
+Avg % time 70-
+180 mg/dL
+(std dev)	72.5%
+(9.4%)	70.9%
+(11.3%)	75.1%
+(11.6%)	67.6%
+(9.2%)	63.7%
+(7.8%)
+Avg sensor
+glucose, mg/dL
+(std dev)	153.8
+(14.8)	159.7
+(11)	153.8
+(14.9)	165.4
+(11.5)	169.8
+(9.4)
+% Time in
+glucose range					
+Median % <54
+mg/dL
+(Q1, Q3)	0.0%
+(0.0, 0.0)	0.0%
+(0.0, 0.0)	0.0%
+(0.0, 0.2)	0.0%
+(0.0, 0.1)	0.0%
+(0.0, 0.2)
+Median % <70
+mg/dL
+(Q1, Q3)	0.5%
+(0.0, 1.4)	0.4%
+(0.0, 0.6)	0.9%
+(0.4, 1.2)	0.1%
+(0.0, 0.6)	0.2%
+(0.0, 0.9)
+Avg % >180
+mg/dL
+(std dev)	26.4%
+(10.0%)	28.7%
+(11.2%)	23.4%
+(11.4%)	31.7%
+(9.2%)	35.7%
+(7.9%)
+Avg % ≥250
+mg/dL
+(std dev)	4.1%
+(3.4%)	5.2%
+(5.5%)	5.0%
+(4.6%)	5.1%
+(4.5%)	6.0%
+(4.8%)
+Cumulative
+number of
+person-days	41.1	28	58.8	58.4	60.3
+
+--- Page 10 ---
+Study Feature Description
+Title Evaluating the safety and effectiveness of the Omnipod
+Horizon Automated Glucose Control System in patients with
+type 1 diabetes
+Study Design Single-arm, multi-center, prospective clinical study
+Number of Sites Seventeen (17) US clinical sites
+Population 112 subjects aged 6-13.9 years, and 129 subjects aged 14-70
+years.
+Key Inclusion Criteria
+• Age 6-70 years old
+• Type 1 for at least 6 months
+• HbA1c <10% at screening
+Key Exclusion Criteria
+• Use of non-insulin anti-diabetic medication other than
+metformin
+Sample Size 240 subjects were enrolled and completed the study
+Protocol Overview/Synopsis The study consisted of three phases:
+3. 14 day outpatient therapy phase (Phase 1)
+4. 13 week outpatient hybrid closed-loop phase (Phase 2)
+5. Hybrid closed-loop extension phase (Phase 3)
+Current and non-Dexcom G6 iCGM users who did not meet
+the minimum CGM data requirements participated in Phase 1
+(where subjects managed their diabetes at home per their
+usual routine and remained on their current MDI or pump
+therapy, and sensor, if applicable). After completion of the
+standard therapy phase, subjects were trained on the system
+and transitioned to Phase 2 initiating treatment with the
+Omnipod Horizon System. Subjects in each cohort (ages 6-
+13.9 and 14-70 years) participated in prescribed challenges
+during any consecutive 5-day period during Phase 2 of the
+hybrid closed-loop phase. Subjects who completed Phase 2
+could commence their participation in Phase 3.
+K203774 - Page 10 of 20
+
+[Table 1 on page 10]
+Study Feature	Description
+Title	Evaluating the safety and effectiveness of the Omnipod
+Horizon Automated Glucose Control System in patients with
+type 1 diabetes
+Study Design	Single-arm, multi-center, prospective clinical study
+Number of Sites	Seventeen (17) US clinical sites
+Population	112 subjects aged 6-13.9 years, and 129 subjects aged 14-70
+years.
+Key Inclusion Criteria
+• Age 6-70 years old
+• Type 1 for at least 6 months
+• HbA1c <10% at screening
+Key Exclusion Criteria
+• Use of non-insulin anti-diabetic medication other than
+metformin
+Sample Size	240 subjects were enrolled and completed the study
+Protocol Overview/Synopsis	The study consisted of three phases:
+3. 14 day outpatient therapy phase (Phase 1)
+4. 13 week outpatient hybrid closed-loop phase (Phase 2)
+5. Hybrid closed-loop extension phase (Phase 3)
+Current and non-Dexcom G6 iCGM users who did not meet
+the minimum CGM data requirements participated in Phase 1
+(where subjects managed their diabetes at home per their
+usual routine and remained on their current MDI or pump
+therapy, and sensor, if applicable). After completion of the
+standard therapy phase, subjects were trained on the system
+and transitioned to Phase 2 initiating treatment with the
+Omnipod Horizon System. Subjects in each cohort (ages 6-
+13.9 and 14-70 years) participated in prescribed challenges
+during any consecutive 5-day period during Phase 2 of the
+hybrid closed-loop phase. Subjects who completed Phase 2
+could commence their participation in Phase 3.
+
+--- Page 11 ---
+Baseline characteristics including demographics at enrollment (N=240)
+Characteristic Children Adults
+(6 to 13.9 years) (14 to 70 years)
+n 112 128
+Age (years) ± SD 10.3 ± 2.2 36.9 ± 13.9
+Duration of diabetes (years) 4.7 ± 2.6 17.9 ± 11.6
+HbA1c§ 7.67% ± 0.95% 7.16% ± 0.86%
+Daily insulin dose (U/kg) ¥ 0.85 ± 0.24 0.61 ± 0.22
+Body mass index (BMI) 18.6 ± 3.2 26.6 ± 4.7
+Female sex 60 (53.6%) 78 (60.9%)
+Previous ¶ or current continuous 108 (96.4%) 126 (98.4%)
+glucose monitor (CGM) use
+Previous¶ or current pump use 100 (89.3%) 115 (89.8%)
+Race / Ethnicity‡
+White 110 (98.2%) 118 (92.2%)
+Hispanic or Latino 8 (7.1%) 10 (7.8%)
+Black or African American 5 (4.5%) 5 (3.9%)
+Asian 3 (2.7%) 2 (1.6%)
+Native Hawaiian or other Pacific 1 (0.9%) 0 (0.0%)
+Islander
+American Indian or Alaska Native 0 (0.0%) 4 (3.1%)
+Plus-minus values are average ± standard deviation; results reported with number in brackets
+afterwards represent number of subjects (% of subjects)
+§ Glycated hemoglobin determined from laboratory assessment
+¥ Baseline total daily insulin dose was determined from data collected during the standard
+therapy phase
+¶ Previous use is defined as having used the device for any duration in the past
+‡ Race and ethnicity were reported by the subjects. Groups are not mutually exclusive
+K203774 - Page 11 of 20
+
+[Table 1 on page 11]
+Characteristic	Children	Adults
+	(6 to 13.9 years)	(14 to 70 years)
+		
+n	112	128
+Age (years) ± SD	10.3 ± 2.2	36.9 ± 13.9
+Duration of diabetes (years)	4.7 ± 2.6	17.9 ± 11.6
+HbA1c§	7.67% ± 0.95%	7.16% ± 0.86%
+Daily insulin dose (U/kg) ¥	0.85 ± 0.24	0.61 ± 0.22
+Body mass index (BMI)	18.6 ± 3.2	26.6 ± 4.7
+Female sex	60 (53.6%)	78 (60.9%)
+Previous ¶ or current continuous
+glucose monitor (CGM) use	108 (96.4%)	126 (98.4%)
+Previous¶ or current pump use	100 (89.3%)	115 (89.8%)
+Race / Ethnicity‡		
+White	110 (98.2%)	118 (92.2%)
+Hispanic or Latino	8 (7.1%)	10 (7.8%)
+Black or African American	5 (4.5%)	5 (3.9%)
+Asian	3 (2.7%)	2 (1.6%)
+Native Hawaiian or other Pacific
+Islander	1 (0.9%)	0 (0.0%)
+American Indian or Alaska Native	0 (0.0%)	4 (3.1%)
+
+--- Page 12 ---
+Pivotal Study Safety Results
+One (1) DKA, and 3 SH events were reported during the study and included:
+• One (1) DKA and 1 SH occurred in the aged 6.0-13.9 years cohort
+• Two (2) SH occurred in the 14.0-70.0 years cohort.
+The DKA event was indicated as possibly related to the study device and not related to the study
+procedures while all other serious adverse events were indicated as not related to the device and
+not related to the study procedures.
+The table below provides a full list of the adverse events that occurred during the 3-month
+Omnipod 5 System treatment phase. There were 3 severe hypoglycemia events not attributable to
+the Omnipod 5 System automated insulin delivery or system malfunction and 1 DKA event from
+a suspected infusion site failure. Other related, but non-glycemic adverse events included
+infection or irritation at infusion site (2 children, 2 adults).
+Adverse events during the Omnipod 5 System phase
+Adverse Event Type Children (6 to Adults Total
+13.9 years) (14 to 70 years) (6 to 70 years)
+(n=112) (n=128) (N=240)
+Primary Safety Endpoints
+Hypoglycemia ‡ 1 0 1
+Severe Hypoglycemia § 1 2 3
+DKA 1 0 1
+Hyperglycemia ‖ 1 2 3
+Prolonged Hyperglycemia ** 13 5 18
+Other 8 8 16
+‡ Hypoglycemia resulting in a serious adverse event, but otherwise not meeting the definition of
+severe hypoglycemia
+§ Required the assistance of another person
+‖‖ Hyperglycemia requiring evaluation, treatment or guidance from intervention site, or
+hyperglycemia resulting in a serious adverse event
+** Meter blood glucose measuring ≥300mg/dL and ketones >1.0mmol/L
+K203774 - Page 12 of 20
+
+[Table 1 on page 12]
+Adverse Event Type	Children (6 to	Adults	Total
+	13.9 years)	(14 to 70 years)	(6 to 70 years)
+	(n=112)	(n=128)	(N=240)
+			
+Primary Safety Endpoints			
+Hypoglycemia ‡	1	0	1
+Severe Hypoglycemia §	1	2	3
+DKA	1	0	1
+Hyperglycemia ‖	1	2	3
+Prolonged Hyperglycemia **	13	5	18
+Other	8	8	16
+
+--- Page 13 ---
+Pivotal Study Observed Results
+The tables below include information on the primary and secondary glycemic results from the
+standard therapy phase compared to the 3-month Omnipod 5 System treatment phase. The
+primary results of the study included change in average HbA1c% and % time in range (70-
+80mg/dL).
+CGM results overall (24 hours)
+Children (6 to 13.9 years) Adolescents & Adults (14 to 70
+Characteristic (n=112) years)
+(n=128)
+Standard Omnipod 5 Change Standard Omnipod 5 Change
+Therapy Therapy
+Avg HbA1c% 7.67% 6.99% -0.71% 7.16% 6.78% -0.38%
+(std dev) (0.95%) (0.63%) (0.86%) (0.68%)
+Avg % time 70- 52.5% 68.0% 15.6% 64.7% 73.9% 9.3%
+180mg/dL (std dev) (15.6%) (8.1%) (16.6%) (11.0%)
+Avg sensor glucose, 183 160 -23 161 154 -8
+mg/ dL (32) (15) (28) (17)
+(std dev)
+Avg standard 68 60 -9 57 49 -8
+deviation of sensor (13) (10) (14) (11)
+glucose, mg/dL (std
+dev)
+Avg coefficient of 37.5% 37.0% -0.4% 35.2% 31.7% -3.5%
+variation of sensor (5.1%) (3.9%) (5.7%) (4.7%)
+glucose, % (std dev)
+% Time in Glucose Range
+Median % 0.10% 0.23% 0.04% 0.22% 0.17% -0.08%
+<54mg/dL (Q1, Q3) (0.00, (0.08, (0.00, (0.06,
+0.41) 0.42) 0.77) 0.28)
+Median % 1.38% 1.48% 0.06% 2.00% 1.09% -0.89%
+<70mg/dL (Q1, Q3) (0.42, (0.65, (0.63, (0.46,
+2.67) 2.23) 4.06) 1.75)
+Avg % >180mg/dL 45.3% 30.2% -15.1% 32.4% 24.7% -7.7%
+(std dev) (16.7%) (8.7%) (17.3%) (11.2%)
+Avg % ≥250mg/dL 19.1% 9.6% -9.4% 10.1% 5.8% -4.3%
+(std dev) (13.1%) (5.4%) (10.5%) (5.5%)
+Avg % ≥300mg/dL 8.5% 3.5% -5.1% 3.7% 1.7% -2.0%
+(std dev) (8.9%) (2.9%) (5.5%) (2.5%)
+Most of the primary and secondary results are presented as averages (avg) with standard
+deviation (std dev) values in brackets. Time in range < 70mg/dL and < 54mg/dL is reported as
+medians with interquartile ranges in brackets(Q1,Q3). The median is the middle umber in an
+ascending list of numbers and the interquartile range represents the middle 50% of values.
+K203774 - Page 13 of 20
+
+[Table 1 on page 13]
+	Children (6 to 13.9 years)			Adolescents & Adults (14 to 70		
+Characteristic	(n=112)			years)		
+				(n=128)		
+	Standard	Omnipod 5	Change	Standard	Omnipod 5	Change
+	Therapy			Therapy		
+						
+Avg HbA1c%
+(std dev)	7.67%
+(0.95%)	6.99%
+(0.63%)	-0.71%	7.16%
+(0.86%)	6.78%
+(0.68%)	-0.38%
+Avg % time 70-
+180mg/dL (std dev)	52.5%
+(15.6%)	68.0%
+(8.1%)	15.6%	64.7%
+(16.6%)	73.9%
+(11.0%)	9.3%
+Avg sensor glucose,
+mg/ dL
+(std dev)	183
+(32)	160
+(15)	-23	161
+(28)	154
+(17)	-8
+Avg standard
+deviation of sensor
+glucose, mg/dL (std
+dev)	68
+(13)	60
+(10)	-9	57
+(14)	49
+(11)	-8
+Avg coefficient of
+variation of sensor
+glucose, % (std dev)	37.5%
+(5.1%)	37.0%
+(3.9%)	-0.4%	35.2%
+(5.7%)	31.7%
+(4.7%)	-3.5%
+% Time in Glucose Range						
+Median %
+<54mg/dL (Q1, Q3)	0.10%
+(0.00,
+0.41)	0.23%
+(0.08,
+0.42)	0.04%	0.22%
+(0.00,
+0.77)	0.17%
+(0.06,
+0.28)	-0.08%
+Median %
+<70mg/dL (Q1, Q3)	1.38%
+(0.42,
+2.67)	1.48%
+(0.65,
+2.23)	0.06%	2.00%
+(0.63,
+4.06)	1.09%
+(0.46,
+1.75)	-0.89%
+Avg % >180mg/dL
+(std dev)	45.3%
+(16.7%)	30.2%
+(8.7%)	-15.1%	32.4%
+(17.3%)	24.7%
+(11.2%)	-7.7%
+Avg % ≥250mg/dL
+(std dev)	19.1%
+(13.1%)	9.6%
+(5.4%)	-9.4%	10.1%
+(10.5%)	5.8%
+(5.5%)	-4.3%
+Avg % ≥300mg/dL
+(std dev)	8.5%
+(8.9%)	3.5%
+(2.9%)	-5.1%	3.7%
+(5.5%)	1.7%
+(2.5%)	-2.0%
+
+--- Page 14 ---
+CGM results overnight (12:00AM to 6:00AM)
+Children (6 to 13.9 years) (n=112) Adolescents & Adults (14 to 70
+years)
+(n=128)
+Standard Omnipod 5 Change Standard Omnipod 5 Change
+Therapy Therapy
+Avg % time 55.3% 78.1% 22.9% 64.3% 78.1% 13.8%
+70- 180mg/dL (19.0%) (10.8%) (19.5%) (13.9%)
+(std dev)
+Avg sensor 177 149 -29 160 149 -11
+glucose, (35) (17) (34) (21)
+mg/dL (std
+dev)
+Avg standard 61 48 -13 56 44 -12
+deviation of (15) (12) (17) (13)
+sensor
+glucose,
+mg/dL (std
+dev)
+Avg 34.6% 31.9% -2.8% 35.0% 28.9% -6.2%
+coefficient of (7.1%) (5.6%) (7.9%) (5.8%)
+variation of
+sensor
+glucose, %
+(std dev)
+Percentage time in glucose range, %
+Median 0.00% 0.09% 0.02% 0.00% 0.09% 0.00%
+% <54mg/dL (0.00, (0.02, (0.00, (0.02,
+(Q1,Q3) 0.30) 0.32) 1.06) 0.30)
+Median 0.78% 0.78% 0.01% 2.07% 0.82% -0.86%
+% <70mg/dL (0.00, (0.37, (0.50, (0.31,
+(Q1,Q3) 2.84) 1.49) 5.54) 1.62)
+Avg % 42.2% 20.7% -21.5% 32.1% 20.7% -11.3%
+>180mg/ dL (20.0%) (10.8%) (20.2%) (14.1%)
+(std dev)
+Avg % 16.3% 5.4% -10.9% 10.6% 4.8% -5.7%
+≥250mg/ dL (15.0%) (5.1%) (12.7%) (7.0%)
+(std dev)
+Avg % 6.7% 1.8 -4.8% 4.2% 1.5% -2.7%
+≥300mg/ dL (9.1%) (2.5%) (8.0%) (3.1%)
+(std dev)
+K203774 - Page 14 of 20
+
+[Table 1 on page 14]
+	Children (6 to 13.9 years) (n=112)			Adolescents & Adults (14 to 70		
+				years)		
+				(n=128)		
+	Standard	Omnipod 5	Change	Standard	Omnipod 5	Change
+	Therapy			Therapy		
+						
+Avg % time
+70- 180mg/dL
+(std dev)	55.3%
+(19.0%)	78.1%
+(10.8%)	22.9%	64.3%
+(19.5%)	78.1%
+(13.9%)	13.8%
+Avg sensor
+glucose,
+mg/dL (std
+dev)	177
+(35)	149
+(17)	-29	160
+(34)	149
+(21)	-11
+Avg standard
+deviation of
+sensor
+glucose,
+mg/dL (std
+dev)	61
+(15)	48
+(12)	-13	56
+(17)	44
+(13)	-12
+Avg
+coefficient of
+variation of
+sensor
+glucose, %
+(std dev)	34.6%
+(7.1%)	31.9%
+(5.6%)	-2.8%	35.0%
+(7.9%)	28.9%
+(5.8%)	-6.2%
+Percentage time in glucose range, %						
+Median
+% <54mg/dL
+(Q1,Q3)	0.00%
+(0.00,
+0.30)	0.09%
+(0.02,
+0.32)	0.02%	0.00%
+(0.00,
+1.06)	0.09%
+(0.02,
+0.30)	0.00%
+Median
+% <70mg/dL
+(Q1,Q3)	0.78%
+(0.00,
+2.84)	0.78%
+(0.37,
+1.49)	0.01%	2.07%
+(0.50,
+5.54)	0.82%
+(0.31,
+1.62)	-0.86%
+Avg %
+>180mg/ dL
+(std dev)	42.2%
+(20.0%)	20.7%
+(10.8%)	-21.5%	32.1%
+(20.2%)	20.7%
+(14.1%)	-11.3%
+Avg %
+≥250mg/ dL
+(std dev)	16.3%
+(15.0%)	5.4%
+(5.1%)	-10.9%	10.6%
+(12.7%)	4.8%
+(7.0%)	-5.7%
+Avg %
+≥300mg/ dL
+(std dev)	6.7%
+(9.1%)	1.8
+(2.5%)	-4.8%	4.2%
+(8.0%)	1.5%
+(3.1%)	-2.7%
+
+--- Page 15 ---
+CGM results at various target glucose settings in Pivotal study
+The tables below provide information on the results at various self-selected Target Glucose
+settings during the 3-month Omnipod 5 System phase of the pivotal study. Of the customizable
+BG targets, the most selected was 110 mg/dL.
+Overall (24 hours) CGM Results at Target Glucose Settings in Children (6 to 13.9 years)
+from Pivotal Study
+Characteristic 110mg/dL 120mg/dL 130mg/dL 140mg/dL 150mg/dL
+Target Target Target Target Target
+Glucose Glucose Glucose Glucose Glucose*
+(n=98) (n=74) (n=47) (n=12) (n=9)
+Avg % time 70- 68.4% 67.5% 64.2% 59.2% 53.3%
+180 mg/dL (9.1%) (9.7%) (14.3%) (16.9%) (18.2%)
+(std dev)
+Avg sensor 159 163 169 178 183.6
+glucose, mg/dL (17) (16) (24) (24) (23.9)
+(std dev)
+% Time in glucose range
+Median % <54 0.22% 0.18% 0.09% 0.04% 0.00%
+mg/ dL (0.06, (0.05, (0.00, (0.00, (0.00, 0.00)
+(Q1, Q3) 0.49) 0.33) 0.21) 0.34)
+Median % <70 1.51% 1.16% 0.71% 0.59% 0.12%
+mg/ dL (0.76, (0.58, (0.26, (0.05, (0.00, 0.21)
+(Q1, Q3) 2.38) 1.94) 1.63) 1.52)
+Avg % >180 29.7% 31.1% 34.5% 39.9% 46.4%
+mg/dL
+(std dev) (9.6%) (10.0%) (14.8%) (16.6%) (18%)
+Avg % ≥250 9.7% 10.0% 11.8% 14.6% 13.3%
+mg/dL
+(std dev) (5.8%) (6.3%) (9.0%) (11.1%) (11.9%)
+Cumulative 6,289 2,716 941 99 73
+number of person-
+days
+*Glycemic measures reported at the 150 mg/dL Target Glucose setting only included those with
+Activity mode turned OFF.
+K203774 - Page 15 of 20
+
+[Table 1 on page 15]
+Characteristic	110mg/dL	120mg/dL	130mg/dL	140mg/dL	150mg/dL
+	Target	Target	Target	Target	Target
+	Glucose	Glucose	Glucose	Glucose	Glucose*
+	(n=98)	(n=74)	(n=47)	(n=12)	(n=9)
+Avg % time 70-
+180 mg/dL
+(std dev)	68.4%
+(9.1%)	67.5%
+(9.7%)	64.2%
+(14.3%)	59.2%
+(16.9%)	53.3%
+(18.2%)
+Avg sensor
+glucose, mg/dL
+(std dev)	159
+(17)	163
+(16)	169
+(24)	178
+(24)	183.6
+(23.9)
+% Time in glucose range					
+					
+Median % <54
+mg/ dL
+(Q1, Q3)	0.22%
+(0.06,
+0.49)	0.18%
+(0.05,
+0.33)	0.09%
+(0.00,
+0.21)	0.04%
+(0.00,
+0.34)	0.00%
+(0.00, 0.00)
+Median % <70
+mg/ dL
+(Q1, Q3)	1.51%
+(0.76,
+2.38)	1.16%
+(0.58,
+1.94)	0.71%
+(0.26,
+1.63)	0.59%
+(0.05,
+1.52)	0.12%
+(0.00, 0.21)
+Avg % >180
+mg/dL
+(std dev)	29.7%
+(9.6%)	31.1%
+(10.0%)	34.5%
+(14.8%)	39.9%
+(16.6%)	46.4%
+(18%)
+Avg % ≥250
+mg/dL
+(std dev)	9.7%
+(5.8%)	10.0%
+(6.3%)	11.8%
+(9.0%)	14.6%
+(11.1%)	13.3%
+(11.9%)
+Cumulative
+number of person-
+days	6,289	2,716	941	99	73
+
+--- Page 16 ---
+Overall (24 hours) CGM results at various target glucose settings in adolescents and adults
+(14 to 70 years) from Pivotal study
+Characteristic 110 mg/dL Target 120 mg/dL Target 130 mg/dL Target
+Glucose (n=121) Glucose (n=54) Glucose* (n=9)
+Avg % time 70-180 75.6% 73.4% 63.6%
+mg/dL
+(std dev) (9.9%) (12.1%) (25.9%)
+Avg sensor glucose, 151 156 172
+mg/dL
+(std dev) (15) (18) (33)
+% Time in glucose range
+Median % <54 0.16% 0.11% 0.00%
+mg/dL
+(Q1, Q3) (0.05, 0.26) (0.00, 0.33) (0.00, 0.00)
+Median % <70 0.99% 0.91% 0.26%
+mg/dL
+(Q1, Q3) (0.47, 1.67) (0.31, 1.68) (0.05, 0.63)
+Avg % >180 mg/dL 23.1% 25.4 % 35.9%
+(std dev) (10.2%) (12.3%) (26.1%)
+Avg % ≥250 mg/dL 5.1% 5.8% 9.6%
+(std dev) (4.6%) (6.4%) (12.3%)
+Cumulative number 9,278 1,827 178
+of person-days
+*Results for the 140 mg/dL and 150 mg/dL (with Activity mode OFF) Target Glucose settings in
+adults are not shown due to too few subjects selecting them (n≤2).
+K203774 - Page 16 of 20
+
+[Table 1 on page 16]
+Characteristic	110 mg/dL Target	120 mg/dL Target	130 mg/dL Target
+	Glucose (n=121)	Glucose (n=54)	Glucose* (n=9)
+			
+Avg % time 70-180
+mg/dL
+(std dev)	75.6%
+(9.9%)	73.4%
+(12.1%)	63.6%
+(25.9%)
+Avg sensor glucose,
+mg/dL
+(std dev)	151
+(15)	156
+(18)	172
+(33)
+% Time in glucose range			
+			
+Median % <54
+mg/dL
+(Q1, Q3)	0.16%
+(0.05, 0.26)	0.11%
+(0.00, 0.33)	0.00%
+(0.00, 0.00)
+Median % <70
+mg/dL
+(Q1, Q3)	0.99%
+(0.47, 1.67)	0.91%
+(0.31, 1.68)	0.26%
+(0.05, 0.63)
+Avg % >180 mg/dL
+(std dev)	23.1%
+(10.2%)	25.4 %
+(12.3%)	35.9%
+(26.1%)
+Avg % ≥250 mg/dL
+(std dev)	5.1%
+(4.6%)	5.8%
+(6.4%)	9.6%
+(12.3%)
+Cumulative number
+of person-days	9,278	1,827	178
+
+--- Page 17 ---
+Change in insulin requirements during the Pivotal study
+Children (6 to 13.9 years) (n=112) Adolescents & Adults (14 to 70
+years) (n=128)
+Standard Omnipod 5 Change Standard Omnipod 5 Change
+Therapy Therapy
+Avg total 0.85 0.92 0.07 0.61 0.59 -0.02
+daily insulin, (0.24) (0.25) (0.22) (0.21)
+U/kg
+(std dev)
+Avg total 0.36 0.47 0.10 0.31 0.30 -0.01
+daily basal (0.13) (0.15) (0.11) (0.11)
+insulin,
+U/kg
+(std dev)
+Avg total 0.48 0.45 -0.03 0.31 0.29 -0.01
+daily bolus (0.18) (0.13) (0.16) (0.12)
+insulin,
+U/kg
+(std dev)
+Body mass index results
+The table below provides information on the average body mass index (BMI), which is a
+measure of weight adjusted for height; and BMI z-score, which is a measure of weight adjusted
+for height, sex, and age, during the standard therapy phase and the 3-month treatment phase in
+children.
+Children (6 to 13.9 years) n=112
+Characteristic
+Standard Therapy SmartAdjust Technology Change
+BMI, kg/m2 (std 18.6 19.2 0.54
+dev) (3.2) (3.6)
+BMI z-score (std 0.4 0.4 0.03
+dev) (0.8) (0.8)
+K203774 - Page 17 of 20
+
+[Table 1 on page 17]
+	Children (6 to 13.9 years) (n=112)			Adolescents & Adults (14 to 70		
+				years) (n=128)		
+						
+	Standard	Omnipod 5	Change	Standard	Omnipod 5	Change
+	Therapy			Therapy		
+						
+Avg total
+daily insulin,
+U/kg
+(std dev)	0.85
+(0.24)	0.92
+(0.25)	0.07	0.61
+(0.22)	0.59
+(0.21)	-0.02
+Avg total
+daily basal
+insulin,
+U/kg
+(std dev)	0.36
+(0.13)	0.47
+(0.15)	0.10	0.31
+(0.11)	0.30
+(0.11)	-0.01
+Avg total
+daily bolus
+insulin,
+U/kg
+(std dev)	0.48
+(0.18)	0.45
+(0.13)	-0.03	0.31
+(0.16)	0.29
+(0.12)	-0.01
+
+[Table 2 on page 17]
+	Children (6 to 13.9 years) n=112		
+Characteristic			
+	Standard Therapy	SmartAdjust Technology	Change
+			
+BMI, kg/m2 (std
+dev)	18.6
+(3.2)	19.2
+(3.6)	0.54
+BMI z-score (std
+dev)	0.4
+(0.8)	0.4
+(0.8)	0.03
+
+--- Page 18 ---
+Change in HbA1c from the Pivotal study
+The table below provides information on the average change in HbA1c% from baseline to the
+end of the 3-month Omnipod 5 System treatment phase analyzed by baseline HbA1c% in
+children (6 to 13.9 years) and adolescents and adults (14 to 70 years). Adolescents, adults, and
+children experienced a reduction in HbA1c after 3 months of Omnipod 5 System use regardless
+of baseline HbA1c < 8% or ≥ 8% category.
+Subgroup analysis of change in average HbA1c(%) by baseline HbA1c(%)
+Adolescents Baseline HbA1c <8% (n=105) Baseline HbA1c ≥8% (n=23)
+& Adults
+Baseline Omnipod 5 Change Baseline Omnipod 5 Change
+HbA1c% 6.86% 6.60% -0.27% 8.55% 7.63% -0.91%
+(std dev)‡ (0.59%) (0.53%) (0.42%) (0.67%)
+Children Baseline HbA1c <8% (n=73) Baseline HbA1c ≥8% (n=39)
+Baseline Omnipod 5 Change Baseline Omnipod 5 Change
+HbA1c% 7.11% 6.69% -0.45% 8.73% 7.56% -1.18%
+(std dev) (0.50%) (0.44%) (0.63%) 0.54%)
+‡Average HbA1c values are reported with standard deviation values in brackets.
+Study results by baseline treatment
+The table below provides information on the average glycemic results at baseline (or during
+standard therapy phase) and the 3-month Omnipod 5 System treatment phase analyzed by
+baseline treatment (standard therapy). Standard therapy consisted of multiple daily insulin
+injections (MDI) or insulin pump use.
+Subgroup analysis of average results by baseline treatment in
+children (6 to 13.9 years)
+MDI (n=13) Insulin Pump (n=99)
+Characteristic Standard Omnipod Standard Omnipod
+Therapy 5 Therapy 5
+% Time in range 52% 69% 53% 68%
+70- 180mg/dL
+% Time 1.54% 1.41% 1.38% 1.49%
+<70mg/dL‡
+HbA1c% 7.7% 6.7% 7.7% 7.0%
+‡ Values presented for % Time <70mg/dL are medians, the remaining values in the table are
+averages.
+K203774 - Page 18 of 20
+
+[Table 1 on page 18]
+Adolescents	Baseline HbA1c <8% (n=105)			Baseline HbA1c ≥8% (n=23)		
+& Adults						
+						
+	Baseline	Omnipod 5	Change	Baseline	Omnipod 5	Change
+						
+HbA1c%
+(std dev)‡	6.86%
+(0.59%)	6.60%
+(0.53%)	-0.27%	8.55%
+(0.42%)	7.63%
+(0.67%)	-0.91%
+Children	Baseline HbA1c <8% (n=73)			Baseline HbA1c ≥8% (n=39)		
+	Baseline	Omnipod 5	Change	Baseline	Omnipod 5	Change
+						
+HbA1c%
+(std dev)	7.11%
+(0.50%)	6.69%
+(0.44%)	-0.45%	8.73%
+(0.63%)	7.56%
+0.54%)	-1.18%
+
+[Table 2 on page 18]
+	MDI (n=13)		Insulin Pump (n=99)	
+Characteristic	Standard	Omnipod	Standard	Omnipod
+	Therapy	5	Therapy	5
+% Time in range
+70- 180mg/dL	52%	69%	53%	68%
+% Time
+<70mg/dL‡	1.54%	1.41%	1.38%	1.49%
+HbA1c%	7.7%	6.7%	7.7%	7.0%
+
+--- Page 19 ---
+Subgroup analysis of average results by baseline treatment in
+adolescents and adults (14 to 70 years)
+MDI (n=20) Insulin Pump (n=105)
+Characteristic Standard Omnipod Standard Omnipod
+Therapy 5 Therapy 5
+% Time in range 60% 72% 66% 74%
+70- 180mg/dL
+% Time 2.38% 0.79% 1.93% 1.16%
+<70mg/dL‡
+HbA1c% 7.6% 7.0% 7.1% 6.7%
+SmartAdjust technology (Auto Mode) use
+The table below provides information on the average % of time study subjects used the Omnipod
+5 System in Automated Mode.
+Percent time spent in Automated Mode
+Children Adults
+(6 to 13.9 years) (14 to 70 years)
+n=112 n=128
+% Time in Automated Mode 95.2% 94.8%
+(std dev) (4.0%) (6.0%)
+a. Human Factors Testing
+Human factors validation tests were conducted with the Omnipod 5 App installed on a
+compatible mobile device with interoperable technology. A total of 7 formative studies
+were conducted; after each study, information was fed back into the design of the User
+Interface. The final device design was evaluated in the summative study performed with
+64 representative participants interacting with the device in a simulated use environment.
+All study participants received training that was consistent with the training that patients
+would receive with the commercial product. Usability evaluations assessed
+comprehension and usability of the device for critical device tasks. Results of the study
+demonstrated that the device could be used safely by intended users in the intended use
+environment when used in combination with a digitally connected device.
+b. Insulin Compatibility:
+The SmartAdjust technology used with the Omnipod 5 System is designed to use rapid-
+acting U-100 insulins including: NovoLog® (insulin aspart), Humalog® (insulin
+lispro), and Admelog® (insulin lispro). These insulins were used in the pivotal clinical
+study for this device and no other insulins have been tested for use with the device.
+c. Data Logging:
+Software verification testing has demonstrated the device records timestamped critical
+events, including information related to its state, user inputs, and device settings, as
+required by the special controls.
+K203774 - Page 19 of 20
+
+[Table 1 on page 19]
+	MDI (n=20)		Insulin Pump (n=105)	
+Characteristic	Standard	Omnipod	Standard	Omnipod
+	Therapy	5	Therapy	5
+% Time in range
+70- 180mg/dL	60%	72%	66%	74%
+% Time
+<70mg/dL‡	2.38%	0.79%	1.93%	1.16%
+HbA1c%	7.6%	7.0%	7.1%	6.7%
+
+[Table 2 on page 19]
+	Children	Adults
+	(6 to 13.9 years)	(14 to 70 years)
+	n=112	n=128
+% Time in Automated Mode
+(std dev)	95.2%
+(4.0%)	94.8%
+(6.0%)
+
+--- Page 20 ---
+d. Interoperability:
+A plan and approach for interoperability were provided according to the FDA Guidance
+“Design Considerations and Pre-market Submission Recommendations for Interoperable
+Medical Devices - Guidance for Industry and Food and Drug Administration Staff” and
+determined to be adequate to support and clearly specify expectations, requirements, and
+interface specifications to potential interoperable devices. In addition, the plans provided by
+the sponsor covered their approach to working with connected device companies regarding
+contractual issues, interfaces for data communication and exchange, and post-market
+reporting procedures and responsibilities (e.g., who is responsible for investigating and
+reporting complaints, malfunctions, and adverse events).
+The sponsor additionally provided validated software protocols intended to ensure secure,
+accurate, and reliable communication with digital interfacing devices, as well as failsafe
+design features to mitigate the risks associated with interruption of communication with
+digitally connected devices. These protocols were reviewed and found to be adequate.
+e. Cybersecurity:
+Detailed information on cybersecurity of the device was reviewed and found to be
+acceptable. The sponsor also provided a software bill of materials, which provided details on
+all software used in the device and the hardware platform that the device was installed on.
+This included all manufacturer-developed, commercially licensed, open source, and off-the-
+shelf software components (including firmware as relevant), along with an identification of
+the hardware runtime environment in which each resides, with relevant version and/or model
+information, as well as details on whether each component was actively supported by its
+manufacturer or legacy licensed.
+f. Postmarket Surveillance Study
+There is uncertainty remaining regarding the risk/benefit profile of the device when used in
+the broader intended use population. While the premarket clinical study provided to support
+the 510(k) showed some benefits, it was not adequately powered to assess differences in the
+rates of safety events (e.g., diabetic ketoacidosis and severe hypoglycemia).
+Accordingly, a postmarket surveillance study will be ordered by FDA to confirm
+understanding of safety.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K203774 - Page 20 of 20

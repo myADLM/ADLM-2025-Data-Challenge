@@ -1,0 +1,1096 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K192944
+B Applicant
+Ancestry Genomics, Inc.
+C Proprietary and Established Names
+AncestryDNA Factor V Leiden Genetic Health Risk Test
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.5950 -
+PTA Class II Genetic Health Risk IM - Immunology
+Assessment System
+II Submission/Device Overview:
+A Purpose for Submission:
+New Device
+B Measurand:
+Factor V Leiden c.1601G>A variant in the F5 gene from a human saliva sample
+C Type of Test:
+The AncestryDNA Factor V Leiden Genetic Health Risk Test for Hereditary Thrombophilia
+determines and interprets if a person has variants associated with a higher risk of developing
+harmful blood clots. The report is based on a qualitative genetic test for a single nucleotide
+polymorphism detection of Factor V Leiden variant in the F5 gene (rs6025).
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PTA			Class II	21 CFR 866.5950 -
+Genetic Health Risk
+Assessment System			IM - Immunology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The AncestryDNA Factor V Leiden Genetic Health Risk Test for Hereditary Thrombophilia uses
+qualitative genotyping to detect clinically relevant variants in genomic DNA isolated from
+human saliva collected from individuals 18 years and older with the AncestryDNA Saliva
+Collection Kit for the purpose of reporting and interpreting Genetic Health Risks (GHR).
+The AncestryDNA Factor V Leiden Genetic Health Risk Test for Hereditary Thrombophilia is
+indicated for reporting of the Factor V Leiden variant in the F5 gene. This report describes if a
+person has variants associated with a higher risk of developing harmful blood clots, but it does
+not describe a person's overall risk of developing harmful blood clots. This test is most relevant
+for people of European descent.
+C Special Conditions for Use Statement(s):
+OTC - Over the Counter
+This test is not a substitute for visits to a healthcare provider. It is recommended that you consult
+with a healthcare provider if you have any questions or concerns about your results or your
+current state of health.
+The AncestryDNA Factor V Leiden Genetic Health Risk Test does not detect all genetic variants
+associated with Hereditary Thrombophilia. The absence of a variant tested does not rule out the
+presence of other genetic variants that may be disease-related.
+The test is intended for users ≥ 18 years old.
+The test does not diagnose any specific health conditions. Results should not be used to make
+medical decisions.
+The laboratory may not be able to process a user's sample. The probability that the laboratory
+cannot process a sample can be up to 3%.
+A user's race, ethnicity, age, and other life style factors may affect how the genetic test results are
+interpreted.
+Subject to meeting the limitations contained in the special controls under regulation 21 CFR
+866.5950.
+D Special Instrument Requirements:
+K192944 - Page 2 of 17
+
+--- Page 3 ---
+The AncestryDNA Factor V Leiden Genetic Health Risk Test is to be performed using the Tecan
+Evo and Illumina iScan instruments.
+GenomeStudio Software is a modular software application that is used to view and analyze
+genotypic data obtained from the Illumina iScan System and based on the cluster definition file.
+AncestryDNA Factor V Leiden Genetic Health Risk Test software conducts a variety of control
+checks on the file, resulting in a final genotype profile for each sample. These data are used to
+generate test reports on a user’s genotype and associated risk of disease.
+IV Device/System Characteristics:
+A Device Description:
+The AncestryDNA Genetic Health Risk (GHR) Test for Factor V Leiden is intended for the
+detection of single nucleotide polymorphism (SNP) in the F5 gene associated with Hereditary
+Thrombophilia from human saliva collected in the AncestryDNA Saliva Collection Kit (SCK).
+The user’s saliva is self-collected using the AncestryDNA SCK, which consists of a single-use
+sealable collection tube containing a stabilizing buffer solution. Once the sample is collected, it
+is shipped to one of two Clinical Laboratory Improvement Amendments (CLIA) certified
+laboratories for processing, testing and analysis. DNA is extracted, fragmented and tested with
+the AncestryDNA Factor V Leiden GHR Test, a multiplex assay using a customized genotyping
+chip and instrumentation manufactured by Illumina. The multiplex assay simultaneously tests for
+more than 500,000 variants, including those for the indication proposed herein.
+The raw data is generated using the Illumina GenomeStudio software and then delivered to
+Ancestry Genomics for analysis using the proprietary AncestryDNA GHR Software. A genotype
+is determined for each tested variant. The results for the Factor V Leiden variant are used to
+generate personalized reports for users which provide information about the disease associated
+with the detected variant.
+Personalized reports are generated for each user that provide results of the testing performed.
+These reports tell the user which variant(s) has/have been detected in their sample and provide
+information on the risk of disease associated with the variant(s). If no variant was detected, that
+information is also provided. The personalized reports are designed to present scientific concepts
+to users in an easy-to-understand format. The reports provide scientific information about the
+risks associated with the presence of a particular variant. The reports are designed to help users
+understand the meaning of their results and any appropriate actions that may be taken based on
+their results.
+B Principle of Operation:
+The AncestryDNA Factor V Leiden GHR Test is performed by CLIA-certified laboratories using
+the BeadChip v10 assay (Illumina Infinium HumanOmniExpress-24 format chip) on the Illumina
+Infinium platform. Samples collected using the AncestryDNA Saliva Collection Kit are delivered
+to laboratories for testing and analysis. DNA from saliva is extracted and quantified. Samples
+K192944 - Page 3 of 17
+
+--- Page 4 ---
+with DNA concentrations in the range of 1.53 ng/µL – 50 ng/µL are eligible for further
+processing. These samples are fragmented and captured on a bead array by hybridization to
+immobilized variant-specific primers, followed by extension with hapten-labeled nucleotides.
+The primers hybridize adjacent to the variants and are extended with a single nucleotide
+corresponding to the variant allele. The incorporated hapten-modified nucleotides are detected by
+adding fluorescently labeled antibodies in several steps to amplify the signals. The Tecan Evo
+and Illumina iScan instruments are used for extraction and processing of the DNA, and the
+BeadChip for scanning and quantification of the results. Genotypes are determined using the
+GenomeStudio software package and delivered to Ancestry Genomics for analysis using the
+AncestryDNA GHR software.
+C Instrument Description Information:
+Modes of Operation Yes No
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Software
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.
+1. Instrument Name:
+Tecan Evo, Illumina iScan BeadChip scanner with GenomeStudio software
+2. Specimen Identification:
+Consumers must register their saliva collection kit, linking their saliva sample to a secure
+online account with a valid email address through a unique activation code, in order to use
+the test. The activation code is matched to records of kits shipped to consumers to ensure it is
+a valid kit. A timestamp of the user completing the entries to activate the kit is recorded.
+3. Specimen Sampling and Handling:
+Samples are collected using the AncestryDNA Saliva Collection Kit and delivered to one of
+two CLIA-certified laboratories for testing and analysis. The recommended volume of saliva
+is 1 mL. Saliva is collected directly by the user spitting into the provided saliva collection
+tube via the pre-installed funnel. After providing saliva, the user is instructed to remove the
+funnel and screw on tightly the provided cap. Affixing the cap by screwing on releases the
+stabilization solution. The saliva sample can be immediately processed, transported, or stored
+for future use. Device and sample integrity are preserved during typical ambient transport
+and storage conditions for up to 12 months.
+4. Calibration:
+K192944 - Page 4 of 17
+
+[Table 1 on page 4]
+	Modes of Operation			Yes			No	
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?								
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?								
+	Software							
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.								
+
+--- Page 5 ---
+Calibration and calibration verification procedures are established to demonstrate continued
+accuracy of the test systems.
+5. Quality Control:
+The AncestryDNA Factor V Leiden Genetic Health Risk Test uses one control material,
+which serves as both the sample processing control and the reproducibility control. The
+control material is genotyped on the Illumina BeadChip according to routine standard
+procedures at the laboratory. Each new lot of the control is tested by comparison with
+reference BeadChip genotype results.
+The sample processing control is run on every sample genotyping plate and the
+reproducibility control is run approximately once per week.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+23andMe Personal Genome Service Test for Hereditary Thrombophilia
+B Predicate 510(k) Number(s):
+DEN160026
+C Comparison with Predicate(s):
+Device & Predicate
+K192944 DEN160026
+Device(s):
+AncestryDNA Factor V
+23andMe Personal Genome
+Device Trade Name Leiden Genetic Health Risk
+Service (PGS) Test
+Test
+General Device
+Characteristic
+Similarities
+The AncestryDNA Factor V The 23andMe Personal
+Leiden Genetic Health Risk Genome Service (PGS) Test
+Test for Hereditary uses qualitative genotyping to
+Thrombophilia uses detect the following clinically
+qualitative genotyping to relevant variants in genomic
+detect clinically relevant DNA isolated from human
+Intended Use/Indications variants in genomic DNA saliva collected from
+For Use isolated from human saliva individuals ≥ 18 years with
+collected from individuals 18 the Oragene Dx model OGD-
+years and older with the 500.001 for the purpose of
+AncestryDNA Saliva reporting and interpreting
+Collection Kit for the purpose Genetic Health Risks (GHR):
+of reporting and interpreting
+Genetic Health Risks (GHR). The 23andMe PGS Genetic
+K192944 - Page 5 of 17
+
+[Table 1 on page 5]
+	Device & Predicate		K192944	DEN160026
+	Device(s):			
+Device Trade Name			AncestryDNA Factor V
+Leiden Genetic Health Risk
+Test	23andMe Personal Genome
+Service (PGS) Test
+	General Device			
+	Characteristic			
+	Similarities			
+Intended Use/Indications
+For Use			The AncestryDNA Factor V
+Leiden Genetic Health Risk
+Test for Hereditary
+Thrombophilia uses
+qualitative genotyping to
+detect clinically relevant
+variants in genomic DNA
+isolated from human saliva
+collected from individuals 18
+years and older with the
+AncestryDNA Saliva
+Collection Kit for the purpose
+of reporting and interpreting
+Genetic Health Risks (GHR).	The 23andMe Personal
+Genome Service (PGS) Test
+uses qualitative genotyping to
+detect the following clinically
+relevant variants in genomic
+DNA isolated from human
+saliva collected from
+individuals ≥ 18 years with
+the Oragene Dx model OGD-
+500.001 for the purpose of
+reporting and interpreting
+Genetic Health Risks (GHR):
+The 23andMe PGS Genetic
+
+[Table 2 on page 5]
+23andMe Personal Genome
+Service (PGS) Test
+
+--- Page 6 ---
+The AncestryDNA Factor V Health Risk Report for
+Leiden Genetic Health Risk Hereditary Thrombophilia is
+Test for Hereditary indicated for reporting of the
+Thrombophilia is indicated for Factor V Leiden variant in the
+reporting of the Factor V F gene, and the Prothrombin
+Leiden variant in the F5 gene. G20210A variant in the F2
+This report describes if a gene. This report describes if
+person has variants associated a person has variants
+with a higher risk of associated with a higher risk
+developing harmful blood of developing harmful blood
+clots, but it does not describe blots, but it does not describe
+a person's overall risk of a person’s overall risk of
+developing harmful blood developing harmful blood
+clots. This test is most clots. This test is most
+relevant for people of relevant for people of
+European descent. European descent.
+The AncestryDNA Factor V The 23andMe PGS Genetic
+Leiden Genetic Health Risk Health Risk Tests for
+Test is to be performed using Hereditary Thrombophilia is
+the Tecan Evo and Illumina to be performed using the
+iScan instruments. Tecan Evo and Illumina iScan
+instruments.
+GenomeStudio Software is a
+modular software application GenomeStudio is a modular
+that is used to view and software application that is
+analyze genotypic data used to view and analyze
+Special Instrument
+obtained from the Illumina genotypic data obtained from
+Requirements
+iScan System and based on the iScan. Coregen software
+the cluster definition file. conducts a variety of control
+AncestryDNA GHR software checks on the file, resulting in
+conducts a variety of control a final genotype profile for
+checks on the file, resulting in each sample. These data are
+a final genotype profile for used to generate test reports
+each sample. These data are on a user’s genotype and
+used to generate test reports associated risk of disease.
+on a user’s genotype and
+associated risk of disease.
+Classification Class II Same
+Factor V Leiden variant
+Factor V Leiden c.1601G>A (rs6025, c.1601G>A) in the
+Measurand
+variant in the F5 gene F5 gene and Prothrombin
+G20210A
+Qualitative in vitro molecular
+Type of Test Same
+diagnostic system
+DNA extraction from human
+Sample Preparation Same
+saliva
+K192944 - Page 6 of 17
+
+[Table 1 on page 6]
+	The AncestryDNA Factor V
+Leiden Genetic Health Risk
+Test for Hereditary
+Thrombophilia is indicated for
+reporting of the Factor V
+Leiden variant in the F5 gene.
+This report describes if a
+person has variants associated
+with a higher risk of
+developing harmful blood
+clots, but it does not describe
+a person's overall risk of
+developing harmful blood
+clots. This test is most
+relevant for people of
+European descent.	Health Risk Report for
+Hereditary Thrombophilia is
+indicated for reporting of the
+Factor V Leiden variant in the
+F gene, and the Prothrombin
+G20210A variant in the F2
+gene. This report describes if
+a person has variants
+associated with a higher risk
+of developing harmful blood
+blots, but it does not describe
+a person’s overall risk of
+developing harmful blood
+clots. This test is most
+relevant for people of
+European descent.
+Special Instrument
+Requirements	The AncestryDNA Factor V
+Leiden Genetic Health Risk
+Test is to be performed using
+the Tecan Evo and Illumina
+iScan instruments.
+GenomeStudio Software is a
+modular software application
+that is used to view and
+analyze genotypic data
+obtained from the Illumina
+iScan System and based on
+the cluster definition file.
+AncestryDNA GHR software
+conducts a variety of control
+checks on the file, resulting in
+a final genotype profile for
+each sample. These data are
+used to generate test reports
+on a user’s genotype and
+associated risk of disease.	The 23andMe PGS Genetic
+Health Risk Tests for
+Hereditary Thrombophilia is
+to be performed using the
+Tecan Evo and Illumina iScan
+instruments.
+GenomeStudio is a modular
+software application that is
+used to view and analyze
+genotypic data obtained from
+the iScan. Coregen software
+conducts a variety of control
+checks on the file, resulting in
+a final genotype profile for
+each sample. These data are
+used to generate test reports
+on a user’s genotype and
+associated risk of disease.
+Classification	Class II	Same
+Measurand	Factor V Leiden c.1601G>A
+variant in the F5 gene	Factor V Leiden variant
+(rs6025, c.1601G>A) in the
+F5 gene and Prothrombin
+G20210A
+Type of Test	Qualitative in vitro molecular
+diagnostic system	Same
+Sample Preparation	DNA extraction from human
+saliva	Same
+
+--- Page 7 ---
+Calibration and calibration
+verification procedures are
+Calibration established to demonstrate Same
+continued accuracy of the test
+systems.
+The test report describes if a
+person has variants associated The report provides results of
+with a higher risk of which variant(s) has/have
+developing harmful blood been detected and provided
+Results
+clots. The report does not information on the risk of
+describe a person’s overall disease associated with the
+risk of developing harmful variant(s).
+blood clots.
+General Device
+Characteristic
+Differences
+Oragene®·Dx Collection
+Sample Collection AncestryDNA Saliva
+Device, model OGD-500.001
+Device Collection Kit (K192947)
+(K141410)
+The performance requirement
+The performance requirement
+for the AncestryDNA GHR
+for the PGS Test has been set
+Test has been set at a
+Analytical Sensitivity at a minimum of 15 ng/µL
+minimum of 1.53 ng/µL DNA
+DNA and maximum of 50
+and maximum of 50 ng/µL
+ng/µL DNA.
+DNA.
+The potential interfering For Factor V Leiden the
+mutations include potential interfering mutations
+rs770011773, rs773367113 include rs760488939 and
+Interfering Mutations and rs143663052. The impact rs763859650. The impact of
+of these mutations on the these mutations on the
+performance of the assay has performance of the assay has
+not been evaluated. not been evaluated.
+VI Standards/Guidance Documents Referenced:
+• Special Controls for Genetic Health Risk Assessment System as detailed in 21 CFR 866.5950
+• CLSI EP07-A2, Interference Testing in Clinical Chemistry; Approved Guideline – Second
+Edition
+• CLSI EP12-A2, User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline – Second Edition
+• CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition
+• CLSI EP37-A1, Supplement Tables for Interference Testing in Clinical Laboratory;
+Approved Guideline – First Edition
+• CLSI EP25-A, Evaluation of Stability of In Vitro Diagnostic Reagents; Approved Guideline
+K192944 - Page 7 of 17
+
+[Table 1 on page 7]
+Calibration			Calibration and calibration
+verification procedures are
+established to demonstrate
+continued accuracy of the test
+systems.	Same
+Results			The test report describes if a
+person has variants associated
+with a higher risk of
+developing harmful blood
+clots. The report does not
+describe a person’s overall
+risk of developing harmful
+blood clots.	The report provides results of
+which variant(s) has/have
+been detected and provided
+information on the risk of
+disease associated with the
+variant(s).
+	General Device			
+	Characteristic			
+	Differences			
+Sample Collection
+Device			AncestryDNA Saliva
+Collection Kit (K192947)	Oragene®·Dx Collection
+Device, model OGD-500.001
+(K141410)
+Analytical Sensitivity			The performance requirement
+for the AncestryDNA GHR
+Test has been set at a
+minimum of 1.53 ng/µL DNA
+and maximum of 50 ng/µL
+DNA.	The performance requirement
+for the PGS Test has been set
+at a minimum of 15 ng/µL
+DNA and maximum of 50
+ng/µL DNA.
+Interfering Mutations			The potential interfering
+mutations include
+rs770011773, rs773367113
+and rs143663052. The impact
+of these mutations on the
+performance of the assay has
+not been evaluated.	For Factor V Leiden the
+potential interfering mutations
+include rs760488939 and
+rs763859650. The impact of
+these mutations on the
+performance of the assay has
+not been evaluated.
+
+--- Page 8 ---
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+The purpose of the precision studies was to determine the imprecision of the AncestryDNA
+Factor V Leiden GHR Test under the following changed conditions: assay run, critical
+reagent lot, instrument, operator, day and site. Saliva samples from nine donors, three for
+each genotype (homogenous common – GG, heterozygous – GA and homozygous rare –
+AA), were collected with three lots of the Ancestry DNA Saliva Collection Kit. Genotypes of
+these samples were confirmed through bi-directional sequencing.
+The precision studies were performed at two independent CLIA-certified testing laboratories
+(Lab 1 and Lab 2). Saliva samples were genotyped by the AncestryDNA Factor V Leiden
+GHR Test using three lots of critical reagents by six different operator teams (three per
+laboratory) on eight instrument combinations (four per laboratory) over multiple days. The
+precision study yielded 100% correct genotype calls for all samples with a valid call across
+multiple days, operator teams, instruments and reagent lot at both laboratory sites.
+Information regarding samples that failed quality control (FQC) was also evaluated. Sample
+replicates that did not pass sample call rate (SCR) QC in the first run underwent second, and
+when eligible, third genotyping run per laboratory standard operating procedures (SOPs).
+The overall precision exceeded 99% point estimate. The results of the study are demonstrated
+in the tables below.
+Summary of the within-run repeatability results at Lab 1
+Number of Number of
+Total Number Number of FQC
+Genotype Concordant Call Rate
+of Replicates “No-Calls” (%)
+Calls QC Failures
+GG 15 15 0 0 0.00
+GA 15 15 0 0 0.00
+AA 15 15 0 0 0.00
+Total 45 45 0 0 0.00
+Summary of the within-laboratory testing results at Lab 1
+Number of Number of
+Total Number Number of FQC
+Genotype Concordant Call Rate
+of Replicates “No-Calls” (%)
+Calls QC Failures
+GG 540 540 0 0 0.00
+GA 540 537 0 3 0.56
+AA 540 540 0 0 0.00
+Total 1620 1617 0 3 0.19
+Summary of the within-laboratory testing results at Lab 2
+Number of Number of
+Total Number Number of FQC
+Genotype Concordant Call Rate
+of Replicates “No-Calls” (%)
+Calls QC Failures
+GG 180 180 0 0 0.00
+K192944 - Page 8 of 17
+
+[Table 1 on page 8]
+		Number of		Number of	
+	Total Number		Number of		FQC
+Genotype		Concordant		Call Rate	
+	of Replicates		“No-Calls”		(%)
+		Calls		QC Failures	
+					
+GG	15	15	0	0	0.00
+GA	15	15	0	0	0.00
+AA	15	15	0	0	0.00
+Total	45	45	0	0	0.00
+
+[Table 2 on page 8]
+		Number of		Number of	
+	Total Number		Number of		FQC
+Genotype		Concordant		Call Rate	
+	of Replicates		“No-Calls”		(%)
+		Calls		QC Failures	
+					
+GG	540	540	0	0	0.00
+GA	540	537	0	3	0.56
+AA	540	540	0	0	0.00
+Total	1620	1617	0	3	0.19
+
+[Table 3 on page 8]
+		Number of		Number of	
+	Total Number		Number of		FQC
+Genotype		Concordant		Call Rate	
+	of Replicates		“No-Calls”		(%)
+		Calls		QC Failures	
+					
+GG	180	180	0	0	0.00
+
+--- Page 9 ---
+GA 180 180 0 0 0.00
+AA 180 180 0 0 0.00
+Total 540 540 0 0 0.00
+Summary of the inter-laboratory reproducibility
+Total Number of Number of
+Number of FQC
+Number of Concordant Call Rate
+Genotype “No-Calls” (%)
+Replicates Calls QC Failures
+Lab 1 Lab 2 Lab 1 Lab 2 Lab 1 Lab 2 Lab 1 Lab 2 Lab 1 Lab 2
+GG 27 27 27 27 0 0 0 0 0.00 0.00
+GA 27 27 27 27 0 0 0 0 0.00 0.00
+AA 27 27 27 27 0 0 0 0 0.00 0.00
+Total 81 81 81 81 0 0 0 0 0.00 0.00
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+The study was to establish the analytical specificity of the AncestryDNA Factor V Leiden
+GHR Test from samples collected using the AncestryDNA Saliva Collection Kit (SCK) by
+evaluating the impact of potential endogenous interferents on assay performance. A series of
+studies were conducted to assess the effects of endogenous substances, exogenous
+substances, microbial substances and mutation on the AncestryDNA Factor V Leiden GHR
+Test.
+i. Endogenous Interference
+Saliva samples from ten donors were collected using the AncestryDNA SCK and their
+genotypes were determined with bi-directional sequencing. The endogenous substances
+were individually spiked into saliva prior to DNA extraction and genotyping. Saliva
+spiked with PBS served as the control. The results indicated that the performance of the
+AncestryDNA Factor V Leiden GHR Test is not affected by salivary α-amylase (395
+U/mL), hemoglobin (20 mg/mL), IgA (0.44 mg/mL) and total protein (including 0.185
+mg/mL salivary α-amylase, 0.44 mg/mL IgA and 2.05 mg/mL human serum albumin).
+ii. Exogenous Interference
+The AncestryDNA Factor V Leiden GHR Test requires the use of an FDA cleared saliva
+collection kit (K192947). The saliva collection kit includes Instructions for Use (IFU)
+instructing the user not to eat, drink, smoke, or chew gum for 30 minutes prior to
+collecting their saliva, thus minimizing the presence of interferents in the sample. The
+saliva collection IFU was tested for user comprehension and a paper version of the IFU is
+included in every collection kit. Should an interfering substance be present after DNA has
+been extracted and an insufficient concentration or quality of DNA is available, then the
+sample is managed per standard operating procedures that are pre-determined by the
+manufacturer.
+K192944 - Page 9 of 17
+
+[Table 1 on page 9]
+GA	180	180	0	0	0.00
+AA	180	180	0	0	0.00
+Total	540	540	0	0	0.00
+
+[Table 2 on page 9]
+Genotype		Total						Number of					Number of
+“No-Calls”							Number of					FQC
+(%)					
+		Number of						Concordant												Call Rate										
+		Replicates						Calls												QC Failures										
+		Lab 1			Lab 2			Lab 1			Lab 2			Lab 1			Lab 2			Lab 1			Lab 2			Lab 1			Lab 2	
+GG	27			27			27			27			0			0			0			0			0.00			0.00		
+GA	27			27			27			27			0			0			0			0			0.00			0.00		
+AA	27			27			27			27			0			0			0			0			0.00			0.00		
+Total	81			81			81			81			0			0			0			0			0.00			0.00		
+
+[Table 3 on page 9]
+Number of
+“No-Calls”
+
+[Table 4 on page 9]
+FQC
+(%)
+
+--- Page 10 ---
+iii. Microbial Interference
+Microbial DNA from Staphylococcus epidermis, Streptococcus mutans, Lactobacillus
+casei, Actinomyces odontolyticus and Candida albicans were tested to determine their
+impact on the performance of the AncestryDNA Factor V Leiden GHR Test. DNA from
+each of the six human cell lines was spiked with two concentrations (low/normal: 2.8
+ng/µL; high: 12.5 ng/µL) of the five different species of microbial DNA. The results
+indicate that there is no significant impact of common microbial interferents on the
+performance of the AncestryDNA Factor V Leiden GHR test in either low/normal or high
+concentrations.
+iv. Mutational Interference
+An in silico analyses was performed to identify potential interfering variants within the
+50 nucleotide probe-binding region downstream of the variant being detected. The
+genome aggregation database (gnomAD database) was utilized to search for mutations in
+this region. Only mutations that have been observed in more than one individual were
+evaluated. Three potential interfering mutations (rs770011773, rs773367113 and
+rs143663052) were identified for the AncestryDNA Factor V Leiden GHR Test. The
+impact of these mutations on the performance of the assay has not been evaluated.
+4. Assay Reportable Range:
+Not applicable
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+The AncestryDNA Factor V Leiden GHR Test uses one control material, which serves as
+both the sample processing control and the reproducibility control. The control material is
+genotyped on the Illumina BeadChip according to the standard of procedures at the
+laboratory. Each new lot of the control is tested by comparison with reference BeadChip
+genotype results.
+The stability studies are ongoing and current data support a shelf-life stability claim of one
+month and an in-use stability claim of 30 days when the control material is stored at 2–8˚C.
+6. Detection Limit:
+i. Limit of Blank
+The Limit of Blank (LoB) study was performed to incorporate measurement variability
+due to the noisy nature of UV-Vis spectroscopy and potentially erroneous fluorescence
+signal in the assay. A plate of 95 blanks containing 1 mL of molecular grade water and
+the standard volume of DNA stabilizing solution from the AncestryDNA Saliva
+Collection Kit was extracted, quantified and genotyped using three lots of critical
+reagents. LoB calculation was performed using the non-parametric rank method in
+accordance with CLSI EP17-A2. No blanks returned a sample call rate above 98%. The
+LoB was determined to be 1.004 ng/µL.
+K192944 - Page 10 of 17
+
+--- Page 11 ---
+ii. Limit of Detection
+The Limit of Detection (LoD) study was performed to establish the lowest concentration
+of DNA obtained from the AncestryDNA Saliva Collection Kit that is necessary when
+tested with the AncestryDNA Factor V Leiden GHR Test to successfully assign the
+correct variant. The study used both saliva samples from 15 donors (five for each
+genotype) and DNA from four cell lines. DNA from each sample was diluted to multiple
+concentrations and genotyped by the AncestryDNA Factor V Leiden GHR Test using
+three lots of critical reagents. To confirm the genotype call, each sample was also
+sequenced by bi-directional sequencing. The LoD was defined as the lowest DNA
+concentration at which at least 95% of samples yielded the correct call and statistically
+different from LoB. The LoD was determined to be 1.53 ng/µL. The manufacturer has
+also claimed the upper limit of DNA concentration of 50 ng/µL.
+7. Assay Cut-Off:
+Not applicable
+8. Accuracy (Instrument):
+Refer to Section B.1.i.
+9. Carry-Over:
+Not applicable
+B Comparison Studies:
+1. Comparison with Sanger Bi-directional Sequencing
+i. Accuracy
+The accuracy study was performed at one laboratory site to calculate the agreement of the
+genetic variant determination between the AncestryDNA Factor V Leiden GHR Test and
+results from bi-directional sequencing. Saliva samples were collected from 209 donors
+with known Factor V Leiden genotypes: 73 homozygous common (GG), 69 heterozygous
+(GA) and 67 homozygous rare (AA). Of the 200 samples initially genotyped, 11 samples
+failed the sample call rate (SCR) quality control (QC) and nine alternate samples were
+added to the same cohort, all of which passed SCR QC on the first run. All samples were
+genotyped using bi-directional sequencing to determine their true variant status.
+Genotyping results were compared between the GHR test and bi-directional sequencing
+to calculate percent agreement with the sequencing results considered to be “truth”. The
+percent agreement for each genotype, the overall percent agreement and confidence
+intervals were calculated based on a binomial distribution. Data analysis results did not
+include FQC samples. The results of the study are summarized in the tables below.
+K192944 - Page 11 of 17
+
+--- Page 12 ---
+Distribution of the 11 FQC samples by genotypes
+Total Number Number 95% Confidence
+Genotype FQC (%)
+of Samples of FQC Interval
+GG 73 4 5.5 1.5% to 13.4%
+GA 67 3 4.5 0.9% to 12.5%
+AA 69 4 5.8 1.6% to 14.2%
+Comparison of the genotyping results between AncestryDNA Factor V Leiden GHR
+Test and bi-directional sequencing
+Bi-directional Sequencing Genotypes Total
+GG GA AA
+GG 69 0 0 69
+AncestryDNA
+GA 0 65 0 65
+Factor V
+AA 0 0 64 64
+Leiden GHR
+No call or invalid 0 0 0 0
+Test
+FQC 4 4 3 11
+Total 73 69 67 209
+Percent agreement and confidence intervals for AncestryDNA Factor V Leiden GHR
+Test genotypes
+No Percent 95% Confidence
+Correct/Incorrect FQC
+Call Agreement (PA) Interval
+GG 69/0 0 4 100% 94.8% to 100%
+GA 65/0 0 4 100% 94.5% to 100%
+AA 64/0 0 3 100% 94.4% to 100%
+All Genotypes 198/0 0 11 100% 98.2% to 100%
+No call 0/198 0% 0% to 1.8%
+As reported in published literature, factor V Leiden heterozygosity is present in 5.1%, 2.0%
+and 1.2% of Caucasians, Hispanics and African Americans, respectively. The frequencies of
+homozygosity for the above populations are 65, 10 and 4 per 100,000 individuals
+correspondingly. Technical (analytical) Positive Predictive Value (TPPV) of the
+AncestryDNA Factor V Leiden GHR Test results are 100% for both GA and AA.
+2. Matrix Comparison:
+Not applicable
+C Clinical Studies:
+1. Clinical Summary
+Clinical performance for this test was assessed using published data and studies to
+demonstrate user comprehension of the labeling and test results.
+The AncestryDNA Factor V Leiden GHR Test for Hereditary Thrombophilia is indicated for
+the detection of the Factor V Leiden variant (c.1601G>A) in the F5 gene. This variant is
+associated with higher risk for developing harmful blood clots or venous thromboembolism
+K192944 - Page 12 of 17
+
+[Table 1 on page 12]
+Genotype		Total Number			Number		FQC (%)		95% Confidence	
+		of Samples			of FQC				Interval	
+GG	73			4			5.5	1.5% to 13.4%		
+GA	67			3			4.5	0.9% to 12.5%		
+AA	69			4			5.8	1.6% to 14.2%		
+
+[Table 2 on page 12]
+			Bi-directional Sequencing Genotypes					Total	
+		GG		GA	AA				
+AncestryDNA
+Factor V
+Leiden GHR
+Test	GG	69		0	0		69		
+	GA	0		65	0		65		
+	AA	0		0	64		64		
+	No call or invalid	0		0	0		0		
+	FQC	4		4	3		11		
+Total		73		69	67		209		
+
+[Table 3 on page 12]
+AncestryDNA
+Factor V
+Leiden GHR
+Test
+
+[Table 4 on page 12]
+			Correct/Incorrect		No	FQC	Percent
+Agreement (PA)			95% Confidence	
+					Call					Interval	
+	GG		69/0	0		4	100%		94.8% to 100%		
+	GA		65/0	0		4	100%		94.5% to 100%		
+	AA		64/0	0		3	100%		94.4% to 100%		
+	All Genotypes		198/0	0		11	100%		98.2% to 100%		
+	No call			0/198			0%		0% to 1.8%		
+
+--- Page 13 ---
+(VTE; includes deep vein thrombosis and pulmonary embolism (Simone et al., 2013)1. Odds
+ratios are available in the meta-analysis performed by Simone et al. (2013). Odds ratios
+adjusted for age and sex using logistic regression and 95% confidence intervals for each
+variant status are given below:
+Factor V Leiden variant status Odds ratio (95% confidence interval)
+One copy, heterozygote 4.22 (3.35 to 5.32)
+Two copies, homozygote 5.45 (6.79 to 19.29)
+To support test results, a meta-analysis study conducted by Simone et al. (2013) was used to
+calculate likelihood ratios (LR, an estimate of how the test result affects the chances of a
+condition). Post-test risk (R ) was calculated from the LR and using a pre-test risk (R ) of
+post pre
+11% from the 2018 ACMG venous thromboembolism laboratory testing standard (Zhang,
+2018)2. LR and 95% confidence intervals calculated using a normal approximation are listed
+in the table below along with the post-test risk calculated using the relationship R /(1-R )
+post post
+= LR [R /(1-R )].
+pre pre
+95%
+FVL variant Post-test
+Case/control distribution LR confidence
+count (genotype) risk
+interval
+0 variant 1758 cases and 1201 controls among 2959
+(homozygous Factor V Leiden carriers. 7323 cases and
+0.87 0.86 to 0.88 10%
+common / wild 16312 controls among 23635 wild type
+type) individuals.
+1758 cases and 1201 controls among 2959
+1 variant Factor V Leiden carriers. 7323 cases and
+2.82 2.64 to 3.02 26%
+(heterozygous) 16312 controls among 23635 wild type
+individuals.
+92 cases and 24 controls among 116
+2 variants
+Factor V Leiden homozygous individuals.
+(homozygous 9.69 6.19 to 15.16 54%
+4524 cases and 11643 controls among
+rare)
+16167 wild type individuals.
+2. Other Clinical Supportive Data
+a. User Comprehension Study
+Two user comprehension studies (Study 1 and Study 2) were conducted to assess user
+comprehension of the AncestryDNA Factor V Leiden GHR Test process and reports. The
+user comprehension studies were performed using a sampling of individuals that were
+demographically diverse in a controlled environment. Quota-based sampling was used to
+1 Simone, Benedetto, et al. Risk of venous thromboembolism associated with single and combined effects of Factor
+V Leiden, Prothrombin 20210A and Methylenetethraydrofolate reductase C677T: a meta-analysis involving over
+11,000 cases and 21,000 controls. Eur J Epidemiol. 2013. 28(8): 621-47.
+2 Zhang, Shulin, et al. Venous thromboembolism laboratory testing (factor V Leiden and factor II c.* 97G> A), 2018
+update: a technical standard of the American College of Medical Genetics and Genomics (ACMG). Genet Med.
+2018. 20(12): 1489-98.
+K192944 - Page 13 of 17
+
+[Table 1 on page 13]
+	Factor V Leiden variant status			Odds ratio (95% confidence interval)	
+One copy, heterozygote			4.22 (3.35 to 5.32)		
+Two copies, homozygote			5.45 (6.79 to 19.29)		
+
+[Table 2 on page 13]
+			95%	
+FVL variant				Post-test
+	Case/control distribution	LR	confidence	
+count (genotype)				risk
+			interval	
+				
+0 variant
+(homozygous
+common / wild
+type)	1758 cases and 1201 controls among 2959
+Factor V Leiden carriers. 7323 cases and
+16312 controls among 23635 wild type
+individuals.	0.87	0.86 to 0.88	10%
+1 variant
+(heterozygous)	1758 cases and 1201 controls among 2959
+Factor V Leiden carriers. 7323 cases and
+16312 controls among 23635 wild type
+individuals.	2.82	2.64 to 3.02	26%
+2 variants
+(homozygous
+rare)	92 cases and 24 controls among 116
+Factor V Leiden homozygous individuals.
+4524 cases and 11643 controls among
+16167 wild type individuals.	9.69	6.19 to 15.16	54%
+
+--- Page 14 ---
+recruit study participants representative of the U.S. population according to education,
+age, sex/gender and race/ethnicity.
+In Study 1, geographic diversity was addressed through participant recruitment and
+comprehension testing was conducted from each of the four U.S. census regions: South,
+Midwest, Northeast and West. Approximately 120 participants were tested at each
+location. These subjects were randomly assigned to each of the four study arms, testing
+comprehension of four GHR Test reports:
+• 0 Variants Identified
+• 1 Variant Identified
+• 2 Variants Identified
+• Result Not Determined
+The study was conducted in person and each interview session was administered by a
+trained interviewer/moderator using a series of pre-defined questions. Participants were
+given a time limit from start of report review to completion of the comprehension study.
+After excluding several participants according to pre-defined exclusion criteria, the final
+378 participants completed the survey talk for the four AncestryDNA Factor V Leiden
+GHR Test reports and were included in the endpoint analysis. The manufacturer
+determined comprehension accuracy rates for multiple core comprehension concepts. The
+comprehension assessment addressed the overall comprehension and the following core
+comprehension concepts: purpose of test, limitations of test, ethnic relevance, results of
+test, other risk factors and appropriate follow-up action.
+In Study 2, geographically diverse participants were randomly assigned to each of two
+study arms, representing the two most challenging reports:
+• 1 Variant Identified
+• Result Not Determined
+The study was conducted via live tele-video interview and each interview session was
+administered online by a trained interviewer/moderator using a series of pre-defined
+questions. After excluding participants per pre-defined exclusion criteria, a total of 213
+individuals completed the study and were included in the endpoint analysis.
+Both studies were performed on the different types of the GHR Test reports developed
+using representative samples of the materials below (supplemental materials):
+• Education Module including definition of terms
+• Pre-purchase page
+• Frequently Asked Questions, and
+• Technical Details
+The representative samples were developed per FDA guidance for medical device patient
+labeling and designed for readability no higher than a defined reading level using a
+Flesch-Kincaid Readability test. The representative samples were reviewed by a Certified
+Genetic Counselor to confirm that the materials tested accomplished the following:
+K192944 - Page 14 of 17
+
+--- Page 15 ---
+• Defined the target condition being tested and related symptoms
+• Explained the intended use and limitations of the test
+• Explained the relevant ethnicities in regard to the variant tested
+• Explained genetic health risks and relevance to the user’s ethnicity, and
+• Assessed participants’ ability to understand the following comprehension
+concepts: the test’s limitations, purpose, appropriate follow-up action, test
+results, ethnic relevance and other risk factors that may have an impact on the
+test results.
+For both studies, the completion rate was 100% (378/378 for Study 1 and 213/213 for
+Study 2) for all subjects who appeared for their interviews in the study after passing the
+pre-defined exclusion criteria. The average comprehension rates per core comprehension
+concept were 90.7% to 97.4% for Study 1 and 90.9% to 99.1% for Study 2. The overall
+comprehension score across all GHR reports was 93.2% for Study 1 and 96% for Study
+2.
+Overall user comprehension rates for Factor V Leiden GHR Test reports in Study 1
+Comprehension Rates by GHR Report Type (%) Overall
+Core Concept Result Not Comprehension
+0 Variant 1 Variant 2 Variants
+Determined Rates (%)
+Appropriate
+95.8 97.7 100 95.6 97.4
+Follow-Up Action
+Ethnicity
+98.9 89.5 97.2 N/A 95.5
+Relevance
+Other Risk
+89.6 94.2 92.5 92.2 92.1
+Factors
+Limitations of
+88.5 89.5 98.1 88.9 91.5
+Test
+Purpose of Test 89.0 95.3 93.4 93.3 92.7
+Results of Test 93.8 83.7 93.4 91.1 90.7
+Total Number of
+96 86 106 90 378
+Reports
+Overall user comprehension rates for Factor V Leiden GHR Test reports in Study 2
+Comprehension Rates by GHR Report Overall Comprehension
+Core Concept Type (%) Rates (%)
+1 Variant Result Not Determined
+Appropriate Follow-
+94.2 98.6 96.5
+Up Action
+Ethnic Relevance 98.1 97.3 97.7
+Other Risk Factors 98.1 93.6 95.8
+Limitations of Test 93.7 98.6 96.2
+Purpose of Test 98.5 99.6 99.1
+Results of Test 88.5 92.7 90.9
+Total Number of
+103 110 213
+Reports
+Comparison of pre- and post-test by core concept in Study 2
+Core Concept Pre-test (%) Post-test (%) %Improvement p-value
+Purpose 89.0 99.1 10.1 <0.001
+K192944 - Page 15 of 17
+
+[Table 1 on page 15]
+Core Concept				Comprehension Rates by GHR Report Type (%)						Overall	
+			0 Variant		1 Variant	2 Variants	Result Not
+Determined			Comprehension	
+										Rates (%)	
+	Appropriate		95.8		97.7	100	95.6		97.4		
+	Follow-Up Action										
+	Ethnicity		98.9		89.5	97.2	N/A		95.5		
+	Relevance										
+	Other Risk		89.6		94.2	92.5	92.2		92.1		
+	Factors										
+	Limitations of		88.5		89.5	98.1	88.9		91.5		
+	Test										
+	Purpose of Test		89.0		95.3	93.4	93.3		92.7		
+	Results of Test		93.8		83.7	93.4	91.1		90.7		
+	Total Number of		96		86	106	90		378		
+	Reports										
+
+[Table 2 on page 15]
+Core Concept				Comprehension Rates by GHR Repor				t		Overall Comprehension	
+				Type (%)						Rates (%)	
+				1 Variant			Result Not Determined				
+	Appropriate Follow-		94.2			98.6			96.5		
+	Up Action										
+	Ethnic Relevance		98.1			97.3			97.7		
+	Other Risk Factors		98.1			93.6			95.8		
+	Limitations of Test		93.7			98.6			96.2		
+	Purpose of Test		98.5			99.6			99.1		
+	Results of Test		88.5			92.7			90.9		
+	Total Number of		103			110			213		
+	Reports										
+
+[Table 3 on page 15]
+	Core Concept			Pre-test (%)			Post-test (%)			%Improvement			p-value	
+Purpose			89.0			99.1			10.1			<0.001		
+
+--- Page 16 ---
+Other Risk Factors 91.1 95.8 4.7 0.002
+Ethnic Relevance 95.8 97.7 1.9 0.117
+Limitations 87.7 96.2 8.5 <0.001
+b. Frequently Asked Questions Material
+The manufacturer has developed a Frequently Asked Question (FAQ) section for each
+Genetic Health Risk Test Report. The FAQ section was created to provide users
+information to adequately understand the purpose, limitations and the meaning of the
+results of the test. The FAQ section was developed using methodology consistent with
+the Manufacturer’s labeling design, identification of primary communication messages
+and label comprehension. The concepts covered in the FAQ section include: the test
+results, the purpose of the test, limitations of the test, relevance of race and ethnicity on
+test results, the meaning of the result, other risk factors that may affect the user’s family
+and children, and links to resources that provide additional information. Additionally, the
+FAQ section provide definitions for terminology found in Genetic Health Risk Reports
+that is used to describe risks associated with detected variants. The questions included in
+the FAQ section for the test include, but are not limit to:
+• What is the purpose of this test?
+• What is a blood clot?
+• What is thrombophilia?
+• What can this test tell me?
+• What can this test not tell me?
+• What does it mean if I have an increased risk?
+• What does it mean if I don’t have an increased risk?
+• Can other things increase my risk for an abnormal blood clot?
+• Is factor V Leiden thrombophilia more common in certain ethnic groups?
+• What should I do with my results?
+• Where can I get more information?
+Each Genetic Health Risk Test Report has answers to FAQ that are specific to the variant(s)
+and disease being reported, where applicable. The FAQ section is included in the Genetic
+Health Risk Test Report.
+D Clinical Cut-Off:
+Not applicable
+E Expected Values/Reference Range:
+Not applicable
+F Other Supportive Instrument Performance Characteristics Data:
+i. Reagent Shelf-Life Stability
+K192944 - Page 16 of 17
+
+[Table 1 on page 16]
+Other Risk Factors	91.1	95.8	4.7	0.002
+Ethnic Relevance	95.8	97.7	1.9	0.117
+Limitations	87.7	96.2	8.5	<0.001
+
+--- Page 17 ---
+The purpose of the real-time stability study is to establish the shelf-life stability for the five
+critical reagents used in the AncestryDNA Factor V Leiden GHR Test. Three lots of critical
+reagents were assessed with DNA from three commercially available cell lines (one cell line
+for each genotype). The study is ongoing and current results support a shelf-life stability
+claim of 2 months when the critical reagents are stored under the following conditions:
+Critical Reagent Storage Temperature
+MSM -15˚C to -25˚C
+FMS -15˚C to -25˚C
+BeadChip 2˚C to 8˚C
+X-Stain Plate -15˚C to -25˚C
+EML -15˚C to -25˚C
+ii. Specimen Stability
+Saliva samples for testing are collected with the AncestryDNA Saliva Collection Kit. Refer
+to K192947 for sample stability information as well as a description of the device and
+performance characteristics.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K192944 - Page 17 of 17
+
+[Table 1 on page 17]
+	Critical Reagent			Storage Temperature	
+MSM			-15˚C to -25˚C		
+FMS			-15˚C to -25˚C		
+BeadChip			2˚C to 8˚C		
+X-Stain Plate			-15˚C to -25˚C		
+EML			-15˚C to -25˚C		

@@ -1,0 +1,100 @@
+Standard Operating Procedure: Analytical Phase for PRIMARY
+CILIARY DYSKINESIA GENE PANEL, VARIES
+1. PURPOSE
+The purpose of this SOP is to outline the analytical process and
+ensure accurate, reliable, and timely results for the PRIMARY
+CILIARY DYSKINESIA GENE PANEL, VARIES. This procedure
+includes guidelines for DNA extraction, library preparation,
+sequencing, data analysis, and result interpretation.
+2. RESPONSIBILITY
+It is the responsibility of the designated laboratory technologists and
+geneticists to perform the DNA extraction, library preparation, next-
+generation sequencing (NGS), data analysis, and reporting of results
+in accordance with this SOP.
+3. DEFINITIONS
+• Primary Ciliary Dyskinesia (PCD): A genetic disorder
+characterized by defects in the action of cilia, leading to
+respiratory and reproductive system issues.
+• NGS (Next-Generation Sequencing): A high-throughput method
+used to sequence DNA and RNA for comprehensive genetic
+analysis.
+4. EQUIPMENT AND REAGENTS
+• DNA extraction kits
+• Library preparation kits
+• NGS platform (e.g., Illumina, Thermo Fisher)
+• PCR thermal cycler
+• Quantification and quality control devices (e.g., Qubit,
+Bioanalyzer)
+• Bioinformatics software for data analysis
+• Reference databases for genetic variation (e.g., ClinVar, gnomAD)
+5. SPECIMEN
+• Preferred/Acceptable: Whole blood (EDTA), saliva, or buccal
+swabs.
+• Unacceptable: Specimens stored at non-optimal conditions, or
+those with insufficient DNA quantity/quality.
+6. PROCEDURE
+A) DNA Extraction
+1. Extract genomic DNA from the specimen using a suitable DNA
+extraction kit.
+2. Quantify the extracted DNA using a Qubit or similar fluorometric
+device.
+3. Check the quality and integrity of the DNA using gel
+electrophoresis or a Bioanalyzer.
+4. Store the extracted DNA at -20°C or lower until ready for library
+preparation.
+B) Library Preparation
+1. Prepare the DNA library using a library preparation kit specific
+for NGS.
+2. Quantify and quality control the prepared library using the Qubit
+and Bioanalyzer.
+3. Normalize the library concentration according to the sequencing
+platform requirements.
+C) Sequencing
+1. Load the prepared libraries onto the NGS platform according to
+the manufacturer's instructions.
+2. Run the sequencing protocol and monitor the run progress,
+ensuring that quality metrics are met.
+D) Data Analysis
+1. Use bioinformatics software to analyze the raw sequencing
+data.
+2. Perform alignment to the human reference genome (hg19 or
+hg38).
+3. Call variants using established pipelines and quality filters.
+4. Annotate the variants using reference databases for clinical
+relevance.
+E) Interpretation and Reporting
+1. Review the annotated variants and interpret the significance in
+the context of PCD.
+2. Corroborate findings with clinical data where available.
+3. Generate a comprehensive report with details on the detected
+variants, their clinical relevance, and any recommendations for
+further action.
+4. Validate the results by a second qualified scientist if any novel
+or rare variants are identified.
+7. QUALITY CONTROL
+• Use internal and external quality controls at each step of the
+process.
+• Perform periodic calibration and maintenance of equipment.
+• Monitor pass/fail criteria for quality metrics during sequencing.
+• Participate in external proficiency testing to ensure compliance
+with CLIA and other regulatory standards.
+8. REPORTING RESULTS
+Results must be reviewed and verified by the technologist and a
+geneticist before releasing. The report should include patient-
+identifiable information, details of the methodology, detected variants
+and their significance, and any recommendations for follow-up
+actions.
+9. REFERENCES
+• ClinVar Database
+• gnomAD Database
+• Manufacturer’s Manual for DNA Extraction Kit
+• Manufacturer’s Manual for Library Preparation Kit
+• Manufacturer’s Manual for NGS Platform
+10. APPENDIX
+• Troubleshooting Guide for common issues in DNA extraction,
+library preparation, and sequencing.
+• Flowcharts for quick-reference steps in the protocol.
+• Contact information for technical support.
+This SOP sets a comprehensive guideline for the analytical phase of
+the PRIMARY CILIARY DYSKINESIA GENE PANEL, VARIES to
+ensure high-quality and reliable genetic testing.

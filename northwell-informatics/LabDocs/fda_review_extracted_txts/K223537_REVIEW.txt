@@ -1,0 +1,569 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K223537
+B Applicant
+Abbott Diabetes Care, Inc.
+C Proprietary and Established Names
+FreeStyle Libre 2 Flash Glucose Monitoring System, FreeStyle Libre 3 Continuous Glucose
+Monitoring System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1355 -
+Integrated Continuous CH - Clinical
+QLG Class II
+Glucose Monitoring Chemistry
+System
+21 CFR 862.1345 - CH - Clinical
+NBW Class II
+Glucose test system Chemistry
+II Submission/Device Overview:
+A Purpose for Submission:
+The submission adds application programming interfaces (APIs) to the FreeStyle Libre 2 and
+FreeStyle Libre 3 iCGM systems to facilitate users sharing glucose data with authorized client
+software for specific and permitted use cases.
+B Type of Test:
+Quantitative, amperometric assay (Glucose Oxidase)
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QLG			Class II	21 CFR 862.1355 -
+Integrated Continuous
+Glucose Monitoring
+System			CH - Clinical
+Chemistry
+NBW			Class II	21 CFR 862.1345 -
+Glucose test system			CH - Clinical
+Chemistry
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The Indications for Use statement for the FreeStyle Libre 2 Flash Glucose Monitoring System
+previously included a statement regarding sensor compatibility. This statement has been
+removed in the current submission. This modification does not change the cleared indications for
+use or intended use of the device system. Information on sensor compatibility can be found in
+device labeling.
+The FreeStyle Libre 2 Flash Glucose Monitoring System is a continuous glucose monitoring
+(CGM) device with real time alarms capability indicated for the management of diabetes in
+persons age 4 and older. It is intended to replace blood glucose testing for diabetes treatment
+decisions, unless otherwise indicated.
+The System also detects trends and tracks patterns and aids in the detection of episodes of
+hyperglycemia and hypoglycemia, facilitating both acute and long-term therapy adjustments.
+Interpretation of the System readings should be based on the glucose trends and several
+sequential readings over time.
+The System is also intended to autonomously communicate with digitally connected devices.
+The System can be used alone or in conjunction with these digitally connected devices where the
+user manually controls actions for therapy decisions.
+The FreeStyle Libre 3 Continuous Glucose Monitoring System is a real time continuous glucose
+monitoring (CGM) device with alarms capability indicated for the management of diabetes in
+persons age 4 and older. It is intended to replace blood glucose testing for diabetes treatment
+decisions, unless otherwise indicated.
+The System also detects trends and tracks patterns and aids in the detection of episodes of
+hyperglycemia and hypoglycemia, facilitating both acute and long-term therapy adjustments.
+Interpretation of the System readings should be based on the glucose trends and several
+sequential readings over time.
+The System is also intended to autonomously communicate with digitally connected devices.
+The System can be used alone or in conjunction with these digitally connected devices where the
+user manually controls actions for therapy decisions.
+C Contraindications
+The System must not be used with automated insulin dosing (AID) systems, including closed
+loop and insulin suspend systems.
+K223537 - Page 2 of 10
+
+--- Page 3 ---
+MRI/CT/Diathermy: The System must be removed prior to Magnetic Resonance Imaging (MRI),
+Computed Tomography (CT) scan, or high-frequency electrical heat (diathermy) treatment. The
+effect of MRI, CT scans, or diathermy on the performance of the System has not been evaluated.
+The exposure may damage the Sensor and may impact proper function of the device which could
+cause incorrect readings.
+D Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+The following special conditions for use statements apply to the Libre Data Sharing API:
+• Use of the Libre Data Sharing API and the CGM information it transmits is limited by the
+indications for use of the iCGM systems with which it is used.
+The following special conditions for use statements apply to the FreeStyle Libre 2 (FSL2)
+device:
+• Taking ascorbic Acid (Vitamin C) supplements while wearing the Sensor may falsely
+raise Sensor glucose readings. Inaccurate sensor readings due to ascorbic acid
+interference may be clinical significant and result in harm if relied on to make treatement
+decisions. Taking more than 500 mg of ascorbic acid per day may affect the Sensor
+readings which could cause you to miss a severe low glucose event.
+• Do not use this system if you are pregnant, on dialysis, or critically ill. The System is not
+cleared for use in these groups and it is not known how different conditions or
+medications common to these populations may affect performance of the System.
+• Do not ignore symptoms that may be due to low or high blood glucose: if you are
+experiencing symptoms that are not consistent with the glucose readings, consult your
+health care professional.
+• Do not use the System in people less than 4 years of age.
+• Use your blood glucose meter to make diabetes treatment decisions when you see the
+"check blood glucose" symbol during the first 12 hours of wearing a Sensor. In addition,
+use your blood glucose meter to make diabetes treatment decisions, if your Sensor
+glucose reading does not match how you feel, or if the reading does not include a
+number.
+• Wash application site on the back of your upper arm using a plain soap, dry, and then
+clean with an alcohol wipe. This will help remove any oily residue that may prevent the
+sensor from sticking properly. Allow site to air dry before proceeding. Carefully
+preparing the site according to these instructions will help the Sensor stay on your body
+for the full wear duration specified by your Sensor insert and help prevent it from falling
+off early.
+• Store the Sensor Kit between 36°F and 82°F. Storage outside of this range may cause
+inaccurate Sensor glucose readings. If you suspect that the temperature may exceed 82°F
+(e.g., an un-airconditioned home in the summer), you should refrigerate your Sensor Kit.
+Do not freeze your Sensor Kit.
+• The Reader's built-in meter is not for use on people who are dehydrated, hypotensive, in
+shock, or for individuals in hyperglycemic-hyperosmolar state, with or without ketosis.
+• The Reader's built-in meter is not for use on neonates, in critically-ill patients, or for
+diagnosis or screening of diabetes.
+• The Reader's built-in meter is for use by a single person. Use of the Reader's built-in
+meter on multiple patients may lead to transmission of Human Immunodeficiency Virus
+K223537 - Page 3 of 10
+
+--- Page 4 ---
+(HIV), Hepatitis C Virus (HCV), Hepatitis B Virus (HBV), or other bloodborne
+pathogens.
+• Use of the Sensor with devices, apps, and software that are not listed (as compatible) may
+cause inaccurate glucose readings.
+• If a Sensor breaks inside a user's body, call your health care professional.
+• Alarms you receive do not include your glucose reading. You must scan the Sensor to
+get your real-time current glucose level as the Reader and App will not provide this
+information without a scan.
+• For you to receive alarms, they must be on in your Reader. If you want to receive the
+App's optional alarms, make sure these are turned on. The Reader or phone should be
+within 20 feet of you at all times. The transmission range is 20 feet unobstructed. If you
+are out of range, you may not receive glucose alarms.
+• To prevent missed alarms, make sure the Reader has sufficient charge and that sound
+and/or vibration are turned on.
+• The App will ask for phone permissions which are needed to receive alarms. Allow these
+permissions when requested.
+• Check to make sure that you have the correct phone settings and permissions enabled. If
+your phone is not configured properly, you will not be able to use the App, so you will
+not receive alarms or be able to check your glucose.
+• Do not force close the App (iOS). The App must be running in the background to receive
+alarms. If you force close the App you will not receive alarms. Re-open the App to ensure
+you will receive alarms.
+• If you adjust the phone ringer volume (iPhone) or Media volume (Android) to silent or
+use the phone Do Not Disturb setting, keep ‘Override Do Not Disturb’ setting in the App
+ON for Low Glucose, High Glucose, and Signal Loss alarms to ensure you receive
+audible alarms.
+• You should disconnect headphones or speakers from your phone when you are not using
+them as you may not hear audio for alarms. If using headphones, keep them in your ears.
+• If you are using peripheral devices connected to your phone, such as wireless headphones
+or a smartwatch, you may receive alarms on only one device or peripheral, not all.
+• Some operating system features may impact your ability to receive alarms. For example,
+if you use an iPhone and the iOS Screen Time feature, add FreeStyle Libre 2 to the list of
+Always Allowed apps to ensure that you receive alarms or if you use an Android Phone
+do not use the Android Digital Wellbeing app.
+• Keep your phone well charged and turned on.
+• If you are using FreeStyle Libre 2 App, you must have access to a blood glucose
+monitoring system as the App does not provide one.
+• FreeStyle Libre 2 System is intended for use by a single person. It must not be used by
+more than one person due to the risk of misinterpreting glucose information.
+The following special conditions for use statements apply to the FreeStyle Libre 3 (FSL3)
+(FSL3) device:
+• Do not use the System in people less than 4 years of age. The System is not cleared for
+use in people under 4 years of age.
+• Do not use the System if you are pregnant, on dialysis, or critically ill. The System is not
+cleared for use in these groups and it is not known how different conditions or
+medications common to these populations may affect performance of the System.
+K223537 - Page 4 of 10
+
+--- Page 5 ---
+• The FreeStyle Libre 3 app installed on a phone is intended for use by a single person. It
+must not be used by more than one person due to the risk of misinterpreting glucose
+information.
+• Performance of the System when used with other implanted medical devices, such as
+pacemakers, has not been evaluated.
+• Taking ascorbic acid (vitamin C) supplements while wearing the Sensor may falsely raise
+Sensor glucose readings. Taking more than 500 mg of ascorbic acid per day may affect
+the Sensor readings which could cause you to miss a severe low glucose event. Ascorbic
+acid can be found in supplements including multivitamins. Some supplements, including
+cold remedies such as Airborne® and Emergen-C®, may contain high doses of 1000 mg
+of ascorbic acid and should not be taken while using the Sensor. See your health care
+professional to understand how long ascorbic acid is active in your body.
+• Do not ignore symptoms that may be due to low or high blood glucose: if you are
+experiencing symptoms that are not consistent with the glucose readings, consult your
+health care professional.
+• Use your blood glucose meter to make diabetes treatment decisions when you see the
+symbol during the first 12 hours of wearing a Sensor, if your Sensor glucose reading does
+not match how you feel or if the reading does not include a number.
+• For you to receive alarms, they must be on and your device should be within 33 feet of
+you at all times. The transmission range is 33 feet unobstructed. If you are out of range,
+you may not receive alarms.
+• If you suspect that the temperature may exceed 82°F (for example, in an unairconditioned
+home in summer), you should refrigerate your Sensor Kit. Do not freeze your Sensor Kit.
+• Do not force close the App. The App must be running in the background to receive
+alarms. If you force close the App you will not receive alarms. Re-open the App to ensure
+you will receive alarms.
+IV Device/System Characteristics:
+A Device Description:
+The subject devices are the FreeStyle Libre 2 (FSL2) Flash Glucose Monitoring System and the
+FreeStyle Libre 3 (FSL3) Continuous Glucose Monitoring System. Both systems utilize the
+FreeStyle Libre App with different app versions for the FSL2 and FSL3, and both app versions
+are available on Apple and Android mobile phone operating systems. The device descriptions of
+the FSL2 and FSL3 systems are unchanged from K210943 and K213996, respectively.
+As part of the current 510(k) the subject devices are receiving additional functionality called the
+“Libre Data Sharing API.”
+The Libre Data Sharing API is a cloud-based application programming interface (API) that is
+intended to enable communication of glucose data, including alarms, through the cloud from an
+FDA cleared Abbott iCGM system, consisting of an on-body sensor and a primary display
+device, to an authorized third-party organization (‘client’) software on digitally connected
+devices. The data transmitted by the API to an authorized client software can be used for specific
+and permitted use cases, including non-medical device applications, medical device data
+analysis, CGM secondary display alarm, active patient monitoring, and treatment decisions. Use
+of the Libre Data Sharing API and the CGM information it transmits is limited by the indications
+for use of the iCGM systems with which it is used.
+K223537 - Page 5 of 10
+
+--- Page 6 ---
+The Libre Data Sharing API does not have any command or control over the client software, nor
+does it allow for the client software to have any command or control over the connected iCGM
+system. Additionally, glucose data and alarms from the connected iCGM system are not
+modified or manipulated by the Libre Data Sharing API through its transmission to the
+authorized client software. The display device of the connected Abbott iCGM system, which
+directly receives the data from the sensor, continues to serve as a primary display device for the
+glucose data and alarms. As part of this 510(k) there are no modifications to the sensors,
+transmitters, or user interfaces of the FSL2 or FSL3 systems.
+As a component of iCGM systems, the Libre Data Sharing API is subject to the applicable
+special controls defined in 21 CFR 862.1355. FDA determined that the technical design of the
+Libre Data Sharing API and the verification and validation testing provided in the current 510(k)
+are adequate to meet the iCGM special controls. In addition to these regulatory controls, Abbott
+Diabetes Care elected to use a “whitelist” approach to control access to the API, such that access
+by 3rd party developers will require prior authorization from Abbott Diabetes Care.
+Instrument Description Information:
+1. Instrument Name:
+FreeStyle Libre 2 Flash Glucose Monitoring System
+FreeStyle Libre 3 Continuous Glucose Monitoring System
+2. Specimen Identification:
+Not applicable
+3. Specimen Sampling and Handling:
+Not applicable
+4. Calibration:
+Unchanged from K210943 for the FSL2 and K213996 for the FSL3.
+5. Quality Control:
+Not applicable
+This medical device product has functions subject to FDA premarket review as well as functions
+that are not subject to FDA premarket review. For this application, if the product has functions
+that are not subject to FDA premarket review, FDA assessed those functions only to the extent
+that they either could adversely impact the safety and effectiveness of the functions subject to
+FDA premarket review or they are included as a labeled positive impact that was considered in
+the assessment of the functions subject to FDA premarket review.
+K223537 - Page 6 of 10
+
+--- Page 7 ---
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+FreeStyle Libre 2 Flash Glucose Monitoring System (with FreeStyle Libre 2 App)
+FreeStyle Libre 3 Continuous Glucose Monitoring System
+B Predicate 510(k) Number(s):
+K210943, K213996
+C Comparison with Predicate(s):
+Device & Predicate
+K223537 K210943
+Device(s):
+FreeStyle Libre 2 Flash
+FreeStyle Libre 2 Flash Glucose Glucose Monitoring
+Device Trade Name
+Monitoring System System (with FreeStyle
+Libre 2 App)
+General Device
+Characteristic
+Similarities
+The FreeStyle Libre 2 Flash
+Glucose Monitoring System is a
+continuous glucose monitoring
+(CGM) device with real time
+alarms capability indicated for
+the management of diabetes in
+persons age 4 and older. It is
+intended to replace blood
+glucose testing for diabetes
+treatment decisions, unless
+otherwise indicated.
+Intended Use/Indications
+The System also detects trends Same
+For Use
+and tracks patterns and aids in
+the detection of episodes of
+hyperglycemia and
+hypoglycemia, facilitating both
+acute and long-term therapy
+adjustments. Interpretation of
+the System readings should be
+based on the glucose trends and
+several sequential readings over
+time.
+The System is also intended to
+K223537 - Page 7 of 10
+
+[Table 1 on page 7]
+	Device & Predicate		K223537	K210943
+	Device(s):			
+Device Trade Name			FreeStyle Libre 2 Flash Glucose
+Monitoring System	FreeStyle Libre 2 Flash
+Glucose Monitoring
+System (with FreeStyle
+Libre 2 App)
+	General Device			
+	Characteristic			
+	Similarities			
+Intended Use/Indications
+For Use			The FreeStyle Libre 2 Flash
+Glucose Monitoring System is a
+continuous glucose monitoring
+(CGM) device with real time
+alarms capability indicated for
+the management of diabetes in
+persons age 4 and older. It is
+intended to replace blood
+glucose testing for diabetes
+treatment decisions, unless
+otherwise indicated.
+The System also detects trends
+and tracks patterns and aids in
+the detection of episodes of
+hyperglycemia and
+hypoglycemia, facilitating both
+acute and long-term therapy
+adjustments. Interpretation of
+the System readings should be
+based on the glucose trends and
+several sequential readings over
+time.
+The System is also intended to	Same
+
+--- Page 8 ---
+autonomously communicate
+with digitally connected devices.
+The System can be used alone or
+in conjunction with these
+digitally connected devices
+where the user manually
+controls actions for therapy
+decisions.
+General Device
+Characteristic
+Differences
+Enables users to share their
+glucose data with authorized
+client software.
+Can communicate iCGM data
+Application Programming
+wirelessly and securely to and No API functionality
+Interfaces (APIs)
+from digitally connected devices
+(client software) through a
+cloud-based communication
+method.
+Device & Predicate
+K223537 K213996
+Device(s):
+FreeStyle Libre 3
+FreeStyle Libre 3 Continuous
+Device Trade Name Continuous Glucose
+Glucose Monitoring System
+Monitoring System
+General Device
+Characteristic
+Similarities
+The FreeStyle Libre 3
+Continuous Glucose Monitoring
+System is a real time continuous
+glucose monitoring (CGM)
+device with alarms capability
+indicated for the management of
+diabetes in persons age 4 and
+older. It is intended to replace
+Intended Use/Indications blood glucose testing for
+Same
+For Use diabetes treatment decisions,
+unless otherwise indicated.
+The System also detects trends
+and tracks patterns and aids in
+the detection of episodes of
+hyperglycemia and
+hypoglycemia, facilitating both
+acute and long-term therapy
+K223537 - Page 8 of 10
+
+[Table 1 on page 8]
+			autonomously communicate
+with digitally connected devices.
+The System can be used alone or
+in conjunction with these
+digitally connected devices
+where the user manually
+controls actions for therapy
+decisions.	
+	General Device			
+	Characteristic			
+	Differences			
+Application Programming
+Interfaces (APIs)			Enables users to share their
+glucose data with authorized
+client software.
+Can communicate iCGM data
+wirelessly and securely to and
+from digitally connected devices
+(client software) through a
+cloud-based communication
+method.	No API functionality
+
+[Table 2 on page 8]
+	Device & Predicate		K223537	K213996
+	Device(s):			
+Device Trade Name			FreeStyle Libre 3 Continuous
+Glucose Monitoring System	FreeStyle Libre 3
+Continuous Glucose
+Monitoring System
+	General Device			
+	Characteristic			
+	Similarities			
+Intended Use/Indications
+For Use			The FreeStyle Libre 3
+Continuous Glucose Monitoring
+System is a real time continuous
+glucose monitoring (CGM)
+device with alarms capability
+indicated for the management of
+diabetes in persons age 4 and
+older. It is intended to replace
+blood glucose testing for
+diabetes treatment decisions,
+unless otherwise indicated.
+The System also detects trends
+and tracks patterns and aids in
+the detection of episodes of
+hyperglycemia and
+hypoglycemia, facilitating both
+acute and long-term therapy	Same
+
+[Table 3 on page 8]
+FreeStyle Libre 3
+Continuous Glucose
+
+[Table 4 on page 8]
+FreeStyle Libre 3 Continuous
+Glucose Monitoring System
+
+--- Page 9 ---
+adjustments. Interpretation of
+the System readings should be
+based on the glucose trends and
+several sequential readings over
+time.
+The System is also intended to
+autonomously communicate
+with digitally connected devices.
+The System can be used alone or
+in conjunction with these
+digitally connected devices
+where the user manually
+controls actions for therapy
+decisions.
+General Device
+Characteristic
+Differences
+Enables users to share their
+glucose data with authorized
+client software.
+Can communicate iCGM data
+Application Programming
+wirelessly and securely to and No API functionality
+Interfaces (APIs)
+from digitally connected devices
+(client software) through a
+cloud-based communication
+method.
+VI Standards/Guidance Documents Referenced:
+• Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices (May 11, 2005)
+• The 510(k) Program: Evaluating Substantial Equivalence in Premarket Notifications
+[510(k)] (July 28, 2014)
+• Content of Premarket Submissions for Management of Cybersecurity in Medical Devices
+(October 2, 2014)
+• Design Considerations and Pre-market Submission Recommendations for Interoperable
+Medical Devices (September 6, 2017)
+• Format for Traditional and Abbreviated 510(k)s (September 13, 2019)
+• Multi-Function Device Products: Policy and Considerations (July 29, 2020)
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Performance established in K210943 for the FSL2 and K213996 for the FSL3.
+K223537 - Page 9 of 10
+
+[Table 1 on page 9]
+			adjustments. Interpretation of
+the System readings should be
+based on the glucose trends and
+several sequential readings over
+time.
+The System is also intended to
+autonomously communicate
+with digitally connected devices.
+The System can be used alone or
+in conjunction with these
+digitally connected devices
+where the user manually
+controls actions for therapy
+decisions.	
+	General Device			
+	Characteristic			
+	Differences			
+Application Programming
+Interfaces (APIs)			Enables users to share their
+glucose data with authorized
+client software.
+Can communicate iCGM data
+wirelessly and securely to and
+from digitally connected devices
+(client software) through a
+cloud-based communication
+method.	No API functionality
+
+--- Page 10 ---
+2. Linearity:
+Previously established in K210943 for the FSL2 and K213996 for the FSL3.
+3. Analytical Specificity/Interference:
+Previously established in K210943 for the FSL2 and K213996 for the FSL3.
+4. Accuracy (Instrument):
+Previously established in K210943 for the FSL2 and K213996 for the FSL3.
+5. Carry-Over:
+Not Applicable
+B Other Supportive Instrument Performance Characteristics Data:
+The following supportive instrument performance characteristics were established in prior 510(k)
+clearances for the FSL2 and FSL3 system, and are not affected by the addition of the Libre Data
+Sharing API:
+• Human Factors
+• Biocompatibility
+• Sterilization
+• Shelf Life and Stability
+• Packaging Integrity/Shipping Integrity
+• Electromagnetic Compatibility
+• Electrical Safety
+• Environmental Testing
+• Blood Glucose Meter Functionality
+• Interoperability
+The following performance characteristics were verified or validated through studies of the
+current design:
+• Software
+• Cybersecurity
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K223537 - Page 10 of 10
