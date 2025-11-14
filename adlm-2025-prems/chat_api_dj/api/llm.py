@@ -299,7 +299,8 @@ class OpenAILLM:
 
             if stream:
                 for chunk in response:
-                    yield OutputContent(content=chunk.message.content)
+                    if chunk.choices[0].delta.content is not None:
+                        yield OutputContent(content=chunk.choices[0].delta.content)
             else:
                 yield OutputContent(content=response.choices[0].message.content)
 
