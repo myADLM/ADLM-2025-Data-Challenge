@@ -8,13 +8,13 @@ from sentence_transformers import SentenceTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, TextIteratorStreamer
 import ollama
 from openai import OpenAI
+from pydantic import BaseModel
 
-SYSTEM_PROMPT = (
-    "You are a helpful assistant that helps to answer questions "
-    "about FDA letters and review documents, as well as specialized "
-    "standard operating procedures for a lab. We'll provide you context "
-    "of the documents and your task is to answer the question based on the context."
-)
+SYSTEM_PROMPT = """Laboratories generate vast amounts of documentation, ranging from protocols and package inserts to regulatory materials like 510K clearance documents and checklists. These critical resources require significant time and effort to navigate, presenting a challenge for efficient decision-making and compliance management.
+
+Create a tool capable of quickly and accurately answering questions about
+these types of documents using chunks we've extracted from the documents.
+""".strip()
 
 # Used to seperately yield thinking and output content
 ThinkingContent = namedtuple('ThinkingContent', ['content'])
