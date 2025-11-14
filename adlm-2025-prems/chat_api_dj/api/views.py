@@ -361,8 +361,6 @@ User content:
 
         chunks = embedding_search_chunks + traditional_search_chunks
 
-        # TODO consider soft deleting chunks that are too short?
-
         chunk_texts = [
             (
                 f"Document: {chunk.document.relative_path}\n"
@@ -402,7 +400,6 @@ Use the chunks below to answer the question.
 async def chat_stream_endpoint(request):
     """Streaming chat endpoint with tool calls support"""
 
-    # TODO can make global singleton instance
     agent = RAGAgent()
 
     try:
@@ -423,9 +420,6 @@ async def chat_stream_endpoint(request):
             try:
                 response = agent.chat(message)
 
-                # NOTE this only works if there's one tool call per response
-                # which might not be what we want with a "deep research"
-                # type agent
                 for chunk in response:
                     if isinstance(chunk, ThinkingContent):
                         print('Thinking:', chunk.content)
@@ -433,45 +427,6 @@ async def chat_stream_endpoint(request):
                     elif isinstance(chunk, OutputContent):
                         print('Reply:', chunk.content)
                         yield f'reply: {json.dumps(chunk.content)}\n'
-
-                    # TODO would like to have tools work with agent looping
-                    """
-                    # Prepare response data
-                    reply = chunk or ""
-                    yield f"reply: {json.dumps(reply)}\n"
-
-                    # Add tool calls if present
-                    if chunk.message.tool_calls:
-                        for call in chunk.message.tool_calls:
-                            # Generate unique call ID using chat_request_id + local counter
-                            local_call_counter += 1
-                            call_id = f"{chat_request_id}"
-
-                            tool_call = {
-                                "id": call_id,
-                                "function": call.function.name,
-                                "arguments": call.function.arguments,
-                            }
-                            yield f"tool_call_started: {json.dumps(tool_call)}\n"
-
-                            # Execute tool call synchronously in generator
-                            import asyncio
-
-                            loop = asyncio.new_event_loop()
-                            asyncio.set_event_loop(loop)
-                            try:
-                                tool_response_value = loop.run_until_complete(
-                                    TOOLS[call.function.name](**call.function.arguments)
-                                )
-                            finally:
-                                loop.close()
-
-                            tool_response = {
-                                "id": call_id,
-                                "value": tool_response_value,
-                            }
-                            yield f"tool_call_response: {json.dumps(tool_response)}\n"
-                    """
 
             except Exception as e:
                 print('Error in generate_response:', e)
@@ -836,8 +791,3 @@ def marker_chunks_view(request, document_id: int):
             "page_chunks": page_chunks,
         },
     )
-
-def label_entity_view(request):
-    entity = Entity.objects.order_by('?').first()
-    # TODO label the type
-    return render(request, "api/label_entity.html")
