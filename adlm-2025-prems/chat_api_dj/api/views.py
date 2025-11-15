@@ -10,6 +10,7 @@ from django.http import StreamingHttpResponse, JsonResponse, Http404, HttpRespon
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
 from django.conf import settings
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from ninja import NinjaAPI, Schema
 from ollama import chat, ChatResponse
 import markdown
@@ -248,14 +249,17 @@ async def get_document(request, document_id: int):
 
 
 @api.get(
-    "/documents/{document_id}/chunks/{chunk_idx}",
+    "/documents/{document_id}/chunks/{chunk_id}",
     response={200: ChunkDetail, 404: DocumentError},
 )
-async def get_document_chunk(request, document_id: int, chunk_idx: int):
+async def get_document_chunk(request, document_id: int, chunk_id: int):
     """Get a specific chunk from a document"""
     try:
         document = await Document.objects.aget(id=document_id)
-        chunk = await Chunk.objects.aget(document=document, chunk_index=chunk_idx)
+        chunk = await Chunk.objects.aget(
+            document=document, 
+            pk=chunk_id
+        )
         return {
             "id": chunk.id,
             "document_id": document_id,
@@ -607,10 +611,25 @@ def document_view(request, document_id):
 
 
 def document_list_view(request):
-    """List all available documents"""
-    documents = Document.objects.all().order_by("relative_path")
+    """List all available documents with pagination"""
+    documents_list = Document.objects.all().order_by("relative_path")
+    
+    # Paginate with 25 documents per page
+    paginator = Paginator(documents_list, 25)
+    page = request.GET.get('page', 1)
+    
+    try:
+        documents = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page
+        documents = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range, deliver last page of results
+        documents = paginator.page(paginator.num_pages)
+    
     context = {
         "documents": documents,
+        "paginator": paginator,
     }
     return render(request, "api/document_list.html", context)
 
