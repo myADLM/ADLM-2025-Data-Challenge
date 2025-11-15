@@ -19,6 +19,18 @@ export default function App() {
   const startChat = async (userText) => {
     setErr("");
 
+    // Prepare conversation history from previous messages (last 6 messages)
+    // Format: [{ role: "user", content: "..." }, { role: "assistant", content: "..." }]
+    // Do this BEFORE adding new messages so we don't include the current user message
+    const conversationHistory = messages
+      .slice(-6) // Get last 6 messages
+      .filter(m => m.role === "user" || m.role === "assistant")
+      .filter(m => m.text && m.text.trim() !== "") // Only include messages with actual content
+      .map(m => ({
+        role: m.role,
+        content: m.text || ""
+      }));
+
     // push user message immediately
     const userMsg = { id: generateRandomId(), role: "user", text: userText };
     setMessages((prev) => [...prev, userMsg]);
@@ -31,7 +43,7 @@ export default function App() {
 
     setIsStreaming(true);
     try {
-      for await (const event of streamChat(userText)) {
+      for await (const event of streamChat(userText, conversationHistory)) {
         switch (event.type) {
           case "reply": {
             // payload is a small string chunk

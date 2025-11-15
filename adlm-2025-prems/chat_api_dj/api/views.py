@@ -350,9 +350,12 @@ class RAGAgent:
     def __init__(self):
         pass
 
-    def chat(self, message: str):
-        
-        search_query_content = chat_llm.chat(f"""The user is asking a question. Can you create a search query to find the most relevant chunks?
+    def chat(self, message: str, conversation_history: Optional[List[Dict[str, str]]] = None):
+
+        search_query_prompt = f"""The user is asking a question. Can you create a search query to find the most 
+relevant documents for this query? You may need to refer to the full conversation history to choose the 
+most accurate set of documents. 
+
 Respond with _only_ the search queries, no other text. This will be used for traditional and embedding search, don't hyphenate
 (unless it's already in the user message) or do anything that will hinder the search. Return the keywords only.
 
@@ -361,7 +364,9 @@ Examples (user message -> search query):
 
 User content:
 {message}
-""", stream=False)
+"""
+        
+        search_query_content = chat_llm.chat(search_query_prompt, stream=False, conversation_history=conversation_history)
         search_query_content = next(search_query_content).content
         print('LLM search query:', search_query_content)
 
@@ -440,8 +445,10 @@ Use the chunks below to answer the question.
         json_schema_dict = CitedResponse.model_json_schema()
 
         #streaming_response = chat_llm.chat(prompt, structured_output=CitedResponse)
+        # LLM will structure as: system prompt -> conversation_history -> new user message
         streaming_response = chat_llm.chat(
-            prompt, 
+            prompts=current_user_message,
+            conversation_history=conversation_history,
             # Structured output was causing really bad LLM output with VLLM and gpt-oss,
             # Just asking the llm to return valid json was better.
             #structured_output=CitedResponse,
@@ -483,6 +490,20 @@ async def chat_stream_endpoint(request):
             return JsonResponse({"error": "Missing 'message' field"}, status=400)
 
         message = body["message"]
+        conversation_history = body.get("conversation_history", [])
+
+        # Validate conversation_history format
+        if conversation_history:
+            if not isinstance(conversation_history, list):
+                return JsonResponse({"error": "conversation_history must be a list"}, status=400)
+            # Validate each message has role and content
+            for msg in conversation_history:
+                if not isinstance(msg, dict) or "role" not in msg or "content" not in msg:
+                    return JsonResponse({"error": "Each message in conversation_history must have 'role' and 'content' fields"}, status=400)
+
+        # Keep only last 6 messages (3 user + 3 assistant pairs)
+        if conversation_history:
+            conversation_history = conversation_history[-6:] if len(conversation_history) > 6 else conversation_history
 
         # Generate a unique chat request ID for this request
         chat_request_id = str(uuid.uuid4())
@@ -492,7 +513,9 @@ async def chat_stream_endpoint(request):
             local_call_counter = 0
 
             try:
-                response, cited_chunks = agent.chat(message)
+                # Pass conversation_history to RAGAgent
+                # The LLM will structure as: system_prompt -> conversation_history -> new user message
+                response, cited_chunks = agent.chat(message, conversation_history=conversation_history)
                 print('Cited chunks:', cited_chunks)
 
                 for citation in cited_chunks:

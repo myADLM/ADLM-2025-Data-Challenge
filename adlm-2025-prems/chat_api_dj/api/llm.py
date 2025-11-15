@@ -287,7 +287,8 @@ class OpenAILLM:
         return embeddings
 
     def chat(self, 
-             prompts: str | List[str], 
+             prompts: str | List[str] = None, 
+             conversation_history: List[Dict[str, str]] = None,
              stream: bool = True, 
              system_prompt: str = SYSTEM_PROMPT,
              structured_output: BaseModel = None,
@@ -309,12 +310,18 @@ class OpenAILLM:
             print('Response format:', response_format)
         
         for prompt in prompts:
+            # Build message list: system prompt, then conversation history, then current prompt
+            messages = [
+                {"role": "system", "content": system_prompt},
+            ]
+            # Add conversation history if provided
+            if conversation_history:
+                messages.extend(conversation_history)
+            messages.append({"role": "user", "content": prompt})
+            
             response = self.client.chat.completions.create(
                 model=self.model_name, 
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": prompt},
-                ], 
+                messages=messages, 
                 stream=stream,
                 response_format=response_format,
             )
