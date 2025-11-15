@@ -926,7 +926,8 @@ def get_query_suggestions():
     """Get query suggestions based on the knowledge graph content."""
     try:
         # First, try to load verified questions (created from actual document review)
-        suggestions_file = Path("query_suggestions.json")
+        project_root = Path(__file__).parent.parent.parent
+        suggestions_file = project_root / "docs" / "query_suggestions.json"
         if suggestions_file.exists():
             import json
             with open(suggestions_file, 'r', encoding='utf-8') as f:

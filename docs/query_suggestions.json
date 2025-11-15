@@ -1,0 +1,58 @@
+{
+  "suggestions": [
+    "What are the specimen collection requirements for 11-Deoxycortisol serum testing?",
+    "What equipment is needed for the 11-Deoxycortisol analysis procedure?",
+    "What are the procedure steps for confirming Carboxy-THC in meconium?",
+    "What procedure steps are included in the 11-Deoxycortisol SOP?",
+    "What reagents are required for 11-Deoxycortisol analysis?",
+    "Which assays can be performed on formalin-fixed paraffin-embedded (FFPE) tissue?",
+    "What are the handling and storage requirements for serum specimens?",
+    "What specimen types are required for toxicology confirmation testing?",
+    "Which procedures use automated immunoassay analyzers?",
+    "What are the calibration requirements for mass spectrometry instruments?",
+    "What instruments are compatible with digital pathology workflows?",
+    "What is the FDA classification and product code for Roche Digital Pathology Dx?",
+    "Which instruments are compatible with FDA-cleared digital pathology devices?",
+    "What specimens can FDA-cleared pathology devices analyze?",
+    "Which SOPs implement FDA-cleared devices?",
+    "What FDA devices measure the same analytes as our laboratory assays?",
+    "Which instruments are used in both FDA submissions and SOP procedures?",
+    "What quality control requirements are specified for immunoassay procedures?",
+    "What control materials and calibrators are needed for mass spectrometry assays?",
+    "What are the QC acceptance criteria for hormone assays?",
+    "What are the steps for sample preparation in toxicology confirmation assays?",
+    "What are the calibration requirements for automated immunoassay analyzers?",
+    "What is the workflow for solid phase extraction procedures?",
+    "What cutoff values are used for drug confirmation testing?",
+    "How are results interpreted for hormone assays?",
+    "What are the reference ranges for cortisol testing?",
+    "What FDA guidance documents apply to digital pathology devices?",
+    "Which devices are classified as Class II medical devices and what regulations apply?",
+    "What are the predicate device comparisons for pathology software?"
+  ],
+  "metadata": {
+    "source": "Based on actual graph content from graphdb_unified/extractions",
+    "document_count": 351,
+    "verified": true,
+    "note": "Questions designed to match entities and relationships that exist in the knowledge graph",
+    "entity_types_covered": [
+      "SOP",
+      "Assay",
+      "Analyte",
+      "SpecimenType",
+      "Instrument",
+      "Device",
+      "FDADocument"
+    ],
+    "question_categories": [
+      "Specimen collection and handling",
+      "Equipment and instrumentation",
+      "Procedure steps and workflows",
+      "Reagents and quality control",
+      "FDA regulatory information",
+      "Cross-document relationships",
+      "Result interpretation"
+    ]
+  }
+}
+

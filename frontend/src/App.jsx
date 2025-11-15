@@ -78,33 +78,43 @@ export default function App() {
         </motion.div>
       )}
 
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <header className="text-center mb-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header with Logo and Title */}
+        <header className="flex items-center gap-6 mb-6 py-3 border-b border-einstein-gray-200">
           <motion.div
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="inline-block p-4 bg-einstein-blue-light rounded-full mb-6"
+            className="flex-shrink-0"
           >
-            <div className="w-14 h-14 bg-einstein-blue rounded-full flex items-center justify-center shadow-sm">
-              <Network className="w-7 h-7 text-white" />
-            </div>
+            <img
+              src="/ui_team_logo.png"
+              alt="LabR Logo"
+              className="h-20 w-auto drop-shadow-sm"
+            />
           </motion.div>
-          <h1 className="text-4xl md:text-5xl font-bold text-einstein-gray-800 mb-4 tracking-tight">
-            Knowledge Graph Based Search
-          </h1>
-          <p className="text-lg text-einstein-gray-600 max-w-2xl mx-auto font-normal">
-            Chat to explore laboratory procedures, devices, and relationships.
-          </p>
+
+          <motion.div
+            initial={{ x: 20, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="flex-1"
+          >
+            <h1 className="text-3xl md:text-4xl font-bold text-einstein-gray-800 mb-1 tracking-tight">
+              Knowledge Graph Based Search
+            </h1>
+            <p className="text-base text-einstein-gray-600 font-normal">
+              Chat to explore laboratory procedures, devices, and relationships.
+            </p>
+          </motion.div>
         </header>
 
         {/* Tabs */}
-        <div className="mb-6 border-b border-einstein-gray-200">
+        <div className="mb-4 border-b border-einstein-gray-200">
           <div className="flex gap-2">
             <button
               onClick={() => setActiveTab('chat')}
-              className={`px-6 py-3 font-medium text-sm transition-colors border-b-2 ${
+              className={`px-4 py-2 font-medium text-sm transition-colors border-b-2 ${
                 activeTab === 'chat'
                   ? 'border-einstein-blue text-einstein-blue'
                   : 'border-transparent text-einstein-gray-600 hover:text-einstein-gray-800'
@@ -117,7 +127,7 @@ export default function App() {
             </button>
             <button
               onClick={() => setActiveTab('documents')}
-              className={`px-6 py-3 font-medium text-sm transition-colors border-b-2 ${
+              className={`px-4 py-2 font-medium text-sm transition-colors border-b-2 ${
                 activeTab === 'documents'
                   ? 'border-einstein-blue text-einstein-blue'
                   : 'border-transparent text-einstein-gray-600 hover:text-einstein-gray-800'
@@ -149,8 +159,8 @@ export default function App() {
         </motion.div>
 
         {/* Footer */}
-        <footer className="mt-12 pt-8 border-t border-einstein-gray-200 text-center text-einstein-gray-500 text-sm">
-          <p className="font-medium">Knowledge Graph Chat Interface • Lab Knowledge Base • ADLM Data Chalanage 2025</p>
+        <footer className="mt-6 pt-4 border-t border-einstein-gray-200 text-center text-einstein-gray-500 text-xs">
+          <p className="font-medium">Knowledge Graph Chat Interface • Lab Knowledge Base • ADLM Data Challenge 2025</p>
         </footer>
       </div>
     </div>
