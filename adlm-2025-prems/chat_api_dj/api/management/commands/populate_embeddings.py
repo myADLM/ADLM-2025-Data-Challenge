@@ -138,14 +138,7 @@ class Command(BaseCommand):
         batch_size = options.get('batch_size', 1)
         reset = options.get('reset')
 
-        #from api.llm import QwenLLM
-        #llm = QwenLLM(device='cuda:0')
         from api.llm import OpenAILLM
-        #llm = OpenAILLM(model_name='openai/gpt-oss-20b')
-        # For a realtime use case, we'll want to 
-        # let the embed model use one gpu, then another
-        # to use the chat model gpt-oss
-        # NOTE must start LLM with this model ready
         llm = OpenAILLM(
             model_name='Qwen/Qwen3-Embedding-0.6B',
             timeout=120

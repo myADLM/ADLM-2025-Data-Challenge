@@ -12,14 +12,12 @@ from django.urls import reverse
 from django.conf import settings
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from ninja import NinjaAPI, Schema
-from ollama import chat, ChatResponse
 import markdown
 import fitz  # PyMuPDF
 from PIL import Image
 import matplotlib
 from asgiref.sync import sync_to_async
 from haystack.query import SearchQuerySet
-import torch
 from pgvector.django import CosineDistance
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,11 +25,11 @@ from pydantic import BaseModel
 
 
 from .models import Document, Chunk
-from api.llm import QwenLLM, ThinkingContent, OutputContent, OpenAILLM
+from api.llm import ThinkingContent, OutputContent, OpenAILLM
 
 matplotlib.use("Agg")  # Use non-interactive backend
 
-# TODO use openai with ollama or vllm instead of local hf
+# TODO just need one now each routed as it needs
 embed_llm = OpenAILLM(
     model_name="Qwen/Qwen3-Embedding-0.6B",
 )
@@ -39,7 +37,9 @@ chat_llm = OpenAILLM(
     model_name="openai/gpt-oss-20b",
     base_url="http://localhost:6380/v1",
 )
-rerank_llm = QwenLLM()
+rerank_llm = OpenAILLM(
+
+)
 
 
 # Pydantic Schemas for API responses
@@ -380,11 +380,11 @@ User content:
         print('Number of embedding search results:', len(embedding_search_chunks))
 
         # traditional search
-        # TODO make sure it "OR"s the search query content
+        max_traditional_search_results = 25
         sqs = SearchQuerySet().models(Chunk).filter(
             content=search_query_content
-        )
-        print('Number of traditional search results:', sqs.count())
+        )[:max_traditional_search_results]
+        print('Number of traditional search results:', len(sqs))
         traditional_search_chunks = [result.object for result in sqs if result.object]
 
         chunks = embedding_search_chunks + traditional_search_chunks
@@ -422,7 +422,8 @@ User content:
 
         chunk_context = "\n---\n".join(top_chunk_texts)
 
-        prompt = f"""{message}
+        # Build current user message with chunk context
+        current_user_message = f"""{message}
 
 Respond only with a proper JSON formatted response like the following:
 {{
@@ -439,10 +440,9 @@ Use the chunks below to answer the question.
 """
 
         #print('-' * 100)
-        #print('Final LLM prompt:', prompt)
+        #print('Final LLM conversation_history:', conversation_history)
+        #print('Final LLM user message:', current_user_message)
         #print('-' * 100)
-
-        json_schema_dict = CitedResponse.model_json_schema()
 
         #streaming_response = chat_llm.chat(prompt, structured_output=CitedResponse)
         # LLM will structure as: system prompt -> conversation_history -> new user message
@@ -559,12 +559,6 @@ async def get_document_marker(request, document_id: int):
 
     config = {
         "output_format": "chunks",
-        # "use_llm": True,
-        # "ollama_model": "gpt-oss:20b",
-        # "ollama_model": "qwen3:0.6b",
-        # "llm_service": "marker.services.ollama.OllamaService",
-        # "openai_api_key": "",
-        # "llm_service": "marker.services.openai.OpenAIService",
     }
     config_parser = ConfigParser(config)
 
