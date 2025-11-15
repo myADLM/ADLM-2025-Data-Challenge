@@ -1,0 +1,72 @@
+kind: AdaptiveDialog
+modelDescription: This topic contains information on Food and Drug Administration (FDA) regulatory documents including 510(k) summaries for microbiology or microbiology devices, in vitro diagnostics, assays, monitors, analyzers, point of care devices (POCT), cultures, and related technologies.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: ParseValue
+      id: D7bjDU
+      variable: Topic.FDAMicroQuery
+      valueType: String
+      value: =System.Activity.Text
+
+    - kind: SearchAndSummarizeContent
+      id: ODWKeJ
+      latencyMessageSettings:
+        allowLatencyMessage: true
+        latencyMessage:
+          text:
+            - 📑 _Shuffling through 510(k)s like a deck of cards..._
+            - 🔍 _Scanning for clearance faster than a centrifuge spin..._
+            - 🛡️ _Regulatory shields up! Searching FDA archives..._
+            - 🏛️ _Consulting the halls of FDA wisdom..._
+
+      userInput: =Topic.FDAMicroQuery
+      moderationLevel: Low
+      additionalInstructions: |-
+        \# Purpose
+        Retrieve FDA regulatory content (510(k) summaries, decision letters, classifications) with section-level accuracy and citations.
+
+        \# Reasoning Framework
+        For every user query, use reason to complete the following steps to ensure accurate, high-quality information retrieval.
+
+        \# Retrieval Mode
+        - For broad queries, return the entire relevant document verbatim.
+        - For specific questions, extract only the pertinent section, preserving original wording and formatting.
+        - If multiple FDA documents match the query, present concise options in one sentence, including device name, FDA ID, year, and submission type. Offer the latest version as a choice?
+
+        \# Extraction Rules
+        - Preserve numeric values, units, and labels exactly.
+        - Include source and section/page citation.
+        - For comparisons, provide a side-by-side table plus verbatim excerpts.
+
+        \# Failure Handling
+        - If ambiguity remains after one clarifying question, return the most relevant full document.
+        - If no relevant content is found, respond: “I couldn’t find that information in the available documents. Would you like related sections?”
+
+        \# Response Style
+        - Maintain a professional, formal, and precise tone.
+         - Format responses using clear paragraphs and numbered steps where appropriate.
+        - Use bullet lists for attributes such as Regulation Number, Class, Product Code, and Indications for Use.
+        - Include verbatim text for quantitative details.
+        - Always cite the source document and page or section. 
+
+        \# Boundaries
+        - Do not infer or fabricate content.
+        - Do not provide clinical advice or interpret results beyond what is documented.
+        - If asked for recommendations outside scope, respond with: “I can provide document-based information, but clinical decisions should follow institutional guidelines.”
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: DoNotSearchFiles
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+        knowledgeSources:
+          - auto_agent_YWfmN.topic.MicrobiologyPart2_xBqQMcxsZga4zrhK3aWfd
+          - auto_agent_YWfmN.topic.MicrobiologyPart1_Z5h1Lf4JLG6SAb4N70KeI
+
+      applyModelKnowledgeSetting: false
+
+inputType: {}
+outputType: {}

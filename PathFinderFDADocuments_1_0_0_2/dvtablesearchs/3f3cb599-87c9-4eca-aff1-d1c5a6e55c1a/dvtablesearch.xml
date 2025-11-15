@@ -1,0 +1,29 @@
+<dvtablesearch dvtablesearchid="3f3cb599-87c9-4eca-aff1-d1c5a6e55c1a">
+  <connectionreference>
+    <connectionreferencelogicalname>auto_agent_YWfmN.cr.b7aA49ob</connectionreferencelogicalname>
+  </connectionreference>
+  <iscustomizable>0</iscustomizable>
+  <knowledgeconfig>{
+  "$kind": "IngestionBasedGraphSearchConfiguration",
+  "driveItems": [
+    {
+      "$kind": "GraphDriveItemSyncDetails",
+      "displayName": "Clinical Chemistry Part 2",
+      "webUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship/Shared%20Documents/2025%20ADLM%20Data%20Challenge/LabDocs/FDA_Merged/Clinical%20Chemistry%20Part%202",
+      "driveId": "",
+      "itemId": "01P2OUHBM637OHKXPOFNG2GTLB6XM6PHUE",
+      "sharepointIds": {
+        "$kind": "SharepointIds",
+        "webId": "33a34d6b-a95c-48b2-be11-dc2deaee76ef",
+        "listId": "93ccc9b0-eec6-4f12-9bc0-456cd205b24c",
+        "siteId": "48cca69c-e438-4d39-97a3-b2cb276a326d",
+        "siteUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship"
+      }
+    }
+  ]
+}</knowledgeconfig>
+  <name>ClinicalChemistryPart2_OfDxaWAMW3sKGrLtsWWc6</name>
+  <searchtype>1</searchtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearch>

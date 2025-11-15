@@ -1,0 +1,29 @@
+<dvtablesearch dvtablesearchid="df56b716-5cb7-4979-a14d-1c00b42e20b0">
+  <connectionreference>
+    <connectionreferencelogicalname>auto_agent_YWfmN.cr.x_NIIosN</connectionreferencelogicalname>
+  </connectionreference>
+  <iscustomizable>0</iscustomizable>
+  <knowledgeconfig>{
+  "$kind": "IngestionBasedGraphSearchConfiguration",
+  "driveItems": [
+    {
+      "$kind": "GraphDriveItemSyncDetails",
+      "displayName": "Hematology",
+      "webUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship/Shared%20Documents/2025%20ADLM%20Data%20Challenge/LabDocs/FDA_Merged/Hematology",
+      "driveId": "",
+      "itemId": "01P2OUHBOTGAVGJ2SUAVCYTZOND6NZ6EDG",
+      "sharepointIds": {
+        "$kind": "SharepointIds",
+        "webId": "33a34d6b-a95c-48b2-be11-dc2deaee76ef",
+        "listId": "93ccc9b0-eec6-4f12-9bc0-456cd205b24c",
+        "siteId": "48cca69c-e438-4d39-97a3-b2cb276a326d",
+        "siteUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship"
+      }
+    }
+  ]
+}</knowledgeconfig>
+  <name>Hematology_sEso5SyZptwTFQ56lUVQ8</name>
+  <searchtype>1</searchtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearch>

@@ -1,0 +1,7 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: FederatedStructuredSearchSource
+  connectionProperties:
+    mode: Invoker
+
+  skillConfiguration: MolecularGenetics_LYUAL6sCDYKIYGlPYBC6f

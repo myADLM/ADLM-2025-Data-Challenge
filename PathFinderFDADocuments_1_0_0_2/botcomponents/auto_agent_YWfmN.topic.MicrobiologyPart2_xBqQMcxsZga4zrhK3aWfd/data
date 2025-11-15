@@ -1,0 +1,7 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: FederatedStructuredSearchSource
+  connectionProperties:
+    mode: Invoker
+
+  skillConfiguration: MicrobiologyPart2_oxOCL8KON68zw_yJJkgvN

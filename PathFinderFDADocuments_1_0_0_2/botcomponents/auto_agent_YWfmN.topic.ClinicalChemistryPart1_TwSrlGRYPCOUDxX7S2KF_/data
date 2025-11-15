@@ -1,0 +1,7 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: FederatedStructuredSearchSource
+  connectionProperties:
+    mode: Invoker
+
+  skillConfiguration: ClinicalChemistryPart1_rOhig59BIrv1V7RiVncUZ

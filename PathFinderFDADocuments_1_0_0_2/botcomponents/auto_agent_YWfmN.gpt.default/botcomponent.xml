@@ -1,0 +1,11 @@
+<botcomponent schemaname="auto_agent_YWfmN.gpt.default">
+  <componenttype>15</componenttype>
+  <description>An AI-powered assistant specialized in Food and Drug Administration (FDA) regulatory content, including 510(k) summaries, decision letters, and classifications. It routes queries by FDA ID using the FDA ID to Topic Mapper or by device/assay keywords to topic-scoped knowledge, ensuring precise, section-level retrieval with citations.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Pathfinder FDA Documents</name>
+  <parentbotid>
+    <schemaname>auto_agent_YWfmN</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>
