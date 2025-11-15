@@ -1,0 +1,148 @@
+{
+  "entity_types": [
+    "FDADocument",
+    "SOP",
+    "Device",
+    "Assay",
+    "Analyte",
+    "Measurand",
+    "TestType",
+    "Manufacturer",
+    "ProductCode",
+    "Classification",
+    "RegulatorySection",
+    "Panel",
+    "IntendedUse",
+    "Indication",
+    "SpecimenType",
+    "Reagent",
+    "ReagentKit",
+    "Calibrator",
+    "Control",
+    "ControlType",
+    "Instrument",
+    "ProcedureStep",
+    "PredicateDevice",
+    "PerformanceCharacteristic",
+    "ClinicalStudy",
+    "ResultInterpretation",
+    "CutoffValue",
+    "Guideline",
+    "Standard",
+    "GuidanceDocument",
+    "PatientPopulation",
+    "Limitation",
+    "ReferenceDocument"
+  ],
+  "relationship_types": [
+    "DOCUMENT_DESCRIBES_DEVICE",
+    "DOCUMENT_DESCRIBES_SOP",
+    "DEVICE_IMPLEMENTS_ASSAY",
+    "ASSAY_IMPLEMENTS_DEVICE",
+    "DEVICE_HAS_MEASURAND",
+    "ASSAY_DETECTS_ANALYTE",
+    "MEASURAND_IS_ANALYTE",
+    "DEVICE_USES_TEST_TYPE",
+    "ASSAY_USES_TEST_TYPE",
+    "DEVICE_MANUFACTURED_BY",
+    "ASSAY_PERFORMED_BY_INSTRUMENT",
+    "DEVICE_HAS_PRODUCT_CODE",
+    "DEVICE_HAS_CLASSIFICATION",
+    "DEVICE_REGULATED_BY_SECTION",
+    "DEVICE_ASSIGNED_PANEL",
+    "DEVICE_HAS_INTENDED_USE",
+    "SOP_HAS_INTENDED_USE",
+    "INTENDED_USE_HAS_INDICATION",
+    "DEVICE_CONTAINS_REAGENT",
+    "ASSAY_USES_REAGENT",
+    "DEVICE_CONTAINS_CALIBRATOR",
+    "ASSAY_USES_CALIBRATOR",
+    "DEVICE_CONTAINS_CONTROL",
+    "ASSAY_HAS_QC_CONTROL",
+    "DEVICE_ANALYZES_SPECIMEN",
+    "ASSAY_USES_SPECIMEN",
+    "SPECIMEN_TYPE_MATCH",
+    "DEVICE_RUNS_ON_INSTRUMENT",
+    "ASSAY_RUNS_ON_INSTRUMENT",
+    "INSTRUMENT_COMPATIBILITY",
+    "DEVICE_COMPARED_TO_PREDICATE",
+    "DEVICE_HAS_PERFORMANCE",
+    "ASSAY_HAS_PERFORMANCE",
+    "DEVICE_SUPPORTED_BY_STUDY",
+    "DEVICE_FOLLOWS_STANDARD",
+    "DEVICE_FOLLOWS_GUIDANCE",
+    "ASSAY_FOLLOWS_GUIDELINE",
+    "SOP_FOLLOWS_GUIDELINE",
+    "SOP_IMPLEMENTS_DEVICE",
+    "SOP_DESCRIBES_ASSAY",
+    "SOP_DESCRIBES_PROCEDURE",
+    "ASSAY_FOLLOWS_SOP",
+    "SOP_APPLIES_TO_POPULATION",
+    "SOP_HAS_LIMITATION",
+    "SOP_HAS_PROCEDURE_STEP",
+    "STEP_PRECEDES",
+    "STEP_REQUIRES_EQUIPMENT",
+    "STEP_USES_REAGENT",
+    "STEP_GENERATES_RESULT",
+    "INTERPRETATION_HAS_CUTOFF",
+    "PERFORMANCE_METRIC_VALUE",
+    "SOP_REFERENCES_DOCUMENT",
+    "DEVICE_REFERENCES_DOCUMENT",
+    "REFERENCES_STANDARD",
+    "REFERENCES_GUIDANCE"
+  ],
+  "rules": {
+    "notes": "Unified ontology for both SOP and FDA regulatory documents. Cross-document relationships enable queries across regulatory (FDA) and operational (SOP) contexts. Include source_text for traceability. Use unmapped: true for non-standard terms. Document type should be indicated in document metadata.",
+    "cross_document_relationships": {
+      "DEVICE_IMPLEMENTS_ASSAY": "FDA device described in SOP assay procedure",
+      "ASSAY_IMPLEMENTS_DEVICE": "SOP assay implements FDA device",
+      "MEASURAND_IS_ANALYTE": "FDA measurand same as SOP analyte",
+      "SPECIMEN_TYPE_MATCH": "Device/Assay use same specimen type",
+      "INSTRUMENT_COMPATIBILITY": "Device/Assay use same instrument",
+      "SOP_IMPLEMENTS_DEVICE": "SOP procedure implements FDA device requirements",
+      "ASSAY_FOLLOWS_SOP": "Assay procedure follows formal SOP"
+    }
+  },
+  "expected_jsonld": {
+    "@context": "https://example.org/unified-ontology/context.json",
+    "@graph": [
+      {
+        "@id": "FDA_DOC_K060818",
+        "@type": "FDADocument",
+        "title": "510(k) Determination - SHBG Assay",
+        "doc_type": "fda",
+        "relations": [
+          { "predicate": "DOCUMENT_DESCRIBES_DEVICE", "object": "DEVICE_ARCHITECT_SHBG", "source_text": "..." }
+        ]
+      },
+      {
+        "@id": "SOP_SHBG_Serum_Assay",
+        "@type": "SOP",
+        "title": "Standard Operating Procedure - SHBG Serum Assay",
+        "doc_type": "sop",
+        "relations": [
+          { "predicate": "SOP_IMPLEMENTS_DEVICE", "object": "DEVICE_ARCHITECT_SHBG", "source_text": "..." },
+          { "predicate": "SOP_DESCRIBES_ASSAY", "object": "ASSAY_SHBG_Serum", "source_text": "..." }
+        ]
+      },
+      {
+        "@id": "DEVICE_ARCHITECT_SHBG",
+        "@type": "Device",
+        "title": "Architect SHBG Assay",
+        "relations": [
+          { "predicate": "DEVICE_HAS_MEASURAND", "object": "MEASURAND_SHBG", "source_text": "..." },
+          { "predicate": "DEVICE_IMPLEMENTS_ASSAY", "object": "ASSAY_SHBG_Serum", "source_text": "..." }
+        ]
+      },
+      {
+        "@id": "ASSAY_SHBG_Serum",
+        "@type": "Assay",
+        "title": "SHBG Serum Assay",
+        "relations": [
+          { "predicate": "ASSAY_DETECTS_ANALYTE", "object": "ANALYTE_SHBG", "source_text": "..." },
+          { "predicate": "ASSAY_IMPLEMENTS_DEVICE", "object": "DEVICE_ARCHITECT_SHBG", "source_text": "..." }
+        ]
+      }
+    ]
+  }
+}

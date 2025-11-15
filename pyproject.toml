@@ -1,0 +1,73 @@
+[project]
+name = "labdocs"
+version = "0.1.0"
+description = "Basic framework for querying and conversing with laboratory documentation. ADLM 2025 Data Science Challenge submission."
+requires-python = ">=3.11"
+dependencies = [
+    "google-generativeai",
+    "tqdm",
+    "jinja2",
+    "transformers",
+    "sentence-transformers",
+    "numpy",
+    "openai",
+    "ollama",
+    "boto3",
+    "langchain",
+    "langchain-community",
+    "chromadb",
+    "pypdf",
+    "pandas",
+    "scikit-learn",
+    "torch",
+    "accelerate",
+    "datasets",
+    "tokenizers",
+    "huggingface-hub",
+    "streamlit",
+    "gradio",
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "requests",
+    "aiohttp",
+    "python-multipart",
+    "llama-index>=0.14.7",
+    "llama-index-vector-stores-chroma>=0.5.3",
+    "llama-index-embeddings-huggingface>=0.6.1",
+    "llama-index-llms-openai>=0.6.8",
+    "llama-index-llms-bedrock>=0.4.2",
+    "llama-index-llms-bedrock-converse>=0.11.1",
+    "llama-index-graph-stores-neo4j>=0.4.0",
+    "neo4j>=5.0.0",
+    "python-dotenv>=1.2.1",
+    "flask>=3.0.0",
+    "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.ruff.lint.isort]
+known-first-party = []
