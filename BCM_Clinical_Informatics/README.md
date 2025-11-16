@@ -96,30 +96,43 @@ PathFinder (SOP agent, 6 A–Z topics)
 
 ### 1) PathFinder — primary agent
 
-**[View API Docs](PathFinder/README.md)]**
+**[PathFinder/](PathFinder/)** | **[Documentation](PathFinder/README.md)**
 
 * Copilot Studio **solution package**
-* 6 alphabetized SOP topics; conversation management (greetings, fallback, escalation)
-* Data table search configurations
+* 6 alphabetized SOP topics (0-9/A-B, C-E, F-K, L-O, P-T, U-Z); conversation management (greetings, fallback, escalation)
+* 400+ data table search entity configurations
+* Connected agent handoff to FDA specialist
+* **Version**: 1.0.0.2
 
 **Agent rules**: Return **full SOP** for broad queries; **section‑only** for specifics; **preserve** numeric values/units/tables; **always cite** source + page/section; route FDA terms to the FDA agent.
 
 ### 2) PathFinder FDA Documents — specialist agent
 
-**[PathFinderFDADocuments(PathFinderFDADocuments/README.md)]**
+**[PathFinderFDADocuments/](PathFinderFDADocuments/)** | **[Documentation](PathFinderFDADocuments/README.md)**
 
 * Copilot Studio **solution package**
-* Specialty topics (Chemistry, Hematology, Microbiology, Toxicology, …)
-* **Excel Online Business** integration for `K######` → topic routing
-* FDA‑specific search entities + connection references
+* Specialty topics (Cardiovascular, Clinical Chemistry [3 parts], Hematology, Immunology, Microbiology [2 parts], Molecular Genetics, Obstetrics, Pathology, Toxicology)
+* **Excel Online Business** integration via [`FDA_file_map.xlsx`](FDA_file_map.xlsx) for `K######` → topic routing
+* 13 specialty-specific Dataverse search configurations
+* 1000+ FDA document search entities
+* **Version**: 1.0.0.3
 
 **Agent rules**: Section‑level 510(k) retrieval with verbatim **product codes**, **regulatory class**, **regulation number**, **decision date**; **always cite** source + page/section.
 
 ### 3) Python PDF processing
 
-**[Python_Code (Python_Code/README.md)]**
+**[Python_Code/](Python_Code/)** | **[Documentation](Python_Code/README.md)**
 
-Utilities to scan/pair **BASE + BASE_REVIEW** PDFs, **merge** pairs (mirror structure), **validate**, and **report**. Purpose: reduce file count while preserving complete dossiers for indexing.
+Python utilities for FDA PDF preprocessing:
+* **[merge_paired_fda_files.py](Python_Code/merge_paired_fda_files.py)** — Main driver script for end-to-end FDA PDF processing
+* **[FDA_PDF_Functions/](Python_Code/FDA_PDF_Functions/)** — Core library with modules:
+  - `pairing.py` — Find BASE/BASE_REVIEW pairs
+  - `merge.py` — Merge paired PDFs
+  - `copying.py` — Copy unpaired/failed-merge PDFs
+  - `validate.py` — Validate PDF readability
+  - `report.py` — Generate directory summaries
+
+**Purpose**: Scan/pair **BASE + BASE_REVIEW** PDFs, **merge** pairs (mirror structure), **validate**, and **report**. Reduces file count while preserving complete dossiers for indexing.
 
 ---
 
@@ -127,19 +140,93 @@ Utilities to scan/pair **BASE + BASE_REVIEW** PDFs, **merge** pairs (mirror stru
 
 **Import packaged solutions**
 
-1. In Copilot Studio → **Solutions** → **Import**:  (managed) and  (managed).
-2. Configure **Excel Online Business** connection (FDA agent).
-3. Attach SOP and FDA knowledge sources; (optional) **connect agents** for handoff.
-4. Publish (web/Teams) and test.
+1. In Copilot Studio → **Solutions** → **Import**: 
+   - **[PathFinder](PathFinder/)** (managed, v1.0.0.2) 
+   - **[PathFinderFDADocuments](PathFinderFDADocuments/)** (managed, v1.0.0.3)
+2. Configure **Excel Online Business** connection (FDA agent) pointing to [`FDA_file_map.xlsx`](FDA_file_map.xlsx).
+3. Attach SOP and FDA knowledge sources to SharePoint; **connect agents** for handoff.
+4. Upload preprocessed FDA PDFs (merged using [Python utilities](Python_Code/)) organized by specialty.
+5. Publish (web/Teams/Microsoft 365 Copilot) and test.
 
-**Publisher**: BCM Clinical Informatics • **Customization prefix**: `bcmci`
+**Publisher**: BCM Clinical Informatics • **Customization prefix**: `bcmci` • **Option value prefix**: `34530`  
 **Institution**: Baylor College of Medicine / Texas Children's Hospital
 
-### Notes on sources
+### File structure
 
+```
+BCM_Clinical_Informatics/
+├── README.md                           # This file
+├── FDA_file_map.xlsx                   # K-number to specialty routing table
+│
+├── PathFinder/                         # Primary SOP agent solution package
+│   ├── README.md                       # Detailed PathFinder documentation
+│   ├── [Content_Types].xml
+│   ├── customizations.xml
+│   ├── solution.xml
+│   ├── Assets/                         # Knowledge source configurations
+│   ├── bots/                           # Bot definitions (2 agents)
+│   ├── botcomponents/                  # Topics, actions, configurations
+│   │   ├── auto_agent_c2hGx.gpt.default/
+│   │   ├── auto_agent_c2hGx.InvokeConnectedAgentTaskAction.PathfinderFDADocuments/
+│   │   ├── [Conversation management topics]
+│   │   ├── [6 SOP alphabetical range topics]
+│   │   └── [Legacy SOP routing topics]
+│   ├── dvtablesearchentities/          # 400+ search entities
+│   └── dvtablesearchs/                 # 6 knowledge source configs
+│
+├── PathFinderFDADocuments/             # FDA specialist agent solution package
+│   ├── README.md                       # Detailed FDA agent documentation
+│   ├── [Content_Types].xml
+│   ├── customizations.xml
+│   ├── solution.xml
+│   ├── Assets/                         # Connection references & knowledge configs
+│   ├── bots/                           # FDA agent bot definition
+│   ├── botcomponents/                  # Topics, actions, Excel integration
+│   │   ├── auto_agent_YWfmN.gpt.default/
+│   │   ├── auto_agent_YWfmN.action.ExcelOnlineBusiness-Listrowspresentinatable/
+│   │   ├── [Conversation management topics]
+│   │   ├── [7 FDA specialty topics]
+│   │   ├── [14 knowledge source topics]
+│   │   └── [FDA ID to Topic Mapper]
+│   ├── dvtablesearchentities/          # 1000+ FDA document search entities
+│   └── dvtablesearchs/                 # 13 specialty-specific search configs
+│
+└── Python_Code/                        # FDA PDF preprocessing utilities
+    ├── README.md                       # Python utilities documentation
+    ├── merge_paired_fda_files.py       # Main driver script
+    └── FDA_PDF_Functions/              # Core library
+        ├── __init__.py
+        ├── pairing.py                  # Pair BASE/REVIEW PDFs
+        ├── merge.py                    # Merge paired PDFs
+        ├── copying.py                  # Copy unpaired PDFs
+        ├── validate.py                 # Validate PDF readability
+        └── report.py                   # Generate summaries
+```
+
+---
+
+## Additional resources
+
+**PathFinder components**:
+- [PathFinder README](PathFinder/README.md) — Detailed primary agent documentation
+- [PathFinder FDA Documents README](PathFinderFDADocuments/README.md) — FDA specialist agent documentation
+- [Python Processing README](Python_Code/README.md) — PDF preprocessing utilities guide
+
+**External references**:
 * GPT‑4.1 long‑context + agentic/tool use: OpenAI & Azure announcements. ([OpenAI Platform][1])
 * Generative orchestration & knowledge behavior: Copilot Studio docs. ([Microsoft Learn][2])
 * Connected agents (handoff): Copilot Studio docs (preview). ([Microsoft Learn][3])
 * User feedback (thumbs‑up/down + comment): release plan. ([Microsoft Learn][4])
 * Tenant Graph grounding / Semantic Index: Microsoft 365 & Copilot Studio docs. ([Microsoft Learn][5])
+* Strict grounding & knowledge-only mode: Copilot Studio guidance. ([Microsoft Learn][6])
 * Web search is optional; we leave it **off**: Copilot Studio guidance. ([Microsoft Learn][7])
+
+---
+
+[1]: https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
+[2]: https://learn.microsoft.com/microsoft-copilot-studio/nlu-generative-answers
+[3]: https://learn.microsoft.com/microsoft-copilot-studio/copilot-ai-plugins
+[4]: https://learn.microsoft.com/microsoft-copilot-studio/analytics-user-satisfaction
+[5]: https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-graph-connector
+[6]: https://learn.microsoft.com/microsoft-copilot-studio/nlu-boost-conversations
+[7]: https://learn.microsoft.com/microsoft-copilot-studio/nlu-generative-answers-bing

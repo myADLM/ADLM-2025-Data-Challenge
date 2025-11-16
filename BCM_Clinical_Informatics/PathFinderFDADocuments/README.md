@@ -2,7 +2,7 @@
 
 **Specialist FDA Regulatory Intelligence Agent**
 
-PathFinder FDA Documents is an AI-powered conversational agent built with Microsoft Copilot Studio, designed to provide rapid, section-level retrieval of FDA 510(k) regulatory documentation. This specialist agent works in conjunction with the primary [PathFinder](../PathFinder/PathFinder.md) agent to deliver precise regulatory information across clinical chemistry, hematology, microbiology, molecular genetics, and other laboratory specialty domains.
+PathFinder FDA Documents is an AI-powered conversational agent built with Microsoft Copilot Studio, designed to provide rapid, section-level retrieval of FDA 510(k) regulatory documentation. This specialist agent works in conjunction with the primary [PathFinder](../PathFinder/README.md) agent to deliver precise regulatory information across clinical chemistry, hematology, microbiology, molecular genetics, and other laboratory specialty domains.
 
 ---
 
