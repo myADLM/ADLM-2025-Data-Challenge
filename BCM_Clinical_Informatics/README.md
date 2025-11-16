@@ -106,7 +106,7 @@ PathFinder (SOP agent, 6 A–Z topics)
 
 ### 2) PathFinder FDA Documents — specialist agent
 
-**[View API Docs](PathFinderFDADocuments/README.md)]**
+**[PathFinderFDADocuments(PathFinderFDADocuments/README.md)]**
 
 * Copilot Studio **solution package**
 * Specialty topics (Chemistry, Hematology, Microbiology, Toxicology, …)
@@ -117,7 +117,7 @@ PathFinder (SOP agent, 6 A–Z topics)
 
 ### 3) Python PDF processing
 
-**[View API Docs](Python_Code/README.md)]**
+**[Python_Code (Python_Code/README.md)]**
 
 Utilities to scan/pair **BASE + BASE_REVIEW** PDFs, **merge** pairs (mirror structure), **validate**, and **report**. Purpose: reduce file count while preserving complete dossiers for indexing.
 
