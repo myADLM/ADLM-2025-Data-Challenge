@@ -28,60 +28,72 @@ The assistant can surface key insights, summarize workflows, generate structured
 
 The PathFinder solution is distributed as a Copilot Studio **managed solution package** containing the following components:
 
-```
-PathFinder/
-├── [Content_Types].xml          # Package content type definitions
-├── customizations.xml            # Solution customizations manifest
-├── solution.xml                  # Solution metadata (publisher, version, etc.)
-├── PathFinder.md                 # This documentation file
-├── Assets/                       # Knowledge source configuration assets
-│   └── botcomponent_dvtablesearchset.xml
-├── bots/                         # Bot definitions and configurations
-│   ├── auto_agent_c2hGx/         # Primary PathFinder agent definition
-│   └── auto_agent_YWfmN/         # (Secondary/legacy agent)
-├── botcomponents/                # Agent topics, configurations, and connected agents
-│   ├── auto_agent_c2hGx.gpt.default/              # Core agent configuration (GPT-4.1)
-│   ├── auto_agent_c2hGx.InvokeConnectedAgentTaskAction.PathfinderFDADocuments/  # FDA agent handoff
-│   │
-│   ├── [Conversation Management Topics]
-│   ├── auto_agent_c2hGx.topic.ConversationStart/
-│   ├── auto_agent_c2hGx.topic.EndofConversation/
-│   ├── auto_agent_c2hGx.topic.Escalate/
-│   ├── auto_agent_c2hGx.topic.Fallback/
-│   ├── auto_agent_c2hGx.topic.Goodbye/
-│   ├── auto_agent_c2hGx.topic.Greeting/
-│   ├── auto_agent_c2hGx.topic.MultipleTopicsMatched/
-│   ├── auto_agent_c2hGx.topic.OnError/
-│   ├── auto_agent_c2hGx.topic.ResetConversation/
-│   ├── auto_agent_c2hGx.topic.Search/
-│   ├── auto_agent_c2hGx.topic.Signin/
-│   ├── auto_agent_c2hGx.topic.StartOver/
-│   ├── auto_agent_c2hGx.topic.ThankYou/
-│   │
-│   ├── [Legacy SOP Topics - Alphabetical Routing]
-│   ├── auto_agent_c2hGx.topic.SOP1-9A-B/
-│   ├── auto_agent_c2hGx.topic.SOP1-9C-E/
-│   ├── auto_agent_c2hGx.topic.SOPF-K/
-│   ├── auto_agent_c2hGx.topic.SOPF-KCopy/
-│   ├── auto_agent_c2hGx.topic.SOPP-T/
-│   ├── auto_agent_c2hGx.topic.SOPU-Z/
-│   │
-│   └── [Knowledge Source Topics - Alphabetical Partitioning]
-│       ├── auto_agent_c2hGx.topic.SyntheticProceduresAB_IJJl6h6VtTGzIhzEHV3M2/
-│       ├── auto_agent_c2hGx.topic.SyntheticProceduresCE_ifJfjdj4Uy0HXTBM5Pygi/
-│       ├── auto_agent_c2hGx.topic.SyntheticProceduresFK_2t7opC9vwoKpqzORGSLLU/
-│       ├── auto_agent_c2hGx.topic.SyntheticProceduresLO_HzV1e3M2Qx7t9omk3QgkJ/
-│       ├── auto_agent_c2hGx.topic.SyntheticProceduresPT_SOOQw2GIYsDVJKThsF3De/
-│       └── auto_agent_c2hGx.topic.SyntheticProceduresUZ_VC3dkgV8vME9oE7V27vZk/
-│
-└── dvtablesearchs/               # Dataverse table search configurations (6 total)
-    ├── 0534935c-d61c-4b7e-9213-0f4005f6b3de/  # Synthetic Procedures L-O
-    ├── 308a4a49-8622-454b-906a-6b9d345dea9a/
-    ├── 8a110d78-dc29-43aa-8655-c666a0a9444b/
-    ├── a319026c-c195-4783-8ab9-666a7c1bcd5d/
-    ├── c2a70158-861f-4340-a9c5-c9252704c771/
-    └── e795a218-6086-4d6e-924d-f644cdde5129/
-```
+**Root Files:**
+- [`[Content_Types].xml`](./%5BContent_Types%5D.xml) - Package content type definitions
+- [`customizations.xml`](./customizations.xml) - Solution customizations manifest
+- [`solution.xml`](./solution.xml) - Solution metadata (publisher, version, etc.)
+- [`README.md`](./README.md) - This documentation file
+
+**Directory Structure:**
+
+### [`Assets/`](./Assets/)
+Knowledge source configuration assets:
+- [`botcomponent_dvtablesearchset.xml`](./Assets/botcomponent_dvtablesearchset.xml) - Knowledge source set definition
+
+### [`bots/`](./bots/)
+Bot definitions and configurations:
+- [`auto_agent_c2hGx/`](./bots/auto_agent_c2hGx/) - Primary PathFinder agent definition
+- [`auto_agent_YWfmN/`](./bots/auto_agent_YWfmN/) - Secondary/legacy agent
+
+### [`botcomponents/`](./botcomponents/)
+Agent topics, configurations, and connected agents:
+
+**Core Configuration:**
+- [`auto_agent_c2hGx.gpt.default/`](./botcomponents/auto_agent_c2hGx.gpt.default/) - Core agent configuration (GPT-4.1)
+- [`auto_agent_c2hGx.InvokeConnectedAgentTaskAction.PathfinderFDADocuments/`](./botcomponents/auto_agent_c2hGx.InvokeConnectedAgentTaskAction.PathfinderFDADocuments/) - FDA agent handoff
+
+**Conversation Management Topics:**
+- [`auto_agent_c2hGx.topic.ConversationStart/`](./botcomponents/auto_agent_c2hGx.topic.ConversationStart/)
+- [`auto_agent_c2hGx.topic.EndofConversation/`](./botcomponents/auto_agent_c2hGx.topic.EndofConversation/)
+- [`auto_agent_c2hGx.topic.Escalate/`](./botcomponents/auto_agent_c2hGx.topic.Escalate/)
+- [`auto_agent_c2hGx.topic.Fallback/`](./botcomponents/auto_agent_c2hGx.topic.Fallback/)
+- [`auto_agent_c2hGx.topic.Goodbye/`](./botcomponents/auto_agent_c2hGx.topic.Goodbye/)
+- [`auto_agent_c2hGx.topic.Greeting/`](./botcomponents/auto_agent_c2hGx.topic.Greeting/)
+- [`auto_agent_c2hGx.topic.MultipleTopicsMatched/`](./botcomponents/auto_agent_c2hGx.topic.MultipleTopicsMatched/)
+- [`auto_agent_c2hGx.topic.OnError/`](./botcomponents/auto_agent_c2hGx.topic.OnError/)
+- [`auto_agent_c2hGx.topic.ResetConversation/`](./botcomponents/auto_agent_c2hGx.topic.ResetConversation/)
+- [`auto_agent_c2hGx.topic.Search/`](./botcomponents/auto_agent_c2hGx.topic.Search/)
+- [`auto_agent_c2hGx.topic.Signin/`](./botcomponents/auto_agent_c2hGx.topic.Signin/)
+- [`auto_agent_c2hGx.topic.StartOver/`](./botcomponents/auto_agent_c2hGx.topic.StartOver/)
+- [`auto_agent_c2hGx.topic.ThankYou/`](./botcomponents/auto_agent_c2hGx.topic.ThankYou/)
+
+**Legacy SOP Topics (Alphabetical Routing):**
+- [`auto_agent_c2hGx.topic.SOP1-9A-B/`](./botcomponents/auto_agent_c2hGx.topic.SOP1-9A-B/)
+- [`auto_agent_c2hGx.topic.SOP1-9C-E/`](./botcomponents/auto_agent_c2hGx.topic.SOP1-9C-E/)
+- [`auto_agent_c2hGx.topic.SOPF-K/`](./botcomponents/auto_agent_c2hGx.topic.SOPF-K/)
+- [`auto_agent_c2hGx.topic.SOPF-KCopy/`](./botcomponents/auto_agent_c2hGx.topic.SOPF-KCopy/)
+- [`auto_agent_c2hGx.topic.SOPP-T/`](./botcomponents/auto_agent_c2hGx.topic.SOPP-T/)
+- [`auto_agent_c2hGx.topic.SOPU-Z/`](./botcomponents/auto_agent_c2hGx.topic.SOPU-Z/)
+
+**Knowledge Source Topics (Alphabetical Partitioning):**
+- [`auto_agent_c2hGx.topic.SyntheticProceduresAB_IJJl6h6VtTGzIhzEHV3M2/`](./botcomponents/auto_agent_c2hGx.topic.SyntheticProceduresAB_IJJl6h6VtTGzIhzEHV3M2/) - SOPs 0-9, A-B
+- [`auto_agent_c2hGx.topic.SyntheticProceduresCE_ifJfjdj4Uy0HXTBM5Pygi/`](./botcomponents/auto_agent_c2hGx.topic.SyntheticProceduresCE_ifJfjdj4Uy0HXTBM5Pygi/) - SOPs C-E
+- [`auto_agent_c2hGx.topic.SyntheticProceduresFK_2t7opC9vwoKpqzORGSLLU/`](./botcomponents/auto_agent_c2hGx.topic.SyntheticProceduresFK_2t7opC9vwoKpqzORGSLLU/) - SOPs F-K
+- [`auto_agent_c2hGx.topic.SyntheticProceduresLO_HzV1e3M2Qx7t9omk3QgkJ/`](./botcomponents/auto_agent_c2hGx.topic.SyntheticProceduresLO_HzV1e3M2Qx7t9omk3QgkJ/) - SOPs L-O
+- [`auto_agent_c2hGx.topic.SyntheticProceduresPT_SOOQw2GIYsDVJKThsF3De/`](./botcomponents/auto_agent_c2hGx.topic.SyntheticProceduresPT_SOOQw2GIYsDVJKThsF3De/) - SOPs P-T
+- [`auto_agent_c2hGx.topic.SyntheticProceduresUZ_VC3dkgV8vME9oE7V27vZk/`](./botcomponents/auto_agent_c2hGx.topic.SyntheticProceduresUZ_VC3dkgV8vME9oE7V27vZk/) - SOPs U-Z
+
+### [`dvtablesearchentities/`](./dvtablesearchentities/)
+Dataverse table search entity definitions (400+ entity folders). Each entity represents a configured search index entry.
+
+### [`dvtablesearchs/`](./dvtablesearchs/)
+Dataverse table search configurations (6 knowledge sources):
+- [`0534935c-d61c-4b7e-9213-0f4005f6b3de/`](./dvtablesearchs/0534935c-d61c-4b7e-9213-0f4005f6b3de/) - Synthetic Procedures L-O
+- [`308a4a49-8622-454b-906a-6b9d345dea9a/`](./dvtablesearchs/308a4a49-8622-454b-906a-6b9d345dea9a/) - Synthetic Procedures configuration
+- [`8a110d78-dc29-43aa-8655-c666a0a9444b/`](./dvtablesearchs/8a110d78-dc29-43aa-8655-c666a0a9444b/) - Synthetic Procedures configuration
+- [`a319026c-c195-4783-8ab9-666a7c1bcd5d/`](./dvtablesearchs/a319026c-c195-4783-8ab9-666a7c1bcd5d/) - Synthetic Procedures configuration
+- [`c2a70158-861f-4340-a9c5-c9252704c771/`](./dvtablesearchs/c2a70158-861f-4340-a9c5-c9252704c771/) - Synthetic Procedures configuration
+- [`e795a218-6086-4d6e-924d-f644cdde5129/`](./dvtablesearchs/e795a218-6086-4d6e-924d-f644cdde5129/) - Synthetic Procedures configuration
 
 ---
 
@@ -297,10 +309,13 @@ PathFinder is an informational and knowledge-assistance tool. It does **not** re
 ## 🔗 Related Components
 
 - **PathFinder FDA Documents**: Specialist agent for FDA 510(k) retrieval  
-  - Location: `BCM_Clinical_Informatics/PathFinderFDADocuments/`
+  - Location: [`BCM_Clinical_Informatics/PathFinderFDADocuments/`](../PathFinderFDADocuments/)
+  - Documentation: [`PathFinder_FDA_Documents.md`](../PathFinderFDADocuments/PathFinder_FDA_Documents.md)
   - Features Excel-based K-number routing and specialty-specific topics
 
 - **Python Processing Utilities**: PDF preprocessing tools  
-  - Location: `BCM_Clinical_Informatics/Python_Code/`
+  - Location: [`BCM_Clinical_Informatics/Python_Code/`](../Python_Code/)
+  - Main Script: [`merge_paired_fda_files.py`](../Python_Code/merge_paired_fda_files.py)
+  - Documentation: [`README.md`](../Python_Code/README.md)
   - Merges paired FDA PDFs to reduce file count
 
