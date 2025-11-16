@@ -1,0 +1,11 @@
+<botcomponent schemaname="auto_agent_c2hGx.InvokeConnectedAgentTaskAction.PathfinderFDADocuments">
+  <componenttype>9</componenttype>
+  <description>PathFinder FDA Docs is an AI-powered sub-agent that helps PathFinder navigate and find regulatory materials (e.g., 510(k) clearance documents) to locate, extract, and summarize critical information from this sub-catagory of documents.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Pathfinder FDA Documents</name>
+  <parentbotid>
+    <schemaname>auto_agent_c2hGx</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

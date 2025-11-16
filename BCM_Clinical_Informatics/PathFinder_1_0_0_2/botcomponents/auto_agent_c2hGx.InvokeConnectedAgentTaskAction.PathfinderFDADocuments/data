@@ -1,0 +1,8 @@
+kind: TaskDialog
+modelDisplayName: Pathfinder FDA Documents
+modelDescription: PathFinder FDA Docs is an AI-powered sub-agent that helps PathFinder navigate and find regulatory materials (e.g., 510(k) clearance documents) to locate, extract, and summarize critical information from this sub-catagory of documents.
+action:
+  kind: InvokeConnectedAgentTaskAction
+  botSchemaName: auto_agent_YWfmN
+  historyType:
+    kind: ConversationHistory

@@ -1,0 +1,11 @@
+<botcomponent schemaname="auto_agent_c2hGx.gpt.default">
+  <componenttype>15</componenttype>
+  <description>PathFinder is an AI-powered assistant that helps laboratory teams quickly locate and extract critical details from a large repository of documents. It specializes in laboratory standard operating procedures (SOPs)—including specimen handling, step‑by‑step procedures, quality control criteria, and reportable ranges. PathFinder can also navigate FDA 510(k) materials, such as summaries, decision letters, regulatory classifications, and product codes.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>PathFinder</name>
+  <parentbotid>
+    <schemaname>auto_agent_c2hGx</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>
