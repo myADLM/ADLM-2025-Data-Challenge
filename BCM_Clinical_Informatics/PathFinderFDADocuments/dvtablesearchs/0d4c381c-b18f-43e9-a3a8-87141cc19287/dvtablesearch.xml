@@ -1,0 +1,29 @@
+<dvtablesearch dvtablesearchid="0d4c381c-b18f-43e9-a3a8-87141cc19287">
+  <connectionreference>
+    <connectionreferencelogicalname>auto_agent_YWfmN.cr.x_NIIosN</connectionreferencelogicalname>
+  </connectionreference>
+  <iscustomizable>0</iscustomizable>
+  <knowledgeconfig>{
+  "$kind": "IngestionBasedGraphSearchConfiguration",
+  "driveItems": [
+    {
+      "$kind": "GraphDriveItemSyncDetails",
+      "displayName": "Obstetrics",
+      "webUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship/Shared%20Documents/2025%20ADLM%20Data%20Challenge/LabDocs/FDA_Merged/Obstetrics",
+      "driveId": "",
+      "itemId": "01P2OUHBKOIIVZK4MGPBDYGTBTNNBFK7RG",
+      "sharepointIds": {
+        "$kind": "SharepointIds",
+        "webId": "33a34d6b-a95c-48b2-be11-dc2deaee76ef",
+        "listId": "93ccc9b0-eec6-4f12-9bc0-456cd205b24c",
+        "siteId": "48cca69c-e438-4d39-97a3-b2cb276a326d",
+        "siteUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship"
+      }
+    }
+  ]
+}</knowledgeconfig>
+  <name>Obstetrics_aVLSz42dhDnTOBLixbxoH</name>
+  <searchtype>1</searchtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearch>

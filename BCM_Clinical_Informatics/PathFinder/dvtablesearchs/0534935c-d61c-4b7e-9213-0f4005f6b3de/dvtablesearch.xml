@@ -1,0 +1,29 @@
+<dvtablesearch dvtablesearchid="0534935c-d61c-4b7e-9213-0f4005f6b3de">
+  <connectionreference>
+    <connectionreferencelogicalname>auto_agent_c2hGx.cr.JFf0w_6Y</connectionreferencelogicalname>
+  </connectionreference>
+  <iscustomizable>0</iscustomizable>
+  <knowledgeconfig>{
+  "$kind": "IngestionBasedGraphSearchConfiguration",
+  "driveItems": [
+    {
+      "$kind": "GraphDriveItemSyncDetails",
+      "displayName": "Synthetic Procedures L-O",
+      "webUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship/Shared%20Documents/2025%20ADLM%20Data%20Challenge/LabDocs/Synthetic%20Procedures%20L-O",
+      "driveId": "",
+      "itemId": "01P2OUHBLYZROT7UW5OZHIVTF64RXDVXVX",
+      "sharepointIds": {
+        "$kind": "SharepointIds",
+        "webId": "33a34d6b-a95c-48b2-be11-dc2deaee76ef",
+        "listId": "93ccc9b0-eec6-4f12-9bc0-456cd205b24c",
+        "siteId": "48cca69c-e438-4d39-97a3-b2cb276a326d",
+        "siteUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship"
+      }
+    }
+  ]
+}</knowledgeconfig>
+  <name>SyntheticProceduresLO_S0_wsHOI8zOpmlNA5Hota</name>
+  <searchtype>1</searchtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearch>

@@ -1,0 +1,136 @@
+kind: TaskDialog
+inputs:
+  - kind: ManualTaskInput
+    propertyName: source
+    value: sites/bcmedu.sharepoint.com,48cca69c-e438-4d39-97a3-b2cb276a326d,33a34d6b-a95c-48b2-be11-dc2deaee76ef
+
+  - kind: ManualTaskInput
+    propertyName: drive
+    value: b!nKbMSDjkOU2Xo7LLJ2oybWtNozNcqbJIvhHcLerudu-wycyTxu4ST5vARWzSBbJM
+
+  - kind: ManualTaskInput
+    propertyName: file
+    value: 01P2OUHBPQWQJEZLSIVNHZZK7FWADHXSQF
+
+  - kind: ManualTaskInput
+    propertyName: table
+    value: "{67E4B3CA-CB6E-459C-B98F-52DCDBD5DEF9}"
+
+modelDisplayName: FDA ID to topic mapping
+modelDescription: "This tool looks up an FDA 510(k) ID (format K######) in an Excel table with columns FDA ID and Topic, and returns the exact Custom Topic name to trigger (for scoped knowledge retrieval). Use this first when a user supplies a K ID; otherwise infer topic from device/assay wording."
+outputs:
+  - propertyName: sensitivityLabelInfo
+    name: sensitivityLabelInfo
+
+  - propertyName: value
+    name: value
+    description: List of Items
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: auto_agent_YWfmN.shared_excelonlinebusiness.f9a82191a5744a4ebccb58fbb648a832
+  connectionProperties:
+    mode: Invoker
+
+  operationId: GetItems
+  dynamicOutputSchema:
+    kind: Record
+    properties:
+      sensitivityLabelInfo:
+        order: 1
+        type:
+          kind: Table
+          properties:
+            color:
+              displayName: color
+              description: SensitivityLabel color.
+              order: 5
+              type: String
+              examples:
+
+            displayName:
+              displayName: displayName
+              description: SensitivityLabel displayName info
+              order: 2
+              type: String
+              examples:
+
+            isEnabled:
+              displayName: isEnabled
+              description: Whether  SensitivityLabel is Enabled.
+              order: 7
+              type: Boolean
+              examples:
+
+            isEncrypted:
+              displayName: isEncrypted
+              description: " is  SensitivityLabel Encrypted."
+              order: 6
+              type: Boolean
+              examples:
+
+            isParent:
+              displayName: isParent
+              description: Whether  SensitivityLabel is Parent.
+              order: 8
+              type: Boolean
+              examples:
+
+            name:
+              displayName: name
+              description: SensitivityLabel name.
+              order: 1
+              type: String
+              examples:
+
+            parentSensitivityLabelId:
+              displayName: parentSensitivityLabelId
+              description: Parent  SensitivityLabel Id.
+              order: 9
+              type: String
+              examples:
+
+            priority:
+              displayName: priority
+              description: SensitivityLabel priority.
+              order: 4
+              type: Number
+              examples:
+
+            sensitivityLabelId:
+              displayName: sensitivityLabelId
+              description: SensitivityLabel Id.
+              order: 0
+              type: String
+              examples:
+
+            tooltip:
+              displayName: tooltip
+              description: SensitivityLabel details on tooltip.
+              order: 3
+              type: String
+              examples:
+
+        examples:
+
+      value:
+        description: List of Items
+        order: 0
+        type:
+          kind: Table
+          properties:
+            FDA 510K ID:
+              displayName: FDA 510K ID
+              order: 0
+              type: String
+              examples:
+
+            Topic:
+              displayName: Topic
+              order: 1
+              type: String
+              examples:
+
+        examples:
+
+outputMode: All

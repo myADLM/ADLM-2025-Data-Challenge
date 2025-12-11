@@ -1,0 +1,29 @@
+<dvtablesearch dvtablesearchid="c2a70158-861f-4340-a9c5-c9252704c771">
+  <connectionreference>
+    <connectionreferencelogicalname>auto_agent_c2hGx.cr.JFf0w_6Y</connectionreferencelogicalname>
+  </connectionreference>
+  <iscustomizable>0</iscustomizable>
+  <knowledgeconfig>{
+  "$kind": "IngestionBasedGraphSearchConfiguration",
+  "driveItems": [
+    {
+      "$kind": "GraphDriveItemSyncDetails",
+      "displayName": "Synthetic Procedures U-Z",
+      "webUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship/Shared%20Documents/2025%20ADLM%20Data%20Challenge/LabDocs/Synthetic%20Procedures%20U-Z",
+      "driveId": "",
+      "itemId": "01P2OUHBKKXGKS55PXVNEIIQEKJ7BTZB25",
+      "sharepointIds": {
+        "$kind": "SharepointIds",
+        "webId": "33a34d6b-a95c-48b2-be11-dc2deaee76ef",
+        "listId": "93ccc9b0-eec6-4f12-9bc0-456cd205b24c",
+        "siteId": "48cca69c-e438-4d39-97a3-b2cb276a326d",
+        "siteUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship"
+      }
+    }
+  ]
+}</knowledgeconfig>
+  <name>SyntheticProceduresUZ_W1ni1jNfrMm2FieZb_GMf</name>
+  <searchtype>1</searchtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearch>

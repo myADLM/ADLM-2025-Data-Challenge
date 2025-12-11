@@ -1,0 +1,29 @@
+<dvtablesearch dvtablesearchid="5be7d29c-5488-4092-935a-dd147ca98298">
+  <connectionreference>
+    <connectionreferencelogicalname>auto_agent_YWfmN.cr.gUTPVhoo</connectionreferencelogicalname>
+  </connectionreference>
+  <iscustomizable>0</iscustomizable>
+  <knowledgeconfig>{
+  "$kind": "IngestionBasedGraphSearchConfiguration",
+  "driveItems": [
+    {
+      "$kind": "GraphDriveItemSyncDetails",
+      "displayName": "Clinical Chemistry Part 1",
+      "webUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship/Shared%20Documents/2025%20ADLM%20Data%20Challenge/LabDocs/FDA_Merged/Clinical%20Chemistry%20Part%201",
+      "driveId": "",
+      "itemId": "01P2OUHBKL244NWSVCAFF23RU2CFURTCMS",
+      "sharepointIds": {
+        "$kind": "SharepointIds",
+        "webId": "33a34d6b-a95c-48b2-be11-dc2deaee76ef",
+        "listId": "93ccc9b0-eec6-4f12-9bc0-456cd205b24c",
+        "siteId": "48cca69c-e438-4d39-97a3-b2cb276a326d",
+        "siteUrl": "https://bcmedu.sharepoint.com/sites/BCMClinicalInformaticsFellowship"
+      }
+    }
+  ]
+}</knowledgeconfig>
+  <name>ClinicalChemistryPart1_rOhig59BIrv1V7RiVncUZ</name>
+  <searchtype>1</searchtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearch>

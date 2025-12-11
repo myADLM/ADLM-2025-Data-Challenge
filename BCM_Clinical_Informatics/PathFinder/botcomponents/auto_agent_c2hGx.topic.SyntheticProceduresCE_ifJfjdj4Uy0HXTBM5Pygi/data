@@ -1,0 +1,8 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: FederatedStructuredSearchSource
+  triggerCondition: true
+  connectionProperties:
+    mode: Invoker
+
+  skillConfiguration: SyntheticProceduresCE_Xr6u2wxmmHSgVh1xmzsD1
