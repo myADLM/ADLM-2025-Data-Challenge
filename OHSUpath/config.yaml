@@ -1,0 +1,230 @@
+# config.yaml
+
+# =============================================================
+#      USER CONFIGURATION FILE
+#
+#  WHO CAN EDIT THIS FILE:
+#      Anyone who needs to change program behavior
+#      Do NOT edit config.py for normal changes
+#
+#  DEVELOPERS:
+#      - Only edit config.py if adding new parameters or changing defaults
+#
+#  HOW SETTINGS ARE USED:
+#      1. Start with the settings stored in config.py (default values).
+#      2. Replace them with the settings stored in THIS file (config.yaml).
+#      3. If the same setting exists in environment variables,
+#         USE THE SETTING STORED IN the environment variables (highest priority).
+#
+#  RESULT (priority order):
+#      Environment variables (running in code) > THIS FILE (config.yaml) > defaults in config.py
+#
+#  ABOUT USE_YAML_CONFIG (defined in app.py):
+#      - True  -> Environment vars > THIS FILE (config.yaml) > defaults in config.py
+#      - False -> Environment vars > defaults in config.py   (YAML file is ignored)
+##
+#  EXAMPLES when USE_YAML_CONFIG = True:
+#      Example 1:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:              1
+#          -> Program will use:   1  (from environment variables)
+#
+#      Example 2:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:            (none)
+#          -> Program will use:   2  (from config.yaml)
+#
+#  EXAMPLES when USE_YAML_CONFIG = False:
+#      Example 3:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:              1
+#          -> Program will use:   1  (from environment variables)
+#
+#      Example 4:
+#          default in config.py: 3
+#          config.yaml:          2
+#          env var:            (none)
+#          -> Program will use:   3  (from config.py)
+# =============================================================
+
+paths:
+  # Folder where your source PDF documents are stored (scans all subfolders recursively)
+  data_dir: "data"
+  allowed_extensions: [".pdf"]      # which files to ingest
+  pdf_text_mode: "text"             # "text" | "blocks" | "html"
+  store_dir: ".rag_store"
+  index_dirname: "index"
+  manifest_filename: "manifest.sqlite"
+  embed_cache_filename: "embed_cache.sqlite"
+  journal_filename: "journal.log"
+  lock_filename: ".rag.lock"
+  tmp_dirname: "_tmp"
+
+hashing:
+  normalize: "NFC"
+  encoding: "utf-8"
+  chunk_id_hash_len: 32
+
+journal:
+  enable_lock: true
+  fsync_default: false
+  compact_json: true
+  max_record_bytes: null
+  rotate_max_bytes: 10485760   # 10 MB
+  rotate_keep: 5
+  default_tail_n: 200
+
+lock:
+  timeout_s: 30.0
+  backoff_initial_s: 0.001
+  backoff_max_s: 0.05
+
+sqlite:
+  journal_mode: "WAL"
+  busy_timeout_ms: 30000
+  synchronous: "NORMAL"
+  connect_timeout_s: 1.0
+
+embed_cache:
+  table_name: "emb_cache"
+  max_vars_fallback: 900
+  reserve_bind_params: 16
+  chunk_size_limit: null
+  json_ensure_ascii: false
+  json_separators: [",", ":"]
+
+runtime:
+  # Minimum number of worker threads to use when processing data
+  min_threads: 8
+  # Number of threads to keep free for other processes or the OS
+  reserve_threads: 2
+  max_workers: null                 # null = auto decide
+  # Device for computation:
+  #   "cuda" = NVIDIA GPU (recommended if available)
+  #   "cpu"  = standard processor
+  device: "cuda"
+
+split:
+  # Approximate number of characters per text chunk
+  chunk_size: 1200
+  # Overlap between consecutive chunks (in characters) to preserve context
+  chunk_overlap: 200
+  min_chars_per_page: 1             # drop pages shorter than this (after strip)
+  num_proc: "max"                  # int or "max"
+  source_keys: ["source", "file_path", "path"]
+  page_keys: ["page", "page_number", "page_no"]
+
+
+  # Setting for the old sentence transformer all-MiniLM-L6-v2
+embedding:
+  # Name of the embedding model to convert text into numeric vectors
+  model_name: "./models/all-MiniLM-L6-v2"
+  # Dimensionality of the embedding vectors.
+  # WARNING: Must match the model. Changing this will break compatibility.
+  embedding_dim: 384
+  batch_size: 64                    # batch size for embedding
+  faiss_metric: "ip"                # "l2" or "ip"
+  normalize_embeddings: true
+  multi_gpu: false          # false | "auto" | [0,1]
+  dtype: "float32"          # "float32" | "float16"
+  pad_to_batch: false       # steady throughput for multi-GPU
+  in_queue_maxsize: 4       # per-GPU pending batches
+  allow_cpu_fallback: true
+    
+  # Setting for the new sentence transformer InstructorXL
+# embedding:
+#   # Name of the embedding model to convert text into numeric vectors
+#   model_name: "./models/InstructorXL"
+#   # Dimensionality of the embedding vectors.
+#   # WARNING: Must match the model. Changing this will break compatibility.
+#   embedding_dim: 768
+#   batch_size: 64                    # batch size for embedding
+#   faiss_metric: "l2"                # "l2" or "ip"
+
+retriever:
+  # Retrieval strategy:
+  #   "similarity" = find chunks most similar to the query
+  search_type: "similarity"
+  # Number of results (chunks) to retrieve for each query
+  k: 4
+  fetch_k: 50
+  use_mmr: false
+  lambda_mult: 0.5
+  score_threshold: null
+  search_kwargs: {}
+
+retrieval:
+  mode: hybrid   # dense | hybrid | sparse | auto(=hybrid)
+  hybrid:
+    final_k: 12
+    dense_k: 40
+    sparse_k: 80
+    weights:
+      keyword:  { sparse: 0.8, dense: 0.2 }
+      semantic: { sparse: 0.3, dense: 0.7 }
+
+sparse:
+  backend: bm25s
+  ngram_rerank:
+    mode: auto          # auto | on | off
+    n: 3
+    weight: 0.35
+    jaccard_w: 0.6
+    fuzz_w: 0.4
+    gap_threshold: 0.05
+    top1_threshold: 0.40
+    max_rerank: 120
+  compaction:
+    enabled: true
+    interval_s: 600        # Check every 10 min
+    quiet_delay_s: 300     # Do compact when no new delta in 5 min
+
+faiss:
+  strict_meta_check: true
+  clear_on_delete: true
+  normalize_query_in_ip: true
+  index_params: {}
+
+pdf_loader:
+  prefetch_budget_mb: 64
+  io_batch_files: 8
+  num_proc: "max"
+
+llm:
+  # Large Language Model provider. "ollama" requires Ollama installed locally.
+  provider: "ollama"
+  # Name of the model to use from the provider
+  model: "deepseek-r1-8b-int8"
+  chain_type: "stuff"
+  base_url: "http://localhost:11434"
+  params: {}                        # e.g. {"temperature": 0.1}
+  chain_type_kwargs: {}
+  request_timeout_s: null
+  max_retries: 2
+  headers: {}
+  enabled: true
+
+manager:
+  enable_cache: true
+  enable_journal: true
+  hash_block_bytes: 1048576   # 1 MiB
+  include_globs: []           # e.g. ["**/*.pdf"]
+  exclude_globs: []           # e.g. ["**/~$*"]
+  follow_symlinks: false
+  ignore_dotfiles: true
+  # WSL2 stability: batch processing to prevent memory overflow
+  file_batch_size: 500        # Process N files at a time (load->split->embed->commit)
+  embed_batch_size: 1000      # Embed N chunks at a time within each file batch
+  commit_batch_size: 5000     # Upsert N chunks at a time to vector store
+
+
+
+app:
+  title: "AI tool name holder"
+  page_title: "AI tool name holder"
+  ui:
+    input_label: "***Enter your question***"
+    spinner_text: "analysing..."
