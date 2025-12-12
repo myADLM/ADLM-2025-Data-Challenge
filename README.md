@@ -91,3 +91,4 @@ A: Yes! Use the Dockerfile or run with `streamlit run chat_app.py` after install
 A: No problem! Just wait for it to reload (bake in the oven).
 ---
 
+If you are unfamiliar with GitHub, need help getting starting, or have other questions, we are available to help! Please email ahobby@myadlm.org for assistance.
