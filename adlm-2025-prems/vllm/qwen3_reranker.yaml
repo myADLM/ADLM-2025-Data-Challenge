@@ -1,0 +1,7 @@
+model: Qwen/Qwen3-Reranker-0.6B
+#model: BAAI/bge-reranker-base
+host: "127.0.0.1"
+port: 6381
+uvicorn-log-level: "info"
+async-scheduling: true
+tensor-parallel-size: 1

@@ -1,0 +1,3 @@
+{{ object.text }}
+Document: {{ object.document.relative_path }}
+Chunk {{ object.chunk_index }}

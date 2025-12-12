@@ -1,0 +1,321 @@
+{% extends 'api/base.html' %}
+
+{% block title %}Document Library{% endblock %}
+
+{% block extra_css %}
+<style>
+    .header {
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #3498db;
+    }
+
+    .stat-label {
+        color: #7f8c8d;
+        font-size: 0.9rem;
+    }
+
+    .search-box {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .search-input {
+        width: 100%;
+        max-width: 400px;
+        padding: 12px 20px;
+        border: 2px solid #ecf0f1;
+        border-radius: 25px;
+        font-size: 1rem;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+
+    .search-input:focus {
+        border-color: #3498db;
+    }
+
+    .documents-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .document-card {
+        background: white;
+        border-radius: 8px;
+        padding: 25px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+        cursor: pointer;
+    }
+
+    .document-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .document-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 10px;
+        word-break: break-word;
+    }
+
+    .document-path {
+        color: #7f8c8d;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    }
+
+    .document-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #ecf0f1;
+    }
+
+    .document-date {
+        color: #95a5a6;
+        font-size: 0.8rem;
+    }
+
+    .view-button {
+        background: #3498db;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: background-color 0.3s;
+    }
+
+    .view-button:hover {
+        background: #2980b9;
+    }
+
+    .no-documents {
+        text-align: center;
+        padding: 60px 20px;
+        color: #7f8c8d;
+    }
+
+    .no-documents h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .no-documents p {
+        font-size: 1.1rem;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+        gap: 10px;
+    }
+
+    .pagination a,
+    .pagination span {
+        padding: 10px 15px;
+        text-decoration: none;
+        border: 1px solid #ecf0f1;
+        border-radius: 5px;
+        color: #2c3e50;
+        transition: all 0.3s;
+    }
+
+    .pagination a:hover {
+        background: #3498db;
+        color: white;
+        border-color: #3498db;
+    }
+
+    .pagination .current {
+        background: #3498db;
+        color: white;
+        border-color: #3498db;
+        font-weight: bold;
+    }
+
+    .pagination .disabled {
+        color: #bdc3c7;
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+
+    .pagination-info {
+        margin: 0 20px;
+        color: #7f8c8d;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+        .documents-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .stats {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .pagination {
+            flex-wrap: wrap;
+        }
+
+        .pagination-info {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block header %}
+<div class="header">
+    <h1>Document Library</h1>
+    <p>Browse and read your documents</p>
+
+    <div class="stats">
+        <div class="stat-item">
+            <div class="stat-number">{{ paginator.count }}</div>
+            <div class="stat-label">Documents</div>
+        </div>
+    </div>
+
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search documents..." id="searchInput">
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+{% if documents %}
+<div class="documents-grid" id="documentsGrid">
+    {% for document in documents %}
+    <div class="document-card" data-title="{{ document.relative_path|lower }}"
+        onclick="window.location.href='{% url 'document_view' document.id %}'">
+        <div class="document-title">{{ document.relative_path|title }}</div>
+        <div class="document-path">{{ document.relative_path }}</div>
+        <div class="document-meta">
+            <span class="document-date">{{ document.created_at|date:"M d, Y" }}</span>
+            <a href="{% url 'document_view' document.id %}" class="view-button">View Document</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if paginator.num_pages > 1 %}
+<div class="pagination">
+    {% if documents.has_previous %}
+        <a href="?page=1">&laquo; First</a>
+        <a href="?page={{ documents.previous_page_number }}">&lsaquo; Previous</a>
+    {% else %}
+        <span class="disabled">&laquo; First</span>
+        <span class="disabled">&lsaquo; Previous</span>
+    {% endif %}
+
+    <span class="pagination-info">
+        Page {{ documents.number }} of {{ paginator.num_pages }}
+    </span>
+
+    {% if paginator.num_pages <= 7 %}
+        {# Show all pages if 7 or fewer #}
+        {% for page_num in documents.paginator.page_range %}
+            {% if page_num == documents.number %}
+                <span class="current">{{ page_num }}</span>
+            {% else %}
+                <a href="?page={{ page_num }}">{{ page_num }}</a>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        {# Show first page #}
+        {% if documents.number > 3 %}
+            <a href="?page=1">1</a>
+            {% if documents.number > 4 %}
+                <span>...</span>
+            {% endif %}
+        {% endif %}
+
+        {# Show pages around current #}
+        {% for page_num in documents.paginator.page_range %}
+            {% if page_num >= documents.number|add:'-2' and page_num <= documents.number|add:'2' %}
+                {% if page_num == documents.number %}
+                    <span class="current">{{ page_num }}</span>
+                {% else %}
+                    <a href="?page={{ page_num }}">{{ page_num }}</a>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+        {# Show last page #}
+        {% if documents.number < paginator.num_pages|add:'-2' %}
+            {% if documents.number < paginator.num_pages|add:'-3' %}
+                <span>...</span>
+            {% endif %}
+            <a href="?page={{ paginator.num_pages }}">{{ paginator.num_pages }}</a>
+        {% endif %}
+    {% endif %}
+
+    {% if documents.has_next %}
+        <a href="?page={{ documents.next_page_number }}">Next &rsaquo;</a>
+        <a href="?page={{ paginator.num_pages }}">Last &raquo;</a>
+    {% else %}
+        <span class="disabled">Next &rsaquo;</span>
+        <span class="disabled">Last &raquo;</span>
+    {% endif %}
+</div>
+{% endif %}
+
+{% else %}
+<div class="no-documents">
+    <h3>No Documents Available</h3>
+    <p>There are currently no documents in the library.</p>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Simple search functionality
+    document.getElementById('searchInput').addEventListener('input', function (e) {
+        const searchTerm = e.target.value.toLowerCase();
+        const cards = document.querySelectorAll('.document-card');
+
+        cards.forEach(card => {
+            const title = card.getAttribute('data-title');
+            if (title.includes(searchTerm)) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+</script>
+{% endblock %}

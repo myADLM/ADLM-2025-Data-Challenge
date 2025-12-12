@@ -1,0 +1,57 @@
+[project]
+name = "chat-api-dj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2.5",
+    "django-ninja>=1.4.3",
+    "tqdm>=4.67.1",
+    "datasets>=4.0.0",
+    "markdown>=3.7.0",
+    "langchain-text-splitters>=0.3.11",
+    "PyMuPDF>=1.23.0",
+    "Pillow>=10.0.0",
+    "uvicorn[standard]>=0.30.0",
+    "gunicorn>=23.0.0",
+    "matplotlib>=3.8.0",
+    "django-haystack[elasticsearch]>=3.3.0",
+    "whoosh>=2.7.4",
+    "marker-pdf[full]>=1.9.2",
+    "psycopg2-binary>=2.9.10",
+    "pandas>=2.0.0",
+    "pyarrow>=10.0.0",
+    "pgvector>=0.2.0",
+    "huggingface_hub>=0.20.0",
+    "django-cors-headers>=4.9.0",
+    "torch>=2.8.0",
+    "django-extensions>=4.1",
+    "spacy>=3.8.7",
+    "en-core-web-trf",
+    "en-core-web-sm",
+    "html5lib>=1.1",
+    "openai>=1.106.1",
+    "torch-ppr>=0.0.8",
+    "django-tasks>=0.9.0",
+    "schedule>=1.2.2",
+    "triplet-extract>=0.2.0",
+    "cohere>=5.20.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
+
+[tool.uv.sources]
+en-core-web-trf = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl" }
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
+
+# https://github.com/astral-sh/uv/issues/6437#issuecomment-3167274955
+
+[tool.uv.extra-build-dependencies]
+flash-attn = [{ requirement = "torch", match-runtime = true }]
+
+[tool.uv.extra-build-variables]
+flash-attn = { FLASH_ATTENTION_SKIP_CUDA_BUILD = "TRUE" }

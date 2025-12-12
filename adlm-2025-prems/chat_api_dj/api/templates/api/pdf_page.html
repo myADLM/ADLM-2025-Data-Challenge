@@ -1,0 +1,11 @@
+{% extends "api/base.html" %}
+
+{% block content %}
+<div class="content-wrapper">
+    <h1>PDF Page</h1>
+</div>
+
+<a href="{% url 'document_view' document.id %}">Back to Document</a>
+
+
+{% endblock %}

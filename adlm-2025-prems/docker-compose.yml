@@ -1,0 +1,62 @@
+services:
+  db:
+    image: pgvector/pgvector:pg15-trixie
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+  es:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.1.4
+    ports:
+      - "9200:9200"
+    environment:
+       - node.name=es01
+       - bootstrap.memory_lock=false
+       - discovery.type=single-node
+       - xpack.security.enabled=false
+       - xpack.security.http.ssl.enabled=false
+       - xpack.security.transport.ssl.enabled=false
+       - cluster.routing.allocation.disk.watermark.low=5gb
+       - cluster.routing.allocation.disk.watermark.high=3gb
+       - cluster.routing.allocation.disk.watermark.flood_stage=2gb
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl http://localhost:9200"]
+      interval: 10s
+      timeout: 10s
+      retries: 120
+  chat:
+    build: .
+    ports:
+      - "8000:8000" # Django API
+      - "3000:3000" # React App
+    environment:
+      - DJANGO_SETTINGS_MODULE=chat_web_dj.settings_production
+      - SECRET_KEY=your-secret-key-here-change-in-production
+      - HOST=0.0.0.0 # Allow React to bind to all interfaces
+    volumes:
+      # Mount the LabDocs directory if you want to access PDF files
+      - ./LabDocs:/app/LabDocs:ro
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8000/api/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    depends_on:
+      - db
+      - es
+
+volumes:
+  es_data:

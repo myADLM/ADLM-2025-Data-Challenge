@@ -1,0 +1,6 @@
+model: Qwen/Qwen3-Embedding-0.6B
+host: "127.0.0.1"
+port: 6379
+uvicorn-log-level: "info"
+async-scheduling: true
+tensor-parallel-size: 1

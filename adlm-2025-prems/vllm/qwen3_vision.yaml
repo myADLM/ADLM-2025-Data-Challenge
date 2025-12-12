@@ -1,0 +1,10 @@
+model: Qwen/Qwen3-VL-30B-A3B-Instruct
+host: "127.0.0.1"
+port: 6379
+uvicorn-log-level: "info"
+async-scheduling: true
+tensor-parallel-size: 4
+enable-prefix-caching: true
+enable-expert-parallel: true
+dtype: "bfloat16"
+max-model-len: 65536
