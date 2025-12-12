@@ -1,0 +1,138 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k062055 B. Purpose for Submission:
+
+510(k) premarket notification to manufacture and market the Dimension Vista™ Protein 1 Calibrator and the Dimension Vista™ Protein 1 Controls (Low, Medium, and High). The calibrator and controls have been modified to include Prealbumin.
+
+# C. Measurand:
+
+Calibrators and Controls for Immunoglobulin A (IGA), Immunoglobulin G (IGG), Prealbumin (PREALB)
+
+# D. Type of Test:
+
+Calibrators and Controls
+
+# E. Applicant:
+
+Dade Behring, Inc.
+
+F. Proprietary and Established Names:
+
+Dimension Vista™ Protein 1 Calibrator
+
+Dimension Vista™ Protein 1 Control L
+
+Dimension Vista™ Protein 1 Control M
+
+Dimension Vista™ Protein 1 Control H
+
+# G. Regulatory Information:
+
+1. Regulation section: 862.1150 – Calibrator 862.1660 – Quality control material (assayed and unassayed)
+
+2. Classification: Class II (calibrator) Class I, reserved (controls)
+
+3. Product code: calibrator, multi-analyte mixture (JIX) multi-analyte controls, all kinds (assayed and unassayed) (JJY)
+
+4. Panel: Clinical Chemistry (75)
+
+# H. Intended Use:
+
+1. Intended use(s): See indications for use below.
+
+2. Indication(s) for use:
+
+The Dimension Vista™ Protein 1 Calibrator is an in vitro diagnostic product for the calibration of the Immunoglobulin A (IGA), Immunoglobulin G (IGG) and Prealbumin/Transthyretin (PREALB) methods on the Dimension Vista™ System.
+
+The Dimension Vista™ Protein 1 Control L, M, and H are assayed intralaboratory quality controls for assessment of precision and analytical bias in the determination of Immunoglobulin A (IGA), Immunoglobulin G (IGG) and Prealbumin/Transthyretin (PREALB) methods on the Dimension Vista™ System.
+
+3. Special conditions for use statement(s): For prescription use.
+
+4. Special instrument requirements: Dimension VistaTM Integrated System
+
+# I. Device Description:
+
+Dimension Vista™ Protein 1 Calibrator: Protein 1 Calibrator is a multi-analyte, liquid human serum based product containing Immunoglobulin A, Immunoglobulin G, and Prealbumin.
+
+Dimension Vista™ Protein 1 Control L, M, and H: Protein 1 Control L, M, and H are multi-analyte, liquid human based serum based products containing Immunoglobulin A, Immunoglobulin G, and Prealbumin.
+
+All human source materials were tested by FDA approved methods and found to be negative for antibodies to HIV-1/2, HbsAg, and HCV.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s):
+
+Dimension Vista™ Protein 1 Calibrator
+
+Dimension Vista™ Protein 1 Control L
+
+Dimension Vista™ Protein 1 Control M
+
+Dimension Vista™ Protein 1 Control H
+
+2. Predicate 510(k) number(s): k061338
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Form</td><td rowspan=1 colspan=1>Liquid, human serum</td><td rowspan=1 colspan=1>Liquid, human serum</td></tr><tr><td rowspan=1 colspan=1>Traceability to</td><td rowspan=1 colspan=1>ERM®-DA470(CRM470)</td><td rowspan=1 colspan=1>ERM®-DA470(CRM470)</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Constituents</td><td rowspan=1 colspan=1>IgA, IgG, prealbumin</td><td rowspan=1 colspan=1>IgA, IgG</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Not Applicable
+
+L. Test Principle: Not Applicable
+
+M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Not Applicable
+
+b. Linearity/assay reportable range: Not Applicable
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Traceability
+
+The calibrator is traceable to ERM $\textsuperscript { \textregistered }$ -DA470 (CRM470).
+
+Value Assignment
+
+The calibrator master lot value is assigned vs. ERM $\textsuperscript { \textregistered }$ -DA470 (CRM470). The commercial calibrator lot value is assigned with three reference curves, 4 runs, 3 vials, 4 replicates per vial tested on two nephelometric instruments for a total of 144 values. The control values are assigned using the procedure outlined for the calibrators.
+
+# Stability
+
+The calibrator and the controls follow the same stability protocol. Protocols and acceptance criteria were described and found to be acceptable.
+
+d. Detection limit: Not Applicable e. Analytical specificity: Not Applicable
+
+f. Assay cut-off: Not Applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not Applicable
+
+b. Matrix comparison: Not Applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity:
+
+Not Applicable
+
+b. Clinical specificity: Not Applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not Applicable
+
+4. Clinical cut-off: Not Applicable
+
+5. Expected values/Reference range: Not Applicable
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

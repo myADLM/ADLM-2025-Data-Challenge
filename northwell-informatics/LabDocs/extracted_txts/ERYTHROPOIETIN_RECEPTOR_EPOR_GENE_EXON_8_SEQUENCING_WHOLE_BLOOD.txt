@@ -1,0 +1,111 @@
+Protocol for Analytical Phase of Generating Results for EPOR
+Gene Exon 8 Sequencing, Whole Blood
+I. Purpose The purpose of this protocol is to outline the analytical
+procedures for EPOR gene exon 8 sequencing using whole blood
+specimens. The goal is to ensure accurate and reliable results for
+diagnostic and research purposes.
+II. Responsibility It is the responsibility of designated laboratory
+personnel to follow the outlined procedures for EPOR gene
+sequencing. All steps must be performed with precision and
+documented appropriately.
+III. Specimen
+• Specimen Type: Whole blood
+• Collection Tube: EDTA tubes
+• Volume: Minimum 3 mL
+• Storage and Stability: Store at 4°C and process within 48 hours of
+collection. If longer storage is needed, specimens may be frozen
+at -20°C or lower.
+IV. Equipment and Reagents
+• DNA Extraction Kit (e.g., Qiagen, Promega)
+• PCR reagents (e.g., primers for EPOR exon 8, Taq polymerase)
+• Agarose gel electrophoresis equipment
+• DNA sequencing machine (e.g., Applied Biosystems, Illumina)
+• Nucleotide sequencing reagents (e.g., BigDye Terminator v3.1
+Cycle Sequencing Kit)
+• Computer with software for sequence analysis (e.g., BLAST,
+Chromas)
+V. Procedure
+A. DNA Extraction
+1. Whole Blood Sample Preparation:
+◦ Centrifuge the EDTA tube at 1500 rpm for 10 minutes.
+◦ Carefully draw off the plasma layer.
+◦ Resuspend the cell pellet in the remaining volume of
+sample.
+2. DNA Isolation Using Extraction Kit:
+◦ Follow the manufacturer's protocol.
+◦ Elute the extracted DNA in a low volume of elution buffer
+(e.g., 50-100 µL).
+B. PCR Amplification
+1. Preparation:
+◦ Design primers flanking EPOR exon 8.
+◦ Prepare the PCR reaction mixture (20 µL total volume).
+▪ Master Mix: Contains dNTPs, buffer, Taq polymerase.
+▪ Primers: Forward and Reverse primers specific for
+EPOR exon 8.
+▪ DNA Template: 10-20 ng of extracted DNA.
+2. Thermal Cycling Conditions:
+◦ Denaturation: 95°C for 2 minutes.
+◦ Cycling: 35 cycles of:
+▪ Denaturation: 95°C for 30 seconds.
+▪ Annealing: 55-60°C for 30 seconds (specific temperature
+may vary based on primer design).
+▪ Extension: 72°C for 1 minute.
+◦ Final Extension: 72°C for 5 minutes.
+3. PCR Product Verification:
+◦ Run a 1.5-2% agarose gel electrophoresis with ethidium
+bromide.
+◦ Verify the presence of targeted amplicon (~200-400 bp).
+C. Sequencing Reaction
+1. Preparation:
+◦ Clean up PCR product using a purification kit or enzymatic
+method.
+◦ Quantify purified DNA.
+2. Sequencing Reaction Setup:
+◦ Set up sequencing reaction mixture (~10 µL total volume).
+▪ Purified PCR product.
+▪ Sequencing primer (either forward or reverse).
+▪ Sequencing reagents (e.g., BigDye Terminator mix).
+3. Thermal Cycling Conditions:
+◦ Denaturation: 96°C for 1 minute.
+◦ Cycling: 30 cycles of:
+▪ Denaturation: 96°C for 10 seconds.
+▪ Annealing: 50°C for 5 seconds.
+▪ Extension: 60°C for 4 minutes.
+D. Sequence Analysis
+1. Purification:
+◦ Purify the sequencing reaction using ethanol precipitation.
+2. Capillary Electrophoresis:
+◦ Load purified sequencing product onto the sequencing
+machine.
+◦ Perform capillary electrophoresis according to the
+manufacturer’s protocol.
+3. Data Analysis:
+◦ Use appropriate software (e.g., BLAST, Chromas) to
+analyze the generated sequences.
+◦ Compare obtained sequences with reference sequences of
+EPOR exon 8.
+◦ Annotate any mutations or variants detected.
+VI. Quality Control
+1. Positive Control:
+◦ Include a well-characterized positive control in each run to
+validate the sequencing procedure.
+2. Negative Control:
+◦ Include a negative control (e.g., water) to check for
+contamination.
+3. Documentation:
+◦ Record all results, including controls, in the laboratory
+information system (LIS).
+VII. Reporting Results
+• Review sequencing data for accuracy.
+• Generate a report outlining findings, including detected mutations
+or variants.
+• Provide interpretation based on clinical significance in conjunction
+with genetic counseling.
+VIII. References
+• Manufacturer's protocol for DNA extraction kits.
+• Established literature on EPOR exon 8 mutations.
+• Software manuals for sequence analysis programs.
+This protocol provides comprehensive guidelines for the analytical
+phase of EPOR gene exon 8 sequencing in whole blood specimens.
+Adherence to outlined steps is essential for ensuring quality results
+suitable for diagnostic or research purposes.

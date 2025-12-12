@@ -1,0 +1,122 @@
+Standard Operating Procedure (SOP) for Generating Results for
+Viral Susceptibility, Defects in Intrinsic and Innate Immunity,
+Gene Panel, Varies
+1. PURPOSE
+This document provides a detailed protocol for the analytical
+phase of generating results for viral susceptibility, defects in
+intrinsic and innate immunity, gene panels, and other varied
+genetic analyses in the laboratory.
+Responsibility:
+It is the responsibility of the designated laboratory technologists and
+supervisory staff to follow this SOP accurately to ensure valid,
+reproducible, and reliable results.
+1. SCOPE
+This SOP applies to all designated staff performing the
+analytical phase of viral susceptibility tests, defect analysis in
+intrinsic and innate immunity, and gene panels testing.
+2. EQUIPMENT AND REAGENTS
+• Next-generation sequencing (NGS) platforms
+• Real-Time PCR systems
+• Thermocyclers
+• DNA/RNA extraction kits and systems
+• Quantitative and qualitative analysis kits
+• Appropriate pipettes and tips
+• Buffer solutions
+• Bioinformatics software for sequence analysis
+• Calibration and control materials
+1. PROCEDURE
+4.1 PRE-ANALYTICAL CHECKS:
+◦ Ensure the sample has been correctly accessioned and
+labelled.
+◦ Verify that the sample meets the acceptance criteria (e.g.,
+volume, type, integrity).
+◦ Confirm that all required reagents and consumables are
+prepared and labeled correctly.
+4.2 NUCLEIC ACID EXTRACTION:
+◦ Prepare the extraction reagents by following the protocol
+provided in the kit's insert.
+◦ Extract nucleic acids (DNA/RNA) from specimens using
+automated or manual extraction methods.
+◦ Measure nucleic acid concentration using a
+spectrophotometer or fluorimeter.
+◦ Store nucleic acids at -20°C or -80°C until further analysis.
+4.3 AMPLIFICATION (PCR/RT-PCR):
+◦ Prepare the PCR master mix as per the protocol guidelines.
+◦ Allocate nucleic acid samples into PCR or RT-PCR reaction
+wells/tubes.
+◦ Load the reaction onto the PCR/RT-PCR thermocycler and
+run the program according to the manufacturer's
+recommendations.
+4.4 SEQUENCING (for gene panels):
+◦ Prepare the DNA library using appropriate library
+preparation kits.
+◦ Quantify and normalize the DNA library.
+◦ Load the DNA library into the NGS instrument and run the
+sequencing program.
+◦ Collect raw sequencing data from the instrument.
+4.5 DATA ANALYSIS:
+◦ Transfer the raw data to the bioinformatics system.
+◦ Perform primary data analysis including sequence
+alignment, variant calling, and quality control checks.
+◦ Use bioinformatics pipelines to annotate variants and
+interpret the potential impact on viral susceptibility and
+intrinsic/innate immunity.
+◦ Ensure all detected variants are reviewed according to
+internal guidelines or clinical database references.
+4.6 QUALITY CONTROL (QC):
+◦ Include positive and negative controls for each batch of
+tests.
+◦ Ensure the quality control of each run by comparing the QC
+sample results against reference standards.
+◦ If QC samples do not meet the expected criteria,
+troubleshoot and rerun as necessary.
+4.7 INTERPRETATION AND REPORTING:
+◦ Summarize the results by highlighting significant variants
+linked to viral susceptibility and defects in intrinsic and
+innate immunity.
+◦ Review the genetic data against clinical significance
+databases (e.g., ClinVar, OMIM).
+◦ Draft a comprehensive report for clinical interpretation and
+reference.
+◦ Notify the supervisor for result verification and final approval
+before releasing the report.
+◦ Enter final verified results into the Laboratory Information
+Management System (LIMS) for record-keeping.
+2. DOCUMENTATION AND RECORD-KEEPING:
+• Document all procedural steps, controls used, and observations in
+the laboratory logbook.
+• Maintain electronic records of sequencing data and analysis
+results securely on the laboratory’s server.
+• Ensure all reports are signed, dated, and meet the regulatory
+requirements of CLIA.
+1. REPORTING CRITICAL VALUES:
+• Alerts for critical results must be escalated immediately to the
+ordering physician as per laboratory policy.
+• Document the name of the reporting technologist and the date/
+time of result notification within the LIMS.
+1. TROUBLESHOOTING:
+• Refer to the instrument’s user manual or troubleshooting guide for
+issues encountered during nucleic acid extraction, amplification,
+or sequencing.
+• Consult with supervisors or technical support teams for persistent
+issues beyond routine troubleshooting steps.
+1. DEGREE OF RELIABILITY:
+Tools and reagents must be validated and controlled with
+measures that demonstrate reliability and reproducibility per
+relevant guidelines. Regular proficiency testing and inter-
+laboratory comparisons should be performed to maintain high-
+quality standards.
+2. SAFETY AND PRECAUTIONS:
+• Follow the laboratory's biosafety guidelines while handling
+biological specimens.
+• Use appropriate PPE (Personal Protective Equipment) at all
+stages.
+• Dispose of reagents, consumables, and biological waste as per
+the safety protocols established by the laboratory.
+References:
+• Manufacturer's Instrument and Reagent Instructions
+• Relevant Clinical Database Guidelines from ClinVar, OMIM
+• Laboratory Quality Assurance Documentation
+Approval Signature: _______________ Date: _______________
+Review Date: _______________
+End Protocol.

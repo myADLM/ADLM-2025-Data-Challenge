@@ -1,0 +1,127 @@
+SOP: CXCR4 Mutation Analysis, Somatic, Lymphoplasmacytic
+Lymphoma/Waldenstrom Macroglobulinemia
+1. PURPOSE
+To outline the procedures for the analytical phase of generating
+results for CXCR4 mutation analysis, focusing on somatic mutations
+in cases of lymphoplasmacytic lymphoma/Waldenstrom
+macroglobulinemia.
+2. SCOPE
+This procedure applies to personnel conducting the CXCR4 mutation
+analysis in the molecular diagnostics laboratory.
+3. RESPONSIBILITY
+Laboratory personnel are responsible for carrying out the mutation
+analysis as specified in this SOP. The supervisory staff is responsible
+for ensuring that the procedure is followed appropriately and for
+troubleshooting any issues that may arise.
+4. SPECIMEN REQUIREMENTS
+• Specimen Type: Bone marrow aspirates, blood (EDTA or
+heparin), or formalin-fixed paraffin-embedded (FFPE) tissue
+sections.
+• Specimen Volume: Minimum of 3-5 mL of bone marrow aspirate
+or blood; for FFPE, at least ten 5-micron sections or one core
+biopsy.
+• Specimen Stability: Process within 48 hours of collection for
+fresh specimens. FFPE sections should be stored at room
+temperature until ready for processing.
+5. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA extraction kit (validated for use with the sample types)
+• PCR reagents and consumables
+• Thermocycler
+• CXCR4-specific primers and probes
+• Gel electrophoresis setup (if applicable)
+• Real-Time PCR (qPCR) or Next-Generation Sequencing (NGS)
+platform
+• DNA quantification instrument (e.g., Qubit, Nanodrop)
+• Positive and negative control DNA samples
+• Molecular grade water and other reagents
+6. PROCEDURE
+A) DNA Extraction
+1. Extract DNA from the specimen using a validated DNA
+extraction kit according to the manufacturer’s instructions.
+2. Measure the DNA concentration and purity using a DNA
+quantification instrument.
+3. Normalize DNA concentration to the required concentration for
+PCR.
+B) PCR Amplification
+1. Prepare the PCR master mix as per the manufacturer’s
+instructions, including:
+◦ DNA template (optimal concentration as per standard
+protocol)
+◦ CXCR4-specific primers
+◦ dNTP mix
+◦ MgCl2 (if necessary)
+◦ Taq DNA polymerase
+◦ Buffer solution
+2. Aliquot the PCR master mix into PCR tubes or a 96-well plate.
+3. Add the DNA template to each tube/well.
+4. Run the PCR reaction in a thermocycler with the following
+conditions (example):
+◦ Initial denaturation: 95°C for 3 minutes
+◦ Denaturation: 95°C for 30 seconds
+◦ Annealing: 58-60°C for 30 seconds
+◦ Extension: 72°C for 45 seconds
+◦ Number of cycles: 35-40
+◦ Final extension: 72°C for 5 minutes
+C) Mutation Detection
+For conventional PCR followed by Sanger Sequencing:
+1. Purify PCR products using a PCR purification kit according to
+the manufacturer’s protocol.
+2. Prepare PCR purified products for sequencing.
+3. Submit samples for Sanger sequencing.
+For Real-Time PCR (qPCR):
+1. Prepare qPCR master mix including CXCR4-specific probes.
+2. Load qPCR master mix into a qPCR plate.
+3. Add the DNA template.
+4. Perform qPCR as per the manufacturer's protocol and analyze
+the amplification plot for mutation-specific signals.
+For Next-Generation Sequencing (NGS):
+1. Prepare libraries using commercially available NGS library
+preparation kits.
+2. Sequence on an appropriate NGS platform.
+3. Analyze data using bioinformatics tools to call mutations.
+D) Data Interpretation
+1. Analyze sequencing results to identify the CXCR4 mutations.
+2. For qPCR, determine the presence or absence of mutations
+based on quantification cycle (Cq) values.
+3. For NGS, review reads and mutation calls using bioinformatics
+analysis tools.
+4. Compare findings with known mutation databases and literature
+to interpret the clinical significance of detected mutations.
+7. QUALITY CONTROL
+1. Include positive and negative controls in each PCR run to
+ensure assay specificity and sensitivity.
+2. Document lot numbers of all reagents and ensure they are
+within the expiry date.
+3. Review quality of sequencing reads or amplification curves for
+each run.
+4. Record all observations and any deviations from the expected
+outcomes.
+8. REPORTING
+1. Document findings and interpretations in standardized format.
+2. Ensure all results must be reviewed and verified by a qualified
+technologist or laboratory director.
+3. Report final results in the Laboratory Information System (LIS)
+with appropriate comments and interpretations correlating with
+the clinical context.
+9. REFERENCES
+1. Protocol and inserts provided with DNA extraction kit, PCR kits,
+qPCR, and NGS platforms.
+2. Literature on CXCR4 mutation analysis and its role in
+lymphoplasmacytic lymphoma/Waldenstrom
+macroglobulinemia.
+3. Manufacturer’s guidelines for equipment and reagents used in
+the protocol.
+10. REVISION HISTORY
+• Document any SOP revisions along with dates and brief
+descriptions of changes made.
+11. APPENDICES
+Appendix A: Primer and probe sequences for CXCR4 mutation
+analysis. Appendix B: Detailed workflow for DNA extraction. Appendix
+C: Troubleshooting guide for PCR issues.
+12. APPROVAL:
+• Reviewed and Approved By:
+• Laboratory Director: ______________________
+• Date: ______________________
+This protocol sets out the steps to accurately and efficiently perform
+the CXCR4 mutation analysis and ensure quality and consistency in
+the results generated for clinical interpretation.

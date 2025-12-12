@@ -1,0 +1,109 @@
+STANDARD OPERATING PROCEDURE: MAPLE SYRUP URINE
+DISEASE GENE PANEL, VARIES
+1. PURPOSE
+The purpose of this protocol is to outline standardized procedures for
+the analytical phase of generating results for the Maple Syrup Urine
+Disease (MSUD) gene panel test. This ensures the accuracy,
+reproducibility, and reliability of test results for clinical decision-
+making.
+Responsibility: This procedure is the responsibility of the designated
+laboratory personnel trained in molecular genetic testing. It is the
+responsibility of the staff and supervisors to ensure that gene panel
+testing is performed and documented in accordance with the
+procedure, including any corrective actions that may be required.
+1. TEST BACKGROUND
+Maple Syrup Urine Disease (MSUD) is a rare metabolic disorder
+caused by mutations in genes encoding the branched-chain alpha-
+keto acid dehydrogenase complex. The MSUD gene panel is a next-
+generation sequencing (NGS) test designed to detect variants in
+these specific genes.
+Genes included in the panel:
+• BCKDHA
+• BCKDHB
+• DBT
+1. MATERIALS AND REAGENTS
+• DNA extraction kit (e.g., QIAamp DNA Mini Kit)
+• PCR amplification reagents
+• NGS library preparation kit
+• Sequencing platform (e.g., Illumina MiSeq)
+• Bioinformatics analysis software
+1. PROCEDURE
+A. DNA Extraction
+1. Ensure specimen has been collected, received, and
+accessioned properly.
+2. Extract genomic DNA from the submitted specimen (e.g., blood
+or saliva) using an appropriate DNA extraction kit.
+3. Measure the DNA concentration and assess the quality using a
+spectrophotometer (e.g., NanoDrop) and/or a fluorometer (e.g.,
+Qubit).
+4. Store the extracted DNA at -20°C until further processing.
+B. PCR Amplification and Library Preparation
+1. Prepare the PCR master mix according to the manufacturer's
+instructions, including specific primers for the MSUD gene
+panel.
+2. Amplify the target regions by setting up the PCR with
+appropriate cycling conditions.
+3. Verify the PCR product by running a small aliquot on an
+agarose gel.
+4. Use the amplified PCR product for NGS library preparation,
+following the library preparation kit protocol.
+5. Normalize the library concentration, pool libraries, and prepare
+for sequencing.
+C. NGS Sequencing
+1. Load the prepared library onto the sequencer as per the
+manufacturer's instructions.
+2. Perform sequencing run and monitor the progress.
+3. Ensure quality control metrics (e.g., cluster density, Q30 scores)
+are within acceptable ranges.
+D. Data Analysis
+1. Perform primary data analysis using the sequencing platform’s
+software pipeline to generate FASTQ files.
+2. Use bioinformatics software to align the reads to the human
+reference genome (e.g., hg19 or hg38) and call variants in the
+MSUD-related genes.
+3. Filter and annotate the variants based on predefined criteria
+(e.g., allele frequency, predicted impact).
+4. Review results and classify variants according to the ACMG
+guidelines.
+5. Generate a comprehensive report summarizing the findings,
+including pathogenic, likely pathogenic, and variants of
+uncertain significance (VUS).
+E. Quality Control
+1. Include positive and negative controls in the testing workflow.
+2. Run internal quality control samples with each batch of testing
+to ensure the reliability of results.
+3. Document any deviations or issues encountered during the
+testing process and perform root cause analysis if necessary.
+F. Reporting Results
+1. Prepare the final report for the medical director or designated
+personnel to review and sign off.
+2. Ensure report includes patient information, method description,
+identified variants, interpretation, and recommendations.
+3. Issue the report to the referring clinician with appropriate
+comments and recommendations.
+4. REFERENCE INTERVALS
+Not applicable. The report will detail specific mutations and their
+clinical significance using available databases and literature.
+1. SAFETY AND PRECAUTIONS
+2. Follow institutional safety guidelines for handling biological
+specimens and reagents.
+3. Dispose of waste according to biomedical waste disposal
+regulations.
+4. Ensure the use of appropriate personal protective equipment
+(PPE).
+5. REFERENCES
+6. ACMG Recommendations for Standards for Interpretation and
+Reporting of Sequence Variants.
+7. Manufacturer instructions for DNA extraction kits, PCR
+reagents, NGS library preparation, sequencing platforms, and
+bioinformatics software.
+8. DOCUMENTATION
+9. Maintain a record of all performed tests, including worksheets,
+electronic data, and final reports.
+10. Document details of the DNA extraction, PCR setup,
+sequencing run, and result interpretations in the laboratory
+information system (LIS).
+By following the above protocol, laboratory staff can ensure that
+accurate and reproducible results are generated for the MSUD gene
+panel test, facilitating effective clinical decision-making and patient
+care.

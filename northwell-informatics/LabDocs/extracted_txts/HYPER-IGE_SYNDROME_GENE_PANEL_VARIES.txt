@@ -1,0 +1,104 @@
+Standard Operating Procedure: Analytical Phase for Generating
+Results for HYPER-IGE SYNDROME GENE PANEL, VARIES
+1. PURPOSE
+To outline the procedures for the analytical phase of generating
+results for the Hyper-IgE Syndrome Gene Panel, including DNA
+extraction, library preparation, sequencing, data analysis, and result
+reporting to ensure high quality and accurate test results.
+2. SCOPE
+This SOP applies to the molecular diagnostics laboratory personnel
+engaged in processing, analyzing, and reporting results for the
+Hyper-IgE Syndrome Gene Panel.
+3. RESPONSIBILITY
+• Laboratory Technologists: Responsible for performing DNA
+extraction, library preparation, sequencing, and initial data
+processing.
+• Bioinformaticians/Genetic Analysts: Perform data analysis, variant
+interpretation, and quality assessment.
+• Laboratory Supervisors: Ensure all procedures are followed,
+review and verify final results, and handle any issues that arise
+during the process.
+4. SPECIMEN
+Acceptable Specimens:
+• Whole blood: 2-5 mL, collected in EDTA (lavender) or ACD
+(yellow) tubes.
+• Saliva: Collected using an approved saliva collection kit.
+Unacceptable Specimens:
+• Specimens that are hemolyzed, clotted, or improperly collected.
+• Specimens not accompanied by proper documentation and
+patient consent.
+5. MATERIALS AND EQUIPMENT
+• DNA extraction kit
+• Library preparation kit (specific to sequencing platform)
+• Next-Generation Sequencing (NGS) instrument (e.g., Illumina
+MiSeq, NextSeq)
+• PCR thermal cycler
+• Centrifuge
+• Pipettes and tips
+• Nuclease-free water
+• Qubit Fluorometer or equivalent for DNA quantification
+• Agilent Bioanalyzer or equivalent for library quality control
+• Bioinformatics tools and software for sequence data analysis
+6. PROCEDURE
+6.1 DNA Extraction:
+1. Blood a. Centrifuge the EDTA/ACD blood sample at 2500 x g
+for 10 minutes. b. Using a pipette, carefully extract the buffy
+coat layer. c. Proceed with the DNA extraction using the kit
+according to the manufacturer’s protocol.
+2. Saliva a. Use the saliva collection kit to transfer the sample to a
+processing tube. b. Follow the DNA extraction protocol provided
+by the kit manufacturer.
+6.2 Library Preparation:
+1. DNA Quantification a. Measure the concentration of extracted
+DNA using the Qubit Fluorometer. b. Check DNA purity by
+measuring the 260/280 ratio.
+2. Library Construction a. Prepare DNA libraries using the
+library preparation kit according to the manufacturer’s protocol.
+b. Check the quality and size distribution of the libraries using
+the Agilent Bioanalyzer. c. Normalize library concentrations to
+meet sequencing platform requirements.
+6.3 Sequencing:
+1. Loading Samples a. Load the prepared libraries onto the
+sequencing instrument according to the manufacturer’s
+instructions. b. Start the sequencing run and monitor for any
+issues.
+6.4 Data Analysis:
+1. Initial Data Processing a. Import raw sequencing data into the
+bioinformatics pipeline. b. Perform sequence alignment to the
+human reference genome. c. Call variants and generate a
+variant call format (VCF) file.
+2. Variant Filtering and Annotation a. Filter variants based on
+frequency, quality, and relevant databases. b. Annotate variants
+with pathogenicity predictions and clinical significance using
+appropriate software tools.
+6.5 Interpretation and Reporting:
+1. Variant Interpretation a. Review filtered and annotated
+variants to determine their potential role in Hyper-IgE
+Syndrome. b. Classify variants according to ACMG guidelines.
+2. Report Generation a. Compile a comprehensive report
+including patient information, methodological details, identified
+variants, interpretation, and clinical relevance. b. Review and
+verify the report by laboratory supervisor before final approval.
+3. Result Reporting a. Transmit the final report to the ordering
+clinician via the LIS. b. Retain a copy of the report in the
+patient’s laboratory record.
+7. QUALITY CONTROL
+1. DNA Extraction QC a. Verify the quality and quantity of
+isolated DNA.
+2. Library Preparation QC a. Assess the library quality and
+concentration before sequencing.
+3. Sequencing QC a. Ensure quality metrics (e.g., coverage
+depth, read quality) are met. b. Include appropriate positive and
+negative controls in each run.
+4. Bioinformatics QC a. Validate bioinformatics pipelines with
+known standards.
+8. REFERENCES
+• Manufacturer’s protocols for DNA extraction, library preparation,
+and sequencing platforms.
+• ACMG guidelines for variant classification and interpretation.
+9. DOCUMENTATION
+Ensure all steps, observations, and deviations from the SOP are
+documented in the appropriate lab records.
+10. TROUBLESHOOTING
+Document and resolve any issues encountered during the procedure.
+Notify the laboratory supervisor for further guidance as needed.

@@ -1,0 +1,119 @@
+Protocol for Analytical Phase of Generating Results for
+Fibronectin Glomerulopathy Confirmation via Mass
+Spectrometry
+1. Purpose
+To outline the procedural steps for the confirmation of Fibronectin
+Glomerulopathy (FNG) using mass spectrometry (MS) in a CLIA-
+certified laboratory. This SOP ensures the accurate, precise, and
+reliable identification of fibronectin anomalies characteristic of FNG.
+2. Responsibility
+Designated laboratory technologists and scientists are responsible
+for performing the MS analysis as described in this procedure.
+Supervisors are responsible for reviewing and validating the results.
+3. Definitions
+• FNG: A genetic kidney disorder characterized by abnormal
+fibronectin deposits.
+• Mass Spectrometry (MS): An analytical technique for measuring
+the mass-to-charge ratio of ions, used for identifying and
+quantifying various biomolecules, including proteins.
+4. Specimen Requirements
+Specimen type: Kidney biopsy tissue or other appropriate tissue
+samples.
+• Preferred Specimen:
+◦ Fresh-frozen or formalin-fixed, paraffin-embedded (FFPE)
+kidney biopsy samples.
+◦ Samples should be handled and stored at -80°C until analysis.
+• Unacceptable Specimen:
+◦ Specimens that are not properly labeled
+◦ Specimens that are degraded or improperly stored.
+5. Equipment, Reagents, and Supplies
+• Mass Spectrometer (e.g., MALDI-TOF, LC-MS/MS)
+• Microcentrifuge
+• Proteomics Grade Reagents (e.g., Trypsin, Formic Acid)
+• Protein extraction and purification kits
+• Pipettes and disposable tips
+• Vortex mixer
+• Centrifuge tubes, microtubes
+• Purified water (Milli-Q or equivalent)
+• Pure solvents (Acetonitrile, Methanol)
+• Matrix solution for MALDI-TOF (e.g., α-Cyano-4-hydroxycinnamic
+acid)
+6. Procedure
+A) Sample Preparation
+1. Tissue Homogenization:
+◦ Homogenize approximately 5-10 mg of kidney biopsy tissue
+in an appropriate lysis buffer (e.g., urea, thiourea-based
+buffer) using a tissue homogenizer.
+2. Protein Extraction:
+◦ Centrifuge the homogenized tissue at 14,000 rpm for 20
+minutes at 4°C.
+◦ Transfer the supernatant containing extracted proteins to a
+new microtube.
+3. Protein Digestion:
+◦ Reduce and alkylate the proteins using dithiothreitol (DTT)
+and iodoacetamide (IAA) respectively.
+◦ Digest the proteins overnight at 37°C using sequencing-
+grade trypsin (1:50, enzyme: substrate ratio).
+4. Peptide Purification:
+◦ Purify the resulting peptides using C18 Zip-Tips or
+equivalent solid-phase extraction technique to remove salts
+and contaminants.
+B) Mass Spectrometric Analysis
+1. Sample Loading:
+◦ For MALDI-TOF MS: Mix purified peptides with the matrix
+solution and spot onto the MALDI target plate. Allow to dry.
+◦ For LC-MS/MS: Load the purified peptides onto a reversed-
+phase LC column for chromatographic separation prior to
+MS analysis.
+2. Mass Spectrometry:
+◦ Perform the mass spectrometric analysis using the
+appropriate settings for the MS instrument.
+◦ Acquire spectra for peptide mass fingerprinting or tandem
+MS for peptide sequencing.
+C) Data Analysis
+1. Data Acquisition:
+◦ Identify and quantify the peptides using software compatible
+with the MS instrument (e.g., Mascot, Proteome Discoverer,
+MaxQuant).
+2. Database Search:
+◦ Search the acquired MS/MS spectra against protein
+databases (e.g., UniProt, NCBI) to identify fibronectin and its
+variants.
+◦ Confirm the presence of mutations or abnormal isoforms of
+fibronectin associated with FNG.
+3. Results Compilation:
+◦ Compile the identified peptides and proteins, focusing on
+the presence and characterization of fibronectin.
+D) Quality Control
+• Ensure the calibration and maintenance of the mass spectrometer
+as per manufacturer’s guidelines.
+• Run quality control samples and blanks to monitor system
+performance.
+• Perform duplicate analyses for reproducibility.
+• Validate peptide and protein identifications using appropriate
+statistical thresholds.
+7. Reporting Results
+• Review and verify all identification and quantification data.
+• Interpret the results in the context of fibronectin-related pathology.
+• Compile a detailed report, including a summary of findings,
+methodology, and any significant deviations.
+• Submit the report for review by a supervising pathologist or
+laboratory director before releasing results to the clinical team.
+8. Reference Intervals
+• N/A – Results are interpretative and must be correlated with
+clinical and histological findings.
+9. Method Limitations
+• The accuracy of FNG confirmation is dependent on the quality of
+the specimen and the proper execution of all procedural steps.
+• Potential for false positives/negatives due to sample degradation,
+insufficient peptide recovery, or anomalies not detectable by MS.
+10. References
+• Manufacturer's instructions for the MS system.
+• Relevant peer-reviewed scientific literature on fibronectin
+glomerulopathy and mass spectrometry protocols.
+11. Revision History
+• Document control page with a record of revisions and
+endorsements by responsible personnel.
+Prepared by: [Name] Date: [MM/DD/YYYY]
+Reviewed by: [Name] Date: [MM/DD/YYYY]
+Approved by: [Name] Date: [MM/DD/YYYY]

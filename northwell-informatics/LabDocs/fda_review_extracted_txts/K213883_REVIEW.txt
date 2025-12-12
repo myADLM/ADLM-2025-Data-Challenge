@@ -1,0 +1,1023 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K213883
+B Applicant
+Hamamatsu Photonics K.K.
+C Proprietary and Established Names
+NanoZoomer S360MD Slide scanner system
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+PSY Class II 21 CFR 864.3700 88-Pathology
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Type of Test:
+Digital pathology whole slide imaging
+III Intended Use/Indications for Use:
+A Indication(s) for Use:
+The NanoZoomer S360MD Slide scanner system (“NanoZoomer System”) is an automated
+digital slide creation, viewing, and management system. The NanoZoomer System is intended
+for in vitro diagnostic use as an aid to the pathologist to review and interpret digital images of
+surgical pathology slides prepared from formalin-fixed paraffin embedded (“FFPE”) tissue. The
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PSY			Class II	21 CFR 864.3700			88-Pathology
+
+--- Page 2 ---
+NanoZoomer System is not intended for use with frozen section, cytology, or non-FFPE
+hematopathology specimens.
+The NanoZoomer System comprises the NanoZoomer S360MD Slide scanner, the NZViewMD
+Software and the JVC Kenwood JD-C240BN01A display. The NanoZoomer System is for
+creation and viewing of digital images of scanned glass slides that would otherwise be
+appropriate for manual visualization by conventional light microscopy. It is the responsibility of
+a qualified pathologist to employ appropriate procedures and safeguards to assure the validity of
+the interpretation of images obtained using NanoZoomer System.
+B Intended Use(s):
+Same as Intended Use.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+For in vitro diagnostic (IVD) use only
+D Special instrument requirements:
+• NanoZoomer S360MD Slide scanner which includes the NZAcquireMD image
+acquisition software 1.0.0
+• NZViewMD Software 1.0.0
+• Display (JVC Kenwood JD-C240BN01A)
+IV Device/System Characteristics:
+A Device Description:
+The NanoZoomer S360MD Slide scanner system is comprised of the NanoZoomer S360MD
+Slide scanner, the NZViewMD Software and the JVC Kenwood JD-C240BN01A display. It is an
+automated system for creating, viewing, and managing digital slides. Digital whole slide images
+(WSIs) of glass slides may be viewed, stored, retrieved, annotated, and/or shared, permitting the
+pathologist to make a primary diagnosis based on the review of the WSIs. The NanoZoomer
+system does not include any automated Image Analysis Applications that would constitute
+computer aided detection or diagnosis.
+The NanoZoomer S360MD Slide scanner (Slide scanner) creates digital whole slide images
+(WSIs) of conventional histological glass slides containing FFPE tissue samples. The
+NanoZoomer slide scanner can be loaded with a maximum of 360 glass slides placed in 12
+cassettes each with 30 standard-sized slides (length 75.0–76.5 mm, width 24.7–26.5 mm,
+thickness 0.9–1.2 mm). Each cassette is manually loaded with slides by the operator, with the
+slide labels facing outward so they can still be read while the cassette is loaded into the scanner.
+Once the slide’s position is secured, the macro camera located directly above the slide first takes
+a picture of the slide’s barcode image as illuminated by an overhead LED, and then takes a
+macro image of the actual tissue trans-illuminated by a flat-panel LED underneath. The slide
+holder then moves to the micro imaging position for scanning. The system automatically detects
+K213883 - Page 2 of 17
+
+--- Page 3 ---
+areas where tissues are present and scans a single overall rectangular area containing all detected
+tissues. The scanning area is automatically determined using a macro image of the slide. The
+NanoZoomer System uses its motorized stage, 20x objective lens, CMOS camera and LED to
+detect appropriate focusing points and scan the identified areas of interest. A single micro
+camera acquires one square image at a time and the acquired images (tiles) are stitched together
+to make a single composite high-resolution image. Images are automatically saved to the hard
+disk during scanning and may be viewed later by using the included viewing software. The
+NZAcquireMD software organizes all WSI tiles into a single NDPI file. Each digital image
+covers an entire slide and typically contains billions of image pixels. The NZAcquireMD
+software allows the user to operate the scanner and to store and archive digital images.
+Slides can be scanned in the non-batch mode and batch mode. In non-batch mode, a user-
+specified slide is brought onto the slide holder and the WSI (macro image) is displayed on the
+monitor. The user can draw rectangular windows manually with the mouse to specify areas to be
+scanned. The system then scans a single overall rectangular area that contains all user-specified
+scan areas.
+The NZViewMD software is a software component intended to be used with the display monitor
+(JVC Kenwood JD-C240BN01A) and runs on a separate viewing workstation PC. The
+NZViewMD software opens the WSI images acquired with slide scanner from the image storage
+attached to local network and uses the color profile to render the image data to the calibrated
+display monitor to deliver the image view at the appropriate magnification. It has the following
+functionalities: continuous panning and zooming, comparing multiple slide images
+simultaneously in multiple windows, creating annotations during review using annotation tools,
+tracking of visited areas and annotations and digital bookmarks.
+The display, a JVC Kenwood JD-C240BN01A allows the slide images to be viewed. The JVC
+Kenwood JD-C240BN01A features an IPS LCD color display with a display area of 518.4 mm ×
+324.0 mm, a resolution of 1,920 × 1,200 pixels, and an aspect ratio of 16:10, illuminated by an
+edge LED backlight.
+The NanoZoomer S360MD Slide scanner system can be connected to a server and a display
+monitor over a customer-provided local area network (LAN). The supporting networking
+hardware and software are also not part of the system and may be located in a central server
+room separately from the workstation, viewing software, and display monitor.
+B Instrument Description Information:
+1. Instrument Name:
+NanoZoomer S360MD Slide scanner system (NanoZoomer System)
+2. Specimen Identification:
+Glass slides and scanned images are identified based on the previously assigned specimen
+identifiers such as patient identifiers, barcodes, etc. Digital images of surgical pathology
+slides prepared from formalin-fixed paraffin embedded (FFPE) tissue.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes surgical pathology specimens such as biopsy or
+K213883 - Page 3 of 17
+
+--- Page 4 ---
+resection specimens which are processed using standard histology techniques. The FFPE
+tissue sections are H&E stained. Then digital images are obtained from these glass slides
+using the NanoZoomer S360MD Slide scanner.
+4. Calibration:
+When the system is launched (powered up), automatic system diagnosis is performed by the
+software using the provided calibration slides. This process evaluates the proper functioning
+of the light source, imaging sensor, and macro sensor and light source. When necessary,
+based on the automatic system diagnosis, adjustment of the shading correction and color
+balance correction features is performed automatically by the system. Monthly cleaning such
+as dusting of the scan mechanism and optical components is also performed by the user.
+System administrators and field service personnel may also complete a system check
+following the NZAcquireMD Instructions for Use and the NZTuneMD service software and
+the calibration slides. This checks correction status and acquires correction data for whole
+slide and scanned images.
+Additional calibration and quality control procedures are performed during field service
+visits following procedures provided in the NanoZoomer S360MD Maintenance Manual.
+These include annual testing of several critical components in the system and annual
+calibration of the components and the display.
+5. Quality Control
+Quality control (QC) activities are performed by the user. Prior to scanning slides using the
+NanoZoomer S360MD Slide scanner, the user conducts QC of the slides per the laboratory’s
+standards and professional guidelines (e.g., staining, cover-slipping, and barcode placement,
+etc.). After completing a scan, the user checks the image data and image quality using
+Quality Check (QC) mode in NZAcquireMD which includes the following steps:
+• Display the Scan Result screen by selecting a slide for which scanning has been
+completed.
+• Confirm scan area, focus quality, and barcode information. Confirm that the barcode
+information displayed above the slide image is consistent with the barcode label.
+• Check the slide image to ensure all tissue on the slide are present within the scan area.
+Manually verifying tissue block with the scanned images is also performed as needed. Slides
+are rescanned if necessary.
+Before reading the scanned WSIs, the pathologist should ensure that all scanned slide images
+have been imported for every case and the images are of acceptable quality for diagnostic
+purposes. The pathologist reviews scanned images from all the slides associated with a case
+before rendering a diagnosis.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Philips IntelliSite Pathology Solution
+K213883 - Page 4 of 17
+
+--- Page 5 ---
+B Predicate 510(k) Number(s):
+DEN160056
+C Comparison with Predicate(s):
+Device & Predicate
+K213883 DEN160056
+Device(s):
+NanoZoomer S360MD Slide Philips IntelliSite Pathology
+Device Trade Name
+scanner system Solution (PIPS)
+General Device
+Characteristic Similarities
+The NanoZoomer S360MD
+Slide scanner system
+(“NanoZoomer System”) is an The Philips IntelliSite Pathology
+automated digital slide
+Solution (PIPS) is an automated
+creation, viewing, and
+digital slide creation, viewing,
+management system. The
+and management system. The
+NanoZoomer System is
+PIPS is intended for in vitro
+intended for in vitro diagnostic
+diagnostic use as an aid to the
+use as an aid to the pathologist
+pathologist to review and
+to review and interpret digital
+interpret digital images of
+images of surgical pathology
+surgical pathology slides
+slides prepared from formalin-
+prepared from formalin-fixed
+fixed paraffin embedded
+paraffin embedded (FFPE)
+(“FFPE”) tissue. The
+tissue. The PIPS is not intended
+NanoZoomer System is not
+for use with frozen section,
+intended for use with frozen
+cytology, or non-FFPE
+section, cytology, or non-FFPE
+Intended Use/Indications hematopathology specimens.
+hematopathology specimens.
+For Use The PIPS comprises the Image
+Management System (IMS), the
+The NanoZoomer System
+Ultra Fast Scanner (UFS) and
+comprises the NanoZoomer
+Display. The PIPS is for creation
+S360MD Slide scanner, the
+and viewing of digital images of
+NZViewMD Software and the
+scanned glass slides that would
+JVC Kenwood JD-
+otherwise be appropriate for
+C240BN01A display. The
+manual visualization by
+NanoZoomer System is for
+conventional light microscopy.
+creation and viewing of digital
+It is the responsibility of a
+images of scanned glass slides
+qualified pathologist to employ
+that would otherwise be
+appropriate procedures and
+appropriate for manual
+safeguards to assure the validity
+visualization by conventional
+of the interpretation of images
+light microscopy. It is the
+obtained using PIPS.
+responsibility of a qualified
+pathologist to employ
+appropriate procedures and
+K213883 - Page 5 of 17
+
+[Table 1 on page 5]
+	Device & Predicate		K213883	DEN160056
+	Device(s):			
+Device Trade Name			NanoZoomer S360MD Slide
+scanner system	Philips IntelliSite Pathology
+Solution (PIPS)
+	General Device			
+	Characteristic Similarities			
+				
+Intended Use/Indications
+For Use			The NanoZoomer S360MD
+Slide scanner system
+(“NanoZoomer System”) is an
+automated digital slide
+creation, viewing, and
+management system. The
+NanoZoomer System is
+intended for in vitro diagnostic
+use as an aid to the pathologist
+to review and interpret digital
+images of surgical pathology
+slides prepared from formalin-
+fixed paraffin embedded
+(“FFPE”) tissue. The
+NanoZoomer System is not
+intended for use with frozen
+section, cytology, or non-FFPE
+hematopathology specimens.
+The NanoZoomer System
+comprises the NanoZoomer
+S360MD Slide scanner, the
+NZViewMD Software and the
+JVC Kenwood JD-
+C240BN01A display. The
+NanoZoomer System is for
+creation and viewing of digital
+images of scanned glass slides
+that would otherwise be
+appropriate for manual
+visualization by conventional
+light microscopy. It is the
+responsibility of a qualified
+pathologist to employ
+appropriate procedures and	The Philips IntelliSite Pathology
+Solution (PIPS) is an automated
+digital slide creation, viewing,
+and management system. The
+PIPS is intended for in vitro
+diagnostic use as an aid to the
+pathologist to review and
+interpret digital images of
+surgical pathology slides
+prepared from formalin-fixed
+paraffin embedded (FFPE)
+tissue. The PIPS is not intended
+for use with frozen section,
+cytology, or non-FFPE
+hematopathology specimens.
+The PIPS comprises the Image
+Management System (IMS), the
+Ultra Fast Scanner (UFS) and
+Display. The PIPS is for creation
+and viewing of digital images of
+scanned glass slides that would
+otherwise be appropriate for
+manual visualization by
+conventional light microscopy.
+It is the responsibility of a
+qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the validity
+of the interpretation of images
+obtained using PIPS.
+
+--- Page 6 ---
+safeguards to assure the
+validity of the interpretation of
+images obtained using
+NanoZoomer System.
+General Device
+Characteristic Differences
+360 slides (12 cassettes; each
+300 slides (15 glass slide racks
+Slide Feeder holds up to 30 standard-sized
+with up to 20 slides per rack)
+slides)
+Digital Imaging Sensor Color CMOS CCD (TDI line sensor)
+Proprietary software is used for
+The system’s embedded image
+image processing during
+processing software is
+acquisition and includes
+responsible for image
+autofocus and calibration.
+Image Processing Software acquisition and the processing
+of individual tiles prior to
+image composition or
+stitching.
+A micro camera acquires one A composite macro image,
+square image at a time and the which includes the slide label
+acquired images (tiles) are and a low-power image of the
+stitched together to make a entire slide, is created in
+single composite high- addition to the high-resolution
+Image Composition resolution image. A macro image of the scanned regions of
+camera image which includes interest.
+the entire slide is also created.
+In addition, the image contains
+the number of planes at the Z-
+axis if captured.
+Philips’s proprietary format,
+Hamamatsu’s NZAcquireMD
+iSyntax, is used to store and
+software organizes all WSI
+transmit the images between the
+Image File Formats tiles into a single NDPi file,
+UFS and the IMS.
+which is a proprietary file
+format.
+The NZViewMD software A software only subsystem with
+provides the user with a functionality that includes the
+continuous view across the X- ability to:
+Y plane of the WSI with the
+• View images and patient data
+ability to:
+Image Review Manipulation
+• Organize workload
+Software • View images with continuous
+• Annotate, bookmark, and/or
+panning and zooming
+tag images
+• Annotate and bookmark
+• Manually score images
+images
+• Invite and join others for a
+• Track visited areas and shared session
+K213883 - Page 6 of 17
+
+[Table 1 on page 6]
+			safeguards to assure the
+validity of the interpretation of
+images obtained using
+NanoZoomer System.	
+	General Device			
+	Characteristic Differences			
+Slide Feeder			360 slides (12 cassettes; each
+holds up to 30 standard-sized
+slides)	300 slides (15 glass slide racks
+with up to 20 slides per rack)
+Digital Imaging Sensor			Color CMOS	CCD (TDI line sensor)
+Image Processing Software			The system’s embedded image
+processing software is
+responsible for image
+acquisition and the processing
+of individual tiles prior to
+image composition or
+stitching.	Proprietary software is used for
+image processing during
+acquisition and includes
+autofocus and calibration.
+Image Composition			A micro camera acquires one
+square image at a time and the
+acquired images (tiles) are
+stitched together to make a
+single composite high-
+resolution image. A macro
+camera image which includes
+the entire slide is also created.
+In addition, the image contains
+the number of planes at the Z-
+axis if captured.	A composite macro image,
+which includes the slide label
+and a low-power image of the
+entire slide, is created in
+addition to the high-resolution
+image of the scanned regions of
+interest.
+Image File Formats			Hamamatsu’s NZAcquireMD
+software organizes all WSI
+tiles into a single NDPi file,
+which is a proprietary file
+format.	Philips’s proprietary format,
+iSyntax, is used to store and
+transmit the images between the
+UFS and the IMS.
+Image Review Manipulation
+Software			The NZViewMD software
+provides the user with a
+continuous view across the X-
+Y plane of the WSI with the
+ability to:
+• View images with continuous
+panning and zooming
+• Annotate and bookmark
+images
+• Track visited areas and	A software only subsystem with
+functionality that includes the
+ability to:
+• View images and patient data
+• Organize workload
+• Annotate, bookmark, and/or
+tag images
+• Manually score images
+• Invite and join others for a
+shared session
+
+--- Page 7 ---
+annotations • Send review requests
+• Export images to a network • Export images and generate
+server reports
+• Discrete Z-axis displacement
+VI Standards/Guidance Documents Referenced:
+1. ISO 14971: 2019 Medical devices – Application of risk management to medical devices.
+2. Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices. Guidance for Industry and Food and Drug Administration Staff, May 2005
+3. IEC60601-1:2010, AMD1:2016, IEC61010-2-101: 2018, IEC61326-2-6:2012, and FCC 47
+C.F.R. Part 15 Subpart B standards.
+4. Technical Performance Assessment of Digital Pathology Whole Slide Imaging Devices.
+Guidance for Industry and Food and Drug Administration Staff. Document issued on: April
+2016
+5. Applying Human Factors and Usability Engineering to Medical Devices. Guidance for
+Industry and Food and Drug Administration Staff. Document issued on: February 2016
+VII Performance Characteristics:
+A Analytical Performance:
+a. Precision/ Reproducibility:
+The objective of the study was to evaluate the repeatability (within- and between- scanner) and
+reproducibility (between-site) of the NanoZoomer S360MD Slide scanner system.
+The precision of the device was based on the assessment and identification of specific
+histopathologic “features” that are observed in FFPE H&E stained slides. Each enrolled case
+consisted of a single slide containing an example of a single feature, called the primary feature,
+that had been selected by the enrolling pathologist (EP). Each slide was then verified by a
+verifying enrolling pathologist (VEP). A total of 30 different primary features from 540 cases
+from a single site were enrolled, 10 each at three different magnifications (10x, 20x, and 40x). Of
+these 30 features, 21 (7 per magnification level) were chosen to be "Study" features and 9 were
+chosen to be "Sham" features. Sham features were used to reduce the risk of reader recall bias
+but the primary study endpoint for the study was only assessed based on Study feature data for
+all sub-studies. Additional features at a given magnification, called secondary features, were
+allowed to be present on the slide and did not impact the eligibility of that slide to be included in
+the study. A total of 3 sites were used in this study. The Primary Features enrolled are
+summarized in Table 1 below.
+K213883 - Page 7 of 17
+
+[Table 1 on page 7]
+	annotations
+• Export images to a network
+server
+• Discrete Z-axis displacement	• Send review requests
+• Export images and generate
+reports
+
+--- Page 8 ---
+Table 1: Features/Organs Used in the Precision Study
+Feature Magnifi Organ #1 Organ #2 Organ #3
+cation
+Small Artery 10X Placenta Kidney Lung
+Psammoma Body 10X Lymph node Dura Thyroid (Papillary
+(Metastatic Thyroid Cancer)
+Papillary Thyroid
+Cancer)
+Keratin Pearl 10X Skin Lung Head/Neck/Nose
+Granuloma 10X Lung Lymph Node Colon
+Adipose Cell 10X Soft Tissue Skin Mesentery
+Gland 10X Prostate Gastrointestinal Salivary Gland
+Tract
+Necrosis 10X Skin Prostate Colon
+Cartilage 10X Trachea Nasal Septum Larynx/Nose
+Duct 10X Prostate Pancreatic Duct Salivary Duct
+Nerve 10X Prostate Soft Tissue Skin
+Reed-Sternberg Cell 20X Mediastinum Soft Tissue Gastrointestinal Tract
+Polymorph Neutrophil 20X Bladder Lung Gastrointestinal Tract
+Plasma Cell 20X Colon Bladder Kidney
+Goblet Cell 20X Colon Gastroesophageal Bladder
+Junction
+Macrophage 20X Lung Kidney Bladder
+Foreign Body Giant Cell 20X Bladder Soft Tissue Joint
+Clear Cell of Renal 20X Kidney Bone Lung
+Carcinoma
+Myxoid Stroma 20X Heart Valve Kidney Salivary Gland
+Muscle Cell 20X Soft Tissue Bladder Uterus
+Calcification 20X Blood Vessel Soft Tissue Gastrointestinal Tract
+Cilia 40X Bronchus Nose Fallopian Tube
+Eosinophil with Granules 40X Bladder Colon Nasal Sinus
+Mitotic Figure 40X Soft Tissue Breast Bladder
+Invasive Lobular 40X Breast Stomach Bone
+Carcinoma
+Osteoid Matrix 40X Bone Osteoid/ Knee
+Osteosarcoma
+Intercellular Bridges 40X Lung Skin Head/Neck
+Hemosiderin 40X Kidney Lung Colon
+Intranuclear Inclusion 40X Thyroid Skin Dura
+Melanin Pigment 40X Skin (Melanoma) Liver Skin (Pigmentation/
+Necrosis)
+Crystals 40X Kidney Prostate Salivary Gland
+Study Inclusion Criteria:
+Glass slides were screened for the known features and were considered eligible for the study
+only if all of the following criteria applied:
+• Slides are selected from cases in a consecutive manner starting with cases at least 1 year
+old since accessioning
+• Slide is a glass H&E stained cover-slipped surgical pathology slide of human tissue
+K213883 - Page 8 of 17
+
+[Table 1 on page 8]
+Feature	Magnifi	Organ #1	Organ #2	Organ #3
+	cation			
+Small Artery	10X	Placenta	Kidney	Lung
+Psammoma Body	10X	Lymph node
+(Metastatic
+Papillary Thyroid
+Cancer)	Dura	Thyroid (Papillary
+Thyroid Cancer)
+Keratin Pearl	10X	Skin	Lung	Head/Neck/Nose
+Granuloma	10X	Lung	Lymph Node	Colon
+Adipose Cell	10X	Soft Tissue	Skin	Mesentery
+Gland	10X	Prostate	Gastrointestinal
+Tract	Salivary Gland
+Necrosis	10X	Skin	Prostate	Colon
+Cartilage	10X	Trachea	Nasal Septum	Larynx/Nose
+Duct	10X	Prostate	Pancreatic Duct	Salivary Duct
+Nerve	10X	Prostate	Soft Tissue	Skin
+Reed-Sternberg Cell	20X	Mediastinum	Soft Tissue	Gastrointestinal Tract
+Polymorph Neutrophil	20X	Bladder	Lung	Gastrointestinal Tract
+Plasma Cell	20X	Colon	Bladder	Kidney
+Goblet Cell	20X	Colon	Gastroesophageal
+Junction	Bladder
+Macrophage	20X	Lung	Kidney	Bladder
+Foreign Body Giant Cell	20X	Bladder	Soft Tissue	Joint
+Clear Cell of Renal
+Carcinoma	20X	Kidney	Bone	Lung
+Myxoid Stroma	20X	Heart Valve	Kidney	Salivary Gland
+Muscle Cell	20X	Soft Tissue	Bladder	Uterus
+Calcification	20X	Blood Vessel	Soft Tissue	Gastrointestinal Tract
+Cilia	40X	Bronchus	Nose	Fallopian Tube
+Eosinophil with Granules	40X	Bladder	Colon	Nasal Sinus
+Mitotic Figure	40X	Soft Tissue	Breast	Bladder
+Invasive Lobular
+Carcinoma	40X	Breast	Stomach	Bone
+Osteoid Matrix	40X	Bone	Osteoid/
+Osteosarcoma	Knee
+Intercellular Bridges	40X	Lung	Skin	Head/Neck
+Hemosiderin	40X	Kidney	Lung	Colon
+Intranuclear Inclusion	40X	Thyroid	Skin	Dura
+Melanin Pigment	40X	Skin (Melanoma)	Liver	Skin (Pigmentation/
+Necrosis)
+Crystals	40X	Kidney	Prostate	Salivary Gland
+
+--- Page 9 ---
+• Slide has the designated primary feature in the FOV, which is readily observable in its
+natural environment although the slide may also have one or more secondary features
+from the same magnification group in the FOV
+• Slide is not damaged, has tissue on the slide, and the staining is not faded and otherwise
+passes all quality checks
+Study Exclusion Criteria:
+Slides were excluded from the study if any of the following criteria applied:
+• Slide is unable to be scanned, contains damaged tissue or has indelible markings
+• Slide comes from an active (less than 1 year old) case
+• Slide is from a patient who already has a slide enrolled in the study, only 1 slide per
+patient to be enrolled
+Slide scanning of the same set of enrolled slides was performed sequentially at all three study
+sites. Each slide was allowed to be scanned up to a total of five times (i.e., up to four rescans).
+Once the scanning was completed, the scanning technicians at each site created TIFF images
+from each of the original scanned WSIs. These TIFF images were called field-of-view (FOV)
+images because they represented the field of view that would be observed through a microscope
+at the appropriate magnification for the feature in question. The size of the TIFF images was
+standardized to be comparable to the amount of surface area seen at the magnification for the
+case in question. These FOV images (rather than entire WSIs) were the images read by the
+reading pathologists (RPs).
+The scanning of the Study Sets was then further randomly assigned, depending on the sub-study,
+as described below:
+• Within-Scanner Sub-Study (Sub-Study 1, or SS1): Study slides were scanned three (3) times
+each on three (3) different scanners at one study site, resulting in nine (9) unique scans for
+each slide (3,402 total scans). The order in which each Set was scanned on each individual
+scanner was randomly assigned as was the order of scanners on which each Set was scanned.
+• Between-Scanner Sub-Study (Sub-Study 2, or SS2): Study slides were scanned once on three
+(3) different scanners, resulting in three (3) unique scans for each slide (1,134 total scans).
+The order in which each Set was scanned on each individual scanner was randomly assigned.
+• Between-Site Sub-Study (Sub-Study 3, or SS3): Study slides were scanned once on three (3)
+different scanners, which were at three (3) different study sites, resulting in three (3) unique
+scans for each slide (1,134 total scans). The order in which each Set was scanned was
+randomly assigned but was the same order for each site.
+A total of nine (RP participated in the study, with three participating in each sub-study. Each RP
+participated in only one sub-study. Each RP reviewed a series of FOV images during each
+reading session, with at least 14 days wash out period between sessions. The study endpoints
+were as follows:
+• Positive and negative percentage agreements (PPA, NPA) between scans from the same
+scanner (intra-scanner precision)
+• Positive and negative percentage agreements between scans from different scanners at
+the same site (inter-scanner precision)
+K213883 - Page 9 of 17
+
+--- Page 10 ---
+• Positive and negative percentage agreements between scans from different scanners at
+different sites (between-site precision)
+Within-Scanner Study:
+Each RP read 432 FOVs (378 Study FOVs/54 Sham FOVs) in each of three (3) different reading
+Sessions for a total of 1,296 reads per RP. There were 3,888 total reads performed in the within-
+scanner sub-study. Excluding the sham FOV readings led to 3,402 pairwise comparisons
+between study FOVs. Agreement rates calculated from the cross-tabulation Table for the within-
+scanner sub-study are shown in Table 3 below:
+Table 3: Within-Scanner Agreement Rates
+Number of Number of Agreement Rate and 95% CI
+System Pairwise Comparison % 95% CI
+Agreements Pairs
+Scanner 1 924 1134 94.3 (92.8, 95.7)
+Scanner 2 934 1134 95.0 (93.5, 96.3)
+Scanner 3 941 1134 94.3 (92.8, 95.7)
+Total 2799 3402 94.5 (93.7, 95.3)
+The data show that the study acceptance criterion of the lower limit of the 95% confidence
+interval of the (Average Positive Agreement) APA exceeding 85% was met.
+Between-Scanner Study:
+Each RP read 432 FOVs (378 Study FOVs/54 Sham FOVs) in each of three (3) different reading
+Sessions for a total of 1,296 reads per RP. There were 3,888 total reads performed in the inter-
+scanner sub-study. Excluding the sham FOV readings led to 3,402 pairwise comparisons
+between study FOVs. Agreement rates calculated from the cross-tabulation table for the inter-
+scanner sub-study are shown in Table 4 below:
+Table 4: Between-Scanner Agreement Rates
+Number of Number of Agreement Rate and 95% CI
+Systems Pairwise Comparison % 95% CI
+Compared Agreements Pairs
+Scanner 1 v 874 1134 92.5 (90.4, 94.2)
+Scanner 2
+Scanner 1 v 880 1134 93.1 (91.2, 94.9)
+Scanner 3
+Scanner 2 v 861 1134 91.4 (89.3, 93.4)
+Scanner 3
+Total 2615 3402 92.4 (90.7, 93.8)
+The data show that the study acceptance criterion of the lower limit of the 95% confidence
+interval of the APA exceeding 85% was met.
+K213883 - Page 10 of 17
+
+[Table 1 on page 10]
+System	Number of
+Pairwise
+Agreements	Number of
+Comparison
+Pairs	Agreement Rate and 95% CI	
+			%	95% CI
+Scanner 1	924	1134	94.3	(92.8, 95.7)
+Scanner 2	934	1134	95.0	(93.5, 96.3)
+Scanner 3	941	1134	94.3	(92.8, 95.7)
+Total	2799	3402	94.5	(93.7, 95.3)
+
+[Table 2 on page 10]
+Systems
+Compared	Number of
+Pairwise
+Agreements	Number of
+Comparison
+Pairs	Agreement Rate and 95% CI	
+			%	95% CI
+Scanner 1 v
+Scanner 2	874	1134	92.5	(90.4, 94.2)
+Scanner 1 v
+Scanner 3	880	1134	93.1	(91.2, 94.9)
+Scanner 2 v
+Scanner 3	861	1134	91.4	(89.3, 93.4)
+Total	2615	3402	92.4	(90.7, 93.8)
+
+--- Page 11 ---
+Between-Site Study:
+There were 1,134 total reads performed in the between-site substudy, and therefore 1,134
+pairwise comparisons between study FOVs. Agreement rates calculated from the cross-
+tabulation table for the inter-site sub-study are shown in Table 5 below:
+Table 5: Between Site Agreement Rates
+Number of Number of Agreement Rate and 95% CI
+Sites Pairwise Comparison % 95% CI
+Compared Agreements Pairs
+Site 1 vs. Site 2 309 378 93.1 (90.9, 94.9)
+Site 1 vs. Site 3 308 378 93.6 (91.5, 95.4)
+Site 2 vs. Site 3 310 378 93.7 (91.6, 95.5)
+Total 927 1134 93.4 (91.8, 94.9)
+The data show that the study acceptance criterion of the lower limit of the 95% confidence
+interval of the APA exceeding 85% was met.
+b. Linearity:
+Not applicable
+c. Analytical Specificity/Interference:
+Not Applicable
+d. Carry-Over:
+Not Applicable
+e. Accuracy (Instrument):
+Not Applicable
+B. Technical Studies
+Multiple studies were conducted to evaluate the performance of the NanoZoomer System as
+recommended in FDA’s guidance, Technical Performance Assessment of Digital Pathology
+Whole Slide Imaging Devices.
+a. Slide Feeder
+Information was provided on the configuration of the slide feed mechanism, including a physical
+description of the slide, the number of slides in queue (carrier), and the class of automation.
+Information was provided on the user interaction with the slide feeder, including hardware,
+software, feedback mechanisms, and Failure Mode and Effects Analysis (FMEA).
+b. Light Source
+Descriptive information associated with the LED was provided. Testing information was
+provided to verify the intensity and spectral variation of the LED light incident on the slide over
+time.
+K213883 - Page 11 of 17
+
+[Table 1 on page 11]
+Sites
+Compared	Number of
+Pairwise
+Agreements	Number of
+Comparison
+Pairs	Agreement Rate and 95% CI	
+			%	95% CI
+Site 1 vs. Site 2	309	378	93.1	(90.9, 94.9)
+Site 1 vs. Site 3	308	378	93.6	(91.5, 95.4)
+Site 2 vs. Site 3	310	378	93.7	(91.6, 95.5)
+Total	927	1134	93.4	(91.8, 94.9)
+
+--- Page 12 ---
+c. Imaging Optics
+An Optical schematic with all optical elements identified from slide (object plane) to image
+sensor (micro camera) was provided. Descriptive information regarding the microscope objective
+and the magnification of imaging optics was provided. Testing information regarding the
+magnification, relative irradiance, optical distortions, and chromatics aberrations was provided.
+d. Mechanical Scanner Movement
+Information and specifications on the configuration of the stage, method of movement, control of
+movement of the stage, and FMEA was provided. Test data to determine positioning accuracy
+and repeatability for the X-Y and Z stages was provided.
+e. Digital Imaging Sensor
+Information and specifications on the sensor type, pixel information, responsivity specifications,
+noise specifications, readout rate, and digital output format were provided. Testing to measure
+and evaluate linearity, spatial uniformity, dark current, noise, opto-electronic conversion
+function, and electron conversion factor of the sensor was provided.
+f. Image Processing Software
+Information and specifications on the exposure control, white balance, color correction, sub-
+sampling, pixel-offset correction, shading (flat-field) correction, and pixel-defect correction were
+provided. Testing confirmed that the pixel offset correction, shading and white balance, and
+color correction matrix functions work correctly.
+g. Image Composition
+Information and specifications on the scanning method and Z-stack depth, was provided. Test
+data to analyze the image composition performance was provided.
+h. Image Files Format
+Information and specifications on the compression method, compression ratio, file format, and
+file organization were provided. Testing demonstrated compression specifications were met.
+i. Image Review Manipulation Software
+Information and specifications for continuous panning, continuous zooming, discrete Z-axis
+displacement, comparison of slides in multiple windows, annotation tools, image enhancement,
+color manipulation (not for use in diagnostic procedures), tracking of visited areas and digital
+bookmarks was provided. Testing demonstrated the alignment precision of Z-stack images.
+j. Computer Environment
+Information and specifications on the computer hardware, operating system, memory, hard disk,
+graphics card, graphics card driver, color management settings, color profile, display interface
+and network were provided.
+k. Display
+K213883 - Page 12 of 17
+
+--- Page 13 ---
+Information and specifications on the technological characteristics of the display device, physical
+size of the viewable area and aspect ratio, backlight type and properties, frame rate and refresh
+rate, pixel array, pitch, pixel aperture ratio and subpixel matrix scheme, subpixel driving to
+improve grayscale resolution, supported color spaces, display interface, user controls of
+brightness, contrast, gamma, color space, power-saving options, etc., via the on-screen display
+menu, color calibration tools, and frequency and nature of quality-control tests was provided.
+Test data to verify the performance of the display was provided.
+l. Color Reproducibility
+Test data to quantify the accuracy and precision of the color transformation from the slide to the
+display monitor was provided.
+m. Spatial Resolution
+Test data to evaluate the spatial resolution, including the composite optical performance of all
+components in the image acquisition phase was provided.
+n. Focusing Test
+Test data to demonstrate that the focus quality is clinically acceptable for a variety of histologic
+preparations, including different tissue types, stain intensities, specimen thicknesses, and stain
+types was provided.
+o. Whole Slide Tissue Coverage
+Test data to demonstrate that the entire tissue specimen on the clinical slide is detected by device
+was provided.
+p. Stitching Error
+Test data to assess the quality of WSI stitching boundaries for clinical slides exhibiting a variety
+of histologic preparations, including different tissue types, stain intensities, specimen
+thicknesses, and stain types was provided.
+q. Turnaround Time
+Test data to evaluate the average time required to execute zooming and panning operations, and
+to refresh the display in response to user input was provided.
+C. Human Factors Study
+Human factors studies were designed around user critical tasks, and use scenarios performed by
+users were conducted. There were three intended users for the NanoZoomer: Scan Technicians,
+Pathologists and Maintenance Engineers. A total of 15 test subjects were used. For each intended
+user group, validation tests were conducted separately. A systematic evaluation of task-based
+usability including essential task as and critical tasks required for operation of the device were
+evaluated at multiple sites using multiple users. The NanoZoomer S360MD has been found to be
+reasonably safe and effective for all of the intended users (i.e., the Scan Technicians,
+K213883 - Page 13 of 17
+
+--- Page 14 ---
+Pathologists and Maintenance Engineers), uses and use environments. Overall, the results of the
+human factors testing are acceptable.
+D. Clinical Studies
+A retrospective multi-center study was conducted to demonstrate that viewing, reviewing, and
+diagnosing digital images of surgical pathology FFPE tissue slides using the Hamamatsu
+NanoZoomer S360MD Slide scanner system (“WSI”) is non-inferior to using conventional light
+microscopy (“glass”) under clinical use conditions. The study consisted of reviewing archived,
+de-identified and previously “signed-out” slides representing main organ systems within surgical
+pathology. Cases included retrospective H&E stained FFPE tissue, special stains and/or
+immunohistochemical stains (IHC) from the pathology practice, but did not include frozen
+sections, or cytological and hematological cases.
+A total of 2,000 cases consisting of multiple organs and tissue types were enrolled in the study at
+four sites (500 cases per site) including difficult and challenging cases. At each site, four
+pathologists read all the cases assigned to their site using both WSI and glass methods in a
+randomized order and with a washout period of at least four weeks between readings, resulting in
+a total of 8,000 planned WSI reads and 8,000 planned glass reads. After the reader pathologist
+completed a primary diagnosis case report form (CRF) at a site, two pathologist adjudicators
+reviewed the study reader’s diagnosis and compared it with the original “signed out” diagnosis
+(reference) to determine concordance, minor discordance or major discordance between the
+study diagnosis (by WSI and glass methods) and original “signed out” diagnosis. A third
+pathologist adjudicator was used if disagreement occurred between the first two adjudicators on
+the classification of a “major” discordance. The original signed-out diagnosis is based on the
+original sign-out pathologic diagnosis rendered at the institutions using an optical (light)
+microscope. A major discordance was defined as a difference in diagnosis that would be
+associated with a clinically important difference in patient management. A minor discordance
+was defined as a difference in diagnosis that would not be associated with a clinically important
+difference in patient management.
+The acceptance criteria were as follows:
+• The upper bound of the two-sided 95% CI of the difference between the overall major
+discordance rates of WSI diagnoses and Glass diagnoses is ≤4%.
+• The major discordance rate of the WSI diagnoses is ≤7%.
+Key Case and Slide Study Inclusion Criteria:
+Cases were eligible to be included in the study only if all of the following criteria applied:
+• Cases originating from and that were diagnosed at that local site
+• Cases are available in the site’s archive
+• Cases are at least 1 year old since accessioning
+• Cases are selected because their primary diagnosis is consistent with the assigned target
+categories as specified in the study protocol
+• Cases have a set of slides representative of the primary diagnosis for which it has been
+selected.
+• Slide is obtained by surgical pathology and prepared from FFPE human tissue
+• Slides must be stained with H&E and accompanying special stains and/or IHC stains
+K213883 - Page 14 of 17
+
+--- Page 15 ---
+• A chosen slide must demonstrate and be representative of the primary diagnosis; 1 H&E
+slide selection may suffice for biopsy cases,
+• For resection cases, a minimum of 5 H&E slides must be selected, which represent the
+primary diagnosis. If represented with less than 5 H&E slides, additional H&E slides
+(primary, secondary, or benign slides) from same case may be used to fulfill minimum
+number
+• Slide is intact, has correct size/thickness, good edges, undamaged coverslip, without pen
+markings that can’t be removed, no air bubbles, tidy labels, and fulfills the quality checks
+per the general clinical practice
+Key Case and Slide Study Exclusion Criteria:
+Cases were excluded from the study if any of the following criteria applied:
+• Case does not have relevant slides or if case information necessary for the study is missing
+• Case is still active (less than 1 year old) at the local site
+• Cases for which the control slides for immunohistochemistry and special stains are not available
+• Two cases from same individual
+• Gross-only cases that have no slides
+• Cases that are frozen section, cytology or hematology or immunofluorescence specimens
+only
+• Case where the only available set of slides have evidence only of secondary or no
+diagnoses and not the primary diagnosis for which the case is being screened.
+• Glass slide that is broken, has abnormal size/thickness, beveled edges, poor coverslip
+(cracks, waviness, scratches), is sticky, has many pen markings or dirt that cannot be
+removed, contains air bubbles and overhanging labels that can’t be corrected, and if stain
+is severely faded.
+Over all four sites, there were a total of 15,995 diagnoses (7,997 digital and 7,998 optical). The
+overall major discordance rate, as observed over all sites, reading pathologists and organs, was
+3.5% for WSI and 3.1% for glass. The major discordance rates as estimated by a logistic model
+(mixed-model repeated-measures logistic regression) resulted in very similar, slightly lower
+proportions of 3.5% for WSI and 3.1% for glass. The WSI-glass difference in the major
+discordance rate was 0.4%, with a two-sided 95% Cl of [−0.10%, 1.0%] derived from a delta
+method approximation. The upper limit of this confidence interval was less than the pre-specified
+non-inferiority margin of 4%, therefore the WSI method using the Hamamatsu NanoZoomer
+S360MD Slide scanner system is considered non-inferior to the glass method.
+Table 9: Primary Analysis of WSI Non-Inferiority to Glass
+WSI Major Discordance Glass Major Discordance Difference
+Rate Rate WSI – Glass
+N % 95% CI N % 95% CI % 95% CI
+Observed 7997 3.5% - 7998 3.1% - 0.4% -
+Modeled 7997 3.5% 2.6%, 4.7% 7998 3.1% 2.2%, 4.2% 0.4% -0.1%, 1.0%
+These results meet the two pre-specified acceptance criteria for the study. Specifically, the major
+discordance rate for the WSI modality, which was 3.5%, was required to be <7.0% and the upper
+limit of the 95% confidence interval of the difference in major discordance rate between the
+modalities (WSI-Glass), which was 1.0%, was required to be <4.0%.
+K213883 - Page 15 of 17
+
+[Table 1 on page 15]
+	WSI Major Discordance			Glass Major Discordance			Difference	
+	Rate			Rate			WSI – Glass	
+								
+	N	%	95% CI	N	%	95% CI	%	95% CI
+								
+Observed	7997	3.5%	-	7998	3.1%	-	0.4%	-
+Modeled	7997	3.5%	2.6%, 4.7%	7998	3.1%	2.2%, 4.2%	0.4%	-0.1%, 1.0%
+
+--- Page 16 ---
+Table 10: Major Discordance Rates by Organ
+WSI Major Glass Major WSI-Glass
+Discordance Discordance Difference
+Organ N % N % % Difference
+Breast Observed 1198 5.3% 1200 4.8% 0.6%
+Modeled 1198 5.2% 1200 4.6% 0.6%
+Prostate Observed 1200 1.2% 1200 1.8% -0.7%
+Modeled 1200 1.2% 1200 1.8% -0.7%
+Respiratory* Observed 400 10.3% 400 9.8% 0.5%
+Modeled 400 10.4% 400 9.9% 0.5%
+Colorectal Observed 600 0.7% 600 0.5% 0.2%
+Modeled 600 0.7% 600 0.5% 0.2%
+GE Junction Observed 400 6.0% 400 3.5% 2.5%
+Modeled 400 6.1% 400 3.5% 2.5%
+Stomach Observed 400 1.5% 400 0.8% 0.8%
+Modeled 400 1.5% 400 0.7% 0.7%
+Skin Observed 700 5.7% 700 4.6% 1.1%
+Modeled 700 5.7% 700 4.6% 1.1%
+Lymph Node Observed 400 1.8% 400 1.8% 0.0%
+Modeled 400 1.8% 400 1.8% 0.0%
+Bladder Observed 400 6.3% 400 4.3% 2.0%
+Modeled 400 6.2% 400 4.2% 2.0%
+Gynecological Observed 600 3.5% 600 3.5% 0.0%
+Modeled 600 3.6% 600 3.6% -0.0%
+Liver/ Observed 200 2.0% 200 1.5% 0.5%
+Bile Duct Modeled 200 2.0% 200 1.5% 0.5%
+Endocrine Observed 400 4.5% 400 3.3% 1.3%
+Modeled 400 4.5% 400 3.3% 1.2%
+Brain/Neuro Observed 240 0.8% 240 0.4% 0.4%
+Modeled 240 0.8% 240 0.4% 0.4%
+Kidney Observed 200 0.5% 200 1.5% -1.0%
+Modeled 200 0.5% 200 1.5% -1.0%
+Salivary Gland Observed 200 1.0% 199 1.5% -0.5%
+Modeled 200 1.0% 199 1.5% -0.5%
+Hernial/Peritoneal+ Observed 40 0.0% 40 0.0% 0.0%
+Gallbladder+ Observed 40 0.0% 40 0.0% 0.0%
+Appendix# Observed 40 5.0% 40 0.0% 5.0%
+Soft Tissue Tumors# Observed 79 1.3% 79 0.0% 1.3%
+Anus/Perianal Observed 200 2.0% 200 3.5% -1.5%
+Modeled 200 2.0% 200 3.5% -1.5%
+Other+ Observed 60 0.0% 60 0.0% 0.0%
+*Includes Lung, Bronchus, Larynx, Oral Cavity, & Nasopharynx
++ MMRM could not be fit for organs for which no major discordances were observed: Hernial/Peritoneal, Gallbladder,
+and Other miscellaneous.
+# MMRM failed to converge for Appendix and Soft Tissue Tumors
+K213883 - Page 16 of 17
+
+[Table 1 on page 16]
+							WSI Major						Glass Major						WSI-Glass	
+							Discordance						Discordance						Difference	
+	Organ						N			%			N			%			% Difference	
+Breast			Observed				1198			5.3%			1200			4.8%			0.6%	
+			Modeled				1198			5.2%			1200			4.6%			0.6%	
+Prostate			Observed				1200			1.2%			1200			1.8%			-0.7%	
+			Modeled				1200			1.2%			1200			1.8%			-0.7%	
+Respiratory*			Observed				400			10.3%			400			9.8%			0.5%	
+			Modeled				400			10.4%			400			9.9%			0.5%	
+Colorectal			Observed				600			0.7%			600			0.5%			0.2%	
+			Modeled				600			0.7%			600			0.5%			0.2%	
+GE Junction			Observed				400			6.0%			400			3.5%			2.5%	
+			Modeled				400			6.1%			400			3.5%			2.5%	
+Stomach			Observed				400			1.5%			400			0.8%			0.8%	
+			Modeled				400			1.5%			400			0.7%			0.7%	
+Skin			Observed				700			5.7%			700			4.6%			1.1%	
+			Modeled				700			5.7%			700			4.6%			1.1%	
+Lymph Node			Observed				400			1.8%			400			1.8%			0.0%	
+			Modeled				400			1.8%			400			1.8%			0.0%	
+Bladder			Observed				400			6.3%			400			4.3%			2.0%	
+			Modeled				400			6.2%			400			4.2%			2.0%	
+Gynecological			Observed				600			3.5%			600			3.5%			0.0%	
+			Modeled				600			3.6%			600			3.6%			-0.0%	
+Liver/
+Bile Duct			Observed				200			2.0%			200			1.5%			0.5%	
+			Modeled				200			2.0%			200			1.5%			0.5%	
+Endocrine			Observed				400			4.5%			400			3.3%			1.3%	
+			Modeled				400			4.5%			400			3.3%			1.2%	
+Brain/Neuro			Observed				240			0.8%			240			0.4%			0.4%	
+			Modeled				240			0.8%			240			0.4%			0.4%	
+Kidney			Observed				200			0.5%			200			1.5%			-1.0%	
+			Modeled				200			0.5%			200			1.5%			-1.0%	
+Salivary Gland			Observed				200			1.0%			199			1.5%			-0.5%	
+			Modeled				200			1.0%			199			1.5%			-0.5%	
+Hernial/Peritoneal+			Observed				40			0.0%			40			0.0%			0.0%	
+Gallbladder+			Observed				40			0.0%			40			0.0%			0.0%	
+Appendix#			Observed				40			5.0%			40			0.0%			5.0%	
+Soft Tissue Tumors#			Observed				79			1.3%			79			0.0%			1.3%	
+Anus/Perianal			Observed				200			2.0%			200			3.5%			-1.5%	
+			Modeled				200			2.0%			200			3.5%			-1.5%	
+Other+			Observed				60			0.0%			60			0.0%			0.0%	
+
+--- Page 17 ---
+Overall, these results demonstrate that the NanoZoomer S360MD Slide scanner system is safe
+and effective when used by pathologists for primary diagnoses purposes.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K213883 - Page 17 of 17

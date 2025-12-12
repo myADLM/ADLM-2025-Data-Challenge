@@ -1,0 +1,81 @@
+Standard Operating Procedure (SOP)
+1. PURPOSE The purpose of this SOP is to detail the analytical
+phase procedures for generating results for the Acute Porphyria
+Gene Panel. This protocol ensures accurate and reliable
+identification of genetic variants associated with acute
+porphyria, utilizing next-generation sequencing (NGS)
+technology.
+Responsibility: Designated laboratory personnel are responsible for
+performing, documenting, and reporting all analytical phase
+procedures outlined below. Supervisor oversight is required for
+troubleshooting and validation of results.
+1. DEFINITION The Acute Porphyria Gene Panel targets specific
+genes associated with acute porphyria, including but not limited
+to PBGD, HMBS, ALAD, UROD, and PPOX. Genetic variants in
+these genes affect enzymatic function in the heme biosynthetic
+pathway, leading to porphyria symptoms.
+2. PROCEDURE A) Sample Preparation:
+◦ Extract DNA from collected blood samples using an
+appropriate extraction kit, following manufacturer’s
+instructions.
+◦ Quantify and assess the quality of isolated DNA using
+spectrophotometry (e.g., Nanodrop) and agarose gel
+electrophoresis.
+◦ DNA concentration should be no less than 10 ng/µL and free
+of contaminants.
+B) Library Preparation: - Utilize a targeted NGS library preparation kit
+specific for the Acute Porphyria Gene Panel. - Follow the
+manufacturer's instructions for library enrichment, adapter ligation,
+and PCR amplification. - Assess library quality and concentration
+using a TapeStation or Bioanalyzer.
+C) Sequencing: - Load prepared libraries onto an NGS platform (e.g.,
+Illumina MiSeq or NextSeq) per instrument protocol. Ensure that
+sequencing parameters are optimized for target depth and coverage.
+- Perform sequencing according to the manufacturer's guidelines.
+D) Data Analysis: - Process raw sequencing data using appropriate
+bioinformatics pipelines. This includes but is not limited to alignment
+to a reference genome, variant calling, and annotation. - Utilize
+software tools and databases (e.g., GATK, ANNOVAR) for variant
+analysis and interpretation. Mark clinically significant variants and
+curate a report. - Cross-check identified variants with established
+databases (e.g., ClinVar) and literature for validation.
+E) Quality Control: - Run positive and negative control samples
+alongside patient samples to ensure methodological accuracy. -
+Monitor sequencing metrics, including read depth, coverage
+uniformity, and error rates. Acceptable read depth for target genes
+should be no less than 30x. - Document all QC results and actions
+taken in the case of deviation from expected outcomes.
+F) Result Reporting: - Generate a comprehensive report of identified
+variants, including potential clinical significance and
+recommendations for follow-up. - Verify and validate results
+according to laboratory protocols. Ensure that all results are reviewed
+by a clinical geneticist or pathologist. - Record validated results in the
+Laboratory Information System (LIS) and report to the ordering
+clinician.
+1. REPORTING RESULTS
+◦ Refer to site-specific guidelines for reporting genetic test
+results.
+◦ Ensure that the report is clear and includes interpretation of
+the genetic variants, potential clinical impact, and
+recommendations for further genetic counseling or
+additional testing.
+2. REFERENCE INTERVALS
+◦ Given that genetic analysis outcome consists of detected
+variants rather than quantitative values, no standard
+reference intervals are required. Instead, the clinical
+significance of each variant is established according to
+current scientific and clinical evidence.
+3. METHOD LIMITATIONS:
+◦ NGS technology may have limitations in detecting certain
+variant types, such as large indels or structural variations.
+Confirm limitations with supplementary testing if indicated.
+◦ Refer to vendor guidelines and literature for detailed
+potential limitations of the reagents used in this procedure.
+4. REFERENCES:
+◦ Refer to manufacturer's manual and package insert for
+library preparation and NGS platform-specific instructions.
+◦ Clinical guidelines and publications related to porphyria
+genetics.
+Document History: - Prepared by: (Name) - Effective Date: (Date) -
+Review Date: (Date) - Next Review Due: (Date)
+Approved by: (Signature of Approving Authority)

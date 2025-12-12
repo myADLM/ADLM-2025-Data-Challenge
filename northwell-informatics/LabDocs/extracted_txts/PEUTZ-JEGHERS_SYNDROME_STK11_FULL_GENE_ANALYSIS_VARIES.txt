@@ -1,0 +1,126 @@
+Standard Operating Procedure (SOP) for PEUTZ-JEGHERS
+SYNDROME, STK11, FULL GENE ANALYSIS
+1. PURPOSE
+This procedure outlines the steps to be followed for the accurate and
+reliable analysis of the STK11 gene in patients suspected of having
+Peutz-Jeghers Syndrome (PJS). This full gene analysis includes the
+detection of known and novel variants that may be associated with
+the condition.
+Responsibility:
+Designated laboratory personnel are responsible for performing the
+analysis, documenting the results, and ensuring the proper
+maintenance of all equipment and reagents as outlined in this
+procedure. It is the responsibility of the laboratory supervisor to
+ensure compliance with this SOP and to address any deviations or
+unexpected findings.
+2. DEFINITIONS
+STK11 (serine-threonine kinase 11) is a gene associated with Peutz-
+Jeghers Syndrome. This condition is characterized by the
+development of noncancerous polyps in the gastrointestinal tract and
+pigmented macules on the skin and mucous membranes. Full gene
+analysis involves sequencing all exons and exon-intron boundaries of
+the STK11 gene to identify pathogenic mutations.
+3. MATERIALS AND EQUIPMENT
+• DNA extraction kits
+• Microcentrifuge
+• Nucleic acid quantification equipment (e.g., Nanodrop, Qubit)
+• Thermal cycler for PCR
+• PCR reagents and primers for amplification of STK11 exons
+• Agarose gel electrophoresis apparatus
+• Real-time PCR system (if required)
+• Sanger sequencing equipment or Next-Generation Sequencing
+(NGS) platform
+• Sequencing reagents and consumables
+• Bioinformatics software for sequence alignment and variant
+annotation
+• Laboratory Information System (LIS) for documentation and
+reporting
+4. PROCEDURE
+A. DNA Extraction
+1. Specimen Preparation:
+◦ Use peripheral blood collected in EDTA tubes or buccal
+swabs as the starting material.
+◦ Store blood samples at 4°C if not processed immediately
+and do not keep beyond one week.
+2. Extraction:
+◦ Follow the manufacturer’s instructions for the DNA
+extraction kit.
+◦ Quantify the DNA using spectrophotometry (e.g., Nanodrop)
+or fluorometry (e.g., Qubit) and record the concentration.
+◦ Ensure the DNA purity (A260/A280 ratio of 1.8–2.0 is
+acceptable).
+B. Polymerase Chain Reaction (PCR)
+1. Primer Design:
+◦ Design or order primers flanking each exon and exon-intron
+boundary of the STK11 gene. Ensure specificity and proper
+GC content.
+2. PCR Amplification:
+◦ Set up PCR reactions using standardized protocols.
+◦ Include negative (no DNA) and positive controls (known
+STK11 variant or wild-type template).
+◦ Verify the amplification by agarose gel electrophoresis.
+C. Sequencing
+1. Preparation:
+◦ Purify PCR products to remove excess primers and
+nucleotides using a suitable purification method (e.g.,
+ExoSAP-IT).
+2. Sanger Sequencing:
+◦ Follow the standard procedure for cycle sequencing.
+◦ Include proper controls to monitor sequencing quality.
+◦ Perform capillary electrophoresis to separate and visualize
+the sequencing products. OR
+Next-Generation Sequencing (NGS):
+• Create a sequencing library following the NGS platform protocol.
+• Perform sequencing on the NGS instrument, ensuring adequate
+coverage and quality control.
+D. Data Analysis
+1. Alignment:
+◦ Align sequencing reads to the reference STK11 gene
+sequence using bioinformatics tools (e.g., BWA, Bowtie).
+2. Variant Calling:
+◦ Identify variants using appropriate software (e.g., GATK,
+VarScan).
+◦ Annotate variants using databases and tools (e.g., ClinVar,
+dbSNP).
+3. Interpretation:
+◦ Classify variants according to ACMG guidelines (American
+College of Medical Genetics and Genomics).
+◦ Review and interpret any pathogenic or likely pathogenic
+variants in the context of PJS.
+E. Reporting
+• Verify all results within the LIS.
+• Provide detailed reports of findings, including variant descriptions,
+classification, and clinical significance.
+• Include recommendations for further testing or family studies if
+appropriate.
+• Ensure the report is reviewed and signed by a qualified medical
+geneticist or pathologist.
+5. QUALITY CONTROL
+• Perform all analytical steps with stringent quality control
+measures.
+• Include positive and negative controls with each batch of tests.
+• Cross-check sequencing results with an independent method or
+replicate sequencing as necessary.
+• Regularly calibrate and maintain all equipment, recording this in
+the equipment log.
+6. LIMITATIONS
+• False-negative results could arise due to low-level mosaicism or
+large deletions/duplications not detected by PCR/Sanger
+sequencing.
+• NGS-based methods may have limitations in detecting low-
+frequency variants.
+7. REFERENCES
+• Refer to the latest literature, technical manuals, and guidelines
+including those from the CDC, ACMG, and other relevant
+organizations.
+• Online databases such as ClinVar and dbSNP for variant
+interpretation.
+8. RECORDING AND DOCUMENTATION
+• Maintain records of all procedures, results, and quality controls in
+compliance with CLIA regulations.
+• Ensure all patient information is handled according to HIPAA
+guidelines.
+By adhering to this SOP, the laboratory can ensure the accurate and
+reliable analysis of the STK11 gene in patients suspected of having
+Peutz-Jeghers Syndrome. This enables appropriate clinical
+interpretation and patient management.

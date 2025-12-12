@@ -1,0 +1,110 @@
+Standard Operating Procedure (SOP)
+Analytical Phase: Generating Results for Telomere Biology
+Disorders Gene Panel
+1. PURPOSE
+This protocol outlines the procedures for the analysis and generation
+of results for the Telomere Biology Disorders Gene Panel. This
+includes the steps following specimen accessioning up to the
+reporting of generated results. The aim is to ensure accuracy,
+reliability, and reproducibility in the analytical phase.
+Responsibility:
+• It is the responsibility of the Medical Laboratory Scientist (MLS) to
+follow the outlined procedures for the analysis.
+• It is the responsibility of the Supervisors to ensure that all aspects
+of the protocol are followed accurately.
+2. DEFINITIONS
+Telomere Biology Disorders Gene Panel: A genetic test analyzing
+multiple genes associated with telomere biology disorders, typically
+involving next-generation sequencing (NGS).
+NGS (Next-Generation Sequencing): A high-throughput
+methodology that enables rapid sequencing of the base pairs in DNA
+or RNA samples.
+3. PROCEDURE
+A) DNA Extraction:
+1. Sample Preparation:
+◦ Approved specimen types: Whole blood, buccal swabs,
+saliva.
+◦ Minimum DNA concentration: 20 ng/µl.
+◦ Minimum purity: A260/A280 ratio between 1.8-2.0.
+2. Extraction Protocol:
+◦ Use a validated commercial DNA extraction kit following the
+manufacturer’s instructions.
+◦ Quantify DNA using a fluorometer and assess purity using a
+spectrophotometer.
+◦ Store extracted DNA at -20°C until ready for library
+preparation.
+B) Library Preparation:
+1. DNA Shearing:
+◦ Shear genomic DNA to appropriate fragment sizes
+(approximately 200-300 base pairs) using a sonicator.
+2. End-Repair, A-Tailing and Adapter Ligation:
+◦ Perform end-repair and A-tailing of sheared DNA fragments.
+◦ Ligate barcoded sequencing adapters to the A-tailed DNA
+fragments.
+3. Library Amplification and Purification:
+◦ Amplify adapter-ligated DNA with appropriate primers.
+◦ Purify the library using magnetic beads following
+manufacturer’s protocol.
+C) Library Quality Control:
+1. Quantification and Size Assessment:
+◦ Use a Bioanalyzer or TapeStation to assess the size
+distribution of the library.
+◦ Quantify libraries using qPCR or fluorometry.
+D) Sequencing:
+1. Loading Libraries onto Sequencer:
+◦ Pool libraries at equimolar concentrations.
+◦ Load pooled libraries onto the NGS sequencer following
+manufacturer's protocols.
+◦ Initiate the sequencing run.
+E) Data Analysis:
+1. Base Calling and Alignment:
+◦ Convert raw sequencing data (BCL files) to FASTQ files.
+◦ Align sequences to the human reference genome (hg19 or
+hg38) using a suitable aligner (e.g., BWA).
+2. Variant Calling:
+◦ Use a variant caller (e.g., GATK or DeepVariant) to identify
+single nucleotide variants (SNVs) and insertions/deletions
+(indels).
+◦ Filter variants based on quality scores and read depth.
+3. Annotation:
+◦ Annotate variants using databases like dbSNP, ClinVar, and
+HGMD.
+◦ Determine the clinical significance of variants using
+available guidelines.
+F) Reviewing and Reporting Results:
+1. Interpretation:
+◦ Cross-reference variants with patient history and clinical
+data.
+◦ Classify variants according to ACMG guidelines.
+2. Review Process:
+◦ Independent review by at least two molecular geneticists or
+certified MLS.
+◦ Clinical validation as necessary.
+3. Reporting:
+◦ Compile a comprehensive report summarizing the findings.
+◦ Include information on detected variants, their clinical
+significance, and any relevant recommendations.
+◦ The report should be reviewed and signed off by a certified
+genomic pathologist or laboratory director.
+G) Quality Control and Assurance:
+1. Internal Controls:
+◦ Include internal controls at each stage (DNA extraction,
+library preparation, sequencing, and data analysis).
+2. External Quality Assessment:
+◦ Participate in proficiency testing programs annually.
+4. REFERENCES
+• Manufacturer’s instructions for DNA extraction kits and library
+preparation kits.
+• GATK Best Practices for variant discovery.
+• ACMG Guidelines for variant classification.
+• Latest literature on telomere biology disorders and gene panel
+testing.
+5. DOCUMENT REVIEW AND APPROVAL
+• Last reviewed: [October 2023]
+• Next review due: [October 2024]
+• Approved by: [Laboratory Director's Name and Signature]
+• Reviewed by: [Reviewer’s Name and Signature]
+This SOP is designed to ensure the reliability and accuracy of the
+results generated for Telomere Biology Disorders Gene Panel testing.
+Adherence to these steps will ensure the quality of testing and
+reporting.

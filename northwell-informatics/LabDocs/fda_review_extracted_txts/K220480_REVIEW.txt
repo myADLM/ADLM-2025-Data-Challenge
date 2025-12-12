@@ -1,0 +1,324 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K220480
+B Applicant
+Meridian Bioscience, Inc
+C Proprietary and Established Names
+Revogene
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.2570 -
+Instrumentation For
+OOI Class II CH - Clinical Chemistry
+Clinical Multiplex Test
+Systems
+II Submission/Device Overview:
+A Purpose for Submission:
+To update the current Revogene software with a PMT surveillance algorithm that includes an
+improvement to the Revogene System Software’s management of fluorescence results. This
+change does not affect the device’s intended use nor alter the device’s fundamental scientific
+technology.
+B Type of Test:
+Real-time PCR
+III Intended Use/Indications for Use:
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+OOI			Class II	21 CFR 862.2570 -
+Instrumentation For
+Clinical Multiplex Test
+Systems			CH - Clinical Chemistry
+
+--- Page 2 ---
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The Revogene instrument is intended for in vitro diagnostic (IVD) use in performing nucleic acid
+testing of specific IVD assays in clinical laboratories. Revogene is capable of automated lysis
+and dilution of samples originating from various clinical specimen types. Revogene performs
+automated amplification and detection of target nucleic acid sequences by fluorescence-based
+real-time PCR.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+The Revogene instrument was cleared under K170558 and is used with the following Revogene
+cleared assays:
+• Revogene GBS LB (cleared on May 25, 2017 under the name of GenePOC GBS LB,
+K170557, software version 3.1.5 and firmware version 0.3.4);
+• Revogene C. difficile (cleared on November 22, 2017 under the name of GenePOC CDiff,
+K172569, software version 3.2.1 and firmware version 0.3.4);
+• Revogene Strep A (cleared on March 6, 2019 under the name of GenePOC Strep A,
+K183366, software version 4.0.10 and firmware version 2.1.0);
+• Revogene Carba C (cleared on May 10, 2019 under the name of GenePOC Carba,
+K190275, software version 4.0.10 and firmware version 2.1.0)
+Briefly, the Revogene instrument is similar to a low-speed centrifuge to which are attached the
+necessary components to perform the different steps of the diagnostic tests. It uses a disposable
+microfluidic cartridge (named PIE) that contains the reagents required for analyte detection. The
+Revogene can process from one (1) up to a maximum of eight (8) samples simultaneously in the
+same run. The instrument must contain eight (8) PIEs. If eight (8) PIEs are not available, empty
+spaces should be filled with MOCK PIEs.
+The Revogene System is composed of the following:
+• The Revogene instrument
+• Revogene IVD Assays
+• MOCK PIEs [A MOCK PIE mimics a test PIE and is used to complete the rotor when
+less than eight (8) samples are processed in a single run. MOCK PIEs help maintain the
+thermodynamic balance within a run]
+In K220480, the device has been modified to implement a software change to Revogene that
+updates the current software with a PMT surveillance algorithm. The software monitors raw data
+fluorescence signal during assay testing and identifies issues due to a malfunction of the
+photomultiplier tube (the “PMT”), a key component in the Revogene’s optics system used in the
+management of fluorescence signals. Upon detection of a PMT malfunction, the PMT
+K220480 - Page 2 of 6
+
+--- Page 3 ---
+surveillance algorithm software produces a specific error code to the user labeled “Detection
+Error” and will lock the instrument thereby preventing further use.
+Please refer to K170558 for additional information about the Revogene System.
+B Instrument Description Information:
+1. Instrument Name:
+Revogene
+2. Specimen Identification:
+See K170558
+3. Specimen Sampling and Handling:
+See K170558
+4. Calibration:
+See K170558
+5. Quality Control:
+See K170558
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Revogene
+B Predicate 510(k) Number(s):
+K170558
+C Comparison with Predicate(s):
+Device & Predicate K220480 K170558
+Device(s): (Subject Device) (Predicate Device)
+Device Trade Name Revogene Revogene
+General Device
+Characteristic Similarities
+The Revogene instrument is
+intended for in vitro
+Intended Use/Indications diagnostic (IVD) use in
+Same
+For Use performing nucleic acid
+testing of specific IVD
+assays in clinical
+K220480 - Page 3 of 6
+
+[Table 1 on page 3]
+	Device & Predicate			K220480			K170558	
+	Device(s):			(Subject Device)			(Predicate Device)	
+Device Trade Name			Revogene			Revogene		
+	General Device							
+	Characteristic Similarities							
+Intended Use/Indications
+For Use			The Revogene instrument is
+intended for in vitro
+diagnostic (IVD) use in
+performing nucleic acid
+testing of specific IVD
+assays in clinical			Same		
+
+--- Page 4 ---
+laboratories. Revogene is
+capable of automated lysis
+and dilution of samples
+originating from various
+clinical specimen types.
+Revogene performs
+automated amplification and
+detection of target nucleic
+acid sequences by
+fluorescence-based real-time
+PCR.
+Automated cell lysis, DNA
+Sample Preparation
+amplification and DNA Same
+Method
+detection
+Real-time Polymerase chain
+Mode of Operation reaction with fluorogenic
+detection of amplified DNA
+Combination of software,
+instrument control protocols
+Sample analysis and result
+and assay definition files Same
+determination
+developed and determined by
+firm
+Automatic Assay Yes-result interpretation Same
+The instrument has two
+barcode readers to identify
+reagents and patient
+Sample identification specimens. It provides Same
+traceability of the sample ID
+to the PIE ID, SBT ID, and
+assay ID.
+Each PIE contains an internal
+process control (PrC) that
+Internal Process Control controls for amplification
+Same
+DNA assays inhibition, assay reagents,
+and sample processing
+effectiveness.
+Materials available
+External Control commercially but not Same
+required to run the test
+DNA Extraction Cell lysis Same
+Processes and analyzes up to
+Specimens per run Same
+8 specimens per run (8 PIEs)
+Assay Cartridge One sample per PIE Same
+Single Use PIE can be used only once Same
+Instrument Optical Channels Contains 4 optical channels Same
+K220480 - Page 4 of 6
+
+[Table 1 on page 4]
+	laboratories. Revogene is
+capable of automated lysis
+and dilution of samples
+originating from various
+clinical specimen types.
+Revogene performs
+automated amplification and
+detection of target nucleic
+acid sequences by
+fluorescence-based real-time
+PCR.	
+Sample Preparation
+Method	Automated cell lysis, DNA
+amplification and DNA
+detection	Same
+Mode of Operation	Real-time Polymerase chain
+reaction with fluorogenic
+detection of amplified DNA	
+Sample analysis and result
+determination	Combination of software,
+instrument control protocols
+and assay definition files
+developed and determined by
+firm	Same
+Automatic Assay	Yes-result interpretation	Same
+Sample identification	The instrument has two
+barcode readers to identify
+reagents and patient
+specimens. It provides
+traceability of the sample ID
+to the PIE ID, SBT ID, and
+assay ID.	Same
+Internal Process Control
+DNA assays	Each PIE contains an internal
+process control (PrC) that
+controls for amplification
+inhibition, assay reagents,
+and sample processing
+effectiveness.	Same
+External Control	Materials available
+commercially but not
+required to run the test	Same
+DNA Extraction	Cell lysis	Same
+Specimens per run	Processes and analyzes up to
+8 specimens per run (8 PIEs)	Same
+Assay Cartridge	One sample per PIE	Same
+Single Use	PIE can be used only once	Same
+Instrument Optical Channels	Contains 4 optical channels	Same
+
+--- Page 5 ---
+The system is factory
+calibrated by the
+manufacturer, and it will
+undergo performance
+qualification testing on-site
+during annual preventive
+Instrument Calibration Same
+maintenance. If qualification
+testing results determine
+significant drift, the
+instrument will be returned
+to the manufacturer for re-
+calibration.
+General Device
+Characteristic Differences
+Update of the current
+Software Change software with a PMT
+surveillance algorithm
+VI Standards/Guidance Documents Referenced:
+ISO 14971:2019—Medical devices - Applications of risk management to medical devices
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+See K170558 (Revogene Instrument), K170557 (Revogene GBS LB), K172569 (Revogene
+C. difficile), K183366 (Revogene Strep A), and K190275 (Revogene Carba C).
+2. Linearity:
+N/A
+3. Analytical Specificity/Interference:
+See K170558 (Revogene Instrument), K170557 (Revogene GBS LB), K172569 (Revogene
+C. difficile), K183366 (Revogene Strep A), and K190275 (Revogene Carba C).
+4. Accuracy (Instrument):
+N/A
+K220480 - Page 5 of 6
+
+[Table 1 on page 5]
+Instrument Calibration			The system is factory
+calibrated by the
+manufacturer, and it will
+undergo performance
+qualification testing on-site
+during annual preventive
+maintenance. If qualification
+testing results determine
+significant drift, the
+instrument will be returned
+to the manufacturer for re-
+calibration.	Same
+	General Device			
+	Characteristic Differences			
+Software Change			Update of the current
+software with a PMT
+surveillance algorithm	
+
+--- Page 6 ---
+5. Carry-Over:
+See K170558 (Revogene Instrument), K170557 (Revogene GBS LB), K172569 (Revogene
+C. difficile), K183366 (Revogene Strep A), and K190275 (Revogene Carba C).
+B Other Supportive Instrument Performance Characteristics Data:
+Software Change
+The software change is for the addition of a surveillance algorithm to the Revogene System
+Software capable of detecting glitches associated with the PMT. This algorithm will prevent the
+processing of raw data presenting glitches by the Results Processor and thus will minimize the
+reporting of potential false-positive results. Verification and validation activities were performed
+to ensure outputs met design inputs and that the Revogene System Software (version 4.3.4), as a
+portion of the Revogene platform, met user needs, the intended use, and software requirements.
+PMT Surveillance Algorithm Performance
+The PMT surveillance algorithm design was assessed by running the algorithm on a dataset
+constituting 593 runs, of which 500 runs were identified as normal runs that presented no PMT
+glitches.
+The PMT surveillance algorithm was able to:
+• Identify correctly 100% of the normal runs
+• Identify the glitches in 83 out of 93 runs with PMT failures (89.2%)
+• Identify the glitches in 27 runs out of 29 runs with PMT failures leading to false positive
+results (93.1%).
+The surveillance algorithm was shown to flag instruments containing a faulty PMT and was
+observed to have no impact on instruments that do not generate glitches. Detection error
+messages were shown where glitches related to the PMT issue were identified. Testing indicated
+that software version 4.3.4 could successfully process a multi-assay run, and therefore, has no
+impact on the compatibility between the various Revogene assays.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K220480 - Page 6 of 6

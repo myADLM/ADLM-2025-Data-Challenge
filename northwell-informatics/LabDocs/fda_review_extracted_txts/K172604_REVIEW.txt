@@ -1,0 +1,690 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K172604
+B. Purpose for Submission:
+This submission is a Dual 510(k) and CLIA Waiver by Application (Dual Submission)
+tracked as K172604 and CW170012. K172604 was submitted for clearance of a new device.
+The new device is a modification of the device previously cleared for point of care (POC) use
+under K143577 and CLIA categorized as moderately complex under CR140520.
+C. Manufacturer and Instrument Name:
+Sysmex America Inc., XW-100 Automated Hematology Analyzer for CLIA Waived Use
+D. Type of Test or Tests Performed:
+Complete blood count (WBC, RBC, HGB, HCT, MCV, PLT) and leukocyte 3-part
+differential (LYM%, Other WBC%, NEUT%, LYM#, Other WBC#, NEUT#).
+E. System Descriptions:
+1. Device Description:
+The XW-100 Automated Hematology Analyzer (XW-100) is an electrical resistance
+blood cell counter. This technology may also be referred to as Direct Current (DC) or
+impedance. The XW-100 analyzes human whole blood specimens anticoagulated with
+K EDTA or K EDTA and reports results for 12 hematology parameters, including the
+2 3
+basic complete blood count (CBC), 3-part white blood cell (WBC) differential.
+2. Principles of Operation:
+The XW-100 uses direct current with hydrodynamic focusing for all parameters except
+hemoglobin, which is measured photometrically. The patient sample is aspirated,
+measured, diluted with diluent (and lysed for WBC measurement), then directed into a
+transducer chamber by a hydrodynamic focusing nozzle. The transducer chamber has a
+minute hole, or aperture. Electrodes are mounted on both sides of the aperture chamber,
+through which the direct current flows. Blood cells suspended in the diluted sample are
+injected through the aperture by the hydrodynamic focusing nozzle. The hydrodynamic
+focusing nozzle is positioned in front of the aperture and in line with the aperture’s
+center. All blood cells are separated from each other and pass through the aperture in one
+direction, one cell at a time. When a cell passes through the aperture, it causes a change
+in the direct current resistance, which is proportional to the cell’s size. These resistance
+1
+
+--- Page 2 ---
+changes are captured as electric pulses. The various blood cell counts are calculated by
+counting the pulses that occur in each cell size category. The analyzer then determines
+blood cell volume and identifies cells by creating and analyzing histograms of the various
+cell populations using their respective pulse heights. Hemoglobin is measured
+photometrically using a non-cyanide method.
+3. Modes of Operation:
+The XW-100 operates by automated whole blood analysis.
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ____X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ____X____ or No ________
+4. Specimen Identification:
+Specimen identification input is manual (by operator).
+5. Specimen Sampling and Handling:
+The XW-100 processes anticoagulated venous whole blood collected in K EDTA or
+2
+K EDTA collection tubes. Samples are manually mixed by inversion and loaded into an
+3
+onboard sample adapter one at a time.
+6. Calibration:
+The XW-100 is factory calibrated.
+7. Quality Control:
+The XW-100 system performance is evaluated using XW QC CHECK, a stabilized whole
+blood matrix quality control material designed for statistical process control of the
+analyzer. Assayed parameters include: WBC, RBC, HGB, HCT, MCV, MCH, MCHC,
+PLT, LYM%, OTHER WBC%, NEUT%, LYM#, OTHER WBC#, NEUT#, RDW-SD,
+RDW-CV and MPV.
+8. Software:
+The XW-100 POC software was modified to serve a CLIA waived setting. These changes
+included consolidating flags and messages for simplicity. No new cybersecurity risks
+2
+
+--- Page 3 ---
+were identified with respect to these updated software changes. Refer to submission
+K143577 for additional software information.
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes____X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR § 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+3 Product code:
+GKZ, Counter, Differential Cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The XW-100 Automated Hematology Analyzer (XW-100) is a quantitative automated
+hematology analyzer intended for in vitro diagnostic use to classify and enumerate the
+following parameters for venous whole blood anticoagulated with K /K EDTA: WBC,
+2 3
+RBC, HGB, HCT, MCV, PLT, LYM%, Other WBC%, NEUT%, LYM#, Other WBC#,
+NEUT#. It is not for use in diagnosing or monitoring patients with primary or secondary
+chronic hematologic diseases/disorders, oncology patients, critically ill patients, or
+children under the age of 2.
+2. Special Conditions for Use Statement(s):
+The XW-100 is intended to be used by operators with a minimum of an earned high
+school diploma or equivalent.
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+3
+
+--- Page 4 ---
+Sysmex XW-100 Automated Hematology Analyzer (K143577)
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+(K143577)
+Intended Use The XW-100 Automated Hematology The Sysmex XW-100™ is a
+Analyzer (XW-100) is a quantitative quantitative automated
+automated hematology analyzer hematology analyzer intended for
+intended for in vitro diagnostic CLIA in vitro diagnostic point-of- care
+waived use to classify and enumerate use to classify and enumerate the
+the following parameters for venous following parameters for venous
+whole blood anticoagulated with whole blood anticoagulated with
+K2/K3 EDTA: WBC, RBC, HGB, K2/K3 EDTA: WBC, RBC,
+HCT, MCV, PLT, LYM%, Other HGB, HCT, MCV, MCH,
+WBC%, NEUT%, LYM#, Other MCHC, PLT, LYM%, Other
+WBC#, and NEUT#. It is not for use in WBC%, NEUT%, LYM#, Other
+diagnosing or monitoring patients with WBC#, NEUT#, RDW-SD,
+primary or secondary chronic RDW-CV, and MPV. It is not for
+hematologic diseases/disorders, use in diagnosing or monitoring
+oncology patients, critically ill oncology patients, children under
+patients, or children under the age of 2. the age of 2, or for chronically or
+critically ill patients.
+Test Principle Impedance technology (direct current
+detection) with hydrodynamic focusing Same
+for all parameters except hemoglobin,
+which is measured photometrically.
+Single hydrodynamic focused
+Measuring Channel
+Same
+impedance chamber
+Anticoagulated (K EDTA or K EDTA)
+Sample Type 2 3
+Same
+venous whole blood
+Sample aspiration
+15 µL Same
+volume
+Reagents XW Pack L (lyse)
+Same
+XW Pack D (diluent)
+System Throughput 20 cycles per hour Same
+Test System Width: 7 inches
+Same
+Dimensions Height: 14 inches
+Depth: 18 inches
+Mode of Operation Whole blood mode Same
+Calibration and XW QC CHECK (K143577) Same
+Quality Control
+SCS™-1000 calibrator (K943268)
+4
+
+[Table 1 on page 4]
+Similarities		
+Item	Device	Predicate
+		(K143577)
+Intended Use	The XW-100 Automated Hematology
+Analyzer (XW-100) is a quantitative
+automated hematology analyzer
+intended for in vitro diagnostic CLIA
+waived use to classify and enumerate
+the following parameters for venous
+whole blood anticoagulated with
+K2/K3 EDTA: WBC, RBC, HGB,
+HCT, MCV, PLT, LYM%, Other
+WBC%, NEUT%, LYM#, Other
+WBC#, and NEUT#. It is not for use in
+diagnosing or monitoring patients with
+primary or secondary chronic
+hematologic diseases/disorders,
+oncology patients, critically ill
+patients, or children under the age of 2.	The Sysmex XW-100™ is a
+quantitative automated
+hematology analyzer intended for
+in vitro diagnostic point-of- care
+use to classify and enumerate the
+following parameters for venous
+whole blood anticoagulated with
+K2/K3 EDTA: WBC, RBC,
+HGB, HCT, MCV, MCH,
+MCHC, PLT, LYM%, Other
+WBC%, NEUT%, LYM#, Other
+WBC#, NEUT#, RDW-SD,
+RDW-CV, and MPV. It is not for
+use in diagnosing or monitoring
+oncology patients, children under
+the age of 2, or for chronically or
+critically ill patients.
+Test Principle	Impedance technology (direct current
+detection) with hydrodynamic focusing
+for all parameters except hemoglobin,
+which is measured photometrically.	Same
+Measuring Channel	Single hydrodynamic focused
+impedance chamber	Same
+Sample Type	Anticoagulated (K EDTA or K EDTA)
+2 3
+venous whole blood	Same
+Sample aspiration
+volume	15 µL	Same
+Reagents	XW Pack L (lyse)
+XW Pack D (diluent)	Same
+System Throughput	20 cycles per hour	Same
+Test System
+Dimensions	Width: 7 inches
+Height: 14 inches
+Depth: 18 inches	Same
+Mode of Operation	Whole blood mode	Same
+Calibration and
+Quality Control	XW QC CHECK (K143577)
+SCS™-1000 calibrator (K943268)	Same
+
+--- Page 5 ---
+There is no difference between the XW-100 for CLIA waived use and the XW-100
+cleared for POC settings (predicate), aside from the Intended Use population and the
+software modifications which produce a decreased number of reported parameters and
+simplified flagging.
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI EP05-A3. Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline –Third Edition, 2014
+CLSI EP09-A3. Measurement Procedure Comparison and Bias Estimation Using Patient
+Samples; Approved Guideline – Third Edition, 2013
+CLSI EP21-A2. Evaluation of Total Analytical Error for Quantitative Medical Laboratory
+Measurement Procedures. 2nd ed., 2016
+Guidance for Industry and FDA Staff: Recommendations for Clinical Laboratory
+Improvement Amendments of 1988 (CLIA) Wavier Applications for Manufacturers of In
+Vitro Diagnostic Devices; Issued January 30, 2008
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+A clinical comparison study was conducted to evaluate the performance of the XW-
+100 in the hands of the intended users (untrained operators) when performed in a
+CLIA waived setting. Reference submission CW170012 for the details of this study.
+b. Precision/Reproducibility:
+For each hematology parameter, information about total error of the XW-100 in the
+hands of untrained operators for three sub-ranges (Low, Medium and High) were
+compared to the total imprecision in the reproducibility study of the XW-100 in the
+hands of trained operators using precision profiles. Reference submission CW170012
+for details regarding total error. For details regarding the reproducibility study, refer
+to the Decision Summary for K143577. Analysis of the precision profiles described in
+the table below demonstrate that the XW-100 device in the hands of untrained and
+trained operators have similar imprecision. The imprecsion estimates include
+repeatability, different runs, different days, and different sites.
+5
+
+--- Page 6 ---
+Measurand Precision profiles
+WBC
+RBC
+HGB
+HCT
+PLT
+6
+
+[Table 1 on page 6]
+Measurand	Precision profiles
+WBC	
+RBC	
+HGB	
+HCT	
+PLT	
+
+--- Page 7 ---
+NEUT #
+LYMP #
+Other WBC #
+MCV
+c. Linearity:
+Measuring ranges of the new device were narrower than those of the XW-100 in the
+hands of trained operators, therefore, linearity data of the XW-100 were applicable to
+the new device. Refer to submission K143577 for the details of the linearity study.
+d. Carryover:
+Carryover of the XW-100 was evaluated during the clearance of the device for the
+POC setting. Refer to submission K143577 for the details of this study.
+e. Interfering Substances:
+An interference study was conducted to determine the interference level with the
+7
+
+[Table 1 on page 7]
+NEUT #	
+LYMP #	
+Other WBC #	
+MCV	
+
+--- Page 8 ---
+hematology results generated by the XW-100 for the following interfering substances:
+Bilirubin F, Bilirubin C, hemolytic hemoglobin, chyle, and lipids (Intralipid). Refer to
+submission K143577 for the details of this study.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+In 2008 and 2009, the Hematology and Pathology Devices Panel of the Medical Devices
+Advisory Committee met to provide advice and recommendations to the FDA regarding
+the CLIA waiver application for an automated WBC analyzer. The panel expressed
+several key concerns during the meeting leading to a recommendation that the WBC
+analyzer not be granted waived status. Below is a list of panel concerns and the solutions
+implemented by Sysmex to mitigate these concerns.
+Panel Questions/Concerns Solution
+Do clinically important but undetected A sample challenge study was conducted to
+interferences, such as NRBC or abnormal verify that the XW-100 will appropriately flag
+WBC, affect the system’s status as a simple and/or suppress results for samples with
+test? abnormal findings, such as Nucleated Red
+Blood Cells (NRBC’s), that could lead to the
+reporting of erroneous results in the CLIA
+waived setting.
+For all 229 samples tested, with a variety of
+potential sources of error, the XW-100 results
+were appropriately suppressed and the presence
+of potentially interfering substances did not
+result in the reporting of erroneous results.
+Reflex testing in moderately complex For results that are outside the reference range,
+laboratories, triggered by abnormal WBC the XW-100 prompts the user to repeat testing
+results, can enable diagnosis of clinically before results are printed by the device. Once
+serious diseases. Does the absence of such the printout is received, the clinician will then
+reflex testing increase the potential for an make the decision of how to proceed based on
+erroneous clinical impression in a waived the results and within the context of the
+setting? patient’s clinical presentation.
+Is this ATE zone consistent with what is needed The Allowable Total Error (ATE) utilizing the
+for adequate clinical performance across all CLIA’88 42 CFR 493.941 ranges was defined.
+WBC levels and clinical contexts? The CLIA ’88 regulations were not appropriate
+for performance validation requirements and
+more stringent ATE limits for reportable
+parameters on the XW-100 in the CLIA waived
+setting were developed. Reference submission
+CW170012 for ATE values for all reported
+parameters.
+8
+
+[Table 1 on page 8]
+Panel Questions/Concerns	Solution
+Do clinically important but undetected
+interferences, such as NRBC or abnormal
+WBC, affect the system’s status as a simple
+test?	A sample challenge study was conducted to
+verify that the XW-100 will appropriately flag
+and/or suppress results for samples with
+abnormal findings, such as Nucleated Red
+Blood Cells (NRBC’s), that could lead to the
+reporting of erroneous results in the CLIA
+waived setting.
+For all 229 samples tested, with a variety of
+potential sources of error, the XW-100 results
+were appropriately suppressed and the presence
+of potentially interfering substances did not
+result in the reporting of erroneous results.
+Reflex testing in moderately complex
+laboratories, triggered by abnormal WBC
+results, can enable diagnosis of clinically
+serious diseases. Does the absence of such
+reflex testing increase the potential for an
+erroneous clinical impression in a waived
+setting?	For results that are outside the reference range,
+the XW-100 prompts the user to repeat testing
+before results are printed by the device. Once
+the printout is received, the clinician will then
+make the decision of how to proceed based on
+the results and within the context of the
+patient’s clinical presentation.
+Is this ATE zone consistent with what is needed
+for adequate clinical performance across all
+WBC levels and clinical contexts?	The Allowable Total Error (ATE) utilizing the
+CLIA’88 42 CFR 493.941 ranges was defined.
+The CLIA ’88 regulations were not appropriate
+for performance validation requirements and
+more stringent ATE limits for reportable
+parameters on the XW-100 in the CLIA waived
+setting were developed. Reference submission
+CW170012 for ATE values for all reported
+parameters.
+
+--- Page 9 ---
+Panel Questions/Concerns Solution
+The intent of Congress when CLIA’88 was The accuracy of the XW-100 was previously
+passed was that all tests should be the same and demonstrated in the point-of-care setting
+patients should expect the same leve l of (K143577). In addition, the data generated from
+accuracy from a lab test performed by their the clinical field study for the XW-100 in the
+personal physician as they do from a lab test CLIA waived setting in conjunction with the
+conducted in a large hospital or a commercial flex studies demonstrates the XW-100 is simple
+lab. to use and does not generate erroneous results.
+Quality control should be required. The XW-100 requires quality control be run
+every 8 hours and have acceptable results. The
+acceptability of QC results is interpreted by the
+instrument software and not the operator in the
+waived setting. If QC does not pass, the
+operator is locked out and patient testing is
+prevented.
+What do the error codes signify and how many All error resolution is performed by the system
+error codes are there? automatically. The exceptions are simple power
+cycling and insertion of XW CELLCLEAN
+which is done by the operator when prompted
+by an on-screen message. There are no error
+codes an operator has to interpret.
+If operator training is necessary, is the device The XW-100 does not require operator training.
+really simple? Can any of the setup features be On-screen prompts and Quick Guides are
+locked so that an operator cannot skip the available to direct the operator through
+correct setup? instrument setup and testing. The device
+software does not allow the operator to skip
+steps in the device setup or in running patient
+samples.
+What would happen if an EDTA sample is A flex study was conducted to assess the use of
+inadequately mixed? a sample that is inadequately mixed by the
+phlebotomist post venipuncture as well as
+inadequate mixing prior to testing the sample.
+Results from this study demonstrate that
+inadequate mixing of blood samples by the
+phlebotomist immediately post collection is
+unlikely to impact results. Results also revealed
+that testing samples that have been allowed to
+settle for more than 10 minutes without proper
+mixing prior to testing will impact results. The
+on-screen prompt provides a reminder to mix
+the tube prior to testing. The flagging/
+suppression rules will lead to retesting the
+samples when results are outside of the normal
+range.
+9
+
+[Table 1 on page 9]
+Panel Questions/Concerns	Solution
+The intent of Congress when CLIA’88 was
+passed was that all tests should be the same and
+patients should expect the same leve l of
+accuracy from a lab test performed by their
+personal physician as they do from a lab test
+conducted in a large hospital or a commercial
+lab.	The accuracy of the XW-100 was previously
+demonstrated in the point-of-care setting
+(K143577). In addition, the data generated from
+the clinical field study for the XW-100 in the
+CLIA waived setting in conjunction with the
+flex studies demonstrates the XW-100 is simple
+to use and does not generate erroneous results.
+Quality control should be required.	The XW-100 requires quality control be run
+every 8 hours and have acceptable results. The
+acceptability of QC results is interpreted by the
+instrument software and not the operator in the
+waived setting. If QC does not pass, the
+operator is locked out and patient testing is
+prevented.
+What do the error codes signify and how many
+error codes are there?	All error resolution is performed by the system
+automatically. The exceptions are simple power
+cycling and insertion of XW CELLCLEAN
+which is done by the operator when prompted
+by an on-screen message. There are no error
+codes an operator has to interpret.
+If operator training is necessary, is the device
+really simple? Can any of the setup features be
+locked so that an operator cannot skip the
+correct setup?	The XW-100 does not require operator training.
+On-screen prompts and Quick Guides are
+available to direct the operator through
+instrument setup and testing. The device
+software does not allow the operator to skip
+steps in the device setup or in running patient
+samples.
+What would happen if an EDTA sample is
+inadequately mixed?	A flex study was conducted to assess the use of
+a sample that is inadequately mixed by the
+phlebotomist post venipuncture as well as
+inadequate mixing prior to testing the sample.
+Results from this study demonstrate that
+inadequate mixing of blood samples by the
+phlebotomist immediately post collection is
+unlikely to impact results. Results also revealed
+that testing samples that have been allowed to
+settle for more than 10 minutes without proper
+mixing prior to testing will impact results. The
+on-screen prompt provides a reminder to mix
+the tube prior to testing. The flagging/
+suppression rules will lead to retesting the
+samples when results are outside of the normal
+range.
+
+--- Page 10 ---
+Panel Questions/Concerns Solution
+Current cell counters are complicated. They The only maintenance required for the XW-100
+require substantial maintenance and regular is weekly cleaning of the transducer and waste
+calibration. chamber which is automatically prompted and
+performed by the system. The operator is
+prompted to insert a tube of ready-to-use XW
+CELLCLEAN. Once the XW CELLCLEAN is
+inserted, the device performs weekly cleaning.
+After completion of weekly cleaning, the
+device prompts the operator to open the sample
+door and remove and dispose of the used tube.
+The weekly cleaning takes less than 10 minutes
+and is required every 7 days. Weekly cleaning
+is tracked automatically by the device.
+The operator never performs calibration. The
+XW-100 is calibrated prior to shipping to
+customers. Quality control (QC) is required
+every 8 hours to ensure the system is
+functioning properly. If QC fails twice in a row,
+the user is instructed to call Sysmex Technical
+Assistance Center (TAC). A replacement
+instrument is sent to the customer and the
+current instrument will be returned for service
+and/or recalibration.
+Since these systems report many components of The operator is not required to interpret results.
+the complete blood count, understanding of all Results are printed with the reference range
+the results often requires interpretation by a comparatives for the indicated age of the
+medical technologist or a physician. patient by the system with no operator
+involvement. For any parameter results outside
+of the normal range, the operator will be
+prompted by the software to repeat testing. If
+the results from the second run confirm the
+results from the first run, the results will print.
+If the results from the second run do not
+confirm the results from the first run, the results
+are suppressed on the printout. The instrument
+instructs the operator to deliver the printout to
+the ordering clinician. Once the printout is
+received, the clinician will then make the
+decision of how to proceed based on the results
+and within the context of the patient’s clinical
+presentation.
+10
+
+[Table 1 on page 10]
+Panel Questions/Concerns	Solution
+Current cell counters are complicated. They
+require substantial maintenance and regular
+calibration.	The only maintenance required for the XW-100
+is weekly cleaning of the transducer and waste
+chamber which is automatically prompted and
+performed by the system. The operator is
+prompted to insert a tube of ready-to-use XW
+CELLCLEAN. Once the XW CELLCLEAN is
+inserted, the device performs weekly cleaning.
+After completion of weekly cleaning, the
+device prompts the operator to open the sample
+door and remove and dispose of the used tube.
+The weekly cleaning takes less than 10 minutes
+and is required every 7 days. Weekly cleaning
+is tracked automatically by the device.
+The operator never performs calibration. The
+XW-100 is calibrated prior to shipping to
+customers. Quality control (QC) is required
+every 8 hours to ensure the system is
+functioning properly. If QC fails twice in a row,
+the user is instructed to call Sysmex Technical
+Assistance Center (TAC). A replacement
+instrument is sent to the customer and the
+current instrument will be returned for service
+and/or recalibration.
+Since these systems report many components of
+the complete blood count, understanding of all
+the results often requires interpretation by a
+medical technologist or a physician.	The operator is not required to interpret results.
+Results are printed with the reference range
+comparatives for the indicated age of the
+patient by the system with no operator
+involvement. For any parameter results outside
+of the normal range, the operator will be
+prompted by the software to repeat testing. If
+the results from the second run confirm the
+results from the first run, the results will print.
+If the results from the second run do not
+confirm the results from the first run, the results
+are suppressed on the printout. The instrument
+instructs the operator to deliver the printout to
+the ordering clinician. Once the printout is
+received, the clinician will then make the
+decision of how to proceed based on the results
+and within the context of the patient’s clinical
+presentation.
+
+--- Page 11 ---
+Panel Questions/Concerns Solution
+The CLIA waived study was not performed in The XW-100 clinical study was conducted at
+the U.S. Is there sufficient data to show that the six CLIA waived testing sites in the U.S. at
+test can be performed with a reasonable degree locations with diverse patient and operator
+of accuracy that would not invalidate its demographics. The sites covered a wide range
+medical usefulness when used by CLIA waived of specialties, including family practice,
+operators in CLIA waived settings? internal medicine, diabetes practice, and
+pediatrics.
+Has the performance of the device been The XW-100 is contraindicated for use in
+adequately studied in the leukopenic diagnosing or monitoring patients with primary
+population. For example, cancer patients or secondary chronic hematologic
+undergoing chemotherapy or many African diseases/disorders, oncology patients, or
+Americans with benign leukopenia. children under the age of 2.
+Another criterion for a simple test is that
+‐
+When the XW-100 detects a specimen
+instruction for confirmatory testing should be abnormality, the instrument printout contains a
+provided where advisable. Clear criteria for message for the clinician that reads
+confirmatory testing of abnormal or “RECOMMEND FURTHER TESTING.” This
+inconsistent test results should be established. message alerts clinicians that further testing is
+recommended. Sending these samples to the
+moderately/highly complex lab for further
+testing is in line with current standard of care
+and will not cause a delay in patient diagnosis.
+The number one patient safety issue, is patient The instrument produces a printout with the
+identification. Is there some ability to enter or patient ID, date of birth, results, and any flags.
+store that information to ensure accurate results Results are not displayed on the screen of the
+are matched with the right patient? device. This reduces the risk of an operator
+providing results of an incorrect patient to the
+clinician or making a transcription error when
+documenting results in a medical record.
+The instrument instructs the operator to deliver
+the printout to the clinician. The operator has
+no other responsibility in this process.
+When you have normal versus abnormal, how Results are printed with the reference range
+much judgment is required? Can results be comparatives for the indicated age of the
+printed, saved, or retrieved so there is a record patient by the system with no operator
+of the results. involvement. For results that are outside the
+reference range, the XW-100 will print one of
+the following:
+1) numeric result plus a “High” or “Low” flag
+2) “****” (suppressed result) plus an “ALERT
+L” or “ALERT H” flag.
+A results printout is always produced by the
+instrument when testing is fully completed.
+11
+
+[Table 1 on page 11]
+Panel Questions/Concerns	Solution
+The CLIA waived study was not performed in
+the U.S. Is there sufficient data to show that the
+test can be performed with a reasonable degree
+of accuracy that would not invalidate its
+medical usefulness when used by CLIA waived
+operators in CLIA waived settings?	The XW-100 clinical study was conducted at
+six CLIA waived testing sites in the U.S. at
+locations with diverse patient and operator
+demographics. The sites covered a wide range
+of specialties, including family practice,
+internal medicine, diabetes practice, and
+pediatrics.
+Has the performance of the device been
+adequately studied in the leukopenic
+population. For example, cancer patients
+undergoing chemotherapy or many African
+Americans with benign leukopenia.	The XW-100 is contraindicated for use in
+diagnosing or monitoring patients with primary
+or secondary chronic hematologic
+diseases/disorders, oncology patients, or
+children under the age of 2.
+‐
+Another criterion for a simple test is that
+instruction for confirmatory testing should be
+provided where advisable. Clear criteria for
+confirmatory testing of abnormal or
+inconsistent test results should be established.	When the XW-100 detects a specimen
+abnormality, the instrument printout contains a
+message for the clinician that reads
+“RECOMMEND FURTHER TESTING.” This
+message alerts clinicians that further testing is
+recommended. Sending these samples to the
+moderately/highly complex lab for further
+testing is in line with current standard of care
+and will not cause a delay in patient diagnosis.
+The number one patient safety issue, is patient
+identification. Is there some ability to enter or
+store that information to ensure accurate results
+are matched with the right patient?	The instrument produces a printout with the
+patient ID, date of birth, results, and any flags.
+Results are not displayed on the screen of the
+device. This reduces the risk of an operator
+providing results of an incorrect patient to the
+clinician or making a transcription error when
+documenting results in a medical record.
+The instrument instructs the operator to deliver
+the printout to the clinician. The operator has
+no other responsibility in this process.
+When you have normal versus abnormal, how
+much judgment is required? Can results be
+printed, saved, or retrieved so there is a record
+of the results.	Results are printed with the reference range
+comparatives for the indicated age of the
+patient by the system with no operator
+involvement. For results that are outside the
+reference range, the XW-100 will print one of
+the following:
+1) numeric result plus a “High” or “Low” flag
+2) “****” (suppressed result) plus an “ALERT
+L” or “ALERT H” flag.
+A results printout is always produced by the
+instrument when testing is fully completed.
+
+--- Page 12 ---
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+12

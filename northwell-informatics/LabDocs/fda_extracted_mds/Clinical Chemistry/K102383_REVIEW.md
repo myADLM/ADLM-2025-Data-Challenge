@@ -1,0 +1,163 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT CO M BINATIO N TEMPLATE
+
+A. 510(k) Number: k102383   
+B. Purpose for Submission: Addition of alternative site testing on the palm to previously   
+C. Measurand: Capillary whole blood glucose   
+D. Type of Test: Quantitative, amperometric glucose dehydrogenase (NAD)   
+E. Applicant: Cambridge Sensors Limited   
+F. Proprietary and Established Names: microdot Home Blood Glucose Monitoring System   
+G. Regulatory Information:
+
+1. Regulation section: 21 CFR 862.1345 Glucose Test System
+
+2. Classification: Class II
+
+3. Product code: NBW – Blood glucose test system, over the counter LFR – Glucose dehydrogenase, glucose
+
+4. Panel: Chemistry 75
+
+# H. Intended Use:
+
+1. Intended use(s): See indications for use below.
+
+2. Indication(s) for use:
+
+The microdot Home Blood Glucose Monitoring System is intended for self testing outside the body (in vitro diagnostic use only), by people with diabetes at home as an aid to monitor the effectiveness of diabetes control. Is intended for “single patient-home use” only and should not be shared. It should be used only for testing fresh capillary whole blood samples from a fingerstick or palm for glucose (sugar). Alternate site testing should be done only during steady- state times (when glucose is not changing rapidly). It is not intended for use on neonates or in the diagnosis of or screening for diabetes mellitus.
+
+The system consists of the microdot Home Blood Glucose Meter, microdot Home Test Strips, and microdot Control solutions.
+
+microdot $^ \mathrm { \textregistered }$ Home Test Strips The microdot $^ \mathrm { \textregistered }$ Home Test Strips are intended for the quantitative measurement of glucose in fresh capillary whole blood from a fingerstick or palm.
+
+3. Special conditions for use statement(s):
+
+Not for neonatal use, not for screening or diagnosis of diabetes mellitus.
+
+Not for use on critically ill patients, patients in shock, severely hypotensive individuals, dehydrated patients or individuals experiencing hyperglycemic-hyperosmolar state, with or without ketosis.
+
+Alternative site testing (AST) should not be used to calibrate continuous glucose monitors (CGMs) nor for use in insulin dose calculations.
+
+AST testing should only be done during steady-state times (when glucose is not changing rapidly).
+
+Single-patient use only
+
+4. Special instrument requirements: microdot Home Blood Glucose Meter
+
+# I. Device Description:
+
+The microdot Home Blood Glucose Monitoring System consists of the microdot Home Blood Glucose Meter, microdot Home Test Strips, one bottle of microdot Control Solution, lancing device and lancets. Two additional levels of control solutions may be purchased separately.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Microdot Xtra Blood Glucose Monitoring System
+
+2. Predicate 510(k) number(s): k083273
+
+3. Comparison with predicate:
+
+The modified device has the same intended use and performance characteristics as the predicate. The difference is the new device has the addition of alternative site testing for palm.
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+ISO 15197: 2003 In vitro diagnostic test systems - Requirements for blood glucose monitoring systems for self-testing in managing diabetes mellitus
+
+# L. Test Principle:
+
+The test is based on the enzymatic conversion of glucose. Glucose dehydrogenase converts glucose in the sample to gluconolactone, with concomitant reduction of the enzyme cofactor $\mathrm { N A D + }$ to NADH. The NADH is re-oxidised to $\mathrm { N A D + }$ by the mediator compound which in turn becomes reduced; re-oxidation of the mediator by the meter induces a micro current to flow, and the size of this micro current is directly proportional to the amount of glucose in the sample.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Precision and reproducibility were evaluated in k070524.
+
+b. Linearity/assay reportable range:
+
+Linearity was evaluated in k070524.   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): The controls supplied with this device were cleared under k070524.   
+d. Detection limit: The detection limit of the test system is $2 0 \mathrm { m g / d L }$ , and was evaluated in k075024.   
+e. Analytical specificity: Specificity was evaluated in k070524.   
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Method comparison studies to demonstrate accuracy using capillary whole blood samples from the fingertip were summarized in k070524   
+b. Matrix comparison: Not applicable. For use with capillary whole blood only.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable
+
+professional and the plasma was tested on the YSI reference method.   
+The range of glucose values for these samples was $4 8 { - } 3 6 7 ~ \mathrm { m g / d L }$ (by YSI).
+
+The results are summarized in the tables below.
+
+For glucose concentrations $\leq 7 5 ~ \mathrm { m g / d L }$
+
+<table><tr><td rowspan=1 colspan=1>within ± 5 mg/dL</td><td rowspan=1 colspan=1>within ± 10 mg/dL</td><td rowspan=1 colspan=1>within ± 15 mg/dL</td></tr><tr><td rowspan=1 colspan=1>0/3 (0%)</td><td rowspan=1 colspan=1>2/3 (67%)</td><td rowspan=1 colspan=1>3/3 (100%)</td></tr></table>
+
+For glucose concentrations $> 7 5 ~ \mathrm { m g / d L }$
+
+<table><tr><td rowspan=1 colspan=1>within ± 5 %</td><td rowspan=1 colspan=1>within ± 10 %</td><td rowspan=1 colspan=1>within ± 15 %</td><td rowspan=1 colspan=1>within ± 20 %</td></tr><tr><td rowspan=1 colspan=1>61/149 (41%)</td><td rowspan=1 colspan=1>109/149 (73%)</td><td rowspan=1 colspan=1>134/149 (90%)</td><td rowspan=1 colspan=1>146/149 (98%)</td></tr></table>
+
+4. Clinical cut-off:
+
+Not applicable
+
+5. Expected values/Reference range:
+
+Expected blood glucose results for people without diabetes were cited from the literature and presented in the labeling as follows:
+
+Before breakfast (fasting): ${ < } 1 0 0 \ \mathrm { m g / d L }$ Before meals: ${ < } 1 1 0 \ \mathrm { m g / d L }$ 2 hours after meals: ${ < } 1 4 0 \ \mathrm { m g / d L }$ Bedtime: ${ < } 1 2 0 \ \mathrm { m g / d L }$
+
+American Diabetes Association, Standards of medical care in diabetes, Diabetes Care, Volume 34, Supplement 1, S11-S69 (2011)
+
+# N. Instrument Name:
+
+Microdot Home Blood Glucose Meter
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+Does the applicant’s device contain the ability to transmit data to a computer, webserver, or mobile device?
+
+Yes _ or No __X_
+
+Does the applicant’s device transmit data to a computer, webserver, or mobile device using   
+wireless transmission?   
+Yes _ or No ___X_
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes _X_ _ or No
+
+3. Specimen Identification:
+
+There is no sample identification function with this device. Samples are applied directly to the test strip as they are collected.
+
+4. Specimen Sampling and Handling:
+
+The glucose test is intended to be used with capillary whole blood from the finger or palm. The whole blood sample is applied directly to the test strip.
+
+5. Calibration: Calibration is factory set by the manufacturer. No coding by the user is required.
+
+6. Quality Control:
+
+The sponsor is providing one level of glucose control solution with the starter kit for the device. Two additional control levels are available for purchase separately. Recommendations on when to test the control materials are provided in the labeling. An acceptable range for each control level is printed on the test strip vial label.
+
+# P. O therSupportiveInstrum entPerform anceCharacteristicsDataNotCovered In The “Performance Characteristics” Section above:
+
+A study was conducted to evaluate the effect of altitude up to 10,000 feet on performance of the test system. Venous whole blood samples at three glucose concentrations (approximately 60, 120 and $3 5 0 \mathrm { m g / d L } )$ ) were tested at sea level and 10,000 feet using a hypobaric chamber, with one lot of test strips and one meter. Each sample was also evaluated by the YSI method. At altitudes up to 10,000 feet, test results supported the claimed altitude.
+
+The meter and lancing device are intended for single-patient use only. Dispatch Hospital Cleaner with Bleach Wipes with EPA registration # 56392-8 were validated for use with the meter and lancing device. Laboratory studies demonstrated that levels of virus were below the detection limit of the assay after disinfection. The sponsor also demonstrated that there was no change in performance or in the external materials of the meter and lancing device after 375 cleaning and disinfection cycles designed to simulate 5 years of device use. Labeling was reviewed for adequate instructions for the validated cleaning and disinfection procedures.
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

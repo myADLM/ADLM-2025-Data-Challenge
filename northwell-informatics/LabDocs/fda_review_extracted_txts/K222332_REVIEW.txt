@@ -1,0 +1,966 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY ONLY
+I Background Information:
+A 510(k) Number
+K222332
+B Applicant
+MeMed Diagnostics Ltd.
+C Proprietary and Established Names
+MeMed BV
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.3215 - Device
+To Detect And Measure
+Non-Microbial Analyte(S)
+QPS Class II In Human Clinical MI - Microbiology
+Specimens To Aid In
+Assessment Of Patients
+With Suspected Sepsis
+II Submission/Device Overview:
+A Purpose for Submission:
+The purpose of this submission is to validate changes in manufacturing methodology and buffer
+formulation of the antibody-alkaline phosphatase conjugate for the cleared MeMed BV device.
+B Measurand:
+Three host immune protein biomarkers: TRAIL, IP-10, and CRP.
+C Type of Test:
+Chemiluminescent immunoassay
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QPS			Class II	21 CFR 866.3215 - Device
+To Detect And Measure
+Non-Microbial Analyte(S)
+In Human Clinical
+Specimens To Aid In
+Assessment Of Patients
+With Suspected Sepsis			MI - Microbiology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The MeMed BV test is an automated semi-quantitative immunoassay that measures three non-
+microbial (host) proteins (TRAIL, IP-10, and CRP) in adult and pediatric serum samples and is
+intended for use in conjunction with clinical assessments and other laboratory findings as an aid
+to differentiate bacterial from viral infection. The MeMed BV is indicated for use in patients
+presenting to the emergency department or urgent care center and with samples collected at
+hospital admission from patients with suspected acute bacterial or viral infection, who have had
+symptoms for less than seven days. The MeMed BV test generates a numeric score that falls
+within discrete interpretation bins based on the increasing likelihood of bacterial infection.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+D Special Instrument Requirements:
+MeMed Key Instrument
+IV Device/System Characteristics:
+A Device Description:
+The MeMed BV (“BV Test” or the “Test”) is an In Vitro Diagnostic device that measures in
+parallel the blood concentrations of TRAIL, IP-10 and CRP. The Test consists of an automated
+analyzer with built-in hardware and software that conduct chemiluminescence-based analyte
+measurements of patient serum samples and their computational integration (MeMed Key), and a
+disposable cartridge that contains the reagents and controls needed to detect the analytes of
+interest (MeMed BV cartridge). The Test generates an answer to each sample, with a test run
+time of approximately 15 minutes.
+B Principle of Operation:
+The test system is composed of the analyzer (MeMed Key) and the cartridge, and their respective
+sub-components. The product is designed to allow straightforward sample-to-answer testing,
+with a test run time of approximately 15 minutes.
+The patient’s serum specimen is pipetted by the user into the designated cartridge area. The users
+are instructed to fill 100 μL of sample. Each single-use cartridge is provided in a package that
+contains all necessary components for conducting a single patient test. This consists of the
+cartridge itself, all disposables (pipette tips), reagents and a waste collection well. The cartridge
+assembly contains both the reagents for the different assays and the pipette tips. The cartridge is
+a multi-cavity plastic container that is sealed off with foil and covered with a label on the foil
+that indicates the sample type, the test name, indication to the user where to input the sample,
+K222332 - Page 2 of 16
+
+--- Page 3 ---
+required sample volume, lot number, cartridge expiry date and a barcode with test data and
+parameters that are intended to be read by the analyzer.
+The cartridge contains the several reagents in separate cavities, which are required to perform the
+test. Upon insertion of the cartridge, the analyzer conducts three immunoassays on a single
+serum sample of 100 μL. The cartridge also securely stores all waste materials collected during
+the test.
+The user inserts the cartridge with sample into the analyzer and is guided by the carriage caddy.
+The analyzer auto-reads the cartridge's barcode and verifies that the requested test matches the
+cartridge type, cartridge expiration date, and that the calibration curve matches the cartridge lot
+number. The analyzer notifies the user when specimen processing is initiated and when the user
+should expect the test result.
+After the cartridge has been inserted, the carriage caddy system locks and guides the cartridge
+during the insertion phase. Once loaded, the cartridge holder is driven by the robot to the left, in
+position for processing.
+The liquids are handled through the pipettor, which operates through measurement of displaced
+air volumes by means of a flow sensor, integrated directly in the pipetting head that is connected
+to a high-speed solenoid valve. The flow sensor is based on a differential pressure measurement
+across flow restriction. The cartridge is then heated through the heater block. A software-driven
+Proportional Integral Derivative (PID) control system is used to set and regulate the temperature
+of the heater block, using the center thermistor for feedback.
+Once the sample has been diluted and mixed with magnetic particles, it is processed by the bead
+immobilizer magnet, which generates a high magnetic field strength, and allows both the
+reduction of immobilization time and a high percentage of bead retention per immobilization to
+be achieved. The sample is then washed and the chemiluminescence step takes place.
+The chemiluminescence of the assay is measured by a Photo Multiplier Tube (PMT) Module, a
+highly sensitive light detection device. The selected PMT Module has a spectral range which
+matches the expected wavelength generated by the chemistry luminescence. When a PMT
+reading is required, the software then turns the PMT Module on and a reading is taken. Once
+readings have been completed, the software automatically turns the PMT Module off.
+Each RLU measurement for each of the analytes is processed and translated to a concentration
+measurement using a calibration curve that is generated using calibration materials provided by
+MeMed. When a clinical serum sample is run, the resulting concentrations are also processed to
+apply a clinical correction factor, which is pre-determined for each of the analytes. This clinical
+correction factor exists primarily because of matrix-effects (in the serum) which may impact the
+generated signal compared to the calibration which is run on recombinant proteins. Final
+concentrations for each analyte are then processed to generate a Score result which places the
+specimen into one of five distinct bins, with higher score values corresponding to increasing
+likelihood of a bacterial infection.
+K222332 - Page 3 of 16
+
+--- Page 4 ---
+The MeMed BV™ test result is a score between 0 and 100 derived from computational
+integration of the measurements of the three proteins TRAIL, IP-10, and CRP, where low scores
+are indicative of viral infection and high score of bacterial infection.
+• 0 ≤ score ≤10: High likelihood of viral infection (or other non-bacterial etiology)
+• 10 < score <35: Moderate likelihood of viral infection (or other non-bacterial etiology)
+• 35 ≤ score ≤65: Equivocal
+• 65 < score <90: Moderate likelihood of bacterial infection (or co-infection)
+• 90 ≤ score ≤100: High likelihood of bacterial infection (or co-infection)
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+MeMed BV
+B Predicate 510(k) Number(s):
+K210254
+C Comparison with Predicate(s):
+Device & Predicate
+K222332 K210254
+Device(s):
+Device Trade Name MeMed BV MeMed BV
+General Device
+Characteristic Similarities
+The MeMed BV test is
+an automated semi-
+quantitative
+immunoassay that
+measures three non-
+microbial (host)
+proteins (TRAIL, IP-10,
+and CRP) in adult and
+pediatric serum samples
+and is intended for use
+in conjunction with
+Intended Use/Indications
+Same clinical assessments and
+For Use
+other laboratory
+findings as an aid to
+differentiate bacterial
+from viral infection.
+The MeMed BV is
+indicated for use in
+patients presenting to
+the emergency
+department or urgent
+care center and with
+samples collected at
+K222332 - Page 4 of 16
+
+[Table 1 on page 4]
+	Device & Predicate		K222332	K210254
+	Device(s):			
+Device Trade Name			MeMed BV	MeMed BV
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			Same	The MeMed BV test is
+an automated semi-
+quantitative
+immunoassay that
+measures three non-
+microbial (host)
+proteins (TRAIL, IP-10,
+and CRP) in adult and
+pediatric serum samples
+and is intended for use
+in conjunction with
+clinical assessments and
+other laboratory
+findings as an aid to
+differentiate bacterial
+from viral infection.
+The MeMed BV is
+indicated for use in
+patients presenting to
+the emergency
+department or urgent
+care center and with
+samples collected at
+
+--- Page 5 ---
+hospital admission from
+patients with suspected
+acute bacterial or viral
+infection, who have had
+symptoms for less than
+seven days. The
+MeMed BV test
+generates a numeric
+score that falls within
+discrete interpretation
+bins based on the
+increasing likelihood of
+bacterial infection.
+Health Care Providers
+requesting samples to
+User Population Same
+be tested by clinical
+laboratory technicians
+Sandwich immunoassay
+Assay Principle Same
+technology
+Assay Type Same Automated
+Numerical values with
+Test Result Reporting Same
+risk bins
+Specimen Same Human Serum
+Measurand(s) Same TRAIL, IP-10, and CRP
+Chemiluminescence-
+based analyte
+Detection method Same
+measurement using
+MeMed Key instrument
+Approximately 15
+Time to result Same
+minutes
+Sample volume Same 100 µL
+General Device
+Characteristic Differences
+Alkaline Phosphatase
+In-house conjugation Commercially available
+Antibody Conjugation
+process kit
+Method
+Calibration frequency Every four weeks Every two weeks
+New formulation
+Commercially available
+Conjugate buffer containing Trizma
+buffers
+hydrochloride
+VI Standards/Guidance Documents Referenced:
+CLSI EP17-A2 Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures
+K222332 - Page 5 of 16
+
+[Table 1 on page 5]
+						hospital admission from
+patients with suspected
+acute bacterial or viral
+infection, who have had
+symptoms for less than
+seven days. The
+MeMed BV test
+generates a numeric
+score that falls within
+discrete interpretation
+bins based on the
+increasing likelihood of
+bacterial infection.
+User Population			Same			Health Care Providers
+requesting samples to
+be tested by clinical
+laboratory technicians
+Assay Principle			Same			Sandwich immunoassay
+technology
+Assay Type			Same			Automated
+Test Result Reporting			Same			Numerical values with
+risk bins
+Specimen			Same			Human Serum
+Measurand(s)			Same			TRAIL, IP-10, and CRP
+Detection method			Same			Chemiluminescence-
+based analyte
+measurement using
+MeMed Key instrument
+Time to result			Same			Approximately 15
+minutes
+Sample volume			Same			100 µL
+	General Device					
+	Characteristic Differences					
+Alkaline Phosphatase
+Antibody Conjugation
+Method			In-house conjugation
+process			Commercially available
+kit
+Calibration frequency			Every four weeks			Every two weeks
+Conjugate buffer				New formulation		Commercially available
+buffers
+				containing Trizma		
+				hydrochloride		
+
+--- Page 6 ---
+CLSI EP05-A3 Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline
+CLSI EP06-A Evaluation of the Linearity of Quantitative Measurement Procedures: A Statistical
+Approach; Approved Guideline
+62304 IEC Medical Device Software - Software life cycle processes 1.1
+CLSI EP25-A Evaluation of Stability of In Vitro Diagnostic Reagents; Approved Guideline
+CLSI EP07 Interference testing in clinical chemistry
+CLSI EP37 Supplemental tables for interference testing in clinical chemistry
+CLSI EP28-A3c Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+A multi-site reproducibility study was performed across three laboratories. The
+measurements were performed over five non-consecutive days. At each site, a single operator
+conducted the tests on two different analyzers using one cartridge lot, with three runs
+performed each day per panel member.
+Calibration was performed on the first day on each analyzer; one calibrator lot was used.
+External controls (ECs) were also run daily using one lot of ECs.
+The ‘infectious’ specimens were collected from non-U.S. individuals recruited to an
+infectious cohort as defined by the MeMed BV test intended use/indications for use under an
+appropriate clinical study protocol.
+The samples were collected, centrifuged within 1 hour after blood withdrawal, aliquoted (120
+μL) and frozen at -80°C. Prior initiation of the reproducibility study, the aliquots were sent
+on dry ice to the participating laboratories. Each aliquot was thawed 10-15 min on a roller
+prior to measurement on the MeMed Key instrument.
+The following panel members were utilized for the reproducibility study:
+K222332 - Page 6 of 16
+
+--- Page 7 ---
+Table 1. Reproducibility Study Panel Members
+Panel Member Sample Type Score
+A Infectious Serum Specimen High (Score = 97)
+B Infectious Serum Specimen Medium (Score = 51)
+C Infectious Serum Specimen Low (Score = 1)
+D Healthy Serum Specimen Low (Score = 4)
+Results from the reproducibility study are summarized in the table below including
+repeatability (between-run variation), intermediate precision, and reproducibility.
+Table 2. Reproducibility Study Results
+Intermediate
+Repeatability Reproducibility
+Panel Measurand Precision
+Mean N
+Member or Score CV CV
+SD CV (%) SD SD
+(%) (%)
+A TRAIL 49.1 90 3.4 6.9 3.4 6.9 3.6 7.3
+B TRAIL 60.8 90 4.6 7.6 4.7 7.7 4.9 8.0
+C TRAIL 163.5 90 8.8 5.4 8.8 5.4 9.2 5.6
+D TRAIL 54.5 90 3.7 6.8 4.0 7.4 4.5 8.3
+A IP-10 462.7 90 21.8 4.7 24.0 5.2 27.0 5.8
+B IP-10 402.0 90 22.9 5.7 24.3 6.0 28.4 7.1
+C IP-10 1426.8 90 73.6 5.2 92.2 6.5 99.9 7.0
+D IP-10 100.0 90 0.0 0.0 0.0 0.0 0.0 0.0
+A CRP 193.5 90 19.2 9.9 20.1 10.4 25.5 13.2
+B CRP 62.4 90 4.3 6.8 4.5 7.2 5.6 8.9
+C CRP 34.1 90 2.3 6.8 2.4 6.9 3.0 8.7
+D CRP 1.0 90 0.0 0.0 0.0 0.0 0.0 0.0
+A Score 98.1 90 1.3 N/A1 1.3 N/A1 1.6 N/A1
+B Score 61.5 90 6.4 N/A1 6.5 N/A1 6.9 N/A1
+C Score 1.8 90 0.5 N/A1 0.5 N/A1 0.6 N/A1
+D Score 9.4 90 2.0 N/A1 2.1 N/A1 2.4 N/A1
+1CV analysis was not considered for the logistic scale of the MeMed BV Score. The
+acceptance criterion for the score was set to be SD < 12.5 score units which reflects a small
+probability of scores falling into nonadjacent bins.
+An additional study was performed to estimate lot-to-lot variance for each measurand and the
+test result for four panel members. The lot-to-lot study was performed on 3 days as follows:
+Operator 1 at Site 1 conducted three runs per day for each of the four panel members using
+two lots of cartridges on the same Analyzer. Two calibration lots were used, one for each
+cartridge lot. External controls were run daily using one lot of EC reagents. Results from the
+lot variability study are included in Table 3 below.
+K222332 - Page 7 of 16
+
+[Table 1 on page 7]
+	Panel Member			Sample Type			Score	
+A			Infectious Serum Specimen			High (Score = 97)		
+B			Infectious Serum Specimen			Medium (Score = 51)		
+C			Infectious Serum Specimen			Low (Score = 1)		
+D			Healthy Serum Specimen			Low (Score = 4)		
+
+[Table 2 on page 7]
+Panel
+Member	Measurand
+or Score	Mean	N	Repeatability			Intermediate				Reproducibility			
+							Precision							
+				SD	CV (%)	SD			CV		SD		CV	
+									(%)				(%)	
+A	TRAIL	49.1	90	3.4	6.9	3.4		6.9			3.6	7.3		
+B	TRAIL	60.8	90	4.6	7.6	4.7		7.7			4.9	8.0		
+C	TRAIL	163.5	90	8.8	5.4	8.8		5.4			9.2	5.6		
+D	TRAIL	54.5	90	3.7	6.8	4.0		7.4			4.5	8.3		
+A	IP-10	462.7	90	21.8	4.7	24.0		5.2			27.0	5.8		
+B	IP-10	402.0	90	22.9	5.7	24.3		6.0			28.4	7.1		
+C	IP-10	1426.8	90	73.6	5.2	92.2		6.5			99.9	7.0		
+D	IP-10	100.0	90	0.0	0.0	0.0		0.0			0.0	0.0		
+A	CRP	193.5	90	19.2	9.9	20.1		10.4			25.5	13.2		
+B	CRP	62.4	90	4.3	6.8	4.5		7.2			5.6	8.9		
+C	CRP	34.1	90	2.3	6.8	2.4		6.9			3.0	8.7		
+D	CRP	1.0	90	0.0	0.0	0.0		0.0			0.0	0.0		
+A	Score	98.1	90	1.3	N/A1	1.3		N/A1			1.6	N/A1		
+B	Score	61.5	90	6.4	N/A1	6.5		N/A1			6.9	N/A1		
+C	Score	1.8	90	0.5	N/A1	0.5		N/A1			0.6	N/A1		
+D	Score	9.4	90	2.0	N/A1	2.1		N/A1			2.4	N/A1		
+
+[Table 3 on page 7]
+Panel
+Member
+
+[Table 4 on page 7]
+Measurand
+or Score
+
+--- Page 8 ---
+Table 3. Lot-to-Lot Variability Study Results
+Panel Measurand Between Lots
+Mean N
+Member or Score SD CV (%)
+A TRAIL 46.8 18 0.0 0.0
+B TRAIL 57.2 18 0.0 0.0
+C TRAIL 156.1 18 2.7 1.7
+D TRAIL 51.2 18 0.8 1.6
+A IP-10 452.9 18 29.2 6.4
+B IP-10 394.0 18 19.1 4.8
+C IP-10 1392.7 18 116.0 8.3
+D IP-10 100.7 18 0.0 0.0
+A CRP 171.9 18 11.0 6.4
+B CRP 54.7 18 3.1 5.6
+C CRP 29.1 18 1.7 5.8
+D CRP 1.0 18 0.0 0.0
+A Score 97.4 18 0.9 N/A1
+B Score 62.8 18 1.9 N/A1
+C Score 1.9 18 0.2 N/A1
+D Score 11.4 18 1.0 N/A1
+1CV analysis was not considered for the logistic scale of the MeMed BV Score. The acceptance criterion for the
+score was set to be SD < 12.5 score units which reflects a small probability of scores falling into nonadjacent
+bins.
+The results comply with the pre-established acceptance criteria for score and individual
+analytes. A maximal CV of 8.3% was obtained for IP-10 panel member C. For score, the
+maximal SD obtained between the lots is 1.9 (for panel member B).
+2. Linearity:
+A study was performed to assess the linearity of measurement for each of the three
+measurands (TRAIL/IP-10/CRP) with acceptance criteria for bias due to non-linearity or less
+than 10% or, alternatively, 10 mg/L for CRP, 10 pg/mL for TRAIL, and 50 pg/mL for IP-10.
+Linearity is not applicable to the Test result (score), as it is calculated using a pre-defined
+weighted multinomial logistic regression model. The study was performed in a single
+laboratory with one analyzer, two lots of cartridges, and one lot of calibration and external
+control reagents. Eleven dilutions of individual analytes were prepared in protein rich buffer
+and measured four times. The range of concentrations tested spanned the applicable range for
+determination of the MeMed BV score and were 22-304 pg/mL for TRAIL, 127-2206 pg/mL
+for IP-10, and 1-248 µg/mL for CRP. Linearity for IP10 and TRAIL measurands fell within
+the study acceptance criteria, A deviation of approximately 15% was observed for CRP in a
+single sample. However, re-analysis of clinical data considering a potential bias of 15% in
+CRP measurement demonstrated no significant impact on device performance and therefore
+the expected clinical impact of the observed bias is expected to be minimal.
+K222332 - Page 8 of 16
+
+[Table 1 on page 8]
+	Panel			Measurand		Mean	N		Between Lots				
+	Member			or Score					SD			CV (%)	
+A			TRAIL			46.8	18	0.0			0.0		
+B			TRAIL			57.2	18	0.0			0.0		
+C			TRAIL			156.1	18	2.7			1.7		
+D			TRAIL			51.2	18	0.8			1.6		
+A			IP-10			452.9	18	29.2			6.4		
+B			IP-10			394.0	18	19.1			4.8		
+C			IP-10			1392.7	18	116.0			8.3		
+D			IP-10			100.7	18	0.0			0.0		
+A			CRP			171.9	18	11.0			6.4		
+B			CRP			54.7	18	3.1			5.6		
+C			CRP			29.1	18	1.7			5.8		
+D			CRP			1.0	18	0.0			0.0		
+A			Score			97.4	18	0.9			N/A1		
+B			Score			62.8	18	1.9			N/A1		
+C			Score			1.9	18	0.2			N/A1		
+D			Score			11.4	18	1.0			N/A1		
+
+--- Page 9 ---
+3. Analytical Specificity/Interference:
+An interference study was performed to evaluate the impact of select interferents and cross-
+reactants on the test score. Each interferent and cross-reactant was tested using two panel
+members that represent score bins 1 and 5 (a ‘low’ score, and ‘high’ score, respectively).
+Interference was assessed by estimating the bias for each specimen when compared to a
+sample without interferent. Each interferant was tested using eight replicates for each spiked
+and non-spiked (no interferent) specimen. Results from the interference study are included in
+the below table.
+Table 4. Interference Study Results
+High High Low Low
+Interferant Test Level Score Score Score Score
+Bias Bias CI Bias Bias CI
+Acetaminophen 0.156 mg/mL 0.0 0.0-0.0 0.1 -0.7-0.9
+Amoxicillin 54 µg/mL -0.1 -0.6-0.4 0.9 -1.1-2.9
+Ampicillin 75 µg/mL 0.1 -0.5-0.8 0.8 -1.6-3.1
+Aspirin 0.03 mg/mL 0.0 0.0-0.0 0.4 -1.4-2.2
+Azithromycin 11.1 µg/mL -0.6 -2.1-0.9 0.1 -0.6-0.8
+Caffeine 108 µg/mL -0.4 -0.9-0.1 -0.1 -1.4-2.2
+Cetirizine 4.35 µg/mL -0.4 -0.9-0.1 0.8 -0.6-2.1
+Conjugated Bilirubin 0.4 mg/mL 0.6 -0.2-1.4 0.6 0.1-1.2
+Dextramethorphan 15.6 ng/mL 0.0 -0.5-0.5 1.6 0.0-3.3
+Doxycycline 18 µg/mL 0.0 -0.7-0.7 -0.1 -2.0-1.7
+Ethanol 0.5% v/v 0.3 -0.3-0.8 -0.1 -1.2-1.0
+Hemoglobin 10% v/v -0.3 -0.8-0.3 -0.1 -0.7-0.5
+Heparin 3300 U/L 0.0 0.0-0.0 0.3 -0.5-1.0
+Human Serum
+60 mg/mL 0.1 -1.2-1.4 0.8 0.0-1.5
+Albumin
+Ibuprofen 219 µg/mL 0.0 0.0-0.0 1.0 -1.5-3.5
+Levoflaxacin 36 µg/mL -0.6 -1.9-0.7 -0.3 -0.9-3.6
+Loratidine 87 ng/mL 0.0 0.0-0.0 1.4 -0.8-1.3
+Nicotine 969 ng/mL -2.0 -4.6-0.6 0.3 -0.7-0.7
+Oxymetazoline 0.0006 µg/mL 0.3 -0.3-0.8 0.0 -0.4-0.9
+Phenylephrine 30 ng/mL 0.0 0.0-0.0 0.3 -0.8-2.5
+Prednisolone 1200 ng/mL -0.1 -0.4-0.1 0.9 -0.3-0.6
+Rheumatoid factor 500 IU/mL 0.0 -0.6-0.6 0.1 -0.8-0.5
+Triglyceride 15 mg/mL -0.1 -0.7-0.5 -0.1 -0.8-0.5
+Unconjugated
+0.4 mg/mL 0.3 -0.2-0.7 0.3 -0.2-0.7
+Bilirubin
+K222332 - Page 9 of 16
+
+[Table 1 on page 9]
+Interferant	Test Level		High			High			Low			Low	
+			Score			Score			Score			Score	
+			Bias			Bias CI			Bias			Bias CI	
+Acetaminophen	0.156 mg/mL	0.0			0.0-0.0			0.1			-0.7-0.9		
+Amoxicillin	54 µg/mL	-0.1			-0.6-0.4			0.9			-1.1-2.9		
+Ampicillin	75 µg/mL	0.1			-0.5-0.8			0.8			-1.6-3.1		
+Aspirin	0.03 mg/mL	0.0			0.0-0.0			0.4			-1.4-2.2		
+Azithromycin	11.1 µg/mL	-0.6			-2.1-0.9			0.1			-0.6-0.8		
+Caffeine	108 µg/mL	-0.4			-0.9-0.1			-0.1			-1.4-2.2		
+Cetirizine	4.35 µg/mL	-0.4			-0.9-0.1			0.8			-0.6-2.1		
+Conjugated Bilirubin	0.4 mg/mL	0.6			-0.2-1.4			0.6			0.1-1.2		
+Dextramethorphan	15.6 ng/mL	0.0			-0.5-0.5			1.6			0.0-3.3		
+Doxycycline	18 µg/mL	0.0			-0.7-0.7			-0.1			-2.0-1.7		
+Ethanol	0.5% v/v	0.3			-0.3-0.8			-0.1			-1.2-1.0		
+Hemoglobin	10% v/v	-0.3			-0.8-0.3			-0.1			-0.7-0.5		
+Heparin	3300 U/L	0.0			0.0-0.0			0.3			-0.5-1.0		
+Human Serum
+Albumin	60 mg/mL	0.1			-1.2-1.4			0.8			0.0-1.5		
+Ibuprofen	219 µg/mL	0.0			0.0-0.0			1.0			-1.5-3.5		
+Levoflaxacin	36 µg/mL	-0.6			-1.9-0.7			-0.3			-0.9-3.6		
+Loratidine	87 ng/mL	0.0			0.0-0.0			1.4			-0.8-1.3		
+Nicotine	969 ng/mL	-2.0			-4.6-0.6			0.3			-0.7-0.7		
+Oxymetazoline	0.0006 µg/mL	0.3			-0.3-0.8			0.0			-0.4-0.9		
+Phenylephrine	30 ng/mL	0.0			0.0-0.0			0.3			-0.8-2.5		
+Prednisolone	1200 ng/mL	-0.1			-0.4-0.1			0.9			-0.3-0.6		
+Rheumatoid factor	500 IU/mL	0.0			-0.6-0.6			0.1			-0.8-0.5		
+Triglyceride	15 mg/mL	-0.1			-0.7-0.5			-0.1			-0.8-0.5		
+Unconjugated
+Bilirubin	0.4 mg/mL	0.3			-0.2-0.7			0.3			-0.2-0.7		
+
+--- Page 10 ---
+4-1BB Ligand 50 ng/mL 0.0 -0.6-0.6 0.3 -0.6-1.1
+Adiponectin 50 ng/mL -0.6 -1.7-0.5 0.1 -0.8-1.0
+CXCL1/GRO\alpha 50 ng/mL 0.0 -0.5-0.5 0.0 -0.6-0.6
+CXCL11/I-TAC 50 ng/mL 0.0 0.0-0.0 1.4 -1.8-1.8
+CXCL12/SDF1a 50 ng/mL -0.6 -1.4-0.2 0.4 -0.1-2.8
+CXCL13/BLC/BCA-
+50 ng/mL 0.3 -0.6-1.1 0.9 -0.9-1.6
+1
+CXCL3/GRO\gamma 50 ng/mL 0.1 -0.1-0.4 0.9 0.2-1.5
+CXCL5/ENA-78 50 ng/mL 0.0 -0.9-0.9 1.1 -0.8-2.6
+CXCL7/NAP-1 50 ng/mL 0.3 -0.1-0.6 -1.3 -0.2-2.4
+CXCL8/IL8 50 ng/mL 0.1 -0.3-0.6 0.6 -1.3-2.5
+CXCL9/MIG 50 ng/mL 0.3 -0.1-0.6 0.6 -0.6-1.9
+CXCL6/GCP-2 50 ng/mL 0.0 -1.0-1.0 1.5 0.9-2.1
+IFN gamma 50 ng/mL -0.1 -0.6-0.4 0.0 -0.8-0.8
+LT alpha1 beta2 50 ng/mL 0.3 -0.2-0.7 0.3 -0.4-0.9
+LTalpha2beta1 50 ng/mL 0.0 -0.6-0.6 0.3 -0.7-1.2
+PTX2 50 ng/mL 0.3 -0.3-0.8 0.1 -0.4-0.6
+PTX3 50 ng/mL -0.1 -0.6-0.4 -0.1 -2.0-1.8
+SDF1b 50 ng/mL 0.4 0.0-0.7 2.4 -0.3-5.0
+TNF alpha 50 ng/mL 0.3 -0.5-1.0 0.0 -0.8-0.8
+TNF beta 50 ng/mL -0.3 -1.2-0.7 0.1 -0.5-0.8
+These data demonstrate that the presence of commonly encountered interferants does not
+significantly alter the MeMed BV score. For all evaluated specimens, the 95% confidence
+interval for the bias lies within +/-12.5 score units for all the interferants and cross-reactants
+in the indicated concentrations for both bacterial and viral clinical samples.
+Interference by Human Anti-Mouse Antibody (HAMA) was also assessed by evaluating 3
+contrived serum specimens that contained different amounts of HAMA. To generate these
+specimens a clinical serum sample (Level 1) was intermixed with a commercially available
+serum sample that contained high concentrations of HAMA (Level 5). Each individual
+specimen was run on two analyzers with a total of eight repeats for each sample. Acceptance
+criteria were that individual TRAIL, CRP, and IP-10 concentrations in the presence of
+HAMA should fall within 10% of the concentration without interferant. All samples
+successfully met the acceptance criteria demonstrating a lack of interference from HAMA.
+Table 5. HAMA Interference Testing Results
+TRAIL CRP IP10
+% % %
+Mean Nominal Mean Nominal Mean Nominal
+Recovery Recovery Recovery
+Level 1 61.8 154.1 709.0
+Sample 1 Level 2 54.9 55.1 100% 113.2 116.8 97% 557.0 544.2 102%
+Level 3 49.9 48.4 103% 72.7 79.5 92% 386.5 379.4 102%
+K222332 - Page 10 of 16
+
+[Table 1 on page 10]
+4-1BB Ligand	50 ng/mL	0.0	-0.6-0.6	0.3	-0.6-1.1
+Adiponectin	50 ng/mL	-0.6	-1.7-0.5	0.1	-0.8-1.0
+CXCL1/GRO\alpha	50 ng/mL	0.0	-0.5-0.5	0.0	-0.6-0.6
+CXCL11/I-TAC	50 ng/mL	0.0	0.0-0.0	1.4	-1.8-1.8
+CXCL12/SDF1a	50 ng/mL	-0.6	-1.4-0.2	0.4	-0.1-2.8
+CXCL13/BLC/BCA-
+1	50 ng/mL	0.3	-0.6-1.1	0.9	-0.9-1.6
+CXCL3/GRO\gamma	50 ng/mL	0.1	-0.1-0.4	0.9	0.2-1.5
+CXCL5/ENA-78	50 ng/mL	0.0	-0.9-0.9	1.1	-0.8-2.6
+CXCL7/NAP-1	50 ng/mL	0.3	-0.1-0.6	-1.3	-0.2-2.4
+CXCL8/IL8	50 ng/mL	0.1	-0.3-0.6	0.6	-1.3-2.5
+CXCL9/MIG	50 ng/mL	0.3	-0.1-0.6	0.6	-0.6-1.9
+CXCL6/GCP-2	50 ng/mL	0.0	-1.0-1.0	1.5	0.9-2.1
+IFN gamma	50 ng/mL	-0.1	-0.6-0.4	0.0	-0.8-0.8
+LT alpha1 beta2	50 ng/mL	0.3	-0.2-0.7	0.3	-0.4-0.9
+LTalpha2beta1	50 ng/mL	0.0	-0.6-0.6	0.3	-0.7-1.2
+PTX2	50 ng/mL	0.3	-0.3-0.8	0.1	-0.4-0.6
+PTX3	50 ng/mL	-0.1	-0.6-0.4	-0.1	-2.0-1.8
+SDF1b	50 ng/mL	0.4	0.0-0.7	2.4	-0.3-5.0
+TNF alpha	50 ng/mL	0.3	-0.5-1.0	0.0	-0.8-0.8
+TNF beta	50 ng/mL	-0.3	-1.2-0.7	0.1	-0.5-0.8
+
+[Table 2 on page 10]
+					TRAIL						CRP					IP10				
+				Mean		Nominal		%		Mean		Nominal	%		Mean		Nominal		%	
+								Recovery					Recovery						Recovery	
+Sample 1		Level 1		61.8						154.1					709.0					
+		Level 2		54.9		55.1	100%			113.2		116.8	97%		557.0		544.2	102%		
+		Level 3		49.9		48.4	103%			72.7		79.5	92%		386.5		379.4	102%		
+
+--- Page 11 ---
+Level 4 44.3 41.8 106% 44.4 42.2 105% 215.8 214.6 101%
+Level 5 35.1 4.8 49.9
+Level 1 77.8 77.6 423.5
+Level 2 70.0 65.2 107% 59.6 60.7 98% 333.1 327.7 102%
+Sample 2 Level 3 55.4 52.6 105% 45.9 43.9 105% 226.0 231.9 97%
+Level 4 41.1 40.0 103% 29.4 27.1 108% 130.9 136.1 96%
+Level 5 27.4 10.3 40.3
+Hook Effect Study
+Contrived samples containing high levels of each measurand were prepared by spiking
+protein rich buffer with recombinant proteins. For each concentration level, three runs were
+measured on one analyzer on the same day.
+Table 6. Hook Effect Study Analyte Concentrations
+Samples TRAIL (pg/mL) IP-10 (pg/mL) CRP (mg/L)
+Sample 1 300 6000 250
+Sample 2 533 7333 333
+Sample 3 767 8666 417
+Sample 4 1000 10000 500
+Table 7. Hook Effect Study Results.
+Analyzer Measurement (RLUs)
+Samples TRAIL IP-10 CRP
+Sample 1 3,144,835 12,753,299 6,258,491
+Sample 2 5,538,815 14,943,633 7,679,158
+Sample 3 7,655,794 16,526,978 9,482,134
+Sample 4 9,197,934 17,977,983 10,461,859
+No significant loss of signal was observed for the evaluated specimens containing high
+analyte concentrations. Therefore, no Hook effect has been identified for the MeMed BV
+test.
+4. Assay Reportable Range:
+Not applicable
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+The calibration is a process used to generate the calibration curve and must be repeated every
+four weeks and/or when introducing a new test cartridge lot. The calibration curve translates
+RLU measurements to concentration of each analyte. A calibration is unique to a device and
+a cartridge lot. The calibrators are in effect synthetic samples which can be measured by the
+device using the normal cartridge. Each calibrator is a solution of the 3 analytes introduced as
+recombinant proteins. Each calibration set includes three vials that represent high, medium,
+and low values of the analyte ranges that impact the MeMed BV test score. Calibrators are
+K222332 - Page 11 of 16
+
+[Table 1 on page 11]
+		Level 4		44.3	41.8	106%	44.4	42.2	105%	215.8	214.6	101%
+		Level 5		35.1			4.8			49.9		
+Sample 2		Level 1		77.8			77.6			423.5		
+		Level 2		70.0	65.2	107%	59.6	60.7	98%	333.1	327.7	102%
+		Level 3		55.4	52.6	105%	45.9	43.9	105%	226.0	231.9	97%
+		Level 4		41.1	40.0	103%	29.4	27.1	108%	130.9	136.1	96%
+		Level 5		27.4			10.3			40.3		
+
+[Table 2 on page 11]
+	Samples			TRAIL (pg/mL)			IP-10 (pg/mL)		CRP (mg/L)	
+Sample 1			300			6000			250	
+Sample 2			533			7333			333	
+Sample 3			767			8666			417	
+Sample 4			1000			10000			500	
+
+[Table 3 on page 11]
+				Analyzer Measurement (RLUs)						
+	Samples			TRAIL			IP-10		CRP	
+Sample 1			3,144,835			12,753,299			6,258,491	
+Sample 2			5,538,815			14,943,633			7,679,158	
+Sample 3			7,655,794			16,526,978			9,482,134	
+Sample 4			9,197,934			17,977,983			10,461,859	
+
+--- Page 12 ---
+provided by MeMed in vials which need to be stored in normal refrigerators (2-8°C). All
+three analytes are traceable to a standard. The TRAIL analyte is traced to international
+biological reference standard, NIBSC code: 04/166. The CRP analyte is traced to
+international standard, IFCC/BCR/CAP CRM 474. The IP-10 analyte is traced to an internal
+standard prepared by R&D Systems (Cat. #890836) due to the unavailability of international
+standards for IP-10.The material was produced following ISO Guide 34:2009.
+The quality indicators (i.e., max/min slope, max/min intercept, min slope, and R2) represent
+specifications for calibration curves created with released cartridges. These thresholds are
+established for each lot of cartridges during manufacturing (based on actual performance of
+the produced lot). The data is then encoded to the cartridge barcode, to be read by the
+analyzer when running a calibration. Failure to meet these thresholds (during run-time of a
+calibration) will fail the calibration. In case of a calibration failure the device will issue a
+failure message to the user and will prevent the failed cartridge-lot from running. The device
+will only run with cartridges from a lot which has a valid calibration. It is possible to
+calibrate more than one cartridge lot.
+Controls
+The MeMed BV External controls are intended for quality control testing in clinical
+laboratories. The control set includes two control vials containing purified TRAIL, IP-10,
+and CRP antigens in a protein buffer. One vial corresponds to a bacterial MeMed BV test
+score (expected score 90-100) and one vial corresponds to a viral MeMed BV test score
+(expected score 0-10). The software evaluates each control and notifies the user whether the
+evaluation is completed successfully.
+Calibrators
+A study was conducted to support increasing the calibration frequency of the MeMed Key
+instrument from every two weeks to every four weeks. Stability of the calibration interval
+was evaluated using the same methodology to support the initial clearance in K210254.
+Briefly, two cartridge lots were utilized on three MeMed Key instruments. Two calibrator
+lots were utilized with one lot used to establish a baseline and the other run as samples.
+Calibrators were run once a week for the entirety of the claimed calibration interval and
+acceptable drift was identified as ≤7% for both TRAIL and CRP analytes and ≤10% for IP10.
+Results from this study establish no significant drift in analyte values over 4 weeks
+supporting the revised calibration interval.
+Stability
+Cartridge and calibrator shelf-life stability was validated following CLSI EP25-A. Real-
+time, in use, and shipping stability were validated using the same methodology to support the
+original clearance K210254.
+6. Detection Limit:
+Limit of Quantitation
+K222332 - Page 12 of 16
+
+--- Page 13 ---
+For evaluated specimens with analyte levels below the limit of quantitation, the limit of
+quantitation value will be used to generate the MeMed BV score. Therefore a limit of
+detection and a limit of blank was not evaluated.
+The LoQ for the previously cleared MeMed BV assay was established in K210254. An LoQ
+study was performed on the modified MeMed BV assay to evaluate Total Error and precision
+at low analyte levels including the previously defined LoQ in accordance with CLSI EP17-
+A2, Evaluation of Detection Capability for Clinical Laboratory Measurement Procedures.
+The study used two cartridge lots with one MeMed Key analyzer and the samples described
+in Table 8 below. Each sample was tested three times on three non-consecutive days.
+Table 8. LoQ Study Panel Members
+TRAIL IP-10 CRP
+Sample
+(pg/mL) (pg/mL) (mg/L)
+1 12 80 0.8
+2 13.5 90 0.9
+3 15 100 1
+4 16.5 110 1.1
+The Total Error was calculated for each of the four concentration levels for three analytes as
+2X the observed SD.
+Table 9. LoQ Study Results
+Cartridge Lot Lot 1 Lot 2
+TRAIL IP-10 CRP TRAIL IP-10 CRP
+Sample Parameter
+(pg/mL) (pg/mL) (mg/L) (pg/mL) (pg/mL) (mg/L)
+Mean 15.34 74.22 0.78 12.2 80.65 0.80
+STD 3.84 1.98 0.06 1.4 3.69 0.03
+1
+CV (%) 25% 2.7% 8% 11.5% 4.6% 3.8%
+TE (%) 50% 5.3% 16% 23% 9.2% 7.6%
+Mean 15.88 82.19 0.88 13.08 86.93 0.88
+STD 0.74 2.46 0.05 0.66 2.86 0.05
+2
+CV (%) 4.6% 3% 5.7% 5% 3.3% 6%
+TE (%) 9.3% 6% 11.4% 10% 6.6% 12%
+Mean 18.49 90.90 0.99 14.26 95.00 0.99
+STD 1.94 4.18 0.05 1.15 5.31 0.04
+3
+CV (%) 10.5% 4.6% 5% 8% 5.6% 4%
+TE (%) 21% 9.2% 10% 16% 11.2% 8%
+Mean 18.74 96.65 1.12 15.71 103.5 1.05
+STD 1.28 2.53 0.06 0.89 3.44 0.07
+4
+CV (%) 7% 2.6% 5.4% 5.7% 3.3% 6.7%
+TE (%) 14% 5.2% 10.8% 11.4% 6.6% 13.4%
+The results show that the MeMed BV test passes the acceptance criteria of TE in all samples
+except for Sample 1 on lot 1. The maximal TE values for the previously established LLOQ of
+the MeMed device (TRAIL -15pg/mL, CRP-1 mg/mL, IP-10 – 100 pg/mL) is 21% for
+TRAIL, 10% for CRP, and 11.2% for IP10.
+K222332 - Page 13 of 16
+
+[Table 1 on page 13]
+Sample		TRAIL			IP-10			CRP	
+		(pg/mL)			(pg/mL)			(mg/L)	
+1	12			80			0.8		
+2	13.5			90			0.9		
+3	15			100			1		
+4	16.5			110			1.1		
+
+[Table 2 on page 13]
+	Cartridge Lot					Lot 1									Lot 2							
+Sample		Parameter				TRAIL			IP-10			CRP			TRAIL			IP-10			CRP	
+						(pg/mL)			(pg/mL)			(mg/L)			(pg/mL)			(pg/mL)			(mg/L)	
+1			Mean		15.34			74.22			0.78			12.2			80.65			0.80		
+			STD		3.84			1.98			0.06			1.4			3.69			0.03		
+			CV (%)		25%			2.7%			8%			11.5%			4.6%			3.8%		
+			TE (%)		50%			5.3%			16%			23%			9.2%			7.6%		
+2			Mean		15.88			82.19			0.88			13.08			86.93			0.88		
+			STD		0.74			2.46			0.05			0.66			2.86			0.05		
+			CV (%)		4.6%			3%			5.7%			5%			3.3%			6%		
+			TE (%)		9.3%			6%			11.4%			10%			6.6%			12%		
+3			Mean		18.49			90.90			0.99			14.26			95.00			0.99		
+			STD		1.94			4.18			0.05			1.15			5.31			0.04		
+			CV (%)		10.5%			4.6%			5%			8%			5.6%			4%		
+			TE (%)		21%			9.2%			10%			16%			11.2%			8%		
+4			Mean		18.74			96.65			1.12			15.71			103.5			1.05		
+			STD		1.28			2.53			0.06			0.89			3.44			0.07		
+			CV (%)		7%			2.6%			5.4%			5.7%			3.3%			6.7%		
+			TE (%)		14%			5.2%			10.8%			11.4%			6.6%			13.4%		
+
+--- Page 14 ---
+7. Assay Cut-Off:
+The assay cut-offs remain unchanged from the previously cleared version of the MeMed BV
+Device. Please see the published decision summary for K210254 for additional details.
+B Comparison Studies:
+Clinical validation of the MeMed BV device in the intended use population was previously
+reviewed under K210254. The purpose of this 510(k) submission is to establish equivalence
+between the modified MeMed BV assay and the originally cleared predicate device. Please refer
+to the published decision summary for additional clinical validation information.
+1. Method Comparison with Predicate Device:
+A method comparison study was performed in accordance with the CLSI guideline EP09-A3
+(Measurement Procedure Comparison and Bias Estimation Using Patient Samples) to
+demonstrate equivalent performance between the modified MeMed BV test reviewed in this
+submission to the previously cleared predicate device. Specifically, one hundred serum
+specimens with known TRAIL, CRP, and IP-10 concentrations were measured on both the
+modified MeMed BV device and the previously cleared predicate device. Deming regression
+analysis was performed on score values and estimates of bias at each of the four cut-off
+points of the MeMed BV assay were obtained. The results are summarized below.
+For analysis of individual analytes measured by the MeMed BV device, values outside the
+upper and lower limit of quantitation were replaced with the respective LoQ before
+averaging.
+Table 10. Deming Regression Analysis Results – Modified MeMed BV Test Results
+Compared to the Predicate Device
+Slope Y-intercept
+Analyte N
+(95% CI) (95% CI)
+1 0
+TRAIL 100
+(0.94 – 1.0) (-1.58 – 0)
+0.92 8.33
+IP-10 100
+(0.88 – 0.94) (3.93 – 18.35)
+1.08 1.31
+CRP 100
+(1.05 – 1.11) (0.59 – 2.42)
+1.00 1.79
+Score 100
+(0.98 – 1.01) (0.65 to 3.23)
+Additional analyses were performed to calculate the bias at each relevant cut-off across the
+LIAISON MeMed BV Score range as detailed below.
+K222332 - Page 14 of 16
+
+[Table 1 on page 14]
+Analyte	N	Slope
+(95% CI)	Y-intercept
+(95% CI)
+TRAIL	100	1
+(0.94 – 1.0)	0
+(-1.58 – 0)
+IP-10	100	0.92
+(0.88 – 0.94)	8.33
+(3.93 – 18.35)
+CRP	100	1.08
+(1.05 – 1.11)	1.31
+(0.59 – 2.42)
+Score	100	1.00
+(0.98 – 1.01)	1.79
+(0.65 to 3.23)
+
+[Table 2 on page 14]
+Slope
+(95% CI)
+
+[Table 3 on page 14]
+Y-intercept
+(95% CI)
+
+--- Page 15 ---
+Table 11. Deming Regression Bias Analysis –Bias Estimates for the MeMed BV Score
+Value at Relevant Cutoffs
+MeMed Modified
+BV MeMed BV 95% CI
+Score Score Bias
+10 1.8 0.7 3.1
+35 1.7 0.8 2.8
+65 1.6 0.9 2.6
+90 1.6 0.9 2.6
+Further analysis of individual sample bin results was also performed and is summarized
+below.
+Table 12. Modified MeMed BV Device Bin Results – Comparison to the Predicate
+Device
+Modified Cleared Predicate Device Results
+MeMed
+BV Bin 1 Bin 2 Bin 3 Bin 4 Bin 5
+Results
+Bin 1 22 0 0 0 0
+Bin 2 4 10 0 0 0
+Bin 3 0 3 12 0 0
+Bin 4 0 0 2 12 0
+Bin 5 0 0 0 2 33
+84.6% 76.9% 85.7% 85.7% 100%
+Agreement
+(22/26) (10/13) (12/14) (12/14) (33/33)
+None of the clinical samples evaluated shifted to a non-adjacent reporting bin when measured by
+the modified MeMed BV device. Cumulatively, the data summarized above establish equivalent
+performance between the modified MeMed BV device and the cleared predicate device.
+2. Matrix Comparison:
+Not applicable.
+C Clinical Studies:
+1. Clinical Sensitivity:
+Not applicable.
+2. Clinical Specificity:
+Not applicable.
+K222332 - Page 15 of 16
+
+[Table 1 on page 15]
+	MeMed			Modified		95% CI	
+	BV			MeMed BV			
+	Score			Score Bias			
+	10		1.8			0.7	3.1
+	35		1.7			0.8	2.8
+	65		1.6			0.9	2.6
+	90		1.6			0.9	2.6
+
+[Table 2 on page 15]
+	Modified			Cleared Predicate Device Results													
+	MeMed		Bin 1			Bin 2			Bin 3			Bin 4			Bin 5		
+	BV																
+	Results																
+	Bin 1			22		0			0			0			0		
+	Bin 2		4				10		0			0			0		
+	Bin 3		0			3				12		0			0		
+	Bin 4		0			0			2				12		0		
+	Bin 5		0			0			0			2				33	
+Agreement			84.6%
+(22/26)			76.9%
+(10/13)			85.7%
+(12/14)			85.7%
+(12/14)			100%
+(33/33)		
+
+--- Page 16 ---
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Not applicable.
+D Clinical Cut-Off:
+Clinical performance of the MeMed BV device was previously established in K210254. Please
+refer to the published decision summary for information regarding the relevant clinical cut-offs
+of the MeMed BV device.
+E Expected Values/Reference Range:
+Clinical performance of the MeMed BV device was previously established in K210254. Please
+refer to the published decision summary for information regarding the expected values for the
+MeMed BV device.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K222332 - Page 16 of 16

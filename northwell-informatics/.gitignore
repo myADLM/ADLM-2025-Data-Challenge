@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
+query/SOPQuery_backup.py
+flask/logs/*
+FDAQuery_backup.py
+gunicorn_flask_sop.log
+gunicorn_flask_sop.pid
+logs/*
+modules/__pycache__/*
+flask/__pycache__/*
+query/__pycache__/*
+.venv/
+flaskwaitress_flask_sop.log
+flaskwaitress_flask_sop.pid

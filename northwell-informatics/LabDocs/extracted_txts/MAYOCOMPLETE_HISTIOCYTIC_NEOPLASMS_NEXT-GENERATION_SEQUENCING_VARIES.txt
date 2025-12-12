@@ -1,0 +1,102 @@
+Standard Operating Procedure (SOP)
+MAYOCOMPLETE HISTIOCYTIC NEOPLASMS, NEXT-
+GENERATION SEQUENCING (NGS), VARIES
+1. Purpose
+The purpose of this procedure is to define the steps undertaken
+during the analytical phase of generating results for the
+MayoComplete Histiocytic Neoplasms using Next-Generation
+Sequencing (NGS).
+Responsibility:
+Designated laboratory personnel are responsible for following the
+procedure as outlined to ensure accurate and reliable test results. All
+personnel must be trained and authorized to perform NGS testing.
+1. Specimen Requirements
+◦ Accepted Specimens: Formalin-Fixed Paraffin-Embedded
+(FFPE) tissue
+◦ Minimum amount: ≥ 20% tumor content required
+◦ Storage Conditions: Room temperature
+2. Equipment and Reagents
+◦ NGS Sequencer (e.g., Illumina MiSeq, NextSeq)
+◦ DNA Extraction Kit (e.g., Qiagen DNeasy Blood & Tissue
+Kit)
+◦ Library Preparation Kit (e.g., Illumina TruSight RNA Pan-
+Cancer Panel)
+◦ Purification Systems (e.g., Beckman Coulter SPRISelect)
+◦ PCR Clean-Up Kits (e.g., AMPure XP)
+◦ Bioanalyzer/TapeStation or equivalent for library quality
+control
+◦ Reference Materials: Internal standards and positive/
+negative control samples
+3. Procedure
+A. DNA Extraction:
+• Follow the DNA Extraction Kit Instructions relevant to FFPE tissue
+samples.
+• Quantify DNA using a fluorescence-based quantification method
+(e.g., Qubit).
+• Assess purity using NanoDrop or equivalent.
+• Store extracted DNA at -20°C until further use.
+B. Library Preparation:
+• Fragment DNA either by sonication or enzymatic method to the
+desired size (150-200 bp).
+• Use the Library Preparation Kit for end repair, A-tailing, adapter
+ligation, and amplification.
+• Purify libraries using magnetic bead clean-up (e.g., AMPure XP
+beads).
+• Quantify and assess quality of libraries using Bioanalyzer/
+TapeStation.
+C. Library Pooling and Sequencing:
+• Normalize final library concentrations.
+• Pool libraries in equimolar ratios as per sequencing instrument
+guidelines.
+• Load the pooled sample into the NGS sequencer.
+• Use appropriate sequencing reagents and flow cell (e.g., Illumina
+Reagent Kit v3).
+• Set up the sequencer using recommended settings (e.g., paired-
+end 150 bp reads).
+D. Data Analysis:
+• Transfer generated FASTQ files to analysis pipeline.
+• Perform quality control checks using software tools (e.g.,
+FastQC).
+• Align sequences to the reference genome using a suitable aligner
+(e.g., BWA).
+• Call variants using variant calling software (e.g., GATK or
+equivalent).
+• Annotate variants using a reliable database and annotation tools
+(e.g., Annovar, ClinVar).
+• Perform comprehensive data review and interpret results per
+laboratory guidelines.
+1. Quality Control:
+◦ Include internal controls (positive and negative) in each run.
+◦ Verify the integrity of the sequencing run using internal
+control metrics (e.g., > Q30 Quality Score).
+◦ Review and document any quality control deviations.
+◦ Use standard QC procedures to determine the acceptance
+or rejection of sequencing runs.
+2. Reporting Results:
+◦ Generate a detailed summary report of the identified
+variants, including clinical relevance.
+◦ Review the report for accuracy and completeness.
+◦ Validate questionable variants with orthogonal methods if
+necessary (e.g., Sanger sequencing).
+◦ Forward the final report to a designated pathologist for
+clinical correlation and sign-off.
+3. References:
+◦ Manufacturer’s instruction manuals for DNA extraction,
+library preparation kits, and sequencing instruments.
+◦ Databases and software tools for data analysis and
+interpretation.
+◦ Consensus guidelines for NGS testing in clinical
+laboratories.
+4. Appendix:
+◦ Instrument-specific setup guides and troubleshooting tips.
+◦ Documentation templates for recording extraction, library
+preparation, and sequencing procedures.
+◦ Emergency contact information for technical support.
+Review and Approval:
+This protocol must be reviewed and approved by the laboratory
+director and quality assurance team before implementation.
+Effective Date: [Insert Date]
+Review Date: [Insert Date]
+Approval Signatures:
+• [Name, Laboratory Director]
+• [Name, Quality Assurance Manager]

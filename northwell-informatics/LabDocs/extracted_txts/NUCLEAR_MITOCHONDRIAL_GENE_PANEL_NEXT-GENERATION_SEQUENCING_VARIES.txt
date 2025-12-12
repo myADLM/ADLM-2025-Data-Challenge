@@ -1,0 +1,137 @@
+Standard Operating Procedure
+Analytical Phase: NUCLEAR MITOCHONDRIAL GENE PANEL,
+NEXT-GENERATION SEQUENCING
+Purpose:
+To outline the detailed standardized protocol for generating results for
+the Nuclear Mitochondrial Gene Panel through Next-Generation
+Sequencing (NGS). This SOP delineates the steps from sample
+preparation to result generation and analysis, ensuring consistency,
+accuracy, and reliability of results.
+Scope:
+This SOP applies to all designated laboratory personnel responsible
+for performing Next-Generation Sequencing (NGS) for Nuclear
+Mitochondrial Gene Panel analysis.
+Responsibility:
+• Laboratory Technologists: Responsible for sample preparation,
+execution of NGS protocols, data analysis, and preliminary
+reporting.
+• Bioinformaticians: Responsible for comprehensive data
+analysis, variant calling, and annotation.
+• Supervisors/Managers: Ensuring the compliance with the
+protocol and reviewing final results before validating.
+Equipment, Reagents, and Materials:
+• NGS Sequencer (e.g., Illumina, Thermo Fisher)
+• DNA Extraction Kits
+• Library Preparation Kits
+• Target Capture Kits specific for Nuclear Mitochondrial Gene Panel
+• Automated Liquid Handling Systems
+• PCR Equipment
+• Quantification Tools (e.g., Qubit Fluorometer, Agilent Bioanalyzer)
+• Bioinformatics Software for Data Analysis (e.g., BWA, GATK,
+ANNOVAR)
+• Laboratory Information System (LIS)
+• Pipettes and tips filtered
+• Nuclease-free water
+• Thermal cycler
+• Centrifuge
+Procedure:
+A) DNA Extraction:
+1. Specimen Preparation:
+◦ Accept only well-identified and correctly labeled specimens
+with accompanying requisition forms.
+◦ Check specimen integrity and match with patient information
+before proceeding.
+2. Extraction:
+◦ Follow the DNA extraction protocol as specified in the DNA
+Extraction Kit manual.
+◦ Quantify and assess the purity of the extracted DNA using
+Qubit Fluorometer and NanoDrop Spectrophotometer.
+◦ Proceed only with samples having an adequate amount and
+quality of DNA (A260/280 ratio ≈ 1.8).
+B) Library Preparation:
+1. Fragmentation and End Repair:
+◦ Perform fragmentation of DNA using mechanical shearing or
+enzymatic methods.
+◦ Follow with end repair, A-tailing, and adapter ligation as per
+the Library Preparation Kit instructions.
+2. PCR Amplification:
+◦ Enrich target DNA fragments through PCR.
+◦ Quantify and assess the size distribution of the amplified
+libraries using the Agilent Bioanalyzer.
+3. Normalization:
+◦ Normalize the concentration of library samples for uniform
+sequencing output.
+C) Target Capture:
+1. Hybridization:
+◦ Perform target capture using probes specific to the Nuclear
+Mitochondrial Gene Panel.
+◦ Follow the manufacturer's protocol for hybridization and
+washing steps.
+2. Amplification Post-Capture:
+◦ Amplify captured DNA fragments using PCR.
+◦ Assess quantity and quality post-capture by using
+Bioanalyzer.
+D) Sequencing:
+1. Load Libraries:
+◦ Load the captured libraries onto the NGS sequencer
+following manufacturer instructions.
+2. Sequencing Run:
+◦ Initiate sequencing run and monitor quality parameters
+throughout the process.
+◦ The run parameters should cover required depth and
+coverage ensuring sufficient data for variant detection.
+E) Data Analysis:
+1. Primary Analysis:
+◦ Perform base calling, demultiplexing, and generation of raw
+sequencing reads using sequencer software.
+2. Secondary Analysis:
+◦ Align sequences to the reference genome using alignment
+software (e.g., BWA).
+◦ Perform variant calling to identify SNPs, indels, and other
+mutations (e.g., using GATK).
+3. Tertiary Analysis:
+◦ Annotate variants using databases (e.g., ANNOVAR) and
+assess their clinical significance.
+◦ Generate comprehensive variant reports including
+interpretation based on established guidelines.
+F) Quality Control:
+1. Internal Controls:
+◦ Include positive and negative controls in each run to validate
+the process.
+◦ Examine QC metrics such as read depth, quality scores,
+and mapping efficiency.
+2. Review:
+◦ Document any deviations from expected performance and
+troubleshooting steps.
+◦ Review variant reports thoroughly by clinical experts or
+bioinformaticians for accuracy.
+G) Result Reporting:
+1. Verification:
+◦ Cross-verify results with quality control outcomes and initial
+input DNA parameters.
+2. Report Generation:
+◦ Compile comprehensive reports that include variant
+interpretations and recommendations.
+◦ Use the Laboratory Information System (LIS) to record and
+transmit reports to the respective healthcare providers.
+H) Documentation:
+1. Record Keeping:
+◦ Maintain detailed records of the complete procedural
+workflow, including reagent lot numbers, sequencing run
+IDs, quality controls, and final reports.
+◦ Ensure all entries are dated, signed, and reviewed by
+designated personnel.
+Review and Approval:
+• All staff members must undergo training and periodic re-
+evaluation on this SOP.
+• Regular SOP review must be conducted to incorporate
+technological updates and procedural improvements.
+References:
+• Manufacturer's manuals for DNA extraction kits, library
+preparation kits, and target capture kits.
+• Software manuals for bioinformatics tools used in secondary and
+tertiary data analysis.
+• Peer-reviewed guidelines on the interpretation of genetic variants.
+This SOP is effective as of [Start Date] and shall be reviewed and
+updated as necessary.
+Reviewed by: [Name, Title] Approved by: [Name, Title]

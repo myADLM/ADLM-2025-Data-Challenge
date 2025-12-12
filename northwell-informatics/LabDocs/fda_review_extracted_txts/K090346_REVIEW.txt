@@ -1,0 +1,498 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k090346
+B. Purpose for Submission:
+Modification for body fluid application for ADVIA 2120 and the ADVIA 2120i.
+C. Manufacturer and Instrument Name:
+Siemens Healthcare Diagnostics, Inc.
+Body Fluid Application for ADVIA 2120 and the ADVIA 2120i.
+D. Type of Test or Tests Performed:
+Quantitative, Automated Hematology Analyzer
+WBC, NEUT%/#, LYMPH%/#, MONO%/#, EOS%/#, BASO%/#, LUC, RBC,
+HCT, MCV,RDW, CHCM, HDW, HGB, MCH, MCHC, PLT, MPV, RETIC%/#,
+MCVg, MCVr, CHCMg, CHCMr. CHg, CHr
+Body Fluid Application:
+Total nucleated cell (TNC) count and RBC count
+E. System Descriptions:
+1. Device Description:
+The Body Fluid Application can be run on the ADVIA 2120 and the ADVIA
+2120i hematology analyzers. The ADVIA 2120/ADVIA 2120i Body Fluid
+Application uses the ADVIA 120 CBC TIMEpac and ADVIA 120 Diff TIMEpac
+reagents to determine the TNC and RBC counts. No additional Body Fluid
+Application specific reagents are needed.
+The ADVIA 2120 Hematology system consists of the following: an analytical
+module that aspirates, dilutes, and analyzes whole blood samples; an autosampler
+that automatically mixes, identifies, and presents the samples for processing; a
+computer workstation that controls the instrument, provides primary user interface
+with the instrument and manages the data produced by the instrument; a printer
+that optionally generates reports based on the instrument results and an autoslide
+module.
+2. Principles of Operation:
+The ADVIA 2120/2120i Body Fluid Application uses the Basophil/Lobularity
+and RBC/Platelet channels to enumerate the TNC and RBC counts. The TNC
+count is derived from the Basophil/Lobularity channel. The ADVIA 2120/2120i
+BASO reagent contains surfactant and phthalic acid which, in the presence of low
+heat in the Baso channel reaction chamber, lyses RBCs and strips the cytoplasmic
+membrane from all leukocytes except basophils. This cell suspension is
+subsequently passed through the flowcell. The cell suspension is intercepted by
+light from the laser diode where the low-angle light scatter (2° to 3°) and high-
+angle light scatter (5° to 15°) signals of each cell are counted.
+The RBC count is derived from the RBC/Platelet channel. The ADVIA
+2120/2120i
+1
+
+--- Page 2 ---
+RBC/Platelet reagent uses sodium dodecyl sulfate and glutaraldehyde to sphere
+and fix the RBCs. This cell suspension uses the same flowcell and low-angle and
+high-angle light scatter signals as the Baso channel to count the RBCs. The
+system automatically reports the TNC and RBC counts in conventional or SI units
+appropriate for body fluid samples.
+The Basophil/Lobularity cytochemical reactions consist of two steps:
+Step 1 - Red blood cells and platelets are lysed using the ADVIA 120 BASO
+reagent.
+Step 2 - All white blood cells except basophils are stripped of their cytoplasm
+using the ADVIA 120 BASO reagent and the increased temperature in the
+reaction chamber.
+The Body Fluid Application default Run Screen, displays 3 cytograms:
+Peroxidase, Basophil/Lobularity and RBC Scatter cytograms. The
+Basophil/Lobularity and Peroxidase channel cytograms have been modified
+specifically for the light scatter characteristics of the cells in body fluid samples.
+The RBC cytogram is the same as the cytogram for whole blood analysis.
+The reported TNC count is derived from the Basophil/Lobularity channel. The
+TNC count is the sum of the events above the Baso Y-channel Noise threshold
+plus the events left of Baso X-channel 49. The events in the Baso channel Noise
+region for the Body Fluid Application are excluded from the TNC count.
+The WBC count from the Peroxidase channel (WBCP) is compared to the TNC
+count from the Basophil/Lobularity channel. When the TNC does not agree with
+the WBCP count within limits specific to the Body Fluid Application, the TNC
+count is flagged with an asterisk. Determination of the RBC count is the same as
+for whole blood samples. The Header information includes the body fluid
+specimen type.
+3. Modes of Operation:
+ADVIA 2120/2120i system is a random access analyzer which has three sampling
+modes: [1] Manual open tube sampler, [2] manual closed tube sampler and
+[3] automated closed tube sampler (Autosampler).
+4. Specimen Identification:
+Sample identification is done by following modes: [1] Manually entered sample
+ID [2] barcode [3] rack/position numbers (for autosampler only) and [4]
+instrument automatic incremental numbering.
+5. Specimen Sampling and Handling:
+Body fluids samples must be manually mixed by gentle inversion for the manual
+open and closed tube modes. The automated closed tube sampler mixer rotates
+first to +45° then to +135°, staying at each orientation for a minimum of 0.6
+seconds and a maximum of 15 seconds. A total of 25 mixer-cycles are required
+before aspiration. Fully mixed samples which have a dwell of over 15 seconds
+require an additional 20 mixer cycles before aspiration. If a dwell exceeds 5
+minutes, the samples must be mixed again for 45 cycles before aspiration.
+6. Calibration:
+ADVIA 2120/2120i systems calibration for all reportable CBC, Diff. and retic.
+(except % retic.) parameters require the ADVIA SETpoint Calibrator and one
+2
+
+--- Page 3 ---
+whole blood sample.
+7. Quality Control:
+It is recommended that the system be controlled using ADVIA TESTpoint or
+3•in•1 Hematology Controls. These controls are intended to be integrated into a
+clinical laboratory’s own quality control program and procedures.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes__X___ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.5220 - Automated differential cell counter
+2. Classification:
+Class II
+3 Product code:
+GKZ - Counter, Differential Cell
+4. Panel:
+81 Hematology
+G. Intended Use:
+1. Indication(s) for Use:
+The ADVIA 2120/2120i auto-analyzer Body Fluid Application is an in vitro
+diagnostic test for the enumeration of the total nucleated cell (TNC) count and
+RBC count for pleural, peritoneal, and peritoneal dialysis (PD) specimens
+collected in K2 or K3 EDTA.
+2. Special Conditions for Use Statement(s):
+None
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+COULTER® LH 750 Body Fluids Application - k030606
+2. Comparison with Predicate Device:
+Similarities
+Item Predicate Device Device
+COULTER® LH 750 Body Siemens ADVIA
+Fluids Application 2120/2120i Body Fluids
+Application
+Instrument Automated Hematology Same
+Analyzer
+Intended Use Enumeration of the total Same
+nucleated cell (TNC) count
+and RBC count
+Dilution Automated dilution Same
+Counts Automated calculation of Same
+counts
+3
+
+[Table 1 on page 3]
+Similarities		
+Item	Predicate Device	Device
+	COULTER® LH 750 Body
+Fluids Application	Siemens ADVIA
+2120/2120i Body Fluids
+Application
+Instrument	Automated Hematology
+Analyzer	Same
+Intended Use	Enumeration of the total
+nucleated cell (TNC) count
+and RBC count	Same
+Dilution	Automated dilution	Same
+Counts	Automated calculation of
+counts	Same
+
+--- Page 4 ---
+Differences
+Item Predicate Device Device
+COULTER® LH 750 Body Siemens ADVIA
+Fluids Application 2120/2120i Body Fluids
+Application
+Sample Type Pleural, peritoneal, and Cerebrospinal fluid, serous
+Peritoneal Dialysis fluids fluid, and synovial fluid
+Detection Impedance technology Light scatter technology
+I. Special Control/Guidance Document Referenced:
+1. CLSI Document. EP5-A2. Evaluation of Precision Performance of Clinical
+Chemistry Devices; Approved Guideline—Second Edition”. 2004. CLSI, 940
+West Valley Road, Suite 1400, Wayne, PA 19087-1898.
+2. CLSI Document H56-A. “Body Fluid Analysis for Cellular Composition;
+Approved Guideline”. 2006. CLSI, 940 West Valley Road, Suite 1400, Wayne,
+PA 19087-1898.
+3. CLSI Document EP17-A. “Protocol for determination of Limits of Detection and
+Limits of Quantitation”. 2004. CLSI, 940 West Valley Road, Suite 1400, Wayne,
+PA 19087-1898.
+4. CLSI Document GP10. “Assessment of the Clinical Accuracy of Laboratory Tests
+Using Receiver Operating Characteristic (ROC) Plots”. CLSI, 940 West Valley
+Road, Suite 1400, Wayne, PA 19087-1898.
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+The Body Fluid Application TNC count was evaluated by comparing the
+hemocytometer count to the ADVIA 2120/2120i count for 434 body fluid
+samples. The Body Fluid Application RBC count was evaluated by comparing the
+manual chamber count to the ADVIA 2120/2120i count for 78 body fluid
+samples. Samples were pleural, peritoneal, and peritoneal dialysis specimens
+collected in EDTA tubes with no visible clotting. The results are considered
+acceptable if they meet the design input requirements for the method comparison
+study. The design input requirements are >0.85 for r, 1 +/- 0.15 for slope and 0 +/-
+100 for intercept.
+Parameter n r Slope Intercept 95% CI 95% CI
+Slope Intercept
+TNC 434 0.942 0.90 65 0.87 to 0.93 -22 to 153
+RBC 78 0.964 0.99 -0.5 0.93 to 1.05 -14.6 to 13.5
+Conclusion: The results of the method comparison studies indicated comparable
+performance relative to the reference method.
+b. Precision/Reproducibility:
+Precision Studies
+4
+
+[Table 1 on page 4]
+Differences		
+Item	Predicate Device	Device
+	COULTER® LH 750 Body
+Fluids Application	Siemens ADVIA
+2120/2120i Body Fluids
+Application
+Sample Type	Pleural, peritoneal, and
+Peritoneal Dialysis fluids	Cerebrospinal fluid, serous
+fluid, and synovial fluid
+Detection	Impedance technology	Light scatter technology
+
+[Table 2 on page 4]
+Parameter	n	r	Slope	Intercept	95% CI
+Slope	95% CI
+Intercept
+TNC	434	0.942	0.90	65	0.87 to 0.93	-22 to 153
+RBC	78	0.964	0.99	-0.5	0.93 to 1.05	-14.6 to 13.5
+
+--- Page 5 ---
+A precision study was performed based on the guidelines contained in CLSI EP5-
+A2. The TNC and RBC pools were assayed over a 20 day period with two runs
+per day; two replicates per run, for total of 80 replicates for each pool.
+Stabilized pools were prepared with target TNC concentrations of 50, 100, 500,
+1000, and 10000 cells/uL in plasma diluted 1:2 with phosphate buffer.
+Stabilized pools were prepared with target RBC concentrations of 50, 100, 500,
+and 1000 x 103 cells/uL in plasma diluted 1:2 with phosphate buffer.
+The results were analyzed using nested analysis of variance consistent with the
+guidance contained in CLSI EP5-A2.
+TNC Precision
+Within Run Between Run Between Day Total
+Level Mean SD CV SD CV SD CV SD CV
+50 58.6 6.887 11.7% 3.001 5.1% 1.103 1.9% 7.6 12.9%
+100 118.33 10.908 9.2% 0 0.0% 3.47 2.9% 11.4 9.7%
+500 593.48 26.32 4.4% 0 0.0% 8.304 1.4% 27.6 4.7%
+1000 1179.5 35.152 3.0% 17.329 1.5% 19.276 1.6% 43.7 3.7%
+10000 116.27 196.994 1.7% 61.866 0.5% 136.538 1.2% 247.542 2.1%
+RBC Precision
+Within Run Between Run Between Day Total
+Level Mean SD CV SD Mean SD CV SD CV
+50 52.664 2.202 4.2% 0 0.0% 1.001 1.9% 2.4 4.6%
+100 104.99 2.994 2.8% 0 0.0% 1.4 1.3% 3.3 3.1%
+500 518.48 6.405 1.2% 2.04 0.4% 3.497 0.7% 7.6 1.5%
+1000 1023.7 13.055 1.3% 6.404 0.6% 0 0.0% 14.5 1.4%
+The results are considered acceptable if they meet the design input requirements
+for within-run precision. The design input requirements are ≤ 15% CV at 500
+cells/μL for the TNC count and ≤ 10% CV at 50 x103 cells/μL for the RBC count.
+Conclusions: The results of the precision studies using stabilized specimens
+indicated acceptable precision over the time period tested.
+Repeatability Testing
+Specimens were utilized from the stability study, described below. One specimen
+of each body fluid type assayed 10 times in one run on a single day. Additional
+assays were not possible because of sample volume and sample stability
+limitations. The mean, standard deviation (SD), and coefficient of variation are
+calculated for each sample included in the study. The results are considered
+acceptable if they meet the design input requirements for within-run precision.
+The design input requirements are ≤ 15% CV at 500 cells/μL for the TNC count
+and ≤ 10% CV at 50 x103 cells/μL for the RBC count.
+TNC RBC
+Fluid Mean SD CV Mean SD CV
+Pleural 93492 8749.5 9.4 80 6.9 8.6
+Peritoneal 274 22.5 8.2 41 1.6 3.9
+PD 64 6.5 10.2 28 1.7 6.1
+5
+
+[Table 1 on page 5]
+Within Run				Between Run		Between Day		Total	
+Level	Mean	SD	CV	SD	CV	SD	CV	SD	CV
+50	58.6	6.887	11.7%	3.001	5.1%	1.103	1.9%	7.6	12.9%
+100	118.33	10.908	9.2%	0	0.0%	3.47	2.9%	11.4	9.7%
+500	593.48	26.32	4.4%	0	0.0%	8.304	1.4%	27.6	4.7%
+1000	1179.5	35.152	3.0%	17.329	1.5%	19.276	1.6%	43.7	3.7%
+10000	116.27	196.994	1.7%	61.866	0.5%	136.538	1.2%	247.542	2.1%
+
+[Table 2 on page 5]
+Within Run				Between Run		Between Day		Total	
+Level	Mean	SD	CV	SD	Mean	SD	CV	SD	CV
+50	52.664	2.202	4.2%	0	0.0%	1.001	1.9%	2.4	4.6%
+100	104.99	2.994	2.8%	0	0.0%	1.4	1.3%	3.3	3.1%
+500	518.48	6.405	1.2%	2.04	0.4%	3.497	0.7%	7.6	1.5%
+1000	1023.7	13.055	1.3%	6.404	0.6%	0	0.0%	14.5	1.4%
+
+[Table 3 on page 5]
+	TNC			RBC		
+Fluid	Mean	SD	CV	Mean	SD	CV
+Pleural	93492	8749.5	9.4	80	6.9	8.6
+Peritoneal	274	22.5	8.2	41	1.6	3.9
+PD	64	6.5	10.2	28	1.7	6.1
+
+--- Page 6 ---
+Conclusion: The results from the repeatability study demonstrate that within-run
+precision of the body fluid counts meets the design input requirements of ≤ 15%
+CV at 500 cells/μL for the TNC count and ≤ 10% CV at 50 x103 cells/μL for the
+RBC count.
+Reproducibility/Specimen Stability
+The goal of the testing the Body Fluid Software is to demonstrate stability of
+fluids under different conditions using the system software. This was
+accomplished by using remnant body fluid samples collected in K2 or K3 EDTA
+at two external sites. These sites collected pleural, peritoneal and peritoneal
+dialysate body fluids. The samples were run on ADVIA 2120/2120i using the
+body fluid application. These fluid samples were tested within 2-hours to
+represent the baseline or zero (0) time result, as well at different time points, and
+different conditions (room temperature and at 2-8°C). Specimens included:
+Five (5) samples with RBC counts that fall in the range from ≥ 10,000 cells/uL to
+6.76 x 106 cells/μL for each type of fluid.
+Five (5) samples with TNC counts that fall in the range of 0.030 to 400 x 103
+cells/μL (30 to 400,000) for each type of fluid.
+Conclusion: The observed regression slopes all meet the acceptance criteria of
+falling within the range of 0.9 to 1.1. It can be concluded that body fluid samples
+are stable at room temperature for 8 hours and when refrigerated for 24 hours.
+c. Linearity:
+The objective of the linearity protocol was to verify low level linearity of the body
+fluid TNC and RBC counts. High level linearity of the counting methods has been
+established previously (k042251) in whole blood sampling modes. Low level
+pools with a target WBC concentration of 500 cells/uL and an RBC target
+concentration of 500 thousand cells/uL were created. Serial dilutions of these
+pools were made with cell free materials (plasma diluted in PBS) over the low
+level range of the assays. The WBC pools were aspirated 13 times each in body
+fluid mode, and the RBC pools were aspirated 12 times each.
+TNC Linearity
+% of Observed Expected Obs vs Obs vs
+High Pool TNC (cells/uL) TNC (cells/uL) Exp % Exp Abs
+0% 1 0 1
+4% 19 20 95.0 -1
+8% 41 40 102.5 1
+12% 67 60 111.7 7
+16% 80 80 100.0 0
+20% 105 99 106.1 6
+100% 497 497 100.0 0
+6
+
+[Table 1 on page 6]
+% of
+High Pool	Observed
+TNC (cells/uL)	Expected
+TNC (cells/uL)	Obs vs
+Exp %	Obs vs
+Exp Abs
+0%	1	0		1
+4%	19	20	95.0	-1
+8%	41	40	102.5	1
+12%	67	60	111.7	7
+16%	80	80	100.0	0
+20%	105	99	106.1	6
+100%	497	497	100.0	0
+
+--- Page 7 ---
+RBC Linearity
+Observed Expected
+% of RBC RBC Obs vs Obs vs
+High Pool (10E3cells/uL) (10E3cells/uL) Exp % Exp Abs
+0% 0 0 0
+2% 11 10 110.0 1
+6% 30 31 96.8 -1
+10% 52 52 100.0 0
+15% 77 77 100.0 0
+20% 106 103 102.9 3
+100% 515 515 100.0 0
+Conclusion: The results meet the design requirements that the deviations are <
+10% or within 10 cells.
+d. Carryover:
+The carryover protocol was run in all three sampling modes: manual open tube,
+manual closed tube, and automated sampling. Carryover was tested by four
+different methods in each sampling mode:
+A normal whole blood assayed in CBC/Diff mode followed by three aspirations
+of a saline sample in body fluid mode.
+A manipulated whole blood sample with elevated WBC counts (approximately
+30,000 cells/uL) and RBC counts (approximately 6 million cells/uL) assayed in
+CBC/Diff mode followed by three aspirations of a saline sample in body fluid
+mode.
+A normal whole blood assayed in body fluid mode followed by three aspirations
+of a saline sample in body fluid mode.
+A manipulated whole blood sample with elevated WBC counts (approximately
+30,000 cells/uL) and RBC counts (approximately 6 million cells/uL) assayed in
+body fluid mode followed by three aspirations of a saline sample in body fluid
+mode.
+Five sets of carryover sequences were run for each type of carryover test within
+each sampling mode. A saline primer was assayed before each body fluid sample
+when using the Autosampler as instructed in the body fluids instructions for use.
+Carryover results are listed in the Tables below. Each Table entry is the average
+of the 5 carryover sequences run in each configuration.
+Open Tube Sampling Carryover
+7
+
+[Table 1 on page 7]
+% of
+High Pool	Observed
+RBC
+(10E3cells/uL)	Expected
+RBC
+(10E3cells/uL)	Obs vs
+Exp %	Obs vs
+Exp Abs
+0%	0	0		0
+2%	11	10	110.0	1
+6%	30	31	96.8	-1
+10%	52	52	100.0	0
+15%	77	77	100.0	0
+20%	106	103	102.9	3
+100%	515	515	100.0	0
+
+--- Page 8 ---
+TNC RBC
+Sample % Carryover % Carryover
+Normal WBC/RBC CBC/Diff 0.17% 0.11%
+Elevated WBC/RBC CBC/Diff 0.16% 0.16%
+Normal WBC/RBC BF 0.27% 0.26%
+Elevated WBC/RBC BF 0.38% 0.31%
+Manual Closed Tube Sampling Carryover
+TNC RBC
+Sample % Carryover % Carryover
+Normal WBC/RBC CBC/Diff 0.11% 0.11%
+Elevated WBC/RBC CBC/Diff 0.14% 0.10%
+Normal WBC/RBC BF 0.36% 0.25%
+Elevated WBC/RBC BF 0.29% 0.25%
+Automated Sampling Carryover
+TNC RBC
+Sample % Carryover % Carryover
+Normal WBC/RBC CBC/Diff 0.00% 0.01%
+Elevated WBC/RBC CBC/Diff 0.00% 0.01%
+Normal WBC/RBC BF 0.00% 0.00%
+Elevated WBC/RBC BF 0.00% 0.00%
+Conclusion: The carryover results meet the specification of <0.4% for the TNC,
+and <0.3% for the RBC count for Manual Closed Tube Sampler (MCTS) and the
+Manual Open Tube Sampler (MOTS), and <0.1% for both the TNC and RBC
+counts for the Autosampler.
+e. Interfering Substances:
+If TNC and RBC counts from patient samples where the manual differential
+shows a proportional neutrophil count ≥ 80%, crystals, the presence of lipids
+and/or chylomicrons, cellular deterioration and disintegration, or the patient is
+under treatment with a sclerosing agent, the results should be confirmed by an
+alternate method.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+The range of reportable values study included a limit of blank (LoB) study, a limit
+of detection study (LoD), and a limit of quantitation (LoQ) study as defined in
+CLSI EP17 CLSI EP17-A to determine the lowest concentration of TNC and
+RBC counts that can be detected with at least 95% probability.
+8
+
+[Table 1 on page 8]
+Sample	TNC
+% Carryover	RBC
+% Carryover
+Normal WBC/RBC CBC/Diff	0.17%	0.11%
+Elevated WBC/RBC CBC/Diff	0.16%	0.16%
+Normal WBC/RBC BF	0.27%	0.26%
+Elevated WBC/RBC BF	0.38%	0.31%
+
+[Table 2 on page 8]
+Sample	TNC
+% Carryover	RBC
+% Carryover
+Normal WBC/RBC CBC/Diff	0.11%	0.11%
+Elevated WBC/RBC CBC/Diff	0.14%	0.10%
+Normal WBC/RBC BF	0.36%	0.25%
+Elevated WBC/RBC BF	0.29%	0.25%
+
+[Table 3 on page 8]
+Sample	TNC
+% Carryover	RBC
+% Carryover
+Normal WBC/RBC CBC/Diff	0.00%	0.01%
+Elevated WBC/RBC CBC/Diff	0.00%	0.01%
+Normal WBC/RBC BF	0.00%	0.00%
+Elevated WBC/RBC BF	0.00%	0.00%
+
+--- Page 9 ---
+Limit of Blank
+Cell free samples were prepared by mixing equal amounts of cell free plasma and
+PBS. These samples were assayed in body fluid mode over a 4-day period. A total
+of 80 assays were performed on the blank samples.
+The results are analyzed non – parametrically as recommended in section 4.1.1 of
+CLSI EP17-A. The TNC LoB is four (4) cells, and the RBC LoB is 1,000 cells.
+The limit of blank was determined to be 4.24 cells / uL for TNC and 1.43 x 103
+cells/uL for RBC.
+Limit of Detection
+Limit of detection (LoD) was estimated by preparing pools with a TNC
+concentration of approximately 20 cells/uL and an RBC concentration of
+approximately 10 x 103 cells/uL. Based on the LoB results, five samples prepared
+with a TNC concentration of approximately 20 cells/uL were assayed 13 times
+each day for a total of four days. Likewise, five samples prepared with an RBC
+concentration of approximately 10 – 11 x103 cells/uL were assayed 13 times each
+day for a total of four days. LoD is calculated as LoD = LoB + (c-beta)x(SD) as
+recommended in section 4.3.2 of CLSI EP17-A. The limit of detection was
+determined to be 12.8 cells/uL for TNC and 2.8 x 103 cells/uL for RBC.
+Limit of Quantitation
+Pools were prepared with target TNC concentrations of 0, 20, 40, 60, 80, 100 and
+500 cells/uL. Each pool was assayed 13 times each. Pools were prepared with
+target RBC concentrations of 0, 10, 30, 50, 75, 100, and 500 x103 cells/uL. Each
+pool was assayed 12 times each. LoQ is determined as the analyte level where a
+20% total CV is obtained. The LoQ for the TNC count is 27 cells/uL and the LoQ
+for the RBC count is 4.94 x103 cells/uL.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+9

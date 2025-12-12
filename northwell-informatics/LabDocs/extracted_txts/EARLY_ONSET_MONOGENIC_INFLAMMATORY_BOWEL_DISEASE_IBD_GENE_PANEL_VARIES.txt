@@ -1,0 +1,72 @@
+1. PURPOSE
+The purpose of this SOP is to provide a standardized protocol for the
+analytical phase of generating results for the Early Onset Monogenic
+Inflammatory Bowel Disease (IBD) Gene Panel, Varies. This protocol
+ensures consistency and accuracy in the testing process and results
+reporting.
+Responsibility: The designated laboratory personnel are responsible
+for performing all analysis procedures as outlined in this SOP. The
+supervising geneticist or senior technologist is responsible for
+verifying the accuracy and completeness of the results and for
+troubleshooting any technical issues that may arise.
+1. DEFINITION Early Onset Monogenic Inflammatory Bowel
+Disease (IBD) Gene Panel is a comprehensive genetic test
+designed to identify pathogenic or likely pathogenic variants in
+genes associated with early onset forms of IBD. The test
+targets specific genes known to be linked with monogenic forms
+of IBD, providing valuable insights for diagnosis and treatment.
+2. PROCEDURE
+Specimen Requirements: - Accepted specimens: Whole blood or
+extracted DNA. - Whole blood: Collected in EDTA tubes, stored and
+transported at room temperature. - Extracted DNA: Minimum
+concentration of 50 ng/μL, stored and transported in TE buffer at
+-20°C.
+Equipment, Reagents, and Supplies: - Next-Generation Sequencing
+(NGS) platform - DNA extraction kits (if required) - PCR reagents and
+consumables - Targeted gene panel library preparation kits - Quality
+control (QC) materials - Bioinformatics analysis software - Laboratory
+Information System (LIS) for result reporting
+Procedure:
+A) DNA Extraction (if applicable): - Use a validated DNA extraction kit
+to isolate DNA from the whole blood. - Measure DNA concentration
+and purity using a spectrophotometer (e.g., NanoDrop). - Record the
+DNA concentration and purity in the laboratory log. Ensure DNA
+quality meets the criteria (e.g., A260/280 ratio between 1.8-2.0).
+B) Library Preparation: - Use the targeted gene panel library
+preparation kit according to the manufacturer’s instructions. - Perform
+PCR amplification of target regions. - Purify PCR products using a
+suitable purification method (e.g., bead-based purification). - Quantify
+and normalize the library concentrations using a fluorometer (e.g.,
+Qubit) and ensure they meet the required concentrations for
+sequencing.
+C) Sequencing: - Load the prepared libraries onto the NGS platform
+according to the manufacturer’s instructions. - Ensure appropriate run
+setup including sample sheet creation and loading of sequencing
+reagents. - Monitor the sequencing run to ensure proper performance
+and address any issues that arise during the run.
+D) Data Analysis: - After sequencing is completed, transfer the raw
+data to the bioinformatics analysis software. - Perform sequence
+alignment to a reference genome, variant calling, and annotation. -
+Review the variant calls and annotations ensuring that the pipeline
+meets quality control criteria (e.g., minimum coverage depth, read
+quality).
+E) Interpretation and Reporting: - The supervising geneticist or senior
+technologist reviews the annotated variant file. - Interpret pathogenic
+or likely pathogenic variants in the context of the patient’s clinical
+presentation. - Generate a clinical report detailing the findings,
+including variant classifications, explanations, and recommendations.
+- Enter the results into the LIS for verification and release.
+Quality Control: - Include positive and negative controls in each
+library preparation and sequencing run. - Perform intralab quality
+control procedures bi-weekly by analyzing duplicate samples. - Track
+and document quality control results, addressing any deviations from
+expected performance immediately.
+Note: All quality control measures and corrective actions must be
+logged and reviewed regularly.
+References: - Manufacturer’s instructions for DNA extraction kits and
+NGS library preparation kits. - Bioinformatics software user manuals.
+- Clinical guidelines for the interpretation of genetic variants in early
+onset monogenic IBD.
+Appendix: - Example template of the laboratory log for DNA
+concentration and purity. - Example report format for the clinical
+interpretation of results.

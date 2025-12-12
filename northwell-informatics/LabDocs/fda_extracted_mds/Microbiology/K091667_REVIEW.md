@@ -1,0 +1,70 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number: K091667   
+B. Purpose for Submission: Request to update the package insert on studies that have evaluated the xTAG RVP performance on specimens infected with 2009 H1N1 influenza. C. Measurand: See K063765   
+D. Type of Test: See K063765   
+E. Applicant: Luminex Molecular Diagnostics Inc.   
+F. Proprietary and Established Names: xTAG™ Respiratory Viral Panel
+
+Common Name: Respiratory Viral Panel (RVP) Multiplex Nucleic Acid Detection Assay
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR 866.3980, Respiratory viral panel multiplex nucleic acid assay   
+2. Classification: Class II   
+3. Product code: OCC, OEM, OEP   
+4. Panel: Microbiology (83)
+
+# H. Intended Use:
+
+# 1. Intended use(s):
+
+The xTAG™ Respiratory Viral Panel (RVP) is a qualitative nucleic acid multiplex test intended for the simultaneous detection and identification of multiple respiratory virus nucleic acids in nasopharyngeal swabs from individuals suspected of respiratory tract infections. The following virus types and subtypes are identified using RVP: Influenza A, Influenza A subtype H1, Influenza A subtype H3, Influenza B, Respiratory Syncytial Virus subtype A, Respiratory Syncytial Virus subtype B, Parainfluenza 1, Parainfluenza 2, and Parainfluenza 3 virus, Human Metapneumovirus, Rhinovirus, and Adenovirus. The detection and identification of specific viral nucleic acids from individuals exhibiting signs and symptoms of respiratory infection aids in the diagnosis of respiratory viral infection if used in conjunction with other clinical and laboratory findings. It is recommended that specimens found to be negative for Influenza B, Respiratory Syncytial Virus subtype A and B, Parainfluenza 1, Parainfluenza 2, Parainfluenza 3 and Adenovirus, after examination using RVP be confirmed by cell culture.
+
+Negative results do not preclude respiratory virus infection and should not be used as the sole basis for diagnosis, treatment or other management decisions. Positive results do not rule out bacterial infection, or co-infection with other viruses. The agent detected may not be the definite cause of disease. The use of additional laboratory testing (e.g. bacterial culture, immunofluorescence, radiography) and clinical presentation must be taken into consideration in order to obtain the final diagnosis of respiratory viral infection.
+
+Due to seasonal prevalence, performance characteristics for Influenza A/H1 were established primarily with retrospective specimens.
+
+The RVP assay cannot adequately detect Adenovirus species C, or serotypes 7a and 41. The RVP primers for detection of rhinovirus cross-react with enterovirus. A rhinovirus reactive result should be confirmed by an alternate method (e.g. cell culture).
+
+Performance characteristics for Influenza A Virus were established when Influenza $\mathrm { A } / \mathrm { H } 3$ and A/H1 were the predominant Influenza A viruses in circulation. When other Influenza A viruses are emerging, performance characteristics may vary. If infections with a novel Influenza A virus is suspected based on current clinical and epidemiological screening criteria recommended by public health authorities, specimens should be collected with appropriate infection control precautions for novel virulent Influenza viruses and sent to a state or local health department for testing. Viral culture should not be attempted in these cases unless a BSL $^ { 3 + }$ facility is available to receive and culture specimens.
+
+2. Indication(s) for use: Same as Intended Use   
+3. Special conditions for use statement(s): For prescription use only   
+4. Special instrument requirements: Luminex® Instrument (100 IS and 200 systems)
+
+I. Device Description: See K063765
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): See K063765   
+2. Predicate 510(k) number(s): See K063765   
+3. Comparison with predicate: See K063765
+
+# K. Standard/Guidance Document Referenced (if applicable): See K063765
+
+L. Test Principle: See K063765
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: See K063765   
+2. Comparison studies: See K063765   
+3. Clinical studies: See K063765
+
+# Additional clinical supportive data:
+
+The xTAG RVP can detect the matrix gene of 2009 H1N1 influenza virus but can not identify the hemagglutinin gene of the 2009 H1N1 influenza virus in clinical specimens. The paragraphs below summarize two studies by Dr. Christine Ginocchio, Director of Microbiology, Virology and Molecular Diagnostics at North Shore-LIJ Health System Laboratories (Ginocchio & George, 2009; Ginocchio et al. 2009):
+
+In a study carried out during the 2009 H1N1 influenza outbreak in New York (Ginocchio & George, 2009), a total of 1,382 patient nasopharyngeal swab samples were initially tested with a variety of method including rapid antigen tests $\scriptstyle ( \mathrm { n = 1 0 9 5 } )$ ), direct immunofluorescence $\scriptstyle ( \ n = 1 1 6 4 )$ ), and rapid virus culture $\scriptstyle ( \mathrm { n = 1 } 1 4 0$ ). Samples that tested positive for Influenza A with any of these methods, or derived from patients with a high potential to be infected with the $2 0 0 9 \mathrm { H } 1 \mathrm { N } 1$ influenza strain, were further tested with xTAG RVP $\mathrm { ( n { = } } 3 7 5 \mathrm { ) }$ ). A total of 201 of these samples were identified as Influenza A positive by the RVP assay, two samples contained Influenza B, and other respiratory viruses in 58 samples (adenovirus, metapneumovirus, Parainfluenza 1, 2, 3, RSV, and rhinovirus). Sixty of the 201 Influenza A positive samples were identified by xTAG RVP as seasonal strains (2 as H1 and 58 as H3). The remaining 141 Influenza A positive samples were negative for both H1 and H3 by xTAG RVP (unsubtypeable). Frozen residual portions of 101 of the 141 unsubtypeable samples were forwarded to the Laboratory of Viral Diseases (Albany, NY) for further testing with the CDC rRT-PCR assay for 2009 H1N1 influenza). A total of 99 of the 101 specimens tested with the CDC assay were identified as positive for the $2 0 0 9 \mathrm { H } 1 \mathrm { N } 1$ influenza virus $( \mathrm { C T } { < } 3 7 )$ ). The two remaining specimens produced weak positive signals $\mathrm { ( C T } \mathrm { > } 3 7 \mathrm { ) }$ ) on one or more of the influenza targets and could not be classified as positive for the $2 0 0 9 \mathrm { H } 1 \mathrm { N } 1$ influenza strain. These two samples also produced weak positive signals in the RVP assay.
+
+A study by Ginocchio et al. (2009) evaluated the performance of a variety of diagnostic assays, including the xTAG RVP, for the $2 0 0 9 \mathrm { H } 1 \mathrm { N } 1$ influenza virus surveillance. In this study, a total of 2,715 patient nasopharyngeal swab samples were tested by xTAG RVP and 1265 of these were positive for influenza A. Of the 1265, 1108 were “flu A unsubtypeable”, 151 were seasonal H3N2 and 6 were seasonal H1N1. Of the 1108 Influenza A unsubtypeable with the xTAG RVP, all were confirmed to be 2009 H1N1 influenza with the CDC rRT-PCR assay.
+
+4. Clinical cut-off: See K063765
+
+5. Expected values/Reference range: See K063765
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+O. Conclusion: The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

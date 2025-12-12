@@ -1,0 +1,91 @@
+Omega Laboratories, Inc. 510(k) Summary Omega Hair Drug Screening Assay for Methamphetamine and MDMA
+
+This summary of 510(k) safety and effectiveness information is being submitted in accordance with the requirements of SMDA 1990 and 21 CFR 807.92
+
+# 510(k) Number:
+
+K1019731
+
+# Date of Summary:
+
+January 11, 2012 (corrected)
+
+Applicant:
+
+William R. Corl Vice President of Operations
+
+Omega Laboratories, Inc. 400 North Cleveland Mogadore, OH 44260 Tel: 330-628-5748 Fax: 330-628-5803
+
+# Correspondent: Name:
+
+Robert J Bard, JD
+
+Address:
+
+Omega Laboratories   
+400 North Cleveland, Mogadore, OH 44260   
+248-573-5040
+
+Phone Number: E-mail
+
+rbard@reglaw.net
+
+# Product Name:
+
+Trade Name:
+
+the Omega Laboratories Hair Drug Screening Assay Methamphetamine_3, 4-methylenedioxymethamphetamine (Meth_MDMA)
+
+Common Name:
+
+Hair Drug Screening Assay Methamphetamine
+
+Regulation Number:
+
+CFR 862.3610 (ProCode LAF)
+
+Classification Name:
+
+Enzyme immunoassay, Methamphetamine Methamphetamine test System
+
+Classification Panel: Predicate Device:
+
+91 (Toxicology) Quest Diagnostics HairCheck-DT (Amphetamines) k051161;
+
+Product Description:
+
+The Omega Laboratories Hair Drug Screening Assays for Methamphetamine_3,4-methylenedioxymethamphetamine (Meth_MDMA) is a test system using ELISA reagents and micro-plate reader for the qualitative detection of Methamphetamine and 3,4- Methylenedioxymethamphetamine (MDMA)in hair samples at or above $5 0 0 ~ \mathrm { p g / m g }$ .
+
+Indication for Use:
+
+The Omega Laboratories Hair Drug Screening Assay for Methamphetamine and MDMA is a laboratory developed test that is intended to be used for the determination of the presence of Methamphetamine and 3,4-Methylenedioxymethamphetamine (MDMA) in human hair from the crown of the head. The Omega Laboratories Hair Drug Screening Assay (AMP) utilizes International Diagnostics Systems Corp One-Step Methamphetamine ELISA for Hair Testing Kit for the qualitative detection of Methamphetamine and MDMA at or
+
+# Omega Laboratories, Inc. 510(k) Summary Omega Hair Drug Screening Assay for Methamphetamine and MDMA
+
+above $5 0 0 ~ \mathrm { p g / m g }$ of hair for the purpose of identifying the use of Methamphetamine and MDMA. D-Methamphetamine is used as the standard for the assay. To confirm a screen positive result a more specific alternate chemical method, such as Gas Chromatography/Mass Spectrometry (GC/MS) operating in the selected ion monitoring (SIM) mode is the preferred method with deuterated internal standards. Professional judgment should be applied to any drug of abuse test result, particularly when presumptive positive results are obtained.
+
+# Comparison:
+
+When used to qualitatively detect methamphetamine and/or MDMA in head hair specimens collected with the Omega Specimen Collection Device, the Omega assays yield results in substantial agreement with the predicate device.
+
+# Comparison Performance Data:
+
+Performance characteristic studies were conducted for
+
+Precision
+
+Agreement
+
+Cosmetic Treatment
+
+Cross-reactivity
+
+Environmental Contamination
+
+All performance studies demonstrated that the Omega assay is in substantial agreement with the Quest Diagnostic product.
+
+Results obtained from donor specimens showed that the qualitative results from the new assays are substantially equivalent to those obtained from the predicate devices.
+
+# Conclusion:
+
+The Omega Laboratories Hair Drug Screening Assay for Methamphetamine and MDMA is substantially equivalent to the Quest Diagnostics HairCheck-DT (Amphetamines) k051161.

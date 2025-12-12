@@ -1,0 +1,315 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+k062377
+B. Purpose for Submission:
+Software allowing data transfer from a cell phone to a central server for viewing.
+C. Manufacturer and Instrument Name:
+MedApps, Inc., MedApps Remote Patient Monitoring System
+D. Type of Test or Tests Performed:
+This device does not directly test glucose. This is an accessory to previously a
+cleared glucose monitor (k024194/k043197).
+E. System Descriptions:
+1. Device Description:
+The MedApps Remote Patient Monitoring System (“System”) is designed to be
+used by patients to send their data from the LifeScan OneTouch Ultra glucose
+meter to a central server for subsequent storage and display.
+The System is comprised of a “Hub” (cell phone software) and the MedApps
+Engine, which runs on a central server.
+The Hub is a software program that runs on a cell phone and takes in data from
+the OneTouch Ultra (sent via the Polytel device (k070559)) and then transmits it
+to the central server for storage and processing.
+2. Principles of Operation:
+The MedApps Engine is a software program that runs on a common Web /
+Internet secure server platform. The MedApps Engine picks up the stored data
+sent to it by the Hub and through a set of business rules set by the healthcare
+providers, determines if a follow-up Interactive Voice Response (IVR) call is
+required to be made to the patient to collect additional Behavioral information
+from the patient.
+Once all the data is collected, then it is stored in a repository for access by the
+healthcare provider.
+The Hub will utilize the OneTouch Ultra integrated Short-range low power
+wireless transmission (Bluetooth V1.2) or a FDA approved accessory to the
+medical devices that to transmits the medical device data via Bluetooth to a
+compatible cellular telephone, such as the Nokia 6620, or other /compatible
+cellular phones.
+1
+
+--- Page 2 ---
+3. Modes of Operation:
+Wireless data transfer of stored glucose measurements from a cell phone to a
+central server where the data is accessible via the internet.
+4. Specimen Identification:
+For an example, see k024194/k043197.
+5. Specimen Sampling and Handling:
+For an example, see k024194/k043197.
+6. Calibration:
+For an example, see k024194/k043197.
+7. Quality Control:
+For an example, see k024194/k043197.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes___X___ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR § 862.1345, Glucose Test System
+2. Classification:
+Class II
+3. Product code:
+NBW
+4. Panel:
+75 (Clinical Chemistry)
+G. Intended Use:
+1. Indication(s) for Use:
+The MedApps Remote Patient Monitoring System model d-PAL acts as an
+accessory to FDA cleared devices, which collects and transmits stored patient data
+via wireless connections from medical devices to a cellular phone (Hub) and
+forwards to a central server for review of historical data about a patient over time
+to benefit the Healthcare Practitioner.
+The following medical devices and measuring systems are fully validated for this
+intended use at this time:
+• LifeScan OneTouch ® Ultra® Blood Glucose Monitoring System
+(k024194/k043197)
+• Polytel PWR-08-03 Remote Module (k070559)
+2
+
+--- Page 3 ---
+The MedApps Remote Patient Monitoring System is not intended to provide
+automated treatment decisions or to be used as a substitute for professional
+healthcare judgment. All patient medical diagnoses and treatment are to be
+performed under the supervision and oversight of an appropriate healthcare
+professional.
+The MedApps Remote Patient Monitoring System is not intended for emergency
+calls, and may not be used for transmission or indication of any real-time alarms
+or time-critical data.
+Clinical judgment and experience are required to check and interpret the
+measurements collected and transmitted.
+This device is not for use in systems which substitute for medical care.
+This device is not intended for patients requiring direct medical supervision or
+emergency intervention.
+2. Special Conditions for Use Statement(s):
+For over-the counter use
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+k061328, Think Positive (t+) Diabetes Management System
+k050929, The Hermes System
+2. Comparison with Predicate Device:
+Feature Think Positive The Hermes MedApps
+k061328 k050929 (Submission
+Device)
+Indications of Enables healthcare Same Same
+Use providers to
+monitor and
+manage chronic
+conditions of
+patients remotely
+Intended Use Telemedicine Same Same
+System
+Intended Users Home users and Same Same
+Healthcare
+providers
+3
+
+[Table 1 on page 3]
+Feature	Think Positive
+k061328	The Hermes
+k050929	MedApps
+(Submission
+Device)
+Indications of
+Use	Enables healthcare
+providers to
+monitor and
+manage chronic
+conditions of
+patients remotely	Same	Same
+Intended Use	Telemedicine
+System	Same	Same
+Intended Users	Home users and
+Healthcare
+providers	Same	Same
+
+--- Page 4 ---
+Site of Use Home, Clinic Same Same
+Data Collection Think Positive The Hermes MedApps
+Software Proprietary Proprietary Proprietary
+Software Software Software
+Data Collection Transmit data from Same Same
+Software Sensor devices to
+Functionality Central Database
+Communication Via Cellular Phone Same Same
+method of hub
+with Central
+Server
+Types of Glucose Levels Same Same
+sensors which
+can be
+interfaced
+(wired or
+wirelessly) to
+receiver hub
+Implementation Short range radio Same Same
+method of system using
+collecting data Bluetooth and
+from sensors Cellular
+technology
+Sensor Software Sensor Software Same Same
+unchanged
+Connectivity Short range radio Same Same
+system using
+Bluetooth and
+Cellular
+technology
+Communication Short range radio Same Same
+method of hub system using
+with devices Bluetooth and
+Cellular
+technology
+Communication Bluetooth V1.2 Same Same
+s Protocol
+4
+
+[Table 1 on page 4]
+Site of Use	Home, Clinic	Same	Same
+Data Collection
+Software	Think Positive
+Proprietary
+Software	The Hermes
+Proprietary
+Software	MedApps
+Proprietary
+Software
+Data Collection
+Software
+Functionality	Transmit data from
+Sensor devices to
+Central Database	Same	Same
+Communication
+method of hub
+with Central
+Server	Via Cellular Phone	Same	Same
+Types of
+sensors which
+can be
+interfaced
+(wired or
+wirelessly) to
+receiver hub	Glucose Levels	Same	Same
+Implementation
+method of
+collecting data
+from sensors	Short range radio
+system using
+Bluetooth and
+Cellular
+technology	Same	Same
+Sensor Software	Sensor Software
+unchanged	Same	Same
+Connectivity	Short range radio
+system using
+Bluetooth and
+Cellular
+technology	Same	Same
+Communication
+method of hub
+with devices	Short range radio
+system using
+Bluetooth and
+Cellular
+technology	Same	Same
+Communication
+s Protocol	Bluetooth V1.2	Same	Same
+
+--- Page 5 ---
+Communication 2.402 to 2.480 Same Same
+Frequency GHz
+Power Source Wall power plug Same Same
+for hub (120
+VAC/50-60) and
+batteries in devices
+Display On devices and Same Same
+hub, and monitors
+connected to
+central server
+Communication On screen display Same On screen
+with Patients display of
+Readings and
+Interactive
+Voice Response
+(IVR)
+I. Special Control/Guidance Document Referenced (if applicable):
+1) Guidance for the Content of Premarket Submissions for Software Contained in
+Medical Devices, May 11, 2005
+2) Guidance on Medical Device Patient Labeling: Final Guidance for Industry and
+FDA Reviewers, April 19, 2001
+3) Guidance for Industry – Part 11, Electronic Records; Electronic Signatures –
+Scope and Application, August 2003
+4) Design Control Guidance for Medical Device Manufacturers, March 11, 1997
+5) ISO 9001:2000 – Quality Management Systems – Requirements
+6) ISO 13485:2003 – Quality Management Systems – Requirements for Medical
+Devices
+7) 93/42/EEC – Medical Device Directive
+8) ISO 14971:2000 Medical Devices – Application of Risk Management to Medical
+Devices
+9) ANSI/AAMI HE74: 2001 – Human factors design process for medical devices
+10) IEC 60601-1 – Medical electrical equipment – Parts 1-8: General requirements
+for safety
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+The sponsor validated overall software usage and data transfer functionality.
+Software usage validation entailed testing each of the software’s design
+5
+
+[Table 1 on page 5]
+Communication
+Frequency	2.402 to 2.480
+GHz	Same	Same
+Power Source	Wall power plug
+for hub (120
+VAC/50-60) and
+batteries in devices	Same	Same
+Display	On devices and
+hub, and monitors
+connected to
+central server	Same	Same
+Communication
+with Patients	On screen display	Same	On screen
+display of
+Readings and
+Interactive
+Voice Response
+(IVR)
+
+--- Page 6 ---
+requirements to ensure that they were met. Data transfer was tested by
+transferring sets of data from the transmitter (phone) to the database and
+checking that the data was downloaded in its entirety, and that the data points
+(results) that were transferred from the phone to the database matched the
+original data taken from the phone. Data transmitted from the glucose meter
+to the phone was validated in k070559.
+For an example of performance of the glucose meter and strips see
+k024194/k043197.
+b. Precision/Reproducibility:
+For an example of performance of the glucose meter and strips see
+k024194/k043197.
+c. Linearity:
+For an example of performance of the glucose meter and strips see
+k024194/k043197.
+d. Carryover:
+For an example of performance of the glucose meter and strips see
+k024194/k043197.
+e. Interfering Substances:
+For an example of performance of the glucose meter and strips see
+k024194/k043197.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+6

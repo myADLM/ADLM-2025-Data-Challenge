@@ -1,0 +1,466 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K240303
+B Applicant
+JelloX Biotech Inc.
+C Proprietary and Established Names
+MetaLite DX Digital Pathology Software
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 - Whole
+QKQ Class II PA - Pathology
+Slide Imaging System
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Type of Test:
+Software only device
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+For In Vitro Diagnostic Use
+MetaLite DX Digital Pathology Software is a software only device intended for viewing and
+management of digital images of scanned surgical pathology slides prepared from formalin-fixed
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700 - Whole
+Slide Imaging System			PA - Pathology
+
+--- Page 2 ---
+paraffin embedded (FFPE) tissue for the purposes of pathology primary diagnosis. It is an aid
+to the pathologist to review, interpret and manage digital images of pathology slides.
+MetaLite DX Digital Pathology Software is not intended for use with frozen section, cytology,
+or non-FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ appropriate procedures and
+safeguards to assure the quality of the images obtained and, where necessary, use
+conventional light microscopy review when making a diagnostic decision. MetaLite DX
+Digital Pathology Software is intended for use with Philips Ultra Fast Scanner and the Barco
+MDPC-8127 display.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+MetaLite DX Digital Pathology Software, Model MLDXUS, version 1.2.0 is software designed
+for viewing digital pathology images of glass slides from the Philips IntelliSite Pathology
+Solution Ultra Fast Scanner (PIPS-UFS), version 1.8.4 on Barco MDPC-8127 display.
+MetaLite DX Digital Pathology Software is operated as follows:
+1. After the Whole Slide Images (WSIs) are successfully, acquired by using PIPS-UFS, the WSIs
+are stored in the Local file system. Scanned images are reviewed by scanning personnel such
+as histotechnicians to confirm image quality and initiate any re-scans before making it
+available to the pathologist per the instructions for use PIPS-UFS.
+2. A qualified pathologist will upload compatible iSyntax format digital pathology images, and
+the software will load them to the “Main Viewer” area of the graphical interface for the
+pathologist to view.
+3. Once properly loaded, the pathologist performs quality control procedures per the Quality
+Control section below. The pathologist can use the device to view and review images using
+the device features such as zoom-in and zoom-out functions, scale display, thumbnail view,
+measurement function, annotation function, and panning function.
+4. After viewing all images for a patient (case), the pathologist will make a diagnosis. The
+diagnosis will be documented in another system, e.g., a Laboratory Information System (LIS).
+The MetaLite DX Digital Pathology Software is validated for use with the components specified
+the tables below.
+Table 1. Interoperable Components for Use with MetaLite DX Digital Pathology
+Software
+Component Manufacturer Model
+Scanner Philips Medical Systems Ultra Fast Scanner (UFS),
+Nederland B.V. version 1.8.4
+K240303 - Page 2 of 8
+
+[Table 1 on page 2]
+	Component			Manufacturer			Model	
+Scanner			Philips Medical Systems
+Nederland B.V.			Ultra Fast Scanner (UFS),
+version 1.8.4		
+
+--- Page 3 ---
+Display Barco NV MDPC-8127
+Table 2. Computer Environment/System Requirements
+Environment Component Minimum Requirements
+Client PC
+Hardware Processor Intel® Core (TM) I7 11th Gen or above
+Memory 16GB or above
+Storage USB Flash Drive 8GB or above
+Software Operating System Windows 10 or above
+B Instrument Description Information:
+1. Instrument Name:
+MetaLite DX Digital Pathology Software
+2. Specimen Identification:
+The MetaLite DX Digital Pathology Software uses WSIs obtained from the PIPS-UFS of
+slides prepared from FFPE tissue. The reading pathologist selects a case (patient) from a
+local folder for viewing with the subject device.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. Digital images (WSIs) are then obtained from these
+glass slides using the PIPS-UFS.
+4. Calibration:
+Not applicable.
+5. Quality Control:
+The subject device receives WSIs from local computer storage. All WSI files are quality-
+controlled images acquired from the scanner according to the scanner’s instructions for use.
+The subject device specific quality control measures are performed by viewing the pathology
+images. Every pathologist should perform this test on review workstation before reading
+pathology images using the subject device to ensure that all scanned slide images have been
+imported and for every case, view the thumbnails in the pathology image window to verify
+that each slide that should be in the case is present.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Philips IntelliSite Pathology Solution
+B Predicate 510(k) Number(s):
+K203845
+K240303 - Page 3 of 8
+
+[Table 1 on page 3]
+Display	Barco NV	MDPC-8127
+
+[Table 2 on page 3]
+	Environment			Component			Minimum Requirements	
+Client PC								
+Hardware			Processor			Intel® Core (TM) I7 11th Gen or above		
+			Memory			16GB or above		
+			Storage			USB Flash Drive 8GB or above		
+Software			Operating System			Windows 10 or above		
+
+--- Page 4 ---
+C Comparison with Predicate(s):
+Device &
+Predicate K240303 K203845
+Device(s):
+Device Trade MetaLite DX Digital Pathology Philips IntelliSite Pathology Solution
+Name Software (PIPS)
+General Device Characteristic Similarities
+For In Vitro Diagnostic Use The Philips IntelliSite Pathology
+Solution (PIPS) is an automated digital
+MetaLite DX Digital Pathology
+slide creation, viewing, and
+Software is a software only device
+management system. The PIPS is
+intended for viewing and
+intended for in vitro diagnostic use as an
+management of digital images of
+aid to the pathologist to review and
+scanned surgical pathology slides
+interpret digital images of surgical
+prepared from formalin-fixed
+pathology slides prepared from
+paraffin embedded (FFPE) tissue
+formalin-fixed paraffin embedded
+for the purposes of pathology
+(FFPE) tissue. The PIPS is not intended
+primary diagnosis. It is an aid to
+for use with frozen section, cytology, or
+the pathologist to review, interpret
+non-FFPE hematopathology specimens.
+and manage digital images of
+pathology slides.
+The PIPS comprises the Image
+Intended MetaLite DX Digital Pathology Management System (IMS), the Ultra
+Use/Indications Software is not intended for use Fast Scanner (UFS) and Display. The
+For Use with frozen section, cytology, or PIPS is for creation and viewing of
+non-FFPE hematopathology digital images of scanned glass slides
+specimens. that would otherwise be appropriate for
+manual visualization by conventional
+It is the responsibility of a qualified light microscopy. It is the responsibility
+pathologist to employ appropriate of a qualified pathologist to employ
+procedures and safeguards to appropriate procedures and safeguards
+assure the quality of the images to assure the validity of the
+obtained and, where necessary, use interpretation of images obtained using
+conventional light microscopy PIPS.
+review when making a diagnostic
+decision. MetaLite DX Digital
+Pathology Software is intended for
+use with Philips Ultra Fast Scanner
+and the Barco MDPC-8127 display.
+Specimen Type Digitized surgical pathology slides Same
+prepared from FFPE tissue.
+Diagnostic iSyntax Same
+Image File
+Format
+Image Panning, zooming, color Panning, zooming, color manipulation
+Manipulation manipulation function, annotations, function, annotations, and
+Functions and measurements (distance) measurements (distance & area)
+K240303 - Page 4 of 8
+
+[Table 1 on page 4]
+	Device &		K240303	K203845	
+	Predicate				
+	Device(s):				
+Device Trade
+Name			MetaLite DX Digital Pathology
+Software	Philips IntelliSite Pathology Solution
+(PIPS)	
+	General Device Characteristic Similarities				
+Intended
+Use/Indications
+For Use			For In Vitro Diagnostic Use
+MetaLite DX Digital Pathology
+Software is a software only device
+intended for viewing and
+management of digital images of
+scanned surgical pathology slides
+prepared from formalin-fixed
+paraffin embedded (FFPE) tissue
+for the purposes of pathology
+primary diagnosis. It is an aid to
+the pathologist to review, interpret
+and manage digital images of
+pathology slides.
+MetaLite DX Digital Pathology
+Software is not intended for use
+with frozen section, cytology, or
+non-FFPE hematopathology
+specimens.
+It is the responsibility of a qualified
+pathologist to employ appropriate
+procedures and safeguards to
+assure the quality of the images
+obtained and, where necessary, use
+conventional light microscopy
+review when making a diagnostic
+decision. MetaLite DX Digital
+Pathology Software is intended for
+use with Philips Ultra Fast Scanner
+and the Barco MDPC-8127 display.	The Philips IntelliSite Pathology
+Solution (PIPS) is an automated digital
+slide creation, viewing, and
+management system. The PIPS is
+intended for in vitro diagnostic use as an
+aid to the pathologist to review and
+interpret digital images of surgical
+pathology slides prepared from
+formalin-fixed paraffin embedded
+(FFPE) tissue. The PIPS is not intended
+for use with frozen section, cytology, or
+non-FFPE hematopathology specimens.
+The PIPS comprises the Image
+Management System (IMS), the Ultra
+Fast Scanner (UFS) and Display. The
+PIPS is for creation and viewing of
+digital images of scanned glass slides
+that would otherwise be appropriate for
+manual visualization by conventional
+light microscopy. It is the responsibility
+of a qualified pathologist to employ
+appropriate procedures and safeguards
+to assure the validity of the
+interpretation of images obtained using
+PIPS.	
+Specimen Type			Digitized surgical pathology slides
+prepared from FFPE tissue.	Same	
+Diagnostic
+Image File
+Format			iSyntax	Same	
+Image
+Manipulation
+Functions			Panning, zooming, color
+manipulation function, annotations,
+and measurements (distance)	Panning, zooming, color manipulation
+function, annotations, and
+measurements (distance & area)	
+
+--- Page 5 ---
+General Device Characteristic Differences
+Type of Stand-alone software Internet browser-based application
+Software
+Application
+Device MetaLite DX Digital Pathology Ultra Fast Scanner (UFS), Image
+Components Software Management System (IMS) and Display
+Principle of After WSI images are successfully After WSI images are successfully
+Operation acquired using the PIPS-UFS, the acquired by using PIPS-UFS, the WSI
+pathologist performs further QC images are stored in IMS Application
+and reads WSI images of the slides Server & Storage software that is not
+to make a diagnosis. provided as part of the PIPS but may be
+located in a central server room separate
+from the workstation with the IMS
+viewing software and Display. During
+review, the pathologist opens WSI
+images from IMS Server & Storage,
+perform further QC and reads WSI
+images of the slides to make a
+diagnosis.
+Image Storage Images are stored in the local After WSI images are successfully
+computer. acquired by using PIPS UFS, the WSI
+images are stored in IMS Application
+Server & Storage software that is not
+provided as part of the PIPS but may be
+located in a central server room separate
+from the workstation with the IMS
+viewing software and Display. During
+review, the pathologist opens WSI
+images from IMS Server & Storage,
+perform further QC and reads WSI
+images of the slides to make a
+diagnosis.
+End User’s MetaLite DX Digital Pathology PIPS Image Management System (IMS)
+Interface Software
+VI Standards/Guidance Documents Referenced:
+1. FDA Guidance “Technical Performance Assessment of Digital Pathology Whole Slide Imaging
+Devices". April 20, 2016.
+2. FDA Guidance “Applying Human Factors and Usability Engineering to Medical
+Devices”. February 3, 2016.
+3. FDA Guidance “Content of Premarket Submissions for Device Software Functions”. June
+14, 2023.
+4. FDA Guidance “Cybersecurity in Medical Devices: Quality System Considerations and
+Content of Premarket Submissions”. September 27, 2023.
+K240303 - Page 5 of 8
+
+[Table 1 on page 5]
+	General Device Characteristic Differences			
+Type of
+Software
+Application		Stand-alone software	Internet browser-based application	
+Device
+Components		MetaLite DX Digital Pathology
+Software	Ultra Fast Scanner (UFS), Image
+Management System (IMS) and Display	
+Principle of
+Operation		After WSI images are successfully
+acquired using the PIPS-UFS, the
+pathologist performs further QC
+and reads WSI images of the slides
+to make a diagnosis.	After WSI images are successfully
+acquired by using PIPS-UFS, the WSI
+images are stored in IMS Application
+Server & Storage software that is not
+provided as part of the PIPS but may be
+located in a central server room separate
+from the workstation with the IMS
+viewing software and Display. During
+review, the pathologist opens WSI
+images from IMS Server & Storage,
+perform further QC and reads WSI
+images of the slides to make a
+diagnosis.	
+Image Storage		Images are stored in the local
+computer.	After WSI images are successfully
+acquired by using PIPS UFS, the WSI
+images are stored in IMS Application
+Server & Storage software that is not
+provided as part of the PIPS but may be
+located in a central server room separate
+from the workstation with the IMS
+viewing software and Display. During
+review, the pathologist opens WSI
+images from IMS Server & Storage,
+perform further QC and reads WSI
+images of the slides to make a
+diagnosis.	
+End User’s
+Interface		MetaLite DX Digital Pathology
+Software	PIPS Image Management System (IMS)	
+
+--- Page 6 ---
+5. AAMI TIR 45:2012 - Guidance on the use of AGILE practices in the development of
+medical device software.
+6. IEC 62304 Edition 1.1 2015-06 CONSOLIDATED VERSION, 13-79. Medical device
+software – Software life cycle processes.
+7. IEC 62366-1 Edition 1.1 2020-06 CONSOLIDATED VERSION, 5-129, Application of
+usability engineering to medical devices.
+8. ISO 14971 Third Edition 2019-12, 5-125, Medical devices – Applications of risk
+management to medical devices.
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing was conducted with the subject device, MetaLite DX Digital
+Pathology Software as specified below.
+1. Bench Testing - Pixelwise comparison test
+Pixel-wise comparison testing to demonstrate identical image reproduction was conducted to
+compare WSIs reproduced by the subject device and PIPS IMS. The subject device was
+compared to the predicate device’s image review manipulation software (IRMS, as defined in
+FDA guidance document, “Technical Performance Assessment of Digital Pathology Whole
+Slide Imaging Devices” dated April 20, 2016) using the quantitative pixel-wise comparison
+method. The basis for the comparison was the CIEDE2000 color difference equation, ΔE.
+The devices were tested as operating with the intended components, including the scanner
+(PIPS UFS), image management system (PIPS IMS, MetaLite DX Digital Pathology
+Software) and display (Barco MDPC 8127).
+The device was tested with multiple slides across multiple regions of interest (ROI) at
+multiple magnification levels. A total of 30 H&E-stained, FFPE glass slides of normal and
+tumor tissues from various human anatomical organs were used in the testing. The glass
+slides were scanned on a PIPS UFS version 1.8.4 to obtain 30 WSIs. For each of the 30
+K240303 - Page 6 of 8
+
+--- Page 7 ---
+WSIs, 3 ROIs from different locations were selected by qualified personnel to represent
+various features in the tissue samples. Each ROI was captured at 2 magnification levels (20x,
+40x).
+The screenshots were captured from the intended display while viewing with the subject
+device and predicate PIPS IMS. The screenshots were cropped and registered to be pixelwise
+comparable. The cropped image included most of the pixels in the image except for those in
+the viewer-specific user interface areas.
+Two sets of images were collected: PIPS IMS and MetaLite DX Digital Pathology Software.
+Each image set included 180 images that covered all combinations of 30 slides, 3 ROIs and 2
+magnification levels. The testing data, including the overview images of the 30 glass slides
+with annotations of the ROIs, registration/cropping information, and captured images, were
+provided in the FDA specific format.
+The PIPS IMS image set was used as the reference to compare the MetaLite DX Digital
+Pathology Software image set to determine whether all the 180 image-pairs were identical.
+Two images are considered identical if the 95th percentile of the pixelwise differences,
+computed using the International Commission on Illumination (CIE) color difference metric
+CIEDE2000 (ΔE ), is less than 3 ΔE . Testing results showed that the pixelwise differences
+00 00
+across all 180 image-pairs were less than 3 ΔE . The mean 95th percentile ΔE value was
+00 00
+1.1 with the lowest value reported as 0 and the highest reported as 2.5. Testing results
+demonstrated that WSIs reproduced by MetaLite DX Digital Pathology Software are
+identical to images reproduced by the predicate device.
+2. Turnaround Time
+The turnaround times of the subject device were measured for the operations of image
+opening, panning, and zooming. Video recording software and calibration time software were
+used in the test to determine the turnaround time. The panning operation was executed by
+moving the image by one quarter of the screen using mouse dragging. The zooming
+operation was executed using the mouse wheel. Each operation was measured 10 times. The
+acceptance criterion was set at 7 seconds with respect to the device’s intended use. Test
+results show that all opening, panning, and zooming operations were completed within 5
+seconds.
+3. Measurement
+The measurement accuracy of the subject device was tested. A calibration scale slide with
+length marks of 100, 300, 600, 800, and 1000 μm was used as the target with known ground
+truth. The scale was measured in both horizontal and vertical orientations using the subject
+device. The error was calculated as the ratio of the difference between the measured length
+and the actual length to the actual length. The acceptance criterion was set at 5% with respect
+to the device’s intended use. The test was conducted under magnification levels of 40X, 20X,
+10X, and 1X. Test results show that the errors of all test cases were less than 2.4%.
+4. Human Factor (Usability) Testing
+The Human Factors (HF) validation test was conducted to demonstrate that the device can be
+used by the intended users without serious use errors or problems, for the intended uses and
+under the expected use conditions. The HF validation test was performed by representative
+K240303 - Page 7 of 8
+
+--- Page 8 ---
+users and conducted per FDA’s Guidance on Applying Human Factors and Usability
+Engineering to Medical Devices (2016). A systematic evaluation of task-based usability
+including critical tasks required for operation of the device were evaluated at multiple sites
+using multiple users. All tasks associated with reviewing and reporting results for cases
+including confirmation that all slides belonging to specific cases are reviewed before
+reporting results, were included in the HF validation test. Overall, the results of the human
+factors testing were acceptable. The MetaLite DX Digital Pathology Software device has
+been found to be safe and effective for intended users, users and use environments.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K240303 - Page 8 of 8

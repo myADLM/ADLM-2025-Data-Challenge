@@ -1,0 +1,121 @@
+STANDARD OPERATING PROCEDURE (SOP)
+Title: Analytical Phase for MAYOCOMPLETE Melanoma Panel, Next-
+Generation Sequencing, Tumor
+1. PURPOSE
+The SOP provides detailed instructions for the analytical phase
+involved in generating results for the MAYOCOMPLETE Melanoma
+Panel using Next-Generation Sequencing (NGS). This procedure
+ensures quality and consistency in testing and results management
+for tumor samples.
+Responsibility:
+This protocol is to be followed by trained personnel in the molecular
+diagnostic laboratory. It is the responsibility of laboratory staff to
+ensure that all steps are performed as specified and to report any
+deviations to the supervisor.
+1. DEFINITION
+The MAYOCOMPLETE Melanoma Panel involves the use of NGS
+technology to analyze DNA extracted from tumor tissue to identify
+genetic variants associated with melanoma.
+1. PROCEDURE
+A. Sample Preparation
+1. Verification:
+◦ Confirm that the specimen (tumor tissue) has been
+collected, received, and accessioned correctly.
+◦ Verify that the sample details match the requisition form.
+2. DNA Extraction:
+◦ Extract DNA from the tumor tissue using a validated DNA
+extraction kit according to the manufacturer’s instructions.
+◦ Measure the concentration and purity of the extracted DNA
+using spectrophotometry (e.g., NanoDrop) and fluorometry
+(e.g., Qubit).
+3. Quality Control of DNA:
+◦ Ensure that the DNA sample has a concentration of ≥20 ng/
+µL and a purity (A260/A280 ratio) between 1.8 and 2.0.
+◦ Run a 1% agarose gel to assess the integrity of the DNA.
+B. Library Preparation
+1. DNA Fragmentation:
+◦ Fragment the DNA using sonication or enzymatic methods
+to generate 150-300 bp fragments.
+2. End Repair and Adapter Ligation:
+◦ Perform end repair and add platform-specific adapters (e.g.,
+Illumina) to the fragmented DNA.
+3. Library Amplification:
+◦ Enrich the library using polymerase chain reaction (PCR),
+following the manufacturer's instructions.
+4. Library Quantification and Quality Control:
+◦ Quantify the library using qPCR or a fluorometric method.
+◦ Assess the size distribution of the library using an Agilent
+Bioanalyzer or TapeStation.
+C. Sequencing
+1. Sequencing Setup:
+◦ Load the prepared library onto the NGS instrument (e.g.,
+Illumina HiSeq or MiSeq).
+◦ Ensure that sequencing reagents are prepared and loaded
+according to the manufacturer’s protocol.
+◦ Input the necessary run parameters and start the
+sequencing run.
+2. Run Monitoring:
+◦ Monitor the sequencing run for quality metrics, including
+cluster density and percentage of PF clusters.
+D. Data Analysis
+1. Primary Analysis:
+◦ Use the NGS instrument’s software for base calling and
+initial sequence data processing.
+2. Secondary Analysis:
+◦ Align the sequence reads to the reference genome (e.g.,
+GRCh38) using bioinformatics software (e.g., BWA, Bowtie).
+◦ Perform variant calling using tools such as GATK, VarScan,
+or similar.
+3. Tertiary Analysis:
+◦ Annotate the identified variants with information from
+databases such as COSMIC, ClinVar, and dbSNP.
+◦ Filter and prioritize variants based on their potential clinical
+significance.
+E. Quality Control
+1. Run Review:
+◦ Validate the run by ensuring all quality control metrics are
+within acceptable ranges.
+◦ Re-sequence samples if any key quality indicators fall below
+the threshold.
+2. Peer Review:
+◦ Perform a secondary review of the results by another
+qualified technologist or supervisor.
+F. Interpretation and Reporting
+1. Clinical Interpretation:
+◦ Review the variants identified in the context of melanoma-
+related genes.
+◦ Consult relevant literature and databases to assess the
+clinical significance of detected variants.
+2. Report Generation:
+◦ Generate a detailed report that includes information on the
+detected variants, their potential clinical implications, and
+recommendations for follow-up.
+3. Reporting:
+◦ Ensure that the report is verified and signed off by a
+pathologist or qualified laboratory director.
+◦ Transmit the final report to the referring physician or
+appropriate medical personnel.
+4. Documentation
+• Maintain comprehensive records of all steps, from sample receipt
+to report issuance.
+• Ensure all logbooks and electronic records are updated and
+securely stored.
+1. Troubleshooting
+• Notify a supervisor immediately in the event of any procedural
+deviations, instrument errors, or quality control failures.
+• Document any incidents and corrective actions taken.
+1. REFERENCES
+• Manufacturer’s instructions and kit inserts for DNA extraction,
+library preparation, and sequencing platforms.
+• Bioinformatics tools user guides and best practice guidelines from
+reputable resources.
+• Relevant literature on melanoma genetics and variant
+interpretation.
+1. REVIEW
+This SOP must be reviewed bi-annually and updated accordingly to
+reflect advancements in technology and changes in laboratory
+practices.
+Reviewed by: [Supervisor's Name]
+Date: [Date]
+Approved by: [Director's Name]
+Date: [Date]

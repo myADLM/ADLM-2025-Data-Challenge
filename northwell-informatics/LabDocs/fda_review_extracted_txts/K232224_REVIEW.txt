@@ -1,0 +1,446 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K232224
+B Applicant
+Beta Bionics, Inc.
+C Proprietary and Established Names
+iLet® Dosing Decision Software
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1356 – Interoperable
+QJI Class II CH – Clinical Chemistry
+Automatic Glycemic Controller
+E Purpose for Submission:
+Modifications to the device Instructions for Use to add U-100 Fiasp, in the Fiasp PumpCart
+prefilled cartridge, as a compatible insulin for ages 6 years and older.
+II Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The iLet Dosing Decision Software is intended for use with compatible integrated continuous
+glucose monitors (iCGM) and alternate controller enabled (ACE) pumps. A self-monitoring of
+blood glucose (SMBG) meter may also be used for manual input of blood glucose values to
+continue insulin dosing for a limited period of time when input from the iCGM is temporarily not
+available.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QJI			Class II	21 CFR 862.1356 – Interoperable
+Automatic Glycemic Controller			CH – Clinical Chemistry
+
+--- Page 2 ---
+The iLet Dosing Decision Software autonomously determines and commands an increase,
+decrease, maintenance, or suspension of all basal doses of insulin and autonomously determines
+and commands correction doses of insulin based on input from an iCGM, and it autonomously
+determines and commands meal doses of insulin based on meal announcements.
+iLet Dosing Decision Software is intended for the management of type 1 diabetes mellitus in
+people 6 years of age or older. iLet Dosing Decision Software is intended for single patient use
+and requires a prescription.
+C Special Conditions for Use Statement(s):
+Rx – For prescription use only.
+Do not use the iLet Dosing Decision Software if you are unable or unwilling to test blood
+glucose (BG) levels with an SMBG meter when input from the iCGM is not available.
+Do not use the iLet Dosing Decision Software if you are unable or unwilling to recognize and
+respond to iLet safety alerts.
+Do not use the iLet System if you are taking hydroxyurea, also known as Hydrea. This
+medication is sometimes used in the treatment of blood disorders and some kinds of cancer. The
+use of hydroxyurea can result in falsely elevated sensor glucose readings. The iLet System relies
+on sensor glucose readings to adjust insulin, provide insulin doses, and provide high and low
+glucose alerts. If the iLet System receives sensor readings that are higher than actual glucose
+levels, it could result in missed hypoglycemia alerts and potential errors in diabetes management,
+such as too much insulin being delivered. Hydroxyurea can also result in errors when reviewing,
+analyzing, and interpreting historical patterns for assessing glucose control.
+Do not use the iLet ACE Pump and Dosing Decision Software in people under 6 years of age.
+The iLet ACE Pump and Dosing Decision Software have not been studied in these populations.
+Do not use the iLet Dosing Decision Software in people who are pregnant, on dialysis or
+critically ill. The iLet Dosing Decision Software has not been studied in these populations.
+The system should NOT be used in hospitalized people as the safety of the technology has not
+been evaluated in this population.
+The iLet Dosing Decision Software is only for use with insulin U-100 lispro (Humalog), insulin
+U-100 aspart (Novolog), or insulin U-100 aspart (Fiasp).
+Do not use the iLet Dosing Decision Software with the U-100 Fiasp in individuals under 18
+years of age. The iLet Dosing Decision Software has not been studied with the U-100 Fiasp in
+these populations.
+K232224 - Page 2 of 7
+
+--- Page 3 ---
+The iLet Dosing Decision Software is only for use with the Dexcom G6 iCGM. When using the
+iLet device, wear an iCGM.
+Remove the iLet device, steel infusion set, CGM sensor, and CGM transmitter before undergoing
+radiation therapy, Magnetic Resonance Imaging (MRI), Computed Tomography (CT) scan, or
+diathermy treatment procedures. Exposure of the iLet device, steel infusion set, CGM sensor, or
+CGM transmitter to any of these may damage them.
+Do not expose your iLet device, steel infusion set, CGM transmitter, or CGM sensor to
+equipment used in procedures for Pacemaker/Automatic Implantable Cardioverter Defibrillator
+(AICD) placement or reprogramming, Cardiac Catheterization, or Nuclear Stress Test.
+The iLet Go App is compatible with the iOS platform. The iLet Go App provides the ability to
+perform over-the-air updates and / or pull data from an iLet device to share with the Beta Bionics
+Cloud. The iLet Go App is not currently compatible with Android or other platforms.
+If your CGM is offline for an extended period of time, dosing will stop and you should switch to
+alternative therapy until you are able to reconnect to a CGM sensor. A countdown timer will
+appear before dosing would stop.
+III Device Description
+The iLet Dosing Decision software is part of the iLet Bionic Pancreas and is intended for use by
+people with diabetes. The iLet Dosing Decision software works in conjunction with a compatible
+alternate controller enabled (ACE) pump. The iLet Dosing Decision Software requires
+initialization with the user’s body mass (body weight), as well as meal announcements. When
+initiating a meal announcement with the iLet Dosing Decision Software, the user qualitatively
+approximates carbohydrate content (meal size) relative to the usual carbohydrate content for each
+of the three meal types (breakfast, lunch, or dinner). The iLet Dosing Decision Software
+autonomously determine the size of the insulin dose in response to a meal announcement by the
+user.
+The iLet Dosing Decision software works to control glucose to a user-set glucose target of
+“lower” (110 mg/dL), “usual” (120 mg/dL), or “higher” (130 mg/dL) within the device settings.
+Users can also set glucose targets specific for sleep.
+The iLet Dosing Decision software also includes a feature, called “BG-Run mode”, which
+enables the device to continue insulin delivery in the event CGM-data is unavailable. Use of the
+feature, however, should be temporary and always for the shortest duration possible, with the
+goal to resume CGM-guided insulin dosing as soon as possible.
+IV Substantial Equivalence Information:
+A Predicate Device Name(s):
+iLet® Dosing Decision Software
+K232224 - Page 3 of 7
+
+--- Page 4 ---
+B Predicate 510(k) Number(s):
+K220916
+C Comparison with Predicate(s):
+Device & Predicate
+K232224 K220916
+Device(s):
+iLet® Dosing Decision iLet® Dosing Decision
+Device Trade Name
+Software Software
+General Device
+Characteristic
+Similarities
+Intended for use with Same
+compatible integrated
+continuous glucose monitors
+(iCGM) and alternate
+Intended controller enabled (ACE)
+Use/Indications For pumps to automatically
+Use increase, decrease, and
+suspend delivery of basal
+insulin, as well as command
+correction doses, based on
+glucose values.
+General Device
+Characteristic
+Differences
+Fiasp Age Indication 6 years and older 18 years and older
+V Standards/Guidance Documents Referenced:
+ISO 14155:2020 - Clinical investigation of medical devices for human subjects - Good clinical
+practice
+VI Performance Characteristics:
+A. Analytical Performance
+The analytical performance of the iLet Dosing Decision Software was previously established
+and described in the public decision summary for K220916.
+B. Other Supportive Instrument Performance Characteristics Data
+1. Summary of Clinical Testing
+The sponsor conducted a 13-week, single-arm extension study for 48 subjects aged 6 to 17
+K232224 - Page 4 of 7
+
+[Table 1 on page 4]
+	Device & Predicate		K232224	K220916
+	Device(s):			
+Device Trade Name			iLet® Dosing Decision
+Software	iLet® Dosing Decision
+Software
+	General Device			
+	Characteristic			
+	Similarities			
+Intended
+Use/Indications For
+Use			Intended for use with
+compatible integrated
+continuous glucose monitors
+(iCGM) and alternate
+controller enabled (ACE)
+pumps to automatically
+increase, decrease, and
+suspend delivery of basal
+insulin, as well as command
+correction doses, based on
+glucose values.	Same
+	General Device			
+	Characteristic			
+	Differences			
+Fiasp Age Indication			6 years and older	18 years and older
+
+--- Page 5 ---
+years old with type 1 diabetes (T1D) at 16 clinical sites within the United States who had
+participated in the Standard Care Group (SC/control group) in the Bionic Pancreas (BP)
+Pivotal trial, a prior 13-week multi-center, parallel group randomized control trial (RCT). In
+the extension study, the RCT SC group was given the opportunity to use the insulin-only
+configuration of the iLet BP system. All participants 6-17 years old (at time of consent for
+the RCT) used study-provided U-100 Fiasp® PumpCart® (insulin aspart) in a pre-filled
+1.6mL cartridge during the Extension Study.
+Observed Results
+Mean Change in HbA1c from Baseline to 13 Weeks (6 – 17 Years)
+Change from
+Baseline (SC) Week 13 (BP-F)
+Baseline to Week 13
+N = 45 N = 43 N = 42*
+Overall (SD)
+7.8 (1.1) 7.2 (0.7) -0.56 (0.69)
+N = 23 N = 22 N = 21
+6 – 12 Years (SD)
+8.0 (0.9) 7.2 (0.5) -0.65 (0.68)
+N = 22 N = 21 N = 21
+13 – 17 Years (SD)
+7.6 (1.3) 7.1 (0.8) -0.47 (0.71)
+*Out of 46 subjects 6 – 17 years old who were on Fiasp, 1 subject had missing HbA1c data at
+baseline and 3 subjects had missing HbA1c data during follow-up for a total of 4 subjects
+missing data, therefore change from baseline to Week 13 was analyzed in a total of 42 subjects.
+CGM Outcomes (6 – 17 Years)
+Change from
+Baseline (SC) Week 13 (BP-F)
+Baseline to Week 13
+Overall N = 46 N = 45 N = 45
+Hours of CGM Data
+2042 (132) 1877 (270) -
+(SD)
+% Time in Range
+51% (16%) 63% (10%) 12.0% (11.8%)
+70 – 180 mg/dL (SD)
+Mean glucose (mg/dL)
+187 (34) 168 (16) -18 (24)
+(SD)
+% Time > 180 mg/dL
+46% (17%) 35% (10%) -11.2% (12.3%)
+(SD)
+% Time >250 mg/dL
+21.2% (14.7%) 11.6% (6.5%) -9.8% (10.7%)
+(SD)
+% Time <70 mg/dL
+3.1 (2.5) 1.7 (1.5) -1.5 (1.8)
+(SD)
+% Time <54 mg/dL
+0.67% (0.90%) 0.54% (0.51%) -0.15% (0.69%)
+(SD)
+6 – 12 Years N = 24 N = 24 N = 24
+Hours of CGM Data
+2035 (150) 1902 (319) -
+(SD)
+K232224 - Page 5 of 7
+
+[Table 1 on page 5]
+	Mean Change in HbA1c from Baseline to 13 Weeks (6 – 17 Years)					
+		Baseline (SC)	Week 13 (BP-F)		Change from	
+					Baseline to Week 13	
+Overall (SD)		N = 45
+7.8 (1.1)	N = 43
+7.2 (0.7)	N = 42*
+-0.56 (0.69)		
+6 – 12 Years (SD)		N = 23
+8.0 (0.9)	N = 22
+7.2 (0.5)	N = 21
+-0.65 (0.68)		
+13 – 17 Years (SD)		N = 22
+7.6 (1.3)	N = 21
+7.1 (0.8)	N = 21
+-0.47 (0.71)		
+
+[Table 2 on page 5]
+	CGM Outcomes (6 – 17 Years)										
+			Baseline (SC)			Week 13 (BP-F)				Change from	
+										Baseline to Week 13	
+	Overall			N = 46			N = 45			N = 45	
+Hours of CGM Data
+(SD)			2042 (132)			1877 (270)			-		
+% Time in Range
+70 – 180 mg/dL (SD)			51% (16%)			63% (10%)			12.0% (11.8%)		
+Mean glucose (mg/dL)
+(SD)			187 (34)			168 (16)			-18 (24)		
+% Time > 180 mg/dL
+(SD)			46% (17%)			35% (10%)			-11.2% (12.3%)		
+% Time >250 mg/dL
+(SD)			21.2% (14.7%)			11.6% (6.5%)			-9.8% (10.7%)		
+% Time <70 mg/dL
+(SD)			3.1 (2.5)			1.7 (1.5)			-1.5 (1.8)		
+% Time <54 mg/dL
+(SD)			0.67% (0.90%)			0.54% (0.51%)			-0.15% (0.69%)		
+	6 – 12 Years			N = 24			N = 24			N = 24	
+Hours of CGM Data
+(SD)			2035 (150)			1902 (319)			-		
+
+--- Page 6 ---
+6 – 12 Years N = 24 N = 24 N = 24
+% Time in Range
+49% (15%) 62% (6%) 13.1% (13.6%)
+70 – 180 mg/dL (SD)
+Mean glucose (mg/dL)
+187 (30) 166 (1) .20 (26)
+(SD)
+% Time > 180 mg/dL
+47% (16%) 35% (6%) .12.6% (14.1%)
+(SD)
+% Time >250 mg/dL
+22.5% (12.6%) 11.4% (3.8%) -11.1 (11.2%)
+(SD)
+% Time <70 mg/dL
+3.43% (2.83%) 2.91% (1.54%) -0.52% (2.15%)
+(SD)
+% Time <54 mg/dL
+0.88% (1.09%) 0.77% (0.54%) -0.10% (0.84%)
+(SD)
+13 – 17 Years N = 22 N = 21 N = 21
+Hours of CGM Data
+2049 (113) 1848 (203) -
+(SD)
+% Time in Range
+52% (18%) 63% (12%) 10.8% (9.4%)
+70 – 180 mg/dL (SD)
+Mean glucose (mg/dL)
+186 (39) 170 (21) -16 (23)
+(SD)
+% Time > 180 mg/dL
+45% (19%) 36% (13%) -9.7% (9.9%)
+(SD)
+% Time >250 mg/dL
+19.8% (16.9%) 11.8% (8.7%) -8.4% (10.2%)
+(SD)
+% Time <70 mg/dL
+2.31% (2.39%) 1.24% (0.64%) -1.16% (2.10%)
+(SD)
+% Time <54 mg/dL
+0.45% (0.58%) 0.27% (0.19%) -0.20% (0.48%)
+(SD)
+Safety Results
+Summary of Adverse Events (6 – 17 Years)
+Overall 6 – 12 Years 13 – 17 Years
+Number of
+46 24 22
+participants
+Severe Hypoglycemic (SH) Eventsa
+Number of Events 0 0 0
+Participants with ≥1
+0 (0%) 0 (0%) 0 (0%)
+event
+Number of events per subject
+0 46 (100%) 24 (100%) 22 (100%)
+1 0 (0%) 0 (0%) 0 (0%)
+Incident rate per 100
+0 0 0
+person-years
+Diabetic Ketoacidosis Eventsb
+K232224 - Page 6 of 7
+
+[Table 1 on page 6]
+	6 – 12 Years			N = 24			N = 24			N = 24	
+% Time in Range
+70 – 180 mg/dL (SD)			49% (15%)			62% (6%)			13.1% (13.6%)		
+Mean glucose (mg/dL)
+(SD)			187 (30)			166 (1)			.20 (26)		
+% Time > 180 mg/dL
+(SD)			47% (16%)			35% (6%)			.12.6% (14.1%)		
+% Time >250 mg/dL
+(SD)			22.5% (12.6%)			11.4% (3.8%)			-11.1 (11.2%)		
+% Time <70 mg/dL
+(SD)			3.43% (2.83%)			2.91% (1.54%)			-0.52% (2.15%)		
+% Time <54 mg/dL
+(SD)			0.88% (1.09%)			0.77% (0.54%)			-0.10% (0.84%)		
+	13 – 17 Years			N = 22			N = 21			N = 21	
+Hours of CGM Data
+(SD)			2049 (113)			1848 (203)			-		
+% Time in Range
+70 – 180 mg/dL (SD)			52% (18%)			63% (12%)			10.8% (9.4%)		
+Mean glucose (mg/dL)
+(SD)			186 (39)			170 (21)			-16 (23)		
+% Time > 180 mg/dL
+(SD)			45% (19%)			36% (13%)			-9.7% (9.9%)		
+% Time >250 mg/dL
+(SD)			19.8% (16.9%)			11.8% (8.7%)			-8.4% (10.2%)		
+% Time <70 mg/dL
+(SD)			2.31% (2.39%)			1.24% (0.64%)			-1.16% (2.10%)		
+% Time <54 mg/dL
+(SD)			0.45% (0.58%)			0.27% (0.19%)			-0.20% (0.48%)		
+
+[Table 2 on page 6]
+	Summary of Adverse Events (6 – 17 Years)										
+				Overall			6 – 12 Years			13 – 17 Years	
+Number of
+participants			46			24			22		
+	Severe Hypoglycemic (SH) Eventsa										
+Number of Events			0			0			0		
+Participants with ≥1
+event			0 (0%)			0 (0%)			0 (0%)		
+Number of events per subject											
+0			46 (100%)			24 (100%)			22 (100%)		
+1			0 (0%)			0 (0%)			0 (0%)		
+Incident rate per 100
+person-years			0			0			0		
+	Diabetic Ketoacidosis Eventsb										
+
+--- Page 7 ---
+Number of Events 1 1 0
+Participants with ≥1
+1 (2%) 1 (4%) 0 (0%)
+event
+Number of events per subject
+0 45 (98%) 23 (96%) 22 (100%)
+1 1 (2%) 1 (4%) 0 (0%)
+Incident rate per 100
+8.9 16.9 0.0
+person-years
+Other Serious Adverse Events (SAEs)c
+Number of Events 1 0 1
+Participants with ≥1
+1 (2%) 0 (0%) 1 (5%)
+event
+Number of events per subject
+0 45 (98%) 24 (100%) 21 (95%)
+1 1 (2%) 0 (0%) 1 (5%)
+Incident rate per 100
+8.9 0.0 18.9
+person-years
+a - A severe hypoglycemic event is defined as a hypoglycemic event that a) required assistance of
+another person due to altered consciousness, and b) required another person to actively
+administer carbohydrate, glucagon, or other resuscitative actions.
+b - A hyperglycemic event is classified as DKA if the following are present: a) symptoms such as
+polyuria, polydipsia, nausea, or vomiting; b) serum ketones >1.5 mmol/L or large/moderate
+urine ketones; c) either arterial blood pH <7.30 or venous pH <7.24 or serum bicarbonate <15;
+and d) treatment provided in a health care facility.
+c - A serious adverse event is defined as any untoward medical occurrence that a) results in
+death, b) is life-threatening, c) requires inpatient hospitalization of prolongation of existing
+hospitalization, d) results in persistent or significant disability/incapacity or substantial
+disruption of the ability to conduct normal life functions (sight threatening), e) is a congenital
+anomaly or birth defect, or f) is considered a significant medical event by the investigator based
+on medical judgment.
+VII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+VIII Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K232224 - Page 7 of 7
+
+[Table 1 on page 7]
+Number of Events		1	1	0	
+Participants with ≥1
+event		1 (2%)	1 (4%)	0 (0%)	
+Number of events per subject					
+0		45 (98%)	23 (96%)	22 (100%)	
+1		1 (2%)	1 (4%)	0 (0%)	
+Incident rate per 100
+person-years		8.9	16.9	0.0	
+	Other Serious Adverse Events (SAEs)c				
+Number of Events		1	0	1	
+Participants with ≥1
+event		1 (2%)	0 (0%)	1 (5%)	
+Number of events per subject					
+0		45 (98%)	24 (100%)	21 (95%)	
+1		1 (2%)	0 (0%)	1 (5%)	
+Incident rate per 100
+person-years		8.9	0.0	18.9	

@@ -1,0 +1,95 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Generating Results for HEREDITARY COMMON CANCER PANEL
+1. PURPOSE
+The purpose of this SOP is to outline the detailed protocol for the
+analytical phase of generating results for the HEREDITARY
+COMMON CANCER PANEL. This protocol ensures accurate,
+reliable, and reproducible results for assessing genetic variants
+associated with hereditary cancers.
+Responsibility:
+Designated staff including genetic technologists and laboratory
+personnel are responsible for performing the steps outlined in this
+SOP. It is the responsibility of the lab supervisor to ensure
+compliance with these procedures.
+1. SCOPE
+This SOP applies to all laboratory procedures involving extraction,
+amplification, sequencing, data analysis, and reporting for the
+HEREDITARY COMMON CANCER PANEL.
+1. PROCEDURE
+A. Specimen Preparation
+1. Receive specimens and verify patient information.
+2. Follow standard operating procedures for specimen handling
+and accessioning.
+3. Extract DNA from blood or saliva specimens using an
+appropriate extraction kit, ensuring high yield and purity.
+B. DNA Quality Assessment
+1. Quantify extracted DNA using spectrophotometry and check
+purity ratios (A260/A280).
+2. Assess DNA integrity using agarose gel electrophoresis, if
+necessary.
+C. PCR Amplification
+1. Set up multiplex PCR reactions targeting genes associated with
+hereditary cancers (e.g., BRCA1, BRCA2, MLH1, MSH2, etc.).
+2. Prepare PCR Mastermix including dNTPs, primers, buffer, and
+Taq polymerase.
+3. Amplify targeted regions using thermal cycler with appropriate
+cycling parameters.
+◦ Initial denaturation: 95°C for 5 minutes.
+◦ Denaturation: 95°C for 30 seconds.
+◦ Annealing: Optimal temperature (e.g., 55-65°C) for 30
+seconds.
+◦ Extension: 72°C for 1 minute.
+◦ Final extension: 72°C for 10 minutes.
+D. PCR Cleanup
+1. Use columns or enzymatic methods to purify PCR products.
+2. Quantify purified PCR products using fluorometry.
+E. Next-Generation Sequencing (NGS)
+1. Prepare sequencing libraries using the appropriate kit for
+targeted sequencing.
+2. Perform library quality control (QC) using Bioanalyzer or
+equivalent technology.
+3. Pool libraries and load onto an NGS platform (e.g., Illumina) as
+per manufacturer’s instructions.
+4. Sequence using specified run parameters to obtain sufficient
+coverage.
+F. Data Analysis
+1. Perform initial data QC using FASTQ files.
+2. Align sequences to the reference genome using bioinformatics
+software (e.g., BWA, GATK).
+3. Call variants using an appropriate variant calling algorithm.
+4. Annotate variants using databases such as ClinVar, dbSNP,
+COSMIC.
+G. Interpretation of Results
+1. Evaluate identified variants for pathogenicity, likely
+pathogenicity, or variants of uncertain significance.
+2. Review findings in the context of patient's clinical information
+and family history.
+3. Document interpretations and recommendations.
+H. Reporting Results
+1. Compile results into a comprehensive report including:
+◦ Summary of findings
+◦ Genetic variants identified
+◦ Clinical significance and recommendations
+2. Review report internally for accuracy and compliance.
+3. Send final report to ordering physician or genetic counselor.
+4. QUALITY CONTROL
+5. Run positive and negative controls alongside patient samples.
+6. Conduct periodic validation of procedures with external
+proficiency tests.
+7. Maintain detailed records of all analytical runs and results.
+8. Ensure all equipment is regularly calibrated and maintained.
+9. REFERENCES
+10. Manufacturer's instructions for DNA extraction, PCR, library
+preparation, and sequencing kits.
+11. Bioinformatics software manuals (e.g., BWA, GATK).
+12. Databases for variant annotation (e.g., ClinVar, dbSNP,
+COSMIC).
+13. Publications and guidelines on hereditary cancer genetics.
+14. DOCUMENTATION
+15. Record all specimen information and lab results in the
+Laboratory Information System (LIS).
+16. Maintain logs of quality control measures, instrument
+calibrations, and proficiency testing.
+By adhering to this SOP, the laboratory can ensure the accuracy and
+reliability of results for the HEREDITARY COMMON CANCER
+PANEL, facilitating appropriate clinical management for patients.

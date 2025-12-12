@@ -1,0 +1,768 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k092333
+B. Purpose for Submission:
+Addition of new assays on a cleared device
+C. Manufacturer and Instrument Name:
+BioImagene
+PATHIAMTM System with iScan for p53 and Ki-67
+D. Type of Test or Tests Performed:
+Computer-assisted image analyzer for Ki-67 and p53 nuclear proteins detected by
+immunohistochemistry
+E. System Descriptions:
+1. Device Description:
+The PATHIAMTM System with iScan is a complete system for image acquisition and
+image analysis by assessment of shape, size, and density of a digital image of a
+specimen.
+In the current application, the system provides a quantitative assessment of p53 or Ki-
+67 staining intensity in the fields chosen by a pathologist, and displays a score, which
+can be reviewed by the pathologist as he/she views the digital image of the selected
+field. The system software makes no independent interpretations of the data.
+PATHIAMTM employs several quality assurance algorithms to assure that only
+readable images are processed by the software.
+Samples are obtained as formalin-fixed, paraffin-embedded tissue blocks. Histologic
+sections are prepared and mounted onto glass slides. Slides are reacted with either Ki-
+67 or p53 primary antibodies, using validated methods. Slides are visualized using
+diaminobenzidine (DAB), again using validated methods. Prepared slides are loaded
+into the iScan scanner and scanned. The resulting digital images are reviewed by the
+pathologist on a computer monitor, and appropriate fields of view (FOVs) are then
+selected for analysis by the PATHIAMTM software. The PATHIAMTM software
+produces a “percent positive” result for the specific immunohistochemical study (Ki-
+67 or p53), and the pathologist has the choice of accepting the result or entering
+his/her own score.
+2. Principles of Operation:
+A. System Overview:
+The PATHIAM™ System is an instrument and software system designed to
+assist the qualified pathologist in the consistent quantitative assessment of
+protein expression in immunohistochemically stained histologic sections from
+formalin-fixed, paraffin-embedded normal and neoplastic tissues. The system
+consists of a slide scanner (iScan), computer, monitor, keyboard, mouse,
+image analysis algorithms for specific immunohistochemical markers, and
+software with a Windows web browser-based user interface. PATHIAMTM is
+a web-based, end-to-end digital pathology software solution that allows
+pathology labs to acquire, manage, view, analyze, share, and report on digital
+images of pathology specimens. Using the PATHIAMTM software, the
+pathologist can view digital images at various magnifications, add
+1
+
+--- Page 2 ---
+annotations, make measurements, perform image analysis, and generate
+reports.
+B. Hardware: The iScan slide scanning device captures digital images of
+formalin-fixed, paraffin-embedded tissues that are suitable for storage and
+viewing. The device includes a digital slide scanner, racks for loading glass
+slides, computer, scanner software, keyboard, mouse and monitor.
+C. Software: The PATHIAMTM software is designed to complement the routine
+workflow of a qualified pathologist in the review of immunohistochemically
+stained histologic slides. It allows the user to select fields of view (FOVs) in
+the digital image for analysis and provides quantitative data on these FOVs to
+assist with interpretation. The software makes no independent interpretations
+of the data and requires competent human intervention at all steps in the
+analysis process.
+D. Assay specific Overview:
+PATHIAMTM employs image analysis techniques to obtain Ki-67 or p53
+scores. Pre-defined parameters are used to obtain Ki-67 or p53 scores. The
+identification of the nucleus is carried out automatically by the image analysis
+algorithms. The steps involved in the analysis algorithms are:
+a. Enhancing the image. This process increases the contrast to make the
+image more suitable for analysis.
+b. Identifying the epithelial area. The epithelial area is the region of the
+image where there is the possibility of epithelial cells being present.
+c. Identifying the nucleus.
+d. Classifying the cells based on extent, intensity, and thickness of nuclear
+staining.
+e. Computing the score.
+E. Principal of Operation
+After the initial image quality check, the algorithm goes through the following
+steps before generating the analysis results:
+1. Field of View (FOV) identification: The algorithm separates the tissue area
+from the background such that only the tissue area is processed in the
+following steps.
+2. Preprocessing: The algorithm generates two images after preprocessing. One
+of them is a contrast stretched image, and the other is an image with each of
+the tissue areas of interest (AOI) pixels classified as stained or non-stained.
+3. Segmentation: This processing step consists of extracting the objects of
+interest from the image. In the current applications, the objects of interest are
+epithelial cell nuclei. These are separated out from the rest of the identified
+objects using morphological properties, such as size and shape.
+4. Classification: The segmented nuclei are classified as stained cells or non-
+stained cells based on the percentage of stained pixels within them.
+5. Scoring / Grading: Based on the classification, an overall score for the
+image is computed using the numbers of stained cells, non-stained cells and
+total cells for the calculations.
+3. Modes of Operation:
+Semi-automated computer-assisted interpretation
+2
+
+--- Page 3 ---
+4. Specimen Identification:
+Specimens are identified by barcode read or through manual entry into
+automation software.
+5. Specimen Sampling and Handling:
+Specimens are prepared microscope slides. The device scans the slides and takes a
+digital image of these. Slides can be scanned individually or placed in racks and
+up to 160 may be scanned automatically. Areas of the slide to be analyzed
+(sampling) are suggested by software algorithm and the subset of these to actually
+be measured is determined by the user.
+6. Calibration:
+The instrument does not have calibrators for the assay. Typically, calibration is
+done on an image capture device through white and black balance.
+7. Quality Control:
+The quality of results depends on the laboratory following the quality control
+instructions recommended in the labeling of the immunohistochemistry (IHC)
+reagents. The software also performs a quality check on the digital images to
+determine if they are suitable for further analysis using “Image Quality
+Assessment” algorithms.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes____X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21CFR§864.1860, Immunohistochemistry reagents and kits
+2. Classification:
+Class II
+3 Product code:
+NQN, microscope, automated, image analysis, immunohistochemistry, operator
+intervention, nuclear intensity & percent positivity
+4. Panel:
+Pathology (88)
+G. Intended Use:
+1. Indication(s) for Use:
+PATHIAMTM System with iScan for Ki-67
+This device is intended for in vitro diagnostic (IVD) use.
+The PATHIAMTM System is intended as an aid to the pathologist to detect, count,
+and classify cells of clinical interest based on recognition of cellular objects of
+particular color, size, and shape, using appropriate controls to assure the validity
+of the scores.
+The Ki-67 application is intended as an aid to the pathologist to quantify the
+percentage of positively stained nuclei in formalin-fixed paraffin embedded
+normal and neoplastic breast tissue specimens immunohistochemically stained
+with Dako mouse monoclonal anti-human Ki-67 antigen, clone MIB1 visualized
+with DAB chromogen as specified in the instructions for these reagents. It is the
+3
+
+--- Page 4 ---
+responsibility of a qualified pathologist to employ appropriate morphological
+studies and controls as specified in the instructions for Dako Ki-67 to assure the
+validity of the PATHIAMTM -assisted Ki-67 assessment.
+PATHIAMTM System with iScan for p53
+This device is intended for in vitro diagnostic (IVD) use.
+The PATHIAMTM System is intended as an aid to the pathologist to detect, count,
+and classify cells of clinical interest based on recognition of cellular objects of
+particular color, size, and shape, using appropriate controls to assure the validity
+of the scores.
+The p53 application is intended for use as an aid to the pathologist to quantify the
+percentage of positively stained nuclei in formalin fixed paraffin embedded breast
+tissue specimens stained with Dako mouse monoclonal anti-human p53 antibody,
+clone DO7and visualized with DAB chromogen, to detect both wild-type and
+mutant p53, a nuclear protein, as specified in the instructions for these reagents. It
+is the responsibility of a qualified pathologist to employ appropriate
+morphological studies and controls as specified in the instructions for Dako p53 to
+assure the validity of the PATHIAMTM -assisted p53 assessment.
+2. Special Conditions for Use Statement(s):
+For Prescription Use Only
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+a. k062428 Tripath Ventana Image Analysis System-p53
+b. k053520 Tripath Ventana Image Analysis System-Ki-67
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+Name PATHIAMTM System for Tripath(VIAS-p53/Ki67)
+p53/ki67 k092333 k062428/k053520
+Intended Use This device is intended for in vitro The Ventana Image Analysis
+diagnostic (IVD) use. System (VIAS™) is an adjunctive
+computer-assisted image analysis
+The PATHIAMTM System is
+system functionally connected to an
+intended to detect, count, and
+interactive microscope. It is
+classify cells of clinical interest
+intended for use as an aid to the
+based on recognition of cellular
+pathologist in the detection,
+objects of particular color, size,
+classification and counting of cells
+and shape.
+of interest based on marker
+The p53 and Ki-67 applications intensity, size and shape using
+are intended for use in appropriate controls to assure the
+immunohistochemistry with validity of the VIAS scores.
+formalin fixed paraffin-embedded
+breast tissue specimens stained
+with a primary antibody to p53
+protein(Dako mouse monoclonal
+antihuman p53 antibody, clone
+DO7) or to Ki-67 protein 67
+4
+
+[Table 1 on page 4]
+Similarities								
+	Item			Device			Predicate	
+Name			PATHIAMTM System for
+p53/ki67 k092333			Tripath(VIAS-p53/Ki67)
+k062428/k053520		
+Intended Use			This device is intended for in vitro
+diagnostic (IVD) use.
+The PATHIAMTM System is
+intended to detect, count, and
+classify cells of clinical interest
+based on recognition of cellular
+objects of particular color, size,
+and shape.
+The p53 and Ki-67 applications
+are intended for use in
+immunohistochemistry with
+formalin fixed paraffin-embedded
+breast tissue specimens stained
+with a primary antibody to p53
+protein(Dako mouse monoclonal
+antihuman p53 antibody, clone
+DO7) or to Ki-67 protein 67			The Ventana Image Analysis
+System (VIAS™) is an adjunctive
+computer-assisted image analysis
+system functionally connected to an
+interactive microscope. It is
+intended for use as an aid to the
+pathologist in the detection,
+classification and counting of cells
+of interest based on marker
+intensity, size and shape using
+appropriate controls to assure the
+validity of the VIAS scores.		
+
+--- Page 5 ---
+Similarities
+Item Device Predicate
+(Dako mouse monoclonal anti-
+human Ki-67 antigen, clone
+MIB1) employing visualization
+techniques that require the DAB
+chromogen to detect both wild-
+type and mutant p53 or Ki-67
+nuclear proteins.
+Sample Type Formalin-fixed, paraffin Same
+embedded breast cancer
+specimens stained by
+immunohistochemistry reagents.
+Interpretation By Pathologist Same
+Localization of IHC Nuclear Same
+positive stain
+IHC antigen detected P53 and Ki-67 Same
+Differences
+Item Device Predicate
+Hardware Digital Slide Scanner Automated Microscope
+Image Capture and The whole slide is imaged by the Focal plane and field of view are
+Interpretation slide scanner and the field of view determined by pathologist before
+is determined by pathologist after capture and analysis.
+capture, before analysis.
+I. Special Control/Guidance Document Referenced (if applicable):
+FDA’s “Guidance for the Content of Premarket Submissions for Software Contained
+in Medical Devices”, May 11, 2005
+J. Performance Characteristics:
+1. Analytical Performance:
+Data represented for System Precision involved studies using Tissue micro-arrays
+(TMAs), rather than whole pathological sections. TMAs were prepared and
+stained by Ohio State University Medical Center. The final test sets consisted of
+188 sample cores placed on 5 slides. As some cores were excluded from one
+antibody study or the other, the final number of specimens used for testing was
+reduced to 120 for each antibody. Each tissue core was approximately 2 mm in
+diameter, which represents approximately 16 fields of View (FOV) with a 40x
+objective of 4 fields of view with a 20x objective.
+a. Accuracy (Comparison to Manual Method):
+Between-Pathologists Agreement: A single pathologist at three sites evaluated
+120 cases each for p53 or Ki-67 staining on glass slides. This data is presented in
+the tables below as Manual vs. Manual scoring. These studies met the minimum
+criteria of 75% concordance for each clinical cut-off value used.
+The same slides were scanned at BioImagene using an iScan™ System and the
+digital images were presented to the pathologists for evaluation using
+5
+
+[Table 1 on page 5]
+Similarities								
+	Item			Device			Predicate	
+			(Dako mouse monoclonal anti-
+human Ki-67 antigen, clone
+MIB1) employing visualization
+techniques that require the DAB
+chromogen to detect both wild-
+type and mutant p53 or Ki-67
+nuclear proteins.					
+Sample Type			Formalin-fixed, paraffin
+embedded breast cancer
+specimens stained by
+immunohistochemistry reagents.			Same		
+Interpretation			By Pathologist			Same		
+Localization of IHC
+positive stain			Nuclear			Same		
+IHC antigen detected			P53 and Ki-67			Same		
+
+[Table 2 on page 5]
+Differences								
+	Item			Device			Predicate	
+Hardware			Digital Slide Scanner			Automated Microscope		
+Image Capture and
+Interpretation			The whole slide is imaged by the
+slide scanner and the field of view
+is determined by pathologist after
+capture, before analysis.			Focal plane and field of view are
+determined by pathologist before
+capture and analysis.		
+
+--- Page 6 ---
+PATHIAM™ software. The same pathologists scored 120 cases each for p53 and
+Ki-67 this is shown in the tables below as PATHIAM™ -assisted vs.
+PATHIAM™ -assisted scoring.
+The scores produced by each pathologist using the two different methods were
+then compared and these are presented below as Manual vs. PATHIAM™ -
+assisted scoring.
+This data is presented as percent concordance with exact 95% confidence
+intervals.
+p53 data
+Manual vs. Manual p53 Scoring
+p53 Cut-Off
+Threshold Pathologist 1 vs. 2 Pathologist 1 vs. 3 Pathologist 2 vs. 3
+>1% 95.0% (89.43%-98.14%) 77.5% (68.98%-84.62%) 80.8% (72.64%-87.44%)
+>5% 87.5% (80.22%-92.83%) 78.3% (68.89%-85.33%) 79.2% (70.80%-86.04%)
+>10% 90.0% (83.18%-94.73%) 85.8% (78.29%-91.53%) 87.5% (80.22%-92.83%
+PATHIAMTM -assisted vs PATHIAMTM -assisted p53
+p53 Cut-Off
+Threshold Pathologist 1 vs. 2 Pathologist 1 vs. 3 Pathologist 2 vs. 3
+>1% 95.0% (89.43%-98.14%) 77.5% (68.98%-84.62%) 80.8% (72.64%-87.44%)
+>5% 87.5% (80.22%-92.83%) 78.3% (68.89%-85.33%) 79.2% (70.80%-86.04%)
+>10% 90.0% (83.18%-94.73%) 85.8% (78.29%-91.53%) 87.5% (80.22%-92.83%
+Manual vs. PATHIAMTM -assisted p53 Scoring
+p53 Cut-Off
+Threshold Pathologist 1 Pathologist 2 Pathologist 3
+>1% 86.6% (79.09%-92.12%) 89.9% (83.05%-94.68%) 81.5% (73.36%-88.04%)
+>5% 84.9% (77.15%-90.78%) 84.9% (77.15%-90.78%) 77.3% (68.73%-84.48%)
+>10% 89.1% (82.04%-94.05%) 87.4% (80.06%-92.77%) 83.2% (75.24%-89.42%)
+Ki-67 Data
+Manual vs. Manual Ki-67 Scoring
+Ki-67 Cut-Off
+Threshold Pathologist 1 vs. 2 Pathologist 1 vs. 3 Pathologist 2 vs. 3
+>1% 95.0% (89.43%-98.14%) 77.5% (68.98%-84.62%) 80.8% (72.64%-87.44%)
+>5% 87.5% (80.22%-92.83%) 78.3% (68.89%-85.33%) 79.2% (70.80%-86.04%)
+>10% 90.0% (83.18%-94.73%) 85.8% (78.29%-91.53%) 87.5% (80.22%-92.83%
+PATHIAMTM -assisted vs PATHIAMTM Assisted Ki-67
+Ki-67 Cut-Off
+Threshold Pathologist 1 vs. 2 Pathologist 1 vs. 3 Pathologist 2 vs. 3
+>1% 95.0% (89.43%-98.14%) 77.5% (68.98%-84.62%) 80.8% (72.64%-87.44%)
+>5% 87.5% (80.22%-92.83%) 78.3% (68.89%-85.33%) 79.2% (70.80%-86.04%)
+>10% 90.0% (83.18%-94.73%) 85.8% (78.29%-91.53%) 87.5% (80.22%-92.83%
+6
+
+[Table 1 on page 6]
+p53 Cut-Off
+Threshold	Pathologist 1 vs. 2	Pathologist 1 vs. 3	Pathologist 2 vs. 3
+>1%	95.0% (89.43%-98.14%)	77.5% (68.98%-84.62%)	80.8% (72.64%-87.44%)
+>5%	87.5% (80.22%-92.83%)	78.3% (68.89%-85.33%)	79.2% (70.80%-86.04%)
+>10%	90.0% (83.18%-94.73%)	85.8% (78.29%-91.53%)	87.5% (80.22%-92.83%
+
+[Table 2 on page 6]
+p53 Cut-Off
+Threshold	Pathologist 1 vs. 2	Pathologist 1 vs. 3	Pathologist 2 vs. 3
+>1%	95.0% (89.43%-98.14%)	77.5% (68.98%-84.62%)	80.8% (72.64%-87.44%)
+>5%	87.5% (80.22%-92.83%)	78.3% (68.89%-85.33%)	79.2% (70.80%-86.04%)
+>10%	90.0% (83.18%-94.73%)	85.8% (78.29%-91.53%)	87.5% (80.22%-92.83%
+
+[Table 3 on page 6]
+p53 Cut-Off
+Threshold	Pathologist 1	Pathologist 2	Pathologist 3
+>1%	86.6% (79.09%-92.12%)	89.9% (83.05%-94.68%)	81.5% (73.36%-88.04%)
+>5%	84.9% (77.15%-90.78%)	84.9% (77.15%-90.78%)	77.3% (68.73%-84.48%)
+>10%	89.1% (82.04%-94.05%)	87.4% (80.06%-92.77%)	83.2% (75.24%-89.42%)
+
+[Table 4 on page 6]
+Ki-67 Cut-Off
+Threshold	Pathologist 1 vs. 2	Pathologist 1 vs. 3	Pathologist 2 vs. 3
+>1%	95.0% (89.43%-98.14%)	77.5% (68.98%-84.62%)	80.8% (72.64%-87.44%)
+>5%	87.5% (80.22%-92.83%)	78.3% (68.89%-85.33%)	79.2% (70.80%-86.04%)
+>10%	90.0% (83.18%-94.73%)	85.8% (78.29%-91.53%)	87.5% (80.22%-92.83%
+
+[Table 5 on page 6]
+Ki-67 Cut-Off
+Threshold	Pathologist 1 vs. 2	Pathologist 1 vs. 3	Pathologist 2 vs. 3
+>1%	95.0% (89.43%-98.14%)	77.5% (68.98%-84.62%)	80.8% (72.64%-87.44%)
+>5%	87.5% (80.22%-92.83%)	78.3% (68.89%-85.33%)	79.2% (70.80%-86.04%)
+>10%	90.0% (83.18%-94.73%)	85.8% (78.29%-91.53%)	87.5% (80.22%-92.83%
+
+--- Page 7 ---
+Manual vs. PATHIAMTM -assisted Ki-67
+Ki-67 Cut-Off
+Threshold Pathologist 1 Pathologist 2 Pathologist 3
+>1% 88.3% (81.20%-93.47%) 93.3% (87.29%-97.08%) 93.3% (87.29%-97.08%)
+>5% 86.7% (79.25%-92.18%) 90.0% (83.18%-94.73%) 92.5% (86.24%-96.51%)
+>10% 86.7% (79.25%-92.18%) 89.2% (82.19%-94.10%) 80.8% (72.64%-87.44%)
+b. Precision/Reproducibility:
+Intra-Pathologist Precision: The slides were scanned by BioImagene and the
+digital images were presented to a single pathologist for evaluation using
+PATHIAM™ software. This independent pathologist scored a subset of 20
+cases (out of the complete 120 TMA sets) 3 times over a minimum of 10 days.
+The study met the minimum criteria of 75% concordance for each clinical cut-
+off value used.
+Concordance for Intra-Pathologist Scoring of p53
+PATHIAMTM -assisted vs.
+PATHIAMTM -assisted
+Cut-Off Threshold
+>1% 85%
+>5% 80%
+>10% 80%
+Concordance for Intra-Pathologist Scoring of Ki-67
+PATHIAMTM -assisted vs.
+PATHIAMTM -assisted
+Cut Off Threshold
+>1% 80%
+>5% 85%
+>10% 85%
+Intra-Instrument and Instrument-to-Instrument Precision: Eight single cores
+from a total of four TMA slides were scanned five times on three systems at
+BioImagene. The three systems included matching computers, monitors and
+iScan slide scanners.
+The Intra-Instrument precision of automated signal detection for each system
+was measured when the slides were stained with either p53 or Ki-67. The raw
+data recordings from each machine were at or below 2.67 %CV for p53 and at
+or below 2.9% for Ki-67. All of these values are similar to those achieved
+with the predicate device and were considered acceptable.
+The data from precision testing on the individual PATHIAMTM with iScan
+systems was compared to provide Instrument-to-Instrument precision. This
+was calculated to be 4.55 %CV or lower for p53 and 2.14% or lower for Ki-
+67. All of these values are similar to those achieved with the predicate device
+and were considered acceptable.
+p53 Instrument Precision Data
+7
+
+[Table 1 on page 7]
+Ki-67 Cut-Off
+Threshold	Pathologist 1	Pathologist 2	Pathologist 3
+>1%	88.3% (81.20%-93.47%)	93.3% (87.29%-97.08%)	93.3% (87.29%-97.08%)
+>5%	86.7% (79.25%-92.18%)	90.0% (83.18%-94.73%)	92.5% (86.24%-96.51%)
+>10%	86.7% (79.25%-92.18%)	89.2% (82.19%-94.10%)	80.8% (72.64%-87.44%)
+
+[Table 2 on page 7]
+Cut-Off Threshold	PATHIAMTM -assisted vs.
+PATHIAMTM -assisted
+>1%	85%
+>5%	80%
+>10%	80%
+
+[Table 3 on page 7]
+Cut Off Threshold	PATHIAMTM -assisted vs.
+PATHIAMTM -assisted
+>1%	80%
+>5%	85%
+>10%	85%
+
+--- Page 8 ---
+p53 Intra-Instrument precision-SYSTEM I
+Sample ID Mean SD %CV
+TMA 3 2007 A7 0.00 0.00 -
+TMA 3 2007 E3 0.00 0.00 -
+TMA 3 2007 C9 42.90 0.02 0.06
+TMA 4 2007 B5 2.82 0.08 2.67
+TMA 5 2007 E3 73.50 0.05 0.07
+TMA 1 2007 B9 16.44 0.01 0.09
+TMA 4 2007 D4 22.14 0.07 0.32
+TMA 4 2007 B3 24.05 0.06 0.23
+p53 Intra-Instrument precision-SYSTEM II
+Sample ID Mean SD %CV
+TMA 3 2007 A7 0.00 0.00 -
+TMA 3 2007 E3 0.00 0.00 -
+TMA 3 2007 C9 42.74 0.02 0.05
+TMA 4 2007 B5 2.57 0.01 0.58
+TMA 5 2007 E3 72.89 0.04 0.06
+TMA 1 2007 B9 16.51 0.04 0.24
+TMA 4 2007 D4 22.44 0.04 0.17
+TMA 4 2007 B3 22.68 0.06 0.25
+p53 Intra-Instrument precision-SYSTEM III
+Sample ID Mean SD %CV
+TMA 3 2007 A7 0.00 0.00 -
+TMA 3 2007 E3 0.00 0.00 -
+TMA 3 2007 C9 42.60 0.05 0.11
+TMA 4 2007 B5 2.71 0.02 0.78
+TMA 5 2007 E3 74.07 0.13 0.18
+TMA 1 2007 B9 16.49 0.03 0.18
+TMA 4 2007 D4 24.42 0.01 0.05
+TMA 4 2007 B3 24.90 0.10 0.40
+p53 Instrument-Instrument precision between 3 systems
+Sample ID Mean SD %CV
+TMA 3 2007 A7 0.00 0.00 -
+TMA 3 2007 E3 0.00 0.00 -
+TMA 3 2007 C9 42.75 0.13 0.30
+TMA 4 2007 B5 2.70 0.12 4.32
+TMA 5 2007 E3 7349 0.5 0.68
+TMA 1 2007 B9 16.48 0.04 0.25
+TMA 4 2007 D4 23.00 1.05 4.55
+TMA 4 2007 B3 23.88 0.95 3.97
+Ki-67 Instrument Precision Data
+8
+
+[Table 1 on page 8]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A7	0.00	0.00	-
+TMA 3 2007 E3	0.00	0.00	-
+TMA 3 2007 C9	42.90	0.02	0.06
+TMA 4 2007 B5	2.82	0.08	2.67
+TMA 5 2007 E3	73.50	0.05	0.07
+TMA 1 2007 B9	16.44	0.01	0.09
+TMA 4 2007 D4	22.14	0.07	0.32
+TMA 4 2007 B3	24.05	0.06	0.23
+
+[Table 2 on page 8]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A7	0.00	0.00	-
+TMA 3 2007 E3	0.00	0.00	-
+TMA 3 2007 C9	42.74	0.02	0.05
+TMA 4 2007 B5	2.57	0.01	0.58
+TMA 5 2007 E3	72.89	0.04	0.06
+TMA 1 2007 B9	16.51	0.04	0.24
+TMA 4 2007 D4	22.44	0.04	0.17
+TMA 4 2007 B3	22.68	0.06	0.25
+
+[Table 3 on page 8]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A7	0.00	0.00	-
+TMA 3 2007 E3	0.00	0.00	-
+TMA 3 2007 C9	42.60	0.05	0.11
+TMA 4 2007 B5	2.71	0.02	0.78
+TMA 5 2007 E3	74.07	0.13	0.18
+TMA 1 2007 B9	16.49	0.03	0.18
+TMA 4 2007 D4	24.42	0.01	0.05
+TMA 4 2007 B3	24.90	0.10	0.40
+
+[Table 4 on page 8]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A7	0.00	0.00	-
+TMA 3 2007 E3	0.00	0.00	-
+TMA 3 2007 C9	42.75	0.13	0.30
+TMA 4 2007 B5	2.70	0.12	4.32
+TMA 5 2007 E3	7349	0.5	0.68
+TMA 1 2007 B9	16.48	0.04	0.25
+TMA 4 2007 D4	23.00	1.05	4.55
+TMA 4 2007 B3	23.88	0.95	3.97
+
+--- Page 9 ---
+Ki-67 Intra-Instrument precision-SYSTEM I
+Sample ID Mean SD %CV
+TMA 3 2007 A2 31.78 0.10 0.31
+TMA 3 2007 E2 64.53 0.25 0.39
+TMA 3 2007 A3 15.45 0.15 0.99
+TMA 4 2007 D4 17.82 0.09 0.50
+TMA 3 2007 E7 9.76 0.02 0.22
+TMA 5 2007 D6 4.85 0.02 0.40
+TMA 3 2007 E5 9.13 0.12 1.35
+TMA 2 2007 A1 0.88 0.02 1.78
+Ki-67 Intra-Instrument precision-SYSTEM II
+Sample ID Mean SD %CV
+TMA 3 2007 A2 32.77 0.37 1.13
+TMA 3 2007 E2 63.29 0.08 0.12
+TMA 3 2007 A3 15.76 0.17 1.09
+TMA 4 2007 D4 17.91 0.04 0.23
+TMA 3 2007 E7 9.41 0.04 0.44
+TMA 5 2007 D6 4.87 0.14 2.90
+TMA 3 2007 E5 9.27 0.04 0.42
+TMA 2 2007 A1 0.85 0.01 0.89
+Ki-67 Intra-Instrument precision-SYSTEM III
+Sample ID Mean SD %CV
+TMA 3 2007 A2 31.53 0.19 0.59
+TMA 3 2007 E2 62.11 0.23 0.36
+TMA 3 2007 A3 15.05 0.12 0.78
+TMA 4 2007 D4 17.66 0.02 0.14
+TMA 3 2007 E7 9.81 0.07 0.72
+TMA 5 2007 D6 4.95 0.03 0.68
+TMA 3 2007 E5 9.43 0.02 0.24
+TMA 2 2007 A1 0.86 0.00 0.35
+Ki-67 Instrument-Instrument precision between 3 systems
+Sample ID Mean SD %CV
+TMA 3 2007 A2 32.03 0.60 1.87
+TMA 3 2007 E2 63.31 1.04 1.65
+TMA 3 2007 A3 15.42 0.33 2.14
+TMA 4 2007 D4 17.79 0.12 0.66
+TMA 3 2007 E7 9.66 0.19 1.95
+TMA 5 2007 D6 4.89 0.09 1.84
+TMA 3 2007 E5 9.28 0.14 1.53
+TMA 2 2007 A1 0.86 0.02 2.07
+Lab-to-Lab Reproducibility: A three-center comparative study utilizing 10 de-
+identified formalin-fixed paraffin embedded breast carcinoma whole tissue
+sections, stained for the identification of p53 protein using Dako clone DO7™
+9
+
+[Table 1 on page 9]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A2	31.78	0.10	0.31
+TMA 3 2007 E2	64.53	0.25	0.39
+TMA 3 2007 A3	15.45	0.15	0.99
+TMA 4 2007 D4	17.82	0.09	0.50
+TMA 3 2007 E7	9.76	0.02	0.22
+TMA 5 2007 D6	4.85	0.02	0.40
+TMA 3 2007 E5	9.13	0.12	1.35
+TMA 2 2007 A1	0.88	0.02	1.78
+
+[Table 2 on page 9]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A2	32.77	0.37	1.13
+TMA 3 2007 E2	63.29	0.08	0.12
+TMA 3 2007 A3	15.76	0.17	1.09
+TMA 4 2007 D4	17.91	0.04	0.23
+TMA 3 2007 E7	9.41	0.04	0.44
+TMA 5 2007 D6	4.87	0.14	2.90
+TMA 3 2007 E5	9.27	0.04	0.42
+TMA 2 2007 A1	0.85	0.01	0.89
+
+[Table 3 on page 9]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A2	31.53	0.19	0.59
+TMA 3 2007 E2	62.11	0.23	0.36
+TMA 3 2007 A3	15.05	0.12	0.78
+TMA 4 2007 D4	17.66	0.02	0.14
+TMA 3 2007 E7	9.81	0.07	0.72
+TMA 5 2007 D6	4.95	0.03	0.68
+TMA 3 2007 E5	9.43	0.02	0.24
+TMA 2 2007 A1	0.86	0.00	0.35
+
+[Table 4 on page 9]
+Sample ID	Mean	SD	%CV
+TMA 3 2007 A2	32.03	0.60	1.87
+TMA 3 2007 E2	63.31	1.04	1.65
+TMA 3 2007 A3	15.42	0.33	2.14
+TMA 4 2007 D4	17.79	0.12	0.66
+TMA 3 2007 E7	9.66	0.19	1.95
+TMA 5 2007 D6	4.89	0.09	1.84
+TMA 3 2007 E5	9.28	0.14	1.53
+TMA 2 2007 A1	0.86	0.02	2.07
+
+--- Page 10 ---
+monoclonal antibody and DAB detection and for the identification of Ki-67
+protein using Dako clone MIB1 monoclonal antibody and DAB detection.
+The glass slides required for the study were scanned at each study site to score
+by one pathologist.
+The following two rounds of study were executed, and a minimum of one
+week was allowed between the two reads for each pathologist.
+Round 1 Manual Scoring: Slides were scored by a qualified pathologist at
+each site using manual microscopy. Each pathologist read the same set of test
+samples for p53 and Ki-67 on a manual microscope. Each pathologist then
+assigned a score each test sample, according to the scoring categories.
+Round 2 PATHIAM™-Assisted Scoring following digital scanning: The same
+slides were randomized and presented to the pathologists’ laboratories in a
+different order from Round 1 above.
+The individual laboratories scanned the slides using iScan and three
+pathologists from Round 1 reviewed the digital images presented by the
+PATHIAM™ software on the computer monitor.
+The pathologist had the ability to navigate freely around the images at various
+magnifications, select fields of views for scoring. With the assistance of the
+PATHIAM™ system, each pathologist then assigned a score to each test
+sample, according to the scoring categories.
+Agreement (concordance) percentages were calculated at two clinically
+accepted standards for positivity, the >1% cutoff and the >5% cutoff. These
+are shown below as point estimates and exact 95% confidence intervals. Each
+of the point estimates are at or above the acceptance limit set for the study
+(60% concordance).
+Lab to Lab reproducibility of p53
+Site 3 Site 2 Site 1
+Cut Off Manual vs. Manual vs. Manual vs.
+Threshold PATHIAMTM -Assisted PATHIAMTM - Assisted PATHIAMTM - Assisted
+>1% 90% (55.50%-99.75%) 90% (55.50%-99.75%) 100% (69.15%-100%)
+>5% 80% (44.39%-97.48%) 70% (34.75%-93.33%) 90% (55.50%-99.75%)
+Cut Off PATHIAMTM -Assisted PATHIAMTM Assisted PATHIAMTM - Assisted
+Threshold Site 3 vs. Site 2 Site 3 vs. Site 1 Site 2 vs. Site 1
+>1% 90% (55.50%-99.75%) 90% (55.50%-99.75%) 100% (69.15%100%)
+>5% 70% (34.75%-93.33%) 70% (34.75%-93.33%) 100% (69.15%-100%)
+Cut Off Manual Manual Manual
+Threshold Site 3 vs. Site 2 Site 3 vs. Site 1 Site 2 vs. Site 1
+>1% 90% (55.50%-99.75%) 100% (69.15%-100%) 90% (55.50%-99.75%)
+>5% 100% (69.15%-100%) 80% (44.39%-97.48%) 80% (44.39%-97.48%)
+10
+
+[Table 1 on page 10]
+Cut Off
+Threshold	Site 3
+Manual vs.
+PATHIAMTM -Assisted	Site 2
+Manual vs.
+PATHIAMTM - Assisted	Site 1
+Manual vs.
+PATHIAMTM - Assisted
+>1%	90% (55.50%-99.75%)	90% (55.50%-99.75%)	100% (69.15%-100%)
+>5%	80% (44.39%-97.48%)	70% (34.75%-93.33%)	90% (55.50%-99.75%)
+
+[Table 2 on page 10]
+Cut Off
+Threshold	PATHIAMTM -Assisted
+Site 3 vs. Site 2	PATHIAMTM Assisted
+Site 3 vs. Site 1	PATHIAMTM - Assisted
+Site 2 vs. Site 1
+>1%	90% (55.50%-99.75%)	90% (55.50%-99.75%)	100% (69.15%100%)
+>5%	70% (34.75%-93.33%)	70% (34.75%-93.33%)	100% (69.15%-100%)
+
+[Table 3 on page 10]
+Cut Off
+Threshold	Manual
+Site 3 vs. Site 2	Manual
+Site 3 vs. Site 1	Manual
+Site 2 vs. Site 1
+>1%	90% (55.50%-99.75%)	100% (69.15%-100%)	90% (55.50%-99.75%)
+>5%	100% (69.15%-100%)	80% (44.39%-97.48%)	80% (44.39%-97.48%)
+
+--- Page 11 ---
+Lab to Lab reproducibility of Ki-67
+Site 3 Site 2 Site 1
+Cut Off Manual vs. Manual vs. Manual vs.
+Threshold PATHIAMTM -Assisted PATHIAMTM - Assisted PATHIAMTM - Assisted
+>1% 100% (69.15%-100%) 90% (55.50%-99.75%) 90% (55.50%-99.75%)
+>5% 70% (34.75%-93.33%) 70% (34.75%-93.33%) 80% (44.39%-97.48%)
+Cut Off PATHIAMTM -Assisted PATHIAMTM -Assisted PATHIAMTM - Assisted
+Threshold Site 3 vs. Site 2 Site 3 vs. Site 1 Site 2 vs. Site 1
+>1% 90% (55.50%-99.75%) 100%(69.15%-100%) 90%(55.50%-99.75%)
+>5% 80% (44.39%-97.48%) 80%(44.39%-97.48%) 100%(69.15%-100%)
+Cut Off Manual Manual Manual
+Threshold Site 3 vs. Site 2 Site 3 vs. Site 1 Site 2 vs. Site 1
+>1% 100% (69.15%-100%) 90% (55.50%-99.75%) 90% (55.50%-99.75%)
+>5% 60% (26.24%-87.84%) 90% (55.50%-99.75%) 70% (34.75%-93.33%)
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Shelf life was determined using “real world data” on file with the manufacturer
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+11
+
+[Table 1 on page 11]
+Cut Off
+Threshold	Site 3
+Manual vs.
+PATHIAMTM -Assisted	Site 2
+Manual vs.
+PATHIAMTM - Assisted	Site 1
+Manual vs.
+PATHIAMTM - Assisted
+>1%	100% (69.15%-100%)	90% (55.50%-99.75%)	90% (55.50%-99.75%)
+>5%	70% (34.75%-93.33%)	70% (34.75%-93.33%)	80% (44.39%-97.48%)
+
+[Table 2 on page 11]
+Cut Off
+Threshold	PATHIAMTM -Assisted
+Site 3 vs. Site 2	PATHIAMTM -Assisted
+Site 3 vs. Site 1	PATHIAMTM - Assisted
+Site 2 vs. Site 1
+>1%	90% (55.50%-99.75%)	100%(69.15%-100%)	90%(55.50%-99.75%)
+>5%	80% (44.39%-97.48%)	80%(44.39%-97.48%)	100%(69.15%-100%)
+
+[Table 3 on page 11]
+Cut Off
+Threshold	Manual
+Site 3 vs. Site 2	Manual
+Site 3 vs. Site 1	Manual
+Site 2 vs. Site 1
+>1%	100% (69.15%-100%)	90% (55.50%-99.75%)	90% (55.50%-99.75%)
+>5%	60% (26.24%-87.84%)	90% (55.50%-99.75%)	70% (34.75%-93.33%)

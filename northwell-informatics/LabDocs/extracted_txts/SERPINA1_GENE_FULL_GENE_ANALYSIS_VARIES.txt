@@ -1,0 +1,112 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+SERPINA1 GENE, FULL GENE ANALYSIS
+1. PURPOSE
+The purpose of this SOP is to outline the detailed procedures for
+performing SERPINA1 full gene analysis, including preparation,
+execution, and result generation. This ensures accurate and
+consistent detection of variants in the SERPINA1 gene.
+Responsibility:
+• Designated staff are responsible for carrying out the SERPINA1
+full gene analysis as outlined in this procedure.
+• It is the responsibility of all staff to follow protocols and bring any
+deviations or issues to the attention of the supervisor.
+• Supervisors are responsible for ensuring proper execution of the
+protocol and addressing any issues that may compromise the
+quality of the analysis.
+2. SAMPLE SPECIMEN REQUIREMENTS
+Specimen Types:
+• Preferred: Peripheral blood in EDTA tubes.
+• Alternate: Buccal swabs or saliva samples.
+Stability:
+• Peripheral blood: Stable for up to 5 days at 4°C.
+• Buccal swabs or saliva: Stable for up to 7 days at room
+temperature.
+Acceptance Criteria:
+• Specimens should be properly labeled with patient identifiers.
+• Specimens should arrive at the laboratory within the specified
+stability period and be free from contamination or hemolysis.
+3. EQUIPMENT AND REAGENTS
+Required Equipment:
+• Thermocycler for PCR amplification.
+• Gel electrophoresis apparatus.
+• Standard centrifuge.
+• Spectrophotometer or fluorometer for DNA quantification.
+• Next-generation sequencing (NGS) platform (e.g., Illumina, Ion
+Torrent).
+Required Reagents:
+• DNA extraction kit (validated for the specimen type).
+• PCR master mix.
+• SERPINA1 gene-specific primers.
+• Agarose gel and electrophoresis reagents.
+• Library preparation kit for NGS.
+• Sequencing reagents (e.g., nucleotides, buffers).
+• Quality control reagents.
+4. PROCEDURE
+A. DNA Extraction:
+1. Extract DNA from the specimen using the DNA extraction kit
+according to the manufacturer's instructions.
+2. Quantify the extracted DNA using a spectrophotometer or
+fluorometer.
+3. Store DNA at -20°C until ready for PCR amplification.
+B. PCR Amplification:
+1. Prepare PCR master mix containing DNA template, primers for
+each exon of SERPINA1, nucleotides, and polymerase.
+2. Load the reaction mix into the thermocycler and run the PCR
+program as specified:
+◦ Initial denaturation: 95°C for 3 minutes.
+◦ 35 cycles of:
+▪ Denaturation: 95°C for 30 seconds.
+▪ Annealing: 55-65°C (depending on primer specificity) for
+30 seconds.
+▪ Extension: 72°C for 1 minute.
+◦ Final extension: 72°C for 5 minutes.
+3. Verify PCR amplification by running an aliquot on agarose gel
+electrophoresis.
+C. NGS Library Preparation and Sequencing:
+1. Prepare DNA libraries using the library preparation kit according
+to the manufacturer's instructions.
+2. Quantify and normalize the libraries to the required
+concentration.
+3. Load the libraries onto the NGS platform and run the
+sequencing according to standard protocols.
+D. Data Analysis:
+1. Transfer sequencing data to bioinformatics software for
+analysis.
+2. Align sequenced reads to the SERPINA1 reference genome.
+3. Identify and annotate variants using the bioinformatics pipeline.
+4. Review the variant calls and assess their clinical significance
+according to established databases (e.g., ClinVar, HGMD).
+E. Result Generation and Reporting:
+1. Compile and review the annotated variants.
+2. Interpret the clinical significance of identified variants.
+3. Generate a detailed report including:
+◦ Patient information.
+◦ Methodology.
+◦ Variants detected.
+◦ Clinical interpretation.
+◦ Recommendations for patient management based on
+results.
+4. Review and verify the report by the designated technologist.
+5. Submit the report to the referring physician.
+5. QUALITY CONTROL
+• Perform quality control tests on each batch of DNA extraction,
+PCR amplification, and sequencing.
+• Use positive and negative controls to validate each step.
+• Document and review quality control results regularly.
+• Address any deviations in quality control promptly.
+6. METHOD LIMITATIONS
+• Ensure that specimen collection, storage, and transport conditions
+are strictly adhered to for accurate results.
+• Acknowledge potential limitations in detecting certain variants due
+to technical constraints and inform the referring physician
+accordingly.
+7. REFERENCES
+• Manufacturer’s instructions for DNA extraction kits and NGS
+library preparation kits.
+• Bioinformatics software user manuals.
+• Relevant scientific literature and clinical guidelines for SERPINA1
+gene analysis.
+By adhering to this SOP, laboratory staff will be able to consistently
+produce accurate and reliable results for SERPINA1 full gene
+analysis, thereby supporting patient care with high-quality genetic
+information.

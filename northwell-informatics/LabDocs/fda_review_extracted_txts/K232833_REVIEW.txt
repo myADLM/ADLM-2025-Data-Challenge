@@ -1,0 +1,514 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K232833
+B Applicant
+Indica Labs, Inc.
+C Proprietary and Established Names
+HALO AP Dx
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 - Whole
+QKQ Class II PA - Pathology
+Slide Imaging System
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Type of Test:
+Software only device
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+For In Vitro Diagnostic Use
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700 - Whole
+Slide Imaging System			PA - Pathology
+
+--- Page 2 ---
+HALO AP Dx is a software only device intended as an aid to the pathologist to review, interpret
+and manage digital images of scanned surgical pathology slides prepared from formalin-fixed
+paraffin embedded (FFPE) tissue for the purposes of pathology primary diagnosis. HALO AP Dx
+is not intended for use with frozen section, cytology, or non-FFPE hematopathology specimens.
+It is the responsibility of a qualified pathologist to employ appropriate procedures and safeguards
+to assure the quality of the images obtained and, where necessary, use conventional light
+microscopy review when making a diagnostic decision. HALO AP Dx is intended for use with
+the Hamamatsu NanoZoomer S360MD Slide scanner and the JVC Kenwood JD-C240BN01A
+display.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+HALO AP Dx, version 2.1 is a browser-based software-only device intended to aid pathology
+professionals in viewing, manipulating, management, and interpretation of digital pathology
+whole slide images (WSI) of glass slides obtained from the Hamamatsu Photonics K.K.
+NanoZoomer S360MD scanner and viewed on the JVC Kenwood JD-C240BN01A display.
+HALO AP Dx is operated as follows:
+1. Image acquisition is performed using the predicate device, NanoZoomer S360MD Slide
+scanner according to its Instructions for Use. The operator performs quality control of the
+digital slides per the instructions of the NanoZoomer and lab specifications to determine if
+re-scans are necessary.
+2. Once image acquisition is complete, the unaltered image is saved in an external image
+storage location. HALO AP Dx ingests the image and a copy of image metadata is stored in
+the subject device’s database to improve viewing response times.
+3. Scanned images are reviewed by scanning personnel such as histotechnicians to confirm
+image quality and initiate any re-scans before making it available to the pathologist.
+4. The reading pathologist selects a patient case from a selected worklist within HALO AP Dx
+whereby the subject device fetches the associated images from external image storage.
+5. The reading pathologist uses the subject device to view the images and can perform the
+following actions, as needed:
+a. Zoom and pan the image.
+b. Measure distances and areas in the image.
+c. Annotate images.
+d. View multiple images side by side in a synchronized fashion.
+6. The above steps are repeated as necessary.
+After viewing all images belonging to a particular case (patient), the pathologist will make a
+diagnosis which is documented in another system, such as a Laboratory Information System
+(LIS).
+K232833 - Page 2 of 9
+
+--- Page 3 ---
+The interoperable components of HALO AP Dx and other system specifications are provided in
+tables 1 – 4 below.
+Table 1. Interoperable Components for Use with HALO AP Dx
+Components Manufacturer Model
+Scanner Hamamatsu NanoZoomer S360MD Slide scanner
+Display JVC JD-C240BN01A
+Table 2. Client System Requirements
+Workstation Component Specifications
+Processor Intel Core i7 CPU
+Memory 16 GB or more
+Network connectivity 100 Mbps (1 Gbps recommended) connection
+Keyboard/ Mouse / Trackpad Standard Keyboard and Mouse Input Devices
+Operating system Windows 10
+Supported browsers Google Chrome version 116 and above
+Microsoft Edge version 116 and above
+Antivirus software The following anti-virus software has been validated for use:
+- Microsoft Windows Defender
+- Trend Micro
+- Webroot
+Table 3. Server System Requirements
+Server Operating System Memory Processor
+Component Server, Windows Server 2022 16 GB or more 8 cores or more
+Processing Node Server, Only x64 (64 bit) operating
+File Monitor Server systems are supported
+NGINX Reverse Proxy Ubuntu 22.04 2 GB or more 2 cores or more
+Only x64 (64 bit) operating
+systems are supported
+MySQL Server Windows Server 2022 or 16 GB or more 4 cores or more
+Ubuntu 22.04
+Only x64 (64 bit) operating
+systems are supported
+K232833 - Page 3 of 9
+
+[Table 1 on page 3]
+Components	Manufacturer	Model
+Scanner	Hamamatsu	NanoZoomer S360MD Slide scanner
+Display	JVC	JD-C240BN01A
+
+[Table 2 on page 3]
+					
+	Workstation Component			Specifications	
+					
+Processor			Intel Core i7 CPU		
+Memory			16 GB or more		
+Network connectivity			100 Mbps (1 Gbps recommended) connection		
+Keyboard/ Mouse / Trackpad			Standard Keyboard and Mouse Input Devices		
+Operating system			Windows 10		
+Supported browsers			Google Chrome version 116 and above
+Microsoft Edge version 116 and above		
+Antivirus software			The following anti-virus software has been validated for use:
+- Microsoft Windows Defender
+- Trend Micro
+- Webroot		
+
+[Table 3 on page 3]
+							
+Server	Operating System		Memory			Processor	
+							
+Component Server,
+Processing Node Server,
+File Monitor Server	Windows Server 2022
+Only x64 (64 bit) operating
+systems are supported	16 GB or more			8 cores or more		
+NGINX Reverse Proxy	Ubuntu 22.04
+Only x64 (64 bit) operating
+systems are supported	2 GB or more			2 cores or more		
+MySQL Server	Windows Server 2022 or
+Ubuntu 22.04
+Only x64 (64 bit) operating
+systems are supported	16 GB or more			4 cores or more		
+
+--- Page 4 ---
+Table 4. Server Configurations
+Component Specifications
+Network connectivity 1 Gbps (10 Gbps recommended) LAN connection between services
+Antivirus software The following anti-virus software has been validated for use with
+Windows server:
+- Microsoft Windows Defender
+- Trend Micro
+- Webroot
+B Instrument Description Information:
+1. Instrument Name:
+HALO AP Dx
+2. Specimen Identification:
+HALO AP Dx uses digital pathology images obtained from the Hamamatsu S360 MD
+scanner of Hematoxylin and Eosin (H&E) stained glass slides. The reading pathologist
+selects a case (patient) from a worklist (within the device or external to the device) whereby
+the subject device fetches the associated images from the external image storage. The
+scanned images are identified based on the previously assigned specimen identifier such as
+the laboratory specimen accession number.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is Hematoxylin and Eosin
+(H&E) stained. Digital images are then obtained from these glass slides using the
+Hamamatsu S360 MD scanner.
+4. Calibration:
+Not applicable
+5. Quality Control:
+The scanning technician should perform quality control of all glass slides following the
+instructions. Upon scanning, quality control should be performed on all digital slide images
+following procedures defined by the scanner manufacturer prior to import into HALO AP
+Dx.
+The pathologist should review all images to ensure that all expected slides have been
+imported by viewing the thumbnails and labels, and manually verifying the tissue specimen,
+block, and staining information is present. Additional details of the quality control
+procedures are provided in the device User’s Guide and the Implementation Guide.
+K232833 - Page 4 of 9
+
+[Table 1 on page 4]
+					
+	Component			Specifications	
+					
+Network connectivity			1 Gbps (10 Gbps recommended) LAN connection between services		
+Antivirus software			The following anti-virus software has been validated for use with
+Windows server:
+- Microsoft Windows Defender
+- Trend Micro
+- Webroot		
+
+--- Page 5 ---
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+NanoZoomer S360MD Slide scanner system
+B Predicate 510(k) Number(s):
+K213883
+C Comparison with Predicate(s):
+Device & Predicate
+K232833 K213883
+Device(s):
+Hamamatsu NanoZoomer S360MD
+Device Trade Name HALO AP Dx
+Slide scanner system
+General Device
+Characteristic
+Similarities
+The NanoZoomer S360MD Slide
+HALO AP Dx is a software
+scanner system (“NanoZoomer
+only device intended as an aid
+System”) is an automated digital
+to the pathologist to review,
+slide creation, viewing, and
+interpret and manage digital
+management system. The
+images of scanned surgical
+NanoZoomer System is intended
+pathology slides prepared
+for in vitro diagnostic use as an aid
+from formalin-fixed paraffin
+to the pathologist to review and
+embedded (FFPE) tissue.
+interpret digital images of surgical
+HALO AP Dx is not intended
+pathology slides prepared from
+for use with frozen section,
+formalin-fixed paraffin embedded
+cytology, or non-FFPE
+(“FFPE”) tissue. The NanoZoomer
+hematopathology specimens.
+System is not intended for use with
+Intended frozen section, cytology, or non-
+Use/Indications For It is the responsibility of a FFPE hematopathology specimens.
+qualified pathologist to
+Use
+employ appropriate
+The NanoZoomer System
+procedures and safeguards to
+comprises the NanoZoomer
+assure the quality of the
+S360MD Slide scanner, the
+images obtained and, where
+NZViewMD Software and the JVC
+necessary, use conventional
+Kenwood JD-C240BN01A display.
+light microscopy review
+The NanoZoomer System is for
+when making a diagnostic
+creation and viewing of digital
+decision. HALO AP Dx is
+images of scanned glass slides that
+intended for use with the
+would otherwise be appropriate for
+Hamamatsu NanoZoomer
+manual visualization by
+S360MD Slide scanner and
+conventional light microscopy. It is
+the JVC Kenwood JD-
+the responsibility of a qualified
+C240BN01A display.
+pathologist to employ appropriate
+K232833 - Page 5 of 9
+
+[Table 1 on page 5]
+	Device & Predicate		K232833	K213883
+	Device(s):			
+Device Trade Name			HALO AP Dx	Hamamatsu NanoZoomer S360MD
+Slide scanner system
+	General Device			
+	Characteristic			
+	Similarities			
+Intended
+Use/Indications For
+Use			HALO AP Dx is a software
+only device intended as an aid
+to the pathologist to review,
+interpret and manage digital
+images of scanned surgical
+pathology slides prepared
+from formalin-fixed paraffin
+embedded (FFPE) tissue.
+HALO AP Dx is not intended
+for use with frozen section,
+cytology, or non-FFPE
+hematopathology specimens.
+It is the responsibility of a
+qualified pathologist to
+employ appropriate
+procedures and safeguards to
+assure the quality of the
+images obtained and, where
+necessary, use conventional
+light microscopy review
+when making a diagnostic
+decision. HALO AP Dx is
+intended for use with the
+Hamamatsu NanoZoomer
+S360MD Slide scanner and
+the JVC Kenwood JD-
+C240BN01A display.	The NanoZoomer S360MD Slide
+scanner system (“NanoZoomer
+System”) is an automated digital
+slide creation, viewing, and
+management system. The
+NanoZoomer System is intended
+for in vitro diagnostic use as an aid
+to the pathologist to review and
+interpret digital images of surgical
+pathology slides prepared from
+formalin-fixed paraffin embedded
+(“FFPE”) tissue. The NanoZoomer
+System is not intended for use with
+frozen section, cytology, or non-
+FFPE hematopathology specimens.
+The NanoZoomer System
+comprises the NanoZoomer
+S360MD Slide scanner, the
+NZViewMD Software and the JVC
+Kenwood JD-C240BN01A display.
+The NanoZoomer System is for
+creation and viewing of digital
+images of scanned glass slides that
+would otherwise be appropriate for
+manual visualization by
+conventional light microscopy. It is
+the responsibility of a qualified
+pathologist to employ appropriate
+
+--- Page 6 ---
+Device & Predicate
+K232833 K213883
+Device(s):
+procedures and safeguards to assure
+the validity of the interpretation of
+images obtained using
+NanoZoomer System.
+Surgical pathology slides prepared
+Specimen Type Same
+from FFPE tissue
+Diagnostic Image
+Same Hamamatsu NDPI File
+File Format
+User-supplied network attached
+Image Storage Same
+storage
+General Device
+Characteristic
+Differences
+Functions for continuous
+panning and zooming, Functions for continuous panning
+annotations, image and zooming, annotations,
+Image Manipulation adjustments, distance/area distance/area measurements, track
+and Review measurements, organize visited areas, export images,
+Functions workload and view patient discrete Z-axis displacement, and
+data, export images, and display of diagnostic status of
+display of diagnostic status of images.
+images.
+Type of Software Internet browser-based
+PC-based installed application
+Application application
+End User’s Interface HALO AP Dx NZViewMD
+VI Standards/Guidance Documents Referenced:
+1. Guidance for Industry “Technical Performance Assessment of Digital Pathology Whole
+Slide Imaging Devices", April 20, 2016.
+2. Guidance for Industry "Applying Human Factors and Usability Engineering to Medical
+Devices", February 3, 2016.
+3. IEC 62304 Edition 1.1 2015-06 CONSOLIDATED VERSION, 13-79. Medical device
+software – Software life cycle processes.
+4. ISO 14971 Third Edition 2019-12, 5-125, Medical devices – Applications of risk
+management to medical devices.
+5. IEC 62366-1 Edition 1.1 2020-06 CONSOLIDATED VERSION, 5-129, Application of
+usability engineering to medical devices.
+6. AAMI TIR 45:2012, 13-36, Guidance on the use of AGILE practices in the development
+of medical device software.
+7. Standards Details / Supplemental Documentation per ISO/IEC 17050-2.
+VII Performance Characteristics (if/when applicable):
+K232833 - Page 6 of 9
+
+[Table 1 on page 6]
+	Device & Predicate		K232833	K213883
+	Device(s):			
+				procedures and safeguards to assure
+the validity of the interpretation of
+images obtained using
+NanoZoomer System.
+Specimen Type			Same	Surgical pathology slides prepared
+from FFPE tissue
+Diagnostic Image
+File Format			Same	Hamamatsu NDPI File
+Image Storage			Same	User-supplied network attached
+storage
+	General Device			
+	Characteristic			
+	Differences			
+Image Manipulation
+and Review
+Functions			Functions for continuous
+panning and zooming,
+annotations, image
+adjustments, distance/area
+measurements, organize
+workload and view patient
+data, export images, and
+display of diagnostic status of
+images.	Functions for continuous panning
+and zooming, annotations,
+distance/area measurements, track
+visited areas, export images,
+discrete Z-axis displacement, and
+display of diagnostic status of
+images.
+Type of Software
+Application			Internet browser-based
+application	PC-based installed application
+End User’s Interface			HALO AP Dx	NZViewMD
+
+--- Page 7 ---
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing was conducted with HALO AP Dx. The subject device was
+compared to the predicate device’s image review manipulation software (IRMS, as defined in
+FDA guidance document, “Guidance for Industry – Technical Performance Assessment of
+Digital Pathology Whole Slide Imaging Devices,” dated April 20, 2016) using the quantitative
+pixel-wise comparison method. The basis for the comparison was the CIEDE2000 color
+difference equation, ΔE.
+1. Bench Testing - Pixelwise comparison test
+Pixel-wise comparison testing to demonstrate identical image reproduction was conducted to
+compare WSIs reproduced by HALO AP Dx and Nanozoomer NZViewMD. The devices
+were tested as operating with the intended components, including the scanner (Hamamatsu
+NanoZoomer S360MD Slide scanner), image management system (Nanozoomer
+NZViewMD, HALO AP Dx with Google Chrome, or HALO AP Dx with Microsoft Edge),
+and display (JVC Kenwood JD-C240BN01A).
+The device was tested with multiple slides across multiple regions of interest (ROI) at
+multiple magnification levels. A total of 35 H&E-stained, FFPE glass slides of normal and
+tumor tissues from various human anatomical organs were used in the testing. The glass
+slides were scanned on a Hamamatsu NanoZoomer S360MD Slide scanner system to obtain
+35 WSIs. For each of the 35 WSIs, 3 ROIs were selected by qualified personnel to represent
+various features in the tissue samples. Each ROI was captured at 3 magnification levels (10x,
+20x, 40x).
+K232833 - Page 7 of 9
+
+--- Page 8 ---
+The screenshots were captured from the intended display and cropped to generate bitmap
+images (.bmp) that were ready for pixelwise comparison. Three sets of images were
+collected: (1) NZViewMD, (2) HALO AP Dx using Google Chrome, and (3) HALO AP Dx
+using Microsoft Edge. Each image set included 315 images that covered all combinations of
+35 slides, 3 ROIs, and 3 magnification levels. The testing data, including the overview
+images of the 35 glass slides with annotations of the ROIs, registration/cropping information,
+and captured images, were provided in the FDA specific format.
+Image set #1 above was used as the reference to compare image set #2 (or #3) to determine
+whether all the 315 image-pairs were identical. Two images are considered identical if the
+95th percentile of the pixelwise differences, computed using the International Commission on
+Illumination (CIE) color difference metric CIEDE2000 (ΔE ), is less than 3 ΔE . Testing
+00 00
+results showed that the pixelwise differences across all 630 image-pairs were less than 3
+ΔE . The mean 95th percentile ΔE value was 1.52 with the lowest value reported as 0.82
+00 00
+and the highest reported as 2.75. Testing results demonstrated that WSIs reproduced by
+HALO AP Dx are identical to images reproduced by the predicate device.
+2. Turnaround Time
+Turnaround times for image loading, panning and zooming were tested when using Google
+Chrome and Microsoft Edge browsers over different magnifications levels and over multiple
+fields of view (FOVs). Additionally, concurrent, multi-user load testing of the HALO AP Dx
+Image Server was performed to show that the subject device is responsive under constant
+utilization over a long period of time. Test results showed these to be adequate for the
+intended use of the subject device.
+3. Measurements – area and distance
+Measurement accuracy testing was performed to demonstrate that HALO AP Dx represents
+length and area measurements accurately across multiple magnification levels. An image of a
+calibration slide with known object sizes was used to verify the measurement accuracy. A
+total of 32 annotations were created – 4 annotations (2 horizontal and 2 vertical) at 4
+magnification levels in 2 browsers. The intended and reported metrics were recorded for each
+annotation. The differences between intended and reported measurements were calculated.
+Test results showed that the subject device performed accurate measurements of length and
+area across multiple magnification settings with respect to its intended use.
+4. Human Factors (Usability) Testing
+Usability testing was conducted per FDA’s Guidance on Applying Human Factors and
+Usability Engineering to Medical Devices (2016). A summative human factors test, designed
+around critical user tasks and use scenarios using multiple representative users (pathologists
+and histotechnicians), was conducted. All tasks associated with reviewing and reporting
+results for cases including confirmation that all slides belonging to specific cases are
+reviewed before reporting results were included in the study. The HALO AP Dx device has
+been found to be safe and effective for intended users, users and use environments.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+K232833 - Page 8 of 9
+
+--- Page 9 ---
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K232833 - Page 9 of 9

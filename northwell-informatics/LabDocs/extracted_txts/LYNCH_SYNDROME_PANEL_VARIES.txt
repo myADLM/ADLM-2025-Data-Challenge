@@ -1,0 +1,109 @@
+Sample Protocol: Analytical Phase of LYNCH SYNDROME
+PANEL, VARIES
+1. PURPOSE: This protocol outlines the procedures for the analytical
+phase of generating results for a Lynch Syndrome Panel. This
+includes the preparation, processing, and analysis of patient samples
+to detect mutations in the relevant genes associated with Lynch
+Syndrome.
+2. SCOPE: This protocol applies to all laboratory personnel involved
+in the analysis of samples for Lynch Syndrome Panel testing.
+3. RESPONSIBILITIES:
+• Laboratory Technologists: Responsible for sample preparation,
+processing, and analysis.
+• Supervisors: Responsible for overseeing the technical work,
+troubleshooting, and ensuring compliance with protocol
+requirements.
+4. DEFINITIONS:
+• Lynch Syndrome Panel: A genetic test panel designed to detect
+mutations in genes associated with Lynch Syndrome (e.g., MLH1,
+MSH2, MSH6, PMS2, and EPCAM).
+• PCR (Polymerase Chain Reaction): A technique used to amplify
+DNA sequences.
+• Sequencing: The process of determining the order of nucleotides
+in DNA.
+5. PROCEDURE:
+A) Sample Preparation:
+1. Verify each sample against the requisition form and ensure it is
+properly labeled.
+2. Extract DNA from blood or tissue samples using a standardized
+DNA extraction kit (refer to DNA Extraction SOP).
+3. Quantify and assess the quality of extracted DNA using a
+spectrophotometer or fluorometer.
+B) PCR Amplification:
+1. Prepare PCR reactions according to the specific primer sets for
+the Lynch Syndrome panel.
+2. Set up the reaction mix as follows:
+◦ 25 µL of PCR Master Mix
+◦ 2 µL of Forward Primer (10 µM)
+◦ 2 µL of Reverse Primer (10 µM)
+◦ 1 µL of DNA template (50 ng/µL)
+◦ Nuclease-free water to a final volume of 50 µL
+3. Load the PCR reactions into the thermal cycler and run the
+following program:
+◦ Initial denaturation: 95°C for 5 minutes
+◦ 35 cycles of:
+▪ Denaturation: 95°C for 30 seconds
+▪ Annealing: 58-62°C (depending on primer set) for 30
+seconds
+▪ Extension: 72°C for 1 minute
+◦ Final extension: 72°C for 10 minutes
+C) Gel Electrophoresis:
+1. Prepare a 1.5% agarose gel with ethidium bromide or another
+suitable DNA stain.
+2. Load PCR products and a DNA ladder into the wells of the gel.
+3. Run the gel at 100 volts for approximately 30-45 minutes.
+4. Visualize the gel under UV light and document the results.
+D) DNA Sequencing:
+1. Clean up the PCR products using a PCR purification kit (refer to
+PCR Product Purification SOP).
+2. Perform Sanger sequencing or Next-Generation Sequencing
+(NGS) based on the laboratory’s capability.
+3. Prepare sequencing reactions according to the manufacturer's
+instructions for the sequencing platform used.
+E) Data Analysis:
+1. Upload raw sequencing data to the bioinformatics pipeline.
+2. Align sequences against the reference genome and identify
+variants.
+3. Annotate variants using a variant annotation tool.
+4. Interpret the results based on known pathogenic, likely
+pathogenic, benign, and uncertain significance variants in
+Lynch Syndrome-associated genes.
+F) Reporting Results:
+1. Prepare a comprehensive report including:
+◦ Patient identification information
+◦ Gene(s) tested and associated variants
+◦ Interpretation of variants (pathogenicity, clinical relevance)
+◦ Recommendations for follow-up testing or genetic
+counseling
+2. Review and verify the final report by a designated specialist in
+molecular genetics.
+3. Transmit the final report to the referring physician and retain a
+copy in the patient’s record.
+6. QUALITY CONTROL:
+1. Run positive and negative controls with each batch of samples.
+2. Record and monitor quality control metrics including DNA yield,
+PCR efficiency, and sequencing quality scores.
+3. Document any deviations from the protocol and corrective
+actions taken.
+7. METHOD LIMITATIONS:
+1. Variants outside the regions covered by the primer sets will not
+be detected.
+2. Low-quality DNA samples may result in failed PCR amplification
+or sequencing.
+8. SAFETY:
+1. Follow standard laboratory safety protocols including the use of
+PPE (personal protective equipment), proper waste disposal,
+and handling potentially infectious materials.
+REFERENCES:
+1. Manufacturer’s instructions for DNA Extraction Kit.
+2. PCR Amplification Protocols.
+3. Sequencing Platform User Manual.
+4. Bioinformatics Pipeline Documentation.
+5. Relevant literature on Lynch Syndrome Genetic Testing.
+APPROVAL:
+Laboratory Director: ________________________ Date:
+____________________________________
+Technical Supervisor: _______________________ Date:
+____________________________________
+Document Control No.: LSP-001 Effective Date:
+____________________________

@@ -1,0 +1,87 @@
+Standard Operating Procedure (SOP) for Analytical Phase:
+LiquidHallmark ctDNA and ctRNA Analysis
+1. PURPOSE
+This SOP outlines the procedures for generating and reporting results
+for circulating tumor DNA (ctDNA) and circulating tumor RNA (ctRNA)
+using LiquidHallmark technology. This process is essential for
+ensuring accurate and reliable genomic profiling of ctDNA and ctRNA
+from patient blood samples.
+Responsibility: It is the responsibility of qualified laboratory personnel
+to perform the analytical procedures accurately and document all
+steps rigorously. Supervisors must ensure that all staff adhere to this
+SOP and identify any quality issues.
+1. DEFINITIONS
+• ctDNA: Circulating tumor DNA, the small fragments of DNA shed
+from tumor cells into the bloodstream.
+• ctRNA: Circulating tumor RNA, the RNA molecules shed from
+tumor cells into the bloodstream.
+• LiquidHallmark: The technology platform used for the analysis of
+ctDNA and ctRNA.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• LiquidHallmark Sequencing Instrument
+• Extraction Kits (approved for ctDNA and ctRNA)
+• Quantification Kits (for DNA and RNA, approved reagents)
+• Thermocyclers
+• Magnetic Bead Purification Systems
+• PCR Enzymes and Reagents
+• Next Generation Sequencing (NGS) Reagents
+• Bioinformatics Software for Data Analysis
+• Calibrated Pipettes and Consumables
+• Laboratory Freezers (-20°C and -80°C)
+• Centrifuge
+1. PROCEDURE
+4.1 Sample Preparation a. Retrieve blood samples that have been
+properly collected, labeled, and accessioned. b. Perform lysis of
+blood cells to release cell-free DNA/RNA using the specified
+extraction kit. c. Separate plasma by centrifugation at 1600 x g for 10
+minutes at 4°C. d. Transfer the supernatant to fresh tubes without
+disturbing the buffy coat layer.
+4.2 Nucleic Acid Extraction a. Follow extraction kit protocols for
+isolating ctDNA and ctRNA from plasma samples. b. Use magnetic
+bead purification for high-quality nucleic acid isolation. c. Quantify
+extracted ctDNA using a fluorometric method to ensure sufficient
+concentration and purity. d. Store the isolated ctDNA and ctRNA at
+-80°C until further analysis.
+4.3 Library Preparation and Quantification a. Use sequencing library
+preparation kits that are optimized for LiquidHallmark assays. b.
+Perform adapter ligation, indexing, and PCR amplification according
+to the kit's protocol. c. Purify PCR products using magnetic bead
+purification. d. Quantify the prepared libraries using qPCR-based
+quantification methods to ensure accurate loading on the NGS
+instrument.
+4.4 Sequencing a. Load prepared libraries onto the LiquidHallmark
+sequencing instrument following the manufacturer’s instructions. b.
+Run the NGS instrument with appropriate settings for ctDNA and
+ctRNA analysis. c. Monitor instrument performance and sequencing
+run quality metrics.
+4.5 Data Analysis a. Transfer raw sequencing data to the
+bioinformatics analysis platform. b. Utilize the bioinformatics pipeline
+to align reads, call variants, and annotate target genomic regions. c.
+Perform quality control checks to ensure data integrity and accuracy.
+4.6 Interpretation and Reporting a. Review bioinformatic analysis
+results and identify clinically significant variants according to
+established guidelines. b. Generate a final report that includes
+detailed annotation of detected variants, with clinical significance
+categorized. c. Ensure the report is reviewed and verified by a senior
+molecular pathologist before releasing.
+4.7 Quality Control and Documentation a. Include appropriate
+positive, negative, and no-template controls with each run. b.
+Document all steps in the laboratory information management system
+(LIMS). c. Review quality control metrics after each run and address
+any deviations from the acceptable range by retesting if necessary.
+1. SAMPLE STORAGE AND RETENTION a. Store remaining
+aliquots of plasma, isolated ctDNA, and ctRNA samples at
+-80°C. b. Maintain records of sample storage locations,
+handling, and disposal methods for long-term tracking.
+2. REFERENCES
+• LiquidHallmark User Manual and Manufacturer's Guidelines
+• Current scientific literature and guidelines relevant to ctDNA and
+ctRNA analysis
+By following this SOP, the laboratory ensures the generation of
+accurate and reliable results for the clinical interpretation of ctDNA
+and ctRNA, facilitating improved patient management and treatment
+strategies.
+Approved By: ____________________ Date:
+____________________
+Reviewed By: ____________________ Date:
+____________________

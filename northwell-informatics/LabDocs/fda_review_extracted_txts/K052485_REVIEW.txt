@@ -1,0 +1,410 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+A. 510(k) Number: k05 2485
+B. Purpose for Submission: New 510k
+C. Measurand: Fatty acid methylated esters extracted from bacterial cell membranes
+D. Type of Test: Gas Chromatographic, qualitative identification of B. anthracis
+E. Applicant: MIDI, Inc.
+F. Proprietary and Established Names: MIDI Sherlock Microbial Identification System
+BioDef™ and Gas chromatography, Bacillus anthracis membrane fatty acids
+G. Regulatory Information:
+1. Regulation section: Unclassified
+2. Classification: Unclassified
+3. Product code: NWZ, Gas chromatography, Bacillus anthracis membrane fatty acids
+4. Panel: 83
+H. Intended Use:
+1. Intended use(s): aid in the identification of B. anthracis
+2. Indication(s) for use:
+The MIDI Sherlock Microbial Identification System for BioDef™ is intended to aid in the
+identification of Bacillus anthracis through the analysis of membrane fatty acids derived from
+cultured bacterial samples, using gas chromatography and pattern recognition software.
+Warnings:
+• The Sherlock BioDef system is not intended for use with spore preparations or materials
+other than colonies from trypticase soy agar (with 5% defibrinated sheep blood) that have
+been presumptively identified as Bacillus spp. BioDef cannot assess presence or absence of
+virulence factors.
+• Accurate identification of B. anthracis is dependent on purity of isolates, length of incubation
+(24 h) at 35º C, and media type, along with well-trained and experienced technicians. Only
+1
+
+--- Page 2 ---
+BBL™ 5% sheep blood agar has been validated for identifying B. anthracis with the MIDI
+Sherlock Microbial Identification System for BioDef™.
+• The definitive identification of B. anthracis from colony growth requires additional testing
+and confirmation procedures in consultation with public health or other authorities to whom
+reporting is required.
+• Identification of organisms other than B. anthracis in the Sherlock BioDef’s system’s BTR
+library database has not been evaluated.
+3. Special conditions for use statement(s):
+Prescription Use
+4. Special instrument requirements: Gas chromatograph equipped with a 25 m capillary
+column having dimensions of 0.2 mm internal diameter and 0.33 film thickness of 5% phenol
+methyl siloxane as the liquid phase. Requires hydrogen as carrier gas and a flame ionization
+detector using air and nitrogen. Oven temperature must increase linearly from 170 to 270°
+during analysis and an autoinjector to inject 2μL.
+I. Device Description:
+MIDI Sherlock Microbial Identification System for BioDef™ is based on gas chromatorgraphy
+(GC) with a 25 x 0.2 mm capillary column (0.33-film thickness of 5% diphenyl-95%-dimethyl
+siloxane), an oven with 170-270°C increase range during analysis, an autoinjector, and MIDI
+Sherlock Microbial Identification System software that includes the BTR library [installed on a
+PC, HP or Dell, with 8 gb HD, 128 mb RAM, 450MHz, Pentium III or higher, CD ROM drive
+and LAN interface (Lan card or GPIB card); GPIB communication, NT 4.0, SP 5 or higher, 2000
+or XP]. H carrier gas and N makeup gas (both 99.999% pure) is needed along with industrial
+2 2
+grade air. B. cereus (ATCC 14579) is run as a control. Reagents must be prepared using ACS
+NaOH and NaCl with HPLC grade methanol, hexane, and methyl-tert-butyl ether.
+The BTR library is used with the standard clinical (CLIN) database. The program is written in
+Microsoft Visual Basic vrs 6.0.
+A calibration standard (made and sold by Microbial ID (a sister company to MIDI) is also
+needed to perform the testing procedure. The standard is a mixture of fatty acids used to
+characterize peaks based on retention time.
+Fatty acid methyl ester (FAME) composition of bacterial cell membranes are distinctive. For B.
+anthracis, 13:0 ISO and 17:0 ANTEISO are unique and distinguishing from other Bacillus spp.
+The BTR library contains approximately 150 Bacillus spp. and is used to match similarity of an
+unknown to the library profiles. A Similarity Index (SI) is calculated that expresses the relative
+distance of an unknown’s profile from the population mean for a particular species. The SI
+reflects both distance and variance from the mean (4.69 standard deviations is maximum for a
+4.0 SI).
+J. Substantial Equivalence Information:
+2
+
+--- Page 3 ---
+1. Predicate device name(s): Tetracore RedLine Alert™
+2. Predicate 510(k) number(s): k030370
+3. Comparison with predicate:
+Similarities
+Item Device Predicate
+Intended Use Aid in the identification of Presumptive identification
+B. anthracis grown on solid of B. anthracis from non-
+culture medium hemolytic Bacillus colonies
+cultured on sheep blood
+agar plates
+Samples Solid media colony isolates Solid media colony isolates
+Media growth 22-26 h 5% sheep blood 12-24 h 5% sheep blood
+agar growth agar growth
+Differences
+Item Device Predicate
+Reagents Calibration Standard Buffer and test cassette
+Technology Gas chromatographic Lateral flow immunoassay
+characterization of fatty acid detecting a cell surface
+methyl esters protein
+Instrumentation Gas chromatograph with None – visual recognition
+automated peak naming and
+library comparison using
+pattern recognition software
+Sample Preparation Saponification, extraction, Suspend colony in buffer
+and derivitization of
+membrane fatty acids
+Biosafety indications BSL-2, BSL-3 practices BS level-2
+Quality control Bacillus cereus culture Lyophilized antigen from
+recommended B. anthracis Sterne culture B. anthracis Sterne
+K. Standard/Guidance Document Referenced (if applicable): NA
+L. Test Principle:
+Growth from 24 h 5% SBA is treated to saponify and methylate fatty acids, followed by
+extraction into an organic solvent. Fatty acid methyl esters are characterized by gas
+chromatography, using retention times to calculate ECLs (equivalent chain length) based on
+comparison to a calibration standard containing a mixture of saturated fatty acids (9-20
+carbons length). Software compares ECL values of straight chain and branched chain acids
+to those of known isolates. Capillary columns are calibrated for variations and long-term
+drift to center ECLs of polar hydroxy fatty acids with expected ECLs in the library.
+3
+
+[Table 1 on page 3]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			Aid in the identification of
+B. anthracis grown on solid
+culture medium			Presumptive identification
+of B. anthracis from non-
+hemolytic Bacillus colonies
+cultured on sheep blood
+agar plates		
+Samples			Solid media colony isolates			Solid media colony isolates		
+Media growth			22-26 h 5% sheep blood
+agar growth			12-24 h 5% sheep blood
+agar growth		
+
+[Table 2 on page 3]
+Differences								
+	Item			Device			Predicate	
+Reagents			Calibration Standard			Buffer and test cassette		
+Technology			Gas chromatographic
+characterization of fatty acid
+methyl esters			Lateral flow immunoassay
+detecting a cell surface
+protein		
+Instrumentation			Gas chromatograph with
+automated peak naming and
+library comparison using
+pattern recognition software			None – visual recognition		
+Sample Preparation			Saponification, extraction,
+and derivitization of
+membrane fatty acids			Suspend colony in buffer		
+Biosafety indications			BSL-2, BSL-3 practices			BS level-2		
+Quality control
+recommended			Bacillus cereus culture
+B. anthracis Sterne culture			Lyophilized antigen from
+B. anthracis Sterne		
+
+--- Page 4 ---
+Temperatures and gas pressures may be adjusted to calibrate drift. Samples must be prepared
+from sufficient growth to allow detection of smaller fatty acid peaks. Contaminating peaks
+can occur from a faulty injection port liner or septum. Testing is designed to be run on the
+Agilent 6850 or 5890 gas chromatographic systems.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+B. anthracis and non-B. anthracis samples were tested at 11 different laboratories. The %
+correct identifications overall in these labs for the B. anthracis samples was 96.3% and for
+non-B. anthracis was 99.7%.
+Number of Positive for Negative for
+% Correct
+Samples B. anthracis@ B. anthracis@
+Bacillus-anthracis 383 369 14 96.3%
+Near Neighbors* 381 1 380 99.7%
+b. Linearity/assay reportable range: NA
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Calibrator standard is a mixture of fatty acid methy esters (n-hexane, normal hexane,
+hexyl hydride).
+d. Detection limit: NA, a sufficient amount of growth must be used (40 mg or one
+heaping 4 mm loopful).
+e. Analytical specificity: 169 samples of 8 non-anthracis Bacillus species most closely
+similar phenotypically to B. anthracis were correctly separated
+f. Assay cut-off: A BA similarity index must be >0.400 to correctly identify as B.
+anthracis
+2. Comparison studies:
+a. Method comparison with predicate device: Not done
+b. Matrix comparison: NA
+3. Clinical studies: NA – the MIDI test uses solid culture media growth and is dependent on
+culture for recovery of growth from clinical specimens or other sample types. Evaluations
+were performed with B. anthracis and near-neighbor isolates, some of which were obtained
+originally from clinical specimens
+4
+
+[Table 1 on page 4]
+	Number of
+Samples	Positive for
+B. anthracis@	Negative for
+B. anthracis@	% Correct
+Bacillus-anthracis	383	369	14	96.3%
+Near Neighbors*	381	1	380	99.7%
+
+--- Page 5 ---
+a. Clinical Sensitivity:
+b. Clinical specificity:
+c. Other clinical supportive data (when a. and b. are not applicable):
+The B. anthracis entry of the Sherlock BioDefTM library contains 116 analyses of 66 strains of
+the pathogen and 169 analyses of 8 near neighbor Bacillus species. It was earlier determined
+that only B. cereus, B. thuringiensis and B. mycoides are sufficiently close in FAME profile to
+potentially give rise to problems of discrimination. The comparison species, and numbers of
+strains and analyses are as follows.
+B. cereus (38 analyses) B. megaterium (11 analyses)
+B. circulans (37 analyses) B. mycoides (10 analyses)
+B. coagulans (31 analyses) B. subtilis (16 analyses)
+B. licheniformis (8 analyses) B. thuringiensis (18 analyses)
+By comparison to more than 400 species entries in the clinical (Sherlock CLIN version 5.0)
+library, no other species was likely to give FAME profiles similar to B. anthracis.
+# # Positive for Negative for
+Percent Correct
+Species Samples B. anthracis@ B. anthracis@
+Bacillus-anthracis 1 116 116 0 100%
+Non-anthracis
+8 169 0 169 100%
+Bacillus Species*
+Other Bacterial
+12 303 0 303 100%
+Species**
+4. Clinical cut-off: Discriminating B. anthracis from other Bacillus spp. using a >0.400
+Similarity Index based on a maximum distance of 4.69 standard deviations from the mean for
+the species.
+5. Expected values/Reference range:
+Average Percent of Cellular Fatty Acid (CFA) for Bacillus entries in BTR20 library
+database
+anthracis A anthracis B anthracis C cereus A cereus B
+Fatty Acid Peak Mean % SD* Mean % SD Mean % SD Mean % SD Mean % SD
+13:0 ISO 2.82 0.56 0.39 0.16 4.02 2.98 7.02 0.51 8.2 1.23
+14:0 ISO 1.75 0.48 1.26 0.34 2.76 1.42 2.63 0.58 3.06 1.27
+14:0 2.29 0.45 2.2 0.47 2.14 0.96 2.89 0.26 2.7 0.16
+15:0 ISO 44.85 3.32 47.55 2.83 26.21 5.94 40.05 1.35 41.33 5.65
+15:0 ANTE 4.02 0.97 3.66 0.74 3.94 1.34 3.03 0.57 4.39 0.46
+16:1 w7c alcohol 0 0 1.79 0.23 0 0 0 0 0 0
+5
+
+[Table 1 on page 5]
+	#
+Species	#
+Samples	Positive for
+B. anthracis@	Negative for
+B. anthracis@	Percent Correct
+Bacillus-anthracis	1	116	116	0	100%
+Non-anthracis
+Bacillus Species*	8	169	0	169	100%
+Other Bacterial
+Species**	12	303	0	303	100%
+
+[Table 2 on page 5]
+Mean %	SD*	Mean %	SD	Mean %	SD	Mean %	SD	Mean %	SD
+2.82	0.56	0.39	0.16	4.02	2.98	7.02	0.51	8.2	1.23
+1.75	0.48	1.26	0.34	2.76	1.42	2.63	0.58	3.06	1.27
+2.29	0.45	2.2	0.47	2.14	0.96	2.89	0.26	2.7	0.16
+44.85	3.32	47.55	2.83	26.21	5.94	40.05	1.35	41.33	5.65
+4.02	0.97	3.66	0.74	3.94	1.34	3.03	0.57	4.39	0.46
+0	0	1.79	0.23	0	0	0	0	0	0
+
+--- Page 6 ---
+16:0 ISO 5.98 1.29 8.73 1.28 8.93 2.87 3.92 0.79 4.99 1.54
+16: w11c 0 0 1.26 0.09 0 0 0 0 0 0
+16:0 3.91 0.62 4.94 0.59 6.22 2.05 3.17 0.36 5.51 0.61
+ISO 17:1 w7c 0 0 4.11 0.88 0 0 2.31 0.61 1.98 1.32
+ISO 17:1 w5c 5.06 1.54 1.58 0.61 6.01 1.12 7.18 0.65 2.12 0.81
+17:1 ANTE A 1.6 0.41 0.67 0.26 1.96 0.37 0 0 0 0
+17:0 ISO 11.57 2.02 9.05 1.84 18.06 5.91 8.48 0.72 9.83 1.47
+17:0 ANTE 2.48 0.76 3.49 0.75 3.54 0.72 0 0 1.77 0.54
+18:1 w9c 1.16 0.46 1.52 0.21 0.69 0.59 3.35 0.68 4.57 2.37
+18:0 1.04 0.44 0.7 0.27 1.72 0.63 1.48 0.62 1.41 0.73
+Summed 2 2.27 0.68 1.02 0.14 2.58 1.39 2.26 0.44 0.86 0.98
+Summed 3 7.99 1.06 4.53 0.53 9.74 4.13 9.42 0.54 5.5 2.07
+Summed 5 0.91 0.42 1.29 0.51 0.57 0.52 1.64 1.08 0.77 0.6
+circulans coagulans A coagulans B coagulans C licheniformis
+Fatty Acid Peak Mean % SD Mean % SD Mean % SD Mean % SD Mean % SD
+13:0 ISO 0 0 0 0 0 0 0 0 0 0
+14:0 ISO 3.62 1.02 0 0 6.88 0.66 0 0 0 0
+14:0 2.24 0.79 1.44 0.08 2.94 0.24 0.63 0.6 0 0
+15:0 ISO 11.33 2.69 6.79 0.11 14.36 0.62 8.15 5.03 39.1 4.46
+15:0 ANTE 53.32 4.17 58.02 0.6 32.04 0.64 45.45 7.24 24.82 2.98
+16:1 w7c alcohol 0 0 0 0 0 0 0 0 0 0
+16:0 ISO 7.68 3.04 2.06 0.12 10.96 0.34 2.61 1.83 3.33 0.53
+16: w11c 0 0 0 0 0 0 0 0 0.41 0.38
+16:0 7.29 1.78 13.81 0.64 14.96 0.39 9.38 1.02 2.97 0.35
+ISO 17:1 w7c 0 0 0 0 0 0 0 0 1.24 0.87
+ISO 17:1 w5c 0 0 0 0 0 0 0 0 0 0
+17:1 ANTE A 0 0 0 0 0 0 0 0 0 0
+17:0 ISO 1.3 0.99 0 0 3.4 0.32 1.88 1.74 14.82 2.09
+17:0 ANTE 9.37 1.46 14.73 0.38 12.8 0.59 30.74 2.82 11.14 2.04
+18:1 w9c 0.73 0.95 0 0 0 0 0 0 0 0
+18:0 2.2 1.5 3.15 0.31 0.92 0.86 0.82 0.76 0.79 0.78
+Summed 2 0 0 0 0 0 0 0 0 0 0
+Summed 3 0 0 0 0 0 0 0 0 0 0
+Summed 5 0 0 0 0 0 0 0 0 0 0
+megaterium mycoides subtilis thuringiensis A thuringiensis B
+Fatty Acid Peak Mean % SD Mean % SD Mean % SD Mean % SD Mean % SD
+13:0 ISO 0 0 9.61 1.13 0 0 10.12 0.4 8.22 1.35
+14:0 ISO 7.5 0.46 2.18 0.33 0.88 0.23 4.57 0.33 5.12 1.27
+14:0 1.72 0.41 2.97 0.59 0 0 4.21 0.24 3.56 0.46
+15:0 ISO 29.27 6.24 35.44 2.35 24.7 3.94 34.95 1.7 34.76 3
+15:0 ANTE 46.36 6.37 2.43 1.14 36.23 3.82 4.62 0.12 2.74 0.78
+16:1 w7c alcohol 0 0 0.58 0.5 0 0 1.13 0.05 0.55 0.17
+16:0 ISO 1.73 0.62 5.33 0.73 2.68 0.72 5.43 0.24 7.64 1.52
+6
+
+[Table 1 on page 6]
+0	0	1.26	0.09	0	0	0	0	0	0
+3.91	0.62	4.94	0.59	6.22	2.05	3.17	0.36	5.51	0.61
+0	0	4.11	0.88	0	0	2.31	0.61	1.98	1.32
+5.06	1.54	1.58	0.61	6.01	1.12	7.18	0.65	2.12	0.81
+1.6	0.41	0.67	0.26	1.96	0.37	0	0	0	0
+11.57	2.02	9.05	1.84	18.06	5.91	8.48	0.72	9.83	1.47
+2.48	0.76	3.49	0.75	3.54	0.72	0	0	1.77	0.54
+1.16	0.46	1.52	0.21	0.69	0.59	3.35	0.68	4.57	2.37
+1.04	0.44	0.7	0.27	1.72	0.63	1.48	0.62	1.41	0.73
+2.27	0.68	1.02	0.14	2.58	1.39	2.26	0.44	0.86	0.98
+7.99	1.06	4.53	0.53	9.74	4.13	9.42	0.54	5.5	2.07
+0.91	0.42	1.29	0.51	0.57	0.52	1.64	1.08	0.77	0.6
+
+[Table 2 on page 6]
+Mean %	SD	Mean %	SD	Mean %	SD	Mean %	SD	Mean %	SD
+0	0	0	0	0	0	0	0	0	0
+3.62	1.02	0	0	6.88	0.66	0	0	0	0
+2.24	0.79	1.44	0.08	2.94	0.24	0.63	0.6	0	0
+11.33	2.69	6.79	0.11	14.36	0.62	8.15	5.03	39.1	4.46
+53.32	4.17	58.02	0.6	32.04	0.64	45.45	7.24	24.82	2.98
+0	0	0	0	0	0	0	0	0	0
+7.68	3.04	2.06	0.12	10.96	0.34	2.61	1.83	3.33	0.53
+0	0	0	0	0	0	0	0	0.41	0.38
+7.29	1.78	13.81	0.64	14.96	0.39	9.38	1.02	2.97	0.35
+0	0	0	0	0	0	0	0	1.24	0.87
+0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0
+1.3	0.99	0	0	3.4	0.32	1.88	1.74	14.82	2.09
+9.37	1.46	14.73	0.38	12.8	0.59	30.74	2.82	11.14	2.04
+0.73	0.95	0	0	0	0	0	0	0	0
+2.2	1.5	3.15	0.31	0.92	0.86	0.82	0.76	0.79	0.78
+0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0
+
+[Table 3 on page 6]
+Mean %	SD	Mean %	SD	Mean %	SD	Mean %	SD	Mean %	SD
+0	0	9.61	1.13	0	0	10.12	0.4	8.22	1.35
+7.5	0.46	2.18	0.33	0.88	0.23	4.57	0.33	5.12	1.27
+1.72	0.41	2.97	0.59	0	0	4.21	0.24	3.56	0.46
+29.27	6.24	35.44	2.35	24.7	3.94	34.95	1.7	34.76	3
+46.36	6.37	2.43	1.14	36.23	3.82	4.62	0.12	2.74	0.78
+0	0	0.58	0.5	0	0	1.13	0.05	0.55	0.17
+1.73	0.62	5.33	0.73	2.68	0.72	5.43	0.24	7.64	1.52
+
+--- Page 7 ---
+16: w11c 1.63 0.74 1.13 0.98 0.71 0.22 0 0 0 0
+16:0 5.21 0.46 7.82 0.96 3.51 1.31 3.77 0.51 4.85 0.95
+ISO 17:1 w7c 0 0 2.41 2.08 1.6 0.52 3.08 0.14 1.76 0.42
+ISO 17:1 w5c 0 0 1.96 1.34 0 0 3.78 0.21 3.73 0.91
+17:1 ANTE A 0 0 0 0 0 0 0.94 0.04 0.59 0.13
+17:0 ISO 1.35 0.68 11.23 3.72 15.56 2.68 4.58 0.21 9.65 1.52
+17:0 ANTE 2.47 0.48 1.31 0.49 11.85 2.15 0.66 0.33 0.99 0.3
+18:1 w9c 1.55 0.34 2.5 0.6 0 0 0 0 2.54 0.92
+18:0 0.92 0.44 1.62 0.4 0.79 0.53 0 0 0.79 0.2
+Summed 2 0 0 0 0 0 0 2.94 0.11 2.33 0.57
+Summed 3 0 0 6.38 1.65 0 0 12.32 0.27 7.7 0.81
+Summed 5 0 0 1.98 0.71 0 0 0 0 0.84 0.27
+* SD = standard deviation
+N. Instrument Name: Agilent 6850 or 5890 gas chromatographic systems with 25 mm
+capillary columns (0.2mm internal diameter, 0.33 film thickness of 5% phenyl methyl siloxane in
+liquid phase).
+O. System Descriptions:
+1. Modes of Operation: 5% phenyl methyl silicone fused silica capillary column with H
+2
+carrier gas, along with air and N for flame ionization. Injector temperature = 250°C;
+2
+detector = 300°C
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes ____x____ or No ________
+3. Specimen Identification:
+NA
+4. Specimen Sampling and Handling:
+NA
+5. Calibration:
+An external calibration standard is used for each batch
+6. Quality Control:
+7
+
+[Table 1 on page 7]
+5.21	0.46	7.82	0.96	3.51	1.31	3.77	0.51	4.85	0.95
+0	0	2.41	2.08	1.6	0.52	3.08	0.14	1.76	0.42
+0	0	1.96	1.34	0	0	3.78	0.21	3.73	0.91
+0	0	0	0	0	0	0.94	0.04	0.59	0.13
+1.35	0.68	11.23	3.72	15.56	2.68	4.58	0.21	9.65	1.52
+2.47	0.48	1.31	0.49	11.85	2.15	0.66	0.33	0.99	0.3
+1.55	0.34	2.5	0.6	0	0	0	0	2.54	0.92
+0.92	0.44	1.62	0.4	0.79	0.53	0	0	0.79	0.2
+0	0	0	0	0	0	2.94	0.11	2.33	0.57
+0	0	6.38	1.65	0	0	12.32	0.27	7.7	0.81
+0	0	1.98	0.71	0	0	0	0	0.84	0.27
+
+--- Page 8 ---
+For 48 calibration standard determinations, the average SI was 0.998 with a range of
+0.989-1.00. The manufacturer recommends a B. cereus and B. anthracis Sterne as
+control organisms for adequate saponification and methylation of fatty acids, and also for
+correct identification.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+8

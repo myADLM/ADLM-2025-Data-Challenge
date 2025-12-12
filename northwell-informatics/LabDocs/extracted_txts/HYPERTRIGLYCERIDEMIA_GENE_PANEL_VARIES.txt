@@ -1,0 +1,81 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for Hypertriglyceridemia Gene Panel
+1. PURPOSE The purpose of this SOP is to outline the detailed
+procedure for conducting the Hypertriglyceridemia Gene Panel
+analysis. This includes steps for DNA extraction, library
+preparation, sequencing, data analysis, and result generation.
+The aim is to ensure accurate, reliable and timely diagnosis of
+hypertriglyceridemia resulting from genetic mutations.
+2. RESPONSIBILITY
+◦ Laboratory personnel performing the analysis are
+responsible for adherence to this SOP.
+◦ The lab supervisor is responsible for ensuring compliance,
+overseeing the workflow, and addressing any issues or
+discrepancies that arise during the analysis.
+3. DEFINITIONS
+◦ Hypertriglyceridemia: A condition characterized by elevated
+levels of triglycerides in the blood.
+◦ Gene Panel: A set of genes associated with a particular
+condition that are analyzed together.
+◦ DNA Library: A collection of DNA fragments prepared for
+sequencing.
+◦ Next-Generation Sequencing (NGS): A high-throughput
+method used to determine the sequence of nucleotides in
+DNA.
+4. PROCEDURE
+A. Sample Preparation
+◦ DNA Extraction:
+1. Extract genomic DNA from the patients' blood or other
+provided specimen using the laboratory’s standard
+extraction method.
+2. Quantify DNA using a fluorometric method (e.g.,
+Qubit).
+3. Assess purity using a spectrophotometer (e.g.,
+NanoDrop).
+4. Store DNA at -20°C until further processing.
+B. Library Preparation 1. Prepare the DNA library using a
+commercially available kit designed for NGS, following the
+manufacturer’s instructions. 2. Perform library quantification
+and quality control using an appropriate method (e.g.,
+Bioanalyzer, TapeStation). 3. If necessary, normalize the library
+concentration to ensure uniform sample loading on the
+sequencer.
+C. Sequencing 1. Load the prepared library into the
+sequencing instrument (e.g., Illumina MiSeq, NextSeq). 2. Run
+sequencing according to the instrument’s operational protocol.
+D. Data Analysis 1. Use on-instrument software for initial data
+processing. 2. Transfer the sequencing data to bioinformatics
+pipelines for comprehensive analysis. 3. Perform quality control
+checks on raw data to assess read depth, base quality, and
+other relevant metrics. 4. Align reads to the reference genome.
+5. Call variants using appropriate software (e.g., GATK,
+VarDict). 6. Annotate variants using databases such as ClinVar,
+HGMD, and others.
+E. Result Interpretation 1. Review and interpret the variant
+data in the context of known associations with
+hypertriglyceridemia. 2. If necessary, validate key findings using
+an independent method such as Sanger sequencing.
+F. Result Reporting 1. Generate a comprehensive report
+detailing the genetic findings and their clinical significance. 2.
+Double-check the report for accuracy and completeness. 3.
+Inform the ordering physician of the availability of the results. 4.
+Include recommendations for follow-up testing or clinical
+consultation if needed.
+5. QUALITY CONTROL
+◦ Regularly perform quality control steps such as running
+known control samples to ensure accuracy of the
+sequencing and data analysis processes.
+◦ Document all quality control procedures and outcomes, and
+address any discrepancies.
+6. REFERENCES
+◦ Manufacturer protocols for DNA extraction kits, library
+preparation kits, and sequencing instruments.
+◦ Bioinformatics software manuals and guidelines.
+◦ Relevant clinical guidelines and literature for interpreting
+hypertriglyceridemia-associated variants.
+Note: Always adhere to relevant Laboratory Safety Guidelines and
+ensure compliance with Clinical Laboratory Improvement
+Amendments (CLIA) regulations.
+Reviewed and Approved by: __________________
+Signature: __________________ Date: _______________
+(Laboratory Director/Supervisor)

@@ -1,0 +1,137 @@
+Standard Operating Procedures (SOPs) for Platelet Disorders,
+Comprehensive Gene Panel, Next-Generation Sequencing:
+Analytical Phase
+1. PURPOSE
+The purpose of this SOP is to provide detailed instructions for
+performing Next-Generation Sequencing (NGS) for the detection of
+variants in a comprehensive gene panel associated with platelet
+disorders. This ensures consistent, accurate, and reliable results.
+2. SCOPE
+This procedure applies to the analysis phase of the NGS workflow for
+platelet disorders, following the completion of specimen collection,
+receipt, and accessioning. It is intended for all laboratory personnel
+trained in NGS protocols and genomic data analysis.
+3. RESPONSIBILITIES
+• Laboratory Technologists: Perform NGS library preparation,
+sequencing, and initial data analysis.
+• Bioinformaticians: Conduct secondary and tertiary data analyses,
+including variant calling and annotation.
+• Laboratory Directors/Supervisors: Review and approve final
+results, ensure compliance with quality control standards, and
+oversee troubleshooting.
+4. DEFINITIONS
+• NGS (Next-Generation Sequencing): A high-throughput method
+used to determine the sequence of nucleotides in DNA.
+• Gene Panel: A test that examines multiple genes simultaneously
+for mutations.
+• PLATELET DISORDERS: A group of genetic conditions affecting
+platelet function and production.
+• QC (Quality Control): Procedures to ensure the accuracy and
+precision of testing.
+• Analytical Phase: The stage in laboratory testing where actual
+analysis of specimen data is carried out.
+5. PROCEDURE
+5.1 Library Preparation
+1. DNA Extraction:
+◦ Extract high-quality genomic DNA from blood samples using
+a validated extraction kit.
+◦ Quantify DNA using a Qubit fluorometer and assess purity
+using a NanoDrop spectrophotometer.
+2. DNA Fragmentation:
+◦ Fragment DNA using enzymatic or mechanical shearing to
+the target size.
+◦ Check fragment size distribution using an Agilent
+Bioanalyzer or similar instrument.
+3. End-Repair, A-tailing, and Adapter Ligation:
+◦ Perform end-repair, A-tailing, and ligation of sequencing
+adapters according to the library preparation kit's
+instructions.
+◦ Purify adapter-ligated DNA using AMPure XP beads.
+4. Library Amplification and Cleanup:
+◦ Amplify the library using PCR and purify the amplified
+product with AMPure XP beads.
+◦ Assess library quality using an Agilent Bioanalyzer or
+TapeStation.
+5.2 Sequencing
+1. Library Quantification:
+◦ Quantify the library using a quantitative PCR (qPCR)
+method.
+◦ Normalize libraries to the required concentration for
+sequencing.
+2. Flow Cell Loading and Sequencing:
+◦ Load the normalized library onto the sequencing flow cell
+and run on the appropriate NGS platform (e.g., Illumina, Ion
+Torrent).
+◦ Follow the manufacturer's protocols for sequencing.
+3. Sequencing QC:
+◦ Monitor the sequencing run for quality metrics such as
+cluster density, Q30 scores, and overall yield.
+◦ Perform troubleshooting if any metrics fall outside
+acceptable ranges.
+5.3 Data Analysis
+1. Primary Data Analysis:
+◦ Convert raw sequencing data (BCL files) to FASTQ files
+using the sequencer's base-calling software.
+◦ Perform initial quality control checks on FASTQ files using
+tools such as FastQC.
+2. Alignment and Variant Calling:
+◦ Align FASTQ reads to the human reference genome (hg19/
+hg38) using an alignment tool such as BWA or Bowtie2.
+◦ Sort, index, and remove duplicates from aligned reads using
+SAMtools and Picard tools.
+3. Variant Calling:
+◦ Call variants using a variant caller such as GATK
+HaplotypeCaller, FreeBayes, or VarScan.
+◦ Annotate variants using a tool like ANNOVAR or SnpEff.
+4. Variant Filtering and Interpretation:
+◦ Filter variants based on allele frequency, read depth, and
+quality scores.
+◦ Classify variants using guidelines from sources like the
+ACMG (American College of Medical Genetics and
+Genomics).
+5.4 Quality Control
+1. Internal QC:
+◦ Include positive and negative controls in each batch of
+sequencing to monitor for contamination and technical
+variability.
+◦ Reanalyze a subset of samples periodically to assess
+reproducibility and accuracy.
+2. Review and Validation:
+◦ Have a secondary technologist or bioinformatician review
+the data analysis and interpretation.
+◦ Confirm significant or unexpected variants using an
+orthogonal method such as Sanger sequencing.
+5.5 Reporting Results
+1. Report Generation:
+◦ Prepare a comprehensive report including identified
+variants, their clinical significance, and relevant
+interpretative comments.
+◦ Include information on the quality of the sequencing run and
+any limitations of the test.
+2. Result Verification:
+◦ Have the laboratory director or a designated supervisor
+review and approve the final report.
+◦ Ensure that reports are communicated to the ordering
+physician or directly input into the laboratory information
+system (LIS).
+3. Record Keeping:
+◦ Maintain thorough records of all steps in the analytical
+phase, including raw data, intermediate files, and final
+reports, for a specified retention period.
+6. REFERENCES
+• Manufacturer's manuals and guides for NGS instruments and
+library preparation kits.
+• ACMG guidelines for the interpretation of sequence variants.
+• Bioinformatics tools documentation (e.g., BWA, GATK, FastQC).
+• Relevant peer-reviewed literature on platelet disorders and NGS
+methodologies.
+7. APPENDICES
+• Appendix A: Detailed protocols for troubleshooting issues in
+library preparation and sequencing.
+• Appendix B: Sample data analysis command scripts and
+workflows.
+• Appendix C: QC checklists and acceptance criteria for each stage
+of the analytical process.
+8. REVISION HISTORY
+• Revision 1.0: Initial creation, October 2023.
+End of Document.

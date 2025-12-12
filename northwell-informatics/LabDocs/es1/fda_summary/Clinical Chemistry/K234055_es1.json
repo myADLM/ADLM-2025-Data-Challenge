@@ -1,0 +1,54 @@
+{
+    "Trade/Device Name(s)": [
+        "DEKA Loop"
+    ],
+    "Submitter Information": "DEKA Research & Development",
+    "510(k) Number": "K234055",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "K203689"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "QJI"
+    ],
+    "Summary Letter Date": "March 13, 2024",
+    "Summary Letter Received Date": "December 22, 2023",
+    "Submission Date": "February 29, 2024",
+    "Regulation Number(s)": [
+        "21 CFR 862.1356"
+    ],
+    "Regulation Name(s)": [
+        "Interoperable Automated Glycemic Controller"
+    ],
+    "Analyte Class(es)": [
+        "chemistry",
+        "endocrine"
+    ],
+    "Analyte(s)": [
+        "Glucose"
+    ],
+    "Specimen Type(s)": [],
+    "Specimen Container(s)": [],
+    "Instrument(s)/Platform(s)": [
+        "DEKA ACE Pump System",
+        "iPhone (for app interface)",
+        "Compatible integrated continuous glucose monitor (iCGM)",
+        "Alternate Controller Enabled (ACE) insulin infusion pump"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Hybrid closed loop predictive control algorithm",
+        "Software as a Medical Device (SaMD)"
+    ],
+    "Methodologies": [
+        "Predictive glucose monitoring",
+        "Insulin delivery algorithm"
+    ],
+    "Submission Type(s)": [
+        "Software",
+        "System",
+        "Accessory"
+    ],
+    "Document Summary": "FDA 510(k) summary for DEKA Loop interoperable automated glycemic controller software for automated insulin delivery with compatible iCGM and ACE pumps.",
+    "Indications for Use Summary": "Intended for management of type 1 diabetes mellitus in persons six years and older using compatible integrated CGMs and ACE pumps to automatically adjust basal insulin and recommend/deliver correction boluses when glucose is predicted to exceed configurable thresholds; single patient use, prescription only.",
+    "fda_folder": "Clinical Chemistry"
+}

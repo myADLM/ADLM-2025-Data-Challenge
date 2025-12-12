@@ -1,0 +1,2755 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION MEMORANDUM
+A. 510(k) Number:
+K171315
+B. Purpose for Submission:
+Seeking clearance for Advanced RBC Application, an optional software module delivered
+with the CellaVision DM96 and DM1200 systems
+C. Manufacturer and Instrument Name:
+CellaVision AB; CellaVision DM96 and DM1200 with Advanced RBC Application
+D. Type of Test or Tests Performed:
+White blood cell (WBC) differential, red blood cell (RBC) characterization, and platelet
+estimation
+E. System Descriptions:
+1. DeviceDescription:
+CellaVision DM96 and DM1200 Systems
+The CellaVision DM96 and DM1200 (hereafter DM systems) both consist of a slide
+scanning unit (SSU) and a computer system. The SSU consists of a microscope, camera
+and a slide feeder unit; whereas the computer system contains the acquisition and
+classification software–CellaVision DM Software (CDMS). The DM96 and DM1200
+perform the following functionalities:
+· Scan a user-defined area on a slide
+· Locate and present images of every located cell or object found on the smear
+· Store images and results in a database
+· Present an overview image of a user-defined area on a slide
+· Create digital slides
+Advanced RBC Application
+The Advanced RBC Application is an optional software module of the CellaVision DM
+Software (CDMS) that replaces the existing (standard) RBC functionality of the
+CellaVision DM Software installed on the CellaVision DM96 and DM1200. General
+functionality of the Advanced RBC Application includes:
+1
+
+--- Page 2 ---
+· Present and suggest 21 morphological characteristics in an overview image of red
+blood cells on a screen
+· Allow operators to confirm or modify the pre-characterization of the red blood
+cell morphology
+· Organize, present, and suggest a morphology for every individual red blood cell
+image on a screen
+· Allow operators to confirm or modify the suggested classification of the red blood
+cells
+The results for the red blood cells (RBCs) are presented as absolute cell counts and
+proportional counts and classified according to the user-predefined 4-grade scale for each
+morphological characteristic.
+The major difference between the standard RBC functionality and the Advanced RBC
+Application is that the Advanced RBC Application pre-characterizes RBCs based on size,
+color, shape, and inclusion using trained artificial neural networks (ANNs) into 21
+morphological characteristics whereas the standard RBC functionality pre-characterizes
+into six morphological characteristics and does not have trained artificial neural networks
+(ANNs). Additionally, with the Advanced RBC Application, pre-characterized RBCs are
+displayed individually and in an overview screen image whereas the standard RBC
+functionality displays an overview screen image only.
+2. Principles of Operation:
+Patient blood smears are wedged and stained outside the device on standard rectangular
+glass slides by standardized staining methods provided in the labeling. Prepared slides
+are coded with a barcode label and placed in a barcode-labeled magazine, which is then
+loaded into the DM system. The DM system identifies the barcode on the magazines and
+the slides. The DM system requests order information from the Laboratory Information
+System, using the slide barcode information. If the DM System cannot communicate
+with the LIS, it defines the type of analysis from the information given by the barcode on
+the magazine and the predefined analysis settings. When a red blood cell image is
+ordered, an overview image is captured. The Advanced RBC Application pre-
+characterizes the RBCs into 21 different morphological characteristics and calculates the
+relative percentage of distribution for each characteristic. Based on the relative
+percentages, a grade (0–3) is suggested for each characteristic. The operator views the
+overview or a panel of individual cell images and either verifies the results or performs a
+manual re-characterization. The operator can also re-characterize each cell into 10
+different user defined morphology characteristics. The operator also has the capability of
+viewing the cells automatically excluded from analysis. A summary of the red blood cell
+analysis is presented. The operator signs the slide result with user name and password.
+The results can be sent to the LIS and/or be printed.
+2
+
+--- Page 3 ---
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ____X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ____X____
+4. Specimen Identification:
+The device requires barcode labeled slides for processing.
+5. Specimen Sampling and Handling:
+A peripheral blood sample collected in K EDTA or K EDTA tubes is mixed manually by
+2 3
+inversion. A thin blood film is wedged on a clean dry glass slide (a blood smear) and
+stained with Romanowsky stain. Body fluid samples are centrifuged onto a glass slide
+and stained with Romanowsky stain. The slide preparation occurs separately from the
+device.
+6. Calibration:
+Not applicable
+7. Quality Control:
+A cell location test is used to verify the slide preparation process and integrity of the
+system hardware. In addition, the device performs self-tests during the software startup,
+and at certain points (e.g. slide processing) during the operation of the system.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes ___X___ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.5260
+3
+
+--- Page 4 ---
+2. Classification:
+Class II
+3 Product code:
+JOY
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+CellaVision DM1200
+The CellaVision DM1200 with the Advanced RBC Application is an automated cell-
+locating device, intended for in-vitro diagnostic use.
+The CellaVision DM1200 with the Advanced RBC Application automatically locates and
+presents images of blood cells on peripheral blood smears. The operator identifies and
+verifies the suggested classification of each cell according to type.
+The CellaVision DM1200 with the Advanced RBC Application is intended for blood
+samples that have been flagged as abnormal by an automated cell counter.
+The CellaVision DM1200 with the Advanced RBC Application is intended to be used by
+skilled operators, trained in the use of the device and in recognition of blood cells.
+CellaVision DM96
+The CellaVision DM96 with the Advanced RBC Application is an automated cell-
+locating device, intended for in-vitro diagnostic use.
+The CellaVision DM96 with the Advanced RBC Application automatically locates and
+presents images of blood cells on peripheral blood smears. The operator identifies and
+verifies the suggested classification of each cell according to type.
+The CellaVision DM96 with the Advanced RBC Application is intended for blood
+samples that have been flagged as abnormal by an automated cell counter.
+The CellaVision DM96 with the Advanced RBC Application is intended to be used by
+skilled operators, trained in the use of the device and in recognition of blood cells.
+4
+
+--- Page 5 ---
+2. Special Conditions for Use Statement(s):
+For prescription use only
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Manual Light Microscope with a Romanowsky stain, Class I Exempt
+CellaVision DM96; K033840
+CellaVision DM1200 Automated Hematology Analyzer; K092868
+2. Comparison with Predicate Device:
+CellaVision DM96 and DM1200 with Advanced RBC Application have the same
+similarities and differences with respect to the items outlined in the comparison tables
+below. The comparison tables are completed with representative data from CellaVision
+DM1200 with Advanced RBC Application.
+Similarities
+CellaVision® DM1200 Manual light
+CellaVision DM1200 with
+Item Automated Hematology microscopy with
+Advanced RBC Application
+Analyzer Romanowsky stain
+Intended use DM1200 with the Advanced DM1200is an automated Manual method for cell-
+RBC Application is an cell-locating device. locating and
+automated cell-locating identification of red
+DM1200automatically
+device, intended for in-vitro blood cells from
+locates and presents images
+diagnostic use. peripheral blood smears.
+of blood cells on peripheral
+DM1200 with the Advanced blood smears. The operator Verification of results
+RBC Application identifies and verifies the by skilled human
+automatically locates and suggested classification of operator.
+presents images of blood each cell according to type.
+cells on peripheral blood
+DM1200is intended to be
+smears. The operator
+used by skilled operators,
+identifies and verifies the
+trained in the use of the
+suggested classification of
+device and in recognition
+each cell according to type.
+of blood cells.
+DM1200 with the Advanced
+RBC Application is intended
+for blood samples that have
+been flagged as abnormal by
+an automated cell counter.
+DM1200 with the Advanced
+RBC Application is intended
+to be used by skilled
+5
+
+[Table 1 on page 5]
+Similarities							
+Item	CellaVision DM1200 with
+Advanced RBC Application		CellaVision® DM1200			Manual light	
+			Automated Hematology			microscopy with	
+			Analyzer			Romanowsky stain	
+Intended use	DM1200 with the Advanced
+RBC Application is an
+automated cell-locating
+device, intended for in-vitro
+diagnostic use.
+DM1200 with the Advanced
+RBC Application
+automatically locates and
+presents images of blood
+cells on peripheral blood
+smears. The operator
+identifies and verifies the
+suggested classification of
+each cell according to type.
+DM1200 with the Advanced
+RBC Application is intended
+for blood samples that have
+been flagged as abnormal by
+an automated cell counter.
+DM1200 with the Advanced
+RBC Application is intended
+to be used by skilled	DM1200is an automated
+cell-locating device.
+DM1200automatically
+locates and presents images
+of blood cells on peripheral
+blood smears. The operator
+identifies and verifies the
+suggested classification of
+each cell according to type.
+DM1200is intended to be
+used by skilled operators,
+trained in the use of the
+device and in recognition
+of blood cells.			Manual method for cell-
+locating and
+identification of red
+blood cells from
+peripheral blood smears.
+Verification of results
+by skilled human
+operator.		
+
+[Table 2 on page 5]
+CellaVision DM1200 with
+Advanced RBC Application
+
+--- Page 6 ---
+Similarities
+CellaVision® DM1200 Manual light
+CellaVision DM1200with
+Item Automated Hematology microscopy with
+Advanced RBC Application
+Analyzer Romanowsky stain
+operators, trained in the use
+of the device and in
+recognition of blood cells.
+Specimen type Peripheral blood Peripheral blood Peripheral blood
+Sample Romanowsky stained blood Romanowsky stained Romanowsky stained
+preparation film on glass slides of blood film on glass slides peripheral blood film
+peripheral whole blood. of peripheral whole blood. on glass slides.
+Differences
+Item DM1200 with Advanced CellaVision® DM1200 Manual light
+RBC Application Automated Hematology microscopic process
+Analyzer
+Analysis The device presents an The device presents an The examiners
+technique overview image. overview image. manually characterize
+The cell images are pre- The cell images are pre- red blood cell
+characterized into 21 characterized into 6 morphology based on
+different morphological different morphological size, color, shape and
+characteristics based on characteristics based on inclusion.
+size, color, shape and size,color and shape using
+inclusion using segmentation, feature
+segmentation, feature calculation and
+calculation and the classification (decision
+deterministic artificial tree):
+neural networks (ANNs) -Polychromatic cells;
+trained to distinguish -Hypochromatic cells;
+between morphology -Anisocytosis;
+characteristics of red blood -Microcytes;
+cells: -Macrocytes; and
+- Polychromatic cells; - Poikilocytosis.
+- Hypochromatic cells;
+The operator can further
+- Anisocytosis;
+characterize into 10
+- Microcytes;
+morphology
+- Macrocytes;
+characteristics:
+- Poikilocytosis;
+The operator verifies the
+- Target cells;
+suggested morphological
+- Schistocytes;
+characteristics by
+- Helmet cells;
+accepting or re-
+- Sickle cells;
+characterizing
+- Spherocytes;
+- Elliptocytes;
+- Ovalocytes;
+- Tear drop cells;
+- Stomatocytes;
+- Acanthocytes;
+- Echinocytes;
+- Howell-Jolly bodies;
+6
+
+[Table 1 on page 6]
+Similarities							
+Item	CellaVision DM1200with
+Advanced RBC Application		CellaVision® DM1200			Manual light	
+			Automated Hematology			microscopy with	
+			Analyzer			Romanowsky stain	
+	operators, trained in the use
+of the device and in
+recognition of blood cells.						
+Specimen type	Peripheral blood	Peripheral blood			Peripheral blood		
+Sample
+preparation	Romanowsky stained blood
+film on glass slides of
+peripheral whole blood.	Romanowsky stained
+blood film on glass slides
+of peripheral whole blood.			Romanowsky stained
+peripheral blood film
+on glass slides.		
+
+[Table 2 on page 6]
+CellaVision DM1200with
+Advanced RBC Application
+
+[Table 3 on page 6]
+Differences					
+Item	DM1200 with Advanced
+RBC Application		CellaVision® DM1200		Manual light
+microscopic process
+			Automated Hematology		
+			Analyzer		
+Analysis
+technique	The device presents an
+overview image.
+The cell images are pre-
+characterized into 21
+different morphological
+characteristics based on
+size, color, shape and
+inclusion using
+segmentation, feature
+calculation and the
+deterministic artificial
+neural networks (ANNs)
+trained to distinguish
+between morphology
+characteristics of red blood
+cells:
+- Polychromatic cells;
+- Hypochromatic cells;
+- Anisocytosis;
+- Microcytes;
+- Macrocytes;
+- Poikilocytosis;
+- Target cells;
+- Schistocytes;
+- Helmet cells;
+- Sickle cells;
+- Spherocytes;
+- Elliptocytes;
+- Ovalocytes;
+- Tear drop cells;
+- Stomatocytes;
+- Acanthocytes;
+- Echinocytes;
+- Howell-Jolly bodies;	The device presents an
+overview image.
+The cell images are pre-
+characterized into 6
+different morphological
+characteristics based on
+size,color and shape using
+segmentation, feature
+calculation and
+classification (decision
+tree):
+-Polychromatic cells;
+-Hypochromatic cells;
+-Anisocytosis;
+-Microcytes;
+-Macrocytes; and
+- Poikilocytosis.
+The operator can further
+characterize into 10
+morphology
+characteristics:
+The operator verifies the
+suggested morphological
+characteristics by
+accepting or re-
+characterizing			The examiners
+manually characterize
+red blood cell
+morphology based on
+size, color, shape and
+inclusion.
+
+[Table 4 on page 6]
+DM1200 with Advanced
+RBC Application
+
+[Table 5 on page 6]
+Manual light
+microscopic process
+
+--- Page 7 ---
+Differences
+Item DM1200 with Advanced CellaVision® DM1200 Manual light
+RBC Application Automated Hematology microscopic process
+Analyzer
+- Pappenheimer bodies;
+- Basophilic stippling; and
+- Parasites.
+The operator can further
+characterize into 10 user
+defined characteristics.
+The operator verifies the
+suggested morphological
+characteristics by accepting
+or re-characterizing.
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI EP05-A3 Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline –Third Edition
+CLSI EP12-A2 User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline –Second Edition
+CLSI EP17-A2 Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition
+CLSI H20-A2 Reference Leukocyte Differential Count (Proportional) and Evaluation of
+Instrumental Method; Approved Standard – Second Edition
+General Principles of Software Validation; Final Guidance for industry and FDA Staff,
+January 11, 2002
+Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices, May 11, 2005
+In Vitro Diagnostic devices: Guidance for the Preparation of 510(k) Submissions, Food and
+Drug Administration, January 1997
+Guidance for Industry, FDA Reviewer and Compliance on Off-The-Shelf Use in Medical
+Device, September 9, 1999
+Guidance for Industry – Cybersecurity for Networked Medical Devices Containing Off-the-
+Shelf (OTS) Software, January 14, 2005
+Content of Premarket Submissions for Management of Cybersecurity in Medical Devices,
+October 2, 2014
+7
+
+[Table 1 on page 7]
+Differences					
+Item	DM1200 with Advanced
+RBC Application		CellaVision® DM1200		Manual light
+microscopic process
+			Automated Hematology		
+			Analyzer		
+	- Pappenheimer bodies;
+- Basophilic stippling; and
+- Parasites.
+The operator can further
+characterize into 10 user
+defined characteristics.
+The operator verifies the
+suggested morphological
+characteristics by accepting
+or re-characterizing.				
+
+[Table 2 on page 7]
+DM1200 with Advanced
+RBC Application
+
+[Table 3 on page 7]
+Manual light
+microscopic process
+
+--- Page 8 ---
+Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests, March
+13, 2007
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+Method comparison studies were performed at five clinical sites including two U.S. sites
+and three sites outside the U.S. The Advanced RBC Application on CellaVision DM96
+and CellaVision DM1200 was compared with manual microscopy (reference method)
+and results from automated differential cell counters. An automated differential cell
+counter was used at four of the five clinical sites to characterize the RBC size (i.e.,
+macrocytes, microcytes, or anisocytosis). At three of the five sites both the automated
+differential cell counter and manual microscopy were used for the comparison study. At
+the remaining two sites, one site used manual microscopy as the comparison method and
+the other site used the cell counter method as the comparison method to evaluate group
+size. For one of the five sites, an expert operator reviewed all images and then judged the
+morphology for each class by overriding (or confirming) the suggested grading. The
+results for the remaining sites were achieved by re-characterization of individual cell
+images into appropriate cell characteristics, thereby altering the suggested grading. At
+each study site, venous whole blood was collected in K EDTA Vacutainer tubes. From
+3
+each sample one slide was prepared. A total of 1598 samples were collected and tested
+for RBC characterization on DM96 and DM1200 at five different laboratories. The study
+population consisted of 47.3% males and 52.4% females including pediatric (i.e.
+neonates, infants, children, and adolescents) and adult subjects up to 101 years of age.
+The gender for 0.3% of the study population (5 samples) was reported as unknown. In
+addition to healthy individuals, subjects with the following clinical conditions were
+included in the studies: iron deficiency anemia, thalassemia, megaloblastic anemia,
+myelodysplastic syndrome (including sideroblastic anemia and myelofibrosis), hemolytic
+anemia, sickle cell anemia, disseminated intravascular coagulation, thrombotic
+microangiopathy (thrombotic thrombocytopenic purpura , hemolytic uremic syndrome ),
+post-splenectomy and malaria.
+The evaluation was divided into two parts, a primary evaluation at group level and a
+secondary evaluation for individual morphologies. The secondary evaluation was in turn
+divided into two sub-levels as described below:
+· Primary evaluation of the groups color, size, shape and inclusions
+· Secondary evaluation of individual morphologies:
+Ø Part 1: Evaluation of the group of clinically significant morphologies and
+parasites: schistocytes (+helmet cells), target cells, sickle cells, tear drop cells
+and parasites.
+Ø Part 2: Evaluation of the remaining individual morphologies: polychromatic
+cells, hypochromatic cells, anisocytosis, microcytes, macrocytes,
+8
+
+--- Page 9 ---
+poikilocytosis, spherocytes, elliptocytes, ovalocytes, stomatocytes,
+acanthocytes, echinocytes, Howell-Jolly bodies, Pappenheimer bodies and
+basophilic stippling.
+To determine agreement between the Advanced RBC Application and manual
+microscopy reference method, the efficiency, analytical sensitivity and analytical
+specificity were calculated along with the 95% confidence intervals for color, size and
+shape. Comparison between the DM system with Advanced RBC Application and the
+automated differential cell counter method for size was provided as overall agreement,
+positive percent agreement (PPA) and negative percent agreement (NPA) along with the
+95% confidence interval. The results met the predefined acceptance criteria.
+Primary evaluation on group level – all sites
+Efficiency Sensitivity Specificity
+Morphological group N
+(95% CI) (95% CI) (95% CI)
+87.7% 82.1% 90.5%
+Color 1181
+(85.7% - 89.5%) (78.0% - 85.6%) (88.3% - 92.4%)
+88.5% 86.6% 89.9%
+Shape 1181
+(86.5% - 90.2%) (83.3% - 89.3%) (87.4% - 91.9%)
+94.4% 87.1% 95.3%
+Inclusion 1181
+(93.0% - 95.6%) (80.3% - 91.8%) (93.9% - 96.4%)
+Overall agreement PPA NPA
+Morphological group N
+(95% CI) (95% CI) (95% CI)
+81.3% 80% 82.9%
+Size1 948
+(78.7% - 83.7%) (76.3% - 83.2%) (79.1% - 86.2%)
+1Data from site #1 not included because manual microscopy was used at this site.
+Summary of Secondary Evaluations – clinically significant morphologies –all sites
+Efficiency Sensitivity Specificity
+Morphological group N
+(95% CI) (95% CI) (95% CI)
+Clinically significant 90.6% 85% 93.6%
+1181
+morphologies + Parasites (88.8% - 92.1%) (81.3% - 88.1%) (91.7% - 95.1%)
+b. Precision/Reproducibility:
+Precision performance using the Advanced RBC Application on CellaVision DM96
+and CellaVision DM1200 was evaluated by performing repeatability and
+reproducibility studies across three clinical laboratories.
+Repeatability
+The repeatability study was performed at three clinical laboratories. The samples
+included both normal and elevated levels for each of the 21 RBC morphological
+characteristics included in the Advanced RBC Application. At two of the three sites,
+six samples were run on DM96 and seven samples were run on DM1200,
+respectively. At the third site, seven samples were run on DM96 and eight samples
+9
+
+[Table 1 on page 9]
+	N			
+		Efficiency	Sensitivity	Specificity
+Morphological group				
+		(95% CI)	(95% CI)	(95% CI)
+				
+				
+Color	1181	87.7%
+(85.7% - 89.5%)	82.1%
+(78.0% - 85.6%)	90.5%
+(88.3% - 92.4%)
+Shape	1181	88.5%
+(86.5% - 90.2%)	86.6%
+(83.3% - 89.3%)	89.9%
+(87.4% - 91.9%)
+Inclusion	1181	94.4%
+(93.0% - 95.6%)	87.1%
+(80.3% - 91.8%)	95.3%
+(93.9% - 96.4%)
+
+[Table 2 on page 9]
+	N			
+		Overall agreement	PPA	NPA
+Morphological group				
+		(95% CI)	(95% CI)	(95% CI)
+				
+				
+Size1	948	81.3%
+(78.7% - 83.7%)	80%
+(76.3% - 83.2%)	82.9%
+(79.1% - 86.2%)
+
+[Table 3 on page 9]
+	Efficiency
+(95% CI)	Sensitivity	Specificity
+N			
+		(95% CI)	(95% CI)
+			
+1181	90.6%
+(88.8% - 92.1%)	85%
+(81.3% - 88.1%)	93.6%
+(91.7% - 95.1%)
+
+--- Page 10 ---
+were run on DM1200. From each sample, two slides were prepared as replicates.
+Slides were run two times a day with two replicates per run for 20 days on both
+DM96 and DM1200. The study was designed to provide repeatability data for both
+qualitative results (e.g. grade 0, 1, 2 and 3) and quantitative results (e.g. proportional
+count) for each morphological characteristic. The grading agreement was calculated
+for each slide and for each sample by determining the relation between the occurrence
+of true grade and the total number of runs for each morphological characteristic. The
+results met the predefined acceptance criteria. Representative data from one site is
+presented below.
+Summary of the repeatability data for each of the 21 RBC morphological
+characteristics obtained using CellaVision DM96 with the Advanced RBC
+Application
+Polychromatic cells
+Sample Grade
+True grade Agreement
+ID 0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 1 79 0 0 1 99%
+ReT43 68 12 0 0 0 85%
+ReT44 35 45 0 0 1 56%
+ReT45 0 0 80 0 2 100%
+ReT46 0 80 0 0 1 100%
+Hypochromatic Cells
+Sample Grade
+True grade Agreement
+ID 0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 80 0 0 0 0 100%
+ReT45 80 0 0 0 0 100%
+ReT46 30 50 0 0 1 63%
+Anisocytosis
+Sample Grade
+True grade Agreement
+ID 0 1 2 3
+ReT41 80 0 0 100% 0 100%
+ReT42 0 80 0 100% 1 100%
+ReT43 0 30 50 63% 2 63%
+ReT44 0 80 0 100% 1 100%
+ReT45 0 0 36 55% 3 55%
+ReT46 31 49 0 61% 1 61%
+10
+
+[Table 1 on page 10]
+Sample	Grade					
+					True grade	Agreement
+ID	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	1	79	0	0	1	99%
+ReT43	68	12	0	0	0	85%
+ReT44	35	45	0	0	1	56%
+ReT45	0	0	80	0	2	100%
+ReT46	0	80	0	0	1	100%
+
+[Table 2 on page 10]
+Sample	Grade					
+					True grade	Agreement
+ID	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	80	0	0	0	0	100%
+ReT45	80	0	0	0	0	100%
+ReT46	30	50	0	0	1	63%
+
+[Table 3 on page 10]
+Sample	Grade					
+					True grade	Agreement
+ID	0	1	2	3		
+						
+ReT41	80	0	0	100%	0	100%
+ReT42	0	80	0	100%	1	100%
+ReT43	0	30	50	63%	2	63%
+ReT44	0	80	0	100%	1	100%
+ReT45	0	0	36	55%	3	55%
+ReT46	31	49	0	61%	1	61%
+
+--- Page 11 ---
+Microcytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 0 80 0 0 1 100%
+ReT43 80 0 0 0 0 100%
+ReT44 69 11 0 0 0 86%
+ReT45 80 0 0 0 0 100%
+ReT46 0 80 0 0 1 100%
+Macrocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 0 0 0 80 3 100%
+ReT44 16 64 0 0 1 80%
+ReT45 0 0 80 0 2 100%
+ReT46 80 0 0 0 0 100%
+Poikilocytosis
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 0 80 0 0 1 100%
+ReT42 0 0 80 0 2 100%
+ReT43 0 80 0 0 1 100%
+ReT44 0 19 61 0 2 76%
+ReT45 0 79 1 0 1 99%
+ReT46 0 0 80 0 2 100%
+Target cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 0 80 0 0 1 100%
+ReT44 80 0 0 0 0 100%
+ReT45 6 74 0 0 1 93%
+ReT46 80 0 0 0 0 100%
+SchistocytesΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 71 9 0 0 0 89%
+ReT45 0 80 0 0 1 100%
+ReT46 80 0 0 0 0 100%
+11
+
+[Table 1 on page 11]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	0	80	0	0	1	100%
+ReT43	80	0	0	0	0	100%
+ReT44	69	11	0	0	0	86%
+ReT45	80	0	0	0	0	100%
+ReT46	0	80	0	0	1	100%
+
+[Table 2 on page 11]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	0	0	0	80	3	100%
+ReT44	16	64	0	0	1	80%
+ReT45	0	0	80	0	2	100%
+ReT46	80	0	0	0	0	100%
+
+[Table 3 on page 11]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	0	80	0	0	1	100%
+ReT42	0	0	80	0	2	100%
+ReT43	0	80	0	0	1	100%
+ReT44	0	19	61	0	2	76%
+ReT45	0	79	1	0	1	99%
+ReT46	0	0	80	0	2	100%
+
+[Table 4 on page 11]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	0	80	0	0	1	100%
+ReT44	80	0	0	0	0	100%
+ReT45	6	74	0	0	1	93%
+ReT46	80	0	0	0	0	100%
+
+[Table 5 on page 11]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	71	9	0	0	0	89%
+ReT45	0	80	0	0	1	100%
+ReT46	80	0	0	0	0	100%
+
+--- Page 12 ---
+Helmet cellsΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 77 3 0 0 0 96%
+ReT44 80 0 0 0 0 100%
+ReT45 79 1 0 0 0 99%
+ReT46 80 0 0 0 0 100%
+Schistocytes+Helmet cellsΨ
+Sample Grade
+True grade Agreement
+ID 0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 60 20 0 0 0 75%
+ReT43 58 22 0 0 0 73%
+ReT44 34 46 0 0 1 58%
+ReT45 0 77 3 0 1 96%
+ReT46 80 0 0 0 0 100%
+ΨHelmet cells can be relevant if Schistocytes are present in the sample; therefore, the results of all three are presented
+Sickle cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 80 0 0 0 0 100%
+ReT45 0 0 22 58 3 73%
+ReT46 80 0 0 0 0 100%
+Spherocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 30 50 0 0 1 63%
+ReT45 80 0 0 0 0 100%
+ReT46 79 1 0 0 0 99%
+Elliptocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 0 10 65 5 2 81%
+ReT43 80 0 0 0 0 100%
+ReT44 80 0 0 0 0 100%
+ReT45 79 1 0 0 0 99%
+ReT46 0 80 0 0 1 100%
+12
+
+[Table 1 on page 12]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	77	3	0	0	0	96%
+ReT44	80	0	0	0	0	100%
+ReT45	79	1	0	0	0	99%
+ReT46	80	0	0	0	0	100%
+
+[Table 2 on page 12]
+Sample	Grade					
+					True grade	Agreement
+ID	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	60	20	0	0	0	75%
+ReT43	58	22	0	0	0	73%
+ReT44	34	46	0	0	1	58%
+ReT45	0	77	3	0	1	96%
+ReT46	80	0	0	0	0	100%
+
+[Table 3 on page 12]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	80	0	0	0	0	100%
+ReT45	0	0	22	58	3	73%
+ReT46	80	0	0	0	0	100%
+
+[Table 4 on page 12]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	30	50	0	0	1	63%
+ReT45	80	0	0	0	0	100%
+ReT46	79	1	0	0	0	99%
+
+[Table 5 on page 12]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	0	10	65	5	2	81%
+ReT43	80	0	0	0	0	100%
+ReT44	80	0	0	0	0	100%
+ReT45	79	1	0	0	0	99%
+ReT46	0	80	0	0	1	100%
+
+--- Page 13 ---
+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 0 70 10 0 1 88%
+ReT43 24 56 0 0 1 70%
+ReT44 80 0 0 0 0 100%
+ReT45 1 79 0 0 1 99%
+ReT46 0 38 42 0 2 53%
+Elliptocytes+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 0 0 59 21 2 74%
+ReT43 9 71 0 0 1 89%
+ReT44 80 0 0 0 0 100%
+ReT45 0 80 0 0 1 100%
+ReT46 0 12 68 0 2 85%
+*The results for Elliptocytes and Ovalocytes are presented separately but were also evaluated together due to the
+fact that the names of these morphologies are used interchangeably in the daily practice.
+Tear drop cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 0 0 0 80 3 100%
+ReT43 80 0 0 0 0 100%
+ReT44 80 0 0 0 0 100%
+ReT45 80 0 0 0 0 100%
+ReT46 0 0 0 80 3 100%
+Stomatocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 80 0 0 0 0 100%
+ReT45 80 0 0 0 0 100%
+ReT46 0 80 0 0 1 100%
+Acanthocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 0 58 22 0 1 73%
+ReT45 80 0 0 0 0 100%
+ReT46 80 0 0 0 0 100%
+13
+
+[Table 1 on page 13]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	0	70	10	0	1	88%
+ReT43	24	56	0	0	1	70%
+ReT44	80	0	0	0	0	100%
+ReT45	1	79	0	0	1	99%
+ReT46	0	38	42	0	2	53%
+
+[Table 2 on page 13]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	0	0	59	21	2	74%
+ReT43	9	71	0	0	1	89%
+ReT44	80	0	0	0	0	100%
+ReT45	0	80	0	0	1	100%
+ReT46	0	12	68	0	2	85%
+
+[Table 3 on page 13]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	0	0	0	80	3	100%
+ReT43	80	0	0	0	0	100%
+ReT44	80	0	0	0	0	100%
+ReT45	80	0	0	0	0	100%
+ReT46	0	0	0	80	3	100%
+
+[Table 4 on page 13]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	80	0	0	0	0	100%
+ReT45	80	0	0	0	0	100%
+ReT46	0	80	0	0	1	100%
+
+[Table 5 on page 13]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	0	58	22	0	1	73%
+ReT45	80	0	0	0	0	100%
+ReT46	80	0	0	0	0	100%
+
+--- Page 14 ---
+Echinocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 0 63 17 0 1 79%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 0 37 43 0 2 54%
+ReT45 80 0 0 0 0 100%
+ReT46 80 0 0 0 0 100%
+Howell-Jolly bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 0 37 43 0 2 54%
+ReT42 43 37 0 0 0 54%
+ReT43 59 21 0 0 0 74%
+ReT44 4 13 63 0 2 79%
+ReT45 2 5 73 0 2 91%
+ReT46 80 0 0 0 0 100%
+Pappenheimer bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 2 75 3 0 1 94%
+ReT45 0 0 0 80 3 100%
+ReT46 80 0 0 0 0 100%
+Basophilic stippling
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 80 0 0 0 0 100%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 80 0 0 0 0 100%
+ReT45 79 0 1 0 0 99%
+ReT46 80 0 0 0 0 100%
+Parasites
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT41 0 79 1 0 1 99%
+ReT42 80 0 0 0 0 100%
+ReT43 80 0 0 0 0 100%
+ReT44 80 0 0 0 0 100%
+ReT45 79 1 0 0 0 99%
+ReT46 80 0 0 0 0 100%
+14
+
+[Table 1 on page 14]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	0	63	17	0	1	79%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	0	37	43	0	2	54%
+ReT45	80	0	0	0	0	100%
+ReT46	80	0	0	0	0	100%
+
+[Table 2 on page 14]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	0	37	43	0	2	54%
+ReT42	43	37	0	0	0	54%
+ReT43	59	21	0	0	0	74%
+ReT44	4	13	63	0	2	79%
+ReT45	2	5	73	0	2	91%
+ReT46	80	0	0	0	0	100%
+
+[Table 3 on page 14]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	2	75	3	0	1	94%
+ReT45	0	0	0	80	3	100%
+ReT46	80	0	0	0	0	100%
+
+[Table 4 on page 14]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	80	0	0	0	0	100%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	80	0	0	0	0	100%
+ReT45	79	0	1	0	0	99%
+ReT46	80	0	0	0	0	100%
+
+[Table 5 on page 14]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT41	0	79	1	0	1	99%
+ReT42	80	0	0	0	0	100%
+ReT43	80	0	0	0	0	100%
+ReT44	80	0	0	0	0	100%
+ReT45	79	1	0	0	0	99%
+ReT46	80	0	0	0	0	100%
+
+--- Page 15 ---
+Summary of the repeatability data for each of the 21 RBC morphological
+characteristics obtained using CellaVision DM1200 with the Advanced RBC
+Application
+Polychromatic cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 0 80 0 0 1 100%
+ReT52 80 0 0 0 0 100%
+ReT53 6 74 0 0 1 93%
+ReT54 79 1 0 0 0 99%
+ReT55 0 0 62 18 2 78%
+ReT56 80 0 0 0 0 100%
+Hypochromatic Cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 68 12 0 0 0 85%
+ReT55 80 0 0 0 0 100%
+ReT56 0 0 0 80 3 100%
+Anisocytosis
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 0 36 44 0 2 55%
+ReT52 80 0 0 0 0 100%
+ReT53 0 80 0 0 1 100%
+ReT54 0 0 80 0 2 100%
+ReT55 0 0 13 67 3 84%
+ReT56 0 3 77 0 2 96%
+Microcytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 0 80 0 0 1 100%
+ReT54 0 80 0 0 1 100%
+ReT55 80 0 0 0 0 100%
+ReT56 0 1 78 1 2 98%
+15
+
+[Table 1 on page 15]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	0	80	0	0	1	100%
+ReT52	80	0	0	0	0	100%
+ReT53	6	74	0	0	1	93%
+ReT54	79	1	0	0	0	99%
+ReT55	0	0	62	18	2	78%
+ReT56	80	0	0	0	0	100%
+
+[Table 2 on page 15]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	68	12	0	0	0	85%
+ReT55	80	0	0	0	0	100%
+ReT56	0	0	0	80	3	100%
+
+[Table 3 on page 15]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	0	36	44	0	2	55%
+ReT52	80	0	0	0	0	100%
+ReT53	0	80	0	0	1	100%
+ReT54	0	0	80	0	2	100%
+ReT55	0	0	13	67	3	84%
+ReT56	0	3	77	0	2	96%
+
+[Table 4 on page 15]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	0	80	0	0	1	100%
+ReT54	0	80	0	0	1	100%
+ReT55	80	0	0	0	0	100%
+ReT56	0	1	78	1	2	98%
+
+--- Page 16 ---
+Macrocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 0 2 78 0 2 98%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 0 80 0 0 1 100%
+ReT55 0 0 80 0 2 100%
+ReT56 80 0 0 0 0 100%
+Poikilocytosis
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 0 16 51 13 2 64%
+ReT52 3 77 0 0 1 96%
+ReT53 0 1 79 0 2 99%
+ReT54 0 30 50 0 2 63%
+ReT55 0 27 53 0 2 66%
+ReT56 1 79 0 0 1 99%
+Target cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 58 22 0 0 0 73%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 10 70 0 0 1 88%
+ReT55 0 80 0 0 1 100%
+ReT56 80 0 0 0 0 100%
+SchistocytesΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 79 1 0 0 0 99%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 0 0 51 29 2 64%
+ReT55 79 1 0 0 0 99%
+ReT56 0 0 80 0 2 100%
+Helmet cellsΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 78 2 0 0 0 98%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 79 1 0 0 0 99%
+ReT55 80 0 0 0 0 100%
+ReT56 79 1 0 0 0 99%
+16
+
+[Table 1 on page 16]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	0	2	78	0	2	98%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	0	80	0	0	1	100%
+ReT55	0	0	80	0	2	100%
+ReT56	80	0	0	0	0	100%
+
+[Table 2 on page 16]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	0	16	51	13	2	64%
+ReT52	3	77	0	0	1	96%
+ReT53	0	1	79	0	2	99%
+ReT54	0	30	50	0	2	63%
+ReT55	0	27	53	0	2	66%
+ReT56	1	79	0	0	1	99%
+
+[Table 3 on page 16]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	58	22	0	0	0	73%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	10	70	0	0	1	88%
+ReT55	0	80	0	0	1	100%
+ReT56	80	0	0	0	0	100%
+
+[Table 4 on page 16]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	79	1	0	0	0	99%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	0	0	51	29	2	64%
+ReT55	79	1	0	0	0	99%
+ReT56	0	0	80	0	2	100%
+
+[Table 5 on page 16]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	78	2	0	0	0	98%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	79	1	0	0	0	99%
+ReT55	80	0	0	0	0	100%
+ReT56	79	1	0	0	0	99%
+
+--- Page 17 ---
+Schistocytes+Helmet cellsΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 37 43 0 0 1 54%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 0 0 21 59 3 74%
+ReT55 78 2 0 0 0 98%
+ReT56 0 0 73 7 2 91%
+ΨHelmet cells can be relevant if Schistocytes are present in the sample; therefore, the results of all three are presented
+Sickle cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 80 0 0 0 0 100%
+ReT55 0 0 3 77 3 96%
+ReT56 80 0 0 0 0 100%
+Spherocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 78 2 0 0 0 98%
+ReT52 80 0 0 0 0 100%
+ReT53 79 1 0 0 0 99%
+ReT54 5 75 0 0 1 94%
+ReT55 80 0 0 0 0 100%
+ReT56 79 1 0 0 0 99%
+Elliptocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 0 80 0 0 1 100%
+ReT54 80 0 0 0 0 100%
+ReT55 80 0 0 0 0 100%
+ReT56 0 80 0 0 1 100%
+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 16 64 0 0 1 80%
+ReT52 80 0 0 0 0 100%
+ReT53 0 0 80 0 2 100%
+ReT54 3 77 0 0 1 96%
+ReT55 0 76 4 0 1 95%
+ReT56 79 1 0 0 0 99%
+17
+
+[Table 1 on page 17]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	37	43	0	0	1	54%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	0	0	21	59	3	74%
+ReT55	78	2	0	0	0	98%
+ReT56	0	0	73	7	2	91%
+
+[Table 2 on page 17]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	80	0	0	0	0	100%
+ReT55	0	0	3	77	3	96%
+ReT56	80	0	0	0	0	100%
+
+[Table 3 on page 17]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	78	2	0	0	0	98%
+ReT52	80	0	0	0	0	100%
+ReT53	79	1	0	0	0	99%
+ReT54	5	75	0	0	1	94%
+ReT55	80	0	0	0	0	100%
+ReT56	79	1	0	0	0	99%
+
+[Table 4 on page 17]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	0	80	0	0	1	100%
+ReT54	80	0	0	0	0	100%
+ReT55	80	0	0	0	0	100%
+ReT56	0	80	0	0	1	100%
+
+[Table 5 on page 17]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	16	64	0	0	1	80%
+ReT52	80	0	0	0	0	100%
+ReT53	0	0	80	0	2	100%
+ReT54	3	77	0	0	1	96%
+ReT55	0	76	4	0	1	95%
+ReT56	79	1	0	0	0	99%
+
+--- Page 18 ---
+Elliptocytes+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 15 65 0 0 1 81%
+ReT52 80 0 0 0 0 100%
+ReT53 0 0 76 4 2 95%
+ReT54 0 80 0 0 1 100%
+ReT55 0 65 15 0 1 81%
+ReT56 0 80 0 0 1 100%
+*The results for Elliptocytes and Ovalocytes are presented separately but were also evaluated together due to the
+fact that the names of these morphologies are used interchangeably in the daily practice.
+Tear drop cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 0 0 1 79 3 99%
+ReT54 80 0 0 0 0 100%
+ReT55 80 0 0 0 0 100%
+ReT56 0 70 10 0 1 88%
+Stomatocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 79 1 0 0 0 99%
+ReT55 80 0 0 0 0 100%
+ReT56 80 0 0 0 0 100%
+Acanthocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 0 80 0 0 1 100%
+ReT55 80 0 0 0 0 100%
+ReT56 80 0 0 0 0 100%
+18
+
+[Table 1 on page 18]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	15	65	0	0	1	81%
+ReT52	80	0	0	0	0	100%
+ReT53	0	0	76	4	2	95%
+ReT54	0	80	0	0	1	100%
+ReT55	0	65	15	0	1	81%
+ReT56	0	80	0	0	1	100%
+
+[Table 2 on page 18]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	0	0	1	79	3	99%
+ReT54	80	0	0	0	0	100%
+ReT55	80	0	0	0	0	100%
+ReT56	0	70	10	0	1	88%
+
+[Table 3 on page 18]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	79	1	0	0	0	99%
+ReT55	80	0	0	0	0	100%
+ReT56	80	0	0	0	0	100%
+
+[Table 4 on page 18]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	0	80	0	0	1	100%
+ReT55	80	0	0	0	0	100%
+ReT56	80	0	0	0	0	100%
+
+--- Page 19 ---
+Echinocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 1 21 52 6 2 65%
+ReT52 1 69 10 0 1 86%
+ReT53 80 0 0 0 0 100%
+ReT54 43 37 0 0 0 54%
+ReT55 79 1 0 0 0 99%
+ReT56 80 0 0 0 0 100%
+Howell-Jolly bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 0 0 80 0 2 100%
+ReT52 3 62 15 0 1 78%
+ReT53 80 0 0 0 0 100%
+ReT54 80 0 0 0 0 100%
+ReT55 1 75 4 0 1 94%
+ReT56 78 2 0 0 0 98%
+Pappenheimer bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 80 0 0 0 0 100%
+ReT55 0 0 0 80 3 100%
+ReT56 80 0 0 0 0 100%
+Basophilic stippling
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 80 0 0 0 0 100%
+ReT53 80 0 0 0 0 100%
+ReT54 80 0 0 0 0 100%
+ReT55 79 0 1 0 0 99%
+ReT56 80 0 0 0 0 100%
+Parasites
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReT51 80 0 0 0 0 100%
+ReT52 0 79 1 0 1 99%
+ReT53 80 0 0 0 0 100%
+ReT54 80 0 0 0 0 100%
+ReT55 80 0 0 0 0 100%
+ReT56 80 0 0 0 0 100%
+19
+
+[Table 1 on page 19]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	1	21	52	6	2	65%
+ReT52	1	69	10	0	1	86%
+ReT53	80	0	0	0	0	100%
+ReT54	43	37	0	0	0	54%
+ReT55	79	1	0	0	0	99%
+ReT56	80	0	0	0	0	100%
+
+[Table 2 on page 19]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	0	0	80	0	2	100%
+ReT52	3	62	15	0	1	78%
+ReT53	80	0	0	0	0	100%
+ReT54	80	0	0	0	0	100%
+ReT55	1	75	4	0	1	94%
+ReT56	78	2	0	0	0	98%
+
+[Table 3 on page 19]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	80	0	0	0	0	100%
+ReT55	0	0	0	80	3	100%
+ReT56	80	0	0	0	0	100%
+
+[Table 4 on page 19]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	80	0	0	0	0	100%
+ReT53	80	0	0	0	0	100%
+ReT54	80	0	0	0	0	100%
+ReT55	79	0	1	0	0	99%
+ReT56	80	0	0	0	0	100%
+
+[Table 5 on page 19]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReT51	80	0	0	0	0	100%
+ReT52	0	79	1	0	1	99%
+ReT53	80	0	0	0	0	100%
+ReT54	80	0	0	0	0	100%
+ReT55	80	0	0	0	0	100%
+ReT56	80	0	0	0	0	100%
+
+--- Page 20 ---
+Reproducibility
+The reproducibility study was performed at three sites with samples collected from
+routine workflow that included normal and elevated levels for each of the 21 RBC
+morphological characteristics. From each sample, three slides were prepared. The slides
+were then run at each site two times a day for 5 days. Seven blood samples were used for
+the DM96 study and five samples were used for the DM1200 study. The grading
+reproducibility was calculated by determining the relation between the occurrence of true
+grade and the total number of runs. The results met the predefined acceptance criteria.
+Summary of the reproducibility data for each of the 21 RBC morphological
+characteristics obtained with the Advanced RBC Application using CellaVision
+DM96 (all 3 sites)
+Polychromatic cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 4 86 0 0 1 96%
+ReR02 1 33 55 1 2 61%
+ReR03 83 6 1 0 0 92%
+ReR04 0 0 90 0 2 100%
+ReR05 90 0 0 0 0 100%
+ReR06 90 0 0 0 0 100%
+ReR07 66 24 0 0 0 73%
+Hypochromatic Cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 90 0 0 0 0 100%
+ReR03 90 0 0 0 0 100%
+ReR04 0 23 67 0 2 74%
+ReR05 0 1 11 78 3 87%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+Anisocytosis
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 90 0 0 1 100%
+ReR02 0 38 52 0 2 58%
+ReR03 44 46 0 0 1 51%
+ReR04 0 0 0 90 3 100%
+ReR05 0 10 80 0 2 89%
+ReR06 90 0 0 0 0 100%
+ReR07 0 90 0 0 1 100%
+20
+
+[Table 1 on page 20]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	4	86	0	0	1	96%
+ReR02	1	33	55	1	2	61%
+ReR03	83	6	1	0	0	92%
+ReR04	0	0	90	0	2	100%
+ReR05	90	0	0	0	0	100%
+ReR06	90	0	0	0	0	100%
+ReR07	66	24	0	0	0	73%
+
+[Table 2 on page 20]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	90	0	0	0	0	100%
+ReR03	90	0	0	0	0	100%
+ReR04	0	23	67	0	2	74%
+ReR05	0	1	11	78	3	87%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+[Table 3 on page 20]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	90	0	0	1	100%
+ReR02	0	38	52	0	2	58%
+ReR03	44	46	0	0	1	51%
+ReR04	0	0	0	90	3	100%
+ReR05	0	10	80	0	2	89%
+ReR06	90	0	0	0	0	100%
+ReR07	0	90	0	0	1	100%
+
+--- Page 21 ---
+Microcytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 90 0 0 1 100%
+ReR02 90 0 0 0 0 100%
+ReR03 90 0 0 0 0 100%
+ReR04 0 90 0 0 1 100%
+ReR05 0 20 70 0 2 78%
+ReR06 84 6 0 0 0 93%
+ReR07 90 0 0 0 0 100%
+Macrocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 0 0 0 90 3 100%
+ReR03 0 0 0 90 3 100%
+ReR04 0 5 85 0 2 94%
+ReR05 90 0 0 0 0 100%
+ReR06 90 0 0 0 0 100%
+ReR07 0 90 0 0 1 100%
+Poikilocytosis
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 0 90 0 2 100%
+ReR02 0 59 31 0 1 66%
+ReR03 23 67 0 0 1 74%
+ReR04 0 0 66 24 2 73%
+ReR05 14 76 0 0 1 84%
+ReR06 0 90 0 0 1 100%
+ReR07 0 2 87 1 2 97%
+Target cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 0 90 0 0 1 100%
+ReR03 90 0 0 0 0 100%
+ReR04 24 66 0 0 1 73%
+ReR05 89 1 0 0 0 99%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+21
+
+[Table 1 on page 21]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	90	0	0	1	100%
+ReR02	90	0	0	0	0	100%
+ReR03	90	0	0	0	0	100%
+ReR04	0	90	0	0	1	100%
+ReR05	0	20	70	0	2	78%
+ReR06	84	6	0	0	0	93%
+ReR07	90	0	0	0	0	100%
+
+[Table 2 on page 21]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	0	0	0	90	3	100%
+ReR03	0	0	0	90	3	100%
+ReR04	0	5	85	0	2	94%
+ReR05	90	0	0	0	0	100%
+ReR06	90	0	0	0	0	100%
+ReR07	0	90	0	0	1	100%
+
+[Table 3 on page 21]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	0	90	0	2	100%
+ReR02	0	59	31	0	1	66%
+ReR03	23	67	0	0	1	74%
+ReR04	0	0	66	24	2	73%
+ReR05	14	76	0	0	1	84%
+ReR06	0	90	0	0	1	100%
+ReR07	0	2	87	1	2	97%
+
+[Table 4 on page 21]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	0	90	0	0	1	100%
+ReR03	90	0	0	0	0	100%
+ReR04	24	66	0	0	1	73%
+ReR05	89	1	0	0	0	99%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+--- Page 22 ---
+SchistocytesΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 78 12 0 1 87%
+ReR02 90 0 0 0 0 100%
+ReR03 87 3 0 0 0 97%
+ReR04 3 87 0 0 1 97%
+ReR05 0 83 7 0 1 92%
+ReR06 90 0 0 0 0 100%
+ReR07 85 5 0 0 0 94%
+Helmet cellsΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 90 0 0 0 0 100%
+ReR03 90 0 0 0 0 100%
+ReR04 90 0 0 0 0 100%
+ReR05 87 3 0 0 0 97%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+Schistocytes+Helmet cellsΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 77 13 0 1 86%
+ReR02 82 8 0 0 0 91%
+ReR03 46 44 0 0 0 51%
+ReR04 30 59 1 0 1 66%
+ReR05 0 60 30 0 1 67%
+ReR06 89 1 0 0 0 99%
+ReR07 64 26 0 0 0 71%
+ΨHelmet cells can be relevant if Schistocytes are present in the sample; therefore, the results of all three are
+presented
+Sickle cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 90 0 0 0 0 100%
+ReR03 90 0 0 0 0 100%
+ReR04 0 0 1 89 3 99%
+ReR05 90 0 0 0 0 100%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+22
+
+[Table 1 on page 22]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	78	12	0	1	87%
+ReR02	90	0	0	0	0	100%
+ReR03	87	3	0	0	0	97%
+ReR04	3	87	0	0	1	97%
+ReR05	0	83	7	0	1	92%
+ReR06	90	0	0	0	0	100%
+ReR07	85	5	0	0	0	94%
+
+[Table 2 on page 22]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	90	0	0	0	0	100%
+ReR03	90	0	0	0	0	100%
+ReR04	90	0	0	0	0	100%
+ReR05	87	3	0	0	0	97%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+[Table 3 on page 22]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	77	13	0	1	86%
+ReR02	82	8	0	0	0	91%
+ReR03	46	44	0	0	0	51%
+ReR04	30	59	1	0	1	66%
+ReR05	0	60	30	0	1	67%
+ReR06	89	1	0	0	0	99%
+ReR07	64	26	0	0	0	71%
+
+[Table 4 on page 22]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	90	0	0	0	0	100%
+ReR03	90	0	0	0	0	100%
+ReR04	0	0	1	89	3	99%
+ReR05	90	0	0	0	0	100%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+--- Page 23 ---
+Spherocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 90 0 0 0 0 100%
+ReR03 90 0 0 0 0 100%
+ReR04 90 0 0 0 0 100%
+ReR05 82 8 0 0 0 91%
+ReR06 89 1 0 0 0 99%
+ReR07 1 89 0 0 1 99%
+Elliptocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 30 29 31 2 32%
+ReR02 90 0 0 0 0 100%
+ReR03 81 9 0 0 0 90%
+ReR04 50 40 0 0 0 56%
+ReR05 6 54 30 0 1 60%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 30 35 18 7 1 39%
+ReR02 30 60 0 0 1 67%
+ReR03 2 32 56 0 2 62%
+ReR04 22 41 27 0 1 46%
+ReR05 35 55 0 0 1 61%
+ReR06 89 1 0 0 0 99%
+ReR07 81 9 0 0 0 90%
+Elliptocytes+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 0 37 53 3 59%
+ReR02 30 60 0 0 1 67%
+ReR03 0 32 28 30 1 31%
+ReR04 31 59 0 0 1 66%
+ReR05 0 60 30 0 1 67%
+ReR06 89 1 0 0 0 99%
+ReR07 67 23 0 0 0 74%
+*The results for Elliptocytes and Ovalocytes are presented separately but were also evaluated together due to the
+fact that the names of these morphologies are used interchangeably in the daily practice.
+23
+
+[Table 1 on page 23]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	90	0	0	0	0	100%
+ReR03	90	0	0	0	0	100%
+ReR04	90	0	0	0	0	100%
+ReR05	82	8	0	0	0	91%
+ReR06	89	1	0	0	0	99%
+ReR07	1	89	0	0	1	99%
+
+[Table 2 on page 23]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	30	29	31	2	32%
+ReR02	90	0	0	0	0	100%
+ReR03	81	9	0	0	0	90%
+ReR04	50	40	0	0	0	56%
+ReR05	6	54	30	0	1	60%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+[Table 3 on page 23]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	30	35	18	7	1	39%
+ReR02	30	60	0	0	1	67%
+ReR03	2	32	56	0	2	62%
+ReR04	22	41	27	0	1	46%
+ReR05	35	55	0	0	1	61%
+ReR06	89	1	0	0	0	99%
+ReR07	81	9	0	0	0	90%
+
+[Table 4 on page 23]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	0	37	53	3	59%
+ReR02	30	60	0	0	1	67%
+ReR03	0	32	28	30	1	31%
+ReR04	31	59	0	0	1	66%
+ReR05	0	60	30	0	1	67%
+ReR06	89	1	0	0	0	99%
+ReR07	67	23	0	0	0	74%
+
+--- Page 24 ---
+Tear drop cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 0 0 0 90 3 100%
+ReR02 90 0 0 0 0 100%
+ReR03 81 9 0 0 0 90%
+ReR04 81 9 0 0 0 90%
+ReR05 6 50 34 0 1 56%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+Stomatocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 85 5 0 0 0 94%
+ReR03 90 0 0 0 0 100%
+ReR04 70 20 0 0 0 78%
+ReR05 90 0 0 0 0 100%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+Acanthocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 86 4 0 0 0 96%
+ReR02 90 0 0 0 0 100%
+ReR03 89 1 0 0 0 99%
+ReR04 89 1 0 0 0 99%
+ReR05 90 0 0 0 0 100%
+ReR06 90 0 0 0 0 100%
+ReR07 0 86 4 0 1 96%
+Echinocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 59 31 0 0 0 66%
+ReR02 59 31 0 0 0 66%
+ReR03 90 0 0 0 0 100%
+ReR04 0 50 40 0 1 56%
+ReR05 90 0 0 0 0 100%
+ReR06 0 57 33 0 1 63%
+ReR07 0 14 76 0 2 84%
+24
+
+[Table 1 on page 24]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	0	0	0	90	3	100%
+ReR02	90	0	0	0	0	100%
+ReR03	81	9	0	0	0	90%
+ReR04	81	9	0	0	0	90%
+ReR05	6	50	34	0	1	56%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+[Table 2 on page 24]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	85	5	0	0	0	94%
+ReR03	90	0	0	0	0	100%
+ReR04	70	20	0	0	0	78%
+ReR05	90	0	0	0	0	100%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+[Table 3 on page 24]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	86	4	0	0	0	96%
+ReR02	90	0	0	0	0	100%
+ReR03	89	1	0	0	0	99%
+ReR04	89	1	0	0	0	99%
+ReR05	90	0	0	0	0	100%
+ReR06	90	0	0	0	0	100%
+ReR07	0	86	4	0	1	96%
+
+[Table 4 on page 24]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	59	31	0	0	0	66%
+ReR02	59	31	0	0	0	66%
+ReR03	90	0	0	0	0	100%
+ReR04	0	50	40	0	1	56%
+ReR05	90	0	0	0	0	100%
+ReR06	0	57	33	0	1	63%
+ReR07	0	14	76	0	2	84%
+
+--- Page 25 ---
+Howell-Jolly bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 88 2 0 0 0 98%
+ReR02 49 37 4 0 0 54%
+ReR03 51 32 7 0 0 57%
+ReR04 0 0 33 57 3 63%
+ReR05 69 16 5 0 0 77%
+ReR06 31 38 21 0 1 42%
+ReR07 5 45 40 0 1 50%
+Pappenheimer bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 90 0 0 0 0 100%
+ReR03 90 0 0 0 0 100%
+ReR04 5 25 29 31 2 32%
+ReR05 90 0 0 0 0 100%
+ReR06 90 0 0 0 0 100%
+ReR07 85 5 0 0 0 94%
+Basophilic stippling
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 86 4 0 0 0 96%
+ReR03 90 0 0 0 0 100%
+ReR04 90 0 0 0 0 100%
+ReR05 90 0 0 0 0 100%
+ReR06 90 0 0 0 0 100%
+ReR07 90 0 0 0 0 100%
+Parasites
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR01 90 0 0 0 0 100%
+ReR02 90 0 0 0 0 100%
+ReR03 90 0 0 0 0 100%
+ReR04 89 1 0 0 0 99%
+ReR05 90 0 0 0 0 100%
+ReR06 0 90 0 0 1 100%
+ReR07 90 0 0 0 0 100%
+25
+
+[Table 1 on page 25]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	88	2	0	0	0	98%
+ReR02	49	37	4	0	0	54%
+ReR03	51	32	7	0	0	57%
+ReR04	0	0	33	57	3	63%
+ReR05	69	16	5	0	0	77%
+ReR06	31	38	21	0	1	42%
+ReR07	5	45	40	0	1	50%
+
+[Table 2 on page 25]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	90	0	0	0	0	100%
+ReR03	90	0	0	0	0	100%
+ReR04	5	25	29	31	2	32%
+ReR05	90	0	0	0	0	100%
+ReR06	90	0	0	0	0	100%
+ReR07	85	5	0	0	0	94%
+
+[Table 3 on page 25]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	86	4	0	0	0	96%
+ReR03	90	0	0	0	0	100%
+ReR04	90	0	0	0	0	100%
+ReR05	90	0	0	0	0	100%
+ReR06	90	0	0	0	0	100%
+ReR07	90	0	0	0	0	100%
+
+[Table 4 on page 25]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR01	90	0	0	0	0	100%
+ReR02	90	0	0	0	0	100%
+ReR03	90	0	0	0	0	100%
+ReR04	89	1	0	0	0	99%
+ReR05	90	0	0	0	0	100%
+ReR06	0	90	0	0	1	100%
+ReR07	90	0	0	0	0	100%
+
+--- Page 26 ---
+Summary of the reproducibility data for each of the 21 RBC morphological
+characteristics obtained with the Advanced RBC Application using CellaVision
+DM1200 (all 3 sites)
+Polychromatic cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 84 6 0 0 0 93%
+ReR12 11 79 0 0 1 88%
+ReR13 0 0 56 34 2 62%
+ReR14 89 1 0 0 0 99%
+ReR15 7 72 11 0 1 80%
+Hypochromatic Cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 81 9 0 0 0 90%
+ReR12 90 0 0 0 0 100%
+ReR13 0 85 5 0 1 94%
+ReR14 90 0 0 0 0 100%
+ReR15 90 0 0 0 0 100%
+Anisocytosis
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 0 90 0 0 1 100%
+ReR13 0 0 0 90 3 100%
+ReR14 6 84 0 0 1 93%
+ReR15 0 22 68 0 2 76%
+Microcytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 0 90 0 0 1 100%
+ReR13 25 65 0 0 1 72%
+ReR14 88 2 0 0 0 98%
+ReR15 90 0 0 0 0 100%
+Macrocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 59 31 0 0 0 66%
+ReR12 90 0 0 0 0 100%
+ReR13 0 1 89 0 2 99%
+ReR14 1 89 0 0 1 99%
+ReR15 0 0 0 90 3 100%
+26
+
+[Table 1 on page 26]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	84	6	0	0	0	93%
+ReR12	11	79	0	0	1	88%
+ReR13	0	0	56	34	2	62%
+ReR14	89	1	0	0	0	99%
+ReR15	7	72	11	0	1	80%
+
+[Table 2 on page 26]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	81	9	0	0	0	90%
+ReR12	90	0	0	0	0	100%
+ReR13	0	85	5	0	1	94%
+ReR14	90	0	0	0	0	100%
+ReR15	90	0	0	0	0	100%
+
+[Table 3 on page 26]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	0	90	0	0	1	100%
+ReR13	0	0	0	90	3	100%
+ReR14	6	84	0	0	1	93%
+ReR15	0	22	68	0	2	76%
+
+[Table 4 on page 26]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	0	90	0	0	1	100%
+ReR13	25	65	0	0	1	72%
+ReR14	88	2	0	0	0	98%
+ReR15	90	0	0	0	0	100%
+
+[Table 5 on page 26]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	59	31	0	0	0	66%
+ReR12	90	0	0	0	0	100%
+ReR13	0	1	89	0	2	99%
+ReR14	1	89	0	0	1	99%
+ReR15	0	0	0	90	3	100%
+
+--- Page 27 ---
+Poikilocytosis
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 0 0 83 7 2 92%
+ReR13 0 0 49 41 2 54%
+ReR14 0 22 65 3 2 72%
+ReR15 0 90 0 0 1 100%
+Target cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 90 0 0 0 0 100%
+ReR13 17 73 0 0 1 81%
+ReR14 90 0 0 0 0 100%
+ReR15 0 90 0 0 1 100%
+SchistocytesΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 0 63 27 0 1 70%
+ReR13 14 45 12 19 1 50%
+ReR14 72 18 0 0 0 80%
+ReR15 87 3 0 0 0 97%
+Helmet cellsΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 89 1 0 0 0 99%
+ReR12 90 0 0 0 0 100%
+ReR13 88 2 0 0 0 98%
+ReR14 90 0 0 0 0 100%
+ReR15 88 2 0 0 0 98%
+Schistocytes+Helmet cellsΨ
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 87 3 0 0 0 97%
+ReR12 0 61 29 0 1 68%
+ReR13 0 58 11 21 1 64%
+ReR14 49 41 0 0 0 54%
+ReR15 71 19 0 0 0 79%
+ΨHelmet cells can be relevant if Schistocytes are present in the sample; therefore, the results of all three are
+presented
+27
+
+[Table 1 on page 27]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	0	0	83	7	2	92%
+ReR13	0	0	49	41	2	54%
+ReR14	0	22	65	3	2	72%
+ReR15	0	90	0	0	1	100%
+
+[Table 2 on page 27]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	90	0	0	0	0	100%
+ReR13	17	73	0	0	1	81%
+ReR14	90	0	0	0	0	100%
+ReR15	0	90	0	0	1	100%
+
+[Table 3 on page 27]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	0	63	27	0	1	70%
+ReR13	14	45	12	19	1	50%
+ReR14	72	18	0	0	0	80%
+ReR15	87	3	0	0	0	97%
+
+[Table 4 on page 27]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	89	1	0	0	0	99%
+ReR12	90	0	0	0	0	100%
+ReR13	88	2	0	0	0	98%
+ReR14	90	0	0	0	0	100%
+ReR15	88	2	0	0	0	98%
+
+[Table 5 on page 27]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	87	3	0	0	0	97%
+ReR12	0	61	29	0	1	68%
+ReR13	0	58	11	21	1	64%
+ReR14	49	41	0	0	0	54%
+ReR15	71	19	0	0	0	79%
+
+--- Page 28 ---
+Sickle cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 88 2 0 0 0 98%
+ReR13 0 0 1 89 3 99%
+ReR14 90 0 0 0 0 100%
+ReR15 90 0 0 0 0 100%
+Spherocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 82 8 0 0 0 91%
+ReR13 85 5 0 0 0 94%
+ReR14 0 86 4 0 1 96%
+ReR15 90 0 0 0 0 100%
+Elliptocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 0 90 0 0 1 100%
+ReR13 39 51 0 0 1 57%
+ReR14 90 0 0 0 0 100%
+ReR15 90 0 0 0 0 100%
+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 89 1 0 0 0 99%
+ReR12 0 0 81 9 2 90%
+ReR13 11 79 0 0 1 88%
+ReR14 65 25 0 0 0 72%
+ReR15 62 28 0 0 0 69%
+Elliptocytes+Ovalocytes*
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 86 4 0 0 0 96%
+ReR12 0 0 31 59 3 66%
+ReR13 0 83 7 0 1 92%
+ReR14 51 39 0 0 0 57%
+ReR15 57 33 0 0 0 63%
+*The results for Elliptocytes and Ovalocytes are presented separately but were also evaluated together due to the
+fact that the names of these morphologies are used interchangeably in the daily practice.
+28
+
+[Table 1 on page 28]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	88	2	0	0	0	98%
+ReR13	0	0	1	89	3	99%
+ReR14	90	0	0	0	0	100%
+ReR15	90	0	0	0	0	100%
+
+[Table 2 on page 28]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	82	8	0	0	0	91%
+ReR13	85	5	0	0	0	94%
+ReR14	0	86	4	0	1	96%
+ReR15	90	0	0	0	0	100%
+
+[Table 3 on page 28]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	0	90	0	0	1	100%
+ReR13	39	51	0	0	1	57%
+ReR14	90	0	0	0	0	100%
+ReR15	90	0	0	0	0	100%
+
+[Table 4 on page 28]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	89	1	0	0	0	99%
+ReR12	0	0	81	9	2	90%
+ReR13	11	79	0	0	1	88%
+ReR14	65	25	0	0	0	72%
+ReR15	62	28	0	0	0	69%
+
+[Table 5 on page 28]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	86	4	0	0	0	96%
+ReR12	0	0	31	59	3	66%
+ReR13	0	83	7	0	1	92%
+ReR14	51	39	0	0	0	57%
+ReR15	57	33	0	0	0	63%
+
+--- Page 29 ---
+Tear drop cells
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 0 0 0 90 3 100%
+ReR13 57 24 9 0 0 63%
+ReR14 89 1 0 0 0 99%
+ReR15 87 3 0 0 0 97%
+Stomatocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 89 1 0 0 0 99%
+ReR12 90 0 0 0 0 100%
+ReR13 84 6 0 0 0 93%
+ReR14 90 0 0 0 0 100%
+ReR15 73 17 0 0 0 81%
+Acanthocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 90 0 0 0 0 100%
+ReR13 87 3 0 0 0 97%
+ReR14 0 87 3 0 1 97%
+ReR15 90 0 0 0 0 100%
+Echinocytes
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 68 22 0 0 0 76%
+ReR13 0 33 57 0 2 63%
+ReR14 0 47 43 0 1 52%
+ReR15 90 0 0 0 0 100%
+Howell-Jolly bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 90 0 0 0 0 100%
+ReR13 0 2 70 18 2 78%
+ReR14 67 22 1 0 0 74%
+ReR15 87 3 0 0 0 97%
+29
+
+[Table 1 on page 29]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	0	0	0	90	3	100%
+ReR13	57	24	9	0	0	63%
+ReR14	89	1	0	0	0	99%
+ReR15	87	3	0	0	0	97%
+
+[Table 2 on page 29]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	89	1	0	0	0	99%
+ReR12	90	0	0	0	0	100%
+ReR13	84	6	0	0	0	93%
+ReR14	90	0	0	0	0	100%
+ReR15	73	17	0	0	0	81%
+
+[Table 3 on page 29]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	90	0	0	0	0	100%
+ReR13	87	3	0	0	0	97%
+ReR14	0	87	3	0	1	97%
+ReR15	90	0	0	0	0	100%
+
+[Table 4 on page 29]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	68	22	0	0	0	76%
+ReR13	0	33	57	0	2	63%
+ReR14	0	47	43	0	1	52%
+ReR15	90	0	0	0	0	100%
+
+[Table 5 on page 29]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	90	0	0	0	0	100%
+ReR13	0	2	70	18	2	78%
+ReR14	67	22	1	0	0	74%
+ReR15	87	3	0	0	0	97%
+
+--- Page 30 ---
+Pappenheimer bodies
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 90 0 0 0 0 100%
+ReR13 0 0 2 88 3 98%
+ReR14 90 0 0 0 0 100%
+ReR15 89 1 0 0 0 99%
+Basophilic stippling
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 90 0 0 0 0 100%
+ReR12 90 0 0 0 0 100%
+ReR13 90 0 0 0 0 100%
+ReR14 90 0 0 0 0 100%
+ReR15 45 45 0 0 0 50%
+Parasites
+Grade
+Sample ID True grade Agreement
+0 1 2 3
+ReR11 0 0 40 50 3 56%
+ReR12 90 0 0 0 0 100%
+ReR13 90 0 0 0 0 100%
+ReR14 90 0 0 0 0 100%
+ReR15 90 0 0 0 0 100%
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Not applicable
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+30
+
+[Table 1 on page 30]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	90	0	0	0	0	100%
+ReR13	0	0	2	88	3	98%
+ReR14	90	0	0	0	0	100%
+ReR15	89	1	0	0	0	99%
+
+[Table 2 on page 30]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	90	0	0	0	0	100%
+ReR12	90	0	0	0	0	100%
+ReR13	90	0	0	0	0	100%
+ReR14	90	0	0	0	0	100%
+ReR15	45	45	0	0	0	50%
+
+[Table 3 on page 30]
+	Grade					
+Sample ID					True grade	Agreement
+	0	1	2	3		
+						
+ReR11	0	0	40	50	3	56%
+ReR12	90	0	0	0	0	100%
+ReR13	90	0	0	0	0	100%
+ReR14	90	0	0	0	0	100%
+ReR15	90	0	0	0	0	100%
+
+--- Page 31 ---
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision
+31

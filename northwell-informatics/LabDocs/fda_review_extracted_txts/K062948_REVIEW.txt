@@ -1,0 +1,1225 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION ONLY TEMPLATE
+A. 510(k) Number:
+K062948
+B. Purpose for Submission:
+New instrument system
+C. Measurand:
+Group B Streptococcus (S. agalactiae) DNA (3’ region adjacent to cfb gene)
+D. Type of Test:
+Nucleic acid amplification assay system, automated
+E. Applicant:
+Cepheid
+F. Proprietary and Established Names:
+Cepheid Smart GBS™ Assay
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 866.3740
+21 CFR 866.9 (c) (b), limitation to exemption
+2. Classification:
+I (Not exempt)
+3. Product code:
+NJR
+4. Panel:
+83 Microbiology
+H. Intended Use:
+1. Intended use(s):
+The Cepheid Smart GBS™ Assay performed on the Cepheid SmartCycler Dx
+System is a qualitative in vitro diagnostic test designed to detect Group B
+Streptococcus (GBS) DNA from vaginal/rectal swab specimens and Lim broth
+
+--- Page 2 ---
+cultures. The test utilizes real-time polymerase chain reaction (PCR) for a unique
+gene-specific sequence amplification of Streptococcus agalactiae recovered from
+clinical samples and fluorogenic target specific hybridization for the detection of
+the amplified DNA.
+2. Indication(s) for use:
+The Smart GBS™ Assay is intended for use as a method for rapid detection of
+GBS colonization in antepartum and intrapartum women.
+3. Special conditions for use statement(s):
+• Prescription use only
+• The use of the Smart GBS™ for intrapartum screening should not preclude
+the use of other strategies (e.g., antepartum testing). Intrapartum Smart
+GBS™ results are useful to identify candidates for intrapartum antibiotic
+prophylaxis when administration of intravenous antibiotics is not delayed
+pending results.
+• The Smart GBS™ assay does not provide susceptibility results. Culture
+isolates are needed for performing susceptibility testing as recommended for
+penicillin-allergic women.
+4. Special instrument requirements:
+Automated SmartCycler DX System (instrument, computer)
+I. Device Description:
+The Smart GBS™ Assay contains the following reagents packaged in a test kit for
+detection of GBS DNA.
+1. Sample Preparation Reagent
+2. Lysis Reagent
+3. Treatment Reagent
+4. Diluent Reagent
+5. Master Mix
+6. Positive Control
+7. Negative Control
+The SmartCycler GBS™ Assay includes all reagents described above required for sample
+processing and for the simultaneous detection of the target GBS and an internal control
+(IC) to monitor the presence of inhibitors in the PCR assay in order to avoid false-
+negative results. The GBS primers and probe detect a unique region of the S. agalactiae
+genome.
+A vaginal/rectal swab is collected in Copan with Liquid Stuart Medium and transported
+to the laboratory for processing. Specimens can be prepared by either using the direct
+sample preparation or the enriched method. With the direct sample preparation, swabs
+2
+
+--- Page 3 ---
+are eluted, lysed, centrifuged, washed, and vortexed to release the chromosomal DNA.
+When using this method, testing can be completed in approximately 75 minutes where
+results can be viewed with growth curves. With the enriched sample preparation method,
+the swabs are placed in an enrichment broth after sample collection, and incubated
+overnight (18 to 24 hours) at 37°C. Smart GBS™ can provide results the next day.
+After extraction, an aliquot of the bacterial DNA is added to the reconstituted real-time
+PCR reagents. Dried PCR reagents (polymerase/inhibitor complex, primers for target
+and controls, Taqman probes for target and controls), dNTPs, internal DNA control are
+freeze-dried on beads. The resulting mixture is placed in a reaction tube and loaded into
+the SmartCycler Dx System for real-time PCR amplification and detection of target
+sequences.
+For quality control, positive and negative controls are provided in the assay kit. One
+Positive Control and one Negative Control are processed for each assay run on the
+SmartCycler Dx System. The software automatically assigns the Positive Control to the
+second to last position, and the Negative Control to the last position.
+External positive control monitors substantial reagent failure. The external negative
+control detects reagent or environmental contamination (or carry-over) by either S.
+agalactiae or GBS amplicons.
+The internal control (IC) verifies functional PCR reagents and the absence of inhibition
+that would prevent PCR amplification. DNA for the IC is included in one of the reagent
+beads within the Smart GBS™ Assay. The response of the IC in the presence of
+inhibitors correlates with the response of target GBS in the presence of inhibitors.
+The controls both complement and provide a level of redundancy. Both the IC and the
+external positive and negative run controls will react to degradation of enzyme because
+both require its activity. All will also respond to probe degradation. Only the IC will
+react to sample effects.
+Before start of PCR reaction, the SmartCycler Dx System is programmed to perform an
+optical measurement or probe check on the optical channels associated with GBS target
+and Internal Control detection. The Probe Check control verifies reagent bead
+rehydration, appropriate tube filling, probe integrity, and dye stability. Probe Check is
+considered to PASS if optical measurements meet the validated acceptance criteria. If the
+Probe Check fails in either optical channel, the test will not continue.
+The System Control Check for Temperature Control ensures that the SmartCycler Dx
+Instrument is operating within specification.
+The Smart GBS™ assay is run on the automated Cepheid SmartCycler Dx System, also
+referred to as the SmartCycler II, (the same instrument system as the predicate device,
+IDI-Strep B Assay) consists of sixteen independently-controlled I-CORE (Intelligent
+Cooling/Heating Optical Reaction) modules or sites, each of which processes one sample
+at a time. Because the system controls the modules independently, different samples can
+3
+
+--- Page 4 ---
+be processed using different assay definitions in the same instrument. In addition, up to
+six instruments can be linked together to process up to 96 samples simultaneously.
+During the amplification process, the I-CORE heater heats up and the fan cools down the
+reaction tube contents. Two optical blocks positioned within the I-CORE excite the dye
+molecules that make up the probes and detect the fluorescence emitted. By using probes
+labeled with different fluorescent dyes, up to four dyes can be amplified and detected
+simultaneously in a single reaction mixture. The optical system always collects data from
+all four channels. Because the emission spectra of fluorescent dyes can overlap,
+appropriate calibration and data analysis algorithms are used to separate the signal from
+each of the dyes.
+The thermistors used to monitor the reaction chamber temperature are calibrated to
+±0.50°C using National Institute of Standards and Technology (NIST)-traceable
+standards. The optical system is calibrated using standard concentrations of the
+individual unquenched dye-oligo standard to determine the spectral characteristics.
+The instrument performs optics self-test before each run start to verify that the optical
+system is functioning properly.
+To minimize instrument maintenance, the instrument is never exposed to any fluids. All
+fluids are completely contained within disposable single-use reaction tubes throughout all
+the amplification process. The PCR and detection reactants and products, including
+amplicons, are contained within the reaction tube to prevent cross contamination between
+patient specimens.
+The software (version 1.7b) controls the operation of the I-CORE module, and collects,
+analyzes and interprets the acquired optical data. This software has been determined to
+be a moderate level of concern. This is the same software that is used with the predicate
+device, IDI-Strep B Assay.
+4
+
+--- Page 5 ---
+The Smart GBS™ Assay Kit
+The SmartCycler Dx Instrument
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+IDI-Strep B™ Assay
+2. Predicate 510(k) number(s):
+K022504
+3. Comparison with predicate:
+Similarities
+Item Device Predicate
+Intended Use Rapid identification of Group Same
+B Streptococcus
+5
+
+[Table 1 on page 5]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			Rapid identification of Group
+B Streptococcus			Same		
+
+--- Page 6 ---
+Similarities
+Item Device Predicate
+Samples vaginal/rectal swab specimens Same
+from ante-partum and intra-
+partum women
+Indications Identification of GBS Same
+colonization
+Collection and Transport Copan with Liquid Stuart Same
+Medium Medium
+Sample Preparation All reagents are provided in Same
+individually packaged tubes
+for manual sample preparation.
+Assay Format Amplification: PCR with I- Same
+CORE heating and cooling
+module. Detection:
+Fluorogenic target-specific
+hybridization
+Single use Yes; single-use Smart GBS™ Same
+reagent beads, single-use
+Smart GBS™ reagent liquids,
+single-use Cepheid
+SmartTube™ reaction tubes
+Automated assay Yes; amplification, detection Same
+and result interpretation
+External Run Controls External positive and negative Same
+run controls are required
+External Sample Processing Materials available Same
+Controls commercially, but not
+required.
+Technological Principles Nucleic acid amplification Same
+(DNA); real-time PCR
+Instrumentation Cepheid SmartCycler Dx Same
+System
+Differences
+Item Device Predicate
+DNA target sequence 3’ region adjacent to cfb gene cfb gene
+Sample Processing Direct Method: The Direct Method only.
+vaginal/rectal swab is placed
+in Sample Preparation Reagent
+and processed for real-time
+PCR amplification and
+detection
+Enriched Method: The
+vaginal/rectal swab is placed
+into Lim broth and incubated
+overnight at 37ºC, prior to
+being processed for real-time
+PCR amplification and
+6
+
+[Table 1 on page 6]
+Similarities								
+	Item			Device			Predicate	
+Samples			vaginal/rectal swab specimens
+from ante-partum and intra-
+partum women			Same		
+Indications			Identification of GBS
+colonization			Same		
+Collection and Transport
+Medium			Copan with Liquid Stuart
+Medium			Same		
+Sample Preparation			All reagents are provided in
+individually packaged tubes
+for manual sample preparation.			Same		
+Assay Format			Amplification: PCR with I-
+CORE heating and cooling
+module. Detection:
+Fluorogenic target-specific
+hybridization			Same		
+Single use			Yes; single-use Smart GBS™
+reagent beads, single-use
+Smart GBS™ reagent liquids,
+single-use Cepheid
+SmartTube™ reaction tubes			Same		
+Automated assay			Yes; amplification, detection
+and result interpretation			Same		
+External Run Controls			External positive and negative
+run controls are required			Same		
+External Sample Processing
+Controls			Materials available
+commercially, but not
+required.			Same		
+Technological Principles			Nucleic acid amplification
+(DNA); real-time PCR			Same		
+Instrumentation			Cepheid SmartCycler Dx
+System			Same		
+								
+
+[Table 2 on page 6]
+Differences								
+	Item			Device			Predicate	
+DNA target sequence			3’ region adjacent to cfb gene			cfb gene		
+Sample Processing			Direct Method: The
+vaginal/rectal swab is placed
+in Sample Preparation Reagent
+and processed for real-time
+PCR amplification and
+detection
+Enriched Method: The
+vaginal/rectal swab is placed
+into Lim broth and incubated
+overnight at 37ºC, prior to
+being processed for real-time
+PCR amplification and			Direct Method only.		
+
+--- Page 7 ---
+Differences
+Item Device Predicate
+detection.
+Internal Assay and System Internal Control; Probe Check Internal control; Site check (1
+Controls (all optical channels). Failures optical channel). Same
+result in single sample repeat.
+Criteria for Cycle threshold Primary growth curve nd
+2 derivative analysis
+(Ct) determination
+Probes TaqMan® Probes Molecular beacons
+K. Standard/Guidance Document Referenced (if applicable):
+N/A
+L. Test Principle:
+The Cepheid Smart Cycler Dx System is an integrated nucleic acid amplification
+and detection instrument system based on the proprietary microprocessor-controlled I-
+CORE® module.
+During PCR cycling, optical signals from two sequence specific fluorescent probes
+within the reaction are monitored in real time. The probes correspond to the GBS target,
+and the Internal Control. In the presence of DNA, this resulting optical curve consists of
+a flat baseline section, a rapidly growing section, and a plateau section. The increase in
+fluorescence is proportional to the amount of amplicons generated. The values for Cycle
+threshold (Ct) and endpoint are used to determine the presence or absence of the GBS
+target and IC being detected.
+All assay data and results are stored in a database.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+A panel of specimens with varying concentrations of GBS and
+Lactobacillus acidophilus (negative) were tested in triplicate on 10 different days
+at each of the three sites (4 specimens × 3 × 10 days × 3 sites). One lot of Smart
+GBS™ kits was used at each of the 3 testing sites, according to the Smart GBS™
+procedure. Intersite and intrasite demonstrated >95 reproducibility.
+The levels of cells in the preparation for precision evaluations are as follows:
+5
+1. Negative- Lactobacillus acidophilus ATCC 4356 ~5 X 10
+4
+2. Low Level – Streptococcus species (Group B, Type Ib) ATCC 12401 ~5 X 10
+3. Moderate Level – Streptococcus species (Group B, Type Ib) ATCC 12401 ~5
+5
+X 10
+7
+
+[Table 1 on page 7]
+Differences								
+	Item			Device			Predicate	
+			detection.					
+Internal Assay and System
+Controls			Internal Control; Probe Check
+(all optical channels). Failures
+result in single sample repeat.			Internal control; Site check (1
+optical channel). Same		
+Criteria for Cycle threshold
+(Ct) determination			Primary growth curve			nd
+2 derivative analysis		
+Probes			TaqMan® Probes			Molecular beacons		
+
+--- Page 8 ---
+7
+4. High Level – Streptococcus species (Group B, Type Ib) ATCC 12401 ~5 X 10
+Summary of Reproducibility Results
+Specimen ID Site 1 Site 2 Site 3 Total Agreement Total %Agreement
+Negative 30/30 30/30 29/30 89/90 98.9%
+Weak Positive 29/30 30/30 30/30 89/90 98.9%
+Positive 30/30 30/30 30/30 90/90 100%
+Strong Positive 30/30 30/30 30/30 90/90 100%
+Total Agreement 119/120 120/120 119/120 358/360 99.4%
+% Agreement 99.2% 100% 99.2% 99.4%
+b. Linearity/assay reportable range:
+A stock concentration of GBS (1.36e9 CFU/mL) was serially diluted over 8
+logs and loaded into each reaction tube with appropriate sample preparation reagents.
+Samples were tested in replicates of 3. Results demonstrated linearity of (r = 0.9991)
+2
+GBS detection (FAM) as a function of GBS cell input over 7 logs. The reportable Ct
+range was 14.8 to 37.0 in this study. Results are summarized in the tables below.
+Dynamic Range (Concentration vs Ct) of Smart GBS™
+8
+
+[Table 1 on page 8]
+Specimen ID Site 1 Site 2 Site 3 Total Agreement Total %Agreement
+Negative 30/30 30/30 29/30 89/90 98.9%
+Weak Positive 29/30 30/30 30/30 89/90 98.9%
+Positive 30/30 30/30 30/30 90/90 100%
+Strong Positive 30/30 30/30 30/30 90/90 100%
+Total Agreement 119/120 120/120 119/120 358/360 99.4%
+% Agreement 99.2% 100% 99.2% 99.4%
+
+--- Page 9 ---
+Dynamic Range (Ct and EP Values) of Smart GBS™
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+External positive and negative controls are required for each Smart GBS™ assay run.
+Quality controls were performed on every test occasion with the SmartCycler producing
+acceptable QC results most of the time. Results of Cycle thresholds (Ct) were averaged
+and summarized in the tables below.
+QC Results for Intrapartum/Antepartum Study
+Site No. External Result *IC Ct IC Ct IC Ct GBS Ct GBS GBS Ct
+Control (Mean) (SD) Acceptable (Mean) Ct Acceptable
+Range (SD) Range
+1 Positive Valid 34.2 1.6 28 – 40 35.1 0.32 10 – 42
+Negative Valid 34.2 1.71 28 – 40 **N/A - -
+2 Positive Valid 34.6 1.35 28 – 40 35.1 0.44 10 – 42
+Negative Valid 34.8 1.55 28 – 40 **N/A - -
+3 Positive Valid 34.5 1.62 28 – 40 35.2 0.32 10 – 42
+Negative Valid 34.2 1.82 28 – 40 **N/A - -
+6 Positive Valid 34.6 1.31 28 – 40 35.0 0.39 10 – 42
+Negative Valid 35.0 2.16 28 – 40 **N/A - -
+12 Positive Valid 33.3 1.61 28 – 40 35.1 0.47 10 – 42
+Negative Valid 33.8 1.77 28 – 40 **N/A - -
+14 Positive Valid 34.6 1.82 28 – 40 35.1 0.31 10 – 42
+Negative Valid 34.6 1.63 28 – 40 **N/A - -
+TOTAL Positive - 34.5 1.59 28 – 40 35.09 0.37 10 – 42
+TOTAL Negative - 34.55 1.82 28 – 40 **N/A - -
+*Internal control (IC) verifies the performance of the PCR reagents and assesses
+the presence of sample inhibitors. The IC should be positive in a negative
+9
+
+[Table 1 on page 9]
+Site No.	External
+Control	Result	*IC Ct
+(Mean)	IC Ct
+(SD)	IC Ct
+Acceptable
+Range	GBS Ct
+(Mean)	GBS
+Ct
+(SD)	GBS Ct
+Acceptable
+Range
+1	Positive	Valid	34.2	1.6	28 – 40	35.1	0.32	10 – 42
+	Negative	Valid	34.2	1.71	28 – 40	**N/A	-	-
+2	Positive	Valid	34.6	1.35	28 – 40	35.1	0.44	10 – 42
+	Negative	Valid	34.8	1.55	28 – 40	**N/A	-	-
+3	Positive	Valid	34.5	1.62	28 – 40	35.2	0.32	10 – 42
+	Negative	Valid	34.2	1.82	28 – 40	**N/A	-	-
+6	Positive	Valid	34.6	1.31	28 – 40	35.0	0.39	10 – 42
+	Negative	Valid	35.0	2.16	28 – 40	**N/A	-	-
+12	Positive	Valid	33.3	1.61	28 – 40	35.1	0.47	10 – 42
+	Negative	Valid	33.8	1.77	28 – 40	**N/A	-	-
+14	Positive	Valid	34.6	1.82	28 – 40	35.1	0.31	10 – 42
+	Negative	Valid	34.6	1.63	28 – 40	**N/A	-	-
+TOTAL	Positive	-	34.5	1.59	28 – 40	35.09	0.37	10 – 42
+TOTAL	Negative	-	34.55	1.82	28 – 40	**N/A	-	-
+
+--- Page 10 ---
+sample and can be negative in a positive sample. The IC passes if it meets the
+validated acceptance criteria.
+**N/A – Not applicable (The GBS target for the Negative Control does not
+have a Ct within the valid range and/or does not have an endpoint above the
+endpoint minimum setting.)
+QC Results for Antepartum Study
+Site No. External Result *IC Ct IC Ct IC Ct GBS Ct GBS GBS Ct
+Control (Mean) (SD) Acceptable (Mean) Ct Acceptable
+Range (SD) Range
+1 Positive Valid 32.39 0.35 28 – 40 34.31 0.28 10 – 42
+Negative Valid 32.5 0.35 28 – 40 **N/A - -
+14 Positive Valid 32.39 0.29 28 – 40 34.12 0.32 10 – 42
+Negative Valid 32.46 0.35 28 – 40 **N/A - -
+15 Positive Valid 32.36 0.25 28 – 40 34.33 0.51 10 – 42
+Negative Valid 32.49 0.4 28 – 40 **N/A - -
+TOTAL Positive - 32.4 0.3 28 – 40 34.2 0.4 10 – 42
+TOTAL Negative - 32.5 0.4 28 – 40 **N/A - -
+*Internal control (IC) verifies the performance of the PCR reagents and assesses
+the presence of sample inhibitors. The IC should be positive in a negative
+sample and can be negative in a positive sample. The IC passes if it meets the
+validated acceptance criteria.
+**N/A – Not applicable (The GBS target for the Negative Control does not
+have a Ct within the valid range and/or does not have an endpoint above the
+endpoint minimum setting.)
+Stability
+Stability study was performed using one lot of Smart GBS™. Reagents beads
+being stored at 4ºC, 25ºC, 35ºC and 45ºC were evaluated at predefined time point
+intervals up to 24 months. Additionally assay reagent pouches being stored at 5ºC (+/-
+3ºC) that have been opened and re-sealed to mimic use were tested at specific pre-defined
+time points.
+Shelf-life for the Smart GBS™ is for a minimum of 6 months if the Smart GBS™
+reagents are stored at room temperature (18-25°C) and for 12 months if the reagents are
+stored refrigerated at 4°C (2-8°C).
+d. Detection limit:
+The analytical sensitivity was determined using 11 S. agalactiae strains
+representing 9 GBS serotypes (Ia, Ib, II, III, IV, V, VII, and VIII). Dilutions were made
+to represent 250, 500, and 750 colony forming units (CFUs) per swab and tested in
+replicates of four. Each swab was processed using the Smart GBS™ (direct method).
+The lowest concentration of each subtype resulting in a positive result in all four
+replicates was 250 CFU/swab as shown in the table below.
+Limit of Detection Obtained for Each Serotype Tested
+10
+
+[Table 1 on page 10]
+Site No.	External
+Control	Result	*IC Ct
+(Mean)	IC Ct
+(SD)	IC Ct
+Acceptable
+Range	GBS Ct
+(Mean)	GBS
+Ct
+(SD)	GBS Ct
+Acceptable
+Range
+1	Positive	Valid	32.39	0.35	28 – 40	34.31	0.28	10 – 42
+	Negative	Valid	32.5	0.35	28 – 40	**N/A	-	-
+14	Positive	Valid	32.39	0.29	28 – 40	34.12	0.32	10 – 42
+	Negative	Valid	32.46	0.35	28 – 40	**N/A	-	-
+15	Positive	Valid	32.36	0.25	28 – 40	34.33	0.51	10 – 42
+	Negative	Valid	32.49	0.4	28 – 40	**N/A	-	-
+TOTAL	Positive	-	32.4	0.3	28 – 40	34.2	0.4	10 – 42
+TOTAL	Negative	-	32.5	0.4	28 – 40	**N/A	-	-
+
+--- Page 11 ---
+Serotype CFU/Swab CFU/Reaction
+ATCC 12973 (II) 250 4
+Ia/c 250 4
+Ib/c 500 8
+II 250 4
+III 250 4
+IV 250 4
+IVc 500 8
+V 250 4
+VI 500 8
+VII 250 4
+VIII 500 8
+The Limit Of Detection (LOD) was evaluated in a separate study using groups of
+swabs (n=20) spiked with GBS Serotype II (75 µL/swab) at 4 concentrations (100, 250,
+500, and 750 CFU). The LOD was shown to be 750 CFU/swab (20/20 detected). Results
+are summarized in the chart below.
+Smart GBS™ Limit of Detection Summary Results
+Estimated CFU per rxn
+CFU per swab # positive (n=20)
+(8 µl lysate)
+750 12 20/20
+500 8.0 16/20
+250 4.0 13/20
+100 1.6 3/20
+No GBS 0.0 0/20
+e. Analytical specificity:
+Purified DNA from 101 strains representing 28 Streptococci, 73 other species
+including strains phylogenetically related to Streptococcus agalactiae, other microflora
+(bacteria and yeasts) commonly found in vaginal/anal flora, and human DNA were tested.
+All strains were tested in triplicate at 1.5 ng per 25 µL reaction (approximately 2e5
+equivalent genome copies per reaction). None of the 28 Streptococcal isolates (non-
+GBS) tested positive. Of the remaining 73 strains, 4 (Enterococcus gallinarium,
+Staphylococcus simulans, Micrococcus luteus and Propionibacterium acnes) were
+weakly positive in one of six replicates.
+Interference Testing-Endogenous Substances
+Thirteen samples of amniotic fluid contaminated with meconium, blood or human
+blood, human sera, urine, feces, and 2 types of lubricant were tested to evaluate the
+effects of potentially interfering endogenous substances that may be present in
+vaginal/rectal specimens on the Smart GBS™. All substances were tested undiluted or
+“neat” at concentrations close to saturation. Results showed that high concentrations of
+interfering substances, more than typically encountered in clinical specimens, did not
+interfere with the qualitative interpretation of results below the LOD (e.g., all GBS
+samples were still positive even though signals were reduced), except for feces. In the
+presence of feces, the IC signal was reduced with up to 94% GBS inhibition which
+11
+
+[Table 1 on page 11]
+CFU per swab	Estimated CFU per rxn
+(8 µl lysate)	# positive (n=20)
+750	12	20/20
+500	8.0	16/20
+250	4.0	13/20
+100	1.6	3/20
+No GBS	0.0	0/20
+
+--- Page 12 ---
+suggests that IC would likely fail in the presence of high level of feces.
+Of the 774 patients in the final dataset, 235 specimen swabs were observed to
+contain at least one of the following pre-identified substances that could potentially
+interfere with the assay. The list of contaminants and the performance of the Smart
+GBS ™assay is shown in the table below.
+Interfering Substances
+Contaminants No.of Sensitivity Specificity
+1
+Specimens
+All contaminants 235 82.14 96.59
+Blood 80 90.00% 96.67%
+Feces 51 87.50% 94.29%
+Mucous 84 70.59% 95.52%
+Lubricant 43 60.00% 96.97%
+2 3 100% 100%
+Meconium
+Amniotic Fluid 72 86.67% 98.25%
+1Note: some specimens contain more than one of the above substances.
+2Three specimens: 2 True Negative and 1 True Positive
+f. Assay cut-off:
+The following table demonstrates the acceptance criteria to distinguish a
+positive result from a negative result which is required for interpretation of
+data.
+Acceptance Criteria for Smart GBS™ Assay
+Acceptance GBS Target Internal
+Criteria Control
+(FAM) Negative Control
+Positive Control
+(TxRed)
+(FAM) (TxRed) (FAM) (TxRed)
+Manual 20 20 20 20 20 20
+Threshold
+Min Endpoint 20 20 20 20 20 20
+Min Cycle 10 10 28 10 28 10
+threshold
+Max Cycle 42 42 40 42 40 42
+threshold
+Probe Check 50 50 50 50 50 50
+The acceptance criteria for GBS target were determined using valid minimum and
+maximum GBS Ct settings derived from analytical data including simulated inhibitory
+12
+
+[Table 1 on page 12]
+Contaminants	No.of
+1
+Specimens	Sensitivity	Specificity
+All contaminants	235	82.14	96.59
+Blood	80	90.00%	96.67%
+Feces	51	87.50%	94.29%
+Mucous	84	70.59%	95.52%
+Lubricant	43	60.00%	96.97%
+2
+Meconium	3	100%	100%
+Amniotic Fluid	72	86.67%	98.25%
+
+[Table 2 on page 12]
+Acceptance
+Criteria	GBS Target
+(FAM)	Internal
+Control
+(TxRed)	Positive Control		Negative Control	
+			(FAM)	(TxRed)	(FAM)	(TxRed)
+Manual
+Threshold	20	20	20	20	20	20
+Min Endpoint	20	20	20	20	20	20
+Min Cycle
+threshold	10	10	28	10	28	10
+Max Cycle
+threshold	42	42	40	42	40	42
+Probe Check	50	50	50	50	50	50
+
+[Table 3 on page 12]
+Acceptance
+Criteria
+
+[Table 4 on page 12]
+GBS Target
+(FAM)
+
+[Table 5 on page 12]
+Internal
+Control
+(TxRed)
+
+[Table 6 on page 12]
+
+
+Positive Control
+
+[Table 7 on page 12]
+
+Negative Control
+
+--- Page 13 ---
+studies (Ferric Ammonium Chloride (FAC) testing), GBS-positive endogenous inhibitory
+samples (ES), and pre-clinical data using the direct sample preparation method. Two kit
+lots are represented in the pre-clinical positives. Statistical representation of data is
+presented in the table below.
+Statistical Representation of Data used to Determine Acceptance Criteria for the
+Target GBS
+Valid GBS Ct Range FAC Endogenous Pre-Clinical Pre-Clinical
+substances positives positives
+(5 µL lysate) (10 µL lysate)
+(n=49) (n=38) (n=56) (n=57)
+GBS 10-42
+mean
+39.3 34.8 32.3 31.2
+sd
+1.3 0.7 5.8 5.9
+min
+37.2 32.3 19.8 18.9
+max
+41.9 36.0 42.0 40.5
+The determination of acceptance criteria for the internal control were determined using
+valid minimum and maximum IC Cycle treshold (Ct) settings derived from analytical
+data (GBS-negative bead release testing over 4 lots), simulated inhibitory studies (FAC
+testing), GBS-negative endogenous inhibitory samples (ES), and pre-clinical data using
+the direct method. Two kit lots are represented in the pre-clinical negatives. Statistical
+representation is detailed in the table below.
+Statistical Representation of Data used to Determine Acceptance Criteria for the
+Internal Control (IC)
+Valid IC Ct Range Bead Release FAC Endogenous Pre-Clinical negatives
+substances (10 µL lysate)
+(n=196) (n=20) (n=21) (n=177)
+IC 28-40
+mean 35.7 34.8 34.1
+32.7
+sd 0.9 1.1 1.5
+1.1
+min 33.2 32.0 28.8
+30.7
+max 36.9 36.1 37.8
+36.5
+2. Comparison studies:
+a. Method comparison with predicate device:
+Double swab sets were used for clinical evaluation, for a total of 4 swabs
+from each subject. For the first double swab collected, one swab was used for the
+culture procedure and the second swab for the Smart GBS™. For the second
+double swab, one swab was used for the Xpert GBS™ Assay and the other swab
+for the predicate nucleic acid amplification test (NAAT) assay. The predicate
+NAAT assay targets a sequence in the cfb gene and was previously FDA-cleared
+however results from this test were not used in performance estimations.
+13
+
+[Table 1 on page 13]
+	Valid GBS Ct Range	FAC	Endogenous
+substances	Pre-Clinical
+positives
+(5 µL lysate)	Pre-Clinical
+positives
+(10 µL lysate)
+		(n=49)	(n=38)	(n=56)	(n=57)
+GBS	10-42				
+mean		39.3	34.8	32.3	31.2
+sd		1.3	0.7	5.8	5.9
+min		37.2	32.3	19.8	18.9
+max		41.9	36.0	42.0	40.5
+
+[Table 2 on page 13]
+	Valid IC Ct Range	Bead Release	FAC	Endogenous
+substances	Pre-Clinical negatives
+(10 µL lysate)
+		(n=196)	(n=20)	(n=21)	(n=177)
+IC	28-40				
+mean		32.7	35.7	34.8	34.1
+sd		1.1	0.9	1.1	1.5
+min		30.7	33.2	32.0	28.8
+max		36.5	36.9	36.1	37.8
+
+--- Page 14 ---
+Direct Comparison of the Two PCR Tests from the Intrapartum/Antepartum Study
+Culture Positive Culture Negative Culture ND
+2nd 2nd 2nd 2nd 2nd 2nd
+NAAT NAAT NAAT NAAT NAAT NAAT
+Pos Neg Unresolved Pos Neg Unresolved Pos Neg Unresolved Total
+Smart
+GBS Pos 137 13 1 12 9 0 0 0 0 172
+Smart
+GBS Neg 13 21 0 13 554 1 0 5 0 607
+Smart
+GBS
+NoResult 0 0 0 2 12 0 0 0 0 14
+Total 150 34 1 27 575 1 0 5 0 793
+Direct Comparison of the Two PCR Tests from the Antepartum (only) Study
+Culture Positive Culture Negative Culture ND
+2nd 2nd 2nd 2nd 2nd 2nd
+NAAT NAAT NAAT NAAT NAAT NAAT
+Pos Neg Unresolved Pos Neg Unresolved Pos Neg Unresolved Total
+Smart
+GBS Pos 61 13 0 5 17 0 0 0 0 96
+Smart
+GBS Neg 0 1 0 4 205 0 0 0 0 210
+Smart
+GBS
+NoResult 0 0 0 0 0 0 0 0 0 0
+Total 61 14 0 9 222 0 0 0 0 306
+nd 1
+Performance of Smart GBS™ and 2 NAAT Test Relative to Culture from the
+Intrapartum/Antepartum Study
+Smart GBS ™ 2nd NAAT
+Low Upper Lower Upper Low Upper Lower Upper
+Category Sensitivity CI CI Specificity CI CI Sensitivity CI CI Specificity CI CI
+Overall 81.6% 75.3% 86.9% 96.4% 94.6% 97.8% 81.5% 75.2% 86.9% 95.5% 93.5% 97.0%
+(151/185) (568/589) (150/184) (575/602)
+Antepartum 78.3% 68.4% 86.2% 95.6% 92.5% 97.7% 79.4% 69.6% 87.1% 96.1% 93.1% 98.0%
+(72/92) (261/273) (73/92) (269/280)
+Intrapartum 84.9% 76.0% 91.5% 97.2% 94.7% 98.7% 83.7% 74.5% 90.6% 95.0% 92.1% 97.1%
+(79/93) (307/316) (77/92) (306/322)
+2
+ROM 87.0% 66.4% 97.2% 96.2% 90.5% 99.0% 90.9% 70.8% 98.9% 95.2% 89.2% 98.4%
+(20/23) (101/105) (20/22) (100/105)
+3
+Not ROM 84.3% 73.6% 91.9% 97.6% 94.6% 99.2% 81.4% 70.3% 89.7% 94.9% 91.1% 97.4%
+(59/70) (206/211) (57/70) (206/217)
+1 nd
+The 2 NAAT targets a sequence in the cfb gene and was previously FDA-cleared.
+2
+Subset of intrapartum women who had specimens collected after membrane rupture (rupture of
+membrane, ROM).
+3
+Subset of intrapartum women who had specimens collected before membrane rupture (ROM).
+14
+
+[Table 1 on page 14]
+Culture Positive
+2nd 2nd
+NAAT NAAT
+Pos Neg Unresolved			Culture Negative
+2nd 2nd
+NAAT NAAT
+Pos Neg Unresolved			Culture ND
+2nd 2nd
+NAAT NAAT
+Pos Neg Unresolved		
+137	13	1	12	9	0	0	0	0
+13	21	0	13	554	1	0	5	0
+0	0	0	2	12	0	0	0	0
+
+[Table 2 on page 14]
+Culture Positive
+2nd 2nd
+NAAT NAAT
+Pos Neg Unresolved			Culture Negative
+2nd 2nd
+NAAT NAAT
+Pos Neg Unresolved			Culture ND
+2nd 2nd
+NAAT NAAT
+Pos Neg Unresolved		
+61	13	0	5	17	0	0	0	0
+0	1	0	4	205	0	0	0	0
+0	0	0	0	0	0	0	0	0
+
+[Table 3 on page 14]
+Category	™
+Smart GBS
+Low Upper Lower Upper
+Sensitivity CI CI Specificity CI CI		2nd NAAT
+Low Upper Lower Upper
+Sensitivity CI CI Specificity CI CI	
+Overall	81.6% 75.3% 86.9%
+(151/185)	96.4% 94.6% 97.8%
+(568/589)	81.5% 75.2% 86.9%
+(150/184)	95.5% 93.5% 97.0%
+(575/602)
+Antepartum	78.3% 68.4% 86.2%
+(72/92)	95.6% 92.5% 97.7%
+(261/273)	79.4% 69.6% 87.1%
+(73/92)	96.1% 93.1% 98.0%
+(269/280)
+Intrapartum	84.9% 76.0% 91.5%
+(79/93)	97.2% 94.7% 98.7%
+(307/316)	83.7% 74.5% 90.6%
+(77/92)	95.0% 92.1% 97.1%
+(306/322)
+2
+ROM	87.0% 66.4% 97.2%
+(20/23)	96.2% 90.5% 99.0%
+(101/105)	90.9% 70.8% 98.9%
+(20/22)	95.2% 89.2% 98.4%
+(100/105)
+3
+Not ROM	84.3% 73.6% 91.9%
+(59/70)	97.6% 94.6% 99.2%
+(206/211)	81.4% 70.3% 89.7%
+(57/70)	94.9% 91.1% 97.4%
+(206/217)
+
+--- Page 15 ---
+nd 1
+Performance of Smart GBS™ and 2 NAAT Test Relative to Culture from the
+Antepartum (only) Study
+Smart GBS ™ 2nd NAAT
+Low Upper Lower Upper Low Upper Lower Upper
+Category Sensitivity CI CI Specificity CI CI Sensitivity CI CI Specificity CI CI
+Antepartum 98.7% 92.8% 100.0% 90.5% 85.9% 93.9% 81.3% 70.7% 89.4 96.1% 92.7% 98.2%
+(74/75) (209/231) (61/75) (222/231)
+1 nd
+The 2 NAAT targets a sequence in the cfb gene and was previously FDA-cleared.
+b. Matrix comparison:
+Not Applicable
+3. Clinical studies:
+Performance characteristics of the Smart GBS ™ Assay were determined in
+two multi-site studies. The first study was conducted at six institutions and included
+intrapartum and antepartum subjects using the direct method of inoculation. The
+second study included antepartum subjects only using the enriched method of
+inoculation and was conducted at 3 institutions with maternity services in the United
+States. Each institution had a culture-based or NAAT based screening program.
+Testing was done in clinical laboratories affiliated with each institution as well as the
+labor and delivery area.
+To be enrolled in the intrapartum portion of the study, women had to provide
+written consent, be in labor, and have no contraindication to vaginal examination (for
+example, bleeding). To be enrolled in the antepartum portion of the studies, women
+had to provide written consent, be at 35-37 weeks gestation, and have no
+contraindication to vaginal examination (for example, bleeding). There was also no
+evidence of placenta previa, no urgent indication to proceed to delivery, and no
+antibiotic used in the week prior to admission for all subjects.
+Vaginal/rectal specimens were collected from each of the 793 eligible subjects
+in the intrapartum/antepartum study and 307 eligible subjects in the antepartum study.
+In the intrapartum/antepartum study, specimens were collected using two sets of
+double-marked swabs. One of the swabs from the first set was used for culturing and
+the other swab was used for Smart GBS™ Assay testing by direct method on the
+SmartCycler Dx System. The second set of double-marked swabs was divided as
+follows: one swab was used in the Xpert GBS Assay on the GeneXpert Dx System;
+the other was used in the second NAAT assay. After use in these tests, each of these
+swabs was also placed into Lim culture broth, incubated, subcultured onto blood agar
+plate (BAP) and observed for GBS.
+In the antepartum study, specimens were collected using one double-marked
+swab. One of the swabs was placed into Lim culture broth, incubated, subcultured
+onto blood agar plate (BAP) and observed for GBS. A portion of the Lim culture
+broth was tested by Smart GBS™ Assay using the enriched method on the
+15
+
+[Table 1 on page 15]
+Category	™
+Smart GBS
+Low Upper Lower Upper
+Sensitivity CI CI Specificity CI CI		2nd NAAT
+Low Upper Lower Upper
+Sensitivity CI CI Specificity CI CI	
+Antepartum	98.7% 92.8% 100.0%
+(74/75)	90.5% 85.9% 93.9%
+(209/231)	81.3% 70.7% 89.4
+(61/75)	96.1% 92.7% 98.2%
+(222/231)
+
+--- Page 16 ---
+SmartCycler Dx System. The second swab was used in the secondary NAAT assay,
+as described above. After use in the second NAAT assay, the swab was also placed
+into Lim culture broth, incubated, subcultured onto blood agar plate (BAP) and
+observed for GBS.
+The reference method used was the culture technique recommended in the 2002
+CDC guidelines “Prevention of Perinatal Group B Streptococcal Disease: A Public
+Health Perspective” i.e., microbiological culture in selective broth medium (Lim
+broth, which is Todd-Hewitt broth supplemented with 15 µg/ml of nalidixic acid, and
+10 µg/ml of colistin), followed by 18-24 h incubation, and subculture onto BAP.
+Specific identification of colonies suggestive of GBS was done with slide
+agglutination tests.
+Overall Results
+The performance characteristics of the Smart GBS™ Assay were evaluated from
+laboratory testing done in two clinical trials. In a trial of intrapartum and antepartum
+maternity patients, 774 specimens were analyzed (409 intrapartum and 365
+antepartum). In a trial of antepartum only maternity patients, 306 specimens were
+evaluated. All subjects had culturing done (as described above) and most also had a
+second GBS NAAT performed. The second NAAT targets a sequence in the cfb gene
+and was previously FDA-cleared; results from this test were not used in performance
+estimations.
+Of the 793 eligible patients for the intrapartum/antepartum study, there were 723
+reportable results with the Smart GBS™ assay on the first attempt (91.2%). Seventy
+samples did not have reportable results (37 invalids due to failed internal control and
+33 tests due to failed external control in 4 invalid runs) however, 56 of these cases
+resolved upon repeat testing. Overall, 185 women had cultures positive for GBS from
+the single swab used for culture. The Smart GBS™ assay yielded 151 positive results
+initially (151/185, 81.6%). After repeat testing, the positive remained at 81.6%. Six
+hundred three women had negative cultures and 545 were negative initially with
+Smart GBS™ testing (90.4%), and 568 after repeat testing (94.2%).
+The table below shows Smart GBS™ testing based on the positive and negative
+GBS culture findings for 774 subjects (14 subjects had no Smart GBS™ results after
+2 attempts and 5 cultures were overgrown or could not be otherwise interpreted).
+Summary of results are based upon after repeat-testing. There were 14 cases that
+remained unresolved even after repeat testing (n = 37).
+16
+
+--- Page 17 ---
+Smart GBS™ Results and Estimated Performance by Patient Category from the
+Intrapartum/Antepartum Study
+All Patients Total N 1 Culture Culture Sensitivity Specificity PPV 6 NPV 7
+Positive Negative [95% confidence] [95% confidence] [95% confidence] [95% confidence]
+Patients1 Patients1
+Smart GBS 172(172) 151(151) 21(21)
+Pos
+Smart GBS 602(579) 34(34) 568(545) 81.6% 96.3% 87.8% 94.1%
+Neg [75.3%-86.9%] [94.4%-97.7%] [81.9%-92.3%] [91.9%-95.9%]
+No Result2 14(37) 0(0) 14(37)
+Total 788 1853 603
+All invalid results were repeated as described in the package insert. The values for repeated sensitivity is 81.6%,
+specificity is 96.4%, PPV is 87.8%, and NPV is 94.4%.
+Ante-partum Total N 1 Culture Culture Sensitivity Specificity PPV 6 NPV 7
+Positive Negative [95% confidence] [95% confidence] [95% confidence] [95% confidence]
+Patients1 Patients1
+Smart GBS 84(84) 72(72) 12(12)
+Pos
+Smart GBS 281(221) 20(20) 261(251) 78.3% 95.4% 85.7% 92.6%
+Neg [68.4%-86.2%] [92.2%-97.6%] [76.4%-92.4%] [88.8%-95.4%]
+No Result2 7(17) 0(0) 7(20)
+Total 372 92 280
+All invalid results were repeated as described in the package insert. The values for repeated sensitivity is 78.3%,
+specificity is 95.6%, PPV is 85.7%, and NPV is 92.9%.
+Intra-partum Total N 1 Culture Culture Sensitivity Specificity PPV 6 NPV 7
+Positive Negative [95% confidence] [95% confidence] [95% confidence] [95% confidence]
+Patients1 Patients1
+Smart GBS 88(88) 79(79) 9(9)
+Pos
+Smart GBS 321(308) 14(14) 307(294) 85.0% 97.0% 89.8% 95.5%
+Neg [76.0%-91.5%] [94.4%-98.6%] [81.5%-95.2%] [92.5%-97.5%]
+No Result2 7(20) 0(0) 7(20)
+Total 416 92 323
+All invalid results were repeated as described in the package insert. The values for repeated sensitivity is 84.9%,
+specificity is 97.2%, PPV is 89.8%, and NPV is 95.6%.
+ROM4 Total N 1 Culture Culture Sensitivity Specificity PPV 6 NPV 7
+Positive Negative [95% confidence] [95% confidence] [95% confidence] [95% confidence]
+Patients1 Patients1
+Smart GBS 24(24) 20(20) 4(4)
+Pos
+Smart GBS 104(99) 3(3) 101(96) 87.0% 96.0% 83.3% 97.0%
+Neg [66.4%-97.2%] [90.1%-98.9%] [62.6%-95.3%] [91.4%-99.4%]
+No Result2 1(6) 0(0) 1(6)
+Total 129 23 106
+All invalid results were repeated as described in the package insert. The values for repeated sensitivity is 87.0%,
+specificity is 96.2%, and NPV 97.1%.
+No ROM 5 Total N 1 Culture Culture Sensitivity Specificity PPV 6 NPV 7
+Positive Negative [95% confidence] [95% confidence] [95% confidence] [95% confidence]
+Patients1 Patients1
+Smart GBS 64(64) 59(59) 5(5)
+Pos
+Smart GBS 217(210) 11(11) 206(199) 84.3% 97.6% 92.2% 94.8%
+Neg [73.6%-91.9%] [94.4%-99.2%] [82.7%-97.4%] [90.8%-97.4%]
+No Result2 6(13) 0(0) 6(13)
+Total 287 70 217
+All invalid results were repeated as described in the package insert. The values for repeated sensitivity is 84.3%,
+specificity is 97.6%, PPV is 92.2%, and NPV is 94.9%.
+1 All SmartCycler results are shown after repeat testing. Initial test results are in parenthesis.
+17
+
+[Table 1 on page 17]
+All Patients	Total N 1	Culture
+Positive
+Patients1	Culture
+Negative
+Patients1	Sensitivity
+[95% confidence]	Specificity
+[95% confidence]	PPV 6
+[95% confidence]	NPV 7
+[95% confidence]
+Smart GBS
+Pos	172(172)	151(151)	21(21)	81.6%
+[75.3%-86.9%]	96.3%
+[94.4%-97.7%]	87.8%
+[81.9%-92.3%]	94.1%
+[91.9%-95.9%]
+Smart GBS
+Neg	602(579)	34(34)	568(545)				
+No Result2	14(37)	0(0)	14(37)				
+Total	788	1853	603				
+
+[Table 2 on page 17]
+Ante-partum	Total N 1	Culture
+Positive
+Patients1	Culture
+Negative
+Patients1	Sensitivity
+[95% confidence]	Specificity
+[95% confidence]	PPV 6
+[95% confidence]	NPV 7
+[95% confidence]
+Smart GBS
+Pos	84(84)	72(72)	12(12)	78.3%
+[68.4%-86.2%]	95.4%
+[92.2%-97.6%]	85.7%
+[76.4%-92.4%]	92.6%
+[88.8%-95.4%]
+Smart GBS
+Neg	281(221)	20(20)	261(251)				
+No Result2	7(17)	0(0)	7(20)				
+Total	372	92	280				
+
+[Table 3 on page 17]
+Intra-partum	Total N 1	Culture
+Positive
+Patients1	Culture
+Negative
+Patients1	Sensitivity
+[95% confidence]	Specificity
+[95% confidence]	PPV 6
+[95% confidence]	NPV 7
+[95% confidence]
+Smart GBS
+Pos	88(88)	79(79)	9(9)	85.0%
+[76.0%-91.5%]	97.0%
+[94.4%-98.6%]	89.8%
+[81.5%-95.2%]	95.5%
+[92.5%-97.5%]
+Smart GBS
+Neg	321(308)	14(14)	307(294)				
+No Result2	7(20)	0(0)	7(20)				
+Total	416	92	323				
+
+[Table 4 on page 17]
+ROM4	Total N 1	Culture
+Positive
+Patients1	Culture
+Negative
+Patients1	Sensitivity
+[95% confidence]	Specificity
+[95% confidence]	PPV 6
+[95% confidence]	NPV 7
+[95% confidence]
+Smart GBS
+Pos	24(24)	20(20)	4(4)	87.0%
+[66.4%-97.2%]	96.0%
+[90.1%-98.9%]	83.3%
+[62.6%-95.3%]	97.0%
+[91.4%-99.4%]
+Smart GBS
+Neg	104(99)	3(3)	101(96)				
+No Result2	1(6)	0(0)	1(6)				
+Total	129	23	106				
+
+[Table 5 on page 17]
+No ROM 5	Total N 1	Culture
+Positive
+Patients1	Culture
+Negative
+Patients1	Sensitivity
+[95% confidence]	Specificity
+[95% confidence]	PPV 6
+[95% confidence]	NPV 7
+[95% confidence]
+Smart GBS
+Pos	64(64)	59(59)	5(5)	84.3%
+[73.6%-91.9%]	97.6%
+[94.4%-99.2%]	92.2%
+[82.7%-97.4%]	94.8%
+[90.8%-97.4%]
+Smart GBS
+Neg	217(210)	11(11)	206(199)				
+No Result2	6(13)	0(0)	6(13)				
+Total	287	70	217				
+
+--- Page 18 ---
+2
+‘No results’ from an Smart GBS test could be due to an invalid test because of failed internal control or
+invalid run, or system error.
+3
+Overall prevalence of GBS colonization as determined by culture is 23.5%
+4
+The subset of intrapartum women who had specimens collected after membrane rupture (rupture of
+membrane, ROM).
+5
+The subset of intrapartum women who had specimens collected before membrane rupture (ROM). There
+would be no biological differences expected between these intrapartum specimens and those collected
+antepartum.
+6
+Positive predictive value.
+7
+Negative predictive value.
+In the antepartum study, there were 307 eligible patients. Only 306 samples were
+analyzed since one sample was not provided. Of the 306 cases, the Smart GBS™
+assays yielded 301 reportable results on the first attempt (98.4%). There were 5 non-
+reportable results (2 were invalid due to failed internal control and 3 due to failed
+external control in 1 invalid run) however all of these cases resolved upon repeat
+testing. Overall, 75 women had positive culture for GBS from the single swab used
+for culture. The Smart GBS™ assay yielded 74 positive results initially (98.7%)
+which remained the same after repeat testing. Two hundred thirty one women had
+negative cultures and 207 were negative initially with Smart GBS™ testing (89.6%),
+and 209 after repeat testing (90.5%). The results of this clinical trial are summarized
+in the table below.
+Smart GBS™ LB (Enriched Method) Results and Estimated Performance from the
+Antepartum (only) Study
+Ante-partum Total N 1 Culture Culture Sensitivity Specificity PPV3 NPV4
+Positive Negative [95% confidence] [95% confidence] [95% confidence] [95% confidence]
+Patients1 Patients1
+Smart GBS 96(96) 74(74) 22(22)
+Pos
+98.7% 99.5%
+Smart GBS 210(208) 1(1) 209(207) 90.4% 77.1%
+[92.8%- [97.4%-
+Neg [85.8%-93.9%] [67.4%-85.1%]
+100.0%] 100.00%]
+No Result2 0(2) 0(0) 0(2)
+Total 306 75 231
+All invalid results were repeated as described in the package insert. The values for repeated sensitivity is 98.7%,
+specificity is 90.5%, PPV is 77.1%, and NPV is 99.5%.
+1
+All SmartCycler results are shown after repeat testing. Initial test results are in parenthesis.
+2
+‘No results’ from a Smart GBS test could be due to an invalid test because of failed internal control or
+invalid run or system error.
+3
+Positive predictive value.
+4
+Negative predictive value.
+a. Clinical Sensitivity:
+Not Applicable
+b. Clinical specificity:
+18
+
+[Table 1 on page 18]
+Ante-partum	Total N 1	Culture
+Positive
+Patients1	Culture
+Negative
+Patients1	Sensitivity
+[95% confidence]	Specificity
+[95% confidence]	PPV3
+[95% confidence]	NPV4
+[95% confidence]
+Smart GBS
+Pos	96(96)	74(74)	22(22)	98.7%
+[92.8%-
+100.0%]	90.4%
+[85.8%-93.9%]	77.1%
+[67.4%-85.1%]	99.5%
+[97.4%-
+100.00%]
+Smart GBS
+Neg	210(208)	1(1)	209(207)				
+No Result2	0(2)	0(0)	0(2)				
+Total	306	75	231				
+
+--- Page 19 ---
+Not Applicable
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not Applicable
+4. Clinical cut-off:
+Reported as Positive or Negative
+5. Expected values/Reference range:
+Positive - GBS target DNA is detected (presumptive for GBS colonization).
+External Positive and Negative Run Controls are valid.
+• Probe check results pass. The GBS target has a Ct within the valid
+range and endpoint above the endpoint minimum setting. IC is ignored since
+GBS amplification may compete with this control.
+Negative - GBS target DNA is not detected (presumed not colonized with GBS),
+IC meets acceptance criteria. External Positive and Negative Run Controls are
+valid.
+• Probe check results pass. The GBS target does not have a Ct
+within the valid range and/or does not have an endpoint above the endpoint
+minimum setting. The IC has a Ct within the valid range and endpoint above
+the endpoint minimum setting.
+Invalid - Presence or absence of GBS DNA cannot be determined. One or both
+of the following may apply:
+• Individual patient sample - The Target result is negative and the IC
+failed. Invalid results are typically caused by inhibition of the PCR
+amplification of both the GBS template and the IC.
+• External Positive Control and/or Negative Control - The control did
+not meet acceptance criteria. This invalidates the entire run.
+ND - Presence or absence of GBS DNA cannot be determined. An I-CORE
+module error was detected during analysis of sample.
+No Result - Presence or absence of GBS DNA cannot be determined. This result
+is reported if an insufficient number of cycles were completed, which may happen
+if the test was stopped by operator before the run was completed or a power
+failure occurred during the run.
+When performing intrapartum testing; repeat testing may not be feasible
+and will depend on practices and policies within each facility. Coordination
+between clinicians and the testing laboratory is important to not delay
+administration of antibiotics while results are pending.
+19
+
+--- Page 20 ---
+Repeat the test if one or more of the following occurs:
+• External positive and/or negative run controls have results of Invalid,
+ND, or No Result. Retest the entire run with new external positive and
+negative run controls.
+• Individual samples (not the external positive or negative run controls)
+have results of Invalid, ND, or No Result. Retest only those samples
+with new external positive and negative run controls.
+Approximately 10–30% of pregnant women are colonized with GBS in the
+vagina or rectum. GBS colonization can be transient, chronic or intermittent. Culture
+screening of both the vagina and rectum for GBS late in gestation during prenatal care
+can detect women who are likely to be colonized with GBS at the time of delivery. In
+various studies, sensitivities of 87% (83–92% CI) and 69% (57–79% CI) and specificities
+of 96% (95–98% CI) and 92% (89–94% CI) have been reported for late-prenatal cultures
+for identifying colonization status at delivery. During clinical evaluations for the Smart
+GBS™ assay, 23.8% (260/1094) women were colonized with GBS by culture methods.
+N. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+O. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+20

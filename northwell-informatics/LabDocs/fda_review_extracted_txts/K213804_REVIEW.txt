@@ -1,0 +1,1494 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K213804
+B Applicant
+Roche Molecular Systems, Inc.
+C Proprietary and Established Names
+cobas SARS-CoV-2 Qualitative for use on the cobas 6800/8800 Systems
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.3981 - Device
+to detect and identify
+nucleic acid targets in
+respiratory specimens
+QQX Class II from microbial agents that MI - Microbiology
+cause the SARS-CoV-2
+respiratory infection and
+other microbial agents
+when in a multi-target test
+II Submission/Device Overview:
+A Purpose for Submission:
+New Device
+B Measurand:
+SARS-CoV-2 RNA
+C Type of Test:
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 1 of 20
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QQX			Class II	21 CFR 866.3981 - Device
+to detect and identify
+nucleic acid targets in
+respiratory specimens
+from microbial agents that
+cause the SARS-CoV-2
+respiratory infection and
+other microbial agents
+when in a multi-target test			MI - Microbiology
+
+--- Page 2 ---
+Nucleic acid amplification test with paired reporter and quencher fluorescence labeled probes
+(TaqMan Technology) using fluorescence resonance energy transfer (FRET)
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+cobas SARS-CoV-2 Qualitative for use on the cobas 6800/8800 Systems is a real-time RT-PCR
+test intended for the qualitative detection of nucleic acids from SARS-CoV-2 in nasal and
+nasopharyngeal specimens collected from symptomatic individuals suspected of COVID-19 by
+their healthcare provider.
+Results are for the detection of SARS-CoV-2 RNA. Positive results are indicative of the
+presence of SARS-CoV-2 RNA; clinical correlation with patient history and other diagnostic
+information is necessary to determine patient infection status. Positive results do not rule out
+bacterial infection or co-infection with other pathogens.
+Negative results do not preclude SARS-CoV-2 infection and should not be used as the sole basis
+for patient management decisions. Results are meant to be used in conjuction with clinical
+observations, patient history, recent exposures and epidemiological information, and laboratory
+data, in accordance with the guidelines provided by the relevant public health authorities. cobas
+SARS-CoV-2 is intended for use by qualified clinical laboratory personnel specifically instructed
+and trained in the techniques of real-time PCR and on the use of the cobas 6800/8800 Systems.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+D Special Instrument Requirements:
+This test is to be used with the Roche cobas 6800/8800 system only.
+IV Device/System Characteristics:
+A Device Description:
+cobas SARS-CoV-2 Qualitative is based on fully automated sample preparation (nucleic acid
+extraction and purification) followed by PCR amplification and detection. The cobas 6800/8800
+Systems consists of two separate instruments, the cobas 6800 System and the cobas 8800
+System, which both are fully integrated and allow users to perform multiple PCR-based in vitro
+nucleic acid amplification tests. The cobas 6800/8800 Systems consist of the sample supply
+module, the transfer module, the processing module, and the analytic module. Automated data
+management is performed by the cobas 6800/8800 Systems software(s), which assigns test
+results for all tests. Results can be reviewed directly on the system screen and printed as a report.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 2 of 20
+
+--- Page 3 ---
+cobas 6600 instrument
+cobas 8800 instrument
+The main system functionality is provided by two Software components: the cobas 6800/8800
+System Software and Assay Specific Analysis Packages (ASAPs). The cobas 6800/8800 System
+Software provides basic functionality such as a Graphical User Interface (GUI), instrument
+management, database functionality, report engines, and LIS interfaces. ASAPs are built using a
+common Software framework and provides the assay test run conditions (sample preparation and
+PCR parameters), result analysis functionality (result calculation and algorithms), and result
+report formatting.
+Nucleic acid from patient samples and added internal control RNA (RNA IC) molecules are
+simultaneously extracted. Nucleic acid is released by addition of proteinase and lysis reagent to
+the sample. The released nucleic acid binds to the silica surface of the added magnetic glass
+particles. Unbound substances and impurities, such as denatured protein, cellular debris, and
+potential PCR inhibitors, are removed with subsequent wash steps and purified nucleic acid is
+eluted from the magnetic glass particles with elution buffer at elevated temperature. External
+controls (positive and negative) are processed in the same way.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 3 of 20
+
+--- Page 4 ---
+Selective amplification of target nucleic acid from the sample is achieved using target specific
+forward and reverse primers for ORF1 a/b non-structural region that is unique to SARS- CoV-2.
+Additionally, a conserved region in the structural protein envelope E-gene were chosen for pan-
+Sarbecovirus detection. The pan-Sarbecovirus detection sets will also detect SARS-CoV- 2 virus.
+Selective amplification of RNA IC is achieved using non-competitive sequence specific forward
+and reverse primers which have no homology with the coronavirus genome. A thermostable
+DNA polymerase enzyme is used for amplification.
+B Principle of Operation:
+The cobas SARS-CoV-2 Qualitative master mix contains detection probes which are specific for
+the coronavirus type SARS-CoV-2, members of the Sarbecovirus subgenus, and the RNA IC
+nucleic acid. The coronavirus and RNA IC detection probes are each labeled with unique
+fluorescent dyes that act as a reporter. Each probe also has a second dye which acts as a
+quencher. When not bound to the target sequence, the fluorescent signals of the intact probes are
+suppressed by the quencher dye. During the PCR amplification step, hybridization of the probes
+to the specific single-stranded DNA template results in cleavage of the probe by the 5' to 3'
+exonuclease activity of the DNA polymerase resulting in separation of the reporter and quencher
+dyes and the generation of a fluorescent signal. With each PCR cycle, increasing amounts of
+cleaved probes are generated and the cumulative signal of the reporter dye increases
+concomitantly. Each reporter dye is measured at defined wavelengths, which enables
+simultaneous detection and discrimination of the amplified coronavirus target and the RNA IC.
+The master mix includes deoxy uridine triphosphate (dUTP), instead of deoxythymidine
+triphosphate (dTTP), which is incorporated into the newly synthesized DNA (amplicon). Any
+contaminating amplicons from previous PCR runs are destroyed by the AmpErase enzyme
+[uracil-N-glycosylase], which is included in the PCR mix, when heated in the first thermal
+cycling step. However, newly formed amplicons are not destroyed since the AmpErase enzyme
+is inactivated once exposed to temperatures above 55°C.
+Reagents loaded onto the cobas 6800/8800 Systems are stored at appropriate temperatures and
+their expiration is monitored by the system. The cobas 6800/8800 Systems allow reagents to be
+used only if all the conditions are met. The system automatically prevents use of expired reagents
+via encoded radio frequency identification (RFID) tags that are placed on the reagent cassettes,
+RMC cassettes and reagent bottles. RFID Labels are used to apply information on test specific
+and generic reagent cassettes, control tube containers and generic reagent bottles utilized on the
+cobas 6800/8800 Systems.
+Components of the cobas SARS-CoV-2 Qualitative Kit
+Components Name Formulation
+Tris buffer, < 0.05% EDTA, calcium chloride, calcium acetate, 8% proteinase,
+Proteinase Solution glycerol
+(PASE) EUH210: Safety data sheet available on request.
+EUH208: Contains Subtilisin. May produce an allergic reaction.
+Tris buffer, < 0.05% EDTA, < 0.001% non-Sarbecovirus related armored RNA
+RNA Internal Control
+construct containing primer and probe specific primer sequence regions (non-
+(RNA IC)
+infectious RNA in MS2 bacteriophage), < 0.1% sodium azide
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 4 of 20
+
+[Table 1 on page 4]
+Components Name	Formulation
+Proteinase Solution
+(PASE)	Tris buffer, < 0.05% EDTA, calcium chloride, calcium acetate, 8% proteinase,
+glycerol
+EUH210: Safety data sheet available on request.
+EUH208: Contains Subtilisin. May produce an allergic reaction.
+RNA Internal Control
+(RNA IC)	Tris buffer, < 0.05% EDTA, < 0.001% non-Sarbecovirus related armored RNA
+construct containing primer and probe specific primer sequence regions (non-
+infectious RNA in MS2 bacteriophage), < 0.1% sodium azide
+
+--- Page 5 ---
+Elution Buffer
+Tris buffer, 0.2% methyl-4 hydroxybenzoate
+(EB)
+Master Mix Reagent 1
+Manganese acetate, potassium hydroxide, < 0.1% sodium azide
+(MMX-R1)
+Tricine buffer, potassium acetate, < 18% dimethyl sulfoxide,
+SARS-CoV-2 Master Mix
+glycerol, < 0.1% Tween 20, EDTA, < 0.12% dATP, dCTP, dGTP,
+Reagent 2
+dUTPs, < 0.01% upstream and downstream SARS-CoV-2 and Sarbecovirus
+(SARS-CoV-2 MMX-R2)
+primers, < 0.01% Internal Control forward and reverse primers,
+< 0.01% fluorescent-labeled oligonucleotide probes specific for SARS-CoV-2,
+Sarbecovirus, and the RNA Internal Control, < 0.01% oligonucleotide aptamer,
+< 0.1% Z05D DNA polymerase, < 0.10% AmpErase (uracil-N-glycosylase) enzyme
+(microbial), < 0.1% sodium azide
+Components of the cobas SARS-CoV-2 Qualitative Control Kit
+Components Name Formulatio
+n
+Tris buffer, < 0.05% Sodium azide, < 0.005% EDTA, < 0.003% Poly rA, < 0.01%
+SARS-CoV-2
+Non-infectious plasmid DNA (microbial) containing SARS-CoV-2 sequence,
+Positive Control
+<0.01% Non-infectious plasmid DNA (microbial) containing pan-Sarbecovirus
+(SARS-CoV-2 (+) C)
+sequence
+Components of the cobas Buffer Negative Control Kit
+Components Name Formulation
+cobas Buffer Negative
+Tris buffer, < 0.1% sodium azide, EDTA, < 0.002% Poly rA RNA (synthetic)
+Control (BUF (-) C)
+Automated data management is performed by the Assay Specific Analysis Package software
+which assigns test results for all tests. Results can be review directly on the system screen,
+exported, or printed as a report.
+The results interpretation for detecting SARS-CoV-2 is summarized below.
+cobas SARS-CoV-2 Qualitative Results Interpretation
+Target 1 Target 2 Interpretation
+(SCoV2) (PanSarb)
+All Target Results were valid. Result for SARS-CoV-2 RNA
+Positive PanSarb Positive
+is Detected.
+All Target Results were valid.
+Positive Negative
+Result for SARS-CoV-2 RNA is Detected. A positive
+Target 1 result and a negative Target 2 result is suggestive
+of 1) a sample at concentrations near or below the limit of
+detection of the test,
+2) a mutation in the Target 2, target region, or 3) other
+factors.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 5 of 20
+
+[Table 1 on page 5]
+Elution Buffer
+(EB)	Tris buffer, 0.2% methyl-4 hydroxybenzoate
+Master Mix Reagent 1
+(MMX-R1)	Manganese acetate, potassium hydroxide, < 0.1% sodium azide
+SARS-CoV-2 Master Mix
+Reagent 2
+(SARS-CoV-2 MMX-R2)	Tricine buffer, potassium acetate, < 18% dimethyl sulfoxide,
+glycerol, < 0.1% Tween 20, EDTA, < 0.12% dATP, dCTP, dGTP,
+dUTPs, < 0.01% upstream and downstream SARS-CoV-2 and Sarbecovirus
+primers, < 0.01% Internal Control forward and reverse primers,
+< 0.01% fluorescent-labeled oligonucleotide probes specific for SARS-CoV-2,
+Sarbecovirus, and the RNA Internal Control, < 0.01% oligonucleotide aptamer,
+< 0.1% Z05D DNA polymerase, < 0.10% AmpErase (uracil-N-glycosylase) enzyme
+(microbial), < 0.1% sodium azide
+
+[Table 2 on page 5]
+Components Name	Formulatio
+n
+SARS-CoV-2
+Positive Control
+(SARS-CoV-2 (+) C)	Tris buffer, < 0.05% Sodium azide, < 0.005% EDTA, < 0.003% Poly rA, < 0.01%
+Non-infectious plasmid DNA (microbial) containing SARS-CoV-2 sequence,
+<0.01% Non-infectious plasmid DNA (microbial) containing pan-Sarbecovirus
+sequence
+
+[Table 3 on page 5]
+Components Name	Formulation
+cobas Buffer Negative
+Control (BUF (-) C)	Tris buffer, < 0.1% sodium azide, EDTA, < 0.002% Poly rA RNA (synthetic)
+
+[Table 4 on page 5]
+Target 1
+(SCoV2)	Target 2
+(PanSarb)	Interpretation
+Positive	PanSarb Positive	All Target Results were valid. Result for SARS-CoV-2 RNA
+is Detected.
+Positive	Negative	All Target Results were valid.
+Result for SARS-CoV-2 RNA is Detected. A positive
+Target 1 result and a negative Target 2 result is suggestive
+of 1) a sample at concentrations near or below the limit of
+detection of the test,
+2) a mutation in the Target 2, target region, or 3) other
+factors.
+
+--- Page 6 ---
+All Target Results were valid.
+Negative Positive
+Result for SARS-CoV-2 RNA is Presumptive Positive. A
+negative Target 1 result and a positive Target 2 result is
+suggestive of 1) a sample at concentrations near or below
+the limit of detection of the test,
+2) a mutation in the Target 1 target region in the oligo
+binding sites, or 3) infection with some other Sarbecovirus
+(e.g., SARS-CoV or some other Sarbecovirus previously
+unknown to infect humans), or 4) other factors. For
+samples with a Presumptive Positive result, additional
+confirmatory testing may be conducted, if it is necessary to
+differentiate between SARS-CoV-2 and SARS-CoV-1 or
+other Sarbecovirus currently unknown to infect humans, for
+epidemiological purposes or clinical management.
+All Target Results were valid.
+Negative Negative
+Result for SARS-CoV-2 RNA is Not Detected.
+Not all Target Results were valid.
+Positive Invalid
+Result for SARS-CoV-2 RNA is Detected.
+Not all Target Results were valid.
+Invalid Positive
+Result for SARS-CoV-2 RNA is Presumptive Positive.
+For samples with a Presumptive Positive result, additional
+confirmatory testing may be conducted, if it is necessary to
+differentiate between SARS-CoV-2 and SARS-CoV-1 or
+other Sarbecovirus currently unknown to infect humans, for
+epidemiological purposes or clinical management.
+Not all Target Results were valid.
+Negative Invalid Sample should be retested. If the result is still invalid, a
+new specimen should be obtained.
+Not all Target Results were valid.
+Invalid Negative Sample should be retested. If the result is still invalid, a
+new specimen should be obtained.
+All Target Results were invalid.
+Invalid Invalid Sample should be retested. If the result is still invalid, a
+new specimen should be obtained.
+C Instrument Description Information:
+1. Instrument Name: cobas 6800/8800 Systems and software version 1.4.7; cobas SCoV2-QL
+ASAP Software version 12.1.0
+2. Specimen Identification: Specimen identification can be configured in an automated fashion
+or entered manually. All corresponding user interactions are recorded in the audit trail on the
+Instrument Gateway
+3. Specimen Sampling and Handling: Nasopharyngeal swab (NPS) or Anterior Nasal swab
+(ANS) specimens collected in transport media.
+4. Calibration: Not Applicable
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 6 of 20
+
+[Table 1 on page 6]
+Negative	Positive	All Target Results were valid.
+Result for SARS-CoV-2 RNA is Presumptive Positive. A
+negative Target 1 result and a positive Target 2 result is
+suggestive of 1) a sample at concentrations near or below
+the limit of detection of the test,
+2) a mutation in the Target 1 target region in the oligo
+binding sites, or 3) infection with some other Sarbecovirus
+(e.g., SARS-CoV or some other Sarbecovirus previously
+unknown to infect humans), or 4) other factors. For
+samples with a Presumptive Positive result, additional
+confirmatory testing may be conducted, if it is necessary to
+differentiate between SARS-CoV-2 and SARS-CoV-1 or
+other Sarbecovirus currently unknown to infect humans, for
+epidemiological purposes or clinical management.
+Negative	Negative	All Target Results were valid.
+Result for SARS-CoV-2 RNA is Not Detected.
+Positive	Invalid	Not all Target Results were valid.
+Result for SARS-CoV-2 RNA is Detected.
+Invalid	Positive	Not all Target Results were valid.
+Result for SARS-CoV-2 RNA is Presumptive Positive.
+For samples with a Presumptive Positive result, additional
+confirmatory testing may be conducted, if it is necessary to
+differentiate between SARS-CoV-2 and SARS-CoV-1 or
+other Sarbecovirus currently unknown to infect humans, for
+epidemiological purposes or clinical management.
+Negative	Invalid	Not all Target Results were valid.
+Sample should be retested. If the result is still invalid, a
+new specimen should be obtained.
+Invalid	Negative	Not all Target Results were valid.
+Sample should be retested. If the result is still invalid, a
+new specimen should be obtained.
+Invalid	Invalid	All Target Results were invalid.
+Sample should be retested. If the result is still invalid, a
+new specimen should be obtained.
+
+--- Page 7 ---
+5. Quality Control: The RNA Internal Control (RNA-IC), used to monitor the entire sample
+preparation and PCR amplification process, is introduced into each specimen during sample
+processing. In addition, the test utilizes external controls- cobas SARS-CoV-2 Qualitative
+Control Kit (low titer positive control) and cobas Buffer Negative Control Kit (negative
+control), provided separately.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+BioFire COVID-19 Test 2
+B Predicate 510(k) Number(s):
+K211079
+C Comparison with Predicate(s):
+Device & Predicate
+K213804 K211079
+Device(s):
+Device Trade Name cobas SARS-CoV-2 Qualitative BioFire COVID-19 Test 2
+Regulation Number 21 CFR 866.3981 same
+Device to detect and identify nucleic
+acid targets in respiratory specimens
+from microbial agents that cause the
+Regulation Name same
+SARS-CoV-2 respiratory infection
+and other microbial agents when in a
+multi-target test
+Product Code QQX same
+cobas SARS-CoV-2 Qualitative for The BioFire COVID-19 Test 2 is a
+use on the cobas 6800/8800 Systems qualitative nested multiplexed RT-
+is a real-time RT-PCR test intended PCR in vitro diagnostic test
+for the qualitative detection of intended for use with the BioFire
+nucleic acids from SARS-CoV-2 in FilmArray 2.0 and BioFire
+nasal and nasopharyngeal specimens FilmArray Torch Systems. The
+collected from symptomatic BioFire COVID-19 Test 2 detects
+individuals suspected of COVID-19 nucleic acids from severe acute
+by their healthcare provider. respiratory syndrome coronavirus
+Results are for the detection of 2 (SARS-CoV-2) in
+Intended Use SARS-CoV-2 RNA. Positive results nasopharyngeal swabs (NPS) from
+are indicative of the presence of symptomatic individuals suspected
+SARS-CoV-2 RNA; clinical of COVID-19 by their healthcare
+correlation with patient history and provider.
+other diagnostic information is Results are for the identification of
+necessary to determine patient SARS-CoV-2 RNA. The SARS-
+infection status. Positive results do CoV-2 RNA is generally
+not rule out bacterial infection or co- detectable in NPS specimens
+infection with other pathogens. during the acute phase of infection.
+Negative results do not preclude Positive results are indicative of
+SARS-CoV-2 infection and should the presence of SARS-CoV-2
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 7 of 20
+
+[Table 1 on page 7]
+	Device & Predicate		K213804	K211079
+	Device(s):			
+	Device Trade Name		cobas SARS-CoV-2 Qualitative	BioFire COVID-19 Test 2
+	Regulation Number		21 CFR 866.3981	same
+Regulation Name			Device to detect and identify nucleic
+acid targets in respiratory specimens
+from microbial agents that cause the
+SARS-CoV-2 respiratory infection
+and other microbial agents when in a
+multi-target test	same
+	Product Code		QQX	same
+Intended Use			cobas SARS-CoV-2 Qualitative for
+use on the cobas 6800/8800 Systems
+is a real-time RT-PCR test intended
+for the qualitative detection of
+nucleic acids from SARS-CoV-2 in
+nasal and nasopharyngeal specimens
+collected from symptomatic
+individuals suspected of COVID-19
+by their healthcare provider.
+Results are for the detection of
+SARS-CoV-2 RNA. Positive results
+are indicative of the presence of
+SARS-CoV-2 RNA; clinical
+correlation with patient history and
+other diagnostic information is
+necessary to determine patient
+infection status. Positive results do
+not rule out bacterial infection or co-
+infection with other pathogens.
+Negative results do not preclude
+SARS-CoV-2 infection and should	The BioFire COVID-19 Test 2 is a
+qualitative nested multiplexed RT-
+PCR in vitro diagnostic test
+intended for use with the BioFire
+FilmArray 2.0 and BioFire
+FilmArray Torch Systems. The
+BioFire COVID-19 Test 2 detects
+nucleic acids from severe acute
+respiratory syndrome coronavirus
+2 (SARS-CoV-2) in
+nasopharyngeal swabs (NPS) from
+symptomatic individuals suspected
+of COVID-19 by their healthcare
+provider.
+Results are for the identification of
+SARS-CoV-2 RNA. The SARS-
+CoV-2 RNA is generally
+detectable in NPS specimens
+during the acute phase of infection.
+Positive results are indicative of
+the presence of SARS-CoV-2
+
+--- Page 8 ---
+not be used as the sole basis for RNA; clinical correlation with
+patient management decisions. patient history and other diagnostic
+Results are meant to be used in information is necessary to
+conjunction with clinical determine patient infection status.
+observations, patient history, recent Positive results do not rule out co-
+exposures and epidemiological infection with other pathogens.
+information, and laboratory data, in Results are meant to be used in
+accordance with the guidelines conjunction with other clinical,
+provided by the relevant public epidemiologic, and laboratory
+health authorities. cobas SARS-CoV- data, in accordance with the
+2 is intended for use by qualified guidelines provided by the relevant
+clinical laboratory personnel public health authorities. The
+specifically instructed and trained in BioFire COVID-19 Test 2 is
+the techniques of real-time PCR and intended for use by trained medical
+on the use of the cobas 6800/8800 and laboratory professionals in a
+Systems. laboratory setting or under the
+supervision of a trained laboratory
+professional.
+Conditions for use For prescription use same
+Nasopharyngeal swab specimen Nasopharyngeal swab specimen
+Sample Types
+Nasal swab specimen
+Analyte Targets SARS-CoV-2 SARS-CoV-2
+Automated by BioFire FilmArray
+Sample Preparation Automated by cobas 6800/8800
+2.0 or BioFire FilmArray Torch
+Procedure Systems
+systems
+Amplification
+Real-time PCR Nested multiplex RT-PCR
+Technology
+Analyte RNA RNA
+Two Step Nested multiplex PCR:
+Reverse transcription, followed by
+a multiplexed first stage PCR
+reaction (PCR1).
+Paired reporter and quencher
+fluorescence labeled probes Multiple simultaneous second-
+Detection Chemistry (TaqMan Technology) using stage PCR reactions (PCR2) to
+fluorescence resonance energy amplify sequences within the
+transfer (FRET) PCR1 products using
+fluorescence double stranded
+binding dye. Endpoint melting
+curve data to detect target-
+specific amplicons
+Two process controls:
+1. The RNA Internal Control
+1. RNA Process Control (IC)
+(RNA-IC)
+Controls used
+2. PCR2 Control (A positive result
+2. External Positive and negative
+indicates that PCR2 was
+controls
+successful)
+Based on PCR cycle threshold Endpoint melting curve data to
+Result Analysis
+analysis detect target-specific amplicons
+Automated test interpretation and
+Test Interpretation report generation. User cannot access same
+raw data.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 8 of 20
+
+[Table 1 on page 8]
+			not be used as the sole basis for
+patient management decisions.
+Results are meant to be used in
+conjunction with clinical
+observations, patient history, recent
+exposures and epidemiological
+information, and laboratory data, in
+accordance with the guidelines
+provided by the relevant public
+health authorities. cobas SARS-CoV-
+2 is intended for use by qualified
+clinical laboratory personnel
+specifically instructed and trained in
+the techniques of real-time PCR and
+on the use of the cobas 6800/8800
+Systems.	RNA; clinical correlation with
+patient history and other diagnostic
+information is necessary to
+determine patient infection status.
+Positive results do not rule out co-
+infection with other pathogens.
+Results are meant to be used in
+conjunction with other clinical,
+epidemiologic, and laboratory
+data, in accordance with the
+guidelines provided by the relevant
+public health authorities. The
+BioFire COVID-19 Test 2 is
+intended for use by trained medical
+and laboratory professionals in a
+laboratory setting or under the
+supervision of a trained laboratory
+professional.
+	Conditions for use		For prescription use	same
+Sample Types			Nasopharyngeal swab specimen
+Nasal swab specimen	Nasopharyngeal swab specimen
+	Analyte Targets		SARS-CoV-2	SARS-CoV-2
+Sample Preparation
+Procedure			Automated by cobas 6800/8800
+Systems	Automated by BioFire FilmArray
+2.0 or BioFire FilmArray Torch
+systems
+	Amplification		Real-time PCR	Nested multiplex RT-PCR
+	Technology			
+	Analyte		RNA	RNA
+Detection Chemistry			Paired reporter and quencher
+fluorescence labeled probes
+(TaqMan Technology) using
+fluorescence resonance energy
+transfer (FRET)	Two Step Nested multiplex PCR:
+Reverse transcription, followed by
+a multiplexed first stage PCR
+reaction (PCR1).
+Multiple simultaneous second-
+stage PCR reactions (PCR2) to
+amplify sequences within the
+PCR1 products using
+fluorescence double stranded
+binding dye. Endpoint melting
+curve data to detect target-
+specific amplicons
+Controls used			1. The RNA Internal Control
+(RNA-IC)
+2. External Positive and negative
+controls	Two process controls:
+1. RNA Process Control (IC)
+2. PCR2 Control (A positive result
+indicates that PCR2 was
+successful)
+Result Analysis			Based on PCR cycle threshold
+analysis	Endpoint melting curve data to
+detect target-specific amplicons
+Test Interpretation			Automated test interpretation and
+report generation. User cannot access
+raw data.	same
+
+[Table 2 on page 8]
+Sample Preparation
+Procedure
+
+--- Page 9 ---
+VI Standards/Guidance Documents Referenced:
+Class II Special Controls as per 21 CFR 866.3981.
+VII Performance Characteristics:
+A Analytical Performance:
+1. Precision/Reproducibility:
+a) Within-laboratory Precision:
+Within-laboratory precision was examined using a panel of heat-inactivated SARS-CoV-2
+(USA-WA1/2020) cultures diluted in simulated clinical matrix stabilized in UTM. Sources of
+variability were examined with a panel consisting of three concentration levels (0.3x, 1x and
+3x LoD), using three lots of cobas SARS-CoV-2 Qualitative reagents and three instruments
+over a course of 15 testing days (2 runs/day x 3 instruments x 5 days/instrument) for a total of
+30 runs. A total of 90 replicates per concentration level were tested over the course of the
+study. A negative panel was tested along with the positive panel members. The tables below
+summarize the results from the inter-lot precision study, showing the mean Ct values and
+calculated SD and % CV for each panel member.
+Qualitative Summary of Within Laboratory Precision
+Two-sided Two-sided
+Level Total Positive
+Target Panel Member Positivity % 95% CI 95% CI Upper
+(x LoD) Results (N) Results
+Lower Bound Bound
+High negative ~0.3x 90 9 10% 5% 18%
+Target 1
+Low positive ~1.0x 90 82 91% 83% 96%
+(SARS-CoV-2)
+Moderate positive ~3.0x 90 90 100% 96% 100%
+High negative ~0.3x 90 31 34% 25% 45%
+Target 2
+Low positive ~1.0x 90 84 93% 86% 97%
+(pan-Sarbecovirus)
+Moderate positive ~3.0x 90 90 100% 96% 100%
+N/A Negative Blank 90 0 0% 0% 4%
+Summary of the Precision Studies based on Ct values
+Instrument
+Within Run Run-to-Run Day-to-Day -to- Lot-to-Lot Total
+Level Mean Instrument
+Target Hit rate
+(x LoD) Ct
+SD SD SD CV% CV% CV% SD CV% SD CV% SD CV%
+~0.3x 10.0% 32.51 0.5 0.0 0.0 0.0 0.0 1.4 0.0 0.0 0.0 0.0 0.5 1.4
+~1.0x 91.1% 32.1 0.6 0.0 0.1 0.3 0.0 1.8 0.0 0.0 0.2 0.6 0.6 1.9
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 9 of 20
+
+[Table 1 on page 9]
+Target	Panel Member	Level
+(x LoD)	Total
+Results (N)	Positive
+Results	Positivity %	Two-sided
+95% CI
+Lower Bound	Two-sided
+95% CI Upper
+Bound
+Target 1
+(SARS-CoV-2)	High negative	~0.3x	90	9	10%	5%	18%
+	Low positive	~1.0x	90	82	91%	83%	96%
+	Moderate positive	~3.0x	90	90	100%	96%	100%
+Target 2
+(pan-Sarbecovirus)	High negative	~0.3x	90	31	34%	25%	45%
+	Low positive	~1.0x	90	84	93%	86%	97%
+	Moderate positive	~3.0x	90	90	100%	96%	100%
+N/A	Negative	Blank	90	0	0%	0%	4%
+
+[Table 2 on page 9]
+Target	Level
+(x LoD)	Hit rate	Mean
+Ct	Within Run		Run-to-Run		Day-to-Day		Instrument
+-to-
+Instrument		Lot-to-Lot		Total	
+				SD	SD	SD	CV%	CV%	CV%	SD	CV%	SD	CV%	SD	CV%
+	~0.3x	10.0%	32.51	0.5	0.0	0.0	0.0	0.0	1.4	0.0	0.0	0.0	0.0	0.5	1.4
+	~1.0x	91.1%	32.1	0.6	0.0	0.1	0.3	0.0	1.8	0.0	0.0	0.2	0.6	0.6	1.9
+
+--- Page 10 ---
+Instrument
+Within Run Run-to-Run Day-to-Day -to- Lot-to-Lot Total
+Level Mean Instrument
+Target Hit rate
+(x LoD) Ct
+SD SD SD CV% CV% CV% SD CV% SD CV% SD CV%
+Target 1
+(SARS- ~3.0x 100.0% 31.18 0.3 0.0 0.0 0.0 0.0 0.9 0.0 0.0 0.2 0.7 0.4 1.1
+CoV-2)
+Target 2 ~0.3x 34.4% 35.36 0.5 0.1 0.3 0.8 0.2 1.5 0.0 0.0 0.5 1.3 0.8 2.2
+(pan-
+~1.0x 93.3% 34.21 0.7 0.0 0.2 0.6 0.0 2 0.0 0.0 0.1 0.3 0.7 2.2
+Sarbeco-
+virus) ~3.0x 100.0% 32.9 0.4 0.0 0.0 0.0 0.0 1.1 0.0 0.1 0.0 0.0 0.4 1.1
+b) Reproducibility:
+The reproducibility of cobas SARS-CoV-2 Qualitative was evaluated at three testing sites,
+using three reagent lots, with a four-member panel of positive and negative samples resulting
+in a total number 216 tests per concentration (not including controls). The positive panel
+members contained the SARS-CoV-2 target in negative simulated clinical matrix stabilized
+in UTM at three different concentrations (0.3x, 1x, 3x LoD). Each site tested two reagent lots
+for six days. Two runs were performed each day and three replicates of each panel member
+were performed for each run. An overall SARS-CoV-2 positive result was determined by a
+positive detection in either or both SARS-CoV-2 or/and pan-Sarbecovirus channels. The
+study results are summarized in Table below.
+Summary of Reproducibility Variance Components based on Ct values
+Panel Between Between Between Between Within
+Viral Member Percent Mean Site Lot Day Runs Run Total Total
+Target Concen-
+na/N
+Agree- Ct SD CV(%)
+tration ment*
+(%)b SD CV(%) SD CV(%) SD CV(%) SD CV(%) SD CV(%)
+Negative 0 214/216c 99.1 nc nc nc nc nc nc nc nc nc nc nc nc nc
+SARS-CoV-2 ~0.3xLoD 45/216 20.8 33.6 0.00 0.0 0.00 0.0 0.11 0.3 0.00 0.0 0.35 1.1 0.37 1.1
+SARS-CoV-2 ~1xLoD 196/216 90.7 33.2 0.00 0.0 0.09 0.3 0.00 0.0 0.17 0.5 0.37 1.1 0.42 1.3
+SARS-CoV-2 ~3xLoD 216/216 100.0 32.2 0.05 0.2 0.02 0.1 0.00 0.0 0.03 0.1 0.24 0.8 0.25 0.8
+pan-Sarbecov
+~0.3xLoD 158/216 73.1 36.5 0.18 0.5 0.00 0.0 0.00 0.0 0.00 0.0 0.71 2.0 0.74 2.0
+irus
+pan-Sarbecov
+~1xLoD 214/216 99.1 35.4 0.00 0.0 0.00 0.0 0.00 0.0 0.00 0.0 0.67 1.9 0.67 1.9
+irus
+pan-Sarbecov
+~3xLoD 216/216 100.0 34.1 0.11 0.3 0.05 0.2 0.00 0.0 0.00 0.0 0.32 0.9 0.34 1.0
+irus
+Ct = cycle threshold, LoD = limit of detection, SD = standard deviation, CV(%) = percent coefficient of variation, SARS CoV 2 = severe acute
+respiratory syndrome coronavirus 2, nc = not calculable
+Note: SARS-CoV-2 is a dual target assay. Inactivated viral culture material was diluted to ~0.3/1/3x LoD based on the target 2 (SARS-CoV-2)
+LoD.
+a n is the number of positive tests which contribute Ct values to the analysis. N is the total number of valid tests for the panel member.
+b Percent agreement with expected results.
+c Two negative panel members were tested positive (one for each target). Sequencing showed that one of these samples was positive and the other
+was negative. The Ct values and the curve analysis of these samples suggest a low level of contamination during specimen handling.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 10 of 20
+
+[Table 1 on page 10]
+Target
+Target 1
+(SARS-
+CoV-2)	Level
+(x LoD)	Hit rate	Mean
+Ct	Within Run		Run-to-Run		Day-to-Day		Instrument
+-to-
+Instrument		Lot-to-Lot		Total	
+				SD	SD	SD	CV%	CV%	CV%	SD	CV%	SD	CV%	SD	CV%
+	~3.0x	100.0%	31.18	0.3	0.0	0.0	0.0	0.0	0.9	0.0	0.0	0.2	0.7	0.4	1.1
+Target 2
+(pan-
+Sarbeco-
+virus)	~0.3x	34.4%	35.36	0.5	0.1	0.3	0.8	0.2	1.5	0.0	0.0	0.5	1.3	0.8	2.2
+	~1.0x	93.3%	34.21	0.7	0.0	0.2	0.6	0.0	2	0.0	0.0	0.1	0.3	0.7	2.2
+	~3.0x	100.0%	32.9	0.4	0.0	0.0	0.0	0.0	1.1	0.0	0.1	0.0	0.0	0.4	1.1
+
+[Table 2 on page 10]
+Viral
+Target	Panel
+Member
+Concen-
+tration	na/N	Percent
+Agree-
+ment*
+(%)b	Mean
+Ct	Between
+Site		Between
+Lot		Between
+Day		Between
+Runs		Within
+Run		Total
+SD	Total
+CV(%)
+					SD	CV(%)	SD	CV(%)	SD	CV(%)	SD	CV(%)	SD	CV(%)		
+Negative	0	214/216c	99.1	nc	nc	nc	nc	nc	nc	nc	nc	nc	nc	nc	nc	nc
+SARS-CoV-2	~0.3xLoD	45/216	20.8	33.6	0.00	0.0	0.00	0.0	0.11	0.3	0.00	0.0	0.35	1.1	0.37	1.1
+SARS-CoV-2	~1xLoD	196/216	90.7	33.2	0.00	0.0	0.09	0.3	0.00	0.0	0.17	0.5	0.37	1.1	0.42	1.3
+SARS-CoV-2	~3xLoD	216/216	100.0	32.2	0.05	0.2	0.02	0.1	0.00	0.0	0.03	0.1	0.24	0.8	0.25	0.8
+pan-Sarbecov
+irus	~0.3xLoD	158/216	73.1	36.5	0.18	0.5	0.00	0.0	0.00	0.0	0.00	0.0	0.71	2.0	0.74	2.0
+pan-Sarbecov
+irus	~1xLoD	214/216	99.1	35.4	0.00	0.0	0.00	0.0	0.00	0.0	0.00	0.0	0.67	1.9	0.67	1.9
+pan-Sarbecov
+irus	~3xLoD	216/216	100.0	34.1	0.11	0.3	0.05	0.2	0.00	0.0	0.00	0.0	0.32	0.9	0.34	1.0
+
+--- Page 11 ---
+2. Linearity:
+Not applicable; this is a qualitative assay.
+3. Analytical Specificity/Interference:
+a) Cross-Reactivity:
+The potential for cross-reactivity (analytical specificity) for cobas SARS-CoV-2 Qualitative
+assay was evaluated in a study testing samples containing organisms that are commonly
+found in the respiratory tract and might cause similar clinical symptoms as SARS-CoV-2. A
+panel of 47 viruses, bacteria, and fungi were included in the study, with each organism tested
+in three replicates. The organisms were spiked at concentrations of 1x105 units/mL for
+viruses and 1x106 units/mL for bacteria and fungi. Testing was performed with each potential
+interfering organism in the absence and presence of SARS-CoV-2 target (spiked at ~3xLoD).
+No cross reactivity or microbial interference was observed with the organisms at the
+concentrations tested, as shown below. Additional in-silico analysis confirmed no homology
+was found between any primers or probes for Bordetella parapertussis, Aspergillus sp, and
+Fusobacterium necrophorum, however no wet testing with these organisms was performed.
+Summary of Analytical Cross-Reactivity for cobas SARS-CoV-2 Qualitative
+Microorganism Concentration Positivity Rate Negativity rate
+Human coronavirus 229E 1.0E+05 TCID50/mL 100% 100%
+Human coronavirus OC43 1.0E+05 TCID50/mL 100% 100%
+Human coronavirus HKU1 1.0E+05 TCID50/mL 100% 100%
+Human coronavirus NL63 1.0E+05 TCID50/mL 100% 100%
+MERS coronavirus 1.0E+05 genomic 100% 100%
+equivalent/mL
+SARS coronavirus 1.0E+05 PFU/mL 100% 100%*
+Adenovirus B (Type 34) 1.0E+05 TCID50/mL 100% 100%
+Bocavirus 1.0E+05 cp/mL 100% 100%
+Cytomegalovirus 1.0E+05 TCID50/mL 100% 100%
+Epstein Barr virus 1.0E+05 cp/mL 100% 100%
+Human M
+(
+e
+h
+t
+M
+ap
+P
+n
+V
+e
+)
+u movirus 1.0E+05 TCID50/mL 100% 100%
+Measles virus 1.0E+05 TCID50/mL 100% 100%
+Mumps virus 1.0E+05 TCID50/mL 100% 100%
+Parainfluenza virus Type 1 1.0E+05 TCID50/mL 100% 100%
+Parainfluenza virus Type 2 1.0E+05 TCID50/mL 100% 100%
+Parainfluenza virus Type 3 1.0E+05 TCID50/mL 100% 100%
+Parainfluenza virus Type 4 1.0E+05 TCID50/mL 100% 100%
+Influenza A (H1N1) 1.0E+05 TCID50/mL 100% 100%
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 11 of 20
+
+[Table 1 on page 11]
+Microorganism	Concentration	Positivity Rate	Negativity rate
+Human coronavirus 229E	1.0E+05 TCID50/mL	100%	100%
+Human coronavirus OC43	1.0E+05 TCID50/mL	100%	100%
+Human coronavirus HKU1	1.0E+05 TCID50/mL	100%	100%
+Human coronavirus NL63	1.0E+05 TCID50/mL	100%	100%
+MERS coronavirus	1.0E+05 genomic
+equivalent/mL	100%	100%
+SARS coronavirus	1.0E+05 PFU/mL	100%	100%*
+Adenovirus B (Type 34)	1.0E+05 TCID50/mL	100%	100%
+Bocavirus	1.0E+05 cp/mL	100%	100%
+Cytomegalovirus	1.0E+05 TCID50/mL	100%	100%
+Epstein Barr virus	1.0E+05 cp/mL	100%	100%
+Human Metapneumovirus
+(hMPV)	1.0E+05 TCID50/mL	100%	100%
+Measles virus	1.0E+05 TCID50/mL	100%	100%
+Mumps virus	1.0E+05 TCID50/mL	100%	100%
+Parainfluenza virus Type 1	1.0E+05 TCID50/mL	100%	100%
+Parainfluenza virus Type 2	1.0E+05 TCID50/mL	100%	100%
+Parainfluenza virus Type 3	1.0E+05 TCID50/mL	100%	100%
+Parainfluenza virus Type 4	1.0E+05 TCID50/mL	100%	100%
+Influenza A (H1N1)	1.0E+05 TCID50/mL	100%	100%
+
+--- Page 12 ---
+Microorganism Concentration Positivity Rate Negativity rate
+Influenza A virus (H1N1-2009) 1.0E+05 TCID50/mL 100% 100%
+Influenza A virus (H1N3) 1.0E+05 TCID50/mL 100% 100%
+Influenza A virus (H3N2) 1.0E+05 TCID50/mL 100% 100%
+Influenza B 1.0E+05 TCID50/mL 100% 100%
+Enterovirus E (Type 1) 1.0E+05 TCID50/mL 100% 100%
+Parechovirus 1.0E+05 TCID50/mL 100% 100%
+Respiratory syncytial virus 1.0E+05 PFU/mL 100% 100%
+Rhinovirus 1.0E+05 TCID50/mL 100% 100%
+Candida albicans 1.0E+06 CFU/mL 100% 100%
+Chlamydia pneumoniae 1.0E+06 TCID50/mL 100% 100%
+Corynebacterium diphtheriae 1.0E+06 CFU/mL 100% 100%
+Escherichia coli 1.0E+06 CFU/mL 100% 100%
+Haemophilus influenzae 1.0E+06 CFU/mL 100% 100%
+Lactobacillus gasseri 1.0E+06 CFU/mL 100% 100%
+Legionella pneumophila 1.0E+06 CFU/mL 100% 100%
+Legionella jordanis (non- 1.0E+06 CFU/mL 100% 100%
+pneumophila)
+Moraxella catarrhalis 1.0E+06 CFU/mL 100% 100%
+Mycobacterium tuberculosis 1.0E+06 cells/mL 100% 100%
+Neisseria elongata 1.0E+06 CFU/mL 100% 100%
+Neisseria meningitidis 1.0E+06 CFU/mL 100% 100%
+Pseudomonas aeruginosa 1.0E+06 CFU/mL 100% 100%
+Pneumocystis jirovecii 1:20 of Patient Sample 100% 100%
+Staphylococcus aureus 1.0E+06 CFU/mL 100% 100%
+Staphylococcus epidermidis 1.0E+06 CFU/mL 100% 100%
+Streptococcus pneumoniae 1.0E+06 CFU/mL 100% 100%
+Streptococcus pyrogenes 1.0E+06 CFU/mL 100% 100%
+Streptococcus salivarius 1.0E+06 CFU/mL 100% 100%
+Bordetella pertussis 1.0E+06 CFU/mL 100% 100%
+Mycoplasma pneumoniae 1.0E+06 CFU/mL 100% 100%
+* Testing of SARS-CoV-1 generated an expected Pan-Sarbecovirus positive result.
+b) Interfering substances study:
+The potential for interference for the cobas SARS-CoV-2 Qualitative assay was evaluated
+with substances that may be present in respiratory specimens. A total of 20 potentially
+interfering substances were tested at or above clinically relevant levels in negative simulated
+clinical matrix stabilized in UTM in absence and presence of SARS-CoV-2 target (spiked at
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 12 of 20
+
+[Table 1 on page 12]
+Microorganism	Concentration	Positivity Rate	Negativity rate
+Influenza A virus (H1N1-2009)	1.0E+05 TCID50/mL	100%	100%
+Influenza A virus (H1N3)	1.0E+05 TCID50/mL	100%	100%
+Influenza A virus (H3N2)	1.0E+05 TCID50/mL	100%	100%
+Influenza B	1.0E+05 TCID50/mL	100%	100%
+Enterovirus E (Type 1)	1.0E+05 TCID50/mL	100%	100%
+Parechovirus	1.0E+05 TCID50/mL	100%	100%
+Respiratory syncytial virus	1.0E+05 PFU/mL	100%	100%
+Rhinovirus	1.0E+05 TCID50/mL	100%	100%
+Candida albicans	1.0E+06 CFU/mL	100%	100%
+Chlamydia pneumoniae	1.0E+06 TCID50/mL	100%	100%
+Corynebacterium diphtheriae	1.0E+06 CFU/mL	100%	100%
+Escherichia coli	1.0E+06 CFU/mL	100%	100%
+Haemophilus influenzae	1.0E+06 CFU/mL	100%	100%
+Lactobacillus gasseri	1.0E+06 CFU/mL	100%	100%
+Legionella pneumophila	1.0E+06 CFU/mL	100%	100%
+Legionella jordanis (non-
+pneumophila)	1.0E+06 CFU/mL	100%	100%
+Moraxella catarrhalis	1.0E+06 CFU/mL	100%	100%
+Mycobacterium tuberculosis	1.0E+06 cells/mL	100%	100%
+Neisseria elongata	1.0E+06 CFU/mL	100%	100%
+Neisseria meningitidis	1.0E+06 CFU/mL	100%	100%
+Pseudomonas aeruginosa	1.0E+06 CFU/mL	100%	100%
+Pneumocystis jirovecii	1:20 of Patient Sample	100%	100%
+Staphylococcus aureus	1.0E+06 CFU/mL	100%	100%
+Staphylococcus epidermidis	1.0E+06 CFU/mL	100%	100%
+Streptococcus pneumoniae	1.0E+06 CFU/mL	100%	100%
+Streptococcus pyrogenes	1.0E+06 CFU/mL	100%	100%
+Streptococcus salivarius	1.0E+06 CFU/mL	100%	100%
+Bordetella pertussis	1.0E+06 CFU/mL	100%	100%
+Mycoplasma pneumoniae	1.0E+06 CFU/mL	100%	100%
+
+--- Page 13 ---
+~3x LoD). Each sample was tested in 10 replicates. The following table provides the
+substances and concentrations tested. The FluMist nasal vaccine was not tested.
+Summary of Interfering Substances Study for Cobas SARS-CoV-2 Qualitative
+Positivity %
+Test Total
+Name Active Ingredients
+concentration N Target 1 Target 2
+(SARS-CoV-2) (Pan-Sarbeco)
+Control No Substance N/A 10 100 100
+Human Genomic DNA - 20 ng/μl 10 100 100
+- One sputum 10 100 100
+Mucus
+swab/mL
+Human PBMCs - 1.0E+03 cells/µL 10 100 100
+- 1%, 2% and 5% 10 100 100
+Human Whole Blood
+(v/v)
+Afrin Nasal Spray Oxymetazoline 0.011 mg/mL 10 100 100
+Budesonide Nasal spray Budesonide (glucocorticoid) 0.039 mg/mL 10 100 100
+Flonase Nasal Spray Fluticasone Propionate 0.167 mg/mL 10 100 100
+Galphimia glauca, Luffa
+Zicam Nasal Spray 0.023 mg/mL 10 100 100
+operculata, Sabadilla
+Saline Nasal Spray with 0.65% NaCl, phenylcarbino,
+1.0% (v/v) 10 100 100
+Preservatives Benzalkonium chloride
+Cepacol Benzocaine and menthol 5.0 mg/mL 10 100 100
+(Sore Throat Lozenges)
+Chloraseptic Phenol 0.47 mg/mL 10 100 100
+Liposomal NUMB520 Spray Lidocaine and Phenylephrine 2.68 mg/mL 10 100 100
+Mupirocin ointment UPS Mupirocin 0.20 mg/mL 10 100 100
+Relenza (Inhalation powder) Zanamivir 0.0015 mg/mL 10 100 100
+Antiviral drug – Tamiflu Oseltamivir 0.0073 mg/mL 10 100 100
+DMSO N/A N/A 10 100 100
+Tobramycin ophthalmic Tobramycin 0.018 mg/mL 10 100 100
+Solution
+Vaseline Petroleum Jelly 1% (w/v) 10 100 100
+Snuff Tobacco Nicotine 1% (w/v) 10 100 100
+Camphor-synthetic
+Analgesic ointment
+eucalyptus oil and menthol 1% (w/v) 10 100 100
+(Vicks@VapoRub)
+ointment
+* FluMist was not evaluated to assess potential interference.
+4. Assay Reportable Range:
+Not applicable; this is a qualitative assay.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+a) Quality Controls
+The RNA Internal Control (RNA-IC), used to monitor the entire sample preparation and PCR
+amplification process, is introduced into each specimen during sample processing. In
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 13 of 20
+
+[Table 1 on page 13]
+Name	Active Ingredients	Test
+concentration	Total
+N	Positivity %	
+				Target 1
+(SARS-CoV-2)	Target 2
+(Pan-Sarbeco)
+Control	No Substance	N/A	10	100	100
+Human Genomic DNA	-	20 ng/μl	10	100	100
+Mucus	-	One sputum
+swab/mL	10	100	100
+Human PBMCs	-	1.0E+03 cells/µL	10	100	100
+Human Whole Blood	-	1%, 2% and 5%
+(v/v)	10	100	100
+Afrin Nasal Spray	Oxymetazoline	0.011 mg/mL	10	100	100
+Budesonide Nasal spray	Budesonide (glucocorticoid)	0.039 mg/mL	10	100	100
+Flonase Nasal Spray	Fluticasone Propionate	0.167 mg/mL	10	100	100
+Zicam Nasal Spray	Galphimia glauca, Luffa
+operculata, Sabadilla	0.023 mg/mL	10	100	100
+Saline Nasal Spray with
+Preservatives	0.65% NaCl, phenylcarbino,
+Benzalkonium chloride	1.0% (v/v)	10	100	100
+Cepacol
+(Sore Throat Lozenges)	Benzocaine and menthol	5.0 mg/mL	10	100	100
+Chloraseptic	Phenol	0.47 mg/mL	10	100	100
+Liposomal NUMB520 Spray	Lidocaine and Phenylephrine	2.68 mg/mL	10	100	100
+Mupirocin ointment UPS	Mupirocin	0.20 mg/mL	10	100	100
+Relenza (Inhalation powder)	Zanamivir	0.0015 mg/mL	10	100	100
+Antiviral drug – Tamiflu	Oseltamivir	0.0073 mg/mL	10	100	100
+DMSO	N/A	N/A	10	100	100
+Tobramycin ophthalmic
+Solution	Tobramycin	0.018 mg/mL	10	100	100
+Vaseline	Petroleum Jelly	1% (w/v)	10	100	100
+Snuff Tobacco	Nicotine	1% (w/v)	10	100	100
+Analgesic ointment
+(Vicks@VapoRub)	Camphor-synthetic
+eucalyptus oil and menthol
+ointment	1% (w/v)	10	100	100
+
+--- Page 14 ---
+addition, the test utilizes external controls- cobas SARS-CoV-2 Qualitative Control Kit (low
+titer positive control) and cobas Buffer Negative Control Kit (negative control), provided
+separately. Three lots of Positive Control were included in the clinical evaluation of the
+cobas SARS-CoV-2 Qualitative conducted at three testing sites. The summary of the Ct
+values for valid positive and negative control results obtained for each target, combined for
+sites and lots, is presented below.
+Summary of the Ct values for Controls used in Clinical Studies
+Target Analyte Total N Mean Target Ct Ct SD Ct %CV
+SARS-CoV-2 131 33.66 0.21 0.66
+pan-Sarbeco 131 35.56 0.34 1.00
+IC (positive samples) 131 33.23 0.22 0.66
+IC (negative samples) 131 33.1 0.24 0.7
+b) Clinical Specimen stability:
+The stability of SARS-CoV-2 viral targets during handling, transportation, and storage, was
+evaluated using NS and NPS specimens collected in different collection media. Five pools of
+NS specimens (collected in cobas PCR media, 0.9% saline and copan UTM) and five pools
+of NPS specimens (collected in UTM) were spiked with the inactivated quantified SARS-
+CoV-2 virus at 3xLoD. Three replicates per specimen type/storage condition were used. The
+study data supported storage for specimens collected in UTM and 0.9% physiological saline
+at 2-25°C for up to 48 hours followed by up to 3 days at 2-8°C and
+at ≤ -70°C for up to 30 days. Specimens collected in cobas PCR Media can be stored at 2-
+25°C for up to 24 hours followed by up to 3 days at 2-8°C and at ≤ -70°C for up to 30 days.
+6. Detection Limit:
+The Limit of Detection (LoD) for cobas SARS-CoV-2 Qualitative was determined using an
+inactivated quantified SARS-CoV-2 virus (WHO International Standard for SARS-CoV-2,
+NIBSC code: 20/146). LoD is defined as the lowest concentration of SARS-CoV-2 RNA that can
+be detected at a rate of at least 95%. A total of 5 concentration levels (500, 250, 125, 62.5 and
+31.25 IU/ml) were prepared by diluting the SARS-CoV-2 target in negative simulated clinical
+matrix stabilized in UTM. Three independent dilution series with three lots of reagents were
+tested with a total of 24 replicates per concentration.
+The concentration level with observed hit rates greater than or equal to 95% was determined to
+be the LoD for each of the two targets (SARS-CoV-2 and pan-Sarbecovirus) as described below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 14 of 20
+
+[Table 1 on page 14]
+Target Analyte	Total N	Mean Target Ct	Ct SD	Ct %CV
+SARS-CoV-2	131	33.66	0.21	0.66
+pan-Sarbeco	131	35.56	0.34	1.00
+IC (positive samples)	131	33.23	0.22	0.66
+IC (negative samples)	131	33.1	0.24	0.7
+
+--- Page 15 ---
+Summary of LoD for SARS-CoV-2 (Target-1)
+Hit rate ≥ 95%
+[IU/mL] Mean Ct at ≥ 95% Hit
+Viral Strain Kit lot
+(no. of replicates rate
+detected)
+Lot 1 250 (24/24) 33.2
+WHO International
+Standard for SARS-CoV-2 Lot 2 125 (23/24) 34.1
+Lot 3 250 (23/24) 33.2
+The LoD was confirmed at 250 IU/mL for SARS-CoV-2 (Target 1). For all three reagent lots, at
+least 23/24 replicates detected the target at 250 IU/ml.
+Summary of LoD for pan-Sarbecovirus (Target-2)
+Hit rate ≥ 95%
+[IU/mL] Mean Ct at ≥ 95% Hit
+Viral Strain Kit lot
+(no. of replicates rate
+detected)
+Lot 1 125 (24/24) 35.2
+WHO International
+Standard for SARS-CoV-2 Lot 2 125 (24/24) 36.0
+Lot 3 125 (23/24) 34.8
+The LoD was confirmed at 125 IU/mL for pan-Sarbecovirus (Target 2). For all three reagent lots,
+at least 23/24 replicates detected the target at 125 IU/ml.
+7. Matrix equivalency study:
+Because some analytical studies were conducted using simulated matrix, equivalency between
+simulated and real clinical matrix was evaluated. SARS-CoV-2 target was diluted to make the
+test panel of four concentration levels (0x, 0.3x, 1x and 3x LoD) in each of three matrices
+(simulated clinical matrix, nasopharyngeal swab specimen and nasal swab specimen). 25
+replicates were tested per each combination.
+Summary of matrix equivalency study for cobas SARS-CoV-2 Qualitative
+Sample Type
+Panel Level Conc. Total Positive Positivity
+Matrix
+Member (x LoD) IU/mL Results (N) Results %
+(Stabilized in
+UTM)
+Above LoD ~3x 750 25 25 100%
+At LoD ~1.0x 250 25 25 100%
+Nasal Swab
+Below LoD ~0.3x 83 25 25 100%
+Negative 0x 0 25 0 0%
+Above LoD ~3x 750 25 25 100%
+At LoD ~1.0x 250 25 25 100%
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 15 of 20
+
+[Table 1 on page 15]
+Viral Strain	Kit lot	Hit rate ≥ 95%
+[IU/mL]
+(no. of replicates
+detected)	Mean Ct at ≥ 95% Hit
+rate
+WHO International
+Standard for SARS-CoV-2	Lot 1	250 (24/24)	33.2
+	Lot 2	125 (23/24)	34.1
+	Lot 3	250 (23/24)	33.2
+
+[Table 2 on page 15]
+Viral Strain	Kit lot	Hit rate ≥ 95%
+[IU/mL]
+(no. of replicates
+detected)	Mean Ct at ≥ 95% Hit
+rate
+WHO International
+Standard for SARS-CoV-2	Lot 1	125 (24/24)	35.2
+	Lot 2	125 (24/24)	36.0
+	Lot 3	125 (23/24)	34.8
+
+[Table 3 on page 15]
+Sample Type
+Matrix
+(Stabilized in
+UTM)	Panel
+Member	Level
+(x LoD)	Conc.
+IU/mL	Total
+Results (N)	Positive
+Results	Positivity
+%
+Nasal Swab	Above LoD	~3x	750	25	25	100%
+	At LoD	~1.0x	250	25	25	100%
+	Below LoD	~0.3x	83	25	25	100%
+	Negative	0x	0	25	0	0%
+	Above LoD	~3x	750	25	25	100%
+	At LoD	~1.0x	250	25	25	100%
+
+--- Page 16 ---
+Below LoD ~0.3x 83 25 25 100%
+Nasopharyngeal
+Swab Negative 0x 0 25 0 0%
+Above LoD ~3x 750 25 25 100%
+At LoD ~1.0x 250 25 25 100%
+Simulated
+Clinical Matrix Below LoD ~0.3x 83 25 24 96%
+Negative 0x 0 25 0 0%
+The results showed the performance of the assay with simulated clinical matrix, nasopharyngeal
+swab, and nasal swab matrices is equivalent.
+8. Collection media equivalency (UTM, cobas PCR Media and 0.9% physiological saline)
+Equivalency between copan UTM, cobas PCR Media (CPM) and 0.9% physiological saline was
+evaluated during the development of the subject IVD device. Paired individual negative nasal
+swab samples were collected and tested before and after spiking heat inactivated SARS-CoV-2
+virus (WHO International Standard). At least 20 low positive (1.5-2x LoD) and 10 moderate
+positive (4x LoD) samples was prepared for each collection media. All negative and positive
+samples generated expected results for SARS-CoV-2 in the three collection media tested. The
+mean Ct differences between the three collection media was less than 2.
+9. Analytical Reactivity (Inclusivity):
+The inclusivity of cobas SARS-CoV-2 Qualitative assay for the detection of SARS-CoV-2 was
+confirmed by testing nine SARS-CoV-2 strains, including six variant strains. Qualified stocks of
+different SARS-CoV-2 were used to prepare concentration levels at and around the LoD. Each
+level was tested with four replicates. The lowest concentration at which all four replicates tested
+positive are reported in below.
+Analytical Reactivity with SARS-CoV-2 Strains
+Concentration tested with
+SARS-CoV-2 Strain Target Material
+100% Positivity
+Hong Kong/VM20001061/2020 Inactivated Virus 1.06E+02 cp/mL
+Italy-INMI1 Inactivated Virus 1.00E+02 cp/mL
+USA-WA1/2020 Inactivated Virus 5.03E+01 cp/mL
+UK (B.1.1.7) Inactivated Virus 2.4E+01 cp/mL
+Japan / Brazil (P.1) Extracted RNA 1.9E+02 cp/mL
+South Africa (B.1.351) Inactivated Virus 2.4E+01 cp/mL
+US NY (B.1.526) Inactivated Virus 1.9E+02 cp/mL
+India (B.1.617.1) Inactivated Virus 2.5E+02 cp/mL
+India (B.1.617.2) Inactivated Virus 7.0E+01 cp/mL
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 16 of 20
+
+[Table 1 on page 16]
+	Below LoD	~0.3x	83	25	25	100%
+	Negative	0x	0	25	0	0%
+Simulated
+Clinical Matrix	Above LoD	~3x	750	25	25	100%
+	At LoD	~1.0x	250	25	25	100%
+	Below LoD	~0.3x	83	25	24	96%
+	Negative	0x	0	25	0	0%
+
+[Table 2 on page 16]
+SARS-CoV-2 Strain	Target Material	Concentration tested with
+100% Positivity
+Hong Kong/VM20001061/2020	Inactivated Virus	1.06E+02 cp/mL
+Italy-INMI1	Inactivated Virus	1.00E+02 cp/mL
+USA-WA1/2020	Inactivated Virus	5.03E+01 cp/mL
+UK (B.1.1.7)	Inactivated Virus	2.4E+01 cp/mL
+Japan / Brazil (P.1)	Extracted RNA	1.9E+02 cp/mL
+South Africa (B.1.351)	Inactivated Virus	2.4E+01 cp/mL
+US NY (B.1.526)	Inactivated Virus	1.9E+02 cp/mL
+India (B.1.617.1)	Inactivated Virus	2.5E+02 cp/mL
+India (B.1.617.2)	Inactivated Virus	7.0E+01 cp/mL
+
+--- Page 17 ---
+In silico analysis of additional SARS-CoV-2 sequences indicates that >99.9% of known
+sequences for SARS-CoV-2 have no changes in primer/probe binding sites at both target regions
+simultaneously. All sequences are predicted to be detected by at least one of the two target
+regions.
+In silico Analysis of cobas SARS-CoV-2 Test Oligo Design as of October 15, 2022
+Assay Orf1ab (Target 1) E-gene (Target 2) Orf1ab & E-gene (Dual Targets)
+Database NCBI GISAID NCBI GISAID NCBI GISAID
+total 6113594 100% 12695489 100% 6113594 100% 12695489 100% 6113594 100% 12695489 100%
+With
+mismatch 251910 4.12% 464658 3.66% 32124 0.53% 83852 0.66% 1125 0.02% 2971 0.02%
+dCp>5 or
+Tm<65 211 0.00% 493 0.00% 34 0.00% 1025 0.01% 0 0.00% 3 0.00%
+In Silico Analysis of SARS-CoV-2 Variants of Concern (VOC) as of October 10, 2022
+cobas SARS CoV-2 for
+WHO label Status Pango Lineage Nextstrain Clade use on the cobas
+6800/8800 Systems
+Alpha de-escalated B.1.1.7 20I/501Y.V1 detected
+Beta de-escalated B.1.351 20H/501Y.V2 detected
+Gamma de-escalated P.1 20J/501Y.V3 detected
+Delta Active VOC B.1.617.2 21A,I,J detected
+Epsilon de-escalated B.1.427/B.1.429 20C/S:452R detected
+Zeta de-escalated P.2 20J detected
+Eta de-escalated B.1.525 20A/S:484K detected
+Theta de-escalated P.3 21E detected
+Iota de-escalated B.1.526 20C/S:484K detected
+Kappa de-escalated B.1.617.1 20A/S:154K detected
+Lambda de-escalated C.37 20D detected
+Mu de-escalated B.1.621 21H detected
+Omicron (BA.1 - BA.5, BQ.1,
+Active VOC B.1.1.529 21K,L,M detected
+BQ.1.1, BF.7)
+22A,B,C,D,E
+10. Assay Cut-Off:
+The assay cut-off for this device was established based on variety of parameter thresholds taken
+together by the algorithm to make the qualitative decision whether a curve is to be considered
+positive or negative. These parameters (e.g., Ct, max. RFI, max. slope, sigmoidality of curve
+shape) are initially set by the algorithm. As the product development progresses, the data is
+annotated, and the algorithm is adjusted (“trained”) accordingly. This iterative process in the end
+leads to a final set of parameter cut-offs. Selected data from testing of clinical specimens or
+cultures spiked into clinical background were used to confirm adequate separation between the
+latest Ct value observed in positive specimens in each target detection channel and the assay cut-
+off.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 17 of 20
+
+[Table 1 on page 17]
+Assay	Orf1ab (Target 1)				E-gene (Target 2)				Orf1ab & E-gene (Dual Targets)			
+Database	NCBI		GISAID		NCBI		GISAID		NCBI		GISAID	
+total	6113594	100%	12695489	100%	6113594	100%	12695489	100%	6113594	100%	12695489	100%
+With
+mismatch	251910	4.12%	464658	3.66%	32124	0.53%	83852	0.66%	1125	0.02%	2971	0.02%
+dCp>5 or
+Tm<65	211	0.00%	493	0.00%	34	0.00%	1025	0.01%	0	0.00%	3	0.00%
+
+[Table 2 on page 17]
+WHO label	Status	Pango Lineage	Nextstrain Clade	cobas SARS CoV-2 for
+use on the cobas
+6800/8800 Systems
+Alpha	de-escalated	B.1.1.7	20I/501Y.V1	detected
+Beta	de-escalated	B.1.351	20H/501Y.V2	detected
+Gamma	de-escalated	P.1	20J/501Y.V3	detected
+Delta	Active VOC	B.1.617.2	21A,I,J	detected
+Epsilon	de-escalated	B.1.427/B.1.429	20C/S:452R	detected
+Zeta	de-escalated	P.2	20J	detected
+Eta	de-escalated	B.1.525	20A/S:484K	detected
+Theta	de-escalated	P.3	21E	detected
+Iota	de-escalated	B.1.526	20C/S:484K	detected
+Kappa	de-escalated	B.1.617.1	20A/S:154K	detected
+Lambda	de-escalated	C.37	20D	detected
+Mu	de-escalated	B.1.621	21H	detected
+Omicron (BA.1 - BA.5, BQ.1,
+BQ.1.1, BF.7)	Active VOC	B.1.1.529	21K,L,M
+22A,B,C,D,E	detected
+
+--- Page 18 ---
+11. Carry-Over:
+Carry-over/cross contamination rate for cobas SARS-CoV-2 Qualitative assay was evaluated by
+testing SARS-CoV-2 high-positive samples and negative samples in a checkerboard
+configuration. Five runs, with each run containing 48 replicates of SARS-CoV-2 negative
+samples and 46 replicates of high positive samples were performed. A total of 230 SARS-CoV-2
+high positive samples and 239 negative samples were tested. No cross-contamination was
+observed, as described in the table below.
+Cross Contamination Run Results
+Run Number Total Positive Results from Total Samples Cross Contamination Rate
+Negative Samples Positive Negative Controls
+Run 1 0 46 47 2 0.0 %
+Run 2 0 46 48 2 0.0 %
+Run 3 0 46 48 2 0.0 %
+Run 4 0 46 48 2 0.0 %
+Run 5 0 46 48 2 0.0 %
+0.0 %
+Total 0 230 239 10 (upper one-sided 95% CI of 1.25%)
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Not applicable. Refer to the Clinical Studies Section of this document.
+C Clinical Studies:
+Clinical Study Design
+The performance of cobas SARS-CoV-2 Qualitative was evaluated in a multi-center study with
+three external testing sites evaluating prospectively collected clinical specimens in UTM-RT or
+UVT from individuals with signs and symptoms of respiratory infection. Participants from 12
+geographically distributed enrollment centers each provided nasopharyngeal swab (NPS) and
+nasal swab (NS, anterior nares) specimens as part of a dual collection where (a) the collection
+order (first specimen collected) was alternated between the NPS and NS specimen, and (b) the
+collection method for NS specimens was also alternated with 50% of the NS specimens were
+self-collected on-site with healthcare provider (HCP) instructions while the other 50% were
+collected by the healthcare provider. The study used a composite comparator method wherein
+laboratory sites used up to three highly sensitive EUA SARS-CoV-2 molecular assays, testing
+NPS specimen from each subject. The composite comparator result was defined as the
+concordant results from two comparator assays (test A and test B). In case of discordance
+between the initial two comparator assays, the sample was tested by a third assay (test C) and the
+result of the third test determined the composite comparator result. The composite comparator
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 18 of 20
+
+[Table 1 on page 18]
+Run Number	Total Positive Results from
+Negative Samples	Total Samples			Cross Contamination Rate
+		Positive	Negative	Controls	
+Run 1	0	46	47	2	0.0 %
+Run 2	0	46	48	2	0.0 %
+Run 3	0	46	48	2	0.0 %
+Run 4	0	46	48	2	0.0 %
+Run 5	0	46	48	2	0.0 %
+Total	0	230	239	10	0.0 %
+(upper one-sided 95% CI of 1.25%)
+
+--- Page 19 ---
+result was indetermined when valid results could not be obtained from two assays (i.e.,
+insufficient volume for repeat testing of invalid/failed results).
+From March to June 2021, a total of 1,154 participants were enrolled, of which samples from
+968 participants were included in the evaluation. Samples from 186 participants were not
+included: 184 specimens were excluded due to issues associated with specimen shipments and/or
+being unable to complete testing within the times identified by manufacturer’s instructions, and
+two subjects were excluded for being previously enrolled in the study (exclusion criteria). When
+self-reporting COVID-19 vaccination status, 207 (21.4%) of the 968 participants were fully
+vaccinated.
+Of the 968 participants, 961 contributed a NPS specimen which resulted in 942 participants with
+a confirmed infected status. For NPS, 4 specimens had failed/invalid cobas SARS-CoV-2
+Qualitative results, resulting in 938 evaluable NPS results. For NS, 8 specimens were
+invalid/missing cobas SARS-CoV-2 Qualitative NS results, resulting in 934 evaluable results.
+When compared with the NPS composite comparator result, cobas SARS-CoV-2 Qualitative
+yielded a positive percent agreement (PPA) of 98.7% for NPS and 97.4% for NS specimens. The
+negative percent agreement (NPA) was 99.7% and 99.9% for NPS and NS specimens,
+respectively.
+Summary of clinical performance of cobas SARS-CoV-2 Qualitative for nasopharyngeal
+(NPS) and nasal swabs (NS) versus the NPS composite comparator
+Total PPA 2-sided 95% NPA 2-sided 95%
+Specimen Type PPA NPA
+(N) Score CI Score CI
+Nasopharyngeal 98.7% 99.7%
+938 (93.1 %, 99.8 %) (99.0 %, 99.9 %)
+(NPS) (77/78) (857/860)
+Nasal Swab 97.4% 99.9%
+934 (91.1 %, 99.3 %) (99.3 %, 100 %)
+(NS)* (76/78) (855/856)
+*Healthcare provider-collected nasal swab specimens and nasal swab specimens self-collected on-site with healthcare provider
+instructions
+D Clinical Cut-Off:
+Not applicable
+E Expected Values/Reference Range:
+The SARS-CoV-2 positivity determined by the cobas SARS-CoV-2 Qualitative is presented by
+enrollment site in table below for both NPS and NS specimens. Across the 12 enrollment sites
+from 8 states, the SARS-CoV-2 positivity ranged from 0% to 16.2% for NPS and from 0% to
+15.8% for NS.
+SARS-CoV-2 Prevalence by Collection Site based on cobas SARS-CoV-2 Qualitative
+NPS NPS NS NS
+Site location results Prevalence results Prevalence
+Oakland, CA 114 0.0% (0/114) 117 0.0% (0/117)
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 19 of 20
+
+[Table 1 on page 19]
+Specimen Type	Total
+(N)	PPA	PPA 2-sided 95%
+Score CI	NPA	NPA 2-sided 95%
+Score CI
+Nasopharyngeal
+(NPS)	938	98.7%
+(77/78)	(93.1 %, 99.8 %)	99.7%
+(857/860)	(99.0 %, 99.9 %)
+Nasal Swab
+(NS)*	934	97.4%
+(76/78)	(91.1 %, 99.3 %)	99.9%
+(855/856)	(99.3 %, 100 %)
+
+[Table 2 on page 19]
+Site location	NPS
+results	NPS
+Prevalence	NS
+results	NS
+Prevalence
+Oakland, CA	114	0.0% (0/114)	117	0.0% (0/117)
+
+--- Page 20 ---
+NPS NPS NS NS
+Site location results Prevalence results Prevalence
+St.Louis, MO 117 11.1% (13/117) 117 10.3% (12/117)
+Syracuse, NY 11 9.1% (1/11) 11 9.1% (1/11)
+Bronx, NY 64 7.8% (5/64) 64 9.4% (6/64)
+Nashville, TN 92 12.0% (11/92) 93 11.8% (11/93)
+Easley, SC 127 13.4% (17/127) 128 12.5% (16/128)
+Powdersville, SC 117 16.2% (19/117) 114 15.8% (18/114)
+Dallas, TX 147 6.8% (10/147) 147 6.8% (10/147)
+Dallas, TX 31 0.0% (0/31) 31 0.0% (0/31)
+New Orleans, LA 46 4.3% (2/46) 46 2.2% (1/46)
+Statesville, NC 33 6.1% (2/33) 34 5.9% (2/34)
+Moorseville, NC 42 0.0% (0/42) 42 0.0% (0/42)
+ALL 941 8.5% (80/941) 944 8.2% (77/944)
+Note: The table included all specimens with valid SARS-CoV-2 results on cobas SARS-CoV-2.
+A positive SARS-CoV-2 is defined based on the cobas SARS-CoV-2.
+NPS = nasopharyngeal swab specimen; NS = nasal swab specimen.
+F Other Supportive Instrument Performance Characteristics Data:
+Not applicable
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.govK213804 - Page 20 of 20
+
+[Table 1 on page 20]
+Site location	NPS
+results	NPS
+Prevalence	NS
+results	NS
+Prevalence
+St.Louis, MO	117	11.1% (13/117)	117	10.3% (12/117)
+Syracuse, NY	11	9.1% (1/11)	11	9.1% (1/11)
+Bronx, NY	64	7.8% (5/64)	64	9.4% (6/64)
+Nashville, TN	92	12.0% (11/92)	93	11.8% (11/93)
+Easley, SC	127	13.4% (17/127)	128	12.5% (16/128)
+Powdersville, SC	117	16.2% (19/117)	114	15.8% (18/114)
+Dallas, TX	147	6.8% (10/147)	147	6.8% (10/147)
+Dallas, TX	31	0.0% (0/31)	31	0.0% (0/31)
+New Orleans, LA	46	4.3% (2/46)	46	2.2% (1/46)
+Statesville, NC	33	6.1% (2/33)	34	5.9% (2/34)
+Moorseville, NC	42	0.0% (0/42)	42	0.0% (0/42)
+ALL	941	8.5% (80/941)	944	8.2% (77/944)

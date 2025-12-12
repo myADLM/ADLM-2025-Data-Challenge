@@ -1,0 +1,111 @@
+Standard Operating Procedure: Whole Exome Sequencing
+(WES) Reanalysis
+1. PURPOSE
+To provide a comprehensive protocol for the reanalysis of previously
+generated Whole Exome Sequencing (WES) data to identify potential
+diagnostic variants in the context of updated databases, new
+literature, or clinical data.
+Responsibility:
+• Designated technologists and bioinformaticians are responsible
+for implementing this protocol.
+• The supervisor is responsible for reviewing and verifying all
+reanalysis results to ensure accuracy and compliance with the
+latest quality standards.
+1. DEFINITION
+Whole Exome Sequencing (WES) reanalysis involves a detailed re-
+evaluation of previously generated exome data to identify pathogenic
+variants that may have been missed or reclassified due to the
+availability of new genetic information or improved computational
+tools.
+1. PROCEDURE
+A. PRE-ANALYTICAL PREPARATION
+1. Retrieve and Verify Stored Data:
+◦ Access stored exome sequencing data. Confirm integrity
+and completeness of raw sequence files (FASTQ), aligned
+files (BAM/CRAM), and variant call files (VCF).
+◦ Ensure all necessary patient consent forms and clinical data
+are up to date.
+2. Prepare Analysis Environment:
+◦ Set up computational environment, ensuring appropriate
+software versions and databases are installed (e.g., GATK,
+BWA, SAMtools, ANNOVAR, Reference Genome [GRCh38],
+ClinVar, dbSNP, gnomAD).
+B. DATA REPROCESSING
+1. Reference Genome Alignment:
+◦ Align raw sequence reads (FASTQ) to the reference
+genome (GRCh38) using the BWA-MEM algorithm.
+◦ Post-process aligned sequences with SAMtools to sort and
+index BAM files.
+2. Variant Calling:
+◦ Call variants with the GATK HaplotypeCaller, enabling
+identification of SNPs, indels, and structural variants.
+◦ Generate new VCF files that include detailed variant
+annotations.
+3. Variant Quality Control:
+◦ Apply GATK’s Variant Quality Score Recalibration (VQSR)
+or other suitable quality control practices, filtering based on
+quality metrics such as depth, quality by depth (QD),
+mapping quality (MQ), and strand bias.
+◦ Review filtered variants for quality assurance, making
+necessary adjustments to filter thresholds as needed.
+C. VARIANT ANNOTATION AND PRIORITIZATION
+1. Variant Annotation:
+◦ Annotate variants using ANNOVAR or VEP with the latest
+functional impact information, population frequencies
+(gnomAD), disease association databases (ClinVar, OMIM),
+and in silico prediction tools (SIFT, PolyPhen).
+2. Clinical Correlation:
+◦ Cross-reference annotated variants with updated literature
+and patient’s clinical history.
+◦ Prioritize variants based on pathogenicity, clinical relevance,
+zygosity, allele frequency, conservation, and functional
+predictions.
+D. VARIANT INTERPRETATION AND REPORTING
+1. Interpretation:
+◦ Engage a multidisciplinary team including clinical
+geneticists, bioinformaticians, and medical laboratory
+scientists to evaluate clinically significant variants.
+◦ Consider reclassification of variants of uncertain significance
+(VUS) based on new guidelines and evidence from updated
+databases.
+2. Generating Report:
+◦ Compile a comprehensive clinical report summarizing the
+reanalysis findings. Include details such as variant
+description, zygosity, population frequency, in silico
+predictions, clinical significance, and supporting literature
+references.
+◦ Highlight any pathogenic or likely pathogenic variants that
+may have diagnostic, prognostic, or therapeutic implications.
+3. Report Review and Validation:
+◦ Supervisor or designated senior scientist reviews the report
+for scientific accuracy and clarity.
+◦ Verify the report against primary data for accuracy before
+releasing the final report to the clinician.
+E. DOCUMENTATION AND RECORD KEEPING
+1. Recording Results:
+◦ Document all steps of the reanalysis, including variant
+interpretation decisions and literature references, in the
+Laboratory Information System (LIS).
+◦ Maintain detailed records of any software and database
+versions used during the reanalysis.
+2. Communication:
+◦ Provide the final validated report to the referring clinician.
+Ensure timely communication of any critical findings.
+◦ Offer consultation or follow-up discussion if necessary.
+QUALITY CONTROL AND ASSURANCE:
+• Participate in external quality assessment schemes and internal
+audits for continuous quality improvement.
+• Regularly review and update the reanalysis procedure to
+incorporate new developments in the field of genomics.
+1. REFERENCES:
+• GATK Best Practices
+• ANNOVAR Documentation
+• ClinVar Database
+• gnomAD Database
+• Latest ACMG Guidelines for Interpretation of Sequence Variants
+Revision History:
+• Document changes and updates to this SOP with dates and
+descriptions of revisions.
+Approval Signatures:
+• Lab Director: ________________ Date: ________________
+• Supervisor: ________________ Date: ________________

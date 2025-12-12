@@ -1,0 +1,114 @@
+STANDARD OPERATING PROCEDURE FOR ALK MUTATION
+ANALYSIS, NEXT-GENERATION SEQUENCING, TUMOR
+1. PURPOSE
+The purpose of this procedure is to outline the steps required to
+perform ALK mutation analysis using next-generation sequencing
+(NGS) on tumor samples. This SOP ensures that the mutation
+analysis is conducted accurately, reliably, and in compliance with
+regulatory standards.
+1. RESPONSIBILITY
+All laboratory personnel performing ALK mutation analysis are
+responsible for following this protocol. It is the responsibility of the
+laboratory supervisor to ensure that all staff members are properly
+trained and that the procedures outlined in this document are strictly
+adhered to.
+1. SPECIMEN
+Acceptable Specimens:
+• Formalin-fixed, paraffin-embedded (FFPE) tumor tissue: Minimum
+of 5 unstained slides with 5-10 micron sections.
+• Fresh frozen tumor tissue: Minimum 10 mg of tissue, stored at
+-80°C until use.
+Unacceptable Specimens:
+• Specimens with insufficient tumor cell content (below 20%).
+• Specimens with extensive necrosis or fixation artifacts.
+• Specimens without clear identification or labeling.
+1. EQUIPMENT AND REAGENTS
+• Microtome
+• DNA extraction kit (specific for FFPE or fresh/frozen tissue)
+• NanoDrop Spectrophotometer
+• Qubit Fluorometer
+• PCR thermal cycler
+• NGS Library Preparation Kit (manufacturer specific)
+• Sequencing platform (e.g., Illumina, Ion Torrent)
+• Bioinformatics analysis software (validated for ALK mutation
+detection)
+• Personal protective equipment (PPE)
+• Ethanol, DNase/RNase-free water, and other molecular grade
+reagents
+1. PROCEDURE
+A. DNA Extraction:
+1. FFPE Tissue:
+◦ Deparaffinize tumor tissue sections using xylene and
+ethanol washes.
+◦ Proceed with DNA extraction following the manufacturer’s
+protocol of the DNA extraction kit.
+◦ Quantify DNA using NanoDrop and Qubit. Ensure DNA
+concentration is >10 ng/µL and A260/A280 ratio is between
+1.8 and 2.0.
+2. Fresh Frozen Tissue:
+◦ Thaw and homogenize tissue in the appropriate buffer.
+◦ Proceed with DNA extraction following the manufacturer’s
+protocol of the DNA extraction kit.
+◦ Quantify DNA using NanoDrop and Qubit. Ensure DNA
+concentration is >10 ng/µL and A260/A280 ratio is between
+1.8 and 2.0.
+B. Library Preparation:
+1. Amplify target regions including ALK gene using a validated
+PCR assay.
+2. Purify PCR products using a purification kit.
+3. Quantify PCR products using Qubit.
+4. Proceed with NGS library preparation using the NGS Library
+Preparation Kit according to the manufacturer’s instructions.
+5. Ensure proper DNA quantification and quality assessment at
+each step.
+C. Sequencing:
+1. Load the prepared libraries onto the sequencing platform.
+2. Start the sequencing run according to the manufacturer’s
+protocol.
+3. Monitor run parameters and ensure that the quality metrics are
+within acceptable limits.
+D. Data Analysis:
+1. Transfer raw sequencing data to the bioinformatics analysis
+software.
+2. Perform sequence alignment, variant calling, and annotation
+according to validated pipelines.
+3. Review the data quality and integrity. Confirm the presence of
+ALK mutations.
+4. Interpret the results in the context of clinical relevance.
+5. QUALITY CONTROL
+• Include positive and negative controls in each batch of DNA
+extraction, PCR, and sequencing runs.
+• Perform regular instrument calibration and maintenance as per
+manufacturer guidelines.
+• Run internal quality controls with known ALK mutations alongside
+patient samples to ensure reliability.
+1. REPORTING RESULTS
+2. Validate and review the sequence data and variant calls.
+3. Document all findings in the Laboratory Information System
+(LIS).
+4. Generate a detailed report including the detected ALK
+mutation(s), variant allele frequency (VAF), and clinical
+interpretation.
+5. Ensure the report is reviewed and signed by a qualified
+pathologist or molecular geneticist before dissemination.
+6. RECORDS MANAGEMENT
+• Maintain records of specimen receipt, processing, and analysis.
+• Document all QC measures, instrument settings, and
+maintenance logs.
+• Retain raw data and final reports in accordance with laboratory
+policy and regulatory requirements.
+1. REFERENCES
+• Manufacturer’s protocols for DNA extraction kits, NGS library
+preparation kits, and sequencing platforms.
+• Bioinformatics analysis software manuals.
+• Relevant scientific literature and clinical guidelines on ALK
+mutation analysis.
+1. REVIEW AND APPROVAL
+Ensure the SOP is reviewed annually or when significant changes
+are made to equipment, reagents, or procedures. The SOP must be
+approved by laboratory management and the quality assurance
+department.
+Reviewed by: ______________________ Date:
+____________________________
+Approved by: ______________________ Date:
+____________________________

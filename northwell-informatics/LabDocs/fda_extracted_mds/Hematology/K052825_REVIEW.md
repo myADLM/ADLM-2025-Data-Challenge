@@ -1,0 +1,172 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: K052825   
+B. Purpose for Submission: To obtain clearance for the VisuLize™ Factor VIII Antigen Kit   
+C. Measurand: Factor VIII Antigen (FVIII-AG)   
+D. Type of Test: Enzyme Immunoassay   
+E. Applicant: Affinity Biologicals, Inc.   
+F. Proprietary and Established Names: VisuLize™ Factor VIII Antigen Kit   
+G. Regulatory Information:
+
+#
+
+1. Regulation section:   
+21 CFR 864.7290
+
+2. Classification: Class II
+
+3. Product code: GGP
+
+4. Panel: 81 Hematology
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+The VisuLize™ Factor VIII Antigen kit is an Enzyme Immunoassay for the quantitative determination of Factor VIII antigen in human plasma samples and Factor VIII concentrates using the double antibody enzyme linked immunosorbent assay (ELISA).
+
+2. Indication(s) for use:
+
+The VisuLize™ Factor VIII Antigen Kit is intended for use as an in vitro diagnostic assay for the quantitative determination of Factor VIII antigen in human plasma samples and Factor VIII concentrates using the double antibody enzyme linked immuno-sorbent assay (ELISA).
+
+3. Special conditions for use statement(s):
+
+4. Special instrument requirements:
+
+# I. Device Description:
+
+The VisuLize™ Factor VIII Antigen kit contains all reagents necessary to perform the ELISA assay. VisuLize™ Factor VIII Antigen is a sandwich enzyme-linked immuno-sorbent assay (ELISA) using a pre-coated sheep polyclonal antibody 96-well format. Plasma samples are diluted and applied to the pre-coated wells. After washing away unbound proteins, a horseradish peroxidase (HRP) labeled polyclonal antibody is applied to detect the captured Factor VIII. A chromogenic substrate (TMB) is added to allow for color development. The color formed is measured spectrophotometrically at $4 5 0 \mathrm { n m }$ , with the absorbance being directly proportional to the concentration of Factor VIII that was in the sample.
+
+The kit components include calibrator plasma, control plasmas, sample diluent, wash buffer and stop solution.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Coamatic® Factor VIII
+
+2. Predicate 510(k) number(s): K981038
+
+# 3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Sample matrix</td><td rowspan=1 colspan=1>Citrated human plasma, 3.2%</td><td rowspan=1 colspan=1>Citrated plasma, 0.1 mol/L</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>Quantitative determination ofFVIII in human plasma andand FVIII concentrates</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Assay principle</td><td rowspan=1 colspan=1>Quantitative determination ofFactor VIII antigen by ELISA</td><td rowspan=1 colspan=1>Quantitative determination ofFactor VIII activity by FactorXa chromogenic assay</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>An enzyme immunoassay forthe quantitative determinationof FVIII antigen in humanplasma samples and FVIIIconcentrates using the doubleantibody ELISA</td><td rowspan=1 colspan=1>For the photometricdetermination of FVIII activityin plasma such as whenidentifying FVIII deficiency ormonitoring patients onreplacement therapy as well asfor potency estimation of FVIIIconcentrates</td></tr><tr><td rowspan=1 colspan=1>Technology</td><td rowspan=1 colspan=1>Double antibody enzymelinked immuno-sorbent assay(ELISA)</td><td rowspan=1 colspan=1>Chromogenic based</td></tr><tr><td rowspan=1 colspan=1>Linearity</td><td rowspan=1 colspan=1>Log-log curve</td><td rowspan=1 colspan=1>Linear curve</td></tr><tr><td rowspan=1 colspan=1>Traceability of calibrator</td><td rowspan=1 colspan=1>Calibrator standardized againsta secondary standard traceableto the WHO InternationalStandard for FVIII antigen</td><td rowspan=1 colspan=1>Not provided with the kit</td></tr><tr><td rowspan=1 colspan=1>Detection limit</td><td rowspan=1 colspan=1>0.008 IU/ml (0.8%)</td><td rowspan=1 colspan=1>Normal range: 0.05 IU/mlLow range: 0.005 IU/ml</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+How to Define and Determine Reference Intervals in the Clinical Laboratory; Approved Guideline, Second Edition, C28-A2, CLSI, Vol. 15 No. 4, June 2000.
+
+Protocols for Determination of Limits of Detections and Limits of Quantitation; Proposed
+
+Guideline, EP17-P, NCCLS, March 2004.
+
+Evaluation of Precision Performance of Clinical Chemistry Devices, EP5-A, CLSI, Feb.   
+1999.
+
+Interference Testing in Clinical Chemistry, EP-7P, NCCLS, Aug. 1996.
+
+Collection, Transport and Processing of Blood Specimens for Coagulation Testing and General Performance of Coagulation Assays, Third Edition, H21-A4, CLSI, 1998.
+
+# L. Test Principle:
+
+Strip wells are pre-coated with sheep polyclonal antibody to human VIII. Plasma samples are diluted and applied to the wells. The FVIII antigen present binds to the coated antibody. After washing away unbound material, peroxidase-labeled sheep detecting antibody is applied and allowed to bind to the captured FVIII. The wells are again washed and a solution of TMB (tetramethylbenzidine peroxidase substrate) is applied and allowed to react for a fixed period of time. The yellow color formed is measured spectrophotometrically in a microplate reader at $4 5 0 \mathrm { n m }$ . The absorbance at $4 5 0 \mathrm { n m }$ is directly proportional to the quantity of FVIII captured onto the well. The assay is calibrated using the calibrator plasma provided in the kit and the Factor VIII antigen level in plasma is derived from this reference curve.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+Intra-assay precision (variability within a plate for VIII antigen determinations) was determined by two methods on the three validation lots of VisuLize™ Factor VIII Antigen kit.
+
+Method 1: Control Plasma A and Control Plasma B were tested across four plates from each validation lot (two operators ran two plates each). The FVIII antigen overall mean CV was $4 . 5 6 \%$ with mean CV’s ranging from 2.02 – $8 . 4 8 \%$ .
+
+Method 2: Three plasma samples were assessed at different levels of FVIII. For each sample, eight replicates were run over 10 days, with assays performed by two operators each day. The intra-assay CV was calculated according to CLSI Guideline EP5-A. Method 2 reported a mean CV of $4 . 5 1 \%$ .
+
+Inter-assay precision (variability between plates of the same lot) was determined from three plasma samples at different levels of FVIII. For each sample, eight replicates were run over 10 days, with assays performed by two operators each day. The overall mean inter-assay CV was $4 . 6 9 \%$ .
+
+Inter-assay, inter-lot precision was determined by comparing the values recovered in three validation lots for 94 plasma samples (23 clinical samples, 55 normal samples and 16 artificial samples prepared by mixing plasmas with known concentrations of FVIII with Factor VIII deficient plasma. Each sample was tested in duplicate. The mean inter-assay, inter-lot CV for FVIII antigen was $7 . 7 8 \%$ .
+
+# b. Linearity/assay reportable range:
+
+Linearity of the VisuLize™ Factor VIII Antigen kit was evaluated by analyzing calibration curves prepared from the kit supplied Calibrator Plasma. Calibrator plasma dilutions were prepared and tested in duplicate by two different operators on 5 plates per operator in three validation lots. For each assay, the mean optical density (O.D.) of each Calibrator Plasma dilution was plotted against its Factor VIII concentration, in log-log format (log O.D. vs. log of Factor VIII concentration). The linearity of each curve was calculated by linear regression and expressed as the coefficient of determination $( \mathrm { R } ^ { 2 } )$ . The calibration curve was considered linear if the $\mathrm { R } ^ { 2 } \geq 0 . 9 9 0$ . The average $\mathrm { R } ^ { 2 }$ from the 30 assay events (10 events per validation lot) was 0.9928 (range $=$ $0 . 9 9 0 - 0 . 9 9 6 )$ when linearity of the VisuLize™ Factor VIII Antigen kit was tested.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+The calibrator plasma supplied with each kit is a lyophilized assayed normal plasma pool used to prepare a reference curve in the VisuLize™ Factor VIII Antigen kit. The calibrator plasma is prepared from a frozen pool of citrated plasma from healthy donors and is standardized against an internal secondary standard that is traceable to the WHO International Standard for Factor VIII antigen (97/586). Value assignment for each lot of calibrator plasma is determined by testing 21 vials at four dilutions each by two operators and calculating the mean value of the determinations.
+
+The control plasmas supplied with each kit are lyophilized assayed plasma pools. Control Plasma A is a normal control in the range of $0 . 6 - 2 . 0 \ : \mathrm { I U / m l }$ $( 6 0 - 2 0 0 \% )$ Factor VIII and is prepared from a frozen pool of citrated plasma from healthy donors. Control Plasma B is an abnormal low control in the range of $0 . 0 1 - 0 . 1 \mathrm { I U / m l } ( 1 - 1 0 \% )$ Factor VIII and is prepared from a frozen pool of FVIII deficient and normal plasma with a known FVIII level. The normal plasma is added to the deficient plasma to bring the Factor VIII value within the targeted range. The calibrator plasma is used to assign values to the control plasmas. Ranges are assigned to the control plasmas by testing 21 vials of each at two dilutions each by two operators and calculating the mean
+
+$\pm 2$ standard deviations.
+
+Current real-time stability studies are ongoing for VisuLize™ Factor VIII Antigen kit and stability data is available for 13 months for lot 1, 12 months for lot 2, and 6 months validation for lot 3. Testing is to be continued for 24 months in order to claim a shelf-life of 18 months. All kit components were stored at $2 { - } 8 ^ { \circ } \mathrm { C }$ and tested at monthly intervals. Two plasma controls were tested using the kit components from each validation lot. Assay specifications for stability include:
+
+• Absorbance of the top point of the standard should be $> 1 . 0$ • Mean O.D. of the reagent blank must be $< 0 . 1 0 0$ Controls should recover within assigned ELISA ranges for the kit
+
+In order to assess the kit stability at 18 months, accelerated stability studies were performed according to EN 13640:2002 (European Committee for Standardization, March 2002). One kit from each validation lot was incubated at $3 6 \mathrm { { } ^ { \circ } C }$ for 17.5 days and a second kit from each lot was incubated at $4 8 \mathrm { { } ^ { \circ } C }$ for 5.9 days. Incubation times and temperatures are approximately equivalent to 18 months at $2 { - } 8 ^ { \circ } \mathrm { C }$ plus on week at $2 5 \mathrm { { ^ \circ C } }$ . Assay specifications for accelerated stability include:
+
+• Absorbance of the top point of the standard should be $> 1 . 0$   
+• Mean O.D. of the reagent blank must be $< 0 . 1 0 0$ Controls should recover within assigned ELISA ranges for the kit Linearity of reference curve $( \mathbb { R } ^ { 2 } )$ should $\mathbf { b e } \geq 0 . 9 9 0$
+
+Absorbance values were within the required specifications for real-time and accelerated stability.
+
+# d. Detection limit:
+
+Two methods were used to determine the lower limit of the detection range for the VisuLize™ Factor VIII Antigen kit. Both methods were tested on three validation lots.
+
+In the first method, the lower limit of detection was determined to be the lowest amount of Factor VIII that could be distinguished from the blank by a difference of three standard deviations.
+
+The second method involved testing samples containing $< 1 \%$ $\left( < 0 . 0 1 \ \mathrm { I U / m l } \right)$ Factor VIII in order to determine if they could be detected. The limit of detection (lowest absorbance that would be detected) was calculated according to NCCLS guideline EP17-P. The samples were prepared by mixing normal plasma with a known Factor VIII activity level with Factor VIII deficient plasma. A minimum of five replicates per sample was analyzed using a 1:4 dilution as per the product insert instructions. A minimum of 20 blank wells was also run in the same assay events as the test samples. The mean absorbance (O.D.) and standard deviation for each of the test samples as well as the mean and standard deviation for the reagent blank were calculated.
+
+The lower limit of detection is set at $0 . 0 0 8 \mathrm { I U / m l } \left( 0 . 8 \% \right)$ . The upper limit of detection may vary slightly with each lot if kit depending on the assayed value of the calibrator supplied in the kit.
+
+# e. Analytical specificity:
+
+Assay interference was assessed by determining the effect of various endogenous and exogenous substances on the recovery of FVIII in samples containing normal FVIII levels and $< 0 . 1 \ \mathrm { I U / m l }$ Factor VIII. The assays were conducted according to CLSI guideline EP7-P using the paired difference method. Spiked plasmas were compared to unspiked control samples. For the clinically important samples, (i.e., those containing low levels of FVIII), interference was defined as those substances that produce an absolute difference of $> 0 . 0 1 \ \mathrm { I U / m l }$ between the control and test samples. The results of testing the potential interferents in the clinically important samples indicated that no interference was observed, i.e., differences between test and control samples were $< 0 . 0 1 \ \mathrm { I U / m l }$ .
+
+To determine the effect if different anticoagulants on the assay, plasma samples were collected in EDTA, heparin, and oxalate anticoagulants and compared to samples simultaneously collected in $3 . 2 \%$ sodium citrate. Some variability was observed in the recovered FVIII, thus the product labeling indicated that samples must be collected in $3 . 2 \%$ sodium citrate.
+
+To test for possible interference of von Willebrand Factor (vWF) in the assay, FVIII immune-depleted plasma was spiked with varying concentrations of purified vWF $20 \%$ , $50 \%$ and $100 \%$ ) and assayed in the three validation lots. All test samples reported out of range results indicating that vWF is not detected by the assay.
+
+The effect of lupus anticoagulant (LA) on the assay results was investigated by testing patient plasmas with LA in the presence and absence of platelet lysate (PL). Normal plasmas were also tested in the same assays in the absence and presence of platelet lysate as a control. The PL was added to the samples in order to neutralize any effect of the LA. The assays produced similar results for both the LA positive plasmas and the normal plasma controls indicating no interference in the assay that is attributable to LA.
+
+Interference was observed for samples positive for Rheumatoid Factor and the possibility of anti-sheep antibodies in test samples. Therefore, these interferences are noted in the product labeling.
+
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+Three validation lots of the VisuLize™ Factor VIII Antigen kit were used to define the performance characteristics of the proposed device. Testing of clinical samples was conducted internally and by two external testing sites.
+
+For internal testing, a total of 142 samples were assayed. All samples, except in-house controls and von Willebrand spiked samples were commercially obtained. Each sample was tested in duplicate in the three validation lots of the VisuLize™ Factor VIII Antigen kit and in the Coamatic® Factor VIII assay. Statistical evaluation of the entire group of clinical samples resulted in a Pearson Product Moment correlation coefficient (r) value of 0.968.
+
+At the first external site, 100 commercially available samples were assayed (duplicate testing) in one lot of the proposed device and in the predicate device. A comparison of the results obtained with the VisuLize™ Factor VIII Antigen kit and the predicate device, Coamatic® Factor VIII assay, demonstrated a correlation coefficient (r) value of 0.964.
+
+At the second external site, 81 commercially available samples were assayed (duplicate testing) in one lot of the proposed device and in the predicate device. A comparison of the results obtained with the VisuLize™ Factor VIII Antigen kit and the predicate device, Coamatic® Factor VIII assay, demonstrated a correlation coefficient (r) value of 0.974.
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not assessed
+
+b. Clinical specificity: Not assessed
+
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+4. Clinical cut-off:
+
+Not applicable
+
+5. Expected values/Reference range:
+
+The reference range for Factor VIII in normal plasma samples as reported in the literature is $5 0 \% - 1 8 0 \%$ of that in pooled normal plasma. The reference range of the VisuLize™ Factor VIII Antigen kit was challenged by testing 99 citrated plasma samples from healthy individuals with no known history of Hemophilia A in each of three validation lots. All samples were tested in duplicate in each lot. The overall $9 5 \%$ reference interval was calculated by using the mean $\pm 2 \mathrm { S D }$ from all values obtained with the three validation lots and will be reported as 0.64 – $1 . 8 9 \mathrm { I U / m l }$ (mean all results $= 1 . 2 6 8 \ : \mathrm { I U / m l } .$ , $\mathrm { S D } = 0 . 3 1 1 6$ ).
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+1. The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

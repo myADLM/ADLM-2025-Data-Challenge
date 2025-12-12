@@ -1,0 +1,105 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase Protocol for Generating Results for
+MAYOCOMPLETE B-CELL LYMPHOMA, NEXT-GENERATION
+SEQUENCING, VARIES
+1. PURPOSE
+This protocol details the preparation, sequencing, and data
+analysis steps required for generating and reporting results for
+the MAYOCOMPLETE B-Cell Lymphoma Next-Generation
+Sequencing (NGS) test.
+Responsibility:
+It is the responsibility of the operating technologists and laboratory
+supervisors to ensure all procedures are strictly followed to ensure
+accurate and reliable results. Documentation should be completed
+accurately and timely to reflect the activities conducted during the
+analytical phase.
+1. SCOPE
+This SOP applies to the generation of results for all received
+MAYOCOMPLETE B-Cell Lymphoma samples intended for
+Next-Generation Sequencing (NGS), as requested by
+clinicians.
+2. DEFINITIONS AND ABBREVIATIONS
+NGS: Next-Generation Sequencing
+DNA: Deoxyribonucleic Acid
+QC: Quality Control
+PCR: Polymerase Chain Reaction
+LIS: Laboratory Information System
+SNP: Single Nucleotide Polymorphism
+Indel: Insertions/ Deletions
+Variant Calling: Process of identifying variants from sequence
+data.
+VAF: Variant Allele Frequency
+3. PROCEDURE
+4.1. Sample Preparation
+a) DNA Extraction i. Extract genomic DNA from the patient samples
+using an appropriate DNA extraction kit. ii. Measure DNA
+concentration and purity using a spectrophotometer. iii. Required
+DNA concentration: ≥ 20ng/µl (ideally 50-100ng/µl) with A260/A280
+ratio of 1.8-2.0.
+b) DNA Quality Control i. Run extracted DNA on an agarose gel to
+check integrity and size. ii. Use QC passed DNA for library
+preparation.
+4.2. Library Preparation a) DNA fragmentation i. Fragment the DNA
+to the desired size (~150-350 bp) using a sonicator.
+b) Adapter Ligation and PCR Amplification i. Perform end repair, A-
+tailing, and ligate adapters to fragmented DNA. ii. Amplify the
+adapter-ligated DNA using PCR as per manufacturer's protocol. iii.
+Clean up PCR products with magnetic beads to remove unused
+primers, dNTPs, and enzymes.
+c) Library QC and Quantification i. Quantify the constructed libraries
+using qPCR or fluorometric methods. ii. Perform QC using an Agilent
+Bioanalyzer or equivalent to check library size distribution and
+integrity.
+4.3. Sequencing a) Cluster Generation i. Load the libraries onto the
+sequencing flow cells. ii. Use bridge amplification to generate clusters
+on the flow cell surface.
+b) Sequence Generation i. Perform paired-end sequencing using
+Illumina (or equivalent) sequencing platforms as per laboratory
+standard protocols. ii. Define appropriate sequencing depth and read
+length according to test requirements (typically >500X mean
+coverage).
+4.4. Data Analysis a) Raw Data Processing i. Convert raw data files
+(BCL) to FASTQ files using the sequencing platform software (e.g.,
+Illumina's bcl2fastq). ii. Perform QC on FASTQ files using tools like
+FastQC to evaluate read quality, GC content, and adapter
+contamination.
+b) Alignment i. Align the FASTQ reads to the human reference
+genome (e.g., hg19 or hg38) using a certified aligner (e.g., BWA-
+MEM). ii. Process aligned reads (BAM files) for sorting, marking
+duplicates, and recalibrating base quality scores using tools such as
+SAMtools and GATK.
+c) Variant Calling i. Identify SNPs and Indels using a variant caller like
+GATK or Strelka. ii. Filter variants based on quality metrics (e.g.,
+depth, base quality, mapping quality).
+d) Annotation i. Annotate the filtered variants using databases like
+dbSNP, ClinVar, COSMIC, and others to determine clinical relevance.
+ii. Identify known oncogenic mutations and novel variants pertinent to
+B-cell lymphoma.
+4.5. Reporting Results a) Variant Review i. Review and interpret
+variant data with clinical significance in the context of B-cell
+lymphoma. ii. Compare detected variants against known B-cell
+lymphoma-associated genes and relevant mutations.
+b) Documentation and Report Generation i. Compile the final variant
+list, providing details on gene, nucleotide change, amino acid
+change, and variant classification. ii. Document QC metrics and any
+deviations encountered during the process. iii. Enter results into the
+LIS for review by the responsible pathologists. iv. Generate an
+interpretive report including clinically significant variants along with
+appropriate clinical correlations and management recommendations.
+1. QUALITY CONTROL a) Include positive and negative controls
+(e.g., reference DNA samples with known variants) in each run
+to ensure sequencing accuracy and reliability. b) Regularly
+calibrate and maintain sequencing instruments as per
+manufacturer's recommendations. c) Perform periodic
+proficiency testing and inter-laboratory comparisons to validate
+the test performance.
+2. SAFETY AND COMPLIANCE a) Follow all laboratory safety
+guidelines including the use of PPE and proper waste disposal.
+b) Comply with regulatory requirements (e.g., CLIA, CAP)
+pertaining to molecular diagnostic testing.
+3. REFERENCES
+• Illumina Sequencing Platform Operation Manuals • GATK Best
+Practices • Standard Molecular Diagnostic NGS Protocols
+This SOP will be reviewed annually and updated as needed to reflect
+advances in technology and improvements in the laboratory
+workflow.

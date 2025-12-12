@@ -1,0 +1,93 @@
+STANDARD OPERATING PROCEDURE (SOP) Analytical Phase of
+Generating Results for Congenital Heart Disease Gene Panel, Varies
+1. PURPOSE
+This procedure provides guidelines for the analytical phase of
+generating results for the Congenital Heart Disease Gene Panel. It
+ensures that all necessary steps are taken to achieve accurate and
+reliable genetic testing results. This SOP includes DNA extraction,
+library preparation, sequencing, data analysis, and result
+interpretation.
+1. RESPONSIBILITY
+This SOP is the responsibility of designated laboratory personnel
+trained in molecular techniques. All personnel must adhere to these
+procedures to maintain quality and accuracy in genetic testing.
+1. EQUIPMENT, REAGENTS AND SUPPLIES
+• DNA extraction kit (e.g., QIAGEN QIAamp DNA Mini Kit)
+• Quantification instruments (e.g., Qubit Fluorometer, NanoDrop
+Spectrophotometer)
+• Sequencing library preparation kit (e.g., Illumina TruSeq DNA
+Library Prep Kit - Custom Amplicon)
+• Sequencer (e.g., Illumina MiSeq or NextSeq)
+• Bioinformatics tools (e.g., BWA, GATK, ANNOVAR, IGV)
+• Congenital Heart Disease Panel-specific reagents and primers
+• Thermal Cyclers
+• PCR cleanup kit (e.g., AMPure XP beads)
+• Quality control materials
+• Personal Protective Equipment (PPE) including gloves and lab
+coats
+1. PROCEDURE
+A) DNA Extraction
+1. Obtain specimens for genetic analysis. Follow specimen
+collection and accessioning SOPs.
+2. Extract DNA using a DNA extraction kit, following the
+manufacturer’s instructions.
+3. Quantitate extracted DNA using the Qubit Fluorometer and/or
+NanoDrop Spectrophotometer.
+4. Evaluate DNA quality by running a small aliquot on an agarose
+gel or using a Fragment Analyzer.
+B) Library Preparation
+1. Prepare DNA libraries using the Illumina TruSeq DNA Library
+Prep Kit specific for Custom Amplicon design.
+2. Follow the manufacturer’s protocol, ensuring accurate pipetting
+and adherence to thermal cycler conditions.
+3. Purify the PCR products using AMPure XP beads to remove
+unwanted fragments.
+4. Quantitate and validate the prepared libraries using the Qubit
+Fluorometer and ensure library size distribution using the
+Fragment Analyzer.
+C) Sequencing
+1. Load the libraries on the appropriate sequencing platform (e.g.,
+Illumina MiSeq, NextSeq) following the manufacturer’s
+instructions for loading samples.
+2. Perform the sequencing run following established protocols.
+3. Ensure and document the proper functioning of sequencers
+during the run. Monitor run progress regularly.
+D) Data Analysis
+1. Transfer data from sequencing platform to secure
+bioinformatics workstation.
+2. Use bioinformatics tools (e.g., BWA for alignment, GATK for
+variant calling, ANNOVAR for annotation) to process raw data.
+3. Conduct quality control checks on sequencing data. Ensure
+proper reads and coverages.
+4. Filter and annotate variants relevant to congenital heart disease
+genes based on the panel design.
+E) Result Interpretation
+1. Use bioinformatics tools (e.g., IGV) for detailed visualization
+and review of genetic variants.
+2. Compare detected variants with known databases to interpret
+clinical significance.
+3. Prepare a comprehensive report including detected variants,
+clinical relevance, and recommendations for follow-up.
+4. Ensure that the final report is reviewed and signed off by senior
+geneticists before release.
+5. QUALITY CONTROL
+6. Run positive and negative controls with each batch of samples
+to ensure accurate capture and processing.
+7. Regularly calibrate quantification instruments and sequencers
+per manufacturer’s guidelines.
+8. Document all quality control results and take corrective action if
+any deviation from accepted parameters is observed.
+9. REPORTING RESULTS
+10. Review and validate the final genetic analysis results.
+11. Report the findings in accordance with site-specific guidelines.
+12. Notify healthcare providers of critical findings.
+13. REFERENCES
+Manufacturer's instructions for DNA Extraction Kit, Library Prep Kit,
+and Sequencing Platform. Bioinformatics tools user manuals: BWA,
+GATK, ANNOVAR, IGV. Relevant peer-reviewed articles describing
+gene-disease associations for congenital heart disease.
+1. AUTHORSHIP AND APPROVALS
+Author: [Name] Title: [Title] Date: [Date]
+Reviewed by: [Name] Title: [Title] Date: [Date]
+Approved by: [Name] Title: [Title] Date: [Date]
+End of Document

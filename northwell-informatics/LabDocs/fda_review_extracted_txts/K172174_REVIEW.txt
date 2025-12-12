@@ -1,0 +1,413 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K172174
+B. Purpose for Submission:
+New display PP27QHD
+C. Manufacturer and Instrument Name:
+Philips Medical Systems Nederland B.V.
+Philips IntelliSite Pathology Solution (PIPS)
+D. Type of Test or Tests Performed:
+Digital pathology whole slide imaging system
+E. System Descriptions:
+1. DeviceDescription:
+The Philips IntelliSite Pathology Solution (PIPS) is an automated digital slide creation,
+management, viewing and analysis system.
+The PIPS consists of two subsystems and a display:
+• Ultra Fast Scanner (UFS) (for software UFS 1.7.1.1, for hardware 4522 010
+50003)
+• Image Management System (IMS) (for software IMS 2.6.1)
+• Display (PP27QHD)
+The UFS consists of optical, mechanical, electronic and software elements to scan FFPE
+tissue mounted on glass slides at a resolution of 0.25 µm per pixel, which is equivalent to
+a 40x objective, to create digital Whole Slide Images (WSI). The UFS has a capacity of
+300 slides (15 glass slide racks with up to 20 slides per rack). After the slide racks are
+loaded into the UFS, the UFS automatically detects and starts scanning the slides. CCD
+cameras are used to capture color images from the back-lit tissue specimen. An LED light
+source employs top-lit illumination to capture the barcode and back-lit illumination for
+tissue scanning. The stage (STG) and Image Capturing Unit (ICU) are fixed to each other
+and to the base frame to ensure correct positioning of the slide and to suppress external
+disturbances. Proprietary software is used for image processing during acquisition.
+1
+
+--- Page 2 ---
+Philips’ proprietary format, iSyntax, is used to store and transmit the images between the
+UFS and the IMS.
+The IMS is a software only subsystem to be used with the Display. Functionality of the
+IMS includes the ability to view images, organize workload, and annotate and bookmark
+scanned images. The user manual for PIPs specifies compatible computer environment
+hardware and software that is not included as part of the system.
+The display is a custom developed 27” color LCD flat panel medical display. The
+dithering functionality is implemented on the display itself (PP26QHD). The dithering
+operations in the display system do not affect the image characteristics, as both the
+display PS27QHDCR and the display PP27QHD (MMPC-4127F1) use the same
+temporal dithering schematic and the same 256 pseudo random sequence. The display has
+the following specifications:
+· 3.6 Megapixel
+· Resolution 2560 x 1440
+· Backlight : White LED
+· Frame rate: 60 Hz ; Refresh rate: 60 Hz
+· Connectivity : 100 Mbit/sec or 1 Gbit Ethernet connection to internet/intranet
+The different subsystems of the PIPS are connected over an IT network at the user site.
+The IT hardware/software that supports the IMS Application Server & Storage software
+is not provided as part of the PIPS, but may be located in a central server room separate
+from the workstation with the IMS viewing software and Display. The communication of
+data between UFS and IMS is via a customer provided wired network or a direct
+connected cable between these subsystems. PIPS includes a display that has been
+validated as part of the pivotal clinical study.
+The PIPS allows pathologists to view and evaluate digital images of formalin-fixed,
+paraffin-embedded (FFPE) tissue slides that would otherwise be appropriate for manual
+visualization by conventional brightfield (light) microscopy. The PIPS does not include
+any automated Image Analysis Applications that would constitute computer aided
+detection or diagnosis.
+2. Principles of Operation:
+The PIPS device is an automated system designed for scanning and digitizing surgical
+pathology slides prepared from FFPE tissue. These digitized images can then be reviewed
+and interpreted by pathologists for clinical (patient care) purposes.
+Prior to scanning the slide on the UFS, the technician conducts quality control of the
+slides per the laboratory’s standards. The technician then places the slides into racks,
+which are loaded into the UFS. The handler in the UFS automatically moves a slide from
+the storage area to the scanning area. A macro image is generated that includes the slide
+label and a low power image of the entire slide. The system then determines regions of
+2
+
+--- Page 3 ---
+interest in the tissue to scan, which are subsequently scanned at high resolution (0.25 µm
+per pixel). After the slide is scanned, it is returned to the same slot of the same rack from
+which it was originally obtained.
+The images scanned in the UFS are compressed using Philips’ proprietary iSyntax format
+and are transmitted to the IMS subsystem. The images can be reviewed through the IMS
+only. The IMS allows the user to identify, organize and execute the worklist. The
+pathologist selects the first slide, navigates around the slide and views the images at the
+desired magnification. The pathologist is responsible for ensuring the validity of the
+interpretation of the digital images obtained from the PIPS.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___X_____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ____X____
+4. Specimen Identification:
+The FFPE tissue specimen is identified on the scanned images by patient-specfic
+barcodes and/or patient identifying information present on the glass slides.
+5. Specimen Sampling and Handling:
+Specimen sampling, which includes FFPE tissues, is performed by clinicians. Biopsy
+specimens are processed by trained healthcare professionals.
+6. Calibration:
+The UFS performs a series of automatic calibrations. Each whole slide image (WSI)
+displays a flag that indicates if the scanner was in a calibrated or un-calibrated state,
+thereby providing a visual indicator to the viewer of the WSI. Users also may manually
+initiate a calibration, if desired. By default, calibrations are triggered every 4 hours (or
+200 slides). Depending on circumstances, this frequency can result in a calibration in the
+middle of a run. To prevent such an event, the user may manually initiate the calibration
+process prior to scanning a batch (e.g., during slide processing).
+Manual calibration may also be initiated if the UFS detects that the instrument is not
+calibrated during a slide scan. The system will display a message to the operator
+requesting whether the user wishes to accept the slide as is or re-calibrate and rescan the
+3
+
+--- Page 4 ---
+slide. As a precautionary measure, the system displays a warning message on images that
+were scanned using an un-calibrated scanner. In addition to the automated calibration
+within the UFS, routine field service visits are planned to calibrate the UFS.
+The display is calibrated using a built-in front sensor. Calibrations are initiated by the
+QAWeb agent and performed as a background activity. The IMS subsystem does not
+require calibration.
+7. Quality Control:
+It is the responsibility of the laboratory staff to conduct and maintain quality control of
+the slides per their laboratory standards (e.g., staining, cover-slipping, barcode
+placement) prior to loading the slides into the UFS. After completing a scan, the operator
+is instructed by the instructions for use to check image data and image quality using the
+IMS Viewer. In addition to calibrations, quality checks for the display are initiated by the
+QAWeb agent and performed as a background activity.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.3700
+2. Classification:
+Class II (special controls)
+3 Product code:
+PSY
+4. Panel:
+88 - Pathology
+G. Intended Use:
+1. Indication(s) for Use:
+4
+
+--- Page 5 ---
+The Philips IntelliSite Pathology Solution (PIPS) is an automated digital slide creation,
+viewing, and management system. The PIPS is intended for in vitro diagnostic use as an
+aid to the pathologist to review and interpret digital images of surgical pathology slides
+prepared from formalin-fixed paraffin embedded (FFPE) tissue. The PIPS is not intended
+for use with frozen section, cytology, or non-FFPE hematopathology specimens.
+The PIPS comprises the Image Management System (IMS), the Ultra Fast Scanner (UFS)
+and Display. The PIPS is for creation and viewing of digital images of scanned glass
+slides that would otherwise be appropriate for manual visualization by conventional light
+microscopy. It is the responsibility of a qualified pathologist to employ appropriate
+procedures and safeguards to assure the validity of the interpretation of images obtained
+using PIPS.
+2. Special Conditions for Use Statement(s):
+For in vitro diagnostic (IVD) use only
+For prescription use only
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Philips IntelliSite Pathology Solution (PIPS)
+DEN160056
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+PIPS (2.6.1) PIPS (2.5)
+Intended use The Philips IntelliSite Pathology Same
+/Indication for use Solution (PIPS) is an automated
+digital slide creation, viewing,
+and management system. The
+PIPS is intended for in vitro
+diagnostic use as an aid to the
+pathologist to review and
+interpret digital images of
+surgical pathology slides
+prepared from formalin-fixed
+paraffin embedded (FFPE)
+tissue. The PIPS is not intended
+for use with frozen section,
+cytology, or non-FFPE
+5
+
+[Table 1 on page 5]
+Similarities						
+Item		Device			Predicate	
+		PIPS (2.6.1)			PIPS (2.5)	
+Intended use
+/Indication for use	The Philips IntelliSite Pathology
+Solution (PIPS) is an automated
+digital slide creation, viewing,
+and management system. The
+PIPS is intended for in vitro
+diagnostic use as an aid to the
+pathologist to review and
+interpret digital images of
+surgical pathology slides
+prepared from formalin-fixed
+paraffin embedded (FFPE)
+tissue. The PIPS is not intended
+for use with frozen section,
+cytology, or non-FFPE			Same		
+
+--- Page 6 ---
+Similarities
+Item Device Predicate
+PIPS (2.6.1) PIPS (2.5)
+hematopathology specimens.
+The PIPS comprises the Image
+Management System (IMS), the
+Ultra Fast Scanner (UFS) and
+Display. The PIPS is for creation
+and viewing of digital images of
+scanned glass slides that would
+otherwise be appropriate for
+manual visualization by
+conventional light microscopy. It
+is the responsibility of a
+qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the validity
+of the interpretation of images
+obtained using PIPS.
+Ultra Fast Scanner The UFS consists of optical, Same
+(UFS) (for software mechanical, electronic and
+UFS1.7.1.1 software elements to scan FFPE
+tissue mounted on glass slides at
+a resolution of 0.25 µm per
+pixel, which is equivalent to a
+40x objective, to create digital
+Whole Slide Images (WSI). The
+UFS has a capacity of 300 slides
+(15 glass slide racks with up to
+20 slides per rack). After the
+slide racks are loaded into the
+UFS, the UFS automatically
+detects and starts scanning the
+slides. CCD cameras are used to
+capture color images from the
+back-lit tissue specimen.
+Differences
+Item Device Predicate
+PIPS (2.6.1) PIPS (2.5)
+Display Temporal and spatial dithering is Temporal and spatial
+implemented in the medical dithering is implemented on
+display the graphics board
+Supported color spaces including sRGB is supported
+sRGB:
+6
+
+[Table 1 on page 6]
+Similarities						
+Item		Device			Predicate	
+		PIPS (2.6.1)			PIPS (2.5)	
+	hematopathology specimens.
+The PIPS comprises the Image
+Management System (IMS), the
+Ultra Fast Scanner (UFS) and
+Display. The PIPS is for creation
+and viewing of digital images of
+scanned glass slides that would
+otherwise be appropriate for
+manual visualization by
+conventional light microscopy. It
+is the responsibility of a
+qualified pathologist to employ
+appropriate procedures and
+safeguards to assure the validity
+of the interpretation of images
+obtained using PIPS.					
+Ultra Fast Scanner
+(UFS) (for software
+UFS1.7.1.1	The UFS consists of optical,
+mechanical, electronic and
+software elements to scan FFPE
+tissue mounted on glass slides at
+a resolution of 0.25 µm per
+pixel, which is equivalent to a
+40x objective, to create digital
+Whole Slide Images (WSI). The
+UFS has a capacity of 300 slides
+(15 glass slide racks with up to
+20 slides per rack). After the
+slide racks are loaded into the
+UFS, the UFS automatically
+detects and starts scanning the
+slides. CCD cameras are used to
+capture color images from the
+back-lit tissue specimen.			Same		
+
+[Table 2 on page 6]
+Differences						
+Item		Device			Predicate	
+		PIPS (2.6.1)			PIPS (2.5)	
+Display	Temporal and spatial dithering is
+implemented in the medical
+display
+Supported color spaces including
+sRGB:			Temporal and spatial
+dithering is implemented on
+the graphics board
+sRGB is supported		
+
+--- Page 7 ---
+Differences
+Item Device Predicate
+PIPS (2.6.1) PIPS (2.5)
+- DICOM
+- Native
+Calibration and quality checks Calibration and quality
+performed using a built-in sensor checks performed using LCD
+and QAWeb Agent software sensor and Nucleus software
+Supported display interface Display Port (DP)
+including USB 2.0: Universal Serial Bus (USB
+- DVI-D dual-link 2.0)
+I. Special Control/Guidance Document Referenced (if applicable):
+The special controls as described in 21 CFR 864.3700(b).
+FDA Guidance document: Technical Performance Assessment of Digital Pathology Whole
+Slide Imaging Devices. Guidance for Industry and Food and Drug Administration Staff.
+April 20, 2016.
+ANSI/AAMI/ISO 15223-1: Symbols for use in the labeling of medical devices
+ANSI/AAMI ES60601- 1:2005/(R)2012: Medical Electrical Equipment - Part 1: General
+Requirements For Basic Safety And Essential Performance (IEC 60601-1:2005, MOD)
+AAMI ANSI IEC 62366-1:2015: Medical devices - Application of usability engineering to
+medical devices
+ASTM D4169-14: Standard Practice for Performance Testing of Shipping Containers and
+Systems
+IEC 62304:2006 (edition 1.0): Medical device software - Software life- cycle processes
+IEC 61010-1:2010 : Safety requirements for electrical equipment for measurement, control,
+and laboratory use - Part 1: General requirements
+IEC 61010-2- 101:2015: Safety requirements for electrical equipment for measurement,
+control, and laboratory use - Part 2-101: Particular requirements for in vitro diagnostic (IVD)
+medical equipment
+IEC 60601-1-2 (4th Ed): Medical Electrical Equipment - Part 1-2: General Requirements
+For Basic Safety And Essential Performance - Collateral Standard: Electromagnetic
+Disturbances - Requirements And Tests
+7
+
+[Table 1 on page 7]
+Differences						
+Item		Device			Predicate	
+		PIPS (2.6.1)			PIPS (2.5)	
+	- DICOM
+- Native
+Calibration and quality checks
+performed using a built-in sensor
+and QAWeb Agent software
+Supported display interface
+including USB 2.0:
+- DVI-D dual-link			Calibration and quality
+checks performed using LCD
+sensor and Nucleus software
+Display Port (DP)
+Universal Serial Bus (USB
+2.0)		
+
+--- Page 8 ---
+IEC 62471: 2006: Photobiological Safety Of Lamps And Lamp Systems
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+Not applicable
+b. Precision/Reproducibility:
+Not applicable
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Display Equivalency Study:
+Technical performance testing for the PP27QHD display was performed. The new
+display was compared to the display that is part of the predicate device PIPS (2.5).
+Testing included assessment of the following parameters: luminance, color, noise,
+resolution, pixel defects, artifacts, temporal response, grayscale, and specular and diffuse
+coefficients. All testing results demonstrated that the PP27QHD display is equivalent to
+the predicate device display.
+Luminance: The PP27QHD and the predicate device use the same LCD panel. The
+luminance remains within the specified range of 350 cd/m2 + 10 %, and the luminance
+stability is within approximately 0.4%.
+Color: The color scale response when sRGB calibrated and the sRGB gamut are similar
+between the PP27QHD and the predicate device. The color stability over time is within
+the specified maximum deviation of 0.0050 in both x and y.
+Noise: The PP27QHD and the predicate device use the same LCD panel and therefore the
+8
+
+--- Page 9 ---
+noise and the noise power spectrum are identical. The RMS (image variance) for multiple
+video levels of both luminance and color as measured on gray fields were the same.
+Resolution: The MTF of the display system was measured according to the method
+described by Hans Roehrig et al. (2004) [Hans Roehrig, Jerry Gaskill, Jiahua Fan, Ananth
+Poolla, Chadwick Martin, "In-field evaluation of the modulation transfer function of
+electronic display devices", Proc. SPIE 5367, Medical Imaging 2004: Visualization,
+Image-Guided Procedures, and Display, (5 May 2004)]. The MTF of the camera system
+was approximately 98% at the display’s Nyquist frequency. The spatial resolution of the
+panel is 109 dpi (dots per inch).
+Artifacts: The PP27QHD and the predicate are flat panel displays. There is no problem
+of impedance matching in a purely digital system, ringing and ghosting are not present.
+This is identical for the PP27QHD and the predicate device.
+Temporal response: The PP27QHD and the predicate device use the same LCD panel and
+therefore the temporal response is identical. The response time is approximately 12 ms
+and the maximum response time is 24 ms.
+Grayscale: There is no difference in greyscale behavior between the PP27QHD and the
+predicate device when calibrated to sRGB (default setting).
+Specular and diffuse coefficients: The same LCD panel is used in both the predicate and
+the PP27QHD and therefore the specular and diffuse coefficients in functions of
+wavelength are identical.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable, and the special controls for this device type.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+9

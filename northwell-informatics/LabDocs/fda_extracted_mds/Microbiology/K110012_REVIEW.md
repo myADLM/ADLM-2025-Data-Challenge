@@ -1,0 +1,127 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+A. 510(k) Number: K110012   
+B. Purpose for Submission: To seek clearance for a modification of the indications for use of the Illumigene™ C. difficile DNA Amplification Assay (K100818) to include pediatric patients   
+C. Measurand: Toxigenic C. difficile DNA pathogenicity locus (PaLoc) fra   
+D. Type of Test: Loop-Mediated Isothermal DNA Amplification (LAMP)   
+E. Applicant: Meridian Bioscience, Inc.   
+F. Proprietary and Established Names: Illumigene™ C. difficile DNA Amplification Assay   
+G. Regulatory Information: 1. Regulation section: 21 CFR 866.2660 2. Classification: Class II 3. Product code: OMN 4. Panel: 83 Microbiology
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+The Illumigene™ C. difficile DNA amplification assay, performed on the illumipro-10, is a qualitative in vitro diagnostic test for the direct detection of toxigenic C. difficile in human stool specimens from pediatric and adult patients suspected of having Clostridium difficile-associated disease (CDAD).
+
+The Illumigene™ C. difficile assay utilizes loop-mediated isothermal DNA amplification (LAMP) technology to detect the pathogenicity locus (PaLoc) of toxigenic Clostridium difficile. The Clostridium difficile PaLoc is a gene segment present in all known toxigenic C. difficile strains. The C. difficile PaLoc codes for both the Toxin A gene (tcdA) and the Toxin B gene (tcdB), has conserved border regions, and is found at the same site on the C. difficile genome for all toxigenic strains. The Illumigene™ C. difficile assay detects the PaLoc by targeting a partial DNA fragment on the Toxin A gene. The tcdA target region was selected as an intact region remaining in all known $\mathrm { \bf A } { + } \mathrm { \bf B } { + }$ and $\mathrm { \mathbf { A } } { \cdot } \mathrm { \mathbf { B } } +$ toxinotypes.
+
+Illumigene™ C. difficile is intended for use in hospital, reference or state laboratory settings. The device is not intended for point-of-care use.
+
+# 2. Indication(s) for use:
+
+The Illumigene™ C. difficile DNA amplification assay, performed on the illumipro-10, is a qualitative in vitro diagnostic test for the direct detection of toxigenic C. difficile in human stool specimens from pediatric and adult patients suspected of having Clostridium difficile-associated disease (CDAD).
+
+The Illumigene™ C. difficile assay utilizes loop-mediated isothermal DNA amplification (LAMP) technology to detect the pathogenicity locus (PaLoc) of toxigenic Clostridium difficile. The Clostridium difficile PaLoc is a gene segment present in all known toxigenic C. difficile strains. The C. difficile PaLoc codes for both the Toxin A gene (tcdA) and the Toxin B gene (tcdB), has conserved border regions, and is found at the same site on the C. difficile genome for all toxigenic strains. The Illumigene™ C. difficile assay detects the PaLoc by targeting a partial DNA fragment on the Toxin A gene. The tcdA target region was selected as an intact region remaining in all known $\mathrm { \bf A } { + } \mathrm { \bf B } { + }$ and $\mathrm { \mathbf { A } } { \cdot } \mathrm { \mathbf { B } } +$ toxinotypes.
+
+Illumigene™ C. difficile is intended for use in hospital, reference or state laboratory settings. The device is not intended for point-of-care use.
+
+3. Special conditions for use statement(s): For prescription use only.
+
+4. Special instrument requirements: Illumipro-10
+
+# I. Device Description:
+
+The Illumigene C. difficile DNA amplification assay utilizes loop-mediated isothermal amplification (LAMP) technology to detect the presence of toxigenic C. difficile in patients suspected of having $C .$ difficile associated disease (CDAD). Each Illumigene C. difficile assay is completed using materials provided: Illumigene Sample Preparation Apparatus, Illumigene Reaction Buffer, Illumigene C. difficile Test Device, Sample Collection Brush, and Illumigene Extraction Tube. Samples are prepared using the Sample Collection Brush and the Illumigene Sample Collection Apparatus, target DNA is heat extracted in the Extraction Tube and DNA amplification occurs in the Illumigene C. difficile Test Device.
+
+The Illumipro- $I 0$ heats each Illumigene C. difficile Test Device containing prepared samples, facilitating amplification of target DNA. When toxigenic C. difficile is present in the patient sample, a cytotoxin specific sequence is amplified and magnesium pyrophosphate is formed. As the LAMP reaction progresses, magnesium pyrophosphate forms a precipitate in the reaction mixture. The optics system of the Illumipro-10 detects the change in light transmission through the reaction mixture created by the precipitating Magnesium pyrophosphate. Sample results are reported as Positive or Negative based on the detected change in transmission.
+
+The Illumigene e C. difficile External Control Kit consists of a Positive Control Reagent and a Negative Control Reagent. External Control reagents are provided to aid the user in detection of reagent deterioration, adverse environmental or test conditions, or variance in operator performance that may lead to test errors. The Illumigene C. difficile External Control Kit is required for routine Quality Control.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Illumigene™ C. difficile DNA Amplification Assay
+
+1. Predicate 510(k) number(s): K100818
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>K110012</td><td rowspan=1 colspan=1>K100818</td></tr><tr><td rowspan=1 colspan=1>Target</td><td rowspan=1 colspan=1>Conserved DNA fragment on the Toxin A(tcdA) gene in the pathogenicity locus oftoxigenic Clostridium difficile</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Sample Type</td><td rowspan=1 colspan=1>Stool (Preserved and Unpreserved)</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Instrument</td><td rowspan=1 colspan=1>Immunipro-10</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Assay Range</td><td rowspan=1 colspan=1>0.5-700 IU/mL</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>K110012</td><td rowspan=1 colspan=1>K100818</td></tr><tr><td rowspan=1 colspan=1>Intended UsePopulation</td><td rowspan=1 colspan=1>Pediatrics and adults</td><td rowspan=1 colspan=1>Adults</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Not applicable
+
+# L. Test Principle:
+
+The illumigene C. difficile Assay is based on loop-mediated isothermal amplification technology (LAMP). Loop-mediated amplification is accomplished by the use of specially designed primers that provide specific and continuous isothermal DNA amplification. Magnesium-pyrophosphate is produced as a by-product of LAMP amplification. The magnesium-pyrophosphate forms a white precipitate in the reaction solution, giving the reaction solution a turbid appearance. The presence of turbidity signifies a positive reaction while the absence of turbidity represents a negative reaction.
+
+# M. Performance Characteristics (if/when applicable):
+
+# 1. Analytical performance:
+
+Analytical studies were conducted in the original submission K100818. No modifications were made to the device that would affect the Precision/Reproducibility, Analytical Specificity, or Limits of Detection. The change was for the addition of testing pediatric patients.
+
+a. Precision/Reproducibility:   
+b. Linearity/assay reportable range:   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):   
+d. Detection limit:   
+e. Analytical specificity:   
+f. Assay cut-off:
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable
+
+b. Matrix comparison:
+
+3. Clinical studies:
+
+a. Clinical Sensitivity:
+
+STUDY 1 for original claim for Adult Population: Clinical trials associated with samples representing patients 2 to 96 years of age were conducted, utilizing a total of 697qualified samples. Samples were collected from 274 $( 3 9 . 4 \% )$ males and 419 $( 6 0 . 1 \% )$ females. In the case of $4 ( 0 . 6 \% )$ of the patients, gender was not known. No differences in test performance were observed based on patient age, gender, or geographical location. Overall Sensitivity was determined to be $9 5 . 2 \%$ ( $9 5 \%$ CI: $8 5 . 2 \cdot 9 7 . 9 \% )$ ). Overall Specificity was determined to be $9 5 . 3 \%$ $9 5 \%$ CI: $9 3 . 2 \cdot 9 6 . 7 \%$ . Performance information associated with this sample population is detailed in Meridian Bioscience illumigene Molecular Test System (illumigene C. difficile DNA Amplification Assay, illumipro-10) 510(k) application K100818, cleared
+
+patient age, gender, or geographical location. Overall Sensitivity was determined to be $9 5 . 2 \%$ ( $9 5 \%$ CI: $8 5 . 2 \cdot 9 7 . 9 \%$ ). Overall Specificity was determined to be $9 5 . 3 \%$ $9 5 \%$ CI: 93.2 - $9 6 . 7 \% )$ ). Performance information associated with this sample population is detailed in Meridian Bioscience illumigene Molecular Test System (illumigene C. difficile DNA Amplification Assay, illumipro-10) 510(k) application K100818, cleared July 9, 2010.
+
+<table><tr><td rowspan="2">Cytotoxic bacterial</td><td colspan="4">illumigene C. difficile</td></tr><tr><td>Positive</td><td>Negativ e</td><td>Invalid* **</td><td>Total</td></tr><tr><td>culture Positive</td><td>99</td><td>5**</td><td>4</td><td>108</td></tr><tr><td>Negative</td><td>27*</td><td>546</td><td>16</td><td>589</td></tr><tr><td>Total</td><td>126</td><td>551</td><td>20</td><td>697</td></tr><tr><td></td><td></td><td></td><td></td><td>95% CI</td></tr><tr><td>Sensitivity Specificity</td><td>99/104</td><td>95.2%</td><td></td><td>89.2 - 97.9%</td></tr><tr><td>Correlation</td><td>546/573 645/677</td><td>95.3% 95.3%</td><td></td><td>93.2 - 96.7% 93.4 - 96.6%</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Invalid Rate</td><td>20/697</td><td>2.9%</td><td></td><td>N/A</td></tr></table>
+
+STUDY 2: Clinical trials associated with samples representing patients below 2 years of age were conducted, utilizing a total of 193 qualified samples. Samples were collected from 103 $( 5 3 . 4 \% )$ males and 90 $( 4 6 . 6 \% )$ females. No differences in test performance were observed based on patient age, gender, or geographical location. Overall Sensitivity when compared to Cytotoxicity cultures was determined to be $9 3 . 3 \%$ $9 5 \%$ CI: $7 8 . 7 - 9 8 . 2 \%$ ). Overall Specificity was determined to be $9 6 . 3 \%$ ( $9 5 \%$ CI: $9 2 . 2 \cdot 9 8 . 3 \%$ ).
+
+b. Clinical specificity: See 3a) above   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: Same as in Adult Populations.
+
+# N. Instrument Name:
+
+Illumipro-10
+
+# O. System Descriptions:
+
+System Description were reviewed in previous submission, K100818. No systems or software changes were made to accommodate pediatric use.
+
+1. Modes of Operation:
+
+2. Software: FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types: Yes ____√____ or No
+
+3. Specimen Identification:
+
+4. Specimen Sampling and Handling:
+
+5. Calibration:
+
+6. Quality Control:
+
+# P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

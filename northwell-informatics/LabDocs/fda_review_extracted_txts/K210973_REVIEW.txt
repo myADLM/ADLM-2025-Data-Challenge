@@ -1,0 +1,1577 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY ONLY
+I Background Information:
+A 510(k) Number
+K210973
+B Applicant
+Agendia, Inc.
+C Proprietary and Established Names
+MammaPrint® FFPE NGS kit
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.6040 - Gene Expression Profiling
+NYI Class II Immunology (82)
+Test System for Breast Cancer Prognosis
+II Submission/Device Overview:
+A Purpose for Submission:
+New Device
+B Measurand:
+70 gene expression profile
+C Type of Test:
+Next-Generation Tumor Profiling Test
+III Intended Use:
+A Indication(s) for Use:
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+NYI			Class II	21 CFR 866.6040 - Gene Expression Profiling
+Test System for Breast Cancer Prognosis			Immunology (82)
+
+--- Page 2 ---
+The MammaPrint FFPE NGS kit is a qualitative in vitro diagnostic test for use by clinical
+laboratories using target enrichment Next Generation Sequencing (NGS) technology for gene
+expression profiling of the 70-gene MammaPrint Breast Cancer signature on formalin-fixed,
+paraffin-embedded (FFPE) breast cancer tissue samples. The test is used to assess a patient’s risk
+to develop distant metastasis within 5 years and up to 10 years after diagnosis.
+The MammaPrint FFPE NGS kit is performed for breast cancer patients with Stage I or Stage II
+disease, with tumor size ≤ 5.0 cm and lymph node negative. The test result is indicated for use by
+physicians as a prognostic marker only, along with other clinicopathological factors.
+B Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+For in vitro diagnostic use
+MammaPrint® FFPE NGS kit is not indicated as a standalone test to determine the outcome of
+disease, nor to suggest or infer an individual patient’s likely response to therapy. Results should
+be taken in the context of other relevant clinico-pathological factors and standard practice of
+medicine.
+C Special Instrument Requirements:
+Illumina MiSeqDx (qualified by Agendia)
+IV Device/System Characteristics:
+A Device Description:
+1. Reagents
+MammaPrint FFPE NGS kit is for use as part of a test system with the MiSeqDx and sequencing
+reagents. The MammaPrint FFPE NGS kit consists of 4 boxes with the components and the
+storage conditions are listed in Table 1. The MammaPrint FFPE NGS kit contains reagents for 16
+reactions and sample indices to run up to 32 reactions (patient specimens and controls). A
+detailed list of required instruments, software, reagents, consumables, and storage conditions is
+described in the product labeling (MammaPrint FFPE NGS kit Package Insert).
+Table 1. Reagents Provided
+MammaPrint NGS RNA Library Prep -20°C
+(Pre-PCR) Box 1 of 4]
+Component Volume
+Agendia NGS Fragmentation Mix 304 µL
+Agendia NGS 1st Strand Master Mix 140 µL
+Agendia NGS 2nd Strand + End Repair Enzyme Mix 400 µL
+Agendia NGS 2nd Strand + End Repair Oligo Mix 80 µL
+Agendia NGS dA Tailing Master Mix 320 µL
+Agendia NGS Oligo Adaptor Mix 80 µL
+Agendia NGS Ligation Master Mix 80 µL
+Agendia NGS Forward PCR Primer 60 µL
+Agendia NGS PCR Master Mix 800 µL
+K210973 - Page 2 of 26
+
+[Table 1 on page 2]
+	MammaPrint NGS RNA Library Prep		-20°C		
+	(Pre-PCR) Box 1 of 4]				
+	Component			Volume	
+
+--- Page 3 ---
+Agendia NGS Uracil DNA Glycosylase (UDG) 16 µL
+Agendia NGS Reverse PCR Primer 16 µL
+Agendia NGS Nuclease-Free Water 2.4 mL
+MammaPrint NGS Target Enrichment (Post-PCR Box 1) Room Temperature
+[Box 2 of 4]
+Component Volume
+Agendia NGS Hyb 1 400 µL
+Agendia NGS Hyb 2 1.25 mL
+Agendia NGS Hyb 4 1.25 mL
+Agendia NGS Binding Buffer 13.2 mL
+Agendia NGS Wash Buffer 1 8 mL
+Agendia NGS Wash Buffer 2 24 mL
+Agendia NGS Nuclease-Free Water 2.4 mL
+Agendia NGS Elution Buffer 5.8 mL
+Agendia NGS Neutralization Buffer 960 µL
+MammaPrint Package Insert 1x
+MammaPrint NGS Target Enrichment (Post-PCR Box 2) -20°C
+[Box 3 of 4]
+Component Volume
+Agendia NGS Indexing Block 1 45 µL
+Agendia NGS Block 2 45 µL
+Agendia NGS Indexing Block 3 12 µL
+Agendia NGS RNase Block 18 µL
+Agendia NGS Hyb 3 160 µL
+Agendia NGS Post-Capture PCR Primer 16 µL
+Agendia NGS PCR Master Mix 800 µL
+Agendia NGS 8bp Index Plate 12 µL
+MammaPrint NGS Panel -80°C
+[Box 4 of 4]
+Component Volume
+Agendia NGS Bait Library 36 µL
+MammaPrint NGS Control Box -80°C
+Component Volume
+Agendia NGS RNA Control Material (High Risk) 10 µL
+Agendia NGS RNA Control Material (Low Risk) 10 µL
+2. Materials Required but Not Provided
+There are several reagents that are used in combination with the MammaPrint FFPE NGS kit that
+are not included in the kit. For a detailed list of required, but not provided reagents and
+consumables refer to MammaPrint FFPE NGS kit product labeling.
+• RNeasy DSP FFPE Kit from QIAGEN
+• RNA purification reagents
+• Sequencing Reagent Kit: The MammaPrint FFPE NGS kit is validated for use with the
+TG MiSeq Reagent Kit v3 Kit (150-cycle). If using additional MiSeq Reagents,
+MammaPrint FFPE NGS assay requires that only Agendia qualified lots of MiSeq
+reagents be used with the device. A list of MiSeq reagent lots that have been qualified by
+Agendia for use with MammaPrint FFPE NGS assays is available on the ADAPT-US
+K210973 - Page 3 of 26
+
+[Table 1 on page 3]
+	MammaPrint NGS Target Enrichment (Post-PCR Box 1)		Room Temperature		
+	[Box 2 of 4]				
+	Component			Volume	
+Agendia NGS Hyb 1
+Agendia NGS Hyb 2
+Agendia NGS Hyb 4
+Agendia NGS Binding Buffer
+Agendia NGS Wash Buffer 1
+Agendia NGS Wash Buffer 2
+Agendia NGS Nuclease-Free Water
+Agendia NGS Elution Buffer
+Agendia NGS Neutralization Buffer
+MammaPrint Package Insert			400 µL
+1.25 mL
+1.25 mL
+13.2 mL
+8 mL
+24 mL
+2.4 mL
+5.8 mL
+960 µL
+1x		
+	MammaPrint NGS Target Enrichment (Post-PCR Box 2)		-20°C		
+	[Box 3 of 4]				
+	Component			Volume	
+Agendia NGS Indexing Block 1
+Agendia NGS Block 2
+Agendia NGS Indexing Block 3
+Agendia NGS RNase Block
+Agendia NGS Hyb 3
+Agendia NGS Post-Capture PCR Primer
+Agendia NGS PCR Master Mix
+Agendia NGS 8bp Index Plate			45 µL
+45 µL
+12 µL
+18 µL
+160 µL
+16 µL
+800 µL
+12 µL		
+	MammaPrint NGS Panel		-80°C		
+	[Box 4 of 4]				
+	Component			Volume	
+Agendia NGS Bait Library			36 µL		
+	MammaPrint NGS Control Box			-80°C	
+	Component			Volume	
+Agendia NGS RNA Control Material (High Risk)			10 µL		
+Agendia NGS RNA Control Material (Low Risk)			10 µL		
+
+--- Page 4 ---
+Portal. Reagents must only be used with the instructions for use contained in the package
+insert. The ADAPT-US software is designed to prevent the use of unqualified lots with
+the software.
+3. ADAPT-US Portal and Software
+The MammaPrint FFPE NGS kit analysis involves the use of Illumina MiSeq software, Agendia
+Data Analysis Pipeline Tool-US (ADAPT-US) as well as the MammaPrint data analysis software
+called RPrint_MP. The ADAPT-US is a customized software platform that provides a secure
+web-based portal and includes the MammaPrint analysis algorithm RPrint_MP. This analysis
+software, RPrint_MP is a custom software developed by Agendia. The proprietary Agendia Data
+Analysis Pipeline Tool –US (ADAPT-US) contains analysis and reporting software necessary for
+the MammaPrint FFPE NGS kit. The software is compatible with MiSeqDx instruments. A list
+of approved versions of MiSeq software and reagent lot numbers are available through the
+ADAPT-US Portal.
+4. Instrument
+The MammaPrint FFPE NGS kit is validated for use on the Illumina MiSeqDx instruments as
+part of a test system. MiSeqDx instruments must be qualified by an Agendia representative
+before use with the ADAPT-US platform software. Qualification establishes the instrument for
+use with the MammaPrint FFPE NGS kit only. Qualification is performed upon server
+installation and prior to use.
+Other required equipment and the specifications for the specific equipment for use with the
+MammaPrint FFPE NGS kit are described in Table 2.
+Table 2. Other Required Equipment, Not Provided
+Equipment Notes
+8-strip tube microcentrifuge Any available
+0.8 mL MIDI plates Any available
+Centrifuge For 1.5 mL/0.5 mL tubes
+Heat blocks 37°C for 0.8 mL MIDI plate
+Heat blocks 65°C for 1.5/2 mL tube
+Heat blocks 70°C for 0.5 mL tube
+Magnetic stands Fits 0.80 mL MIDI plates
+Fits 0.2 mL 8-strip tubes
+Fits 1.5/2 mL tubes
+MiSeqDx system Illumina, DX-410-1001
+Multi-channel pipettes (optional) 1 μL – 1000 μL
+Nucleic acid fragment analysis platform To quantify and assess the percentage of RNA
+fragments > 200 nucleotides (DV200 value) extracted
+from FFPE tissue samples. A nucleic acid fragment
+analysis platform is also used to confirm the size
+distribution of each amplified, target-enriched indexed
+library.
+Plate centrifuge Fits 0.8 mL MIDI plates
+Repeater pipettes (optional) 1 μL – 10 mL
+K210973 - Page 4 of 26
+
+[Table 1 on page 4]
+	Equipment			Notes	
+8-strip tube microcentrifuge			Any available		
+0.8 mL MIDI plates			Any available		
+Centrifuge			For 1.5 mL/0.5 mL tubes		
+Heat blocks			37°C for 0.8 mL MIDI plate		
+Heat blocks			65°C for 1.5/2 mL tube		
+Heat blocks			70°C for 0.5 mL tube		
+Magnetic stands			Fits 0.80 mL MIDI plates
+Fits 0.2 mL 8-strip tubes
+Fits 1.5/2 mL tubes		
+MiSeqDx system			Illumina, DX-410-1001		
+Multi-channel pipettes (optional)			1 μL – 1000 μL		
+Nucleic acid fragment analysis platform			To quantify and assess the percentage of RNA
+fragments > 200 nucleotides (DV200 value) extracted
+from FFPE tissue samples. A nucleic acid fragment
+analysis platform is also used to confirm the size
+distribution of each amplified, target-enriched indexed
+library.		
+Plate centrifuge			Fits 0.8 mL MIDI plates		
+Repeater pipettes (optional)			1 μL – 10 mL		
+
+--- Page 5 ---
+Equipment Notes
+Single channel pipettes 1 μL – 1000 μL
+Thermal cycler Configurable heated lid: ambient - 105°C
+Temperature range: 4°C - 105°C
+Thermal mixer 27°C and 65°C
+1200-1400 rpm
+Fits 0.2 mL 8-strip tubes
+Timer NIST traceable
+Vacuum centrifuge Temperature range: 15°C to 45°C
+Vortex mixer Any available
+5. Sample Preparation
+The MammaPrint FFPE NGS kit requires RNA isolated from FFPE tissue specimens. FFPE
+tumor block for each specimen to be processed are selected by using a tissue sample that
+contains the greatest amount of invasive carcinoma and is morphologically consistent with the
+submitted diagnosis.
+One slide is used for hematoxylin and eosin (H&E) staining to determine the tumor cell
+percentage and the remaining slides, depending on the size of the tissue, can all or partly be used
+for the RNA isolation. The invasive tumor cell percentage must be at least 30% to obtain valid
+results. When needed and possible, a macro dissection can be performed to avoid large areas of
+in-situ carcinoma, necrosis, adipose tissue, stroma and/or hemorrhage as these will decrease the
+overall invasive tumor cell percentage.
+6. RNA extraction
+MammaPrint FFPE NGS kit requires RNA isolated from FFPE tissue using the RNeasy DSP
+FFPE Kit from QIAGEN. The quality of the total RNA is assessed by calculating the distribution
+value (DV) 200 metric, which represents the percentage of RNA fragments >200 nucleotides
+(nt). The recommended RNA input for MammaPrint FFPE NGS kit is 200 ng for poor quality
+samples (DV200 ≥ 20% above 200 nt) and 100 ng for good quality samples (DV200 ≥ 70%
+above 200 nt) with the total RNA recovered from tissue with a minimum 30% viable tumor
+nuclei. The extracted RNA is immediately used for library preparation.
+7. Library Preparation
+The MammaPrint FFPE NGS kit workflow begins with isolation of RNA from FFPE breast
+cancer tissue sections. FFPE total RNA is chemically fragmented to a target size of 200nt and
+bound to random primers. cDNA is synthesized, end-repaired, adenylated at the 3’end and
+indexed adapters are ligated. The cDNA adapter-ligated library is enriched by PCR
+amplification. The amplified adapter-ligated cDNA library is quantified using a suitable nucleic
+acid fragment analysis platform in the region of between 150 bp-550 bp prior to hybrid capture.
+8. Hybridization Capture NGS
+The adapter-ligated library is hybridized with biotinylated RNA library baits and targeted regions
+are captured using magnetic streptavidin coated beads. Captured DNA libraries are purified to
+remove baits and incompletely hybridized DNA fragments. Captured libraries are enriched by
+PCR amplification. Primer dimers and residual reagents are removed by magnetic bead
+purification. The quality and quantity of the amplified, target-enriched indexed libraries are
+K210973 - Page 5 of 26
+
+[Table 1 on page 5]
+	Equipment			Notes	
+Single channel pipettes			1 μL – 1000 μL		
+Thermal cycler			Configurable heated lid: ambient - 105°C
+Temperature range: 4°C - 105°C		
+Thermal mixer			27°C and 65°C
+1200-1400 rpm
+Fits 0.2 mL 8-strip tubes		
+Timer			NIST traceable		
+Vacuum centrifuge			Temperature range: 15°C to 45°C		
+Vortex mixer			Any available		
+
+--- Page 6 ---
+assessed using a suitable nucleic acid fragment analysis platform prior to sequencing. Samples
+must be within the linear range of the assay (5-500 pg/µL) and the fragment size distribution
+should be 150-700 bp.
+9. Sequencing
+cDNA adapter-ligated and captured libraries are pooled at equimolar concentrations before
+sequencing. Sample pools of 1, 2, or 4 nmol/L starting concentration are denatured, diluted, and
+loaded on a sequencing flow cell. Single-end sequencing is performed on the MiSeqDx
+instrument at the length of 150bp using the MiSeq reagent kit V3 (150 cycles) qualified by
+Agendia.
+10. Data Analysis
+MammaPrint analysis involves the use of MiSeqDx Operating Software. The MammaPrint
+results are based on the raw data files called FASTQ files that are generated by the MiSeqDx
+instrument. Generation of these raw data files is based on the workflow “Generate FASTQ”
+within the Local Run Manager (LRM). No other built-in workflow of the MiSeqDx software is
+used. Once the FASTQ files are generated, they are transferred to Agendia’s cloud-based
+analysis tool which generates the MammaPrint results.
+The FASTQ files generated by the MiSeqDx system are processed by ADAPT-US, which is a
+high-performance and data security compliant cloud-based genomics analysis platform that
+delivers integrated data interpretation of samples processed with the MammaPrint NGS kit.
+ADAPT-US is the secure customer portal that is used to process FASTQ files against RPrint.
+The RPrint software generates an output file that is used by the ADAPT Report Generation
+software. The three technical components of ADAPT-US consist of:
+• The customer web interface
+The web interface component allows customers to select and run sample FASTQ
+o
+files. The customers can access the output reports created from the report generation
+components from this web interface.
+• The computer system that stores and executes RPrint
+This component takes FASTQ files as an input and runs them through Agendia’s
+o
+RPrint software to produce the RPrint output file. RPrint custom software developed
+by Agendia is comprised of several dedicated algorithms to determine High Risk,
+Low Risk or Borderline for recurrence. The RPrint software contains the proprietary
+MammaPrint algorithms which analyze the FASTQ files provided by the MiSeqDx
+Sequencer.
+• The report generation software
+The report generation component utilizes the RPrint output file to generate the
+o
+MammaPrint Technical Reports.
+11. Controls
+Negative Control: A no template control (NTC) can be processed to serve as a negative
+control to validate the acceptability of all the test samples processed through library
+preparation and capture steps by testing for sample or reagent contamination. The NTC is
+expected to fail both the Library Prep and Capture QCs. Passing QCs for the NTC at
+these steps may indicate contamination.
+K210973 - Page 6 of 26
+
+--- Page 7 ---
+Positive Control: Two types of positive controls, one that gives a High Risk result and
+another that gives a Low Risk result are provided in the MammaPrint FFPE NGS kit. One
+of each type must be included every time a batch of samples is processed. Those two
+controls are processed from library preparation through sequencing to serve as an end-to-
+end control to demonstrate assay performance. The two controls must pass the quality
+control model and give MammaPrint Indices (MPI) that fall within the acceptable range
+for the controls. Failure of the controls to meet either condition will result in all test
+samples on the run being reported as ‘No Result’.
+12. Result Reporting
+A test result is considered valid only if the Overall Assessment field on the Technical Report
+says “Pass”. If any of the quality control metrics fail, the Overall Assessment will also indicate
+“Fail”. If the Overall Assessment says “Fail”, the Technical Report will show "Unable to provide
+result for this specimen" in the Test Results section. The testing laboratory may choose to retest
+the sample to see if the subsequent result will yield a valid test result.
+The MammaPrint result is reported as Low Risk, High Risk and Borderline for risk of distant
+metastasis. The test result (Low Risk, High Risk, Borderline) of the sample is determined by
+calculating the MPI on a scale of -1.000 to +1.000 with two cut-offs, -0.058 and +0.058. High
+Risk results are those results that are less than -0.058 whereas Low Risk results are those above
++0.058. If a FFPE sample’s MammaPrint Index (MPI) falls within -0.058 and +0.058, then the
+test result is termed as “Borderline” as these represent a range of scores with low reliability for
+assessing risk of distant metastasis. The clinical significance of the Borderline region (-0.058 ≤
+MPI ≤ +0.058) is not established.
+13. Quality Metrics
+Quality metrics are assessed in analytical and post-sequencing level. Analytical quality
+assessment is conducted across the following categories:
+FFPE total RNA: Quality Control (QC) assesses quality of the FFPE total RNA based on the
+DV200 metric.
+Amplified, adaptor-ligated cDNA libraries: QC assesses quality (cDNA fragments must fall in
+the right size range, i.e., between 150 to 550 bp) and quantity (should be 200 ng of cDNA library
+at a concentration of 58.8 ng/µL) of the adaptor-ligated cDNA library.
+Amplified, target-enriched indexed libraries: QC assesses quality (cDNA fragments must fall in
+the right size range, i.e., between 150 to 700 bp), quantity (pg/µL) and molarity (should be equal
+to or above 1000 pmol/L) of the amplified, target-enriched indexed library.
+The quality controls that assess quality at the level of the NGS run are outlined in the table
+below.
+Table 3. Summary of MammaPrint FFPE NGS kit Post-Sequencing Quality Control
+Metrics
+Level of
+Quality Metric
+Qualification
+Positive Control – High Risk Batch-level
+K210973 - Page 7 of 26
+
+[Table 1 on page 7]
+	Level of
+Quality Metric	
+	Qualification
+	
+Positive Control – High Risk	Batch-level
+
+--- Page 8 ---
+Positive Control – Low Risk Batch-level
+Negative Control – (Water) Batch-level
+Total Read Counts (log ) Sample-level
+2
+Percent Mapped Sample-level
+Percent On Target Sample-level
+Percent Q30 Sample-level
+Additional NGS Run Quality Assessment Sample-level
+MammaPrint Total Counts Sample-level
+MammaPrint Median Counts Sample-level
+B Principle of Operation:
+The MammaPrint NGS FFPE kit consists of several processes: isolation of RNA from FFPE
+breast cancer tissue sections; library preparation of RNA resulting in cDNA adapter-ligated
+sequences; enrichment of the 70 genes (capture step); sequencing of the enriched library in the
+flow cell and data acquisition; MammaPrint Index (MPI) calculation and determination of the
+risk classification.
+Data analysis is performed according to the specific MammaPrint FFPE algorithm, resulting in
+determination of the MPI. This algorithm is designed and programmed by Agendia and compiled
+into a proprietary standalone software program. The software loads the FASTQ data file,
+performs quality control checks and determines the molecular profile of the sample by
+calculating the MPI by determining the correlation of the sample 70 gene expression profile to
+the mean expression profiles of the risk templates of tumors with a known good and poor
+outcome. The MPI is reported on a scale of -1.000 to +1.000 (MammaPrint FFPE reportable
+range), compares the calculated correlation to pre-defined cut-off values and determines the
+sample’s prognostic profile. High Risk results are those results that are less than -0.058 whereas
+Low Risk results are those above +0.058, except between -0.058 and +0.058, which is the
+region/MPI for Borderline samples. The clinical significance of the Borderline region (-0.058 ≤
+MPI ≤ +0.058) is not established.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+MammaPrint® FFPE
+B Predicate 510(k) Number(s):
+K201902
+C Comparison with Predicate(s):
+Device & Predicate Device: K210973 K201902
+Device Trade Name MammaPrint® FFPE NGS kit MammaPrint® FFPE
+General Device Characteristic: Similarities
+Intended Use/Indications for The MammaPrint FFPE NGS kit is MammaPrint® FFPE is a
+Use a qualitative in vitro diagnostic test qualitative in vitro diagnostic test,
+for use by clinical laboratories using performed in a central laboratory,
+target enrichment Next Generation using the gene expression profile
+Sequencing (NGS) technology for obtained from formalin-fixed
+gene expression profiling of the 70- paraffin embedded (FFPE) breast
+K210973 - Page 8 of 26
+
+[Table 1 on page 8]
+Positive Control – Low Risk	Batch-level
+Negative Control – (Water)	Batch-level
+Total Read Counts (log )
+2	Sample-level
+Percent Mapped	Sample-level
+Percent On Target	Sample-level
+Percent Q30	Sample-level
+Additional NGS Run Quality Assessment	Sample-level
+MammaPrint Total Counts	Sample-level
+MammaPrint Median Counts	Sample-level
+
+[Table 2 on page 8]
+Device & Predicate Device:	K210973	K201902
+Device Trade Name	MammaPrint® FFPE NGS kit	MammaPrint® FFPE
+General Device Characteristic: Similarities		
+Intended Use/Indications for
+Use	The MammaPrint FFPE NGS kit is
+a qualitative in vitro diagnostic test
+for use by clinical laboratories using
+target enrichment Next Generation
+Sequencing (NGS) technology for
+gene expression profiling of the 70-	MammaPrint® FFPE is a
+qualitative in vitro diagnostic test,
+performed in a central laboratory,
+using the gene expression profile
+obtained from formalin-fixed
+paraffin embedded (FFPE) breast
+
+--- Page 9 ---
+Device & Predicate Device: K210973 K201902
+gene MammaPrint Breast Cancer cancer tissue samples to assess a
+signature on formalin-fixed, patient’s risk for distant metastasis
+paraffin-embedded (FFPE) breast within 5 years.
+cancer tissue samples. The test is
+used to assess a patient’s risk to The test is performed for breast
+develop distant metastasis within 5 cancer patients, with Stage I or
+years and up to 10 years after Stage II disease, with tumor size ≤
+diagnosis. 5.0 cm and lymph node negative.
+The MammaPrint® FFPE result is
+The MammaPrint FFPE NGS kit is indicated for use by physicians as a
+performed for breast cancer patients prognostic marker only, along with
+with Stage I or Stage II disease, other clinicopathological factors.
+with tumor size ≤ 5.0 cm and lymph
+node negative. The test result is
+indicated for use by physicians as a
+prognostic marker only, along with
+other clinicopathological factors.
+Clinical MammaPrint is a test to assess a Same
+performance/Indication for patients’ risk for distant metastasis.
+use The test is performed for breast
+cancer patients with Stage I and II
+disease, with a tumor size ≤5.0 cm
+and lymph node negative.
+General Device Characteristic: Differences
+Testing Environment Kit Performed in Agendia’s two
+central laboratories: Amsterdam,
+Netherlands; and Irvine, California,
+USA
+Technological Characteristics The MammaPrint® FFPE NGS kit The MammaPrint service is a
+and MammaPrint Platform is an NGS-based gene expression microarray-based gene expression
+analysis of a tumor. The analysis is analysis of a tumor. The analysis is
+based on sequencing of the enriched based on scanning the
+library in the flow cell on a MammaPrint microarray and data
+MiSeqDx, data acquisition, acquisition (feature extraction),
+calculation, and determination of calculation and determination of
+the risk of recurrence in breast the risk of recurrence in breast
+cancer patients. cancer patients.
+Analysis is performed using Analysis is performed using
+Agendia designed NGS kit Agendia designed High Density
+manufactured under GMP by diagnostic Microarrays
+Agilent technologies. manufactured under GMP by
+Agilent Technologies.
+70 signature genes are included in
+the Agendia designed bait library. 70 signature genes printed in nine-
+fold.
+K210973 - Page 9 of 26
+
+[Table 1 on page 9]
+Device & Predicate Device:	K210973	K201902
+	gene MammaPrint Breast Cancer
+signature on formalin-fixed,
+paraffin-embedded (FFPE) breast
+cancer tissue samples. The test is
+used to assess a patient’s risk to
+develop distant metastasis within 5
+years and up to 10 years after
+diagnosis.
+The MammaPrint FFPE NGS kit is
+performed for breast cancer patients
+with Stage I or Stage II disease,
+with tumor size ≤ 5.0 cm and lymph
+node negative. The test result is
+indicated for use by physicians as a
+prognostic marker only, along with
+other clinicopathological factors.	cancer tissue samples to assess a
+patient’s risk for distant metastasis
+within 5 years.
+The test is performed for breast
+cancer patients, with Stage I or
+Stage II disease, with tumor size ≤
+5.0 cm and lymph node negative.
+The MammaPrint® FFPE result is
+indicated for use by physicians as a
+prognostic marker only, along with
+other clinicopathological factors.
+Clinical
+performance/Indication for
+use	MammaPrint is a test to assess a
+patients’ risk for distant metastasis.
+The test is performed for breast
+cancer patients with Stage I and II
+disease, with a tumor size ≤5.0 cm
+and lymph node negative.	Same
+General Device Characteristic: Differences		
+Testing Environment	Kit	Performed in Agendia’s two
+central laboratories: Amsterdam,
+Netherlands; and Irvine, California,
+USA
+Technological Characteristics
+and MammaPrint Platform	The MammaPrint® FFPE NGS kit
+is an NGS-based gene expression
+analysis of a tumor. The analysis is
+based on sequencing of the enriched
+library in the flow cell on a
+MiSeqDx, data acquisition,
+calculation, and determination of
+the risk of recurrence in breast
+cancer patients.
+Analysis is performed using
+Agendia designed NGS kit
+manufactured under GMP by
+Agilent technologies.
+70 signature genes are included in
+the Agendia designed bait library.	The MammaPrint service is a
+microarray-based gene expression
+analysis of a tumor. The analysis is
+based on scanning the
+MammaPrint microarray and data
+acquisition (feature extraction),
+calculation and determination of
+the risk of recurrence in breast
+cancer patients.
+Analysis is performed using
+Agendia designed High Density
+diagnostic Microarrays
+manufactured under GMP by
+Agilent Technologies.
+70 signature genes printed in nine-
+fold.
+
+--- Page 10 ---
+Device & Predicate Device: K210973 K201902
+Analysis software Calculation of MammaPrint index Calculation of MammaPrint index
+based on sequence read counts for based on measurement of
+the 70 genes measured by the test. intensities that result from
+hybridization of fluorescently
+labeled cDNA sequences from the
+70 genes, measured by the test, to
+oligos on the microarray.
+MammaPrint Index (MPI) A numerical MammaPrint Index A numerical MammaPrint Index
+and Cut-off (MPI) is reported on a scale of - (MPI) is reported on a scale of -
+1.000 to +1.000, with two cut-offs, - 1.000 to +1.000, with a single cut-
+0.058 and +0.058 off, +0.000
+Reporting MammaPrint result of Low Risk, MammaPrint result of Low Risk,
+High Risk, or Borderline is High Risk, Low Risk Borderline,
+provided in a report to the ordering or High Risk Borderline is
+health care provider. provided in a report to the ordering
+health care provider.
+Sample Processing Isolation of RNA from formalin- Isolation of RNA from formalin-
+fixed paraffin embedded (FFPE) fixed paraffin embedded (FFPE)
+tumor tissue sections, DNase tumor tissue sections, DNase
+treatment of isolated RNA, library treatment of isolated RNA, linear
+preparation of RNA resulting in amplification and labeling of
+cDNA adapter-ligated sequences; DNase treated RNA (fresh), cRNA
+enrichment of the 70 genes using purification, hybridization of the
+hybrid capture; sequencing of the cRNA to the MammaPrint
+enriched library in the flow cell on a microarray (fresh), amplification
+MiSeqDx. and purification DNase treated
+RNA resulting in cDNA for FFPE,
+labeling and purification of
+amplified cDNA for FFPE,
+hybridization of the cDNA to the
+MammaPrint microarray for FFPE.
+Data Analysis Software RPrint v1.4.1_MP XPrint version 3.2.0
+Instrument Illumina MiSeqDx (Qualified by Agilent SureScan Dx microarray
+Agendia) scanner, part number G5761AA.
+VI Standards/Guidance Documents Referenced:
+1) EP17-A2: Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline 2nd Edition, Institute, CLSI - Clinical and Laboratory
+Standards, 2012.
+2) EP05-A3: Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guidline-3rd Edition.
+3) EP09c: Measurement Procedure Comparison and Bias Estimation Using Patient Samples, 3rd
+K210973 - Page 10 of 26
+
+[Table 1 on page 10]
+Device & Predicate Device:	K210973	K201902
+Analysis software	Calculation of MammaPrint index
+based on sequence read counts for
+the 70 genes measured by the test.	Calculation of MammaPrint index
+based on measurement of
+intensities that result from
+hybridization of fluorescently
+labeled cDNA sequences from the
+70 genes, measured by the test, to
+oligos on the microarray.
+MammaPrint Index (MPI)
+and Cut-off	A numerical MammaPrint Index
+(MPI) is reported on a scale of -
+1.000 to +1.000, with two cut-offs, -
+0.058 and +0.058	A numerical MammaPrint Index
+(MPI) is reported on a scale of -
+1.000 to +1.000, with a single cut-
+off, +0.000
+Reporting	MammaPrint result of Low Risk,
+High Risk, or Borderline is
+provided in a report to the ordering
+health care provider.	MammaPrint result of Low Risk,
+High Risk, Low Risk Borderline,
+or High Risk Borderline is
+provided in a report to the ordering
+health care provider.
+Sample Processing	Isolation of RNA from formalin-
+fixed paraffin embedded (FFPE)
+tumor tissue sections, DNase
+treatment of isolated RNA, library
+preparation of RNA resulting in
+cDNA adapter-ligated sequences;
+enrichment of the 70 genes using
+hybrid capture; sequencing of the
+enriched library in the flow cell on a
+MiSeqDx.	Isolation of RNA from formalin-
+fixed paraffin embedded (FFPE)
+tumor tissue sections, DNase
+treatment of isolated RNA, linear
+amplification and labeling of
+DNase treated RNA (fresh), cRNA
+purification, hybridization of the
+cRNA to the MammaPrint
+microarray (fresh), amplification
+and purification DNase treated
+RNA resulting in cDNA for FFPE,
+labeling and purification of
+amplified cDNA for FFPE,
+hybridization of the cDNA to the
+MammaPrint microarray for FFPE.
+Data Analysis Software	RPrint v1.4.1_MP	XPrint version 3.2.0
+Instrument	Illumina MiSeqDx (Qualified by
+Agendia)	Agilent SureScan Dx microarray
+scanner, part number G5761AA.
+
+--- Page 11 ---
+Edition, Clinical and Laboratory Standards Institute, 2018.
+4) Gene Expression Profiling Test System for Breast Cancer Prognosis - Class II Special
+Controls Guidance for Industry and FDA Staff: issued on: May 9, 2007.
+5) Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests,
+Guidance for Industry and FDA Staff, issued on March 13, 2007.
+6) Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices, Guidance for Industry and FDA Staff, issued on May 11, 2005.
+7) Cybersecurity concerns for Networked Medical Devices Containing Off-the-Shelf (OTS)
+Software: Guidance for Industry, issued on January 14, 2005.
+8) Content of Premarket Submissions for Management of cybersecurity concerns in Medical
+Devices – Guidance for Industry and Food and Drug Administration Staff, issued on October
+2, 2014.
+9) Postmarket Management of cybersecurity concerns in Medical Devices - Guidance for
+Industry and Food and Drug Administration Staff, issued on December 28, 2016.
+VII Performance Characteristics:
+A Analytical Performance:
+Concordance between MammaPrint FFPE NGS kit run on MiSeq Research Use Only (RUO)
+instrument and run on MiSeqDx instrument qualified by Agendia.
+The purpose of this study was to establish the concordance between the MammaPrint FFPE NGS
+kit run on the MiSeq RUO instrument and the MammaPrint FFPE NGS kit run on the MiSeqDx
+instrument qualified by Agendia to enable the use of MammaPrint FFPE NGS kit data generated
+from MiSeq RUO instruments. The MiSeqDx instrument qualification was performed at the
+Agendia laboratory in Irvine, USA. MiSeq RUO instruments were used initially for clinical
+validation and analytical performance studies including repeatability of RNA isolation and kit
+stability testing. In this study, RNA extracted from 50 FFPE samples were selected based on
+results obtained from MammaPrint FFPE NGS kit run on the MiSeq RUO instrument. These
+samples were subsequently analyzed using the MammaPrint FFPE NGS kit run on the MiSeqDx
+qualified by Agendia. The MammaPrint FFPE NGS kit results from both sequencers were
+compared to assess the agreement between the two sequencers. Two samples failed QC when
+tested with the MammaPrint FFPE NGS kit run on the MiSeqDx qualified by Agendia, and
+therefore provided invalid results. Agreement between the two sequencers was calculated for
+valid results generated by both sequencers. Since the MammaPrint FFPE NGS kit test reports
+three (3) categories, High Risk, Low Risk, and Borderline, around two cut-offs, -0.058 and
++0.058, agreements were evaluated for each category and presented in Table 4 below.
+Table 4. Concordance Between MammaPrint FFPE NGS kit run on MiSeq RUO
+instrument and run on MiSeqDx instrument qualified by Agendia
+MiSeq RUO
+High Risk Borderline Low Risk Total
+K210973 - Page 11 of 26
+
+[Table 1 on page 11]
+	MiSeq RUO			
+	High Risk	Borderline	Low Risk	Total
+
+--- Page 12 ---
+MiSeq-Dx High Risk 27 1 0 28
+Borderline 2 1 1 4
+Low Risk 0 0 16 16
+Total 29 2 17 48
+Agreement
+27/29 = 93.10% (78.04, 98.09)
+- High Risk (95% CI)
+Agreement
+1/2 = 50% (9.40, 90.60)
+– Borderline (95% CI)
+Agreement
+16/17 = 94.12% (73.02, 98.96)
+– Low Risk (95% CI)
+Agreement
+44/48 = 91.67% (80.02, 97.68)
+– Overall (95% CI)
+The percent agreement for samples with High Risk and Low Risk categories was 93.10 (95% CI:
+78.04, 98.09) and 94.12 (95% CI: 73.02, 98.96) respectively, demonstrating comparable
+performance of MammaPrint FFPE NGS kit between MiSeq RUO instrument and MiSeqDx
+instrument qualified by Agendia. While the percent agreement for Borderline cases was low, 50
+(95% CI: 9.40, 90.60), this is likely due to the low reliability of the test for samples with MPI
+scores between -0.058 and +0.058.
+1. Precision/Reproducibility:
+Two site-to-site reproducibility studies were conducted at multiple sites to demonstrate the
+precision and reproducibility of the MammaPrint FFPE NGS kit using RNA extracted from
+samples representing a range of MPI scores. In addition, the reproducibility of RNA from control
+samples was also assessed in a reproducibility study. An RNA isolation repeatability study was
+performed by conducting two independent RNA isolations from the same tissue block to
+demonstrate that MammaPrint results are reproducible between two isolations from the same
+tumor.
+Site-to-site Reproducibility Study-1
+In Study-1, site-to-site reproducibility of the MammaPrint FFPE NGS kit was assessed across
+four external sites in the United States, using three samples. The three samples were generated
+by pooling of RNA representing the different MammaPrint categorical test results (High Risk,
+Low Risk, and Borderline). Per site, each sample was tested by two operators across six (6) runs
+in duplicate for a total of 24 measurements obtained per sample per site. In total, 96 replicates
+per sample across the four sites were evaluated. The study design included three (3) different
+MammaPrint FFPE NGS kit lots. A variance component analysis was used to estimate the
+standard deviation for repeatability, between-run, between-operator, between-site, and
+reproducibility for the study. These estimates were reported along with the number of
+observations for the mean of MammaPrint Index (MPI) values. Results by variance components
+and total variance are presented below for MPI. The column “N” included the number of data
+points that generated an MPI value. Across all variance components, the total standard deviation
+(SD) was ≤0.095 in all samples tested (Table 5).
+Table 5: Site-to-Site Reproducibility Results Study 1 - Overall Mean, Standard Deviation
+(SD) for MPI – Repeatability, Between-Run, Between-Operator, Between-Site, and
+Reproducibility
+K210973 - Page 12 of 26
+
+[Table 1 on page 12]
+MiSeq-Dx	High Risk	27	1	0	28
+	Borderline	2	1	1	4
+	Low Risk	0	0	16	16
+	Total	29	2	17	48
+Agreement		27/29 = 93.10% (78.04, 98.09)			
+- High Risk (95% CI)					
+Agreement		1/2 = 50% (9.40, 90.60)			
+– Borderline (95% CI)					
+Agreement		16/17 = 94.12% (73.02, 98.96)			
+– Low Risk (95% CI)					
+Agreement		44/48 = 91.67% (80.02, 97.68)			
+– Overall (95% CI)					
+
+--- Page 13 ---
+Repeatability Between Between Between
+MPI Reproducibility
+Sample N (SD) -Run -Operator -Site
+Mean (SD)
+(SD) (SD) (SD)
+High Risk 96 -1.153 0.045 0.000 0.050 0.000 0.067
+Borderline 96 -0.0125 0.055 0.000 0.022 0.074 0.095
+Low Risk 96 0.436 0.045 0.000 0.022 0.039 0.063
+In Table 6, results are summarized on the sample level agreements based on majority call along
+with the corresponding two-sided exact 95% confidence limit.
+Table 6: Site-to-Site Reproducibility Results Study 1 – Sample Level Agreement
+Total # of
+MPI Agreement Agreement 95%
+Sample Risk Category replicates
+Mean N (%) 2-sided score CI
+(N)
+1 Borderline 96 -0.013 78 81 72.0, 88.5
+2 High Risk 96 -1.154 96 100 96.9, 100
+3 Low Risk 96 0.436 96 100 96.9, 100
+Results of the sample level agreement were 100% for High Risk and Low Risk samples, and
+81% for Borderline sample with the lower bound of the two-sided 95% score CI was 72%. The
+mean MPI score of this sample was -0.013, which was close to the cut-off of -0.058, thus
+explaining the disagreement of MPI score results near the threshold.
+Results of this study demonstrate that for MPI scores well above and below the Borderline range
+of -0.058 and +0.058, the precision is high. However, for samples with MPI scores near the two
+cut-offs, -0.058 and +0.058 precision may be lower as shown by this study.
+Site-to-site Reproducibility Study-2
+A second site-to-site reproducibility study was conducted by testing an additional eight (8)
+samples that were specifically selected to represent MPI scores close to or within the Borderline
+category. The eight (8) samples were analyzed at three different sites, two external site and an
+internal Agendia site. At each site, the samples were separately processed by two operators. Each
+of the operators processed the samples twice and performed their own RNA extraction for both
+sequencing runs. For both operators combined, this resulted in a total of four runs per site. Each
+run was performed on a different day to incorporate day-to-day variations. Per run, each sample
+was analyzed in duplicate, resulting in 8 replicate measurements per sample and site for a total of
+24 replicates per sample. The sequencing runs were performed with Agendia pre-qualified
+MiSeqDx instruments. A variance component analysis was used to estimate the standard
+deviation for repeatability, between-run, between-operator, between-site, and reproducibility for
+the study. Results are summarized in Table 7. Across all variance components, the total standard
+deviation was ≤0.066 in all samples tested.
+Table 7: Site-to-Site Reproducibility Results Study 2 - Overall Mean, Standard Deviation
+(SD) for MPI – Repeatability, Between-Run, Between-Operator, Between-Site, and
+Reproducibility
+Sampl Risk MPI Repeatability Between- Between- Between- Reproducibility
+N
+e Category Mean (SD) Run Operator Site (SD)
+1 High Risk 16 -0.177 0.025 0.006 0.014 0.006 0.031
+K210973 - Page 13 of 26
+
+[Table 1 on page 13]
+			Repeatability	Between	Between	Between	
+		MPI					Reproducibility
+Sample	N		(SD)	-Run	-Operator	-Site	
+		Mean					(SD)
+				(SD)	(SD)	(SD)	
+							
+High Risk	96	-1.153	0.045	0.000	0.050	0.000	0.067
+Borderline	96	-0.0125	0.055	0.000	0.022	0.074	0.095
+Low Risk	96	0.436	0.045	0.000	0.022	0.039	0.063
+
+[Table 2 on page 13]
+		Total # of				
+			MPI	Agreement	Agreement	95%
+Sample	Risk Category	replicates				
+			Mean	N	(%)	2-sided score CI
+		(N)				
+						
+1	Borderline	96	-0.013	78	81	72.0, 88.5
+2	High Risk	96	-1.154	96	100	96.9, 100
+3	Low Risk	96	0.436	96	100	96.9, 100
+
+[Table 3 on page 13]
+Sampl	Risk		MPI	Repeatability	Between-	Between-	Between-	Reproducibility
+		N						
+e	Category		Mean	(SD)	Run	Operator	Site	(SD)
+								
+1	High Risk	16	-0.177	0.025	0.006	0.014	0.006	0.031
+
+--- Page 14 ---
+2 Low Risk 24 0.074 0.020 0.034 0.008 0.012 0.042
+3 Low Risk 24 0.155 0.044 0.000 0.015 0.000 0.046
+4 Low Risk 24 0.223 0.037 0.000 0.009 0.021 0.044
+5 High Risk 24 -0.060 0.017 0.000 0.015 0.021 0.031
+6 High Risk 24 -0.142 0.060 0.013 0.000 0.023 0.066
+7 Borderline 24 0.012 0.018 0.000 0.024 0.017 0.035
+8 High Risk 24 -0.165 0.022 0.028 0.000 0.000 0.036
+In Table 8, results are summarized on the sample level agreements based on majority call along
+with the corresponding two-sided exact 95% confidence limit.
+Table 8: Site-to-Site Reproducibility Results Study 2 – Sample Level Agreement
+Total # of
+MPI Agreement Agreement 95%
+Sample Risk Category replicates
+Mean N (%) 2-sided score CI
+(N)
+1 High Risk 16 -0.177 16 100 82.9, 100
+2 Low Risk 24 0.074 20 83 62.6, 95.3
+3 Low Risk 24 0.155 24 100 88.3, 100
+4 Low Risk 24 0.223 24 100 88.3, 100
+5 High Risk 24 -0.060 14 58 36.6, 77.9
+6 High Risk 24 -0.142 24 100 88.3, 100
+7 Borderline 24 0.012 24 100 88.3, 100
+8 High Risk 24 -0.165 24 100 88.3, 100
+Of the eight samples, one sample failed QC at one of the sites and therefore only 16 replicates
+from the other two sites were used in the analysis.
+In the variance analysis based on the ANOVA model output, the total standard deviation (SD)
+was ≤0.066 in all eight samples tested. In the concordance analysis, six samples produced 100%
+agreement across all replicates, while sample 2 and sample 5 had 83% and 53% agreement only.
+The lower concordance of those two samples was because the MPI scores were near the cutoff
+point of -0.058 and +0.058.
+Together the results of the second site-to-site reproducibility study demonstrates that
+MammaPrint FFPE NGS test results are reproducible when MPI scores are well above and below
+-0.058 and +0.058 cut-offs.
+Reproducibility of MammaPrint FFPE NGS kit Controls
+The reproducibility of MammaPrint FFPE NGS kit was also assessed by processing two control
+samples with known MammaPrint results at the four external sites. RNA samples from these two
+controls, one control High Risk sample (CTRL-HR) and a second control Low Risk sample
+(CTRL-LR) were provided by Agendia to these sites. Per site, there were two operators who
+processed this set of 2 samples across 6 runs until 12 measurements were obtained per site.
+Additionally, there were three different lot numbers of the MammaPrint FFPE NGS kit included
+in this set up, each operator used each of the different lot numbers twice during these 6 different
+days. For each control sample 50 QC passed measurements were obtained. Five measurements
+failed QC for the two samples and therefore provided invalid results. A variance component
+analysis was used to estimate the standard deviation for repeatability, between-run, between-
+K210973 - Page 14 of 26
+
+[Table 1 on page 14]
+2	Low Risk	24	0.074	0.020	0.034	0.008	0.012	0.042
+3	Low Risk	24	0.155	0.044	0.000	0.015	0.000	0.046
+4	Low Risk	24	0.223	0.037	0.000	0.009	0.021	0.044
+5	High Risk	24	-0.060	0.017	0.000	0.015	0.021	0.031
+6	High Risk	24	-0.142	0.060	0.013	0.000	0.023	0.066
+7	Borderline	24	0.012	0.018	0.000	0.024	0.017	0.035
+8	High Risk	24	-0.165	0.022	0.028	0.000	0.000	0.036
+
+[Table 2 on page 14]
+		Total # of				
+			MPI	Agreement	Agreement	95%
+Sample	Risk Category	replicates				
+			Mean	N	(%)	2-sided score CI
+		(N)				
+						
+1	High Risk	16	-0.177	16	100	82.9, 100
+2	Low Risk	24	0.074	20	83	62.6, 95.3
+3	Low Risk	24	0.155	24	100	88.3, 100
+4	Low Risk	24	0.223	24	100	88.3, 100
+5	High Risk	24	-0.060	14	58	36.6, 77.9
+6	High Risk	24	-0.142	24	100	88.3, 100
+7	Borderline	24	0.012	24	100	88.3, 100
+8	High Risk	24	-0.165	24	100	88.3, 100
+
+--- Page 15 ---
+operator, between-site, and reproducibility for the study. Results are summarized in Table 9.
+Additionally, the MammaPrint FFPE results generated for these 2 control samples at the four
+sites were analyzed by calculating sample level concordance/agreement based on majority call
+(Table 10).
+Table 9: Reproducibility of MammaPrint FFPE NGS kit Controls - Overall Mean,
+Standard Deviation (SD) for MPI – Repeatability, Between-Run, Between-Operator,
+Between-Site, and Reproducibility
+Risk MPI Repeatability Between Between Between Reproducibility
+Sample N
+Category Mean (SD) Run Operator Site (SD)
+1 - CTRL-
+High Risk 48 -0.512 0.042 0.000 0.039 0.000 0.057
+HR
+2 - CTRL-
+Low Risk 48 0.359 0.054 0.000 0.000 0.036 0.065
+LR
+Table 10: Reproducibility of MammaPrint FFPE NGS kit Controls
+Risk Agreement Agreement 95% 2-sided score
+Sample Mean MPI N
+Category N (%) CI
+1 - CTRL-
+High Risk -0.512 50 50 100 94.2, 100
+HR
+2 - CTRL-
+Low Risk 0.359 50 50 100 94.2, 100
+LR
+The variant component analysis used 48 measurements and the standard deviation was ≤0.065
+for the two control samples tested. For the analyses of the sample level agreement, there were in
+total 50 measurements, which included two additional measurements from two of the sites. The
+agreement of MammaPrint categorical results for these two samples were 100% for High Risk
+and Low Risk samples, demonstrating acceptable reproducibility for the two control samples.
+Repeatability of RNA isolation
+The purpose of this study was to determine the variability between RNA isolations of the same
+FFPE tissue by comparing the MammaPrint-NGS results of two RNA isolations from each FFPE
+tissue sample. In this study, fifty-one (51) samples of high and Low Risk categories with enough
+FFPE tissue were isolated 2 times by a single operator, for a total of 3 operators, in 2 testing
+sites, one internal and one external sites through multiple testing days. After the isolations were
+performed the samples were processed further (Library preparation, Enrichment, and
+Sequencing) on different days per isolation. This resulted in the generation of two results per
+tissue sample processed on different days. Of the 51 selected samples, 8 did not pass the QC and
+therefore provided invalid results. Agreement between the two RNA isolations was calculated
+for valid test results and was found to be 100% for all three (3) categories, i.e., High Risk, Low
+Risk, and Borderline calls (95%CI: High Risk: 86.2,100.0, Low Risk: 81.6,100.0, Borderline:
+34.2, 100.0), demonstrating high concordance between isolations.
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+K210973 - Page 15 of 26
+
+[Table 1 on page 15]
+	Risk		MPI	Repeatability	Between	Between	Between	Reproducibility
+Sample		N						
+	Category		Mean	(SD)	Run	Operator	Site	(SD)
+								
+1 - CTRL-
+HR	High Risk	48	-0.512	0.042	0.000	0.039	0.000	0.057
+2 - CTRL-
+LR	Low Risk	48	0.359	0.054	0.000	0.000	0.036	0.065
+
+[Table 2 on page 15]
+	Risk	Mean MPI		Agreement	Agreement	95% 2-sided score
+Sample			N			
+	Category			N	(%)	CI
+						
+1 - CTRL-
+HR	High Risk	-0.512	50	50	100	94.2, 100
+2 - CTRL-
+LR	Low Risk	0.359	50	50	100	94.2, 100
+
+--- Page 16 ---
+Interference
+The impact of interfering substances on the performance of the MammaPrint FFPE NGS kit was
+assessed by processing RNA from FPPE samples tested in the presence of five substances,
+genomic DNA (gDNA), proteinase K, actinomycin D, ethanol and NaOH, with each interfering
+substance at varying amounts. The first two substances, gDNA and proteinase K were used in the
+RNA isolation, while the other three substances, actinomycin D, ethanol and NaOH were used
+during the NGS processing of the samples. The impact of potential interference from gDNA,
+proteinase K, actinomycin D, and ethanol was tested by testing three (3) samples, one High Risk,
+one Low Risk and one Borderline measured in duplicate with a total of six (6) measurements
+with and without potential interferent.
+To evaluate potential interferent from gDNA and proteinase K during RNA isolation, the
+samples were tested with 100 ng of gDNA, and 20,000 ng proteinase K. Actinomycin D is used
+during the NGS process with a standard concentration of 4 μg/μL. To assess the potential
+interference from actinomycin D, the three (3) samples were tested with 240 ng/μL and 480
+ng/μL Actinomycin D. Ethanol in its standard setting (70%), is used in multiple steps during the
+NGS process. For this assessment, the three samples were tested with an excess of 2.5% ethanol
+and an excess of 5% ethanol. Both concentrations were tested separately and in duplicate during
+the library preparation step and the capture preparation step, resulting in four (4) datasets of six
+(6) measurements each.
+NaOH (0.2N) is used during the denaturation of pooled cDNA Library in the NGS process. For
+this assessment, the pooled cDNA library set containing n = 29 samples was tested separately
+with 3 mM NaOH and 5 mM NaOH and measured in duplicate.
+The impact of the substances was assessed by assessing QC pass/fail, comparison of
+MammaPrint index with regards to absolute differences between the results of the
+standard/original versus test conditions, i.e., presence of interferent, and concordance with the
+MammaPrint FFPE NGS results for standard/original versus test condition.
+Except for NaOH tested at 5mM during denaturation of pooled cDNA Library, all samples with
+and without potential interferent passed QC, i.e., provided valid results. The absolute difference
+between MammaPrint indices of both conditions, with or without interferent were below the
+technical variance of the MammaPrint FFPE NGS kit. Further, concordance was 100% between
+MammaPrint FFPE NGS results obtained with or without potential interferent for all conditions
+evaluated except for excess of 3 mM NaOH.
+Excess of 3mM NaOH during the denaturation of pooled cDNA Library, resulted in agreement
+for high and Low Risk samples of 100% and 95.8% respectively. Further, two samples had
+slightly higher absolute differences in MPI. Excess of 5 mM NaOH during the denaturation of
+pooled cDNA Library resulted in 17.2% of the measurements failed QC. However, the
+categorical MammaPrint FFPE NGS kit results were not impacted. According to the results, a
+limitation in the package insert was established to caution that excess of 3mM NaOH should not
+be used for the denaturation of pooled cDNA Library in the NGS process as it can lead to
+increased assay failure.
+K210973 - Page 16 of 26
+
+--- Page 17 ---
+Further, RNA specification provided are designed to minimize the presence of any effect from
+interference of components such as hemorrhagic tissue, adipose tissue fibrosis material or
+necrotic tissue on the performance of the MammaPrint FFPE NGS kit.
+4. Assay Reportable Range:
+The MammaPrint Index is reported on a scale of -1.000 to +1.000, with two cut-offs, -0.058 and
++0.058 and determines the sample’s prognostic profile as Low Risk, High Risk, or Borderline.
+High Risk results are those results that are below -0.058 whereas Low Risk results are those
+above +0.058, except between -0.058 and +0.058, samples will be reported as Borderline.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+a) Real-Time Stability of MammaPrint FFPE NGS kit
+A real-time stability study was executed to determine the shelf life of the MammaPrint
+FFPE NGS kit. Three lots of NGS kits, which includes RNA Preparation Kit, Target
+Enrichment Kit, and the NGS Panel, and each kit is comprised of four boxes, were stored
+at its recommended storage conditions, and tested at discrete timepoints over the course
+of the study. In total eleven (11) clinical samples including High Risk, Low Risk and
+Borderline, were tested at three different time points, 2-3 months from Date of
+Manufacture (DOM), corresponding to baseline or time point zero, 12 months from
+DOM, time point 1 (T1), and 26 months from DOM, time point 2 (T2). For each
+measurement, the quality assessment, test results and test indices were recorded and
+reviewed for stability. The T0 measurement is used as the reference timepoint – all
+subsequent measurements were be compared with the T0 measurement. Data from T0, T1
+and T2 time points were analyzed for Lot #1, Lot #2, and Lot #3. For Lot #1, all
+measurements in timepoint T1 showed agreement with T0; however, in timepoint T2, one
+sample switched from a MammaPrint Low Risk result to a Borderline result as the
+MammaPrint index fell within -0.058 and + 0.058. The difference in MammaPrint index
+between the T0 and the T2 for this sample was within the predefined allowable
+difference. Since the difference in MammaPrint Index for this Borderline sample was
+within the allowable difference, the switch in MammaPrint test outcome was accepted as
+Borderline call for the sample. Therefore, all timepoints for lot #1 demonstrated
+acceptable stability. For Lot #2, one High Risk sample at timepoint T1 showed an
+absolute difference in MammaPrint index between the T1 and T0 results which exceeded
+the allowable difference, however because it demonstrated agreement with the T0 call,
+i.e., High Risk call, it was considered acceptable. For Lot #3 real-time stability studies,
+all samples passed T0, T1 and T2 time points. The results support a shelf life for the
+MammaPrint FFPE NGS kit of 25 months when stored according to the temperatures
+indicated on the label.
+b) Freeze-Thaw Stability
+To demonstrate that the performance of MammaPrint FFPE NGS kit will remain stable
+under varied conditions, a freeze thaw assessment was performed using three lots of
+MammaPrint FFPE NGS kits for a total of six (6) cycles with assessments taken at three
+(3) time points. Three (3) samples, one High Risk, one Low Risk and one Borderline
+were tested after one freeze thaw cycle of the MammaPrint FFPE NGS kit (C0), after 3
+freeze-thaw (F/T) cycles (C1) and after 6 F/T cycles (C2). For each cycle, the
+K210973 - Page 17 of 26
+
+--- Page 18 ---
+components of the MammaPrint FFPE NGS kit were completely thawed and then placed
+back into their labeled storage conditions for at least 4 hours to ensure complete freezing.
+Results demonstrated that all samples passed QC after each testing, that sample results
+after 3 F/T cycles and 6 F/T cycles were concordant with the MammaPrint FFPE NGS kit
+results at C0 and that MPI were within acceptable difference with C0. Based on the
+results, the MammaPrint FFPE NGS kit can be used for up to 5 F/T cycles.
+c) Shipment Stability
+MammaPrint FFPE NGS kit are shipped as small and medium packaging solutions, with
+each solution, there are two boxes – one for room temperature reagents and one for
+reagents that need to be kept cold (with dry ice), for all -80°C and -20°C reagents.
+A shipping study was also performed to ensure that the MammaPrint FFPE NGS kit
+maintains the adequate level of performance after shipment. Within this study three
+packaging configurations were tested with a small number of kits (1 or 2), one for a
+medium number of kits (3 to 8), and one for a large number of kits (9 to 15). Controlled
+shipping simulations were conducted based on recognized standards and successively
+demonstrated that the packaging provided sufficient physical protection to its contents.
+All kits from the small and medium packaging solutions passed the inspection and were
+subsequently tested for performance assessment using samples that had been previously
+processed with accepted kits. For all samples and kits tested, the difference in MPI were
+within acceptable limits.
+d) Sample stability
+The clinical validation utilized samples that were between 6 and 10 years old. The
+DV200 was used as an indication of RNA quality that is isolated from the block, which
+indicates tissue stability.
+Out of the 345 RASTER samples used for MammaPrint microarray validation, 316
+samples were successfully processed using the MammaPrint FFPE NGS kit. In the
+clinical evaluation, there was a relatively large proportion of samples with a lower
+DV200 value, however these samples generated an appropriate NGS result as
+demonstrated in the clinical validation study, see Section C below. In addition, several
+QC measures are included in the MammaPrint NGS kit to prevent erroneous results from
+being generated due to sample quality (e.g., unacceptable sample degradation). Following
+assessment of the starting material (tissue/RNA), a QC model that measures the quality of
+the sequencing (such as Percent Mapped, Percent on Target, and Total Read Count) is
+used. Additionally, MammaPrint-specific QCs included in this QC model (e.g.,
+MammaPrint Total Counts and Median Counts) ensure quality of the MammaPrint result.
+Failure of the quality metrics is interpreted by the test as an indication of low tissue
+quality or low RNA quality.
+6. Detection Limit:
+Two studies were conducted to demonstrate the acceptable range of RNA input for MammaPrint
+FFPE NGS kit.
+In the first study, eight (8) FFPE breast cancer samples with DV200 “poor” quality (less than
+50%) were evaluated. The selected samples cover the entire MammaPrint Index range, including
+the Borderline region. RNA of each sample was diluted to lower the RNA input for the
+K210973 - Page 18 of 26
+
+--- Page 19 ---
+MammaPrint FFPE NGS kit from 200 ng to 100 ng, 50 ng, 25 ng, and 12.5 ng. For each RNA
+input level, all samples were processed repeatedly during several separate runs using the
+MammaPrint FFPE NGS kit. Samples that passed all lab Quality Controls (QCs) were
+subsequently sequenced. The eight (8) samples were repeatedly processed for each of the five
+RNA input levels resulting in a total of 32 replicates processed with 12.5 ng RNA and 40
+replicates processed for all other RNA input levels. QC passing rate was evaluated. The results
+of this study demonstrated that samples with at least 100 ng RNA input and with DV200 values
+ranging from 35% to 49% had valid rates ranging from 80% to 100%. Samples with RNA input
+values below 100 ng and with DV200 “poor” quality ranging from 35% to 49% had valid rates
+ranging from 0% to 100%.
+To further assess whether RNA input (ng) below and above the RNA quality specific
+recommendations in the instructions for use influences the assay performance, an additional
+study was performed on DV200 “poor” (less than 50%) and DV200 "good” (greater or equal to
+50%) samples separately. The limit chosen for the above and below recommended RNA input
+are 200 ng for DV200 “poor” samples and 100 ng for better quality samples. For DV200 “Poor”
+samples, 300 ng, 200 ng, and 100 ng RNA input were tested, while 200 ng, 100, ng, 50 ng, and
+25 ng RNA input were tested for DV200 “Standard” (greater or equal to 70%) samples. The
+same eight samples used for the LoD study were selected for the DV200 “Poor” experiment. For
+RNA input of DV200 “Poor” samples, 40 replicates were tested for 200ng and 100ng RNA
+input, while 14 replicates for 300ng RNA concentration. For DV200 “Standard” experiment, 6
+samples were selected in which 2 were from the middle category DV200 “Good to Medium”,
+based on their DV200 values. The 6 samples assessed contained equal numbers of High Risk and
+Low Risk samples and covers the entire MammaPrint Index range. In DV200 “Standard”
+samples, 18 replicates were tested for 200ng to 50ng dilutions and 15 replicates for 25ng RNA
+input. QC passing rate was evaluated. The results of this study demonstrated that samples with at
+least 100 ng RNA input and with DV200 values ranging from 35% to 80% had valid rates
+ranging from 80% to 100%, while samples with 200 ng RNA input and with DV200 values
+ranging from 35% to 80% had valid rates of 83% to 100%. Samples with RNA input values
+below 100 ng and with DV200 “poor” quality ranging from 35% to 49% had valid rates ranging
+from 0% to 100%.
+Together, the data supports the specifications for DV200 ≥70% above 200 nt for 100 ng, and
+DV200 ≥20% above 200 nt for 200 ng. For 150 ng the data supports DV200 ≥50% because at
+100 ng RNA input with DV200 ranging from 35% to 40% the valid rate was at least 80% as
+observed from the two studies.
+7. Assay Cut-Off:
+MPI cut-off is set at -0.058 and +0.058 for MammaPrint FFPE NGS kit.
+B Comparison Studies:
+Two method comparison studies were conducted at a single site (Study 1) and at multiple sites
+(Study 2) to demonstrate the agreement between MammaPrint FFPE NGS kit and the
+MammaPrint FFPE microarray test using RNA extracted from samples representing a range of
+MPI scores.
+1. Method Comparison with Predicate Device – Study 1:
+K210973 - Page 19 of 26
+
+--- Page 20 ---
+The concordance between the MammaPrint FFPE NGS kit and the MammaPrint FFPE
+microarray was assessed by testing a total of 155 samples. These samples complied with the
+intended use population of the MammaPrint FFPE NGS kit. These samples were previously
+processed on MammaPrint FFPE microarray as part of routine diagnostics and covered the
+entire MammaPrint readout range with sufficient number of samples representing High Risk,
+Low Risk and Borderline. None of these samples were used in the development of the
+MammaPrint NGS FFPE kit. Of the 155 samples, 90 were with High Risk MammaPrint
+Index while 65 were with Low Risk index, as determined by the microarray analysis using
+MammaPrint FFPE.
+Since the NGS kit has three output categories (High Risk, Borderline, and Low Risk) and the
+comparator method has two output categories (High Risk and Low Risk), comparison of
+MammaPrint categorical results was performed by conducting two concordance analysis for
+High vs Low Risk.
+In the first concordance analysis, samples with MPI scores <0.058 (this also includes
+Borderline samples with MPI scores of <0.058 and >-0.058) were treated as High Risk, that
+is, positive results in the concordance analysis. Samples with MPI scores >0.058 were treated
+as Low Risk or negative results. In the second concordance analysis, samples with MPI
+scores <-0.058 were treated as High Risk or positive results in the concordance analysis.
+Samples with MPI scores >-0.058 (this also includes Borderline samples with MPI scores of
+<0.058 and >-0.058) were treated as Low Risk or negative results.
+For the first analysis, comparison of the test results showed an Overall Percent Concordance
+(OPA) of 97.42 % (95% CI: 93.55, 98.99) with a Negative Percent Agreement (NPA) of
+93.85 % (95% CI: 85.22, 97.58) and a Positive Percent Agreement (PPA) of 100.00 (95% CI:
+95.91, 100.00).
+For the second analysis, comparison of the test results showed an OPA of 98.71 % (95% CI:
+95.42, 99.65) with a NPA of 100.00 % (95% CI: 94.42, 100.00) and a PPA of 97.78 (95% CI:
+92.26, 99.39).
+Table 12: Comparison of MammaPrint test results between NGS kit and microarray
+for NPA and PPA calculation
+MammaPrint FFPE Microarray
+High Risk Low Risk Total
+High Risk 88 0 88
+MammaPrint
+Low Risk 0 61 61
+FFPE NGS
+Borderline 2 4 6
+Total 90 65 155
+Concordance using MPI score of +0.058 as cut-off (i.e., Borderline NGS = High Risk)
+PPA (95% CI) 100% (95% CI: 95.91-100)
+NPA (95% CI) 93.85% (95% CI: 85.22-97.58)
+OPA (95% CI) 97.42% (95% CI: 93.55-98.99)
+Concordance using MPI score of -0.058 as cut-off (i.e., Borderline NGS = Low Risk)
+PPA (95% CI) 97.78% (95% CI: 92.26-99.39)
+Agreement
+NPA (95% CI) 100% (95% CI: 94.42-100)
+(Total N=155)
+OPA (95% CI) 98.71% (95% CI: 95.42-99.65)
+K210973 - Page 20 of 26
+
+[Table 1 on page 20]
+		MammaPrint FFPE Microarray		
+				
+		High Risk	Low Risk	Total
+				
+	High Risk	88	0	88
+MammaPrint				
+	Low Risk	0	61	61
+FFPE NGS				
+	Borderline	2	4	6
+				
+	Total	90	65	155
+Concordance using MPI score of +0.058 as cut-off (i.e., Borderline NGS = High Risk)				
+	PPA (95% CI)	100% (95% CI: 95.91-100)		
+	NPA (95% CI)	93.85% (95% CI: 85.22-97.58)		
+	OPA (95% CI)	97.42% (95% CI: 93.55-98.99)		
+Concordance using MPI score of -0.058 as cut-off (i.e., Borderline NGS = Low Risk)				
+	PPA (95% CI)	97.78% (95% CI: 92.26-99.39)		
+Agreement				
+	NPA (95% CI)	100% (95% CI: 94.42-100)		
+(Total N=155)				
+	OPA (95% CI)	98.71% (95% CI: 95.42-99.65)		
+				
+
+--- Page 21 ---
+The Concordance, NPA and PPA of MammaPrint categorical results support agreement
+between the MammaPrint FFPE NGS kit and the predicate, MammaPrint FFPE microarray
+(Tables 12).
+2. Method Comparison with Predicate Device Study-2
+The comparability of the MammaPrint FFPE NGS kit and the MammaPrint microarray was
+assessed by evaluating 303 FFPE samples. The 303 samples were processed by the
+microarray test at Agendia. Then, the same samples were processed with the MammaPrint
+FFPE on the NGS platform at four external sites, i.e., 74 being processed at Site 1, 76 at Site
+2, 78 at Site 3, and 75 at Site 4. The distribution of the categorical MammaPrint results
+analyzed on microarray varied slightly between the datasets selected by the four different
+sites (Table 13)
+Table 13: Overview of the MammaPrint results of the dataset based on the
+microarray analysis
+MammaPrint FFPE Distribution of results
+Microarray Number of samples %
+Site 1 High Risk 33 44.6
+Low Risk 41 55.4
+Site 2 High Risk 46 60.5
+Low Risk 30 39.5
+Site 3 High Risk 42 53.8
+Low Risk 36 46.2
+Site 4 High Risk 30 40
+Low Risk 45 60
+Combined dataset High Risk 151 49.8
+Low Risk 152 50.2
+Comparison of MammaPrint test results from between NGS kit and microarray was
+performed by the concordance analysis as described above. Results are presented in Table 14
+below.
+Table 14: Comparison of MammaPrint test results between NGS kit and Microarray
+MammaPrint FFPE
+Microarray (Internal Site)
+High Risk Low Risk Total
+MammaPrint High Risk 144 4 148
+FFPE NGS Low Risk 1 126 127
+(External Sites) Borderline 16 12 28
+Total 161 142 303
+Concordance using MPI score of +0.058 as cut-off (i.e., Borderline NGS = High Risk)
+PPA (95% CI) 99.34% (95% CI: 96.35-99.88)
+NPA (95% CI) 82.89% (95% CI: 76.12-88.05)
+OPA (95% CI) 91.09% (95% CI: 87.35-93.80)
+Concordance using MPI score of -0.058 as cut-off (i.e., Borderline NGS = Low Risk)
+Agreement PPA (95% CI) 91.39% (95% CI: 85.83-94.90)
+(Total N=303) NPA (95% CI) 93.42% (95% CI: 88.31-96.39)
+K210973 - Page 21 of 26
+
+[Table 1 on page 21]
+	MammaPrint FFPE	Distribution of results	
+	Microarray	Number of samples	%
+Site 1	High Risk
+Low Risk	33
+41	44.6
+55.4
+			
+Site 2	High Risk
+Low Risk	46
+30	60.5
+39.5
+			
+Site 3	High Risk
+Low Risk	42
+36	53.8
+46.2
+			
+Site 4	High Risk
+Low Risk	30
+45	40
+60
+			
+Combined dataset	High Risk
+Low Risk	151
+152	49.8
+50.2
+			
+
+[Table 2 on page 21]
+		MammaPrint FFPE		
+		Microarray (Internal Site)		
+		High Risk	Low Risk	Total
+MammaPrint	High Risk	144	4	148
+FFPE NGS	Low Risk	1	126	127
+(External Sites)	Borderline	16	12	28
+	Total	161	142	303
+Concordance using MPI score of +0.058 as cut-off (i.e., Borderline NGS = High Risk)				
+	PPA (95% CI)	99.34% (95% CI: 96.35-99.88)		
+	NPA (95% CI)	82.89% (95% CI: 76.12-88.05)		
+	OPA (95% CI)	91.09% (95% CI: 87.35-93.80)		
+Concordance using MPI score of -0.058 as cut-off (i.e., Borderline NGS = Low Risk)				
+Agreement	PPA (95% CI)	91.39% (95% CI: 85.83-94.90)		
+(Total N=303)	NPA (95% CI)	93.42% (95% CI: 88.31-96.39)		
+
+--- Page 22 ---
+OPA (95% CI) 92.41% (95% CI: 88.87-94.89)
+The analysis showed PPA values ranging from 91.39% to 99.34%. NPA values were lower,
+ranging from 82.89% to 93.42%. Borderline samples and samples close to the classification
+threshold (High Risk/ Borderline) impacted the concordance results.
+3. Matrix Comparison:
+Not Applicable
+C Clinical Studies:
+1. Clinical Sensitivity
+Not applicable
+2. Clinical Specificity:
+Not applicable
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+The microarRAy prognoSTics in breast cancER (RASTER) study was conducted to
+prospectively evaluate the risk of breast cancer distant metastases using a gene-expression
+prognosis classifier as a risk estimation tool, in addition to clinicopathological factors. In this
+multicenter observational study, the feasibility of MammaPrint® 70-gene signature developed
+to predict the risk of breast cancer metastases was assessed in 16 community hospitals in the
+Netherlands between 2004 and 2006. The primary objective of this multicenter observational
+study was to assess the feasibility of implementing the 70-gene signature and to study the
+clinical impact of the 70-gene signature test result on adjuvant systemic therapy (AST)
+decision making. The secondary objective of the RASTER study was to assess the outcome
+of patients for whom a gene expression classifier was used to determine the need for adjuvant
+systemic treatment. A total of 427 patients were enrolled in the RASTER study with age 18–
+61 years old and had a histologically confirmed unilateral, unifocal, primary operable,
+invasive adenocarcinoma of the breast (cT1–3N0M0). After a protocol amendment in 2004,
+the study allowed only patients aged 55 or younger could enroll. The study exclusion criteria
+were a history of a malignancy (with exception of basal-cell carcinoma or cervical dysplasia)
+and neoadjuvant systemic treatment. The study assessed the primary endpoint of distant-
+recurrence free interval (DRFI) defined as a distant breast cancer recurrence or death from
+breast cancer and the secondary endpoint of breast cancer specific survival (BCSS) defined
+as mortality related to breast cancer.
+Five years follow-up data were published which included the analysis of estimated five-year
+distant-recurrence free interval (DRFI) and confirmed the prognostic value of the
+MammaPrint (MP) published in the January 2013 issue of International Journal of Cancer.
+Survival data was updated in 2017 to determine 10‐years median follow up for the distant‐
+recurrence‐free‐interval (DRFI) probabilities.
+To demonstrate the clinical validity of the MammaPrint FFPE NGS kit, samples from the
+prospective observational RASTER study were evaluated. RASTER samples were previously
+processed between 2004 and 2007 on the MammaPrint Fresh microarray (K101454), for
+K210973 - Page 22 of 26
+
+[Table 1 on page 22]
+	OPA (95% CI)	92.41% (95% CI: 88.87-94.89)
+
+--- Page 23 ---
+which a 5-year clinical follow-up was available for the RASTER study for 427 subjects. A
+subset of FFPE tissue samples from the RASTER study (n=345) that was previously
+processed on the MammaPrint FFPE microarray as part of the clearance of the reference
+predicate device (K141142) was used for the validation of MammaPrint FFPE NGS kit.
+From the set of 345 samples, total RNA was available for 341 samples and 25 samples failed
+QC. Therefore, a total of 316 samples were successfully processed using the MammaPrint
+FFPE NGS kit and this dataset was used for survival analysis.
+Clinical validation analysis was performed on the 316 samples that had NGS MammaPrint
+results based on a 10-year median follow-up of the observational RASTER study. 89.6% of
+the patients have 5-year follow-up data and 53% of the patients having 10-year follow-up
+data (median follow-up 10.27 years). The data was analyzed based on the three (3)
+categories, High Risk, Low Risk, and Borderline, determined by the two cut-offs, -0.058 and
++0.058. Comparison of clinical performance within the RASTER study between
+MammaPrint FFPE NGS kit and the predicate device MammaPrint FFPE microarray was
+evaluated by the Kaplan-Meier graphs and 5-year and 10-year survival percentages. Kaplan-
+Meier plots suggest significant difference in survival curves among different risk groups for
+MammaPrint FFPE NGS kit, p=0.001.
+Comparison of Kaplan-Meier graphs
+Results from MammaPrint® FFPE NGS kit and MammaPrint® FFPE microarray were
+compared for the 316 FFPE samples with 5- and 10-year outcome data from the 427
+RASTER patient samples. DRFI was the study endpoint as defined in the RASTER study.
+Specifically, DRFI measures the time until the diagnosis of distant metastasis or death from
+breast cancer. Kaplan-Meier curves showed a similar difference in DRFI between the Low
+and High Risk comparing MammaPrint® FFPE NGS kit and MammaPrint® FFPE
+microarray.
+K210973 - Page 23 of 26
+
+--- Page 24 ---
+Table 15: RASTER Study: 5-year and 10-year DRFI Probabilities based on MammaPrint
+FFPE NGS Risk Categories
+# Events at 5-year DRFI Events at 10-year DRFI (95%
+Risk
+Patients 5 Years (95% CI) 10 Years CI)
+Low Risk 160 3 98.1% (96.0-100) 7 95.2% (91.8-98.8)
+Borderline 27 2 92.6 % (83.2-100) 2 92.6 % (83.2-100)
+High Risk 129 15 88.2% (82.8-94.0) 22 82.0% (75.5-89.2)
+The Low Risk patients classified by MammaPrint FFPE NGS kit demonstrated a 1.9% (95%
+CI: 0-4.0%) and 4.8% (95% CI: 1.2-8.2%) chance of cancer recurrence within 5 years and 10
+years respectively. Patients classified as High Risk by MammaPrint FFPE NGS kit,
+demonstrated a 11.8% (95% CI: 6.0-17.2%) and 18% (95% CI: 10.8-24.5%) chance of
+cancer recurrence within 5 years and 10 years respectively. The Borderline samples for both
+5 and 10 years had a DRFI of 92.6%. The results for the Borderline samples may have low
+reliability due to the small sample size.
+The predicate, MammaPrint FFPE microarray showed 98.7% 5-year DRFI for Low Risk and
+88.0% for High Risk. With the 10-year follow-up, DRFI estimate was 96.0% for Low Risk
+and 82.8% for High Risk. Thus, the results indicated that both devices show similar clinical
+performance based on the updated follow-up from the RASTER study.
+The prognostic performance of MammaPrint FFPE NSG Kit was further investigated using
+Cox proportional hazard regression analysis based on all follow-up data, 5-year follow-up
+data, and 10-year follow-up data respectively. The evaluated clinicopathological factors
+include adjuvant treatment status (i.e., whether a patient received or did not receive adjuvant
+treatment such as chemotherapy (CT) and/or endocrine therapy (ET)), age (>50 vs ≤50),
+tumor size, histological grade, estrogen receptor (ER) status (positive/negative), and human
+epidermal growth factor receptor 2 (HER2) status (positive/negative).
+In both univariate and multivariate analysis, MammaPrint FFPE High/Low Risk result is
+significantly associated with cancer recurrence based on all three follow up data (i.e., all
+follow-up, 5-year follow-up, and 10-year follow-up). For the multivariate analysis,
+MammaPrint FFPE NGS High/Low Risk result is significantly associated with cancer
+recurrence for the three follow up data with estimated hazard ratios of 7.31 (95% CI: 2.50-
+21.41), 12.55 (95% CI: 2.26-69.74), and 7.08 (95% CI: 2.23-22.49), respectively, after
+adjusting for all other clinicopathological factors. No significant difference (p value < 0.05)
+was seen for Borderline group vs Low Risk group, which may be due to the small sample
+size for the Borderline group and the reliability of the results for this group may be low. The
+result support the prognostic significance for MammaPrint FFPE NGS kit beyond that of
+other clinicopathological factors.
+Reference: Drukker, C. A. et al. A prospective evaluation of a breast cancer prognosis signature
+in the observational RASTER study. Int. J. Cancer 133, 929–936 (2013).
+4. Clinical Cut-Off:
+Same as Assay cut-off
+K210973 - Page 24 of 26
+
+[Table 1 on page 24]
+Risk				#			Events at		5-year DRFI
+(95% CI)			Events at			10-year DRFI (95%	
+				Patients			5 Years					10 Years			CI)	
+	Low Risk		160			3			98.1% (96.0-100)		7			95.2% (91.8-98.8)		
+	Borderline		27			2			92.6 % (83.2-100)		2			92.6 % (83.2-100)		
+	High Risk		129			15			88.2% (82.8-94.0)		22			82.0% (75.5-89.2)		
+
+--- Page 25 ---
+5. Expected Values/Reference Range:
+MammaPrint FFPE NGS kit Result Expected Value/Range
+High Risk < -0.058
+Low Risk > +0.058
+Borderline -0.058 ≤ MPI ≤ +0.058
+Reportable Range -1.000 to +1.000
+VIII Instrument Name:
+Illumina MiSeqDx (qualified by Agendia)
+IX System Descriptions:
+1. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___X_____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ____X____ or No ________
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes ____X____ or No ________
+X Other Supportive Instrument Performance Characteristics Data Not Covered in the
+“Performance Characteristics” Section above:
+Qualification of MiSeqDx instruments and Reagents
+Agendia performs qualification of all MiSeqDx instruments that will be used by MammaPrint-
+certified partners in the testing of patient samples with the MammaPrint FFPE NGS kit as part of
+the partner certification process. For control of software versions installed on the MiSeqDx
+instruments, Agendia maintains a list of MiSeqDx Control Software (MCS) versions that are
+validated for use with the MammaPrint NGS kit and will update the list as new versions of MCS
+are released by Illumina and validated by Agendia. For updates that are determined to impact the
+test’s results or performance, validation of the software updates is performed to ensure the
+instrumentation and software continues to operate within specifications.
+Reagents that are required and not provided with the MammaPrint NGS kit are qualified for use
+through Agendia’s Reagent Qualification procedures. Qualification of RUO reagents involves
+the testing performed on a specified minimum number of samples where results from previously
+cleared lots are available and MammaPrint index differences for paired results must be within
+K210973 - Page 25 of 26
+
+[Table 1 on page 25]
+MammaPrint FFPE NGS kit Result	Expected Value/Range
+	
+High Risk	< -0.058
+Low Risk	> +0.058
+Borderline	-0.058 ≤ MPI ≤ +0.058
+Reportable Range	-1.000 to +1.000
+
+--- Page 26 ---
+predefined acceptable limits. The lot numbers of the approved lots of controlled reagents are
+available in the ADAPT-US system and the MammaPrint-Certified labs are required to select the
+lot numbers for each of the controlled reagents when analyzing the samples in ADAPT-US.
+ADAPT-US platform has adequate control measures that ensure MammaPrint-Certified labs use
+Agendia-qualified reagent lots, MiSeqDx instruments, and versions of MiSeqDx software and
+thus by preventing the generation of an incorrect or inaccurate test result.
+XI Proposed Labeling:
+The instructions for use for the MammaPrint FFPE NGS kit and ADAPT-US user guide are
+provided with each test kit.
+There are three (3) different test reports, i.e., High Risk, Low Risk, and Borderline.
+The labeling is sufficient, and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable, and the special controls for this device type.
+XII Patient Perspectives:
+This submission did not include specific information on patient perspectives for this device.
+XIII Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+The device is classified as Class II under regulation 21 CFR 862.6040 with special controls. The
+special control guidance document “Guidance for Industry and FDA Staff – Class II Special
+Controls Guidance Document: Gene Expression Profiling Test System for Breast Cancer
+Prognosis” is available at
+http://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/ucm0
+79163.htm.
+K210973 - Page 26 of 26

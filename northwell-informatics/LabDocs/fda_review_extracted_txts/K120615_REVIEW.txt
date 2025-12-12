@@ -1,0 +1,467 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY ONLY TEMPLATE
+A. 510(k) Number:
+k120615
+B. Purpose for Submission:
+Modification of the previously cleared Cholestech LDX (k901900, k932727); the
+introduced change is to include ROM software upgrade from v3.30 to v3.41 for
+correction of humidity interference.
+C. Measurand:
+Total Cholesterol (TC)
+Triglycerides (TRG)
+Glucose (GLC)
+High density cholesterol (HDL)
+Low-density lipoprotein (LDL) – by calculation
+D. Type of Test:
+Quantitative
+E. Applicant:
+Alere San Diego, Inc.
+F. Proprietary and Established Names:
+Alere Cholestech LDX® Analyzer and Alere Cholestech Lipid Profile•GLU Cassette
+G. Regulatory Information:
+1. Regulation section:
+21 CFR § 862.1345, Glucose test system.
+21 CFR § 862.1175, Cholesterol (total) test system
+21 CFR § 862.1475, Lipoprotein test system.
+21 CFR § 862.1705, Triglyceride test system.
+21 CFR § 862.2160, Analyzer, Chemistry (photometric, discrete), For Clinical Use
+2. Classification:
+Class II; Class I, meets limitation for exemption per 21 CFR 862.9(c)(4) and (9);
+Class I
+3. Product code:
+CGA
+CHH
+LBS
+JGY
+JJE
+1
+
+--- Page 2 ---
+4. Panel:
+Clinical Chemistry (75)
+H. Intended Use:
+1. Intended use(s):
+See Indication(s) for use below.
+2. Indication(s) for use:
+The Alere Cholestech LDX® System is a small, portable analyzer and test cassette
+system. The System is for in vitro diagnostic use only. The Lipid Profile•GLU
+Cassette is for the quantitative determination of total cholesterol, HDL (high-
+density lipoprotein) cholesterol, triglycerides and glucose in whole blood. A
+TC/HDL (total cholesterol/HDL cholesterol ratio and estimated values for LDL
+(low-density lipoprotein) and non-HDL cholesterol are calculated by the Alere
+Cholestech LDX® Analyzer.
+· Cholesterol measurements are used in the diagnosis and treatment of disorders
+involving excess cholesterol in the blood and lipid and lipoprotein metabolism
+disorders.
+· HDL (lipoprotein) measurements are used in the diagnosis and treatment of
+lipid disorders (such as diabetes mellitus), atherosclerosis, and various liver and
+renal diseases.
+· Triglyceride measurements are used in the diagnosis and treatment of patients
+with diabetes mellitus, nephrosis, liver obstruction, other diseases involving
+lipid metabolism, or various endocrine disorders.
+· Glucose measurements are used in the diagnosis and treatment of carbohydrate
+metabolism disorders including diabetes mellitus, neonatal hypoglycemia, and
+idiopathic hypoglycemia, and of pancreatic islet cell carcinoma.
+3. Special conditions for use statement(s):
+For prescription use.
+The sponsor states the following limitations in their package insert (PI):
+“If the measured value of TRG is >400 mg/dL (>4.51 mmol/L), the LDX displays
+“N/A” for the LDL estimate.
+The sponsor certification for CRMLN was verified with the sponsor and confirmed
+at http://www.cdc.gov/labstandards/crmln_clinical.html.
+4. Special instrument requirements:
+Alere Cholestech LDX Analyzer.
+I. Device Description:
+The Alere Cholestech LDX® System is a small, portable analyzer and test cassette
+2
+
+--- Page 3 ---
+system. The System is for in vitro diagnostic use only. The Analyzer uses reflectance
+photometry (the amount of light reflected from a solid surface) to measure the amount
+of substances in blood. The analyzer measures color changes of the four reagent pads.
+The amount of color formed is converted by the analyzer to a concentration and the
+results are shown on the liquid crystal display (LCD) screen. The assays for use on the
+Analyzer include total cholesterol (TC), high-density lipoprotein cholesterol (HDL),
+triglycerides (TRG), glucose (GLU), and by calculation, low-density lipoprotein (LDL).
+The modification that is the subject of this submission is with regards to a software
+upgrade. The software used to run the Alere Cholestech LDX® Analyzer is provided as
+an upgradable Read Only Memory (ROM) Pack that connects to the Analyzer on the
+back panel. The ROM pack upgrade includes a humidity sensor attached to the front
+casing of the ROM pack and is backwards compatible to all Alere Cholestech LDX®
+Analyzers. The sensor is connected to the existing circuit board.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Alere Cholestech LDX® Lipid Monitoring System v.3.30
+2. Predicate 510(k) number(s):
+k901900
+k932727
+3. Comparison with predicate:
+Software Version Comparison
+Similarities
+New Device Predicate
+Item Alere Cholestech LDX® Alere Cholestech LDX®
+System, ROM pack System, ROM pack
+version v.3.41 version v.3.30
+Intended Use For the quantitative Same
+determination of total
+cholesterol, HDL (high-
+density lipoprotein)
+cholesterol, triglycerides
+and glucose in whole
+blood. A TC/HDL (total
+cholesterol/HDL
+cholesterol ratio and
+estimated values for LDL
+(low-density lipoprotein)
+and non-HDL cholesterol
+are calculated by the Alere
+Cholestech LDX®
+3
+
+[Table 1 on page 3]
+Software Version Comparison
+Similarities								
+				New Device			Predicate	
+	Item			Alere Cholestech LDX®			Alere Cholestech LDX®	
+				System, ROM pack			System, ROM pack	
+				version v.3.41			version v.3.30	
+Intended Use			For the quantitative
+determination of total
+cholesterol, HDL (high-
+density lipoprotein)
+cholesterol, triglycerides
+and glucose in whole
+blood. A TC/HDL (total
+cholesterol/HDL
+cholesterol ratio and
+estimated values for LDL
+(low-density lipoprotein)
+and non-HDL cholesterol
+are calculated by the Alere
+Cholestech LDX®			Same		
+
+--- Page 4 ---
+Software Version Comparison
+Similarities
+New Device Predicate
+Item Alere Cholestech LDX® Alere Cholestech LDX®
+System, ROM pack System, ROM pack
+version v.3.41 version v.3.30
+Analyzer
+Analytes Available TC Same
+HDL
+TRG
+GLU
+Differences
+New Device Predicate
+Item Alere Cholestech LDX® Alere Cholestech LDX®
+System, ROM pack System, ROM pack
+version v.3.41 version v.3.30
+v.3.41 v.3.30
+Humidity Sensor included on ROM pack not included
+Humidity Correction Applied to assay test Not applied to any assay
+Factor results results
+Matrix Whole blood Whole blood, serum and
+plasma
+K. Standard/Guidance Document Referenced (if applicable):
+Not applicable
+L. Test Principle:
+The Alere Cholestech LDX® System combines enzymatic methodology and solid-
+phase technology to measure total cholesterol, HDL cholesterol, triglycerides and
+glucose. Samples used for testing can be whole blood from a fingerstick (collected in a
+lithium heparin-coated capillary tube) or venipuncture. The sample is applied to an
+Alere Cholestech LDX® cassette. The cassette is then placed into the Alere Cholestech
+LDX® Analyzer where a unique system on the cassette separates the plasma from the
+blood cells. A portion of the plasma flows to the right side of the cassette and is
+transferred to both the total cholesterol and triglyceride reaction pads. Simultaneously,
+plasma flows to the left side of the cassette where the low- and very low-density
+lipoproteins (LDL and VLDL) are precipitated with dextran sulfate (50,000 MW) and
+magnesium acetate precipitating reagent.5 The filtrate, containing both glucose and
+HDL cholesterol, is transferred to both the glucose and HDL cholesterol reaction pads.
+The Alere Cholestech LDX® Analyzer measures total cholesterol and HDL cholesterol
+by an enzymatic method based on the method formulation of Allain et al,5 and
+Roeschlau.6 Cholesterol esterase hydrolyzes the cholesterol esters in the filtrate or
+plasma to free cholesterol and the corresponding fatty acid. Cholesterol oxidase, in the
+4
+
+[Table 1 on page 4]
+Software Version Comparison
+Similarities								
+				New Device			Predicate	
+	Item			Alere Cholestech LDX®			Alere Cholestech LDX®	
+				System, ROM pack			System, ROM pack	
+				version v.3.41			version v.3.30	
+			Analyzer					
+Analytes Available			TC
+HDL
+TRG
+GLU			Same		
+
+[Table 2 on page 4]
+Differences								
+				New Device			Predicate	
+	Item			Alere Cholestech LDX®			Alere Cholestech LDX®	
+				System, ROM pack			System, ROM pack	
+				version v.3.41			version v.3.30	
+			v.3.41			v.3.30		
+Humidity Sensor			included on ROM pack			not included		
+Humidity Correction
+Factor			Applied to assay test
+results			Not applied to any assay
+results		
+Matrix			Whole blood			Whole blood, serum and
+plasma		
+
+--- Page 5 ---
+presence of oxygen, oxidizes free cholesterol to cholest-4-ene-3-one and hydrogen
+peroxide. In a reaction catalyzed by horseradish peroxidase, the peroxide reacts with 4-
+aminoantipyrine and N-ethyl-N-sulfohydroxypropyl-m-toluidine, sodium salt (TOOS)
+to form a purple-colored quinoneimine dye proportional to the total cholesterol and
+HDL cholesterol concentrations of the sample.
+The Alere Cholestech LDX® Analyzer measures triglycerides by an enzymatic method
+based on the hydrolysis of triglycerides by lipase to glycerol and free fatty acids.
+Glycerol, in a reaction catalyzed by glycerol kinase, is converted to glycerol-3-
+phosphate. In a third reaction, glycerol-3-phosphate is oxidized by glycerol phosphate
+oxidase to dihydroxyacetone phosphate and hydrogen peroxide.7 The color reaction
+utilizing horseradish peroxidase is the same as for the total cholesterol and HDL
+cholesterol.
+The Alere Cholestech LDX® Analyzer measures glucose by an enzymatic method that
+uses glucose oxidase to catalyze the oxidation of glucose to gluconolactone and
+hydrogen peroxide. The color reaction utilizing horseradish peroxidase is the same as
+that for total cholesterol, HDL cholesterol and triglycerides. The resultant color in all
+the reactions is measured by reflectance photometry.
+A brown (magnetic) stripe on each cassette contains the calibration information
+required for the Alere Cholestech LDX® Analyzer to convert the reflectance reading
+(% R) to the total cholesterol, HDL cholesterol, triglycerides and glucose
+concentrations.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Analytical performance of these devices was reviewed under k901900,
+k912136, k914469, k922612, k932727, k914033, k905296 and k904082.
+b. Linearity/assay reportable range:
+Established in original submissions k901900, k912136, k914469, k922612,
+k932727, k914033, k905296 and k904082.
+Measuring range:
+For results outside the measuring range,
+Measuring Range
+Analyte the LDX displays:
+mg/dL (mmol/L) Low High
+<100 mg/dL >500 mg/dL
+TC 100 – 500 (2.59 –12.9)
+(<2.59 mmol/L) (>12.9 mmol/L)
+<15 mg/dL >100 mg/dL
+HDL 15 –100 (0.39 – 2.59)
+(<0.39 mmol/L) (>2.59 mmol/L)
+<45 mg/dL >650 mg/dL
+TRG 45 – 650 (0.51– 7.34)
+(<0.51 mmol/L) (>7.34 mmol/L)
+5
+
+[Table 1 on page 5]
+		For results outside the measuring range,	
+	Measuring Range		
+Analyte		the LDX displays:	
+			
+	mg/dL (mmol/L)	Low	High
+TC	100 – 500 (2.59 –12.9)	<100 mg/dL
+(<2.59 mmol/L)	>500 mg/dL
+(>12.9 mmol/L)
+HDL	15 –100 (0.39 – 2.59)	<15 mg/dL
+(<0.39 mmol/L)	>100 mg/dL
+(>2.59 mmol/L)
+TRG	45 – 650 (0.51– 7.34)	<45 mg/dL
+(<0.51 mmol/L)	>650 mg/dL
+(>7.34 mmol/L)
+
+--- Page 6 ---
+<50 mg/dL >500 mg/dL
+GLU 50 – 500 (2.78 – 27.8)
+(<2.78 mmol/L) (>27.8 mmol/L)
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Established in original submissions k901900, k912136, k914469, k922612,
+k932727, k914033, k905296 and k904082.
+d. Detection limit:
+Established in original submissions k901900, k912136, k914469, k922612,
+k932727, k914033, k905296 and k904082.
+e. Analytical specificity:
+Established in original submissions k901900, k912136, k914469, k922612,
+k932727, k914033, k905296 and k904082.
+Humidity Interference
+This software upgrade incorporates humidity sensor and applies humidity
+correction factors from a look up table to the result from the assay algorithm.
+The sponsor carried out the humidity interference validation studies with their
+modified device (which includes ROM v3.41 software upgrade with humidity
+sensor and humidity correction factors) across the 20-80% (20%, 30%, 40%,
+50%, 60%, 70, 80% RH) relative humidity range against their predicate device
+at nominal 50% relative humidity. The sponsor tested whole blood samples
+across claimed measuring range for each of the analytes and showed that the
+performance characteristics are substantially equivalent to the predicate device.
+The sponsor also provided precision studies for each of the claimed analytes and
+showed that the precision of modified device meets the sponsor’s pre-specified
+acceptance criteria of the predicate device.
+f. Assay cut-off:
+Established in original submissions k901900, k912136, k914469, k922612,
+k932727, k914033, k905296 and k904082.
+2. Comparison studies:
+a. Method comparison with predicate device:
+Established in original submissions k901900, k912136, k914469, k922612,
+k932727, k914033, k905296 and k904082.
+b. Matrix comparison:
+Established in original submissions k901900, k912136, k914469, k922612,
+k932727, k914033, k905296 and k904082.
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable
+6
+
+[Table 1 on page 6]
+GLU	50 – 500 (2.78 – 27.8)	<50 mg/dL
+(<2.78 mmol/L)	>500 mg/dL
+(>27.8 mmol/L)
+
+--- Page 7 ---
+b. Clinical specificity:
+Not applicable
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+Cholesterol and Triglycerides
+The National Heart, Lung and Blood Institute issued the Third Report of the
+National Cholesterol Education Program (NCEP) Expert Panel on Detection,
+Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment
+Panel III) in May, 2001.1 The ATP III report presents NCEP’s updated clinical
+guidelines for cholesterol testing and management and describes the following
+classifications for cholesterol and triglyceride testing:
+Analyte mg/dL mmol/L Classification
+LDL cholesterol <100 <2.59 Optimal
+100 –129 2.59 – 3.34 Near optimal/above optimal
+130 –159 3.36 – 4.11 Borderline high
+160 –189 4.14 – 4.89 High
+≥190 ≥4.91 Very high
+Total cholesterol <200 <5.18 Desirable
+200 – 239 5.18 – 6.19 Borderline high
+≥240 ≥6.22 High
+HDL cholesterol <40 <1.03 Low
+≥60 ≥1.55 High
+Triglycerides <150 <1.69 Normal
+150 –199 1.69 – 2.25 Borderline high
+200 – 499 2.26 – 5.64 High
+≥500 ≥5.65 Very high
+The ATP III identified HDL cholesterol levels below 40 mg/dL (1.03 mmol/L) as
+associated with increased risk of coronary heart disease (CHD) in men and women.1
+A high HDL cholesterol level greater than or equal to 60 mg/dL (1.55 mmol/L) is
+protective and decreases CHD risk.
+TC/HDL Ratio
+A ratio of 4.5 or less is desirable. A ratio greater than 6.0 suggests a high risk of
+CHD.2
+Non-HDL
+ATP III identifies non-HDL cholesterol (total cholesterol minus HDL cholesterol)
+as a secondary target of therapy in persons with high triglycerides (≥200 mg/dL).
+7
+
+--- Page 8 ---
+The goal for non-HDL cholesterol in persons with high serum triglycerides can be
+set at 30 mg/dL higher than that for LDL cholesterol on the premise that a VLDL
+cholesterol level ≤30 mg/dL is normal.1
+Glucose
+The American Diabetes Association has identified categories of increased risk for
+diabetes based upon glucose4:
+• Fasting plasma glucose (FPG) 100 -125 mg/dL (5.6 -6.9 mmol/L);
+impaired fasting glucose
+• 2-hr plasma glucose in the 75-g oral glucose tolerance test (OGTT)
+140 -199 mg/dL (7.8 -11.0 mmol/L); impaired glucose tolerance
+For these tests, risk is continuous, extending below the lower limit of the range and
+becoming disproportionately greater at higher ends of the range.
+The American Diabetes Association has criteria for the diagnosis of diabetes
+mellitus based upon glucose4:
+• FPG ≥126 mg/dL (7.0 mmol/l). Fasting is defined as no caloric intake for at
+least 8 hr.
+• 2-h plasma glucose ≥200 mg/dL (11.1 mmol/L) during an OGTT. The test
+should be performed as described by the World Health Organization, using
+a glucose load containing the equivalent of 75 g anhydrous glucose dissolved in
+water.
+• In a patient with classic symptoms of hyperglycemia or hyperglycemic crisis,
+a random plasma glucose ≥200 mg/dL (11.1 mmol/L).
+In the absence of unequivocal hyperglycemia, diagnosis should be confirmed by
+repeat testing. When screening for diabetes, any abnormal glucose result should be
+referred to a physician for further follow-up.
+References:
+1. Expert Panel on Detection, Evaluation, and Treatment of High Cholesterol in
+Adults. Executive summary of the Third Report of the National Cholesterol
+Education Program (NCEP) Expert Panel on Detection, Evaluation, and
+Treatment of High Cholesterol in Adults (Adult Treatment Panel III). JAMA
+2001;285:2486-97.
+2. Castelli WP, Abbott RD, McNamara PM. Summary estimates of cholesterol
+used to predict coronary heart disease. Circulation 1983;67:730-4.
+3. Kinosian B, Glick H, Garland G. Cholesterol and coronary heart disease:
+predicting risks by levels and ratios. Ann Intern Med 1994;121:641-7.
+4. American Diabetes Association. Diagnosis and classification of diabetes
+mellitus. Diabetes Care 2013;36(Suppl.1):S67-74.
+5. Allain CC, Poon LS, Chan CS, Richmond W, Fu PC. Enzymatic determination
+of total serum cholesterol. Clin Chem 1974;20:470-5.
+6. Roeschlau P, Bernt E, Gruber W. Enzymatische bestimmung des
+gesamtcholesterins im serum. Z Klin Chem Klin Biochem 1974;12:226.
+7. Fossati P, Prencipe L. Serum triglycerides determined colorimetrically with an
+enzyme that produces hydrogen peroxide. Clin Chem 1982;28:2077-80.
+8
+
+--- Page 9 ---
+N. Instrument Name:
+Alere Cholestech LDX® Analyzer
+O. System Descriptions:
+1. Modes of Operation:
+The instrument identifies the assay by reading the magnetic stripe located on
+each of the assay cassette. The magnetic stripe contains the test names,
+instructions to the analyzer for running the tests on the cassette, and calibration
+information for converting the color reading to test concentration.
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development
+processes for this line of product types:
+Yes ___X___ or No ________
+3. Specimen Identification:
+There is no sample identification function with this device.
+4. Specimen Sampling and Handling:
+Sample Type:
+Fingerstick or venous whole blood (used within 30 minutes) samples.
+Sample Requirement:
+• Sample Volume: 40 μL of whole blood.
+Fingerstick whole blood:
+• Collect the sample from a fingerstick into an Alere Cholestech LDX® 40 μL
+Capillary Tube.
+• Place the blood into the cassette within 8 minutes after collection.
+Venous whole blood:
+• Collect blood into a green-top tube (heparin anticoagulant) and use a pipette
+tip to place blood into the cassette.
+5. Calibration:
+No calibration is performed by the user. Test information is encoded on the
+brown stripe of the cassette. The brown magnetic stripe is read by the Alere
+Cholestech LDX® Analyzer each time a cassette is run.
+6. Quality Control:
+Liquid Level 1 and Level 2 controls for the Alere Cholestech LDX® System are
+available.
+Controls should be tested:
+• With each new lot of cassettes;
+• With every new shipment of cassettes, even if the lot has been received
+9
+
+--- Page 10 ---
+previously;
+• When reagents may have been stored or handled in a way that can degrade
+their performance;
+• As otherwise required by your laboratory’s standard quality control
+procedures;
+• As otherwise required by federal, state and local guidelines.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In
+The “Performance Characteristics” Section above:
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+10

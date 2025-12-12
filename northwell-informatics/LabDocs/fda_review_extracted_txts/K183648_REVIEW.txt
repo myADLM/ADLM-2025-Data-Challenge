@@ -1,0 +1,1422 @@
+
+--- Page 1 ---
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K183648
+B Applicant
+Clever Culture Systems AG
+C Proprietary and Established Names
+APAS Independence
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.2190 -
+Automated Image
+IM - Immunology &
+PPU Class II Assessment System For
+MI - Microbiology
+Microbial Colonies On
+Solid Culture Media
+II Submission/Device Overview:
+A Purpose for Submission:
+To obtain a substantial equivalence determination for the APAS Independence.
+B Measurand:
+Digital images of microbial colonies cultured on blood and MacConkey agar plates.
+K183648 - Page 1 of 20
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PPU			Class II	21 CFR 866.2190 -
+Automated Image
+Assessment System For
+Microbial Colonies On
+Solid Culture Media			IM - Immunology &
+MI - Microbiology
+
+--- Page 2 ---
+C Type of Test:
+The APAS Independence when using its Urine Analysis Module is an in vitro diagnostic test system
+for automated assessment and enumeration of microbial colonies on solid culture media. The system
+is for use on urine cultures from suspected cases of urinary tract infection (UTI).
+III Intended Use/Indications for Use:
+A Intended Use(s):
+The APAS Independence is an in vitro diagnostic system comprised of an instrument and
+software analysis module(s) for specific indications that are used to automate imaging and
+interpretation of microbial colonies on plates of solid culture media.
+B Indication(s) for Use:
+The APAS Independence is an in vitro diagnostic system comprised of an instrument for
+automated imaging of agar culture plates and a software analysis module for the following use:
+The APAS Independence, when using its urine analysis module, automates urine culture plate
+imaging and interpretation to detect the presence or absence of microbial growth on sheep blood
+and MacConkey agar culture plates that are inoculated with a 1μL sample volume. The APAS
+Independence, when using its urine analysis module, provides a semi-quantitative assessment of
+colony counts that are used as an aid in the diagnosis of urinary tract infection. All urine culture
+plates that are identified as positive for growth by the APAS Independence, when using its urine
+analysis module, must be reviewed by a trained microbiologist.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+The performance of the APAS Independence with Urine Analysis Module has not been
+evaluated with urine samples from pregnant women. The APAS Independence with Urine
+Analysis Module will detect colonies of GBS if they are present but should not be used for
+primary screening for Group B Streptococcus (GBS) carriers. Follow recommended guidelines
+for identification of pregnant women who are colonized with GBS. 1
+The performance of the APAS Independence with Urine Analysis Module has not been
+evaluated with urine samples from suspected cases of complicated urinary tract infection e.g.,
+those with underlying urinary tract pathology, suspected cases of persistent urinary tract
+infection, urine collected by invasive procedures or urine samples from immunocompromised
+subjects.
+Slow growing organisms such as Corynebacterium spp. and Gardnerella vaginalis may not
+exhibit detectable growth within 18-22 hours. If infection with a slow growing species is
+suspected, extension of the incubation time may be required, followed by manual interpretation
+1 Revised Guidelines from CDC: Prevention of Perinatal Group B Streptococcal Disease. MMWR 2010 59: RR-10.
+K183648 - Page 2 of 20
+
+--- Page 3 ---
+of the culture result. The APAS Independence with Urine Analysis Module should not be used to
+interpret cultures incubated for greater than 22 hours.
+The APAS Independence with Urine Analysis Module is for use with the following culture plates
+manufactured by Remel: Tryptic Soy Sheep Blood Agar (R01202A) and MacConkey Agar with
+Crystal Violet (R01552A).
+APAS Independence has been designed and validated for use only with whole plates. Bi-plates
+have not been evaluated and should not be used.
+D Special Instrument Requirements:
+APAS Independence
+IV Device/System Characteristics:
+A Device Description:
+The APAS Independence with Urine Analysis Module is an automated system that for screening
+of urine culture plates for the presence of microbial growth. The device comprises a plate
+handling system that moves culture plates loaded by the operator into and out of an imaging
+station where digital images of the plates are captured, as well as software for image analysis,
+determination of the presence/absence of microbial growth and enumeration of colonies (if
+present). A list of the major sub-components of the APAS Compact is depicted in Table 1. The
+Urine Analysis Module software is compatible with the following types of culture media:
+Tryptic Soy Sheep Blood Agar
+MacConkey Agar with Crystal Violet
+Both the optical hardware for image acquisition and the Urine Analysis Module software used by
+the APAS Independence to analyze and interpret the digital images are the same as those used by
+the predicate APAS Compact with Urine Analysis Module (DEN150059).
+K183648 - Page 3 of 20
+
+--- Page 4 ---
+Table 1. Sub-components of the APAS Independence
+Component Function
+Imaging Station LED illumination of culture plates and image
+capture using a CCD camera
+Plate Handling System Movement, positioning and sorting of culture
+plates within the instrument
+APAS Controller PC Image capture, storage and analysis
+Plate Controller PC Controls movement of culture plates between the
+input carriers, imaging station and output carriers
+or stacks
+Instrument Controller PC Provides the user interface for operation of the
+APAS Independence and coordinates the
+functions of the APAS and Plate Controller PCs
+Urine Analysis Module Software Installed on the APAS Controller PC to provide
+the configuration and instructions for image
+capture and analysis
+LIMS Interface Software Installed on the Instrument Controller PC to
+import other diagnostic information, such as
+microscopy or chemistry results, and provide
+context for interpretation of urine culture results
+Imported information may be applied to the
+system:
+“LIMS Force Flag”: automatically forces an
+APAS result to “Review” irrespective of the
+growth characteristics observed
+“LIMS Complementary Test Flag”: automatically
+changes a “Negative” designation to “Review”
+based on user defined rules applied to additional
+diagnostic information
+Color Calibration Tool Multicolored disk for calibration/checking of
+system optics
+System Check Simulated culture plates used to confirm
+instrument function
+CCD: Charge Coupled Device LED: Light Emitting Diode; LIMS: Laboratory Information Management System;
+PC: Personal Computer
+B Principle of Operation:
+The APAS Independence with Urine Analysis Module is designed for the assessment of
+microbial colonies on urine culture plates. The instrument comprises an imaging station for
+K183648 - Page 4 of 20
+
+[Table 1 on page 4]
+	Component			Function	
+Imaging Station			LED illumination of culture plates and image
+capture using a CCD camera		
+Plate Handling System			Movement, positioning and sorting of culture
+plates within the instrument		
+APAS Controller PC			Image capture, storage and analysis		
+Plate Controller PC			Controls movement of culture plates between the
+input carriers, imaging station and output carriers
+or stacks		
+Instrument Controller PC			Provides the user interface for operation of the
+APAS Independence and coordinates the
+functions of the APAS and Plate Controller PCs		
+Urine Analysis Module Software			Installed on the APAS Controller PC to provide
+the configuration and instructions for image
+capture and analysis		
+LIMS Interface Software			Installed on the Instrument Controller PC to
+import other diagnostic information, such as
+microscopy or chemistry results, and provide
+context for interpretation of urine culture results
+Imported information may be applied to the
+system:
+“LIMS Force Flag”: automatically forces an
+APAS result to “Review” irrespective of the
+growth characteristics observed
+“LIMS Complementary Test Flag”: automatically
+changes a “Negative” designation to “Review”
+based on user defined rules applied to additional
+diagnostic information		
+Color Calibration Tool			Multicolored disk for calibration/checking of
+system optics		
+System Check			Simulated culture plates used to confirm
+instrument function		
+
+--- Page 5 ---
+capture of images of urine culture plates, a plate handling system that moves plates between the
+input carriers, imaging station and output carriers or stacks, together with software for analysis of
+the images, assessment and enumeration of microbial colonies (if present) and result designation.
+Plates with growth are designated as either “Positive” or “Review” depending on the number of
+colonies present and their morphologic characteristics. All plates that exhibit growth therefore
+require follow up according to standard laboratory practice by a trained microbiologist. Those
+plates that are designated by the APAS Independence to have no growth may be discarded
+without further review.
+The APAS Independence with Urine Analysis Module is indicated for screening paired sheep
+blood and MacConkey agar plates that are each inoculated with 1μL of urine and which are
+incubated at 35 ± 2°C for 18 to 22 hours. The system takes digital images of each plate that are
+analyzed automatically to determine the number of colonies present and their associated
+morphologies. For each plate, the APAS Independence performs the following tasks:
+a) Differentiates between areas of growth (colonies) and no growth (e.g., agar, labels,
+handwriting);
+b) Differentiates areas that are required for interpretation of colony morphology (e.g., α-
+and β-hemolysis);
+c) Assigns to each area of growth a code that corresponds to a morphology type;
+d) Estimates the number of colonies present, converts this number to an organism
+concentration in the original urine sample and reports this value in terms of colony
+forming units per milliliter (CFU/mL).
+e) Generates a growth report including the sample and patient identifiers, type of growth
+present (if any), the colony count and any additional information pertaining to the patient
+that is obtained from the Laboratory Information Management System (LIMS).
+The colony morphologies reported by the APAS Independence with Urine Analysis Module are
+shown in Table 2 for sheep blood agar and Table 3 for MacConkey agar. A “significant
+organism” at 103 CFU/mL on the plate will trigger designation of that plate as “Positive,” as
+opposed to “Review.” Plates that are designated as “Positive” or “Review” are required to
+undergo further evaluation by a clinical microbiologist.
+K183648 - Page 5 of 20
+
+--- Page 6 ---
+Table 2. Colony morphologies on sheep blood agar identified by APAS Independence
+with Urine Analysis Module
+Morphology Name Description
+Coliform 1 Gram-negative and coliform-like colonies
+Cream-white Staphylococcus and related species
+Granular Granular morphologies (e.g., Pseudomonas spp.)
+Small Enterococcus spp. and related species
+Small colonies with α-hemolysis or very small
+Small α-hemolytic
+colonies
+Small β-hemolytic 1 Small colonies with β-hemolysis
+Swarming organism Proteus spp. and related, high-motility species
+1 “Significant organism;” refer to Table 4
+Table 3. Colony morphologies on MacConkey agar identified by APAS Independence with
+Urine Analysis Module
+Morphology Name Description
+Lactose fermenter 1 Pink/red colonies
+Non-fermenter Colonies without red/pink pigment
+Non-fermenter with green pigment Pseudomonas spp.
+Red pigmented colonies Pigmented Serratia marcescens
+1 “Significant organism;” refer to Table 4
+The interpretation of the growth follows a decision tree that combines information regarding the
+number of colonies present with their morphological characteristics to designate each plate as
+either “Positive”, “Review”, “Negative” or “Indeterminate,” as shown in Table 4.
+Table 4. Result interpretation for APAS Independence with Urine Analysis Module
+Colony Count (CFU/mL) Morphology APAS Compact Designation
+Indeterminate Swarming organism
+≥104 Any Positive
+103 Significant organism 1
+103 No significant organism Review
+0 Not Applicable Negative
+1 Defined as growth of coliform-like colonies or small colonies with β-hemolysis on blood agar, or colonies of lactose
+fermenting bacteria on MacConkey agar
+K183648 - Page 6 of 20
+
+[Table 1 on page 6]
+	Morphology Name	Description	
+Coliform 1		Gram-negative and coliform-like colonies	
+Cream-white		Staphylococcus and related species	
+Granular		Granular morphologies (e.g., Pseudomonas spp.)	
+Small		Enterococcus spp. and related species	
+Small α-hemolytic		Small colonies with α-hemolysis or very small
+colonies	
+Small β-hemolytic 1		Small colonies with β-hemolysis	
+Swarming organism		Proteus spp. and related, high-motility species	
+
+[Table 2 on page 6]
+	Morphology Name			Description	
+Lactose fermenter 1			Pink/red colonies		
+Non-fermenter			Colonies without red/pink pigment		
+Non-fermenter with green pigment			Pseudomonas spp.		
+Red pigmented colonies			Pigmented Serratia marcescens		
+
+[Table 3 on page 6]
+	Colony Count (CFU/mL)	Morphology			APAS Compact Designation	
+Indeterminate		Swarming organism		Positive		
+≥104		Any				
+103		Significant organism 1				
+103		No significant organism		Review		
+0		Not Applicable		Negative		
+
+--- Page 7 ---
+C Instrument Description Information:
+Modes of Operation Yes No
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Software
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.
+1. Instrument Name:
+APAS Independence
+2. Specimen Identification:
+Plates are identified using an integrated barcode scanner within the Imaging Module of the
+APAS Independence. The identity of each plate is displayed on the results screen and
+transmitted automatically to the LIS.
+3. Specimen Sampling and Handling:
+The operator loads carriers containing culture plates into the Input Module of the APAS
+Independence from which they are moved automatically, one plate at a time, to the Imaging
+Module where the barcode is read, the lid is removed and images of the agar surface are
+captured. Upon completion of image capture and analysis, the plate lid is replaced and the
+system automatically sorts each plate based on its designation into the appropriate carrier in
+the Output Module.
+4. Calibration:
+The APAS Independence requires daily color calibration prior to use. Calibration is
+performed using the Color Calibration Tool provided with the instrument. Instructions for
+calibration are included in the APAS Independence User Manual.
+5. Quality Control:
+In addition to daily calibration, a System Check must be performed using the manufacturer-
+supplied Part 1 and Part 2 plate tools prior to analysis of urine culture plates. If the System
+Check fails, the instrument should be locked to prevent processing of additional culture
+plates until has been service has been performed.
+Instructions for daily Quality Control testing using reference culture plates inoculated with
+Enterococcus faecalis and Escherichia coli are provided in the User Manual for the APAS
+Independence with Urine Analysis Module. Both the appropriate colony morphology and colony
+count must be obtained for the results of the Quality Control testing to be considered acceptable.
+K183648 - Page 7 of 20
+
+[Table 1 on page 7]
+	Modes of Operation			Yes			No	
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?								
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?								
+	Software							
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.								
+
+--- Page 8 ---
+In the event of a failure, Quality Control testing should be repeated. If the repeated failure occurs,
+the instrument should not be used until it has been serviced.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+APAS Compact with Urine Analysis Module
+B Predicate 510(k) Number(s):
+DEN150059
+C Comparison with Predicate(s):
+Device & Predicate
+K183648 DEN150059
+Device(s):
+Device Trade Name APAS Independence APAS Compact with
+with Urine Analysis Urine Analysis
+Module Module
+General Device
+Characteristic Similarities
+Intended Use The APAS The APAS Compact is
+Independence is an in an in vitro diagnostic
+vitro diagnostic system system comprised of an
+comprised of an instrument and software
+instrument and software analysis module(s) for
+analysis module(s) for specific indications that
+specific indications that are used to automate
+are used to automate imaging and
+imaging and interpretation of
+interpretation of microbial colonies on
+microbial colonies on plates of solid culture
+plates of solid culture media.
+media.
+Indications For Use The APAS The APAS Compact is
+Independence is an in an in vitro diagnostic
+vitro diagnostic system system comprised of an
+comprised of an instrument for
+instrument for automated imaging of
+automated imaging of agar culture plates and a
+agar culture plates and a software analysis
+software analysis module for the
+module for the following use:
+following use:
+The APAS Compact,
+The APAS when using its urine
+Independence, when analysis module,
+K183648 - Page 8 of 20
+
+[Table 1 on page 8]
+	Device & Predicate		K183648	DEN150059
+	Device(s):			
+Device Trade Name			APAS Independence
+with Urine Analysis
+Module	APAS Compact with
+Urine Analysis
+Module
+	General Device			
+	Characteristic Similarities			
+Intended Use			The APAS
+Independence is an in
+vitro diagnostic system
+comprised of an
+instrument and software
+analysis module(s) for
+specific indications that
+are used to automate
+imaging and
+interpretation of
+microbial colonies on
+plates of solid culture
+media.	The APAS Compact is
+an in vitro diagnostic
+system comprised of an
+instrument and software
+analysis module(s) for
+specific indications that
+are used to automate
+imaging and
+interpretation of
+microbial colonies on
+plates of solid culture
+media.
+Indications For Use			The APAS
+Independence is an in
+vitro diagnostic system
+comprised of an
+instrument for
+automated imaging of
+agar culture plates and a
+software analysis
+module for the
+following use:
+The APAS
+Independence, when	The APAS Compact is
+an in vitro diagnostic
+system comprised of an
+instrument for
+automated imaging of
+agar culture plates and a
+software analysis
+module for the
+following use:
+The APAS Compact,
+when using its urine
+analysis module,
+
+--- Page 9 ---
+Device & Predicate
+K183648 DEN150059
+Device(s):
+using its urine analysis automates urine culture
+module, automates plate imaging and
+urine culture plate interpretation to detect
+imaging and the presence or absence
+interpretation to detect of microbial growth on
+the presence or absence sheep blood and
+of microbial growth on MacConkey agar
+sheep blood and culture plates that are
+MacConkey agar inoculated with a 1μL
+culture plates that are sample volume. The
+inoculated with a 1μL APAS Compact, when
+sample volume. The using its urine analysis
+APAS Independence, module, provides a
+when using its urine semi-quantitative
+analysis module, assessment of colony
+provides a counts that are used as
+semiquantitative an aid in the diagnosis
+assessment of colony of urinary tract
+counts that are used as infection. All urine
+an aid in the diagnosis culture plates that are
+of urinary tract identified as positive for
+infection. All urine growth by the APAS
+culture plates that are Compact, when using
+identified as positive for its urine analysis
+growth by the APAS module, must be
+Independence, when reviewed by a trained
+using its urine analysis microbiologist.
+module, must be
+reviewed by a trained
+microbiologist.
+Imaging Station Light Emitting Diode Same
+(LED) illumination of
+culture plates and image
+capture using a Charged
+Coupled Device (CCD)
+camera
+APAS Controller PC Controls image capture, Same
+analysis, report
+generation and result
+storage
+Urine Analysis Module Installed on the APAS Same
+Controller PC to
+provide the
+configuration and
+instructions for image
+K183648 - Page 9 of 20
+
+[Table 1 on page 9]
+	Device & Predicate		K183648	DEN150059
+	Device(s):			
+			using its urine analysis
+module, automates
+urine culture plate
+imaging and
+interpretation to detect
+the presence or absence
+of microbial growth on
+sheep blood and
+MacConkey agar
+culture plates that are
+inoculated with a 1μL
+sample volume. The
+APAS Independence,
+when using its urine
+analysis module,
+provides a
+semiquantitative
+assessment of colony
+counts that are used as
+an aid in the diagnosis
+of urinary tract
+infection. All urine
+culture plates that are
+identified as positive for
+growth by the APAS
+Independence, when
+using its urine analysis
+module, must be
+reviewed by a trained
+microbiologist.	automates urine culture
+plate imaging and
+interpretation to detect
+the presence or absence
+of microbial growth on
+sheep blood and
+MacConkey agar
+culture plates that are
+inoculated with a 1μL
+sample volume. The
+APAS Compact, when
+using its urine analysis
+module, provides a
+semi-quantitative
+assessment of colony
+counts that are used as
+an aid in the diagnosis
+of urinary tract
+infection. All urine
+culture plates that are
+identified as positive for
+growth by the APAS
+Compact, when using
+its urine analysis
+module, must be
+reviewed by a trained
+microbiologist.
+Imaging Station			Light Emitting Diode
+(LED) illumination of
+culture plates and image
+capture using a Charged
+Coupled Device (CCD)
+camera	Same
+APAS Controller PC			Controls image capture,
+analysis, report
+generation and result
+storage	Same
+Urine Analysis Module			Installed on the APAS
+Controller PC to
+provide the
+configuration and
+instructions for image	Same
+
+--- Page 10 ---
+Device & Predicate
+K183648 DEN150059
+Device(s):
+capture and analysis
+Calibration Performed daily using a Same
+manufacturer-provided
+Color Calibration Tool
+Biological Quality Control Performed daily using Same
+standardized
+suspensions of
+Escherichia coli and
+Enterococcus faecalis
+General Device
+Characteristic Differences
+Plate Handling Automated Manual
+Instrument Controller PC Provides the user Provides the user
+interface for the APAS interface for the APAS
+Independence and Compact
+controls plate
+movement
+Laboratory Information Instrument Controller LIS simulator installed
+System (LIS) data import PC interfaces with an on the Instrument
+external LIS server Controller PC
+System Check Performed daily using None
+the manufacturer-
+provided System Check
+Tools to verify
+instrument and software
+functionality
+Result Report Separate report for each Results for blood and
+culture plate MacConkey agar plates
+combined to provide a
+summary report for the
+sample
+VI Standards/Guidance Documents Referenced:
+ISO 14971 Medical devices - Application of Risk Management to Medical Devices; 2007.
+IEC 61010-1: Safety requirements for electrical equipment for measurement, control and
+laboratory use - Part 1: General requirements; 2010, 3rd edition.
+IEC 62304: Medical device software - Software life cycle processes; 2006.
+K183648 - Page 10 of 20
+
+[Table 1 on page 10]
+	Device & Predicate		K183648	DEN150059
+	Device(s):			
+			capture and analysis	
+Calibration			Performed daily using a
+manufacturer-provided
+Color Calibration Tool	Same
+Biological Quality Control			Performed daily using
+standardized
+suspensions of
+Escherichia coli and
+Enterococcus faecalis	Same
+	General Device			
+	Characteristic Differences			
+Plate Handling			Automated	Manual
+Instrument Controller PC			Provides the user
+interface for the APAS
+Independence and
+controls plate
+movement	Provides the user
+interface for the APAS
+Compact
+Laboratory Information
+System (LIS) data import			Instrument Controller
+PC interfaces with an
+external LIS server	LIS simulator installed
+on the Instrument
+Controller PC
+System Check			Performed daily using
+the manufacturer-
+provided System Check
+Tools to verify
+instrument and software
+functionality	None
+Result Report			Separate report for each
+culture plate	Results for blood and
+MacConkey agar plates
+combined to provide a
+summary report for the
+sample
+
+--- Page 11 ---
+IEC 62366-1: Medical devices – Part 1: Application of usability engineering to medical devices;
+2015.
+IEC 61326-1: Electrical equipment for measurement, control and laboratory use - EMC
+Requirements – Part 1: General requirements; 2012.
+IEC 61326-2-6: Electrical equipment for measurement, control and laboratory use - EMC
+Requirements - Part 2-6: Particular Requirements - In vitro diagnostic (IVD) medical Equipment;
+2012.
+CISPR 11 Ed. 5.1: Industrial, scientific and medical equipment - Radio frequency disturbance
+characteristics - Limits and methods of measurement; 2010.
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+The precision and reproducibility of colony counts obtained with the APAS Independence
+with Urine Analysis Module was evaluated with three different instruments using dilutions of
+representative uropathogenic bacterial species (Escherichia coli, Streptococcus agalactiae
+and Enterococcus faecalis) grown on blood and MacConkey agar. Each dilution of
+organisms was plated in triplicate and incubated at 35 ± 2°C for 18 hours. Plates from three
+dilutions that exhibited 0 to >100 colonies plate were included in the study. Five images of
+each plate were captured on each APAS Independence instrument in each of three different
+orientations (0, 120 and 270°). The mean, standard deviation and percent coefficient of
+variation of colony counts obtained for each organism dilution on each instrument and
+overall is presented in Tables 5 and 6, for blood and MacConkey agar respectively. The
+results of the study demonstrated that the precision and reproducibility of colony counts
+within and between instruments was acceptable.
+K183648 - Page 11 of 20
+
+--- Page 12 ---
+Table 5. Precision and reproducibility of colony counts on blood agar obtained with the
+APAS Independence with Urine Analysis Module
+Escherichia coli
+Dilution (Nominal CFU/plate) 2 (>100) 3 (10-99) 5 (1-9)
+Plate 1 2 3 1 2 3 1 2 3
+Mean 72.6 113.0 123.1 70.7 47.5 50.1 1.7 9.9 3.3
+APAS 1
+SD 1.6 2.4 1.1 2.7 0.6 0.9 0.5 0.4 0.5
+(by plate)
+%CV 2.3 2.1 0.9 3.8 1.3 1.8 26.4 3.6 14.0
+Mean 74.1 116.7 123.0 66.3 45.8 46.4 1.1 8.0 3.3
+APAS 2
+SD 8.0 9.3 6.2 2.0 1.8 1.0 0.5 0.7 0.5
+(by plate)
+%CV 10.8 8.0 5.0 3.1 3.9 2.1 45.6 8.2 14.0
+Mean 77.0 116.3 125.6 83.9 48.9 52.5 1.9 10.5 3.8
+APAS 3
+CFU SD 2.5 2.3 0.8 4.6 0.7 1.1 0.3 0.6 0.4
+(by plate)
+%CV 3.3 2.0 0.7 5.4 1.4 2.0 13.4 6.1 10.9
+Mean 74.6 115.3 123.9 73.6 47.4 49.6 1.6 9.5 3.4
+All APAS
+SD 5.2 5.8 3.8 8.2 1.7 2.7 0.5 1.2 0.5
+(by plate)
+%CV 6.9 5.0 3.0 11.1 3.6 5.4 33.7 12.9 14.6
+Mean 104.6 56.9 4.8
+All APAS
+(by SD 22.2 12.9 3.5
+dilution)
+%CV 21.2 22.7 71.7
+Escherichia coli/Streptococcus agalactiae (mixed growth)
+Dilution (Nominal CFU/plate) 2 (>100) 3 (10-99) 5 (1-9)
+Replicate (Plate) 1 2 3 1 2 3 1 2 3
+Mean 218.5 184.7 159.2 78.9 59.8 80.6 9.9 8.7 18.1
+APAS 1
+SD 7.8 9.6 8.5 4.1 4.4 4.4 2.7 1.8 3.7
+(by plate)
+%CV 3.6 5.2 5.4 5.1 7.4 5.4 27.6 20.1 20.2
+Mean 179.1 174.9 147.9 83.7 54.5 73.2 13.1 6.1 18.3
+APAS 2
+SD 5.5 5.4 7.2 4.1 4.1 4.6 2.7 2.4 3.4
+(by plate)
+%CV 3.1 3.1 4.9 4.9 7.5 6.2 21.0 39.6 18.3
+Mean 193.7 155.4 174.8 96.0 56.1 77.6 15.2 6.1 14.9
+APAS 3
+CFU SD 20.9 6.5 22.2 15.3 13.6 6.8 2.0 3.0 2.0
+(by plate)
+%CV 10.8 4.2 12.7 15.9 24.3 8.8 13.4 48.5 13.3
+Mean 197.1 171.7 160.6 86.2 56.8 77.1 12.7 7.0 17.1
+All APAS
+SD 20.9 14.3 17.9 11.7 8.7 6.1 3.3 2.7 3.4
+(by plate)
+%CV 10.6 8.3 11.1 13.6 15.3 7.9 26.1 38.5 19.9
+Mean 176.5 73.4 12.3
+All APAS
+(by SD 23.5 15.3 5.2
+dilution)
+%CV 13.3 20.9 42.5
+K183648 - Page 12 of 20
+
+[Table 1 on page 12]
+Escherichia coli																															
+	Dilution (Nominal CFU/plate)					2 (>100)									3 (10-99)									5 (1-9)							
+	Plate					1			2			3			1			2			3			1			2			3	
+CFU		APAS 1
+(by plate)	Mean		72.6			113.0			123.1			70.7			47.5			50.1			1.7			9.9			3.3		
+			SD		1.6			2.4			1.1			2.7			0.6			0.9			0.5			0.4			0.5		
+			%CV		2.3			2.1			0.9			3.8			1.3			1.8			26.4			3.6			14.0		
+		APAS 2
+(by plate)	Mean		74.1			116.7			123.0			66.3			45.8			46.4			1.1			8.0			3.3		
+			SD		8.0			9.3			6.2			2.0			1.8			1.0			0.5			0.7			0.5		
+			%CV		10.8			8.0			5.0			3.1			3.9			2.1			45.6			8.2			14.0		
+		APAS 3
+(by plate)	Mean		77.0			116.3			125.6			83.9			48.9			52.5			1.9			10.5			3.8		
+			SD		2.5			2.3			0.8			4.6			0.7			1.1			0.3			0.6			0.4		
+			%CV		3.3			2.0			0.7			5.4			1.4			2.0			13.4			6.1			10.9		
+		All APAS
+(by plate)	Mean		74.6			115.3			123.9			73.6			47.4			49.6			1.6			9.5			3.4		
+			SD		5.2			5.8			3.8			8.2			1.7			2.7			0.5			1.2			0.5		
+			%CV		6.9			5.0			3.0			11.1			3.6			5.4			33.7			12.9			14.6		
+		All APAS
+(by
+dilution)	Mean		104.6									56.9									4.8								
+			SD		22.2									12.9									3.5								
+			%CV		21.2									22.7									71.7								
+
+[Table 2 on page 12]
+Escherichia coli/Streptococcus agalactiae (mixed growth)																															
+	Dilution (Nominal CFU/plate)					2 (>100)									3 (10-99)									5 (1-9)							
+	Replicate (Plate)					1			2			3			1			2			3			1			2			3	
+CFU		APAS 1
+(by plate)	Mean		218.5			184.7			159.2			78.9			59.8			80.6			9.9			8.7			18.1		
+			SD		7.8			9.6			8.5			4.1			4.4			4.4			2.7			1.8			3.7		
+			%CV		3.6			5.2			5.4			5.1			7.4			5.4			27.6			20.1			20.2		
+		APAS 2
+(by plate)	Mean		179.1			174.9			147.9			83.7			54.5			73.2			13.1			6.1			18.3		
+			SD		5.5			5.4			7.2			4.1			4.1			4.6			2.7			2.4			3.4		
+			%CV		3.1			3.1			4.9			4.9			7.5			6.2			21.0			39.6			18.3		
+		APAS 3
+(by plate)	Mean		193.7			155.4			174.8			96.0			56.1			77.6			15.2			6.1			14.9		
+			SD		20.9			6.5			22.2			15.3			13.6			6.8			2.0			3.0			2.0		
+			%CV		10.8			4.2			12.7			15.9			24.3			8.8			13.4			48.5			13.3		
+		All APAS
+(by plate)	Mean		197.1			171.7			160.6			86.2			56.8			77.1			12.7			7.0			17.1		
+			SD		20.9			14.3			17.9			11.7			8.7			6.1			3.3			2.7			3.4		
+			%CV		10.6			8.3			11.1			13.6			15.3			7.9			26.1			38.5			19.9		
+		All APAS
+(by
+dilution)	Mean		176.5									73.4									12.3								
+			SD		23.5									15.3									5.2								
+			%CV		13.3									20.9									42.5								
+
+--- Page 13 ---
+Enterococcus faecalis
+Dilution (Nominal CFU/plate) 2 (>100) 3 (10-99) 5 (1-9)
+Replicate (Plate) 1 2 3 1 2 3 1 2 3
+Mean 458.8 705.1 526.9 150.7 119.1 138.7 11.3 8.4 5.6
+APAS 1
+SD 44.7 27.7 18.0 13.3 5.9 11.9 1.8 1.6 1.8
+(by plate)
+%CV 9.7 3.9 3.4 8.8 4.9 8.6 15.9 19.0 32.2
+Mean 504.1 721.0 531.1 137.3 134.7 152.3 12.3 5.7 4.7
+APAS 2
+SD 8.6 54.8 14.7 7.5 9.6 7.7 1.5 1.2 1.2
+(by plate)
+%CV 1.7 7.6 2.8 5.4 7.1 5.0 12.5 20.7 24.6
+Mean 591.3 793.6 543.5 183.7 143.9 172.1 9.4 9.8 5.9
+APAS 3
+CF U SD 17.0 7.1 15.1 13.3 6.8 7.4 2.7 2.1 1.9
+(by plate)
+%CV 2.9 0.9 2.8 7.2 4.7 4.3 29.2 21.5 32.1
+Mean 518.0 739.9 533.9 157.2 132.6 154.4 11.0 8.0 5.4
+All APAS
+SD 62.0 52.3 17.2 22.8 12.8 16.5 2.4 2.4 1.7
+(by plate)
+%CV 12.0 7.1 3.2 14.5 9.6 10.7 21.7 30.0 31.3
+Mean 597.3 148.1 8.1
+All APA SD 112.0 20.9 3.2
+%CV 18.8 14.1 38.8
+CFU: Colony Forming Units; %CV: Percent Coefficient of variation; SD: Standard Deviation
+Note: No colonies were detected by any of the APAS Independence Instruments on blood agar plates inoculated with saline
+(i.e., Mean CFU and SD = 0, in all cases).
+Table 6. Precision and reproducibility of colony counts on MacConkey agar obtained with
+the APAS Independence with Urine Analysis Module
+Escherichia coli
+Dilution (Nominal CFU/plate) 2 (>100) 3 (10-99) 5 (1-9)
+Plate 1 2 3 1 2 3 1 2 3
+Mean 174.5 127.1 152.9 55.9 65.4 50.7 4.7 2.0 1.6
+APAS 1
+SD 5.7 7.0 6.6 4.3 2.1 2.8 0.5 0.0 0.5
+(by plate)
+%CV 3.3 5.5 4.3 7.7 3.2 5.5 10.5 0.0 31.7
+Mean 163.7 121.2 142.0 54.8 70.3 46.5 4.0 2.2 2.3
+APAS 2
+SD 3.7 1.9 2.4 1.1 1.6 2.2 0.7 0.4 0.9
+(by plate)
+%CV 2.3 1.6 1.7 2.0 2.3 4.7 16.4 18.8 38.6
+Mean 186.8 139.0 171.9 56.7 70.7 50.9 4.5 2.0 1.7
+APAS 3
+CFU SD 3.9 4.1 6.8 1.3 2.1 4.2 0.5 0.0 0.5
+(by plate)
+%CV 2.1 3.0 4.0 2.3 2.9 8.3 11.4 0.0 29.3
+Mean 175.0 129.1 155.6 55.8 68.8 49.4 4.4 2.1 1.9
+All APAS
+SD 10.5 8.8 13.7 2.7 3.1 3.7 0.6 0.3 0.7
+(by plate)
+%CV 6.0 6.8 8.8 4.8 4.5 7.6 14.0 12.2 38.9
+Mean 153.2 58.0 2.8
+All APAS
+(by SD 21.9 8.7 1.3
+dilution)
+%CV 14.3 15.1 46.3
+CFU: Colony Forming Units; %CV: Percent Coefficient of variation; SD: Standard Deviation
+Note: No colonies were detected by any of the APAS Independence Instruments on MacConkey agar plates inoculated with
+saline (i.e., Mean CFU and SD = 0, in all cases).
+K183648 - Page 13 of 20
+
+[Table 1 on page 13]
+Enterococcus faecalis																															
+	Dilution (Nominal CFU/plate)					2 (>100)									3 (10-99)									5 (1-9)							
+	Replicate (Plate)					1			2			3			1			2			3			1			2			3	
+CF U		APAS 1
+(by plate)	Mean		458.8			705.1			526.9			150.7			119.1			138.7			11.3			8.4			5.6		
+			SD		44.7			27.7			18.0			13.3			5.9			11.9			1.8			1.6			1.8		
+			%CV		9.7			3.9			3.4			8.8			4.9			8.6			15.9			19.0			32.2		
+		APAS 2
+(by plate)	Mean		504.1			721.0			531.1			137.3			134.7			152.3			12.3			5.7			4.7		
+			SD		8.6			54.8			14.7			7.5			9.6			7.7			1.5			1.2			1.2		
+			%CV		1.7			7.6			2.8			5.4			7.1			5.0			12.5			20.7			24.6		
+		APAS 3
+(by plate)	Mean		591.3			793.6			543.5			183.7			143.9			172.1			9.4			9.8			5.9		
+			SD		17.0			7.1			15.1			13.3			6.8			7.4			2.7			2.1			1.9		
+			%CV		2.9			0.9			2.8			7.2			4.7			4.3			29.2			21.5			32.1		
+		All APAS
+(by plate)	Mean		518.0			739.9			533.9			157.2			132.6			154.4			11.0			8.0			5.4		
+			SD		62.0			52.3			17.2			22.8			12.8			16.5			2.4			2.4			1.7		
+			%CV		12.0			7.1			3.2			14.5			9.6			10.7			21.7			30.0			31.3		
+		All APA	Mean		597.3									148.1									8.1								
+			SD		112.0									20.9									3.2								
+			%CV		18.8									14.1									38.8								
+
+[Table 2 on page 13]
+Escherichia coli																															
+	Dilution (Nominal CFU/plate)					2 (>100)									3 (10-99)									5 (1-9)							
+	Plate					1			2			3			1			2			3			1			2			3	
+CFU		APAS 1
+(by plate)	Mean		174.5			127.1			152.9			55.9			65.4			50.7			4.7			2.0			1.6		
+			SD		5.7			7.0			6.6			4.3			2.1			2.8			0.5			0.0			0.5		
+			%CV		3.3			5.5			4.3			7.7			3.2			5.5			10.5			0.0			31.7		
+		APAS 2
+(by plate)	Mean		163.7			121.2			142.0			54.8			70.3			46.5			4.0			2.2			2.3		
+			SD		3.7			1.9			2.4			1.1			1.6			2.2			0.7			0.4			0.9		
+			%CV		2.3			1.6			1.7			2.0			2.3			4.7			16.4			18.8			38.6		
+		APAS 3
+(by plate)	Mean		186.8			139.0			171.9			56.7			70.7			50.9			4.5			2.0			1.7		
+			SD		3.9			4.1			6.8			1.3			2.1			4.2			0.5			0.0			0.5		
+			%CV		2.1			3.0			4.0			2.3			2.9			8.3			11.4			0.0			29.3		
+		All APAS
+(by plate)	Mean		175.0			129.1			155.6			55.8			68.8			49.4			4.4			2.1			1.9		
+			SD		10.5			8.8			13.7			2.7			3.1			3.7			0.6			0.3			0.7		
+			%CV		6.0			6.8			8.8			4.8			4.5			7.6			14.0			12.2			38.9		
+		All APAS
+(by
+dilution)	Mean		153.2									58.0									2.8								
+			SD		21.9									8.7									1.3								
+			%CV		14.3									15.1									46.3								
+
+--- Page 14 ---
+2. Linearity:
+Agreement between manual colony counts and those obtained with the predicate APAS
+Compact with Urine Analysis Module was demonstrated under DEN150059. Because the
+APAS Independence with Urine Analysis Module uses the same hardware and software for
+image acquisition and analysis as the APAS Compact, additional testing to characterize the
+accuracy and linearity of colony counts was not needed. Please refer to the Decision
+Summary for DEN150059 for additional information.
+3. Analytical Specificity/Interference:
+The analytical specificity of the predicate APAS Compact with Urine Analysis Module was
+demonstrated under DEN150059. Because the APAS Independence with Urine Analysis
+Module uses the same hardware and software for image acquisition and analysis as the APAS
+Compact, additional testing to characterize the analytical specificity of the system was not
+needed. Please refer to the Decision Summary for DEN150059 for additional information.
+4. Assay Reportable Range:
+Refer to Table 4 and to Section VII A(2).
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+The device labeling indicates that the APAS Independence with Urine Analysis Module
+should not be used unless the system has passed the appropriate daily Quality Control (QC)
+checks. These include Color Calibration and a System Check using the optical tools that are
+provided with each instrument, as well as biological QC with standardized cultures of
+Enterococcus faecalis and Escherichia coli. Please refer to the Decision Summary for
+DEN150059 for information regarding the performance of the biological Quality Controls.
+6. Detection Limit:
+The limit of detection of the predicate APAS Compact with Urine Analysis Module was
+demonstrated under DEN150059. Because the APAS Independence with Urine Analysis
+Module uses the same hardware and software for image acquisition and analysis as the APAS
+Compact, additional testing to characterize the analytical sensitivity of the system was not
+needed. Please refer to the Decision Summary for DEN150059 for additional information.
+7. Assay Cut-Off:
+Not applicable.
+8. Accuracy (Instrument):
+Not applicable.
+9. Carry-Over:
+Not applicable.
+K183648 - Page 14 of 20
+
+--- Page 15 ---
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+A Method Comparison Study was performed to demonstrate that the predicate APAS
+Compact (DEN150059) and APAS Independence exhibit similar performance with clinical
+specimens. In brief, residual clinical urine specimens that had originally been submitted for
+urinalysis, were inoculated onto bar code-labeled blood and MacConkey agar plates
+according to the instructions for use for the APAS Urine Analysis Module (1µL inoculum
+volume). The plates were incubated for 18 hours at 35 ± 2°C and images of each plate were
+then captured using one APAS Independence and one APAS Compact instrument system,
+each equipped with the Urine Analysis Module software. The images on each instrument
+were taken within 4 hours of completion of the specified incubation period.
+A total of 550 urine specimens were initially enrolled in the study. Of these, the first 200
+were excluded from the analysis of performance because the plate incubator exceeded the
+specified temperature. The results from the remaining 350 specimens were included in the
+analysis. A summary of the plate designations assigned by each instrument is shown on
+Table 7 and 8. In general, there was a high level of agreement (~99%) for plates designated
+as “Positive” by the two systems and there was a tendency for APAS Independence to
+designate more plates as “Positive” or “Review” than APAS Compact. This is also reflected
+in the tendency for higher colony counts to be reported by APAS Independence than by
+APAS Compact (Tables 9 and 10) and is considered acceptable without additional risk
+mitigation because both these designations require follow-up by a trained microbiologist.
+Table 7. Summary of agreement in blood agar plate designation using the Urine Analysis
+Module software on the APAS Compact (predicate) and APAS Independence
+Blood Agar APAS Compact (predicate)
+Plate Designation Positive Review Negative Total
+Positive 232 5 1 238
+APAS Review 3 32 15 50
+Independence Negative 0 0 62 62
+Total 235 37 78 350
+232/235 32/37 62/78
+98.7% 86.5% 79.5%
+Designation Agreement (96.3-99.6%) (72.0-94.1%) (69.2-87.0%)
+(95% Confidence Interval) 272/272
+100% 1
+(98.6-100%)
+1 “Positive” and “Review” designations combined
+K183648 - Page 15 of 20
+
+[Table 1 on page 15]
+	Blood Agar				APAS Compact (predicate)										
+	Plate Designation				Positive			Review			Negative			Total	
+APAS
+Independence		Positive			232		5			1			238		
+		Review		3				32		15			50		
+		Negative		0			0				62		62		
+		Total		235			37			78			350		
+Designation Agreement
+(95% Confidence Interval)				232/235
+98.7%
+(96.3-99.6%)			32/37
+86.5%
+(72.0-94.1%)			62/78
+79.5%
+(69.2-87.0%)					
+				272/272
+100% 1
+(98.6-100%)											
+
+--- Page 16 ---
+Table 8. Summary of agreement in MacConkey agar plate designation using the Urine
+Analysis Module software on the APAS Compact (predicate) and APAS Independence
+MacConkey Agar APAS Compact (predicate)
+Plate Designation Positive Review Negative Total
+Positive 133 1 8 142
+APAS Review 0 4 15 19
+Independence Negative 1 0 188 189
+Total 134 5 211 350
+133/134 4/5 188/211
+99.3% 80.0% 89.1%
+Designation Agreement (95.9-99.9%) (37.6-96.4%) (84.2-92.6%)
+(95% Confidence Interval) 137/139
+98.6% 1
+(94.9-99.6%)
+1 “Positive” and “Review” designations combined
+Table 9. Summary of colony counts on blood agar obtained with the Urine Analysis Module
+software using the APAS Compact (predicate) and APAS Independence
+Colony Counts on APAS Compact CFU/mL (predicate)
+Blood Agar 0 103 104 105 IND Total
+0 62 0 0 0 0 62
+103 15 47 0 0 0 62
+APAS
+104 1 5 67 1 0 74
+Independence
+105 0 0 7 132 0 139
+CFU/mL
+IND 0 0 0 0 13 13
+Total 78 52 74 133 13 350
+% Independence < Compact NA 0 0 0.8 NA
+% Independence = Compact 79.5 90.4 90.5 99.2 100
+% Independence > Compact 20.5 9.6 9.5 NA NA
+IND: Indeterminate (swarming organism); NA: Not applicable
+K183648 - Page 16 of 20
+
+[Table 1 on page 16]
+	MacConkey Agar				APAS Compact (predicate)										
+	Plate Designation				Positive			Review			Negative			Total	
+APAS
+Independence		Positive			133		1			8			142		
+		Review		0				4		15			19		
+		Negative		1			0				188		189		
+		Total		134			5			211			350		
+Designation Agreement
+(95% Confidence Interval)				133/134
+99.3%
+(95.9-99.9%)			4/5
+80.0%
+(37.6-96.4%)			188/211
+89.1%
+(84.2-92.6%)					
+				137/139
+98.6% 1
+(94.9-99.6%)											
+
+[Table 2 on page 16]
+Colony Counts on
+Blood Agar			APAS Compact CFU/mL (predicate)																
+			0			103			104			105			IND			Total	
+APAS
+Independence
+CFU/mL	0		62		0			0			0			0			62		
+	103	15				47		0			0			0			62		
+	104	1			5				67		1			0			74		
+	105	0			0			7				132		0			139		
+	IND	0			0			0			0				13		13		
+	Total	78			52			74			133			13			350		
+% Independence < Compact			NA		0			0			0.8				NA				
+% Independence = Compact		79.5			90.4			90.5			99.2			100					
+% Independence > Compact		20.5			9.6			9.5				NA			NA				
+
+--- Page 17 ---
+Table 10. Summary of colony counts on MacConkey agar obtained with the Urine Analysis
+Module software using the APAS Compact (predicate) and APAS Independence
+Colony Counts on APAS Compact CFU/mL (predicate)
+MacConkey Agar 0 103 104 105 Total
+0 188 1 1 0 0 189
+103 15 26 0 0 41
+APAS
+Independence 104 8 2 21 0 31
+CFU/mL 105 0 0 3 86 89
+Total 211 29 24 86 350
+% Independence < Compact NA 3.4 0 0
+% Independence = Compact 89.1 89.7 87.5 100
+% Independence > Compact 10.9 6.9 12.5 NA
+NA: Not applicable
+1 APAS Compact detected a single lactose fermenting colony that was not identified by APAS Independence
+Tables 11 and 12 show a comparison of the colony morphology designations assigned to each
+plate by the APAS Compact and APAS Independence using the Urine Analysis Module.
+Although the positive and negative agreement differed for each colony morphology, these
+designations are provided to the operator for informational purposes and are not used in
+disposition of the plates as “Positive”, “Review” or “Negative” and the performance was
+therefore determined to be acceptable without the need for additional risk mitigation.
+K183648 - Page 17 of 20
+
+[Table 1 on page 17]
+Colony Counts on
+MacConkey Agar			APAS Compact CFU/mL (predicate)													
+			0			103			104			105			Total	
+APAS
+Independence
+CFU/mL	0		188		1 1			0			0			189		
+	103	15				26		0			0			41		
+	104	8			2				21		0			31		
+	105	0			0			3				86		89		
+	Total	211			29			24			86				350	
+% Independence < Compact			NA		3.4			0			0					
+% Independence = Compact		89.1			89.7			87.5			100					
+% Independence > Compact		10.9			6.9			12.5				NA				
+
+--- Page 18 ---
+Table 11. Comparison of colony morphologies on blood agar designated by the Urine
+Analysis Module using the APAS Compact (predicate) and APAS Independence
+APAS Compact (predicate)
+Alpha Hemolysis
+Positive Negative Total
+Positive 61 43 104
+APAS
+Negative 10 236 246
+Independence
+Total 71 279 350
+61/71 236/279
+Agreement
+85.9% 84.6%
+(95% Confidence Interval)
+(76.0-92.2%) (79.9-88.4%)
+APAS Compact (predicate)
+Beta Hemolysis
+Positive Negative Total
+Positive 106 38 144
+APAS
+Negative 13 193 206
+Independence
+Total 119 231 350
+106/119 193/231
+Agreement
+89.1% 83.5%
+(95% Confidence Interval)
+(82.2-93.5%) (78.2-87.8%)
+APAS Compact (predicate)
+Coliform
+Positive Negative Total
+Positive 165 13 178
+APAS
+Negative 4 168 172
+Independence
+Total 169 181 350
+165/169 168/181
+Agreement
+97.6% 92.8%
+(95% Confidence Interval)
+(94.1-99.1%) (88.1-95.8%)
+APAS Compact (predicate)
+Swarming
+Positive Negative Total
+Positive 13 0 13
+APAS
+Negative 0 337 337
+Independence
+Total 13 337 350
+13/13 337/337
+Agreement
+100% 100%
+(95% Confidence Interval)
+(77.2-100%) (98.9-100%)
+APAS Compact (predicate)
+Granular
+Positive Negative Total
+Positive 18 1 19
+APAS
+Negative 1 330 331
+Independence
+Total 19 331 350
+18/19 330/331
+Agreement
+94.7% 99.7%
+(95% Confidence Interval)
+(75.4-99.1%) (98.3-99.9%)
+APAS Compact (predicate)
+Cream White
+Positive Negative Total
+Positive 176 12 188
+APAS
+Negative 17 145 162
+Independence
+Total 193 157 350
+176/193 145/157
+Agreement
+91.2% 92.4%
+(95% Confidence Interval)
+(86.3-94.4%) (87.1-95.6%)
+APAS Compact (predicate)
+Small
+Positive Negative Total
+Positive 195 44 239
+APAS
+Negative 6 105 111
+Independence
+Total 201 149 350
+195/201 105/149
+Agreement
+97.0% 70.5%
+(95% Confidence Interval)
+(93.6-98.6%) (62.7-77.2%)
+K183648 - Page 18 of 20
+
+[Table 1 on page 18]
+Alpha Hemolysis							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			61			43			104		
+			Negative			10			236			246		
+			Total			71			279			350		
+Agreement
+(95% Confidence Interval)						61/71
+85.9%
+(76.0-92.2%)			236/279
+84.6%
+(79.9-88.4%)					
+														
+Beta Hemolysis							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			106			38			144		
+			Negative			13			193			206		
+			Total			119			231			350		
+Agreement
+(95% Confidence Interval)						106/119
+89.1%
+(82.2-93.5%)			193/231
+83.5%
+(78.2-87.8%)					
+														
+Coliform							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			165			13			178		
+			Negative			4			168			172		
+			Total			169			181			350		
+Agreement
+(95% Confidence Interval)						165/169
+97.6%
+(94.1-99.1%)			168/181
+92.8%
+(88.1-95.8%)					
+														
+Swarming							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			13			0			13		
+			Negative			0			337			337		
+			Total			13			337			350		
+Agreement
+(95% Confidence Interval)						13/13
+100%
+(77.2-100%)			337/337
+100%
+(98.9-100%)					
+														
+Granular							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			18			1			19		
+			Negative			1			330			331		
+			Total			19			331			350		
+Agreement
+(95% Confidence Interval)						18/19
+94.7%
+(75.4-99.1%)			330/331
+99.7%
+(98.3-99.9%)					
+														
+Cream White							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			176			12			188		
+			Negative			17			145			162		
+			Total			193			157			350		
+Agreement
+(95% Confidence Interval)						176/193
+91.2%
+(86.3-94.4%)			145/157
+92.4%
+(87.1-95.6%)					
+														
+Small							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			195			44			239		
+			Negative			6			105			111		
+			Total			201			149			350		
+Agreement
+(95% Confidence Interval)						195/201
+97.0%
+(93.6-98.6%)			105/149
+70.5%
+(62.7-77.2%)					
+
+--- Page 19 ---
+Table 12. Comparison of colony morphologies on MacConkey agar designated by the Urine
+Analysis Module using the APAS Compact (predicate) and APAS Independence
+APAS Compact (predicate)
+Lactose Fermenter
+Positive Negative Total
+Positive 110 1 111
+APAS
+Negative 3 236 239
+Independence
+Total 113 237 350
+110/113 236/237
+Agreement
+97.3% 99.6%
+(95% Confidence Interval)
+(92.5-99.1%) (97.6-99.9%)
+APAS Compact (predicate)
+Non-Fermenter
+Positive Negative Total
+Positive 51 33 84
+APAS
+Negative 2 264 266
+Independence
+Total 53 297 350
+51/53 264/297
+Agreement
+96.2% 88.9%
+(95% Confidence Interval)
+(87.2-99.0%) (84.8-92.0%)
+APAS Compact (predicate)
+Non-pigmented
+Positive Negative Total
+Positive 1 0 1
+APAS
+Negative 0 349 349
+Independence
+Total 1 349 350
+1/1 349/349
+Agreement
+100% 100%
+(95% Confidence Interval)
+(20.7-100%) (98.9-100%)
+APAS Compact (predicate)
+Red-Pink
+Positive Negative Total
+Positive 7 13 20
+APAS
+Negative 0 330 330
+Independence
+Total 7 343 350
+7/7 330/343
+Agreement
+100% 96.2%
+(95% Confidence Interval)
+(64.6-100%) (93.6-97.8%)
+2. Matrix Comparison:
+Not applicable.
+C Clinical Studies:
+1. Clinical Sensitivity:
+The clinical performance of the predicate APAS Compact with Urine Analysis Module was
+evaluated under DEN150059. Because the APAS Independence with Urine Analysis Module
+uses the same hardware and software for image acquisition and analysis as the APAS
+Compact, additional testing to evaluate the sensitivity and specificity of the system was not
+needed. Please refer to the Decision Summary for DEN150059 for additional information.
+2. Clinical Specificity:
+Refer to Section VII C(1), above.
+K183648 - Page 19 of 20
+
+[Table 1 on page 19]
+Lactose Fermenter							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			110			1			111		
+			Negative			3			236			239		
+			Total			113			237			350		
+Agreement
+(95% Confidence Interval)						110/113
+97.3%
+(92.5-99.1%)			236/237
+99.6%
+(97.6-99.9%)					
+														
+Non-Fermenter							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			51			33			84		
+			Negative			2			264			266		
+			Total			53			297			350		
+Agreement
+(95% Confidence Interval)						51/53
+96.2%
+(87.2-99.0%)			264/297
+88.9%
+(84.8-92.0%)					
+														
+Non-pigmented							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			1			0			1		
+			Negative			0			349			349		
+			Total			1			349			350		
+Agreement
+(95% Confidence Interval)						1/1
+100%
+(20.7-100%)			349/349
+100%
+(98.9-100%)					
+														
+Red-Pink							APAS Compact (predicate)							
+							Positive			Negative			Total	
+APAS
+Independence			Positive			7			13			20		
+			Negative			0			330			330		
+			Total			7			343			350		
+Agreement
+(95% Confidence Interval)						7/7
+100%
+(64.6-100%)			330/343
+96.2%
+(93.6-97.8%)					
+
+--- Page 20 ---
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Not applicable.
+D Clinical Cut-Off:
+Not applicable.
+E Expected Values/Reference Range:
+Refer to Section VII C(1), above.
+F Other Supportive Instrument Performance Characteristics Data:
+Not applicable.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K183648 - Page 20 of 20

@@ -1,0 +1,136 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+A. 510(k) Number: k080014   
+B. Purpose for Submission: Addition of wireless data transmission to three previously cleared devices that measure both blood glucose and blood pressure   
+C. Measurand: Glucose and Blood Pressure   
+D. Type of Test: Quantitative Glucose Oxidase Blood Pressure – Non-invasive Oscillometric   
+E. Applicant: TaiDoc Technology Corporation   
+F. Proprietary and Established Names: Clever Chek TD-3250C Blood Glucose plus Blood Pressure Monitoring System Clever Chek TD-3250D Blood Glucose plus Blood Pressure Monitoring System Fora Comfort 2 in 1 TD-3260 Blood Glucose plus Blood Pressure Monitoring System   
+G. Regulatory Information: 1. Regulation section:
+
+21 CFR 862.1345 (Glucose test system)   
+21 CFR §870.1130 (Noninvasive blood pressure measurement system)
+
+2. Classification: All Class II
+
+3. Product code: NBW (system, test, blood glucose, over the counter) CGA (glucose test system) DXN (noninvasive blood pressure measurement system)
+
+4. Panel: 75, Clinical Chemistry – Glucose Test System 74, Cardiovascular – Blood Pressure Measurement System
+
+# H. Intended Use:
+
+1. Intended use(s): Refer to Indications for Use below
+
+2. Indication(s) for use:
+
+The Clever Chek TD-3250C Blood Glucose plus Blood pressure Monitoring System / Clever Chek TD-3250D Blood Glucose plus Blood pressure Monitoring System / Fora Comfort 2 in 1 Blood Glucose plus Blood Pressure Monitoring System is intended for use in the quantitative measurement of glucose in fresh capillary whole blood from the finger and the following alternative sites: the palm, the forearm, the upper-arm, the calf and the thigh. It is intended for use by healthcare professionals and people with diabetes mellitus at home as an aid in monitoring the effectiveness of diabetes control program. It is not intended for the diagnosis of or screening for diabetes mellitus. The alternative site testing in this system can be used only during steady-state blood glucose conditions.
+
+The system is also intended to be used to measure non-invasively the systolic and diastolic blood pressure and pulse rate of an adult individual, over age 16, at home.
+
+The blood pressure is measured by using a technique in which an inflatable cuff is wrapped around the arm. The cuff circumference is limited to 9.4" - 13.8".
+
+This system offers wireless communication function which is able to transmit the test result to other devices, such as PC.
+
+3. Special conditions for use statement(s): Over The Counter Use
+
+4. Special instrument requirements: Clever Chek TD-3250C, Clever Chek TD-3250D, Fora Comfort 2 in 1 TD-3260 Blood Glucose Meters/Blood Pressure Monitors, wireless-enabled PC for wireless function.
+
+# I. Device Description:
+
+This submission is for three devices that are combination glucose meter / blood pressure monitors from Taidoc: the Clever Chek TD-3250C, Clever Chek TD-3250D, and the Fora Comfort 2 in 1 TD-3260. The 3250C and 3250D models are nearly identical except for the addition of an extra button on the 3250C which turns on the Bluetooth module. All are based on the TaiDoc model Clever Chek TD-3250, cleared under $\mathrm { k } 0 6 2 8 0 0$ . All three devices incorporate wireless data transmission. Models 3250C and 3250D use Bluetooth technology for the data transfer and model 3260 uses Zigbee technology. All models can transmit the results to a personal computer immediately after the measurement is taken or after the results are retrieved from memory.
+
+This submission addressed only the addition of wireless capability to a previously cleared blood glucose/blood pressure device. For other performance characteristics please refer to k062800.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Clever Chek TD-3250 Blood Glucose plus Blood Pressure Monitoring System
+
+2. Predicate 510(k) number(s): k062800
+
+3. Comparison with predicates:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">New Devices</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Detection Method</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">Amperometry</td></tr><tr><td colspan="1" rowspan="1">Enzyme</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">Glucose Oxidase(Aspergillus niger)</td></tr><tr><td colspan="1" rowspan="1">Test Range</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">20 - 600 mg/dL</td></tr><tr><td colspan="1" rowspan="1">Hematocrit</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">20-60%</td></tr><tr><td colspan="1" rowspan="1">Detection Method</td><td colspan="1" rowspan="1">Same</td><td colspan="1" rowspan="1">Amperometry</td></tr><tr><td colspan="3">Differences</td></tr><tr><td>Item</td><td>New Devices</td><td>Predicate</td></tr><tr><td>Wireless Data Transmission</td><td>Yes Models 3250C and 3250D via Bluetooth technology Model 3260 via Zigbee technology</td><td>No</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+General Principles of Software Validation; Final Guidance for Industry and FDA Staff
+
+Guidance for Off-the-Shelf Software Use in Medical Devices; Final
+
+Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices - Guidance for Industry and FDA Staff
+
+# L. Test Principle:
+
+The software that controls the personal computer is the CLEVER CHEK Health Care System Software, which was cleared under k070941 using a cable to transmit data from the device to a PC. A new component in this submission is the addition of IVT Bluetooth Utility Software which allows for the data to be transmitted wirelessly. Both software programs must be installed by the user to allow for wireless functionality.
+
+Refer to k062800 for a description of the glucose and blood pressure measuring technologies in these devices.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: a. Precision/Reproducibility: Not applicable. b. Linearity/assay reportable range: Not applicable. c. Traceability, Stability, Expected values (controls, calibrators, or methods): Not applicable.
+
+d. Detection limit: Not applicable.   
+e. Analytical specificity: Not applicable.   
+f. Assay cut-off: Not applicable.
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable.
+
+b. Matrix comparison: Not applicable.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable.
+
+b. Clinical specificity: Not applicable.   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off: Not applicable.
+
+5. Expected values/Reference range: Not applicable.
+
+# N. Instrument Name:
+
+Clever Chek TD-3250C Blood Glucose plus Blood Pressure Monitoring System
+
+Clever Chek TD-3250D Blood Glucose plus Blood Pressure Monitoring System
+
+Fora Comfort 2 in 1 TD-3260 Blood Glucose plus Blood Pressure Monitoring System
+
+# O. System Descriptions:
+
+1. Modes of Operation: Each test strip is single use and must be replaced with a new strip for additional readings.
+
+2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ____X____ or No
+
+3. Specimen Identification:
+
+There is no sample identification function with this device. Samples are applied directly to the test strip as they are collected.
+
+4. Specimen Sampling and Handling:
+
+Since the sample is applied directly to the strip there are no special handling or storage issues.
+
+5. Calibration:
+
+A code strip is provided with each batch of test strips to calibrate the meter for that batch.   
+No further calibrations are required of the user.
+
+6. Quality Control:
+
+The sponsor is providing a high and low glucose control solution with this device. When a test strip is inserted into the meter, the control mode can be activated. This prevents control results from being stored in the internal memory. An acceptable range for each control level is printed on the test strip vial label. The user is referred to the troubleshooting section of the owner’s manual if control results fall outside these ranges.
+
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

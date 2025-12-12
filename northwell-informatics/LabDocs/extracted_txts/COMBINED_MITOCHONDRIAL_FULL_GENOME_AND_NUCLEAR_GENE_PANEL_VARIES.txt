@@ -1,0 +1,114 @@
+STANDARD OPERATING PROCEDURE (SOP) FOR ANALYTICAL
+PHASE OF COMBINED MITOCHONDRIAL FULL GENOME AND
+NUCLEAR GENE PANEL, VARIES
+1. PURPOSE
+This SOP outlines the procedures for the analytical phase of
+generating results for combined mitochondrial full genome and
+nuclear gene panel testing. This document ensures standardized and
+high-quality procedures are followed to produce accurate and
+reproducible results, ultimately aiding in the diagnosis of
+mitochondrial and related genetic disorders.
+2. RESPONSIBILITIES
+The selected staff trained in molecular testing techniques are
+responsible for performing the procedures detailed in this SOP. It is
+the responsibility of the laboratory supervisor to ensure that all
+personnel are adequately trained and competent in these
+procedures, as well as to manage any corrective actions required.
+3. DEFINITIONS
+• Mitochondrial Genome: The complete set of mitochondrial DNA,
+which includes 37 genes essential for mitochondrial function.
+• Nuclear Gene Panel: A set of nuclear genes associated with
+mitochondrial and other relevant disorders to be analyzed in
+combination with the mitochondrial genome.
+• Next-Generation Sequencing (NGS): A high-throughput method
+used to determine the sequence of nucleotides in DNA.
+4. EQUIPMENT AND MATERIALS
+• NGS Machine (such as Illumina MiSeq)
+• PCR Thermocyclers
+• DNA Extraction Kits
+• Library Preparation Kits (specific to NGS platform)
+• Cleanroom consumables (gloves, pipettes, tips, tubes, etc.)
+• Bioinformatics Software for sequence analysis
+• Calibrated pipettes and thermal cyclers
+• Positive and negative controls
+5. PROCEDURE
+A) DNA Extraction:
+1. Sample Preparation:
+◦ Ensure specimens are properly received, accessioned, and
+stored at appropriate conditions prior to processing.
+2. DNA Isolation:
+◦ Perform DNA extraction from specimen using a validated
+DNA extraction kit and according to the manufacturer’s
+protocol.
+◦ Quantify DNA using Qubit or Nanodrop and evaluate purity
+by the A260/A280 ratio.
+3. Quality Control:
+◦ Assess DNA integrity via gel electrophoresis.
+◦ Store extracted DNA at -20°C pending further procedures.
+B) Library Preparation:
+1. Preparation:
+◦ Equilibrate required reagents to room temperature.
+◦ Thaw DNA samples on ice and prepare working dilutions.
+2. Amplicon Generation:
+◦ Use primer sets to amplify regions of interest in both the
+mitochondrial genome and nuclear genes.
+◦ Perform PCR using thermocycler with specified conditions
+for each primer set.
+◦ Validate amplicon size and specificity through gel
+electrophoresis.
+3. Library Construction:
+◦ Pool target amplicons as per optimization.
+◦ Carry out end-repair, A-tailing, and adapter ligation suitable
+for the NGS platform in use.
+◦ Clean up libraries using magnetic beads and follow with
+quantification using qPCR or Bioanalyzer.
+C) Next-Generation Sequencing:
+1. Sequencer Preparation:
+◦ Perform system setup and maintenance checks.
+◦ Load libraries into NGS machine and configure sequencing
+parameters as specified in user manuals.
+2. Sequencing:
+◦ Monitor sequence run progress.
+◦ Use real-time data visualization to assess run quality and
+yield.
+D) Data Analysis:
+1. Primary Analysis:
+◦ Export raw sequence files (FASTQ) upon run completion.
+◦ Use quality control software (e.g., FastQC) to evaluate read
+quality.
+2. Bioinformatics Analysis:
+◦ Align sequences to reference mitochondrial and nuclear
+genomes using appropriate bioinformatics pipelines.
+◦ Identify variants through variant calling software and
+annotate using databases like ClinVar and gnomAD.
+3. Interpretation and Reporting:
+◦ Assess pathogenicity of variants using ACMG guidelines.
+◦ Compile and review genetic findings alongside clinical
+information.
+◦ Generate detailed report including detected variants, clinical
+correlation, and recommendations for follow-up testing if
+necessary.
+6. QUALITY CONTROL AND ASSURANCE
+• Run positive and negative controls with each batch of reactions to
+monitor performance.
+• Thoroughly document all steps and deviations from SOP.
+• Engage in regular proficiency testing and participate in external
+quality assessment schemes.
+7. TROUBLESHOOTING
+• If DNA quality is poor, re-extract samples or request re-
+submission.
+• Address sequencing run failure by repeating library prep and
+sequencing.
+• Revalidate any dubious results through Sanger sequencing or
+repeat NGS run.
+8. REFERENCES
+• Manufacturer’s manuals for DNA extraction, library preparation,
+and NGS platforms.
+• ACMG Standards and Guidelines for Interpretation of Sequence
+Variants.
+• ClinVar and gnomAD database access for variant annotation.
+9. DOCUMENT REVIEW AND APPROVAL
+This document will be reviewed annually or as required upon
+procedural updates or regulatory changes. Authorized by laboratory
+director on [Date].
+End of Document.

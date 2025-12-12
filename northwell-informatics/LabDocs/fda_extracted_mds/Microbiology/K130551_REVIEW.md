@@ -1,0 +1,195 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number:
+
+k130551
+
+# B. Purpose for Submission:
+
+The CDC Human Influenza Virus Real-Time RT-PCR Diagnostic Panel (k111507) has been modified to allow use of an alternative enzyme, the “Quanta BioSciences qScript One-Step qRT-PCR Kit, Low ROX”.
+
+# C. Measurand:
+
+Influenza virus nucleic acids target sequences. Influenza types and subtypes detected: Influenza A, Influenza A/H1, Influenza A/H3, Influenza A/H5 (Asian lineage), Influenza A/H1pdm09, and Influenza B.
+
+# D. Type of Test:
+
+A panel of oligonucleotide primers and dual-labeled hydrolysis (TaqMan $^ \mathrm { \textregistered }$ ) probes to be used in rRT-PCR for the in vitro qualitative detection and differentiation of influenza virus type and subtype target sequences in respiratory specimens from human patients with signs or symptoms of respiratory infection and/or from virus culture using nucleic acid isolation, amplification, and detection on the ABI 7500 Fast Dx Real-Time PCR instrument with Sequence Detection Software version 1.4.
+
+# E. Applicant:
+
+Centers for Disease Control and Prevention
+
+F. Proprietary and Established Names:
+
+CDC Human Influenza Virus Real-Time RT-PCR Diagnostic Panel
+
+# G. Regulatory Information:
+
+1. Regulation section: 866.3332 Reagents for detection of specific novel influenza A viruses
+
+2. Classification: Class II
+
+3. Product code(s): OQW, NSU, NXD, OEP
+
+4. Panel: Microbiology (83)
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+The CDC Human Influenza Virus Real-Time RT-PCR Diagnostic Panel is intended for use in real-time RT-PCR (rRT-PCR) assays on an Applied Biosystems (ABI) 7500 Fast Dx Real-Time PCR Instrument in conjunction with clinical and epidemiological information:
+
+For qualitative detection of influenza virus type A or B from viral RNA in upper respiratory tract clinical specimens (including nasopharyngeal swabs [NPS], nasal swabs [NS], throat swabs [TS], nasal aspirates [NA], nasal washes [NW] and dual nasopharyngeal/throat swabs [NPS/TS]), and lower respiratory tract specimens (including bronchoalveolar lavage [BAL], bronchial wash [BW], tracheal aspirate [TA], sputum, and lung tissue) from human patients with signs and symptoms of respiratory infection and/or from viral culture;
+
+For determination of the subtype of seasonal human influenza A viruses as seasonal A/H1, A/H3, and/or A/H1pdm09 from viral RNA in upper respiratory tract clinical specimens (including NPS, NS, TS, NA, NW and NPS/TS) and lower respiratory tract specimens (including BAL, BW, TA, sputum and lung tissue) from human patients with signs and symptoms of respiratory infection and/or from viral culture;
+
+For the presumptive identification of virus in patients who may be infected with influenza A subtype A/H5 (Asian lineage) from viral RNA in human respiratory specimens and viral culture in conjunction with clinical and epidemiological risk factors;
+
+· To provide epidemiological information for surveillance of circulating influenza viruses.
+
+Performance characteristics for influenza were established during a season when seasonal influenza viruses A/H1 and A/H3 were the predominant influenza A viruses in circulation and during a season when the A/H1pdm09 influenza virus was the predominant influenza A virus in circulation. Performance characteristics may vary with other emerging influenza A viruses.
+
+Testing with the influenza H5a and H5b primer and probe sets should not be performed unless the patient meets the most current U.S. Department of Health and Human Services (DHHS) clinical and epidemiological criteria for testing suspect A/H5 specimens. The definitive identification of influenza A/H5 (Asian lineage) either directly from patient specimens or from virus cultures requires additional laboratory testing, along with clinical and epidemiological assessment in consultation with national influenza
+
+surveillance experts.
+
+Negative results do not preclude influenza virus infection and should not be used as the sole basis for treatment or other patient management decisions. Conversely, positive results do not rule out bacterial infection or co-infection with other viruses. The agent detected may not be the definite cause of disease.
+
+If infection with a novel influenza A virus is suspected based on current clinical and epidemiological screening criteria recommended by public health authorities, specimens should be collected with appropriate infection control precautions for novel virulent influenza viruses and sent to state or local health department for testing. Viral culture should not be attempted unless a BSL $^ { 3 + }$ facility is available to receive and culture specimens.
+
+All users, analysts, and any person reporting results from use of this device should be trained to perform and interpret the results from this procedure by a competent instructor prior to use. CDC Influenza Division will limit the distribution of this device to only those users who have successfully completed a training course provided by CDC instructors or designees.
+
+2. Indication(s) for use: Same as Intended Use
+
+3. Special conditions for use statement(s): For prescription use only
+
+4. Special instrument requirements: Applied Biosystems ABI 7500 Fast Dx Real-Time PCR Instrument with Sequence Detection Software version 1.4.
+
+I. Device Description: See k111507
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): CDC Human Influenza Virus Real-Time RT-PCR Diagnostic Panel
+
+2. Predicate 510(k) number(s): k111507 3. Comparison with predicate:
+
+<table><tr><td></td><td>CDC Human Influenza Virus Real-Time RT-PCR Diagnostic Panel (K111507)</td><td>CDC Human Influenza Virus Real-Time RT-PCR Diagnostic Panel (used with the Quanta BioSciences qScript™M One-Step qRT-PCR Kit, Low ROX)</td></tr><tr><td rowspan="2">Intended Use</td><td>Diagnostic Panel is intended for use in Real-time RT-PCR assays on an Applied Biosystems (ABI) 7500 Fast Dx Real- Time PCR Instrument in conjunction with clinical and epidemiological information: • For qualitative detection of influenza virus type A or B from viral RNA in upper respiratory tract clinical specimens (including nasopharyngeal swabs, nasal swabs, throat swabs, nasal aspirates, nasal washes and dual nasopharyngeal/throat swabs), and lower respiratory tract specimens (including bronchoalveolar lavages, bronchial washes, tracheal aspirates, sputum, and lung tissue) from human patients with signs and symptoms of respiratory infection and/or from viral culture</td><td></td></tr><tr><td>• For determination of the subtype of seasonal human influenza A viruses as seasonal A/H1, A/H3, and/or A/H1pdm09 from viral RNA in upper respiratory tract clinical specimens (including nasopharyngeal swabs, nasal swabs, throat swabs, nasal aspirates, nasal washes and dual nasopharyngeal/throat swabs), and lower respiratory tract specimens (including bronchoalveolar lavages, bronchial washes, tracheal aspirates, sputum, and lung tissue) from human patients with signs and symptoms of respiratory infection and/or from viral culture •For the presumptive identification of virus in patients who may be infected with influenza A subtype A/H5(Asian Lineage) from viral RNA in human respiratory specimens and viral culture in conjunction with clinical and epidemiological risk factors •To provide epidemiological information for surveillance of</td><td>Same</td></tr><tr><td>Organism Detected</td><td>Universal influenza A viruses (animal and human), Swine- origin influenza A viruses, Influenza B viruses, and Influenza A subtypes: seasonal A/H1, A/H3, A/H1pdm09 , and A/H5</td><td>Same</td></tr><tr><td colspan="1" rowspan="1">SpecimenTypes</td><td colspan="1" rowspan="1">Nasopharyngeal swabs, nasal swabs, throat swabs, nasalaspirates, nasal washes and dual nasopharyngeal/throatswabs, bronchoalveolar lavages, bronchial aspirates,bronchial washes, tracheal aspirates, sputum, and lungtissue and virus culture.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Nucleic AcidExtraction</td><td colspan="1" rowspan="1">Yes</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">ExtractionMethod</td><td colspan="1" rowspan="1">QIAamp® Viral RNA Mini Kit, Qiagen Inc.•MagNA Pure Compact -Total Nucleic Acid Kit, RocheApplied Science•MagNA Pure Compact  RNA Isolation Kit, RocheApplied Science•MagNA Pure LC - RNA Isolation Kit II, Roche AppliedScience•Qiagen QIAcube with QIAamp® Viral RNA Mini Kit,Qiagen Inc.NucliSENS® easyMAG®, bioMerieux</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">EnzymeMaster Mix</td><td colspan="1" rowspan="1">Invitrogen SuperScript™M III Platinum® One-StepQuantitative RT-PCR Kits (with or without ROX)</td><td colspan="1" rowspan="1">Invitrogen SuperScriptTM III Platinum®One-Step Quantitative RT-PCR Kit (with orwithout ROX)ORQuanta BioSciences qScriptTM One-StepqRT-PCR Kit, Low ROX</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+See k111507
+
+L. Test Principle: See k111507
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Please refer to previously FDA-cleared, 510(k) Premarket Notifications, k080570 and k101564
+
+b. Linearity/assay reportable range: Not applicable
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+There are no changes to the internal positive control, the human RNase P; Human Specimen Control (HSC); Influenza virus A/H5N1 Positive Control (H5VC), Pooled Influenza Positive Control (PIPC), and No Template Control (NTC) for the New Assay. Please refer to previously FDA-cleared 510(k) Premarket Notifications k080570, k101564, and k111507 for further information.
+
+# d. Detection limit
+
+The LOD of each primer and probe set in the CDC Human Influenza Virus Real-time RT-PCR Diagnostic Panel was determined using both the Quanta qScript and the Invitrogen SuperScript enzymes. Serial dilutions of two different influenza virus strains representing influenza B, A/H1, A/H3, A/H5 and A/H1pdm09 were tested to identify an end-point for detection using both enzymes. RNA was purified from each of the characterized viruses using one of the cleared extraction procedures. The LOD for each primer and probe set was calculated to indicate the range of the lowest detectable concentration of influenza virus $\mathrm { ( E I D } _ { 5 0 } / \mathrm { m L }$ or $\mathrm { T C I D } _ { 5 0 } / \mathrm { m L } )$ at which $\geq$ $9 5 \%$ of all replicates tested positive. The lowest concentration of influenza virus detected determined the end-point concentration where both the type and subtype primer and probe sets had uniform detection. If the two endpoints differed in concentration, the lowest concentration where the endpoints had uniform detection was reported as the LOD. In all cases, the resulting LOD using the Quanta qScript was either the same or within one 5-fold dilution of the comparator (Invitrogen SuperScript). Both the previously cleared enzyme and the new enzyme provided nearly the same results with respect to LoD determination. The results are summarized below:
+
+e. Analytical specificity   
+
+<table><tr><td rowspan=2 colspan=1>Influenza VirusType/Subtype</td><td rowspan=2 colspan=1>Influenza Virus</td><td rowspan=1 colspan=2>LoD (EID50/mL)</td></tr><tr><td rowspan=1 colspan=1>InvitrogenSuperScript</td><td rowspan=1 colspan=1>Quanta qScript</td></tr><tr><td rowspan=2 colspan=1>A/H1N1</td><td rowspan=1 colspan=1>A/Brisbane/59/2007</td><td rowspan=1 colspan=1>102.3</td><td rowspan=1 colspan=1>102.3</td></tr><tr><td rowspan=1 colspan=1>A/Fujian Gulou/1896/2009</td><td rowspan=1 colspan=1>102.7</td><td rowspan=1 colspan=1>102.7</td></tr><tr><td rowspan=2 colspan=1>A/H1pdm09</td><td rowspan=1 colspan=1>A/California/07/2009</td><td rowspan=1 colspan=1>101.6</td><td rowspan=1 colspan=1>103.0</td></tr><tr><td rowspan=1 colspan=1>A/South Carolina/2/2010</td><td rowspan=1 colspan=1>102.1</td><td rowspan=1 colspan=1>102.8</td></tr><tr><td rowspan=2 colspan=1>A/H3N2</td><td rowspan=1 colspan=1>A/Perth/16/2009</td><td rowspan=1 colspan=1>102.8</td><td rowspan=1 colspan=1>102.8</td></tr><tr><td rowspan=1 colspan=1>A/Victoria/361/2011</td><td rowspan=1 colspan=1>102.8</td><td rowspan=1 colspan=1>102.8</td></tr><tr><td rowspan=2 colspan=1>A/H5N1</td><td rowspan=1 colspan=1>A/Vietnam/1203/2004-PR8/CDC-RG</td><td rowspan=1 colspan=1>101.2</td><td rowspan=1 colspan=1>101.2</td></tr><tr><td rowspan=1 colspan=1>A/Anhui/01/2005-PR8-IBCDC-RG6</td><td rowspan=1 colspan=1>101.7</td><td rowspan=1 colspan=1>102.4</td></tr><tr><td rowspan=2 colspan=1>B</td><td rowspan=1 colspan=1>B/Wisconsin/01/2010</td><td rowspan=1 colspan=1>102.1</td><td rowspan=1 colspan=1>102.8</td></tr><tr><td rowspan=1 colspan=1>B/Nevada/01/2011</td><td rowspan=1 colspan=1>101.4</td><td rowspan=1 colspan=1>100.7</td></tr></table>
+
+Please refer to previously FDA-cleared 510(k) Premarket Notifications, k080570 and k101564.
+
+f. Assay cut-off:
+
+The assay cut-off remains unchanged; please refer to previously FDA-cleared 510(k) Premarket Notifications, k080570 and k101564.
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+A prospective clinical study was conducted during the 2011-2012 influenza season to compare the performance of the CDC Human Influenza rRT-PCR Diagnostic Panel using Quanta qScript and Invitrogen Superscript. Residual material from a total of 1,002 respiratory specimens from patients who were symptomatic for influenza-like illness (ILI) was collected and tested at 6 clinical sites. Nine hundred thirty-one specimens were included in the data analysis after exclusion of samples with inconclusive results (42), technician or instrument error (25), or unspecified specimen type (4). Specimen types consisted of nasal aspirate, nasal wash, nasal swab, nasopharyngeal swab, dual nasopharyngeal and throat swab, throat swab, and lower respiratory specimens including bronchoalveolar lavage, bronchial wash, tracheal aspirate, sputum, or lung tissue.
+
+The study population and specimen types are summarized by age range and specimen type in the table below:
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=8>Number of Clinical Specimens by Type</td></tr><tr><td rowspan=1 colspan=1>Age Range</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>NW</td><td rowspan=1 colspan=1>NS</td><td rowspan=1 colspan=1>NPS</td><td rowspan=1 colspan=1>NPS/TS</td><td rowspan=1 colspan=1>TS</td><td rowspan=1 colspan=1>LR</td><td rowspan=1 colspan=1>Unknown</td></tr><tr><td rowspan=1 colspan=1>0-16</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>337</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>17-54</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>263</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>≥ 55</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>175</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Unknown</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Totals</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>113</td><td rowspan=1 colspan=1>798</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>4</td></tr></table>
+
+$\mathrm { N A } =$ nasal aspirate, $\mathrm { N W } =$ nasal wash, $\mathbf { N S } =$ nasal swab, $\mathrm { N P S } { = } 1$ nasopharyngeal swab, NPS/TS=dual nasopharyngeal and throat swab, $\mathrm { T S } { = }$ throat swab, $\mathrm { L R } { = } 1$ ower respiratory specimens including bronchoalveolar lavage, bronchial wash, tracheal aspirate, sputum, or lung tissue.
+
+<table><tr><td rowspan=1 colspan=1>Assay Result</td><td rowspan=1 colspan=1># of Positives1</td><td rowspan=1 colspan=1>% PositiveAgreement (95%CII</td><td rowspan=1 colspan=1># ofNegatives1</td><td rowspan=1 colspan=1>% NegativeAgreement (95% CI)</td></tr><tr><td rowspan=1 colspan=1>InfB</td><td rowspan=1 colspan=1>77/80</td><td rowspan=1 colspan=1>96.3 (89.5 - 98.7)</td><td rowspan=1 colspan=1>851/851</td><td rowspan=1 colspan=1>100.0 (99.6  100.0)</td></tr><tr><td rowspan=1 colspan=1>A/H1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA2</td><td rowspan=1 colspan=1>931/931</td><td rowspan=1 colspan=1>100.0 (99.6  100.0)</td></tr><tr><td rowspan=1 colspan=1>A/H3</td><td rowspan=1 colspan=1>331/335</td><td rowspan=1 colspan=1>98.8 (97.0 - 99.5)</td><td rowspan=1 colspan=1>595/596</td><td rowspan=1 colspan=1>99.8 (99.1 - 100.0)</td></tr><tr><td rowspan=1 colspan=1>A/H1pdm09</td><td rowspan=1 colspan=1>43/43</td><td rowspan=1 colspan=1>100.0 (91.8 - 100.0)</td><td rowspan=1 colspan=1>888/888</td><td rowspan=1 colspan=1>100.0 (99.6 - 100.0)</td></tr></table>
+
+1Proportion of true positives or true negatives correctly identified versus the comparator $^ { 2 } \mathrm { N A } =$ not applicable   
+
+<table><tr><td rowspan=1 colspan=1>Assay Result</td><td rowspan=1 colspan=1># of Positives1</td><td rowspan=1 colspan=1>% Positive Agreement(95% CI)</td><td rowspan=1 colspan=1># of Negatives1</td><td rowspan=1 colspan=1>% Negative Agreement(95% CI)</td></tr><tr><td rowspan=1 colspan=1>A/H1</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100.0 (88.7  100.0)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>NA2</td></tr></table>
+
+1Proportion of true positives or true negatives correctly identified versus the comparator $^ { 2 } \mathrm { N A } =$ not applicable
+
+Performance of the $\mathrm { H } 5 \mathrm { a }$ and H5b primer and probe sets was addressed with an alternative approach due to a lack of available clinical specimens containing influenza A/H5N1. Samples for this retrospective study were prepared using a characterized and titered stock of influenza A/H5N1 virus and human A549 cells. The stock virus was added to the A549 cell suspension in high, moderate, and low concentrations with 12 samples at each concentration. The low virus concentration was prepared at approximately the LoD of the virus. A/H5N1 virus preparations were then treated with beta-propiolactone to inactivate them prior to testing in a BSL-2 laboratory. Due to the inactivation, actual virus concentrations are not available. Virus concentrations were estimated by extrapolation of Ct scores back to LoD studies which had been performed on live virus. Virus concentrations for the retrospective study are estimated as follows: Low: $1 0 \mathord { \wedge } 1 . 0 \mathrm { I D } _ { 5 0 } / \mathrm { m l }$ ; Moderate: $1 0 \mathord { \wedge } 1 . 9 \mathrm { I D } _ { 5 0 } / \mathrm { m L }$ ; High $1 0 ^ { \sim } 2 . 1$ $\mathrm { I D } _ { 5 0 } / \mathrm { m L }$ . Test results of simulated A/H5N1 samples are summarized in the tables below:
+
+High Titer   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=3>Invitrogen SuperScript</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Inconclusive</td><td rowspan=1 colspan=1>Total</td></tr><tr><td rowspan=4 colspan=1>QuantaqScript</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Inconclusive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td></tr></table>
+
+Moderate Titer   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=3>Invitrogen SuperScript</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Inconclusive</td><td rowspan=1 colspan=1>Total</td></tr><tr><td rowspan=4 colspan=1>QuantaqScript</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Inconclusive</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>12</td></tr></table>
+
+# Low Titer
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=3>Invitrogen SuperScript</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Inconclusive</td><td rowspan=1 colspan=1>Total</td></tr><tr><td rowspan=4 colspan=1>QuantaqScript</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>2</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Inconclusive</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>10</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>12</td></tr></table>
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies: Clinical samples were tested in a method comparison study with the predicate. See section M-2 above.
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: The expected values are derived from the clinical studies performed during the 2006- 2007 (k080570), 2009-2010 (k101564), and 2010-2011 (this submission) seasons.
+
+During February 25, 2012 to May 19, 2012, World Health Organization and National Respiratory and Enteric Virus Surveillance System (NREVSS) collaborating laboratories in the United States tested 47,281 respiratory specimens for influenza viruses. Of these, 9,415 $( 1 9 . 9 \% )$ were positive: $8 5 \%$ of the positive specimens were positive for influenza A viruses and $1 5 \%$ were positive for influenza B viruses. Among the 5,071 influenza A viruses for which subtyping was performed, 3,680 $( 7 2 . 6 \% )$ were influenza $\mathrm { A } / \mathrm { H } 3$ viruses and 1,391 $( 2 7 . 4 \% )$ were 2009 H1N1 influenza viruses.
+
+From August 30, 2009, through March 27, 2010, World Health Organization (WHO) and National Respiratory and Enteric Virus Surveillance System (NREVSS) collaborating laboratories in the United States tested 422,648 specimens. Of these, 89,585 $( 2 1 . 1 \% )$ were positive: 89,298 $( 9 9 . 7 \% )$ were positive for influenza A and 287 $( 0 . 3 \% )$ were positive for influenza B. Among 66,978 influenza A viruses for which subtyping was performed, almost all (66,589 $[ 9 9 . 4 \% ] $ ) were 2009 HIN1 viruses.
+
+During October 1, 2006--May 19, 2007, World Health Organization and National Respiratory and Enteric Virus Surveillance System (NREVSS) collaborating laboratories in the United States tested 179,268 respiratory specimens for influenza viruses; 23,753 $( 1 3 . 2 \% )$ were positive. Of these, 18,817 $( 7 9 . 2 \% )$ were influenza A viruses and 4,936 $( 2 0 . 8 \% )$ were influenza B viruses. Among the influenza A viruses, 6,280 $( 3 3 . 4 \% )$ were subtyped; 3,912 $( 6 2 . 3 \% )$ were influenza A/H1 viruses and 2,368 $( 3 7 . 7 \% )$ were influenza
+
+A/H3 viruses (http://www.cdc.gov/mmwr/preview/mmwrhtmlml/mm5631a2.htm). In the rRT-PCR Flu Panel multi-center prospective clinical study during the 2006-2007 influenza season, the prevalence as determined by virus culture was as follows: influenza A/H1 $( 7 . 0 \% )$ , influenza A/H3 $( 2 3 . 6 \% )$ , and influenza B $( 9 . 9 \% )$ .
+
+# N. Instrument Name:
+
+Applied Biosystems (ABI) 7500 Fast Dx Real-Time PCR
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+The Applied Biosystems 7500 Fast Dx Real-Time PCR instrument integrates a thermal cycler, a fluorimeter, and application specific software. The instrument houses the thermal cycler and the fluorimeter, while the application software is run on a PC that is attached to the instrument. Samples are placed in a tube strip or 96-well low-head space plate that is moved to a Peltier-based thermal block and positioned relative to the optics using a tray loading mechanism.
+
+# 2. Software:
+
+Sequence Detection Software version 1.4. FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ___X____ or No
+
+3. Specimen Identification: User manually enters Patient ID/Sample ID.
+
+4. Specimen Sampling and Handling: Not applicable
+
+5. Calibration: Not applicable
+
+6. Quality Control: Quality control is addressed for each specific assay to be run on the instrument (separately cleared).
+
+# P. O therSupportiveInstrum entPerform anceCharacteristicsDataNotCovered In The “Performance Characteristics” Section above:
+
+Not applicable
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

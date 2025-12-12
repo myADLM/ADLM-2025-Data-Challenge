@@ -1,0 +1,125 @@
+Standard Operating Procedure (SOP) for Whole Exome
+Sequencing for Hereditary Disorders
+1. PURPOSE To outline the procedural steps for the analytical phase
+of generating results for Whole Exome Sequencing (WES) intended
+for the detection of hereditary disorders. This protocol ensures
+accurate, reliable, and reproducible results from sequencing data.
+2. SCOPE This SOP applies to all laboratory personnel involved in
+the analysis of WES data for hereditary disorders.
+3. RESPONSIBILITIES
+• Genetic Technologists: Perform data analysis and initial
+interpretation.
+• Bioinformaticians: Manage data processing pipelines and variant
+annotation.
+• Laboratory Supervisors: Review and authorize final reports.
+• Quality Assurance Staff: Monitor compliance with the SOP.
+4. DEFINITIONS
+• WES: Whole Exome Sequencing involves sequencing all coding
+regions of the genome to identify variants associated with
+hereditary disorders.
+• FASTQ: Raw data file format produced by high-throughput
+sequencing.
+• BAM: Binary sequence alignment map, a binary version of SAM
+file, storing aligned sequence data.
+• VCF: Variant Call Format, a standardized text file format for
+storing gene sequence variations.
+• SNVs: Single Nucleotide Variants.
+• Indels: Insertions and deletions.
+5. PROCEDURE
+A. Raw Data Quality Control
+Step 1: Data Retrieval and Integrity Check
+• Retrieve raw sequencing data (FASTQ files) from the sequencer
+or data storage.
+• Verify the integrity of the FASTQ files using checksums to ensure
+complete and unaltered files.
+Step 2: Quality Control Assessment
+• Use software tools such as FastQC to evaluate the quality of raw
+sequencing data.
+• Generate quality control reports and assess the parameters such
+as per base sequence quality, GC content, sequence length
+distribution, and adapter contamination.
+Step 3: Trimming and Filtering
+• Trim adaptor sequences and low-quality bases using tools like
+Trimmomatic.
+• Filter out low-quality reads based on Q-score thresholds (e.g.,
+Q30).
+B. Sequence Alignment and Conversion
+Step 4: Alignment to Reference Genome
+• Align high-quality reads to the reference genome (e.g., GRCh38)
+using Burrows-Wheeler Aligner (BWA) with recommended
+parameters for paired-end reads.
+• Convert and sort aligned data into BAM format using SAMtools.
+Step 5: Post-Alignment Processing
+• Mark duplicates in the BAM file using Picard to identify and
+remove PCR duplicates.
+• Perform local realignment around indels using the Genome
+Analysis Toolkit (GATK).
+• Recalibrate base quality scores using GATK's BaseRecalibrator.
+C. Variant Calling and Annotation
+Step 6: Variant Calling
+• Use GATK's HaplotypeCaller or an equivalent tool to call SNVs
+and indels from the BAM file, generating a VCF file.
+• Apply VQSR (Variant Quality Score Recalibration) or similar
+methods to filter and recalibrate variant calls.
+Step 7: Variant Annotation
+• Annotate variants using tools such as ANNOVAR or SnpEff.
+Annotation includes adding information about gene function,
+pathogenicity predictions, population frequency, and clinical
+significance.
+• Annotate variants using in-house databases and cross-
+referencing with ClinVar, dbSNP, and relevant literature.
+D. Data Review and Interpretation
+Step 8: Data Review and Curated Analysis
+• Review the VCF file for potential hereditary disorder-related
+variants in relevant genes using integrated genome viewers (e.g.,
+IGV).
+• Curate a list of potential pathogenic variants. Assess the clinical
+significance based on ACMG guidelines and other relevant
+criteria.
+Step 9: Clinical Correlation
+• Correlate identified variants with the patient's phenotype, family
+history, and clinical presentation.
+• Discuss findings with the medical geneticist/counselor.
+E. Reporting and Documentation
+Step 10: Report Preparation
+• Prepare a comprehensive clinical report summarizing the findings,
+including methodology, identified variants of significance,
+interpretation, and clinical recommendations.
+Step 11: Review and Approval
+• Review the report by a laboratory supervisor or a qualified
+geneticist.
+• Ensure all data, procedures, and results are documented
+according to laboratory standards. Attach the required supporting
+documents such as quality control reports and raw data forms.
+Step 12: Result Release
+• Communicate the finalized report to the referring physician/
+genetic counselor.
+• Store the results securely, following HIPAA and institutional
+guidelines.
+6. QUALITY CONTROL
+Internal Quality Control
+• Cross-check variant calls by processing the same sample through
+different pipelines/tools.
+• Include positive control samples with known variants to validate
+the entire workflow.
+External Quality Assurance
+• Participate in proficiency testing and external quality assurance
+programs (e.g., CAP, EMQN).
+7. EQUIPMENT AND SUPPLIES
+• High-performance computing resources for data analysis.
+• Essential software tools: FastQC, BWA, SAMtools, GATK, Picard,
+ANNOVAR/SnpEff, IGV.
+• Reference genome datasets (e.g., GRCh38).
+8. SAFETY AND COMPLIANCE
+• Follow all relevant institutional and regulatory guidelines for data
+handling and patient information security.
+• Ensure proper training and safety protocols are adhered to in the
+laboratory.
+9. REFERENCES
+• ACMG guidelines for sequence variant interpretation.
+• GATK Best Practices documentation.
+• Manufacturer's protocol for sequencing instrumentation.
+10. APPENDICES
+• Detailed software installation and setup instructions.
+• Example quality control reports.
+• Chain of custody and data tracking forms.

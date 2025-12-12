@@ -1,0 +1,2564 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K232600
+B Applicant
+Beckman Coulter, Inc
+C Proprietary and Established Names
+DxFLEX Flow Cytometer
+ClearLLab 10C Panels (B, T, M1, M2)
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5220 - Automated HE -
+OYE Class II
+differential cell counter Hematology
+21 CFR 864.7010 - Flow cytometric test HE -
+PWD Class II
+system for hematopoietic neoplasms Hematology
+II Submission/Device Overview:
+A Purpose for Submission:
+New instrument for previously cleared assay
+B Type of Test:
+Immunophenotyping, qualitative, flow cytometric instrument
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+OYE			Class II	21 CFR 864.5220 - Automated
+differential cell counter			HE -
+Hematology
+PWD			Class II	21 CFR 864.7010 - Flow cytometric test
+system for hematopoietic neoplasms			HE -
+Hematology
+
+--- Page 2 ---
+B Indication(s) for Use:
+DxFLEX Flow Cytometer
+The DxFLEX Flow Cytometer is intended for use as an in vitro diagnostic device for
+immunophenotyping using up to ten fluorescent detection channels using three lasers (488 nm,
+638 nm, and 405 nm) and two light scatter detection channels. It is intended for use with in vitro
+diagnostic (IVD) assays and software that are indicated for use with the instrument.
+The ClearLLab 10C Panels
+The ClearLLab 10C Panels are intended for in vitro diagnostic use for qualitative identification
+of various cell populations by multiparameter immunophenotyping on the Navios, Navios EX
+and DxFLEX flow cytometers. These reagents are used as an aid in the differential diagnosis of
+hematologically abnormal patients having, or suspected of having, the following hematopoietic
+neoplasms: chronic leukemia, acute leukemia, non-Hodgkin lymphoma, myeloma,
+myelodysplastic syndrome (MDS), and/or myeloproliferative neoplasms (MPN). The reagents
+can be used with peripheral whole blood (collected in K2EDTA, Acid Citrate Dextrose (ACD) or
+Heparin), bone marrow (collected in K2EDTA, ACD or Heparin) and lymph node specimens.
+Interpretation of the results should be confirmed by a pathologist or equivalent professional in
+conjunction with other clinical and laboratory findings. These reagents provide multiparameter,
+qualitative results for the surface antigens listed below:
+• ClearLLab 10C B Cell Tube: Kappa, Lambda, CD10, CD5, CD200, CD34, CD38, CD20,
+CD19, CD45
+• ClearLLab 10C T Cell Tube: TCRγδ, CD4, CD2, CD56, CD5, CD34, CD3, CD8, CD7,
+CD45
+• ClearLLab 10C M1 Cell Tube: CD16, CD7, CD10, CD13, CD64, CD34, CD14, HLA-DR,
+CD11b, CD45
+• ClearLLab 10C M2 Cell Tube: CD15, CD123, CD117, CD13, CD33, CD34, CD38, HLA-
+DR, CD19, CD45
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+For in vitro diagnostic use.
+IV Device/System Characteristics:
+A Device Description:
+1. Device Description:
+The DxFLEX Flow Cytometer uses flow cytometric principles to determine qualitative
+measurements of biological and physical properties of cells and other particles when the cells
+pass through the laser beam(s) in single file.
+K232600 - Page 2 of 27
+
+--- Page 3 ---
+The DxFlex Flow cytometer is being cleared for use with the ClearLLab 10C Reagent
+System which was cleared on the Navios EX Flow cytometer (K183592). The ClearLLab
+10C Reagent System on the DxFLEX Flow Cytometer is comprised of the following:
+• DxFLEX Flow Cytometer [3 laser/10 color configurations]
+• DxFLEX Daily QC Fluorospheres
+• ClearLLab 10C Panels [B, T, M1 and M2]
+• ClearLLab Compensation Kit
+• ClearLLab Compensation Beads
+• ClearLLab Control Cells, normal and abnormal
+• IOTest 3 Fixative Solution [Existing] • IOTest 3 Lysing Solution
+• Kaluza C Software
+The DxFLEX Flow Cytometer includes ten fluorescent detection channels (FL1-FL10) and
+three laser configurations (blue, red and violet).
+The ClearLLab 10C Reagent System on the DxFLEX Flow Cytometer includes the
+CytExpert for DxFLEX Software (i.e., acquisition software) and the Kaluza C Analysis
+Software (i.e., analysis software) (cleared in K183592 (version 1.1)).
+As with the workflow on the predicate system (K183592), listmode (LMD) data analysis is
+performed manually using the Kaluza C Analysis Software. This Analysis Software package
+is supplied separately from the DxFLEX and is installed on an independent computer
+workstation for off-line analysis of listmode files generated on the flow cytometer with the
+associated reagents and cytometer system software package, including Control Cell Quality
+Control (QC) data and sample data analysis. The CytExpert for DxFLEX software is used to
+run the DxFLEX Daily QC Fluorospheres and Compensation products, Kaluza C Software is
+a software tool designed to work with *.fcs and *.lmd files generated from flow cytometers.
+Preset Kaluza C analysis templates for the ClearLLab 10C reagent system will be provided.
+The total WBC gate is defined in the histogram of SS vs. CD45-KO525-A by the inclusion of
+all CD45+ events with low, medium, and high Side Scatter after the exclusion of the cells
+that were compromised and/or aggregated. A subsequent histogram defines specific
+leukocyte subsets such as lymphocytes, monocytes, granulocytes. The low SS/bright CD45+
+population identifies lymphocytes. Applicable markers are then displayed in subsequent
+histograms gated on lymphocytes. This process is repeated for mid SS/medium CD45+
+populations to identify monocytes and for high SS/medium CD45+ to identify granulocytes
+As acquisition software, CytExpert.exe enables the user to acquire data from the DxFLEX
+flow cytometer and allows the user to analyze, display, print and export acquired data.
+The major features of the software are as follows:
+• System Startup
+• Instrument Quality Control and Standardization
+• Data Acquisition
+• Sample Analysis
+• Compensation
+• Data Review
+• Report Generation
+• Daily Clean
+K232600 - Page 3 of 27
+
+--- Page 4 ---
+Kaluza C software is used for post-acquisition analysis and reporting.
+2. Principles of Operation:
+The DxFLEX flow cytometer aligns cells in suspension by hydrodynamic focusing and
+passes them through a laser beam, one cell at a time. The scattered and fluoresced light that
+emanates from these cells as they intersect the laser beam is collected by Avalanche
+Photodiode detectors and transduced to an electronic pulse and counted by the instrument’s
+computer. This test depends on the ability of a monoclonal or polyclonal antibody to bind to
+the surface of cells expressing discrete antigenic determinants. Specific cell staining is
+accomplished by incubating specimens prepared for staining with the appropriate antibody
+reagent. After sample preparation, the specimens are acquired on the QC controlled flow
+cytometer with manual gating.
+B Instrument Description Information:
+1. Instrument Name:
+DxFLEX Flow Cytometer
+2. Specimen Identification:
+Barcode reader or manual entry
+3. Specimen Sampling and Handling:
+The automated sample loader for the instrument uses a carousel that holds thirty-two 12 x 75-
+mm test tubes and includes a barcode reader.
+4. Calibration:
+Fluorescence intensity is calibrated and confirmed using the DxFLEX Daily QC
+Fluorospheres with lot specific target values.
+5. Quality Control:
+The DxFLEX QC process verifies important system functions. The system verifies or
+automatically adjusts the following parameters:
+• Hardware configuration
+• Laser power of each individual laser
+• Laser delays parameters
+• Gain settings
+Beckman Coulter recommends performing QC on a daily basis.
+V Substantial Equivalence Information:
+K232600 - Page 4 of 27
+
+--- Page 5 ---
+A Predicate Device Name(s):
+ClearLLab 10C Panels (B, T, M1, M2)
+Navios Flow Cytometer
+Navios EX Flow Cytometer
+B Predicate 510(k) Number(s):
+K183592
+C Comparison with Predicate(s):
+Device &
+K232600 K183592
+Predicate
+(Candidate) (Predicate)
+Device(s):
+Device Trade
+DxFLEX Flow Cytometer Navios EX Flow Cytometer
+Name
+General Device Characteristic Similarities
+The DxFLEX Flow Cytometer is The Navios EX Flow Cytometer is
+intended for use as an in vitro intended for use as an in vitro
+diagnostic device for diagnostic device for
+immunophenotyping using up to ten immunophenotyping using up to ten
+Intended Use/ fluorescent detection channels using fluorescent detection channels using
+Indications For three lasers (488 nm, 638 nm, and three lasers (488 nm, 638 nm, and
+Use 405 nm) and two light scatter 405 nm) and two light scatter
+detection channels. It is intended for detection channels. It is intended for
+use with in vitro diagnostic (IVD) use with in vitro diagnostic (IVD)
+assays and software that are indicated assays and software that are indicated
+for use with the instrument. for use with the instrument.
+Off-board sample preparation
+Sample
+following instructions provided with Same
+Preparation
+cleared antibody reagent
+Sample Sample prepared in dry reagent tube
+Same
+Presentation presented in the same tube
+Resuspension of
+Prepared Sample
+Prior to Prepared sample is vortex mixed Same
+Introduction to
+System
+• Automated presentation with Multi-
+tube Carousel Loader (MCL) from
+Sample
+32 test tube capacity carousel. Same
+Introduction
+• Manual presentation into a tube
+location on a MCL
+Sample Adjustable (both Beckman Coulter Adjustable (by Beckman Coulter
+Aspiration Probe field service personnel and user) field service personnel)
+K232600 - Page 5 of 27
+
+[Table 1 on page 5]
+	Device &		K232600
+(Candidate)	K183592
+(Predicate)	
+	Predicate				
+	Device(s):				
+Device Trade
+Name			DxFLEX Flow Cytometer	Navios EX Flow Cytometer	
+	General Device Characteristic Similarities				
+Intended Use/
+Indications For
+Use			The DxFLEX Flow Cytometer is
+intended for use as an in vitro
+diagnostic device for
+immunophenotyping using up to ten
+fluorescent detection channels using
+three lasers (488 nm, 638 nm, and
+405 nm) and two light scatter
+detection channels. It is intended for
+use with in vitro diagnostic (IVD)
+assays and software that are indicated
+for use with the instrument.	The Navios EX Flow Cytometer is
+intended for use as an in vitro
+diagnostic device for
+immunophenotyping using up to ten
+fluorescent detection channels using
+three lasers (488 nm, 638 nm, and
+405 nm) and two light scatter
+detection channels. It is intended for
+use with in vitro diagnostic (IVD)
+assays and software that are indicated
+for use with the instrument.	
+Sample
+Preparation			Off-board sample preparation
+following instructions provided with
+cleared antibody reagent	Same	
+Sample
+Presentation			Sample prepared in dry reagent tube
+presented in the same tube	Same	
+Resuspension of
+Prepared Sample
+Prior to
+Introduction to
+System			Prepared sample is vortex mixed	Same	
+Sample
+Introduction			• Automated presentation with Multi-
+tube Carousel Loader (MCL) from
+32 test tube capacity carousel.
+• Manual presentation into a tube
+location on a MCL	Same	
+Sample
+Aspiration Probe			Adjustable (both Beckman Coulter
+field service personnel and user)	Adjustable (by Beckman Coulter
+field service personnel)	
+
+[Table 2 on page 5]
+K232600
+(Candidate)
+
+[Table 3 on page 5]
+K183592
+(Predicate)
+
+--- Page 6 ---
+Bar-code reading of carousel position
+Sample and labeled sample tube. User may
+Same
+Identification also identify samples based on
+carousel location with a worklist.
+Blue (488 nm) Blue (488 nm)
+• Diode Pumped Solid State • Diode Pumped Solid State
+(DPSS), 50mW (DPSS), 55mW
+• 488 nm laser driver board • 488 nm laser driver board
+Red (638 nm)
+Lasers / • Diode Pumped Solid State Same
+Driver Boards (DPSS), 50 mW
+• 638 nm laser driver board
+Violet (405 nm) Violet (405 nm)
+• Diode Pumped Solid State • Diode Pumped Solid State
+(DPSS), 85 mW (DPSS), 80 mW
+• 405 nm laser driver board • 405 nm laser driver board
+• Forward scatter mask
+• Band-pass filter passes only
+Forward Angle
+488nm light Same
+Light Scatter
+• Diode detector converts light into
+electrical signals
+Fluorescent signal is separated into
+Color Separation desired components with dichroic Same
+filters.
+Reagents Used for
+ClearLLab Compensation Kit and Same, except without labeling
+Compensation and
+Compensation Beads will be used changes to include DxFLEX Flow
+Sample
+with the ClearLLab 10C application. Cytometer only
+Preparation
+Kaluza C data analysis software to be
+used with the ClearLLab 10C
+Analysis application and to be used off-line. Same, except analysis protocols are
+Software Analysis protocols are specific for instrument specific
+ClearLLab Reagents on DxFLEX
+Flow Cytometer
+Data Reporting Report, Plots and Statistics printouts Same
+Cleaning Cycle Executed with Sheath Fluid ensuring
+Same
+Between Samples carryover specification is met
+Daily Instrument Checks Supplied
+Quality Control
+Controls for ClearLLab 10C Same
+Techniques
+application
+Cleaning cycle performed with
+FlowClean cleaning reagent as part
+of the daily shutdown process, before Same, except no additional cleaning
+Cleanse Cycle and after running samples with vital cycle required after running Daily
+dyes that stain the tubing, and as part QC Fluorospheres
+of troubleshooting. (Additional
+cleaning cycle required after running
+K232600 - Page 6 of 27
+
+[Table 1 on page 6]
+Sample
+Identification	Bar-code reading of carousel position
+and labeled sample tube. User may
+also identify samples based on
+carousel location with a worklist.	Same
+Lasers /
+Driver Boards	Blue (488 nm)
+• Diode Pumped Solid State
+(DPSS), 50mW
+• 488 nm laser driver board	Blue (488 nm)
+• Diode Pumped Solid State
+(DPSS), 55mW
+• 488 nm laser driver board
+	Red (638 nm)
+• Diode Pumped Solid State
+(DPSS), 50 mW
+• 638 nm laser driver board	Same
+	Violet (405 nm)
+• Diode Pumped Solid State
+(DPSS), 85 mW
+• 405 nm laser driver board	Violet (405 nm)
+• Diode Pumped Solid State
+(DPSS), 80 mW
+• 405 nm laser driver board
+Forward Angle
+Light Scatter	• Forward scatter mask
+• Band-pass filter passes only
+488nm light
+• Diode detector converts light into
+electrical signals	Same
+Color Separation	Fluorescent signal is separated into
+desired components with dichroic
+filters.	Same
+Reagents Used for
+Compensation and
+Sample
+Preparation	ClearLLab Compensation Kit and
+Compensation Beads will be used
+with the ClearLLab 10C application.	Same, except without labeling
+changes to include DxFLEX Flow
+Cytometer only
+Analysis
+Software	Kaluza C data analysis software to be
+used with the ClearLLab 10C
+application and to be used off-line.
+Analysis protocols are specific for
+ClearLLab Reagents on DxFLEX
+Flow Cytometer	Same, except analysis protocols are
+instrument specific
+Data Reporting	Report, Plots and Statistics printouts	Same
+Cleaning Cycle
+Between Samples	Executed with Sheath Fluid ensuring
+carryover specification is met	Same
+Quality Control
+Techniques	Daily Instrument Checks Supplied
+Controls for ClearLLab 10C
+application	Same
+Cleanse Cycle	Cleaning cycle performed with
+FlowClean cleaning reagent as part
+of the daily shutdown process, before
+and after running samples with vital
+dyes that stain the tubing, and as part
+of troubleshooting. (Additional
+cleaning cycle required after running	Same, except no additional cleaning
+cycle required after running Daily
+QC Fluorospheres
+
+--- Page 7 ---
+DxFLEX Daily QC Fluorospheres)
+ClearLLab Control Cells (Normal
+and Abnormal) except with labeling ClearLLab Control Cells (Normal
+Process Controls changes to include DxFLEX Flow and Abnormal)
+Cytometer and assay ranges specific
+for the DxFLEX Flow Cytometer
+Processor PowerPC Same
+Workstation
+Ethernet USB, Ethernet
+Interface
+Data Acquisition Digital Pulse Processing Same
+Interlocks and mitigation of hazards
+Safety Features Same
+via software and hardware controls
+The acquisition software enables the
+user to acquire data from the
+instrument and to analyze, display,
+print and export acquired data.
+The embedded software resides in
+the instrument. It controls the
+instrument functionality including
+the multi-carousel loader (MCL) for
+sample introduction.
+Software Same
+The embedded software controls the
+Architecture
+instruments’ lasers, acquisition
+system and fluidics. The instrument
+fluidics aspirates the sample, and
+performs instrument maintenance
+functions such as startup/shutdown.
+The embedded software also captures
+and provides the data to the
+workstation for processing.
+Allows Patient and Control data
+management – storage, review,
+Software Same
+reporting and system configuration
+Functionality
+management
+• Region/gates evaluation • Region/gates evaluation
+• Statistics generation • Statistics generation
+• Export of results to MS Excel/PDF • Export of results to CSV/PDF file
+file
+Data Processing
+Incoming data stream formatted into Incoming data stream formatted into
+per-parameter vectors for improved per-parameter vectors for improved
+performance of lin/log data performance of lin/log data
+transformations and compensation transformations and compensation
+calculations calculations
+User Interface Plots and reports Same
+Report Generator Panel reports & QC Same
+K232600 - Page 7 of 27
+
+[Table 1 on page 7]
+	DxFLEX Daily QC Fluorospheres)	
+Process Controls	ClearLLab Control Cells (Normal
+and Abnormal) except with labeling
+changes to include DxFLEX Flow
+Cytometer and assay ranges specific
+for the DxFLEX Flow Cytometer	ClearLLab Control Cells (Normal
+and Abnormal)
+Processor	PowerPC	Same
+Workstation
+Interface	Ethernet	USB, Ethernet
+Data Acquisition	Digital Pulse Processing	Same
+Safety Features	Interlocks and mitigation of hazards
+via software and hardware controls	Same
+Software
+Architecture	The acquisition software enables the
+user to acquire data from the
+instrument and to analyze, display,
+print and export acquired data.
+The embedded software resides in
+the instrument. It controls the
+instrument functionality including
+the multi-carousel loader (MCL) for
+sample introduction.
+The embedded software controls the
+instruments’ lasers, acquisition
+system and fluidics. The instrument
+fluidics aspirates the sample, and
+performs instrument maintenance
+functions such as startup/shutdown.
+The embedded software also captures
+and provides the data to the
+workstation for processing.	Same
+Software
+Functionality	Allows Patient and Control data
+management – storage, review,
+reporting and system configuration
+management	Same
+Data Processing	• Region/gates evaluation
+• Statistics generation
+• Export of results to MS Excel/PDF
+file
+Incoming data stream formatted into
+per-parameter vectors for improved
+performance of lin/log data
+transformations and compensation
+calculations	• Region/gates evaluation
+• Statistics generation
+• Export of results to CSV/PDF file
+Incoming data stream formatted into
+per-parameter vectors for improved
+performance of lin/log data
+transformations and compensation
+calculations
+User Interface	Plots and reports	Same
+Report Generator	Panel reports & QC	Same
+
+--- Page 8 ---
+Device &
+K232600 K183592
+Predicate
+(Candidate) (Predicate)
+Device(s):
+Device Trade
+DxFLEX Flow Cytometer Navios EX Flow Cytometer
+Name
+General Device Characteristic Differences
+Forward Angle
+Ellipsoidal mirror to focus the light Single lens collimates the light
+Light Scatter
+Aspherical and cylindrical lenses Spherical and cylindrical lenses
+Optics
+coupled to the flow cell coupled to the flow cell
+• Channel Size: 140 x 460 microns
+• Sheath Flow Pressure: 4 psi
+• Channel Size: 180 x 430 microns
+• Thin wall to allow for gel coupling
+• Sheath Flow Pressure: 18.8 kPa
+distance
+• Optics module temperature
+Flow Cell • Optics module temperature
+management hardware: two
+management hardware: one
+thermoelectric devices at the top and
+thermoelectric device at the top
+bottom of the optics module box
+and bottom of the optics module
+box
+Aspiration Aspiration pathway uses peristaltic Aspiration path uses compressor for
+Pathway pump for automatic presentation automated and manual presentation
+• Collection lens and light path • Collection lens and light path:
+• Spherical mirror and aspheric • Spherical mirror and aspheric
+Schmidt lens Schmidt lens
+• Gel coupled to flow cell • No gel coupling, NA=1.2
+• Light passes through optical fiber to • Light passes through optical fiber
+WDM area to PMT area
+Fluorescence
+• Light leaves the fiber and is • Light leaves the fiber and is
+Collection
+collimated collimated
+• Collimated light is separated by • Collimated light is separated by
+filters into desired bands filters into desired bands
+APDs (Avalanche Photodiodes) detect PMTs detect light and convert to
+light and convert to electrical signals electrical signals
+Electronics 25 MHz sampling 40 MHz sampling
+ClearLLab 10C application will require
+the 10 APDs:
+• Standard 5 APDs (FITC – PC7 off of • Standard 5 PMTs (FL1 – FL5) off
+Detectors/
+488 nm laser (blue) of 488 nm laser (blue)
+Colors
+• Standard 3 APDs (APC – APC-A750) • Standard 3 PMTs (FL6 – FL8) off
+off of 638 nm laser (red) of 638 nm laser (red)
+• Standard 2 APDs (PB450 – KO525) • Standard 2 PMTs (FL9 – FL10) off
+off of 405 nm laser (violet) of 405 nm laser (violet)
+K232600 - Page 8 of 27
+
+[Table 1 on page 8]
+	Device &		K232600
+(Candidate)	K183592
+(Predicate)	
+	Predicate				
+	Device(s):				
+Device Trade
+Name			DxFLEX Flow Cytometer	Navios EX Flow Cytometer	
+	General Device Characteristic Differences				
+Forward Angle
+Light Scatter			Ellipsoidal mirror to focus the light	Single lens collimates the light	
+Optics			Aspherical and cylindrical lenses
+coupled to the flow cell	Spherical and cylindrical lenses
+coupled to the flow cell	
+Flow Cell			• Channel Size: 180 x 430 microns
+• Sheath Flow Pressure: 18.8 kPa
+• Optics module temperature
+management hardware: two
+thermoelectric devices at the top and
+bottom of the optics module box	• Channel Size: 140 x 460 microns
+• Sheath Flow Pressure: 4 psi
+• Thin wall to allow for gel coupling
+distance
+• Optics module temperature
+management hardware: one
+thermoelectric device at the top
+and bottom of the optics module
+box	
+Aspiration
+Pathway			Aspiration pathway uses peristaltic
+pump for automatic presentation	Aspiration path uses compressor for
+automated and manual presentation	
+Fluorescence
+Collection			• Collection lens and light path
+• Spherical mirror and aspheric
+Schmidt lens
+• Gel coupled to flow cell
+• Light passes through optical fiber to
+WDM area
+• Light leaves the fiber and is
+collimated
+• Collimated light is separated by
+filters into desired bands
+APDs (Avalanche Photodiodes) detect
+light and convert to electrical signals	• Collection lens and light path:
+• Spherical mirror and aspheric
+Schmidt lens
+• No gel coupling, NA=1.2
+• Light passes through optical fiber
+to PMT area
+• Light leaves the fiber and is
+collimated
+• Collimated light is separated by
+filters into desired bands
+PMTs detect light and convert to
+electrical signals	
+Electronics			25 MHz sampling	40 MHz sampling	
+Detectors/
+Colors			ClearLLab 10C application will require
+the 10 APDs:
+• Standard 5 APDs (FITC – PC7 off of
+488 nm laser (blue)
+• Standard 3 APDs (APC – APC-A750)
+off of 638 nm laser (red)
+• Standard 2 APDs (PB450 – KO525)
+off of 405 nm laser (violet)	• Standard 5 PMTs (FL1 – FL5) off
+of 488 nm laser (blue)
+• Standard 3 PMTs (FL6 – FL8) off
+of 638 nm laser (red)
+• Standard 2 PMTs (FL9 – FL10) off
+of 405 nm laser (violet)	
+
+[Table 2 on page 8]
+K232600
+(Candidate)
+
+[Table 3 on page 8]
+K183592
+(Predicate)
+
+--- Page 9 ---
+Maximum
+Twelve (Forward Scatter, Side Scatter Twelve (Forward Scatter, Side
+Parameter
+and 10 fluorescence channels) Scatter and 10 fluorescence channels)
+Detectors
+Optical Filters (all band pass): Optical Filters: (SP = Short Pass, BP
+= Band Pass, LP = Long Pass)
+• FITC 525/40 • FITC 550 SP - 525 BP
+• PE 585/42 • PE 595 SP- 575/30 BP
+• ECD 610/20 • ECD 655 SP - 614/20 BP
+• PC5.5 690/50 • PC5.5 730 SP - 695/30 BP
+Optical Filters
+• PC7 780/60 • PC7 755 LP
+• APC-A750 780/60 • APC 710 SP – 660/20 BP
+• APC 660/10 • APC-A700 750 SP –725/20 BP
+• APC-700 712/25 • APC-A750 755 LP
+• PB450 450/45 • PB 480 SP – 450/50 BP
+• KO525 525/40 • KRO 550/40 BP
+DxFLEX Daily QC Fluorospheres
+Assay Controls have target values assigned to monitor Flow-Check Pro Fluorospheres
+and Calibrators optical alignment and fluidics and to Flow-Set Pro Fluorospheres
+aid in standardization.
+Programming C# C++
+Language C++
+Real-time
+N/A VxWorks
+Operating System
+Automatic gain calibration using
+Standardization Automatic voltage/gain adjustments
+target value
+The acquisition software enables the
+CytExpert for DxFLEX software
+user to acquire data from the Navios
+enables the user to acquire data from
+EX Flow Cytometer and to analyze,
+the DxFLEX flow cytometer
+display, print and export acquired
+instrument and to analyze, display,
+listmode data. The embedded
+print and export acquired fcs file.
+software resides in the Navios EX
+CytExpert for DxFLEX controls the
+instrument. It controls the instrument
+instrument functionality including the
+functionality including the multi-
+multi-carousel loader (MCL) for
+carousel loader (MCL) for sample
+sample introduction.
+introduction.
+Control CytExpert for DxFLEX controls the
+The embedded software controls the
+Software instruments’ lasers, acquisition system
+instruments’ lasers, acquisition
+and fluidics. The instrument fluidics
+system and fluidics. The instrument
+aspirates the sample and performs
+fluidics aspirates the sample and
+instrument maintenance functions such
+performs instrument maintenance
+as startup/shutdown.
+functions such as startup/shutdown.
+CytExpert for DxFLEX also captures
+The embedded software also captures
+and provides the data to the
+and provides the data to the
+workstation for processing.
+workstation for processing.
+Communication protocol
+Communication protocol
+Region and Gate processing Region and Gate processing
+Data Processing Statistics Generation Statistics Generation
+Export to CSV Export to Excel
+K232600 - Page 9 of 27
+
+[Table 1 on page 9]
+Maximum
+Parameter
+Detectors	Twelve (Forward Scatter, Side Scatter
+and 10 fluorescence channels)	Twelve (Forward Scatter, Side
+Scatter and 10 fluorescence channels)
+Optical Filters	Optical Filters (all band pass):
+• FITC 525/40
+• PE 585/42
+• ECD 610/20
+• PC5.5 690/50
+• PC7 780/60
+• APC-A750 780/60
+• APC 660/10
+• APC-700 712/25
+• PB450 450/45
+• KO525 525/40	Optical Filters: (SP = Short Pass, BP
+= Band Pass, LP = Long Pass)
+• FITC 550 SP - 525 BP
+• PE 595 SP- 575/30 BP
+• ECD 655 SP - 614/20 BP
+• PC5.5 730 SP - 695/30 BP
+• PC7 755 LP
+• APC 710 SP – 660/20 BP
+• APC-A700 750 SP –725/20 BP
+• APC-A750 755 LP
+• PB 480 SP – 450/50 BP
+• KRO 550/40 BP
+Assay Controls
+and Calibrators	DxFLEX Daily QC Fluorospheres
+have target values assigned to monitor
+optical alignment and fluidics and to
+aid in standardization.	Flow-Check Pro Fluorospheres
+Flow-Set Pro Fluorospheres
+Programming
+Language	C#
+C++	C++
+Real-time
+Operating System	N/A	VxWorks
+Standardization	Automatic voltage/gain adjustments	Automatic gain calibration using
+target value
+Control
+Software	CytExpert for DxFLEX software
+enables the user to acquire data from
+the DxFLEX flow cytometer
+instrument and to analyze, display,
+print and export acquired fcs file.
+CytExpert for DxFLEX controls the
+instrument functionality including the
+multi-carousel loader (MCL) for
+sample introduction.
+CytExpert for DxFLEX controls the
+instruments’ lasers, acquisition system
+and fluidics. The instrument fluidics
+aspirates the sample and performs
+instrument maintenance functions such
+as startup/shutdown.
+CytExpert for DxFLEX also captures
+and provides the data to the
+workstation for processing.
+Communication protocol	The acquisition software enables the
+user to acquire data from the Navios
+EX Flow Cytometer and to analyze,
+display, print and export acquired
+listmode data. The embedded
+software resides in the Navios EX
+instrument. It controls the instrument
+functionality including the multi-
+carousel loader (MCL) for sample
+introduction.
+The embedded software controls the
+instruments’ lasers, acquisition
+system and fluidics. The instrument
+fluidics aspirates the sample and
+performs instrument maintenance
+functions such as startup/shutdown.
+The embedded software also captures
+and provides the data to the
+workstation for processing.
+Communication protocol
+Data Processing	Region and Gate processing
+Statistics Generation
+Export to CSV	Region and Gate processing
+Statistics Generation
+Export to Excel
+
+--- Page 10 ---
+VI Standards/Guidance Documents Referenced:
+• CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures
+• CLSI EP09c 3rd Edition, Measurement Procedure Comparison and Bias Estimation Using
+Patient Samples
+• CLSI EP12 3rd Edition, Evaluation of Qualitative, Binary Output Examination Performance
+• CLSI EP43-A2, Clinical Flow Cytometric Analysis of Neoplastic Hematolymphoid Cells
+• CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated Hematology
+Analyzers
+• IEC 61326-1 Edition 3.0 2020-10, Electrical equipment for measurement, control and
+laboratory use - EMC requirements - Part 1: General requirements
+• IEC 61326-2-6 Edition 3.0 2020-10, Electrical equipment for measurement, control and
+laboratory use - EMC requirements - Part 2-6: Particular requirements - In vitro diagnostic
+(IVD) medical equipment
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Precision studies were conducted according to the methodology presented in CLSI EP12‐Ed3
+and CLSI EP05-A3.
+a. Precision (repeatability):
+The repeatability of normal and abnormal clinical specimens representing clinical
+matrices and anticoagulants was evaluated with the ClearLLab 10C Panels on the
+DxFLEX Flow Cytometer at three sites. Sixty-four specimens across the three specimen
+types, i.e., whole blood (WB), bone marrow (BM), and lymph node (LN), were
+evaluated, with two excluded (due to specimen age and operator error). Each site
+employed a different anticoagulant for specimens, according to their current clinical
+practice: K2EDTA, acid citrate dextrose (ACD), or heparin.
+Unless otherwise specified, a minimum of two specimens per specimen type per panel for
+each anticoagulant (site) was included. For LN specimens, there was no minimum
+requirement for the T panel (due to the low incidence of T lineage abnormalities), nor for
+M1 and M2 (due to the development property of myeloid cells and the pathogenesis of
+Myeloid abnormalities). Each specimen per panel was analyzed twice each day. There
+were six sample preparations in the morning and six sample preparations in the afternoon,
+resulting in a total of 12 replicates per specimen per panel. From 768 initial total
+replicates, 24 were excluded for reasons of specimen quality or operator error. Both
+quantitative and qualitative assessment were applied to the precision assessment where
+the presence or absence of an abnormal phenotype was reported.
+K232600 - Page 10 of 27
+
+--- Page 11 ---
+All results showed 100% qualitative agreement across all sites, panels, anticoagulants,
+specimen types, and phenotypes.
+For repeatability evaluation, pre-defined hematopoietic lineage populations were defined
+as in the table below:
+Population definitions for evaluation of multi-site reproducibility of ClearLLab 10C
+Normal Immunophenotype of Normal Specimen Abnormal
+Panel
+Population Population Type Markers
+CD45bright SSlow CD19+ CD20+ WB
+Mature κ+
+Kappa+ CD38dim CD200+ CD10− BM
+B cells CD5
+CD5− CD34− LN
+B CD10
+CD45bright SSlow CD19+ CD20+ WB
+Mature λ+ CD34
+Lambda+ CD38dim CD200+ CD10− BM
+B cells
+CD5− CD34− LN
+CD45bright SSlow CD2+ CD3+ WB
+Helper T
+CD4+ CD8− CD5+ CD7+ CD56− BM
+cells
+TCRγδ – CD34− LN
+CD45bright SSlow CD2+ CD3+ WB
+Cytotoxic T
+CD8+ CD4− CD5+ CD7+ CD56− BM
+cells
+TCRγδ – CD34− LN
+T CD34
+CD45bright SSclow CD56+ CD2+ CD3− WB
+NK cells CD4− CD8+/− CD5− CD7+ BM
+TCRγδ – CD34− LN
+CD45bright SSlow CD2+ CD3bright WB
+γδ T cells TCRγδ + CD4− CD8− CD5+ CD7+ BM
+CD56- CD34− LN
+CD45dim SShigh CD16+ CD10+ WB
+Neutrophils CD13+ CD11b+ CD7− CD64− CD14−
+BM
+CD34− HLA-DR−
+CD7
+M1 CD45med SSmed CD13+ CD64+ WB
+CD34
+CD14+ HLA-DR+ CD11b+ CD16−
+Monocytes
+CD7− BM
+CD10− CD34−
+CD45dim SShigh CD15+ CD13+ WB
+Neutrophils CD33+/− CD123− CD117− CD34−
+BM
+CD19− CD38− HLA-DR− CD34−
+CD45med SSmed CD13+ CD33+ WB CD19
+M2 Monocytes CD38+ HLA-DR+ CD15− CD123− CD34
+BM
+CD19− CD34− CD117− CD117
+CD45dim CD123bright CD38bright WB
+Basophils CD13+ CD33+ CD15− CD117−
+BM
+CD34− HLA-DR− CD19−
+The results based on qualitative agreement are summarized in the following tables:
+K232600 - Page 11 of 27
+
+[Table 1 on page 11]
+Population definitions for evaluation of multi-site reproducibility of ClearLLab 10C												
+Panel		Normal			Immunophenotype of Normal			Specimen			Abnormal	
+		Population			Population			Type			Markers	
+B	Mature κ+
+B cells			CD45bright SSlow CD19+ CD20+
+Kappa+ CD38dim CD200+ CD10−
+CD5− CD34−			WB			CD5
+CD10
+CD34		
+							BM					
+							LN					
+	Mature λ+
+B cells			CD45bright SSlow CD19+ CD20+
+Lambda+ CD38dim CD200+ CD10−
+CD5− CD34−			WB					
+							BM					
+							LN					
+T	Helper T
+cells			CD45bright SSlow CD2+ CD3+
+CD4+ CD8− CD5+ CD7+ CD56−
+TCRγδ – CD34−			WB			CD34		
+							BM					
+							LN					
+	Cytotoxic T
+cells			CD45bright SSlow CD2+ CD3+
+CD8+ CD4− CD5+ CD7+ CD56−
+TCRγδ – CD34−			WB					
+							BM					
+							LN					
+	NK cells			CD45bright SSclow CD56+ CD2+ CD3−
+CD4− CD8+/− CD5− CD7+
+TCRγδ – CD34−			WB					
+							BM					
+							LN					
+	γδ T cells			CD45bright SSlow CD2+ CD3bright
+TCRγδ + CD4− CD8− CD5+ CD7+
+CD56- CD34−			WB					
+							BM					
+							LN					
+M1	Neutrophils			CD45dim SShigh CD16+ CD10+
+CD13+ CD11b+ CD7− CD64− CD14−
+CD34− HLA-DR−			WB			CD7
+CD34		
+							BM					
+	Monocytes			CD45med SSmed CD13+ CD64+
+CD14+ HLA-DR+ CD11b+ CD16−
+CD7−
+CD10− CD34−			WB					
+							BM					
+M2	Neutrophils			CD45dim SShigh CD15+ CD13+
+CD33+/− CD123− CD117− CD34−
+CD19− CD38− HLA-DR− CD34−			WB			CD19
+CD34
+CD117		
+							BM					
+	Monocytes			CD45med SSmed CD13+ CD33+
+CD38+ HLA-DR+ CD15− CD123−
+CD19− CD34− CD117−			WB					
+							BM					
+	Basophils			CD45dim CD123bright CD38bright
+CD13+ CD33+ CD15− CD117−
+CD34− HLA-DR− CD19−			WB					
+							BM					
+
+--- Page 12 ---
+Qualitative Agreement – by Specimen, by Site
+Site Panel Anticoagulant Specimen Type Phenotype N
+1 B ACD BM Abnormal (+) 12
+1 B ACD BM Abnormal (+) 12
+1 B ACD BM Normal (−) 12
+1 B n/a LN Abnormal (+) 12
+1 B n/a LN Abnormal (+) 12
+1 B n/a LN Normal (−) 12
+1 B ACD WB Abnormal (+) 12
+1 B ACD WB Normal (−) 12
+2 B K EDTA BM Abnormal (+) 12
+2
+2 B K EDTA BM Abnormal (+) 12
+2
+2 B K EDTA BM Normal (−) 12
+2
+2 B n/a LN Abnormal (+) 12
+2 B n/a LN Normal (−) 12
+2 B K EDTA WB Normal (−) 12
+2
+2 B K EDTA WB Abnormal (+) 12
+2
+3 B Heparin BM Abnormal (+) 12
+3 B Heparin BM Normal (−) 12
+3 B Heparin WB Abnormal (+) 12
+3 B Heparin WB Abnormal (+) 12
+3 B Heparin WB Normal (−) 12
+3 B Heparin LN Abnormal (+) 12
+3 B Heparin LN Abnormal (+) 12
+1 M1 ACD BM Abnormal (+) 12
+1 M1 ACD BM Normal (−) 12
+1 M1 ACD WB Abnormal (+) 12
+1 M1 ACD WB Normal (−) 12
+2 M1 K EDTA BM Normal (−) 12
+2
+2 M1 K EDTA BM Abnormal (+) 12
+2
+2 M1 K EDTA WB Abnormal (+) 12
+2
+2 M1 K EDTA WB Abnormal (+) 12
+2
+2 M1 K EDTA WB Normal (−) 12
+2
+3 M1 Heparin BM Abnormal (+) 12
+3 M1 Heparin BM Normal (−) 12
+3 M1 Heparin WB Abnormal (+) 12
+3 M1 Heparin WB Normal (−) 12
+1 M2 ACD BM Abnormal (+) 12
+1 M2 ACD BM Normal (−) 12
+1 M2 ACD WB Abnormal (+) 12
+1 M2 ACD WB Normal (−) 12
+2 M2 K EDTA BM Abnormal (+) 12
+2
+2 M2 K EDTA BM Abnormal (+) 12
+2
+2 M2 K EDTA BM Normal (−) 12
+2
+2 M2 K EDTA WB Abnormal (+) 12
+2
+2 M2 K EDTA WB Normal (−) 12
+2
+2 M2 K EDTA WB Normal (−) 12
+2
+K232600 - Page 12 of 27
+
+[Table 1 on page 12]
+Qualitative Agreement – by Specimen, by Site																
+	Site			Panel			Anticoagulant			Specimen Type			Phenotype			N
+1			B			ACD			BM			Abnormal (+)			12	
+1			B			ACD			BM			Abnormal (+)			12	
+1			B			ACD			BM			Normal (−)			12	
+1			B			n/a			LN			Abnormal (+)			12	
+1			B			n/a			LN			Abnormal (+)			12	
+1			B			n/a			LN			Normal (−)			12	
+1			B			ACD			WB			Abnormal (+)			12	
+1			B			ACD			WB			Normal (−)			12	
+2			B			K EDTA
+2			BM			Abnormal (+)			12	
+2			B			K EDTA
+2			BM			Abnormal (+)			12	
+2			B			K EDTA
+2			BM			Normal (−)			12	
+2			B			n/a			LN			Abnormal (+)			12	
+2			B			n/a			LN			Normal (−)			12	
+2			B			K EDTA
+2			WB			Normal (−)			12	
+2			B			K EDTA
+2			WB			Abnormal (+)			12	
+3			B			Heparin			BM			Abnormal (+)			12	
+3			B			Heparin			BM			Normal (−)			12	
+3			B			Heparin			WB			Abnormal (+)			12	
+3			B			Heparin			WB			Abnormal (+)			12	
+3			B			Heparin			WB			Normal (−)			12	
+3			B			Heparin			LN			Abnormal (+)			12	
+3			B			Heparin			LN			Abnormal (+)			12	
+1			M1			ACD			BM			Abnormal (+)			12	
+1			M1			ACD			BM			Normal (−)			12	
+1			M1			ACD			WB			Abnormal (+)			12	
+1			M1			ACD			WB			Normal (−)			12	
+2			M1			K EDTA
+2			BM			Normal (−)			12	
+2			M1			K EDTA
+2			BM			Abnormal (+)			12	
+2			M1			K EDTA
+2			WB			Abnormal (+)			12	
+2			M1			K EDTA
+2			WB			Abnormal (+)			12	
+2			M1			K EDTA
+2			WB			Normal (−)			12	
+3			M1			Heparin			BM			Abnormal (+)			12	
+3			M1			Heparin			BM			Normal (−)			12	
+3			M1			Heparin			WB			Abnormal (+)			12	
+3			M1			Heparin			WB			Normal (−)			12	
+1			M2			ACD			BM			Abnormal (+)			12	
+1			M2			ACD			BM			Normal (−)			12	
+1			M2			ACD			WB			Abnormal (+)			12	
+1			M2			ACD			WB			Normal (−)			12	
+2			M2			K EDTA
+2			BM			Abnormal (+)			12	
+2			M2			K EDTA
+2			BM			Abnormal (+)			12	
+2			M2			K EDTA
+2			BM			Normal (−)			12	
+2			M2			K EDTA
+2			WB			Abnormal (+)			12	
+2			M2			K EDTA
+2			WB			Normal (−)			12	
+2			M2			K EDTA
+2			WB			Normal (−)			12	
+
+--- Page 13 ---
+Qualitative Agreement – by Specimen, by Site
+Site Panel Anticoagulant Specimen Type Phenotype N
+3 M2 Heparin BM Abnormal (+) 12
+3 M2 Heparin BM Abnormal (+) 12
+3 M2 Heparin WB Normal (−) 12
+3 M2 Heparin WB Abnormal (+) 12
+1 T ACD BM Abnormal (+) 12
+1 T ACD BM Normal (−) 12
+1 T ACD WB Normal (−) 12
+1 T ACD WB Normal (−) 12
+2 T K EDTA BM Normal (−) 12
+2
+2 T K EDTA BM Normal (−) 12
+2
+2 T K EDTA WB Abnormal (+) 12
+2
+2 T K EDTA WB Normal (−) 12
+2
+2 T n/a LN Normal (−) 12
+2 T n/a LN Normal (−) 12
+3 T Heparin BM Normal (−) 12
+3 T Heparin BM Abnormal (+) 12
+3 T Heparin WB Normal (−) 12
+3 T Heparin WB Normal (−) 12
+Qualitative Agreement – by Anticoagulant and Specimen Type
+(Sites and Specimens combined)
+Panel Anticoagulant Specimen Type Phenotype N
+B ACD BM Normal (−) 12
+B ACD BM Abnormal (+) 12
+B ACD BM Both (+/−) 24
+B ACD WB Normal (−) 12
+B ACD WB Abnormal (+) 12
+B ACD WB Both (+/−) 24
+B Heparin BM Normal (−) 12
+B Heparin BM Abnormal (+) 12
+B Heparin BM Both (+/−) 24
+B Heparin WB Normal (−) 12
+B Heparin WB Abnormal (+) 24
+B Heparin WB Both (+/−) 36
+B K EDTA BM Normal (−) 12
+2
+B K EDTA BM Abnormal (+) 24
+2
+B K EDTA BM Both (+/−) 36
+2
+B K EDTA WB Normal (−) 12
+2
+B K EDTA WB Abnormal (+) 12
+2
+B K EDTA WB Both (+/−) 24
+2
+B n/a LN Normal (−) 24
+B n/a LN Abnormal (+) 60
+B n/a LN Both (+/−) 84
+M1 ACD BM Normal (−) 12
+K232600 - Page 13 of 27
+
+[Table 1 on page 13]
+Qualitative Agreement – by Specimen, by Site													
+Site			Panel			Anticoagulant	Specimen Type			Phenotype			N
+3		M2			Heparin		BM		Abnormal (+)			12	
+3		M2			Heparin		BM		Abnormal (+)			12	
+3		M2			Heparin		WB		Normal (−)			12	
+3		M2			Heparin		WB		Abnormal (+)			12	
+1		T			ACD		BM		Abnormal (+)			12	
+1		T			ACD		BM		Normal (−)			12	
+1		T			ACD		WB		Normal (−)			12	
+1		T			ACD		WB		Normal (−)			12	
+2		T			K EDTA
+2		BM		Normal (−)			12	
+2		T			K EDTA
+2		BM		Normal (−)			12	
+2		T			K EDTA
+2		WB		Abnormal (+)			12	
+2		T			K EDTA
+2		WB		Normal (−)			12	
+2		T			n/a		LN		Normal (−)			12	
+2		T			n/a		LN		Normal (−)			12	
+3		T			Heparin		BM		Normal (−)			12	
+3		T			Heparin		BM		Abnormal (+)			12	
+3		T			Heparin		WB		Normal (−)			12	
+3		T			Heparin		WB		Normal (−)			12	
+
+[Table 2 on page 13]
+Qualitative Agreement – by Anticoagulant and Specimen Type
+(Sites and Specimens combined)											
+Panel			Anticoagulant	Specimen Type			Phenotype			N	
+B		ACD		BM		Normal (−)			12		
+B		ACD		BM		Abnormal (+)			12		
+B		ACD		BM		Both (+/−)			24		
+B		ACD		WB		Normal (−)			12		
+B		ACD		WB		Abnormal (+)			12		
+B		ACD		WB		Both (+/−)			24		
+B		Heparin		BM		Normal (−)			12		
+B		Heparin		BM		Abnormal (+)			12		
+B		Heparin		BM		Both (+/−)			24		
+B		Heparin		WB		Normal (−)			12		
+B		Heparin		WB		Abnormal (+)			24		
+B		Heparin		WB		Both (+/−)			36		
+B		K EDTA
+2		BM		Normal (−)			12		
+B		K EDTA
+2		BM		Abnormal (+)			24		
+B		K EDTA
+2		BM		Both (+/−)			36		
+B		K EDTA
+2		WB		Normal (−)			12		
+B		K EDTA
+2		WB		Abnormal (+)			12		
+B		K EDTA
+2		WB		Both (+/−)			24		
+B		n/a		LN		Normal (−)			24		
+B		n/a		LN		Abnormal (+)			60		
+B		n/a		LN		Both (+/−)			84		
+M1		ACD		BM		Normal (−)			12		
+
+--- Page 14 ---
+Qualitative Agreement – by Anticoagulant and Specimen Type
+(Sites and Specimens combined)
+Panel Anticoagulant Specimen Type Phenotype N
+M1 ACD BM Abnormal (+) 12
+M1 ACD BM Both (+/−) 24
+M1 ACD WB Normal (−) 12
+M1 ACD WB Abnormal (+) 12
+M1 ACD WB Both (+/−) 24
+M1 Heparin BM Normal (−) 12
+M1 Heparin BM Abnormal (+) 12
+M1 Heparin BM Both (+/−) 24
+M1 Heparin WB Normal (−) 12
+M1 Heparin WB Abnormal (+) 12
+M1 Heparin WB Both (+/−) 24
+M1 K EDTA BM Normal (−) 12
+2
+M1 K EDTA BM Abnormal (+) 12
+2
+M1 K EDTA BM Both (+/−) 24
+2
+M1 K EDTA WB Normal (−) 12
+2
+M1 K EDTA WB Abnormal (+) 24
+2
+M1 K EDTA WB Both (+/−) 36
+2
+M2 ACD BM Normal (−) 12
+M2 ACD BM Abnormal (+) 12
+M2 ACD BM Both (+/−) 24
+M2 ACD WB Normal (−) 12
+M2 ACD WB Abnormal (+) 12
+M2 ACD WB Both (+/−) 24
+M2 Heparin BM Normal (−) 12
+M2 Heparin BM Abnormal (+) 12
+M2 Heparin BM Both (+/−) 24
+M2 Heparin WB Normal (−) 12
+M2 Heparin WB Abnormal (+) 12
+M2 Heparin WB Both (+/−) 24
+M2 K EDTA BM Normal (−) 12
+2
+M2 K EDTA BM Abnormal (+) 24
+2
+M2 K EDTA BM Both (+/−) 36
+2
+M2 K EDTA WB Normal (−) 24
+2
+M2 K EDTA WB Abnormal (+) 12
+2
+M2 K EDTA WB Both (+/−) 36
+2
+T ACD BM Normal (−) 12
+T ACD BM Abnormal (+) 12
+T ACD BM Both (+/−) 24
+T ACD WB Normal (−) 24
+T Heparin BM Normal (−) 12
+T Heparin BM Abnormal (+) 12
+T Heparin BM Both (+/−) 24
+T Heparin WB Normal (−) 24
+T K EDTA BM Normal (−) 24
+2
+K232600 - Page 14 of 27
+
+[Table 1 on page 14]
+Qualitative Agreement – by Anticoagulant and Specimen Type
+(Sites and Specimens combined)														
+	Panel			Anticoagulant			Specimen Type			Phenotype			N	
+M1			ACD			BM			Abnormal (+)			12		
+M1			ACD			BM			Both (+/−)			24		
+M1			ACD			WB			Normal (−)			12		
+M1			ACD			WB			Abnormal (+)			12		
+M1			ACD			WB			Both (+/−)			24		
+M1			Heparin			BM			Normal (−)			12		
+M1			Heparin			BM			Abnormal (+)			12		
+M1			Heparin			BM			Both (+/−)			24		
+M1			Heparin			WB			Normal (−)			12		
+M1			Heparin			WB			Abnormal (+)			12		
+M1			Heparin			WB			Both (+/−)			24		
+M1			K EDTA
+2			BM			Normal (−)			12		
+M1			K EDTA
+2			BM			Abnormal (+)			12		
+M1			K EDTA
+2			BM			Both (+/−)			24		
+M1			K EDTA
+2			WB			Normal (−)			12		
+M1			K EDTA
+2			WB			Abnormal (+)			24		
+M1			K EDTA
+2			WB			Both (+/−)			36		
+M2			ACD			BM			Normal (−)			12		
+M2			ACD			BM			Abnormal (+)			12		
+M2			ACD			BM			Both (+/−)			24		
+M2			ACD			WB			Normal (−)			12		
+M2			ACD			WB			Abnormal (+)			12		
+M2			ACD			WB			Both (+/−)			24		
+M2			Heparin			BM			Normal (−)			12		
+M2			Heparin			BM			Abnormal (+)			12		
+M2			Heparin			BM			Both (+/−)			24		
+M2			Heparin			WB			Normal (−)			12		
+M2			Heparin			WB			Abnormal (+)			12		
+M2			Heparin			WB			Both (+/−)			24		
+M2			K EDTA
+2			BM			Normal (−)			12		
+M2			K EDTA
+2			BM			Abnormal (+)			24		
+M2			K EDTA
+2			BM			Both (+/−)			36		
+M2			K EDTA
+2			WB			Normal (−)			24		
+M2			K EDTA
+2			WB			Abnormal (+)			12		
+M2			K EDTA
+2			WB			Both (+/−)			36		
+T			ACD			BM			Normal (−)			12		
+T			ACD			BM			Abnormal (+)			12		
+T			ACD			BM			Both (+/−)			24		
+T			ACD			WB			Normal (−)			24		
+T			Heparin			BM			Normal (−)			12		
+T			Heparin			BM			Abnormal (+)			12		
+T			Heparin			BM			Both (+/−)			24		
+T			Heparin			WB			Normal (−)			24		
+T			K EDTA
+2			BM			Normal (−)			24		
+
+--- Page 15 ---
+Qualitative Agreement – by Anticoagulant and Specimen Type
+(Sites and Specimens combined)
+Panel Anticoagulant Specimen Type Phenotype N
+T K EDTA WB Normal (−) 12
+2
+T K EDTA WB Abnormal (+) 12
+2
+T K EDTA WB Both (+/−) 24
+2
+T n/a LN Normal (−) 24
+Results based on quantitative analysis are summarized in the table below:
+Quantitative Results – by Specimen, by Site
+Between- Within-
+Specimen Anti- Mean Repeatability
+Panel Site Population N Run Sample
+Type coagulant (%)
+SD %CV SD %CV SD %CV
+B 1 LN N/A CD19+CD5+ 12 91.96 0.62 0.67 0.82 0.89 1.02 1.11
+B 1 LN N/A CD19+CD5+ 12 32.64 1.37 4.18 1.40 4.30 1.96 6.00
+B 1 LN N/A Mature κ+ B cells 12 66.93 1.82 2.72 0.00 0.00 1.82 2.72
+B 1 LN N/A Mature λ+ B cells 12 30.19 1.23 4.07 0.64 2.13 1.39 4.6
+B 1 BM ACD Mature κ+ B cells 12 42.04 1.45 3.46 0.00 0.00 1.45 3.46
+B 1 BM ACD Mature λ+ B cells 12 27.88 1.06 3.80 0.00 0.00 1.06 3.80
+B 1 WB ACD Mature κ+ B cells 12 64.03 0.61 0.95 0.00 0.00 0.61 0.95
+B 1 WB ACD Mature λ+ B cells 12 35.54 0.71 1.99 0.00 0.00 0.71 1.99
+B 1 WB ACD CD19+CD5+ 12 98.66 0.38 0.39 0.00 0.00 0.38 0.39
+B 1 BM ACD CD19+CD5+ 12 95.01 0.81 0.86 1.14 1.20 1.40 1.48
+B 2 WB Heparin CD19+CD5+ 12 98.81 0.09 0.09 0.00 0.00 0.03 0.04
+B 2 BM Heparin CD19+CD5+ 12 99.37 0.03 0.04 0.00 0.00 0.02 0.02
+B 2 WB Heparin Mature λ+ B cells 12 99.81 0.02 0.02 0.00 0.00 2.64 4.38
+B 2 WB Heparin Mature κ+ B cells 12 60.28 2.64 4.38 0.00 0.00 2.57 6.52
+B 2 WB Heparin Mature λ+ B cells 12 39.49 2.57 6.52 0.00 0.00 0.79 1.92
+B 2 BM Heparin Mature κ+ B cells 12 41.46 0.79 1.92 0.12 0.41 0.81 2.70
+B 2 BM Heparin Mature λ+ B cells 12 30.03 0.80 2.67 0.12 0.41 0.81 2.70
+B 2 LN N/A CD19+CD5+ 12 7.59 0.51 6.78 0.00 0.00 0.51 6.78
+B 2 LN N/A CD19+CD10+ 12 39.65 1.14 2.87 0.48 1.20 1.23 3.11
+B 2 LN N/A CD19+CD5+ 12 39.90 1.39 3.50 1.20 3.00 1.84 4.61
+B 3 WB K EDTA Mature κ+ B cells 12 71.02 0.63 0.89 0.00 0.00 0.63 0.89
+2
+B 3 WB K EDTA Mature λ+ B cells 12 28.83 0.63 2.19 0.00 0.00 0.63 2.19
+2
+B 3 BM K EDTA Mature κ+ B cells 12 67.86 0.82 1.22 2.06 3.04 2.22 3.27
+2
+B 3 BM K EDTA Mature λ+ B cells 12 31.78 0.87 2.73 2.07 6.53 2.25 7.08
+2
+B 3 LN NA Mature κ+ B cells 12 48.60 1.40 2.88 0.00 0.00 1.40 2.88
+B 3 LN NA Mature λ+ B cells 12 50.15 1.44 2.88 0.00 0.00 1.44 2.88
+B 3 BM K EDTA CD19+CD5+ 12 99.42 0.09 0.09 0.06 0.06 0.11 0.11
+2
+B 3 WB K EDTA CD19+CD10+ 12 98.49 0.12 0.12 0.31 0.31 0.33 0.34
+2
+B 3 LN N/A CD19+CD5+ 12 78.61 1.36 1.73 0.00 0.00 1.36 1.73
+B 3 BM K EDTA CD19+CD5+ 12 99.51 0.03 0.03 0.00 0.00 0.03 0.03
+2
+M1 1 BM ACD CD16+Neutrophiles 12 19.39 0.58 2.99 0.74 3.82 0.94 4.85
+M1 1 BM ACD CD64+Monocytes 12 7.24 0.17 2.32 0.12 1.63 0.21 2.84
+M1 1 WB ACD CD16+Neutrophiles 12 28.62 1.57 5.49 1.15 4.02 1.95 6.81
+M1 1 WB ACD CD64+Monocytes 12 2.82 0.18 6.51 0.09 3.11 0.20 7.21
+M1 1 WB ACD CD34-CD7+ 12 2.21 0.08 3.55 0.00 0.00 0.08 3.55
+K232600 - Page 15 of 27
+
+[Table 1 on page 15]
+Qualitative Agreement – by Anticoagulant and Specimen Type
+(Sites and Specimens combined)												
+	Panel			Anticoagulant			Specimen Type	Phenotype			N	
+T			K EDTA
+2			WB		Normal (−)		12		
+T			K EDTA
+2			WB		Abnormal (+)		12		
+T			K EDTA
+2			WB		Both (+/−)		24		
+T			n/a			LN		Normal (−)		24		
+
+[Table 2 on page 15]
+Quantitative Results – by Specimen, by Site																							
+Panel	Site	Specimen
+Type	Anti-
+coagulant	Population	N	Mean
+(%)	Repeatability						Between-						Within-				
+													Run						Sample				
+							SD			%CV			SD			%CV			SD			%CV	
+B	1	LN	N/A	CD19+CD5+	12	91.96	0.62		0.67			0.82			0.89			1.02			1.11		
+B	1	LN	N/A	CD19+CD5+	12	32.64	1.37		4.18			1.40			4.30			1.96			6.00		
+B	1	LN	N/A	Mature κ+ B cells	12	66.93	1.82		2.72			0.00			0.00			1.82			2.72		
+B	1	LN	N/A	Mature λ+ B cells	12	30.19	1.23		4.07			0.64			2.13			1.39			4.6		
+B	1	BM	ACD	Mature κ+ B cells	12	42.04	1.45		3.46			0.00			0.00			1.45			3.46		
+B	1	BM	ACD	Mature λ+ B cells	12	27.88	1.06		3.80			0.00			0.00			1.06			3.80		
+B	1	WB	ACD	Mature κ+ B cells	12	64.03	0.61		0.95			0.00			0.00			0.61			0.95		
+B	1	WB	ACD	Mature λ+ B cells	12	35.54	0.71		1.99			0.00			0.00			0.71			1.99		
+B	1	WB	ACD	CD19+CD5+	12	98.66	0.38		0.39			0.00			0.00			0.38			0.39		
+B	1	BM	ACD	CD19+CD5+	12	95.01	0.81		0.86			1.14			1.20			1.40			1.48		
+B	2	WB	Heparin	CD19+CD5+	12	98.81	0.09		0.09			0.00			0.00			0.03			0.04		
+B	2	BM	Heparin	CD19+CD5+	12	99.37	0.03		0.04			0.00			0.00			0.02			0.02		
+B	2	WB	Heparin	Mature λ+ B cells	12	99.81	0.02		0.02			0.00			0.00			2.64			4.38		
+B	2	WB	Heparin	Mature κ+ B cells	12	60.28	2.64		4.38			0.00			0.00			2.57			6.52		
+B	2	WB	Heparin	Mature λ+ B cells	12	39.49	2.57		6.52			0.00			0.00			0.79			1.92		
+B	2	BM	Heparin	Mature κ+ B cells	12	41.46	0.79		1.92			0.12			0.41			0.81			2.70		
+B	2	BM	Heparin	Mature λ+ B cells	12	30.03	0.80		2.67			0.12			0.41			0.81			2.70		
+B	2	LN	N/A	CD19+CD5+	12	7.59	0.51		6.78			0.00			0.00			0.51			6.78		
+B	2	LN	N/A	CD19+CD10+	12	39.65	1.14		2.87			0.48			1.20			1.23			3.11		
+B	2	LN	N/A	CD19+CD5+	12	39.90	1.39		3.50			1.20			3.00			1.84			4.61		
+B	3	WB	K EDTA
+2	Mature κ+ B cells	12	71.02	0.63		0.89			0.00			0.00			0.63			0.89		
+B	3	WB	K EDTA
+2	Mature λ+ B cells	12	28.83	0.63		2.19			0.00			0.00			0.63			2.19		
+B	3	BM	K EDTA
+2	Mature κ+ B cells	12	67.86	0.82		1.22			2.06			3.04			2.22			3.27		
+B	3	BM	K EDTA
+2	Mature λ+ B cells	12	31.78	0.87		2.73			2.07			6.53			2.25			7.08		
+B	3	LN	NA	Mature κ+ B cells	12	48.60	1.40		2.88			0.00			0.00			1.40			2.88		
+B	3	LN	NA	Mature λ+ B cells	12	50.15	1.44		2.88			0.00			0.00			1.44			2.88		
+B	3	BM	K EDTA
+2	CD19+CD5+	12	99.42	0.09		0.09			0.06			0.06			0.11			0.11		
+B	3	WB	K EDTA
+2	CD19+CD10+	12	98.49	0.12		0.12			0.31			0.31			0.33			0.34		
+B	3	LN	N/A	CD19+CD5+	12	78.61	1.36		1.73			0.00			0.00			1.36			1.73		
+B	3	BM	K EDTA
+2	CD19+CD5+	12	99.51	0.03		0.03			0.00			0.00			0.03			0.03		
+M1	1	BM	ACD	CD16+Neutrophiles	12	19.39	0.58		2.99			0.74			3.82			0.94			4.85		
+M1	1	BM	ACD	CD64+Monocytes	12	7.24	0.17		2.32			0.12			1.63			0.21			2.84		
+M1	1	WB	ACD	CD16+Neutrophiles	12	28.62	1.57		5.49			1.15			4.02			1.95			6.81		
+M1	1	WB	ACD	CD64+Monocytes	12	2.82	0.18		6.51			0.09			3.11			0.20			7.21		
+M1	1	WB	ACD	CD34-CD7+	12	2.21	0.08		3.55			0.00			0.00			0.08			3.55		
+
+[Table 3 on page 15]
+Specimen
+Type
+
+[Table 4 on page 15]
+Anti-
+coagulant
+
+--- Page 16 ---
+Quantitative Results – by Specimen, by Site
+Between- Within-
+Specimen Anti- Mean Repeatability
+Panel Site Population N Run Sample
+Type coagulant (%)
+SD %CV SD %CV SD %CV
+M1 1 BM ACD CD34-CD7+ 12 40.89 0.67 1.63 1.03 2.53 1.23 3.01
+M1 2 BM Heparin CD34-CD7+ 12 11.94 0.38 3.22 0.48 4.00 0.61 5.14
+M1 2 WB Heparin CD16+Neutrophiles 12 70.20 1.31 1.87 0.60 0.85 1.44 2.05
+M1 2 WB Heparin CD64+Monocytes 12 3.72 0.16 4.18 0.16 4.33 0.22 6.02
+M1 2 BM Heparin CD16+Neutrophiles 12 31.90 1.21 3.78 0.81 2.53 1.45 4.55
+M1 2 BM Heparin CD64+Monocytes 12 37.78 1.22 3.22 1.35 3.58 1.82 4.82
+M1 2 WB Heparin CD34-CD7+ 12 36.44 0.32 0.87 0.13 0.36 0.34 0.94
+M1 3 BM K EDTA CD16+Neutrophiles 12 23.01 0.24 1.02 0.11 0.46 0.26 1.12
+2
+M1 3 BM K EDTA CD64+Monocytes 12 4.20 0.15 3.54 0.26 6.17 0.30 7.11
+2
+M1 3 WB K EDTA CD34-CD7+ 12 12.43 0.24 1.91 0.00 0.00 0.24 1.91
+2
+M1 3 BM K EDTA CD16+Neutrophiles 12 64.05 0.41 0.63 0.36 0.56 0.54 0.85
+2
+M1 3 WB K EDTA CD64+Monocytes 12 8.02 0.17 2.10 0.52 6.44 0.54 6.77
+2
+M1 3 WB K EDTA CD34-CD7+ 12 69.35 0.36 0.52 1.42 2.04 1.46 2.11
+2
+M1 3 BM K EDTA CD34-CD7+ 12 12.23 0.58 4.77 0.00 0.00 0.58 4.77
+2
+M2 1 BM ACD CD117+ 12 65.10 0.73 1.12 0.51 0.78 0.89 1.37
+M2 1 BM ACD CD123+ 12 64.57 0.98 1.52 0.56 0.87 1.13 1.75
+M2 1 BM ACD CD15+Neutrophile 12 57.41 1.02 1.78 0.25 0.44 1.05 1.83
+M2 1 BM ACD CD33+ Monocytes 12 10.80 0.16 1.51 0.00 0.00 0.16 1.51
+M2 1 BM ACD CD15+Neutrophile 12 34.68 2.19 6.32 0.00 0.00 2.19 6.32
+M2 1 BM ACD CD33+ Monocytes 12 3.46 0.30 8.68 0.25 7.21 0.39 11.28
+M2 1 BM ACD CD117+ 12 9.52 0.18 1.87 0.13 1.33 0.22 2.30
+M2 1 BM ACD CD34+CD123+ 12 6.63 0.12 1.76 0.29 4.40 0.31 4.74
+M2 2 BM Heparin CD117+ 12 10.79 0.26 2.38 0.55 5.12 0.61 5.65
+M2 2 BM Heparin CD34+CD123+ 12 5.83 0.27 4.57 0.30 5.18 0.40 6.91
+M2 2 WB Heparin CD15+Neutrophile 12 80.51 0.84 1.04 1.02 1.27 1.33 1.65
+M2 2 WB Heparin CD33+ Monocytes 12 2.11 0.12 5.90 0.38 17.96 0.40 18.90*
+M2 2 BM Heparin CD15+Neutrophile 12 81.53 0.49 0.60 0.18 0.22 0.52 0.64
+M2 2 BM Heparin CD33+ Monocytes 12 4.59 0.17 3.75 0.28 6.05 0.33 7.12
+M2 2 WB Heparin CD117+ 12 65.13 0.90 1.38 0.58 0.89 1.07 1.64
+M2 2 WB Heparin CD34+CD123+ 12 78.57 0.53 0.68 0.00 0.00 0.53 0.68
+M2 3 BM K EDTA CD15+Neutrophile 12 67.45 0.78 1.16 2.00 2.96 2.15 3.18
+2
+M2 3 BM K EDTA CD33+ Monocytes 12 5.50 0.18 3.27 0.24 4.41 0.30 5.49
+2
+M2 3 WB K EDTA CD117+ 12 14.31 0.23 1.58 0.31 2.15 0.38 2.67
+2
+M2 3 WB K EDTA CD34+CD123+ 12 11.80 0.25 2.09 0.13 1.13 0.28 2.37
+2
+M2 3 BM K EDTA CD34+CD123+ 12 94.61 0.28 0.29 0.00 0.00 0.28 0.29
+2
+M2 3 WB K EDTA CD15+Neutrophile 12 47.82 0.41 0.86 0.25 0.52 0.48 1.00
+2
+M2 3 WB K EDTA CD33+ Monocytes 12 2.25 0.19 8.56 0.70 31.09 0.73 32.24^
+2
+M2 3 BM K EDTA CD117+ 12 70.74 0.44 0.62 1.19 1.68 1.27 1.80
+2
+M2 3 BM K EDTA CD34+CD123+ 12 69.12 0.43 0.62 1.78 2.58 1.83 2.65
+2
+M2 3 WB K EDTA CD15+Neutrophile 12 73.72 0.71 0.97 0.00 0.00 0.71 0.97
+2
+M2 3 WB K EDTA CD33+ Monocytes 12 7.06 0.20 2.77 0.16 2.25 0.25 3.57
+2
+T 1 BM ACD NK 12 4.94 0.29 5.97 12 0.25 5.00 0.38
+T 1 BM ACD γδ T cells 12 28.54 0.54 1.90 12 0.00 0.00 0.54
+T 1 BM ACD T Helper %Gated 12 39.49 0.45 1.15 12 0.19 0.48 0.49
+T 1 BM ACD Cytotoxic T cells 12 30.52 0.50 1.65 12 0.37 1.22 0.63
+T 1 WB ACD NK 12 6.36 0.10 1.52 12 0.05 0.71 0.11
+K232600 - Page 16 of 27
+
+[Table 1 on page 16]
+Quantitative Results – by Specimen, by Site																								
+Panel	Site	Specimen
+Type	Anti-
+coagulant	Population	N	Mean
+(%)	Repeatability							Between-						Within-				
+														Run						Sample				
+								SD			%CV			SD			%CV			SD			%CV	
+M1	1	BM	ACD	CD34-CD7+	12	40.89	0.67			1.63			1.03			2.53			1.23			3.01		
+M1	2	BM	Heparin	CD34-CD7+	12	11.94	0.38			3.22			0.48			4.00			0.61			5.14		
+M1	2	WB	Heparin	CD16+Neutrophiles	12	70.20	1.31			1.87			0.60			0.85			1.44			2.05		
+M1	2	WB	Heparin	CD64+Monocytes	12	3.72	0.16			4.18			0.16			4.33			0.22			6.02		
+M1	2	BM	Heparin	CD16+Neutrophiles	12	31.90	1.21			3.78			0.81			2.53			1.45			4.55		
+M1	2	BM	Heparin	CD64+Monocytes	12	37.78	1.22			3.22			1.35			3.58			1.82			4.82		
+M1	2	WB	Heparin	CD34-CD7+	12	36.44	0.32			0.87			0.13			0.36			0.34			0.94		
+M1	3	BM	K EDTA
+2	CD16+Neutrophiles	12	23.01	0.24			1.02			0.11			0.46			0.26			1.12		
+M1	3	BM	K EDTA
+2	CD64+Monocytes	12	4.20	0.15			3.54			0.26			6.17			0.30			7.11		
+M1	3	WB	K EDTA
+2	CD34-CD7+	12	12.43	0.24			1.91			0.00			0.00			0.24			1.91		
+M1	3	BM	K EDTA
+2	CD16+Neutrophiles	12	64.05	0.41			0.63			0.36			0.56			0.54			0.85		
+M1	3	WB	K EDTA
+2	CD64+Monocytes	12	8.02	0.17			2.10			0.52			6.44			0.54			6.77		
+M1	3	WB	K EDTA
+2	CD34-CD7+	12	69.35	0.36			0.52			1.42			2.04			1.46			2.11		
+M1	3	BM	K EDTA
+2	CD34-CD7+	12	12.23	0.58			4.77			0.00			0.00			0.58			4.77		
+M2	1	BM	ACD	CD117+	12	65.10	0.73			1.12			0.51			0.78			0.89			1.37		
+M2	1	BM	ACD	CD123+	12	64.57	0.98			1.52			0.56			0.87			1.13			1.75		
+M2	1	BM	ACD	CD15+Neutrophile	12	57.41	1.02			1.78			0.25			0.44			1.05			1.83		
+M2	1	BM	ACD	CD33+ Monocytes	12	10.80	0.16			1.51			0.00			0.00			0.16			1.51		
+M2	1	BM	ACD	CD15+Neutrophile	12	34.68	2.19			6.32			0.00			0.00			2.19			6.32		
+M2	1	BM	ACD	CD33+ Monocytes	12	3.46	0.30			8.68			0.25			7.21			0.39			11.28		
+M2	1	BM	ACD	CD117+	12	9.52	0.18			1.87			0.13			1.33			0.22			2.30		
+M2	1	BM	ACD	CD34+CD123+	12	6.63	0.12			1.76			0.29			4.40			0.31			4.74		
+M2	2	BM	Heparin	CD117+	12	10.79	0.26			2.38			0.55			5.12			0.61			5.65		
+M2	2	BM	Heparin	CD34+CD123+	12	5.83	0.27			4.57			0.30			5.18			0.40			6.91		
+M2	2	WB	Heparin	CD15+Neutrophile	12	80.51	0.84			1.04			1.02			1.27			1.33			1.65		
+M2	2	WB	Heparin	CD33+ Monocytes	12	2.11	0.12			5.90			0.38			17.96			0.40			18.90*		
+M2	2	BM	Heparin	CD15+Neutrophile	12	81.53	0.49			0.60			0.18			0.22			0.52			0.64		
+M2	2	BM	Heparin	CD33+ Monocytes	12	4.59	0.17			3.75			0.28			6.05			0.33			7.12		
+M2	2	WB	Heparin	CD117+	12	65.13	0.90			1.38			0.58			0.89			1.07			1.64		
+M2	2	WB	Heparin	CD34+CD123+	12	78.57	0.53			0.68			0.00			0.00			0.53			0.68		
+M2	3	BM	K EDTA
+2	CD15+Neutrophile	12	67.45	0.78			1.16			2.00			2.96			2.15			3.18		
+M2	3	BM	K EDTA
+2	CD33+ Monocytes	12	5.50	0.18			3.27			0.24			4.41			0.30			5.49		
+M2	3	WB	K EDTA
+2	CD117+	12	14.31	0.23			1.58			0.31			2.15			0.38			2.67		
+M2	3	WB	K EDTA
+2	CD34+CD123+	12	11.80	0.25			2.09			0.13			1.13			0.28			2.37		
+M2	3	BM	K EDTA
+2	CD34+CD123+	12	94.61	0.28			0.29			0.00			0.00			0.28			0.29		
+M2	3	WB	K EDTA
+2	CD15+Neutrophile	12	47.82	0.41			0.86			0.25			0.52			0.48			1.00		
+M2	3	WB	K EDTA
+2	CD33+ Monocytes	12	2.25	0.19			8.56			0.70			31.09			0.73			32.24^		
+M2	3	BM	K EDTA
+2	CD117+	12	70.74	0.44			0.62			1.19			1.68			1.27			1.80		
+M2	3	BM	K EDTA
+2	CD34+CD123+	12	69.12	0.43			0.62			1.78			2.58			1.83			2.65		
+M2	3	WB	K EDTA
+2	CD15+Neutrophile	12	73.72	0.71			0.97			0.00			0.00			0.71			0.97		
+M2	3	WB	K EDTA
+2	CD33+ Monocytes	12	7.06	0.20			2.77			0.16			2.25			0.25			3.57		
+T	1	BM	ACD	NK	12	4.94	0.29			5.97			12			0.25			5.00			0.38		
+T	1	BM	ACD	γδ T cells	12	28.54	0.54			1.90			12			0.00			0.00			0.54		
+T	1	BM	ACD	T Helper %Gated	12	39.49	0.45			1.15			12			0.19			0.48			0.49		
+T	1	BM	ACD	Cytotoxic T cells	12	30.52	0.50			1.65			12			0.37			1.22			0.63		
+T	1	WB	ACD	NK	12	6.36	0.10			1.52			12			0.05			0.71			0.11		
+
+[Table 2 on page 16]
+Specimen
+Type
+
+[Table 3 on page 16]
+Anti-
+coagulant
+
+[Table 4 on page 16]
+Mean
+(%)
+
+--- Page 17 ---
+Quantitative Results – by Specimen, by Site
+Between- Within-
+Specimen Anti- Mean Repeatability
+Panel Site Population N Run Sample
+Type coagulant (%)
+SD %CV SD %CV SD %CV
+T 1 WB ACD γδ T cells 12 2.21 0.16 7.09 12 0.17 7.52 0.23
+T 1 WB ACD T Helper %Gated 12 68.34 0.59 0.86 12 0.22 0.32 0.63
+T 1 WB ACD Cytotoxic T cells 12 23.80 0.49 2.06 12 0.44 1.83 0.66
+T 1 BM ACD NK 12 8.78 0.43 4.87 12 0.26 3.00 0.50
+T 1 BM ACD γδ T cells 12 6.99 0.21 3.02 12 0.12 1.69 0.24
+T 1 BM ACD T Helper %Gated 12 38.92 0.59 1.51 12 0.36 0.92 0.69
+T 1 BM ACD Cytotoxic T cells 12 49.85 0.64 1.28 12 0.00 0.00 0.64
+T 1 WB ACD NK 12 20.43 0.48 2.34 12 0.19 0.94 0.52
+T 1 WB ACD T Helper %Gated 12 39.15 0.48 1.23 12 0.00 0.00 0.48
+T 1 WB ACD Cytotoxic T cells 12 55.24 0.48 0.87 12 0.49 0.89 0.69
+T 2 WB Heparin NK 12 18.60 0.83 4.46 0.68 3.64 1.07 5.76
+T 2 WB Heparin T Helper %Gated 12 83.71 1.34 1.60 0.98 1.17 1.66 1.98
+T 2 WB Heparin Cytotoxic T cells 12 11.97 1.05 8.75 0.00 0.00 1.05 8.75
+T 2 BM Heparin NK 12 12.27 0.46 3.73 0.19 1.57 0.50 4.05
+T 2 BM Heparin T Helper %Gated 12 58.43 1.80 3.07 0.00 0.00 1.80 3.07
+T 2 BM Heparin Cytotoxic T cells 12 36.64 1.48 4.03 0.00 0.00 1.48 4.03
+T 2 WB Heparin NK 12 27.41 0.31 1.14 0.69 2.51 0.76 2.76
+T 2 WB Heparin γδ T cells 12 3.11 0.17 5.39 0.00 0.00 0.17 5.39
+T 2 WB Heparin T Helper %Gated 12 50.26 0.73 1.46 0.35 0.70 0.81 1.62
+T 2 WB Heparin Cytotoxic T cells 12 44.48 0.69 1.54 0.00 0.00 0.69 1.54
+T 2 BM Heparin NK 12 11.83 0.47 3.94 0.71 5.97 0.85 7.15
+T 2 BM Heparin γδ T cells 12 2.62 0.21 7.98 0.21 8.18 0.30 11.43
+T 2 BM Heparin T Helper %Gated 12 14.37 0.59 4.10 0.00 0.00 0.59 4.10
+T 2 BM Heparin Cytotoxic T cells 12 77.33 0.79 1.02 1.82 2.35 1.98 2.56
+T 3 LN NA T Helper %Gated 12 73.64 0.34 0.46 0.00 0.00 0.34 0.46
+T 3 LN NA Cytotoxic T cells 12 22.85 0.23 0.99 0.20 0.89 0.30 1.33
+T 3 BM K EDTA NK 12 7.75 0.20 2.63 0.00 0.00 0.20 2.63
+2
+T 3 BM K EDTA T Helper %Gated 12 72.87 0.49 0.68 0.00 0.00 0.49 0.68
+2
+T 3 BM K EDTA Cytotoxic T cells 12 22.76 0.52 2.30 0.00 0.00 0.52 2.30
+2
+T 3 WB K EDTA NK 12 27.78 0.91 3.28 0.26 0.95 0.95 3.42
+2
+T 3 WB K EDTA T Helper %Gated 12 70.07 0.50 0.72 0.00 0.00 0.50 0.72
+2
+T 3 WB K EDTA Cytotoxic T cells 12 19.93 0.80 4.04 0.00 0.00 0.80 4.04
+2
+T 3 LN NA γδ T cells 12 1.17 0.07 6.39 0.00 0.00 0.07 6.39
+T 3 LN NA T Helper %Gated 12 93.44 0.16 0.17 0.00 0.00 0.16 0.17
+T 3 LN NA Cytotoxic T cells 12 4.50 0.11 2.54 0.09 2.06 0.15 3.27
+T 3 WB K EDTA NK 10 5.90 0.24 4.15 0.00 0.00 0.24 4.15
+2
+T 3 WB K EDTA γδ T cells 10 1.15 0.07 6.35 0.05 4.19 0.09 7.61
+2
+T 3 WB K EDTA T Helper %Gated 10 65.58 0.53 0.81 0.57 0.87 0.78 1.19
+2
+T 3 WB K EDTA Cytotoxic T cells 10 31.11 0.44 1.41 0.23 0.74 0.50 1.60
+2
+T 3 BM K EDTA NK 12 24.47 0.95 3.89 0.00 0.00 0.95 3.89
+2
+T 3 BM K EDTA γδ T cells 12 2.24 0.26 11.58 0.38 17.07 0.46 20.63&
+2
+T 3 BM K EDTA T Helper %Gated 12 55.28 1.03 1.86 0.00 0.00 1.03 1.86
+2
+T 3 BM K EDTA Cytotoxic T cells 12 38.60 0.92 2.39 0.37 0.97 1.00 2.58
+2
+* Sample is a whole blood specimen collected in K2EDTA anticoagulant that demonstrated %CV of 17.96% for
+between-runs and 18.90% for within-sample for CD33 marked Monocytes, as the CD33 marked Monocytes
+recovery in this specimen was 2.11% of total CD45+ cells. The data analysis indicated that imprecision was
+K232600 - Page 17 of 27
+
+[Table 1 on page 17]
+Quantitative Results – by Specimen, by Site																								
+Panel	Site	Specimen
+Type	Anti-
+coagulant	Population	N	Mean
+(%)	Repeatability							Between-						Within-				
+														Run						Sample				
+								SD			%CV			SD			%CV			SD			%CV	
+T	1	WB	ACD	γδ T cells	12	2.21	0.16			7.09			12			0.17			7.52			0.23		
+T	1	WB	ACD	T Helper %Gated	12	68.34	0.59			0.86			12			0.22			0.32			0.63		
+T	1	WB	ACD	Cytotoxic T cells	12	23.80	0.49			2.06			12			0.44			1.83			0.66		
+T	1	BM	ACD	NK	12	8.78	0.43			4.87			12			0.26			3.00			0.50		
+T	1	BM	ACD	γδ T cells	12	6.99	0.21			3.02			12			0.12			1.69			0.24		
+T	1	BM	ACD	T Helper %Gated	12	38.92	0.59			1.51			12			0.36			0.92			0.69		
+T	1	BM	ACD	Cytotoxic T cells	12	49.85	0.64			1.28			12			0.00			0.00			0.64		
+T	1	WB	ACD	NK	12	20.43	0.48			2.34			12			0.19			0.94			0.52		
+T	1	WB	ACD	T Helper %Gated	12	39.15	0.48			1.23			12			0.00			0.00			0.48		
+T	1	WB	ACD	Cytotoxic T cells	12	55.24	0.48			0.87			12			0.49			0.89			0.69		
+T	2	WB	Heparin	NK	12	18.60	0.83			4.46			0.68			3.64			1.07			5.76		
+T	2	WB	Heparin	T Helper %Gated	12	83.71	1.34			1.60			0.98			1.17			1.66			1.98		
+T	2	WB	Heparin	Cytotoxic T cells	12	11.97	1.05			8.75			0.00			0.00			1.05			8.75		
+T	2	BM	Heparin	NK	12	12.27	0.46			3.73			0.19			1.57			0.50			4.05		
+T	2	BM	Heparin	T Helper %Gated	12	58.43	1.80			3.07			0.00			0.00			1.80			3.07		
+T	2	BM	Heparin	Cytotoxic T cells	12	36.64	1.48			4.03			0.00			0.00			1.48			4.03		
+T	2	WB	Heparin	NK	12	27.41	0.31			1.14			0.69			2.51			0.76			2.76		
+T	2	WB	Heparin	γδ T cells	12	3.11	0.17			5.39			0.00			0.00			0.17			5.39		
+T	2	WB	Heparin	T Helper %Gated	12	50.26	0.73			1.46			0.35			0.70			0.81			1.62		
+T	2	WB	Heparin	Cytotoxic T cells	12	44.48	0.69			1.54			0.00			0.00			0.69			1.54		
+T	2	BM	Heparin	NK	12	11.83	0.47			3.94			0.71			5.97			0.85			7.15		
+T	2	BM	Heparin	γδ T cells	12	2.62	0.21			7.98			0.21			8.18			0.30			11.43		
+T	2	BM	Heparin	T Helper %Gated	12	14.37	0.59			4.10			0.00			0.00			0.59			4.10		
+T	2	BM	Heparin	Cytotoxic T cells	12	77.33	0.79			1.02			1.82			2.35			1.98			2.56		
+T	3	LN	NA	T Helper %Gated	12	73.64	0.34			0.46			0.00			0.00			0.34			0.46		
+T	3	LN	NA	Cytotoxic T cells	12	22.85	0.23			0.99			0.20			0.89			0.30			1.33		
+T	3	BM	K EDTA
+2	NK	12	7.75	0.20			2.63			0.00			0.00			0.20			2.63		
+T	3	BM	K EDTA
+2	T Helper %Gated	12	72.87	0.49			0.68			0.00			0.00			0.49			0.68		
+T	3	BM	K EDTA
+2	Cytotoxic T cells	12	22.76	0.52			2.30			0.00			0.00			0.52			2.30		
+T	3	WB	K EDTA
+2	NK	12	27.78	0.91			3.28			0.26			0.95			0.95			3.42		
+T	3	WB	K EDTA
+2	T Helper %Gated	12	70.07	0.50			0.72			0.00			0.00			0.50			0.72		
+T	3	WB	K EDTA
+2	Cytotoxic T cells	12	19.93	0.80			4.04			0.00			0.00			0.80			4.04		
+T	3	LN	NA	γδ T cells	12	1.17	0.07			6.39			0.00			0.00			0.07			6.39		
+T	3	LN	NA	T Helper %Gated	12	93.44	0.16			0.17			0.00			0.00			0.16			0.17		
+T	3	LN	NA	Cytotoxic T cells	12	4.50	0.11			2.54			0.09			2.06			0.15			3.27		
+T	3	WB	K EDTA
+2	NK	10	5.90	0.24			4.15			0.00			0.00			0.24			4.15		
+T	3	WB	K EDTA
+2	γδ T cells	10	1.15	0.07			6.35			0.05			4.19			0.09			7.61		
+T	3	WB	K EDTA
+2	T Helper %Gated	10	65.58	0.53			0.81			0.57			0.87			0.78			1.19		
+T	3	WB	K EDTA
+2	Cytotoxic T cells	10	31.11	0.44			1.41			0.23			0.74			0.50			1.60		
+T	3	BM	K EDTA
+2	NK	12	24.47	0.95			3.89			0.00			0.00			0.95			3.89		
+T	3	BM	K EDTA
+2	γδ T cells	12	2.24	0.26			11.58			0.38			17.07			0.46			20.63&		
+T	3	BM	K EDTA
+2	T Helper %Gated	12	55.28	1.03			1.86			0.00			0.00			1.03			1.86		
+T	3	BM	K EDTA
+2	Cytotoxic T cells	12	38.60	0.92			2.39			0.37			0.97			1.00			2.58		
+
+[Table 2 on page 17]
+Specimen
+Type
+
+[Table 3 on page 17]
+Anti-
+coagulant
+
+[Table 4 on page 17]
+Mean
+(%)
+
+--- Page 18 ---
+likely due to variations from morning preparation to afternoon preparation within the sample. The high
+imprecision for this sample has no clinical impact.
+^ Samples is a phenotypically normal WB specimen collected in K2EDTA anticoagulant that demonstrated
+%CV of 31.09% for between-runs and 32.24% for within-sample for CD33 marked Monocytes, as the CD33
+marked Monocytes recovery in this specimen was 2.25% of total CD45+ cells. The data analysis indicated
+that imprecision was likely due to variations from morning preparation to afternoon preparation within the
+sample. The high imprecision for this sample has no clinical impact.
+&
+Sample is a phenotypically normal BM specimen collected in K2EDTA anticoagulant that demonstrated %CV
+of 20.63% for the TCRg/d cells, as the TCR g/d cells recovery in this specimen was extremely low with only
+an average of 73 events collected, representing only ~0.12% of total CD45+ cells. The high imprecision for
+this sample has no clinical impact.
+b. Operator-to-operator and instrument-to-instrument imprecision:
+The imprecision of between-operator and between-instrument was evaluated by testing
+four normal and four abnormal clinical specimens with the ClearLLab 10C Panels at one
+site, with three operators analyzing three replicates on each of two DxFLEX instruments
+on each of two runs. Each operator performed separate sample preparations in triplicate in
+both the morning and afternoon. Samples were acquired on each of two instruments, the
+order of which was randomized. Following acquisition, each operator analyzed listmode
+datafiles (LMD), using Kaluza C software. A reviewer assessed each LMD analysis as
+normal or abnormal, and further described the immunophenotype of abnormal results.
+The study included 288 analyses (three operators/replicate x three replicates/run x two
+runs/instrument x two instruments = 36 replicates/sample x eight samples).
+All results showed 100% qualitative agreement across Instruments and Operators.
+The number of samples tested is depicted in the tables below.
+Qualitative Agreement across Instruments and Operators
+Panel Phenotype N
+B Normal (−) 36
+B Abnormal (+) 72
+M1 Normal (−) 36
+M1 Abnormal (+) 36
+M2 Normal (−) 36
+M2 Abnormal (+) 36
+T Normal (−) 36
+Results based on quantitative analysis are summarized in the table below.
+Quantitative Results – by Instrument, by Operator
+Between- Between- Between- Within-
+Mean Repeatability
+Panel Population N Run Instruments Operators Specimen
+(%)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+B CD19+CD5+ 36 91.55 0.67 0.73 0.40 0.44 0.64 0.70 0.00 0.00 1.01 1.10
+B Mature κ+ B cells 36 90.63 0.68 0.75 0.17 0.19 0.00 0.00 0.00 0.00 0.70 0.77
+B Mature λ+ B cells 36 8.84 0.58 6.56 0.19 2.20 0.00 0.00 0.00 0.00 0.61 6.92
+B Mature κ+ B cells 36 63.62 1.99 3.12 0.00 0.00 0.00 0.00 0.41 0.65 2.03 3.19
+K232600 - Page 18 of 27
+
+[Table 1 on page 18]
+Qualitative Agreement across Instruments and Operators								
+	Panel			Phenotype			N	
+B			Normal (−)			36		
+B			Abnormal (+)			72		
+M1			Normal (−)			36		
+M1			Abnormal (+)			36		
+M2			Normal (−)			36		
+M2			Abnormal (+)			36		
+T			Normal (−)			36		
+
+[Table 2 on page 18]
+Quantitative Results – by Instrument, by Operator																																
+Panel	Population	N	Mean
+(%)	Repeatability							Between-						Between-			s		Between-						Within-				
+											Run						Instrument					Operators						Specimen				
+					SD			%CV			SD			%CV			SD		%CV			SD			%CV			SD			%CV	
+B	CD19+CD5+	36	91.55	0.67			0.73			0.40			0.44			0.64			0.70		0.00			0.00			1.01			1.10		
+B	Mature κ+ B cells	36	90.63	0.68			0.75			0.17			0.19			0.00			0.00		0.00			0.00			0.70			0.77		
+B	Mature λ+ B cells	36	8.84	0.58			6.56			0.19			2.20			0.00			0.00		0.00			0.00			0.61			6.92		
+B	Mature κ+ B cells	36	63.62	1.99			3.12			0.00			0.00			0.00			0.00		0.41			0.65			2.03			3.19		
+
+[Table 3 on page 18]
+Mean
+(%)
+
+--- Page 19 ---
+Quantitative Results – by Instrument, by Operator
+Between- Between- Between- Within-
+Mean Repeatability
+Panel Population N Run Instruments Operators Specimen
+(%)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+B Mature λ+ B cells 36 35.75 1.87 5.22 0.26 0.73 0.00 0.00 0.77 2.16 2.04 5.70
+M1 CD34-CD7+ 36 6.22 0.19 3.01 0.09 1.39 0.00 0.00 0.26 4.11 0.33 5.28
+M1 CD16+Neutrophiles 36 57.46 2.66 4.63 4.11 7.14 0.00 0.00 3.61 6.29 6.08 10.59
+M1 CD64+Monocytes 36 6.91 0.47 6.86 0.72 10.37 0.00 0.00 0.00 0.00 0.86 12.43
+M2 CD15+Neutrophile 36 62.79 0.39 0.62 0.89 1.42 0.00 0.00 0.15 0.24 0.98 1.57
+M2 CD33+ Monocytes 36 4.79 0.09 1.92 0.07 1.54 0.02 0.41 0.00 0.00 0.12 2.49
+M2 CD117+ 36 7.06 0.28 4.03 0.32 4.47 0.67 9.55 0.00 0.00 0.80 11.29
+M2 CD34+CD123+ 36 2.85 0.10 3.41 0.16 5.75 0.00 0.00 0.03 0.99 0.19 6.76
+T NK cells 36 17.65 0.46 2.62 0.36 2.03 0.14 0.80 0.19 1.07 0.63 3.57
+T γδ T cells 36 2.20 0.17 7.95 0.00 0.00 0.04 1.68 0.00 0.00 0.18 8.12
+T Helper T cells 36 80.62 0.55 0.68 0.00 0.00 0.00 0.00 0.26 0.32 0.61 0.75
+T Cytotoxic T cells 36 15.43 0.44 2.88 0.00 0.00 0.15 0.98 0.25 1.62 0.53 3.45
+c. Site-to-Site Reproducibility with Control Material:
+The reproducibility of the ClearLLab 10C Reagent System on DxFLEX Flow Cytometer
+was evaluated utilizing one lot each of control cell materials: ClearLLab Normal Control
+Cells and ClearLLab Abnormal Control Cells. These control materials express all surface
+markers comprising the ClearLLab 10C panels. For multi-site testing, control materials
+allow samples to be shared between sites in a manner not available for native samples.
+For each panel, the two controls were tested on three instruments, across three total sites
+using one ClearLLab 10C reagent lot. At Site 1, testing was performed for 20 days × two
+runs/day × two replicates/run × three sites × one instrument/site. At sites 2 and 3, testing
+was performed for five days × two runs/day × three replicates/run × three sites × one
+instrument/site. Across all three sites, a total of 1133 analyses were generated; 13 were
+excluded due to operator error. The results are summarized in the tables below.
+Normal Control Cells – across sites
+Between- Between- Between-
+Cell Mean Repeatability Reproducibility
+Panel N Run Day Site
+Population (%)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+WBC B 140 97.76 0.43 0.44 1.39 1.46 4.14 4.35 1.59 1.67 4.68 4.91
+lymphocyte B 140 30.70 0.76 2.47 1.32 1.35 2.87 2.94 1.93 1.97 3.72 3.81
+monocyte B 140 9.29 0.39 4.17 0.60 1.96 0.54 1.76 0.69 2.26 1.31 4.26
+granulocyte B 140 57.41 0.93 1.62 0.18 1.92 0.33 3.54 1.20 12.88 1.31 14.12
+CD5+ B 140 74.62 0.55 0.74 0.82 1.43 0.63 1.09 2.11 3.68 2.53 4.40
+CD10+ B 140 57.00 0.91 1.60 0.25 0.34 0.41 0.55 0.32 0.42 0.80 1.07
+CD19+CD20+ B 140 10.09 0.28 2.77 0.80 1.41 0.57 1.00 2.04 3.59 2.44 4.29
+CD38+ B 140 8.83 0.36 4.03 0.14 1.41 0.17 1.71 1.06 10.48 1.12 11.06
+CD200+ B 140 9.22 0.25 2.76 0.25 2.84 0.16 1.87 1.42 16.09 1.49 16.93*
+Kappa+ B 140 59.62 1.32 2.22 0.16 1.75 0.14 1.53 0.94 10.15 0.99 10.78
+Lambda+ B 140 40.34 1.33 3.30 0.19 0.32 0.44 0.73 0.56 0.94 1.51 2.54
+WBC M1 140 97.80 0.23 0.24 1.31 1.34 2.77 2.84 1.91 1.95 3.62 3.70
+lymphocyte M1 140 30.53 0.73 2.38 0.62 2.02 0.68 2.24 1.95 6.37 2.27 7.44
+monocyte M1 140 9.10 0.39 4.31 0.27 2.95 0.27 2.96 0.51 5.61 0.75 8.22
+K232600 - Page 19 of 27
+
+[Table 1 on page 19]
+Quantitative Results – by Instrument, by Operator																												
+Panel	Population	N	Mean
+(%)	Repeatability					Between-						Between-				s		Between-					Within-		
+									Run						Instrument						Operators					Specimen		
+				SD			%CV		SD			%CV			SD			%CV			SD			%CV		SD	%CV	
+B	Mature λ+ B cells	36	35.75	1.87		5.22			0.26		0.73			0.00			0.00			0.77			2.16		2.04		5.70	
+M1	CD34-CD7+	36	6.22	0.19		3.01			0.09		1.39			0.00			0.00			0.26			4.11		0.33		5.28	
+M1	CD16+Neutrophiles	36	57.46	2.66		4.63			4.11		7.14			0.00			0.00			3.61			6.29		6.08		10.59	
+M1	CD64+Monocytes	36	6.91	0.47		6.86			0.72		10.37			0.00			0.00			0.00			0.00		0.86		12.43	
+M2	CD15+Neutrophile	36	62.79	0.39		0.62			0.89		1.42			0.00			0.00			0.15			0.24		0.98		1.57	
+M2	CD33+ Monocytes	36	4.79	0.09		1.92			0.07		1.54			0.02			0.41			0.00			0.00		0.12		2.49	
+M2	CD117+	36	7.06	0.28		4.03			0.32		4.47			0.67			9.55			0.00			0.00		0.80		11.29	
+M2	CD34+CD123+	36	2.85	0.10		3.41			0.16		5.75			0.00			0.00			0.03			0.99		0.19		6.76	
+T	NK cells	36	17.65	0.46		2.62			0.36		2.03			0.14			0.80			0.19			1.07		0.63		3.57	
+T	γδ T cells	36	2.20	0.17		7.95			0.00		0.00			0.04			1.68			0.00			0.00		0.18		8.12	
+T	Helper T cells	36	80.62	0.55		0.68			0.00		0.00			0.00			0.00			0.26			0.32		0.61		0.75	
+T	Cytotoxic T cells	36	15.43	0.44		2.88			0.00		0.00			0.15			0.98			0.25			1.62		0.53		3.45	
+
+[Table 2 on page 19]
+Mean
+(%)
+
+[Table 3 on page 19]
+Normal Control Cells – across sites																												
+Cell
+Population	Panel	N	Mean
+(%)	Repeatability						Between-					Between-						Between-					Reproducibility		
+										Run					Day						Site							
+					SD		%CV			SD		%CV			SD			%CV			SD			%CV		SD	%CV	
+WBC	B	140	97.76	0.43		0.44			1.39		1.46			4.14			4.35			1.59			1.67			4.68	4.91	
+lymphocyte	B	140	30.70	0.76		2.47			1.32		1.35			2.87			2.94			1.93			1.97			3.72	3.81	
+monocyte	B	140	9.29	0.39		4.17			0.60		1.96			0.54			1.76			0.69			2.26			1.31	4.26	
+granulocyte	B	140	57.41	0.93		1.62			0.18		1.92			0.33			3.54			1.20			12.88			1.31	14.12	
+CD5+	B	140	74.62	0.55		0.74			0.82		1.43			0.63			1.09			2.11			3.68			2.53	4.40	
+CD10+	B	140	57.00	0.91		1.60			0.25		0.34			0.41			0.55			0.32			0.42			0.80	1.07	
+CD19+CD20+	B	140	10.09	0.28		2.77			0.80		1.41			0.57			1.00			2.04			3.59			2.44	4.29	
+CD38+	B	140	8.83	0.36		4.03			0.14		1.41			0.17			1.71			1.06			10.48			1.12	11.06	
+CD200+	B	140	9.22	0.25		2.76			0.25		2.84			0.16			1.87			1.42			16.09			1.49	16.93*	
+Kappa+	B	140	59.62	1.32		2.22			0.16		1.75			0.14			1.53			0.94			10.15			0.99	10.78	
+Lambda+	B	140	40.34	1.33		3.30			0.19		0.32			0.44			0.73			0.56			0.94			1.51	2.54	
+WBC	M1	140	97.80	0.23		0.24			1.31		1.34			2.77			2.84			1.91			1.95			3.62	3.70	
+lymphocyte	M1	140	30.53	0.73		2.38			0.62		2.02			0.68			2.24			1.95			6.37			2.27	7.44	
+monocyte	M1	140	9.10	0.39		4.31			0.27		2.95			0.27			2.96			0.51			5.61			0.75	8.22	
+
+[Table 4 on page 19]
+Cell
+Population
+
+[Table 5 on page 19]
+Mean
+(%)
+
+--- Page 20 ---
+Normal Control Cells – across sites
+Between- Between- Between-
+Cell Mean Repeatability Reproducibility
+Panel N Run Day Site
+Population (%)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+granulocyte M1 140 57.91 0.90 1.56 0.76 1.32 0.70 1.21 2.88 4.97 3.19 5.51
+CD10+ M1 140 57.46 0.90 1.56 0.83 1.45 0.71 1.24 2.92 5.09 3.25 5.65
+CD7+ M1 140 80.54 0.51 0.63 0.21 0.26 0.82 1.01 4.83 6.00 4.93 6.12
+CD14+CD11b+ M1 140 7.89 0.32 4.08 0.25 3.13 0.00 0.00 1.02 12.90 1.10 13.89
+CD13+ M1 140 57.54 0.93 1.62 0.83 1.44 0.71 1.24 2.81 4.88 3.16 5.48
+CD16+ M1 140 54.36 0.86 1.59 0.75 1.38 0.83 1.52 2.86 5.26 3.19 5.87
+CD14+CD64+ M1 140 7.80 0.32 4.13 0.26 3.38 0.10 1.33 0.98 12.63 1.07 13.77
+HLA-DR+ M1 140 8.44 0.33 3.93 0.27 3.15 0.22 2.61 0.42 4.98 0.64 7.55
+WBC M2 140 97.90 0.38 0.38 0.67 0.68 2.50 2.55 1.87 1.91 3.21 3.28
+lymphocyte M2 140 30.38 0.85 2.79 0.82 2.71 0.67 2.21 1.98 6.53 2.40 7.91
+monocyte M2 140 9.12 0.48 5.23 0.00 0.00 0.39 4.32 0.74 8.11 0.96 10.57
+granulocyte M2 140 58.06 1.22 2.10 0.98 1.70 0.86 1.47 2.79 4.81 3.32 5.71
+CD38+ M2 140 8.69 0.42 4.84 0.13 1.50 0.38 4.40 0.83 9.59 1.02 11.71
+CD13+ M2 140 57.57 1.24 2.15 1.07 1.85 0.87 1.50 2.47 4.29 3.08 5.36
+HLA-DR+ M2 140 8.43 0.44 5.25 0.00 0.00 0.28 3.37 0.58 6.92 0.79 9.32
+CD15+ M2 140 57.44 1.24 2.17 1.03 1.80 0.94 1.64 2.71 4.72 3.29 5.74
+CD19+ M2 140 9.82 0.32 3.23 0.21 2.12 0.33 3.33 0.50 5.14 0.71 7.24
+CD33+ M2 140 8.90 0.49 5.56 0.20 2.24 0.47 5.29 1.31 14.75 1.49 16.78*
+WBC T 140 97.72 0.50 0.51 0.95 0.97 2.88 2.95 1.95 2.00 3.64 3.72
+lymphocyte T 140 30.59 0.66 2.17 0.59 1.94 0.63 2.04 1.41 4.59 1.78 5.81
+monocyte T 140 9.17 0.29 3.18 0.37 4.04 0.27 2.99 1.09 11.87 1.22 13.28
+granulocyte T 140 57.56 0.81 1.40 0.82 1.43 0.77 1.33 2.58 4.49 2.93 5.09
+CD5+ T 140 75.54 0.46 0.61 0.40 0.53 0.49 0.65 0.60 0.80 0.99 1.31
+CD2+ T 140 84.68 0.37 0.44 0.26 0.31 0.28 0.33 1.04 1.23 1.17 1.38
+CD3+ T 140 76.05 0.43 0.57 0.29 0.39 0.42 0.56 0.49 0.64 0.83 1.10
+CD4+CD8− T 140 65.08 0.68 1.05 0.38 0.59 0.00 0.00 1.12 1.72 1.36 2.10
+CD4−CD8+ T 140 29.06 0.71 2.44 0.53 1.84 0.00 0.00 2.32 7.98 2.48 8.54
+CD7+ T 140 79.47 0.46 0.58 0.70 0.88 1.04 1.31 3.15 3.97 3.43 4.31
+CD3−CD56+ T 140 11.33 0.31 2.70 0.24 2.08 0.35 3.09 1.84 16.28 1.92 16.91*
+TCRγδ+ T 140 2.77 0.13 4.59 0.00 0.00 0.07 2.63 0.15 5.48 0.21 7.62
+Abnormal Control Cells – across sites
+Between- Between- Between-
+Repeatability Reproducibility
+Cell Mean Run Days Site
+Panel N
+Population (%) %C %C
+SD %CV SD SD SD %CV SD %CV
+V V
+WBC B 140 97.92 0.61 0.62 0.58 0.59 2.49 2.54 1.73 1.76 3.14 3.21
+lymphocyte B 140 30.34 0.88 2.89 0.70 2.31 0.27 0.88 1.30 4.27 1.73 5.72
+monocyte B 140 9.09 0.35 3.85 0.19 2.04 0.25 2.72 0.87 9.56 0.99 10.85
+granulocyte B 140 57.80 1.15 1.98 0.96 1.66 0.38 0.66 2.45 4.24 2.90 5.01
+CD5+ B 140 74.89 0.48 0.64 0.36 0.48 0.41 0.55 0.16 0.21 0.75 1.00
+CD10+ B 140 56.99 1.19 2.09 0.89 1.57 0.37 0.66 2.71 4.75 3.11 5.46
+CD19+CD20+ B 140 10.05 0.32 3.20 0.16 1.61 0.00 0.00 1.17 11.62 1.22 12.16
+CD34+ B 140 7.99 0.26 3.23 0.20 2.55 0.35 4.43 0.50 6.25 0.69 8.70
+CD38+ B 140 8.65 0.31 3.56 0.28 3.25 0.29 3.33 1.15 13.29 1.26 14.52
+K232600 - Page 20 of 27
+
+[Table 1 on page 20]
+Normal Control Cells – across sites																															
+Cell
+Population	Panel	N	Mean
+(%)	Repeatability							Between-					Between-					Between-					Reproducibility					
+											Run					Day					Site										
+					SD			%CV			SD		%CV			SD		%CV			SD			%CV			SD			%CV	
+granulocyte	M1	140	57.91	0.90			1.56			0.76			1.32		0.70			1.21		2.88			4.97			3.19			5.51		
+CD10+	M1	140	57.46	0.90			1.56			0.83			1.45		0.71			1.24		2.92			5.09			3.25			5.65		
+CD7+	M1	140	80.54	0.51			0.63			0.21			0.26		0.82			1.01		4.83			6.00			4.93			6.12		
+CD14+CD11b+	M1	140	7.89	0.32			4.08			0.25			3.13		0.00			0.00		1.02			12.90			1.10			13.89		
+CD13+	M1	140	57.54	0.93			1.62			0.83			1.44		0.71			1.24		2.81			4.88			3.16			5.48		
+CD16+	M1	140	54.36	0.86			1.59			0.75			1.38		0.83			1.52		2.86			5.26			3.19			5.87		
+CD14+CD64+	M1	140	7.80	0.32			4.13			0.26			3.38		0.10			1.33		0.98			12.63			1.07			13.77		
+HLA-DR+	M1	140	8.44	0.33			3.93			0.27			3.15		0.22			2.61		0.42			4.98			0.64			7.55		
+WBC	M2	140	97.90	0.38			0.38			0.67			0.68		2.50			2.55		1.87			1.91			3.21			3.28		
+lymphocyte	M2	140	30.38	0.85			2.79			0.82			2.71		0.67			2.21		1.98			6.53			2.40			7.91		
+monocyte	M2	140	9.12	0.48			5.23			0.00			0.00		0.39			4.32		0.74			8.11			0.96			10.57		
+granulocyte	M2	140	58.06	1.22			2.10			0.98			1.70		0.86			1.47		2.79			4.81			3.32			5.71		
+CD38+	M2	140	8.69	0.42			4.84			0.13			1.50		0.38			4.40		0.83			9.59			1.02			11.71		
+CD13+	M2	140	57.57	1.24			2.15			1.07			1.85		0.87			1.50		2.47			4.29			3.08			5.36		
+HLA-DR+	M2	140	8.43	0.44			5.25			0.00			0.00		0.28			3.37		0.58			6.92			0.79			9.32		
+CD15+	M2	140	57.44	1.24			2.17			1.03			1.80		0.94			1.64		2.71			4.72			3.29			5.74		
+CD19+	M2	140	9.82	0.32			3.23			0.21			2.12		0.33			3.33		0.50			5.14			0.71			7.24		
+CD33+	M2	140	8.90	0.49			5.56			0.20			2.24		0.47			5.29		1.31			14.75			1.49			16.78*		
+WBC	T	140	97.72	0.50			0.51			0.95			0.97		2.88			2.95		1.95			2.00			3.64			3.72		
+lymphocyte	T	140	30.59	0.66			2.17			0.59			1.94		0.63			2.04		1.41			4.59			1.78			5.81		
+monocyte	T	140	9.17	0.29			3.18			0.37			4.04		0.27			2.99		1.09			11.87			1.22			13.28		
+granulocyte	T	140	57.56	0.81			1.40			0.82			1.43		0.77			1.33		2.58			4.49			2.93			5.09		
+CD5+	T	140	75.54	0.46			0.61			0.40			0.53		0.49			0.65		0.60			0.80			0.99			1.31		
+CD2+	T	140	84.68	0.37			0.44			0.26			0.31		0.28			0.33		1.04			1.23			1.17			1.38		
+CD3+	T	140	76.05	0.43			0.57			0.29			0.39		0.42			0.56		0.49			0.64			0.83			1.10		
+CD4+CD8−	T	140	65.08	0.68			1.05			0.38			0.59		0.00			0.00		1.12			1.72			1.36			2.10		
+CD4−CD8+	T	140	29.06	0.71			2.44			0.53			1.84		0.00			0.00		2.32			7.98			2.48			8.54		
+CD7+	T	140	79.47	0.46			0.58			0.70			0.88		1.04			1.31		3.15			3.97			3.43			4.31		
+CD3−CD56+	T	140	11.33	0.31			2.70			0.24			2.08		0.35			3.09		1.84			16.28			1.92			16.91*		
+TCRγδ+	T	140	2.77	0.13			4.59			0.00			0.00		0.07			2.63		0.15			5.48			0.21			7.62		
+
+[Table 2 on page 20]
+Cell
+Population
+
+[Table 3 on page 20]
+Mean
+(%)
+
+[Table 4 on page 20]
+Abnormal Control Cells – across sites																					
+Cell
+Population	Panel	N	Mean
+(%)	Repeatability			Between-					Between-					Between-			Reproducibility	
+							Run					Days					Site				
+				SD	%CV	SD			%C		SD			%C		SD		%CV		SD	%CV
+									V					V							
+WBC	B	140	97.92	0.61	0.62	0.58		0.59			2.49		2.54			1.73		1.76		3.14	3.21
+lymphocyte	B	140	30.34	0.88	2.89	0.70		2.31			0.27		0.88			1.30		4.27		1.73	5.72
+monocyte	B	140	9.09	0.35	3.85	0.19		2.04			0.25		2.72			0.87		9.56		0.99	10.85
+granulocyte	B	140	57.80	1.15	1.98	0.96		1.66			0.38		0.66			2.45		4.24		2.90	5.01
+CD5+	B	140	74.89	0.48	0.64	0.36		0.48			0.41		0.55			0.16		0.21		0.75	1.00
+CD10+	B	140	56.99	1.19	2.09	0.89		1.57			0.37		0.66			2.71		4.75		3.11	5.46
+CD19+CD20+	B	140	10.05	0.32	3.20	0.16		1.61			0.00		0.00			1.17		11.62		1.22	12.16
+CD34+	B	140	7.99	0.26	3.23	0.20		2.55			0.35		4.43			0.50		6.25		0.69	8.70
+CD38+	B	140	8.65	0.31	3.56	0.28		3.25			0.29		3.33			1.15		13.29		1.26	14.52
+
+[Table 5 on page 20]
+Cell
+Population
+
+[Table 6 on page 20]
+Mean
+(%)
+
+--- Page 21 ---
+Abnormal Control Cells – across sites
+Between- Between- Between-
+Repeatability Reproducibility
+Cell Mean Run Days Site
+Panel N
+Population (%) %C %C
+SD %CV SD SD SD %CV SD %CV
+V V
+CD200+ B 140 9.16 0.31 3.42 0.16 1.72 0.09 0.99 1.06 11.59 1.12 12.25
+Kappa+ B 140 59.51 1.38 2.32 0.47 0.80 0.54 0.91 0.39 0.65 1.61 2.70
+Lambda+ B 140 40.45 1.37 3.38 0.48 1.19 0.56 1.39 0.23 0.56 1.57 3.88
+WBC M1 140 97.88 0.95 0.98 0.71 0.72 2.38 2.43 1.88 1.92 3.26 3.33
+lymphocyte M1 140 30.12 1.04 3.44 0.75 2.49 0.42 1.39 1.97 6.53 2.38 7.91
+monocyte M1 140 8.89 0.30 3.37 0.17 1.86 0.37 4.20 0.55 6.19 0.75 8.42
+granulocyte M1 140 58.38 1.27 2.18 0.94 1.61 0.63 1.08 2.98 5.11 3.43 5.88
+CD10+ M1 140 57.62 1.29 2.24 1.00 1.74 0.72 1.25 3.20 5.55 3.67 6.36
+CD34+ M1 140 8.04 0.28 3.51 0.23 2.92 0.28 3.44 0.71 8.84 0.85 10.53
+CD7+ M1 140 80.95 0.44 0.55 0.34 0.42 0.52 0.64 4.00 4.94 4.07 5.03
+CD14+CD11b+ M1 140 7.77 0.36 4.61 0.20 2.54 0.20 2.58 0.94 12.04 1.04 13.40
+CD13+ M1 140 58.14 1.31 2.25 0.90 1.54 0.80 1.38 2.85 4.91 3.36 5.79
+CD16+ M1 140 54.33 1.22 2.25 0.96 1.76 0.65 1.20 3.19 5.87 3.61 6.64
+CD14+CD64+ M1 140 7.70 0.35 4.58 0.21 2.72 0.23 3.00 0.89 11.51 1.00 13.03
+HLA-DR+ M1 140 8.45 0.35 4.08 0.20 2.36 0.39 4.67 0.37 4.40 0.67 7.96
+WBC M2 140 98.03 0.65 0.66 0.30 0.31 2.19 2.23 1.74 1.78 2.89 2.95
+lymphocyte M2 140 29.97 0.83 2.76 0.83 2.76 0.63 2.09 2.48 8.26 2.81 9.37
+monocyte M2 140 8.78 0.35 3.97 0.14 1.65 0.25 2.82 0.64 7.32 0.79 8.95
+granulocyte M2 140 58.61 1.03 1.76 0.98 1.67 0.81 1.38 3.44 5.87 3.81 6.50
+CD34+ M2 140 7.96 0.31 3.85 0.27 3.34 0.32 4.07 0.63 7.93 0.82 10.26
+CD38+ + M2 140 8.31 0.32 3.81 0.25 3.03 0.23 2.81 0.85 10.28 0.97 11.72
+CD13+ M2 140 58.01 1.05 1.80 0.90 1.55 0.86 1.48 3.78 6.52 4.11 7.09
+HLA-DR+ M2 140 8.35 0.34 4.02 0.21 2.51 0.23 2.76 0.60 7.21 0.76 9.06
+CD15 M2 140 57.80 1.04 1.80 1.05 1.82 0.82 1.42 3.62 6.26 3.99 6.91
+CD19+ M2 140 9.69 0.33 3.45 0.06 0.63 0.18 1.88 0.65 6.74 0.76 7.83
+CD33+ M2 140 8.62 0.36 4.19 0.19 2.26 0.25 2.94 1.11 12.88 1.21 14.04
+CD117+ M2 140 8.06 0.31 3.84 0.25 3.14 0.34 4.23 0.48 5.90 0.71 8.79
+CD123+ M2 140 8.16 0.31 3.79 0.28 3.46 0.34 4.12 0.47 5.81 0.72 8.78
+WBC T 140 97.83 1.22 1.25 0.62 0.64 2.31 2.36 1.90 1.94 3.29 3.36
+lymphocyte T 140 30.34 0.86 2.84 1.10 3.62 0.41 1.34 2.02 6.65 2.49 8.20
+monocyte T 140 8.91 0.34 3.84 0.33 3.66 0.29 3.27 0.98 10.95 1.12 12.60
+granulocyte T 140 58.08 1.09 1.88 1.38 2.38 0.51 0.88 3.25 5.59 3.73 6.42
+CD5+ T 140 75.50 0.55 0.73 0.19 0.25 0.58 0.76 0.94 1.25 1.25 1.65
+CD34+ T 140 8.15 0.44 5.46 0.00 0.00 0.00 0.00 0.50 6.11 0.67 8.19
+CD2+e T 140 84.61 0.48 0.57 0.13 0.15 0.48 0.56 1.47 1.73 1.62 1.92
+CD3+ T 140 76.08 0.51 0.67 0.29 0.38 0.44 0.58 0.33 0.43 0.81 1.06
+CD4+CD8− T 140 65.11 0.70 1.08 0.67 1.03 0.00 0.00 1.22 1.87 1.56 2.39
+CD4−CD8+ T 140 29.10 0.63 2.15 0.67 2.31 0.00 0.00 2.39 8.20 2.56 8.78
+CD7+ T 140 79.02 0.50 0.63 0.55 0.69 0.77 0.98 3.92 4.96 4.06 5.14
+CD3−CD56+ T 140 11.16 0.33 2.95 0.18 1.57 0.22 1.93 1.81 16.17 1.86 16.62*
+TCRγδ+ T 140 2.79 0.11 4.09 0.09 3.22 0.04 1.44 0.15 5.30 0.21 7.57
+* %CV of reproductivity for the sample is >15%. As the repeatability of individual CD
+measurements includes unique variability sources, sources of variability include the
+frequency of cells with a particular phenotype, the level of the marker expression on the
+specific population being tested (in relation to the expression on other populations that
+K232600 - Page 21 of 27
+
+[Table 1 on page 21]
+Abnormal Control Cells – across sites																					
+Cell
+Population	Panel	N	Mean
+(%)	Repeatability			Between-					Between-					Between-			Reproducibility	
+							Run					Days					Site				
+				SD	%CV	SD			%C		SD			%C		SD		%CV		SD	%CV
+									V					V							
+CD200+	B	140	9.16	0.31	3.42	0.16		1.72			0.09		0.99			1.06		11.59		1.12	12.25
+Kappa+	B	140	59.51	1.38	2.32	0.47		0.80			0.54		0.91			0.39		0.65		1.61	2.70
+Lambda+	B	140	40.45	1.37	3.38	0.48		1.19			0.56		1.39			0.23		0.56		1.57	3.88
+WBC	M1	140	97.88	0.95	0.98	0.71		0.72			2.38		2.43			1.88		1.92		3.26	3.33
+lymphocyte	M1	140	30.12	1.04	3.44	0.75		2.49			0.42		1.39			1.97		6.53		2.38	7.91
+monocyte	M1	140	8.89	0.30	3.37	0.17		1.86			0.37		4.20			0.55		6.19		0.75	8.42
+granulocyte	M1	140	58.38	1.27	2.18	0.94		1.61			0.63		1.08			2.98		5.11		3.43	5.88
+CD10+	M1	140	57.62	1.29	2.24	1.00		1.74			0.72		1.25			3.20		5.55		3.67	6.36
+CD34+	M1	140	8.04	0.28	3.51	0.23		2.92			0.28		3.44			0.71		8.84		0.85	10.53
+CD7+	M1	140	80.95	0.44	0.55	0.34		0.42			0.52		0.64			4.00		4.94		4.07	5.03
+CD14+CD11b+	M1	140	7.77	0.36	4.61	0.20		2.54			0.20		2.58			0.94		12.04		1.04	13.40
+CD13+	M1	140	58.14	1.31	2.25	0.90		1.54			0.80		1.38			2.85		4.91		3.36	5.79
+CD16+	M1	140	54.33	1.22	2.25	0.96		1.76			0.65		1.20			3.19		5.87		3.61	6.64
+CD14+CD64+	M1	140	7.70	0.35	4.58	0.21		2.72			0.23		3.00			0.89		11.51		1.00	13.03
+HLA-DR+	M1	140	8.45	0.35	4.08	0.20		2.36			0.39		4.67			0.37		4.40		0.67	7.96
+WBC	M2	140	98.03	0.65	0.66	0.30		0.31			2.19		2.23			1.74		1.78		2.89	2.95
+lymphocyte	M2	140	29.97	0.83	2.76	0.83		2.76			0.63		2.09			2.48		8.26		2.81	9.37
+monocyte	M2	140	8.78	0.35	3.97	0.14		1.65			0.25		2.82			0.64		7.32		0.79	8.95
+granulocyte	M2	140	58.61	1.03	1.76	0.98		1.67			0.81		1.38			3.44		5.87		3.81	6.50
+CD34+	M2	140	7.96	0.31	3.85	0.27		3.34			0.32		4.07			0.63		7.93		0.82	10.26
+CD38+ +	M2	140	8.31	0.32	3.81	0.25		3.03			0.23		2.81			0.85		10.28		0.97	11.72
+CD13+	M2	140	58.01	1.05	1.80	0.90		1.55			0.86		1.48			3.78		6.52		4.11	7.09
+HLA-DR+	M2	140	8.35	0.34	4.02	0.21		2.51			0.23		2.76			0.60		7.21		0.76	9.06
+CD15	M2	140	57.80	1.04	1.80	1.05		1.82			0.82		1.42			3.62		6.26		3.99	6.91
+CD19+	M2	140	9.69	0.33	3.45	0.06		0.63			0.18		1.88			0.65		6.74		0.76	7.83
+CD33+	M2	140	8.62	0.36	4.19	0.19		2.26			0.25		2.94			1.11		12.88		1.21	14.04
+CD117+	M2	140	8.06	0.31	3.84	0.25		3.14			0.34		4.23			0.48		5.90		0.71	8.79
+CD123+	M2	140	8.16	0.31	3.79	0.28		3.46			0.34		4.12			0.47		5.81		0.72	8.78
+WBC	T	140	97.83	1.22	1.25	0.62		0.64			2.31		2.36			1.90		1.94		3.29	3.36
+lymphocyte	T	140	30.34	0.86	2.84	1.10		3.62			0.41		1.34			2.02		6.65		2.49	8.20
+monocyte	T	140	8.91	0.34	3.84	0.33		3.66			0.29		3.27			0.98		10.95		1.12	12.60
+granulocyte	T	140	58.08	1.09	1.88	1.38		2.38			0.51		0.88			3.25		5.59		3.73	6.42
+CD5+	T	140	75.50	0.55	0.73	0.19		0.25			0.58		0.76			0.94		1.25		1.25	1.65
+CD34+	T	140	8.15	0.44	5.46	0.00		0.00			0.00		0.00			0.50		6.11		0.67	8.19
+CD2+e	T	140	84.61	0.48	0.57	0.13		0.15			0.48		0.56			1.47		1.73		1.62	1.92
+CD3+	T	140	76.08	0.51	0.67	0.29		0.38			0.44		0.58			0.33		0.43		0.81	1.06
+CD4+CD8−	T	140	65.11	0.70	1.08	0.67		1.03			0.00		0.00			1.22		1.87		1.56	2.39
+CD4−CD8+	T	140	29.10	0.63	2.15	0.67		2.31			0.00		0.00			2.39		8.20		2.56	8.78
+CD7+	T	140	79.02	0.50	0.63	0.55		0.69			0.77		0.98			3.92		4.96		4.06	5.14
+CD3−CD56+	T	140	11.16	0.33	2.95	0.18		1.57			0.22		1.93			1.81		16.17		1.86	16.62*
+TCRγδ+	T	140	2.79	0.11	4.09	0.09		3.22			0.04		1.44			0.15		5.30		0.21	7.57
+
+[Table 2 on page 21]
+Cell
+Population
+
+[Table 3 on page 21]
+Mean
+(%)
+
+--- Page 22 ---
+are present), as well as the fluorescence intensity of the fluorochrome (quantum
+efficiency) of the specific conjugate used for staining. These differences in cell number,
+target analyte level, distribution on non-target populations and fluorochrome intensity
+affect the ability of the instrument/cytometrist to distinguish specific populations. These
+additional sources of variability contribute to the increased imprecision in several of the
+phenotypes tested.
+d. ClearLLab 10C Reagents Lot-to-Lot Reproducibility:
+Refer to K183592
+2. Linearity (Fluorescence Detection):
+The study was performed to evaluate the linearity and dynamic range of the DxFLEX Flow
+Cytometers’ acquisition systems, from the single-photon detection APD transfer to the
+electronics, independent of the application and gating methodology using SpheroTECH
+Rainbow particles (RCP-30-5A) analyzed at six different gain settings covering the dynamic
+range of the DxFLEX Flow Cytometer. The study was conducted on three DxFLEX Flow
+Cytometers. The results indicated the constancy (<5% deviation) of the ratio of adjacent bead
+fluorescence, across a series of gain settings. Representative data from one DxFLEX Flow
+Cytometer is presented in the following table.
+Gain Median-A Ratio of P7/P6
+Setting FITC PE ECD PC5.5 PC7 APC APC700 APC750 PB450 KO525
+100 2.88 2.51 3.02 3.19 3.28 2.82 2.95 2.97 2.79 2.96
+500 2.88 2.51 3.04 3.21 3.20 2.82 2.95 2.94 2.81 2.98
+1000 2.86 2.52 3.03 3.19 3.16 2.81 2.94 2.94 2.79 2.96
+1500 2.87 2.52 3.03 3.19 3.19 2.82 2.93 2.92 2.80 2.97
+2000 2.88 2.51 3.03 3.20 3.20 2.83 2.93 2.94 2.81 2.98
+3000 2.88 2.51 3.03 3.19 3.19 2.81 2.95 2.96 2.78 2.96
+Lower Limit 2.73 2.39 2.88 3.04 3.05 2.68 2.79 2.80 2.66 2.82
+Upper Limit 3.02 2.64 3.18 3.36 3.37 2.96 3.09 3.09 2.94 3.12
+3. Analytical Specificity/Interference:
+a. Interfering Substances:
+Not applicable. The test system requires washing with phosphate buffered saline (PBS)
+before staining with reagents to remove residual plasma and interfering substances.
+b. Carryover:
+Specimen Carryover
+Specimen carryover was evaluated by following the protocol from CLSI H26-A2 on three
+DxFLEX Flow Cytometers. Samples with high concentration (high target value; HTv)
+K232600 - Page 22 of 27
+
+[Table 1 on page 22]
+Gain
+Setting			Median-A Ratio of P7/P6																		
+	Setting		FITC		PE		ECD		PC5.5		PC7		APC		APC700		APC750	P	B450		KO525
+100		2.88		2.51		3.02		3.19		3.28		2.82		2.95		2.97		2.79		2.96	
+500		2.88		2.51		3.04		3.21		3.20		2.82		2.95		2.94		2.81		2.98	
+1000		2.86		2.52		3.03		3.19		3.16		2.81		2.94		2.94		2.79		2.96	
+1500		2.87		2.52		3.03		3.19		3.19		2.82		2.93		2.92		2.80		2.97	
+2000		2.88		2.51		3.03		3.20		3.20		2.83		2.93		2.94		2.81		2.98	
+3000		2.88		2.51		3.03		3.19		3.19		2.81		2.95		2.96		2.78		2.96	
+Lower Limit		2.73		2.39		2.88		3.04		3.05		2.68		2.79		2.80		2.66		2.82	
+Upper Limit		3.02		2.64		3.18		3.36		3.37		2.96		3.09		3.09		2.94		3.12	
+
+--- Page 23 ---
+and low concentration (low target value; LTv) were run in multiple replicates on the
+DxFLEX Flow Cytometer. CD34 marker analysis was performed using a CD34+ clinical
+specimen. Three high concentration samples (HTv1-HTv2-HTv3) targeting to 20,000
+cells /μL white blood cells (WBC) were prepared from one specimen containing a high
+level of white blood cells Low concentration samples (LTv1-LTv2-LTv3) counts were
+prepared by staining a diluted (1:10,000) specimen with a blank Red Cell Pool (a red
+blood cell pool which has been depleted of white blood cells diluted 4:1 with buffer).
+This resulted in a specimen composition similar to whole blood regarding the red blood
+cell concentration with residual concentrations of WBCs. On each of three DxFLEX
+Flow Cytometers, three HTv samples (HTv1, HTv2, HTv3) were analyzed consecutively
+followed immediately by the three LTv samples (LTv1, LTv2, LTv3) using the four
+ClearLLab 10C Panels. A total of 54 specimen carryover runs were generated for each
+panel. The % carryover, which is calculated as % Carryover = (LTV1-LTV3)/average
+(HTv1, HTv2, HTv3), demonstrated to be < 1%, for each of the 37 phenotypes measured
+across the four ClearLLab 10C tubes.
+Reagent Carryover
+Reagent carryover was evaluated by following the protocol from CLSI H26-A2 on three
+DxFLEX Flow Cytometers. Samples with high concentration (high target value; HTv)
+and low concentration (low target value; LTv) were run in multiple replicates on the
+DxFLEX flow cytometer. Clinical bone marrow specimens stained with all four
+ClearLLab 10C Panels were used as the high concentration samples. Low concentration
+samples (LTv1, LTv2, LTv3) were prepared from the same clinical bone marrow
+specimens as in the high concentration samples, that were processed in triplicate using
+antibody dilution buffer (RD1), in place of the ClearLLab 10C Panels, to produce an
+unstained sample. On each of three DxFLEX Flow Cytometers and three HTv samples
+(HTv1, HTv2, HTv3) were analyzed consecutively followed immediately by the three
+LTv samples (LTv1, LTv2, LTv3). A total of 54 specimen carryover runs were generated
+for each panel. The % carryover, which is calculated as % Carryover = (LTV1-
+LTV3)/average (HTv1, HTv2, HTv3), demonstrated to be < 1%, for each of the 37
+phenotypes measured across the four ClearLLab 10C tubes.
+4. Accuracy (Instrument):
+Method Comparison with Predicate Device:
+A method comparison study was performed to demonstrate qualitative agreement for the
+presence of abnormal cells between ClearLLab 10C Reagent System on the DxFLEX Flow
+Cytometer vs Navios EX Flow Cytometer. The study was based on the data generated from a
+multi-site retrospective clinical study conducted at five sites in which the test results from the
+ClearLLab 10C Reagents used to detect the presence or absence of an abnormal phenotype
+were compared to the clinical outcome of “malignant” or “non-malignant” based on the
+clinical sites’ final patient diagnosis.
+Testing was conducted on the DxFLEX and Navios EX flow cytometers utilizing de-
+identified residual specimens, covering both hematologically abnormal malignant patients
+and hematologically abnormal non-malignant patients in line with the intended use of the
+ClearLLab 10C panels. The study included specimens of whole blood (WB) and bone
+K232600 - Page 23 of 27
+
+--- Page 24 ---
+marrow (BM) collected in anticoagulant K2EDTA, Acid Citrate Dextrose (ACD) or Heparin,
+as well as specimens of lymph node (LN), which overall reflect the three major specimen
+types distributed in leukemia and lymphoma (L&L) diseases and clinical indications
+encountered in the L&L population. Patients with abnormal B-cell, T-cell, Natural Killer
+(NK) cell, and myeloid cell populations were tested. Specimen types tested reflected the
+distribution of the diseases and/or clinical indications encountered in the population of
+patients that are routinely encountered in evaluations of patients suspected of having
+hematopoietic neoplasia by flow cytometry. The study design was purposive, and specimens
+were enrolled consecutively.
+Samples were prepared with all four ClearLLab 10C Panels, except LN where only B and T
+tubes were required. The same prepared tube was randomized for acquisition once on the
+Navios EX and once on the DxFLEX flow cytometer. Immunophenotyping was performed
+with provided analysis protocols using Kaluza C software. The phenotype assessments of the
+data generated from DxFLEX-10C system and Navios EX-10C system were independently
+assessed from each other. If clinical diagnosis was provided in the subject’s case report form,
+the Principal Investigator at each site was blinded to such diagnosis to further assure the
+review was exclusively phenotype based. The assessment for presence or absence of an
+abnormal phenotype was based on Bethesda and WHO guidelines as follows:
+• A 3% (in total leukocytes) clinical cutoff will be applied to BM blast population
+which is normally undetected in peripheral WB (<1%) or LN (<1%)
+• 1% (in total leukocytes) clinical cutoff will be applied to all the other abnormal
+populations detected in BM, WB, or LN specimens
+Of the 550 samples enrolled, 38 were excluded due to failing the inclusion criteria,
+preanalytical requirements or quality control or due to instrument, process or operator errors.
+A total of 512 specimens were qualified and included in the final analysis for evaluating
+method agreement per CLSI EP12-Ed3. The distribution of specimens is presented in the
+following tables.
+Distribution of Subjects - by Gender and Age
+Male 268
+Gender Female 239
+Not Provided 5
+Infant Mean
+1
+(1 mon-2 yrs) 4 months
+Child Mean
+12
+(>2-12 yrs) 6.3 yrs
+Adolescent Mean
+14
+(>12-21 yrs) 17.6 yrs
+Age Adult Mean
+230
+(>21-65 yrs) 50.6 yrs
+Geriatric Mean
+250
+(>65-89 yrs) 75.6 yrs
+Mean
+>89 yrs 5
+N/A
+Total 512
+K232600 - Page 24 of 27
+
+[Table 1 on page 24]
+	Distribution of Subjects - by Gender and Age				
+Gender		Male		268	
+		Female		239	
+		Not Provided		5	
+Age		Infant
+(1 mon-2 yrs)	Mean	1	
+			4 months		
+		Child
+(>2-12 yrs)	Mean	12	
+			6.3 yrs		
+		Adolescent
+(>12-21 yrs)	Mean	14	
+			17.6 yrs		
+		Adult
+(>21-65 yrs)	Mean	230	
+			50.6 yrs		
+		Geriatric
+(>65-89 yrs)	Mean	250	
+			75.6 yrs		
+		>89 yrs	Mean	5	
+			N/A		
+		Total		512	
+
+--- Page 25 ---
+Distribution of Subjects - by Category
+Abnormal Abnormal Hematology- Malignancy
+Hematology Others:
+Acute Chronic Plasma Cell Total
+No Lymphoma MDS
+Leukemia Leukemia Neoplasm
+Malignancy MPN
+Site 1 46 12 14 26 7 10 115
+Site 2 41 10 12 14 0 8 85
+Site 3 60 14 30 18 5 2 129
+Site 4 21 2 3 26 11 3 66
+Site 5 28 23 18 29 8 11 117
+Total 196 61 77 113 31 34 512
+Distribution of Subjects - by Specimen Type
+WB 291
+BM 167
+LN 54
+Total 512
+The qualitative immunophenotype agreement (presence or absence of an abnormal
+population) was evaluated by comparing the assessment from the ClearLLab 10C on
+DxFLEX Flow Cytometer (Test Method) to that from the ClearLLab 10C on the Navios EX
+Flow Cytometer (Predicate Method). % The results are shown in the following tables:
+Method Agreement – All Specimens Combined
+ClearLLab 10C on Navios EX
+Presence of Absence of
+ClearLLab 10C on DxFLEX Total
+Abnormal cells (+) Abnormal cells (-)
+Presence of Abnormal cells (+) 231 0 231
+Absence of Abnormal cells (-) 0 281 281
+Total 246 281 512
+PPA: 100% (95% CI: 98.46% – 100%)
+NPA: 100% (95% CI: 99.28% – 100%)
+Method Agreement – Whole Blood Specimens Only
+ClearLLab 10C on Navios EX
+Presence of Absence of
+ClearLLab 10C on DxFLEX Total
+Abnormal cells (+) Abnormal cells (-)
+Presence of Abnormal cells (+) 139 0 139
+Absence of Abnormal cells (-) 0 152 152
+Total 139 152 291
+PPA: 100% (95% CI: 97.47% – 100%)
+NPA: 100% (95% CI: 97.54% – 100%)
+K232600 - Page 25 of 27
+
+[Table 1 on page 25]
+Distribution of Subjects - by Category												
+		Abnormal			Abnormal Hematology- Malignancy							Total
+		Hematology		Acute
+Leukemia		Chronic
+Leukemia	Lymphoma	Plasma Cell
+Neoplasm		Others:		
+		No								MDS		
+		Malignancy								MPN		
+Site 1	46			12		14	26	7	10			115
+Site 2	41			10		12	14	0	8			85
+Site 3	60			14		30	18	5	2			129
+Site 4	21			2		3	26	11	3			66
+Site 5	28			23		18	29	8	11			117
+Total	196			61		77	113	31	34			512
+
+[Table 2 on page 25]
+Acute
+Leukemi
+
+[Table 3 on page 25]
+Chronic
+Leukemi
+
+[Table 4 on page 25]
+Plasma Cel
+Neoplasm
+
+[Table 5 on page 25]
+Distribution of Subjects - by Specimen Type	
+WB	291
+BM	167
+LN	54
+Total	512
+
+[Table 6 on page 25]
+Method Agreement – All Specimens Combined			
+	ClearLLab 10C on Navios EX		
+	Presence of	Absence of	
+ClearLLab 10C on DxFLEX			Total
+	Abnormal cells (+)	Abnormal cells (-)	
+			
+Presence of Abnormal cells (+)	231	0	231
+Absence of Abnormal cells (-)	0	281	281
+Total	246	281	512
+
+[Table 7 on page 25]
+Method Agreement – Whole Blood Specimens Only			
+	ClearLLab 10C on Navios EX		
+	Presence of	Absence of	
+ClearLLab 10C on DxFLEX			Total
+	Abnormal cells (+)	Abnormal cells (-)	
+			
+Presence of Abnormal cells (+)	139	0	139
+Absence of Abnormal cells (-)	0	152	152
+Total	139	152	291
+
+--- Page 26 ---
+Clinical performance (sensitivity, specificity, positive predictive value (PPV), negative
+predictive value (NPV)) of the ClearLLab 10C Reagent on DxFLEX Flow Cytometer was
+also assessed by measuring the agreement of the flow cytometric results with the clinical
+diagnosis. The results of this evaluation are presented below.
+Diagnostic Accuracy – All Specimen Types Combined
+Clinical Outcome
+ClearLLab 10C on DxFLEX Malignant Non-Malignant Total
+Malignant (+) 220 11 231
+Non-Malignant (-) 96 185 281
+Total 316 196 512
+Sensitivity: 70% (95% CI: 64% – 74%)
+Specificity: 94% (95% CI: 90% – 97%)
+PPV: 95% (95% CI: 92% – 97%)
+NPV: 66% (95% CI: 60% – 71%)
+Diagnostic Accuracy – Whole Blood Only
+Clinical Outcome
+ClearLLab 10C on DxFLEX Malignant Non-Malignant Total
+Malignant (+) 133 6 139
+Non-Malignant (-) 27 125 152
+Total 160 131 291
+Sensitivity: 83% (95% CI: 77%– 88%)
+Specificity: 95% (95% CI: 90% – 98%)
+PPV: 96% (95% CI: 91% – 98%)
+NPV: 82% (95% CI: 75% – 88%)
+The clinical performance was also assessed with the predicate device. The results
+demonstrated 100% phenotypic agreement between the candidate and predicate devices. For
+both methods, when compared to clinical diagnostic outcome, there were a total of 107
+discordant cases including 11 non-concordant to non-malignancy (false positive) and 96 non-
+concordant to malignancy (false negative) cases. The false negative was categorized as being
+due to specimen type limitation, flow cytometry limitation, or ClearLLab reagents limitation.
+These limitations occur when the phenotypically abnormal population is not found in a
+particular specimen, the clinical condition is not typically detected through flow cytometry,
+or the reagents did not have all the antibodies required to detect a particular clinical
+condition, respectively. False positive cases were primarily due to increases in populations
+that could represent reactive responses to viral or bacterial infection or autoimmunity, where
+lymphoid proliferation is common.
+B Other Supportive Instrument Performance Characteristics Data:
+The detection capability of the DxFLEX flow cytometer with the ClearLLab 10C Reagent, was
+assessed for each reagent tube using one normal specimen (Blank) that was spiked with samples
+having abnormal populations (CLL, T-ALL, Myelomonocytic Leukemia and AML), to target
+0.5%, 1% and 2% of the abnormal population, each in five replicates. The results demonstrated
+K232600 - Page 26 of 27
+
+[Table 1 on page 26]
+Diagnostic Accuracy – All Specimen Types Combined			
+	Clinical Outcome		
+ClearLLab 10C on DxFLEX	Malignant	Non-Malignant	Total
+Malignant (+)	220	11	231
+Non-Malignant (-)	96	185	281
+Total	316	196	512
+
+[Table 2 on page 26]
+Diagnostic Accuracy – Whole Blood Only			
+	Clinical Outcome		
+ClearLLab 10C on DxFLEX	Malignant	Non-Malignant	Total
+Malignant (+)	133	6	139
+Non-Malignant (-)	27	125	152
+Total	160	131	291
+
+--- Page 27 ---
+that 100% of the replicates showed the correct populations, down to a level of 0.5% and verified
+that the Limit of Detection of 1% was confirmed on the new instrument.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K232600 - Page 27 of 27

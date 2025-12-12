@@ -1,0 +1,1351 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K200492
+B Applicant
+Abbott Point of Care Inc.
+C Proprietary and Established Names
+i-STAT CG4+ Cartridge with the i-STAT 1 System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1120 - Blood Gases (PCO2, CH - Clinical
+CHL Class II
+PO2) And Blood pH Test System Chemistry
+21 CFR 862.1450 - Lactic acid test CH - Clinical
+KHP Class I
+system Chemistry
+II Submission/Device Overview:
+A Purpose for Submission:
+Modification of a previously cleared device - modification to the i-STAT CG4+ (blue) cartridge
+on the i-STAT 1 Analyzer.
+B Measurand:
+PO2, PCO2, pH and Lactate
+C Type of Test:
+Quantitative, amperometric for pH and PCO2
+Quantitative, potentiometric for PO2 and lactate
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+CHL			Class II	21 CFR 862.1120 - Blood Gases (PCO2,
+PO2) And Blood pH Test System			CH - Clinical
+Chemistry
+KHP			Class I	21 CFR 862.1450 - Lactic acid test
+system			CH - Clinical
+Chemistry
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The i-STAT CG4+ cartridge with the i-STAT 1 System is intended for use in the in vitro
+quantification of pH, PO2, PCO2, and lactate in arterial or venous whole blood in point of care
+or clinical laboratory settings.
+pH, PO2, and PCO2 measurements are used in the diagnosis, monitoring, and treatment of
+respiratory disturbances and metabolic and respiratory-based acid-base disturbances.
+Lactate measurements are used in (1) the diagnosis and treatment of lactic acidosis in
+conjunction with measurements of blood acid/base status, (2) monitoring tissue hypoxia and
+strenuous physical exertion, and (3) diagnosis of hyperlactatemia.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+For Point-of-Care or clinical laboratory setting
+D Special Instrument Requirements:
+i-STAT 1 Analyzer
+IV Device/System Characteristics:
+A Device Description:
+The i-STAT 1 System is comprised of the i-STAT 1 Analyzer, the i-STAT test cartridges and
+accessories (i-STAT 1 Downloader/Recharger, electronic simulator and portable printer). The
+system is designed for use by trained medical professionals at the patient point of care or in the
+clinical laboratory and is for prescription use only.
+The i-STAT CG4+ test cartridge contains test reagents to analyze venous and arterial whole
+blood at the point of care or in the clinical laboratory for pH, PO2 (partial pressure of oxygen),
+PCO2 (partial pressure of carbon dioxide), and lactate. Each i-STAT CG4+ cartridge contains a
+reference and ground electrode, and potentiometric and amperometric sensors for the
+measurement of specific analytes. It also contains a buffered aqueous calibrant solution with
+known concentrations of analytes and preservatives. The test is contained in a single-use,
+disposable cartridge. Cartridges require two to three drops of whole blood which are typically
+applied to the cartridge using a transfer device.
+The i-STAT 1 Analyzer (previously cleared under k103195 as the i-STAT 1 Wireless Analyzer)
+is a handheld, in vitro diagnostic analytical device designed to run only i-STAT test cartridges.
+The instrument interacts with the cartridge to move fluid across the sensors and generate a
+quantitative result.
+K200492 - Page 2 of 19
+
+--- Page 3 ---
+B Principle of Operation:
+pH is measured by direct potentiometry. In the calculation of results for pH, concentration is
+related to potential through the Nernst equation.
+PO2 is measured amperometrically. The oxygen sensor is similar to a conventional Clark
+electrode. Oxygen permeates through a gas permeable membrane from the blood sample into an
+internal electrolyte solution where it is reduced at the cathode. The oxygen reduction current is
+proportional to the dissolved oxygen concentration.
+PCO2 is measured by direct potentiometry. In the calculation of results for PCO2, concentration
+is related to potential through the Nernst equation.
+Lactate is measured amperometrically. The enzyme lactate oxidase, immobilized in the lactate
+biosensor, selectively converts lactate to pyruvate and hydrogen peroxide (H2O2). The liberated
+hydrogen peroxide is oxidized at a platinum electrode to produce a current which is proportional
+to the sample lactate concentration.
+Temperature “Correction” Algorithm
+pH, PO , and PCO are temperature-dependent and are measured at 37°C. The pH, PO ,
+2 2 2
+and PCO readings at a body temperature other than 37°C can be ‘corrected’ by entering
+2
+the patient’s temperature on the chart page of the Analyzer. In this case, blood gas results
+will be displayed at both 37°C and the patient’s temperature. pH, PO , and PCO at the
+2 2
+patient’s temperature (T ) are calculated as follows:
+p
+Calculated Results
+The i-STAT 1 Analyzer can be customized to display calculated results. These results are
+derived using standard equations with inputs from the directly measured i-STAT sensor
+results. These calculations have no effect on the directly measured test results and are
+provided for the convenience of the end user who would otherwise perform the
+calculation manually.
+HCO : HCO (bicarbonate), the most abundant buffer in the blood plasma, is an indicator
+3 3
+of the buffering capacity of blood. Regulated primarily by the kidneys, HCO is the
+3
+metabolic component of acid-base balance.
+log HCO = pH + log PCO - 7.608
+3 2
+K200492 - Page 3 of 19
+
+--- Page 4 ---
+CO : TCO is a measure of carbon dioxide which exists in several states: CO in physical
+2 2 2
+solution or loosely bound to proteins, bicarbonate (HCO ) or carbonate (CO ) anions, and
+3 3
+carbonic acid (H CO ). Measurement of TCO as part of an electrolyte profile is useful
+2 3 2
+chiefly to evaluate HCO concentration. TCO and HCO are useful in the assessment of
+3 2 3
+acid-base imbalance (along with pH and PCO ) and electrolyte imbalance. The i-STAT
+2
+CG4+ can report a calculated TCO according to a simplified and standardized form of the
+2
+Henderson-Hasselbalch equation.
+TCO = HCO + 0.03PCO
+2 3 2
+BE: Base excess of the extracellular fluid (ECF) or standard base excess is defined as the
+concentration of titratable base minus the concentration of titratable acid when titrating the
+average ECF (plasma plus interstitial fluid) to an arterial plasma pH of 7.40 at PCO of 40
+2
+mmHg at 37 °C. Excess concentration of base in the average ECF remains virtually
+constant during acute changes in the PCO and reflects only the non-respiratory component
+2
+of pH‑disturbances.
+BE = HCO - 24.8 + 16.2(pH-7.4)
+ecf 3
+BE = (1 - 0.014*Hb) * [HCO3 - 24.8 + (1.43 * Hb + 7.7) * (pH - 7.4)]
+b
+sO : sO (oxygen saturation) is the amount of oxyhemoglobin expressed as a fraction of
+2 2
+the total amount of hemoglobin able to bind oxygen (oxyhemoglobin plus
+deoxyhemoglobin).
+sO is calculated from measured PO and pH and from HCO calculated from measured
+2 2 3
+PCO and pH. However, this calculation assumes normal affinity of oxygen for hemoglobin.
+2
+It does not take into account erythrocyte diphosphoglycerate (2,3-DPG) concentrations
+which affect the oxygen dissociation curve. The calculation also does not take into account
+the effects of fetal hemoglobin or dysfunctional hemoglobins (carboxy-, met-, and
+sulfhemoglobin). Clinically significant errors can result from incorporation of such an
+estimated sO value for oxygen saturation in further calculations, such as shunt fraction, or
+2
+by assuming the value obtained is equivalent to fractional oxyhemoglobin.
+Instrument Description Information:
+1. Instrument Name:
+i-STAT 1 Analyzer
+2. Specimen Identification:
+The specimen identification may be manually entered or automatically scanned by the
+device.
+K200492 - Page 4 of 19
+
+--- Page 5 ---
+3. Specimen Sampling and Handling:
+The sample type must be selected using the device touchscreen. After the sample type is
+selected the on-screen help appears and the help graphics on the device screen vary based on
+the sample type selected. The reagent cartridge contains a sample chamber that includes the
+sample well and the channel leading from the well up to the fill mark. The cartridge label is
+intended to help the operator fill the cartridge correctly. When filled, the sample chamber
+contains sufficient sample for testing. Sample volume and placement are monitored by the
+instrument and an error message will be generated if filled incorrectly. Either lithium heparin
+tube or syringe may be used. Samples should be remixed thoroughly before testing.
+4. Calibration:
+The CG4+ cartridge includes an on board calibration that is performed with each cartridge
+use. The calibrant solution is automatically released from its foil pack and is positioned over
+the sensors. The signals produced by the sensors’ responses to the calibrant solution are
+measured. This one-point calibration adjusts the offset of the stored calibration curve.
+5. Quality Control:
+The sponsor recommends i-STAT Controls and TriControls for use with the i-STAT CG4+
+cartridge with the i-STAT 1 System.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Epoc BGEM, Epoc Reader, Epoc Host
+ABL800 Flex
+B Predicate 510(k) Number(s):
+K093297, K041874
+C Comparison with Predicate(s):
+Device & Predicate
+K200492 K041874
+Device(s):
+pH test in the i-STAT
+ABL800 FLEX pH
+Device Trade Name CG4+ cartridge with the
+Test
+i-STAT 1 System
+General Device
+Characteristic Similarities
+Intended for use in the in
+vitro quantification of pH
+Intended Use/Indications in arterial or venous
+Same
+For Use whole blood in point of
+care or clinical laboratory
+settings.
+K200492 - Page 5 of 19
+
+[Table 1 on page 5]
+	Device & Predicate		K200492	K041874
+	Device(s):			
+Device Trade Name			pH test in the i-STAT
+CG4+ cartridge with the
+i-STAT 1 System	ABL800 FLEX pH
+Test
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			Intended for use in the in
+vitro quantification of pH
+in arterial or venous
+whole blood in point of
+care or clinical laboratory
+settings.	Same
+
+--- Page 6 ---
+Device & Predicate
+K200492 K041874
+Device(s):
+pH measurements are
+used in the diagnosis,
+monitoring, and
+treatment of respiratory
+disturbances and
+metabolic and
+respiratory-based acid-
+base disturbances.
+Principle of Ion selective
+Same
+Measurement electrode
+General Device
+K200492 K041874
+Characteristic Differences
+Reportable Range 7.000 – 7.700 6.300 – 8.000
+Arterial or venous whole Arterial, venous or
+Sample Type
+blood capillary whole blood
+Sample Volume 95 μL At least 50 – 70 μL
+Reagent Format Cartridge Reagent handling
+system, stored within
+analyzer
+Calibration 1-point on-board 1-point intervals 30
+contained within the min, 1 hour, 2 hours
+cartridge
+Device & Predicate
+K200492 K041874
+Device(s):
+PO2 test in the
+i-STAT CG4+ cartridge ABL800 FLEX PO2
+Device Trade Name
+with the i-STAT 1 Test
+System
+General Device
+Characteristic Similarities
+Intended for use in the in
+vitro quantification of
+PO2 in arterial or venous
+whole blood in point of
+care or clinical laboratory
+Intended Use/Indications
+settings. Same
+For Use
+PO2 measurements are
+used in the diagnosis,
+monitoring, and
+treatment of respiratory
+disturbances and
+K200492 - Page 6 of 19
+
+[Table 1 on page 6]
+	Device & Predicate		K200492	K041874
+	Device(s):			
+			pH measurements are
+used in the diagnosis,
+monitoring, and
+treatment of respiratory
+disturbances and
+metabolic and
+respiratory-based acid-
+base disturbances.	
+Principle of
+Measurement			Ion selective
+electrode	Same
+	General Device		K200492	K041874
+	Characteristic Differences			
+Reportable Range			7.000 – 7.700	6.300 – 8.000
+Sample Type			Arterial or venous whole
+blood	Arterial, venous or
+capillary whole blood
+Sample Volume			95 μL	At least 50 – 70 μL
+Reagent Format			Cartridge	Reagent handling
+system, stored within
+analyzer
+Calibration			1-point on-board
+contained within the
+cartridge	1-point intervals 30
+min, 1 hour, 2 hours
+
+[Table 2 on page 6]
+	Device & Predicate		K200492	K041874
+	Device(s):			
+Device Trade Name			PO2 test in the
+i-STAT CG4+ cartridge
+with the i-STAT 1
+System	ABL800 FLEX PO2
+Test
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			Intended for use in the in
+vitro quantification of
+PO2 in arterial or venous
+whole blood in point of
+care or clinical laboratory
+settings.
+PO2 measurements are
+used in the diagnosis,
+monitoring, and
+treatment of respiratory
+disturbances and	Same
+
+--- Page 7 ---
+Device & Predicate
+K200492 K041874
+Device(s):
+metabolic and
+respiratory-based acid-
+base disturbances.
+Amperometric
+Principle of
+measurement of Same
+Measurement
+oxygen reduction current
+General Device
+K200492 K041874
+Characteristic Differences
+15 – 530 mmHg 0.0 – 800 mmHg
+Reportable Range
+2.00 – 70.49 kPa 0.00 – 107 kPa
+Arterial or venous whole Arterial, venous or
+Sample Type
+blood capillary whole blood
+Sample Volume 95 μL At least 50 – 70 μL
+Reagent Format Cartridge Reagent handling
+system, stored within
+analyzer
+Calibration 1-point on-board 1-point intervals 30
+contained within the min, 1 hour, 2 hours
+cartridge
+Device & Predicate
+K200492 K041874
+Device(s):
+PCO2 test in the
+i-STAT CG4+ cartridge ABL800 FLEX PCO2
+Device Trade Name
+with the i-STAT 1 Test
+System
+General Device
+Characteristic Similarities
+Intended for use in the in
+vitro quantification of
+PCO2 in arterial or
+venous whole blood in
+point of care or clinical
+laboratory settings.
+Intended Use/Indications pCO2 measurements are
+Same
+For Use used in the diagnosis,
+monitoring, and
+treatment of respiratory
+disturbances and
+metabolic and
+respiratory-based acid-
+base disturbances.
+K200492 - Page 7 of 19
+
+[Table 1 on page 7]
+	Device & Predicate		K200492	K041874
+	Device(s):			
+			metabolic and
+respiratory-based acid-
+base disturbances.	
+Principle of
+Measurement			Amperometric
+measurement of
+oxygen reduction current	Same
+	General Device		K200492	K041874
+	Characteristic Differences			
+Reportable Range			15 – 530 mmHg
+2.00 – 70.49 kPa	0.0 – 800 mmHg
+0.00 – 107 kPa
+Sample Type			Arterial or venous whole
+blood	Arterial, venous or
+capillary whole blood
+Sample Volume			95 μL	At least 50 – 70 μL
+Reagent Format			Cartridge	Reagent handling
+system, stored within
+analyzer
+Calibration			1-point on-board
+contained within the
+cartridge	1-point intervals 30
+min, 1 hour, 2 hours
+
+[Table 2 on page 7]
+	Device & Predicate		K200492	K041874
+	Device(s):			
+Device Trade Name			PCO2 test in the
+i-STAT CG4+ cartridge
+with the i-STAT 1
+System	ABL800 FLEX PCO2
+Test
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			Intended for use in the in
+vitro quantification of
+PCO2 in arterial or
+venous whole blood in
+point of care or clinical
+laboratory settings.
+pCO2 measurements are
+used in the diagnosis,
+monitoring, and
+treatment of respiratory
+disturbances and
+metabolic and
+respiratory-based acid-
+base disturbances.	Same
+
+--- Page 8 ---
+Device & Predicate
+K200492 K041874
+Device(s):
+Principle of Ion selective electrode
+Same
+Measurement
+General Device
+K200492 K041874
+Characteristic Differences
+15.0 – 130.0 mmHg 2.00 5.0 – 250 mmHg
+Reportable Range
+–17.29 kPa 0.67 – 33.3 kPa
+Arterial or venous whole Arterial, venous or
+Sample Type
+blood capillary whole blood
+Sample Volume 95 μL At least 50 – 70 μL
+Reagent Format Cartridge Reagent handling
+system, stored within
+analyzer
+Calibration 1-point on-board 1-point intervals 30
+contained within the min, 1 hour, 2 hours
+cartridge
+Device & Predicate
+K200492 K093297
+Device(s):
+Lactate test in the epoc BGEM, epoc
+Device Trade Name i-STAT CG4+ cartridge READER, epoc
+with the i-STAT 1 System HOST
+General Device
+Characteristic Similarities
+Lactate measurements are
+used in the diagnosis and
+Intended Use/Indications treatment of lactic
+Same
+For Use acidosis in conjunction
+with measurements of
+blood acid/base status.
+Amperometric
+measurement of oxidized
+Principle of
+hydrogen peroxide Same
+Measurement
+produced by lactate
+oxidase activity
+0.30 – 20.00 mmol/L 2.7
+Reportable Range Same
+– 180.2 mg/dL
+General Device
+K200492 K093297
+Characteristic Differences
+Arterial or venous whole Arterial, venous or
+Sample Type
+blood capillary whole blood
+Sample Volume 95 μL At least 50 – 70 μL
+K200492 - Page 8 of 19
+
+[Table 1 on page 8]
+	Device & Predicate
+Device(s):	K200492	K041874
+Principle of
+Measurement		Ion selective electrode	Same
+	General Device
+Characteristic Differences	K200492	K041874
+Reportable Range		15.0 – 130.0 mmHg 2.00
+–17.29 kPa	5.0 – 250 mmHg
+0.67 – 33.3 kPa
+Sample Type		Arterial or venous whole
+blood	Arterial, venous or
+capillary whole blood
+Sample Volume		95 μL	At least 50 – 70 μL
+Reagent Format		Cartridge	Reagent handling
+system, stored within
+analyzer
+Calibration		1-point on-board
+contained within the
+cartridge	1-point intervals 30
+min, 1 hour, 2 hours
+
+[Table 2 on page 8]
+	Device & Predicate		K200492	K093297
+	Device(s):			
+Device Trade Name			Lactate test in the
+i-STAT CG4+ cartridge
+with the i-STAT 1 System	epoc BGEM, epoc
+READER, epoc
+HOST
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			Lactate measurements are
+used in the diagnosis and
+treatment of lactic
+acidosis in conjunction
+with measurements of
+blood acid/base status.	Same
+Principle of
+Measurement			Amperometric
+measurement of oxidized
+hydrogen peroxide
+produced by lactate
+oxidase activity	Same
+Reportable Range			0.30 – 20.00 mmol/L 2.7
+– 180.2 mg/dL	Same
+	General Device		K200492	K093297
+	Characteristic Differences			
+Sample Type			Arterial or venous whole
+blood	Arterial, venous or
+capillary whole blood
+Sample Volume			95 μL	At least 50 – 70 μL
+
+--- Page 9 ---
+Device & Predicate
+K200492 K093297
+Device(s):
+Reagent Format Cartridge Reagent handling
+system, stored within
+analyzer
+Calibration 1-point on-board 1-point on-board
+contained within the contained within the
+cartridge card
+VI Standards/Guidance Documents Referenced:
+CLSI EP05-A3: Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline-Third Edition
+CLSI EP06-A: Evaluation of the Linearity of Quantitative Measurement Procedures
+CLSI EP07-A3: Interference Testing in Clinical Chemistry; Approved Guideline –Third Edition
+CLSI EP 17-A2: Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline
+CLSI EP37: Supplemental Tables for Interference Testing in Clinical Chemistry, First Edition
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Internal within-site precision (aqueous control material)
+A single site precision study for the i-STAT pH, PO2, PCO2, and Lactate assays was
+conducted following the recommendations in CLSI EP05-A3. Five concentration levels of
+commercially available calibration verification samples were tested using one lot of i-STAT
+CG4+ (blue) cartridges and ten i-STAT 1 Analyzers. Each sample was measured in
+duplicates per run, with two runs per day for 20-days by a minimum of two operators
+resulting in a total of 80 test results per level. The results are summarized below.
+pH
+Within-run Between Run Between Day Total
+Level Mean
+SD %CV SD %CV SD %CV SD %CV
+L1 6.5215 0.00347 0.05 0.00228 0.03 0.00129 0.02 0.00435 0.07
+L2 7.0199 0.00252 0.04 0.00040 0.01 0.00132 0.02 0.00287 0.04
+L3 7.4758 0.00250 0.03 0.00098 0.01 0.00075 0.01 0.00279 0.04
+L4 7.7551 0.00209 0.03 0.00071 0.01 0.00097 0.01 0.00241 0.03
+L5 7.9862 0.00322 0.04 0.00118 0.01 0.00135 0.02 0.00369 0.05
+K200492 - Page 9 of 19
+
+[Table 1 on page 9]
+	Device & Predicate		K200492	K093297
+	Device(s):			
+Reagent Format			Cartridge	Reagent handling
+system, stored within
+analyzer
+Calibration			1-point on-board
+contained within the
+cartridge	1-point on-board
+contained within the
+card
+
+[Table 2 on page 9]
+		Within-run		Between Run		Between Day		Total	
+Level	Mean								
+		SD	%CV	SD	%CV	SD	%CV	SD	%CV
+									
+L1	6.5215	0.00347	0.05	0.00228	0.03	0.00129	0.02	0.00435	0.07
+L2	7.0199	0.00252	0.04	0.00040	0.01	0.00132	0.02	0.00287	0.04
+L3	7.4758	0.00250	0.03	0.00098	0.01	0.00075	0.01	0.00279	0.04
+L4	7.7551	0.00209	0.03	0.00071	0.01	0.00097	0.01	0.00241	0.03
+L5	7.9862	0.00322	0.04	0.00118	0.01	0.00135	0.02	0.00369	0.05
+
+--- Page 10 ---
+PO2
+Mean Within-run Between Run Between Day Total
+Level
+(mmHg) SD %CV SD %CV SD %CV SD %CV
+L1 70.2 2.08 3.0 0.70 1.0 1.08 1.5 2.45 3.5
+L2 85.7 2.40 2.8 0.76 0.9 0.93 1.1 2.69 3.1
+L3 120.4 2.25 1.9 1.18 1.0 0.81 0.7 2.66 2.2
+L4 152.9 1.88 1.2 1.78 1.2 1.55 1.0 3.02 2.0
+L5 363.4 4.15 1.1 5.07 1.4 2.40 0.7 6.98 1.9
+PCO2
+Mean Within-run Between Run Between Day Total
+Level
+(mmHg) SD %CV SD %CV SD %CV SD %CV
+L1 87.08 0.916 1.1 0.872 1.0 0.470 0.5 1.349 1.5
+L2 59.48 0.872 1.5 0.228 0.4 0.190 0.3 0.921 1.5
+L3 29.24 0.617 2.1 0.227 0.8 0.151 0.5 0.675 2.3
+L4 21.14 0.521 2.5 0.141 0.7 0.118 0.6 0.552 2.6
+L5 15.05 0.473 3.1 0.138 0.9 0.114 0.8 0.506 3.4
+Lactate
+Mean Within-run Between Run Between Day Total
+Level
+(mmol/L) SD %CV SD %CV SD %CV SD %CV
+L1 18.448 0.1505 0.8 0.0266 0.1 0.0634 0.3 0.1655 0.9
+L2 7.967 0.0459 0.6 0.0132 0.2 0.0128 0.2 0.0495 0.6
+L3 2.251 0.0073 0.3 0.0030 0.1 0.0021 0.1 0.0082 0.4
+L4 0.924 0.0108 1.2 0.0038 0.4 0.0041 0.4 0.0122 1.3
+L5 0.497 0.0123 2.5 0.0033 0.7 0.0037 0.7 0.0133 2.7
+Internal within-site precision (whole blood)
+A single site precision study was conducted for PO2, PCO2, pH, and Lactate using samples
+targeted to three levels within the test reportable range of each test. Venous whole blood
+collected in lithium heparinized tubes from a healthy subject was altered via tonometry
+and/or acid/base spiking for PO2, PCO2 and pH and via spiking or plasma replacement for
+lactate to prepare the different sample levels. The samples were tested using one lot of i-
+STAT CG4+ (blue) cartridges and 60 i-STAT 1 Analyzers. The results of the whole blood
+precision are shown below.
+pH
+Sample ID N Mean (pH units) SD %CV
+S1 30 7.5465 0.00285 0.04
+S2 30 7.2259 0.00511 0.07
+S3 45 7.3657 0.00344 0.05
+PO2
+Sample ID N Mean (mmHg) SD %CV
+S1 30 31.0 0.58 1.9
+S2 30 239.2 3.38 1.4
+S3 45 84.8 2.63 3.1
+K200492 - Page 10 of 19
+
+[Table 1 on page 10]
+	Mean	Within-run		Between Run		Between Day		Total	
+Level									
+	(mmHg)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+									
+L1	70.2	2.08	3.0	0.70	1.0	1.08	1.5	2.45	3.5
+L2	85.7	2.40	2.8	0.76	0.9	0.93	1.1	2.69	3.1
+L3	120.4	2.25	1.9	1.18	1.0	0.81	0.7	2.66	2.2
+L4	152.9	1.88	1.2	1.78	1.2	1.55	1.0	3.02	2.0
+L5	363.4	4.15	1.1	5.07	1.4	2.40	0.7	6.98	1.9
+
+[Table 2 on page 10]
+	Mean	Within-run		Between Run		Between Day		Total	
+Level									
+	(mmHg)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+									
+L1	87.08	0.916	1.1	0.872	1.0	0.470	0.5	1.349	1.5
+L2	59.48	0.872	1.5	0.228	0.4	0.190	0.3	0.921	1.5
+L3	29.24	0.617	2.1	0.227	0.8	0.151	0.5	0.675	2.3
+L4	21.14	0.521	2.5	0.141	0.7	0.118	0.6	0.552	2.6
+L5	15.05	0.473	3.1	0.138	0.9	0.114	0.8	0.506	3.4
+
+[Table 3 on page 10]
+	Mean	Within-run		Between Run		Between Day		Total	
+Level									
+	(mmol/L)	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+									
+L1	18.448	0.1505	0.8	0.0266	0.1	0.0634	0.3	0.1655	0.9
+L2	7.967	0.0459	0.6	0.0132	0.2	0.0128	0.2	0.0495	0.6
+L3	2.251	0.0073	0.3	0.0030	0.1	0.0021	0.1	0.0082	0.4
+L4	0.924	0.0108	1.2	0.0038	0.4	0.0041	0.4	0.0122	1.3
+L5	0.497	0.0123	2.5	0.0033	0.7	0.0037	0.7	0.0133	2.7
+
+[Table 4 on page 10]
+	Sample ID			N			Mean (pH units)			SD			%CV	
+S1			30			7.5465			0.00285			0.04		
+S2			30			7.2259			0.00511			0.07		
+S3			45			7.3657			0.00344			0.05		
+
+[Table 5 on page 10]
+	Sample ID			N			Mean (mmHg)			SD			%CV	
+S1			30			31.0			0.58			1.9		
+S2			30			239.2			3.38			1.4		
+S3			45			84.8			2.63			3.1		
+
+--- Page 11 ---
+PCO2
+Sample ID N Mean (mmHg) SD %CV
+S1 30 21.52 0.293 1.4
+S2 30 73.12 0.705 1.0
+S3 45 42.69 0.762 1.8
+Lactate
+Sample ID N Mean (mmol/L) SD %CV
+S1 10 0.578 0.0210 3.6
+S2 10 3.718 0.0325 0.9
+S3 12 15.809 0.0679 0.4
+Point of Care precision – aqueous control material
+A three site point of care precision study was performed using a panel of five aqueous control
+solutions containing different levels of pH, PCO2, PO2, and lactate. At each point of care
+site, testing was performed a minimum of once per day for five (5) days on six (6) i-STAT 1
+Analyzers using six lots of i-STAT CG4+ (blue) cartridges. When a cartridge generated a
+star-out (non-reported result) for one assay, an additional cartridge was run to replace the
+star-out result, which produced additional test results for other assays. Within-day, between-
+day and total variance components were calculated by site. These components were also
+calculated for all sites combined and provided in the tables below:
+pH
+Mean Between- Within-Site Between-Site Overall
+Within-Day
+Level N (pH Day Total
+units) SD %CV SD %CV SD %CV SD %CV SD %CV
+L1 96 6.5291 0.0042 0.07 0.0000 0.00 0.0042 0.07 0.0028 0.04 0.0051 0.08
+L2 96 7.0312 0.0026 0.04 0.0005 0.01 0.0027 0.04 0.0021 0.03 0.0034 0.05
+L3 98 74918 0.0019 0.02 0.0000 0.00 0.0019 0.02 0.0011 0.01 0.0022 0.03
+L4 96 7.7455 0.0018 0.02 0.0001 0.00 0.0018 0.02 0.0005 0.01 0.0019 0.02
+L5 96 7.9676 0.0023 0.03 0.0013 0.02 0.0026 0.03 0.0002 0.00 0.0026 0.03
+PO2
+Between- Within-Site Between- Overall
+Mean Within-Day
+Level N Day Total Site
+(mmHg)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+L1 96 76.8 2.42 3.2 0.5 0.7 2.47 3.2 0.91 1.2 2.63 3.4
+L2 96 89.0 2.12 2.4 0.64 0.7 2.22 2.5 0.71 0.8 2.33 2.6
+L3 98 121.8 1.70 1.4 1.27 1.0 2.12 1.7 1.12 0.9 2.40 2.0
+L4 96 151.4 1.48 1.0 1.66 1.1 2.22 1.5 2.20 1.5 3.13 2.1
+L5 96 344.5 6.18 1.8 4.96 1.4 7.92 2.3 6.44 1.9 10.21 3.0
+PCO2
+Between- Within-Site Between- Overall
+Mean Within-Day
+Level N Day Total Site
+(mmHg)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+L1 96 82.05 1.335 1.6 0.000 0.0 1.335 1.6 0.571 0.7 1.453 1.8
+L2 96 57.36 0.770 1.3 0.000 0.0 0.770 1.3 0.280 0.5 0.819 1.4
+K200492 - Page 11 of 19
+
+[Table 1 on page 11]
+	Sample ID			N			Mean (mmHg)		SD			%CV	
+S1			30			21.52			0.293		1.4		
+S2			30			73.12			0.705		1.0		
+S3			45			42.69			0.762		1.8		
+
+[Table 2 on page 11]
+	Sample ID			N			Mean (mmol/L)		SD			%CV	
+S1			10			0.578			0.0210		3.6		
+S2			10			3.718			0.0325		0.9		
+S3			12			15.809			0.0679		0.4		
+
+[Table 3 on page 11]
+		Mean			Between-		Within-Site		Between-Site		Overall	
+			Within-Day									
+Level	N	(pH			Day		Total					
+												
+		units)	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+L1	96	6.5291	0.0042	0.07	0.0000	0.00	0.0042	0.07	0.0028	0.04	0.0051	0.08
+L2	96	7.0312	0.0026	0.04	0.0005	0.01	0.0027	0.04	0.0021	0.03	0.0034	0.05
+L3	98	74918	0.0019	0.02	0.0000	0.00	0.0019	0.02	0.0011	0.01	0.0022	0.03
+L4	96	7.7455	0.0018	0.02	0.0001	0.00	0.0018	0.02	0.0005	0.01	0.0019	0.02
+L5	96	7.9676	0.0023	0.03	0.0013	0.02	0.0026	0.03	0.0002	0.00	0.0026	0.03
+
+[Table 4 on page 11]
+					Between-		Within-Site		Between-		Overall	
+		Mean	Within-Day									
+Level	N				Day		Total		Site			
+		(mmHg)										
+			SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+												
+L1	96	76.8	2.42	3.2	0.5	0.7	2.47	3.2	0.91	1.2	2.63	3.4
+L2	96	89.0	2.12	2.4	0.64	0.7	2.22	2.5	0.71	0.8	2.33	2.6
+L3	98	121.8	1.70	1.4	1.27	1.0	2.12	1.7	1.12	0.9	2.40	2.0
+L4	96	151.4	1.48	1.0	1.66	1.1	2.22	1.5	2.20	1.5	3.13	2.1
+L5	96	344.5	6.18	1.8	4.96	1.4	7.92	2.3	6.44	1.9	10.21	3.0
+
+[Table 5 on page 11]
+					Between-		Within-Site		Between-		Overall	
+		Mean	Within-Day									
+Level	N				Day		Total		Site			
+		(mmHg)										
+			SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+												
+L1	96	82.05	1.335	1.6	0.000	0.0	1.335	1.6	0.571	0.7	1.453	1.8
+L2	96	57.36	0.770	1.3	0.000	0.0	0.770	1.3	0.280	0.5	0.819	1.4
+
+--- Page 12 ---
+Between- Within-Site Between- Overall
+Mean Within-Day
+Level N Day Total Site
+(mmHg)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+L3 98 28.02 0.411 1.5 0.128 0.5 0.431 1.5 0.210 0.7 0.479 1.7
+L4 96 21.43 0.346 1.6 0.210 1.0 0.405 1.9 0.132 0.6 0.426 2.0
+L5 96 15.29 0.356 2.3 0.146 1.0 0.385 2.5 0.211 1.4 0.439 2.9
+Lactate
+Between- Within-Site Between- Overall
+Mean Within-Day
+Level N Day Total Site
+(mmol/L)
+SD %CV SD %CV SD %CV SD %CV SD %CV
+L1 96 17.74 0.238 1.3 0.104 0.6 0.260 1.5 0.204 1.1 0.330 1.9
+L2 96 7.77 0.085 1.1 0.055 0.7 0.101 1.3 0.042 0.5 0.109 1.4
+L3 98 2.22 0.008 0.4 0.004 0.2 0.009 0.4 0.004 0.2 0.010 0.5
+L4 96 0.98 0.013 1.4 0.021 2.1 0.025 2.5 0.015 1.5 0.029 2.9
+L5 96 0.58 0.018 3.0 0.027 4.7 0.032 5.6 0.021 3.7 0.039 6.7
+Point of Care Precision (Whole Blood)
+Whole blood precision was evaluated using venous and arterial whole blood specimens
+collected with lithium heparin. The repeatability analysis was conducted using the data
+collected across multiple point of care sites. The mean values for each sample were divided
+into subintervals for each sample type. The results are provided below:
+Precision for venous and arterial whole blood
+Sample
+Analyte
+Units Sample Type Range N Mean SD CV (%)
+<7.30 20 7.202 0.0064 0.09
+Venous 7.30 – 7.45 77 7.374 0.0060 0.08
+Whole Blood >7.45 7 7.585 0.0030 0.04
+pH pH units
+<7.30 22 7.259 0.0059 0.08
+Arterial 7.30 – 7.45 119 7.389 0.0060 0.08
+Whole Blood >7.45 36 7.494 0.0047 0.06
+<50 59 28.8 0.9 3.0
+Venous 50 - 100 27 58.2 2.0 3.4
+Whole Blood 100 - 250 4 188.6 1.4 0.7
+>250 6 450.0 12.4 2.8
+PO mmHg
+2 <50 2 40.3 0.5 1.2
+Arterial 50 - 100 65 77.5 3.4 4.4
+Whole Blood 100 - 250 78 156.6 3.7 2.4
+>250 33 355.6 8.5 2.4
+<35 6 16.83 0.29 1.7
+Venous 35 - 62.5 83 46.23 0.77 1.7
+Whole Blood >62.5 26 91.61 0.73 0.8
+PCO mmHg
+2 <35 33 31.23 0.51 1.6
+Arterial 35 - 62.5 140 42.65 0.90 2.1
+Whole Blood >62.5 4 74.36 0.37 0.5
+<1.0 50 0.70 0.016 2.26
+Venous 1.0 – 5.0 62 1.83 0.021 1.14
+Whole Blood >5.0 11 12.88 0.200 1.55
+Lactate mmol/L
+<1.0 57 0.72 0.018 2.49
+Arterial 1.0 – 5.0 42 1.87 0.020 1.08
+Whole Blood >5.0 8 8.55 0.036 0.42
+K200492 - Page 12 of 19
+
+[Table 1 on page 12]
+					Between-		Within-Site		Between-		Overall	
+		Mean	Within-Day									
+Level	N				Day		Total		Site			
+		(mmHg)										
+			SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+												
+L3	98	28.02	0.411	1.5	0.128	0.5	0.431	1.5	0.210	0.7	0.479	1.7
+L4	96	21.43	0.346	1.6	0.210	1.0	0.405	1.9	0.132	0.6	0.426	2.0
+L5	96	15.29	0.356	2.3	0.146	1.0	0.385	2.5	0.211	1.4	0.439	2.9
+
+[Table 2 on page 12]
+					Between-		Within-Site		Between-		Overall	
+		Mean	Within-Day									
+Level	N				Day		Total		Site			
+		(mmol/L)										
+			SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+												
+L1	96	17.74	0.238	1.3	0.104	0.6	0.260	1.5	0.204	1.1	0.330	1.9
+L2	96	7.77	0.085	1.1	0.055	0.7	0.101	1.3	0.042	0.5	0.109	1.4
+L3	98	2.22	0.008	0.4	0.004	0.2	0.009	0.4	0.004	0.2	0.010	0.5
+L4	96	0.98	0.013	1.4	0.021	2.1	0.025	2.5	0.015	1.5	0.029	2.9
+L5	96	0.58	0.018	3.0	0.027	4.7	0.032	5.6	0.021	3.7	0.039	6.7
+
+[Table 3 on page 12]
+	Units	Sample Type	Sample	N	Mean	SD	CV (%)
+Analyte							
+			Range				
+							
+pH	pH units	Venous
+Whole Blood	<7.30	20	7.202	0.0064	0.09
+			7.30 – 7.45	77	7.374	0.0060	0.08
+			>7.45	7	7.585	0.0030	0.04
+		Arterial
+Whole Blood	<7.30	22	7.259	0.0059	0.08
+			7.30 – 7.45	119	7.389	0.0060	0.08
+			>7.45	36	7.494	0.0047	0.06
+PO
+2	mmHg	Venous
+Whole Blood	<50	59	28.8	0.9	3.0
+			50 - 100	27	58.2	2.0	3.4
+			100 - 250	4	188.6	1.4	0.7
+			>250	6	450.0	12.4	2.8
+		Arterial
+Whole Blood	<50	2	40.3	0.5	1.2
+			50 - 100	65	77.5	3.4	4.4
+			100 - 250	78	156.6	3.7	2.4
+			>250	33	355.6	8.5	2.4
+PCO
+2	mmHg	Venous
+Whole Blood	<35	6	16.83	0.29	1.7
+			35 - 62.5	83	46.23	0.77	1.7
+			>62.5	26	91.61	0.73	0.8
+		Arterial
+Whole Blood	<35	33	31.23	0.51	1.6
+			35 - 62.5	140	42.65	0.90	2.1
+			>62.5	4	74.36	0.37	0.5
+Lactate	mmol/L	Venous
+Whole Blood	<1.0	50	0.70	0.016	2.26
+			1.0 – 5.0	62	1.83	0.021	1.14
+			>5.0	11	12.88	0.200	1.55
+		Arterial
+Whole Blood	<1.0	57	0.72	0.018	2.49
+			1.0 – 5.0	42	1.87	0.020	1.08
+			>5.0	8	8.55	0.036	0.42
+
+--- Page 13 ---
+2. Linearity:
+The linearity study was designed based on CLSI EP06-A. The linearity of the i-STAT pH,
+PO2, PCO2, and Lactate tests in the i-STAT CG4+ (blue) cartridge with the i-STAT 1
+System was evaluated by preparing venous whole blood samples collected in lithium heparin
+tubes from healthy subjects of varying analyte levels for each i-STAT test. Each sample for
+PO2, PCO2, and pH testing was prepared via tonometry to eleven target analyte
+concentrations. The number of i-STAT 1 Analyzers used varied; 45 for PO2, 60 for PCO2
+and 31 for pH. The total number of cartridge lots used was 13, each i-STAT test utilized at
+least 5 of the 13 cartridge lots. Each test sample was tested in replicates of 3 per cartridge lot
+for a total of 15 results per level. For lactate, low and high sample levels were prepared by
+plasma replacement and spiking, then admixed to prepare nine intermediate whole blood
+samples. The eleven lactate test samples were analyzed on 100 i-STAT 1 Analyzers using 5
+cartridge lots in replicates of two (2) per cartridge lot for a total of 10 results per level.
+The linearity study results support that the assays are linear across the following claimed
+reportable ranges:
+i-STAT Test Reportable Range
+pH 7.0 – 7.7
+PO2 5 – 530 mmHg
+PCO2 15 – 130 mmHg
+Lactate 0.30 – 20.00 mmol/L
+3. Analytical Specificity/Interference:
+The analytical specificity of the PO2, PCO2, pH and Lactate tests in the i-STAT CG4+ (blue)
+cartridge using the i-STAT 1 system was established by conducting interference testing
+following the recommendations in CLSI EP07-A3. Interference from certain exogenous and
+endogenous substances was assessed using lithium heparin venous whole blood samples
+tonometered to two concentrations of low and high: PO2 (20-40 mmHg and 55-95 mmHg)
+PCO2 (20-40 mmHg and 60-80 mmHg) and pH (7.2-7.4 and 7.3-7.5). Lithium heparin
+venous whole blood samples were spiked to two concentrations of low and high for lactate
+(1.00 ± 0.30 mmol/L and 1.67 ± 0.30 mmol/L). Each low and high sample was further
+divided into two aliquots: control (with no added interferent) and test (with added
+interferent). Each sample was measured in replicates of at least 10 using six lots of the i-
+STAT CG4+ (blue) cartridges. The number of i-STAT 1 Analyzers used varied; 68 for PO2,
+67 for PCO2, 80 for pH and 112 for lactate. A substance was identified as an interferent if the
+difference in the mean between the control and test sample was outside of the predefined
+allowable error:
+For PO2: ± greater of 5 mmHg or 10% of the control (mmHg)
+For PCO2: ± greater of 5 mmHg or 8% of the control (mmHg)
+For pH: ± 0.04 pH units
+For Lactate: the greater of ±0.6 mmol/L or ± 12% of the control concentration
+(mmol/L)
+K200492 - Page 13 of 19
+
+[Table 1 on page 13]
+i-STAT Test	Reportable Range
+	
+pH	7.0 – 7.7
+PO2	5 – 530 mmHg
+PCO2	15 – 130 mmHg
+Lactate	0.30 – 20.00 mmol/L
+
+--- Page 14 ---
+The following table lists the concentrations of each substance at which no significant
+interference was found.
+PO2, PCO2 and pH
+Highest concentration at which
+Substance no significant interference was
+observed
+Acetaminophen 1.03 mmol/L
+Atracurium 0.0287 mmol/L
+Calcium 20 mg/dL
+Ethanol 130 mmol/L
+Ibuprofen 1.06 mmol/L
+Morphine 0.0273 mmol/L
+Potassium 8 mmol/L
+Sodium 170 mmol/L
+Bilirubin 40 mg/dL
+Hemoglobin 10 g/L
+Triglyceride** 1500 mg/dL
+Intralipid** 2493 mg/dL
+Thiopental 1660 mmol/L
+**Intralipid 20% and Triglyceride were assessed using the same data set.
+Lactate
+Highest concentration at which
+Substance no significant interference was
+observed
+Acetaldehyde* 45 µmol/L
+Acetaminophen 1.03 mmol/L
+N-Acetyl-Cysteine 0.92 mmol/L
+Ascorbic Acid 0.298 mmol/L
+β-Hydroxybutyric Acid 6 mmol/L
+Bilirubin 40 mg/dL
+Dopamine 4.06 mmol/L
+Formaldehyde* 0.133 mmol/L
+Hemoglobin 10.0g/L
+Hydroxyurea 0.405 mmol/L
+Pyruvate 0.570 mmol/L
+Salicylate 0.207 mmol/L
+Thiocyanate 0.898 mmol/L
+Triglyceride** 1500 mg/dL
+Intralipid** 3423 mg/dL
+Uric Acid 1.4 mmol/L
+* The molecular weight of the substance tested was used to convert the test concentration
+from mmol/L to mg/dL. The molecular weight of each substance could vary depending
+on the form chosen.
+**Intralipid 20% and Triglyceride were assessed using the same data set.
+K200492 - Page 14 of 19
+
+[Table 1 on page 14]
+	Highest concentration at which
+Substance	no significant interference was
+	observed
+Acetaminophen	1.03 mmol/L
+Atracurium	0.0287 mmol/L
+Calcium	20 mg/dL
+Ethanol	130 mmol/L
+Ibuprofen	1.06 mmol/L
+Morphine	0.0273 mmol/L
+Potassium	8 mmol/L
+Sodium	170 mmol/L
+Bilirubin	40 mg/dL
+Hemoglobin	10 g/L
+Triglyceride**	1500 mg/dL
+Intralipid**	2493 mg/dL
+Thiopental	1660 mmol/L
+
+[Table 2 on page 14]
+	Highest concentration at which
+Substance	no significant interference was
+	observed
+Acetaldehyde*	45 µmol/L
+Acetaminophen	1.03 mmol/L
+N-Acetyl-Cysteine	0.92 mmol/L
+Ascorbic Acid	0.298 mmol/L
+β-Hydroxybutyric Acid	6 mmol/L
+Bilirubin	40 mg/dL
+Dopamine	4.06 mmol/L
+Formaldehyde*	0.133 mmol/L
+Hemoglobin	10.0g/L
+Hydroxyurea	0.405 mmol/L
+Pyruvate	0.570 mmol/L
+Salicylate	0.207 mmol/L
+Thiocyanate	0.898 mmol/L
+Triglyceride**	1500 mg/dL
+Intralipid**	3423 mg/dL
+Uric Acid	1.4 mmol/L
+
+--- Page 15 ---
+For those substances that on initial screening were found to interfere with lactate results, dose
+response testing was conducted to establish the concentration limit below which no
+significant interference is expected. The results are given in the table below:
+Substance Concentration Interference
+Glycolic Acid ≥ 1.18 mmol/L Increased lactate results
+Lithium bromide ≥ 40.7 mmol/L Decreased lactate results
+The sponsor includes the following statements in the labeling for the device:
+Bromide at 2.5 mmol/L is the peak plasma concentration associated with halothane
+anesthesia, in which bromide is released.
+Glycolic acid at ≥ 1.18 mmol/L showed increased results.Glycolic acid is a product of
+ethylene glycol metabolism. Glycolic acid at a concentration of 10.0 mmol/L can cause
+increased i-STAT lactate results. At this level another method should be used to measure
+lactate. Unexpected increased lactate concentrations caused by glycolic acid may be a clue to
+the possibility of ethylene glycol ingestion as the cause of an otherwise unknown high anion
+gap metabolic acidosis. In a study of 35 patients who had ingested ethylene glycol, initial
+glycolic acid concentrations of 0 to 38 mmol/L corresponded to ethylene glycol levels of
+0.97-30.6 mmol/L.
+4. Assay Reportable Range:
+See section A.2 Linearity.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Traceability
+pH values assigned to the i-STAT System controls and calibration verification materials are
+traceable to the U.S. National Institute of Standards and Technology (NIST) standard
+reference materials SRMs 186-I, 186-II, 185, and 187.
+PO2 values assigned to the i‑STAT controls and calibration verification materials are
+traceable to U.S. National Institute of Standards and Technology (NIST) standard reference
+materials via commercially available certified specialty medical gas standards.
+PCO2 values assigned to the i‑STAT controls and calibration verification materials are
+traceable to U.S. National Institute of Standards and Technology (NIST) standard reference
+materials via commercially available certified specialty medical gas standards.
+Lactate values assigned to the i-STAT System controls and calibration verification materials
+are traceable to i-STAT System working calibrator prepared from sodium L-lactate (Sigma-
+Aldrich Fluka, >99 % purity).
+Sample stability
+A study was conducted to verify the whole blood sample stability after sample collection
+with anticoagulant for i-STAT PO2, PCO2, pH, and Lactate tests using the i-STAT CG4+
+K200492 - Page 15 of 19
+
+[Table 1 on page 15]
+Substance	Concentration	Interference
+Glycolic Acid	≥ 1.18 mmol/L	Increased lactate results
+Lithium bromide	≥ 40.7 mmol/L	Decreased lactate results
+
+--- Page 16 ---
+(blue) cartridge on the i-STAT 1 Analyzer. The results support the sponsor’s sample stability
+claims. The sample stability claims for PO2, PCO2, and pH are 10 minutes for samples with
+lithium heparin anticoagulant. The sample stability claim for lactate samples with lithium
+heparin anticoagulant is testing the sample immediately after collection.
+6. Detection Limit:
+The LoB and LoD of the i-STAT Lactate test in the i-STAT CG4+ (blue) cartridge were
+evaluated on the i-STAT 1 Analyzer based on CLSI EP17-A2, using whole blood that was
+altered to a “blank” lactate concentration for LoB testing and two “low” lactate
+concentrations for LoD testing. The studies were conducted across four days by four
+operators using two lots of i-STAT CG4+ cartridges and 60 i-STAT 1 Analyzers. The LoB
+and LoD were calculated using a parametric data analysis for each of the two lots. The
+higher of the two LoB values and LoD values from each lot is reported in the labeling. The
+determined LoB and LoD for the i-STAT Lactate test on the i-STAT 1 Analyzer is shown
+below.
+Analyte LoB LoD
+Lactate 0.15 mmol/L 0.19 mmol/L
+Linearity studies were used to support the lower end of the measuring range for pH, PO2 and
+PCO2 (see section M.1.b above).
+The LoQ of the i-STAT pH, PO2, PCO2, and Lactate tests in the i-STAT CG4+ (blue)
+cartridge were evaluated on the i-STAT 1 Analyzer using whole blood that was altered
+using tonometry to low pH (< 7 pH units), PO2 (< 15 mmHg), PCO2 (< 15 mmHg), and by
+plasma replacement to low lactate (0.22 – 0.29 mmol/L) concentrations. The number of i-
+STAT 1 Analyzers used varied; 30 for PO2, 30 for PCO2, 31 for pH and 60 for lactate. The
+testing was conducted in replicates of fifteen per sample by five (5) operators for PO2 and
+pH, six (6) operators for PCO2, and four (4) operators for lactate using two cartridge lots for
+each test over three (3) days. The sponsor defined LoQ as the greater of the two lots at
+which the lowest concentration met the pre-defined total error goals given in the following
+table.
+Analyte Total Error goals
+PO ≤ 5.00 mmHg
+2
+PCO ≤ 5.000 mmHg
+2
+pH ≤ 0.04000 pH units
+Lactate ≤ 0.6000 mmol/L
+The LoQ for each of the i-STAT pH, PO2, PCO2, and Lactate tests was determined to be
+below the lower limit of the reportable range for each of the i-STAT tests as shown below.
+Analyte Reportable range LoQ
+pH (pH units) 7.0 – 7.7 6.716
+PO (mmHg) 15 – 530 10
+2
+PCO (mmHg) 15 – 130 9.7
+2
+Lactate (mmol/L) 0.30 – 20.00 0.27
+K200492 - Page 16 of 19
+
+[Table 1 on page 16]
+Analyte	LoB	LoD
+Lactate	0.15 mmol/L	0.19 mmol/L
+
+[Table 2 on page 16]
+Analyte	Total Error goals
+PO
+2	≤ 5.00 mmHg
+PCO
+2	≤ 5.000 mmHg
+pH	≤ 0.04000 pH units
+Lactate	≤ 0.6000 mmol/L
+
+[Table 3 on page 16]
+Analyte	Reportable range	LoQ
+		
+pH (pH units)	7.0 – 7.7	6.716
+PO (mmHg)
+2	15 – 530	10
+PCO (mmHg)
+2	15 – 130	9.7
+Lactate (mmol/L)	0.30 – 20.00	0.27
+
+--- Page 17 ---
+7. Assay Cut-Off:
+Not Applicable.
+8. Accuracy (Instrument):
+See Section B1. Method Comparison with Predicate Device.
+9. Carry-Over:
+Not applicable, the cartridges are single use and disposable.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+pH
+A total of 316 whole blood specimens (111 lithium heparin venous whole blood specimens
+and 205 lithium heparin arterial whole blood specimens) collected at two point of care sites
+were tested using three lots of i-STAT CG4+ (blue) cartridges. Fourteen specimens were
+contrived. The data were analyzed by Passing-Bablok regression analysis comparing the first
+replicate of the candidate device results to the singlicate result of the predicate device. The
+data from combined sites is shown below.
+N Sample Range Slope Intercept r
+Analyte
+Tested (pH units)
+pH 316 7.001 – 7.661 1.05 -0.34 0.97
+PO2
+A total of 308 whole blood specimens (103 lithium heparin venous whole blood specimens
+and 205 lithium heparin arterial whole blood specimens) collected at two point of care sites
+were tested using three lots of i-STAT CG4+ (blue) cartridges. Nine specimens were
+contrived. The data were analyzed by Passing-Bablok regression analysis comparing the first
+replicate of the candidate device results to the singlicate result of the predicate device. The
+data from combined sites is shown below.
+N Sample Range Slope Intercept r
+Analyte
+Tested (pH units)
+PO2 308 15.4 – 480.0 1.03 -3.96 0.99
+PCO2
+A total of 327 whole blood specimens (122 lithium heparin venous whole blood specimens
+and 205 lithium heparin arterial whole blood specimens) collected at two point of care sites
+were tested using three lots of i-STAT CG4+ (blue) cartridges. Twenty-five specimens were
+contrived. The data were analyzed by Passing-Bablok regression analysis comparing the first
+K200492 - Page 17 of 19
+
+[Table 1 on page 17]
+	N	Sample Range	Slope	Intercept	r
+Analyte					
+		Tested (pH units)			
+					
+					
+pH	316	7.001 – 7.661	1.05	-0.34	0.97
+
+[Table 2 on page 17]
+	N	Sample Range	Slope	Intercept	r
+Analyte					
+		Tested (pH units)			
+					
+					
+PO2	308	15.4 – 480.0	1.03	-3.96	0.99
+
+--- Page 18 ---
+replicate of the candidate device results to the singlicate result of the predicate device. The
+data from combined sites is shown below.
+N Sample Range Slope Intercept r
+Analyte
+Tested (pH units)
+PCO2 327 15.1 – 128.0 1.01 -1.29 0.99
+Lactate
+A total of 246 whole blood specimens (133 lithium heparin venous whole blood specimens
+and 113 lithium heparin arterial whole blood specimens) collected at three point of care sites
+were tested using two lots of i-STAT CG4+ (blue) cartridges. Twelve specimens were
+contrived. The data were analyzed by Passing-Bablok regression analysis comparing the first
+replicate of the candidate device results to the mean result of the predicate device. The data
+from combined sites is shown below.
+N Sample Range Slope Intercept r
+Analyte
+Tested (pH units)
+Lactate 246 0.320 – 19.980 0.96 0.08 1.00
+2. Matrix Comparison:
+Not applicable. For use with lithium heparinized whole blood only.
+C Clinical Studies:
+1. Clinical Sensitivity:
+Not applicable.
+2. Clinical Specificity:
+Not applicable.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Not applicable.
+D Clinical Cut-Off:
+Not applicable.
+K200492 - Page 18 of 19
+
+[Table 1 on page 18]
+	N	Sample Range	Slope	Intercept	r
+Analyte					
+		Tested (pH units)			
+					
+					
+PCO2	327	15.1 – 128.0	1.01	-1.29	0.99
+
+[Table 2 on page 18]
+	N	Sample Range	Slope	Intercept	r
+Analyte					
+		Tested (pH units)			
+					
+					
+Lactate	246	0.320 – 19.980	0.96	0.08	1.00
+
+--- Page 19 ---
+E Expected Values/Reference Range:
+Expected values for the pH, PO2, PCO2 and lactate assays on the i-STAT CG4+ (blue) cartridge
+are cited from literature:
+Units* Reference Range
+Analyte
+arterial venous
+Measured
+pH pH units 7.35 - 7.45 (2) 7.31 – 7.41(2)**
+mmHg 80 – 105 (3)*** N/A
+PO2
+kPa 10.7 - 14.0 (3)***
+mmHg 35 - 45 (2) 41 – 51(2)
+PCO2
+kPa 4.67 - 6.00(2) 5.47 - 6.80(2)
+mmol/L 0.36 - 1.25 (1)**** 0.90 - 1.70 (1)****
+lactate
+mg/dL 3.2 - 11.3 (1)**** 8.1 - 15.3 (1)****
+* The i-STAT System can be configured with the preferred units. Not applicable for pH test.
+** Calculated from Siggard-Andersen nomogram (1).
+*** The reference ranges shown are for a healthy population. Interpretation of blood gas
+measurements depend on the underlying condition (e.g., patient temperature, ventilation,
+posture and circulatory status).
+**** The i-STAT reference ranges for venous whole blood listed above are similar to reference
+ranges derived from serum or plasma measurements with standard laboratory methods.
+(1) D.B. Sacks, Carbohydrates, in Tietz Textbook of Clinical Chemistry, Second Edition, ed. C.A.
+Burtis and E.R. Ashwood, (Philadelphia: W.B. Saunders Company, 1994).
+(2) P.C. Painter, J.Y. Cope, J.L. Smith, “Reference Ranges, Table 41–20” in Tietz Textbook of
+Clinical Chemistry - Second Edition, C.A. Burtis and E.R. Ashwood, eds. (Philadelphia:
+W.B. Saunders Company, 1994).
+(3) B.E. Statland, Clinical Decision Levels for Lab Tests (Oradell, NJ: Medical Economics
+Books, 1987).
+F Other Supportive Instrument Performance Characteristics Data:
+Not applicable.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K200492 - Page 19 of 19
+
+[Table 1 on page 19]
+	Units*	Reference Range	
+Analyte			
+		arterial	venous
+			
+Measured			
+pH	pH units	7.35 - 7.45 (2)	7.31 – 7.41(2)**
+PO2	mmHg
+kPa	80 – 105 (3)***
+10.7 - 14.0 (3)***	N/A
+PCO2	mmHg
+kPa	35 - 45 (2)
+4.67 - 6.00(2)	41 – 51(2)
+5.47 - 6.80(2)
+lactate	mmol/L
+mg/dL	0.36 - 1.25 (1)****
+3.2 - 11.3 (1)****	0.90 - 1.70 (1)****
+8.1 - 15.3 (1)****

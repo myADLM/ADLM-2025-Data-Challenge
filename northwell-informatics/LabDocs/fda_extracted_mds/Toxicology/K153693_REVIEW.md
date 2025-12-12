@@ -1,0 +1,176 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION MEMORANDUM ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k153693   
+B. Purpose for Submission: New device   
+C. Measurand: Methamphetamine   
+D. Type of Test: Homogenous enzyme immunoassay   
+E. Applicant: Immunalysis Corporation   
+F. Proprietary and Established Names: Immunalysis Methamphetamine Urine Enzyme Immunoassay Immunalysis Multi-Drug Calibrators
+
+# G. Regulatory Information:
+
+<table><tr><td rowspan=1 colspan=1>Product Code</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>Regulation Section</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>LAF</td><td rowspan=1 colspan=1>Class I</td><td rowspan=1 colspan=1>21 CFR 862.3610,Methamphetamine test system</td><td rowspan=1 colspan=1>Toxicology(91)</td></tr><tr><td rowspan=1 colspan=1>DLJ</td><td rowspan=1 colspan=1>Class I</td><td rowspan=1 colspan=1>21 CFR 862.3200, Clinicaltoxicology calibrator</td><td rowspan=1 colspan=1>Toxicology(91)</td></tr></table>
+
+# H. Intended Use:
+
+1. Intended use(s): Refer to Indications for Use below.
+
+2. Indication(s) for use:
+
+The Immunalysis Methamphetamine Urine Enzyme Immunoassay is a homogeneous enzyme immunoassay with dual cutoffs of $5 0 0 \mathrm { n g / m L }$ and $1 0 0 0 \mathrm { n g / m L }$ . The assay is intended for use in laboratories for the qualitative and semi-quantitative analysis of Methamphetamine in human urine with automated clinical chemistry analyzers. This assay is calibrated against Methamphetamine. This in-vitro diagnostic device is for prescription use only.
+
+The semi-quantitative mode is for purposes of enabling laboratories to determine an appropriate dilution of the specimen for confirmation by a confirmatory method such as Gas Chromatography/ Mass Spectrometry (GC-MS) or permitting laboratories to establish quality control procedures.
+
+The Immunalysis Methamphetamine Urine Enzyme Immunoassay Kit provides only a preliminary analytical test result. A more specific alternate chemical method must be used in order to obtain a confirmed analytical result. GC-MS or Liquid Chromatography / Mass Spectrometry (LC/MS) is the preferred confirmatory method. Clinical consideration and professional judgment should be applied to any drug of abuse test result, particularly when preliminary positive results are used.
+
+The Immunalysis Multi-Drug Calibrators are intended for in vitro diagnostic use for the calibration of assays for the analytes currently listed in the package insert: Benzoylecgonine, Methamphetamine, Morphine, PCP and Oxazepam. The calibrators are designed for prescription use with immunoassays.
+
+3. Special conditions for use statement(s):
+
+For prescription use only.   
+For in vitro diagnostic use only.
+
+4. Special instrument requirements:
+
+The Beckman Coulter AU400e Chemistry Analyzer was used to generate the performance data in this submission. Instruments must be capable of maintaining a constant reaction temperature, pipetting samples and reagents, mixing reagents, timing reactions and measuring enzyme rates precisely.
+
+# I. Device Description:
+
+The assay consists of antibody/ substrate reagent and enzyme conjugate reagent. The antibody/ substrate reagent includes monoclonal antibodies to Methamphetamine, glucose-6-phosphate (G6P) and nicotinamide adenine dinucleotide (NAD) in Tris buffer with Sodium Azide as a preservative. The enzyme conjugate reagent includes Methamphetamine derivative labeled with glucose-6-phosphate dehydrogenase (G6PDH) in Tris buffer with Sodium Azide
+
+as a preservative.
+
+All of the Immunalysis Multi-Drug Calibrators are liquid and ready to use. Each contains a known concentration of a specific drug analyte as a mixture. The negative calibrator is a processed, drug-free synthetic urine matrix with sodium azide as a preservative. The Level 1, 2, 3 and 4 calibrators are prepared by spiking known concentrations of drug analyte into the negative calibrator matrix. These five calibrators (negative, Level 1, 2, 3 and 4) are sold as individual bottles. The concentration of drug analyte in the corresponding calibrators is summarized as follows:
+
+<table><tr><td rowspan=2 colspan=1>Analyte</td><td rowspan=1 colspan=4>Multi-Drug Calibrators</td></tr><tr><td rowspan=1 colspan=1>Level 1</td><td rowspan=1 colspan=1>Level 2</td><td rowspan=1 colspan=1>Level 3</td><td rowspan=1 colspan=1>Level 4</td></tr><tr><td rowspan=1 colspan=1>Benzoylecgonine</td><td rowspan=1 colspan=1>150 ng/mL</td><td rowspan=1 colspan=1>300 ng/mL</td><td rowspan=1 colspan=1>500 ng/mL</td><td rowspan=1 colspan=1>1000 ng/mL</td></tr><tr><td rowspan=1 colspan=1>Methamphetamine</td><td rowspan=1 colspan=1>500 ng/mL</td><td rowspan=1 colspan=1>1000 ng/mL</td><td rowspan=1 colspan=1>1500 ng/mL</td><td rowspan=1 colspan=1>2000 ng/mL</td></tr><tr><td rowspan=1 colspan=1>Morphine</td><td rowspan=1 colspan=1>100 ng/mL</td><td rowspan=1 colspan=1>300 ng/mL</td><td rowspan=1 colspan=1>500 ng/mL</td><td rowspan=1 colspan=1>1000 ng/mL</td></tr><tr><td rowspan=1 colspan=1>PCP</td><td rowspan=1 colspan=1>12.5 ng/mL</td><td rowspan=1 colspan=1>25 ng/mL</td><td rowspan=1 colspan=1>50 ng/mL</td><td rowspan=1 colspan=1>100 ng/mL</td></tr><tr><td rowspan=1 colspan=1>Oxazepam</td><td rowspan=1 colspan=1>100 ng/mL</td><td rowspan=1 colspan=1>200 ng/mL</td><td rowspan=1 colspan=1>500 ng/mL</td><td rowspan=1 colspan=1>1000 ng/mL</td></tr></table>
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Microgenics, Inc. DRI $\textsuperscript { \textregistered }$ Methamphetamines Assay Lin-Zhi International Multi-Analyte Urine Drugs of Abuse Calibrators
+
+2. Predicate 510(k) number(s):
+
+k093114   
+k051088
+
+3. Comparison with predicate:
+
+<table><tr><td colspan="3" rowspan="1">Similarities - Reagent</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Predicate DeviceMicrogenics, Inc. DRIMethamphetamines Assayk093114</td><td colspan="1" rowspan="1">Candidate DeviceImmunalysisMethamphetamine UrineEnzyme Immunoassay</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">For the qualitative and semi-quantitative determination ofMethamphetamine in humanurine</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Measured Analytes</td><td colspan="1" rowspan="1">Methamphetamine and</td><td colspan="1" rowspan="1">Methamphetamine</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Amphetamine</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Test Matrix</td><td colspan="1" rowspan="1">Urine</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Predicate DeviceMicrogenics, Inc. DRIMethamphetamines Assayk093114</td><td colspan="1" rowspan="1">Candidate DeviceImmunalysisMethamphetamine UrineEnzyme Immunoassay</td></tr><tr><td colspan="1" rowspan="1">Cutoff Levels</td><td colspan="1" rowspan="1">500 ng/mL and 1000 ng/mLof Methamphetamine andAmphetamine</td><td colspan="1" rowspan="1">500 ng/mL and 1000ng/mL ofMethamphetamine</td></tr><tr><td colspan="1" rowspan="1">Methodology</td><td colspan="1" rowspan="1">Homogeneous EnzymeImmunoassay</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Materials</td><td colspan="1" rowspan="1">Liquid Ready-to-Use TwoReagent Assay (R1 and R2)</td><td colspan="1" rowspan="1">Antibody/SubstrateReagents and EnzymeLabeled Conjugate</td></tr><tr><td colspan="1" rowspan="1">Storage</td><td colspan="1" rowspan="1">2  8°C until expiration date</td><td colspan="1" rowspan="1">Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences - Reagent</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Predicate DeviceMicrogenics, Inc. DRIMethamphetamines Assayk093114</td><td rowspan=1 colspan=1>Candidate DeviceImmunalysisMethamphetamine UrineEnzyme Immunoassay</td></tr><tr><td rowspan=1 colspan=1>Antibody</td><td rowspan=1 colspan=1>Monoclonal antibodies toMethamphetamine and/orAmphetamine</td><td rowspan=1 colspan=1>Monoclonal antibody toMethamphetamine</td></tr></table>
+
+<table><tr><td colspan="3" rowspan="1">Similarities - Calibrators</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Predicate DeviceLin-Zhi International Multi-Analyte Urine Drugs ofAbuse Calibratorsk051088</td><td colspan="1" rowspan="1">Candidate DeviceImmunalysis Multi-DrugCalibrators</td></tr><tr><td colspan="1" rowspan="1">Matrix</td><td colspan="1" rowspan="1">Urine</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Calibrator Levels</td><td colspan="1" rowspan="1">5 Levels</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Storage</td><td colspan="1" rowspan="1">2  8°C until expiration date</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="3" rowspan="1">Differences - Calibrators</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Predicate DeviceLin-Zhi International Multi-Analyte Urine Drugs ofAbuse Calibratorsk051088</td><td colspan="1" rowspan="1">Candidate DeviceImmunalysis Multi-DrugCalibrators</td></tr><tr><td colspan="1" rowspan="1">Analytes</td><td colspan="1" rowspan="1">benzoylecgonine, d-methamphetamine,methadone, morphine,oxazepam, secobarbital,phencyclidine, propoxyphene</td><td colspan="1" rowspan="1">benzoylecgonine,methamphetamine,morphine, PCP</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+CLSI EP07-A2: Interference Testing in Clinical Chemistry: Approved Guideline - Second Edition
+
+# L. Test Principle:
+
+The assay is based on the competition of Methamphetamine labeled enzyme glucose-6- phosphate dehydrogenase (G6PDH) and the free drug in the urine sample for a fixed amount of antibody binding sites. In the absence of the free drug in the sample, the antibody binds the drug enzyme conjugate and enzyme activity is inhibited. This creates a dose response relationship between drug concentration in the urine sample and enzyme activity. The enzyme G6PDH activity is determined at $3 4 0 \mathrm { n m }$ spectrophotometrically by the conversion of NAD to NADH.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+# a. Precision/Reproducibility:
+
+The sponsor performed precision studies in-house following the guidelines provided in CLSI EP5-A2. The study was performed using drug free urine samples spiked with methamphetamine and analyzed on a Beckman Coulter / Olympus AU400e Chemistry Analyzer. Samples were measured in duplicate in two runs per day for 20 days $( \mathrm { n } = 8 0 $ ). The data are summarized in the following tables:
+
+Semi-quantitative analysis $( 5 0 0 ~ \mathrm { n g / m L }$ cutoff)   
+Semi-quantitative analysis ( $\mathrm { 1 0 0 0 n g / m L }$ cutoff)   
+
+<table><tr><td rowspan=1 colspan=1>Concentration</td><td rowspan=1 colspan=1>% of cutoff</td><td rowspan=1 colspan=1>Result</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>-100</td><td rowspan=1 colspan=1>80 Neg / 0 Pos</td></tr><tr><td rowspan=1 colspan=1>250</td><td rowspan=1 colspan=1>-75</td><td rowspan=1 colspan=1>80 Neg / 0 Pos</td></tr><tr><td rowspan=1 colspan=1>500</td><td rowspan=1 colspan=1>-50</td><td rowspan=1 colspan=1>80 Neg/ 0 Pos</td></tr><tr><td rowspan=1 colspan=1>750</td><td rowspan=1 colspan=1>-25</td><td rowspan=1 colspan=1>80 Neg / 0 Pos</td></tr><tr><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>Cutoff</td><td rowspan=1 colspan=1>37 Neg / 43 Pos</td></tr><tr><td rowspan=1 colspan=1>1250</td><td rowspan=1 colspan=1>+25</td><td rowspan=1 colspan=1>80 Pos / 0 Neg</td></tr><tr><td rowspan=1 colspan=1>1500</td><td rowspan=1 colspan=1>+50</td><td rowspan=1 colspan=1>80 Pos / 0 Neg</td></tr><tr><td rowspan=1 colspan=1>1750</td><td rowspan=1 colspan=1>+75</td><td rowspan=1 colspan=1>80 Pos / 0 Neg</td></tr><tr><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>+100</td><td rowspan=1 colspan=1>80 Pos / 0 Neg</td></tr></table>
+
+# b. Linearity/assay reportable range:
+
+A drug free urine pool was spiked with a high concentration of Methamphetamine (at a level above the highest calibrator) and was used as the high value specimen. Additional pools were made by serially diluting the high value specimen with drug free urine in increments of about $10 \%$ . Aliquots from each pool were analyzed in triplicate in the semi-quantitative mode.. For each known concentration, drug recovery was calculated using the mean concentration of the replicates. The results of the study are summarized below:
+
+<table><tr><td rowspan=1 colspan=1>ExpectedConcentration(ng/mL)</td><td rowspan=1 colspan=1>MeanConcentration(ng/mL)</td><td rowspan=1 colspan=1>Recovery (%)</td></tr><tr><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>272.7</td><td rowspan=1 colspan=1>136.4</td></tr><tr><td rowspan=1 colspan=1>400</td><td rowspan=1 colspan=1>436.8</td><td rowspan=1 colspan=1>109.2</td></tr><tr><td rowspan=1 colspan=1>600</td><td rowspan=1 colspan=1>674.6</td><td rowspan=1 colspan=1>112.4</td></tr><tr><td rowspan=1 colspan=1>800</td><td rowspan=1 colspan=1>830.0</td><td rowspan=1 colspan=1>103.8</td></tr><tr><td rowspan=1 colspan=1>1000</td><td rowspan=1 colspan=1>1107.6</td><td rowspan=1 colspan=1>110.8</td></tr><tr><td rowspan=1 colspan=1>1200</td><td rowspan=1 colspan=1>1247.0</td><td rowspan=1 colspan=1>103.9</td></tr><tr><td rowspan=1 colspan=1>1400</td><td rowspan=1 colspan=1>1481.2</td><td rowspan=1 colspan=1>105.8</td></tr><tr><td rowspan=1 colspan=1>1600</td><td rowspan=1 colspan=1>1711.5</td><td rowspan=1 colspan=1>107.0</td></tr><tr><td rowspan=1 colspan=1>1800</td><td rowspan=1 colspan=1>1917.4</td><td rowspan=1 colspan=1>106.5</td></tr><tr><td rowspan=1 colspan=1>2000</td><td rowspan=1 colspan=1>2080.7</td><td rowspan=1 colspan=1>104.0</td></tr><tr><td rowspan=1 colspan=1>2200</td><td rowspan=1 colspan=1>2226.4</td><td rowspan=1 colspan=1>101.2</td></tr></table>
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+The analytes in the calibrators have been traced to a commercially available standard solution. The standard is certified material with the concentration verified by GC-MS or LC/MS-MS. This standard is diluted with calibrator buffer to make the calibrators in the desired concentrations. The concentrations are confirmed by Gas Chromatography and Mass Spectrometry Analysis (GC-MS) and/or Liquid Chromatography/ Tandem Mass Spectrometry (LC/MS-MS).
+
+Stability protocols and acceptance criteria for the calibrators were reviewed and found to be acceptable. The sponsor claims that when stored at $2 - 8 ^ { \circ } \mathrm { C }$ calibrators and controls are stable for one year. The sponsor claims that once opened, the calibrators and controls are stable for 60 days when stored at $2 - 8 ^ { \circ } \mathrm { C }$ .
+
+The Negative Calibrator is a processed, drug free urine matrix. The standard is compared to a reference negative standard to ensure that it is free of analyte. Value is assigned when the test is within the acceptable range.
+
+Values are assigned to the controls and calibrators once the GC/MS or LC/MS/MS results are within the acceptable ranges. The negative standard is prepared with BSA Buffer. The standard is compared to a reference negative standard to ensure that it is free of analyte. The value is assigned when the test is within the acceptable range.
+
+d. Detection limit: Not applicable.
+
+e. Analytical specificity:
+
+Potential interference from non-structurally related compounds and endogenous compounds was evaluated in both the qualitative and semi-quantitative modes by following CLSI EP 7-A2: Interference Testing in Clinical Chemistry. Potential interferents were spiked into drug free urine containing Methamphetamine at $\pm 2 5 \%$ of the cutoff $( 3 7 5 ~ \mathrm { n g / m L }$ and $6 2 5 ~ \mathrm { { n g / m L } }$ for the $5 0 0 ~ \mathrm { { n g / m L } }$ cutoff or $7 5 0 ~ \mathrm { n g / m L }$ and $1 { , } 2 5 0 \ \mathrm { n g / m L }$ for the $1 { , } 0 0 0 \mathrm { n g / m L }$ cutoff). The following compounds at 100,000 $\mathrm { n g / m L }$ were found not to interfere with the assay at either cutoff in qualitative or semi-quantitative mode.
+
+<table><tr><td colspan="1" rowspan="1">4-Bromo-2,5,Dimethoxyphenethylamine</td><td colspan="1" rowspan="1">Ethylmorphine</td><td colspan="1" rowspan="1">Norbuprenorphine</td></tr><tr><td colspan="1" rowspan="1">6-Acetylmorphine</td><td colspan="1" rowspan="1">Fentanyl</td><td colspan="1" rowspan="1">Norcodeine</td></tr><tr><td colspan="1" rowspan="1">7-Aminoclonazepam</td><td colspan="1" rowspan="1">Flunitrazepam</td><td colspan="1" rowspan="1">Nordiazepam</td></tr><tr><td colspan="1" rowspan="1">Alprazolam</td><td colspan="1" rowspan="1">Fluoxetine</td><td colspan="1" rowspan="1">Normorphine</td></tr><tr><td colspan="1" rowspan="1">Amitriptyline</td><td colspan="1" rowspan="1">Flurazepam</td><td colspan="1" rowspan="1">Norpropoxyphene</td></tr><tr><td colspan="1" rowspan="1">Amobarbital</td><td colspan="1" rowspan="1">Heroin</td><td colspan="1" rowspan="1">Nortriptyline</td></tr><tr><td colspan="1" rowspan="1">Benzylpiperazine</td><td colspan="1" rowspan="1">Hexobarbital</td><td colspan="1" rowspan="1">Oxazepam</td></tr><tr><td colspan="1" rowspan="1">Bromazepam</td><td colspan="1" rowspan="1">Hydrocodone</td><td colspan="1" rowspan="1">Oxycodone</td></tr><tr><td colspan="1" rowspan="1">Buprenorphine</td><td colspan="1" rowspan="1">Hydromorphone</td><td colspan="1" rowspan="1">Oxymorphone</td></tr><tr><td colspan="1" rowspan="1">Bupropion</td><td colspan="1" rowspan="1">11-hydroxy-Δ-9-THC</td><td colspan="1" rowspan="1">Phencyclidine</td></tr><tr><td colspan="1" rowspan="1">Butabarbital</td><td colspan="1" rowspan="1">Ibuprofen</td><td colspan="1" rowspan="1">Pentazocine</td></tr><tr><td colspan="1" rowspan="1">Carbamazepine</td><td colspan="1" rowspan="1">Imipramine</td><td colspan="1" rowspan="1">Pentobarbital</td></tr><tr><td colspan="1" rowspan="1">Chlordiazepoxide</td><td colspan="1" rowspan="1">Ketamine</td><td colspan="1" rowspan="1">Phenobarbital</td></tr><tr><td colspan="1" rowspan="1">Chlorpromazine</td><td colspan="1" rowspan="1">Levorphanol Tartrate</td><td colspan="1" rowspan="1">Phentermine</td></tr><tr><td colspan="1" rowspan="1">cis-Tramadol</td><td colspan="1" rowspan="1">Lidocaine</td><td colspan="1" rowspan="1">Phenytoin</td></tr><tr><td colspan="1" rowspan="1">Clobazam</td><td colspan="1" rowspan="1">Lorazepam</td><td colspan="1" rowspan="1">Prazepam</td></tr><tr><td colspan="1" rowspan="1">Clomipramine</td><td colspan="1" rowspan="1">LSD</td><td colspan="1" rowspan="1">Propranolol</td></tr><tr><td colspan="1" rowspan="1">Clonazepam</td><td colspan="1" rowspan="1">Maprotiline</td><td colspan="1" rowspan="1">Protriptyline</td></tr><tr><td colspan="1" rowspan="1">Cocaine</td><td colspan="1" rowspan="1">Meperidine</td><td colspan="1" rowspan="1">Ranitidine</td></tr><tr><td colspan="1" rowspan="1">Codeine</td><td colspan="1" rowspan="1">Meprobamate</td><td colspan="1" rowspan="1">Ritalinic Acid</td></tr><tr><td colspan="1" rowspan="1">Cyclobenzaprine</td><td colspan="1" rowspan="1">Methadone</td><td colspan="1" rowspan="1">Secobarbital</td></tr><tr><td colspan="1" rowspan="1">N-Desmethyltapentadol</td><td colspan="1" rowspan="1">Methaquolone</td><td colspan="1" rowspan="1">Sufentanil Citrate</td></tr><tr><td colspan="1" rowspan="1">Delta-9-THC</td><td colspan="1" rowspan="1">Methylphenidate</td><td colspan="1" rowspan="1">Temazepam</td></tr><tr><td colspan="1" rowspan="1">Desipramine</td><td colspan="1" rowspan="1">Morphine</td><td colspan="1" rowspan="1">11-nor-9 carboxyTHC</td></tr><tr><td colspan="1" rowspan="1">Dextromethorphan</td><td colspan="1" rowspan="1">Morphine-3β-glucuronide</td><td colspan="1" rowspan="1">Thioridazine</td></tr><tr><td colspan="1" rowspan="1">Diazepam</td><td colspan="1" rowspan="1">Morphine-6β-glucuronide</td><td colspan="1" rowspan="1">Triazolam</td></tr><tr><td colspan="1" rowspan="1">Dihydrocodeine</td><td colspan="1" rowspan="1">Nalorphine</td><td colspan="1" rowspan="1">Trifluoromethylphenyl-piperazine</td></tr><tr><td colspan="1" rowspan="1">Doxepin</td><td colspan="1" rowspan="1">Naloxone</td><td colspan="1" rowspan="1">Trimipramine</td></tr><tr><td colspan="1" rowspan="1">EDDP</td><td colspan="1" rowspan="1">Naltrexone</td><td colspan="1" rowspan="1">Venlafaxine</td></tr><tr><td colspan="1" rowspan="1">Ethyl β-D-glucuronide</td><td colspan="1" rowspan="1">Nitrazepam</td><td colspan="1" rowspan="1"></td></tr></table>
+
+In addition, Acetaminophen, Acetylsalicylic Acid, Benzoylecgonine, and Caffeine were found not to interfere at a concentration of $5 0 0 , 0 0 0 \mathrm { n g / m L }$ .
+
+The following endogenous substances at the concentrations listed below did not interfere with the assay at either cutoff in qualitative or semi-quantitative mode:
+
+<table><tr><td rowspan=1 colspan=1>Compound</td><td rowspan=1 colspan=1>Concentration Tested</td></tr><tr><td rowspan=1 colspan=1>Acetone</td><td rowspan=1 colspan=1>1.0 g/dL</td></tr><tr><td rowspan=1 colspan=1>Ascorbic Acid</td><td rowspan=1 colspan=1>1.5 g/dL</td></tr><tr><td rowspan=1 colspan=1>Bilirubin</td><td rowspan=1 colspan=1>0.002 g/dL</td></tr><tr><td rowspan=1 colspan=1>Creatinine</td><td rowspan=1 colspan=1>0.5 g/dL</td></tr><tr><td rowspan=1 colspan=1>Ethanol</td><td rowspan=1 colspan=1>1.0 g/dL</td></tr><tr><td rowspan=1 colspan=1>Galactose</td><td rowspan=1 colspan=1>0.01 g /dL</td></tr><tr><td rowspan=1 colspan=1>γ-Globulin</td><td rowspan=1 colspan=1>0.5 g/dL</td></tr><tr><td rowspan=1 colspan=1>Glucose</td><td rowspan=1 colspan=1>2.0 g/dL</td></tr><tr><td rowspan=1 colspan=1>Hemoglobin</td><td rowspan=1 colspan=1>0.150 g/dL</td></tr><tr><td rowspan=1 colspan=1>Human Serum Albumin</td><td rowspan=1 colspan=1>0.5 g/dL</td></tr><tr><td rowspan=1 colspan=1>Oxalic Acid</td><td rowspan=1 colspan=1>0.1 g/dL</td></tr><tr><td rowspan=1 colspan=1>Riboflavin</td><td rowspan=1 colspan=1>0.0075 g/dL</td></tr><tr><td rowspan=1 colspan=1>Sodium Azide</td><td rowspan=1 colspan=1>1% w/v</td></tr><tr><td rowspan=1 colspan=1>SodiumChloride</td><td rowspan=1 colspan=1>6.0 g/dL</td></tr><tr><td rowspan=1 colspan=1>SodiumFluoride</td><td rowspan=1 colspan=1>1% w/v</td></tr><tr><td rowspan=1 colspan=1>Urea</td><td rowspan=1 colspan=1>6.0 g/dL</td></tr></table>
+
+Boric acid at a concentration of $1 \% \mathrm { w / v }$ was found to cause false negative results at $+ 2 5 \%$ and $+ 5 0 \%$ of the cutoff for both qualitative and semi-quantitative modes. The labeling recommends that Boric Acid not be used as a preservative for urine samples.
+
+Effect of pH: The sponsor evaluated the effect of $\mathsf { p H }$ on the test results using both qualitative and semi-quantitative modes. Drug free urine containing Methamphetamine at $\pm 2 5 \%$ of the cutoff $( 3 7 5 ~ \mathrm { n g / m L }$ and $6 2 5 ~ \mathrm { { n g / m L } }$ for the 500 $\mathrm { n g / m L }$ cutoff and $7 5 0 ~ \mathrm { n g / m L }$ and $1 2 5 0 ~ \mathrm { n g / m L }$ for the $1 0 0 0 ~ \mathrm { { n g / m L } }$ cutoff) were pH adjusted using hydrochloric acid or sodium hydroxide. pH values of 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0 and 11.0 did not interfere with the test result at either cutoff in qualitative or semi-quantitative mode.
+
+Effect of specific gravity: The sponsor evaluated the effect of specific gravity on the test results using both qualitative and semi-quantitative modes. Drug free urine containing Methamphetamine at $\pm 2 5 \%$ of the cutoff $( 3 7 5 ~ \mathrm { n g / m L }$ and $6 2 5 ~ \mathrm { { n g / m L } }$ for the $5 0 0 ~ \mathrm { { n g / m L } }$ cutoff and $7 5 0 ~ \mathrm { n g / m L }$ and $1 2 5 0 ~ \mathrm { { n g / m L } }$ for the $1 0 0 0 ~ \mathrm { { n g / m L } }$ cutoff) were adjusted using salt or albumin. Specific Gravity values of 1.000, 1.002, 1.005, 1.010, 1.015, 1.020, 1.025 and 1.030 did not interfere with the test result at either cutoff in qualitative or semi-quantitative mode.
+
+Cross reactivity from structurally related compounds was evaluated in the qualitative and semi-quantitative modes by spiking into drug-free urine. Each potential crossreacting compound was spiked and evaluated independently, and each spiked sample was tested in singlicate. No differences were observed between the qualitative and semi-quantitative modes. The compounds tested and the concentration approximately equivalent to the 500 and $1 0 0 0 ~ \mathrm { { n g / m L } }$ cutoffs are listed below:
+
+<table><tr><td colspan="3" rowspan="1">500 ng/mL cutoff</td></tr><tr><td colspan="1" rowspan="1">Compound</td><td colspan="1" rowspan="1">ConcentrationTested (ng/mL)</td><td colspan="1" rowspan="1">Cross-Reactivity(%)</td></tr><tr><td colspan="1" rowspan="1">(+) Methamphetamine</td><td colspan="1" rowspan="1">500</td><td colspan="1" rowspan="1">100.00</td></tr><tr><td colspan="1" rowspan="1">(-) Methamphetamine</td><td colspan="1" rowspan="1">90,000</td><td colspan="1" rowspan="1">0.56</td></tr><tr><td colspan="1" rowspan="1">(+) Amphetamine</td><td colspan="1" rowspan="1">20,000</td><td colspan="1" rowspan="1">2.50</td></tr><tr><td colspan="1" rowspan="1">(-) Amphetamine</td><td colspan="1" rowspan="1">900,000</td><td colspan="1" rowspan="1">0.06</td></tr><tr><td colspan="1" rowspan="1">Methylenedioxyamphetamine(MDA)</td><td colspan="1" rowspan="1">18,000</td><td colspan="1" rowspan="1">2.78</td></tr><tr><td colspan="1" rowspan="1">Methoxyamphetamine (PMA)</td><td colspan="1" rowspan="1">15,000</td><td colspan="1" rowspan="1">3.33</td></tr><tr><td colspan="1" rowspan="1">Methylenedioxymethamphetamine(MDMA)</td><td colspan="1" rowspan="1">800</td><td colspan="1" rowspan="1">62.50</td></tr><tr><td colspan="1" rowspan="1">MDEA</td><td colspan="1" rowspan="1">3,000</td><td colspan="1" rowspan="1">16.67</td></tr><tr><td colspan="1" rowspan="1">Fenfluramine</td><td colspan="1" rowspan="1">7,000</td><td colspan="1" rowspan="1">7.14</td></tr><tr><td colspan="1" rowspan="1">(+) Pseudoephedrine</td><td colspan="1" rowspan="1">75,000</td><td colspan="1" rowspan="1">0.67</td></tr><tr><td colspan="1" rowspan="1">(-) Pseudoephedrine</td><td colspan="1" rowspan="1">300,000</td><td colspan="1" rowspan="1">0.17</td></tr><tr><td colspan="1" rowspan="1">(-) Ephedrine</td><td colspan="1" rowspan="1">65,000</td><td colspan="1" rowspan="1">0.77</td></tr><tr><td colspan="1" rowspan="1">(+) Ephedrine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.05</td></tr><tr><td colspan="1" rowspan="1">Phentermine</td><td colspan="1" rowspan="1">500,000</td><td colspan="1" rowspan="1">0.10</td></tr><tr><td colspan="1" rowspan="1">Tyramine</td><td colspan="1" rowspan="1">850,000</td><td colspan="1" rowspan="1">0.06</td></tr><tr><td colspan="1" rowspan="1">Phenylephrine</td><td colspan="1" rowspan="1">800,000</td><td colspan="1" rowspan="1">0.06</td></tr><tr><td colspan="1" rowspan="1">Diphenhydramine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.050</td></tr><tr><td colspan="1" rowspan="1">Phenylpropanolamine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt; 0.0005</td></tr><tr><td colspan="3" rowspan="1">1000 ng/mL cutoff</td></tr><tr><td colspan="1" rowspan="1">Compound</td><td colspan="1" rowspan="1">ConcentrationTested (ng/mL)</td><td colspan="1" rowspan="1">Cross-Reactivity(%)</td></tr><tr><td colspan="1" rowspan="1">(+) Methamphetamine</td><td colspan="1" rowspan="1">1,000</td><td colspan="1" rowspan="1">100.00</td></tr><tr><td colspan="1" rowspan="1">(-) Methamphetamine</td><td colspan="1" rowspan="1">200,000</td><td colspan="1" rowspan="1">0.44</td></tr><tr><td colspan="1" rowspan="1">(+) Amphetamine</td><td colspan="1" rowspan="1">60,000</td><td colspan="1" rowspan="1">2.50</td></tr><tr><td colspan="1" rowspan="1">(-) Amphetamine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.10</td></tr><tr><td colspan="1" rowspan="1">Methylenedioxyamphetamine(MDA)</td><td colspan="1" rowspan="1">40,000</td><td colspan="1" rowspan="1">2.50</td></tr><tr><td colspan="1" rowspan="1">Methoxyamphetamine (PMA)</td><td colspan="1" rowspan="1">40,000</td><td colspan="1" rowspan="1">3.33</td></tr><tr><td colspan="1" rowspan="1">Methylenedioxymethamphetamine(MDMA)</td><td colspan="1" rowspan="1">1,000</td><td colspan="1" rowspan="1">71.43</td></tr><tr><td colspan="1" rowspan="1">MDEA</td><td colspan="1" rowspan="1">5,000</td><td colspan="1" rowspan="1">14.29</td></tr><tr><td colspan="1" rowspan="1">Fenfluramine</td><td colspan="1" rowspan="1">10,000</td><td colspan="1" rowspan="1">6.06</td></tr><tr><td colspan="1" rowspan="1">(+) Pseudoephedrine</td><td colspan="1" rowspan="1">200,000</td><td colspan="1" rowspan="1">0.67</td></tr><tr><td colspan="1" rowspan="1">(-) Pseudoephedrine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">0.13</td></tr><tr><td colspan="1" rowspan="1">(-) Ephedrine</td><td colspan="1" rowspan="1">200,000</td><td colspan="1" rowspan="1">0.57</td></tr><tr><td colspan="1" rowspan="1">(+) Ephedrine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.10</td></tr><tr><td colspan="1" rowspan="1">Phentermine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.10</td></tr><tr><td colspan="1" rowspan="1">Tyramine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.10</td></tr><tr><td colspan="1" rowspan="1">Phenylephrine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.10</td></tr><tr><td colspan="1" rowspan="1">Diphenhydramine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.10</td></tr><tr><td colspan="1" rowspan="1">Phenylpropanolamine</td><td colspan="1" rowspan="1">1,000,000</td><td colspan="1" rowspan="1">&lt;0.10</td></tr></table>
+
+f. Assay cut-off:
+
+Analytical performance of the device around the claimed cutoff is described in the precision section M.1.a. above.
+
+2. Comparison studies:
+
+# a. Method comparison with predicate device:
+
+The method comparison study was performed in-house using unaltered, clinical urine samples obtained from clinical testing laboratories. A total of 80 samples were analyzed using both the $5 0 0 ~ \mathrm { { n g / m L } }$ and $1 0 0 0 ~ \mathrm { { n g / m L } }$ cutoffs. Each sample was run in singlicate on a Beckman Coulter AU400e Chemistry Analyzer and the result was compared to that obtained by liquid chromatography/mass spectroscopy (LC/MS). The results of the assay performance compared to LC/MS are summarized below:
+
+$\underline { { 5 0 0 ~ \mathrm { n g / m L } } }$ cutoff $( \mathrm { n } = 8 0 )$   
+
+<table><tr><td rowspan=1 colspan=1>Candidate DeviceResult</td><td rowspan=1 colspan=4>Methamphetamine Concentrationby LC/MS (ng/mL)&lt;250    250 - 499    500-750      &gt; 750</td></tr><tr><td rowspan=1 colspan=1>Qualitative/ POS</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>36</td></tr><tr><td rowspan=1 colspan=1>Qualitative/ NEG</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Semi-quant / POS</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1*</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>36</td></tr><tr><td rowspan=1 colspan=1>Semi-quant / NEG</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr></table>
+
+Qualitative agreement among positives $= 4 0$ / 40 (100%) Qualitative agreement among negatives = 40 / 40 (100%) Semi-quant agreement among positives = 40 / 40 (100%) Semi-quant agreement among negatives $=$ 39 / 40 $( 9 8 \% )$
+
+\*Discordant sample – $\underline { { 5 0 0 ~ \mathrm { n g / m L } } }$ cutoff   
+
+<table><tr><td rowspan=1 colspan=4>Candidate Device Result</td><td rowspan=3 colspan=1>LC/MS result(ng/mL)</td></tr><tr><td rowspan=2 colspan=1>Sample ID</td><td rowspan=2 colspan=1>Qualitativeresult</td><td rowspan=1 colspan=2>Semi-quantitative</td></tr><tr><td rowspan=1 colspan=1>Conc (ng/mL)</td><td rowspan=1 colspan=1>Result</td></tr><tr><td rowspan=1 colspan=1>358433ZA</td><td rowspan=1 colspan=1>POS</td><td rowspan=1 colspan=1>544.9</td><td rowspan=1 colspan=1>POS</td><td rowspan=1 colspan=1>494</td></tr></table>
+
+$1 0 0 0 ~ \mathrm { { n g / m L } }$ cutoff $( \mathtt { n } = 8 0 )$ .   
+
+<table><tr><td rowspan=2 colspan=1>Candidate DeviceResult</td><td rowspan=1 colspan=4>Methamphetamine Concentrationby LC/MS (ng/mL)</td></tr><tr><td rowspan=1 colspan=1>&lt; 500</td><td rowspan=1 colspan=1>500-999</td><td rowspan=1 colspan=1>1000-1500</td><td rowspan=1 colspan=1>&gt;1500</td></tr><tr><td rowspan=1 colspan=1>Qualitative / POS</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>24</td></tr><tr><td rowspan=1 colspan=1>Qualitative/ NEG</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>Semi-quant / POS</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>36</td></tr><tr><td rowspan=1 colspan=1>Semi-quant / NEG</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>1*</td><td rowspan=1 colspan=1>0</td></tr></table>
+
+Qualitative agreement among positives $= 4 0$ / 40 (100%) Qualitative agreement among negatives $= 4 0 / 4 0 ( 1 0 0 \% )$ Semi-quant agreement among positives $= 3 9 / 4 0 ( 9 8 \% )$ Semi-quant agreement among negatives $= 4 0 \mathrm { ~ / ~ } 4 0$ (100%)
+
+\*Discordant sample – $1 0 0 0 ~ \mathrm { { n g / m L } }$ cutoff   
+
+<table><tr><td rowspan=1 colspan=4>Candidate Device Result</td><td rowspan=3 colspan=1>LC/MS result(ng/mL)</td></tr><tr><td rowspan=2 colspan=1>Sample ID</td><td rowspan=2 colspan=1>Qualitativeresult</td><td rowspan=1 colspan=2>Semi-quantitative</td></tr><tr><td rowspan=1 colspan=1>Conc (ng/mL)</td><td rowspan=1 colspan=1>Result</td></tr><tr><td rowspan=1 colspan=1>358429ZA</td><td rowspan=1 colspan=1>POS</td><td rowspan=1 colspan=1>998.5</td><td rowspan=1 colspan=1>NEG</td><td rowspan=1 colspan=1>1017</td></tr></table>
+
+b. Matrix comparison:
+
+Not applicable. This device is intended to be used with urine samples only.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable.
+
+b. Clinical specificity: Not applicable.   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off: Not applicable.
+
+5. Expected values/Reference range: Not applicable.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

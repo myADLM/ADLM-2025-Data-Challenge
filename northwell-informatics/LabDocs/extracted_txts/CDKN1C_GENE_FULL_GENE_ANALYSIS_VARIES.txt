@@ -1,0 +1,119 @@
+Standard Operating Procedure (SOP) for CDKN1C GENE, FULL
+GENE ANALYSIS
+1. PURPOSE:
+The purpose of this Standard Operating Procedure (SOP) is to
+provide a detailed and standardized process for the full gene analysis
+of CDKN1C (Cyclin-Dependent Kinase Inhibitor 1C) in clinical
+specimens. This includes the preparation, amplification, sequencing,
+and interpretation of data to ensure accurate and reliable results.
+2. RESPONSIBILITIES:
+It is the responsibility of all laboratory staff conducting the CDKN1C
+gene analysis to adhere to this SOP strictly to maintain the integrity
+and quality of the results. Any deviation from the SOP must be
+documented and approved by the laboratory supervisor.
+3. SPECIMEN REQUIREMENTS:
+• Preferred Specimen Type: Peripheral blood, minimum of 3-5 ml
+collected in EDTA tube.
+• Alternate Specimen Type: Saliva, buccal swabs, or extracted
+DNA with a minimum concentration of 20 ng/μL.
+• Stability: Blood samples are stable for 72 hours at room
+temperature; extracted DNA samples are stable at -20°C up to
+one year.
+4. EQUIPMENT AND REAGENTS:
+• PCR Thermocycler (ABI 9700 or equivalent)
+• DNA Sequencer (e.g., Illumina MiSeq or equivalent)
+• qPCR Machine
+• Thermal Cycler
+• DNA extraction kits (Qiagen or equivalent)
+• PCR master mix (e.g., Promega GoTaq)
+• Primers specific to CDKN1C gene regions
+• DNA ladder
+• Gel electrophoresis apparatus
+• Sterile microcentrifuge tubes
+• Nuclease-free water
+• Ethanol 70%
+• Reagents for Sanger sequencing (e.g., BigDye Terminator kit)
+• Automated sequencer for Sanger sequencing (e.g., ABI 3730)
+5. PROCEDURE:
+5.1. DNA Extraction
+5.1.1 Whole Blood:
+• Use the Qiagen DNA extraction kit according to manufacturer
+guidelines.
+• Assess DNA quality and quantity using a Qubit fluorometer and
+Nanodrop spectrophotometer.
+5.1.2 Saliva/ Buccal Swabs:
+• Use saliva DNA extraction kits according to manufacturer
+guidelines.
+• Assess DNA quality and quantity as above.
+5.2. PCR Amplification
+5.2.1 Primer Design:
+• Design primers to amplify the regions of interest within the
+CDKN1C gene ensuring coverage of all coding sequences and
+splice sites.
+5.2.2 PCR Conditions:
+• Prepare PCR mix (total volume 25 μL):
+◦ PCR Master Mix: 12.5 μL
+◦ Forward Primer (10 μM): 1 μL
+◦ Reverse Primer (10 μM): 1 μL
+◦ Template DNA: 2 μL (20 ng/μL)
+◦ Nuclease-free water: 8.5 μL
+5.2.3 Cycling Conditions:
+• Initial Denaturation: 95°C for 5 min
+• Denaturation: 95°C for 30 sec
+• Annealing: 58°C for 30 sec (temperature may be adjusted based
+on primer Tm)
+• Extension: 72°C for 1 min (Repeat steps for 35 cycles)
+• Final Extension: 72°C for 7 min
+5.2.4 Gel Electrophoresis:
+• Run 5 μL of PCR product on a 1.5% agarose gel to confirm
+amplification.
+5.3. Sequencing
+5.3.1 Purification of PCR products:
+• Purify PCR products using Qiagen PCR purification kit.
+5.3.2 Preparation for Sequencing:
+• For Sanger sequencing, prepare sequencing reaction with the
+BigDye Terminator kit as per the manufacturer's protocol.
+• For NGS, prepare libraries according to the Illumina library
+preparation protocols.
+5.3.3 Sequencing Run:
+• Load samples onto sequencer (e.g., ABI 3730 for Sanger or
+Illumina MiSeq for NGS) and run sequencing according to
+instrument protocols.
+5.4. Data Analysis
+5.4.1 Raw Data Processing:
+• Use appropriate software to analyze and interpret sequencing
+data (e.g., SeqPilot for Sanger data, and BaseSpace for NGS
+data).
+5.4.2 Mutation Analysis:
+• Compare sequences against the reference CDKN1C gene
+sequence using established bioinformatics tools.
+• Identify SNPs, insertions, deletions, and other variants.
+5.4.3 Interpretation:
+• Interpret variants based on established guidelines (e.g., ACMG
+guidelines).
+• Classify variants as pathogenic, likely pathogenic, variant of
+unknown significance (VUS), likely benign, or benign.
+6. QUALITY CONTROL:
+• Include positive and negative control samples in each batch of
+PCR and sequencing.
+• Perform repeat testing when necessary to confirm results.
+• Ensure regular maintenance and calibration of equipment.
+• Document all steps in appropriate logbooks.
+7. REPORTING RESULTS:
+• Results will be reviewed and verified by a senior technologist.
+• Generate a comprehensive report including any identified
+variants, their classification, and potential clinical significance.
+• Report all results through the Laboratory Information System
+(LIS).
+• Ensure timely communication of critical or significant findings to
+the requesting clinician.
+8. REFERENCES:
+• Manufacturer manuals for all equipment used.
+• ACMG guidelines for variant interpretation.
+• Relevant peer-reviewed articles on CDKN1C gene function and
+mutations.
+9. REVISION LOG:
+• This SOP will be reviewed and updated annually or as needed.
+This protocol ensures thorough and accurate analysis of the
+CDKN1C gene, adhering to all quality and regulatory standards in the
+laboratory setting.

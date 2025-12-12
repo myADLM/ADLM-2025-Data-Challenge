@@ -1,0 +1,96 @@
+Hereditary Hemorrhagic Telangiectasia and Vascular Malformations
+Gene Panel Protocol
+1. Purpose: This protocol outlines the procedures for the analytical
+phase of generating results for the Hereditary Hemorrhagic
+Telangiectasia (HHT) and Vascular Malformations Gene Panel.
+This includes the steps to be taken from DNA extraction to the
+interpretation of the results.
+2. Specimen:
+◦ Preferred: Fresh or frozen whole blood collected in EDTA
+tubes, buccal swabs, or tissue samples.
+◦ Acceptable: Fresh or frozen saliva samples.
+◦ Unacceptable: Specimens that are hemolyzed, clotted, or
+collected in preservatives other than EDTA.
+3. Equipment, Reagents, and Supplies:
+◦ DNA extraction kit (e.g., Qiagen DNA Blood Mini Kit)
+◦ PCR reagents (e.g., primers, Taq polymerase, dNTPs)
+◦ Next-generation sequencing (NGS) platform (e.g., Illumina
+MiSeq, Ion Torrent)
+◦ Gel electrophoresis apparatus
+◦ Bioinformatics software for NGS data analysis (e.g., GATK,
+VarScan)
+◦ Reference databases (e.g., ClinVar, HGMD)
+4. Procedure: A) DNA Extraction:
+◦ Proceed with DNA extraction using the chosen DNA
+extraction kit following manufacturer’s instructions.
+◦ Quantify and assess the quality of the DNA using a
+spectrophotometer and agarose gel electrophoresis.
+◦ Store extracted DNA at -20°C until ready for PCR
+amplification.
+B) PCR Amplification:
+◦ Design and validate primers specific to the genes
+associated with HHT and Vascular Malformations (e.g.,
+ACVRL1, ENG, SMAD4, GDF2).
+◦ Set up PCR reactions using the extracted DNA, primers, Taq
+polymerase, and dNTPs.
+◦ Perform PCR amplification under optimized conditions (e.g.,
+initial denaturation at 95°C for 2 minutes, followed by 35
+cycles of 95°C for 30 seconds, 58°C for 30 seconds, and
+72°C for 1 minute, with a final extension at 72°C for 5
+minutes).
+◦ Confirm successful amplification by loading samples onto
+agarose gel electrophoresis and visualize bands under UV
+light.
+C) Next-Generation Sequencing (NGS):
+◦ Prepare libraries from PCR products using an appropriate
+library preparation kit.
+◦ Perform sequencing on the selected NGS platform following
+the manufacturer's protocol.
+◦ Ensure adequate coverage and read depth for target genes.
+D) Bioinformatics Analysis:
+◦ Align raw sequence data to the reference genome using
+appropriate software (e.g., BWA).
+◦ Call variants using bioinformatics tools (e.g., GATK,
+VarScan).
+◦ Annotate and filter variants using reference databases (e.g.,
+ClinVar, HGMD).
+◦ Use software tools to predict the functional impact of
+variants (e.g., SIFT, PolyPhen).
+E) Interpretation and Reporting:
+◦ Review the filtered variant list for known pathogenic, likely
+pathogenic, and variants of uncertain significance (VUS).
+◦ Cross-reference findings with clinical information and family
+history, when available.
+◦ Prepare a report outlining the identified variants and their
+possible clinical significance.
+◦ Include recommendations for further confirmatory testing or
+genetic counseling as needed.
+5. Quality Control:
+◦ Run positive and negative controls with each batch of
+samples.
+◦ Perform intra-laboratory comparisons periodically to ensure
+consistency and accuracy.
+◦ Validate new batches of reagents and verify their
+performance.
+◦ Maintain documentation of quality control checks and
+corrective actions taken, if any.
+6. Reference Intervals:
+◦ Reference intervals are not applicable for genetic testing;
+however, identified variants should be interpreted in the
+context of available clinical data and literature.
+7. Method Limitations:
+◦ Variants outside the target regions or with insufficient read
+depth may not be detected.
+◦ Variant interpretation may be limited by incomplete or
+evolving knowledge of gene-disease relationships.
+◦ Possible laboratory errors due to contamination, technical
+issues, or insufficient quality control.
+8. References:
+◦ Manufacturer’s protocols for DNA extraction and NGS library
+preparation kits.
+◦ Relevant scientific literature and guidelines for genetic
+testing of HHT and vascular malformations.
+◦ Bioinformatics software documentation and user manuals.
+This protocol is subject to periodic review and updates to ensure
+compliance with the latest standards and technological
+advancements in genetic testing.

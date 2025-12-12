@@ -1,0 +1,151 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+A. 510(k) Number: K071511 B. Purpose for Submission:
+
+The 510(k) holder would like to introduce into interstate commerce optional proprietary Plexus™ software for use with the currently marketed device and the Luminex $\mathbf { \chi } _ { \mathrm { X M A P } } ^ { \bullet }$ instrument and Luminex IS 2.3 software to automate some assay functions, including calculation of results, plate mapping and downloading lot-specific factors from the web.
+
+# C. Measurand:
+
+# E. Applicant:
+
+Plexus™ HerpeSelect® 1 and $2 \mathrm { I g } \mathrm { G }$ (with software)
+
+# G. Regulatory Information:
+
+1. Regulation section:   
+21 CFR 866.3305
+
+2. Classification: Class II
+
+3. Product code: MXJ, MYF
+
+4. Panel:
+
+Immunology and Microbiology Devices
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+The Focus Diagnostics PlexusTM HerpeSelect® HSV 1 and $2 \mathrm { I g } \mathrm { G }$ (with software) is intended for qualitatively detecting the presence or absence of human IgG antibodies to HSV-1 and HSV-2 in human sera. The test is indicated for pregnant women and sexually active adults, as an aid for presumptively diagnosing HSV-1 and HSV-2 infection. The predictive value of a positive or negative result depends on the population's prevalence and the pretest likelihood of HSV-1 and HSV-2 infection. The test is not intended for donor screening or for self-testing. The performance of this assay has not been established for use in a pediatric population, for neonatal screening, for testing of immunocompromised patients, for use by a point of care facility or for use with automated equipment.
+
+# 2. Indication(s) for use:
+
+Same as intended use.
+
+The device is for prescription use only.
+
+3. Special conditions for use statement(s): Not applicable.
+
+4. Special instrument requirements:
+
+The assay is intended to be used with the Luminex xMAP instrument with Luminex IS 2.3 software or the Bio-Rad BioPlex® 200 System.
+
+# I. Device Description:
+
+The Focus Diagnostics Plexus™ HerpeSelect® HSV 1 and $2 \ \mathrm { I g G }$ (with software) is a multiplexed immunoassay for qualitatively detecting and differentiating human IgG antibodies to HSV-1 and HSV-2. The optional Plexus™ Multi Analyte Diagnostic Software version 1.0.0.2 automates the calculation of results using the Luminex xMAP reader with Luminex IS 2.3 software.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Plexus™ HerpeSelect® 1 and 2 IgG
+
+2. Predicate 510(k) number(s): K062543
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Assay, Calibrator andControls</td><td rowspan=1 colspan=1>Same as predicate</td><td rowspan=1 colspan=1></td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Optional PlexusTM MultiAnalyte DiagnosticSoftware for automaticcalculations of results foruse with the LuminexxMAP instrument andLuminex IS 2.3 software</td><td rowspan=1 colspan=1>Optional</td><td rowspan=1 colspan=1>Manual calculations</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices – 05/11/2005.
+
+Guidance for Off-the-Shelf Software Use in Medical Devices – 09/09/1999.
+
+# L. Test Principle:
+
+The Focus Diagnostics HerpeSelect ${ \mathfrak { P } } _ { 1 }$ and 2 Plexus IgG uses an Antigen Bead suspension that contains two distinct HSV antigen bead types that fluoresce at different wavelengths and/or intensities: gG-1 beads and $\mathrm { g } \mathrm { G } \mathrm { - } 2$ beads. The Focus Diagnostics HerpeSelect $^ { \mathfrak { P } } 1$ and 2 Multiplex IgG is a three step procedure.
+
+1. Patient sera are diluted, and the diluted sera are incubated with Antigen Beads. If HSV antibodies are present, then the antibodies bind to the corresponding antigen beads.   
+2. Phycoerythrin⎯conjugated goat anti-human IgG, (Conjugate) is added, and the
+
+Conjugate binds to the bound HSV antibody (if present), and forms a Conjugate-HSV antibody-antigen bead sandwich.
+
+3. Fluorescence from each distinct HSV antigen bead type is measured and compared against a Cut-off Calibrator.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Not applicable   
+b. Linearity/assay reportable range: Not applicable   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Not applicable   
+d. Detection limit: Not applicable   
+e. Analytical specificity: Not applicable   
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+Studies to Validate PlexusTM HerpeSelect® HSV 1 and $2 \mathrm { I g } \mathrm { G }$ (with software)
+
+Testing was done at two external sites and one internal site to confirm that assay results obtained using Plexus Software are identical to results calculated manually using the instrument (Luminex) raw data.
+
+<table><tr><td rowspan=1 colspan=3>Agreement between Index Calculated with Plexus Software and Index Calculated Manually (n =600)</td></tr><tr><td rowspan=1 colspan=1>Sample Type</td><td rowspan=1 colspan=1>n</td><td rowspan=1 colspan=1>% Agreement; 95% Confidence Interval</td></tr><tr><td rowspan=1 colspan=1>HSV-1 Pos</td><td rowspan=1 colspan=1>161/161</td><td rowspan=1 colspan=1>100%; 95% CI: 0.977 - 1.00</td></tr><tr><td rowspan=1 colspan=1>HSV-1 Eqv</td><td rowspan=1 colspan=1>4/4</td><td rowspan=1 colspan=1>100%; 95% CI: 0.398 - 1.00</td></tr><tr><td rowspan=1 colspan=1>HSV-1 Neg</td><td rowspan=1 colspan=1>134/134</td><td rowspan=1 colspan=1>100%; 95% CI: 0.973 - 1.00</td></tr><tr><td rowspan=1 colspan=1>HSV-1 Invalid</td><td rowspan=1 colspan=1>1/1</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>HSV-2 Pos</td><td rowspan=1 colspan=1>139/139</td><td rowspan=1 colspan=1>100%; 95% CI: 0.974 - 1.00</td></tr><tr><td rowspan=1 colspan=1>HSV-2 Eqv</td><td rowspan=1 colspan=1>77</td><td rowspan=1 colspan=1>100% ; 95% CI: 0.590 - 1.00</td></tr><tr><td rowspan=1 colspan=1>HSV-2 Neg</td><td rowspan=1 colspan=1>153/153</td><td rowspan=1 colspan=1>100%; 95% CI: 0.976 - 1.00</td></tr><tr><td rowspan=1 colspan=1>HSV-1 Invalid</td><td rowspan=1 colspan=1>1/1</td><td rowspan=1 colspan=1>-</td></tr></table>
+
+$100 \%$ of HSV-1 indexes and $100 \%$ of HSV-2 indexes calculated using the Plexus software matched the indexes calculated manually.
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range:
+
+Not applicable
+
+# N. Instrument Name:
+
+The Plexus™ HerpeSelect® HSV 1 and $2 \mathrm { I g } \mathrm { G }$ (with software) device is intended to be used with the Luminex xMAP instrument or the Bio-Rad BioPlex $\textsuperscript { \textregistered }$ 200 System. The optional Plexus™ Multi Analyte Diagnostic Software version 1.0.0.2 is intended for use with the Luminex xMAP instrument and Luminex IS 2.3 software.
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+The optional Plexus™ Multi Analyte Diagnostic Software version 1.0.0.2 is used with the Luminex xMAP instrument and the Luminex IS 2.3 software.
+
+2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ___X_ __ or No
+
+3. Specimen Identification: Serum
+
+4. Specimen Sampling and Handling:
+
+Collect blood samples aseptically using approved venipuncture techniques by qualified personnel. Allow blood samples to clot at room temperature prior to centrifugation. Aseptically transfer serum to a tightly closing sterile container for storage. Separated serum should remain at $2 2 ^ { \circ } \mathrm { C }$ for no longer than 8 hours. If the assay will not be completed within 8 hours, refrigerate the sample at 2 to $8 ^ { \circ } \mathrm { C }$ . If the assay will not be completed within 48 hours, or for shipment of samples, freeze at $- 2 0 ^ { \circ } \mathrm { C }$ or colder. Thaw and mix samples well prior to use.
+
+5. Calibration: IgG Cutoff Calibrator is supplied with the assay reagents.
+
+6. Quality Control: Positive and Negative IgG controls are supplied with the assay reagents.
+
+# P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+Not applicable
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

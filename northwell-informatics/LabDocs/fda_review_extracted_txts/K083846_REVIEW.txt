@@ -1,0 +1,769 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k083846
+B. Purpose for Submission:
+New Device
+C. Measurand:
+CFTR (Cystic Fibrosis transmembrane conductance regulator) gene from human blood
+specimens
+D. Type of Test:
+Multiplex PCR followed by multiplex allele specific primer extension for genotyping,
+hybridized to multiplexed fluorescing microparticles, detected by flow cytometry
+E. Applicant:
+Luminex Molecular Diagnostics Inc.
+F. Proprietary and Established Names:
+xTAG™ Cystic Fibrosis 39 Kit v2
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 866.5900, CFTR (cystic fibrosis transmembrane conductance regulator) gene
+mutation detection system
+2. Classification:
+Class II
+3. Product code:
+NUA, system, test, CFTR (cystic fibrosis transmembrane conductance regulator) gene
+mutation detection
+4. Panel:
+Immunology (82)
+H. Intended Use:
+1. Intended use(s):
+The xTAG™ Cystic Fibrosis 39 Kit v2 is a device used to simultaneously detect and
+identify a panel of mutations and variants in the cystic fibrosis transmembrane
+conductance regulator (CFTR) gene in human blood specimens. The panel includes
+mutations and variants currently recommended by the American College of Medical
+Genetics and American College of Obstetricians and Gynecologists (ACMG/ACOG) plus
+some of the world’s most common and North American prevalent mutations. The
+xTAG™ Cystic Fibrosis 39 Kit v2 is a qualitative genotyping test which provides
+information intended to be used for carrier testing in adults of reproductive age, as an aid
+in newborn screening, and in confirmatory diagnostic testing in newborns and children.
+The kit is not indicated for use in fetal diagnostic or pre-implantation testing. This kit is
+also not indicated for stand-alone diagnostic purposes.
+2. Indication(s) for use:
+Same as Intended use.
+3. Special conditions for use statement(s):
+For Prescription use only
+1
+
+--- Page 2 ---
+The kit is not indicated for use in fetal diagnostic or pre-implantation testing. This kit is
+also not indicated for stand-alone diagnostic purposes
+4. Special instrument requirements:
+Luminex 100 or 200 IS instruments with IS v2.3 (see k073506 for details)
+and xPONENT v3.1
+I. Device Description:
+The xTAG™ Cystic Fibrosis 39 Kit v2 is comprised of the following components: 1 vial
+(240 μL) xTAG CFTR PCR Primer Mix v2; 1 vial (192 μL) xTAG CFTR ASPE Primer Mix
+A v2; 2 vials (5 units/μL,115 μL each) Platinum Tfi Exo(-) DNA Polymerase; 4 vials (1.3
+mL each) 5X Platinum Tfi Reaction buffer; 2 vials (1 mL each) Tfi 50 mM MgCl ; 2 vials
+2
+(10 units/μL, 48 μL each) xTAG Exonuclease I; 2 vials (1 unit/μL, 120 μL each) xTAG
+Shrimp Alkaline Phosphatase (SAP); 1 vial (1 mg/mL, 108 μL) xTAG Streptavidin, R-
+Phycoerythrin Conjugate; 1 vial (2.16 mL) xTAG CFTR Bead Mix A v2; and 1 bottle (12
+mL) xTAG 10X Buffer.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+TM
+xTAG Cystic Fibrosis Kit
+2. Predicate 510(k) number(s):
+k043011, k060627
+3. Comparison with predicate:
+Similarities
+Item Device Predicate
+Intended Use The xTAG™ Cystic Fibrosis 39 Kit v2 is a device used to Same
+simultaneously detect and identify a panel of mutations and
+variants in the cystic fibrosis transmembrance conductance
+regulator (CFTR) gene in human blood specimens. The
+panel includes mutations and variants currently
+recommended by the American College of Medical
+Genetics and American College of Obstetricians and
+Gynecologists (ACMG/ACOG), plus some of the world’s
+most common and North American prevalent mutations.
+Indications for Use The xTAG™ Cystic Fibrosis 39 Kit v2 is a qualitative Same
+genotyping test which provides information intended to be
+used for carrier testing in adults of reproductive age, as an
+aid in newborn screening, and in confirmatory diagnostic
+testing in newborns and children.
+Contra-Indications This kit is not intended for use in fetal diagnostic or pre- Same
+implantation testing. This kit is also not indicated for
+stand-alone diagnostic purposes.
+Type of Test Multiplex PCR followed by multiplex allele specific Same
+primer extension for genotyping, hybridized to multiplex
+fluorescent microparticles, detected by flow cytometry
+Product Description Tests for 39 mutations and 4 variants in the CFTR gene (23 Same
+of which are recommended by ACMG/ACOG).
+Specimen type Peripheral human whole blood Same
+2
+
+[Table 1 on page 2]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			The xTAG™ Cystic Fibrosis 39 Kit v2 is a device used to
+simultaneously detect and identify a panel of mutations and
+variants in the cystic fibrosis transmembrance conductance
+regulator (CFTR) gene in human blood specimens. The
+panel includes mutations and variants currently
+recommended by the American College of Medical
+Genetics and American College of Obstetricians and
+Gynecologists (ACMG/ACOG), plus some of the world’s
+most common and North American prevalent mutations.			Same		
+Indications for Use			The xTAG™ Cystic Fibrosis 39 Kit v2 is a qualitative
+genotyping test which provides information intended to be
+used for carrier testing in adults of reproductive age, as an
+aid in newborn screening, and in confirmatory diagnostic
+testing in newborns and children.			Same		
+Contra-Indications			This kit is not intended for use in fetal diagnostic or pre-
+implantation testing. This kit is also not indicated for
+stand-alone diagnostic purposes.			Same		
+Type of Test			Multiplex PCR followed by multiplex allele specific
+primer extension for genotyping, hybridized to multiplex
+fluorescent microparticles, detected by flow cytometry			Same		
+Product Description			Tests for 39 mutations and 4 variants in the CFTR gene (23
+of which are recommended by ACMG/ACOG).			Same		
+Specimen type			Peripheral human whole blood			Same		
+
+--- Page 3 ---
+Differences
+Item Device Predicate
+Software TDAS CFTR contains 1 template to TDAS CF-1 contains 1
+detect a panel of 39 mutations and 4 template to detect a panel of
+variants. Software has a masking 39 mutations and 4 variants
+function where user can choose to only.
+display results for either the
+ACMG/ACOG 23 mutations or for the
+full panel of mutations.
+Instrument system Luminex 100 or 200 IS v.2.3 Luminex 100 IS v2.3
+Instrument software IS v2.3 and xPONENT v3.1 IS v2.3 only
+K. Standard/Guidance Document Referenced (if applicable):
+• American College of Medical Genetics (ACMG) / American College of Obstetricians and
+Gynecologists Technical Standards and Guidelines for CFTR Mutation Testing and
+Standards and Guidelines for Clinical Genetic Laboratories
+• Cystic Fibrosis Foundation / Center for Disease Control Recommendations on Newborn
+Screening for CF
+• FDA Class II Special Controls Guidance: Quality Control Material for Cystic Fibrosis
+Nucleic Acid Assays (Jan 2007)
+• FDA Class II Special Controls Guidance: CFTR Gene Mutation Detection Systems (Oct
+2005)
+• CDRH Draft Guidance on Multiplex Tests for Heritable DNA Markers, Mutations and
+Expression Patterns (Feb 2003)
+• CDRH Draft Guidance on Statistical Guidance on Reporting Results from Studies Evaluating
+Diagnostic Tests (Mar 2003)
+• CDRH Guidance for the Content of Pre-Market Submission for Software Contained in
+Medical Devices (May 1998)
+• CDRH Guidance on General Principles of Software Validation (Jan 2002)
+• CDRH Guidance on Format for Traditional and Abbreviated 510ks (Aug 2005)
+• MM01-A2: Molecular Diagnostic Methods for Genetic Diseases
+• MM13-PE: Collection, Transport, Preparation, and Storage of Specimens for Molecular
+Methods
+• MM17-A: Verification and Validation of Multiplex Nucleic Acid Assays
+• EP05-A2: Evaluation of Precision Performance of Clinical Chemistry Devices
+• EP07-A2E: Interference Testing in Clinical Chemistry
+• EP12-A: User Protocol for Evaluation of Qualitative Test Performance
+• EP17-A: Protocols for Determining Limits of Detection and Limits of Quantitation
+L. Test Principle:
+The xTAG™ CFTR 39 Kit v2 incorporates multiplex Polymerase Chain Reaction (PCR) and
+multiplex Allele Specific Primer Extension (ASPE) with Luminex’s proprietary Universal
+Tag sorting system on the Luminex® 100 or 200 xMAP™ platform.
+3
+
+[Table 1 on page 3]
+Differences								
+	Item			Device			Predicate	
+Software			TDAS CFTR contains 1 template to
+detect a panel of 39 mutations and 4
+variants. Software has a masking
+function where user can choose to
+display results for either the
+ACMG/ACOG 23 mutations or for the
+full panel of mutations.			TDAS CF-1 contains 1
+template to detect a panel of
+39 mutations and 4 variants
+only.		
+Instrument system			Luminex 100 or 200 IS v.2.3			Luminex 100 IS v2.3		
+Instrument software			IS v2.3 and xPONENT v3.1			IS v2.3 only		
+
+--- Page 4 ---
+The amplimer sizes range from 179 bp to 465 bp. Purified genomic DNA is extracted from
+each sample and a multiplex PCR reaction is carried out under optimized conditions. Each
+sample undergoes a multiplex allele specific primer extension (ASPE) reaction, where an
+aliquot of the PCR product is run through the ASPE A reaction. This step allows for
+detection of each allele (wild-type or mutant) of a given locus using an allele-specific probe
+(ASP) which contains a unique DNA sequence (tag) at its 5’ end. Each bi-allelic locus has 2
+ASPs and each tri-allelic loci has 3 ASPs included in the ASPE Mix. For each ASP, the 3’
+end of the primer is a perfect match for its allele, but will have a 3’ mismatch on any other
+allele. Both these ASPs however are tagged with a common tag at their 5’ end. The DNA
+polymerase will only extend the primer when there is a perfect match on the 3’ end, so that
+the primer is only extended if its target allele is present in the sample. Biotin-dCTP is
+incorporated into the extending chain if extension occurs.
+For the hybridization reaction, the ASPE reaction product is added directly to microwells
+containing aliquots of the Bead Mix. Each coupled bead is spectrally distinguishable from
+the other coupled beads in a given bead mix. A fluorescent reporter molecule (streptavidin-
+phycoerythrin) is bound to the biotin on the extended primers. Each tagged primer
+hybridizes only to its unique anti-tag complement; therefore, each colored bead represents a
+specific allele, through the bead/anti-tag/tagged primer association. The beads are then
+analyzed by the Luminex instrument, which contains two lasers: one identifies the color-
+coded bead, and the other identifies the presence or absence of extended allele specific
+primer through the phycoerythrin reporter. Thus, the genotype of that locus is identified by
+the presence of phycoerythrin signal attached to one or both ASPs.
+For each sample analyzed by the CFTR 39 kit v2, an output file containing MFI signals from
+the Luminex Instrument is generated. The proprietary software component of this product
+analyzes this output data file, to provide a final qualitative genotype for the sample. The
+software includes a feature which enables users to select between 2 options for the final
+output:
+Option 1: Full Panel (39 mutations + 4 variants).
+Option 2: ACMG/ACOG panel (23 mutations).
+When Option 2 is chosen, the non-ACMG/ACOG recommended panel of mutations/variants
+will not be available to the user.
+Mutations and 4 variants (variants italized) included in the CFTR 39 Kit v2
+ΔF508* 1717-1G>A* W1282X* 2307insA
+ΔI507* R560T* 1078delT Y1092X
+G542X* R553X* 394delTT M1101K
+G85E* G551D* Y122X S1255X
+R117H* 1898+1G>A* R347H 3876delA
+621+1G>T* 2184delA* V520F 3905insT
+711+1G>T* 2789+5G>A* A559T 5/7/9T
+N1303K* 3120+1G>A* S549N F508C
+R334W* R1162X* S549R I507V
+R347P* 3659delC* 1898+5G>T I506V
+A455E* 3849+10kbC>T* 2183AA>G
+4
+
+[Table 1 on page 4]
+ΔF508*	1717-1G>A*	W1282X*	2307insA
+ΔI507*	R560T*	1078delT	Y1092X
+G542X*	R553X*	394delTT	M1101K
+G85E*	G551D*	Y122X	S1255X
+R117H*	1898+1G>A*	R347H	3876delA
+621+1G>T*	2184delA*	V520F	3905insT
+711+1G>T*	2789+5G>A*	A559T	5/7/9T
+N1303K*	3120+1G>A*	S549N	F508C
+R334W*	R1162X*	S549R	I507V
+R347P*	3659delC*	1898+5G>T	I506V
+A455E*	3849+10kbC>T*	2183AA>G	
+
+--- Page 5 ---
+*denotes ACMG/ACOG panel
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+A multi-centre, multi-operator, multi-lot, blinded study design was used to evaluate
+total variability of the xTAG CFTR v2 system. The experimental design generally
+follows CLSI recommendations (EP5-A and MM17-A) and requirements laid forth
+by the FDA in I080024.
+The study included two arms. Arm A evaluated the reproducibility of the sample
+extraction step using 18 unique clinical (whole blood) samples representing wild-type
+and 3 mutant genotypes. DNA was extracted using 3 different methods and tested
+using the same assay lot by 2 operators, across 9 non-consecutive days. Each
+operator performed 3 runs/extraction methods, and each assay point was run in
+duplicate. An extraction was performed for each assay run by each operator. The
+number of replicates per sample was: (3 extraction methods) x (2 operators/extraction
+method) x (3 runs/operator) x (2 replicates/run) = 36 replicates. The results are
+summarized in the following table.
+Summary of Results from Reproducibility Study Arm A
+Extraction Number of Total Number of
+CFTR v2 Results
+Method Samples Assays
+All assays passed
+a 18 18 x 12 = 216
+(correct calls)
+All assays passed
+b 18 18 x 12 = 216
+(correct calls)
+All assays passed
+c 18 18 x 12 = 216
+(correct calls)
+Arm B evaluated the reproducibility of the analytical (post-extraction) steps of the
+assays at 3 external sites using in order of preference and availability, purified
+genomic DNAs extracted from clinical (whole blood) samples, purified genomic
+DNA extracted from lymphoid cell lines, and/or plasmids. Each set contained
+samples representing all mutations and variants probed by the CFTR 39 Kit v2.
+There were 2 operators per site, each performing 1 run/day across 3 non-consecutive
+days (3 runs per operator or 6 runs per site). Within a given run, each assay point was
+run in duplicate. A total of three assay lots were tested (1 lot/site). This arm of the
+study also provided information on the ability to resolve different sources of
+variability in the post-extraction (analytical) step of the assay. For example, it was
+possible to analyze data from a particular site to estimate the operator-to-operator
+variability.
+The results indicated a precision of >99.54% across the 3 sites. There was one “no-
+call” after 1 re-run at Site 3, and 3 mis-calls (from a single plasmid sample) at Site 1.
+Reproducibility of a compound heterozygote dF508/F508C was also demonstrated in
+5
+
+[Table 1 on page 5]
+Extraction
+Method	Number of
+Samples	Total Number of
+Assays	CFTR v2 Results
+a	18	18 x 12 = 216	All assays passed
+(correct calls)
+b	18	18 x 12 = 216	All assays passed
+(correct calls)
+c	18	18 x 12 = 216	All assays passed
+(correct calls)
+
+--- Page 6 ---
+this study. 36 of 30 replicates of one sample generated a dF508 call and 6 generated a
+dF508 Mu D call (Mu D calls are defined as detection of only a mutant allele).
+Between Site/ Operator Reproducibility Data for xTAG CFTR 39 Kit v2
+Operator - to – Operator
+Site 1 Site 2 Site 3
+†Op 1 Op 1 Op2 Op2 Op1 Op1 Op2 Op2 Op1 Op1 Op2 Op2
+Sample ID Genotype N ¥ % corr ‡N % corrN % corrN % corr N % corrN % corr
+3893 711+1G>T dF508 438 100 438 100 438 100 438 100 438 100 438 100
+4919 1717-1G>A - 438 100 438 100 438 100 438 100 438 100 438 100
+9354 G542X R117H 438 100 438 100 438 100 438 100 438 100 438 100
+10561 A455E - 438 100 438 100 438 100 438 100 438 100 438 100
+10839 3659delC - 438 100 438 100 438 100 438 100 438 100 438 100
+10988 R1162X dF508 438 100 438 100 438 100 438 100 438 100 438 100
+11688 3849+10kbC>T - 438 100 438 100 438 100 438 100 438 100 438 100
+15249 W1282X - 438 100 438 100 438 100 438 100 438 100 438 100
+15560 1078delT dF508 438 100 438 100 438 100 438 100 438 100 438 100
+17594 A559T - 438 100 438 100 438 100 438 100 438 100 438 100
+30116 S549N - 438 100 438 100 438 100 438 100 438 100 438 100
+41406 G551D R347P 438 100 438 100 438 100 438 100 438 100 438 100
+48308 3905insT - 438 100 438 100 438 100 438 100 438 100 438 100
+53948 R560T dF508 438 100 438 100 438 100 438 100 438 100 438 100
+63436 394delTT - 438 100 438 100 438 100 438 100 438 100 438 100
+69711 R553X - 438 100 438 100 438 100 438 100 438 100 438 100
+70268 2184delA - 438 100 438 100 438 100 438 100 438 100 438 100
+71713 1898+1G>A dF508 438 100 438 100 438 100 438 100 438 100 438 100
+77590 Y1092X-C>A dF508 438 100 438 100 438 100 438 100 438 100 438 100
+89633 2183AA>G - 438 100 438 100 438 100 438 100 438 100 438 100
+98748 V520F 3120+1G>A 438 100 438 100 438 100 438 100 438 100 438 100
+LMD002-
+08 111 R334W - 438 100 438 100 438 100 438 100 438 100 438 100
+LMD002-
+08 33 2789+5G>A - 438 100 438 100 438 100 438 100 438 100 438 100
+LMD002-
+08 58 612+1 G>A - 438 100 438 100 438 100 438 100 438 100 438 100
+LMD002-
+08 64 dI507 - 438 100 438 100 438 100 438 100 438 100 438 100
+LMD002- dF508 (+
+08 73 F508C variant) - 439* 100 442**100 438***100 438***100 438*** 100 439*100.00
+LMD002-
+08 86 G85E - 438 100 438 100 438 100 438 100 438 100 438 100
+LMD002-
+08 90 N1303K - 438 100 438 100 438 100 438 100 438 100 438 100
+NA07857 M1101K M1101K 438 100 438 100 438 100 438 100 438 100 438 100
+NA18802 Y122X R1158X 438 100 438 100 438 100 438 100 438 100 438 100
+NA20737 R347H - 438 100 438 100 438 100 438 100 438 100 438 100
+NA20741 3876delA - 438 100 438 100 438 100 438 100 438 100 438 100
+6
+
+[Table 1 on page 6]
+Sample ID	Genotype		Operator - to – Operator											
+			Site 1				Site 2				Site 3			
+			†Op 1	Op 1	Op2	Op2	Op1	Op1	Op2	Op2	Op1
+N	Op1
+% corr	Op2
+N	Op2
+% corr
+			N ¥	% corr ‡	N	% corr	N	% corr	N	% corr				
+3893	711+1G>T	dF508	438	100	438	100	438	100	438	100	438	100	438	100
+4919	1717-1G>A	-	438	100	438	100	438	100	438	100	438	100	438	100
+9354	G542X	R117H	438	100	438	100	438	100	438	100	438	100	438	100
+10561	A455E	-	438	100	438	100	438	100	438	100	438	100	438	100
+10839	3659delC	-	438	100	438	100	438	100	438	100	438	100	438	100
+10988	R1162X	dF508	438	100	438	100	438	100	438	100	438	100	438	100
+11688	3849+10kbC>T	-	438	100	438	100	438	100	438	100	438	100	438	100
+15249	W1282X	-	438	100	438	100	438	100	438	100	438	100	438	100
+15560	1078delT	dF508	438	100	438	100	438	100	438	100	438	100	438	100
+17594	A559T	-	438	100	438	100	438	100	438	100	438	100	438	100
+30116	S549N	-	438	100	438	100	438	100	438	100	438	100	438	100
+41406	G551D	R347P	438	100	438	100	438	100	438	100	438	100	438	100
+48308	3905insT	-	438	100	438	100	438	100	438	100	438	100	438	100
+53948	R560T	dF508	438	100	438	100	438	100	438	100	438	100	438	100
+63436	394delTT	-	438	100	438	100	438	100	438	100	438	100	438	100
+69711	R553X	-	438	100	438	100	438	100	438	100	438	100	438	100
+70268	2184delA	-	438	100	438	100	438	100	438	100	438	100	438	100
+71713	1898+1G>A	dF508	438	100	438	100	438	100	438	100	438	100	438	100
+77590	Y1092X-C>A	dF508	438	100	438	100	438	100	438	100	438	100	438	100
+89633	2183AA>G	-	438	100	438	100	438	100	438	100	438	100	438	100
+98748	V520F	3120+1G>A	438	100	438	100	438	100	438	100	438	100	438	100
+LMD002-
+08 111	R334W	-									438	100	438	100
+			438	100	438	100	438	100	438	100				
+LMD002-
+08 33	2789+5G>A	-									438	100	438	100
+			438	100	438	100	438	100	438	100				
+LMD002-
+08 58	612+1 G>A	-									438	100	438	100
+			438	100	438	100	438	100	438	100				
+LMD002-
+08 64	dI507	-									438	100	438	100
+			438	100	438	100	438	100	438	100				
+LMD002-
+08 73	dF508 (+
+F508C variant)	-	439*	100	442**	100	438***	100	438***	100	438***	100	439*	100.00
+LMD002-
+08 86	G85E	-									438	100	438	100
+			438	100	438	100	438	100	438	100				
+LMD002-
+08 90	N1303K	-									438	100	438	100
+			438	100	438	100	438	100	438	100				
+NA07857	M1101K	M1101K	438	100	438	100	438	100	438	100	438	100	438	100
+NA18802	Y122X	R1158X	438	100	438	100	438	100	438	100	438	100	438	100
+NA20737	R347H	-	438	100	438	100	438	100	438	100	438	100	438	100
+NA20741	3876delA	-	438	100	438	100	438	100	438	100	438	100	438	100
+
+--- Page 7 ---
+NA20915 S549R - 438 100 438 100 438 100 438 100 438 100 438 100
+NA21551 dF508 - 438 100 438 100 438 100 438 100 438 100 437 99.77
+Plasmids
+dF508(+I506V
+10B+10C‡‡ variant) V520F 18 100 18 100 18 100 18 100 18 100 18 100
+Plasmid
+12B 1898+5G>T - 6 100 6 100 6 100 6 100 6 100 6 100
+Plasmid
+13E 2307insA 2055del9>A 12 91.67 12 83.33 12 100 12 100 12 100 12 100
+Plasmid
+19E 3791delC - 12 100 12 100 12 100 12 100 12 100 12 100
+Plasmid
+17bB Y1092X-C>G - 6 100 6 100 6 100 6 100 6 100 6 100
+Plasmid
+19A S1255X (ex.19) - 6 100 6 100 6 100 6 100 6 100 6 100
+Plasmid
+20A S1255X (ex.20) W1282X 12 100 12 100 12 100 12 100 12 100 12 100
+Site 1: Hartford Hospital, Connecticut, USA; Site 2: Luminex Molecular Diagnostics, Toronto, CA; Site 3: Hospital for Sick
+Children, Toronto, CA
+† Op = operator (1 or 2)
+¥ N = number of calls
+‡ % corr = percent correct
+* Total number of calls 438 + 1 = 439, because TDAS made one dF508 Mu D call (and the F508C variant call is unmasked)
+** Total number of calls 438 + 4 = 442, because TDAS made 4 dF508 Mu D calls (and the F508C variant call is unmasked)
+*** Total number of calls = 438, because TDAS made all dF508 HET calls (the F508C variant call is masked)
+b. Linearity/assay reportable range:
+Not Applicable
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Previous stability studies support a shelf-life of 1 year when kit reagents are stored at
+-25°C to -15°C. Repeated freeze-thaw cycles (up to 4) do not compromise the
+integrity of the xTAG™ CFTR 39 Kit v2.
+Assay controls: The package insert recommends that at least two negative controls
+and a rotating set of positive controls (including a dF508 mutation) are included with
+each run.
+d. Detection limit:
+The package insert recommends that purified DNA have at least a UV 260/280 ratio
+of >1.5 depending on the extraction method used. The assay has been optimized for
+use with 50 ng of total DNA, but reliable results were previously demonstrated with
+DNA amounts between 10 ng to 1.5 µg.
+The detection limits were determined by serially diluting 10 gDNA samples, obtained
+from commercially available cell lines at 10 levels ranging from 300 - 0.39 ng/μL.
+The LoD is defined as the lowest amount of genomic DNA in a sample for which the
+assay can detect genotypes with a positive agreement rate of ≥ 95%. Eight of the
+samples were heterozygous, one (1) was homozygous, and one (1) contained a non-
+panel mutation which would be called as wild type by the assay. Three of the
+heterozygous samples were compound heterozygotes, but the second allele was a
+non-panel mutation and therefore called as wild-type by the assay. At each
+7
+
+[Table 1 on page 7]
+							438	100	438	100				
+NA21551	dF508	-	438	100	438	100	438	100	438	100	438	100	437	99.77
+Plasmids
+10B+10C‡‡	dF508(+I506V
+variant)	V520F									18	100	18	100
+			18	100	18	100	18	100	18	100				
+Plasmid
+12B	1898+5G>T	-									6	100	6	100
+			6	100	6	100	6	100	6	100				
+Plasmid
+13E	2307insA	2055del9>A	12	91.67	12	83.33	12	100	12	100	12	100	12	100
+Plasmid
+19E	3791delC	-									12	100	12	100
+			12	100	12	100	12	100	12	100				
+Plasmid
+17bB	Y1092X-C>G	-									6	100	6	100
+			6	100	6	100	6	100	6	100				
+Plasmid
+19A	S1255X (ex.19)	-									6	100	6	100
+			6	100	6	100	6	100	6	100				
+Plasmid
+20A	S1255X (ex.20)	W1282X									12	100	12	100
+			12	100	12	100	12	100	12	100				
+
+--- Page 8 ---
+concentration, 22 replicates from each of the samples were run. Based on initial
+results, a LoD = 1.56 ng/μL was proposed. An additional study was performed using
+2 ng/μL for each of the 22 sample replicates. Two samples exhibited 21/22 correct
+calls, corresponding to a 95.4% positive agreement. No failures were observed at the
+300 ng/μL concentration.
+e. Analytical specificity:
+To examine the effects of potential interferents that might be found in whole blood
+samples, a study was conducted using 8 whole blood samples (4 wild-type for CFTR
+mutations, 1 N1303K Het, 1 V520F Het, and 2 ∆F508 Het). Each sample was split
+into 6 parts, and incubated in the absence or presence of one of 3 potential interferents
+(hemoglobin at final concentration of 1,500 µg/mL, bilirubin at a final concentration
+of 200 µg/mL, and a mixture of triglycerides at a final concentration of 30 mg/mL).
+Samples were extracted and assayed with the kit according to the instructions.
+Dideoxy- sequencing of the CFTR exons in each sample was conducted to confirm
+the genotypes of each sample. Results indicated that none of the substances at the
+concentrations tested produced a significant inhibitory effect on kit performance.
+f. Assay cut-off:
+Not Applicable
+2. Comparison studies:
+a. Method comparison with predicate device:
+Accuracy of the xTAG CFTR 39 Kit v2 was assessed through evaluation of samples
+representing all alleles (mutations and polymorphisms) probed by the assay. Three
+hundred nineteen (319) samples were used in this method comparison study. These
+samples were left-over, anonymized, clinical specimens, eight were genomic DNAs
+from EBV-transformed lymphoid cell lines, and 2 were custom-designed plasmids
+engineered to contain 1-2 CFTR mutations. The genotype of all samples was
+confirmed by bi-directional sequencing. The xTAG Cystic Fibrosis Mutation
+Detection Kit was used as the comparator method.
+For all exons, the results indicated 100% agreement between the xTAG Cystic
+Fibrosis 39 Kit v2 and the xTAG Cystic Fibrosis Mutation Detection Kit. There were
+0 no-calls and 0 mis-calls in the accuracy study.
+Table: Overall accuracy for the xTAG Cystic Fibrosis 39 Kit v2
+Number of Samples tested per Before Allowable Rerun After Allowable Rerun
+mutation
+Exon Mutations Independent Cell Plasmids Repeats Repeats % Repeats Repeats Final % LB UB
+or Clinical lines due to due to Accuracy due to due to Accuracy of of
+Intron Samples mis- no-calls prior to mis- no-calls (after 95% 95%
+calls repeats calls repeats) CI* CI*
+Ex 3 G85E# 2 0 0 0 0 100 0 0 100 15.81 100
+394delTT 2 0 0 0 0 100 0 0 100 15.81 100
+Ex 4 R117H 36 0 0 0 0 100 0 0 100 90.51 100
+Y122X 1 1 0 0 0 100 0 0 100 15.81 100
+621+1G>T# 6 0 0 0 0 100 0 0 100 54.07 100
+Ex 5 711+1G>T# 3 0 0 0 0 100 0 0 100 29.24 100
+Ex 7 1078delT 3 0 0 0 0 100 0 0 100 29.24 100
+R334W# 3 0 0 0 0 100 0 0 100 29.24 100
+R347Pmut# 6 0 0 0 0 100 0 0 100 54.07 100
+8
+
+[Table 1 on page 8]
+		Number of Samples tested per
+mutation			Before Allowable Rerun									After Allowable Rerun														
+Exon
+or
+Intron	Mutations	Independent
+Clinical
+Samples	Cell
+lines	Plasmids		Repeats		Repeats
+due to
+no-calls				%			Repeats		Repeats
+due to
+no-calls				Final %			LB			UB	
+						due to						Accuracy			due to						Accuracy			of			of	
+						mis-						prior to			mis-						(after			95%			95%	
+						calls						repeats			calls						repeats)			CI*			CI*	
+Ex 3	G85E#	2	0	0		0			0			100			0			0			100			15.81			100	
+	394delTT	2	0	0		0			0			100			0			0			100			15.81			100	
+Ex 4	R117H	36	0	0		0			0			100			0			0			100			90.51			100	
+	Y122X	1	1	0		0			0			100			0			0			100			15.81			100	
+	621+1G>T#	6	0	0		0			0			100			0			0			100			54.07			100	
+Ex 5	711+1G>T#	3	0	0	0	0		0	0		100	100		0	0		0	0		100	100		29.24	29.24		100	100	
+Ex 7	1078delT	3	0	0		0			0			100			0			0			100			29.24			100	
+	R334W#	3	0	0		0			0			100			0			0			100			29.24			100	
+	R347Pmut#	6	0	0		0			0			100			0			0			100			54.07			100	
+
+[Table 2 on page 8]
+Repeats
+due to
+no-calls
+
+[Table 3 on page 8]
+Repeats
+due to
+no-calls
+
+--- Page 9 ---
+Number of Samples tested per Before Allowable Rerun After Allowable Rerun
+mutation
+R347Hmut 3 1 0 0 0 100 0 0 100 39.76 100
+Ex 9 A455E# 3 0 0 0 0 100 0 0 100 29.24 100
+Ex 10 Dl507mt# 9 0 0 0 0 100 0 0 100 66.37 100
+dF508mut# 162 1 0 0 0 100 0 0 100 97.87 100
+V520F 2 0 0 0 0 100 0 0 100 15.81 100
+Ex 11 1717-1G>A# 5 0 0 0 0 100 0 0 100 47.82 100
+G542X# 13 0 0 0 0 100 0 0 100 75.29 100
+S549N 1 1 0 0 0 100 0 0 100 15.81 100
+S549R 2 1 0 0 0 100 0 0 100 47.82 100
+G551D# 12 0 0 0 0 100 0 0 100 73.54 100
+R553X 7 0 0 0 0 100 0 0 100 59.04 100
+A5559T 2 0 0 0 0 100 0 0 100 29.24 100
+R560T# 4 0 0 0 0 100 0 0 100 36.76 100
+Ex12 1898+1G>A# 2 0 0 0 0 100 0 0 100 15.81 100
+1898+5G>T 0 0 2 0 0 100 0 0 100 15.81 100
+Ex13 2183AA>G 2 0 0 0 0 100 0 0 100 15.81 100
+2184delA# 1 0 0 0 0 100 0 0 100 2.50 100
+2307insA 3 0 0 0 0 100 0 0 100 29.24 100
+Ex 2789+5G>A# 5 0 0 0 0 100 0 0 100 47.82 100
+14b
+Ex 16 3120+1G>A 7 0 0 0 0 100 0 0 100 59.04 100
+Ex17b Y1092X- 0 0 2 0 0 100 0 0 100 15.81 100
+C>G
+Y1092X- 2 0 0 0 0 100 0 0 100 15.81 100
+C>A
+M1101K 0 2 0 0 0 100 0 0 100 15.81 100
+Ex 19 R1162X# 5 0 0 0 0 100 0 0 100 47.82 100
+3659delC# 4 0 0 0 0 100 0 0 100 39.76 100
+S1255X(19) 4 0 0 0 0 100 0 0 100 39.76 100
+Intron 3849+10kb# 13 0 0 0 0 100 0 0 100 75.29 100
+19
+Ex 20 S1255X(20) 4 0 0 0 0 100 0 0 100 39.76 100
+3876delA 1 1 0 0 0 100 0 0 100 29.24 100
+3905insT 2 0 0 0 0 100 0 0 100 15.81 100
+W1282X# 8 0 0 0 0 100 0 0 100 63.06 100
+Ex 21 N1303K# 6 0 0 0 0 100 0 0 100 54.07 100
+Ex 10 I506V-var tg 3 0 0 0 0 100 0 0 100 29.24 100
+Ex 10 I506V- 5 0 0 0 0 100 0 0 100 47.82 100
+variant
+I507V- 0 1 0 0 0 100 0 0 100 2.50 100
+variant
+F508C- 5 0 0 0 0 100 0 0 100 47.82 100
+variant
+# member of ACMG-23 panel
+*Clopper-Pearson CI calculator provided by John C. Pezzullo (Kissimmee, Florida, USA) and is available at http://statpages.org/confint.html
+b. Matrix comparison:
+Not applicable. This test is only for use with human whole blood collected using
+EDTA as the anticoagulant.
+3. Clinical studies:
+a. Clinical Sensitivity:
+9
+
+[Table 1 on page 9]
+		Number of Samples tested per
+mutation			Before Allowable Rerun									After Allowable Rerun														
+	R347Hmut	3	1	0		0			0			100			0			0			100			39.76			100	
+Ex 9	A455E#	3	0	0	0	0		0	0		100	100		0	0		0	0		100	100		29.24	29.24		100	100	
+Ex 10	Dl507mt#	9	0	0		0			0			100			0			0			100			66.37			100	
+	dF508mut#	162	1	0		0			0			100			0			0			100			97.87			100	
+	V520F	2	0	0		0			0			100			0			0			100			15.81			100	
+Ex 11	1717-1G>A#	5	0	0		0			0			100			0			0			100			47.82			100	
+	G542X#	13	0	0		0			0			100			0			0			100			75.29			100	
+	S549N	1	1	0		0			0			100			0			0			100			15.81			100	
+	S549R	2	1	0		0			0			100			0			0			100			47.82			100	
+	G551D#	12	0	0		0			0			100			0			0			100			73.54			100	
+	R553X	7	0	0		0			0			100			0			0			100			59.04			100	
+	A5559T	2	0	0		0			0			100			0			0			100			29.24			100	
+	R560T#	4	0	0		0			0			100			0			0			100			36.76			100	
+Ex12	1898+1G>A#	2	0	0		0			0			100			0			0			100			15.81			100	
+	1898+5G>T	0	0	2		0			0			100			0			0			100			15.81			100	
+Ex13	2183AA>G	2	0	0		0			0			100			0			0			100			15.81			100	
+	2184delA#	1	0	0		0			0			100			0			0			100			2.50			100	
+	2307insA	3	0	0		0			0			100			0			0			100			29.24			100	
+Ex
+14b	2789+5G>A#	5	0	0	0	0		0	0		100	100		0	0		0	0		100	100		47.82	47.82		100	100	
+Ex 16	3120+1G>A	7	0	0	0			0			100			0			0			100			59.04			100		
+Ex17b	Y1092X-
+C>G	0	0	2	0			0			100			0			0			100			15.81			100		
+	Y1092X-
+C>A	2	0	0	0			0			100			0			0			100			15.81			100		
+	M1101K	0	2	0		0			0			100			0			0			100			15.81			100	
+Ex 19	R1162X#	5	0	0		0			0			100			0			0			100			47.82			100	
+	3659delC#	4	0	0		0			0			100			0			0			100			39.76			100	
+	S1255X(19)	4	0	0		0			0			100			0			0			100			39.76			100	
+Intron
+19	3849+10kb#	13	0	0	0	0		0	0		100	100		0	0		0	0		100	100		75.29	75.29		100	100	
+Ex 20	S1255X(20)	4	0	0		0			0			100			0			0			100			39.76			100	
+	3876delA	1	1	0		0			0			100			0			0			100			29.24			100	
+	3905insT	2	0	0		0			0			100			0			0			100			15.81			100	
+	W1282X#	8	0	0		0			0			100			0			0			100			63.06			100	
+Ex 21	N1303K#	6	0	0	0	0		0	0		100	100		0	0		0	0		100	100		54.07	54.07		100	100	
+Ex 10	I506V-var tg	3	0	0	0			0			100			0			0			100			29.24			100		
+Ex 10	I506V-
+variant	5	0	0	0			0			100			0			0			100			47.82			100		
+	I507V-
+variant	0	1	0	0			0			100			0			0			100			2.50			100		
+	F508C-
+variant	5	0	0	0			0			100			0			0			100			47.82			100		
+
+--- Page 10 ---
+The clinical sensitivity can be estimated based on the published studies of mutation
+frequencies in various ethnicities and based on the results of analytical studies
+described in this submission.
+b. Clinical specificity:
+The clinical specificity can be estimated based on the published literature and the
+results of analytical studies described in this submission.
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable.
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+Cystic fibrosis (CF) is the most common autosomal recessive disorder in the Caucasian
+population, with an incidence of approximately 1 in 3,200 live births. The incidence of
+CF in other ethnic groups varies, as seen in the following table.
+Ethnic Group Incidence of Cystic Fibrosis
+North American Caucasian 1 in 3200
+Ashkenazi Jewish 1 in 3300
+Hispanic 1 in 9500
+African American 1 in 15 300
+Asian American 1 in 32 100
+Native American (Pueblo) 1 in 3970
+Native American (Zuni) 1 in 1347
+N. Instrument Name:
+Luminex System (100 IS or 200 including ISv2.3 or xPONENT v3.1 software, calibrators,
+and controls)
+O. System Descriptions:
+See k073506 for a description of the Luminex System and base software environment
+Results:
+For each sample analyzed by the CFTR 39 kit v2, an output file containing MFI signals from
+the Luminex Instrument is generated. The proprietary software component of this product
+analyzes this output data file, to provide a final qualitative genotype for the sample. The
+software includes a feature which enables users to select between 2 options for the final
+output:
+Option 1: Full Panel (39 mutations/deletions + 4 variants).
+Option 2: ACMG/ACOG panel (23 mutations and deletions).
+When Option 2 is chosen, the non-ACMG/ACOG recommended panel of mutations/variants
+will not be available to the user.
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this
+line of product types:
+10
+
+[Table 1 on page 10]
+Ethnic Group	Incidence of Cystic Fibrosis
+North American Caucasian	1 in 3200
+Ashkenazi Jewish	1 in 3300
+Hispanic	1 in 9500
+African American	1 in 15 300
+Asian American	1 in 32 100
+Native American (Pueblo)	1 in 3970
+Native American (Zuni)	1 in 1347
+
+--- Page 11 ---
+Yes ____x____ or No ________
+1. Specimen Identification:
+Users must fill in Batch Information by providing a unique batch Name, Description and
+Creator. Users have to enter appropriate patient information, i.e. number of samples, and
+sample IDs.
+2. Specimen Sampling and Handling:
+Genomic DNA preparation, multiplex (16-plex) PCR, amplicon treatment, multiplex
+ASPE, bead hybridization and incubation with reporter are performed semi-manually.
+Subsequently, beads are analyzed by the Luminex 100 xMAP™ system, and data
+®
+generated analyzed by TDAS CFTR Analysis Software CF-I (TDAS CF-I) to provide
+final genotype for the sample. User must pre-select sample view, either “ACMG panel”
+or “Full Panel” for each unique patient sample to be analyzed. The user will not be able
+to unmask any hidden data for samples for which the “ACMG panel” is selected, and
+visa-versa.
+3. Calibration:
+The Luminex system should be prepared and calibrated according to procedures
+described in the Luminex 100 IS 2.3 user Manual or Luminex 200 System user Manual.
+The xTAG Cystic Fibrosis v2 T-A IS template must be installed on the computer that
+controls the Luminex system.
+4. Quality Control:
+Negative Controls:
+At least two DNase, RNase free water controls are required with each run. The wells
+which are negative controls must be designated when analyzing data with the TDAS
+CFTR software.
+Positive Controls:
+It is recommended to routinely include in each run a set of rotating positive controls for
+CFTR mutations probed by the kit. Since the CF dF508 mutation is the most common
+(accounting for 30-88% of all CF mutations depending on ethnic group*) it is
+recommended that a control sample wit this mutation be included in every run. Luminex
+Molecular Diagnostics recommends the use of genomic DNA controls similar to the
+specimen type whenever feasible although spiked controls (using synthetic DNA) may be
+used when specimen samples are not available.
+(*Gibson, Moskowitz et al, 2001)
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+None
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10, labeling for
+in vitro diagnostic products.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+11

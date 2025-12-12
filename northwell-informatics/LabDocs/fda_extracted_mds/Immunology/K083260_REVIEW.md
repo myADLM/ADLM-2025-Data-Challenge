@@ -1,0 +1,186 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k083260   
+B. Purpose for Submission: Modifications to Myoglobin STAT assay • Addition of an assay application – Myoglobin 18 minute assay   
+C. Measurand: Myoglobin   
+D. Type of Test: Quantitative immunoassay   
+E. Applicant: Roche Diagnostics, Inc.   
+F. Proprietary and Established Names: Elecsys Myoglobin Immunossay Elecsys Myoglobin STAT Immunoassay
+
+# G. Regulatory Information:
+
+1. Regulation section:   
+21 CFR 866.5680
+
+2. Classification: Class II
+
+3. Product code: DDR
+
+4. Panel: 82, Immunology
+
+# H. Intended Use:
+
+1. Intended use(s): See Indications for Use
+
+2. Indication(s) for use:
+
+# Elecsys Myoglobin Immunoassay
+
+Immunoassay for the in vitro quantitative determination of myoglobin in human serum and plasma. The Elecsys Myoglobin assay is intended to aid in the rapid diagnosis of heart and renal disease.
+
+The electrochemiluminescence immunoassay "ECLIA" is intended for use on the Elecsys and cobas e immunoassay analyzers.
+
+# Elecsys Myoglobin STAT Immunoassay
+
+Immunoassay for the in vitro quantitative determination of myoglobin in human serum and plasma. The Elecsys Myoglobin STAT assay is intended to aid in the rapid diagnosis of heart and renal disease.
+
+The electrochemiluminescence immunoassay "ECLIA" is intended for use on the Elecsys and cobas e immunoassay analyzers.
+
+3. Special conditions for use statement(s): Prescription use only
+
+4. Special instrument requirements:
+
+# Myoglobin STAT:
+
+Elecsys 2010/cobas e411
+
+# Myoglobin 18 min:
+
+Elecsys 2010/cobas e411
+
+# I. Device Description:
+
+The Elecsys Myoglobin Immunoassay consists of two applications of the same reagents with different incubation times of 18 minutes (Myoglobin assay) and 9 minutes (STAT assay):
+
+Microparticles: Streptavidin-coated microparticles, preservative
+
+Reagent 1: Anti-myoglobin-Ab-biotin consisting of biotinylated monoclonal antimyoglobin antibody (mouse), phosphate buffer and sodium azide
+
+Reagent 2: Anti-myoglobin-Ab-Ru consisting of monoclonal anti-myoglobin antibody (mouse) labeled with ruthenium complex, phosphate buffer and sodium azide
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Roche Diagnostics Elecsys Myoglobin STAT
+
+2. Predicate 510(k) number(s): k983176
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Assay protocol</td><td rowspan=1 colspan=1>Electrochemiluminescenceimmunoassay</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Specimen type</td><td rowspan=1 colspan=1>Serum and plasma</td><td rowspan=1 colspan=1>same</td></tr><tr><td rowspan=1 colspan=1>Indications for use</td><td rowspan=1 colspan=1>Immunoassay for the invitro quantitativedetermination ofmyoglobin in human serumand plasma. The ElecsysMyoglobin assay isintended to aid in the rapiddiagnosis of heart and renaldisease.</td><td rowspan=1 colspan=1>For the in vitroquantitative determinationof myoglobin in humanserum and plasma. Theelectrochemiluminescenceimmunoassay is intendedto aid in the rapiddiagnosis of heart andrenal disease.</td></tr><tr><td rowspan=1 colspan=1>Antibody</td><td rowspan=1 colspan=1>Mono-biotinylated</td><td rowspan=1 colspan=1>Multi-biotinylated</td></tr></table>
+
+<table><tr><td colspan="3" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Measuring range</td><td colspan="1" rowspan="1">21-3000 ng/mL</td><td colspan="1" rowspan="1">15 -3000 ng/mL</td></tr><tr><td colspan="1" rowspan="1">Traceability</td><td colspan="1" rowspan="1">Standardized against theElecsys Myoglobin</td><td colspan="1" rowspan="1">Calibrated against Tina-quant Myoglobin which</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">STAT assay. TheMyoglobin STAT assayhas been standardizedagainst an in-housepreparation.</td><td colspan="1" rowspan="1">was calibrated against anephelometric method</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+CLSI EP17 -- Protocols for Determination of Limits of Detection and Limits of Quantitation; Approved Guideline
+
+CLSI EP5-A2 Evaluation of Precision Performance of Clinical Chemistry Devices; Approved Guideline
+
+# L. Test Principle:
+
+The Elecsys Myoglobin Immunoassay includes two applications of the same reagents, the 18 minute Myoglobin assay and 9 minute Myoglobin STAT assay. The assay is a twostep sandwich immunoassay, using two different monoclonal antibodies directed against human myoglobin with streptavidin microparticles and electrochemiluminescence detection. Results are determined via a calibration curve which is instrument-specifically generated by a 2-point calibration and a master curve provided via the reagent barcode.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+# a. Precision/Reproducibility:
+
+Precision for the Elecsys Myoglobin (18 minute) assay was evaluated on the Elecsys 2010 analyzer. The protocol consisted of testing each control $( { \mathrm { P C C } } =$ PreciControl Cardiac 1 & 2) and human serum samples (HS) at 3 levels, high medium and low. Testing included 6 replicates each day for 10 days. Both total and within run precision were calculated according to CLSI EP5-A2.
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>Within-run precision</td><td rowspan=1 colspan=2>Total precision</td></tr><tr><td rowspan=1 colspan=1>Sample</td><td rowspan=1 colspan=1>Mean Conc.(ng/mL)</td><td rowspan=1 colspan=1>n</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>CV%</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>CV%</td></tr><tr><td rowspan=1 colspan=1>PCC 1</td><td rowspan=1 colspan=1>87</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>0.85</td><td rowspan=1 colspan=1>0.98</td><td rowspan=1 colspan=1>1.30</td><td rowspan=1 colspan=1>1.49</td></tr><tr><td rowspan=1 colspan=1>PCC 2</td><td rowspan=1 colspan=1>1194</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>13.37</td><td rowspan=1 colspan=1>1.12</td><td rowspan=1 colspan=1>20.93</td><td rowspan=1 colspan=1>1.75</td></tr><tr><td rowspan=1 colspan=1>HS low</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>0.64</td><td rowspan=1 colspan=1>1.99</td><td rowspan=1 colspan=1>0.72</td><td rowspan=1 colspan=1>2.26</td></tr><tr><td rowspan=1 colspan=1>HS mid</td><td rowspan=1 colspan=1>1020</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>17.84</td><td rowspan=1 colspan=1>1.75</td><td rowspan=1 colspan=1>25.33</td><td rowspan=1 colspan=1>2.48</td></tr><tr><td rowspan=1 colspan=1>HS high</td><td rowspan=1 colspan=1>2474</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>44.89</td><td rowspan=1 colspan=1>1.82</td><td rowspan=1 colspan=1>53.71</td><td rowspan=1 colspan=1>2.17</td></tr></table>
+
+Precision for the Elecsys Myoglobin STAT assay was evaluated on the Elecsys 2010 analyzer. The protocol consisted of testing each control $( { \mathrm { P C C } } =$ PreciControl Cardiac 1 & 2) and human serum samples (HS) at 3 levels, high medium and low. Testing included 6 replicates each day for 10 days. Both total and within run precision were calculated according to CLSI EP5-A2.
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>Within-run precision</td><td rowspan=1 colspan=2>Total precision</td></tr><tr><td rowspan=1 colspan=1>Sample</td><td rowspan=1 colspan=1>Mean Conc. (ng/mL)</td><td rowspan=1 colspan=1>n</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>CV%</td><td rowspan=1 colspan=1>SD</td><td rowspan=1 colspan=1>CV%</td></tr><tr><td rowspan=1 colspan=1>PCC 1</td><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>1.04</td><td rowspan=1 colspan=1>1.15</td><td rowspan=1 colspan=1>1.16</td><td rowspan=1 colspan=1>1.29</td></tr><tr><td rowspan=1 colspan=1>PCC 2</td><td rowspan=1 colspan=1>1171</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>12.88</td><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>15.01</td><td rowspan=1 colspan=1>1.28</td></tr><tr><td rowspan=1 colspan=1>HS low</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>0.57</td><td rowspan=1 colspan=1>1.68</td><td rowspan=1 colspan=1>0.72</td><td rowspan=1 colspan=1>2.12</td></tr><tr><td rowspan=1 colspan=1>HS mid</td><td rowspan=1 colspan=1>1016</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>17.74</td><td rowspan=1 colspan=1>1.75</td><td rowspan=1 colspan=1>22.31</td><td rowspan=1 colspan=1>2.2</td></tr><tr><td rowspan=1 colspan=1>HS high</td><td rowspan=1 colspan=1>2468</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>54.61</td><td rowspan=1 colspan=1>2.21</td><td rowspan=1 colspan=1>63.63</td><td rowspan=1 colspan=1>2.58</td></tr></table>
+
+# b. Linearity/assay reportable range:
+
+The linearity of the Elecsys Myoglobin assay (18 minute) was evaluated on the Elecsys 2010 analyzer by diluting 3 serum pool samples with various levels of diluent to obtain 11 levels for each sample. The samples had values ranging from $1 4 . 9 \mathrm { n g / m L }$ to $3 3 5 6 ~ \mathrm { n g / m L }$ . The $\%$ recovery for all samples ranged from 96.9 to $10 8 \%$ .
+
+The linearity of the Elecsys Myoglobin STAT assay was evaluated on the Elecsys 2010 analyzer by diluting 4 serum pool samples with various levels of diluent to obtain 11 levels for each sample. The samples had values ranging from 12.1 $\mathrm { { n g / m L } }$ to $3 0 6 2 ~ \mathrm { { n g / m L } }$ . The $\%$ recovery for all samples ranged from 96 to $10 5 \%$ .
+
+The studies support the measuring range of the assay of $2 1 - 3 0 0 0 ~ \mathrm { n g / m L }$ c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+The Myoglobin STAT assayed has been standardized against an in-house reference preparation. The Myoglobin 18 minute assay has been standardized against the Myoglobin STAT assay.
+
+# d. Detection limit:
+
+# Myoglobin 18 minute assay
+
+LoB was determined for the Myoglobin assay (18 minute) on the Elecsys 2010 analyzer according to CLSI EP 17-A. Five analyte free human serum samples were measured on 2 Elecsys 2010 analyzers in 6 runs per instrument. In total 60 measuring points were collected. The LoB was determined to be $1 7 . 9 3 7 ~ \mathrm { n g / m L }$ . The LoB claim in the labeling is $1 8 . 0 \mathrm { n g / m L }$ .
+
+The protocol for LoD determination consisted of testing 5 human serum samples with low analyte concentration on 2 Elecsys 2010 analyzers in 6 runs per instrument. The LoD determination was based on the LoB and the standard deviation of the low concentration samples. The total standard deviation was 1.54. The LoD was determined to be $1 9 . 9 8 ~ \mathrm { n g / m L }$ . The LoD claim in the package insert is $2 1 ~ \mathrm { n g / m L }$ .
+
+The LoQ was determined as the lowest amount of analyte that can be measured with $\leq 2 0 \%$ CV. Testing was performed on 8 human serum samples and 2 control levels with serum samples ranging from 8.9 to $6 3 . 3 ~ \mathrm { { n g / m L } }$ and control levels of 85.3 and $1 1 2 7 \mathrm { n g / m L }$ . Two runs per day for 5 days were performed. The highest $\% \mathrm { C V }$ obtained was $1 3 \%$ at a concentration of $8 . 9 \mathrm { n g / m L }$ . The LoQ claim in the labeling is $2 5 ~ \mathrm { n g / m L }$ .
+
+# Myoglobin STAT assay
+
+LoB was determined for the Myoglobin STAT assay on the Elecsys 2010 analyzer according to CLSI EP 17-A. Five analyte free human serum samples were measured on 2 Elecsys 2010 analyzers in 3 runs per instrument. In total 60 measuring points were collected. The samples were measured as a two-fold determination in each run.The LoB was determined to be $1 7 . 2 4 ~ \mathrm { n g / m L }$ . The LoB claim in the labeling is $1 8 . 0 \ \mathrm { n g / m L }$ .
+
+The protocol for LoD determination consisted of testing 5 human serum samples with low analyte concentration on 2 Elecsys 2010 analyzers in 3 runs per instrument. The samples were measured as a two-fold determination in each run. The LoD determination was based on the LoB and the standard deviation of the low concentration samples. The total standard deviation was 1.54. The LoD was determined to be $1 9 . 7 8 ~ \mathrm { n g / m L }$ . The LoD claim in the package insert is $2 1 ~ \mathrm { n g / m L }$ .
+
+The LoQ was determined as the lowest amount of analyte that can be measured with $\leq 2 0 \%$ CV. Testing was performed on 9 human serum samples and 2 control levels with samples ranging from 24.4 to $1 2 5 1 . 5 ~ \mathrm { n g / m L }$ . Two runs per day for 5 days were performed. The highest $\%$ CV obtained was $4 . 4 \%$ at a concentration of $2 4 . 4 ~ \mathrm { { n g / m L } }$ . The LoQ claim in the labeling is $2 5 ~ \mathrm { n g / m L }$ .
+
+The Myoglobin assay has a measuring range of $2 1 { - } 3 0 0 0 ~ \mathrm { n g / m L }$ .
+
+e. Analytical specificity:
+
+Cross-reactivity and endogenous interference studies:
+
+The sponsor’s definition of non-interference is recovery within $\pm 1 0 \%$ compared to reference without any interfering substance.
+
+50 total pharmaceutical compounds were examined for potential interference with the Myoglobin assay. No interference with the assay was found.
+
+Samples of different myoglobin concentrations were analyzed for each endogenous interferent using the Elecsys Myoglobin STAT assay on the Elecsys 2010 analyzer.
+
+Hemolysis: To investigate the influence of hemoglobin, 4 samples with myoglobin values of 71, 117, 165 and $2 6 0 0 ~ \mathrm { { n g / m L } }$ were spiked with hemoglobin and compared to an unaltered aliquot of the sample. No interference was found up to $1 . 4 \ : \mathrm { g / d L }$ hemoglobin.
+
+Lipemia: To investigate the influence of lipemia, 3 samples with myoglobin values of 113, 530, $2 1 7 6 \mathrm { { n g / m L } }$ were spiked with intralipid and compared to an unaltered aliquot of the sample. No interference was found up to $2 2 0 0 \mathrm { m g / d L }$ intralipid.
+
+Bilirubin: To investigate the influence of bilirubin, 4 samples with myoglobin values of 73, 182, 198 and $2 7 0 0 ~ \mathrm { { n g / m L } }$ were spiked with bilirubin and compared to an unaltered aliquot of the sample. No interference was found up to $6 5 \mathrm { m g / d L }$ bilirubin.
+
+Biotin: To investigate the influence of biotin, 3 samples with myoglobin values of 41, 294 and $2 3 0 0 ~ \mathrm { { n g / m L } }$ were spiked with biotin and compared to an unaltered aliquot of the sample. No interference was found up to $5 0 \mathrm { n g / d L }$ biotin.
+
+No high dose hook effect was found at myoglobin concentrations up to 30,000 $\mathrm { { n g / m L } }$ .
+
+f. Assay cut-off:
+
+See expected values in (5) below
+
+# a. Method comparison with predicate device:
+
+A method comparison study was performed comparing the values obtained with the ELECSYS Myoglobin STAT assay with the predicate Elecsys Myoglobin STAT assay (k983176) on the Elecsys 2010 analyzer. 139 samples were tested in singlicate with myoglobin values ranging from 23 to $2 5 2 3 ~ \mathrm { n g / m L }$ . The results were calculated using Passing-Bablock regression. The resulting regression equation was $\mathrm { y } = 1 . 0 4 4 - 2 . 0 7 6 \mathrm { x }$ , ${ \mathrm { r } = 0 . 9 8 7 5 }$ .
+
+A method comparison study was performed comparing the values obtained with the ELECSYS Myoglobin 18 minute assay with the Elecsys Myoglobin STAT assay on the Elecsys 2010 analyzer. 129 samples were tested in singlicate with myoglobin values ranging from 24 to $2 9 4 5 ~ \mathrm { n g / m L }$ . The results were calculated using Passing-Bablock regression. The resulting regression equation was $\mathrm { y } =$ $1 . 0 3 1 + 6 . 3 \mathrm { x }$ , $\mathrm { r } = 0 . 9 8 6 9$ .
+
+# b. Matrix comparison:
+
+In order to demonstrate equivalence of myoglobin results among serum, NH4 heparin plasma, K-3 EDTA plasma, lithium heparin plasma, sodium citrate plasma and Na-heparin plasma sample pairs were evaluated across the measuring range. Both native and spiked samples were included in the studies. Results of the plasmas versus serum were analyzed by Passing-Bablock regression. Results are summarized in the table below:
+
+<table><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>Serum vs.NH-4heparin</td><td rowspan=1 colspan=1>Serum</td><td rowspan=1 colspan=1>Serum</td><td rowspan=2 colspan=1>SerumVS.Sodiumcitrate</td><td rowspan=2 colspan=1>Serumvs. Na-heparin</td></tr><tr><td rowspan=1 colspan=1>vs. K3-EDTA</td><td rowspan=1 colspan=1>vs. Li-heparin</td></tr><tr><td rowspan=1 colspan=1>n</td><td rowspan=1 colspan=1>35</td><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>48</td></tr><tr><td rowspan=1 colspan=1>samplerange(ng/mL)</td><td rowspan=1 colspan=1>24 - 2986</td><td rowspan=1 colspan=1>21 -2646</td><td rowspan=1 colspan=1>22 -2646</td><td rowspan=1 colspan=1>24 -2754</td><td rowspan=1 colspan=1>25 -2668</td></tr><tr><td rowspan=1 colspan=1>slope</td><td rowspan=1 colspan=1>0.997</td><td rowspan=1 colspan=1>0.9155</td><td rowspan=1 colspan=1>1.067</td><td rowspan=1 colspan=1>1.00</td><td rowspan=1 colspan=1>1.01</td></tr><tr><td rowspan=1 colspan=1>intercept</td><td rowspan=1 colspan=1>+ 0.23</td><td rowspan=1 colspan=1>1.42</td><td rowspan=1 colspan=1>- 4.05</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>- 0.288</td></tr><tr><td rowspan=1 colspan=1>r</td><td rowspan=1 colspan=1>0.9773</td><td rowspan=1 colspan=1>0.9876</td><td rowspan=1 colspan=1>0.9835</td><td rowspan=1 colspan=1>0.9923</td><td rowspan=1 colspan=1>0.9995</td></tr></table>
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range:
+
+Expected values for the Elecsys Myoglobin Test System were defined based upon two reference range multicenter studies conducted in 1999. Testing took place in 10 countries using self-reported healthy individuals, blood donors, ambulatory patients and hospital workers. Results were obtained from the Elecsys 1010 and the 2010 immunoassay analyzers using the Myoglobin STAT reagent. This information is transferable between the Elecsys Myoglobin $1 8 \mathrm { m i n }$ . assay and STAT applications. Both the $1 8 \mathrm { m i n }$ and the STAT versions of the product are the exact same formulation. The difference is that one assay utilizes a 9 minute incubation time and the other an 18 minute incubation time. The method comparisons demonstrate acceptable correlation.
+
+Expected values were determined to be:
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Number</td><td rowspan=1 colspan=1>2.5 - 97.5 %</td></tr><tr><td rowspan=1 colspan=1>Men</td><td rowspan=1 colspan=1>1030</td><td rowspan=1 colspan=1>28-72 ng/mL</td></tr><tr><td rowspan=1 colspan=1>Women</td><td rowspan=1 colspan=1>1132</td><td rowspan=1 colspan=1>25-58 ng/mL</td></tr></table>
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

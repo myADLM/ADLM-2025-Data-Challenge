@@ -1,0 +1,190 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+To obtain a substantial equivalence determination for the Amplivue® GAS Assay.
+
+# C. Measurand:
+
+Group A $\beta$ -hemolytic Streptococcus (GAS; Streptococcus pyogenes) nucleic acids.
+
+# D. Type of Test:
+
+The Amplivue® GAS Assay is a helicase-dependent amplification in vitro diagnostic test for the qualitative detection and differentiation of GAS nucleic acids isolated from throat swab specimens obtained from symptomatic patients.
+
+E. Applicant: Quidel Corporation   
+F. Proprietary and Established Names: Amplivue® GAS Assay
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR 866.2680 - Streptococcus spp. Nucleic Acid-Based Assay
+
+2. Classification: Class II
+
+3. Product code: PGX – Groups A, C and G Beta-Hemolytic Streptococcus Nucleic Acid Amplification System
+
+4. Panel: 83- Microbiology
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+The AmpliVue® GAS Assay is an in vitro diagnostic test for the qualitative detection of Group A $\beta$ - hemolytic Streptococcus (Streptococcus pyogenes) nucleic acids isolated from throat swab specimens obtained from patients with signs and symptoms of pharyngitis, such as sore throat.
+
+The AmpliVue® GAS Assay is intended for use in hospital, reference or state laboratory settings. The device is not intended for point-of-care use.
+
+2. Indication(s) for use: Same as intended use.
+
+3. Special conditions for use statement(s): For prescription use only. The device is not intended for point-of-care use.
+
+4. Special instrument requirements: Heat blocks capable of $9 5 ^ { \circ } \mathrm { C } \pm 2 ^ { \circ } \mathrm { C }$ and $6 4 ^ { \circ } \mathrm { C } \pm 2 ^ { \circ } \mathrm { C }$ .
+
+# I. Device Description:
+
+The AmpliVue® GAS Assay combines simple sample processing, an isothermal amplification technology named helicase-dependent amplification (HDA), and a self-contained disposable amplicon detection device, for the detection of GAS from throat swab specimens obtained from patients with signs and symptoms of pharyngitis, such as sore throat.
+
+Patient specimen on a throat swab is transferred to a Lysis Tube and subjected to heat treatment at $9 5 \mathrm { { ^ \circ C } }$ for 10 minutes. The heat-treated sample is diluted 10-fold in a Dilution   
+Tube, and then transferred to a Reaction Tube. The reaction tube contains a lyophilized mix of HDA reagents including primers specific for the amplification of the DNase B (sdaB) gene sequence. The assay also includes a process control that monitors sample processing, confirms the integrity of the assay reagents and cassette detection, and assays for HDA inhibitors that may be present within a specimen. After completion of the HDA reaction, the reaction tube is transferred to a cassette for detection with the test result displayed as test and/or control lines in the window of the cassette.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Lyra™ Direct Strep (k133883)
+
+2. Predicate 510(k) number(s): k133883
+
+# 3. Comparison with predicate:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Amplivue® GAS Assay(k141173)</td><td colspan="1" rowspan="1">LyraTM Direct Strep Assay(k133883)</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">The AmpliVue® GAS Assay isan in vitro diagnostic test for thequalitative detection of Group Aβ-hemolytic Streptococcus(Streptococcus pyogenes)nucleic acids isolated fromthroat swab specimens obtainedfrom patients with signs andsymptoms of pharyngitis, suchas sore throat.The AmpliVue® GAS Assay isintended for use in hospital,reference or state laboratorysettings. The device is notintended for point-of-care use.</td><td colspan="1" rowspan="1">The Lyra Direct Strep Assay isa Real-Time PCR in vitrodiagnostic test for thequalitative detection anddifferentiation of Group A β-hemolytic Streptococcus(Streptococcus pyogenes) andpyogenic Group C and G β-hemolytic Streptococcusnucleic acids isolated fromthroat swab specimensobtained from patients withsigns and symptoms ofpharyngitis, such as sore throat.The assay does notdifferentiate between pyogenicGroups C and G β-hemolyticStreptococcus.All negative test results shouldbe confirmed by bacterialculture, because negativeresults do not preclude GroupA, C or G Strep infection andshould not be used as the solebasis for treatment.The assay is intended for use inhospital, reference, or statelaboratory settings. The deviceis not intended for point-of-careuse.</td></tr><tr><td colspan="1" rowspan="1">Sample Type</td><td colspan="1" rowspan="1">Throat swab</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Heat LysisExtraction</td><td colspan="1" rowspan="1">Manual</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Testing Time</td><td colspan="1" rowspan="1">55 - 70 minutes</td><td colspan="1" rowspan="1">60 - 70 minutes</td></tr><tr><td colspan="3" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Amplivue® GAS Assay(k141173)</td><td colspan="1" rowspan="1">LyraTM Direct Strep Assay(k133883)</td></tr><tr><td colspan="1" rowspan="1">Target SequenceDetected</td><td colspan="1" rowspan="1">78 bp sequence S. pyogenesgenome, resident in the DNaseB (sdaB) gene</td><td colspan="1" rowspan="1">GAS* - 99bp product in theputative competence (comX1.1)genePyo GCS/GGS* - 188bp productin the tagatose-6-phosphatekinase (lacC) gene</td></tr><tr><td colspan="1" rowspan="1">DNA AmplificationTechnology</td><td colspan="1" rowspan="1">Helicase-dependentamplification (HDA); self-contained</td><td colspan="1" rowspan="1">Real-time polymerase chainreaction</td></tr><tr><td colspan="1" rowspan="1">DetectionTechniques</td><td colspan="1" rowspan="1">Manual; visually read after abiotinylated and 6-carboxyfluorescein (6-FAM)labeled amplicon is captured byanti-6-FAM on animmunoreactive strip andstreptavidin-conjugated redparticles attach to the capturedamplicon.</td><td colspan="1" rowspan="1">Automatically detectsfluorescence after dissociationof fluorophore from quencherduring amplification</td></tr><tr><td colspan="1" rowspan="1">Reagents/Components</td><td colspan="1" rowspan="1">Dry heating blocks, DilutionBuffer, Lysis Buffer, ReactionTubes, Amplicon Cartridges</td><td colspan="1" rowspan="1">LyraTM Direct Strep MasterMix, Process Buffer, andRehydration SolutionABI 7500 Fast Dx 96-wellPCR Plate, optical plate filmsand plate centrifugeDry heating block</td></tr><tr><td colspan="1" rowspan="1">Instrument</td><td colspan="1" rowspan="1">None</td><td colspan="1" rowspan="1">ABI 7500 Fast DXThermocycler</td></tr><tr><td colspan="1" rowspan="1">PerformanceCharacteristics</td><td colspan="1" rowspan="1">Sensitivity:98.4%[95% CI: 95.5% - 99.5%]Specificity:95.0%[95% CI: 93.5% - 96.2%]</td><td colspan="1" rowspan="1">GAS* Sensitivity:96.5%[95% CI: 91.3% - 98.6%]GAS* Specificity:98.0%[95% CI: 97.0% - 98.6%]Pyo GCS/GGS* Sensitivity:95.7%[95% CI: 88.1% - 98.5%]Pyo GCS/GGS* Specificity:98.3%[95% CI: 97.4% - 98.9%]</td></tr></table>
+
+\*GAS = Group A Streptococcus; Pyo GCS/GGS $=$ Pyogenic Group C/G Streptococcus
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Not applicable.
+
+# L. Test Principle:
+
+The AmpliVue® GAS Assay detects GAS DNA isolated from throat swab specimens obtained from symptomatic patients. The assay consists of three major steps: 1) specimen preparation, 2) isothermal Helicase-Dependent Amplification (HDA) of a target sequence specific to GAS, and 3) detection of the amplified DNA by target-specific hybridization probes via a colorimetric reaction on a lateral-flow strip which is embedded in a self-contained disposable cassette to prevent amplicon contamination.
+
+Patient specimen on a throat swab is transferred to a Lysis Tube and subjected to heat treatment at $9 5 ^ { \circ } \mathrm { C }$ for 10 minutes. The heat-treated sample is diluted 10-fold in a Dilution   
+Tube, and then transferred to a Reaction Tube. A HDA reaction is carried out in the Reaction Tube which contains lyophilized HDA reagents, dNTPs, primers and probes. Incubation at $6 4 \mathrm { { } ^ { \circ } C }$ for 35 minutes results in isothermal amplification of the target sequence by GAS specific primers. The amplified DNA is detected by a set of specific detection probes included in the Reaction Tube: GAS target hybridizes to two specific probes labeled with biotin-triethylene glycol (Bio-TEG) and 6-carboxyfluorescein (6-FAM). A competitive process control (PRC) is included in the Lysis Tube to monitor specimen processing and inhibitory substances in clinical samples, reagent hybridizes to the PRC specific probes labeled with Bio-TEG and 2,4- dinitrophenyl (DNP-TEG).
+
+Detection of the amplified DNA with specific probes is achieved by AmpliVue cassettes. The AmpliVue cassettes carry lateral-flow DNA detection strips with of with an internal control stripe of anti-DNP antibodies (C-line) and a test stripe anti-FAM antibodies (T2-line). GAS amplicon with Bio-TEG and 6-FAM-labeled probes is captured by anti-FAM antibodies at the T2-line, while the internal control amplicon with Bio-TEG and DNP-labeled probes is captured by anti-DNP antibodies at the C-line. The biotin in the amplicon-probe complexes captures the streptavidin-conjugated color particles for visualization and the test result is shown as colored lines that are visually read.
+
+A positive result for GAS (detection of GAS DNA) is reported when the T2-line is visible through the detection window of the cassette. A negative result (no detection of GAS DNA) is reported when only the C-line is displayed. The assay result is regarded as invalid when the T2-line and C-line are not present and the assay should be repeated. The total time to run this assay is 55-70 minutes.
+
+# M. Performance Characteristics (if/when applicable):
+
+# 1. Analytical performance:
+
+# a. Precision/Reproducibility:
+
+Precision studies for the AmpliVue® GAS Assay were conducted by two (2) operators three times (3x) per day for twelve (12) days with a panel of four (4) simulated samples that include moderate positive $( 3 \mathrm { ~ x ~ L o D } )$ and low positive (LoD), high negative $( 0 . 3 \mathrm { ~ x ~ L o D } )$ and negative GAS. The study results are acceptable. The results are shown in the Table I below.
+
+<table><tr><td rowspan=1 colspan=8>Table I: Precision</td></tr><tr><td rowspan=2 colspan=2>Panel ID</td><td rowspan=1 colspan=2>Operator 1</td><td rowspan=1 colspan=2>Operator 2</td><td rowspan=1 colspan=2>Combined</td></tr><tr><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td></tr><tr><td rowspan=4 colspan=1>GroupA Strep</td><td rowspan=1 colspan=1>High Neg</td><td rowspan=1 colspan=1>20/36</td><td rowspan=1 colspan=1>55.6%</td><td rowspan=1 colspan=1>18/36</td><td rowspan=1 colspan=1>50.0%</td><td rowspan=1 colspan=1>38/72</td><td rowspan=1 colspan=1>52.8%</td></tr><tr><td rowspan=1 colspan=1>Low Pos</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>72/72</td><td rowspan=1 colspan=1>100%</td></tr><tr><td rowspan=1 colspan=1>Mod Pos</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>72/72</td><td rowspan=1 colspan=1>100%</td></tr><tr><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>0/36</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0/36</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0/72</td><td rowspan=1 colspan=1>0%</td></tr></table>
+
+The reproducibility of the AmpliVue® GAS Assay was evaluated at three (3) laboratory sites (two external, one in-house). Reproducibility was assessed using a panel of four (4) simulated samples that include moderate positive and low positive, high negative and negative GAS. The panels and controls were processed and tested on the AmpliVue® GAS Assay at each site by 2 operators for 5 non-consecutive days (2 operators $_ { \textrm { X 3 } }$ replicates x 5 days x 3 sites $= 9 0$ results per concentration). The LoD values were based on the values obtained in the LoD study. The reproducibility study results are acceptable. The results are shown in the Table II below.
+
+<table><tr><td rowspan=1 colspan=10>Table II: Reproducibility</td></tr><tr><td rowspan=2 colspan=2>Panel ID</td><td rowspan=1 colspan=2>Site 1</td><td rowspan=1 colspan=2>Site 2</td><td rowspan=1 colspan=2>Site 3</td><td rowspan=1 colspan=2>Combined</td></tr><tr><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td></tr><tr><td rowspan=4 colspan=1>GroupAStrep</td><td rowspan=1 colspan=1>High Neg</td><td rowspan=1 colspan=1>18/30</td><td rowspan=1 colspan=1>60%</td><td rowspan=1 colspan=1>19/30</td><td rowspan=1 colspan=1>63.3%</td><td rowspan=1 colspan=1>13/30</td><td rowspan=1 colspan=1>43.3%</td><td rowspan=1 colspan=1>50/90</td><td rowspan=1 colspan=1>55.6%</td></tr><tr><td rowspan=1 colspan=1>Low Pos</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>90/90</td><td rowspan=1 colspan=1>100%</td></tr><tr><td rowspan=1 colspan=1>Mod Pos</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>90/90</td><td rowspan=1 colspan=1>100%</td></tr><tr><td rowspan=1 colspan=1>Neg</td><td rowspan=1 colspan=1>0/30</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0/30</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0/30</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>0/90</td><td rowspan=1 colspan=1>0%</td></tr></table>
+
+These study results are acceptable.
+
+b. Linearity/assay reportable range: Not applicable.   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+AmpliVue® GAS Assay incorporates a process control in the lysis buffer tube that is used to monitor sample processing and evaluate the presence of inhibitory substances and to confirm the integrity of assay reagents and cassette detection. The Quidel Molecular $\mathbf { A } + \mathbf { G }$ Streptococci Control Set #M111, which contains positive and negative controls, serves as an external processing and extraction controls for the AmpliVue® GAS Assay and were run each day of testing.
+
+Studies were performed to determine the stability of specimens collected using the following routinely used swab systems: flocked nylon, rayon and polyester swabs in Amies media, and rayon and polyester swabs in Stuart media, and rayon swabs in Amies gel. Contrived negative matrix was spiked with fresh GAS (ATCC 12344) at $1 \mathrm { \Delta x }$ LoD was used to inoculate the swabs listed above. The spiked samples were tested with the AmpliVue® GAS Assay. Triplicate testing for each condition with each collection/transport system listed above demonstrated that specimens can be stored at $2 5 ^ { \circ } \mathrm { C } \pm 2 ^ { \circ } \mathrm { C }$ for 2 days and then at 2 to $8 \mathrm { { } ^ { \circ } C }$ for up to 8 more days before testing or at $\mathrm { \underline { { < } } } { } \mathrm { 1 } 5 ^ { \mathrm { \mathrm { \mathrm { \mathrm { \mathrm { \mathrm { \mathrm { \mathrm { \small ~ c } } } } } } } } }$ or $\leq -$ $7 0 \mathrm { { ^ \circ C } }$ for up to 32 days before testing.
+
+These study results are acceptable.
+
+# d. Detection limit:
+
+The limit of detection (LoD) of the AmpliVue® GAS Assay was determined using quantified (CFU/mL) contrived stocks of two strains of group A streptococci serially diluted in a negative matrix (see table below). For each strain, 20 replicates were tested for each of three (3) dilutions. The LoD is defined as the lowest concentration at which at least $9 5 \%$ of all replicates tested positive. The LoD study results are shown in Table III below.
+
+<table><tr><td rowspan=1 colspan=3>Table III: LoD for Group A β-hemolytic Streptococcus</td></tr><tr><td rowspan=1 colspan=1>Strain</td><td rowspan=1 colspan=1>Strain ID</td><td rowspan=1 colspan=1>CFU/ml</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 1(Streptococcus pyogenes)</td><td rowspan=1 colspan=1>ATCC 19615</td><td rowspan=1 colspan=1>1.9 x 104</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 2(Streptococcus pyogenes)</td><td rowspan=1 colspan=1>ATCC 12344</td><td rowspan=1 colspan=1>2.74 x 104</td></tr></table>
+
+These study results are acceptable.
+
+# e. Analytical Sensitivity:
+
+Inclusivity studies were conducted with seven Group A $\beta$ -hemolytic Streptococcus strains with 7 strains (in addition to the two from the LoD studies above) against 3 different reagent lots. The strains were cultured, serial diluted in contrived negative matrix and titered to determine the $\mathrm { C F U / m l }$ . A rayon swab was twirled in the stock and run with the $\mathrm { A m p l i V u e } ^ { \textregistered }$ GAS Assay. The inclusivity study results and the final organism concentrations tested are shown in Table IV below.
+
+<table><tr><td rowspan=1 colspan=5>Table IV: Group A β-hemolytic Streptococcus Inclusivity</td></tr><tr><td rowspan=1 colspan=1>Strain</td><td rowspan=1 colspan=1>Strain ID</td><td rowspan=1 colspan=2>CFU/ml</td><td rowspan=1 colspan=1>Detected</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 3</td><td rowspan=1 colspan=1>ATCC 12384</td><td rowspan=1 colspan=2>2.74 x 104</td><td rowspan=1 colspan=1>Yes</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 4</td><td rowspan=1 colspan=1>ATCC 49399</td><td rowspan=1 colspan=2>2.74 x 104</td><td rowspan=1 colspan=1>Yes</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 5</td><td rowspan=1 colspan=1>NCIMB 13285</td><td rowspan=1 colspan=2>2.74 x 104</td><td rowspan=1 colspan=1>Yes</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 6</td><td rowspan=1 colspan=1>CCUG 33061</td><td rowspan=1 colspan=2>2.74 x 104</td><td rowspan=1 colspan=1>Yes</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 7</td><td rowspan=1 colspan=1>CCUG 33409</td><td rowspan=1 colspan=2>2.74 x 104</td><td rowspan=1 colspan=1>Yes</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 8</td><td rowspan=1 colspan=1>CCUG 39158</td><td rowspan=1 colspan=1>2.74 x 104</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Yes</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 9</td><td rowspan=1 colspan=1>CCUG 53553</td><td rowspan=1 colspan=2>2.74 x 104</td><td rowspan=1 colspan=1>Yes</td></tr></table>
+
+These study results are acceptable.
+
+# f. Analytical specificity:
+
+An in silico BLAST analysis of primers used in the AmpliVue® GAS Assay against the NCBI database against sixty-one (61) potential interfering organisms did not show evidence of crossreactivity.
+
+A study was performed to evaluate the performance of the AmpliVue® GAS Assay in the presence of forty-seven (47) other microorganisms commonly found in throat specimens. Each potentially interfering microorganism was tested in triplicate in the presence of $2 \textbf { x }$ LoD Group A Streptococcus (2 strains) in the presence of clinically relevant levels of viruses $( 1 0 ^ { 5 } \mathrm { p f u / m l } )$ and bacteria $( \mathrm { 1 0 ^ { 6 } c f u / m L } )$ or higher. All strain combinations were spiked into contrived negative matrix. The strains included in the cross-reactivity study are shown in Table V below.
+
+<table><tr><td rowspan=1 colspan=3>Table V: Strains Included in Cross-Reactivity</td></tr><tr><td rowspan=1 colspan=3>Strain</td></tr><tr><td rowspan=1 colspan=1>Acinetobacter lwoffii</td><td rowspan=1 colspan=1>Moraxella catarrhalis</td><td rowspan=1 colspan=1>Streptococcus mutans</td></tr><tr><td rowspan=1 colspan=1>Arcanobacterium haemolyticum</td><td rowspan=1 colspan=1>Neisseria gonorrhoeae</td><td rowspan=1 colspan=1>Streptococcus mitis</td></tr><tr><td rowspan=1 colspan=1>Bacillus cereus</td><td rowspan=1 colspan=1>Neisseria subflava</td><td rowspan=1 colspan=1>Streptococcus oralis</td></tr><tr><td rowspan=1 colspan=1>Bordetella pertussis</td><td rowspan=1 colspan=1>Peptostreptococcus micros (a.k.a.Parvimonas micra)</td><td rowspan=1 colspan=1>Streptococcus pneumoniae</td></tr><tr><td rowspan=1 colspan=1>Burkholderia cepacia</td><td rowspan=1 colspan=1>Pseudomonas aeruginosa</td><td rowspan=1 colspan=1>Streptococcus salivarius</td></tr><tr><td rowspan=1 colspan=1>Corynebacterium diphtheria</td><td rowspan=1 colspan=1>Serratia marcescens</td><td rowspan=1 colspan=1>Streptococcus sanguinis</td></tr><tr><td rowspan=1 colspan=1>Enterococcus faecalis</td><td rowspan=1 colspan=1>Staphylococcus aureus MRSA</td><td rowspan=1 colspan=1>Streptococcus suis</td></tr><tr><td rowspan=1 colspan=1>Escherichia coli</td><td rowspan=1 colspan=1>Staphylococcus epidermidis MRSE</td><td rowspan=1 colspan=1>Candida albicans</td></tr><tr><td rowspan=1 colspan=1>Fusobacterium necrophorum</td><td rowspan=1 colspan=1>Stenotrophomonas maltophilia</td><td rowspan=1 colspan=1>Adenovirus Type 1</td></tr><tr><td rowspan=1 colspan=1>Haemophilus influenza type A</td><td rowspan=1 colspan=1>Streptococcus agalactiae</td><td rowspan=1 colspan=1>Adenovirus Type 11 (Slobitski)</td></tr><tr><td rowspan=1 colspan=1>Klebsiella pneumonia</td><td rowspan=1 colspan=1>Streptococcus anginosus</td><td rowspan=1 colspan=1>Influenza A</td></tr><tr><td rowspan=1 colspan=1>Lactococcus lactis</td><td rowspan=1 colspan=1>Streptococcus bovis</td><td rowspan=1 colspan=1>Influenza B</td></tr><tr><td rowspan=1 colspan=1>Lactobacillus acidophilus</td><td rowspan=1 colspan=1>Streptococcus canis</td><td rowspan=1 colspan=1>Parainfluenza virus Type 4A</td></tr><tr><td rowspan=1 colspan=1>Legionella jordanis</td><td rowspan=1 colspan=1>Streptococcus dysgalactiae subspequisimilis</td><td rowspan=1 colspan=1>Parainfluenza virus Type 4B (VR-1377)</td></tr><tr><td rowspan=1 colspan=1>Legionella micdadei</td><td rowspan=1 colspan=1>Streptococcus gordonii(Virdans type)</td><td rowspan=1 colspan=1>Rhinovirus Type 15 (1734)</td></tr><tr><td rowspan=1 colspan=1>Legionella pneumophila</td><td rowspan=1 colspan=1>Streptococcus intermedius</td><td rowspan=1 colspan=1></td></tr></table>
+
+None of the forty-seven (47) microorganisms tested that might be found in throat specimens crossreact with the assay.
+
+These study results are acceptable.
+
+Twenty-eight (28) chemical and biological substances were evaluated for potential to interfere with the AmpliVue® GAS Assay, including blood $( 5 \% \mathrm { v / v } )$ and human saliva $( 1 0 \% \mathrm { v / v } )$ . Each substance was tested in triplicate using two strains of Streptococcus pyogenes (ATCC 19615 and 12344), tested at $2 \textbf { x }$ LoD at medically relevant concentrations. None of the substances tested were found to interfere with the AmpliVue® GAS Assay.
+
+g. Assay cut-off:
+
+Not applicable.
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable.
+
+b. Matrix comparison:
+
+A comparison study was conducted between negative clinical matrix and a contrived negative matrix in order to validate the use of the contrived negative matrix in place of a clinical negative matrix for the analytic studies in section M1 above. Contrived negative matrix was constructed to mimic challenging clinical specimens, and consisting of Porcine Gastric Mucin (PGM), Phosphate Buffered Saline (PBS), Bovine Serum Albumin and sodium azide. The matrix comparison study results are shown in Table VI below.
+
+<table><tr><td rowspan=1 colspan=6>Table VI: Matrix Comparison Study</td></tr><tr><td rowspan=2 colspan=2>Panel ID</td><td rowspan=1 colspan=2>ContrivedNegative Matrix</td><td rowspan=1 colspan=2>Pooled NegativeClinical Matrix</td></tr><tr><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>% Pos</td></tr><tr><td rowspan=1 colspan=1>Group AStreptococcus(ATCC 19615)</td><td rowspan=1 colspan=1>1 x LoD</td><td rowspan=1 colspan=1>20/20</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>20/20</td><td rowspan=1 colspan=1>100%</td></tr></table>
+
+These studies demonstrate that the contrived negative matrix is equivalent to a clinical matrix. These study results are acceptable.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity:
+
+Performance characteristics of the AmpliVue® GAS Assay were established during a prospective study conducted from February to March 2014. One thousand one hundred ninety-two (1192) fresh, throat swab specimens from female and male patients were prospectively collected and transported to each laboratory for testing with the AmpliVue® GAS Assay at five distinct geographical sites across the United States. A single specimen was collected per patient. Samples were collected using Polyester or Rayon Swab with liquid Amie’s or Polyester Swab or Rayon with liquid Stuart’s. All one thousand one hundred ninety-two (1192) fresh throat specimens were cultured for Group A $\beta \mathrm { . }$ - hemolytic Streptococcus (GAS) and tested with AmpliVue® GAS Assay. The swab specimens were cultured at the testing sites and the transport fluid was cultured at a central location. The specimen was considered positive if culture from either the swab or the transport fluid was positive for Group A $\beta$ -hemolytic Streptococcus and this was referred to as Composite Culture. Specimens that returned an invalid result were retested. If the retest was invalid, then the final result was determined to be invalid. One result was determined to be invalid in these studies.
+
+The clinical performance of the AmpliVue® GAS Assay was demonstrated with one thousand one hundred ninety one (1191) prospectively collected fresh throat specimens at five (5) sites across the United States. The breakdown of performance for AmpliVue® GAS Assay is summarized in Table VII below:
+
+<table><tr><td colspan="4" rowspan="1">Table VII: Clinical Performance Data for the Amplivuea®GAS Assay vs. Composite Cultures for Group A β-hemolytic Streptococcus</td></tr><tr><td colspan="4" rowspan="1">All Sites</td></tr><tr><td colspan="1" rowspan="2">AmplivueGAS Assay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">189</td><td colspan="1" rowspan="1">50*</td><td colspan="1" rowspan="1">239</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">3**</td><td colspan="1" rowspan="1">949</td><td colspan="1" rowspan="1">952</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">192</td><td colspan="1" rowspan="1">999</td><td colspan="1" rowspan="1">1191</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 98.4% (189/192) 95% CI (95.5%-99.5%)Specificity: 95.0% (949/999) 95% CI (93.5%-96.2%)</td></tr><tr><td colspan="4" rowspan="1">* Of the 50 discordant specimens, 31 of these specimenswere positive for GAS when tested with an additionalFDA-cleared molecular device, 18 were negative. Onespecimen was unavailable for discordant testing.** Of the three discordant specimen, two were negativewhen tested with an additional FDA-cleared moleculardevice.</td></tr><tr><td colspan="4" rowspan="1">Site 1</td></tr><tr><td colspan="1" rowspan="2">Amplivue®GAS Assay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">82</td><td colspan="1" rowspan="1">15*</td><td colspan="1" rowspan="1">97</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">1**</td><td colspan="1" rowspan="1">402</td><td colspan="1" rowspan="1">403</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">83</td><td colspan="1" rowspan="1">417</td><td colspan="1" rowspan="1">500</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 98.8% (82/83) 95% CI (93.5%-99.8%)Specificity: 96.4% (402/417) 95% CI (94.2%-97.8%)</td></tr><tr><td colspan="4" rowspan="1">* Of the 15 discordant specimens, 9 of these specimenswere positive for GAS when tested with an additionalFDA-cleared molecular device, 6 were negative.** Of the one discordant specimen, one was negative whentested with an additional FDA-cleared molecular device.</td></tr><tr><td colspan="4" rowspan="1">Site 2</td></tr><tr><td colspan="1" rowspan="2">Amplivue®GAS Assay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">45</td><td colspan="1" rowspan="1">17*</td><td colspan="1" rowspan="1">62</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">132</td><td colspan="1" rowspan="1">132</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">45</td><td colspan="1" rowspan="1">149</td><td colspan="1" rowspan="1">194</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 100.0% (45/45) 95% CI (92.1%-100.0%)Specificity: 88.6% (132/149) 95% CI (82.5%-92.8%)</td></tr><tr><td colspan="4" rowspan="1">* Of the 17 discordant specimens, 13 of these specimenswere positive for GAS when tested with an additionalFDA-cleared molecular device, 3 were negative. Onespecimen was unavailable for discordant evaluation.</td></tr><tr><td colspan="4" rowspan="1">Site 3</td></tr><tr><td colspan="1" rowspan="2">AmplivueGAS Assay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">16</td><td colspan="1" rowspan="1">9*</td><td colspan="1" rowspan="1">25</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">174</td><td colspan="1" rowspan="1">174</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">16</td><td colspan="1" rowspan="1">183</td><td colspan="1" rowspan="1">199</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 100.0% (16/16) 95% CI (80.6%-100.0%)Specificity: 95.1% (174/183) 95% CI (90.9%-97.4%)</td></tr><tr><td colspan="4" rowspan="1">* Of the 9 discordant specimens, 4 of these specimens werepositive for GAS when tested with an additional FDA-cleared molecular device, 5 were negative.</td></tr><tr><td colspan="4" rowspan="1">Site 4</td></tr><tr><td colspan="1" rowspan="2">Amplivue®GAS Assay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">8</td><td colspan="1" rowspan="1">3*</td><td colspan="1" rowspan="1">11</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">89</td><td colspan="1" rowspan="1">89</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">8</td><td colspan="1" rowspan="1">92</td><td colspan="1" rowspan="1">100</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 100.0% (8/8) 95% CI (67.6%-100.0%)Specificity: 96.7% (89/92) 95% CI (90.8%-98.9%)</td></tr><tr><td colspan="4" rowspan="1">* Of the 3 discordant specimens, 3 of these specimens werepositive for GAS when tested with an additional FDA-cleared molecular device.</td></tr><tr><td colspan="4" rowspan="1">Site 5</td></tr><tr><td colspan="1" rowspan="2">Amplivue®GAS Assay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">38</td><td colspan="1" rowspan="1">6*</td><td colspan="1" rowspan="1">44</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">2**</td><td colspan="1" rowspan="1">152</td><td colspan="1" rowspan="1">154</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">40</td><td colspan="1" rowspan="1">158</td><td colspan="1" rowspan="1">198</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 95.0% (38/40) 95% CI (83.5%-98.6%)Specificity: 96.2% (152/158) 95% CI (92.0%-98.2%)</td></tr><tr><td colspan="4" rowspan="1">* Of the 6 discordant specimens, 2 of these specimens werepositive for GAS when tested with an additional FDA-cleared molecular device, 4 were negative.** Of the two discordant specimens, one was negativewhen tested with an additional FDA-cleared moleculardevice.</td></tr></table>
+
+The external quality control isolates used in these studies were from the Control Set #M111 consisting of Streptococcus pyogenes Z018 and Streptococcus dysgalactiae Z068, which serve as processing and extraction controls. The positive and negative external control isolates were tested each day during the clinical studies. All Group A Streptococcus positive controls were detected accurately ( $100 \%$ , 63/63). All Group G Streptococcus negative controls were detected accurately ( $100 \%$ , 63/63).
+
+These study results are acceptable.
+
+Rationale and criteria for the exclusion of culture confirmation of assay-negative GAS results:
+
+Several parameters including sensitivity, negative predictive value (NPV), analyte prevalence and data distribution across sites were considered in order to establish a set of criteria to be used for deciding whether to include a statement requiring follow-up culture for negative results in the Intended Use for GAS assays or not.
+
+Based on the overall information available to FDA from multiple clinical studies over the last 12 years and a comprehensive benefit-risk assessment, the following criteria for sensitivity and negative predictive value (NPV) should be demonstrated to exclude the statement requiring follow-up culture for negative results in the Intended Use for GAS assays:
+
+1) Overall sensitivity $2 9 8 \%$ , with the lower bound of the $9 5 \%$ CI of $2 9 3 \%$ from $\geq 1 0 0$ positive specimens, and   
+2) Overall $N P V { \overset { \underset { \mathrm { > } } { } } { = } } 9 9 \%$ , with the lower bound of the $9 5 \%$ CI of $2 9 7 \%$ extrapolated based on $30 \%$ prevalence (recent studies presented to the FDA indicated that it is unlikely that the prevalence for GAS will exceed $30 \%$ during the peak season for GAS pharyngitis), and   
+3) Each testing site demonstrates an NPV of $2 9 8 \%$ and an approximately even distribution of samples is observed among the sites.
+
+The overall sensitivity of the AmpliVue® GAS Assay is $9 8 . 4 \%$ with the lower bound of the $9 5 \%$ CI of $9 5 . 5 \%$ , the overall NPV is $9 9 . 7 \%$ with the lower bound of the $9 5 \%$ CI of $9 9 . 0 \%$ at a prevalence of
+
+$1 6 . 1 \%$ encountered in this study, with the lowest site NPV of $9 8 . 7 \%$ (Site 5). When extrapolated to a prevalence of $30 \%$ , the overall NPV is $9 9 . 3 \%$ with a lower bound of the $9 5 \%$ CI of $9 7 . 9 \%$ . Based on these values and the criteria noted above, there is no need to add a statement requiring follow-up culture for negative results in the Intended Use for this assay.
+
+However, to further mitigate the risks of a false negative result, the following limitation is added to the limitation section of the package insert: “Additional follow-up testing using the culture method is required if the result is negative and clinical symptoms persist, or in the event of an acute rheumatic fever (ARF) outbreak.”
+
+b. Clinical specificity: See table above.   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off: Not Applicable.
+
+5. Expected values/Reference range:
+
+The overall incidence of Group A $\beta$ -hemolytic Streptococcus in patients tested during this study was $1 6 . 1 \%$ (192/1191) based on composite bacterial culture and $2 0 . 1 \%$ (239/1191) based on the Amplivue® GAS Assay. All clinical specimens collected during this study were collected between February, 2014 and March 2014.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

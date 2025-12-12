@@ -1,0 +1,664 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I. Background Information:
+A. 510(k) Number
+K193054
+B. Applicant
+Sectra AB
+C. Proprietary and Established Names
+Sectra Digital Pathology Module
+D. Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+QKQ Class II 21 CFR 864.3700 Pathology
+II. Submission/Device Overview:
+A. Purpose for Submission:
+New device
+B. Type of Test:
+Not applicable – software only device
+III. Intended Use/Indications for Use:
+A. Intended Use(s):
+See Indications for Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700			Pathology
+
+--- Page 2 ---
+B. Indication(s) for Use:
+For In Vitro Diagnostic Use
+Sectra Digital Pathology Module device is a software intended for viewing and management of
+digital images of scanned surgical pathology slides prepared from formalin-fixed paraffin
+embedded (FFPE) tissue. It is an aid to the pathologist to review and interpret these digital
+images for the purposes of primary diagnosis. Sectra Digital Pathology Module is not intended
+for use with frozen section, cytology, or non-FFPE hematopathology specimens. It is the
+responsibility of the pathologist to employ appropriate procedures and safeguards to assure the
+validity of the interpretation of images using Sectra Digital Pathology Module. Sectra Digital
+Pathology Module is intended for use with Leica’s Aperio AT2 DX scanner and Dell MR2416
+monitor.
+C. Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV. Device/System Characteristics:
+A. Device Description:
+Sectra Digital Pathology Module (version 2.2) is a software-only device for viewing and
+manipulating digital pathology images of glass slides obtained from the Aperio AT2 DX scanner
+on the Dell MR2416 monitor. Sectra Digital Pathology Module may only be used in combination
+with Sectra Picture Archiving and Communication System (PACS), which consists of Sectra
+Workstation IDS7 and Sectra Core. Sectra Digital Pathology Module consists of four elements:
+Pathology Image Window (PIW), Sectra Pathology Server (SPS), Database Engine (SPDB), and
+Sectra Pathology Import Server (SPIS). The PIW is a web application embedded in Sectra
+Workstation IDS7 for end users to view and manipulate digital pathology images. The SPS is the
+main server component for the PIW client. The SPDB stores the metadata required for the SPS.
+The SPIS is used for importing digital pathology images from the Aperio AT2 DX scanner.
+The subject device is operated as follows:
+1. The image acquisition is performed using the predicate device, Aperio AT2 DX scanner.
+The operator performs quality control of the digital slides using ImageScope DX and Dell
+MR2416 per the instructions of Aperio AT2 DX to determine if re-scans are necessary.
+2. The digital slides are imported by SPIS and automatically assembled as groups of cases.
+The unaltered images are then sent to the external storage Sectra Core. Sectra Core offers
+an application programming interface allowing communication between the Sectra
+Healthcare Server (SHS), which is part of Sectra Core, and the SPS, which is part of the
+subject device. The image metadata (e.g. pixel size) is stored locally in the SPDB to
+improve operational performance.
+3. The laboratory technician performs a quality control by using PIW to verify that all
+images have been imported.
+K193054 - Page 2 of 10
+
+--- Page 3 ---
+4. The reading pathologist selects a case (patient) from a worklist external to the subject
+device such as the laboratory information system (LIS) whereby the SPS fetches the
+associated images from the Sectra Core.
+5. The reading pathologist uses the subject device to view the images and is able to perform
+the following actions, as needed:
+a. Zoom and pan the image
+b. Adjust focus (when different focus depths are available)
+c. Measure distances and areas in the image
+d. Annotate images
+e. Choose to view multiple images side by side in a synchronized fashion
+After viewing all images belonging to a particular case (patient), the pathologist will make a
+diagnosis. The diagnosis is documented in another system such as the LIS.
+Minimum System Requirements - Computer Environment
+The system requirements are given in Tables 1 through 4 below.
+Table 1: Requirements for PIW
+Workstation (Host for subject device) IDS7
+Operating System MS Windows 10 or MS Windows 7 (64 bit)
+CPU 4-core CPU, 3.6 GHz
+RAM 8 GB
+Display (Image Window) Dell MR2416 monitor
+Graphics board NVIDIA 2 GB Quadro P600 or
+4 GB Quadro P1000
+Network 1 Gbit/s LAN connection
+3D mouse 3Dconnexion SpaceMouse Pro
+Table 2: Requirements for SPDB and SPS
+Operating System & Database Engine • Windows Server 2016 Std Ed, with SQL
+Server 2016 SP2 Std Ed
+• Windows Server 2012 R2 Std Ed, with
+SQL Server 2012 SP4 Std Ed Windows
+.NET Framework .NET Framework 4.7.1, 4.7.2 or 4.8
+K193054 - Page 3 of 10
+
+[Table 1 on page 3]
+Workstation (Host for subject device)	IDS7
+	
+Operating System	MS Windows 10 or MS Windows 7 (64 bit)
+CPU	4-core CPU, 3.6 GHz
+RAM	8 GB
+Display (Image Window)	Dell MR2416 monitor
+Graphics board	NVIDIA 2 GB Quadro P600 or
+4 GB Quadro P1000
+Network	1 Gbit/s LAN connection
+3D mouse	3Dconnexion SpaceMouse Pro
+
+[Table 2 on page 3]
+Operating System & Database Engine	• Windows Server 2016 Std Ed, with SQL
+Server 2016 SP2 Std Ed
+• Windows Server 2012 R2 Std Ed, with
+SQL Server 2012 SP4 Std Ed Windows
+.NET Framework	.NET Framework 4.7.1, 4.7.2 or 4.8
+
+--- Page 4 ---
+Table 3: Requirements for SPIS
+Operating System • Windows Server 2016
+• Windows Server 2012 R2 (upgrades
+only)
+• Windows Server 2008 R2 (upgrades
+only)
+• Windows 10
+• Windows 8.1 (upgrades only)
+• Windows 7 (upgrades only)
+.NET Framework .NET Framework 4.7.1, 4.7.2 or 4.8
+Table 4: Recommended Configurations
+SPDB and SPS
+CPU 8-core CPU, e.g., Intel Xeon 4110 CPU
+RAM 24 GB RAM
+Disk 2x 146 GB system disk (mirrored)
+Network Gigabit LAN connection
+SPIS
+CPU 8-core CPU, e.g. Intel Xeon 4110 CPU
+RAM 8 GB RAM
+Disk 146 GB system disk
+Network Gigabit LAN connection
+B. Instrument Description Information:
+Modes of Operation Yes No
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Software
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.
+1. Instrument Name:
+Sectra Digital Pathology Module
+2. Specimen Identification:
+The Sectra Digital Pathology Module uses digital pathology images obtained from the Aperio
+AT2 DX scanner of Hematoxylin and Eosin (H&E) stained glass slides. The reading
+pathologist selects a case (patient) from a worklist external to the subject device whereby the
+subject device fetches the associated images from the external image storage. The scanned
+images are identified based on the previously assigned specimen identifier.
+K193054 - Page 4 of 10
+
+[Table 1 on page 4]
+Operating System	• Windows Server 2016
+• Windows Server 2012 R2 (upgrades
+only)
+• Windows Server 2008 R2 (upgrades
+only)
+• Windows 10
+• Windows 8.1 (upgrades only)
+• Windows 7 (upgrades only)
+.NET Framework	.NET Framework 4.7.1, 4.7.2 or 4.8
+
+[Table 2 on page 4]
+SPDB and SPS	
+	
+CPU
+RAM
+Disk
+Network	8-core CPU, e.g., Intel Xeon 4110 CPU
+24 GB RAM
+2x 146 GB system disk (mirrored)
+Gigabit LAN connection
+SPIS	
+	
+CPU
+RAM
+Disk
+Network	8-core CPU, e.g. Intel Xeon 4110 CPU
+8 GB RAM
+146 GB system disk
+Gigabit LAN connection
+
+[Table 3 on page 4]
+Modes of Operation			Yes			No	
+Does the applicant’s device contain the ability to transmit data to a computer,
+webserver, or mobile device?							
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?							
+Software							
+FDA has reviewed applicant’s Hazard Analysis and software development processes
+for this line of product types.							
+
+--- Page 5 ---
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is H&E stained. Digital
+images are then obtained from these glass slides using the Aperio AT2 DX scanner.
+4. Calibration:
+Not applicable
+5. Quality Control:
+The subject device receives quality-controlled images from the scanner. The subject device
+specific quality control measures are as follows:
+• Connect scanner - This test should be performed before connecting the scanner to
+the subject device in order to verify the on-site integration between the Aperio
+AT2 Dx scanner and the Sectra Workstation.
+• View pathology images - Every pathologist should perform this test on review
+workstation before reading pathology images using the subject device to ensure
+that all scanned slide images have been imported and for every case, view the
+thumbnails in the pathology image window to verify that each slide that should be
+in the case is present (manually verifying tissue block and staining information
+from LIS).
+Additional details of the quality control procedures are provided in the device User’s Guide
+and the Installation Guide.
+V. Substantial Equivalence Information:
+A. Predicate Device Name(s):
+Aperio AT2 DX System
+B. Predicate 510(k) Number(s):
+K190332
+C. Comparison with Predicate(s):
+Device & Predicate
+K193054 K190332
+Device(s):
+Sectra Digital Pathology
+Device Trade Name Aperio AT2 DX System
+Module
+General Device
+Characteristic
+Similarities
+K193054 - Page 5 of 10
+
+[Table 1 on page 5]
+	Device & Predicate		K193054	K190332
+	Device(s):			
+Device Trade Name			Sectra Digital Pathology
+Module	Aperio AT2 DX System
+				
+	General Device			
+	Characteristic			
+	Similarities			
+
+--- Page 6 ---
+Sectra Digital Pathology
+The Aperio AT2 DX
+Module device is a
+System is an automated
+software intended for
+digital slide creation and
+viewing and management
+viewing system.
+of digital images of
+The Aperio AT2 DX
+scanned surgical pathology
+System is intended for in
+slides prepared from
+vitro diagnostic use as an
+formalin-fixed paraffin
+aid to the pathologist to
+embedded (FFPE) tissue. It
+review and interpret digital
+is an aid to the pathologist
+images of surgical
+to review and interpret
+pathology slides prepared
+these digital images for the
+from formalin-fixed paraffin
+purposes of primary
+embedded (FFPE) tissue.
+diagnosis. Sectra Digital
+The Aperio AT2 DX
+Pathology Module is not
+System is not intended for
+intended for use with
+use with frozen section,
+frozen section, cytology, or
+cytology, or non-FFPE
+non-FFPE
+hematopathology
+hematopathology
+specimens.
+specimens. It is the
+The Aperio AT2 DX
+responsibility of the
+Intended Use System is composed of the
+pathologist to employ
+Aperio AT2 DX scanner,
+appropriate procedures and
+the ImageScope DX review
+safeguards to assure the
+application and Display.
+validity of the
+The Aperio AT2 DX
+interpretation of images
+System is for creation and
+using Sectra Digital
+viewing of digital images of
+Pathology Module. Sectra
+scanned glass slides that
+Digital Pathology Module
+would otherwise be
+is intended for use with
+appropriate for manual
+Leica's Aperio AT2 DX
+visualization by
+scanner, Sectra
+conventional light
+Workstation IDS7 and Dell
+microscopy. It is the
+MR2416 monitor.
+responsibility of a qualified
+pathologist to employ
+appropriate procedures and
+safeguards to assure the
+validity of the interpretation
+of images obtained using
+the Aperio AT2 DX
+System.
+Surgical pathology slides
+Specimen Type
+prepared from FFPE tissue Surgical pathology slides
+(scanned digital images is prepared from FFPE tissue
+the starting point)
+Image Storage Images are stored in an end Same
+K193054 - Page 6 of 10
+
+[Table 1 on page 6]
+Intended Use	Sectra Digital Pathology
+Module device is a
+software intended for
+viewing and management
+of digital images of
+scanned surgical pathology
+slides prepared from
+formalin-fixed paraffin
+embedded (FFPE) tissue. It
+is an aid to the pathologist
+to review and interpret
+these digital images for the
+purposes of primary
+diagnosis. Sectra Digital
+Pathology Module is not
+intended for use with
+frozen section, cytology, or
+non-FFPE
+hematopathology
+specimens. It is the
+responsibility of the
+pathologist to employ
+appropriate procedures and
+safeguards to assure the
+validity of the
+interpretation of images
+using Sectra Digital
+Pathology Module. Sectra
+Digital Pathology Module
+is intended for use with
+Leica's Aperio AT2 DX
+scanner, Sectra
+Workstation IDS7 and Dell
+MR2416 monitor.	The Aperio AT2 DX
+System is an automated
+digital slide creation and
+viewing system.
+The Aperio AT2 DX
+System is intended for in
+vitro diagnostic use as an
+aid to the pathologist to
+review and interpret digital
+images of surgical
+pathology slides prepared
+from formalin-fixed paraffin
+embedded (FFPE) tissue.
+The Aperio AT2 DX
+System is not intended for
+use with frozen section,
+cytology, or non-FFPE
+hematopathology
+specimens.
+The Aperio AT2 DX
+System is composed of the
+Aperio AT2 DX scanner,
+the ImageScope DX review
+application and Display.
+The Aperio AT2 DX
+System is for creation and
+viewing of digital images of
+scanned glass slides that
+would otherwise be
+appropriate for manual
+visualization by
+conventional light
+microscopy. It is the
+responsibility of a qualified
+pathologist to employ
+appropriate procedures and
+safeguards to assure the
+validity of the interpretation
+of images obtained using
+the Aperio AT2 DX
+System.
+Specimen Type	Surgical pathology slides
+prepared from FFPE tissue
+(scanned digital images is
+the starting point)	Surgical pathology slides
+prepared from FFPE tissue
+Image Storage	Images are stored in an end	Same
+
+--- Page 7 ---
+user provided image
+storage attached to the
+local network
+Panning, zooming, gamma
+Image Manipulation function, annotations, and
+Same
+Functions measurements (distance &
+area)
+General Device
+Characteristic
+Differences
+Sectra Digital Pathology
+WSI scanner (Aperio AT2
+Module which consists
+DX scanner), Image
+only of the image viewing
+Management System
+Device Components software, Sectra
+(ImageScope DX
+Workstation IDS7, Sectra
+application), and color
+Core
+monitor display
+After WSI images are After conducting Quality
+successfully acquired by Control (QC) on the glass
+using Aperio At2 DX slides per laboratory
+scanner, WSI images are standards (e.g., staining,
+imported by SPIS as coverslipping, barcode
+groups of cases. placement, etc.), the
+The laboratory technician technician loads the slides
+performs a quality control into the Aperio AT2 DX
+by using PIW to verify that scanner. The scanner scans
+all images have been the slides and generates
+imported. During review, WSI image for each slide.
+the pathologist selects a The technician performs QC
+patient case and opens on scanned WSI images by
+WSI images from the checking image data and
+Principle of
+Sectra Core to read the image quality. When QC is
+Operation
+WSI images and make a failed, the slide will be re-
+diagnosis. scanned. The acquired WSI
+images are stored in an end
+user provided image storage
+attached to the local
+network. During review, the
+pathologist opens WSI
+images acquired with the
+Aperio AT2 DX scanner
+from the image storage,
+performs further QC to
+ensure image quality and
+reads WSI images of the
+slides to make a diagnosis.
+End User’s Interface Pathology Image Window Aperio ImageScope DX
+K193054 - Page 7 of 10
+
+[Table 1 on page 7]
+			user provided image
+storage attached to the
+local network	
+Image Manipulation
+Functions			Panning, zooming, gamma
+function, annotations, and
+measurements (distance &
+area)	Same
+	General Device			
+	Characteristic			
+	Differences			
+Device Components			Sectra Digital Pathology
+Module which consists
+only of the image viewing
+software, Sectra
+Workstation IDS7, Sectra
+Core	WSI scanner (Aperio AT2
+DX scanner), Image
+Management System
+(ImageScope DX
+application), and color
+monitor display
+Principle of
+Operation			After WSI images are
+successfully acquired by
+using Aperio At2 DX
+scanner, WSI images are
+imported by SPIS as
+groups of cases.
+The laboratory technician
+performs a quality control
+by using PIW to verify that
+all images have been
+imported. During review,
+the pathologist selects a
+patient case and opens
+WSI images from the
+Sectra Core to read the
+WSI images and make a
+diagnosis.	After conducting Quality
+Control (QC) on the glass
+slides per laboratory
+standards (e.g., staining,
+coverslipping, barcode
+placement, etc.), the
+technician loads the slides
+into the Aperio AT2 DX
+scanner. The scanner scans
+the slides and generates
+WSI image for each slide.
+The technician performs QC
+on scanned WSI images by
+checking image data and
+image quality. When QC is
+failed, the slide will be re-
+scanned. The acquired WSI
+images are stored in an end
+user provided image storage
+attached to the local
+network. During review, the
+pathologist opens WSI
+images acquired with the
+Aperio AT2 DX scanner
+from the image storage,
+performs further QC to
+ensure image quality and
+reads WSI images of the
+slides to make a diagnosis.
+End User’s Interface			Pathology Image Window	Aperio ImageScope DX
+
+--- Page 8 ---
+(the client component of
+Sectra Digital Pathology
+Module)
+Type of Software Web application Native Native MS Windows
+Application MS Windows
+VI. Standards/Guidance Documents Referenced:
+1. Guidance for Industry “Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices", dated April 20, 2016.
+2. Special controls under 21 CFR Sec. 864.3700 Whole slide imaging system.
+3. EN ISO 14971:2012 – Medical devices - Application of risk management to medical devices
+(same as ISO 14971:2007, Corrected version 2007-10-01), Recognition Number: 5-40.
+4. EN 62304:2006 – Medical device software - software life-cycle processes, Recognition
+Number: 13-79.
+5. EN ISO 62366-1:2015 – Application of usability engineering to medical devices,
+Recognition Number: 5-114.
+VII. Performance Characteristics (if/when applicable):
+A. Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+B. Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing for Sectra Digital Pathology Module device was performed. The
+new device was compared to the image management software component of the predicate
+device. The following testing was performed:
+K193054 - Page 8 of 10
+
+[Table 1 on page 8]
+	(the client component of
+Sectra Digital Pathology
+Module)	
+Type of Software
+Application	Web application Native
+MS Windows	Native MS Windows
+
+--- Page 9 ---
+a. Pixel-wise comparison with the predicate device including zooming and panning
+operations across multiple tiles and vertical/horizontal stitching seams
+The equivalence between the subject and predicate image review manipulation software
+(IRMS, as defined in the FDA guidance titled “Guidance for Industry “Technical
+Performance Assessment of Digital Pathology Whole Slide Imaging Devices", dated
+April 20, 2016 [TPA guidance, IV(A)(9)] was supported by bench testing data based on
+pixel-level comparison. The subject IRMS was tested as operating with the intended
+components, including the scanner, image management system and display. The scanner
+color profile embedded in the whole slide image (WSI) file as well as the display color
+profile associated with the intended display were included in the tests. WSI files from 30
+FFPE tissue glass slides from different anatomic locations that were H&E stained were
+used as the test input. For each region of interest (ROI), the differences between the
+views generated by the subject and predicate IRMS were evaluated with the 1976
+International Commission on Illumination (CIE) color difference metric ΔE for each
+corresponding pixel pair. The two views generated by the subject and predicate IRMS
+were adjusted and registered by using only the graphical user interface without image
+processing. The test cases of ROIs included relevant biological features at different
+magnification levels such as 20x and 40x. Horizontal/vertical stitching seams between the
+tiles were included in the ROIs when possible. For each ROI, zooming to an odd
+magnification level and panning across multiple tiles that require interpolated rendering
+were also tested. The average color difference of all pixels within each ROI was reported.
+The image data of all ROIs were also provided for verification. The test results
+demonstrated that the 99th percentile of the difference is below 2.06 ΔE. The subject
+device has been found to adequately reproduce digital pathology images at the pixel level
+with respect to its intended use.
+b. Turnaround Time for the image to be fully loaded while opening a slide from a medical
+device data system (MDDS) and for panning/zooming
+Comparison with predicate device: The predicate device ImageScopeDX has the
+following reported turnaround times: “should not take longer than 7 secs till the image is
+fully loaded while opening a slide from a MDDS." and "Panning on the image should not
+take longer than 0.5 sec in order to load and show all image data.” The turnaround times
+for opening an image and panning have been measured in the subject device. The results
+are similar to that of the predicate device ImageScopeDX.
+Turnaround time zooming and panning: Long-time running performance test simulating
+normal usage: A long-time running client test simulating normal end user behavior,
+measuring performance and executing for at least 6 hours. This test showed no signs of
+any memory leak or performance issues. The subject device has been found to have an
+acceptable turnaround time with respect to its intended use.
+c. Measurements – area and distance
+Measurement accuracy has been verified using a test image containing objects of
+known sizes. The following set of tests were used to validate the measurement accuracy
+of the subject device.
+Comparison with predicate device: The same measurements are performed using the
+subject device and using the Predicate device ImageScopeDX. The results are verified to
+correspond.
+K193054 - Page 9 of 10
+
+--- Page 10 ---
+Measurements verified using calibration slide with known distances: An image of a
+calibration slide with known distances was used to verify the measurement accuracy of
+the subject device. Test results showed that the subject device performed accurate
+measurements with respect to its intended use.
+d. Human Factors Testing
+Human factors study designed around critical user tasks and use scenarios performed by
+representative users were conducted. A systematic evaluation of task-based usability
+including critical tasks required for operation of the device were evaluated at multiple
+sites using multiple users. All tasks associated with reviewing and reporting results for
+cases including confirmation that all slides belonging to specific cases are reviewed
+before reporting results, were included in the study. After having completed all the tasks,
+all the participants were asked a set of overall satisfaction questions followed by the
+System Usability Scale (SUS) questionnaire. Overall, the results of the human factors
+testing were acceptable.
+VIII. Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX. Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K193054 - Page 10 of 10

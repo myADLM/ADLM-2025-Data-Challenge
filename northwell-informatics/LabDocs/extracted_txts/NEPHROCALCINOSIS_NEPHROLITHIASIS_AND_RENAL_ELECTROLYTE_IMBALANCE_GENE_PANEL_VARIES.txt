@@ -1,0 +1,99 @@
+Protocol for Analytical Phase of Generating Results for
+Nephrocalcinosis, Nephrolithiasis, and Renal Electrolyte
+Imbalance Gene Panel
+1. PURPOSE:
+To provide a comprehensive guide for evaluating and generating
+results for the Nephrocalcinosis, Nephrolithiasis, and Renal
+Electrolyte Imbalance Gene Panel analysis.
+Responsibility: Designated staff trained in molecular genetics and
+sequencing techniques will perform the analysis, interpret results,
+and document findings as defined in this procedure. Supervisors
+ensure adherence to protocols, proper documentation, and resolution
+of any deviations.
+1. DEFINITION:
+Nephrocalcinosis, Nephrolithiasis, and Renal Electrolyte Imbalance
+Gene Panel encompasses the analysis of genes commonly
+implicated in renal calcium deposition, kidney stone formation, and
+disturbances in renal electrolyte balance.
+1. PROCEDURE:
+A. Specimen Preparation:
+a. DNA Extraction:
+• Extract genomic DNA from collected blood or tissue samples
+using an approved extraction kit.
+• Quantify DNA using spectrophotometry (e.g., Nanodrop) and
+evaluate quality using gel electrophoresis.
+b. DNA Quality Control:
+• Ensure DNA concentration is ≥ 20 ng/μl with a total of ≥ 1 μg
+DNA.
+• Quality check: A260/280 ratio between 1.8 and 2.0.
+B. Library Preparation:
+a. Target Enrichment:
+• Perform target enrichment using a validated capture method
+specific for the genes in the panel.
+• Follow the manufacturer's instructions for hybridization, washing,
+and capturing the target DNA.
+b. Library Construction:
+• Construct libraries using a validated library preparation kit.
+• Amplify target-enriched libraries using PCR and validate library
+size distribution using capillary electrophoresis or bioanalyzer.
+C. Sequencing:
+a. Sequencing Platform:
+• Use a validated next-generation sequencing (NGS) platform (e.g.,
+Illumina, Ion Torrent) according to the manufacturer's protocol.
+b. Sequencing Run:
+• Load the library onto the sequencing platform and initiate the run.
+• Monitor the sequencing run, ensuring optimal cluster density and
+sequencing quality metrics.
+D. Data Analysis & Interpretation:
+a. Raw Data Processing:
+• Convert raw sequencing data (FASTQ files) to aligned sequences
+(BAM files) using the validated alignment algorithm.
+• Perform variant calling using a validated variant caller, generating
+a variant call format (VCF) file.
+b. Variant Filtering and Annotation:
+• Apply quality filters to eliminate low-quality variants.
+• Annotate variants using a validated annotation pipeline, matching
+obtained variants with databases (e.g., ClinVar, HGMD).
+c. Interpretation:
+• Review annotated variants, focusing on pathogenic or likely
+pathogenic variants related to nephrocalcinosis, nephrolithiasis,
+and renal electrolyte imbalance.
+• If necessary, consult literature and databases for variant
+pathogenicity assessment.
+E. Reporting Results:
+a. Documentation:
+• Generate a detailed report including patient information,
+methodology, findings, interpretation, and clinical
+recommendations.
+• Review and sign off by a qualified molecular genetics specialist.
+b. Release:
+• Results will be reviewed by a supervisor before release.
+• Release results to the ordering physician and retain a copy in the
+laboratory information system (LIS).
+F. Quality Control Measures:
+• Include positive and negative controls in all steps from extraction
+to sequencing.
+• Perform bi-weekly and monthly comparisons and validation as per
+standard internal quality control protocols.
+G. Troubleshooting:
+• In case of any deviations or issues, inform the supervisor
+immediately.
+• Document any discrepancies and take corrective actions.
+1. REFERENCE INTERVALS:
+Not applicable. Interpretation will be customized based on clinical
+correlation and variant pathogenicity.
+1. REFERENCES:
+Refer to the gene panel manufacturer's manual, relevant scientific
+literature, and laboratory guidelines for gene-specific
+recommendations.
+1. RECORDS:
+Maintain all records including DNA extraction, library preparation,
+sequencing run logs, data analysis reports, QC records, and final
+reports as per laboratory guidelines.
+1. SAFETY PRECAUTIONS:
+• Follow standard laboratory safety protocols including appropriate
+PPE.
+• Handle chemicals and specimens following biosafety guidelines.
+Prepared by: [Name] Date: [Date]
+Reviewed by: [Name] Date: [Date]
+Approved by: [Name] Date: [Date]

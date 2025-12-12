@@ -1,0 +1,121 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+DMD Gene (Full Gene Analysis)
+1. Purpose To outline the protocol for performing full gene analysis
+for Duchenne Muscular Dystrophy (DMD) in a CLIA-certified
+laboratory. This SOP provides detailed instructions for generating
+accurate and reliable results for DMD gene analysis.
+2. Scope This SOP applies to the procedures involved in the
+analytical phase of DMD gene full analysis, encompassing DNA
+extraction, amplification, sequencing, data analysis, and result
+interpretation.
+3. Responsibility
+• Laboratory Technician: Responsible for performing DNA
+extraction, amplification, sequencing, and initial data handling.
+• Molecular Geneticist: Responsible for data analysis, variant
+interpretation, and result reporting.
+• Laboratory Supervisor: Responsible for overseeing the entire
+process and ensuring compliance with established protocols, and
+for addressing any discrepancies or issues that arise.
+4. Definition
+• DMD Gene: The dystrophin gene involved in Duchenne Muscular
+Dystrophy.
+• Full Gene Analysis: A comprehensive examination of the entire
+DMD gene to identify mutations or variants that cause Duchenne
+Muscular Dystrophy.
+5. Procedure
+A. DNA Extraction
+1. Sample Preparation
+◦ Ensure that the specimen has been collected, received, and
+accessioned according to laboratory standards.
+◦ Use standard procedures for handling clinical specimens to
+prevent contamination.
+2. Extraction Protocol
+◦ Follow kit-specific instructions for DNA extraction, e.g., using
+QIAamp DNA Blood Mini Kit.
+◦ Quantify the extracted DNA using a spectrophotometer and
+verify purity.
+B. Amplification
+1. Primer Design
+◦ Design primers to cover all exons and flanking intronic
+regions of the DMD gene.
+◦ Verify primer specificity using in silico tools such as BLAST.
+2. PCR Setup
+◦ Prepare the PCR mix according to the specific protocol,
+ensuring that all reagents are within expiry dates.
+◦ Perform PCR amplification using a thermal cycler, following
+the optimized cycling conditions for each specific primer set.
+3. Quality Control
+◦ Verify amplification success using gel electrophoresis.
+◦ Use a molecular weight marker to confirm the expected size
+of PCR products.
+C. Sequencing
+1. Sequencing Method
+◦ Perform sequencing using Next-Generation Sequencing
+(NGS) platforms such as Illumina or Sanger sequencing if
+NGS is not available.
+2. Library Preparation
+◦ Construct sequencing libraries using standard protocols,
+ensuring proper adapter ligation and library amplification.
+3. Sequencer Setup
+◦ Load the prepared libraries onto the sequencer according to
+the manufacturer's instructions.
+◦ Run the sequencing protocol, ensuring proper calibration
+and maintenance of the sequencer according to the
+laboratory's standard practices.
+D. Data Analysis
+1. Raw Data Processing
+◦ Use bioinformatics software to filter and process raw
+sequencing data.
+◦ Align sequences to the reference human genome
+(GRCh38).
+2. Variant Calling
+◦ Identify variants using suitable variant calling algorithms,
+e.g., GATK or VarScan.
+◦ Annotate variants using databases such as ClinVar, HGMD,
+and dbSNP.
+3. Interpretation
+◦ Interpret the significance of identified variants according to
+ACMG guidelines.
+◦ Correlate findings with patient clinical data to assess the
+impact on the phenotype.
+E. Reporting
+1. Result Compilation
+◦ Compile identified variants, their annotations, and clinical
+significance into a coherent report.
+◦ Include a clear explanation of detected pathogenic variants,
+probable contributors to the disease.
+2. Verification
+◦ Have all data and interpretations reviewed by a molecular
+geneticist.
+◦ Ensure that results are accurate and validated before
+reporting.
+3. Result Distribution
+◦ Communicate results to the ordering clinician via secure
+laboratory information systems.
+◦ Ensure confidentiality and compliance with HIPAA
+regulations.
+6. Quality Control and Assurance
+• Internal Quality Control
+◦ Include positive and negative controls in every batch of DNA
+extraction, PCR, and sequencing.
+◦ Perform regular calibration of instruments and participate in
+external proficiency testing.
+• Record Keeping
+◦ Maintain accurate records of all procedures, including reagent
+lot numbers, sample IDs, and detailed steps taken.
+◦ Document any deviations or issues encountered during the
+analysis.
+7. References
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+• Kit manufacturer instructions (e.g., QIAamp DNA Blood Mini Kit).
+• Bioinformatics software manuals (GATK, VarScan).
+8. Appendices
+• Detailed PCR conditions for each primer set.
+• Example sequencing run setup.
+• Troubleshooting guide for common issues in sequencing data
+analysis.
+End of SOP
+This document provides comprehensive instructions for the analytical
+phase of full gene analysis for the DMD gene, ensuring consistency,
+reliability, and accuracy in generating results.

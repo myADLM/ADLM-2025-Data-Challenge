@@ -1,0 +1,140 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: K081212   
+B. Purpose for Submission: To extend the incubation times for the device.   
+C. Measurand: Methicillin Resistant Staphylococcus aureus.   
+D. Type of Test: Selective and differential chromogenic culture medium   
+E. Applicant: Bio-Rad c/o MDC Associates, LLC   
+F. Proprietary and Established Names: MRSASelect   
+G. Regulatory Information:
+
+#
+
+1. Regulation section:   
+21 CFR 866.1700
+
+2. Classification: Class II
+
+3. Product code: JSO
+
+4. Panel: 83
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+MRSASelect is a selective and differential chromogenic medium for the qualitative detection of nasal colonization of methicillin-resistant Staphylococcus aureus (MRSA) to aid in the prevention and control of MRSA infections in healthcare settings. The test can be performed on anterior nares specimens from patients and healthcare workers to screen for MRSA colonization. MRSASelect is not intended to diagnose MRSA infection nor to guide or monitor treatment of infection. Result can be interpreted after 18 - 28 hours incubation.
+
+# 2. Indication(s) for use:
+
+MRSASelect is a selective and differential chromogenic medium for the qualitative detection of nasal colonization of methicillin-resistant Staphylococcus aureus (MRSA) to aid in the prevention and control of MRSA infections in healthcare settings. The test can be performed on anterior nares specimens from patients and healthcare workers to screen for MRSA colonization. MRSASelect is not intended to diagnose MRSA infection nor to guide or monitor treatment of infection. Result can be interpreted after 18 - 28 hours incubation.
+
+3. Special conditions for use statement(s): For prescription use only.
+
+4. Special instrument requirements: Not/applicable
+
+# I. Device Description:
+
+MRSASelect is a selective medium for detection and direct identification of MRSA. Methicillin-resistant Staphylococcus aureus is a major cause of nosocomial and life threatening infections which have been associated with significantly higher rates of mortality and morbidity.
+
+The Bio-Rad MRSASelect is a selective and differential chromogenic culture medium for the qualitative detection of MRSA from anterior nares specimens. Results can be interpreted after 18 - 28 hours incubation.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Bio-Rad MRSASelect
+
+2. Predicate K number(s):
+
+K070361
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>MRSASelect is a selectiveand differentialchromogenic medium forthe qualitative detectionof nasal colonization ofmethicillin resistantStaphylococcus aureus(MRSA) to aid in theprevention and control ofMRSA infections inhealthcare settings.</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Specimen type</td><td rowspan=1 colspan=1>Nasal swabs</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Methodology</td><td rowspan=1 colspan=1>Chromogenic agar</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Incubation</td><td rowspan=1 colspan=1>Results can be interpretedafter 18-28 hoursincubation.</td><td rowspan=1 colspan=1>Results after 24 hoursincubation.</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+FDA Special Controls Guidance Document: Antimicrobial Susceptibility Test (AST) Systems; Guidance for Industry and FDA
+
+CLSI M100-S15: Performance Standards for Antimicrobial Susceptibility Testing; Fifteenth Informational Supplement
+
+# L. Test Principle:
+
+The selectivity of this medium is based on the presence of an antibiotic/antifungal mixture and an optimized salt concentration that inhibits the growth of yeast and the majority of Gram negative and Gram positive bacteria with the exception of methicillin-resistant staphylococci. Identification is based on the cleavage of a chromogenic substrate by a specific enzymatic activity of Staphylococcus aureus which produces a strong pink color of the Staphylococcus aureus colonies.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+Comparison of the performances was conducted on 3 different batches of MRSASelect to demonstrate no change in reproducibility with the lengthened incubation time.
+
+Reproducibility studies were performed using three lots of MRSASelect. Thirty-five (35) different strains of micro-organisms were tested. The study clearly demonstrated the reproducibility of the performance of MRSASelect.
+
+b. Linearity/assay reportable range:
+
+n/a
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Quality Control Strains recommended to be tested: S. aureus ATCC 25923: Test organisms at a concentration of $1 0 ^ { 4 } - 1 0 ^ { 5 }$ CFU/plate. S. aureus ATCC 43300: Test organisms at a concentration of $1 0 ^ { 3 } - 1 0 ^ { 4 }$ CFU/plate.
+
+<table><tr><td rowspan=1 colspan=1>Test Strain</td><td rowspan=1 colspan=1>Expected Results after 18  24 hours at 35 -37C</td></tr><tr><td rowspan=1 colspan=1>S. aureus ATCC 25923</td><td rowspan=1 colspan=1>No Growth</td></tr><tr><td rowspan=1 colspan=1>S. aureus ATCC 43300</td><td rowspan=1 colspan=1>Growth  small pink colonies</td></tr></table>
+
+During the extended incubation study, sites tested quality control organisms on each day of testing. Plates were read after 18, 20, 24, 28 hours incubation. No differences were noted in QC results with the extended incubation.
+
+# d. Detection limit:
+
+To confirm the level of detection for MRSASelect, 40 strains of MRSA were plated on the media with $1 \mu \mathrm { L }$ of a $1 0 ^ { 3 }$ dilution obtained from a 0.5MacFarland bacterial suspension. Plates were read after 18, 20, 24 and 28 hours incubation. One strain was observed to have white colonies at 18 and 20 hours incubation, pink colonies were observed after 24 hours incubation. The remaining 39 strains all showed pink colonies after 18, 20, 24 and 28 hours incubation.
+
+To demonstrate the ability of MRSASelect to suppress the growth of organisms other than MRSA, 31 strains of methicillin sensitive Staphylococcus aureus, and 89 strains of coagulase negative Staphylococci were tested by plating $1 \mu \mathrm { L }$ of a $1 0 ^ { 2 }$ dilution obtained from a 0.5 MacFarland bacterial suspension on the medium. The 31 Methicillin Susceptible Staphylococcus aureus tested showed no growth after 28 hours incubation. Of the 89 coagulase negative strains tested, 8 MR S. epidermidis showed very light pinkish colonies after 28 hours incubation. This data is acceptable for assays of this type.
+
+# e. Analytical specificity:
+
+Further Cross Reactivity testing was done with a panel of 34 organisms to demonstrate that the extended incubation would not produce any reactivity with other organisms. Organisms were inoculated onto MRSASelect with $1 0 \mu \mathrm { L }$ of a $1 0 ^ { \dag }$ dilution obtained from a 0.5 MacFarland suspension. Plates were read at 18, 20, 24 and 28 hours incubation. No difference was noted at 18, 20, 24 and 28 hours incubation.
+
+# Interfering Substances – Medicinal Products
+
+To determine the effect of potential interfering substances on the performance of MRSASelect, representative samples of nasal sprays containing phenylephrine hydrochloride commonly used in the United States were tested to determine potential interference with growth of MRSA on MRSASelect. Studies confirmed that the effect of nasal sprays were similar on MRSASelect and as on non-selective Blood agar and thus not specific to MRSASelect. No interference was observed as to the coloration of MRSA on MRSASelect nor did the sprays impact the coloration of methicillin resistant coagulase negative staphylococci. Sensitive strains were inhibited on MRSASelect.
+
+# Interfering Substances -- Transport Media
+
+To determine the effect of potential interfering substances on the performance of MRSASelect, several transport media commonly used in the United States were tested. These various transport devices can be used effectively for the transport of MRSA for the inoculation of MRSASelect. When observed, shift of the bacterial count was comparable to blood agar and was considered acceptable according to CLSI M40A.
+
+f. Assay cut-off: n/a
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: n/a
+
+b. Matrix comparison: n/a
+
+# 3. Clinical Studies:
+
+To demonstrate that the clinical performance of the device did not change, and that the device can be read at various incubation times, studies were performed at two clinical sites in the United States. Each site tested 100 fresh nasal swabs comparing results of MRSASelect to routine culture methods: Trypticase Soy Agar with $5 \%$ Blood, Coagulase and E-Test Oxacillin Susceptibility Testing. MRSASelect plates were incubated at $3 5 { - } 3 7 ^ { \circ } \mathrm { C }$ and read at 18, 20, 24 and 28 hours. Results were recorded. While there were minor differences noted, final interpretation was consistent after 18, 20, 24, and 28 hours incubation. No discordant samples were noted when comparing 18, 20, 24 and 28 hours incubation. There were two samples that demonstrated very light pink pin-points after 28 hours incubation (UMD 44849, UMD 852N.4). These colonies were noted by the test site to be inconsistent with Methicillin Resistant Staphylococcus aureus colony morphology. Performance was acceptable and consistent with data submitted in the original submission (K070361).
+
+# Comparison with Routine Culture
+
+a. Clinical Sensitivity and Specificity:   
+
+<table><tr><td colspan="2"></td><td colspan="2">Routine Culture pos</td><td rowspan="2">total</td><td colspan="2"></td></tr><tr><td rowspan="7">pos MRSA Select 18 hours neg</td><td rowspan="7"></td><td></td><td>neg</td><td>sen</td><td>100%</td></tr><tr><td>18</td><td>3</td><td>21</td><td>spec</td><td>98%</td></tr><tr><td>0</td><td>179</td><td>179</td><td>ppv</td><td>86%</td></tr><tr><td>18</td><td>182</td><td>200</td><td>npv</td><td>100%</td></tr><tr><td></td><td>Routine Culture</td><td>total</td><td></td><td></td></tr><tr><td>pos</td><td>neg</td><td>21</td><td>sen</td><td>100%</td></tr><tr><td>18</td><td>3</td><td></td><td>spec</td><td>98%</td></tr><tr><td rowspan="6">20 hours neg pos</td><td>0</td><td>179</td><td>179</td><td>ppv</td><td></td><td>86% 100%</td></tr><tr><td>18</td><td>182</td><td>200</td><td></td><td>npv</td><td></td></tr><tr><td>pos</td><td>Routine Culture</td><td>neg</td><td>total</td><td></td><td></td></tr><tr><td>18</td><td>3</td><td>21</td><td></td><td>sen spec</td><td>100% 98%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>0</td><td>179</td><td>179</td><td></td><td>ppv</td><td>86%</td></tr><tr><td rowspan="4"></td><td></td><td></td><td></td><td></td><td>npv</td><td>100%</td></tr><tr><td></td><td></td><td>200</td><td></td><td></td><td></td></tr><tr><td>18</td><td>182</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+<table><tr><td colspan="5">Routine Culture</td></tr><tr><td></td><td>pos</td><td>neg</td><td>total</td><td>sen</td></tr><tr><td>pos MRSA Select</td><td>18</td><td>3</td><td>21</td><td>100% 98%</td></tr><tr><td></td><td></td><td></td><td>spec</td><td></td></tr><tr><td>28 hours neg</td><td>0</td><td>179</td><td>ppv</td><td>86%</td></tr><tr><td></td><td></td><td></td><td>npv</td><td>100%</td></tr><tr><td></td><td>18</td><td>182</td><td>200</td><td></td></tr></table>
+
+The three discordant samples noted were observed at only one site. No discordant samples were noted at the second site. Site one reported that discordant samples were further tested using BD IDI-MRSA PCR Assay. All samples were confirmed to be PCR positive for MRSA. The data was not used to change the initial results.
+
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+In the original submission, 1772 samples were tested at two sites against routine culture (blood agar plate, coagulase (Staphaurex), and susceptibility), commercial available chromogenic agar plate, and MRSASelect. An additional 1241 samples were tested at a third site against CHROMagar and MRSASelect.
+
+4. Clinical cut-off: n/a – color reaction
+
+5. Expected values/Reference range:
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

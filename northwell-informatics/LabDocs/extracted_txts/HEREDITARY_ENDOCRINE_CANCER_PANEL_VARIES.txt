@@ -1,0 +1,115 @@
+Standard Operating Procedure (SOP) for Hereditary Endocrine
+Cancer Panel Analysis
+1. Purpose: To outline the procedure for the analysis and
+generation of results for the Hereditary Endocrine Cancer Panel
+using next-generation sequencing (NGS).
+2. Scope: This procedure applies to all laboratory personnel
+performing the Hereditary Endocrine Cancer Panel analysis in
+the laboratory.
+3. Responsibility:
+◦ It is the responsibility of designated laboratory personnel to
+perform the analysis as outlined in this SOP.
+◦ The laboratory supervisors are responsible for ensuring staff
+compliance with this SOP and for addressing any deviations
+or issues that arise during the analytical process.
+4. Prerequisites:
+◦ Specimen collection, receipt, and accessioning must be
+completed and approved.
+◦ Ensure that all instruments and reagents are within their
+valid calibration and expiry dates.
+5. Equipment, Reagents, and Supplies:
+◦ NGS Instrument (e.g., Illumina MiSeq, NextSeq, or
+equivalent)
+◦ Hereditary Endocrine Cancer Panel Kit (e.g., Agilent
+SureSelect, Illumina TruSight, or equivalent)
+◦ High-sensitivity DNA quantification reagents and equipment
+(e.g., Qubit, Bioanalyzer)
+◦ PCR reagents and consumables
+◦ Pipettes and sterile pipette tips
+◦ Nuclease-free water
+◦ Laboratory consumables (tubes, plates, etc.)
+6. Procedure:
+A) DNA Extraction and Quantitation:
+1. Ensure that the DNA extraction from the collected
+specimen has been completed.
+2. Quantify the extracted DNA using Qubit or an equivalent
+quantification method.
+3. Assess the quality of DNA by running a sample on a
+Bioanalyzer or equivalent.
+B) Library Preparation:
+1. Follow the manufacturer’s instructions for the Hereditary
+Endocrine Cancer Panel Kit to prepare libraries.
+2. Amplify the target regions using PCR.
+3. Purify the PCR product using appropriate purification
+methods (e.g., magnetic beads).
+4. Quantify and assess the quality of the amplified libraries
+using Bioanalyzer or equivalent.
+C) Library Pooling and Sequencing:
+1. Pool the prepared libraries according to the protocol
+provided by the NGS instrument manufacturer.
+2. Load the pooled libraries onto the NGS instrument.
+3. Set up the sequencing run parameters as per the NGS
+instrument and kit protocol.
+4. Initiate the sequencing run.
+D) Data Analysis:
+1. Upon completion of the sequencing run, transfer the data
+to the bioinformatics pipeline.
+2. Perform quality control checks on the sequencing data
+(e.g., read quality, coverage metrics).
+3. Align the sequencing reads to the reference genome
+(e.g., human genome build GRCh38).
+4. Call variants (e.g., SNPs, indels) using a validated variant
+calling pipeline.
+5. Annotate the identified variants using appropriate
+annotation tools.
+6. Filter the annotated variants based on the clinical
+relevance and quality metrics.
+E) Result Interpretation and Reporting:
+1. Interpret the filtered variants in the context of hereditary
+endocrine cancer.
+2. Review the variants by an experienced molecular
+geneticist.
+3. Generate a clinical report summarizing significant
+findings, including variant interpretation, clinical
+significance, and recommendations.
+4. Submit the report for final review and approval by the
+relevant clinical personnel.
+5. Ensure the report is uploaded into the Laboratory
+Information System (LIS) for review and verification.
+7. Quality Control:
+◦ Include positive and negative controls in each batch of
+analysis.
+◦ Analyze internal quality control materials as specified,
+documenting their results.
+◦ Perform inter-lab quality assessments periodically to ensure
+consistency and accuracy.
+◦ Regularly assess all equipment and reagents for compliance
+with quality standards.
+8. Reporting Results:
+◦ Review and verify results within the LIS.
+◦ Communicate critical or unexpected results to the
+requesting physician promptly.
+◦ Confirm that all reporting adheres to the laboratory's
+reporting guidelines and turnaround times.
+9. Sample Integrity:
+◦ If a sample’s integrity is in question (e.g., insufficient DNA,
+degraded sample), document the issue, and follow up with
+appropriate corrective measures such as re-extraction or re-
+collection.
+10. References:
+◦ Manufacturer's Instructions for the Hereditary Endocrine
+Cancer Panel Kit
+◦ NGS Instrument User Manual
+◦ Bioinformatics pipeline documentation
+◦ Laboratory's Quality Management System (QMS)
+documents
+List of Abbreviations:
+• DNA: Deoxyribonucleic Acid
+• NGS: Next-Generation Sequencing
+• PCR: Polymerase Chain Reaction
+• LIS: Laboratory Information System
+• SOP: Standard Operating Procedure
+Recoding of procedures and any incidents should align with the lab’s
+standard documentation practices. This protocol must be reviewed
+and updated regularly to reflect advances in technology and any
+changes to standard practices.

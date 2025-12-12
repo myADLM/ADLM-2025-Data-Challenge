@@ -1,0 +1,97 @@
+Standard Operating Procedure (SOP) for HLA Class I (ABC) Multiple
+and Single Locus Typing DNA-PCR and Next Generation Sequencing
+(NGS), Blood
+1. PURPOSE:
+The purpose of this Standard Operating Procedure (SOP) is to
+outline the process for HLA Class I (ABC) multiple and single locus
+typing using DNA-PCR and Next Generation Sequencing (NGS)
+techniques. This procedure is used to generate accurate and reliable
+results for clinical and research applications.
+1. RESPONSIBILITY:
+• Laboratory staff members are responsible for following the
+procedures outlined in this SOP.
+• It is the responsibility of the quality control staff and supervisors to
+ensure that the procedures are correctly implemented and that
+any deviations or issues are documented and addressed.
+• Timely communication of any problems arising during the
+analytical phase to the laboratory manager or designee.
+1. SPECIMEN REQUIREMENTS:
+• Specimen Type: Peripheral blood in EDTA tubes or ACD tubes.
+• Volume: Minimum 5mL of peripheral blood.
+• Storage: Specimens should be stored at 2-8°C and processed
+within 72 hours of collection to ensure DNA integrity.
+1. REAGENTS, SUPPLIES, AND EQUIPMENT:
+• DNA isolation kit (validated specifically for extracting HLA typing
+quality DNA).
+• PCR reagents (primers, Taq polymerase, dNTPs, buffers).
+• NGS Library Preparation Kit (encompassing adapters, indices,
+enzymes).
+• NGS platform (Illumina, Ion Torrent, etc.).
+• Clean and calibrated pipettes.
+• Sterile, nuclease-free pipette tips.
+• PCR tubes/plates.
+• Thermal cycler.
+• Centrifuge with PCR plate rotor.
+• Nucleic acid quantification device (e.g., Qubit, NanoDrop).
+• Quality control standards and controls for HLA typing.
+1. PROCEDURE:
+A) DNA Isolation:
+1. Isolate genomic DNA using a validated DNA extraction kit
+according to manufacturer instructions.
+2. Quantify DNA using a nucleic acid quantification device.
+3. Normalize DNA concentration to 10ng/μL for PCR amplification.
+B) PCR Amplification:
+1. Prepare PCR master mix according to the recipe specified by
+the HLA typing kit or laboratory-validated protocol.
+2. Add 1-2μL of DNA template to each well of the PCR plate.
+3. Perform PCR amplification as per the cycling conditions
+specified for HLA Class I loci (A, B, C).
+4. Confirm amplification success by running a small aliquot of
+PCR product on an agarose gel.
+C) Library Preparation for NGS:
+1. Utilize an NGS Library Preparation Kit to ligate adapters and
+indices to the PCR-amplified DNA.
+2. Follow the library preparation protocol, including purification
+steps, to obtain a final indexed library ready for sequencing.
+D) Sequencing:
+1. Quantify and normalize the prepared library.
+2. Load the library onto the NGS platform.
+3. Run the sequencing protocol specific to the platform being
+used, ensuring the inclusion of necessary controls.
+E) Data Analysis:
+1. Use bioinformatics tools provided by NGS platform or other
+validated means to align the sequencing reads to the reference
+HLA sequences.
+2. Call HLA alleles based on the aligned and annotated
+sequencing data using reference aligners and HLA typing
+software.
+3. Review and interpret the HLA typing results.
+4. Validate the sequencing results by comparing with known
+controls and internal quality standards.
+5. QUALITY CONTROL:
+• Include positive and negative control samples in each run to
+monitor the reagents and procedures.
+• Regularly calibrate and maintain all equipment according to
+manufacturer’s recommendations.
+• Record temperature and maintenance logs for all equipment
+involved in the procedure.
+• Perform periodic proficiency testing and inter-laboratory
+comparisons to ensure consistent and reliable results.
+• Document all deviations from the process and corrective actions
+taken.
+1. REPORTING RESULTS:
+• Verify all results by a qualified technologist before reporting.
+• Enter the results into the Laboratory Information System (LIS).
+• Interpret the results in conjunction with clinical information where
+appropriate.
+• Forward the final interpreted results to the requesting clinician or
+researcher with any necessary interpretations or comments.
+1. REFERENCES:
+• Manufacturer instructions for DNA Isolation Kit.
+• Manufacturer instructions for PCR and NGS Library Preparation
+Kits.
+• Relevant peer-reviewed literature and internal validation
+protocols.
+This protocol establishes a comprehensive framework for performing
+HLA Class I typing using DNA-PCR and NGS to ensure high quality,
+accurate, and reliable results.

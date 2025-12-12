@@ -1,0 +1,640 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY ONLY TEMPLATE
+A. 510(k) Number:
+k111516
+B. Purpose for Submission:
+Modification of a previously cleared device to change software architecture for NMR
+LipoProfile Test (LDL-P, HDL-C and triglycerides) and NMR curve fit algorithm for
+LDL-P
+C. Measurand:
+LDL-P (low density lipoprotein particle number), HDL cholesterol, triglycerides
+D. Type of Test:
+Nuclear magnetic resonance (NMR)
+E. Applicant:
+LipoScience Inc.
+F. Proprietary and Established Names:
+NMR LipoProfile Test
+G. Regulatory Information:
+Product Code Classification Regulation Section Panel
+MRR I, meets limitations 21 CFR §862.1475 – Chemistry (75)
+per 21 CFR 862.9 Lipoprotein test system
+(c)(4)
+LBS I, meets limitations 21 CFR §862.1175 – Chemistry (75)
+per 21 CFR 862.9 Cholesterol test system
+(c)(4)
+CDT I, meets limitations 21 CFR §862.1705 – Chemistry (75)
+per 21 CFR 862.9 Triglyceride test
+(c)(4) system
+H. Intended Use:
+1. Intended use(s):
+See Indications for use below.
+1
+
+[Table 1 on page 1]
+	Product Code			Classification			Regulation Section		Panel	
+MRR
+LBS
+CDT			I, meets limitations
+per 21 CFR 862.9
+(c)(4)
+I, meets limitations
+per 21 CFR 862.9
+(c)(4)
+I, meets limitations
+per 21 CFR 862.9
+(c)(4)			21 CFR §862.1475 –
+Lipoprotein test system
+21 CFR §862.1175 –
+Cholesterol test system
+21 CFR §862.1705 –
+Triglyceride test
+system			Chemistry (75)
+Chemistry (75)
+Chemistry (75)	
+
+--- Page 2 ---
+2. Indication(s) for use:
+The NMR LipoProfile® test, when used with the NMR Profiler, an automated
+NMR spectrometer, measures lipoprotein particles to quantify LDL particle
+number (LDL-P), HDL cholesterol (HDL-C), and triglycerides in human serum
+and plasma using nuclear magnetic resonance (NMR) spectroscopy. LDL-P and
+these NMR-derived concentrations of HDL-C and triglycerides are used in
+conjunction with other lipid measurements and clinical evaluation to aid in the
+management of lipoprotein disorders associated with cardiovascular disease. This
+test is performed and provided as a service by LipoScience Laboratory.
+3. Special conditions for use statement(s):
+For prescription use only.
+4. Special instrument requirements:
+This device is cleared as a service (in-house). Samples are sent to Liposcience
+Laboratories to be run on the NMR Profiler, using software version Gen2.1.
+I. Device Description:
+The test system includes a 400 MHz proton NMR spectrometer interfaced with a
+commercial sample handler, an analysis server containing the software to analyze
+digitized spectral data, and the following reagents:
+• NMR Diluent - aqueous solution containing Na EDTA (5.0mM), CaCl (1.0mM),
+2 2
+KCL (120mM), Na HPO (50mM), NaN (0.02%), pH 7.4
+2 4 3
+• NMR Wash - Triton X-100-0.1%v/v, Liqui Nox 0.1% v/v in deionized water, pH
+10.0
+• NMR Calibrator - aqueous solution of Trimethyl Acetate (TMA) disodium salt
+(15.0 mM) containing Na EDTA (5.0 mM), CaCl (3.0 mM) KCl (120 nM), D O
+2 2 , 2
+10% v/v
+• NMR LipoProfile Quality Control material - two levels of pooled human serum-
+based control material, (Control A and Control B), with pre-determined target
+ranges.
+The control materials contain human source material. Each donor unit is tested by
+FDA – approved methods and found non-reactive for hepatitis B surface antigen
+(HBsAg), antibody to hepatitis C, and antibody to HIV-1/2, all products using human
+source material should be handled as potentially infectious, because no test method
+can offer complete assurance that infectious agents are absent.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+NMR Profiler and NMR Lipoprofile Assay
+2. Predicate K number(s):
+k063841
+2
+
+--- Page 3 ---
+3. Comparison with predicate:
+Similarities
+Item Predicate device Proposed device
+(k063841)
+Indications for use Measures lipoprotein Same
+particles to quantify LDL
+particle number (LDL-P),
+HDL cholesterol (HDL-
+C), and triglycerides in
+human serum and plasma
+using nuclear magnetic
+resonance (NMR)
+spectroscopy. LDL-P and
+these NMR-derived
+concentrations of HDL-C
+and triglycerides are used
+in conjunction with other
+lipid measurements and
+clinical evaluation to aid
+in the management of
+lipoprotein disorders
+associated with
+cardiovascular disease.
+Specimen type Serum and plasma Same
+Reference range study 5th through 95th percentile Same
+values for LDL-P
+(Ranges from predicate
+obtained for samples from
+transferred to new
+the Multi-Ethnic Study of
+device via CLSI
+Athlerosclerosis
+Guideline C28-A2; see
+section M5 below)
+3
+
+[Table 1 on page 3]
+Similarities				
+Item		Predicate device		Proposed device
+		(k063841)		
+Indications for use	Measures lipoprotein
+particles to quantify LDL
+particle number (LDL-P),
+HDL cholesterol (HDL-
+C), and triglycerides in
+human serum and plasma
+using nuclear magnetic
+resonance (NMR)
+spectroscopy. LDL-P and
+these NMR-derived
+concentrations of HDL-C
+and triglycerides are used
+in conjunction with other
+lipid measurements and
+clinical evaluation to aid
+in the management of
+lipoprotein disorders
+associated with
+cardiovascular disease.			Same
+Specimen type	Serum and plasma			Same
+Reference range study	5th through 95th percentile
+values for LDL-P
+obtained for samples from
+the Multi-Ethnic Study of
+Athlerosclerosis			Same
+(Ranges from predicate
+transferred to new
+device via CLSI
+Guideline C28-A2; see
+section M5 below)
+
+--- Page 4 ---
+Differences
+Item Predicate device Proposed device
+(k063841)
+Software version that LP2 Gen2.1
+includes algorithm used
+to curve fit to the NMR
+peak and calculate the
+LDL-P results and
+software architecture
+Software architecture Calculation of all three Modular (separate
+analytes (LDL-P, HDL software modules for
+concentration and each analyte that allows
+triglycerides) performed for modules to change
+by one algorithm in one and new modules to be
+software module. added with no impact to
+Changes to the algorithm the signal generation or to
+result in changes in other unmodified
+calculations for all analytes)
+analytes.
+K. Standard/Guidance Document Referenced (if applicable):
+• CLSI Guideline EP5-A2: Evaluation of Precision Performance of Quantitative
+Measurement Methods
+• CLSI Guideline EP 17-A: Protocols for Determination of Limits of Detection and
+Limits of Quantitation
+• CLSI Guideline EP6-A: Evaluation of the Linearity of Quantitative Measurement
+Procedures: A Statistical Approach
+• CLSI Guideline EP9-A2: Method Comparison and Bias Estimation Using Patient
+Samples
+• CLSI Protocol EP7-A2: Interference Testing in Clinical Chemistry
+• CLSI Guideline C28-A2: How to Define and Determine Reference Intervals in
+the Clinical Laboratory
+L. Test Principle:
+The NMR LipoProfile® test and NMR Profiler involves measurement of the 400
+MHz proton NMR spectrum of a plasma/serum sample, deconvolution of the
+composite signal at approximately 0.8 ppm to produce signal amplitudes of the
+lipoprotein subclasses that contribute to the composite plasma/serum signal, and
+conversion of these subclass signal amplitudes to lipoprotein subclass concentrations.
+The ~0.8 ppm plasma NMR signal arises from the methyl group protons of the lipids
+4
+
+[Table 1 on page 4]
+Differences				
+Item		Predicate device		Proposed device
+		(k063841)		
+Software version that
+includes algorithm used
+to curve fit to the NMR
+peak and calculate the
+LDL-P results and
+software architecture	LP2			Gen2.1
+Software architecture	Calculation of all three
+analytes (LDL-P, HDL
+concentration and
+triglycerides) performed
+by one algorithm in one
+software module.
+Changes to the algorithm
+result in changes in
+calculations for all
+analytes.			Modular (separate
+software modules for
+each analyte that allows
+for modules to change
+and new modules to be
+added with no impact to
+the signal generation or to
+other unmodified
+analytes)
+
+--- Page 5 ---
+carried in the LDL, HDL and VLDL subclasses of varying diameters. The NMR
+signals from the various lipoprotein subclasses have unique and distinctive
+frequencies and line shapes, each of which is accounted for in the deconvolution
+analysis model. Each subclass signal amplitude is proportional to the number of
+subclass particles emitting the signal, which enables subclass particle concentrations
+to be calculated from the subclass signal amplitudes derived from the spectral
+deconvolution analysis. LDL subclass particle concentrations, in units of nanomoles
+of particles per liter (nmol/L), are summed to give the reported total LDL particle
+concentration (LDL-P). By employing conversion factors assuming that the various
+lipoprotein subclass particles have cholesterol and triglyceride contents characteristic
+of normolipidemic individuals, HDL cholesterol and triglyceride concentrations are
+also derived.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Within-run and within-laboratory precision were evaluated in accordance with
+the methods defined in the CLSI Guideline EP5-A, “Evaluation of Precision
+Performance of Clinical Chemistry Devices.”
+Three serum pools with different analyte concentrations were prepared and
+tested in multiple runs over multiple days. For the Within-Lab, multiple
+instruments, operators and reagent lots were incorporated into the testing and
+a variance component analysis was conducted to estimate the individual
+sources of the total system variability.
+Within-run precision - A single run of 20 replicates for the low and the
+medium pool was conducted on one instrument and a single run of 20
+replicates for the high pool was conducted on a second NMR instrument. A
+single operator conducted all three runs.
+LDL-P (nmol/L)
+Pool N Mean SD SD 95%CI CV
+Low 20 908 45.4 34.5 – 66.3 5.0%
+Medium 20 1493 64.8 49.3 – 94.7 4.3%
+High 19* 1967 72.8 55.0 – 107.6 3.7%
+*One replicate of the high pool produced no data due to instrument failure
+(sample delivery failure) and therefore only 19 replicates were analyzed.
+5
+
+[Table 1 on page 5]
+	Pool			N			Mean			SD			SD 95%CI			CV	
+Low			20			908			45.4			34.5 – 66.3			5.0%		
+Medium			20			1493			64.8			49.3 – 94.7			4.3%		
+High			19*			1967			72.8			55.0 – 107.6			3.7%		
+
+--- Page 6 ---
+HDL-C (mg/dL)
+Pool N Mean SD SD 95%CI CV
+Low 20 23.7 0.5 0.4 - 0.7 2.0%
+Medium 19* 54.9 1.0 0.8 - 1.5 1.9%
+High 20 95.1 0.9 0.6 - 1.2 0.9%
+Triglycerides (mg/dL)
+Pool N Mean SD SD 95%CI CV
+Low 20 81.0 2.1 1.6 - 3.1 2.6%
+Medium 19* 140.6 2.5 1.9 - 3.7 1.8%
+High 20 649.5 8.7 6.6 - 12.7 1.3%
+* One replicate of the medium pool produced no data due to an instrument
+failure (sample delivery failure) and therefore, only has 19 replicates
+analyzed.
+Within-laboratory precision – Two runs per day with two replicates per run
+for three pools were tested on three instruments for a total of 20 testing days.
+Five operators conducted the study over the 20 testing days. Additionally, six
+lots of NMR Diluent 1 were used over the 20 days of testing.
+LDL-P (nmol/L):
+Pool N Mean SD SD 95%CI CV
+Low 240 932.6 64.6 58.8 - 71.7 6.9%
+Medium 240 1539.3 86.9 77.3 – 99.3 5.6%
+High 240 2046.1 111.8 99.3 – 127.9 5.5%
+6
+
+[Table 1 on page 6]
+	Pool			N			Mean			SD			SD 95%CI			CV	
+Low			20			23.7			0.5			0.4 - 0.7			2.0%		
+Medium			19*			54.9			1.0			0.8 - 1.5			1.9%		
+High			20			95.1			0.9			0.6 - 1.2			0.9%		
+
+[Table 2 on page 6]
+	Pool			N			Mean			SD			SD 95%CI			CV	
+Low			20			81.0			2.1			1.6 - 3.1			2.6%		
+Medium			19*			140.6			2.5			1.9 - 3.7			1.8%		
+High			20			649.5			8.7			6.6 - 12.7			1.3%		
+
+[Table 3 on page 6]
+	Pool			N			Mean			SD			SD 95%CI			CV	
+Low			240			932.6			64.6			58.8 - 71.7			6.9%		
+Medium			240			1539.3			86.9			77.3 – 99.3			5.6%		
+High			240			2046.1			111.8			99.3 – 127.9			5.5%		
+
+--- Page 7 ---
+HDL-C (mg/dL):
+Pool N Mean SD SD 95%CI CV
+Low 240 23.5 0.9 0.8 – 1.0 3.9%
+Medium 240 56.5 1.3 1.2-1.6 2.4%
+High 240 96.2 2.5 2.1 – 2.9 2.6%
+Triglycerides (mg/dL):
+Pool N Mean SD SD 95%CI CV
+Low 240 78.0 2.9 2.6 – 3.3 3.7%
+Medium 240 146.0 4.2 3.6 – 4.9 2.8%
+High 240 627.5 20.7 17.7 – 24.8 3.3%
+b. Linearity/assay reportable range:
+The claimed measuring ranges of this device are:
+LDL-P: 300 - 3500 nmol/L
+HDL-C: 7 - 140 mg/dL
+Triglycerides: 5 - 1100 mg/dL
+LDL-P:
+The dilution series consisted of eleven samples that were prepared by
+combining selected de-identified, residual specimens from LipoScience’s
+commercial laboratory. The samples covered the range from 184 nmol/L to
+3868 nmol/L. All the pools were run on the same day in 4 replicates. The
+study was conducted in a single run on one instrument. Significance of the
+terms for both the linear and polynomial regression was examined.
+7
+
+[Table 1 on page 7]
+	Pool			N			Mean			SD			SD 95%CI			CV	
+Low			240			23.5			0.9			0.8 – 1.0			3.9%		
+Medium			240			56.5			1.3			1.2-1.6			2.4%		
+High			240			96.2			2.5			2.1 – 2.9			2.6%		
+
+[Table 2 on page 7]
+	Pool			N			Mean			SD			SD 95%CI			CV	
+Low			240			78.0			2.9			2.6 – 3.3			3.7%		
+Medium			240			146.0			4.2			3.6 – 4.9			2.8%		
+High			240			627.5			20.7			17.7 – 24.8			3.3%		
+
+--- Page 8 ---
+R=0.9987, R2=0.9974
+Linear Term Coefficient SE p
+Intercept -11.9944 19.4903 0.5424
+X 0.9843 0.0086 < 0.0001
+R=0.9990, R2=0.9980
+Non-Linear Term Coefficient SE p
+Intercept 39.4779 23.4440 0.1016
+X 0.8929 0.0293 < 0.0001
+X2 0.0000 0.0000 0.0027
+In the polynomial regression, the X2 term was significant (p=0.0027). Given
+the significance of the nonlinear term, acceptance criteria for allowable
+nonlinearity were evaluated. Samples 5-11 met the sponsor’s pre-determined
+allowable nonlinearity criteria (10%). The low concentration samples 2-3,
+compared to the absolute nonlinearity criteria of 52.1 nmol/L, meet the
+sponsor’s allowable nonlinearity criteria. Therefore the linearity observed for
+LDL-P in this study supports the claimed measuring range of 300 to 3500
+nmol/L.
+HDL-C and triglycerides: Twelve concentration levels were prepared across
+the range of the assays by serial dilutions of the source pools and tested. The
+study was conducted in a single run on one instrument and each level was
+tested in replicates of four. For HDL-C, the samples covered the range of 6.3
+– 205 mg/dL; for triglycerides the samples covered the range 5.4 – 1880
+mg/dL. Linear regression analysis yielded the following results:
+HDL-C:
+R2 = 0.9998
+y = 1.004x - 0.5956
+Triglycerides:
+R2 = 0.9998
+y = 1.006 + 2.057
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Reagents, calibrators and controls are unchanged from the previously cleared
+8
+
+[Table 1 on page 8]
+R=0.9987, R2=0.9974			
+Linear Term	Coefficient	SE	p
+Intercept	-11.9944	19.4903	0.5424
+X	0.9843	0.0086	< 0.0001
+R=0.9990, R2=0.9980			
+Non-Linear Term	Coefficient	SE	p
+Intercept	39.4779	23.4440	0.1016
+X	0.8929	0.0293	< 0.0001
+X2	0.0000	0.0000	0.0027
+
+--- Page 9 ---
+device (k063841).
+d. Detection limit:
+The lower ends of the measuring ranges for LDL-P, HDL-C and triglycerides
+were determined by linearity, above in 2b, and unchanged from the predicate
+(k063841):
+LDL-P: 300 mmol/L
+HDL-C: 7 mg/dL
+Triglycerides: 5 mg/dL
+e. Analytical specificity:
+A new interference study was performed to evaluate whether substances could
+be potential interferents of the device and its modified software. In addition,
+two new therapeutics for the intended use population became available and
+were also evaluated in the new study.
+In order to evaluate potential interferents with the new version of the LDL-P
+software Gen2.1, LipoScience employed the following study design: first,
+identify potentially interfering substances that show resonance(s) in the
+vicinity of lipoprotein resonances. Each potential interferent was diluted in
+the appropriate solvent and analyzed on the NMR Profiler to determine if it
+demonstrated peak(s) in the 0.7 – 1.0 ppm region. Five endogenous
+substances and 22 drugs were screened in this step using concentrations in
+accordance to CLSI EP7-A2.
+Second, once a potentially interfering substance was identified, a spiking
+study was completed where the substance was added to sample pools
+containing two different levels of LDL-P, HDL-C and triglycerides for a
+paired difference test.
+9
+
+--- Page 10 ---
+Endogenous Exogenous (OTC drugs, etc.)
+Potential Test
+Interferent Concentration Potential Interferent Test Concentration
+Hemoglobin 2 mg/mL Simvastatin 48 μg/mL
+Bilirubin,
+unconj. 200 μg/mL Fenofibrate 45 μg/mL
+Creatinine 50 μg/mL Nicotinic Acid Sodium salt 1.2 mg/mL
+Urea 2.6 mg/mL Acetylsalicylic acid 652 μg/mL
+Uric acid 235 μg/ml Acetaminophen 200 μg/mL
+Naproxen Sodium 547 μg/mL
+Ibuprofen Sodium salt 2101, 702 μg/mL
+Piroxicam 60 μg/mL
+1 Hydrochlorothiazide 6.0 μg/mL
+Triamterene 8.9 μg/mL
+Pravastatin 48 μg/mL
+Furosemide 60 μg/mL
+Metoprolol tartrate 6.4 μg/mL
+Nifedipine 400 μg/mL
+Enalaprilat Dihydrate 0.3 μg/mL
+Hydralazine hydrochloride 180 μg/mL
+Isosorbide dinitrate (lactose
+mixture 2:3) 375 μg/mL
+Clopidogrel hydrogensulfate 360 μg/mL
+Glipizide 2.0 μg/mL
+Metformin Hydrochloride 600 μg/mL
+Pioglitazone hydrochloride 27 μg/mL
+Atorvastatin 48 μg/mL
+1 For LDL-P and HDL concentration
+2 test results for triglycerides were ~4 to 6% lower at the 140 and 210 μg/mL
+concentrations of ibuprofen
+f. Assay cut-off:
+Not applicable.
+2. Comparison studies:
+a. Method comparison with predicate device:
+LDL-P: The comparison was conducted in agreement with CLSI EP9-A2:
+Method Comparison and Bias Estimation Using Patient Samples. The study
+involved testing singlicates followed by statistical analysis of 1600 freshly-
+collected clinical de-identified specimens across the range of the LDL-P test.
+Bias was calculated for LDL-P from the linear regression line at the medical
+decision limits of 1000, 1300 and 1600 nmol/L as well. 1555 samples are
+included in the final analysis (44 samples were outside of the claimed
+10
+
+--- Page 11 ---
+measuring range; one sample failed QC check due to an instrument shim error
+and could not be repeated due to insufficient sample volume). The range of
+the samples was 315 to 3497 nmol/L.
+Linear regression/least squares analysis:
+r = 0.970
+Slope = 0.98 95% CI: 0.97 – 0.99
+Intercept = 46.42 95% CI: 22.44 – 70.40
+Deming Regression analysis:
+Slope = 1.01 95% CI: 1.00 - 1.03
+Intercept = -7.97 95% CI: -31.45 – 15.50
+In addition to conducting a method comparison for the overall data set, the
+data were classified into the three following segments based on LDL-P values;
+(1) results below the medical decision limits of 1000 nmol/L, (2) results
+between 1000 and 1600 nmol/L and (3) results above 1600 nmol/L. For each
+segment the bias was determined. The determined % Bias for each segment
+was less than the acceptable allowable bias (< 5% for each level).
+Observed LDL-P Bias per linear regression at Medical Decision Limits
+Linear regression Deming regression
+LDL-P Absolute Absolute
+% Bias % Bias
+(nmol/L) Bias Bias
+1000 28.0 2.8% 3.9 0.4%
+1300 22.6 1.7% 7.5 0.6%
+1600 17.0 1.1% 11.1 0.7%
+HDL-C and triglycerides:
+A total of 1600 freshly-collected clinical de-identified specimens from the
+LipoScience commercial lab were evaluated. The performance of these
+samples run on the proposed device was compared to results given by the
+predicate (k063841).
+HDL-C:
+y = 1.00x + 0.03
+R = 0.999
+Range = 12.0 – 140.0 mg/dL
+Triglycerides:
+n = 1597 (two samples outside the measuring range; one sample failed as
+indicated above under LDL-P method comparison)
+y = 1.00x + 1.17
+r = 1.000
+Range = 20 – 925 mg/dL
+11
+
+[Table 1 on page 11]
+	Linear regression		Deming regression	
+LDL-P
+(nmol/L)	Absolute
+Bias	% Bias	Absolute
+Bias	% Bias
+1000	28.0	2.8%	3.9	0.4%
+1300	22.6	1.7%	7.5	0.6%
+1600	17.0	1.1%	11.1	0.7%
+
+--- Page 12 ---
+b. Matrix comparison:
+The various specimen tubes recommended by the manufacturer for use with
+this assay are serum drawn in gel barrier NMR LipoTubes (Greiner, Inc. Part
+#456293), or red-top plain serum collection tubes; or plasma drawn into
+EDTA or heparin collection tubes. A study was conducted to validate the
+equivalence of NMR LipoProfile results using these serum and plasma
+specimens. Blood was collected in the specified collection tubes and
+immediately tested. The study comparing samples collected in serum tubes
+(NMR LipoTube, reference) to plain serum (red-top), EDTA plasma (purple
+top) or Na Heparin plasma (green top) tubes tested individual specimens from
+30 volunteers. Samples tested spanned most of the assay range. Average
+biases observed ranged between 2.6 to 6.1% for LDL-P. No concentration-
+dependent trends were observed.
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable.
+b. Clinical specificity:
+Not applicable.
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable.
+4. Clinical cut-off:
+Not applicable.
+5. Expected values/Reference range:
+The sponsor used procedures in CLSI Guideline C28-A2 to bridge the
+transference of a reference range established with the predicate method in
+k063841 to the proposed device. For the predicate devices, in order to determine
+the distribution of LDL-P levels expected in a representative sampling of the
+general population, plasma samples (n=5,362) were analyzed from apparently
+healthy men and women (mean age 61, ranging from 44 to 84 years) enrolled in
+the Multi-Ethnic Study of Atherosclerosis (MESA), a large epidemiologic study
+sponsored by the National Heart, Lung, and Blood Institute. Results were
+presented as percentiles.
+In the sponsor’s bridging study, the plasma samples from the MESA study were
+re-tested. Statistical analysis demonstrated that the percentiles determined for the
+predicate are also valid for the proposed device.
+12
+
+--- Page 13 ---
+All Men Women
+(n=5,362) (n=2,529) (n=2,833)
+LDL-P LDL-P LDL-P
+Percentile
+(nmol/L) (nmol/L) (nmol/L)
+5 770 800 760
+10 870 900 850
+20 1000 1040 970
+30 1100 1150 1060
+40 1190 1250 1150
+50 1280 1330 1230
+60 1380 1430 1330
+70 1480 1530 1440
+80 1610 1640 1570
+90 1790 1820 1760
+95 1980 1990 1970
+HDL concentration and triglycerides: The proposed device has similar reference
+values as the predicate. The reference values for patient classification have been
+recommended by the NCEP for HDL cholesterol and triglycerides for the
+assessment and management of CVD risk. Each laboratory should verify the
+validity of these reference values for the population it serves.
+HDL Cholesterol,
+Triglycerides, mg/dL Classification
+mg/dL Classification
+Low High Normal Borderline- High Very high
+high
+<40 ≥60 < 150 150-199 200-499 ≥500
+N. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+O. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+13
+
+[Table 1 on page 13]
+	All
+(n=5,362)	Men
+(n=2,529)	Women
+(n=2,833)
+Percentile	LDL-P
+(nmol/L)	LDL-P
+(nmol/L)	LDL-P
+(nmol/L)
+5	770	800	760
+10	870	900	850
+20	1000	1040	970
+30	1100	1150	1060
+40	1190	1250	1150
+50	1280	1330	1230
+60	1380	1430	1330
+70	1480	1530	1440
+80	1610	1640	1570
+90	1790	1820	1760
+95	1980	1990	1970
+
+[Table 2 on page 13]
+HDL Cholesterol,
+mg/dL Classification	
+Low	High
+<40	≥60
+
+[Table 3 on page 13]
+Triglycerides, mg/dL Classification			
+Normal	Borderline-
+high	High	Very high
+< 150	150-199	200-499	≥500

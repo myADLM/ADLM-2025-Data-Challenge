@@ -1,0 +1,109 @@
+Standard Operating Procedure (SOP) for PANEL TO WHOLE
+EXOME SEQUENCING REFLEX TEST, VARIES
+1. PURPOSE To provide a comprehensive protocol for the
+processing and analysis of specimens for Panel to Whole
+Exome Sequencing (WES) Reflex Test. This protocol ensures
+accurate and reliable generation of sequencing data and
+identification of genetic variants.
+Responsibility: It is the responsibility of laboratory personnel to
+perform all steps in the procedure accurately and to ensure that all
+quality control measures are adhered to.
+1. SCOPE This procedure is applicable to all specimens received
+in the laboratory for Panel to Whole Exome Sequencing Reflex
+Test.
+2. DEFINITIONS Panel Sequencing: Targeted sequencing of a
+specific set of genes. Whole Exome Sequencing (WES):
+Sequencing of all protein-coding regions in the genome.
+3. SPECIMEN REQUIREMENTS
+• Acceptable specimens:
+◦ Blood: 3-5 mL in EDTA (purple top) or Streck (cell-free DNA)
+tube.
+◦ Saliva: Collected using an appropriate collection kit.
+◦ Tissue: Fresh or flash-frozen samples preferred. Formalin-
+fixed paraffin-embedded (FFPE) samples acceptable.
+• Specimen labeling must include patient information, collection
+date, and time.
+• Specimen storage: Blood and saliva samples at 2-8°C, tissue
+samples at -80°C or in cryopreservative.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA Extraction Kits: Column-based or magnetic bead-based kits.
+• Quantification Instruments: Qubit fluorometer, NanoDrop
+spectrophotometer.
+• Quality Control Reagents: Genomic DNA standard, PicoGreen
+dsDNA quantitation reagent.
+• Library Preparation Kits: Enzymes, adapters, ligases.
+• Sequencers: Illumina MiSeq/HiSeq, or equivalent.
+• Bioinformatics Tools: Alignment software (BWA), variant callers
+(GATK, VarScan).
+1. PROCEDURE A. DNA Extraction
+2. Extract genomic DNA from the specimen using the specified
+DNA extraction kit following the manufacturer’s protocol.
+3. Assess the quantity and quality of DNA using a Qubit
+fluorometer or NanoDrop spectrophotometer.
+B. Library Preparation
+1. Fragment DNA to the desired size (200-300 bp) using shearing
+devices.
+2. Perform end-repair, A-tailing, and adapter ligation using the
+library preparation kit.
+3. Purify ligated products and perform PCR amplification to
+generate the sequencing library.
+4. Validate library size distribution on an Agilent Bioanalyzer.
+C. Target Enrichment (Panel)
+1. Hybridize capture probes (specific to the gene panel) to the
+prepared library.
+2. Perform capture hybridization and post-capture PCR
+amplification.
+3. Purify and quantify the enriched library.
+D. Sequencing
+1. Pool enriched libraries and load onto a sequencing flow cell.
+2. Run the sequencing instrument following the manufacturer’s
+protocol for the specified read length.
+3. Monitor the sequencing run and assess the quality of the
+generated data.
+E. Data Analysis
+1. Align sequencing reads to the reference genome using BWA or
+equivalent software.
+2. Perform variant calling using GATK, VarScan, or equivalent
+tools.
+3. Annotate identified variants with relevant databases (e.g.,
+ClinVar, dbSNP).
+F. Reflex to Whole Exome Sequencing
+1. If additional findings are required or if initial panel results are
+inconclusive, proceed with whole exome sequencing.
+2. Follow procedures for library preparation, sequencing, and data
+analysis as outlined above, adjusting enrichment step for whole
+exome target capture.
+G. Interpretation and Reporting
+1. Interpret identified variants in the context of the clinical
+information provided.
+2. Generate a comprehensive report detailing the findings, their
+clinical implications, and recommendations for further actions.
+3. Perform a secondary review and validation of the report before
+release.
+4. QUALITY CONTROL
+• Include positive and negative controls in each batch of DNA
+extraction and library preparation.
+• Monitor sequencing quality metrics such as Q30 scores, base call
+accuracy.
+• Verify consistency and reproducibility through replicate analysis.
+• Document all activities, observations, and deviations in laboratory
+records.
+1. SAFETY
+• Follow institutional biosafety guidelines when handling human
+specimens.
+• Use proper PPE (gloves, lab coats, eye protection).
+• Dispose of waste according to hazardous waste disposal
+guidelines.
+1. REFERENCES
+• Manufacturer’s protocol for DNA extraction kits.
+• Manufacturer’s protocol for sequencing instruments.
+• Literature references for bioinformatics tools and variant
+annotation databases.
+1. REVIEW AND APPROVAL This protocol is subject to review
+and approval by the laboratory director and quality assurance
+manager.
+Document Control:
+• SOP Number: [Insert Number]
+• Effective Date: [Insert Date]
+• Review Date: [Insert Date]
+• Approvals: [Insert Signatures]

@@ -1,0 +1,132 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Hemophilia C (Factor XI Deficiency) F11 Gene Next-Generation
+Sequencing
+1. PURPOSE
+To provide a standardized procedure for the analytical phase of
+generating results for Hemophilia C (Factor XI Deficiency) through
+next-generation sequencing (NGS) of the F11 gene. This protocol
+ensures accurate, consistent, and reproducible results.
+2. SCOPE
+This SOP applies to all laboratory personnel performing NGS for the
+detection of variants in the F11 gene associated with Hemophilia C
+(Factor XI Deficiency).
+3. RESPONSIBILITY
+It is the responsibility of laboratory technologists and scientists to
+follow this procedure exactly as written and to document all steps and
+findings accurately. The laboratory supervisor must ensure that all
+personnel are trained and adhere to this SOP.
+4. EQUIPMENT, MATERIALS, AND REAGENTS
+Equipment:
+• Next-Generation Sequencer
+• Thermocycler (PCR Machine)
+• Microcentrifuge
+• Pipettes and pipette tips
+• Vortex mixer
+• Bioanalyzer or Fragment Analyzer
+• Refrigerators and freezers
+• Laboratory computer system
+Reagents:
+• DNA extraction kit
+• PCR amplification kit
+• Sequencing library preparation kit
+• Quantification reagents (e.g., Qubit, Picogreen)
+• NGS sequencing reagents
+• F11 gene-specific primers and probes
+Lab Supplies:
+• Microcentrifuge tubes
+• 96-well plates
+• Adhesive plate seals
+• Ethanol
+• Nuclease-free water
+5. PROCEDURE
+5.1 DNA Extraction:
+1. Extract genomic DNA from the received blood or tissue sample
+using a validated DNA extraction kit.
+2. Quantify the DNA concentration using a Qubit dsDNA assay or
+equivalent method.
+3. Assess DNA integrity using a Bioanalyzer or Fragment
+Analyzer.
+4. Record DNA quality and concentration in the laboratory
+information system (LIS).
+5.2 PCR Amplification of the F11 gene:
+1. Design and validate primers specific to the exons and flanking
+intronic regions of the F11 gene.
+2. Prepare PCR reactions as per the manufacturer's protocol
+included with the PCR kit.
+3. Perform PCR amplification under optimized cycling conditions.
+4. Verify the amplification success by running the PCR product on
+an agarose gel.
+5.3 Library Preparation:
+1. Normalize the amplified DNA to a consistent concentration.
+2. Prepare sequencing libraries using a validated DNA library
+preparation kit according to the manufacturer’s instructions.
+3. Perform size selection if necessary to ensure library quality.
+4. Quantify the final library using a Qubit assay and assess library
+size distribution using the Bioanalyzer or Fragment Analyzer.
+5.4 Next-Generation Sequencing:
+1. Pool libraries at equimolar concentrations.
+2. Load libraries onto the NGS sequencer following the
+manufacturer's guidelines.
+3. Enter the experiment's run parameters into the sequencing
+instrument.
+4. Monitor the sequencing run to ensure proper function and
+troubleshoot as necessary.
+5.5 Data Analysis:
+1. Perform base calling and initial quality control using the
+sequencer's integrated software.
+2. Use bioinformatics tools to align sequences to the reference
+F11 gene sequence.
+3. Identify potential variants using suitable variant calling software.
+4. Annotate detected variants and cross-reference with known
+databases.
+5. Classify variants based on pathogenicity following ACMG
+guidelines.
+5.6 Interpretation and Reporting:
+1. Review, interpret, and confirm identified variants by a qualified
+professional (medical geneticist or pathologist).
+2. Summarize findings in a report, including any detected variants
+and their clinical relevance.
+3. Submit the report to the LIS and verify for any transcription
+errors.
+4. Ensure findings are communicated securely to the requesting
+physician or healthcare provider.
+6. QUALITY CONTROL AND TROUBLESHOOTING
+6.1 Quality Control:
+1. Include positive and negative control samples in each
+sequencing run.
+2. Perform inter-run comparisons using reference samples to
+ensure consistency.
+3. Document all quality control findings in the laboratory quality
+control log.
+6.2 Troubleshooting:
+1. If PCR amplification fails, verify primer integrity and reaction
+conditions.
+2. If library preparation fails, check reagent integrity and repeat
+the library preparation.
+3. If sequencing quality metrics fail, rerun the library on a different
+sequencing instrument if available and verify run setup.
+4. Review data for potential contamination or sample mix-ups if
+unexpected results are obtained.
+7. REFERENCES
+• Manufacturer's instructions for all kits and instruments used.
+• Clinical Laboratory Standards Institute (CLSI) guidelines.
+• ACMG Standards and Guidelines for interpretation of sequence
+variants.
+• Relevant peer-reviewed literature.
+8. ATTACHMENTS
+• PCR reaction setup template
+• Library preparation checklist
+• Sequencing run parameters template
+• Data analysis workflow diagram
+• Example of standardized reporting format
+9. DOCUMENT CONTROL
+This SOP must be reviewed annually or whenever significant
+changes are made to reagents, equipment, or processes. All versions
+of this SOP must be archived and tracked for record-keeping
+purposes.
+Date of Implementation: [Date] Next Review Due: [Date] Revision
+Number: [Revision Number]
+Approved By:
+[Laboratory Director] [Name & Signature]
+[Quality Assurance Manager] [Name & Signature]
+[Supervising Pathologist] [Name & Signature]

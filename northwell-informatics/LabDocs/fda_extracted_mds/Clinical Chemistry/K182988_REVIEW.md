@@ -1,0 +1,26 @@
+# SPECIAL 510(K): DEVICE MODIFICATION OIR DECISION SUMMARY
+
+# 510(k) Number: k182988
+
+This 510(k) submission contains information/data on modifications made to the applicant’s own class II or class I devices requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the applicant’s previously cleared device: AfinionTM A1c Dx with Alere AS100 Analyzer (k180296).
+
+2. Applicant’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use).
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+This change was for the following:
+
+a. Change the analyzer from Alere Afinion AS100 Analyzer to Afinion 2 b. Change several internal analyzer components from metal to plastic c. Change from 14 printed circuit boards (PCBs) to 9 PCBs d. Change in analyzer dimensions from $1 9 0 \mathrm { m m } \mathrm { W } \times 1 7 0 \mathrm { m m } \mathrm { H } \times 3 4 0 \mathrm { m m } \mathrm { D }$ to $2 0 0 \mathrm { m m } \mathrm { W } \mathrm { x }$ $1 8 6 \mathrm { m m } \mathrm { H } \times 3 2 8 \mathrm { m m } \mathrm { D }$ and weight from $5 \mathrm { k g }$ to $3 . 4 \mathrm { k g }$
+
+e. Change in Ethernet connectivity from using a separate unit to incorporating the Ethernet plug into the analyzer.
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics, coomponents materials and component design.
+
+# 5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis.   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied.
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the applicant’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The applicant has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.

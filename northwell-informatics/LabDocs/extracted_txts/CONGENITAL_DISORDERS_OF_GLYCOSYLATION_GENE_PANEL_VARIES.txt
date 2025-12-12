@@ -1,0 +1,96 @@
+PROTOCOL FOR THE ANALYTICAL PHASE OF GENERATING
+RESULTS FOR CONGENITAL DISORDERS OF GLYCOSYLATION
+GENE PANEL
+1. PURPOSE
+To describe the standardized procedure for the detection and
+interpretation of genetic variants in genes associated with Congenital
+Disorders of Glycosylation (CDG) using a gene panel assay.
+1. SCOPE
+This protocol applies to all laboratory personnel trained in molecular
+genetic testing procedures, specifically those trained in the use of
+next-generation sequencing (NGS) technology for gene panel
+assays.
+1. RESPONSIBILITIES
+• Technologists are responsible for conducting the assay and
+ensuring adherence to this protocol.
+• Supervisors are responsible for reviewing and verifying results
+and ensuring all procedures are accurately followed.
+1. SPECIMEN REQUIREMENTS
+Acceptable: Blood (3-5 mL in EDTA tube), extracted DNA (minimum
+50 ng/uL, 1-2 µg total). Unacceptable: Hemolyzed, clotted, or
+otherwise compromised specimens.
+1. REAGENTS AND EQUIPMENT
+• NGS platform (e.g., Illumina, Ion Torrent)
+• DNA extraction kit
+• Gene-specific primer panel for CDG
+• Library preparation kit
+• Sequencing reagents and consumables
+• Bioinformatics software
+1. PROCEDURE
+6.1. DNA Extraction
+• Extract genomic DNA from blood samples using the specified
+DNA extraction kit.
+• Quantify and assess the quality of extracted DNA using a
+spectrophotometer and agarose gel electrophoresis.
+• Ensure DNA concentration meets the minimum requirement.
+6.2. Library Preparation
+• Utilize the specified gene panel primers to amplify target regions
+associated with CDG.
+• Prepare libraries using a standard library preparation kit following
+the manufacturer's instructions.
+• Include positive and negative controls in the workflow.
+6.3. NGS Sequencing
+• Load prepared libraries onto the NGS platform following the
+manufacturer’s protocol.
+• Perform sequencing run with appropriate settings and read
+lengths as stipulated by the gene panel manufacturer.
+• Monitor run performance and quality metrics throughout the
+sequencing process.
+6.4. Data Analysis
+• Use bioinformatics software to analyze sequencing data.
+• Align sequencing reads to the human reference genome (e.g.,
+hg38).
+• Identify and annotate variants within the targeted genes.
+• Filter variants based on quality criteria and clinical relevance.
+6.5. Result Interpretation and Reporting
+• Compare identified variants against databases such as ClinVar,
+HGMD, and relevant literature to determine clinical significance.
+• Interpret the potential impact of variants (e.g., pathogenic, likely
+pathogenic, uncertain significance, likely benign, benign).
+• Prepare a comprehensive report including:
+◦ Patient information
+◦ Methodology
+◦ Identified variants and their clinical interpretation
+◦ Recommendations for additional testing or family studies, if
+applicable
+6.6. Quality Control
+• Utilize internal controls and replicate samples to ensure assay
+reproducibility and accuracy.
+• Review data for quality metrics such as read depth, coverage
+uniformity, and base quality scores.
+• Document any deviations from the protocol and corrective actions
+taken.
+6.7. Reporting of Results
+• Reporting is performed as per site-specific guidelines.
+• All results are reviewed and signed off by a qualified clinical
+geneticist or molecular pathologist.
+• Reports are communicated to the referring physician in a timely
+and confidential manner.
+1. QUALITY ASSURANCE
+• Participate in external proficiency testing and inter-laboratory
+comparisons to maintain assay performance.
+• Regularly review and update the protocol to incorporate
+advancements in technology and best practices.
+1. REFERENCES
+• Relevant peer-reviewed literature
+• Manufacturer's instructions for all kits and equipment used
+• Clinical guidelines for the interpretation of genetic variants
+1. DOCUMENTATION
+• Maintain records of all specimens, controls, and results.
+• Archive sequencing data and analysis outputs for future reference
+and compliance with regulatory requirements.
+This protocol ensures a consistent, accurate, and reliable approach
+to the analysis and interpretation of genetic variants associated with
+Congenital Disorders of Glycosylation. Adherence to these
+procedures helps deliver high-quality diagnostic results to inform
+patient care.

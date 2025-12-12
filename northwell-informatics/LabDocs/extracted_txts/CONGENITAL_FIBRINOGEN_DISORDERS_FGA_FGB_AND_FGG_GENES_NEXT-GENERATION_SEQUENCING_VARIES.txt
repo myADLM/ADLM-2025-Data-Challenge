@@ -1,0 +1,122 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for Congenital Fibrinogen Disorders, FGA,
+FGB, and FGG Genes, Next-Generation Sequencing
+1. PURPOSE
+To establish a standardized procedure for the analytical phase of
+generating results for congenital fibrinogen disorders by sequencing
+FGA, FGB, and FGG genes using Next-Generation Sequencing
+(NGS) technology.
+Responsibility:
+It is the responsibility of designated laboratory personnel to follow
+and adhere to this procedure to ensure accurate and reliable results.
+All personnel are also responsible for identifying any issues and
+reporting them to their supervisor.
+1. EQUIPMENT AND MATERIALS
+• NGS Instrument (e.g., Illumina MiSeq, NextSeq)
+• PCR Amplification System (e.g., thermocycler)
+• NGS Library Preparation Kit (as per manufacturer protocol)
+• DNA Extraction Kit (suitable for blood or tissue samples)
+• Bioinformatics tools and software (e.g., BWA, GATK, IGV)
+• Reagents (e.g., primers, enzymes, buffers)
+• Personal Protective Equipment (PPE)
+• Centrifuge
+• Micro-pipettes and sterile filter tips
+• Vortex mixer
+1. PROCEDURE
+A. Pre-Sequencing Preparation:
+1. DNA Extraction:
+◦ Extract genomic DNA from the received blood or tissue
+sample using a suitable DNA extraction kit according to the
+manufacturer's protocol.
+◦ Assess DNA quantity and quality using spectrophotometry
+(e.g., NanoDrop) and fluorometry (e.g., Qubit), ensuring the
+DNA meets required concentration and purity.
+2. PCR Amplification:
+◦ Design and validate primers specific for FGA, FGB, and
+FGG genes.
+◦ Amplify target regions using a thermocycler, and confirm
+successful amplification by gel electrophoresis.
+◦ Purify PCR products using a suitable PCR purification kit.
+B. Library Preparation:
+1. Fragmentation and Size Selection:
+◦ Fragment DNA to the desired length (200-300 bp) using an
+enzymatic DNA fragmentation kit.
+◦ Use a magnetic bead-based system to select fragments of
+suitable size.
+2. Adapter Ligation:
+◦ Ligate sequencing adapters to the fragmented DNA
+according to the library preparation kit protocol.
+◦ Purify the ligated fragments to remove excess adapters and
+other contaminants.
+3. Library Quantification and Quality Control:
+◦ Quantify the prepared library using qPCR or fluorometry.
+◦ Assess library size distribution using an automated
+electrophoresis system (e.g., Agilent Bioanalyzer).
+C. Next-Generation Sequencing:
+1. Loading the Library:
+◦ Normalize the library concentrations and pool multiple
+samples if necessary.
+◦ Load the prepared library into the sequencing platform
+according to the instrument’s specifications.
+2. Sequencing Run:
+◦ Initialize a sequencing run on the NGS instrument following
+the standard operating procedures of the platform.
+◦ Monitor the sequencing run to ensure optimal performance
+and troubleshoot any issues that arise.
+3. Post-Sequencing Analysis:
+A. Data Analysis:
+1. Base Calling and Quality Control:
+◦ Perform base calling and generate raw sequence data using
+instrument-specific software.
+◦ Conduct quality control checks of raw data (e.g., FastQC) to
+assess read quality and sequence performance.
+2. Read Alignment and Variant Calling:
+◦ Align sequence reads to the reference genome (e.g., hg38)
+using alignment software (e.g., BWA).
+◦ Perform variant calling using a variant caller (e.g., GATK) to
+identify single nucleotide variants (SNVs), insertions, and
+deletions (indels).
+3. Annotation and Interpretation:
+◦ Annotate identified variants using annotation tools (e.g.,
+ANNOVAR) to predict potential impacts on gene function.
+◦ Review and interpret annotated variants using integrative
+genomics viewer (IGV) and available databases (e.g.,
+ClinVar, HGMD).
+B. Data Validation and Reporting:
+1. Variant Validation:
+◦ Confirm critical variants by Sanger sequencing if necessary.
+◦ Ensure all identified variants meet stringent quality criteria
+and cross-check with known pathogenic variants associated
+with congenital fibrinogen disorders.
+2. Result Interpretation and Reporting:
+◦ Compile a comprehensive results report including identified
+variants, their pathogenicity, and clinical relevance.
+◦ Review the report internally to ensure quality and accuracy.
+◦ Sign off the final report by senior laboratory personnel
+before releasing it to the clinician or referring laboratory.
+3. QUALITY CONTROL AND ASSURANCE
+A. Internal Quality Control:
+• Sequence positive control samples with known variants to
+validate accuracy and reproducibility of the procedure.
+• Include negative controls to ensure the absence of contamination.
+B. Inter-Laboratory Quality Assurance:
+• Participate in external quality assessment (EQA) programs to
+benchmark and validate the laboratory’s performance.
+1. RECORD KEEPING AND DOCUMENTATION
+• Maintain thorough documentation of the entire process, including
+sample accessioning, DNA extraction, PCR amplification, library
+preparation, sequencing, data analysis, and reporting.
+• Store all records securely and ensure they are easily accessible
+for review and audits.
+1. REFERENCES
+• Manufacturer’s Protocols for DNA Extraction, Library Preparation,
+and Sequencing Kits
+• National Center for Biotechnology Information (NCBI) Database
+• ClinVar Database
+• Human Genome Variant Database (HGVD)
+This SOP outlines the comprehensive steps required to ensure
+accurate and reliable sequencing results for congenital fibrinogen
+disorders, focusing on the FGA, FGB, and FGG genes, using Next-
+Generation Sequencing technology. It is essential that each step is
+meticulously observed and documented, ensuring the highest
+standards in laboratory practice.

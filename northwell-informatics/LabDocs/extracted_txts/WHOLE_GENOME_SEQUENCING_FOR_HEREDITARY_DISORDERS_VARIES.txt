@@ -1,0 +1,82 @@
+Standard Operating Procedure (SOP)
+WHOLE GENOME SEQUENCING FOR HEREDITARY DISORDERS
+1. PURPOSE The purpose of this SOP is to outline the
+procedures for the analytical phase of generating results for
+whole genome sequencing (WGS) specifically for hereditary
+disorders. This includes DNA extraction, library preparation,
+sequencing, data analysis, and result validation.
+Responsibility: It is the responsibility of all designated laboratory
+personnel to perform these procedures. The laboratory supervisor or
+designated personnel are responsible for reviewing and validating the
+results.
+1. DEFINITIONS Whole Genome Sequencing (WGS): A
+comprehensive method for analyzing the entire genomic DNA
+sequence of an organism at a single time. Hereditary Disorders:
+Genetic disorders known to be inherited from one or both
+parents.
+2. SPECIMEN REQUIREMENTS AND PREPARATION Samples:
+Preferred: Peripheral blood in EDTA tube. Alternative: Saliva
+sample collected using an FDA-cleared collection kit. DNA
+Extraction: Extract high-quality genomic DNA using an
+established DNA extraction method (e.g., Qiagen DNA Blood
+Mini Kit). Quantify the extracted DNA using fluorometric
+methods (e.g., Qubit) and ensure high molecular weight intact
+DNA using gel electrophoresis.
+3. PROCEDURE
+4. DNA Library Preparation: Use a commercially available library
+preparation kit suitable for WGS (e.g., Illumina DNA Prep): a.
+Fragmentation: Fragment the genomic DNA to the desired size
+(200-500 bp) using mechanical or enzymatic methods. b. End
+Repair and A-Tailing: Prepare fragmented DNA ends for
+adapter ligation. c. Adapter Ligation: Ligate unique sequencing
+adapters to the ends of the fragmented DNA. d. Purification:
+Purify the adapter-ligated DNA using magnetic beads or
+equivalent purification methods. e. Amplification: Amplify the
+adapter-ligated DNA using PCR, and purify the PCR products.
+5. Sequencing: Load the prepared DNA libraries onto a
+sequencing platform (e.g., Illumina NextSeq or NovaSeq): a.
+Perform paired-end sequencing as per the sequencing
+platform’s protocols (e.g., 2x150 bp reads). b. Ensure sufficient
+sequence coverage (e.g., 30X) to reliably detect variants
+associated with hereditary disorders.
+6. Data Analysis: a. Quality Control (QC) of Raw Sequencing
+Data: Use QC tools (e.g., FastQC) to assess the quality of the
+raw sequencing reads. Trim low-quality bases and adapter
+sequences from reads. b. Alignment: Align cleaned reads to the
+human reference genome (e.g., GRCh38) using a suitable
+aligner (e.g., BWA-MEM). c. Variant Calling: Call single
+nucleotide variants (SNVs) and insertions/deletions (indels)
+using variant callers (e.g., GATK, Samtools). d. Variant
+Annotation: Annotate variants using annotation tools (e.g.,
+ANNOVAR, VEP) to link variants with known hereditary
+disorders. e. Filtering: Apply filters to identify potentially
+pathogenic variants (e.g., variant allele frequency, functional
+impact). f. Analysis: Confirm the biological relevance of variants
+through in-silico predictions and review with genomics
+guidelines (e.g., ACMG).
+7. Result Validation: a. Confirmatory Testing: If required, confirm
+pathogenic variants through alternative methods (e.g., Sanger
+sequencing). b. Review: Review results by a molecular
+geneticist or designated personnel. Include checking for
+consistency with clinical information and reanalysis as
+necessary.
+8. RESULT REPORTING Generate a comprehensive report
+including: Identification of the specimen and patient.
+Sequencing coverage statistics. Identified variants and
+annotated information. Pathogenicity prediction with an
+emphasis on clinically relevant hereditary disorders.
+Recommendations for genetic counseling or further
+confirmatory testing.
+9. QUALITY CONTROL Include positive and negative controls in
+each batch of DNA library preparation. Perform inter-run and
+intra-run quality assessments as per institutional guidelines.
+Utilize internal standards and reference materials to ensure
+accuracy and precision.
+10. REFERENCES Industry guidelines for next-generation
+sequencing. Manufacturer instructions for library preparation
+and sequencing. ACMG Standards and Guidelines for the
+interpretation and reporting of sequence variants.
+This SOP outlines the comprehensive workflow for obtaining and
+validating whole genome sequencing data to identify hereditary
+disorders, ensuring high-quality, reproducible results in a clinical
+laboratory setting.

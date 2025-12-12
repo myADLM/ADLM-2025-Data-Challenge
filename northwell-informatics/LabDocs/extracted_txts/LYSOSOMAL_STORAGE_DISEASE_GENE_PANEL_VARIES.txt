@@ -1,0 +1,113 @@
+Standard Operating Procedure (SOP) for the Analytical Phase of
+Generating Results for Lysosomal Storage Disease Gene Panel,
+Varies
+1. PURPOSE
+The purpose of this document is to provide a detailed procedure for
+generating results for the Lysosomal Storage Disease Gene Panel.
+This includes DNA extraction from the specimen, preparation for
+sequencing, data analysis, and interpretation. The procedure ensures
+consistent and reliable results by following standard methodologies
+and quality control protocols.
+2. SCOPE
+This SOP applies to all staff involved in the analytical phase of testing
+for the Lysosomal Storage Disease Gene Panel in our CLIA-certified
+laboratory.
+3. RESPONSIBILITY
+• Laboratory Technicians: Responsible for following the procedures
+outlined in this SOP, including DNA extraction, library preparation,
+sequencing, and initial data analysis. • Genetic Analysts: Responsible
+for in-depth data analysis, variant calling, and interpretation. •
+Laboratory Supervisor: Responsible for overseeing all stages of the
+procedure, ensuring compliance with the SOP, and resolving any
+issues that arise.
+4. SPECIMEN REQUIREMENTS
+Preferred/acceptable: • Whole blood samples: Collected in EDTA
+tubes, minimum volume 3 mL. • Buccal swabs: Properly collected
+and stored to prevent degradation. • Dried blood spots: Collected on
+standard filter paper and stored appropriately.
+Unacceptable: • Samples with insufficient volume. • Specimens
+arriving in the laboratory more than 72 hours after collection without
+proper cold storage. • Specimens with labels that are incomplete or
+illegible.
+5. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA extraction kits (e.g., QIAamp DNA Blood Mini Kit) •
+Quantification apparatus (e.g., Qubit Fluorometer) • Next-Generation
+Sequencing (NGS) platform (e.g., Illumina MiSeq) • Library
+preparation kits (e.g., Illumina DNA Prep) • PCR reagents and
+thermal cycler • Bioinformatics software for analysis (e.g., GATK,
+VarSeq)
+6. PROCEDURE
+A. DNA Extraction
+1. Perform DNA extraction using the designated DNA extraction kit
+according to the manufacturer’s instructions.
+2. Quantify DNA using Qubit Fluorometer.
+3. Assess DNA quality by running a small aliquot on an agarose
+gel.
+B. Library Preparation
+1. Normalize the DNA concentration to the required input for the
+library preparation protocol.
+2. Prepare DNA libraries using the library preparation kit following
+the manufacturer's instructions.
+3. Perform a quality check and quantify the library using
+appropriate methods (e.g., Qubit, Bioanalyzer).
+4. Pool the libraries in equimolar ratios for sequencing.
+C. Sequencing
+1. Load the pooled libraries onto the sequencing platform as per
+the manufacturer's guidelines.
+2. Run the appropriate sequencing protocol for the Lysosomal
+Storage Disease Gene Panel.
+D. Data Analysis
+1. Transfer raw sequencing data to the bioinformatics workstation
+securely.
+2. Perform quality control checks on raw sequencing data using
+software like FastQC.
+3. Align reads to the human reference genome using a tool like
+BWA (Burrows-Wheeler Aligner).
+4. Perform variant calling using GATK (Genome Analysis Toolkit).
+5. Annotate variants using a comprehensive database (e.g.,
+ClinVar, dbSNP).
+7. QUALITY CONTROL
+• Run positive and negative controls alongside patient samples. •
+Ensure compliance with internal quality control standards at every
+significant step. • Perform periodic proficiency testing to validate
+analytical competencies. • Use quality metrics to evaluate each
+sequencing run; runs failing quality control must be repeated.
+8. REPORTING RESULTS
+A. Interpretation
+1. Assess the significance of identified variants with available
+bioinformatics tools and databases.
+2. Correlate variants with the clinical data provided using
+established guidelines (e.g., ACMG guidelines).
+B. Documentation
+1. Document all findings and interpretations accurately in the
+laboratory information system (LIS).
+2. Prepare the genetic report including operator initials, date,
+specimen ID, methodologies used, variants found, and their
+interpretations.
+C. Verification
+1. Reviewed and verified results by the genetic analyst and a
+laboratory director before releasing the report to ensure
+accuracy and completeness.
+2. Follow up with appropriate actions if any critical variants or
+unexpected findings are identified.
+9. REFERENCES
+• Molecular Biology Manuals for DNA extraction and library
+preparation
+• FastQC documentation
+• BWA, GATK best practices
+• ClinVar and dbSNP databases
+• ACMG (American College of Medical Genetics and Genomics)
+guidelines for variant interpretation
+10. AMENDMENTS
+This protocol must be reviewed annually or whenever there is a
+significant change in procedures, equipment, or relevant regulations.
+Amendments must be authorized by the Laboratory Supervisor.
+Reviewed by: [Supervisor Name]
+Date: [Review Date]
+Authorized by: [Director/Authorized Person Name]
+Date: [Authorization Date]
+Signatures:
+Laboratory Technician: _______________
+Genetic Analyst: _______________
+Laboratory Supervisor: _______________
+Director/Authorized Person: _______________

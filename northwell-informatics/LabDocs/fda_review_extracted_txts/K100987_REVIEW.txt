@@ -1,0 +1,516 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k100987
+B. Purpose for Submission:
+New device
+C. Measurand:
+Human 5,10-methylenetetrahydofolate reductase (MTHFR)
+D. Type of Test:
+Qualitative genotyping test for single nucleotide polymorphism detection
+E. Applicant:
+Hologic Inc.
+Third Wave Technologies
+F. Proprietary and Established Names:
+Invader® MTHFR 677
+G. Regulatory Information:
+1. Regulation section:
+21 CFR §864.7280 Factor V Leiden DNA mutation detection systems
+2. Classification:
+Class II
+3. Product code:
+OMM: Test 5,10-Methylenetetrahydrofolate Reductase Mutations, Genomic DNA
+PCR
+4. Panel:
+81 Hematology
+H. Intended Use:
+1. Intended use(s):
+The Invader® MTHFR 677 test is an in vitro diagnostic test intended for the
+detection and genotyping of a single point mutation (C to T at position 677) of the
+human 5,10-methylenetetrahydrofolate reductase (MTHFR) gene in isolated
+genomic DNA obtained from whole blood potassium EDTA samples from
+patients with suspected thrombophilia.
+2. Indication(s) for use:
+Same as Intended use.
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+I. Device Description:
+The Invader MTHFR 677 test consists of the following components:
+• MTHFR 677 Oligo Mix
+• Universal Buffer
+• Universal Enzyme Mix
+• No DNA Control
+• MTHFR 677 Wild Type Control
+1
+
+--- Page 2 ---
+• MTHFR 677 Heterozygous Control
+• MTHFR 677 Mutant Control
+• Invader Call Reporter™ Software – Version 5.3
+• Invader® MTHFR 677 Software – Version 2.0
+J. Substantial Equivalence Information:
+1. Predicate device name(s) and 510(k) number(s):
+Verigene® MTHFR Nucleic Acid Test (k070597)
+2. Comparison with predicate:
+Similarities
+Item Device Predicates
+An in vitro diagnostic (IVD)
+device for the detection and
+genotyping of a single point
+mutation (C to T at position
+677) of the human 5,10
+Intended Use Same
+methylene-tetrahydrofolate
+reductase gene (MTHFR) in
+isolated genomic DNA obtained
+from patients with suspected
+thrombophilia
+Patients with suspected
+Target Population Same
+thrombophilia
+Purified DNA isolated from
+Specimen Type Same
+human whole peripheral blood
+Target Amplification
+PCR Same
+Technology
+Signal Generation Fluorescence Resonance Energy
+Same
+Technology Transfer (FRET)
+Assay signal results are
+interpreted by a software program
+Output Data and are assigned a genotype that Same
+is presented to the end user in a
+report format
+Differences
+Item Device Predicate
+SNP discrimination via
+Targeted cleavage of distinct
+oligonucleotide probes;
+FRET cassette bound to allele-
+Allele Discrimination detection via evanescent
+specific primary probe with a
+wave light scatter with
+unique 5’-flap
+nanoparticles
+20-μL reaction in multiple plastic 25-μL reaction in unitized test
+Reaction Conditions
+microtiter wells cartridge
+Single-image sensor where
+End-point detection of amplified
+nanoparticles are illuminated
+Signal Detection sequences after PCR
+using a fixed-wavelength
+amplification
+light source
+Hardware Non-specified, third-party Verigene Reader
+2
+
+[Table 1 on page 2]
+Similarities								
+	Item			Device			Predicates	
+Intended Use			An in vitro diagnostic (IVD)
+device for the detection and
+genotyping of a single point
+mutation (C to T at position
+677) of the human 5,10
+methylene-tetrahydrofolate
+reductase gene (MTHFR) in
+isolated genomic DNA obtained
+from patients with suspected
+thrombophilia			Same		
+Target Population			Patients with suspected
+thrombophilia			Same		
+Specimen Type			Purified DNA isolated from
+human whole peripheral blood			Same		
+Target Amplification
+Technology			PCR			Same		
+Signal Generation
+Technology			Fluorescence Resonance Energy
+Transfer (FRET)			Same		
+Output Data			Assay signal results are
+interpreted by a software program
+and are assigned a genotype that
+is presented to the end user in a
+report format			Same		
+
+[Table 2 on page 2]
+Differences								
+	Item			Device			Predicate	
+Allele Discrimination			Targeted cleavage of distinct
+FRET cassette bound to allele-
+specific primary probe with a
+unique 5’-flap			SNP discrimination via
+oligonucleotide probes;
+detection via evanescent
+wave light scatter with
+nanoparticles		
+Reaction Conditions			20-μL reaction in multiple plastic
+microtiter wells			25-μL reaction in unitized test
+cartridge		
+Signal Detection			End-point detection of amplified
+sequences after PCR
+amplification			Single-image sensor where
+nanoparticles are illuminated
+using a fixed-wavelength
+light source		
+Hardware			Non-specified, third-party			Verigene Reader		
+
+--- Page 3 ---
+Differences
+Item Device Predicate
+fluorometer and thermal cycler (photosensor detection of
+signal enhanced
+nanoparticles) and Verigene
+Processor (Hybridization and
+Wash Station)
+Java-based software installed on a
+Verigene Software with
+standalone PC capable of
+Software Interface integrated graphical user
+converting raw fluorescence data
+interface
+into genotype calls
+K. Standard/Guidance Document Referenced (if applicable):
+• Guidance for Industry and FDA Staff – Class II Special Controls Guidance
+Document: Factor V Leiden DNA Mutation Detection Systems issued on March
+16, 2004
+• Guidance for Industry and FDA Staff - Guidance for the Content of Premarket
+Submissions for Software Contained in Medical Devices issued May 11, 2005
+• Guidance for Industry and FDA Staff – Format for Traditional and Abbreviated
+510(k)s issued on August 12, 2005
+L. Test Principle:
+The Invader® MTHFR 677 test combines target amplification by PCR using a third-
+party thermal cycler with signal generation by the Invader Plus® chemistry and signal
+detection using interpretative software and a third-party fluorometer for genotyping of
+a single point mutation (C to T at position 677) of the human 5,10-
+methylenetetrahydrofolate reductase (MTHFR).
+During the signal generation phase, a discriminatory Primary Probe transiently
+hybridizes to the amplified target sequence along with an Invader® oligonucleotide,
+to form an overlapping structure. The 5'-end of the Primary Probe includes a 5'-flap
+that does not hybridize to the target DNA. The 3'-nucleotide of the bound Invader®
+oligonucleotide overlaps the Primary Probe, and does not hybridize to the target
+DNA. The Cleavase® enzyme recognizes this overlapping structure and cleaves off
+the unpaired 5'-flap of the Primary Probe, releasing it as a target-specific product.
+The released 5'-flap transiently hybridizes with a corresponding fluorescent resonance
+energy transfer (FRET) cassette forming an overlapping structure that is recognized
+and the fluorophore is cleaved from the FRET cassette by the Cleavase® enzyme.
+When the FRET cassette is cleaved, a fluorophore and quencher are separated,
+generating detectable fluorescence signal.
+The Primary Probe and the 5'-flap are designed to have a melting temperature aligned
+with the Invader® reaction temperature so that under the isothermal reaction
+conditions (~63°C) the Primary Probes cycle on and off the target DNA and the 5'-
+flaps cycle on and off of the corresponding FRET cassettes. This allows for multiple
+rounds of Primary Probe cleavage for each DNA target resulting in an accumulation
+of released 5'-flaps and multiple rounds of FRET cassette cleavage for each 5’-flap
+resulting in an accumulation of released fluorophore.
+The Invader® MTHFR 677 test uses two different discriminatory Primary Probes, one
+for the mutant allele and one for the wild type allele. Each Primary Probe is assigned
+a unique 5'-flap, and distinct FRET cassette, with a spectrally distinct fluorophore.
+3
+
+[Table 1 on page 3]
+Differences								
+	Item			Device			Predicate	
+			fluorometer and thermal cycler			(photosensor detection of
+signal enhanced
+nanoparticles) and Verigene
+Processor (Hybridization and
+Wash Station)		
+Software Interface			Java-based software installed on a
+standalone PC capable of
+converting raw fluorescence data
+into genotype calls			Verigene Software with
+integrated graphical user
+interface		
+
+--- Page 4 ---
+The released 5'-flaps will bind only to their respective FRET cassettes to generate a
+target-specific signal, linking the wild type allele with one fluorophore (Fluorescence
+1: FAM) and the mutant allele with the second fluorophore (Fluorescence 2: RED).
+The Invader® MTHFR 677 software, in combination with Invader Call Reporter™
+software, is a data analysis software that provides a working template for the setup of
+reaction mixes and sample placement, and following the import of fluorescence data,
+it determines results and validity for controls and samples.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Repeatability/Reproducibility: Two operators each from 3 different sites (2
+external sites and 1 internal site) performed the testing in duplicate twice daily
+over 5 non-consecutive days using the same testing materials including a
+panel of nine (9) whole blood samples with each of the three (3) possible
+genotypes (i.e. wild type (WT), heterozygous (HET), homozygous mutant
+(MUT)) represented.
+There were no first-pass No-Calls or Miscalls, and there was no statistical
+difference due to Site, Operator or Day.
+First pass Final
+Samples %
+Site Operator Correct No- Correct
+Tested Miscalls Miscalls Agreement
+Calls Calls Calls
+Site 1 90 90 0 0 90 0 100%
+001 2 90 90 0 0 90 0 100%
+Site 1 90 90 0 0 90 0 100%
+002 2 90 90 0 0 90 0 100%
+Site 1 90 90 0 0 90 0 100%
+003 2 90 90 0 0 90 0 100%
+All All 540 540 0 0 540 0 100%
+Lot-to-Lot Reproducibility: A total of nine (9) genomic DNA samples (three
+(3) WTs, three (3) HETs and three (3) MUTs) were tested in quadruplicate
+using three (3) different kit lots of the Invader® MTHFR 677 test. The
+percent agreement between Invader® MTHFR 677 test and bi-directional
+sequencing was 100% (n=108).
+First pass Final
+Samples %
+Lot Correct No- Correct
+Tested Miscalls Miscalls Agreement
+Calls Calls Calls
+1 36 36 0 0 36 0 100%
+2 36 36 0 0 36 0 100%
+3 36 36 0 0 36 0 100%
+Total 108 108 0 0 108 0 100%
+Genomic DNA Extraction Reproducibility: Four commonly used extraction
+methods were used to process thirty (30) human whole blood samples and ten
+(10) leukocyte depleted whole blood (LDWB) spiked with cell lines with the
+following genotypes:
+4
+
+[Table 1 on page 4]
+Site			First pass			Final		%
+Agreement
+		Samples						
+	Operator		Correct	No-		Correct	Miscalls	
+		Tested			Miscalls			
+			Calls	Calls		Calls		
+								
+Site
+001	1	90	90	0	0	90	0	100%
+	2	90	90	0	0	90	0	100%
+Site
+002	1	90	90	0	0	90	0	100%
+	2	90	90	0	0	90	0	100%
+Site
+003	1	90	90	0	0	90	0	100%
+	2	90	90	0	0	90	0	100%
+All	All	540	540	0	0	540	0	100%
+
+[Table 2 on page 4]
+	Samples
+Tested	First pass			Final
+Correct
+Miscalls
+Calls		
+							%
+Lot		Correct	No-		Correct
+Calls		
+				Miscalls			Agreement
+		Calls	Calls				
+							
+1	36	36	0	0	36	0	100%
+2	36	36	0	0	36	0	100%
+3	36	36	0	0	36	0	100%
+Total	108	108	0	0	108	0	100%
+
+--- Page 5 ---
+Number of Samples
+Sample Type
+WT MUT HET Total
+Human whole blood samples 10 9 10 30
+LDWB spiked with cell lines 5 0 5 10
+Total 15 9 15 40
+The 160 extracted samples were assayed in singlet in a single run using a
+single kit lot of the Invader® MTHFR 677 test. With the exception of one
+sample that was removed from the study due to loss of traceability of the
+sample identification, all other samples, regardless of extraction methods,
+were correctly called on the first pass and gave 100% agreement with DNA
+sequencing.
+b. Linearity/assay reportable range:
+Not applicable.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Quality Control:
+Each test contains positive and negative controls to assure proper functioning
+of the system. Failure of any controls will be indicated as “Invalid” in the test
+results section of the report. The genotyping test result will not be reported
+for any sample for which a positive or negative control failure occurs.
+Positive Control: The genotype controls (WT, HET, MUT) ensure reagents
+were assembled correctly and perform according to the specifications.
+Negative Control: The No DNA Control is used by the interpretive software
+to set the “noise” component of the run for “signal-to-noise” calculations.
+The genotyping test result will not be reported for any sample for which a
+positive or negative control failure occurs.
+Real-Time Stability Study
+The ongoing Stability Study tests seven (7) gDNA samples including three (3)
+WT, two (2) HET and two (2) MUT genotypes using three (3) lots of Invader®
+MTHFR 677 product stored under two recommended conditions: (1) -30°C to
+-20°C (Standard Storage of intermediate components) and (2) 4° to 8°C
+(Standard Storage of Genotype-Specific Controls). Functional testing is
+performed in quadruplicate at each time point and the interim test results have
+demonstrated 7 months stability for the device.
+Sample/ T0 Result T4 Result T7 Result
+Genotype
+Control Lot 1 Lot 2 Lot 3 Lot 1 Lot 2 Lot 3 Lot 1 Lot 2 Lot 3
+Control 1 WT WT WT WT WT WT WT WT WT WT
+Control 2 HET HET HET HET HET HET HET HET HET HET
+Control 3 MUT MUT MUT MUT MUT MUT MUT MUT MUT MUT
+gDNA 1 WT WT WT WT WT WT WT WT WT WT
+gDNA 2 WT WT WT WT WT WT WT WT WT WT
+gDNA 3 HET HET HET HET HET HET HET HET HET HET
+gDNA 4 MUT MUT MUT MUT MUT MUT MUT MUT MUT MUT
+Percent Agreement 100 100 100 100 100 100 100 100 100
+Reagent Freeze-Thaw Stability Study
+5
+
+[Table 1 on page 5]
+Sample Type		Number of Samples								
+	WT			MUT			HET			Total
+Human whole blood samples	10			9		10			30	
+LDWB spiked with cell lines	5			0		5			10	
+Total	15			9		15			40	
+
+[Table 2 on page 5]
+Sample/		T0 Result			T4 Result			T7 Result		
+	Genotype									
+Control		Lot 1	Lot 2	Lot 3	Lot 1	Lot 2	Lot 3	Lot 1	Lot 2	Lot 3
+										
+Control 1	WT	WT	WT	WT	WT	WT	WT	WT	WT	WT
+Control 2	HET	HET	HET	HET	HET	HET	HET	HET	HET	HET
+Control 3	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT
+gDNA 1	WT	WT	WT	WT	WT	WT	WT	WT	WT	WT
+gDNA 2	WT	WT	WT	WT	WT	WT	WT	WT	WT	WT
+gDNA 3	HET	HET	HET	HET	HET	HET	HET	HET	HET	HET
+gDNA 4	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT
+Percent Agreement		100	100	100	100	100	100	100	100	100
+
+--- Page 6 ---
+Product in the final configuration was subject to 15 freeze-thaw cycles prior to
+the final thaw at the time of testing. Functional testing was performed in
+replicate of 3-8 using genomic DNA samples isolated from cell lines,
+representing all possible genotypes including two (2) WT, two (2) HET and
+two (2) MUT. Results showed that all samples were correctly called using
+Invader® Invader® MTHFR 677 test reagents that underwent repeated freeze-
+thaw cycles.
+d. Detection limit:
+Three (3) genomic DNA (gDNA) samples with different genotypes (i.e. WT,
+HET, MUT) were extracted from whole blood collected in potassium EDTA.
+Each sample was diluted to eight different concentrations 0.5, 5, 20, 40, 80,
+200, 400, 800 ng/ µL and tested in replicates of forty (40). The recommended
+range of the assay was determined to be between 5-80 ng/µL of input gDNA,
+based on 100% concordance of all tested replicates with bi-directional
+sequencing.
+Input DNA Concordance of Genotypes
+Concentration MUT HET WT
+0.5 ng/µl 100% (40/40) 67.5% (27/40) 100% (40/40)
+5 ng/µl 100% (40/40) 100% (40/40) 100% (40/40)
+20 ng/µl 100% (40/40) 100% (40/40) 100% (40/40)
+40 ng/µl 100% (40/40) 100% (40/40) 100% (40/40)
+80 ng/µl 100% (40/40) 100% (40/40) 100% (40/40)
+200 ng/µl 100% (40/40) 100% (40/40) 100% (40/40)
+400 ng/µl 100% (40/40) 100% (40/40) 100% (40/40)
+800 ng/µl 100% (40/40) 100% (40/40) 100% (40/40)
+e. Analytical specificity:
+Test performance was not affected by addition of the following substances to
+nine (9) whole blood samples of different genotype (3 WT, 3 HET, 3 MUT)
+prior to extraction:
+• Heparin (1500 U/dL human whole blood)
+• Cholesterol (300 mg/dL human whole blood)
+• Bilirubin (10 mg/dL human whole blood)
+• Hemoglobin (up to 0.2% in whole blood)
+• Potassium EDTA (1.8 mg/mL human whole blood)
+• Ethanol-based Wash Buffer (5% in DNA sample)
+f. Assay cut-off:
+Not applicable
+2. Comparison studies:
+a. Method comparison:
+A total of 361 gDNA samples extracted from whole blood samples were
+genotyped using the Invader® MTHFR 677 test and bi-directional DNA
+sequencing. The observed agreement between the Invader® MTHFR 677 test
+and bi-directional DNA sequencing was 100% (347/347). The first run
+agreement with bi-directional sequencing was 99.45% (359/361).
+6
+
+[Table 1 on page 6]
+	Input DNA			Concordance of Genotypes							
+	Concentration			MUT			HET			WT	
+0.5 ng/µl			100% (40/40)			67.5% (27/40)			100% (40/40)		
+5 ng/µl			100% (40/40)			100% (40/40)			100% (40/40)		
+20 ng/µl			100% (40/40)			100% (40/40)			100% (40/40)		
+40 ng/µl			100% (40/40)			100% (40/40)			100% (40/40)		
+80 ng/µl			100% (40/40)			100% (40/40)			100% (40/40)		
+200 ng/µl			100% (40/40)			100% (40/40)			100% (40/40)		
+400 ng/µl			100% (40/40)			100% (40/40)			100% (40/40)		
+800 ng/µl			100% (40/40)			100% (40/40)			100% (40/40)		
+
+--- Page 7 ---
+Table: Comparison of Invader® MTHFR 677 Test and DNA Sequencing
+Results
+First Pass Results Final Results
+Geno- % %
+No- Mis- 95% No- Mis- 95%
+type[1] WT HET MUT Agree WTHETMUT Agree
+Call Call LCB[2] Call Call LCB
+-ment -ment
+WT 180 0 0 2 0 98.89 96.04 180 0 0 2 0 98.89 96.04
+HET 0 104 0 0 0 100.00 97.16 0 104 0 0 0 100.00 97.16
+MUT 0 0 77 0 0 100.00 96.18 0 0 77 0 0 100.00 96.18
+Note: [1]Genotype as determined with DNA sequencing;
+[2]Lower boundary of the 95% confidence interval
+b. Matrix comparison:
+Not applicable
+c. Instrument Equivalency:
+Twenty-nine (29) human whole blood samples and ten (10) leukocyte
+depleted whole blood samples spiked with cell lines were extracted using two
+(2) commonly used extraction methods. The extracts were tested with the
+Invader® MTHFR 677 test using three (3) commercially available thermal
+cyclers and the raw fluorescent data acquired on three (3) commercially
+available fluorometers. Results from the three (3) fluorometers were
+transferred into the interpretive software and genotype calls compared to bi-
+directional sequencing. The results showed 100% concordance with bi-
+directional sequencing as follows:
+Concordance by Instrument
+Thermal Cycler
+Fluorometer
+1 2 3
+A 78 of 78 = 100% 77 of 78 = 98.7% 78 of 78 = 100%
+B 78 of 78 = 100% 77 of 78 = 98.7% 78 of 78 = 100%
+C 78 of 78 = 100% 77 of 78 = 98.7% 78 of 78 = 100%
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable
+b. Clinical specificity:
+Not applicable
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+The MTHFR C677T mutation being genotyped in the Invader® MTHFR 677 Test
+is present at a frequency of 30-40% in the general population.
+N. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+O. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+7
+
+[Table 1 on page 7]
+	First Pass Results							Final Results						
+Geno-						%							%	
+				No-	Mis-		95%				No-	Mis-		95%
+type[1]	WT	HET	MUT			Agree		WT	HET	MUT			Agree	
+				Call	Call		LCB[2]				Call	Call		LCB
+						-ment							-ment	
+														
+WT	180	0	0	2	0	98.89	96.04	180	0	0	2	0	98.89	96.04
+HET	0	104	0	0	0	100.00	97.16	0	104	0	0	0	100.00	97.16
+MUT	0	0	77	0	0	100.00	96.18	0	0	77	0	0	100.00	96.18
+
+[Table 2 on page 7]
+	Concordance by Instrument									
+Fluorometer			Thermal Cycler							
+			1			2			3	
+A		78 of 78 = 100%			77 of 78 = 98.7%			78 of 78 = 100%		
+B		78 of 78 = 100%			77 of 78 = 98.7%			78 of 78 = 100%		
+C		78 of 78 = 100%			77 of 78 = 98.7%			78 of 78 = 100%		

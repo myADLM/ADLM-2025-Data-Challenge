@@ -1,0 +1,676 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K210811
+B Applicant
+Inspirata, Inc.
+C Proprietary and Established Names
+Dynamyx Digital Pathology Software
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 - Whole
+QKQ Class II PA - Pathology
+Slide Imaging System
+II Submission/Device Overview:
+A Purpose for Submission:
+New device.
+B Type of Test:
+Not applicable – software only device.
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700 - Whole
+Slide Imaging System			PA - Pathology
+
+--- Page 2 ---
+Dynamyx Digital Pathology Software is intended for viewing and management of digital images
+of scanned surgical pathology slides prepared from formalin-fixed, paraffin-embedded (FFPE)
+tissue. It is an aid to the pathologist to review and interpret these digital images for the purposes
+of primary diagnosis.
+Dynamyx Digital Pathology Software is not intended for use with frozen section, cytology, or
+non-FFPE hematopathology specimens.
+It is the responsibility of the pathologist to employ appropriate procedures and safeguards to
+assure the validity of the interpretation of images using Dynamyx Digital Pathology Software.
+The Dynamyx Digital Pathology Software consists of the Installed Pathologist Client and the
+Pathologist Workstation Web Client. The Installed Pathologist Client is intended for use with
+Leica’s Aperio AT2 DX scanner and Dell MR2416 monitor as well as Philips’ Ultra Fast
+Scanner and Philips PP27QHD monitor. The Pathologist Workstation Web Clinent is intended
+for use with Philips Ultra Fast Scanner and Philips PP27QHD monitor.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+Dynamyx Digital Pathology Software is a client-server software device used for importing,
+displaying, navigating, and annotating whole slide images obtained from the Leica Aperio AT2
+DX scanner or the Philips IntelliSite Pathology Solution (PIPS) Ultra-Fast Scanner (UFS).
+Whole slide images are created by scanning glass microscope slides using a digital slide scanner
+which are then imported into the Dynamyx Digital Archive server. Dynamyx uses the image
+decoding libraries licensed by Leica and Philips for the native images. Dynamyx then uses
+lossless compression to send the image to the Dynamyx viewers.
+Whole slide images are viewed in the Dynamyx image viewer window by pathologists for the
+purposes of making a primary diagnosis. The pathologist can also navigate (pan and zoom) and
+annotate the images.
+Dynamyx incorporates typical histology/pathology workflow and is operated as follows:
+1. The subject device receives whole slide images from the scanner and extracts a copy of the
+images’ metadata. The unaltered images are then sent to the external image storage (Digital
+Archive). A copy of the image metadata (e.g., the pixel size) is stored in the subject device’s
+database to increase the operational performance (e.g., response times) of Dynamyx.
+2. Whole slide images are reviewed first by the scanning technician such as a histologist to
+confirm image quality and initiate any slide rescans as necessary prior to being viewed by
+pathologists. The digital slide review quality control (QC) status determined by the scanning
+technician indicates which whole slide images have been reviewed and have passed QC.
+The QC status is available to the reading pathologist.
+K210811 - Page 2 of 10
+
+--- Page 3 ---
+3. The reading pathologist selects a patient case from a selected worklist within Dynamyx
+whereby the case images are retrieved from the digital archive.
+4. The reading pathologist uses Dynamyx to view and perform the following actions on the
+displayed image:
+a. Zoom and pan the image
+b. Adjust the apparent image observed magnification level
+c. Measure distances and areas
+d. Annotate images and cases
+5. The above steps are repeated as required.
+After viewing all images, the pathologist will render a diagnosis which is documented in a
+laboratory information system.
+Minimum System Requirements - Computer Environment
+The system requirements are given in Tables 1 through 2d below.
+Table 1: WSI scanners and displays that can be used with Dynamyx Digital Pathology
+Software
+Manufacturer Model
+Philips Medical Systems Nederland B.V. Scanner: Ultra-Fast Scanner (UFS)
+Display: MMPC-4127F1/PP27QHD
+Leica Biosystems Imaging, Inc. Scanner: Aperio AT2 DX Slide
+Display: MR2416 (Dell)
+Note: Philips PP27QHD monitor must be used with Philips Ultra-Fast Scanner and Dell MR2416
+monitor must be used with Leica Aperio AT2 DX Scanner. The monitors are not interchangeable.
+Table 2a: Computer environment minimum requirements for Dynamyx Digital Pathology
+Software, Dynamyx Server
+Server vCPU Memory Drives
+Workflow Server 2 cores Total - 8 GB C Drive - 200 GB
+C Drive - 200 GB
+SQL Server 2 cores Total - 8 GB E Drive - 600 GB
+F Drive - 600 GB
+C Drive - 200 GB
+Hardware
+E Drive - 200 GB
+Digital Archive Server 8 cores Total - 16 GB
+F Drive - Image Store
+(Drive of appropriate size)
+C Drive - 200 GB
+Web Server 2 cores Total - 8 GB
+E Drive - 25 GB
+C Drive - 200 GB
+Job Agent Server 4 cores Total - 8 GB
+K210811 - Page 3 of 10
+
+[Table 1 on page 3]
+Manufacturer	Model
+Philips Medical Systems Nederland B.V.	Scanner: Ultra-Fast Scanner (UFS)
+	Display: MMPC-4127F1/PP27QHD
+Leica Biosystems Imaging, Inc.	Scanner: Aperio AT2 DX Slide
+	Display: MR2416 (Dell)
+
+[Table 2 on page 3]
+Hardware	Server	vCPU	Memory	Drives
+				
+	Workflow Server	2 cores	Total - 8 GB	C Drive - 200 GB
+	SQL Server	2 cores	Total - 8 GB	C Drive - 200 GB
+E Drive - 600 GB
+F Drive - 600 GB
+	Digital Archive Server	8 cores	Total - 16 GB	C Drive - 200 GB
+E Drive - 200 GB
+F Drive - Image Store
+(Drive of appropriate size)
+	Web Server	2 cores	Total - 8 GB	C Drive - 200 GB
+E Drive - 25 GB
+	Job Agent Server	4 cores	Total - 8 GB	C Drive - 200 GB
+
+--- Page 4 ---
+Component Version Comments
+Software
+Database SQL Server 2016 or 2019 Latest patches recommended
+Table 2b: Computer environment minimum requirements for Dynamyx Digital
+Pathology Software, Histology Workstation
+Component Specifications/Application Comments
+Processor Intel i5 or greater N/A
+Memory 8 GB RAM N/A
+7200 RPM or faster disks or Space requirements are
+Internal Storage
+SSD nominal (<10GB)
+Hardware
+Network Connectivity 100 Mbps Full Duplex 1Gbps preferred
+Video Adapter Web GL compatible N/A
+Display If Leica scanner, then use Dell Required for Image QC
+MR2416 display review
+If Philips scanner, then use
+PP27QHD display
+Software Operating System Windows 10 Latest patches recommended
+Table 2c: Computer environment minimum requirements for Dynamyx Digital Pathology
+Software, Pathology Workstation (Web based)
+Component Specification/Application Comments
+Processor Intel i5 or greater N/A
+Memory 8 GB RAM N/A
+Internal Storage N/A N/A
+Hardware
+Network Connectivity 100 Mbps Full Duplex N/A
+Video Adapter Web GL compatible N/A
+If Leica scanner, then use Dell
+Display Required for Diagnostic Use
+MR2416 display
+(Dx)
+If Philips scanner, then use
+PP27QHD display
+Operating System Windows 10 Latest patches recommended
+Software
+Latest version of browser is
+Browser Chrome
+recommended
+K210811 - Page 4 of 10
+
+[Table 1 on page 4]
+Software	Component	Version	Comments
+			
+	Database	SQL Server 2016 or 2019	Latest patches recommended
+
+[Table 2 on page 4]
+	Component	Specifications/Application	Comments
+			
+	Processor	Intel i5 or greater	N/A
+	Memory	8 GB RAM	N/A
+		7200 RPM or faster disks or	Space requirements are
+	Internal Storage		
+		SSD	nominal (<10GB)
+			
+Hardware			
+	Network Connectivity	100 Mbps Full Duplex	1Gbps preferred
+			
+			
+	Video Adapter	Web GL compatible	N/A
+			
+	Display	If Leica scanner, then use Dell	Required for Image QC
+		MR2416 display	review
+		If Philips scanner, then use	
+		PP27QHD display	
+Software	Operating System	Windows 10	Latest patches recommended
+
+[Table 3 on page 4]
+Hardware	Component	Specification/Application	Comments
+			
+	Processor	Intel i5 or greater	N/A
+	Memory	8 GB RAM	N/A
+	Internal Storage	N/A	N/A
+	Network Connectivity	100 Mbps Full Duplex	N/A
+	Video Adapter	Web GL compatible	N/A
+	Display	If Leica scanner, then use Dell
+MR2416 display
+If Philips scanner, then use
+PP27QHD display	Required for Diagnostic Use
+(Dx)
+Software	Operating System	Windows 10	Latest patches recommended
+	Browser	Chrome	Latest version of browser is
+recommended
+
+--- Page 5 ---
+Table 2d: Computer environment minimum requirements for Dynamyx Digital
+Pathology Software, Pathology Workstation (installed)
+Component Specification Comments
+Processor Intel i5 or greater N/A
+Memory 8 GB RAM N/A
+7200 RPM or faster disks or Space requirements are
+Internal Storage
+SSD nominal (<10GB)
+Hardware
+Network Connectivity 100 Mbps Full Duplex 1Gbps preferred
+Video Adapter Web GL compatible N/A
+Display If Leica scanner, then use Dell Required for Diagnostic Use
+MR2416 display (Dx)
+If Philips scanner, then use
+PP27QHD display
+Software Operating System Windows 10 Latest patches recommended
+B Instrument Description Information:
+1. Instrument Name:
+Dynamyx Digital Pathology Software
+2. Specimen Type:
+Surgical pathology slides prepared from FFPE tissue
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is H&E stained. Digital
+images are them obtained from these glass slides using the PIPS UFS or Leica Aperio AT2
+DX Slide Scanner.
+4. Calibration:
+Not applicable
+5. Quality Control:
+When used as part of the Philips IntelliSite Pathology Solution (PIPS) system, the following
+QC procedure is used: The scanning technician views slide macro images on the Philips’
+K210811 - Page 5 of 10
+
+[Table 1 on page 5]
+Hardware	Component	Specification	Comments
+			
+	Processor	Intel i5 or greater	N/A
+	Memory	8 GB RAM	N/A
+	Internal Storage	7200 RPM or faster disks or
+SSD	Space requirements are
+nominal (<10GB)
+	Network Connectivity	100 Mbps Full Duplex	1Gbps preferred
+	Video Adapter	Web GL compatible	N/A
+	Display	If Leica scanner, then use Dell
+MR2416 display
+If Philips scanner, then use
+PP27QHD display	Required for Diagnostic Use
+(Dx)
+Software	Operating System	Windows 10	Latest patches recommended
+
+--- Page 6 ---
+Ultra-Fast Scanner interface to confirm all tissue is contained in the scanned area and then
+uses the Dynamyx Digital Pathology Software to confirm the scanned image quality (e.g.,
+focus, color, stitch errors, missing tissue). The QC status is available to pathologist.
+When used with the Leica Aperio AT2 DX System, the following QC procedure is used: The
+scanning technician views the slide macro image on the Leica system’s interface to confirm
+all tissue is contained in the scanned area and then uses the Dynamyx Digital Pathology
+Software to confirm the scanned image quality (e.g., focus, color, stitch errors, missing
+tissue). The QC status is available to pathologist.
+Refer to the Dynamyx Digital Pathology Software user guide for additional information.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Philips IntelliSite Pathology Solution (PIPS)
+Aperio AT2 DX System
+B Predicate 510(k) Number(s):
+DEN160056
+K190332
+C Comparison with Predicate(s):
+Device &
+Predicate K210811 DEN160056 K190332
+Device(s):
+Device Trade Dynamyx Digital Pathology Philips IntelliSite Leica Aperio AT2 DX
+Name Software Pathology Solution (PIPS) System
+General Device Characteristics: Similarities
+The Leica Aperio AT2
+The Philips IntelliSite
+Dynamyx Digital Pathology DX System is an
+Pathology Solution (PIPS)
+Software is automated digital slide
+is an automated digital
+intended for viewing and creation and viewing
+slide creation, viewing,
+management of digital system. The Leica Aperio
+and management system.
+images of scanned surgical AT2 DX System is
+Intended Use/ The PIPS is intended for in
+pathology slides prepared intended for in vitro
+Indications For Use vitro diagnostic use as an
+from formalin fixed, diagnostic use as an aid to
+aid to the pathologist to
+paraffin embedded (FFPE) the pathologist to review
+review and interpret
+tissue. and interpret digital
+digital images of surgical
+It is an aid to the images of surgical
+pathology slides prepared
+pathologist to review pathology slides prepared
+from formalin-fixed
+from formalin-fixed
+K210811 - Page 6 of 10
+
+[Table 1 on page 6]
+	Device &		K210811	DEN160056	K190332	
+	Predicate					
+	Device(s):					
+Device Trade
+Name			Dynamyx Digital Pathology
+Software	Philips IntelliSite
+Pathology Solution (PIPS)	Leica Aperio AT2 DX
+System	
+	General Device Characteristics: Similarities					
+Intended Use/
+Indications For Use			Dynamyx Digital Pathology
+Software is
+intended for viewing and
+management of digital
+images of scanned surgical
+pathology slides prepared
+from formalin fixed,
+paraffin embedded (FFPE)
+tissue.
+It is an aid to the
+pathologist to review	The Philips IntelliSite
+Pathology Solution (PIPS)
+is an automated digital
+slide creation, viewing,
+and management system.
+The PIPS is intended for in
+vitro diagnostic use as an
+aid to the pathologist to
+review and interpret
+digital images of surgical
+pathology slides prepared
+from formalin-fixed	The Leica Aperio AT2
+DX System is an
+automated digital slide
+creation and viewing
+system. The Leica Aperio
+AT2 DX System is
+intended for in vitro
+diagnostic use as an aid to
+the pathologist to review
+and interpret digital
+images of surgical
+pathology slides prepared
+from formalin-fixed	
+
+--- Page 7 ---
+and interpret these digital paraffin embedded (FFPE) paraffin embedded
+images for the purposes of tissue. The PIPS is not (FFPE) tissue. The
+primary diagnosis. intended for use with Leica Aperio AT2 DX
+Dynamyx Digital Pathology frozen section, cytology, or System is not intended for
+Software is not intended for non-FFPE use with frozen section,
+use with frozen section, hematopathology cytology, or non-FFPE
+cytology, or non-FFPE specimens. hematopathology
+hematopathology The PIPS comprises the specimens.
+specimens. Image Management The Leica Aperio AT2
+It is the responsibility of the System (IMS), the Ultra DX System is composed
+pathologist to employ Fast Scanner (UFS) and of the Leica Aperio AT2
+appropriate procedures and Display. The PIPS is for DX scanner, the
+safeguards to assure the creation and viewing of ImageScope DX review
+validity of the interpretation digital images of scanned application and Display.
+of images using Dynamyx glass slides that would The Leica Aperio AT2
+Digital Pathology Software. otherwise be appropriate DX System is for creation
+The Dynamyx Digital for manual visualization by and viewing of digital
+Pathology Software consists conventional light images of scanned glass
+of the Installed Pathologist microscopy. It is the slides that would
+Client and the Pathologist responsibility of a otherwise, be appropriate
+Workstation Web Client. qualified pathologist to for manual visualization
+The Installed Pathologist employ appropriate by conventional light
+Client is intended for use procedures and safeguards microscopy. It is the
+with Leica’s Aperio AT2 to assure the validity of the responsibility of a
+DX scanner and Dell interpretation of images qualified pathologist to
+MR2416 monitor as well as obtained using employ appropriate
+Philips’ Ultra Fast Scanner PIPS. procedures and safeguards
+and Philips PP27QHD to assure the validity of
+monitor. The Pathologist the interpretation of
+Workstation Web Clinent is images obtained using
+intended for use with the Leica Aperio AT2 DX
+Philips’ Ultra Fast Scanner System.
+and Philips PP27QHD
+monitor.
+Surgical pathology slides
+Specimen Type prepared from Same Same
+FFPE tissue
+Images are stored in end
+user provided image storage
+Image Storage Same Same
+attached to the local
+network
+Panning, zooming, image
+Image
+adjustments, annotations,
+Manipulation Same Same
+and distance/area
+Functions
+measurements
+Image Review and During review, the
+Same Same
+Diagnosis pathologist opens WSI
+K210811 - Page 7 of 10
+
+[Table 1 on page 7]
+	and interpret these digital
+images for the purposes of
+primary diagnosis.
+Dynamyx Digital Pathology
+Software is not intended for
+use with frozen section,
+cytology, or non-FFPE
+hematopathology
+specimens.
+It is the responsibility of the
+pathologist to employ
+appropriate procedures and
+safeguards to assure the
+validity of the interpretation
+of images using Dynamyx
+Digital Pathology Software.
+The Dynamyx Digital
+Pathology Software consists
+of the Installed Pathologist
+Client and the Pathologist
+Workstation Web Client.
+The Installed Pathologist
+Client is intended for use
+with Leica’s Aperio AT2
+DX scanner and Dell
+MR2416 monitor as well as
+Philips’ Ultra Fast Scanner
+and Philips PP27QHD
+monitor. The Pathologist
+Workstation Web Clinent is
+intended for use with
+Philips’ Ultra Fast Scanner
+and Philips PP27QHD
+monitor.	paraffin embedded (FFPE)
+tissue. The PIPS is not
+intended for use with
+frozen section, cytology, or
+non-FFPE
+hematopathology
+specimens.
+The PIPS comprises the
+Image Management
+System (IMS), the Ultra
+Fast Scanner (UFS) and
+Display. The PIPS is for
+creation and viewing of
+digital images of scanned
+glass slides that would
+otherwise be appropriate
+for manual visualization by
+conventional light
+microscopy. It is the
+responsibility of a
+qualified pathologist to
+employ appropriate
+procedures and safeguards
+to assure the validity of the
+interpretation of images
+obtained using
+PIPS.	paraffin embedded
+(FFPE) tissue. The
+Leica Aperio AT2 DX
+System is not intended for
+use with frozen section,
+cytology, or non-FFPE
+hematopathology
+specimens.
+The Leica Aperio AT2
+DX System is composed
+of the Leica Aperio AT2
+DX scanner, the
+ImageScope DX review
+application and Display.
+The Leica Aperio AT2
+DX System is for creation
+and viewing of digital
+images of scanned glass
+slides that would
+otherwise, be appropriate
+for manual visualization
+by conventional light
+microscopy. It is the
+responsibility of a
+qualified pathologist to
+employ appropriate
+procedures and safeguards
+to assure the validity of
+the interpretation of
+images obtained using
+the Leica Aperio AT2 DX
+System.
+Specimen Type	Surgical pathology slides
+prepared from
+FFPE tissue	Same	Same
+Image Storage	Images are stored in end
+user provided image storage
+attached to the local
+network	Same	Same
+Image
+Manipulation
+Functions	Panning, zooming, image
+adjustments, annotations,
+and distance/area
+measurements	Same	Same
+Image Review and
+Diagnosis	During review, the
+pathologist opens WSI	Same	Same
+
+--- Page 8 ---
+images acquired with the
+WSI scanner from the
+image storage, performs
+further QC and interprets
+the WSI images to make a
+diagnosis
+Displays a visual indicator
+Diagnostic Status for the
+Same Same
+of Images diagnostic status of an
+image
+Full-featured image viewer
+with integrated case list
+User Interface containing slide Same Same
+thumbnails
+General Device Characteristic: Differences
+Aperio AT2 DX scanner,
+Ultra-Fast Scanner (UFS),
+Dynamyx digital pathology the ImageScope DX
+Device Image Management
+software review application and
+Components System (IMS), Display
+Display
+VI Standards/Guidance Documents Referenced:
+1. Guidance for Industry “Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices", dated April 20, 2016
+2. ANSI AAMI IEC 62304:2006 & A1:2016 - Medical device software - Software life cycle
+processes
+3. ANSI AAMI IEC 62366-1:2015+AMD1:2020 – Application of usability engineering to
+medical devices
+4. ANSI AAMI ISO 14971: 2019 – Applications of risk management to medical devices
+5. AAMI TIR 45:2012 - Guidance on the use of AGILE practices in the development of medical
+device software
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable.
+2. Linearity:
+Not applicable.
+K210811 - Page 8 of 10
+
+[Table 1 on page 8]
+		images acquired with the
+WSI scanner from the
+image storage, performs
+further QC and interprets
+the WSI images to make a
+diagnosis			
+Diagnostic Status
+of Images		Displays a visual indicator
+for the
+diagnostic status of an
+image	Same	Same	
+User Interface		Full-featured image viewer
+with integrated case list
+containing slide
+thumbnails	Same	Same	
+	General Device Characteristic: Differences				
+Device
+Components		Dynamyx digital pathology
+software	Ultra-Fast Scanner (UFS),
+Image Management
+System (IMS), Display	Aperio AT2 DX scanner,
+the ImageScope DX
+review application and
+Display	
+
+--- Page 9 ---
+3. Analytical Specificity/Interference:
+Not applicable.
+4. Accuracy (Instrument):
+Not applicable.
+5. Carry-Over:
+Not applicable.
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing for Dynamyx Digital Pathology Software device was performed.
+The new device was compared to the Image Management Software (IMS) component of the
+Philips PIPS device and the ImageScope DX viewer software of Leica Aperio AT2 DX System.
+The following testing was performed:
+a. Pixel-wise comparison with the predicate device including zooming and panning operations
+The equivalence between the subject and predicate image review manipulation software (IRMS,
+as defined in the FDA guidance titled “Guidance for Industry “Technical Performance
+Assessment of Digital Pathology Whole Slide Imaging Devices", dated April 20, 2016 [TPA
+guidance, IV(A)(9)] was supported by bench testing data based on pixel-level comparison. The
+subject IRMS was tested as operating with the intended components, including the scanner,
+image management system and display. Scanned images from 33 FFPE tissue glass slides from
+different anatomic locations were used as the test input. For each region of interest (ROI), the
+differences between the views generated by the subject and predicate IRMS were evaluated with
+the 1976 International Commission on Illumination (CIE) color difference metric ΔE for each
+corresponding pixel pair. The two views generated by the subject and predicate IRMS were
+adjusted and registered by using only the graphical user interface without image processing. The
+test cases of ROIs included relevant biological features at different magnification levels such as
+40x, 20x and 10x. Horizontal/vertical stitching seams between the tiles were included in the
+ROIs when possible.
+Sixty image pairs at 40x, 20x, and 10x were used to test Dynamyx Digital Pathology Software
+Installed Pathologist Client against the predicate Leica AT2 DX. Similarly, sixty image pairs at
+40x and 20x were used to test Dynamyx Digital Pathology Software Installed Pathologist Client
+against the predicate Philips PIPS. In addition, sixty image pairs at 40x and 20x were used to test
+Dynamyx Digital Pathology Software Pathologist Workstation Web Client running in the
+Chrome browser against Philips PIPS.
+The color differences of all pixels within each ROI were reported. The image data of all ROIs
+were also provided for verification. The test results demonstrated that all image pairs are
+identical with zero ΔE. The subject device has been found to adequately reproduce digital
+pathology images at the pixel level with respect to its intended use.
+K210811 - Page 9 of 10
+
+--- Page 10 ---
+b. Turnaround Time
+Turnaround time test was performed to verify the streaming indicator functionality and to
+measure the turnaround time for initial image load, panning via mouse drag and zooming with 10
+concurrent users using Leica Aperio AT2 DX scanner images and Philips UFS images. Test
+results are acceptable.
+c. Measurement Accuracy
+Measurement accuracy testing was performed to verify the calculated measurement for each
+annotation (e.g., length and area) is accurate to within 5% of the reference measurement using a
+certified micron scale image created using a Leica Aperio AT2 DX scanner and a Philips UFS.
+Test results showed that the subject device performed accurate measurements with respect to its
+intended use.
+d. Human Factors (Usability) Testing
+Formative and summative usability testing was conducted on the Dynamyx Pathology
+Workstation and the Histologist Workstation interfaces in accordance with FDA Guidance on
+“Applying Human Factors and Usability Engineering to Medical Devices.
+A systematic evaluation of task-based usability including critical tasks required for operation of
+the device were evaluated at multiple sites using multiple users. All tasks associated with
+reviewing and reporting results for cases including confirmation that all slides belonging to
+specific cases are reviewed before reporting results, were included in the study. Overall, the
+results of the human factors testing were acceptable.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K210811 - Page 10 of 10

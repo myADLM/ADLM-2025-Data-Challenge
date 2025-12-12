@@ -1,0 +1,130 @@
+HEREDITARY THROMBOCYTOPENIA GENE PANEL, NEXT-
+GENERATION SEQUENCING (NGS) PROTOCOL
+1. Purpose: This document provides detailed step-by-step
+procedures for the analytical phase of generating results for the
+Hereditary Thrombocytopenia Gene Panel using Next-
+Generation Sequencing (NGS). The protocol ensures accurate,
+reliable, and reproducible results.
+2. Scope: This protocol applies to all personnel performing NGS
+for hereditary thrombocytopenia gene panel testing in the
+laboratory.
+3. Responsibilities: Designated staff are responsible for
+performing NGS procedures as outlined in this protocol,
+ensuring proper documentation, and notifying supervisors of
+any irregularities or issues. All lab personnel must adhere to
+this protocol and ensure adherence to quality control measures.
+4. Equipment and Reagents:
+• NGS platform (e.g., Illumina MiSeq, NextSeq, or equivalent)
+• Reagents and consumables for DNA extraction (e.g., QIAamp
+DNA Mini Kit)
+• Library preparation kit (e.g., Illumina DNA Prep Kit)
+• Custom or commercial hereditary thrombocytopenia gene panel
+(enrichment kits)
+• Quantification and quality assessment tools (e.g., Qubit
+Fluorometer, TapeStation)
+• PCR reagents
+• Master Mix (e.g., KAPA HiFi HotStart)
+• Magnetic beads purification system
+• Calibration and control materials
+• Pipettes and tips
+• Vortex mixer, microcentrifuge, thermal cycler
+• Nuclease-free water
+• Laboratory plasticware (e.g., tubes, plates, microplates)
+• Laboratory Information System (LIS) and data analysis software
+1. Safety Precautions:
+• Adhere to standard laboratory safety practices, including the use
+of personal protective equipment (PPE) (e.g., gloves, lab coat,
+safety glasses).
+• Dispose of all biological samples and chemical reagents
+according to laboratory protocols and local regulations.
+• Follow the manufacturer's instructions for the operation and
+maintenance of all laboratory equipment.
+1. Procedure: A) DNA Extraction:
+2. Ensure the sample (e.g., blood, bone marrow) is correctly
+labelled and has undergone proper pre-analytical processing.
+3. Follow the manufacturer’s instructions for the DNA extraction kit
+to isolate genomic DNA from the sample.
+4. Quantify DNA using a Qubit Fluorometer and assess the quality
+using a TapeStation.
+B) Library Preparation:
+1. Prepare DNA libraries using the library preparation kit following
+the manufacturer’s instructions, including fragmentation, end-
+repair, A-tailing, adaptor ligation, and PCR amplification.
+2. Purify the amplified libraries using magnetic beads and quantify
+using Qubit Fluorometer.
+3. Assess library quality using TapeStation. Ensure libraries meet
+quality thresholds for the subsequent steps.
+C) Target Enrichment:
+1. Hybridize the prepared libraries with the hereditary
+thrombocytopenia gene panel, following the manufacturer's
+instructions.
+2. Capture the enriched targets, wash, and amplify the target-
+enriched libraries.
+3. Purify amplified libraries using magnetic beads.
+D) Sequencing:
+1. Normalize and pool the purified, enriched libraries ready for
+sequencing.
+2. Perform sequencing on the NGS platform following the
+instrument’s standard operating procedures.
+3. Monitor sequencing run performance and make real-time
+adjustments as needed.
+E) Data Analysis:
+1. Transfer raw sequencing data to the analysis pipeline, ensuring
+data integrity is maintained.
+2. Perform initial quality control checks using bioinformatics tools
+(e.g., FastQC).
+3. Align sequencing reads to the human reference genome (e.g.,
+hg19 or hg38) using alignment software (e.g., BWA-MEM).
+4. Perform variant calling using variant callers (e.g., GATK,
+FreeBayes) and annotate variants with appropriate databases
+(e.g., ClinVar, dbSNP).
+5. Conduct secondary quality control checks on the called
+variants, including depth of coverage and sequencing quality
+metrics.
+6. Filter, prioritize, and interpret clinically relevant variants in the
+context of hereditary thrombocytopenia.
+F) Quality Control:
+1. Include positive and negative controls in each sequencing run.
+2. Ensure the inter-run reproducibility by including replicate
+samples.
+3. Record all quality control measures and results. Address any
+failed controls according to laboratory policy.
+4. Merge supplementary control data with primary data for final
+interpretation.
+G) Reporting:
+1. Review and verify identified variants correlating with clinical
+data using the LIS.
+2. Generate a comprehensive report summarizing findings,
+including variant classification (pathogenic, likely pathogenic,
+VUS, likely benign, benign) per ACMG guidelines.
+3. Include comments on potential clinical significance and
+recommendations for follow-up testing if necessary.
+4. Record Management:
+5. Document all steps rigorously in the laboratory’s information
+system.
+6. Maintain records of DNA extraction, library preparation, target
+enrichment, sequencing runs, data analysis, quality control, and
+reporting.
+7. Ensure all documentation is securely stored, confidential, and
+accessible to authorized personnel only.
+8. Troubleshooting:
+• Address any equipment malfunctions following manufacturer
+guidelines and solve library preparation difficulties. Refer to
+quality control fails and variant interpretation challenges.
+• Notify the supervisor of any critical issues.
+1. References:
+• Manufacturer's instructions (e.g., Illumina DNA Prep Kit, QIAamp
+DNA Mini Kit)
+• Clinical Laboratory Standards Institute (CLSI) and College of
+American Pathologists (CAP) guidelines
+• ACMG guidelines for variant interpretation
+• Primary literature on hereditary thrombocytopenia gene panels
+and NGS methods
+1. Conclusion: By adhering strictly to this SOP, the laboratory
+ensures accurate, precise, and reproducible results for the
+hereditary thrombocytopenia gene panel using next-generation
+sequencing. All personnel must understand, follow, and
+document these procedures to maintain the highest quality
+standards and reliable diagnostic outcomes.
+Revision History: Document all versions of the SOP for traceability
+and continuous improvement.

@@ -1,0 +1,117 @@
+STANDARD OPERATING PROCEDURE (SOP) 4:
+METHYLMALONIC ACIDURIA GENE PANEL ANALYSIS
+1. PURPOSE
+To provide detailed instructions for the analytical phase of generating
+results for the Methylmalonic Aciduria (MMA) Gene Panel, ensuring
+accurate, consistent, and reliable genetic testing.
+2. SCOPE
+This protocol is applicable to all laboratory personnel involved in the
+analysis and interpretation of genetic data for the Methylmalonic
+Aciduria Gene Panel.
+3. RESPONSIBILITY
+It is the responsibility of the laboratory technologists to conduct the
+analysis and ensure the accuracy and completeness of results based
+on this SOP. Supervisors must review and validate the results and
+address any deviations or issues identified during the process.
+4. SPECIMENS
+The specimen requirements are assumed to have been collected,
+received, and accessioned.
+5. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Sequencer (Next Generation Sequencing: NGS or Sanger
+Sequencing)
+• PCR Thermal Cycler
+• Reagents for DNA extraction, PCR, and sequencing as per
+manufacturer recommendations
+• DNA extraction kits
+• PCR primers for MMA genes
+• Sequencing libraries and adapters
+• Positive and negative controls
+• Pipettes and tips
+• Microcentrifuge tubes
+• Agarose gel electrophoresis apparatus (optional)
+6. PROCEDURE
+6.1 DNA Extraction
+1. Extract genomic DNA from the patient's blood or tissue sample
+using a commercially available DNA extraction kit following the
+manufacturer’s instructions.
+2. Quantitate and assess purity of extracted DNA using
+spectrophotometry (e.g., NanoDrop) and/or fluorometry (e.g.,
+Qubit).
+6.2 PCR Amplification
+1. Design specific primers for known genes implicated in
+Methylmalonic Aciduria.
+2. Prepare the PCR master mix according to the reagent
+manufacturer’s instructions including DNA template, PCR
+buffer, dNTPs, MgCl2, primers, and Taq DNA polymerase.
+3. Set PCR conditions with appropriate cycling parameters:
+◦ Initial denaturation at 95°C for 3 minutes.
+◦ 30–35 cycles of:
+▪ Denaturation at 95°C for 30 seconds.
+▪ Annealing at 55-65°C (depending on primer Tm) for 30
+seconds.
+▪ Extension at 72°C for 1 minute.
+◦ Final extension at 72°C for 5 minutes.
+6.3 Library Preparation and NGS (if using NGS platform)
+1. Purify PCR products using a suitable purification kit.
+2. Quantify purified PCR products.
+3. Prepare sequencing libraries using the purified PCR products
+according to the NGS library preparation guide.
+4. Perform quality control and quantification of the libraries.
+5. Load libraries onto the sequencing instrument following the
+manufacturer's protocol.
+6.4 Sequencing and Data Analysis
+1. Sequence the prepared libraries using a next-generation
+sequencer.
+2. Perform quality checks on sequencing data and filter out low-
+quality reads.
+3. Map sequencing reads to the human reference genome.
+4. Perform variant calling using validated bioinformatics pipelines.
+6.5 Sanger Sequencing Validation (if applicable)
+1. Design primers for the regions of interest if Sanger sequencing
+is used for validation.
+2. Perform PCR as above.
+3. Purify PCR products.
+4. Sequence the purified products using specific sequencing
+primers and capillary electrophoresis.
+5. Analyze sequencing results to confirm variants.
+6.6 Data Interpretation and Reporting
+1. Interpret the identified genetic variants following the American
+College of Medical Genetics and Genomics (ACMG) guidelines.
+2. Correlate genetic findings with clinical data to determine the
+significance of the variants.
+3. Compile the results into a comprehensive report, including:
+◦ Patient information and sample details
+◦ Methodology
+◦ Identified variants and their clinical significance
+◦ Interpretation and recommendations for further steps
+7. QUALITY CONTROL
+1. Include positive and negative controls in each analytical run to
+ensure assay integrity.
+2. Regularly calibrate and maintain equipment as per the
+manufacturer’s guidelines.
+3. Participate in external proficiency testing programs for genetic
+testing when available.
+8. SAFETY AND PRECAUTIONS
+1. Follow standard laboratory biosafety guidelines for handling
+biological specimens and reagents.
+2. Use personal protective equipment (PPE) such as gloves, lab
+coats, and eye protection.
+3. Dispose of waste materials in compliance with institutional and
+regulatory guidelines.
+9. REFERENCES
+• Manufacturer’s instruction manuals for equipment and reagents.
+• ACMG guidelines for the interpretation of sequence variants.
+• Laboratory-specific quality management system documents.
+10. DOCUMENTATION
+Record all procedures, observations, and results in the laboratory
+information system (LIS). Ensure all records are legible, accurate,
+and retrievable for future reference and audits.
+By adhering to these procedures, we ensure that genetic testing for
+Methylmalonic Aciduria is performed consistently, with high reliability
+and accuracy, for effective patient diagnosis and care.
+I have structured the document to ensure all steps, responsibilities,
+and critical quality controls relevant to the analytical phase are
+thoroughly covered as per standardized SOP practices. If you have
+additional information regarding specific regulatory guidelines or
+institutional preferences that you would like to consider, please let me
+know.

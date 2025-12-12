@@ -1,0 +1,72 @@
+# SPECIAL 510(k): Device Modification Decision Summary
+
+To: Princeton Biomeditech Corporation
+
+RE: K133474
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class I device requiring a 510(k). The following items are present and acceptable
+
+1. The names and 510(k) number of the SUBMITTER’S previously cleared device:
+
+Trade Names: BioSign® Flu $\mathsf { A } { + } \mathsf { B }$ , Status Flu A & B
+
+510(k) number: K132465
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and if available, advertisements or promotional materials.
+
+3. A description of the device MODIFICATION(S):
+
+The modification presented in this $5 1 0 ( \mathsf { k } )$ consisted of expanding the Analytical Inclusivity section of the package insert to include reactivity information for two strains of the H5N1 subtype of influenza A virus, A/Vietnam/1194/2004 and A/Anhui/01/2005.
+
+The ability of the BioSign Flu $\mathsf { A } { + } \mathsf { B }$ Test to detect H5N1 was tested using the aforementioned influenza virus strains. These strains were obtained from the Influenza Reagent Resource (established by the Centers for Disease Control and Prevention and managed by the American Type Culture Collection) as non-infectious beta-propiolactone inactivated virus. An analytical inclusivity study was performed with each of the viruses using the same procedure employed in the original submission. Each titered virus was diluted until the minimal visual signal intensity appeared on the test line. This was defined as the lowest reacting level of the virus. Each virus was then tested in triplicate at that dilution. All virus strains tested were detected in 3 out of 3 tests at the lowest reacting level. The lowest reactivity level for each virus is listed below:
+
+· A/Anhui/01/2005 (H5N1) – 1.6 x 107 EID50/mL · A/Vietnam/1194/2004 (H5N1) – 1.6 x 106 EID50/mL
+
+The package inserts for the BioSign Flu $\mathsf { A } { + } \mathsf { B }$ Test and the Status Flu A&B Test have been updated to include the additional analytical reactivity information. Status Flu A&B is the name of the same device being sold by LifeSign LLC under agreement with Princeton BioMeditech Corporation.
+
+4. The FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified devices has not changed.
+
+5. Comparison Information (similarities and differences) to applicant’s legally marketed predicate devices including, labeling, intended use, and physical characteristics:
+
+Similarities
+
+<table><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Modified Device</td><td colspan="1" rowspan="1">Predicate Device</td></tr><tr><td colspan="1" rowspan="1">Features</td><td colspan="1" rowspan="1">BioSign Flu A+B</td><td colspan="1" rowspan="1">BioSign Flu A+B</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">The BioSign Flu A+B test is an in vitro rapidqualitative test that detects influenza type A andtype B nucleoprotein antigens directly fromnasal swab, nasopharyngeal swab, andnasopharyngeal aspirate/wash specimensobtained from patients with signs andsymptoms of respiratory infection. It is intended</td><td colspan="1" rowspan="1">The BioSign Flu A+B test is an in vitro rapidqualitative test that detects influenza type A andtype B nucleoprotein antigens directly fromnasal swab, nasopharyngeal swab, andnasopharyngeal aspirate/wash specimensobtained from patients with signs and symptomsof respiratory infection. It is intended to aid in the</td></tr><tr><td></td><td>influenza A and B viral infections. Negative test results are presumptive and it is recommended these results be confirmed by viral culture. Negative results do not preclude influenza virus infection and should not be used as the sole basis for treatment or other patient management decisions. The test is intended for professional and laboratory use. Performance characteristics for influenza were established during the 2007-2009 influenza seasons when influenza A viruses A/New Caledonia/20/99 (H1N1), A/Solomon Islands/3/2006 (H1N1), A/Brisbane/59/2007 (H1N1), A/California/07/2009 (H1N1), A/Wisconsin/67/2005 (H3N2), A/Brisbane/10/2007 (H3N2), and influenza B viruses B/Ohio/01/2005, B/Florida/4/2006, B/Brisbane/60/2008 were the predominant influenza viruses in circulation according to the Flu Activity &amp; Surveillance report by CDC. Performance characteristics may vary against other emerging influenza viruses. If infection with a novel influenza virus is suspected based on current clinical and epidemiological screening criteria recommended by public health authorities, specimens should be collected with appropriate infection control precautions for novel virulent Influenza viruses and sent to state or local health department for</td><td>viral infections. Negative test results are presumptive and it is recommended these results be confirmed by viral culture. Negative results do not preclude influenza virus infection and should not be used as the sole basis for treatment or other patient management decisions. The test is intended for professional and laboratory use. Performance characteristics for influenza were established during the 2007- 2009 influenza seasons when influenza A viruses A/New Caledonia/20/99 (H1N1), A/Solomon Islands/3/2006 (H1N1), A/Brisbane/59/2007 (H1N1), A/California/07/2009 (H1N1), A/Wisconsin/67/2005 (H3N2), A/Brisbane/10/2007 (H3N2), and influenza B viruses B/Ohio/01/2005, B/Florida/4/2006, B/Brisbane/60/2008 were the predominant influenza viruses in circulation according to the Flu Activity &amp; Surveillance report by CDC. Performance characteristics may vary against other emerging influenza viruses. If infection with a novel influenza virus is suspected based on current clinical and epidemiological screening criteria recommended by public health authorities, specimens should be collected with appropriate infection control precautions for novel virulent Influenza viruses and sent to state or local health department for</td></tr><tr><td></td><td>testing. Viral culture should not be attempted in these cases unless a BSL+3 facility is available</td><td>testing. Viral culture should not be attempted in these cases unless a BSL+3 facility is available</td></tr><tr><td></td><td>to receive and culture specimens. Same as predicate device</td><td>to receive and culture specimens. Nasal swab, nasopharyngeal swab,</td></tr><tr><td></td><td>Same as predicate device</td><td>nasopharyngeal aspirate/wash Solid phase chromatographic immunoassay</td></tr><tr><td>Extraction</td><td>Same as predicate device</td><td>Incubated 1 minute in extraction reagent</td></tr><tr><td>Read Result Time</td><td>Same as predicate device</td><td>10 minutes</td></tr><tr><td>Test Line Internal Control</td><td>Same as predicate device Same as predicate device</td><td>Colloidal gold Reddish-purple line</td></tr><tr><td>Control Samples</td><td>Same as predicate device</td><td>Positive control swab: Influenza A and B antigens (non-infective recombinant</td></tr><tr><td></td><td></td><td>nucleoprotein) Negative control swab: Inactivated group B Streptococcus antigen (non-infective)</td></tr></table>
+
+# Differences
+
+1) The package insert for the BioSign Flu $\mathsf { A } { + } \mathsf { B }$ (K083746) has been updated to include detection of the A/Vietnam/1194/2004 and A/Anhui/01/2005 viruses in the analytical inclusivity section at the following reactivity levels:
+
+· A/Anhui/01/2005 (H5N1)\*\* – 1.6 x 107 EID50/mL · A/Vietnam/1194/2004 (H5N1)\*\* – 1.6 x 106 EID50/mL
+
+2) The following language is included in the package insert on page 7 in the analytical inclusivity section (below the analytical inclusivity table):
+
+\*\*Although this test has been shown to detect these viral strains cultured from positive human respiratory specimens, the performance characteristics of this device with clinical specimens that are positive for these viruses have not been established.
+
+3) The following language was removed from the package insert on page 7 in the analytical inclusivity section (below the analytical inclusivity table) as the results of the testing provided in K133474 make this language unnecessary.
+
+NOTE: The performance characteristics of the test with cultured avian influenza A subtype H5N1 virus, or with specimens from humans infected with H5N1 or other avian influenza viruses have not been established.
+
+# 6. Design Control Activities Summary:
+
+1) Analytical reactivity testing was conducted for the H5N1 virus using identical methods employed in the original submission for the unmodified device.
+
+# 2) Risk Analysis
+
+The risk analysis method used to assess the impact of the modification (adding additional viruses to the analytical sensitivity section of the package insert) was a Failure Modes and Effects Analysis (FMEA). Based on the result of the risk analysis, the verification activities required and acceptance criteria were identified. Because the change is adding detection levels of additional virus strains without changing any other characteristics of the test device (including the fundamental scientific technology or indications for use), no risk is involved for this change except as listed below:
+
+<table><tr><td rowspan=1 colspan=1>Change</td><td rowspan=1 colspan=1>Hazard</td><td rowspan=1 colspan=1>Resolution ofRisk</td><td rowspan=1 colspan=1>TestingPerformed</td><td rowspan=1 colspan=1>Test Method</td><td rowspan=1 colspan=1>AcceptanceCriteria</td><td rowspan=1 colspan=1>AcceptanceCriteria Met</td></tr><tr><td rowspan=1 colspan=1>Addition of newvirus strains topackage insert</td><td rowspan=1 colspan=1>Non-detection ofany of the addingvirus strains</td><td rowspan=1 colspan=1>ConfirmAnalyticalSensitivity for alladditional strains</td><td rowspan=1 colspan=1>AnalyticalSensitivityTesting conductedfor each of theadded strains</td><td rowspan=1 colspan=1>Tested intriplicate for eachdilution of eachadditional strain</td><td rowspan=1 colspan=1>Positive Resultsat 10 minutes foreach virus at thedeterminedanalyticalsensitivity level.</td><td rowspan=1 colspan=1>*Yes</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Misinterpretationof test use: testused for detectionof the additionalstrains fromhuman specimen</td><td rowspan=1 colspan=1>Labeling:Limitation of testprovided in thebelow ofinclusivity table</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td></tr></table>
+
+\*This was indicated after all experiments were completed.
+
+# 2) Declaration of Conformity
+
+A “Declaration of Conformity” statement was submitted for the manufacturing facility and validation activities and signed by the Regulatory Affairs Manager and the Quality Assurance Manager. The statements indicate that:
+
+a) As required by the risk analysis, all verification and validation activities were performed by the designated individuals and the results demonstrated that the predetermined acceptance criteria were met.   
+b) The manufacturing facility is in conformance with the design control procedure requirements as specified in 21 CFR 820.30 and the records are available for review.
+
+In conclusion, based on the results of the analytical reactivity testing the modified labeling is truthful and accurate. The changes do not affect the performance of the BioSign Flu $\mathsf { A } { + } \mathsf { B }$ Test therefore the modified test is substantially equivalent to the currently cleared test.
+
+# 7. A Truthful and Accurate Statement, a 510(k) Summary, and the Indications for Use Enclosure.
+
+The labeling for the modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. On this basis, I recommend that the device is determined to be substantially equivalent to the previously cleared device.

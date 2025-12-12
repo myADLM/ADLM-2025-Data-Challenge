@@ -1,0 +1,2179 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K240252
+B Applicant
+Beckman Coulter, Inc
+C Proprietary and Established Names
+UniCel DxH 900 Coulter Cellular Analysis System; UniCel DxH Slidemaker Stainer II Coulter
+Cellular Analysis System; UniCel DxH 690T Coulter Cellular Analysis System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5220 -
+GKZ Class II Automated Differential HE - Hematology
+Cell Counter
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Measurand:
+Whole blood: WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW, RDW-SD, PLT, MPV,
+NE%, NE#, LY%, LY#, MO%, MO#, EO%, EO#, BA%, BA#, NRBC%, NRBC#, RET%,
+RET#, MRV, IRF.
+Body fluid: TNC and RBC.
+C Type of Test:
+Quantitative test for complete blood counts (CBC) with 5-part white blood cell differential,
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+GKZ			Class II	21 CFR 864.5220 -
+Automated Differential
+Cell Counter			HE - Hematology
+
+--- Page 2 ---
+nucleated red blood cell counts, reticulocyte analysis and body fluid counts.
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The UniCel DxH 900/DxH 690T Coulter Cellular Analysis System is a quantitative, multi-
+parameter, automated hematology analyzer for in vitro diagnostic use in screening patient
+populations found in clinical laboratories.
+The DxH 900/DxH 690T hematology analyzer identifies and enumerates the following
+parameters:
+• Whole Blood (Venous or Capillary): WBC, RBC, HGB, HCT, MCV, MCH, MCHC,
+RDW, RDW-SD, PLT, MPV, NE%, NE#, LY%, LY#, MO%, MO#, EO%, EO#, BA%,
+BA#, NRBC%, NRBC#, RET%, RET#, MRV, IRF
+• Pre-Diluted Whole Blood (Venous or Capillary): WBC, RBC, HGB, HCT, MCV, MCH,
+MCHC, RDW, RDW-SD, PLT, MPV
+• Body Fluids (cerebrospinal, serous or synovial): TNC and RBC
+The UniCel DxH Slidemaker Stainer II Coulter Cellular Analysis System is a fully automated
+slide preparation and staining device that aspirates a whole-blood sample, smears a blood film on
+a clean microscope slide, and delivers a variety of fixatives, stains, buffers, and rinse solutions to
+that blood smear.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+UniCel DxH 900 Coulter Cellular Analysis System
+The UniCel DxH 900 Coulter Cellular Analysis System is a multi-analyzer system that may
+consist of a different combination of one or more of the following modules: a stand-alone DxH
+900 instrument, or a stand-alone UniCel DxH Slidemaker Stainer II, or a work cell comprising of
+up to three UniCel DxH 900 instruments connected with or without a UniCel DxH Slidemaker
+Stainer II.
+The UniCel DxH 900 System is a quantitative multiparameter fully automated hematology
+analyzer intended to perform tests on venous and capillary whole blood samples collected in K2
+/K3EDTA anticoagulant and body fluids including serous fluids collected in K2 or K3EDTA,
+synovial fluids collected in K2/K3EDTA, or Heparin and cerebrospinal fluid (CSF) collected
+without anticoagulant. The system provides a Complete Blood Count (CBC), Leukocyte 5-Part
+K240252 - Page 2 of 27
+
+--- Page 3 ---
+Differential (Diff), Reticulocyte (Retic), Nucleated Red Blood Cell (NRBC) on whole blood, as
+well as, Total Nucleated Count (TNC), and Red Cell Count (RBC) on Body Fluids
+(cerebrospinal, serous and synovial).
+The DxH Slidemaker Stainer II is a fully automated slide preparation and staining device that
+aspirates a whole-blood sample, smears a blood film on a clean microscope slide, and delivers a
+variety of fixatives, stains, buffers, and rinse solutions to that blood smear.
+The Unicel DxH 900 Coulter Cellular Analysis System can be configured as workcell as follows:
+• DxH 900: consisting of one DxH 900 instrument
+• DxH Slidemaker Stainer II: consisting of one DxH Slidemaker Stainer II
+• DxH 900 S: consisting of one DxH 900 configured with one DxH Slidemaker Stainer II
+• DxH 900−2: consisting of two DxH 900 instruments
+• DxH 900−2 S: consisting of two DxH 900 instruments configured with one DxH
+Slidemaker Stainer II
+• DxH 900−3: consisting of three DxH 900 instruments
+• DxH 900−3 S: consisting of three DxH 900 instruments configured with one DxH
+Slidemaker Stainer II
+DxH 690T Coulter Cellular Analysis System
+The DxH 690T Coulter Cellular Analysis System consists of a stand-alone tabletop DxH 690T
+instrument with same detection capabilities, technology, software and analytes as the DxH 900
+instrument. The DxH 690T cannot be configured as a workcell.
+B Principle of Operation:
+The UniCel DxH 900/DxH 690T Coulter Cellular Analysis System is based on the Coulter
+Principle. The Coulter Principle accurately counts and sizes cells by detecting and measuring
+changes in electrical resistance when a particle (such as a cell) in a conductive liquid passes
+through a small aperture. Each cell suspended in a conductive liquid (diluent) acts as an
+insulator. As each cell goes through the aperture, it momentarily increases the resistance of the
+electrical path between the submerged electrodes on either side of the aperture. This causes a
+measurable electronic pulse. For counting, the vacuum used to pull the diluted suspension of
+cells through the aperture must be at a regulated volume. While the number of pulses indicates
+particle count, the size of the electrical pulse is proportional to the cell volume. All pulses
+generated by the apertures are collected and sent to the Signal Conditioner Analyzer Card for
+analog to digital conversion. The process provides the following raw counts and digital
+measurements to the System Manager for processing by the algorithms where the reported
+parameter values, flags and histograms are generated.
+The complete blood count (CBC) is the fundamental analytical test that evaluates the three main
+cellular components: white blood cells, red blood cells, and platelets. Sample preparation and
+data collection occur in the Sample Aspiration Module (SAM) and Complete Blood Count
+(CBC) modules on the UniCel DxH 900/DxH 690T Coulter Cellular Analysis System.
+K240252 - Page 3 of 27
+
+--- Page 4 ---
+The lytic reagent for WBC is used to prepare the blood so the system can count leukocytes and
+measure the amount of hemoglobin. The lytic reagent rapidly and simultaneously destroys the
+erythrocytes and converts a substantial proportion of the hemoglobin to a stable pigment while it
+leaves leukocyte nuclei intact. The absorbance of the pigment is directly proportional to the
+hemoglobin concentration of the sample. Hemoglobin (HGB) is measured photometrically at 525
+nm using the sample from the WBC analysis. A blank is introduced into the cuvette during each
+operating cycle. The HGB blank provides a reference to which the sample signal is compared.
+The COULTER VCSn technology is used to determine the white cell differential, nucleated red
+blood cell and reticulocyte parameters along with associated flags, messages, histograms and
+data plots. As the particles pass through the sensing zone, a diode laser illuminates the particles.
+The flow cell measures volume, conductivity, multiple angles of light scatter, and axial light loss.
+• For the WBC differential, sample preparation occurs at the Diff mix chamber where sample
+and reagents are added in the following order: Diff Lyse, blood, additional Diff Lyse
+followed by an air mix. Next, Diff preservative is added, followed by a second air mix, and
+an incubation period. The prepared sample is transferred to the module where cells are
+counted in an isometric sample stream. The algorithm separates the WBC into five major
+populations.
+• For NRBC, sample preparation occurs at the NRBC Diff mix chamber where sample and
+reagents are added in the following order: Diluent, blood, additional Diluent followed by an
+air mix. Next, DxH Cell Lyse is added, followed by a second air mix, and an incubation
+period. The prepared sample is transferred to the module where cells are counted in an
+isometric sample stream. The algorithm separates NRBC from WBC.
+• Reticulocytes are immature, non-nucleated erythrocytes retaining a small network of
+basophilic organelles, consisting of RNA and protoporphyrin. The enumeration of
+reticulocytes provides a simple, effective means to determine red cell production and
+regeneration. Reticulocyte immaturity is related to cell volume and light scatter. Since more
+immature reticulocytes are larger, contain more RNA and cause increased light scatter, the
+cell volume and light scatter will increase with immaturity of the cell.
+The data collected during each of the analytical processes is transferred to the System Manager
+where the digital raw values are processed by the algorithm using mathematical approaches
+designed for finding optimal separation between clusters of data. The identified clusters are used
+to calculate the frequency of cells within each population, generate parameter values, flags,
+histograms and data plots.
+The DxH Slidemaker Stainer II allows for adaptation of the smear appearance and stain
+methodology. Blood smears produced by the Slidemaker portion of the DxH Slidemaker Stainer
+II are moved to baskets for transfer to the Stainer portion by a robot for microscopic examination
+of the stained blood smears.
+K240252 - Page 4 of 27
+
+--- Page 5 ---
+C Instrument Description Information:
+1. Instrument Name:
+UniCel DxH 900 Coulter Cellular Analysis System, UniCel DxH Slidemaker Stainer II
+Coulter Cellular Analysis System, UniCel DxH 690T Coulter Cellular Analysis System
+2. Specimen Identification:
+• Specimen Identification is automated by Sample aspiration module (SAM) mounted barcode
+reader for automated barcode reading of cassette and sample tube identifiers
+• Manual barcode scanning of sample tube with the use of a handheld barcode scanner
+• Manual keyboard entry of sample identifier
+3. Specimen Sampling and Handling:
+The UniCel DxH 900/DxH 690T Coulter Cellular Analysis System provides the user with the
+ability to obtain a variety of combinations of parameter results using analytical test panels.
+The specimen analysis can occur via following sampling methods on the analyzer:
+• Automated Cassette Closed Vial (whole blood analysis mode)
+• Manual Single Tube Closed Vial (whole blood analysis mode)
+• Manual Single Tube Open Vial (1 in 5 pre-diluted whole blood mode; body fluid analysis
+mode)
+4. Calibration:
+COULTER® S-CAL® Calibrator (k862122) is used for determining calibration factors to
+ensure accurate measurements of directly measured CBC parameters. Assigned assay values
+are traceable to reference methods.
+5. Quality Control:
+The DxH 900/DxH 690T Coulter Cellular Analysis System uses commercial controls:
+• COULTER 6C Cell Control (K081822) enables monitoring of system performance
+for all directly measured and calculated CBC, Diff and NRBC parameters.
+• COULTER 6C Plus Cell Control enables monitoring of system performance for all
+directly measured and calculated CBC, Diff and NRBC parameters.
+• COULTER Retic-X Cell Control (K930119) monitors system performance of the
+reticulocyte parameters.
+• COULTER LIN-X Linearity Control (K081641) verifies the reportable range, and
+assesses the calibration of the WBC, RBC, HGB, and PLT parameters.
+K240252 - Page 5 of 27
+
+--- Page 6 ---
+• COULTER Body Fluid Control (K082162) monitors system performance of the body
+fluid cycle's RBC and TNC count parameters. Additionally, COULTER Body Fluid
+Control can be used for verification of the measuring range and linearity of the TNC
+and RBC in the body fluid panel.
+• COULTER LATRONTM CP-X Control (K885028) determines calibration factors to
+ensure accurate measurements of directly measured CBC parameters. Assigned assay
+values are traceable to reference methods.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Unicel DxH 800 Coulter Cellular Analysis System, UniCel DxH 800 Coulter Cellular Analysis
+System with Early Sepsis Indicator Application
+UniCel DxH SlideMaker Stainer Coulter Cellular Analysis System
+B Predicate 510(k) Number(s):
+K193124, K162414
+C Comparison with Predicate(s):
+Device & Predicate
+K240252 K193124
+Device(s):
+UniCel DxH 900 Coulter
+Cellular Analysis
+UniCel DxH 800 Coulter
+System (DxH 900), UniCel DxH
+Cellular Analysis System
+Slidemaker
+Device Trade Name with Early Sepsis Indicator
+Stainer II (SMS II), UniCel
+Application (ESId)
+DxH 690T Coulter Cellular
+Analysis System (DxH 690T),
+General Device
+Characteristic
+Similarities
+The UniCel DxH 900/DxH 690T
+The UniCel DxH 800
+Coulter Cellular Analysis
+Coulter Cellular Analysis
+System is a quantitative, multi-
+System is a quantitative,
+parameter, automated
+multi‐parameter,
+hematology analyzer for in vitro
+automated hematology
+diagnostic use in screening
+analyzer for in vitro
+Intended patient populations found in
+diagnostic use in screening
+Use/Indications For Use clinical laboratories.
+patient populations found
+in clinical laboratories.
+The DxH 900/DxH 690T
+The DxH 800 hematology
+hematology analyzer identifies
+analyzer identifies and
+and enumerates the following
+enumerates the following
+parameters:
+parameters:
+K240252 - Page 6 of 27
+
+[Table 1 on page 6]
+Device & Predicate
+Device(s):	K240252	K193124
+Device Trade Name	UniCel DxH 900 Coulter
+Cellular Analysis
+System (DxH 900), UniCel DxH
+Slidemaker
+Stainer II (SMS II), UniCel
+DxH 690T Coulter Cellular
+Analysis System (DxH 690T),	UniCel DxH 800 Coulter
+Cellular Analysis System
+with Early Sepsis Indicator
+Application (ESId)
+General Device
+Characteristic
+Similarities		
+Intended
+Use/Indications For Use	The UniCel DxH 900/DxH 690T
+Coulter Cellular Analysis
+System is a quantitative, multi-
+parameter, automated
+hematology analyzer for in vitro
+diagnostic use in screening
+patient populations found in
+clinical laboratories.
+The DxH 900/DxH 690T
+hematology analyzer identifies
+and enumerates the following
+parameters:	The UniCel DxH 800
+Coulter Cellular Analysis
+System is a quantitative,
+multi‐parameter,
+automated hematology
+analyzer for in vitro
+diagnostic use in screening
+patient populations found
+in clinical laboratories.
+The DxH 800 hematology
+analyzer identifies and
+enumerates the following
+parameters:
+
+--- Page 7 ---
+• Whole Blood (Venous Whole Blood (Venous or
+or Capillary): WBC, Capillary): WBC, RBC,
+RBC, HGB, HCT, HGB, HCT, MCV, MCH,
+MCV, MCH, MCHC, MCHC, RDW, RDW‐SD,
+RDW, RDW-SD, PLT, PLT, MPV, NE%, NE#,
+MPV, NE%, NE#, LY%, LY#, MO%, MO#,
+LY%, LY#, MO%, EO%, EO#, BA%, BA#,
+MO#, EO%, EO#, NRBC%, NRBC#, RET%,
+BA%, BA#, NRBC%, RET#, MRV, IRF
+NRBC#, RET%, RET#,
+MRV, IRF
+Pre‐Diluted Whole Blood
+• Pre-Diluted Whole
+(Venous or Capillary):
+Blood (Venous or
+WBC, RBC, HGB, HCT,
+Capillary): WBC, RBC,
+MCV, MCH, MCHC,
+HGB, HCT, MCV,
+RDW, RDW‐SD, PLT,
+MCH, MCHC, RDW,
+MPV
+RDW-SD, PLT, MPV
+Body Fluids
+• Body Fluids
+(cerebrospinal, serous or
+(cerebrospinal, serous or
+synovial): TNC and RBC
+synovial): TNC and
+ESId Application
+RBC
+The UniCel DxH Slidemaker The UniCel DxH 800
+Stainer II Coulter Cellular Series with System
+Analysis System is a fully Manager Software Coulter
+automated slide preparation and Cellular Analysis System
+staining device that aspirates a with Early Sepsis Indicator
+whole-blood sample, smears a (ESId) application is the
+blood film on a clean quantitative measurement
+microscope slide, and delivers a of Monocyte Distribution
+variety of fixatives, stains, Width (MDW). The Early
+buffers, and rinse solutions to Sepsis Indicator (ESId) is
+that blood smear. intended for use with adult
+patients presenting to the
+emergency department, on
+whom a white blood cell
+differential test has been
+ordered.
+MDW is tested from a
+(K2EDTA) whole‐blood
+venous sample within two
+hours of collection. MDW
+results greater than 20.0
+together with other
+laboratory findings and
+clinical information, aids
+in identifying patients with
+sepsis or at increased risk
+of developing sepsis
+within the first 12 hours of
+hospital admission.
+MDW results greater than
+K240252 - Page 7 of 27
+
+[Table 1 on page 7]
+	• Whole Blood (Venous
+or Capillary): WBC,
+RBC, HGB, HCT,
+MCV, MCH, MCHC,
+RDW, RDW-SD, PLT,
+MPV, NE%, NE#,
+LY%, LY#, MO%,
+MO#, EO%, EO#,
+BA%, BA#, NRBC%,
+NRBC#, RET%, RET#,
+MRV, IRF
+• Pre-Diluted Whole
+Blood (Venous or
+Capillary): WBC, RBC,
+HGB, HCT, MCV,
+MCH, MCHC, RDW,
+RDW-SD, PLT, MPV
+• Body Fluids
+(cerebrospinal, serous or
+synovial): TNC and
+RBC
+The UniCel DxH Slidemaker
+Stainer II Coulter Cellular
+Analysis System is a fully
+automated slide preparation and
+staining device that aspirates a
+whole-blood sample, smears a
+blood film on a clean
+microscope slide, and delivers a
+variety of fixatives, stains,
+buffers, and rinse solutions to
+that blood smear.	Whole Blood (Venous or
+Capillary): WBC, RBC,
+HGB, HCT, MCV, MCH,
+MCHC, RDW, RDW‐SD,
+PLT, MPV, NE%, NE#,
+LY%, LY#, MO%, MO#,
+EO%, EO#, BA%, BA#,
+NRBC%, NRBC#, RET%,
+RET#, MRV, IRF
+Pre‐Diluted Whole Blood
+(Venous or Capillary):
+WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC,
+RDW, RDW‐SD, PLT,
+MPV
+Body Fluids
+(cerebrospinal, serous or
+synovial): TNC and RBC
+ESId Application
+The UniCel DxH 800
+Series with System
+Manager Software Coulter
+Cellular Analysis System
+with Early Sepsis Indicator
+(ESId) application is the
+quantitative measurement
+of Monocyte Distribution
+Width (MDW). The Early
+Sepsis Indicator (ESId) is
+intended for use with adult
+patients presenting to the
+emergency department, on
+whom a white blood cell
+differential test has been
+ordered.
+MDW is tested from a
+(K2EDTA) whole‐blood
+venous sample within two
+hours of collection. MDW
+results greater than 20.0
+together with other
+laboratory findings and
+clinical information, aids
+in identifying patients with
+sepsis or at increased risk
+of developing sepsis
+within the first 12 hours of
+hospital admission.
+MDW results greater than
+
+--- Page 8 ---
+20.0 should be interpreted
+in association with other
+clinical information and
+diagnostic testing as a
+proportion of patients
+without sepsis may have
+an elevated MDW result at
+baseline.
+MDW results less than or
+equal to 20.0 cannot rule
+out sepsis or the
+development of sepsis
+within 12 hours of hospital
+admission.
+The Early Sepsis Indicator
+should not be used as the
+sole basis to determine the
+absence of sepsis.
+The predictive value of the
+Early Sepsis Indicator
+(ESId) for identifying
+sepsis in patients with
+hematological
+abnormalities has not been
+established.
+Single aspiration probe used for
+all sampling.
+Single tube presentation – open
+and closed vial sampling –
+specimen manually mixed.
+Automated presentation – closed
+vial sampling from five‐position
+Sampling
+cassette accepting a variety of Same
+Mechanism
+defined specimen tubes. Cassette
+containing specimens mixed
+prior to starting sampling and
+between specimens. Maximum
+initial load capacity 20 cassettes
+‐ System will continuously
+process racks as added.
+WBC, RBC, MCV, PLT:
+Aperture impedance (Coulter®
+Principle)
+Hemoglobin:
+Principles of
+Same
+Measurement Spectrophotometric
+WBC Differential,
+Reticulocytes, NRBC, MDW:
+VCSn Technology using:
+K240252 - Page 8 of 27
+
+[Table 1 on page 8]
+		20.0 should be interpreted
+in association with other
+clinical information and
+diagnostic testing as a
+proportion of patients
+without sepsis may have
+an elevated MDW result at
+baseline.
+MDW results less than or
+equal to 20.0 cannot rule
+out sepsis or the
+development of sepsis
+within 12 hours of hospital
+admission.
+The Early Sepsis Indicator
+should not be used as the
+sole basis to determine the
+absence of sepsis.
+The predictive value of the
+Early Sepsis Indicator
+(ESId) for identifying
+sepsis in patients with
+hematological
+abnormalities has not been
+established.
+Sampling
+Mechanism	Single aspiration probe used for
+all sampling.
+Single tube presentation – open
+and closed vial sampling –
+specimen manually mixed.
+Automated presentation – closed
+vial sampling from five‐position
+cassette accepting a variety of
+defined specimen tubes. Cassette
+containing specimens mixed
+prior to starting sampling and
+between specimens. Maximum
+initial load capacity 20 cassettes
+‐ System will continuously
+process racks as added.	Same
+Principles of
+Measurement	WBC, RBC, MCV, PLT:
+Aperture impedance (Coulter®
+Principle)
+Hemoglobin:
+Spectrophotometric
+WBC Differential,
+Reticulocytes, NRBC, MDW:
+VCSn Technology using:	Same
+
+--- Page 9 ---
+• Aperture impedance (DC)
+• Conductivity (RF)
+• Laser Light Scatter (Multiple
+angles)
+• Laser Light Absorbance
+Analysis Reagents Analysis Reagents
+• COULTER DxH Diluent • COULTER DxH
+Diluent
+• COULTER DxH Diff Pack
+• COULTER DxH Diff
+• COULTER DxH Cell Lyse
+Pack
+• COULTER DxH Retic Pack
+• COULTER DxH Cell
+Reagents • COULTER DxH Cleaner.
+Lyse
+ECO reagents:
+• COULTER DxH Retic
+• DxH ECO Diluent (RTU) Pack
+• DxH Concentrated ECO • COULTER DxH
+Diluent (18x) Cleaner
+• DxH ECO Cell Lyse
+• COULTER 6C Cell Control
+• Coulter 6C Plus Cell Control
+• COULTER Latron CP‐X
+Control
+• COULTER RETIC‐X Cell
+Quality Control and
+Control Same
+Calibrators
+• COULTER LIN‐X Control
+• COULTER Body Fluids
+Control
+• COULTER S‐CAL Calibrator
+kit
+Automated cassette
+transportation and specimen
+mixing (by rocking), sample
+aspiration, sample preparation,
+sample and reagent presentation
+to analytical modules, sample
+analysis, raw data collection,
+Mechanisms for
+algorithmic processing and data Same
+processing
+reporting.
+Cassette transportation by
+magnetic drive allowing multi‐
+directional moves and capability
+to return cassette to sampling
+position for repeat / reflex
+testing.
+Automatic, cap‐piercing: 165 μL
+Sample Aspiration
+Single tube ‐ open‐vial and cap Same
+Volume
+pierce:165 μL
+K240252 - Page 9 of 27
+
+[Table 1 on page 9]
+	• Aperture impedance (DC)
+• Conductivity (RF)
+• Laser Light Scatter (Multiple
+angles)
+• Laser Light Absorbance	
+Reagents	Analysis Reagents
+• COULTER DxH Diluent
+• COULTER DxH Diff Pack
+• COULTER DxH Cell Lyse
+• COULTER DxH Retic Pack
+• COULTER DxH Cleaner.
+ECO reagents:
+• DxH ECO Diluent (RTU)
+• DxH Concentrated ECO
+Diluent (18x)
+• DxH ECO Cell Lyse	Analysis Reagents
+• COULTER DxH
+Diluent
+• COULTER DxH Diff
+Pack
+• COULTER DxH Cell
+Lyse
+• COULTER DxH Retic
+Pack
+• COULTER DxH
+Cleaner
+Quality Control and
+Calibrators	• COULTER 6C Cell Control
+• Coulter 6C Plus Cell Control
+• COULTER Latron CP‐X
+Control
+• COULTER RETIC‐X Cell
+Control
+• COULTER LIN‐X Control
+• COULTER Body Fluids
+Control
+• COULTER S‐CAL Calibrator
+kit	Same
+Mechanisms for
+processing	Automated cassette
+transportation and specimen
+mixing (by rocking), sample
+aspiration, sample preparation,
+sample and reagent presentation
+to analytical modules, sample
+analysis, raw data collection,
+algorithmic processing and data
+reporting.
+Cassette transportation by
+magnetic drive allowing multi‐
+directional moves and capability
+to return cassette to sampling
+position for repeat / reflex
+testing.	Same
+Sample Aspiration
+Volume	Automatic, cap‐piercing: 165 μL
+Single tube ‐ open‐vial and cap
+pierce:165 μL	Same
+
+--- Page 10 ---
+Pre‐dilute 165 μL ‐ fixed ratio of
+1:5 dilution of blood with
+diluent
+For automatic mode:
+• CBC at 100 specimens/hour
+• CBC and Differential at 100
+Throughput specimens/hour Same
+• CBC and Differential with
+NRBC at 90 specimens/hour
+• Retic at 45 specimens/hour
+System software
+(embedded and
+workstation) designed
+specific to support all
+features of DxH 800. The
+software system consists
+of a Data Manager
+component, a Universal
+System Manager
+component (including
+algorithms), the User
+Interface, all of which are
+resident in the system
+software in the
+workstation.
+In addition, an Embedded
+Application is resident in
+the analyzer. The
+Same with enhancements to the Embedded application
+Controlling Software instrument look and feel, uploads from the
+System workflow, usability, quality workstation on system
+control and reliability. power‐up. Extensive real
+time monitoring and
+reporting of system status
+including:
+• Component and
+module activities
+• System Voltages and
+Currents
+• System Pressure and
+Vacuum
+• System Temperatures
+• Motor activity
+• Mechanism Sensor
+status, Reagent Pump
+Operation, Raw data
+collection.
+Single sampling probe
+and common
+aspiration pathway
+K240252 - Page 10 of 27
+
+[Table 1 on page 10]
+	Pre‐dilute 165 μL ‐ fixed ratio of
+1:5 dilution of blood with
+diluent	
+Throughput	For automatic mode:
+• CBC at 100 specimens/hour
+• CBC and Differential at 100
+specimens/hour
+• CBC and Differential with
+NRBC at 90 specimens/hour
+• Retic at 45 specimens/hour	Same
+Controlling Software
+System	Same with enhancements to the
+instrument look and feel,
+workflow, usability, quality
+control and reliability.	System software
+(embedded and
+workstation) designed
+specific to support all
+features of DxH 800. The
+software system consists
+of a Data Manager
+component, a Universal
+System Manager
+component (including
+algorithms), the User
+Interface, all of which are
+resident in the system
+software in the
+workstation.
+In addition, an Embedded
+Application is resident in
+the analyzer. The
+Embedded application
+uploads from the
+workstation on system
+power‐up. Extensive real
+time monitoring and
+reporting of system status
+including:
+• Component and
+module activities
+• System Voltages and
+Currents
+• System Pressure and
+Vacuum
+• System Temperatures
+• Motor activity
+• Mechanism Sensor
+status, Reagent Pump
+Operation, Raw data
+collection.
+Single sampling probe
+and common
+aspiration pathway
+
+--- Page 11 ---
+used for all sample
+presentation modes.
+General Device
+Characteristic
+Differences
+Software Version DxH 900/SMS II/ESId SW 2.3.1 DxH 800/SMS/ESId 3.9.1
+A client responsible for
+processing all user input
+and providing all
+responses to the user. The
+GUI consists of two parts:
+Updated for a more modern look Universal System Manager
+Graphical User Interface and easier navigation to User Interface, and Data
+available screens. Manager User Interface.
+These two components
+allow the GUI to interact
+with the DM and USM to
+fulfill the user’s requests.
+Workstation running
+system application specific
+software – Provides
+system control functions
+for the SPM. Receives raw
+data from SPM and
+performs analysis to
+generate applicable
+parameter results.
+Provides data management
+and storage, provides test
+Integrated into the instrument
+Workstation server order management, results
+instead of ancillary on a cart.
+review and reporting,
+quality control
+functionality, diagnostics,
+and maintenance
+procedures. User
+interaction is provided via
+touch screen, keyboard,
+and mouse. Connects with
+laboratory information
+systems (LIS) and
+handheld barcode reader.
+Generates an impedance signal Generates an impedance
+and produces laser light signal and produces laser
+stimulation in the particle light stimulation in the
+Multiple Transducer sensing zone of the flow cell. particle sensing zone of
+Module (MTM) Outputs seven channels of data: the flow cell. Outputs
+one volume (V), one seven channels of data:
+conductivity (C), and five light one volume (V), one
+scatter (Sn), with an added conductivity (C), and five
+K240252 - Page 11 of 27
+
+[Table 1 on page 11]
+		used for all sample
+presentation modes.
+General Device
+Characteristic
+Differences		
+Software Version	DxH 900/SMS II/ESId SW 2.3.1	DxH 800/SMS/ESId 3.9.1
+Graphical User Interface	Updated for a more modern look
+and easier navigation to
+available screens.	A client responsible for
+processing all user input
+and providing all
+responses to the user. The
+GUI consists of two parts:
+Universal System Manager
+User Interface, and Data
+Manager User Interface.
+These two components
+allow the GUI to interact
+with the DM and USM to
+fulfill the user’s requests.
+Workstation server	Integrated into the instrument
+instead of ancillary on a cart.	Workstation running
+system application specific
+software – Provides
+system control functions
+for the SPM. Receives raw
+data from SPM and
+performs analysis to
+generate applicable
+parameter results.
+Provides data management
+and storage, provides test
+order management, results
+review and reporting,
+quality control
+functionality, diagnostics,
+and maintenance
+procedures. User
+interaction is provided via
+touch screen, keyboard,
+and mouse. Connects with
+laboratory information
+systems (LIS) and
+handheld barcode reader.
+Multiple Transducer
+Module (MTM)	Generates an impedance signal
+and produces laser light
+stimulation in the particle
+sensing zone of the flow cell.
+Outputs seven channels of data:
+one volume (V), one
+conductivity (C), and five light
+scatter (Sn), with an added	Generates an impedance
+signal and produces laser
+light stimulation in the
+particle sensing zone of
+the flow cell. Outputs
+seven channels of data:
+one volume (V), one
+conductivity (C), and five
+
+--- Page 12 ---
+ferrite on the laser power cable light scatter (Sn).
+for EMI due to the use of metal
+covers.
+General Device
+DxH SMS II DxH SMS
+Characteristic
+K240252 K162414
+Similarities
+The DxH Slidemaker Stainer II
+is a fully automated slide
+preparation and staining device
+that aspirates a whole‐blood
+Intended use sample, smears a blood film on a Same
+clean microscope slide, and
+delivers a variety of fixatives,
+stains, buffers, and rinse
+solutions to that blood smear.
+Whole venous blood in K2/K3
+Specimen collection Same
+EDTA
+Automatically prepared by SMS Automatic preparation by
+Blood Film Preparation
+II DxH SMS
+Stains and Buffers: Beckman
+Coulter TruColor Reagents for
+use on the DxH Slidemaker
+Stainer
+• TruColor Wright Stain and
+TruColor Wright Buffer
+• TruColor Wright‐Giemsa
+Stain and TruColor Wright‐
+Giemsa Buffer
+Coulter TruColor Giemsa and
+May Grunwald Stains are not
+validated by Beckman Coulter
+for use through current default
+Consumables Same
+protocols on the system.
+Fixatives: Methanol is used as a
+fixative for whole‐blood smears
+in preparation for staining.
+Anhydrous methanol
+(chromatography grade, 99.8%
+or higher quality) is
+recommended.
+Distilled Water: Distilled water
+is used to rinse the stained
+smears before drying. CLSI
+Type CLRW water is
+recommended.
+General Device
+Characteristic
+Differences
+Software Version DxH 900/SMS II/ESId SW 2.3.1 DxH 800/SMS/ESId 3.9.1
+K240252 - Page 12 of 27
+
+[Table 1 on page 12]
+	ferrite on the laser power cable
+for EMI due to the use of metal
+covers.	light scatter (Sn).
+General Device
+Characteristic
+Similarities	DxH SMS II
+K240252	DxH SMS
+K162414
+Intended use	The DxH Slidemaker Stainer II
+is a fully automated slide
+preparation and staining device
+that aspirates a whole‐blood
+sample, smears a blood film on a
+clean microscope slide, and
+delivers a variety of fixatives,
+stains, buffers, and rinse
+solutions to that blood smear.	Same
+Specimen collection	Whole venous blood in K2/K3
+EDTA	Same
+Blood Film Preparation	Automatically prepared by SMS
+II	Automatic preparation by
+DxH SMS
+Consumables	Stains and Buffers: Beckman
+Coulter TruColor Reagents for
+use on the DxH Slidemaker
+Stainer
+• TruColor Wright Stain and
+TruColor Wright Buffer
+• TruColor Wright‐Giemsa
+Stain and TruColor Wright‐
+Giemsa Buffer
+Coulter TruColor Giemsa and
+May Grunwald Stains are not
+validated by Beckman Coulter
+for use through current default
+protocols on the system.
+Fixatives: Methanol is used as a
+fixative for whole‐blood smears
+in preparation for staining.
+Anhydrous methanol
+(chromatography grade, 99.8%
+or higher quality) is
+recommended.
+Distilled Water: Distilled water
+is used to rinse the stained
+smears before drying. CLSI
+Type CLRW water is
+recommended.	Same
+General Device
+Characteristic
+Differences		
+Software Version	DxH 900/SMS II/ESId SW 2.3.1	DxH 800/SMS/ESId 3.9.1
+
+--- Page 13 ---
+VI Standards/Guidance Documents Referenced:
+• CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures;
+Approved Guideline - Third Edition.
+• CLSI EP06-2nd Edition, Evaluation of the Linearity of Quantitative Measurement
+Procedures: A Statistical Approach. Approved Guideline.
+• CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated
+Hematology Analyzers; Approved Standard – Second Edition.
+• CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition
+• CLSI EP28-A3c, Defining, Establishing, and Verifying Reference Intervals in the
+Clinical Laboratory; Approved Guideline – Third Edition
+• CLSI H56-A, Body Fluid Analysis for Cellular Composition; Approved Guideline
+• CLSI H20-A2, Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard– Second Edition
+• IEC 60601-1-2: 2014, Medical electrical equipment − Part 1-2: General requirements for
+basic safety and essential performance − Collateral Standard: Electromagnetic
+disturbances − Requirements and tests
+• IEC 61010-1: Edition 3.1 2017-01, Safety requirements for electrical equipment for
+measurement, control, and laboratory use − Part 1: General requirements
+• ISO 15223-1: 2021, Medical devices − Symbols to be used with information to be
+supplied by the manufacturer − Part 1: General requirements
+• ISO 14971: 2019, Medical devices − Application of risk management to medical devices
+• IEC 62304: 2015, Medical device software − Software life cycle processes
+• Class II Special Controls Guidance Document: Premarket Notifications for Automated
+Differential Cell Counters for Immature or Abnormal Blood Cells; Final Guidance for
+Industry and FDA
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+UniCel DxH 900 Coulter Cellular Analysis System
+Repeatability −Whole Blood
+Repeatability studies were performed at one testing site on the DxH 900−3S work cell
+composed of three DxH 900 and one SMS II under repeatability mode using cassette
+presentation and closed-vial sampling mode. Within run repeatability studies were performed
+by using ten whole blood samples covering the analytical measuring interval (AMI) collected
+in K2EDTA. Testing was performed randomly on one of the DxH 900 instrument of DxH
+900−3S work cell. Within run imprecision (repeatability) was performed using ten
+aspirations (replicates) of whole blood samples and replicate analysis of the specimens was
+performed by using the Repeatability function. Control material was used for assaying
+precision of NRBC parameter.
+K240252 - Page 13 of 27
+
+--- Page 14 ---
+The mean, standard deviation (SD), coefficient of variation (CV), and 95% CI were
+calculated for each parameter. The SD or %CV point estimates were evaluated against the
+evaluation criteria. All samples were evaluated against all applicable acceptance criteria and
+met all acceptance criteria requirements. The results are summarized below.
+Test Result Test Result
+Parameter Test Range N
+Mean %CV/SD
+0.500 – 2.000 10 0.59 2.02% CV
+WBC (x 103/μL)
+5.000 – 10.000 10 5.80 0.69% CV
+RBC (x1 06/μL) 4.500 – 5.500 10 4.72 0.50% CV
+HGB (g/dL) 14.00 – 16.00 10 15.03 0.36% CV
+MCV (fL) 80.00 – 90.00 10 85.39 0.22% CV
+RDW % 12.00 – 14.00 10 13.71 1.31% CV
+RDW-SD (fL) 33.00 – 48.00 10 47.03 1.82% CV
+Platelet 10.0 – 15.0 10 12.90 2.60% CV
+(x103 /μL) 200.0 – 400.0 10 256.80 1.35% CV
+MPV (fL) 8.0 – 10.0 10 8.13 1.15% CV
+NE (%) 50.0 – 60.0 10 58.24 0.99 %CV
+LY (%) 25.0 – 35.0 10 26.34 2.44% CV
+MO (%) 5.0 – 10.0 10 6.22 7.66 % CV
+EO (%) 2.0 – 5.0 10 2.21 5.06% CV
+BA (%) 0.5 – 1.5 10 1.22 0.13 SD
+1.00 – 2.00 10 1.46 0.20 SD
+NRBC
+>2.00 – 15.00 10 9.21 4.69% CV
+(%)
+> 15.00 10 19.12 5.12% CV
+0.000 – 1.500 10 1.17 0.13 SD
+RET % > 1.500 – 4.000 10 1.52 0.09 SD
+> 4.000 – 15.000 10 10.07 1.44% CV
+IRF ≥ 0.20 10 0.47 7.20%
+MRV (fL) 100.0 – 120.0 10 118.40 1.19% CV
+Repeatability Body Fluid
+Repeatability studies were performed at one testing site on the DxH 900−3S work cell
+composed of three DxH 900 and one SMS II under repeatability mode using manual single-
+tube and open-vial sampling mode. Study was conducted using leftover body fluid samples
+(4 peritoneal, 2 pleural and 1 synovial) tested within four hours of draw collected from a total
+of seven subjects. A total of three samples in the BF-RBC range and seven samples in the
+BF-TNC range were included. The CV%, SD and 95% CI were calculated for each analyte for
+each sample with at least nine aspirations (replicates). All samples were evaluated against all
+applicable acceptance criteria and met all acceptance criteria requirements. The results are
+summarized below.
+Test Result Test Result
+Parameter Test Range N
+Mean %CV
+BF-RBC
+10,000 – 15000 10 12643 2.42
+(cells/mm3)
+BF-TNC
+50 – 2000 10 594 1.28
+(cells/mm3)
+K240252 - Page 14 of 27
+
+[Table 1 on page 14]
+Parameter	Test Range	N	Test Result
+Mean	Test Result
+%CV/SD
+WBC (x 103/μL)	0.500 – 2.000	10	0.59	2.02% CV
+	5.000 – 10.000	10	5.80	0.69% CV
+RBC (x1 06/μL)	4.500 – 5.500	10	4.72	0.50% CV
+HGB (g/dL)	14.00 – 16.00	10	15.03	0.36% CV
+MCV (fL)	80.00 – 90.00	10	85.39	0.22% CV
+RDW %	12.00 – 14.00	10	13.71	1.31% CV
+RDW-SD (fL)	33.00 – 48.00	10	47.03	1.82% CV
+Platelet
+(x103 /μL)	10.0 – 15.0	10	12.90	2.60% CV
+	200.0 – 400.0	10	256.80	1.35% CV
+MPV (fL)	8.0 – 10.0	10	8.13	1.15% CV
+NE (%)	50.0 – 60.0	10	58.24	0.99 %CV
+LY (%)	25.0 – 35.0	10	26.34	2.44% CV
+MO (%)	5.0 – 10.0	10	6.22	7.66 % CV
+EO (%)	2.0 – 5.0	10	2.21	5.06% CV
+BA (%)	0.5 – 1.5	10	1.22	0.13 SD
+NRBC
+(%)	1.00 – 2.00	10	1.46	0.20 SD
+	>2.00 – 15.00	10	9.21	4.69% CV
+	> 15.00	10	19.12	5.12% CV
+RET %	0.000 – 1.500	10	1.17	0.13 SD
+	> 1.500 – 4.000	10	1.52	0.09 SD
+	> 4.000 – 15.000	10	10.07	1.44% CV
+IRF	≥ 0.20	10	0.47	7.20%
+MRV (fL)	100.0 – 120.0	10	118.40	1.19% CV
+
+[Table 2 on page 14]
+Parameter	Test Range	N	Test Result
+Mean	Test Result
+%CV
+BF-RBC
+(cells/mm3)	10,000 – 15000	10	12643	2.42
+BF-TNC
+(cells/mm3)	50 – 2000	10	594	1.28
+
+--- Page 15 ---
+Reproducibility – Whole Blood
+Reproducibility studies were performed at one testing site on one DxH 900−3S work cell
+composed of three DxH 900 and one SMS II to evaluate the within-run, between-run,
+between-day, between-instrument, and total reproducibility of the DxH 900. Testing was
+performed using three levels of each whole blood control material (COULTER 6C Plus Cell
+Control and COULTER Retic-X Cell Control). Each level was run in triplicates twice per
+day per instrument with two hours apart for five days using a single lot of controls and
+reagents across the three DxH 900−3S work cell. The mean, SD and CV% were reported for
+each parameter and all parameters met the acceptance criteria. Results are summarized
+below.
+Within Run Between Run Between Instrument Between Days Total
+Parameter Level N Mean
+SD CV% SD CV% SD CV% SD CV% SD CV%
+1 90 3.42 0.07 1.90 0.00 0.00 0.04 1.26 0.01 0.27 0.08 2.30
+WBC
+2 90 20.52 0.17 0.83 0.11 0.53 0.24 1.16 0.06 0.28 0.32 1.55
+(x103/μL)
+3 90 8.58 0.10 1.20 0.00 0.00 0.04 0.47 0.03 0.40 0.12 1.35
+1 90 1.74 0.01 0.59 0.00 0.11 0.00 0.26 0.00 0.00 0.01 0.66
+RBC
+2 90 3.96 0.03 0.74 0.02 0.45 0.02 0.49 0.01 0.22 0.04 1.02
+(x106/μL)
+3 90 5.28 0.03 0.62 0.02 0.33 0.04 0.77 0.01 0.24 0.06 1.07
+1 90 4.62 0.02 0.43 0.00 0.00 0.01 0.26 0.01 0.13 0.02 0.52
+HGB
+2 90 11.80 0.05 0.45 0.02 0.18 0.07 0.61 0.01 0.11 0.09 0.79
+(g/dL)
+3 90 15.61 0.09 0.59 0.00 0.00 0.14 0.89 0.04 0.29 0.17 1.10
+1 90 79.48 0.14 0.18 0.19 0.24 0.23 0.29 0.19 0.24 0.38 0.48
+MCV
+2 90 87.38 0.19 0.22 0.05 0.05 0.25 0.29 0.15 0.17 0.35 0.40
+(fL)
+3 90 87.59 0.22 0.26 0.00 0.00 0.24 0.28 0.14 0.16 0.36 0.41
+1 90 17.09 0.15 0.89 0.14 0.82 0.08 0.44 0.00 0.03 0.22 1.28
+RDW
+2 90 16.24 0.16 1.01 0.06 0.37 0.01 0.09 0.08 0.51 0.19 1.19
+(%)
+3 90 15.47 0.17 1.09 0.00 0.00 0.00 0.00 0.00 0.00 0.17 1.09
+1 90 49.50 0.49 1.00 0.19 0.38 0.10 0.21 0.10 0.20 0.55 1.11
+RDW-SD
+2 90 52.73 0.67 1.27 0.14 0.26 0.08 0.14 0.17 0.32 0.71 1.35
+(fL)
+3 90 50.86 0.60 1.19 0.00 0.00 0.00 0.00 0.00 0.00 0.60 1.19
+1 90 72.39 1.11 1.53 0.00 0.00 0.28 0.39 0.33 0.45 1.19 1.64
+PLT
+2 90 424.58 7.98 1.88 0.00 0.00 0.00 0.00 0.00 0.00 7.98 1.88
+(x103/μL)
+3 90 222.27 3.16 1.42 0.00 0.00 0.00 0.00 0.00 0.00 3.16 1.42
+1 90 9.13 0.06 0.66 0.00 0.00 0.03 0.30 0.03 0.34 0.07 0.80
+MPV
+2 90 9.44 0.06 0.58 0.00 0.00 0.05 0.54 0.02 0.18 0.08 0.82
+(fL)
+3 90 9.61 0.06 0.67 0.02 0.26 0.04 0.46 0.00 0.00 0.08 0.85
+1 90 43.13 0.69 1.61 0.00 0.00 0.00 0.00 0.00 0.00 0.69 1.61
+NE
+2 90 65.12 0.68 1.05 0.00 0.00 0.00 0.00 0.12 0.19 0.69 1.07
+(%)
+3 90 57.05 0.81 1.42 0.00 0.00 0.00 0.00 0.00 0.00 0.81 1.42
+1 90 46.24 0.72 1.56 0.00 0.00 0.12 0.25 0.00 0.00 0.73 1.58
+LY
+2 90 15.71 0.50 3.21 0.07 0.46 0.13 0.80 0.09 0.60 0.53 3.39
+(%)
+3 90 27.73 0.59 2.13 0.00 0.00 0.00 0.00 0.00 0.00 0.59 2.13
+1 90 6.67 0.40 5.95 0.00 0.00 0.15 2.29 0.00 0.00 0.43 6.38
+MO
+2 90 14.16 0.52 3.65 0.26 1.84 0.00 0.00 0.00 0.00 0.58 4.09
+(%)
+3 90 8.36 0.40 4.78 0.00 0.00 0.00 0.00 0.00 0.00 0.40 4.78
+1 90 3.94 0.34 8.58 0.14 3.67 0.00 0.00 0.00 0.00 0.37 9.33
+EO
+2 90 4.96 0.41 8.33 0.00 0.00 0.00 0.00 0.00 0.00 0.41 8.33
+(%)
+3 90 6.82 0.47 6.86 0.00 0.00 0.00 0.00 0.00 0.00 0.47 6.86
+1 90 0.02 0.02 74.92 0.00 0.00 0.00 0.00 0.01 26.29 0.02 79.39
+BA
+2 90 0.06 0.03 57.53 0.00 0.00 0.00 0.00 0.00 0.00 0.03 57.53
+(%)
+3 90 0.04 0.02 54.51 0.01 13.07 0.00 9.39 0.00 0.00 0.02 56.83
+1 90 0.29 0.10 34.20 0.00 0.00 0.05 15.62 0.00 0.00 0.11 37.60
+NRBC
+2 90 9.09 0.40 4.36 0.07 0.78 0.00 0.00 0.08 0.90 0.41 4.53
+(%)
+3 90 19.45 0.52 2.66 0.00 0.00 0.49 2.52 0.09 0.45 0.72 3.69
+RET 1 90 0.87 0.10 11.18 0.02 2.71 0.15 17.41 0.00 0.00 0.18 20.86
+(%) 2 90 2.48 0.12 4.73 0.00 0.00 0.16 6.50 0.04 1.78 0.20 8.23
+K240252 - Page 15 of 27
+
+[Table 1 on page 15]
+Parameter	Level	N	Mean	Within Run		Between Run		Between Instrument		Between Days		Total	
+				SD	CV%	SD	CV%	SD	CV%	SD	CV%	SD	CV%
+WBC
+(x103/μL)	1	90	3.42	0.07	1.90	0.00	0.00	0.04	1.26	0.01	0.27	0.08	2.30
+	2	90	20.52	0.17	0.83	0.11	0.53	0.24	1.16	0.06	0.28	0.32	1.55
+	3	90	8.58	0.10	1.20	0.00	0.00	0.04	0.47	0.03	0.40	0.12	1.35
+RBC
+(x106/μL)	1	90	1.74	0.01	0.59	0.00	0.11	0.00	0.26	0.00	0.00	0.01	0.66
+	2	90	3.96	0.03	0.74	0.02	0.45	0.02	0.49	0.01	0.22	0.04	1.02
+	3	90	5.28	0.03	0.62	0.02	0.33	0.04	0.77	0.01	0.24	0.06	1.07
+HGB
+(g/dL)	1	90	4.62	0.02	0.43	0.00	0.00	0.01	0.26	0.01	0.13	0.02	0.52
+	2	90	11.80	0.05	0.45	0.02	0.18	0.07	0.61	0.01	0.11	0.09	0.79
+	3	90	15.61	0.09	0.59	0.00	0.00	0.14	0.89	0.04	0.29	0.17	1.10
+MCV
+(fL)	1	90	79.48	0.14	0.18	0.19	0.24	0.23	0.29	0.19	0.24	0.38	0.48
+	2	90	87.38	0.19	0.22	0.05	0.05	0.25	0.29	0.15	0.17	0.35	0.40
+	3	90	87.59	0.22	0.26	0.00	0.00	0.24	0.28	0.14	0.16	0.36	0.41
+RDW
+(%)	1	90	17.09	0.15	0.89	0.14	0.82	0.08	0.44	0.00	0.03	0.22	1.28
+	2	90	16.24	0.16	1.01	0.06	0.37	0.01	0.09	0.08	0.51	0.19	1.19
+	3	90	15.47	0.17	1.09	0.00	0.00	0.00	0.00	0.00	0.00	0.17	1.09
+RDW-SD
+(fL)	1	90	49.50	0.49	1.00	0.19	0.38	0.10	0.21	0.10	0.20	0.55	1.11
+	2	90	52.73	0.67	1.27	0.14	0.26	0.08	0.14	0.17	0.32	0.71	1.35
+	3	90	50.86	0.60	1.19	0.00	0.00	0.00	0.00	0.00	0.00	0.60	1.19
+PLT
+(x103/μL)	1	90	72.39	1.11	1.53	0.00	0.00	0.28	0.39	0.33	0.45	1.19	1.64
+	2	90	424.58	7.98	1.88	0.00	0.00	0.00	0.00	0.00	0.00	7.98	1.88
+	3	90	222.27	3.16	1.42	0.00	0.00	0.00	0.00	0.00	0.00	3.16	1.42
+MPV
+(fL)	1	90	9.13	0.06	0.66	0.00	0.00	0.03	0.30	0.03	0.34	0.07	0.80
+	2	90	9.44	0.06	0.58	0.00	0.00	0.05	0.54	0.02	0.18	0.08	0.82
+	3	90	9.61	0.06	0.67	0.02	0.26	0.04	0.46	0.00	0.00	0.08	0.85
+NE
+(%)	1	90	43.13	0.69	1.61	0.00	0.00	0.00	0.00	0.00	0.00	0.69	1.61
+	2	90	65.12	0.68	1.05	0.00	0.00	0.00	0.00	0.12	0.19	0.69	1.07
+	3	90	57.05	0.81	1.42	0.00	0.00	0.00	0.00	0.00	0.00	0.81	1.42
+LY
+(%)	1	90	46.24	0.72	1.56	0.00	0.00	0.12	0.25	0.00	0.00	0.73	1.58
+	2	90	15.71	0.50	3.21	0.07	0.46	0.13	0.80	0.09	0.60	0.53	3.39
+	3	90	27.73	0.59	2.13	0.00	0.00	0.00	0.00	0.00	0.00	0.59	2.13
+MO
+(%)	1	90	6.67	0.40	5.95	0.00	0.00	0.15	2.29	0.00	0.00	0.43	6.38
+	2	90	14.16	0.52	3.65	0.26	1.84	0.00	0.00	0.00	0.00	0.58	4.09
+	3	90	8.36	0.40	4.78	0.00	0.00	0.00	0.00	0.00	0.00	0.40	4.78
+EO
+(%)	1	90	3.94	0.34	8.58	0.14	3.67	0.00	0.00	0.00	0.00	0.37	9.33
+	2	90	4.96	0.41	8.33	0.00	0.00	0.00	0.00	0.00	0.00	0.41	8.33
+	3	90	6.82	0.47	6.86	0.00	0.00	0.00	0.00	0.00	0.00	0.47	6.86
+BA
+(%)	1	90	0.02	0.02	74.92	0.00	0.00	0.00	0.00	0.01	26.29	0.02	79.39
+	2	90	0.06	0.03	57.53	0.00	0.00	0.00	0.00	0.00	0.00	0.03	57.53
+	3	90	0.04	0.02	54.51	0.01	13.07	0.00	9.39	0.00	0.00	0.02	56.83
+NRBC
+(%)	1	90	0.29	0.10	34.20	0.00	0.00	0.05	15.62	0.00	0.00	0.11	37.60
+	2	90	9.09	0.40	4.36	0.07	0.78	0.00	0.00	0.08	0.90	0.41	4.53
+	3	90	19.45	0.52	2.66	0.00	0.00	0.49	2.52	0.09	0.45	0.72	3.69
+RET
+(%)	1	90	0.87	0.10	11.18	0.02	2.71	0.15	17.41	0.00	0.00	0.18	20.86
+	2	90	2.48	0.12	4.73	0.00	0.00	0.16	6.50	0.04	1.78	0.20	8.23
+
+--- Page 16 ---
+Within Run Between Run Between Instrument Between Days Total
+Parameter Level N Mean
+SD CV% SD CV% SD CV% SD CV% SD CV%
+3 90 10.50 0.18 1.72 0.00 0.00 0.11 1.09 0.07 0.69 0.23 2.14
+Reproducibility−Body Fluids
+Reproducibility studies were performed at one testing site on one DxH 900−3S work cell
+composed of three DxH 900 and one SMS II to evaluate the within-run, between-run,
+between-day, between-instrument, and total reproducibility of the DxH 900. Testing was
+performed using three levels of each body fluid control material (COULTER Body Fluid Cell
+Controls). Each level was run in triplicates twice per day per instrument with two hours apart
+for five days using a single lot of controls and reagents across the three DxH 900−3S work
+cell. The mean, SD and CV% were reported for each parameter and all parameters met the
+acceptance criteria. Results are summarized below.
+Within run Between Run Between Instrument Between Day Total
+Parameter Level N Mean
+SD CV% SD CV% SD CV% SD CV% SD CV%
+1 90 120.74 6.51 5.39 3.63 3.01 3.41 2.83 3.18 2.64 8.79 7.28
+BF-TNC
+2 90 1526.92 20.38 1.33 4.95 0.32 11.01 0.72 12.20 0.80 26.64 1.74
+(cells/mm3)
+3 90 65778.99 514.83 0.78 265.68 0.40 763.00 1.16 0.00 0.00 958.02 1.46
+1 90 12204.83 398.75 3.27 0.00 0.00 276.21 2.26 0.00 0.00 485.07 3.97
+BF-RBC
+2 90 1681333.92 8753.35 0.52 4306.83 0.26 16235.20 0.97 963.34 0.06 18965.22 1.13
+(cells/mm3)
+3 90 5639354.09 50090.17 0.89 0.00 0.00 32100.78 0.57 1922.28 0.03 59524.62 1.06
+UniCel DxH 690T Coulter Cellular Analysis System (DxH 690T)
+Repeatability-Whole blood
+Repeatability study was performed at one testing site on one DxH 690T system. This study
+was conducted by using normal and clinical whole blood samples collected in K2EDTA,
+contrived samples and control material covering the analytical measuring interval (AMI)
+ranges for various parameters. Repeatability for the CBC, Differential, NRBC and
+Reticulocyte parameters was performed in the automatic CBC/Diff/Retic (CDR) test panel.
+The mean, standard deviation (SD), coefficient of variation (CV), and 95% CI were
+calculated for each parameter. All samples were evaluated against all applicable acceptance
+criteria and met all acceptance criteria requirements. The results are summarized below.
+Test Result Test Result
+Parameter Test Range N
+Mean %CV/SD
+WBC (x 103/μL) 5.000 – 10.000 10 7.83 1.12% CV
+RBC (x1 06/μL) 4.500 – 5.500 10 4.85 0.64% CV
+HGB (g/dL) 14.00 – 16.00 10 15.30 0.41% CV
+MCV (fL) 80.00 – 90.00 10 86.18 0.38% CV
+RDW % 12.00 – 14.00 10 13.68 0.87% CV
+RDW-SD (fL) 33.00 – 48.00 10 46.77 1.68% CV
+Platelet 200.0 – 400.0 10 230.80 1.17% CV
+3
+MPV (fL) 8.00 – 10.00 10 8.69 0.83 %CV
+NE (%) 50.00 – 60.00 10 54.70 1.46% CV
+LY (%) 25.00 – 35.00 10 27.39 2.61% CV
+MO (%) 5.00 – 10.00 10 5.85 5.10% CV
+EO (%) 2.00 – 5.00 10 2.13 8.4% CV
+BA (%) 0.50 – 1.50 10 0.83 0.24 SD
+K240252 - Page 16 of 27
+
+[Table 1 on page 16]
+Parameter	Level	N	Mean	Within Run		Between Run		Between Instrument		Between Days		Total	
+				SD	CV%	SD	CV%	SD	CV%	SD	CV%	SD	CV%
+	3	90	10.50	0.18	1.72	0.00	0.00	0.11	1.09	0.07	0.69	0.23	2.14
+
+[Table 2 on page 16]
+Parameter	Level	N	Mean	Within run		Between Run		Between Instrument		Between Day		Total	
+				SD	CV%	SD	CV%	SD	CV%	SD	CV%	SD	CV%
+BF-TNC
+(cells/mm3)	1	90	120.74	6.51	5.39	3.63	3.01	3.41	2.83	3.18	2.64	8.79	7.28
+	2	90	1526.92	20.38	1.33	4.95	0.32	11.01	0.72	12.20	0.80	26.64	1.74
+	3	90	65778.99	514.83	0.78	265.68	0.40	763.00	1.16	0.00	0.00	958.02	1.46
+BF-RBC
+(cells/mm3)	1	90	12204.83	398.75	3.27	0.00	0.00	276.21	2.26	0.00	0.00	485.07	3.97
+	2	90	1681333.92	8753.35	0.52	4306.83	0.26	16235.20	0.97	963.34	0.06	18965.22	1.13
+	3	90	5639354.09	50090.17	0.89	0.00	0.00	32100.78	0.57	1922.28	0.03	59524.62	1.06
+
+[Table 3 on page 16]
+Parameter	Test Range	N	Test Result
+Mean	Test Result
+%CV/SD
+WBC (x 103/μL)	5.000 – 10.000	10	7.83	1.12% CV
+RBC (x1 06/μL)	4.500 – 5.500	10	4.85	0.64% CV
+HGB (g/dL)	14.00 – 16.00	10	15.30	0.41% CV
+MCV (fL)	80.00 – 90.00	10	86.18	0.38% CV
+RDW %	12.00 – 14.00	10	13.68	0.87% CV
+RDW-SD (fL)	33.00 – 48.00	10	46.77	1.68% CV
+Platelet	200.0 – 400.0	10	230.80	1.17% CV
+3
+MPV (fL)	8.00 – 10.00	10	8.69	0.83 %CV
+NE (%)	50.00 – 60.00	10	54.70	1.46% CV
+LY (%)	25.00 – 35.00	10	27.39	2.61% CV
+MO (%)	5.00 – 10.00	10	5.85	5.10% CV
+EO (%)	2.00 – 5.00	10	2.13	8.4% CV
+BA (%)	0.50 – 1.50	10	0.83	0.24 SD
+
+--- Page 17 ---
+Test Result Test Result
+Parameter Test Range N
+Mean %CV/SD
+NRBC >2.00 – 15.00 10 8.93 4.38% CV
+(%) > 15.00 10 18.86 3.02% CV
+RET % 0.00 – 1.50 10 1.22 0.13 SD
+IRF ≥ 0.20 10 0.35 7.29% CV
+MRV (fL) 100.0-120.0 10 109.77 1.20% CV
+Pre-diluted whole blood imprecision studies
+Refer to the 510(k) submission K120771.
+2. Linearity
+The study was performed according to CLSI EP06 2nd Edition guideline.
+Whole Blood
+Linearity of whole blood parameters including RBC, WBC, HGB and PLT were determined
+on the one DxH 900−3S work cell composed of three DxH 900 and one SMS II. Fresh whole
+blood was obtained and concentrated to achieve a high starting value near the upper limit of
+the analytical measuring interval (AMI) for each of the parameters. Dilutions were prepared
+of each parameter to cover the entire AMI including the lower range of AMI. A minimum of
+nine levels were prepared for each measurand and testing was performed in four replicates on
+all three DxH 900 instruments in DxH 900−3S with one reagent lot.
+Results are presented in the table below. All results met the predefined acceptance criteria
+and were determined to be acceptable.
+Parameter (unit) Linear Range
+WBC (103/µL) 0.064 – 408.55
+RBC (106/µL) 0.001 – 8.56
+HGB (g/dL) 0.04 – 26.07
+PLT (103/µL) 3.2 – 3002.00
+Body Fluid
+Linearity studies for BF TNC parameter was performed using commercially available control
+material on the one DxH 900−3S work cell composed of three DxH 900 and one SMS II.
+Testing was performed on each of the three DxH 900 instruments in the DxH 900−3S. A
+minimum of nine sample levels were prepared and different levels were tested in four
+replicates and analyzed in random order.
+Linearity studies for BF RBC was performed using a normal donor whole blood. Testing was
+performed on each of the three DxH 900 instruments in the DxH 900-3S. A minimum of nine
+sample levels were prepared and different levels were tested in four replicates and analyzed
+in random order. Results are presented in the table below. All results met the predefined
+acceptance criteria and were determined to be acceptable.
+Parameter (unit) Linear Range
+BF RBC (cells/mm3) 1113.10 – 6353906.00
+BF TNC (cells/mm3) 31.50 – 92745.00
+K240252 - Page 17 of 27
+
+[Table 1 on page 17]
+Parameter	Test Range	N	Test Result
+Mean	Test Result
+%CV/SD
+NRBC
+(%)	>2.00 – 15.00	10	8.93	4.38% CV
+	> 15.00	10	18.86	3.02% CV
+RET %	0.00 – 1.50	10	1.22	0.13 SD
+IRF	≥ 0.20	10	0.35	7.29% CV
+MRV (fL)	100.0-120.0	10	109.77	1.20% CV
+
+[Table 2 on page 17]
+Parameter (unit)	Linear Range
+WBC (103/µL)	0.064 – 408.55
+RBC (106/µL)	0.001 – 8.56
+HGB (g/dL)	0.04 – 26.07
+PLT (103/µL)	3.2 – 3002.00
+
+[Table 3 on page 17]
+Parameter (unit)	Linear Range
+BF RBC (cells/mm3)	1113.10 – 6353906.00
+BF TNC (cells/mm3)	31.50 – 92745.00
+
+--- Page 18 ---
+3. Analytical Specificity/Interference:
+Refer to 510(k) submission K081930.
+4. Assay Reportable Range:
+The upper limit of the assay reportable range for each of the parameters was determined by
+the linearity studies and lower limit were determined by the LoQ and linearity studies. The
+reportable range result for each parameter for UniCel DxH 900/DxH 690T Coulter Cellular
+Analysis System is provided in the table below:
+Parameter Reportable Range
+WBC (0.05 – 400.00) x 103/µL
+RBC (0.005 – 8.50) x106/µL
+HGB 0.10 g/dL – 25.50 g/dL
+PLT (3 – 3000) x 103/µL
+BFTNC (20 − 89000) x cells/mm3
+BFRBC (1000 − 6200000) x cells/mm3
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Whole Blood Sample Stability
+Refer to 510(k) submission K140911.
+Body Fluid Sample Stability
+Refer to published literature: “Leukocyte Survival in Cerebrospinal Fluid.” J Clin Microbiol.
+1986 May;23(5):965-6 and CLSI H56-A “Body Fluid Analysis for Cellular Composition;
+Approved Guideline.
+6. Detection Limit:
+Whole Blood
+Limits of Blank (LoB), Limit of Detection (LoD) and the Limit of Quantification (LoQ) were
+performed for UniCel DxH 900/DxH 690T Coulter Cellular Analysis System for WBC and
+PLT according to CLSI EP17-A2. Testing was performed at one site using one DxH 900−3S
+composed of three DxH 900 and one SMS II. The studies were conducted on each of the
+three DxH 900 instrument.
+The LoB study was conducted by using DxH diluent as blank. The blanks were run in five
+replicates for each parameter for a total of 20 replicates in two runs per day using two lots of
+DxH diluent in cassette presentation cycle over three days. The results obtained from all
+samples were used to calculate the LoB for each parameter.
+The LoD and LoQ studies were performed by using precision profile approach as per CLSI
+EP17-A2. Testing was conducted by using fresh whole blood samples collected in K2EDTA.
+Three sets of 11 dilutions of the undiluted whole blood stock were prepared in 10%
+increments from 0% to 100%. One set of dilutions was analyzed on each of the DxH 900
+instrument. Five replicates of each dilution level were analyzed on each test instrument.
+K240252 - Page 18 of 27
+
+[Table 1 on page 18]
+Parameter	Reportable Range
+WBC	(0.05 – 400.00) x 103/µL
+RBC	(0.005 – 8.50) x106/µL
+HGB	0.10 g/dL – 25.50 g/dL
+PLT	(3 – 3000) x 103/µL
+BFTNC	(20 − 89000) x cells/mm3
+BFRBC	(1000 − 6200000) x cells/mm3
+
+--- Page 19 ---
+All results met the predefined acceptance criteria and were determined to be acceptable. The
+limit of blank (LoB), limit of detection (LoD), and limit of quantitation (LoQ) values for
+whole blood parameters are summarized below:
+Parameter LoB LoD LoQ
+WBC
+0.007 0.012 0.019
+(103 /µL )
+PLT
+0.400 0.682 0.774
+(103 /µL )
+Body Fluid
+Limits of Blank (LoB), Limit of Detection (LoD) and the Limit of Quantification (LoQ) for
+BF TNC and BF RBC study was conducted according to CLSI EP17-A2. Testing was
+performed at one site using one DxH 900−3S composed of three DxH 900 and one SMS II.
+The studies were conducted on each of the three DxH 900 instrument.
+In LoB studies, testing was conducted over three days using DxH diluent as blank. The
+blanks were run in 20 replicates for each parameter for a total of 120 replicates in two runs
+per day using two lots of DxH diluent in single tube BF cycle. The results obtained from all
+samples were used to calculate the LoB for each parameter.
+In LoD and LoQ studies, testing was performed using precision profile approach as per CLSI
+EP17-A2. Normal venous whole blood specimens collected in tubes containing K2EDTA
+anticoagulant were used in this study. Three sets of 11 dilutions of the undiluted whole blood
+stock were prepared in 10% increments from 0% to 100%. One set of dilutions was analyzed
+on each of the DxH 900 instrument. Five replicates of each dilution level were analyzed on
+each test instrument in the BF cycle for both BF TNC and BF RBC.
+All results met the predefined acceptance criteria and were determined to be acceptable. The
+maximum observed limit of blank (LoB), limit of detection (LoD), and limit of quantitation
+(LoQ) values for whole blood parameters are summarized below:
+Parameter LoB LoD LoQ
+BF TNC
+5.000 8.871 14.004
+(cells/mm3)
+BF RBC
+494.500 836.545 979.869
+(cells/mm3)
+7. Assay Cut-Off:
+Not applicable
+8. Carry-Over:
+Whole Blood
+Carry-over was evaluated by assaying K2EDTA whole blood samples with high WBC, RBC,
+HGB and PLT values followed immediately by samples with low values in accordance with
+the CLSI H26-A2 guideline. High Target Value sample were run in three replicates followed
+K240252 - Page 19 of 27
+
+[Table 1 on page 19]
+Parameter	LoB	LoD	LoQ
+WBC
+(103 /µL )	0.007	0.012	0.019
+PLT
+(103 /µL )	0.400	0.682	0.774
+
+[Table 2 on page 19]
+Parameter	LoB	LoD	LoQ
+BF TNC	5.000	8.871	14.004
+(cells/mm3)			
+BF RBC	494.500	836.545	979.869
+(cells/mm3)			
+
+--- Page 20 ---
+by three replicates of a Low Target Value sample using the cassette presentation mode. Three
+sets of carry-over sequences were run for each parameter on each instrument of one DxH
+900−3S system at one testing site. The percentage of carry-over is calculated and all carry-
+over results for DxH900-3S system met specifications.
+Body Fluid
+Carry-over for body fluid parameters (BF RBC and BF WBC) was evaluated by assaying
+whole blood samples with high RBC and RBC parameter. DxH Diluent was used as Low
+target value samples. Carryover that could influence a body fluid result was assessed by
+running whole blood specimens using the CDR cassette mode with high parameter values
+followed by diluent analyzed in the body fluid single-tube close vial mode. Three sets of
+carry-over sequences were run for each parameter on each instrument of one DxH 900−3S
+system at one testing site in accordance with the CLSI H26-A2 guideline. For Body Fluid
+parameters, carry-over is calculated as the cell counts in each of the diluent sample and all
+results met the acceptance criteria.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+UniCel DxH 900 Coulter Cellular Analysis System
+Whole Blood Studies
+Method comparison study were performed to assess the performance of the UniCel DxH 900
+Coulter Cellular Analysis System to the predicate UniCel DxH 800 Coulter Cellular Analysis
+System. The study was conducted at three sites with two sites using DxH 900 standalone
+instrument and one site using DxH 900−3S. A total of 735 venous samples collected in
+K2EDTA from pediatric (≤21 years) and adult subjects including a wide variety of disease
+states/clinical conditions. The tested samples covered the AMR and at MDLs for various
+analytes. Testing was performed within eight hours of sample collection in two replicates on
+both the devices and first replicate was used for analysis. Samples were tested in random on
+the UniCel DxH 900 Coulter Cellular Analysis System and the predicate within one hour of
+each other.
+A Passing-Bablok regression analysis was performed. Bias at medical decision points were
+evaluated for all sites combined. All results were within the predefined acceptance criteria.
+Overall, the UniCel DxH 900 Coulter Analysis System demonstrated comparable
+performance to the predicate device, UniCel DxH 800 Coulter Cellular Analysis System in
+an intended use population in a clinical laboratory setting.
+Correlation Slope Intercept
+Parameter N Result Range
+Coefficient (95% CI) (95% CI)
+WBC 1.006 0.003
+723 0.08 − 282.90 1.000
+(103/µL) (1.003, 1.009) (-0.009, 0.015)
+K240252 - Page 20 of 27
+
+[Table 1 on page 20]
+Parameter	N	Result Range	Correlation
+Coefficient	Slope
+(95% CI)			Intercept
+(95% CI)		
+WBC			1.000		1.006			0.003	
+	723	0.08 − 282.90							
+(103/µL)					(1.003, 1.009)			(-0.009, 0.015)	
+									
+
+--- Page 21 ---
+Correlation Slope Intercept
+Parameter N Result Range
+Coefficient (95% CI) (95% CI)
+RBC 0.994 0.005
+734 0.93 − 8.06 0.999
+(106/µL) (0.990, 0.997) (-0.006, 0.016)
+HGB 0.995 0.035
+734 2.97 − 19.64 1.000
+(g/dL) (0.992, 0.997) (0.009, 0.060)
+HCT 0.987 0.117
+734 8.40 − 60.67 0.999
+(%) (0.983, 0.992) (-0.010, 0.243)
+MCV 0.998 -0.163
+734 54.19 – 128.29 0.998
+(fL) (0.990, 1.006) (-0.872, 0.546)
+MCH 1.019 -0.464
+733 14.14 − 73.76 0.994
+(pg) (0.999, 1.039) (-1.051, 0.124)
+MCHC 1.024 -0.571
+733 26.09 − 57.50 0.952
+(g/dL) (0.982, 1.066) (-1.970, 0.828)
+RDW 0.999 0.004
+733 12.08 − 39.15 0.993
+(%) (0.967, 1.032) (-0.501, 0.510)
+RDW-SD 0.980 0.761
+733 33.69 − 98.44 0.994
+(fL) (0.966, 0.993) (0.127, 1.394)
+PLT 1.000 0.025
+687 3.86 − 1449.60 0.999
+(103/µL) (0.996, 1.004) (-0.457, 0.507)
+MPV 1.012 -0.025
+687 6.22 − 13.30 0.978
+(fL) (0.991, 1.033) (-0.200, 0.151)
+LYM# 1.003 0.003
+673 0.05 − 257.91 1.000
+(103/µL) (0.995, 1.011) (-0.009, 0.003)
+LYM 1.001 -0.002
+681 0.62 − 98.09 0.998
+(%) (0.996, 1.005) (-0.117, 0.112)
+MON# 0.994 0.003
+670 0.00 − 58.59 0.998
+(103/µL) (0.985, 1.003) (0.001, 0.004)
+MON 1.005 -0.058
+678 0.32 − 97.62 0.996
+(%) (0.992, 1.018) (-0.174, 0.057)
+NEU# 1.010 0.000
+673 0.01 − 94.69 0.995
+(103/µL) (1.004, 1.017) (0.000, 0.000)
+NEU 1.001 -0.050
+681 1.02 − 97.62 0.998
+(%) (0.997, 1.005) (-0.321, 0.221)
+EOS# 1.008 0.000
+647 0.00 − 1.92 0.847
+(103/µL) (0.986, 1.029) (0.000, 0.000)
+K240252 - Page 21 of 27
+
+[Table 1 on page 21]
+Parameter	N	Result Range	Correlation
+Coefficient	Slope
+(95% CI)			Intercept
+(95% CI)		
+RBC			0.999		0.994			0.005	
+	734	0.93 − 8.06							
+(106/µL)					(0.990, 0.997)			(-0.006, 0.016)	
+									
+HGB			1.000		0.995			0.035	
+	734	2.97 − 19.64							
+(g/dL)					(0.992, 0.997)			(0.009, 0.060)	
+									
+HCT			0.999		0.987			0.117	
+	734	8.40 − 60.67							
+(%)					(0.983, 0.992)			(-0.010, 0.243)	
+									
+MCV			0.998		0.998			-0.163	
+	734	54.19 – 128.29							
+(fL)					(0.990, 1.006)			(-0.872, 0.546)	
+									
+MCH			0.994		1.019			-0.464	
+	733	14.14 − 73.76							
+(pg)					(0.999, 1.039)			(-1.051, 0.124)	
+									
+MCHC			0.952		1.024			-0.571	
+	733	26.09 − 57.50							
+(g/dL)					(0.982, 1.066)			(-1.970, 0.828)	
+									
+RDW			0.993		0.999			0.004	
+	733	12.08 − 39.15							
+(%)					(0.967, 1.032)			(-0.501, 0.510)	
+									
+RDW-SD			0.994		0.980			0.761	
+	733	33.69 − 98.44							
+(fL)					(0.966, 0.993)			(0.127, 1.394)	
+									
+PLT			0.999		1.000			0.025	
+	687	3.86 − 1449.60							
+(103/µL)					(0.996, 1.004)			(-0.457, 0.507)	
+									
+MPV			0.978		1.012			-0.025	
+	687	6.22 − 13.30							
+(fL)					(0.991, 1.033)			(-0.200, 0.151)	
+									
+LYM#			1.000		1.003			0.003	
+	673	0.05 − 257.91							
+(103/µL)					(0.995, 1.011)			(-0.009, 0.003)	
+									
+LYM			0.998		1.001			-0.002	
+	681	0.62 − 98.09							
+(%)					(0.996, 1.005)			(-0.117, 0.112)	
+									
+MON#			0.998		0.994			0.003	
+	670	0.00 − 58.59							
+(103/µL)					(0.985, 1.003)			(0.001, 0.004)	
+									
+MON			0.996		1.005			-0.058	
+	678	0.32 − 97.62							
+(%)					(0.992, 1.018)			(-0.174, 0.057)	
+									
+NEU#			0.995		1.010			0.000	
+	673	0.01 − 94.69							
+(103/µL)					(1.004, 1.017)			(0.000, 0.000)	
+									
+NEU			0.998		1.001			-0.050	
+	681	1.02 − 97.62							
+(%)					(0.997, 1.005)			(-0.321, 0.221)	
+									
+EOS#			0.847		1.008			0.000	
+	647	0.00 − 1.92							
+(103/µL)					(0.986, 1.029)			(0.000, 0.000)	
+									
+
+--- Page 22 ---
+Correlation Slope Intercept
+Parameter N Result Range
+Coefficient (95% CI) (95% CI)
+EOS 0.985 0.016
+655 0.01 − 18.26 0.993
+(%) (0.969, 1.000) (-0.013, 0.046)
+BAS# 1.010 0.000
+666 0.00 − 1.21 0.684
+(103/µL) (0.940, 1.080) (-0.001, 0.002)
+BAS 0.888 0.078
+674 0.03 − 6.34 0.818
+(%) (0.709, 1.066) (-0.022, 0.177)
+IRF 0.985 0.008
+723 0.03 − 0.83 0.934
+(%) (0.955, 1.015) (-0.006, 0.023)
+RET# 1.028 0.000
+(106/µL) 726 0.00 − 0.89 0.987
+(1.016, 1.040) (0.000, 0.000)
+RET 1.014 0.044
+727 0.04 − 23.79 0.992
+(%) (0.984, 0.098) (-0.011, 0.992)
+MRV 1.001 -0.025
+727 83.20 − 169.45 0.972
+(fL) (0.980, 1.021) (-3.571, 1.161)
+NRBC # 0.834 0.000
+616 0.00 − 34.92 0.999
+(103/µL) (0.746, 0.922) (0.000, 0.000)
+NRBC 1.115 -0.075
+619 0.01− 130.63 0.998
+(%) (0.876, 1.354) (-0.174, 0.023)
+Body Fluid Studies
+Method comparison studies were performed to assess the performance of the UniCel DxH
+900 Coulter Cellular Analysis System to the predicate UniCel DxH 800 Coulter Cellular
+Analysis System. The study was conducted at three sites with two sites using DxH 900
+standalone instrument and one site using DxH 900−3 S. A total of 204 residual body fluid
+samples (serous, synovial and diluted whole blood) collected from pediatric (≤21 years) and
+adult subjects including a wide variety of disease states/clinical conditions were tested across
+three clinical sites. Body fluids samples were stored at room temperature and tested in
+random order on UniCel DxH 900 Coulter Cellular Analysis System and UniCel DxH 800
+Coulter Cellular Analysis System within one hour of each other.
+A Passing-Bablok regression analysis was performed. Bias at medical decision points were
+evaluated for all sites combined. All results were within the predefined acceptance criteria.
+Overall, all body fluid tested on UniCel DxH 900 Coulter Analysis System demonstrated
+comparable performance to the predicate device, UniCel DxH 800 Coulter Cellular Analysis
+System.
+K240252 - Page 22 of 27
+
+[Table 1 on page 22]
+Parameter	N	Result Range	Correlation
+Coefficient	Slope
+(95% CI)			Intercept
+(95% CI)		
+EOS			0.993		0.985			0.016	
+	655	0.01 − 18.26							
+(%)					(0.969, 1.000)			(-0.013, 0.046)	
+									
+BAS#			0.684		1.010			0.000	
+	666	0.00 − 1.21							
+(103/µL)					(0.940, 1.080)			(-0.001, 0.002)	
+									
+BAS			0.818		0.888			0.078	
+	674	0.03 − 6.34							
+(%)					(0.709, 1.066)			(-0.022, 0.177)	
+									
+IRF			0.934		0.985			0.008	
+	723	0.03 − 0.83							
+(%)					(0.955, 1.015)			(-0.006, 0.023)	
+									
+RET#			0.987		1.028			0.000	
+	726	0.00 − 0.89							
+(106/µL)									
+					(1.016, 1.040)			(0.000, 0.000)	
+									
+RET			0.992		1.014			0.044	
+	727	0.04 − 23.79							
+(%)					(0.984, 0.098)			(-0.011, 0.992)	
+									
+MRV			0.972		1.001			-0.025	
+	727	83.20 − 169.45							
+(fL)					(0.980, 1.021)			(-3.571, 1.161)	
+									
+NRBC #			0.999		0.834			0.000	
+	616	0.00 − 34.92							
+(103/µL)					(0.746, 0.922)			(0.000, 0.000)	
+									
+NRBC			0.998		1.115			-0.075	
+	619	0.01− 130.63							
+(%)					(0.876, 1.354)			(-0.174, 0.023)	
+									
+
+--- Page 23 ---
+Correlation Slope Intercept
+Parameter N Result Range
+Coefficient (95% CI) (95% CI)
+BF RBC 1085.99 − 1.00 0.998 -18.721
+130
+(cells/mm3) 6034566.00 (0.991, 1.005) (-95.808, 58.367)
+BF TNC 1.00 1.014 ( 1.101
+195 25.01 − 56066.86
+(cells/mm3) 1.000, 1.027) (-1.626, 3.827)
+UniCel DxH 690T Coulter Cellular Analysis System
+Whole Blood Studies
+Method comparison studies was conducted to evaluate the performance of the UniCel DxH
+690T Coulter Cellular Analysis System compared to the predicate device, UniCel DxH 800
+Coulter Cellular Analysis System. A total of 382 adult whole blood samples collected in
+K2EDTA were analyzed on DxH690T, and predicate device. The study was performed in the
+automatic mode using CDR test panel. Results for CBC, Differential, NRBC, RET, IRF, and
+MRV parameters were compared using the specifications of the DxH 800. Weighted Deming
+analysis was performed for WBC, RBC, and PLT to estimate regression parameters, and
+Deming analysis was performed for all the other whole blood parameters. Bias at medical
+decision points were evaluated for all parameters. All results were within the predefined
+acceptance criteria. Overall, UniCel DxH 690T Coulter Analysis System demonstrated
+comparable performance to the predicate device, UniCel DxH 800 Coulter Cellular Analysis
+System.
+Correlation Slope Intercept
+Parameter N Result Range
+Coefficient (95% CI) (95% CI)
+WBC 0.994 0.000
+368 0.06 – 148.83 0.999
+(103/µL) (0.992, 0.997) (-0.002, 0.002)
+RBC 1.008 -0.039
+369 1.68 – 8.49 0.999
+(106/µL) (1.004, 1.012) (-0.053, -0.025)
+HGB 0.985 (0.982, 0.130
+367 4.95 – 24.84 1.000
+(g/dL) 0.989) (0.092, 0.168)
+MCV 1.001 -0.342
+367 66.15 – 115.06 1.001
+(fL) (0.994, 1.008) (-0.872, 0.546)
+RDW 1.003 -0.072
+367 11.93 – 27.60 0.993
+(%) (0.991, 1.034) (-0.269, -0.124)
+RDW-SD 1.017 -0.672
+367 35.88 – 92.31 0.994
+(fL) (1.001, 1.034) (-1.411, 0.158)
+K240252 - Page 23 of 27
+
+[Table 1 on page 23]
+Parameter	N	Result Range	Correlation
+Coefficient	Slope
+(95% CI)		Intercept
+(95% CI)	
+BF RBC		1085.99 −	1.00		0.998
+(0.991, 1.005)	-18.721
+(-95.808, 58.367)	
+	130						
+(cells/mm3)		6034566.00					
+							
+BF TNC			1.00		1.014 (
+1.000, 1.027)	1.101
+(-1.626, 3.827)	
+	195	25.01 − 56066.86					
+(cells/mm3)							
+							
+
+[Table 2 on page 23]
+1.00
+
+
+[Table 3 on page 23]
+1.00
+
+
+[Table 4 on page 23]
+Parameter	N	Result Range	Correlation
+Coefficient	Slope
+(95% CI)		Intercept
+(95% CI)	
+WBC			0.999		0.994
+(0.992, 0.997)	0.000
+(-0.002, 0.002)	
+	368	0.06 – 148.83					
+(103/µL)							
+							
+RBC			0.999		1.008
+(1.004, 1.012)	-0.039
+(-0.053, -0.025)	
+	369	1.68 – 8.49					
+(106/µL)							
+							
+HGB			1.000		0.985 (0.982,
+0.989)	0.130
+(0.092, 0.168)	
+	367	4.95 – 24.84					
+(g/dL)							
+							
+MCV			1.001		1.001
+(0.994, 1.008)	-0.342
+(-0.872, 0.546)	
+	367	66.15 – 115.06					
+(fL)							
+							
+RDW			0.993		1.003
+(0.991, 1.034)	-0.072
+(-0.269, -0.124)	
+	367	11.93 – 27.60					
+(%)							
+							
+RDW-SD			0.994		1.017
+(1.001, 1.034)	-0.672
+(-1.411, 0.158)	
+	367	35.88 – 92.31					
+(fL)							
+							
+
+--- Page 24 ---
+Correlation Slope Intercept
+Parameter N Result Range
+Coefficient (95% CI) (95% CI)
+PLT 1.012 -0.854
+334 7.80 – 788.70 0.999
+(103/µL) (1.001, 1.024) (-2.236, 0.527)
+MPV 9.995 0.117
+335 6.58 – 12.21 0.995
+(fL) (0.970, 1.020) (-0.065, 0.298)
+LYM 1.012 0.117
+340 1.03 – 98.00 0.998
+(%) (1.004, 1.020) (-0.065, 0.298)
+MON 0.972 0.158
+340 0.00 – 92.73 0.996
+(%) (0.959, 0.986) (0.025, 0.290)
+NEU 1.002 -0.428
+340 0.66 – 96.2.0 0.998
+(%) (0.996, 1.004) (-0.832, -0.023)
+EOS 0.992 0.011
+340 0.00 – 20.30 0.995
+(%) (0.972, 1.012) (-0.029, 0.050)
+BAS 1.481 -0.275
+340 0.00 – 3.61 0.473
+(%) (0.383, 2.579) (-0.275, -0.275)
+IRF 1.018 -0.014
+371 0.00 – 0.77 0.924
+(%) (0.971, 1.065) (-0.038, 0.009)
+RET 1.031 0.062
+371 0.03 – 15.20 0.985
+(%) (0.987, 1.074) (-0.004, 0.129)
+MRV 0.996 0.349
+371 76.42 – 170.24 0.965
+(fL) (0.961, 1.030) (-3.7921, 4.491)
+2. Matrix Comparison:
+K2EDTA versus K3EDTA Anticoagulant Comparison Study
+Refer to the 510(k) submission K120771.
+Venous versus Capillary Whole Blood
+Refer to the 510(k) submission K120771.
+K240252 - Page 24 of 27
+
+[Table 1 on page 24]
+Parameter	N	Result Range	Correlation
+Coefficient	Slope
+(95% CI)			Intercept
+(95% CI)		
+PLT			0.999		1.012			-0.854	
+	334	7.80 – 788.70							
+(103/µL)					(1.001, 1.024)			(-2.236, 0.527)	
+									
+MPV			0.995		9.995			0.117	
+	335	6.58 – 12.21							
+(fL)					(0.970, 1.020)			(-0.065, 0.298)	
+									
+LYM			0.998		1.012			0.117	
+	340	1.03 – 98.00							
+(%)					(1.004, 1.020)			(-0.065, 0.298)	
+									
+MON			0.996		0.972			0.158	
+	340	0.00 – 92.73							
+(%)					(0.959, 0.986)			(0.025, 0.290)	
+									
+NEU			0.998		1.002			-0.428	
+	340	0.66 – 96.2.0							
+(%)					(0.996, 1.004)			(-0.832, -0.023)	
+									
+EOS			0.995		0.992			0.011	
+	340	0.00 – 20.30							
+(%)					(0.972, 1.012)			(-0.029, 0.050)	
+									
+BAS			0.473		1.481			-0.275	
+	340	0.00 – 3.61							
+(%)					(0.383, 2.579)			(-0.275, -0.275)	
+									
+IRF			0.924		1.018			-0.014	
+	371	0.00 – 0.77							
+(%)					(0.971, 1.065)			(-0.038, 0.009)	
+									
+RET			0.985		1.031			0.062	
+	371	0.03 – 15.20							
+(%)					(0.987, 1.074)			(-0.004, 0.129)	
+									
+MRV			0.965		0.996			0.349	
+	371	76.42 – 170.24							
+(fL)					(0.961, 1.030)			(-3.7921, 4.491)	
+									
+
+--- Page 25 ---
+C Clinical Studies:
+1. Clinical Sensitivity:
+Sensitivity study was conducted to evaluate the flagging capabilities of the UniCel DxH
+900 Coulter Cellular Analysis System and compare with that of UniCel DxH 800 Coulter
+Cellular Analysis System. The analysis was conducted using the flagging results from the
+method comparison studies performed at three clinical sites, in accordance with CLSI H20-
+A2 guideline. A total of 735 residual normal (no flags, marked as negative) and abnormal
+(contained flags, marked as positive) whole blood samples were tested and compared to the
+predicate. All the distributional cases described in CLSI H20-A2 including important
+medical decision levels were analyzed for agreement analysis. The morphological
+agreement was based on DxH 800 (predicate) flagging for immature granulocytes, variant
+lymphocytes and left shift. Positive Percent Agreement (PPA), Negative Percent
+Agreement (NPA) and Overall Percent Agreement (OPA) with the 95% confidence
+intervals were calculated for all three sites combined.
+Category of NPA PPA OPA
+N TP FP FN TN
+Abnormalities (95% CI) (95% CI) (95% CI)
+Morphological 0.955 0.885 0.935
+735 193 23 25 494
+Abnormalities (0.934 − 0.970) (0.836 − 0.921) (0.914 − 0.950)
+Distributional 0.881 0.9501 0.922
+735 419 35 22 259
+Study (0.839 − 0.913) (0.926 − 0.967) (0.901 − 0.940)
+2. Clinical Specificity:
+See Clinical Sensitivity
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Not applicable.
+D Clinical Cut-Off:
+Not applicable.
+E Expected Values/Reference Range:
+Adult Whole Blood Reference Range
+Studies to assess the adult reference range for whole blood samples were conducted on UniCel
+DxH 900 Coulter Cellular Analysis System per CLSI EP28-A3c to verify the reference intervals
+for male and female adults at one site. Forty whole-blood samples (male=20; female=20) were
+collected in K2EDTA from normal donors and tested in one replicate on two standalone UniCel
+DxH 900 Coulter Cellular Analysis Systems (DxH 900 instrument). The lower and upper limits
+of the 95% reference intervals were determined based on the 2.5th and 97.5th percentiles of all
+valid measurements for each sex group, respectively. 90% of the normal samples were within the
+established reference ranges on the predicate device DxH 800. The data supports that the
+K240252 - Page 25 of 27
+
+[Table 1 on page 25]
+Category of
+Abnormalities	N	TP	FP	FN	TN	NPA
+(95% CI)	PPA
+(95% CI)	OPA
+(95% CI)
+Morphological
+Abnormalities	735	193	23	25	494	0.955
+(0.934 − 0.970)	0.885
+(0.836 − 0.921)	0.935
+(0.914 − 0.950)
+Distributional
+Study	735	419	35	22	259	0.881
+(0.839 − 0.913)	0.9501
+(0.926 − 0.967)	0.922
+(0.901 − 0.940)
+
+--- Page 26 ---
+reference ranges established for the predicate device DxH 800 are applicable for the candidate
+device DxH 900. The reference intervals are summarized in table below:
+Parameter Female Male
+WBC (103/µL) 3.813 − 11.764 3.56 −10.21
+RBC (106/µL) 3.63 − 4.92 4.06 − 5.63
+HGB (g/dL) 10.86 − 14.27 12.47 − 16.33
+HCT (%) 31.16 − 41.85 36.73 − 47.10
+MCV (fL) 75.47 − 95.25 72.97 − 96.24
+MCH (pg) 24.67 − 32.82 23.79 − 33.39
+MCHC (g/dL) 33.34 − 34.61 33.47 − 36.26
+RDW 12.34 − 17.69 12.06 − 16.17
+RDW-SD (fL) 37.63 − 50.51 36.45 − 45.94
+PLT (103/µL) 179.00 − 408.10 152.40 − 347.00
+MPV (fL) 7.90 − 10.76 7.42 − 11.40
+LYM# (103/µL) 1.13 − 3.05 0.97 − 3.23
+LYM (%) 15.96 − 45.90 15.16 − 43.33
+MON# (103/µL) 0.24 − 0.90 0.28 − 1.06
+MON (%) 4.31 − 10.86 5.48 − 13.74
+NEU# (103/µL) 1.86 − 8.21 1.75 − 7.56
+NEU (%) 42.65 − 76.84 43.52 − 73.46
+EOS# (103/µL) 0.03 − 0.53 0.04 − 0.46
+EOS (%) 0.52 − 7.02 0.80 − 8.08
+BAS# (103/µL) 0.01 − 0.09 0.01 − 0.09
+BAS (%) 0.18 − 1.30 0.22 − 1.44
+IRF (%) 0.26 − 0.52 0.30 − 0.54
+RET# (103/µL) 23.00 − 93.51 18.84 − 108.56
+RET (%) 0.51 − 2.17 0.42 − 2.23
+MRV (fL) 96.40 − 118.01 97.53 − 122.66
+NRBC # (103/µL) 0.00 − 0.02 0.00 − 0.02
+NRBC (%) 0.00 − 0.33 0.02 − 0.61
+Pediatric Whole Blood Reference Range
+Refer to published literature; “Improving Laboratory Test Interpretation in Children
+(Beckman Coulter DxH 900–Core Laboratory Hematology System).” Am J Clin Pathol
+September 2020;154:330-341.
+F Other Supportive Instrument Performance Characteristics Data:
+Correlation between Sampling Modes
+Please refer to 510(k) submission K120771
+Correlation between analytical modes
+Please refer to 510(k) submission K120771
+K240252 - Page 26 of 27
+
+[Table 1 on page 26]
+Parameter	Female	Male
+WBC (103/µL)	3.813 − 11.764	3.56 −10.21
+RBC (106/µL)	3.63 − 4.92	4.06 − 5.63
+HGB (g/dL)	10.86 − 14.27	12.47 − 16.33
+HCT (%)	31.16 − 41.85	36.73 − 47.10
+MCV (fL)	75.47 − 95.25	72.97 − 96.24
+MCH (pg)	24.67 − 32.82	23.79 − 33.39
+MCHC (g/dL)	33.34 − 34.61	33.47 − 36.26
+RDW	12.34 − 17.69	12.06 − 16.17
+RDW-SD (fL)	37.63 − 50.51	36.45 − 45.94
+PLT (103/µL)	179.00 − 408.10	152.40 − 347.00
+MPV (fL)	7.90 − 10.76	7.42 − 11.40
+LYM# (103/µL)	1.13 − 3.05	0.97 − 3.23
+LYM (%)	15.96 − 45.90	15.16 − 43.33
+MON# (103/µL)	0.24 − 0.90	0.28 − 1.06
+MON (%)	4.31 − 10.86	5.48 − 13.74
+NEU# (103/µL)	1.86 − 8.21	1.75 − 7.56
+NEU (%)	42.65 − 76.84	43.52 − 73.46
+EOS# (103/µL)	0.03 − 0.53	0.04 − 0.46
+EOS (%)	0.52 − 7.02	0.80 − 8.08
+BAS# (103/µL)	0.01 − 0.09	0.01 − 0.09
+BAS (%)	0.18 − 1.30	0.22 − 1.44
+IRF (%)	0.26 − 0.52	0.30 − 0.54
+RET# (103/µL)	23.00 − 93.51	18.84 − 108.56
+RET (%)	0.51 − 2.17	0.42 − 2.23
+MRV (fL)	96.40 − 118.01	97.53 − 122.66
+NRBC # (103/µL)	0.00 − 0.02	0.00 − 0.02
+NRBC (%)	0.00 − 0.33	0.02 − 0.61
+
+--- Page 27 ---
+Whole Blood Stability
+Please refer to 510(k) submission K120771
+Body Fluid Stability
+Please refer to 510(k) submission K120771
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K240252 - Page 27 of 27

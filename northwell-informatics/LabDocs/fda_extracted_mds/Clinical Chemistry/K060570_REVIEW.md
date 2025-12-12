@@ -1,0 +1,104 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k060570   
+B. Purpose for Submission: New Device   
+C. Measurand: Control material for Hemoglobin A1c   
+D. Type of Test: Control material   
+E. Applicant: Compass Bioscience   
+F. Proprietary and Established Names: Hemoglobin A1c control
+
+# G. Regulatory Information:
+
+1. Regulation section:   
+21 CFR 862.1660
+
+2. Classification: Class I (reserved)
+
+3. Product code: JJX
+
+4. Panel: 75, chemistry
+
+# H. Intended Use:
+
+1. Intended use(s): See indications for use below.
+
+2. Indication(s) for use:
+
+The Compass Bioscience Hemoglobin A1c Control is to be used as a quality control material to assess the accuracy and precision of laboratory test methods used to measure Hemoglobin A1c levels. It is intended to validate the measurement of Hemoglobin A1c in patient samples.
+
+Two levels of control are provided to allow the performance of the analyte test methods to be monitored within the clinically significant range.
+
+3. Special conditions for use statement(s): For prescription use only
+
+4. Special instrument requirements: Bayer DCA 2000, Beckman LX20, Beckman CX7, Roche Hitachi 912, Tosoh 2.2, Tosoh G7, Bio-Rad Variant II, Provalis In2it and Cholestech GDx
+
+# I. Device Description:
+
+The Compass Bioscience Hemoglobin A1c controls are a bi-level (normal and elevated) control $3 \mathrm { m l }$ per level) solution containing glycated hemoglobin. The controls are supplied as liquid human whole blood samples. All donor units used in the manufacture of this product have been tested using FDA accepted methods and have been found non-reactive for Hepatitis B surface antigen (HBsAg), antibodies to Hepatitis C, HIV 1/2 and syphilis, and for HIV 1 and HCV RNA.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): MAS Diabetes Control and Liquitrol Liquid Human Glycosylated Hemoglobin
+
+2. Predicate 510(k) number(s): k042717 and k023032
+
+3. Comparison with predicate:
+
+The Compass Bioscience Hemoglobin A1c control is similar to the predicate devices in regards to intended use, matrix (liquid whole blood), levels (2), volumes $3 \mathrm { ~ x ~ l ~ m L }$ ) and storage temperature $( - 2 0 ^ { \circ } \mathrm { C } )$ . The Compass Bioscience is different in that the open vial stability is 90 days when stored at $2 { - } 8 ^ { \circ } \mathrm { C }$ and 7 days when stored at room temperature. In contrast the MAS predicate device has a 14 day open stability when stored tightly capped at $2 { - } 8 ^ { \circ } \mathrm { C }$ .
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+CLSI (formerly NCCLS) - C24-A2 Statistical Quality Control for Quantitative Measurements: Principles and Definitions; Approved Guideline (1999).
+
+L. Test Principle: Not applicable.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Not applicable
+
+b. Linearity/assay reportable range: Not applicable
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+The Compass Hemoglobin A1c Controls are prepared from human whole blood from traceable normal and diabetic donors. The concentrations of HbA1c are determined using HPLC as the reference method.
+
+Value Assignment
+
+The value assignment was determined by testing the controls over 30 days, for both refrigerated and room temperature stored controls, at least 10 data points for each level. The means were calculated and the ranges determined by $+ / .$ - 3SD of the mean. Testing on the Beckman instruments, the Bayer DCA 2000, the Hitachi 912, the Tosoh 2.2, and the Variant II were performed at individual outside labs on a single instrument. The testing on the GDx and the Tosoh G7 was performed in-house, and the testing on the In2it was performed by the instrument manufacturer.
+
+Accelerated and real-time stability studies have been performed to determine the stability and shelf life for the controls. Frozen control samples were allowed to thaw at room temperature (20 to $2 5 ^ { \circ } \mathrm { C }$ ) before testing. The accelerated study was conducted using the Kennon stability prediction model. The results from the accelerated closed vial study support the sponsor’s claim of 2 years when stored at -15 to $- 2 5 ^ { \circ } \mathrm { C }$ and 12 months when stored at 2 to $8 ^ { \circ }$ C. The results from the real-time open vial stability study support the sponsor’s open vial claim of 90 day stability when stored at 2 to $8 ^ { \circ } \mathrm { C }$ and 7 day stability when stored at room temperature.
+
+d. Detection limit: Not applicable   
+e. Analytical specificity: Not applicable   
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off:
+
+Not applicable
+
+5. Expected values/Reference range:
+
+The concentrations in the Compass Bioscience Hemoglobin A1c Controls has lot specific values. The concentrations for level 1 range from $3 . 6 \%$ to $7 . 5 \%$ depending on the instrument. The concentrations for level 2 range from $8 . 4 \%$ to $1 3 . 1 \%$ depending on the instrument. The package insert lists each specific instrument and its corresponding range.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

@@ -1,0 +1,133 @@
+Standard Operating Procedure (SOP): Analytical Phase for
+Generating Results for Sézary Diagnostic Flow Cytometry, Blood
+1. PURPOSE
+The purpose of this protocol is to outline the analytical procedures
+necessary to perform, analyze, and document results for Sézary
+diagnostic flow cytometry of whole blood specimens. This protocol
+ensures consistency, accuracy, and reliability in the assessment of
+Sézary syndrome, a type of cutaneous T-cell lymphoma.
+2. SCOPE
+This procedure applies to laboratory staff trained in flow cytometry
+operations and analysis. It covers the steps from sample preparation
+through running the sample on the flow cytometer, to the analysis
+and reporting of results.
+3. RESPONSIBILITY
+Designated laboratory staff are responsible for performing the flow
+cytometry analysis following this SOP. Supervisors and experienced
+flow cytometry technologists are responsible for ensuring compliance
+with this SOP and for reviewing and validating the final results.
+4. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Flow cytometer (e.g., BD FACSCanto, Beckman Coulter Navios)
+• Computer with flow cytometry analysis software (e.g., FACSDiva,
+Kaluza Analysis)
+• Anticoagulated whole blood (EDTA)
+• Flow cytometry tubes
+• Monoclonal antibodies specific for Sézary cell markers (e.g., CD3,
+CD4, CD7, CD26, CD8, CD45, TCR Vβ)
+• Lysing solution
+• Positive and negative control samples
+• PBS (Phosphate Buffered Saline)
+• FACS lysing solution (for red blood cell lysing)
+• Disposable pipettes
+5. PROCEDURE
+5.1 Sample Preparation
+5.1.1 Reagents Preparation
+• Prepare freshly diluted lysing solution according to the
+manufacturer’s instructions.
+• Label all flow cytometry tubes clearly with patient identifiers and
+required staining panel identifiers.
+5.1.2 Staining Protocol
+• Add 100 μL of well-mixed, anticoagulated whole blood to each
+properly labeled flow cytometry tube.
+• Add the appropriate volumes of the monoclonal antibodies to the
+tubes as per the manufacturer’s recommended concentration.
+Vortex gently to mix. Use the following antibody panel:
+◦ CD3 FITC
+◦ CD4 PE
+◦ CD7 APC
+◦ CD26 PE-Cy7
+◦ CD8 PerCP-Cy5.5
+◦ CD45 V500
+◦ TCR Vβ (specific fluorochrome as per laboratory standard)
+• Incubate tubes in the dark at room temperature for 15-20 minutes.
+5.1.3 Red Blood Cell Lysis
+• Add 2 ml of lysing solution to each tube.
+• Incubate for 10 minutes at room temperature in the dark.
+• Centrifuge at 500 x g for 5 minutes.
+• Carefully aspirate the supernatant without disturbing the pellet.
+5.1.4 Washing and Fixing
+• Resuspend the pellet in 2 ml PBS.
+• Centrifuge at 500 x g for 5 minutes.
+• Aspirate supernatant and resuspend pellet in 300 µL of PBS for
+flow cytometry analysis.
+5.2 Instrument Setup
+• Perform daily calibration and quality control of the flow cytometer
+using standard beads as per the instrument manual.
+• Verify that all compensated settings are accurate for the specific
+fluorescence channels used.
+• Load compensation controls and establish compensation settings
+to correct for spectral overlap of fluorochromes.
+5.3 Sample Acquisition
+5.3.1 Acquisition Settings
+• Set up acquisition templates specific for Sézary syndrome
+analysis in the flow cytometry software.
+• Gate on the lymphocyte population using forward scatter (FSC)
+and side scatter (SSC) to exclude debris and artifacts.
+5.3.2 Running Samples
+• Acquire data for at least 10,000 events in the lymphocyte
+population.
+• Ensure that each population of interest (particularly CD4+ T cells)
+has a sufficient number of events for reliable analysis.
+5.4 Data Analysis
+5.4.1 Initial Gating Strategy
+• Confirm lymphocyte gating based on FSC and SSC
+characteristics.
+• Gate on live, single-cell lymphocytes by using viability dye
+exclusion if applicable.
+5.4.2 Sequential Gating
+• Gate on the CD3+ T cell population.
+• Identify and gate on CD4+ T cells within the CD3+ population.
+• Sequentially gate to analyze markers indicative of Sézary cells,
+such as aberrant loss of CD7, reduced expression of CD26, and
+abnormal TCR Vβ usage.
+5.4.3 Interpretation
+• Identify markers that exhibit abnormal expression patterns
+consistent with Sézary syndrome.
+• Assess the percentage of abnormal cells within the CD4+ T cell
+population.
+• Compare findings against established diagnostic criteria for
+Sézary syndrome.
+6. QUALITY CONTROL
+6.1 Daily Instrument QC
+• Perform and document daily instrument calibration using standard
+QC beads.
+6.2 Internal Quality Control Samples
+• Run internal positive and negative control samples with each
+batch of patient samples.
+• Ensure quality control results are within acceptable ranges before
+proceeding with patient samples.
+7. REPORTING RESULTS
+7.1 Verification
+• Review all gated populations and analyses to ensure consistency
+and accuracy.
+• Compare the data to historical patient data, if available, for
+longitudinal assessment.
+7.2 Documentation
+• Document all steps in the laboratory information system (LIS).
+• Include detailed notes on any deviations from the standard
+protocol and corresponding justifications.
+7.3 Results Reporting
+• Report abnormal findings in the context of established reference
+ranges and diagnostic criteria for Sézary syndrome.
+• Communicate critical findings with the physician immediately and
+document the communication.
+8. REFERENCES
+• Manufacturer’s instructions for flow cytometry antibodies and
+reagents.
+• Current literature and clinical guidelines for the diagnosis and
+monitoring of Sézary syndrome.
+• Laboratory's internal SOPs for flow cytometer maintenance and
+operation.
+By following this SOP, laboratory personnel will ensure the reliability,
+accuracy, and clinical relevance of Sézary diagnostic flow cytometry
+results.

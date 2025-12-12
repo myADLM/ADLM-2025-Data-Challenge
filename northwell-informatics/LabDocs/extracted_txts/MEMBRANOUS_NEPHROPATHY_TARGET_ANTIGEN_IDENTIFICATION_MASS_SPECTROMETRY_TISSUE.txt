@@ -1,0 +1,141 @@
+Analytical Protocol for Membranous Nephropathy
+Target Antigen Identification Using Mass Spectrometry
+on Tissue Samples
+1. PURPOSE
+The purpose of this SOP is to outline the procedure for the analytical
+phase of the identification of target antigens in membranous
+nephropathy using mass spectrometry in tissue samples. This will
+ensure the precise, reproducible, and accurate identification of
+relevant antigens in clinical samples.
+Responsibility:
+• Qualified laboratory scientists will perform the mass spectrometry
+analysis.
+• It is the responsibility of the supervisor to ensure that all staff are
+trained and competent in performing the procedure.
+1. SPECIMEN REQUIREMENTS AND ACCEPTANCE CRITERIA
+Specimen Type:
+• Fresh frozen kidney biopsy tissue (optimal)
+• Formalin-fixed paraffin-embedded (FFPE) kidney tissue
+Specimen Storage:
+• Fresh frozen tissue: Store at -80°C until processing.
+• FFPE tissue blocks: Store at room temperature in a dry
+environment.
+Specimen Rejection:
+• Specimens with insufficient material.
+• Specimens that are improperly labeled or lack accompanying
+requisition paperwork.
+• Specimens that have been stored outside of recommended
+conditions.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+Equipment:
+• Mass Spectrometer (LC-MS/MS)
+• Microcentrifuge
+• Tissue homogenizer
+• Ultrasonic bath or probe sonicator
+• Centrifuge
+• Water bath/incubator (37°C)
+• Pipettes and tips
+• Fume hood
+Reagents:
+• Lysis buffer: 8M Urea in 100mM Tris-HCl, pH 8.5
+• Reduction agent: Dithiothreitol (DTT)
+• Alkylation agent: Iodoacetamide (IAA)
+• Trypsin or LysC enzyme
+• Acetonitrile (LC-MS grade)
+• Formic acid (LC-MS grade)
+• Water (LC-MS grade)
+1. PROCEDURE
+Preparation of Tissue Sample:
+1. Tissue Dissection and Homogenization:
+◦ Thaw fresh frozen tissue on ice or prepare FFPE sections
+(10-20 µm).
+◦ Homogenize approximately 10-50 mg of tissue in lysis buffer
+using a tissue homogenizer.
+◦ Sonicate tissue lysate in an ultrasonic bath or using a probe
+sonicator to ensure complete cell lysis.
+2. Protein Extraction and Digestion:
+◦ Centrifuge the lysate at 14,000 x g for 10 minutes to remove
+debris.
+◦ Transfer the supernatant to a new tube and determine
+protein concentration using a BCA or Bradford assay.
+◦ Reduce proteins by adding DTT to a final concentration of 5
+mM and incubate at 37°C for 30 minutes.
+◦ Alkylate proteins by adding IAA to a final concentration of 15
+mM, incubate at room temperature in the dark for 30
+minutes.
+◦ Dilute urea concentration to 1M using 100mM Tris-HCl, pH
+8.5.
+◦ Digest proteins overnight with trypsin or LysC at a 1:50
+enzyme-to-protein ratio at 37°C.
+3. Peptide Cleanup:
+◦ Acidify the digest by adding formic acid to a final
+concentration of 1%.
+◦ Desalt peptides using C18 solid-phase extraction (SPE)
+cartridges or tips according to the manufacturer's
+instructions.
+◦ Elute peptides with 60% acetonitrile containing 0.1% formic
+acid.
+◦ Dry the eluted peptides using a vacuum concentrator.
+Mass Spectrometry Analysis:
+• Reconstitute dried peptides in 0.1% formic acid.
+• Load peptides onto the LC-MS/MS system.
+• Perform data acquisition in data-dependent acquisition (DDA) or
+targeted mode.
+Data Analysis:
+1. Database Search:
+◦ Perform a database search using appropriate software (e.g.,
+Mascot, Sequest, MaxQuant) against a human protein
+database.
+◦ Set parameters for precursor mass tolerance (typically 10
+ppm) and fragment mass tolerance (typically 0.5 Da).
+2. Identification Criteria:
+◦ Peptides must have at least two unique fragment ions for
+confirmation.
+◦ Proteins identified must have at least one unique peptide
+with a false discovery rate (FDR) of less than 1%.
+3. Report Generation:
+◦ Generate a detailed report including identified antigens,
+peptide sequences, and confidence scores.
+◦ Submit results to the requesting healthcare provider or
+research team.
+4. QUALITY CONTROL
+Internal Quality Control:
+• Use standardized control tissue or reference samples with known
+antigen profiles.
+• Perform routine calibration and maintenance of the mass
+spectrometer as per the manufacturer’s instructions.
+• Include process blanks and duplicate samples to monitor for
+contamination and reproducibility.
+Documentation:
+• All steps from tissue preparation to data analysis must be
+documented in the laboratory information management system
+(LIMS).
+• Any deviations from the procedure and corrective actions taken
+must be recorded.
+1. REPORTING RESULTS
+Results Verification:
+• All results must be reviewed and verified by a qualified laboratory
+scientist before being reported.
+• Significant findings, including the presence of known antigens
+associated with membranous nephropathy, should be highlighted
+in the report.
+Communicating Results:
+• Results should be transmitted electronically to the LIS and
+healthcare provider, along with a written interpretative report
+outlining key findings and any limitations.
+REFERENCE INTERVALS
+• Reference intervals for identified antigens will depend on current
+literature and disease-specific criteria.
+METHOD LIMITATIONS
+• Ensure adherence to the mass spectrometry sensitivity and
+specificity limits.
+• Note that detection is dependent on the quality and quantity of the
+tissue sample and proper sample preparation.
+REFERENCES
+• Refer to the latest literature and manuals provided by mass
+spectrometry equipment and reagent manufacturers for any
+updates on protocols and procedures.
+This protocol provides comprehensive guidelines for executing mass
+spectrometry analysis for the identification of target antigens in
+membranous nephropathy using tissue samples. Adherence to these
+standards ensures the integrity and reliability of test results.

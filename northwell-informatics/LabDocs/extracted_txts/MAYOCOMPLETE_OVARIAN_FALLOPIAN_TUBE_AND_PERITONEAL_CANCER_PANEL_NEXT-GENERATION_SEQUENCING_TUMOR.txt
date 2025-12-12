@@ -1,0 +1,130 @@
+SOP: Analytical Phase Protocol for Generating Results for
+MAYOCOMPLETE OVARIAN, FALLOPIAN TUBE, AND
+PERITONEAL CANCER PANEL, NEXT-GENERATION
+SEQUENCING (NGS), TUMOR
+1. PURPOSE
+This protocol outlines the procedures for the analytical phase of
+generating results for the MAYOCOMPLETE Ovarian, Fallopian
+Tube, and Peritoneal Cancer Panel using Next-Generation
+Sequencing (NGS) from tumor specimens. This ensures accurate,
+reliable, and reproducible results for diagnosis, prognosis, and
+therapeutic management.
+Responsibility:
+It is the responsibility of the trained laboratory technologist to perform
+the analysis following this SOP. It is also the responsibility of lab
+supervisors to ensure the SOP is followed and to address any issues
+that arise during the analysis.
+2. DEFINITIONS
+• NGS: Next-Generation Sequencing, a method used to sequence
+DNA or RNA to identify genetic variations.
+• Library Preparation: The process of converting tumor DNA into a
+form compatible with the sequencing technology.
+• Sequencer: The instrument used to perform NGS.
+• Bioinformatics Analysis: Computational methods used to analyze
+sequencing data to identify genetic variants.
+3. PROCEDURE
+A) Preparation of Tumor DNA
+1. Isolation and Quantification of DNA:
+◦ Extract DNA from tumor specimen using a validated
+extraction method.
+◦ Quantify the extracted DNA using a fluorometric method
+(e.g., Qubit fluorometer).
+◦ Assess DNA purity using spectrophotometry (e.g.,
+NanoDrop).
+2. DNA Quality Control (QC):
+◦ Run 5 μl of DNA on an agarose gel to check for degradation.
+◦ Ensure the DNA concentration is within the acceptable
+range (e.g., 20-200 ng/μl).
+◦ Store DNA at -20°C until further use.
+B) Library Preparation
+1. Shearing the DNA:
+◦ Use a sonicator or another fragmentation device to shear
+DNA to the desired fragment length (e.g., 150-200 bp).
+2. End Repair, A-tailing, and Adapter Ligation:
+◦ Perform end repair and A-tailing using an end repair/A-
+tailing enzyme mix.
+◦ Ligate sequencing adapters to the A-tailed DNA fragments
+using a ligation enzyme mix.
+3. PCR Amplification:
+◦ Amplify the adapter-ligated DNA fragments using a PCR
+protocol with specific primers.
+◦ Purify the PCR products using magnetic beads.
+4. Library QC:
+◦ Quantify the prepared library using a fluorometric method.
+◦ Check library size distribution using a bioanalyzer or similar
+device.
+◦ Ensure an optimal concentration and appropriate fragment
+size before sequencing.
+C) Sequencing
+1. Loading Libraries onto Sequencer:
+◦ Dilute the libraries to the required concentration.
+◦ Load the prepared libraries onto the sequencing platform
+(e.g., Illumina sequencer).
+2. Running the Sequencer:
+◦ Follow the manufacturer's instructions for setting up and
+running the sequencer.
+◦ Monitor the sequencing run to ensure there are no errors or
+deviations from expected performance.
+D) Data Analysis
+1. Primary Data Analysis:
+◦ Use sequencer-provided software for primary data analysis
+to generate raw sequence files (FASTQ).
+2. Alignment and Variant Calling:
+◦ Align the raw sequence data against the human reference
+genome using bioinformatics tools (e.g., BWA, Isaac).
+◦ Perform variant calling using appropriate variant calling
+software (e.g., GATK, VarDict).
+3. Annotation and Interpretation:
+◦ Annotate the identified variants using a comprehensive
+annotation tool (e.g., ANNOVAR, VEP).
+◦ Interpret the clinical significance of variants based on
+databases and clinical guidelines (e.g., ClinVar, COSMIC).
+E) Quality Control and Reporting
+1. QC Metrics Review:
+◦ Review sequencing quality metrics (e.g., coverage, read
+quality) to ensure data integrity.
+◦ Ensure all target regions meet the minimum coverage
+threshold.
+2. Data Interpretation Meeting:
+◦ Present the data in a multidisciplinary meeting involving
+pathologists, geneticists, and oncologists.
+◦ Finalize the interpretation of significant and actionable
+variants.
+3. Report Generation:
+◦ Compile the interpreted results into a standardized report
+format.
+◦ Include information on detected variants, their clinical
+significance, and any recommended follow-up tests or
+treatments.
+4. Result Verification:
+◦ Verify the final report through a dual-review process by
+qualified personnel.
+◦ Release the results to the ordering physician via the
+Laboratory Information System (LIS).
+F) Documentation and Records
+1. Maintain Detailed Records:
+◦ Document all steps of the analytical process in the
+laboratory information management system (LIMS).
+◦ Retain records of all QC data, sequencing run metrics, and
+bioinformatics analyses for future reference.
+2. Archiving:
+◦ Store sequencing data and associated analysis files in a
+secure, backed-up digital archive.
+◦ Archive physical DNA samples and libraries at -80°C as per
+laboratory policies.
+References:
+• Manufacturer’s instructions for sequencer and library prep kits.
+• Bioinformatics tool manuals and best practice guidelines.
+• Institutional clinical guidelines for interpreting genetic variants.
+Review and Revision:
+• This SOP will be reviewed annually or whenever significant
+changes in procedures or technology occur.
+• Revision history and approval by the laboratory director will be
+documented.
+Approval:
+[Lab Director’s Name and Signature]
+Date: [MM/DD/YYYY]
+By using this detailed SOP, the laboratory ensures the generation of
+reliable, accurate results for the MAYOCOMPLETE Ovarian,
+Fallopian Tube, and Peritoneal Cancer Panel, facilitating improved
+patient care and diagnostic accuracy.

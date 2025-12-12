@@ -1,0 +1,112 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+CASR Full Gene Sequencing with Deletion/Duplication Testing
+1. PURPOSE
+◦ To provide standardized procedures for the analytical phase
+of CASR (calcium-sensing receptor) full gene sequencing
+with deletion/duplication testing in a CLIA-certified
+laboratory. This ensures accurate, reproducible, and timely
+results.
+2. SCOPE
+◦ This SOP applies to all laboratory personnel performing
+CASR gene sequencing and deletion/duplication analysis.
+3. RESPONSIBILITY
+◦ Personnel: All trained laboratory technicians and clinical
+laboratory scientists performing these assays.
+◦ Supervisors: Ensure compliance with SOP, validate new
+procedures, and provide training.
+◦ Quality Assurance (QA) Managers: Review data quality and
+adherence to SOPs.
+4. DEFINITIONS
+◦ CASR: Calcium-Sensing Receptor gene.
+◦ PCR: Polymerase Chain Reaction.
+◦ MLPA: Multiplex Ligation-dependent Probe Amplification.
+◦ NGS: Next-Generation Sequencing.
+5. EQUIPMENT, REAGENTS, AND MATERIALS
+◦ Thermocycler
+◦ NGS platform (e.g., Illumina, Ion Torrent)
+◦ MLPA kit specific for CASR gene
+◦ Sequencing primers for CASR gene
+◦ PCR reagents
+◦ DNA extraction kit
+◦ Positive and negative controls
+◦ Analytical software for sequence alignment and variant
+calling
+6. PROCEDURE
+A. DNA Extraction:
+◦ Extract genomic DNA from received specimens following the
+laboratory's DNA extraction SOP.
+◦ Measure DNA concentration using a spectrophotometer or
+fluorometer.
+◦ Ensure DNA quality by running 1 μL on an agarose gel.
+B. PCR Amplification:
+◦ Amplify the coding regions and flanking intronic regions of
+the CASR gene using specific primers.
+▪ Follow the standardized PCR conditions:
+▪ Initial denaturation: 95°C for 2 minutes
+▪ 35 cycles of:
+▪ Denaturation: 95°C for 30 seconds
+▪ Annealing: 55-60°C (primer-specific) for 30
+seconds
+▪ Extension: 72°C for 1 minute
+▪ Final extension: 72°C for 5 minutes
+◦ Verify PCR product size using agarose gel electrophoresis.
+C. Next-Generation Sequencing (NGS):
+◦ Prepare NGS libraries following manufacturer’s protocol.
+◦ Perform quality control (QC) on libraries via bioanalyzer or
+similar equipment.
+◦ Sequence libraries on an NGS platform with specified read
+lengths and coverage depth (e.g., Illumina MiSeq, 150 bp
+paired-end reads, 30x coverage).
+D. Data Analysis:
+◦ Align NGS reads to the reference genome (GRCh37/hg19
+or GRCh38).
+◦ Use variant calling software to identify single nucleotide
+variants (SNVs), insertions, and deletions.
+◦ Annotate variants using a variant annotation tool (e.g.,
+Annovar, VEP).
+E. Deletion/Duplication Analysis:
+◦ Conduct MLPA assay using the specific MLPA kit for CASR.
+◦ Analyze the MLPA data according to the manufacturer’s
+instructions and compare it to control samples.
+F. Result Interpretation and Reporting:
+◦ Review sequence data and identified variants by a certified
+molecular geneticist.
+◦ Classify variants according to ACMG guidelines.
+◦ Create a comprehensive report including:
+▪ Patient information
+▪ Methodology
+▪ Detected variants and their interpretations
+▪ Recommendations for further testing if necessary
+◦ Report variant findings and interpretations to the ordering
+physician via the Laboratory Information System (LIS).
+7. QUALITY CONTROL
+◦ Include positive and negative control samples for each run
+of PCR, NGS, and MLPA.
+◦ Adhere to internal and external QC programs to monitor
+assay performance.
+◦ Document all QC results and actions taken for any QC
+failures.
+8. REFERENCE INTERVALS
+◦ Refer to established databases (e.g., ClinVar, HGMD) for
+known variant classifications.
+◦ Reference ACMG standards and guidelines for
+interpretation and reporting.
+9. REPORTING RESULTS
+◦ Enter results and review results for accuracy before
+verification.
+◦ Verify and approve reports by a qualified technologist or
+pathologist.
+10. REFERENCES
+◦ ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+◦ Manufacturer’s manuals and instructions for NGS and MLPA
+kits.
+◦ Laboratory-specific protocols for DNA extraction, PCR, and
+analytical software user guides.
+11. REVISIONS
+◦ This SOP will be reviewed annually and revised as needed
+to comply with updated methodologies and guidelines.
+Approval Name and Title:
+______________________________________
+Signature: ___________________________________________
+Date: ______________________________________________

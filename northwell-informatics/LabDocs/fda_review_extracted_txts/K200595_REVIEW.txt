@@ -1,0 +1,1044 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K200595
+B Applicant
+CellaVision AB
+C Proprietary and Established Names
+CellaVision® DC-1, CellaVision® DC-1 PPA
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5260 -
+JOY Class II Automated Cell-Locating HE - Hematology
+Device
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Measurand:
+The measurand for CellaVision DC-1 include white blood cells, red blood cells, and platelet.
+C Type of Test:
+The CellaVision DC-1 facilitates the differential count of white blood cells (WBC),
+characterization of red blood cell (RBC) morphology and platelet estimation, by capturing and
+pre-classifying images of WBCs and RBCs on a stained peripheral blood smear, as well as
+capturing and presenting an overview image of the blood smear for platelet analysis.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+JOY			Class II	21 CFR 864.5260 -
+Automated Cell-Locating
+Device			HE - Hematology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+Intended use of CellaVision DC-1
+CellaVision DC-1 is an automated cell-locating device intended for in-vitro diagnostic use in
+clinical laboratories. CellaVision DC-1 is intended to be used by operators, trained in the use of
+the device.
+Intended use of the Peripheral Blood Application
+The CellaVision Peripheral Blood Application is intended for differential count of white blood
+cells (WBC), characterization of red blood cell (RBC) morphology and platelet estimation. The
+CellaVision DC-1 with the Peripheral Blood Application automatically locates blood cells on
+peripheral blood (PB) smears. The application presents images of the blood cells for review. A
+skilled operator trained in recognition of blood cells, identifies and verifies the suggested
+classification of each cell according to type.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+D Special Instrument Requirements:
+None
+IV Device/System Characteristics:
+A Device Description:
+The CellaVision DC-1 is a cell-locating device. The CellaVision DC-1 consists of a built-in PC
+with a Solid-State Disk (SSD) containing CellaVision DM Software (CDMS), a high-power
+magnification focusing nosepiece micrscope with a LED illumination, an XY stage, a proprietary
+camera with firmware, built-in motor- and illumination LED controller, a casing and an external
+power supply.
+The CDMS is the software that controls the collection of cell images, stores the images of the
+located cells and the results, and displays the images in an organized manner to the operator.
+The Peripheral Blood Application (PBA) is a software module included as part of the CDMS.
+The PBA performs pre-classification of WBCs, pre-characterization of RBCs, and facilitates
+platelet estimation by presenting an overview image captured of a monolayer area.
+K200595 - Page 2 of 17
+
+--- Page 3 ---
+B Principle of Operation:
+The typical workflow with respect to the CellaVision DC-1 is as follows.
+• From a peripheral blood sample collected in K EDTA or K EDTA tube, typically flagged by
+2 3
+a cell-counter indicating an abnormal morphology, a thin blood film is wedged on a glass
+slide (a blood smear). The blood smear is then stained with Romanowsky stain. The system
+uses stained microscope slides made either manually or by using an automatic slide maker-
+stainer.
+• The operator enters the order ID for the slide, either manually or using an optional barcode
+reader. If a Laboratory Information System (LIS) is used, the device automatically fetches
+order data for the sample from the LIS.
+• The operator places the slide in the loading tray of the device and closes the input hatch. The
+device automatically moves the slide under the microscope. Starting at 33 mm from the edge
+of the slide, the device looks for a monolayer in the smear. Once a monolayer is found, the
+device scans the monolayer in a battlement pattern. While doing this, the device locates any
+WBCs and stores high quality images of each located WBC. The device also locates and
+stores an overview image of a part of the RBC monolayer.
+• The device software, PBA, pre-classifies each located WBC. It also pre-characterizes the
+RBC morphology based on the overview image. By using the overview image, the operator
+can calculate or estimate the level of PLTs.
+• During the review/verification stage, a skilled operator, trained in the use of the software and
+in recognition of blood cells, then opens the order to review and verify (or modify) the
+preliminary results. The review can be done either at the device or using the CellaVision
+Remote Review Software (CRRS).
+Instrument Description Information:
+1. Instrument Name: CellaVision DC-1
+2. Specimen Identification: All slides must be labeled clearly with patient or order information.
+To use the optional handheld barcode reader, slides must be labeled with a barcode label.
+3. Specimen Sampling and Handling: Slides are processed one at a time. To load slide,
+manually open the input hatch, place the slide, with the blood smear facing up, in the loading
+tray, and close the hatch.
+4. Calibration: CellaVision recommends that calibration is performed once a year by a service
+engineer.
+5. Quality Control:
+K200595 - Page 3 of 17
+
+--- Page 4 ---
+Self-Test - The CellaVision DC-1 analyzer performs self-tests during startup of the software,
+and at certain points during the operation of the analyzer. When the software starts, the
+analyzer is checked before the user can start analyzing. During this phase, both the hardware
+and the software components are tested for anomalies, as well as various requirements for the
+operation of the analyzer.
+Cell Location Test - A cell location test shall be run at least once a day and after any changes
+in the staining procedure or the staining solutions for quality control. Cell location slides are
+prepared and processed by the customer from a freshly stained slide from a blood sample
+with a WBC count within the normal range. The cell location test verifies that the quality of
+the slide preparation process is good enough to allow the analyzer to locate the cells needed
+for the analysis. It also verifies the analyzer’s ability to locate cells.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Cellavision DM1200 Automated Hematology Analyzer, Model Xu-10127
+B Predicate 510(k) Number(s):
+K092868
+C Comparison with Predicate(s):
+Device & Predicate
+K200595 K092868
+Device(s):
+Device Trade Name CellaVision DC-1 CellaVision DM1200
+General Device
+Characteristic
+Similarities
+CellaVision DC-1 is an automated CellaVision DM1200 is an
+cell-locating device intended for in- automated cell-locating
+vitro diagnostic use in clinical device.
+laboratories. CellaVision DM1200
+CellaVision DC-1 is intended to be automatically locates and
+used by operators, trained in the use presents images of blood
+of the device. cells on peripheral blood
+Intended
+smears.
+Use/Indications For Peripheral Blood Application: The operator identifies and
+Use verifies the suggested
+The CellaVision Peripheral Blood
+classification of each cell
+Application is intended for
+according to type.
+differential count of white blood
+cells (WBC), characterization of red CellaVision DM1200 is
+blood cell (RBC) morphology and intended to be used by
+platelet estimation. skilled operators, trained in
+the use of the device and in
+The CellaVision DC-1 with the
+recognition of blood cells.
+Peripheral Blood Application
+K200595 - Page 4 of 17
+
+[Table 1 on page 4]
+	Device & Predicate		K200595	K092868
+	Device(s):			
+Device Trade Name			CellaVision DC-1	CellaVision DM1200
+	General Device			
+	Characteristic			
+	Similarities			
+Intended
+Use/Indications For
+Use			CellaVision DC-1 is an automated
+cell-locating device intended for in-
+vitro diagnostic use in clinical
+laboratories.
+CellaVision DC-1 is intended to be
+used by operators, trained in the use
+of the device.
+Peripheral Blood Application:
+The CellaVision Peripheral Blood
+Application is intended for
+differential count of white blood
+cells (WBC), characterization of red
+blood cell (RBC) morphology and
+platelet estimation.
+The CellaVision DC-1 with the
+Peripheral Blood Application	CellaVision DM1200 is an
+automated cell-locating
+device.
+CellaVision DM1200
+automatically locates and
+presents images of blood
+cells on peripheral blood
+smears.
+The operator identifies and
+verifies the suggested
+classification of each cell
+according to type.
+CellaVision DM1200 is
+intended to be used by
+skilled operators, trained in
+the use of the device and in
+recognition of blood cells.
+
+--- Page 5 ---
+Device & Predicate
+K200595 K092868
+Device(s):
+Device Trade Name CellaVision DC-1 CellaVision DM1200
+automatically locates blood cells on
+peripheral blood (PB) smears. The
+application presents images of the
+blood cells for review. A skilled
+operator trained in recognition of
+blood cells, identifies and verifies
+the suggested classification of each
+cell according to type.
+The intended use population is
+Intended use patients whose blood samples have
+Same
+population been flagged as abnormal by an
+automated cell counter.
+Automated cell-locating device for
+cell-location and identification of
+RBC, WBC or platelets for in-vitro
+Analytes Same
+use.
+Verification of results by human
+operator.
+Light source LED (Light Emitting Diode) Same
+CellaVision DM Software including CellaVision DM Software
+Classification software Peripheral blood application including Peripheral blood
+(version 7.0) application (version 6.0)
+Stained blood film on glass slides of
+Sample type Same
+peripheral whole blood.
+Sample preparation Romanowsky stain Same
+• White blood cells:
+Cells are located/counted by
+moving according to the
+battlement track pattern. Cell
+images are analyzed using
+artificial intelligence trained to
+distinguish between classes of
+white blood cells.
+Analysis technique Same
+The cell images are preclassified
+and the operator verifies the
+suggested classification by
+accepting or reclassifying the
+white blood cells.
+• Red blood cells:
+The device presents an overview
+image.
+K200595 - Page 5 of 17
+
+[Table 1 on page 5]
+	Device & Predicate		K200595	K092868
+	Device(s):			
+Device Trade Name			CellaVision DC-1	CellaVision DM1200
+			automatically locates blood cells on
+peripheral blood (PB) smears. The
+application presents images of the
+blood cells for review. A skilled
+operator trained in recognition of
+blood cells, identifies and verifies
+the suggested classification of each
+cell according to type.	
+Intended use
+population			The intended use population is
+patients whose blood samples have
+been flagged as abnormal by an
+automated cell counter.	Same
+Analytes			Automated cell-locating device for
+cell-location and identification of
+RBC, WBC or platelets for in-vitro
+use.
+Verification of results by human
+operator.	Same
+Light source			LED (Light Emitting Diode)	Same
+Classification software			CellaVision DM Software including
+Peripheral blood application
+(version 7.0)	CellaVision DM Software
+including Peripheral blood
+application (version 6.0)
+Sample type			Stained blood film on glass slides of
+peripheral whole blood.	Same
+Sample preparation			Romanowsky stain	Same
+Analysis technique			• White blood cells:
+Cells are located/counted by
+moving according to the
+battlement track pattern. Cell
+images are analyzed using
+artificial intelligence trained to
+distinguish between classes of
+white blood cells.
+The cell images are preclassified
+and the operator verifies the
+suggested classification by
+accepting or reclassifying the
+white blood cells.
+• Red blood cells:
+The device presents an overview
+image.	Same
+
+--- Page 6 ---
+Device & Predicate
+K200595 K092868
+Device(s):
+Device Trade Name CellaVision DC-1 CellaVision DM1200
+The cell images are
+precharacterized and the operator
+verifies or re-characterizes red
+blood cell morphology from the
+image.
+• Platelets:
+The device presents an overview
+image (corresponding to eight high
+power fields).
+The operator manually counts and
+estimates the platelet concentration
+from the overview image
+according to a standardized
+procedure.
+Individual white blood cells are
+Optical means for
+magnified and imaged on a camera
+magnifying images of
+sensor by a microscope. The camera
+white blood cells for Same
+sensor produces images on a screen
+observation and
+for view and interpretation (cell
+interpretation
+class verification).
+Individual located white blood cells
+Viewing of white
+are presented in an organized Same
+blood cell images
+manner and observed on a screen.
+White blood cells are pre-classified
+and presented to the operator. To
+complete the differential, the
+Classification of white operator needs to verify that all
+Same
+blood cells located WBCs are correctly
+classified. All cells must be
+classified and verified before the
+order can be signed.
+An overview image is collected and
+Characterization of the
+presented from which the operator
+red blood cell Same
+can characterize the red blood cells
+morphology
+morphology.
+From an overview image
+Estimating the platelet
+corresponding to eight high power Same
+level
+fields the platelet level is estimated.
+A skilled operator is required to
+Image interpretation differentiate and finally modify
+Same
+requirements and/or confirm the
+preclassification/characterization of
+K200595 - Page 6 of 17
+
+[Table 1 on page 6]
+	Device & Predicate		K200595	K092868
+	Device(s):			
+Device Trade Name			CellaVision DC-1	CellaVision DM1200
+			The cell images are
+precharacterized and the operator
+verifies or re-characterizes red
+blood cell morphology from the
+image.
+• Platelets:
+The device presents an overview
+image (corresponding to eight high
+power fields).
+The operator manually counts and
+estimates the platelet concentration
+from the overview image
+according to a standardized
+procedure.	
+Optical means for
+magnifying images of
+white blood cells for
+observation and
+interpretation			Individual white blood cells are
+magnified and imaged on a camera
+sensor by a microscope. The camera
+sensor produces images on a screen
+for view and interpretation (cell
+class verification).	Same
+Viewing of white
+blood cell images			Individual located white blood cells
+are presented in an organized
+manner and observed on a screen.	Same
+Classification of white
+blood cells			White blood cells are pre-classified
+and presented to the operator. To
+complete the differential, the
+operator needs to verify that all
+located WBCs are correctly
+classified. All cells must be
+classified and verified before the
+order can be signed.	Same
+Characterization of the
+red blood cell
+morphology			An overview image is collected and
+presented from which the operator
+can characterize the red blood cells
+morphology.	Same
+Estimating the platelet
+level			From an overview image
+corresponding to eight high power
+fields the platelet level is estimated.	Same
+Image interpretation
+requirements			A skilled operator is required to
+differentiate and finally modify
+and/or confirm the
+preclassification/characterization of	Same
+
+--- Page 7 ---
+Device & Predicate
+K200595 K092868
+Device(s):
+Device Trade Name CellaVision DC-1 CellaVision DM1200
+the located blood cells.
+The system can interact with a
+Information transfer laboratory information system
+from instrument to (LIS). The system will retrieve order Same
+Printer or network data from the LIS and send results
+back to the LIS.
+The differential proportional count
+is normally based on 100 white
+blood cells. The number of WBCs
+can be modified if required. The
+Result format result can be presented as an Same
+absolute number or as % of total
+number of WBCs. The result of
+RBC characterization is presented as
+a grading for each morphology.
+The system locates white blood
+cells, stores digital images of the
+cells and suggests a cell class for
+each white blood cell to aid
+operators in performing the white
+Technological blood cell differential procedure.
+Same
+characteristics The system captures an overview
+image of the RBC monolayer for
+RBC characterization.
+The operator estimates the platelet
+concentration using the overview
+image.
+The operator is trained in the
+Operators competence recognition of blood cells and in the Same
+use of the device.
+The device includes white blood cell
+Decision support reference cells. The operator can Same
+add his/her own reference cells.
+Recommended calibration once a
+Calibration Same
+year by a service engineer.
+General Device
+Characteristic
+Differences
+• Computer module (integrated) • System computer (stand-
+Major parts of the • Motorized microscope alone)
+system • Digital color camera • Motorized microscope
+• Digital color camera
+K200595 - Page 7 of 17
+
+[Table 1 on page 7]
+	Device & Predicate		K200595	K092868
+	Device(s):			
+Device Trade Name			CellaVision DC-1	CellaVision DM1200
+			the located blood cells.	
+Information transfer
+from instrument to
+Printer or network			The system can interact with a
+laboratory information system
+(LIS). The system will retrieve order
+data from the LIS and send results
+back to the LIS.	Same
+Result format			The differential proportional count
+is normally based on 100 white
+blood cells. The number of WBCs
+can be modified if required. The
+result can be presented as an
+absolute number or as % of total
+number of WBCs. The result of
+RBC characterization is presented as
+a grading for each morphology.	Same
+Technological
+characteristics			The system locates white blood
+cells, stores digital images of the
+cells and suggests a cell class for
+each white blood cell to aid
+operators in performing the white
+blood cell differential procedure.
+The system captures an overview
+image of the RBC monolayer for
+RBC characterization.
+The operator estimates the platelet
+concentration using the overview
+image.	Same
+Operators competence			The operator is trained in the
+recognition of blood cells and in the
+use of the device.	Same
+Decision support			The device includes white blood cell
+reference cells. The operator can
+add his/her own reference cells.	Same
+Calibration			Recommended calibration once a
+year by a service engineer.	Same
+	General Device			
+	Characteristic			
+	Differences			
+Major parts of the
+system			• Computer module (integrated)
+• Motorized microscope
+• Digital color camera	• System computer (stand-
+alone)
+• Motorized microscope
+• Digital color camera
+
+--- Page 8 ---
+Device & Predicate
+K200595 K092868
+Device(s):
+Device Trade Name CellaVision DC-1 CellaVision DM1200
+• XY stage • Robot gripper unit
+• Control unit (integrated in camera) • Control unit
+• Casing • Casing
+• Database • Database
+• Immersion oil unit
+• Barcode reader
+Neural network of convolutional Artificial neural network of
+Neural network
+type. multiple perception type.
+Loading capacity 1 slide 12 slides
+Immersion oil
+Manual application Automatic application
+application
+VI Standards/Guidance Documents Referenced:
+Guidance Documents
+• Content of Premarket Submissions for Management of Cybersecurity in Medical Devices,
+October 2014
+• Guidance for Industry – Cybersecurity for Networked Medical Devices Containing Off-the-
+Shelf (OTS) Software, January 2005
+• Guidance for Industry, FDA Reviewer and Compliance on Off-The-Shelf Use in Medical
+Devices, September 1999
+• General Principles of Software Validation; Final Guidance for industry and FDA Staff,
+January 2002
+• Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices, May 2005
+• Guidance on Informed Consent for In Vitro Diagnostic Device Studies Using Leftover
+Human Specimens that are Not Individually Identifiable - Guidance for Sponsors,
+Institutional Review Boards, and Food and Drug Administration Staff, April 2006
+• Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests -
+Guidance for Industry and FDA Staff, March 2007
+FDA-recognized consensus standards
+• ASTM D4169-16 - Standard Practice for Performance Testing of Shipping Containers and
+Systems (Recognition Number: 14-499)
+• AUTO11-A2 - Information Technology Security of In Vitro Diagnostic Instruments and
+Software Systems; Approved Standard - Second Edition (Recognition Number: 13-85)
+• CLSI EP05-A3 - Evaluation of Precision of Quantitative Measurement Procedures;
+Approved Guideline - Third Edition, (Recognition Number: 7-251)
+• CLSI EP12-A2 - User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline - Second Edition (Recognition Number: 7-152)
+K200595 - Page 8 of 17
+
+[Table 1 on page 8]
+	Device & Predicate		K200595	K092868
+	Device(s):			
+Device Trade Name			CellaVision DC-1	CellaVision DM1200
+			• XY stage
+• Control unit (integrated in camera)
+• Casing
+• Database	• Robot gripper unit
+• Control unit
+• Casing
+• Database
+• Immersion oil unit
+• Barcode reader
+Neural network			Neural network of convolutional
+type.	Artificial neural network of
+multiple perception type.
+Loading capacity			1 slide	12 slides
+Immersion oil
+application			Manual application	Automatic application
+
+--- Page 9 ---
+• CLSI H20-A2 - Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard - Second Edition, (Recognition
+Number: 7-165)
+• IEC 62366-1:2015 - Medical devices - Part 1: Application of usability engineering to medical
+devices [Including Corrigendum 1 (2016)], (Recognition Number: 5-114)
+• ISO 14155:2011 - Clinical investigations of medical devices for human subject- Good
+clinical practice, (Recognition Number: 2-205)
+• ISO 14971:2007 - Medical devices - Application of risk management to medical devices,
+(Recognition Number: 5-40)
+• ISO 15223-1:2016 - Medical devices - Symbols to be used with medical device labels,
+labelling, and information to be supplied - Part 1: General requirements, (Recognition
+Number: 5-117)
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Three repeatability studies were performed for white blood cell (WBC), red blood cell
+(RBC), and platelet (PLT), respectively to demonstrate the repeatable performance of
+CellaVision DC-1 across multiple days. Three reproducibility studies were also conducted
+for WBC, RBC, and PLT to demonstrate that the results generated by the CellaVision DC-1
+are reproducible across sites. Each study was conducted at one U.S. site and two sites outside
+the U.S. The study designs and representative results are summarized below.
+i. WBC Pre-classification Repeatability
+The repeatability of WBC pre-classification results generated by CellaVision DC-1 was
+evaluated across multiple days. At each site, the study included five samples, one was
+normal sample and four displayed various clinical pathological characteristics (i.e.
+abnormal samples). The study samples were selected from leftover samples from the
+laboratory’s daily workflow. All samples were initially analyzed on an automated cell
+counter available at the site. Each sample was made into two slides to represent two
+replicates (i.e. both slides were analyzed once in each run to represent two replicate
+measurements). Each sample was run twice per day for 20 days, resulting in 20 x 2 x 2
+measurements. The proportional cell count in percent for each cell class was used to
+estimate total variance and variance components for repeatability, including within-run,
+between-run, between-day, and within-laboratory, by an ANOVA. The WBC results were
+evaluated separately for each sample and site.
+ii. RBC Pre-characterization Repeatability
+The repeatability of RBC pre-characterization results generated by CellaVision DC-1 was
+evaluated across multiple days. At each site, the study included five samples, one was
+normal sample and four displayed abnormal levels of Polychromatic cells,
+K200595 - Page 9 of 17
+
+--- Page 10 ---
+Hypochromatic cells, Anisocytosis, Microcytes, Macrocytes, Poikilocytosis (i.e.
+abnormal samples). The study samples were selected from leftover samples from the
+laboratory’s daily workflow. All five samples were initially analyzed on an automated
+cell counter available at the site. Each sample was made into two slides to represent two
+replicates (i.e. both slides were analyzed once in each run to represent two replicate
+measurements). Each sample was run twice per day for 20 days, resulting in 20 x 2 x 2
+measurements. The repeatability in terms of grade (0, 1, 2 or 3) for each morphological
+characteristic was evaluated. The most prevalent grade reported was evaluated, and the
+agreement (percentage of runs reporting the grade) was calculated for each morphology.
+The agreement was evaluated for each slide and run, as well as for each sample. The
+RBC results were evaluated separately for each site.
+iii. PLT Estimation Repeatability
+The repeatability of PLT estimation using the overview image captured by the
+CellaVision DC-1 was evaluated across multiple days. The procedure for estimating PLT
+concentration with the overview image provided by CellaVision DC-1 includes: 1) First,
+the overview image is divided into multiple grids and the operator counts the number of
+platelet in each grid and enters the counted values for all corresponding grids to estimate
+the concentration of PLT in the sample; 2) Based on the estimated concentration of PLT,
+the device reports a grade (1 = significant decreased, 2 = decreased, 3 = normal, and 4 =
+increased) corresponding to the predefined ranges. At each site, the study included four
+samples, one was normal sample (~250 x 109/L) and three abnormal samples, including
+one significantly decreased (~30 x 109/L), one decreased (~100x109/L), and one
+increased (~600 x 109/L) samples. The study samples were selected from leftover
+samples from the laboratory’s daily workflow. All four samples were initially analyzed
+on an automated cell counter available at the site. Each sample was made into two slides
+to represent two replicates (i.e. both slides were analyzed once in each run to represent
+two replicate measurements). Each sample was run twice per day for 20 days, resulting in
+20 x 2 x 2 measurements. The agreement (i.e. percentage of runs reporting the actual PLT
+level) was evaluated for each PLT level. The PLT results were evaluated separately for
+each site.
+iv. WBC Reproducibility
+A three-site reproducibility study was conducted to demonstrate that the WBC results
+obtained from using the CellaVision DC-1 were reproducible across multiple sites
+(devices). The study included five samples, one was normal sample and four displayed
+various clinical pathological characteristics (i.e. abnormal samples). The study samples
+were selected from leftover samples from the laboratories’ daily workflow. All five
+samples were initially analyzed on an automated cell counter. Each sample was made into
+five slides to represent five replicates (i.e. five slides were analyzed once in each run to
+represent five replicate measurements) that were run once per day for five days per site,
+resulting in 3 x 5 x 5 measurements in total. In the primary analysis, the operator-verified
+results, including the proportional cell count in percent for each cell class, were used to
+estimate total variation and variance. In addition to analyzing the operator-verified
+K200595 - Page 10 of 17
+
+--- Page 11 ---
+results, a secondary analysis was performed on the preclassification outputs generated by
+the CellaVision DC-1 (i.e. without operator verification).
+v. RBC Reproducibility
+A three-site reproducibility study was conducted to demonstrate that the RBC results
+obtained from using the CellaVision DC-1 were reproducible. The study included four
+samples, one was normal sample and three displayed abnormal levels of Polychromatic
+cells, Hypochromatic cells, Anisocytosis, Microcytes, Macrocytes, Poikilocytosis (i.e.
+abnormal samples). The study samples were selected from leftover samples from the
+laboratory’s daily workflow. All four samples were initially analyzed on an automated
+cell counter available at the site. Each sample was made into five slides to represent five
+replicates (i.e. five slides were analyzed once in each run to represent five replicate
+measurements). The slides were run once per day for five days per site, resulting in 3 x 5
+x 5 measurements in total. Reproducibility in terms of grade (0, 1, 2 or 3) for each
+morphological characteristic was evaluated. The most prevalent grade reported was
+evaluated, and the agreement (percentage of runs reporting the grade) was calculated.
+vi. PLT Reproducibility
+A three-site reproducibility study was conducted to demonstrate that the PLT results
+obtained from using the overview image provided by CellaVision DC-1 were
+reproducible. The study included four samples, one was normal sample (~250x109/L) and
+three abnormal samples, including one significantly decreased (~30x109/L), one
+decreased (~100x109/L), and one increased (~600x109/L) samples. The study samples
+were leftover samples selected from different laboratories’ daily workflow. All four
+samples were initially analyzed on an automated cell counter. Each sample was made into
+five slides to represent five replicates (i.e. five slides were analyzed once in each run to
+represent five replicate measurements) that were run once per day for five days per site,
+resulting in 3 x 5 x 5 measurements in total. For each PLT level (significantly decreased,
+decreased, normal or increased) the agreement (i.e. percentage of runs reporting the
+actual PLT level) was evaluated. The agreement was evaluated for each sample and site
+and representative results by sample are presented below.
+Agreement (%) per sample
+Total
+Agreement
+Sample Level 1 Level 2 Level 3 Level 4 number of
+%
+runs (n)
+1 0 0 1 74 75 98.6
+2 0 75 0 0 75 100
+3 75 0 0 0 75 100
+4 0 2 73 0 75 97.3
+2. Linearity:
+Not applicable.
+K200595 - Page 11 of 17
+
+[Table 1 on page 11]
+Sample	Level 1	Level 2	Level 3	Level 4	Total
+number of
+runs (n)	Agreement
+%
+1	0	0	1	74	75	98.6
+2	0	75	0	0	75	100
+3	75	0	0	0	75	100
+4	0	2	73	0	75	97.3
+
+--- Page 12 ---
+3. Analytical Specificity/Interference:
+Not applicable.
+4. Assay Reportable Range:
+Not applicable.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Not applicable.
+6. Detection Limit:
+Not applicable.
+7. Assay Cut-Off:
+Not applicable.
+8. Accuracy (Instrument):
+Not applicable.
+9. Carry-Over:
+Not applicable.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Three multi-site method comparison studies were conducted for WBC, RBC, and PLT,
+respectively to demonstrate that the CellaVision DC-1 (DC-1) performs equivalently to the
+predicate device, CellaVision DM1200 (DM1200). Each study involved three sites, one of
+which was a U.S. site. A total of seven sites participated in the three studies.
+i. WBC Comparison
+A total of 598 samples were analyzed on both the DM1200 and on the DC-1. The
+samples were leftover samples from the laboratory´s daily workload. Each site collected
+approximately 200 samples, 100 of which were normal (non-diseased) and 100 were
+samples with various clinical pathological characteristics (abnormal samples). Normal
+and abnormal samples were defined in accordance with CLSI H20-A2. The samples
+covered a wide range of ages and both genders. Three slides (A, B, and Spare) were
+prepared from each sample and stained using Romanowsky stain as per standard clinical
+practice. The operator-verified WBC results from the DC-1 were compared to the
+K200595 - Page 12 of 17
+
+--- Page 13 ---
+corresponding results from the DM1200. The results of one slide (slide A) from the DC-1
+were compared to the mean results (slide A and slide B) from the DM1200, also known
+as the single slide evaluation.
+WBC Evaluation
+In this evaluation, the results from one slide per sample (slide A) from the DC-1 were
+compared to the mean results (slides A and B) from the DM1200. This evaluation was
+referred to as the duplicate slide evaluation.
+DC-1 slide A versus DM1200 mean: Total Distribution Agreement
+DM1200 Positive DM1200 Negative Total
+DC-1 Positive 259 32 291
+DC-1 Negative 47 260 307
+Total 306 292 598
+95% CI
+Result
+LL UL
+OA 86.8% 83.8% 89.3%
+PPA 84.6% 80.2% 88.2%
+NPA 89.0% 84.9% 92.1%
+DC-1 slide A versus DM1200 mean: Total Morphology Agreement
+DM1200 Positive DM1200 Negative Total
+DC-1 Positive 162 48 210
+DC-1 Negative 22 366 388
+Total 184 414 598
+95% CI
+Result
+LL UL
+OA 88.3% 85.5% 90.6%
+PPA 88.0% 82.6% 92.0%
+NPA 88.4% 85.0% 91.1%
+Regression analysis was performed for WBC classes that have normal range of 5% or
+more, comparing slide A results from DC-1 to mean results from DM1200. Segmented
+Neutrophils, Lymphocytes, Eosinophils, and Monocytes were included in this analysis.
+The fit results are summarized below.
+Cell Type Regression Fit R2
+Segmented Neutrophils Y = 0.9926X + 0.0027 0.969
+Lymphocytes Y = 0.9799X + 0.0017 0.946
+Eosinophils Y = 0.9884X + 0.0014 0.928
+Monocytes Y = 0.9838X + 0.0025 0.897
+ii. RBC Comparison
+K200595 - Page 13 of 17
+
+[Table 1 on page 13]
+	DM1200 Positive	DM1200 Negative	Total
+DC-1 Positive	259	32	291
+DC-1 Negative	47	260	307
+Total	306	292	598
+
+[Table 2 on page 13]
+	Result	95% CI	
+		LL	UL
+OA	86.8%	83.8%	89.3%
+PPA	84.6%	80.2%	88.2%
+NPA	89.0%	84.9%	92.1%
+
+[Table 3 on page 13]
+	DM1200 Positive	DM1200 Negative	Total
+DC-1 Positive	162	48	210
+DC-1 Negative	22	366	388
+Total	184	414	598
+
+[Table 4 on page 13]
+	Result	95% CI	
+		LL	UL
+OA	88.3%	85.5%	90.6%
+PPA	88.0%	82.6%	92.0%
+NPA	88.4%	85.0%	91.1%
+
+[Table 5 on page 13]
+Cell Type	Regression Fit	R2
+Segmented Neutrophils	Y = 0.9926X + 0.0027	0.969
+Lymphocytes	Y = 0.9799X + 0.0017	0.946
+Eosinophils	Y = 0.9884X + 0.0014	0.928
+Monocytes	Y = 0.9838X + 0.0025	0.897
+
+--- Page 14 ---
+A total of 586 slides (one slide per sample) were analyzed on both the DC-1 and the
+DM1200 across three sites. The samples were leftover samples from the laboratory´s
+daily workload. Each site collected approximately 200 samples, with 50 samples for each
+group: normal, color (Polychromasia, Hypochromasia), size (Anisocytosis, Microcytosis,
+Macrocytosis) and shape (Poikilocytosis). The samples covered a wide range of ages and
+both genders. The slides were divided into four sets, one for each operator (e.g. 50 slides
+in each). Each of the operators verified their own allocated slides on both the DM1200
+and the DC-1.
+The RBCs were characterized for each morphology according to a predefined 4-graded
+scale (normal (0), slight (1), moderate (2) or marked (3)). The operator-verified RBC
+results from the DC-1 were compared to the corresponding results from the DM1200.
+PPA, NPA and OA with two-sided 95% confidence intervals, comparing the DC-1 results
+with the DM1200 results, were calculated. The results were assumed to be normally
+distributed and calculations of 95% confidence intervals were performed as described in
+CLSI EP12-A2. The overall agreement results for each group are presented below.
+Morphology reference limits
+Group RBC characteristics Abnormal grade
+Polychromatic cells ≥1
+Color
+Hypochromatic cells ≥2
+Anisocytosis ≥1
+Size Microcytes ≥1
+Macrocytes ≥2
+Shape Poikilocytosis ≥1
+Color: DC-1 versus DM1200
+DM1200 Positive DM1200 Negative Total
+DC-1 Positive 159 96 255
+DC-1 Negative 22 309 331
+Total 181 405 586
+95% CI
+Result
+LL UL
+OA 79.9% 76.4% 82.9%
+PPA 87.8% 82.3% 91.8%
+NPA 76.3% 71.9% 80.2%
+Size: DC-1 versus DM1200
+DM1200 Positive DM1200 Negative Total
+DC-1 Positive 354 29 383
+DC-1 Negative 40 162 202
+Total 394 191 585*
+*One sample was excluded due to missing grading information for Microcytes.
+K200595 - Page 14 of 17
+
+[Table 1 on page 14]
+Group	RBC characteristics	Abnormal grade
+Color	Polychromatic cells	≥1
+	Hypochromatic cells	≥2
+Size	Anisocytosis	≥1
+	Microcytes	≥1
+	Macrocytes	≥2
+Shape	Poikilocytosis	≥1
+
+[Table 2 on page 14]
+	DM1200 Positive	DM1200 Negative	Total
+DC-1 Positive	159	96	255
+DC-1 Negative	22	309	331
+Total	181	405	586
+
+[Table 3 on page 14]
+	Result	95% CI	
+		LL	UL
+OA	79.9%	76.4%	82.9%
+PPA	87.8%	82.3%	91.8%
+NPA	76.3%	71.9%	80.2%
+
+[Table 4 on page 14]
+	DM1200 Positive	DM1200 Negative	Total
+DC-1 Positive	354	29	383
+DC-1 Negative	40	162	202
+Total	394	191	585*
+
+--- Page 15 ---
+95% CI
+Result
+LL UL
+OA 88.2% 85.3% 90.6%
+PPA 89.8% 86.3% 92.2%
+NPA 84.8% 79.0% 89.2%
+Shape: DC-1 versus DM1200
+DM1200 Positive DM1200 Negative Total
+DC-1 Positive 199 58 257
+DC-1 Negative 29 300 329
+Total 228 358 586
+95% CI
+Result
+LL UL
+OA 85.2% 82.0% 87.8%
+PPA 87.3% 82.3% 91.0%
+NPA 83.8% 79.6% 87.3%
+RBC Supplemental Study: DC-1 versus manual light microscope
+To supplement the results for the Color group, the sponsor conducted a study in which
+results for the group Color from the DC-1 were compared to the results from manual light
+microscope. An experienced operator analyzed 70 slides made up of normal and
+abnormal (polychromatic and hypochromatic) samples on both the DC-1 and the manual
+light microscope with a wash-out period between the two devices. The results are
+summarized below.
+Color: DC-1 versus Manual Light Microscope
+MLM Positive MLM Negative Total
+DC-1 Positive 19 10 29
+DC-1 Negative 0 41 41
+Total 19 51 70
+95% CI
+Result
+LL UL
+OA 85.7% 75.7% 92.0%
+PPA 100% 83.2% 100%
+NPA 80.4% 67.5% 89.0%
+iii. PLT Comparison
+A total of 598 slides were analyzed on both the DC-1 and the DM1200 across three sites.
+The samples were leftover samples from the laboratory´s daily workload. Each site
+K200595 - Page 15 of 17
+
+[Table 1 on page 15]
+	Result	95% CI	
+		LL	UL
+OA	88.2%	85.3%	90.6%
+PPA	89.8%	86.3%	92.2%
+NPA	84.8%	79.0%	89.2%
+
+[Table 2 on page 15]
+	DM1200 Positive	DM1200 Negative	Total
+DC-1 Positive	199	58	257
+DC-1 Negative	29	300	329
+Total	228	358	586
+
+[Table 3 on page 15]
+	Result	95% CI	
+		LL	UL
+OA	85.2%	82.0%	87.8%
+PPA	87.3%	82.3%	91.0%
+NPA	83.8%	79.6%	87.3%
+
+[Table 4 on page 15]
+	MLM Positive	MLM Negative	Total
+DC-1 Positive	19	10	29
+DC-1 Negative	0	41	41
+Total	19	51	70
+
+[Table 5 on page 15]
+	Result	95% CI	
+		LL	UL
+OA	85.7%	75.7%	92.0%
+PPA	100%	83.2%	100%
+NPA	80.4%	67.5%	89.0%
+
+--- Page 16 ---
+collected 200 samples (50 from each PLT level based on cell counter results). The
+samples covered a wide range of patient demographics. All samples were collected based
+on the results from the automated cell counters. Each level was assigned a number: 1=
+Significant Decreased, 2= Decreased, 3=Normal, 4=Increased. PPA, NPA and OA for
+each PLT level were calculated by using 2x2 contingency tables. The 95% confidence
+intervals were calculated according to CLSI EP12-A2.
+PLT analysis between the DC-1 device and the DM1200
+Level 2 Level 3 Level 4
+Site Agreement
+(95% CI) (95% CI) (95% CI)
+OA 96.3% 96.2% 95.5%
+(94.5%, 97.6%) (94.3%, 97.4%) (93.5%, 96.9%)
+All combined PPA 95.9% 96.7% 96.7%
+n=598 (91.3%, 98.1%) (94.1%, 98.2%) (94.7%, 97.9%)
+NPA 96.5% 95.5% 88.6%
+(94.3%, 97.8%) (92.5%, 97.4%) (80.3%, 93.7%)
+2. Matrix Comparison:
+Not applicable.
+C Clinical Studies:
+1. Clinical Sensitivity:
+Not applicable.
+2. Clinical Specificity:
+Not applicable.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+D Clinical Cut-Off:
+Not applicable.
+E Expected Values/Reference Range:
+F Other Supportive Instrument Performance Characteristics Data:
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+K200595 - Page 16 of 17
+
+[Table 1 on page 16]
+Site	Agreement	Level 2
+(95% CI)	Level 3
+(95% CI)	Level 4
+(95% CI)
+All combined
+n=598	OA	96.3%
+(94.5%, 97.6%)	96.2%
+(94.3%, 97.4%)	95.5%
+(93.5%, 96.9%)
+	PPA	95.9%
+(91.3%, 98.1%)	96.7%
+(94.1%, 98.2%)	96.7%
+(94.7%, 97.9%)
+	NPA	96.5%
+(94.3%, 97.8%)	95.5%
+(92.5%, 97.4%)	88.6%
+(80.3%, 93.7%)
+
+--- Page 17 ---
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K200595 - Page 17 of 17

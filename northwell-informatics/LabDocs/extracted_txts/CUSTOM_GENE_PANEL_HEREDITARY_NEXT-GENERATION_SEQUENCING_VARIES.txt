@@ -1,0 +1,92 @@
+STANDARD OPERATING PROCEDURE (SOP) CUSTOM GENE
+PANEL, HEREDITARY, NEXT-GENERATION SEQUENCING (NGS)
+1. PURPOSE
+The purpose of this SOP is to outline the analytical phase of
+generating results for Custom Gene Panel, Hereditary, using Next-
+Generation Sequencing (NGS) technology. This includes sample
+preparation, library preparation, sequencing, data analysis, and result
+reporting procedures.
+Responsibility: Designated laboratory personnel are responsible for
+adhering to this protocol, ensuring the proper handling, processing,
+and analysis of samples. Supervisors are responsible for monitoring
+compliance and addressing any issues that arise during the analytical
+phase.
+1. DEFINITIONS
+Custom Gene Panel, Hereditary: NGS-based testing that targets
+specific sets of genes known to be associated with hereditary
+conditions. Next-Generation Sequencing (NGS): High-throughput
+sequencing technology that allows for rapid sequencing of large
+segments of DNA.
+1. PROCEDURE
+3.1 Sample Preparation
+• Ensure specimens are received and accessioned according to
+laboratory protocols. • Confirm that samples meet the quality and
+quantity requirements for NGS testing. • Extract DNA from the
+biological specimens using validated extraction methods. • Quantify
+and assess the quality of the extracted DNA using spectrophotometry
+(e.g., NanoDrop) and fluorometry (e.g., Qubit) and electrophoresis
+(e.g., TapeStation).
+3.2 Library Preparation
+• Prepare DNA libraries using a validated library preparation kit
+specific to the Custom Gene Panel. • Fragment the DNA to the
+appropriate size if required by the library preparation protocol. •
+Perform end-repair, adapter ligation, and amplification steps as per
+the kit instructions. • Purify the libraries using magnetic beads or
+suitable purification methods to remove unwanted fragments and
+reagents. • Quantify the final libraries and assess their quality using
+appropriate methods (e.g., Qubit, TapeStation, or Bioanalyzer).
+3.3 Sequencing
+• Load prepared libraries onto the NGS platform according to the
+manufacturer’s instructions. • Set up sequencing run using the NGS
+instrument software and input the required parameters and sample
+information. • Monitor the sequencing run for successful initiation and
+progress, troubleshooting any issues as per the instrument’s
+guidelines. • Upon completion, ensure proper storage of raw
+sequencing data and maintain chain-of-custody documentation for
+samples and data.
+3.4 Data Analysis
+• Transfer raw sequencing data to the bioinformatics pipeline for data
+processing. • Perform initial quality control checks to assess read
+quality and quantity (e.g., using FastQC). • Map sequenced reads to
+the reference genome using a suitable aligner (e.g., BWA, Bowtie). •
+Identify variants using variant calling software (e.g., GATK,
+FreeBayes). • Annotate identified variants using an appropriate
+annotation tool (e.g., ANNOVAR, VEP). • Perform secondary quality
+control to filter out low-quality and non-significant variants. • Ensure
+data privacy and integrity through secure data storage and encryption
+methods.
+3.5 Interpretation and Reporting
+• Review the annotated variant list and curate clinically relevant
+variants specific to the hereditary condition being investigated. •
+Cross-reference identified variants with established databases and
+literature to determine their clinical significance. • Compile a clinical
+report detailing the findings, including pathogenicity, evidence, and
+any relevant recommendations. • Have a qualified clinical geneticist
+or molecular pathologist review and sign off on the final report. •
+Deliver the final report to the clinician or requester, ensuring
+confidentiality and compliance with regulatory requirements.
+1. QUALITY CONTROL AND ASSURANCE
+• Run positive and negative controls with each batch to ensure the
+accuracy and reliability of results. • Use internal quality control
+samples to monitor each step of the process. • Document all
+deviations from established protocols and implement corrective
+actions. • Participate in external proficiency testing programs for
+continuous assessment of performance. • Periodically review and
+update SOPs, taking into account new advancements in technology
+and best practices.
+1. REFERENCES
+• Manufacturer’s instructions for DNA extraction and library
+preparation kits. • User manuals for NGS instruments and
+bioinformatics software. • Relevant clinical guidelines and variant
+databases (e.g., ClinVar, OMIM). • Laboratory internal policies and
+quality manuals.
+1. DOCUMENTATION
+• Maintain detailed records of sample tracking, DNA quality, library
+preparation, sequencing runs, and data analysis. • Log all quality
+control measures and results. • Document all final reports and ensure
+proper archival of sequencing data for future reference.
+Approved by: _________________________ (Name, Title) Date:
+________________________________
+Reviewed by: _________________________ (Name, Title) Date:
+________________________________
+Next Review Date: _____________________

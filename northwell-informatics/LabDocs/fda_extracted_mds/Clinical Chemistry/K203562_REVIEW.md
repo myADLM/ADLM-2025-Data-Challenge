@@ -1,0 +1,43 @@
+# SPECIAL 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+I Background Information:
+
+A 510(k) Number
+
+K203562
+
+# B Applicant
+
+Osang Healthcare Co., Ltd.
+
+# C Proprietary and Established Names
+
+Finetest Lite Blood Glucose Monitoring System
+
+# D Regulatory Information
+
+<table><tr><td rowspan=1 colspan=1>ProductCode(s)</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>RegulationSection</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>NBW</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR 862.1345 -Glucose Test System</td><td rowspan=1 colspan=1>CH - ClinicalChemistry</td></tr></table>
+
+# II Review Summary:
+
+This $5 1 0 ( \mathrm { k } )$ submission contains information/data on modifications made to the submitter's own CLASS II device requiring 510(k). The following items are present and acceptable.
+
+1. The name and $5 1 0 ( \mathrm { k } )$ number of the SUBMITTER'S previously cleared device. (For a preamendments device, a statement to this effect has been provided.): GluNEO Lite Glucose Monitoring System, Gluneo Lite Professional Blood Glucose Monitoring System, k132966.   
+2. Submitter's statement that the INDICATIONS FOR USE/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use).
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user's and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed. This change was for:
+
+Change in device dimensions and weight (from 81 X 52 X 16 mm to $8 3 \mathrm { ~ X ~ } 5 6 \mathrm { ~ X ~ } 1 8 \pm 1$ mm; $4 3 \ \mathrm { g }$ to $4 6 \ \mathrm { g }$ with battery), addition feet to the bottom of the meter and change in certain meter material colors.   
+Change in the name of the device from GluNEO Lite Glucose Monitoring System to Finetest Lite Blood Glucose Monitoring System .   
+Increased the number of glucose results that can be stored in the meter memory from 365 to 500 results.
+
+4. Comparison Information (i.e., similarities and differences) to the submitter's legally marketed predicate device including, labeling, intended use, and physical characteristics.
+
+5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis.   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied.
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter's description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.
+
+The Finetest Lite Blood Glucose Monitoring System is intended for single patient home use. Disinfection efficacy studies were previously performed (k103021) on the exterior meter materials demonstrating complete inactivation of hepatitis B virus with CaviWipes Disinfecting Towelettes (EPA registration number 46781-8). The sponsor also conducted robustness studies and demonstrated that there was no change in performance or in the external materials of the meter after 350 cleaning and disinfection cycles designed to simulate 3 years of single-patient use. Labeling was reviewed for adequate instruction for the validated cleaning and disinfection procedures.

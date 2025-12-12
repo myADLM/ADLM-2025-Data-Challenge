@@ -1,0 +1,218 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+B. Purpose for Submission:
+
+To obtain substantial equivalence determination for the MRSA/SA ELITe MGB®, ELITe MGB® Software for use with the MRSA/SA ELITe MGB® Assay.
+
+# C. Measurand:
+
+Target DNA sequences for the conserved regions in a Staphylococcus aureus-specific gene (ldh1), which is responsible for SA identification and the mecA gene, which is responsible for resistance to methicillin.
+
+# D. Type of Test:
+
+Nucleic Acid Amplification Test, DNA, Methicillin-resistant Staphylococcus aureus (MRSA) / Staphylococcus aureus (SA), qualitative.
+
+E. Applicant: Elitechgroup Epoch Biosciences
+
+F. Proprietary and Established Names: MRSA/SA ELITe MGB® Software
+
+# G. Regulatory Information:
+
+1. Regulation Section: 21 CFR 866.1640 – Antimicrobial Susceptibility Test Powder
+
+2. Classification: Class II
+
+3. Product code:
+
+NQX- Nucleic acid amplification test, DNA, methicillin resistant Staphylococcus aureus, direct specimen   
+NSU- Instrumentation for multiplex test systems   
+JJH- Clinical sample concentrator
+
+4. Panel:
+
+83- Microbiology
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \circledast }$ is a qualitative in vitro diagnostic test for the direct detection of Staphylococcus aureus (SA) and methicillin-resistant Staphylococcus aureus (MRSA) using DNA purified from nasal swabs. MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \otimes }$ is intended to aid in the prevention and control of MRSA infections in healthcare settings. It is not intended to diagnose, guide or monitor MRSA infections, or provide results of susceptibility to oxacillin/methicillin. A negative result does not preclude MRSA/SA (Staphylococcus aureus) nasal colonization. Concomitant cultures are necessary to recover organisms for epidemiological typing or for further susceptibility testing.
+
+2. Indication(s) for use:
+
+MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \circledast }$ is a qualitative in vitro diagnostic test for the direct detection of Staphylococcus aureus (SA) and methicillin-resistant Staphylococcus aureus (MRSA) using DNA purified from nasal swabs. MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \otimes }$ is intended to aid in the prevention and control of MRSA infections in healthcare settings. It is not intended to diagnose, guide or monitor MRSA infections, or provide results of susceptibility to oxacillin/methicillin. A negative result does not preclude MRSA/SA (Staphylococcus aureus) nasal colonization. Concomitant cultures are necessary to recover organisms for epidemiological typing or for further susceptibility testing.
+
+3. Special conditions for use statement(s): Prescription Use
+
+4. Special instrument requirements:
+
+bioMérieux NucliSENS $\textsuperscript { \textregistered }$ easyMAG $\textcircled{8}$ extraction system and the Applied Biosystems $\textsuperscript { \textregistered }$ 7500 Fast Dx PCR Instrument.
+
+# I. Device Description:
+
+The MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \circledast }$ is a real-time, multiplex polymerase chain reaction (PCR) assay for the in vitro qualitative detection of SA and MRSA DNA extracted from human nasal swab samples. In this system, sample preparation and amplification/real-time detection are completed on separate instruments. Sample processing is completed on the bioMérieux NucliSENS® easyMAG® instrument with bioMérieux NucliSENS Nucleic Acid Extraction Reagents according to the manufacturer’s instructions. Following processing, the extracted sample is placed in the well of a 96 well plate to which a reagent master-mix added. The master-mix contains the primers and probes for the genes of interest and the internal control combined with master mix. The assay is performed on an Applied Biosystems 7500 FAST Dx System that consists of the 7500 FAST Dx instrument, a personal computer, 96-well plates and seals. The total system run time is 150 minutes consisting of 60 minutes for sample processing and about 90 minutes for the real-time amplification and detection steps. The instrument never comes into contact with any fluids within the 96-well plate. Each disposable plate is intended to test up to 96 samples, controls or any mixture thereof. The 96-well plates are not re-usable and are specific to the system. The kit contains enough reagents for 100 reactions. One positive and one negative control are required for each PCR run; a Negative Processing Control and a Positive Processing Control are recommended to be run in each extraction run. The design of the assay includes systems to identify both the gene responsible for methicillin resistance and for a conserved portion of a gene unique to S. aureus. Thus, for a true “MRSA,” both targets will be identified in roughly equal proportions. Results are determined by using an algorithm that compares output, Cq, from the cycler (called Ct in the output from the cycler.) The algorithm is implemented for automatic results determination by analyzing the output Cq with ELITe MGB® software.
+
+Instrument:
+
+The Applied Biosystems (AB) 7500 Fast Dx Real-Time PCR instrument integrates a thermal cycler, a fluorimeter and application specific software. The instrument houses the thermal cycler and the fluorimeter, while the application software is run on a PC that is attached to the instrument. Samples are placed in a tube strip or 96-well low-head space plate that is moved to a Peltier-based thermal block and positioned relative to the optics using a tray loading mechanism. Excitation for all samples is provided by a halogen tungsten white source that passes through 5 switchable excitation filters prior to reaching the sample.
+
+Fluorescence emission is then detected through a 5 color emissions filter wheel to a charge coupled device (CCD) camera. The instrument is designed to complete quantitative RT-PCR runs in about 40 minutes. The Sequence Detection Software (SDS) version 1.4 for the 7500 Fast Dx Instrument is used for instrument control, data collection and data analysis. The software can measure cycle-bycycle real-time signals from the sample. The software provides a variety of tools to help the user analyze the data extracted from the samples. The software also provides lamp-life monitoring and other instrument maintenance information. The software runs as an application on Windows® XP platform. Changes to the Dx software and the MRSA/SA ELITe MGB® software are subject to change control in accordance with 21 CFR Part 820.40.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s) and 510(k) number(s): k112937, MRSA/SA ELITe MGB®;
+
+2. Comparison with Predicate:
+
+<table><tr><td colspan="1" rowspan="1">Device &amp; PredicateDevice(s):</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="3" rowspan="1">General DeviceCharacteristicsSimilarities</td></tr><tr><td colspan="1" rowspan="1">Intended Use/Indication for Use</td><td colspan="1" rowspan="1">MRSA/SA ELITe MGB® is a qualitative invitro diagnostic test for the direct detection ofStaphylococcus aureus (SA) and methicillin-resistant Staphylococcus aureus (MRSA)using DNA purified from nasal swabs.MRSA/SA ELITe MGB® is intended to aid inthe prevention and control of MRSAinfections in healthcare settings. It is notintended to diagnose, guide or monitorMRSA infections, or provide results ofsusceptibility to oxacillin/methicillin. Anegative result does not preclude MRSA/SA(Staphylococcus aureus) nasal colonization.Concomitant cultures are necessary torecover organisms for epidemiological typingor for further susceptibility testing.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">TechnologicalPrinciples</td><td colspan="1" rowspan="1">Fully-automated nucleic acidamplification (DNA); real-time PCR</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">DNA TargetSequence</td><td colspan="1" rowspan="1">Sequence specific toStaphylococcus aureus species and mecAgene</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Assay Format</td><td colspan="1" rowspan="1">Qualitative real-time PCR assay usingprimers and fluorescent-labeled probes forthe amplification and detection ofStaphylococcus aureus (SA) and methicillin-resistant Staphylococcus aureus (MRSA)DNA.</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Specimen Type</td><td colspan="1" rowspan="1">Direct from nasal swab</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Storage &amp; Expiry</td><td colspan="1" rowspan="1">Stored in -20 °C freezer. The device is stableuntil the expiry date stated on the label.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Instrument</td><td colspan="1" rowspan="1">ABI 7500 Fast Dx</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Controls</td><td colspan="1" rowspan="1">Positive PCR control (Plasmid DNA(microbial) containing MRSA sequences)Internal Control (Plasmid DNA (recombinant)containing Internal Control sequences)</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="3" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Results Interpretation</td><td colspan="1" rowspan="1">Automates the algorithm described in thelabeling such that raw data from the AppliedBiosytems 7500 FAST Dx instrument iscalculated and the test result determinedand printed on a report.</td><td colspan="1" rowspan="1">Uses a manualcalculation andcomparison of Ctvalues in an algorithmdescribed in thelabeling to determinetest validity withrespect to controls andthen to determine thetest result.</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+FDA Draft Guidance for Industry and Food and Drug Administration Staff Establishing the   
+Performance Characteristics of Nucleic Acid-Based In vitro Diagnostic Devices for the Detection and Differentiation of Methicillin-Resistant Staphylococcus aureus (MRSA) and Staphylococcus aureus (SA), Issued January 5, 2011.   
+FDA Guidance for Industry, FDA Reviewers and Compliance on Off-the-Shelf Software Use in Medical Devices, Issued September 9, 1999.   
+Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices, Document issued on: May 11, 2005.   
+Code of Federal Regulations, Title 21, Volume 8, Part 807 –Establishment registration and device listing for manufacturers and initial importers of devices, revised as of April 1, 2008, 21CFR807. Premarket information such as – “How to Market Your Device,” “Device Labeling” and “Premarket Submissions” such premarket notification 510(k) All this information is issued through Device Advice, CDRH’s self-service site for obtaining regulatory information concerning medical devices.   
+In Vitro diagnostics devices: Guidance for the Preparation of 510(k) Submissions, January 1977. Guidance for Industry and FDA Staff: “Format for Traditional & Abbreviated 510(k)s”: August 12, 2005.   
+Use of Symbols on Labels and in Labeling of In Vitro Diagnostic Devices Intended for Professional Use: Guidance for Industry and FDA Staff, November 2004.   
+General Principles of Software Validation; Final Guidance for Industry and FDA Staff, Document issued on: January 11, 2002
+
+# L. Test Principle:
+
+The MRSA/SA ELITe MGB $\textcircled{8}$ test is a triplex real-time amplification-based assay that targets the conserved regions in a Staphylococcus aureus-specific gene, which is responsible for SA identification, mecA gene, which is responsible for resistance to methicillin and an exogenous internal control to monitor reaction inhibition and reagent integrity. The Staphylococcus aureus-specific gene will identify SA, and the mecA gene will identify the methicillin resistance gene. Presence of both markers at the same relative quantity measured by a difference in cycle threshold (Ct) value is indicative of MRSA; different relative quantities or presence of only Staphylococcus aureus-specific gene marker is indicative of SA.
+
+Detection of MRSA/SA with the MRSA/SA ELITe MGB $\textcircled{8}$ relies on two major processes: Specimen preparation by automated DNA extraction from nasal swabs and Real-time PCR amplification and detection of target DNA by specific hybridization probes.
+
+Each nasal swab is inserted into a tube with trypticase soy broth and thoroughly mixed to create a cell suspension which is then subjected to automated DNA extraction using the NucliSENS $\textcircled{8}$ easyMAG® instrument. Internal control plasmid template is added to the silica solution to act as a control for the extraction process and monitor for PCR inhibitors.
+
+The processed specimens and the MRSA/SA ELITe MGB $\textcircled{8}$ PCR Mix containing hot-start non-Taq thermostable DNA polymerase are placed in the Applied Biosystems $\textcircled{8}$ 7500 Fast Dx Real-Time PCR Instrument PCR plate for amplification and detection. The ELITe MGB $\textsuperscript { \textregistered }$ Probes detect amplified target through a hybridization-triggered fluorescent mechanism. When the probe is unbound in solution, the three-dimensional conformation brings the quencher and MGB in close proximity to the fluorescent label, quenching the fluorescence. When the probe anneals to a target sequence, the probe unfolds, spatially separating the quencher from the fluorescent label to allow a strong fluorescent signal. ELITe MGB $\textsuperscript { \textregistered }$ Probes are not degraded during the amplification. The probe specific to the SA-specific gene is labeled with AP554 fluorophore (similar to TAMRA).The probe specific to the mecA gene is labeled with FAM fluorophore. The probe specific to the Internal Control is labeled with AP642 fluorophore (similar to Cy5). The Applied Biosystems $\textcircled{8}$ 7500 Fast Dx Real-Time PCR Instrument monitors simultaneously the fluorescence emitted by each probe. Following PCR, the results are interpreted to provide a final call using the MRSA/SA ELITe MGB® Software.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical Performance:
+
+a. Precision/Reproducibility: Precision/reproducibility was assessed during the clearance of the MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \circledast }$ assay (k112937). The original data was reanalyzed using the MRSA/SA ELITe MGB® Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.
+
+b. Linearity/Assay Reportable Range: Not applicable.
+
+c. Traceability, Stability, Expected Values (controls, calibrators, or methods): Traceability, stability and expected values were assessed during the clearance of the MRSA/SA ELITe MGB® assay (k112937). The original data was reanalyzed using the MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \circledast }$ Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.
+
+d. Detection Limit:
+
+The detection limit values, including analytical inclusivity were assessed during the clearance of the MRSA/SA ELITe MGB® assay (k112937). The original data was reanalyzed using the
+
+MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \circledast }$ Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.
+
+e. Analytical Specificity:
+
+The analytical specificity, including co-infection, interfering substances, cross reactivity and carryover contamination, was assessed during the clearance of the MRSA/SA ELITe MGB® assay (k112937). The original data was reanalyzed using the MRSA/SA ELITe MGB® Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.
+
+f. Assay Cut-off:
+
+The assay cut-off values were assessed during the clearance of the MRSA/SA ELITe MGB® assay (k112937), which describes the Ct values for the algorithm that the MRSA/SA ELITe MGB® software automates. The original data was reanalyzed using the MRSA/SA ELITe MGB® Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.
+
+2. Comparison Studies:
+
+a. Method Comparison with Predicate Device: Not applicable.   
+b. Matrix Comparison: Not applicable.
+
+3. Clinical Cut-off: Not applicable.
+
+4. Clinical Studies:
+
+a. Clinical Sensitivity: The clinical sensitivity was assessed during the clearance of the MRSA/SA ELITe MGB® assay (k112937). The original data was reanalyzed using the MRSA/SA ELITe MGB® Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.   
+b. Clinical Specificity: The clinical specificity was assessed during the clearance of the MRSA/SA ELITe MGB® assay (k112937). The original data was reanalyzed using the MRSA/SA ELITe MGB® Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.   
+c. Other Clinical Supportive Data: Not applicable.
+
+5. Expected Values/Reference Range:
+
+The expected values/reference range was assessed during the clearance of the MRSA/SA ELITe ${ \mathsf { M G B } } ^ { \circledast }$ assay (k112937). The original data was reanalyzed using the MRSA/SA ELITe MGB® Software and the final interpretation was identical, see the Verification and Validation section O.2.j. below.
+
+# N. Instrument Name:
+
+The Applied Biosystems (AB) 7500 Fast Dx Real-Time PCR Instrument
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+Batch via 96 well plate or tube strip. For the software component, result calculations can be performed in manual (without the software) or automated (with the software) modes.
+
+# 2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ___X____ or No a. Level of Concern: Identified as Moderate.
+
+b. Software Description:
+
+ELITe MGB software is to be installed on any appropriate laboratory PC. Once installed and customized by the laboratory, the user will take a copy of the .sds files as generated by the ABI 7500 FAST Dx instrument and copy them onto the PC where ELITe MGB is installed. The user will access the data file and ELITe MGB will perform all of the run validation steps and report the assay results exactly as described in the FDA-approved labeling of MRSA/SA ELITe MGB. ELITe MGB software is a piece of software that allows users to calculate and report results associated with MRSA/SA ELITe MGB. The Software will take the form of a CD-ROM, installable on any computer running Microsoft Windows XP or Windows 7. The Software uses as input the .sds files output by the current SDS v1.4 software supplied with the Applied Biosystems $\textcircled{8}$ (ABI) 7500 Fast Dx Instrument. The files must have their summary sections completed. The software will use the processing and user interaction resources of the PC, register or store any executables or data on the PC’s original drives, and use the PC’s installed Microsoft .NET Framework 3.5. The software is designed so that its application may be extended for use with other assays in the future (to be cleared through FDA). Thus, the assayspecific components of the software are contained in “assay recipe” files. All assay recipes, all language files, the version file, and the configuration file are maintained as encrypted files. As an integral part of the file loading process these files are decrypted to a memory resident copy of the file contents.
+
+The only encrypted file that is updated by the MGB software is the configuration file. The configuration update process first modifies the memory resident copy. Next it encrypts the memory resident data and then writes the encrypted, updated configuration file. In source version control these files are maintained as text files (CSV for the language files and XML for the recipes and configuration file). The build process for the production version of the Software encrypts these files using a build utility that is not distributed with the software.
+
+Encryption and decryption is provided by the Microsoft .NET Cryptostream class using the Rijndael algorithm. The ELITe MGB Software is written in the .NET lnguage.
+
+# c. Device Hazard Analysis (DHA):
+
+The device hazard analysis provided described a list of potential hazards and an assessment of risk posed by the software and any interactive components based on severity only for software and severity and severity and occurrence for hazards posed by the end user at the software interface. Risks were calculated and categorized as Major, Moderate or Minor. Risks identified as Major or Moderate were deemed Unacceptable annd mitigations were put in place to adequately address each risk. This documentation meets FDA requirements.
+
+# d. Software Requirements Specifications (SRS):
+
+Software requirements specifications provided was produced under the Quality System and summarizes the fundamental hardware and software components necessary to acquire and analyze SDS files generated from the ABI 7500 SDS v1.4 software, apply them to the algorithm cleared under k112937 to interpret the data in the SDS file and evaluate if a specimen is negative or positive for Staphylococcus aureus and/or methicillin resistant S. aureus. This document describes design and implementation constraints, functional requirements and success scenario steps for a series of use cases for the software with the MGB ELITe MRSA/SA Assay. This description meets FDA requirements.
+
+# e. Architecture Design Chart:
+
+The achitecture design charts provided in the software design document describe the components that account for the system requirements and how they are designed to interconnect functionally. Diagrams depict the how the SDS system files output by the ABI 7500 SDS v1.4 software are processed to generate the final report as a PDF file. A Data Analysis Software Logic Flowchart is provided that describes the process from the collection of raw fluorescence data to the output report, including the logical path to the range of decisions that can be determined using this software from the MGB ELITe MRSA/SA Assay. This description meets FDA requirements.
+
+# f. Software Design Specification (SDS):
+
+The software design specifications provided in the software design document describe how the requirements are implemented to provide a fuctional analysis platform. In addition to the direct mathematical execution of the algorithm cleared under k112937, the software harbors checkpoint controls for each step of the calculation for added safety in data integrity preservation. This description meets FDA requirements.
+
+# h. Traceability:
+
+The traceability matrix is described from design input to output, including software installation throughout the MRSA/SA workflow to the result reporting. Each element is tied to the system requirements with a SR number that can be followed to the verification test procedures. This description meets FDA requirements.
+
+# i. Software Development Environment:
+
+The software was developed under the Waterfall model (phases of conception, initiation, analysis, design, construction, testing, production/implemenation, and maintenance). For any component development that may happen out of sequence, such as optimization and compression, design change control procedures are planned to minimize any rework of deliverables. All activities are documented, traceable, connected to work product deliverables and reviewed by management. This description meets FDA requirements.
+
+# j. Verification and Validation (V&V):
+
+The verification test procedures were tied to the traceability matrix and system requirements through a SR number. Verification and validation testing demonstrated that the automated calling software addition to the previously cleared assay (k112937) returned the same results as the assay operated under manual conditions with $100 \%$ concurrence. The software test specifications, with pass/fail criteria, were met with a $100 \%$ pass. This performance meets FDA requirements.
+
+# k. Revision Level History (RLH):
+
+There have been 3 versions to the software during the design process, version 1.0, 1.1 and 1.2. Versions 1.0 and 1.1 were developed under design control procedures by RTEmD contracted by Elitech for their software. Version 1.2 is the current and first version of this software that was received by Elitech and was the version that was used for all testing and documentation throughout this submission. No version of this software has been released to date. Version 1.2 is intended for release with the MRSA/SA ELITe MGB assay. There have been no updates to the software since this time. The submitted description meets FDA requirements.
+
+l. Unresolved Anomalies (UA):
+
+The software currently has two unresolved anomalies. In one, the software fails to correctly override a previously saved report. If the user tries to override a previously generated report while the report is open in Adobe Acrobat, the software will fail to override the report without notifying the user that this event happened. This anomally exists because the assay uses an exclusively licensed PDF generating software that does not interact with Adobe Acrobat. The risk of patient getting the wrong report is mitigated because the tracking identifier would not match with the specimen and therefore could not be delivered to the patient. A technical note was also added to the instructions for use. These mitigations meet FDA requirements. The other unresolved anomally is that the software displays entry fields for the reagents associated with the assay. When the fields are populated, the information is not stored on the report, but on the log file. A technical note was added to the instructions for use indicating that the reagent lot information will be stored in the log file, but will not appear in the report. This mitigation meets FDA requirements. The documentation of unresolved anomallies meets FDA requirements.
+
+3. Specimen Identification: The information is entered by the user.
+
+4. Specimen Sampling and Handling: Specimens are processed according to assay instructions.
+
+5. Calibration:
+
+Calibration is performed at regular six-month intervals by AB service personnel. The user performs a background calibration. A background calibration measures the level of background fluorescence in the instrument. During a background calibration run, the 16 instrument:
+
+Performs continuous reads of a background plate containing PCR buffer for 10 minutes at 60 $^ \circ \mathsf { C }$ .   
+Averages the spectra recorded during the run and extracts the resulting spectral component to a calibration file.
+
+The software then uses the calibration file during subsequent runs to remove the background fluorescence from the run data. The user is directed to perform this calibration monthly or as often as necessary depending on instrument use, well as after replacing the lamp.
+
+6. Quality Control:
+
+Quality control is addressed for each separately cleared specific assay to be run on the instrument.
+
+P. O therSupportiveInstrum entPerform anceCharacteristicsDataNotCovered In The “Performance Characteristics” Section above:
+
+None.
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

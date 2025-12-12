@@ -1,0 +1,211 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+# B. Purpose for Submission:
+
+To obtain a substantial equivalence determination for a new test system for an immunohistochemical stain for Helicobacter pylori.
+
+# C. Measurand:
+
+Whole Organism: Helicobacter pylori (H. pylori)
+
+# D. Type of Test:
+
+Immunohistochemical (IHC) monoclonal antibody stain test for the qualitative detection of Helicobacter pylori
+
+# E. Applicant:
+
+Ventana Medical Systems, Inc.
+
+# F. Proprietary and Established Names:
+
+Ventana anti-Helicobacter pylori (SP48) Rabbit Monoclonal Primary Antibody; IHC laboratory test for detection of Helicobacter pylori
+
+# G. Regulatory Information:
+
+1. Regulation section: 866.3110- Campylobacter fetus serological reagents
+
+2. Classification: Class I
+
+3. Product code: OWF- Immunohistochemical assay, Helicobacter pylori
+
+83- Microbiology
+
+# H. Intended Use:
+
+1. Intended use:
+
+Ventana anti-Helicobacter pylori (SP48) Rabbit Monoclonal Primary Antibody (Ventana anti-H. pylori (SP48)) is designed to qualitatively detect the presence of Helicobacter pylori in formalin fixed, paraffin embedded gastric biopsy tissue via light microscopy. Immunohistochemical staining with this antibody product may aid in the diagnosis of Helicobacter pylori infection. This product should be interpreted by a qualified pathologist in conjunction with histological examination, relevant clinical information and proper controls.
+
+This antibody is intended for in vitro diagnostic (IVD) use.
+
+# 2. Indication(s) for use:
+
+Ventana anti-Helicobacter pylori (SP48) Rabbit Monoclonal Primary Antibody (Ventana anti-H. pylori (SP48)) is designed to qualitatively detect the presence of Helicobacter pylori in formalin fixed, paraffin embedded gastric biopsy tissue via light microscopy. Immunohistochemical staining with this antibody product may aid in the diagnosis of Helicobacter pylori infection. This product should be interpreted by a qualified pathologist in conjunction with histological examination, relevant clinical information and proper controls.
+
+This antibody is intended for in vitro diagnostic (IVD) use.
+
+3. Special conditions for use statement(s):
+
+For prescription use only.
+
+To be used on the Benchmark series instruments: BenchMark XT and BenchMark Ultra auto slide stainer.
+
+4. Special instrument requirements:
+
+To be used on the Benchmark series instruments: BenchMark XT version NexES 10.6   
+and BenchMark Ultra version VSS 11.9
+
+# I. Device Description:
+
+The Ventana anti-Helicobacter pylori (SP48) Rabbit Monoclonal Primary Antibody assay consists of a recombinant rabbit monoclonal primary antibody directed against whole
+
+H. pylori organisms. The immunogen used to produce this antibody was purified $H .$ pylori organism lysate. The demonstration of antigens in tissue and cells by immunostaining is a process involving first the binding of an antibody to an antigen of interest and second, visualization of the bound primary antibody by a secondary (linker) antibody either coupled with an enzyme or followed by an enzyme complex. Ventana anti-Helicobacter pylori (SP48) is a rabbit monoclonal primary antibody which specifically binds to the $H .$ . pylori organism in formalin-fixed, paraffin-embedded (FFPE) gastric biopsy samples. The detection of H. pylori by immunohistochemistry allows the specific location and distinctive helical morphology to be observed.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name: Pylo-Plus
+
+2. Predicate 510(k) number: K052708
+
+3. Comparison with predicate:
+
+Similarities   
+
+<table><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>PredicateK052708 (Pylo-Plus)</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>Aids in the diagnosis ofHelicobacter pylori infection.</td><td rowspan=1 colspan=1>For the presumptivedetermination of Helicobacterpylori in symptomatic adultpatients.</td></tr><tr><td rowspan=1 colspan=1>Specimen Matrix</td><td rowspan=1 colspan=1>Formalin fixed, paraffinembedded gastricbiopsy tissue specimens</td><td rowspan=1 colspan=1>Gastric mucosal biopsyspecimens</td></tr><tr><td rowspan=1 colspan=1>Method</td><td rowspan=1 colspan=1>Qualitative</td><td rowspan=1 colspan=1>Qualitative</td></tr></table>
+
+Differences   
+
+<table><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">PredicateK052708 (Pylo-Plus)</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">Detects the presence ofHelicobacter pylori in formalinfixed, paraffin embedded gastricbiopsy tissue via lightmicroscopy.</td><td colspan="1" rowspan="1">Detects of the urease enzyme ingastric mucosal biopsyspecimens.</td></tr><tr><td colspan="1" rowspan="1">Type of Assay</td><td colspan="1" rowspan="1">IHC with secondary detection</td><td colspan="1" rowspan="1">Serological Reagent</td></tr><tr><td colspan="1" rowspan="1">Instrumentation</td><td colspan="1" rowspan="1">Automated</td><td colspan="1" rowspan="1">Manual</td></tr><tr><td colspan="1" rowspan="1">Target</td><td colspan="1" rowspan="1">Whole organism</td><td colspan="1" rowspan="1">Urease</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Review Criteria for Assessment of Laboratory Tests for the Detection of Antibodies to Helicobacter pylori; Guidance issued September 17, 1992 • Establishing the Performance Characteristics of In Vitro Diagnostic Devices for the Detection of Helicobacter pylori; Draft Guidance issued September 23, 2010 • Guidance for Submission of Immunohistochemistry Applications to FDA; June 3, 1998 • Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests; Guidance issued March 13, 2007 • Guidance on Informed Consent for In Vitro Diagnostic Device Studies Using Leftover Human Specimens that are Not Individually Identifiable; Guidance issued April 25, 2006 Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices; Guidance issued May 11, 2005 • EN ISO14981:2007- Medical Device- Application of Risk Management to Medical Devices. • EN 13640:2002 Stability of Testing of In Vitro Diagnostics Reagents • E9 Statistical Principles for Clinical Trials, Guidance issued September 1998 • CEN – European Committee for Standardization
+
+# L. Test Principle:
+
+Ventana anti-Helicobacter pylori (SP48) is a rabbit monoclonal antibody which binds to the Helicobacter pylori organism in paraffin-embedded tissue sections. The specific antibody can be localized by either a biotin-conjugated secondary antibody formulation that recognizes rabbit immunoglobulins followed by the addition of a streptavidinhorseradish peroxidase (HRP) conjugate (iVIEW DAB Detection Kit) or a secondary antibody-HRP conjugate (ultraView Universal DAB Detection Kit). The specific antibody-enzyme complex is then visualized with a precipitating enzyme reaction product. Each step is incubated for a precise time and temperature. At the end of each incubation step, the Ventana automated slide stainer washes the sections to stop the reaction and to remove unbound material that would hinder the desired reaction in subsequent steps. It also applies Liquid Coverslip, which minimizes evaporation of the aqueous reagents from the specimen slide.
+
+Clinical cases should be evaluated within the context of the performance of appropriate controls. Ventana recommends the inclusion of a positive tissue control fixed and processed in the same manner as the patient specimen (for example, an $H$ .pylori-infected stomach tissue). In addition to staining with Ventana anti-Helicobacter pylori (SP48), a second slide should be stained with Ventana CONFIRM Negative Control Rabbit Ig. For the test to be considered valid, the positive control tissue should exhibit staining of $H .$ pylori organisms. These components should be negative when stained with CONFIRM Negative Control Rabbit Ig. In addition, it is recommended that a negative tissue control slide (for example, an $H .$ pylori-negative stomach tissue) be included for every batch of samples processed and run on the Ventana automated slide stainer. This negative tissue control should be stained with Ventana anti-Helicobacter pylori (SP48) to ensure that the antigen enhancement and other pretreatment procedures did not create false positive staining.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+A precision study was conducted at one site to measure inter-lots (3 samples tested), inter-runs (234 samples tested), inter-platforms; BenchMark XT (90 samples tested) and BenchMark ULTRA (45 samples tested) instruments. All samples tested scored equivalency. Additionally, inter-platform precision was determined by staining 1 multi-tissue block (3 tissues per block) across 5 slides on 3 BenchMark XT instruments and 3 BenchMark ULTRA instruments. 90 out of 90 samples tested scored equivalently.
+
+A reproducibility study was conducted to measure inter-site, inter-reader, interplatform, and inter-day variability at three sites, three non-consecutive days, two platforms (BenchMark XT and BenchMark ULTRA) and three readers per site. To measure variability, 14 clinical specimens that included high positives, low positives, and negative cases were assessed. At each site, the sponsor measured a total of 126 replicates for a grand total of 369. Across all sites, the sponsor had $100 \%$ agreement across all 14 specimens. The morphology and background acceptance rates were also $100 \%$ on both the BenchMark ULTRA and the BenchMark XT instruments.
+
+The results obtained from precision and reproducibility studies are acceptable.
+
+b. Linearity/assay reportable range: Not applicable.   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Not applicable.   
+d. Detection limit: Not applicable.
+
+# e. Analytical specificity:
+
+A cross reactivity study was performed to determine if samples from various disease states and other potentially cross-reactivity factors interfere with test results when tested with the Ventana anti-Helicobacter pylori (SP48) Rabbit Monoclonal Primary Antibody assay. Cross-reactivity was determined for the Ventana anti-H. pylori (SP48) to microorganisms by testing formalin-fixed, paraffin-embedded samples of aspergillus, Pneumocystis carinii, spirochetes, Cryptococcus neoformans, and mycobacterium. Testing was also completed on cytospins of Campylobacter jejuni and Escherichia coli. Negative staining was obtained on aspergillus, Pneumocystis carinii, spirochetes, Cryptococcus neoformans, mycobacterium, and Escherichia coli. The results obtained from the cross reactive study are acceptable.
+
+A tissue specificity study for the Ventana anti-Helicobacter pylori (SP48) Rabbit Monoclonal Primary Antibody assay was performed by testing formalin-fixed, paraffin-embedded normal and neoplastic tissues. The following results were obtained.
+
+For normal tissues, results are as follows: (0/3) cerebrum, (0/3) cerebellum, (0/3) adrenal gland, (0/3) ovary, (0/3) pancreas, (0/3) parathyroid gland, (0/3) hypophysis, (0/3) testis, (0/3) thyroid gland, (0/3) breast, (0/3) spleen, (0/3) tonsil, (0/3) thymus, $( 0 / 3 )$ bone marrow, (0/3) lung, (0/3) heart, (0/3) esophagus, (0/3) gastric fundus, (0/3) small intestine, $( 0 / 3 )$ colon, (0/3) liver, (0/3) salivary gland, (0/3) kidney, (0/3) prostate, (0/3) endometrium, (0/3) cervix, (0/3) skeletal muscle, (0/3) skin, (0/3) nerve, (0/3) mesothelium and lung.
+
+For neoplastic tissues, results are as follows: $( 0 / 1 )$ glioblastoma, (0/1) atypical meningioma, (0/1) malignant ependymoma, $( 0 / 1 )$ malignant oligodendroglioma, (0/1) ovarian serous papillary adenocarcinoma, (0/1) ovarian mucinous papillary adenocarcinoma, (0/1) islet cell carcinoma, $( 0 / 1 )$ pancreatic adenocarcinoma, (0/1) seminoma, (0/1) embryonal carcinoma, (0/1) medullary carcinoma, $( 0 / 1 )$ papillary carcinoma, $( 0 / 1 )$ intraductal carcinoma, (0/1) breast lobular carcinoma in situ, $( 0 / 1 )$ invasive ductal carcinoma, (0/1) diffuse B cell lymphoma, $( 0 / 1 )$ small cell undifferentiated carcinoma, (0/1) lung squamous cell carcinoma with necrosis, (0/1) lung adenocarcinoma, (0/1) esophageal squamous cell carcinoma, $( 0 / 1 )$ esophageal adenocarcinoma, (0/1) mucinous adenocarcinoma, $( 0 / 1 )$ small intestine adenocarcinoma , (0/1) small intestine intermediate grade interstitialoma , (0/1) colon adenocarcinoma (0/1) colon intermediate grade interstitialoma, $( 0 / 1 )$ rectum adenocarcinoma, (0/1) rectum intermediate grade interstitialoma, $( 0 / 1 )$ hepatocellular carcinoma, $( 0 / 1 )$ hepatoblastoma, $( 0 / 1 )$ clear cell carcinoma, $( 0 / 1 )$ prostate adenocarcinoma, $( 0 / 1 )$ transitional cell carcinoma, $( 0 / 1 )$ leiomyoma, $( 0 / 1 )$ endometrial adenocarcinoma, $( 0 / 1 )$ endometrial clear cell carcinoma, (0/1) uterine cervix squamous cell carcinoma, (0/1) embryonal rhabdomyosarcoma, (0/1) malignant melanoma, $( 0 / 1 )$ basal cell carcinoma, (0/1) squamous cell carcinoma,
+
+$( 0 / 1 )$ neurofibroma, $( 0 / 1 )$ neuroblastoma, (0/1) epithelial malignant mesothelioma, $( 0 / 3 )$ diffuse malignant lymphoma, $( 0 / 1 )$ Hodgkin’s lymphoma, (0/1) transitional cell carcinoma with squamous metaplasia, (0/2) leiomyosarcoma, $( 0 / 1 )$ osteosarcoma, $( 0 / 1 )$ spindle cell rhabdomyosarcoma. The results obtained from the tissue specificity study appear to be acceptable.
+
+f. Assay cut-off: Not applicable.
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable.
+
+b. Matrix comparison: Not applicable.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity:
+
+A retrospective, method comparison study was conducted at three independent clinical sites to demonstrate the percent positive and negative agreement rates for the comparison of VENTANA anti-H. pylori (SP48) Rabbit Monoclonal Primary Antibody with Ventana Giemsa Staining Kit in determining the presence of H. pylori. The three sites targeted acquisition of a total of $3 0 0 H .$ . pylori samples, actually stained 299 cases, and obtained complete data on 294. Samples were excluded for H&E non-acceptability (1), Giemsa slide tissue morphology non-acceptability (2), Giemsa slide tissue morphology and VENTANA anti- $H .$ pylori (SP48) slide tissue morphology non-acceptability (3), and VENTANA anti- $H .$ . pylori (SP48) negative control stain not negative.
+
+Each site prepared seven slides per case by freshly cutting serial sections of tissue of 3 micron thickness from archived formalin-fixed, paraffin-embedded tissue blocks and mounting sections in the same direction on each slide. Samples for the study were identified at the clinical study sites via pre-screening based on consecutive cases where $H .$ pylori was detected or not detected based on patient medical records of the results from evaluation of gastric biopsies. Investigators at each site for the method comparison analysis of the investigational device and the comparator device were blinded to H. pylori status of each specimen and slides were read in the order in which they were provided. The ages of the formalin-fixed, paraffin-embedded tissue blocks that were included in the clinical study ranged from 11 to 666 days.
+
+Pooled data from all sites demonstrated a slide staining acceptability rate for slide background in 298/299 human gastric biopsy tissue samples stained with VENTANA anti-H. pylori (SP48). Pooled data from all sites demonstrated a slide staining acceptability rate for slide tissue morphology in 298/299 human gastric biopsy tissue samples stained with VENTANA anti-H. pylori (SP48).
+
+Table 1. Giemsa Stain versus SP48 Stain   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=3>Giemsa Stain</td></tr><tr><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>NotDetected</td><td rowspan=1 colspan=1>NotAvailable</td></tr><tr><td rowspan=3 colspan=1>Ventana anti-H.pylori (SP48)</td><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>136</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>NotDetected</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>153</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1>NotAvailable</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td></tr></table>
+
+Positive Percent Agreement $= 9 7 . 8 \%$ $( 9 3 . 8 \% - 9 9 . 3 \% )$ Negative Percent Agreement $= 9 8 . 7 \%$ (95.4% - 99.6%)
+
+Pooled data from all sites demonstrated positive agreement in 136/139 human gastric biopsy tissue samples and negative agreement in 153/155 human gastric biopsy tissue samples between VENTANA anti- $H .$ . pylori (SP48) and Ventana Giemsa Staining Kit. These numbers translate into a percent positive agreement of $9 7 . 8 \%$ , with a $9 5 \%$ score confidence interval of (93.8- 99.3); the percent negative agreement was $9 8 . 7 \%$ , with a $9 5 \%$ confidence interval of (95.4- 99.6).
+
+Pooled data from all sites demonstrated positive agreement in 138/151 human gastric biopsy tissue samples, and positive and negative agreement in 144/145 human gastric biopsy tissue samples between VENTANA anti-H. pylori (SP48) and the $H .$ . pylori diagnosis obtained from the enrollment pathology reports. These numbers translate into a percent positive agreement of $9 1 . 3 \%$ , with a $9 5 \%$ confidence interval of (85.7- 95.3); the percent negative agreement was $9 9 . 3 \%$ , with a $9 5 \%$ confidence interval of (96.2- 99.9).
+
+b. Clinical specificity: See section M.3.a   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off:
+
+Ventana anti- $H .$ . pylori (SP48) stains the entire Helicobacter pylori organism. The stain allows for one or more organisms to be visualized and the size, morphology and location of the stained organism is consistent with that of $H .$ pylori.
+
+5. Expected values/Reference range:
+
+Performance of the assay was established in preclinical studies comparing detection of $H .$ pylori with Ventana anti- $H .$ . pylori (SP48) to a modified Giemsa assay (Ventana) in human gastric tissue samples that ranged from not colonized to heavily colonized with $H .$ . pylori. $H .$ pylori status was scored as not detected, detected, or not evaluable. A retrospective, method comparison study was conducted at three independent clinical sites to demonstrate the positive and negative percent agreement rates for the comparison of Ventana anti- $H _ { \cdot }$ . pylori (SP48) Rabbit Monoclonal Primary Antibody with Ventana Giemsa Staining Kit in determining the presence of $H .$ . pylori.
+
+# N. Instrument Name:
+
+BenchMark XT and BenchMark Ultra auto slide stainer.
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+All sample tested can be conducted on the Benchmark series instruments of instruments: BenchMark XT version NexES 10.6 and BenchMark Ultra version VSS 11.9.
+
+2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ____X____ or No
+
+3. Specimen Identification:
+
+Positive staining intensity should be assessed within the context of any non-specific background staining of the negative reagent control. As with any immunohistochemical test, a negative result means that the antigen in question was not detected, not that the antigen is absent in the cells or tissue assayed. If necessary, use a panel of antibodies to aid in the identification of false negative reactions. The morphology of each tissue sample should also be examined utilizing a hematoxylin and eosin stained section when interpreting any immunohistochemical result. The patient's morphologic findings and pertinent clinical data must be interpreted by a qualified pathologist.
+
+4. Specimen Sampling and Handling:
+
+Routinely processed, formalin-fixed, paraffin-embedded tissues are suitable for use with this primary antibody when used with Ventana detection kits and the BenchMark XT or BenchMark Ultra automated slide stainer. The recommended tissue fixative is $10 \%$ neutral buffered formalin. Slides should be stained immediately, as antigenicity of cut tissue sections may diminish over time. It is recommended that positive and negative tissue controls be run simultaneously with unknown specimens.
+
+5. Calibration:
+
+The NexES/VSS Host Software provides a number of screens to allow service personal to calibrate and service the staining instrument. Some screens allow for the changing of slide adjust volumes, air pressure transducers, temperature offsets, instruments serial numbers and stainers effective types. Each error message is listed and defined in the BenchMark series operator's manuals.
+
+6. Quality Control:
+
+Positive Tissue Control
+
+The stained positive tissue control should be examined first to ascertain that all reagents are functioning properly. The presence of an appropriately colored reaction product of appropriate size, morphology, and location in the tissue is indicative of positive reactivity. Depending on the incubation length and potency of the hematoxylin used, counterstaining will result in a pale to dark blue coloration of cell nuclei. Excessive or incomplete counterstaining may compromise proper interpretation of results.
+
+If the positive tissue control fails to demonstrate positive staining, any results with the test specimens should be considered invalid.
+
+Negative Tissue Control The negative tissue control should be examined after the positive tissue control to verify the specific labeling of the target antigen by the primary antibody. The absence of specific staining in the negative tissue control confirms the lack of antibody crossreactivity to cells or cellular components. If specific staining occurs in the negative tissue control, results with the patient specimen should be considered invalid.
+
+Nonspecific staining, if present, will have a diffuse appearance. Sporadic light staining of connective tissue may also be observed in sections from excessively
+
+formalin fixed tissues. Intact cells should be used for interpretation of staining results.   
+Necrotic or degenerated cells often stain nonspecifically. Negative Reagent Control   
+A negative reagent control must be run for every specimen to aid in the interpretation of results. A negative reagent control is used in place of the primary antibody to evaluate nonspecific staining. The slide should be stained with CONFIRM Negative Control Rabbit Ig. The incubation period for the negative reagent control should equal the primary antibody incubation period.
+
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+Not applicable.
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

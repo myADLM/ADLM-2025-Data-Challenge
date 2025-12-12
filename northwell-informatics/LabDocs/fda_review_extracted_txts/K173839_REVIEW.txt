@@ -1,0 +1,160 @@
+
+--- Page 1 ---
+SPECIAL 510(k): Device Modification
+OIR Decision Summary
+To: THE FILE RE: K173839
+This 510(k) submission contains information/data on modifications made to the applicant’s own class
+II or class I devices requiring 510(k). The following items are present and acceptable:
+1. The name and 510(k) number of the applicant’s previously cleared device:
+K120489: Pathwork Tissue of Origin Test Kit - FFPE
+2. Applicant’s statement that the INDICATION/INTENDED USE of the modified device as described
+in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions
+for use, package labeling, and, if available, advertisements or promotional materials.
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering
+drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the
+FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+The following two changes were made: 1) the GeneChip™ 3' IVT Pico Kit is used for
+amplification and target labeling instead of the RampUp RNA Amplification Kit™ reagents; and 2)
+the Chip processing software was updated to the Genechip™ System 3000 Dx v.2 from the
+Genechip™ System 3000 Dx, which is no longer supported by the manufacturer. The principles
+of the target preparation process have not changed.
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate
+device including, intended use, equipment, reagents and limitations, are summarized in the table
+below:
+1
+
+--- Page 2 ---
+Feature K120489 (Predicate) K173839
+Cancer Genetics Tissue of Origin Test
+Device Name Pathwork Tissue of Origin Test Kit-FFPE
+Kit - FFPE
+The Pathwork Tissue of Origin Test is an in vitro
+diagnostic intended to measure the degree of
+similarity between the RNA expression patterns in
+a patient's formalin-fixed, paraffin-embedded
+(FFPE) tumor and the RNA expression patterns in
+a database of fifteen tumor types (poorly
+differentiated, undifferentiated, and metastatic
+cases) that were diagnosed according to then
+current clinical and pathological practice. This test
+should be evaluated by a qualified physician in the
+context of the patient's clinical history and other
+diagnostic test results.
+Limitations:The Pathwork® Tissue of Origin Test is
+Intended use
+not intended to establish the origin of tumors (e.g. Same
+cancer of unknown primary) that cannot be
+diagnosed according to current clinical and
+pathological practice. It is not intended to
+subclassify or modify the classification of tumors
+that can be diagnosed by current clinical and
+pathological practice, nor to predict disease
+course or survival or treatment efficacy, nor to
+distinguish primary from metastatic tumor. Tumor
+types not in the Pathwork® Tissue of Origin Test
+database may have RNA expression patterns that
+are similar to patterns in the database. Therefore,
+results cannot be used to distinguish tumor types
+in the database from tumor types not in the
+database.
+Microarray Pathchip® Same
+Hybridization oven Same
+Equipment Scanner Same
+Genechip™ System 3000 Dx Genechip™ System 3000 Dx v.2
+RNA isolation Extraction Reagents Same
+Amplification
+RampUp RNA Amplification Kit™ GeneChip™ 3' IVT Pico Kit
+Reagents
+Purification of
+Ethanol precipitation GeneChip™ 3' IVT Pico Kit
+biotinylated cDNA
+Percent Positive
+Internal Processing
+Overall Signal Same
+Quality Control
+Regional Discontinuity
+Analysis Algorithm as described in K092967 Same
+5. A Design Control Activities Summary which includes:
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the
+device and its components, and the results of the analysis
+2
+
+[Table 1 on page 2]
+Feature	K120489 (Predicate)	K173839
+Device Name	Pathwork Tissue of Origin Test Kit-FFPE	Cancer Genetics Tissue of Origin Test
+Kit - FFPE
+Intended use	The Pathwork Tissue of Origin Test is an in vitro
+diagnostic intended to measure the degree of
+similarity between the RNA expression patterns in
+a patient's formalin-fixed, paraffin-embedded
+(FFPE) tumor and the RNA expression patterns in
+a database of fifteen tumor types (poorly
+differentiated, undifferentiated, and metastatic
+cases) that were diagnosed according to then
+current clinical and pathological practice. This test
+should be evaluated by a qualified physician in the
+context of the patient's clinical history and other
+diagnostic test results.
+Limitations:The Pathwork® Tissue of Origin Test is
+not intended to establish the origin of tumors (e.g.
+cancer of unknown primary) that cannot be
+diagnosed according to current clinical and
+pathological practice. It is not intended to
+subclassify or modify the classification of tumors
+that can be diagnosed by current clinical and
+pathological practice, nor to predict disease
+course or survival or treatment efficacy, nor to
+distinguish primary from metastatic tumor. Tumor
+types not in the Pathwork® Tissue of Origin Test
+database may have RNA expression patterns that
+are similar to patterns in the database. Therefore,
+results cannot be used to distinguish tumor types
+in the database from tumor types not in the
+database.	Same
+Microarray	Pathchip®	Same
+Equipment	Hybridization oven	Same
+	Scanner	Same
+	Genechip™ System 3000 Dx	Genechip™ System 3000 Dx v.2
+RNA isolation	Extraction Reagents	Same
+Amplification
+Reagents	RampUp RNA Amplification Kit™	GeneChip™ 3' IVT Pico Kit
+Purification of
+biotinylated cDNA	Ethanol precipitation	GeneChip™ 3' IVT Pico Kit
+Internal Processing
+Quality Control	Percent Positive
+Overall Signal
+Regional Discontinuity	Same
+Analysis	Algorithm as described in K092967	Same
+
+--- Page 3 ---
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities
+required, including methods or tests used and acceptance criteria to be applied
+The Risk Analyses were performed to assess the impact of the modifications on the device by
+identifying risks, their possible causes, and appropriate control mechanisms. The Risk Analyses took
+into account device hazards associated with the intended use of the device. No additional hazards,
+no additional causes, and no required additional controls were identified. No adverse advents or
+reportable incidents have been associated with the device.
+Based on the Risk Analyses conducted, the following studies were performed to verify and/or validate
+the modifications to the device:
+ Changing the amplification and labeling reagents can potentially alter the expression ratios
+of the targets if the process does not accurately reflect the endogenous levels of these
+targets before amplification. As a result, the gene expression patterns may be skewed
+toward certain subtypes that will increase the chance of misclassification. A validation study
+was, therefore, performed with the modified device using 142 specimens that included all 15
+subtypes in the database and that were studied in the original validation study with the
+predicate test. The concordance in the test results between paired specimens processed
+with the RampUp RNA Amplification Kit™ and the GeneChip™ 3' IVT Pico Kit was 90.8%
+(95% confidence interval of 83.6% to 95.3%).
+ For the software modification, there are risks related to potential alterations to relative probe
+intensities on the array which could affect the classification results. Therefore, a validation
+study was performed to assess the concordance between the Genechip™ System 3000 Dx
+v.2 and the Genechip™ System 3000 Dx using 20 FFPE tumor specimens. All results were
+concordant (100% agreement with 95% confidence interval of 95.9% to 100%).
+The labeling for this modified subject device has been reviewed to verify that the indication/intended
+use for the device is unaffected by the modification. In addition, the applicant’s description of the
+particular modifications and the comparative information between the modified and unmodified
+devices demonstrate that the fundamental scientific technology has not changed. The applicant has
+provided the design control information as specified in The New 510(k) Paradigm and on this basis, I
+recommend the device be determined substantially equivalent to the previously cleared (or their
+preamendment) device.
+3

@@ -1,0 +1,112 @@
+Standard Operating Procedure: PROLYL HYDROXYLASE
+DOMAIN-2 (PHD2/EGLN1) GENE SEQUENCING, WHOLE BLOOD
+1. PURPOSE The purpose of this standard operating procedure
+(SOP) is to outline the analytical process for sequencing the Prolyl
+Hydroxylase Domain-2 (PHD2/EGLN1) gene from whole blood
+specimens. The protocol ensures accurate, reliable, and reproducible
+results for detecting genetic variants in PHD2/EGLN1.
+2. SCOPE This SOP applies to all laboratory staff involved in the
+preparation, amplification, sequencing, and analysis of PHD2/EGLN1
+gene sequencing from whole blood samples.
+3. RESPONSIBILITIES
+• Laboratory Staff: Responsible for following the SOP, performing
+quality control checks, maintaining accurate records, and
+reporting results.
+• Supervisors: Ensure staff are trained on this SOP, oversee the
+monitoring of performance, and address any deviations or issues.
+4. MATERIALS AND EQUIPMENT
+• DNA extraction kit (validated for whole blood)
+• Qubit fluorometer or NanoDrop spectrophotometer
+• PCR reagents (primers specific to PHD2/EGLN1, dNTPs, Taq
+polymerase, buffers)
+• Thermal cycler
+• Agarose gel electrophoresis system
+• DNA sequencing kit (e.g., Illumina, Sanger sequencing)
+• Sequencer (e.g., Illumina MiSeq, ABI 3500 Genetic Analyzer)
+• Analytical software for sequence data analysis (e.g., Integrative
+Genomics Viewer (IGV), BLAST)
+5. SPECIMEN RECEIPT AND PREPARATION
+1. Specimen Integrity Check
+◦ Verify specimen labeling: Check that the specimen is
+properly labeled with patient information.
+◦ Inspect for hemolysis or clots: Ensure specimen has no
+signs of degradation.
+2. DNA Extraction
+◦ Use a validated DNA extraction kit following the
+manufacturer's protocol.
+◦ Measure DNA concentration using a Qubit fluorometer or
+NanoDrop spectrophotometer.
+◦ Ensure a minimum concentration and purity appropriate for
+downstream applications (typically, purity ratios of A260/
+A280 between 1.8 and 2.0).
+6. AMPLIFICATION OF PHD2/EGLN1 GENE TARGET REGIONS
+1. PCR Amplification
+◦ Prepare PCR reactions according to the manufacturer's
+instructions with primers specific for the PHD2/EGLN1 gene.
+◦ Run PCR in a thermal cycler with conditions optimized for
+PHD2/EGLN1 amplification.
+◦ Include positive and negative controls in each PCR run.
+2. Verification of PCR Products
+◦ Perform agarose gel electrophoresis to verify the size and
+integrity of PCR products.
+◦ Document results and proceed only if the expected product
+sizes are achieved.
+7. DNA SEQUENCING
+1. Preparation of Sequencing Libraries
+◦ Purify PCR products using a suitable purification system
+(e.g., magnetic beads, column-based purification).
+◦ Quantify purified DNA and prepare sequencing libraries
+according to the protocol of the chosen sequencing
+platform.
+2. Sequencing
+◦ Load the prepared libraries onto the sequencer.
+◦ Run the sequencing protocol as per the manufacturer's
+guidelines.
+8. DATA ANALYSIS
+1. Raw Data Processing
+◦ Use sequencing software to generate sequence reads.
+◦ Perform quality control checks to assess read quality and
+coverage.
+2. Alignment and Variant Calling
+◦ Align reads to the reference PHD2/EGLN1 gene sequence
+using appropriate bioinformatics tools (e.g., BWA, Bowtie).
+◦ Identify genetic variants through variant calling software
+(e.g., GATK, VarScan).
+3. Variant Annotation
+◦ Annalyze detected variants using a variant annotation tool
+(e.g., Annovar, SnpEff) for assessing potential impacts.
+4. Interpretation of Results
+◦ Interpret the significance of detected variants in the context
+of relevant clinical and molecular data.
+◦ Validate clinical relevance of any pathogenic or likely
+pathogenic variants through literature review and database
+consultation.
+9. QUALITY CONTROL AND TROUBLESHOOTING
+• Perform routine quality control checks on reagents, instruments,
+and data analysis.
+• Troubleshoot any deviations from expected results (e.g., low-
+quality reads, failed amplifications).
+• Maintain detailed records and documentation for all performed
+steps and results.
+10. REPORTING RESULTS
+• Prepare a comprehensive laboratory report summarizing the
+sequencing findings.
+• Include detailed information on detected variants, their potential
+impact, and clinical interpretations.
+• Ensure results are reviewed and verified by a qualified laboratory
+technologist before reporting.
+11. REFERENCES
+• Standard DNA extraction kit user manual.
+• PCR amplification and sequencing platform manuals.
+• Laboratory quality control and bioinformatics software user
+guides.
+• Relevant peer-reviewed articles and genetic databases for variant
+annotation.
+12. REVISION HISTORY
+• Document any revisions to the protocol, including the date of
+change and a summary of modifications.
+APPROVAL AND DOCUMENTATION
+• Approved by: [Laboratory Director/Supervisor Name]
+• Date: [Approval Date]
+• Revision Number: [Current Revision Number]
+End of Document

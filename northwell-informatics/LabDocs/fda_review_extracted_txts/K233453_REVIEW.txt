@@ -1,0 +1,2013 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K233453
+B Applicant
+Life Technologies Corporation
+C Proprietary and Established Names
+Applied Biosystems TaqPath COVID-19 Diagnostic PCR Kit
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.3981 - Device
+To Detect And Identify
+Nucleic Acid Targets In
+Respiratory Specimens
+From Microbial Agents
+QQX Class II MI - Microbiology
+That Cause The Sars-Cov-
+2 Respiratory Infection
+And Other Microbial
+Agents When In A Multi-
+Target Test
+II Submission/Device Overview:
+A Purpose for Submission:
+To obtain market clearance for the Applied Biosystems TaqPath COVID-19 Diagnostic PCR Kit
+(referred to as TaqPath COVID-19 Diagnostic PCR Kit below).
+B Measurand:
+SARS-CoV-2 RNA
+C Type of Test:
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QQX			Class II	21 CFR 866.3981 - Device
+To Detect And Identify
+Nucleic Acid Targets In
+Respiratory Specimens
+From Microbial Agents
+That Cause The Sars-Cov-
+2 Respiratory Infection
+And Other Microbial
+Agents When In A Multi-
+Target Test			MI - Microbiology
+
+--- Page 2 ---
+The TaqPath COVID-19 Diagnostic PCR Kit is a real-time reverse transcription polymerase
+chain reaction (RT-PCR) test.
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The TaqPath COVID-19 Diagnostic PCR Kit is a real-time reverse transcription polymerase
+chain reaction (RT-PCR) test intended for the qualitative detection of nucleic acid from SARS-
+CoV-2 in nasopharyngeal and anterior nasal specimens from individuals with signs and
+symptoms of respiratory tract infection.
+The TaqPath COVID-19 Diagnostic PCR Kit is intended for use as an aid in the diagnosis of
+COVID-19 if used in conjunction with other clinical observations, epidemiological information,
+and laboratory findings. The SARS-CoV-2 RNA is generally detectable in upper respiratory
+(anterior nasal and nasopharyngeal swabs) specimens during the acute phase of infection.
+Positive results are indicative of the presence of SARS-CoV-2 RNA. Positive results do not rule
+out bacterial infection or co-infection with other pathogens. The agent detected may not be the
+definite cause of disease.
+Negative results do not preclude SARS-CoV-2 infection and should not be used as the sole basis
+for patient management decisions.
+The TaqPath COVID-19 Diagnostic PCR Kit is intended for use by qualified clinical laboratory
+personnel specifically instructed and trained in the techniques of real-time PCR and in vitro
+diagnostic procedures.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IVD - For In Vitro Diagnostic Use Only
+D Special Instrument Requirements:
+This assay is to be used with one of the following real-time PCR instruments only:
+• Applied Biosystems 7500 Fast Dx Real-Time PCR Instrument
+• Applied Biosystems QuantStudio 5 Dx Real-Time PCR Instrument
+IV Device/System Characteristics:
+A Device Description:
+The TaqPath COVID-19 Diagnostic PCR Kit is a multiplex real-time RT-PCR test for the
+qualitative detection of RNA from SARS-CoV-2 in nasopharyngeal and anterior nasal
+specimens. Each TaqPath COVID-19 Diagnostic PCR Kit includes:
+K233453 - Page 2 of 25
+
+--- Page 3 ---
+• TaqPath COVID-19 Diagnostic PCR Assay Multiplex: Primer and probe sets to detect
+RNA from three specific genomic regions in SARS-CoV-2: Open Reading Frame (ORF)
+1ab, Spike (S) protein, Nucleocapsid (N) protein and primers/probes for MS2
+bacteriophage.
+• MS2 bacteriophage, an internal processing control (IPC) for nucleic acid extraction.
+• TaqPath COVID-19 Diagnostic PCR Control as a positive RNA control that contains
+targets specific to the SARS-CoV-2 genomic regions targeted by the assays.
+• TaqPath COVID-19 Diagnostic PCR Control Dilution Buffer for diluting the TaqPath
+COVID-19 Diagnostic PCR Control to a working concentration.
+Patient samples and the IPC are manually added to KingFisher 96 Deep-Well plates and loaded
+onto the KingFisher Flex Purification System along with reagents from the MagMAX
+Viral/Pathogen II Nucleic Acid Isolation Kit for automated processing. In this process, nucleic
+acids from the patient samples are recovered using magnetic-bead technology. Unbound
+substances and impurities are removed with automated wash steps and purified nucleic acid is
+eluted from the beads with Elution Buffer.
+The extracted sample RNA is subsequently mixed with TaqPath COVID-19 Diagnostic PCR
+Assay Multiplex and the TaqPath 1‑Step Multiplex Master Mix (No ROX) in 96-well reaction
+plates and loaded onto one of the following instruments for reverse transcription into cDNA
+followed by amplification of the SARS-CoV-2 target sequences and the MS2 IPC target
+sequence:
+• Applied Biosystems 7500 Fast Dx Real Time PCR instrument
+• Applied Biosystems QuantStudio 5 Dx Real-Time PCR instrument
+Following amplification, the data from the test run is imported into COVID-19 Interpretive
+Software IVD Edition for analysis and interpretation. The COVID-19 Interpretive Software IVD
+Edition analyzes the run data, performs quality check analysis, and calculates the interpretive
+results for each sample and control based on the cycle threshold (Ct) value obtained for each of
+the targets. The imported data and interpretive results for each run are saved as a batch in the
+software. Results can be exported as CSV files and reports can be generated in PDF format.
+B Principle of Operation:
+The TaqPath COVID-19 Diagnostic PCR Kit contains primer and probe sets to detect RNA from
+three specific genomic regions in SARS-CoV-2: Open Reading Frame (ORF) 1ab, Spike (S)
+protein, Nucleocapsid (N) protein and primers/probes for MS2 bacteriophage IPC. During PCR
+amplification, the probes anneal to the target sequences located between the forward and reverse
+primers for the target genes. During the PCR extension phase, the 5’ nuclease activity of the Taq
+polymerase degrades the probe, causing the reporter dye to separate from the quencher dye,
+generating a fluorescent signal. With each cycle, additional reporter dye molecules are cleaved
+from their respective probes, increasing the fluorescence intensity, which is measured at each
+PCR cycle by the real-time PCR instrument. Validation of the results is performed automatically
+by the COVID-19 Interpretive Software IVD Edition based on the performance of positive and
+negative controls (see Table 1 below). The patient sample results are automatically generated
+using the calling rules, plate validity and the Ct cutoff values for assay targets as shown in Table
+2 below.
+K233453 - Page 3 of 25
+
+--- Page 4 ---
+Table 1: Interpretation of Positive and Negative Controls
+ORF1ab N gene S gene MS2 Status Result Action
+Negative Control
+REPORT
+NEG NEG NEG POS VALID NA Report the results to the healthcare
+provider.
+RETEST
+1. In the Samples pane of the Home
+screen, ensure that none of the
+patient samples are incorrectly
+assigned as a control sample. If a
+patient sample has been incorrectly
+assigned: In the instrument
+software, correct the Task
+assignment, for EDS files change
+the experiment name, save the file
+with a new file name, import the
+corrected file into the interpretive
+software, then review the results.
+2. If the patient sample assignments
+All other scenarios INVALID NA
+are correct and the status is still
+INVALID, check the target calls:
+• If MS2 is reported as
+NEGATIVE, the extraction
+failed. Repeat the extraction,
+ensuring that MS2 is correctly
+added to the negative control.
+• If any viral gene targets are
+reported as POSITIVE,
+contamination occurred.
+Decontaminate the equipment,
+replace the extraction reagents
+and qPCR reagents, then repeat
+the extraction and PCR.
+Positive Control
+REPORT
+POS POS POS NEG VALID NA Report the results to the healthcare
+provider.
+K233453 - Page 4 of 25
+
+[Table 1 on page 4]
+	ORF1ab			N gene			S gene			MS2			Status				Result			Action	
+														Negative Control							
+NEG			NEG			NEG			POS			VALID				NA			REPORT
+Report the results to the healthcare
+provider.		
+All other scenarios												INVALID				NA			RETEST
+1. In the Samples pane of the Home
+screen, ensure that none of the
+patient samples are incorrectly
+assigned as a control sample. If a
+patient sample has been incorrectly
+assigned: In the instrument
+software, correct the Task
+assignment, for EDS files change
+the experiment name, save the file
+with a new file name, import the
+corrected file into the interpretive
+software, then review the results.
+2. If the patient sample assignments
+are correct and the status is still
+INVALID, check the target calls:
+• If MS2 is reported as
+NEGATIVE, the extraction
+failed. Repeat the extraction,
+ensuring that MS2 is correctly
+added to the negative control.
+• If any viral gene targets are
+reported as POSITIVE,
+contamination occurred.
+Decontaminate the equipment,
+replace the extraction reagents
+and qPCR reagents, then repeat
+the extraction and PCR.		
+Positive Control																					
+POS			POS			POS			NEG			VALID				NA			REPORT
+Report the results to the healthcare
+provider.		
+
+[Table 2 on page 4]
+	Positive Control	
+
+--- Page 5 ---
+RETEST
+1. In the Samples pane of the Home
+screen, ensure that none of the
+patient samples are incorrectly
+assigned as a control sample. If a
+patient sample has been incorrectly
+assigned: In the instrument
+software, correct the Task
+assignment, for EDS files change
+the experiment name, save the file
+with a new file name, import the
+corrected file into the interpretive
+software, then review the results.
+All other scenarios INVALID NA
+2. If the patient sample assignments
+are correct and the status is still
+INVALID, check the target calls:
+• If MS2 is reported as
+POSITIVE, contamination
+occurred. Decontaminate the
+equipment, replace the qPCR
+reagents, then repeat the PCR.
+• If any of the viral gene targets
+are reported as NEGATIVE,
+repeat the PCR. Consider using
+new qPCR reagents and
+controls.
+Table 2: Result Interpretation for Patient Samples and Required Action
+ORF1ab N gene S gene MS2 Status Result Action
+RETEST
+Repeat test by re-extracting the
+original sample and repeating
+NEG NEG NEG NEG INVALID NA
+the RT-PCR. If the repeat result
+remains invalid, consider
+collecting a new specimen.
+REPORT
+SARS-CoV-2
+NEG NEG NEG POS VALID Report the results to the
+Not Detected
+healthcare provider.
+RETEST/REPORT
+1. Repeat the test by re-
+extracting the original
+sample and repeating the
+RT-PCR.
+IMPORTANT! Samples
+POS
+Only one SARS-CoV-2 target SARS-CoV-2 with a result of SARS-CoV-
+or VALID
+= POS Inconclusive 2 Inconclusive shall be
+NEG
+retested one time.
+2. After retesting one time,
+report the results to the
+healthcare provider.
+3. If the repeat result remains
+inconclusive, the healthcare
+K233453 - Page 5 of 25
+
+[Table 1 on page 5]
+All other scenarios	INVALID	NA	RETEST
+1. In the Samples pane of the Home
+screen, ensure that none of the
+patient samples are incorrectly
+assigned as a control sample. If a
+patient sample has been incorrectly
+assigned: In the instrument
+software, correct the Task
+assignment, for EDS files change
+the experiment name, save the file
+with a new file name, import the
+corrected file into the interpretive
+software, then review the results.
+2. If the patient sample assignments
+are correct and the status is still
+INVALID, check the target calls:
+• If MS2 is reported as
+POSITIVE, contamination
+occurred. Decontaminate the
+equipment, replace the qPCR
+reagents, then repeat the PCR.
+• If any of the viral gene targets
+are reported as NEGATIVE,
+repeat the PCR. Consider using
+new qPCR reagents and
+controls.
+
+[Table 2 on page 5]
+	ORF1ab			N gene			S gene			MS2			Status			Result			Action	
+NEG			NEG			NEG			NEG			INVALID			NA			RETEST
+Repeat test by re-extracting the
+original sample and repeating
+the RT-PCR. If the repeat result
+remains invalid, consider
+collecting a new specimen.		
+NEG			NEG			NEG			POS			VALID			SARS-CoV-2
+Not Detected			REPORT
+Report the results to the
+healthcare provider.		
+Only one SARS-CoV-2 target
+= POS									POS
+or
+NEG			VALID			SARS-CoV-2
+Inconclusive			RETEST/REPORT
+1. Repeat the test by re-
+extracting the original
+sample and repeating the
+RT-PCR.
+IMPORTANT! Samples
+with a result of SARS-CoV-
+2 Inconclusive shall be
+retested one time.
+2. After retesting one time,
+report the results to the
+healthcare provider.
+3. If the repeat result remains
+inconclusive, the healthcare		
+
+--- Page 6 ---
+provider should conduct
+additional confirmation
+testing with a new specimen,
+if clinically indicated.
+POS REPORT
+Two or more SARS-CoV-2 Positive
+or VALID Report the results to the
+targets = POS SARS-CoV-2
+NEG healthcare provider.
+C Instrument Description Information:
+1. Instrument Name:
+• Applied Biosystems 7500 Fast Dx Real Time PCR Instrument
+• Applied Biosystems QuantStudio 5 Dx Real-Time PCR Instrument
+2. Specimen Identification:
+Specimen identification can be configured in an automated fashion or entered manually.
+3. Specimen Sampling and Handling:
+Nasopharyngeal or anterior nasal swab specimen collected in transport media.
+4. Quality Control:
+Following controls are included in the TaqPath COVID-19 Diagnostic PCR Kit:
+a) MS2 bacteriophage internal processing control (IPC) for the nucleic acid extraction.
+MS2 IPC is added to the sample wells before RNA extraction.
+b) External Positive Control (TaqPath COVID-19 Diagnostic PCR Control) is required
+for each plate run and contains targets specific to the SARS-CoV-2 genomic regions
+targeted by the assays.
+c) A Negative Control (molecular-grade, nuclease-free, non-DEPC-treated water) is
+required for each plate run to monitor non-specific amplification, cross-contamination
+during experimental setup and nucleic acid contamination of reagents.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+BioFire COVID-19 Test 2
+B Predicate 510(k) Number(s):
+K211079
+C Comparison with Predicate(s):
+Table 3: TaqPath COVID-19 Diagnostic Kit Substantial Equivalence Comparison
+Device & Predicate Device K233453 K211079
+Device Trade Name TaqPath COVID-19 Diagnostic Kit BioFire COVID-19 Test 2
+Regulation Number 21 CFR 866.3981 Same
+Multi-Target Respiratory Specimen Nucleic Same
+Regulation Name Acid Test Including Sars-Cov-2 And Other
+Microbial Agents
+K233453 - Page 6 of 25
+
+[Table 1 on page 6]
+				provider should conduct
+additional confirmation
+testing with a new specimen,
+if clinically indicated.
+Two or more SARS-CoV-2
+targets = POS	POS
+or
+NEG	VALID	Positive
+SARS-CoV-2	REPORT
+Report the results to the
+healthcare provider.
+
+[Table 2 on page 6]
+	Device & Predicate Device			K233453			K211079	
+	Device Trade Name		TaqPath COVID-19 Diagnostic Kit			BioFire COVID-19 Test 2		
+	Regulation Number		21 CFR 866.3981			Same		
+Regulation Name			Multi-Target Respiratory Specimen Nucleic
+Acid Test Including Sars-Cov-2 And Other
+Microbial Agents			Same		
+
+--- Page 7 ---
+Product Code QQX QQX
+General Device Characteristic
+Organisms Detected SARS-CoV-2 SARS-CoV-2
+Analyte RNA RNA
+Technological Principles RT-PCR RT-PCR
+For prescription use Same
+Condition for use
+For in vitro diagnostic use only.
+Specimen Types nasopharyngeal swabs and anterior nasal nasopharyngeal swabs
+swabs
+Test Interpretation Automated test interpretation Automated test interpretation
+Target Genes ORF1ab, S gene, N Gene ORF1ab, S gene, N Gene, ORF8
+Intended Use/ Indications The TaqPath COVID-19 Diagnostic PCR The BioFire COVID-19 Test 2 is a
+For Use Kit is a real-time reverse transcription qualitative nested multiplexed RT-
+polymerase chain reaction (RT-PCR) test PCR in vitro diagnostic. test intended
+intended for the qualitative detection of for use with the BioFire FilmArray
+nucleic acid from SARS-CoV-2 in 2.0 and BioFire FilmArray Torch
+nasopharyngeal and anterior nasal Systems.
+specimens from individuals with signs and The BioFire COVID-19 Test 2
+symptoms of respiratory tract infection. detects nucleic acids from severe
+acute respiratory syndrome
+The TaqPath COVID-19 Diagnostic PCR coronavirus 2 (SARS- CoV-2) in
+Kit is intended for use as an aid in the nasopharyngeal swabs (NPS) from
+diagnosis of COVID-19 if used in individuals suspected of COVID-19
+conjunction with other clinical by their healthcare provider. Results
+observations, epidemiological information, are for the identification of SARS-
+and laboratory findings. The SARS-CoV-2 CoV-2 RNA. The SARS-CoV-2
+RNA is generally detectable in upper RNA is
+respiratory (anterior nasal and generally detectable in NPS
+nasopharyngeal swabs) specimens during specimens during the acute phase of
+the acute phase of infection. Positive results infection. Positive results are
+are indicative of the presence of SARS- indicative of the presence of SARS-
+CoV-2 RNA. Positive results do not rule CoV- 2 RNA; clinical correlation
+out bacterial infection or co-infection with with patient history and other
+other pathogens. The agent detected may diagnostic information is necessary to
+not be the definite cause of disease. determine patient infection status.
+Positive results do not rule out co-
+Negative results do not preclude SARS- infection with other pathogens.
+CoV-2 infection and should not be used as Results are meant to be used in
+the sole basis for patient management conjunction with other clinical,
+decisions. epidemiologic, and laboratory data, in
+accordance with the guidelines
+The TaqPath COVID-19 Diagnostic PCR provided by the relevant public health
+Kit is intended for use by qualified clinical authorities.
+laboratory personnel specifically instructed The BioFire COVID-19 Test 2 is
+and trained in the techniques of real-time intended for use by trained medical
+PCR and in vitro diagnostic procedures. and laboratory professionals in a
+laboratory setting or under the
+supervision of a trained laboratory
+professional.
+Instrumentation 7500 Fast Dx, or FilmArray 2.0 or FilmArray Torch
+QuantStudio 5 Dx
+Controls One negative control and one positive Two internal controls are included in
+control are run for each assay. each reagent pouch for quality control
+of sample processing and both PCR
+stages and melt analysis.
+K233453 - Page 7 of 25
+
+[Table 1 on page 7]
+	Product Code		QQX	QQX
+General Device Characteristic	General Device Characteristic			
+	Organisms Detected		SARS-CoV-2	SARS-CoV-2
+	Analyte		RNA	RNA
+	Technological Principles		RT-PCR	RT-PCR
+Condition for use			For prescription use
+For in vitro diagnostic use only.	Same
+Specimen Types			nasopharyngeal swabs and anterior nasal
+swabs	nasopharyngeal swabs
+	Test Interpretation		Automated test interpretation	Automated test interpretation
+	Target Genes		ORF1ab, S gene, N Gene	ORF1ab, S gene, N Gene, ORF8
+Intended Use/ Indications
+For Use	Intended Use/ Indications		The TaqPath COVID-19 Diagnostic PCR
+Kit is a real-time reverse transcription
+polymerase chain reaction (RT-PCR) test
+intended for the qualitative detection of
+nucleic acid from SARS-CoV-2 in
+nasopharyngeal and anterior nasal
+specimens from individuals with signs and
+symptoms of respiratory tract infection.
+The TaqPath COVID-19 Diagnostic PCR
+Kit is intended for use as an aid in the
+diagnosis of COVID-19 if used in
+conjunction with other clinical
+observations, epidemiological information,
+and laboratory findings. The SARS-CoV-2
+RNA is generally detectable in upper
+respiratory (anterior nasal and
+nasopharyngeal swabs) specimens during
+the acute phase of infection. Positive results
+are indicative of the presence of SARS-
+CoV-2 RNA. Positive results do not rule
+out bacterial infection or co-infection with
+other pathogens. The agent detected may
+not be the definite cause of disease.
+Negative results do not preclude SARS-
+CoV-2 infection and should not be used as
+the sole basis for patient management
+decisions.
+The TaqPath COVID-19 Diagnostic PCR
+Kit is intended for use by qualified clinical
+laboratory personnel specifically instructed
+and trained in the techniques of real-time
+PCR and in vitro diagnostic procedures.	The BioFire COVID-19 Test 2 is a
+qualitative nested multiplexed RT-
+PCR in vitro diagnostic. test intended
+for use with the BioFire FilmArray
+2.0 and BioFire FilmArray Torch
+Systems.
+The BioFire COVID-19 Test 2
+detects nucleic acids from severe
+acute respiratory syndrome
+coronavirus 2 (SARS- CoV-2) in
+nasopharyngeal swabs (NPS) from
+individuals suspected of COVID-19
+by their healthcare provider. Results
+are for the identification of SARS-
+CoV-2 RNA. The SARS-CoV-2
+RNA is
+generally detectable in NPS
+specimens during the acute phase of
+infection. Positive results are
+indicative of the presence of SARS-
+CoV- 2 RNA; clinical correlation
+with patient history and other
+diagnostic information is necessary to
+determine patient infection status.
+Positive results do not rule out co-
+infection with other pathogens.
+Results are meant to be used in
+conjunction with other clinical,
+epidemiologic, and laboratory data, in
+accordance with the guidelines
+provided by the relevant public health
+authorities.
+The BioFire COVID-19 Test 2 is
+intended for use by trained medical
+and laboratory professionals in a
+laboratory setting or under the
+supervision of a trained laboratory
+professional.
+	For Use			
+				
+Instrumentation			7500 Fast Dx, or
+QuantStudio 5 Dx	FilmArray 2.0 or FilmArray Torch
+Controls			One negative control and one positive
+control are run for each assay.	Two internal controls are included in
+each reagent pouch for quality control
+of sample processing and both PCR
+stages and melt analysis.
+
+--- Page 8 ---
+VI Standards/Guidance Documents Referenced:
+Class II Special Controls as per 21 CFR 866.3981.
+VII Performance Characteristics:
+A Analytical Performance:
+1. Precision/Reproducibility
+The reproducibility of the TaqPath COVID-19 Diagnostic PCR Kit was assessed across three
+sites utilizing both the 7500 Fast Dx Real-Time PCR (RT-PCR) instrument and the
+QuantStudio 5 Dx RT-PCR instrument at each site. A panel of three samples was created
+using inactivated SARS-CoV-2 virus (USA-WA1/2020) spiked into pooled negative
+nasopharyngeal (NP) matrix at concentrations to target 5x limit of detection (LoD), 1.5x
+LoD, and 0x LoD (i.e., no analyte). Each site conducted two runs per day involving two
+operators each performing one run per day for five non-consecutive days for each of the three
+lots of assay reagents. Each run tested three replicates of each sample, resulting in a total of
+270 observations per panel member for each RT-PCR instrument (3 sites × 2 operators/site ×
+3 lots/operator × 5 days/lot × 3 replicates/day = 270 observations). Samples were blinded and
+randomized before testing. All samples were extracted using the KingFisher Flex and the
+MagMAX Viral/Pathogen II Nucleic Acid Isolation Kit.
+Qualitative results obtained from testing TaqPath COVID-19 Diagnostic PCR Kit across the
+three sites are summarized in Table 4. There was 100% agreement with the expected results
+observed across all three testing sites on both the 7500 Fast Dx RT-PCR instrument and the
+QuantStudio 5 Dx RT-PCR instrument.
+The reproducibility of TaqPath COVID-19 Diagnostic PCR Kit for the panel members was
+also assessed based on the standard deviation (SD) and coefficient of variation (%CV) of the
+mean cycle threshold (Ct) value for each potential source of variability. This assessment,
+presented in Tables 5 and 6 for each of the RT-PCR instruments, is stratified by the assay
+target. An analysis will have less than 270 replicates if there are samples tested that do not
+have amplification detected for an assay target. The within-laboratory precision of the
+TaqPath COVID-19 Diagnostic PCR Kit by site was also evaluated and is presented in Table
+7 and 8 for each of the RT-PCR instruments.
+Table 4: Summary of the Qualitative Results for TaqPath COVID-19 Diagnostic PCR Kit
+Panel Agreement with the
+Instrument Site N[1]
+Member Expected Results
+1 90 100%
+2 90 100%
+1.5x LoD
+3 90 100%
+7500 Fast Dx RT-PCR 1 90 100%
+Instrument 2 90 100%
+5x LoD
+3 90 100%
+1 90 100%
+K233453 - Page 8 of 25
+
+[Table 1 on page 8]
+				
+	Panel			Agreement with the
+Instrument		Site	N[1]	
+	Member			Expected Results
+				
+				
+7500 Fast Dx RT-PCR
+Instrument	1.5x LoD	1	90	100%
+		2	90	100%
+		3	90	100%
+	5x LoD	1	90	100%
+		2	90	100%
+		3	90	100%
+		1	90	100%
+
+--- Page 9 ---
+2 90 100%
+No analyte
+3 90 100%
+1 90 100%
+1.5x 2 90 100%
+3 90 100%
+1 90 100%
+QuantStudio 5 Dx RT-PCR 5x 2 90 100%
+Instrument 3 90 100%
+1 90 100%
+No analyte 2 90 100%
+3 90 100%
+[1]
+Total number of valid tests
+Table 5: Summary of Reproducibility for 7500 Fast Dx RT-PCR Instrument
+(Ct signal analysis)
+Between Between Between Between Repeatability Total
+Panel Detected Mean Lots Sites Days Operators/Run (Within-Run) Reproducibility
+Member Target (n/N)[1] Ct
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+ORF1ab 270/270 31.82 0.02 0.07 0.56 1.76 0.14 0.43 0.15 0.48 0.55 1.72 0.81 2.54
+N gene 270/270 32.27 0.02 0.06 0.43 1.34 0.00 0.00 0.19 0.60 0.58 1.81 0.75 2.33
+1.5x LoD S gene 264/270 32.27 0.07 0.20 0.05 0.15 0.00 0.00 0.26 0.82 0.80 2.47 0.84 2.61
+MS2 270/270 24.48 0.14 0.58 0.26 1.06 0.28 1.14 0.23 0.92 0.18 0.73 0.50 2.04
+ORF1ab 270/270 30.14 0.06 0.21 0.62 2.07 0.06 0.21 0.14 0.45 0.39 1.31 0.75 2.50
+N gene 270/270 30.57 0.01 0.04 0.48 1.58 0.16 0.53 0.00 0.00 0.34 1.12 0.61 2.01
+5x LoD S gene 270/270 30.41 0.08 0.25 0.26 0.87 0.08 0.28 0.05 0.17 0.36 1.19 0.47 1.53
+MS2 270/270 24.46 0.13 0.52 0.33 1.33 0.33 1.33 0.27 1.09 0.22 0.92 0.59 2.42
+0x LoD MS2 270/270 24.50 0.11 0.46 0.18 0.75 0.27 1.09 0.30 1.21 0.17 0.69 0.48 1.97
+[1]
+n is number of tests which contribute Ct values to the analysis. N is the total number of valid tests
+Ct = cycle threshold, LoD = limit of detection, SD = standard deviation, %CV = percent coefficient of variation
+Table 6: Summary of Reproducibility for QuantStudio 5 Dx RT-PCR Instrument
+(Ct signal analysis)
+Between Between Between Between Repeatability Total
+Panel Detected Mean Lots Sites Days Operators/Run (Within-Run) Reproducibility
+Member Target (n/N) Ct
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+ORF1ab 270/270 32.56 0.11 0.35 0.10 0.29 0.00 0.00 0.17 0.53 0.51 1.56 0.56 1.71
+N gene 269/270 33.07 0.00 0.00 0.15 0.44 0.23 0.70 0.10 0.30 0.61 1.84 0.67 2.04
+1.5x LoD S gene 264/270 33.35 0.09 0.26 0.10 0.31 0.00 0.00 0.37 1.12 0.77 2.31 0.87 2.60
+MS2 270/270 25.55 0.05 0.19 0.12 0.46 0.30 1.17 0.40 1.58 0.17 0.65 0.54 2.13
+ORF1ab 270/270 30.94 0.11 0.34 0.00 0.00 0.00 0.00 0.13 0.43 0.30 0.99 0.35 1.13
+N gene 270/270 31.34 0.10 0.31 0.05 0.15 0.07 0.22 0.14 0.44 0.35 1.10 0.39 1.25
+5x LoD
+S gene 270/270 31.35 0.11 0.34 0.11 0.35 0.00 0.00 0.19 0.59 0.27 0.87 0.36 1.16
+K233453 - Page 9 of 25
+
+[Table 1 on page 9]
+	No analyte	2	90	100%
+		3	90	100%
+QuantStudio 5 Dx RT-PCR
+Instrument	1.5x	1	90	100%
+		2	90	100%
+		3	90	100%
+	5x	1	90	100%
+		2	90	100%
+		3	90	100%
+	No analyte	1	90	100%
+		2	90	100%
+		3	90	100%
+
+[Table 2 on page 9]
+															
+				Between		Between		Between		Between		Repeatability		Total	
+Panel		Detected	Mean	Lots		Sites		Days		Operators/Run		(Within-Run)		Reproducibility	
+Member	Target	(n/N)[1]	Ct												
+															
+				SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+															
+	ORF1ab	270/270	31.82	0.02	0.07	0.56	1.76	0.14	0.43	0.15	0.48	0.55	1.72	0.81	2.54
+	N gene	270/270	32.27	0.02	0.06	0.43	1.34	0.00	0.00	0.19	0.60	0.58	1.81	0.75	2.33
+1.5x LoD	S gene	264/270	32.27	0.07	0.20	0.05	0.15	0.00	0.00	0.26	0.82	0.80	2.47	0.84	2.61
+	MS2	270/270	24.48	0.14	0.58	0.26	1.06	0.28	1.14	0.23	0.92	0.18	0.73	0.50	2.04
+	ORF1ab	270/270	30.14	0.06	0.21	0.62	2.07	0.06	0.21	0.14	0.45	0.39	1.31	0.75	2.50
+	N gene	270/270	30.57	0.01	0.04	0.48	1.58	0.16	0.53	0.00	0.00	0.34	1.12	0.61	2.01
+5x LoD	S gene	270/270	30.41	0.08	0.25	0.26	0.87	0.08	0.28	0.05	0.17	0.36	1.19	0.47	1.53
+	MS2	270/270	24.46	0.13	0.52	0.33	1.33	0.33	1.33	0.27	1.09	0.22	0.92	0.59	2.42
+0x LoD	MS2	270/270	24.50	0.11	0.46	0.18	0.75	0.27	1.09	0.30	1.21	0.17	0.69	0.48	1.97
+
+[Table 3 on page 9]
+															
+				Between		Between		Between		Between		Repeatability		Total	
+Panel		Detected	Mean	Lots		Sites		Days		Operators/Run		(Within-Run)		Reproducibility	
+Member	Target	(n/N)	Ct												
+															
+				SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+															
+	ORF1ab	270/270	32.56	0.11	0.35	0.10	0.29	0.00	0.00	0.17	0.53	0.51	1.56	0.56	1.71
+	N gene	269/270	33.07	0.00	0.00	0.15	0.44	0.23	0.70	0.10	0.30	0.61	1.84	0.67	2.04
+1.5x LoD	S gene	264/270	33.35	0.09	0.26	0.10	0.31	0.00	0.00	0.37	1.12	0.77	2.31	0.87	2.60
+	MS2	270/270	25.55	0.05	0.19	0.12	0.46	0.30	1.17	0.40	1.58	0.17	0.65	0.54	2.13
+	ORF1ab	270/270	30.94	0.11	0.34	0.00	0.00	0.00	0.00	0.13	0.43	0.30	0.99	0.35	1.13
+	N gene	270/270	31.34	0.10	0.31	0.05	0.15	0.07	0.22	0.14	0.44	0.35	1.10	0.39	1.25
+5x LoD	S gene	270/270	31.35	0.11	0.34	0.11	0.35	0.00	0.00	0.19	0.59	0.27	0.87	0.36	1.16
+
+--- Page 10 ---
+MS2 270/270 25.54 0.06 0.22 0.17 0.67 0.32 1.25 0.32 1.24 0.23 0.90 0.54 2.10
+0x LoD MS2 270/270 25.52 0.00 0.00 0.25 0.97 0.31 1.23 0.29 1.13 0.14 0.56 0.51 2.01
+[1]
+n is number of tests which contribute Ct values to the analysis. N is the total number of valid tests
+Ct = cycle threshold, LoD = limit of detection, SD = standard deviation, %CV = percent coefficient of variation
+Table 7: Summary of Within-Laboratory Precision by Site for 7500 Fast Dx RT-PCR
+Instrument (Ct signal analysis)
+Between Between Between Repeatability Within-lab
+Panel Detected Mean
+Lots Days Operators/Runs (Within-run) Precision
+Site Member Target (n/N) Ct
+SD %CV SD %CV SD %CV SD %CV SD %CV
+ORF1ab 90/90 32.19 0.00 0.00 0.14 0.42 0.14 0.44 0.54 1.69 0.58 1.80
+N gene 90/90 32.56 0.00 0.00 0.00 0.00 0.19 0.58 0.49 1.50 0.52 1.61
+1.5x LoD
+S gene 89/90 32.38 0.00 0.00 0.14 0.43 0.00 0.00 0.57 1.76 0.59 1.81
+MS2 90/90 24.64 0.42 1.70 0.22 0.89 0.12 0.50 0.18 0.75 0.52 2.12
+Site 1 ORF1ab 90/90 30.39 0.06 0.18 0.12 0.41 0.00 0.00 0.38 1.24 0.40 1.32
+N gene 90/90 30.90 0.15 0.48 0.11 0.35 0.00 0.00 0.34 1.11 0.39 1.26
+5x LoD
+S gene 90/90 30.65 0.17 0.55 0.08 0.27 0.00 0.00 0.34 1.10 0.38 1.26
+MS2 90/90 24.55 0.48 1.94 0.08 0.32 0.18 0.74 0.20 0.83 0.55 2.26
+0x LoD MS2 90/90 24.48 0.51 2.08 0.11 0.46 0.19 0.78 0.21 0.87 0.60 2.43
+ORF1ab 90/90 31.17 0.00 0.00 0.19 0.60 0.06 0.18 0.53 1.71 0.57 1.82
+N gene 90/90 31.76 0.00 0.00 0.00 0.00 0.22 0.69 0.58 1.83 0.62 1.95
+1.5x LoD
+S gene 86/90 32.18 0.00 0.00 0.00 0.00 0.00 0.00 0.74 2.30 0.74 2.30
+MS2 90/90 24.17 0.10 0.40 0.26 1.06 0.22 0.93 0.14 0.59 0.38 1.58
+ORF1ab 90/90 29.42 0.05 0.16 0.12 0.41 0.18 0.60 0.44 1.48 0.49 1.66
+Site 2
+N gene 90/90 30.02 0.08 0.26 0.11 0.36 0.00 0.00 0.36 1.21 0.39 1.29
+5x LoD S gene 90/90 30.12 0.04 0.12 0.10 0.34 0.00 0.00 0.36 1.21 0.38 1.26
+MS2 90/90 24.09 0.15 0.61 0.17 0.69 0.27 1.12 0.27 1.12 0.44 1.83
+0x LoD MS2 90/90 24.30 0.23 0.94 0.00 0.00 0.32 1.34 0.13 0.52 0.42 1.71
+ORF1ab 90/90 32.11 0.00 0.00 0.12 0.39 0.22 0.67 0.56 1.75 0.62 1.92
+N gene 90/90 32.47 0.18 0.57 0.00 0.00 0.13 0.39 0.67 2.07 0.71 2.18
+1.5x
+S gene 89/90 32.27 0.00 0.00 0.00 0.00 0.54 1.66 1.01 3.13 1.14 3.55
+LoD
+MS2 90/90 24.64 0.17 0.71 0.12 0.47 0.30 1.20 0.20 0.83 0.42 1.69
+ORF1ab 90/90 30.60 0.11 0.38 0.00 0.00 0.23 0.74 0.36 1.19 0.44 1.45
+Site 3
+N gene 90/90 30.80 0.14 0.46 0.15 0.49 0.00 0.00 0.32 1.03 0.38 1.23
+5x LoD S gene 90/90 30.44 0.10 0.32 0.00 0.00 0.15 0.49 0.38 1.26 0.42 1.39
+MS2 90/90 24.75 0.23 0.91 0.32 1.30 0.33 1.33 0.19 0.77 0.55 2.21
+0x LoD MS2 90/90 24.71 0.10 0.42 0.15 0.61 0.35 1.42 0.16 0.64 0.43 1.72
+[1]
+n is number of tests which contribute Ct values to the analysis. N is the total number of valid tests
+Ct = cycle threshold, LoD = limit of detection, SD = standard deviation, %CV = percent coefficient of variation
+Table 8: Summary of Within-Laboratory Precision Results by Site for QuantStudio 5 Dx
+RT-PCR Instrument
+Between Between Between Repeatability Within-lab
+Panel Detected Mean
+Lots Days Operators/Runs (Within-run) Precision
+Site Member Target (n/N) Ct
+SD %CV SD %CV SD %CV SD %CV SD %CV
+ORF1ab 90/90 32.50 0.14 0.42 0.00 0.00 0.20 0.62 0.51 1.58 0.57 1.75
+N gene 90/90 33.11 0.00 0.00 0.27 0.82 0.00 0.00 0.56 1.69 0.62 1.88
+1.5x LoD
+S gene 89/90 33.20 0.11 0.33 0.23 0.71 0.00 0.00 0.53 1.59 0.59 1.77
+Site 1
+MS2 90/90 25.36 0.41 1.62 0.19 0.75 0.18 0.71 0.14 0.55 0.51 2.00
+5x LoD ORF1ab 90/90 30.93 0.10 0.33 0.00 0.00 0.07 0.22 0.30 0.97 0.33 1.05
+K233453 - Page 10 of 25
+
+[Table 1 on page 10]
+	MS2	270/270	25.54	0.06	0.22	0.17	0.67	0.32	1.25	0.32	1.24	0.23	0.90	0.54	2.10
+0x LoD	MS2	270/270	25.52	0.00	0.00	0.25	0.97	0.31	1.23	0.29	1.13	0.14	0.56	0.51	2.01
+
+[Table 2 on page 10]
+					Between		Between		Between		Repeatability		Within-lab	
+	Panel		Detected	Mean										
+					Lots		Days		Operators/Runs		(Within-run)		Precision	
+Site	Member	Target	(n/N)	Ct										
+					SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+														
+		ORF1ab	90/90	32.19	0.00	0.00	0.14	0.42	0.14	0.44	0.54	1.69	0.58	1.80
+		N gene	90/90	32.56	0.00	0.00	0.00	0.00	0.19	0.58	0.49	1.50	0.52	1.61
+														
+	1.5x LoD	S gene	89/90	32.38	0.00	0.00	0.14	0.43	0.00	0.00	0.57	1.76	0.59	1.81
+		MS2	90/90	24.64	0.42	1.70	0.22	0.89	0.12	0.50	0.18	0.75	0.52	2.12
+														
+Site 1		ORF1ab	90/90	30.39	0.06	0.18	0.12	0.41	0.00	0.00	0.38	1.24	0.40	1.32
+		N gene	90/90	30.90	0.15	0.48	0.11	0.35	0.00	0.00	0.34	1.11	0.39	1.26
+	5x LoD													
+		S gene	90/90	30.65	0.17	0.55	0.08	0.27	0.00	0.00	0.34	1.10	0.38	1.26
+														
+		MS2	90/90	24.55	0.48	1.94	0.08	0.32	0.18	0.74	0.20	0.83	0.55	2.26
+	0x LoD	MS2	90/90	24.48	0.51	2.08	0.11	0.46	0.19	0.78	0.21	0.87	0.60	2.43
+		ORF1ab	90/90	31.17	0.00	0.00	0.19	0.60	0.06	0.18	0.53	1.71	0.57	1.82
+		N gene	90/90	31.76	0.00	0.00	0.00	0.00	0.22	0.69	0.58	1.83	0.62	1.95
+	1.5x LoD													
+		S gene	86/90	32.18	0.00	0.00	0.00	0.00	0.00	0.00	0.74	2.30	0.74	2.30
+														
+		MS2	90/90	24.17	0.10	0.40	0.26	1.06	0.22	0.93	0.14	0.59	0.38	1.58
+														
+		ORF1ab	90/90	29.42	0.05	0.16	0.12	0.41	0.18	0.60	0.44	1.48	0.49	1.66
+Site 2														
+		N gene	90/90	30.02	0.08	0.26	0.11	0.36	0.00	0.00	0.36	1.21	0.39	1.29
+														
+	5x LoD	S gene	90/90	30.12	0.04	0.12	0.10	0.34	0.00	0.00	0.36	1.21	0.38	1.26
+		MS2	90/90	24.09	0.15	0.61	0.17	0.69	0.27	1.12	0.27	1.12	0.44	1.83
+	0x LoD	MS2	90/90	24.30	0.23	0.94	0.00	0.00	0.32	1.34	0.13	0.52	0.42	1.71
+		ORF1ab	90/90	32.11	0.00	0.00	0.12	0.39	0.22	0.67	0.56	1.75	0.62	1.92
+														
+		N gene	90/90	32.47	0.18	0.57	0.00	0.00	0.13	0.39	0.67	2.07	0.71	2.18
+	1.5x													
+		S gene	89/90	32.27	0.00	0.00	0.00	0.00	0.54	1.66	1.01	3.13	1.14	3.55
+	LoD													
+		MS2	90/90	24.64	0.17	0.71	0.12	0.47	0.30	1.20	0.20	0.83	0.42	1.69
+														
+		ORF1ab	90/90	30.60	0.11	0.38	0.00	0.00	0.23	0.74	0.36	1.19	0.44	1.45
+Site 3														
+		N gene	90/90	30.80	0.14	0.46	0.15	0.49	0.00	0.00	0.32	1.03	0.38	1.23
+														
+	5x LoD	S gene	90/90	30.44	0.10	0.32	0.00	0.00	0.15	0.49	0.38	1.26	0.42	1.39
+		MS2	90/90	24.75	0.23	0.91	0.32	1.30	0.33	1.33	0.19	0.77	0.55	2.21
+	0x LoD	MS2	90/90	24.71	0.10	0.42	0.15	0.61	0.35	1.42	0.16	0.64	0.43	1.72
+
+[Table 3 on page 10]
+					Between		Between		Between		Repeatability		Within-lab	
+	Panel		Detected	Mean										
+					Lots		Days		Operators/Runs		(Within-run)		Precision	
+Site	Member	Target	(n/N)	Ct										
+					SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+														
+		ORF1ab	90/90	32.50	0.14	0.42	0.00	0.00	0.20	0.62	0.51	1.58	0.57	1.75
+		N gene	90/90	33.11	0.00	0.00	0.27	0.82	0.00	0.00	0.56	1.69	0.62	1.88
+	1.5x LoD													
+Site 1		S gene	89/90	33.20	0.11	0.33	0.23	0.71	0.00	0.00	0.53	1.59	0.59	1.77
+		MS2	90/90	25.36	0.41	1.62	0.19	0.75	0.18	0.71	0.14	0.55	0.51	2.00
+	5x LoD	ORF1ab	90/90	30.93	0.10	0.33	0.00	0.00	0.07	0.22	0.30	0.97	0.33	1.05
+
+--- Page 11 ---
+N gene 90/90 31.41 0.12 0.38 0.11 0.34 0.00 0.00 0.35 1.10 0.38 1.21
+S gene 90/90 31.47 0.15 0.47 0.00 0.00 0.09 0.29 0.27 0.87 0.32 1.03
+MS2 90/90 25.31 0.45 1.77 0.09 0.37 0.16 0.63 0.14 0.56 0.51 2.00
+0x LoD MS2 90/90 25.21 0.46 1.81 0.10 0.39 0.22 0.89 0.12 0.47 0.53 2.11
+ORF1ab 90/90 32.69 0.06 0.17 0.00 0.00 0.32 0.98 0.42 1.27 0.53 1.61
+N gene 90/90 33.22 0.00 0.00 0.22 0.67 0.06 0.19 0.61 1.84 0.65 1.97
+1.5x LoD
+S gene 86/90 33.43 0.26 0.77 0.00 0.00 0.34 1.02 0.85 2.55 0.95 2.85
+MS2 90/90 25.63 0.06 0.22 0.18 0.70 0.36 1.40 0.12 0.46 0.42 1.65
+ORF1ab 90/90 30.98 0.09 0.28 0.00 0.00 0.00 0.00 0.31 1.01 0.32 1.05
+Site 2
+N gene 90/90 31.33 0.07 0.23 0.00 0.00 0.00 0.00 0.36 1.14 0.37 1.17
+5x LoD S gene 90/90 31.24 0.10 0.31 0.00 0.00 0.17 0.56 0.27 0.86 0.34 1.07
+MS2 90/90 25.58 0.13 0.52 0.05 0.21 0.27 1.05 0.28 1.08 0.41 1.61
+0x LoD MS2 90/90 25.70 0.17 0.68 0.06 0.25 0.27 1.06 0.13 0.51 0.35 1.38
+ORF1ab 90/90 32.48 0.16 0.49 0.21 0.65 0.00 0.00 0.58 1.78 0.64 1.96
+N gene 90/90 32.89 0.12 0.36 0.24 0.72 0.27 0.83 0.65 1.97 0.75 2.28
+1.5x
+S gene 89/90 33.44 0.00 0.00 0.00 0.00 0.61 1.82 0.89 2.65 1.08 3.22
+LoD
+MS2 90/90 25.65 0.25 0.98 0.15 0.58 0.58 2.27 0.22 0.86 0.69 2.68
+ORF1ab 90/90 30.91 0.16 0.52 0.03 0.09 0.23 0.74 0.30 0.97 0.41 1.33
+Site 3
+N gene 90/90 31.28 0.21 0.68 0.00 0.00 0.25 0.79 0.33 1.06 0.47 1.49
+5x LoD S gene 90/90 31.34 0.07 0.22 0.00 0.00 0.26 0.82 0.28 0.88 0.38 1.22
+MS2 90/90 25.72 0.35 1.37 0.25 0.96 0.45 1.74 0.25 0.96 0.67 2.60
+0x LoD MS2 90/90 25.66 0.29 1.11 0.22 0.86 0.36 1.39 0.17 0.67 0.54 2.09
+[1]
+n is number of tests which contribute Ct values to the analysis. N is the total number of valid tests
+Ct = cycle threshold, LoD = limit of detection, SD = standard deviation, %CV = percent coefficient of variation
+2. Linearity:
+Not applicable; this is a qualitative assay.
+3. Analytical Specificity/Interference:
+a) Cross-Reactivity and Microbial Interference
+This study evaluated the analytical specificity of the TaqPath COVID-19 Diagnostic PCR Kit
+by testing samples containing organisms that are commonly found in the respiratory tract and
+might cause similar clinical symptoms as SARS-CoV-2. A panel of 46 potentially cross-
+reactive organisms (viruses, bacteria and fungi) were spiked into pooled negative
+nasopharyngeal (NP) clinical matrix at a high, clinically relevant concentration (106 CFU/mL
+or higher for bacteria/fungi and 105 PFU/mL or TCID /mL or higher for viruses) in the
+50
+absence or presence of SARS-CoV-2 target (spiked at ~3x LoD). Organisms that did not
+meet the target testing concentration above were tested at the highest possible concentration.
+Each microorganism was tested in triplicate. For all organisms tested, no cross-reactivity or
+microbial interference was observed at the concentrations tested, as shown below.
+Table 9: Summary of the Microorganisms and Concentrations Tested in Cross-
+Reactivity Studies
+Type Microorganism Concentration Tested
+Virus Human coronavirus 229E[1] 2.8×104 TCID /mL
+50
+Virus Human coronavirus OC43 1.0×105 TCID /mL
+50
+K233453 - Page 11 of 25
+
+[Table 1 on page 11]
+		N gene	90/90	31.41	0.12	0.38	0.11	0.34	0.00	0.00	0.35	1.10	0.38	1.21
+		S gene	90/90	31.47	0.15	0.47	0.00	0.00	0.09	0.29	0.27	0.87	0.32	1.03
+		MS2	90/90	25.31	0.45	1.77	0.09	0.37	0.16	0.63	0.14	0.56	0.51	2.00
+	0x LoD	MS2	90/90	25.21	0.46	1.81	0.10	0.39	0.22	0.89	0.12	0.47	0.53	2.11
+		ORF1ab	90/90	32.69	0.06	0.17	0.00	0.00	0.32	0.98	0.42	1.27	0.53	1.61
+		N gene	90/90	33.22	0.00	0.00	0.22	0.67	0.06	0.19	0.61	1.84	0.65	1.97
+	1.5x LoD													
+		S gene	86/90	33.43	0.26	0.77	0.00	0.00	0.34	1.02	0.85	2.55	0.95	2.85
+														
+		MS2	90/90	25.63	0.06	0.22	0.18	0.70	0.36	1.40	0.12	0.46	0.42	1.65
+														
+		ORF1ab	90/90	30.98	0.09	0.28	0.00	0.00	0.00	0.00	0.31	1.01	0.32	1.05
+Site 2														
+		N gene	90/90	31.33	0.07	0.23	0.00	0.00	0.00	0.00	0.36	1.14	0.37	1.17
+														
+	5x LoD	S gene	90/90	31.24	0.10	0.31	0.00	0.00	0.17	0.56	0.27	0.86	0.34	1.07
+		MS2	90/90	25.58	0.13	0.52	0.05	0.21	0.27	1.05	0.28	1.08	0.41	1.61
+	0x LoD	MS2	90/90	25.70	0.17	0.68	0.06	0.25	0.27	1.06	0.13	0.51	0.35	1.38
+		ORF1ab	90/90	32.48	0.16	0.49	0.21	0.65	0.00	0.00	0.58	1.78	0.64	1.96
+														
+		N gene	90/90	32.89	0.12	0.36	0.24	0.72	0.27	0.83	0.65	1.97	0.75	2.28
+	1.5x													
+		S gene	89/90	33.44	0.00	0.00	0.00	0.00	0.61	1.82	0.89	2.65	1.08	3.22
+	LoD													
+		MS2	90/90	25.65	0.25	0.98	0.15	0.58	0.58	2.27	0.22	0.86	0.69	2.68
+														
+		ORF1ab	90/90	30.91	0.16	0.52	0.03	0.09	0.23	0.74	0.30	0.97	0.41	1.33
+Site 3														
+		N gene	90/90	31.28	0.21	0.68	0.00	0.00	0.25	0.79	0.33	1.06	0.47	1.49
+														
+	5x LoD	S gene	90/90	31.34	0.07	0.22	0.00	0.00	0.26	0.82	0.28	0.88	0.38	1.22
+		MS2	90/90	25.72	0.35	1.37	0.25	0.96	0.45	1.74	0.25	0.96	0.67	2.60
+	0x LoD	MS2	90/90	25.66	0.29	1.11	0.22	0.86	0.36	1.39	0.17	0.67	0.54	2.09
+
+[Table 2 on page 11]
+		
+Type	Microorganism	Concentration Tested
+		
+Virus	Human coronavirus 229E[1]	2.8×104 TCID /mL
+50
+Virus	Human coronavirus OC43	1.0×105 TCID /mL
+50
+
+--- Page 12 ---
+Virus Human coronavirus NL63[1] 2.3×104 TCID /mL
+50
+Virus MERS-CoV 29.4 Ct
+Virus Coronavirus-SARS 28.8 Ct
+Virus Adenovirus Type 1 1.0×105 TCID /mL
+50
+Virus Mastadenovirus B Type 7 1.0×105 TCID /mL
+50
+Virus Human Metapneumovirus (hMPV) 1.0×105 TCID /mL
+50
+Virus Parainfluenza virus 1 1.0×105 TCID /mL
+50
+Virus Parainfluenza virus 2 1.0×105 TCID /mL
+50
+Virus Parainfluenza virus 3 1.0×105 TCID /mL
+50
+Virus Parainfluenza virus 4 1.0×105 TCID /mL
+50
+Virus Influenza A[1] 8.3×104 TCID /mL
+50
+Virus Influenza B[1] 8.3×104 TCID /mL
+50
+Virus Respiratory syncytial virus A 1.0×105 TCID /mL
+50
+Virus Respiratory syncytial virus B 1.0×105 TCID /mL
+50
+Virus Rhinovirus[1] 2.8×104 TCID /mL
+50
+Virus Measles 1.0×105 TCID /mL
+50
+Virus Mumps 1.0×105 TCID /mL
+50
+Virus Cytomegalovirus[1] 3.2×104 TCID /mL
+50
+1.6×107 copies/mL (cross-reactivity)
+Virus Epstein-Barr virus 5.9×106 copies/mL (microbial
+interference)
+Virus Human Immunodeficiency Virus type 1[1] 1.0×104 International Units (IU)/mL
+Virus Human coronovirus (HKU1)[1][2] 9.99 × 104 copies/mL
+Virus Enterovirus (EV-D68)[1][2] 9.88 × 104 copies/mL
+Bacteria Chlamydia pneumoniae 1.0×106 Infectious Units (IFU)/mL
+Bacteria Haemophilus influenzae 1.0×106 CFU/mL
+Bacteria Legionella pneumophila 1.0×106 CFU/mL
+5.4×107 GCE/mL (cross-reactivity)
+Bacteria Mycobacterium tuberculosis 8.6×107 GCE/mL (microbial
+interference)
+Bacteria Streptococcus pneumoniae 1.0×106 CFU/mL
+Bacteria Fusobacterium necrophorum 1.0×106 CFU/mL
+Bacteria Pseudomonas aeruginosa 1.0×106 CFU/mL
+Bacteria Staphylococcus epidermis, MRSE 1.0×106 CFU/mL
+K233453 - Page 12 of 25
+
+[Table 1 on page 12]
+Virus	Human coronavirus NL63[1]	2.3×104 TCID /mL
+50
+Virus	MERS-CoV	29.4 Ct
+Virus	Coronavirus-SARS	28.8 Ct
+Virus	Adenovirus Type 1	1.0×105 TCID /mL
+50
+Virus	Mastadenovirus B Type 7	1.0×105 TCID /mL
+50
+Virus	Human Metapneumovirus (hMPV)	1.0×105 TCID /mL
+50
+Virus	Parainfluenza virus 1	1.0×105 TCID /mL
+50
+Virus	Parainfluenza virus 2	1.0×105 TCID /mL
+50
+Virus	Parainfluenza virus 3	1.0×105 TCID /mL
+50
+Virus	Parainfluenza virus 4	1.0×105 TCID /mL
+50
+Virus	Influenza A[1]	8.3×104 TCID /mL
+50
+Virus	Influenza B[1]	8.3×104 TCID /mL
+50
+Virus	Respiratory syncytial virus A	1.0×105 TCID /mL
+50
+Virus	Respiratory syncytial virus B	1.0×105 TCID /mL
+50
+Virus	Rhinovirus[1]	2.8×104 TCID /mL
+50
+Virus	Measles	1.0×105 TCID /mL
+50
+Virus	Mumps	1.0×105 TCID /mL
+50
+Virus	Cytomegalovirus[1]	3.2×104 TCID /mL
+50
+Virus	Epstein-Barr virus	1.6×107 copies/mL (cross-reactivity)
+5.9×106 copies/mL (microbial
+interference)
+Virus	Human Immunodeficiency Virus type 1[1]	1.0×104 International Units (IU)/mL
+Virus	Human coronovirus (HKU1)[1][2]	9.99 × 104 copies/mL
+Virus	Enterovirus (EV-D68)[1][2]	9.88 × 104 copies/mL
+Bacteria	Chlamydia pneumoniae	1.0×106 Infectious Units (IFU)/mL
+Bacteria	Haemophilus influenzae	1.0×106 CFU/mL
+Bacteria	Legionella pneumophila	1.0×106 CFU/mL
+Bacteria	Mycobacterium tuberculosis	5.4×107 GCE/mL (cross-reactivity)
+8.6×107 GCE/mL (microbial
+interference)
+Bacteria	Streptococcus pneumoniae	1.0×106 CFU/mL
+Bacteria	Fusobacterium necrophorum	1.0×106 CFU/mL
+Bacteria	Pseudomonas aeruginosa	1.0×106 CFU/mL
+Bacteria	Staphylococcus epidermis, MRSE	1.0×106 CFU/mL
+
+--- Page 13 ---
+Bacteria Streptococcus salivarius 1.0×106 CFU/mL
+Bacteria Corynebacterium diphtheriae 1.0×106 CFU/mL
+Bacteria Escherichia coli 1.0×106 CFU/mL
+Bacteria Lactobacillus acidophilus 1.0×106 CFU/mL
+Bacteria Moraxella catarrhalis 1.0×106 CFU/mL
+Bacteria Neisseria meningitidis 1.0×106 CFU/mL
+Bacteria Neisseria elongata 1.0×106 CFU/mL
+Bacteria Staphylococcus aureus, MRSA 1.00×106 CFU/mL
+Bacteria Streptococcus pyogenes 1.0×106 CFU/mL
+Bacteria Bordetella pertussis 1.0×106 CFU/mL
+Bacteria Bordetella parapertussis 1.0×106 CFU/mL
+1.0×106 Colony Changing Units
+Bacteria Mycoplasma pneumoniae
+(CCU)/mL
+Bacteria Mycoplasma genitalium[1] 4.0×105 Bacteria/mL
+Fungi Candida albicans 1.0×106 CFU/mL
+Fungi Aspergillus flavus 1.0×106 CFU/mL
+Fungi Pneumocystis carinii 1.0×106 Cells/mL
+Biofluid Pooled human nasal wash[3] Neat
+[1]A lower concentration was tested due to inability to obtain stock material with high titer.
+[2]Microbial interference was not evaluated.
+[3]Used to represent diverse microbial flora in the human respiratory tract.
+In silico cross-reactivity analysis of the primer sequences was conducted in March 2023 for
+the SARS-CoV-2 and MS2 assay components of the TaqPath COVID-19 Diagnostic PCR
+Kit and common respiratory microorganisms to demonstrate specificity of the primers to
+their targeted sequences.
+A total of 40,811 genome sequences (31,011 virus isolates, 9,996 bacterial isolates, and 14
+fungal isolates) were downloaded from GenBank using the National Center for
+Biotechnology Information (NCBI) Genome (https://www.ncbi.nlm.nih.gov/data-
+hub/genome) and NCBI Virus (https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/). As
+complete genomes for Candida albicans and Pneumocystis jirovecii where not on NCBI,
+their reference sequences (RefSeq) were tested. Rhinovirus Type 1A did not have any
+complete genomes or a RefSeq, so all 18 partial genomes downloaded from NCBI were
+tested. These sequences were aligned to the TaqPath COVID-19 Diagnostic PCR Kit assay
+primer and probe components using Basic Local Alignment Search Tool (BLAST) software
+v2.12.0 (see table below). Microorganisms were considered non cross-reactive if at least one
+of the SARS-CoV-2 and MS2 assay primers and probes have ≤80% homology or is predicted
+to produce a qPCR amplicon of ≥10,000 bases.
+K233453 - Page 13 of 25
+
+[Table 1 on page 13]
+Bacteria	Streptococcus salivarius	1.0×106 CFU/mL
+Bacteria	Corynebacterium diphtheriae	1.0×106 CFU/mL
+Bacteria	Escherichia coli	1.0×106 CFU/mL
+Bacteria	Lactobacillus acidophilus	1.0×106 CFU/mL
+Bacteria	Moraxella catarrhalis	1.0×106 CFU/mL
+Bacteria	Neisseria meningitidis	1.0×106 CFU/mL
+Bacteria	Neisseria elongata	1.0×106 CFU/mL
+Bacteria	Staphylococcus aureus, MRSA	1.00×106 CFU/mL
+Bacteria	Streptococcus pyogenes	1.0×106 CFU/mL
+Bacteria	Bordetella pertussis	1.0×106 CFU/mL
+Bacteria	Bordetella parapertussis	1.0×106 CFU/mL
+Bacteria	Mycoplasma pneumoniae	1.0×106 Colony Changing Units
+(CCU)/mL
+Bacteria	Mycoplasma genitalium[1]	4.0×105 Bacteria/mL
+Fungi	Candida albicans	1.0×106 CFU/mL
+Fungi	Aspergillus flavus	1.0×106 CFU/mL
+Fungi	Pneumocystis carinii	1.0×106 Cells/mL
+Biofluid	Pooled human nasal wash[3]	Neat
+
+--- Page 14 ---
+None of the isolates analyzed in the study are predicted to cross-react with the TaqPath
+COVID-19 Diagnostic PCR Kit assay.
+Table 10: Microorganisms Assessed for in silico Cross-Reactivity Analysis
+Number of Isolates
+Type Respiratory Pathogen
+Tested
+Bordetella parapertussis 90
+Bordetella pertussis 830
+Chlamydophila pneumoniae 12
+Corynebacterium sp 445
+Escherichia coli 3368
+Fusobacterium necrophorum 5
+Haemophilus influenzae 103
+Klebsiella pneumoniae 2053
+Lactobacillus plantarum 210
+Lactobacillus acidophilus 16
+Legionella pneumophila 117
+Moraxella catarrhalis 12
+Mycobacterium tuberculosis 351
+Mycoplasma genitalium 5
+Bacteria
+Mycoplasma pneumoniae 80
+Neisseria meningitidis 127
+Neisseria sp. 310
+Pseudomonas aeruginosa 665
+Staphylococcus aureus MRSA 605
+Staphylococcus epidermidis 154
+Streptococcus pneumoniae 151
+Streptococcus pyogenes 268
+Streptococcus salivarius 19
+Aspergillus sp. 12
+Candida albicans 1
+Fungi
+Pneumocystis jirovecii 1
+Adenovirus Type 7 284
+Cytomegalovirus 341
+Enterovirus 6556
+Epstein-Barr virus 485
+Hepatitis B Virus 10963
+Hepatitis C Virus 1091
+Herpes Simplex Virus-1 109
+Human coronavirus 229E 90
+Human coronavirus HKU1 56
+Human coronavirus NL63 81
+Human coronavirus OC43 251
+Human Immunodeficiency Virus type 1 6740
+Viruses
+Human metapneumovirus 385
+Measles virus 759
+MERS coronavirus 657
+Mumps virus 1332
+Parainfluenza virus 1 88
+Parainfluenza virus 2 74
+Parainfluenza virus 3 415
+K233453 - Page 14 of 25
+
+[Table 1 on page 14]
+Type	Respiratory Pathogen		Number of Isolates	
+			Tested	
+Bacteria	Bordetella parapertussis	90		
+	Bordetella pertussis	830		
+	Chlamydophila pneumoniae	12		
+	Corynebacterium sp	445		
+	Escherichia coli	3368		
+	Fusobacterium necrophorum	5		
+	Haemophilus influenzae	103		
+	Klebsiella pneumoniae	2053		
+	Lactobacillus plantarum	210		
+	Lactobacillus acidophilus	16		
+	Legionella pneumophila	117		
+	Moraxella catarrhalis	12		
+	Mycobacterium tuberculosis	351		
+	Mycoplasma genitalium	5		
+	Mycoplasma pneumoniae	80		
+	Neisseria meningitidis	127		
+	Neisseria sp.	310		
+	Pseudomonas aeruginosa	665		
+	Staphylococcus aureus MRSA	605		
+	Staphylococcus epidermidis	154		
+	Streptococcus pneumoniae	151		
+	Streptococcus pyogenes	268		
+	Streptococcus salivarius	19		
+Fungi	Aspergillus sp.	12		
+	Candida albicans	1		
+	Pneumocystis jirovecii	1		
+Viruses	Adenovirus Type 7	284		
+	Cytomegalovirus	341		
+	Enterovirus	6556		
+	Epstein-Barr virus	485		
+	Hepatitis B Virus	10963		
+	Hepatitis C Virus	1091		
+	Herpes Simplex Virus-1	109		
+	Human coronavirus 229E	90		
+	Human coronavirus HKU1	56		
+	Human coronavirus NL63	81		
+	Human coronavirus OC43	251		
+	Human Immunodeficiency Virus type 1	6740		
+	Human metapneumovirus	385		
+	Measles virus	759		
+	MERS coronavirus	657		
+	Mumps virus	1332		
+	Parainfluenza virus 1	88		
+	Parainfluenza virus 2	74		
+	Parainfluenza virus 3	415		
+
+--- Page 15 ---
+Parainfluenza virus 4 48
+Rhinovirus Type 1A 18
+SARS coronavirus 14
+Varicella-zoster virus 149
+b) Interfering Substances Study:
+The potential for interference for the TaqPath COVID-19 Diagnostic PCR Kit was evaluated
+with substances that may be present in respiratory specimens. A total of 27 potentially
+interfering endogenous and exogenous substances were tested at or above clinically relevant
+levels in negative pooled nasopharyngeal clinical matrix in absence (contrived negative
+sample) and presence (contrived positive sample) of SARS-CoV-2 target (spiked at ~3x
+LoD). Each sample was tested in triplicate. The FluMist nasal vaccine was not tested.
+Two of the substances tested in the study, nasal corticosteroid Triamcinolone and nasal spray
+or drops containing Oxymetazoline (e.g., Afrin - No Drip, Extra Moisturizing) gave false
+results at concentrations greater than 5% (v/v). Additional testing at lower test substance
+concentrations were performed to determine the concentration where interference is no
+longer observed. None of the 27 substances tested were determined to be inhibitory to the
+TaqPath COVID-19 Diagnostic PCR Kit at the concentrations shown in Table 11 below.
+Table 11: Potential Interfering Substances Tested on the TaqPath COVID-19
+Diagnostic PCR Kit
+Interfering Substance Concentration
+Leukocytes (human) 1% (v/v)
+Mucin: bovine submaxillary gland, type I-S 0.1 mg/mL
+Blood (human) 1% (v/v)
+Throat lozenges: Benzocaine (7.5 mg), Dextromethorphan HBr (5 mg) 1% (w/v)
+Throat lozenges: Menthol (5.4 mg) 2.2 mg/mL
+Nasal sprays or drops: Phenylephrine 10% (v/v)
+Nasal sprays or drops: Oxymetazoline (Afrin - Allergy Sinus) 10% (v/v)
+Nasal sprays or drops: Oxymetazoline (Afrin - No Drip, Extra
+5% (v/v)[1]
+Moisturizing)
+Nasal sprays or drops: Sodium chloride with preservatives 10% (v/v)
+Bronchodilator: Albuterol 0.83 mg/mL
+Nasal corticosteroids: Beclomethasone 2 mg/mL
+Nasal corticosteroids: Dexamethasone 1.5 mg/mL
+Nasal corticosteroids: Flunisolide 2 mg/mL
+Nasal corticosteroids: Budesonide 1% (v/v)
+Nasal corticosteroids: Mometasone 1 mg/mL
+K233453 - Page 15 of 25
+
+[Table 1 on page 15]
+	Parainfluenza virus 4	48
+	Rhinovirus Type 1A	18
+	SARS coronavirus	14
+	Varicella-zoster virus	149
+
+[Table 2 on page 15]
+	
+Interfering Substance	Concentration
+	
+Leukocytes (human)	1% (v/v)
+Mucin: bovine submaxillary gland, type I-S	0.1 mg/mL
+Blood (human)	1% (v/v)
+Throat lozenges: Benzocaine (7.5 mg), Dextromethorphan HBr (5 mg)	1% (w/v)
+Throat lozenges: Menthol (5.4 mg)	2.2 mg/mL
+Nasal sprays or drops: Phenylephrine	10% (v/v)
+Nasal sprays or drops: Oxymetazoline (Afrin - Allergy Sinus)	10% (v/v)
+Nasal sprays or drops: Oxymetazoline (Afrin - No Drip, Extra
+Moisturizing)	5% (v/v)[1]
+Nasal sprays or drops: Sodium chloride with preservatives	10% (v/v)
+Bronchodilator: Albuterol	0.83 mg/mL
+Nasal corticosteroids: Beclomethasone	2 mg/mL
+Nasal corticosteroids: Dexamethasone	1.5 mg/mL
+Nasal corticosteroids: Flunisolide	2 mg/mL
+Nasal corticosteroids: Budesonide	1% (v/v)
+Nasal corticosteroids: Mometasone	1 mg/mL
+
+--- Page 16 ---
+Nasal corticosteroids: Triamcinolone 5% (v/v)[1]
+Nasal corticosteroids: Fluticasone 5 µg/mL
+Nasal gel: Luffa opperculata, sulfur 1% (v/v)
+Zinc Acetate 7.5 mg/mL
+Anti-viral drug: Remdesivir 6.7 µg/mL
+Anti-viral drug: Zanamivir 5.5 mg/mL
+Anti-viral drug: Oseltamivir 33 µg/mL
+Antibiotic, nasal ointment: Mupirocin 5 mg/mL
+Antibacterial, systemic: Tobramycin 4 µg/mL
+Homeopathic allergy medicine: Galphimia glauca, Histaminum
+10% (w/v)
+hydrochloricum
+Tobacco product 1% (w/v)
+Analgesic (e.g., ibuprofen) 21.9 mg/dL
+[1]Interference was observed at concentrations >5% (v/v).
+4. Analytical Reactivity (Inclusivity):
+The inclusivity of the TaqPath COVID-19 Diagnostic PCR Kit for detection of SARS-CoV-2
+was confirmed by testing fifteen variants of SARS-CoV-2. Positive samples were contrived
+by spiking each SARS-CoV-2 virus strain into negative pooled nasopharyngeal clinical
+matrix at a concentration of 3x LoD (150 GCE/mL), then tested in triplicate in a blinded and
+randomized fashion.
+All 15 strains of SARS-CoV-2 tested generated 100% positivity rate demonstrating analytical
+inclusivity. Results are summarized in the table below.
+Table 12: TaqPath Diagnostic PCR Kit Inclusivity Study Results
+Positivity Rate
+Variant Source Catalog Number Isolate ID (#Positive/
+#Tested)
+BEI
+N/A NR-52287 USA-WA1/2020 100% (3/3)
+Resources
+N/A 0810589CFHI Italy-INMI 100% (3/3)
+Hong
+N/A 0810590CFHI 100% (3/3)
+Kong/VM20001061/2020
+Alpha; B.1.1.7 NATSars(CoV2)- VP England/204820464/2020
+ZeptoMetrix
+100% (3/3)
+South Africa/KRISP-
+Beta; B.1.351 NATSars(CoV2)- VP
+K005325/2020 100% (3/3)
+Gamma; P.1 NATSars(CoV2)- VP Japan/TY7-503/2021
+100% (3/3)
+K233453 - Page 16 of 25
+
+[Table 1 on page 16]
+Nasal corticosteroids: Triamcinolone	5% (v/v)[1]
+Nasal corticosteroids: Fluticasone	5 µg/mL
+Nasal gel: Luffa opperculata, sulfur	1% (v/v)
+Zinc Acetate	7.5 mg/mL
+Anti-viral drug: Remdesivir	6.7 µg/mL
+Anti-viral drug: Zanamivir	5.5 mg/mL
+Anti-viral drug: Oseltamivir	33 µg/mL
+Antibiotic, nasal ointment: Mupirocin	5 mg/mL
+Antibacterial, systemic: Tobramycin	4 µg/mL
+Homeopathic allergy medicine: Galphimia glauca, Histaminum
+hydrochloricum	10% (w/v)
+Tobacco product	1% (w/v)
+Analgesic (e.g., ibuprofen)	21.9 mg/dL
+
+[Table 2 on page 16]
+				Positivity Rate
+Variant	Source	Catalog Number	Isolate ID	(#Positive/
+				#Tested)
+N/A	BEI
+Resources	NR-52287	USA-WA1/2020	100% (3/3)
+N/A		0810589CFHI	Italy-INMI	100% (3/3)
+N/A		0810590CFHI	Hong
+Kong/VM20001061/2020	100% (3/3)
+Alpha; B.1.1.7		NATSars(CoV2)- VP	England/204820464/2020	100% (3/3)
+Beta; B.1.351		NATSars(CoV2)- VP	South Africa/KRISP-
+K005325/2020	100% (3/3)
+Gamma; P.1		NATSars(CoV2)- VP	Japan/TY7-503/2021	100% (3/3)
+
+--- Page 17 ---
+Delta; B.1.617.2 NATSars(CoV2)- VP USA/PHC658/2021
+100% (3/3)
+Peru/UN-CDC-2-
+Lambda; C.37 0810640CFHI 100% (3/3)
+4069945/2021
+USA/CA-Stanford-
+Kappa; B.1.617.1
+0810623CFHI 15_S02/2021 100% (3/3)
+Omicron;
+0810642CFHI USA/MD-HP20874/2021
+B.1.1.529 100% (3/3)
+USA/NY-
+WADSWORTH-
+Iota; B.1.526 0810619CFHI
+21025952-01/2021 100% (3/3)
+Isolate 1
+USA/NY-Wadsworth-
+B.1 0810621CFHI 100% (3/3)
+103677-01/2020
+USA/NY-Wadsworth-
+B.1.595 0810622CFHI 100% (3/3)
+33126-01/2020
+USA/NY-Wadsworth-
+Zeta; P2 0810618CFHI 100% (3/3)
+21006055-01/2021
+Omicron; BA.2.3
+0810643CFHI USA/MD-HP24556/2022 100% (3/3)
+In silico analysis was performed to determine inclusivity (reactivity) of the TaqPath COVID-
+19 Diagnostic PCR Kit primer/probe sequences with all known strains/isolates of SARS-
+CoV-2 from GISAID and GenBank databases from March 2020 to April 2024. Mismatch and
+melting temperature analyses were performed and genomes with 100% identity and/or
+melting temperature (Tm) greater than the annealing temperature were considered reactive.
+Analysis indicated that >99% of the sequences are reactive based on 100% homology or Tm
+greater than annealing temperature to at least two of the three assay gene targets of the
+TaqPath COVID-19 Diagnostic PCR Kit. Evaluation of assay components that do not match
+100% to target sequences indicates that most primer or probe mismatches are unlikely to
+affect assay function.
+Sequences from major SARS-CoV-2 variants that were evaluated and found to be reactive
+with the assay include but are not limited to Alpha, Beta, Delta, Epsilon, Eta, Gamma, Iota,
+Kappa, Lambda, Mu, Omicron, Theta, and Zeta. Specific Omicron pango lineages evaluated
+and found to be reactive with the assay include but are not limited to BA.2.86, XBB.1.9.1,
+XBB.1.9.2, XBB.2.3, XBB.1.16, XBB.1.5, CH.1.1, JN.1, and KP.2.
+5. Assay Reportable Range:
+Not applicable; this is a qualitative assay.
+6. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+a) Quality Controls
+Please refer to Instrument Description Information (Section C.4) above for assay controls.
+K233453 - Page 17 of 25
+
+[Table 1 on page 17]
+Delta; B.1.617.2
+Lambda; C.37
+Kappa; B.1.617.1
+Omicron;
+B.1.1.529
+Iota; B.1.526
+B.1
+B.1.595
+Zeta; P2
+Omicron; BA.2.3
+
+[Table 2 on page 17]
+NATSars(CoV2)- VP	USA/PHC658/2021	100% (3/3)
+0810640CFHI	Peru/UN-CDC-2-
+4069945/2021	100% (3/3)
+0810623CFHI	USA/CA-Stanford-
+15_S02/2021	100% (3/3)
+0810642CFHI	USA/MD-HP20874/2021	100% (3/3)
+0810619CFHI	USA/NY-
+WADSWORTH-
+21025952-01/2021
+Isolate 1	100% (3/3)
+0810621CFHI	USA/NY-Wadsworth-
+103677-01/2020	100% (3/3)
+0810622CFHI	USA/NY-Wadsworth-
+33126-01/2020	100% (3/3)
+0810618CFHI	USA/NY-Wadsworth-
+21006055-01/2021	100% (3/3)
+0810643CFHI	USA/MD-HP24556/2022	100% (3/3)
+
+--- Page 18 ---
+b) Specimen Stability Studies
+The stability of SARS-CoV-2 targets was evaluated using nasopharyngeal (NP) swabs
+collected in viral transport media (VTM). Positive contrived samples were prepared by
+spiking inactivated SARS-CoV-2 virus into pooled NP swab clinical matrix collected in
+VTM. Samples were tested fresh (T0) to establish a baseline and then aliquoted and stored at:
+6 hours at ambient temperature (15°C to 30°C), 6 days refrigerated (2°C to 8°C), 35 days
+frozen (-30°C to -10°C), and 35 days frozen at ≤-70°C. To establish stability, samples from
+each condition were withdrawn and tested at intermediate timepoints including the final
+stated timepoint and one time point beyond the final stability claim. The results of the
+specimen stability study support the claims listed in Table 13.
+Table 13: Stability of Swab Specimens in Viral Transport Media
+Storage Temperature Stability
+Ambient: 15°C to 30°C 4 hours
+Refrigerated: 2°C to 8°C 3 days (72 hours)
+Frozen: −30°C to −10°C 30 days; stable up to 1 freeze-thaw cycles
+Frozen: ≤ −70°C 30 days; stable up to 3 freeze-thaw cycles
+c) Fresh vs. Frozen Studies
+A fresh vs. frozen study was performed to demonstrate equivalency between fresh and frozen
+SARS-CoV-2 nasopharyngeal (NP) swabs in viral transport media (VTM). Positive contrived
+samples were prepared by spiking inactivated SARS-CoV-2 virus in negative pooled NP
+swab matrix at a concentration of 0x, 1.5x and 5x LoD. Samples were tested at baseline and
+subsequently after 1x and 2x freeze-thaw cycles when stored at -10°C to -30°C, and after 1x,
+2x, 3x and 4x freeze-thaw cycles when stored at ≤ -70°C. Ten replicates were tested for
+samples prepared at 0x and 5x LoD and 40 replicates were tested for samples at 1.5x LoD.
+All samples were negative at 0x LoD and all samples spiked at 1.5x and 5x LoD were
+positive. The results demonstrated that freeze-thaw up to two cycles when stored at -10°C to
+-30°C, and freeze-thaw up to four cycles when stored at ≤ -70°C, does not impact the
+performance of the TaqPath COVID-19 Diagnostic PCR Kit.
+d) Transport Media Comparison
+The following six different transport media were evaluated for compatibility with the
+TaqPath COVID-19 Diagnostic PCR Kit:
+• Remel MicroTest M4RT Multi-Microbe Media
+• Remel MicroTest M5 Multi-Microbe Media
+• Remel MicroTest M6 Multi-Microbe Media
+• Copan Universal Transport Medium (UTM-RT)
+• Bartels FlexTrans Transport Medium
+• BD Universal Viral Transport Medium
+K233453 - Page 18 of 25
+
+[Table 1 on page 18]
+Storage Temperature	Stability
+Ambient: 15°C to 30°C	4 hours
+Refrigerated: 2°C to 8°C	3 days (72 hours)
+Frozen: −30°C to −10°C	30 days; stable up to 1 freeze-thaw cycles
+Frozen: ≤ −70°C	30 days; stable up to 3 freeze-thaw cycles
+
+--- Page 19 ---
+Comparable qualitative and quantitative results were obtained with all the six transport media
+types in the study.
+7. Detection Limit:
+The Limit of Detection (LoD) of the TaqPath COVID-19 Diagnostic PCR Kit was
+determined by serially diluting gamma-irradiated SARS‑CoV‑2 virus (USA‑WA1/2020) into
+pooled negative nasopharyngeal (NP) swab matrix. Samples were randomized and blinded
+prior to testing on two PCR instruments: QuantStudio 5 Dx RT-PCR instrument and 7500
+Fast Dx RT-PCR instrument. LoD is defined as the lowest concentration of SARS-CoV-2
+RNA that can be detected at a rate of at least 95%.
+A preliminary LoD was determined by testing five replicates of three-fold dilutions of
+quantified SARS-CoV-2 inactivated virus. Subsequently, the LoD was confirmed by testing
+20 replicates to demonstrate a ≥95% detection rate at the LoD.
+The study established the LoD of the TaqPath COVID-19 Diagnostic PCR Kit to be 50
+genomic copy equivalent (GCE)/mL when used with both, the QuantStudio 5 Dx RT-PCR
+instrument and the 7500 Fast Dx RT-PCR instrument. Table 14 below summarizes the results
+for each SARS-CoV-2 target, including mean cycle threshold (Ct), standard deviation (SD),
+COVID-19 positivity, and % assay target hit rate.
+Table 14: Summary of LoD Results and Mean Ct Values for SARS-CoV-2 for the
+TaqPath COVID-19 Diagnostic PCR Kit
+COVID-19 Assay Target Hit Rate (%)[1] Mean Ct
+Virus Positivity (#Detected/#Tested) (SD)[2]
+Concentration (#Detected/
+ORF1ab N gene S gene MS2 ORF1ab N gene S gene MS2
+(GCE/mL) #Tested)
+7500 Fast Dx RT-PCR Instrument
+100% 100% 100% 100% 100% 32.21 32.70 32.29 25.53
+150
+(20/20) (20/20) (20/20) (20/20) (20/20) (0.45) (0.32) (0.54) (0.22)
+100% 100% 100% 80% 100% 33.74 34.20 33.91 25.45
+50
+(20/20) (20/20) (20/20) (16/20) (20/20) (0.84) (0.87) (0.65) (0.25)
+70% 80% 85% 45% 100% 34.70 35.10 35.21 25.33
+17
+(14/20) (16/20) (17/20) (9/20) (20/20) (0.78) (0.91) (1.22) (0.24)
+0% 0% 0% 0% 100% 25.21
+0 N/A N/A N/A
+(0/20) (0/20) (0/20) (0/20) (20/20) (0.20)
+QuantStudio 5 Dx RT-PCR Instrument
+100% 100% 100% 100% 100% 32.92 33.00 32.76 26.05
+150
+(20/20) (20/20) (20/20) (20/20) (20/20) (0.55) (0.38) (0.59) (0.17)
+100% 100% 100% 100% 100% 34.24 34.82 34.15 26.10
+50
+(20/20) (20/20) (20/20) (20/20) (20/20) (0.95) (0.84) (1.02) (0.14)
+85% 75% 85% 70% 100% 35.00 36.06 35.17 26.10
+17
+(17/20) (15/20) (17/20) (14/20) (20/20) (0.54) (0.85) (0.82) (0.26)
+K233453 - Page 19 of 25
+
+[Table 1 on page 19]
+	COVID-19	Assay Target Hit Rate (%)[1]				Mean Ct			
+Virus	Positivity	(#Detected/#Tested)				(SD)[2]			
+Concentration	(#Detected/								
+		ORF1ab	N gene	S gene	MS2	ORF1ab	N gene	S gene	MS2
+(GCE/mL)	#Tested)								
+									
+									
+7500 Fast Dx RT-PCR Instrument									
+150	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	32.21
+(0.45)	32.70
+(0.32)	32.29
+(0.54)	25.53
+(0.22)
+									
+	100%	100%	100%	80%	100%	33.74	34.20	33.91	25.45
+50									
+	(20/20)	(20/20)	(20/20)	(16/20)	(20/20)	(0.84)	(0.87)	(0.65)	(0.25)
+									
+									
+17	70%
+(14/20)	80%
+(16/20)	85%
+(17/20)	45%
+(9/20)	100%
+(20/20)	34.70
+(0.78)	35.10
+(0.91)	35.21
+(1.22)	25.33
+(0.24)
+0	0%
+(0/20)	0%
+(0/20)	0%
+(0/20)	0%
+(0/20)	100%
+(20/20)	N/A	N/A	N/A	25.21
+(0.20)
+QuantStudio 5 Dx RT-PCR Instrument									
+150	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	32.92
+(0.55)	33.00
+(0.38)	32.76
+(0.59)	26.05
+(0.17)
+									
+	100%	100%	100%	100%	100%	34.24	34.82	34.15	26.10
+50									
+	(20/20)	(20/20)	(20/20)	(20/20)	(20/20)	(0.95)	(0.84)	(1.02)	(0.14)
+									
+									
+17	85%
+(17/20)	75%
+(15/20)	85%
+(17/20)	70%
+(14/20)	100%
+(20/20)	35.00
+(0.54)	36.06
+(0.85)	35.17
+(0.82)	26.10
+(0.26)
+
+--- Page 20 ---
+0% 0% 0% 0% 100% 25.77
+0 N/A N/A N/A
+(0/20) (0/20) (0/20) (0/20) (20/20) (0.20)
+[1]Assay target hit rate is calculated by the number of assay targets that are called positive divided by the number
+of replicates tested. Based on the calling rules of the assay, COVID‑19 positive is called if two or more of the
+three assay targets (Orf1ab, N gene, S gene) are called positive. Samples can have different combinations of
+positive targets, thus contributing to a less than 100% hit rate on the assay target level but 100% hit rate on the
+COVID‑19 positivity call.
+[2]For concentration levels that did not produce a positive result, no Ct statistics is displayed and it is denoted as
+'N/A'.
+LoD Determination with WHO International Standard for SARS-CoV-2 RNA
+The LoD of the TaqPath COVID-19 Diagnostic PCR Kit was determined using contrived
+positive specimens that were created by spiking the reconstituted WHO International Standard
+for SARS‑CoV‑2 RNA (NIBSC code: 20/146) in pooled negative nasopharyngeal (NP) swab
+matrix in viral transport media (VTM). The study was conducted in two phases. In Phase I, a
+preliminary LoD was determined by testing serial dilutions of contrived positive samples at nine
+concentrations. In Phase II, the LoD was confirmed by testing 20 replicates at three
+concentrations based around the preliminary LoD.
+The LoD of the TaqPath COVID-19 Diagnostic PCR Kit using the WHO International Standard
+for SARS‑CoV‑2 RNA (NIBSC code: 20/146) was 150 IU/mL for the 7500 Fast Dx RT-PCR
+instrument and 50 IU/mL for the QuantStudio 5 Dx RT-PCR instrument. The LoD results for
+each SARS-CoV-2 target, including mean Ct, standard deviation (SD), % COVID-19 positivity,
+and % assay target hit rate are summarized in Table 15 below.
+Table 15: Summary of LoD Results and Mean Ct Values for SARS-CoV-2 for the TaqPath
+COVID-19 Diagnostic PCR Kit Using WHO International Standard
+COVID-19 Assay Target Hit Rate (%)[1] Mean Ct
+Positivity (#Detected/#Tested) (SD)[2]
+Concentration
+(#Detected/
+(IU/mL) ORF1ab N gene S gene MS2 ORF1ab N gene S gene MS2
+#Tested)
+7500 Fast Dx RT-PCR Instrument
+100% 100% 100% 100% 100% 32.36 33.75 32.66 24.99
+150
+(20/20) (20/20) (20/20) (20/20) (20/20) (2.40) (0.57) (0.49) (0.20)
+90% 90% 75% 95% 100% 34.49 35.58 34.30 25.01
+50
+(18/20) (18/20) (15/20) (19/20) (20/20) (0.73) (0.69) (0.84) (0.16)
+50% 55% 50% 55% 100% 35.01 35.80 35.26 25.18
+17
+(10/20) (11/20) (10/20) (11/20) (20/20) (0.76) (0.70) (1.06) (0.21)
+0% 0% 0% 0% 100% 25.31
+0 N/A N/A N/A
+(0/3) (0/3) (0/3) (0/3) (3/3) (0.04)
+QuantStudio 5 Dx RT-PCR Instrument
+100% 100% 100% 100% 100% 33.52 34.27 33.52 25.22
+150 (20/20) (20/20) (20/20) (20/20) (20/20) (0.59) (0.61) (0.70) (0.18)
+95% 90% 80% 90% 100% 35.09 35.64 34.91 25.44
+50
+(19/20) (18/20) (16/20) (18/20) (20/20) (0.83) (0.71) (0.94) (0.16)
+K233453 - Page 20 of 25
+
+[Table 1 on page 20]
+0	0%
+(0/20)	0%
+(0/20)	0%
+(0/20)	0%
+(0/20)	100%
+(20/20)	N/A	N/A	N/A	25.77
+(0.20)
+
+[Table 2 on page 20]
+	COVID-19	Assay Target Hit Rate (%)[1]				Mean Ct			
+									
+	Positivity	(#Detected/#Tested)				(SD)[2]			
+Concentration									
+	(#Detected/								
+(IU/mL)		ORF1ab	N gene	S gene	MS2	ORF1ab	N gene	S gene	MS2
+	#Tested)								
+									
+7500 Fast Dx RT-PCR Instrument									
+									
+	100%	100%	100%	100%	100%	32.36	33.75	32.66	24.99
+150									
+	(20/20)	(20/20)	(20/20)	(20/20)	(20/20)	(2.40)	(0.57)	(0.49)	(0.20)
+									
+									
+50	90%
+(18/20)	90%
+(18/20)	75%
+(15/20)	95%
+(19/20)	100%
+(20/20)	34.49
+(0.73)	35.58
+(0.69)	34.30
+(0.84)	25.01
+(0.16)
+17	50%
+(10/20)	55%
+(11/20)	50%
+(10/20)	55%
+(11/20)	100%
+(20/20)	35.01
+(0.76)	35.80
+(0.70)	35.26
+(1.06)	25.18
+(0.21)
+0	0%
+(0/3)	0%
+(0/3)	0%
+(0/3)	0%
+(0/3)	100%
+(3/3)	N/A	N/A	N/A	25.31
+(0.04)
+QuantStudio 5 Dx RT-PCR Instrument									
+150	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	100%
+(20/20)	33.52
+(0.59)	34.27
+(0.61)	33.52
+(0.70)	25.22
+(0.18)
+									
+	95%	90%	80%	90%	100%	35.09	35.64	34.91	25.44
+50									
+	(19/20)	(18/20)	(16/20)	(18/20)	(20/20)	(0.83)	(0.71)	(0.94)	(0.16)
+									
+									
+
+--- Page 21 ---
+50% 50% 45% 50% 100% 35.33 36.64 35.73 25.60
+17
+(10/20) (10/20) (9/20) (10/20) (20/20) (0.93) (0.35) (0.55) (0.12)
+0% 0% 0% 0% 100% 25.46
+N/A N/A N/A
+0 (0/3) (0/3) (0/3) (0/3) (3/3) (0.03)
+[1]Assay target hit rate is calculated by the number of assay targets that are called positive divided by the number
+of replicates tested. Based on the calling rules of the assay, COVID‑19 positive is called if two or more of the
+three assay targets (Orf1ab, N gene, S gene) are called positive. Samples can have different combinations of
+positive targets, thus contributing to a less than 100% hit rate on the assay target level but 100% hit rate on the
+COVID‑19 positivity call.
+[2]For concentration levels that did not produce a positive result, no Ct statistics is displayed and it is denoted as
+'N/A'.
+8. Assay Cut-Off:
+Once a TaqPath COVID-19 Diagnostic PCR Kit test run is completed, the data from the RT-PCR
+instrument's data collection software is imported into COVID-19 Interpretive Software IVD
+Edition for analysis and interpretation. The COVID-19 Interpretive Software calculates the
+interpretive results for each sample and control based on the cycle threshold (Ct) value obtained
+for each of the targets. The following Ct cutoff values for the assay targets is used during result
+interpretations.
+Table 16: Ct Cutoff Values for Assay Targets in TaqPath COVID-19 Diagnostic PCR Kit
+Sample or Control Target Ct Cutoff
+MS2 Valid Ct values are >37
+Positive Control
+Viral targets Valid Ct values are ≤37
+MS2 Valid Ct values are ≤32
+Negative Control
+Viral targets Valid Ct values are >37
+MS2 Valid Ct values are ≤32[1]
+Clinical samples
+Viral targets Positive Ct values are ≤37
+[1]If any of the viral targets is positive, the Ct for MS2 can be >32.
+9. Carry-Over:
+Carry-over/cross-contamination rate of the TaqPath COVID-19 Diagnostic PCR Kit was
+evaluated by testing contrived SARS‑CoV‑2 high-positive (formulated at approximately 1×105
+plaque forming units (PFU)/mL in pooled negative nasopharyngeal swab matrix) and SARS-
+CoV-2 negative samples in a checkerboard pattern. Ten runs using two KingFisher Flex
+purification instruments, two operators, and one of each real time PCR instruments–7500 Fast
+Dx RT-PCR instrument and QuantStudio 5 Dx RT-PCR instrument, were performed. Each run
+tested 47 replicates of contrived SARS-CoV-2 high positive samples and 47 replicates of SARS-
+CoV-2 negative samples.
+Out of a total of 470 negative samples tested, four false positive SARS‑CoV‑2 results were
+obtained. Two false positive results were obtained on 7500 Fast Dx RT-PCR instrument and two
+false positive results on QuantStudio 5 Dx RT-PCR instrument. The total carry-over/cross-
+contamination rate of the TaqPath COVID-19 Diagnostic PCR Kit was determined to be 0.85%
+(4/470).
+K233453 - Page 21 of 25
+
+[Table 1 on page 21]
+17	50%
+(10/20)	50%
+(10/20)	45%
+(9/20)	50%
+(10/20)	100%
+(20/20)	35.33
+(0.93)	36.64
+(0.35)	35.73
+(0.55)	25.60
+(0.12)
+0	0%
+(0/3)	0%
+(0/3)	0%
+(0/3)	0%
+(0/3)	100%
+(3/3)	N/A	N/A	N/A	25.46
+(0.03)
+
+[Table 2 on page 21]
+		
+Sample or Control	Target	Ct Cutoff
+		
+Positive Control	MS2	Valid Ct values are >37
+	Viral targets	Valid Ct values are ≤37
+Negative Control	MS2	Valid Ct values are ≤32
+	Viral targets	Valid Ct values are >37
+Clinical samples	MS2	Valid Ct values are ≤32[1]
+	Viral targets	Positive Ct values are ≤37
+
+--- Page 22 ---
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Refer to the Clinical Studies Section of this document.
+2. Matrix Comparison:
+Not applicable.
+C Clinical Studies:
+The clinical performance of the TaqPath COVID-19 Diagnostic PCR Kit was established in a
+multi-site prospective study with three external testing sites evaluating nasopharyngeal (NP) and
+anterior nasal (AN) swab specimens in BD universal viral transport (UVT) medium from
+individuals with signs and symptoms of respiratory tract infection. One NP swab and one AN
+swab was collected from each participant enrolled in the all-comer prospective study from 11
+geographically diverse locations in the US. The swab collection order was alternated between the
+NP and the AN swab. Testing of the TaqPath COVID-19 Diagnostic PCR Kit was conducted on
+the 7500 Fast Dx RT-PCR instrument and QuantStudio 5 Dx RT-PCR instrument. A composite
+comparator approach, using three highly sensitive FDA cleared/authorized SARS‑CoV‑2
+molecular assays was used to evaluate the performance of the TaqPath COVID-19 Diagnostic
+PCR Kit. The composite comparator result was defined as the concordant results from two
+comparator assays. In case of discordance between the initial two comparator assays, the sample
+was tested by a third assay and the result of the third test determined the composite comparator
+result.
+From April to August 2023, a total of 1,076 subjects were enrolled in the prospective clinical
+study. After exclusion of samples due to withdrawal from the study, not meeting the inclusion
+criteria or incomplete consent forms, shipment delays at collection sites or specimen leakage
+during transit, a total of 1,055 NP swab specimens and 1,052 AN swab specimens were tested in
+the study. Of the 1,055 NP swab specimens tested, two NP swab specimens with
+inconclusive/invalid results on the 7500 Fast Dx and QuantStudio 5 Dx RT-PCR instruments
+were excluded from data analysis, resulting in 1,053 evaluable NP swab specimens on each
+instrument. Of the 1,052 AN swab specimens, three had inconclusive result on the 7500 Fast Dx
+Real‑Time PCR instrument and were excluded from data analysis, resulting in 1,049 evaluable
+AN swab specimens on the 7500 Fast Dx RT-PCR instrument and 1,052 evaluable AN swab
+specimens on the QuantStudio 5 Dx RT-PCR instrument. Specimens evaluated using the
+TaqPath COVID-19 Diagnostic PCR Kit were tested either fresh (tested within 72 hours of
+collection when stored at 2°C–8°C) or frozen (stored at ≤-70°C and tested within 30 days of
+collection).
+a) Clinical Performance of TaqPath COVID-19 Diagnostic PCR Kit for Nasopharyngeal
+Swabs
+Out of 1,053 NP swab specimens evaluated, 89 were positive and 964 were negative according to
+the composite comparator method. On the 7500 Fast Dx RT-PCR instrument, the TaqPath COVID-
+19 Diagnostic PCR Kit had a positive percent agreement (PPA) of 98.9% (88/89) and a negative
+K233453 - Page 22 of 25
+
+--- Page 23 ---
+percent agreement (NPA) of 98.4% (949/964). On the QuantStudio 5 Dx RT-PCR instrument, the
+TaqPath COVID-19 Diagnostic PCR Kit had a PPA of 98.9% (88/89) and a NPA of 98.7%
+(951/964). Performance is summarized in the tables below.
+Table 17: Clinical Performance Estimates of the TaqPath COVID-19 Diagnostic PCR
+Kit on 7500 Fast Dx RT-PCR Instrument with NP Swabs Specimens
+TaqPath COVID-19 Diagnostic PCR Kit on Composite Comparator
+7500 Fast Dx RT-PCR Instrument Positive Negative Total
+Positive 88 15 103
+Negative 1 949 950
+Total 89 964 1,053
+Percent Agreement 95% CI[1]
+Positive Percent Agreement (PPA) 88/89 98.9% 93.9%–99.8%
+Negative Percent Agreement (NPA) 949/964 98.4% 97.4%–99.1%
+[1] Wilson score
+Table 18: Clinical Performance Estimates of the TaqPath COVID-19 Diagnostic PCR
+Kit on QuantStudio 5 Dx RT-PCR Instrument with NP Swabs Specimens
+TaqPath COVID-19 Diagnostic PCR Kit on Composite Comparator
+QuantStudio 5 Dx RT-PCR Instrument Positive Negative Total
+Positive 88 13 101
+Negative 1 951 952
+Total 89 964 1,053
+Percent Agreement 95% CI[1]
+Positive Percent Agreement (PPA) 88/89 98.9% 93.9%–99.8%
+Negative Percent Agreement (NPA) 951/964 98.7% 97.7%–99.2%
+[1]Wilson score
+b) Clinical Performance of TaqPath COVID-19 Diagnostic PCR Kit for Anterior Nasal
+Swabs
+Out of 1,049 AN swab specimens evaluated on the 7500 Fast Dx RT-PCR instrument, 85 were
+positive and 964 were negative according to the composite comparator method. On the 7500 Fast
+Dx RT-PCR instrument, the TaqPath COVID-19 Diagnostic PCR Kit had a PPA of 98.8%
+(84/85) and a NPA of 97.8% (943/964). Out of 1,052 AN swab specimens evaluated on the
+QuantStudio 5 Dx RT-PCR instrument, 85 were positive and 967 were negative according to the
+composite comparator method. On the QuantStudio 5 Dx RT-PCR instrument, the TaqPath
+COVID-19 Diagnostic PCR Kit had a PPA of 98.8% (84/85) and a NPA of 98.0% (948/967).
+Performance is summarized the tables below.
+Table 19: Clinical Performance Estimates of the TaqPath COVID-19 Diagnostic PCR
+Kit on 7500 Fast Dx RT-PCR Instrument with AN Swabs Specimens
+TaqPath COVID-19 Diagnostic PCR Kit on Composite Comparator
+K233453 - Page 23 of 25
+
+[Table 1 on page 23]
+TaqPath COVID-19 Diagnostic PCR Kit on	Composite Comparator		
+7500 Fast Dx RT-PCR Instrument	Positive	Negative	Total
+Positive	88	15	103
+Negative	1	949	950
+Total	89	964	1,053
+	Percent Agreement		95% CI[1]
+Positive Percent Agreement (PPA)	88/89	98.9%	93.9%–99.8%
+Negative Percent Agreement (NPA)	949/964	98.4%	97.4%–99.1%
+
+[Table 2 on page 23]
+TaqPath COVID-19 Diagnostic PCR Kit on	Composite Comparator		
+QuantStudio 5 Dx RT-PCR Instrument	Positive	Negative	Total
+Positive	88	13	101
+Negative	1	951	952
+Total	89	964	1,053
+	Percent Agreement		95% CI[1]
+Positive Percent Agreement (PPA)	88/89	98.9%	93.9%–99.8%
+Negative Percent Agreement (NPA)	951/964	98.7%	97.7%–99.2%
+
+[Table 3 on page 23]
+TaqPath COVID-19 Diagnostic PCR Kit on	Composite Comparator
+
+--- Page 24 ---
+7500 Fast Dx RT-PCR Instrument Positive Negative Total
+Positive 84 21 105
+Negative 1 943 944
+Total 85 964 1,049
+Percent Agreement 95% CI[1]
+Positive Percent Agreement (PPA) 84/85 98.8% 93.6%–99.8%
+Negative Percent Agreement (NPA) 943/964 97.8% 96.7%–98.6%
+[1]Wilson score
+Table 20: Clinical Performance Estimates of the TaqPath COVID-19 Diagnostic PCR
+Kit on QuantStudio 5 Dx RT-PCR Instrument with AN Swabs Specimens
+TaqPath COVID-19 Diagnostic PCR Kit on Composite Comparator
+QuantStudio 5 Dx RT-PCR Instrument Positive Negative Total
+Positive 84 19 103
+Negative 1 948 949
+Total 85 967 1,052
+Percent Agreement 95% CI[1]
+Positive Percent Agreement (PPA) 84/85 98.8% 93.6%–99.8%
+Negative Percent Agreement (NPA) 948/967 98.0% 97.0%–98.7%
+[1]Wilson score
+Other Clinical Supportive Data:
+Not applicable
+D Clinical Cut-Off:
+Not applicable
+E Expected Values/Reference Range:
+Samples were collected from 11 geographically diverse collection sites across the US. The
+SARS-CoV-2 positivity rates, as determined by theTaqPath COVID-19 Diagnostic PCR Kit
+during the clinical study, per collection site and overall, by specimen type, are shown in the table
+below.
+Table 21: SARS-CoV-2 Positivity Rates by Collection Site Based on the TaqPath COVID-
+19 Diagnostic PCR Kit
+QuantStudio 5 Dx RT-PCR 7500 Fast Dx RT-PCR
+Instrument Instrument
+Collection Site
+NP AN NP AN
+Positivity Rate Positivity Rate Positivity Rate Positivity Rate
+D&H, Florida 28.2% (61/216) 29.0% (63/217) 28.2% (61/216) 30.1% (65/216)
+K233453 - Page 24 of 25
+
+[Table 1 on page 24]
+7500 Fast Dx RT-PCR Instrument	Positive	Negative	Total
+Positive	84	21	105
+Negative	1	943	944
+Total	85	964	1,049
+	Percent Agreement		95% CI[1]
+Positive Percent Agreement (PPA)	84/85	98.8%	93.6%–99.8%
+Negative Percent Agreement (NPA)	943/964	97.8%	96.7%–98.6%
+
+[Table 2 on page 24]
+TaqPath COVID-19 Diagnostic PCR Kit on	Composite Comparator		
+QuantStudio 5 Dx RT-PCR Instrument	Positive	Negative	Total
+Positive	84	19	103
+Negative	1	948	949
+Total	85	967	1,052
+	Percent Agreement		95% CI[1]
+Positive Percent Agreement (PPA)	84/85	98.8%	93.6%–99.8%
+Negative Percent Agreement (NPA)	948/967	98.0%	97.0%–98.7%
+
+[Table 3 on page 24]
+	QuantStudio 5 Dx RT-PCR		7500 Fast Dx RT-PCR	
+	Instrument		Instrument	
+Collection Site				
+	NP	AN	NP	AN
+				
+	Positivity Rate	Positivity Rate	Positivity Rate	Positivity Rate
+D&H, Florida	28.2% (61/216)	29.0% (63/217)	28.2% (61/216)	30.1% (65/216)
+
+--- Page 25 ---
+KUR-B, New York 3.9% (3/76) 3.9% (3/77) 3.9% (3/77) 3.9% (3/77)
+KUR-E, South Carolina 12.7% (13/102) 12.9% (13/101) 13.9% (14/101) 11.9% (12/101)
+KUR-M, Texas 2.5% (2/81) 2.5% (2/81) 2.5% (2/81) 2.5% (2/81)
+KUR_MB, California 7.7% (1/13) 7.7% (1/13) 7.7% (1/13) 7.7% (1/13)
+KUR-P, South Carolina 5.8% (3/52) 5.8% (3/52) 5.8% (3/52) 5.8% (3/52)
+KUR-R, California 0.0% (0/2) 0.0% (0/2) 0.0% (0/2) 0.0% (0/2)
+WR-C, Tennessee 3.3% (2/60) 1.7% (1/59) 3.3% (2/60) 1.7% (1/58)
+WR-L, Florida 6.7% (8/120) 5.0% (6/119) 6.7% (8/120) 5.1% (6/118)
+WR-S, California 2.9% (7/240) 2.9% (7/240) 3.3% (8/240) 2.9% (7/240)
+WR-V, Nevada 1.1% (1/91) 4.4% (4/91) 1.1% (1/91) 5.5% (5/91)
+Overall 9.6% (101/1053) 9.8% (103/1052) 9.8% (103/1053) 10.0% (105/1049)
+F Other Supportive Instrument Performance Characteristics Data:
+Not applicable
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K233453 - Page 25 of 25
+
+[Table 1 on page 25]
+KUR-B, New York	3.9% (3/76)	3.9% (3/77)	3.9% (3/77)	3.9% (3/77)
+KUR-E, South Carolina	12.7% (13/102)	12.9% (13/101)	13.9% (14/101)	11.9% (12/101)
+KUR-M, Texas	2.5% (2/81)	2.5% (2/81)	2.5% (2/81)	2.5% (2/81)
+KUR_MB, California	7.7% (1/13)	7.7% (1/13)	7.7% (1/13)	7.7% (1/13)
+KUR-P, South Carolina	5.8% (3/52)	5.8% (3/52)	5.8% (3/52)	5.8% (3/52)
+KUR-R, California	0.0% (0/2)	0.0% (0/2)	0.0% (0/2)	0.0% (0/2)
+WR-C, Tennessee	3.3% (2/60)	1.7% (1/59)	3.3% (2/60)	1.7% (1/58)
+WR-L, Florida	6.7% (8/120)	5.0% (6/119)	6.7% (8/120)	5.1% (6/118)
+WR-S, California	2.9% (7/240)	2.9% (7/240)	3.3% (8/240)	2.9% (7/240)
+WR-V, Nevada	1.1% (1/91)	4.4% (4/91)	1.1% (1/91)	5.5% (5/91)
+Overall	9.6% (101/1053)	9.8% (103/1052)	9.8% (103/1053)	10.0% (105/1049)

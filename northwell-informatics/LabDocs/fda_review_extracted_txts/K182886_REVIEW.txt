@@ -1,0 +1,662 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K182886
+B. Purpose for Submission:
+Instrument modification
+C. Manufacturer and Instrument Name:
+Beckman Coulter, Inc.
+Cytomics FC500 MCL and MPL Flow Cytometers
+D. Type of Test or Tests Performed:
+Flow cytometric immunoassays: cell identification with quantitative cell counts
+E. System Descriptions:
+1. Device Description:
+The Cytomics FC500 MCL and MPL Flow Cytometers are instruments for the qualitative
+and quantitative measurement of biological and physical properties of cells and other
+particles. These properties are measured when the cells pass through one or two laser
+beams in single-file. The MCL configuration denotes a carousel-loader unit for sample
+tubes; the MPL configuration denotes a plate-loader unit, in addition to sample tubes.
+These instruments include a 488nm excitation laser, and an optional 633nm solid-state or
+635nm HeNe laser. IVD assays cleared for use on the FC500 cytometers employ the
+488nm laser for excitation, no assays that employ the 633/635 lasers have been cleared
+by the FDA and clearance of those lasers is not the subject of this 510(k). All
+configurations of the FC500 cytometer possess a total of seven detector channels ‒ two
+avalanche photodiodes (APD), for forward- and side-scatter; and five photomultiplier
+tubes (PMT, FL1‒FL5) for detection of specific fluorescence. Seven amp boards (one for
+each detector circuit) amplify and synchronize analog electronic signals from
+photodetectors, prior to conversion to digital signals.
+The software architecture for the FC500 instrument-controlling workstation includes
+CXP for acquisition and analysis of closed-system IVD assays, MXP for more advanced
+acquisition and analysis including LDT assays, and BCAP for necessary user and account
+permissions controls for review of quarantined files.
+This 510(k) submission concerns software update patches (CXP v2.3, MXP v2.3),
+1
+K182286
+
+--- Page 2 ---
+enabling detection of delay line failures in the amp board for each detector channel, as
+described in RCL181101. As a corrective Change Being Effected (CBE) response, this
+software update contains three algorithmic processes as part of a Software Detection Tool
+(SDT) for:
+1) electronic detection of pre-acquisition signal failures in amp board delay lines
+2) mid- or post-acquisition detection of signal failures by automated digital analysis
+of parameter-by-time signal for each detection channel
+3) predictive quarantine of datafiles suspected of being compromised, due to signal
+failure, for operator review prior to release or dismissal
+2. Principles of Operation:
+The Cytomics FC500 cytometric instrument contains a fluidics system designed to pass
+cells or particles through one or more laser beams in succession. Scattered and fluoresced
+light from these events is collected by APD and PMT detectors, converted to digital
+signal, and collected by the instrument workstation.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ____X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ____X____
+4. Specimen Identification:
+Barcode reader or manual entry
+5. Specimen Sampling and Handling:
+MCL: 32 (12×72 mm) tubes
+MPL: 24- or 96-well plates, or 12×72mm tubes
+6. Calibration:
+Assay-dependent
+7. Quality Control:
+Assay-dependent
+2
+K182286
+
+--- Page 3 ---
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR §864.5220 – Automated Differential Cell Counter
+2. Classification:
+Class II
+3 Product code:
+GKZ: Automated Differential Cell Counter
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+K071681 (MPL)
+The Cytomics FC 500 MPL is a system for the qualitative and quantitative
+measurement of biological and physical properties of cells and other particles. These
+properties are measured when the cells pass through one or two laser beams in single-
+file.
+K030828 (MCL)
+The tetraCXP SYSTEM for Cytomics FC 500 flow cytometry systems is an
+automated analysis method for simultaneous identification and enumeration of
+lymphocyte subpopulations (CD3+, CD4+, CD8+, CD19+ and CD56+) combining
+four-color fluorescent monoclonal antibody reagents, quality control reagents,
+optional absolute count reagent and CXP software. The systems with CYTO-STAT
+tetraCHROME CD45-FITC/CD4-PD/CD8-ECD/CD3-PC5 Monoclonal antibody
+reagent is intended "For In Vitro Diagnostic Use", allowing the identification and
+enumeration of Total CD3+ (T cells), Total CD4+, Total CD8+, Dual CD3+/CD4+,
+3
+K182286
+
+--- Page 4 ---
+Dual CD3+/CD8+ lymphocyte percentages and absolute counts as well as the
+CD4/CD8 ratio in whole blood flow cytometry. The systems with CD45-
+FITC/CD56-PC/CD19-ECD/CD3-PC5, the total lymphocyte percentage can be
+obtained. CD45-FITC/CD56-PE/CD19-ECD/CD3-PC5 monoclonal antibody reagent
+is intended "For In Vitro Diagnostic Use", allowing the identification and
+enumeration of total CD19+ (B cells) and CD3−/CD56+ (NK cells) lymphocyte
+percentages and absolute counts in whole blood flow cytometry. The total
+lymphocyte percentage can obtained as well.
+2. Special Conditions for Use Statement(s):
+For In Vitro Diagnostic Use
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+K030828: TetraCXP System (MCL)
+K071681: Cytomics FC500 MPL Flow Cytometer
+2. Comparison with Predicate Device:
+Similarities
+Predicate Predicate
+Item Device
+(K030828) (K071681)
+Intended Use The Cytomics FC 500 The tetraCXP SYSTEM The Cytomics FC 500
+MPL is a system for the for Cytomics FC 500 flow MPL is a system for the
+qualitative and quantitative cytometry systems is an qualitative and quantitative
+measurement of biological automated analysis method measurement of biological
+and physical properties of for simultaneous and physical properties of
+cells and other particles. identification and cells and other particles.
+These properties are enumeration of lymphocyte These properties are
+measured when the cells subpopulations (CD3+, measured when the cells
+pass through one or two CD4+, CD8+, CD19+ and pass through one or two
+laser beams in single-file. CD56+) combining four- laser beams in single-file.
+color fluorescent
+The tetraCXP SYSTEM
+monoclonal antibody
+for Cytomics FC 500 flow
+reagents, quality control
+cytometry systems is an
+reagents, optional absolute
+automated analysis method
+count reagent and CXP
+for simultaneous
+software. The systems
+identification and
+with CYTO-STAT
+enumeration of
+tetraCHROME CD45-
+lymphocyte subpopulations
+FITC/CD4-PD/CD8-
+(CD3+, CD4+, CD8+,
+ECD/CD3-PC5
+CD19+ and CD56+)
+Monoclonal antibody
+combining four-color
+reagent is intended "For In
+fluorescent monoclonal
+Vitro Diagnostic Use",
+antibody reagents, quality
+4
+K182286
+
+[Table 1 on page 4]
+Similarities							
+Item	Device		Predicate			Predicate	
+			(K030828)			(K071681)	
+Intended Use	The Cytomics FC 500
+MPL is a system for the
+qualitative and quantitative
+measurement of biological
+and physical properties of
+cells and other particles.
+These properties are
+measured when the cells
+pass through one or two
+laser beams in single-file.
+The tetraCXP SYSTEM
+for Cytomics FC 500 flow
+cytometry systems is an
+automated analysis method
+for simultaneous
+identification and
+enumeration of
+lymphocyte subpopulations
+(CD3+, CD4+, CD8+,
+CD19+ and CD56+)
+combining four-color
+fluorescent monoclonal
+antibody reagents, quality	The tetraCXP SYSTEM
+for Cytomics FC 500 flow
+cytometry systems is an
+automated analysis method
+for simultaneous
+identification and
+enumeration of lymphocyte
+subpopulations (CD3+,
+CD4+, CD8+, CD19+ and
+CD56+) combining four-
+color fluorescent
+monoclonal antibody
+reagents, quality control
+reagents, optional absolute
+count reagent and CXP
+software. The systems
+with CYTO-STAT
+tetraCHROME CD45-
+FITC/CD4-PD/CD8-
+ECD/CD3-PC5
+Monoclonal antibody
+reagent is intended "For In
+Vitro Diagnostic Use",			The Cytomics FC 500
+MPL is a system for the
+qualitative and quantitative
+measurement of biological
+and physical properties of
+cells and other particles.
+These properties are
+measured when the cells
+pass through one or two
+laser beams in single-file.		
+
+--- Page 5 ---
+Similarities
+Predicate Predicate
+Item Device
+(K030828) (K071681)
+control reagents, optional allowing the identification
+absolute count reagent and and enumeration of Total
+CXP software. The CD3+ (T cells), Total
+systems with CYTO-STAT CD4+, Total CD8+, Dual
+tetraCHROME CD45- CD3+/CD4+, Dual
+FITC/CD4-PD/CD8- CD3+/CD8+ lymphocyte
+ECD/CD3-PC5 percentages and absolute
+Monoclonal antibody counts as well as the
+reagent is intended "For In CD4/CD8 ratio in whole
+Vitro Diagnostic Use", blood flow cytometry. The
+allowing the identification systems with CD45-
+and enumeration of Total FITC/CD56-PC/CD19-
+CD3+ (T cells), Total ECD/CD3-PC5, the total
+CD4+, Total CD8+, Dual lymphocyte percentage can
+CD3+/CD4+, Dual be obtained. CD45-
+CD3+/CD8+ lymphocyte FITC/CD56-PE/CD19-
+percentages and absolute ECD/CD3-PC5
+counts as well as the monoclonal antibody
+CD4/CD8 ratio in whole reagent is intended "For In
+blood flow cytometry. The Vitro Diagnostic Use",
+systems with CD45- allowing the identification
+FITC/CD56-PC/CD19- and enumeration of total
+ECD/CD3-PC5, the total CD19+ (B cells) and
+lymphocyte percentage can CD3−/CD56+ (NK cells)
+be obtained. CD45- lymphocyte percentages
+FITC/CD56-PE/CD19- and absolute counts in
+ECD/CD3-PC5 whole blood flow
+monoclonal antibody cytometry. The total
+reagent is intended "For In lymphocyte percentage can
+Vitro Diagnostic Use", obtained as well.
+allowing the identification
+and enumeration of total
+CD19+ (B cells) and CD3-
+/CD56+ (NK cells)
+lymphocyte percentages
+and absolute counts in
+whole blood flow
+cytometry. The total
+lymphocyte percentage can
+obtained as well.
+Procode GKZ same same
+Regulation 864.5220 same same
+Sample input MCL: 32 (12×72 mm) 32 (12×72 mm) tubes 24- or 96-well plates, or
+tubes 12×72mm tubes
+MPL: 24- or 96-well
+plates, or 12×72mm tubes
+Excitation 488nm same same
+5
+K182286
+
+[Table 1 on page 5]
+Similarities							
+Item	Device		Predicate			Predicate	
+			(K030828)			(K071681)	
+	control reagents, optional
+absolute count reagent and
+CXP software. The
+systems with CYTO-STAT
+tetraCHROME CD45-
+FITC/CD4-PD/CD8-
+ECD/CD3-PC5
+Monoclonal antibody
+reagent is intended "For In
+Vitro Diagnostic Use",
+allowing the identification
+and enumeration of Total
+CD3+ (T cells), Total
+CD4+, Total CD8+, Dual
+CD3+/CD4+, Dual
+CD3+/CD8+ lymphocyte
+percentages and absolute
+counts as well as the
+CD4/CD8 ratio in whole
+blood flow cytometry. The
+systems with CD45-
+FITC/CD56-PC/CD19-
+ECD/CD3-PC5, the total
+lymphocyte percentage can
+be obtained. CD45-
+FITC/CD56-PE/CD19-
+ECD/CD3-PC5
+monoclonal antibody
+reagent is intended "For In
+Vitro Diagnostic Use",
+allowing the identification
+and enumeration of total
+CD19+ (B cells) and CD3-
+/CD56+ (NK cells)
+lymphocyte percentages
+and absolute counts in
+whole blood flow
+cytometry. The total
+lymphocyte percentage can
+obtained as well.	allowing the identification
+and enumeration of Total
+CD3+ (T cells), Total
+CD4+, Total CD8+, Dual
+CD3+/CD4+, Dual
+CD3+/CD8+ lymphocyte
+percentages and absolute
+counts as well as the
+CD4/CD8 ratio in whole
+blood flow cytometry. The
+systems with CD45-
+FITC/CD56-PC/CD19-
+ECD/CD3-PC5, the total
+lymphocyte percentage can
+be obtained. CD45-
+FITC/CD56-PE/CD19-
+ECD/CD3-PC5
+monoclonal antibody
+reagent is intended "For In
+Vitro Diagnostic Use",
+allowing the identification
+and enumeration of total
+CD19+ (B cells) and
+CD3−/CD56+ (NK cells)
+lymphocyte percentages
+and absolute counts in
+whole blood flow
+cytometry. The total
+lymphocyte percentage can
+obtained as well.					
+Procode	GKZ	same			same		
+Regulation	864.5220	same			same		
+Sample input	MCL: 32 (12×72 mm)
+tubes
+MPL: 24- or 96-well
+plates, or 12×72mm tubes	32 (12×72 mm) tubes			24- or 96-well plates, or
+12×72mm tubes		
+Excitation	488nm	same			same		
+
+--- Page 6 ---
+Similarities
+Predicate Predicate
+Item Device
+(K030828) (K071681)
+Lasers optional 633nm SSL or
+635nm HeNe (not FDA-
+cleared)
+Photodetector FSC: APD same same
+Circuits SSC: APD
+FL1: PMT
+FL2: PMT
+FL3: PMT
+FL4: PMT
+FL5: PMT
+Tarpon Amp potential signal loss, signal same same
+Board Delay failure
+Line
+Differences
+Predicate Predicate
+Item Device
+(K030828) (K071681)
+Detection of automated pre-acquisition, Manual inspection Manual inspection
+amp board post-acquisition
+delay line
+signal loss
+Disposition of Quarantine of listmode Manual inspection Manual inspection
+compromised data files suspected of
+files comrpromise
+I. Special Control/Guidance Document Referenced (if applicable):
+“Deciding When to Submit a 510(k) for a Software Change to an Existing Device”, 25Oct17
+“Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices”, 11May05
+Blue Book Memo K95-1: “510(k) Requirements During Firm-Initiated Recalls; Guidance on
+Recall and Premarket Notification Review Procedures During Firm-Initiated Recalls of
+Legally Marketed Devices”, 21Nov95
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+To evaluate the effectiveness of the software detection tool in identifying cases of
+patient datafiles compromised by amp board signal defect, the Sponsor developed
+digital, electronic, and physical simulation methods to assess the accuracy of the
+software tool. For the digital simulation method, the LMD Tool edits listmode data
+6
+K182286
+
+[Table 1 on page 6]
+Similarities							
+Item	Device		Predicate			Predicate	
+			(K030828)			(K071681)	
+Lasers	optional 633nm SSL or
+635nm HeNe (not FDA-
+cleared)						
+Photodetector
+Circuits	FSC: APD
+SSC: APD
+FL1: PMT
+FL2: PMT
+FL3: PMT
+FL4: PMT
+FL5: PMT	same			same		
+Tarpon Amp
+Board Delay
+Line	potential signal loss, signal
+failure	same			same		
+
+[Table 2 on page 6]
+Differences							
+Item	Device		Predicate			Predicate	
+			(K030828)			(K071681)	
+Detection of
+amp board
+delay line
+signal loss	automated pre-acquisition,
+post-acquisition	Manual inspection			Manual inspection		
+Disposition of
+compromised
+files	Quarantine of listmode
+data files suspected of
+comrpromise	Manual inspection			Manual inspection		
+
+--- Page 7 ---
+(LMD) files retroactively, simulating amp board signal loss through digital,
+algorithmic means. For the electronic simulation method, a modified amp board was
+engineered to include a switch on the delay line to electronically mimic the signal loss
+defect in compromised amp boards For the physical simulation methods, the Sponsor
+physically disrupted the fluidic path in the instrument in an intermittent fashion. In
+addition, real-world data files were collected from instrument users who experienced
+amp board failures in their laboratory or generated from instruments that had known
+board failures.
+For purposes of testing of the SDT, “positive” results are defined as files flagged by
+the SDT as compromised, and “negative” results are defined as files that were not
+flagged as compromised by the SDT. Therefore, “false positive” results are
+uncompromised files which the SDT flags, and “false negative” results are
+compromised files which are not flagged by the SDT.
+i. Pre-Acquisition Testing:
+To evaluate the ability of the software detection tool to detect pre-acquisition
+signal failures, the modified amp board was used to simulate signal loss
+conditions on each channel (FL1-5, FSC, SSC) using Tetra, Stem-Kit, and
+ClearLLab assays and auto-setup protocols. Out of a total of 247 tests across these
+parameters, 247 cases were positively identified by the SDT as comrompised
+signal – the positive agreement rate for this value is 100.0% (95% CI: 98.5‒
+100.0%).
+ii. Post-Acquisition Test Case 1:
+In the first set of test cases for post-acquisition performance of the SDT, the LMD
+Tool was applied to a set of 42 datafiles (Retrospective Simulations). In addition,
+the modified amp board or physically disrupted fluidics were employed (Live
+Simulations). Together, these methods generated 2344–2726 test datafiles for
+each assay panel. False negative (FNR) and false positive (FPR) rates were
+determined for the software detection tool. The FNR evaluates the SDT’s inability
+to identify a compromised file, and the FPR evaluates the frequency of falsely
+identifying an uncompromised file. The results are presented in the table below:
+7
+K182286
+
+--- Page 8 ---
+FNR1 FPR2
+Panel Mode Total n n point est. 95% CI n point est. 95% CI
+Tetra 13 FlowCount 2344 15 0.65% (0.40‒1.08%) 6 11.54% (5.40‒22.97%)
+Tetra 2 FlowCount 2344 5 0.22% (0.09‒0.51%) 5 9.62% (4.18‒20.61%)
+Tetra 1 relative 2344 64 2.79% (2.19‒3.55%) 0 0.00% (0.00‒6.88%)
+Tetra 2 relative 2344 5 0.22% (0.09‒0.51%) 1 1.92% (0.34‒10.12%)
+StemKit CXP 2344 41 1.79% (1.32‒2.42%) 4 7.69% (3.03‒18.17%)
+B1 ClearLLab 2726 8 0.30% (0.15‒0.59%) 1 1.92% (0.34‒10.12%)
+B2 ClearLLab 2726 37 1.38% (1.01‒1.90%) 1 1.92% (0.34‒10.12%)
+M ClearLLab 2726 21 0.79% (0.51‒1.20%) 2 3.85% (1.06‒12.98%)
+T1 ClearLLab 2726 8 0.30% (0.15‒0.59%) 2 3.85% (1.06‒12.98%)
+T2 ClearLLab 2344 1 0.04% (0.01‒0.25%) 3 5.77% (1.98‒15.64%)
+1 False Negative Rate: Compromised files not identified by software detection tool
+2 False Positive Rate: Uncompromised file identified by software detection tool as compromised
+3 Tetra 1 was considered to be representative of FlowCARE
+The results met the Sponsor’s pre-determined acceptance criteria.
+iii. Post-Acquisition Test Case 2:
+In the second set of test cases, challenging, difficult, or undetected compromised
+datafiles were modified by the LMD tool, and evaluated by the software detection
+tool. The ClearLLab assay was selected for this test case, as further demonstration
+of SDT performance at a greater degree of challenge.
+FNR1
+Panel Mode Total n n point est. 95% CI
+B1 ClearLLab 31 0 0.0% (0.0‒11.0%)
+B2 ClearLLab 29 0 0.0% (0.0‒11.7%)
+M ClearLLab 36 3 8.3% (2.9‒19.0%)
+T1 ClearLLab 39 1 2.6% (0.5‒13.2%)
+T2 ClearLLab 22 0 0.0% (0.0‒14.9%)
+1 False Negative Rate: Compromised files not identified by software detection tool;
+no false positive evaluation (true negative) was performed
+iv. Real World Data:
+8
+K182286
+
+[Table 1 on page 8]
+				FNR1							FPR2						
+																	
+																	
+Panel	Mode	Total n		n		point est.		95% CI			n		point est.			95% CI	
+																	
+Tetra 13	FlowCount	2344	15			0.65%	(0.40‒1.08%)			6		11.54%			(5.40‒22.97%)		
+Tetra 2	FlowCount	2344	5			0.22%	(0.09‒0.51%)			5		9.62%			(4.18‒20.61%)		
+Tetra 1	relative	2344	64			2.79%	(2.19‒3.55%)			0		0.00%			(0.00‒6.88%)		
+Tetra 2	relative	2344	5			0.22%	(0.09‒0.51%)			1		1.92%			(0.34‒10.12%)		
+StemKit	CXP	2344	41			1.79%	(1.32‒2.42%)			4		7.69%			(3.03‒18.17%)		
+B1	ClearLLab	2726	8			0.30%	(0.15‒0.59%)			1		1.92%			(0.34‒10.12%)		
+B2	ClearLLab	2726	37			1.38%	(1.01‒1.90%)			1		1.92%			(0.34‒10.12%)		
+M	ClearLLab	2726	21			0.79%	(0.51‒1.20%)			2		3.85%			(1.06‒12.98%)		
+T1	ClearLLab	2726	8			0.30%	(0.15‒0.59%)			2		3.85%			(1.06‒12.98%)		
+T2	ClearLLab	2344	1			0.04%	(0.01‒0.25%)			3		5.77%			(1.98‒15.64%)		
+1 False Negative Rate: Compromised files not identified by software detection tool
+2 False Positive Rate: Uncompromised file identified by software detection tool as compromised
+3 Tetra 1 was considered to be representative of FlowCARE																	
+
+[Table 2 on page 8]
+							FNR1							
+														
+														
+Panel		Mode		Total n			n			point est.			95% CI	
+														
+B1		ClearLLab		31		0			0.0%			(0.0‒11.0%)		
+B2		ClearLLab		29		0			0.0%			(0.0‒11.7%)		
+M		ClearLLab		36		3			8.3%			(2.9‒19.0%)		
+T1		ClearLLab		39		1			2.6%			(0.5‒13.2%)		
+T2		ClearLLab		22		0			0.0%			(0.0‒14.9%)		
+1 False Negative Rate: Compromised files not identified by software detection tool;
+no false positive evaluation (true negative) was performed														
+
+--- Page 9 ---
+In order to evaluate the performance of the SDT in non-simulated conditions,
+sample listmode datafiles (LMD) were sourced from customers and end-users. A
+total of 409 datafiles were collected and categorized into three sets, as described
+below – by source and assay panel. These sets of datafiles were used to evaluate
+the performance of the SDT in detecting data compromised by actual amp board
+failure in laboratories using the affected instruments or prospectively by using a
+failed amp board in a single instrument.
+FNR1 FPR2
+Total point point
+Set Source Panel FN/n (95% CI) FP/n (95% CI)
+n est est.
+Customer
+1 various 32 2/8 25.0%6 (7.1-59.1%) 1/24 4.2% (0.7-20.2%)
+complaints3
+2 Clinical site4 StemKit 233 0/8 0.0% (0.0-32.4%) 5/225 2.2% (1.0-5.1%)
+Re-engineered StemKit 33 0/33 0.0% (0.0-10.4%) n/a n/a n/a
+3
+instrument5 Tetra 111 0/111 0.0% (0.0-3.3%) n/a n/a n/a
+1 False Negative Rate: Compromised files not identified by software detection tool
+2 False Positive Rate: Uncompromised files identified by software detection tool as compromised
+3 Listmode datafiles derived from customer complaint casefiles
+4 Single clinical site with identified intermittent signal failure on one instrument
+5 Compromised signal boards installed onto a single instrument for collection of 144 samples
+from 30 donors
+6 FN from customer complaints were identified by manual review
+The results met the Sponsor’s pre-determined acceptance criteria.
+v. Manual Review Reader Study:
+The labeling addendum for use of the SDT specified that all data should be
+reviewed before release and reporting, irrespective of SDT flagging and
+quarantine. Therefore, instructions for manual review included in the labeling
+addendum constitute a critical mitigation for the SDT, and therefore a constituent
+element of the device.
+To address the adequacy of these instructions for manual review, a reader study
+was performed. 100 data files from Test Case 1 were selected to represent all IVD
+assay areas (i.e. Tetra, StemKit, and ClearLLab), as well as all relevant types of
+signal loss and file compromise observed in the recall investigation, specifically
+signal loss patterns identified as resulting in false negative results from Test Cases
+1 and 2. The datafiles included seven failure pattern-imprinted compromised
+LMD for each panel, and three unaltered “normal” files for each panel.
+Analyses were provided to three Tier 1 independent reviewers, blinded to each
+other and to expected results. To model clinical practice, a second tier of review
+was further incorporated; to represent post-acquisition reviewers of higher level
+experience. Only discordant results among Tier 1 operators were resolved by Tier
+2 review. Data for discordant results for a total of n=30 reads for each panel are
+9
+K182286
+
+[Table 1 on page 9]
+							FNR1							FPR2					
+Set	Source	Panel		Total		FN/n			point		(95% CI)		FP/n			point		(95% CI)	
+				n					est							est.			
+1	Customer
+complaints3	various	32			2/8		25.0%6			(7.1-59.1%)		1/24		4.2%			(0.7-20.2%)	
+2	Clinical site4	StemKit	233			0/8		0.0%			(0.0-32.4%)		5/225		2.2%			(1.0-5.1%)	
+3	Re-engineered
+instrument5	StemKit	33			0/33		0.0%			(0.0-10.4%)		n/a		n/a			n/a	
+		Tetra	111			0/111		0.0%			(0.0-3.3%)		n/a		n/a			n/a	
+1 False Negative Rate: Compromised files not identified by software detection tool
+2 False Positive Rate: Uncompromised files identified by software detection tool as compromised
+3 Listmode datafiles derived from customer complaint casefiles
+4 Single clinical site with identified intermittent signal failure on one instrument
+5 Compromised signal boards installed onto a single instrument for collection of 144 samples
+from 30 donors
+6 FN from customer complaints were identified by manual review																			
+
+--- Page 10 ---
+presented in the table below.
+Discordance
+Panel Mode n readers n point est. (95% CI)
+Tetra 1 Flow-Count 10 3 0 0.0% (0.0-11.4%)
+Tetra 2 Flow-Count 10 3 1 3.3% (0.6-16.7%)
+Tetra 1 relative 10 3 0 0.0% (0.0-11.4%)
+Tetra 2 relative 10 3 0 0.0% (0.0-11.4%)
+StemKit CXP 10 3 1 3.3% (0.6-16.7%)
+B1 ClearLLab 10 3 0 0.0% (0.0-11.4%)
+B2 ClearLLab 10 3 3 10.0% (3.5-25.6%)
+M ClearLLab 10 3 0 0.0% (0.0-11.4%)
+T1 ClearLLab 10 3 0 0.0% (0.0-11.4%)
+T2 ClearLLab 10 3 0 0.0% (0.0-11.4%)
+Discordant results were further reviewed by a second tier adjudicator, at a
+pathologist level of training. This secondary review corrected all but one of the
+discordant results (FN = 1/100: FNR 1.0% (0.2-5.5%).
+b. Precision/Reproducibility:
+Not applicable
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Not applicable
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable.
+10
+K182286
+
+[Table 1 on page 10]
+													Discordance							
+	Panel			Mode			n			readers			n			point est.			(95% CI)	
+Tetra 1			Flow-Count			10			3			0			0.0%			(0.0-11.4%)		
+Tetra 2			Flow-Count			10			3			1			3.3%			(0.6-16.7%)		
+Tetra 1			relative			10			3			0			0.0%			(0.0-11.4%)		
+Tetra 2			relative			10			3			0			0.0%			(0.0-11.4%)		
+StemKit			CXP			10			3			1			3.3%			(0.6-16.7%)		
+B1			ClearLLab			10			3			0			0.0%			(0.0-11.4%)		
+B2			ClearLLab			10			3			3			10.0%			(3.5-25.6%)		
+M			ClearLLab			10			3			0			0.0%			(0.0-11.4%)		
+T1			ClearLLab			10			3			0			0.0%			(0.0-11.4%)		
+T2			ClearLLab			10			3			0			0.0%			(0.0-11.4%)		
+
+--- Page 11 ---
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+11
+K182286

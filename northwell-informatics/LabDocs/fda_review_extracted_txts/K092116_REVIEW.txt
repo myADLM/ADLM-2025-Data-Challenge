@@ -1,0 +1,360 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k092116
+B. Purpose for Submission:
+New device
+C. Manufacturer and Instrument Name:
+Medica Corporation
+EasyCell Cell Locator
+D. Type of Test or Tests Performed:
+White blood cells (WBC) differential, red blood cell (RBC) characterization and
+platelet estimation
+E. System Descriptions:
+1. Device Description:
+The EasyCell Cell Locator (EasyCell) automatically locates and presents images
+of blood cells on peripheral smears. The operator reviews the suggested
+classification of each white cell according to type and may manually change the
+suggested classification of any cell. The operator can characterize red cell
+morphology and estimate platelets based on observed images. The EasyCell is
+intended to be used by skilled operators, trained in the use of the device and in the
+identification of blood cells.
+The major components of the EasyCell include two microscopes with 10X and
+100X magnification, a 30-position slide carousel, a slide gripper and a positioning
+system, and pattern recognition software. Each of the two microscopes is fitted
+with a CCD camera to allow digital image capture.
+2. Principles of Operation:
+The EasyCell automatically scans the slide and captures images of white blood
+cells, red blood cells and platelets. The images are preclassified by the
+instrument’s ASSIST function and are displayed on the screen by cell type. Cell
+images are grouped into eight categories: Neutrophils, Lymphocytes, Monocytes,
+Eosinophils, Basophils, Nucleated Red Blood Cells (NRBC), Smudge cells and
+Other, which is intended to hold morphologically abnormal cells.
+Preclassification is accomplished using a neural-network classifier. A trained
+technologist then reviews the suggested classification of the cells. For each cell
+the technologist can either accept the EasyCell recommended classification or
+manually change the suggested classification to another cell type from an
+expanded list that includes the more frequently encountered abnormal cell types.
+The trained technologist can also review and report red blood cell morphology
+and can review the numbers of platelets observed and report a platelet estimate.
+Results are saved on the dedicated computer and can be reviewed, exported to a
+laboratory information system, or printed. The EasyCell is network ready and can
+be integrated into a laboratory computer network.
+3. Modes of Operation:
+Fully Automated Scan and Image Acquisition
+4. Specimen Identification:
+1
+
+--- Page 2 ---
+Glass microscope slides are labeled with barcodes. Up to thirty oiled slides can
+be placed in a carousel.
+5. Specimen Sampling and Handling:
+EasyCell scans oiled peripheral blood smears on glass microscope slides.
+6. Calibration:
+Calibration of the system is a two-step operation consisting of target location (for
+positional calibration) and white balancing (for optical calibration). The built-in
+target is used for both functions, so there are no additional external calibrators.
+The user performs the positional calibration by choosing “Target Locator” from
+the setup menu within the EasyCell software, and performs the optical calibration
+by choosing “Calibration” from the setup menu.
+The “Target Locator” function is recommended for daily use, and helps the user
+set three critical stage locations within the EasyCell system: 10X Target Location,
+100X Target Location and 10X Slide Focal Plane Location. “Calibration”
+function is recommended for weekly use, and it automatically adjusts and records
+the white balance settings for the target under both the 10x and 100x microscopes.
+7. Quality Control:
+One normal slide and one abnormal slide should be selected from the standard
+workflow and processed using the EasyCell locating 200 cells for Quality Control
+(QC) testing each day that slides are processed. The QC procedure controls for
+slide preparation (both smearing and staining) and EasyCell performance. If the
+QC procedure does not pass, the operator must resolve the problem and rerun the
+QC before processing samples.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes____X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR §864.5260, Automated Cell-Locating Device
+2. Classification:
+Class II
+3 Product code:
+JOY: Device, automated cell-locating
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The EasyCell is intended to locate and display images of white cells, red cells,
+and platelets acquired from fixed and stained peripheral blood smears and assists
+a qualified technologist in conducting a WBC differential, RBC morphology
+evaluation, and platelet estimate using those images. For in vitro diagnostic use
+only. For professional use only.
+2. Special Conditions for Use Statement(s):
+Not applicable
+H. Substantial Equivalence Information:
+2
+
+--- Page 3 ---
+1. Predicate Device Name(s) and 510(k) numbers:
+CellaVision DM96 Automatic Hematology Analyzer, k033840
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+Intended Use The EasyCell automatically locates and Automated cell locating
+displays images of white cells, red cells, device for cell-location,
+and platelets acquired from fixed and and identification, for in-
+stained peripheral blood smears and vitro use. Verification of
+assists a qualified technologist in results by human
+conducting a WBC differential, RBC operator.
+morphology evaluation, and platelet
+estimate using those images.
+Sample Type Stained blood film glass slides of Same
+peripheral whole blood.
+Sample Preparation Romanowsky stain Same
+Analysis Technique White blood cells: Cells are Same
+located/counted by moving according to
+the battlement pattern. Cell images
+pattern. Cell images are analyzed using
+standard mathematical methods,
+including deterministic artificial neural
+networks (ANN's) trained to distinguish
+between classes of white blood cells.
+The cell images are pre-classified and
+the operator verifies the suggested
+classification by accepting or
+reclassifying.
+Red blood cells: The device presents an
+overview image. The examiners
+characterize red blood cell morphology
+from the image.
+Platelets: The device presents an
+overview image. The examiners
+manually count and estimate the platelet
+concentration from the overview image
+according to a standardized procedure.
+I. Special Control/Guidance Document Referenced (if applicable):
+Not available.
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy: A Method Comparison study was conducted to compare the
+EasyCell using Examiner Review to manual WBC differential microscopic
+3
+
+[Table 1 on page 3]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			The EasyCell automatically locates and
+displays images of white cells, red cells,
+and platelets acquired from fixed and
+stained peripheral blood smears and
+assists a qualified technologist in
+conducting a WBC differential, RBC
+morphology evaluation, and platelet
+estimate using those images.			Automated cell locating
+device for cell-location,
+and identification, for in-
+vitro use. Verification of
+results by human
+operator.		
+Sample Type			Stained blood film glass slides of
+peripheral whole blood.			Same		
+Sample Preparation			Romanowsky stain			Same		
+Analysis Technique			White blood cells: Cells are
+located/counted by moving according to
+the battlement pattern. Cell images
+pattern. Cell images are analyzed using
+standard mathematical methods,
+including deterministic artificial neural
+networks (ANN's) trained to distinguish
+between classes of white blood cells.
+The cell images are pre-classified and
+the operator verifies the suggested
+classification by accepting or
+reclassifying.
+Red blood cells: The device presents an
+overview image. The examiners
+characterize red blood cell morphology
+from the image.
+Platelets: The device presents an
+overview image. The examiners
+manually count and estimate the platelet
+concentration from the overview image
+according to a standardized procedure.			Same		
+
+--- Page 4 ---
+examination. A total of 304 specimens, including 155 specimens from normal
+(healthy) subjects and 149 from subjects with specific disease conditions,
+were collected and analyzed at three sites. Slides were prepared from each
+specimen. The slides were randomly selected, blinded and read by two
+technologists at each site. A total of 200 cells were counted for manual WBC
+differential and by EasyCell.
+i. WBC Differential: Results from Deming regression analyses on readings
+with EasyCell and manual WBC differential are as follows:
+Correlation
+Cell Type Slope Intercept
+Coefficient (r)
+Neutrophil 0.99 1.00 0.39
+Lymphocyte 0.98 1.00 0.88
+Monocyte 0.93 0.85 0.59
+Eosinophil 0.97 0.95 0.07
+Clinical sensitivity and specificity of the EasyCell in identification of
+morphological and distributional abnormalities were determined based on
+the results of the manual WBC differential as either normal (i.e.
+containing no abnormal cells or having normal distributions of normal
+cells) or abnormal (i.e. containing morphologically abnormal cells or
+having abnormal distributions of normal cells).
+Morphological Distributional
+Overall
+Abnormality Abnormality
+% agreement 82% 89% 84%
+Sensitivity 84% 92% 91%
+Specificity 82% 87% 72%
+ii. Platelet Estimate Accuracy: Platelet counts were estimated by each
+method as decreased (100,000 to 149,000 platelets), normal (150,000 to
+400,000 platelets), or increased (401,000 to 499,000 platelets). A Cohen’s
+kappa statistic was calculated to demonstrate the agreement between the
+manual microscopy and EasyCell methods for each technologist. The data
+show a good agreement between platelet estimates using the manual
+microscopy and using EasyCell with a kappa score of 0.7 for each
+technologist.
+iii. RBC Morphology Accuracy: For each slide, the technologists classified
+the red blood cells according to morphology with the manual microscopy
+and EasyCell methods. The results showed >90% agreement between the
+two methods.
+b. Precision/Reproducibility:
+A precision/reproducibility study was performed at three different sites. Each
+site prepared 20 slides from a different normal patient sample and used one
+slide a day to perform a 200-cell differential count with both the manual WBC
+differential and the EasyCell for a total of 20 days. The data show that
+4
+
+[Table 1 on page 4]
+Cell Type	Correlation
+Coefficient (r)	Slope	Intercept
+Neutrophil	0.99	1.00	0.39
+Lymphocyte	0.98	1.00	0.88
+Monocyte	0.93	0.85	0.59
+Eosinophil	0.97	0.95	0.07
+
+[Table 2 on page 4]
+	Morphological
+Abnormality	Distributional
+Abnormality	Overall
+% agreement	82%	89%	84%
+Sensitivity	84%	92%	91%
+Specificity	82%	87%	72%
+
+--- Page 5 ---
+precision of WBC differential with EasyCell is similar to that produced by the
+manual WBC differential at each study site.
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+a. Skip Rate
+A study was performed to determine the rate of cells that were skipped when
+moving from one field of view to the next. A total of 40 slides from 40
+unique donors (20 normal, 20 abnormal) and a total of 11,151 WBC
+candidates were examined. A total of 74 cells were skipped, for a skip rate of
+0.66%, which was considered and deemed acceptable in the hazard analysis.
+b. Reproducibility of Pre-Classification
+A total of 20 slides from 10 normal and 10 abnormal samples were run on
+three different EasyCell units for 5 consecutive days. Each slide was re-
+blinded and re-randomized each day for reading. Overall imprecision of pre-
+classification results from these repeated readings of the same 20 slides was
+estimated as follows:
+Normal Specimens Abnormal Specimens
+(n=150 readings) (n=150 readings)
+Mean (%) SD Mean (%) SD
+Neutrophil 63.0 4.7 47.0 4.2
+Lymphocyte 23.8 4.2 19.5 2.9
+Monocyte 6.1 1.9 13.0 2.7
+Eosinophil 2.7 1.8 5.3 4.8
+Basophil 1.8 1.6 4.4 2.8
+Other (unclassified) 2.5 1.7 10.6 3.4
+NRBC 1.9 1.6 9.4 4.5
+Smudge 4.4 7.2 22.2 21.7
+c. Normal Reference Ranges
+Manual WBC
+EasyCell
+Differential
+No. of samples 155 155
+Neutrophils 42.8 %- 78.5% 43.1% - 77.5%
+Lymphocytes 14.8% - 43.8% 13.8% - 42.5%
+Monocytes 3.0% - 13.8% 2.8% - 12.9%
+Eosinophils 0.5% - 5.8% 0.6% - 5.3%
+Basophils 0.0% - 2.0% 0.0% - 2.5%
+d. 100 vs 200 Total Cell Count
+Slides from the clinical accuracy study were also counted by EasyCell using
+100 cell counts. The 100 cell count results were compared to the 200 cell
+count by manual WBC differential.
+5
+
+[Table 1 on page 5]
+	Normal Specimens
+(n=150 readings)		Abnormal Specimens
+(n=150 readings)	
+	Mean (%)	SD	Mean (%)	SD
+Neutrophil	63.0	4.7	47.0	4.2
+Lymphocyte	23.8	4.2	19.5	2.9
+Monocyte	6.1	1.9	13.0	2.7
+Eosinophil	2.7	1.8	5.3	4.8
+Basophil	1.8	1.6	4.4	2.8
+Other (unclassified)	2.5	1.7	10.6	3.4
+NRBC	1.9	1.6	9.4	4.5
+Smudge	4.4	7.2	22.2	21.7
+
+[Table 2 on page 5]
+	Manual WBC
+Differential	EasyCell
+	155	155
+Neutrophils	42.8 %- 78.5%	43.1% - 77.5%
+Lymphocytes	14.8% - 43.8%	13.8% - 42.5%
+Monocytes	3.0% - 13.8%	2.8% - 12.9%
+Eosinophils	0.5% - 5.8%	0.6% - 5.3%
+Basophils	0.0% - 2.0%	0.0% - 2.5%
+
+--- Page 6 ---
+Correlation
+Cell Type Slope Intercept
+Coefficient (r)
+Neutrophil 0.96 0.99 -0.15
+Lymphocyte 0.95 1.00 0.73
+Monocyte 0.83 0.83 0.72
+Eosinophil 0.93 0.99 -0.01
+As compared to the 200-cell count manual WBC differential, EasyCell with
+100 cell counts showed similar clinical sensitivity and specificity as EasyCell
+with 100 cell counts in identifying morphological and distributional
+abnormalities based on the results of the manual WBC differential as either
+normal (i.e. containing no abnormal cells or having normal distributions of
+normal cells) or abnormal (i.e. containing morphologically abnormal cells or
+having abnormal distributions of normal cells).
+EasyCell - 200 Cell Counts EasyCell - 100 Cell Counts
+% agreement 84% 83%
+Sensitivity 91% 90%
+Specificity 72% 70%
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+6
+
+[Table 1 on page 6]
+Cell Type	Correlation
+Coefficient (r)	Slope	Intercept
+Neutrophil	0.96	0.99	-0.15
+Lymphocyte	0.95	1.00	0.73
+Monocyte	0.83	0.83	0.72
+Eosinophil	0.93	0.99	-0.01
+
+[Table 2 on page 6]
+	EasyCell - 200 Cell Counts	EasyCell - 100 Cell Counts
+% agreement	84%	83%
+Sensitivity	91%	90%
+Specificity	72%	70%

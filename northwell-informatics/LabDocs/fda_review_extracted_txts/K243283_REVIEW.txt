@@ -1,0 +1,905 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K243283
+B Applicant
+Abbott Laboratories
+C Proprietary and Established Names
+Alinity h-series System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5220 -
+GKZ Class II Automated Differential HE - Hematology
+Cell Counter
+21 CFR 864.3800
+KPA Class I Pathology
+Automated slide stainer
+II Submission/Device Overview:
+A Purpose for Submission:
+Clearance of software modification (Version 5.8) to correct overestimation of basophil counts
+and basophil% results
+B Measurand:
+WBC, NEU, %NEU, LYM, %LYM, MONO, %MONO, EOS, %EOS, BASO, %BASO, IG,
+%IG, RBC, HCT, HGB, MCV, MCH, MCHC, MCHr, RDW, NRBC, NR/W, RETIC, %RETIC,
+IRF, PLT, MPV, %rP (reticulated platelet percent)
+C Type of Test:
+Complete blood count and 6-part white blood cell differential
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+GKZ			Class II	21 CFR 864.5220 -
+Automated Differential
+Cell Counter			HE - Hematology
+KPA			Class I	21 CFR 864.3800
+Automated slide stainer			Pathology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The Alinity h‑series System is an integrated hematology analyzer (Alinity hq) and slide maker
+stainer (Alinity hs) intended for screening patient populations found in clinical laboratories by
+qualified health care professionals. The Alinity h‑series can be configured as:
+• One stand-alone automated hematology analyzer system.
+• A multimodule system that includes at least one Alinity hq analyzer module and may
+include one Alinity hs slide maker stainer module.
+The Alinity hq analyzer module provides complete blood count and a 6-part white blood cell
+differential for normal and abnormal cells in capillary and venous whole blood collected in
+K2EDTA or K3EDTA. The Alinity hq analyzer provides quantitative results for the following
+measurands: WBC, NEU, %N, LYM, %L, MON, %M, EOS, %E, BASO, %B, IG, %IG, RBC,
+HCT, HGB, MCV, MCH, MCHC, MCHr, RDW, NRBC, NR/W, RETIC, %R, IRF, PLT, MPV,
+%rP.
+The Alinity hq analyzer module is indicated to identify patients with hematologic parameters
+within and outside of established reference ranges.
+The Alinity hs slide maker stainer module automates whole blood film preparation and staining
+and stains externally prepared whole blood smears.
+For in vitro diagnostic use.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+D Special Instrument Requirements:
+Alinity hq analyzer
+IV Device/System Characteristics:
+A Device Description:
+The Alinity h-series System is a multimodule system that consists of different combinations of
+one or more of the following modules: a quantitative multi-parameter automated hematology
+analyzer (Alinity hq) and an automated slide maker stainer (Alinity hs).
+The Alinity hq is a quantitative, multi-parameter, automated hematology analyzer designed for in
+vitro diagnostic use in counting and characterizing blood cells using a multi-angle polarized
+K243283 - Page 2 of 15
+
+--- Page 3 ---
+scattered separation (MAPSS) method to detect and count red blood cells (RBC), platelets (PLT),
+and white blood cells (WBC), and to perform WBC differentials (DIFF) in whole blood.
+There is also an option to choose whether to detect reticulocytes at the same time. The options of
+the selections are:
+• CBC+DIFF: Complete blood count with differential
+• CBC+DIFF+RETIC: Complete blood count with differential and reticulocyte
+The Alinity h‑series of instruments has a scalable design to provide full integration of multiple
+automated hematology analyzers that can include the integration of an automated blood film
+preparation and staining module, all of which are controlled by one user interface. The modules
+are designed to fit together. Each module has an internal conveyor that enables racks of specimen
+tubes to be transported between modules. The system can move racks between modules to
+perform different tests on a given specimen (e.g., make slide smears on the Alinity hs).
+An Alinity h-series system can be configured as follows:
+• Configuration 1: 1 (Alinity hq) + 0 (Alinity hs) = 1+0
+• Configuration 2: 1 (Alinity hq) + 1 (Alinity hs) = 1+1
+• Configuration 3: 2 (Alinity hq) + 0 (Alinity hs) = 2+0
+• Configuration 4: 2 (Alinity hq) + 1 (Alinity hs) = 2+1
+The Laboratory Automation System (LAS) is an optional automated track system that connects
+to the Alinity h-series through an interface module. The LAS, also known as the Total Lab
+Automation (cleared under K121012) is a third-party system used by high-volume laboratories to
+manage specimen tubes. It is an externally-manufactured system designed to interface with the
+Alinity h-series system.
+The following configurations are configurable with the Laboratory Automation System (LAS)
+module:
+• Configuration 1: 1 (Alinity hq) + 0 (Alinity hs) = 1+0
+• Configuration 4: 2 (Alinity hq) + 1 (Alinity hs) = 2+1
+The LAS system consists of a command center (coordinates what tests need to run on which
+instrument for a sample), track (transports specimen tubes from one instrument to another as
+needed), and an interface module (IM).
+B Principle of Operation:
+The Alinity hq module uses optical and fluorescence flow cytometry, hydrodynamic focusing,
+and absorption spectrophotometry technologies to measure, count, and calculate hematological
+parameters in samples.
+• Optical and fluorescence flow cytometry is a process used to count and measure the
+properties of cells or particles as they are carried by fluid through a sensing zone. The
+physical and chemical characteristics of cells or particles are measured via light scatter,
+polarization, and/or fluorescence response from a laser.
+• The Alinity hq uses hydrodynamic focusing to align cells into a single-file passage
+through the sensing zone. A cell-free liquid sheath surrounds the diluted sample and
+K243283 - Page 3 of 15
+
+--- Page 4 ---
+moves with it in a laminar flow. The laminar flow prevents any mixing between the liquid
+sheath and the diluted sample.
+• Absorption spectrophotometry is based on the linear relationship between the amount of
+light that a well-mixed, nonflowing sample absorbs at a particular absorption band and
+the concentration of an absorbing entity in the sample (Beer's Law). To perform
+absorption spectrophotometry, the system uses the hemoglobin dilution as the sample and
+a hemoglobin complex as the light-absorbing entity.
+Flow cytometry technologies are used to analyze whole blood samples for WBC, RBC, NRBC,
+RETIC, and PLT. Absorption spectrophotometry is used to measure the HGB concentration.
+The Alinity hs module creates and stains smears from whole blood samples in addition to
+staining externally prepared smears for morphologic review. The operator selects and may
+configure staining protocols as needed by the laboratory. The Alinity hs module is configured
+with the May-Grünwald-Giemsa stain or the Wright-Giemsa stain.
+Modification
+The Alinity h-series System software algorithm (Software Version 5.8) was modified to reduce
+overestimation of basophil counts due to potential misclassification of lymphocytes to basophils
+that may occur for some whole blood samples (hereafter, referred to as “affected samples”)
+tested on the Alinity hq of the Alinity h-series System (K220031). This modification reduces
+falsely increased basophil measurements (i.e., BASO and %BASO) and the potential of incorrect
+results for these affected samples. The modification only impacts how the algorithm evaluates
+whole blood samples and does not affect how quality control (QC) materials are evaluated. The
+modification does not impact other modules or interfaces of the Alinity h-series System.
+C Instrument Description Information:
+1. Instrument Name:
+Alinity h-series System
+2. Specimen Identification:
+The system supports the use of a bar-coded Sample Identification (SID) on a specimen tube
+to provide specimen identification. Specimens are also identified alphanumerically by rack
+and tube position number. A bar code reader on the sample handler robot reads the rack ID
+bar code to identify the rack number. The rack ID bar code also provides information to
+identify the tube position on the rack.
+3. Specimen Sampling and Handling:
+Two methods are used to introduce a specimen to the Alinity hq module. These are closed-
+tube processing and open-tube processing.
+• In the closed-tube processing mode, capped specimen tubes are introduced to the
+Alinity hq module from 10-tube closed-tube racks that are inserted in the loading
+K243283 - Page 4 of 15
+
+--- Page 5 ---
+area. The module automatically mixes the specimens and moves the tubes to the
+aspiration position.
+• In the open-tube processing mode, the operator pre-mixes a specimen tube and
+removes the cap. The tube is placed in an open-tube sample rack and is inserted in the
+loading area. The sample handler robot within the Alinity hq module moves the open-
+tube rack that contains the specimen to the open-tube sampling position.
+4. Calibration:
+Calibration is performed using materials with assigned values that are traceable to standard
+reference methods. It is recommended that the laboratory calibrate using Alinity h‑series
+HemCal, which is a commercial whole blood calibrator.
+5. Quality Control:
+The Alinity h‑series requires a commercial whole blood control (Alinity h-series Control
+29P) and patient controls to monitor system performance.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Alinity h-series System
+B Predicate 510(k) Number(s):
+K220031
+C Comparison with Predicate(s):
+Device & Predicate Device(s): K243283 K220031
+Device Trade Name Alinity h-series System Alinity h-series System
+General Device Characteristic
+Similarities
+The Alinity h‑series System
+is an integrated hematology
+analyzer (Alinity hq) and
+slide maker stainer (Alinity
+hs) intended for screening
+patient populations found in
+Intended Use/Indications For clinical laboratories by
+Same
+Use qualified health care
+professionals. The Alinity
+h‑series can be configured
+as:
+• One stand-alone
+automated hematology
+analyzer system.
+K243283 - Page 5 of 15
+
+[Table 1 on page 5]
+	Device & Predicate Device(s):			K243283			K220031	
+Device Trade Name			Alinity h-series System			Alinity h-series System		
+	General Device Characteristic							
+	Similarities							
+Intended Use/Indications For
+Use			The Alinity h‑series System
+is an integrated hematology
+analyzer (Alinity hq) and
+slide maker stainer (Alinity
+hs) intended for screening
+patient populations found in
+clinical laboratories by
+qualified health care
+professionals. The Alinity
+h‑series can be configured
+as:
+• One stand-alone
+automated hematology
+analyzer system.			Same		
+
+--- Page 6 ---
+• A multimodule system
+that includes at least one
+Alinity hq analyzer module
+and may include one
+Alinity hs slide maker
+stainer module.
+The Alinity hq analyzer
+module provides complete
+blood count and a 6-part
+white blood cell differential
+for normal and abnormal
+cells in capillary and
+venous whole blood
+collected in K2EDTA or
+K3EDTA. The Alinity hq
+analyzer provides
+quantitative results for the
+following measurands:
+WBC, NEU, %N, LYM,
+%L, MON, %M, EOS, %E,
+BASO, %B, IG, %IG,
+RBC, HCT, HGB, MCV,
+MCH, MCHC, MCHr,
+RDW, NRBC, NR/W,
+RETIC, %R, IRF, PLT,
+MPV, %rP. The Alinity hq
+analyzer module is
+indicated to identify
+patients with hematologic
+parameters within and
+outside of established
+reference ranges. The
+Alinity hs slide maker
+stainer module automates
+whole blood film
+preparation and staining
+and stains externally
+prepared whole blood
+smears.
+For in vitro diagnostic use.
+Performs hematology
+analyses according to flow
+cytometry method (using
+Test Principle Hydro Dynamic Focusing) Same
+and absorption
+spectrophotometry method
+(using cyanide-free ligand).
+K243283 - Page 6 of 15
+
+[Table 1 on page 6]
+	• A multimodule system
+that includes at least one
+Alinity hq analyzer module
+and may include one
+Alinity hs slide maker
+stainer module.
+The Alinity hq analyzer
+module provides complete
+blood count and a 6-part
+white blood cell differential
+for normal and abnormal
+cells in capillary and
+venous whole blood
+collected in K2EDTA or
+K3EDTA. The Alinity hq
+analyzer provides
+quantitative results for the
+following measurands:
+WBC, NEU, %N, LYM,
+%L, MON, %M, EOS, %E,
+BASO, %B, IG, %IG,
+RBC, HCT, HGB, MCV,
+MCH, MCHC, MCHr,
+RDW, NRBC, NR/W,
+RETIC, %R, IRF, PLT,
+MPV, %rP. The Alinity hq
+analyzer module is
+indicated to identify
+patients with hematologic
+parameters within and
+outside of established
+reference ranges. The
+Alinity hs slide maker
+stainer module automates
+whole blood film
+preparation and staining
+and stains externally
+prepared whole blood
+smears.
+For in vitro diagnostic use.	
+Test Principle	Performs hematology
+analyses according to flow
+cytometry method (using
+Hydro Dynamic Focusing)
+and absorption
+spectrophotometry method
+(using cyanide-free ligand).	Same
+
+--- Page 7 ---
+Whole Blood Mode:
+WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, PLT,
+MPV, IRF, NEU, %NEU,
+LYM, %LYM, MONO,
+Parameters Same
+%MONO, EOS, %EOS,
+BASO, %BASO, NRBC,
+NR/W, IG, %IG, RETIC,
+%RETIC, RDW-CV,
+RDW-SD, MCHr, %rP
+Specimen Type Whole Blood Same
+Use of Controls/ Calibrators Yes Same
+• CBC+Diff (for RBC,
+WBC, and PLT)
+Measuring Channels/ Methods
+• CBC+Diff+Retic (for Same
+Selection
+RBC, WBC, PLT, and
+Retic)
+Information Processing Unit
+Multi-Module connect Same
+(IPU)
+Required
+• Water Purification
+System (WPS)
+• System Control Center
+Modules Connected Computer (SCC)
+Same
+to the Analyzer Optional
+• Laboratory Automation
+System (LAS) for
+automatic sample
+loading
+• USB
+Data Transfer Mode • Internet Same
+• Intranet
+Sample Aspiration/ Fluidic
+Single aspiration pathway Same
+Pathway
+• Diluent
+• HGB Reagent
+Reagents Same
+• WBC Reagent
+• Retic Reagent
+Whole Blood:
+• Calibrator – Alinity h-
+Controls/ Calibrators Same
+series HemCal
+• Control – Alinity h-
+K243283 - Page 7 of 15
+
+[Table 1 on page 7]
+Parameters	Whole Blood Mode:
+WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, PLT,
+MPV, IRF, NEU, %NEU,
+LYM, %LYM, MONO,
+%MONO, EOS, %EOS,
+BASO, %BASO, NRBC,
+NR/W, IG, %IG, RETIC,
+%RETIC, RDW-CV,
+RDW-SD, MCHr, %rP	Same
+Specimen Type	Whole Blood	Same
+Use of Controls/ Calibrators	Yes	Same
+Measuring Channels/ Methods
+Selection	• CBC+Diff (for RBC,
+WBC, and PLT)
+• CBC+Diff+Retic (for
+RBC, WBC, PLT, and
+Retic)	Same
+Information Processing Unit
+(IPU)	Multi-Module connect	Same
+Modules Connected
+to the Analyzer	Required
+• Water Purification
+System (WPS)
+• System Control Center
+Computer (SCC)
+Optional
+• Laboratory Automation
+System (LAS) for
+automatic sample
+loading	Same
+Data Transfer Mode	• USB
+• Internet
+• Intranet	Same
+Sample Aspiration/ Fluidic
+Pathway	Single aspiration pathway	Same
+Reagents	• Diluent
+• HGB Reagent
+• WBC Reagent
+• Retic Reagent	Same
+Controls/ Calibrators	Whole Blood:
+• Calibrator – Alinity h-
+series HemCal
+• Control – Alinity h-	Same
+
+--- Page 8 ---
+series Control 29P
+General Device Characteristic
+Differences
+5.8 [includes algorithm
+modification to resolve
+Software Version 5.0
+overestimation of basophil
+counts]
+VI Standards/Guidance Documents Referenced:
+• CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures;
+Approved Guideline – Third Edition
+• CLSI EP06, Evaluation of the Linearity of Quantitative Measurement Procedures –
+Second Edition
+• CLSI EP12-A2, User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline – Second Edition.
+• CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition
+• CLSI EP28-A3c, Defining, Establishing, and Verifying Reference Intervals in the
+Clinical Laboratory; Approved Guideline – Third Edition
+• CLSI EP35, Assessment of Equivalence or Suitability of Specimen Types for Medical
+Laboratory Measurement Procedures [7-298] – First Edition
+• CLSI EP37, Supplemental Tables for Interference Testing in Clinical Chemistry– First
+Edition
+• CLSI H20-A2, Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard – Second Edition;
+• CLSI H26-A2 Validation, Verification, and Quality Assurance of Automated
+Hematology Analyzers; Proposed Standard - Second Edit [7-210];
+• IEC 60825-1:2014 Edition 3.0, Safety of laser products - Part 1: Equipment Classification
+and Requirements [12-273];
+• ISO 14971 Third Edition 2019-12, Medical devices - Applications of risk management to
+medical devices [5-125];
+• IEC 60601-1-2 Edition 4.0 2014-02, Medical Electrical Equipment- Part 1-2: General
+requirements for basic safety and essential performance - Collateral Standard:
+Electromagnetic disturbances - Requirements and tests [19-8];
+• CLSI LIS01-A2, Standard Specification for Low-Level Protocol to Transfer Messages
+Between Clinical Laboratory Instruments and Computer Systems [13-29];
+• CLSI LIS02-A2, Standard Specification for Transfer Information Between Clinical
+Instruments and Computer Systems; Approved Standard - Second Edition [13-17];
+• ISO 15223-1 Third Edition, Medical devices - Symbols to be used with medical device
+labels, labelling, and information to be supplied [5-117]
+VII Performance Characteristics (if/when applicable):
+K243283 - Page 8 of 15
+
+[Table 1 on page 8]
+			series Control 29P	
+	General Device Characteristic			
+	Differences			
+Software Version			5.8 [includes algorithm
+modification to resolve
+overestimation of basophil
+counts]	5.0
+
+--- Page 9 ---
+A Analytical Performance:
+In this 510(k) submission, raw signal data files from 510(k) submission K220031 were analyzed
+using the modified algorithm for the subject device.
+1. Precision:
+a) 20-Day Within-Laboratory Precision
+Please refer to K220031.
+b) Repeatability (Normal samples):
+Samples were collected from 20 healthy donors in K2EDTA and tested using both
+CBC+Diff and CBC+Diff+Retic test selections. Three Alinity h-series system
+instruments of 1+0 configuration and two Alinity h-series system instruments of 2+1
+configurations were used. Four (4) samples were tested on each of the three (3)
+instruments in the 1+0 configuration and two (2) samples on each of the two instruments
+in the 2+1 configuration using both CBC+Diff and CBC+Diff+Retic test selections. Each
+sample was tested in one (1) run with at least 32 replicates using 1 reagent lot and 1
+control lot. The mean value, SD, %CV, minimum and maximum values, and the two-
+sided 95% Confidence Intervals (CI) around the SD and %CV were calculated for each
+measurand and test selection (CBC+Diff and CBC+Diff+Retic). The maximum %CV or
+SD values across donors by range was reported. The SD or %CV point estimates were
+evaluated against the evaluation criteria.
+The maximum SD/%CV reflects the worst or largest imprecision across all the samples
+for each measurand tested for short-term imprecision with whole blood. If the maximum
+SD or %CV meets the acceptance criteria for a given measurand, then all the samples
+tested for short-term imprecision had SDs/%CVs that also meet the acceptance criteria
+for that measurand. All samples were evaluated against all applicable acceptance criteria
+and met all acceptance criteria requirements.
+Test Mode Measurand N Result Range Max SD/%CV
+1 3.72 to 4.06 0.068 SD
+WBC (x103/µL) 19 3.92 to 10.60 2.71 %CV
+13 1.10 to 2.01 0.068 SD
+LYM (x103/µL) 7 1.94 to 3.05 3.09 %CV
+CBC+Diff
+1.239 SD
+LYM (%) 20 13.80 to 57.80
+3.34 %CV
+BASO (x 103/µL) 20 0.01 to 0.12 0.021 SD
+0.352 SD
+BASO (%) 20 0.13 to 2.20
+41.04 %CV
+K243283 - Page 9 of 15
+
+[Table 1 on page 9]
+Test Mode	Measurand	N	Result Range	Max SD/%CV
+CBC+Diff	WBC (x103/µL)	1	3.72 to 4.06	0.068 SD
+		19	3.92 to 10.60	2.71 %CV
+	LYM (x103/µL)	13	1.10 to 2.01	0.068 SD
+		7	1.94 to 3.05	3.09 %CV
+	LYM (%)	20	13.80 to 57.80	1.239 SD
+				3.34 %CV
+	BASO (x 103/µL)	20	0.01 to 0.12	0.021 SD
+	BASO (%)	20	0.13 to 2.20	0.352 SD
+				41.04 %CV
+
+--- Page 10 ---
+Test Mode Measurand N Result Range Max SD/%CV
+1 3.72 to 4.04 0.085 SD
+WBC (x103/µL) 18 3.93 to 10.40 2.22 %CV
+13 1.10 to 2.01 0.063 SD
+CBC+Diff+Retic LYM (x103/µL) 6 1.91 to 3.07 3.17 %CV
+1.193 SD
+LYM (%) 19 13.40 to 58.10
+3.63 %CV
+BASO (x103/µL) 19 0.01 to 0.11 0.025 SD
+0.455 SD
+BASO (%) 19 0.13 to 2.00
+41.08 %CV
+For other reported parameters, please refer to K220031.
+c) Repeatability (Pathological &MDL samples):
+Abnormal samples were collected from a minimum of 16 donors per measurand and
+range. A minimum of 4 repeatability samples (2 samples using CBC+Diff mode and 2
+samples using CBC+Diff+Retic mode) per measurand and range were tested on each of
+three 1+0 Alinity hq analyzers in closed-tube processing mode. A minimum of 4
+repeatability samples per measurand and range were tested on one 2+1 Alinity h-series
+System (2 samples using CBC+Diff mode on one Alinity hq module and 2 samples using
+CBC+Diff+Retic mode on the other Alinity hq module). Each sample was tested in a
+minimum of 10 replicates. The mean, standard deviation (SD), coefficient of variation
+(CV), and 95% CI were calculated for each parameter. The SD or %CV point estimates
+were evaluated against the evaluation criteria. All results met the predefined acceptance
+criteria. A summary table showing the maximum %CV or SD, across samples by range,
+for applicable measurand(s) is presented below.
+Recommended Result Max SD /
+Target Range Measurand N
+Target Values Range %CVa
+0.06 – 2.00 WBC
+Low 16 0.06 to 2.01 0.083 SD
+x103/μL (x103/μL)
+50.0 – 400.0 WBC 41.40 to
+High 17 1.88 %CV
+x103/μL (x103/μL) 209.00
+LYM
+Low WBC related NA 11 0.12 to 0.74 0.040 SD
+(x103/μL)
+BASO
+Low WBC related NA 18 0.00 to 0.04 0.010 SD
+(x103/μL)
+aIndicate the maximum SD or %CV comparing to the acceptance criteria
+For other reported parameters, please refer to K220031.
+d) Reproducibility
+Please refer to K220031.
+K243283 - Page 10 of 15
+
+[Table 1 on page 10]
+Test Mode	Measurand	N	Result Range	Max SD/%CV
+CBC+Diff+Retic	WBC (x103/µL)	1	3.72 to 4.04	0.085 SD
+		18	3.93 to 10.40	2.22 %CV
+	LYM (x103/µL)	13	1.10 to 2.01	0.063 SD
+		6	1.91 to 3.07	3.17 %CV
+	LYM (%)	19	13.40 to 58.10	1.193 SD
+				3.63 %CV
+	BASO (x103/µL)	19	0.01 to 0.11	0.025 SD
+	BASO (%)	19	0.13 to 2.00	0.455 SD
+				41.08 %CV
+
+[Table 2 on page 10]
+Target Range	Recommended
+Target Values	Measurand	N	Result
+Range	Max SD /
+%CVa
+Low	0.06 – 2.00
+x103/μL	WBC
+(x103/μL)	16	0.06 to 2.01	0.083 SD
+High	50.0 – 400.0
+x103/μL	WBC
+(x103/μL)	17	41.40 to
+209.00	1.88 %CV
+Low WBC related	NA	LYM
+(x103/μL)	11	0.12 to 0.74	0.040 SD
+Low WBC related	NA	BASO
+(x103/μL)	18	0.00 to 0.04	0.010 SD
+
+--- Page 11 ---
+2. Linearity:
+Please refer to K220031.
+3. Analytical Specificity/Interference:
+Please refer to K220031.
+4. Assay Reportable Range:
+Please refer to K220031.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Please refer to K220031.
+6. Detection Limit:
+Limits of Blank, Detection, and Quantitation were conducted over a minimum of 3 days
+using 2 unique samples per day on each of 2 test selections (CBC+Diff and
+CBC+Diff+Retic) in 5 replicates on each of the two reagent lots. The maximum observed
+limit of blank (LoB), limit of detection (LoD), and limit of quantitation (LoQ) values are
+summarized below. All results met the predefined acceptance criteria and were determined to
+be acceptable.
+Results
+Measurand
+LoB LoD LoQ
+WBC (x103/μL) 0.01 0.02 0.03
+For other reported parameters, please refer to K220031
+7. Assay Cut-Off:
+Not applicable
+8. Accuracy (Instrument):
+See Method Comparison Study Section
+9. Carry-Over:
+Please refer to K220031.
+B Comparison Studies:
+K243283 - Page 11 of 15
+
+[Table 1 on page 11]
+Measurand	Results		
+	LoB	LoD	LoQ
+WBC (x103/μL)	0.01	0.02	0.03
+
+--- Page 12 ---
+1. Method Comparison:
+A method comparison study was conducted to assess the performance of the Alinity hq with
+software version 5.8 compared to the predicate device, Sysmex XN-10 (K112605). A total of
+2,194 unique venous and/or capillary specimens collected in K2EDTA from pediatric (≤21
+years) and adult subjects including a wide variety of disease states (clinical conditions) were
+tested across 7 clinical sites.
+Venous and/or capillary whole blood leftover specimens were collected in K2EDTA tubes
+from a wide range of demographics (age and sex) and disease states (clinical conditions). In
+total, there were 1,528 specimens collected from subjects with one or more medical
+conditions while there were 244 specimens without any medical conditions. Study sites
+aimed to cover the target assay reportable range for the measurands. A maximum of 10%
+samples per measurand were permitted to be contrived to cover the entire target assay
+reportable range.
+Each specimen was tested within 8 hours from the time of collection in one replicate using
+either the Closed or Open tube processing mode in the CBC+Diff+Retic test selection on the
+Alinity h-series System and one replicate on the Sysmex XN-10 System. Specimens were
+tested on the Alinity hq and the Sysmex XN-10 within 2 hours of each other. At five of the
+seven sites, the Alinity hq configuration was 1+0 (five stand-alone Alinity hq analyzers), at
+one site the configuration was 2+1 (2 Alinity hq modules that are configured as part of the
+Alinity h-series System), and at one site both 1+0 and 2+1 configurations were tested.
+Alinity hq testing was performed using a minimum of 1 reagent lot, 1 control lot at each site
+and a minimum of 1 lot of the Alinity h-series HemCal commercial calibrator. The Sysmex
+XN-10/20 was calibrated using its recommended commercial calibrators at each site. A
+Passing-Bablok regression analysis was performed but Deming regression analysis was used
+in place of Passing-Bablok analysis where there are very low numeric values. All results
+were within the predefined acceptance criteria and found to be acceptable.
+All Sites Combined – Regression Analysis Results
+Candidate (Ver. 5.8) vs. Sysmex XN-10:
+Alinity h Result r Slope Intercept
+Measurand N
+Range (95% CI) (95% CI) (95% CI)
+1.00 1.00 0.01
+WBC (x103/µL) 1958 0.07 – 436.00
+(1.00, 1.00) (1.00, 1.00) (0.00, 0.03)
+0.99 0.99 0.02
+LYM (x103/µL) 1598 0.05 – 8.34
+(0.99, 0.99) (0.99, 1.00) (0.01, 0.02)
+1.00 1.00 0.04
+LYM (%) 1598 0.34 – 84.60
+(1.00, 1.00) (0.99, 1.00) (0.04, 0.15)
+0.26 1.25 0.00
+BASO (x103/µL) 1812 0.00 – 2.41
+(0.22, 0.30) (1.20, 1.30) (0.00, 0.00)
+0.44 1.44 -0.12
+BASO (%) 1812 0.00 – 8.37
+(0.40, 0.48) (1.39, 1.50) (-0.14, -0.09)
+K243283 - Page 12 of 15
+
+[Table 1 on page 12]
+Measurand	N	Alinity h Result
+Range	r
+(95% CI)	Slope
+(95% CI)	Intercept
+(95% CI)
+WBC (x103/µL)	1958	0.07 – 436.00	1.00
+(1.00, 1.00)	1.00
+(1.00, 1.00)	0.01
+(0.00, 0.03)
+LYM (x103/µL)	1598	0.05 – 8.34	0.99
+(0.99, 0.99)	0.99
+(0.99, 1.00)	0.02
+(0.01, 0.02)
+LYM (%)	1598	0.34 – 84.60	1.00
+(1.00, 1.00)	1.00
+(0.99, 1.00)	0.04
+(0.04, 0.15)
+BASO (x103/µL)	1812	0.00 – 2.41	0.26
+(0.22, 0.30)	1.25
+(1.20, 1.30)	0.00
+(0.00, 0.00)
+BASO (%)	1812	0.00 – 8.37	0.44
+(0.40, 0.48)	1.44
+(1.39, 1.50)	-0.12
+(-0.14, -0.09)
+
+--- Page 13 ---
+Within the 2,194 samples tested, there were 67 whole blood samples that are impacted by
+basophil count overestimation due to basophil misclassification. A subgroup analysis was
+conducted by comparing the performance of the subject device (software version 5.8), the
+predicate device (software version 5.0) to Sysmex XN-10 for the 67 samples.
+Alinity version 5.0 vs. Sysmex
+r Slope Intercept
+Measurand N Result Range
+(95% CI) (95% CI) (95% CI)
+BASO 0.93 2.22 -0.01
+67 0.03 – 8.11
+(x103/µL) (0.90, 0.96) (1.64, 2.80) (-0.05, 0.02)
+0.33 0.54 1.83
+BASO (%) 67 2.00 – 4.49
+(0.10, 0.53) (0.31, 0.83) (1.45, 2.05)
+LYM 0.99 0.93 0.06
+53 0.37 – 6.26
+(x103/µL) (0.99, 1.00) (0.90, 0.98) (-0.01, 0.12)
+0.99 0.99 -0.50
+LYM (%) 53 6.31 – 60.50
+(0.98, 0.99) (0.95, 1.03) (-1.78, 0.72)
+WBC 1.00 0.99 0.02
+65 1.22 – 205.00
+(x103/µL) (1.00, 1.00) (0.98, 1.01) (-0.05, 0.12)
+Alinity version 5.8 vs. Sysmex
+r Slope Intercept
+Measurand N Result Range
+(95% CI) (95% CI) (95% CI)
+BASO 0.84 1.17 0.00
+67 0.00 – 1.69
+(x103/µL) (0.75, 0.90) (1.00, 1.32) (-0.01, 0.01)
+0.61 1.22 -0.08
+BASO (%) 67 0.00 – 4.33
+(0.44, 0.75) (0.98, 1.52) (-0.39, 0.19)
+LYM 0.99 0.98 0.04
+53 0.38 – 6.47
+(x103/µL) (0.98, 0.99) (0.95, 1.01) (-0.02, 0.11)
+0.99 1.01 0.13
+LYM (%) 53 7.00 – 62.00
+(0.99, 1.00) (0.97, 1.04) (-0.84, 0.83)
+WBC 1.00 0.99 0.02
+65 1.22 – 204.00
+(x 103/µL) (1.00, 1.00) (0.98, 1.01) (-0.04, 0.12)
+2. Matrix Comparison:
+Please refer to K220031.
+C Clinical Studies:
+1. Clinical Sensitivity and Specificity:
+Sensitivity and specificity performance with the Alinity h-series System were assessed for
+accuracy of identifying distributional abnormalities and morphological flags (PLT Clumps,
+RBC Fragments) by comparing to a 400-cell differential derived from two independent 200-
+cell microscopic reviews of a blood smear (reference method) from negative (normal) and
+positive (abnormal) specimens. A subset of 674 venous and capillary specimens collected in
+K2EDTA for the method comparison study were included in this study. Testing was
+K243283 - Page 13 of 15
+
+[Table 1 on page 13]
+Measurand	N	Result Range	r
+(95% CI)	Slope
+(95% CI)	Intercept
+(95% CI)
+BASO
+(x103/µL)	67	0.03 – 8.11	0.93
+(0.90, 0.96)	2.22
+(1.64, 2.80)	-0.01
+(-0.05, 0.02)
+BASO (%)	67	2.00 – 4.49	0.33
+(0.10, 0.53)	0.54
+(0.31, 0.83)	1.83
+(1.45, 2.05)
+LYM
+(x103/µL)	53	0.37 – 6.26	0.99
+(0.99, 1.00)	0.93
+(0.90, 0.98)	0.06
+(-0.01, 0.12)
+LYM (%)	53	6.31 – 60.50	0.99
+(0.98, 0.99)	0.99
+(0.95, 1.03)	-0.50
+(-1.78, 0.72)
+WBC
+(x103/µL)	65	1.22 – 205.00	1.00
+(1.00, 1.00)	0.99
+(0.98, 1.01)	0.02
+(-0.05, 0.12)
+
+[Table 2 on page 13]
+Measurand	N	Result Range	r
+(95% CI)	Slope
+(95% CI)	Intercept
+(95% CI)
+BASO
+(x103/µL)	67	0.00 – 1.69	0.84
+(0.75, 0.90)	1.17
+(1.00, 1.32)	0.00
+(-0.01, 0.01)
+BASO (%)	67	0.00 – 4.33	0.61
+(0.44, 0.75)	1.22
+(0.98, 1.52)	-0.08
+(-0.39, 0.19)
+LYM
+(x103/µL)	53	0.38 – 6.47	0.99
+(0.98, 0.99)	0.98
+(0.95, 1.01)	0.04
+(-0.02, 0.11)
+LYM (%)	53	7.00 – 62.00	0.99
+(0.99, 1.00)	1.01
+(0.97, 1.04)	0.13
+(-0.84, 0.83)
+WBC
+(x 103/µL)	65	1.22 – 204.00	1.00
+(1.00, 1.00)	0.99
+(0.98, 1.01)	0.02
+(-0.04, 0.12)
+
+--- Page 14 ---
+performed at six clinical sites. One (1) replicate of each specimen was analyzed using the
+CBC+Diff+Retic test selection in the Open or Closed tube processing mode on the Alinity
+hq. Three blood films were prepared for each sample.
+The final WBC differential and WBC, RBC, and PLT morphology results were based on the
+400-cell WBC differential counts derived from the average of 2 concurring 200-cell
+differential counts and concordant RBC and PLT morphology results with the exception of
+PLT clumps.
+Sensitivity and specificity analysis were performed to compare the Alinity hq morphological
+flags, WBC 6-part differential, and NR/W against the results from microscopy analysis.
+Agreement between 2 readers was determined for %BASO, %EOS, %MONO, %NEU,
+%LYM, %IG, and NR/W for the assessment of distributional abnormalities, as well as for
+blasts, variant lymphocytes, band neutrophils, RBC fragments, and PLT clumps for the
+assessment of morphological abnormalities.
+Results from all specimens tested in this study were evaluated against the respective
+reference ranges for each differential cell type. Results within the lower and upper limits of
+the reference ranges were considered normal (negative). Results not within the lower and
+upper limits of the respective reference ranges for Microscopy or Alinity hq were considered
+abnormal (positive). Specimens were classified as morphologically abnormal (morphological
+positive) based on predefined criteria for blast, left shift, variant lymphocytes, PLT clumps,
+RBC fragments/schistocytes. Distributional classification and morphological flagging were
+categorized as True Positive (TP), False Positive (FP), False Negative (FN), and True
+Negative (TN) per the following contingency table based on agreement between Alinity hq
+and Microscopic results.
+Category of N TP FP F TN Sensitivity Specificity Efficiency
+Abnormalities N (95% CI)a (95% CI)b (95% CI)c
+Any Morphological 650 75 121 36 418 67.57% 77.55% 75.85%
+Flags (58.03%, 76.15%) (73.79%, 81.01%) (72.37%, 79.09%)
+Any Distributional 636 220 72 45 299 83.02% 80.59% 81.60%
+Abnormalities (77.95%, 87.34%) (76.20%, 84.49%) (78.37%, 84.54%)
+Any Morphological 80.98% 76.09% 78.40%
+Flags and/or 648 247 82 58 261 (76.12%, 85.23%) (71.22%, 80.51%) (75.02%, 81.51%)
+Distributional
+Abnormalities
+a Sensitivity = 100* TP / (TP + FN)
+b Specificity = 100* TN / (TN + FP)
+c Efficiency = 100* (TN + TP) / (TP + FN + FP + TN)
+D Clinical Cut-Off:
+Not applicable
+E Expected Values/Reference Range:
+Please refer to K220031.
+K243283 - Page 14 of 15
+
+[Table 1 on page 14]
+Category of
+Abnormalities	N	TP	FP	F
+N	TN	Sensitivity
+(95% CI)a	Specificity
+(95% CI)b	Efficiency
+(95% CI)c
+Any Morphological
+Flags	650	75	121	36	418	67.57%
+(58.03%, 76.15%)	77.55%
+(73.79%, 81.01%)	75.85%
+(72.37%, 79.09%)
+Any Distributional
+Abnormalities	636	220	72	45	299	83.02%
+(77.95%, 87.34%)	80.59%
+(76.20%, 84.49%)	81.60%
+(78.37%, 84.54%)
+Any Morphological
+Flags and/or
+Distributional
+Abnormalities	648	247	82	58	261	80.98%
+(76.12%, 85.23%)	76.09%
+(71.22%, 80.51%)	78.40%
+(75.02%, 81.51%)
+
+--- Page 15 ---
+F Other Supportive Instrument Performance Characteristics Data:
+Please refer to K220031.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K243283 - Page 15 of 15

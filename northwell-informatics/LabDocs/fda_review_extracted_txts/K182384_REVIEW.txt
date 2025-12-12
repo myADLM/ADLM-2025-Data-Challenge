@@ -1,0 +1,951 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+A. 510(k) Number:
+k182384
+B. Purpose for Submission:
+New device
+C. Measurand:
+Albumin and creatinine in urine
+D. Type of Test:
+Semi-quantitative urinalysis
+E. Applicant:
+Healthy.io, Ltd.
+F. Proprietary and Established Names:
+ACR | LAB Urine Analysis Test System
+G. Regulatory Information:
+1. Regulation section:
+Name Regulation Product Code Device Class
+Creatinine test system 21 CFR 862.1225 JFY II
+Urinary protein or albumin 21 CFR 862.1645 JIR I
+(nonquantitative) test system
+Automated urinalysis system 21 CFR 862.2900 KQO I
+2. Panel:
+Chemistry (75)
+1
+
+[Table 1 on page 1]
+	Name			Regulation			Product Code			Device Class	
+Creatinine test system			21 CFR 862.1225			JFY			II		
+Urinary protein or albumin
+(nonquantitative) test system			21 CFR 862.1645			JIR			I		
+Automated urinalysis system			21 CFR 862.2900			KQO			I		
+
+--- Page 2 ---
+H. Intended Use:
+1. Intended use(s):
+See Indication(s) for use below.
+2. Indication(s) for use:
+The ACR | LAB Urine Analysis Test System is comprised of a smartphone application, a
+proprietary Color-Board, and ACR Reagent Strips. It is intended for the semi-quantitative
+detection of albumin and creatinine in urine, as well as the presentation of their ratio. The
+ACR | LAB Urine Analysis Test System is intended for in-vitro diagnostic use by a
+healthcare professional in a point of care setting. These results may be used in
+conjunction with clinical evaluation as an aid in the diagnosis for kidney function.
+3. Special conditions for use statement(s):
+For prescription use only.
+For in vitro diagnostic use only.
+Samples should be screened for blood prior to testing.
+4. Special instrument requirements:
+A dedicated iPhone 7 (iOS 12.0) should be used for testing.
+I. Device Description:
+The device is provided as a kit that comprises a canister of 100 ACON Mission Urinalysis
+Reagent Strips (Microalbumin/Creatinine) (ACON Laboratories Inc., k150330), 10
+individually-wrapped Color-Boards, and a User Manual. The ACR | LAB Urine Analysis
+Test System also consists of a smartphone application for use on a dedicated iPhone 7 (iOS
+12.0), and an image recognition algorithm running on a back-end, cloud-based server.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Mission U120 Ultra Urine Analyzer and Mission Urinalysis Reagent Strips
+(Microalbumin/Creatinine)
+2. Predicate 510(k) number(s):
+k142391
+2
+
+--- Page 3 ---
+3. Comparison with predicate:
+Similarities
+Item Subject Device Predicate Device
+k182384 k142391
+ACR | LAB Urine Analysis Mission U120 Ultra Urine
+Test System Analyzer and Mission
+Urinalysis Reagent Strips
+(Microalbumin/Creatinine)
+Intended Use For the semi quantitative Same
+measurement of albumin
+and creatinine to assist
+diagnosis for kidney
+function.
+Sample Type Human urine Same
+Measurement Principle Reflectance photometry Same
+Differences
+Item Subject Device Predicate Device
+k182384 k142391
+ACR | LAB Urine Analysis Mission U120 Ultra Urine
+Test System Analyzer and Mission
+Urinalysis Reagent Strips
+(Microalbumin/Creatinine)
+Reader iPhone 7 (iOS 12.0) Mission U120 Ultra Urine
+Analyzer
+Data Transfer Internet connection USB port and standard
+between the dedicated RS232C port
+smartphone, back-end
+server, and patient’s
+electronic medical records
+K. Standard/Guidance Document Referenced (if applicable):
+• IEC 62304:2006, Medical device software - Software life cycle processes
+• CLSI EP5-A3, Evaluation of Precision of Quantitative Measurement Procedures;
+Approved Guideline – Third Edition
+• CLSI EP6-A, Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach; Approved Guideline
+• CLSI EP7-A2, Interference Testing in Clinical Chemistry; Approved Guideline – Second
+Edition
+• CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition
+3
+
+[Table 1 on page 3]
+Similarities				
+Item	Subject Device
+k182384
+ACR | LAB Urine Analysis
+Test System		Predicate Device	
+			k142391	
+			Mission U120 Ultra Urine	
+			Analyzer and Mission	
+			Urinalysis Reagent Strips	
+			(Microalbumin/Creatinine)	
+Intended Use	For the semi quantitative
+measurement of albumin
+and creatinine to assist
+diagnosis for kidney
+function.	Same		
+Sample Type	Human urine	Same		
+Measurement Principle	Reflectance photometry	Same		
+
+[Table 2 on page 3]
+Subject Device
+k182384
+ACR | LAB Urine Analysis
+Test System
+
+[Table 3 on page 3]
+Differences				
+Item	Subject Device
+k182384
+ACR | LAB Urine Analysis
+Test System		Predicate Device	
+			k142391	
+			Mission U120 Ultra Urine	
+			Analyzer and Mission	
+			Urinalysis Reagent Strips	
+			(Microalbumin/Creatinine)	
+Reader	iPhone 7 (iOS 12.0)	Mission U120 Ultra Urine
+Analyzer		
+Data Transfer	Internet connection
+between the dedicated
+smartphone, back-end
+server, and patient’s
+electronic medical records	USB port and standard
+RS232C port		
+
+[Table 4 on page 3]
+Subject Device
+k182384
+ACR | LAB Urine Analysis
+Test System
+
+--- Page 4 ---
+L. Test Principle:
+The albumin test is based on affinity binding of albumin to a sulfonephthalein dye at a
+constant pH. The development of pale green to aqua blue indicates the presence of albumin.
+The creatinine test is based on the peroxidase-like activity of a copper creatinine complex
+that catalyzes the reaction of diisopropylbenzene dihydroperoxide and 3,3’,5,5’-
+tetramethylbenzidine. The resulting color ranges from orange through green to blue.
+The ACR | LAB Urine Analysis Test System scans and analyzes the test strip using a mobile
+device running the smartphone application.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Repeatability testing was conducted at 3 sites using one iPhone 7 (iOS 12.0)
+smartphone at each site. Each site had one operator performing the tests using 3
+spiked urine samples, 3 strip lots, and 7 test strips per lot for a total of 63 results per
+level across sites (21 per site). The results are summarized by site in the tables below.
+Albumin
+Level N Within Run % Within Run % Within Run % % Agreement
+(mg/L) Agreement Agreement Agreement (± 1 Color
+(Exact Match) (Exact Match) (Exact Match) Block)
+Site 1 Site 2 Site 3
+10 63 100% 100% 100% 100%
+(21/21) (21/21) (21/21) (63/63)
+30 63 100% 100% 100% 100%
+(21/21) (21/21) (21/21) (63/63)
+150 63 100% 100% 100% 100%
+(21/21) (21/21) (21/21) (63/63)
+Creatinine
+Level N Within Run % Within Run % Within Run % % Agreement
+(mg/dL) Agreement Agreement Agreement (± 1 Color
+(Exact Match) (Exact Match) (Exact Match) Block)
+Site 1 Site 2 Site 3
+10 63 100% 100% 100% 100%
+(21/21) (21/21) (21/21) (63/63)
+50 63 100% 100% 100% 100%
+(21/21) (21/21) (21/21) (63/63)
+300 63 100% 100% 100% 100%
+(21/21) (21/21) (21/21) (63/63)
+4
+
+[Table 1 on page 4]
+Level
+(mg/L)	N		Within Run %			Within Run %
+Agreement
+(Exact Match)
+Site 2	Within Run %
+Agreement
+(Exact Match)
+Site 3		% Agreement
+(± 1 Color
+Block)
+			Agreement						
+			(Exact Match)						
+			Site 1						
+10	63	100%
+(21/21)			100%
+(21/21)		100%
+(21/21)		100%
+(63/63)
+30	63	100%
+(21/21)			100%
+(21/21)		100%
+(21/21)		100%
+(63/63)
+150	63	100%
+(21/21)			100%
+(21/21)		100%
+(21/21)		100%
+(63/63)
+
+[Table 2 on page 4]
+Level
+(mg/L)
+
+[Table 3 on page 4]
+% Agreement
+(± 1 Color
+Block)
+
+[Table 4 on page 4]
+Level
+(mg/dL)	N		Within Run %			Within Run %
+Agreement
+(Exact Match)
+Site 2	Within Run %
+Agreement
+(Exact Match)
+Site 3		% Agreement
+(± 1 Color
+Block)
+			Agreement						
+			(Exact Match)						
+			Site 1						
+10	63	100%
+(21/21)			100%
+(21/21)		100%
+(21/21)		100%
+(63/63)
+50	63	100%
+(21/21)			100%
+(21/21)		100%
+(21/21)		100%
+(63/63)
+300	63	100%
+(21/21)			100%
+(21/21)		100%
+(21/21)		100%
+(63/63)
+
+[Table 5 on page 4]
+Level
+(mg/dL)
+
+[Table 6 on page 4]
+% Agreement
+(± 1 Color
+Block)
+
+--- Page 5 ---
+Reproducibility testing was conducted at 3 sites using five iPhone 7 (iOS 12.0)
+smartphones at each site. Each site had one operator performing the tests using 3
+spiked urine samples, 3 strip lots, and 2 runs per day in singlicate over 20 days for a
+total of 360 results per level across sites (120 per site). The results are summarized by
+site in the tables below.
+Albumin
+Level N % Agreement (Exact % Agreement (± 1 Color
+(mg/L) Match) Block)
+10 360 100% 100%
+(360/360) (360/360)
+30 360 100% 100%
+(360/360) (360/360)
+150 360 99.7% 100%
+(359/360) (360/360)
+Creatinine
+Level N % Agreement (Exact % Agreement (± 1 Color
+(mg/dL) Match) Block)
+10 360 100% 100%
+(360/360) (360/360)
+50 360 98.9% 100%
+(356/360) (360/360)
+300 360 100% 100%
+(360/360) (360/360)
+b. Linearity/assay reportable range:
+The reportable range for each analyte was evaluated by measuring five levels of
+creatinine (10, 50, 100, 200, and 300 mg/dL) and four levels of albumin (10, 30, 80,
+and 150 mg/L). The study was performed by 3 operators using 3 lots of test strips in
+replicates of 10 per lot for a total of 90 measurements per sample. Each operator used
+one iPhone 7 (iOS 12.0).
+Albumin
+Block Cut-off Concentrations % Exact % ± 1 Color
+(mg/L) Tested (mg/L) Match Block
+10 6-14 100 100
+30 18-50 100 100
+80 60-108 98.89 100
+150 > 122 100 100
+5
+
+[Table 1 on page 5]
+Level
+(mg/L)	N		% Agreement (Exact
+Match)	% Agreement (± 1 Color
+Block)
+10	360	100%
+(360/360)		100%
+(360/360)
+30	360	100%
+(360/360)		100%
+(360/360)
+150	360	99.7%
+(359/360)		100%
+(360/360)
+
+[Table 2 on page 5]
+Level
+(mg/L)
+
+[Table 3 on page 5]
+Level
+(mg/dL)	N		% Agreement (Exact
+Match)	% Agreement (± 1 Color
+Block)
+10	360	100%
+(360/360)		100%
+(360/360)
+50	360	98.9%
+(356/360)		100%
+(360/360)
+300	360	100%
+(360/360)		100%
+(360/360)
+
+[Table 4 on page 5]
+Level
+(mg/dL)
+
+[Table 5 on page 5]
+	Block Cut-off			Concentrations			% Exact
+Match	% ± 1 Color
+Block	
+	(mg/L)			Tested (mg/L)					
+10			6-14			100		100	
+30			18-50			100		100	
+80			60-108			98.89		100	
+150			> 122			100		100	
+
+--- Page 6 ---
+Creatinine
+Block Cut-off Concentrations % Exact % ± 1 Color
+(mg/dL) Tested (mg/dL) Match Block
+10 6-26 100 100
+50 34-70 97.78 100
+100 80-140 98.89 100
+200 160-240 98.89 100
+300 > 260 100 100
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Traceability:
+The device is traceable to a commercially available method.
+d. Detection limit:
+A limit of detection study was conducted to determine the cut-off points for every
+color block for both albumin and creatinine. Urine samples spiked with albumin (6
+mg/L to 210 mg/L) or creatinine (6 mg/dL to 420 mg/dL) were each tested using 3
+test strip lots and 6 replicates per lot using one iPhone 7 (iOS 12.0) smartphone. The
+cut-off for each color block is defined as the lowest concentration at which over 55%
+of the test results were positive. The results of the study are shown below.
+Albumin
+Color Block Cut-off (% positive)
+(mg/L) Concentration
+(mg/L)
+10 6 100
+30 18 66.7
+80 60 55.56
+150 122 66.7
+Creatinine
+Color Block Cut-off (% positive)
+(mg/dL) Concentration
+(mg/dL)
+10 6 100
+50 34 83.33
+100 80 66.67
+200 160 55.56
+300 260 66.67
+e. Analytical specificity:
+Interference
+Urine samples spiked with albumin (10 mg/L, 30 mg/L, 150 mg/L) or creatinine (10
+6
+
+[Table 1 on page 6]
+	Block Cut-off			Concentrations			% Exact			% ± 1 Color	
+	(mg/dL)			Tested (mg/dL)			Match			Block	
+10			6-26			100			100		
+50			34-70			97.78			100		
+100			80-140			98.89			100		
+200			160-240			98.89			100		
+300			> 260			100			100		
+
+[Table 2 on page 6]
+Color Block
+(mg/L)		Cut-off		(% positive)
+		Concentration		
+		(mg/L)		
+10	6			100
+30	18			66.7
+80	60			55.56
+150	122			66.7
+
+[Table 3 on page 6]
+Color Block
+(mg/L)
+
+[Table 4 on page 6]
+Color Block
+(mg/dL)		Cut-off		(% positive)
+		Concentration		
+		(mg/dL)		
+10	6			100
+50	34			83.33
+100	80			66.67
+200	160			55.56
+300	260			66.67
+
+[Table 5 on page 6]
+Color Block
+(mg/dL)
+
+--- Page 7 ---
+mg/dL, 50 mg/dL, 300 mg/dL) were spiked with each potentially interfering
+substance at low and high concentrations or not spiked (control). Each sample was
+tested with 1 lot of test strips with 8 replicates using one iPhone 7 (iOS 12.0)
+smartphone. Interference was defined as a change in output of one or more color
+blocks between spiked and control samples. When interference was observed, further
+testing was conducted to identify the lowest concentration at which interference was
+observed.
+The interferents and the highest concentrations tested are listed in the table below:
+Substance Highest Substance Highest
+Concentration Tested Concentration Tested
+(mg/dL) (mg/dL)
+Lithium 250 Sodium 5500
+acetoacetate chloride
+Ammonium 100 Oxalic acid 70
+chloride
+Ascorbic acid 200 Sodium acetate 2.25
+Uric acid 150 Riboflavin 10
+Unconjugated 170 Sodium 1500
+bilirubin bicarbonate
+Calcium 275 Sodium nitrate 10
+chloride
+Creatine 10 Sodium nitrite 10
+Creatinine 600 Sodium 500
+phosphate
+Fructose 100 Theophylline 100
+Galactose 80 Urea 400
+Glycine 450 Blood 0.05%
+Glucose 5000 Leucocytes 2500
+Lactose 10 Human IgG 25
+Hemolysate 10 Citric acid 75
+Potassium 1500
+chloride
+Glycine 450
+The following table shows the substances that interfered with the proposed device.
+Results are expressed as the lowest concentration of the interfering substance that
+exhibited interference and the resulting change in output of the color block. The
+lowest concentration causing interference will be included in the ACR | LAB Urine
+Analysis Test System user manual.
+7
+
+[Table 1 on page 7]
+Substance		Highest		Substance		Highest	
+		Concentration Tested				Concentration Tested	
+		(mg/dL)				(mg/dL)	
+Lithium
+acetoacetate	250			Sodium
+chloride	5500		
+Ammonium
+chloride	100			Oxalic acid	70		
+Ascorbic acid	200			Sodium acetate	2.25		
+Uric acid	150			Riboflavin	10		
+Unconjugated
+bilirubin	170			Sodium
+bicarbonate	1500		
+Calcium
+chloride	275			Sodium nitrate	10		
+Creatine	10			Sodium nitrite	10		
+Creatinine	600			Sodium
+phosphate	500		
+Fructose	100			Theophylline	100		
+Galactose	80			Urea	400		
+Glycine	450			Blood	0.05%		
+Glucose	5000			Leucocytes	2500		
+Lactose	10			Human IgG	25		
+Hemolysate	10			Citric acid	75		
+Potassium
+chloride	1500						
+Glycine	450						
+
+--- Page 8 ---
+Albumin
+Interferent Lowest Concentration Analyte Affect on Results
+Interference was Level
+Observed
+10 mg/L Falsely elevated
+Hemoglobin 2.13 mg/dL 30 mg/L by one color block
+10 mg/L Falsely elevated
+Blood 0.033% 30 mg/L by one color block
+Sodium 10 mg/L Falsely elevated
+phosphate 218.75 mg/dL 30 mg/L by one color block
+Falsely decreased
+Sodium 1787.5 mg/dL 30 mg/L by one color block
+chloride
+Falsely elevated
+Unconjugated 6.38 mg/dL 10 mg/L by one color block
+bilirubin Falsely decreased
+30 mg/L by one color block
+Falsely decreased
+Pastassium 656.25 mg/dL 30 mg/L by one color block
+chloride
+Falsely decreased
+Riboflavin 6.625 mg/dL 30 mg/L by one color block
+10 mg/L Falsely elevated
+Human IgG 8.13 mg/dL 30 mg/L by one color block
+Falsely elevated
+pH 10 30 mg/L by one color block
+Creatinine
+Lowest Concentration
+Interferent Interference was Analyte Affect on Results
+Observed Level
+10 mg/dL Falsely elevated
+Hemoglobin 2.13 mg/dL by one color block
+50 mg/dL
+10 mg/dL Falsely elevated
+Blood 0.033% by one color block
+50 mg/dL
+50 mg/dL Falsely decreased
+Sodium 162.5 mg/dL by one color block
+phosphate 300
+mg/dL
+10 mg/dL Falsely elevated
+Unconjugated 93.5 mg/dL by one color block
+bilirubin 50 mg/dL
+8
+
+[Table 1 on page 8]
+Interferent	Lowest Concentration	Analyte	Affect on Results
+	Interference was	Level	
+	Observed		
+Hemoglobin	2.13 mg/dL	10 mg/L	Falsely elevated
+by one color block
+		30 mg/L	
+Blood	0.033%	10 mg/L	Falsely elevated
+by one color block
+		30 mg/L	
+Sodium
+phosphate	218.75 mg/dL	10 mg/L	Falsely elevated
+by one color block
+		30 mg/L	
+Sodium
+chloride	1787.5 mg/dL	30 mg/L	Falsely decreased
+by one color block
+Unconjugated
+bilirubin	6.38 mg/dL	10 mg/L	Falsely elevated
+by one color block
+		30 mg/L	Falsely decreased
+by one color block
+Pastassium
+chloride	656.25 mg/dL	30 mg/L	Falsely decreased
+by one color block
+Riboflavin	6.625 mg/dL	30 mg/L	Falsely decreased
+by one color block
+Human IgG	8.13 mg/dL	10 mg/L	Falsely elevated
+by one color block
+		30 mg/L	
+pH	10	30 mg/L	Falsely elevated
+by one color block
+
+[Table 2 on page 8]
+	Lowest Concentration		
+Interferent		Analyte	Affect on Results
+	Interference was		
+	Observed	Level	
+Hemoglobin	2.13 mg/dL	10 mg/dL	Falsely elevated
+by one color block
+		50 mg/dL	
+Blood	0.033%	10 mg/dL	Falsely elevated
+by one color block
+		50 mg/dL	
+Sodium
+phosphate	162.5 mg/dL	50 mg/dL	Falsely decreased
+by one color block
+		300
+mg/dL	
+Unconjugated
+bilirubin	93.5 mg/dL	10 mg/dL	Falsely elevated
+by one color block
+		50 mg/dL	
+
+--- Page 9 ---
+Lowest Concentration
+Interferent Interference was Analyte Affect on Results
+Observed Level
+Falsely elevated
+Pastassium 825 mg/dL 50 mg/dL by one color block
+chloride
+10 mg/dL Falsely elevated
+Sodium 1787.5 mg/dL by one color block
+chloride 50 mg/dL
+50 mg/dL Falsely decreased
+Sodium 159.38 mg/dL by one color block
+bicarbonate 300
+mg/dL
+Falsely elevated
+Calcium 120.31 mg/dL 50 mg/dL by one color block
+chloride
+50 mg/dL Falsely decreased
+Ascrobic acid 42.5 mg/dL by one color block
+300
+mg/dL
+All urine samples evaluated by this device should be tested for blood using a
+urinalysis device that tests for blood. If testing indicates the presence of blood equal
+to or greater than 80 erythrocytes/microliter ( ≥2+), the sample should not be tested
+with this assay.
+Urine samples with visible levels of color interferents (e.g., riboflavin, ascorbic acid)
+should not be tested with the device.
+Specific gravity (SG)
+Urine samples spiked with albumin (10 mg/L, 30 mg/L, 150 mg/L) or creatinine (10
+mg/dL, 50 mg/dL, 300 mg/dL) were adjusted to specific gravities of 1.000, 1.005,
+1.015, 1.020, 1.025, 1.030, 1.035, and 1.040. No interference from SG was detected
+on abumin or creatinine measurements in the examined range.
+pH
+Urine samples spiked with albumin (10 mg/L, 30 mg/L, 150 mg/L) or creatinine (10
+mg/dL, 50 mg/dL, 300 mg/dL) were adjusted to pH 4.0, 5.0, 6.0, 8.0, and 9.0. pH of
+10 showed interference at the 30 mg/L albumin block, and generated falsely increased
+results of +1 block. None of the other pH levels had an interfering effect at any other
+concentration of albumin or creatinine.
+f. Assay cut-off:
+Not applicable.
+9
+
+[Table 1 on page 9]
+	Lowest Concentration		
+Interferent		Analyte	Affect on Results
+	Interference was		
+	Observed	Level	
+Pastassium
+chloride	825 mg/dL	50 mg/dL	Falsely elevated
+by one color block
+Sodium
+chloride	1787.5 mg/dL	10 mg/dL	Falsely elevated
+by one color block
+		50 mg/dL	
+Sodium
+bicarbonate	159.38 mg/dL	50 mg/dL	Falsely decreased
+by one color block
+		300
+mg/dL	
+Calcium
+chloride	120.31 mg/dL	50 mg/dL	Falsely elevated
+by one color block
+Ascrobic acid	42.5 mg/dL	50 mg/dL	Falsely decreased
+by one color block
+		300
+mg/dL	
+
+--- Page 10 ---
+2. Comparison studies:
+a. Method comparison with predicate device:
+375 male and female subjects, aged 18 – 80 years and older undergoing routine
+physical examinations, or with diseases such as Type 1 or Type 2 diabetes,
+hypertension, heart disease, kidney disease, and subjects with other ailments that
+represent the target population for this device were enrolled for testing at three sites.
+60 spiked samples were used to supplement some analyte concentrations. All subjects
+provided a urine sample, which was measured with the device by one operator, and
+on the predicate device by a second technician. Results were consistent across the
+three test sites; results are summarized in the tables below.
+Candidate Predicate
+Albumin 10 30 80 150 Total
+(mg/L) count
+10 229 3 (3.7%) 0 0 232
+(92.0%)
+30 20 (8.0%) 65 4 (10.0%) 0 89
+(80.2%)
+80 0 13 (16%) 35 5 53
+(87.5%) (7.8%)
+150 0 0 1 59 60
+(2.5%) (92.2%)
+Total count 249 81 40 64 434
+% Exact 92.0% 80.2% 87.5% 92.2%
+Match
+% ± 1 color 100% 100% 100% 100%
+block
+10
+
+[Table 1 on page 10]
+	Candidate			Predicate								
+	Albumin		10	10	30	80	150	150			Total	
+	(mg/L)										count	
+10			229
+(92.0%)		3 (3.7%)	0	0			232		
+30			20 (8.0%)		65
+(80.2%)	4 (10.0%)	0			89		
+80			0		13 (16%)	35
+(87.5%)	5
+(7.8%)			53		
+150			0		0	1
+(2.5%)	59
+(92.2%)			60		
+Total count			249		81	40	64			434		
+% Exact
+Match			92.0%		80.2%	87.5%	92.2%					
+% ± 1 color
+block			100%		100%	100%	100%					
+
+--- Page 11 ---
+Candidate Predicate
+Creatinine 10 50 100 200 300 Total
+(mg/dL) count
+10 124 0 0 0 0 124
+(86.1%)
+50 20 82 5 0 0 107
+(13.9%) (82.0%) (5.4%)
+100 0 18 77 5 0 100
+(18.0%) (82.8%) (8.5%)
+200 0 0 11 48 3 62
+(11.8%) (81.4%) (7.8%)
+300 0 0 0 6 35 41
+(10.2%) (92.2%)
+Total count 144 100 93 59 38 440
+% Exact 86.1% 82.0% 82.8% 81.4% 92.2%
+Match
+% ± 1 color 100% 100% 100% 100% 100%
+block
+Candidate Predicate
+Albumin:Creatinine Normal Abnormal High- Total
+ratio (ACR) Abnormal count
+Normal 264 2 0 266
+92.0% 2.1%
+Abnormal 23 87 1 111
+8% 92.6% 1.9%
+High-Abnormal 0 5 52 57
+5.3% 98.1%
+Total count 287 94 53 434
+% exact agreement 92.0% 92.6% 98.1% 92.86
+b. Matrix comparison:
+Not applicable. This device is for testing with human urine only.
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable.
+11
+
+[Table 1 on page 11]
+	Candidate			Predicate									
+	Creatinine		10	10	50	100	200	300	300			Total	
+	(mg/dL)											count	
+10			124
+(86.1%)		0	0	0	0			124		
+50			20
+(13.9%)		82
+(82.0%)	5
+(5.4%)	0	0			107		
+100			0		18
+(18.0%)	77
+(82.8%)	5
+(8.5%)	0			100		
+200			0		0	11
+(11.8%)	48
+(81.4%)	3
+(7.8%)			62		
+300			0		0	0	6
+(10.2%)	35
+(92.2%)			41		
+Total count			144		100	93	59	38			440		
+% Exact
+Match			86.1%		82.0%	82.8%	81.4%	92.2%					
+% ± 1 color
+block			100%		100%	100%	100%	100%					
+
+[Table 2 on page 11]
+	Candidate			Predicate						
+	Albumin:Creatinine		Normal	Normal	Abnormal	High-
+Abnormal			Total	
+	ratio (ACR)								count	
+Normal			264
+92.0%		2
+2.1%	0		266		
+Abnormal			23
+8%		87
+92.6%	1
+1.9%		111		
+High-Abnormal			0		5
+5.3%	52
+98.1%		57		
+Total count			287		94	53		434		
+% exact agreement			92.0%		92.6%	98.1%		92.86		
+
+--- Page 12 ---
+b. Clinical specificity:
+Not applicable.
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable.
+4. Clinical cut-off:
+Not applicable.
+5. Expected values/Reference range:
+The following statements regarding expected values are provided in the ACR | LAB
+Urine Analysis Test System user manual:
+Albumin: Normally, albumin is present in urine at concentrations < 20 mg/L1. Results of
+20-200 mg/L may indicate microalbuminuria. It is associated with early-stage kidney
+disease when a small amount of Albumin, also called Microalbumin, is consistently
+present in urine. Clinical albuminuria is indicated by results of > 200 mg/L. These levels
+can be predictive of albumin excretion rates of 30-300 mg/24 hours and > 300 mg/24
+hours, respectively2-3. Exercise, acute illness and fever, and urinary tract infections may
+temporarily elevate urinary albumin excretions.
+Creatinine: Creatinine concentrations of 10-300 mg/dL are normally present in urine.
+Albumin-to-Creatinine Ratio (microalbumin/Creatinine): Albumin is normally
+present in urine at concentrations of < 30 mg/g. Microalbuminuria is indicated at a ratio
+result of 30 - 300 mg/g (moderately increased) and clinical albuminuria at a ratio of > 300
+mg/g (severely increased)4.
+1. Burtis C.A.; and Ashwood ER.: Tietz Textbook of Clinical Chemistry 3rd ed.
+Philadelphia: Saunders; 1999; pp. 483-484.
+2. Mangili, R. et al.: Prevalence of Hypertension and Microalbuminuria in Adult Type 1
+(Insulin-Dependent) Diabetic patients Without Renal Failure in Italy-Validation of
+Screening Techniques to Detect Microalbuminuria. Acta Diabetol. 29: 156-166; 1992.
+3. American Diabetes Association, Clinical Practice Recommendations, Diabetes Care,
+Vol. 31, Suppl. 1, January 2008.
+4. Position Statement: Diabetic Nephropathy. Diabetes Care 20: S24-S27; 1997.
+N. Instrument Name:
+iPhone 7 (iOS 12.0)
+12
+
+--- Page 13 ---
+O. System Descriptions:
+1. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ___ X____ or No ________
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes ___X___ or No ________
+3. Specimen Identification:
+Operators manually enter the patient identification number into the device.
+4. Specimen Sampling and Handling:
+The test is performed by dipping the urinalysis reagent strip into a urine sample collected
+into a cup.
+5. Calibration:
+No calibration is required.
+6. Quality Control:
+The app has internal controls designed to account for environmental conditions that
+impact the accuracy of the test. The sponsor recommends testing commercially available
+positive and negative quality controls per the laboratory policies, in accordance with
+local, state, and federal regulations.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+1. Carryover study: Test strips were held in both the "up" (with the creatinine on top) and
+13
+
+--- Page 14 ---
+"down" (with the albumin on top) positions for 0 (control), 15, 30, 60, 90, and 120
+seconds after being dipped in solutions. The "up" experiment used a high-positive
+creatinine solution (300 mg/dL) and a negative albumin solution. The "down" experiment
+used a high-positive albumin solution (150 mg/L) with a negative creatinine solution. The
+experiment consisted of 240 measurements (6 timings x 2 test strips lots x 5 replicates x 2
+operating systems x 2 configurations ("up" / "down") = 240 results). Though none of
+these configurations demonstrated any impact, labeling directs the user to place the test
+strips on the Color-Board after dipping it in the urine to prevent run-off from flowing
+from one patch into another.
+2. Dipping study: Test strips were dipped in samples containing negative, low positive, and
+high positive concentrations (measured as 10, 30, and 150 mg/L albumin, respectively
+and 10, 50, and 300 mg/dL creatinine, respectively). Samples were measured for four
+different time durations to test the impact of various dipping times on the ACR | LAB's
+ability to perform accurate measurements: 1 second (control), 2 seconds, 5 seconds, and
+10 seconds. Wetting time was held constant at 0 seconds and assay time was held
+constant at 60 seconds. The experiment consisted of 80 measurements (4 timings x 2 test
+strip lots x 5 replicates x 2 operating systems = 80 results). For creatinine, none of the
+various dipping times impacted the accuracy of the device. For albumin, at times 5- and
+10-seconds there was an increase in false positive results. The user manual and in-app
+instructions direct the professional user to dip the ACR Reagent Strip for 1-second, and
+state that increasing the dipping time longer than 5 seconds can cause falsely increased
+results for albumin.
+3. Wetting (“Blotting”) study: This experiment tested different "blotting" times, i.e. the
+tester dipped the test strips and then waited a specific amount of time before blotting the
+test strips and scanning it with the ACR | LAB device. Samples containing negative, low
+positive, and high positive concentrations (measured as 10, 30, and 150 mg/L albumin,
+respectively and 10, 50, and 300 mg/dL creatinine, respectively) were measured. There
+were six different waiting times: 0 seconds (control), 5 seconds, 10 seconds, 20 seconds,
+40 seconds, and 60 seconds. Dipping time was held constant at 1 second and assay time
+was held constant at 60 seconds. The experiment consisted of 60 measurements per
+sample (6 timings x 2 test strip lots x 5 replicates x 1 iPhone). For creatinine, none of the
+various dipping times impacted the accuracy of the device. For albumin, waiting 60-
+seconds to blot the strip resulted in false positive results. The labeling and the in-app
+instructions direct the user to wipe the strip on the edge of the urine cup and then
+immediately absorb it on a paper towel for 1 second to remove any excess urine after
+dipping. The labeling also includes a warning that waiting longer than 60 seconds before
+blotting the strip can cause falsely increased results for albumin.
+4. Assay time study: This experiment tested how different assay times impact the ACR |
+LAB's ability to measure accurate results. Test strips were dipped and then immediately
+blotted, per the device's instructions. The user then waited a predetermined amount of
+time before scanning the test strips: 60 seconds (control), 80 seconds, 100 seconds, and
+120 seconds. Dipping time was held constant at 1 second and wetting time was held
+constant at 0 seconds. Samples containing negative, low positive, and high positive
+14
+
+--- Page 15 ---
+concentrations (measured as 10, 30, and 150 mg/L albumin, respectively and 10, 50, and
+300 mg/dL creatinine, respectively) were measured. . The experiment consisted of 40
+measurements per sample (4 timings x 2 test strip lots x 5 replicates x 1 iPhone). None of
+the assay time durations had any impact on the ACR | LAB's ability to accurately
+measure albumin or creatinine. Labeling and in-app instructions direct the user to wait
+for 60 seconds and then scan the test strip and Color-Board.
+5. Illumination study: The accuracy of the subject device was tested under ten simulated
+lighting conditions (fluorescent 6000K, fluorescent 2700K, compact fluorescent lamp
+6000K, compact fluorescent lamp 6500K, compact fluorescent lamp 2700K, LED 6000K,
+LED 6500K, incandescent, halogen, CW LED). Two operators used one iPhone 7 (iOS
+12.0) to test 2 spiked urine samples (10 mg/L or 150 mg/L albumin and 10 mg/dL or 300
+mg/dL creatinine) with 2 strip lots and 3 replicates per lot or 5 printed test strip
+configurations (with creatinine at 10, 50, 100, 200, and 300 mg/dL and albumin at 10, 30,
+80, and 150 mg/L) at 4 replicates per lot. All results were reported as an exact match
+with expected results.
+6. Boundary study: The accuracy of the subject device was tested under 5 boundary
+conditions (i.e., different distances, angles, and extreme lighting conditions). One iPhone
+7 (iOS 12.0) was used to test 2 spiked urine samples (10 mg/L or 150 mg/L albumin and
+10 mg/dL or 300 mg/dL creatinine) with 2 strip lots and 3 replicates per lot or 5 printed
+test strip configurations (with creatinine at 10, 50, 100, 200, and 300 mg/dL and albumin
+at 10, 30, 80, and 150 mg/L) at 5 replicates per lot. All results were reported as an exact
+match with expected results.
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+15

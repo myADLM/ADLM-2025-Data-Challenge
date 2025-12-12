@@ -1,0 +1,89 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number: K063689   
+B. Purpose of Submission: Addition of a new specimen type claim (nasopharyngeal swab) to the currently marketed device K042472   
+C. Analyte: Influenza A and B viral antigens   
+D. Type of Test: Rapid chromatographic immunoassay that differentiates influenza A viral antigens from influenza B viral antigens   
+E. Applicant: Becton, Dickinson and Company.   
+F. Proprietary and Established Names: BD DirectigenTM EZ Flu $\mathbf { A } { + } \mathbf { B }$ Kit   
+G. Regulatory Information: 1. Regulation section: 21 CFR§866.3330 2. Classification: I 3. Product Code: GNX – Antigens, CF (including CF controls), Influenza Virus A, B, C. 4. Panel: 83 Microbiology
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+The BD Directigen™ EZ Flu $\mathbf { A } { + } \mathbf { B }$ test is a rapid chromatographic immunoassay for the direct and qualitative detection of influenza A and B viral antigens from nasopharyngeal washes/aspirates, nasopharyngeal swabs and throat swabs of symptomatic patients. The BD Directigen EZ Flu $\mathbf { A } { + } \mathbf { B }$ test is a differentiated test, such that influenza A viral antigens can be distinguished from influenza B viral antigens from a single processed sample using a single device. The test is to be used as an aid in the diagnosis of influenza A and B viral infections. All negative test results should be confirmed by cell culture because negative results do not preclude influenza virus infection and should not be used as the sole basis for treatment or other management decisions.
+
+Performance characteristics for Influenza B using nasopharyngeal swabs (NPS) were established primarily with retrospective, frozen specimens. Users may wish to establish the sensitivity of this test for Influenza B using fresh nasopharyngeal swab
+
+2. Indication(s) for use:
+
+Same as above   
+3. Special condition for use statement(s): For Prescription Use Only   
+4. Special instrument Requirements: Not applicable
+
+I. Device Description: See: http://www.fda.gov/cdrh/reviews/K042472.pdf
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Viral cell culture, direct fluorescent antibody (DFA) tests, BD Directigen™ EZ Flu $\mathbf { A } { + } \mathbf { B }$ test (K001364), and BinaxNow Influenza A&B (K053126).   
+2. Predicate K number(s): K001364, K053126,   
+3. Comparison with predicate(s): See: http://www.fda.gov/cdrh/reviews/K042472.pdf
+
+K. Standard/Guidance Document referenced (if applicable): Not applicable
+
+L. Test Principle: See: http://www.fda.gov/cdrh/reviews/K042472.pdf
+
+# M. Performance Characteristics (if/when applicable):
+
+Analytical performance: a. Precision/Reproducibility: See: http://www.fda.gov/cdrh/reviews/K042472.pdf b. Linearity/assay reportable range: Not applicable
+
+c. Traceability (controls, calibrators, or method): Not applicable
+
+d. Detection limit: See: http://www.fda.gov/cdrh/reviews/K042472.pdf e. Analytical specificity: Evaluation of media for preservation and transport of respiratory specimens: See: http://www.fda.gov/cdrh/reviews/K042472.pdf
+
+Cross reactivity Study: See: http://www.fda.gov/cdrh/reviews/K042472.pdf
+
+Interference study: See: http://www.fda.gov/cdrh/reviews/K042472.pdf
+
+f. Assay cut-off Not applicable.
+
+2. Comparison studies: a. Method comparison with gold standard: see clinical studies b. Matrix comparison: Not applicable
+
+3. Clinical studies: See: http://www.fda.gov/cdrh/reviews/K042472.pdf. In addition, the following clinical studies were performed in support of the new specimen types, nasopharyngeal swab specimens:
+
+The performance characteristics of the BD Directigen EZ Flu $\mathbf { A } { + } \mathbf { B }$ test as compared to viral cell culture were determined using 456 prospective nasopharyngeal swab specimens. The sensitivity and specificity of the BD Directigen EZ $\mathbf { A } { + } \mathbf { B }$ test for influenza A were $9 0 . 7 \%$ (146/161) and $9 3 . 2 \%$ (275/295), respectively. For influenza B, the sensitivity and specificity were $1 0 0 . 0 \%$ (1/1) and $1 0 0 . 0 \%$ (455/455), respectively. To augment the study with an adequate number of positive samples for influenza B, 59 retrospective nasopharyngeal swab specimens were tested with the BD Directigen EZ Flu $\mathbf { A } { + } \mathbf { B }$ test and compared to viral cell culture. Note: Performance characteristics for Influenza B using nasopharyngeal swabs (NPS) were established primarily with retrospective, frozen specimens. Therefore, users should establish the sensitivity of this test for Influenza B using fresh nasopharyngeal swab specimens. The positive and negative agreement of the BD Directigen EZ $\mathbf { A } { + } \mathbf { B }$ test for influenza A with the retrospective nasopharyngeal swab specimens were $8 5 . 7 \%$ $( 6 / 7 )$ and $9 6 . 2 \%$ (50/52). The positive and negative agreement for influenza B with the retrospective nasopharyngeal swab specimens were $7 4 . 4 \%$ (32/43) and $1 0 0 . 0 \%$ (16/16), respectively. The performance characteristics as compared to cell culture for nasopharyngeal swab specimens are presented in Tables 1, 2, 3 and Table 4:
+
+Table 1: Summary of the Performance of the Directigen EZ Flu $A + B$ Test Compared to Culture for Prospective Nasopharyngeal Swabs - Influenza A Combined 2003-2004, 2004-2005 and 2006 Respiratory Seasons   
+
+<table><tr><td></td><td colspan="3">Cell Culture</td></tr><tr><td>Specimen Type</td><td>Directigen™ EZ Flu A+B Test</td><td>P</td><td>N</td></tr><tr><td rowspan="2">Nasopharyngeal swabs</td><td>P</td><td>146</td><td>20</td></tr><tr><td>N</td><td>15</td><td>275</td></tr><tr><td>Sensitivity: 91% (95% Cl: 85% - 95%) Specificity: 93% (95% Cl: 90% - 96%)</td><td></td><td></td><td></td></tr></table>
+
+Table 2: Summary of the Performance of the Directigen EZ Flu $A + B$ Test Compared to Culture for Prospective Nasopharyngeal Swabs - Influenza B Combined 2003-2004, 2004-2005 and 2006 Respiratory Seasons   
+
+<table><tr><td>Cell Culture</td></tr><tr><td>Directigen ™M Specimen Type EZ Flu A+B Test P</td></tr><tr><td>Nasopharyngeal swabs P 1*</td></tr><tr><td>0</td></tr><tr><td>N 0 455</td></tr><tr><td>Sensitivity: 100% (95% Cl: 3% - 100%) Specificity: 100% (95% CI: 99% - 100%)</td></tr></table>
+
+\*Performance characteristics for Influenza B using nasopharyngeal swabs (NPS) were established primarily with retrospective, frozen specimens. Therefore, users should establish the sensitivity of this test for Influenza B using fresh nasopharyngeal swab specimens
+
+Table 3: Summary of the Performance of the Directigen EZ Flu $A + B$ Test Compared to Culture for Retrospective Nasopharyngeal Swabs $\cdot$ Influenza B from 2005 Respiratory Season   
+
+<table><tr><td colspan="3">Cell Culture</td></tr><tr><td>Directigen ™M Specimen Type EZ Flu A+B Test</td><td>P</td><td>N</td></tr><tr><td>P Nasopharyngeal swabs</td><td>32*</td><td>0</td></tr><tr><td>N</td><td>11</td><td>16</td></tr><tr><td colspan="3">Positive agreement: 74% (95% Cl: 59% - 87%) Negative agreement: 100% (95% Cl: 79% - 100%)</td></tr></table>
+
+\*Performance characteristics for Influenza B using nasopharyngeal swabs (NPS) were established primarily with retrospective, frozen specimens. Therefore, users should establish the sensitivity of this test for Influenza B using fresh nasopharyngeal swab specimens
+
+Table 4: Summary of the Performance of the Directigen EZ Flu $A + B$ Test Compared to Culture for Retrospective Nasopharyngeal Swabs by Population $\cdot$ Influenza B from 2005 Respiratory Season   
+
+<table><tr><td colspan="3">Cell Culture</td></tr><tr><td>Specimen Type Directigen ™M</td><td>Pediatric EZ Flu A+B Test (≤ 21 years)</td><td>Adult (&gt; 21 years)</td></tr><tr><td></td><td>P N</td><td>P N</td></tr><tr><td>Nasopharyngeal swabs P N</td><td>20 0 6 10</td><td>12 0 5 6</td></tr><tr><td>Positive agreement: Pediatric: 77% (95% Cl: 56% - 91%); Adult: 71% (95% CI: 44% - 90%)</td><td></td><td></td></tr><tr><td>Negative agreement: Pediatric: 100% (95% Cl: 69% - 100%); Adult: 100% (95% CI: 54% - 100%)</td><td></td><td></td></tr></table>
+
+# b. Clinical specificity:
+
+Refer to (a.) above c. Other clinical supportive data (when a and b is not applicable) Clinical Specimens Stability Study: See: http://www.fda.gov/cdrh/reviews/K042472.pdf
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: (Interpretive Criteria) Not applicable.
+
+N. The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this Premarket notification is complete and supports a substantial equivalence decision.

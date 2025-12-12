@@ -1,0 +1,207 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+k072920
+B. Purpose for Submission:
+Abbreviated submission for the clearance of a modification to the currently cleared
+CoaguChek XS Plus
+C. Manufacturer and Instrument Name:
+ROCHE DIAGNOSTICS CORP.
+CoaguChek XS Plus Handheld Base Unit (HBU)
+D. Type of Test or Tests Performed:
+Prothrombin Time
+E. System Descriptions:
+1. Device Description:
+The Handheld Base Unit is an accessory to the CoaguChek XS Plus PT
+instrument that provides the ability to recharge the internal battery of the
+CoaguChek XS Plus and facilitates the connectivity of the CoaguChek XS Plus to
+an external computer in order to download the device memory.
+2. Principles of Operation:
+The HBU uses a POCT1-A protocol to identify a docked instrument in order to
+trigger the automatic host communication. Connectivity between the HBU and
+CoaguChek XS Plus is established either via infrared or IrDA.
+3. Modes of Operation:
+A switch (USB configuration switch), on the back side of the Handheld Base
+Unit, sets the BASE to one of three different modes of operation:
+1
+
+--- Page 2 ---
+Position Mode Description
+1 Ethernet The BASE converts meter communication (IrDA)
+received on the BASE’s IR window to wired
+Ethernet.
+2 Serial & The BASE converts host communication (USB
+Ethernet Comm) to serial infrared on the BASE’s IR
+window.
+-or-
+The BASE converts meter communication (IrDA)
+received on the BASE’s IR window to wired
+Ethernet.
+Note: The BASE cannot handle Serial & Ethernet
+conversion simultaneously. Both communication
+paths will be handled on after the other by means
+of timeouts.
+3 Configuration The BASE acts as a mass storage device on the
+USB port. Writing and reading files, using the
+mounted mass storage file system is the way to
+communicate with the BASE.
+4. Specimen Identification:
+N/A
+5. Specimen Sampling and Handling:
+N/A
+6. Calibration:
+N/A
+7. Quality Control:
+N/A
+8. Software:
+FDA has reviewed applicants Hazard Analysis and Software Development
+2
+
+[Table 1 on page 2]
+	Position			Mode			Description	
+1			Ethernet			The BASE converts meter communication (IrDA)
+received on the BASE’s IR window to wired
+Ethernet.		
+2			Serial &
+Ethernet			The BASE converts host communication (USB
+Comm) to serial infrared on the BASE’s IR
+window.
+-or-
+The BASE converts meter communication (IrDA)
+received on the BASE’s IR window to wired
+Ethernet.
+Note: The BASE cannot handle Serial & Ethernet
+conversion simultaneously. Both communication
+paths will be handled on after the other by means
+of timeouts.		
+3			Configuration			The BASE acts as a mass storage device on the
+USB port. Writing and reading files, using the
+mounted mass storage file system is the way to
+communicate with the BASE.		
+
+--- Page 3 ---
+processes for this line of product types:
+Yes___X____ or No________
+F. Regulatory Information:
+Product Code Classification Regulation Section Panel
+GJS II 21 CFR 864.7750 81 Hematology
+G. Intended Use:
+1. Indication(s) for Use:
+The device is intended for use by professional healthcare providers for quantitative
+prothrombin time testing for the monitoring of warfarin therapy. The system uses fresh
+capillary or non-anticoagulated venous whole blood.
+2. Special Conditions for Use Statement(s):
+Prescription
+H. Substantial Equivalence Information:
+Similarities
+Item Device Predicate
+Intended Use Intended for use by professional healthcare providers for Same
+quantitative
+prothrombin time testing for the monitoring of warfarin
+therapy. The
+system uses fresh capillary or non-anticoagulated venous
+whole blood.
+Measuring 0.8- 8.0 INR Same
+3
+
+[Table 1 on page 3]
+	Product Code			Classification			Regulation Section			Panel	
+GJS			II			21 CFR 864.7750			81 Hematology		
+
+[Table 2 on page 3]
+Similarities		
+Item	Device	Predicate
+Intended Use	Intended for use by professional healthcare providers for
+quantitative
+prothrombin time testing for the monitoring of warfarin
+therapy. The
+system uses fresh capillary or non-anticoagulated venous
+whole blood.	Same
+Measuring	0.8- 8.0 INR	Same
+
+--- Page 4 ---
+range
+Reagent Human recombinant thromboplastin Same
+Differences
+Item Device Predicate
+Router HBU incorporates the router Connected to a hospital
+Component: component network via an off-the-
+into the HBU. Roche now has direct shelf
+design control of this component. router component.
+Physical Serves as a docking station for the Uses docking station for
+Characteristics predicate device. charging and data transfer.
+I. Special Control/Guidance Document Referenced (if applicable):
+STANDARDS
+Title and Reference Number
+Medical device software - Software life cycle processes (62304 Ed. 1.0)
+Other Standards
+GUIDANCE
+Document Title Office Division Web Page
+Guidance for the Content of
+Premarket Submissions for http://www.fda.gov/cdrh/ode/guidance/337.html
+Software Contained in Medical ODE
+Devices - Guidance for Industry
+and FDA Staff
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+N/A
+4
+
+[Table 1 on page 4]
+range		
+Reagent	Human recombinant thromboplastin	Same
+
+[Table 2 on page 4]
+Differences		
+Item	Device	Predicate
+Router
+Component:	HBU incorporates the router
+component
+into the HBU. Roche now has direct
+design control of this component.	Connected to a hospital
+network via an off-the-
+shelf
+router component.
+Physical
+Characteristics	Serves as a docking station for the
+predicate device.	Uses docking station for
+charging and data transfer.
+
+[Table 3 on page 4]
+STANDARDS
+Title and Reference Number
+Medical device software - Software life cycle processes (62304 Ed. 1.0)
+
+[Table 4 on page 4]
+GUIDANCE			
+Document Title	Office	Division	Web Page
+Guidance for the Content of
+Premarket Submissions for
+Software Contained in Medical
+Devices - Guidance for Industry
+and FDA Staff	ODE		http://www.fda.gov/cdrh/ode/guidance/337.html
+			
+
+--- Page 5 ---
+b. Precision/Reproducibility:
+N/A
+c. Linearity:
+N/A
+d. Carryover:
+N/A
+e. Interfering Substances:
+N/A
+2. Other Supportive Instrument Performance Data Not Covered Above:
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+5
+
+--- Page 6 ---
+6

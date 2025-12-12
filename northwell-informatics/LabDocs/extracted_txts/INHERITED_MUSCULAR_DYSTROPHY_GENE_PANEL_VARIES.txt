@@ -1,0 +1,95 @@
+Standard Operating Procedure (SOP) Title: Analytical Phase
+Procedure: Generating Results for Inherited Muscular Dystrophy
+Gene Panel (Various)
+1. PURPOSE
+To outline the procedures for the accurate and efficient analysis of
+samples for the Inherited Muscular Dystrophy Gene Panel. This
+protocol ensures high-quality, reliable genetic test results and
+includes instructions from DNA extraction to data analysis and result
+generation.
+Responsibility:
+This procedure is the responsibility of all laboratory personnel trained
+in molecular genetic testing.
+1. SPECIMEN REQUIREMENTS
+A. Acceptable Specimens
+• 3-5 mL whole blood collected in EDTA (lavender top) tubes
+• Saliva specimens collected in FDA-approved saliva collection kits
+B. Unacceptable Specimens
+• Hemolyzed blood samples
+• Specimens not labeled with the patient's full name, date of birth,
+and collection date
+1. EQUIPMENT AND MATERIALS
+• DNA extraction kits (e.g., Qiagen Blood and Tissue Kit)
+• PCR reagents and supplies
+• Next-Generation Sequencing (NGS) platform (e.g., Illumina
+MiSeq)
+• Bioinformatics software for sequence alignment and variant
+calling
+• Quality control materials
+• LIMS (Laboratory Information Management System)
+• Standard laboratory equipment: centrifuge, thermal cycler,
+pipettes
+1. PROCEDURE
+A. DNA Extraction
+1. Follow the specific manufacturer’s protocol for DNA extraction
+using the selected kit.
+2. Assess DNA concentration and purity using a
+spectrophotometer (e.g., NanoDrop).
+3. Store extracted DNA at -20°C until further processing.
+B. Library Preparation
+1. Quantify DNA using Qubit or an equivalent fluorometer.
+2. Perform library preparation according to the NGS platform's
+guidelines, ensuring correct adapter ligation and amplification.
+3. Validate library construction via a Bioanalyzer or TapeStation to
+check for correct size distribution and concentration.
+C. PCR Amplification and Sequencing
+1. Amplify target regions using appropriate primers for the
+Inherited Muscular Dystrophy Gene Panel.
+2. Clean up PCR products to remove primers and enzymes.
+3. Pool the libraries as per protocol and load on the NGS platform.
+4. Follow NGS platform-specific instructions for running the
+sequencing.
+D. Data Analysis
+1. Transfer raw sequencing data to the bioinformatics server.
+2. Use specialized software to align sequences to the reference
+genome.
+3. Perform variant calling to identify potential mutations within the
+targeted genes.
+4. Annotate variants using an up-to-date database to determine
+clinical relevance.
+E. Quality Control
+1. Include positive and negative controls throughout the process.
+2. Assess coverage metrics and ensure thresholds (e.g., 20x
+coverage for all target regions) are met.
+3. Verify reproducibility and accuracy of identified variants through
+repeat testing.
+4. REPORTING RESULTS
+A. Interpretation and Validation
+1. A qualified geneticist or molecular pathologist will review the
+annotated variants and interpret their clinical significance.
+2. Correlate identified variants with clinical presentation and family
+history where applicable.
+B. Report Generation
+1. Generate a detailed report including patient information,
+methodological details, detected variants, and clinical
+interpretation.
+2. Verify that the report meets all regulatory and accreditation
+requirements.
+C. Result Communication
+1. Enter final results into the LIMS.
+2. Ensure that results are communicated to the referring physician
+through secure and appropriate channels.
+3. Provide genetic counseling recommendations if clinically
+pertinent.
+4. REFERENCES
+• Manufacturer's protocols for DNA extraction and NGS library
+preparation
+• Bioinformatics software user manuals
+• Current literature on Inherited Muscular Dystrophy genes and
+associated clinical interpretations
+1. RECORD KEEPING
+All steps, quality control measures, and results must be clearly
+documented in the laboratory records as per the institution’s
+guidelines and regulatory requirements.
+Approved by: [Name] Date: [Approval Date]
+Review by: [Name] Review Date: [Review Date]

@@ -1,0 +1,84 @@
+# SPECIAL 510(k): Device Modification OIR Decision Memorandum
+
+To: BioFire Diagnostics, LLC
+
+RE: K160459
+
+This $5 1 0 ( \mathsf { k } )$ submission contains information/data on modifications made to the SUBMITTER’S own Class II device requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device.
+
+Trade Name: FilmArray Gastrointestinal (GI) Panel for use with FilmArray Torch 510(k) Number: K160459
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device, called “FilmArray $\textcircled{8}$ Gastrointestinal (GI) Panel for use with FilmArray Torch”, as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, and package labeling.
+
+Submitter states in the labeling, 510(k) Summary, and in the submission that the intended use of the modified device has not changed from its predicate.
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, assay instruction and instrument operations manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+The modifications of the FilmArray Torch comprise a reconfigured instrument to increase throughput and reduce workspace. Changes include:
+
+• a reconfigured base instrument tower with optional, stacked, individual, instrument modules,   
+• workflow altered for a manual read of the assay pouch bar-code by operator instead of automatic read within instrument,   
+• automatic side-loading and ejection of the assay pouch instead of manual top-loading,   
+• printer optional instead of printer included,   
+• computer and touch screen integrated into the base tower instead of a separate computer,   
+• operation with kiosk-style software,   
+• labeling appended with additional operation procedure and with statements describing the validation studies; these studies included an intra-laboratory precision study for the modified device.
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics, and software is shown in the table below.
+
+<table><tr><td>Element Organisms</td><td>Modified Device: FilmArray Gastrointestinal (Gl) Panel for use with the FilmArray Torch (K160459) Campylobacter (C. jejuni/C. coli/C.</td><td>Predicate: FilmArray Gastrointestinal (Gl) Panel for use with the Multi- Instrument FilmArray System (FilmArray 2.0) (K143005) Same</td></tr><tr><td>Detected</td><td>upsaliensis), Clostridium difficile (C. difficile) toxin A/B, Plesiomonas shigelloides, Salmonella, Vibrio (V. parahaemolyticus/V. vulnificus/V. cholerae) including specific identification of Vibrio cholera, Yersinia enterocolitica, Enteroaggregative Escherichia coli (EAEC), Enteropathogenic Escherichia coli (EPEC), Enterotoxigenic Escherichia coli (ETEC) It/st, Shiga-like toxin- producing Escherichia coli (STEC) stx1/stx2 (including specific identification of the E. coli O157 serogroup within STEC), Shigella/Enteroinvasive Escherichia coli (EIEC), Cryptosporidium, Cyclospora cayetanensis, Entamoeba histolytica, Giardia lamblia (also known as G. intestinalis and G. duodenalis), Adenovirus F 40/41, Astrovirus,</td><td></td></tr><tr><td></td><td>Norovirus GI/GII, Rotavirus A, and Sapovirus (Genogroups I, II, IV, and V).</td><td></td></tr><tr><td>Analyte Specimen</td><td>RNA/DNA Human stool in Cary Blair transport</td><td>Same Same</td></tr><tr><td>Types Technological Principles</td><td>medium Nested multiplex RT-PCR followed by high resolution melting analysis to confirm identity of amplified product. Single instrument FilmArray,</td><td>Same Single instrument FilmArray or</td></tr></table>
+
+Page 3 of 7   
+
+<table><tr><td rowspan=1 colspan=1>Element</td><td rowspan=1 colspan=1>Modified Device:FilmArray Gastrointestinal (Gl)Panel for use with the FilmArrayTorch(K160459)</td><td rowspan=1 colspan=1>Predicate:FilmArray Gastrointestinal (Gl)Panel for use with the Multi-Instrument FilmArray System(FilmArray 2.0)(K143005)</td></tr><tr><td rowspan=1 colspan=1>Instrument-SoftwareCommunication</td><td rowspan=1 colspan=1>Communication for multipleFilmArray Torch Modules travelsvia Ethernet cable/port.</td><td rowspan=1 colspan=1>Same (multiple instruments)</td></tr><tr><td rowspan=1 colspan=1>Time to result</td><td rowspan=1 colspan=1>About 1 hour</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>TestInterpretation</td><td rowspan=1 colspan=1>Automated test interpretation andreport generation. User cannotaccess raw data.</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>ReagentHydration andSampleLoading</td><td rowspan=1 colspan=1>FilmArray Injection Vial-basedloading procedure</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>SamplePreparationMethod</td><td rowspan=1 colspan=1>Sample Processing is automated inthe FilmArray GI pouch.</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>ReagentStorage</td><td rowspan=1 colspan=1>Reagents are stored at roomtemperature.</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>Controls</td><td rowspan=1 colspan=1>Two controls are included in eachreagent pouch to control forsample processing and bothstages of PCR and melt analysis.</td><td rowspan=1 colspan=1>Same</td></tr><tr><td rowspan=1 colspan=1>UserComplexity</td><td rowspan=1 colspan=1>Moderate/Low</td><td rowspan=1 colspan=1>Same</td></tr></table>
+
+The indications for use provided below are identical for both devices.
+
+# FilmArray 2.0 (K143005) Indications for use (same as K160459):
+
+The FilmArray Gastrointestinal (GI) Panel is a qualitative multiplexed nucleic acid-based in vitro diagnostic test intended for use with FilmArray systems. The FilmArray GI Panel is capable of the simultaneous detection and identification of nucleic acids from multiple bacteria, viruses, and parasites directly from stool samples in Cary Blair transport media obtained from individuals with signs and/or symptoms of gastrointestinal infection. The following bacteria (including several diarrheagenic E. coli/Shigella pathotypes), parasites, and viruses are identified using the FilmArray GI Panel:
+
+Campylobacter (C. jejuni/C. coli/C. upsaliensis) Clostridium difficile (C. difficile) toxin A/B
+
+Plesiomonas shigelloides Salmonella Vibrio (V. parahaemolyticus/V. vulnificus/V. cholerae) including specific identificatio Vibrio cholerae Yersinia enterocolitica Enteroaggregative Escherichia coli (EAEC) Enteropathogenic Escherichia coli (EPEC) Enterotoxigenic Escherichia coli (ETEC) lt/st Shiga-like toxin-producing Escherichia coli (STEC) stx1/stx2 (including specific identification of the E. coli O157 serogroup within STEC) Shigella/Enteroinvasive Escherichia coli (EIEC) Cryptosporidium Cyclospora cayetanensis Entamoeba histolytica Giardia lamblia (also known as G. intestinalis and G. duodenalis) • Adenovirus F 40/41 Astrovirus Norovirus GI/GII Rotavirus A Sapovirus (Genogroups I, II, IV, and V)
+
+The FilmArray GI Panel is indicated as an aid in the diagnosis of specific agents of gastrointestinal illness and results are meant to be used in conjunction with other clinical, laboratory, and epidemiological data. Positive results do not rule out co-infection with organisms not included in the FilmArray GI Panel. The agent detected may not be the definite cause of the disease.
+
+Concomitant culture is necessary for organism recovery and further typing of bacterial agents.
+
+This device is not intended to monitor or guide treatment for C. difficile infection.
+
+Due to the small number of positive specimens collected for certain organisms during the prospective clinical study, performance characteristics for E. coli O157, Plesiomonas shigelloides, Yersinia enterocolitica, Astrovirus, and Rotavirus A were established primarily with retrospective clinical specimens.
+
+Performance characteristics for Entamoeba histolytica, and Vibrio (V. parahaemolyticus, V.   
+vulnificus, and Vibrio cholerae) were established primarily using contrived clinical specimens.
+
+Negative FilmArray GI Panel results in the setting of clinical illness compatible with gastroenteritis may be due to infection by pathogens that are not detected by this test or non-infectious causes such as ulcerative colitis, irritable bowel syndrome, or Crohn’s disease.
+
+A gastrointestinal microorganism multiplex nucleic acid-based assay also aids in the detection and identification of acute gastroenteritis in the context of outbreaks.
+
+5. A Design Control Activities Summary was present which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis.   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied.
+
+This submission utilizes on the same Software and Firmware as that reviewed in BioFire Special 510(k) submission (K160068).
+
+To validate the modified device, an intra-laboratory precision study was conducted. Results of precision testing on the FilmArray Torch systems indicate that all analytes in the device intended use were detected in at least $9 5 \%$ of the samples tested. Analytes were evaluated at 1x LoD as established on the FilmArray 2.0.
+
+In addition to analyte detection, the precision of FilmArray GI Tm (melting temperature) results on FilmArray Torch was evaluated. The standard deviation in Tm for each assay on each of the three FilmArray Torch systems and overall (all systems/Modules) met the acceptance criteria of $0 . 5 ^ { \circ } \mathrm { C }$ or less.
+
+Method comparison studies with different types of samples were conducted for the modified device (FilmArray Torch with GI Panel) and its predicate device (FilmArray 2.0 with GI Panel). These included a synthetic template method comparison study, a negative sample method comparison study, and a representative organism method comparison study. For all studies, the positive agreement was $2 9 5 \%$ and the negative agreement was $100 \%$ .
+
+c) Declaration of Conformity to Design Controls
+
+A “Declaration of Conformity” statement was submitted for the BioFire Diagnostics, LLC manufacturing facility. It was signed by the Vice President, Regulated Products and Clinical Affairs, and the Director of Quality Assurance. The statements indicate that:
+
+i. “To the best of my knowledge, the verification activities for the modification were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met.”   
+ii. “The manufacturing facility, BioFire Diagnostics, LLC, is in conformance with the design control requirements as specified in 21 CFR 820.30 and the records are available for review.”
+
+# 6. Conclusion
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared device.

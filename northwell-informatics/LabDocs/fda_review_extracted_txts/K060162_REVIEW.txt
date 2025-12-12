@@ -1,0 +1,391 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+K060162
+B. Purpose for Submission:
+Special submission for a software modification to the PT and APTT test parameters
+of two new ACL 9000 family members- the ACL Elite and ACL Elite Pro.
+C. Manufacturer and Instrument Name:
+Instrumentation Laboratory ACL Elite and ACL Elite Pro
+D. Type of Test or Tests Performed:
+Coagulometric tests (PT-FIB, APTT, TT, Single Factors)
+Absorbance Tests (Antithrombin, Heparin, Protein C, Plasmin Inhibitor, Plasminogen
+Fibrinogen C –Clauss method)
+Immunological Tests (D-Dimer, free Protein S, von Willebrand Factor-Activity and
+Antigen)
+Special Tests (Protein S, Factor V Leiden, LAC Screen and Confirm, ProClot C-
+clotting Protein C)
+E. System Descriptions:
+1. Device Description: The ACL is a family of fully automated computer-
+controlled, microcentrifugal analyzers. The ACL Elite/Elite Pro system incorporates
+a liquid crystal display (LCD) unit that shows the status of the instrument, permits the
+user to select desired procedures, and through the use of menus and options guides
+the operator through these procedures. Information and instructions are entered into
+the system either via a touch screen device or through a standard PC keyboard or
+mouse.
+2. Principles of Operation:
+When sample testing is initiated, the samples and reagents are sequentially
+pipetted into a 20-cuvette polystyrene rotor (loading process). A centrifugation
+process then mixes sample and reagents. The mixing is carried out by a
+combination or rapid acceleration and braking actions, which are effective in
+1
+
+--- Page 2 ---
+thoroughly mixing the liquids. Reaction measurements (data acquisition) via the
+photometer are made while the rotor is spinning.
+The ACL measures the parameters at 37°C ± 1° C, at ambient temperature from
+15°C to 32°C. However, if the ACL is in a temperature –controlled environment
+where temperature is held constant, the measurements are made within a narrower
+temperature range: 37°C ± 0.25° C.
+The results are displayed on the LCD and optionally printed by the external
+printer, and/or sent to a host computer. The ACL performs automatic calibration,
+offers a series of utility programs for the operator and manages a complete quality
+control program.
+3. Modes of Operation:
+The user may program single or multiple tests on patient samples to be performed
+on a random access basis. Users also have the capability to pause the system
+during an analytical session for STAT samples.
+4. Specimen Identification:
+On-board and external barcode reader, manual entry.
+5. Specimen Sampling and Handling:
+Samples are collected, centrifuged, and loaded onto one of three different sample
+trays. The ACL contains an autosampler system that pipettes samples and
+reagents into the loading and analysis area.
+6. Calibration:
+When required, the ACL Elite/Elite Pro prompts the user to perform a calibration.
+Calibration is performed with commercially available calibration material either
+prior to or simultaneously with sample analysis.
+7. Quality Control:
+Commercial quality control material is available for daily monitoring of the
+instrument.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+2
+
+--- Page 3 ---
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CRF 864.5425
+2. Classification:
+II
+3 Product code:
+JPA
+4. Panel:
+81 Hematology
+G. Intended Use:
+1. Indication(s) for Use:
+The ACL Elite/ Elite Pro are fully automated, high-productivity analyzers
+designed specifically for in vitro diagnostic clinical use in the hemostasis
+laboratory for coagulation and/or fibrinolysis testing in the assessment of
+thrombosis and/or hemostasis. The systems provide results for both direct
+hemostasis measurements and calculated parameters.
+2. Special Conditions for Use Statement(s):
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+K000053 ACL 9000 (ACL 8000 and ACL 10000)
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+Intended use in vitro diagnostic same
+clinical use in the
+3
+
+[Table 1 on page 3]
+Similarities								
+	Item			Device			Predicate	
+Intended use			in vitro diagnostic
+clinical use in the			same		
+
+--- Page 4 ---
+Similarities
+Item Device Predicate
+hemostasis laboratory for
+coagulation and/or
+fibrinolysis testing in the
+assessment of thrombosis
+and/or hemostasis.
+Test parameters PT-FIB, APTT, TT, same
+Single Factors,
+Antithrombin, Heparin,
+Protein C, Plasmin
+Inhibitor, Plasminogen
+Fibrinogen C –Clauss
+method, D-Dimer, free
+Protein S, von Willebrand
+Factor-Activity and
+Antigen, Protein S,
+Factor V Leiden, LAC
+Screen and Confirm,
+ProClot C-clotting
+Protein C
+Differences
+Item Device Predicate
+Software modification Reports results from Discrepancies between
+for PT and APTT secondary algorithm the primary and
+assays- Clot time from secondary algorithm
+the Primary Algorithm flagged with a “Noisy
+is discrepant from the baseline” warning
+value determined with
+the Secondary algorithm
+I. Special Control/Guidance Document Referenced (if applicable):
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+4
+
+[Table 1 on page 4]
+Similarities								
+	Item			Device			Predicate	
+			hemostasis laboratory for
+coagulation and/or
+fibrinolysis testing in the
+assessment of thrombosis
+and/or hemostasis.					
+Test parameters			PT-FIB, APTT, TT,
+Single Factors,
+Antithrombin, Heparin,
+Protein C, Plasmin
+Inhibitor, Plasminogen
+Fibrinogen C –Clauss
+method, D-Dimer, free
+Protein S, von Willebrand
+Factor-Activity and
+Antigen, Protein S,
+Factor V Leiden, LAC
+Screen and Confirm,
+ProClot C-clotting
+Protein C			same		
+
+[Table 2 on page 4]
+Differences								
+	Item			Device			Predicate	
+Software modification
+for PT and APTT
+assays- Clot time from
+the Primary Algorithm
+is discrepant from the
+value determined with
+the Secondary algorithm			Reports results from
+secondary algorithm			Discrepancies between
+the primary and
+secondary algorithm
+flagged with a “Noisy
+baseline” warning		
+
+--- Page 5 ---
+Site 1
+Reagent n Slope Intercept r Sample
+Range
+HemosIL APTT-SP (seconds) 54 1.032 -1.30 0.9990 26.5-95.4
+HemosIL SynthASil (seconds) 52 1.009 0.02 0.9981 9.7-80.4
+HemosIL PT-Fib Recombinant PT 49 0.972 0.50 0.9993 10.8-44.7
+(Seconds)
+HemosIL PT-Fib Recombinant 47 0.974 0.4 0.9992 133-808
+Fibrinogen (mg/dl)
+HemosIL PT-Fibrinogen PT (seconds) 49 0.989 0.35 0.9985 11.3-21.2
+HemosIL PT-Fibrinogen Fibrinogen 47 0.996 -16.3 0.9848 141-869
+(mg/dl)
+HemosIL Factor VIII (% Activity) 47 0.909 1.549 0.9938 1.1-147
+HemosIL Factor IX (% Activity) 49 0.948 1.47 0.9914 5.5-149
+Site 2
+Reagent N Slope Intercept R Sample
+Range
+HemosIL SynthASil (seconds) 72 0.988 -0.69 0.9756 24.7-60.3
+HemosIL PT-Fibrinogen PT (seconds) 72 0.981 0.40 0.9944 11.4-47.1
+HemosIL PT-Fibrinogen Fibrinogen 58 1.013 18.1 0.9846 154-1204
+(mg/dl)
+HemosIL Liquid Antithrombin (% 55 1.074 1.04 0.9616 22.7-123.0
+Activity)
+HemosIL Fibrinogen-C (mg/dl) 47 0.960 16.0 0.9585 119-698
+HemosIL Thrombin Time (% Activity) 58 0.961 0.44 0.9836 9.0-35.2
+HemosIL Factor VIII (% Activity) 49 1.198 -7.22 0.9909 2.8-149.0
+HemosIL Factor IX (% Activity) 56 0.929 -6.12 0.9956 4.5-150.0
+HemosIL Factor XII (% Activity) 51 1.054 -5.91 0,9943 7.5-135.0
+HemosIL D-Dimer (% Activity) 63 1.263 -64.84 0.9887 86.9-3472
+b. Precision/Reproducibility:
+APTT (Seconds)
+HemosIL APTT-SP (K973306)
+5
+
+[Table 1 on page 5]
+Reagent	n	Slope	Intercept	r	Sample
+Range
+HemosIL APTT-SP (seconds)	54	1.032	-1.30	0.9990	26.5-95.4
+HemosIL SynthASil (seconds)	52	1.009	0.02	0.9981	9.7-80.4
+HemosIL PT-Fib Recombinant PT
+(Seconds)	49	0.972	0.50	0.9993	10.8-44.7
+HemosIL PT-Fib Recombinant
+Fibrinogen (mg/dl)	47	0.974	0.4	0.9992	133-808
+HemosIL PT-Fibrinogen PT (seconds)	49	0.989	0.35	0.9985	11.3-21.2
+HemosIL PT-Fibrinogen Fibrinogen
+(mg/dl)	47	0.996	-16.3	0.9848	141-869
+HemosIL Factor VIII (% Activity)	47	0.909	1.549	0.9938	1.1-147
+HemosIL Factor IX (% Activity)	49	0.948	1.47	0.9914	5.5-149
+
+[Table 2 on page 5]
+Reagent	N	Slope	Intercept	R	Sample
+Range
+HemosIL SynthASil (seconds)	72	0.988	-0.69	0.9756	24.7-60.3
+HemosIL PT-Fibrinogen PT (seconds)	72	0.981	0.40	0.9944	11.4-47.1
+HemosIL PT-Fibrinogen Fibrinogen
+(mg/dl)	58	1.013	18.1	0.9846	154-1204
+HemosIL Liquid Antithrombin (%
+Activity)	55	1.074	1.04	0.9616	22.7-123.0
+HemosIL Fibrinogen-C (mg/dl)	47	0.960	16.0	0.9585	119-698
+HemosIL Thrombin Time (% Activity)	58	0.961	0.44	0.9836	9.0-35.2
+HemosIL Factor VIII (% Activity)	49	1.198	-7.22	0.9909	2.8-149.0
+HemosIL Factor IX (% Activity)	56	0.929	-6.12	0.9956	4.5-150.0
+HemosIL Factor XII (% Activity)	51	1.054	-5.91	0,9943	7.5-135.0
+HemosIL D-Dimer (% Activity)	63	1.263	-64.84	0.9887	86.9-3472
+
+--- Page 6 ---
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 29.3 1.1 2.0
+Low Abnormal Control 50 46.1 1.9 4.1
+High Abnormal Control 50 56.9 2.2 4.7
+HemosIL SynthASil (APTT) (K953981)
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 29.0 0.8 1.8
+Low Abnormal Control 50 51.9 1.0 1.5
+High Abnormal Control 50 60.5 1.2 1.2
+PT (Seconds)
+HemosIL PT-Fibrinogen Recombinant (K981479)
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 10.7 1.0 1.1
+Low Abnormal Control 50 35.0 1.1 2.0
+High Abnormal Control 50 51.6 1.4 3.4
+HemosIL PT-Fibrinogen (K862301)
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 12.3 0.6 1.1
+Low Abnormal Control 50 20.7 0.9 1.1
+High Abnormal Control 50 25.5 0.8 1.4
+Fibrinogen (mg/dL)
+HemosIL PT-Fibrinogen Recombinant (K981479)
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 297.6 3.8 6.7
+Low Abnormal Control 50 113.1 5.3 6.4
+6
+
+[Table 1 on page 6]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	29.3	1.1	2.0
+Low Abnormal Control	50	46.1	1.9	4.1
+High Abnormal Control	50	56.9	2.2	4.7
+
+[Table 2 on page 6]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	29.0	0.8	1.8
+Low Abnormal Control	50	51.9	1.0	1.5
+High Abnormal Control	50	60.5	1.2	1.2
+
+[Table 3 on page 6]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	10.7	1.0	1.1
+Low Abnormal Control	50	35.0	1.1	2.0
+High Abnormal Control	50	51.6	1.4	3.4
+
+[Table 4 on page 6]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	12.3	0.6	1.1
+Low Abnormal Control	50	20.7	0.9	1.1
+High Abnormal Control	50	25.5	0.8	1.4
+
+[Table 5 on page 6]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	297.6	3.8	6.7
+Low Abnormal Control	50	113.1	5.3	6.4
+
+--- Page 7 ---
+HemosIL PT-Fibrinogen (K862301)
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 277.9 4.4 4.6
+Low Abnormal Control 50 132.9 3.6 5.5
+Factor VIII (% Activity)
+HemosIL Factor VIII (K034007) with APTT-SP
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 85.3 4.1 4.5
+Special Test Control Level 1 50 72.4 2.9 3.6
+Special Test Control Level 2 50 36.3 4.6 5.4
+HemosIL Factor IX (K031829) with APTT-SP
+N Mean With-in Run Total
+%CV %CV
+Normal Control 50 115.6 2.7 5.2
+Special Test Control Level 1 50 76.2 2.3 4.5
+Special Test Control Level 2 50 41.0 3.3 5.1
+c. Linearity:
+d. Carryover:
+e. Interfering Substances:
+2. Other Supportive Instrument Performance Data Not Covered Above:
+An additional study was conducted to support the use of the Secondary Algorithm
+7
+
+[Table 1 on page 7]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	277.9	4.4	4.6
+Low Abnormal Control	50	132.9	3.6	5.5
+
+[Table 2 on page 7]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	85.3	4.1	4.5
+Special Test Control Level 1	50	72.4	2.9	3.6
+Special Test Control Level 2	50	36.3	4.6	5.4
+
+[Table 3 on page 7]
+	N	Mean	With-in Run
+%CV	Total
+%CV
+Normal Control	50	115.6	2.7	5.2
+Special Test Control Level 1	50	76.2	2.3	4.5
+Special Test Control Level 2	50	41.0	3.3	5.1
+
+--- Page 8 ---
+on the ACL Elite/Elite Pro to report unflagged results in the specific case where
+there is a discrepancy between the Primary and Secondary Algorithms. The data
+is summarized below:
+APTT-SP SynthASIL PT FIB PT Recombinant
+(Seconds) (Seconds)
+Primary Secondary Primary Secondary Primary Secondary Primary Secondary
+Mean 33.6 33.8 32.7 32.8 14.4 14.4 17.8 18.1
+As required for a Special 510(k), the Sponsor has provided a risk analysis as well
+as a Declaration of Conformity with Design Controls indicating that development
+activities were conducted under appropriate design controls procedures, and the
+overall product specifications were met.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports
+a substantial equivalence decision.
+8
+
+[Table 1 on page 8]
+	APTT-SP
+(Seconds)		SynthASIL
+(Seconds)		PT FIB		PT Recombinant	
+	Primary	Secondary	Primary	Secondary	Primary	Secondary	Primary	Secondary
+Mean	33.6	33.8	32.7	32.8	14.4	14.4	17.8	18.1

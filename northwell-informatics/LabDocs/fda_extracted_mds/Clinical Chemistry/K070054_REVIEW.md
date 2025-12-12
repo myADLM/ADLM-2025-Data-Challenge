@@ -1,0 +1,134 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: k070054   
+B. Purpose for Submission: Modification to device to incorporate a digital read-out of test res   
+C. Measurand: Human chorionic gonadotropin   
+D. Type of Test: Qualitative   
+E. Applicant: Church & Dwight Co., Inc.   
+F. Proprietary and Established Names: FIRST RESPONSE $^ \mathrm { \textregistered }$ Gold™ Digital Pregnancy Test   
+G. Regulatory Information:
+
+1. Regulation section:   
+21 CFR 862.1155
+
+2. Classification: Class II
+
+3. Product code: LCX
+
+4. Panel: Chemistry (75)
+
+# H. Intended Use:
+
+1. Intended use(s): See Indication(s) for use.
+
+2. Indication(s) for use:
+
+The FIRST RESPONSE $^ \mathrm { \textregistered }$ Gold™ Digital Pregnancy Test is an in vitro diagnostic test device intended for the early detection of pregnancy by the lay user up to five (5) days sooner than the day of the missed period (four (4) days before the day of the expected period).
+
+3. Special conditions for use statement(s): The device is intended for over-the-counter use.
+
+4. Special instrument requirements: None required
+
+# I. Device Description:
+
+The device consists of a plastic housed test stick containing an immunochromatographic strip and electronic and optical components along with a microprocessor and specific algorithms to digitally display test results.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): CLEARBLUE $^ \mathrm { \textregistered }$ Easy Digital Pregnancy Test
+
+2. Predicate 510(k) number(s): k041404
+
+3. Comparison with predicate:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1">Indications for Use</td><td colspan="1" rowspan="1">Qualitative detection ofhCG for the earlydetection of pregnancy</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">PrincipleElectronic Components</td><td colspan="1" rowspan="1">ImmunochromatographyMicroprocessor withspecific circuitry andalgorithms; LCD readoutwith batteries as powersource</td><td colspan="1" rowspan="1">SameSame</td></tr></table>
+
+<table><tr><td colspan="3">Differences</td></tr><tr><td>Item</td><td>Device</td><td>Predicate</td></tr><tr><td>Day of Use</td><td>As early as 4 days before the expected period</td><td>As early as 3 days before the expected period</td></tr><tr><td>Result Reading</td><td>YES+, -NO</td><td>Pregnant, Not Pregnant</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+None referenced
+
+# L. Test Principle:
+
+The test principle is lateral flow chromatographic immunoassay.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance: a. Precision/Reproducibility: See Detection limit and Assay cutoff sections below. b. Linearity/assay reportable range: To validate the performance range, aliquots of negative urine pool, spiked with varying levels of hCG, were evaluated. No high-dose hook effect was observed at levels as high as 500 IU/mL. c. Traceability, Stability, Expected values (controls, calibrators, or methods): The test is calibrated against the WHO Fourth International Reference standard for hCG. d. Detection limit:
+
+To evaluate the performance of the FIRST RESPONSE $^ \mathrm { \textregistered }$ Gold™ Digital Pregnancy Test, five (5) replicate devices were tested with urine standards prepared at 50, 37.5, 25, 18.8, 12.5, and 0 mIUmL hCG. All replicates tested with hCG standards at $1 2 . 5 \mathrm { m I U / m L }$ and above yielded positive results, and all replicates tested with $0 \mathrm { m U / m L }$ hCG standard yielded negative results.
+
+Performance was also evaluated with hyperglycosylated hCG prepared in urine at 50, 37.5, 25, 18.8, 12.5, and 0 mIUmL concentrations. Five (5) replicate devices were tested at each level. All replicates tested with hyperglycosylated hCG standards at $1 2 . 5 \mathrm { m I U / m L }$ and above yielded positive results, and all replicates tested with $0 \mathrm { m U / m L }$ hCG standard yielded negative results.
+
+See Assay cut-off section below for a description of studies performed to assess device performance in clinical samples at low hCG concentrations. e. Analytical specificity:
+
+Various drugs, urinary analytes, and homologous hormones were added to aliquots of a female non-pregnant urine pool at hCG levels of 0 and 25 $\mathrm { m U / m L }$ . All substances were tested at $1 0 ~ \mu \mathrm { g / m L }$ , except for albumin and glucose (both at $2 0 \mathrm { m g / d L }$ ) and the homologous hormones (hFSH at $1 \ \mathrm { I U / m L }$ , hLH at $1 \ \mathrm { I U / m L }$ , and hTSH at $1 \mathrm { m U / m L }$ ). All samples produced positive results at $2 5 \mathrm { m I U / m L }$ of hCG and negative results at $0 \mathrm { m U / m L }$ of hCG.
+
+# f. Assay cut-off:
+
+Early pregnancy clinical samples with hCG concentrations ranging from 5 to $2 0 \mathrm { m U / m L }$ were used to confirm the cut-off. Each urine sample was assigned to a concentration interval, and the percentage of samples in each concentration interval testing positive was calculated.
+
+<table><tr><td colspan="1" rowspan="1">hCG Range(mIU/mL)</td><td colspan="1" rowspan="1">% Positive using FIRSTRESPONSE® GoldTMDigital Pregnancy Test</td><td colspan="1" rowspan="1">No. of Positives /Total Samples</td></tr><tr><td colspan="1" rowspan="1">5.0 to 5.9</td><td colspan="1" rowspan="1">0.0%</td><td colspan="1" rowspan="1">0 /9</td></tr><tr><td colspan="1" rowspan="1">6.0 to 6.9</td><td colspan="1" rowspan="1">55.6%</td><td colspan="1" rowspan="1">5/9</td></tr><tr><td colspan="1" rowspan="1">7.0 to 7.9</td><td colspan="1" rowspan="1">40.0%</td><td colspan="1" rowspan="1">2/5</td></tr><tr><td colspan="1" rowspan="1">8.0 to 8.9</td><td colspan="1" rowspan="1">37.5%</td><td colspan="1" rowspan="1">3/8</td></tr><tr><td colspan="1" rowspan="1">9.0 to 9.9</td><td colspan="1" rowspan="1">0.0%</td><td colspan="1" rowspan="1">0 /1</td></tr><tr><td colspan="1" rowspan="1">10.0 to10.9</td><td colspan="1" rowspan="1">50.0%</td><td colspan="1" rowspan="1">2/4</td></tr><tr><td colspan="1" rowspan="1">11.0 to11.9</td><td colspan="1" rowspan="1">50.0%</td><td colspan="1" rowspan="1">2/4</td></tr><tr><td colspan="1" rowspan="1">12.0 to12.9</td><td colspan="1" rowspan="1">20.0%</td><td colspan="1" rowspan="1">1/5</td></tr><tr><td colspan="1" rowspan="1">13.0 to13.9</td><td colspan="1" rowspan="1">100.0%</td><td colspan="1" rowspan="1">10 / 10</td></tr><tr><td colspan="1" rowspan="1">14.0 to14.9</td><td colspan="1" rowspan="1">50.0%</td><td colspan="1" rowspan="1">1/2</td></tr><tr><td colspan="1" rowspan="1">15.0 to 15.9</td><td colspan="1" rowspan="1">100.0%</td><td colspan="1" rowspan="1">6/6</td></tr><tr><td colspan="1" rowspan="1">16.0 to 16.9</td><td colspan="1" rowspan="1">80.0%</td><td colspan="1" rowspan="1">4/5</td></tr><tr><td colspan="1" rowspan="1">17.0 to 17.9</td><td colspan="1" rowspan="1">100.0%</td><td colspan="1" rowspan="1">3 / 3</td></tr><tr><td colspan="1" rowspan="1">18.0 to18.9</td><td colspan="1" rowspan="1">83.3%</td><td colspan="1" rowspan="1">5/6</td></tr><tr><td colspan="1" rowspan="1">19.0 to 19.9</td><td colspan="1" rowspan="1">100.0%</td><td colspan="1" rowspan="1">3 / 3</td></tr></table>
+
+The hCG intervals above were then combined so that approximately the same numbers of samples are in each group. The results of the subintervals follow:
+
+<table><tr><td rowspan=1 colspan=1>hCG Range(mIU/mL)</td><td rowspan=1 colspan=1>% Positive using FIRSTRESPONSE® GoldTMDigital Pregnancy Test</td><td rowspan=1 colspan=1>No. of Positives /Total Samples</td></tr><tr><td rowspan=1 colspan=1>5.0 to 8.9</td><td rowspan=1 colspan=1>45.0%</td><td rowspan=1 colspan=1>10 / 22</td></tr><tr><td rowspan=1 colspan=1>9.0 to 13.9</td><td rowspan=1 colspan=1>62.0%</td><td rowspan=1 colspan=1>15 / 24</td></tr><tr><td rowspan=1 colspan=1>14.0 to 19.9</td><td rowspan=1 colspan=1>88.0%</td><td rowspan=1 colspan=1>22 / 25</td></tr></table>
+
+The hCG concentration at which results are positive/negative $50 \%$ of the time is approximately $9 { \mathrm { - } } 1 0 \ \mathrm { m I U / m L }$ .
+
+2. Comparison studies:
+
+# a. Method comparison with predicate device:
+
+The performance of the FIRST RESPONSE $^ \mathrm { \textregistered }$ GOLD™ Digital Pregnancy Test was compared to the CLEARBLUE $^ \mathrm { \textregistered }$ Easy Digital Pregnancy Test. In this study, 100 urine samples were collected from women who claimed not to be pregnant. These samples were tested with both tests. All samples were negative with both tests.
+
+In another phase of the study, 100 pregnancy urines were tested. All of these samples yielded positive results with both tests.
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable
+
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+# Detection of hCG in Early Pregnancy Clinical Samples
+
+To evaluate detection of hCG in early pregnancy clinical samples, the FIRST RESPONSE $^ \mathrm { \textregistered }$ GOLD™ Digital Pregnancy Test was tested with approximately 575 urine samples from 52 individual conceptive cycles. The testing segment in each cycle commenced with the two consecutive negative samples followed by the first sample demonstrating a rise in hCG collected around the expected time of implantation, and the testing ended with the sample collected 3 days after the expected menstrual period.
+
+The results of this study demonstrate that the test can detect hCG (positive samples were defined as samples with a quantitatively determined hCG value $> 1 8 ~ \mathrm { m I U / m L }$ ) 4 days before the expected menstrual period. The following percentages of cycles were positive for hCG before the expected menstrual period: $58 \%$ 4 days before, $80 \%$ 3 days before, $9 0 \% 2$ days before, and $94 \%$ 1 day before.
+
+# Incidence of Positives in Non-pregnant Women
+
+A study was performed to determine the percentage of positive test results from the FIRST RESPONSE $^ \mathrm { \textregistered }$ Gold™ Digital Pregnancy Test among nonpregnant women 18-40 years of age (pre-menopausal), 41-55 years of age (peri-menopausal), and 56-75 years of age (post-menopausal). A total of 272 subjects provided urine samples: 64 in the pre-menopausal cohort, 104 in the peri-menopausal cohort, and 104 in the post-menopausal cohort. All 272 urine samples were tested using two lots of the new device and quantitatively analyzed for hCG level. Subjects with a positive test result on the new device or hCG levels ${ > } 5 . 0 0 \mathrm { m I U / m L }$ were referred for clinical confirmation of pregnancy (via pelvic exam and/or blood test).
+
+Of the 272 urine samples, one sample that was positive on both lots was excluded from the data analysis. The subject had a urinary hCG value of 17.50 $\mathrm { m U / m L }$ and was subsequently confirmed as pregnant. This resulted in 63 subjects in the 18-40 age group and 271 total subjects/urine samples for data analysis. The urine hCG concentrations were as follows:
+
+<table><tr><td rowspan=1 colspan=1>Cohort</td><td rowspan=1 colspan=1>Approx. Mean Conc.</td><td rowspan=1 colspan=1>Concentration Range</td></tr><tr><td rowspan=1 colspan=1>Pre-menopausal</td><td rowspan=1 colspan=1>1 mIU/mL</td><td rowspan=1 colspan=1>≤ 1 mIU/mL</td></tr><tr><td rowspan=1 colspan=1>Peri-menopausal</td><td rowspan=1 colspan=1>2 mIU/mL</td><td rowspan=1 colspan=1>≤ 1 - 29 mIU/mL</td></tr><tr><td rowspan=1 colspan=1>Post-menopausal</td><td rowspan=1 colspan=1>2 mIU/mL</td><td rowspan=1 colspan=1>≤ 1 - 15 mIU/mL</td></tr></table>
+
+Of the 271 samples tested (542 tests in total), there was only one positive sample. This was observed in the peri-menopausal group. Both the pre- and post-menopausal groups showed $0 \%$ incidence of false positives by the new device. Therefore, the incidence of false positive results by the FIRST RESPONSE $^ \mathrm { \textregistered }$ Gold™ Digital Pregnancy Test was $0 . 1 8 \%$ for the total study population.
+
+# Consumer Performance
+
+Studies were performed to evaluate consumer self-testing and readability of the package insert. One hundred and four (104) women between the ages of 18 and 45 years, untrained in laboratory testing, participated in the study. Each woman performed the FIRST RESPONSE $^ \mathrm { \textregistered }$ Gold™ Digital Pregnancy Test using the package insert instructions, including choosing either midstream or dip procedure according to personal preference. After the consumer read the result, the test result was also read by the study monitor.
+
+All 104 women performed the test and interpreted their results correctly. Of the 104 women, 97 obtained correct “-NO” results, 3 were clinically pregnant and obtained correct $^ { \mathrm { { < } } \mathrm { { \sc Y E S + } } ^ { \mathrm { { > } } } }$ results, and 4 obtained invalid results due to insufficient sample.
+
+Another study was conducted in which 104 women between the ages of 18 and 45 years, untrained in laboratory testing, were given three pre-assayed test devices and asked to read and interpret the test results from the display screen using the package insert. The results from the three devices ${ \mathrm { ( Y E S ^ { + } } } .$ , -NO, invalid) covered the range of results consumers could expect to obtain during testing. The results of each device were also read by the study monitor.
+
+Of the total of 312 results, 307 $( 9 8 \% )$ were read correctly. Both studies demonstrate that consumers can accurately perform the test and read and interpret results. This is also supported by results of the questionnaires which addressed device ease of use, meaning of test results, and clarity of the package insert instructions.
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: The expected values are based on literature.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

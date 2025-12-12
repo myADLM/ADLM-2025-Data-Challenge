@@ -1,0 +1,87 @@
+Protocol for GLUCOSE-6-PHOSPHATE DEHYDROGENASE
+(G6PD) FULL GENE SEQUENCING
+1. PURPOSE
+This protocol outlines the steps for generating results for the full gene
+sequencing of Glucose-6-Phosphate Dehydrogenase (G6PD),
+ensuring accurate and reliable results according to CLIA standards.
+Responsibility:
+Designated laboratory personnel are responsible for performing the
+sequencing and documenting the results. The supervisor must
+ensure adherence to this protocol and address any deviations.
+1. SPECIMEN REQUIREMENTS
+Preferred Specimen:
+◦ Peripheral blood collected in Ethylenediaminetetraacetic
+acid (EDTA) tubes.
+Specimen Stability:
+◦ Specimens must be stored at 2-8°C for up to 72 hours.
+Unacceptable Specimen:
+◦ Clotted specimens.
+◦ Specimens collected in heparin or any other anticoagulant
+except EDTA.
+◦ Specimens arriving more than 72 hours post collection or at
+inappropriate temperature conditions.
+2. EQUIPMENT, REAGENTS, AND SUPPLIES
+◦ Automated DNA Extraction System
+◦ Polymerase Chain Reaction (PCR) Setup
+◦ Sequencing Reagents (including primers specific for G6PD
+gene)
+◦ Thermal Cycler
+◦ Sequencer (e.g., Illumina, Ion Torrent)
+◦ Clean area for DNA handling
+◦ Appropriate standard lab personal protective equipment
+(PPE)
+3. PROCEDURE
+A) DNA Extraction:
+1. Follow the automated DNA extraction protocol specific to
+the extraction system to isolate DNA from blood
+specimens.
+2. Quantify and assess the purity of the extracted DNA using
+spectrophotometry (e.g., NanoDrop).
+B) PCR Setup:
+1. Set up PCR for amplification of the entire G6PD gene
+using specific primers.
+2. Follow thermal cycler program as specified for the primers
+in use (refer to manufacturer instructions).
+3. Verify PCR amplification by gel electrophoresis to ensure
+successful amplification.
+C) Sequencing:
+1. Prepare the PCR product for sequencing according to the
+sequencer's protocol.
+2. Load samples into the sequencer.
+3. Run the sequencing program.
+D) Data Analysis:
+1. Analyze raw sequence data using bioinformatics tools
+aligning against the reference G6PD gene sequence
+(refer to the standard reference such as NG_009015).
+2. Identify genetic variants, including point mutations,
+insertions, deletions, and other relevant changes.
+E) Validation and Verification:
+◦ Validate sequencing data by ensuring >99% coverage of the
+G6PD gene.
+◦ Verify variant calls using secondary analysis software or
+through manual inspection.
+F) Quality Control:
+1. Perform recurrent quality control checks including positive
+controls, negative controls, and replicate sequencing.
+2. Document results in QC logs, handle any discrepancies
+according to lab protocols, and notify supervisor if results
+fall outside acceptable limits.
+4. REPORTING RESULTS
+1. Compile the sequence data, noting detected variants.
+2. Results will be reviewed and verified by a certified
+technologist.
+3. Report findings in the laboratory information system (LIS)
+including notation of clinically significant variants
+according to established nomenclature (e.g., HGVS).
+5. REFERENCE INTERVALS
+G6PD normal sequence: Reference sequence NG_009015. Match
+against this sequence to define deviations.
+1. METHOD LIMITATIONS
+Refer to sequencer manufacturer guidelines regarding method
+limitations, including potential issues with short-read sequencing
+techniques and coverage gaps.
+1. REFERENCES
+Current sequencing protocol and guidelines should be obtained from:
+• Sequencer Manufacturer Product Insert.
+• Latest Edition of Molecular Diagnostic Guidelines.
+• HGVS Nomenclature Guidelines for Variant Reporting.

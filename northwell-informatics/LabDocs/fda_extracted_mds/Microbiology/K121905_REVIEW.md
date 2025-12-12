@@ -1,0 +1,28 @@
+# SPECIAL 510(k): Device Modification OIVD Review Memorandum (Decision Making Document is Attached)
+
+To: THE FILE
+
+RE: DOCUMENT NUMBER K121905
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class II, Class III or Class I devices requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device. Clearview®Exact PBP2a Test (k091766).
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use).
+
+3. This Special 510(k) submission presents a Device Modification for a materials change to the Clearview® Exact PBP2a Test (K091766), an immunochromatographic test for the detection of penicillin‐binding protein 2a (PBP2a) in isolates of Staphylococcus. Specifically the control line is changing from rabbit anti‐mouse Igs to chicken IgY. The modified test has the same scientific technology and the intended use of the device, as described in its labeling, has not changed as a result of this modification. This modification has not affected or caused any changes to the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of this device.
+
+4. Comparison Information (similarities and differences)
+
+<table><tr><td colspan="1" rowspan="1">PARAMETER</td><td colspan="1" rowspan="1">UNMODIFIED (K091766)</td><td colspan="1" rowspan="1">MODIFIEDTEST</td></tr><tr><td colspan="1" rowspan="1">INTENDED USE</td><td colspan="1" rowspan="1">The Alere ™M PBP2a Test is a qualitative, invitro immunochromatographic assay for thedetection of penicillin - biding protein 2a(PBP2a) isolates identified asStaphylococcus aureus, as an aid indetecting methicillin - resistantStaphylococcus aureus (MRSA). TheAlere ™M PBP2a Test is not intended todiagnose MRSA nor to guide or monitortreatment for MRSA infections.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">ANALYTE/ MODE OFDETECTION</td><td colspan="1" rowspan="1">PBP2a (penicillin binding protein 2a)</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">TECHNOLOGY</td><td colspan="1" rowspan="1">Detection with latex particles sensitized with amonoclonal antibody against PBP2a</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">SPECIMEN TYPE</td><td colspan="1" rowspan="1">Isolates identified as Staphylococcus species</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">ANTIGEN (SAMPLELINE) DETECTIONREAGENTS</td><td colspan="1" rowspan="1">Mouse anti PBP2a monoclonal antibodyimmobilized for capture and conjugated tovisualizing particles</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">PARAMETER</td><td colspan="2" rowspan="1">UNMODIFIED (K091766)</td><td colspan="1" rowspan="1">MODIFIEDTEST</td></tr><tr><td colspan="1" rowspan="1">PERFORMANCECHARACTERISTICS</td><td colspan="1" rowspan="1">SENSITIVITY(95% Cl)</td><td colspan="1" rowspan="1">SPECIFICITY(95% Cl)</td><td colspan="1" rowspan="4">Performance claims areunchanged from theoriginal 510(k)</td></tr><tr><td colspan="1" rowspan="1">Tryptic Soy Agar with5% Sheep Blood</td><td colspan="1" rowspan="1">98.1 %(95.2% 99.3%)</td><td colspan="1" rowspan="1">98.8%(96.5% 99.6%)</td></tr><tr><td colspan="1" rowspan="1">Columbia Agar with5% Sheep Blood</td><td colspan="1" rowspan="1">99.0 %(96.6% 99.7%)</td><td colspan="1" rowspan="1">98.8 %(96.5% 99.6%)</td></tr><tr><td colspan="1" rowspan="1">Mueller Hinton with 1μgoxacillin induction</td><td colspan="1" rowspan="1">99.5 %(97.4% 99.9%)</td><td colspan="1" rowspan="1">98.8 %(96.5% 99.6%)</td></tr><tr><td colspan="1" rowspan="1">CONTROL LINEDETECTION REAGENTS capture and anti PBP2a antibody conjugate</td><td colspan="2" rowspan="1">Rabbit anti mouse immunoglobulin forDETECTION REAGENTS capture and anti PBP2a antibody conjugate</td><td colspan="1" rowspan="1">Chicken IgY immobilizedfor capture and speciesanti IgY conjugate</td></tr></table>
+
+# 5. A Design Control Activities Summary which includes:
+
+The Sponsor provided a signed statement that:
+
+a) Alere Scarborough, Inc. is in conformance with the design control requirements as specified in 21 CFR 820.30 and the records are available for review.   
+b) The verification activities, as required by the risk analysis, for the modification were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met.
+
+# 6. A Truthful and Accurate Statement, a 510(k) Summary or Statement and the Indications for Use Enclosure (and Class III Summary for Class III devices).
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.

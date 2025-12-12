@@ -1,0 +1,126 @@
+NOONAN SYNDROME AND RELATED CONDITIONS
+GENE PANEL, VARIES
+1. PURPOSE
+The purpose of this protocol is to outline the procedures for the
+analytical phase involved in testing and generating results for the
+Noonan Syndrome and related conditions gene panel. This includes
+the preparation of the sample, nucleic acid extraction, library
+preparation, sequencing, data analysis, and interpretation of results.
+2. SCOPE
+This protocol applies to all laboratory personnel trained to perform
+genetic testing and analysis for the Noonan Syndrome gene panel.
+3. RESPONSIBILITIES
+• Laboratory Technician: Responsible for sample preparation,
+nucleic acid extraction, library preparation, and initial sequencing
+setup.
+• Molecular Biologist/Geneticist: In charge of overseeing the
+sequencing process, data analysis, and interpretation of results.
+• Quality Control Officer: Ensures all procedures comply with
+regulatory standards, verifies all quality control measures, and
+assesses the integrity of the results.
+4. SPECIMEN REQUIREMENTS
+• Specimen Type: Peripheral blood collected in EDTA tubes
+(minimum of 3 mL) or saliva sample collected in an Oragene
+saliva collection kit.
+• Specimen Stability: Blood samples should be processed within
+72 hours of collection. Saliva samples can be stored at room
+temperature until processing.
+5. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA extraction kits (e.g., QIAamp DNA Blood Mini Kit)
+• Library preparation kits (e.g., Nextera DNA Flex Library Prep)
+• Next Generation Sequencing (NGS) platform (e.g., Illumina
+MiSeq)
+• Thermal cycler
+• Pipettes and tips
+• Nuclease-free water
+• Buffers and reagents as specified in the kit protocols
+6. PROCEDURE
+A) DNA Extraction
+1. Preparation:
+◦ Label all tubes and reagents appropriately.
+◦ Follow the manufacturer's instructions for processing the
+blood or saliva samples using the DNA extraction kit.
+2. Extraction:
+◦ Ensure that the extracted DNA is of high purity and
+concentration using a Nanodrop or similar
+spectrophotometer. Acceptable concentration is >20 ng/µL
+and purity (A260/280 ratio) should be 1.8-2.0.
+B) Library Preparation
+1. Preparation:
+◦ Quantify the extracted DNA, and normalize the
+concentrations of all samples.
+2. Library Preparation:
+◦ Follow the instructions provided in the library preparation kit
+to construct the DNA library. This involves enzymatic
+fragmentation, adapter ligation, and amplification.
+◦ Validate the library size and concentration using a
+Bioanalyzer or TapeStation system.
+C) Sequencing
+1. Preparation:
+◦ Load the prepared DNA library onto the sequencing platform
+according to the manufacturer's instructions.
+◦ Include appropriate positive and negative controls to monitor
+run performance.
+2. Sequencing:
+◦ Initiate the sequencing run and monitor for any deviations or
+alerts from the predefined parameters.
+◦ Sequencing control metrics should fall within acceptable
+ranges outlined by the platform manufacturer.
+D) Data Analysis
+1. Data Processing:
+◦ Base calling and demultiplexing should be performed using
+the sequencing platform’s software.
+◦ Align reads to the human reference genome (hg19 or hg38)
+using a bioinformatics pipeline (e.g., BWA, GATK).
+2. Variant Calling:
+◦ Identify variants (single nucleotide variants, insertions,
+deletions) using variant calling software (e.g., FreeBayes,
+GATK).
+◦ Annotate the variants using databases such as dbSNP,
+ClinVar, and HGMD.
+E) Result Interpretation
+1. Interpretation:
+◦ Evaluate identified variants in the context of Noonan
+Syndrome and related conditions.
+◦ Assign clinical significance based on ACMG guidelines and
+available literature.
+2. Reporting:
+◦ Verify and document results.
+◦ Generate a detailed report including the patient's identifying
+information, sample details, methods used, and an
+interpretation of significant variants.
+F) Quality Control and Validation
+1. Quality Control:
+◦ Include and review internal and external quality controls in
+each run.
+◦ Perform periodic proficiency testing to assure accuracy and
+reliability of results.
+2. Validation:
+◦ Validate new batches of reagents and kits according to
+laboratory validation procedures.
+◦ Ensure continuous training and competency assessment of
+all laboratory personnel.
+7. REPORTING RESULTS
+• Results will be reviewed by a senior molecular biologist or
+geneticist.
+• Reports will be generated and sent to the ordering physician or
+genetic counselor, ensuring patient confidentiality is maintained.
+8. REFERENCE INTERVALS
+• Variants will be annotated with their potential clinical significance
+(e.g., pathogenic, likely pathogenic, variant of uncertain
+significance, likely benign, benign).
+9. METHOD LIMITATIONS
+• The sensitivity and specificity of the assay depend on the quality
+and integrity of the extracted DNA.
+• Certain regions of the genome with high GC content or repetitive
+sequences may be difficult to sequence accurately.
+10. REFERENCES
+• Manufacturer’s Instruction Manual for DNA Extraction and Library
+Preparation Kits.
+• Illumina MiSeq System User Guide.
+• American College of Medical Genetics and Genomics (ACMG)
+Guidelines for the Interpretation of Sequence Variants.
+• Relevant literature on Noonan Syndrome and related conditions.
+Adherence to this protocol ensures accurate and reliable generation
+of results for the Noonan Syndrome gene panel, from DNA extraction
+to the final interpretation and reporting.

@@ -1,0 +1,97 @@
+STANDARD OPERATING PROCEDURE (SOP) HEREDITARY
+LEIOMYOMATOSIS AND RENAL CELL CANCER SYNDROME
+(HLRCC), FH, FULL GENE ANALYSIS
+1. PURPOSE
+To outline the procedures for the analytical phase of generating
+results for FH full gene analysis in the context of Hereditary
+Leiomyomatosis and Renal Cell Cancer Syndrome (HLRCC). This
+protocol ensures accurate, reliable, and timely results for genetic
+variants in the FH gene.
+1. RESPONSIBILITY
+It is the responsibility of the designated molecular laboratory
+personnel to carry out the procedures outlined in this SOP. This
+includes performing testing, analyzing data, and reporting results. It is
+also the responsibility of supervisors to ensure that all staff are
+adequately trained and compliance with this procedure is maintained.
+1. DEFINITIONS
+FH gene: Fumarate hydratase gene associated with HLRCC. Next-
+Generation Sequencing (NGS): Advanced sequencing technology
+that allows rapid sequencing of large sections of DNA. Sanger
+Sequencing: A method used for DNA sequencing that relies on the
+incorporation of chain-terminating dideoxynucleotides by DNA
+polymerase during in vitro DNA replication. PCR: Polymerase Chain
+Reaction, a technique to amplify DNA segments.
+1. SAFETY AND PRECAUTIONS
+All laboratory personnel must wear appropriate personal protective
+equipment (PPE) at all times. Ensure proper disposal of waste
+materials, including used reagents and samples, according to the
+laboratory’s waste disposal policy. Work in a designated area to
+prevent contamination and ensure sample integrity.
+1. SPECIMEN REQUIREMENTS
+Specimen Type: DNA extracted from peripheral blood, saliva, or
+tissue. Quantity: Minimum 200 ng of DNA per sample. Quality: DNA
+should be free of contaminants and appropriately quantified using a
+fluorometric method (e.g., Qubit). Storage: Store DNA at -20°C or
+below until analysis.
+1. EQUIPMENT AND REAGENTS
+NGS library preparation kit DNA polymerase Primer sets for PCR
+amplification Thermocycler Validated and calibrated sequencing
+platform (e.g., Illumina, Ion Torrent) Automated NGS data analysis
+software Sanger sequencing reagents (for confirmation of variants)
+Capillary electrophoresis system (for Sanger sequencing) Positive
+and negative controls Pipettes and tips PCR tubes and plates
+Centrifuge
+1. PROCEDURE
+7.1 DNA Quality Check
+Quantify the DNA using a Qubit fluorometer. Assess DNA quality by
+performing gel electrophoresis. Document quality and quantity results
+in the laboratory information system (LIS).
+7.2 NGS Library Preparation
+Follow the NGS library preparation kit protocol to create sequencing
+libraries from the extracted DNA. Assess library quality and
+concentration using a bioanalyzer or a similar instrument.
+7.3 NGS Sequencing
+Load prepared libraries into the validated NGS platform. Set up the
+sequencing run according to the manufacturer’s instructions. Monitor
+the run regularly and document any deviations or issues encountered
+in the LIS.
+7.4 NGS Data Analysis
+Upload sequencing data to data analysis software. Perform
+alignment of sequences to the reference genome (GRCh38 or latest
+version). Identify variants using variant caller software and annotate
+them using population and clinical databases (e.g., dbSNP, ClinVar).
+Generate a variants report including variant type, position, and
+predicted impact. Confirm the presence of pathogenic or likely
+pathogenic variants using Sanger sequencing.
+7.5 Sanger Sequencing
+Design gene-specific primers for the region of interest. Perform PCR
+amplification of the target regions. Purify PCR products and set up
+Sanger sequencing reactions. Run the reactions on a capillary
+electrophoresis system. Analyze sequencing results to confirm the
+presence or absence of identified variants.
+1. QUALITY CONTROL
+Include positive and negative controls in each batch of tests. Monitor
+and document all QC results. If QC results fall outside of acceptable
+limits, do not release patient results until the issue is resolved. Verify
+the accuracy of variant calling by reanalyzing a subset of positive
+control samples every six months.
+1. REPORTING RESULTS
+Review all analytical data to ensure accuracy and completeness.
+Preparation of a patient results report detailing identified variants,
+their clinical significance, and recommendations for follow-up. All
+reports must be reviewed and signed off by a qualified molecular
+geneticist before release. Critical findings must be communicated to
+the referring physician immediately following standard laboratory
+protocols.
+1. DOCUMENTATION
+Maintain all records of procedures, including raw data, quality control
+results, and final reports for a minimum of 10 years. Ensure
+documentation complies with regulatory and accreditation
+requirements.
+1. REFERENCES
+Include references to relevant scientific literature, guidelines, and kit
+manuals used in the development of this SOP.
+By following this protocol, laboratory personnel will ensure the
+provision of accurate and reliable FH gene analysis results, aiding in
+the diagnosis and management of Hereditary Leiomyomatosis and
+Renal Cell Cancer Syndrome.

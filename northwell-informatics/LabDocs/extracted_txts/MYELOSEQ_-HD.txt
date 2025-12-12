@@ -1,0 +1,105 @@
+Standard Operating Procedure for Generating Results using
+MYELOSEQ™-HD
+1. Purpose:
+This SOP outlines the procedure for generating results using the
+MYELOSEQ™-HD assay, a next-generation sequencing (NGS) test
+for detecting mutations in myeloid malignancies. The goal is to
+ensure accurate, reliable results while maintaining high standards of
+quality control and documentation.
+1. Responsibility:
+It is the responsibility of trained laboratory personnel to perform and
+document all steps of this protocol. Supervisors will review and
+ensure adherence to the procedures, including the performance of
+necessary corrective actions.
+1. Specimen Requirements:
+An appropriate specimen (bone marrow aspirate, whole blood) must
+be collected, received, and accessioned prior to analysis. Ensure that
+the specimen meets the required criteria and condition before
+proceeding with the MYELOSEQ™-HD assay.
+1. Materials and Equipment:
+• MYELOSEQ™-HD Assay Kit
+• Reagents and consumables as specified in the kit manual
+• Sequencing instrument compatible with MYELOSEQ™-HD
+• Appropriate pipettes and tips
+• Microcentrifuge
+• Vortex mixer
+• Thermal cycler
+• Automated NGS library preparation system (if applicable)
+• Clean work surfaces, including PCR workstations
+1. Procedure:
+A. Specimen Preparation:
+• Lysate Preparation: Follow the specific instructions provided in the
+MYELOSEQ™-HD Assay Kit manual for extracting DNA from the
+bone marrow or blood sample.
+• DNA Quality and Quantification: Use spectrophotometric and
+fluorometric methods to assess DNA concentration and purity.
+Ensure the extracted DNA meets the kit-specific criteria for purity
+and concentration.
+B. Library Preparation:
+• Library Construction: Utilize the MYELOSEQ™-HD library
+preparation protocol as per kit instructions. Adhere strictly to
+recommended incubation times and temperatures.
+• Quantification and Quality Check: Assess the quality and
+concentration of the prepared libraries using a microfluidic
+electrophoresis system (e.g., Bioanalyzer). Ensure the library
+meets the specified criteria in the MYELOSEQ™-HD
+documentation.
+C. Sequencing:
+• Load the prepared library into the sequencer according to the
+manufacturer's guidelines.
+• Run the sequencing instrument following the standard operation
+procedure specific to the sequencer.
+D. Data Analysis:
+• Primary Analysis: Utilize software provided with the sequencing
+platform to perform primary data analysis, including base calling
+and quality score assignment.
+• Secondary Analysis: Use the MYELOSEQ™-HD analysis
+software to map and align sequences, detect variants, and
+generate the mutation report.
+• Quality Control: Review quality metrics and confirm that
+sequencing quality (e.g., coverage, read depth) meets the criteria
+specified in the MYELOSEQ™-HD manual.
+E. Interpretation and Reporting:
+• Validate Results: Cross-check variants against internal databases
+and published literature to validate clinical significance.
+• Annotate and Interpret: Utilize clinical guidelines and decision
+support software to annotate findings, providing insights into the
+clinical relevance of detected mutations.
+• Report Generation: Generate a comprehensive report including
+detected mutations, their clinical significance, and recommended
+follow-up actions. Ensure the report follows institutional protocols
+for format and content.
+1. Quality Control and Assurance:
+◦ Run external and internal controls with each batch of
+samples.
+◦ Document all steps, including deviations from the protocol,
+and corrective actions taken.
+◦ Maintain thorough logs of instrument runs, reagent lots, and
+any maintenance activities.
+◦ Regularly review protocols and update as necessary based
+on new guidelines or internal audits.
+2. Documentation:
+◦ Ensure all analytical phase documentation is complete and
+accurate.
+◦ Maintain logs of specimen preparation, library preparation,
+sequencing runs, analyses, and reports.
+◦ Upload the results to the Laboratory Information System
+(LIS) and ensure timely verification and release by
+authorized personnel.
+3. Corrective Actions:
+◦ In the event of non-conformance (e.g., QC failure, abnormal
+metrics), perform root cause analysis and document
+corrective steps.
+◦ Re-run samples if necessary, ensuring that new controls are
+in place.
+4. References:
+◦ MYELOSEQ™-HD Assay Kit Manual
+◦ Sequencing Instrument User Guides
+◦ Internal Laboratory Quality Management System
+documentation
+◦ Relevant clinical guidelines and literature
+5. Approval:
+This protocol has been reviewed and approved by the Laboratory
+Department Head and is effective as of the date below.
+Effective Date: [Enter Date] Review Date: [Enter Review Date]
+Reviewed by: [Name, Title] Approved by: [Name, Title]

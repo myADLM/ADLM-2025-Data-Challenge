@@ -1,0 +1,87 @@
+MAYOCOMPLETE KIDNEY CANCER PANEL, NEXT-GENERATION
+SEQUENCING, TUMOR SOP
+1. PURPOSE To provide guidelines for the analytical phase of
+generating results for MAYOCOMPLETE Kidney Cancer Panel
+using next-generation sequencing (NGS) on tumor specimens.
+This protocol ensures consistency, accuracy, and reliability in
+processing and analyzing tumor samples for genetic mutations
+associated with kidney cancer.
+2. RESPONSIBILITY It is the responsibility of designated staff to
+perform the analytical procedures as defined in this protocol,
+ensuring adherence to the outlined steps and promptly
+addressing any deviations or issues.
+3. SPECIMEN Preferred/acceptable specimen: Fresh frozen
+tissue, formalin-fixed paraffin-embedded (FFPE) tissue blocks,
+or slides with tumor tissue. Unacceptable specimens: Non-
+tumor tissue, degraded specimens, improperly stored or
+collected specimens. Ensure proper labelling including
+collection date, type of specimen, and patient identification.
+4. EQUIPMENT AND REAGENTS
+• Next-generation sequencer (Illumina, Thermo Fisher, or
+equivalent)
+• DNA extraction kits (Qiagen, Promega, or equivalent)
+• Library preparation kits (Illumina, Thermo Fisher, or equivalent)
+• PCR thermocycler
+• Quantification equipment (Qubit fluorometer, Bioanalyzer, or
+equivalent)
+• Clean bench for sample preparation
+• Appropriate computational tools for bioinformatics analysis
+Ensure all reagents are stored according to manufacturer's
+instructions and not used past the expiry date.
+1. PROCEDURE Step 1: DNA Extraction
+• Follow the manufacturer's protocol for extracting DNA from tumor
+tissue.
+• Quantify extracted DNA using Qubit or Bioanalyzer.
+• Assess quality of the extracted DNA by spectrophotometry and
+gel electrophoresis.
+Step 2: Library Preparation
+• Prepare DNA libraries as per the manufacturer's protocol
+including fragmentation, end repair, A-tailing, adapter ligation, and
+PCR amplification.
+• Purify libraries using appropriate purification methods (e.g., bead-
+based purification).
+• Quantify and assess quality of the libraries using the Bioanalyzer.
+Step 3: Sequencing
+• Load libraries onto the NGS platform according to sequencer
+manufacturer's protocol.
+• Ensure proper calibration and maintenance of sequencer before
+running the sample.
+• Monitor sequencing run to avoid incomplete or error-prone data
+collection.
+Step 4: Data Analysis
+• Transfer raw sequencing data to bioinformatics platform for
+processing and analysis.
+• Align reads to reference genome using appropriate alignment
+tools (e.g., BWA, Bowtie2).
+• Call variants using established software (e.g., GATK, VarScan).
+• Annotate variants using databases (e.g., dbSNP, COSMIC).
+Step 5: Result Interpretation
+• Review variant calls for clinical significance using established
+guidelines.
+• Evaluate quality control metrics throughout analysis.
+• Generate report summarizing key findings including potential
+clinically actionable mutations.
+1. QUALITY CONTROL For each batch of samples:
+• Include positive and negative controls during DNA extraction and
+library preparation steps.
+• Monitor instrument performance and conduct regular calibration
+checks.
+• Review inter-laboratory and intra-laboratory quality control data
+for consistency.
+1. REPORTING RESULTS Results must be reviewed and verified
+by a qualified technologist before being transmitted to the
+electronic laboratory information system (LIS). Ensure proper
+documentation of all steps and findings.
+2. REFERENCES Refer to manufacturer's guidelines for reagents
+and equipment. Use established protocols and databases for
+bioinformatics analysis. Follow institutional guidelines for
+clinical reporting and interpretation of genetic data.
+3. METHOD LIMITATIONS Refer to equipment and reagent
+manufacturers' guidelines for limitations. Genotype-phenotype
+correlations may vary depending on individual patient and
+tumor heterogeneity.
+4. ADDITIONAL NOTES Ensure adherence to ethical guidelines
+and patient confidentiality throughout the analytical process.
+5. DOCUMENTATION Maintain detailed records of all steps in the
+procedural workflow including batch records, sample tracking,
+quality control metrics, and analysis results.

@@ -1,0 +1,2368 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY ONLY
+I Background Information:
+A 510(k) Number
+K200839
+B Applicant
+Clever Culture Systems
+C Proprietary and Established Names
+APAS Independence with IC Chromogenic MRSA BD Analysis Module; APAS Independence
+with IC Chromogenic MRSA TFS/S Analysis Module
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.2190 -
+Automated Image
+QQY Class II Assessment System For MI - Microbiology
+Microbial Colonies On
+Solid Culture Media
+II Submission/Device Overview:
+A Purpose for Submission:
+To obtain a substantial equivalence determination for the APAS Independence with two
+independent MRSA Analysis Modules
+B Measurand:
+Digital images of colonies cultured on chromogenic agar plates to determine presence or absence
+of methicillin-resistant Staphylococcus aureus (MRSA)
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QQY			Class II	21 CFR 866.2190 -
+Automated Image
+Assessment System For
+Microbial Colonies On
+Solid Culture Media			MI - Microbiology
+
+--- Page 2 ---
+C Type of Test:
+The APAS Independence when using its MRSA Analysis Modules is an in vitro diagnostic test
+system for automated assessment of microbial colonies on chromogenic culture media. The
+system is for use with anterior nares specimens inoculated on chromogenic agar to aid in
+screening for MRSA.
+III Intended Use/Indications for Use:
+A Intended Use(s):
+The APAS Independence is an in vitro diagnostic system comprised of an instrument and
+software analysis module(s) for specific indications that are used to automate imaging and
+interpretation of microbial colonies on plates of solid culture media.
+B Indication(s) for Use:
+The APAS Independence is an in vitro diagnostic system comprised of an instrument for
+automated imaging of agar culture plates and a software analysis module for the following use:
+1. The APAS Independence, when using its IC MRSA Chromogenic BD analysis module,
+automates culture plate imaging and interpretation to detect the presence or absence of colonies
+with colors suggestive of methicillin-resistant Staphylococcus aureus (MRSA) growth on
+Beckton Dickson BBL CHROMagar MRSA II agar that has been inoculated with anterior nares
+swabs and incubated at 36°C ± 1°C for 24 hours.
+The APAS Independence, when using its IC MRSA Chromogenic BD analysis module, provides
+an aid in routine screening for colonization with MRSA. It provides one of two screening results:
+Presumptive MRSA or Negative. All culture plates that are identified as Presumptive MRSA by
+the APAS Independence, when using the IC MRSA Chromogenic BD analysis module require
+review by a trained microbiologist.
+2. The APAS Independence, when using its IC MRSA Chromogenic TFS/S analysis module,
+automates culture plate imaging and interpretation to detect the presence or absence of colonies
+with colors suggestive of methicillin-resistant Staphylococcus aureus (MRSA) growth on
+Thermo-Fisher Spectra MRSA agar that has been inoculated with anterior nares swabs and
+incubated at 36°C ± 1°C for 24 hours.
+The APAS Independence, when using its IC MRSA Chromogenic TFS/S analysis module,
+provides an aid in routine screening for colonization with MRSA. It provides one of three
+screening results: Presumptive MRSA, Presumptive non-MRSA, or Negative. All culture plates
+that are identified as Presumptive MRSA or Presumptive non-MRSA by the APAS
+Independence, when using the IC MRSA Chromogenic TFS/S analysis module, require review
+by a trained microbiologist.
+K200839 - Page 2 of 30
+
+--- Page 3 ---
+C Special Conditions for Use Statement(s):
+• Rx - For Prescription Use Only
+• The APAS Independence with MRSA Analysis Module is only for use with BBL
+CHROMagar MRSA II Spectra MRSA chromogenic agar plates inoculated with anterior
+nares swab specimens.
+• The APAS Independence with IC MRSA Chromogenic BD is qualified for use with BBL
+CHROMagar MRSA II agar from Becton Dickinson (product numbers 215228 and 215229).
+It has not been evaluated for use with non-chromogenic plates or other chromogenic plates.
+• The APAS Independence with IC MRSA Chromogenic TFS/S is qualified for use with
+Spectra MRSA agar from Thermo-Fisher Scientific (product numbers R01821(A) and
+R01822(A). It has not been evaluated for use with non-chromogenic plates or other
+chromogenic plates.
+• Organisms other than MRSA may produce a mauve color on this media and produce a
+presumptive positive result. Laboratories should employ confirmation procedures for all
+Presumptive MRSA results.
+• Some MRSA strains may not produce characteristic chromogenic reactions on the media.
+Laboratories should consider alternative procedures when considering such strains, or
+employ the APAS flag functions to assist.
+D Special Instrument Requirements:
+APAS Independence
+IV Device/System Characteristics:
+A Device Description:
+The APAS Independence is an automated system for the screening of culture plates to assess the
+presence of microbial growth. The APAS Independence system consists of the following:
+• an automated plate handling mechanism that moves culture plates through the instrument,
+• an imaging station to capture images of a culture plate, and
+• software for analysis of the image, determination of growth and presentation of reports.
+A list of the major sub-components of the APAS Independence is provided in Table 1. With the
+exception of the MRSA module software, these components remain the same as those used in the
+predicate (APAS Independence with Urine Analysis Module, K183648).
+Table 1. Major sub-systems of the APAS Independence
+Component Function
+LED illumination of culture plates and image
+Imaging Station
+capture using a CCD camera
+Hardware
+Automated Plate Handling Movement, positioning and sorting of culture
+System plates within the instrument
+Controls image capture, analysis, report
+APAS Controller PC
+generation and result storage
+Software Controls movement of culture plates between
+Plate Controller PC the input carriers, imaging station and output
+carriers or stacks
+K200839 - Page 3 of 30
+
+[Table 1 on page 3]
+	Component				Function	
+Hardware		Imaging Station		LED illumination of culture plates and image
+capture using a CCD camera		
+		Automated Plate Handling
+System		Movement, positioning and sorting of culture
+plates within the instrument		
+Software		APAS Controller PC		Controls image capture, analysis, report
+generation and result storage		
+		Plate Controller PC		Controls movement of culture plates between
+the input carriers, imaging station and output
+carriers or stacks		
+
+--- Page 4 ---
+Component Function
+Provides the user interface for operation of the
+Instrument Controller Software instrument and coordinates the functions of the
+APAS and Plate Controller PCs
+Installed on the APAS Controller PC to provide
+Analysis Module Software the configuration and instructions for image
+capture and analysis
+Installed on the Instrument Controller PC to
+import diagnostic details and provide context
+for interpretation of MRSA culture results.
+Imported information may be applied to the
+system:
+“LIMS Force Flag”: automatically forces an
+LIMS Interface Software
+APAS result to “Review” irrespective of the
+growth characteristics observed
+“LIMS Complementary Test Flag”:
+automatically changes a “Negative” designation
+to “Review” based on user defined rules applied
+to additional diagnostic information
+Multicolored disk for calibration/checking of
+Color Calibration Tool
+Quality system optics
+Control Simulated culture plates used to confirm
+System Check
+instrument function
+The APAS Independence is intended to be installed with multiple, independent software
+(analysis) modules, each of which will provide an assessment of growth for a specific clinical
+indication. More than one analysis module may be developed for the same Indication for Use to
+allow APAS to assess growth on culture plates from multiple agar manufacturers. In this
+application, two independent MRSA analysis modules have been designed to interpret microbial
+growth as follows:
+• APAS Independence with IC Chromogenic MRSA BD Analysis Module is designed to
+interpret microbial growth on BBL CHROMagar MRSA II agar from Becton Dickinson
+• APAS Independence with IC Chromogenic MRSA TFS/S Analysis Module is designed
+to interpret microbial growth on Remel Spectra MRSA agar from Thermo Fisher
+Scientific.
+The APAS Independence with the IC Chromogenic MRSA BD and TFS/S Analysis Modules
+images and evaluates chromogenic agar plates (BBL CHROMagar MRSA II and Remel Spectra
+MRSA, respectively) to determine and report plate results. Each module has its own reporting
+scheme (described in Table 2) based on the analytical and clinical performance data and
+corresponding risk mitigations.
+Table 2. Reporting results for the IC Chromogenic MRSA BD and TFS/S analysis modules
+Chromogenic Agar Chromogenic Agar IC Chromogenic Analysis Modules
+Result Description BD Result TFS/S Result
+Presumptive MRSA Colonies or growth
+Presumptive MRSA Presumptive MRSA
+Growth suggestive of MRSA
+K200839 - Page 4 of 30
+
+[Table 1 on page 4]
+	Component				Function	
+		Instrument Controller Software		Provides the user interface for operation of the
+instrument and coordinates the functions of the
+APAS and Plate Controller PCs		
+		Analysis Module Software		Installed on the APAS Controller PC to provide
+the configuration and instructions for image
+capture and analysis		
+		LIMS Interface Software		Installed on the Instrument Controller PC to
+import diagnostic details and provide context
+for interpretation of MRSA culture results.
+Imported information may be applied to the
+system:
+“LIMS Force Flag”: automatically forces an
+APAS result to “Review” irrespective of the
+growth characteristics observed
+“LIMS Complementary Test Flag”:
+automatically changes a “Negative” designation
+to “Review” based on user defined rules applied
+to additional diagnostic information		
+Quality
+Control		Color Calibration Tool		Multicolored disk for calibration/checking of
+system optics		
+		System Check		Simulated culture plates used to confirm
+instrument function		
+
+[Table 2 on page 4]
+	Chromogenic Agar			Chromogenic Agar			IC Chromogenic Analysis Modules				
+	Result			Description			BD Result			TFS/S Result	
+Presumptive MRSA
+Growth			Colonies or growth
+suggestive of MRSA			Presumptive MRSA			Presumptive MRSA		
+
+--- Page 5 ---
+Chromogenic Agar Chromogenic Agar IC Chromogenic Analysis Modules
+Result Description BD Result TFS/S Result
+Presumptive non- Colonies or growth not
+Negative Presumptive non-MRSA
+MRSA Growth suggestive of MRSA
+No Growth No colonies or growth Negative Negative
+B Principle of Operation:
+APAS Independence when using a MRSA analysis module is designed to detect the presence or
+absence of presumptive methicillin-resistant Staphylococcus aureus (MRSA) growth on
+chromogenic MRSA agar plates. No quantification of growth is required since it is not used to
+inform clinical decisions. The system comprises an imaging station to capture images of
+chromogenic MRSA agar plates and a plate handling system that moves plates between the input
+carriers, imaging station and output carriers or stacks. The software conducts analysis of the
+images, assessment of microbial colonies (if present), and result designation.
+The APAS Independence with MRSA Analysis Modules is indicated for screening MRSA
+chromogenic agar plates (BBL CHROMagar MRSA II and Remel Spectra MRSA) inoculated
+with anterior nares swab specimens and incubated for 24 hours. The system takes digital images
+of each plate that are analyzed automatically to determine if presumptive MRSA colonies are
+present. For each plate, the APAS Independence performs the following tasks:
+a. digitally combines several images of the plate for analysis,
+b. categorizes each pixel of the image according to the visually different areas on the plate
+(e.g., type of growth or agar background),
+c. determines how pixels are arranged in relation to each other (e.g., clumps of related
+pixels may represent a colony),
+d. counts the number of colonies per colony type (although colony counts are not reported
+in the MRSA Analysis Modules),
+e. differentiates between MRSA and non-MRSA colony types and reports presumptive
+results accordingly,
+f. incorporates data from the Laboratory Information System (LIS) to provide a final report;
+when applicable based on clinical context (“flagged”), a “negative” result may be
+modified to “presumptive MRSA growth” to alert the microbiologist that further
+investigation may be warranted.
+When using the IC MRSA Chromogenic BD Analysis module (BD module), all plates with
+presumptive MRSA growth are designated for review by a trained microbiologist for
+determination of status and follow up testing according to conventional laboratory practice.
+Plates with presumptive non-MRSA growth or no growth are not designated for review and may
+be discarded according to the standard operating procedures of the laboratory.
+When using the IC MRSA Chromogenic TFS/S Analysis module (TFS/S module), all plates with
+presumptive MRSA growth or presumptive non-MRSA growth are designated for review by a
+trained microbiologist for determination of status and follow up testing according to
+conventional laboratory practice. Plates with no growth are not designated for review and may be
+discarded according to the standard operating procedures of the laboratory.
+K200839 - Page 5 of 30
+
+[Table 1 on page 5]
+	Chromogenic Agar			Chromogenic Agar			IC Chromogenic Analysis Modules				
+	Result			Description			BD Result			TFS/S Result	
+Presumptive non-
+MRSA Growth			Colonies or growth not
+suggestive of MRSA			Negative			Presumptive non-MRSA		
+No Growth			No colonies or growth			Negative			Negative		
+
+--- Page 6 ---
+1. Instrument Name:
+APAS Independence
+2. Specimen Identification:
+Plates are identified using an integrated barcode scanner within the Imaging Module of the
+APAS Independence. The identity of each plate is displayed on the results screen and
+transmitted automatically to the LIS.
+3. Specimen Sampling and Handling:
+The operator loads carriers containing culture plates into the Input Module of the APAS
+Independence from which they are moved automatically, one plate at a time, to the Imaging
+Module where the barcode is read, the lid is removed, and images of the agar surface are
+captured. Upon completion of image capture and analysis, the plate lid is replaced, and the
+system automatically sorts each plate based on its designation into the appropriate carrier in
+the Output Module.
+4. Calibration:
+The APAS Independence requires daily color calibration prior to analysis of culture plates.
+Calibration is performed using the Color Check Tool provided with the instrument, a
+multicolored disk for checking and correcting color of the system optics. Instruction for the
+daily Color Check is included in the APAS Independence User Manual. In the event of a
+Color Check failure, the check should be repeated. If the repeated failure occurs, the
+instrument should not be used until it has been serviced.
+5. Quality Control:
+After daily calibration (Color Check), a System Check must be performed followed by
+biological Quality Control testing.
+The System Check Tool comprises a pair of disks with small dots replicating colonies for
+checking overall system functionality and associated software. Instruction for daily System
+Check is provided in the User Manual for the APAS Independence.
+Daily biological Quality Control testing is performed using a reference culture plate
+inoculated with a MRSA positive strain (e.g., Staphylococcus aureus ATCC 43300).
+Instructions for testing is provided in the User Manuals for the APAS Independence with IC
+MRSA Chromogenic BD Analysis Module and APAS Independence with IC MRSA
+Chromogenic TFS/S Analysis Module.
+In the event of a System Check or Quality Control testing failure, the check/testing should be
+repeated. If the repeated failure occurs, the instrument should not be used until it has been
+serviced. In the event of a System Check fail, the instrument should be locked to prevent
+processing of additional culture plates until service has been performed.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+APAS Independence with Urine Analysis Module
+K200839 - Page 6 of 30
+
+--- Page 7 ---
+B Predicate 510(k) Number(s):
+K183648
+C Comparison with Predicate(s):
+Table 3. Comparison with Predicate
+Device & Predicate DEVICE: PREDICATE:
+Device(s): K200839 K183648
+APAS Independence with IC Chromogenic
+MRSA BD Analysis Module; APAS APAS Independence with
+Device Trade Name
+Independence with IC Chromogenic MRSA Urine Analysis Module
+TFS/S Analysis Module
+General Device Characteristic Similarities
+The APAS Independence is an in vitro
+diagnostic system comprised of an
+instrument and software analysis module(s)
+Intended Use for specific indications that are used to Same
+automate imaging and interpretation of
+microbial colonies on plates of solid culture
+media.
+Light Emitting Diode (LED)
+illumination of culture plates and
+Imaging Station Same
+image capture using a Charge
+Coupled Device (CCD) camera
+Plate Handling Automated Same
+Controls image capture, analysis, report
+APAS Controller PC Same
+generation and result storage
+Provides the user interface for the APAS
+Instrument Controller PC Same
+Independence and controls plate movement
+Installed on the APAS Controller PC to
+Analysis Module provide the configuration and instructions Same
+for image capture and analysis
+Laboratory Information Analysis result for each plate sent to the LIS.
+Same
+System (LIS) Interface Sample ID details retrieved from the LIS.
+Performed daily using a manufacturer-
+Calibration Same
+provided Color Check Tool
+Performed daily using the manufacturer-
+System Check provided System Check Tool to verify Same
+instrument and software functionality
+General Device Characteristic Differences
+K200839 - Page 7 of 30
+
+[Table 1 on page 7]
+	Device & Predicate			DEVICE:			PREDICATE:	
+	Device(s):			K200839			K183648	
+Device Trade Name			APAS Independence with IC Chromogenic
+MRSA BD Analysis Module; APAS
+Independence with IC Chromogenic MRSA
+TFS/S Analysis Module			APAS Independence with
+Urine Analysis Module		
+	General Device Characteristic Similarities							
+Intended Use			The APAS Independence is an in vitro
+diagnostic system comprised of an
+instrument and software analysis module(s)
+for specific indications that are used to
+automate imaging and interpretation of
+microbial colonies on plates of solid culture
+media.			Same		
+Imaging Station			Light Emitting Diode (LED)
+illumination of culture plates and
+image capture using a Charge
+Coupled Device (CCD) camera			Same		
+Plate Handling			Automated			Same		
+APAS Controller PC			Controls image capture, analysis, report
+generation and result storage			Same		
+Instrument Controller PC			Provides the user interface for the APAS
+Independence and controls plate movement			Same		
+Analysis Module			Installed on the APAS Controller PC to
+provide the configuration and instructions
+for image capture and analysis			Same		
+Laboratory Information
+System (LIS) Interface			Analysis result for each plate sent to the LIS.
+Sample ID details retrieved from the LIS.			Same		
+Calibration			Performed daily using a manufacturer-
+provided Color Check Tool			Same		
+System Check			Performed daily using the manufacturer-
+provided System Check Tool to verify
+instrument and software functionality			Same		
+	General Device Characteristic Differences							
+
+--- Page 8 ---
+Device & Predicate DEVICE: PREDICATE:
+Device(s): K200839 K183648
+The APAS Independence is an in vitro The APAS Independence
+diagnostic system comprised of an is an in vitro diagnostic
+instrument for automated imaging of agar system comprised of an
+culture plates and a software analysis instrument for automated
+module for the following use: imaging of agar culture
+1. The APAS Independence, when using its plates and a software
+IC MRSA Chromogenic BD analysis analysis module for the
+module, automates culture plate imaging and following use:
+interpretation to detect the presence or The APAS Independence,
+absence of colonies with colors suggestive of when using its urine
+methicillin-resistant Staphylococcus aureus analysis module,
+(MRSA) growth on Beckton Dickson automates urine culture
+BBL™ CHROMagar™ MRSA II agar that plate imaging and
+has been inoculated with anterior nares interpretation to detect
+swabs and incubated at 36°C ± 1°C for 24 the presence or absence
+hours. of microbial growth on
+The APAS Independence, when using its IC sheep blood and
+MRSA Chromogenic BD analysis module, MacConkey agar culture
+provides an aid in routine screening for plates that are inoculated
+colonization with MRSA. It provides one of with a 1μL sample
+two screening results: Presumptive MRSA volume. The APAS
+or Negative. All culture plates that are Independence, when
+Indications For Use identified as Presumptive MRSA by the using its urine analysis
+APAS Independence, when using the IC module, provides a
+MRSA Chromogenic BD analysis module semiquantitative
+require review by a trained microbiologist. assessment of colony
+counts that are used as an
+aid in the diagnosis of
+2. The APAS Independence, when using its
+urinary tract infection.
+IC MRSA Chromogenic TFS/S analysis
+All urine culture plates
+module, automates culture plate imaging and
+that are identified as
+interpretation to detect the presence or
+positive for growth by the
+absence of colonies with colors suggestive of
+APAS Independence,
+methicillin-resistant Staphylococcus aureus
+when using its urine
+(MRSA) growth on Thermo-Fisher
+analysis module, must be
+Spectra™ MRSA agar that has been
+reviewed by a trained
+inoculated with anterior nares swabs and
+microbiologist.
+incubated at 36°C ± 1°C for 24 hours.
+The APAS Independence, when using its IC
+MRSA Chromogenic TFS/S analysis
+module, provides an aid in routine screening
+for colonization with MRSA. It provides one
+of three screening results: Presumptive
+MRSA, Presumptive non-MRSA, or
+Negative. All culture plates that are
+identified as Presumptive MRSA or
+K200839 - Page 8 of 30
+
+[Table 1 on page 8]
+	Device & Predicate			DEVICE:			PREDICATE:	
+	Device(s):			K200839			K183648	
+Indications For Use			The APAS Independence is an in vitro
+diagnostic system comprised of an
+instrument for automated imaging of agar
+culture plates and a software analysis
+module for the following use:
+1. The APAS Independence, when using its
+IC MRSA Chromogenic BD analysis
+module, automates culture plate imaging and
+interpretation to detect the presence or
+absence of colonies with colors suggestive of
+methicillin-resistant Staphylococcus aureus
+(MRSA) growth on Beckton Dickson
+BBL™ CHROMagar™ MRSA II agar that
+has been inoculated with anterior nares
+swabs and incubated at 36°C ± 1°C for 24
+hours.
+The APAS Independence, when using its IC
+MRSA Chromogenic BD analysis module,
+provides an aid in routine screening for
+colonization with MRSA. It provides one of
+two screening results: Presumptive MRSA
+or Negative. All culture plates that are
+identified as Presumptive MRSA by the
+APAS Independence, when using the IC
+MRSA Chromogenic BD analysis module
+require review by a trained microbiologist.
+2. The APAS Independence, when using its
+IC MRSA Chromogenic TFS/S analysis
+module, automates culture plate imaging and
+interpretation to detect the presence or
+absence of colonies with colors suggestive of
+methicillin-resistant Staphylococcus aureus
+(MRSA) growth on Thermo-Fisher
+Spectra™ MRSA agar that has been
+inoculated with anterior nares swabs and
+incubated at 36°C ± 1°C for 24 hours.
+The APAS Independence, when using its IC
+MRSA Chromogenic TFS/S analysis
+module, provides an aid in routine screening
+for colonization with MRSA. It provides one
+of three screening results: Presumptive
+MRSA, Presumptive non-MRSA, or
+Negative. All culture plates that are
+identified as Presumptive MRSA or			The APAS Independence
+is an in vitro diagnostic
+system comprised of an
+instrument for automated
+imaging of agar culture
+plates and a software
+analysis module for the
+following use:
+The APAS Independence,
+when using its urine
+analysis module,
+automates urine culture
+plate imaging and
+interpretation to detect
+the presence or absence
+of microbial growth on
+sheep blood and
+MacConkey agar culture
+plates that are inoculated
+with a 1μL sample
+volume. The APAS
+Independence, when
+using its urine analysis
+module, provides a
+semiquantitative
+assessment of colony
+counts that are used as an
+aid in the diagnosis of
+urinary tract infection.
+All urine culture plates
+that are identified as
+positive for growth by the
+APAS Independence,
+when using its urine
+analysis module, must be
+reviewed by a trained
+microbiologist.		
+
+--- Page 9 ---
+Device & Predicate DEVICE: PREDICATE:
+Device(s): K200839 K183648
+Presumptive non-MRSA by the APAS
+Independence, when using the IC MRSA
+Chromogenic TFS/S analysis module,
+require review by a trained microbiologist.
+IFU Target Presumptive MRSA colonies Microbial growth
+Sample type Anterior nares specimens Urine samples
+Performed daily using
+Performed daily using standardized
+Biological Quality standardized suspensions
+suspensions of Staphylococcus aureus
+Control of Escherichia coli and
+ATCC 43300 (MRSA positive strain)
+Enterococcus faecalis
+VI Standards/Guidance Documents Referenced:
+• ISO 14971: Medical devices - Application of Risk Management to Medical Devices; 2007.
+• IEC 61010-1: Safety requirements for electrical equipment for measurement, control and
+laboratory use - Part 1: General requirements; 2010, 3rd edition.
+• IEC 62304: Medical device software - Software life cycle processes; 2006.
+• IEC 62366-1: Medical devices – Part 1: Application of usability engineering to medical
+devices; 2015.
+• IEC 61326-1: Electrical equipment for measurement, control and laboratory use - EMC
+Requirements – Part 1: General requirements; 2012.
+• IEC 61326-2-6: Electrical equipment for measurement, control and laboratory use - EMC
+Requirements - Part 2-6: Particular Requirements - In vitro diagnostic (IVD) medical
+Equipment; 2012.
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+The organisms listed in Table 4 were used to evaluate the analytical performance of the APAS
+Independence with MRSA Analysis Modules on both on BBL CHROMagar MRSA II (referred
+throughout as “BD”) and Remel Spectra MRSA (referred throughout as “TFS/S”) chromogenic
+agar plates. The organism codes were internal and used for the purpose of tracking during the
+studies.
+Table 4. Organisms tested in analytical studies
+Organism Name Colony Appearance Interpretation
+Code Used in Study
+(Strain) BD TFS/S / Designation
+Bacillus cereus Accuracy, Digital Image
+MISC6 Pink Blue Negative
+(Stock) Quality
+Bacillus licheniformis Accuracy, Digital Image
+MISC7 Purple Blue Negative
+(NCTC 10341) Quality
+Bacillus spp. Accuracy, Digital Image
+MISC2 Purple Blue Negative
+(Stock) Quality
+K200839 - Page 9 of 30
+
+[Table 1 on page 9]
+	Device & Predicate			DEVICE:			PREDICATE:	
+	Device(s):			K200839			K183648	
+			Presumptive non-MRSA by the APAS
+Independence, when using the IC MRSA
+Chromogenic TFS/S analysis module,
+require review by a trained microbiologist.					
+IFU Target			Presumptive MRSA colonies			Microbial growth		
+Sample type			Anterior nares specimens			Urine samples		
+Biological Quality
+Control			Performed daily using standardized
+suspensions of Staphylococcus aureus
+ATCC 43300 (MRSA positive strain)			Performed daily using
+standardized suspensions
+of Escherichia coli and
+Enterococcus faecalis		
+
+[Table 2 on page 9]
+Organism Name
+(Strain)		Code		Colony Appearance						Interpretation		Used in Study
+				BD			TFS/S			/ Designation		
+Bacillus cereus
+(Stock)		MISC6	Pink			Blue			Negative			Accuracy, Digital Image
+Quality
+Bacillus licheniformis
+(NCTC 10341)		MISC7	Purple			Blue			Negative			Accuracy, Digital Image
+Quality
+Bacillus spp.
+(Stock)		MISC2	Purple			Blue			Negative			Accuracy, Digital Image
+Quality
+
+--- Page 10 ---
+Organism Name Colony Appearance Interpretation
+Code Used in Study
+(Strain) BD TFS/S / Designation
+Enterococcus faecalis Fine blue Fine blue
+EF8 Negative Accuracy
+(ATCC 29212) smear smear
+Accuracy, Reproducibility,
+Staphylococcus aureus Denim Presumptive
+MRSA3 Mauve LoD, Interference, Range of
+(Stock) blue Positive
+Assay
+Staphylococcus aureus Denim Presumptive
+MRSA5 Mauve Accuracy, Range of Assay
+(Stock) blue Positive
+Accuracy, Reproducibility,
+Staphylococcus aureus Denim Presumptive
+MRSA9 Mauve LoD, Biological QC, Digital
+(ATCC 43300) blue Positive
+Image Quality
+Staphylococcus aureus Denim Presumptive Accuracy, Digital Image
+MRSA26 Mauve
+(ATCC 1707) blue Positive Quality
+Staphylococcus aureus Denim Presumptive Accuracy, Digital Image
+MRSA29 Mauve
+(ATCC 13277) blue Positive Quality
+Staphylococcus aureus Denim Presumptive Accuracy, Digital Image
+MRSA31 Mauve
+(ATCC 13435) blue Positive Quality
+Staphylococcus aureus Denim Presumptive Accuracy, Digital Image
+MRSA33 Mauve
+(ATCC 13626) blue Positive Quality
+Staphylococcus Small Small Accuracy, Digital Image
+SH3 Negative
+haemolyticus (Stock) white white Quality
+Accuracy, Reproducibility,
+Staphylococcus Small Small
+SH6 Negative LoD, Interference, Range of
+haemolyticus (Stock) white white
+Assay, Digital Image Quality
+Staphylococcus Small Small
+STSP2 Negative Reproducibility
+haemolyticus (Stock) white white
+Staphylococcus Small Small
+STSP4 Negative Range of Assay
+warneri (Stock) white white
+BD: BBL CHROMagar MRSA II chromogenic agar
+TFS/S: Remel Spectra MRSA chromogenic agar
+1. Precision/Reproducibility:
+Reproducibility
+The reproducibility of presumptive MRSA and non-presumptive MRSA colony detection by
+the APAS Independence with MRSA Analysis Modules was evaluated with three
+instruments. Saline was used to evaluate no growth, three dilutions of two MRSA strains
+(MRSA3 and MRSA9) were used to evaluate presumptive MRSA growth (i.e., mainly
+confluent, partial confluent, and single colony growth), and three dilutions of two S.
+haemolyticus strains (SH3 and SH6) were used to evaluate non-presumptive MRSA growth
+(i.e., mainly confluent, partial confluent, and single colony growth) on BD and TFS/S
+chromogenic agar plates. Each dilution was plated in triplicate and incubated at 35°C 2 ±°C
+for 24 hours. Five replicate images of each plate were taken at three different orientations
+(0°, 120° and 270°) on three instruments for a total of 135 images per dilution (3 replicate
+plates x 5 replicate images x 3 orientations x 3 instruments = 135 images per dilution).
+Results of the reproducibility study with the BD and TFS/S MRSA analysis modules are
+shown in Table 5 and Table 6, respectively. The results demonstrate that the reproducibility
+between instruments is acceptable.
+K200839 - Page 10 of 30
+
+[Table 1 on page 10]
+	Organism Name		Code		Colony Appearance						Interpretation		Used in Study
+	(Strain)				BD			TFS/S			/ Designation		
+Enterococcus faecalis
+(ATCC 29212)			EF8	Fine blue
+smear			Fine blue
+smear			Negative			Accuracy
+Staphylococcus aureus
+(Stock)			MRSA3	Mauve			Denim
+blue			Presumptive
+Positive			Accuracy, Reproducibility,
+LoD, Interference, Range of
+Assay
+Staphylococcus aureus
+(Stock)			MRSA5	Mauve			Denim
+blue			Presumptive
+Positive			Accuracy, Range of Assay
+Staphylococcus aureus
+(ATCC 43300)			MRSA9	Mauve			Denim
+blue			Presumptive
+Positive			Accuracy, Reproducibility,
+LoD, Biological QC, Digital
+Image Quality
+Staphylococcus aureus
+(ATCC 1707)			MRSA26	Mauve			Denim
+blue			Presumptive
+Positive			Accuracy, Digital Image
+Quality
+Staphylococcus aureus
+(ATCC 13277)			MRSA29	Mauve			Denim
+blue			Presumptive
+Positive			Accuracy, Digital Image
+Quality
+Staphylococcus aureus
+(ATCC 13435)			MRSA31	Mauve			Denim
+blue			Presumptive
+Positive			Accuracy, Digital Image
+Quality
+Staphylococcus aureus
+(ATCC 13626)			MRSA33	Mauve			Denim
+blue			Presumptive
+Positive			Accuracy, Digital Image
+Quality
+Staphylococcus
+haemolyticus (Stock)			SH3	Small
+white			Small
+white			Negative			Accuracy, Digital Image
+Quality
+Staphylococcus
+haemolyticus (Stock)			SH6	Small
+white			Small
+white			Negative			Accuracy, Reproducibility,
+LoD, Interference, Range of
+Assay, Digital Image Quality
+Staphylococcus
+haemolyticus (Stock)			STSP2	Small
+white			Small
+white			Negative			Reproducibility
+Staphylococcus
+warneri (Stock)			STSP4	Small
+white			Small
+white			Negative			Range of Assay
+
+--- Page 11 ---
+Table 5. Reproducibility of the APAS Independence with the BD MRSA Analysis Module
+Percent Agreement
+Organism Instrument 1 Instrument 2 Instrument 3 Combined
+Dilution
+Code1
+Growth2 Color3
+Growth2 Color3 Growth2 Color3 Growth2 Color3
+[95% CI] [95% CI]
+100% 100%
+100% 100% 100% 100% 100% 100%
+1 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+MRSA3 2 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+3 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+1 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+MRSA9 2 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+3 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 83.0%
+100% 80% 100% 93.3% 100% 75.6%
+1 (135/135) (112/135)
+(45/45) (36/45) (45/45) (42/45) (45/45) (34/45)
+[97.2-100] [75.7-88.4]
+100% 99.3%
+100% 100% 100% 100% 100% 97.8%
+SH3 2 (135/135) (134/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (44/45)
+[97.2-100] [95.9-99.9]
+100% 97.8%
+100% 100% 100% 100% 100% 93.3%
+3 (135/135) (132/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (42/45)
+[97.2-100] [93.7-99.2]
+100% 70.4%
+100% 80% 100% 75.6% 100% 55.6%
+1 (135/135) (95/135)
+(45/45) (36/45) (45/45) (34/45) (45/45) (25/45)
+[97.2-100] [62.2-77.4]
+100% 89.6%
+100% 97.8% 100% 88.9% 100% 82.2%
+SH6 2 (135/135) (121/135)
+(45/45) (44/45) (45/45) (40/45) (45/45) (37/45)
+[97.2-100] [83.3-93.7]
+100% 98.5%
+100% 100% 100% 100% 100% 95.6%
+3 (135/135) (133/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (43/45)
+[97.2-100] [94.8-99.6]
+97.8% 100%
+100% 100% 97.8% 100% 95.6% 100%
+Saline - (132/135) (135/135)
+(45/45) (45/45) (44/45) (45/45) (43/45) (45/45)
+[93.7-99.2] [97.2-100]
+1 Organism code, as noted in Table 4.
+2 Value calculated by dividing the number of images with the expected growth (i.e., growth or no growth detected) by the
+total number of images.
+3 Value calculated by dividing the number of images with the expected color (i.e., at least one colored colony or no color
+detected) by the total number of images.
+K200839 - Page 11 of 30
+
+[Table 1 on page 11]
+Organism
+Code1	Dilution		Percent Agreement																	
+			Instrument 1				Instrument 2				Instrument 3					Combined				
+		Growth2		Color3	Growth2			Color3	Growth2			Color3		Growth2					Color3	
+														[95% CI]					[95% CI]	
+
+[Table 2 on page 11]
+Organism
+Code1
+
+--- Page 12 ---
+Table 6. Reproducibility of the APAS Independence with the TFS/S MRSA Analysis Module
+Percent Agreement
+Organism Instrument 1 Instrument 2 Instrument 3 Combined
+Dilution
+Code1
+Growth2 Color3
+Growth2 Color3 Growth2 Color3 Growth2 Color3
+[95% CI] [95% CI]
+100% 100%
+100% 100% 100% 100% 100% 100%
+1 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+MRSA3 2 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+3 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+1 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+MRSA9 2 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 100%
+100% 100% 100% 100% 100% 100%
+3 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 88.1%
+100% 75.6% 100% 93.3% 100% 95.6%
+1 (135/135) (119/135)
+(45/45) (34/45) (45/45) (42/45) (45/45) (43/45)
+[97.2-100] [81.6-92.6]
+100% 94.1%
+100% 97.8% 100% 100% 100% 84.4%
+SH3 2 (135/135) (127/135)
+(45/45) (44/45) (45/45) (45/45) (45/45) (38/45)
+[97.2-100] [88.7-97.0]
+100% 100%
+100% 100% 100% 100% 100% 100%
+3 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+100% 81.5%
+100% 82.2% 100% 80.0% 100% 82.2%
+1 (135/135) (110/135)
+(45/45) (37/45) (45/45) (36/45) (45/45) (37/45)
+[97.2-100] [74.1-87.1]
+100% 95.6%
+100% 95.6% 100% 100% 100% 91.1%
+SH6 2 (135/135) (129/135)
+(45/45) (43/45) (45/45) (45/45) (45/45) (41/45)
+[97.2-100] [90.6-97.9]
+100% 100%
+100% 100% 100% 100% 100% 100%
+3 (135/135) (135/135)
+(45/45) (45/45) (45/45) (45/45) (45/45) (45/45)
+[97.2-100] [97.2-100]
+No 67.4% 100%
+66.7% 100% 66.7% 100% 68.9% 100%
+Organism - (91/135) (135/135)
+(30/45) (45/45) (30/45) (45/45) (31/45) (45/45)
+(Saline) [59.1—74.7] [97.2-100]
+1 Organism code, as noted in Table 4.
+2 Value calculated by dividing the number of images with the expected growth (i.e., growth or no growth detected) by the
+total number of images.
+3 Value calculated by dividing the number of images with the expected color (i.e., at least one colored colony or no color
+detected) by the total number of images.
+K200839 - Page 12 of 30
+
+[Table 1 on page 12]
+Organism
+Code1	Dilution		Percent Agreement																	
+			Instrument 1				Instrument 2				Instrument 3					Combined				
+		Growth2		Color3	Growth2			Color3	Growth2			Color3		Growth2					Color3	
+														[95% CI]					[95% CI]	
+
+[Table 2 on page 12]
+Organism
+Code1
+
+--- Page 13 ---
+Accuracy
+The accuracy in which the APAS Independence with MRSA Analysis Modules is able to
+correctly assign “presumptive MRSA” and “presumptive non- MRSA” colonies was
+evaluated with a range of organisms noted in Table 4. Organisms were serially diluted in
+saline and streaked onto BBL CHROMagar MRSA II (BD) and Remel Spectra MRSA
+(TFS/S) chromogenic agar plates in 2 replicates or 7 replicates to produce either light or
+confluent growth, respectively, after 24-hour incubation at 36°C ±1°C. At least 100 isolated
+colonies per plate were digitally labelled by a microbiologist and compared to the
+corresponding APAS result.
+Results of the accuracy study with the BD and TFS/S analysis modules are shown in Table 7
+and Table 8, respectively. The results demonstrate that the APAS Independence can
+accurately detect presumptive MRSA colonies when grown on BD or TFS/S chromogenic
+agar plates. However, it cannot accurately detect presumptive non-MRSA colonies. This
+reduced specificity is acceptable since plates with “no growth” or “presumptive non-MRSA
+growth” do not pose a risk for patient management and are therefore discarded.
+Table 7. Accuracy of the APAS Independence with the BD MRSA Analysis Module
+Microbiologist Assigned
+Presumptive Presumptive Non-
+Total
+MRSA Colony MRSA Colony
+Presumptive
+793 23 816
+MRSA Colony
+APAS Presumptive
+3 208 211
+Assigned Non-MRSA Colony
+Colony Not Detected 2 77 79
+Total 798 308 1106
+99.4% 67.5% 90.5%
+Percent Agreement
+(793/798) (208/308) (1101/1106)
+Table 8. Accuracy of the APAS Independence with the TFS/S MRSA Analysis Module
+Microbiologist Assigned
+All Colonies Combined Presumptive Presumptive Non-
+Total
+MRSA Colony MRSA Colony
+Presumptive
+772 262 1034
+MRSA Colony
+APAS Presumptive
+2 226 228
+Assigned Non-MRSA Colony
+Colony Not Detected 2 56 58
+Total 776 544 1320
+99.5% 41.5% 75.5%
+Percent Agreement
+(772/776) (226/544) (997/1320)
+K200839 - Page 13 of 30
+
+[Table 1 on page 13]
+					Microbiologist Assigned							
+					Presumptive			Presumptive Non-		Total		
+					MRSA Colony			MRSA Colony				
+APAS
+Assigned		Presumptive		793			23			816		
+		MRSA Colony										
+		Presumptive		3			208			211		
+		Non-MRSA Colony										
+		Colony Not Detected		2			77			79		
+		Total		798			308			1106		
+Percent Agreement					99.4%			67.5%			90.5%	
+					(793/798)			(208/308)			(1101/1106)	
+
+[Table 2 on page 13]
+APAS
+Assigned
+
+[Table 3 on page 13]
+All Colonies Combined					Microbiologist Assigned						
+					Presumptive			Presumptive Non-		Total	
+					MRSA Colony			MRSA Colony			
+APAS
+Assigned		Presumptive		772			262			1034	
+		MRSA Colony									
+		Presumptive		2			226			228	
+		Non-MRSA Colony									
+		Colony Not Detected		2			56			58	
+		Total		776			544			1320	
+Percent Agreement				99.5%
+(772/776)			41.5%
+(226/544)			75.5%
+(997/1320)	
+
+[Table 4 on page 13]
+APAS
+Assigned
+
+--- Page 14 ---
+Digital Image Quality Study
+A Digital Image Quality study was performed to evaluate the accuracy of microbiologist’s
+interpretation of a digital image compared to reading the agar plate manually (visual read).
+The data generated in this study were analyzed in two different ways: microbiologist
+interpretation of a digital image compared to a manual plate read (Table 9-Table 15) and
+reproducibility of microbiologists’ interpretation of a digital image read (Table 16).
+a) Microbiologist interpretation of APAS-generated digital image compared to manual
+plate read
+The purpose of this study was to assess whether an APAS-generated digital image of a
+chromogenic agar plate read by a microbiologist can be interpreted equivalent to a
+manual reading of the chromogenic agar plate (i.e., manual plate read). Three hundred
+clinical samples (received as swabs and cultured on appropriate agar plates for routine
+MRSA surveillance) and 100 contrived samples were evaluated. Contrived samples were
+diluted such that two dilutions were evaluated: medium growth (100-250 CFU/plate) and
+low growth (1-50 CFU/plate). A panel of three microbiologists blindly interpreted all 400
+agar plates and the corresponding 400 digital images that were randomized after a two
+week “wash out” period to avoid any potential for bias based on prior readings.
+A summary of the results with the BD and TFS/S analysis modules is provided in Table
+9. Data shown by each microbiologist are provided in Table 10, Table 11 and Table 12
+for the BD analysis module as well as in Table 13, Table 14 and Table 15 for the TFS/S
+analysis module.
+Table 9. Digital Image Quality Summary
+Percent Agreement1
+No. of
+Presumptive Presumptive
+Results No Growth
+Non-MRSA Growth MRSA Growth
+Microbiologist 1 400 95.8% (252/263) 89.6% (69/77) 91.7% (55/60)
+Microbiologist 2 400 98.1% (264/269) 98.7% (74/75) 98.2% (55/56)
+BD
+Microbiologist 3 400 95.4% (250/262) 97.6% (82/84) 98.1% (53/54)
+Combined 1200 96.4% (766/794) 95.3% (225/236) 95.9% (163/170)
+Microbiologist 1 400 93.8% (182/194) 87.1% (88/101) 92.4% (97/105)
+Microbiologist 2 400 96.0% (193/201) 90.8% (89/98) 92.1% (93/101)
+TFS/S
+Microbiologist 3 400 94.2% (180/191) 86.8% (92/106) 96.1% (99/103)
+Combined 1200 94.7% (555/586) 88.2% (269/305) 93.5% (289/309)
+1Percent agreement determined by dividing number of digital image read results by the number of manual plate read
+results from the same microbiologist for each designation (i.e., “no growth”, “presumptive non-MRSA growth”,
+“presumptive MRSA growth”).
+The digital image quality study determined that an APAS-generated digital image using
+the BD module can be equivalently interpreted by a microbiologist compared to reading
+the plate manually (visual read). This was achieved >95% of the time for each of the
+three result designations. Importantly, MRSA growth agreement was >95%, which is
+acceptable to support use of a two-rule designation set (i.e., presumptive MRSA growth
+and negative) in that only plates with presumptive MRSA growth are required for
+microbiologist review.
+K200839 - Page 14 of 30
+
+[Table 1 on page 14]
+				No. of
+Results				Percent Agreement1							
+							No Growth				Presumptive			Presumptive	
+											Non-MRSA Growth			MRSA Growth	
+BD		Microbiologist 1		400			95.8% (252/263)			89.6% (69/77)			91.7% (55/60)		
+		Microbiologist 2		400			98.1% (264/269)			98.7% (74/75)			98.2% (55/56)		
+		Microbiologist 3		400			95.4% (250/262)			97.6% (82/84)			98.1% (53/54)		
+		Combined			1200			96.4% (766/794)			95.3% (225/236)			95.9% (163/170)	
+TFS/S		Microbiologist 1		400			93.8% (182/194)			87.1% (88/101)			92.4% (97/105)		
+		Microbiologist 2		400			96.0% (193/201)			90.8% (89/98)			92.1% (93/101)		
+		Microbiologist 3		400			94.2% (180/191)			86.8% (92/106)			96.1% (99/103)		
+		Combined			1200			94.7% (555/586)			88.2% (269/305)			93.5% (289/309)	
+
+[Table 2 on page 14]
+No. of
+Results
+
+--- Page 15 ---
+The digital image quality study determined that an APAS-generated digital image using
+the TFS/S module cannot be equivalently interpreted by a microbiologist compared to
+reading the plate manually. Agreement was <95% of the time for each result designation.
+Importantly, presumptive MRSA growth agreement was 93.5%, which is not acceptable
+to support use of a two-rule designation set. As such, the TFS/S module will use a three-
+rule designation set (i.e., presumptive MRSA growth, presumptive non-MRSA growth,
+and negative) in that plates with any growth (presumptive MRSA or presumptive non-
+MRSA) are required for microbiologist review.
+Table 10. APAS Independence with BD MRSA analysis module – Microbiologist 1 Digital
+Image vs Manual Plate Interpretation
+Manual Plate
+BD analysis module
+Presumptive Presumptive
+Microbiologist 1 No Growth Total
+Non-MRSA Growth MRSA Growth
+K200839 - Page 15 of 30
+latigiD egamI
+No Growth 252 8 2 262
+Presumptive
+11 69 3 83
+Non-MRSA Growth
+Presumptive
+- - 55 55
+MRSA Growth
+Total 263 77 60 400
+No Growth Agreement: 95.8% (252/263)
+Presumptive Non-MRSA Agreement: 89.6% (69/77)
+Presumptive MRSA Agreement: 91.7% (55/60)
+Table 11. APAS Independence with BD MRSA analysis module – Microbiologist 2 Digital
+Image vs Manual Plate Interpretation
+Manual Plate
+BD analysis module
+Presumptive Presumptive
+Microbiologist 2 No Growth Total
+Non-MRSA Growth MRSA Growth
+latigiD egamI
+No Growth 264 1 - 265
+Presumptive
+5 74 1 80
+Non-MRSA Growth
+Presumptive
+- - 55 55
+MRSA Growth
+Total 269 75 56 400
+No Growth Agreement: 98.1% (264/269)
+Presumptive Non-MRSA Agreement: 98.7% (74/75)
+Presumptive MRSA Agreement: 98.2% (55/56)
+
+[Table 1 on page 15]
+BD analysis module
+Microbiologist 1							Manual Plate									
+						No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA Growth			MRSA Growth			
+	latigiD	egamI		No Growth			252		8			2			262	
+				Presumptive		11			69			3			83	
+				Non-MRSA Growth												
+				Presumptive		-			-			55			55	
+				MRSA Growth												
+				Total		263			77			60			400	
+			No Growth Agreement: 95.8% (252/263)
+Presumptive Non-MRSA Agreement: 89.6% (69/77)
+Presumptive MRSA Agreement: 91.7% (55/60)													
+
+[Table 2 on page 15]
+BD analysis module
+Microbiologist 2							Manual Plate									
+						No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA Growth			MRSA Growth			
+	latigiD	egamI		No Growth			264		1			-			265	
+				Presumptive		5			74			1			80	
+				Non-MRSA Growth												
+				Presumptive		-			-			55			55	
+				MRSA Growth												
+				Total		269			75			56			400	
+			No Growth Agreement: 98.1% (264/269)
+Presumptive Non-MRSA Agreement: 98.7% (74/75)
+Presumptive MRSA Agreement: 98.2% (55/56)													
+
+--- Page 16 ---
+Table 12. APAS Independence with BD MRSA analysis module – Microbiologist 3 Digital
+Image vs Manual Plate Interpretation
+Manual Plate
+BD analysis module
+Presumptive Presumptive
+Microbiologist 3 No Growth Total
+Non-MRSA Growth MRSA Growth
+K200839 - Page 16 of 30
+egamI
+latigiD
+No Growth 250 1 - 251
+Presumptive
+10 82 1 93
+Non-MRSA Growth
+Presumptive
+2 1 53 56
+MRSA Growth
+Total 262 84 54 400
+No Growth Agreement: 95.4% (250/262)
+Presumptive Non-MRSA Agreement: 97.6% (82/84)
+Presumptive MRSA Agreement: 98.1% (53/54)
+Table 13. APAS Independence with TFS/S MRSA analysis module – Microbiologist 1 Digital
+Image vs Manual Plate Interpretation
+Manual Plate
+TFS/S analysis module
+Presumptive Presumptive
+Microbiologist 1 No Growth Total
+Non-MRSA Growth MRSA Growth
+egamI
+latigiD
+No Growth 182 7 3 192
+Presumptive
+10 88 5 103
+Non-MRSA Growth
+Presumptive
+2 6 97 105
+MRSA Growth
+Total 194 101 105 400
+No Growth Agreement: 93.8% (182/194)
+Presumptive Non-MRSA Agreement: 87.1% (88/101)
+Presumptive MRSA Agreement: 92.4% (97/105)
+Table 14. APAS Independence with TFS/S MRSA analysis module – Microbiologist 2 Digital
+Image vs Manual Plate Interpretation
+Manual Plate
+TFS/S analysis module
+Presumptive Presumptive
+Microbiologist 2 No Growth Total
+Non-MRSA Growth MRSA Growth
+egamI
+latigiD
+No Growth 193 8 4 205
+Presumptive
+4 89 4 97
+Non-MRSA Growth
+Presumptive
+4 1 93 98
+MRSA Growth
+Total 201 98 101 400
+No Growth Agreement: 96.0% (193/201)
+Presumptive Non-MRSA Agreement: 90.8% (89/98)
+Presumptive MRSA Agreement: 92.1% (93/101)
+
+[Table 1 on page 16]
+BD analysis module
+Microbiologist 3							Manual Plate									
+						No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA Growth			MRSA Growth			
+	egamI
+latigiD			No Growth			250		1			-			251	
+				Presumptive		10			82			1			93	
+				Non-MRSA Growth												
+				Presumptive		2			1			53			56	
+				MRSA Growth												
+				Total		262			84			54			400	
+			No Growth Agreement: 95.4% (250/262)
+Presumptive Non-MRSA Agreement: 97.6% (82/84)
+Presumptive MRSA Agreement: 98.1% (53/54)													
+
+[Table 2 on page 16]
+TFS/S analysis module
+Microbiologist 1							Manual Plate									
+						No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA Growth			MRSA Growth			
+	egamI
+latigiD			No Growth			182		7			3			192	
+				Presumptive		10			88			5			103	
+				Non-MRSA Growth												
+				Presumptive		2			6			97			105	
+				MRSA Growth												
+				Total		194			101			105			400	
+			No Growth Agreement: 93.8% (182/194)
+Presumptive Non-MRSA Agreement: 87.1% (88/101)
+Presumptive MRSA Agreement: 92.4% (97/105)													
+
+[Table 3 on page 16]
+TFS/S analysis module
+Microbiologist 2							Manual Plate									
+						No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA Growth			MRSA Growth			
+	egamI
+latigiD			No Growth			193		8			4			205	
+				Presumptive		4			89			4			97	
+				Non-MRSA Growth												
+				Presumptive		4			1			93			98	
+				MRSA Growth												
+				Total		201			98			101			400	
+			No Growth Agreement: 96.0% (193/201)
+Presumptive Non-MRSA Agreement: 90.8% (89/98)
+Presumptive MRSA Agreement: 92.1% (93/101)													
+
+--- Page 17 ---
+Table 15. APAS Independence with TFS/S MRSA analysis module – Microbiologist 3 Digital
+Image vs Manual Plate Interpretation
+Manual Plate
+TFS/S analysis module
+Presumptive Presumptive
+Microbiologist 3 No Growth Total
+Non-MRSA Growth MRSA Growth
+K200839 - Page 17 of 30
+egamI
+latigiD
+No Growth 180 12 3 195
+Presumptive
+10 92 1 103
+Non-MRSA Growth
+Presumptive
+1 2 99 102
+MRSA Growth
+Total 191 106 103 400
+No Growth Agreement: 94.2% (180/191)
+Presumptive Non-MRSA Agreement: 86.8% (92/106)
+Presumptive MRSA Agreement: 96.1% (99/103)
+b) Reproducibility of the APAS-generated digital image interpretation
+The data obtained from the digital image quality study was further analyzed to evaluate
+the ability of an APAS-generated digital image to be reproducibly interpreted by a panel
+of microbiologists. Here, each microbiologist’s interpretation of a digital image was
+compared to the final panel interpretation of the digital image (i.e., majority result). The
+study determined that a digital image generated with both the BD and TFS/S analysis
+modules can be reproducibly interpreted by a microbiologist. This was achieved >95% of
+the time for each of the three result designations (summarized in Table 16), which is
+acceptable.
+Table 16. Digital Image Reproducibility Summary
+Percent Agreement1
+No. of
+Presumptive Presumptive
+Results No Growth
+Non-MRSA Growth MRSA Growth
+Microbiologist 1 400 98.9% (260/263) 97.6% (80/82) 100% (55/55)
+BD
+Microbiologist 2 400 100% (263/263) 97.6% (80/82) 100% (55/55)
+analysis
+Microbiologist 3 400 95.4% (251/263) 100% (82/82) 100% (55/55)
+module
+Combined 1200 98.1% (774/789) 98.4% (242/246) 100% (165/165)
+Microbiologist 1 400 98.0% (192/196) 95.1% (98/103) 98.0% (99/101)
+TFS/S
+Microbiologist 2 400 100% (196/196) 93.2% (96/103) 97.0% (98/101)
+analysis
+Microbiologist 3 400 99.0% (194/196) 97.1% (100/103) 98.0% (99/101)
+module
+Combined 1200 99.0% (582/588) 95.1% (294/309) 97.7% (296/303)
+1Percent agreement determined by dividing number of individual microbiologist digital read results by the number of panel
+digital image microbiologist results for each designation (i.e., “no growth”, “presumptive non-MRSA growth”, “presumptive
+MRSA growth”).
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+
+[Table 1 on page 17]
+TFS/S analysis module
+Microbiologist 3							Manual Plate									
+						No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA Growth			MRSA Growth			
+	egamI
+latigiD			No Growth			180		12			3			195	
+				Presumptive		10			92			1			103	
+				Non-MRSA Growth												
+				Presumptive		1			2			99			102	
+				MRSA Growth												
+				Total		191			106			103			400	
+			No Growth Agreement: 94.2% (180/191)
+Presumptive Non-MRSA Agreement: 86.8% (92/106)
+Presumptive MRSA Agreement: 96.1% (99/103)													
+
+[Table 2 on page 17]
+				No. of
+Results				Percent Agreement1							
+							No Growth				Presumptive			Presumptive	
+											Non-MRSA Growth			MRSA Growth	
+BD
+analysis
+module		Microbiologist 1		400			98.9% (260/263)			97.6% (80/82)			100% (55/55)		
+		Microbiologist 2		400			100% (263/263)			97.6% (80/82)			100% (55/55)		
+		Microbiologist 3		400			95.4% (251/263)			100% (82/82)			100% (55/55)		
+		Combined			1200			98.1% (774/789)			98.4% (242/246)			100% (165/165)	
+TFS/S
+analysis
+module		Microbiologist 1		400			98.0% (192/196)			95.1% (98/103)			98.0% (99/101)		
+		Microbiologist 2		400			100% (196/196)			93.2% (96/103)			97.0% (98/101)		
+		Microbiologist 3		400			99.0% (194/196)			97.1% (100/103)			98.0% (99/101)		
+		Combined			1200			99.0% (582/588)			95.1% (294/309)			97.7% (296/303)	
+
+[Table 3 on page 17]
+No. of
+Results
+
+[Table 4 on page 17]
+BD
+analysis
+module
+
+[Table 5 on page 17]
+TFS/S
+analysis
+module
+
+--- Page 18 ---
+Microbial Interference
+A study was conducted to assess the ability of APAS Independence with MRSA Analysis
+Modules to accurately detect MRSA in the presence of non-MRSA growth within the
+recommended incubation time for each respective plate (i.e., 20 – 26 hours for BD and 24
+hours for TFS/S chromogenic agar plates).
+Two MRSA (MRSA3 and MRSA5) isolates and two non-MRSA (Staphylococcus
+haemolyticus, SH6 and Staphylococcus warneri, STSP4) organisms were prepared as pure
+and mixed cultures and diluted accordingly to produce culture plates with mainly confluent
+growth (>100 colonies per plate) or light growth (1 – 100 colonies per plate) in five
+replicates. After 24 hours of incubation, a panel of three microbiologists evaluated the
+presence or absence of growth and color indicative of MRSA. The majority panel result (i.e.,
+final panel interpretation) was compared to the APAS result to determine agreement for
+growth and color.
+The data provided in Table 17 and Table 18 supports interpretation of the BD and TFS/S
+chromogenic agar plates after 24 hours of incubation.
+Table 17. Microbial Interference - APAS Independence with the BD MRSA Analysis Module
+Organism(s) Plated Expected Growth Percent Agreement1
+(Organism Code2) MRSA Other Growth Color
+MRSA (MRSA3) light - 100.0% (5/5) 100.0% (5/5)
+MRSA (MRSA3) confluent - 100.0% (5/5) 100.0% (5/5)
+MRSA (MRSA5) light - 100.0% (3/3) 100.0% (3/3)
+MRSA (MRSA5) confluent - 100.0% (7/7) 100.0% (7/7)
+S. haemolyticus (SH6) - light 100.0% (5/5) 100.0% (5/5)
+S. haemolyticus (SH6) - confluent 100.0% (5/5) 60.0% (3/5)
+S. warneri (STSP4) - light 100.0% (5/5) 100.0% (5/5)
+S. warneri (STSP4) - confluent 100.0% (5/5) 80.0% (4/5)
+MRSA (MRSA3) and S. haemolyticus confluent confluent
+100.0% (5/5) 100.0% (5/5)
+(1:1)
+MRSA (MRSA5) and S. warneri confluent confluent
+100.0% (5/5) 100.0% (5/5)
+(1:1)
+MRSA (MRSA3) and S. haemolyticus confluent
+light 100.0% (5/5) 100.0% (5/5)
+(1:100)
+MRSA (MRSA5) and S. warneri confluent
+light 100.0% (5/5) 100.0% (5/5)
+(1:100)
+1 Agreement between majority panel microbiologist result (i.e., final panel interpretation) and APAS result.
+2 Organism code, as noted in Table 4.
+Table 18. Microbial Interference - APAS Independence with the TFS/S MRSA Analysis Module
+Organism(s) Plated Expected CFU Percent Agreement1
+(Organism Code2) MRSA Other Growth Color
+MRSA (MRSA3) light - 100.0% (4/4) 100.0% (4/4)
+MRSA (MRSA3) confluent - 100.0% (6/6) 100.0% (6/6)
+MRSA (MRSA5) light - 100.0% (2/2) 100.0% (2/2)
+K200839 - Page 18 of 30
+
+[Table 1 on page 18]
+Organism(s) Plated	Expected Growth		Percent Agreement1	
+(Organism Code2)	MRSA	Other	Growth	Color
+MRSA (MRSA3)	light	-	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA3)	confluent	-	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA5)	light	-	100.0% (3/3)	100.0% (3/3)
+MRSA (MRSA5)	confluent	-	100.0% (7/7)	100.0% (7/7)
+S. haemolyticus (SH6)	-	light	100.0% (5/5)	100.0% (5/5)
+S. haemolyticus (SH6)	-	confluent	100.0% (5/5)	60.0% (3/5)
+S. warneri (STSP4)	-	light	100.0% (5/5)	100.0% (5/5)
+S. warneri (STSP4)	-	confluent	100.0% (5/5)	80.0% (4/5)
+MRSA (MRSA3) and S. haemolyticus
+(1:1)	confluent	confluent	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA5) and S. warneri
+(1:1)	confluent	confluent	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA3) and S. haemolyticus
+(1:100)	light	confluent	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA5) and S. warneri
+(1:100)	light	confluent	100.0% (5/5)	100.0% (5/5)
+
+[Table 2 on page 18]
+Organism(s) Plated	Expected CFU		Percent Agreement1	
+(Organism Code2)	MRSA	Other	Growth	Color
+MRSA (MRSA3)	light	-	100.0% (4/4)	100.0% (4/4)
+MRSA (MRSA3)	confluent	-	100.0% (6/6)	100.0% (6/6)
+MRSA (MRSA5)	light	-	100.0% (2/2)	100.0% (2/2)
+
+--- Page 19 ---
+Organism(s) Plated Expected CFU Percent Agreement1
+(Organism Code2) MRSA Other Growth Color
+MRSA (MRSA5) confluent - 100.0% (8/8) 100.0% (8/8)
+S. haemolyticus (SH6) - light 100.0% (5/5) 100.0% (5/5)
+S. haemolyticus (SH6) - confluent 100.0% (5/5) 80.0% (4/5)
+S. warneri (STSP4) - light 100.0% (5/5) 100.0% (5/5)
+S. warneri (STSP4) - confluent 100.0% (5/5) 100.0% (5/5)
+MRSA (MRSA3) and S. haemolyticus
+confluent confluent 100.0% (5/5) 100.0% (5/5)
+(1:1)
+MRSA (MRSA5) and S. warneri
+confluent confluent 100.0% (5/5) 100.0% (5/5)
+(1:1)
+MRSA (MRSA3) and S. haemolyticus
+light confluent 100.0% (5/5) 100.0% (5/5)
+(1:100)
+MRSA (MRSA5) and S. warneri
+light confluent 100.0% (5/5) 100.0% (5/5)
+(1:100)
+1 Agreement between majority panel microbiologist result (i.e., final panel interpretation) and APAS result.
+2 Organism code, as noted in Table 4.
+Analytical Specificity / Limit of Blank
+A study was conducted to evaluate the potential influence of various external factors on
+image quality and the ability of the APAS Independence with MRSA Analysis Modules to
+provide correct results in the presence of known factors. Chromogenic agar plates (BD or
+TFS/S) were prepared to concurrently simulate a combination of four interference
+mechanisms (label, applicator, transport media and pen marking). Three blank applicators
+(flocked swab, cotton swab and 10 µL loop) were used to inoculate chromogenic agar plates
+using three different transport media (Stuart Transport, Amies Transport and saline) and no
+transport media (dry). One of four different labels were applied to plates that were either
+marked with felt-tip pen or not (3 applicators x 4 transport media x 4 labels x 2 marks = 96
+plates per chromogenic agar). Although each interference mechanism was evaluated
+concurrently (i.e., four variables evaluated on each plate), performance is stratified by each
+interference variable in Table 19.
+Table 19. Analytical Specificity (Limit of Blank) Summary
+Total number BD Agreement TFS/S Agreement
+Interference Interference
+of images
+Mechanism Variable Expected Expected Expected Expected
+evaluated
+Growth (%)1 Color (%)2 Growth (%)1 Color (%)2
+Paper 1D
+24 20/24 (83.3) 24/24 (100) 58.3 (14/24) 100.0 (24/24)
+barcode on base
+Paper 2D
+24 19/24 (79.2) 23/24 (95.8) 66.7 (16/24) 100.0 (24/24)
+barcode on base
+Label Type
+Plastic 2D
+24 18/24 (75.0) 24/24 (100) 54.2 (13/24) 100.0 (24/24)
+barcode on base
+Paper 1D
+24 17/24 (70.8) 24/24 (100) 58.3 (14/24) 91.7 (22/24)
+barcode on side
+Cotton Swab 32 21/32 (65.6) 31/32 (96.9) 62.5 (20/32) 100.0 (32/32)
+K200839 - Page 19 of 30
+
+[Table 1 on page 19]
+Organism(s) Plated	Expected CFU		Percent Agreement1	
+(Organism Code2)	MRSA	Other	Growth	Color
+MRSA (MRSA5)	confluent	-	100.0% (8/8)	100.0% (8/8)
+S. haemolyticus (SH6)	-	light	100.0% (5/5)	100.0% (5/5)
+S. haemolyticus (SH6)	-	confluent	100.0% (5/5)	80.0% (4/5)
+S. warneri (STSP4)	-	light	100.0% (5/5)	100.0% (5/5)
+S. warneri (STSP4)	-	confluent	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA3) and S. haemolyticus
+(1:1)	confluent	confluent	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA5) and S. warneri
+(1:1)	confluent	confluent	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA3) and S. haemolyticus
+(1:100)	light	confluent	100.0% (5/5)	100.0% (5/5)
+MRSA (MRSA5) and S. warneri
+(1:100)	light	confluent	100.0% (5/5)	100.0% (5/5)
+
+[Table 2 on page 19]
+Interference
+Mechanism	Interference
+Variable	Total number
+of images
+evaluated	BD Agreement					TFS/S Agreement					
+				Expected			Expected
+Color (%)2		Expected			Expected	
+				Growth (%)1					Growth (%)1			Color (%)2	
+Label Type	Paper 1D
+barcode on base	24	20/24 (83.3)			24/24 (100)		58.3 (14/24)			100.0 (24/24)		
+	Paper 2D
+barcode on base	24	19/24 (79.2)			23/24 (95.8)		66.7 (16/24)			100.0 (24/24)		
+	Plastic 2D
+barcode on base	24	18/24 (75.0)			24/24 (100)		54.2 (13/24)			100.0 (24/24)		
+	Paper 1D
+barcode on side	24	17/24 (70.8)			24/24 (100)		58.3 (14/24)			91.7 (22/24)		
+	Cotton Swab	32	21/32 (65.6)			31/32 (96.9)		62.5 (20/32)			100.0 (32/32)		
+
+[Table 3 on page 19]
+Total number
+of images
+evaluated
+
+[Table 4 on page 19]
+Interference
+Mechanism
+
+[Table 5 on page 19]
+Interference
+Variable
+
+--- Page 20 ---
+Total number BD Agreement TFS/S Agreement
+Interference Interference
+of images
+Mechanism Variable Expected Expected Expected Expected
+evaluated
+Growth (%)1 Color (%)2 Growth (%)1 Color (%)2
+Flocked Swab 32 27/32 (84.3) 32/32 (100) 50.0 (16/32) 93.8 (30/32)
+Applicator
+Type
+Loop 32 26/32 (81.2) 32/32 (100) 65.6 (21/32) 100.0 (32/32)
+Amies Transport 24 22/24 (91.7) 24/24 (100) 62.5 (15/24) 95.8 (23/24)
+Stuart Transport 24 13/24 (54.2) 23/24 (95.8) 12.5 (3/24) 95.8 (23/24)
+Transport
+Media Type
+Saline 24 21/24 (87.5) 24/24 (100) 91.7 (22/24) 100.0 (24/24)
+Dry 24 18/24 (75.0) 24/24 (100) 70.8 (17/24) 100.0 (24/24)
+No Pen 48 36/48 (75.0) 47/48 (97.9) 62.5 (30/48) 97.9 (47/48)
+Pen Markings
+With Pen 48 38/48 (79.2) 48/48 (100) 56.2 (27/48) 97.9 (47/48)
+1 Value calculated by dividing the number of images with the expected growth (i.e., no growth detected) by the total number of images.
+2 Value calculated by dividing the number of images with the expected color (i.e., no color detected) by the total number of images.
+In general, the interference variables did interfere with the ability of the APAS Independence
+with MRSA Analysis Modules to provide accurate “no growth” result, which may produce
+false positives growth. However, since BD plates with “presumptive MRSA growth” and
+TFS/S plates with “presumptive MRSA growth” and “presumptive non-MRSA growth” are
+reviewed by microbiologists before confirmatory testing, the risk for an erroneous result
+being reported for patient management is mitigated by the review. In addition, plates with
+“no growth” or “presumptive non-MRSA growth” do not pose a risk for patient management
+and are therefore discarded.
+Analytical Specificity / Interference
+The ability in which the APAS Independence with MRSA Analysis Modules can accurately
+detect presumptive MRSA and presumptive non-MRSA colonies in the presence of known
+interferences was evaluated. Three applicators (flocked swab, cotton swab and 10 µL loop)
+were used to inoculate chromogenic agar plates using two different media (Stuart Transport
+and Amies Transport). Plates were labelled with one of four different labels applied to the
+base or side of the plate that were either marked with felt-tip pen or not (3 applicators x 2
+media x 4 labels x 2 marks = 48 plates per organism, per chromogenic agar). One MRSA
+(MRSA3) and one non-MRSA (S. haemolyticus, SH6) isolate were prepared to a 0.5
+McFarland suspension and diluted accordingly to produce predominantly isolated colonies or
+heavy growth, respectively, when cultured. Plates were incubated at 36°C ±1°C for 24 hours
+then imaged. Performance is summarized in Table 20.
+Table 20. Analytical Specificity (Interference) Summary
+BD Agreement TFS/S Agreement
+Number
+Organism Interference Interference
+of images
+(Code1) Mechanism Variable Growth Color Growth Color
+evaluated detected (%)2 detected (%)3 detected (%)2 detected (%)3
+Paper 1D
+12 12/12 (100) 12/12 (100) 12/12 (100) 12/12 (100)
+barcode on base
+MRSA
+Label Type
+(MRSA3)
+Paper 2D
+12 12/12 (100) 12/12 (100) 12/12 (100) 12/12 (100)
+barcode on base
+K200839 - Page 20 of 30
+
+[Table 1 on page 20]
+Interference
+Mechanism	Interference
+Variable	Total number
+of images
+evaluated	BD Agreement						TFS/S Agreement					
+				Expected			Expected			Expected			Expected	
+				Growth (%)1			Color (%)2			Growth (%)1			Color (%)2	
+Applicator
+Type	Flocked Swab	32	27/32 (84.3)			32/32 (100)			50.0 (16/32)			93.8 (30/32)		
+	Loop	32	26/32 (81.2)			32/32 (100)			65.6 (21/32)			100.0 (32/32)		
+Transport
+Media Type	Amies Transport	24	22/24 (91.7)			24/24 (100)			62.5 (15/24)			95.8 (23/24)		
+	Stuart Transport	24	13/24 (54.2)			23/24 (95.8)			12.5 (3/24)			95.8 (23/24)		
+	Saline	24	21/24 (87.5)			24/24 (100)			91.7 (22/24)			100.0 (24/24)		
+	Dry	24	18/24 (75.0)			24/24 (100)			70.8 (17/24)			100.0 (24/24)		
+Pen Markings	No Pen	48	36/48 (75.0)			47/48 (97.9)			62.5 (30/48)			97.9 (47/48)		
+	With Pen	48	38/48 (79.2)			48/48 (100)			56.2 (27/48)			97.9 (47/48)		
+
+[Table 2 on page 20]
+Total number
+of images
+evaluated
+
+[Table 3 on page 20]
+Interference
+Mechanism
+
+[Table 4 on page 20]
+Interference
+Variable
+
+[Table 5 on page 20]
+Organism
+(Code1)	Interference
+Mechanism	Interference
+Variable	Number
+of images
+evaluated		BD Agreement						TFS/S Agreement				
+					Growth			Color			Growth			Color	
+					detected (%)2			detected (%)3			detected (%)2			detected (%)3	
+MRSA
+(MRSA3)	Label Type	Paper 1D
+barcode on base	12	12/12 (100)			12/12 (100)			12/12 (100)			12/12 (100)		
+		Paper 2D
+barcode on base	12	12/12 (100)			12/12 (100)			12/12 (100)			12/12 (100)		
+
+[Table 6 on page 20]
+Number
+of images
+evaluated
+
+[Table 7 on page 20]
+Organism
+(Code1)
+
+[Table 8 on page 20]
+Interference
+Mechanism
+
+[Table 9 on page 20]
+Interference
+Variable
+
+--- Page 21 ---
+BD Agreement TFS/S Agreement
+Number
+Organism Interference Interference
+of images
+(Code1) Mechanism Variable Growth Color Growth Color
+evaluated detected (%)2 detected (%)3 detected (%)2 detected (%)3
+Plastic 2D
+12 12/12 (100) 12/12 (100) 12/12 (100) 12/12 (100)
+barcode on base
+Paper 1D
+12 12/12 (100) 12/12 (100) 12/12 (100) 12/12 (100)
+barcode on side
+Cotton Swab 16 16/16 (100) 16/16 (100) 16/16 (100) 16/16 (100)
+Applicator
+Flocked Swab 16 16/16 (100) 16/16 (100) 16/16 (100) 16/16 (100)
+Type
+Loop 16 16/16 (100) 16/16 (100) 16/16 (100) 16/16 (100)
+Amies 24/24 (100) 24/24 (100)
+24 24/24 (100) 24/24 (100)
+Transport
+Media Type
+Stuart 24/24 (100) 24/24 (100)
+24 24/24 (100) 24/24 (100)
+Transport
+No Pen 24 24/24 (100) 24/24 (100) 24/24 (100) 24/24 (100)
+Pen Markings
+With Pen 24 24/24 (100) 24/24 (100) 24/24 (100) 24/24 (100)
+Paper 1D
+12 12/12 (100) 5/12 (41.7) 12/12 (100) 12/12 (100)
+barcode on base
+Paper 2D
+12 12/12 (100) 2/12 (16.7) 12/12 (100) 12/12 (100)
+barcode on base
+Label Type
+Plastic 2D
+12 12/12 (100) 6/12 (50.0) 12/12 (100) 12/12 (100)
+barcode on base
+Paper 1D
+12 12/12 (100) 12/12 (100) 12/12 (100) 11/12 (91.7)
+barcode on side
+S. haemolyticus Cotton Swab 16 16/16 (100) 7/16 (43.8) 16/16 (100) 15/16 (93.8)
+(SH6) Applicator
+Flocked Swab 16 16/16 (100) 8/16 (50.0) 16/16 (100) 16/16 (100)
+Type
+Loop 16 16/16 (100) 10/16 (62.5) 16/16 (100) 16/16 (100)
+Amies
+24 24/24 (100) 12/24 (50.0) 24/24 (100) 24/24 (100)
+Transport
+Media Type
+Stuart
+24 24/24 (100) 13/24 (54.2%) 24/24 (100) 23/24 (95.8)
+Transport
+No Pen 24 24/24 (100) 13/24 (54.2%) 24/24 (100) 23/24 (95.8)
+Pen Markings
+With Pen 24 24/24 (100) 12/24 (50.0) 24/24 (100) 24/24 (100)
+1 Organism code, as noted in Table 4.
+2 Value calculated by dividing the number of images with the expected growth (i.e., growth detected or no growth detected) by the total
+number of images.
+3 Value calculated by dividing the number of images with the expected color (i.e., no color detected) by the total number of images.
+In general, the interference variables tested had no impact on the ability of the BD and TFS/S
+MRSA Analysis Modules to detect presumptive MRSA growth (100% detection). False
+positive results were obtained with the S. haemolyticus samples; however, the risk of false
+positive results is mitigated since all plates with “presumptive MRSA growth” are reviewed
+by a microbiologist prior to confirmatory testing.
+K200839 - Page 21 of 30
+
+[Table 1 on page 21]
+Organism
+(Code1)	Interference
+Mechanism	Interference
+Variable	Number
+of images
+evaluated		BD Agreement						TFS/S Agreement				
+					Growth			Color			Growth			Color	
+					detected (%)2			detected (%)3			detected (%)2			detected (%)3	
+		Plastic 2D
+barcode on base	12	12/12 (100)			12/12 (100)			12/12 (100)			12/12 (100)		
+		Paper 1D
+barcode on side	12	12/12 (100)			12/12 (100)			12/12 (100)			12/12 (100)		
+	Applicator
+Type	Cotton Swab	16	16/16 (100)			16/16 (100)			16/16 (100)			16/16 (100)		
+		Flocked Swab	16	16/16 (100)			16/16 (100)			16/16 (100)			16/16 (100)		
+		Loop	16	16/16 (100)			16/16 (100)			16/16 (100)			16/16 (100)		
+	Media Type	Amies
+Transport	24	24/24 (100)			24/24 (100)			24/24 (100)			24/24 (100)		
+		Stuart
+Transport	24	24/24 (100)			24/24 (100)			24/24 (100)			24/24 (100)		
+	Pen Markings	No Pen	24	24/24 (100)			24/24 (100)			24/24 (100)			24/24 (100)		
+		With Pen	24	24/24 (100)			24/24 (100)			24/24 (100)			24/24 (100)		
+S. haemolyticus
+(SH6)	Label Type	Paper 1D
+barcode on base	12	12/12 (100)			5/12 (41.7)			12/12 (100)			12/12 (100)		
+		Paper 2D
+barcode on base	12	12/12 (100)			2/12 (16.7)			12/12 (100)			12/12 (100)		
+		Plastic 2D
+barcode on base	12	12/12 (100)			6/12 (50.0)			12/12 (100)			12/12 (100)		
+		Paper 1D
+barcode on side	12	12/12 (100)			12/12 (100)			12/12 (100)			11/12 (91.7)		
+	Applicator
+Type	Cotton Swab	16	16/16 (100)			7/16 (43.8)			16/16 (100)			15/16 (93.8)		
+		Flocked Swab	16	16/16 (100)			8/16 (50.0)			16/16 (100)			16/16 (100)		
+		Loop	16	16/16 (100)			10/16 (62.5)			16/16 (100)			16/16 (100)		
+	Media Type	Amies
+Transport	24	24/24 (100)			12/24 (50.0)			24/24 (100)			24/24 (100)		
+		Stuart
+Transport	24	24/24 (100)			13/24 (54.2%)			24/24 (100)			23/24 (95.8)		
+	Pen Markings	No Pen	24	24/24 (100)			13/24 (54.2%)			24/24 (100)			23/24 (95.8)		
+		With Pen	24	24/24 (100)			12/24 (50.0)			24/24 (100)			24/24 (100)		
+
+[Table 2 on page 21]
+Number
+of images
+evaluated
+
+[Table 3 on page 21]
+Organism
+(Code1)
+
+[Table 4 on page 21]
+Interference
+Mechanism
+
+[Table 5 on page 21]
+Interference
+Variable
+
+--- Page 22 ---
+4. Assay Reportable Range:
+Not applicable
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+The device labeling indicates that the APAS Independence with MRSA Analysis Module
+requires daily color calibration and a System Check using dedicated tools provided with the
+instrument. In addition, daily biological Quality Control testing must be performed using
+reference culture plates inoculated with a MRSA positive strain (e.g., Staphylococcus aureus
+ATCC 43300). In order to pass, results from the culture media must meet the expected
+designation (i.e., “presumptive MRSA growth”). There were 22 QC plates tested during the
+clinical study and 8 QC plates tested during the analytical studies. All QC results passed each
+day of testing with both the BD and TFS/S MRSA analysis modules.
+6. Detection Limit:
+Limit of Detection
+A study was conducted to determine the smallest colony size that can be detected by the
+APAS Independence with MRSA Analysis Modules. The effect of colony size on the ability
+of APAS Independence with MRSA Analysis Modules to detect presumptive MRSA
+colonies was evaluated. Two strains of MRSA (MRSA3 and MRSA9) used to evaluate
+presumptive MRSA growth were prepared as 0.5 McFarland suspensions in saline, diluted
+and plated in six replicates to grow < 100 colonies per plate. Plates were incubated at 36°C
+±1°C until pinpoint colonies were observed. Then, plates were imaged and returned to the
+incubator at 1-hour intervals until the colonies on the plates were approximately 2 mm in
+diameter (up to 24 hours).
+Table 21 summarizes the percent of colonies detected by APAS by colony size (pixels and
+extrapolated mm). The smallest colony size (SCZ) that was detected as presumptive MRSA
+>95% was determined to be the LoD. The SCZ detected by the BD analysis module was
+0.815 mm for MRSA3 and 0.906 mm for MRSA9. The SCZ detected by the TFS/S analysis
+module was 0.634 mm for MRSA3 and 0.543 mm for MRSA 9.
+Table 21. Limit of Detection (Smallest Colony Size Detected)
+APAS-Detected MRSA Colonies / Total Number of Colonies (% of total)
+Colony Size (diameter) BD TFS/S
+Extrapolated
+Pixels MRSA31 MRSA91 MRSA31 MRSA91
+mm
+1 – 3 0.091 – 0.272 0/399 (0%) 1/264 (0.4%) 0/285 (0%) 3/163 (1.8%)
+4 – 5 0.362 – 0.453 4/258 (1.6%) 3/175 (1.7%) 12/159 (7.5%) 98/228 (43.0%)
+6 0.543 7/135 (5.2%) 9/93 (9.7%) 63/89 (70.8%) 129/132 (97.7%)
+7 0.634 21/113 (18.6%) 18/79 (22.8%) 145/148 (98.0%) 100/100 (100%)
+8 0.725 66/91 (72.5%) 36/84 (42.9%) 197/198 (99.5%) 71/71 (100%)
+9 0.815 117/123 (95.1%) 50/74 (67.6%) 167/167 (100%) 43/43 (100%)
+10 0.906 147/150 (98.0%) 84/86 (97.7%) - -
+11 0.996 130/130 (100%) 95/96 (99.0%) - -
+12 1.087 156/156 (100% 90/90 (100%) - -
+1 Organism code, as noted in Table 4.
+K200839 - Page 22 of 30
+
+[Table 1 on page 22]
+						APAS-Detected MRSA Colonies / Total Number of Colonies (% of total)						
+	Colony Size (diameter)					BD				TFS/S		
+Pixels			Extrapolated		MRSA31		MRSA91		MRSA31		MRSA91	
+			mm									
+1 – 3		0.091 – 0.272			0/399 (0%)		1/264 (0.4%)		0/285 (0%)		3/163 (1.8%)	
+4 – 5		0.362 – 0.453			4/258 (1.6%)		3/175 (1.7%)		12/159 (7.5%)		98/228 (43.0%)	
+6		0.543			7/135 (5.2%)		9/93 (9.7%)		63/89 (70.8%)		129/132 (97.7%)	
+7		0.634			21/113 (18.6%)		18/79 (22.8%)		145/148 (98.0%)		100/100 (100%)	
+8		0.725			66/91 (72.5%)		36/84 (42.9%)		197/198 (99.5%)		71/71 (100%)	
+9		0.815			117/123 (95.1%)		50/74 (67.6%)		167/167 (100%)		43/43 (100%)	
+10		0.906			147/150 (98.0%)		84/86 (97.7%)		-		-	
+11		0.996			130/130 (100%)		95/96 (99.0%)		-		-	
+12		1.087			156/156 (100%		90/90 (100%)		-		-	
+
+--- Page 23 ---
+7. Assay Cut-Off:
+Not applicable
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Not applicable
+2. Matrix Comparison:
+Not applicable
+C Clinical Studies:
+1. Clinical Sensitivity:
+The clinical performance of the APAS Independence with MRSA Analysis Modules was
+evaluated in a two-part study. The overall data from both parts were used collectively in the
+evaluation of performance.
+For part 1 of the clinical study, the goal was to evaluate performance of the APAS
+Independence with MRSA Analysis Modules by inoculating prospective and contrived
+clinical samples onto chromogenic agar media and comparing APAS-generated results to a
+panel (i.e., majority) result. This part of the study was performed at a single clinical site
+(outside United States, oUS) using remnant swab specimens that were leftover from routine,
+standard of care testing from various healthcare facilities. Each swab specimen was subjected
+to PCR testing for the detection of MRSA. Positive PCR samples were sent to a confirmatory
+lab for culture. Both positive and negative PCR samples were inoculated onto chromogenic
+agar and shipped to a central laboratory for incubation and imaging. A portion of PCR-
+negative samples were also used to generate contrived-negative and contrived-positive
+samples to supplement the study. The on-screen (digital) images were interpreted by a panel
+of three oUS microbiologists. The majority result was considered the truth state (i.e., final
+panel interpretation) and used as a comparison to the APAS-generated result.
+For part 2 of the clinical study, the goal was to assess the ability of a panel of three US
+microbiologists to interpret the same set of randomized digital images already acquired and
+reported in part 1. The microbiologists were blinded to the other interpretations and plate
+source (clinical or contrived). The majority result was compared to the historical APAS result
+obtained in the first part of the study.
+The following 1590 samples were enrolled in the clinical study:
+• 1100 PCR-negative clinical samples
+• 25 PCR-positive clinical samples
+• 60 PCR-negative, contrived-negative samples
+• 405 PCR-negative, contrived-positive samples
+K200839 - Page 23 of 30
+
+--- Page 24 ---
+Thirteen samples were excluded from the BD analysis due to defects in the agar resulting in a
+total of 1573 BD plates analyzed. Ten samples were excluded from the TFS/S analysis due to
+defects in the agar, resulting in a total of 1580 TFS/S plates analyzed.
+Contrived samples were used due to the low incidence of MRSA in the population. This was
+acceptable since the APAS Independence with MRSA Analysis Modules only images and
+interprets microbial colonies (i.e., it is not a selective and differential medium). Leftover
+PCR-negative swab specimens were spiked (1 – 10,000 CFU/plate) with MRSA organisms
+known to produce a positive reaction on the agar (“presumptive MRSA growth”) or
+organisms known to grow on the agar but not produce a positive reaction (“presumptive non-
+MRSA growth”). Some organisms included in the contrived samples are representative of the
+most common strains from the US, Europe, United King and Australia (Table 22). The other
+contrived samples were spiked with well-characterized stock clinical isolates obtained by
+LBT Innovations and identification confirmed using MALDI-TOF with methicillin
+susceptibility/resistance confirmed using well-accepted methods (i.e., oxacillin MIC assay
+using an FDA-cleared device or cefoxitin disk diffusion assay).
+Table 22. Global MRSA strains used in simulated samples
+MRSA Strain (Organism Number) Type Other Name & Information
+IRISH 2/ IBERIAN ST 247.
+NCTC 13395 (MRSA30) HA
+It is CC8 but different from USA 300.
+NCTC 13277 (MRSA29) HA MRSA-252
+PVL-negative CA-MRSA strain
+belonging to clonal complex 59, a clone
+NCTC 13656 (MRSA34) CA
+that
+originated in East Asia.
+PVL-positive CA-MRSA strain
+belonging to clonal complex 80,
+NCTC 13435 (MRSA31) CA
+commonly known as European clone of
+CA MRSA
+EMRSA 15, widely distributed in
+NCTC 13616 (MRSA32) HA Europe, this HA strain has now been
+found in the USA
+ATCC 1707 (MRSA26) CA USA 400, ST1-IV
+USA 300, ST8-IV, causes most
+community-associated MRSA infections
+ATCC 1717 (MRSA27) CA/HA
+and is an increasingly common cause of
+health care–associated MRSA infections
+ATCC 1761 (MRSA28) HA USA100 MRSA
+HA: Hospital-associated MRSA strain
+CA: Community-associated MRSA strain
+K200839 - Page 24 of 30
+
+[Table 1 on page 24]
+	MRSA Strain (Organism Number)			Type			Other Name & Information	
+NCTC 13395 (MRSA30)			HA			IRISH 2/ IBERIAN ST 247.
+It is CC8 but different from USA 300.		
+NCTC 13277 (MRSA29)			HA			MRSA-252		
+NCTC 13656 (MRSA34)			CA			PVL-negative CA-MRSA strain
+belonging to clonal complex 59, a clone
+that
+originated in East Asia.		
+NCTC 13435 (MRSA31)			CA			PVL-positive CA-MRSA strain
+belonging to clonal complex 80,
+commonly known as European clone of
+CA MRSA		
+NCTC 13616 (MRSA32)			HA			EMRSA 15, widely distributed in
+Europe, this HA strain has now been
+found in the USA		
+ATCC 1707 (MRSA26)			CA			USA 400, ST1-IV		
+ATCC 1717 (MRSA27)			CA/HA			USA 300, ST8-IV, causes most
+community-associated MRSA infections
+and is an increasingly common cause of
+health care–associated MRSA infections		
+ATCC 1761 (MRSA28)			HA			USA100 MRSA		
+
+--- Page 25 ---
+Part 1 Clinical Study
+Performance of the APAS Independence with MRSA Analysis Modules for the first part of the clinical study (i.e., oUS site) is shown in Table 23
+(clinical samples), Table 24 (contrived samples), and Table 25 (clinical and contrived samples combined). The overall agreement of the BD MRSA
+analysis module (when evaluating combined samples) is 82.6% for “no growth” detection, 84.6% for “presumptive non-MRSA growth”, and 100%
+for “presumptive MRSA growth”. The overall agreement of the TFS/S MRSA analysis module (when evaluating clinical and contrived samples,
+combined) is 81.8% for “no growth” detection, 83.8% for “presumptive non-MRSA growth”, and 99.2% for “presumptive MRSA growth”.
+Table 23. Clinical Study Part 1 - Clinical Samples
+Panel of oUS Microbiologists
+BD (clinical) TFS/S (clinical)
+Clinical Samples Presumptive Presumptive Presumptive Presumptive
+No Growth Non-MRSA MRSA Total No Growth Non-MRSA MRSA Total
+Growth Growth Growth Growth
+K200839 - Page 25 of 30
+SAPA
+No Growth 730 11 - 741 508 4 1 513
+Presumptive
+148 179 - 327 114 316 3 433
+Non-MRSA Growth
+Presumptive
+3 13 34 50 1 62 113 176
+MRSA Growth
+Total 881 203 34 1118 623 382 117 1122
+No Growth Agreement: 82.9% (730/881) No Growth Agreement: 81.5% (508/623)
+Presumptive Non-MRSA Agreement: 88.2% (179/203) Presumptive Non-MRSA Agreement: 82.7% (316/382)
+Presumptive MRSA Agreement: 100% (34/34) Presumptive MRSA Agreement: 96.6% (113/117)
+Table 24. Clinical Study Part 1 - Contrived Samples
+Panel of oUS Microbiologists
+BD (contrived) TFS/S (contrived)
+Clinical Samples Presumptive Presumptive Presumptive Presumptive
+No Growth Non-MRSA MRSA Total No Growth Non-MRSA MRSA Total
+Growth Growth Growth Growth
+SAPA
+No Growth 24 - - 24 18 1 - 19
+Presumptive
+8 47 - 55 2 67 - 69
+Non-MRSA Growth
+Presumptive
+- 17 359 376 - 7 363 370
+MRSA Growth
+Total 32 64 359 455 20 75 363 458
+No Growth Agreement: 75.0% (24/32) No Growth Agreement: 90.0% (18/20)
+Presumptive Non-MRSA Agreement: 73.4% (47/64) Presumptive Non-MRSA Agreement: 89.3% (67/75)
+Presumptive MRSA Agreement: 100% (359/359) Presumptive MRSA Agreement: 100% (363/363)
+
+[Table 1 on page 25]
+Clinical Samples							Panel of oUS Microbiologists																				
+							BD (clinical)											TFS/S (clinical)									
+						No Growth				Presumptive			Presumptive		Total		No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA			MRSA								Non-MRSA			MRSA			
+										Growth			Growth								Growth			Growth			
+	SAPA			No Growth			730		11			-			741			508		4			1			513	
+				Presumptive		148			179			-			327		114			316			3			433	
+				Non-MRSA Growth																							
+				Presumptive		3			13			34			50		1			62			113			176	
+				MRSA Growth																							
+				Total		881			203			34			1118		623			382			117			1122	
+						No Growth Agreement: 82.9% (730/881)
+Presumptive Non-MRSA Agreement: 88.2% (179/203)
+Presumptive MRSA Agreement: 100% (34/34)											No Growth Agreement: 81.5% (508/623)
+Presumptive Non-MRSA Agreement: 82.7% (316/382)
+Presumptive MRSA Agreement: 96.6% (113/117)										
+
+[Table 2 on page 25]
+Clinical Samples							Panel of oUS Microbiologists																				
+							BD (contrived)											TFS/S (contrived)									
+						No Growth				Presumptive			Presumptive		Total		No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA			MRSA								Non-MRSA			MRSA			
+										Growth			Growth								Growth			Growth			
+	SAPA			No Growth			24		-			-			24			18		1			-			19	
+				Presumptive		8			47			-			55		2			67			-			69	
+				Non-MRSA Growth																							
+				Presumptive		-			17			359			376		-			7			363			370	
+				MRSA Growth																							
+				Total		32			64			359			455		20			75			363			458	
+						No Growth Agreement: 75.0% (24/32)
+Presumptive Non-MRSA Agreement: 73.4% (47/64)
+Presumptive MRSA Agreement: 100% (359/359)											No Growth Agreement: 90.0% (18/20)
+Presumptive Non-MRSA Agreement: 89.3% (67/75)
+Presumptive MRSA Agreement: 100% (363/363)										
+
+--- Page 26 ---
+Table 25. Clinical Study Part 1 - Combined Samples
+Panel of oUS Microbiologists
+BD (combined) TFS/S (combined)
+Combined Samples Presumptive Presumptive Presumptive Presumptive
+No Growth Non-MRSA MRSA Total No Growth Non-MRSA MRSA Total
+Growth Growth Growth Growth
+K200839 - Page 26 of 30
+SAPA
+No Growth 754 11 - 765 526 5 1 532
+Presumptive
+156 226 - 382 116 383 3 502
+Non-MRSA Growth
+Presumptive
+3 30 393 426 1 69 476 546
+MRSA Growth
+Total 913 267 393 1573 643 457 480 1580
+No Growth Agreement: 82.6% (754/913) No Growth Agreement: 81.8% (526/643)
+Presumptive Non-MRSA Agreement: 84.6% (226/267) Presumptive Non-MRSA Agreement: 83.8% (383/457)
+Presumptive MRSA Agreement: 100% (393/393) Presumptive MRSA Agreement: 99.2% (476/480)
+Part 2 Clinical Study
+Performance of the APAS Independence with MRSA Analysis Modules for the second part of the clinical study (i.e., US site) is shown in Table 26
+(clinical samples), Table 27 (contrived samples), and Table 28 (clinical and contrived samples combined). The overall agreement of the BD MRSA
+analysis module (when evaluating combined samples) is 82.7% for “no growth” detection, 84.0% for “presumptive non-MRSA growth”, and 99.7%
+for “presumptive MRSA growth”. The overall agreement of the TFS/S MRSA analysis module (when evaluating clinical and contrived samples,
+combined) is 79.7% for “no growth” detection, 76.4% for “presumptive non-MRSA growth”, and 99.5% for “presumptive MRSA growth”.
+Table 26. Clinical Study Part 2 - Clinical Samples
+Panel of US Microbiologists
+BD (clinical) TFS/S (clinical)
+Clinical Samples Presumptive Presumptive Presumptive Presumptive
+No Growth Non-MRSA MRSA Total No Growth Non-MRSA MRSA Total
+Growth Growth Growth Growth
+SAPA
+No Growth 731 10 - 741 509 3 1 513
+Presumptive
+149 177 1 327 130 302 1 433
+Non-MRSA Growth
+Presumptive
+3 15 32 50 2 102 72 176
+MRSA Growth
+Total 883 202 33 1118 641 407 74 1122
+No Growth Agreement: 82.8% (731/883) No Growth Agreement: 79.4% (509/641)
+Presumptive Non-MRSA Agreement: 87.6% (177/202) Presumptive Non-MRSA Agreement: 74.2% (302/407)
+Presumptive MRSA Agreement: 97.0% (32/33) Presumptive MRSA Agreement: 97.3% (72/74)
+
+[Table 1 on page 26]
+Combined Samples							Panel of oUS Microbiologists																				
+							BD (combined)											TFS/S (combined)									
+						No Growth				Presumptive			Presumptive		Total		No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA			MRSA								Non-MRSA			MRSA			
+										Growth			Growth								Growth			Growth			
+	SAPA			No Growth			754		11			-			765			526		5			1			532	
+				Presumptive		156			226			-			382		116			383			3			502	
+				Non-MRSA Growth																							
+				Presumptive		3			30			393			426		1			69			476			546	
+				MRSA Growth																							
+				Total		913			267			393			1573		643			457			480			1580	
+						No Growth Agreement: 82.6% (754/913)
+Presumptive Non-MRSA Agreement: 84.6% (226/267)
+Presumptive MRSA Agreement: 100% (393/393)											No Growth Agreement: 81.8% (526/643)
+Presumptive Non-MRSA Agreement: 83.8% (383/457)
+Presumptive MRSA Agreement: 99.2% (476/480)										
+
+[Table 2 on page 26]
+Clinical Samples							Panel of US Microbiologists																				
+							BD (clinical)											TFS/S (clinical)									
+						No Growth				Presumptive			Presumptive		Total		No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA			MRSA								Non-MRSA			MRSA			
+										Growth			Growth								Growth			Growth			
+	SAPA			No Growth			731		10			-			741			509		3			1			513	
+				Presumptive		149			177			1			327		130			302			1			433	
+				Non-MRSA Growth																							
+				Presumptive		3			15			32			50		2			102			72			176	
+				MRSA Growth																							
+				Total		883			202			33			1118		641			407			74			1122	
+						No Growth Agreement: 82.8% (731/883)
+Presumptive Non-MRSA Agreement: 87.6% (177/202)
+Presumptive MRSA Agreement: 97.0% (32/33)											No Growth Agreement: 79.4% (509/641)
+Presumptive Non-MRSA Agreement: 74.2% (302/407)
+Presumptive MRSA Agreement: 97.3% (72/74)										
+
+--- Page 27 ---
+Table 27. Clinical Study Part 2 - Contrived Samples
+Panel of US Microbiologists
+BD (contrived) TFS/S (contrived)
+Contrived Samples Presumptive Presumptive Presumptive Presumptive
+No Growth Non-MRSA MRSA Total No Growth Non-MRSA MRSA Total
+Growth Growth Growth Growth
+K200839 - Page 27 of 30
+SAPA
+No Growth 24 - - 24 18 1 - 19
+Presumptive
+6 49 - 55 2 67 - 69
+Non-MRSA Growth
+Presumptive
+- 18 358 376 - 8 362 370
+MRSA Growth
+Total 30 67 358 455 20 76 362 458
+No Growth Agreement: 80.0% (24/30) No Growth Agreement: 90.0% (18/20)
+Presumptive Non-MRSA Agreement: 73.1% (49/67) Presumptive Non-MRSA Agreement: 88.2% (67/76)
+Presumptive MRSA Agreement: 100% (358/358) Presumptive MRSA Agreement: 100% (362/362)
+Table 28. Clinical Study Part 2 - Combined Samples
+Panel of US Microbiologists
+BD (combined) TFS/S (combined)
+Combined Samples Presumptive Presumptive Presumptive Presumptive
+No Growth Non-MRSA MRSA Total No Growth Non-MRSA MRSA Total
+Growth Growth Growth Growth
+SAPA
+No Growth 755 10 - 765 527 4 1 532
+Presumptive
+155 226 1 382 132 369 1 502
+Non-MRSA Growth
+Presumptive
+3 33 390 426 2 110 434 546
+MRSA Growth
+Total 913 269 391 1573 661 483 436 1580
+No Growth Agreement: 82.7% (755/913) No Growth Agreement: 79.7% (527/661)
+Presumptive Non-MRSA Agreement: 84.0% (226/269) Presumptive Non-MRSA Agreement: 76.4% (369/483)
+Presumptive MRSA Agreement: 99.7% (390/391) Presumptive MRSA Agreement: 99.5% (434/436)
+An analysis was conducted to assess concordance of results between part 1 and part 2 of the clinical study. As shown in Table 29, the combined
+data from part 1 (oUS) was used as the comparator for the combined data from part 2 (US). The overall agreement of the BD MRSA analysis
+module is 98.6% for “no growth” detection, 94.8% for “presumptive non-MRSA growth”, and 99.2% for “presumptive MRSA growth”. The
+overall agreement of the TFS/S MRSA analysis module is 99.1% for “no growth” detection, 94.5% for “presumptive non-MRSA growth”, and
+90.6% for “presumptive MRSA growth”.
+
+[Table 1 on page 27]
+Contrived Samples							Panel of US Microbiologists																				
+							BD (contrived)											TFS/S (contrived)									
+						No Growth				Presumptive			Presumptive		Total		No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA			MRSA								Non-MRSA			MRSA			
+										Growth			Growth								Growth			Growth			
+	SAPA			No Growth			24		-			-			24			18		1			-			19	
+				Presumptive		6			49			-			55		2			67			-			69	
+				Non-MRSA Growth																							
+				Presumptive		-			18			358			376		-			8			362			370	
+				MRSA Growth																							
+				Total		30			67			358			455		20			76			362			458	
+						No Growth Agreement: 80.0% (24/30)
+Presumptive Non-MRSA Agreement: 73.1% (49/67)
+Presumptive MRSA Agreement: 100% (358/358)											No Growth Agreement: 90.0% (18/20)
+Presumptive Non-MRSA Agreement: 88.2% (67/76)
+Presumptive MRSA Agreement: 100% (362/362)										
+
+[Table 2 on page 27]
+Combined Samples							Panel of US Microbiologists																				
+							BD (combined)											TFS/S (combined)									
+						No Growth				Presumptive			Presumptive		Total		No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA			MRSA								Non-MRSA			MRSA			
+										Growth			Growth								Growth			Growth			
+	SAPA			No Growth			755		10			-			765			527		4			1			532	
+				Presumptive		155			226			1			382		132			369			1			502	
+				Non-MRSA Growth																							
+				Presumptive		3			33			390			426		2			110			434			546	
+				MRSA Growth																							
+				Total		913			269			391			1573		661			483			436			1580	
+						No Growth Agreement: 82.7% (755/913)
+Presumptive Non-MRSA Agreement: 84.0% (226/269)
+Presumptive MRSA Agreement: 99.7% (390/391)											No Growth Agreement: 79.7% (527/661)
+Presumptive Non-MRSA Agreement: 76.4% (369/483)
+Presumptive MRSA Agreement: 99.5% (434/436)										
+
+--- Page 28 ---
+Table 29. Clinical Study Part 1 (oUS) vs Part 2 (US) - Combined Samples
+oUS Results
+BD (combined) TFS/S (combined)
+Combined Samples Presumptive Presumptive Presumptive Presumptive
+No Growth Non-MRSA MRSA Total No Growth Non-MRSA MRSA Total
+Growth Growth Growth Growth
+K200839 - Page 28 of 30
+stluseR
+SU
+No Growth 900 13 - 913 637 24 - 661
+Presumptive
+13 253 3 269 6 432 45 483
+Non-MRSA Growth
+Presumptive
+- 1 390 391 - 1 435 436
+MRSA Growth
+Total 913 267 393 1573 643 457 480 1580
+No Growth Agreement: 98.6% (900/913) No Growth Agreement: 99.1% (637/643)
+Presumptive Non-MRSA Agreement: 94.8% (253/267) Presumptive Non-MRSA Agreement: 94.5% (432/457)
+Presumptive MRSA Agreement: 99.2% (390/393) Presumptive MRSA Agreement: 90.6% (435/480)
+Overall Performance of the APAS Independence with the MRSA Analysis Modules
+The overall performances for the BD MRSA and TFS/S MRSA analysis modules were evaluated to determine the possible claims that could be
+supported and how performance issues could be mitigated. As a result, considering data and supportive metrics from other studies, it was concluded
+that either a two-designation rule set (i.e., presumptive MRSA growth and negative) or a three-designation rule set (i.e., presumptive MRSA
+growth, presumptive non-MRSA growth, and negative) would be appropriate.
+a) Overall Performance of the APAS Independence with the BD MRSA Analysis Modules
+The overall performance of the BD MRSA analysis modules for detection of presumptive MRSA growth (both in the analytical studies and
+clinical study) is acceptable to support a two-designation rule set (i.e., presumptive MRSA growth and negative). As such, only plates with
+“presumptive MRSA growth” require review by a microbiologist. The acceptability of the two-designation rule set is based on the following
+performance metrics:
+• >95% agreement for “presumptive MRSA growth” in the digital image quality study (Table 9)
+• >98% agreement for “presumptive MRSA growth” in part 1 (Table 25) and part 2 clinical data (Table 28)
+• >95% agreement for “presumptive MRSA growth” when comparing part 1 and part 2 clinical data (Table 29)
+
+[Table 1 on page 28]
+Combined Samples							oUS Results																				
+							BD (combined)											TFS/S (combined)									
+						No Growth				Presumptive			Presumptive		Total		No Growth				Presumptive			Presumptive		Total	
+										Non-MRSA			MRSA								Non-MRSA			MRSA			
+										Growth			Growth								Growth			Growth			
+	stluseR
+SU			No Growth			900		13			-			913			637		24			-			661	
+				Presumptive		13			253			3			269		6			432			45			483	
+				Non-MRSA Growth																							
+				Presumptive		-			1			390			391		-			1			435			436	
+				MRSA Growth																							
+				Total		913			267			393			1573		643			457			480			1580	
+						No Growth Agreement: 98.6% (900/913)
+Presumptive Non-MRSA Agreement: 94.8% (253/267)
+Presumptive MRSA Agreement: 99.2% (390/393)											No Growth Agreement: 99.1% (637/643)
+Presumptive Non-MRSA Agreement: 94.5% (432/457)
+Presumptive MRSA Agreement: 90.6% (435/480)										
+
+--- Page 29 ---
+b) Overall Performance of the APAS Independence with the TFS/S MRSA Analysis Modules
+The overall performance of the TFS/S MRSA analysis modules for detection of
+presumptive MRSA growth (both in the analytical studies and clinical study) is
+acceptable to support a three-designation rule set (i.e., presumptive MRSA growth,
+presumptive non-MRSA growth, and negative). As such, all plates with growth
+(“presumptive MRSA growth” or “presumptive non-MRSA growth) require review by a
+microbiologist. The acceptability of the three-designation rule set is based on the
+following performance metrics:
+• <95% agreement for “presumptive MRSA growth” in the digital image quality
+study (Table 9)
+• >98% agreement for “presumptive MRSA growth” in part 1 (Table 25) and part 2
+clinical data (Table 28)
+• <95% agreement for “presumptive MRSA growth” when comparing part 1 and
+part 2 clinical data (Table 29)
+2. Clinical Specificity:
+Not applicable.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+Not applicable.
+D Clinical Cut-Off:
+Not applicable.
+E Expected Values/Reference Range:
+A summary of the number and percentage of samples with the different result interpretations
+observed during parts 1 (oUS) and 2 (US) of the clinical study, as determined by the panel of
+oUS and US microbiologists (reference), and by the APAS Independence with MRSA Analysis
+Modules, is described in Table 30.
+Table 30. Microbiologists (Reference) and APAS Results from Clinical Study
+BD1 TFS/S
+Interpretation Microbiologists Microbiologists
+APAS APAS
+oUS US oUS US
+913 913 765 643 661 532
+No Growth
+(58.0%) (58.0%) (48.6%) (40.7%) (41.8%) (33.7%)
+Presumptive 267 269 382 457 483 502
+Non-MRSA Growth (17.0%) (17.1%) (24.3%) (28.9%) (30.6%) (31.8%)
+Presumptive 393 391 426 480 436 546
+MRSA Growth (25.0%) (24.9%) (27.1%) (30.4%) (27.6%) (34.6%)
+TOTAL 1573 1573 1573 1580 1580 1580
+K200839 - Page 29 of 30
+
+[Table 1 on page 29]
+Interpretation				BD1								TFS/S						
+				Microbiologists					APAS			Microbiologists					APAS	
+				oUS			US					oUS			US			
+No Growth			913
+(58.0%)			913
+(58.0%)			765
+(48.6%)		643
+(40.7%)			661
+(41.8%)			532
+(33.7%)	
+	Presumptive		267
+(17.0%)			269
+(17.1%)			382
+(24.3%)		457
+(28.9%)			483
+(30.6%)			502
+(31.8%)	
+	Non-MRSA Growth																	
+	Presumptive		393
+(25.0%)			391
+(24.9%)			426
+(27.1%)		480
+(30.4%)			436
+(27.6%)			546
+(34.6%)	
+	MRSA Growth																	
+	TOTAL		1573			1573			1573		1580			1580			1580	
+
+--- Page 30 ---
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K200839 - Page 30 of 30

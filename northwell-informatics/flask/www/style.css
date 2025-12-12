@@ -1,0 +1,76 @@
+/* Custom CSS for Flask SOP Query Application */
+
+/* Additional styles for enhanced features */
+.config-section {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.config-section h4 {
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+.config-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.config-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.config-item label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 5px;
+}
+
+.config-item input, .config-item select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Responsive improvements */
+@media (max-width: 576px) {
+    .config-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .access-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .config-section {
+        background: #2d3748;
+        border-color: #4a5568;
+    }
+    
+    .config-item {
+        background: #1a202c;
+        border-color: #4a5568;
+    }
+    
+    .config-item label {
+        color: #e2e8f0;
+    }
+    
+    .config-item input, .config-item select {
+        background: #2d3748;
+        border-color: #4a5568;
+        color: #e2e8f0;
+    }
+}

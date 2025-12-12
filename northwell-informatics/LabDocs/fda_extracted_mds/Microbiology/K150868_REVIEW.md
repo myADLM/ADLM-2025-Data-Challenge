@@ -1,0 +1,260 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+
+A. 510(k) Number:
+
+# B. Purpose for Submission:
+
+To obtain a substantial equivalence determination for the Solana™ GAS Assay using throat specimens.
+
+# C. Measurand:
+
+Group A $\beta$ -hemolytic Streptococcus (GAS; Streptococcus pyogenes) nucleic acids.
+
+# D. Type of Test:
+
+The Solana™ GAS Assay is an isothermal helicase-dependent amplification in vitro diagnostic test for the qualitative detection and differentiation of GAS nucleic acids isolated from throat swab specimens obtained from symptomatic patients.
+
+E. Applicant: Diagnostics Hybrids, Inc.
+
+F. Proprietary and Established Names: Solana™ GAS Assay
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR 866.2680 - Streptococcus spp. Nucleic Acid-Based Assay
+
+2. Classification: Class II
+
+3. Product code:
+
+PGX – Groups A, C and G Beta-Hemolytic Streptococcus Nucleic Acid Amplification System
+
+4. Panel:
+
+83- Microbiology
+
+# H. Intended Use:
+
+1. Intended use(s): The Solana™ GAS Assay is a rapid in vitro diagnostic test for the qualitative detection of Group A $\beta$ -hemolytic Streptococcus (Streptococcus pyogenes) nucleic acids isolated from throat swab specimens obtained from patients with signs and symptoms of pharyngitis, such as sore throat. The Solana™ GAS Assay is intended for use only with the Solana™ instrument.
+
+2. Indication(s) for use: Same as intended use.
+
+3. Special conditions for use statement(s): For in vitro diagnostic use only. For prescription use only.
+
+4. Special instrument requirements: Solana™ Instrument
+
+# I. Device Description:
+
+The Solana™ GAS Assay detects GAS DNA isolated from throat swab specimens obtained from patients with the signs and symptoms of pharyngitis. The assay consists of three major steps: 1) sample processing 2) specimen preparation, and 3) amplification and detection of target sequence specific to GAS using isothermal Helicase-Dependent Amplification (HDA) in the presence of target-specific fluorescence probe.
+
+Patient specimen on a throat swab is transferred to a Lysis Tube and subjected to heat treatment at $9 5 \mathrm { { ^ \circ C } }$ for 5 minutes. The heat-treated sample is added to a Dilution Tube, and then transferred to a Reaction Tube. The Reaction Tube contains lyophilized HDA reagents, dNTPs, primers and probes. Once rehydrated with the diluted sample, the Reaction Tube is placed in the Solana™ for amplification and detection of GAS-specific target sequence. In the Solana™ GAS Assay, the target sequence is amplified by GAS-specific primers and detected by a GAS-specific fluorescence probe included in the Reaction Tube. A competitive process control (PRC) is included in the Lysis Tube to monitor sample processing, inhibitory substances in clinical samples, reagent failure or device failure. The PRC target is amplified by GAS specific primers and detected by a PRC specific fluorescence probe.
+
+Solana measures and interprets the fluorescent signal, using on-board method-specific algorithms. Solana instrument will then report the test results to the user on the display screen. Results can also be printed out. The total time for assay completion from specimen processing to result is $< 4 5$ minutes.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Lyra™ Direct Strep Assay
+
+2. Predicate 510(k) number(s): k133883
+
+3. Comparison with predicate:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">SolanaTM GAS Assay</td><td colspan="1" rowspan="1">LyraTM Direct Strep Assay(k133883)</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">The SolanaTM GAS Assay isa rapid in vitro diagnostictest for the qualitativedetection of Group A β-hemolytic Streptococcus(Streptococcus pyogenes)nucleic acids isolated fromthroat swab specimensobtained from patients withsigns and symptoms ofpharyngitis, such as sorethroat. The SolanaTM GASAssay is intended for useonly with the SolanaTMinstrument.</td><td colspan="1" rowspan="1">The Lyra Direct StrepAssay is a Real-Time PCRin vitro diagnostic test forthe qualitative detection anddifferentiation of Group Aβ-hemolytic Streptococcus(Streptococcus pyogenes)and pyogenic Group C andG β-hemolyticStreptococcus nucleic acidsisolated from throat swabspecimens obtained frompatients with signs andsymptoms of pharyngitis,such as a sore throat. Theassay does not differentiatebetween pyogenic Groups Cand G β-hemolyticStreptococcus.All negative test resultsshould be confirmed bybacterial culture, becausenegative results do not</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">preclude Group A, C or GStrep infection and shouldnot be used as the sole basisfor treatment.The assay is intended foruse in hospital, reference, orstate laboratory settings.The device is not intendedfor point-of-care use.</td></tr><tr><td colspan="1" rowspan="1">Specimen Type</td><td colspan="1" rowspan="1">Throat swab specimens</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Specimen Lysis</td><td colspan="1" rowspan="1">Manual, heat-based</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Detection Technique</td><td colspan="1" rowspan="1">Automatically detectsfluorescence afterdissociation of fluorophorefrom quencher duringamplification</td><td colspan="1" rowspan="1">Same</td></tr></table>
+
+<table><tr><td colspan="3" rowspan="1">Differences</td></tr><tr><td colspan="1" rowspan="1">Item</td><td colspan="1" rowspan="1">Device</td><td colspan="1" rowspan="1">Predicate</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">SolanaTM GAS Assay</td><td colspan="1" rowspan="1">LyraTM Direct Strep Assay(k133883)</td></tr><tr><td colspan="1" rowspan="1">DNA AmplificationTechnology</td><td colspan="1" rowspan="1">Isothermal Helicase-DependentAmplification (HDA)</td><td colspan="1" rowspan="1">Real-Time Polymerase ChainReaction (RT-PCR)</td></tr><tr><td colspan="1" rowspan="1">GAS TargetSequence Detected</td><td colspan="1" rowspan="1">78 base pair (bp) sequence S.pyogenes genome, resident inthe DNase B (sdaB) gene</td><td colspan="1" rowspan="1">99 bp product in the putativecompetence (comX1.1) gene</td></tr><tr><td colspan="1" rowspan="1">Other genes detected</td><td colspan="1" rowspan="1">None</td><td colspan="1" rowspan="1">GCS/GGS</td></tr><tr><td colspan="1" rowspan="1">Testing Time</td><td colspan="1" rowspan="1">45 minutes</td><td colspan="1" rowspan="1">60-70 minutes</td></tr><tr><td colspan="1" rowspan="1">Instrument</td><td colspan="1" rowspan="1">SolanaTM</td><td colspan="1" rowspan="1">ABI 7500 Fast DXThermocycler</td></tr><tr><td colspan="1" rowspan="1">Reagents/Components</td><td colspan="1" rowspan="1">Dry heating blocks, DilutionBuffer, Lysis Buffer, ReactionTubes</td><td colspan="1" rowspan="1">LyraTM Direct Strep MasterMix, Process Buffer, andRehydration SolutionABI 7500 Fast Dx 96-wellPCR Plate, optical plate filmsand plate centrifugeDry heating block</td></tr><tr><td></td><td>SolanaTM GAS Assay</td><td>LyraTM Direct Strep Assay (k133883)</td></tr><tr><td>GAS Performance Characteristics</td><td>Sensitivity: 98.2%[95% CI: 95.5% - 99.3%] Specificity: 97.1%[95% CI: 95.7% - 98.0%]</td><td>Sensitivity: 96.5%[95% CI: 91.3% - 98.6%] Specificity: 98.0%[95% CI: 97.0% - 98.6%]</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Not applicable.
+
+# L. Test Principle:
+
+Patient specimen on a throat swab is transferred to a Lysis Tube and subjected to heat treatment at $9 5 \mathrm { { ^ \circ C } }$ for 5 minutes. The heat-treated sample is added to a Dilution Tube, and then transferred to a Reaction Tube. The Reaction Tube contains lyophilized helicasedependent amplification (HDA) reagents, dNTPs, primers and probes. Once rehydrated with the diluted sample, the Reaction Tube is placed in Solana for amplification and detection of GAS-specific target sequence. In Solana, the target sequence is amplified by GAS specific primers and detected by a GAS specific fluorescence probe included in the Reaction Tube. A competitive process control (PRC) is included in the Lysis Tube to monitor sample processing, inhibitory substances in clinical samples, and reagent or device failure. The PRC target is amplified by GAS specific primers and detected by a PRC specific fluorescence probe.
+
+The target and PRC probes are labeled with a quencher on one end and a fluorophore on the other end. The target and PRC fluorescent probes have a RNA linker that is cleaved by RNaseH2 upon annealing to GAS or PRC amplicons, and the fluorescence signal increases due to separation of fluorophore from quencher. The Solana™ Instrument measures and interprets the fluorescent signal, using on-board method-specific algorithms. Solana instrument will then report the test results to the user on its display screen, and it can print out the results via a printer.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+Within-laboratory, inter-instrument precision was evaluated for the Solana™ GAS using a panel of four (4) simulated samples:
+
+1) Negative (N)
+
+2) High Negative (HN), $0 . 3 { \mathrm { ~ x ~ } }$ LoD   
+3) Low Positive (LP), 1 x LoD and   
+4) Moderate Positive (MP), $3 . 0 \mathrm { x }$ LoD
+
+Contrived specimens were made by diluting frozen bacterial stocks of Streptococcus pyogenes ATCC 19615 to the concentration noted above. The LoD values were based on the values obtained in the LoD study described in section $\mathbf { M } . 1 . d$ below. See section ${ \bf M } . 2 . b$ below for details on the matrix equivalency and freeze-thaw study.
+
+The study was conducted over twelve (12) days at one (1) site with two (2) operators (2 operators x 12 days x 3 replicates $= 7 2$ results per panel member). One (1) operator used one (1) instrument and the other used two (2) instruments. The results are shown in Table I.
+
+<table><tr><td rowspan=1 colspan=7>Table I: Precision</td></tr><tr><td rowspan=2 colspan=1>Panel ID</td><td rowspan=1 colspan=2>Operator 1</td><td rowspan=1 colspan=2>Operator 2</td><td rowspan=1 colspan=2>Combined</td></tr><tr><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td></tr><tr><td rowspan=1 colspan=1>HN</td><td rowspan=1 colspan=1>21/36</td><td rowspan=1 colspan=1>58.3%</td><td rowspan=1 colspan=1>26/36</td><td rowspan=1 colspan=1>72.2%</td><td rowspan=1 colspan=1>47/72</td><td rowspan=1 colspan=1>65.3%</td></tr><tr><td rowspan=1 colspan=1>LP</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>72/72</td><td rowspan=1 colspan=1>100.0%</td></tr><tr><td rowspan=1 colspan=1>MP</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>36/36</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>72/72</td><td rowspan=1 colspan=1>100.0%</td></tr><tr><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>0/36</td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1>0/36</td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1>0/72</td><td rowspan=1 colspan=1>0.0%</td></tr></table>
+
+The precision study results met the pre-defined acceptance criteria for LP, MP, and PC specimens. The results of this study are acceptable and these results are described in labeling.
+
+# Reproducibility Study
+
+The reproducibility of the Solana™ GAS Assay was evaluated at three (3) sites (two external clinical sites and one in-house) using the same four (4) member panel of from the precision studies above.
+
+Three (3) replicates of each panel member and the controls were processed and tested on the Solana™ GAS Assay at each site by two (2) operators for five (5) nonconsecutive days using three (3) instruments (2 operators $_ { \textrm { X 3 } }$ replicates $_ { \textrm { X } 5 }$ days x 3 sites $= 9 0$ results per concentration). The LoD values were based on the values obtained in the LoD study. The reproducibility study results are acceptable. The results are shown in the Table II below.
+
+<table><tr><td rowspan=1 colspan=9>Table II: Reproducibility</td></tr><tr><td rowspan=2 colspan=1>PanelID</td><td rowspan=1 colspan=2>Site 1</td><td rowspan=1 colspan=2>Site 2</td><td rowspan=1 colspan=2>Site 3</td><td rowspan=1 colspan=2>Combined</td></tr><tr><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>DetectedPos/Total</td><td rowspan=1 colspan=1>% Pos</td></tr><tr><td rowspan=1 colspan=1>HN</td><td rowspan=1 colspan=1>24/30</td><td rowspan=1 colspan=1>80.0%</td><td rowspan=1 colspan=1>20/30</td><td rowspan=1 colspan=1>66.6%</td><td rowspan=1 colspan=1>14/30</td><td rowspan=1 colspan=1>46.7%</td><td rowspan=1 colspan=1>58/90</td><td rowspan=1 colspan=1>64.4%</td></tr><tr><td rowspan=1 colspan=1>LP</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>90/90</td><td rowspan=1 colspan=1>100.0%</td></tr><tr><td rowspan=1 colspan=1>MP</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>30/30</td><td rowspan=1 colspan=1>100.0%</td><td rowspan=1 colspan=1>90/90</td><td rowspan=1 colspan=1>100.0%</td></tr><tr><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>0/30</td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1>0/30</td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1>0/30</td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1>0/90</td><td rowspan=1 colspan=1>0.0%</td></tr></table>
+
+These results met the predefined acceptance criteria for the various panels and are described in labeling.
+
+b. Linearity/assay reportable range:
+
+Not applicable.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): Specimen Stability:
+
+Solana™ GAS Assay incorporates a process control (PRC) in the lysis buffer tube that is used to monitor sample processing and evaluate the presence of substances inhibitory to helicase dependent amplification (HDA) and to confirm the integrity of assay reagents. The Quidel Molecular $\mathbf { A } + \mathbf { G }$ Streptococci Control Set #M111, which contains positive and negative controls, serves as an external processing and extraction controls for the Solana™ GAS Assay and were run each day of testing.
+
+Studies were performed to determine the stability of specimens collected using the following routinely used swab systems: nylon, rayon and polyester swabs in Amies media, and rayon and polyester swabs in Stuart media, and rayon swabs in Amies gel. A freshly grown stock of GAS bacteria of known titer was used to spike the swabs listed above. Triplicate testing for each condition with each collection/transport system listed above demonstrated that specimens can be stored at $2 5 ^ { \circ } \mathrm { C } \pm 2 ^ { \circ } \mathrm { C }$ for 2 days and then at 2 to $8 ^ { \mathrm { o } } \mathrm { C }$ for up to 8 more days prior to being tested in the Solana™ GAS Assay. A separate study was performed where the spiked samples were stored at $\mathrm { \leq } { } \mathrm { - } 1 5 ^ { \mathrm { \circ } } \mathrm { C }$ or $\le - 7 0 ^ { \mathrm { o } } \mathrm { C }$ for a minimum of 32 days before testing.
+
+# d. Detection limit:
+
+The limit of detection (LoD) of the Solana™ GAS Assay was determined using contrived stocks of two (2) GAS strains on three (3) instruments. For each strain, stocks were prepared by suspending and diluting freshly grown colonies on to $5 \%$ sheep blood tryptic soy agar. Colony counts from preliminary serial dilutions were associated with optical density to determine the LoD. The LoD was defined as the point at which at least $9 5 \%$ of all replicates tested positive $( \mathrm { C } _ { 9 5 } )$ . The GAS strains were serially diluted then spiked onto swabs. For each strain, the LoD was confirmed by testing 20 replicates for each of three (3) dilutions at $0 . 3 { \mathrm { ~ x ~ } }$ LoD, $_ { 1 \mathrm { ~ x ~ } }$ LoD and $3 \mathrm { ~ x ~ }$ LoD. Each dilution for each strain was confirmed by counting colonies and plating on $5 \%$ sheep blood tryptic soy agar. The LoD study results are shown in Table III below.
+
+<table><tr><td rowspan=1 colspan=3>Table III: LoD for Group A β-hemolytic Streptococcus</td></tr><tr><td rowspan=1 colspan=1>Strain</td><td rowspan=1 colspan=1>Strain</td><td rowspan=1 colspan=1>CFU/ml</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 1(Streptococcus pyogenes)</td><td rowspan=1 colspan=1>ATCC 19615</td><td rowspan=1 colspan=1>2.44 x 104</td></tr><tr><td rowspan=1 colspan=1>Group A Streptococcal strain 2(Streptococcus pyogenes)</td><td rowspan=1 colspan=1>ATCC 12344</td><td rowspan=1 colspan=1>6.81 x 103</td></tr></table>
+
+These LoD values are described in the labeling and they were used in determining the spiking levels for all subsequent analytical studies.
+
+# e. Analytical reactivity:
+
+Inclusivity studies were conducted with seven Group A $\beta$ -hemolytic Streptococcus strains with seven (7) strains (in addition to the two from the LoD studies above) against three (3) different reagent lots with three (3) instruments. Swabs were prepared as described in M.1.a above and run with the Solana™ GAS Assay. The inclusivity study results and the final organism concentrations tested are shown in Table IV below.
+
+<table><tr><td rowspan=1 colspan=3>Table IV: Group A β-hemolytic Streptococcus Inclusivity</td></tr><tr><td rowspan=1 colspan=1>Group A StreptococcusStrain #</td><td rowspan=1 colspan=1>Strain</td><td rowspan=1 colspan=1>CFU/ml</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>ATCC 12384</td><td rowspan=7 colspan=1>6.81 x 104</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>NCIMB 13285</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>CCUG 33061</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>CCUG 33409</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>CCUG 39158</td></tr><tr><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>ATCC 49399</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>CCUG 53553</td></tr></table>
+
+These study results are acceptable and they are described in the labeling.
+
+$f .$ Analytical specificity:
+
+# i. Microbial cross-reactivity
+
+An in silico BLAST analysis of primers used in the Solana™ GAS Assay against the NCBI database against sixty-one (61) potential interfering organisms did not
+
+show evidence of cross-reactivity.
+
+A study was performed to evaluate the performance of the Solana™ GAS Assay in the presence of forty-six (46) potentially cross-reacting bacteria, yeast and viruses commonly found in throat specimens, in triplicate (3) using three (3) instruments. Clinically relevant levels of virus $( 1 0 ^ { 5 } \mathrm { P F U / m l } )$ ) and bacteria/yeast $( 1 0 ^ { 6 } \mathrm { C F U / m L } )$ or higher were inoculated onto swabs and run with the Solana™ GAS Assay. For bacteria/yeast, each organism was cultured then suspended and diluted to the indicated concentration and frozen. Viruses were titered by PFU/ml unless stocks had to be purchased and were represented in different terms. Each swab was inoculated with a panel member and run with the Solana™ GAS Assay. The panel of strains included in the cross-reactivity study is shown in Table V below.
+
+<table><tr><td rowspan=1 colspan=2>Table V: Strains Included in Cross-Reactivity</td></tr><tr><td rowspan=1 colspan=2>Strain</td></tr><tr><td rowspan=1 colspan=1>Acinetobacter lwoffii</td><td rowspan=1 colspan=1>Staphylococcus epidermidis MRSE</td></tr><tr><td rowspan=1 colspan=1>Arcanobacterium haemolyticum</td><td rowspan=1 colspan=1>Stenotrophomonas maltophilia</td></tr><tr><td rowspan=1 colspan=1>Bacillus cereus</td><td rowspan=1 colspan=1>Streptococcus agalactiae</td></tr><tr><td rowspan=1 colspan=1>Bordetella pertussis</td><td rowspan=1 colspan=1>Streptococcus anginosus</td></tr><tr><td rowspan=1 colspan=1>Burkholderia cepacia</td><td rowspan=1 colspan=1>Streptococcus bovis</td></tr><tr><td rowspan=1 colspan=1>Corynebacterium diphtheria</td><td rowspan=1 colspan=1>Streptococcus canis</td></tr><tr><td rowspan=1 colspan=1>Enterococcus faecalis</td><td rowspan=1 colspan=1>Streptococcus dysgalactiae subsp equisimilis</td></tr><tr><td rowspan=1 colspan=1>Escherichia coli</td><td rowspan=1 colspan=1>Streptococcus gordonii (Virdans type)</td></tr><tr><td rowspan=1 colspan=1>Fusobacterium necrophorum</td><td rowspan=1 colspan=1>Streptococcus intermedius</td></tr><tr><td rowspan=1 colspan=1>Haemophilus influenza type A</td><td rowspan=1 colspan=1>Streptococcus mitis</td></tr><tr><td rowspan=1 colspan=1>Klebsiella pneumonia</td><td rowspan=1 colspan=1>Streptococcus mutans</td></tr><tr><td rowspan=1 colspan=1>Lactobacillus acidophilus</td><td rowspan=1 colspan=1>Streptococcus oralis</td></tr><tr><td rowspan=1 colspan=1>Lactococcus lactis</td><td rowspan=1 colspan=1>Streptococcus pneumoniae</td></tr><tr><td rowspan=1 colspan=1>Legionella jordanis</td><td rowspan=1 colspan=1>Streptococcus salivarius</td></tr><tr><td rowspan=1 colspan=1>Legionella micdadei</td><td rowspan=1 colspan=1>Streptococcus sanguinis</td></tr><tr><td rowspan=1 colspan=1>Legionella pneumophila</td><td rowspan=1 colspan=1>Streptococcus suis</td></tr><tr><td rowspan=1 colspan=1>Moraxella cartarrhalis</td><td rowspan=1 colspan=1>Candida albicans</td></tr><tr><td rowspan=1 colspan=1>Neisseria gonorrhoeae</td><td rowspan=1 colspan=1>Adenovirus Type 1</td></tr><tr><td rowspan=1 colspan=1>Neisseria subflava</td><td rowspan=1 colspan=1>Adenovirus Type 11 (Slobitski)</td></tr><tr><td rowspan=1 colspan=1>Peptostreptococcus micros (aka Parvimonas micra)</td><td rowspan=1 colspan=1>Influenza A</td></tr><tr><td rowspan=1 colspan=1>Pseudomonas aeruginosa</td><td rowspan=1 colspan=1>Influenza B</td></tr><tr><td rowspan=1 colspan=1>Serratia marcescens</td><td rowspan=1 colspan=1>Parainfluenza Type 4B (VR-1377)</td></tr><tr><td rowspan=1 colspan=1>Staphylococcus aureus MRSA</td><td rowspan=1 colspan=1>Rhinovirus Type 15 (1734)</td></tr></table>
+
+None of the forty-six (46) bacteria, yeast or viruses tested that might be found in throat swab specimens cross-react with the assay.
+
+# ii. Microbial interference
+
+Microbial interference studies were conducted in triplicate (3) with each of the forty-six (46) bacteria, yeast and viruses listed above in Table $\mathrm { V }$ in triplicate (3) in the presence of clinically relevant levels of viruses $( 1 0 ^ { 5 } \mathrm { P F U / m l } )$ and bacteria/yeast $( 1 0 ^ { 6 } \mathrm { C F U / m l } )$ or higher. All strains were prepared as described in the cross-reactivity studies in $\mathbf { M . l } f . i$ above along with GAS spiked onto the swab at a $2 \times \mathrm { L o D }$ concentration. These studies were conducted with the two (2) strains used in the LoD studies in ${ \bf M } . 1 . d$ above using three (3) instruments. None of the bacteria, yeast or viruses demonstrated interference with the detection of the Group A Streptococcal strains in any of the replicates tested.
+
+These study results are acceptable and they are described in the labeling.
+
+# iii. Interfering substances
+
+Twenty-eight (28) chemical and biological substances were evaluated for potential to interfere with the Solana™ GAS Assay, including blood $( 5 \% \mathrm { v / v } )$ and human saliva $( 1 0 \% \mathrm { v / v ) }$ . Each substance was tested in triplicate using two strains of Streptococcus pyogenes (ATCC 19615 and 12344), tested at $2 \textbf { x }$ LoD at medically relevant concentrations. None of the substances tested were found to interfere with the Solana™ GAS Assay in any of the replicates tested.
+
+These study results are acceptable and they are described in the labeling.
+
+# iv. Carryover/Cross-contamination
+
+A study to assess carryover contamination was conducted by three (3) operators using three (3) different Solana™ Instruments with one GAS strain (ATCC 19615). Fifty (50) high positive $\mathrm { 1 ~ x ~ 1 0 ^ { 6 } \ C F U / m l ) }$ and fifty (50) negative samples were spiked onto swabs and tested on the Solana™ instruments. Five (5) positive and five (5) negative swabs were tested in an alternating order. No carryover/cross contamination was observed in the course of this study.
+
+These study results are acceptable and they are described in the labeling.
+
+# g. Assay cut-off:
+
+Cut-off values are based on set time thresholds for amplification and were determined based on results from preliminary LoD studies and initial clinical specimen testing. The cut-offs were set based on the longest time observed to achieve a valid GAS result from these studies.
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable.
+
+b. Matrix comparison:
+
+A comparison study was conducted between negative clinical matrix and a contrived negative matrix in order to validate the use of the contrived negative matrix in place of a clinical negative matrix for the analytic studies in section M1 above. Contrived negative matrix consisted of liquid Amies transport medium, Porcine Gastric Mucin (PGM), Phosphate Buffered Saline (PBS), Bovine Serum Albumin and sodium azide. The matrix comparison study results are shown in Table VI below.
+
+<table><tr><td rowspan=1 colspan=6>Table VI: Matrix Comparison Study</td></tr><tr><td rowspan=2 colspan=2>Panel ID</td><td rowspan=1 colspan=2>ContrivedNegative Matrix</td><td rowspan=1 colspan=2>Pooled NegativeClinical Matrix</td></tr><tr><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>% Pos</td></tr><tr><td rowspan=1 colspan=1>Group AStreptococcus(ATCC 19615)</td><td rowspan=1 colspan=1>1 x LoD</td><td rowspan=1 colspan=1>20/20</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>20/20</td><td rowspan=1 colspan=1>100%</td></tr></table>
+
+These studies demonstrate that the contrived negative matrix is equivalent to a clinical matrix. These study results are acceptable.
+
+Fresh contrived specimens and frozen specimens were prepared as described in the LoD studies and precision studies respectively and compared. The results of the fresh versus frozen study are shown in Table VII below.
+
+<table><tr><td rowspan=1 colspan=6>Table VII: Fresh Versus Study</td></tr><tr><td rowspan=2 colspan=2>Panel ID</td><td rowspan=1 colspan=2>ContrivedNegative Matrix</td><td rowspan=1 colspan=2>Pooled NegativeClinical Matrix</td></tr><tr><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>% Pos</td><td rowspan=1 colspan=1>Detected</td><td rowspan=1 colspan=1>% Pos</td></tr><tr><td rowspan=3 colspan=1>Group AStreptococcus(ATCC19615)</td><td rowspan=1 colspan=1>3 x LoD</td><td rowspan=1 colspan=1>20/20</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>72/72</td><td rowspan=1 colspan=1>100%</td></tr><tr><td rowspan=1 colspan=1>1 x LoD</td><td rowspan=1 colspan=1>20/20</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=1>72/72</td><td rowspan=1 colspan=1>100%</td></tr><tr><td rowspan=1 colspan=1>0.3 x LoD</td><td rowspan=1 colspan=1>12/20</td><td rowspan=1 colspan=1>60%</td><td rowspan=1 colspan=1>47/72</td><td rowspan=1 colspan=1>65%</td></tr></table>
+
+These studies demonstrate that freezing does not appear to impact results for the Solana™ GAS assay, in the context for these analytical studies. These study results are acceptable.
+
+# 3. Clinical studies:
+
+Performance characteristics of the Solana™ GAS Assay were established during a prospective study conducted from December, 2014 to February, 2015. One thousand eighty-two (1082) fresh throat swab specimens were collected and tested during clinical trials, all of which were cultured and tested with the Solana™ GAS Assay at four (4) distinct geographical sites across the United States. A single specimen was collected per patient. Samples were collected using the Liquid Amies Single Plastic Applicator, the Liquid Stuart Single Plastic Applicator, the Puritan Liquid Amies Transport System, sterile rayon throat swabs and polyester throat swabs.
+
+All one thousand eighty-two (1082) fresh throat specimens were cultured for Group A $\beta$ - hemolytic Streptococcus (GAS) and tested with Solana™ GAS Assay. The swab specimens were cultured at the testing sites and the transport fluid was cultured at a central location. The specimen was considered positive if culture from either the swab or the transport fluid was positive for Group A $\beta$ -hemolytic Streptococcus and this was referred to as Composite Culture. One (1) result was determined to be invalid in these studies. The invalid rate observed during the clinical prospective study for this device was $0 . 0 9 \%$ (1/1082). These results are shown in Table VIII below for all sites combined and for each study site separately.
+
+a. Clinical Sensitivity:   
+
+<table><tr><td colspan="4" rowspan="1">Table VIII: Clinical Performance Data for the SolanaTMGAS Assay vs. Composite Cultures for Group A β-hemolytic Streptococcus</td></tr><tr><td colspan="4" rowspan="1">All Sites</td></tr><tr><td colspan="1" rowspan="2">SolanaTM GASAssay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">220</td><td colspan="1" rowspan="1">24*</td><td colspan="1" rowspan="1">244</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">4**</td><td colspan="1" rowspan="1">833</td><td colspan="1" rowspan="1">837</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">224</td><td colspan="1" rowspan="1">857</td><td colspan="1" rowspan="1">1081</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 98.2% (220/224) 95% CI (95.5% - 99.3%)Specificity: 97.2% (833/857) 95% CI (95.9% - 98.1%)</td></tr><tr><td colspan="4" rowspan="1">* Of these 24 discordant specimens, 16 were positive forGAS when tested with another FDA cleared assay, and 8were negative.** Of these 4 discordant specimens, 3 were GAS negativewhen tested with another FDA cleared assay and 1 waspositive.</td></tr><tr><td colspan="4" rowspan="1">Site 1</td></tr><tr><td colspan="1" rowspan="2">SolanaTM GASAssay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">60</td><td colspan="1" rowspan="1">5*</td><td colspan="1" rowspan="1">65</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">1**</td><td colspan="1" rowspan="1">333</td><td colspan="1" rowspan="1">334</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">61</td><td colspan="1" rowspan="1">338</td><td colspan="1" rowspan="1">399</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 98.4% (60/61) 95% CI (91.3% - 99.7%)Specificity: 98.5% (333/338) 95% CI (96.6% - 99.4%)</td></tr><tr><td colspan="4" rowspan="1">* Of these 5 discordant specimens, 2 were positive forGAS when tested with another FDA cleared assay, and 3were negative.** The 1 discordant specimen, was GAS positive whentested with another FDA cleared assay.</td></tr><tr><td colspan="4" rowspan="1">Site 2</td></tr><tr><td colspan="1" rowspan="2">SolanaTM GASAssay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">69</td><td colspan="1" rowspan="1">9*</td><td colspan="1" rowspan="1">78</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">1**</td><td colspan="1" rowspan="1">134</td><td colspan="1" rowspan="1">135</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">70</td><td colspan="1" rowspan="1">143</td><td colspan="1" rowspan="1">213</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 98.6% (69/70) 95% CI (92.3% - 99.7%)Specificity: 93.7% (134/143) 95% CI (88.5% - 96.7%)</td></tr><tr><td colspan="4" rowspan="1">* Of these 9 discordant specimens, 6 were positive forGAS when tested with another FDA cleared assay, and 3were negative.** The 1 discordant specimen, was GAS negative whentested with another FDA cleared assay.</td></tr><tr><td colspan="4" rowspan="1">Site 3</td></tr><tr><td colspan="1" rowspan="2">SolanaTM GASAssay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">29</td><td colspan="1" rowspan="1">6*</td><td colspan="1" rowspan="1">35</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">186</td><td colspan="1" rowspan="1">186</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">29</td><td colspan="1" rowspan="1">192</td><td colspan="1" rowspan="1">221</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 100.0% (29/29) 95% CI (88.3% - 100.0%)Specificity: 96.9% (186/192) 95% CI (93.4% - 98.6%)</td></tr><tr><td colspan="4" rowspan="1">* Of these 6 discordant specimens, 5 were positive forGAS when tested with another FDA cleared assay, and 1was negative.</td></tr><tr><td colspan="4" rowspan="1">Site 4</td></tr><tr><td colspan="1" rowspan="2">SolanaTM GASAssay</td><td colspan="3" rowspan="1">Composite Culture</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">Total</td></tr><tr><td colspan="1" rowspan="1">Positive</td><td colspan="1" rowspan="1">62</td><td colspan="1" rowspan="1">4*</td><td colspan="1" rowspan="1">66</td></tr><tr><td colspan="1" rowspan="1">Negative</td><td colspan="1" rowspan="1">2**</td><td colspan="1" rowspan="1">180</td><td colspan="1" rowspan="1">182</td></tr><tr><td colspan="1" rowspan="1">Total</td><td colspan="1" rowspan="1">64</td><td colspan="1" rowspan="1">184</td><td colspan="1" rowspan="1">248</td></tr><tr><td colspan="4" rowspan="1">Sensitivity: 96.9% (62/64) 95% CI (89.3% - 99.1%)Specificity: 97.8% (180/184) 95% CI (94.5% - 99.2%)</td></tr><tr><td colspan="4" rowspan="1">* Of these 4 discordant specimens, 3 were positive forGAS when tested with another FDA cleared assay, and 1was negative.** Of these 2 discordant specimens, 2 were GAS negativewhen tested with another FDA cleared assay.</td></tr></table>
+
+The external quality control isolates used in these studies were from the Control Set #M111 consisting of Streptococcus pyogenes Z018 and Streptococcus dysgalactiae Z068, which serve as processing and extraction controls. The positive and negative external control isolates were tested each day during the clinical studies.
+
+All Group A Streptococcus positive controls were detected accurately $( 1 0 0 \%$ , 55/55).   
+All Group G Streptococcus negative controls were detected accurately ( $100 \%$ , 55/55).   
+There were no invalid control results.
+
+b. Clinical specificity:
+
+See table above.
+
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off: Not applicable.
+
+5. Expected values/Reference range:
+
+The overall prevalence of Group A $\beta$ -hemolytic Streptococcus in patients tested during this study was $2 0 . 7 \%$ (224/1081) based on composite bacterial culture and $2 2 . 6 \%$ (244/1081) based on the Solana™ GAS Assay. All clinical specimens collected during this study were collected between December, 2014 and February, 2015.
+
+N. Instrument Name: Solana™ Instrument
+
+# O. System Descriptions:
+
+1. Modes of Operation:
+
+Does the applicant’s device contain the ability to transmit data to a computer, webserver, or mobile device?
+
+Yes _ or No _ _X
+
+Does the applicant’s device transmit data to a computer, webserver, or mobile device using wireless transmission?
+
+Yes _ or No ___X_
+
+2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ____X____ or No
+
+3. Specimen Identification: Specimens are identified by scanning a barcode or by manual entry.
+
+4. Specimen Sampling and Handling:
+
+Swab specimens are expressed in transport medium. $5 0 \mu \mathrm { l }$ of the expressed specimen are transferred to a lysis tube. After heat lysis, $5 0 \mu \mathrm { l }$ of lysed specimen is transferred to a reaction tube for automated amplification and detection. See section I above for more information.
+
+# 5. Calibration:
+
+The end user is not required to calibrate the instrument. Automated calibration happens by comparing between the measured magnitude of the optical signal of and an integrated calibration standard and the expected magnitude of the optical signal.
+
+6. Quality Control:
+
+See section M.1.c for information on internal and external controls.   
+See section M.3.a for information on external control performance during clinical trials.
+
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The “Performance Characteristics” Section above:
+
+Not applicable.
+
+# Q. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# R. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

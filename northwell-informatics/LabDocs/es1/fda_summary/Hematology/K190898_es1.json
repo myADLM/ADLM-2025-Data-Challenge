@@ -1,0 +1,73 @@
+{
+    "Trade/Device Name(s)": [
+        "Sight OLO"
+    ],
+    "Submitter Information": "Sight Diagnostics Ltd.",
+    "510(k) Number": "K190898",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "K112605"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "GKZ"
+    ],
+    "Summary Letter Date": "November 1, 2019",
+    "Summary Letter Received Date": "April 5, 2019",
+    "Submission Date": "April 5, 2019",
+    "Regulation Number(s)": [
+        "21 CFR 864.5220"
+    ],
+    "Regulation Name(s)": [
+        "Automated Differential Cell Counter"
+    ],
+    "Analyte Class(es)": [
+        "hematology"
+    ],
+    "Analyte(s)": [
+        "White Blood Cells (WBC)",
+        "Red Blood Cells (RBC)",
+        "Hemoglobin (HGB)",
+        "Hematocrit (HCT)",
+        "Mean Corpuscular Volume (MCV)",
+        "Mean Corpuscular Hemoglobin (MCH)",
+        "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+        "Red Cell Distribution Width (RDW)",
+        "Platelets (PLT)",
+        "Neutrophils (NEUT%/#)",
+        "Lymphocytes (LYMPH%/#)",
+        "Monocytes (MONO%/#)",
+        "Eosinophils (EOS%/#)",
+        "Basophils (BASO%/#)"
+    ],
+    "Specimen Type(s)": [
+        "Capillary whole blood",
+        "Venous whole blood",
+        "Fingertip blood"
+    ],
+    "Specimen Container(s)": [
+        "K2EDTA blood collection tube",
+        "Sight OLO test kit micro-capillary tube"
+    ],
+    "Instrument(s)/Platform(s)": [
+        "Sight OLO"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Computer-vision based image analysis",
+        "Fluorescence microscopy",
+        "Optical density measurement (for hemoglobin)"
+    ],
+    "Methodologies": [
+        "Image processing",
+        "Computer vision analysis",
+        "Automated microscopy"
+    ],
+    "Submission Type(s)": [
+        "Analyzer",
+        "Test kit",
+        "Cartridge",
+        "Sample preparation"
+    ],
+    "Document Summary": "FDA 510(k) summary for Sight Diagnostics Sight OLO automated hematology analyzer utilizing computer vision algorithms for complete blood count from capillary or venous whole blood.",
+    "Indications for Use Summary": "Quantitative, multi-parameter automated hematology analyzer for in vitro diagnostic screening of capillary or venous whole blood, identifying and classifying blood elements in children 3 months and above, adolescents and adults.",
+    "fda_folder": "Hematology"
+}

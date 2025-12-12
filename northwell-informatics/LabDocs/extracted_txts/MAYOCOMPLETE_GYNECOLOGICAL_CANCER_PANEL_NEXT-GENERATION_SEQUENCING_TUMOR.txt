@@ -1,0 +1,101 @@
+STANDARD OPERATING PROCEDURE MAYOCOMPLETE
+GYNECOLOGICAL CANCER PANEL, NEXT-GENERATION
+SEQUENCING, TUMOR
+1. PURPOSE The purpose of this SOP is to outline the
+procedures for the analytical phase of generating results for the
+MAYOCOMPLETE Gynecological Cancer Panel using Next-
+Generation Sequencing (NGS) on tumor specimens.
+2. SCOPE This SOP applies to all laboratory personnel involved in
+the analysis of tumor specimens using the MAYOCOMPLETE
+Gynecological Cancer Panel by NGS as conducted within the
+laboratory.
+3. RESPONSIBILITIES Designated laboratory staff are
+responsible for performing the analysis following the protocols
+outlined. Supervisory staff are responsible for ensuring
+compliance with this SOP and for addressing any issues or
+deviations.
+4. SPECIMENS The acceptable specimen type for this test is
+formalin-fixed, paraffin-embedded (FFPE) tumor tissue block or
+unstained slides containing tumor tissue.
+5. EQUIPMENT AND REAGENTS
+• Microtome
+• DNA extraction kit (QIAGEN DNA extraction kit or equivalent)
+• Quantus™ Fluorometer
+• Library preparation kit (e.g., Illumina TruSight Oncology 500)
+• NGS system (Illumina NextSeq 550 or equivalent)
+• Pipettes and filtered tips
+• PCR thermal cycler
+• Bioanalyzer or TapeStation for library quantification and quality
+control
+• Reagents: PCR primers, indices, enzymes, buffers, and reagents
+as per the library preparation kit
+• Personal protective equipment (PPE): lab coat, gloves, and eye
+protection
+1. PROCEDURE
+A. Specimen Preparation
+1. Receive and accession the FFPE tissue specimens.
+2. For tissue blocks:
+◦ Section the tissue at 5-10 microns thickness on a
+microtome.
+◦ Mount the sections on glass slides.
+3. For unstained slides:
+◦ Ensure the slide has 5-10 micron thick tissue sections.
+4. Deparaffinization and tissue digestion:
+◦ Follow the protocols outlined in the DNA extraction kit for
+deparaffinizing and digesting tissue samples.
+B. DNA Extraction and Quantification
+1. Extract DNA using the recommended DNA extraction kit as per
+manufacturer’s instructions.
+2. Quantify the extracted DNA using a Quantus™ Fluorometer.
+◦ Ensure DNA concentration meets the requirements as
+specified by the library preparation kit.
+C. Library Preparation and Amplification
+1. Prepare the DNA library using the recommended library
+preparation kit for the NGS platform.
+2. Follow the library preparation protocol:
+◦ Fragment DNA, perform end-repair, adenylation, and
+adaptor ligation.
+◦ Perform library enrichment with target-specific probes
+provided in the kit.
+3. Amplify the enriched library using PCR.
+4. Purify the amplified library according to the protocol steps.
+5. Assess the quality and size distribution of the library using a
+Bioanalyzer or TapeStation.
+D. Next-Generation Sequencing
+1. Normalize the DNA library to the required concentration for
+sequencing.
+2. Pool libraries if multiplexing samples on a single run.
+3. Load the prepared library onto the NGS platform (Illumina
+NextSeq 550 or equivalent).
+4. Follow the manufacturer’s guidelines for running the
+sequencing instrument.
+5. Monitor sequence data generation to ensure sufficient coverage
+and quality.
+E. Data Analysis and Interpretation
+1. Transfer raw sequencing data to bioinformatics software
+designated for variant calling and annotation.
+◦ Analyze data using validated pipelines.
+2. Review and interpret variant calls:
+◦ Cross-reference detected variants with clinically relevant
+databases and guidelines (e.g., ClinVar, COSMIC).
+◦ Utilize quality control metrics to ensure accuracy and
+reliability of results.
+F. Reporting Results
+1. Compile a comprehensive report of the detected variants
+following internal guidelines.
+2. Verify and review the generated results before issuing a final
+report.
+3. Report findings to the requesting clinician including
+interpretative comments and possible implications for patient
+management.
+4. QUALITY CONTROL
+• Perform routine calibration and maintenance of equipment
+according to the manufacturer's instructions.
+• Use appropriate controls at each step to ensure the accuracy and
+reliability of the results.
+• Document all quality control measures and deviations.
+1. REFERENCES
+• DNA extraction kit user manual
+• Illumina TruSight Oncology 500 User Guide
+• Illumina NextSeq 550 System Guide
+• Laboratory quality management and safety protocols

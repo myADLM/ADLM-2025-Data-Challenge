@@ -1,0 +1,113 @@
+Standard Operating Procedures (SOPs) for NTRK Genes
+Mutation Analysis, Next-Generation Sequencing (NGS), Tumor
+1. PURPOSE
+To provide a standardized method for the analysis of NTRK gene
+mutations in tumor samples using next-generation sequencing (NGS)
+technology.
+2. SCOPE
+This SOP applies to the analytical phase of NTRK genes mutation
+analysis for all tumor samples received in the laboratory for NGS
+testing. Specimen collection, receipt, and accessioning are assumed
+to be completed prior to this phase.
+3. RESPONSIBILITY
+It is the responsibility of all trained laboratory personnel to follow this
+SOP to ensure accurate, reliable, and reproducible results.
+4. DEFINITIONS
+• NTRK genes: Neurotrophic tyrosine receptor kinase genes
+(NTRK1, NTRK2, NTRK3)
+• NGS: Next-generation sequencing
+• QC: Quality Control
+• SNP: Single Nucleotide Polymorphism
+5. PROCEDURE
+5.1 Sample Preparation
+1. Sample Verification:
+◦ Verify that the tumor sample has been properly accessioned
+and labeled.
+◦ Confirm that the sample meets the volume and quality
+requirements for NGS (e.g., minimum DNA concentration
+and purity).
+2. DNA Extraction and Quantification:
+◦ Extract genomic DNA from the tumor sample using a
+validated extraction kit.
+◦ Measure DNA concentration and purity using a
+spectrophotometer or fluorometer.
+◦ Document DNA quantity and purity in the laboratory
+information system (LIS).
+3. Library Preparation:
+◦ Normalize DNA concentration to the required input for library
+preparation.
+◦ Perform library preparation using a validated kit, following
+the manufacturer's instructions.
+◦ Assess library quality and quantity using a bioanalyzer or
+equivalent instrument.
+◦ Document library preparation batch and QC results.
+5.2 Sequencing Run
+1. Pool Libraries:
+◦ Pool normalized libraries ensuring equimolar representation
+for each sample.
+2. Prepare Sequencing Platform:
+◦ Load the pooled libraries onto the sequencing platform (e.g.,
+Illumina, Thermo Fisher) according to the manufacturer's
+protocol.
+◦ Perform necessary instrument QC checks.
+3. Run Sequencing:
+◦ Start sequencing run and monitor progress according to the
+instrument's operational protocols.
+◦ Ensure that all sequencing runs are labeled and traceable.
+5.3 Data Analysis
+1. Raw Data Quality Check:
+◦ Assess the quality of raw sequencing data using appropriate
+software.
+◦ Check metrics such as read length, cluster density, Q30
+scores, etc.
+2. Alignment and Variant Calling:
+◦ Align raw sequencing reads to a reference genome using
+validated alignment software (e.g., BWA, Bowtie).
+◦ Identify mutations in NTRK genes using variant calling
+software (e.g., GATK, MuTect).
+◦ Annotate identified variants using an appropriate database
+(e.g., COSMIC, ClinVar).
+3. Data Filtering and Interpretation:
+◦ Filter variants based on predefined criteria (e.g., read depth,
+frequency).
+◦ Interpret clinically relevant variants in the NTRK genes.
+◦ Document all identified variants and their interpretations in
+the LIS.
+5.4 Quality Control
+1. Internal Controls:
+◦ Run internal controls (positive and negative) with each batch
+of samples.
+◦ Document control results and ensure they are within
+acceptable limits.
+2. External Quality Assurance:
+◦ Participate in external proficiency testing programs to
+validate NTRK mutation analysis accuracy.
+5.5 Reporting Results
+1. Verification:
+◦ Review all results and their interpretations for accuracy and
+completeness.
+◦ Consult with a molecular pathologist or other qualified
+personnel for final result verification.
+2. Result Documentation:
+◦ Enter verified results into the LIS.
+◦ Ensure reports are generated according to the laboratory's
+reporting guidelines, including interpretation remarks and
+clinical relevance of identified NTRK mutations.
+3. Release Results:
+◦ Release the final report to the healthcare provider or
+requesting entity.
+◦ Maintain a copy of the report in the patient's laboratory
+records.
+6. METHOD LIMITATIONS
+Refer to the NGS platform’s technical guidelines for specific
+limitations regarding depth of coverage, sensitivity, and specificity of
+detection of NTRK gene mutations.
+7. REFERENCES
+• Refer to the manufacturer’s instructions for the specific NGS
+platform and library preparation kits used.
+• Refer to peer-reviewed literature and professional guidelines for
+NTRK gene mutation analysis.
+8. APPENDICES
+• Detailed instrument-specific protocols.
+• Example results report template.
+• Troubleshooting guide for common issues in NTRK NGS analysis.

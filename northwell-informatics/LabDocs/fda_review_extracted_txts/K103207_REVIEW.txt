@@ -1,0 +1,980 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+A. 510(k) Number:
+k103207
+B. Purpose for Submission:
+To obtain 510(k) clearance of the JBAIDS Q Fever Detection kit assay
+C. Measurand:
+Coxiella burnetii (Q Fever) target DNA
+D. Type of Test:
+A multiplexed real-time Polymerase Chain Reaction (PCR) nucleic acid test with a
+qualitative result.
+E. Applicant:
+Idaho Technology, Inc.
+F. Proprietary and Established Names:
+Joint Biological Agent Identification and Diagnostic System (JBAIDS) Q Fever Detection
+Kit
+G. Regulatory Information:
+1. Regulation section:
+866.3500 Rickettsia serological reagents
+2. Classification:
+Class I
+3. Product code:
+OVF-Assay, direct, nucleic acid amplification, Q fever
+1
+
+--- Page 2 ---
+4. Panel:
+83-Microbiology
+H. Intended Use:
+1. Intended use(s):
+The Joint Biological Agent Identification and Diagnostic System (JBAIDS) Q Fever
+Detection Kit is a qualitative real-time polymerase chain reaction (PCR) test kit
+intended to identify and detect target DNA sequence from Coxiella burnetii in serum
+collected from individuals suspected of having acute Q fever, typically 7-10 days
+after onset of symptoms or before antibody formation. This in vitro diagnostic (IVD)
+test is intended to aid in the diagnosis of Q fever in individuals presenting with signs
+and symptoms of acute Q fever when used in conjunction with other clinical and
+laboratory findings. This kit is only intended to aid in the diagnosis of Q fever of
+patients presenting in the acute stage of the disease. Negative results do not preclude
+C. burnetii infection and should not be used as the sole basis for diagnosis, treatment
+or other management decisions.
+The JBAIDS Q Fever assay is run on the JBAIDS instrument using the Diagnostic
+Wizard. Results are for the presumptive identification of C. burnetii in conjunction
+with serology and/or other laboratory tests. The following considerations also apply:
+(cid:131) The diagnosis of acute Q fever must be made based on history, signs,
+symptoms, exposure likelihood, and other laboratory evidence, in addition to
+the identification of C. burnetii from serum specimens.
+(cid:131) Sensitivity is decreased by ~25-40%, with no change in specificity, if the
+sample is collected after the patient has formed specific antibodies to C.
+burnetii, typically 7-10 days after onset of symptoms.
+(cid:131) The definitive identification of C. burnetii from serum specimens requires
+additional testing and confirmation procedures in consultation with public
+health or other authorities for whom reports are required.
+The test performance characteristics for this system were established with banked,
+frozen serum specimens that were sequentially received during a specified time
+period. The safety and effectiveness of other types of tests or sample types have not
+been established.
+All users, analysts, and any person reporting diagnostic results from use of this device
+should be trained to perform and interpret the results from this procedure by JBAIDS
+instructors or designees prior to use. Use of this device is limited to designated
+Department of Defense (DoD) laboratories equipped with the JBAIDS instruments.
+2. Indication(s) for use:
+2
+
+--- Page 3 ---
+Same as Intended use
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+JBAIDS instrument and JBAIDS software
+I. Device Description:
+The JBAIDS Q Fever Detection Kit is specifically designed for performing real-time PCR in
+glass capillaries using the JBAIDS instrument and JBAIDS software. The reagent kit is a
+multiplexed assay that that can detect the target organism, C. burnetii, while monitoring for
+inhibition through the use of an internal inhibition control. Real-time PCR is accomplished
+with the use of a hydrolysis probe, which detects a specific sequence within the region
+amplified by the assay primers. The probe is labeled on one end with a fluorescent reporter
+molecule and on the other end with a quencher. When the probe is intact, the quencher
+absorbs the light emitted by the reporter molecule. During PCR, the intact probe hybridizes
+to the amplicon, and the exonuclease activity of Taq polymerase separates the fluorophore
+from the quencher, generating a fluorescent signal that is detected by the instrument. The
+fluorescent signal increases as additional template is amplified and more probe is hydrolyzed.
+The JBAIDS Q Fever Detection Kit assay amplifies a unique insertion sequence (IS1111)
+that is found in multiple copies in the C. burnetii genome. Sequencing has shown the Nine
+Mile strain contains 20 copies of the IS1111 element per organism; however, the number of
+elements in other strains varies from 7 to 110. Isolates of C. burnetii missing the IS1111
+element have not been identified.
+The target assay has been multiplexed with an inhibition control. The internal inhibition
+control (IC) shares primers with the target assay but utilizes a probe that emits a fluorescent
+signal read in the 705 nm channel while the target assay is detected in the 530 nm channel.
+The template for the IC is a linearized plasmid containing an artificial intervening sequence
+flanked by the target assay primer binding sites. IC template is added to each reaction at a
+level that is expected to amplify reliably.
+The primers and probes were selected based upon two basic criteria: 1) they detect all
+sequenced virulent isolates of C. burnetii, and 2) they do not detect sequences in other
+organisms. The selected primer and probe sequences were compared, using the Basic Local
+Alignment Search Tool (BLAST), to other sequences contained in the NCBI Nucleotide
+Collection and were confirmed to meet these criteria. In addition, primers and probes were
+only selected if they showed limited self- and cross-complementarities (e.g., hairpins, primer
+dimers) that would not form at temperatures encountered during manufacturing, reaction
+setup, or PCR. The target probe is labeled on the 5’ end with the fluorescent reporter moiety
+6-carboxyfluorescein (6-FAM)) and on the 3’ end with the quencher moiety
+3
+
+--- Page 4 ---
+carboxytetramethylrhodamine (TAMRA). The IC probe is labeled on the 5’ end with 6-FAM
+conjugated with cy5.5 and the 3’ end is conjugated with Iowa Black quencher.
+Kit Configuration and Components
+The JBAIDS Q Fever Detection Kit contains eight vacuum-sealed pouches of freeze-dried
+PCR reagents, containing three vials each, and eight pouches containing one tube each of
+reconstitution buffer and reagent grade water. Once resuspended, each reagent vial provides
+enough material for two reactions, both of which are included in the test run.
+Each reagent pouch contains the following vials:
+One Positive Control (+) vial Once reconstituted, the Positive Control vial contains all
+reagents necessary for PCR, in addition to ~135 copies of a linearized plasmid containing
+the target assay template and ~50 copies of a linearized plasmid containing the inhibition
+control template. The Positive Control is resuspended with 20 μL reconstitution buffer
+and 20 μL reagent grade water before testing in parallel with patient specimens.
+Amplification in the Positive Control gives assurance that kit reagents are functioning
+properly and that the assay setup has been performed correctly. A Positive Control must
+be included with each JBAIDS run.
+One Negative Control (-) vial. Once reconstituted, the Negative Control vial contains all
+materials required to perform a PCR reaction in addition to ~50 copies of a linearized
+plasmid containing the inhibition control template, but not the target template, and should
+therefore give negative results. The Negative Control is resuspended with 20 μL
+reconstitution buffer and 20 μL water before testing in parallel with patient specimens to
+provide assurance that the setup procedure has been performed without contamination. A
+Negative Control must be included with each JBAIDS run.
+One Unknown vial. The contents of the Unknown vial are identical to the Negative
+Control. The Unknown vial is resuspended with 20 μL reconstitution buffer and 20 μL
+4
+
+--- Page 5 ---
+purified patient sample, and will therefore give negative results unless the target template
+is found in the patient sample.
+Each reconstitution buffer/reagent grade water pouch contains:
+2X Reconstitution Buffer (2X RB). The buffer solution (purple buffer) is matched to the
+Q Fever assay and is used undiluted. The buffer enhances PCR kinetics and is used to
+resuspend JBAIDS freeze-dried reagents. Once reconstituted, all freeze dried reagent
+vials contain all of the components required for PCR.
+Reagent Grade Water. Reagent grade water is molecular biology grade water used to
+reconstitute the Positive and Negative Controls.
+JBAIDS Instrument and Software
+The JBAIDS Q Fever Detection Kit is designed for use with the JBAIDS instrument.
+Because the instrument and software were previously cleared for use as an IVD device
+(K051713), only a brief description of both is provided here.
+The JBAIDS instrument is a ruggedized, portable real-time PCR instrument designed to
+withstand the conditions of transport and use likely to be encountered in a military field
+laboratory. The instrument is composed of an air thermocycler that amplifies specific DNA
+sequences using PCR and a fluorimeter that measures fluorescence signals associated with
+production of a PCR product (amplicon).
+Samples are contained in glass capillaries (up to 32 individual PCR reactions per instrument
+run) that are loaded into a JBAIDS carousel and placed into the instrument for
+thermocycling. Glass capillaries have heat-transfer and optical properties that are favorable
+for thermocycling and fluorescence analysis. By using real-time PCR, the instrument can
+rapidly identify a wide array of specific DNA sequences, including those associated with
+infectious organisms.
+The JBAIDS instrument must be able to detect fluorescence signals generated during the
+PCR reaction. This is performed using a 3-channel fluorimeter, which is specifically
+5
+
+--- Page 6 ---
+designed to excite a fluorescent molecule attached to the probe and capture the light emitted.
+For the JBAIDS Q Fever Detection Kit, the fluorescent signal from the target assay is
+detected in channel 1, while the signal from the IC assay is detected in channel 3.
+The JBAIDS Software is preloaded on a ruggedized laptop computer. The software controls
+the instrument’s thermal cycling functions, acquires the fluorescence data from the
+instrument, and displays the fluorescence data for the user during the run. When the run is
+finished, the software’s Detector module analyzes the data and displays test results. The
+instrument and software have the ability to perform either diagnostic (IVD) or surveillance
+(environmental) testing.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Focus Diagnostics Q Fever IgM IFA
+Focus Diagnostics Q Fever IgG IFA
+2. Predicate 510(k) number(s):
+K922374
+K913906
+3. Comparison with predicate:
+Similarities
+Item Device Predicate
+JBAIDS Q Fever Detection Focus Diagnostics Q Fever
+Kit IgG (K922374) and IgM
+(K913906) tests
+Intended Use Qualitative detection of Detection and semi-
+Coxiella burnetii. quantitation of the human
+IgG and IgM antibody
+response to phase I and
+phase II Coxiella burnetii
+antigens and as an aid in
+the diagnosis of Q fever.
+Indications for Use Identification of C. burnetii Serodiagnosis of both acute
+in individuals suspected of and chronic C. burnetii
+having acute Q Fever. infections.
+6
+
+[Table 1 on page 6]
+Similarities				
+Item	Device
+JBAIDS Q Fever Detection
+Kit		Predicate	
+			Focus Diagnostics Q Fever	
+			IgG (K922374) and IgM	
+			(K913906) tests	
+Intended Use	Qualitative detection of
+Coxiella burnetii.	Detection and semi-
+quantitation of the human
+IgG and IgM antibody
+response to phase I and
+phase II Coxiella burnetii
+antigens and as an aid in
+the diagnosis of Q fever.		
+Indications for Use	Identification of C. burnetii
+in individuals suspected of
+having acute Q Fever.	Serodiagnosis of both acute
+and chronic C. burnetii
+infections.		
+
+[Table 2 on page 6]
+Device
+JBAIDS Q Fever Detection
+Kit
+
+--- Page 7 ---
+Similarities
+Item Device Predicate
+JBAIDS Q Fever Detection Focus Diagnostics Q Fever
+Kit IgG (K922374) and IgM
+(K913906) tests
+Specimen Types Serum Same
+Time Required for Less than 3 hours Same
+Analysis of Specimen
+Differences
+Item Device Predicate
+JBAIDS Q Fever Detection Focus Diagnostics Q Fever
+Kit IgG (K922374) and IgM
+(K913906) tests
+Technological Principles Real-time PCR using Microscopic visualization
+hydrolysis probes. of human antibodies for C.
+burnetii bacteria via a two
+stage “sandwich”
+procedure using a
+fluorescently labeled
+antibody that binds to the
+human antibodies.
+Assay Target IS1111 DNA sequences Human antibody response
+unique to C. burnetii. to C. burnetii.
+Instrumentation JBAIDS instrument Fluorescent microscope
+(K051713)
+Sample Preparation Up front sample processing Diluted samples are tested
+Method is required to extract nucleic directly.
+acid.
+Sample Controls Internal control is No sample specific control.
+multiplexed with the target
+test.
+Testing Strategy One time point testing Two serology time points
+during the symptomatic are suggested. One during
+phase of the disease. the symptomatic phase of
+the disease with follow-up
+testing 2-3 weeks later.
+Optimal Window of Early in the disease course Later in the disease course
+Detection prior to antibody formation. due to the time required for
+antibody formation.
+Test Interpretation Automated test Subjective interpretation by
+interpretation and report user.
+generation.
+Physical Properties Freeze dried reagents with Liquid reagents. IgM and
+reconstitution buffer and IgG are separate test kits.
+water provided in kit.
+7
+
+[Table 1 on page 7]
+Similarities				
+Item	Device
+JBAIDS Q Fever Detection
+Kit		Predicate	
+			Focus Diagnostics Q Fever	
+			IgG (K922374) and IgM	
+			(K913906) tests	
+Specimen Types	Serum	Same		
+Time Required for
+Analysis of Specimen	Less than 3 hours	Same		
+
+[Table 2 on page 7]
+Device
+JBAIDS Q Fever Detection
+Kit
+
+[Table 3 on page 7]
+Differences				
+Item	Device
+JBAIDS Q Fever Detection
+Kit		Predicate	
+			Focus Diagnostics Q Fever	
+			IgG (K922374) and IgM	
+			(K913906) tests	
+Technological Principles	Real-time PCR using
+hydrolysis probes.	Microscopic visualization
+of human antibodies for C.
+burnetii bacteria via a two
+stage “sandwich”
+procedure using a
+fluorescently labeled
+antibody that binds to the
+human antibodies.		
+Assay Target	IS1111 DNA sequences
+unique to C. burnetii.	Human antibody response
+to C. burnetii.		
+Instrumentation	JBAIDS instrument
+(K051713)	Fluorescent microscope		
+Sample Preparation
+Method	Up front sample processing
+is required to extract nucleic
+acid.	Diluted samples are tested
+directly.		
+Sample Controls	Internal control is
+multiplexed with the target
+test.	No sample specific control.		
+Testing Strategy	One time point testing
+during the symptomatic
+phase of the disease.	Two serology time points
+are suggested. One during
+the symptomatic phase of
+the disease with follow-up
+testing 2-3 weeks later.		
+Optimal Window of
+Detection	Early in the disease course
+prior to antibody formation.	Later in the disease course
+due to the time required for
+antibody formation.		
+Test Interpretation	Automated test
+interpretation and report
+generation.	Subjective interpretation by
+user.		
+Physical Properties	Freeze dried reagents with
+reconstitution buffer and
+water provided in kit.	Liquid reagents. IgM and
+IgG are separate test kits.		
+
+[Table 4 on page 7]
+Device
+JBAIDS Q Fever Detection
+Kit
+
+--- Page 8 ---
+Differences
+Item Device Predicate
+JBAIDS Q Fever Detection Focus Diagnostics Q Fever
+Kit IgG (K922374) and IgM
+(K913906) tests
+Storage Room temperature (18–28 Refrigerator temperature
+°C). (2-8 °C)
+K. Standard/Guidance Documents Referenced:
+• Nucleic Acid Based In Vitro Diagnostic Devices for Detection of Microbial
+Pathogens, FDA Guidance Document (DRAFT: December 8, 2005)
+• Establishing Performance Characteristics of In Vitro Diagnostic Devices for
+Detection or Detection and Differentiation of Influenza Viruses, FDA Guidance
+Document (DRAFT: February 15, 2008)
+• Molecular Diagnostic Methods for Infectious Diseases, CLSI Approved Guideline,
+MM3-P2 (February 2006)
+• Interference Testing in Clinical Chemistry, CLSI Approved Guideline EP7-A2
+(November 2005)
+• User Verification of Performance for Precision and Trueness, CLSI Approved
+Guideline EP15-A2 (April 2006, second printing)
+• Collection, Transport, Preparation, and Storage of Specimens for Molecular
+Methods; Approved Guideline, CLSI Approved Guideline MM13-A (January 2006)
+• Procedures for the Collection of Diagnostic Blood Specimens by Venipuncture;
+Approved Standard-Sixth Edition, CLSI Approved Guideline H3-A6 (October 2007)
+L. Test Principle:
+The JBAIDS Q Fever Detection Kit is based on four major processes:
+• Sample collection and purification
+• Reconstitution of freeze-dried reagents
+• Amplification and detection of target DNA on the JBAIDS instrument
+• Automated interpretation of the amplification curves using the JBAIDS software with
+report generation.
+Sample Collection and Purification
+The JBAIDS Q Fever Detection kit can be used to test human serum specimens. Samples
+must be purified prior to testing with the JBAIDS Q Fever Detection Kit. The purpose of
+sample purification is to release nucleic acid contained in the unknown sample and to remove
+extraneous materials (e.g., proteins and chemicals) that can interfere with the PCR reaction.
+The JBAIDS Q Fever Detection kit has been validated for use with either the IT 1-2-3
+QFLOWdna Sample Purification Kit or the IT 1-2-3 Platinum Path Sample Purification Kit.
+PCR Reagents and Controls
+8
+
+[Table 1 on page 8]
+Differences				
+Item	Device
+JBAIDS Q Fever Detection
+Kit		Predicate	
+			Focus Diagnostics Q Fever	
+			IgG (K922374) and IgM	
+			(K913906) tests	
+Storage	Room temperature (18–28
+°C).	Refrigerator temperature
+(2-8 °C)		
+
+[Table 2 on page 8]
+Device
+JBAIDS Q Fever Detection
+Kit
+
+--- Page 9 ---
+Purified samples are tested for the presence of C. burnetii DNA using freeze-dried PCR
+reagents specific to C. burnetii. Reagent vials that are intended for testing patient samples are
+labeled as Unknowns. To ensure accurate test results, each assay requires that a Positive
+Control and a Negative Control be included in each JBAIDS run.
+Instrument Operation and Thermocycling
+Each JBAIDS run can accommodate up to 12 samples with accompanying controls. The
+Diagnostic Wizard guides the operator through the process of setting up the run in
+compliance with the JBAIDS Q Fever Detection Kit package insert. After selecting the
+appropriate assays and entering sample information, the operator transfers prepared
+capillaries to the instrument carousel, guided by the loading pattern displayed in the
+Diagnostic Wizard.
+With the capillaries loaded into the instrument, the operator signals the instrument to start the
+PCR run. The instrument automatically controls the temperature heating cycle in the
+carousel. At intervals during temperature cycling, fluorescence emission is monitored as the
+carousel rotates to position each sample above the fluorimeter.
+Temperature and fluorescence data are displayed in real-time. After starting the run, no input
+is required and the operator need not supervise the run. At the conclusion of the run, the
+operator may proceed directly to data analysis and reporting.
+Data Analysis and Reporting
+Each JBAIDS test is analyzed and assigned a final result by the Detector module of the
+JBAIDS Software. Possible final results are positive, negative, inhibited, uncertain, or
+invalid. To assign a final test result, Detector first analyzes the data from each capillary
+independently before analyzing the sample duplicates together. Finally, the software assigns
+a final result, or a combined call, based on the results of the sample and all of its controls.
+A JBAIDS report is generated automatically for each test run. When the Diagnostic Wizard
+is used, reports from the instrument are identified with the phrase “For In Vitro Diagnostic
+Use.”
+Follow-up Testing
+If the Q Fever assay yields a negative or positive result, then the JBAIDS testing is complete.
+Any other result requires follow-up testing, as described below.
+• Invalid – If either the Positive Control or Negative Control fails to give the expected
+results, all Unknown samples associated with the control are called invalid and the
+samples must be retested in a new JBAIDS run.
+• Uncertain – An uncertain result on a single sample requires retesting with the same
+purified sample.
+9
+
+--- Page 10 ---
+• Inhibited – If the Inhibition Control indicates that an inhibitor is present in a specific
+sample, follow-up testing can determine if the sample truly contains an inhibitor or if
+the result was caused by other factors, such as improper technique. The effect of PCR
+inhibitors is often removed by performing a 1:10 dilution of the sample that yielded
+the inhibited test result. The diluted sample is retested along with the original sample
+that yielded the inhibited result.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Simulated test specimens were prepared by spiking serum with inactivated C. burnetii
+at four test concentrations. The samples were prepared at ITI, aliquoted and frozen
+prior to distribution to the test sites. Aliquots of each specimen were tested at three
+test sites. The 12-sample panel was tested twice each day for five days at the two
+external testing sites and 7 testing days at ITI. On each testing day, two users at each
+site purified and tested one aliquot of each specimen, 12 total specimens per operator
+per day. One of the operators used the IT 1-2- 3™ QFLOWdna Sample Purification
+Kit and the other operator used the IT 1-2-3™ Platinum Path Sample Purification Kit.
+Between-site testing is a good indication of overall system performance because it
+represents the performance of the system in its intended use environment and includes
+many variables. Sources of variability included different runs, instruments, sites,
+operators, days, reagent lots, and sample purification kits.
+Between-Site Reproducibility Results for the JBAIDS Q Fever Detection Kit (fractional positive
+test results)
+IT 1-2-3 Platinum Path Sample IT 1-2-3 QFLOWdna Sample
+Purification Kit Purification Kit
+Both Kits,
+Test Level Test Location Test Location
+All Sites
+Site 1 Site 2 Site 3 Overall for All Site 1 Site 2 Site 3 Overall for All
+Overall Overall Overall Sites OverallOverallOverall Sites
+51/51 51/51 102/102
+5X LoD 21/21 15/15 15/15 21/21 15/15 15/15
+100% 100% 100%
+51/51 51/51 102/102
+LoD 21/21 15/15 15/15 21/21 15/15 15/15
+100% 100% 100%
+42/42 30/30 30/30 102/102 42/42 30/30 30/30 102/102 204/204
+Detection ≥ LoD
+100% 100% 100% 100% 100% 100% 100% 100% 100%
+32/51 21/51 53/102
+LoD/15 11/21 8/15 13/15 7/21 8/15 6/15
+63% 41% 52%
+Detection all 53/63 38/45 43/45 134/153 49/63 38/45 36/45 123/153 123/306
+Levels 84% 84% 96% 88% 78% 84% 80% 80% 84%
+0/21 0/15 0/15 0/51 0/21 0/15 0/15 0/51 0/21
+Negative
+0% 0% 0% 0% 0% 0% 0% 0% 0%
+10
+
+[Table 1 on page 10]
+	IT 1-2-3 Platinum Path Sample				IT 1-2-3 QFLOWdna Sample				
+	Purification Kit				Purification Kit				
+									Both Kits,
+Test Level	Test Location				Test Location				
+									All Sites
+	Site 1	Site 2	Site 3	Overall for All	Site 1	Site 2	Site 3	Overall for All	
+									
+	Overall	Overall	Overall	Sites	Overall	Overall	Overall	Sites	
+5X LoD	21/21	15/15	15/15	51/51	21/21	15/15	15/15	51/51	102/102
+				100%				100%	100%
+LoD	21/21	15/15	15/15	51/51	21/21	15/15	15/15	51/51	102/102
+				100%				100%	100%
+	42/42	30/30	30/30	102/102	42/42	30/30	30/30	102/102	204/204
+Detection ≥ LoD									
+	100%	100%	100%	100%	100%	100%	100%	100%	100%
+									
+LoD/15	11/21	8/15	13/15	32/51	7/21	8/15	6/15	21/51	53/102
+				63%				41%	52%
+									
+Detection all	53/63	38/45	43/45	134/153	49/63	38/45	36/45	123/153	123/306
+Levels	84%	84%	96%	88%	78%	84%	80%	80%	84%
+									
+Negative	0/21
+0%	0/15
+0%	0/15
+0%		0/21
+0%	0/15
+0%	0/15
+0%		
+				0/51				0/51	0/21
+				0%				0%	0%
+									
+
+--- Page 11 ---
+As shown in the table above, the JBAIDS Q Fever Detection Kit correctly made a
+positive call 100% of the time on samples containing ≥ LoD of inactivated C. burnetii
+and a negative call 100% of the time on samples that did not contain inactivated C.
+burnetii. As expected, specimens spiked below LoD have variable results.
+The JBAIDS Q Fever Detection system is reliable with respect to variability between
+site, between day, between run, between lot, between instrument, and between
+operators. The JBAIDS Q Fever Detection Kit provides reproducible test results for
+serum samples processed with either the Platinum Path or QFLOWdna Sample
+Purifications Kits.
+While the JBAIDS Q Fever Detection Kit is designed to provide qualitative results,
+an evaluation of precision was performed to estimate the overall variability of the test
+system. Testing precision was determined by analyzing the overall variation of the Cp
+values, represented by the standard deviation (SD). It was expected that the SD of the
+Cp values would be less than one cycle for each test level.
+Overall, system variability was low for samples tested at or above LoD as
+demonstrated by a SD for each test level that was below one cycle. Due to the high
+variability and a high occurrence of negatives and uncertains when testing samples
+below LoD, the High Negative samples were not included in this evaluation.
+The observed variability seen per site, per specimen and per specimen at each site
+was overlapping and was similar to the overall variability. This suggests that the
+overall system is not significantly impacted by variability between specimens or
+variability between sites, which includes multiple operators and multiple instruments.
+The variability of sample purified using QFLOWdna was slightly lower than for
+sample purified using Platinum Path, (Low Positive % CV for QFLOWdna 1.4 vs 1.9
+for Platinum Path and Medium Positive % CV of 1.3 for QFLOWdna vs. 2.3 for
+Platinum Path). However, samples purified with either kit show reliable results.
+The Reproducibility and Precision studies are acceptable for this type of device.
+b. Linearity/assay reportable range:
+Not applicable.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Positive, Negative and Inhibition controls were included in each run and gave
+expected results. If not, the runs failed or were called invalid and the run was
+repeated.
+11
+
+--- Page 12 ---
+d. Detection limit:
+Limit of Detection (LoD) was determined for the Q Fever target assay using serum
+specimens spiked with live Coxiella burnetii, Nine Mile. Specimens spiked with 10-
+fold dilutions of organism (1000-0.3 TCID /mL), were purified with the IT 1-2-3TM
+50
+QFLOWdna Kit and the IT 1-2-3TM Platinum Path Kit, and tested with the target
+assays to determine an estimated limit of detection for the test system. The LoD was
+estimated by determining the lowest concentration of organism (in TCID /mL) at
+50
+which at least 95% of samples would test positive. Twenty individual specimens
+(from independent donors) spiked at the estimated LoD (10 TCID /mL) were
+50
+successfully detected by the target assay for both purification kits.
+e. Analytical specificity:
+Analytical Inclusivity-A panel of 10 Q Fever isolates, representative of the five
+distinct genomic groups (I-V) known to cause disease in humans, was spiked into
+serum specimens at concentrations determined to be equivalent to 1, 10 and 100
+TCID /mL. The prepared specimens were purified using the IT 1-2-3TM Platinum
+50
+Path Sample Purification Kit and then tested using the JBAIDS Q Fever Detection
+Kit.
+Q Fever Isolates Used to Evaluate Inclusivity.
+Strain ID Group
+Nine Mile Phase I I
+QiYi I
+RSA334 I
+Henzerling Phase I
+II
+Salk
+M44 – Grita II
+Idaho Q III
+Q173-P IV
+Q154-kAV IV
+WAV V
+Q229 V
+Organisms in the inclusivity panel were expected to test positive and have Cp values
+near 32 at LoD. For the inclusivity panel testing, the test result and Cp value were
+compared to reference material (C. burnetii Nine Mile inactivated organism) and
+were considered equivalent to the reference strain, if the test result was positive and
+the average Cp value for the isolate at LoD was not more than 1.5 cycles later than
+the average Cp value obtained for the reference strain. Earlier Cp values were
+expected for some stains due to the assay target being a multi-copy target.
+All strains gave positive results at all concentrations tested. Group VI was excluded
+from analysis since it is avirulent.
+12
+
+[Table 1 on page 12]
+	Strain ID			Group	
+Nine Mile Phase I			I		
+QiYi			I		
+RSA334			I		
+Henzerling Phase I
+Salk			II		
+M44 – Grita			II		
+Idaho Q			III		
+Q173-P			IV		
+Q154-kAV			IV		
+WAV			V		
+Q229			V		
+
+--- Page 13 ---
+Analytic specificity-A panel of 22 phylogenetically related or clinically relevant
+organisms were used to evaluate the test system analytic specificity.
+Exclusivity Panel
+Organism Relevance
+Legionella pneumophila Nearest Neighbor
+Legionella longbeacheae Nearest Neighbor
+Nearest Neighbor/Cross reactive with
+Legionella micdadei
+serology
+Bartonella henselae Cross reactive with serology
+Other small obligate intracellular
+Rickettsia prowazekii
+bacteria, agent of zoonoses
+Mycobacterium tuberculosis Similar symptoms
+Brucella meliteusis Similar symptoms
+Orientia tsutsugamushi Similar symptoms
+Salmonella enterica Similar symptoms
+Listeria monocytogenes Similar symptoms
+Haemophilus influenzae Similar symptoms
+Francisella tularensis Similar symptoms
+Streptococcus pyogenes Commonly encountered
+Aggregatibacter
+Commonly encountered
+actinomycetemcomitans
+Haemophilus parainfluenzae Commonly encountered
+Acinetobacter baumannii Commonly encountered
+Vibrio cincinnatiensis Commonly encountered
+Escherichia coli Commonly encountered
+Staphylococcus aureus Commonly encountered
+Staphylococcus epidermidis Commonly encountered
+Pseudomonas aeruginosa Commonly encountered
+Serratia marcescens Commonly encountered
+All 22 (100%) organisms, tested at high concentrations, were negative with the target
+assay.
+An inability to obtain live Ehrlichia for exclusivity testing lead to in silico screening
+of primers and probe to determine cross reactivity of the JBAIDS Q Fever assay with
+Ehrlichia spp. and was extended to include Neorickettsia spp. In silico screening was
+performed using BLAST to search the genomes of these genera for sequence identity
+matches based upon a 15 word match between the primers or probes with the
+organism genome. This evaluation indicated that the primers and probes in the
+JBAIDS Q Fever assay would not cross-react with organisms from these genera.
+13
+
+[Table 1 on page 13]
+	Organism			Relevance	
+Legionella pneumophila			Nearest Neighbor		
+Legionella longbeacheae			Nearest Neighbor		
+Legionella micdadei			Nearest Neighbor/Cross reactive with
+serology		
+Bartonella henselae			Cross reactive with serology		
+Rickettsia prowazekii			Other small obligate intracellular
+bacteria, agent of zoonoses		
+Mycobacterium tuberculosis			Similar symptoms		
+Brucella meliteusis			Similar symptoms		
+Orientia tsutsugamushi			Similar symptoms		
+Salmonella enterica			Similar symptoms		
+Listeria monocytogenes			Similar symptoms		
+Haemophilus influenzae			Similar symptoms		
+Francisella tularensis			Similar symptoms		
+Streptococcus pyogenes			Commonly encountered		
+Aggregatibacter
+actinomycetemcomitans			Commonly encountered		
+Haemophilus parainfluenzae			Commonly encountered		
+Acinetobacter baumannii			Commonly encountered		
+Vibrio cincinnatiensis			Commonly encountered		
+Escherichia coli			Commonly encountered		
+Staphylococcus aureus			Commonly encountered		
+Staphylococcus epidermidis			Commonly encountered		
+Pseudomonas aeruginosa			Commonly encountered		
+Serratia marcescens			Commonly encountered		
+
+--- Page 14 ---
+Interfering Substances
+The JBAIDS Q Fever assay was tested against a panel of potentially interfering
+substances. The concentration of each substance tested represented a relevant
+concentration in accordance with NCCLS EP7-A2 Interference Testing in Clinical
+Chemistry Approved Guideline. All endogenous and exogenous substances typically
+found in serum were spiked into the sample matrix and subjected to sample
+processing with both IT 1-2-3 QFLOWdna and Platinum Path prior to testing with the
+JBAIDS Q Fever Detection Kit. The sample purification portion of the system was
+designed to isolate the DNA and remove other impurities; therefore, sample
+processing should eliminate most of the potentially interfering substances from the
+purified sample. Because technique-specific substances can be encountered during
+reaction setup, all such substances were added to the purified samples immediately
+prior to reaction setup.
+Once prepared, each sample was tested with the target assay which is multiplexed
+with an internal Inhibition Control. The substance was considered to be an interfering
+substance if the target assay result was negative or inhibited. A substance was
+considered potentially inhibitory if the Cp of the target assay was delayed by more
+than three cycles or if the Fmax of the target assay was decreased by more than 50%.
+Because high concentrations of C. burnetii genomic DNA will competitively inhibit
+the IC assay (due to the shared primers), any sample with a positive result for the Q
+Fever assay is considered to be positive regardless of the IC result.
+The following table lists the potentially interfering substances that were tested.
+List of Evaluated Potentially Interfering Substances
+Endogenous Substances Exogenous Substances Technique Specific Substances
+Albumin Acetaminophen Rifampin Platinum Path MB Binding Buffer
+Bilirubin Amoxicillin Streptomycin Platinum Path Wash Buffer (from 4th well)
+Cholesterol (total) Ascorbic Acid Sulfamethoxazole
+Glucose Aspirin Tetracycline
+Hemoglobin Cefotaxime Tobramycin
+Immunoglobulins Chloroquine Trimethoprim
+Triglycerides Ciprofloxacin Acid Citrate Dextrose (ACD)
+Doxycycline Ethylenediaminetetraacetic acid (EDTA)
+Erythromycin Heparin
+Gentamicin sulfate Sodium Citrate
+Ibuprofen Sodium Polyanetholesulfonate (SPS)
+Naproxen sodium Specimen collection Device
+The following substances were shown to interfere with the PCR reactions used in this
+test system.
+• Platinum Path MB Binding Buffer
+• Plasma obtained from the following types of blood tubes
+o Ethylenediaminetetraacetic acid (EDTA)
+o Heparin
+14
+
+[Table 1 on page 14]
+							
+	Endogenous Substances			Exogenous Substances			Technique Specific Substances
+							
+Albumin
+Bilirubin
+Cholesterol (total)
+Glucose
+Hemoglobin
+Immunoglobulins
+Triglycerides			Acetaminophen
+Amoxicillin
+Ascorbic Acid
+Aspirin
+Cefotaxime
+Chloroquine
+Ciprofloxacin
+Doxycycline
+Erythromycin
+Gentamicin sulfate
+Ibuprofen
+Naproxen sodium		Rifampin
+Streptomycin
+Sulfamethoxazole
+Tetracycline
+Tobramycin
+Trimethoprim
+Acid Citrate Dextrose (ACD)
+Ethylenediaminetetraacetic acid (EDTA)
+Heparin
+Sodium Citrate
+Sodium Polyanetholesulfonate (SPS)
+Specimen collection Device		Platinum Path MB Binding Buffer
+Platinum Path Wash Buffer (from 4th well)
+
+--- Page 15 ---
+o Sodium Polyanetholesulfonate (SPS)
+o Sodium Citrate
+From previous studies, the following substances have been identified as interfering
+with PCR.
+• Ethanol
+• Sodium hypochlorite (bleach)
+•
+DNAZapTM
+• Qiagen buffers AL and AW1 (with or without added ethanol) from the IT 1-
+2-3 QFLOWdna kit
+f. Assay cut-off:
+A data analysis module within assay-specific software applies mathematical modeling
+of expected amplification curve shapes to each individual capillary. When fixed
+thresholds with a quadratic formula or crossing point determination are matched,
+samples are called negative or positive. For undecided samples, an expert system
+approach is applied that uses filters to assess the fluorescence change around the
+crossing point.
+2. Comparison studies:
+a. Method comparison with predicate device:
+Not applicable.
+b. Matrix comparison:
+Not applicable.
+3. Clinical studies:
+a. Clinical Sensitivity:
+The clinical performance of the JBAIDS Q Fever Detection Kit was evaluated by
+testing acute serum samples obtained from individuals suspected of having acute Q
+fever. The study was performed at 3 geographically distinct locations, Australia,
+France and the Netherlands, using banked, frozen serum specimens that were
+sequentially received during a specified time period for which standard paired
+serological testing for Q fever had been previously performed. The results of the
+serology-based indirect immunofluorescence assays (IFA) were used as the gold
+standard to which the JBAIDS results were compared. Samples were considered to be
+15
+
+--- Page 16 ---
+positive for acute Q fever if there was a four-fold rise in antibody titer or if there was
+seroconversion between the paired acute and convalescent specimens. To better
+simulate a prospective study, all samples of sufficient volume that were submitted for
+Q Fever serology testing at each site within a given time period were included in the
+study.
+Serum specimens from a total of 749 subjects were evaluated in the study. However
+284 were excluded (86 for inconclusive or incomplete serology, 21 due to
+environmental contamination, 7 for inconclusive JBAIDS results and all 170 samples
+tested at site 3 due to deviations from the study protocol).
+Of the remaining 465 subjects, 254 (55%) were serology positive and 211 (45%) were
+serology negative. Sixty-two (24%) of the serology positive specimens were
+considered to be positive due to a seroconversion while 192 (76%) were deemed
+positive due to a 4-fold rise in antibody titer. Of the 211 serology negative specimens,
+149 (71%) were sero-negative and remained negative and 62 (29%) did not exhibit a
+four-fold rise in titer between paired specimens.
+Prior to testing with the JBAIDS Q Fever Detection kit, serum samples were purified
+using either the IT 1-2-3 Platinum Path or the IT 1-2-3 QFLOWdna sample
+purification kit. Out of the 465 specimens, 183 specimens had adequate volume to be
+purified using both purification methods. This resulted in a total of 324 final test
+results for Platinum Path (170 from serology positive specimens and 154 from
+serology negative specimens) and 324 final test results for QFLOW (171 from
+serology positive specimens and 153 from serology negative specimen).
+Of the 252 tests on samples that were serology positive based upon a four-fold rise in
+antibodies, the JBAIDS Q Fever Detection system correctly identified the presence of
+C. burnetii in 17.8% (45/252) samples. However, the positive JBAIDS test result rate
+for those samples which exhibited seroconversion was significantly higher at 62.9%
+(56/89). These data are consistent with several published reports indicating that PCR
+detection of C. burnetii declines significantly once specific antibodies are detected by
+serology.
+As shown in the table below, the clinical sensitivity for the JBAIDS Q Fever
+Detection Kit was different at the two study sites. Site 1 had a lower detection rate
+(29% for specimens purified using the QFLOWdna extraction kit and 47% for
+specimens purified using the Platinum Path purification kit) when compared to the
+detection rate at site 2 (81% for specimens purified using the QFLOWdna extraction
+kit and 77% for specimens purified using the Platinum Path purification kit). The
+differences observed at the two study sites may be the result of differences in
+organism strains, patient population or patient management.
+Sensitivity and Specificity for the JBAIDS Q Fever Detection Kit in Specimens
+Tested for Acute Q Fever that were Seronegative
+16
+
+--- Page 17 ---
+SERONEGATIVE SAMPLES
+Sensitivity Specificity
+Site Purification Kit TP/ TN/
+Percent Percent
+(TP + FN) (TN + FP)
+47% 100%
+Platinum Path 9/19 40/40
+(95% CI=24-71%) (95% CI=91-100%)
+1
+29% 100%
+QFLOWdna 5/17 39/39
+(95% CI=10-56%) (95% CI=91-100%)
+77% 100%
+Platinum Path 20/26 71/71
+(95% CI=56-91%) (95% CI=95-100%)
+2
+81% 100%
+QFLOWdna 22/27 72/72
+(95% CI=62-94%) (95% CI=95-100%)
+b. Clinical specificity:
+Of the 307 tests on serology negative samples in the overall analysis, 222 had no
+antibody to C. burnetii and 85 failed to show a 4-fold rise in antibody titer between
+the paired acute and convalescence samples, all but one (306/307, 99.7%) gave the
+expected negative result when tested with the JBAIDS Q Fever Detection Kit. The
+one false positive was obtained from one of the samples that failed to show a four-
+fold rise in antibody titer. When only seronegative specimens samples were analyzed
+(those samples that didn’t have antibodies in the acute sample but become positive in
+the convalescent sample) clinical specificity was 100%.
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable.
+4. Clinical cut-off:
+Not applicable.
+5. Expected values/Reference range:
+Not applicable, qualitative test.
+N. Instrument Name:
+JBAIDS Instrument
+O. System Descriptions:
+1. Modes of Operation:
+Batch
+17
+
+[Table 1 on page 17]
+	SERONEGATIVE SAMPLES							
+				Sensitivity		Specificity		
+	Site		Purification Kit	TP/		TN/		
+					Percent		Percent	
+				(TP + FN)		(TN + FP)		
+								
+				9/19	47%
+(95% CI=24-71%)	40/40	100%
+(95% CI=91-100%)	
+			Platinum Path					
+	1							
+				5/17	29%
+(95% CI=10-56%)	39/39	100%
+(95% CI=91-100%)	
+			QFLOWdna					
+								
+				20/26	77%
+(95% CI=56-91%)	71/71	100%
+(95% CI=95-100%)	
+			Platinum Path					
+	2							
+				22/27	81%
+(95% CI=62-94%)	72/72	100%
+(95% CI=95-100%)	
+			QFLOWdna					
+								
+
+--- Page 18 ---
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for
+this line of product types:
+Yes ___X_____ or No ________
+3. Specimen Identification:
+Manual
+4. Specimen Sampling and Handling:
+Manually but guided by the Diagnostic Wizard in the software for the Q Fever assay.
+5. Calibration:
+The fluorimeter is factory-calibrated. Internal self-check procedures are run with each
+startup. Cycling temperatures are monitored continuously during a run.
+6. Quality Control:
+Determined by Positive, Negative, Inhibitory, and DNA extraction controls specific to
+assay kit.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In The
+“Performance Characteristics” Section above:
+Carryover and Cross-contamination
+To evaluate carryover, negative serum samples were processed and tested alongside highly
+positive serum samples (spiked with inactivated C. burnetii Nine Mile at 1 X 105
+organisms/mL, equivalent to approximately 1000X LoD). Potential carryover during sample
+purification and sample setup was assessed by processing samples in alternating order (i.e., a
+negative sample followed by a positive sample) and then testing the processed samples with
+the Q Fever target assay.
+Using the IT 1-2-3TM Platinum Path Sample Purification Kit, all 23 negative serum samples
+gave negative results for the target assay. Using the IT 1-2-3TM QFLOWdna Sample
+Purification Kit, all 23 negative serum samples gave negative results for the target assay.
+Sample Transport and Storage
+To evaluate the serum matrix, 12 individual specimens were used for both the IT 1-2-3
+Platinum Path and QFLOWdna purification kits. Eight of the specimens were spiked with live
+C. burnetii at the LoD level of 10 TCID50/mL. The remaining 4 specimens were not spiked.
+18
+
+--- Page 19 ---
+All 8 positive serum specimens, stored unpurified, tested positive at Day 0, Day 3, Day 7,
+Day 30, and after a freeze/thaw cycle. The average Cp values for the stored specimens were
+all within 1 cycle of the day 0 time point suggesting no decrease in assay performance with
+storage. In addition, the average Fmax values for the time points were never less than half of
+the Fmax of the day 0 baseline indicating no reduction of test system performance. All 4
+negative samples tested negative at all three time points. The average Cp and Fmax values of
+the associated Inhibition Control assays were similar at all three time points.
+These results indicate that serum specimens can be stored at 18-28 °C for up to three days, at
+2-8 °C for up to seven days before testing, and at -20°C with or without a freeze/thaw cycle
+for thirty days without compromising the results.
+The stability of purified samples was only assessed after purification with IT 1-2-3 Platinum
+purified samples. All positive samples tested positive with the target assay with similar Cp
+and Fmax values at Day 0, Day 7, and Day 30. All negative samples tested negative at all
+three time points with the target assay and the average Cp and Fmax values of the Inhibition
+Control assays were similar at each time point. These results indicate that purified specimens
+can be stored at 2-8 °C for up to seven days before testing, and at -20°C for thirty days
+without compromising the results.
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+19

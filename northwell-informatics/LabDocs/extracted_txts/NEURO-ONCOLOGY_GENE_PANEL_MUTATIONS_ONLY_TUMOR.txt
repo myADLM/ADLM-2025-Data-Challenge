@@ -1,0 +1,120 @@
+Standard Operating Procedure (SOP) for Neuro-Oncology Gene
+Panel, Mutations Only, Tumor
+1. PURPOSE
+The purpose of this SOP is to outline the analytical procedures for the
+detection of mutations in genes included in the Neuro-Oncology
+Gene Panel in tumor samples. This SOP ensures standardized and
+accurate detection and reporting of genetic mutations, which is
+critical for patient diagnosis, prognosis, and personalized treatment
+strategies for neuro-oncological conditions.
+1. SCOPE
+This procedure applies to the molecular diagnostics laboratory for
+processing and analyzing tumor samples for the Neuro-Oncology
+Gene Panel. The procedures are to be strictly followed by laboratory
+staff trained in molecular biology and genetic testing.
+1. RESPONSIBILITY
+It is the responsibility of qualified laboratory personnel to:
+• Follow the detailed procedures accurately.
+• Maintain and validate all required equipment and instruments.
+• Document all testing steps and findings.
+• Conduct and document Quality Control (QC) measures.
+• Report any deviations or issues encountered during the process
+to a supervisor.
+1. SPECIMEN REQUIREMENTS AND STABILITY
+◦ Preferred Specimen: Formalin-fixed, paraffin-embedded
+(FFPE) tumor tissue.
+◦ Minimum Specimen Requirement: One scroll of FFPE tissue
+at least 5 microns thick or corresponding unstained slide.
+◦ Specimen Stability: Room temperature; FFPE blocks are
+stable for several years.
+2. REAGENTS, EQUIPMENT, AND SUPPLIES
+◦ DNA Extraction kit suitable for FFPE tissues.
+◦ Quantitative PCR (qPCR) purification and quantification
+instruments.
+◦ NGS (Next Generation Sequencing) library preparation kit.
+◦ Gene panel sequencing reagents and consumables.
+◦ Sequencing platform (e.g., Illumina MiSeq, Ion Torrent).
+◦ Computer with bioinformatics software for sequence
+analysis.
+3. PROCEDURE
+6.1 DNA Extraction
+• Deparaffinization: Using xylene and ethanol, deparaffinize the
+tumor tissue.
+• DNA isolation: Utilize a validated DNA extraction kit following the
+manufacturer’s protocols. Document the extracted DNA
+concentration and purity using a spectrophotometer (e.g.,
+Nanodrop) or fluorometer (e.g., Qubit).
+6.2 DNA Quantification and Quality Control
+• Measure DNA concentration and assess purity using the
+spectrophotometer or fluorometer.
+• Ensure that the minimum DNA concentration for library
+preparation is met.
+• Document yields and any dilution steps taken.
+6.3 Library Preparation and Enrichment
+• Use the NGS library preparation kit as per the manufacturer’s
+guidelines.
+• Perform target enrichment for the neuro-oncology gene panel
+using the specified probe sets.
+• Validate library integrity and size using a bioanalyzer or similar.
+6.4 Sequencing
+• Load prepared libraries onto the sequencing platform as per the
+manufacturer's instructions.
+• Ensure correct instrument settings and run parameters.
+• Run a control sample with known mutations for QC.
+• Monitor run progress and address any alerts or failures.
+6.5 Data Analysis and Interpretation
+• Transfer raw data to a bioinformatics pipeline for processing.
+• Align sequencing reads to a reference genome.
+• Identify mutations using variant calling software.
+• Annotate and classify mutations.
+• Validate identified mutations using internal data and comparison
+with databases (e.g., COSMIC, ClinVar).
+6.6 Reporting
+• Generate a report for each sample that includes:
+◦ Patient identification and sample details.
+◦ Methodology.
+◦ List of detected mutations including gene, nucleotide change,
+and amino acid change.
+◦ Clinical relevance and potential actionability of identified
+mutations.
+• Review and verify the report by a qualified laboratory director or
+designee before release.
+1. QUALITY CONTROL
+◦ Perform routine checks and calibrations of all instruments
+used.
+◦ Include and document the testing of positive and negative
+controls in each batch.
+◦ Re-run samples if QC checks fail or if there are significant
+deviations from expected outcomes.
+◦ Maintain logs of all QC activities and any corrective actions
+taken.
+2. TROUBLESHOOTING
+◦ If anomalies or failures occur:
+▪ Re-extract DNA if initial extraction is of poor quality.
+▪ Re-sequence failed runs or re-run problematic samples.
+▪ Consult manufacturer's troubleshooting guidelines or
+technical support if needed.
+▪ Notify a supervisor and document all troubleshooting
+actions.
+3. DOCUMENTATION
+◦ Maintain records of all specimens, extraction logs, library
+preparation notes, sequencing run records, data analysis
+results, QC activities, and final reports.
+◦ Ensure records are complete, accurate, and securely
+stored.
+4. REFERENCES
+• Manufacturer’s protocols for DNA extraction kit.
+• Manufacturer’s guidelines for library preparation and sequencing
+platform.
+• Bioinformatics software user manuals.
+• Regulatory guidelines from CLIA and CAP for molecular
+diagnostics.
+APPROVALS
+Prepared by: ___________________ Date: ____________
+Reviewed by: ___________________ Date: ____________
+Approved by: ___________________ Date: ____________
+This SOP is effective as of ______________ (start date) and is
+subject to review and revision annually or as required.
+Note: This is a generalized SOP. Laboratory-specific details and
+variations should be incorporated based on specific practices,
+equipment, and procedural requirements.

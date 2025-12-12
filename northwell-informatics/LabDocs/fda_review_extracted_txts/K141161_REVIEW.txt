@@ -1,0 +1,1038 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION MEMORANDUM
+A. 510(k) Number:
+k141161
+B. Purpose for Submission:
+Clearance of a new device.
+C. Manufacturer and Instrument Name:
+Horiba ABX SAS, ABX Micros ES 60 OT and ABX Micros ES 60 CT
+D. Type of Test or Tests Performed:
+Quantitative test for white blood count (WBC), red blood count (RBC), hemoglobin (HGB),
+hematocrit (HCT), mean corpuscular volume (MCV), mean corpuscular hemoglobin (MCH),
+mean corpuscular hemoglobin concentration (MCHC), platelets (PLT), lymphocyte
+(LYM)%/#, monocyte (MON)%/#, granulocytes (GRA)%/#, and red cell distribution width
+(RDW).
+E. System Descriptions:
+1. Device Description:
+The ABX MICROS ES 60 is a quantitative, automated hematology analyzer and
+leukocyte differential counter for in vitro diagnostic use in clinical laboratories. The
+instrument system is comprised of the analyzer and a suite of analytical reagents that
+allow for simultaneous quantitative determination of hemoglobin measurement, cell
+counting, quality control, calibration, and cleaning. The system is a microprocessor
+controlled hematology analyzer used for the in vitro diagnostic testing of whole blood
+specimens. It operates in complete blood count (CBC) and Differential (DIFF) mode
+using a combination of focused flow impedance and light transmission technologies. It is
+available in Closed (CT) or Open Tube (OT) sampling versions.
+2. Principles of Operation:
+The ABX Micros ES 60 principle of automated cell counting and sizing is used in the
+analysis of the whole blood. Each cell suspended in a conductive liquid (diluent) acts as
+an insulator. As each cell goes through the aperture, it momentarily increases the
+resistance of the electrical path between two submerged electrodes on either side of the
+aperture. This causes a measurable electronic pulse. While the number of pulses
+indicates particle count, the amplitude of the electrical pulse is proportional to the cell
+volume. These pulses are sent to the Signal Conditioner for analog to digital conversion.
+Pulse counts and digitized pulse measurements are sent to the System Manager for
+processing by the algorithms where the reported parameter values, flags and histograms
+are generated.
+1
+
+--- Page 2 ---
+The lysing reagent breaks down the RBC cell membrane and releases the hemoglobin
+contained by the cell. The hemoglobin, released by the lysing reagent, combines with the
+potassium cyanide from the lysing reagent to form a chromogenous cyanmethemoglobin
+compound. This compound is then measured through the optical part of the WBC/HGB
+chamber by spectrophotometry at a wavelength of 550 nm.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ___X____
+4. Specimen Identification:
+Specimen identification is by manual sample identification or with the use of a hand held
+barcode scanner.
+5. Specimen Sampling and Handling:
+Two models of ABX Micros ES 60 are available.
+· The Closed Tube (CT) instrument: Cap-piercing mechanism; the blood collection
+tube is placed directly in the analyzer without removing the cap.
+· The Open Tube (OT) instrument: The cap from the blood collection tube must be
+removed before analyzing the sample.
+6. Calibration:
+ABX Minocal calibrator (k955925) is used for the ABX Micros ES 60 calibration
+procedure. Assigned assay values are traceable to reference methods. Calibration is
+performed by a HORIBA ABX SAS representative during specific situations such as
+installation, maintenance or service intervention.
+7. Quality Control:
+ABX Minotrol 16 Control (high, normal and low) (k850755) is used to monitor system
+performance for all directly measured and calculated CBC and Diff parameters. Assigned
+assay values are determined on validated instruments using the appropriate reagents.
+8. Software:
+2
+
+--- Page 3 ---
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes ___X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+CFR 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+3 Product code:
+GKZ, Counter, Differential Cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The ABX MICROS ES 60 (OT and CT models) is a quantitative multi-parameter,
+automated hematology analyzer for in vitro diagnostic use in clinical laboratories to
+identify and enumerate the following parameters: WBC, RBC, HGB, HCT, MCV, MCH,
+MCHC, RDW, PLT, MPV, LYM%, LYM#, MON%, MON#, GRA%, GRA#, in
+K EDTA and K EDTA anticoagulated venous whole blood samples of adult patient
+2 3
+population.
+It is not intended to be used for pediatric subjects.
+2. Special Conditions for Use Statement(s):
+For prescription use only
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Horiba ABX Micros 60, k030799
+3
+
+--- Page 4 ---
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+(ABX MICROS ES 60) (ABX MICROS 60 - k030799)
+Intended Use The ABX MICROS ES 60 (OT and CT The ABX MICROS 60 Hematology
+models) is a quantitative multi-parameter, Analyzer is a fully automated
+automated hematology analyzer for in vitro (microprocessor controlled)
+diagnostic use in clinical laboratories to hematology analyzer used for the in
+identify and enumerate the following vitro diagnostic testing of whole
+parameters: WBC, RBC, HGB, HCT, blood specimens or blood cell
+MCV, MCH, MCHC, RDW, PLT, MPV, concentrates. It operates in complete
+LYM%, LYM#, MON%, MON#, GRA%, blood count (CBC) mode.
+GRA#, in K EDTA and K EDTA
+2 3
+anticoagulated venous whole blood
+samples of adult patient population. It is
+not intended to be used for pediatric
+subjects.
+Principles of Measurement
+RBC, PLT, HCT, MPV Impedance Same
+HGB Spectrophotometry Same
+WBC, WBC Differential Impedance Same
+(LYM, MON, GRA))
+RDW, MCV, MCH, Calculation Same
+MCHC
+Reagents
+Diluent ABX Minidil LMG Same
+Lyse ABX Minilyse LMG or ABX Alphalyse Same
+360
+Cleaner ABX Miniclean Same
+Reagent Pack ABX Minipack LMG Same
+Concentrated cleaning ABX Minoclair Same
+reagent
+Quality Controls ABX Minotrol 16 (3 levels) Same
+Calibrator ABX Minocal Same
+System configuration Bench top Same
+Handheld barcode reader (optional)
+Integrated barcode reader (CT version
+only)
+Printer
+Sampling mechanism Single tube presentation – open and closed Same
+vial sampling
+Aspiration pathway Single sampling probe and common Same
+aspiration pathway used for all sample
+presentation modes
+Minimum sample 50 µL Same
+volume
+Specimen sample 10 µL
+volume
+Counting aperture
+diameters Same
+RBC/PLT 50 µm
+WBC 80 µm
+4
+
+[Table 1 on page 4]
+Similarities							
+Item			Device			Predicate	
+			(ABX MICROS ES 60)			(ABX MICROS 60 - k030799)	
+Intended Use		The ABX MICROS ES 60 (OT and CT
+models) is a quantitative multi-parameter,
+automated hematology analyzer for in vitro
+diagnostic use in clinical laboratories to
+identify and enumerate the following
+parameters: WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, RDW, PLT, MPV,
+LYM%, LYM#, MON%, MON#, GRA%,
+GRA#, in K EDTA and K EDTA
+2 3
+anticoagulated venous whole blood
+samples of adult patient population. It is
+not intended to be used for pediatric
+subjects.			The ABX MICROS 60 Hematology
+Analyzer is a fully automated
+(microprocessor controlled)
+hematology analyzer used for the in
+vitro diagnostic testing of whole
+blood specimens or blood cell
+concentrates. It operates in complete
+blood count (CBC) mode.		
+	Principles of Measurement						
+RBC, PLT, HCT, MPV		Impedance			Same		
+HGB		Spectrophotometry			Same		
+WBC, WBC Differential
+(LYM, MON, GRA))		Impedance			Same		
+RDW, MCV, MCH,
+MCHC		Calculation			Same		
+	Reagents						
+Diluent		ABX Minidil LMG			Same		
+Lyse		ABX Minilyse LMG or ABX Alphalyse
+360			Same		
+Cleaner		ABX Miniclean			Same		
+Reagent Pack		ABX Minipack LMG			Same		
+Concentrated cleaning
+reagent		ABX Minoclair			Same		
+Quality Controls		ABX Minotrol 16 (3 levels)			Same		
+Calibrator		ABX Minocal			Same		
+System configuration		Bench top
+Handheld barcode reader (optional)
+Integrated barcode reader (CT version
+only)
+Printer			Same		
+Sampling mechanism		Single tube presentation – open and closed
+vial sampling			Same		
+Aspiration pathway		Single sampling probe and common
+aspiration pathway used for all sample
+presentation modes			Same		
+Minimum sample
+volume
+Specimen sample
+volume		50 µL
+10 µL			Same		
+Counting aperture
+diameters
+RBC/PLT
+WBC		50 µm
+80 µm			Same		
+
+--- Page 5 ---
+Similarities
+Item Device Predicate
+(ABX MICROS ES 60) (ABXMICROS 60-k030799)
+Dilution ratios:
+RBC/PLT chamber 1/15000 Same
+Differences
+Item Device Predicate
+(ABX MICROS ES 60) (ABX MICROS 60 - k030799)
+User Interface Display Automated instrument with 8” LCD touch Automated instrument with 3” LCD
+screen display display
+Software application Linux-based software application Internally developed software
+application
+Analytical cycle 1. Draining sequence done by vacuum 1. Draining sequence movement
+2. No air bubble. 2. Presence of air bubble at the
+end of all cycles
+Sample types Whole blood samples only Whole blood samples and blood cell
+concentrates
+Dilution ratio: WBC 1/260 1/250
+chamber
+Throughput OT/CT models: 60/50 samples per hour OT/CT model: approx. 60/55
+samples per hour
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI EP05-A2: Evaluation of Precision Performance of Quantitative Measurement Methods
+– 2004
+CLSI EP06-A: Evaluation of the Linearity of Quantitative Measurement Procedure: A
+Statistical Approach – 2003
+CLSI EP07-A2: Interference Testing in Clinical Chemistry – 2005
+CLSI EP09-A3: Measurement Procedure Comparison and Bias Estimation Using Patient
+Samples – 2013
+CLSI EP17-A2: Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures – 2012
+CLSI EP28-A3c: Defining, Establishing and Verifying Reference Intervals in the Clinical
+Laboratory – 2008
+CLSI H20-A2: Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods – 2007
+CLSI H26-A2: Validation, Verification and Quality Assurance of Automated Hematology
+Analyzers – 2010
+J. Performance Characteristics:
+5
+
+[Table 1 on page 5]
+Similarities						
+Item		Device			Predicate	
+		(ABX MICROS ES 60)			(ABXMICROS 60-k030799)	
+Dilution ratios:
+RBC/PLT chamber	1/15000			Same		
+
+[Table 2 on page 5]
+Differences						
+Item		Device			Predicate	
+		(ABX MICROS ES 60)			(ABX MICROS 60 - k030799)	
+User Interface Display	Automated instrument with 8” LCD touch
+screen display			Automated instrument with 3” LCD
+display		
+Software application	Linux-based software application			Internally developed software
+application		
+Analytical cycle	1. Draining sequence done by vacuum
+2. No air bubble.			1. Draining sequence movement
+2. Presence of air bubble at the
+end of all cycles		
+Sample types	Whole blood samples only			Whole blood samples and blood cell
+concentrates		
+Dilution ratio: WBC
+chamber	1/260			1/250		
+Throughput	OT/CT models: 60/50 samples per hour			OT/CT model: approx. 60/55
+samples per hour		
+
+--- Page 6 ---
+1. Analytical Performance:
+a. Method Comparison
+1. Comparability between ABX Micros ES 60 CT Vs. ABX Micros ES 60 OT
+A total of 237 whole blood specimens from adult patients were analyzed at one
+test site in France. Each sample was analyzed in duplicate on the ABX Micros ES
+60 CT (Close Tube model) and on the ABX Micros ES 60 OT (Open Tube
+model). Bias was estimated at three points for each parameter: the low end of the
+distribution of observations, the mid-point, and the high end of the distribution.
+Bias was estimated separately for each replicate. Acceptance criteria were met
+for all measurands at all levels. These findings support the claim that both Open
+Tube and Close Tube models of ABX Micros ES60 device yield comparable
+performances across the analytical range for all parameters. Passing Bablok
+regression analyses demonstrate comparable performance between Micros ES 60
+OT and Micros ES 60 CT models across the analytical range for all the
+parameters. Bias data for the first replicate of samples tested in the comparison
+study are provided below.
+First replicate:
+Passing Bablock
+%Bias confidence interval 95%
+Regression Bias
+Claim
+r² Slope Intercept Level 1 Level 2 Level 3
+WBC 0.998 1.00 0.08 9.80% [-3.4% ; 6.5%] [0.1% ; 1.7%] [0% ; 1.6%]
+RBC 0.996 1.00 -0.02 3.40% [-2.8% ; 2.7%] [-1.1% ; 0.8%] [-1% ; 0.6%]
+HGB 0.997 0.99 0.32 3.10% [-1.4% ; 7%] [-0.7% ; 2.3%] [-1.1% ; 1.5%]
+HCT 0.996 0.98 0.59 1.70% [-1.5% ; 1.7%] [-1.4% ; 0.6%] [-1.8% ; 0.2%]
+MCV 0.975 1.00 0 1.20% [-5.2% ; 0%] [-3.3% ; 0%] [-2.7% ; 0.6%]
+MCH 0.948 1.07 -1.69 [-4.6% ; 5.6%] [-1.9% ; 5.4%] [-1% ; 6.4%]
+MCH 0.706 1.33 -10.57 [-24.8% ; 9.8%] [-11.8% ; 13%] [-8.3% ; 17.2%]
+CR DW 0.896 1.00 0.20 4.00% [-8.6% ; 7.9%] [-6.1% ; 6.1%] [-4.6% ; 5.3%]
+PLT 0.987 0.98 5.63 14.7% [-12.8% ; 28.3%] [-3.2% ; 3.7%] [-3.6% ; 0.8%]
+MPV 0.955 1.00 -0.20 2.30% [-3.3% ; 3.0%] [-2.4% ; 1.00%] [-2.7% ; 0.7%]
+LYM 0.987 1.00 0.30 12.0% [-15.5% ; 43.7%] [-0.2% ; 2.1%] [-0.6% ; 1.7%]
+%LY M 0.999 1.00 0.10 12.0% [0.6% ; 10%] [0.9% ; 4.6%] [0.7% ; 3.9%]
+#M ON 0.960 1.03 0.10 26.0% [-6.7% ; 16%] [0.4% ; 6.8%] [0.2% ; 6.6%]
+%MON 0.979 1.00 0.00 13.2% [0% ; 0%] [0% ; 0%] [0% ; 0%]
+#G RA 0.989 1.00 -0.73 9.10% [-10.9% ; 3.0%] [-3.4% ; 0.8%] [-2.0% ; 0.7%]
+%GRA 0.999 1.00 0.00 9.10% [0% ; 0%] [0% ; 0%] [0% ; 0%]
+#
+2. ABX Micros ES (CT) and ABX Micros ES (OT) vs. Manual Microscopy
+100 normal and 100 pathological samples preserved in K EDTA covering the full
+2
+analytic range of the ABX Micros ES60 were analyzed in duplicate on the ABX
+Micros ES 60 OT and ABX Micros ES 60 CT. Two slides for each sample were
+prepared using May Grunwald Giemsa staining. Samples were classified into
+Normal or Abnormal samples for the ABX Micros ES 60 OT, ABX Micros ES 60
+6
+
+[Table 1 on page 6]
+	Passing Bablock
+Regression			Bias
+Claim	%Bias confidence interval 95%		
+	r²	Slope	Intercept		Level 1	Level 2	Level 3
+WBC	0.998	1.00	0.08	9.80%	[-3.4% ; 6.5%]	[0.1% ; 1.7%]	[0% ; 1.6%]
+RBC	0.996	1.00	-0.02	3.40%	[-2.8% ; 2.7%]	[-1.1% ; 0.8%]	[-1% ; 0.6%]
+HGB	0.997	0.99	0.32	3.10%	[-1.4% ; 7%]	[-0.7% ; 2.3%]	[-1.1% ; 1.5%]
+HCT	0.996	0.98	0.59	1.70%	[-1.5% ; 1.7%]	[-1.4% ; 0.6%]	[-1.8% ; 0.2%]
+MCV	0.975	1.00	0	1.20%	[-5.2% ; 0%]	[-3.3% ; 0%]	[-2.7% ; 0.6%]
+MCH	0.948	1.07	-1.69		[-4.6% ; 5.6%]	[-1.9% ; 5.4%]	[-1% ; 6.4%]
+MCH	0.706	1.33	-10.57		[-24.8% ; 9.8%]	[-11.8% ; 13%]	[-8.3% ; 17.2%]
+CR DW	0.896	1.00	0.20	4.00%	[-8.6% ; 7.9%]	[-6.1% ; 6.1%]	[-4.6% ; 5.3%]
+PLT	0.987	0.98	5.63	14.7%	[-12.8% ; 28.3%]	[-3.2% ; 3.7%]	[-3.6% ; 0.8%]
+MPV	0.955	1.00	-0.20	2.30%	[-3.3% ; 3.0%]	[-2.4% ; 1.00%]	[-2.7% ; 0.7%]
+LYM	0.987	1.00	0.30	12.0%	[-15.5% ; 43.7%]	[-0.2% ; 2.1%]	[-0.6% ; 1.7%]
+%LY M	0.999	1.00	0.10	12.0%	[0.6% ; 10%]	[0.9% ; 4.6%]	[0.7% ; 3.9%]
+#M ON	0.960	1.03	0.10	26.0%	[-6.7% ; 16%]	[0.4% ; 6.8%]	[0.2% ; 6.6%]
+%MON	0.979	1.00	0.00	13.2%	[0% ; 0%]	[0% ; 0%]	[0% ; 0%]
+#G RA	0.989	1.00	-0.73	9.10%	[-10.9% ; 3.0%]	[-3.4% ; 0.8%]	[-2.0% ; 0.7%]
+%GRA	0.999	1.00	0.00	9.10%	[0% ; 0%]	[0% ; 0%]	[0% ; 0%]
+
+--- Page 7 ---
+CT, and the reference method (manual slide microscopy for differential count).
+Method comparison studies were designed using the CLSI H20-A2 procedure
+by the construction of the "envelope" (or Confidence Interval CI) that takes into
+account the imprecision of both the test and the manual method (95% and 99%
+confidence interval, respectively).
+Based on a Gaussian distribution, 5% of the individual results may fall outside
+the 95% envelope. No result should exceed the 99% limits without biological
+explanation and a flag. Samples exceeding the 99% limits with a biological
+explanation and a flag are considered as outliers.
+Evaluation of clinical sensitivity/specificity was based on comparison results
+between the slide microscopy and the ABX Micros ES 60 analyzer using 200
+samples as follows:
+a. ABX Micros ES 60 OT ABX Micros ES 60 CT
+Number / Number / Number / Number /
+Parameter Percentage of Percentage of Percentage of Percentage of
+samples outside samples outside the samples outside the samples outside
+the 95% CI 99% CI 95% CI the 99% CI
+LYM% 3#/ 1.5% 0# 0% 7# / 3.5% 0# 0%
+MON% 5#/ 2.5% 0# 0% 5# / 2.5% 0# 0%
+GRA% 2#/ 1% 0# 0% 9# / 4.5% 0# 0%
+Samples with a quantitative or a morphological abnormality observed on the reference
+method (slide count) or on the predicate Micros 60 were compared with the quantitative
+flag on the Micros ES60 OT and CT.
+Micros ES 60 OT Micros ES 60 CT Micros 60
+Positive Negative Positive Negative Positive Negative
+(Abnormal) (Normal) (Abnormal) (Normal) (Abnormal) (Normal)
+Positive
+97 3 9 4 99 1
+Reference
+(Abnormal)
+6
+Method
+Negative
+43 57 5 49 66 34
+(Normal)
+1
+Micros ES 60 OT Micros ES 60 CT Micros 60
+% Efficiency 77.0% 72.5% 66.5
+% Sensitivity 97.0% 96.0% 9%9.0
+95% CI Sensitivity 91.5% to 99.0% 90.2% to 98.4% 94%.6 to 99.8%
+% Specificity 57.0% 49.0% 34.0
+95% CI Specificity 47.2% to 66.3% 39.4 to 58.7 % 25%.5 to 43.7%
+% 69.3% 65.3% 60.0
+%P 95.0% 92.5% 9%7.1
+PPV = PositiNvPe Predictive Value %
+NPV = NegatVPiv e Predictive Value
+V
+7
+
+[Table 1 on page 7]
+a.
+Parameter	ABX Micros ES 60 OT		ABX Micros ES 60 CT	
+	Number /
+Percentage of
+samples outside
+the 95% CI	Number /
+Percentage of
+samples outside the
+99% CI	Number /
+Percentage of
+samples outside the
+95% CI	Number /
+Percentage of
+samples outside
+the 99% CI
+LYM%	3#/ 1.5%	0# 0%	7# / 3.5%	0# 0%
+MON%	5#/ 2.5%	0# 0%	5# / 2.5%	0# 0%
+GRA%	2#/ 1%	0# 0%	9# / 4.5%	0# 0%
+
+[Table 2 on page 7]
+		Micros ES 60 OT		Micros ES 60 CT		Micros 60	
+							
+		Positive	Negative	Positive	Negative	Positive	Negative
+		(Abnormal)	(Normal)	(Abnormal)	(Normal)	(Abnormal)	(Normal)
+							
+Reference
+Method	Positive	97	3	9
+6	4	99	1
+	(Abnormal)						
+	Negative	43	57	5
+1	49	66	34
+	(Normal)						
+
+[Table 3 on page 7]
+	Micros ES 60 OT	Micros ES 60 CT	Micros 60
+% Efficiency	77.0%	72.5%	66.5
+% Sensitivity	97.0%	96.0%	9%9.0
+95% CI Sensitivity	91.5% to 99.0%	90.2% to 98.4%	94%.6 to 99.8%
+% Specificity	57.0%	49.0%	34.0
+95% CI Specificity	47.2% to 66.3%	39.4 to 58.7 %	25%.5 to 43.7%
+%	69.3%	65.3%	60.0
+%P	95.0%	92.5%	9%7.1
+
+--- Page 8 ---
+3. Comparability between ABX Micros ES 60 and ABX Micros 60
+A total of 179 whole blood specimens from adult patients were analyzed at four
+test sites in the US. Each of the samples was analyzed in duplicate on the ABX
+Micros ES 60 (CT model) and on the predicate ABX Micros 60. Bias was
+estimated at three points for each parameter: the low end of the distribution of
+observations, the mid-point, and the high end of the distribution. Bias was
+estimated separately for each replicate. Acceptance criteria were met for all
+measurands at all levels. These findings support the claim that the ABX Micros
+ES60 candidate device and the ABX Micros 60 predicate device are substantially
+equivalent, and demonstrate acceptable levels of bias.
+Method Comparison (ABX Micros 60 vs. ABX Micros ES 60 CT), Estimated bias for combined sites.
+Lower Higher Lower Higher
+Parameter N R2 Slope Limit Limit Intercept Limit Limit
+WBC
+174 0.999 1.00 0.99 1.00 0.00 0.00 0.07
+(103/mm3)
+RBC
+174 0.989 0.97 0.96 0.99 0.065 0.009 0.120
+(106/mm3)
+HGB 179 0.991 0.98 0.97 1.00 0.15 0.00 0.33
+(g/dL)
+HCT 172 0.988 0.98 0.96 0.99 0.48 -0.02 1.06
+(%)
+MCV 179 0.982 1.00 1.00 1.00 0.00 0.00 0.00
+(µm3)
+MCH 179 0.924 1.03 1.00 1.08 -0.77 -2.23 0.30
+MCHC 179 0.59 1.11 1.00 1.25 -3.36 -7.93 0.30
+RDW 179 0.944 0.91 0.87 0.94 1.65 1.15 2.15
+(%)
+PLT
+171 0.995 0.98 0.97 0.99 -2.97 -7.90 1.79
+(103/mm3)
+MPV 179 0.808 1.05 1.00 1.10 -0.39 -0.82 0.00
+(µm3)
+LYM 179 0.917 0.97 0.95 0.99 0.24 -0.18 0.71
+(%)
+LYM #
+(103/mm3) 179 0.996 0.99 0.95 1.00 0.01 0.00 0.06
+MON 179 0.778 1.11 1.07 1.15 -0.09 -0.35 0.26
+(%)
+MON # 179 0.961 1.00 1.00 1.03 0.10 0.07 0.10
+(103/mm3)
+GRA 179 0.913 1.01 0.99 1.03 -1.35 -2.65 -0.14
+(%)
+GRA # 179 0.998 1.00 0.99 1.00 0.00 0.00 0.02
+(103/mm3)
+Correlation coefficient; R2 Criteria >0.95 for WBC, RBC, HGB, HCT, PLT
+8
+
+[Table 1 on page 8]
+Parameter	N	R2	Slope	Lower
+Limit	Higher
+Limit	Intercept	Lower
+Limit	Higher
+Limit
+WBC
+(103/mm3)	174	0.999	1.00	0.99	1.00	0.00	0.00	0.07
+RBC
+(106/mm3)	174	0.989	0.97	0.96	0.99	0.065	0.009	0.120
+HGB
+(g/dL)	179	0.991	0.98	0.97	1.00	0.15	0.00	0.33
+HCT
+(%)	172	0.988	0.98	0.96	0.99	0.48	-0.02	1.06
+MCV
+(µm3)	179	0.982	1.00	1.00	1.00	0.00	0.00	0.00
+MCH	179	0.924	1.03	1.00	1.08	-0.77	-2.23	0.30
+MCHC	179	0.59	1.11	1.00	1.25	-3.36	-7.93	0.30
+RDW
+(%)	179	0.944	0.91	0.87	0.94	1.65	1.15	2.15
+PLT
+(103/mm3)	171	0.995	0.98	0.97	0.99	-2.97	-7.90	1.79
+MPV
+(µm3)	179	0.808	1.05	1.00	1.10	-0.39	-0.82	0.00
+LYM
+(%)	179	0.917	0.97	0.95	0.99	0.24	-0.18	0.71
+LYM #
+(103/mm3)	179	0.996	0.99	0.95	1.00	0.01	0.00	0.06
+MON
+(%)	179	0.778	1.11	1.07	1.15	-0.09	-0.35	0.26
+MON #
+(103/mm3)	179	0.961	1.00	1.00	1.03	0.10	0.07	0.10
+GRA
+(%)	179	0.913	1.01	0.99	1.03	-1.35	-2.65	-0.14
+GRA #
+(103/mm3)	179	0.998	1.00	0.99	1.00	0.00	0.00	0.02
+
+--- Page 9 ---
+To establish that the candidate device (ABX Micros ES 60 CT) is comparable with the
+predicate device (ABX Micros 60) following bias and r² acceptance criteria was
+established for Rep 1 and Rep 2.
+Bias Acceptance Criteria
+Parameter +/- % Bias Criteria R² Criteria
+WBC 9.8 > 0.95
+RBC 3.4 > 0.95
+HGB 3.1 >0.95
+HCT 1.7 >0.95
+MCV 1.2 -
+RDW 4.0 -
+PLT 14.7 >0.95
+MPV 2.3 -
+LYM% 12 -
+LYM# 12 -
+MON% 26 -
+MON# 13.2 -
+GRA% * 9.1 -
+GRA# * 9.1 -
+* Specific to Neutrophils
+b. Precision/Reproducibility:
+Repeatability Study
+Repeatability was performed in-house using 12 normal and 10 abnormal
+fresh whole blood samples collected into tubes containing K EDTA
+2
+anticoagulant. Each sample was run 10 consecutive times on two models of the
+Micros ES 60 (ES 60 OT and ES 60 CT), in a single day and all runs were
+completed within 8 hours of sample collection. The standard deviation was
+compared with the mean value of each parameter and the CV% was calculated.
+Results were within the specifications shown below.
+Precision (Repeatability) Acceptance Criteria
+WBC RBC HGB HCT PLT LYM% MON% GRA%
+%CV <2.5 <2 <1.5 <2 <5 <10 <20 <4
+Reproducibility
+Reproducibility was assessed on three Micros ES 60 instruments at three sites, one
+operator per site. At each site; High, Normal, and Low levels of one single lot of
+9
+
+[Table 1 on page 9]
+Parameter	+/- % Bias Criteria	R² Criteria
+WBC	9.8	> 0.95
+RBC	3.4	> 0.95
+HGB	3.1	>0.95
+HCT	1.7	>0.95
+MCV	1.2	-
+RDW	4.0	-
+PLT	14.7	>0.95
+MPV	2.3	-
+LYM%	12	-
+LYM#	12	-
+MON%	26	-
+MON#	13.2	-
+GRA% *	9.1	-
+GRA# *	9.1	-
+
+[Table 2 on page 9]
+	WBC	RBC	HGB	HCT	PLT	LYM%	MON%	GRA%
+%CV	<2.5	<2	<1.5	<2	<5	<10	<20	<4
+
+--- Page 10 ---
+Minotrol control material were run in duplicate, twice each day, for a total of 82 days
+among the three sites. Total standard deviation and CV% were calculated for each
+measurand and results obtained were within specifications shown below. The Micros
+ES 60 met the acceptance criteria.
+Reproducibility Study – Combined Sites
+All Sites Combined Within-Run Between-Day Between-Run Total
+Control Total CV%
+Parameter Level N Mean CV% CV% CV% CV% Claim
+Low 332 2.05 2.78 1.84 1.76 3.77 7.00
+WBC
+Normal 340 7.47 1.78 1.24 0.00 2.17 5.00
+(x 103/mm3)
+High 328 20.14 1.11 1.38 0.56 1.86 4.00
+Low 332 2.38 1.30 1.20 0.41 1.82 4.00
+RBC
+Normal 340 4.67 1.11 1.16 0.36 1.65 3.00
+(x 106/mm3)
+High 328 5.71 1.01 1.33 0.55 1.76 3.00
+Low 332 6.01 1.13 0.96 0.62 1.60 5.00
+HGB
+Normal 340 13.52 0.91 0.94 0.37 1.36 4.00
+(g/dL)
+High 328 17.90 0.74 1.09 0.49 1.40 3.00
+Low 332 16.62 1.35 2.21 0.55 2.65 5.00
+HCT
+Normal 340 38.11 1.15 1.62 0.59 2.07 4.50
+(%)
+High 328 51.21 1.07 1.93 0.58 2.28 4.00
+Low 332 69.90 0.49 2.02 0.42 2.12 4.00
+MCV
+Normal 340 81.70 0.35 1.51 0.35 1.59 3.00
+(µm3)
+High 328 89.68 0.38 1.72 0.34 1.79 2.50
+Low 332 75.64 5.99 5.15 3.29 8.56 15.00
+PLT
+Normal 340 264.63 2.96 1.29 0.46 3.26 10.00
+(103/mm3)
+High 328 521.83 2.13 1.72 0.53 2.78 7.00
+Low 332 13.42 1.86 2.94 0.74 3.56 5.0
+RDW
+Normal 340 12.96 1.31 3.18 0.84 3.55 5.0
+(%)
+High 328 12.30 1.26 2.92 0.91 3.31 5.0
+Low 332 25.28 1.00 1.25 0.44 1.66 7.0
+MCH
+Normal 340 28.97 0.74 1.25 0.32 1.49 4.5
+(103/mm3)
+High 328 31.35 0.72 1.22 0.27 1.44 4.0
+Low 332 36.16 1.04 2.14 0.23 2.39 7.0
+MCHC
+Normal 340 35.48 0.78 1.91 0.36 2.09 4.5
+(%)
+High 328 34.97 0.80 2.12 0.00 2.26 4.0
+Low 332 60.80 1.73 0.00 1.05 2.02 8.00
+LYM
+Normal 340 32.34 1.66 1.80 0.19 2.45 8.00
+(%)
+High 328 15.50 1.70 5.25 1.43 5.70 8.00
+10
+
+[Table 1 on page 10]
+All Sites Combined				Within-Run	Between-Day	Between-Run	Total	
+Parameter	Control	N		CV%	CV%	CV%	Total	CV%
+Claim
+	Level		Mean				CV%	
+WBC
+(x 103/mm3)	Low	332	2.05	2.78	1.84	1.76	3.77	7.00
+	Normal	340	7.47	1.78	1.24	0.00	2.17	5.00
+	High	328	20.14	1.11	1.38	0.56	1.86	4.00
+RBC
+(x 106/mm3)	Low	332	2.38	1.30	1.20	0.41	1.82	4.00
+	Normal	340	4.67	1.11	1.16	0.36	1.65	3.00
+	High	328	5.71	1.01	1.33	0.55	1.76	3.00
+HGB
+(g/dL)	Low	332	6.01	1.13	0.96	0.62	1.60	5.00
+	Normal	340	13.52	0.91	0.94	0.37	1.36	4.00
+	High	328	17.90	0.74	1.09	0.49	1.40	3.00
+HCT
+(%)	Low	332	16.62	1.35	2.21	0.55	2.65	5.00
+	Normal	340	38.11	1.15	1.62	0.59	2.07	4.50
+	High	328	51.21	1.07	1.93	0.58	2.28	4.00
+MCV
+(µm3)	Low	332	69.90	0.49	2.02	0.42	2.12	4.00
+	Normal	340	81.70	0.35	1.51	0.35	1.59	3.00
+	High	328	89.68	0.38	1.72	0.34	1.79	2.50
+PLT
+(103/mm3)	Low	332	75.64	5.99	5.15	3.29	8.56	15.00
+	Normal	340	264.63	2.96	1.29	0.46	3.26	10.00
+	High	328	521.83	2.13	1.72	0.53	2.78	7.00
+RDW
+(%)	Low	332	13.42	1.86	2.94	0.74	3.56	5.0
+	Normal	340	12.96	1.31	3.18	0.84	3.55	5.0
+	High	328	12.30	1.26	2.92	0.91	3.31	5.0
+MCH
+(103/mm3)	Low	332	25.28	1.00	1.25	0.44	1.66	7.0
+	Normal	340	28.97	0.74	1.25	0.32	1.49	4.5
+	High	328	31.35	0.72	1.22	0.27	1.44	4.0
+MCHC
+(%)	Low	332	36.16	1.04	2.14	0.23	2.39	7.0
+	Normal	340	35.48	0.78	1.91	0.36	2.09	4.5
+	High	328	34.97	0.80	2.12	0.00	2.26	4.0
+LYM
+(%)	Low	332	60.80	1.73	0.00	1.05	2.02	8.00
+	Normal	340	32.34	1.66	1.80	0.19	2.45	8.00
+	High	328	15.50	1.70	5.25	1.43	5.70	8.00
+
+--- Page 11 ---
+All Sites Combined Within-Run Between-Day Between-Run Total
+Control Total CV%
+Parameter Level N Mean CV% CV% CV% CV% Claim
+Low 332 11.18 6.30 3.95 0.00 7.43 15.00
+MON
+Normal 340 7.64 4.11 2.77 1.27 5.11 15.00
+(%)
+High 328 6.56 4.06 9.28 6.55 12.061 11.00
+Low 332 27.99 3.45 1.65 2.48 4.56 12.00
+GRA
+Normal 340 60.02 0.98 1.05 0.00 1.44 4.00
+%
+High 328 77.94 0.47 0.90 0.45 1.11 3.00
+Low 332 1.20 3.61 2.21 2.00 4.68 8.00
+LYM# Normal 340 2.37 2.57 3.02 0.23 3.97 8.00
+High 328 3.07 2.27 6.68 0.84 7.29 8.00
+Low 332 0.20 10.09 5.97 0.00 11.73 15
+MON# Normal 340 0.52 6.85 3.60 2.56 8.15 14
+High 328 1.27 4.85 9.45 7.04 12.741 11
+Low 332 0.66 8.23 0.74 3.13 8.83 12.0
+GRA# Normal 340 4.59 2.15 0.28 0.29 2.19 4.0
+High 328 15.79 1.24 0.86 0.63 1.63 3.0
+1: Exceeds acceptance criteria limits; however, these results support the claim of reproducibility for low, normal
+and high levels of controls with the overall reproducibility claim being met in 97% of the tests.
+c. Linearity:
+Linearity was assessed s using R&D Systems CBC-LINE high and low range
+linearity kits according to the manufacturer’s instructions. The expected values of the
+kit samples were considered the “true values”. Each level was run in replicates of
+four (n=4) as recommended by the kit supplier. For each level, the 4 replicate results
+were plotted versus the theoretical value. The findings of the polynomial regression
+analysis indicate that the ABX Micros ES 60 exhibits linearity across the claimed
+range. The Micros ES 60 met the acceptance criteria.
+Analytical Measuring Range
+Parameter AMR on Micros
+ES60
+WBC (103/mm3) 0.8 – 100
+RBC (106/mm3) 0.7 – 8
+PLT (103/mm3) 42 – 2200
+HGB (g/dL) 0.6 - 24.0
+HCT (%) 8.0 - 70.0
+d. Carryover:
+The potential for sample carryover was tested in duplicate on the ABX Micros ES 60
+OT and CT instruments using alternating high and low sample concentrations.
+Carry-over effects were evaluated by assaying a diluted sample 3 times, low (L1-3)
+11
+
+[Table 1 on page 11]
+All Sites Combined				Within-Run	Between-Day	Between-Run	Total	
+Parameter	Control	N		CV%	CV%	CV%	Total	CV%
+Claim
+	Level		Mean				CV%	
+MON
+(%)	Low	332	11.18	6.30	3.95	0.00	7.43	15.00
+	Normal	340	7.64	4.11	2.77	1.27	5.11	15.00
+	High	328	6.56	4.06	9.28	6.55	12.061	11.00
+GRA
+%	Low	332	27.99	3.45	1.65	2.48	4.56	12.00
+	Normal	340	60.02	0.98	1.05	0.00	1.44	4.00
+	High	328	77.94	0.47	0.90	0.45	1.11	3.00
+LYM#	Low	332	1.20	3.61	2.21	2.00	4.68	8.00
+	Normal	340	2.37	2.57	3.02	0.23	3.97	8.00
+	High	328	3.07	2.27	6.68	0.84	7.29	8.00
+MON#	Low	332	0.20	10.09	5.97	0.00	11.73	15
+	Normal	340	0.52	6.85	3.60	2.56	8.15	14
+	High	328	1.27	4.85	9.45	7.04	12.741	11
+GRA#	Low	332	0.66	8.23	0.74	3.13	8.83	12.0
+	Normal	340	4.59	2.15	0.28	0.29	2.19	4.0
+	High	328	15.79	1.24	0.86	0.63	1.63	3.0
+
+[Table 2 on page 11]
+Parameter	AMR on Micros
+ES60
+WBC (103/mm3)	0.8 – 100
+RBC (106/mm3)	0.7 – 8
+PLT (103/mm3)	42 – 2200
+HGB (g/dL)	0.6 - 24.0
+HCT (%)	8.0 - 70.0
+
+--- Page 12 ---
+then a sample with high cell concentrations 3 times (H1-3), followed immediately by
+testing a diluted sample consecutively 3 times (L4-6). Clinical samples were either
+concentrated or diluted to obtain the following target high and low sample values:
+High Samples Low Samples
+WBC 40 to 80 x103/mm3 0.8 to 1.2 x 103/mm3
+RBC 6 to 9 x 106/mm3 1 to 2 x106/mm3
+HGB 15 to 20 g/dL 5 to 7 g/dL
+PLT 500 to 1000 x103/mm3 15 to 50 x103/mm3
+All carry-over results were within specifications, <1% for the ABX Micros ES OT
+and CT Systems for the following parameters: WBC, RBC, HGB, and PLT.
+e. Interfering Substances:
+The study to evaluate interference effect followed two methodologies:
+By addition: The evaluation of the effect of potentially interfering substances added
+to the sample of interest. A potential interfering substance was added to a sample and
+the bias relative to a control portion of the sample was evaluated ("paired-difference
+testing"). This bias was compared to the acceptance criteria. For all tests performed
+with potential interferents, the bias remained below the acceptable limit. Therefore,
+no significant interference was observed for urea, bilirubin, lipemia, and hemolysis.
+Interference of WBC counts has been observed in presence of yeast in the sample.
+By comparison: Evaluation of the bias of individual specimen. Representative patient
+specimens and a control sample (without interferent) were run in duplicate using the
+Micors ES 60 versus the reference device, Micros 60, to obtain a comparative
+measurement. The bias versus comparative measurement values was plotted for each
+specimen group. Both measurement procedures had 10 to 20 samples in each group
+to demonstrate sufficient precision. A comparable effect was observed on the ABX
+Micros ES 60 and the reference device when interference was tested for the
+following: WBC fragments, myelocytes, nucleated RBC, RBC inclusion, RBC
+agglutinins / cold agglutinins / RBC rouleaux, dual RBC population, RBC fragments,
+target cells, platelet aggregates, platelet satellitism, macrothrombocytes / large
+platelets, small RBC leukocytosis.
+Interference of megakaryoctes with WBC and parasites with monocyte counts could
+not be tested, but that are well described in literature.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+1. Specimen Stability Studies:
+Eleven (11) whole venous blood specimens (collected in K EDTA and K EDTA)
+2 3
+were analyzed on the ABX Micros ES 60 (OT model) at one site in France in order to
+cover the AMR for the majority of measurands. Following the collection (T0), each
+specimen was divided in half, with one sample stored at ambient temperature (20-
+12
+
+[Table 1 on page 12]
+	High Samples	Low Samples
+WBC	40 to 80 x103/mm3	0.8 to 1.2 x 103/mm3
+RBC	6 to 9 x 106/mm3	1 to 2 x106/mm3
+HGB	15 to 20 g/dL	5 to 7 g/dL
+PLT	500 to 1000 x103/mm3	15 to 50 x103/mm3
+
+--- Page 13 ---
+24oC) and the other stored under refrigerated conditions (2-8oC). Testing for stability
+was performed at 2, 6, 8, 10, 24, 36, 48, 60 and 72 hours after T0 The first aliquot of
+.
+each specimen was run sequentially in any order. The second aliquot was run in
+reverse order to minimize the effects of carryover and drift. The acceptance criteria
+for sample stability is given as an acceptable maximum bias of the value at T with the
+value at T0. All data met specifications.
+Parameters Sample stability when Sample stability when
+stored refrigerated stored at room temperature
+(2-8°C) (20-24°C)
+WBC, RBC, HGB, HCT, 48 hours 36 hours
+MCV, MCH, MCHC, PLT
+RDW 36 hours 10 hours
+MPV 24 hours 24 hours
+LYM%, LYM#, MON%, 24 hours 8 hours
+MON#, GRA%, GRA#
+2. Comparability between Anticoagulants
+A total of 52 normal and pathological blood specimens were analyzed on the ABX
+Micros ES 60 (CT model) at three sites in the US. Testing was performed using a
+different instrument and operator at each site. The specimens used in this study were
+venous blood specimens that were prospectively specifically collected for this study.
+Each subject provided blood collected in both K EDTA and K EDTA. Each of the
+2 3
+samples was analyzed in duplicate on the ABX Micros ES 60 CT. Bias was
+estimated at three points for each parameter: the low end of the distribution of
+observations, the mid-point, and the high end of the distribution. Bias was estimated
+separately for each replicate. Acceptance criteria were met for all measurands at all
+levels. These findings support the claim that K EDTA and K EDTA specimens give
+2 3
+comparable results as measured on the ABX Micros ES 60 hematology analyzer.
+3. Determination of limit of blank, lower limits of detection and quantitation:
+Verification of Limit of Blank (LoB)
+Plasma samples, obtained by centrifugation of normal samples, were used as blank
+samples, in order to be as close as possible as the blood sample matrix. To estimate
+the LoB, a total of 60 repeated measurements of different plasma were run in the
+same series (5 different samples run 12 times). This test is performed on 2
+instruments uisng two reagents lots. Results on Micros ES 60 OT and Micros ES60
+CT were similar and met specifications.
+LoB obtained from 60 repeated measurements of 5 different plasma samples:
+Measurand LoB
+WBC 0.1x103/mm3
+RBC 0.01x106/mm3
+HCT 0.1 %
+PLT 1x103/mm3
+13
+
+[Table 1 on page 13]
+Parameters	Sample stability when
+stored refrigerated
+(2-8°C)	Sample stability when
+stored at room temperature
+(20-24°C)
+WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, PLT	48 hours	36 hours
+RDW	36 hours	10 hours
+MPV	24 hours	24 hours
+LYM%, LYM#, MON%,
+MON#, GRA%, GRA#	24 hours	8 hours
+
+[Table 2 on page 13]
+Measurand	LoB
+WBC	0.1x103/mm3
+RBC	0.01x106/mm3
+HCT	0.1 %
+PLT	1x103/mm3
+
+--- Page 14 ---
+Verification of Limit of Detection (LoD)
+A set of six samples with very low parameter concentration (i.e. in the range of LoB
+and 4 x LoB) were run 10 times over several days. LoD was estimated from the
+calculation of the pooled standard deviation of 60 results. Testing was performed on
+two (2) instruments with two reagents lots. Results on Micros ES 60 OT and Micros
+ES 60 CT were similar and met specifications. Testing from 10 runs of 6 low
+samples on each instrument resulted in the following results for LoD:
+Measurand LoD
+WBC 0.2x103/mm3
+RBC 0.01x106/mm3
+HGB 0.5 g/dL
+HCT 0.2 %
+PLT 4x103/mm3
+Verification of Limit of Quantitaion (LoQ)
+To estimate the limit of quantitation, several ranges of linearity in low concentrations
+were prepared. Between 3 to 6 samples by concentratin level were prepared and run
+at least 5 times each using 40 replicates per level. The LoQ data are considered
+acceptable when the %Total-error is smaller than the desired total error for each
+measurand. This test is performed on two (2) instruments with two reagents lots.
+Results on Micros ES 60 OT and Micros ES 60 CT were similar and passed
+acceptance limits. Testing from 40 runs of 4 samples on each instrument resulted in
+the following results for LoQ:
+Measurand LoQ
+WBC 0.8x103/mm3
+RBC 0.7x106/mm3
+HGB 0.6 g/dL
+HCT 8%
+PLT 42x103/mm3
+4. Reference Intervals:
+Verification of Adult Reference Intervals
+Adult reference intervals were assessed on a total of 275 (135 male and 140 female)
+normal adult samples (whole blood samples collected in K EDTA). Samples were
+2
+analyzed in duplicate on the ABX Micros ES 60 (OT model) and ABX Micros ES 60
+(CT model) at one test site in the US. The nonparametric data analysis method was
+used, depending only on the ranks of the reference data arranged in order of
+increasing size. Per EP28-A3, the reference interval is determined to be between and
+including the lower and upper reference limits, which enclose 95% of the values from
+the reference population subjects. Confidence intervals for the reference limit were
+calculated using a 90% probability (90% CI).
+14
+
+[Table 1 on page 14]
+A set of six samples with very low parameter concentration (i.e. in the range of LoB
+and 4 x LoB) were run 10 times over several days. LoD was estimated from the
+calculation of the pooled standard deviation of 60 results. Testing was performed on
+two (2) instruments with two reagents lots. Results on Micros ES 60 OT and Micros
+ES 60 CT were similar and met specifications. Testing from 10 runs of 6 low
+samples on each instrument resulted in the following results for LoD:
+
+[Table 2 on page 14]
+Measurand	LoD
+WBC	0.2x103/mm3
+RBC	0.01x106/mm3
+HGB	0.5 g/dL
+HCT	0.2 %
+PLT	4x103/mm3
+
+[Table 3 on page 14]
+Verification of Limit of Quantitaion (LoQ)
+To estimate the limit of quantitation, several ranges of linearity in low concentrations
+were prepared. Between 3 to 6 samples by concentratin level were prepared and run
+at least 5 times each using 40 replicates per level. The LoQ data are considered
+acceptable when the %Total-error is smaller than the desired total error for each
+measurand. This test is performed on two (2) instruments with two reagents lots.
+Results on Micros ES 60 OT and Micros ES 60 CT were similar and passed
+acceptance limits. Testing from 40 runs of 4 samples on each instrument resulted in
+the following results for LoQ:
+
+[Table 4 on page 14]
+Measurand	LoQ
+WBC	0.8x103/mm3
+RBC	0.7x106/mm3
+HGB	0.6 g/dL
+HCT	8%
+PLT	42x103/mm3
+
+--- Page 15 ---
+Defined reference values are not significantly different between the ABX Micros ES
+60 OT and CT models. For each gender, a single reference interval applicable
+(Shared Interval) on both versions of the analyzers has been defined as described in
+the following table.
+MALES FEMALES
+MICROS ES60 (N=135) (N=140)
+Reference Interval
+LOW HIGH LOW HIGH
+WBC (103/mm3) 4.3 9.6 4.2 10.3
+RBC (106/mm3) 4.1 5.7 4.0 5.1
+HGB (g/dl) 12.6 16.7 11.6 15.1
+HCT (%) 38.3 50.8 35.8 46.4
+MCV (µm3) 83 97 83 98
+MCH (pg) 26.7 32.3 26.8 32.5
+MCHC (g/dl) 31.7 34 31.8 34.0
+RDW (%) 11.1 14.4 11.3 13.9
+PLT (103/mm3) 156 370 181 393
+MPV (µm3) 6.3 9.1 6.5 9.0
+LYM (103/mm3) 1.1 3.1 1.2 3.4
+MON (103/mm3) 0.1 0.6 0.1 0.6
+GRA (103/mm3) 2.6 7.0 2.7 7.4
+LYM (%) 16.5 44.7 17.7 45.2
+MON (%) 3.1 8.3 3.3 8.1
+GRA (%) 49.1 76.9 49.2 77.7
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+15
+
+[Table 1 on page 15]
+MICROS ES60
+Reference Interval	MALES
+(N=135)						FEMALES			
+							(N=140)			
+	LOW		HIGH			LOW			HIGH	
+				HIGH			LOW			HIGH
+WBC (103/mm3)	4.3			9.6			4.2			10.3
+RBC (106/mm3)	4.1			5.7			4.0			5.1
+HGB (g/dl)	12.6			16.7			11.6			15.1
+HCT (%)	38.3			50.8			35.8			46.4
+MCV (µm3)	83			97			83			98
+MCH (pg)	26.7			32.3			26.8			32.5
+MCHC (g/dl)	31.7			34			31.8			34.0
+RDW (%)	11.1			14.4			11.3			13.9
+PLT (103/mm3)	156			370			181			393
+MPV (µm3)	6.3			9.1			6.5			9.0
+LYM (103/mm3)	1.1			3.1			1.2			3.4
+MON (103/mm3)	0.1			0.6			0.1			0.6
+GRA (103/mm3)	2.6			7.0			2.7			7.4
+LYM (%)	16.5			44.7			17.7			45.2
+MON (%)	3.1			8.3			3.3			8.1
+GRA (%)	49.1			76.9			49.2			77.7

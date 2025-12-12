@@ -1,0 +1,113 @@
+Standard Operating Procedure (SOP) HISTONE GENES
+MUTATION ANALYSIS, NEXT-GENERATION SEQUENCING,
+TUMOR
+1. PURPOSE
+To provide guidelines for conducting and documenting the process of
+histone gene mutation analysis in tumor samples using next-
+generation sequencing (NGS).
+Responsibility:
+All designated laboratory staff must ensure proper handling,
+processing, and analysis of the tumor samples for histone gene
+mutations according to this SOP. It is the joint responsibility of
+laboratory technicians, technologists, and supervisors to follow these
+protocols accurately and report any anomalies to the appropriate
+individuals.
+2. DEFINITION
+Histone genes mutation analysis involves identifying mutations in
+histone genes, which can be critical in tumorigenesis. The process
+uses next-generation sequencing technology to detect these
+mutations within tumor DNA.
+3. PROCEDURE
+3.1. Equipment and Reagents Preparation
+Equipment:
+• NGS platform (e.g., Illumina HiSeq/MiSeq/NextSeq)
+• PCR thermocycler
+• DNA quantification instruments (e.g., Qubit Fluorometer)
+• Microcentrifuge
+• Vortex mixer
+• Pipettes and filtered tips
+• Thermal cycler for library preparation
+• Bioinformatics workstation
+Reagents:
+• DNA extraction kit
+• Library preparation kit specific for NGS
+• Target enrichment probes for histone genes
+• PCR reagents, including primers and nucleotides
+• Purification beads (e.g., AMPure XP)
+• Quantification reagents for DNA quality assessment
+3.2. Specimen Requirements
+Tumor Sample:
+• Formalin-fixed paraffin-embedded (FFPE) tissue or fresh frozen
+tissue from a biopsy or surgical resection.
+• Ensure all specimens are labeled correctly with unique identifiers.
+Acceptable Specimen Criteria:
+• Adequate DNA concentration and quality: Minimum concentration
+of 50 ng/µL and purity (A260/280 ratio) of 1.8-2.0.
+• Specimens without visible contamination or degradation.
+3.3. DNA Extraction
+1. Perform DNA extraction from the tumor sample using a
+commercially available kit according to the manufacturer's
+protocol.
+2. Quantify and assess the quality of the extracted DNA using
+Qubit Fluorometer and NanoDrop spectrophotometry.
+3. Document the DNA concentration and quality metrics in the
+Specimen Log.
+3.4. Library Preparation and Target Enrichment
+1. Input DNA: Use 50-200 ng of DNA for library preparation.
+2. Follow the library preparation protocol provided by the kit
+manufacturer, ensuring proper fragmentation, end-repair, and
+adaptor ligation steps.
+3. Perform target enrichment using probes specific for histone
+genes, according to the enrichment kit protocol.
+4. PCR Amplification: Perform PCR amplification to enrich the
+library further.
+5. Purify the amplified library using purification beads.
+6. Assess the library quality and quantify it using Bioanalyzer or
+TapeStation.
+3.5. Sequencing
+1. Load the prepared library onto the NGS platform following the
+instrument-specific loading and run setup protocols.
+2. Ensure the run parameters are correctly set for the sequencing
+depth required for histone gene mutation analysis.
+3. Monitor the sequencing run to ensure it progresses without
+errors.
+3.6. Data Analysis
+1. Transfer raw sequencing data to the bioinformatics workstation.
+2. Use bioinformatics pipelines to process the raw data, including
+alignment to reference genome, variant calling, and annotation.
+3. Identify mutations in histone genes using analysis software.
+4. Perform manual review of detected variants to ensure accuracy.
+5. Document all identified mutations and relevant metrics in the
+Result Log.
+3.7. Quality Control
+1. Include positive and negative controls throughout the
+extraction, library preparation, and sequencing processes.
+2. Analyze control results to ensure proper workflow performance.
+3. Perform inter-laboratory comparison tests periodically to
+validate the accuracy of the mutation detection protocol.
+3.8. Reporting Results
+1. Review and verify sequencing and mutation analysis results.
+2. Enter results into the Laboratory Information System (LIS).
+3. Generate a comprehensive report, including identified
+mutations, raw data quality metrics, and interpretation.
+4. Ensure results are double-checked for consistency and
+accuracy before releasing them to the requesting physician or
+clinician.
+4. REFERENCES
+• Manufacturer's manuals for DNA extraction and library
+preparation kits.
+• Instrument-specific operators’ manuals for NGS platforms.
+• Bioinformatics software documentation.
+• Relevant clinical literature on histone gene mutations in tumors
+and their implications.
+5. NOTES
+All personnel must be adequately trained in handling specimens,
+library preparation, sequencing, and data interpretation. Any
+deviations from the standard procedure must be documented, and
+corrective actions must be reviewed and approved by laboratory
+supervisors.
+APPROVAL:
+[Name], Laboratory Director
+Date: __________
+[Name], Quality Assurance Manager
+Date: __________

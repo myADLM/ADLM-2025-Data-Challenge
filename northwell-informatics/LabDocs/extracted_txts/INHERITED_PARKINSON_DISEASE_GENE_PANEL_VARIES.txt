@@ -1,0 +1,96 @@
+Standard Operating Procedure (SOP) for Generating Results for
+Inherited Parkinson Disease Gene Panel
+1. PURPOSE
+To ensure accurate, consistent, and timely analysis and reporting of
+genetic test results for the Inherited Parkinson Disease Gene Panel.
+1. SCOPE
+This procedure applies to all staff involved in the analytical phase of
+generating results for the Inherited Parkinson Disease Gene Panel.
+1. RESPONSIBILITIES
+• Designated laboratory personnel are responsible for performing
+the analytical procedures according to this SOP.
+• Supervisors are responsible for ensuring adherence to the
+procedures and addressing any deviations from the protocol.
+1. SPECIMEN REQUIREMENTS
+• Source: Peripheral blood or saliva sample.
+• Volume: 3-5 mL for blood; full saliva collection kit.
+• Storage: Room temperature for immediate processing; 4°C if
+processing is delayed (up to 72 hours).
+• Unacceptable Specimens: Hemolyzed blood samples, insufficient
+quantity, or samples received beyond 72 hours post-collection
+without refrigeration.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA extraction kits (e.g., Qiagen QIAamp DNA Blood Mini Kit)
+• PCR reaction kits and reagents
+• Next-Generation Sequencing (NGS) platform (e.g., Illumina
+MiSeq)
+• Data analysis software (e.g., Bioinformatics pipelines, Variant
+Interpretation software)
+• Quality control materials
+• Personal protective equipment (PPE)
+1. PROCEDURE
+A) DNA Extraction
+1. Label all samples and associated documentation clearly.
+2. Proceed with DNA extraction using the specified kit according
+to the manufacturer’s instructions.
+3. Quantify and assess the DNA purity using a spectrophotometer
+(e.g., NanoDrop).
+4. Document DNA concentration and purity ratios in the laboratory
+information system (LIS).
+B) Library Preparation and Sequencing
+1. Prepare DNA libraries following the library preparation kit
+protocol.
+2. Verify library concentration and quality using a fluorometer and
+agarose gel electrophoresis.
+3. Load the libraries onto the NGS platform for sequencing as per
+the platform's user manual.
+C) Data Analysis
+1. Sequence data will be automatically transferred to the
+bioinformatics pipeline.
+2. Run the initial quality control checks on raw sequence data
+(e.g., FASTQ files).
+3. Perform alignment of sequences to the human genome
+reference (e.g., hg19 or hg38).
+4. Identify variants using variant calling software (e.g., GATK).
+5. Perform secondary analyses including variant annotation,
+filtering, and prioritization.
+6. Undertake manual review and interpretation of variants using
+clinical databases and literature.
+7. Validate identified pathogenic or likely pathogenic variants using
+Sanger sequencing if necessary.
+D) Quality Control and Validation
+1. Include positive and negative controls in all experiments.
+2. Verify that all control results meet the acceptance criteria before
+releasing patient results.
+3. Perform inter-laboratory comparisons and participate in
+proficiency testing regularly.
+4. Document all QC results and any corrective actions taken.
+5. REPORTING RESULTS
+• Verify all variant interpretations through consensus discussion
+within the molecular genetics team.
+• Prepare a comprehensive report, including relevant findings and
+their clinical significance.
+• Include limitations of the test and recommendations for familial
+testing if applicable.
+• Transmit results to the LIS and ensure they are reviewed and
+authenticated by a qualified geneticist.
+1. METHOD LIMITATIONS
+• Sensitivity and specificity are influenced by the quality of samples
+and read depth.
+• Some regions of the genome may have lower coverage, affecting
+variant detection.
+1. REFERENCES
+• Manufacturer’s manuals for DNA extraction and library
+preparation kits.
+• Platform-specific user guides for sequencing instruments.
+• Databases such as ClinVar, OMIM for variant interpretation.
+1. REVIEW
+• This SOP will be reviewed annually and updated as necessary to
+reflect technological advancements and regulatory guidelines.
+1. REVISION HISTORY
+• Document all changes including the date of revision, nature of the
+change, and the responsible individual.
+By following this SOP, laboratory staff will ensure the quality and
+reliability of the genetic testing process for Inherited Parkinson
+Disease Gene Panel, leading to appropriate clinical interpretations
+and actions.

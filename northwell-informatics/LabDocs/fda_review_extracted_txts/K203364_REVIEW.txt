@@ -1,0 +1,465 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K203364
+B Applicant
+Barco NV
+C Proprietary and Established Names
+MDPC-8127
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 -
+PZZ Class II Whole Slide Imaging PA - Pathology
+System
+II Submission/Device Overview:
+A Purpose for Submission:
+New digital pathology display
+B Type of Test:
+Digital Pathology Display
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PZZ			Class II	21 CFR 864.3700 -
+Whole Slide Imaging
+System			PA - Pathology
+
+--- Page 2 ---
+B Indication(s) for Use:
+The Barco MDPC-8127 device is intended for in vitro diagnostic use to display digital images of
+histopathology slides acquired from IVD-labeled whole-slide imaging scanners and viewed using
+IVD-labeled digital pathology image viewing software that have been validated for use with this
+device. It is an aid to the pathologist to review and interpret digital images of histopathology
+slides for primary diagnosis. It is the responsibility of the pathologist to employ appropriate
+procedures and safeguards to assure the validity of the interpretation of images using the MDPC-
+8127. The display is not intended for use with digital images from frozen section, cytology, or
+non-formalin-fixed, paraffin embedded (non-FFPE) hematopathology specimens.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+The Barco MDPC-8127 is a medical, color-calibrated display, specifically intended for review
+and interpretation of digital images of surgical pathology slides from IVD-labeled whole-slide
+imaging scanners and digital pathology image viewing software. The MDPC-8127 consists of a
+high-resolution 27-inch color LCD-panel and can be calibrated to the sRGB color gamut or other
+broader color spaces. The display uses built-in techniques to ensure constant accuracy over time.
+The display characteristics and specifications are provided in the Table below.
+Display Characteristics
+Screen technology IPS LCD with LED backlighting
+Active screen size 684 mm (27")
+(diagonal)
+Active screen size (H x V) 569 x 335 mm (22.4 x 13.2")
+Aspect ratio (H:V) 16:9
+Resolution 8MP (3840 x 2160 pixels @ 120 Hz)
+Pixel pitch 0.155 mm
+Color imaging Yes
+Gray imaging Yes
+Color depth 30 bit (1.07 billion possible colors)
+Viewing angle (H, V) 178°
+Screen surface treatment Anti-Glare coating
+Uniformity Technology PPU
+K203364 - Page 2 of 7
+
+[Table 1 on page 2]
+Display Characteristics	
+Screen technology	IPS LCD with LED backlighting
+Active screen size
+(diagonal)	684 mm (27")
+Active screen size (H x V)	569 x 335 mm (22.4 x 13.2")
+Aspect ratio (H:V)	16:9
+Resolution	8MP (3840 x 2160 pixels @ 120 Hz)
+Pixel pitch	0.155 mm
+Color imaging	Yes
+Gray imaging	Yes
+Color depth	30 bit (1.07 billion possible colors)
+Viewing angle (H, V)	178°
+Screen surface treatment	Anti-Glare coating
+Uniformity Technology	PPU
+
+--- Page 3 ---
+Display Characteristics
+Color calibration sRGB, DICOM GSDF,
+Color gamut NTSC 115% (typical)
+Color gamut sRGB 132% (typical), 137.1% (measured)
+Color gamut DCI-P3 105% (typical)
+Ambient light presets Yes, reading room selection
+Ambient light sensor Yes
+Front sensor Yes, I-Guard
+Maximum luminance 850 cd/m²
+(panel typical)
+Calibrated luminance 450 cd/m²
+Contrast ratio (panel 1000:1
+typical)
+sRGB Delta E2000 < 1 (average)
+(typical) < 3 (maximum)
+Response time
+8 ms (typical), 5.01 ms (measured)
+[(Tr + Tf)/2)] (typical)
+Housing color Black / White
+Video input signals 2x DisplayPort 1.2
+USB ports 1x USB 2.0 upstream (endpoint) 2x USB 2.0 downstream
+Power rating 100-240 Vac, 50/60 Hz, 3.6-1.6 A
+Power consumption 75 W (nominal) @ calibrated luminance of 450 cd/m²
+< 0.5 W (hibernate)
+< 0.5 W (standby)
+B Instrument Description Information:
+1. Instrument Name:
+MDPC-8127
+2. Specimen Identification:
+The FFPE tissue specimen is identified on the scanned images by patient-specific barcodes
+and/or patient identifying information present on the glass slides.
+K203364 - Page 3 of 7
+
+[Table 1 on page 3]
+Display Characteristics	
+Color calibration	sRGB, DICOM GSDF,
+Color gamut NTSC	115% (typical)
+Color gamut sRGB	132% (typical), 137.1% (measured)
+Color gamut DCI-P3	105% (typical)
+Ambient light presets	Yes, reading room selection
+Ambient light sensor	Yes
+Front sensor	Yes, I-Guard
+Maximum luminance
+(panel typical)	850 cd/m²
+Calibrated luminance	450 cd/m²
+Contrast ratio (panel
+typical)	1000:1
+sRGB Delta E2000
+(typical)	< 1 (average)
+< 3 (maximum)
+Response time
+[(Tr + Tf)/2)] (typical)	8 ms (typical), 5.01 ms (measured)
+Housing color	Black / White
+Video input signals	2x DisplayPort 1.2
+USB ports	1x USB 2.0 upstream (endpoint) 2x USB 2.0 downstream
+Power rating	100-240 Vac, 50/60 Hz, 3.6-1.6 A
+Power consumption	75 W (nominal) @ calibrated luminance of 450 cd/m²
+< 0.5 W (hibernate)
+< 0.5 W (standby)
+
+--- Page 4 ---
+3. Specimen Sampling and Handling:
+Specimen sampling, which includes FFPE tissues, is performed by clinicians. Biopsy
+specimens are processed and FFPE slides are scanned by trained healthcare professionals to
+generate a digital image.
+4. Calibration:
+Calibrated color spaces: DICOM GSDF and sRGB
+5. Quality Control:
+Image quality is checked by the user for acceptability. In addition, quality checks for the
+display are initiated by the QAWeb quality assurance software and performed as a
+background activity.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Philips IntelliSite Pathology Solution
+B Predicate 510(k) Number(s):
+K192259
+C Comparison with Predicate:
+Device Predicate
+K203364 K192259
+Device Trade Name Barco MDPC-8127 Philips Intellisite Pathology Solution
+MMPC-4227F1 (PP27QHD)
+Device Characteristics - Similarities
+Screen Technology In-Plane Switching (IPS) Liquid Same
+Crystal Display (LCD)
+Display Calibration Standard Red Green Blue (sRGB), Same
+Digital Imaging and
+Communication in Medicine
+(DICOM)
+Aspect ratio (H:V) 16:9 Same
+Device Characteristics - Differences
+Resolution 8MP (3840 x 2160 pixels) 3.6MP (2560 x1440 pixels)
+K203364 - Page 4 of 7
+
+[Table 1 on page 4]
+				Device			Predicate	
+				K203364			K192259	
+Device Trade Name			Barco MDPC-8127				Philips Intellisite Pathology Solution	
+							MMPC-4227F1 (PP27QHD)	
+Device Characteristics - Similarities								
+Screen Technology			In-Plane Switching (IPS) Liquid
+Crystal Display (LCD)			Same		
+Display Calibration			Standard Red Green Blue (sRGB),
+Digital Imaging and
+Communication in Medicine
+(DICOM)			Same		
+Aspect ratio (H:V)			16:9			Same		
+Device Characteristics - Differences								
+Resolution			8MP (3840 x 2160 pixels)			3.6MP (2560 x1440 pixels)		
+
+--- Page 5 ---
+Uniformity
+Technology Color Per Pixel Uniformity (PPU) None
+VI Standards/Guidance Documents Referenced:
+1. FDA Guidance document: Technical Performance Assessment of Digital Pathology Whole
+Slide Imaging Devices. Guidance for Industry and Food and Drug Administration Staff.
+April 20, 2016 (TPA Guidance).
+2. ANSI/AAMI ES60601- 1:2005/(R)2012: Medical Electrical Equipment - Part 1: General
+Requirements For Basic Safety And Essential Performance (IEC 60601-1:2005, MOD)
+3. IEC 62304 Edition 1.1 2015-06 Medical Device Software - Software Life Cycle Processes
+4. ISO 15223-1 Third Edition 2016- 11-01Medical Devices - Symbols To Be Used With
+Medical Device Labels, Labelling, And Information To Be Supplied - Part 1: General
+Requirements
+5. ISO 14971 Second edition 2007-03-01(5-40) Medical devices - application of risk
+management to medical devices.
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Not applicable.
+2. Linearity:
+Not applicable.
+3. Analytical Specificity/Interference:
+Not applicable.
+4. Accuracy (Instrument):
+Not applicable.
+5. Carry-Over:
+Not applicable.
+B Other Supportive Instrument Performance Characteristics Data:
+Technical performance testing for Barco MDPC-8127 display was performed according to the
+TPA guidance (section IV(A)(11)(b). Bench testing included assessment of the following
+performance characteristics:
+K203364 - Page 5 of 7
+
+[Table 1 on page 5]
+Uniformity
+Technology	Color Per Pixel Uniformity (PPU)	None
+
+--- Page 6 ---
+Test Test Method Results
+MDPC-8127 P r e d i c a t e device
+User controls Out-of-the-box settings Luminance target, Luminance target,
+maximum: 450 cd/m2 maximum: 350 cd/m2
+Display function: sRGB Display function: sRGB
+White point: 6500K White point: 6500K
+Color space: sRGB Color space: sRGB
+10 minutes of warm-up 10 minutes of warm-up
+time time
+Spatial Roehrig, Hans, et al. "In- Both horizontal and Both horizontal and
+resolution field evaluation of the vertical MTFs are greater vertical MTFs are greater
+modulation transfer than 85% at Nyquist than 75% at Nyquist
+function of electronic frequency frequency
+display devices." Medical
+Imaging 2004:
+Visualization, Image-
+Guided Procedures, and
+Display. Vol. 5367.
+International Society for
+Optics and Photonics, 2004
+Pixel defects 7.6 Defective Pixels, IDMS Total number of bright and Total number of bright
+v1.03b dark pixels <= 5 with a and dark pixels <= 3
+minimum distance greater within a circle of 10 mm.
+than 15 mm. diameter
+Artifacts Image retention after 1 < 0.65% < 0.65%
+hour
+Temporal 10.2.3 Gray-to-Gray The response time ranges The response time is
+response Response Time, IDMS from 3.1 ms to 6.2 ms with maximum 15 ms and
+v1.03b an average of 5.01 ms. typical 8 ms.
+Maximum and 5 Fundamental The maximum and The maximum and
+minimum Measurements, IDMS minimum achievable minimum achievable
+luminance v1.03b luminance values are 678.6 luminance values are 550
+and 0.633 cd/m2, and 0.3 cd/m2,
+respectively. respectively.
+The calibrated luminance The calibrated luminance
+target is 450 cd/m2. target is 350 cd/m2.
+The contrast ratio is greater The contrast ratio is
+than 1000:1. 1000:1.
+Grayscale Contrast response Maximum error calculated Maximum error calculated
+deviation, AAPM TG-18 = 1.4% = 2.1%
+Luminance 8 Uniformity <10% non-uniformity on 21% non-uniformity on
+uniformity and Measurements, IDMS 80% video level 80% video level
+Mura test v1.03b
+K203364 - Page 6 of 7
+
+[Table 1 on page 6]
+Test	Test Method	Results	
+		MDPC-8127	P r e d i c a t e device
+User controls	Out-of-the-box settings	Luminance target,
+maximum: 450 cd/m2
+Display function: sRGB
+White point: 6500K
+Color space: sRGB
+10 minutes of warm-up
+time	Luminance target,
+maximum: 350 cd/m2
+Display function: sRGB
+White point: 6500K
+Color space: sRGB
+10 minutes of warm-up
+time
+Spatial
+resolution	Roehrig, Hans, et al. "In-
+field evaluation of the
+modulation transfer
+function of electronic
+display devices." Medical
+Imaging 2004:
+Visualization, Image-
+Guided Procedures, and
+Display. Vol. 5367.
+International Society for
+Optics and Photonics, 2004	Both horizontal and
+vertical MTFs are greater
+than 85% at Nyquist
+frequency	Both horizontal and
+vertical MTFs are greater
+than 75% at Nyquist
+frequency
+Pixel defects	7.6 Defective Pixels, IDMS
+v1.03b	Total number of bright and
+dark pixels <= 5 with a
+minimum distance greater
+than 15 mm.	Total number of bright
+and dark pixels <= 3
+within a circle of 10 mm.
+diameter
+Artifacts	Image retention after 1
+hour	< 0.65%	< 0.65%
+Temporal
+response	10.2.3 Gray-to-Gray
+Response Time, IDMS
+v1.03b	The response time ranges
+from 3.1 ms to 6.2 ms with
+an average of 5.01 ms.	The response time is
+maximum 15 ms and
+typical 8 ms.
+Maximum and
+minimum
+luminance	5 Fundamental
+Measurements, IDMS
+v1.03b	The maximum and
+minimum achievable
+luminance values are 678.6
+and 0.633 cd/m2,
+respectively.
+The calibrated luminance
+target is 450 cd/m2.
+The contrast ratio is greater
+than 1000:1.	The maximum and
+minimum achievable
+luminance values are 550
+and 0.3 cd/m2,
+respectively.
+The calibrated luminance
+target is 350 cd/m2.
+The contrast ratio is
+1000:1.
+Grayscale	Contrast response
+deviation, AAPM TG-18	Maximum error calculated
+= 1.4%	Maximum error calculated
+= 2.1%
+Luminance
+uniformity and
+Mura test	8 Uniformity
+Measurements, IDMS
+v1.03b	<10% non-uniformity on
+80% video level	21% non-uniformity on
+80% video level
+
+--- Page 7 ---
+Test Test Method Results
+MDPC-8127 P r e d i c a t e device
+Stability of Luminance and Deviation from target Deviation from target
+luminance and chromaticity characteristics luminance (450 cd/m2): luminance (350 cd/m2):
+chromaticity of the display measured ±0.44% ±0.2%
+response with temperature and time Variations for luminance Variations for luminance
+and chromaticity: < 5% and chromaticity: < 2%
+deviation deviation
+Bidirectional 11. Reflection Specular reflection Specular reflection
+reflection Measurements, IDMS coefficient: 1.90% coefficient: 1.69%
+distribution v1.03b Diffuse reflection Diffuse reflection
+function coefficient: 2.87% coefficient: 2.21%
+Gray tracking 6.15 Gray-scale Color +/- 0.01 Δu’v’ +/- 0.002 Δu’v’
+Changes, IDMS v1.03b White point at D65: +/- White point at D65: +/-
+0.01 Δu’v’ 0.002 Δu’v’
+Color scale 6. Gray- and Color-Scale Average color error < 1 Average color error
+Measurement, IDMS ΔE
+00
+< 2 ΔE00
+v1.03b Maximum color error < 3 Maximum color error < 5
+ΔE
+00
+ΔE00
+Color gamut 5.18.1 Relative Gamut 2D color gamut wrt sRGB: 2D color gamut wrt
+volume Area, IDMS v1.03b 137.1% sRGB: 99.4%
+2D color gamut overlapped 2D color gamut
+with sRGB: 99.6% overlapped with sRGB:
+98.4%
+VIII Proposed Labeling:
+The labeling is sufficient, and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable, and the special controls for this device type, as applicable.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K203364 - Page 7 of 7
+
+[Table 1 on page 7]
+Test	Test Method	Results	
+		MDPC-8127	P r e d i c a t e device
+Stability of
+luminance and
+chromaticity
+response	Luminance and
+chromaticity characteristics
+of the display measured
+with temperature and time	Deviation from target
+luminance (450 cd/m2):
+±0.44%
+Variations for luminance
+and chromaticity: < 5%
+deviation	Deviation from target
+luminance (350 cd/m2):
+±0.2%
+Variations for luminance
+and chromaticity: < 2%
+deviation
+Bidirectional
+reflection
+distribution
+function	11. Reflection
+Measurements, IDMS
+v1.03b	Specular reflection
+coefficient: 1.90%
+Diffuse reflection
+coefficient: 2.87%	Specular reflection
+coefficient: 1.69%
+Diffuse reflection
+coefficient: 2.21%
+Gray tracking	6.15 Gray-scale Color
+Changes, IDMS v1.03b	+/- 0.01 Δu’v’
+White point at D65: +/-
+0.01 Δu’v’	+/- 0.002 Δu’v’
+White point at D65: +/-
+0.002 Δu’v’
+Color scale	6. Gray- and Color-Scale
+Measurement, IDMS
+v1.03b	Average color error < 1
+ΔE
+00
+Maximum color error < 3
+ΔE
+00	Average color error
+< 2 ΔE00
+Maximum color error < 5
+ΔE00
+Color gamut
+volume	5.18.1 Relative Gamut
+Area, IDMS v1.03b	2D color gamut wrt sRGB:
+137.1%
+2D color gamut overlapped
+with sRGB: 99.6%	2D color gamut wrt
+sRGB: 99.4%
+2D color gamut
+overlapped with sRGB:
+98.4%

@@ -1,0 +1,39 @@
+# SPECIAL 510(k): Device Modification OIVD Review Memorandum (Decision Making Document is Attached)
+
+To: THE FILE
+
+RE: DOCUMENT NUMBER k060627
+
+Tag-It™ Cystic Fibrosis Kit, Tm Bioscience Corporation
+
+This 510(k) submission contains information/data on modifications made to the submitter’s own Class II device requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the submitter’s previously cleared device. Tag-It™ Cystic Fibrosis Kit, Tm Bioscience Corporation (k043011).
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use).
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+The modifications were: a) annealing temperature adjustment for the ASPE multiplex reaction, b) additional recommended supplier of the ancillary reagent Shrimp Alkaline Phosphatase (SAP), and c) software update to the Version 1.01.
+
+4. Comparison Information (similarities and differences) to the applicant’s legally marketed predicate device include labeling, intended use, sample volume and type, scientific and method principle, instrumentation and method comparison.
+
+5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis. The risk analysis method used to assess the impact of the device modification was the Fault Tree Analysis (page 2 of 14 of the 5/26/06 response).
+
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied (page 12 of 14 of the 5/26/06 response, also summarized in Table 1A, page 5 of 14, and 1B, page 8 of 14).
+
+c) A summary of changes to the PI cleared in K043011 (page 14 of 14 of the 5/26/06 response) was provided, as well as the cleared and modified PI, with highlighted changes.
+
+d) A declaration of conformity with design controls. The declaration of conformity should include:
+
+i) A statement signed by the individual responsible, that, as required by the risk analysis, all verification and validation activities were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met (Tab 11 of 3/16/06 original document), and
+
+ii) A statement signed by the individual responsible, that the manufacturing facility is in conformance with design control procedure requirements as specified in 21
+
+CFR 820.30 and the records are available for review (Tab 11 of 3/16/06 original document).
+
+# 6. A Truthful and Accurate Statement, a 510(k) Summary, and the Indications for Use Enclosure.
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared device.

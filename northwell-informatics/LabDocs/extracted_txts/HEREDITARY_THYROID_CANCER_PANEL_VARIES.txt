@@ -1,0 +1,115 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase Protocol for Generating Results for
+Hereditary Thyroid Cancer Panel
+1. Purpose:
+To provide standardized procedures for the analysis of genetic data
+for the Hereditary Thyroid Cancer Panel, ensuring consistent,
+accurate, and reliable results.
+2. Scope:
+This procedure applies to all laboratory personnel conducting the
+analysis of Hereditary Thyroid Cancer Panel on collected and
+accessioned samples.
+3. Responsibility:
+• Laboratory Technologists: Responsible for the execution of the
+procedures detailed in this SOP.
+• Laboratory Supervisors: Responsible for ensuring adherence to
+the SOP and addressing any issues that arise during the
+analytical phase.
+• Laboratory Directors: Responsible for overall oversight and
+ensuring compliance with regulatory standards.
+4. Specimens:
+Acceptable Specimens:
+• Blood samples collected in EDTA tubes.
+• Buccal swabs.
+• Saliva samples collected in DNA-stabilizing collection kits.
+Unacceptable Specimens:
+• Non-human samples.
+• Hemolyzed or degraded samples.
+5. Equipment, Reagents, and Supplies:
+• PCR Thermocycler
+• Next-Generation Sequencing (NGS) Platform
+• Agarose gel electrophoresis apparatus
+• Pipettes and sterile pipette tips
+• DNA extraction kits
+• PCR master mix and reagents
+• Sequencing reagents and kits
+6. Procedure:
+A. DNA Extraction:
+1. Verify that the specimen has been accessioned and labeled
+correctly.
+2. Extract DNA from the specimen using an appropriate DNA
+extraction kit following the manufacturer’s instructions.
+3. Quantify the extracted DNA using a spectrophotometer or
+fluorometer.
+4. Record the DNA concentration and purity (A260/A280 ratio).
+B. PCR Amplification:
+1. Prepare PCR master mix containing the following components:
+◦ DNA template
+◦ Taq polymerase
+◦ dNTP mix
+◦ Primers specific for the target genes in the Hereditary
+Thyroid Cancer Panel
+◦ PCR buffer
+◦ Nuclease-free water
+2. Set up the PCR reaction in a sterile PCR tube following the
+specified cycling conditions.
+3. Perform PCR amplification using a thermocycler.
+4. Validate PCR product quality and yield using agarose gel
+electrophoresis.
+C. Next-Generation Sequencing (NGS):
+1. Construct sequencing libraries from the PCR products using a
+compatible library preparation kit.
+2. Quantify and quality-check the prepared libraries using a
+Bioanalyzer or similar system.
+3. Load the prepared libraries onto the NGS platform following the
+manufacturer’s instructions.
+4. Execute the sequencing run and monitor the process to ensure
+data quality.
+D. Data Analysis:
+1. Use bioinformatics tools and pipelines to analyze the raw
+sequencing data.
+2. Perform sequence alignment to the reference genome (e.g.,
+hg19/hg38).
+3. Identify and annotate variants in the target genes.
+4. Perform quality control checks including read depth, coverage,
+and variant calling accuracy.
+5. Cross-reference identified variants with internal and external
+databases to determine clinical relevance.
+6. Confirm the presence of pathogenic variants through
+orthogonal methods (Sanger sequencing) if necessary.
+E. Interpretation and Reporting:
+1. Interpret the clinical significance of identified variants based on
+current scientific literature and guidelines (e.g., ACMG).
+2. Compile a comprehensive report including variant details,
+clinical interpretation, and recommendations for patient
+management.
+3. Review the report for accuracy and completeness.
+4. Validate and sign off the report by a qualified Laboratory
+Director/Geneticist.
+5. Issue the final report to the requesting clinician or healthcare
+provider.
+7. Quality Control:
+• Perform regular maintenance and calibration of equipment as per
+manufacturer guidelines.
+• Include positive and negative controls in each run to validate
+assay performance.
+• Document all QC procedures and results.
+8. Reporting Results:
+• Results are transmitted to the Laboratory Information System
+(LIS) and reviewed for accuracy.
+• Maintain records of all test results and associated documentation
+for compliance and auditing purposes.
+9. References:
+• Manufacturer’s instruction manuals for equipment and reagents.
+• ACMG guidelines for the interpretation of sequence variants.
+• Current literature on hereditary thyroid cancer genetics.
+10. Revision History:
+• Document any revisions to this SOP along with the date and
+nature of changes.
+Approval:
+Laboratory Director: [Name] Date: [Date]
+Laboratory Supervisor: [Name] Date: [Date]
+This protocol ensures that the analytical phase of generating results
+for the Hereditary Thyroid Cancer Panel is performed consistently,
+accurately, and in compliance with laboratory standards and
+regulatory requirements.

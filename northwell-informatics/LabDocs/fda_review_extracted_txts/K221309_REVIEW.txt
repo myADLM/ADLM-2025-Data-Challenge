@@ -1,0 +1,997 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY
+I Background Information:
+A 510(k) Number
+K221309
+B Applicant
+SigTuple Technologies Pvt. Ltd.
+C Proprietary and Established Names
+AI100 with Shonit
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5260 -
+JOY Class II Automated Cell-Locating HE - Hematology
+Device
+II Submission/Device Overview:
+A Purpose for Submission:
+Clearance of new device
+B Type of Test:
+White blood cell (WBC) differential, red blood cell (RBC) and platelet morphology evaluation
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 1 of 12
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+JOY			Class II	21 CFR 864.5260 -
+Automated Cell-Locating
+Device			HE - Hematology
+
+--- Page 2 ---
+B Indication(s) for Use:
+AI100 with Shonit is a cell locating device intended for in-vitro diagnostic use in clinical
+laboratories.
+AI100 with Shonit is intended for differential count of White Blood Cells (WBC),
+characterization of Red Blood Cells (RBC) morphology and Platelet morphology. It
+automatically locates blood cells on peripheral blood smears and presents images of the blood
+cells for review.
+A skilled operator, trained in the use of the device and in the review of blood cells, identifies and
+classifies each cell according to type.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+The AI100 with Shonit device consists of a high-resolution microscope with LED illumination,
+and compute parts such as the motherboard, CPU, RAM, Wi-Fi dongle, solid state drive (SSD)
+containing AI100 with Shonit software, motorized XYZ stage, a camera with firmware,
+Programmable Circuit Board (PCB) and its firmware for driving motor and LED, Switched-
+mode power supply (SMPS), power supply and a casing. It is capable of handling one Peripheral
+Blood Smear (PBS) slide at a time. Romanowsky stains are used with the device.
+The device moves the peripheral whole blood smear slide to the imaging area and performs pre-
+scan steps which involve identifying the optimal area of the smear for scanning. If the optimal
+area is not found, the slide is rejected, and the user is notified with appropriate error messages. If
+an optimal area is identified, scanning (capturing FOV images) proceeds from the center of the
+optimal area in an outward spiral fashion. Focusing is done at each image location to capture the
+most optimal image. The image at each field of view (FOV) is checked to ensure appropriate
+quality for image processing. The scan stops when the required number of FOVs are captured or
+required number of white blood cells (WBCs) are encountered, depending on the scan mode
+selected by the user. On each FOV image, image processing is applied to extract and classify
+WBCs, red blood cells (RBCs), and platelets.
+WBCs are classified into Neutrophils, Lymphocytes, Monocytes, Eosinophils, Basophils,
+Immature Granulocytes (IGs), Atypical Cells/Blasts and Nucleated Red Blood Cell (NRBCs).
+RBCs are classified according to size (Normocyte, Round Macrocyte, Ovalo Macrocyte,
+Microcyte) and shape (Normal, Target, Teardrop, Echinocyte, Elliptocyte, Ovalocyte,
+Fragmented). Platelets are classified into Normal, Large, Giant Platelets and Platelet Clumps.
+The device then allows the user to review the identified and classified cells, including cells that
+could not be classified and generate a microscopy report. Users may re-classify cells and add
+comments before approving the report.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 2 of 12
+
+--- Page 3 ---
+B Instrument Description Information:
+1. Instrument Name:
+AI100 with Shonit
+2. Specimen Identification:
+The slide’s barcode is captured scanned and assigned to each case. The device also supports
+typing the barcode manually.
+3. Specimen Sampling and Handling:
+A peripheral blood sample is collected in K2EDTA tubes. A thin blood film is wedged on a
+clean dry glass slide (a blood smear) and stained with Romanowsky stain. The slide is put on
+the stage for image capture.
+4. Calibration:
+The device calibration should be performed by the SigTuple support team or by the end
+user/customer under the guidance of the SigTuple support team with Operational
+Qualification (OQ) slide every 6 months. Device calibration should be conducted:
+• Once every six months
+• After the device has been serviced
+• When a new OQ slide is provided
+5. Quality Control:
+The AI100 with Shonit device performs self-test during startup after powering up or reset of
+the system. On startup, all software components and hardware components are checked and
+confirmed to behave normally before system is allowed to start a peripheral blood smear
+(PBS) scan. The quality is checked by performing the Operational Qualification (OQ) test
+and the Performance Qualification (PQ) test. Both tests use the OQ quality control slide. The
+OQ test should be conducted every three (3) months. In the OQ test, the parameters which
+determine functional and device performance metrics are tested automatically in a sequential
+order. The PQ test is for parameters which directly impact the image analysis and they are
+tested automatically in a sequential order. The PQ test should be conducted daily.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+CellaVision DC-1
+B Predicate 510(k) Number(s):
+K200595
+C Comparison with Predicate(s):
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 3 of 12
+
+--- Page 4 ---
+Device & Predicate
+K221309 K200595
+Device(s):
+Device Trade Name AI100 with Shonit CellaVision DC-1
+General Device
+Characteristic Similarities
+CellaVision DC-1 is an
+automated cell-locating
+device intended for in-
+vitro diagnostic use in
+clinical laboratories.
+AI100 with Shonit is a CellaVision DC-1 is
+cell locating device intended to be used by
+intended for in-vitro operators trained in the
+diagnostic use in clinical use of the device.
+laboratories. Peripheral Blood
+AI100 with Shonit is Application:
+intended for differential The CellaVision
+count of White Blood Peripheral Blood
+Cells (WBC), Application is intended
+characterization of Red for differential count of
+Blood Cells (RBC) white blood cells (WBC),
+Intended Use/Indications morphology and Platelet characterization of red
+For Use morphology. It blood cell (RBC)
+automatically locates morphology and platelet
+blood cells on peripheral estimation.
+blood smears and presents
+The CellaVision DC-1
+images of the blood cells
+with the Peripheral Blood
+for review.
+Application automatically
+A skilled operator, trained
+locates blood cells on
+in the use of the device
+peripheral blood (PB)
+and in the review of blood
+smears. The application
+cells, identifies and
+presents images of the
+classifies each cell
+blood cells for review. A
+according to type.
+skilled operator trained in
+recognition of blood cells,
+identifies and verifies the
+suggested classification of
+each cell according to
+type.
+Parameters Automated cell-locating Same
+device for cell-location
+and identification of
+RBC, WBC or platelets
+for in-vitro use.
+Verification of results by
+human operator.
+Light Source LED Same
+(Light Emitting Diode)
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 4 of 12
+
+[Table 1 on page 4]
+	Device & Predicate		K221309	K200595
+	Device(s):			
+Device Trade Name			AI100 with Shonit	CellaVision DC-1
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			AI100 with Shonit is a
+cell locating device
+intended for in-vitro
+diagnostic use in clinical
+laboratories.
+AI100 with Shonit is
+intended for differential
+count of White Blood
+Cells (WBC),
+characterization of Red
+Blood Cells (RBC)
+morphology and Platelet
+morphology. It
+automatically locates
+blood cells on peripheral
+blood smears and presents
+images of the blood cells
+for review.
+A skilled operator, trained
+in the use of the device
+and in the review of blood
+cells, identifies and
+classifies each cell
+according to type.	CellaVision DC-1 is an
+automated cell-locating
+device intended for in-
+vitro diagnostic use in
+clinical laboratories.
+CellaVision DC-1 is
+intended to be used by
+operators trained in the
+use of the device.
+Peripheral Blood
+Application:
+The CellaVision
+Peripheral Blood
+Application is intended
+for differential count of
+white blood cells (WBC),
+characterization of red
+blood cell (RBC)
+morphology and platelet
+estimation.
+The CellaVision DC-1
+with the Peripheral Blood
+Application automatically
+locates blood cells on
+peripheral blood (PB)
+smears. The application
+presents images of the
+blood cells for review. A
+skilled operator trained in
+recognition of blood cells,
+identifies and verifies the
+suggested classification of
+each cell according to
+type.
+Parameters			Automated cell-locating
+device for cell-location
+and identification of
+RBC, WBC or platelets
+for in-vitro use.
+Verification of results by
+human operator.	Same
+Light Source			LED
+(Light Emitting Diode)	Same
+
+--- Page 5 ---
+Sample Source Stained blood film on Same
+glass slides of peripheral
+whole blood.
+Sample Staining Romanowsky stain Same
+Image interpretation A skilled operator is Same
+requirements required to differentiate
+and finally modify
+and/or confirm the pre-
+classification/characteriz
+ation of the located blood
+cells.
+Result format for WBC, RBC The differential Same
+proportional count is
+normally based on 100
+white blood cells. The
+number of WBCs can be
+modified if required. The
+result can be presented as
+a Count (count of located
+cells for the WBC cell
+type) or as % of total
+number of WBCs. The
+result of RBC
+characterization is
+presented as a grading
+for each morphology.
+User Interface The User Interface is Same
+primarily designed to
+allow the user to view
+the images of the WBCs,
+RBCs and Platelets and
+review the classification.
+The user will be able to
+make corrections to the
+results and generate a
+report.
+Loading capacity 1 slide Same
+Immersion oil application Manual Application Same
+Neural network Neural network of Same
+convolutional type
+General Device
+AI100 with Shonit CellaVision DC-1
+Characteristic Differences
+White blood cells are
+White blood cells are
+located and counted by
+Analysis technique: WBC located/counted by
+moving according to the
+moving according to the
+outwardly increasing
+battlement track pattern
+spiral path.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 5 of 12
+
+[Table 1 on page 5]
+Sample Source			Stained blood film on
+glass slides of peripheral
+whole blood.	Same
+Sample Staining			Romanowsky stain	Same
+Image interpretation
+requirements			A skilled operator is
+required to differentiate
+and finally modify
+and/or confirm the pre-
+classification/characteriz
+ation of the located blood
+cells.	Same
+Result format for WBC, RBC			The differential
+proportional count is
+normally based on 100
+white blood cells. The
+number of WBCs can be
+modified if required. The
+result can be presented as
+a Count (count of located
+cells for the WBC cell
+type) or as % of total
+number of WBCs. The
+result of RBC
+characterization is
+presented as a grading
+for each morphology.	Same
+User Interface			The User Interface is
+primarily designed to
+allow the user to view
+the images of the WBCs,
+RBCs and Platelets and
+review the classification.
+The user will be able to
+make corrections to the
+results and generate a
+report.	Same
+Loading capacity			1 slide	Same
+Immersion oil application			Manual Application	Same
+Neural network			Neural network of
+convolutional type	Same
+	General Device		AI100 with Shonit	CellaVision DC-1
+	Characteristic Differences			
+Analysis technique: WBC			White blood cells are
+located and counted by
+moving according to the
+outwardly increasing
+spiral path.	White blood cells are
+located/counted by
+moving according to the
+battlement track pattern
+
+--- Page 6 ---
+Platelets are pre-
+classified based on
+morphology and images
+are displayed to the user.
+The operator verifies the
+The operator manually
+suggested classification
+counts and estimates the
+and confirms the
+platelet concentration
+qualitative output of
+from the overview image
+‘Detected’ vs ‘Not
+according to a
+Detected’ for each
+standardized procedure.
+Analysis technique: Platelet platelet type.
+From an overview image
+The user is presented
+corresponding to eight
+with platelet images,
+high power fields the
+classified based on
+platelet level is
+morphology. The user
+estimated. The
+can review the
+concentration of platelets
+classification and
+is estimated by the user.
+confirm the qualitative
+output of Detected vs
+Not Detected against
+each platelet morphology
+category.
+The device has two
+The device has one
+objective lenses, one at
+Image Magnification objective lens at 40X
+10X and one at 100X
+magnification.
+magnification.
+The system can interact
+with a laboratory
+Information transfer from The current system does
+information system (LIS)
+instrument to Printer or not interact with a
+The system will retrieve
+network laboratory information
+order data from the LIS
+system (LIS)
+and send results back to
+the LIS.
+VI Standards/Guidance Documents Referenced:
+• EVS-EN ISO 14971: 2019 Medical devices - Application of risk management to medical
+devices, (Recognition Number: 5-125)
+• ISO 15223-1, Fourth Edition 2021-07 Medical devices - Symbols to be used with medical
+device labels, labelling, and information to be supplied - Part 1: General requirements
+• IEC 61010-1, Edition 3.1: 2017-01 - Standard for Safety for Electrical Equipment for
+Measurement, Control and Laboratory Use; Part 1: General Requirements
+• IEC 62304, Edition 1.1: 2015-06 - Medical device software - Software life cycle processes
+• IEC 62366-1, Edition 1.1 :2020-06 - Medical devices - Part 1: Application of usability
+engineering to medical devices
+• CLSI EP05-A3 - Evaluation of Precision of Quantitative Measurement Procedures;
+Approved Guideline - Third Edition
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 6 of 12
+
+[Table 1 on page 6]
+Analysis technique: Platelet	Platelets are pre-
+classified based on
+morphology and images
+are displayed to the user.
+The operator verifies the
+suggested classification
+and confirms the
+qualitative output of
+‘Detected’ vs ‘Not
+Detected’ for each
+platelet type.
+The user is presented
+with platelet images,
+classified based on
+morphology. The user
+can review the
+classification and
+confirm the qualitative
+output of Detected vs
+Not Detected against
+each platelet morphology
+category.	The operator manually
+counts and estimates the
+platelet concentration
+from the overview image
+according to a
+standardized procedure.
+From an overview image
+corresponding to eight
+high power fields the
+platelet level is
+estimated. The
+concentration of platelets
+is estimated by the user.
+Image Magnification	The device has one
+objective lens at 40X
+magnification.	The device has two
+objective lenses, one at
+10X and one at 100X
+magnification.
+Information transfer from
+instrument to Printer or
+network	The current system does
+not interact with a
+laboratory information
+system (LIS)	The system can interact
+with a laboratory
+information system (LIS)
+The system will retrieve
+order data from the LIS
+and send results back to
+the LIS.
+
+--- Page 7 ---
+• CLSI EP12-A2 - User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline - Second Edition
+• CLSI H20-A2 - Reference Leukocyte (WBC) Differential Count (Proportional) an
+Evaluation of Instrumental Methods; Approved Standard - Second Edition
+• ISTA 3B: 2013 - Packaged-Products for Less-Than-Truckload (LTL) Shipment
+• IEC 61326-1 Edition 3.0 2020-10 - Electrical equipment for measurement, control and
+laboratory use - EMC requirements - Part 1: General requirements
+• IEC 61326-2-6 Edition 3.0 2020-10 - Electrical equipment for measurement, control and
+laboratory use - EMC requirements - Part 2-6: Particular requirements - In vitro diagnostic
+(IVD) medical equipment
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision:
+a) Repeatability was conducted at one site using 12 blood samples. The slides were either
+prepared manually or using an automated smearer and stained with Romanowsky stain.
+The repeatability study was conducted over 20 days x 2 runs per day x 2 replicates per
+run. The WBC repeatability results with the highest recorded standard deviations are
+provided. The Mean and Standard Deviation with the maximum 95% CI are provided for
+each cell type. The RBC and Platelet repeatability results are provided as the mean
+overall agreement for each subgroup. All results met the pre-defined acceptance criteria.
+Repeatability Between Run Between Day Within Lab
+Mean Mean Mean SD Mean
+Cell Type SD (95%CI) SD (95%CI) SD (95%CI)
+(%) (%) (%) (95%CI) (%)
+2.605 1.176 2.487 3.67
+Neutrophil 65.4 32.4 65.4 65.4
+(2.139, 3.333) (0.994, 1.442) (2.084, 3.086) (3.049, 4.612)
+3.212 1.419 1.42 3.324
+Lymphocyte 24.4 60.2 60.2 24.4
+(2.637, 4.109) (1.198, 1.742) (1.173, 1.798) (2.871, 3.947)
+1.408 0.352 0.838 (0.711, 1.496
+Eosinophil 17.5 2.1 5.2 17.5
+(1.156, 1.801) (0.298, 0.429) 1.021) (1.293, 1.777)
+1.156 0.832 0.653 (0.541, 1.507
+Monocyte 3.8 3.8 3.1 3.8
+(0.949, 1.479) (0.704, 1.019) 0.825) (1.287, 1.818)
+0.417 0.121 0.232 (0.195, 0.477
+Basophil 0.5 0.4 0.5 0.5
+(0.342, 0.533) (0.102, 0.148) 0.286) (0.408, 0.574)
+Immature 1.608 0.625 0.801 (0.679, 1.796
+9.7 3 9.7 9.7
+Granulocyte (1.320, 2.058) (0.530, 0.763) 0.975) (1.542, 2.153)
+Atypical 2.614 0.58 1.448 (1.223, 2.989
+49.9 2.7 49.9 49.9
+Cell/Blast (2.146, 3.345) (0.486, 0.719) 1.777) (2.557, 3.598)
+0.533 0.199 0.361 (0.302, 0.674
+NRBC 1.3 1.3 1.3 1.3
+(0.438, 0.682) (0.168, 0.245) 0.451) (0.571, 0.822)
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 7 of 12
+
+[Table 1 on page 7]
+Cell Type		Repeatability					Between Run					Between Day						Within Lab			
+		Mean		SD (95%CI)			Mean		SD (95%CI)			Mean			SD			Mean		SD (95%CI)	
+		(%)					(%)					(%)			(95%CI)			(%)			
+Neutrophil	65.4			2.605
+(2.139, 3.333)		32.4			1.176
+(0.994, 1.442)		65.4			2.487
+(2.084, 3.086)			65.4			3.67
+(3.049, 4.612)	
+Lymphocyte	24.4			3.212
+(2.637, 4.109)		60.2			1.419
+(1.198, 1.742)		60.2			1.42
+(1.173, 1.798)			24.4			3.324
+(2.871, 3.947)	
+Eosinophil	17.5			1.408
+(1.156, 1.801)		2.1			0.352
+(0.298, 0.429)		5.2			0.838 (0.711,
+1.021)			17.5			1.496
+(1.293, 1.777)	
+Monocyte	3.8			1.156
+(0.949, 1.479)		3.8			0.832
+(0.704, 1.019)		3.1			0.653 (0.541,
+0.825)			3.8			1.507
+(1.287, 1.818)	
+Basophil	0.5			0.417
+(0.342, 0.533)		0.4			0.121
+(0.102, 0.148)		0.5			0.232 (0.195,
+0.286)			0.5			0.477
+(0.408, 0.574)	
+Immature
+Granulocyte	9.7			1.608
+(1.320, 2.058)		3			0.625
+(0.530, 0.763)		9.7			0.801 (0.679,
+0.975)			9.7			1.796
+(1.542, 2.153)	
+Atypical
+Cell/Blast	49.9			2.614
+(2.146, 3.345)		2.7			0.58
+(0.486, 0.719)		49.9			1.448 (1.223,
+1.777)			49.9			2.989
+(2.557, 3.598)	
+NRBC	1.3			0.533
+(0.438, 0.682)		1.3			0.199
+(0.168, 0.245)		1.3			0.361 (0.302,
+0.451)			1.3			0.674
+(0.571, 0.822)	
+
+[Table 2 on page 7]
+
+Cell Type
+
+--- Page 8 ---
+Mean Agreement for RBC Size
+RBC Size Overall Agreement Mean Values
+Round Normocytes 100%
+Round Macrocytes 92%
+Oval Macrocytes 93%
+Anisocytosis 95%
+Microcytosis 99%
+Macrocytosis 95%
+Mean Agreement for RBC Shape
+RBC Shape Overall Agreement Mean Values
+Normal 100%
+Elliptocyte 99%
+Teardrop 94%
+Acanthocyte 96%
+Target 91%
+Fragmented 92%
+Ovalocyte 99%
+Poikilocytosis 99%
+Mean Agreement for Platelets
+Overall Agreement Mean Value
+Platelet 100%
+Giant Platelet 96%
+Platelet Clump 83%
+b) Reproducibility was conducted using 13 blood samples. The study was conducted over
+five (5) days x five (5) runs x three (3) devices. Each slide was scanned 5 times per day
+per device. Each scan was considered one replicate. The WBC reproducibility results
+with the highest standard deviations are provided. The Mean and Standard Deviation with
+the maximum 95% CI is provided for each cell type. All results met the pre-defined
+acceptance criteria.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 8 of 12
+
+[Table 1 on page 8]
+RBC Size	Overall Agreement Mean Values
+Round Normocytes	100%
+Round Macrocytes	92%
+Oval Macrocytes	93%
+Anisocytosis	95%
+Microcytosis	99%
+Macrocytosis	95%
+
+[Table 2 on page 8]
+RBC Shape	Overall Agreement Mean Values
+Normal	100%
+Elliptocyte	99%
+Teardrop	94%
+Acanthocyte	96%
+Target	91%
+Fragmented	92%
+Ovalocyte	99%
+Poikilocytosis	99%
+
+[Table 3 on page 8]
+	Overall Agreement Mean Value
+	
+Platelet	100%
+Giant Platelet	96%
+Platelet Clump	83%
+
+--- Page 9 ---
+Repeatability Between Day Between Site Reproducibility
+Mea
+Cell Type Mean SD SD Mean Mean SD
+n SD (95%CI)
+(%) (95%CI) (95%CI) (%) (%) (95%CI)
+(%)
+2.158 1.777 2.024 2.318
+Neutrophil 25.6 67.2 62.1 62.1
+(1.832, 2.627) (1.002, 6.773) (1.634, 2.659) (1.330, 8.102)
+2.806 2.986 2.606 4.856
+Lymphocyte 46.5 46.5 46.5 46.5
+(2.382, 3.417) (1.644, 13.029) (2.073, 3.510) (3.485, 7.999)
+1.501 2.095 1.147 2.578
+Eosinophil 10.8 10.8 9.9 10.8
+(1.274, 1.828) (1.667, 2.822) (0.969, 1.406) (2.026, 3.545)
+1.033 1.094 0.844 1.424
+Monocyte 9.4 5.9 9.4 9.4
+(0.877, 1.258) (0.674, 2.814) (0.715, 1.032) (1.019, 2.362)
+0.292 0.13 0.205 0.275
+Basophil 0.2 0.1 0.2 0.2
+(0.248, 0.356) (0.070, 0.647) (0.171, 0.255) (0.175, 0.628)
+Immature 1.231 0.703 1.03 1.219
+5.3 2.6 6.1 6.1
+Granulocyte (1.044, 1.498) (0.394, 2.763) (0.820, 1.383) (0.714, 3.874)
+Atypical 2.096 1.754 3.222 4.225
+31.8 31.8 31.8 31.8
+Cell/Blast (1.779, 2.552) (0.937, 9.201) (2.627, 4.169) (2.639, 10.333)
+1.044 1.466 1.038 1.27
+NRBC 13 13 2 2
+(0.886, 1.271) (0.878, 4.214) (0.878, 1.269) (0.766, 3.541)
+Mean Agreement for RBC Size
+RBC Size Overall Agreement Mean Value
+Round Normocytes 100%
+Round Macrocytes 97%
+Oval Macrocytes 89%
+Anisocytosis 99%
+Microcytosis 100%
+Macrocytosis 96%
+Mean Agreement for RBC Shape
+Overall Agreement Mean Values
+RBC Shape
+Normal 97%
+Elliptocyte 96%
+Teardrop 96%
+Acanthocyte 91%
+Target 97%
+Fragmented 91%
+Ovalocyte 99%
+Poikilocytosis 95%
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 9 of 12
+
+[Table 1 on page 9]
+Cell Type		Repeatability				Between Day					Between Site				Reproducibility		
+	Mean
+(%)		SD
+(95%CI)			Mea		SD
+(95%CI)		Mean
+(%)		SD (95%CI)		Mean
+(%)		SD
+(95%CI)	
+						n											
+						(%)											
+Neutrophil	25.6		2.158
+(1.832, 2.627)		67.2			1.777
+(1.002, 6.773)		62.1		2.024
+(1.634, 2.659)		62.1		2.318
+(1.330, 8.102)	
+Lymphocyte	46.5		2.806
+(2.382, 3.417)		46.5			2.986
+(1.644, 13.029)		46.5		2.606
+(2.073, 3.510)		46.5		4.856
+(3.485, 7.999)	
+Eosinophil	10.8		1.501
+(1.274, 1.828)		10.8			2.095
+(1.667, 2.822)		9.9		1.147
+(0.969, 1.406)		10.8		2.578
+(2.026, 3.545)	
+Monocyte	9.4		1.033
+(0.877, 1.258)		5.9			1.094
+(0.674, 2.814)		9.4		0.844
+(0.715, 1.032)		9.4		1.424
+(1.019, 2.362)	
+Basophil	0.2		0.292
+(0.248, 0.356)		0.1			0.13
+(0.070, 0.647)		0.2		0.205
+(0.171, 0.255)		0.2		0.275
+(0.175, 0.628)	
+Immature
+Granulocyte	5.3		1.231
+(1.044, 1.498)		2.6			0.703
+(0.394, 2.763)		6.1		1.03
+(0.820, 1.383)		6.1		1.219
+(0.714, 3.874)	
+Atypical
+Cell/Blast	31.8		2.096
+(1.779, 2.552)		31.8			1.754
+(0.937, 9.201)		31.8		3.222
+(2.627, 4.169)		31.8		4.225
+(2.639, 10.333)	
+NRBC	13		1.044
+(0.886, 1.271)		13			1.466
+(0.878, 4.214)		2		1.038
+(0.878, 1.269)		2		1.27
+(0.766, 3.541)	
+
+[Table 2 on page 9]
+Mean
+(%)
+
+[Table 3 on page 9]
+SD
+(95%CI)
+
+[Table 4 on page 9]
+SD
+(95%CI)
+
+[Table 5 on page 9]
+Mean
+(%)
+
+[Table 6 on page 9]
+Mean
+(%)
+
+[Table 7 on page 9]
+SD
+(95%CI)
+
+[Table 8 on page 9]
+RBC Size	Overall Agreement Mean Value
+Round Normocytes	100%
+Round Macrocytes	97%
+Oval Macrocytes	89%
+Anisocytosis	99%
+Microcytosis	100%
+Macrocytosis	96%
+
+[Table 9 on page 9]
+	Overall Agreement Mean Values
+RBC Shape	
+	
+Normal	97%
+Elliptocyte	96%
+Teardrop	96%
+Acanthocyte	91%
+Target	97%
+Fragmented	91%
+Ovalocyte	99%
+Poikilocytosis	95%
+
+--- Page 10 ---
+Mean Agreement for platelet:
+Overall Agreement Mean Values
+Platelet 100%
+Giant Platelet 92%
+Platelet Clumps 93%
+2. Linearity:
+Not applicable.
+3. Analytical Specificity/Interference:
+Not applicable.
+4. Accuracy (Instrument):
+A method comparison study was conducted at four (4) sites comparing the AI100 with Shonit
+to manual microscopy. A total of 882 samples were collected encompassing healthy subjects
+and patients with specific disease conditions. Blood samples (K EDTA) were collected, and
+2
+one peripheral blood smear (PBS) slide was prepared for each sample (Romanowsky stain).
+The slides were randomly selected, blinded and evaluated by two examiners at each site.
+Passing-Bablok Regression analysis was performed for WBC differential and overall
+agreement, sensitivity and specificity were measured for WBC Distributional and
+Morphological abnormalities. Overall agreement, sensitivity and specificity were evaluated
+for RBC and PLT morphology. Calculations of 95% confidence intervals are also provided.
+The study met the pre-defined acceptance criteria.
+Regression results for WBC cell types
+WBC cell type Parameter Result (n = 882) with 95% CI
+Slope 1.024 (1.016, 1.032)
+Intercept -1.78 (-2.249, -1.346)
+Neutrophil % Pearson's Correlation
+0.962
+Coefficient
+Slope 1.025 (1.016, 1.034)
+Intercept -0.587 (-0.881, -0.306)
+Lymphocyte % Pearson's Correlation
+0.96
+Coefficient
+Slope 1.029 (1.012, 1.05)
+Intercept -0.039 (-0.07, -0.01)
+Eosinophil % Pearson's Correlation
+0.907
+Coefficient
+Slope 1.083 (1.051, 1.117)
+Intercept -0.462 (-0.66, -0.304)
+Monocyte % Pearson's Correlation
+0.789
+Coefficient
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 10 of 12
+
+[Table 1 on page 10]
+	Overall Agreement Mean Values
+	
+Platelet	100%
+Giant Platelet	92%
+Platelet Clumps	93%
+
+[Table 2 on page 10]
+WBC cell type	Parameter	Result (n = 882) with 95% CI
+Neutrophil %	Slope	1.024 (1.016, 1.032)
+	Intercept	-1.78 (-2.249, -1.346)
+	Pearson's Correlation
+Coefficient	0.962
+Lymphocyte %	Slope	1.025 (1.016, 1.034)
+	Intercept	-0.587 (-0.881, -0.306)
+	Pearson's Correlation
+Coefficient	0.96
+Eosinophil %	Slope	1.029 (1.012, 1.05)
+	Intercept	-0.039 (-0.07, -0.01)
+	Pearson's Correlation
+Coefficient	0.907
+Monocyte %	Slope	1.083 (1.051, 1.117)
+	Intercept	-0.462 (-0.66, -0.304)
+	Pearson's Correlation
+Coefficient	0.789
+
+--- Page 11 ---
+Distributional and Morphological abnormalities for WBCs
+WBC abnormality Parameter Results (n = 882) with 95% CI
+Overall Agreement 91.7% (90.4%, 92.8%)
+Morphological Sensitivity 95.3% (92.8%, 96.7%)
+abnormality Specificity 90.9% (89.4%, 92.2%)
+Overall Agreement 96.4% (95.5%, 97.2%)
+Distributional Sensitivity 91.0% (86.8%, 93.9%)
+abnormality Specificity 97.2% (96.3%, 97.9%)
+Overall Agreement 95.0% (94.0%, 95.9%)
+Overall abnormality Sensitivity 92.7% (89.2%, 95.0%)
+Specificity 95.4% (94.35%, 96.25%)
+RBC Morphology
+RBC subgroup Parameter Results (n = 882) with 95% CI
+Overall agreement 94.7% (93.6%, 95.7%)
+Anisocytosis Sensitivity 91.1% (88.1%, 93.4%)
+Specificity 95.9% (94.7, 96.9%)
+Overall agreement 92.1% (90.7, 93.2%)
+Poikilocytosis Sensitivity 96.3% (94.8%, 97.3%)
+Specificity 88.1% (85.8%, 90.0%)
+Overall agreement 95.5% (94.5%, 96.4%)
+Macrocytosis Sensitivity 90.7% (87.0, 93.5%)
+Specificity 96.6% (95.5%, 97.4%)
+Platelet Morphology
+PLT Cell type Parameter Results (n = 882) with 95% CI
+Overall agreement 100% (99.8%, 100%)
+Normal platelets Sensitivity 100% (99.8%, 100%)
+Specificity 100% (34.2%, 100%)
+Overall agreement 96.4% (95.4%, 97.1%)
+Giant platelets Sensitivity 99.1% (98.4%, 99.5%)
+Specificity 92.4% (90.3%, 94.1%)
+Overall agreement 94.2% (93.0%, 95.2%)
+Platelet clumps Sensitivity 91.6% (89.5%, 93.4%)
+Specificity 96.3% (94.9%, 97.3%)
+Overall agreement 96.8% (96.0%, 97.4%)
+Overall platelets Sensitivity 97.9% (97.1%, 98.4%)
+Specificity 94.6% (92.8%, 95.9%)
+5. Carry-Over:
+Not applicable.
+B Other Supportive Instrument Performance Characteristics Data:
+1. Scan Mode Equivalence:
+The scan mode equivalency study was conducted at one site with 200 samples collected and
+slides prepared using Romanowsky stain. The slides were scanned in each mode (i.e.,
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 11 of 12
+
+[Table 1 on page 11]
+WBC abnormality	Parameter	Results (n = 882) with 95% CI
+Morphological
+abnormality	Overall Agreement	91.7% (90.4%, 92.8%)
+	Sensitivity	95.3% (92.8%, 96.7%)
+	Specificity	90.9% (89.4%, 92.2%)
+Distributional
+abnormality	Overall Agreement	96.4% (95.5%, 97.2%)
+	Sensitivity	91.0% (86.8%, 93.9%)
+	Specificity	97.2% (96.3%, 97.9%)
+Overall abnormality	Overall Agreement	95.0% (94.0%, 95.9%)
+	Sensitivity	92.7% (89.2%, 95.0%)
+	Specificity	95.4% (94.35%, 96.25%)
+
+[Table 2 on page 11]
+RBC subgroup	Parameter	Results (n = 882) with 95% CI
+Anisocytosis	Overall agreement	94.7% (93.6%, 95.7%)
+	Sensitivity	91.1% (88.1%, 93.4%)
+	Specificity	95.9% (94.7, 96.9%)
+Poikilocytosis	Overall agreement	92.1% (90.7, 93.2%)
+	Sensitivity	96.3% (94.8%, 97.3%)
+	Specificity	88.1% (85.8%, 90.0%)
+Macrocytosis	Overall agreement	95.5% (94.5%, 96.4%)
+	Sensitivity	90.7% (87.0, 93.5%)
+	Specificity	96.6% (95.5%, 97.4%)
+
+[Table 3 on page 11]
+PLT Cell type	Parameter	Results (n = 882) with 95% CI
+Normal platelets	Overall agreement	100% (99.8%, 100%)
+	Sensitivity	100% (99.8%, 100%)
+	Specificity	100% (34.2%, 100%)
+Giant platelets	Overall agreement	96.4% (95.4%, 97.1%)
+	Sensitivity	99.1% (98.4%, 99.5%)
+	Specificity	92.4% (90.3%, 94.1%)
+Platelet clumps	Overall agreement	94.2% (93.0%, 95.2%)
+	Sensitivity	91.6% (89.5%, 93.4%)
+	Specificity	96.3% (94.9%, 97.3%)
+Overall platelets	Overall agreement	96.8% (96.0%, 97.4%)
+	Sensitivity	97.9% (97.1%, 98.4%)
+	Specificity	94.6% (92.8%, 95.9%)
+
+--- Page 12 ---
+100WBC, 200WBC, and 120 FOVs). There were 90 healthy individuals and 100 abnormal
+samples included in the study. Regression analysis with slope, intercept and 95% CI are
+calculated for the WBC differential. Overall agreement, positive percent agreement (PPA),
+Negative percent agreement (NPA) with 95% CI are evaluated for WBC Distributional and
+Morphological abnormalities, RBC morphology, and PLT morphology. The study met the
+pre-defined acceptance criteria.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov K221309 - Page 12 of 12

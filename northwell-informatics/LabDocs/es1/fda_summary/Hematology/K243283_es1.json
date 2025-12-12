@@ -1,0 +1,97 @@
+{
+    "Trade/Device Name(s)": [
+        "Alinity h-series System",
+        "Alinity hq",
+        "Alinity hs"
+    ],
+    "Submitter Information": "Abbott Laboratories",
+    "510(k) Number": "K243283",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "K220031"
+    ],
+    "Regulatory Class": "Class II, Class I",
+    "Product Code(s)": [
+        "GKZ",
+        "KPA"
+    ],
+    "Summary Letter Date": "February 20, 2025",
+    "Summary Letter Received Date": "November 22, 2024",
+    "Submission Date": "November 22, 2024",
+    "Regulation Number(s)": [
+        "21 CFR 864.5220",
+        "21 CFR 864.3800"
+    ],
+    "Regulation Name(s)": [
+        "Automated differential cell counter",
+        "Automated slide stainer"
+    ],
+    "Analyte Class(es)": [
+        "hematology"
+    ],
+    "Analyte(s)": [
+        "White Blood Cells (WBC)",
+        "Neutrophils (NEU, %N)",
+        "Lymphocytes (LYM, %L)",
+        "Monocytes (MON, %M)",
+        "Eosinophils (EOS, %E)",
+        "Basophils (BASO, %B)",
+        "Immature Granulocytes (IG, %IG)",
+        "Red Blood Cells (RBC)",
+        "Hemoglobin (HGB)",
+        "Hematocrit (HCT)",
+        "Mean Cell Volume (MCV)",
+        "Mean Cell Hemoglobin (MCH)",
+        "Mean Cell Hemoglobin Concentration (MCHC)",
+        "Mean Cell Hemoglobin of Reticulocyte (MCHr)",
+        "Red Blood Cell Distribution Width (RDW)",
+        "Nucleated Red Blood Cells (NRBC, NR/W)",
+        "Reticulocytes (RETIC, %R)",
+        "Immature Reticulocyte Fraction (IRF)",
+        "Platelets (PLT)",
+        "Mean Platelet Volume (MPV)",
+        "Reticulated Platelets (%rP)"
+    ],
+    "Specimen Type(s)": [
+        "Whole blood (venous)",
+        "Whole blood (capillary)"
+    ],
+    "Specimen Container(s)": [
+        "K2EDTA tube",
+        "K3EDTA tube",
+        "Microtainer Microtube for Automated Process (MAP)",
+        "Microtainer Capillary"
+    ],
+    "Instrument(s)/Platform(s)": [
+        "Alinity hq",
+        "Alinity hs",
+        "Alinity h-series System"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Flow cytometry",
+        "Optical and fluorescence flow cytometry",
+        "Hydrodynamic focusing",
+        "Absorption spectrophotometry"
+    ],
+    "Methodologies": [
+        "Multi-parameter quantitative cell analysis",
+        "Automated differential counting",
+        "Automated slide making and staining"
+    ],
+    "Submission Type(s)": [
+        "Analyzer",
+        "Automated system",
+        "Instrument",
+        "System",
+        "Slide maker",
+        "Stainer",
+        "Software",
+        "Reagent",
+        "Calibrator",
+        "Control",
+        "Accessory",
+        "Component"
+    ],
+    "Document Summary": "FDA 510(k) summary for Alinity h-series System (hematology analyzer and slide maker stainer) with software algorithm modification to reduce basophil count overestimation",
+    "Indications for Use Summary": "Integrated hematology analyzer (Alinity hq) and slide maker stainer (Alinity hs) for clinical laboratory screening by qualified professionals; provides complete blood count and 6-part white cell differential on capillary and venous whole blood (K2EDTA or K3EDTA) and automates preparation and staining of whole blood films for in vitro diagnostic use",
+    "fda_folder": "Hematology"
+}

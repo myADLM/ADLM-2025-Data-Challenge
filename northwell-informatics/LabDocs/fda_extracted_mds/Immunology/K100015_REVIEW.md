@@ -1,0 +1,163 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+# G. Regulatory Information:
+
+# H. Intended Use:
+
+2. Indication(s) for use: Same as Intended use.   
+3. Special conditions for use statement(s): For prescription use only   
+4. Special instrument requirements: Not indicated.
+
+I. Device Description:
+
+The Vysis CLL FISH Probe Kit consists of two DNA FISH probes sets and three general purpose reagents as follows:
+
+1. LSI TP53 SpectrumOrange/ATM SpectrumGreen Probes:
+
+The SpectrumOrange-labeled LSI TP53 probe, approximately $1 7 2 \mathrm { k b }$ in length (ch17: 7435119-7606823; March 2006 University of California at Santa Cruz (UCSC) Human Genome Browser), is located at $1 7 \mathsf { p l } 3 . 1$ and contains the complete TP53 gene. It is used to detect p53 deletion on chromosome 17. • The SpectrumGreen-labeled LSI ATM probe, approximately $7 3 2 \mathrm { k b }$ in length (ch11: 107306249-108038407, March 2006 UCSC Human Genome Browser), is located at $1 1 \mathsf { q } 2 2 . 3$ and contains the ATM gene. It is used to detect ATM deletion on chromosome 11.
+
+2. LSI D13S319 SpectrumOrange/13q34 SpectrumAqua/CEP 12 SpectrumGreen Probes:
+
+The SpectrumOrange-labeled LSI D13S319 probe, approximately $1 3 5 \mathrm { k b }$ in length (ch13: 49500369-49635302, March 2006 USC Human Genome Browser), is located at 13q14.3. It is used to detect deletion of chromosome 13q. • The SpectrumAqua-labeled LSI 13q34 probe, approximately $6 1 2 \mathrm { k b }$ in length (ch13: 112739323-113351436, March 2006 USC Human Genome Browser), is located at 13q34. It serves as a quality control probe. The SpectrumGreen-labeled CEP 12 probe is located at the centromere of chromosome 12. It is used to detect chromosome 12 trisomy.
+
+3. General Purpose Reagents:
+
+• DAPI II Counterstain  
+• NP-40  
+• 20X SSC
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s) and 510(k) number(s): Agendia BV MammaPrint $\textsuperscript { \textregistered }$ (k062694)   
+2. Comparison with predicate: Not applicable. Clearance is supported by published clinical study and method concordance bridging studies.
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+American College of Medical Genetics, 2008. Standards and Guidelines for Clinical Genetics Laboratory - Clinical Cytogenetics.
+
+L. Test Principle:
+
+The CLL FISH Probe Kit uses FISH DNA probe technology to determine deletion status of probe targets using CLL specimens for LSI TP53 SO (containing tumor protein p53 gene-location chromosome $1 7 { \mathfrak { p } }$ ), LSI ATM SGn (containing ataxia telangiectasia mutated gene-location at chromosome 11q), and LSI D13S319 SO (containing marker D13S319-location at chromosome 13q), as well as determining trisomy 12 with CEP12 SGn (D12Z3 alpha satellite at location chromosome 12p11.1- q11).
+
+Peripheral blood cells from CLL patients are attached to microscope slides using standard cytogenetic procedures. The resulting specimen DNA is denatured to singlestranded form and subsequently allowed to hybridize with the probes of the CLL FISH Probe Kit. Following hybridization, the unbound probe is removed by a series of washes, and the nuclei are counterstained with DAPI, a DNA-specific stain that fluoresces blue. Hybridization of the LSI TP53 SO, LSI ATM SGn, LSI D13S319 SO, LSI 13q34 SA, and CEP 12 SGn probes is viewed using a fluorescence microscope equipped with appropriate excitation and emission filters, allowing visualization of the orange, green, and aqua fluorescent signals.
+
+In a cell with normal copy numbers of the LSI TP53 SO and LSI ATM SGn probe targets, two orange signals (LSI TP53 SO) and two green signals (LSI ATM SGn) will be expected. Since both the ATM and TP53 loci seem capable of losing only one copy while the other copy is retained, one orange signal (LSI TP53 SO) and/or one green signal (LSI ATM SGn) serves as an internal control of this probe set.
+
+In a cell with normal copy numbers of LSI D13S319 SO and CEP 12 SGn probe targets, two orange signals (LSI D13S319 SO) and two green signals (CEP 12 SGn) will be expected. The presence (not the quantity) of aqua signals is used as an internal control of this probe set.
+
+Enumeration of the LSI TP53 SO, LSI ATM SGn, LSI D13S319 SO, and CEP12 SGn signals provide a mechanism for determining absolute copy numbers of the probe targets and the presence of the aberrations of interest. Any aberrations detected are utilized to determine Döhner Classification and subsequently the dichotomization of prognosis.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+i. Precision:
+
+The precision of the probes in the Vysis CLL FISH Probe Kit was evaluated in two (2) studies. The first study used interphase nuclei prepared from two (2) separate peripheral blood specimens lacking $\mathrm { d e l } ( 1 7 \mathsf { p } 1 3 . 1 )$ , del(11q22.3), del(13q14.3), and trisomy 12, and eight additional specimens of which at least two specimens had one of the listed abnormalities at significant levels. A total of seven (7) tests were performed with three lots of Vysis CLL FISH Probe Kit on two days, and with one of the three lots on a third day. The second study consisted of nine (9) tests performed using three different lots of Vysis CLL FISH Probe Kit on three days on a blinded panel of eight different patient specimens with low levels of specific cytogenetic abnormalities. In both studies, the FISH signal patterns of 200 nuclei were evaluated by two technologists for each specimen. Percentage of cells with the signal pattern of interest was analyzed separately for each specimen per probe. The mean and standard deviations (SDs) of the observed percentage of abnormal cells for each specimen in both studies are summarized as follows:
+
+<table><tr><td rowspan=1 colspan=1>Probe andSignal Pattern</td><td rowspan=1 colspan=1>StudyNo</td><td rowspan=1 colspan=1>SampleID</td><td rowspan=1 colspan=1>N</td><td rowspan=1 colspan=1>Mean</td><td rowspan=1 colspan=1>Between-DayComponentSD[]</td><td rowspan=1 colspan=1>Between-LotComponentSD</td><td rowspan=1 colspan=1>TotalSD</td></tr><tr><td rowspan=4 colspan=1>TP53[del(17p13.1)(1 signal)]</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>13.6</td><td rowspan=1 colspan=1>3.11</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>3.11</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>16.9</td><td rowspan=1 colspan=1>3.90</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>3.90</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>29.8</td><td rowspan=1 colspan=1>5.15</td><td rowspan=1 colspan=1>4.54</td><td rowspan=1 colspan=1>6.87</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>73.2</td><td rowspan=1 colspan=1>5.29</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>5.29</td></tr><tr><td rowspan=5 colspan=1>ATM[del(11q22.3)(1 signal)]</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>7.8</td><td rowspan=1 colspan=1>3.00</td><td rowspan=1 colspan=1>1.89</td><td rowspan=1 colspan=1>3.55</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>8.4</td><td rowspan=1 colspan=1>3.12</td><td rowspan=1 colspan=1>0.91</td><td rowspan=1 colspan=1>3.25</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>13.7</td><td rowspan=1 colspan=1>4.31</td><td rowspan=1 colspan=1>5.10</td><td rowspan=1 colspan=1>6.68</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>18.7</td><td rowspan=1 colspan=1>3.46</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>3.46</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>64.1</td><td rowspan=1 colspan=1>3.18</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>3.18</td></tr><tr><td rowspan=6 colspan=1>D13S319[del(13q14.3)(1 signal)]</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>5.8</td><td rowspan=1 colspan=1>2.49</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>2.49</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>14.9</td><td rowspan=1 colspan=1>2.46</td><td rowspan=1 colspan=1>1.15</td><td rowspan=1 colspan=1>2.72</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>20.1</td><td rowspan=1 colspan=1>4.88</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>4.88</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>53.6</td><td rowspan=1 colspan=1>8.57</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>8.57</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>66.1</td><td rowspan=1 colspan=1>6.13</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>6.13</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>84.9</td><td rowspan=1 colspan=1>4.14</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>4.14</td></tr><tr><td rowspan=2 colspan=1>D13S319[del(13q14.3)(0 signals)]</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>18.4</td><td rowspan=1 colspan=1>6.32</td><td rowspan=1 colspan=1>0.87</td><td rowspan=1 colspan=1>6.38</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>19.8</td><td rowspan=1 colspan=1>2.53</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>2.53</td></tr><tr><td rowspan=5 colspan=1>CEP 12[trisomy 12(3 signals)]</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>3.6</td><td rowspan=1 colspan=1>3.05</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>3.05</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>8.3</td><td rowspan=1 colspan=1>2.77</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>2.77</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>21.6</td><td rowspan=1 colspan=1>6.07</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>6.07</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>67.3</td><td rowspan=1 colspan=1>4.84</td><td rowspan=1 colspan=1>0.00</td><td rowspan=1 colspan=1>4.84</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>70.7</td><td rowspan=1 colspan=1>4.06</td><td rowspan=1 colspan=1>1.07</td><td rowspan=1 colspan=1>4.19</td></tr></table>
+
+Note: [a]Between-Day (Within Lot) Component SD
+
+ii. Reproducibility:
+
+Three individual laboratories tested a blinded 20-member slide panel consisting of specimens representing each of the five Döhner classifications:
+
+13q- (monosomy or nullisomy) as sole abnormality No cytogenetic abnormality   
+• $+ 1 2$ without $1 7 { \mathsf { p } } -$ or 11q  
+• 11q- without 17p17p
+
+The analysis was conducted with 10 slides per day for two days for a total of six runs across three testing sites. The same lots of the Vysis CLL FISH Probe Kit (Vysis LSI TP53 SpectrumOrange/ATM SpectrumGreen and LSI D13S319 SpectrumOrange/13q34 SpectrumAqua/CEP 12 SpectrumGreen Probes) were tested at each laboratory. Results show that there was no disagreement among the three testing sites in test results from LSI TP53 SpectrumOrange and CEP 12 SpectrumGreen probes and two disagreements among the three testing sites in test results from the other
+
+three probes.
+
+<table><tr><td rowspan=2 colspan=1>Probe(Abnormality)</td><td rowspan=1 colspan=3>Disagreela]</td><td rowspan=1 colspan=3>Overall</td></tr><tr><td rowspan=1 colspan=1>Site 1</td><td rowspan=1 colspan=1>Site 2</td><td rowspan=1 colspan=1>Site 3</td><td rowspan=1 colspan=1>No ofAgree</td><td rowspan=1 colspan=1>No ofTested</td><td rowspan=1 colspan=1>PercentAgreement</td></tr><tr><td rowspan=1 colspan=1>TP53 (17p-)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>ATM (11q-)</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>90</td></tr><tr><td rowspan=1 colspan=1>CEP 12 (+12)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>D13S319 1x (13q-)</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>90</td></tr><tr><td rowspan=1 colspan=1>D13S319 2x (13q-)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>90</td></tr></table>
+
+Note: [a]Disagree $=$ Number of specimens for which FISH result from one site did not agree with the results from the other two sites.
+
+Additionally, Fisher’s Exact Test showed that there was no significant difference within each probes or Prognostic Category among the three testing sites.
+
+b. Linearity/assay reportable range: Not applicable.   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods): i. Real-time stability: One (1) lot of the Vysis CLL FISH probes and three (3) lots of other components of the Vysis CLL FISH Probe Kit were tested shortly after the respective expiration dating of the components under intended storage conditions as follows:
+
+<table><tr><td rowspan=1 colspan=1>Components</td><td rowspan=1 colspan=1>StorageCondition</td><td rowspan=1 colspan=1>Shelf life</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI TP53 SpectrumOrange (SO)/ATM SpectrumGreen (SGn)</td><td rowspan=1 colspan=1>-20° ±10°</td><td rowspan=1 colspan=1>24 months</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI D13S319 SO/LSI 13q34SpectrumAquaa (SA)/CEP 12 SGn</td><td rowspan=1 colspan=1>-20° ±10°</td><td rowspan=1 colspan=1>24 months</td></tr><tr><td rowspan=1 colspan=1>DAPI II Counterstain</td><td rowspan=1 colspan=1>-20°C ±10°</td><td rowspan=1 colspan=1>12 months</td></tr><tr><td rowspan=1 colspan=1>NP-40</td><td rowspan=1 colspan=1>-20°C±10°</td><td rowspan=1 colspan=1>36 months</td></tr><tr><td rowspan=1 colspan=1>20X SSC</td><td rowspan=1 colspan=1>-20°C ±10°</td><td rowspan=1 colspan=1>60 months</td></tr></table>
+
+The functionality of the Vysis CLL FISH Probe Kit components was evaluated based on the following attributes: signal intensity, target background, cross-hybridization, specificity, and overall readability. The Vysis CLL FISH Probe Kit dating is determined by the component with the shortest expiration dating. The shelf-life of Vysis CLL FISH Probe Kit was determined to be 12 months.
+
+The ongoing real-time Kit Stability Study tests three (3) lots of Vysis LSI TP53 SO/LSI ATM SG probe and three (3) lots of the Vysis LSI D13S319 SO/LSI 13q34 SA/CEP12 SG probe. The functionality of the Vysis CLL FISH Probes was tested in triplicate at each time point using metaphase slides prepared from normal phytohemagglutinin (PHA)-stimulated peripheral blood lymphocytes. The interim test results have demonstrated 7-month stability at the ISC for the Vysis LSI TP53 SO/LSI ATM SG
+
+probe and 4-month stability at the ISC for the Vysis LSI D13S319 SO/LSI 13q34 SA/CEP12 SG probe.
+
+ii. Freeze-thaw Stability: A series of twenty freeze-thaw cycles (equal to the number of assays in the kit) was performed on each CLL FISH Probe Kit and the functionality of the CLL FISH Probe Kit components was evaluated based on the following attributes: signal intensity, target background, cross-hybridization, specificity, and overall readability. The stability test showed no decrease in performance.
+
+iii. Shipping stability. The stability test showed no decrease in performance regardless of the method of shipment, (i.e. Ambient, Wet Ice, or Dry Ice).
+
+iv. Hybridization signal stability: The slides prepared from normal male PHA-stimulated peripheral blood lymphocytes were hybridized with Vysis LSI CLL FISH probes (Vysis LSI TP53 SO/LSI ATM SG and Vysis LSI D13S319 SO/LSI 13q34 SA/CEP12 SG) and then stored at $- 2 0 ^ { \circ } \mathrm { C } \pm 1 0 ^ { \circ } \mathrm { C }$ while protected from light. The hybridized slides were evaluated at Day 1, Day 21, and Day 42 post-hybridization with respect to signal intensity, target background, cross hybridization, specificity, and overall readability. The results showed that the slides can be stored with desiccant for up to three (3) weeks after the application of DAPI II Counterstain without significant loss in fluorescence signal intensity or the ability to count the signal patterns of 200 nuclei per slide.
+
+d. Detection limit:
+
+The analytical sensitivity of the probes in the Vysis CLL FISH Probe Kit for their respective chromosome target loci was established using interphase nuclei prepared from peripheral blood cultures of 25 karyotypically normal patients. For each specimen, the signal patterns of 200 nuclei were evaluated by counting the number of orange and green signals present for each probe target. Each of the two technologists evaluated 100 nuclei per specimen for a total of 200 nuclei per specimen and 5000 scoreable nuclei from normal specimens.
+
+The sensitivity (with $9 5 \%$ confidence intervals (CI) based on binomial distribution) was calculated as the percentage of scoreable interphase nuclei with the expected signal pattern of two signals per nucleus as follows:
+
+<table><tr><td rowspan=1 colspan=1>Probe</td><td rowspan=1 colspan=1>Total Number ofNuclei Scored</td><td rowspan=1 colspan=1>Number of NucleiWith ExpectedSignal Pattern</td><td rowspan=1 colspan=1>Sensitivity(95% CI)</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI TP53SpectrumOrange</td><td rowspan=1 colspan=1>5000</td><td rowspan=1 colspan=1>4899</td><td rowspan=1 colspan=1>97.98%(97.55% - 98.35%)</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI ATMSpectrumGreen</td><td rowspan=1 colspan=1>5000</td><td rowspan=1 colspan=1>4934</td><td rowspan=1 colspan=1>98.68%(98.32% - 98.98%)</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI D13S319SpectrumOrange</td><td rowspan=1 colspan=1>5000</td><td rowspan=1 colspan=1>4930</td><td rowspan=1 colspan=1>98.60%(98.23%  98.91%)</td></tr><tr><td rowspan=1 colspan=1>Vysis CEP 12SpectrumGreen</td><td rowspan=1 colspan=1>5000</td><td rowspan=1 colspan=1>4947</td><td rowspan=1 colspan=1>98.95%(98.62%  99.21%)</td></tr></table>
+
+e. Analytical specificity:
+
+Analytical specificity is defined as the percentage of signals that hybridize to the correct locus and no other location. This test is a visual demonstration that each probe hybridizes specifically to the expected chromosome location. The analytical specificity of the Vysis CLL FISH probes for their respective chromosome target loci was established using metaphase chromosomes prepared from peripheral blood cultures of five karyotypically normal males on microscope slides. The hybridization location of each FISH signal on chromosomes of 20 consecutive metaphase nuclei on each of 5 slides was evaluated by one technologist for a total of 200 target loci.
+
+For each probe and sample, the number of metaphase chromosome FISH signals hybridized to the correct locus and the number of metaphase chromosome FISH signals hybridized to the incorrect locus were enumerated. The specificity of each probe was calculated as the percentage of metaphase chromosome FISH signals hybridized to the correct locus as follows:
+
+<table><tr><td rowspan=1 colspan=1>Probe</td><td rowspan=1 colspan=1>Target</td><td rowspan=1 colspan=1>Total No ofMetaphaseChromosomeHybridized</td><td rowspan=1 colspan=1>No of MetaphaseChromosomeHybridized to theCorrect Target</td><td rowspan=1 colspan=1>Specificity(95% CI)</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI TP53SpectrumOrange</td><td rowspan=1 colspan=1>17p13.1</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>100%(98.17% - 100%)</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI ATMSpectrumGreen</td><td rowspan=1 colspan=1>11q22.3</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>100%(98.17% - 100%)</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI D13S319SpectrumOrange</td><td rowspan=1 colspan=1>13q14.3</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>100%(98.17% - 100%)</td></tr><tr><td rowspan=1 colspan=1>Vysis LSI 13q34SpectrumAqua</td><td rowspan=1 colspan=1>13q34</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>100%(98.17% - 100%)</td></tr><tr><td rowspan=1 colspan=1>Vysis CEP 12SpectrumGreen</td><td rowspan=1 colspan=1>12p11.1-q11</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>200</td><td rowspan=1 colspan=1>100%(98.17% - 100%)</td></tr></table>
+
+f. Assay cut-off:
+
+The normal cut-off values of the probes in the Vysis CLL FISH Probe Kit for their respective chromosome target loci were established using interphase nuclei prepared from peripheral blood cultures of 25 karyotypically normal patients. For each specimen, the signal patterns of 200 nuclei were evaluated by counting the number of orange and green signals present for each probe target.
+
+The expected normal interphase signal pattern for all probes in the Vysis CLL FISH Probe Kit was two signals per nucleus. Since the specimen population does not fit a Gaussian distribution, the normal cut-off value was calculated using the beta inverse function as the maximum number or percentage of scoreable interphase nuclei with a specific abnormal signal pattern at which a specimen is considered normal for that signal pattern. The results are summarized as follows:
+
+<table><tr><td colspan="1" rowspan="1">Probe</td><td colspan="1" rowspan="1">Abnormal</td><td colspan="1" rowspan="1">Number of</td><td colspan="1" rowspan="1">Maximum</td><td colspan="1" rowspan="1">Normal Cut-off</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">SignalPattern ofInterest</td><td colspan="1" rowspan="1">NucleiEvaluated</td><td colspan="1" rowspan="1">Number ofFalse-PositivePatterns</td><td colspan="1" rowspan="1">Value Per 200Nuclei (%)</td></tr><tr><td colspan="1" rowspan="1">Vysis LSI TP53SpectrumOrange</td><td colspan="1" rowspan="1">1 signal</td><td colspan="1" rowspan="1">200</td><td colspan="1" rowspan="1">8</td><td colspan="1" rowspan="1">14 (7.0%)</td></tr><tr><td colspan="1" rowspan="1">Vysis LSI ATMSpectrumGreen</td><td colspan="1" rowspan="1">1 signal</td><td colspan="1" rowspan="1">200</td><td colspan="1" rowspan="1">6</td><td colspan="1" rowspan="1">12 (6.0%)</td></tr><tr><td colspan="1" rowspan="1">Vysis LSI D13S319SpectrumOrange</td><td colspan="1" rowspan="1">1 signal</td><td colspan="1" rowspan="1">200</td><td colspan="1" rowspan="1">5</td><td colspan="1" rowspan="1">11 (5.5%)</td></tr><tr><td colspan="1" rowspan="1">Vysis LSI D13S319SpectrumOrange</td><td colspan="1" rowspan="1">0 signal</td><td colspan="1" rowspan="1">200</td><td colspan="1" rowspan="1">0</td><td colspan="1" rowspan="1">3 (1.5%)</td></tr><tr><td colspan="1" rowspan="1">Vysis CEP 12SpectrumGreen</td><td colspan="1" rowspan="1">3 signals</td><td colspan="1" rowspan="1">200</td><td colspan="1" rowspan="1">1</td><td colspan="1" rowspan="1">5 (2.5%)</td></tr></table>
+
+2. Comparison studies:
+
+a. Method comparison with predicate device Not applicable.
+
+b. Matrix comparison: Not applicable.
+
+c. Method concordance bridging studies:
+
+A total of 64 de-identified specimens with Döhner classifications as determined previously based on results from the Reference FISH Test (RFT) were tested with the Vysis CLL FISH Probe Kit. They represent each of the five Döhner classifications, including no cytogenetic abnormality $( \mathrm { n } { = } 1 2$ ), 13q(monosomy or nullisomy) as sole abnormality $( \mathrm { n } { = } 1 3$ ), $+ 1 2$ without $1 7 { \mathfrak { p } } \cdot$ or 11q- $( \mathrm { n } { = } 1 4 )$ ), 11q- without 17p- $( \mathrm { n } { = } 1 8 )$ and 17p- $( \mathrm { n } { = } 7 )$ ) based on previous results using the RFT used in the Shanafelt study[a]. For each specimen tested, two technologists each scored 100 nuclei for each hybridization target by counting and recording the number of orange and green signals present in each nucleus. The results of the two technologists for each specimen were then combined to determine the Döhner class based on the specific abnormal signal patterns observed. The results showed that Vysis CLL FISH Probe Kit identified 38 of 39 specimens in Intermediate/Good prognostic category and 24 of 25 specimens in Poor prognostic category. The percent agreement between the Vysis CLL FISH Probe Kit and RFT was $9 7 \%$ with a lower $9 5 \%$ confidence boundary of $90 \%$ .
+
+<table><tr><td rowspan=2 colspan=1>Prognostic Category byVysis CLL FISH Probe Kit</td><td rowspan=1 colspan=3>Prognostic Category by RFT</td></tr><tr><td rowspan=1 colspan=1>Intermediate/Good</td><td rowspan=1 colspan=1>Poor</td><td rowspan=1 colspan=1>Total</td></tr><tr><td rowspan=1 colspan=1>Intermediate/Good</td><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>39</td></tr><tr><td rowspan=1 colspan=1>Poor</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>25</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>64</td></tr></table>
+
+Note: [a]Shanafelt TD, Witzig TE, Fink SR, et al., 2006. Prospective evaluation of clonal evolution during long-term follow-up of patients with untreated early-stage chronic lymphocytic leukemia. J Clin Oncol. 24(28):4634-41.
+
+In addition, 20 blinded specimens representing each of the five Döhner classifications were tested at three individual laboratories. Each site tested ten (10) slides per day for a total of four runs consisting of two runs using Vysis CLL FISH Probe Kit and two runs with their Reference FISH Tests. Percent agreement between test results for each probe was determined and summarized as follows:
+
+<table><tr><td rowspan=1 colspan=1>Probe and Signal Pattern</td><td rowspan=1 colspan=1>NumberTested</td><td rowspan=1 colspan=1>NumberAgreed</td><td rowspan=1 colspan=1>PercentAgreement</td><td rowspan=1 colspan=1>LowerBoundary95% CI</td></tr><tr><td rowspan=1 colspan=1>TP53 [del(17p13.1)(1 signal)]</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>95</td></tr><tr><td rowspan=1 colspan=1>ATM [del(11q22.3)(1 signal)]</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>95</td></tr><tr><td rowspan=1 colspan=1>D13S319 [del(13q14.3)(1 signal)]</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>97</td><td rowspan=1 colspan=1>90</td></tr><tr><td rowspan=1 colspan=1>D13S319 [del(13q14.3)(0 signals)]</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>93</td><td rowspan=1 colspan=1>85</td></tr><tr><td rowspan=1 colspan=1>CEP 12 [trisomy 12(3 signals)]</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>95</td></tr></table>
+
+3. Clinical studies:
+
+a. Clinical Sensitivity and Specificity: Not applicable.
+
+$b$ . Other clinical supportive data (when a. is not applicable): Prognostic claim of the Vysis CLL FISH Probe Kit is supported by literature. In a prospective study, Shanafelt et al established the relationship between Vysis CLL FISH results and overall 5-year survival (OS) in a cohort of untreated, predominantly early-stage patients with CLL/small lymphocytic lymphoma (SLL). A total of 159 patients with previously untreated CLL ( $83 \%$ Rai stage $0 / 1$ ) were enrolled in a prospective trial evaluating clonal evolution by interphase FISH. Patients provided baseline and follow-up specimens for interphase FISH testing during 2 to 12 years. Chromosome abnormalities were detected by FISH testing at study entry in 120 of the 159 patients. Sixty-one patients had a single abnormality, 52 patients had two abnormalities, and seven patients had three or more abnormalities. All deletions were monoallelic except for the 13q14 region. In 41 $( 4 4 \% )$ of the 93 patients who had 13q- deletions there were biallelic or concomitant monoallelic and biallelic deletions of $1 3 \mathsf { q } \mathsf { - }$ . Chromosomal abnormalities detected by Vysis CLL FISH Probe at study entry predicted overall 5-year survival. Patients with 11q- or $1 7 { \mathsf { p } } -$ on baseline FISH had shorter expected OS from diagnosis or baseline FISH analysis as compared to other FISH categories. The results showed that patients with an initial FISH diagnosis of 17p- or 11q- had a poor prognosis and those with a FISH classification of normal, $1 3 \mathsf { q } \mathsf { - }$ , or $+ 1 2$ had a good/intermediate FISH prognosis. Multivariable Cox regression analyses showed that FISH categories associated with survival remained associated significantly with OS (poor v good FISH, $\mathrm { P } < 0 . 0 0 0 2 2 $
+
+when accounting for other relevant factors such as Rai stage at study entry $( { \mathrm { P } } { < } 0 . 0 0 0 1 2 )$ and age at diagnosis $\left( \mathrm { P } { < } 0 . 0 0 0 0 2 4 \right)$ .
+
+4. Clinical cut-off:
+
+Not applicable.
+
+5. Expected values/Reference range:
+
+<table><tr><td rowspan=1 colspan=1>Abnormality</td><td rowspan=1 colspan=1>Cut-offValue(%)</td><td rowspan=1 colspan=1>NormalRange(%)</td><td rowspan=1 colspan=1>Number ofSpecimens inNormal Database</td><td rowspan=1 colspan=1>AbnormalRange(%)</td><td rowspan=1 colspan=1>Number ofSpecimens inAbnormal Database</td></tr><tr><td rowspan=1 colspan=1>11q deletion</td><td rowspan=1 colspan=1>&gt;6.0</td><td rowspan=1 colspan=1>0-3.0</td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>8.0-95.0</td><td rowspan=1 colspan=1>16</td></tr><tr><td rowspan=1 colspan=1>Trisomy 12</td><td rowspan=1 colspan=1>&gt;2.5</td><td rowspan=1 colspan=1>0-0.5</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>16.5-89.0</td><td rowspan=1 colspan=1>18</td></tr><tr><td rowspan=1 colspan=1>13qx1</td><td rowspan=1 colspan=1>&gt;5.5</td><td rowspan=1 colspan=1>0-4.0</td><td rowspan=1 colspan=1>43</td><td rowspan=1 colspan=1>6.0-97.5</td><td rowspan=1 colspan=1>31</td></tr><tr><td rowspan=1 colspan=1>13qx2</td><td rowspan=1 colspan=1>&gt;1.5</td><td rowspan=1 colspan=1>0-1.0</td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>2.5-84.5</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>17p deletion</td><td rowspan=1 colspan=1>&gt;7.0</td><td rowspan=1 colspan=1>0-6.0</td><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=1>10.0-97.5</td><td rowspan=1 colspan=1>8</td></tr></table>
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

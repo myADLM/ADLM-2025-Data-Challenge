@@ -1,0 +1,113 @@
+Standard Operating Procedure (SOP) for HLA Class II (DRB1,
+DRB345, DQA1, DQB1, DPA1, DPB1) Multiple and Single Locus
+Typing using DNA-PCR and Next Generation Sequencing (NGS)
+1. PURPOSE
+This SOP outlines the procedure for HLA Class II typing of blood
+specimens using DNA polymerase chain reaction (PCR) and Next
+Generation Sequencing (NGS). The goal is to ensure precise, reliable
+typing of HLA genes for transplant and other medical purposes.
+2. SCOPE
+This procedure applies to all blood specimens collected for HLA
+Class II typing, specifically covering the loci DRB1, DRB345, DQA1,
+DQB1, DPA1, and DPB1. This SOP is intended for use in a CLIA-
+certified laboratory.
+3. RESPONSIBILITY
+Designated laboratory personnel trained in DNA extraction, PCR, and
+NGS procedures are responsible for carrying out this protocol.
+Laboratory supervisors are responsible for oversight, verifying
+results, and ensuring corrective actions are taken as necessary.
+4. DEFINITIONS
+• HLA: Human Leukocyte Antigen
+• DNA-PCR: DNA Polymerase Chain Reaction
+• NGS: Next Generation Sequencing
+• DRB1, DRB345, DQA1, DQB1, DPA1, DPB1: Specific HLA Class
+II loci
+5. EQUIPMENT AND REAGENTS
+• DNA extraction kit
+• PCR thermocycler
+• NGS library preparation kit
+• Sequencer (e.g., Illumina, Ion Torrent)
+• Microcentrifuge
+• Pipettes and tips
+• Vortex mixer
+• Gel electrophoresis apparatus
+• Computer with bioinformatics software
+6. SPECIMEN REQUIREMENTS AND STABILITY
+Specimen: Whole blood collected in EDTA or ACD tubes
+• volume: Minimum of 3 mL
+• Stability: Store at 2-8°C for up to 72 hours; for long-term storage,
+freeze at -20°C or lower.
+7. PROCEDURE
+A. DNA Extraction:
+1. Using a DNA extraction kit, isolate genomic DNA from blood
+samples.
+2. Quantify and assess purity of extracted DNA using a
+spectrophotometer (e.g., Nanodrop).
+3. Aliquot DNA to a concentration of 50 ng/μL.
+B. PCR Amplification:
+1. Design specific primers targeting the HLA Class II loci (DRB1,
+DRB345, DQA1, DQB1, DPA1, DPB1).
+2. Set up PCR reactions:
+• Template DNA: 50 ng
+• Primer mix: 0.5 μM each
+• PCR Master Mix: as per manufacturer’s instructions
+• Final volume: 50 μL
+1. Run the PCR program on a thermocycler:
+• Initial denaturation: 95°C for 10 minutes
+• 35 cycles of:
+◦ Denaturation: 95°C for 30 seconds
+◦ Annealing: 55-65°C (optimize for each primer set) for 30
+seconds
+◦ Extension: 72°C for 1 minute
+• Final extension: 72°C for 7 minutes
+1. Verify amplification by running an aliquot (5 μL) on a 1.5%
+agarose gel.
+C. NGS Library Preparation:
+1. Purify amplified PCR products using a suitable purification
+method (e.g., magnetic beads).
+2. Quantify purified PCR products using a fluorometric method
+(e.g., Qubit).
+3. Prepare NGS libraries using an NGS library preparation kit:
+• Fragment DNA if required (e.g., Covaris).
+• End-repair, A-tailing, and adapter ligation.
+• Purify ligated DNA.
+1. Perform library amplification with indexed primers.
+2. Purify final libraries and quantify.
+D. Sequencing:
+1. Load prepared libraries onto the sequencer as per
+manufacturer’s instructions.
+2. Run the sequencing program ensuring sufficient coverage of
+targeted loci.
+E. Data Analysis:
+1. Transfer sequencing data to a bioinformatics workstation.
+2. Analyze data using HLA typing software:
+• Align reads to a reference HLA database.
+• Assign HLA alleles based on sequence variations.
+1. Verify results and interpret findings.
+2. Document findings in laboratory information system (LIS).
+8. QUALITY CONTROL
+Include positive and negative controls in each run to ensure accuracy
+and reliability. Analyse controls prior to patient specimens. Repeat
+analysis if controls do not perform as expected.
+9. REPORTING RESULTS
+Review and verify all results. Any discrepancies or unexpected
+results should be resolved through repeat testing or additional
+analysis. Report results in accordance with laboratory and regulatory
+guidelines.
+10. METHOD LIMITATIONS
+Factors such as DNA quality, PCR specificity, and sequencing depth
+can impact results. Carefully validate and troubleshoot each step to
+mitigate limitations.
+11. REFERENCES
+• Manufacturer instructions for DNA extraction, PCR, and NGS
+reagents
+• Relevant HLA genotyping literature
+• Laboratory’s internal guidelines for quality control and result
+reporting
+12. REVIEW
+This SOP should be reviewed and updated annually or as required to
+improve accuracy and efficiency.
+Prepared by:
+[Name] [Title] [Date]
+Approved by:
+[Name] [Title] [Date]

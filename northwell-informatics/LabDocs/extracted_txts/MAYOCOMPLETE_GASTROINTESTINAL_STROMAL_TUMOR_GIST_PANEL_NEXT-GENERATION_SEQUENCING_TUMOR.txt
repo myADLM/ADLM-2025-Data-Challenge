@@ -1,0 +1,126 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase Protocol for MAYOCOMPLETE
+Gastrointestinal Stromal Tumor (GIST) Panel, Next-Generation
+Sequencing (NGS), Tumor
+1. PURPOSE
+The purpose of this SOP is to outline the steps and procedures
+involved in the analytical phase of generating results for the
+MAYOCOMPLETE Gastrointestinal Stromal Tumor (GIST) Panel,
+using Next-Generation Sequencing (NGS) techniques from tumor
+specimens.
+2. SCOPE
+This SOP applies to all laboratory personnel involved in the analytical
+phase of the MAYOCOMPLETE GIST Panel testing. The procedures
+must be strictly followed to ensure accurate, reliable, and consistent
+results.
+3. RESPONSIBILITY
+• Laboratory personnel are responsible for following this SOP and
+performing the necessary procedures.
+• Supervisors are responsible for ensuring that laboratory
+personnel are trained and adhere to this SOP.
+4. DEFINITIONS
+• GIST: Gastrointestinal Stromal Tumor
+• NGS: Next-Generation Sequencing
+• DNA: Deoxyribonucleic Acid
+• QC: Quality Control
+5. PROCEDURE
+A. Preparation and Quality Control of Tumor Specimen
+1. Specimen Reception and Preparation
+◦ Ensure the specimen received is correctly identified and
+matches the patient requisition form.
+◦ Verify that the tumor specimen is appropriate for NGS (e.g.,
+proper collection method, freshness, preservation).
+◦ Process the specimen as per the standard tumor processing
+protocol to extract DNA.
+2. DNA Extraction
+◦ Extract genomic DNA from the tumor specimen using a
+validated DNA extraction kit (e.g., Qiagen, Thermo Fisher).
+◦ Quantify the DNA using a spectrophotometer or fluorometer
+(e.g., Qubit) to determine the concentration and purity.
+◦ Ensure DNA meets the minimum quality and quantity
+requirements specified by the NGS protocol (e.g., A260/280
+ratio).
+3. Quality Control
+◦ Perform pre-analytical QC checks to verify DNA integrity
+using gel electrophoresis or a fragment analyzer.
+◦ Store the DNA at -20°C until ready for library preparation.
+B. Library Preparation
+1. Library Preparation
+◦ Prepare the DNA library using a standardized protocol for
+the MAYOCOMPLETE GIST Panel.
+◦ Perform DNA fragmentation, end-repair, adapter ligation,
+and enrichment of target regions using specific library
+preparation kits.
+◦ Verify the quality of the prepared library using a fragment
+analyzer or a bioanalyzer.
+2. Quality Control
+◦ Conduct QC procedures to check the library's concentration
+and size distribution.
+◦ Ensure the library meets the quality specifications required
+for sequencing.
+C. Next-Generation Sequencing
+1. Sequencing Setup
+◦ Load the prepared library onto the NGS platform (e.g.,
+Illumina, Ion Torrent) following the manufacturer's
+instructions.
+◦ Configure the sequencing run parameters according to the
+MAYOCOMPLETE GIST Panel requirements.
+2. Sequencing Run
+◦ Monitor the sequencing run for any technical issues and
+ensure it proceeds without interruptions.
+◦ After the sequencing run is completed, ensure the raw
+sequencing data is correctly outputted for analysis.
+D. Data Analysis and Interpretation
+1. Data Transfer and Initial Analysis
+◦ Transfer the raw sequencing data to the bioinformatics team
+for initial analysis.
+◦ Utilize specific bioinformatics tools and pipelines to align,
+map, and annotate the sequenced reads to the reference
+genome.
+2. Variant Calling and Annotation
+◦ Perform variant calling to identify mutations in the target
+genes associated with GIST.
+◦ Annotate identified variants using current databases and
+literature.
+3. Quality Control of Data Analysis
+◦ Conduct data QC to ensure the accuracy and reliability of
+the variant calling process.
+◦ Re-run failed or suspect analyses, if necessary, using
+alternative methods or settings.
+E. Reporting Results
+1. Result Review and Validation
+◦ Review the generated results to ensure they meet all quality
+checks and clinical relevance.
+◦ Confirm the final variant list and report for accuracy and
+completeness.
+2. Result Reporting
+◦ Generate a comprehensive report detailing the identified
+mutations and their potential clinical implications.
+◦ Send the report to the ordering physician or clinical team for
+further interpretation and patient care decision-making.
+6. QUALITY CONTROL
+• Implement regular QC procedures for all analytical steps,
+including pre-analytical, sequencing, and post-analytical stages.
+• Document all QC checks and corrective actions taken if any
+issues arise.
+• Perform periodic audits of the analytical phase to ensure
+adherence to this SOP.
+7. REFERENCES
+• Manufacturer's manual for DNA extraction kits.
+• Library preparation kit protocol.
+• NGS platform user manual.
+• Bioinformatics tool documentation.
+• Current clinical literature and variant databases for GIST.
+8. DOCUMENTATION
+• Maintain comprehensive logs for all analytical procedures,
+including specimen handling, DNA extraction, library prep,
+sequencing, data analysis, and result reporting.
+• Document all QC activities, including any deviations and
+corrective actions.
+APPROVAL
+By signing below, I acknowledge that I have reviewed and approved
+this SOP for the analytical phase of the MAYOCOMPLETE
+Gastrointestinal Stromal Tumor (GIST) Panel testing.
+Name: _______________________ Position:
+_______________________ Date: __________________________
+End of SOP

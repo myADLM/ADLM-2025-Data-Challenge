@@ -1,0 +1,84 @@
+Comprehensive Neuromuscular Gene Panel Protocol
+1. PURPOSE The purpose of this protocol is to outline the
+analytical phase for generating results for the Comprehensive
+Neuromuscular Gene Panel, ensuring accurate and reliable
+detection of relevant genetic variants.
+2. SPECIMEN
+◦ Sample Type: Peripheral blood in EDTA tubes (lavender top)
+or buccal swab.
+◦ Specimen Stability: Samples should be kept refrigerated
+and must be processed within 7 days of collection.
+◦ Volume: Minimum 3-5 mL of peripheral blood or sufficient
+DNA yield from buccal swab.
+3. EQUIPMENT, REAGENTS, AND SUPPLIES
+◦ Next Generation Sequencing (NGS) instrument (Illumina or
+equivalent)
+◦ DNA Extraction Kit (Qiagen or equivalent)
+◦ Library Preparation Kit (Agilent SureSelect or equivalent)
+◦ PCR and qPCR reagents
+◦ Thermal Cycler
+◦ Automated Liquid Handling System
+◦ High Sensitivity DNA Reagents for Quantification
+(Bioanalyzer or equivalent)
+4. PROCEDURE
+A. DNA Extraction
+1. Use an appropriate DNA extraction kit to isolate genomic
+DNA from the peripheral blood or buccal swab sample.
+2. Follow the manufacturer's instructions for extraction,
+ensuring high quality and integrity of the DNA.
+3. Quantify DNA using a fluorometer or spectrophotometer
+and record concentration and purity (e.g., A260/A280
+ratio).
+B. Library Preparation
+1. Utilize the library preparation kit according to the
+manufacturer's protocol to prepare the DNA library for
+sequencing.
+2. Perform end repair, A-tailing, adapter ligation, and PCR
+amplification steps.
+3. Validate and quantify the prepared library using a
+bioanalyzer or qPCR.
+C. Sequencing
+1. Load the prepared library onto the NGS instrument
+following the manufacturer's instructions.
+2. Perform sequencing run optimized for comprehensive
+gene panel analysis ensuring sufficient depth of coverage.
+3. Monitor the sequencing process and documented
+instrument performance, yield, and quality metrics.
+D. Data Analysis
+1. Use appropriate bioinformatics pipeline for sequence
+alignment, variant calling, and annotation.
+2. Employ tools to filter and prioritize variants based on
+clinical significance and pathogenicity (e.g., using
+databases such as ClinVar, OMIM).
+3. Perform secondary validation via Sanger sequencing for
+critical variants, if required.
+5. QUALITY CONTROL
+◦ Include positive and negative control samples in each
+extraction and sequencing run.
+◦ Utilize internal controls within the library prep and
+sequencing to monitor performance.
+◦ Perform routine calibration and maintenance of equipment
+as per manufacturer guidelines.
+6. REPORTING RESULTS
+◦ Compile and interpret the generated data focusing on
+clinically relevant variants.
+◦ Document variants with clinical implications, coverage
+details, and quality metrics.
+◦ Review variant classifications and significance through
+multi-disciplinary discussions, ensuring accurate
+interpretation and confirmation.
+◦ Generate a comprehensive report including detailed
+findings, recommendations, and references.
+7. REFERENCES
+◦ Latest manufacturers' instructions for DNA extraction and
+library preparation kits.
+◦ Standard bioinformatics and variant interpretation guidelines
+such as those from ACMG (American College of Medical
+Genetics and Genomics).
+◦ Relevant literature and clinical databases for variant
+annotation and classification.
+NOTE: This protocol must be adhered to strictly to ensure the
+delivery of reliable, accurate, and clinically actionable genetic results
+for neuromuscular disorders. Regular updates are essential to keep
+up with advancements in technology and best practices as per CLIA
+regulations and guidelines.

@@ -1,0 +1,117 @@
+Standard Operating Procedure (SOP) for TP53 Mutation Analysis
+via Next-Generation Sequencing (NGS)
+1. PURPOSE
+To provide a comprehensive protocol for the analysis of TP53
+mutations using Next-Generation Sequencing (NGS) technology on
+tumor samples. This protocol ensures accurate mutation identification
+and reporting.
+2. SCOPE
+This SOP applies to all laboratory personnel involved in the analytical
+phase of TP53 mutation analysis using NGS in the laboratory.
+3. RESPONSIBILITIES
+Laboratory personnel are responsible for:
+• Adhering to the procedures outlined in this SOP.
+• Performing all quality control (QC) checks.
+• Documenting all observations, deviations, and corrective actions.
+• Reporting any issues that may affect the integrity of the results to
+a supervisor immediately.
+4. DEFINITIONS
+TP53 gene: A tumor suppressor gene that codes for the p53 protein,
+which regulates the cell cycle and prevents genome mutation. NGS
+(Next-Generation Sequencing): High-throughput sequencing
+technology capable of sequencing multiple DNA strands
+simultaneously. Tumor Samples: Specimens collected from tumor
+tissues for analysis.
+5. MATERIALS AND EQUIPMENT
+• DNA extraction kits specific for tumor samples
+• Quantification reagents (such as Qubit dsDNA BR Assay Kit)
+• NGS library preparation kits
+• NGS sequencing platform (e.g., Illumina MiSeq or NextSeq)
+• Bioinformatics software for data analysis (e.g., BaseSpace,
+Galaxy)
+• Reference genomic databases
+• Personal protective equipment (PPE)
+• Calibrated laboratory instruments (pipettes, microcentrifuges,
+thermocyclers, etc.)
+• Temperature-monitored refrigerators and freezers for specimen
+and reagent storage
+6. PROCEDURE
+6.1 DNA Extraction
+1. Utilize the DNA extraction kit to isolate DNA from tumor tissue
+samples, following the manufacturer’s protocol.
+2. Quantify the DNA using a fluorometric method (e.g., Qubit).
+3. Assess DNA quality and purity using Nanodrop or another
+spectrophotometer.
+6.2 DNA Library Preparation
+1. Follow the library preparation kit protocol for NGS. This typically
+involves: a. DNA fragmentation. b. End repair. c. Adapter
+ligation. d. Library amplification.
+2. Confirm the quality and quantity of the prepared library using a
+Bioanalyzer or TapeStation.
+6.3 NGS Sequencing
+1. Load the prepared library onto the NGS sequencing platform as
+per the manufacturer's instructions.
+2. Set up and configure the sequencing run.
+3. Monitor the sequencing process, ensuring optimal performance
+of the instrument.
+6.4 Data Analysis
+1. Transfer the sequencing data to the designated bioinformatics
+software.
+2. Perform quality control checks of the reads (e.g., using
+FastQC).
+3. Align the sequenced reads to the reference human genome.
+4. Identify TP53 mutations using variant calling software.
+5. Annotate the variants using appropriate databases (e.g.,
+COSMIC, dbSNP).
+6.5 Data Interpretation and Reporting
+1. Review the variant analysis results to identify clinically
+significant TP53 mutations.
+2. Cross-reference identified mutations with databases to
+determine their known pathogenicity.
+3. Generate a comprehensive report detailing: a. Patient
+identification (in compliance with confidentiality policies), b.
+Methodology, c. Detected mutations, d. Clinical significance, e.
+Any limitations of the test.
+6.6 Quality Control and Troubleshooting
+1. Perform all necessary QC steps, including positive and
+negative controls.
+2. Document any deviation from the expected performance and
+corrective action taken.
+3. Verify and validate the results according to laboratory
+standards.
+6.7 Documentation
+1. Complete all relevant documentation accurately and legibly.
+2. Record the temperature and condition of freezers and
+refrigerators containing samples and reagents.
+3. Maintain instrument logs, and record any maintenance or
+calibration.
+7. REFERENCE INTERVALS
+Not applicable for mutation analysis; provide clinical significance
+based on databases.
+8. QUALITY CONTROL
+1. Include known TP53 mutation-positive and -negative control
+samples in every run.
+2. Perform bi-weekly instrument validation checks.
+3. Review QC data regularly to ensure consistency and accuracy
+of results.
+9. REPORTING RESULTS
+Results will be automatically uploaded to the LIS but must be
+reviewed and verified by a designated technologist. Ensure that
+critical mutation findings are communicated promptly to the
+requesting clinician.
+10. METHOD LIMITATIONS
+1. The sensitivity of detecting mutations depends on the
+abundance of mutant alleles in the tumor sample.
+2. Technical sensitivity and specificity may vary with sequencing
+depth.
+3. Certain regions of the TP53 gene may have sequencing or
+mapping challenges.
+11. REFERENCES
+• Manufacturer's manuals for NGS platforms and library preparation
+kits.
+• Latest guidelines and publications on TP53 mutation analysis and
+NGS.
+Prepared by: [Your Name], Medical Laboratory Scientist
+Reviewed by: [Supervisor's Name], Laboratory Supervisor
+Date: [Date]
+Next Review Date: [Date]

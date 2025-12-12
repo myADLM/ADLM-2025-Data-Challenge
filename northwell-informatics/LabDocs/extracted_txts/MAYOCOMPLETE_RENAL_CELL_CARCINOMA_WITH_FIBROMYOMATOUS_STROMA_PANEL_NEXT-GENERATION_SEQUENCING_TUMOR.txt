@@ -1,0 +1,139 @@
+Standard Operating Procedure
+(SOP) for MAYOCOMPLETE
+RENAL CELL CARCINOMA
+WITH FIBROMYOMATOUS
+STROMA PANEL, NEXT-
+GENERATION SEQUENCING,
+TUMOR
+1. PURPOSE
+To establish a standardized procedure for the next-generation
+sequencing (NGS) analysis of the MAYOCOMPLETE Renal Cell
+Carcinoma (RCC) with Fibromyomatous Stroma Panel using tumor
+specimens. This SOP outlines the steps to ensure accurate, reliable,
+and reproducible results.
+2. RESPONSIBILITY
+It is the responsibility of all laboratory personnel involved in this
+protocol to follow the outlined procedures and ensure that the
+appropriate quality control measures are adhered to at every step.
+Only personnel trained in NGS and the specific requirements of this
+test should perform this analysis. The supervisor is responsible for
+overseeing the process and addressing any deviations from the
+protocol.
+3. SPECIMEN REQUIREMENTS AND
+PREPARATION
+Specimen Requirements
+• Tissue specimen: Formalin-fixed paraffin-embedded (FFPE)
+tissue block, or unstained slides (minimum of 10 slides with 5-10
+micron sections).
+• Specimens must be accompanied by a pathology report
+confirming the diagnosis and providing details of the tumor’s
+histology and location.
+Unacceptable Specimens
+• Specimens that are incorrectly labeled or lack proper
+identification.
+• Specimens with a low tumor cellularity (<20% tumor cells).
+• Specimens that have been improperly fixed (e.g., over-fixed or
+improperly processed).
+Specimen Preparation
+1. Deparaffinization (for FFPE tissues):
+◦ Place the FFPE tissue sections on a clean slide.
+◦ Deparaffinize the sections using standard deparaffinization
+techniques: typically involves sequential immersion in
+xylene, followed by rehydration through a series of graded
+ethanol baths.
+2. Extraction of DNA:
+◦ Follow the laboratory’s specified protocol for DNA extraction
+from FFPE tissues.
+◦ Quantify the extracted DNA using a spectrophotometer or
+fluorometer.
+◦ Assess the quality of the DNA using an appropriate method
+(e.g., gel electrophoresis, TapeStation, or Bioanalyzer).
+4. LIBRARY PREPARATION
+Library Preparation Kit
+• Use a validated NGS library preparation kit designed for the
+specific requirements of the RCC Panel.
+Procedure
+1. DNA Fragmentation:
+◦ Fragment the extracted DNA using a mechanical or
+enzymatic shearing method.
+◦ Size-select the fragmented DNA to ensure an average insert
+size appropriate for the sequencing platform being used.
+2. End Repair and A-tailing:
+◦ Perform end repair and A-tailing according to the library
+preparation kit manufacturer’s instructions.
+3. Adapter Ligation:
+◦ Ligate the sequencing adapters to the fragmented DNA.
+◦ Purify the adapter-ligated DNA to remove any unligated
+adapters.
+4. PCR Amplification:
+◦ Amplify the adapter-ligated DNA using PCR.
+◦ Ensure that the number of PCR cycles is optimized to
+minimize biases while obtaining sufficient material for
+sequencing.
+5. Library Quantification and Quality Control:
+◦ Quantify the final library using a method appropriate for the
+sequencing platform (e.g., qPCR, fluorometry).
+◦ Assess the quality and size distribution of the library using a
+TapeStation, Bioanalyzer, or similar instrument.
+5. SEQUENCING
+Sequencing Platform
+• Use a high-throughput NGS platform validated for clinical use
+(e.g., Illumina, ThermoFisher, etc.).
+Procedure
+1. Load Libraries:
+◦ Prepare the sequencing run according to the platform
+manufacturer's instructions.
+◦ Load the libraries onto the sequencing instrument.
+2. Run Sequencing:
+◦ Initiate the sequencing run and monitor for correct function
+and completion.
+6. DATA ANALYSIS
+Bioinformatics Pipeline
+1. Data Preprocessing:
+◦ Perform base calling and generate raw sequencing reads.
+◦ Perform initial quality control using tools like FastQC.
+2. Alignment to Reference Genome:
+◦ Align the sequencing reads to the reference human genome
+(e.g., GRCh38) using an aligner such as BWA or STAR.
+◦ Remove duplicates using a tool like Picard.
+3. Variant Calling:
+◦ Call variants using a validated variant caller such as GATK
+or Mutect2.
+4. Annotation and Filtering:
+◦ Annotate the identified variants using a clinical annotation
+tool (e.g., ANNOVAR, VEP).
+◦ Filter variants based on quality metrics and known
+pathogenicity.
+7. QUALITY CONTROL
+Internal Controls
+• Include positive and negative controls in each run to ensure the
+assay's accuracy and detect any contamination.
+• Verify that all control results are within the expected range before
+reporting patient results.
+8. REPORTING RESULTS
+Review and Verification
+1. Visualization:
+◦ Review the aligned reads and variant calls using
+visualization tools like IGV.
+2. Interpretation:
+◦ Interpret the variants in the clinical context of renal cell
+carcinoma with fibromyomatous stroma, based on current
+scientific literature and clinical guidelines.
+3. Report Generation:
+◦ Generate a comprehensive report detailing the identified
+variants and their clinical significance.
+◦ A pathologist or molecular geneticist signs off on the report
+before it is issued.
+Results Transmission
+• Report the results electronically through the Laboratory
+Information System (LIS).
+• Ensure that critical findings are promptly communicated to the
+ordering physician.
+9. REFERENCES
+• Provide references to relevant clinical guidelines, scientific
+literature, and manufacturer’s instructions for the kits and
+instruments used.
+This SOP ensures that the analysis of the MAYOCOMPLETE Renal
+Cell Carcinoma with Fibromyomatous Stroma Panel is performed
+consistently and to the highest standards, ensuring reliable and
+clinically actionable results.

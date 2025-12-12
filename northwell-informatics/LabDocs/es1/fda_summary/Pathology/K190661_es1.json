@@ -1,0 +1,63 @@
+{
+    "Trade/Device Name(s)": [
+        "Omics Core"
+    ],
+    "Submitter Information": "NantHealth, Inc.",
+    "510(k) Number": "K190661",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "DEN170058"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "PZM"
+    ],
+    "Summary Letter Date": "September 26, 2019",
+    "Summary Letter Received Date": "September 27, 2019",
+    "Submission Date": "October 21, 2019",
+    "Regulation Number(s)": [
+        "21 CFR 866.6080"
+    ],
+    "Regulation Name(s)": [
+        "Next generation sequencing based tumor profiling test"
+    ],
+    "Analyte Class(es)": [
+        "cancer molecular",
+        "genetic molecular"
+    ],
+    "Analyte(s)": [
+        "Somatic mutations (point mutations, small insertions and deletions)",
+        "Tumor mutational burden (TMB)",
+        "468 cancer-related genes",
+        "19,396 protein-coding genes"
+    ],
+    "Specimen Type(s)": [
+        "Formalin-fixed paraffin-embedded (FFPE) tumor tissue",
+        "Whole blood (matched normal specimens)"
+    ],
+    "Specimen Container(s)": [
+        "FFPE blocks",
+        "FFPE slides",
+        "Whole blood vials"
+    ],
+    "Instrument(s)/Platform(s)": [
+        "Illumina NovaSeq 6000"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Next generation sequencing",
+        "Hybridization-capture",
+        "Solution-phase exon capture",
+        "Paired-end sequencing"
+    ],
+    "Methodologies": [
+        "Targeted whole exome sequencing",
+        "Bioinformatics analysis for mutation calling"
+    ],
+    "Submission Type(s)": [
+        "Assay",
+        "System",
+        "Software"
+    ],
+    "Document Summary": "FDA 510(k) summary for NantHealth Omics Core next generation sequencing tumor profiling test for detecting somatic mutations and tumor mutational burden in solid tumors",
+    "Indications for Use Summary": "Qualitative in vitro diagnostic test using targeted next generation sequencing of FFPE tumor tissue matched with normal specimens to detect tumor gene alterations and tumor mutational burden for use by qualified health care professionals in patients with solid malignant neoplasms",
+    "fda_folder": "Pathology"
+}

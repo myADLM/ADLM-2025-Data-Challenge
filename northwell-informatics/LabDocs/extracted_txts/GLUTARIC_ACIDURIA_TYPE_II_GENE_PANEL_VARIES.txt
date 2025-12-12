@@ -1,0 +1,108 @@
+STANDARD OPERATING PROCEDURE
+GLUTARIC ACIDURIA TYPE II GENE PANEL ANALYSIS
+1. PURPOSE
+To define the procedure for the analytic phase of generating results
+for Glutaric Aciduria Type II Gene Panel testing. This analysis
+involves the identification of mutations in specific genes responsible
+for Glutaric Aciduria Type II, as an aid to the diagnosis and
+management of the disorder.
+2. SCOPE
+This procedure applies to all personnel involved in the analysis and
+testing for Glutaric Aciduria Type II Gene Panel in a CLIA-certified
+laboratory.
+3. RESPONSIBILITY
+It is the responsibility of the laboratory scientists to adhere to this
+SOP. It is the responsibility of the laboratory supervisor or designee
+to ensure compliance and documentation.
+4. SPECIMEN
+Preferred Specimen:
+• 3-5 mL of peripheral whole blood collected in an EDTA tube
+(lavender top)
+Unacceptable Specimen:
+• Specimens that are clotted, hemolyzed, improperly labeled, or
+collected in non-EDTA containers
+5. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA extraction kit (e.g., Qiagen, Promega)
+• PCR thermocycler
+• DNA sequencing instrument (e.g., Illumina or equivalent)
+• Nuclease-free water
+• Primers specific for the target genes involved in Glutaric Aciduria
+Type II
+• PCR reagents (dNTPs, Taq polymerase, MgCl2, buffer)
+• Agarose gel electrophoresis apparatus and agarose powder
+• Ethidium bromide or alternative DNA stain
+• Sequencing reagents and consumables
+6. PROCEDURE
+A) DNA Extraction:
+1. Perform DNA extraction from 200-500 µL of whole blood using
+the preferred DNA extraction kit as per the manufacturer’s
+protocol.
+2. Quantify and assess the quality (A260/280 ratio) of the
+extracted DNA using a spectrophotometer or equivalent.
+3. Store the extracted DNA at -20°C until ready for use.
+B) PCR Amplification:
+1. Design primers specific to the genes associated with Glutaric
+Aciduria Type II.
+2. Prepare PCR reactions as follows:
+◦ DNA template: 50-100 ng
+◦ Forward and reverse primers: 0.2-0.5 µM each
+◦ dNTPs: 200 µM each
+◦ Buffer with MgCl2: as per the enzyme manufacturer’s
+recommendation
+◦ Taq polymerase: 0.5-1.0 units
+◦ Nuclease-free water: to a total reaction volume of 50 µL
+3. Program the thermocycler with the cycling conditions:
+• Initial denaturation: 95°C for 2 minutes
+• 35 cycles of: a. Denaturation: 95°C for 30 seconds b. Annealing:
+55-60°C for 30 seconds (depending on primer Tm) c. Extension:
+72°C for 1 minute per kb of target
+• Final extension: 72°C for 5 minutes
+1. Confirm amplification by running 5 µL of the PCR product on a
+1.5% agarose gel stained with ethidium bromide.
+C) Sequencing:
+1. Purify the PCR products using a PCR purification kit or gel
+extraction method.
+2. Quantify the purified PCR product using a spectrophotometer or
+equivalent.
+3. Prepare the sequencing reactions according to the instrument’s
+protocol using dye terminator sequencing chemistry.
+4. Run the sequencing reactions on the designated sequencing
+instrument following the manufacturer’s protocol.
+7. DATA ANALYSIS
+1. Process raw sequencing data using bioinformatics tools to align
+sequences and identify variants.
+2. Compare variants to known databases such as ClinVar, dbSNP,
+and the Human Gene Mutation Database to identify pathogenic
+mutations.
+3. Interpret the results in the context of Glutaric Aciduria Type II,
+considering known pathogenicity and clinical correlations.
+8. QUALITY CONTROL
+1. Include positive controls (known mutation-positive samples)
+and negative controls (no-template controls) in each run.
+2. Ensure all equipment is calibrated, and preventive maintenance
+is up to date.
+3. Document all steps, including any deviations from the SOP, in
+the laboratory information system (LIS).
+9. REPORTING RESULTS
+1. Review sequencing data for consistency and accuracy before
+reporting.
+2. Report detected variants along with their pathogenicity
+classification.
+3. Reference to known mutation databases and clinical
+implications should be included in the final report.
+4. Results must be reviewed by a laboratory director or a qualified
+designee before release.
+10. REFERENCES
+• Manufacturer instructions for DNA extraction, PCR reagents, and
+sequencing reagents.
+• Relevant scientific literature and databases linking specific
+mutations to Glutaric Aciduria Type II.
+Document Control Information:
+• SOP Number: [Insert Number]
+• Effective Date: [Insert Date]
+• Review Date: [Insert Date]
+• Authorized by: [Insert Authorized Name]
+Note: This SOP draft assumes familiarity with technical jargon and
+protocols common in molecular genetics and clinical diagnostics
+laboratories. Before implementation, this draft should be reviewed for
+compliance with any additional local regulatory requirements.

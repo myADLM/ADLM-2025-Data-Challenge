@@ -1,0 +1,466 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k141109
+B. Purpose for Submission:
+Addition of the AT Turbo and CS2 scanner models to the cleared Aperio ScanScope® XT
+System for scoring ER, PR and HER2 immunohistochemically stained slides by the image
+analysis algorithm method.
+C. Manufacturer and Instrument Name:
+Leica Biosystems Imaging, Inc., Aperio ePathology eIHC IVD System, AT Turbo and CS2
+models
+D. Type of Test or Tests Performed:
+Computer-assisted image analysis algorithm for scoring immunohistochemically stained
+HER2/neu slides, estrogen receptor (ER)/progesterone receptor (PR) slides.. The image
+analysis algorithm scoring is confirmed by the pathologist before reporting the scores.
+E. System Descriptions:
+1. Device Description:
+The Aperio ePathology eIHC IVD System is a closed system comprised of a ScanScope®
+digital slide scanner instrument (either the ScanScope AT Turbo or the ScanScope CS2) and
+eSlide Manager software, ImageScope software and Image Analysis Algorithms, as
+applicable. The Aperio ePathology eIHC IVD System is an automated digital slide
+creation, management, viewing and analysis system. The system is comprised of a slide
+scanner instrument and a computer executing eSlideManager, ImageScope and Image
+Analysis Algorithm software. The system capabilities include digitizing
+immunohistochemically stained slides, storing and managing the resulting digital slide
+images, retrieving and displaying digital slides, providing tools for annotating digital
+slides and entering and editing data associated with digital slides, and tools for image
+analysis of the regions that pathologists select on the digital slide images.
+2. Principles of Operation:
+Glass slides are digitized by an image acquisition system that provides digital slide
+images of the immunohistochemically stained slides; the image acquisition system
+provides support for patient / slide identification, slide loading, calibration, tissue
+identification, focusing and digital image storage and management. Pathologists select
+1
+
+--- Page 2 ---
+regions on the digital slide images that will be automatically analyzed by an image
+analysis algorithm for HER2 or ER/PR (i.e., HER2 or ER/PR Image Analysis). The
+regions on the digital slide images selected by pathologists for image analysis should be
+representative for the entire tumor.
+The HER2 Image Analysis algorithm detects the membrane staining for the individual
+tumor cells in the selected regions and quantifies the intensity and completeness of the
+membrane staining. Tumor cells are individually classified as 0, 1+, 2+, and 3+ based on
+their membrane staining intensity and completeness. The HER2 score is then calculated
+based on the percentages of 0, 1+, 2+, and 3+ cells according to the HER2 scoring
+scheme. A markup image highlights the detected cell features (black = nuclei and
+membrane) and the membrane staining which is color-coded according to the cell
+classification (blue =0, yellow = 1+, orange = 2+, red = 3+). The pathologist is then
+provided with HER2 score and the percentages of 0, 1+, 2+, and 3+ cells. The pathologist
+makes the final interpretation based on both the qualitative and quantitative information
+and should follow all appropriate instructions in the Dako Hercep Test™ product insert
+The ER/PR image analysis algorithms use color, intensity, size, pattern and shape
+information to detect, count, and classify cells of interest and determine a score that
+correlates with the score the pathologists provide. The image analysis algorithm reports
+the percentage of positive nuclei and average intensity score of 0, 1+, 2+ or 3+ for each
+slide. The pathologist makes the final interpretation based on the percent positivity of
+tumor nuclei and/or staining intensity according to the laboratory’s established
+interpretation criteria.
+3. Modes of Operation:
+Semi-automated computer-assisted scoring of IHC HER2, ER or PR stained slide images
+performed by Image Analysis Applications with manual verification by the pathologist.
+4. Specimen Identification:
+Glass slides are identified by barcode label
+5. Specimen Sampling and Handling:
+The Autoloader component of the ScanScope® AT Turbo instrument is responsible for
+storing slides to be scanned, and contains a mechanism for mounting the current slide to
+be processed on the scanning stage. The slide autoloader is an assembly within the
+ScanScope AT Turbo that can hold up to 400 slides.
+The ScanScope® CS2 has no Autoloader. The CS2 has a five slide capacity tray that can
+be inserted by the operator into the system.
+6. Calibration:
+2
+
+--- Page 3 ---
+The scanner is calibrated and verified at the factory before shipment. No further manual
+calibration or verification is required by the customer. Annual preventive maintenance,
+performed by Leica Biosystems Imaging Technical Services, is recommended to make
+sure the scanner is operating correctly. The scanner provides automatic calibration and
+verification every time a slide is scanned by performing prescan calibration during the
+scan.
+7. Quality Control:
+The pathologist must verify that the eSlides are of sufficient quality to perform his or her
+task. The pathologist should review the quality of the scanning by evaluating that the
+entire tissue sample is scanned and in focus. Positive and negative control slides are also
+scanned along with the patient slides which are reviewed by the pathologist before
+scoring.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR §864.1860 Immunohistochemistry reagents and kits
+2. Classification:
+II
+3 Product code:
+NOT, NQN
+4. Panel:
+Pathology (88)
+G. Intended Use:
+1. Indication(s) for Use:
+· HER2 Image Analysis
+3
+
+--- Page 4 ---
+The Aperio ePathology eIHC IVD System is an automated digital slide creation,
+management, viewing and analysis system. It is intended for in vitro diagnostic use as
+an aid to the pathologist in the display, detection, counting and classification of
+tissues and cells of clinical interest based on particular color, intensity, size, pattern
+and shape.
+The IHC HER2 Image Analysis application is intended for use as an aid to the
+pathologist in the detection and semi-quantitative measurement of HER2/neu (c-
+erbB-2) in formalin-fixed, paraffin-embedded neoplastic tissue.
+The IHC HER2 Image Analysis application is intended for use as an accessory to the
+Dako HercepTest™ to aid in the detection and semi-quantitative measurement of
+HER2/neu (c-erbB-2) in formalin-fixed, paraffin-embedded neoplastic tissue. When
+used with the Dako HercepTest™, it is indicated for use as an aid in the assessment
+of breast cancer patients for whom HERCEPTIN® (Trastuzumab) treatment is being
+considered.
+Note: The IHC HER2 Image Analysis application is an adjunctive computer-assisted
+methodology to assist the reproducibility of a qualified pathologist in the acquisition
+and measurement of images from microscope slides of breast cancer specimens
+stained for the presence of HER-2 receptor protein. The IHC HER2 Image Analysis
+application is intended to be used on images viewed on a computer monitor. The
+accuracy of the test result depends upon the quality of the immunohistochemical
+staining. It is the responsibility of a qualified pathologist to employ appropriate
+morphological studies and controls as specified in the instructions for the Dako
+HercepTest™ to assure the validity of the IHC HER2 Image Analysis application
+assisted HER-2/neu score. The actual correlation of the Dako HercepTest™ to
+Herceptin® clinical outcome has not been established.
+· ER/PR Image Analysis
+The Aperio ePathology eIHC IVD System is an automated digital slide creation,
+management, viewing and analysis system. It is intended for in vitro diagnostic use as
+an aid to the pathologist in the display, detection, counting and classification of
+tissues and cells of clinical interest based on particular color, intensity, size, pattern
+and shape.
+The IHC ER Image Analysis application is intended for use as an aid to the
+pathologist in the detection and quantitative measurement of ER (Estrogen Receptor)
+in formalin-fixed paraffin-embedded neoplastic tissue.
+The IHC PR Image Analysis application is intended for use as an aid to the
+pathologist in the detection and quantitation measurement of PR (Progesterone
+Receptor) in formalin-fixed, paraffin-embedded neoplastic tissue.
+It is indicated for use as an aid in the management, prognosis, and prediction of
+4
+
+--- Page 5 ---
+therapy outcomes of breast cancer.
+Note: The IHC ER and PR Image Analysis applications are an adjunctive computer-
+assisted methodology to assist the reproducibility of a qualified pathologist in the
+acquisition and measurement of images from microscope slides of breast cancer
+specimens stained for the presence of estrogen and progesterone receptor proteins.
+The IHC ER and PR Image Analysis applications are intended to be used on images
+viewed on a computer monitor. The accuracy of the test result depends upon the
+quality of the immunohistochemical staining. It is the responsibility of a qualified
+pathologist to employ appropriate morphological studies and controls as specified in
+the instructions for the ER and PR reagent/kit used to assure the validity of the IHC
+ER and PR Image Analysis application assisted scores.
+2. Special Conditions for Use Statement(s):
+For prescription use only
+Indicated for use with slides stained on the Dako Autostainer??
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+ScanScope® System XT; k071128, k073677
+2. Comparison with Predicate Device:
+Similarities and Differences
+Aperio ePathology eIHC IVD
+Aperio ScanScope® XT System
+Item ScanScope AT Turbo and CS2
+(Predicate)
+System
+Intended The ScanScope System is an automated Same
+Use/ Indications for digital slide creation, management,
+Use viewing and analysis system. It is
+intended for in vitro diagnostic use as an
+aid to the pathologist in the display,
+detection, counting and classification of
+tissues and cells of clinical interest and
+shape.
+The IHC HER2 Image Analysis
+application (k071128) is intended for
+use as an aid to the pathologist in the
+detection and semi-quantitative
+measurement of HER2/neu (c-erbB-2) in
+5
+
+[Table 1 on page 5]
+Similarities and Differences						
+Item	Aperio ScanScope® XT System
+(Predicate)				Aperio ePathology eIHC IVD	
+					ScanScope AT Turbo and CS2	
+					System	
+Intended
+Use/ Indications for
+Use		The ScanScope System is an automated		Same	Same	
+		digital slide creation, management,				
+		viewing and analysis system. It is				
+		intended for in vitro diagnostic use as an				
+		aid to the pathologist in the display,				
+		detection, counting and classification of				
+		tissues and cells of clinical interest and				
+		shape.				
+						
+		The IHC HER2 Image Analysis				
+		application (k071128) is intended for				
+		use as an aid to the pathologist in the				
+		detection and semi-quantitative				
+		measurement of HER2/neu (c-erbB-2) in				
+
+[Table 2 on page 5]
+Aperio ScanScope® XT System
+(Predicate)
+
+[Table 3 on page 5]
+Intended
+Use/ Indications for
+Use
+
+--- Page 6 ---
+formalin-fixed, paraffin-embedded
+neoplastic tissue. The IHC HER2 Image
+Analysis application is intended for use
+as an accessory to the Dako
+HercepTest™ to aid in the detection and
+semi-quantitative measurement of
+HER2/neu (c-erbB-2) in formalin-fixed,
+paraffin-embedded neoplastic tissue.
+When used with the Dako
+HercepTest™, it is indicated for use as
+an aid in the assessment of breast cancer
+patients for whom HERCEPTIN®
+(Trastuzumab) treatment is being
+considered.
+The IHC ER Image Analysis application
+(k073677) is intended for use as an aid
+to the pathologist in the detection and
+quantitative measurement of ER
+(Estrogen Receptor) in formalin-fixed
+paraffin-embedded neoplastic tissue.
+The IHC PR Image Analysis application
+(k073677) is intended for use as an aid
+to the pathologist in the detection and
+quantitation measurement of PR
+(Progesterone Receptor) in formalin-
+fixed, paraffin-embedded neoplastic
+tissue. It is indicated for use as an aid in
+the management, prognosis, and
+prediction of therapy outcomes of breast
+cancer.
+Specimen Type Formalin-fixed, paraffin-embedded Same
+breast tissue specimens stained by
+immunohistochemistry
+Assay Used HER2: Dako HercepTest® Same
+ER: Dako Mouse Anti- Human Estrogen
+Receptor α (Clone 1D5)
+PR: Dako Monoclonal Mouse Anti-
+Human Progesterone Receptor (Clone
+PgR 636)
+Method of Pathologists select regions on the digital Same
+Interpretation slide images that will be automatically
+analyzed by an image analysis algorithm
+for HER2 or ER/PR (i.e., HER2 or
+6
+
+[Table 1 on page 6]
+		formalin-fixed, paraffin-embedded		
+		neoplastic tissue. The IHC HER2 Image		
+		Analysis application is intended for use		
+		as an accessory to the Dako		
+		HercepTest™ to aid in the detection and		
+		semi-quantitative measurement of		
+		HER2/neu (c-erbB-2) in formalin-fixed,		
+		paraffin-embedded neoplastic tissue.		
+		When used with the Dako		
+		HercepTest™, it is indicated for use as		
+		an aid in the assessment of breast cancer		
+		patients for whom HERCEPTIN®		
+		(Trastuzumab) treatment is being		
+		considered.		
+				
+		The IHC ER Image Analysis application		
+		(k073677) is intended for use as an aid		
+		to the pathologist in the detection and		
+		quantitative measurement of ER		
+		(Estrogen Receptor) in formalin-fixed		
+		paraffin-embedded neoplastic tissue.		
+		The IHC PR Image Analysis application		
+		(k073677) is intended for use as an aid		
+		to the pathologist in the detection and		
+		quantitation measurement of PR		
+		(Progesterone Receptor) in formalin-		
+		fixed, paraffin-embedded neoplastic		
+		tissue. It is indicated for use as an aid in		
+		the management, prognosis, and		
+		prediction of therapy outcomes of breast		
+		cancer.		
+Specimen Type		Formalin-fixed, paraffin-embedded		Same
+		breast tissue specimens stained by		
+		immunohistochemistry		
+Assay Used		HER2: Dako HercepTest®		Same
+				
+		ER: Dako Mouse Anti- Human Estrogen		
+		Receptor α (Clone 1D5)		
+				
+		PR: Dako Monoclonal Mouse Anti-		
+		Human Progesterone Receptor (Clone		
+		PgR 636)		
+Method of
+Interpretation		Pathologists select regions on the digital		Same
+		slide images that will be automatically		
+		analyzed by an image analysis algorithm		
+		for HER2 or ER/PR (i.e., HER2 or		
+
+[Table 2 on page 6]
+Method of
+Interpretation
+
+--- Page 7 ---
+ER/PR Image Analysis)
+DeviceComponents System components consist of Same as predicate device with
+anautomated digital microscope slide the exception of the following
+scanner, computer, color monitor, component updates:
+keyboard, image analysis software and · Slide Autoloader
+digital pathology information · Stages
+management software · Macro and Area Camera
+· Motion Control
+· Controller Software
+· Console Software
+· eSlide Manager Software
+Image Slide scanner based on line scanning Same
+Acquisition technology
+I. Special Control/Guidance Document Referenced (if applicable):
+None
+J. Performance Characteristics:
+1. Analytical Performance:
+The performance of the ScanScope AT Turbo and CS2 models were evaluated for 1)
+system accuracy (method comparison) 2) inter-system precision and 3) intra-system
+precision. The performance studies were conducted using three (3) ScanScope AT Turbo
+systems, three (3) ScanScope CS2 systems (Candidate Devices) and one (1) of the
+original FDA cleared ScanScope XT systems (Predicate Device). Two board certified
+pathologists participated in the accuracy studies, and provided the annotations that were
+used in the precision studies All study scanning was completed by a qualified scanning
+professional in a simulated laboratory environment.
+The sample sizes for the Method Comparison and Precision Studies were based on the
+number of samples required to obtain the appropriate confidence in the data.
+a. Accuracy:
+The performance of the ScanScope AT Turbo and CS2 models were evaluated in
+comparison with the predicate device ScanScope XT systems using malignant breast
+cancer samples. The slides were scanned and analyzed by the predicate or ScanScope
+AT Turbo or CS2 models. Board certified pathologists provided the annotations.
+The data was recorded into contingency tables, and further analyzed for statistical
+significance based on the pre-established acceptance criteria. For the HER2 Method
+Comparison Study, 120 slides were obtained for the study, however 1 of the slide was
+removed for not having a malignant tumor yielding a total sample size of n = 119.
+The results are shown in Table 1.
+7
+
+[Table 1 on page 7]
+				ER/PR Image Analysis)				
+DeviceComponents			System components consist of
+anautomated digital microscope slide
+scanner, computer, color monitor,
+keyboard, image analysis software and
+digital pathology information
+management software	System components consist of			Same as predicate device with	
+				anautomated digital microscope slide			the exception of the following	
+				scanner, computer, color monitor,			component updates:	
+				keyboard, image analysis software and			· Slide Autoloader	
+				digital pathology information			· Stages	
+				management software			· Macro and Area Camera	
+							· Motion Control	
+							· Controller Software	
+							· Console Software	
+							· eSlide Manager Software	
+	Image			Slide scanner based on line scanning		Same	Same	
+	Acquisition			technology				
+
+--- Page 8 ---
+Table 1: Method comparison contingency table for HER2 distribution between the ScanScope
+XT (Predicate Device), the ScanScope AT Turbo, and the Scanscope CS2 (Candidate Devices).
+For the ER Method Comparison Study, 120 slides were obtained for the study, however 2
+of the slides were removed for not having a malignant tumor yielding a total sample size
+of n = 118. The results are shown in Table 2.
+Table 2: Method comparison contingency table for ER distribution at two different percent
+positive thresholds between the ScanScope XT (Predicate Device), the ScanScope AT Turbo,
+and the Scanscope CS2 (Candidate Devices).
+For the PR Method Comparison Study, 120 cases were obtained and included in the study
+(n = 120). The results are shown in Table 3.
+8
+
+--- Page 9 ---
+Table 3: Method comparison contingency table for PR distribution at two different percent
+positive thresholds between the ScanScope XT (Predicate Device), the ScanScope AT Turbo,
+and the Scanscope CS2 (Candidate Devices).
+b. Precision/Reproducibility:
+For the ScanScope AT Turbo HER2 Precision Studies, 40 slides were obtained, however
+1 of the slides was removed for not having visible tumor on the slide yielding a sample
+size of n = 39. The results are shown in Table 4 and Table 5.
+Table 4: Inter-system precision contingency tables for HER2 distribution in three ScanScope
+AT Turbo devices
+9
+
+--- Page 10 ---
+Table 5: Intra-system precision contingency tables for HER2 distribution in three scans from the
+same ScanScope AT Turbo device
+The ScanScope CS2 HER2 Precision studies included 40 slides (n =40). The results are
+shown in Table 6 and Table 7.
+Table 6: Inter-system precision contingency tables for HER2 distribution in three ScanScope
+CS2 devices
+Table 7: Intra-system precision contingency tables for HER2 distribution in three scans from the
+same ScanScope CS2 device
+For the ScanScope AT Turbo ER Precision Study, 80 slides were obtained and included
+10
+
+--- Page 11 ---
+(n =80). The results are shown in Table 8 and Table 9.
+Table 8: Inter-system precision contingency tables for ER distribution at two different percent
+positive thresholds in three ScanScope AT Turbo devices
+Table 9: Intra-system precision contingency tables for ER distribution at two different percent
+positive thresholds for three scans from the same ScanScope AT Turbo device
+For the Scanscope CS2 ER Precision Study, 40 slides were obtained, however 2 slides
+were removed for not having a malignant tumor yielding a sample size of n= 38. The
+11
+
+--- Page 12 ---
+results are shown in Table 10 and Table 11.
+Table 10: Inter-system precision contingency tables for ER distribution at two different percent
+positive thresholds in three ScanScope CS2 devices
+Table 11: Intra-system precision contingency tables for ER distribution at two different percent
+positive thresholds for three scans from the same ScanScope CS2 device
+12
+
+--- Page 13 ---
+For the ScanScope AT Turbo PR Precision Study, 40 slides were obtained and included
+(n =40). The results are shown in Table 12 and Table 13.
+Table 12: Inter-system precision contingency tables for PR distribution at two different percent
+positive thresholds in three ScanScope AT Turbo devices
+Table 13: Intra-system precision contingency tables for PR distribution at two different percent
+positive thresholds for three scans from the same ScanScope AT Turbo device
+13
+
+--- Page 14 ---
+For the Scanscope CS2 PR Precision Study, 40 slides were obtained and included (n
+=40). The results are shown in Table 14 and Table 15.
+Table 14: Inter-system precision contingency tables for PR distribution at two different percent
+positive thresholds in three ScanScope CS2 devices
+Table 15: Intra-system precision contingency tables for PR distribution at two different percent
+positive thresholds for three scans from the same ScanScope CS2 device
+14
+
+--- Page 15 ---
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+None
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+15

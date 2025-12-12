@@ -1,0 +1,118 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase of Generating Results for Autoimmune
+Lymphoproliferative Syndrome (ALPS) Gene Panel, Varies
+1. PURPOSE
+This protocol details the analytical phase procedure for generating
+results for the Autoimmune Lymphoproliferative Syndrome (ALPS)
+Gene Panel. This includes the processing, analysis, and
+interpretation of ALPS Gene Panel test results.
+Responsibility: Designated laboratory staff are responsible for
+performing the steps outlined in this procedure. It is the responsibility
+of all laboratory personnel to recognize any discrepancies or issues
+during the testing process and report them to a supervisor.
+1. SCOPE
+This procedure applies to all staff involved in the analytical phase of
+ALPS Gene Panel testing in a CLIA-certified laboratory.
+1. DEFINITIONS
+Autoimmune Lymphoproliferative Syndrome (ALPS): A condition
+wherein the immune system produces an excessive number of
+immune cells, leading to lymphoproliferation and autoimmunity.
+Gene Panel: A panel of genes known to be associated with ALPS that
+are sequenced to identify pathogenic variants.
+1. EQUIPMENT AND MATERIALS
+2. DNA Extraction Kit
+3. PCR Reagents and Equipment
+4. Next-Generation Sequencing (NGS) Platform
+5. Bioinformatics Analysis Software
+6. Quality Control Materials
+7. Laboratory Information System (LIS)
+8. DNA Quantification Instruments (e.g., Nanodrop, Qubit)
+9. PROCEDURE
+5.1 DNA EXTRACTION
+• Ensure that the samples meet the pre-analytic criteria (i.e.,
+appropriately stored and labeled).
+• Perform the DNA extraction using an approved DNA extraction kit
+according to the manufacturer’s instructions.
+• Quantify the DNA using a spectrophotometer or fluorometer to
+ensure adequate concentration and purity.
+• Document DNA quantity, quality, and any deviations from
+expected outcomes in the Laboratory Information System (LIS).
+5.2 LIBRARY PREPARATION
+• Dilute the extracted DNA to the required concentration for library
+preparation.
+• Perform PCR amplification of target genes within the ALPS panel.
+• Purify the PCR products using the appropriate purification kits or
+magnetic beads.
+• Quantify and verify the size of the amplified products using an
+appropriate method such as gel electrophoresis or a bioanalyzer.
+• Prepare sequencing libraries according to the protocol for the
+NGS platform in use.
+5.3 NEXT-GENERATION SEQUENCING
+• Load the libraries onto the NGS platform following the instrument
+manufacturer’s guidelines.
+• Perform sequencing run, ensuring that all quality control metrics
+fall within acceptable limits.
+• Monitor the run parameters, such as cluster density and quality
+score, throughout the sequencing process.
+• Upon completion, save raw sequence data and perform a
+preliminary quality check.
+5.4 BIOINFORMATICS ANALYSIS
+• Analyze sequencing data using bioinformatics pipelines, which
+include base calling, alignment to the reference genome, and
+variant calling.
+• Apply filters to identify variants of interest relevant to the ALPS
+gene panel.
+• Cross-validate the identified variants with known ALPS-associated
+mutations.
+5.5 DATA REVIEW AND INTERPRETATION
+• Review bioinformatics analysis results, including variant
+annotation and classification.
+• Correlate identified variants with clinical significance using
+databases such as ClinVar, OMIM, and literature review.
+• Prepare a draft report of the findings, including any identified
+pathogenic or likely pathogenic variants relevant to ALPS.
+5.6 QUALITY CONTROL
+• Ensure all reagents and instruments used have not expired and
+are functioning properly.
+• Include positive and negative controls with each run to confirm
+assay performance.
+• Periodically calibrate instruments following manufacturer’s
+instructions.
+• Perform repeat testing of any outlier results to confirm accuracy.
+• Document all quality control activities and any corrective actions
+taken.
+5.7 RESULT REPORTING
+• Generate the final report with the reviewed and interpreted
+results.
+• Submit the report to the designated pathologist or geneticist for
+final review and sign-off.
+• Integrate the approved report into the Laboratory Information
+System (LIS) for electronic delivery to the ordering physician.
+1. RECORD KEEPING AND DOCUMENTATION
+• Maintain accurate records of all tested samples, including DNA
+extraction, library preparation, sequencing, and bioinformatics
+analysis.
+• Ensure all documentation meets regulatory requirements,
+following CLIA guidelines.
+• Store all data, including raw sequence files, analysis outputs, and
+final reports, securely and in compliance with data protection
+regulations.
+1. REFERENCES
+• Manufacturer’s instructions for DNA extraction kit
+• NGS platform user manual and guidelines
+• Bioinformatics software documentation
+• Professional guidelines for genetic testing and result interpretation
+(e.g., ACMG guidelines)
+1. QUALITY ASSURANCE
+• Internal audits will be conducted periodically to ensure
+compliance with SOPs.
+• Review and update this SOP annually or as required based on
+new advancements or regulatory changes.
+• Staff training and competency assessments will be conducted
+regularly to maintain high standards of laboratory practice.
+This SOP ensures reliable and accurate results in the analytical
+phase of the ALPS Gene Panel testing process, contributing to the
+timely diagnosis and effective management of patients with
+Autoimmune Lymphoproliferative Syndrome.
+Approved by: ____________________________________
+Date: __________________________________________

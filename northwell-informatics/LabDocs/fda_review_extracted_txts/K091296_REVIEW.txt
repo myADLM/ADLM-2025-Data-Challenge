@@ -1,0 +1,291 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+k091296
+B. Purpose for Submission:
+This submission is for a modification to a previously cleared device (k070559). This
+glucose meter accessory is intended to transmit data to compatible access points such
+as a personal computer or cellular phone with Bluetooth capability.
+C. Manufacturer and Instrument Name:
+Manufacturer: Polymap Wireless, LLC.
+Instrument Names: Polytel GMA models PWR-08-06, PWR-08-07, and PWR-08-09
+D. Type of Test or Tests Performed:
+Not applicable.
+E. System Descriptions:
+1. Device Description:
+The Polytel PWR-08-06 GMA is a battery-powered, plug-in accessory to the
+Lifescan OneTouch Ultra,OneTouch Ultra 2, OneTouch UltraMini, and
+OneTouch Select Blood Glucose Monitors. The Polytel PWR-08-07 GMA is a
+battery-powered, plug-in accessory to the Bayer Contour Blood Glucose
+Monitors. The Polytel PWR-08-09 GMA is a battery-powered, plug-in accessory
+to the Abbott FreeStyle Freedom Lite and FreeStyle Lite Blood Glucose
+Monitors. Each of these devices acts as a remote unit to transmit data from the
+meter to a compatible access point, such as a Nokia Model N73 cell phone. The
+GMA plugs into a port on the glucose meter. In the case of the PWR-08-06, when
+a glucose reading is taken and the strip withdrawn from the meter, unit turns on
+automatically, accepts the data, and transmits it wirelessly to the compatible
+Access Point. The Access Point then sends the encrypted data via cell or land
+telephone lines to a computer server. Due to the electrical design of the Bayer
+and Abbott glucose meters, both the PWR-08-07 and PWR-08-09 require the user
+pressing a button to initiate data transmission.
+The access point can be a compatible cell phone, personal computer, or other
+device having Bluetooth capability. This allows glucose readings to be monitored
+from a remote location. The glucose readings transmitted by the Polytel glucose
+accessory are intended to be used for monitoring and historical trending. Clinical
+judgment and experience are required to check and interpret the information
+delivered. The unit does not transmit any alarms.
+The device hardware platform is a Cambridge Silicon Radio BlueCore4-Ext radio
+chip with 1MB of flash memory.
+1
+
+--- Page 2 ---
+The GMA will be sold both through approved groups who can offer service
+support and OTC. It will be advertised to physicians, in a variety of publications,
+and on the Polymap website which will direct interested users to contact one of
+the approved support groups that Polymap has identified. Users may contact
+Polymap directly, or go to the Polymap website. A support technician from one of
+the approved groups will contact the user, answer questions about the GMA,
+validate that it works properly with the user's particular access point, and validate
+accurate data transmission to the monitoring site.
+2. Principles of Operation:
+Not applicable.
+3. Modes of Operation:
+Transmits data over a wireless Bluetooth link from a Blood Glucose Monitor to a
+compatible server.
+4. Specimen Identification:
+Glucose meter generated – unique unit ID
+5. Specimen Sampling and Handling:
+Not applicable.
+6. Calibration:
+Not applicable.
+7. Quality Control:
+Not applicable.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes____X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR § 862.1345
+2. Classification:
+Class II
+3 Product code:
+NBW
+4. Panel:
+Chemistry (75)
+2
+
+--- Page 3 ---
+G. Intended Use:
+1. Indication(s) for Use:
+The Polytel GMA (models PWR-08-06, PWR-08-07, and PWR-08-09) are remote
+communications link devices intended to be used to wirelessly transmit glucose
+meter readings from a compatible Blood Glucose Monitor to a compatible cellular
+phone, such as the Nokia N73 or access point, such as the Polytel APT. The
+receiving device, in turn, sends the readings to the healthcare provider in another
+location. The device does not send any real-time alarms. Clinical judgment and
+experience are required to check and interpret the information delivered.
+2. Special Conditions for Use Statement(s):
+For prescription and over-the-counter use.
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+k061328 – eSan, Ltd. Think Plus (t+) diabetes management system
+k070559 – Polymap Wireless LLC Polymap PWR-08-03
+2. Comparison with Predicate Device:
+Similarities
+Item Device eSan Predicate PWR-08-03
+Predicate
+Users Patient & Patient & Patient &
+Healthcare provider Healthcare Healthcare
+provider provider
+Site of use In the home In the home In the home
+System Transmitting device Transmitting Transmitting
+description that sends data from device that sends device that sends
+a glucose meter to data from a data from a
+an access point glucose meter to glucose meter to
+an access point an access point
+Connection Wired connection Wired connection Wired connection
+between glucometer between between
+and device. glucometer and glucometer and
+Wireless device. Wireless device. Wireless
+connection between connection connection
+glucometer and between between
+access point glucometer and glucometer and
+access point access point
+Monitoring Blood Glucose Blood Glucose Blood Glucose
+Devices Meter Meter Meter
+Power Battery Battery Battery
+Alarms None None None
+3
+
+[Table 1 on page 3]
+Similarities				
+Item	Device	eSan Predicate	PWR-08-03
+Predicate	
+Users	Patient &
+Healthcare provider	Patient &
+Healthcare
+provider	Patient &
+Healthcare
+provider	
+Site of use	In the home	In the home	In the home	
+System
+description	Transmitting device
+that sends data from
+a glucose meter to
+an access point	Transmitting
+device that sends
+data from a
+glucose meter to
+an access point	Transmitting
+device that sends
+data from a
+glucose meter to
+an access point	
+Connection	Wired connection
+between glucometer
+and device.
+Wireless
+connection between
+glucometer and
+access point	Wired connection
+between
+glucometer and
+device. Wireless
+connection
+between
+glucometer and
+access point	Wired connection
+between
+glucometer and
+device. Wireless
+connection
+between
+glucometer and
+access point	
+Monitoring
+Devices	Blood Glucose
+Meter	Blood Glucose
+Meter	Blood Glucose
+Meter	
+Power	Battery	Battery	Battery	
+Alarms	None	None	None	
+
+--- Page 4 ---
+Differences
+Item Device eSan Predicate PWR-08-03
+Predicate
+Intended Transmit data Transmit data Transmit data
+Use/indications between a between between a
+monitoring device monitoring monitoring device
+and enabled cell devices and and enabled cell
+phone or other enabled cell phone or other
+compatible device phone compatible device
+Prescription/OTC Prescription/OTC OTC Prescription
+Sold through
+approved groups
+who set up the
+system
+Data Residential Cellular Residential
+Transmission telephone lines or Connections telephone lines or
+cellular cellular
+connections connections
+Patient PWR-08-06: None Press button to None
+interactions PWR-08-07, PWR- start the data
+08-09: press button transmission
+to start
+transmission
+Wireless link Class II Bluetooth Class II Class I Bluetooth
+radio Bluetooth radio radio
+Storage Fits inside original Not addressed Fits inside original
+zippered case zippered case
+Range 10 meters 10 Meters 100 Meters
+I. Special Control/Guidance Document Referenced (if applicable):
+• IEC 60601-1, Medical Electrical Equipment - Part 1: General Requirements for
+Safety; Safety Requirements for Medical Electrical Systems, 2004
+• IEC 6060 1-1-2, Medical Electrical Equipment - Part 1-2: General Requirements for
+Safety; Electromagnetic Compatibility -- Requirements and Tests, 2005
+• IS0 14971:2000, Medical devices - Application of risk management to medical
+devices
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+Not applicable.
+b. Precision/Reproducibility:
+Not applicable.
+4
+
+[Table 1 on page 4]
+Differences					
+Item	Device	eSan Predicate		PWR-08-03	
+				Predicate	
+Intended
+Use/indications	Transmit data
+between a
+monitoring device
+and enabled cell
+phone or other
+compatible device	Transmit data
+between
+monitoring
+devices and
+enabled cell
+phone	Transmit data
+between a
+monitoring device
+and enabled cell
+phone or other
+compatible device		
+Prescription/OTC	Prescription/OTC	OTC	Prescription
+Sold through
+approved groups
+who set up the
+system		
+Data
+Transmission	Residential
+telephone lines or
+cellular
+connections	Cellular
+Connections	Residential
+telephone lines or
+cellular
+connections		
+Patient
+interactions	PWR-08-06: None
+PWR-08-07, PWR-
+08-09: press button
+to start
+transmission	Press button to
+start the data
+transmission	None		
+Wireless link	Class II Bluetooth
+radio	Class II
+Bluetooth radio	Class I Bluetooth
+radio		
+Storage	Fits inside original
+zippered case	Not addressed	Fits inside original
+zippered case		
+Range	10 meters	10 Meters	100 Meters		
+
+--- Page 5 ---
+c. Linearity:
+Not applicable.
+d. Carryover:
+Not applicable.
+e. Interfering Substances:
+Not applicable.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+A user study was performed and found to be acceptable under k070559. A new
+user study is not required under this submission because the modifications made
+to the device are not expected to affect user functions.
+Reading level analyses were performed for the user manuals. All are below an 8th
+grade level.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+5

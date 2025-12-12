@@ -1,0 +1,107 @@
+Analytical Phase SOP for Generating Results for MISCELLANEOUS
+BLUEPRINT GENETICS INC.
+1. PURPOSE To outline the standardized protocols and quality
+control measures for analyzing and generating genetic testing
+results for MISCELLANEOUS BLUEPRINT GENETICS INC.
+genetic tests.
+2. RESPONSIBILITY It is the responsibility of designated
+laboratory personnel to follow this protocol to ensure accurate
+and timely generation of genetic test results. Supervisors are
+responsible for ensuring that all staff are trained in this protocol
+and that the procedures are correctly followed.
+3. EQUIPMENT AND MATERIALS
+• NGS (Next Generation Sequencing) Platform
+• PCR Thermocyclers
+• DNA extraction kits (Company/brand specific)
+• Positive Control DNA
+• Negative Control DNA
+• Laboratory Pipettes and Tips (Sterile, filter tips)
+• Thermal Cyclers
+• Electrophoresis equipment
+• Reagents for library preparation and sequencing
+• Bioinformatics software for data analysis (Blueprint Genetics
+Custom-Built Software)
+• Clean Benches and Biosafety Cabinets
+• Centrifuge and Microcentrifuge
+• Gloves, Lab Coats, and other PPE
+1. PROCEDURE
+A. DNA Extraction and Quantification
+1. Extract genomic DNA from the received specimen following the
+DNA extraction kit protocols.
+2. Quantify DNA concentration using a Qubit Fluorometer or
+Nanodrop spectrophotometer.
+3. Record DNA concentration and quality (A260/280 ratio) in the
+DNA specimen tracking log.
+B. Library Preparation
+1. Generate DNA libraries following the NGS platform library
+preparation kit protocol.
+2. Include a positive control DNA sample and a negative control
+(no template control) in each batch.
+3. Perform PCR amplification as per manufacturer’s protocol.
+4. Clean up PCR products using magnetic beads designed for
+DNA purification.
+5. Quantify the amplified library using standard methods (Qubit/
+Nanodrop) and run a sample on an agarose gel to check for
+correct fragment size.
+C. Sequencing
+1. Set up sequencing runs according to the NGS platform
+instructions.
+2. Load DNA libraries onto the sequencing instrument.
+3. Monitor the sequencing run for quality assurance according to
+the platform-specific guidelines.
+4. Ensure that sequencing metrics (Q30 scores, cluster density,
+etc.) meet acceptable laboratory standards.
+D. Data Analysis
+1. Transfer raw sequencing data files to the bioinformatics
+pipeline.
+2. Use Blueprint Genetics Custom-Built Software to perform
+alignment, variant calling, and annotation.
+3. Ensure that the software includes built-in quality control
+algorithms and flags suspicious variants or low-confidence
+areas.
+4. Review the generated variant call format (VCF) files and
+determine correlations to known disorders, variants of unknown
+significance (VUS), and other findings.
+E. Reporting Results
+1. Compile a detailed report incorporating the findings from the
+bioinformatics analysis.
+2. Ensure that the report follows the Blueprint Genetics report
+template including:
+◦ Patient Identifier
+◦ Specimen Information
+◦ Results Summary
+◦ Detailed Variant Information
+◦ Clinical Correlations
+◦ Recommendation for Follow-Up or Confirmation Testing
+3. Review the report for accuracy and completeness in
+accordance with laboratory quality control standards.
+4. Verify and sign off on the report by the authorized personnel.
+5. Send the finalized report to the ordering physician or relevant
+healthcare provider.
+F. Quality Control
+1. Run Positive and Negative Controls with each batch and
+document results.
+2. Perform bi-weekly calibration verification of sequencing
+instruments.
+3. Monthly QC checks on PCR thermocyclers and reagents.
+4. Document all maintenance and calibration activities in the
+quality control log.
+5. Record any anomalies or failures and report to the supervisors
+for corrective action.
+6. SAFETY Ensure all laboratory work is performed using
+appropriate PPE and in compliance with biosafety regulations.
+Handle all biological samples with caution, using biosafety
+cabinets and following established safety protocols.
+7. REFERENCES Refer to manufacturers’ manuals for detailed
+procedures for DNA extraction kits, PCR reagents, NGS
+platforms, and bioinformatics software. Refer to the Blueprint
+Genetics standard documentation for interpretation and
+reporting guidelines.
+8. REVIEW AND AUDIT This SOP shall be reviewed annually or
+as necessary to reflect current best practices and regulatory
+requirements. Regular audits shall be performed to ensure
+compliance and areas for improvement shall be documented
+and addressed promptly.
+This protocol ensures standardization, accuracy, and reliability of
+genetic testing results processed in our laboratory in association with
+MISCELLANEOUS BLUEPRINT GENETICS INC.

@@ -1,0 +1,126 @@
+Standard Operating Procedure (SOP) for Analytical
+Phase: Protein S Deficiency, PROS1 Gene, Next-
+Generation Sequencing
+1. PURPOSE
+This SOP describes the process for the analytical phase of
+generating results for Protein S Deficiency caused by mutations in
+the PROS1 gene using Next-Generation Sequencing (NGS)
+technology. The protocol ensures accurate, reproducible, and high-
+quality results to support clinical diagnosis and patient care.
+2. RESPONSIBILITY
+The responsibility for conducting this analytical procedure lies with
+designated laboratory staff trained in NGS techniques, data analysis,
+and bioinformatics.
+3. DEFINITION
+Protein S Deficiency: A hereditary disorder characterized by a
+deficiency in Protein S leading to increased risk of thrombotic events.
+PROS1 Gene: The gene encoding Protein S, mutations in which can
+lead to Protein S Deficiency. Next-Generation Sequencing (NGS): A
+high-throughput sequencing technology used to determine the
+nucleotide sequence of gene segments.
+4. PROCEDURE
+A) Pre-sequencing Preparation
+1. Sample Preparation:
+◦ Ensure the DNA sample from the patient has been properly
+extracted, quantified, and quality checked (e.g., using a
+spectrophotometer and gel electrophoresis).
+◦ Typically, a concentration of 10-50 ng/µL is appropriate with
+A260/280 ratio between 1.8 and 2.0.
+2. Library Preparation:
+◦ Use a designated library preparation kit according to the
+manufacturer's instructions.
+▪ Fragmentation: Fragment the DNA to the desired size
+range (~300-500 bp).
+▪ End repair and A-tailing: Perform end-repair and add an
+A-tail to the fragments.
+▪ Adapter Ligations: Ligate sequencing adapters to the
+fragments.
+▪ Purification: Purify the ligated fragments using magnetic
+beads or another purification method.
+▪ Amplification: Amplify the library fragments using PCR
+with specific primers.
+▪ Quantification and Quality Control: Quantify the library
+and verify fragment size distribution using an instrument
+such as a bioanalyzer.
+B) Sequencing
+1. Loading Samples:
+◦ Load the purified and quantified libraries onto the
+sequencer, following the sequencer-specific loading
+protocol.
+◦ Ensure appropriate controls (positive, negative, and non-
+template controls) are included in the sequencing run.
+2. Run Sequence:
+◦ Configure the sequencer with the correct parameters (read
+length, paired-end/single-end reads, etc.).
+◦ Initiate the sequencing run, ensuring to monitor the progress
+and make necessary adjustments as dictated by the
+sequencer's performance and status.
+C) Data Analysis
+1. Raw Data Processing:
+◦ Convert raw sequencing data (e.g., FASTQ files) into
+aligned data using appropriate bioinformatics software (e.g.,
+BWA, Bowtie).
+◦ Align reads to the reference human genome (e.g., hg19 or
+hg38).
+2. Variant Calling:
+◦ Process aligned data to detect variants using variant calling
+software (e.g., GATK, Samtools).
+◦ Filter and annotate variants to identify potential pathogenic
+mutations in the PROS1 gene using databases such as
+dbSNP, ClinVar, and custom laboratory databases.
+3. Quality Control:
+◦ Validate the accuracy of the NGS results through the
+following:
+▪ Coverage Depth: Ensure the target regions of the
+PROS1 gene have adequate sequencing depth (e.g.,
+>20x coverage).
+▪ Mapping Quality: Check the mapping quality score to
+confirm reliable read alignment.
+▪ Variant Quality Score: Apply filters to retain high-
+confidence variant calls (e.g., VQSLOD score
+thresholds).
+4. Data Interpretation:
+◦ Interpret detected variants considering known pathogenicity,
+conservation across species, and any reported clinical
+significance.
+D) Reporting Results
+1. Report Generation:
+◦ Compile the sequencing and variant data into a coherent
+report summarizing identified mutations, their potential
+clinical significance, and any recommended follow-up
+testing or genetic counseling.
+◦ Ensure results are reviewed and verified by a qualified
+laboratory scientist or geneticist.
+2. Data Retention and Privacy:
+◦ Store sequencing data, variant files, and interpreted results
+securely in the laboratory information management system
+(LIMS).
+◦ Ensure compliance with regulatory requirements concerning
+patient privacy and data security.
+5. QUALITY CONTROL
+1. Controls:
+◦ Implement quality control measures at each stage (e.g.,
+control specimens in sequencing, bioinformatics checks).
+◦ Periodically run proficiency testing to maintain high
+standards of analytical accuracy and reliability.
+2. Validation:
+◦ Validate new reagents, library preparation kits, and
+sequencing platforms by comparing results against known
+standards and clinical specimens.
+6. REFERENCES
+• Manufacturer’s instructions for library preparation and sequencing
+kits.
+• GATK Best Practices for variant calling.
+• dbSNP, ClinVar, and relevant genetic databases for variant
+annotation.
+• Relevant peer-reviewed articles regarding Protein S Deficiency
+and PROS1 gene variants.
+Document Control:
+• Prepared by: [Your Name], Medical Laboratory Scientist
+• Reviewed by: [Supervisor’s Name], [Date]
+• Approved by: [Director’s Name], [Date]
+This SOP is intended to ensure that the laboratory maintains high
+standards in the analytical phase of generating results for Protein S
+Deficiency involving PROS1 gene sequencing using NGS technology.
+Regular updates may be necessary based on advancements in
+sequencing technologies and emerging clinical guidelines.

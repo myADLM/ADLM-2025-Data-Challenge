@@ -1,0 +1,123 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+A. 510(k) Number: K 081064   
+B. Purpose for Submission: To determine substantial equivalence of the device for the detection of Giardia antigens in human fecal specimens.   
+C. Measurand: Giardia fecal antigen   
+D. Type of Test: Qualitative immunoassay   
+E. Applicant: IVD Research Inc.   
+F. Proprietary and Established Names: Giardia Fecal Antigen Detection Lateral Flow Kit   
+G. Regulatory Information:
+
+<table><tr><td rowspan=1 colspan=1>Product Code</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>Regulation Section</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>MHI</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR 866.3220</td><td rowspan=1 colspan=1>83 Microbiology</td></tr></table>
+
+# H. Intended Use:
+
+1. Intended use:
+
+The Giardia Fecal Antigen Detection Lateral Flow Kit is an in vitro qualitative immunoassay for the detection of Giardia antigens in preserved and unpreserved fecal specimens. This test is indicated as an aid in the clinical laboratory diagnosis of suspected Giardia infections
+
+2. Indications for use:
+
+The IVD Research Inc. Giardia Fecal Antigen Detection Lateral Flow Kit is a qualitative immunoassay for the detection of Giardia antigens in preserved and unpreserved fecal specimens. This test is indicated as an aid in the clinical laboratory diagnosis of suspected Giardia infections.
+
+For in vitro diagnostic use.
+
+3. Special conditions for use statement: For prescription use
+
+4. Special instrument requirements: None
+
+# I. Device Description:
+
+The kit contains 20 individually packaged test devices comprised of a nitrocellulose membrane to which rabbit anti-Giardia and goat-anti-mouse antibodies have been bound. The membrane is assembled with a cellulose fiber pad to form the test strip, which is then placed into a plastic housing and sealed. The housing contains a sample window, where the diluted fecal sample is added and a test window where the test result is read. The kit also contains Dilution Buffer A consisting of 6ml of a buffer and $0 . 0 9 5 \%$ sodium azide as a preservative; dilution Buffer B consisting of $6 \mathrm { m l }$ of a buffered $10 \%$ formalin solution for diluting fresh or frozen samples; disposable transfer pipets and sample dilution tubes for 20 tests and directions for use. The kit must be stored at $2 \mathrm { - } 3 0 ^ { \circ } \mathrm { C }$ .
+
+# J. Substantial Equivalence Information:
+
+The predicate device is Xpect Giardia Lateral Flow Assay (K031942). The new device and predicate are similar in Intended Use, type of technology, use the same Giardia specific monoclonal antibodies and show similar clinical performance. They differ in sample volume and the predicate conjugate has mouse IgG and utilizes a colored polystyrene bead whereas the new device uses a gold colloidal label.
+
+K. Standard/Guidance Document Referenced (if applicable):
+
+N/A
+
+# L. Test Principle:
+
+The Giardia Fecal Antigen Detection lateral flow device uses sample wicking to capture Giardia antigen on a discrete test line which contains antibodies specific for the Giardia antigen. A fecal specimen is added to a dilution tube and mixed with buffer solution. The mixture is dispensed into the sample well of the device and wicks along the membrane containing capture antibodies bound to the membrane at the test and control lines. The Giardia immune complex, if present, reacts with antiGiardia antibody at the test line. Unbound conjugate not captured at the test line is captured at the control line containing anti mouse antibody. If Giardia antigens are present in the fecal sample, two pink-to-purple bands will appear in the Test Window – one at the sample line and one at the control line. If no Giardia antigen is present or the level is below the detection limit of the assay, only one pink-to-purple band will appear at the control line. For the test to be valid, there must always be a pink-topurple line band at the control line.
+
+# M. Performance Characteristics:
+
+1. Analytical performance:
+
+a. Reproducibility:
+
+A total of 4 negative, 3 low positive and 3 positive samples, along with positive and negative controls, were run at three separate sites once a day for 3 days. Visual interpretation was similar at all locations and runs. The interassay correlation was $100 \%$ between the three sites.
+
+b. Linearity/assay reportable range:
+
+N/A
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+N/A
+
+d. Detection limit:
+
+The analytical sensitivity of the device was determined by diluting cultured Giardia lamblia (WB strain) in negative human stool and testing across an antigen concentration range of $2 . 5 ~ \mathrm { { n g / m L } }$ to $8 0 ~ \mathrm { n g / m L }$ . Test results determined the limit of detection for the device as $2 0 \mathrm { n g / m l }$ .
+
+e. Analytical specificity:
+
+# Cross-reactivity
+
+No cross-reactions were seen with the following organisms:
+
+Entamoeba hartmanni, Endolimax nana, Entamoeba histolytica/dispar, Entamoeba coli, Blastocystis hominis, Dientamoeba fragilis, Chilomastix mesnili, Cyclospora cayetanensis, Strongyloides stercoralis, Cryptosporidium, Ascaris lumbricoides, Enterobius vermicularis, Diphyllobothrium species, Hymenolepis nana, Clonorchis sinensis, Enteromonas hominis, Trichuris trichiura, Iodamoeba buetschlii, Schistosoma mansoni, rotavirus, Taenia eggs, Fasciola eggs, Isospora belli, adenovirus, rotavirus, Salmonella typhimurium, Proteus vulgaris, E. coli 43887, Campylobacter coli, Salmonella enteritidis, Campylobacter fetus, Staphylococcus aureus, Pseudomonas aeruginosa, Klebsiella pneumoniae, Serratia liquefaciens, Enterobacter cloacae, Citrobacter braakii, Shigella flexneri, Shigella dysenteria, $E .$ . hermannii, Campylobacter jejuni, Salmonella infantis, Yersinia enterocolitica, Enterococcus faecalis and Helicobacter cinaedi. Additionally, six common microorganisms (Campylobacter coli, E. coli, Salmonella enteritidis, Shigella flexneri, Campylobacter jejuni, and Yersinia enterocolitica) spiked into preserved positive and negative fecal specimens did not affect the test result.
+
+# Interfering Substances
+
+Human feces samples positive and negative for Giardia antigen were spiked with blood, mucin, or Imodium® prior to testing with the Giardia Fecal Antigen Detection Lateral Flow Kit. Testing indicated that none of these substances interfered with the test.
+
+f. Assay cut-off: N/A
+
+2. Comparison studies:
+
+a. Method comparison with predicate device:
+
+One hundred and ten fecal specimens were tested with the Giardia fecal antigen detection lateral flow kit and the predicate device. Results were as follows:
+
+Positive Agreement 98% (48/49) Negative Agreement 100% (61/61)
+
+b. Matrix comparison: N/A
+
+3. Clinical studies: a. Clinical Sensitivity:
+
+A total of 210 formalin or SAF preserved stools were tested with the Giardia LF test and the results were compared to microscopy. Results were as follows:
+
+Sensitivity: $9 7 . 2 \%$ (106/109)
+
+Specificity: $9 6 \%$ (97/101)
+
+$$
+\begin{array} { r l } & { 9 5 \% \mathrm { C I } = 9 2 . 2 \% \mathrm { t o } 9 9 . 4 \% } \\ & { } \\ & { 9 5 \% \mathrm { C I } = 9 0 . 2 \% \mathrm { t o } 9 8 . 9 \% } \end{array}
+$$
+
+Four “negative” specimens gave a false positive result when tested with the Giardia LF test. These discrepant samples were re-tested using a direct immunofluorescence assay and shown to be positive.
+
+b. Clinical specificity: Refer to (a) above
+
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+N/A
+
+4. Clinical cut-off:
+
+N/A
+
+5. Expected values/Reference range:
+
+Normal healthy individuals should be free of Giardia and should test negative. A positive reaction indicates that the patient is shedding detectable amounts of Giardia antigen. Certain populations, such as children in day care settings, have shown higher rates of infection with Giardia than the normal population. Typical prevalence rates for Giardia in developed countries have been reported to be 2- $5 \%$ .
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+1. The information submitted in this premarket notification is complete and supports a substantial equivalence decision.

@@ -1,0 +1,87 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase for Generating Results for Alagille Syndrome
+Gene Panel
+1. PURPOSE To outline the analytical procedures for generating
+results for Alagille Syndrome Gene Panel.
+2. SCOPE This SOP applies to all laboratory personnel involved in
+the analytical phase of testing for Alagille Syndrome Gene
+Panel.
+3. RESPONSIBILITY
+• It is the responsibility of designated laboratory personnel to
+perform the analytical procedures as defined in this SOP.
+• It is the responsibility of supervisors to ensure adherence to SOP
+and validation of results.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Next Generation Sequencing (NGS) Platform
+• PCR Thermocycler
+• DNA Extraction Kit
+• Alagille Syndrome Gene Panel Reagents and Primers
+• Covaris (Ultrasonic Sample Shearing) Instrument
+• QC Quantification Instruments (e.g., Qubit, Bioanalyzer)
+• Thermostat-Controlled Incubators
+• Computer with bioinformatics software and access to NCBI
+databases
+1. DEFINITION Alagille Syndrome Gene Panel testing involves
+sequencing specific genes associated with Alagille syndrome,
+including but not limited to JAG1 and NOTCH2.
+2. PROCEDURE
+A) DNA Extraction
+1. Extract DNA from the collected specimen using a standardized
+DNA extraction kit.
+2. Quantify the extracted DNA using a Qubit fluorometer or
+equivalent.
+3. Assess purity and integrity using a Bioanalyzer.
+B) Library Preparation
+1. Fragment the DNA samples using the Covaris instrument
+according to manufacturer instructions.
+2. Perform end-repair, A-tailing, and adapter ligation steps
+sequentially as per kit protocol.
+3. Clean up the samples using magnetic beads as instructed.
+4. Amplify the library using PCR with appropriate primers for the
+Alagille Syndrome Gene Panel.
+5. Quantify and assess the quality of the prepared library.
+C) Sequencing
+1. Load the prepared library onto the NGS platform following
+instrument-specific loading instructions.
+2. Set up the sequencing run according to instrument protocol,
+selecting the appropriate panel configuration.
+3. Monitor the sequencing run for quality control metrics; ensure
+coverage depth meets the required threshold.
+D) Data Analysis
+1. Retrieve raw sequencing data upon completion of the NGS run.
+2. Use bioinformatics software to align sequencing reads to a
+reference genome.
+3. Perform variant calling and annotation using a validated
+pipeline.
+4. Filter and prioritize variants of interest based on pathogenicity,
+relevance to Alagille syndrome.
+E) Interpretation of Results
+1. Review the variant annotations to distinguish between
+pathogenic, likely pathogenic, benign, and VUS (variants of
+uncertain significance).
+2. Generate a report summarizing the findings with detail on
+identified mutations relevant to Alagille syndrome.
+3. Include interpretation and possible clinical implications of
+detected variants.
+F) Reporting Results
+1. Verify results by reviewing the final dataset and annotation.
+2. Prepare a detailed report including raw data, interpretation, and
+clinical relevance of variants.
+3. Transmit the finalized report to the Laboratory Information
+System (LIS) for review by the ordering physician.
+4. QUALITY CONTROL
+5. Perform internal quality control checks on sequencing runs,
+including metrics like coverage depth and error rates.
+6. Use external controls and reference samples periodically to
+ensure consistency and reliability of results.
+7. Store QC and validation data on central database for future
+reference.
+8. METHOD LIMITATIONS Be aware of potential limitations
+including incomplete coverage of target genes, poor quality
+samples, and limitations inherent to the bioinformatics pipeline.
+9. REFERENCES Refer to standard molecular biology protocols,
+NGS platform manufacturer manuals, and relevant scientific
+literature on Alagille syndrome.
+This SOP draft details step-by-step procedures for the analytical
+phase of generating results for the Alagille Syndrome Gene Panel up
+until October 2023.

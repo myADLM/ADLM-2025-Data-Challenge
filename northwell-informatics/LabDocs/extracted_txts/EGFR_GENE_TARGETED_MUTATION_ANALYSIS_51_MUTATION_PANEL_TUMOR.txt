@@ -1,0 +1,134 @@
+Standard Operating Procedure (SOP) for EGFR Gene,
+Targeted Mutation Analysis, 51 Mutation Panel, Tumor
+1. Purpose
+This SOP outlines the procedures for the analytical phase of
+generating EGFR gene mutation results, specifically targeting a 51
+mutation panel for tumor samples. The objective is to ensure
+consistent, accurate, and timely analysis and reporting of EGFR
+mutations in tumor tissue samples.
+2. Scope
+This SOP applies to all laboratory personnel authorized to perform
+and supervise EGFR gene mutation analysis using the designated 51
+mutation panel in a CLIA-certified laboratory.
+3. Responsibilities
+• Laboratory Technologists are responsible for performing the
+assay, analyzing data, and recording results per this SOP.
+• Supervisors/Team Leads are responsible for ensuring the
+adherence to this SOP and addressing any issues that may arise
+during the analysis.
+4. Definitions
+• EGFR: Epidermal Growth Factor Receptor.
+• PCR: Polymerase Chain Reaction.
+• NGS: Next-Generation Sequencing.
+• QC: Quality Control.
+5. Specimen Requirements
+• Tumor tissue collected via biopsy or surgical resection.
+• Formalin-fixed paraffin-embedded (FFPE) tissue blocks are
+acceptable.
+• Fresh-frozen tissue may also be utilized but must be processed
+immediately or stored appropriately.
+6. Supplies and Equipment
+• DNA extraction kits
+• Reagents and consumables for PCR/NGS
+• Thermal cycler
+• NGS platform compatible with the 51 mutation panel
+• Bioinformatics software for data analysis
+• Quality control materials (positive and negative controls)
+• Certified reference materials
+• Documentation logs
+7. Procedure
+A. DNA Extraction
+1. Sample Preparation
+◦ Confirm the identity of the tumor sample using patient
+labelling.
+◦ Measure the tissue area and trim as necessary for optimal
+DNA yield.
+2. Extraction Process
+◦ Utilize validated DNA extraction kits following the
+manufacturer’s protocol.
+◦ Ensure thorough homogenization and lysis of samples.
+◦ Quantify extracted DNA using a spectrophotometer and
+assess its purity.
+3. Quality Check
+◦ Determine the DNA concentration and purity (A260/280
+ratio).
+◦ Run a sample on agarose gel to confirm genomic DNA
+integrity.
+B. PCR Amplification
+1. Reagent Preparation
+◦ Prepare the PCR master mix according to manufacturer’s
+instructions for the target sequences.
+◦ Include internal controls and no-template controls.
+2. Amplification
+◦ Aliquot the master mix into PCR tubes or plates.
+◦ Add the extracted DNA to each tube/plate well.
+3. Thermal Cycling
+◦ Program the thermal cycler with appropriate cycling
+conditions for the target mutations.
+◦ Ensure the reaction includes initial denaturation, followed by
+cycles of denaturation, annealing, and extension, with a final
+extension.
+C. Next-Generation Sequencing (NGS)
+1. Library Preparation
+◦ Prepare DNA libraries from PCR amplicons according to the
+NGS platform protocol.
+◦ Include steps like end-repair, A-tailing, and adaptor ligation
+as required.
+2. Sequencing Run
+◦ Load libraries onto the NGS platform.
+◦ Ensure correct settings and sufficient read depth to detect
+target mutations.
+◦ Run the sequencer following manufacturer’s guidelines.
+D. Data Analysis
+1. Raw Data Processing
+◦ Utilize the bioinformatics pipeline to process raw NGS data.
+◦ Perform base-calling, alignment to the reference genome,
+and variant calling.
+2. Analysis and Interpretation
+◦ Filter and annotate variants to identify mutations relevant to
+the EGFR 51 mutation panel.
+◦ Cross-reference identified mutations with databases and
+literature for clinical relevance.
+3. Quality Control
+◦ Ensure that QC metrics for NGS (e.g., read depth,
+alignment percentage) meet acceptable thresholds.
+◦ Validate results against control specimens.
+E. Reporting Results
+1. Result Documentation
+◦ Review and verify the sequencing data and mutation
+analysis results.
+◦ Document findings in the laboratory information system
+(LIS).
+2. Report Generation
+◦ Include the identified EGFR mutations, their clinical
+significance, and any relevant interpretative comments.
+◦ Verify and sign off on the report by authorized personnel.
+3. Issuance
+◦ Deliver the final report to the requesting clinician or
+pathologist.
+8. Quality Control and Assurance
+• Run positive, negative, and no-template controls with each batch.
+• Follow manufacturer’s instructions for equipment calibration and
+maintenance schedules.
+• Perform biannual proficiency testing.
+• Document all QC results and take corrective actions when
+necessary.
+9. Documentation
+• Maintain accurate records of DNA extraction, PCR amplification,
+sequencing runs, and data analysis.
+• Archive reports for potential future reference and regulatory
+compliance.
+10. References
+• Manufacturer’s protocol for DNA extraction kits.
+• NGS platform user manual.
+• Reference databases for EGFR mutations.
+• Clinical guidelines for molecular pathology testing in oncology.
+11. Appendices
+• Appendix A: Sample Log Template
+• Appendix B: PCR Recipe and Thermal Cycling Conditions
+• Appendix C: NGS Workflow Diagram
+• Appendix D: Quality Control Checklist
+By adhering to this protocol, laboratory personnel can ensure that
+EGFR gene mutation analysis is conducted with precision and
+reliability, contributing to accurate diagnosis and treatment planning
+for patients with tumor profiles.

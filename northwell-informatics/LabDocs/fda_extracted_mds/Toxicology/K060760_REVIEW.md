@@ -1,0 +1,121 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+C. Measurand: Buprenorphine
+
+E. Applicant: American Bio Medica Corp.
+
+F. Proprietary and Established Names: ‘RapidOne’ – Buprenorphine Test
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR §862.3650, Opiate Test System
+
+2. Classification: Class II
+
+3. Product code: DJG, enzyme immunoassay, opiates
+
+4. Panel: Toxicology (91)
+
+# H. Intended Use:
+
+1. Intended use(s): See Indications for use below.
+
+2. Indication(s) for use: ‘RapidOne’ – Buprenorphine Test is a one-step lateral flow immunoassay for the qualitative detection of $1 2 . 5 ~ \mathrm { { n g / m L } }$ of buprenorphine in human urine.
+
+‘RapidOne’ – Buprenorphine Test is intended for professional use. It is not intended for over the counter sales to nonprofessionals. The assay is easy to perform, but should not be used without proper supervision. The immunoassay is a simplified, qualitative screening method that provides only a preliminary result for use in determining the need for additional or confirmatory testing, i.e. liquid chromatography/mass spectrometry (LC/MS).
+
+3. Special conditions for use statement(s): The device is for in vitro diagnostic prescription use.
+
+‘RapidOne’ – Buprenorphine Test provides only a preliminary analytical result. A specific alternative chemical method must be used in order to obtain a more confirmed result. LC/MS is the preferred confirmatory method. Clinical and professional judgment should be applied to any drug of abuse test result. Particularly when preliminary results are used.
+
+4. Special instrument requirements: Not applicable. The device is a visually read single-use device.
+
+# I. Device Description:
+
+The assay employed in the ‘RapidOne’ – Buprenorphine Test is based on the same principle of highly specific reactions between antigens and antibodies. This assay is a one-step, competitive, immunoassay for the detection of buprenorphine and buprenorphine glucuronide in human urine. The test device consists of a membrane strip onto which a drug conjugate has been mobilized and a colloidal gold-antibody complex is dried at one end of the membrane. In the absence of any drug in the urine sample, the colloidal gold-antibody complex moves with the urine by capillary action to contact the immobilized drug conjugate. Antibody-antigen reactions occur, forming visible lines in the “test” area.
+
+When drug is present in the urine sample, the drug or metabolite will compete with the drug conjugate in the test area for the limited antibody sites on the colloid goldlabeled antibody complex. If sufficient amount of drug is present, it will fill all of the available antibody binding sites, preventing attachment of the labeled antibody to the drug conjugate. An absence of a color band (line) in the “test” area is indicative of a positive result.
+
+A control band (line), comprised of a different antibody/antigen reaction, is present on the membrane strip. The control line is not influenced by the presence or absence of drug in the urine and should be present on all reactions.
+
+A negative test will produce two colored bands, and a sample with drug above the cut-off will produce only one band.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): ACON $\textsuperscript { \textregistered }$ BUP One Step Buprenorphine Test Strip
+
+2. Predicate 510(k) number(s): k060466
+
+3. Comparison with predicate:
+
+<table><tr><td rowspan=1 colspan=3>Similarities</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Intended Use</td><td rowspan=1 colspan=1>Chromatographicimmunoassays for thequalitative detection ofBuprenorphine in urine.</td><td rowspan=1 colspan=1>Chromatographicimmunoassays for thequalitative detection ofBuprenorphine in urine.</td></tr><tr><td rowspan=1 colspan=1>Sample Types</td><td rowspan=1 colspan=1>Urine</td><td rowspan=1 colspan=1>Urine</td></tr><tr><td rowspan=1 colspan=1>Test Method</td><td rowspan=1 colspan=1>Immunochromatographic</td><td rowspan=1 colspan=1>Immunochromatographic</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Predicate</td></tr><tr><td rowspan=1 colspan=1>Cutoff</td><td rowspan=1 colspan=1>12.5 ng/mL</td><td rowspan=1 colspan=1>10 ng/mL</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+None were identified.
+
+L. Test Principle: See device description above.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+The precision of the assay was determined by using commercially available standards and two different lots of the device. Buprenorphine and buprenorphine glucuronide were added to drug-free urine to produce the appropriate concentrations. Each sample at each concentration was tested 4 times, twice daily, for 5 days. Results are summarized below.
+
+Buprenorphine   
+
+<table><tr><td rowspan=1 colspan=1>Conc.(ng/mL)</td><td rowspan=1 colspan=1>#Determinations</td><td rowspan=1 colspan=1>Result</td><td rowspan=1 colspan=1>% Agreement</td></tr><tr><td rowspan=1 colspan=1>No DrugPresent</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>40 Neg.</td><td rowspan=1 colspan=1>&gt;99%</td></tr><tr><td rowspan=1 colspan=1>3.2</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>40 Neg.</td><td rowspan=1 colspan=1>&gt;99%</td></tr><tr><td rowspan=1 colspan=1>6.3</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>12 Pos., 28 Neg.</td><td rowspan=1 colspan=1>70%</td></tr><tr><td rowspan=1 colspan=1>9.4</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>24 Pos., 16 Neg.</td><td rowspan=1 colspan=1>60%</td></tr><tr><td rowspan=1 colspan=1>12.5</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>40 Pos.</td><td rowspan=1 colspan=1>&gt;99%</td></tr><tr><td rowspan=1 colspan=1>15.6</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>40 Pos.</td><td rowspan=1 colspan=1>&gt;99%</td></tr></table>
+
+$b$ . Linearity/assay reportable range: Not applicable.
+
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+The sponsor did not indicate any degree of traceability for their devices. Control materials are required but are not specifically identified in the labeling. No calibrators are required. The device is calibrated during the manufacturing process.
+
+# d. Detection limit:
+
+Sensitivity of qualitative assays may be characterized by validating performance around the claimed cutoff concentration of the assay, and demonstrating the lowest concentration of drug that is capable of or consistently producing a positive result. This information appears in the precision section, above.
+
+# e. Analytical specificity:
+
+Each of the following compounds was added to normal, drug-free urine and will give a positive result at the concentration stated. The sponsor tested 561 substances each at a concentration of $1 0 0 , 0 0 0 \mathrm { n g / m L }$ . Those substances that were found to give a positive result then had the concentration of the substance diluted to establish the lowest level of the substance that will give a positive result. These concentrations are summarized below.
+
+<table><tr><td rowspan=1 colspan=1>Compound</td><td rowspan=1 colspan=1>Concentration required to give aPositive result (ng/ml)</td></tr><tr><td rowspan=1 colspan=1>Buprenorphine-glucuronide</td><td rowspan=1 colspan=1>10.0</td></tr><tr><td rowspan=1 colspan=1>Codeine</td><td rowspan=1 colspan=1>10000</td></tr><tr><td rowspan=1 colspan=1>Hydrocodone</td><td rowspan=1 colspan=1>25000</td></tr><tr><td rowspan=1 colspan=1>Lysergic Acid Diethylamide (LSD)</td><td rowspan=1 colspan=1>50000</td></tr><tr><td rowspan=1 colspan=1>Metoclopramide</td><td rowspan=1 colspan=1>50000</td></tr><tr><td rowspan=1 colspan=1>Morphine</td><td rowspan=1 colspan=1>25000</td></tr><tr><td rowspan=1 colspan=1>Nalmefene</td><td rowspan=1 colspan=1>75000</td></tr><tr><td rowspan=1 colspan=1>Nalophine</td><td rowspan=1 colspan=1>100</td></tr><tr><td rowspan=1 colspan=1>Norbuprenorphine</td><td rowspan=1 colspan=1>10000</td></tr><tr><td rowspan=1 colspan=1>Norbuprenorphine-glucuronide</td><td rowspan=1 colspan=1>10000</td></tr></table>
+
+The effect of $\mathsf { p H }$ of urine was tested to evaluate the effect on the reactivity of the test. Drug-free urine was adjusted to various $\mathsf { p H }$ levels by the addition of $\mathrm { N a O H }$ or HCl to create samples ranging from 3.0 to 11.0. Exogenous buprenorphine was added to the $\mathsf { p H }$ adjusted specimens to give a final concentration of 12.5 and $1 0 . 0 \mathrm { n g / m L }$ respectively. It was found that the range of $\mathsf { p H }$ tested did not interfere with the test.
+
+The effect of specific gravity of urine was tested to evaluate the effect on the reactivity of the test. Drug-free urine (certified by GC/MS) with a specific gravity of 1.020 was diluted to produce urine with lower specific gravity values ranging from 1.000 to 1.020. Exogenous buprenorphine was added to the specific gravity adjusted specimens to give a final concentration of 12.5 and $1 0 . 0 \mathrm { n g / m L }$ respectively. It was found that the range of specific gravity tested did not interfere with the test.
+
+f. Assay cut-off: Buprenorphine at $1 2 . 5 ~ \mathrm { { n g / m L } }$ . See precision/reproducibility above.
+
+2. Comparison studies:
+
+# a. Method comparison with predicate device:
+
+The “RapidOne’ – Buprenorphine Test was compared to results obtained with LC/MS using 101 clinical specimens. Of the 109 samples, 54 were found to be drug-free and 55 tested positive by LC/MS. The LC/MS analyses included a hydrolysis step that removes glucuronide from buprenorphine. With this method, buprenorphine-glucuronide present in the sample will be detected as buprenorphine. The 55 positive specimens showed buprenorphine concentrations of 4.2 to $8 9 . 0 \mathrm { n g / m L }$ . All specimens containing $9 . 2 ~ \mathrm { n g / m L }$ or greater, were found to be positive by the screening test. Results are summarized below.
+
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>&lt;50%(0-6.25)</td><td rowspan=1 colspan=1>50%-cutoff(6.25-12.5)</td><td rowspan=1 colspan=1>cutoff-150%(12.5-18.75)</td><td rowspan=1 colspan=1>&gt;150%cutoff(&gt;18.75)</td><td rowspan=1 colspan=1>%Agreement</td></tr><tr><td rowspan=1 colspan=1>+</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>11</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>85</td></tr><tr><td rowspan=1 colspan=1>-</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>&gt;99</td></tr></table>
+
+$b$ . Matrix comparison: Not applicable; this device is for use with urine only.
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable.   
+b. Clinical specificity: Not applicable.   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off: Not applicable.
+
+5. Expected values/Reference range: No elicit drugs should be present in urine.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

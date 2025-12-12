@@ -1,0 +1,2903 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K220031
+B Applicant
+Abbott Laboratories
+C Proprietary and Established Names
+Alinity h-series System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.5220 -
+GKZ Class II Automated Differential HE - Hematology
+Cell Counter
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Measurand:
+WBC, NEU, %NEU, LYM, %LYM, MONO, %MONO, EOS, %EOS, BASO, %BASO, IG,
+%IG, RBC, HCT, HGB, MCV, MCH, MCHC, MCHr, RDW, NRBC, NR/W, RETIC, %RETIC,
+IRF, PLT, MPV, %rP (reticulated platelet percent)
+C Type of Test:
+Complete blood count and 6-part white blood cell differential
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+GKZ			Class II	21 CFR 864.5220 -
+Automated Differential
+Cell Counter			HE - Hematology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The Alinity h-series System is an integrated hematology analyzer (Alinity hq) and slide maker
+stainer (Alinity hs) intended for use in screening patient populations found in clinical
+laboratories by qualified health care professionals. The Alinity h series System can be configured
+as:
+• One standalone automated hematology analyzer system
+• A multimodule system that includes at least one Alinity hq analyzer module and may include
+one Alinity hs slide maker stainer module.
+The Alinity hq analyzer provides complete blood count and a 6-part white blood cell differential
+for normal and abnormal cells in capillary and venous whole blood collected in K2EDTA or
+K3EDTA. The Alinity hq analyzer provides quantitative results for the following measurands:
+WBC, NEU, %NEU, LYM, %LYM, MONO, %MONO, EOS, %EOS, BASO, %BASO, IG,
+%IG, RBC, HCT, HGB, MCV, MCH, MCHC, MCHr, RDW, NRBC, NR/W, RETIC, %RETIC,
+IRF, PLT, MPV, %rP.
+The Alinity hq analyzer module is indicated to identify patients with hematologic parameters
+within and outside of established reference ranges.
+Alinity hs slide maker stainer module automates whole blood film preparation and staining and
+stains externally prepared whole blood smears.
+For in-vitro diagnostic use.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+The Alinity h-series System is a multimodule system that consists of different combinations of
+one or more of the following modules: a quantitative multi-parameter automated hematology
+analyzer (Alinity hq) and an automated slide maker stainer (Alinity hs).
+The Alinity hq is a quantitative, multi-parameter, automated hematology analyzer designed for in
+vitro diagnostic use in counting and characterizing blood cells using a multi-angle polarized
+scattered separation (MAPSS) method to detect and count red blood cells (RBC), platelets
+(PLT), and white blood cells (WBC), and to perform WBC differentials (DIFF) in whole blood.
+K220031 - Page 2 of 34
+
+--- Page 3 ---
+There is also an option to choose whether to detect reticulocytes at the same time. The options of
+the selections are:
+• CBC+DIFF: Complete blood count with differential
+• CBC+DIFF+RETIC: Complete blood count with differential and reticulocyte
+The Alinity h‑series of instruments has a scalable design to provide full integration of multiple
+automated hematology analyzers that can include the integration of an automated blood film
+preparation and staining module, all of which are controlled by one user interface. The modules
+are designed to fit together. Each module has an internal conveyor that enables racks of specimen
+tubes to be transported between modules. The system can move racks between modules to
+perform different tests on a given specimen (e.g., make slide smears on the Alinity hs).
+An Alinity h-series system can be configured as follows:
+• Configuration 1: 1 (Alinity hq) + 0 (Alinity hs) = 1+0
+• Configuration 2: 1 (Alinity hq) + 1 (Alinity hs) = 1+1
+• Configuration 3: 2 (Alinity hq) + 0 (Alinity hs) = 2+0
+• Configuration 4: 2 (Alinity hq) + 1 (Alinity hs) = 2+1
+The Laboratory Automation System (LAS) is an optional automated track system that connects
+to the Alinity h-series through an interface module. The LAS, also known as the Total Lab
+Automation (cleared under K121012) is a third-party system used by high-volume laboratories to
+manage specimen tubes. It is an externally-manufactured system designed to interface with the
+Alinity h-series system.
+The following configurations are configurable with the Laboratory Automation System (LAS)
+module:
+• Configuration 1: 1 (Alinity hq) + 0 (Alinity hs) = 1+0
+• Configuration 4: 2 (Alinity hq) + 1 (Alinity hs) = 2+1
+The LAS system consists of a command center (coordinates what tests need to run on which
+instrument for a sample), track (transports specimen tubes from one instrument to another as
+needed), and an interface module (IM).
+B Principle of Operation:
+The Alinity hq module uses optical and fluorescence flow cytometry, hydrodynamic focusing,
+and absorption spectrophotometry technologies to measure, count, and calculate hematological
+parameters in samples.
+• Optical and fluorescence flow cytometry is a process used to count and measure the
+properties of cells or particles as they are carried by fluid through a sensing zone. The
+physical and chemical characteristics of cells or particles are measured via light scatter,
+polarization, and/or fluorescence response from a laser.
+• The Alinity hq uses hydrodynamic focusing to align cells into a single-file passage
+through the sensing zone. A cell-free liquid sheath surrounds the diluted sample and
+moves with it in a laminar flow. The laminar flow prevents any mixing between the
+liquid sheath and the diluted sample.
+K220031 - Page 3 of 34
+
+--- Page 4 ---
+• Absorption spectrophotometry is based on the linear relationship between the amount of
+light that a well-mixed, nonflowing sample absorbs at a particular absorption band and
+the concentration of an absorbing entity in the sample (Beer's Law). To perform
+absorption spectrophotometry, the system uses the hemoglobin dilution as the sample and
+a hemoglobin complex as the light-absorbing entity.
+Flow cytometry technologies are used to analyze whole blood samples for WBC, RBC, NRBC,
+RETIC, and PLT. Absorption spectrophotometry is used to measure the HGB concentration.
+The Alinity hs module creates and stains smears from whole blood samples in addition to
+staining externally prepared smears for morphologic review. The operator selects and may
+configure staining protocols as needed by the laboratory. The Alinity hs module is configured
+with the May-Grünwald-Giemsa stain or the Wright-Giemsa stain.
+C Instrument Description Information:
+1. Instrument Name:
+Alinity h-series System
+2. Specimen Identification:
+The system supports the use of a bar-coded Sample Identification (SID) on a specimen tube
+to provide specimen identification. Specimens are also identified alphanumerically by rack
+and tube position number. A bar code reader on the sample handler robot reads the rack ID
+bar code to identify the rack number. The rack ID bar code also provides information to
+identify the tube position on the rack.
+3. Specimen Sampling and Handling:
+Two methods are used to introduce a specimen to the Alinity hq module. These are closed-
+tube processing and open-tube processing.
+• In the closed-tube processing mode, capped specimen tubes are introduced to the
+Alinity hq module from 10-tube closed-tube racks that are inserted in the loading
+area. The module automatically mixes the specimens and moves the tubes to the
+aspiration position.
+• In the open-tube processing mode, the operator pre-mixes a specimen tube and
+removes the cap. The tube is placed in an open-tube sample rack and is inserted in the
+loading area. The sample handler robot within the Alinity hq module moves the open-
+tube rack that contains the specimen to the open-tube sampling position.
+4. Calibration:
+Calibration of an Alinity hq module must be scheduled to conform to the guidelines that are
+established by regulatory and accrediting agencies.
+Calibration is performed using materials with assigned values that are traceable to standard
+reference methods. It is recommended that the laboratory calibrate using Alinity h‑series
+HemCal, which is a commercial whole blood calibrator.
+K220031 - Page 4 of 34
+
+--- Page 5 ---
+5. Quality Control:
+The Alinity h‑series requires a commercial whole blood control and patient controls to
+monitor system performance.
+Commercial whole blood control - Alinity h-series Control 29P
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Sysmex XN-series
+B Predicate 510(k) Number(s):
+K112605
+C Comparison with Predicate(s):
+Device & Predicate
+K220031 K112605
+Device(s):
+Sysmex® XN-Series (XN-10,
+Device Trade Name Alinity h-series System
+XN-20)
+General Device
+Characteristic
+Similarities
+The Alinity h-series System is The Sysmex XN-10 and XN-20
+an integrated hematology modules are quantitative multi-
+analyzer (Alinity hq) and slide parameter automated
+maker stainer (Alinity hs) hematology analyzers intended
+intended for use in screening for in vitro diagnostic use in
+patient populations found in screening patient populations
+clinical laboratories by qualified found in clinical laboratories.
+health care professionals. The The XN-Series modules
+Alinity h-series System can be classify and enumerate the
+configured as: following parameters for whole
+• One standalone automated blood:
+Intended
+hematology analyzer system WBC, RBC, HGB, HCT,
+Use/Indications For
+• A multimodule system that MCV, MCH, MCHC, PLT,
+Use
+includes at least one Alinity NEUT%/#, LYMPH%/#,
+hq analyzer module and may MONO%/#, EO%/#,
+include one Alinity hs slide BASO%/#, NRBC%/#, IG%/#,
+maker stainer module. RDW-CV, RDW-SD, MPV,
+The Alinity hq analyzer provides RET%/#, IRF, IPF, RET-He
+a complete blood count and a 6- and has a Body Fluid mode for
+part white blood cell differential body fluids.
+for normal and abnormal cells in The Body Fluid mode
+capillary and venous whole enumerates the WBC-BF,
+blood collected in K2EDTA or RBC-BF, MN%/#, PMN%/#
+K3EDTA. The Alinity hq and TC-BF# parameters in
+K220031 - Page 5 of 34
+
+[Table 1 on page 5]
+	Device & Predicate		K220031	K112605
+	Device(s):			
+Device Trade Name			Alinity h-series System	Sysmex® XN-Series (XN-10,
+XN-20)
+	General Device			
+	Characteristic			
+	Similarities			
+Intended
+Use/Indications For
+Use			The Alinity h-series System is
+an integrated hematology
+analyzer (Alinity hq) and slide
+maker stainer (Alinity hs)
+intended for use in screening
+patient populations found in
+clinical laboratories by qualified
+health care professionals. The
+Alinity h-series System can be
+configured as:
+• One standalone automated
+hematology analyzer system
+• A multimodule system that
+includes at least one Alinity
+hq analyzer module and may
+include one Alinity hs slide
+maker stainer module.
+The Alinity hq analyzer provides
+a complete blood count and a 6-
+part white blood cell differential
+for normal and abnormal cells in
+capillary and venous whole
+blood collected in K2EDTA or
+K3EDTA. The Alinity hq	The Sysmex XN-10 and XN-20
+modules are quantitative multi-
+parameter automated
+hematology analyzers intended
+for in vitro diagnostic use in
+screening patient populations
+found in clinical laboratories.
+The XN-Series modules
+classify and enumerate the
+following parameters for whole
+blood:
+WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, PLT,
+NEUT%/#, LYMPH%/#,
+MONO%/#, EO%/#,
+BASO%/#, NRBC%/#, IG%/#,
+RDW-CV, RDW-SD, MPV,
+RET%/#, IRF, IPF, RET-He
+and has a Body Fluid mode for
+body fluids.
+The Body Fluid mode
+enumerates the WBC-BF,
+RBC-BF, MN%/#, PMN%/#
+and TC-BF# parameters in
+
+--- Page 6 ---
+Analyzer provides quantitative cerebrospinal fluids (CSF),
+results for the following serous fluids (peritoneal,
+measurands: pleural) and synovial fluids.
+WBC, NEU, %NEU, LYM, Whole blood should be
+%LYM, MONO, %MONO, collected in K2 or K3EDTA
+EOS, %EOS, BASO, %BASO, anticoagulant and serous and
+IG, %IG, RBC, HCT, HGB, synovial fluids in K2EDTA
+MCV, MCH, MCHC, MCHr, anticoagulant to prevent
+RDW, NRBC, NR/W, RETIC, clotting of fluid. The use of
+%RETIC, IRF, PLT, MPV, %rP anticoagulants with CSF
+specimens is neither required
+The Alinity hq analyzer module
+nor recommended.
+is indicated to identify patients
+with hematologic parameters
+within and outside of established
+reference ranges.
+Alinity hs slide maker stainer
+module automates whole blood
+film preparation and staining
+and stains externally prepared
+whole blood smears.
+For in-vitro diagnostic use.
+Performs hematology analyses
+Performs hematology analyses
+according to flow cytometry
+according to flow cytometry
+method (using Hydro Dynamic
+method (using Hydro Dynamic
+Test Principle Focusing), and absorption
+Focusing) and absorption
+spectrophotometry method
+spectrophotometry method
+(using sodium lauryl sulphate
+(using cyan-methemoglobin).
+(SLS))
+Whole Blood Mode: Whole Blood Mode:
+WBC, RBC, HGB, HCT, WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, PLT, MCV, MCH, MCHC, PLT,
+MPV, IRF, MPV, IRF,
+NEU, %NEU, NEUT%/#,
+LYM, %LYM, LYMPH%/#,
+MONO, %MONO, MONO%/#,
+Parameters 1 EOS, %EOS, EO%/#,
+BASO, %BASO, BASO%/#,
+NRBC, NR/W, NRBC%/#,
+IG, %IG, IG%/#,
+RETIC, %RETIC, RET%/#,
+RDW-CV, RDW-SD, RDW-CV, RDW-SD,
+MCHr, RET-He#,
+%rP IPF
+Specimen Type Whole blood Whole blood
+K220031 - Page 6 of 34
+
+[Table 1 on page 6]
+	Analyzer provides quantitative
+results for the following
+measurands:
+WBC, NEU, %NEU, LYM,
+%LYM, MONO, %MONO,
+EOS, %EOS, BASO, %BASO,
+IG, %IG, RBC, HCT, HGB,
+MCV, MCH, MCHC, MCHr,
+RDW, NRBC, NR/W, RETIC,
+%RETIC, IRF, PLT, MPV, %rP
+The Alinity hq analyzer module
+is indicated to identify patients
+with hematologic parameters
+within and outside of established
+reference ranges.
+Alinity hs slide maker stainer
+module automates whole blood
+film preparation and staining
+and stains externally prepared
+whole blood smears.
+For in-vitro diagnostic use.	cerebrospinal fluids (CSF),
+serous fluids (peritoneal,
+pleural) and synovial fluids.
+Whole blood should be
+collected in K2 or K3EDTA
+anticoagulant and serous and
+synovial fluids in K2EDTA
+anticoagulant to prevent
+clotting of fluid. The use of
+anticoagulants with CSF
+specimens is neither required
+nor recommended.
+Test Principle	Performs hematology analyses
+according to flow cytometry
+method (using Hydro Dynamic
+Focusing) and absorption
+spectrophotometry method
+(using cyan-methemoglobin).	Performs hematology analyses
+according to flow cytometry
+method (using Hydro Dynamic
+Focusing), and absorption
+spectrophotometry method
+(using sodium lauryl sulphate
+(SLS))
+Parameters 1	Whole Blood Mode:
+WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, PLT,
+MPV, IRF,
+NEU, %NEU,
+LYM, %LYM,
+MONO, %MONO,
+EOS, %EOS,
+BASO, %BASO,
+NRBC, NR/W,
+IG, %IG,
+RETIC, %RETIC,
+RDW-CV, RDW-SD,
+MCHr,
+%rP	Whole Blood Mode:
+WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, PLT,
+MPV, IRF,
+NEUT%/#,
+LYMPH%/#,
+MONO%/#,
+EO%/#,
+BASO%/#,
+NRBC%/#,
+IG%/#,
+RET%/#,
+RDW-CV, RDW-SD,
+RET-He#,
+IPF
+Specimen Type	Whole blood	Whole blood
+
+--- Page 7 ---
+Use of Controls/
+Yes Yes
+Calibrators
+Information
+Processing Unit Multi-Module connect Same
+(IPU)
+Sample Aspiration/
+Single aspiration pathway Same
+Fluidic Pathway
+Software/Hardware Rules based rerun / reflex Same
+General Device
+Characteristic
+Differences
+The Alinity h-series System uses
+Sysmex XN-Series uses Hydro
+flow cytometry method with
+Dynamic Focusing (Direct
+Test Principle Hydro Dynamic Focusing to
+Current Detection) for RBC
+analyze whole blood samples
+and PLT.
+including RBC and PLT.
+Body Fluid Mode:
+Parameters No Body Fluid Mode WBC-BF, RBC-BF, MN%/#,
+PMN%/#, TC-BF#
+Body Fluids [i.e., cerebrospinal
+Not Applicable – Body Fluid is fluids (CSF), serous fluids
+Specimen Type
+not included in this submission (peritoneal, pleural) and
+synovial fluids]
+CELLPACKTM DCL (Diluent)
+CELLPACKTM DFL (Diluent)
+LYSERCELL WNR (Lyse)
+LYSERCELL WDF (Lyse)
+• Diluent
+LYSERCELL WPC (Lyse)
+• HGB Reagent
+Reagents FLUOROCELL WNR (Stain)
+• WBC Reagent
+FLUOROCELL WDF (Stain)
+• Retic Reagent
+FLUOROCELL RET (Stain)
+FLUOROCELL PLT (Stain)
+FLUOROCELL WPC (Stain)
+SULFOLYSER® (Lyse)
+Whole Blood:
+Whole Blood:
+• XN-Check - 3 Levels
+• Calibrator – Alinity h-series
+• XN CAL (XN-10/X-20
+HemCal
+Controls/ Calibrator)
+• Control – Alinity h-series
+Calibrators • XN CAL PF (Platelet F
+Control 29P
+Calibrator)
+No Body Fluids Mode on
+• Body Fluid:
+Alinity hq.
+• XN Check BF – 2 Levels
+K220031 - Page 7 of 34
+
+[Table 1 on page 7]
+Use of Controls/
+Calibrators			Yes	Yes
+Information
+Processing Unit
+(IPU)			Multi-Module connect	Same
+Sample Aspiration/
+Fluidic Pathway			Single aspiration pathway	Same
+Software/Hardware			Rules based rerun / reflex	Same
+	General Device			
+	Characteristic			
+	Differences			
+Test Principle			The Alinity h-series System uses
+flow cytometry method with
+Hydro Dynamic Focusing to
+analyze whole blood samples
+including RBC and PLT.	Sysmex XN-Series uses Hydro
+Dynamic Focusing (Direct
+Current Detection) for RBC
+and PLT.
+Parameters			No Body Fluid Mode	Body Fluid Mode:
+WBC-BF, RBC-BF, MN%/#,
+PMN%/#, TC-BF#
+Specimen Type			Not Applicable – Body Fluid is
+not included in this submission	Body Fluids [i.e., cerebrospinal
+fluids (CSF), serous fluids
+(peritoneal, pleural) and
+synovial fluids]
+Reagents			• Diluent
+• HGB Reagent
+• WBC Reagent
+• Retic Reagent	CELLPACKTM DCL (Diluent)
+CELLPACKTM DFL (Diluent)
+LYSERCELL WNR (Lyse)
+LYSERCELL WDF (Lyse)
+LYSERCELL WPC (Lyse)
+FLUOROCELL WNR (Stain)
+FLUOROCELL WDF (Stain)
+FLUOROCELL RET (Stain)
+FLUOROCELL PLT (Stain)
+FLUOROCELL WPC (Stain)
+SULFOLYSER® (Lyse)
+Controls/
+Calibrators			Whole Blood:
+• Calibrator – Alinity h-series
+HemCal
+• Control – Alinity h-series
+Control 29P
+No Body Fluids Mode on
+Alinity hq.	Whole Blood:
+• XN-Check - 3 Levels
+• XN CAL (XN-10/X-20
+Calibrator)
+• XN CAL PF (Platelet F
+Calibrator)
+• Body Fluid:
+• XN Check BF – 2 Levels
+
+--- Page 8 ---
+• CBC+Diff (for RBC, WBC, • RET/PLT
+Measuring
+and PLT) • WNR, WDF, WNR, WPC
+Channels/ Methods
+• CBC+Diff+Retic (for RBC, (Not available in XN-10)
+Selection
+WBC, PLT and Retic) • PLT-F
+Required:
+• Water Purification System
+• System Control Center
+• IPU (Information processing
+Modules Connected Computer (SCC)
+unit)
+to the Analyzer Optional:
+• Pneumatic Unit
+• Laboratory Automation
+System (LAS) for automatic
+sample loading
+USB, CD-R, Internet, and
+Data Transfer Mode USB, Internet, and Intranet
+Intranet
+1 Different names/formats of equivalent parameters are used between the Alinity h-series System and Sysmex®
+XN-series; therefore, equivalent parameters are listed in the same row.
+VI Standards/Guidance Documents Referenced:
+• CLSI EP05-A3, Evaluation of Precision of Quantitative Measurement Procedures; Approved
+Guideline – Third Edition
+• CLSI EP06 2nd Edition, Evaluation of the Linearity of Quantitative Measurement
+Procedures.
+• CLSI EP12-A2, User Protocol for Evaluation of Qualitative Test Performance; Approved
+Guideline – Second Edition.
+• CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline – Second Edition
+• CLSI EP28-A3c, Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory; Approved Guideline – Third Edition
+• CLSI EP35 1st Edition, Assessment of Equivalence or Suitability of Specimen Types for
+Medical Laboratory Measurement Procedures [7-298];
+• CLSI EP37 1st Edition, Supplemental Tables for Interference Testing in Clinical Chemistry
+• CLSI H20-A2, Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard – Second Edition;
+• CLSI H26-A2 Validation, Verification, and Quality Assurance of Automated Hematology
+Analyzers; Proposed Standard - Second Edit [7-210];
+• IEC 60825-1:2014 Edition 3.0, Safety of laser products - Part 1: Equipment Classification
+and Requirements [12-273];
+• ISO 14971 Third Edition 2019-12, Medical devices - Applications of risk management to
+medical devices [5-125];
+• IEC 60601-1-2 Edition 4.0 2014-02, Medical Electrical Equipment- Part 1-2: General
+requirements for basic safety and essential performance - Collateral Standard:
+Electromagnetic disturbances - Requirements and tests [19-8];
+• CLSI LIS01-A2, Standard Specification for Low-Level Protocol to Transfer Messages
+Between Clinical Laboratory Instruments and Computer Systems [13-29];
+K220031 - Page 8 of 34
+
+[Table 1 on page 8]
+Measuring
+Channels/ Methods
+Selection	• CBC+Diff (for RBC, WBC,
+and PLT)
+• CBC+Diff+Retic (for RBC,
+WBC, PLT and Retic)	• RET/PLT
+• WNR, WDF, WNR, WPC
+(Not available in XN-10)
+• PLT-F
+Modules Connected
+to the Analyzer	Required:
+• Water Purification System
+• System Control Center
+Computer (SCC)
+Optional:
+• Laboratory Automation
+System (LAS) for automatic
+sample loading	• IPU (Information processing
+unit)
+• Pneumatic Unit
+Data Transfer Mode	USB, Internet, and Intranet	USB, CD-R, Internet, and
+Intranet
+
+--- Page 9 ---
+• CLSI LIS02-A2, Standard Specification for Transfer Information Between Clinical
+Instruments and Computer Systems; Approved Standard - Second Edition [13-17];
+• ISO 15223-1 Third Edition, Medical devices - Symbols to be used with medical device
+labels, labelling, and information to be supplied [5-117]
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Repeatability
+20-Day Within-Laboratory Precision
+Three levels of Alinity h-series Control 29P (low, normal, and high) were tested in 2
+replicates in CBC+Diff+Retic test selection, 2 times per day (separated by a minimum of 2
+hours), on 21 days, for a total of 84 measurements on one instrument in the 2+1
+configuration using 1 reagent lot and 1 control lot. Between-run SD and %CV, and between-
+day SD and %CV were calculated for each sample by instrument and reagent lot. The within-
+laboratory SD and %CV were estimated using the summation of the within-run, between-run,
+and between-day variance components. The within-laboratory SD or %CV point estimates
+were evaluated against the evaluation criteria. Overall, the Alinity h-series System
+demonstrated acceptable long-term precision.
+Within-
+Within-Run Between-Run Between-Day
+Measurand Level N Mean Laboratory
+SDa %CV SDa %CV SDa %CV SDa %CV
+High 84 15.82 0.165 1.04 0.093 0.59 0.000 0.00 0.190 1.20
+WBC
+Normal 84 6.85 0.078 1.13 0.034 0.49 0.000 0.00 0.085 1.23
+(x103/µL)
+Low 84 2.93 0.061 2.10 0.033 1.13 0.000 0.00 0.070 2.38
+High 84 7.83 0.149 1.90 0.000 0.00 0.043 0.55 0.155 1.98
+NEU
+Normal 84 3.22 0.068 2.12 0.000 0.00 0.000 0.00 0.068 2.12
+(x103/µL)
+Low 84 1.30 0.041 3.17 0.019 1.47 0.000 0.00 0.046 3.49
+High 84 3.45 0.065 1.87 0.035 1.01 0.000 0.00 0.074 2.13
+LYM
+Normal 84 1.78 0.055 3.07 0.000 0.00 0.016 0.89 0.057 3.19
+(x103/µL)
+Low 84 0.89 0.037 4.17 0.000 0.00 0.000 0.00 0.037 4.17
+High 84 1.84 0.092 5.00 0.027 1.47 0.032 1.76 0.101 5.49
+MONO
+Normal 84 0.74 0.045 6.06 0.000 0.00 0.002 0.28 0.045 6.07
+(x103/µL)
+Low 84 0.31 0.024 7.59 0.000 0.00 0.008 2.57 0.025 8.01
+High 84 0.49 0.027 5.40 0.000 0.00 0.007 1.38 0.027 5.57
+EOS
+Normal 84 0.20 0.016 8.36 0.008 3.90 0.000 0.00 0.018 9.23
+(x103/µL)
+Low 84 0.07 0.010 13.78 0.000 0.00 0.003 4.06 0.010 14.37
+High 84 0.15 0.017 11.87 0.006 3.82 0.003 1.87 0.019 12.61
+BASO
+Normal 84 0.06 0.011 18.04 0.000 0.00 0.000 0.76 0.011 18.05
+(x103/µL)
+Low 84 0.03 0.008 26.28 0.000 0.00 0.003 9.41 0.008 27.92
+K220031 - Page 9 of 34
+
+[Table 1 on page 9]
+Measurand	Level	N	Mean	Within-Run		Between-Run		Between-Day		Within-
+Laboratory	
+				SDa	%CV	SDa	%CV	SDa	%CV	SDa	%CV
+WBC
+(x103/µL)	High	84	15.82	0.165	1.04	0.093	0.59	0.000	0.00	0.190	1.20
+	Normal	84	6.85	0.078	1.13	0.034	0.49	0.000	0.00	0.085	1.23
+	Low	84	2.93	0.061	2.10	0.033	1.13	0.000	0.00	0.070	2.38
+NEU
+(x103/µL)	High	84	7.83	0.149	1.90	0.000	0.00	0.043	0.55	0.155	1.98
+	Normal	84	3.22	0.068	2.12	0.000	0.00	0.000	0.00	0.068	2.12
+	Low	84	1.30	0.041	3.17	0.019	1.47	0.000	0.00	0.046	3.49
+LYM
+(x103/µL)	High	84	3.45	0.065	1.87	0.035	1.01	0.000	0.00	0.074	2.13
+	Normal	84	1.78	0.055	3.07	0.000	0.00	0.016	0.89	0.057	3.19
+	Low	84	0.89	0.037	4.17	0.000	0.00	0.000	0.00	0.037	4.17
+MONO
+(x103/µL)	High	84	1.84	0.092	5.00	0.027	1.47	0.032	1.76	0.101	5.49
+	Normal	84	0.74	0.045	6.06	0.000	0.00	0.002	0.28	0.045	6.07
+	Low	84	0.31	0.024	7.59	0.000	0.00	0.008	2.57	0.025	8.01
+EOS
+(x103/µL)	High	84	0.49	0.027	5.40	0.000	0.00	0.007	1.38	0.027	5.57
+	Normal	84	0.20	0.016	8.36	0.008	3.90	0.000	0.00	0.018	9.23
+	Low	84	0.07	0.010	13.78	0.000	0.00	0.003	4.06	0.010	14.37
+BASO
+(x103/µL)	High	84	0.15	0.017	11.87	0.006	3.82	0.003	1.87	0.019	12.61
+	Normal	84	0.06	0.011	18.04	0.000	0.00	0.000	0.76	0.011	18.05
+	Low	84	0.03	0.008	26.28	0.000	0.00	0.003	9.41	0.008	27.92
+
+--- Page 10 ---
+Within-
+Within-Run Between-Run Between-Day
+Measurand Level N Mean Laboratory
+SDa %CV SDa %CV SDa %CV SDa %CV
+High 84 2.05 0.065 3.17 0.029 1.39 0.000 0.00 0.071 3.46
+IG
+Normal 84 0.85 0.036 4.21 0.016 1.88 0.019 2.26 0.044 5.13
+(x103/µL)
+Low 84 0.33 0.020 5.99 0.011 3.21 0.000 0.00 0.022 6.79
+High 84 2.23 0.057 2.58 0.000 0.00 0.005 0.24 0.058 2.59
+NRBC
+Normal 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+(x103/µL)
+Low 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+High 84 5.08 0.037 0.72 0.022 0.44 0.029 0.58 0.052 1.02
+RBC
+Normal 84 4.03 0.014 0.35 0.023 0.56 0.007 0.17 0.027 0.68
+(x106/µL)
+Low 84 2.71 0.012 0.43 0.009 0.32 0.007 0.24 0.016 0.59
+High 84 47.32 0.342 0.72 0.222 0.47 0.451 0.95 0.608 1.29
+HCT
+Normal 84 34.92 0.138 0.39 0.176 0.50 0.237 0.68 0.326 0.93
+(%)
+Low 84 23.23 0.103 0.44 0.070 0.30 0.180 0.78 0.219 0.94
+High 84 93.06 0.179 0.19 0.068 0.07 0.375 0.40 0.421 0.45
+MCV
+Normal 84 86.66 0.148 0.17 0.162 0.19 0.360 0.42 0.422 0.49
+(fL)
+Low 84 85.63 0.086 0.10 0.160 0.19 0.420 0.49 0.458 0.53
+High 84 13.25 0.057 0.43 0.016 0.12 0.000 0.00 0.059 0.45
+RDW
+Normal 84 14.08 0.048 0.34 0.011 0.08 0.034 0.24 0.059 0.42
+(%)
+Low 84 13.90 0.053 0.38 0.033 0.24 0.054 0.39 0.083 0.59
+High 84 15.70 0.058 0.37 0.000 0.00 0.037 0.24 0.069 0.44
+HGB
+Normal 84 11.40 0.055 0.48 0.000 0.00 0.017 0.15 0.057 0.50
+(g/dL)
+Low 84 7.48 0.032 0.42 0.027 0.36 0.005 0.07 0.042 0.56
+High 84 30.89 0.274 0.89 0.073 0.24 0.179 0.58 0.335 1.08
+MCH
+Normal 84 28.30 0.153 0.54 0.129 0.45 0.122 0.43 0.234 0.83
+(pg)
+Low 84 27.58 0.185 0.67 0.092 0.33 0.031 0.11 0.209 0.76
+High 84 33.19 0.274 0.83 0.129 0.39 0.294 0.89 0.422 1.27
+MCHC
+Normal 84 32.66 0.192 0.59 0.140 0.43 0.218 0.67 0.322 0.99
+(g/dL)
+Low 84 32.20 0.221 0.69 0.098 0.30 0.212 0.66 0.321 1.00
+High 84 110.12 3.251 2.95 0.000 0.00 2.029 1.84 3.833 3.48
+RETIC
+Normal 84 143.45 3.200 2.23 1.985 1.38 0.499 0.35 3.798 2.65
+(x103/µL)
+Low 84 214.15 2.999 1.40 0.000 0.00 1.086 0.51 3.190 1.49
+High 84 0.17 0.006 3.65 0.003 1.81 0.004 2.52 0.008 4.79
+IRF Normal 84 0.25 0.008 3.29 0.006 2.55 0.005 1.93 0.012 4.59
+Low 84 0.29 0.008 2.74 0.012 4.04 0.012 4.03 0.018 6.33
+High 84 29.76 0.303 1.02 0.157 0.53 0.281 0.94 0.442 1.48
+MCHr
+Normal 84 24.07 0.213 0.88 0.252 1.05 0.020 0.08 0.330 1.37
+(pg)
+Low 84 19.80 0.140 0.71 0.185 0.93 0.162 0.82 0.282 1.43
+High 84 470.73 8.791 1.87 0.000 0.00 2.555 0.54 9.155 1.94
+PLT
+Normal 84 213.65 3.609 1.69 0.000 0.00 0.000 0.00 3.609 1.69
+(x103/µL)
+Low 84 68.38 1.595 2.33 0.219 0.32 0.000 0.00 1.610 2.35
+High 84 9.63 0.026 0.27 0.012 0.12 0.007 0.07 0.029 0.31
+MPV
+Normal 84 9.58 0.043 0.45 0.000 0.00 0.008 0.08 0.044 0.46
+(fL)
+Low 84 9.67 0.068 0.71 0.000 0.00 0.000 0.00 0.068 0.71
+K220031 - Page 10 of 34
+
+[Table 1 on page 10]
+Measurand	Level	N	Mean	Within-Run		Between-Run		Between-Day		Within-
+Laboratory	
+				SDa	%CV	SDa	%CV	SDa	%CV	SDa	%CV
+IG
+(x103/µL)	High	84	2.05	0.065	3.17	0.029	1.39	0.000	0.00	0.071	3.46
+	Normal	84	0.85	0.036	4.21	0.016	1.88	0.019	2.26	0.044	5.13
+	Low	84	0.33	0.020	5.99	0.011	3.21	0.000	0.00	0.022	6.79
+NRBC
+(x103/µL)	High	84	2.23	0.057	2.58	0.000	0.00	0.005	0.24	0.058	2.59
+	Normal	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+	Low	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+RBC
+(x106/µL)	High	84	5.08	0.037	0.72	0.022	0.44	0.029	0.58	0.052	1.02
+	Normal	84	4.03	0.014	0.35	0.023	0.56	0.007	0.17	0.027	0.68
+	Low	84	2.71	0.012	0.43	0.009	0.32	0.007	0.24	0.016	0.59
+HCT
+(%)	High	84	47.32	0.342	0.72	0.222	0.47	0.451	0.95	0.608	1.29
+	Normal	84	34.92	0.138	0.39	0.176	0.50	0.237	0.68	0.326	0.93
+	Low	84	23.23	0.103	0.44	0.070	0.30	0.180	0.78	0.219	0.94
+MCV
+(fL)	High	84	93.06	0.179	0.19	0.068	0.07	0.375	0.40	0.421	0.45
+	Normal	84	86.66	0.148	0.17	0.162	0.19	0.360	0.42	0.422	0.49
+	Low	84	85.63	0.086	0.10	0.160	0.19	0.420	0.49	0.458	0.53
+RDW
+(%)	High	84	13.25	0.057	0.43	0.016	0.12	0.000	0.00	0.059	0.45
+	Normal	84	14.08	0.048	0.34	0.011	0.08	0.034	0.24	0.059	0.42
+	Low	84	13.90	0.053	0.38	0.033	0.24	0.054	0.39	0.083	0.59
+HGB
+(g/dL)	High	84	15.70	0.058	0.37	0.000	0.00	0.037	0.24	0.069	0.44
+	Normal	84	11.40	0.055	0.48	0.000	0.00	0.017	0.15	0.057	0.50
+	Low	84	7.48	0.032	0.42	0.027	0.36	0.005	0.07	0.042	0.56
+MCH
+(pg)	High	84	30.89	0.274	0.89	0.073	0.24	0.179	0.58	0.335	1.08
+	Normal	84	28.30	0.153	0.54	0.129	0.45	0.122	0.43	0.234	0.83
+	Low	84	27.58	0.185	0.67	0.092	0.33	0.031	0.11	0.209	0.76
+MCHC
+(g/dL)	High	84	33.19	0.274	0.83	0.129	0.39	0.294	0.89	0.422	1.27
+	Normal	84	32.66	0.192	0.59	0.140	0.43	0.218	0.67	0.322	0.99
+	Low	84	32.20	0.221	0.69	0.098	0.30	0.212	0.66	0.321	1.00
+RETIC
+(x103/µL)	High	84	110.12	3.251	2.95	0.000	0.00	2.029	1.84	3.833	3.48
+	Normal	84	143.45	3.200	2.23	1.985	1.38	0.499	0.35	3.798	2.65
+	Low	84	214.15	2.999	1.40	0.000	0.00	1.086	0.51	3.190	1.49
+IRF	High	84	0.17	0.006	3.65	0.003	1.81	0.004	2.52	0.008	4.79
+	Normal	84	0.25	0.008	3.29	0.006	2.55	0.005	1.93	0.012	4.59
+	Low	84	0.29	0.008	2.74	0.012	4.04	0.012	4.03	0.018	6.33
+MCHr
+(pg)	High	84	29.76	0.303	1.02	0.157	0.53	0.281	0.94	0.442	1.48
+	Normal	84	24.07	0.213	0.88	0.252	1.05	0.020	0.08	0.330	1.37
+	Low	84	19.80	0.140	0.71	0.185	0.93	0.162	0.82	0.282	1.43
+PLT
+(x103/µL)	High	84	470.73	8.791	1.87	0.000	0.00	2.555	0.54	9.155	1.94
+	Normal	84	213.65	3.609	1.69	0.000	0.00	0.000	0.00	3.609	1.69
+	Low	84	68.38	1.595	2.33	0.219	0.32	0.000	0.00	1.610	2.35
+MPV
+(fL)	High	84	9.63	0.026	0.27	0.012	0.12	0.007	0.07	0.029	0.31
+	Normal	84	9.58	0.043	0.45	0.000	0.00	0.008	0.08	0.044	0.46
+	Low	84	9.67	0.068	0.71	0.000	0.00	0.000	0.00	0.068	0.71
+
+--- Page 11 ---
+Within-
+Within-Run Between-Run Between-Day
+Measurand Level N Mean Laboratory
+SDa %CV SDa %CV SDa %CV SDa %CV
+High 84 9.10 0.143 1.57 0.000 0.00 0.057 0.63 0.154 1.69
+%rP
+Normal 84 8.91 0.179 2.01 0.000 0.00 0.000 0.00 0.179 2.01
+(%)
+Low 84 9.90 0.464 4.69 0.011 0.11 0.191 1.93 0.502 5.07
+High 84 12.99 0.382 2.94 0.167 1.29 0.000 0.00 0.417 3.21
+%IG
+Normal 84 12.47 0.529 4.24 0.188 1.51 0.257 2.06 0.618 4.95
+(%)
+Low 84 11.27 0.647 5.74 0.267 2.37 0.205 1.82 0.730 6.47
+High 84 14.10 0.366 2.59 0.000 0.00 0.098 0.69 0.379 2.69
+NR/W
+Normal 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+(%)
+Low 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+High 84 2.17 0.066 3.04 0.000 0.00 0.039 1.81 0.077 3.54
+%RETIC
+Normal 84 3.56 0.078 2.20 0.039 1.10 0.029 0.81 0.092 2.59
+(%)
+Low 84 7.89 0.110 1.39 0.000 0.00 0.052 0.65 0.121 1.54
+High 84 49.51 0.805 1.63 0.109 0.22 0.000 0.00 0.813 1.64
+%NEU
+Normal 84 46.98 0.901 1.92 0.107 0.23 0.064 0.14 0.910 1.94
+(%)
+Low 84 44.53 1.087 2.44 0.000 0.00 0.380 0.85 1.152 2.59
+High 84 21.83 0.365 1.67 0.180 0.83 0.064 0.29 0.412 1.89
+%LYM
+Normal 84 26.00 0.668 2.57 0.000 0.00 0.219 0.84 0.703 2.70
+(%)
+Low 84 30.22 1.004 3.32 0.000 0.00 0.000 0.00 1.004 3.32
+High 84 11.65 0.581 4.99 0.108 0.93 0.190 1.63 0.621 5.33
+%MONO
+Normal 84 10.77 0.644 5.97 0.000 0.00 0.000 0.00 0.644 5.97
+(%)
+Low 84 10.61 0.817 7.70 0.000 0.00 0.092 0.87 0.822 7.75
+High 84 3.11 0.165 5.30 0.000 0.00 0.032 1.03 0.168 5.39
+%EOS
+Normal 84 2.86 0.241 8.42 0.105 3.66 0.000 0.00 0.262 9.18
+(%)
+Low 84 2.40 0.323 13.45 0.000 0.00 0.096 4.01 0.337 14.04
+High 84 0.93 0.108 11.63 0.035 3.73 0.023 2.46 0.116 12.46
+%BASO
+Normal 84 0.92 0.167 18.07 0.000 0.00 0.014 1.56 0.167 18.14
+(%)
+Low 84 0.98 0.253 25.93 0.000 0.00 0.094 9.64 0.270 27.66
+a SDs that are 0.000 may not signify that the results were zero but may be due to rounding.
+NA = Not Applicable: %CVs are not meaningful when measurand result approaches zero.
+Precision Study – Normal Samples
+Samples were collected from 20 unique healthy donors in K2EDTA tubes and tested using
+both CBC+Diff and CBC+Diff+Retic test selections. Three Alinity h-series system
+instruments of 1+0 configuration and two Alinity h-series system instruments of 2+1
+configurations were used. Four (4) samples were tested on each of the three (3) instruments
+in the 1+0 configuration and two (2) samples on each of the two instruments in the 2+1
+configuration using both CBC+Diff and CBC+Diff+Retic test selections for a minimum of
+32 required measurements ([4 samples x 3 instruments] + [2 samples x 2 instruments]) x 2
+test selections = 32). Each sample was tested in one (1) run with at least 32 replicates using 1
+reagent lot and 1 control lot. The mean value, SD, %CV, minimum and maximum values,
+and the two-sided 95% Confidence Intervals (CI) around the SD and %CV were calculated
+for each measurand and test selection (CBC+Diff and CBC+Diff+Retic). The maximum
+K220031 - Page 11 of 34
+
+[Table 1 on page 11]
+Measurand	Level	N	Mean	Within-Run		Between-Run		Between-Day		Within-
+Laboratory	
+				SDa	%CV	SDa	%CV	SDa	%CV	SDa	%CV
+%rP
+(%)	High	84	9.10	0.143	1.57	0.000	0.00	0.057	0.63	0.154	1.69
+	Normal	84	8.91	0.179	2.01	0.000	0.00	0.000	0.00	0.179	2.01
+	Low	84	9.90	0.464	4.69	0.011	0.11	0.191	1.93	0.502	5.07
+%IG
+(%)	High	84	12.99	0.382	2.94	0.167	1.29	0.000	0.00	0.417	3.21
+	Normal	84	12.47	0.529	4.24	0.188	1.51	0.257	2.06	0.618	4.95
+	Low	84	11.27	0.647	5.74	0.267	2.37	0.205	1.82	0.730	6.47
+NR/W
+(%)	High	84	14.10	0.366	2.59	0.000	0.00	0.098	0.69	0.379	2.69
+	Normal	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+	Low	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+%RETIC
+(%)	High	84	2.17	0.066	3.04	0.000	0.00	0.039	1.81	0.077	3.54
+	Normal	84	3.56	0.078	2.20	0.039	1.10	0.029	0.81	0.092	2.59
+	Low	84	7.89	0.110	1.39	0.000	0.00	0.052	0.65	0.121	1.54
+%NEU
+(%)	High	84	49.51	0.805	1.63	0.109	0.22	0.000	0.00	0.813	1.64
+	Normal	84	46.98	0.901	1.92	0.107	0.23	0.064	0.14	0.910	1.94
+	Low	84	44.53	1.087	2.44	0.000	0.00	0.380	0.85	1.152	2.59
+%LYM
+(%)	High	84	21.83	0.365	1.67	0.180	0.83	0.064	0.29	0.412	1.89
+	Normal	84	26.00	0.668	2.57	0.000	0.00	0.219	0.84	0.703	2.70
+	Low	84	30.22	1.004	3.32	0.000	0.00	0.000	0.00	1.004	3.32
+%MONO
+(%)	High	84	11.65	0.581	4.99	0.108	0.93	0.190	1.63	0.621	5.33
+	Normal	84	10.77	0.644	5.97	0.000	0.00	0.000	0.00	0.644	5.97
+	Low	84	10.61	0.817	7.70	0.000	0.00	0.092	0.87	0.822	7.75
+%EOS
+(%)	High	84	3.11	0.165	5.30	0.000	0.00	0.032	1.03	0.168	5.39
+	Normal	84	2.86	0.241	8.42	0.105	3.66	0.000	0.00	0.262	9.18
+	Low	84	2.40	0.323	13.45	0.000	0.00	0.096	4.01	0.337	14.04
+%BASO
+(%)	High	84	0.93	0.108	11.63	0.035	3.73	0.023	2.46	0.116	12.46
+	Normal	84	0.92	0.167	18.07	0.000	0.00	0.014	1.56	0.167	18.14
+	Low	84	0.98	0.253	25.93	0.000	0.00	0.094	9.64	0.270	27.66
+
+--- Page 12 ---
+%CV or SD values across donors by range was reported. The SD or %CV point estimates
+were evaluated against the evaluation criteria.
+The maximum SD/%CV reflects the worst or largest imprecision across all the samples for
+each measurand tested for short-term imprecision with whole blood. If the maximum SD or
+%CV meets the acceptance criteria for a given measurand, then all the samples tested for
+short-term imprecision had SDs/%CVs that also meet the acceptance criteria for that
+measurand. All samples were evaluated against all applicable acceptance criteria and met all
+acceptance criteria requirements.
+Max Result Against
+Test Selection Measurand N Result Rangea
+SD/%CV Acceptance
+CBC+Diff WBC (x103/µL) 1 3.72 to 4.06 0.068 SD
+CBC+Diff WBC (x103/µL) 19 3.92 to 10.60 2.71 %CV
+CBC+Diff NEU (x103/µL) 2 1.17 to 1.98 0.052 SD
+CBC+Diff NEU (x103/µL) 18 2.13 to 8.33 3.07 %CV
+CBC+Diff LYM (x103/µL) 13 1.10 to 2.01 0.068 SD
+CBC+Diff LYM (x103/µL) 7 1.94 to 3.05 3.37 %CV
+CBC+Diff MONO (x103/µL) 15 0.22 to 0.60 0.035 SD
+CBC+Diff MONO (x103/µL) 5 0.52 to 0.98 6.28 %CV
+CBC+Diff EOS (x103/µL) 20 0.04 to 0.41 0.025 SD
+CBC+Diff BASO (x103/µL) 20 0.01 to 0.26 0.042 SD
+CBC+Diff RBC (x106/µL) 20 4.46 to 5.64 0.75 %CV
+CBC+Diff HGB (g/dL) 20 13.4 to 16.8 0.78 %CV
+CBC+Diff HCT (%) 8 40.0 to 45.5 0.360 SD
+CBC+Diff HCT (%) 12 44.8 to 50.5 0.73 %CV
+CBC+Diff MCV (fL) 20 86.0 to 99.1 0.30 %CV
+CBC+Diff MCH (pg) 20 27.7 to 32.4 0.99 %CV
+CBC+Diff MCHC (g/dL) 20 31.3 to 34.6 1.02 %CV
+CBC+Diff RDW (%) 20 12.1 to 14.6 0.52 %CV
+CBC+Diff PLT (x103/µL) 20 155.0 to 361.0 2.26 %CV
+CBC+Diff MPV (fL) 8 9.20 to 10.1 0.065 SD
+CBC+Diff MPV (fL) 12 10.3 to 12.4 1.38 %CV
+Max Result against
+Test Selection Measurand N Range Tested
+SD/%CV Acceptance
+CBC+Diff+Retic WBC (x103/µL) 1 3.72 to 4.04 0.085 SD
+CBC+Diff+Retic WBC (x103/µL) 18 3.93 to 10.4 2.22 %CV
+CBC+Diff+Retic NEU (x103/µL) 2 1.19 to 1.98 0.058 SD
+CBC+Diff+Retic NEU (x103/µL) 17 2.11 to 8.17 2.89 %CV
+CBC+Diff+Retic LYM (x103/µL) 13 1.10 to 2.01 0.063 SD
+CBC+Diff+Retic LYM (x103/µL) 6 1.87 to 3.07 3.20 %CV
+CBC+Diff+Retic MONO (x103/µL) 15 0.22 to 0.61 0.039 SD
+CBC+Diff+Retic MONO (x103/µL) 4 0.54 to 0.91 8.99 %CV
+CBC+Diff+Retic EOS (x103/µL) 19 0.03 to 0.38 0.024 SD
+CBC+Diff+Retic BASO (x103/µL) 19 0.01 to 0.24 0.048 SD
+CBC+Diff+Retic RBC (x106/µL) 19 4.44 to 5.63 0.56 %CV
+K220031 - Page 12 of 34
+
+[Table 1 on page 12]
+Test Selection	Measurand	N	Result Rangea	Max
+SD/%CV	Result Against
+Acceptance
+CBC+Diff	WBC (x103/µL)	1	3.72 to 4.06	0.068	SD
+CBC+Diff	WBC (x103/µL)	19	3.92 to 10.60	2.71	%CV
+CBC+Diff	NEU (x103/µL)	2	1.17 to 1.98	0.052	SD
+CBC+Diff	NEU (x103/µL)	18	2.13 to 8.33	3.07	%CV
+CBC+Diff	LYM (x103/µL)	13	1.10 to 2.01	0.068	SD
+CBC+Diff	LYM (x103/µL)	7	1.94 to 3.05	3.37	%CV
+CBC+Diff	MONO (x103/µL)	15	0.22 to 0.60	0.035	SD
+CBC+Diff	MONO (x103/µL)	5	0.52 to 0.98	6.28	%CV
+CBC+Diff	EOS (x103/µL)	20	0.04 to 0.41	0.025	SD
+CBC+Diff	BASO (x103/µL)	20	0.01 to 0.26	0.042	SD
+CBC+Diff	RBC (x106/µL)	20	4.46 to 5.64	0.75	%CV
+CBC+Diff	HGB (g/dL)	20	13.4 to 16.8	0.78	%CV
+CBC+Diff	HCT (%)	8	40.0 to 45.5	0.360	SD
+CBC+Diff	HCT (%)	12	44.8 to 50.5	0.73	%CV
+CBC+Diff	MCV (fL)	20	86.0 to 99.1	0.30	%CV
+CBC+Diff	MCH (pg)	20	27.7 to 32.4	0.99	%CV
+CBC+Diff	MCHC (g/dL)	20	31.3 to 34.6	1.02	%CV
+CBC+Diff	RDW (%)	20	12.1 to 14.6	0.52	%CV
+CBC+Diff	PLT (x103/µL)	20	155.0 to 361.0	2.26	%CV
+CBC+Diff	MPV (fL)	8	9.20 to 10.1	0.065	SD
+CBC+Diff	MPV (fL)	12	10.3 to 12.4	1.38	%CV
+
+[Table 2 on page 12]
+Test Selection	Measurand	N	Range Tested	Max
+SD/%CV	Result against
+Acceptance
+CBC+Diff+Retic	WBC (x103/µL)	1	3.72 to 4.04	0.085	SD
+CBC+Diff+Retic	WBC (x103/µL)	18	3.93 to 10.4	2.22	%CV
+CBC+Diff+Retic	NEU (x103/µL)	2	1.19 to 1.98	0.058	SD
+CBC+Diff+Retic	NEU (x103/µL)	17	2.11 to 8.17	2.89	%CV
+CBC+Diff+Retic	LYM (x103/µL)	13	1.10 to 2.01	0.063	SD
+CBC+Diff+Retic	LYM (x103/µL)	6	1.87 to 3.07	3.20	%CV
+CBC+Diff+Retic	MONO (x103/µL)	15	0.22 to 0.61	0.039	SD
+CBC+Diff+Retic	MONO (x103/µL)	4	0.54 to 0.91	8.99	%CV
+CBC+Diff+Retic	EOS (x103/µL)	19	0.03 to 0.38	0.024	SD
+CBC+Diff+Retic	BASO (x103/µL)	19	0.01 to 0.24	0.048	SD
+CBC+Diff+Retic	RBC (x106/µL)	19	4.44 to 5.63	0.56	%CV
+
+--- Page 13 ---
+Max Result against
+Test Selection Measurand N Range Tested
+SD/%CV Acceptance
+CBC+Diff+Retic HGB (g/dL) 19 12.8 to 16.8 1.05 %CV
+CBC+Diff+Retic HCT (%) 10 39.7 to 45.5 0.285 SD
+CBC+Diff+Retic HCT (%) 9 45.2 to 49.9 0.64 %CV
+CBC+Diff+Retic MCV (fL) 19 85.8 to 99.1 0.36 %CV
+CBC+Diff+Retic MCH (pg) 19 28.3 to 32.6 1.24 %CV
+CBC+Diff+Retic MCHC (g/dL) 19 31.5 to 34.5 1.24 %CV
+CBC+Diff+Retic RDW (%) 19 12.1 to 14.7 0.47 %CV
+CBC+Diff+Retic RETIC (x103/µL) 19 51.0 to 126.0 4.037 SD
+CBC+Diff+Retic IRF 19 0.04 to 0.14 0.012 SD
+CBC+Diff+Retic PLT (x103/µL) 19 159.0 to 367.0 1.74 %CV
+CBC+Diff+Retic MPV (fL) 8 9.21 to 10.0 0.055 SD
+CBC+Diff+Retic MPV (fL) 11 10.3 to 12.4 0.89 %CV
+CBC+Diff+Retic %rP (%) 19 1.04 to 9.33 0.622 SD
+CBC+Diff+Retic MCHr (pg) 19 33.8 to 40.3 2.23 %CV
+a The result ranges may overlap for certain measurands as these reflect the individual replicate values. The
+samples are grouped based on their mean values.
+Repeatability - Pathological Samples and Medical Decision Levels
+Abnormal samples were collected from a minimum of 16 donors per measurand and range. A
+minimum of 4 repeatability samples (2 samples using CBC+Diff mode and 2 samples using
+CBC+Diff+Retic mode) per measurand and range were tested on each of three 1+0 Alinity
+hq analyzers in closed-tube processing mode. A minimum of 4 repeatability samples per
+measurand and range were tested on one 2+1 Alinity h-series System (2 samples using
+CBC+Diff mode on one Alinity hq module and 2 samples using CBC+Diff+Retic mode on
+the other Alinity hq module). Each sample was tested in a minimum of 10 replicates. The
+mean, standard deviation (SD), coefficient of variation (CV), and 95% CI were calculated for
+each parameter. The SD or %CV point estimates were evaluated against the evaluation
+criteria. All results met the predefined acceptance criteria, demonstrating acceptable short-
+term precision when testing pathological samples at medical decision levels. A summary
+table showing the maximum %CV or SD, across samples by range, for applicable
+measurand(s) is presented below.
+Recommended Target Max
+Target Range Measurand N Result Range
+Values SD / %CV
+WBC
+Low 0.06 – 2.00 x103/μL 17 0.06 to 2.01 0.083 SD
+(x103/μL)
+RBC
+Low 0.01 – 3.00 x106/μL 26 1.59 to 3.17 0.025 SD
+(x106/μL)
+HGB
+Low 6.00 – 10.0 g/dL 27 5.42 to 10.4 0.154 SD
+(g/dL)
+PLT
+Low 10.0 – 50.0 x103/μL 20 8.57 to 44.5 2.029 SD
+(x103/μL)
+WBC
+High 50.0 – 400.0 x103/μL 17 41.4 to 209 1.88 %CV
+(x103/μL)
+RBC
+High 6.00 – 8.00 x106/μL 19 5.68 to 7.79 1.46 %CV
+(x106/μL)
+K220031 - Page 13 of 34
+
+[Table 1 on page 13]
+Test Selection	Measurand	N	Range Tested	Max
+SD/%CV	Result against
+Acceptance
+CBC+Diff+Retic	HGB (g/dL)	19	12.8 to 16.8	1.05	%CV
+CBC+Diff+Retic	HCT (%)	10	39.7 to 45.5	0.285	SD
+CBC+Diff+Retic	HCT (%)	9	45.2 to 49.9	0.64	%CV
+CBC+Diff+Retic	MCV (fL)	19	85.8 to 99.1	0.36	%CV
+CBC+Diff+Retic	MCH (pg)	19	28.3 to 32.6	1.24	%CV
+CBC+Diff+Retic	MCHC (g/dL)	19	31.5 to 34.5	1.24	%CV
+CBC+Diff+Retic	RDW (%)	19	12.1 to 14.7	0.47	%CV
+CBC+Diff+Retic	RETIC (x103/µL)	19	51.0 to 126.0	4.037	SD
+CBC+Diff+Retic	IRF	19	0.04 to 0.14	0.012	SD
+CBC+Diff+Retic	PLT (x103/µL)	19	159.0 to 367.0	1.74	%CV
+CBC+Diff+Retic	MPV (fL)	8	9.21 to 10.0	0.055	SD
+CBC+Diff+Retic	MPV (fL)	11	10.3 to 12.4	0.89	%CV
+CBC+Diff+Retic	%rP (%)	19	1.04 to 9.33	0.622	SD
+CBC+Diff+Retic	MCHr (pg)	19	33.8 to 40.3	2.23	%CV
+
+[Table 2 on page 13]
+Target Range	Recommended Target
+Values	Measurand	N	Result Range	Max
+SD / %CV
+Low	0.06 – 2.00 x103/μL	WBC
+(x103/μL)	17	0.06 to 2.01	0.083 SD
+Low	0.01 – 3.00 x106/μL	RBC
+(x106/μL)	26	1.59 to 3.17	0.025 SD
+Low	6.00 – 10.0 g/dL	HGB
+(g/dL)	27	5.42 to 10.4	0.154 SD
+Low	10.0 – 50.0 x103/μL	PLT
+(x103/μL)	20	8.57 to 44.5	2.029 SD
+High	50.0 – 400.0 x103/μL	WBC
+(x103/μL)	17	41.4 to 209	1.88 %CV
+High	6.00 – 8.00 x106/μL	RBC
+(x106/μL)	19	5.68 to 7.79	1.46 %CV
+
+--- Page 14 ---
+Recommended Target Max
+Target Range Measurand N Result Range
+Values SD / %CV
+HGB
+High 15.0 – 25.0 g/dL 18 15.4 to 22.2 1.00 %CV
+(g/dL)
+PLT
+High 500 – 5400 x103/μL 22 470. to 3217 2.05 %CV
+(x103/μL)
+%IG>2.0% and IG
+Pathological 17 0.00 to 0.98 0.149 SD
+WBC>5.00 x103/μL (x103/μL)
+%IG>2.0% and IG
+Pathological 8 0.96 to 7.92 18.79 %CV
+WBC>5.00 x103/μL (x103/μL)
+NR/W>=1% and NRBC
+Pathological 17 0.00 to 0.59 0.148 SD
+NRBC>0.10 x103/μL (x103/μL)
+NR/W>=1% and NRBC
+Pathological 5 0.77 to 6.37 14.76 %CV
+NRBC>0.10 x103/μL (x103/μL)
+NEU
+Low WBC related NA 11 0.00 to 1.56 0.059 SD
+(x103/μL)
+LYM
+Low WBC related NA 11 0.12 to 0.74 0.040 SD
+(x103/μL)
+MONO
+Low WBC related NA 11 0.00 to 0.52 0.032 SD
+(x103/μL)
+EOS
+Low WBC related NA 8 0.00 to 0.18 0.021 SD
+(x103/μL)
+BASO
+Low WBC related NA 19 0.00 to 0.05 0.010 SD
+(x103/μL)
+IG
+Low WBC related NA 8 0.00 to 0.00 0.000 SD
+(x103/μL)
+RBC
+Low RBC/HGB related NA 8 1.42 to 3.61 0.024 SD
+(x106/μL)
+Reproducibility
+The reproducibility study was performed at three clinical sites using a single lot of Alinity h-
+series 29P Control (low, normal, high). Each site used a stand-alone (1+0 configuration)
+Alinity hq analyzer. Each control level was tested for 5 days with three runs per day and two
+replicates per run (one replicate each from the left and right incubation blocks). The within-
+run, between-run, between-day, within-laboratory, between-site, and reproducibility %CV or
+SD for each control level were calculated and presented in the table below. Overall, the
+Alinity h-series System demonstrated acceptable reproducibility for all sites combined using
+3 levels of the Alinity h-series 29P Controls. All results met the predefined acceptance
+criteria.
+Reproducibility Results
+Measuranda Level N Mean Repeatability Between-Run Between-Day La W bo i r t a h t i o n r - y b Between-Site Reproducibilityc
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+Low 84 3.04 0.068 2.22 0.000 0.00 0.028 0.93 0.073 2.41 0.027 0.87 0.078 2.56
+WBC
+Normal 84 7.18 0.138 1.92 0.000 0.00 0.000 0.00 0.138 1.92 0.045 0.63 0.145 2.02
+( x103/µL)
+High 84 16.12 0.185 1.15 0.000 0.00 0.000 0.00 0.185 1.15 0.000 0.00 0.185 1.15
+Low 84 1.40 0.052 3.73 0.014 0.98 0.000 0.00 0.054 3.86 0.034 2.46 0.064 4.58
+NEU
+Normal 84 3.45 0.097 2.80 0.015 0.42 0.000 0.00 0.098 2.83 0.060 1.72 0.115 3.32
+(x103/µL)
+High 84 8.15 0.187 2.29 0.000 0.00 0.000 0.00 0.187 2.29 0.102 1.25 0.213 2.61
+K220031 - Page 14 of 34
+
+[Table 1 on page 14]
+Target Range	Recommended Target
+Values	Measurand	N	Result Range	Max
+SD / %CV
+High	15.0 – 25.0 g/dL	HGB
+(g/dL)	18	15.4 to 22.2	1.00 %CV
+High	500 – 5400 x103/μL	PLT
+(x103/μL)	22	470. to 3217	2.05 %CV
+Pathological	%IG>2.0% and
+WBC>5.00 x103/μL	IG
+(x103/μL)	17	0.00 to 0.98	0.149 SD
+Pathological	%IG>2.0% and
+WBC>5.00 x103/μL	IG
+(x103/μL)	8	0.96 to 7.92	18.79 %CV
+Pathological	NR/W>=1% and
+NRBC>0.10 x103/μL	NRBC
+(x103/μL)	17	0.00 to 0.59	0.148 SD
+Pathological	NR/W>=1% and
+NRBC>0.10 x103/μL	NRBC
+(x103/μL)	5	0.77 to 6.37	14.76 %CV
+Low WBC related	NA	NEU
+(x103/μL)	11	0.00 to 1.56	0.059 SD
+Low WBC related	NA	LYM
+(x103/μL)	11	0.12 to 0.74	0.040 SD
+Low WBC related	NA	MONO
+(x103/μL)	11	0.00 to 0.52	0.032 SD
+Low WBC related	NA	EOS
+(x103/μL)	8	0.00 to 0.18	0.021 SD
+Low WBC related	NA	BASO
+(x103/μL)	19	0.00 to 0.05	0.010 SD
+Low WBC related	NA	IG
+(x103/μL)	8	0.00 to 0.00	0.000 SD
+Low RBC/HGB related	NA	RBC
+(x106/μL)	8	1.42 to 3.61	0.024 SD
+
+[Table 2 on page 14]
+Measuranda	Level	N	Mean	Repeatability		Between-Run		Between-Day		Within-
+Laboratoryb		Between-Site		Reproducibilityc	
+				SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+WBC
+( x103/µL)	Low	84	3.04	0.068	2.22	0.000	0.00	0.028	0.93	0.073	2.41	0.027	0.87	0.078	2.56
+	Normal	84	7.18	0.138	1.92	0.000	0.00	0.000	0.00	0.138	1.92	0.045	0.63	0.145	2.02
+	High	84	16.12	0.185	1.15	0.000	0.00	0.000	0.00	0.185	1.15	0.000	0.00	0.185	1.15
+NEU
+(x103/µL)	Low	84	1.40	0.052	3.73	0.014	0.98	0.000	0.00	0.054	3.86	0.034	2.46	0.064	4.58
+	Normal	84	3.45	0.097	2.80	0.015	0.42	0.000	0.00	0.098	2.83	0.060	1.72	0.115	3.32
+	High	84	8.15	0.187	2.29	0.000	0.00	0.000	0.00	0.187	2.29	0.102	1.25	0.213	2.61
+
+--- Page 15 ---
+Measuranda Level N Mean Repeatability Between-Run Between-Day La W bo i r t a h t i o n r - y b Between-Site Reproducibilityc
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+Low 84 0.88 0.035 4.02 0.000 0.00 0.008 0.93 0.036 4.13 0.012 1.35 0.038 4.34
+LYM
+Normal 84 1.84 0.054 2.92 0.000 0.00 0.000 0.00 0.054 2.92 0.000 0.00 0.054 2.92
+(x103/µL)
+High 84 3.57 0.082 2.29 0.000 0.00 0.000 0.00 0.082 2.29 0.000 0.00 0.082 2.29
+Low 84 0.33 0.024 7.18 0.000 0.00 0.005 1.65 0.024 7.36 0.007 2.15 0.025 7.67
+MONO
+Normal 84 0.80 0.051 6.35 0.000 0.00 0.000 0.00 0.051 6.35 0.000 0.00 0.051 6.35
+(x103/µL)
+High 84 1.84 0.073 4.00 0.047 2.57 0.000 0.00 0.087 4.75 0.000 0.00 0.087 4.75
+Low 84 0.07 0.010 13.91 0.000 0.00 0.002 2.76 0.010 14.18 0.000 0.00 0.010 14.18
+EOS
+Normal 84 0.20 0.014 7.20 0.006 2.77 0.000 0.00 0.015 7.72 0.000 0.00 0.015 7.72
+(x103/µL)
+High 84 0.49 0.025 5.16 0.010 2.13 0.000 0.00 0.027 5.59 0.003 0.55 0.027 5.61
+Low 84 0.03 0.008 24.23 0.005 14.55 0.001 2.04 0.009 28.34 0.000 0.00 0.009 28.34
+BASO
+Normal 84 0.06 0.012 18.37 0.000 0.00 0.000 0.00 0.012 18.37 0.000 0.00 0.012 18.37
+(x103/µL)
+High 84 0.15 0.017 10.71 0.007 4.57 0.000 0.00 0.018 11.64 0.003 2.14 0.018 11.84
+Low 84 0.33 0.024 7.40 0.000 0.00 0.000 0.00 0.024 7.40 0.010 2.96 0.026 7.97
+IG
+Normal 84 0.82 0.047 5.71 0.000 0.00 0.013 1.62 0.049 5.94 0.017 2.06 0.052 6.29
+(x103/µL)
+High 84 1.92 0.079 4.09 0.061 3.16 0.000 0.00 0.099 5.17 0.059 3.08 0.116 6.02
+Low 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+NRBC
+Normal 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+(x103/µL)
+High 84 2.34 0.062 2.64 0.000 0.00 0.000 0.00 0.062 2.64 0.016 0.69 0.064 2.73
+Low 84 2.67 0.018 0.69 0.000 0.00 0.006 0.23 0.019 0.73 0.000 0.00 0.019 0.73
+RBC
+Normal 84 4.13 0.028 0.68 0.000 0.00 0.000 0.00 0.028 0.68 0.019 0.46 0.034 0.82
+(x106/µL)
+High 84 5.16 0.047 0.92 0.000 0.00 0.008 0.15 0.048 0.93 0.085 1.65 0.098 1.90
+Low 84 7.11 0.041 0.57 0.017 0.25 0.000 0.00 0.044 0.62 0.048 0.68 0.065 0.92
+HGB
+Normal 84 11.34 0.066 0.58 0.000 0.00 0.000 0.00 0.066 0.58 0.048 0.42 0.082 0.72
+(g/dL)
+High 84 16.37 0.094 0.57 0.017 0.11 0.020 0.12 0.097 0.60 0.000 0.00 0.097 0.60
+Low 84 22.64 0.179 0.79 0.000 0.00 0.107 0.47 0.209 0.92 0.062 0.27 0.218 0.96
+HCT
+Normal 84 35.88 0.269 0.75 0.000 0.00 0.038 0.11 0.272 0.76 0.244 0.68 0.366 1.02
+(%)
+High 84 49.80 0.468 0.94 0.000 0.00 0.155 0.31 0.493 0.99 0.897 1.80 1.023 2.05
+Low 84 84.68 0.120 0.14 0.185 0.22 0.248 0.29 0.332 0.39 0.320 0.38 0.461 0.54
+MCV
+Normal 84 86.93 0.212 0.24 0.153 0.18 0.173 0.20 0.313 0.36 0.247 0.28 0.399 0.46
+(fL)
+High 84 96.48 0.092 0.10 0.116 0.12 0.270 0.28 0.308 0.32 0.201 0.21 0.368 0.38
+Low 84 26.58 0.231 0.87 0.076 0.29 0.069 0.26 0.253 0.95 0.154 0.58 0.296 1.11
+MCH
+Normal 84 27.48 0.240 0.88 0.000 0.00 0.000 0.00 0.240 0.88 0.041 0.15 0.244 0.89
+(pg)
+High 84 31.72 0.344 1.08 0.000 0.00 0.075 0.24 0.352 1.11 0.495 1.56 0.607 1.92
+Low 84 31.39 0.292 0.93 0.000 0.00 0.154 0.49 0.330 1.05 0.251 0.80 0.415 1.32
+MCHC
+Normal 84 31.61 0.310 0.98 0.000 0.00 0.000 0.00 0.310 0.98 0.150 0.47 0.344 1.09
+(g/dL)
+High 84 32.88 0.363 1.10 0.000 0.00 0.112 0.34 0.380 1.16 0.563 1.71 0.679 2.07
+Low 84 13.26 0.084 0.63 0.000 0.00 0.033 0.25 0.090 0.68 0.670 5.05 0.676 5.10
+RDW
+Normal 84 13.32 0.096 0.72 0.000 0.00 0.021 0.16 0.098 0.74 0.705 5.29 0.711 5.34
+(%)
+High 84 12.37 0.049 0.39 0.031 0.25 0.035 0.29 0.068 0.55 0.621 5.02 0.625 5.05
+Low 84 216.24 3.142 1.45 0.000 0.00 1.132 0.52 3.340 1.54 4.535 2.10 5.632 2.60
+RETIC
+Normal 84 153.55 3.478 2.26 0.805 0.52 1.374 0.89 3.825 2.49 7.441 4.85 8.367 5.45
+(x103/µL)
+High 84 132.30 4.172 3.15 0.000 0.00 0.000 0.00 4.172 3.15 10.734 8.11 11.517 8.71
+K220031 - Page 15 of 34
+
+[Table 1 on page 15]
+Measuranda	Level	N	Mean	Repeatability		Between-Run		Between-Day		Within-
+Laboratoryb		Between-Site		Reproducibilityc	
+				SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+LYM
+(x103/µL)	Low	84	0.88	0.035	4.02	0.000	0.00	0.008	0.93	0.036	4.13	0.012	1.35	0.038	4.34
+	Normal	84	1.84	0.054	2.92	0.000	0.00	0.000	0.00	0.054	2.92	0.000	0.00	0.054	2.92
+	High	84	3.57	0.082	2.29	0.000	0.00	0.000	0.00	0.082	2.29	0.000	0.00	0.082	2.29
+MONO
+(x103/µL)	Low	84	0.33	0.024	7.18	0.000	0.00	0.005	1.65	0.024	7.36	0.007	2.15	0.025	7.67
+	Normal	84	0.80	0.051	6.35	0.000	0.00	0.000	0.00	0.051	6.35	0.000	0.00	0.051	6.35
+	High	84	1.84	0.073	4.00	0.047	2.57	0.000	0.00	0.087	4.75	0.000	0.00	0.087	4.75
+EOS
+(x103/µL)	Low	84	0.07	0.010	13.91	0.000	0.00	0.002	2.76	0.010	14.18	0.000	0.00	0.010	14.18
+	Normal	84	0.20	0.014	7.20	0.006	2.77	0.000	0.00	0.015	7.72	0.000	0.00	0.015	7.72
+	High	84	0.49	0.025	5.16	0.010	2.13	0.000	0.00	0.027	5.59	0.003	0.55	0.027	5.61
+BASO
+(x103/µL)	Low	84	0.03	0.008	24.23	0.005	14.55	0.001	2.04	0.009	28.34	0.000	0.00	0.009	28.34
+	Normal	84	0.06	0.012	18.37	0.000	0.00	0.000	0.00	0.012	18.37	0.000	0.00	0.012	18.37
+	High	84	0.15	0.017	10.71	0.007	4.57	0.000	0.00	0.018	11.64	0.003	2.14	0.018	11.84
+IG
+(x103/µL)	Low	84	0.33	0.024	7.40	0.000	0.00	0.000	0.00	0.024	7.40	0.010	2.96	0.026	7.97
+	Normal	84	0.82	0.047	5.71	0.000	0.00	0.013	1.62	0.049	5.94	0.017	2.06	0.052	6.29
+	High	84	1.92	0.079	4.09	0.061	3.16	0.000	0.00	0.099	5.17	0.059	3.08	0.116	6.02
+NRBC
+(x103/µL)	Low	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+	Normal	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+	High	84	2.34	0.062	2.64	0.000	0.00	0.000	0.00	0.062	2.64	0.016	0.69	0.064	2.73
+RBC
+(x106/µL)	Low	84	2.67	0.018	0.69	0.000	0.00	0.006	0.23	0.019	0.73	0.000	0.00	0.019	0.73
+	Normal	84	4.13	0.028	0.68	0.000	0.00	0.000	0.00	0.028	0.68	0.019	0.46	0.034	0.82
+	High	84	5.16	0.047	0.92	0.000	0.00	0.008	0.15	0.048	0.93	0.085	1.65	0.098	1.90
+HGB
+(g/dL)	Low	84	7.11	0.041	0.57	0.017	0.25	0.000	0.00	0.044	0.62	0.048	0.68	0.065	0.92
+	Normal	84	11.34	0.066	0.58	0.000	0.00	0.000	0.00	0.066	0.58	0.048	0.42	0.082	0.72
+	High	84	16.37	0.094	0.57	0.017	0.11	0.020	0.12	0.097	0.60	0.000	0.00	0.097	0.60
+HCT
+(%)	Low	84	22.64	0.179	0.79	0.000	0.00	0.107	0.47	0.209	0.92	0.062	0.27	0.218	0.96
+	Normal	84	35.88	0.269	0.75	0.000	0.00	0.038	0.11	0.272	0.76	0.244	0.68	0.366	1.02
+	High	84	49.80	0.468	0.94	0.000	0.00	0.155	0.31	0.493	0.99	0.897	1.80	1.023	2.05
+MCV
+(fL)	Low	84	84.68	0.120	0.14	0.185	0.22	0.248	0.29	0.332	0.39	0.320	0.38	0.461	0.54
+	Normal	84	86.93	0.212	0.24	0.153	0.18	0.173	0.20	0.313	0.36	0.247	0.28	0.399	0.46
+	High	84	96.48	0.092	0.10	0.116	0.12	0.270	0.28	0.308	0.32	0.201	0.21	0.368	0.38
+MCH
+(pg)	Low	84	26.58	0.231	0.87	0.076	0.29	0.069	0.26	0.253	0.95	0.154	0.58	0.296	1.11
+	Normal	84	27.48	0.240	0.88	0.000	0.00	0.000	0.00	0.240	0.88	0.041	0.15	0.244	0.89
+	High	84	31.72	0.344	1.08	0.000	0.00	0.075	0.24	0.352	1.11	0.495	1.56	0.607	1.92
+MCHC
+(g/dL)	Low	84	31.39	0.292	0.93	0.000	0.00	0.154	0.49	0.330	1.05	0.251	0.80	0.415	1.32
+	Normal	84	31.61	0.310	0.98	0.000	0.00	0.000	0.00	0.310	0.98	0.150	0.47	0.344	1.09
+	High	84	32.88	0.363	1.10	0.000	0.00	0.112	0.34	0.380	1.16	0.563	1.71	0.679	2.07
+RDW
+(%)	Low	84	13.26	0.084	0.63	0.000	0.00	0.033	0.25	0.090	0.68	0.670	5.05	0.676	5.10
+	Normal	84	13.32	0.096	0.72	0.000	0.00	0.021	0.16	0.098	0.74	0.705	5.29	0.711	5.34
+	High	84	12.37	0.049	0.39	0.031	0.25	0.035	0.29	0.068	0.55	0.621	5.02	0.625	5.05
+RETIC
+(x103/µL)	Low	84	216.24	3.142	1.45	0.000	0.00	1.132	0.52	3.340	1.54	4.535	2.10	5.632	2.60
+	Normal	84	153.55	3.478	2.26	0.805	0.52	1.374	0.89	3.825	2.49	7.441	4.85	8.367	5.45
+	High	84	132.30	4.172	3.15	0.000	0.00	0.000	0.00	4.172	3.15	10.734	8.11	11.517	8.71
+
+--- Page 16 ---
+Measuranda Level N Mean Repeatability Between-Run Between-Day La W bo i r t a h t i o n r - y b Between-Site Reproducibilityc
+SD %CV SD %CV SD %CV SD %CV SD %CV SD %CV
+Low 84 0.33 0.011 3.30 0.000 0.00 0.008 2.52 0.014 4.15 0.050 15.31 0.052 15.86
+IRF Normal 84 0.27 0.011 4.23 0.000 0.00 0.005 2.02 0.013 4.69 0.028 10.30 0.031 11.32
+High 84 0.19 0.009 4.56 0.003 1.48 0.000 0.00 0.009 4.80 0.004 2.28 0.010 5.31
+Low 84 73.78 1.977 2.68 0.000 0.00 0.508 0.69 2.041 2.77 1.317 1.79 2.429 3.29
+PLT
+(x103/µL) Normal 84 225.19 3.454 1.53 1.380 0.61 0.216 0.10 3.726 1.65 1.257 0.56 3.932 1.75
+High 84 478.12 7.653 1.60 0.000 0.00 2.889 0.60 8.180 1.71 3.997 0.84 9.105 1.90
+Low 84 9.55 0.070 0.73 0.000 0.00 0.000 0.00 0.070 0.73 0.022 0.23 0.073 0.77
+MPV
+Normal 84 9.59 0.041 0.43 0.000 0.00 0.008 0.08 0.042 0.44 0.022 0.23 0.047 0.49
+(fL)
+High 84 9.60 0.031 0.32 0.021 0.22 0.000 0.00 0.037 0.39 0.005 0.05 0.038 0.39
+Low 84 9.77 0.439 4.49 0.000 0.00 0.030 0.31 0.440 4.50 0.000 0.00 0.440 4.50
+%rP
+Normal 84 8.82 0.140 1.59 0.095 1.08 0.017 0.20 0.170 1.93 0.000 0.00 0.170 1.93
+(%)
+High 84 9.00 0.105 1.16 0.000 0.00 0.055 0.62 0.119 1.32 0.000 0.00 0.119 1.32
+Low 84 21.16 0.133 0.63 0.169 0.80 0.147 0.69 0.260 1.23 0.780 3.69 0.823 3.89
+MCHr
+Normal 84 25.13 0.180 0.71 0.222 0.88 0.107 0.43 0.305 1.21 0.788 3.14 0.845 3.36
+(pg)
+High 84 32.40 0.360 1.11 0.140 0.43 0.000 0.00 0.387 1.19 1.416 4.37 1.467 4.53
+Low 84 45.99 1.386 3.01 0.000 0.00 0.000 0.00 1.386 3.01 0.629 1.37 1.522 3.31
+%NEU
+Normal 84 48.12 0.865 1.80 0.461 0.96 0.000 0.00 0.980 2.04 0.491 1.02 1.096 2.28
+(%)
+High 84 50.56 0.929 1.84 0.000 0.00 0.000 0.00 0.929 1.84 0.573 1.13 1.091 2.16
+Low 84 28.97 0.915 3.16 0.000 0.00 0.000 0.00 0.915 3.16 0.000 0.00 0.915 3.16
+%LYM
+Normal 84 25.58 0.627 2.45 0.000 0.00 0.000 0.00 0.627 2.45 0.161 0.63 0.647 2.53
+(%)
+High 84 22.15 0.453 2.04 0.000 0.00 0.000 0.00 0.453 2.04 0.046 0.21 0.455 2.05
+Low 84 10.79 0.755 7.00 0.000 0.00 0.115 1.06 0.764 7.08 0.345 3.19 0.838 7.77
+%MONO
+Normal 84 11.16 0.662 5.93 0.228 2.04 0.061 0.55 0.703 6.30 0.000 0.00 0.703 6.30
+(%)
+High 84 11.40 0.448 3.93 0.315 2.76 0.000 0.00 0.548 4.80 0.052 0.46 0.550 4.82
+Low 84 2.43 0.332 13.68 0.000 0.00 0.047 1.92 0.335 13.81 0.000 0.00 0.335 13.81
+%EOS
+Normal 84 2.78 0.191 6.87 0.077 2.77 0.000 0.00 0.206 7.41 0.000 0.00 0.206 7.41
+(%)
+High 84 3.02 0.142 4.72 0.078 2.60 0.000 0.00 0.162 5.39 0.026 0.86 0.165 5.46
+Low 84 1.04 0.251 24.03 0.154 14.79 0.032 3.03 0.296 28.38 0.000 0.00 0.296 28.38
+%BASO
+Normal 84 0.90 0.164 18.32 0.000 0.00 0.000 0.00 0.164 18.32 0.000 0.00 0.164 18.32
+(%)
+High 84 0.96 0.100 10.39 0.049 5.09 0.000 0.00 0.111 11.57 0.020 2.06 0.113 11.75
+Low 84 10.78 0.780 7.24 0.000 0.00 0.000 0.00 0.780 7.24 0.450 4.17 0.900 8.35
+%IG
+Normal 84 11.46 0.572 4.99 0.175 1.53 0.078 0.68 0.603 5.26 0.322 2.81 0.684 5.97
+(%)
+High 84 11.92 0.465 3.90 0.378 3.17 0.000 0.00 0.599 5.03 0.379 3.18 0.709 5.95
+Low 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+NR/W Normal 84 0.00 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA 0.000 NA
+High 84 14.53 0.384 2.64 0.000 0.00 0.035 0.24 0.385 2.65 0.093 0.64 0.396 2.73
+Low 84 8.09 0.120 1.49 0.000 0.00 0.000 0.00 0.120 1.49 0.173 2.14 0.211 2.60
+%RETIC
+Normal 84 3.72 0.078 2.10 0.027 0.73 0.026 0.70 0.087 2.33 0.198 5.32 0.216 5.81
+(%)
+High 84 2.57 0.084 3.28 0.000 0.00 0.000 0.00 0.084 3.28 0.254 9.90 0.268 10.43
+NA=Not Applicable: %CVs are not meaningful when measurand result approaches zero
+a Each measurand level was evaluated based on SD for control level results below or equal to a threshold or based on %CV
+for control level results above a threshold
+b Within-Laboratory variability contains repeatability, between-run, and between-day variance components.
+K220031 - Page 16 of 34
+
+[Table 1 on page 16]
+Measuranda	Level	N	Mean	Repeatability		Between-Run		Between-Day		Within-
+Laboratoryb		Between-Site		Reproducibilityc	
+				SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV	SD	%CV
+IRF	Low	84	0.33	0.011	3.30	0.000	0.00	0.008	2.52	0.014	4.15	0.050	15.31	0.052	15.86
+	Normal	84	0.27	0.011	4.23	0.000	0.00	0.005	2.02	0.013	4.69	0.028	10.30	0.031	11.32
+	High	84	0.19	0.009	4.56	0.003	1.48	0.000	0.00	0.009	4.80	0.004	2.28	0.010	5.31
+PLT
+(x103/µL)	Low	84	73.78	1.977	2.68	0.000	0.00	0.508	0.69	2.041	2.77	1.317	1.79	2.429	3.29
+	Normal	84	225.19	3.454	1.53	1.380	0.61	0.216	0.10	3.726	1.65	1.257	0.56	3.932	1.75
+	High	84	478.12	7.653	1.60	0.000	0.00	2.889	0.60	8.180	1.71	3.997	0.84	9.105	1.90
+MPV
+(fL)	Low	84	9.55	0.070	0.73	0.000	0.00	0.000	0.00	0.070	0.73	0.022	0.23	0.073	0.77
+	Normal	84	9.59	0.041	0.43	0.000	0.00	0.008	0.08	0.042	0.44	0.022	0.23	0.047	0.49
+	High	84	9.60	0.031	0.32	0.021	0.22	0.000	0.00	0.037	0.39	0.005	0.05	0.038	0.39
+%rP
+(%)	Low	84	9.77	0.439	4.49	0.000	0.00	0.030	0.31	0.440	4.50	0.000	0.00	0.440	4.50
+	Normal	84	8.82	0.140	1.59	0.095	1.08	0.017	0.20	0.170	1.93	0.000	0.00	0.170	1.93
+	High	84	9.00	0.105	1.16	0.000	0.00	0.055	0.62	0.119	1.32	0.000	0.00	0.119	1.32
+MCHr
+(pg)	Low	84	21.16	0.133	0.63	0.169	0.80	0.147	0.69	0.260	1.23	0.780	3.69	0.823	3.89
+	Normal	84	25.13	0.180	0.71	0.222	0.88	0.107	0.43	0.305	1.21	0.788	3.14	0.845	3.36
+	High	84	32.40	0.360	1.11	0.140	0.43	0.000	0.00	0.387	1.19	1.416	4.37	1.467	4.53
+%NEU
+(%)	Low	84	45.99	1.386	3.01	0.000	0.00	0.000	0.00	1.386	3.01	0.629	1.37	1.522	3.31
+	Normal	84	48.12	0.865	1.80	0.461	0.96	0.000	0.00	0.980	2.04	0.491	1.02	1.096	2.28
+	High	84	50.56	0.929	1.84	0.000	0.00	0.000	0.00	0.929	1.84	0.573	1.13	1.091	2.16
+%LYM
+(%)	Low	84	28.97	0.915	3.16	0.000	0.00	0.000	0.00	0.915	3.16	0.000	0.00	0.915	3.16
+	Normal	84	25.58	0.627	2.45	0.000	0.00	0.000	0.00	0.627	2.45	0.161	0.63	0.647	2.53
+	High	84	22.15	0.453	2.04	0.000	0.00	0.000	0.00	0.453	2.04	0.046	0.21	0.455	2.05
+%MONO
+(%)	Low	84	10.79	0.755	7.00	0.000	0.00	0.115	1.06	0.764	7.08	0.345	3.19	0.838	7.77
+	Normal	84	11.16	0.662	5.93	0.228	2.04	0.061	0.55	0.703	6.30	0.000	0.00	0.703	6.30
+	High	84	11.40	0.448	3.93	0.315	2.76	0.000	0.00	0.548	4.80	0.052	0.46	0.550	4.82
+%EOS
+(%)	Low	84	2.43	0.332	13.68	0.000	0.00	0.047	1.92	0.335	13.81	0.000	0.00	0.335	13.81
+	Normal	84	2.78	0.191	6.87	0.077	2.77	0.000	0.00	0.206	7.41	0.000	0.00	0.206	7.41
+	High	84	3.02	0.142	4.72	0.078	2.60	0.000	0.00	0.162	5.39	0.026	0.86	0.165	5.46
+%BASO
+(%)	Low	84	1.04	0.251	24.03	0.154	14.79	0.032	3.03	0.296	28.38	0.000	0.00	0.296	28.38
+	Normal	84	0.90	0.164	18.32	0.000	0.00	0.000	0.00	0.164	18.32	0.000	0.00	0.164	18.32
+	High	84	0.96	0.100	10.39	0.049	5.09	0.000	0.00	0.111	11.57	0.020	2.06	0.113	11.75
+%IG
+(%)	Low	84	10.78	0.780	7.24	0.000	0.00	0.000	0.00	0.780	7.24	0.450	4.17	0.900	8.35
+	Normal	84	11.46	0.572	4.99	0.175	1.53	0.078	0.68	0.603	5.26	0.322	2.81	0.684	5.97
+	High	84	11.92	0.465	3.90	0.378	3.17	0.000	0.00	0.599	5.03	0.379	3.18	0.709	5.95
+NR/W	Low	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+	Normal	84	0.00	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA	0.000	NA
+	High	84	14.53	0.384	2.64	0.000	0.00	0.035	0.24	0.385	2.65	0.093	0.64	0.396	2.73
+%RETIC
+(%)	Low	84	8.09	0.120	1.49	0.000	0.00	0.000	0.00	0.120	1.49	0.173	2.14	0.211	2.60
+	Normal	84	3.72	0.078	2.10	0.027	0.73	0.026	0.70	0.087	2.33	0.198	5.32	0.216	5.81
+	High	84	2.57	0.084	3.28	0.000	0.00	0.000	0.00	0.084	3.28	0.254	9.90	0.268	10.43
+
+--- Page 17 ---
+c Reproducibility contains repeatability, between-run, between-day, and between-device variance components
+2. Linearity:
+Linearity for RBC, HGB, and NRBC was determined using whole blood samples that
+span the analytical measuring interval of each measurand. Linearity for WBC, PLT,
+and RETIC was determined using commercially available linearity kits. A minimum of
+9 levels were prepared for each measurand and tested in a minimum of 4 replicates on
+3 instruments using 1 reagent lot.
+Results are presented in the table below. All results met the predefined acceptance
+criteria and were determined to be acceptable.
+Measurand Linear Range
+6
+RBC 0.00 – 8.08 x 10 /µL
+HGB 0.04 – 24.14 g/dL
+3
+nRBC 0.00 – 26.10 x 10 /µL
+3
+WBC 0.00 – 449 x 10 /µL
+3
+PLT 0.06 – 5325 x 10 /µL
+3
+RETIC 0.05 – 644 x 10 /µL
+3. Analytical Specificity/Interference:
+The susceptibility of the Alinity h-series System to interference in the presence of
+hemoglobin, triglycerides, bilirubin, cholesterol, elevated WBCs, elevated RBCs, elevated
+PLTs, and microcytic RBCs was tested in venous samples collected in K2EDTA tubes.
+Hemoglobin, Triglycerides, Bilirubin, and Cholesterol
+For the Hemoglobin, Triglycerides, Bilirubin, and Cholesterol studies, two interferent levels
+were tested with samples at the normal measurand levels and at the low measurand levels
+listed in the table below.
+Measurand Normal Level Low Level
+WBC (x103/µL) 3.54 – 9.06 ≤ 3.00
+RBC (x106/µL) 4.00 – 5.60 ≤ 3.00
+PLT (x103/µL) 165 – 415 ≤ 150
+MCV (fL) 80 – 96*
+RETIC (x103/µL) 45 – 150
+* The MCV measurand is based on the size of the cells rather than the
+concentration and therefore, the normal and low levels are the same.
+Each sample was tested in a minimum of 10 replicates in CBC+Diff+Retic test selection in
+closed tube processing mode. The following measurands were evaluated for each potential
+interferent:
+K220031 - Page 17 of 34
+
+[Table 1 on page 17]
+Measurand	Linear Range
+RBC	6
+0.00 – 8.08 x 10 /µL
+HGB	0.04 – 24.14 g/dL
+nRBC	3
+0.00 – 26.10 x 10 /µL
+WBC	3
+0.00 – 449 x 10 /µL
+PLT	3
+0.06 – 5325 x 10 /µL
+RETIC	3
+0.05 – 644 x 10 /µL
+
+[Table 2 on page 17]
+Measurand	Normal Level	Low Level
+WBC (x103/µL)	3.54 – 9.06	≤ 3.00
+RBC (x106/µL)	4.00 – 5.60	≤ 3.00
+PLT (x103/µL)	165 – 415	≤ 150
+MCV (fL)	80 – 96*	
+RETIC (x103/µL)	45 – 150	
+
+--- Page 18 ---
+Measurands Potential Interferent
+WBC, RBC, HGB, MCV, PLT, Retic Bilirubin, Conjugated
+WBC, RBC, HGB, MCV, PLT, Retic Bilirubin, Unconjugated
+WBC, RBC, HGB, MCV, PLT, Retic Cholesterol
+WBC, RBC, PLT, MCV, Retic Hemoglobin
+WBC, RBC, HGB, MCV, Retic Triglycerides
+The Alinity h-series System was considered not susceptible to interference from bilirubin
+(conjugated and unconjugated), cholesterol, hemoglobin, and triglycerides, if the absolute
+difference or % difference criteria were met for each measurand.
+Elevated WBC, RBC, and PLT
+A study was conducted to evaluate the susceptibility of the Alinity h-series System to
+interference from elevated WBC, RBC, and PLT measurands in native whole blood
+specimens. This study utilized a subset of samples tested in the method comparison study,
+where unique, native whole blood specimens with high WBCs (>30 x 103/μL & ≤100 x
+103/μL), high RBCs (> 7.6 x 106/μL), and/or high PLTs (>1000 x 103/μL) collected in
+K2EDTA tubes were identified for interference analysis. A minimum of 10 specimens were
+evaluated per interferent.
+The Alinity h-series System results for WBC, RBC, PLT, MPV, MCV, and HGB were
+considered not susceptible to interference from high WBCs, high RBCs, and high PLTs if the
+mean difference or mean % difference values for each measurand were within the total
+allowable error limits. The total allowable error was used for this analysis because the study
+compares the Alinity h-series System and another method (Sysmex XN-10) in specimens
+with the interfering condition. Overall, the Alinity h-series System demonstrated no
+interference in measuring WBC, RBC, PLT, MCV, and HGB from elevated WBC, RBC, and
+PLT measurands in native whole blood specimens.
+PLT with Microcytic RBCs
+A study was conducted to evaluate the susceptibility of the Alinity h-series System to
+interference from microcytic RBCs to the PLT measurand in native whole blood specimens
+with MCV of ≤ 70 fL. This study utilized a subset of samples tested in the method
+comparison study, where unique, native whole blood specimens with MCV of ≤ 70 fL
+collected in K2EDTA tubes were identified for interference analysis. A minimum of 10
+specimens were evaluated per interferent.
+This study utilizes specimens with elevated MCV measurand collected in the method
+comparison study. Therefore, the total allowable error was used for this analysis because this
+study compares the Alinity h-series System and another method (Sysmex XN-10) in
+specimens with the interfering condition. For each sample, the difference or % difference
+between the Sysmex XN-10 and Alinity h-series System result were compared to the pre-
+determined total allowable error limits.
+K220031 - Page 18 of 34
+
+[Table 1 on page 18]
+Measurands	Potential Interferent
+WBC, RBC, HGB, MCV, PLT, Retic	Bilirubin, Conjugated
+WBC, RBC, HGB, MCV, PLT, Retic	Bilirubin, Unconjugated
+WBC, RBC, HGB, MCV, PLT, Retic	Cholesterol
+WBC, RBC, PLT, MCV, Retic	Hemoglobin
+WBC, RBC, HGB, MCV, Retic	Triglycerides
+
+--- Page 19 ---
+The Alinity h-series System was considered not susceptible to interference from microcytic
+RBC if the mean difference was within the total allowable error limits. Overall, the Alinity h-
+series System demonstrated no interference from microcytic RBCs for the PLT measurand in
+native whole blood specimens with MCV of ≤ 70 fL.
+The results of the interference studies met the predefined acceptance criteria and are
+summarized below.
+Interferent Level Conclusion
+There was no significant hemolysis interference up to a free HGB
+Hemoglobin 1.0 g/dL concentration of 1.0 g/dL for the WBC, RBC, MCV, PLT, and Retic
+measurands.
+There was no significant triglyceride interference up to a concentration of
+1.15 g/dL
+1.15 g/dL for the WBC, RBC, HGB, MCV, and Retic measurands.
+Triglycerides
+There was no significant triglycerides interference up to a concentration
+0.63 g/dL
+of 0.63 g/dL for the PLT measurand.
+There was no significant unconjugated bilirubin interference up to a
+0.080 g/dL concentration of 0.080 g/dL for the WBC, RBC, HGB, PLT, and Retic
+Bilirubin -
+measurands.
+unconjugated
+There was no significant Bilirubin (unconjugated) interference up to a
+0.040 g/dL
+concentration of 0.040 g/dL for the MCV measurand.
+There was no significant conjugated bilirubin interference up to a
+Bilirubin -
+0.080 g/dL concentration of 0.080 g/dL for the WBC, RBC, HGB, MCV, PLT, and
+conjugated
+Retic measurands.
+There was no significant WBC interference up to a concentration of 99.0
+Elevated WBCs 99.0 x 103 cells/μL
+x 103 cells/μL for the RBC, PLT, HGB, and MPV measurands.
+There was no interference in measuring WBC, RBC, PLT, MCV, and HGB from RBC levels
+Elevated RBCs
+across the measuring range.
+There was no significant PLT interference up to a concentration of 2840
+Elevated PLTs 2840 x 103 cells/μL
+x 103 cells/μL for the WBC, RBC, HGB, and MPV measurands.
+Microcytosis There was no significant interference from microcytic RBCs for the PLT
+Microcytic RBCs
+(MCV < 57 fL) measurand in native whole blood specimens with MCV of ≤ 70 fL.
+4. Reportable Range:
+The reportable range was determined by the following studies:
+o HCT, MCV, MPV, and %R: The upper and lower limits were determined by the
+method comparison study for the HCT, MCV, MPV, and %R measurands.
+o RETIC and NRBC: The upper and lower limits were determined by the linearity
+studies for the RETIC, and NRBC measurands.
+o WBC, RBC, HGB, and PLT:
+▪ The upper limits were determined by the linearity studies for the WBC, RBC,
+HGB, and PLT measurands.
+▪ The lower limits were determined by the LoQ studies for the WBC, RBC,
+HGB, and PLT measurands.
+The resulting reportable range of each measurand is provided in Table below.
+K220031 - Page 19 of 34
+
+[Table 1 on page 19]
+Interferent	Level	Conclusion
+Hemoglobin	1.0 g/dL	There was no significant hemolysis interference up to a free HGB
+concentration of 1.0 g/dL for the WBC, RBC, MCV, PLT, and Retic
+measurands.
+Triglycerides	1.15 g/dL	There was no significant triglyceride interference up to a concentration of
+1.15 g/dL for the WBC, RBC, HGB, MCV, and Retic measurands.
+	0.63 g/dL	There was no significant triglycerides interference up to a concentration
+of 0.63 g/dL for the PLT measurand.
+Bilirubin -
+unconjugated	0.080 g/dL	There was no significant unconjugated bilirubin interference up to a
+concentration of 0.080 g/dL for the WBC, RBC, HGB, PLT, and Retic
+measurands.
+	0.040 g/dL	There was no significant Bilirubin (unconjugated) interference up to a
+concentration of 0.040 g/dL for the MCV measurand.
+Bilirubin -
+conjugated	0.080 g/dL	There was no significant conjugated bilirubin interference up to a
+concentration of 0.080 g/dL for the WBC, RBC, HGB, MCV, PLT, and
+Retic measurands.
+Elevated WBCs	99.0 x 103 cells/μL	There was no significant WBC interference up to a concentration of 99.0
+x 103 cells/μL for the RBC, PLT, HGB, and MPV measurands.
+Elevated RBCs	There was no interference in measuring WBC, RBC, PLT, MCV, and HGB from RBC levels
+across the measuring range.	
+Elevated PLTs	2840 x 103 cells/μL	There was no significant PLT interference up to a concentration of 2840
+x 103 cells/μL for the WBC, RBC, HGB, and MPV measurands.
+Microcytic RBCs	Microcytosis
+(MCV < 57 fL)	There was no significant interference from microcytic RBCs for the PLT
+measurand in native whole blood specimens with MCV of ≤ 70 fL.
+
+--- Page 20 ---
+Alinity h-Series System Reportable Range
+Parameter Analytical Measuring Range
+WBC (0.04 to 447) x 103/μL
+RBC (0.01 to 8.08) x 106/μL
+HCT 4.92% to 86.0%
+MCV 51.4 fL to 131 fL
+HGB 0.15 g/dL to 24.1 g/dL
+RETIC (0.05 to 644) x 103/μL
+%R 0.12% to 20.8%
+IRF 0.00 to 0.70%
+NRBC (0.00 to 20.0) x 103/μL
+PLT (0.46 to 5325) x 103/µL
+MPV 8.04 fL to 13.3 fL
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+Specimen Stability
+Sample stability studies were conducted to evaluate the stability of specimens, venous and
+capillary whole blood samples collected in K2EDTA or K3EDTA, when stored under
+various conditions (e.g. room temperature and refrigerated).
+The results from these studies were used to support the information provided in the system
+labeling for the Alinity h-series system when venous and capillary whole blood specimens
+collected in either K2EDTA or K2EDTA blood collection tubes are stored for either of the
+following:
+• Up to 48 hours at refrigerated temperature (2 to 8°C)
+• Up to 24 hours at controlled room temperature (18 to 26°C)
+Refrigerated K2EDTA Venous and Capillary Whole Blood Specimen Stability
+A total of 14 unique native venous whole blood specimens from apparently healthy donors
+and 30 unique native capillary whole blood specimens from apparently healthy donors were
+collected in K2EDTA blood collection tubes. The samples were tested to evaluate the below-
+mentioned conditions and time points in this study.
+Time Points
+Condition
+(Time from Specimen Collection)
+Baseline ≥ 20 minutes to < 4 Hours
+(Control Condition)
+2 to 8°C ≥ 48 Hours to < 50 Hours at 2 to 8°C
+(Refrigerated Test Storage ≥ 50 Hours to < 52 Hours at 2 to 8°C
+Condition)
+Baseline testing was performed within 4 hours of specimen collection. These venous and
+capillary whole blood specimens were stored refrigerated at 2 to 8°C. Before each test time
+point (≥ 48 Hours to < 50 Hours at 2 to 8°C and ≥ 50 Hours to < 52 Hours at 2 to 8°C), the
+K220031 - Page 20 of 34
+
+[Table 1 on page 20]
+Parameter	Analytical Measuring Range
+WBC	(0.04 to 447) x 103/μL
+RBC	(0.01 to 8.08) x 106/μL
+HCT	4.92% to 86.0%
+MCV	51.4 fL to 131 fL
+HGB	0.15 g/dL to 24.1 g/dL
+RETIC	(0.05 to 644) x 103/μL
+%R	0.12% to 20.8%
+IRF	0.00 to 0.70%
+NRBC	(0.00 to 20.0) x 103/μL
+PLT	(0.46 to 5325) x 103/µL
+MPV	8.04 fL to 13.3 fL
+
+[Table 2 on page 20]
+Condition	Time Points
+(Time from Specimen Collection)
+Baseline
+(Control Condition)	≥ 20 minutes to < 4 Hours
+2 to 8°C
+(Refrigerated Test Storage
+Condition)	≥ 48 Hours to < 50 Hours at 2 to 8°C
+	≥ 50 Hours to < 52 Hours at 2 to 8°C
+
+--- Page 21 ---
+whole blood specimens were equilibrated to instrument room temperature, as recommended
+by the Alinity h-series Operations Manual, for approximately 15 to 30 minutes.
+Each venous whole blood specimen was tested at all time points in a minimum of 2 replicates
+on the Alinity hq using the CBC+Diff+Retic test selection. If volume permitted, each
+capillary whole blood specimen was tested at all time points. For each time point and
+condition, the difference between each test time point and the corresponding baseline was
+calculated.
+Overall, the above specimen stability studies support the proposed system labeling claim for
+the stability of venous and capillary whole blood specimens collected in K2EDTA blood
+collection tubes when stored for up to 48 hours at refrigerated storage temperature (2 to 8°C).
+Controlled Room Temperature K2EDTA Venous and Capillary Whole Blood Sample Stability
+A study was conducted to evaluate the stability of K2EDTA venous and capillary whole
+blood samples when stored under controlled room temperature conditions (e.g. 18oC and
+26oC). The study included 10 K2EDTA venous samples from healthy donors, 10 abnormal
+de-identified leftover K2EDTA venous samples, and 20 normal K2EDTA capillary samples
+from healthy donors. The time points and storage conditions tested are as summarized below.
+Time Points
+Condition
+(Time from Specimen Collection)
+Baseline ≥ 20 minutes to < 4 Hours
+(Control Condition)
+18oC or 26°C ≥ 8 Hours to < 10 Hours
+(Controlled Room Temperature) ≥ 10 Hours to < 12 Hours
+≥ 24 Hours to < 26 Hours
+≥ 26 Hours to < 28 Hours
+For this study, normal venous and capillary specimens were stored in an incubator at the
+intended temperature (at 18°C and at 26°C) and timepoints.
+The analysis was performed separately for each specimen, time point, storage condition, and
+measurand. For each time point and condition, the results for each specimen were compared
+to its results at baseline.
+Refrigerated and Room Temperature K3EDTA Venous Whole Blood Specimen Stability
+A study was conducted to evaluate the stability of venous whole blood specimens collected
+in K3EDTA blood collection tubes when stored at refrigerated storage temperature (2 to 8°C)
+and at controlled room temperature (18 to 26°C) and then tested on the Alinity h-series
+System.
+A total of 14 unique, native venous whole blood specimens collected from apparently healthy
+donors in K3EDTA blood collection tubes were tested to evaluate the below-mentioned
+conditions and time points in this study.
+K220031 - Page 21 of 34
+
+[Table 1 on page 21]
+Condition	Time Points
+(Time from Specimen Collection)
+Baseline
+(Control Condition)	≥ 20 minutes to < 4 Hours
+18oC or 26°C
+(Controlled Room Temperature)	≥ 8 Hours to < 10 Hours
+	≥ 10 Hours to < 12 Hours
+	≥ 24 Hours to < 26 Hours
+	≥ 26 Hours to < 28 Hours
+
+--- Page 22 ---
+Time Points
+Condition
+(Time from Specimen Collection)
+Baseline
+≥ 20 Minutes to < 4 Hours
+(Control Condition)
+2 to 8°C
+≥ 48 Hours to < 50 Hours at 2 to 8°C
+(Refrigerated Test Storage Condition)
+≥ 50 Hours to < 52 Hours at 2 to 8°C
+At 18°C
+≥ 24 Hours to < 26 Hours at 18°C
+(Controlled Room Temperature Test Storage Condition)
+≥ 26 Hours to < 28 Hours at 18°C
+At 26°C
+≥ 24 Hours to < 26 Hours at 26°C
+(Controlled Room Temperature Test Storage Condition)
+≥ 26 Hours to < 28 Hours at 26°C
+Baseline testing was performed within 4 hours of specimen collection. Aliquots of each
+venous whole blood specimen were stored refrigerated at 2 to 8°C and in incubators at the
+extreme ends of room temperature (18°C and 26°C). Before each test time point, the aliquots
+of the venous whole blood specimens were equilibrated to instrument room temperature, as
+recommended by the Alinity h-series Operations Manual.
+Each venous whole blood specimen was tested at all time points in a minimum of 2 replicates
+on one Alinity hq using the CBC+Diff+Retic test selection. For each time point and
+condition, the results for each specimen were compared to its results at baseline.
+The results of this specimen stability study support the proposed system labeling claim for
+the stability of venous whole blood venous specimens collected in K3EDTA blood collection
+tubes when stored for up to 48 hours at refrigerated storage temperature (2 to 8°C) and up to
+24 hours at controlled room temperature (18 to 26°C).
+Refrigerated and Room Temperature K3EDTA Capillary Whole Blood Specimen Stability
+A study was conducted to evaluate the stability of capillary whole blood specimens collected
+in K3EDTA blood collection tubes when stored at refrigerated storage temperature (2 to 8°C)
+and at controlled room temperature (18 to 26°C) and then tested on the Alinity h-series
+System. A total of 94 unique, native capillary whole blood specimens collected from
+apparently healthy donors in K3EDTA blood collection tubes were tested to evaluate the
+below-mentioned conditions and time points in this study.
+Time Points
+Condition
+(Time from Specimen Collection)
+Baseline
+≥ 20 Minutes to < 4 Hours
+(Control Condition)
+2 to 8°C ≥ 48 Hours to < 50 Hours at 2 to 8°C
+(Refrigerated Test Storage Condition)
+≥ 50 Hours to < 52 Hours at 2 to 8°C
+At 18°C ≥ 24 Hours to < 26 Hours at 18°C
+(Controlled Room Temperature Test Storage
+≥ 26 Hours to < 28 Hours at 18°C
+Condition)
+At 26°C ≥ 24 Hours to < 26 Hours at 26°C
+(Controlled Room Temperature Test Storage
+≥ 26 Hours to < 28 Hours at 26°C
+Condition)
+K220031 - Page 22 of 34
+
+[Table 1 on page 22]
+Condition	Time Points
+(Time from Specimen Collection)
+Baseline
+(Control Condition)	≥ 20 Minutes to < 4 Hours
+2 to 8°C
+(Refrigerated Test Storage Condition)	≥ 48 Hours to < 50 Hours at 2 to 8°C
+	≥ 50 Hours to < 52 Hours at 2 to 8°C
+At 18°C
+(Controlled Room Temperature Test Storage Condition)	≥ 24 Hours to < 26 Hours at 18°C
+	≥ 26 Hours to < 28 Hours at 18°C
+At 26°C
+(Controlled Room Temperature Test Storage Condition)	≥ 24 Hours to < 26 Hours at 26°C
+	≥ 26 Hours to < 28 Hours at 26°C
+
+[Table 2 on page 22]
+Condition	Time Points
+(Time from Specimen Collection)
+Baseline
+(Control Condition)	≥ 20 Minutes to < 4 Hours
+2 to 8°C
+(Refrigerated Test Storage Condition)	≥ 48 Hours to < 50 Hours at 2 to 8°C
+	≥ 50 Hours to < 52 Hours at 2 to 8°C
+At 18°C
+(Controlled Room Temperature Test Storage
+Condition)	≥ 24 Hours to < 26 Hours at 18°C
+	≥ 26 Hours to < 28 Hours at 18°C
+At 26°C
+(Controlled Room Temperature Test Storage
+Condition)	≥ 24 Hours to < 26 Hours at 26°C
+	≥ 26 Hours to < 28 Hours at 26°C
+
+--- Page 23 ---
+Baseline testing was performed within 4 hours of specimen collection. Aliquots of each
+capillary whole blood specimen were stored refrigerated at 2 to 8°C and/or in incubators at
+the extreme ends of room temperature (18°C or 26°C). Before each test time point, the
+aliquots of the capillary whole blood specimens were equilibrated to instrument room
+temperature, as recommended by the Alinity h-series Operations Manual.
+If volume permitted, each capillary whole blood specimen was tested at baseline and all test
+time points for the storage condition. Due to volume constraints, each capillary whole blood
+specimen was tested at the time points in a minimum of 1 replicate on the Alinity hq using
+the CBC+Diff+Retic test selection.
+For each storage condition, test time point, and measurand, the mean of the differences and
+% differences, along with the two-sided 95% confidence interval (CI), were calculated across
+samples. Of note, mean % difference was not calculated for a measurand if any sample had a
+baseline result of zero or near zero.
+The results of this specimen stability study support the proposed system labeling claim for
+the stability of capillary whole blood venous specimens collected in K3EDTA blood
+collection tubes when stored for up to 48 hours at refrigerated storage temperature (2 to 8°C)
+and up to 24 hours at controlled room temperature (18 to 26°C).
+6. Detection Limit:
+Limits of Blank, Detection, and Quantitation were established for the WBC, RBC, HGB and
+PLT. Testing was conducted over a minimum of 3 days using 2 unique samples per day on
+each of 2 test selections (CBC+Diff and CBC+Diff+Retic) in 5 replicates on each of the two
+reagent lots. The maximum observed limit of blank (LoB), limit of detection (LoD), and limit
+of quantitation (LoQ) values are summarized below. All results met the predefined
+acceptance criteria and were determined to be acceptable.
+Results
+Measurand
+LoB LoD LoQ
+WBC (x10 3 /µL) 0.01 0.02 0.04
+RBC (x10 6 /µL) 0.00 0.01 0.01
+HGB (g/dL) 0.08 0.11 0.15
+PLT (x10 3 /µL) 0.15 0.38 0.46
+7. Assay Cut-Off:
+Not applicable
+8. Accuracy (Instrument):
+Not applicable
+K220031 - Page 23 of 34
+
+[Table 1 on page 23]
+Measurand	Results		
+	LoB	LoD	LoQ
+3
+WBC (x10 /µL)	0.01	0.02	0.04
+6
+RBC (x10 /µL)	0.00	0.01	0.01
+HGB (g/dL)	0.08	0.11	0.15
+3
+PLT (x10 /µL)	0.15	0.38	0.46
+
+--- Page 24 ---
+9. Carry-Over:
+Alinity hq susceptibility to potential carryover was evaluated based on guidance from the
+Clinical Laboratory and Standards Institute (CLSI) document H26-A2.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+A method comparison study was conducted to assess the performance of the Alinity hq when
+compared to the predicate device, Sysmex XN-10 (K112605). A total of 2,194 unique venous
+and/or capillary specimens collected in K2EDTA from pediatric (≤21 years) and adult
+subjects including a wide variety of disease states (clinical conditions) were tested across 7
+clinical sites.
+Venous and/or capillary whole blood leftover specimens were collected in K2EDTA tubes
+from a wide range of demographics (age and sex) and disease states (clinical conditions). In
+total, there were 1,528 specimens collected from subjects with one or more medical
+conditions while there were 244 specimens without any medical conditions. Study sites
+aimed to cover the target assay reportable range for the measurands. A maximum of 10%
+samples per measurand were permitted to be contrived to cover the entire target assay
+reportable range.
+Each specimen was tested within 8 hours from the time of collection in one replicate using
+either the Closed or Open tube processing mode in the CBC+Diff+Retic test selection on the
+Alinity h-series System and one replicate on the Sysmex XN-10 System. Specimens were
+tested on the Alinity hq and the Sysmex XN-10 within 2 hours of each other. At five of the
+seven sites, the Alinity hq configuration was 1+0 (five stand-alone Alinity hq analyzers), at
+one site the configuration was 2+1 (2 Alinity hq modules that are configured as part of the
+Alinity h-series System), and at one site both 1+0 and 2+1 configurations were tested.
+Alinity hq testing was performed using a minimum of 1 reagent lot, 1 control lot at each site
+and a minimum of 1 lot of the Alinity h-series HemCal commercial calibrator. The Sysmex
+XN-10/20 was calibrated using its recommended commercial calibrators at each site.
+A Passing-Bablok regression analysis was performed with the investigational method as the
+dependent variable (y) and the predicate method as the independent variable (x). A Deming
+regression analysis was used in place of Passing-Bablok analysis where there are very low
+numeric values. Bias at medical decision points were also evaluated for each site individually
+and for all sites combined. All results were within the predefined acceptance criteria and
+found to be acceptable. Overall, the Alinity h-series System demonstrated comparable
+performance to the predicate device, Sysmex XN-10/20 (K112605) in an intended use
+population in a clinical laboratory setting.
+All Sites Combined – Regression Analysis Results
+K220031 - Page 24 of 34
+
+--- Page 25 ---
+r Slope Intercept
+Measurand N Sample Range
+(95% CI) (95% CI) (95% CI)
+WBC 1.00 1.00 0.01
+2002 0.07 – 436.00
+(x103/µL) (1.00, 1.00) (1.00, 1.00) (0.00, 0.03)
+%NEU 0.99 1.00 0.22
+1551 7.56 – 98.30
+(%) (0.99, 1.00) (1.00, 1.01) (-0.10, 0.50)
+%LYM 1.00 1.00 0.08
+1640 0.34 – 84.60
+(%) (1.00, 1.00) (0.99, 1.00) (0.00, 0.16)
+%MONO 0.98 0.99 -0.03
+1646 0.03 – 49.20
+(%) (0.97, 0.98) (0.98, 1.00) (-0.13, 0.06)
+%EOS 0.99 1.02 0.02
+1712 0.00 – 37.50
+(%) (0.99, 0.99) (1.01, 1.03) (0.01, 0.03)
+%BASO 0.45 1.53 -0.14
+1854 0.00 – 8.37
+(%) (0.41, 0.49) (1.47, 1.59) (-0.17, -0.11)
+%IG 0.59 0.59 -0.07
+1545 0.00 – 12.50
+(%) (0.56, 0.62) (0.45, 0.73) (-0.13, -0.01)
+NRBC 0.91 0.88 0.01
+1945 0.00 – 17.70
+(x103/µL) (0.90, 0.92) (0.70, 1.07) (0.00, 0.02)
+0.99 0.97 -0.07
+NR/W 1949 0.00 – 228.00
+(0.99, 0.99) (0.93, 1.02) (-0.13, -0.01)
+RBC 1.00 0.99 0.04
+1993 0.60 – 8.03
+(x106/µL) (0.99, 1.00) (0.99, 0.99) (0.03, 0.06)
+HGB 1.00 0.99 0.24
+2006 1.64 – 23.00
+(g/dL) (1.00, 1.00) (0.99, 0.99) (0.21, 0.28)
+HCT 0.99 1.02 -0.49
+1999 4.92 – 86.00
+(%) (0.99, 0.99) (1.01, 1.02) (-0.68, -0.29)
+MCV 0.95 1.05 -4.56
+2001 51.40 – 131.00
+(fL) (0.94, 0.95) (1.03, 1.07) (-6.06, -3.12)
+MCH 0.98 0.97 1.25
+1993 15.30 – 47.00
+(pg) (0.97, 0.98) (0.96, 0.98) (0.94, 1.52)
+MCHC 0.66 0.97 1.51
+1993 25.00 – 39.30
+(g/dL) (0.63, 0.68) (0.92, 1.00) (0.40, 2.90)
+%RETIC 0.97 1.06 0.01
+1942 0.12 – 20.80
+(%) (0.96, 0.97) (1.04, 1.07) (-0.01, 0.03)
+0.89 0.94 -0.01
+IRF 1935 0.00 – 0.70
+(0.88, 0.90) (0.92, 0.96) (-0.01, 0.01)
+PLT 0.99 0.97 0.27
+1933 1.21 – 5144.00
+(x103/µL)* (0.99, 0.99) (0.97, 0.98) (-0.41, 1.08)
+MPV 0.73 0.94 0.29
+1723 8.04 – 13.30
+(fL) (0.71, 0.75) (0.91, 0.99) (-0.14, 0.65)
+%rP 0.82 0.78 0.62
+1910 0.55 – 42.10
+(%)** (0.81, 0.84) (0.76, 0.80) (0.55, 0.69)
+MCHr 0.84 1.09 -1.28
+1933 6.89 – 45.80
+(pg) (0.82, 0.85) (1.06, 1.12) (-2.27, -0.29)
+NEU 1.00 1.01 0.00
+1551 0.10 – 55.00
+(x103/µL) (1.00, 1.00) (1.01, 1.01) (-0.02, 0.02)
+LYM 0.99 0.99 0.02
+1640 0.05 – 27.20
+(x103/µL) (0.99, 1.00) (0.99, 1.00) (0.01, 0.03)
+MONO 0.99 1.02 -0.02
+1646 0.00 – 8.84
+(x103/µL) (0.99, 1.00) (1.01, 1.03) (-0.03, -0.01)
+EOS 0.99 1.02 0.00
+1712 0.00 – 4.19
+(x103/µL) (0.99, 0.99) (1.01, 1.03) (0.00, 0.00)
+0.22 1.31 0.00
+BASO 1854 0.00 – 8.11
+(0.18, 0.26) (1.27, 1.37) (-0.01, 0.00)
+K220031 - Page 25 of 34
+
+[Table 1 on page 25]
+Measurand	N	Sample Range	r
+(95% CI)	Slope
+(95% CI)	Intercept
+(95% CI)
+WBC
+(x103/µL)	2002	0.07 – 436.00	1.00
+(1.00, 1.00)	1.00
+(1.00, 1.00)	0.01
+(0.00, 0.03)
+%NEU
+(%)	1551	7.56 – 98.30	0.99
+(0.99, 1.00)	1.00
+(1.00, 1.01)	0.22
+(-0.10, 0.50)
+%LYM
+(%)	1640	0.34 – 84.60	1.00
+(1.00, 1.00)	1.00
+(0.99, 1.00)	0.08
+(0.00, 0.16)
+%MONO
+(%)	1646	0.03 – 49.20	0.98
+(0.97, 0.98)	0.99
+(0.98, 1.00)	-0.03
+(-0.13, 0.06)
+%EOS
+(%)	1712	0.00 – 37.50	0.99
+(0.99, 0.99)	1.02
+(1.01, 1.03)	0.02
+(0.01, 0.03)
+%BASO
+(%)	1854	0.00 – 8.37	0.45
+(0.41, 0.49)	1.53
+(1.47, 1.59)	-0.14
+(-0.17, -0.11)
+%IG
+(%)	1545	0.00 – 12.50	0.59
+(0.56, 0.62)	0.59
+(0.45, 0.73)	-0.07
+(-0.13, -0.01)
+NRBC
+(x103/µL)	1945	0.00 – 17.70	0.91
+(0.90, 0.92)	0.88
+(0.70, 1.07)	0.01
+(0.00, 0.02)
+NR/W	1949	0.00 – 228.00	0.99
+(0.99, 0.99)	0.97
+(0.93, 1.02)	-0.07
+(-0.13, -0.01)
+RBC
+(x106/µL)	1993	0.60 – 8.03	1.00
+(0.99, 1.00)	0.99
+(0.99, 0.99)	0.04
+(0.03, 0.06)
+HGB
+(g/dL)	2006	1.64 – 23.00	1.00
+(1.00, 1.00)	0.99
+(0.99, 0.99)	0.24
+(0.21, 0.28)
+HCT
+(%)	1999	4.92 – 86.00	0.99
+(0.99, 0.99)	1.02
+(1.01, 1.02)	-0.49
+(-0.68, -0.29)
+MCV
+(fL)	2001	51.40 – 131.00	0.95
+(0.94, 0.95)	1.05
+(1.03, 1.07)	-4.56
+(-6.06, -3.12)
+MCH
+(pg)	1993	15.30 – 47.00	0.98
+(0.97, 0.98)	0.97
+(0.96, 0.98)	1.25
+(0.94, 1.52)
+MCHC
+(g/dL)	1993	25.00 – 39.30	0.66
+(0.63, 0.68)	0.97
+(0.92, 1.00)	1.51
+(0.40, 2.90)
+%RETIC
+(%)	1942	0.12 – 20.80	0.97
+(0.96, 0.97)	1.06
+(1.04, 1.07)	0.01
+(-0.01, 0.03)
+IRF	1935	0.00 – 0.70	0.89
+(0.88, 0.90)	0.94
+(0.92, 0.96)	-0.01
+(-0.01, 0.01)
+PLT
+(x103/µL)*	1933	1.21 – 5144.00	0.99
+(0.99, 0.99)	0.97
+(0.97, 0.98)	0.27
+(-0.41, 1.08)
+MPV
+(fL)	1723	8.04 – 13.30	0.73
+(0.71, 0.75)	0.94
+(0.91, 0.99)	0.29
+(-0.14, 0.65)
+%rP
+(%)**	1910	0.55 – 42.10	0.82
+(0.81, 0.84)	0.78
+(0.76, 0.80)	0.62
+(0.55, 0.69)
+MCHr
+(pg)	1933	6.89 – 45.80	0.84
+(0.82, 0.85)	1.09
+(1.06, 1.12)	-1.28
+(-2.27, -0.29)
+NEU
+(x103/µL)	1551	0.10 – 55.00	1.00
+(1.00, 1.00)	1.01
+(1.01, 1.01)	0.00
+(-0.02, 0.02)
+LYM
+(x103/µL)	1640	0.05 – 27.20	0.99
+(0.99, 1.00)	0.99
+(0.99, 1.00)	0.02
+(0.01, 0.03)
+MONO
+(x103/µL)	1646	0.00 – 8.84	0.99
+(0.99, 1.00)	1.02
+(1.01, 1.03)	-0.02
+(-0.03, -0.01)
+EOS
+(x103/µL)	1712	0.00 – 4.19	0.99
+(0.99, 0.99)	1.02
+(1.01, 1.03)	0.00
+(0.00, 0.00)
+BASO	1854	0.00 – 8.11	0.22
+(0.18, 0.26)	1.31
+(1.27, 1.37)	0.00
+(-0.01, 0.00)
+
+--- Page 26 ---
+r Slope Intercept
+Measurand N Sample Range
+(95% CI) (95% CI) (95% CI)
+(x103/µL)
+IG 0.81 1.01 -0.07
+1545 0.00 – 3.15
+(x103/µL) (0.80, 0.83) (0.85, 1.18) (-0.09, -0.05)
+RDW 0.94 0.86 2.23
+2003 10.10 – 32.30
+(%) (0.93, 0.94) (0.84, 0.87) (2.06, 2.45)
+RETIC 0.96 1.05 0.79
+1935 1.96 – 614.00
+(x103/µL) (0.96, 0.97) (1.04, 1.06) (0.02, 1.64)
+* Alinity was compared to Sysmex XN-10 with the PLT-F channel.
+** %rP(%) on Alinity h-series System is equivalent to Sysmex XN-10 IPF measurand.
+2. Matrix Comparison:
+Anticoagulants Comparability - K2EDTA versus K3EDTA
+Anticoagulant comparability (K2EDTA versus K3EDTA) was evaluated at three sites (1
+internal site and 2 external clinical sites) based on guidance from CLSI EP35. A total of 190
+unique donor venous whole blood samples (normal and abnormal) collected in the control
+tube type (K2EDTA) and in the evaluation tube type (K3EDTA) were included in the study.
+The K2EDTA and K3EDTA whole blood samples for one donor constituted one donor set.
+The clinical sites aimed to enroll donor sets that covered all relevant medical decision points
+and were representative of the proposed analytical measurement ranges. Comparability
+between the anticoagulants was assessed for all measurands based on the mean difference or
+% difference and a regression analysis. All reportable parameters that were evaluated met
+their predefined bias acceptance criteria.
+Matrix Comparability – Venous versus Capillary
+A study was conducted to evaluate the comparability of matrices (venous versus capillary)
+using whole blood specimens tested on the Alinity h-series System. Paired venous and
+capillary samples were obtained from donors (normal and abnormal) in standard K2EDTA
+tubes (K981013) (venous, control condition) and Microtainer Microtube for Automated
+Process (MAP) Microtubes (K093972) (capillary, test condition). The blood collection tubes
+from one individual constituted one donor set. The samples were tested on the Alinity h-
+series System (1+0 instrument configuration and 2+1 instrument configuration) in a
+minimum of 2 replicates with the CBC+Diff+Retic test selection using a minimum of 1 set of
+reagent lots and 1 control lot.
+An evaluation was performed, regressing the first valid replicate of each measurand from the
+capillary tube (y-axis) against the first replicate of each measurand from the venous tube (x-
+axis). The slope and intercept of the regression line, and the two-sided 95% CI around the
+slope and intercept were calculated. The predicted bias and % bias, as well as the two-sided
+95% CI around the bias and % bias, were calculated around the medical decision points as
+applicable. All reportable parameters that were evaluated met their predefined bias
+acceptance criteria.
+Microtube for Automated Process (MAP) versus Microtainer Capillary
+K220031 - Page 26 of 34
+
+[Table 1 on page 26]
+Measurand	N	Sample Range	r
+(95% CI)	Slope
+(95% CI)	Intercept
+(95% CI)
+(x103/µL)					
+IG
+(x103/µL)	1545	0.00 – 3.15	0.81
+(0.80, 0.83)	1.01
+(0.85, 1.18)	-0.07
+(-0.09, -0.05)
+RDW
+(%)	2003	10.10 – 32.30	0.94
+(0.93, 0.94)	0.86
+(0.84, 0.87)	2.23
+(2.06, 2.45)
+RETIC
+(x103/µL)	1935	1.96 – 614.00	0.96
+(0.96, 0.97)	1.05
+(1.04, 1.06)	0.79
+(0.02, 1.64)
+
+--- Page 27 ---
+Comparability between the K2EDTA Microtainer Microtube for Automated Process (MAP)
+versus K2EDTA Microtainer Capillary tube was evaluated. A total of 44 unique normal
+specimens were collected in the Microtainer Microtube for Automated Process (MAP,
+K093972) and K2EDTA Microtainer Capillary (K182078) blood collection tube types and
+tested in 1 replicate in the open-tube processing mode. Two assessments were performed:
+• MAP Open (test condition) vs. MAP Closed (control condition)
+• Microtainer Capillary Open (test condition) vs MAP Open (control condition)
+Comparability between the capillary tube types was assessed based on the mean difference or
+% difference and a regression analysis using either a Passing-Bablok or Deming regression
+model. All reportable parameters that were evaluated met their predefined bias acceptance
+criteria.
+Sample/Tube Processing Mode Comparability - Closed Mode versus Open Mode
+Sample processing mode comparability was evaluated. Unique venous specimens (normal
+and abnormal) were collected (from 3 testing sites) in K2EDTA tubes. The samples were
+tested in a minimum of 2 replicates in the closed tube processing mode (control condition)
+and in the open tube processing mode (test condition) using the CBC+Diff+Retic test
+selection. The samples were tested on the Alinity h-series System (1+0 instrument
+configuration or 2+1 instrument configuration) using a minimum of 1 set of reagent lots and
+1 control lot. The Alinity h-series Systems were calibrated at the clinical sites using a
+minimum of 1 lot of Alinity h-series HemCal calibrator.
+Comparability between the sample/tube processing modes was assessed based on the mean
+difference or % difference and a regression analysis using either a Passing-Bablok or Deming
+regression model. All reportable parameters that were evaluated met their predefined bias
+acceptance criteria.
+C Clinical Studies:
+1. Clinical Sensitivity:
+Sensitivity and specificity performance with the Alinity h-series System were assessed for
+accuracy of identifying distributional abnormalities and morphological flags (PLT Clumps,
+RBC Fragments) by comparing to a 400-cell differential derived from two independent 200-
+cell microscopic reviews of a blood smear (reference method) from negative (normal) and
+positive (abnormal) specimens. A subset of 674 venous and capillary specimens collected in
+K EDTA for the method comparison study were included in this study. Testing was
+2
+performed at each of 6 clinical sites. One (1) replicate of each specimen was analyzed using
+the CBC+Diff+Retic test selection in the Open or Closed tube processing mode on the
+Alinity hq. Three blood films were prepared for each sample.
+The final WBC differential and WBC, RBC, and PLT morphology results were based on the
+400-cell WBC differential counts derived from the average of 2 concurring 200-cell
+differential counts and concordant RBC and PLT morphology results with the exception of
+PLT clumps.
+K220031 - Page 27 of 34
+
+--- Page 28 ---
+Sensitivity and specificity analysis were performed to compare the Alinity hq morphological
+flags, WBC 6-part differential, and NR/W against the results from microscopy analysis.
+Agreement between 2 readers was determined for %BASO, %EOS, %MONO, %NEU,
+%LYM, %IG, and NR/W for the assessment of distributional abnormalities, as well as for
+blasts, variant lymphocytes, band neutrophils, RBC fragments, and PLT clumps for the
+assessment of morphological abnormalities.
+Results from all specimens tested in this study were evaluated against the respective
+reference ranges for each differential cell type. Results within the lower and upper limits of
+the reference ranges were considered normal (negative). Results not within the lower and
+upper limits of the respective reference ranges for Microscopy or Alinity hq were considered
+abnormal (positive). Specimens were classified as morphologically abnormal (morphological
+positive) based on predefined criteria for Blast, left shift, variant lymphocytes, PLT clumps,
+RBC fragments/schistocytes. Distributional classification and morphological flagging were
+categorized as True Positive (TP), False Positive (FP), False Negative (FN), and True
+Negative (TN) per the following contingency table based on agreement between Alinity hq
+and Microscopic results. For this analysis, separate 2x2 tables were constructed in order to
+determine sensitivity and specificity for both morphological and distributional abnormalities.
+Morphological and Distributional Abnormalities Summary
+Category of Sensitivity Specificity Efficiency
+N TP FP FN TN
+Abnormalities (95% CI)a (95% CI)b (95% CI)c
+Any Morphological 68.42% 77.76% 76.18%
+676 78 125 36 437
+Flags (59.05%, 76.81%) (74.09%, 81.13%) (72.79%, 79.35%)
+Any Distributional 81.95% 80.52% 81.12%
+662 227 75 50 310
+Abnormalities (76.90%, 86.30%) (76.20%, 84.36%) (77.92%, 84.03%)
+Any Morphological Flags
+80.19% 76.40% 78.19%
+and/or Distributional 674 255 84 63 272
+(75.38%, 84.43%) (71.64%, 80.72%) (74.88%, 81.25%)
+Abnormalities
+a Sensitivity = 100* TP / (TP + FN)
+b Specificity = 100* TN / (TN + FP)
+c Efficiency = 100* (TN + TP) / (TP + FN + FP + TN)
+2. Clinical Specificity:
+See sensitivity.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+D Clinical Cut-Off:
+Not applicable
+E Expected Values/Reference Range:
+K220031 - Page 28 of 34
+
+[Table 1 on page 28]
+Category of
+Abnormalities	N	TP	FP	FN	TN	Sensitivity
+(95% CI)a	Specificity
+(95% CI)b	Efficiency
+(95% CI)c
+Any Morphological
+Flags	676	78	125	36	437	68.42%
+(59.05%, 76.81%)	77.76%
+(74.09%, 81.13%)	76.18%
+(72.79%, 79.35%)
+Any Distributional
+Abnormalities	662	227	75	50	310	81.95%
+(76.90%, 86.30%)	80.52%
+(76.20%, 84.36%)	81.12%
+(77.92%, 84.03%)
+Any Morphological Flags
+and/or Distributional
+Abnormalities	674	255	84	63	272	80.19%
+(75.38%, 84.43%)	76.40%
+(71.64%, 80.72%)	78.19%
+(74.88%, 81.25%)
+
+--- Page 29 ---
+Reference range studies were performed based on guidance from the Clinical Laboratory and
+Standards Institute (CLSI) document EP28-A3 to establish adult (> 21 years old) reference
+intervals for male and female populations and to establish reference intervals for pediatric
+subgroups (neonate [birth to 1 month], infant [> 1 month to 2 years old], child [> 2 to 12 years
+old], and adolescent [> 12 to 21 years old]) by evaluating venous or capillary whole blood
+specimens collected in K2EDTA from apparently healthy subjects and tested on the Alinity h-
+series System.
+Adult Reference Range Study
+A total of 262 unique venous or capillary whole blood specimens collected in K2EDTA from
+apparently healthy male (126) and healthy female (136) adult subjects were tested. The samples
+were tested on the Alinity h-series System (1+0 instrument configuration or 2+1 instrument
+configuration) using a minimum of 1 set of reagent lots and 1 control lot. The Alinity h-series
+Systems were calibrated at the clinical sites using a minimum of 1 lot of Alinity h-series HemCal
+calibrator.
+Adult Reference Intervals
+Female Male
+Measurand
+N Reference Range N Reference Range
+WBC
+136 3.68 – 12.20 126 3.95 – 11.21
+(x103/µL)
+%NEU
+136 38.44 – 72.73 125 39.25 – 83.05
+(%)
+%LYM
+136 14.53 – 47.59 125 11.48 – 44.80
+(%)
+%MONO
+136 5.03 – 13.56 125 5.25 – 12.40
+(%)
+%EOS
+136 0.16 – 7.37 125 0.06 – 9.72
+(%)
+%BASO
+136 0.25 – 2.39 125 0.16 – 1.76
+(%)
+NEU
+136 1.83 – 7.06 125 1.75 – 8.59
+(x103/µL)
+LYM
+136 1.01 – 4.14 125 0.84 – 3.47
+(x103/µL)
+MONO
+136 0.27 – 0.93 125 0.29 – 0.95
+(x103/µL)
+EOS
+136 0.01 – 0.61 125 0.01 – 0.66
+(x103/µL)
+BASO
+136 0.02 – 0.15 125 0.01 – 0.13
+(x103/µL)
+IG
+136 0.00 – 0.09 125 0.00 – 0.09
+(x103/µL)
+%IG
+136 0.00 – 1.00 125 0.00 – 0.82
+(%)
+NRBC
+136 0.00 – 0.00 126 0.00 – 0.00
+(x103/µL)
+NR/W 136 0.00 – 0.00 126 0.00 – 0.00
+RBC 136 3.78 – 5.34 126 3.81 – 5.81
+K220031 - Page 29 of 34
+
+[Table 1 on page 29]
+Adult Reference Intervals				
+Measurand	Female		Male	
+	N	Reference Range	N	Reference Range
+WBC
+(x103/µL)	136	3.68 – 12.20	126	3.95 – 11.21
+%NEU
+(%)	136	38.44 – 72.73	125	39.25 – 83.05
+%LYM
+(%)	136	14.53 – 47.59	125	11.48 – 44.80
+%MONO
+(%)	136	5.03 – 13.56	125	5.25 – 12.40
+%EOS
+(%)	136	0.16 – 7.37	125	0.06 – 9.72
+%BASO
+(%)	136	0.25 – 2.39	125	0.16 – 1.76
+NEU
+(x103/µL)	136	1.83 – 7.06	125	1.75 – 8.59
+LYM
+(x103/µL)	136	1.01 – 4.14	125	0.84 – 3.47
+MONO
+(x103/µL)	136	0.27 – 0.93	125	0.29 – 0.95
+EOS
+(x103/µL)	136	0.01 – 0.61	125	0.01 – 0.66
+BASO
+(x103/µL)	136	0.02 – 0.15	125	0.01 – 0.13
+IG
+(x103/µL)	136	0.00 – 0.09	125	0.00 – 0.09
+%IG
+(%)	136	0.00 – 1.00	125	0.00 – 0.82
+NRBC
+(x103/µL)	136	0.00 – 0.00	126	0.00 – 0.00
+NR/W	136	0.00 – 0.00	126	0.00 – 0.00
+RBC	136	3.78 – 5.34	126	3.81 – 5.81
+
+--- Page 30 ---
+Adult Reference Intervals
+Female Male
+Measurand
+N Reference Range N Reference Range
+(x106/µL)
+HGB
+136 11.19 – 15.56 126 12.14 – 17.98
+(g/dL)
+HCT
+136 33.74 – 46.53 126 36.85 – 54.32
+(%)
+MCV
+136 75.98 – 101.58 126 78.89 – 101.00
+(fL)
+MCH
+136 25.03 – 34.47 126 26.10 – 33.97
+(pg)
+MCHC
+136 31.79 – 35.56 126 32.00 – 36.20
+(g/dL)
+RDW
+136 12.00 – 15.69 126 12.20 – 16.38
+(%)
+RETIC
+136 29.30 – 140.58 126 40.58 – 155.95
+(x103/µL)
+%R
+136 0.69 – 3.22 126 0.86 – 3.62
+(%)
+IRF 136 0.03 – 0.21 126 0.03 – 0.23
+PLT
+136 166.23 – 384.75 125 118.20 – 364.50
+(x103/µL)
+MPV
+136 8.90 – 12.56 124 9.04 – 12.79
+(fL)
+%rP (%) 136 0.97 – 7.04 125 1.13 – 10.53
+MCHr
+136 28.44 – 39.20 126 30.58 – 40.96
+(pg)
+Pediatric Reference Range Study
+In the study for pediatric range establishment, prospectively collected or leftover venous or
+capillary whole blood specimens collected in K2EDTA blood collection tubes [i.e.,
+Vacutainer (K981013) or MAP (K093972) blood collection tubes] were enrolled by the
+clinical sites under the IRB-approved clinical study protocol. These prospectively collected
+or leftover whole blood specimens were collected from apparently healthy pediatric subjects,
+as defined in the IRB-approved clinical study protocol.
+The whole blood specimens were tested in a minimum of one replicate on the Alinity hq
+using the CBC+Diff+Retic test selection and closed tube processing mode. The samples were
+tested on the Alinity h-series System (1+0 instrument configuration or 2+1 instrument
+configuration) using a minimum of 1 set of reagent lots and 1 control lot. The Alinity h-series
+Systems were calibrated at the clinical sites using a minimum of 1 lot of Alinity h-series
+HemCal calibrator.
+A total of 320 unique venous or capillary whole blood specimens were included in the
+establishment of pediatric reference intervals for the Alinity h-series System. The median,
+minimum value, maximum value, 2.5th percentile, and 97.5th percentile for each measurand
+K220031 - Page 30 of 34
+
+[Table 1 on page 30]
+Adult Reference Intervals				
+Measurand	Female		Male	
+	N	Reference Range	N	Reference Range
+(x106/µL)				
+HGB
+(g/dL)	136	11.19 – 15.56	126	12.14 – 17.98
+HCT
+(%)	136	33.74 – 46.53	126	36.85 – 54.32
+MCV
+(fL)	136	75.98 – 101.58	126	78.89 – 101.00
+MCH
+(pg)	136	25.03 – 34.47	126	26.10 – 33.97
+MCHC
+(g/dL)	136	31.79 – 35.56	126	32.00 – 36.20
+RDW
+(%)	136	12.00 – 15.69	126	12.20 – 16.38
+RETIC
+(x103/µL)	136	29.30 – 140.58	126	40.58 – 155.95
+%R
+(%)	136	0.69 – 3.22	126	0.86 – 3.62
+IRF	136	0.03 – 0.21	126	0.03 – 0.23
+PLT
+(x103/µL)	136	166.23 – 384.75	125	118.20 – 364.50
+MPV
+(fL)	136	8.90 – 12.56	124	9.04 – 12.79
+%rP (%)	136	0.97 – 7.04	125	1.13 – 10.53
+MCHr
+(pg)	136	28.44 – 39.20	126	30.58 – 40.96
+
+--- Page 31 ---
+were calculated. In addition, the 2-sided 95% confidence limits around the lower limit (2.5th
+percentile) and upper limit (97.5th percentile) of the reference intervals were calculated.
+Measuranda Age Bucket N Reference Interval
+Neonate (Birth to 1 Month) 51 6.33 – 29.15
+Infant (>1 Month to 2 Years) 56 5.46 – 18.69
+WBC
+(x103/µL) Child (>2 Years to 12 Years) 103 4.07 – 12.29
+Adolescent (>12 Years to 21 Years) 110 4.35 – 12.01
+Neonate (Birth to 1 Month) 50 14.02 – 78.35
+Infant (>1 Month to 2 Years) 56 13.14 – 77.49
+%NEU
+(%) Child (>2 Years to 12 Years) 103 23.85 – 69.41
+Adolescent (>12 Years to 21 Years) 110 34.01 – 73.59
+Neonate (Birth to 1 Month) 51 9.99 – 71.21
+Infant (>1 Month to 2 Years) 56 13.96 – 73.64
+%LYM
+(%) Child (>2 Years to 12 Years) 103 21.30 – 63.69
+Adolescent (>12 Years to 21 Years) 110 15.94 – 52.11
+Neonate (Birth to 1 Month) 50 3.10 – 21.59
+Infant (>1 Month to 2 Years) 56 4.02 – 18.19
+%MONO
+(%) Child (>2 Years to 12 Years) 103 4.53 – 13.44
+Adolescent (>12 Years to 21 Years) 110 5.22 – 14.31
+Neonate (Birth to 1 Month) 51 0.21 – 9.95
+%EOS Infant (>1 Month to 2 Years) 56 0.08 – 8.86
+(%) Child (>2 Years to 12 Years) 103 0.84 – 12.48
+Adolescent (>12 Years to 21 Years) 110 0.30 – 7.97
+Neonate (Birth to 1 Month) 50 0.13 – 1.38
+%BASO Infant (>1 Month to 2 Years) 56 0.07 – 1.49
+(%) Child (>2 Years to 12 Years) 103 0.34 – 2.22
+Adolescent (>12 Years to 21 Years) 110 0.24 – 1.79
+Neonate (Birth to 1 Month) 50 1.18 – 19.95
+Infant (>1 Month to 2 Years) 56 1.45 – 12.10
+NEU
+(x103/µL) Child (>2 Years to 12 Years) 103 1.31 – 6.99
+Adolescent (>12 Years to 21 Years) 110 1.84 – 7.40
+Neonate (Birth to 1 Month) 51 0.77 – 11.13
+LYM Infant (>1 Month to 2 Years) 56 1.44 – 9.89
+(x103/µL) Child (>2 Years to 12 Years) 103 1.16 – 5.04
+Adolescent (>12 Years to 21 Years) 110 1.06 – 4.38
+Neonate (Birth to 1 Month) 50 0.37 – 2.77
+MONO Infant (>1 Month to 2 Years) 56 0.29 – 2.24
+(x103/µL) Child (>2 Years to 12 Years) 103 0.27 – 1.07
+Adolescent (>12 Years to 21 Years) 110 0.32 – 1.04
+Neonate (Birth to 1 Month) 51 0.04 – 1.37
+EOS Infant (>1 Month to 2 Years) 56 0.01 – 0.94
+(x103/µL) Child (>2 Years to 12 Years) 103 0.05 – 0.90
+Adolescent (>12 Years to 21 Years) 110 0.02 – 0.62
+K220031 - Page 31 of 34
+
+[Table 1 on page 31]
+Measuranda	Age Bucket	N	Reference Interval
+WBC
+(x103/µL)	Neonate (Birth to 1 Month)	51	6.33 – 29.15
+	Infant (>1 Month to 2 Years)	56	5.46 – 18.69
+	Child (>2 Years to 12 Years)	103	4.07 – 12.29
+	Adolescent (>12 Years to 21 Years)	110	4.35 – 12.01
+%NEU
+(%)	Neonate (Birth to 1 Month)	50	14.02 – 78.35
+	Infant (>1 Month to 2 Years)	56	13.14 – 77.49
+	Child (>2 Years to 12 Years)	103	23.85 – 69.41
+	Adolescent (>12 Years to 21 Years)	110	34.01 – 73.59
+%LYM
+(%)	Neonate (Birth to 1 Month)	51	9.99 – 71.21
+	Infant (>1 Month to 2 Years)	56	13.96 – 73.64
+	Child (>2 Years to 12 Years)	103	21.30 – 63.69
+	Adolescent (>12 Years to 21 Years)	110	15.94 – 52.11
+%MONO
+(%)	Neonate (Birth to 1 Month)	50	3.10 – 21.59
+	Infant (>1 Month to 2 Years)	56	4.02 – 18.19
+	Child (>2 Years to 12 Years)	103	4.53 – 13.44
+	Adolescent (>12 Years to 21 Years)	110	5.22 – 14.31
+%EOS
+(%)	Neonate (Birth to 1 Month)	51	0.21 – 9.95
+	Infant (>1 Month to 2 Years)	56	0.08 – 8.86
+	Child (>2 Years to 12 Years)	103	0.84 – 12.48
+	Adolescent (>12 Years to 21 Years)	110	0.30 – 7.97
+%BASO
+(%)	Neonate (Birth to 1 Month)	50	0.13 – 1.38
+	Infant (>1 Month to 2 Years)	56	0.07 – 1.49
+	Child (>2 Years to 12 Years)	103	0.34 – 2.22
+	Adolescent (>12 Years to 21 Years)	110	0.24 – 1.79
+NEU
+(x103/µL)	Neonate (Birth to 1 Month)	50	1.18 – 19.95
+	Infant (>1 Month to 2 Years)	56	1.45 – 12.10
+	Child (>2 Years to 12 Years)	103	1.31 – 6.99
+	Adolescent (>12 Years to 21 Years)	110	1.84 – 7.40
+LYM
+(x103/µL)	Neonate (Birth to 1 Month)	51	0.77 – 11.13
+	Infant (>1 Month to 2 Years)	56	1.44 – 9.89
+	Child (>2 Years to 12 Years)	103	1.16 – 5.04
+	Adolescent (>12 Years to 21 Years)	110	1.06 – 4.38
+MONO
+(x103/µL)	Neonate (Birth to 1 Month)	50	0.37 – 2.77
+	Infant (>1 Month to 2 Years)	56	0.29 – 2.24
+	Child (>2 Years to 12 Years)	103	0.27 – 1.07
+	Adolescent (>12 Years to 21 Years)	110	0.32 – 1.04
+EOS
+(x103/µL)	Neonate (Birth to 1 Month)	51	0.04 – 1.37
+	Infant (>1 Month to 2 Years)	56	0.01 – 0.94
+	Child (>2 Years to 12 Years)	103	0.05 – 0.90
+	Adolescent (>12 Years to 21 Years)	110	0.02 – 0.62
+
+--- Page 32 ---
+Measuranda Age Bucket N Reference Interval
+Neonate (Birth to 1 Month) 50 0.01 – 0.24
+BASO Infant (>1 Month to 2 Years) 56 0.01 – 0.14
+(x103/µL) Child (>2 Years to 12 Years) 103 0.02 – 0.16
+Adolescent (>12 Years to 21 Years) 110 0.02 – 0.12
+Neonate (Birth to 1 Month) 51 0.00 – 0.95
+IG Infant (>1 Month to 2 Years) 56 0.00 – 0.74
+(x103/µL) Child (>2 Years to 12 Years) 103 0.00 – 0.06
+Adolescent (>12 Years to 21 Years) 110 0.00 – 0.06
+Neonate (Birth to 1 Month) 51 0.00 – 4.65
+%IG Infant (>1 Month to 2 Years) 56 0.00 – 4.82
+(%) Child (>2 Years to 12 Years) 103 0.00 – 0.39
+Adolescent (>12 Years to 21 Years) 110 0.00 – 0.41
+Neonate (Birth to 1 Month) 50 0.00 – 2.08
+Infant (>1 Month to 2 Years) 55 0.00 – 0.21
+NRBC
+(x103/µL) Child (>2 Years to 12 Years) 103 0.00 – 0.15
+Adolescent (>12 Years to 21 Years) 109 0.00 – 0.10
+Neonate (Birth to 1 Month) 50 0.00 – 11.75
+Infant (>1 Month to 2 Years) 55 0.00 – 1.94
+NR/W
+Child (>2 Years to 12 Years) 103 0.00 – 2.21
+Adolescent (>12 Years to 21 Years) 109 0.00 – 1.15
+Neonate (Birth to 1 Month) 51 3.07 – 7.19
+RBC Infant (>1 Month to 2 Years) 56 3.36 – 5.38
+(x106/µL) Child (>2 Years to 12 Years) 103 3.84 – 5.39
+Adolescent (>12 Years to 21 Years) 110 3.79 – 5.63
+Neonate (Birth to 1 Month) 50 9.66 – 23.56
+Infant (>1 Month to 2 Years) 56 9.99 – 14.08
+HGB
+(g/dL) Child (>2 Years to 12 Years) 103 11.38 – 15.12
+Adolescent (>12 Years to 21 Years) 110 11.53 – 16.31
+Neonate (Birth to 1 Month) 51 26.36 – 83.38
+Infant (>1 Month to 2 Years) 56 28.82 – 41.93
+HCT
+(%) Child (>2 Years to 12 Years) 103 32.89 – 44.16
+Adolescent (>12 Years to 21 Years) 110 34.14 – 48.84
+Neonate (Birth to 1 Month) 51 88.43 – 117.65
+Infant (>1 Month to 2 Years) 56 68.56 – 94.60
+MCV
+(fL) Child (>2 Years to 12 Years) 103 72.91 – 95.04
+Adolescent (>12 Years to 21 Years) 110 78.91 – 96.29
+Neonate (Birth to 1 Month) 50 31.24 – 38.66
+MCH Infant (>1 Month to 2 Years) 56 22.63 – 31.72
+(pg) Child (>2 Years to 12 Years) 103 23.89 – 31.72
+Adolescent (>12 Years to 21 Years) 110 26.29 – 33.16
+Neonate (Birth to 1 Month) 50 30.43 – 36.92
+MCHC
+Infant (>1 Month to 2 Years) 56 31.20 – 36.53
+(g/dL)
+Child (>2 Years to 12 Years) 103 31.25 – 36.11
+K220031 - Page 32 of 34
+
+[Table 1 on page 32]
+Measuranda	Age Bucket	N	Reference Interval
+BASO
+(x103/µL)	Neonate (Birth to 1 Month)	50	0.01 – 0.24
+	Infant (>1 Month to 2 Years)	56	0.01 – 0.14
+	Child (>2 Years to 12 Years)	103	0.02 – 0.16
+	Adolescent (>12 Years to 21 Years)	110	0.02 – 0.12
+IG
+(x103/µL)	Neonate (Birth to 1 Month)	51	0.00 – 0.95
+	Infant (>1 Month to 2 Years)	56	0.00 – 0.74
+	Child (>2 Years to 12 Years)	103	0.00 – 0.06
+	Adolescent (>12 Years to 21 Years)	110	0.00 – 0.06
+%IG
+(%)	Neonate (Birth to 1 Month)	51	0.00 – 4.65
+	Infant (>1 Month to 2 Years)	56	0.00 – 4.82
+	Child (>2 Years to 12 Years)	103	0.00 – 0.39
+	Adolescent (>12 Years to 21 Years)	110	0.00 – 0.41
+NRBC
+(x103/µL)	Neonate (Birth to 1 Month)	50	0.00 – 2.08
+	Infant (>1 Month to 2 Years)	55	0.00 – 0.21
+	Child (>2 Years to 12 Years)	103	0.00 – 0.15
+	Adolescent (>12 Years to 21 Years)	109	0.00 – 0.10
+NR/W	Neonate (Birth to 1 Month)	50	0.00 – 11.75
+	Infant (>1 Month to 2 Years)	55	0.00 – 1.94
+	Child (>2 Years to 12 Years)	103	0.00 – 2.21
+	Adolescent (>12 Years to 21 Years)	109	0.00 – 1.15
+RBC
+(x106/µL)	Neonate (Birth to 1 Month)	51	3.07 – 7.19
+	Infant (>1 Month to 2 Years)	56	3.36 – 5.38
+	Child (>2 Years to 12 Years)	103	3.84 – 5.39
+	Adolescent (>12 Years to 21 Years)	110	3.79 – 5.63
+HGB
+(g/dL)	Neonate (Birth to 1 Month)	50	9.66 – 23.56
+	Infant (>1 Month to 2 Years)	56	9.99 – 14.08
+	Child (>2 Years to 12 Years)	103	11.38 – 15.12
+	Adolescent (>12 Years to 21 Years)	110	11.53 – 16.31
+HCT
+(%)	Neonate (Birth to 1 Month)	51	26.36 – 83.38
+	Infant (>1 Month to 2 Years)	56	28.82 – 41.93
+	Child (>2 Years to 12 Years)	103	32.89 – 44.16
+	Adolescent (>12 Years to 21 Years)	110	34.14 – 48.84
+MCV
+(fL)	Neonate (Birth to 1 Month)	51	88.43 – 117.65
+	Infant (>1 Month to 2 Years)	56	68.56 – 94.60
+	Child (>2 Years to 12 Years)	103	72.91 – 95.04
+	Adolescent (>12 Years to 21 Years)	110	78.91 – 96.29
+MCH
+(pg)	Neonate (Birth to 1 Month)	50	31.24 – 38.66
+	Infant (>1 Month to 2 Years)	56	22.63 – 31.72
+	Child (>2 Years to 12 Years)	103	23.89 – 31.72
+	Adolescent (>12 Years to 21 Years)	110	26.29 – 33.16
+MCHC
+(g/dL)	Neonate (Birth to 1 Month)	50	30.43 – 36.92
+	Infant (>1 Month to 2 Years)	56	31.20 – 36.53
+	Child (>2 Years to 12 Years)	103	31.25 – 36.11
+
+--- Page 33 ---
+Measuranda Age Bucket N Reference Interval
+Adolescent (>12 Years to 21 Years) 110 31.50 – 35.73
+Neonate (Birth to 1 Month) 51 12.82 – 18.70
+Infant (>1 Month to 2 Years) 56 12.10 – 19.51
+RDW
+(%) Child (>2 Years to 12 Years) 103 11.92 – 14.83
+Adolescent (>12 Years to 21 Years) 110 12.32 – 15.44
+Neonate (Birth to 1 Month) 51 35.85 – 380.30
+RETIC Infant (>1 Month to 2 Years) 56 36.74 – 198.77
+(x103/µL) Child (>2 Years to 12 Years) 103 32.82 – 113.59
+Adolescent (>12 Years to 21 Years) 110 34.77 – 125.98
+Neonate (Birth to 1 Month) 51 0.92 – 7.88
+%RETIC Infant (>1 Month to 2 Years) 56 0.85 – 5.86
+(%) Child (>2 Years to 12 Years) 103 0.75 – 2.28
+Adolescent (>12 Years to 21 Years) 110 0.80 – 2.78
+Neonate (Birth to 1 Month) 51 0.06 – 0.42
+Infant (>1 Month to 2 Years) 56 0.04 – 0.38
+IRF
+Child (>2 Years to 12 Years) 103 0.02 – 0.15
+Adolescent (>12 Years to 21 Years) 110 0.02 – 0.14
+Neonate (Birth to 1 Month) 51 82.87 – 552.73
+Infant (>1 Month to 2 Years) 56 123.71 – 458.58
+PLT
+(x103/µL) Child (>2 Years to 12 Years) 103 142.30 – 440.06
+Adolescent (>12 Years to 21 Years) 110 149.44 – 440.19
+Neonate (Birth to 1 Month) 51 7.95 – 11.11
+Infant (>1 Month to 2 Years) 56 8.58 – 11.59
+MPV
+(fL) Child (>2 Years to 12 Years) 103 9.02 – 12.80
+Adolescent (>12 Years to 21 Years) 110 9.01 – 12.45
+Neonate (Birth to 1 Month) 51 1.51 – 13.70
+%rP Infant (>1 Month to 2 Years) 56 0.73 – 6.78
+(%) Child (>2 Years to 12 Years) 103 0.95 – 7.76
+Adolescent (>12 Years to 21 Years) 110 0.80 – 7.69
+Neonate (Birth to 1 Month) 50 23.99 – 38.86
+MCHr Infant (>1 Month to 2 Years) 56 21.73 – 37.83
+(pg) Child (>2 Years to 12 Years) 103 27.41 – 38.21
+Adolescent (>12 Years to 21 Years) 110 31.12 – 40.00
+F Other Supportive Instrument Performance Characteristics Data:
+Smear and Stain Acceptability
+A study was conducted to verify that the Alinity h-series System can prepare acceptable May-
+Grünwald-Giemsa (MGG) and Wright-Giemsa (WG) stained smears from venous whole blood
+specimens collected externally in K2EDTA and K3EDTA anticoagulated tubes. The tested
+specimens included:
+• a minimum of 100 K2EDTA specimens, stained with MGG
+• a minimum of 100 K2EDTA specimens, stained with WG
+• a minimum of 100 K3EDTA specimens, stained with MGG
+K220031 - Page 33 of 34
+
+[Table 1 on page 33]
+Measuranda	Age Bucket	N	Reference Interval
+	Adolescent (>12 Years to 21 Years)	110	31.50 – 35.73
+RDW
+(%)	Neonate (Birth to 1 Month)	51	12.82 – 18.70
+	Infant (>1 Month to 2 Years)	56	12.10 – 19.51
+	Child (>2 Years to 12 Years)	103	11.92 – 14.83
+	Adolescent (>12 Years to 21 Years)	110	12.32 – 15.44
+RETIC
+(x103/µL)	Neonate (Birth to 1 Month)	51	35.85 – 380.30
+	Infant (>1 Month to 2 Years)	56	36.74 – 198.77
+	Child (>2 Years to 12 Years)	103	32.82 – 113.59
+	Adolescent (>12 Years to 21 Years)	110	34.77 – 125.98
+%RETIC
+(%)	Neonate (Birth to 1 Month)	51	0.92 – 7.88
+	Infant (>1 Month to 2 Years)	56	0.85 – 5.86
+	Child (>2 Years to 12 Years)	103	0.75 – 2.28
+	Adolescent (>12 Years to 21 Years)	110	0.80 – 2.78
+IRF	Neonate (Birth to 1 Month)	51	0.06 – 0.42
+	Infant (>1 Month to 2 Years)	56	0.04 – 0.38
+	Child (>2 Years to 12 Years)	103	0.02 – 0.15
+	Adolescent (>12 Years to 21 Years)	110	0.02 – 0.14
+PLT
+(x103/µL)	Neonate (Birth to 1 Month)	51	82.87 – 552.73
+	Infant (>1 Month to 2 Years)	56	123.71 – 458.58
+	Child (>2 Years to 12 Years)	103	142.30 – 440.06
+	Adolescent (>12 Years to 21 Years)	110	149.44 – 440.19
+MPV
+(fL)	Neonate (Birth to 1 Month)	51	7.95 – 11.11
+	Infant (>1 Month to 2 Years)	56	8.58 – 11.59
+	Child (>2 Years to 12 Years)	103	9.02 – 12.80
+	Adolescent (>12 Years to 21 Years)	110	9.01 – 12.45
+%rP
+(%)	Neonate (Birth to 1 Month)	51	1.51 – 13.70
+	Infant (>1 Month to 2 Years)	56	0.73 – 6.78
+	Child (>2 Years to 12 Years)	103	0.95 – 7.76
+	Adolescent (>12 Years to 21 Years)	110	0.80 – 7.69
+MCHr
+(pg)	Neonate (Birth to 1 Month)	50	23.99 – 38.86
+	Infant (>1 Month to 2 Years)	56	21.73 – 37.83
+	Child (>2 Years to 12 Years)	103	27.41 – 38.21
+	Adolescent (>12 Years to 21 Years)	110	31.12 – 40.00
+
+--- Page 34 ---
+• a minimum of 100 K3EDTA specimens, stained with WG
+The K3EDTA and K2EDTA specimens were collected internally. In addition, K2EDTA leftover
+specimens were collected from patients undergoing routine care at the 2 external testing sites.
+K2EDTA and K3EDTA slides prepared internally using native specimens were contrived to have
+an HCT ranging between 19.3% to 58.1%. K2EDTA slides prepared externally using native
+specimens were contrived to have an HCT ranging between 15.0% to 60.0%.
+Specimens with a WBC < 4.0 x 103/μL, fragile WBC, abnormal plasma proteins (i.e., cold
+agglutinin disease, myeloma), lipemia, icterus, or hemolysis were excluded from the evaluation
+of stained smears per CLSI H20-A2*, Section 6.
+The slides were evaluated for suitability for microscopy by 2 qualified reviewers using the
+criteria per CLSI H20-A2* as detailed below. If their assessment did not agree, a 3rd reviewer
+assessed the quality of the same slides. The criteria reviewed included:
+• Sufficient working area
+• Minimum 2.5 cm in length terminating at least 1 cm from the end of the slide
+• Gradual transition in thickness from the thick to the thin areas, ending in a feather edge
+• Acceptable morphology within the working area
+• Narrower than the slide on which the film is spread, with smooth continuous side margins
+that are accessible for oil immersion examination
+• No artifact introduced by the technique
+• Minimum distributional distortion
+• A far end that becomes gradually thinner, without grainy streaks, troughs, or ridges, all of
+which indicate an increased number of WBC carried into this area.
+The study results were considered acceptable if ≥ 95% of the slides made from K2EDTA and
+K3EDTA whole blood and stained with MGG or WG by the Alinity h-series System were
+suitable for morphological use.
+Overall, the study verified that the Alinity h-series System can prepare acceptable
+May-Grünwald-Giemsa and Wright-Giemsa stained smears from venous blood specimens
+collected in K2EDTA and K3EDTA anticoagulated tubes.
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K220031 - Page 34 of 34

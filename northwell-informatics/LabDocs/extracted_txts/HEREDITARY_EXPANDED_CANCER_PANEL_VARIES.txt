@@ -1,0 +1,124 @@
+SOP for the Analytical Phase of Generating Results for
+HEREDITARY EXPANDED CANCER PANEL, VARIES
+1. PURPOSE
+This procedure outlines the steps for analyzing and generating
+results for the HEREDITARY EXPANDED CANCER PANEL using
+next-generation sequencing (NGS) technology. This panel tests for
+genetic mutations associated with a predisposition to various types of
+hereditary cancers. The purpose is to ensure that the analytical
+phase is performed accurately and consistently, providing reliable
+and reproducible results.
+2. SCOPE
+This protocol applies to all laboratory personnel involved in the
+analytical phase of hereditary cancer panel testing. This includes
+sample preparation, sequencing, and data analysis.
+3. DEFINITIONS
+• Hereditary Expanded Cancer Panel: A panel of genes
+associated with an increased risk for various cancers.
+• NGS: Next-generation sequencing technology used to determine
+the sequence of nucleotides in a DNA sample.
+• Bioinformatics Pipeline: A computational process that analyzes
+NGS data to identify genetic variants.
+4. RESPONSIBILITY
+• Laboratory Technicians/Technologists: Responsible for
+performing the DNA extraction, library preparation, sequencing,
+and initial quality control checks.
+• Bioinformaticians: Responsible for performing the computational
+analysis of sequencing data, including alignment, variant calling,
+and annotation.
+• Supervisors/Managers: Responsible for the oversight of the
+analytical process, ensuring that all steps are performed
+according to the SOP and that corrective actions are documented
+and implemented when necessary.
+5. PROCEDURE
+A) Sample Preparation
+1. DNA Extraction
+◦ Extract DNA from the received specimen using an
+appropriate extraction kit. Ensure to work under aseptic
+conditions to avoid contamination.
+◦ Measure DNA concentration and purity using
+spectrophotometry (e.g., NanoDrop) and fluorometry (e.g.,
+Qubit).
+2. DNA Library Preparation
+◦ Prepare DNA libraries using the designated library
+preparation kit. Follow the manufacturer's instructions.
+◦ Perform quality control checks on the libraries using a
+Bioanalyzer or TapeStation.
+B) Sequencing
+1. Set Up Sequencing Run
+◦ Load the prepared libraries onto the sequencing platform
+(e.g., Illumina, Thermo Fisher).
+◦ Configure the sequencing run parameters according to the
+specifications required for the HEREDITARY EXPANDED
+CANCER PANEL.
+2. Monitor Sequencing Run
+◦ Regularly monitor the sequencing run to ensure it is
+proceeding as expected.
+◦ Document any deviations or issues that occur during the run
+in the sequencing log.
+C) Data Analysis
+1. Raw Data Processing
+◦ Transfer the raw sequencing data (FASTQ files) to the
+bioinformatics pipeline.
+◦ Perform quality control checks on the raw sequencing data
+using tools such as FastQC.
+2. Sequence Alignment
+◦ Align the sequencing reads to the human reference genome
+(e.g., GRCh38) using a suitable aligner (e.g., BWA,
+Bowtie2).
+3. Variant Calling
+◦ Call variants using a variant caller (e.g., GATK, FreeBayes)
+to identify single nucleotide variants (SNVs) and small
+insertions/deletions (indels).
+4. Variant Annotation
+◦ Annotate the identified variants using a comprehensive
+annotation tool (e.g., ANNOVAR, VEP) to determine their
+potential clinical relevance.
+D) Quality Control and Validation
+1. Review Results
+◦ Review the variant calls and annotated data for accuracy
+and completeness.
+◦ Compare the results with internal and external control
+samples to ensure consistency and reliability.
+2. Clinical Interpretation
+◦ Interpret the identified variants in the context of hereditary
+cancer risk. Consult relevant databases (e.g., ClinVar,
+HGMD) and literature as necessary.
+3. Report Generation
+◦ Generate a comprehensive report detailing the findings and
+their potential clinical significance.
+◦ Ensure the report is reviewed and signed off by a qualified
+clinical geneticist or pathologist.
+E) Documentation and Reporting
+1. Document Control
+◦ Maintain detailed records of all analytical steps, including
+DNA extraction, library preparation, sequencing run
+configuration, and data analysis.
+◦ Document any corrective actions taken and the outcomes.
+2. Result Reporting
+◦ Report results to the ordering physician or clinician through
+the Laboratory Information System (LIS).
+◦ Ensure that results are communicated clearly and promptly.
+6. QUALITY CONTROL
+• Perform regular quality control checks and validation exercises to
+ensure the NGS platform and bioinformatics pipeline are
+performing optimally.
+• Participate in external proficiency testing programs to maintain
+compliance with CLIA guidelines.
+7. REFERENCES
+• Manufacturer’s instructions for DNA extraction, library preparation
+kits, and sequencing platforms.
+• Bioinformatics tools documentation (e.g., FastQC, BWA, GATK,
+ANNOVAR).
+• Relevant databases for variant interpretation (e.g., ClinVar,
+HGMD).
+8. ATTACHMENTS
+• Sequencing run logs
+• Data analysis logs
+• Quality control logs
+• Example report template
+9. REVISION HISTORY
+• Document version and revision history.
+This SOP is effective as of [Date] and must be reviewed and
+approved by the laboratory management team for compliance with
+current practices and regulatory requirements.

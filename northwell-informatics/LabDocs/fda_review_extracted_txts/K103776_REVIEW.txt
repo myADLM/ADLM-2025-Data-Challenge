@@ -1,0 +1,4464 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K103776
+B. Purpose for Submission:
+An updated version of the Luminex RVP with a different Intended Use and an abbreviated
+testing process.
+C. Measurand:
+Influenza A, Influenza A subtype H1, Influenza A subtype H3, Influenza B, Respiratory
+Syncytial Virus, Human Metapneumovirus, Rhinovirus, and Adenovirus nucleic acids target
+sequences.
+D. Type of Test:
+A multiplexed nucleic acid test followed by Universal Tag sorting on the Luminex®100/200
+platform for the qualitative in vitro detection and identification of multiple respiratory pathogen
+nucleic acids in nasopharyngeal swabs (NPS) obtained from individuals suspected of respiratory
+tract infections.
+E. Applicant:
+Luminex Molecular Diagnostics, Inc
+F. Proprietary and Established Names:
+xTAG®Respiratory Viral Panel FAST
+Common Name: RVP FAST
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 866.3980 Respiratory Viral Panel Multiplex Nucleic Acid Assay
+2. Classification:
+Class II
+3. Product code:
+OCC, OEM, OEP
+4. Panel:
+Microbiology (83)
+H. Intended Use:
+1. Intended use:
+1
+
+--- Page 2 ---
+The xTAG® Respiratory Viral Panel Fast (RVP FAST) is a qualitative nucleic acid
+multiplex test intended for the simultaneous detection and identification of multiple
+respiratory virus nucleic acids in nasopharyngeal swabs from individuals suspected of
+respiratory tract infections. The following virus types and subtypes are identified using
+RVP FAST: Influenza A, Influenza A subtype H1, Influenza A subtype H3, Influenza B,
+Respiratory Syncytial Virus, Human Metapneumovirus, Rhinovirus, and Adenovirus. The
+detection and identification of specific viral nucleic acids from individuals exhibiting
+signs and symptoms of respiratory infection aids in the diagnosis of respiratory viral
+infection if used in conjunction with other clinical and epidemiological information.
+Negative results do not preclude respiratory viral infection and should not be used as the
+sole basis for diagnosis, treatment or other management decisions. Positive results do not
+rule out bacterial infection or co-infection with other organisms. The agent detected may
+not be the definite cause of disease. The use of additional laboratory testing (e.g.,
+bacterial and viral culture, immunofluorescence, and radiography) and clinical
+presentation must be taken into consideration in order to obtain the final diagnosis of
+respiratory infection.
+Due to the genetic similarity between human rhinovirus and enterovirus, the RVP FAST
+primers for detection of rhinovirus cross-react with enterovirus. A rhinovirus reactive
+result should be confirmed by an alternate method (e.g., cell culture).
+Performance characteristics for Influenza A Virus were established when Influenza A/H3
+and A/H1 were the predominant Influenza A viruses in circulation. When other Influenza
+A viruses are emerging, performance characteristics may vary. If infections with a novel
+Influenza A virus is suspected based on current clinical and epidemiological screening
+criteria recommended by public health authorities, specimens should be collected with
+appropriate infection control precautions for novel virulent Influenza viruses and sent to a
+state or local health department for testing. Viral culture should not be attempted in these
+cases unless a BSL 3+ facility is available to receive and culture specimens.
+2. Indication for Use:
+Same as Intended Use
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+Luminex 100/200 instrument
+I. Device Description:
+RVP FAST is a PCR-based system for detecting viral nucleic acids in clinical specimens.
+The primers and probes of the RVP FAST have been designed to specifically target
+unique regions in the RNA / DNA of each virus listed in the intended use. Amplified
+products are sorted and analyzed on the Luminex 100 or 200 instrument, which generates
+2
+
+--- Page 3 ---
+signals based on the acquisition of spectrofluorometric data. The raw signals are median
+fluorescence intensities (MFI) which are captured in a Luminex Output.csv file that is
+subsequently analyzed by the xTAG Data Analysis Software (TDAS RVP FAST) to
+establish the presence or absence of the viral nucleic acids hybridized to Luminex
+microsphere population. A summary of the RVP FAST assays and targets is presented in
+Table 1:
+Table 1. Gene Targets Used for RVP FAST Analytes
+RVP FAST Analytes Gene Targets
+RSV RNA-dependent RNA polymerase (L) gene
+Influenza A matrix protein 1 (M1)
+H1 hemagglutinin (HA) gene
+H3 hemagglutinin (HA) gene
+Influenza B hemagglutinin (HA) gene
+Rhinovirus 5' untranslated region
+Human Metapneumovirus nucleoprotein (N) gene
+Adenovirus hexon protein
+Table 2. Reagents Supplied in the Kit
+Volume for 96
+Reagent Storage Conditions
+Tests
+xTAG® RVP FAST Primer Mix 192 µL x 1 vial Store at -25°C to -15°C upon receipt.
+xTAG® OneStep Enzyme Mix 57 µL x 3 vials
+xTAG® OneStep Buffer, 5X 1.0 mL x 1 vial
+xTAG® dNTP Mix 200 µL x 1 vial
+xTAG® RNase-Free Water 1.9 mL x 1 vial
+xTAG® RVP FAST Bead Mix 1.92 mL x 1 vial Store at -25°C to -15°C protected from
+light upon receipt.
+Store at 2°C to 8°C protected from light
+after first use.
+xTAG® Reporter Buffer 12.0 mL x 1 vial Store at -25°C to -15°C upon receipt.
+Store at 2°C to 8°C after first use.
+xTAG® Streptavidin, R- 120 µL x 1 vial Store at -25°C to -15°C protected from
+Phycoerythrin G15 (SA-PE) light upon receipt.
+xTAG® MS2 1.5 mL x 2 vials Store at -25°C to -15°C upon receipt.
+xTAG® Bacteriophage Lambda 200 µL x 1 vial Store at -25°C to -15°C upon receipt.
+DNA
+3
+
+[Table 1 on page 3]
+				
+Reagent		Volume for 96		Storage Conditions
+		Tests		
+xTAG® RVP FAST Primer Mix	192 µL x 1 vial			Store at -25°C to -15°C upon receipt.
+xTAG® OneStep Enzyme Mix	57 µL x 3 vials			
+xTAG® OneStep Buffer, 5X	1.0 mL x 1 vial			
+xTAG® dNTP Mix	200 µL x 1 vial			
+xTAG® RNase-Free Water	1.9 mL x 1 vial			
+xTAG® RVP FAST Bead Mix	1.92 mL x 1 vial			Store at -25°C to -15°C protected from
+light upon receipt.
+Store at 2°C to 8°C protected from light
+after first use.
+xTAG® Reporter Buffer	12.0 mL x 1 vial			Store at -25°C to -15°C upon receipt.
+Store at 2°C to 8°C after first use.
+xTAG® Streptavidin, R-
+Phycoerythrin G15 (SA-PE)	120 µL x 1 vial			Store at -25°C to -15°C protected from
+light upon receipt.
+xTAG® MS2	1.5 mL x 2 vials			Store at -25°C to -15°C upon receipt.
+xTAG® Bacteriophage Lambda
+DNA	200 µL x 1 vial			Store at -25°C to -15°C upon receipt.
+
+--- Page 4 ---
+Materials Required But Not Provided
+Equipment
+• Luminex® 100/200™ instrument (including IS or xPONENT software, calibrators and
+controls)
+• Mini centrifuge (InterScience, C-1301) or equivalent
+• Multichannel pipette (1-10 μL or 5-50 μL, 50-200 μL)
+• Pipettes (P10, P100, P200, P1000)
+• Pipetting aid
+• Racks for 1.5 mL and 0.5 mL microcentrifuge tubes
+• Racks for 0.2 mL thin wall tubes for PCR
+• Sonicator bath (Ultrasonic Cleaner, Cole-Parmer®, A-08849-00) or equivalent
+• Thermal Cycler capable of using 0.2 ml reaction tubes and 96-well reaction plates
+• PCR cooler rack (Eppendorf, 022510509) or equivalent
+• Vortex
+• Biomérieux NucliSENS® easyMAG instrument
+Consumables
+• 0.2 mL thin wall polypropylene tubes for PCR (appropriate for thermal cycler)
+• 0.5 mL or 1.5 mL polypropylene microcentrifuge tubes
+• 25 mL pipettes
+• 15 mL polypropylene tubes (Falcon® Tubes) or borosilicate glass tubes (5 or 10 mL)
+• 50 mL Falcon tubes
+• Costar® Thermowell® thin-wall polycarbonate 96-well plates (Corning) or equivalent
+• Microseal® to cover 96-well plate
+• Parafilm®
+• Aerosol resistant tips for pipettes
+• Reservoir basins
+• BioMérieux NucliSENS® easyMAG lysis buffer
+• BioMérieux NucliSENS® easyMAG extraction buffer 1
+• BioMérieux NucliSENS® easyMAG extraction buffer 2
+• BioMérieux NucliSENS® easyMAG extraction buffer 3
+• BioMérieux NucliSENS® easyMAG magnetic silica
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Luminex® xTAG™ Respiratory Viral Panel (RVP).
+2. Predicate K numbers:
+K063765, K081483, K091677
+4
+
+--- Page 5 ---
+3. Comparison with predicate(s):
+Table 3: Similarities between New Device and Predicate
+Item New Device Predicate
+(Ref. No. to be determined) (k063765, k081483, k091667)
+xTAG RVP FAST xTAG RVP
+Manufacturer Luminex Molecular Diagnostics Luminex Molecular Diagnostics
+Specimen Types Nasopharyngeal swabs Nasopharyngeal swabs
+Amplification Method Multiplex end point RT-PCR Multiplex end point RT-PCR
+Test Format Multiplex bead-based universal array Multiplex bead-based universal array
+sorting on Luminex 100/200 instrument sorting on Luminex 100/200 instrument
+Detection Method Fluorescence based Fluorescence based
+Quality Control Internal Control (E. coli phage MS2), Internal Control (E. coli phage MS2) and
+Run Control (bacteriophage Lambda Run Control (bacteriophage Lambda
+DNA), rotating analyte control and DNA), rotating analyte control and
+negative controls negative controls
+Results Qualitative Qualitative
+Instrument LX100 or LX200 LX100 or LX200
+Table 4: Differences between New Device and Predicate
+Item New Device Predicate
+(k103776) (k063765, k081483, k091667)
+xTAG RVP FAST xTAG RVP
+Intended Use The xTAG® Respiratory Viral Panel The xTAG® Respiratory Viral Panel
+Fast (RVP FAST) is a qualitative (RVP) is a qualitative nucleic acid
+nucleic acid multiplex test intended multiplex test intended for the
+for the simultaneous detection and simultaneous detection and
+identification of multiple respiratory identification of multiple respiratory
+virus nucleic acids in nasopharyngeal virus nucleic acids in nasopharyngeal
+swabs from individuals suspected of swabs from individuals suspected of
+respiratory tract infections. The respiratory tract infections. The
+following virus types and subtypes following virus types and subtypes are
+are identified using RVP FAST: identified using RVP: Influenza A,
+Influenza A, Influenza A subtype H1, Influenza A subtype H1, Influenza A
+Influenza A subtype H3, Influenza B, subtype H3, Influenza B, Respiratory
+Respiratory Syncytial Virus, Human Syncytial Virus subtype A, Respiratory
+Metapneumovirus, Rhinovirus, and Syncytial Virus subtype B,
+Adenovirus. The detection and Parainfluenza 1, Parainfluenza 2, and
+identification of specific viral nucleic Parainfluenza 3 virus, Human
+acids from individuals exhibiting Metapneumovirus, Rhinovirus, and
+signs and symptoms of respiratory Adenovirus. The detection and
+infection aids in the diagnosis of identification of specific viral nucleic
+respiratory viral infection if used in acids from individuals exhibiting signs
+conjunction with other clinical and and symptoms of respiratory infection
+epidemiological information. aids in the diagnosis of respiratory
+viral infection if used in conjunction
+Negative results do not preclude with other clinical and laboratory
+respiratory viral infection and should findings. It is recommended that
+not be used as the sole basis for specimens found to be negative for
+diagnosis, treatment or other Influenza B, Respiratory Syncytial
+management decisions. Positive Virus subtype A and B, Parainfluenza
+results do not rule out bacterial 1, Parainfluenza 2, Parainfluenza 3 and
+infection or co-infection with other Adenovirus, after examination using
+organisms. The agent detected may RVP be confirmed by cell culture.
+not be the definite cause of disease. Negative results do not preclude
+5
+
+[Table 1 on page 5]
+Item	New Device
+(Ref. No. to be determined)
+xTAG RVP FAST	Predicate
+(k063765, k081483, k091667)
+xTAG RVP
+Manufacturer	Luminex Molecular Diagnostics	Luminex Molecular Diagnostics
+Specimen Types	Nasopharyngeal swabs	Nasopharyngeal swabs
+Amplification Method	Multiplex end point RT-PCR	Multiplex end point RT-PCR
+Test Format	Multiplex bead-based universal array
+sorting on Luminex 100/200 instrument	Multiplex bead-based universal array
+sorting on Luminex 100/200 instrument
+Detection Method	Fluorescence based	Fluorescence based
+Quality Control	Internal Control (E. coli phage MS2),
+Run Control (bacteriophage Lambda
+DNA), rotating analyte control and
+negative controls	Internal Control (E. coli phage MS2) and
+Run Control (bacteriophage Lambda
+DNA), rotating analyte control and
+negative controls
+Results	Qualitative	Qualitative
+Instrument	LX100 or LX200	LX100 or LX200
+
+[Table 2 on page 5]
+Item	New Device
+(k103776)
+xTAG RVP FAST	Predicate
+(k063765, k081483, k091667)
+xTAG RVP
+Intended Use	The xTAG® Respiratory Viral Panel
+Fast (RVP FAST) is a qualitative
+nucleic acid multiplex test intended
+for the simultaneous detection and
+identification of multiple respiratory
+virus nucleic acids in nasopharyngeal
+swabs from individuals suspected of
+respiratory tract infections. The
+following virus types and subtypes
+are identified using RVP FAST:
+Influenza A, Influenza A subtype H1,
+Influenza A subtype H3, Influenza B,
+Respiratory Syncytial Virus, Human
+Metapneumovirus, Rhinovirus, and
+Adenovirus. The detection and
+identification of specific viral nucleic
+acids from individuals exhibiting
+signs and symptoms of respiratory
+infection aids in the diagnosis of
+respiratory viral infection if used in
+conjunction with other clinical and
+epidemiological information.
+Negative results do not preclude
+respiratory viral infection and should
+not be used as the sole basis for
+diagnosis, treatment or other
+management decisions. Positive
+results do not rule out bacterial
+infection or co-infection with other
+organisms. The agent detected may
+not be the definite cause of disease.	The xTAG® Respiratory Viral Panel
+(RVP) is a qualitative nucleic acid
+multiplex test intended for the
+simultaneous detection and
+identification of multiple respiratory
+virus nucleic acids in nasopharyngeal
+swabs from individuals suspected of
+respiratory tract infections. The
+following virus types and subtypes are
+identified using RVP: Influenza A,
+Influenza A subtype H1, Influenza A
+subtype H3, Influenza B, Respiratory
+Syncytial Virus subtype A, Respiratory
+Syncytial Virus subtype B,
+Parainfluenza 1, Parainfluenza 2, and
+Parainfluenza 3 virus, Human
+Metapneumovirus, Rhinovirus, and
+Adenovirus. The detection and
+identification of specific viral nucleic
+acids from individuals exhibiting signs
+and symptoms of respiratory infection
+aids in the diagnosis of respiratory
+viral infection if used in conjunction
+with other clinical and laboratory
+findings. It is recommended that
+specimens found to be negative for
+Influenza B, Respiratory Syncytial
+Virus subtype A and B, Parainfluenza
+1, Parainfluenza 2, Parainfluenza 3 and
+Adenovirus, after examination using
+RVP be confirmed by cell culture.
+Negative results do not preclude
+
+--- Page 6 ---
+The use of additional laboratory respiratory virus infection and should
+testing (e.g. bacterial and viral not be used as the sole basis for
+culture, immunofluorescence, and diagnosis, treatment or other
+radiography) and clinical presentation management decisions. Positive
+must be taken into consideration in results do not rule out bacterial
+order to obtain the final diagnosis of infection, or co-infection with other
+respiratory infection. viruses. The agent detected may not be
+the definite cause of disease. The use
+Due to the genetic similarity between of additional laboratory testing (e.g.
+human Rhinovirus and Enterovirus, bacterial culture, immunofluorescence,
+the RVP FAST primers for the radiography) and clinical presentation
+detection of rhinovirus cross react must be taken into consideration in
+with enterovirus. A rhinovirus order to obtain the final diagnosis of
+reactive result should be confirmed respiratory viral infection. Due to
+by an alternate method (e.g. cell seasonal prevalence, performance
+culture). characteristics for Influenza A/H1 were
+established primarily with
+Performance characteristics for retrospective specimens. The RVP
+Influenza A Virus were established assay cannot adequately detect
+when Influenza A/H3 and A/H1 were Adenovirus species C, or serotypes 7a
+the predominant Influenza A viruses and 41. The RVP primers for detection
+in circulation. When other Influenza of rhinovirus cross-react with
+A viruses are emerging, performance enterovirus. A rhinovirus reactive
+characteristics may vary. If infection result should be confirmed by an
+with a novel Influenza A virus is alternate method (e.g. cell culture).
+suspected based on current clinical Performance characteristics for
+and epidemiological screening criteria Influenza A Virus were established
+recommended by public health when Influenza A/H3 and A/H1 were
+authorities, specimens should be the predominant Influenza A viruses in
+collected with appropriate infection circulation. When other Influenza A
+control precautions for novel virulent viruses are emerging, performance
+Influenza viruses and sent to a state characteristics may vary. If infections
+or local health departments for with a novel Influenza A virus is
+testing. Viral culture should not be suspected based on current clinical and
+attempted in these cases unless a BSL epidemiological screening criteria
+3+ facility is available to receive and recommended by public health
+culture specimens. authorities, specimens should be
+collected with appropriate infection
+control precautions for novel virulent
+Influenza viruses and sent to a state or
+local health department for testing.
+Viral culture should not be attempted
+in these cases unless a BSL 3+ facility
+is available to receive and culture
+specimens.
+Targets Reported Influenza A, Influenza A subtype H1, Influenza A, Influenza A subtype H1,
+Influenza A subtype H3, Influenza B, Influenza A subtype H3, Influenza B,
+Respiratory Syncytial Virus, Human Respiratory Syncytial Virus, Human
+Metapneumovirus, Rhinovirus, and Metapneumovirus, Rhinovirus,
+Adenovirus Adenovirus, Parainfluenza 1,
+Parainfluenza 2 and Parainfluenza 3
+Sample Preparation Biomérieux NucliSENS® EasyMag® QIAGEN QIAamp MiniElute,
+Biomérieux NucliSENS® EasyMag®,
+and Biomérieux MiniMag™
+Amplification Enzyme xTAG® OneStep Enzyme Mix xTAG® OneStep Enzyme Mix and
+ancillary reagent TaKaRa Taq™ Hot
+6
+
+[Table 1 on page 6]
+	The use of additional laboratory
+testing (e.g. bacterial and viral
+culture, immunofluorescence, and
+radiography) and clinical presentation
+must be taken into consideration in
+order to obtain the final diagnosis of
+respiratory infection.
+Due to the genetic similarity between
+human Rhinovirus and Enterovirus,
+the RVP FAST primers for the
+detection of rhinovirus cross react
+with enterovirus. A rhinovirus
+reactive result should be confirmed
+by an alternate method (e.g. cell
+culture).
+Performance characteristics for
+Influenza A Virus were established
+when Influenza A/H3 and A/H1 were
+the predominant Influenza A viruses
+in circulation. When other Influenza
+A viruses are emerging, performance
+characteristics may vary. If infection
+with a novel Influenza A virus is
+suspected based on current clinical
+and epidemiological screening criteria
+recommended by public health
+authorities, specimens should be
+collected with appropriate infection
+control precautions for novel virulent
+Influenza viruses and sent to a state
+or local health departments for
+testing. Viral culture should not be
+attempted in these cases unless a BSL
+3+ facility is available to receive and
+culture specimens.	respiratory virus infection and should
+not be used as the sole basis for
+diagnosis, treatment or other
+management decisions. Positive
+results do not rule out bacterial
+infection, or co-infection with other
+viruses. The agent detected may not be
+the definite cause of disease. The use
+of additional laboratory testing (e.g.
+bacterial culture, immunofluorescence,
+radiography) and clinical presentation
+must be taken into consideration in
+order to obtain the final diagnosis of
+respiratory viral infection. Due to
+seasonal prevalence, performance
+characteristics for Influenza A/H1 were
+established primarily with
+retrospective specimens. The RVP
+assay cannot adequately detect
+Adenovirus species C, or serotypes 7a
+and 41. The RVP primers for detection
+of rhinovirus cross-react with
+enterovirus. A rhinovirus reactive
+result should be confirmed by an
+alternate method (e.g. cell culture).
+Performance characteristics for
+Influenza A Virus were established
+when Influenza A/H3 and A/H1 were
+the predominant Influenza A viruses in
+circulation. When other Influenza A
+viruses are emerging, performance
+characteristics may vary. If infections
+with a novel Influenza A virus is
+suspected based on current clinical and
+epidemiological screening criteria
+recommended by public health
+authorities, specimens should be
+collected with appropriate infection
+control precautions for novel virulent
+Influenza viruses and sent to a state or
+local health department for testing.
+Viral culture should not be attempted
+in these cases unless a BSL 3+ facility
+is available to receive and culture
+specimens.
+Targets Reported	Influenza A, Influenza A subtype H1,
+Influenza A subtype H3, Influenza B,
+Respiratory Syncytial Virus, Human
+Metapneumovirus, Rhinovirus, and
+Adenovirus	Influenza A, Influenza A subtype H1,
+Influenza A subtype H3, Influenza B,
+Respiratory Syncytial Virus, Human
+Metapneumovirus, Rhinovirus,
+Adenovirus, Parainfluenza 1,
+Parainfluenza 2 and Parainfluenza 3
+Sample Preparation	Biomérieux NucliSENS® EasyMag®	QIAGEN QIAamp MiniElute,
+Biomérieux NucliSENS® EasyMag®,
+and Biomérieux MiniMag™
+Amplification Enzyme	xTAG® OneStep Enzyme Mix	xTAG® OneStep Enzyme Mix and
+ancillary reagent TaKaRa Taq™ Hot
+
+--- Page 7 ---
+Start
+Primer Mixes One primer mix (PCR and TSPE Two primer mixes (1 for PCR and 1
+combined) for TSPE)
+Software xTAG Data Analysis Software RVP xTAG Data Analysis Software RVP
+FAST (US) (US)
+K. Standard/Guidance Documents Referenced (if applicable):
+Table 5: Guidance Documents
+Title Date
+1 Class II Special Controls Guidance: Respiratory Viral Panel Multiplex Nucleic Acid Oct. 9, 2009
+Assay
+2 Class II Special Control Guidance Document: Testing for Detection and Oct. 9, 2009
+Differentiation of Influenza A Virus Subtypes Using Multiplex Assays
+3 Guidance (Draft) for Establishing the Performance Characteristics of In Vitro Feb. 15, 2008
+Diagnostic Devices for the Detection or Detection and Differentiation of Influenza
+Viruses
+4 Guidance for In Vitro Diagnostic Devices to Detect Influenza A Viruses: Labeling May 1, 2007
+and Regulatory Path
+5 Class II Special Controls Guidance: Reagents for Detection of Specific Novel Mar. 22, 2006
+Influenza A Viruses
+6 Class II Special Control Guidance Document: “Testing for Human Metapneumovirus Oct. 9, 2009
+(hMPV) Using Nucleic Acid Assays”
+7 Guidance for the Content of Premarket Submissions for Software Contained in May 11, 2005
+Medical Devices
+8 Guidance document for Format for Traditional and Abbreviated 510(k)s Aug. 12, 2005
+L. Test Principle:
+RVP FAST incorporates multiplex Reverse-Transcriptase Polymerase Chain Reaction (RT-
+PCR) with Luminex’s Universal Tag sorting system on the Luminex® platform. The assay
+also detects an internal control (E. coli phage MS2) which should be added to each sample
+prior to extraction, and a run control (bacteriophage Lambda DNA) which should be added
+as a separate RT-PCR reaction in each run performed.
+For each sample, viral extract (RNA or DNA) is amplified in a single multiplex RT-PCR
+reaction. For each of the viruses/subtypes or internal control present in the sample, PCR
+amplimers are produced. The RT-PCR product is then added to a hybridization/detection
+reaction containing the universal bead array and the Streptavidin-R-Phycoerythrin reporter.
+Each Luminex bead population detects a specific viral target or assay control through a
+highly specific anti-tag/tag hybridization. Following the incubation of the RT-PCR products
+with the bead mix and reporter, the hybridization/detection reactions are sorted and
+fluorescent signal is captured on the Luminex instrument. These fluorescence values (median
+fluorescence intensity, MFI) generated for each bead population are analyzed to establish the
+presence or absence of viral targets and/or controls in each sample tested. The data generated
+by the xMAP instrument is analyzed by the xTAG Data Analysis Software RVP Fast (TDAS
+RVP FAST) to provide a qualitative summary report on which viruses are present in the
+sample, if any.
+7
+
+[Table 1 on page 7]
+		Start
+Primer Mixes	One primer mix (PCR and TSPE
+combined)	Two primer mixes (1 for PCR and 1
+for TSPE)
+Software	xTAG Data Analysis Software RVP
+FAST (US)	xTAG Data Analysis Software RVP
+(US)
+
+[Table 2 on page 7]
+	Title	Date
+1	Class II Special Controls Guidance: Respiratory Viral Panel Multiplex Nucleic Acid
+Assay	Oct. 9, 2009
+2	Class II Special Control Guidance Document: Testing for Detection and
+Differentiation of Influenza A Virus Subtypes Using Multiplex Assays	Oct. 9, 2009
+3	Guidance (Draft) for Establishing the Performance Characteristics of In Vitro
+Diagnostic Devices for the Detection or Detection and Differentiation of Influenza
+Viruses	Feb. 15, 2008
+4	Guidance for In Vitro Diagnostic Devices to Detect Influenza A Viruses: Labeling
+and Regulatory Path	May 1, 2007
+5	Class II Special Controls Guidance: Reagents for Detection of Specific Novel
+Influenza A Viruses	Mar. 22, 2006
+6	Class II Special Control Guidance Document: “Testing for Human Metapneumovirus
+(hMPV) Using Nucleic Acid Assays”	Oct. 9, 2009
+7	Guidance for the Content of Premarket Submissions for Software Contained in
+Medical Devices	May 11, 2005
+8	Guidance document for Format for Traditional and Abbreviated 510(k)s	Aug. 12, 2005
+
+--- Page 8 ---
+Interpretation of Results
+Each sample includes an individual column for each viral target, the internal control
+(bacteriophage MS2) and the run control (bacteriophage Lambda). Additionally,
+characterized positive controls and a negative control (RNase-free water) should be included
+with each run.
+Control Calls (Internal and Run Control)
+• PRES - the recommended Internal / Run Control is detected (MFI ≥ 800)
+• ABS - the recommended Internal / Run Control is not detected (MFI < 800)
+• No Call - unable to determine presence or absence of the Internal / Run Control due to an
+assay-specific criterion not being met (see Tables 6-7 for re-test recommendations).
+Note: TDAS RVP FAST (US) uses notes in the Notes column and the
+Warnings/Errors section of the data file to determine whether there was a
+problem during reading. TDAS RVP FAST (US) does not interpret the data if the
+system gives a “Sample Empty” or ”User cancel” in the Notes column, or reports
+an error status for a sample. DO NOT EDIT the Luminex data file at any time or
+TDAS RVP FAST (US) cannot correctly interpret the data.
+External Controls (Negative and Positive Controls)
+At least one negative control should be included in the run. The software considers the last
+sample on the plate to be the external negative control. If the external negative control fails,
+then a message appears and the plate fails (see Table 7 for Re-Run recommendations).
+Characterized external positive controls should be included in the run. If a given analyte
+positive control does not perform as expected, all results for that analyte in the batch of
+samples are invalid and samples should be re-run (see Table 7 for Re-Run
+recommendations).
+Viral Target (Sample) Calls (except Influenza A)
+• POS - the viral target is detected. The positive thresholds for each target are provided
+below:
+• Influenza B (MFI ≥ 400)
+• RSV-probe 1 (MFI ≥ 120) or RSV-probe 2 (MFI ≥ 150)
+• Rhinovirus (MFI ≥ 300)
+• Human Metapneumovirus (MFI ≥ 200)
+• Adenovirus (MFI ≥ 150)
+• NEG - the viral target is not detected. The negative thresholds for each target is provided
+below:
+• Influenza B (MFI < 400)
+• RSV-probe 1 (MFI < 120) and RSV-probe 2 (MFI < 150)
+• Rhinovirus (MFI < 300)
+8
+
+--- Page 9 ---
+• Human Metapneumovirus (MFI < 200)
+• Adenovirus (MFI < 150)
+• No Call - invalid result due to a failure in one or more assay parameters / controls (refer
+to Tables 6-7 for re-test recommendations)
+Influenza A (Sample) Calls
+• The viral target is detected. The positive thresholds are provided below:
+• H1 D - the Influenza A H1 subtype (seasonal H1) (MFI ≥ 450) and the Influenza
+A matrix gene are detected
+(MFI ≥ 300)
+• H3 D - the Influenza A H3 subtype (MFI ≥ 200) and the Influenza A matrix gene
+are detected (MFI ≥ 300)
+• H1, H3 D - the Influenza A H1 (seasonal H1), the H3 (seasonal H3) subtypes and
+the Influenza A matrix gene are detected
+• Ut D - the Influenza A matrix gene is detected and both the H1 and H3 subtypes
+are not detected. NOTE: please refer to. Influenza A precautions listed below).
+• NEG - the viral target is not detected and all thresholds must be negative. The negative
+thresholds are provided below:
+• Flu A matrix (MFI < 300)
+• H1 (MFI < 450)
+• H3 (MFI < 200)
+• No Call - an invalid result due to a failure in one or more assay parameters / controls (see
+re-test recommendations below Tables 6-7)
+It is recommended that the sample be re-tested once according to the instructions
+provided in Table 6 and 7. If a re-test needs to be carried out due to an invalid result
+producing a "No Call" for a sample or target, the re-test results should be considered the
+final result for that sample or target. For analytes other than influenza, if the final RVP
+FAST result is a "No Call" then follow-up testing is recommended. For detection of
+Influenza A H1 and H3 subtypes, specific precautions listed below must be followed:
+o Unsubtypeable (i.e., Influenza A matrix gene is detected), but not for H1 and H3
+Subtype: If RVP FAST positively identifies the Flu A matrix gene target but fails to
+identify a hemagglutinin gene target (H1 or H3), retest the sample with RVP FAST from
+the extraction step with external controls for these two analytes. Run sample extract in
+duplicate. If the re-test on both replicates does not yield a positive result for H1 or H3 and
+external controls are properly typed, follow up with appropriate public health authorities
+to determine whether the unsubtypeable Flu A specimen represents a novel strain of
+Influenza A.
+o If infections with a novel Influenza A virus is suspected based on current clinical and
+epidemiological screening criteria recommended by public health authorities, specimens
+should be collected with appropriate infection control precautions for novel virulent
+Influenza viruses and sent to a state or local health department for testing. Viral culture
+9
+
+--- Page 10 ---
+should not be attempted in these cases unless a BSL 3+ facility is available to receive and
+culture specimens.
+o The performance of influenza B may vary depending on whether sequence variants that
+could potentially affect primer binding are present among the circulating influenza B
+viruses (Pabbaraju et al. 2011).
+o Scientific literature reports that some E. coli strains may be infected with
+lambdoid phages in the wild resulting in a risk of a 'present' call for the lambda
+bead in a patient sample containing a strain of E. coli infected with lambda phage.
+This does not alter the ability of RVP FAST to detect the other viral targets.
+Table 6. RVP FAST Retest Recommendations: Sample Related Issues
+TDAS Warning Message
+(For messages in the detailed
+Problem Possible Cause(s) Recommendation(s)
+views, refer to the User
+Manual)
+“Warning: Influenza A Influenza A matrix gene Novel strain of influenza A Refer to section 7
+detected but subtype could not detected but seasonal H1 or low titer specimen
+be determined. Refer to Kit and H3 subtypes not
+Package insert for further identified (FluA Ut D)
+instructions”
+"Target failed: incompatible Ambiguous calls Sample titer failure or Re-run from RNA step
+signals between targets" between Influenza A contamination (or re-extract, or obtain
+matrix gene and one of new specimen at
+its subtypes (FluA No laboratory's discretion)
+Call), i.e. POS call for
+H1 or H3 hemagglutinin
+gene in the absence of a
+POS call for the matrix
+gene
+“Sample failed: unexpected All viral target signals Sample extraction failure or Re-extract (or obtain new
+control call(s)” are not detected and did not spike in MS-2 to the specimen at laboratory’s
+internal control sample (and no viral targets discretion)
+ABSENT (No Call for were detected)
+entire sample)
+Table 7. RVP FAST Re-Test Recommendations: Instrument and Run-Related Issues
+TDAS Warning Message
+(For messages in the detailed
+Problem Possible Cause(s) Recommendation(s)
+views, refer to the User
+Manual)
+10
+
+[Table 1 on page 10]
+			
+TDAS Warning Message
+(For messages in the detailed
+views, refer to the User
+Manual)	Problem	Possible Cause(s)	Recommendation(s)
+“Warning: Influenza A
+detected but subtype could not
+be determined. Refer to Kit
+Package insert for further
+instructions”	Influenza A matrix gene
+detected but seasonal H1
+and H3 subtypes not
+identified (FluA Ut D)	Novel strain of influenza A
+or low titer specimen	Refer to section 7
+"Target failed: incompatible
+signals between targets"	Ambiguous calls
+between Influenza A
+matrix gene and one of
+its subtypes (FluA No
+Call), i.e. POS call for
+H1 or H3 hemagglutinin
+gene in the absence of a
+POS call for the matrix
+gene	Sample titer failure or
+contamination	Re-run from RNA step
+(or re-extract, or obtain
+new specimen at
+laboratory's discretion)
+“Sample failed: unexpected
+control call(s)”	All viral target signals
+are not detected and
+internal control
+ABSENT (No Call for
+entire sample)	Sample extraction failure or
+did not spike in MS-2 to the
+sample (and no viral targets
+were detected)	Re-extract (or obtain new
+specimen at laboratory’s
+discretion)
+
+[Table 2 on page 10]
+			
+TDAS Warning Message
+(For messages in the detailed
+views, refer to the User
+Manual)	Problem	Possible Cause(s)	Recommendation(s)
+
+--- Page 11 ---
+Instrument-Related Issues
+“Assay failed: low bead Plate failure (No Call for No beads collected Select a different primary
+count(s) for the primary whole plate) Too few beads collected negative control
+negative control sample”
+Incorrect probe height or
+Incorrect template/protocol Re-run from bead
+chosen hybridization step
+Beads shifting
+“Sample failed: low bead No Call for all targets No beads collected Select a different primary
+count(s) for control(s)” and No Call for internal Too few beads collected negative control
+or control of the Incorrect probe height or
+corresponding sample
+“Target(s) failed: low bead Incorrect template/protocol Re-run from bead
+count(s)” or chosen hybridization step
+No Call for targets that
+Beads shifting
+have a low bead count
+“Assay failed: ‘<instrument Plate failure (No Call for No beads collected Select a different primary
+error message>’. Check the whole plate) negative control
+Luminex instrument for
+or Time out during acquiring or
+details”
+No Call for all targets of data Re-run from bead
+or
+a sample that has a Luminex instrument error hybridization step
+“Sample failed: ‘<instrument Luminex error status
+error message>’. Check the during data acquisition
+Luminex instrument for stage
+details”
+Run-Related Issues
+“Assay failed: unexpected Plate failure (No Call for Omitting enzyme Select a different primary
+value(s) encountered for the whole plate) Omitting primer mix negative control
+primary negative control
+Omitting reporter solution or
+sample”
+Re-run from RNA step
+(re-extract at laboratory’s
+discretion)
+“Assay failed: a primary Plate failure (No Call for Contamination Re-run from RNA step
+negative control signal whole plate) (re-extract at laboratory’s
+exceeds acceptable value” discretion)
+11
+
+[Table 1 on page 11]
+					
+	Instrument-Related Issues				
+“Assay failed: low bead
+count(s) for the primary
+negative control sample”		Plate failure (No Call for
+whole plate)	No beads collected
+Too few beads collected
+Incorrect probe height
+Incorrect template/protocol
+chosen
+Beads shifting	Select a different primary
+negative control
+or
+Re-run from bead
+hybridization step	
+“Sample failed: low bead
+count(s) for control(s)”
+or
+“Target(s) failed: low bead
+count(s)”		No Call for all targets
+and No Call for internal
+control of the
+corresponding sample
+or
+No Call for targets that
+have a low bead count	No beads collected
+Too few beads collected
+Incorrect probe height
+Incorrect template/protocol
+chosen
+Beads shifting	Select a different primary
+negative control
+or
+Re-run from bead
+hybridization step	
+“Assay failed: ‘<instrument
+error message>’. Check the
+Luminex instrument for
+details”
+or
+“Sample failed: ‘<instrument
+error message>’. Check the
+Luminex instrument for
+details”		Plate failure (No Call for
+whole plate)
+or
+No Call for all targets of
+a sample that has a
+Luminex error status
+during data acquisition
+stage	No beads collected
+Time out during acquiring
+data
+Luminex instrument error	Select a different primary
+negative control
+or
+Re-run from bead
+hybridization step	
+					
+Run-Related Issues					
+“Assay failed: unexpected
+value(s) encountered for the
+primary negative control
+sample”		Plate failure (No Call for
+whole plate)	Omitting enzyme
+Omitting primer mix
+Omitting reporter solution	Select a different primary
+negative control
+or
+Re-run from RNA step
+(re-extract at laboratory’s
+discretion)	
+“Assay failed: a primary
+negative control signal
+exceeds acceptable value”		Plate failure (No Call for
+whole plate)	Contamination	Re-run from RNA step
+(re-extract at laboratory’s
+discretion)	
+
+--- Page 12 ---
+“Assay failed: ‘Sample Plate failure (No Call for Sample is empty for the Select a different primary
+Empty’ message from the whole plate) primary negative control negative control
+Luminex machine for the sample
+or
+primary negative control
+User cancelled the primary
+Re-run from bead
+sample” or
+negative control sample
+hybridization step
+“Assay failed: ‘User cancel’ during data acquisition stage
+message from the Luminex
+machine for the primary
+negative control sample”
+“Sample failed: ‘Sample No Call for all viral Sample is empty Re-run from bead
+Empty’ message from the targets and all control User cancelled the plate hybridization step
+Luminex machine for this targets
+during data acquisition stage
+well” or
+“Sample failed: ’User Cancel’
+message from the Luminex
+machine for this well”
+“Sample failed: unexpected No Call for all viral Omitting enzyme Re-run from RNA step
+value(s) encountered for targets and all control Omitting primer mix (re-extract at laboratory’s
+control(s)” targets due to discretion)
+Omitting reporter solution
+unexpected signals in
+the control target(s)
+without detecting any
+viral targets
+“Target(s) failed: unexpected No Call for targets that Time out during acquiring Re-run from RNA step
+value(s) encountered” have unexpected signals data for those targets (re-extract at laboratory’s
+discretion)
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Reproducibility was assessed by using simulated samples with viral loads generating
+MFI signals bracketing the cut-off for positive calls (from both below and above).
+Simulated samples were prepared by spiking cultured viruses into Universal
+Transport Medium (UTM). The study was conducted at three independent sites by
+two operators at each site. Each operator conducted five separate runs with each
+sample in triplicates (starting from EasyMag nucleic acids extraction) on non-
+consecutive days. Thus, there were a total of 90 replicates for each sample: (3 sites) x
+(2 operators/site) x (5 xTAG runs/operator) x 3 replicates.
+Each of the following viral analyte targets were examined in the form of simulated
+sample arranged in a dilution series: Flu A (matrix gene), Flu A (hemagglutinin H1),
+Flu A (hemagglutinin H3), Flu B, RSV A, RSV B, hMPV, Adenovirus, and
+Rhinovirus. Each target was assessed at three dilution levels: High Negative (HN),
+Low Positive (LP), and Moderate Positive (MP). RVP FAST calls (Positive and
+12
+
+[Table 1 on page 12]
+“Assay failed: ‘Sample
+Empty’ message from the
+Luminex machine for the
+primary negative control
+sample” or
+“Assay failed: ‘User cancel’
+message from the Luminex
+machine for the primary
+negative control sample”	Plate failure (No Call for
+whole plate)	Sample is empty for the
+primary negative control
+sample
+User cancelled the primary
+negative control sample
+during data acquisition stage	Select a different primary
+negative control
+or
+Re-run from bead
+hybridization step
+“Sample failed: ‘Sample
+Empty’ message from the
+Luminex machine for this
+well” or
+“Sample failed: ’User Cancel’
+message from the Luminex
+machine for this well”	No Call for all viral
+targets and all control
+targets	Sample is empty
+User cancelled the plate
+during data acquisition stage	Re-run from bead
+hybridization step
+“Sample failed: unexpected
+value(s) encountered for
+control(s)”	No Call for all viral
+targets and all control
+targets due to
+unexpected signals in
+the control target(s)
+without detecting any
+viral targets	Omitting enzyme
+Omitting primer mix
+Omitting reporter solution	Re-run from RNA step
+(re-extract at laboratory’s
+discretion)
+“Target(s) failed: unexpected
+value(s) encountered”	No Call for targets that
+have unexpected signals	Time out during acquiring
+data for those targets	Re-run from RNA step
+(re-extract at laboratory’s
+discretion)
+
+--- Page 13 ---
+Negative) generated for each viral analyte for this reproducibility study are
+summarized in Tables 8 through 15 below.
+Table 8. Summary of Flu A and H1 calls in simulated Influenza A-H1 samples
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+Flu A-H1
+(Strain:
+25th 75th
+A/Solomon # Pos # Neg Percentile Median Percent
+Islands/3/2006) Site Operator Call1 Call1 MFI MFI ile MFI % CV2
+Operator 15 0 3,931.5 4278.5 4514.0 14.88
+Site 1 Operator 15 0 4,040.0 4519.0 4603.0 7.81
+Site 1 30 0 4,033.5 4362.5 4594.0 11.66
+Operator 15 0 4,234.0 4606.0 4967.5 10.17
+Flu A – Moderate Site 2
+Operator 15 0 4,372.0 4749.0 5145.5 8.34
+Positive (MP) /
+(6.1 TCID50/mL)
+Site 2 30 0 4,318.0 4618.3 4967.5 9.15
+Operator 15 0 1,706.0 2024.0 2657.0 41.17
+Site 3
+Operator 14 1 2,022.0 2192.0 2620.5 36.53
+Site 3 29 1 1,820.0 2117.0 2620.5 38.22
+Overall
+89 1 2,620.5 4212.5 4606.0 34.09
+Total
+Operator 15 0 4,030.0 4522.0 4758.0 12.72
+Site 1 Operator 15 0 4,173.0 4448.0 4734.5 10.43
+Site 1 30 0 4,131.0 4455.5 4734.5 11.45
+Operator 15 0 4,908.0 4996.0 5493.0 7.93
+Site 2
+H1 – Moderate Operator 15 0 5,093.0 5420.0 5633.0 6.87
+Positive (MP) /
+Site 2 30 0 4,968.0 5174.5 5615.5 7.70
+(6.1 TCID50/mL)
+Operator 15 0 2,253.5 2730.0 3567.0 37.00
+Site 3
+Operator 14 1 2,572.0 3098.5 3802.0 39.81
+Site 3 29 1 2,379.0 2886.0 3567.0 37.87
+Overall
+89 1 3,425.0 4558.0 5093.0 28.19
+Total
+Flu A – Low Operator 15 0 1,489.0 1713.0 2191.5 24.94
+Positive (LP) /
+Site 1
+Operator 15 0 1,307.5 1743.0 1947.0 26.64
+(1.6 TCID50/mL)
+Site 1 30 0 1,378.0 1728.0 1953.0 25.60
+13
+
+[Table 1 on page 13]
+	Virus / Level									All Days (5 extraction days x 6 extraction runs per day)						
+	Flu A-H1		Site			Operator			# Pos
+Call1		# Neg
+Call1	25th
+Percentile
+MFI	Median
+MFI	75th
+Percent
+ile MFI	% CV2	
+	(Strain:															
+	A/Solomon															
+	Islands/3/2006)															
+Flu A – Moderate
+Positive (MP) /
+(6.1 TCID50/mL)			Site 1			Operator			15		0	3,931.5	4278.5	4514.0	14.88	
+						Operator			15		0	4,040.0	4519.0	4603.0	7.81	
+						Site 1			30		0	4,033.5	4362.5	4594.0	11.66	
+			Site 2			Operator			15		0	4,234.0	4606.0	4967.5	10.17	
+						Operator			15		0	4,372.0	4749.0	5145.5	8.34	
+						Site 2			30		0	4,318.0	4618.3	4967.5	9.15	
+			Site 3			Operator			15		0	1,706.0	2024.0	2657.0	41.17	
+						Operator			14		1	2,022.0	2192.0	2620.5	36.53	
+						Site 3			29		1	1,820.0	2117.0	2620.5	38.22	
+			Overall
+Total						89		1	2,620.5	4212.5	4606.0	34.09	
+H1 – Moderate
+Positive (MP) /
+(6.1 TCID50/mL)			Site 1			Operator			15		0	4,030.0	4522.0	4758.0	12.72	
+						Operator			15		0	4,173.0	4448.0	4734.5	10.43	
+						Site 1			30		0	4,131.0	4455.5	4734.5	11.45	
+			Site 2			Operator			15		0	4,908.0	4996.0	5493.0	7.93	
+						Operator			15		0	5,093.0	5420.0	5633.0	6.87	
+						Site 2			30		0	4,968.0	5174.5	5615.5	7.70	
+			Site 3			Operator			15		0	2,253.5	2730.0	3567.0	37.00	
+						Operator			14		1	2,572.0	3098.5	3802.0	39.81	
+						Site 3			29		1	2,379.0	2886.0	3567.0	37.87	
+			Overall
+Total						89		1	3,425.0	4558.0	5093.0	28.19	
+Flu A – Low
+Positive (LP) /
+(1.6 TCID50/mL)			Site 1			Operator			15		0	1,489.0	1713.0	2191.5	24.94	
+						Operator			15		0	1,307.5	1743.0	1947.0	26.64	
+						Site 1			30		0	1,378.0	1728.0	1953.0	25.60	
+
+[Table 2 on page 13]
+25th
+Percentile
+MFI
+
+[Table 3 on page 13]
+75th
+Percent
+ile MFI
+
+[Table 4 on page 13]
+# Pos
+Call1
+
+[Table 5 on page 13]
+# Neg
+Call1
+
+[Table 6 on page 13]
+Median
+MFI
+
+--- Page 14 ---
+Operator 15 0 1,840.0 2221.5 2862.0 39.77
+Site 2
+Operator 15 0 1,528.0 1874.0 2172.5 25.62
+Site 2 30 0 1,549.0 1982.3 2297.5 38.17
+Operator 14 1 756.5 923.0 1174.0 40.83
+Site 3
+Operator 15 0 718.0 875.0 952.5 34.70
+Site 3 29 1 733.0 878.5 1025.0 37.68
+Overall 89 1 952.5 1524.0 1953.0 48.57
+Total
+Operator 15 0 1,621.0 1698.0 1869.0 12.65
+Site 1
+Operator 15 0 1,256.5 1464.0 1953.0 29.97
+Site 1 30 0 1,335.0 1685.8 1888.5 22.36
+Operator 15 0 2,305.0 2680.5 3249.0 23.23
+Site 2
+H1 – Low Operator 15 0 1,991.0 2362.5 2710.0 20.49
+Positive (LP) /
+Site 2 30 0 2,139.0 2528.5 3002.0 22.69
+(1.6 TCID50/mL)
+Operator 14 1 1,261.5 1481.0 2346.0 45.28
+Site 3
+Operator 15 0 957.5 1168.0 1408.0 24.47
+Site 3 29 1 1,155.0 1326.0 1698.0 42.89
+Overall 89 1 1,328.0 1793.0 2346.0 39.25
+Total
+Operator 6 9 206.5 253.5 351.0 N/A
+Site 1
+Operator 8 7 214.0 326.0 401.0 N/A
+Site 1 14 16 214.0 273.3 382.0 N/A
+Operator 13 2 347.0 463.0 774.0 N/A
+Flu A – High Site 2
+Operator 13 2 504.0 605.0 936.5 N/A
+Negative (HN) /
+(4.0 x 10-1 Site 2 26 4 385.0 549.3 914.5 N/A
+TCID50/mL)
+Operator 0 15 100.5 149.0 198.0 N/A
+Site 3
+Operator 4 11 132.0 161.0 455.5 N/A
+Site 3 4 26 114.0 155.0 230.0 N/A
+Overall
+44 46 168.0 273.3 512.0 N/A
+Total
+H1 – High Site 1 Operator 6 9 258.0 358.0 455.0 N/A
+Negative (HN) /
+(40x10-1 Operator 4 11 262.0 345.0 492.0 N/A
+14
+
+[Table 1 on page 14]
+		Operator	15	0	1,528.0	1874.0	2172.5	25.62
+		Site 2	30	0	1,549.0	1982.3	2297.5	38.17
+	Site 3	Operator	14	1	756.5	923.0	1174.0	40.83
+		Operator	15	0	718.0	875.0	952.5	34.70
+		Site 3	29	1	733.0	878.5	1025.0	37.68
+	Overall
+Total		89	1	952.5	1524.0	1953.0	48.57
+H1 – Low
+Positive (LP) /
+(1.6 TCID50/mL)	Site 1	Operator	15	0	1,621.0	1698.0	1869.0	12.65
+		Operator	15	0	1,256.5	1464.0	1953.0	29.97
+		Site 1	30	0	1,335.0	1685.8	1888.5	22.36
+	Site 2	Operator	15	0	2,305.0	2680.5	3249.0	23.23
+		Operator	15	0	1,991.0	2362.5	2710.0	20.49
+		Site 2	30	0	2,139.0	2528.5	3002.0	22.69
+	Site 3	Operator	14	1	1,261.5	1481.0	2346.0	45.28
+		Operator	15	0	957.5	1168.0	1408.0	24.47
+		Site 3	29	1	1,155.0	1326.0	1698.0	42.89
+	Overall
+Total		89	1	1,328.0	1793.0	2346.0	39.25
+Flu A – High
+Negative (HN) /
+(4.0 x 10-1
+TCID50/mL)	Site 1	Operator	6	9	206.5	253.5	351.0	N/A
+		Operator	8	7	214.0	326.0	401.0	N/A
+		Site 1	14	16	214.0	273.3	382.0	N/A
+	Site 2	Operator	13	2	347.0	463.0	774.0	N/A
+		Operator	13	2	504.0	605.0	936.5	N/A
+		Site 2	26	4	385.0	549.3	914.5	N/A
+	Site 3	Operator	0	15	100.5	149.0	198.0	N/A
+		Operator	4	11	132.0	161.0	455.5	N/A
+		Site 3	4	26	114.0	155.0	230.0	N/A
+	Overall
+Total		44	46	168.0	273.3	512.0	N/A
+H1 – High
+Negative (HN) /
+(40x10-1	Site 1	Operator	6	9	258.0	358.0	455.0	N/A
+		Operator	4	11	262.0	345.0	492.0	N/A
+
+--- Page 15 ---
+Site 1 10 20 262.0 353.3 455.0 N/A
+Operator 13 2 562.5 711.5 1005.0 N/A
+Site 2
+Operator 13 2 515.0 605.0 1293.0 N/A
+Site 2 26 4 527.0 643.8 1005.0 N/A
+Operator 0 15 148.0 216.0 289.0 N/A
+Site 3
+Operator 4 11 225.0 258.0 501.0 N/A
+Site 3 4 26 189.0 235.5 324.0 N/A
+Overall 40 50 242.0 376.5 592.0 N/A
+Total
+1The total number of calls per operator was 15, per site was 30, and across all sites and operators, 90.
+2For Table 12 – 19, %CV = Standard Deviation / Mean*100; N/A = not applicable.
+Table 9. Summary of flu A and H3 calls in simulated Influenza A-H3 samples
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+25th 75th
+Flu A-H3 (Strain: # Pos # Neg Median %
+Site Operator Percentile Percentil
+A/Victoria/ 3/75) Call Call MFI CV
+MFI e MFI
+Operator 1 15 0 3,680.0 3956.0 4119.0 7.25
+Site 1
+Operator 2 15 0 3,596.0 3870.5 4084.0 8.60
+Site 1 30 0 3,632.0 3888.3 4084.0 7.82
+Operator 1 15 0 4,062.5 4406.0 4702.0 9.63
+Flu A – Moderate Site 2
+Operator 2 15 0 4,031.0 4174.0 4488.0 7.61
+Positive (MP) /
+(1.5 x 101 Site 2 30 0 4,062.5 4354.0 4642.0 8.71
+TCID50/mL)
+Operator 1 15 0 2,501.0 2891.0 2999.0 17.40
+Site 3
+Operator 2 15 0 2,512.0 2626.0 3074.0 20.25
+Site 3 30 0 2,512.0 2706.8 3070.0 18.57
+Overall
+90 0 3,070.0 3833.0 4179.5 20.86
+Total
+H3 – Moderate Operator 1 15 0 1,709.0 2008.0 2382.0 18.88
+Positive (MP) /
+Site 1
+(1.5 x 101 Operator 2 15 0 1,846.5 1935.0 2353.0 16.72
+TCID50/mL)
+Site 1 30 0 1,738.5 1971.5 2353.0 17.65
+Operator 1 15 0 2,813.0 3164.0 3254.5 8.71
+Site 2
+Operator 2 15 0 2,809.0 3031.0 3171.5 9.88
+Site 2 30 0 2,813.0 3051.3 3196.0 9.15
+Site 3 Operator 1 15 0 951.5 1265.5 1491.5 38.73
+15
+
+[Table 1 on page 15]
+Site 2	Operator	13	2	562.5	711.5	1005.0	N/A
+	Operator	13	2	515.0	605.0	1293.0	N/A
+	Site 2	26	4	527.0	643.8	1005.0	N/A
+Site 3	Operator	0	15	148.0	216.0	289.0	N/A
+	Operator	4	11	225.0	258.0	501.0	N/A
+	Site 3	4	26	189.0	235.5	324.0	N/A
+Overall
+Total		40	50	242.0	376.5	592.0	N/A
+
+[Table 2 on page 15]
+Virus / Level			All Days (5 extraction days x 6 extraction runs per day)					
+Flu A-H3 (Strain:
+A/Victoria/ 3/75)	Site	Operator	# Pos
+Call	# Neg
+Call	25th
+Percentile
+MFI	Median
+MFI	75th
+Percentil
+e MFI	%
+CV
+Flu A – Moderate
+Positive (MP) /
+(1.5 x 101
+TCID50/mL)	Site 1	Operator 1	15	0	3,680.0	3956.0	4119.0	7.25
+		Operator 2	15	0	3,596.0	3870.5	4084.0	8.60
+		Site 1	30	0	3,632.0	3888.3	4084.0	7.82
+	Site 2	Operator 1	15	0	4,062.5	4406.0	4702.0	9.63
+		Operator 2	15	0	4,031.0	4174.0	4488.0	7.61
+		Site 2	30	0	4,062.5	4354.0	4642.0	8.71
+	Site 3	Operator 1	15	0	2,501.0	2891.0	2999.0	17.40
+		Operator 2	15	0	2,512.0	2626.0	3074.0	20.25
+		Site 3	30	0	2,512.0	2706.8	3070.0	18.57
+	Overall
+Total		90	0	3,070.0	3833.0	4179.5	20.86
+H3 – Moderate
+Positive (MP) /
+(1.5 x 101
+TCID50/mL)	Site 1	Operator 1	15	0	1,709.0	2008.0	2382.0	18.88
+		Operator 2	15	0	1,846.5	1935.0	2353.0	16.72
+		Site 1	30	0	1,738.5	1971.5	2353.0	17.65
+	Site 2	Operator 1	15	0	2,813.0	3164.0	3254.5	8.71
+		Operator 2	15	0	2,809.0	3031.0	3171.5	9.88
+		Site 2	30	0	2,813.0	3051.3	3196.0	9.15
+	Site 3	Operator 1	15	0	951.5	1265.5	1491.5	38.73
+
+[Table 3 on page 15]
+25th
+Percentile
+MFI
+
+[Table 4 on page 15]
+75th
+Percentil
+e MFI
+
+[Table 5 on page 15]
+Flu A-H3 (Strain:
+A/Victoria/ 3/75)
+
+[Table 6 on page 15]
+# Pos
+Call
+
+[Table 7 on page 15]
+# Neg
+Call
+
+[Table 8 on page 15]
+Median
+MFI
+
+[Table 9 on page 15]
+%
+CV
+
+--- Page 16 ---
+Operator 2 15 0 1,124.0 1251.5 1682.0 27.11
+Site 3 30 0 1,080.0 1259.3 1505.5 32.99
+Overall
+90 0 1,492.0 2088.8 2845.5 36.53
+Total
+Operator 1 15 0 1,839.0 2054.0 2281.0 17.36
+Site 1
+Operator 2 15 0 1,732.0 1903.0 2175.0 17.35
+Site 1 30 0 1,780.5 1936.5 2215.0 17.14
+Operator 1 15 0 2,202.5 2637.0 2732.0 18.99
+Site 2
+Flu A – Low Operator 2 15 0 2,267.0 2485.5 2638.0 15.74
+Positive (LP) / (5.5
+Site 2 30 0 2,267.0 2533.0 2685.0 17.28
+TCID50/mL)
+Operator 1 14 1 1,050.5 1256.0 1439.0 34.16
+Site 3
+Operator 2 15 0 1,191.5 1433.5 1704.0 22.87
+Site 3 29 1 1,152.5 1373.0 1503.0 28.88
+Overall
+89 1 1,460.0 1905.0 2446.0 31.44
+Total
+Operator 1 15 0 601.5 776.5 930.0 24.31
+Site 1
+Operator 2 15 0 610.0 771.0 888.5 18.76
+Site 1 30 0 610.0 773.8 889.0 21.56
+Operator 1 15 0 1,106.0 1219.0 1489.0 20.43
+Site 2
+Operator 2 15 0 1,129.0 1354.0 1580.0 25.51
+H3 – Low Positive
+(LP) / (5.5
+Site 2 30 0 1,125.0 1305.5 1509.5 23.17
+TCID50/mL)
+Operator 1 14 1 291.0 401.0 512.0 50.52
+Site 3
+Operator 2 15 0 383.0 543.0 567.5 24.92
+Site 3 29 1 328.0 473.0 547.5 38.36
+Overall
+89 1 535.0 773.8 1125.0 50.38
+Total
+Flu A – High Operator 1 14 1 591.5 675.0 771.5 N/A
+Negative (HN) / Site 1
+Operator2 15 0 459.5 647.5 857.5 N/A
+(1.8 TCID50/mL)
+Site1 29 1 483.0 652.3 801.0 N/A
+Operator1 15 0 822.0 1059.0 1247.0 N/A
+Site 2
+Operator2 15 0 706.5 786.5 1045.0 N/A
+Site2 30 0 735.0 914.3 1138.0 N/A
+Site3 Operator1 4 11 204.5 259.0 314.0 N/A
+16
+
+[Table 1 on page 16]
+		Site 3	30	0	1,080.0	1259.3	1505.5	32.99
+	Overall
+Total		90	0	1,492.0	2088.8	2845.5	36.53
+Flu A – Low
+Positive (LP) / (5.5
+TCID50/mL)	Site 1	Operator 1	15	0	1,839.0	2054.0	2281.0	17.36
+		Operator 2	15	0	1,732.0	1903.0	2175.0	17.35
+		Site 1	30	0	1,780.5	1936.5	2215.0	17.14
+	Site 2	Operator 1	15	0	2,202.5	2637.0	2732.0	18.99
+		Operator 2	15	0	2,267.0	2485.5	2638.0	15.74
+		Site 2	30	0	2,267.0	2533.0	2685.0	17.28
+	Site 3	Operator 1	14	1	1,050.5	1256.0	1439.0	34.16
+		Operator 2	15	0	1,191.5	1433.5	1704.0	22.87
+		Site 3	29	1	1,152.5	1373.0	1503.0	28.88
+	Overall
+Total		89	1	1,460.0	1905.0	2446.0	31.44
+H3 – Low Positive
+(LP) / (5.5
+TCID50/mL)	Site 1	Operator 1	15	0	601.5	776.5	930.0	24.31
+		Operator 2	15	0	610.0	771.0	888.5	18.76
+		Site 1	30	0	610.0	773.8	889.0	21.56
+	Site 2	Operator 1	15	0	1,106.0	1219.0	1489.0	20.43
+		Operator 2	15	0	1,129.0	1354.0	1580.0	25.51
+		Site 2	30	0	1,125.0	1305.5	1509.5	23.17
+	Site 3	Operator 1	14	1	291.0	401.0	512.0	50.52
+		Operator 2	15	0	383.0	543.0	567.5	24.92
+		Site 3	29	1	328.0	473.0	547.5	38.36
+	Overall
+Total		89	1	535.0	773.8	1125.0	50.38
+Flu A – High
+Negative (HN) /
+(1.8 TCID50/mL)	Site 1	Operator 1	14	1	591.5	675.0	771.5	N/A
+		Operator2	15	0	459.5	647.5	857.5	N/A
+		Site1	29	1	483.0	652.3	801.0	N/A
+	Site 2	Operator1	15	0	822.0	1059.0	1247.0	N/A
+		Operator2	15	0	706.5	786.5	1045.0	N/A
+		Site2	30	0	735.0	914.3	1138.0	N/A
+	Site3	Operator1	4	11	204.5	259.0	314.0	N/A
+
+--- Page 17 ---
+Operator2 11 4 292.0 443.5 500.0 N/A
+Site3 15 15 230.0 303.8 447.5 N/A
+Overall
+74 16 427.0 639.0 891.0 N/A
+Total
+Operator 1 11 4 191.0 223.0 274.0 N/A
+Site 1
+Operator2 11 4 175.0 223.0 270.0 N/A
+Site1 22 8 191.0 223.0 271.5 N/A
+Operator1 14 1 304.5 341.0 440.0 N/A
+Site 2
+Operator2 15 0 322.0 383.5 515.0 N/A
+H3 – High
+Negative (HN) / Site2 29 1 311.0 358.5 440.0 N/A
+(1.8 TCID50/mL)
+Operator1 1 14 116.0 134.5 163.5 N/A
+Site 3
+Operator2 7 8 132.0 183.5 227.0 N/A
+Site3 8 22 123.0 147.0 200.5 N/A
+Overall
+Total 59 31 163.5 228.3 334.0 N/A
+Table 10. Summary of Flu B calls in simulated Influenza B samples
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+Flu B (Strain: 25th 75th
+# Pos # Neg Median
+B/Malaysia2506/0 Site Operator Percentile Percentile %CV
+Call Call MFI
+4) MFI MFI
+Operator 1 15 0 3,690.0 4155.0 4855.0 14.30
+Site 1
+Operator 2 15 0 3,966.0 4189.0 4578.0 11.17
+Site 1 Total 30 0 3,923.0 4184.5 4578.0 12.64
+Operator 1 15 0 3,804.0 4111.0 4758.0 20.85
+Site 2
+Flu B - Moderate Operator 2 15 0 3,567.0 3769.0 4167.5 9.26
+Positive (MP) / (1.1
+Site 2 Total 30 0 3,715.5 4007.5 4428.0 16.15
+x 10-1 TCID50/mL)
+Operator 1 15 0 2,435.0 2803.5 3191.0 17.94
+Site 3
+Operator 2 15 0 2,138.0 2930.0 3403.0 23.73
+Site 3 Total 30 0 2,435.0 2895.8 3341.0 20.89
+Overall
+90 0 3,275.0 3780.0 4196.0 22.72
+Total
+Flu B - Low Site 1 Operator 1 15 0 1,663.0 1770.5 2434.0 22.28
+Positive (LP) / (2.9
+x10-2TCID50/mL) Operator 2 15 0 1,657.0 1886.5 2191.0 18.25
+17
+
+[Table 1 on page 17]
+		Site3	15	15	230.0	303.8	447.5	N/A
+	Overall
+Total		74	16	427.0	639.0	891.0	N/A
+H3 – High
+Negative (HN) /
+(1.8 TCID50/mL)	Site 1	Operator 1	11	4	191.0	223.0	274.0	N/A
+		Operator2	11	4	175.0	223.0	270.0	N/A
+		Site1	22	8	191.0	223.0	271.5	N/A
+	Site 2	Operator1	14	1	304.5	341.0	440.0	N/A
+		Operator2	15	0	322.0	383.5	515.0	N/A
+		Site2	29	1	311.0	358.5	440.0	N/A
+	Site 3	Operator1	1	14	116.0	134.5	163.5	N/A
+		Operator2	7	8	132.0	183.5	227.0	N/A
+		Site3	8	22	123.0	147.0	200.5	N/A
+	Overall
+Total		59	31	163.5	228.3	334.0	N/A
+
+[Table 2 on page 17]
+								
+Virus / Level			All Days (5 extraction days x 6 extraction runs per day)					
+								
+Flu B (Strain:
+B/Malaysia2506/0
+4)	Site	Operator	# Pos
+Call	# Neg
+Call	25th
+Percentile
+MFI	Median
+MFI	75th
+Percentile
+MFI	%CV
+Flu B - Moderate
+Positive (MP) / (1.1
+x 10-1 TCID50/mL)	Site 1	Operator 1	15	0	3,690.0	4155.0	4855.0	14.30
+		Operator 2	15	0	3,966.0	4189.0	4578.0	11.17
+		Site 1 Total	30	0	3,923.0	4184.5	4578.0	12.64
+	Site 2	Operator 1	15	0	3,804.0	4111.0	4758.0	20.85
+		Operator 2	15	0	3,567.0	3769.0	4167.5	9.26
+		Site 2 Total	30	0	3,715.5	4007.5	4428.0	16.15
+	Site 3	Operator 1	15	0	2,435.0	2803.5	3191.0	17.94
+		Operator 2	15	0	2,138.0	2930.0	3403.0	23.73
+		Site 3 Total	30	0	2,435.0	2895.8	3341.0	20.89
+	Overall
+Total		90	0	3,275.0	3780.0	4196.0	22.72
+Flu B - Low
+Positive (LP) / (2.9
+x10-2TCID50/mL)	Site 1	Operator 1	15	0	1,663.0	1770.5	2434.0	22.28
+		Operator 2	15	0	1,657.0	1886.5	2191.0	18.25
+
+[Table 3 on page 17]
+Flu B (Strain:
+B/Malaysia2506/0
+4)
+
+[Table 4 on page 17]
+75th
+Percentile
+MFI
+
+[Table 5 on page 17]
+# Pos
+Call
+
+[Table 6 on page 17]
+Median
+MFI
+
+--- Page 18 ---
+Site 1 Total 30 0 1,663.0 1878.3 2199.0 20.01
+Operator 1 15 0 1,896.0 2187.0 2303.5 12.82
+Site 2
+Operator 2 15 0 1,618.0 1849.5 2026.0 16.21
+Site 2 Total 30 0 1,732.0 1965.0 2191.0 16.01
+Operator 1 15 0 868.0 1222.0 1627.0 34.89
+Site 3
+Operator 2 15 0 1,124.5 1212.0 1650.5 24.87
+Site 3 Total 30 0 1,083.5 1217.0 1627.0 29.70
+Overall
+90 0 1,456.0 1747.5 2025.5 27.42
+Total
+Operator 1 9 6 373.5 465.5 667.0 N/A
+Site 1
+Operator 2 9 6 344.0 490.0 630.0 N/A
+Site 1 Total 18 12 373.0 480.0 630.0 N/A
+Operator 1 14 1 456.0 594.0 670.0 N/A
+Site 2
+Flu B – High Operator 2 7 8 284.5 369.5 506.5 N/A
+Negative (HN) /
+(7.2 x 10-3 Site 2 Total 21 9 369.5 472.0 630.0 N/A
+TCID50/mL)
+Operator 1 6 9 289.5 361.0 426.5 N/A
+Site 3
+Operator 2 7 8 215.0 383.5 459.0 N/A
+Site 3 Total 13 17 260.0 366.5 433.0 N/A
+Overall
+52 38 344.0 421.5 565.0 N/A
+Total
+Table 11. Summary of RSV calls in simulated RSV A samples
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+RSV A (Strain: 75th
+# Pos # Neg 25th Percentile Median
+Long strain Site Operator Percentile % CV
+Call Call MFI MFI
+ATCC VR-26 MFI
+RSV A – Moderate Operator 1 15 0 1,141.5 1237.0 1774.0 60.64
+Positive (MP) /
+Site 1
+Operator 2 15 0 1,285.0 1818.0 2565.0 44.50
+(3.5 TCID50/mL)
+Site 1 Total 30 0 1,145.5 1406.3 2042.0 52.24
+Operator 1 15 0 1,891.0 2164.5 2359.0 60.54
+Site 2
+Operator 2 15 0 2,199.0 2629.5 3165.5 51.48
+Site 2 Total 30 0 1,964.0 2264.8 2932.0 55.37
+18
+
+[Table 1 on page 18]
+	Site 2	Operator 1	15	0	1,896.0	2187.0	2303.5	12.82
+		Operator 2	15	0	1,618.0	1849.5	2026.0	16.21
+		Site 2 Total	30	0	1,732.0	1965.0	2191.0	16.01
+	Site 3	Operator 1	15	0	868.0	1222.0	1627.0	34.89
+		Operator 2	15	0	1,124.5	1212.0	1650.5	24.87
+		Site 3 Total	30	0	1,083.5	1217.0	1627.0	29.70
+	Overall
+Total		90	0	1,456.0	1747.5	2025.5	27.42
+Flu B – High
+Negative (HN) /
+(7.2 x 10-3
+TCID50/mL)	Site 1	Operator 1	9	6	373.5	465.5	667.0	N/A
+		Operator 2	9	6	344.0	490.0	630.0	N/A
+		Site 1 Total	18	12	373.0	480.0	630.0	N/A
+	Site 2	Operator 1	14	1	456.0	594.0	670.0	N/A
+		Operator 2	7	8	284.5	369.5	506.5	N/A
+		Site 2 Total	21	9	369.5	472.0	630.0	N/A
+	Site 3	Operator 1	6	9	289.5	361.0	426.5	N/A
+		Operator 2	7	8	215.0	383.5	459.0	N/A
+		Site 3 Total	13	17	260.0	366.5	433.0	N/A
+	Overall
+Total		52	38	344.0	421.5	565.0	N/A
+
+[Table 2 on page 18]
+								
+Virus / Level			All Days (5 extraction days x 6 extraction runs per day)					
+								
+RSV A (Strain:
+Long strain
+ATCC VR-26	Site	Operator	# Pos
+Call	# Neg
+Call	25th Percentile
+MFI	Median
+MFI	75th
+Percentile
+MFI	% CV
+RSV A – Moderate
+Positive (MP) /
+(3.5 TCID50/mL)	Site 1	Operator 1	15	0	1,141.5	1237.0	1774.0	60.64
+		Operator 2	15	0	1,285.0	1818.0	2565.0	44.50
+		Site 1 Total	30	0	1,145.5	1406.3	2042.0	52.24
+	Site 2	Operator 1	15	0	1,891.0	2164.5	2359.0	60.54
+		Operator 2	15	0	2,199.0	2629.5	3165.5	51.48
+		Site 2 Total	30	0	1,964.0	2264.8	2932.0	55.37
+
+[Table 3 on page 18]
+RSV A (Strain:
+Long strain
+ATCC VR-26
+
+[Table 4 on page 18]
+75th
+Percentile
+MFI
+
+[Table 5 on page 18]
+# Pos
+Call
+
+[Table 6 on page 18]
+# Neg
+Call
+
+[Table 7 on page 18]
+25th Percentile
+MFI
+
+[Table 8 on page 18]
+Median
+MFI
+
+--- Page 19 ---
+Operator 1 15 0 1,186.5 1556.0 2793.5 65.26
+Site 3
+Operator 2 15 0 1,214.0 1726.0 5845.0 77.18
+Site 3 Total 30 0 1,214.0 1702.0 2987.5 75.19
+Overall
+90 0 1,309.5 1869.0 2667.0 66.04
+Total
+Operator 1 15 0 585.0 690.0 1198.0 126.13
+Site 1
+Operator 2 15 0 513.0 680.5 1062.0 83.15
+Site 1 Total 30 0 536.0 685.3 1152.5 116.70
+Operator 1 15 0 714.0 1007.0 1321.0 52.55
+Site 2
+Operator 2 15 0 947.5 1171.0 1535.0 30.00
+RSV A - – Low
+Positive (LP) / (1.8
+Site 2 Total 30 0 936.5 1098.3 1526.0 41.34
+TCID50/mL)
+Operator 1 15 0 341.5 417.0 1204.0 118.97
+Site 3
+Operator 2 15 0 527.0 689.0 1265.0 49.92
+Site 3 Total 30 0 402.5 636.0 1208.0 96.44
+Overall
+90 0 543.0 904.8 1279.0 89.11
+Total
+Operator 1 5 10 57.0 69.0 131.0 N/A
+Site 1
+Operator 2 3 12 80.0 88.0 110.5 N/A
+Site 1 Total 8 22 67.0 86.3 127.5 N/A
+Operator 1 2 13 78.5 98.0 113.0 N/A
+RSV A - High Site 2 Operator 2 5 10 87.0 107.0 122.0 N/A
+Negative (HN) / (.2
+x 10-1 Site 2 Total 7 23 86.0 102.8 116.5 N/A
+TCID50/mL)
+Operator 1 0 15 51.0 67.0 77.0 N/A
+Site 3
+Operator 2 1 14 68.0 86.5 107.5 N/A
+Site 3 Total 1 29 64.0 70.5 96.0 N/A
+Overall
+16 74 68.0 86.5 109.5 N/A
+Total
+Table 12. Summary of RSV calls in simulated RSV B samples
+19
+
+[Table 1 on page 19]
+		Operator 2	15	0	1,214.0	1726.0	5845.0	77.18
+		Site 3 Total	30	0	1,214.0	1702.0	2987.5	75.19
+	Overall
+Total		90	0	1,309.5	1869.0	2667.0	66.04
+RSV A - – Low
+Positive (LP) / (1.8
+TCID50/mL)	Site 1	Operator 1	15	0	585.0	690.0	1198.0	126.13
+		Operator 2	15	0	513.0	680.5	1062.0	83.15
+		Site 1 Total	30	0	536.0	685.3	1152.5	116.70
+	Site 2	Operator 1	15	0	714.0	1007.0	1321.0	52.55
+		Operator 2	15	0	947.5	1171.0	1535.0	30.00
+		Site 2 Total	30	0	936.5	1098.3	1526.0	41.34
+	Site 3	Operator 1	15	0	341.5	417.0	1204.0	118.97
+		Operator 2	15	0	527.0	689.0	1265.0	49.92
+		Site 3 Total	30	0	402.5	636.0	1208.0	96.44
+	Overall
+Total		90	0	543.0	904.8	1279.0	89.11
+RSV A - High
+Negative (HN) / (.2
+x 10-1
+TCID50/mL)	Site 1	Operator 1	5	10	57.0	69.0	131.0	N/A
+		Operator 2	3	12	80.0	88.0	110.5	N/A
+		Site 1 Total	8	22	67.0	86.3	127.5	N/A
+	Site 2	Operator 1	2	13	78.5	98.0	113.0	N/A
+		Operator 2	5	10	87.0	107.0	122.0	N/A
+		Site 2 Total	7	23	86.0	102.8	116.5	N/A
+	Site 3	Operator 1	0	15	51.0	67.0	77.0	N/A
+		Operator 2	1	14	68.0	86.5	107.5	N/A
+		Site 3 Total	1	29	64.0	70.5	96.0	N/A
+	Overall
+Total		16	74	68.0	86.5	109.5	N/A
+
+--- Page 20 ---
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+75th
+RSV B (Strain: 25th
+# Pos # Neg Median Perce
+Wash/ Site Operator Percentile % CV
+Call Call MFI ntile
+18537/62) MFI
+MFI
+Operator 1 15 0 1,212.0 1545.0 1930.5 26.81
+Site 1
+Operator 2 15 0 1,119.0 1419.0 2114.0 94.33
+Site 1 Total 30 0 1,197.5 1485.5 1947.0 79.94
+Operator 1 15 0 1,877.5 2528.0 3120.0 54.82
+Site 2
+Operator 2 15 0 2,358.0 3419.0 6593.0 52.24
+RSV B – Moderate
+Positive (MP) / (3.1 x
+Site 2 Total 30 0 2,239.0 2763.8 4486.0 55.63
+10-2 TCID50/mL)
+Operator 1 15 0 800.5 1050.0 1551.0 78.41
+Site 3
+Operator 2 15 0 931.0 989.0 1978.0 74.10
+Site 3 Total 30 0 900.5 991.8 1551.0 74.94
+Overall
+90 0 1,085.5 1800.5 2678.0 77.60
+Total
+Operator 1 15 0 419.0 717.0 1730.5 111.46
+Site 1
+Operator 2 15 0 375.0 542.0 1116.0 158.61
+Site 1 Total 30 0 407.0 618.8 1335.5 131.83
+Operator 1 15 0 735.0 1153.5 1465.0 52.08
+Site 2
+Operator 2 15 0 678.5 887.0 1113.5 53.25
+RSV B - – Low
+Positive (LP) / (1.1 x
+Site 2 Total 30 0 735.0 984.8 1323.5 53.00
+10-2 TCID50/mL)
+Operator 1 11 4 142.0 293.5 779.0 98.63
+Site 3
+Operator 2 15 0 352.5 655.0 1285.0 97.58
+Site 3 Total 26 4 252.0 517.0 990.5 107.76
+Overall
+86 4 407.0 720.5 1281.5 105.94
+Total
+RSV B - High Operator 1 5 10 70.0 89.0 165.5 N/A
+Negative (HN) / (2.9 x
+Site 1
+10-3 TCID50/mL) Operator 2 4 11 82.0 106.5 173.0 N/A
+Site 1 Total 9 21 82.0 103.0 165.5 N/A
+Operator 1 10 5 121.0 203.0 299.0 N/A
+Site 2
+Operator 2 8 7 82.0 152.0 218.0 N/A
+Site 2 Total 18 12 110.0 159.8 233.0 N/A
+20
+
+[Table 1 on page 20]
+										
+Virus / Level			All Days (5 extraction days x 6 extraction runs per day)							
+										
+RSV B (Strain:
+Wash/
+18537/62)	Site	Operator	# Pos
+Call	# Neg
+Call	25th
+Percentile
+MFI	Median
+MFI		75th		% CV
+								Perce		
+								ntile		
+								MFI		
+RSV B – Moderate
+Positive (MP) / (3.1 x
+10-2 TCID50/mL)	Site 1	Operator 1	15	0	1,212.0	1545.0	1930.5			26.81
+		Operator 2	15	0	1,119.0	1419.0	2114.0			94.33
+		Site 1 Total	30	0	1,197.5	1485.5	1947.0			79.94
+	Site 2	Operator 1	15	0	1,877.5	2528.0	3120.0			54.82
+		Operator 2	15	0	2,358.0	3419.0	6593.0			52.24
+		Site 2 Total	30	0	2,239.0	2763.8	4486.0			55.63
+	Site 3	Operator 1	15	0	800.5	1050.0	1551.0			78.41
+		Operator 2	15	0	931.0	989.0	1978.0			74.10
+		Site 3 Total	30	0	900.5	991.8	1551.0			74.94
+	Overall
+Total		90	0	1,085.5	1800.5	2678.0			77.60
+RSV B - – Low
+Positive (LP) / (1.1 x
+10-2 TCID50/mL)	Site 1	Operator 1	15	0	419.0	717.0	1730.5			111.46
+		Operator 2	15	0	375.0	542.0	1116.0			158.61
+		Site 1 Total	30	0	407.0	618.8	1335.5			131.83
+	Site 2	Operator 1	15	0	735.0	1153.5	1465.0			52.08
+		Operator 2	15	0	678.5	887.0	1113.5			53.25
+		Site 2 Total	30	0	735.0	984.8	1323.5			53.00
+	Site 3	Operator 1	11	4	142.0	293.5	779.0			98.63
+		Operator 2	15	0	352.5	655.0	1285.0			97.58
+		Site 3 Total	26	4	252.0	517.0	990.5			107.76
+	Overall
+Total		86	4	407.0	720.5	1281.5			105.94
+RSV B - High
+Negative (HN) / (2.9 x
+10-3 TCID50/mL)	Site 1	Operator 1	5	10	70.0	89.0	165.5			N/A
+		Operator 2	4	11	82.0	106.5	173.0			N/A
+		Site 1 Total	9	21	82.0	103.0	165.5			N/A
+	Site 2	Operator 1	10	5	121.0	203.0	299.0			N/A
+		Operator 2	8	7	82.0	152.0	218.0			N/A
+		Site 2 Total	18	12	110.0	159.8	233.0			N/A
+
+[Table 2 on page 20]
+RSV B (Strain:
+Wash/
+18537/62)
+
+[Table 3 on page 20]
+25th
+Percentile
+MFI
+
+[Table 4 on page 20]
+# Pos
+Call
+
+[Table 5 on page 20]
+# Neg
+Call
+
+[Table 6 on page 20]
+Median
+MFI
+
+--- Page 21 ---
+Operator 1 3 12 70.0 97.0 120.0 N/A
+Site 3
+Operator 2 3 12 58.0 109.0 143.0 N/A
+Site 3 Total 6 24 63.0 101.5 133.0 N/A
+Overall
+33 57 82.0 114.0 190.0 N/A
+Total
+Table 13. Summary of hMPV calls in simulated hMPV samples
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+hMPV (Strain: 25th 75th
+# Pos # Neg Median
+Subtype A2 CDC Site Operator Percentile Percent % CV
+Call Call MFI
+Isolate 26583) MFI ile MFI
+Operator 1 15 0 1,976.0 2192.0 2599.0 35.57
+Site 1
+Operator 2 15 0 2,012.5 2766.0 2853.0 17.70
+Site 1 Total 30 0 2,012.5 2362.5 2785.5 27.33
+Operator 1 15 0 2,817.0 3064.0 3575.0 31.04
+Site 2
+hMPV - Moderate Operator 2 15 0 2,897.0 3055.5 3293.0 11.53
+Positive (MP) / (3.8 x
+Site 2 Total 30 0 2,855.0 3059.8 3326.0 24.14
+101 TCID50/mL)
+Operator 1 15 0 1,151.5 1440.0 1757.0 23.82
+Site 3
+Operator 2 15 0 1,361.0 1513.0 2016.0 19.47
+Site 3 Total 30 0 1,316.5 1493.3 1769.0 21.73
+Overall
+90 0 1,757.0 2307.3 2909.0 38.16
+Total
+hMPV - Low Operator 1 15 0 889.5 1129.0 1396.5 22.91
+Positive (LP) / (1.9 x
+Site 1
+101 TCID50/mL Operator 2 15 0 870.5 1136.0 1385.0 27.94
+Site 1 Total 30 0 880.0 1132.5 1385.0 25.10
+Operator 1 15 0 1,474.5 1613.0 1911.0 19.63
+Site 2
+Operator 2 15 0 1,499.0 1716.0 2323.0 24.57
+Site 2 Total 30 0 1,476.0 1708.3 2128.0 23.06
+Operator 1 15 0 444.0 650.5 800.0 31.79
+Site 3
+Operator 2 15 0 665.0 965.0 1193.0 26.54
+Site 3 Total 30 0 650.0 757.5 969.0 34.28
+21
+
+[Table 1 on page 21]
+	Operator 2	3	12	58.0	109.0	143.0	N/A
+	Site 3 Total	6	24	63.0	101.5	133.0	N/A
+Overall
+Total		33	57	82.0	114.0	190.0	N/A
+
+[Table 2 on page 21]
+								
+Virus / Level			All Days (5 extraction days x 6 extraction runs per day)					
+								
+hMPV (Strain:
+Subtype A2 CDC
+Isolate 26583)	Site	Operator	# Pos
+Call	# Neg
+Call	25th
+Percentile
+MFI	Median
+MFI	75th
+Percent
+ile MFI	% CV
+hMPV - Moderate
+Positive (MP) / (3.8 x
+101 TCID50/mL)	Site 1	Operator 1	15	0	1,976.0	2192.0	2599.0	35.57
+		Operator 2	15	0	2,012.5	2766.0	2853.0	17.70
+		Site 1 Total	30	0	2,012.5	2362.5	2785.5	27.33
+	Site 2	Operator 1	15	0	2,817.0	3064.0	3575.0	31.04
+		Operator 2	15	0	2,897.0	3055.5	3293.0	11.53
+		Site 2 Total	30	0	2,855.0	3059.8	3326.0	24.14
+	Site 3	Operator 1	15	0	1,151.5	1440.0	1757.0	23.82
+		Operator 2	15	0	1,361.0	1513.0	2016.0	19.47
+		Site 3 Total	30	0	1,316.5	1493.3	1769.0	21.73
+	Overall
+Total		90	0	1,757.0	2307.3	2909.0	38.16
+hMPV - Low
+Positive (LP) / (1.9 x
+101 TCID50/mL	Site 1	Operator 1	15	0	889.5	1129.0	1396.5	22.91
+		Operator 2	15	0	870.5	1136.0	1385.0	27.94
+		Site 1 Total	30	0	880.0	1132.5	1385.0	25.10
+	Site 2	Operator 1	15	0	1,474.5	1613.0	1911.0	19.63
+		Operator 2	15	0	1,499.0	1716.0	2323.0	24.57
+		Site 2 Total	30	0	1,476.0	1708.3	2128.0	23.06
+	Site 3	Operator 1	15	0	444.0	650.5	800.0	31.79
+		Operator 2	15	0	665.0	965.0	1193.0	26.54
+		Site 3 Total	30	0	650.0	757.5	969.0	34.28
+
+[Table 3 on page 21]
+hMPV (Strain:
+Subtype A2 CDC
+Isolate 26583)
+
+[Table 4 on page 21]
+25th
+Percentile
+MFI
+
+[Table 5 on page 21]
+75th
+Percent
+ile MFI
+
+[Table 6 on page 21]
+# Pos
+Call
+
+[Table 7 on page 21]
+# Neg
+Call
+
+[Table 8 on page 21]
+Median
+MFI
+
+--- Page 22 ---
+Overall
+90 0 830.0 1216.8 1502.0 43.10
+Total
+Operator 1 13 2 233.0 330.0 459.5 N/A
+Site 1
+Operator 2 13 2 223.0 302.5 559.0 N/A
+Site 1 Total 26 4 233.0 326.5 459.5 N/A
+Operator 1 15 0 391.0 486.0 709.0 N/A
+Site 2
+Operator 2 15 0 395.0 502.0 1101.5 N/A
+hMPV – High
+Negative (HN) / 6.4
+Site 2 Total 30 0 395.0 494.0 709.0 N/A
+TCID50/mL)
+Operator 1 9 6 139.0 243.0 413.5 N/A
+Site 3
+Operator 2 13 2 234.0 263.0 308.0 N/A
+Site 3 Total 22 8 151.0 256.0 373.5 N/A
+Overall
+78 12 243.0 371.8 533.0 N/A
+Total
+Table 14. Summary of Adenovirus calls in simulated Adenovirus samples
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+25th 75th
+Adeno (Strain: # Pos # Neg Median %
+Site Operator Percentile Percentile
+Type 1, Adenoid 71) Call Call MFI CV
+MFI MFI
+Operator 1 15 0 1,318.0 1695.0 1964.5 24.65
+Site 1
+Operator 2 15 0 1,729.5 1845.5 1975.5 16.33
+Site 1 30 0 1,626.0 1770.0 1964.5 21.09
+Operator 1 15 0 2,824.0 3026.0 3575.0 14.53
+Site 2
+Adeno - Moderate Operator 2 15 0 2,886.0 3009.0 3157.0 6.90
+Positive (MP) / (1.1 x
+Site 2 30 0 2,833.0 3013.3 3166.0 11.37
+103 TCID50/mL)
+Operator 1 15 0 587.0 807.5 931.5 27.84
+Site 3
+Operator 2 15 0 693.0 766.0 834.0 38.43
+Site 3 30 0 650.0 772.8 920.0 34.20
+Overall
+90 0 897.0 1805.5 2833.0 52.08
+Total
+Adeno - Low Positive Site 1 Operator 1 15 0 448.0 528.0 601.0 22.67
+(LP) / (3.8 x 102
+Operator 2 15 0 534.0 596.5 749.0 20.71
+TCID50/mL)
+22
+
+[Table 1 on page 22]
+hMPV – High
+Negative (HN) / 6.4
+TCID50/mL)	Site 1	Operator 1	13	2	233.0	330.0	459.5	N/A
+		Operator 2	13	2	223.0	302.5	559.0	N/A
+		Site 1 Total	26	4	233.0	326.5	459.5	N/A
+	Site 2	Operator 1	15	0	391.0	486.0	709.0	N/A
+		Operator 2	15	0	395.0	502.0	1101.5	N/A
+		Site 2 Total	30	0	395.0	494.0	709.0	N/A
+	Site 3	Operator 1	9	6	139.0	243.0	413.5	N/A
+		Operator 2	13	2	234.0	263.0	308.0	N/A
+		Site 3 Total	22	8	151.0	256.0	373.5	N/A
+	Overall
+Total		78	12	243.0	371.8	533.0	N/A
+
+[Table 2 on page 22]
+								
+Virus / Level			All Days (5 extraction days x 6 extraction runs per day)					
+								
+Adeno (Strain:
+Type 1, Adenoid 71)	Site	Operator	# Pos
+Call	# Neg
+Call	25th
+Percentile
+MFI	Median
+MFI	75th
+Percentile
+MFI	%
+CV
+Adeno - Moderate
+Positive (MP) / (1.1 x
+103 TCID50/mL)	Site 1	Operator 1	15	0	1,318.0	1695.0	1964.5	24.65
+		Operator 2	15	0	1,729.5	1845.5	1975.5	16.33
+		Site 1	30	0	1,626.0	1770.0	1964.5	21.09
+	Site 2	Operator 1	15	0	2,824.0	3026.0	3575.0	14.53
+		Operator 2	15	0	2,886.0	3009.0	3157.0	6.90
+		Site 2	30	0	2,833.0	3013.3	3166.0	11.37
+	Site 3	Operator 1	15	0	587.0	807.5	931.5	27.84
+		Operator 2	15	0	693.0	766.0	834.0	38.43
+		Site 3	30	0	650.0	772.8	920.0	34.20
+	Overall
+Total		90	0	897.0	1805.5	2833.0	52.08
+Adeno - Low Positive
+(LP) / (3.8 x 102
+TCID50/mL)	Site 1	Operator 1	15	0	448.0	528.0	601.0	22.67
+		Operator 2	15	0	534.0	596.5	749.0	20.71
+
+[Table 3 on page 22]
+25th
+Percentile
+MFI
+
+[Table 4 on page 22]
+75th
+Percentile
+MFI
+
+[Table 5 on page 22]
+Adeno (Strain:
+Type 1, Adenoid 71)
+
+[Table 6 on page 22]
+# Pos
+Call
+
+[Table 7 on page 22]
+# Neg
+Call
+
+[Table 8 on page 22]
+Median
+MFI
+
+[Table 9 on page 22]
+%
+CV
+
+--- Page 23 ---
+Site 1 30 0 522.0 553.5 649.0 24.25
+Operator 1 15 0 1,355.0 1427.5 1530.0 8.28
+Site 2
+Operator 2 15 0 1,161.0 1343.5 1461.0 15.32
+Site 2 30 0 1,299.0 1358.5 1499.0 12.84
+Operator 1 13 2 159.5 220.0 294.0 37.76
+Site 3
+Operator 2 15 0 200.0 227.5 272.5 16.60
+Site 3 28 2 188.5 226.0 273.0 28.59
+Overall
+88 2 273.0 553.5 1299.0 67.74
+Total
+Operator 1 5 10 115.0 134.0 167.0 N/A
+Site 1
+Operator 2 6 9 124.5 145.0 198.5 N/A
+Site 1 11 19 122.0 137.5 167.0 N/A
+Operator 1 15 0 248.0 291.0 339.5 N/A
+Site 2
+Operator 2 15 0 290.0 321.0 347.0 N/A
+Adeno - High
+Negative (HN) / (9.5
+Site 2 30 0 260.0 304.3 339.5 N/A
+x 101 TCID50/mL)
+Operator 1 0 15 49.0 69.5 90.0 N/A
+Site 3
+Operator 2 0 15 67.5 84.0 108.0 N/A
+Site 3 0 30 56.0 73.8 90.0 N/A
+Overall
+Total 41 49 88.5 139.3 260.0 N/A
+Table 15. Summary of Rhinovirus calls in simulated Rhinovirus samples
+Virus / Level All Days (5 extraction days x 6 extraction runs per day)
+75th
+Rhino (Strain: 25th
+# Pos # Neg Median Percen
+FO 1-3774, Type Site Operator Percentile % CV
+Call Call MFI tile
+54) MFI
+MFI
+Rhino - Moderate Operator 1 15 0 2,422.0 3067.5 3892.5 32.64
+Positive (MP) /
+Site 1
+(5.6 x 10-2 Operator 2 15 0 2,774.0 3383.5 3547.0 22.17
+TCID50/mL)
+Site 1 Total 30 0 2,516.0 3180.3 3596.0 27.50
+Operator 1 15 0 3,263.0 3503.0 4030.0 13.31
+Site 2
+Operator 2 15 0 2,934.0 3428.0 4082.5 18.58
+Site 2 Total 30 0 3,248.0 3470.3 4030.0 15.87
+23
+
+[Table 1 on page 23]
+	Site 2	Operator 1	15	0	1,355.0	1427.5	1530.0	8.28
+		Operator 2	15	0	1,161.0	1343.5	1461.0	15.32
+		Site 2	30	0	1,299.0	1358.5	1499.0	12.84
+	Site 3	Operator 1	13	2	159.5	220.0	294.0	37.76
+		Operator 2	15	0	200.0	227.5	272.5	16.60
+		Site 3	28	2	188.5	226.0	273.0	28.59
+	Overall
+Total		88	2	273.0	553.5	1299.0	67.74
+Adeno - High
+Negative (HN) / (9.5
+x 101 TCID50/mL)	Site 1	Operator 1	5	10	115.0	134.0	167.0	N/A
+		Operator 2	6	9	124.5	145.0	198.5	N/A
+		Site 1	11	19	122.0	137.5	167.0	N/A
+	Site 2	Operator 1	15	0	248.0	291.0	339.5	N/A
+		Operator 2	15	0	290.0	321.0	347.0	N/A
+		Site 2	30	0	260.0	304.3	339.5	N/A
+	Site 3	Operator 1	0	15	49.0	69.5	90.0	N/A
+		Operator 2	0	15	67.5	84.0	108.0	N/A
+		Site 3	0	30	56.0	73.8	90.0	N/A
+	Overall
+Total		41	49	88.5	139.3	260.0	N/A
+
+[Table 2 on page 23]
+										
+Virus / Level			All Days (5 extraction days x 6 extraction runs per day)							
+										
+Rhino (Strain:
+FO 1-3774, Type
+54)	Site	Operator	# Pos
+Call	# Neg
+Call	25th
+Percentile
+MFI	Median
+MFI		75th		% CV
+								Percen		
+								tile		
+								MFI		
+Rhino - Moderate
+Positive (MP) /
+(5.6 x 10-2
+TCID50/mL)	Site 1	Operator 1	15	0	2,422.0	3067.5	3892.5			32.64
+		Operator 2	15	0	2,774.0	3383.5	3547.0			22.17
+		Site 1 Total	30	0	2,516.0	3180.3	3596.0			27.50
+	Site 2	Operator 1	15	0	3,263.0	3503.0	4030.0			13.31
+		Operator 2	15	0	2,934.0	3428.0	4082.5			18.58
+		Site 2 Total	30	0	3,248.0	3470.3	4030.0			15.87
+
+[Table 3 on page 23]
+Rhino (Strain:
+FO 1-3774, Type
+54)
+
+[Table 4 on page 23]
+25th
+Percentile
+MFI
+
+[Table 5 on page 23]
+# Pos
+Call
+
+[Table 6 on page 23]
+# Neg
+Call
+
+[Table 7 on page 23]
+Median
+MFI
+
+--- Page 24 ---
+Operator 1 15 0 2,060.0 2383.0 2535.0 26.62
+Site 3
+Operator 2 15 0 2,037.0 2308.0 2885.0 31.48
+Site 3 Total 30 0 2,060.0 2364.5 2797.5 28.86
+Overall
+90 0 2,434.0 3060.3 3635.0 27.26
+Total
+Operator 1 15 0 639.0 931.0 1502.0 47.22
+Site 1
+Operator 2 15 0 526.0 655.0 796.5 40.93
+Site 1 Total 30 0 630.0 763.8 1257.0 50.11
+Operator 1 15 0 1,018.0 1349.0 2080.0 50.94
+Rhino - Low Site 2
+Operator 2 15 0 991.0 1369.0 1778.0 40.84
+Positive (LP) /
+(1.4 x 10-2 Site 2 Total 30 0 1,018.0 1354.3 1778.0 46.17
+TCID50/mL)
+Operator 1 11 4 258.0 521.0 731.0 63.84
+Site 3
+Operator 2 14 1 490.0 811.5 1231.0 48.43
+Site 3 Total 25 5 392.0 632.5 950.0 56.35
+Overall
+85 5 630.0 944.0 1359.5 61.25
+Total
+Operator 1 6 9 203.0 253.0 364.0 N/A
+Site 1
+Operator 2 9 6 220.0 334.0 448.0 N/A
+Site 1 Total 15 15 204.5 289.5 424.0 N/A
+Operator 1 9 6 218.0 365.5 415.5 N/A
+Rhino – High
+Site 2
+Negative (HN) / Operator 2 12 3 302.0 433.0 740.0 N/A
+(5.2 x 10-3
+Site 2 Total 21 9 238.0 397.0 551.0 N/A
+TCID50/mL)
+Operator 1 4 11 107.5 155.0 317.0 N/A
+Site 3
+Operator 2 6 9 178.0 248.0 440.0 N/A
+Site 3 Total 10 20 148.0 243.0 423.5 N/A
+Overall 46 44 201.5 302.0 440.0 N/A
+The reproducibility study was designed to examine maximum variability of the entire
+assay system – the xTAG® RVP FAST assay as well as the bioMerieux NucliSENS®
+EasyMag extraction method. As with any nucleic acid extraction method, the bioMerieux
+NucliSENS® EasyMag exhibits within run and between runs variability and contributes
+to the total variability of the assay. Therefore, the observed variability in this
+reproducibility study is partially attributable to nucleic acid extraction.
+Site-to-site reproducibility for dual-analyte targets was investigated at three independent
+sites. Each site employed two operators and one or two Luminex instruments. Each
+operator conducted 5 separate extractions using Biomerieux NucliSENS® EasyMag
+24
+
+[Table 1 on page 24]
+		Operator 2	15	0	2,037.0	2308.0	2885.0	31.48
+		Site 3 Total	30	0	2,060.0	2364.5	2797.5	28.86
+	Overall
+Total		90	0	2,434.0	3060.3	3635.0	27.26
+Rhino - Low
+Positive (LP) /
+(1.4 x 10-2
+TCID50/mL)	Site 1	Operator 1	15	0	639.0	931.0	1502.0	47.22
+		Operator 2	15	0	526.0	655.0	796.5	40.93
+		Site 1 Total	30	0	630.0	763.8	1257.0	50.11
+	Site 2	Operator 1	15	0	1,018.0	1349.0	2080.0	50.94
+		Operator 2	15	0	991.0	1369.0	1778.0	40.84
+		Site 2 Total	30	0	1,018.0	1354.3	1778.0	46.17
+	Site 3	Operator 1	11	4	258.0	521.0	731.0	63.84
+		Operator 2	14	1	490.0	811.5	1231.0	48.43
+		Site 3 Total	25	5	392.0	632.5	950.0	56.35
+	Overall
+Total		85	5	630.0	944.0	1359.5	61.25
+Rhino – High
+Negative (HN) /
+(5.2 x 10-3
+TCID50/mL)	Site 1	Operator 1	6	9	203.0	253.0	364.0	N/A
+		Operator 2	9	6	220.0	334.0	448.0	N/A
+		Site 1 Total	15	15	204.5	289.5	424.0	N/A
+	Site 2	Operator 1	9	6	218.0	365.5	415.5	N/A
+		Operator 2	12	3	302.0	433.0	740.0	N/A
+		Site 2 Total	21	9	238.0	397.0	551.0	N/A
+	Site 3	Operator 1	4	11	107.5	155.0	317.0	N/A
+		Operator 2	6	9	178.0	248.0	440.0	N/A
+		Site 3 Total	10	20	148.0	243.0	423.5	N/A
+	Overall		46	44	201.5	302.0	440.0	N/A
+
+--- Page 25 ---
+extraction Kit and 5 runs on non-consecutive days. Analyte levels (TCID /mL) were
+50
+established on the high-titer viral stocks (Table 16). Each concentrated viral stock was
+subjected to an initial dilution which was then processed by a series of 12 dilution steps.
+Table 16. Viruses used for Dual-Analyte Samples (Formulated in UTM)
+Sample Type Strain ID Titer for Dilution 1
+(TCID /mL)
+50
+Flu A H3 A/Victoria/3/75 5.9E+04
+DHI 20-4710010, (original ATCC VR-822)
+Flu B Influenza B/Malaysia/2506/04 (PHL) 9.6E+02
+Adenovirus Type 1 Strain Adenoid 71 1.3E+07
+DHI 20-4740010, (original ATCC VR-1)
+RSV A Long strain ATCC VR-26 7.3E+03
+hMPV, subtype A2 CAN97-83 (CDC isolate 26583) 1.0E+05
+Four different clinically relevant co-infections were represented by the dual-analyte
+samples. The dual-analyte samples were prepared using a “Low” concentration of one
+virus expected in a clinically relevant co-infection, and a “High” concentration of the
+other virus, and vice-versa, to create eight dual-analyte samples in UTM (Universal
+Transport Medium) matrix. “Low” concentration sample - a titer that generates an MFI
+value above the cutoff in an estimated 95% of replicates, and an MFI value below the
+cutoff in an estimated 5% of replicates.
+“High” concentration sample - a titer that is expected to yield MFI values approaching
+the plateau. Results of the dual analyte testing are summarized in Tables 17 – 20.
+Table 17. Summary of Calls in Adenovirus and RSV A Dual Analyte Samples
+Adenovirus Calls RSV Calls
+Dual Analyte Combination
+Site
+# Positive # Negative # Positive # Negative
+Site 1 10/10 0/10 9/10 1/10
+Adeno High / RSV A Low
+(4.9E+04 TCID /mL / Site 2 10/10 0/10 10/10 0/10
+50
+1.1E+02 TCID /mL)
+50
+Site 3 10/10 0/10 10/10 0/10
+Total 30/30 0/30 29/30 1/30
+Site 1 10/10 0/10 10/10 0/10
+Adeno Low / RSV A High
+(3.1E+03 TCID /mL / Site 2 10/10 0/10 10/10 0/10
+50
+3.7E+03 TCID /mL)
+50
+Site 3 10/10 0/10 10/10 0/10
+Total 30/30 0/30 30/30 0/30
+25
+
+[Table 1 on page 25]
+Sample Type	Strain ID		Titer for Dilution 1	
+			(TCID /mL)
+50	
+Flu A H3	A/Victoria/3/75
+DHI 20-4710010, (original ATCC VR-822)	5.9E+04		
+Flu B	Influenza B/Malaysia/2506/04 (PHL)	9.6E+02		
+Adenovirus	Type 1 Strain Adenoid 71
+DHI 20-4740010, (original ATCC VR-1)	1.3E+07		
+RSV A	Long strain ATCC VR-26	7.3E+03		
+hMPV, subtype A2	CAN97-83 (CDC isolate 26583)	1.0E+05		
+
+[Table 2 on page 25]
+					
+Dual Analyte Combination	Site	Adenovirus Calls		RSV Calls	
+					
+		# Positive	# Negative	# Positive	# Negative
+Adeno High / RSV A Low
+(4.9E+04 TCID /mL /
+50
+1.1E+02 TCID /mL)
+50	Site 1
+Site 2
+Site 3
+Total	10/10	0/10	9/10	1/10
+		10/10	0/10	10/10	0/10
+		10/10	0/10	10/10	0/10
+		30/30	0/30	29/30	1/30
+Adeno Low / RSV A High
+(3.1E+03 TCID /mL /
+50
+3.7E+03 TCID /mL)
+50	Site 1
+Site 2
+Site 3
+Total	10/10	0/10	10/10	0/10
+		10/10	0/10	10/10	0/10
+		10/10	0/10	10/10	0/10
+		30/30	0/30	30/30	0/30
+
+--- Page 26 ---
+Table18. Summary of Calls in Flu A H3 and RSV A Dual Analyte Samples
+Dual Analyte Flu A H3 Calls RSV Calls
+Combination Site
+# Positive # Negative # Positive # Negative
+FluA.H3 High / RSV A Site 1 10/10 0/10 8/10 2/10
+Low
+Site 2 10/10 0/10 9/10 1/10
+(5.9E+04 TCID /mL /
+50
+1.1E+02 TCID /mL) Site 3 10/10 0/10 9/10 1/10
+50
+Total 30/30 0/30 26/30 4/30
+FluA.H3 Low / RSV A Site 1 10/10 0/10 10/10 0/10
+High
+Site 2 10/10 0/10 10/10 0/10
+(3.7E+03 TCID /mL /
+50
+3.7E+03 TCID /mL) Site 3 10/10 0/10 10/10 0/10
+50
+Total 30/30 0/30 30/30 0/30
+Table 19. Summary of Calls in Flu B and RSV A Dual Analyte Samples
+Dual Analyte Flu B Calls RSV Calls
+Combination Site
+# Positive # Negative # Positive # Negative
+Flu B High / RSV A Site 1 10/10 0/10 8/10 2/10
+Low
+Site 2 10/10 0/10 9/10 1/10
+(9.6E+02 TCID /mL /
+50
+1.1E+02 TCID /mL) Site 3 10/10 0/10 10/10 0/10
+50
+Total 30/30 0/30 27/30 3/30
+Flu B Low / RSV A Site 1 10/10 0/10 10/10 0/10
+High
+Site 2 10/10 0/10 10/10 0/10
+(6.0E+01TCID /mL /
+50
+3.7E+03TCID /mL) Site 3 10/10 0/10 10/10 0/10
+50
+Total 30/30 0/30 30/30 0/30
+Table 20. Summary of Calls in hMPV and RSV A Dual Analyte Samples
+Dual Analyte hMPV Calls RSV Calls
+Combination Site
+# Positive # Negative # Positive # Negative
+hMPV High / RSV A Low Site 1 10/10 0/10 8/10 2/10
+(2.6E+04 TCID /mL /
+50
+Site 2 10/10 0/10 10/10 0/10
+1.1E+02 TCID /mL)
+50
+Site 3 10/10 0/10 9/10 1/10
+26
+
+[Table 1 on page 26]
+					
+Dual Analyte
+Combination	Site	Flu A H3 Calls		RSV Calls	
+					
+		# Positive	# Negative	# Positive	# Negative
+FluA.H3 High / RSV A
+Low
+(5.9E+04 TCID /mL /
+50
+1.1E+02 TCID /mL)
+50	Site 1	10/10	0/10	8/10	2/10
+	Site 2	10/10	0/10	9/10	1/10
+	Site 3	10/10	0/10	9/10	1/10
+	Total	30/30	0/30	26/30	4/30
+FluA.H3 Low / RSV A
+High
+(3.7E+03 TCID /mL /
+50
+3.7E+03 TCID /mL)
+50	Site 1	10/10	0/10	10/10	0/10
+	Site 2	10/10	0/10	10/10	0/10
+	Site 3	10/10	0/10	10/10	0/10
+	Total	30/30	0/30	30/30	0/30
+
+[Table 2 on page 26]
+					
+Dual Analyte
+Combination	Site	Flu B Calls		RSV Calls	
+					
+		# Positive	# Negative	# Positive	# Negative
+Flu B High / RSV A
+Low
+(9.6E+02 TCID /mL /
+50
+1.1E+02 TCID /mL)
+50	Site 1	10/10	0/10	8/10	2/10
+	Site 2	10/10	0/10	9/10	1/10
+	Site 3	10/10	0/10	10/10	0/10
+	Total	30/30	0/30	27/30	3/30
+Flu B Low / RSV A
+High
+(6.0E+01TCID /mL /
+50
+3.7E+03TCID /mL)
+50	Site 1	10/10	0/10	10/10	0/10
+	Site 2	10/10	0/10	10/10	0/10
+	Site 3	10/10	0/10	10/10	0/10
+	Total	30/30	0/30	30/30	0/30
+
+[Table 3 on page 26]
+					
+Dual Analyte
+Combination	Site	hMPV Calls		RSV Calls	
+					
+		# Positive	# Negative	# Positive	# Negative
+hMPV High / RSV A Low
+(2.6E+04 TCID /mL /
+50
+1.1E+02 TCID /mL)
+50	Site 1	10/10	0/10	8/10	2/10
+	Site 2	10/10	0/10	10/10	0/10
+	Site 3	10/10	0/10	9/10	1/10
+
+--- Page 27 ---
+Total 30/30 0/30 27/30 3/30
+Site 1 10/10 0/10 10/10 0/10
+hMPV Low / RSV A High
+Site 2 10/10 0/10 10/10 0/10
+(1.6E+03 TCID /mL /
+50
+3.7E+03TCID /mL)
+50 Site 3 10/10 0/10 10/10 0/10
+Total 30/30 0/30 30/30 0/30
+Data generated form the reproducibility studies suggest that there are no significant
+differences in calls generated from dual-analyte samples between operators, instruments,
+sites or days. All High concentration dilutions in the dual-analyte combinations made a
+POS call by RVP FAST. False negative results for RSV low-titer infections may be
+observed in samples when in the presence of high concentrations of other analytes (co-
+infected samples). Clinically, when a dual infection is encountered, the low titer virus
+may be from an infection that has already passed or from a new infection.
+Precision (Repeatability)
+The repeatability of the RSV FAST Assay was evaluated by repeated testing of twenty
+(20) replicates of each analyte at LoD concentration after extraction with the
+Biomérieux NucliSENS® EasyMag system in a single run. The viral strains and the
+concentrated viral stock solution (termed as the initial stock) used in the study are
+shown in Table 21. Since there are two separate probes for the analyte RSV, two
+samples (RSV A for probe 1 and RSV B for probe 2) were used to assess repeatability
+for RSV. Repeatability of the Flu A analyte was examined twice since both the Flu A
+H1 and Flu A H3 viral samples also contain the Flu A matrix target.
+Table 21 – Cultured Isolates in Universal Transport Medium (UTM)
+Sample Type Strain ID Titer of Initial Stock
+(TCID /mL)
+50
+Flu A H1 A/Solomon Islands/3/2006 (NML) 3
+3.1 x 10
+Flu A H3 A/Victoria/3/75 4
+5.9 x 10
+DHI 20-4710010 (original ATCC VR-822)
+Flu B Influenza B/Malaysia/2506/04 (PHL) 2
+3.1 x 10
+Adenovirus Type 1 Strain Adenoid 71 7
+1.3 x 10
+DHI 20-4740010 (original ATCC VR-1)
+Rhinovirus FO 1-3774, Type 54 ATCC 1164 2
+2.3 x 10
+hMPV sublineage U of Iowa, Dept. Public Health. 4
+4.5 x 10
+A1 (Isolate # 16, Iowa, January 2003)
+hMPV-16 (IA10-2003)
+RSV-A Long strain ATCC VR-26 3
+7.3 x 10
+RSV-B Wash/18537/62 2
+1.3 x 10
+DHI 20-4730010 (ATCC VR-1401)
+27
+
+[Table 1 on page 27]
+hMPV Low / RSV A High
+(1.6E+03 TCID /mL /
+50
+3.7E+03TCID /mL)
+50	Site 1	10/10	0/10	10/10	0/10
+	Site 2	10/10	0/10	10/10	0/10
+	Site 3	10/10	0/10	10/10	0/10
+	Total	30/30	0/30	30/30	0/30
+
+[Table 2 on page 27]
+Sample Type	Strain ID	Titer of Initial Stock
+(TCID /mL)
+50	
+Flu A H1	A/Solomon Islands/3/2006 (NML)	3
+3.1 x 10	
+Flu A H3	A/Victoria/3/75
+DHI 20-4710010 (original ATCC VR-822)	4
+5.9 x 10	
+Flu B	Influenza B/Malaysia/2506/04 (PHL)	2
+3.1 x 10	
+Adenovirus	Type 1 Strain Adenoid 71
+DHI 20-4740010 (original ATCC VR-1)	7
+1.3 x 10	
+Rhinovirus	FO 1-3774, Type 54 ATCC 1164	2
+2.3 x 10	
+hMPV sublineage
+A1	U of Iowa, Dept. Public Health.
+(Isolate # 16, Iowa, January 2003)
+hMPV-16 (IA10-2003)	4
+4.5 x 10	
+RSV-A	Long strain ATCC VR-26	3
+7.3 x 10	
+RSV-B	Wash/18537/62
+DHI 20-4730010 (ATCC VR-1401)	2
+1.3 x 10	
+
+--- Page 28 ---
+Repeatability was assessed by confirming that the sample was consistently called across
+all replicates. The coefficient of variation (Standard Deviation / Mean) of the MFI
+values was also calculated for the 20 replicates. xTAG RVP FAST is a qualitative assay
+that has an underlying numeric output. As a qualitative assay based on end-point PCR,
+the distribution of the MFI values for each sample used in this repeatability study may
+show considerable variability. The repeatability study results are presented in Tables
+22-23
+Table 22: Assay Repeatability Assessed by Confirmation of Calls
+Sample Viral Titer (TCID /mL)* xTAG RVP FAST Result
+50
+Flu A H1 -1 19 of 20 POS for both matrix FluA
+7.6 x 10
+& hemagglutinin H1
+Flu A H3 3.6 20 of 20 POS for both matrix FluA
+& hemagglutinin H3
+Flu B -2 20 of 20 POS
+2.9 x 10
+Adenovirus 2 20 of 20 POS
+3.9 x 10
+RSV-A 1.8 20 of 20 POS
+RSV-B -2 19 of 20 POS
+1.6 x 10
+Rhinovirus -2 19 of 20 POS
+1.4 x 10
+hMPV sublineage A1 -1 19 of 20 POS
+3.4 x 10
+*These titers are at the Limit of Detection for each analyte tested.
+Table 23: Assay Repeatability Assessed by Coefficient of Variation
+Standard
+Viral Titer Deviation
+(TCID /mL) Analyte Mean (SD) of CV% (SD
+50
+Sample tested Tested^ assessed MFI MFI / Mean)
+hemagglutinin
+FluA H1 7.6 x 10-1 H1 1076.6 354.1 32.9%
+FluA matrix 979.2 404.9 41.3%
+hemagglutinin H3 467.2 167.8 35.9%
+FluA H3 3.6
+FluA matrix 1425.7 322.6 22.6%
+Flu B 2.9 x 10-2 Flu B 1425.1 324.5 22.8%
+Adenovirus 3.9 x 102 Adeno 470.6 112.9 24.0%
+RSV A 1.8 RSV probe 1 1248.9 1134.8 90.9%
+RSV B 1.6 x 10-2 RSV probe 2 537.3 869.6 161.8%
+Rhinovirus 1.4 x 10-2 Rhino 731.4 503.8 68.9%
+hMPV, subtype A1 3.4 x 10-1 hMPV 514.1 246.9 48.0%
+b. Linearity/assay reportable range:
+Not applicable, qualitative assay
+c. Traceability, Stability, Expected values (controls, calibrators, or
+methods):
+28
+
+[Table 1 on page 28]
+Sample		Viral Titer (TCID /mL)*
+50		xTAG RVP FAST Result
+Flu A H1	-1
+7.6 x 10			19 of 20 POS for both matrix FluA
+& hemagglutinin H1
+Flu A H3	3.6			20 of 20 POS for both matrix FluA
+& hemagglutinin H3
+Flu B	-2
+2.9 x 10			20 of 20 POS
+Adenovirus	2
+3.9 x 10			20 of 20 POS
+RSV-A	1.8			20 of 20 POS
+RSV-B	-2
+1.6 x 10			19 of 20 POS
+Rhinovirus	-2
+1.4 x 10			19 of 20 POS
+hMPV sublineage A1	-1
+3.4 x 10			19 of 20 POS
+
+[Table 2 on page 28]
+Sample tested	Viral Titer
+(TCID /mL)
+50
+Tested^	Analyte
+assessed	Mean
+MFI	Standard
+Deviation
+(SD) of
+MFI	CV% (SD
+/ Mean)
+FluA H1	7.6 x 10-1	hemagglutinin
+H1	1076.6	354.1	32.9%
+		FluA matrix	979.2	404.9	41.3%
+FluA H3	3.6	hemagglutinin H3	467.2	167.8	35.9%
+		FluA matrix	1425.7	322.6	22.6%
+Flu B	2.9 x 10-2	Flu B	1425.1	324.5	22.8%
+Adenovirus	3.9 x 102	Adeno	470.6	112.9	24.0%
+RSV A	1.8	RSV probe 1	1248.9	1134.8	90.9%
+RSV B	1.6 x 10-2	RSV probe 2	537.3	869.6	161.8%
+Rhinovirus	1.4 x 10-2	Rhino	731.4	503.8	68.9%
+hMPV, subtype A1	3.4 x 10-1	hMPV	514.1	246.9	48.0%
+
+[Table 3 on page 28]
+Standard
+Deviation
+(SD) of
+MFI
+
+[Table 4 on page 28]
+Viral Titer
+(TCID /mL)
+50
+Tested^
+
+[Table 5 on page 28]
+Analyte
+assessed
+
+[Table 6 on page 28]
+Mean
+MFI
+
+[Table 7 on page 28]
+CV% (SD
+/ Mean)
+
+--- Page 29 ---
+Before using the Luminex system to read samples prepared by the xTAG assay, prepare
+and calibrate the Luminex instrument system following the procedures in the
+appropriate system user manual
+Assay Controls
+An internal control Bacteriophage MS2 is included in the RVP FAST assay. This
+internal positive control is added to each patient specimen and each external control
+prior to extraction and serves to monitor the extraction and reverse-transcription steps.
+Failure to generate a PRES (present) call for the MS2 control indicates a failure at
+either the extraction step or reverse-transcription step, and may be indicative of the
+presence of amplification inhibitors which could lead to false negative results. A
+positive result (PRES) indicates that the extraction and amplification steps are
+functioning properly.
+Bacteriophage lambda DNA included in RVP FAST assay kit is the run control is used
+to monitor the entire assay. For each run, the control is included as a separate sample
+during the RT-PCR set-up. The run control is an analyte recognized by the TDAS RVP
+FAST (US) that is distinct from the viral analytes the assay is intended to detect.
+These external positive controls for target analytes are not provided with the kit but
+should be included with each batch of patient specimens. External controls should be
+prepared, extracted and tested in the same manner as patient samples. If a given analyte
+positive control does not perform as expected, all results for that analyte in the batch of
+samples are invalid and samples should be re-run.
+The sponsor is also recommending including at least one negative control with each run
+of RVP FAST. By default, TDAS RVP FAST (US) considers the last sample on the
+plate to be the primary negative control. Multiple negative controls should be
+interspersed throughout the plate (e.g., the beginning, middle, and end).
+Specimen Stability
+An analytical study was performed to establish the storage conditions for
+nasopharyngeal swab (NPS) specimens tested using the RVP FAST assay. The
+performance of RVP FAST was evaluated using a set of clinical specimens that were
+tested following their extraction from the fresh state or after freezing at -70°C for a
+prolonged period of time. A total of 142 nasopharyngeal swabs, after initial testing,
+were stored frozen at -70°C for up to 20 months then thawed and extracted using the
+Biomerieux EasyMag extraction method. The nucleic acid was stored frozen at -70°C
+prior to testing with RVP FAST. Testing was performed in the presence of external
+positive pooled controls (representing analytes probed by RVP FAST). Results from all
+142 specimens that were tested in these experiments are summarized in Tables 24-25
+29
+
+--- Page 30 ---
+Table 24. Overall positive agreement between fresh and frozen specimens (long-
+term stability):
+Fresh Expected Unexpected Positive Agreement
+Positive Positive Calls Negative Calls
+Calls from Frozen from Frozen (# expected positive calls / #
+positive calls included x 100%)
+95% Lower
+Analyte # Calls # Expected # Unexpected
+Proportion Confidence
+(Virus) Included Positive Calls Negative Calls
+Interval (CI)
+All Analytes 74 73 1 98.64% 92.70%
+Flu A 11 11 0 100% 71.51%
+H1 5 5 0 100% 47.82%
+H3 5 5 0 100% 47.82%
+Flu B 9 8 1 88.89% 51.75%
+RSV 21 21 0 100% 83.89%
+Adenovirus 3 3 0 100% 29.24%
+hMPV 12 12 0 100% 73.53%
+Rhino 8 8 0 100% 63.06%
+Table 25. Overall negative agreement between fresh and frozen specimens (long-
+term stability):
+Fresh Expected Unexpected Negative Agreement
+Negative Negative Positive Calls
+(# expected negative calls / #
+Calls Calls from from Frozen
+negative calls included x
+Frozen
+100%)
+# Expected 95% Lower
+Analyte # Calls # Unexpected
+Negative Proportion Confidence
+(Virus) Included Positive Calls
+Calls Interval (CI)
+All Analytes 1062 1048 14 98.68% 97.80%
+Flu A 131 129 2 98.47% 94.59%
+H1 137 136 1 99.27% 96.00%
+H3 137 135 2 98.54% 94.83%
+Flu B 133 131 2 98.49% 94.67%
+RSV 121 121 0 100% 97.00%
+Adenovirus 139 138 1 99.28% 96.06%
+hMPV 130 128 2 98.46% 94.55%
+Rhino 134 130 4 97.01% 92.53%
+All targets included in RVP FAST were represented in the sample set. Positive
+agreement between fresh and frozen specimens was 100% for each target, with the
+exception of Flu B (88.89% with a95% lower bound CI 51.75%).
+Fresh vs. Frozen Study
+In order to utilize frozen banked clinical samples in the evaluation of RVP FAST assay,
+a study was conducted to demonstrate that preservation of samples (by freezing at ≤-
+30
+
+[Table 1 on page 30]
+			Fresh
+Positive
+Calls			Expected
+Positive Calls
+from Frozen			Unexpected
+Negative Calls
+from Frozen				Positive Agreement				
+												(# expected positive calls / #
+positive calls included x 100%)					
+Analyte
+(Virus)			# Calls
+Included			# Expected
+Positive Calls			# Unexpected
+Negative Calls			Proportion				95% Lower	
+																Confidence	
+																Interval (CI)	
+	All Analytes			74			73			1			98.64%			92.70%	
+	Flu A			11			11			0			100%			71.51%	
+	H1			5			5			0			100%			47.82%	
+	H3			5			5			0			100%			47.82%	
+	Flu B			9			8			1			88.89%			51.75%	
+	RSV			21			21			0			100%			83.89%	
+	Adenovirus			3			3			0			100%			29.24%	
+	hMPV			12			12			0			100%			73.53%	
+	Rhino			8			8			0			100%			63.06%	
+
+[Table 2 on page 30]
+Fresh
+Positive
+Calls
+
+[Table 3 on page 30]
+Expected
+Positive Calls
+from Frozen
+
+[Table 4 on page 30]
+Unexpected
+Negative Calls
+from Frozen
+
+[Table 5 on page 30]
+(# expected positive calls / #
+positive calls included x 100%)
+
+[Table 6 on page 30]
+Analyte
+(Virus)
+
+[Table 7 on page 30]
+# Calls
+Included
+
+[Table 8 on page 30]
+# Expected
+Positive Calls
+
+[Table 9 on page 30]
+# Unexpected
+Negative Calls
+
+[Table 10 on page 30]
+			Fresh
+Negative
+Calls			Expected
+Negative
+Calls from
+Frozen			Unexpected
+Positive Calls
+from Frozen				Negative Agreement				
+													(# expected negative calls / #				
+													negative calls included x				
+													100%)				
+Analyte
+(Virus)			# Calls
+Included				# Expected		# Unexpected
+Positive Calls			Proportion				95% Lower	
+							Negative									Confidence	
+							Calls									Interval (CI)	
+	All Analytes			1062			1048			14			98.68%			97.80%	
+	Flu A			131			129			2			98.47%			94.59%	
+	H1			137			136			1			99.27%			96.00%	
+	H3			137			135			2			98.54%			94.83%	
+	Flu B			133			131			2			98.49%			94.67%	
+	RSV			121			121			0			100%			97.00%	
+	Adenovirus			139			138			1			99.28%			96.06%	
+	hMPV			130			128			2			98.46%			94.55%	
+	Rhino			134			130			4			97.01%			92.53%	
+
+[Table 11 on page 30]
+Fresh
+Negative
+Calls
+
+[Table 12 on page 30]
+Expected
+Negative
+Calls from
+Frozen
+
+[Table 13 on page 30]
+Unexpected
+Positive Calls
+from Frozen
+
+[Table 14 on page 30]
+Analyte
+(Virus)
+
+[Table 15 on page 30]
+# Calls
+Included
+
+[Table 16 on page 30]
+# Unexpected
+Positive Calls
+
+--- Page 31 ---
+70°C does not affect the accuracy of test results compared to freshly collected or
+freshly prepared samples. The “fresh vs. frozen” study evaluated the performance of
+xTAG® RVP FAST on a set of clinical specimens (nasopharyngeal swabs) that were
+tested following their extraction from the fresh state or thawed state (i.e. after freezing
+at -70°C for a short period of time). A total of 202 nasopharyngeal swabs (NP swabs)
+were prospectively collected from symptomatic pediatric and adult subjects. Upon
+receipt at the virology laboratory, each specimen was split into 2 aliquots: (1) the first
+aliquot was extracted from the fresh state using the Biomerieux EasyMag extraction
+method and the nucleic acid stored frozen at -70°C; (2) the second aliquot was stored
+frozen at -70°C in its un-extracted state. Upon accrual of approximately 40 prospective
+clinical specimens, frozen aliquots of the original specimens were thawed and extracted
+using the Biomerieux EasyMag extraction method. The nucleic acid was stored frozen
+at -70°C. Extracts from both fresh and frozen specimens (batches of approx 40
+specimens, both fresh and frozen) were then thawed and tested in the same run by RVP
+FAST in the presence of external positive pooled controls (representing analytes probed
+by RVP FAST). Twenty three (23) specimens and their corresponding calls were
+excluded from the analysis due to failure of the internal control when tested from the
+fresh state. One (1) additional specimen was excluded from the analysis due to failure
+of the internal control when tested from the frozen state. Results from the remaining
+178 specimens that were analyzed (fresh and frozen) are summarized in Tables 26 and
+27 below.
+Table 26. Overall positive agreement between fresh and frozen specimens (short-
+term stability):
+Fresh Expected Unexpected Positive Agreement
+Positive Positive Calls Negative Calls
+Calls from Frozen from Frozen (# expected positive calls / #
+positive calls included x 100%)
+95% Lower
+Analyte # Calls # Expected # Unexpected
+Proportion Confidence
+(Virus) Included Positive Calls Negative Calls
+Interval (CI)
+All Analytes 89 88 1 98.88% 93.90%
+Flu A 11 11 0 100% 71,51%
+H1 6 6 0 100% 54.07%
+H3 5 5 0 100% 47.82%
+Flu B 10 10 0 100% 69.15%
+RSV 29 28 1 96.55% 82.24%
+Adenovirus 4 4 0 100% 39.76%
+hMPV 14 14 0 100% 76.84%
+Rhino 10 10 0 100% 69.15%
+31
+
+[Table 1 on page 31]
+			Fresh
+Positive
+Calls			Expected
+Positive Calls
+from Frozen			Unexpected
+Negative Calls
+from Frozen				Positive Agreement				
+												(# expected positive calls / #
+positive calls included x 100%)					
+Analyte
+(Virus)			# Calls
+Included			# Expected
+Positive Calls			# Unexpected
+Negative Calls			Proportion				95% Lower	
+																Confidence	
+																Interval (CI)	
+	All Analytes			89			88			1			98.88%			93.90%	
+	Flu A			11			11			0			100%			71,51%	
+	H1			6			6			0			100%			54.07%	
+	H3			5			5			0			100%			47.82%	
+	Flu B			10			10			0			100%			69.15%	
+	RSV			29			28			1			96.55%			82.24%	
+	Adenovirus			4			4			0			100%			39.76%	
+	hMPV			14			14			0			100%			76.84%	
+	Rhino			10			10			0			100%			69.15%	
+
+[Table 2 on page 31]
+Fresh
+Positive
+Calls
+
+[Table 3 on page 31]
+Expected
+Positive Calls
+from Frozen
+
+[Table 4 on page 31]
+Unexpected
+Negative Calls
+from Frozen
+
+[Table 5 on page 31]
+(# expected positive calls / #
+positive calls included x 100%)
+
+[Table 6 on page 31]
+Analyte
+(Virus)
+
+[Table 7 on page 31]
+# Calls
+Included
+
+[Table 8 on page 31]
+# Expected
+Positive Calls
+
+[Table 9 on page 31]
+# Unexpected
+Negative Calls
+
+--- Page 32 ---
+Table 27. Overall negative agreement between fresh and frozen specimens (short-
+term stability):
+Fresh Expected Unexpected Negative Agreement
+Negative Negative Positive Calls
+(# expected negative calls / #
+Calls Calls from from Frozen
+negative calls included x
+Frozen
+100%)
+# Expected 95% Lower
+Analyte # Calls # Unexpected
+Negative Proportion Confidence
+(Virus) Included Positive Calls
+Calls Interval (CI)
+All Analytes 1335 1328 7 99.48% 98.92%
+Flu A 167 165 2 98.80% 95.74%
+H1 172 171 1 99.42% 96.80%
+H3 173 172 1 99.42% 96.82%
+Flu B 168 167 1 99.40% 96.73%
+RSV 149 149 0 100% 97.55%
+Adenovirus 174 173 1 99.43% 96.84%
+hMPV 164 164 0 100% 97.78%
+Rhino 168 167 1 99.40% 96.73%
+All targets included in RVP FAST were represented in the sample set. Positive
+agreement between fresh and frozen specimens was 100% for each target, with the
+exception of RSV (96.55% with a 95% lower bound CI 82.24%).
+d. Detection limit:
+Analytical studies were carried out to determine the LoD for each RVP FAST
+targeted organism. Samples were prepared from viral strains listed in column 2
+of Table 28. Serial dilutions of the viral analyte targets were prepared from a
+high titer stock in Universal Transport Medium (UTM) for the following
+analytes: Flu A (hemagglutinin H1), Flu A (hemagglutinin H3), Flu B,
+Adenovirus, RSV A, RSV B, Rhinovirus and hMPV subtypes A1, A2, B1 and
+B2. Serial dilutions were prepared from concentrated viral stocks in UTM.
+In the first part of this study, serial dilution curves for the Flu A H1, Flu A H3,
+Flu B, Adenovirus, RSV-A, RSV-B, Rhinovirus and hMPV subtypes A1, A2,
+B1 and B2 were obtained. These curves were generated by assessing 3 to 4
+replicates of each dilution level starting from the sample extraction step with the
+xTAG RVP FAST assay. a dilution or dilutions for each target were selected for
+further confirmation testing. Confirmation of LoD for each target was achieved
+through testing of 20 replicates of the selected dilutions starting from sample
+extraction. In general, the dilution level corresponding to the lowest
+concentration of the analyte for which 3/3 (or 4/4) replicates generated positive
+calls by xTAG RVP assay was selected for LoD confirmation testing. LoD was
+considered as confirmed if the selected dilution level gave positive calls for
+≥19/20 of the replicates.
+32
+
+[Table 1 on page 32]
+			Fresh
+Negative
+Calls			Expected
+Negative
+Calls from
+Frozen			Unexpected
+Positive Calls
+from Frozen				Negative Agreement				
+													(# expected negative calls / #				
+													negative calls included x				
+													100%)				
+Analyte
+(Virus)			# Calls
+Included				# Expected		# Unexpected
+Positive Calls			Proportion				95% Lower	
+							Negative									Confidence	
+							Calls									Interval (CI)	
+	All Analytes			1335			1328			7			99.48%			98.92%	
+	Flu A			167			165			2			98.80%			95.74%	
+	H1			172			171			1			99.42%			96.80%	
+	H3			173			172			1			99.42%			96.82%	
+	Flu B			168			167			1			99.40%			96.73%	
+	RSV			149			149			0			100%			97.55%	
+	Adenovirus			174			173			1			99.43%			96.84%	
+	hMPV			164			164			0			100%			97.78%	
+	Rhino			168			167			1			99.40%			96.73%	
+
+[Table 2 on page 32]
+Fresh
+Negative
+Calls
+
+[Table 3 on page 32]
+Expected
+Negative
+Calls from
+Frozen
+
+[Table 4 on page 32]
+Unexpected
+Positive Calls
+from Frozen
+
+[Table 5 on page 32]
+Analyte
+(Virus)
+
+[Table 6 on page 32]
+# Calls
+Included
+
+[Table 7 on page 32]
+# Unexpected
+Positive Calls
+
+--- Page 33 ---
+Table 28. Summary results for the LoD confirmation studies
+TCID /mL
+50
+(corresponding to Mean MFI
+Analyte Strain ID
+the estimated values
+LoD) (n=20)
+Type 1 Strain Adenoid 71
+Adenovirus 3.9 x 102 471
+DHI 20-4740010 (original ATCC VR-1)
+7.6 x 10-1 (matrix) 979
+Flu A H1 A/Solomon Islands/3/2006 (NML)
+7.6 x 10-1 (H1) 1077
+A/Victoria/3/75 1.8 (matrix) 628
+Flu A H3
+DHI 20-4710010 (original ATCC VR-822)
+3.6 (H3) 467
+Flu B Influenza B/Malaysia/2506/04 (PHL) 2.9 x 10-2 1425
+FO 1-3774, Type 54
+Rhinovirus 1.4 x 10-2 731
+ATCC 1164
+University of Iowa, Dept. Public Health.
+3.4 x 10-1 514
+(hMPV sublineage A1, Isolate # 16, Iowa, January 2003)
+CAN97-83
+1.3 x 101 928
+(hMPV sublineage A2, CDC isolate 26583)
+hMPV
+University of Iowa, Dept. Public Health.
+1.1 1091
+(hMPV sublineage B1, Isolate #5, Iowa)
+University of Iowa, Dept. Public Health.
+1.2 638
+(hMPV sublineage B2, Isolated October, 2003, Cusco, Peru)
+RSV A Long strain
+1.8 1249
+ATCC VR-26
+RSV
+RSV B Wash/18537/62
+1.6 x 10-2 537
+DHI 20-4730010 (original ATCC VR-1401)
+e. Analytical Reactivity:
+The analytical inclusivity study was performed to determine whether the RVP
+FAST test is able to detect a variety of strains that represent the temporal and
+geographic diversity of each of RVP target organism. The dilution series for each
+33
+
+[Table 1 on page 33]
+			
+Analyte	Strain ID	TCID /mL
+50
+(corresponding to
+the estimated
+LoD)	Mean MFI
+values
+(n=20)
+Adenovirus	Type 1 Strain Adenoid 71
+DHI 20-4740010 (original ATCC VR-1)	3.9 x 102	471
+Flu A H1	A/Solomon Islands/3/2006 (NML)	7.6 x 10-1 (matrix)	979
+		7.6 x 10-1 (H1)	1077
+Flu A H3	A/Victoria/3/75
+DHI 20-4710010 (original ATCC VR-822)	1.8 (matrix)	628
+		3.6 (H3)	467
+Flu B	Influenza B/Malaysia/2506/04 (PHL)	2.9 x 10-2	1425
+Rhinovirus	FO 1-3774, Type 54
+ATCC 1164	1.4 x 10-2	731
+hMPV	University of Iowa, Dept. Public Health.
+(hMPV sublineage A1, Isolate # 16, Iowa, January 2003)	3.4 x 10-1	514
+	CAN97-83
+(hMPV sublineage A2, CDC isolate 26583)	1.3 x 101	928
+	University of Iowa, Dept. Public Health.
+(hMPV sublineage B1, Isolate #5, Iowa)	1.1	1091
+	University of Iowa, Dept. Public Health.
+(hMPV sublineage B2, Isolated October, 2003, Cusco, Peru)	1.2	638
+RSV	RSV A Long strain
+ATCC VR-26	1.8	1249
+	RSV B Wash/18537/62
+DHI 20-4730010 (original ATCC VR-1401)	1.6 x 10-2	537
+
+[Table 2 on page 33]
+TCID /mL
+50
+(corresponding to
+the estimated
+LoD)
+
+[Table 3 on page 33]
+
+Mean MFI
+values
+(n=20)
+
+--- Page 34 ---
+viral stock was intended to cover the detection range of the assay including viral
+loads at or near the limit of detection (LoD). All 10-fold dilution levels of a given
+viral strain were tested in a single run with the RVP FAST assay, together with
+the controls (DNAse-free and RNAse free water, lambda DNA, and MS2
+bacteriophage) as recommended in the package insert. In the event that the MFI
+generated for a particular organism in the initial 10-fold dilution series fell well
+above or below the assay cut-off, then additional dilutions were generated and
+tested with RVP FAST. The starting concentration and dilution factor of each
+successive dilution was determined upon review of the initial 10-fold dilution
+series
+To supplement the known cultured isolate strains tested, sequencing data was
+generated from clinical specimens that tested positive by RVP FAST for Flu A
+H1, Flu A H3, RSV, Rhinovirus or hMPV, to verify that the ‘positive’ call by the
+assay concurred with a ‘positive’ sequence in the sample.
+Summary tables of Analytical Reactivity (Inclusivity) Testing with the RVP
+FAST Assay are presented below in Tables 29 – 36.
+RVP FAST inclusivity testing showed broad coverage of influenza A subtypes. In
+addition, phylogenetic analysis of sequencing data from positive clinical samples show
+that all of the Flu A H1 sequences are closely related to A/Brisbane/59/2007, the
+reference strain recommended by WHO for inclusion in the 2009-2010 trivalent
+vaccine for the Northern Hemisphere. The A/Brisbane/59/2007 was the predominant
+Flu A H1N1 strain in human circulation, just before the outbreak of the 2009 pandemic.
+Most of the Flu A H3 sequences obtained from positive clinical samples were closely
+related to either A/Brisbane/10/2007 (H3N2) or A/Perth/16/2009 (H3N2) reference
+strains which were the strains recommended by WHO for inclusion in the 2009-2010
+influenza virus trivalent vaccine for the Northern and Southern hemispheres,
+respectively.
+Table 29. RVP FAST results on Influenza A strains, subtype H1
+Concentration Flu A
+Subtype Strain ID H1 call H3 call
+matrix call
+A/ Caledonia/20/99 Unknown POS POS NEG
+A/ Solomon Islands/03/06 2.8 TCID /mL POS POS NEG
+50
+H1N1 A/Brisbane/59/2007 Flu A Ct: 33.48 POS POS NEG
+H1 Ct: 34.75
+A/Swine/Iowa/1976/31 Ct: 28.59 POS POS NEG
+A/Swine/Ontario/52156/03 Ct: 33.24 POS POS NEG
+34
+
+[Table 1 on page 34]
+							
+							
+Subtype	Strain ID	Concentration		Flu A		H1 call	H3 call
+				matrix call			
+H1N1	A/ Caledonia/20/99	Unknown	POS			POS	NEG
+	A/ Solomon Islands/03/06	2.8 TCID /mL
+50	POS			POS	NEG
+	A/Brisbane/59/2007	Flu A Ct: 33.48
+H1 Ct: 34.75	POS			POS	NEG
+	A/Swine/Iowa/1976/31	Ct: 28.59	POS			POS	NEG
+	A/Swine/Ontario/52156/03	Ct: 33.24	POS			POS	NEG
+
+--- Page 35 ---
+Table 30. RVP FAST results on Influenza A strains, subtype H3
+Concentration Flu A
+Subtype Strain ID H1 call H3 call
+(Ct value) matrix call
+H3N2 A/ Wyoming/03/2003 36.73 POS NEG POS
+A/Perth/16/2009 Flu A: 33.77 POS NEG POS
+H3: 32.02
+A/ Panama/2007/99 33.64 POS NEG POS
+A/ Victoria/3/75 36.46 POS NEG POS
+A/ Christchurch/90/2004 33.43 POS NEG POS
+A/ Zhejiang/209/2005 36.20 POS NEG POS
+A/ Aichi/174/2005 34.06 POS NEG POS
+A/ New York/206/2005 37.34 POS NEG POS
+A/ Nairobi/5842/2006 26.86 POS NEG POS
+A/ New York/376/2005 36.99 POS NEG POS
+A/ Italy/384/2005 36.69 POS NEG POS
+A/ Minnesota/04/2008 unknown POS NEG POS
+Table 31. RVP FAST results on Influenza A non-H1N1 (seasonal) or non-H3N2 strains
+Concentration Flu A
+Subtype Strain ID H1 call H3 call
+(Ct value) matrix call
+A/England/195/2009 FluA 36.10 POS NEG NEG
+H1v 30.83
+N1v 33.46
+A/Aragon/3218/2008 FluA 30.96 POS NEG NEG
+H1v 33.82
+2009 H1N1 N1v35.15
+(swine)
+A/England/935240/2009 FluA 26.58 POS NEG NEG
+H1v 21.87
+N1v 24.40
+A/England/935240/2009 FluA 28.04 POS NEG NEG
+and A/Scotland/8/2009 H1v 22.84
+N1v 25.69
+NIB23A/Turkey/Turkey/ FluA 23.18 POS NEG NEG
+H5N1
+1/2005 H5 20.37
+A/Turkey/England/198/2 FluA 32.84 POS NEG NEG
+H6N1
+009 H6 28.42
+35
+
+[Table 1 on page 35]
+								
+								
+Subtype	Strain ID	Concentration
+(Ct value)			Flu A		H1 call	H3 call
+					matrix call			
+H3N2	A/ Wyoming/03/2003	36.73		POS			NEG	POS
+	A/Perth/16/2009	Flu A: 33.77
+H3: 32.02		POS			NEG	POS
+	A/ Panama/2007/99	33.64		POS			NEG	POS
+	A/ Victoria/3/75	36.46		POS			NEG	POS
+	A/ Christchurch/90/2004	33.43		POS			NEG	POS
+	A/ Zhejiang/209/2005	36.20		POS			NEG	POS
+	A/ Aichi/174/2005	34.06		POS			NEG	POS
+	A/ New York/206/2005	37.34		POS			NEG	POS
+	A/ Nairobi/5842/2006	26.86		POS			NEG	POS
+	A/ New York/376/2005	36.99		POS			NEG	POS
+	A/ Italy/384/2005	36.69		POS			NEG	POS
+	A/ Minnesota/04/2008	unknown		POS			NEG	POS
+
+[Table 2 on page 35]
+								
+								
+Subtype	Strain ID	Concentration
+(Ct value)			Flu A		H1 call	H3 call
+					matrix call			
+2009 H1N1
+(swine)	A/England/195/2009	FluA 36.10
+H1v 30.83
+N1v 33.46		POS			NEG	NEG
+	A/Aragon/3218/2008	FluA 30.96
+H1v 33.82
+N1v35.15		POS			NEG	NEG
+	A/England/935240/2009	FluA 26.58
+H1v 21.87
+N1v 24.40		POS			NEG	NEG
+	A/England/935240/2009
+and A/Scotland/8/2009	FluA 28.04
+H1v 22.84
+N1v 25.69		POS			NEG	NEG
+H5N1	NIB23A/Turkey/Turkey/
+1/2005	FluA 23.18
+H5 20.37		POS			NEG	NEG
+H6N1	A/Turkey/England/198/2
+009	FluA 32.84
+H6 28.42		POS			NEG	NEG
+
+--- Page 36 ---
+H7N7/Prague/56 Unknown POS NEG NEG
+H7N7
+Table 32. RVP FAST results on Influenza B strains
+Concentration
+Strain ID Flu B call
+(Ct value)
+B/ Sichuan/379/99 31.89 POS
+B/ Hong Kong/330/01 31.13 POS
+B/ Jiangsu/10/2003 31.48 POS
+B/ Shanghai/361/2002 Unknown POS
+B/ Malaysia/2504/04 38.72 POS
+B/ England/145/2008 27.84 POS
+B/England/393/2008 32.48 POS
+Table 33. RVP FAST results on human rhinovirus strains
+Strain ID Group Serotype Concentration Rhinovirus call
+Rhino 1a HRV-A 1 Unknown POS
+Rhino 39 HRV-A 39 Unknown POS
+Rhino 54 HRV-A 54 Unknown POS
+Rhino 60 HRV-A 60 Unknown POS
+Three different sets of validated rhinovirus sequencing primers were used to sequence
+clinical samples from the RVP FAST multi-site study. Based on the empirical testing of
+reference strains using RVP FAST and sequence analysis of clinical samples that tested
+“positive” with RVP FAST, the data show wide coverage among all three rhinovirus
+species A, B and C.
+Table 34. RVP FAST results on Adenovirus strains
+Species Serotype ID Concentration Adenovirus call
+A 18 3.2 x 106 TCID /mL POS
+50
+31 Unknown POS
+B 7 Ct 33.21 POS
+14 Ct 38.63 POS
+36
+
+[Table 1 on page 36]
+				
+				
+Strain ID		Concentration		Flu B call
+		(Ct value)		
+B/ Sichuan/379/99	31.89			POS
+B/ Hong Kong/330/01	31.13			POS
+B/ Jiangsu/10/2003	31.48			POS
+B/ Shanghai/361/2002	Unknown			POS
+B/ Malaysia/2504/04	38.72			POS
+B/ England/145/2008	27.84			POS
+B/England/393/2008	32.48			POS
+
+[Table 2 on page 36]
+				
+				
+Strain ID	Group	Serotype	Concentration	Rhinovirus call
+Rhino 1a	HRV-A	1	Unknown	POS
+Rhino 39	HRV-A	39	Unknown	POS
+Rhino 54	HRV-A	54	Unknown	POS
+Rhino 60	HRV-A	60	Unknown	POS
+
+[Table 3 on page 36]
+			
+			
+Species	Serotype ID	Concentration	Adenovirus call
+A	18	3.2 x 106 TCID /mL
+50	POS
+	31	Unknown	POS
+B	7	Ct 33.21	POS
+	14	Ct 38.63	POS
+
+--- Page 37 ---
+16 Ct 31.08 POS
+21 Ct 30.11 POS
+35 Unknown POS
+C 2 Ct 27.51 POS
+D 8 Ct 32.16 POS
+10 Ct 29.54 POS
+13 Ct 28.93 POS
+19 Ct 32.47 POS
+22 Unknown POS
+25 Ct 39.53 POS
+30 1.6 x 10-1 TCID /mL POS
+50
+37 1.6 TCID /mL POS
+50
+45 Unknown POS
+E 4 1.6 x 101 TCID /mL POS
+50
+F 40 1.6 x 101 TCID /mL POS
+50
+41 Ct 30.58 POS
+A total of 20 adenovirus serotypes were empirically tested with RVP FAST assay. The
+RVP FAST assay was able to detect a broad coverage of Adenoviruses including
+representatives of all 6 species (A-F).
+In addition to this empirical data, 4 additional hMPV strains representing groups A1, A2,
+B1 and B2 were tested as part of the LoD study. All four phylogenetic groups of human
+Metapneumovirus (hMPV) were detected by RVP FAST (A1, A2, B1, B2).
+Table 35. RVP FAST results on hMPV results
+Phylogenetic group Concentration hMPV call
+A1 Unknown POS
+A2 Unknown POS
+B1 Unknown POS
+B2 Unknown POS
+Two different sets of validated hMPV primers were used, to sequence clinical samples
+from the RVP FAST multi-site study. A total of 38 RVP FAST hMPV positive
+37
+
+[Table 1 on page 37]
+	21	Ct 30.11	POS
+	35	Unknown	POS
+C	2	Ct 27.51	POS
+D	8	Ct 32.16	POS
+	10	Ct 29.54	POS
+	13	Ct 28.93	POS
+	19	Ct 32.47	POS
+	22	Unknown	POS
+	25	Ct 39.53	POS
+	30	1.6 x 10-1 TCID /mL
+50	POS
+	37	1.6 TCID /mL
+50	POS
+	45	Unknown	POS
+E	4	1.6 x 101 TCID /mL
+50	POS
+F	40	1.6 x 101 TCID /mL
+50	POS
+	41	Ct 30.58	POS
+
+[Table 2 on page 37]
+		
+		
+Phylogenetic group	Concentration	hMPV call
+A1	Unknown	POS
+A2	Unknown	POS
+B1	Unknown	POS
+B2	Unknown	POS
+
+--- Page 38 ---
+specimens generated positive sequences for hMPV. Of these, 15 generated positive
+sequences for the Nucleocapsid gene, and 28 generated positive sequences for the
+Phosphoprotein gene (5 samples generated positive sequences for both genes) Sequence
+analysis of positive clinical samples show coverage among three hMPV phylogenetic
+groups (A2, B1 and B2). hMPV group A1 was not represented in the clinical sample set.
+Table 36. Respiratory Syncytial Virus Reference Strains
+Concentration
+Strain ID Source Group RSV call
+(Ct Value)
+Long ATCC VR-26 RSV-A 36.32 POS
+Wash/18537/62 ATCC VR-1401 RSV-B 27.07 POS
+9320 ATCC VR-955 RSV-B 29.4 POS
+A-2 ATCC VR-1540 RSV-A 36.52 POS
+B WV/14617/85 ATCC VR-1400 RSV-B 27.85 POS
+RSV A2 cpts-530 ATCC VR-2452 RSV-A 37.88 POS
+Subgroup B cp23 Clone ATCC VR2579 RSV-B 26.14 POS
+1A2
+f. Analytical Specificity/Cross-reactivity Evaluation:
+An analytical exclusivity study was carried out to assess the potential for false positive
+results due to cross-reactivity between RVP FAST assays and other common respiratory
+tract pathogens that are not probed by the RVP FAST assay. A total of 30 potentially
+cross-reactive pathogens (Table 37) were assessed with RVP FAST. Each replicate
+underwent a single EasyMag (bioMerieux NucliSENS®) extraction prior to testing.
+Potentially cross-reactive viruses were prepared by growing each virus in the appropriate
+5 5
+cell host, to a high titer of ~10 pfu/mL (≈10 TCID /mL). Potentially cross-reactive
+50
+bacteria were prepared at a turbidity corresponding to a 1/100 dilution of a 0.5 McFarland
+6
+Standard (approximately 1x10 cfu/mL). In all cases, UTM-RT medium (universal
+transport media; Copan, reference number 330C) was used as a matrix.
+Table 37. Pathogens (Viral and Bacterial) Used in the Cross-Reactivity Study
+Bacterial (n=20) Viral (n=10)
+Bordetella pertussis Herpes simplex virus Type 1
+Chlamydia pneumoniae Cytomegalovirus
+Haemophillus influenzae Varicella-zoster virus
+Pseudomonas aeruginosa Mumps
+Streptococcus pneumoniae Rubeola (Measles)
+Moraxella cartarrhalis Epstein Barr virus
+38
+
+[Table 1 on page 38]
+						
+Strain ID	Source	Group		Concentration		RSV call
+				(Ct Value)		
+Long	ATCC VR-26	RSV-A	36.32			POS
+Wash/18537/62	ATCC VR-1401	RSV-B	27.07			POS
+9320	ATCC VR-955	RSV-B	29.4			POS
+A-2	ATCC VR-1540	RSV-A	36.52			POS
+B WV/14617/85	ATCC VR-1400	RSV-B	27.85			POS
+RSV A2 cpts-530	ATCC VR-2452	RSV-A	37.88			POS
+Subgroup B cp23 Clone
+1A2	ATCC VR2579	RSV-B	26.14			POS
+
+[Table 2 on page 38]
+	
+Bacterial (n=20)	Viral (n=10)
+Bordetella pertussis	Herpes simplex virus Type 1
+Chlamydia pneumoniae	Cytomegalovirus
+Haemophillus influenzae	Varicella-zoster virus
+Pseudomonas aeruginosa	Mumps
+Streptococcus pneumoniae	Rubeola (Measles)
+Moraxella cartarrhalis	Epstein Barr virus
+
+--- Page 39 ---
+Mycobacterium intracellulare Parainfluenza 1
+Mycoplasma bovis Parainfluenza 2
+Mycoplasma pneumoniae Parainfluenza 3
+Klebsiella pneumoniae Bocavirus
+Legionella pneumophilia
+Neisseria meningitidis
+Staphylococcus aureus
+Staphylococcus epidermidis
+Streptococcus Group B
+Acinetobacter baumanii (calcoaceticus)
+Streptococcus pyogenes
+Mycobacterium avium
+Serratia marcescens
+Escherichia coli
+Analysis of the pathogens listed in Table 37 showed no cross-reactivity with any viral
+target probed by RVP FAST. The E. coli stock tested yielded a “present” call for the run
+control (bacteriophage lambda), as expected. Contamination of some E. coli strains with
+lambdoid phages is a known phenomenon in the natural ecology of E. coli in the wild
+thus yielding a “Present” call for the lambda run control (Krylog & Tsygankov 1976;
+Dhillon et al. 1980; Kameyama et al. 1999).
+Cross-Reactivity with Enterovirus
+Rhinoviruses and Enteroviruses are closely-related genera of the Picornaviridae family,
+small, non-enveloped ssRNA positive-strand viruses. Potential cross-reactivity with
+Entorovirus was assessed using cultured isolates. A list of the Enterovirus strains tested is
+presented in Table 38 below.
+Table 38. Enterovirus Strains tested with RVP FAST
+Enterovirus Sabin 1
+Enterovirus Sabin 2
+Enterovirus Sabin 3
+Enterovirus 70
+Enterovirus Coxsackie B1
+Enterovirus Coxsackie B2
+Enterovirus Coxsackie B4
+Enterovirus Coxsackie B5
+Enterovirus Coxsackie A9
+Enterovirus Echo 6
+Enterovirus Echo 7
+Enterovirus Echo 11
+39
+
+[Table 1 on page 39]
+		Parainfluenza 1	
+Mycoplasma bovis		Parainfluenza 2	
+Mycoplasma pneumoniae		Parainfluenza 3	
+Klebsiella pneumoniae		Bocavirus	
+Legionella pneumophilia			
+Neisseria meningitidis			
+Staphylococcus aureus			
+Staphylococcus epidermidis			
+Streptococcus Group B			
+Acinetobacter baumanii (calcoaceticus)			
+Streptococcus pyogenes			
+Mycobacterium avium			
+Serratia marcescens			
+Escherichia coli			
+
+[Table 2 on page 39]
+Enterovirus Sabin 1
+Enterovirus Sabin 2
+Enterovirus Sabin 3
+Enterovirus 70
+Enterovirus Coxsackie B1
+Enterovirus Coxsackie B2
+Enterovirus Coxsackie B4
+Enterovirus Coxsackie B5
+Enterovirus Coxsackie A9
+Enterovirus Echo 6
+Enterovirus Echo 7
+Enterovirus Echo 11
+
+--- Page 40 ---
+Enterovirus Echo 13
+Enterovirus Echo 14
+Enterovirus Echo 30
+All cultured isolates tested generated a positive call for Rhinovirus by RVP FAST
+suggesting that Enterovirus cross-reacts with Rhinovirus-specific primers in the RVP
+FAST assay.
+Cross-Reactivity with Coronaviruses
+Potential cross-reactivity with coronaviruses (HKU1, NL63 and OC43) was examined
+using clinical specimens that tested positive by a real-time PCR assay (N=9). No cross
+reactivity with viral targets probed by RVP FAST were reported in these samples.
+g. Assay cut-off:
+Assay cut-off determination (threshold-setting algorithm) consists of three steps for each
+analyte: 1) setting an initial cut-off range using a validated computer algorithm, 2)
+recommending optimized cut-offs within this range based on ROC analysis of empirical
+data, and 3) establishing an MFI cut-off value through a Design Review Committee
+(DRC) assessment of ROC curves. DRC assessments are carried out in accordance with
+internal procedures that are part of the Design Control sub-system of the LMD Quality
+System.
+Distinct sample sets were used for setting initial cut-offs (step 1 above) and for finding
+the optimized cut-offs (step 2 above). Clinical specimens used in these two cut-off
+determination steps were assigned a “positive” or “negative” call for the analyte in
+question based on results obtained at the clinical site. These results were based on the
+routine diagnostic algorithm at the collection site and generated either by DSFA, culture
+followed by DFA, the 510k cleared xTAG RVP assay (k063765) or a lab-developed real-
+time RT-PCR assay. The sample set used in these 2 cut-off determination steps also
+included cultured isolates with confirmed viral identity which were serially diluted into
+universal transport media (UTM). Finally, the sample set was supplemented with
+extraction controls (UTM spiked with MS2) that were coded as negative for all viral
+targets. All samples were extracted using the Biomerieux EasyMag method prior to being
+tested with RVP FAST.
+For each analyte, ten (10) alternative cut-off values within the initial cut-off range were
+assessed using ROC analysis of the optimization data set. The positive and negative
+agreements (with their corresponding lower bound 95% confidence interval) between
+xTAG® RVP FAST and the expected call were used to select optimal cut-offs for each
+analyte. Table 39 below lists the optimal MFI cut-off ranges generated for each analyte
+using the following acceptance criteria as a guide:
+≥90% positive agreement with lower bound of the two-sided 95% CI ≥ 80%
+≥90% negative agreement with lower bound of the two-sided 95% CI ≥ 90%
+40
+
+[Table 1 on page 40]
+Enterovirus Echo 14
+Enterovirus Echo 30
+
+--- Page 41 ---
+Table 39. Optimized threshold range for each analyte
+No. of No. of 95% CI - 95% CI -
+Optimal Positive Negative
+Analytes negative positive Lower Lower
+cutoffs agreement agreement
+samples samples bound bound
+Adenovirus 236 22 98-135 92 - 95% 71 – 77% 95 - 99% 91 – 97%
+Rhinovirus 218 40 273-441 95% 83% 94% 90%
+H1 229 29 173-679 93% 77% 100% 98%
+H3 240 18 151-410 94 - 100% 73 – 81% 99% 97%
+hMPV 243 15 152-637 93% 68% 100% 98%
+Influenza-A 208 50 179-836 92 - 96% 81 – 86% 100% 97%
+Influenza-B 225 33 218-630 94 - 97% 80 – 84% 100% 98%
+RSV-probe 1 211 47 98-798 94 - 100% 82 – 92% 94 – 100% 90 - 98%
+RSV-probe 2 243 15 94-292 100% 78% 94 – 100% 90 - 98%
+A design review committee (DRC) selected the final cut-offs. Final cut-offs fell within
+the optimized threshold range (Table 40) for all analytes with the exception of
+Adenovirus. For this target, a final cut-off value of 150 MFI was selected as most of the
+optimization samples that were not detected by the assay had high Ct values (>35) and
+were co-infected with multiple targets.
+Table 40: Final cutoffs for xTAG RVP FAST
+Analyte Final Cut-off (MFI)
+Adenovirus 150
+Influenza A 300
+H1 450
+H3 200
+Influenza B 400
+Rhinovirus 300
+HMPV 200
+RSV Probe-1 120
+RSV Probe-2 150
+h. Interfering Substances:
+An interference study was carried out to evaluate the influence of potential interfering
+substances on the accuracy of test results obtained with the RVP FAST. A total of 14
+combinations of analyte and potential interferents (Table 41) were assessed with RVP
+FAST. Each replicate was extracted using the EasyMag method. Potentially interfering
+pathogens were assayed in the presence of RVP FAST targets. The RVP FAST targets
+were prepared at 4-10x the limit of detection for that analyte. Potential viral interferents
+were spiked in at titers of ~ 105 pfu/mL (≈ 105 TCID /mL) and potential bacterial
+50
+interferents were spiked in at titers of ~ 1x106 cfu/mL (by turbidity measurement, against
+the McFarland Standard).
+41
+
+[Table 1 on page 41]
+Analytes	No. of
+negative
+samples	No. of
+positive
+samples	Optimal
+cutoffs	Positive
+agreement	95% CI -
+Lower
+bound	Negative
+agreement	95% CI -
+Lower
+bound
+Adenovirus	236	22	98-135	92 - 95%	71 – 77%	95 - 99%	91 – 97%
+Rhinovirus	218	40	273-441	95%	83%	94%	90%
+H1	229	29	173-679	93%	77%	100%	98%
+H3	240	18	151-410	94 - 100%	73 – 81%	99%	97%
+hMPV	243	15	152-637	93%	68%	100%	98%
+Influenza-A	208	50	179-836	92 - 96%	81 – 86%	100%	97%
+Influenza-B	225	33	218-630	94 - 97%	80 – 84%	100%	98%
+RSV-probe 1	211	47	98-798	94 - 100%	82 – 92%	94 – 100%	90 - 98%
+RSV-probe 2	243	15	94-292	100%	78%	94 – 100%	90 - 98%
+
+[Table 2 on page 41]
+Analyte	Final Cut-off (MFI)
+Adenovirus	150
+Influenza A	300
+H1	450
+H3	200
+Influenza B	400
+Rhinovirus	300
+HMPV	200
+RSV Probe-1	120
+RSV Probe-2	150
+
+--- Page 42 ---
+Table 41. Potential Interferents tested with RVP FAST
+Target analyte Potential interferent
+RSV Streptococcus pneumoniae
+Bordetella pertussis
+Haemophilus influenzae
+CMV
+Adenovirus Bordetella pertussis
+CMV
+Chlamydia pneumoniae
+Influenza A (H3) Streptococcus pneumoniae
+Staphylococcus aureus
+Bordetella pertussis
+Chlamydia pneumoniae
+Rhinovirus Streptococcus pneumoniae
+Mycoplasma pneumoniae
+Haemophilus influenzae
+Analysis of the pathogens listed in Table 41 showed no interference with the RVP FAST
+targets tested
+Common Medications
+Clinically significant interference by medications would result in lower RVP FAST
+detection rates in specimens obtained from medicated patients compared with non-
+medicated patients. Analysis of the clinical data set shows that no significant differences
+in the sensitivity of RVP FAST targets were observed between medicated patients and
+unmedicated patients. RVP FAST correctly identified 217/229 (94.75%) of the targets
+probed by the assay in the population receiving medications and 106/110 (96.36%) in the
+population not receiving medications. This suggests that commonly prescribed
+medications in the intended use population do not interfere with RVP FAST assay results.
+A complete list of medications recorded in patients charts extracted for the clinical
+dataset is presented in Table 42 below.
+Table 42. Medications Administered to Subjects Included in the RVP Fast
+Prospective Dataset
+Generic Medication List
+Acebutolol Dalteparin Insulin lispro Piperacillin/Tazobactam
+Acetaminophen Dapsone Ioperamide Posaconazole
+Acetylsystein Darbepoetin Ipratropium Potassium chloride
+42
+
+[Table 1 on page 42]
+Target analyte	Potential interferent
+RSV	Streptococcus pneumoniae
+	Bordetella pertussis
+	Haemophilus influenzae
+	CMV
+Adenovirus	Bordetella pertussis
+	CMV
+	Chlamydia pneumoniae
+Influenza A (H3)	Streptococcus pneumoniae
+	Staphylococcus aureus
+	Bordetella pertussis
+	Chlamydia pneumoniae
+Rhinovirus	Streptococcus pneumoniae
+	Mycoplasma pneumoniae
+	Haemophilus influenzae
+
+[Table 2 on page 42]
+	Generic Medication List				
+Acebutolol		Dalteparin	Insulin lispro	Piperacillin/Tazobactam	
+Acetaminophen		Dapsone	Ioperamide	Posaconazole	
+Acetylsystein		Darbepoetin	Ipratropium	Potassium chloride	
+
+--- Page 43 ---
+Acne medications Dexamethasone Ipratropium bromide Pramipexole
+Acyclovir Dextromethorphan Irbesartan Pravastatin
+Albuterol Diazepam Iron supplements Prednisone
+Alendronate Diclofenac Itraconazole Prochlorazine
+Alendronate
+Digoxin Ketorolac Prochlorperazine
+sodium/Cholecalciferol
+Allopurinol Diltiazem Lactulose Pseudoephedrine
+Amcinonide Dimenhydrinate Lansoprazole Psyllium
+Amiloride Diphenhydramine Larazapam Pyrazinamide
+Amiloride
+Docetaxel Levalbuterol Pyridostigmine
+hydrochloride/hctz
+Amiodarone Docusate Levfloxacin Quetiapine fumarate
+Amitriptyline Docusate sodium Levodopa - carbidopa Quinapril hydrochloride
+Amlodipine Domperidone Levofloxacin Quinine
+Amlodipine besylate Donepezil hydrochloride Levomepromazine Rabeprazole
+Levonorgestrel and
+Amoxicillin Doxycycline Rabeprazole sodium
+Ethinyl estradiol
+Amoxicillin clavulanate Doxylamine succinate Levothyroxine Raloxifene
+Ampicillin EC acetylsalicylic acid Linezolid Ramipril
+Ampicillin - cefotaxime Enalapril Liothyronine Ranitidine
+Antihistamine Enoxaparin Lisinopril Rifampin
+Anti-malaria drugs Erythromycin Lorazepam Risedronate sodium
+Aspirin Esomeprazole Maalox Risperidone
+Atenolol Etanercept Magnesium Rivastigmine
+Ethinyl estradiol and
+Atorvastatin Magnesium oxide Rosiglitazone
+norethindrone
+Azathioprine Ezetimibe Magnesium sulphate Rosuvastatin
+Azithromycin Famotidine Megestrol acetate Salbutamol
+Aztreonam Fentanyl Meropenem Salbutamol sulfate
+43
+
+[Table 1 on page 43]
+Acyclovir	Dextromethorphan	Irbesartan	Pravastatin
+Albuterol	Diazepam	Iron supplements	Prednisone
+Alendronate	Diclofenac	Itraconazole	Prochlorazine
+Alendronate
+sodium/Cholecalciferol	Digoxin	Ketorolac	Prochlorperazine
+Allopurinol	Diltiazem	Lactulose	Pseudoephedrine
+Amcinonide	Dimenhydrinate	Lansoprazole	Psyllium
+Amiloride	Diphenhydramine	Larazapam	Pyrazinamide
+Amiloride
+hydrochloride/hctz	Docetaxel	Levalbuterol	Pyridostigmine
+Amiodarone	Docusate	Levfloxacin	Quetiapine fumarate
+Amitriptyline	Docusate sodium	Levodopa - carbidopa	Quinapril hydrochloride
+Amlodipine	Domperidone	Levofloxacin	Quinine
+Amlodipine besylate	Donepezil hydrochloride	Levomepromazine	Rabeprazole
+Amoxicillin	Doxycycline	Levonorgestrel and
+Ethinyl estradiol	Rabeprazole sodium
+Amoxicillin clavulanate	Doxylamine succinate	Levothyroxine	Raloxifene
+Ampicillin	EC acetylsalicylic acid	Linezolid	Ramipril
+Ampicillin - cefotaxime	Enalapril	Liothyronine	Ranitidine
+Antihistamine	Enoxaparin	Lisinopril	Rifampin
+Anti-malaria drugs	Erythromycin	Lorazepam	Risedronate sodium
+Aspirin	Esomeprazole	Maalox	Risperidone
+Atenolol	Etanercept	Magnesium	Rivastigmine
+Atorvastatin	Ethinyl estradiol and
+norethindrone	Magnesium oxide	Rosiglitazone
+Azathioprine	Ezetimibe	Magnesium sulphate	Rosuvastatin
+Azithromycin	Famotidine	Megestrol acetate	Salbutamol
+Aztreonam	Fentanyl	Meropenem	Salbutamol sulfate
+
+--- Page 44 ---
+Benzydamine Ferrous fumarate Metformin Saline
+Bevacizumab Ferrous gluconate Methadone Salmeterol
+Bicalutamide Ferrous sulphate Methotrexate Scopolamine
+Bisacodyl Fexofenadine Methylprednisolone Senna
+Bisoprolol Filgrastim Metoclopramide Sennosides
+Budesonide and formoterol Finasteride Metoprolol Seroquil
+Bupropion Fish oil Metoprolol tartrate Sertraline hydrochloride
+Calcitriol Fluconazole Metronidazole Simvastatin
+Calcium Flunisolide nasal Midazolam Sitagliptin
+Calcium carbonate Fluticasone Mineral oil Sodium biphosphate
+Calcium chloride Fluticasone - salmeterol Mirtazapine Sodium phosphates
+Calcium gluconate Fluticasone - Salmeterol Montelukast Spironolactone
+Candesartan cilexetil Fluticasone propionate Morphine Spironolactone-hctz
+Sulfamethoxazole -
+Candesartan-hctz Fluvoxamine maleate Moxifloxacin
+trimethoprim
+Mucousitis mouth
+Carvedilol Folic acid Sulfonylurea
+wash
+Multivatamins and
+Caspofungin Fosinopril Surfactant
+minerals
+Mycophenolate
+Cefazolin Furosemide Tacrolimus
+mofetil
+Cefepime Gabapentin Nadolol Tamsulosin
+Cefotaxime Ganciclovir Nicotine patch Terazosin
+Cefprozil Gentamycin Nifedipine Testosterone
+undecanoate
+Cefradine Gliclazide Nitrofurantoin Theophylline,
+anhydrous
+Ceftazidime Glucosamine Nitroglycerin Thiamine (Vitamin B1)
+Ceftriaxone Glyburide Nortriptyline Thyroxine
+44
+
+[Table 1 on page 44]
+Bevacizumab	Ferrous gluconate	Methadone	Salmeterol
+Bicalutamide	Ferrous sulphate	Methotrexate	Scopolamine
+Bisacodyl	Fexofenadine	Methylprednisolone	Senna
+Bisoprolol	Filgrastim	Metoclopramide	Sennosides
+Budesonide and formoterol	Finasteride	Metoprolol	Seroquil
+Bupropion	Fish oil	Metoprolol tartrate	Sertraline hydrochloride
+Calcitriol	Fluconazole	Metronidazole	Simvastatin
+Calcium	Flunisolide nasal	Midazolam	Sitagliptin
+Calcium carbonate	Fluticasone	Mineral oil	Sodium biphosphate
+Calcium chloride	Fluticasone - salmeterol	Mirtazapine	Sodium phosphates
+Calcium gluconate	Fluticasone - Salmeterol	Montelukast	Spironolactone
+Candesartan cilexetil	Fluticasone propionate	Morphine	Spironolactone-hctz
+Candesartan-hctz	Fluvoxamine maleate	Moxifloxacin	Sulfamethoxazole -
+trimethoprim
+Carvedilol	Folic acid	Mucousitis mouth
+wash	Sulfonylurea
+Caspofungin	Fosinopril	Multivatamins and
+minerals	Surfactant
+Cefazolin	Furosemide	Mycophenolate
+mofetil	Tacrolimus
+Cefepime	Gabapentin	Nadolol	Tamsulosin
+Cefotaxime	Ganciclovir	Nicotine patch	Terazosin
+Cefprozil	Gentamycin	Nifedipine	Testosterone
+undecanoate
+Cefradine	Gliclazide	Nitrofurantoin	Theophylline,
+anhydrous
+Ceftazidime	Glucosamine	Nitroglycerin	Thiamine (Vitamin B1)
+Ceftriaxone	Glyburide	Nortriptyline	Thyroxine
+
+--- Page 45 ---
+Cefuroxime Glycerin Nystatin Ticarcillin/Clavulanate
+Celecoxib Granisetron Olanzapine Tiotropium
+Cephalexin Guaifenesin - Omeprazole Tobramycin
+phenylephrine
+Chaste tree Haloperidol Ondansetron Tramadol
+Chemotherapeutic drugs Heparin Oseltamivir Tranexamic acid
+Chlorpromazine Hydrochlorothiazide Oxazepam Trazodone
+Ciprofloxacin Hydrochlorothiazide - Oxtriphylline Triazolam
+losartan
+Citalopram Hydrocodone Oxycodone Trimethoprim
+Citalopram hydrobomide Hydrocortisone Packed red blood Ursodeoxycholic acid
+cells
+Clarithromycin Hydromorphone Pantoprazole Ursodiol
+Clindamycin Hydroxychloroquine Parachlorometaxylen Valganciclovir
+ol
+Clonazepam Hydroxychloroquine paroxetine Valproic acid
+sulfate
+Clopidogrel Hydroxyquine Penicillamine Vancomycin
+Cloxacillin Hypromellose Penicillins and beta- Venlafaxine
+lactamase inhibitors
+Clozapine Ibuprofen Pentamidine Vitamin A, Vitamin D,
+Vitamin C
+Codeine Imatinib Pentostatin Vitamin B12
+Codeine phosphate Imipenem Pentoxifylline Vitamin E
+Conjugated estrogens Indapamide Perindopril Voriconazole
+Cyanocobalamin Indomethacin Phenylephrine Wafarin
+Cyclobenzaprine Infliximab Phenytoin Zopiclone
+Cyclophamide Insulin aspart Phosphate
+Cyclosporine Insulin isophane and Pioglitazon
+45
+
+[Table 1 on page 45]
+Celecoxib	Granisetron	Olanzapine	Tiotropium		
+Cephalexin	Guaifenesin -
+phenylephrine	Omeprazole	Tobramycin		
+Chaste tree	Haloperidol	Ondansetron	Tramadol		
+Chemotherapeutic drugs	Heparin	Oseltamivir	Tranexamic acid		
+Chlorpromazine	Hydrochlorothiazide	Oxazepam	Trazodone		
+Ciprofloxacin	Hydrochlorothiazide -
+losartan	Oxtriphylline	Triazolam		
+Citalopram	Hydrocodone	Oxycodone	Trimethoprim		
+Citalopram hydrobomide	Hydrocortisone	Packed red blood
+cells	Ursodeoxycholic acid		
+Clarithromycin	Hydromorphone	Pantoprazole	Ursodiol		
+Clindamycin	Hydroxychloroquine	Parachlorometaxylen
+ol	Valganciclovir		
+Clonazepam	Hydroxychloroquine
+sulfate	paroxetine	Valproic acid		
+Clopidogrel	Hydroxyquine	Penicillamine	Vancomycin		
+Cloxacillin	Hypromellose	Penicillins and beta-
+lactamase inhibitors	Venlafaxine		
+Clozapine	Ibuprofen	Pentamidine	Vitamin A, Vitamin D,
+Vitamin C		
+Codeine	Imatinib	Pentostatin	Vitamin B12		
+Codeine phosphate	Imipenem	Pentoxifylline	Vitamin E		
+Conjugated estrogens	Indapamide	Perindopril	Voriconazole		
+Cyanocobalamin	Indomethacin	Phenylephrine	Wafarin		
+Cyclobenzaprine	Infliximab	Phenytoin	Zopiclone		
+Cyclophamide	Insulin aspart	Phosphate			
+Cyclosporine	Insulin isophane and	Pioglitazon			
+
+--- Page 46 ---
+insulin regular hydrocholoride
+i. Carry-Over Contamination:
+The carry-over study was conducted using water blanks (DNase and RNase free distilled
+water) alternating with replicates of a high titre purified viral nucleic acid sample in a
+checkerboard pattern. RSV B nucleic acid (Wash/18537/62DHI 20-4730010; original
+ATCC VR-1401) was prepared at a high titer far above the assay cut-off, in order to
+obtain positive calls 100% of the time and maximize the potential for cross
+contamination. RSV B was chosen as the analyte, since it is commonly observed in
+clinical specimens at high titre (Chidgey and Broadley, 2005). This study consisted of six
+identical runs tested over six different days each performed by one operator, using a
+single kit lot and equipment set. The mean MFI of the RSV B replicates was 10,860. No
+carryover contamination with RSV B was observed, as the MFI values obtained in the
+blank positions was not significantly greater than the LoB any blank position on the
+checkerboard plate layout.
+2. Comparison studies:
+a. Method comparison with predicate device:
+Not applicable. Refer to the Clinical Studies Section of this document.
+b. Matrix comparison:
+Not applicable
+3. Clinical studies:
+Prospective Clinical Study
+The clinical performance of the RVP FAST assay was evaluated during prospective studies
+at three clinical laboratories; two of the laboratories were in Southern Ontario (Canada) and
+one in New York (US). A total of 1191 nasopharyngeal swabs clinical specimens were
+collected from pediatric and adult patients. Of these 1191 specimens, 633 were prospectively
+collected during the 2007/2008 and 558 in the 2008/2009 influenza seasons (prospective data
+set). An additional 34 specimens were pre-selected for adenovirus (pre-selected data set). Of
+the 1191 prospectively collected clinical specimens, 178 were tested by RVP FAST from the
+“fresh” state and 1013 were tested from the “frozen” state. All 34 pre-selected adenovirus
+positive clinical specimens were tested by RVP FAST from the “frozen” state.
+The study sites enrolled subjects from diverse demographic groups. Data summery of
+demographic information for the 1191 subjects that participated in the prospective study is
+presented in Table 43 below.
+46
+
+--- Page 47 ---
+Table 43. Demographic Summary for RVP FAST Prospective Clinical Study
+SEX NUMBER OF SUBJECTS
+Male 591 (49.6%)
+Female 600 (50.4%)
+AGE (yrs)
+0 - 1 187 (15.7%)
+>1 - 5 82 (6.9%)
+>5 - 21 112 (9.4%)
+>21 - 65 471 (39.5%)
+>65 339 (28.5%)
+SUBJECT STATUS
+Outpatients 120 (10.1%)
+Hospitalized 473 (39.7%)
+Emergency Department 291 (24.4%)
+Not Determined 307 (25.8%)
+For Influenza A, Influenza B, RSV and Adenovirus, all specimens were assessed from the
+fresh state at each site by cleared Direct Specimen Fluorescent Antibody (DSFA) tests and/or
+culture followed by DFA. If DSFA or culture followed by DFA was positive, then the
+specimen was coded as positive by comparator. Comparator testing for these analytes was
+carried out at the clinical site processing the test requisition for that patient sample.
+For subtypes of Influenza A, well-characterized RT-PCR amplification followed by bi-
+directional sequencing was performed on frozen extracts of all DSFA or culture followed by
+DFA positive specimens. Amplification primers used for Influenza A subtyping targeted
+different genomic regions from the ones probed by RVP FAST.
+For rhinovirus and hMPV, a composite reference method (a predetermined algorithm that
+combines results of more than one test) was used as comparator. This method consisted of 2
+separate, well-characterized nucleic acid amplification tests (NAATs) followed by bi-
+directional sequencing. To the extent possible, the NAATs used in the composite reference
+method targeted different genomic regions from the ones probed by RVP FAST. If at least
+one of the two NAATs was positive by bi-directional sequencing, the specimen was
+considered to be positive by comparator. If both NAATs were negative by bi-directional
+sequencing, then the specimen was coded as negative by comparator. C
+47
+
+[Table 1 on page 47]
+	
+SEX	NUMBER OF SUBJECTS
+Male	591 (49.6%)
+Female	600 (50.4%)
+	
+AGE (yrs)	
+0 - 1	187 (15.7%)
+>1 - 5	82 (6.9%)
+>5 - 21	112 (9.4%)
+>21 - 65	471 (39.5%)
+>65	339 (28.5%)
+	
+SUBJECT STATUS	
+Outpatients	120 (10.1%)
+Hospitalized	473 (39.7%)
+Emergency Department	291 (24.4%)
+Not Determined	307 (25.8%)
+
+--- Page 48 ---
+Nucleic acid testing (NAATs), including RVP FAST, was performed on left-over specimen
+that had been extracted from the fresh or frozen state. Total extracted nucleic acid material
+was stored at -70°C prior to testing. A total of 30 specimens were rerun by RVP FAST. Of
+these, 1 was due to internal control failure (“Sample failed: unexpected control call(s)”); 23
+were due to indeterminate Flu A H1 or H3, defined as POS call for H1 or H3 hemagglutinin
+gene in the absence of a POS call for the matrix gene ("Target failed: incompatible signals
+between targets"); 2 were due to Flu A unsubtypeable results (“Warning: Influenza A
+detected but subtype could not be determined. Refer to Kit Package insert for further
+instructions”) and 4 specimens were due low bead count results in the primary negative
+control (“Assay failed: low bead count(s) for the primary negative control sample”).
+Diagnostic sensitivity (and specificity) of RVP FAST was established by determining the
+fraction of comparator positive (or negative) results that were also found positive (or
+negative) by RVP FAST. Sensitivity was calculated by dividing the total number of "true
+positive" RVP FAST results (TP) by the sum of the TP and "false negative" (FN) RVP FAST
+results. Specificity was calculated by dividing the total number of "true negative" RVP FAST
+results (TN) by the sum of the TN and "false positive" (FP) RVP FAST results. An RVP
+FAST result was considered to be a TP or TN result only in the event that it agreed with the
+comparator method result for the analyte in question. The prospective performance data (all
+sites combined) are presented by analyte in the Tables 44-51:
+Table 44. Influenza A
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 129 47 176
+Negative 8 989 997
+TOTAL 137 1036 1173
+Sensitivity: 94.2% (88.8% - 97.4%)
+Specificity: 95.5% (94.0% - 96.6%)
+Note: There were 18 specimens that tested negative by cleared DSFA for Flu A, Flu B,
+Adenovirus and RSV but that were not assessed by culture followed by DFA. As requested
+by FDA, data from all 18 specimens were excluded from the calculations of sensitivity and
+specificity for these targets (1191-18 = 1173).
+Table 45. Influenza A/H1
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 52 21 73
+Negative 2 1116 1118
+TOTAL 54 1137 1191
+Sensitivity: 96.3% (87.3% - 99.5%)
+Specificity: 98.2% (97.2% - 98.9%)
+48
+
+[Table 1 on page 48]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	129	47	176
+Negative	8	989	997
+TOTAL	137	1036	1173
+
+[Table 2 on page 48]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	52	21	73
+Negative	2	1116	1118
+TOTAL	54	1137	1191
+
+--- Page 49 ---
+Table 46. Influenza A/H3
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 74 24 98
+Negative 3 1090 1093
+TOTAL 77 1114 1191
+Sensitivity: 96.1% (89.0% - 99.2%)
+Specificity: 97.8% (96.8% - 98.6%)
+Table 47. Influenza B
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 50 13 63
+Negative 3 1107 1110
+TOTAL 53 1120 1173
+Sensitivity: 94.3% (84.3% - 98.8%)
+Specificity: 98.8% (98.0% - 99.4%)
+Note: There were 18 specimens that tested negative by cleared DSFA for Flu A, Flu B,
+Adenovirus and RSV but that were not assessed by culture followed by DFA. As requested
+by FDA, data from all 18 specimens were excluded from the calculations of sensitivity and
+specificity for these targets (1191-18 = 1173).
+Table 48. Respiratory Syncytial Virus
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 110 24 134
+Negative 11 1028 1039
+TOTAL 121 1052 1173
+Sensitivity: 90.9% (84.3% - 95.4%)
+Specificity: 97.7% (96.6% - 98.5%)
+Note: There were 18 specimens that tested negative by cleared DSFA for Flu A, Flu B,
+Adenovirus and RSV but that were not assessed by culture followed by DFA. As requested
+by FDA, data from all 18 specimens were excluded from the calculations of sensitivity and
+specificity for these targets (1191-18=1173).
+Table 49. Rhinovirus
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 43 85 128
+Negative 2 1047 1049
+TOTAL 45 1132 1177
+Sensitivity: 95.6% (84.9% - 99.5%)
+Specificity: 92.5% (90.8% - 94.0%)
+49
+
+[Table 1 on page 49]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	74	24	98
+Negative	3	1090	1093
+TOTAL	77	1114	1191
+
+[Table 2 on page 49]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	50	13	63
+Negative	3	1107	1110
+TOTAL	53	1120	1173
+
+[Table 3 on page 49]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	110	24	134
+Negative	11	1028	1039
+TOTAL	121	1052	1173
+
+[Table 4 on page 49]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	43	85	128
+Negative	2	1047	1049
+TOTAL	45	1132	1177
+
+--- Page 50 ---
+Note: A total of 14 specimens were excluded from the calculations of sensitivity and
+specificity for Rhinovirus as comparator results were not available for this target (1191-14 =
+1177).
+Table 50. Adenovirus
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 12 8 20
+Negative 2 1151 1153
+TOTAL 14 1159 1173
+Sensitivity: 85.7% (57.2% - 98.2%)
+Specificity: 99.3% (98.6% - 99.7%)
+Note: There were 18 specimens that tested negative by cleared DSFA for Flu A, Flu B,
+Adenovirus and RSV but that were not assessed by culture followed by DFA. As requested
+by FDA, data from all 18 specimens were excluded from the calculations of sensitivity and
+specificity for these targets (1191-18 = 1173).
+Table 51. Human Metapneumovirus
+RVP FAST Primary Comparator
+Positive Negative TOTAL
+Positive 35 12 47
+Negative 1 1121 1122
+TOTAL 36 1133 1169
+Sensitivity: 97.2% (85.5% - 99.9%)
+Specificity: 98.9% (98.0% - 99.5%)
+Note: A total of 22 specimens were excluded from the calculations of sensitivity and
+specificity for human metapneumovirus as comparator results were not available for this
+target.
+The summary of the prospective performance data (all sites combined) are presented in Table
+52:
+50
+
+[Table 1 on page 50]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	12	8	20
+Negative	2	1151	1153
+TOTAL	14	1159	1173
+
+[Table 2 on page 50]
+RVP FAST	Primary Comparator		
+	Positive	Negative	TOTAL
+Positive	35	12	47
+Negative	1	1121	1122
+TOTAL	36	1133	1169
+
+--- Page 51 ---
+Table 52. Sensitivity and Specificity of RVP FAST in the Prospective Data Set
+Virus (Analyte) Sensitivity 95%CI for Specificity 95% CI for
+Sensitivity Specificity
+TP / Percen TN/ Percen
+(TP+FN) t (TN+FP) t
+Human Influenza A 129/137 94.2% 88.8% - 989/1036 95.5% 94.0% -
+H1 52/54 96.3% 87.3% - 1093/1111 98.4% 97.5% -
+H3 74/77 96.1% 89.0% - 1065/1088 97.9% 96.8% -
+Human Influenza B 50/53 94.3% 84.3% - 1107/1120 98.8% 98.0% -
+RSV 110/121 90.9% 84.3% - 1028/1052 97.7% 96.6% -
+Rhinovirus 43/45 95.6% 84.9% - 1047/1132 92.5% 90.8% -
+Adenovirus 12/14 85.7% 57.2% - 1151/1159 99.3% 98.6% -
+Metapneumovirus 35/36 97.2% 85.5% - 1121/1133 98.9% 98.2% -
+Note: Not all 1191 specimens collected were assessed by the comparator for all targets and
+results for those targets could therefore not be included.
+Prospective Clinical Study Mixed Infection Analysis
+Co-infections with more than one virus were reported in 36 of the1191 clinical specimens
+included in the prospective dataset (3.0%). The prevalence of co-infections in the sample
+set is summarized in Table 53. The single most common co-infection was Human
+Rhinovirus with Respiratory Syncytial Virus. These viruses were the most prevalent in the
+tested population.
+Table 53. Prevalence of Co-infections in the Prospective Data Set (Based on RVP FAST
+Results)
+Co-infections Number Reported Prevalence
+Flu A / Flu B 1 <0.1%
+Flu A / Rhino 5 0.4%
+RSV / Rhino 13 1.1%
+RSV / Adeno 3 0.25%
+Adeno / Rhino 5 0.4%
+hMPV / Rhino 1 <0.1%
+Adeno / hMPV 1 <0.1%
+Adeno / Flu A 1 <0.1%
+51
+
+[Table 1 on page 51]
+																				
+Virus (Analyte)			Sensitivity						95%CI for
+Sensitivity			Specificity						95% CI for
+Specificity		
+			TP /
+(TP+FN)			Percen
+t						TN/
+(TN+FP)			Percen
+t					
+																				
+	Human Influenza A			129/137			94.2%			88.8% -			989/1036			95.5%			94.0% -	
+												1093/1111			98.4%			97.5% -		
+	H1			52/54			96.3%			87.3% -										
+												1065/1088			97.9%			96.8% -		
+	H3			74/77			96.1%			89.0% -										
+												1107/1120			98.8%			98.0% -		
+	Human Influenza B			50/53			94.3%			84.3% -										
+												1028/1052			97.7%			96.6% -		
+	RSV			110/121			90.9%			84.3% -										
+												1047/1132			92.5%			90.8% -		
+	Rhinovirus			43/45			95.6%			84.9% -										
+												1151/1159			99.3%			98.6% -		
+	Adenovirus			12/14			85.7%			57.2% -										
+												1121/1133			98.9%			98.2% -		
+	Metapneumovirus			35/36			97.2%			85.5% -										
+
+[Table 2 on page 51]
+Virus (Analyte)
+
+
+[Table 3 on page 51]
+95%CI for
+Sensitivity
+
+[Table 4 on page 51]
+95% CI for
+Specificity
+
+[Table 5 on page 51]
+		
+Co-infections	Number Reported	Prevalence
+Flu A / Flu B	1	<0.1%
+Flu A / Rhino	5	0.4%
+RSV / Rhino	13	1.1%
+RSV / Adeno	3	0.25%
+Adeno / Rhino	5	0.4%
+hMPV / Rhino	1	<0.1%
+Adeno / hMPV	1	<0.1%
+Adeno / Flu A	1	<0.1%
+
+--- Page 52 ---
+Flu A / RSV 1 <0.1%
+Flu A / hMPV 1 <0.1%
+Flu B / hMPV 1 <0.1%
+Flu A / hMPV / Rhino 1 <0.1%
+Flu A / Flu B / Rhino 1 <0.1%
+Adeno / hMPV / Rhino 1 <0.1%
+Total 36 3.0%
+Retrospective Clinical Study
+Since Adenovirus does not show seasonality, the prospective sample set was supplemented
+with banked, pre-selected, positive clinical specimens (34) collected at selected sites and
+tested by RVP FAST (Table 54). Pre-selected positive clinical specimens were not blinded
+prior to testing. These retrospective archived samples were characterized previously at the
+source sites using a variety of methods including DSFA, viral culture followed by DFA,
+Luminex X-TAG RVP, and LDT PCR assays
+Table 54. Positive Agreement of RVP FAST in the Pre-Selected Data Set (N=34)
+Positive Agreement 95% CI for Positive
+.Virus (Analyte)
+Agreement
+TP/(TP+FN) Percent
+Adenovirus 33/34 97.06% 84.67% - 99.93%
+Confirmed Swine Flu (2009/H1N1) Specimens:
+An additional 77 clinical specimens (NP swabs) confirmed by CDC real-time PCR Swine Flu
+(H1N1) assay to be positive for Flu A 2009 H1N1 were tested by RVP FAST. Of these,
+seventy-five (75) were Flu A unsubtypeable (97.40%, LB 95% CI 90.93%), two (2)
+specimens were Flu A H1 positive by RVP FAST (2.60%) and none were negative for Flu A
+(0.00%).
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+The prevalence of individual viruses as detected by RVP FAST in the clinical study patient
+population presented in Table 55:
+52
+
+[Table 1 on page 52]
+Flu A / hMPV	1	<0.1%
+Flu B / hMPV	1	<0.1%
+Flu A / hMPV / Rhino	1	<0.1%
+Flu A / Flu B / Rhino	1	<0.1%
+Adeno / hMPV / Rhino	1	<0.1%
+Total	36	3.0%
+
+[Table 2 on page 52]
+											
+.Virus (Analyte)			Positive Agreement						95% CI for Positive
+Agreement		
+											
+			TP/(TP+FN)			Percent					
+											
+	Adenovirus			33/34			97.06%			84.67% - 99.93%	
+
+[Table 3 on page 52]
+95% CI for Positive
+Agreement
+
+--- Page 53 ---
+Table 55. Prevalence of Individual Viruses
+Flu A Flu A Flu A
+Age (yrs) Flu B RSV Rhino hMPV Adeno
+(matrix) H1 H3
+0-5 17 10 7 5 80 51 11 8
+>5-21 25 16 10 16 4 12 5 5
+>21-65 97 39 51 34 21 47 16 5
+>65 37 5 29 8 29 18 15 2
+All Ages 176 70 97 63 134 128 47 20
+Prevalence 14.8% 5.9% 8.1% 5.3% 11.2% 10.7% 3.9% 1.7%
+N. Instrument Name:
+Luminex LX 100/200 System.
+O. System Descriptions:
+1. Modes of Operation:
+The Luminex LX100/200 instrument is used to sort and analyze amplified PCR products
+attached to bead arrays. The instrument generates signals based on the acquisition of
+spectrofluorometric data. The raw signals are median fluorescence intensities (MFI) which
+are acquired in a Luminex Output.csv file that is subsequently analyzed by the xTAG Data
+Analysis Software (TDAS RVP FAST) to establish the presence or absence of all viral types
+/ subtypes for which a Luminex microsphere population has been dedicated.
+2. Software:
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this
+line of product types:
+Yes ____X____ or No ________
+3. Specimen Identification:
+User enters Patient ID/Sample ID by typing it in.
+4. Specimen Sampling and Handling:
+Not applicable
+53
+
+[Table 1 on page 53]
+														
+Age (yrs)		Flu A			Flu A			Flu A		Flu B	RSV	Rhino	hMPV	Adeno
+		(matrix)			H1			H3						
+0-5	17			10			7			5	80	51	11	8
+>5-21	25			16			10			16	4	12	5	5
+>21-65	97			39			51			34	21	47	16	5
+>65	37			5			29			8	29	18	15	2
+All Ages	176			70			97			63	134	128	47	20
+Prevalence	14.8%			5.9%			8.1%			5.3%	11.2%	10.7%	3.9%	1.7%
+
+--- Page 54 ---
+5. Calibration:
+Not applicable
+6. Quality Control:
+The RVP FAST contains an internal and external control. Additional positive and negative
+controls are recommended as indicated in section L above.
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In the
+“Performance Characteristics” Section above:
+Not applicable
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision
+54

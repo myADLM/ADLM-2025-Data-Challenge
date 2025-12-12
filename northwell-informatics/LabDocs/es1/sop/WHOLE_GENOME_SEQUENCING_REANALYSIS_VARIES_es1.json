@@ -1,0 +1,7 @@
+{
+    "Test Name": "Whole Genome Sequencing (WGS) Reanalysis",
+    "Specimen Type": "Existing WGS data files (FASTQ, BAM, VCF) derived from patient genomic DNA",
+    "Purpose": "To re-examine previously generated whole genome sequencing data using updated reference genomes, software, and databases to provide current and accurate clinical interpretations.",
+    "Container": "Laboratory’s secure digital data repository",
+    "Equipment": "Bioinformatics workstations/servers running tools such as BWA MEM, SAMtools, GATK, FreeBayes, and annotation resources (ClinVar, HGMD, gnomAD)"
+}

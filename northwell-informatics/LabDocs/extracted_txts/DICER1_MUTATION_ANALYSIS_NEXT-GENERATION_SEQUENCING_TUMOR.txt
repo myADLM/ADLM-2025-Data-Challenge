@@ -1,0 +1,113 @@
+Standard Operating Procedure (SOP)
+DICER1 Mutation Analysis, Next-Generation Sequencing (NGS),
+Tumor
+1. PURPOSE
+To establish a standardized protocol for the analytical phase of
+generating DICER1 mutation analysis results using next-generation
+sequencing (NGS) on tumor specimens. This SOP ensures accuracy,
+validity, and reproducibility of test results.
+2. SPECIMEN REQUIREMENTS
+• Specimen Type: Tumor tissue
+• Collection Requirements:
+◦ Formalin-fixed paraffin-embedded (FFPE) tissue blocks
+◦ Fresh-frozen tissue samples
+◦ Minimum of 20% tumor cell content
+3. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Equipment:
+◦ Microtome
+◦ DNA extraction system (e.g., QIAcube)
+◦ Qubit or NanoDrop spectrophotometer
+◦ PCR thermocycler
+◦ Illumina NGS sequencer
+◦ Bioanalyzer or TapeStation
+• Reagents:
+◦ FFPE DNA extraction kit
+◦ PCR primers specific for DICER1
+◦ Library preparation kit for NGS
+◦ Sequencing reagents and flow cells
+• Supplies:
+◦ Microcentrifuge tubes
+◦ Pipette tips (filtered)
+◦ Thermal cycler tubes
+◦ Gloves and other PPE
+4. PROCEDURE
+A. DNA Extraction from Tumor Tissue
+1. FFPE Tissue:
+◦ Section FFPE blocks at 5-10 µm thickness using a
+microtome.
+◦ Transfer sections into microcentrifuge tubes.
+◦ Deparaffinize sections in xylene, followed by rehydration in a
+graded ethanol series.
+◦ Extract DNA using the FFPE DNA extraction kit following
+manufacturer’s instructions.
+2. Fresh-Frozen Tissue:
+◦ Thaw the tissue on ice.
+◦ Homogenize the tissue using a tissue grinder or similar
+device.
+◦ Extract DNA using the appropriate tissue DNA extraction kit.
+B. DNA Quantification and Quality Assessment
+1. Measure DNA concentration using Qubit or NanoDrop
+spectrophotometer.
+2. Assess DNA integrity using a Bioanalyzer or TapeStation.
+3. Record the DNA concentration and quality metrics in the
+laboratory information management system (LIMS).
+C. PCR Amplification
+1. Prepare PCR reaction mix according to the kit instructions,
+including specific primers for the DICER1 gene.
+2. Perform PCR in a thermocycler with cycling conditions
+optimized for the primers.
+D. Library Preparation for NGS
+1. Purify PCR products using magnetic bead-based purification.
+2. Quantify purified PCR products.
+3. Prepare the sequencing libraries using the designated library
+preparation kit.
+4. Assess library quality and size distribution using Bioanalyzer or
+TapeStation.
+E. NGS Sequencing
+1. Load the prepared libraries onto the NGS sequencer according
+to the manufacturer’s protocol.
+2. Monitor the sequencing run periodically to ensure optimal
+performance.
+F. Data Analysis
+1. Transfer sequencing data to the bioinformatics pipeline for
+analysis.
+2. Align sequences to reference genome and call variants.
+3. Annotate DICER1 variants using appropriate databases.
+4. Filter and prioritize variants based on clinical significance.
+5. QUALITY CONTROL
+• Include DNA extraction controls with each batch of samples.
+• Include positive and negative controls in PCR and library
+preparation steps.
+• Monitor sequencing quality metrics (e.g., Q30 scores).
+• Ensure thorough documentation of all procedures and any
+deviations.
+6. REPORTING RESULTS
+1. Review the sequencing data and variant calls.
+2. Interpret the clinical significance of identified DICER1 variants.
+3. Generate and review the final report.
+4. Ensure the report is reviewed and signed by a qualified
+molecular pathologist.
+5. Release the report to the referring clinician via LIMS.
+7. REFERENCE INTERVALS AND INTERPRETATION
+• Interpretation should be in the context of the tumor type, patient’s
+clinical presentation, and relevant literature.
+• Reference ranges for variant pathogenicity as defined in the
+ACMG guidelines.
+8. METHOD LIMITATIONS
+• DNA quality and quantity from FFPE samples may be
+compromised due to fixation and storage conditions.
+• The presence of PCR inhibitors in the sample may affect
+amplification efficiency.
+• Not all regions of the DICER1 gene may be reliably covered;
+regions with low coverage may need further validation.
+9. REFERENCES
+• Manufacturer’s instructions for DNA extraction kits, library
+preparation kits, and sequencer operation.
+• ACMG guidelines for the interpretation of sequence variants.
+• Internal departmental SOPs for NGS data handling and variant
+interpretation.
+By following this SOP, laboratory personnel will ensure the generation
+of accurate and reliable results for DICER1 mutation analysis in
+tumor specimens using next-generation sequencing. All staff
+responsible for these procedures must be trained and competent in
+the techniques and adhere strictly to the protocol outlined here.

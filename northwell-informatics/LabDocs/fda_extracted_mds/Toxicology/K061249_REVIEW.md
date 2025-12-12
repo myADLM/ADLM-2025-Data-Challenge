@@ -1,0 +1,43 @@
+# SPECIAL 510(k): Device Modification ODE Review Memorandum (Decision Making Document is Attached)
+
+To: THE FILE
+
+RE: DOCUMENT NUMBER K_061249
+
+This $5 1 0 ( \mathsf { k } )$ submission contains information/data on modifications made to the SUBMITTER’S own Class II, Class III or Class I devices requiring 510(k). The following items are present and acceptable (delete/add items as necessary):
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device. (For a preamendments device, a statement to this effect has been provided.) k953718
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use).
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+This changes from the previously cleared device (k953718) are listed below:
+
+1) The reaction sequence occurs in a one-step immunoassay format instead of a two-step.   
+2) The current device contains an increase concentration of saponin $( 0 . 3 \% )$ in the conjugate diluent as opposed to $0 . 1 3 \%$ saponin used in the predicate.   
+3) The current device contains $0 . 5 \%$ Triton and $0 . 0 5 \%$ antifoam in the probe wash solution whereas the predicate did not.   
+4) Interferences from aldosterone inhibitors and other steroid drugs range from $- 2 \%$ to $2 \%$ with this current device as opposed to $\bullet$ to $33 \%$ with the predicate device. Bilirubin now has a less that $20 \%$ interference as opposed to less than $10 \%$ with the predicate device.   
+5) Sampling volume with the current device now requires $1 9 4 \mu L$ (both routine and STAT) to perform a single undiluted digoxin test using a sample cup on the AxSYM system. The predicate requires $1 5 0 \mu \mathrm { L }$ for a routine and $1 3 1 \mu \mathrm { L }$ for a STAT run.   
+6) The current device high control concentration range (included with the device) have changed from 2.60 -3.80 ng/mL to 2.50 - 3.90 ng/mL. The current device medium control concentration range has changed from 1.50 - 2.30 ng/mL to 1.43 - 2.38 ng/mL.   
+7) The method comparison section of the package insert has been updated to use predicate (k953718) as the comparator.
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics, and physical characteristics, immunoassay technology, test protocol, performance, assay principle, cutoff level and reagents.
+
+5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied   
+c) A declaration of conformity with design controls. The declaration of conformity should include: i) A statement signed by the individual responsible, that, as required by the risk analysis, all verification and validation activities were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met, and ii) A statement signed by the individual responsible, that the manufacturing facility is in conformance with design control procedure requirements as specified in 21 CFR 820.30 and the records are available for review.
+
+# 6. A Truthful and Accurate Statement, a 510(k) Summary or Statement and the Indications for Use Enclosure (and Class III Summary for Class III devices).
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared (or their preamendment) device.
+
+# Regulatory Classification
+
+Enzyme Immunoassay, Digoxin 21 CFR 862.3320 KXT
+
+Class II
+
+Panel (91) Toxicology

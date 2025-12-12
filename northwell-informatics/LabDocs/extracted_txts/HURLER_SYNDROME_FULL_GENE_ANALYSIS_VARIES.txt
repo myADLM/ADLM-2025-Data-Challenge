@@ -1,0 +1,86 @@
+Standard Operating Procedure (SOP)
+1. TITLE: Protocol for the Analytical Phase of Generating Results for
+Hurler Syndrome, Full Gene Analysis, VARIES
+2. PURPOSE: To provide a standardized procedure for the analytical
+phase including the preparation, testing, and documentation required
+to generate reliable and accurate results for Hurler Syndrome, Full
+Gene Analysis.
+3. SCOPE: This SOP is applicable to all trained laboratory personnel
+performing the analytical phase of Hurler Syndrome, Full Gene
+Analysis in a CLIA-certified laboratory.
+4. RESPONSIBILITIES:
+4.1. It is the responsibility of all laboratory personnel involved in this
+process to follow the protocols outlined in this SOP. 4.2. Laboratory
+supervisors must ensure that all personnel are properly trained and
+adhere to this SOP. 4.3. It is the responsibility of the laboratory staff
+to document all procedures and any deviations from the SOP.
+5. DEFINITIONS: Hurler Syndrome (MPS I) is a genetic disorder
+caused by mutations in the IDUA gene. Full gene analysis includes
+sequencing and mutation detection in the entire gene.
+6. PROCEDURE:
+6.1. Pre-analytical Preparations: 6.1.1. Ensure specimen has been
+collected, received, and accessioned. 6.1.2. Verify the patient’s
+information against requisition forms to ensure accuracy. 6.1.3.
+Perform DNA extraction from the provided sample using validated
+extraction methods (refer to DNA Extraction SOP for detailed
+procedure).
+6.2. DNA Quantification and Quality Assessment: 6.2.1. Quantify
+the extracted DNA using spectrophotometry (e.g., NanoDrop) and/or
+fluorometry (e.g., Qubit) to ensure sufficient quantity. 6.2.2. Assess
+DNA integrity using agarose gel electrophoresis. 6.2.3. Document
+DNA concentration and quality in the sample log.
+6.3. Library Preparation: 6.3.1. Prepare sequencing libraries
+according to the library preparation kit manufacturer’s instructions
+(e.g., Illumina, NEBNext). 6.3.2. Check the quality and size of the
+libraries using a bioanalyzer or similar instrument. 6.3.3. Document
+library preparation details and quality assessment in the laboratory
+notebook.
+6.4. Sequencing: 6.4.1. Load prepared libraries onto the sequencing
+platform (e.g., Illumina MiSeq, NextSeq) according to the
+manufacturer’s instructions. 6.4.2. Select appropriate sequencing
+parameters (e.g., read length, chemistry). 6.4.3. Monitor the
+sequencing run and ensure that it proceeds without technical issues.
+6.4.4. Document sequencer run details and any deviations
+encountered during the process.
+6.5. Bioinformatics Analysis: 6.5.1. Transfer raw sequencing data
+to the bioinformatics team or designated bioinformatics pipeline.
+6.5.2. Perform quality control on raw sequencing data using tools like
+FastQC. 6.5.3. Trim adapters and low-quality bases using trimming
+software (e.g., Trimmomatic). 6.5.4. Align reads to the human
+reference genome (e.g., GRCh37/GRCh38) using an appropriate
+aligner (e.g., BWA, Bowtie2). 6.5.5. Call variants using variant calling
+software (e.g., GATK, FreeBayes) and annotate variants using
+annotation tools (e.g., VEP, ANNOVAR). 6.5.6. Perform variant
+filtration to identify pathogenic variants in the IDUA gene. 6.5.7.
+Document bioinformatics pipeline and software versions used.
+6.6. Data Interpretation and Results Generation: 6.6.1. Interpret
+the identified variants with reference to clinical databases and
+literature (e.g., ClinVar, HGMD). 6.6.2. Classify each variant
+according to ACMG guidelines (e.g., pathogenic, likely pathogenic,
+VUS, likely benign, benign). 6.6.3. Generate a detailed report
+including patient information, methods, results, and interpretation of
+identified variants. 6.6.4. Review the report for accuracy and
+completeness by a qualified geneticist.
+6.7. Results Delivery and Documentation: 6.7.1. Securely transmit
+the final report to the ordering physician or patient’s health provider.
+6.7.2. Maintain documentation of all steps, quality control results, and
+final report in the laboratory information system (LIS) or electronic
+medical records (EMR). 6.7.3. Archive all raw data, intermediate files,
+and final reports according to institutional policies and regulatory
+requirements.
+7. QUALITY CONTROL AND ASSURANCE: 7.1. Perform regular
+maintenance and calibration of laboratory equipment. 7.2. Include
+positive and negative controls in each sequencing run. 7.3. Conduct
+periodic proficiency testing and participate in external quality
+assurance programs. 7.4. Review and update the SOP annually or as
+needed based on technological and procedural advancements.
+8. REFERENCES: 8.1. Manufacturer’s manuals for DNA extraction
+kits, library preparation kits, sequencing platforms, and bioinformatics
+software. 8.2. ACMG guidelines for the interpretation of sequence
+variants. 8.3. Relevant clinical databases such as ClinVar and
+HGMD.
+9. REVISION HISTORY:
+• Version 1.0 [Date] – Initial Release
+This protocol must be signed and dated by authorized laboratory
+personnel to indicate review and approval for implementation. The
+signature page should be retained with the SOP documentation.

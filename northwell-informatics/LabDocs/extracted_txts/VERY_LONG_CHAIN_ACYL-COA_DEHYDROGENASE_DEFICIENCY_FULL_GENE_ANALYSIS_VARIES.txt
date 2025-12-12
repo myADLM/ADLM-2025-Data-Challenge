@@ -1,0 +1,121 @@
+Protocol for Very Long Chain Acyl-CoA Dehydrogenase
+Deficiency (VLCAD), Full Gene Analysis
+1. PURPOSE
+To provide a detailed, standardized procedure for the analytical
+phase of generating results for Very Long Chain Acyl-CoA
+Dehydrogenase Deficiency (VLCAD), full gene analysis.
+Responsibility:
+Designated laboratory personnel with adequate training in molecular
+diagnostics are responsible for performing the analysis according to
+this protocol.
+1. SPECIMEN REQUIREMENTS
+Preferred/Acceptable Specimens:
+• 2-5 mL of whole blood in EDTA (lavender-top) tube.
+• Buccal swabs if blood draw is not possible.
+Unacceptable Specimens:
+• Hemolyzed blood specimens.
+• Specimens without proper labeling or those collected without
+proper documentation.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+Equipment:
+• Automated DNA extractor (e.g., Qiagen EZ1 Advanced XL)
+• Thermal cyclers (e.g., ABI 9700)
+• SeqStudio Genetic Analyzer or equivalent
+• Vortex mixer
+Reagents and Chemicals:
+• DNA extraction kit
+• PCR master mix
+• Primers specific for VLCAD gene (ACADVL gene)
+• BigDye Terminator v3.1 Cycle Sequencing Kit
+• Sequencing buffer
+• Molecular grade water
+Supplies:
+• Sterile microcentrifuge tubes
+• Pipette tips with barriers
+• PCR plates and seals
+• Sequencing plates
+1. PROCEDURE
+A) DNA Extraction:
+1. Follow the manufacturer’s instructions to extract genomic DNA
+from whole blood or buccal swabs using the automated DNA
+extractor.
+2. Quantify the extracted DNA using a fluorometer (e.g., Qubit)
+and record the DNA concentration.
+B) PCR Amplification:
+1. Prepare PCR reaction mix according to the following
+components:
+◦ 25 µL PCR Master Mix
+◦ 1 µL of each primer (forward and reverse, final concentration
+10 µM)
+◦ 1-2 µL genomic DNA (approx. 50 ng)
+◦ Nuclease-free water to final volume of 50 µL
+2. Amplify targeted regions of the VLCAD gene using appropriate
+thermal cycling conditions: - Initial denaturation: 95°C for 3
+minutes - 35 cycles of:
+◦ Denaturation: 95°C for 30 seconds
+◦ Annealing: 55-60°C (primer-specific) for 30 seconds
+◦ Extension: 72°C for 1 minute
+- Final extension: 72°C for 5 minutes
+1. Run a 1.5% agarose gel to confirm the presence and size of
+PCR amplicons.
+C) Sequencing Reaction:
+1. Purify PCR products using a suitable kit (e.g., ExoSAP-IT).
+2. Prepare sequencing reactions using BigDye Terminator v3.1.
+Follow manufacturer's recommendations for the reaction setup.
+◦ 1 µL BigDye Terminator
+◦ 1-2 µL purified PCR product
+◦ 1 µL sequencing primer (forward or reverse, final
+concentration 3.2 µM)
+◦ Sequencing buffer and water to a final volume of 10 µL
+3. Perform cycle sequencing using the following thermal cycling
+conditions: - Initial denaturation: 96°C for 1 minute - 25 cycles
+of:
+◦ Denaturation: 96°C for 10 seconds
+◦ Annealing: 50°C for 5 seconds
+◦ Extension: 60°C for 4 minutes
+4. Purify the sequencing reactions using ethanol precipitation or
+equivalent method.
+5. Load purified products on the SeqStudio Genetic Analyzer or
+equivalent.
+D) Data Analysis:
+1. Use appropriate software for sequence alignment and variant
+analysis (e.g., Variant Reporter or equivalent).
+2. Compare sequences to a reference VLCAD gene sequence.
+3. Identify and annotate variations following established guidelines
+(e.g., ACMG/AMP).
+4. QUALITY CONTROL
+Internal Controls:
+• Include positive and negative controls in each PCR and
+sequencing batch.
+• Process a known VLCAD positive DNA sample alongside patient
+samples to ensure assay performance.
+External Quality Control:
+• Participate in external proficiency testing programs annually.
+• Review and document results to ensure laboratory accuracy and
+consistency.
+1. REPORTING RESULTS
+Reference Sequence:
+• Use NM_000018.3 (ACADVL) as the reference sequence.
+Interpretation:
+• Variants are classified into categories (Pathogenic, Likely
+Pathogenic, Uncertain Significance, Likely Benign, Benign) using
+established criteria.
+Documentation and Sign-Out:
+• Results are recorded in the Laboratory Information System (LIS).
+• Reports are reviewed and signed out by a certified laboratory
+director or authorized personnel.
+• Critical findings and variants of uncertain significance (VUS) are
+discussed with referring physician or genetic counselor.
+1. REFERENCES
+• GeneReviews: VLCAD Deficiency
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants
+• Relevant manufacturer’s kit booklets and user manuals
+1. SAFETY AND PRECAUTIONS
+Lab personnel must adhere to standard biosafety and chemical
+safety guidelines while handling human specimens, and during
+nucleic acid extraction and amplification. Dispose of all waste as per
+regulatory requirements.
+Note: This protocol is to be reviewed annually or as needed for
+accuracy and updated per the latest scientific and procedural
+advancements in the analysis of VLCAD deficiency.

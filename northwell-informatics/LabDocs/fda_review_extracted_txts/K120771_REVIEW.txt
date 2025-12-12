@@ -1,0 +1,1031 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k120771
+B. Purpose for Submission:
+Updated system software (version 2.0)
+C. Manufacturer and Instrument Name:
+Beckman Coulter, Inc.; UniCel® DxH 800 COULTER® Cellular Analysis System
+D. Type of Test or Tests Performed:
+Quantitative test for WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW, RDW-SD, PLT,
+MPV, NE%, NE#, LY%, LY#, MO%, MO#, EO%, EO#, BA%, BA#, NRBC%, NRBC#,
+RET%, RET#, MRV, IRF, and body fluid (TNC and RBC) parameters
+E. System Descriptions:
+1. Device Description:
+The UniCel® DxH 800 Coulter® Cellular Analysis System update with version 2.0
+software has the same intended use and utilizes the same principles of operation,
+reagents, controls and calibrators as the original cleared device.
+The DxH 800 system is comprised of the analyzer (Sample Processing Module - SPM)
+and a suite of analytical reagents that allow for simultaneous quantitative determination
+of hematological parameters through the use of impedance, radio frequency (RF), flow
+cytometric light scatter, spectrophotometry, and supravital staining methodologies.
+Additional reagents provide system cleaning, quality control and calibration.
+2. Principles of Operation:
+The Coulter Principle of automated cell counting and sizing is used in the analysis of the
+whole blood and body fluid specimens. Each cell suspended in a conductive liquid
+(diluent) acts as an insulator. As each cell goes through the aperture, it momentarily
+increases the resistance of the electrical path between two submerged electrodes on either
+side of the aperture. This causes a measurable electronic pulse. While the number of
+pulses indicates particle count, the amplitude of the electrical pulse is proportional to the
+cell volume. These pulses are sent to the Signal Conditioner for analog to digital
+conversion. Pulse counts and digitized pulse measurements are sent to the System
+1
+
+--- Page 2 ---
+Manager for processing by the algorithms where the reported parameter values, flags and
+histograms are generated.
+The lytic reagent used for the white cell count prepares the blood so the system can count
+leukocytes and measure the amount of hemoglobin. The lytic reagent rapidly and
+simultaneously destroys the erythrocytes and converts a substantial proportion of the
+hemoglobin to a stable pigment while it leaves leukocyte nuclei intact. The absorbance
+of the pigment is directly proportional to the hemoglobin concentration of the sample.
+Hemoglobin is measured photometrically at 525 nm using the sample from the white cell
+analysis. Clean diluent is introduced into the cuvette during each operating cycle and is
+used as a blank in the calculation of the HGB.
+The COULTER® VCSn technology is used to determine the white cell differential,
+nucleated red blood cell count and reticulocyte parameters along with associated flags,
+messages, histograms and data plots.
+The sample preparation and analysis uses specific reagents and analytical processes for
+the WBC differential, NRBC and Retic analysis. The prepared sample is delivered to the
+flow cell for sample detection. As the cells pass through the sensing zone, a diode laser
+illuminates the particles causing light scatter and light absorption. Simultaneously to the
+light scatter measurements, cell volume and cell conductivity are also measured.
+The data collected during each of the analytical processes is transferred to the System
+Manager where the digital raw values are processed by the algorithm using mathematical
+approaches designed for finding optimal separation between clusters of data. The
+identified clusters are used to calculate the frequency of cells within each population,
+generate parameter values, flags, histograms and data plots.
+3. Modes of Operation:
+Automated Cassette Closed Vial (whole blood analysis mode)
+Manual Single Tube Closed Vial (whole blood analysis mode)
+Manual Single Tube Open Vial (1 in 5 pre-diluted whole blood mode; body fluid analysis
+mode)
+4. Specimen Identification:
+Specimen identification is automated or by manual sample identification with the use of a
+hand held barcode scanner.
+5. Specimen Sampling and Handling:
+The DxH 800 provides the user with the ability to obtain a variety of combinations of
+2
+
+--- Page 3 ---
+parameter results through the use of analytical test panels. In addition, specimen analysis
+can occur via a number of sampling methods on the analyzer (see modes of operation
+above).
+6. Calibration:
+COULTER® S-CAL® Calibrator (k862122) is used for determining calibration factors to
+ensure accurate measurements of directly measured CBC parameters. Assigned assay
+values are traceable to reference methods.
+7. Quality Control:
+COULTER® 6C Cell Control (k081822) enables monitoring of system performance for
+all directly measured and calculated CBC, Diff and NRBC parameters.
+COULTER® Retic-X Cell Control (k930119) monitors system performance of the
+reticulocyte parameters.
+COULTER® LIN-X Linearity Control (k081641) verifies the reportable range, and
+assesses the calibration of the WBC, RBC, HGB, and PLT parameters.
+COULTER® Body Fluid Control (k082162) monitors system performance of the body
+fluid cycle’s RBC and TNC count parameters. Additionally, COULTER Body Fluid
+Control can be used for verification of the measuring range and linearity of the TNC and
+RBC in the body fluid panel.
+COULTER® LATRON™ CP-X Control (k885028) determines calibration factors to
+ensure accurate measurements of directly measured CBC parameters. Assigned assay
+values are traceable to reference methods.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X___ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR § 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+3
+
+--- Page 4 ---
+3 Product code:
+GKZ, Counter, differential cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The UniCel® DxH 800 Analyzer is a quantitative multi-parameter, automated hematology
+analyzer for in vitro diagnostic use in screening patient populations found in clinical
+laboratories.
+The UniCel® DxH 800 Analyzer identifies and enumerates the parameters indicated
+below on the following sample types:
+· Whole Blood (Venous and Capillary)
+o WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW, RDW-SD, PLT,
+MPV, NE%, NE#, LY%, LY#, MO%, MO#, EO%, EO#, BA%, BA#,
+NRBC%, NRBC#, RET%, RET#, MRV, IRF
+· Pre-Diluted Whole Blood (Venous and Capillary)
+o WBC, RBC, HGB, HCT, MCV, MCH, MCHC, RDW, RDW-SD, PLT,
+MPV
+· Body Fluids (cerebrospinal, serous and synovial)
+o TNC and RBC
+2. Special Conditions for Use Statement(s):
+For prescription use only
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+UniCel® DxH 800 COULTER® Cellular Analysis System; k081930
+2. Comparison with Predicate Device:
+4
+
+--- Page 5 ---
+Similarities
+Item Device: UniCel® DxH 800 Predicate: UniCel® DxH 800
+Update (Software 2.0)
+Intended Use and The UniCel® DxH 800 Analyzer is a The UniCel® DxH 800 Analyzer
+Function quantitative multi-parameter, automated is a quantitative, automated
+hematology analyzer for in vitro diagnostic hematology analyzer for in vitro
+use in screening patient populations found diagnostic use in screening
+in clinical laboratories. patient populations found in
+The UniCel® DxH 800 Analyzer identifies clinical laboratories.
+and enumerates the parameters indicated The UniCel® DxH 800 Analyzer
+below on the following sample types: provides a:
+• Whole Blood (Venous and Capillary) – • Complete Blood Count (CBC),
+WBC, RBC, HGB, HCT, MCV, MCH, Leukocyte 5 Part Differential
+MCHC, RDW, RDW-SD, PLT, MPV, (Diff), Reticulocyte (Retic) and
+NE%, NE#, LY%, LY#, MO%, MO#, Nucleated Red Blood Cell
+EO%, EO#, BA%, BA#, NRBC%, NRBC#, (NRBC) on whole blood
+RET%, RET#, MRV, IRF • Total Nucleated Count (TNC)
+• Pre-Diluted Whole Blood (Venous and and Red Cell Count (RBC) on
+Capillary) – WBC, RBC, HGB, HCT, Body Fluids (cerebrospinal,
+MCV, MCH, MCHC, RDW, RDW-SD, serous and synovial) (BF)
+PLT, MPV
+• Body Fluids (cerebrospinal, serous and
+synovial) – TNC and RBC
+Principles of Aperture impedance (Coulter® Principle) Same
+Measurement: WBC,
+RBC, MCV, Plt, BF-
+TNC, BF-RBC
+Principle of Spectrophotometric Same
+Measurement: Hgb
+Principles of VCSn Technology using: Same
+Measurement: WBC • Aperture impedance (DC)
+Differential, Retic & • Conductivity (RF)
+NRBC • Laser Light Scatter (Multiple angles)
+• Laser Light Absorbance
+Analysis Reagents COULTER® DxH Diluent Same
+COULTER® DxH Diff Pack
+COULTER® DxH Retic Pack
+COULTER® DxH Cell Lyse
+Quality Controls & COULTER® 6C Cell Control Same
+Calibrator COULTER® Latron™ CP-X Control
+COULTER® RETIC-X Cell Control
+COULTER® LIN-X Control
+COULTER® Body Fluids Control
+COULTER® S-CAL® Calibrator kit
+Cleaning Agent COULTER® DxH Cleaner Same
+System configuration Bench top or Optional Floor Stand - Same
+provides self-contained support for the
+analyzer as well as easy access storage for
+reagents and waste containers
+PC based workstation running Microsoft
+5
+
+[Table 1 on page 5]
+Similarities								
+	Item			Device: UniCel® DxH 800			Predicate: UniCel® DxH 800	
+				Update (Software 2.0)				
+Intended Use and
+Function			The UniCel® DxH 800 Analyzer is a
+quantitative multi-parameter, automated
+hematology analyzer for in vitro diagnostic
+use in screening patient populations found
+in clinical laboratories.
+The UniCel® DxH 800 Analyzer identifies
+and enumerates the parameters indicated
+below on the following sample types:
+• Whole Blood (Venous and Capillary) –
+WBC, RBC, HGB, HCT, MCV, MCH,
+MCHC, RDW, RDW-SD, PLT, MPV,
+NE%, NE#, LY%, LY#, MO%, MO#,
+EO%, EO#, BA%, BA#, NRBC%, NRBC#,
+RET%, RET#, MRV, IRF
+• Pre-Diluted Whole Blood (Venous and
+Capillary) – WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC, RDW, RDW-SD,
+PLT, MPV
+• Body Fluids (cerebrospinal, serous and
+synovial) – TNC and RBC			The UniCel® DxH 800 Analyzer
+is a quantitative, automated
+hematology analyzer for in vitro
+diagnostic use in screening
+patient populations found in
+clinical laboratories.
+The UniCel® DxH 800 Analyzer
+provides a:
+• Complete Blood Count (CBC),
+Leukocyte 5 Part Differential
+(Diff), Reticulocyte (Retic) and
+Nucleated Red Blood Cell
+(NRBC) on whole blood
+• Total Nucleated Count (TNC)
+and Red Cell Count (RBC) on
+Body Fluids (cerebrospinal,
+serous and synovial) (BF)		
+Principles of
+Measurement: WBC,
+RBC, MCV, Plt, BF-
+TNC, BF-RBC			Aperture impedance (Coulter® Principle)			Same		
+Principle of
+Measurement: Hgb			Spectrophotometric			Same		
+Principles of
+Measurement: WBC
+Differential, Retic &
+NRBC			VCSn Technology using:
+• Aperture impedance (DC)
+• Conductivity (RF)
+• Laser Light Scatter (Multiple angles)
+• Laser Light Absorbance			Same		
+Analysis Reagents			COULTER® DxH Diluent
+COULTER® DxH Diff Pack
+COULTER® DxH Retic Pack
+COULTER® DxH Cell Lyse			Same		
+Quality Controls &
+Calibrator			COULTER® 6C Cell Control
+COULTER® Latron™ CP-X Control
+COULTER® RETIC-X Cell Control
+COULTER® LIN-X Control
+COULTER® Body Fluids Control
+COULTER® S-CAL® Calibrator kit			Same		
+Cleaning Agent			COULTER® DxH Cleaner			Same		
+System configuration			Bench top or Optional Floor Stand -
+provides self-contained support for the
+analyzer as well as easy access storage for
+reagents and waste containers
+PC based workstation running Microsoft			Same		
+
+--- Page 6 ---
+Similarities
+Item Device: UniCel®DxH 800 Predicate: UniCel®DxH 800
+Update (Software 2.0)
+Windows XP application specific software
+Handheld Barcode Scanner
+Printer
+Aspiration Pathway Single sampling probe and common Same
+aspiration pathway used for all sample
+presentation modes
+Sample Aspiration Automatic, cap-piercing: 165 μL Same
+Volume Single tube - open-vial and cap pierce: 165
+μL
+Predilute 165 µL - fixed ratio of 1 in 5
+dilution of blood with diluent
+Sample Preparation Rotary blood sampling valve (BSV) and Same
+syringe aspiration / dispense for blood
+segmentation / distribution
+Rotary ceramic piston pumps driven by
+stepper motors for reagent delivery
+CBC dilutions mixed vial tangential
+delivery to baths
+VCSn dilutions mixed by air jet in reaction
+chambers
+Reagents are temperature stabilized for
+analysis reactions
+Throughput : CBC ≥ 100 specimens per hour Same
+Automated cassette CBC/Diff ≥ 100 specimens per hour
+processing
+CBC/Diff/NRBC ≥ 90 specimens per hour
+Any cycle with Retic ≥ 45 specimens per
+hour
+Throughput is based on normal specimens –
+analytical cycle times are increased with
+cytopenic specimens
+Differences
+Item Device: UniCel® DxH 800 Predicate: UniCel® DxH 800
+Update (Software 2.0)
+Sampling Mechanism Same as predicate with: Single tube presentation – open
+• Updates to provide dedicated cassette and and closed vial sampling
+mixing profile for specific tubes Automated presentation – closed
+vial sampling from 5 position
+cassette
+Maximum initial load capacity
+20 racks
+Mechanisms for Same as predicate with: Mechanisms to achieve process
+processing • Updates for device reliability, of: automated cassette
+manufacturability and serviceability transportation and specimen
+6
+
+[Table 1 on page 6]
+Similarities								
+	Item			Device: UniCel®DxH 800			Predicate: UniCel®DxH 800	
+				Update (Software 2.0)				
+			Windows XP application specific software
+Handheld Barcode Scanner
+Printer					
+Aspiration Pathway			Single sampling probe and common
+aspiration pathway used for all sample
+presentation modes			Same		
+Sample Aspiration
+Volume			Automatic, cap-piercing: 165 μL
+Single tube - open-vial and cap pierce: 165
+μL
+Predilute 165 µL - fixed ratio of 1 in 5
+dilution of blood with diluent			Same		
+Sample Preparation			Rotary blood sampling valve (BSV) and
+syringe aspiration / dispense for blood
+segmentation / distribution
+Rotary ceramic piston pumps driven by
+stepper motors for reagent delivery
+CBC dilutions mixed vial tangential
+delivery to baths
+VCSn dilutions mixed by air jet in reaction
+chambers
+Reagents are temperature stabilized for
+analysis reactions			Same		
+Throughput :
+Automated cassette
+processing			CBC ≥ 100 specimens per hour
+CBC/Diff ≥ 100 specimens per hour
+CBC/Diff/NRBC ≥ 90 specimens per hour
+Any cycle with Retic ≥ 45 specimens per
+hour
+Throughput is based on normal specimens –
+analytical cycle times are increased with
+cytopenic specimens			Same		
+
+[Table 2 on page 6]
+Differences								
+	Item			Device: UniCel® DxH 800			Predicate: UniCel® DxH 800	
+				Update (Software 2.0)				
+Sampling Mechanism			Same as predicate with:
+• Updates to provide dedicated cassette and
+mixing profile for specific tubes			Single tube presentation – open
+and closed vial sampling
+Automated presentation – closed
+vial sampling from 5 position
+cassette
+Maximum initial load capacity
+20 racks		
+Mechanisms for
+processing			Same as predicate with:
+• Updates for device reliability,
+manufacturability and serviceability			Mechanisms to achieve process
+of: automated cassette
+transportation and specimen		
+
+--- Page 7 ---
+Differences
+Item Device: UniCel®DxH 800 Predicate: UniCel®DxH 800
+Update (Software 2.0)
+mixing (by rocking), sample
+aspiration, sample preparation,
+sample and reagent presentation
+to analytical modules, sample
+analysis, raw data collection,
+algorithmic processing and data
+reporting
+Cassette transportation by
+magnetic drive allowing multi-
+directional moves and capability
+to return cassette to sampling
+position for repeat / reflex testing
+Sample identification Same as predicate with: Sample aspiration module
+• Corrections to address sample (SAM) mounted barcode reader
+identification related recalls for automated barcode reading of
+• Updates to add capability for host query cassette and sample tube
+communication with Laboratory identifiers
+Information System (LIS) Manual barcode scanning of
+sample tube identifier
+(Handheld scanner)
+Manual keyboard entry of
+sample identifier
+Data Analysis Same as predicate with: Raw information is digitized
+• Enhancements for improved flagging from all analytical modules and
+passed to workstation for
+algorithmic processing
+Algorithms using advanced
+mathematical methods for
+population differentiation and
+flagging centralized within
+workstation
+Data reporting Same as predicate with: Workstation display graphics,
+• Corrections to address data reporting hardcopy printing and
+related recalls transmission to Laboratory
+• Updates to include revised LIS Information System (LIS)
+communication protocol to improve
+software performance and additional printer
+support functions
+Controlling software Same as predicate with: System software (embedded and
+• Corrections to address software related workstation) designed specific to
+recalls support all features of DxH 800.
+• Updates to improve removal of cleaning The software system consists of
+agent during Shutdown and Daily Checks a Data Manager component, a
+and monitoring of Sample and Sheath System Manager component
+pressure sensors reading to detect when (including algorithms), the User
+sensors are disconnected Interface, all of which are
+7
+
+[Table 1 on page 7]
+Differences								
+	Item			Device: UniCel®DxH 800			Predicate: UniCel®DxH 800	
+				Update (Software 2.0)				
+						mixing (by rocking), sample
+aspiration, sample preparation,
+sample and reagent presentation
+to analytical modules, sample
+analysis, raw data collection,
+algorithmic processing and data
+reporting
+Cassette transportation by
+magnetic drive allowing multi-
+directional moves and capability
+to return cassette to sampling
+position for repeat / reflex testing		
+Sample identification			Same as predicate with:
+• Corrections to address sample
+identification related recalls
+• Updates to add capability for host query
+communication with Laboratory
+Information System (LIS)			Sample aspiration module
+(SAM) mounted barcode reader
+for automated barcode reading of
+cassette and sample tube
+identifiers
+Manual barcode scanning of
+sample tube identifier
+(Handheld scanner)
+Manual keyboard entry of
+sample identifier		
+Data Analysis			Same as predicate with:
+• Enhancements for improved flagging			Raw information is digitized
+from all analytical modules and
+passed to workstation for
+algorithmic processing
+Algorithms using advanced
+mathematical methods for
+population differentiation and
+flagging centralized within
+workstation		
+Data reporting			Same as predicate with:
+• Corrections to address data reporting
+related recalls
+• Updates to include revised LIS
+communication protocol to improve
+software performance and additional printer
+support functions			Workstation display graphics,
+hardcopy printing and
+transmission to Laboratory
+Information System (LIS)		
+Controlling software			Same as predicate with:
+• Corrections to address software related
+recalls
+• Updates to improve removal of cleaning
+agent during Shutdown and Daily Checks
+and monitoring of Sample and Sheath
+pressure sensors reading to detect when
+sensors are disconnected			System software (embedded and
+workstation) designed specific to
+support all features of DxH 800.
+The software system consists of
+a Data Manager component, a
+System Manager component
+(including algorithms), the User
+Interface, all of which are		
+
+--- Page 8 ---
+Differences
+Item Device: UniCel®DxH 800 Predicate: UniCel®DxH 800
+Update (Software 2.0)
+• Software architecture changes that provide resident in the Workstation. In
+a foundation for future product addition an Embedded
+enhancements and platform expansion Application is resident in the
+analyzer. The Embedded
+application uploads from the
+workstation on system power-up
+Extensive real time monitoring
+and reporting of system status
+including:
+• Component and module
+activities
+• System Voltages and Currents
+• System Pressure and Vacuum
+• System Temperatures
+• Motor activity
+• Mechanism Sensor status
+• Reagent Pump Operation
+• Raw data collection
+Performance Claims Performance claims are the same as the As stated in the Instructions for
+predicate DxH 800 with the following Use for the predicate device
+updates based on alignment to current
+clinical testing standards:
+• Updated Operating and Measuring ranges
+for selected parameters
+To align selected parameter lower limits
+with background, Limit of Blank, Limit of
+Detection and Limit of Quantitation
+To align selected upper parameter limits
+with values seen in clinical conditions
+• Updated NRBC Carryover specification
+I. Special Control/Guidance Document Referenced (if applicable):
+Class II Special Controls Guidance Document: Premarket Notifications for Automated
+Differential Cell Counters for Immature or Abnormal Blood Cells; Final Guidance for
+Industry and FDA
+CLSI EP5-A2, Evaluation of Precision Performance of Quantitative Measurement Methods;
+Approved Guideline-Second Edition
+CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated Hematology
+Analyzers; Approved Standard-Second Edition
+CLSI EP6-A, Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach; Approved Guideline
+8
+
+[Table 1 on page 8]
+Differences								
+	Item			Device: UniCel®DxH 800			Predicate: UniCel®DxH 800	
+				Update (Software 2.0)				
+			• Software architecture changes that provide
+a foundation for future product
+enhancements and platform expansion			resident in the Workstation. In
+addition an Embedded
+Application is resident in the
+analyzer. The Embedded
+application uploads from the
+workstation on system power-up
+Extensive real time monitoring
+and reporting of system status
+including:
+• Component and module
+activities
+• System Voltages and Currents
+• System Pressure and Vacuum
+• System Temperatures
+• Motor activity
+• Mechanism Sensor status
+• Reagent Pump Operation
+• Raw data collection		
+Performance Claims			Performance claims are the same as the
+predicate DxH 800 with the following
+updates based on alignment to current
+clinical testing standards:
+• Updated Operating and Measuring ranges
+for selected parameters
+To align selected parameter lower limits
+with background, Limit of Blank, Limit of
+Detection and Limit of Quantitation
+To align selected upper parameter limits
+with values seen in clinical conditions
+• Updated NRBC Carryover specification			As stated in the Instructions for
+Use for the predicate device		
+
+--- Page 9 ---
+CLSI H20-A2, Reference Leukocyte (WBC) Differential Count (Proportional) and
+Evaluation of Instrumental Methods; Approved Standard-Second Edition
+CLSI H56-A, Body Fluid Analysis for Cellular Composition; Approved Guideline
+CLSI EP9-A2, Method Comparison and Bias Estimation Using Patient Samples; Approved
+Guideline-Second Edition
+CLSI EP17-A, Protocol for Determination of Limits of Detection and Limits of Quantitation;
+Approved Guideline
+CLSI C28-A3, Defining, Establishing, and Verifying Reference Intervals in the Clinical
+Laboratory; Approved Guideline-Third Edition
+CLSI EP15-A2, User Verification of Performance for Precision and Trueness; Approved
+Guideline-Second Edition
+CLSI H3-A6, Procedures for the Collection of Diagnostic Blood Specimens by
+Venipuncture; Approved Standard-Sixth Edition
+CLSI H4-A6, Procedures and Devices for the Collection of Diagnostic Capillary Blood
+Specimens; Approved Standard-Sixth Edition
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+Whole Blood (WB) Comparability
+A total of 952 whole blood specimens were analyzed at four test sites. Each of the
+samples was analyzed in duplicate on the updated DxH 800 and on the predicate
+device to obtain a Complete Blood Count, WBC Differential, including NRBC’s, and
+Reticulocyte measurements. For each whole blood sample, two manual wedge
+smears were prepared and stained using a Wright-Giemsa stain. A manual
+(reference) 200-cell differential was performed on each of the prepared stained blood
+films by different technologists to obtain a 400-cell differential according to CLSI
+H20-A2. For neonate and infant specimens, a single analysis was performed on the
+updated DxH 800 and the results from the test sites’ clinical analyzer were used as the
+predicate device results. In addition, a single blood film and single 200-cell
+differential was performed.
+The results from the first replicate for each of the specimens from the test and
+predicate devices and the results of the manual differential were used for the
+comparison analysis. All data passed specifications.
+9
+
+--- Page 10 ---
+Body Fluid (BF) Comparability
+A total of 289 body fluid specimens, collected across three sites, were analyzed by the
+test device and manual reference. Of these, 166 were also analyzed on the predicate
+device. Each of the samples was analyzed in duplicate on the updated DxH 800 and
+reference manual chamber counts were performed. If the volume of specimen
+permitted it was also analyzed in duplicate on the predicate device. The results from
+the first replicate for each of the specimens from the predicate and test devices and
+the results of the manual chamber count were used for the comparison analysis. All
+data passed specifications.
+Clinical Sensitivity/Specificity
+A total of 870 whole blood specimens were analyzed for the clinical sensitivity and
+specificity testing at four test sites. Each of the specimens was analyzed in duplicate
+on an updated DxH 800 and the predicate device. For each whole blood specimen,
+two wedge smears were prepared and stained using a Wright-Giemsa stain. A manual
+(reference) 200-cell differential was performed on each of the prepared stained blood
+films by different technologists to obtain a 400-cell differential according to CLSI
+H20-A2. For neonate and infant specimens, a single analysis was performed on the
+updated DxH 800 and the results from the test sites’ clinical analyzer were used as the
+predicate device results. In addition a single blood film and single 200-cell
+differential was performed. The presence or absence of an abnormality on the blood
+film, i.e., reference positive or negative was determined using The International
+Consensus Group for Hematology Review guideline: Suggested Criteria for Action
+Following Automated CBC and WBC Differential Analysis.
+The DxH 800 Suspect messages from the first specimen replicate were compared to
+the reference manual differential to determine the true positives (TP), true negatives
+(TN), false positives (FP), and false negatives (FN). The clinical sensitivity and
+specificity was calculated from the combined data from all sites, for each of the
+Suspect messages (Blasts, Variant Lymphocyte, Left Shift or Immature Granulocyte)
+generated by the updated DxH 800. In addition, an “Overall” analysis assessment
+was performed where the presence of any one suspect message was considered to
+represent detection of an abnormal sample for the updated DxH 800 and the
+predicate. Analysis of the data collected demonstrates that the updated DxH 800
+provided equivalent performance for Clinical Sensitivity and Specificity of the
+differential suspect messages as compared to the predicate device analyzing the same
+data set.
+Clinical Sensitivity and Specificity:
+10
+
+--- Page 11 ---
+All Sites Combined “Overall” and by individual suspect message
+Overall Blasts Variant Left Shift Immature
+Lymphs Granulocytes
+TP 143 39 37 41 75
+TN 581 758 767 714 724
+FP 116 50 45 109 62
+FN 30 23 21 6 9
+Total 870 870 870 870 870
+% Sensitivity (TP) 82.66 62.90 63.79 87.23 89.29
+95% Lower Limit (TP) 77.02 50.88 51.42 77.69 82.67
+95% Upper Limit (TP) 88.30 74.93 76.16 96.77 95.90
+% Specificity (TN) 83.36 93.81 94.46 86.76 92.11
+95% Lower Limit (TN) 80.59 92.15 92.88 84.44 90.23
+95% Upper Limit (TN) 86.12 95.47 96.03 89.07 94.00
+% Efficiency 83.22 91.61 92.41 86.78 91.84
+Clinical Sensitivity and Specificity:
+Test vs. Predicate - Overall flagging
+Overall Blasts
+TP 143 123
+TN 581 582
+FP 116 117
+FN 30 51
+Total 870 873
+% Sensitivity (TP) 82.66 70.69
+95% Lower Limit (TP) 77.02 63.93
+95% Upper Limit (TP) 88.30 77.45
+% Specificity (TN) 83.36 83.26
+95% Lower Limit (TN) 80.59 80.49
+95% Upper Limit (TN) 86.12 86.03
+% Efficiency 83.22 80.76
+b. Precision/Reproducibility:
+Imprecision (Reproducibility)
+Reproducibility testing was performed on the updated DxH 800 to demonstrate the
+long term imprecision of the device using multiple levels of control materials (3
+levels of 6C Cell Controls and 3 levels of Body Fluid Controls) for CBC, Differential,
+NRBC, Reticulocyte and Body Fluid parameters. Testing was conducted at four test
+sites using a single lot of each product throughout the test period. At three of the test
+sites; each level of control was analyzed in duplicate, twice a day, for a minimum of
+20 days and 14 days of data was collected at site 4. Data from site 4 was accepted
+and included in the analysis.
+Data were analyzed separately for each site and for the pooled data from all sites
+11
+
+[Table 1 on page 11]
+	Overall	Blasts	Variant
+Lymphs	Left Shift	Immature
+Granulocytes
+TP	143	39	37	41	75
+TN	581	758	767	714	724
+FP	116	50	45	109	62
+FN	30	23	21	6	9
+Total	870	870	870	870	870
+% Sensitivity (TP)	82.66	62.90	63.79	87.23	89.29
+95% Lower Limit (TP)	77.02	50.88	51.42	77.69	82.67
+95% Upper Limit (TP)	88.30	74.93	76.16	96.77	95.90
+% Specificity (TN)	83.36	93.81	94.46	86.76	92.11
+95% Lower Limit (TN)	80.59	92.15	92.88	84.44	90.23
+95% Upper Limit (TN)	86.12	95.47	96.03	89.07	94.00
+% Efficiency	83.22	91.61	92.41	86.78	91.84
+
+[Table 2 on page 11]
+	Overall	Blasts
+TP	143	123
+TN	581	582
+FP	116	117
+FN	30	51
+Total	870	873
+% Sensitivity (TP)	82.66	70.69
+95% Lower Limit (TP)	77.02	63.93
+95% Upper Limit (TP)	88.30	77.45
+% Specificity (TN)	83.36	83.26
+95% Lower Limit (TN)	80.59	80.49
+95% Upper Limit (TN)	86.12	86.03
+% Efficiency	83.22	80.76
+
+--- Page 12 ---
+using all replicates. For each site, the coefficient of variation (CV) and standard
+deviation (SD) for between-day, within-day, within-run, and within-lab were
+estimated. For pooled data on the STA-R® analyzer from the three sites, the CV and
+SD for between-site, between-day, within-day, within-run, within-lab and
+reproducibility were estimated. All data passed defined acceptance limits.
+Imprecision (Repeatability)
+Repeatability testing was performed on the updated DxH 800 to demonstrate the short
+term imprecision of the device. Testing was performed at four sites using replicate
+measurements of specimens in the normal range, at medical decision levels and over
+the analytical measuring interval using whole blood (or control products at specified
+target ranges), pre-diluted whole blood and body fluid specimens. An n=10 replicates
+was targeted for each specimen. At least three specimens were analyzed in each of
+the defined target ranges. Each specimen within a parameter target range was tested
+in a different analytical cycle (CBC (C), CBC/DIFF (CD), CBC/DIFF/Retic (CDR),
+CBC/Retic (CR), and Retic (R)). All data for each specimen analyzed at all test sites
+was pooled and modeled as a precision profile. The precision profile was then used
+to estimate imprecision at defined levels over the analytical measuring interval.
+The mean, SD and %CV were calculated for each specimen. These data were
+combined to build precision profiles. This approach is based on the %CV of repeated
+measurements from all samples modeled as a function of their means in accordance
+with CLSI EP05-A2 and H26-A2 standards. Profiles were calculated using all
+samples, combining the analytical modes and instruments at all sites. All data passed
+defined acceptance limits.
+Pre-Dilute Imprecision (Repeatability)
+Ten whole blood specimens were selected to provide a broad coverage of the
+measuring ranges for the parameters for which repeatability claims are made (WBC,
+RBC, HGB and PLT). Testing was conducted at two test sites. For each whole blood
+sample selected, 10 separate 1:5 dilutions were prepared. Each prepared dilution was
+analyzed using the pre-dilute analytical cycle of the updated DxH 800. The pre-dilute
+analytical cycle only provides results for CBC parameters.
+The same analytical approach of using precision profiles, as described in the whole
+blood repeatability imprecision analysis, was used for the pre-dilute analysis. All
+data passed defined acceptance limits.
+Body Fluid Imprecision (Repeatability)
+Body Fluid specimens were selected based on parameter values within specific test
+ranges. Three test sites ran at least three samples at each defined test range using any
+of the body fluid types (cerebrospinal, serous or synovial). Twenty seven (27) and 34
+body fluid specimens were used for the BF-RBC and BF-TNC measurands
+12
+
+--- Page 13 ---
+respectively. The same analytical approach of using precision profiles, as described
+in the whole blood imprecision analysis, was used for the body fluid analysis. All
+data passed defined acceptance limits.
+c. Linearity:
+Linearity testing by serial dilution was conducted at one test site. Linearity was
+assessed by performing multiple measurements on specimens diluted to cover the
+analytical measuring interval (AMI). The concentrations were prepared so that the
+relative concentration of each sample was known. Linearity analysis for WBC and
+PLT parameters was performed in three separate dilution series, indicated as “Low”,
+“Mid” and “High”. The RBC, HGB, BF-TNC and BF-RBC parameters were
+assessed with two separate dilution series indicated as “Mid” and “High”. For each
+of the high target value specimens, a series of 10 dilutions were prepared. The
+dilutions were prepared using DxH Diluent as the Low (LTV). Each dilution within
+the dilution series was analyzed in triplicate in random order using the
+CBC/Differential (CD) analytical cycle on the updated DxH 800. All data passed
+specifications.
+d. Carryover:
+Testing was performed to demonstrate whole blood and body fluid carryover
+performance of the updated DxH 800. Whole blood carryover was assessed by
+running whole blood specimens with high parameter values followed by diluent
+samples. This testing was performed to assess carryover within and between the
+different analytical cycles (test panels) on the updated DxH 800. Testing was
+conducted at four sites to cover all combinations of analytical cycles (i.e., C, CD,
+CDR, CR, R). The testing was performed by running the selected high whole blood
+specimen three times followed by the analysis of three diluent specimens (a new
+diluent specimen was used for each analysis). For whole blood, the WBC, RBC,
+HGB & PLT parameters, carryover is calculated as:
+%Carryover = [(diluent 1 - diluent 3) / (blood sample 3 - diluent 3)] x100
+For the NRBC, Differential and Retic analysis carryover is reported as total events
+(cells) counted in each of the diluent specimens. All data passed acceptance limits.
+Measurand % Carryover
+WBC ≤ 0.50%
+RBC ≤ 0.50%
+HGB ≤ 1.00%
+PLT ≤ 1.00%
+Measurand Carryover (events or cells counted)
+NRBC ≤ 75 events (WBC = 0 - 300 x 103/µL)
+≤ 100 events (WBC > 300 x 103/µL)
+DIFF ≤ 200 events
+Retic ≤ 600 events
+13
+
+[Table 1 on page 13]
+Measurand	% Carryover
+WBC	≤ 0.50%
+RBC	≤ 0.50%
+HGB	≤ 1.00%
+PLT	≤ 1.00%
+Measurand	Carryover (events or cells counted)
+NRBC	≤ 75 events (WBC = 0 - 300 x 103/µL)
+≤ 100 events (WBC > 300 x 103/µL)
+DIFF	≤ 200 events
+Retic	≤ 600 events
+
+--- Page 14 ---
+Body Fluid Carryover
+Carryover that could influence a body fluid result was assessed by running whole
+blood specimens with high parameter values followed by diluent analyzed in the body
+fluid analytical cycle. Testing was conducted at four sites to assess all analytical
+cycles (i.e., C, CD, CDR, R) preceding a BF analytical cycle. The carryover testing
+was performed by running the selected high whole blood specimen three times
+followed by the analysis of three diluent specimens in the BF analytical cycle (a new
+diluent specimen was used for each analysis). For Body Fluid parameters, carryover
+is calculated as the cell counts in each of the diluent specimens from the analysis. All
+data passed specifications.
+Measurand Carryover (events or cells counted)
+BF-RBC ≤ 1000 events
+BF-TNC ≤ 20 events
+e. Interfering Substances:
+Refer to the DxH 800 predicate device (k081930).
+2. Other Supportive Instrument Performance Data Not Covered Above:
+a. Stability Studies:
+Testing was performed on the updated DxH 800 to demonstrate whole blood
+specimen stability. Testing was performed on whole blood specimens at various time
+intervals (long-term and short-term) and stored at refrigerated and room temperature.
+In addition, testing was performed on pre-diluted specimens.
+Long Term Stability
+Forty-one normal specimens were collected for the room temperature long-term
+stability study, and 41 normal specimens were collected for the refrigerated long-term
+stability. Twenty-one of the specimens were common to both studies. Testing was
+conducted at three test sites. For each of the specimens selected, sufficient aliquots
+were prepared to allow analysis of a new aliquot at each of the defined time intervals
+and storage temperatures.
+Time zero (T0) results were established by analyzing each blood specimen within two
+hours of collection. At the storage time intervals, a new specimen aliquot was
+removed from storage, and prior to analysis, aliquots were manually mixed by
+inversion 20 times. In addition, those removed from refrigerated storage were
+allowed to equilibrate to room temperature for 30 minutes and then hand mixed again
+by inversion 20 times prior to placing on the device for analysis. Each aliquot was
+analyzed in duplicate to obtain CBC, Differential and Retic results.
+The upper limit of the drift was compared to the specification. The data was
+14
+
+[Table 1 on page 14]
+Measurand	Carryover (events or cells counted)
+BF-RBC	≤ 1000 events
+BF-TNC	≤ 20 events
+
+--- Page 15 ---
+considered to meet specification when the 95% upper limit of drift for a parameter
+was less than the specification limit for the parameter. All data passed specifications.
+Short Term Stability
+Specimens were collected from 11 volunteers from the Beckman Coulter donor
+program. Blood from each volunteer was drawn into both K and K EDTA tubes for
+2 3
+a total of 22 specimens. For each of the specimens, sufficient aliquots were prepared
+to allow a new aliquot to be analyzed at each of the defined time intervals. Time zero
+results were established by analyzing each blood specimen in duplicate within five
+minutes of collection. At the storage time intervals, a new specimen aliquot was
+removed from storage. This testing was only performed on specimens stored at room
+temperature as the short storage durations make refrigerated storage impractical.
+After removal from storage, each specimen was manually mixed by inversion 20
+times prior to being placed on the device for analysis in duplicate to obtain CBC,
+Differential and Retic results.
+The claims were met when the 95% upper limits of the drift for a parameter was less
+than the specification for the parameter. All data passed specifications.
+Pre-dilute Stability
+Testing of 37 clinical whole blood samples was performed at two test sites. For each
+specimen selected, a primary 1:5 dilution was prepared. Sufficient aliquots were
+prepared to allow analysis of a new pre-dilute aliquot at each of the defined time
+intervals. Time zero (T0) results were established by analysis of the dilution
+immediately after preparation. At the storage time intervals, a new pre-diluted
+specimen aliquot was removed from storage and each pre-diluted aliquot was
+manually mixed and analyzed in duplicate using the pre-dilute test panel on the
+device to obtain CBC results.
+The claims were met when the 95% upper limits of the drift for a parameter was less
+than the respective acceptance limit for the parameter. All data passed specifications.
+b. Accuracy (Comparability) - Analytical Cycles
+Testing was performed on the updated DxH 800 to demonstrate equivalency of results
+(within defined limits) between the whole blood analytical cycles (test panels), CBC
+(C), CBC/DIFF (CD), CBC/DIFF/Retic (CDR), CBC/Retic (CR), Retic (R) when
+specimens are analyzed using the automated closed vial sampling method. In
+addition, testing was performed to demonstrate equivalency between specimens
+analyzed as whole blood and as Pre-dilute (PD) specimens.
+Whole Blood – Analytical Cycle Comparability
+Testing was performed on the updated DxH 800 to demonstrate equivalency of results
+15
+
+--- Page 16 ---
+(within defined limits) between the whole blood analytical cycles (test panels), CBC
+(C), CBC/DIFF (CD), CBC/DIFF/Retic (CDR), CBC/Retic (CR), Retic (R) when
+specimens are analyzed using the automated closed vial sampling method. A total of
+50 whole blood specimens were analyzed in the study. Testing was conducted at a
+single test site. All specimens were analyzed in duplicate in each of the analytical
+cycles (test panels) using the automated closed vial sampling method. All data passed
+specifications.
+Whole blood vs. Pre-dilute Analytical Cycle Comparability
+Testing was performed on the updated DxH 800 to demonstrate equivalency of results
+(within defined limits) between specimens analyzed as whole blood and pre-diluted
+blood. A total of 58 clinical specimens were collected for the study. Testing was
+conducted at two test sites. All specimens were analyzed in duplicate as a whole
+blood specimen and as a 1:5 dilution. The whole blood specimens were analyzed
+using the CBC, Differential and Retic (CDR) analytical cycle using the automated
+closed vial sampling method and the prepared pre-diluted specimen was analyzed
+using pre-dilute analytical cycle using the manual single tube closed vial sampling
+method. All data passed specifications.
+c. Accuracy (Comparability) - Sampling Methods
+Testing was performed to demonstrate comparability between the sampling modes
+available on the updated DxH 800. Testing compared: 1) the automated closed vial
+with the manual closed-vial sampling, and 2) the manual closed-vial with the manual
+open vial methods using the CBC, Differential and Retic analytical cycle.
+Automated closed-vial vs. Manual closed-vial Comparability
+A total of 45 whole blood specimens were analyzed in the study at a single test site.
+All specimens were analyzed in duplicate using automated closed-vial and manual
+closed-vial sampling methods using the CBC, Differential and Retic (CDR) analytical
+cycle. All data passed specifications.
+Manual closed-vial vs. Manual open-vial Comparability
+A total of 44 whole blood specimens were analyzed in the study at a single test site.
+All specimens were analyzed in duplicate using manual closed-vial and manual open-
+vial sampling methods using the CDR panel. All data passed defined specifications.
+d. Anticoagulant types
+Testing was performed on the updated DxH 800 to demonstrate equivalency of results
+for whole blood specimens collected into K and K EDTA anticoagulant. Two
+2 3
+venous specimens were collected prospectively by venipuncture from each donor: one
+into a tube containing K EDTA, the other containing K EDTA. Specimens were
+2 3
+collected from 127 volunteers from the Beckman Coulter donor program. All
+specimens were analyzed in duplicate on a single test device to obtain CBC,
+16
+
+--- Page 17 ---
+Differential and Retic results using the instrument automated closed vial sampling
+method. All data passed specifications.
+e. Collection Method
+Testing was performed on the updated DxH 800 to demonstrate equivalency of results
+for specimens collected by venipuncture and capillary collection methods. Two
+venous tubes were collected prospectively from each donor, one by venipuncture, the
+other by finger stick (capillary) into tubes containing a salt of EDTA. Specimens
+were collected from 53 volunteers from the Beckman Coulter donor program. All
+specimens were analyzed in duplicate to obtain CBC, Differential and Retic results
+using the instrument sampling method applicable to the specimen type (automated
+closed-vial for the venous specimen and the manual open-vial for the capillary
+specimen). All data passed specifications.
+f. Determination of limit of blank, lower limits of detection and quantitation:
+Limit of Blank (LoB):
+DxH Diluent samples were used as the blank specimen for the LoB testing since
+within the analytical process the diluent is the primary contributor to any impact to
+the blank results. Each blank specimen tube was sampled only once. Whole blood
+specimens were manipulated to obtain the cellularity required. Cells from whole
+blood were used to generate specimens of appropriate cellularity for the testing as
+Body Fluid specimens having appropriate cellularity and volume are not readily
+available. Testing was conducted on three updated DxH 800 systems at the Beckman
+Coulter Clinical Quality Assurance laboratory.
+Whole Blood: A total of 160 diluent specimens (blank) were analyzed. Thirty-two
+tubes of diluent were analyzed each day for five days. Sixteen tubes were analyzed in
+the morning and 16 in the afternoon. The tubes were divided into four groups of four
+tubes. Each group was analyzed in one of the four DxH 800 test panels that analyze
+and report whole blood WBC and PLT counts (CBC, CBC/DIFF, CBC/DIFF/Retic,
+and CBC/Retic).
+Body fluid: A total of 150 diluent specimens (blank) were analyzed. Thirty tubes of
+diluent were analyzed each day for five days. Fifteen tubes were analyzed in the
+morning and 15 tubes in the afternoon using the Body Fluid test panel. Results for
+the LoB met specifications.
+Limit of Detection (LoD)
+To determine the LLoD, the standard deviation of sample measurements is obtained
+from repeated measurements of samples with relevant low concentrations. A
+concentration in the range from the LoB to approximately 4x LoB was used to obtain
+data to be used to estimate precision at these levels. Primary specimens for each of
+17
+
+--- Page 18 ---
+the parameters to be tested were prepared to achieve cell concentration of
+approximately 4x the LoB specification.
+Four different whole blood specimens were used to generate four different primary
+specimens, one for each of the parameters to be analyzed, for a total of 16 primary
+specimens. Using these primary specimens as the 100% concentration, a series of 10
+dilutions were prepared, using DxH Diluent as the blank to dilute the specimen. Each
+of the series of concentrations was analyzed n = 5 on each of the test devices on the
+day they were prepared (Day 1) and n = 5 on the following day (Day 2) for a total of
+ten replicates per level. Results for the LLoD met specifications.
+Limit of Quantitation (LoQ)
+The lower limit of quantitation (LLoQ) was calculated based on experimental data
+collected during the estimation of the LLoD to estimate within laboratory precision
+and bias. Analytical bias (difference from reference) of the test devices was
+established by duplicate analysis of five specimens having values established from a
+reference device whose calibration is traceable to whole blood reference methods.
+This process was performed on each of the eight days over which the LLoD testing
+occurred and was used in the LLoQ calculations as “Bias”.
+Using the defined device accuracy and precision specification, expected Total Error
+(TE) was determined for the LLoD specification level. The LLoQ data are
+considered to be acceptable if the TE estimated from the testing is less than the
+expected TE calculated from the LLoQ acceptance limits defined in the requirements.
+Results for LLoQ passed acceptance limits.
+g. Reference Intervals:
+Confirmatory testing was performed on the updated DxH 800 to demonstrate
+comparability of whole blood reference ranges for an adult population to the ranges
+established for the predicate device. Prospective samples were collected in K EDTA
+2
+from a total of 127 volunteers (male=61; female=66) from the Beckman Coulter
+donor program. All specimens were analyzed in duplicate on a single test device to
+obtain CBC, Differential and Retic results using the closed vial sampling method.
+The upper and lower parameter value limits of the established reference range, as
+provided in the predicate device labeling were compared to the current, confirmatory
+data set using a non-parametric approach. Limits were considered to not differ
+statistically when the 95% confidence intervals of the upper and lower limits of the
+two data sets overlapped. The reference ranges established for the predicate DxH 800
+are applicable for the updated DxH 800. The updated DxH 800 labeling will provide
+the reference ranges as currently presented in the predicate labeling.
+18
+
+--- Page 19 ---
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+19

@@ -1,0 +1,1361 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K234070
+B Applicant
+Dexcom, Inc.
+C Proprietary and Established Names
+Stelo Glucose Biosensor System
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 862.1355 -
+Integrated Continuous CH - Clinical
+SAF Class II
+Glucose Monitoring Chemistry
+System
+II Submission/Device Overview:
+A Purpose for Submission:
+New device
+B Measurand:
+Glucose in Interstitial Fluid
+C Type of Test:
+Quantitative, amperometric assay (Glucose Oxidase)
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+SAF			Class II	21 CFR 862.1355 -
+Integrated Continuous
+Glucose Monitoring
+System			CH - Clinical
+Chemistry
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The Stelo Glucose Biosensor System is an over-the-counter (OTC) integrated Continuous
+Glucose Monitor (iCGM) intended to continuously measure, record, analyze, and display glucose
+values in people 18 years and older not on insulin. The Stelo Glucose Biosensor System helps to
+detect normal (euglycemic) and low or high (dysglycemic) glucose levels. The Stelo Glucose
+Biosensor System may also help the user better understand how lifestyle and behavior
+modification, including diet and exercise, impact glucose excursion.
+The user is not intended to take medical action based on the device output without consultation
+with a qualified healthcare professional.
+C Special Conditions for Use Statement(s):
+OTC - Over The Counter
+No MRI/CT/diathermy — MR unsafe: Don't wear any Stelo Glucose Biosensor system
+component during magnetic resonance imaging (MRI) or high-frequency electrical heat
+(diathermy) treatment. However, it's safe to have a CT scan if you keep the sensor out of the
+scanned area and cover the sensor with a lead apron during the scan. The Stelo Glucose
+Biosensor system hasn't been tested in those situations when used during an MRI scan,
+diathermy, or in the scanned area of a CT scan. The magnetic fields and heat could damage Stelo
+Glucose Biosensor system components, which may cause inaccurate sensor readings.
+With the Stelo Glucose Biosensor system, you can take a standard or maximum acetaminophen
+dose of 1 gram (1,000 mg) every 6 hours and still use the Stelo Glucose Biosensor system.
+Taking higher than the maximum dose of acetaminophen (e.g. > 1 gram every 6 hours in adults)
+may affect the sensor readings and make them look higher than they really are.
+If you are taking hydroxyurea, your sensor readings will be higher than your actual glucose. The
+level of inaccuracy depends on the amount of hydroxyurea in your body. Talk to your physician
+about alternative glucose monitoring approaches.
+Don't use if you have problematic hypoglycemia. The Stelo Glucose Biosensor system hasn't
+been designed for these populations. Consult with your healthcare provider to discuss which
+Dexcom product is right for you.
+Don't use if you are on dialysis. The Stelo Glucose Biosensor system performance hasn't been
+evaluated in these populations and sensor readings may be inaccurate.
+Only insert your sensor on the back of your upper arm. Don't wear your sensor on other sites
+(such as your abdomen), as it may not work as expected.
+D Special Instrument Requirements:
+Not applicable.
+K234070 - Page 2 of 21
+
+--- Page 3 ---
+IV Device/System Characteristics:
+A Device Description:
+The Stelo Glucose Biosensor System System is a home use device that is intended to
+continuously measure the glucose in the interstitial fluid, calculate the glucose reading and make
+this value available to the user. The Stelo System can reliably and securely transmit glucose
+measurement data to authorized digitally connected devices. The Stelo System is not intended to
+be used in conjunction with insulin devices such as insulin pens and Automated Insulin Dosing
+(AID) systems.
+The Stelo System is based on the same principle of operation, fundamental design, and physical
+characteristics as the G7 CGM System, Dexcom’s most recent prescription integrated continuous
+glucose monitoring (iCGM) system (predicate device: K231081). The Stelo System comprises
+the following two subsystems:
+1. Glucose Sensing Subsystem (GSS): Wearable (Sensor, Transmitter, and Patch) and
+Applicator
+The sensor is a small and flexible wire inserted by the applicator into subcutaneous tissue
+where it converts glucose into electric current. The transmitter is pre-connected to the
+sensor and is worn on the body by the adhesive patch. The transmitter measures the
+electric current produced by the sensor and converts these measurements into estimated
+glucose values (EGV) using an onboard algorithm. The transmitter sends glucose data to
+a mobile application.
+Each GSS box also includes an overpatch, which is a general adhesive tape that helps
+with the adhesion of the wearable to the user’s body.
+2. Mobile Applications Subsystem (MAS): iOS and Android Mobile Application (App)
+The App provides in-app guidance for the user on how to apply and set up the wearable
+and how to create a user account. Once the set-up has been completed, the App receives
+information from the transmitter and acts as a user interface by indicating the system state
+(e.g., warm-up period, signal loss, etc.) and displaying glucose readings and trend graphs.
+Stelo Glucose Sensing Subsystem (GSS)
+The Stelo GSS has the same hardware design as the predicate device (G7 GSS); the devices use
+the same sensor, patch, applicator, and transmitter hardware. In addition, the Stelo transmitter
+firmware has the same primary responsibilities as the predicate G7 transmitter firmware.
+While the firmware modes, firmware modules, wireless communication requirements, and
+algorithm inputs/outputs of the Stelo transmitter firmware remain the same as the predicate
+device, the Stelo transmitter firmware includes the following differences:
+• No optional calibration
+The Stelo transmitter firmware is factory calibrated only and does not use any
+o
+Blood Glucose (BG) entered by the lay user for calibration.
+• Device connectivity restrictions
+The Stelo transmitter firmware does not pair/connect to an additional dedicated
+o
+primary display device (e.g., a receiver), insulin pens, AID systems, or other
+K234070 - Page 3 of 21
+
+--- Page 4 ---
+unauthorized devices. The Stelo transmitter can only pair/connect to the user’s
+(personal) smartphone.
+• Extended (15.5 days) device wear duration
+The Stelo transmitter firmware supports a sensor wear duration of 15 days,
+o
+compared to 10 days for the predicate.
+• Algorithm modifications
+The algorithm was modified to support the extended wear duration while
+o
+maintaining the accuracy of the device. Additional algorithm modifications and
+parameter optimizations were also introduced to help improve the user experience
+(e.g., reducing jitteriness of glucose readings displayed in the trend graph and
+better handling of edge cases or specific scenarios users may encounter in the
+field).
+Stelo Mobile Application System (MAS)
+The Stelo MAS consists of the Stelo app that is available on both iOS and Android platforms.
+The app can be downloaded to a compatible, Bluetooth Low Energy (BLE)-enabled smart
+device. The Stelo app was developed using the same software development kit (SDK) as the
+predicate device (G7 app) and inherited the main functionality and UI elements: in-app
+onboarding, current glucose value, trend graph, in-app Clarity card, event logging, and
+connectivity to Dexcom’s cloud servers. The following main UI elements were tailored to the
+Stelo user population:
+• Stelo app onboarding
+Similar to the predicate device, the Stelo app includes an onboarding experience
+o
+to guide users through inserting the wearable and setting up the app. Instructions
+and safety information are tailored to the Stelo user population.
+• App update interval
+The Stelo app wirelessly receives glucose information from the transmitter every
+o
+five minutes. All the sensor readings are then displayed on the mobile app every
+15 minutes
+• Narrowed displayed glucose range
+Similar to the predicate device, the sensor measures glucose values within the 40-
+o
+400 mg/dL range and sends the glucose data to the Stelo app. The Stelo app then
+narrows the displayed glucose values to 70-250 mg/dL. The displayed glucose
+range is intended to provide the glucose range pertinent to the Stelo user
+population who may not often have glucose values less than 70 mg/dL and more
+than 250 mg/dL. Glucose values below this range are reported as “Below 70
+mg/dL” and glucose values above this range are reported as “Above 250 mg/dL.”
+• Insights
+The user can review their latest time in range (day by day and at the end of a
+o
+session) through "Insights," a feature that calculates how much time the user's
+glucose was in range during the preceding day(s). The Insights also present
+suggestions for how the user can increase the time in range. Insights are delivered
+to the user as an out-of-app notification and can also be accessed from within the
+Stelo app.
+• Alerts removal
+Glucose alerts and alarms (e.g., Urgent Low Alarm, Urgent Low Soon, Low,
+o
+High, Rising Fast, and Falling Fast Alerts) are not included in the Stelo app,
+K234070 - Page 4 of 21
+
+--- Page 5 ---
+unlike the predicate G7 app. The Stelo app provides lock screen and in-app visual
+notifications to the user such as Bluetooth off, Signal Loss, or Sensor Expired.
+B Principle of Operation:
+The Stelo Glucose Biosensor System detects glucose levels from the fluid just beneath the skin
+(interstitial fluid). The sensor probe continuously measures glucose concentration in the
+interstitial fluid via an enzymatic electrochemical reaction using glucose oxidase. The enzyme,
+glucose oxidase, catalyzes the oxidation of glucose and produces hydrogen peroxide. The
+production of hydrogen peroxide generates an electrical current that is proportionate to the
+interstitial glucose concentration. The transmitter converts the signal using an algorithm to a
+glucose value read in mg/dL, which is then transmitted to the mobile application for the user to
+see and use accordingly.
+C Instrument Description Information:
+1. Instrument Name:
+Stelo Glucose Biosensor System
+2. Specimen Identification:
+Not applicable.
+3. Specimen Sampling and Handling:
+Not applicable.
+4. Calibration:
+The Stelo Glucose Biosensor System is factory calibrated. Users may not enter optional
+calibrations based on fingerstick blood glucose values.
+5. Quality Control:
+Not applicable.
+This medical device product has functions subject to FDA premarket review as well as functions
+that are not subject to FDA premarket review. For this application, if the product has functions
+that are not subject to FDA premarket review, FDA assessed those functions only to the extent
+that they either could adversely impact the safety and effectiveness of the functions subject to
+FDA premarket review or they are included as a labeled positive impact that was considered in
+the assessment of the functions subject to FDA premarket review.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Dexcom G7 Continuous Glucose Monitoring (CGM) System
+K234070 - Page 5 of 21
+
+--- Page 6 ---
+B Predicate 510(k) Number(s):
+K231081
+C Comparison with Predicate(s):
+Device & Predicate
+K234070 K231081
+Device(s):
+Dexcom G7 Continuous
+Stelo Glucose
+Device Trade Name Glucose Monitoring
+Biosensor System
+(CGM) System
+General Device
+Characteristic Similarities
+Automatically measure
+Intended Use/Indications glucose in bodily fluids
+Same
+For Use continuously for a
+specified period of time
+Use Setting Home use Same
+General Device
+Characteristic Differences
+Persons who are not on
+Persons with diabetes
+Intended Use Population insulin therapy age 18
+age 2 years and older
+years and older
+Type of Use Over-the-counter use Prescription use
+Factory calibrated with
+Sensor Calibration Factory calibrated only optional manual
+calibration
+Up to 15 days with 12 Up to 10 days with 12
+hour grace period hours grace period
+Sensor Useful Life
+(automatic sensor shut (automatic sensor shut
+off) off)
+Primary Display Device Mobile app Mobile app or receiver
+Displayed Range 70-250 mg/dL 40-400 mg/dL
+Display Device Update
+Every 15 minutes Every 5 minutes
+Interval
+Mandatory Alarms:
+Urgent Low
+Glucose Alerts and Alarms None Optional Alerts: Urgent
+Low Soon, Low
+Glucose, High Glucose,
+Falling Fast, Rising Fast
+Compatible with Compatible with
+Compatibility with
+digitally connected digitally connected
+Connected Devices
+devices excluding devices including
+K234070 - Page 6 of 21
+
+[Table 1 on page 6]
+	Device & Predicate		K234070	K231081
+	Device(s):			
+Device Trade Name			Stelo Glucose
+Biosensor System	Dexcom G7 Continuous
+Glucose Monitoring
+(CGM) System
+	General Device			
+	Characteristic Similarities			
+Intended Use/Indications
+For Use			Automatically measure
+glucose in bodily fluids
+continuously for a
+specified period of time	Same
+Use Setting			Home use	Same
+	General Device			
+	Characteristic Differences			
+Intended Use Population			Persons who are not on
+insulin therapy age 18
+years and older	Persons with diabetes
+age 2 years and older
+Type of Use			Over-the-counter use	Prescription use
+Sensor Calibration			Factory calibrated only	Factory calibrated with
+optional manual
+calibration
+Sensor Useful Life			Up to 15 days with 12
+hour grace period
+(automatic sensor shut
+off)	Up to 10 days with 12
+hours grace period
+(automatic sensor shut
+off)
+Primary Display Device			Mobile app	Mobile app or receiver
+Displayed Range			70-250 mg/dL	40-400 mg/dL
+Display Device Update
+Interval			Every 15 minutes	Every 5 minutes
+Glucose Alerts and Alarms			None	Mandatory Alarms:
+Urgent Low
+Optional Alerts: Urgent
+Low Soon, Low
+Glucose, High Glucose,
+Falling Fast, Rising Fast
+Compatibility with
+Connected Devices			Compatible with
+digitally connected
+devices excluding	Compatible with
+digitally connected
+devices including
+
+[Table 2 on page 6]
+Dexcom G7 Continuous
+Glucose Monitoring
+
+--- Page 7 ---
+insulin devices such as insulin devices.
+insulin pens and AID
+systems
+The App can
+The App can
+Connectivity with cloud- communicate wirelessly
+communicate wirelessly
+based applications to Dexcom Clarity and
+to Dexcom Clarity.
+Dexcom Follow App.
+VI Standards/Guidance Documents Referenced:
+1. ISO 14971 Third Edition 2019-12: Medical devices - Application of risk management to
+medical devices
+2. IEC 62304 62304 Edition 1.1 2015-06 CONSOLIDATED VERSION: Medical device
+software - Software life cycle processes
+3. ANSI AAMI ES60601-1:2005/(R)2012 & A1:2012 C1:2009/(R)2012 &
+A2:2010/(R)2012 (Cons. Text) [Incl. AMD2:2021]: Medical electrical equipment – Part
+1: General requirements for basic safety and essential performance
+4. IEC 60601-1-2 Edition 4.1 2020-09 CONSOLIDATED VERSION: Medical electrical
+equipment - Part 1-2: General requirements for basic safety and essential performance
+5. IEC 60601-1-6 Edition 3.2 2020-07 CONSOLIDATED VERSION: Medical electrical
+equipment - Part 1-6: General requirements for basic safety and essential performance
+6. IEC 60601-1-11 Edition 2.1 2020-07 CONSOLIDATED VERSION: Medical electrical
+equipment - Part 1-11: General requirements for basic safety and essential performance
+7. ISO 14155 Third Edition 2020-07: Clinical investigation of medical devices for human
+subjects - Good clinical practice
+8. IEC 1162366-1 Edition 1.1 2020-06 CONSOLIDATED VERSION: Medical devices -
+Part 1: Application of usability engineering to medical devices
+9. ISO 10993-1 Fifth edition 2018-08: Biological evaluation of medical devices - Part 1:
+Evaluation and testing within a risk management process
+10. ISO 10993-2 Second edition 2006-07-15: Biological Evaluation of medical devices - Part
+2: Animal welfare requirements
+11. ISO 10993-3 Third edition 2014-10-1: Biological evaluation of medical devices - Part 3:
+Tests for genotoxicity carcinogenicity and reproductive toxicity
+12. ISO 10993-5 Third edition 2009-06-01 Biological evaluation of medical devices - Part 5:
+Tests for in vitro cytotoxicity
+13. ISO 10993-6 Third edition 2016-12-01: Biological evaluation of medical devices -- Part
+6: Tests for local effects after implantation
+14. ISO 10993-7 Second edition 2008-10-15 Biological evaluation of medical devices - Part
+7: Ethylene oxide sterilization residuals
+15. ISO 10993-10 Third Edition 2010-08-01 Biological evaluation of medical devices - Part
+10: Tests for irritation and skin sensitization
+16. ISO 10993-11 Third edition 2017-09 Biological evaluation of medical devices - Part 11:
+Tests for systemic toxicity
+17. ISO 10993-12 Fourth edition 2012-07-01 Biological evaluation of medical devices - Part
+12: Sample preparation and reference materials
+18. ISO 10993-17 First edition 2002-12-01 Biological evaluation of medical devices - Part
+17: Establishment of allowable limits for leachable substances
+K234070 - Page 7 of 21
+
+[Table 1 on page 7]
+	insulin devices such as
+insulin pens and AID
+systems	insulin devices.
+Connectivity with cloud-
+based applications	The App can
+communicate wirelessly
+to Dexcom Clarity.	The App can
+communicate wirelessly
+to Dexcom Clarity and
+Dexcom Follow App.
+
+--- Page 8 ---
+19. ISO 10993-18 Second edition 2020-01 Biological evaluation of medical devices - Part
+18: Chemical characterization of medical device materials within a risk management
+process
+20. ISO 11607-1 Second edition 2019-02 Packaging for terminally sterilized medical devices
+- Part 1: Requirements for materials sterile barrier systems and packaging systems
+21. ISO 11607-2 Second edition 2019-02 Packaging for terminally sterilized medical devices
+- Part 2: Validation requirements for forming sealing and assembly processes
+22. ISO 11135 Second edition 2014-07-15 Sterilization of health-care products - Ethylene
+oxide - Requirements for the development, validation, and routine control of a
+sterilization process for medical devices
+23. ISO 11737-1 Third edition 2018-01 [including AMD:21] Sterilization of health care
+products - Microbiological methods - Part 1: Determination of a population of
+microorganisms on products
+24. ISO 11737-2 Third edition 2019-12 Sterilization of medical devices - Microbiological
+methods - Part 2: Tests of sterility performed in the definition, validation and
+maintenance of a sterilization process
+25. ISO 15223-1 Fourth edition 2021-07 Medical devices - Symbols to be used with
+information to be supplied by the manufacturer - Part 1: General requirements
+26. ASTM D4169-22 Standard Practice for Performance Testing of Shipping Containers and
+Systems
+27. ASTM F2503-23 Standard Practice for Marking Medical Devices and Other Items for
+Safety in the Magnetic Resonance Environment
+28. ISO 23908 First edition 2011-06-11 Sharps injury protection - Requirements and test
+methods - Sharps protection features for single-use hypodermic needles, introducers for
+catheters and needles used for blood sampling
+29. IEC 62133-2 Edition 1.0 2017-02: Secondary cells and batteries containing alkaline or
+other non-acid electrolytes - Safety requirements for portable sealed secondary cells, and
+for batteries made from them, for use in portable applications – Part 2: Lithium systems
+30. IEC TR 60601-4-2 Edition 1.0 2016-05 Medical electrical equipment - Part 4-2:
+Guidance and interpretation - Electromagnetic immunity: performance of medical
+electrical equipment and medical electrical systems
+31. AIM Standard 7351731 Rev. 3.00 2021-06-04 Medical Electrical Equipment and System
+Electromagnetic Immunity Test for Exposure to Radio Frequency Identification Readers
+32. IEEE ANSI USEMCSC C63.27-2021 American National Standard for Evaluation of
+Wireless Coexistence
+33. AAMI TIR69:2017/(R2020) Technical Information Report Risk management of radio-
+frequency wireless coexistence for medical devices and systems
+34. IEC 60417:2002 Graphical symbols for use on equipment
+35. ANSI AAMI HE75:2009/(R)2018 Human factors engineering – Design of medical
+devices
+36. ISO 11138-1 Third edition 2017-03 Sterilization of health care products – Biological
+indicators – Part 1: General requirements
+K234070 - Page 8 of 21
+
+--- Page 9 ---
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Stelo Glucose Biosensor performance was evaluated in clinical studies described below in
+section C(3). A subset of subjects wore two Stelo Glucose Biosensor at the same time
+(N=18). Precision was evaluated by comparing the glucose reading from the two Systems
+worn by the same subject on the backs of both upper arms.
+The mean paired absolute relative difference (between the 2 concurrently worn devices) was
+8.8% and the mean coefficient of variation (mean %CV) was 6.2%.
+Precision Analysis
+Matched Pairs (n) 63,024
+Number of subjects (N) 18
+Paired absolute difference (mg/dL) 13.3
+Paired absolute relative difference (%) 8.8
+Coefficient of variation (%) 6.2
+2. Linearity:
+The measurement range of the System is 40-400 mg/dL and the reportable range is 70-250
+mg/dL. Data supporting this claimed measurement range was generated in the clinical study
+described in Section C(3) below.
+3. Analytical Specificity/Interference:
+Users of the Stelo Glucose Biosensor System can take a standard or maximum dose of
+acetaminophen (up to 1 gram every 6 hours in adults) and still use the Stelo System readings.
+Sensor glucose readings will be falsely higher if the user is taking more than a standard
+acetaminophen dose.
+Sensor glucose readings will also be falsely higher if the user is taking hydroxyurea. Users
+should talk to their physician about alternative glucose monitoring approaches if they are
+taking hydroxyurea.
+4. Assay Reportable Range:
+See Linearity section above.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+The Stelo GSS (sensor and transmitter) has a storage shelf-life of up to 10 months. Shelf life
+was evaluated at 86°F. Sensors should be stored at 36°- 86°F and 10-90% relative humidity.
+K234070 - Page 9 of 21
+
+[Table 1 on page 9]
+Matched Pairs (n)	63,024
+Number of subjects (N)	18
+Paired absolute difference (mg/dL)	13.3
+Paired absolute relative difference (%)	8.8
+Coefficient of variation (%)	6.2
+
+--- Page 10 ---
+6. Detection Limit:
+If a glucose measurement is less than 70 mg/dL, the result is displayed by the system as
+“Below 70 mg/dL.” If a glucose measurement exceeds 250 mg/dL, result is displayed as
+“Above 250 mg/dL.” Users can view historical results across the full device measurement
+range (40-400 mg/dL) via Dexcom Clarity, a cloud-based software available on the web and
+on apps.
+7. Assay Cut-Off:
+Not applicable
+8. Accuracy (Instrument):
+Not applicable.
+9. Carry-Over:
+Not applicable.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Not applicable. Accuracy is determined by comparing device values to an FDA cleared
+laboratory grade glucose analyzer (Yellow Springs Instrument 2300 STAT Plus™ Glucose
+Analyzer) and referred to as the “comparator method” in Section C(3) below.
+2. Matrix Comparison:
+Not applicable. Interstitial fluid is the only indicated matrix.
+C Clinical Studies:
+1. Clinical Sensitivity:
+Not applicable.
+2. Clinical Specificity:
+Not applicable.
+3. Other Clinical Supportive Data (When 1. and 2. Are Not Applicable):
+The sponsor conducted a pivotal study to evaluate the safety and effectiveness of the Stelo
+Glucose Biosensor system for up to 15.5 days. The study was conducted in the United States
+at six clinic sites. Although the real-time reporting range of the system is 70-250 mg/dL,
+users can view the full device measurement range of 40-400 mg/dL retrospectively via
+K234070 - Page 10 of 21
+
+--- Page 11 ---
+Dexcom Clarity. Therefore, the device performance across the full measuring range was
+included in the analyses below and considered in the substantial equivalence determination.
+iCGM Reading Accuracy to Comparator
+Below are the percent of values 15%/15 mg/dL, and 40%/40 mg/dL stratified by glucose
+ranges of <70, 70-180, and >180mg/dL for the iCGM and comparator. The 95% CI in the
+below tables is the 95% confidence interval (two-sided, alpha = 0.05) and the 95% LB is the
+lower bound of 95% confidence limit (one-sided, alpha = 0.05).
+Percent and Point Accuracy Between iCGM and Comparator by iCGM Glucose Range
+(N=130)
+iCGM Percent Percent Percent Percent
+Mean Bias
+Glucose Matched Within 15 within 40 within within
+(mg/dL)
+Range1 Pairs (N) mg/dL mg/dL 15% 40%
+(95% CI)
+(mg/dL) (95% LB) (95% LB) (95% LB) (95% LB)
+-6.9
+<70 1,807 92.0 (88.2) 99.3 (98.1) --- ---
+(-9.3, -4.5)
+-5.2
+70-180 10,902 --- --- 84.3 (82.0) 99.6 (99.4)
+(-7.4, -2.9)
+-3.3
+>180 7,621 --- --- 88.1 (84.4) 99.9 (99.8)
+(-6.0, -0.6)
+1iCGM readings are within 40-400 mg/dL, inclusive
+Percent and Point Accuracy Between iCGM and Comparator by Comparator Glucose
+Ranges (N=130)
+Comparator Percent Percent Percent Percent
+Mean Bias
+Glucose Matched Within 15 within 40 within within
+(mg/dL)
+Range Pairs1 (N) mg/dL mg/dL 15% 40%
+(95% CI)
+(mg/dL) (95% LB) (95% LB) (95% LB) (95% LB)
+-1.3
+<70 2,008 93.9 (91.6) 99.9 (99.0) --- ---
+(-3.4, 0.7)
+-3.2
+70-180 10,463 --- --- 86.0 (83.8) 99.7 (99.5)
+(-5.2, -1.1)
+-7.5
+>180 7,859 --- --- 86.7 (82.8) 99.9 (99.6)
+(-10.3, -4.7)
+1iCGM readings are within 40-400 mg/dL, inclusive
+The Stelo percent and point accuracy between iCGM and the comparator is comparable to
+that of the predicate G7 CGM System (K213919).
+The percent of values within 20% of comparator method were calculated across the
+measuring range overall.
+K234070 - Page 11 of 21
+
+[Table 1 on page 11]
+iCGM
+Glucose
+Range1
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within 15
+mg/dL
+(95% LB)	Percent
+within 40
+mg/dL
+(95% LB)	Percent
+within
+15%
+(95% LB)	Percent
+within
+40%
+(95% LB)	Mean Bias
+(mg/dL)
+(95% CI)
+<70	1,807	92.0 (88.2)	99.3 (98.1)	---	---	-6.9
+(-9.3, -4.5)
+70-180	10,902	---	---	84.3 (82.0)	99.6 (99.4)	-5.2
+(-7.4, -2.9)
+>180	7,621	---	---	88.1 (84.4)	99.9 (99.8)	-3.3
+(-6.0, -0.6)
+
+[Table 2 on page 11]
+Comparator
+Glucose
+Range
+(mg/dL)	Matched
+Pairs1 (N)	Percent
+Within 15
+mg/dL
+(95% LB)	Percent
+within 40
+mg/dL
+(95% LB)	Percent
+within
+15%
+(95% LB)	Percent
+within
+40%
+(95% LB)	Mean Bias
+(mg/dL)
+(95% CI)
+<70	2,008	93.9 (91.6)	99.9 (99.0)	---	---	-1.3
+(-3.4, 0.7)
+70-180	10,463	---	---	86.0 (83.8)	99.7 (99.5)	-3.2
+(-5.2, -1.1)
+>180	7,859	---	---	86.7 (82.8)	99.9 (99.6)	-7.5
+(-10.3, -4.7)
+
+--- Page 12 ---
+Percent of iCGM Values within 20% of Comparator Glucose (N=130)
+iCGM Glucose Range Matched Pairs (n) Percent within 20%
+(95% LB)
+40-400 mg/dL 20,330 93.1 (91.2)
+Percent of values within 15%/15 mg/dL, 20%/20 mg/dL, and 40%/40 mg/dL stratified by glucose
+ranges of <54, 54-69, 70-180, 181-250, and >250 mg/dL for iCGM and comparator were also
+provided.
+System Accuracy to Comparator Within iCGM Glucose Ranges (N=130)
+iCGM Percent Percent Percent
+Percent Percent Percent Mean
+Glucose Matched Within Within within MARD
+within within within Bias
+Range1 Pairs (N) 15 20 40 (%)
+15% 20% 40% (mg/dL)
+(mg/dL) mg/dL mg/dL mg/dL
+<54 288 70.5 84.7 99.7 --- --- --- -10.3 17.4
+54-69 1,519 92.6 96.4 99.5 --- --- --- -2.2 9.2
+70-180 10,902 --- --- --- 84.8 93.3 99.6 -1.1 8.5
+181-250 3,301 --- --- --- 84.3 91.5 100.0 -11.3 8.3
+>250 4,320 --- --- --- 91.6 96.8 100.0 -9.2 6.8
+1CGM readings are within 40-400 mg/dL, inclusive.
+System Accuracy to Comparator Within Comparator Glucose Ranges (N=130)
+iCGM Percent Percent Percent
+Matched Percent Percent Percent Mean
+Glucose Within Within within MARD
+Pairs1 within within within Bias
+Range 15 20 40 (%)
+(N) 15% 20% 40% (mg/dL)
+(mg/dL) mg/dL mg/dL mg/dL
+<54 206 88.8 93.2 98.5 --- --- --- 6.0 15.4
+54-69 1,802 94.1 97.8 100.0 --- --- --- 1.8 10.0
+70-180 10,463 --- --- --- 86.2 93.8 99.7 -0.3 8.2
+181-250 2,988 --- --- --- 88.0 94.9 99.9 -6.5 7.4
+>250 4,871 --- --- --- 86.1 92.5 99.9 -15.8 8.0
+1CGM readings are within 40-400 mg/dL, inclusive.
+K234070 - Page 12 of 21
+
+[Table 1 on page 12]
+iCGM Glucose Range	Matched Pairs (n)	Percent within 20%
+(95% LB)
+40-400 mg/dL	20,330	93.1 (91.2)
+
+[Table 2 on page 12]
+iCGM
+Glucose
+Range1
+(mg/dL)	Matched
+Pairs (N)	Percent
+Within
+15
+mg/dL	Percent
+Within
+20
+mg/dL	Percent
+within
+40
+mg/dL	Percent
+within
+15%	Percent
+within
+20%	Percent
+within
+40%	Mean
+Bias
+(mg/dL)	MARD
+(%)
+<54	288	70.5	84.7	99.7	---	---	---	-10.3	17.4
+54-69	1,519	92.6	96.4	99.5	---	---	---	-2.2	9.2
+70-180	10,902	---	---	---	84.8	93.3	99.6	-1.1	8.5
+181-250	3,301	---	---	---	84.3	91.5	100.0	-11.3	8.3
+>250	4,320	---	---	---	91.6	96.8	100.0	-9.2	6.8
+
+[Table 3 on page 12]
+iCGM
+Glucose
+Range
+(mg/dL)	Matched
+Pairs1
+(N)	Percent
+Within
+15
+mg/dL	Percent
+Within
+20
+mg/dL	Percent
+within
+40
+mg/dL	Percent
+within
+15%	Percent
+within
+20%	Percent
+within
+40%	Mean
+Bias
+(mg/dL)	MARD
+(%)
+<54	206	88.8	93.2	98.5	---	---	---	6.0	15.4
+54-69	1,802	94.1	97.8	100.0	---	---	---	1.8	10.0
+70-180	10,463	---	---	---	86.2	93.8	99.7	-0.3	8.2
+181-250	2,988	---	---	---	88.0	94.9	99.9	-6.5	7.4
+>250	4,871	---	---	---	86.1	92.5	99.9	-15.8	8.0
+
+--- Page 13 ---
+Concurrence
+Concurrence of iCGM values compared to the comparator method across the entire
+measuring range was also evaluated. iCGM glucose ranges of <40, 40-60, 61-80, 81-120,
+121-160, 161-200, 201-250, 251-300, 301-350, 351-400, and >400 mg/dL were evaluated
+against the comparator glucose ranges and the percentages of iCGM values within those
+ranges were reported in the following tables.
+Concurrence of iCGM and Comparator by iCGM Glucose Range (N=130)
+Comparator Glucose Values (mg/dL)
+iCGM
+121- 161- 201- 251- 301- 351-
+(mg/ <40 40-60 61-80 81-120 >400 Total
+160 200 250 300 350 400
+dL)
+23 12 1
+<40 --- 36
+63.9% 33.3% 2.8%
+1
+407 308 19
+40-60 0.1 735
+55.4% 41.9% 2.6%
+%
+276 1,995 381 4
+61-80 2,656
+10.4% 75.1% 14.3% 0.2%
+1
+13 540 3,426 503 13 1 3
+81-120 0.0 4,500
+0.3% 12.0% 76.1% 11.2% 0.3% 0.0% 0.1%
+%
+121- 1 468 2,584 468 23 2 1
+3,547
+160 0.0% 13.2% 72.9% 13.2% 0.6% 0.1% 0.0%
+161- 3 353 1,487 444 32 1
+2,320
+200 0.1% 15.2% 64.1% 19.1% 1.4% 0.0%
+201- 1 204 1,350 571 119 7
+2,252
+250 0.0% 9.1% 59.9% 25.4% 5.3% 0.3%
+251- 185 1,299 772 80
+2,336
+300 7.9% 55.6% 33.0% 3.4%
+301- 205 1,114 261 8
+1,588
+350 12.9% 70.2% 16.4% 0.5%
+351- 129 249 18
+396
+400 32.6% 62.9% 4.5%
+1 36 24
+>400 61
+1.6% 59.0% 39.3%
+K234070 - Page 13 of 21
+
+[Table 1 on page 13]
+	Comparator Glucose Values (mg/dL)																											
+iCGM
+(mg/
+dL)	<40	40-60	61-80			81-120	121-
+160			161-
+200			201-
+250			251-
+300			301-
+350			351-
+400			>400			Total
+<40	---	23
+63.9%	12
+33.3%			1
+2.8%																						36
+40-60	1
+0.1
+%	407
+55.4%	308
+41.9%			19
+2.6%																						735
+61-80		276
+10.4%		1,995		381
+14.3%	4
+0.2%																					2,656
+				75.1%																								
+81-120	1
+0.0
+%	13
+0.3%	540
+12.0%			3,426
+76.1%	503
+11.2%			13
+0.3%			1
+0.0%			3
+0.1%												4,500
+121-
+160			1
+0.0%			468
+13.2%		2,584		468
+13.2%			23
+0.6%			2
+0.1%			1
+0.0%									3,547
+								72.9%																				
+161-
+200						3
+0.1%	353
+15.2%				1,487		444
+19.1%			32
+1.4%			1
+0.0%									2,320
+											64.1%																	
+201-
+250							1
+0.0%			204
+9.1%				1,350		571
+25.4%			119
+5.3%			7
+0.3%						2,252
+														59.9%														
+251-
+300													185
+7.9%				1,299		772
+33.0%			80
+3.4%						2,336
+																	55.6%											
+301-
+350																205
+12.9%				1,114		261
+16.4%			8
+0.5%			1,588
+																				70.2%								
+351-
+400																			129
+32.6%				249		18
+4.5%			396
+																							62.9%					
+>400																			1
+1.6%			36
+59.0%				24		61
+																										39.3%		
+
+[Table 2 on page 13]
+407
+55.4%
+
+[Table 3 on page 13]
+3,426
+76.1%
+
+--- Page 14 ---
+Concurrence of iCGM and Comparator by Comparator Glucose Range (N=130)
+Comparator Glucose Values (mg/dL)
+iCGM
+121- 161- 201- 251- 301- 351-
+(mg/ <40 40-60 61-80 81-120 >400
+160 200 250 300 350 400
+dL)
+23 12 1
+<40 ---
+3.2% 0.4% 0.0%
+1 407 308 19
+40-60
+50.0% 56.6% 10.8% 0.4%
+276 1,995 381 4
+61-80 ---
+38.4% 69.9% 8.9% 0.1%
+1 13 540 3,426 503 13 1 3
+81-120
+50.0% 1.8% 18.9% 79.7% 14.6% 0.6% 0.0% 0.1%
+121- 1 468 2,584 468 23 2 1
+160 0.0% 10.9% 75.0% 21.5% 1.1% 0.1% 0.0%
+161- 3 353 1,487 444 32 1
+200 0.1% 10.2% 68.5% 22.2% 1.5% 0.0%
+201- 1 204 1,350 571 119 7
+250 0.0% 9.4% 67.4% 27.0% 5.6% 1.1%
+251- 185 1,299 772 80
+300 9.2% 61.5% 36.1% 12.6%
+301- 205 1,114 261 8
+350 9.7% 52.1% 41.2% 16.0%
+351- 129 249 18
+400 6.0% 39.3% 36.0%
+1 36 24
+>400
+0.0% 5.7% 48.0%
+Total 2 719 2,856 4,298 3,445 2,172 2,003 2,112 2,137 633 50
+K234070 - Page 14 of 21
+
+[Table 1 on page 14]
+	Comparator Glucose Values (mg/dL)																														
+iCGM
+(mg/
+dL)	<40	40-60			61-80			81-120			121-
+160			161-
+200			201-
+250			251-
+300			301-
+350			351-
+400			>400		
+<40	---	23
+3.2%			12
+0.4%			1
+0.0%																							
+40-60	1
+50.0%		407		308
+10.8%			19
+0.4%																							
+			56.6%																												
+61-80	---	276
+38.4%				1,995		381
+8.9%			4
+0.1%																				
+						69.9%																									
+81-120	1
+50.0%	13
+1.8%			540
+18.9%				3,426		503
+14.6%			13
+0.6%			1
+0.0%			3
+0.1%											
+									79.7%																						
+121-
+160					1
+0.0%			468
+10.9%				2,584		468
+21.5%			23
+1.1%			2
+0.1%			1
+0.0%								
+												75.0%																			
+161-
+200								3
+0.1%			353
+10.2%				1,487		444
+22.2%			32
+1.5%			1
+0.0%								
+															68.5%																
+201-
+250											1
+0.0%			204
+9.4%				1,350		571
+27.0%			119
+5.6%			7
+1.1%					
+																		67.4%													
+251-
+300																	185
+9.2%				1,299		772
+36.1%			80
+12.6%					
+																					61.5%										
+301-
+350																				205
+9.7%				1,114		261
+41.2%			8
+16.0%		
+																								52.1%							
+351-
+400																							129
+6.0%				249		18
+36.0%		
+																											39.3%				
+>400																							1
+0.0%			36
+5.7%				24	
+																														48.0%	
+Total	2	719			2,856			4,298			3,445			2,172			2,003			2,112			2,137			633				50	
+
+--- Page 15 ---
+Trend Accuracy
+Trend accuracy describes the accuracy of the sensor during times of rapidly changing glucose
+and is characterized by slopes, such as from > 2 mg/dL/min to < -2 mg/dL/min. Trend
+accuracy was assessed by the concurrence rate of the glucose rate of change (changes in
+mg/dL of glucose per minute) determined by the iCGM values and the corresponding
+comparator values for each iCGM-comparator measurement pair.
+Trend Accuracy Between iCGM and Comparator (N=130)
+Comparator Rate Range (mg/dL/min)
+iCGM Rate <-2 [-2,-1) [-1,-0) [0,1] (1,2] >2 Number of
+Range Paired
+(mg/dL/min) iCGM-
+N (Row %) Comparator
+(Row N)
+<-2 80 99 57 14 2 (0.8%) 2 254
+(31.5%) (39.0%) (22.4%) (5.5%) (0.8%)
+[-2,-1) 96 618 574 77 7 (0.5%) 1 1,373
+(7.0%) (45.0%) (41.8%) (5.6%) (0.1%)
+[-1,0) 40 590 6,563 1,666 100 11 8,970
+(0.4%) (6.6%) (73.2%) (18.6%) (1.1%) (0.1%)
+[0,1] 12 73 1,661 4,392 652 69 6,859
+(0.2%) (1.1%) (24.2%) (64.0%) (9.5%) (1.0%)
+(1,2] 1 8 84 542 822 246 1,703
+(0.1%) (0.5%) (4.9%) (31.8%) (48.3%) (14.4%)
+>2 0 3 18 78 209 365 673
+(0.0%) (0.4%) (2.7%) (11.6%) (31.1%) (54.2%)
+Number of 229 1,391 8,957 6,769 1,792 694 19,832
+Paired
+iCGM-
+Comparator
+(Column N)
+Note: RoC was calculated using comparator data with consecutive measurements greater
+than 5 minutes.
+K234070 - Page 15 of 21
+
+[Table 1 on page 15]
+	Comparator Rate Range (mg/dL/min)																		
+iCGM Rate
+Range
+(mg/dL/min)
+N (Row %)	<-2			[-2,-1)			[-1,-0)			[0,1]			(1,2]			>2			Number of
+Paired
+iCGM-
+Comparator
+(Row N)
+<-2		80		99
+(39.0%)			57
+(22.4%)			14
+(5.5%)			2 (0.8%)			2
+(0.8%)			254
+		(31.5%)																	
+[-2,-1)	96
+(7.0%)				618		574
+(41.8%)			77
+(5.6%)			7 (0.5%)			1
+(0.1%)			1,373
+					(45.0%)														
+[-1,0)	40
+(0.4%)			590
+(6.6%)				6,563		1,666
+(18.6%)			100
+(1.1%)			11
+(0.1%)			8,970
+								(73.2%)											
+[0,1]	12
+(0.2%)			73
+(1.1%)			1,661
+(24.2%)				4,392		652
+(9.5%)			69
+(1.0%)			6,859
+											(64.0%)								
+(1,2]	1
+(0.1%)			8
+(0.5%)			84
+(4.9%)			542
+(31.8%)				822		246
+(14.4%)			1,703
+														(48.3%)					
+>2	0
+(0.0%)			3
+(0.4%)			18
+(2.7%)			78
+(11.6%)			209
+(31.1%)				365		673
+																	(54.2%)		
+Number of
+Paired
+iCGM-
+Comparator
+(Column N)	229			1,391			8,957			6,769			1,792			694			19,832
+
+--- Page 16 ---
+Agreement when iCGM Reads “Below 70 mg/dL” or “Above 250 mg/dL”
+The Stelo Glucose Biosensor System reports glucose readings between 70 and 250 mg/dL.
+When the system determines the sensor reading is below 70 mg/dL, it displays “Below 70
+mg/dL” on the mobile app. When the system determines the sensor reading is above 250
+mg/dL, it displays “Above 250 mg/dL” on the mobile app. Because the System does not
+display glucose values below 70 mg/dL or above 250 mg/dL, the comparisons to the actual
+blood glucose levels (as determined by the comparator method) when the iCGM value is
+classified as “Below 70 mg/dL” or “Above 250 mg/dL” is evaluated separately, and the
+cumulative percentages of when the comparator values were less than certain glucose values
+(for “Below 70 mg/dL”) and when comparator values were greater than certain glucose
+values (for “Above 250 mg/dL”) are presented in the table below.
+Distribution of Comparator for iCGM Readings “Below 70 mg/dL” or “Above 250
+mg/dL” (N=130)
+Comparator (mg/dL)
+iCGM-
+iCGM
+Comparator <80 <90 <100 <110 ≥110 Total
+Readings
+Pairs
+n 1740 1814 1833 1841 2 1843
+Below 70
+Cumulative
+mg/dL" 94 98 99 100 0
+Percent
+iCGM-
+iCGM
+Comparator >200 >180 >160 >130 ≤130 Total
+Readings
+Pairs
+"Above n 4381 4381 4381 4381 0 4381
+250 Cumulative
+100 100 100 100 0
+mg/dL" Percent
+Sensor Stability
+Sensor stability describes the performance over the sensor’s intended lifetime (up to 15 days,
+including the optional 12-hour grace period). Performance was estimated by calculating the
+percentage of iCGM readings within 15 mg/dL or 15% (15/15%), 20 mg/dL or 20%
+(20/20%), and 40 mg/dL or 40% (40/40%) of the laboratory comparator values during the
+beginning (Day 1 to 3), early middle (Day 4 to 7), late middle (Day 9 to 12), and end (Day 13
+to the first half of Day 15) of the System lifecycle. The mean of the absolute relative
+difference was evaluated over the sensor life within the measuring range.
+Accuracy of iCGM vs Comparator by Wear Period (N=130)
+Matched
+Wear period MARD (%) %15/15 (%) %20/20 (%) %40/40 (%)
+pairs (n)
+Beginning 5,718 9.1 83.6 92.4 99.7
+Early middle 5,509 7.8 89.2 95.2 99.9
+Late middle 5,197 7.3 90.4 96.0 99.9
+End 3,906 9.1 85.1 92.1 99.7
+K234070 - Page 16 of 21
+
+[Table 1 on page 16]
+		Comparator (mg/dL)					
+iCGM
+Readings	iCGM-
+Comparator
+Pairs	<80	<90	<100	<110	≥110	Total
+Below 70
+mg/dL"	n	1740	1814	1833	1841	2	1843
+	Cumulative
+Percent	94	98	99	100	0	
+							
+iCGM
+Readings	iCGM-
+Comparator
+Pairs	>200	>180	>160	>130	≤130	Total
+"Above
+250
+mg/dL"	n	4381	4381	4381	4381	0	4381
+	Cumulative
+Percent	100	100	100	100	0	
+
+[Table 2 on page 16]
+Wear period	Matched
+pairs (n)	MARD (%)	%15/15 (%)	%20/20 (%)	%40/40 (%)
+Beginning	5,718	9.1	83.6	92.4	99.7
+Early middle	5,509	7.8	89.2	95.2	99.9
+Late middle	5,197	7.3	90.4	96.0	99.9
+End	3,906	9.1	85.1	92.1	99.7
+
+--- Page 17 ---
+Sensor Life
+A total of 131 sensors worn on the arm by adult subjects were evaluated to determine the
+percentage of sensors that lasted through the 15-day sensor life. Of the 131 Sensors, 73.5% of
+evaluable sensors lasted until the final day of use. Some sensors were excluded from this
+analysis if they were intentionally removed prior to day 15. For example, on or before day
+15, 60 sensors were intentionally removed by the sponsor as part of the clinical study. 26
+Sensors (19.8%) had “early sensor shut-off” (ESS), which is when a sensor automatically
+ends a sensor session as a result of self-diagnostics. Survival rates were calculated using the
+Kaplan Meier method.
+Summary of System Survival by Day with 15-day Wear Period (N Subject=130)
+Day of wear Number of sensors (N=131) Survival rate (%)
+1 130 99.2
+2 130 99.2
+3 128 97.7
+4 124 94.7
+5 124 94.7
+6 123 93.9
+7 121 93.1
+8 120 92.4
+9 119 91.6
+10 115 89.3
+11 112 87.7
+12 107 83.8
+13 104 81.4
+14 75 78.9
+15 38 73.5
+K234070 - Page 17 of 21
+
+[Table 1 on page 17]
+Day of wear	Number of sensors (N=131)	Survival rate (%)
+1	130	99.2
+2	130	99.2
+3	128	97.7
+4	124	94.7
+5	124	94.7
+6	123	93.9
+7	121	93.1
+8	120	92.4
+9	119	91.6
+10	115	89.3
+11	112	87.7
+12	107	83.8
+13	104	81.4
+14	75	78.9
+15	38	73.5
+
+--- Page 18 ---
+A subsequent study was conducted in 108 participants in the intended user population to
+assess the impact of a new sensor patch intended to improve the sensor survival rate. Subjects
+attended clinic sessions for device insertion and removal. Sensor insertions were performed
+at the clinic by the subjects. All subjects wore an overlay with the device (also called an
+overpatch). No blood draws or home self-monitored blood glucose testing were required for
+this study. No display devices were provided to subjects, so all system data were blinded to
+the subjects for the full wear period and could not be used for subjects’ diabetes
+management. A total of 80 of 110 systems lasted until Day 15, 6 of which were intentionally
+removed on or prior to day 15 and were censored from the survival rate analysis. 17 sensors
+had early sensor shutoff (ESS) and 5 had an adhesive failure. Survival rates were calculated
+using the Kaplan Meier method.
+Summary of System Survival by Day in Subsequent Study (N Subject=108)
+Day of wear Number of sensors (N=110) Survival rate (%)
+1 107 97.3
+2 107 97.3
+3 107 97.3
+4 107 97.3
+5 106 96.4
+6 106 96.4
+7 106 96.4
+8 104 94.5
+9 102 92.7
+10 101 91.8
+11 97 90.0
+12 93 86.3
+13 91 84.4
+14 89 82.6
+15 80 77.9
+K234070 - Page 18 of 21
+
+[Table 1 on page 18]
+Day of wear	Number of sensors (N=110)	Survival rate (%)
+1	107	97.3
+2	107	97.3
+3	107	97.3
+4	107	97.3
+5	106	96.4
+6	106	96.4
+7	106	96.4
+8	104	94.5
+9	102	92.7
+10	101	91.8
+11	97	90.0
+12	93	86.3
+13	91	84.4
+14	89	82.6
+15	80	77.9
+
+--- Page 19 ---
+Data Capture Rate
+The data capture rate characterizes the reliability of the communication between components
+of the system. The next table describes the data availability rate as the percentage of readings
+expected to be calculated throughout the 15-day life span of the sensor life based on
+information collected in the pivotal trial.
+Data Availability Rate by Wear Day (N=130)
+Wear day Number of sensors Data availability rate (%)
+1 130 99.4
+2 130 99.7
+3 130 99.7
+4 128 99.6
+5 124 99.8
+6 124 99.7
+7 123 99.8
+8 121 99.6
+9 120 99.5
+10 119 99.2
+11 115 98.9
+12 112 98.6
+13 107 98.9
+14 104 97.8
+15 75 97.1
+D Clinical Cut-Off:
+Not applicable.
+E Expected Values/Reference Range:
+Not applicable.
+F Other Supportive Instrument Performance Characteristics Data:
+The following supportive performance characteristics were established through nonclinical
+testing of the predicate device and are applicable to the Stelo Glucose Biosensor System in this
+510(k):
+• Biocompatibility
+• Chemical/Material Characterization (not Biocompatibility-related)
+• Sterilization Validation
+• Electrical and Mechanical Performance
+• Operating Environmental Conditions Testing
+• Wireless Coexistence
+• Electrical Safety and Electromagnetic Compatibility
+• Packaging Validation
+• Interoperability
+K234070 - Page 19 of 21
+
+[Table 1 on page 19]
+Wear day	Number of sensors	Data availability rate (%)
+1	130	99.4
+2	130	99.7
+3	130	99.7
+4	128	99.6
+5	124	99.8
+6	124	99.7
+7	123	99.8
+8	121	99.6
+9	120	99.5
+10	119	99.2
+11	115	98.9
+12	112	98.6
+13	107	98.9
+14	104	97.8
+15	75	97.1
+
+--- Page 20 ---
+The following performance characteristics were verified or validated through studies conducted
+on the subject device, Stelo Glucose Biosensor System:
+Human Factors
+Sixty participants across different regional geographies evaluated four self-selection e-commerce
+platforms in the HF validation test through both the Dexcom website and e-commerce website
+via mobile and desktops. Fifteen of the 60 participants who correctly self-identified themselves
+as intended users of the Stelo System (based off of the above e-commerce websites) completed a
+simulated Human Factors validation testing using the Stelo System mobile app,
+Sensor/Applicator and associated instructional materials.
+Software Verification and Validation
+Software verification and validation testing was conducted to confirm that the software used in
+the Stelo Glucose Biosensor System performed in accordance with established specifications,
+IEC 62304 and FDA Guidance document “Guidance for the Content of Premarket Submissions
+for Device Software Functions,” June 14, 2023. Evaluation activities included code review, unit,
+system integration, and system level testing which verified functionality of the device against
+established software requirements. Results of the software executed protocols for the Stelo
+Glucose Biosensor System are acceptable for their intended use.
+Cybersecurity
+Dexcom has provided cybersecurity risk management documentation for the Stelo Glucose
+Biosensor System that includes analysis of confidentiality, integrity, and availability for data,
+information and software related to the Stelo Glucose Biosensor System in accordance with the
+FDA Guidance Cybersecurity in Medical Devices: Quality System Considerations and Content
+of Premarket Submissions” (September 27, 2023). For each identified threat and vulnerability
+risk event scenario, risk assessment of impact to confidentiality, integrity, and availability was
+performed and documented within the cybersecurity risk management documentation.
+Appropriate risk mitigation controls have been implemented and tested. In addition, Dexcom has
+controls and processes in place to ensure continued support for keeping the device secure and to
+ensure that the device firmware, software and components are malware free. Additional controls
+are also in place in manufacturing through distribution to ensure that the medical device
+firmware and software are malware free from point of origin to the hands of the end user.
+Electrical and Mechanical Performance (session dependent testing):
+Performance testing was performed to ensure the device specifications for sensor sensitivity,
+linearity, and fatigue, as well as wearable battery life and current leakage were met.
+Operating Environmental Conditions Testing:
+Environmental testing was performed on the Stelo Glucose Biosensor System to ensure the
+device specifications for operational robustness, operating conditions (evaluation of performance
+under various operational temperatures and humidity conditions), and chemical robustness
+(evaluation of performance when subject to soap water) were met.
+Shelf-Life:
+Shelf-life testing was performed to evaluate the stability of Stelo Glucose Sensing Subsystem
+under real time anticipated storage conditions and supported its useful life to be up to 10 months.
+The test results for the Stelo Glucose Sensing Subsystem met specifications.
+K234070 - Page 20 of 21
+
+--- Page 21 ---
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K234070 - Page 21 of 21

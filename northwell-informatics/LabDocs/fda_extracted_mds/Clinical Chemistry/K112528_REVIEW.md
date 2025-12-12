@@ -1,0 +1,110 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY ASSAY ONLY TEMPLATE
+
+C. Measurand: Calibration verification and assay range verification material for L-Thyroxine (T4)
+
+E. Applicant: Roche Diagnostics
+
+F. Proprietary and Established Names: Elecsys T4 CalCheck 5
+
+# G. Regulatory Information:
+
+1. Regulation section: 21 CFR §862.1660, Quality Control Material   
+2. Classification: Class I, reserved   
+3. Product code: JJX - Single (Specified) Analyte Controls   
+4. Panel: Clinical Chemistry (75)
+
+# H. Intended Use:
+
+1. Intended use(s): See indications for use below.
+
+2. Indication(s) for use: The Elecsys T4 CalCheck 5 is an assayed control for use in calibration verification and for use in the verification of the assay range established by the Elecsys T4 reagent on the indicated Elecsys and cobas e immunoassay analyzers, for in vitro diagnostic use only.
+
+3. Special conditions for use statement(s):
+
+· Not intended to be used as a primary calibrator or routine control material · For in vitro diagnostic use
+
+· For prescription use only
+
+4. Special instrument requirements:
+
+Elecsys 2010/cobas e411 and Modular Analytics E170/cobas e601/cobas e602 immunoasay analyzers.
+
+# I. Device Description:
+
+The Elecsys T4 CalCheck 5 is a lyophilized product consisting of T4 human serum matrix. During manufacture, the analyte is spiked into the matrix at the target concentrations listed below.
+
+<table><tr><td rowspan=1 colspan=1>ElecsysT4 CalCheck5</td><td rowspan=1 colspan=1>Target Range [μg/dL]</td></tr><tr><td rowspan=1 colspan=1>Check 1</td><td rowspan=1 colspan=1>Q</td></tr><tr><td rowspan=1 colspan=1>Check 2</td><td rowspan=1 colspan=1>7.77μg/dL</td></tr><tr><td rowspan=1 colspan=1>Check 3</td><td rowspan=1 colspan=1>12.43μg/dL</td></tr><tr><td rowspan=1 colspan=1>Check 4</td><td rowspan=1 colspan=1>19.42μg/dL</td></tr><tr><td rowspan=1 colspan=1>Check 5</td><td rowspan=1 colspan=1>24.86 μg/dL</td></tr></table>
+
+The human source materials were prepared exclusively from the blood of donors tested individually and shown to be negative for HBsAg and antibodies to HCV and HIV. The testing methods applied were FDA-approved or cleared in compliance with the European Directive 98/79/EC, Annex II, List A.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Elecsys T3 CalCheck 5
+
+2. Predicate K number(s): k111552
+
+3. Comparison with predicate:
+
+<table><tr><td>Characteristic</td><td>Elecsys T4 CalCheck 5</td><td>Elecsys T3 CalCheck 5 (k111552)</td></tr><tr><td>Intended Use</td><td>Elecsys T4 CalCheck 5 is intended for use in calibration verification and for use in the verification of the assay range on Elecsys and cobas e immunoassay analyzers.</td><td>Same</td></tr><tr><td colspan="1" rowspan="1">Analyte</td><td colspan="1" rowspan="1">L-Thyroxine (T4)</td><td colspan="1" rowspan="1">T3</td></tr><tr><td colspan="1" rowspan="1">Analyzers</td><td colspan="1" rowspan="1">Elecsys 2010, Modular Analytics170, cobas e 411, cobas e 601 andcobas e 602</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Levels</td><td colspan="1" rowspan="1">Five</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Format</td><td colspan="1" rowspan="1">Lyophilized</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Handling</td><td colspan="1" rowspan="1">Reconstitute Check 1, Check 2,Check 3, Check 4, and Check 5 withexactly 1.0 mL distilled or deionizedwater. Allow to stand closed for 15minutes, then mix gently byinversion.</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Stability</td><td colspan="1" rowspan="1">Unopened:Store at 2-8°C until expirationdateReconstituted:• 20 - 25°C : 4 hrs</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Matrix</td><td colspan="1" rowspan="1">Level 1 - Bovine serum albuminLevel 2-5 - Human serum</td><td colspan="1" rowspan="1">Level 1-5 Human serum</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+None were referenced.
+
+L. Test Principle: Not applicable.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility: Not applicable
+
+b. Linearity/assay reportable range: Not applicable   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+Traceability and value assignment L-Thyroxine, is of synthetic origin, purchased from a commercially available source and prepared by weighing T4 into the matrix. The Elecsys T4 CalCheck
+
+5 is standardized against ID-GC/MS (isotope dilution gas chromatography mass spectrometry).
+
+Value assignment testing is conducted and must pass pre-defined acceptance criteria. Specifically, each of the five CalCheck levels is value assigned using a minimum of three Elecsys 2010/cobas e411 analyzers and MODULAR ANALYTICS E170/cobas e 601 analyzers. Each sample is tested in duplicate for total of at least 6 measurements (duplicate runs on at least 3 analyzers). The target value for each CalCheck is the median value obtained over at least 6 determinations of the respective CalCheck. The assigned range is calculated as $\pm 2 0 \%$ of the assigned value for levels 2-5. The $\%$ CV is $8 \%$ for levels 2-5, while Level 1 is free of the analyte. The label states that each laboratory should establish appropriate acceptance criteria when using this product for its intended use.
+
+To ensure the values assigned using the master platform are transferrable and valid for the other instrument platforms, each Elecsys T4 CalCheck 5 level is assayed once a day on 8 Elecsys 2010 / cobas e 411 and 8 MODULAR ANALYTICS E170/cobas e 601/cobas e 602 analyzers. The median value for the 8 analyses must be within $10 \%$ of the master platform assigned value ( $10 \%$ for between analyzer platform tolerances). After this acceptance criterion is met, the assigned values from the master platform are deemed valid for the Elecsys 2010 / cobas e 411 and MODULAR ANALYTICS E170/cobas e 601/cobas e 602 immunoassay analyzers.
+
+# Stability
+
+Shelf-life stability:
+
+The accelerated stability testing performed at $3 5 \mathrm { { ^ \circ C } }$ supports an initial shelf-life claim of 36 months at $2 { - } 8 ^ { \circ } \mathrm { C }$ . Real-time testing at $2 { - } 8 ^ { \circ } \mathrm { C }$ is on-going to support a claim of 36 months.
+
+Open-vial stability after reconstitution:
+
+Real time testing was performed and the data support the package insert claim that reconstituted Elecsys T4 CalCheck 5 is stable up to 4 hours at $2 0 – 2 5 ^ { \circ } \mathrm { C }$ .
+
+d. Detection limit: Not applicable e. Analytical specificity: Not applicable
+
+f. Assay cut-off: Not applicable
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable
+
+b. Matrix comparison: Not applicable
+
+3. Clinical studies:
+
+a. Clinical Sensitivity: Not applicable
+
+b. Clinical specificity: Not applicable   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable
+
+4. Clinical cut-off: Not applicable
+
+5. Expected values/Reference range: The expected values are provided in the labeling for each specific lot.
+
+# N. Proposed Labeling:
+
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

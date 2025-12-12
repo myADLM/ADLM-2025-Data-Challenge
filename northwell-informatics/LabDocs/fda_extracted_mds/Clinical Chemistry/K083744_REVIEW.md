@@ -1,0 +1,95 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY DEVICE ONLY TEMPLATE
+
+A. 510(k) Number: k083744   
+B. Purpose for Submission: 510(k) clearance for a Positive Control for a previously cleared assay   
+C. Measurand: Recombinant Plasmodium antigens   
+D. Type of Test: Qualitative, in vitro immunochromatographic assay   
+E. Applicant: Binax, Inc., d/b/a Inverness Medical   
+F. Proprietary and Established Names: Binax NOW® Malaria Positive Control   
+G. Regulatory Information: a) Regulation section: 21 CFR 862.1660 Quality control material (assayed and unassayed) b) Classification: Class I c) Product Code: MJZ d) Panel: 83 Microbiology
+
+# H. Intended Use:
+
+1. Intended use:
+
+The BinaxNOW® Malaria Positive Control is intended for use as an assayed positive external quality control with the qualitative BinaxNOW® Malaria Test. It is designed for routine use to aid in verifying proper performance of the procedure and the antigen detection reagents of the BinaxNOW® Malaria.
+
+2. Indications for use:
+
+The BinaxNOW® Malaria Positive Control can be used as a quality control sample representative of a positive test result and to verify proper performance of the procedure and reagents of the BinaxNOW® Malaria Test.
+
+3. Special condition for use statement(s): The device is for prescription use only
+
+4. Special instrument Requirements: NA
+
+# I. Device Description:
+
+The BinaxNOW® Malaria Positive Control is a recombinant antigen control containing a mixture of HRP II (histidine-rich protein II), which is specific for Plasmodium falciparum (P.f.), and a pan-malarial protein. The source of the cloned nucleic acid regions was Plasmodium falciparum DNA.
+
+# J. Substantial Equivalence Information:
+
+The BinaxNOW $\textsuperscript { \textregistered }$ Malaria Positive Control is an accessory to the BinaxNOW $\textsuperscript { \textregistered }$ Malaria Test.
+
+Predicate Device: Bio-Rad Laboratories Cryptrol 510(k) Number: Exempt Device
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+N/A
+
+# L. Test Principle:
+
+The BinaxNOW® Malaria Positive Control is intended to be used as a qualitative positive control sample in accordance with the BinaxNOW® Malaria Test product instructions. The BinaxNOW® Malaria Positive Control is supplied lyophilized and is reconstituted using deionized water. The reconstituted control is then added to a pool of presumed negative EDTA human whole blood for use in the BinaxNOW® Malaria Test. When run on the BinaxNOW® Malaria Test, the positive control should always generate positive results on both the P.f. specific (HRP II) test line and on the pan malarial test line. This demonstrates that the test reagents are working as expected and that the operator performed the test procedure correctly.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+a. Precision/Reproducibility:
+
+A study was conducted at three sites to evaluate the inter-site and intra-site performance of two different lots of BinaxNOW $\textsuperscript { \textregistered }$ Malaria Positive Control.
+
+There was $100 \%$ agreement (36/36) agreement with the expected results, with no differences between lots, days, operators or sites.
+
+b. Linearity/assay reportable range: N/A
+
+The sponsor studies support the stability of lyophilized control as well as the reconstituted lyophilized vial when stored at $2 { - } 8 \mathrm { { ^ \circ C } }$ for six months..
+
+d. Detection limit: N/A
+
+e. Analytical specificity: N/A
+
+f. Assay cut-off: N/A
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: N/A
+
+b. Matrix comparison: N/A
+
+3. Clinical studies: N/A - Quality Control Material
+
+a. Clinical Sensitivity:
+
+b. Clinical specificity:
+
+c. Other clinical supportive data (when a. and b. are not applicable):
+
+4. Clinical cut-off: N/A
+
+5. Expected values/Reference range:
+
+# Positive Control Result:
+
+The BinaxNOW® Malaria Positive Control should generate a positive result when used as directed (the Control (C) Line and both the T1 and the T2 lines must be visible in the result window of the BinaxNOW® Malaria test). Note that the appearance of any Test Line, even when very faint, indicates a positive result.
+
+# Negative Control Result:
+
+The negative control pool should generate a negative result when used as directed (only the Control (C) Line is visible in the result window).
+
+# N. Proposed Labeling
+
+The labeling is sufficient and it satisfies the requirement of 21 CFR Part 809.10.
+
+# O. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

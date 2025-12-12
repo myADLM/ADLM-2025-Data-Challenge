@@ -1,0 +1,111 @@
+Standard Operating Procedure (SOP) for Glycogen Storage
+Disease Gene Panel Testing
+1. PURPOSE
+The purpose of this SOP is to outline the procedure for performing
+the Glycogen Storage Disease (GSD) Gene Panel testing. This test
+identifies pathogenic variants in genes associated with Glycogen
+Storage Disease. The procedure outlines the steps from DNA
+extraction to the generation of test results.
+2. SCOPE
+This procedure applies to all designated staff members performing
+molecular genetic testing for the Glycogen Storage Disease Gene
+Panel within the clinical laboratory.
+3. RESPONSIBILITIES
+It is the responsibility of the designated lab personnel to perform the
+procedure as outlined and to document all procedures and results
+accurately. All staff must adhere to quality control and quality
+assurance guidelines to ensure the accuracy of the test results.
+4. DEFINITIONS
+GSD Genes: Include but are not limited to G6PC, PYGM, PHKG2,
+AGL, SLC37A4, etc.
+5. MATERIALS AND EQUIPMENT
+• Molecular-grade water
+• Pipettes and tips
+• Microcentrifuge tubes
+• DNA extraction kit
+• Quantification equipment (e.g., Nanodrop, Qubit)
+• PCR reagents and primers specific for GSD genes
+• Thermal cycler
+• Agarose gel electrophoresis equipment
+• NGS (Next Generation Sequencing) platform
+• Bioinformatics tools and software for data analysis
+6. PROCEDURE
+6.1 DNA Extraction
+1.1 Receive properly collected and labeled blood or tissue samples.
+Verify patient information and sample integrity. 1.2 Extract genomic
+DNA using a commercially available extraction kit following the
+manufacturer's instructions. 1.3 Measure DNA concentration and
+quality using a spectrophotometer (e.g., Nanodrop) or a fluorometer
+(e.g., Qubit). 1.4 Ensure DNA has an A260/A280 ratio of 1.8–2.0.
+Document the concentration and quality in the laboratory information
+system (LIS).
+6.2 PCR Amplification
+2.1 Design primers for target regions of GSD-associated genes or
+use a commercially available GSD gene panel kit. 2.2 Prepare PCR
+reaction mixtures for each target region as follows:
+• DNA template: 20–50 ng
+• PCR master mix: 1X
+• Forward primer: 0.2 µM
+• Reverse primer: 0.2 µM
+• Molecular-grade water: up to the final volume of 25 µL
+2.3 Perform PCR under the following cycling conditions:
+• Initial denaturation: 95°C for 5 minutes
+• Denaturation: 95°C for 30 seconds
+• Annealing: 60°C for 30 seconds
+• Extension: 72°C for 1 minute
+• Final extension: 72°C for 5 minutes
+Cycle repeat: 35 cycles
+2.4 Include positive controls (known GSD samples) and negative
+controls (no DNA template) in each run.
+6.3 PCR Product Verification
+3.1 Run 5 µL of PCR products on a 2% agarose gel alongside a DNA
+ladder. 3.2 Verify the presence of amplicons at expected sizes. 3.3
+Clean PCR products using a suitable PCR purification kit.
+6.4 Library Preparation and NGS
+4.1 Using a commercially available NGS library preparation kit,
+prepare libraries from the purified PCR products as per the
+manufacturer’s instructions. 4.2 Quantify and normalize the libraries.
+4.3 Pool the libraries together and load onto the sequencer following
+the standard sequencing workflow.
+6.5 Data Analysis
+5.1 Use bioinformatics software to align sequence reads to the
+human reference genome (e.g., hg19 or hg38). 5.2 Identify variants
+using variant calling software. 5.3 Annotate variants and generate a
+variant report. 5.4 Cross-reference identified variants with known
+pathogenic variants in databases (e.g., ClinVar, HGMD).
+6.6 Result Interpretation and Reporting
+6.1 Interpret results, considering the patient’s clinical information and
+family history. 6.2 Draft a comprehensive report, including findings,
+methodology, limitations, and recommendations for genetic
+counseling or further testing if necessary. 6.3 Review and sign-off by
+a clinical geneticist or a qualified laboratory director. 6.4 Release the
+report to the ordering physician through the standard reporting
+system.
+7. QUALITY CONTROL
+• Perform reagent and equipment calibration as scheduled.
+• Include quality control samples in each batch to ensure accuracy
+and reliability.
+• Document all deviations and address technical issues promptly.
+8. SAFETY
+• Follow laboratory safety protocols, including the use of PPE
+(personal protective equipment).
+• Handle chemicals and biological samples according to safety
+guidelines.
+9. REFERENCES
+• Manufacturer’s instructions for the DNA extraction and NGS
+library preparation kits.
+• Clinical and Laboratory Standards Institute (CLSI) guidelines.
+• Relevant peer-reviewed articles on GSD gene analysis.
+Review and Approval
+Reviewed by: ____________________________
+Title: ___________________________
+Date: _______________________________
+Approved by: __________________________
+Title: ___________________________
+Date: _______________________________
+Revision History
+Date: __________ | Revision No.: ______ | Changes Made:
+________________
+This SOP is effective from the date of approval and will be reviewed
+regularly to ensure compliance with updated guidelines and
+technologies.

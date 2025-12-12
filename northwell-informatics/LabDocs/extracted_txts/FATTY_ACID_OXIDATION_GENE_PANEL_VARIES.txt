@@ -1,0 +1,102 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Generating Results for Fatty Acid Oxidation Gene Panel
+1. PURPOSE
+The purpose of this SOP is to outline the procedures required to
+generate accurate and reliable results for the Fatty Acid Oxidation
+Gene Panel (FAOGP). This panel tests for gene mutations
+associated with disorders in fatty acid oxidation, utilizing next-
+generation sequencing (NGS) technology. The procedures include
+preparation, sequencing, data analysis, quality control, and reporting
+of results.
+1. SCOPE This SOP applies to all personnel involved in the
+analytical phase of testing for the Fatty Acid Oxidation Gene
+Panel.
+2. RESPONSIBILITY
+• Laboratory Technologists: Responsible for specimen handling,
+preparation, sequencing, initial data analysis, and quality control.
+• Bioinformaticians: Responsible for advanced data analysis.
+• Laboratory Directors: Responsible for the final review and
+approval of test results.
+• Quality Assurance Team: Responsible for ensuring compliance
+with SOP and maintaining adequate documentation of all steps.
+1. MATERIALS AND EQUIPMENT
+• Sequencing instruments (e.g., Illumina MiSeq or NovaSeq)
+• Pipette and pipette tips
+• NGS library preparation kits
+• PCR reagents and equipment
+• Thermocyclers
+• DNA quantification instruments (e.g., Qubit or NanoDrop)
+• Bioinformatics software (e.g., BaseSpace, GATK, VarSeq)
+• Computer hardware with adequate storage and processing
+capacity
+1. PROCEDURE
+A) PREPARATION
+1. Verify specimen integrity.
+◦ Ensure the specimen meets the acceptance criteria (e.g.,
+sufficient quantity, no contamination).
+◦ Record specimen details including accession number.
+2. Extract DNA from the specimen following standard protocols.
+◦ Quantify the DNA concentration using Qubit or NanoDrop.
+◦ Record DNA concentration and purity on the specimen log.
+B) LIBRARY PREPARATION
+1. Perform library preparation using NGS library preparation kits.
+◦ Follow the manufacturer’s instructions for the specific kit
+used.
+◦ Use proper controls to ensure library prep quality.
+2. Validate the prepared library.
+◦ Quantify and assess the quality of the library using an
+appropriate method (e.g., Bioanalyzer or TapeStation).
+C) SEQUENCING
+1. Load the prepared libraries onto the sequencing instrument.
+◦ Program the instrument with appropriate run settings for the
+FAOGP.
+◦ Monitor the sequencing run to ensure proper operation.
+D) DATA ANALYSIS
+1. Initial data processing using bioinformatics software.
+◦ De-multiplex sequences.
+◦ Adapter trimming and quality checks.
+◦ Align sequences to the reference genome.
+2. Perform variant calling.
+◦ Identify potential mutations linked to fatty acid oxidation
+disorders.
+◦ Annotate variants using databases such as ClinVar or
+dbSNP.
+E) QUALITY CONTROL
+1. Validate results with internal controls.
+◦ Check sequencing quality metrics (e.g., coverage, depth).
+◦ Ensure that controls are within accepted tolerance limits.
+2. Review data for consistency and accuracy.
+◦ Perform a second review of variants.
+◦ Confirm that all findings meet analytical and clinical
+validation criteria.
+F) REPORTING RESULTS
+1. Generate a detailed report for the Fatty Acid Oxidation Gene
+Panel.
+◦ Include specimen details, methodology, detected variants,
+and their clinical significance.
+◦ Attach supporting documentation (e.g., quality control
+results, variant interpretations).
+2. Laboratory Director reviews and approves the report.
+3. Release the report to the requesting clinician.
+◦ Ensure confidential and secure transmission of results.
+4. QUALITY ASSURANCE
+• Ensure all procedures adhere to regulatory requirements (e.g.,
+CLIA, CAP).
+• Document all steps meticulously, including any deviations from
+the SOP and corrective actions taken.
+• Regularly review and update the SOP to incorporate
+advancements in technology and methodology.
+1. REFERENCES
+• Laboratory equipment manuals (Illumina MiSeq/NovaSeq, Qubit,
+NanoDrop)
+• Manufacturer instructions for NGS Library preparation kits
+• Bioinformatics software user guides
+• Relevant clinical guidelines for fatty acid oxidation disorders
+1. APPROVAL
+This SOP has been reviewed and approved by the Laboratory
+Director and Quality Assurance Team.
+Effective Date:
+Revision Date:
+Approved by:
+Laboratory Director
+Quality Assurance Team Leader

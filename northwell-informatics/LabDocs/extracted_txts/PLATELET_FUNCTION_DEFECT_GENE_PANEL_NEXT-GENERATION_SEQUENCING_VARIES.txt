@@ -1,0 +1,109 @@
+Standard Operating Procedure (SOP):
+PLATELET FUNCTION DEFECT GENE PANEL, NEXT-
+GENERATION SEQUENCING, VARIES
+1. PURPOSE The purpose of this SOP is to define the
+standardized procedure for the analytical phase of generating
+results for the Platelet Function Defect Gene Panel using Next-
+Generation Sequencing (NGS). This includes the steps for
+sample preparation, sequencing, data analysis, and
+interpretation. This protocol ensures accurate, reliable, and
+reproducible results.
+2. SCOPE This SOP applies to all personnel involved in the
+analytical phase of the Platelet Function Defect Gene Panel
+NGS tests.
+3. RESPONSIBILITIES Designated laboratory personnel are
+responsible for conducting this procedure as per the guidelines.
+The laboratory supervisor is responsible for overseeing the
+process and addressing any issues.
+4. SPECIMEN REQUIREMENTS AND HANDLING Specimens:
+Peripheral blood collected in EDTA or ACD tubes (Minimum
+amount: 3 mL) Storage: Store blood samples at 2-8°C if not
+processed immediately. DNA extracts can be stored at -20°C.
+Acceptance Criteria: Properly labeled samples with requisition
+forms. Samples must be fresh and not clotted. Rejection
+Criteria: Unlabeled samples or samples from inappropriate
+collection tubes, clotted samples, or samples with insufficient
+quantity.
+5. EQUIPMENT AND MATERIALS
+• DNA extraction kits (e.g., Qiagen DNA Blood Mini Kit)
+• Spectrophotometer/fluorometer for DNA quantification (e.g.,
+NanoDrop)
+• NGS library preparation kits specific for targeted gene panels
+• Next-Generation Sequencer (e.g., Illumina MiSeq or equivalent)
+• Thermocycler for PCR amplification
+• Reagents for library preparation, including adapters and primers
+• PCR clean-up kits
+• Bioinformatics software for data analysis (e.g., BWA, GATK, and
+IGV)
+1. PROCEDURE
+6.1 DNA Extraction
+1. Follow the manufacturer’s protocol for DNA extraction using a
+suitable DNA extraction kit.
+2. Quantify and assess the quality of the extracted DNA using a
+spectrophotometer/fluorometer.
+3. DNA concentration should be a minimum of 10 ng/µL with A260/
+A280 ratio between 1.8-2.0.
+4. Store extracted DNA at -20°C until further processing.
+6.2 Library Preparation
+1. Perform NGS library preparation using a targeted gene panel
+kit according to the manufacturer's instructions.
+2. Ensure proper amplification and indexing of target regions.
+3. Purify PCR products using appropriate clean-up kits.
+4. Quantify the prepared library to ensure adequate concentration
+for sequencing.
+6.3 Sequencing
+1. Load the prepared library on the NGS platform according to the
+instrument’s guidelines.
+2. Conduct sequencing using paired-end sequencing mode, if
+applicable.
+3. Monitor the sequencing run for quality parameters and potential
+errors.
+6.4 Data Analysis
+1. FastQC: Perform initial quality control of the raw sequencing
+data using FastQC software.
+2. Alignment: Map the reads to the reference genome using BWA-
+MEM or equivalent aligner.
+3. Variant Calling: Perform variant calling using GATK or an
+equivalent tool.
+4. Annotation: Annotate identified variants using an appropriate
+annotation tool (e.g., Annovar).
+5. Filtering: Apply stringent filters to remove artifacts and low-
+confidence variants.
+6.5 Interpretation and Reporting
+1. Review the variant list for potential pathogenic mutations.
+2. Compare results against known pathogenic variants in public
+databases (e.g., ClinVar).
+3. Interpret the clinical relevance of identified variants in relation to
+platelet function defects.
+4. Prepare a detailed report including the list of identified variants,
+their clinical significance, and interpretations.
+5. All reports should be verified by a qualified clinical geneticist or
+molecular pathologist before release.
+6. QUALITY CONTROL
+7. Include positive and negative controls in each sequencing run.
+8. Validate the assay with known reference standards periodically.
+9. Include inter- and intra-run reproducibility tests.
+10. Document and investigate any discrepancies or anomalies in
+sequencing data.
+11. DOCUMENTATION AND RECORD KEEPING
+12. Document all steps meticulously in the laboratory information
+management system (LIMS).
+13. Ensure proper documentation of sample receipt, DNA
+extraction, library preparation, sequencing run details, and data
+analysis.
+14. Maintain records of digital and hard-copy reports including all
+raw data and processed results.
+15. Store all lab results and analyses according to regulatory
+guidelines with appropriate security measures.
+16. REFERENCES
+• Manufacturer's instructions for DNA extraction and library
+preparation kits.
+• Local and international guidelines for NGS operations (e.g., CLIA,
+CAP, ACMG).
+• Reference databases for variant interpretations (e.g., ClinVar,
+HGMD).
+1. UPDATES AND REVISIONS This SOP will be reviewed
+periodically to ensure it aligns with current best practices and
+technological advancements. Any revisions will be documented,
+and staff will be retrained accordingly.
+Approved by: [Name], [Title] Date: [MM/DD/YYYY]

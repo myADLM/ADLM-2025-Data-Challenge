@@ -1,0 +1,36 @@
+# SPECIAL 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+I Background Information:
+
+A 510(k) Number K243070   
+B Applicant Cepheid   
+C Proprietary and Established Names Xpert SA Nasal Complete   
+D Regulatory Information
+
+<table><tr><td rowspan=1 colspan=1>ProductCode(s)</td><td rowspan=1 colspan=1>Classification</td><td rowspan=1 colspan=1>RegulationSection</td><td rowspan=1 colspan=1>Panel</td></tr><tr><td rowspan=1 colspan=1>NQX</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR §866.1640  AntimicrobialSusceptibility Test Powder</td><td rowspan=1 colspan=1>MI - Microbiology</td></tr><tr><td rowspan=1 colspan=1>OOI</td><td rowspan=1 colspan=1>Class II</td><td rowspan=1 colspan=1>21 CFR §862.2570  Instrumentation forclinical multiplex test systems</td><td rowspan=1 colspan=1>CH - Clinical Chemistry</td></tr></table>
+
+# II Review Summary:
+
+This 510(k) submission contains information/data on modifications made to the submitter’s (Cepheid) own CLASS II device requiring a 510(k). The following items are present and acceptable.
+
+1. The name and 510(k) number of the submitter’s previously cleared device.
+
+2. Submitter’s statement that the INTENDED USE/INDICATIONS FOR USE of the modified device as described in its labeling HAS CHANGED along with the proposed labeling which includes instructions for use and package labeling. These labeling changes are considered minor and do not affect the intended use of the original or modified device.
+
+The changes in the Intended Use/Indications for Use statement of the modified device (K243070) aim to:
+
+(a) Incorporate the “GeneXpert Instrument Systems” family of instruments, in order to accommodate a new member (the GeneXpert Infinity Systems) of this family that also encompasses the instruments that were originally cleared with the predicate (K100822).   
+(b) Remove the term “rapid” to better align with the assay’s time-to-result.   
+(c) Change the device name from “Cepheid Xpert SA Nasal Complete Assay” to “Xpert SA Nasal Complete” in the Intended Use/Indications for Use statement.   
+(d) Describe the modified device as a “test” (which incorporates assay and instrument) instead of as an “assay” as was previously done.
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+4. Comparison Information (i.e., similarities and differences) to the submitter’s legally marketed predicate device including, labeling, intended use, and physical characteristics.
+
+5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis.   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied.
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device is unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared device.

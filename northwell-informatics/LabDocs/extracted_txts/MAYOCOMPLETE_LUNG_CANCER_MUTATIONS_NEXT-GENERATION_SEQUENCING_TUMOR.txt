@@ -1,0 +1,123 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase Protocol for MAYOCOMPLETE
+Lung Cancer Mutations via Next-Generation
+Sequencing (Tumor)
+1. PURPOSE This procedure outlines the steps for the analytical
+phase of generating results for MAYOCOMPLETE Lung Cancer
+Mutations using Next-Generation Sequencing (NGS) from
+tumor specimens. The protocol ensures accurate and timely
+generation of sequencing data, identification of mutations, and
+reporting of results.
+2. SCOPE This SOP applies to all laboratory personnel involved in
+the handling, processing, and analysis of tumor specimens for
+MAYOCOMPLETE Lung Cancer Mutations NGS testing.
+3. RESPONSIBILITY Laboratory personnel are responsible for
+following this SOP to ensure the integrity of the results.
+Supervisors are responsible for verifying compliance with the
+protocol and addressing any deviations.
+4. DEFINITIONS
+• NGS: Next-Generation Sequencing
+• Tumor Specimen: A sample derived from a patient's tumor tissue
+1. PROCEDURE
+A. Pre-Analytical Phase (Assumed completed)
+◦ Specimen collection, reception, and accessioning according
+to standard laboratory procedures.
+B. Analytical Phase
+Equipment and Reagents
+◦ Sequencing Equipment: Illumina sequencing platforms or
+equivalent
+◦ Software: BaseSpace Sequence Hub, GATK, Annovar, and
+other bioinformatics tools
+◦ Reagents: DNA extraction kits, library preparation kits,
+sequencing reagents, control materials
+Procedure
+1. DNA Extraction
+▪ Extract DNA from the tumor specimen using an
+appropriate extraction kit.
+▪ Quantify DNA using a spectrophotometer and assess
+quality and integrity using agarose gel electrophoresis
+or a similar method.
+▪ If DNA quality is not satisfactory, re-extract or use
+alternative extraction methods as needed.
+2. Library Preparation
+▪ Utilize library preparation kits specific to the
+sequencing platform in use.
+▪ Fragment DNA, perform end repair, adaptor ligation,
+and amplification according to manufacturer’s
+instructions.
+▪ Quantify and validate the library using a fluorometer
+and assess the size distribution using capillary
+electrophoresis.
+3. Sequencing
+▪ Load the validated library onto the sequencing
+platform.
+▪ Configure the sequencing run with appropriate
+parameters (e.g., read length, coverage).
+▪ Initiate sequencing and monitor the run to ensure
+proper functioning of the equipment.
+▪ Run control samples to confirm the accuracy and
+reliability of the sequencing process.
+▪ Upon completion, transfer sequencing data to a
+secure storage location for further analysis.
+4. Data Analysis
+▪ Perform base calling and quality check of the raw
+sequencing data.
+▪ Align the sequencing reads to the reference genome
+using appropriate alignment software (e.g., BWA,
+Bowtie2).
+▪ Mark duplicates and perform local realignment around
+indels.
+▪ Call variants using established variant calling software
+(e.g., GATK, VarScan).
+▪ Annotate identified variants using annotation tools
+(e.g., Annovar, VEP).
+▪ Utilize bioinformatics pipelines to identify lung cancer-
+specific mutations and compile a mutation report.
+5. Quality Control
+▪ Implement internal quality controls including positive
+and negative controls in each run.
+▪ Review quality metrics such as coverage depth, base
+quality scores, and variant quality scores.
+▪ Perform manual inspection of variants to confirm
+computational analysis results.
+▪ Troubleshoot any discrepancies observed in quality
+control metrics.
+▪ Compare results of control samples to established
+reference values.
+6. Result Verification and Reporting
+▪ Generate a summary report of identified mutations.
+▪ Verify the accuracy and completeness of the results by
+cross-reference with control data and second analyst
+review if necessary.
+▪ Validate critical mutations manually and through
+secondary analysis platforms as necessary.
+▪ Draft the final report, ensuring proper documentation
+of findings, interpretation, and clinical significance.
+▪ Submit the report for review and approval by a senior
+lab personnel or supervisor.
+▪ Transfer verified results to the Laboratory Information
+System (LIS) and communicate results to the ordering
+physician or healthcare provider as needed.
+2. REFERENCES
+• Vendor-specific manuals and protocols for Illumina or other
+sequencing platforms
+• Bioinformatics tool documentation (BaseSpace, GATK, Annovar,
+etc.)
+• Current literature on lung cancer mutations and NGS
+methodologies
+1. APPENDICES
+A. Troubleshooting Guide
+◦ Common issues encountered during NGS and steps for
+resolution.
+B. Quality Control Metrics and Acceptance Criteria
+◦ Specific benchmarks for sequencing read quality, coverage,
+and control sample performance.
+2. REVISIONS
+◦ Document the date and nature of revisions made to the
+SOP.
+3. APPROVAL
+◦ Signature of approval by laboratory director and quality
+assurance manager.
+This completes the SOP for the analytical phase of generating results
+for MAYOCOMPLETE lung cancer mutations using NGS from tumor
+specimens.

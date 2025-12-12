@@ -1,0 +1,295 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT COMBINATION TEMPLATE
+A. 510(k) Number:
+k093460
+B. Purpose for Submission:
+Submission for modifications to a cleared device
+C. Measurand:
+Prothrombin Time
+D. Type of Test:
+Electrochemical
+E. Applicant:
+Roche Diagnostics Corporation
+F. Proprietary and Established Names:
+CoaguChek® XS Pro System
+G. Regulatory Information:
+1. Regulation section:
+21 CFR 864.7750 - Prothrombin time test
+2. Classification:
+Class II
+3. Product code:
+GJS – Test, Time, Prothrombin
+4. Panel:
+81 Hematology
+H. Intended Use:
+1. Intended use(s):
+The CoaguChek® XS Pro System is intended for use by professional healthcare
+providers for quantitative prothrombin time testing for the monitoring of warfarin
+therapy. The CoaguChek® XS System uses fresh capillary or non-anticoagulated venous
+whole blood.
+2. Indication(s) for use:
+Same as Intended Use
+3. Special conditions for use statement(s):
+Prescription Use
+4. Special instrument requirements:
+CoaguChek XS Pro
+I. Device Description:
+The CoaguChek® XS Pro is a portable coagulation monitoring system to monitor
+prothrombin time (PT) in patients receiving oral anticoagulant therapy. The system uses
+the amperometric detection of thrombin in the blood sample. A test strip is used to
+determine a PT value from 8µL of whole blood. The system features onboard quality
+control on every test strip as well as optional external quality control material.
+The system is composed of a Handheld Basic Module (HBM) which provides the power
+management of the AC adapter or rechargeable batteries and houses all the data
+1
+
+--- Page 2 ---
+management features; the Measurement Module (MM) which converts raw signals from
+test strip into final PT result; and an embedded Barcode Reader (BR) when enables
+automatic strip lot identification.
+The test strip incorporates quality control material that assesses strip integrity. The
+system also features a QC lockout feature which prevents the operator from performing a
+test if the QC results fail.
+The CoaguChek® XS Plus automatically stores up to 1000 test results with date, time,
+patient ID, and operator ID, along with 500 QC results.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+Roche Diagnostics CoaguChek XS Plus System
+2. Predicate 510(k) number(s):
+k071041
+3. Comparison with predicate:
+Similarities
+Item Device Predicate
+Intended Use The CoaguChek® XS Pro System is Same
+intended for use by professional
+healthcare providers for quantitative
+prothrombin time testing for the
+monitoring of warfarin therapy. The
+CoaguChek® XS System uses fresh
+capillary or non-anticoagulated venous
+whole blood.
+Measuring Range 0.8 - 8.0 INR Same
+Components Includes handheld basic module (power Same
+unit), measurement module (converts raw
+signal to final PT result), bar code reader
+(automatically ID strip lot
+Reagent Human recombinant thromboplastin Same
+Quality Control Lot specific target values provided on QC Same
+code chip/QC Lockout feature
+Differences
+Item Device Predicate
+Hardware Embedded bar code reader External bar code
+reader
+Minimum sample 8 µl 10 µl
+volume
+Language 12 languages can be selected Not available
+Operating Temperature 15- 32ºC 18 – 32ºC
+Blood application time 120 seconds 180 seconds
+Memory 1000 INR results, 500 QC results 500 INR results/ 500
+QC results
+2
+
+[Table 1 on page 2]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			The CoaguChek® XS Pro System is
+intended for use by professional
+healthcare providers for quantitative
+prothrombin time testing for the
+monitoring of warfarin therapy. The
+CoaguChek® XS System uses fresh
+capillary or non-anticoagulated venous
+whole blood.			Same		
+Measuring Range			0.8 - 8.0 INR			Same		
+Components			Includes handheld basic module (power
+unit), measurement module (converts raw
+signal to final PT result), bar code reader
+(automatically ID strip lot			Same		
+Reagent			Human recombinant thromboplastin			Same		
+Quality Control			Lot specific target values provided on QC
+code chip/QC Lockout feature			Same		
+
+[Table 2 on page 2]
+Differences								
+	Item			Device			Predicate	
+Hardware			Embedded bar code reader			External bar code
+reader		
+Minimum sample
+volume			8 µl			10 µl		
+Language			12 languages can be selected			Not available		
+Operating Temperature			15- 32ºC			18 – 32ºC		
+Blood application time			120 seconds			180 seconds		
+Memory			1000 INR results, 500 QC results			500 INR results/ 500
+QC results		
+
+--- Page 3 ---
+K. Standard/Guidance Document referenced (if applicable):
+EN ISO 14971:2007: Application of risk management to medical devices
+EN ISO 13485:2003: Medical Devices Quality Management Systems
+L. Test Principle:
+The reactive components of the lyophilized reagent consist of thromboplastin and a peptide
+substrate. When a blood sample is applied to the test strip, thromboplastin activates the
+coagulation cascade which leads to the formation of thrombin. At the same time, the meter
+starts to measure the time. Thrombin cleaves the peptide substrate creating an
+electrochemically active peptide, which generates an electrical signal. The signal is
+converted by means of an algorithm to an INR value and displayed by the CoaguChek XS
+Pro System.
+The on-board quality control is a bi-level control that accesses test strip integrity. The PT
+test and QC testing are performed simultaneously. The test system determines whether the
+quality control is within preset limits. If it is, the meter displays a short term “QC(cid:51)”, and
+then the PT test result. If the QC is not within limits, the meter displays “error QC”, and no
+PT test result will be displayed.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Intra/inter assay precision was demonstrated by testing 120 CoaguChek XS Pro
+meters against 6 CoaguChek XS Plus Reference meters. Controls and normal blood
+samples were used for the assessment.
+Results demonstrated <2% CV and <2% bias for the Control samples, and <3% CV
+and <2% bias for the blood samples.
+Acceptance criteria were as follows:
+Controls:
+Meter imprecision (meter to meter) <15%
+Bias to mean Reference meter <±3.0%
+Percentage of meters within specified range (mean±2 >95% all meters
+SD)
+System imprecision (CV within one meter) <4.5%
+Blood:
+Meter imprecision (meter to meter) not applicable
+Bias to mean Reference meter <±3.0%
+Percentage of meters within specified range (mean±2 SD) Not applicable
+System imprecision (CV within one meter) <4.5%
+For both sample types:
+Overall error rate <4%
+Acceptance criteria were met for all blood and control samples
+3
+
+[Table 1 on page 3]
+Meter imprecision (meter to meter)	<15%
+Bias to mean Reference meter	<±3.0%
+Percentage of meters within specified range (mean±2
+SD)	>95% all meters
+System imprecision (CV within one meter)	<4.5%
+
+[Table 2 on page 3]
+Meter imprecision (meter to meter)	not applicable
+Bias to mean Reference meter	<±3.0%
+Percentage of meters within specified range (mean±2 SD)	Not applicable
+System imprecision (CV within one meter)	<4.5%
+
+[Table 3 on page 3]
+Overall error rate	<4%
+
+--- Page 4 ---
+b. Linearity/assay reportable range:
+Not applicable
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+The CoaguChek XS Test strips are calibrated to a master reagent lot which has in turn
+been calibrated to a WHO International Reference Preparations (rTF/95) using the
+manual tilt tube method.
+d. Detection limit:
+Not applicable
+e. Analytical specificity:
+Reviewed under k060978 (original CoaguChek XS submission)
+Testing demonstrated no interference with unfractionated heparin up to 2 u/mL from
+normal donors, and up to 0.8 u/mL for warfarin patients. Acceptance criteria was
+<10% difference when compared to the unspiked sample.
+Tinzaparin and Enoxaparin (LMW H’s) showed no interference up to 2 IU anti-Xa
+activity/ml for both normal donors and warfarin patients. Acceptance criteria was
+<10% difference when compared to the unspiked sample.
+Testing was performed to demonstrate the interference of bilirubin, lipemia, and
+hemolysis. Results showed no interference from bilirubin up to 30 mg/dL, lipemia up
+to 500 mg/dL, and hemolysis up to 1000 mg/dL. Acceptance criteria was <10%
+difference when compared to the unspiked sample.
+f. Assay cut-off:
+Not applicable
+2. Comparison studies:
+a. Method comparison with predicate device:
+The CoaguChek XS was originally cleared under k060978. Analytical parameters
+were reviewed along with a three site comparison study that compared venous
+(n=710) and capillary (n=700) specimens to a laboratory reference method.
+The CoaguChek XS Plus, which attached an external bar code reader to the XS, was
+cleared under k071041. There was no change in the analytical performance with the
+XS Plus. The submission included a three site comparison study that compared
+venous (n = 811, y = 1.090X – 0.2, r = 0.974) and capillary (n = 822, y = 1.075X –
+0.1, r = 0.972) specimens to a laboratory reference method.
+This submission, k093460, embeds the bar code reader that was cleared under
+k071041. Analytical performance has not changed. To demonstrate comparison to
+the predicate, an internal study that tested twenty four CoaguChek XS Pro meters
+against 24 CoaguChek XS Plus meters was submitted. The testing pool consisted of
+five hematocrit variations (0%, 25%, 35%, 45%, 55%) prepared from 8 donors (2
+normal, 6 anticoagulated) and tested on 3 different test strip lots (eight instruments
+per lot), for a n of 1,037 (8 samples x 5 preps x 3 lots x 8 instruments + 57 additional
+patient samples). Regression analysis was calculated for all 8 samples, on 3 test strip
+lots for HCT, clotting time (sec), clotting time (INR), and the electrical resistance in
+the AC (alternating current) measuring mode (termed Admittance by the Sponsor),
+that demonstrated acceptable correlation. The acceptance criteria however, were set
+as:
+4
+
+--- Page 5 ---
+Specified hematocrit range 25 – 55 %
+Mean INR bias ≤3%
+INR System imprecision (CV w/in one meter and one test strip lot) <4.5%
+Error rate <4.0%
+All acceptance criteria were met for all blood samples.
+b. Matrix comparison:
+Not applicable
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable
+b. Clinical specificity:
+Not applicable
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+Reviewed under k060978
+N. Instrument Name:
+CoaguChek XS Pro System
+O. System Descriptions:
+1. Modes of Operation:
+Manual; Closed system
+2. Software:
+Software Development for the CoaguChek XS Plus System was previously reviewed in
+k060978 and k071041
+Yes __(cid:51)____ or No ________
+3. Specimen Identification:
+Date and time of testing is recorded by the CoaguChek XS Pro meter
+4. Specimen Sampling and Handling:
+Whole blood is manually applied to the target area of the test strip either from the top or
+side of the strip.
+5. Calibration:
+The CoaguChek XS Test strips are calibrated to a master reagent lot which has in turn
+been calibrated to a WHO International Reference Preparations (rTF/95) using the
+manual tilt tube method.
+6. Quality Control:
+The CoaguChek XS System incorporates a bi-level on-board quality control (OBC)
+within the CoaguChek XS test strip that monitors test strip integrity.
+Level 1 OBC detects strip defects such as reagent defects, capillary compression and
+electrode defects. Level 2 OBC directly measures strip damage due to such things as
+exposure to increased humidity, light, and temperature.
+The pre-determined OBC ranges are programmed into the lot specific code chip that is
+packaged with the matching test strip lot.
+Acceptable data was presented validating the OBC in k60978.
+5
+
+[Table 1 on page 5]
+Specified hematocrit range	25 – 55 %
+Mean INR bias	≤3%
+INR System imprecision (CV w/in one meter and one test strip lot)	<4.5%
+Error rate	<4.0%
+
+--- Page 6 ---
+P. Other Supportive Instrument Performance Characteristics Data Not Covered In the
+“Performance Characteristics” Section above:
+Q. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+R. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision
+6

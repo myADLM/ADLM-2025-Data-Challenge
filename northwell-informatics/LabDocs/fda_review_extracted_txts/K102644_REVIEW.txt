@@ -1,0 +1,854 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k102644
+B. Purpose for Submission:
+Replacement of the Analytical Module (AM) CPU board utilized in the ADVIA
+2120/2120i Hematology Analyzers
+C. Manufacturer and Instrument Name:
+Siemens Healthcare Diagnostics Inc.; ADVIA® 2120 Hematology Auto analyzer and
+2120i Hematology Auto analyzer with Auto slide
+D. Type of Test or Tests Performed:
+Quantitative test for WBC, RBC, Hgb, CN-Free Hgb, Calculated Hgb, MCV, Hct,
+MCH, MCHC, CHCM, RDW, HDW, Plt, MPV, Neut (%/#), Lymph (%/#), Mono
+(%/#), Eos (%/#), Baso (%/#), LUC (%/#), NRBC (%/#), Reticulocyte [Retic (%/#),
+MCVg, MCVr, CHCMg, CHCMr, CHg, CHr], CSF [WBC, RBC, Neut (%/#),
+Lymph (%/#), Mono (%/#), MN (%/#), PMN (%/#)], and Body Fluid [TNC, RBC]
+parameters.
+E. System Descriptions:
+1. Device Description:
+The ADVIA 2120/210i Hematology Systems with Auto Slide are an integrated
+option of hematology analyzers with complete blood cell count, leukocyte
+differential cell count, reticulocyte analysis capability, nucleated red blood cell
+count, quantitative determination of blood cells in Cerebrospinal Fluid (CSF),
+enumeration of the total nucleated cell (TNC) count and RBC count for pleural,
+peritoneal, and peritoneal dialysis (PD) specimens and a slide stainer designed to
+provide reflexive slide making/staining without user intervention based upon pre-
+selected, user-definable criteria.
+The ADVIA 2120/210i Hematology systems with Auto slide consists of the
+following: an analytical module that aspirates, dilutes, and analyzes whole blood
+samples; an auto sampler that automatically mixes, identifies, and presents the
+samples for processing; a computer workstation that controls the instrument,
+provides primary user interface with the instrument and manages the data
+produced by the instrument; a printer that optionally generates reports based on
+the instrument results and an auto slide module that prepares a wedge smear from
+a drop of blood, places it on a microscope slide and stains the slide in accordance
+with Wright, Wright-Giemsa and May-Grunwald Giemsa Staining techniques.
+2. Principles of Operation:
+Refer to individual 510(k) clearances below:
+k930148 (H*3 Reticulocyte measurands: Retic, MCVg, MCVr, CHCMg,
+CHCMr, CHg, CHr)
+k954954 (Reticulocyte measurands: Retic, MCVg, MCVr, CHCMg, CHCMr,
+CHg, CHr)
+k971998 (ADVIA 120 measurands except NRBC, body fluids and CSF)
+k003796 (ADVIA 120 CSF measurands: CSF WBC, Neut, Lymph, Mono, MN,
+PMN)
+1
+
+--- Page 2 ---
+k012904 (ADVIA 120 CN-free Hgb measurand)
+k022668 (ADVIA 120 Calculated Hgb measurand)
+k022331 (ADVIA 120 revised measurands: CSF WBC, Neut, Lymph, Mono MN,
+PMN)
+k042251 (ADVIA 2120 measurands except NRBC and body fluids)
+k051693 (ADVIA 2120 with Auto slide, NRBC, all measurands except body
+fluids)
+k090346 (ADVIA 2120/2120i Body fluids Application measurands: RBC, TNC)
+3. Modes of Operation:
+Refer to individual 510(k) clearances in item 2 above.
+4. Specimen Identification:
+Refer to individual 510(k) clearances in item 2 above.
+5. Specimen Sampling and Handling:
+Refer to individual 510(k) clearances in item 2 above.
+6. Calibration:
+Refer to individual 510(k) clearances in item 2 above.
+7. Quality Control:
+Refer to individual 510(k) clearances in item 2 above.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes___X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 § CFR 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+3 Product code:
+GKZ, Counter, differential cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The ADVIA 2120 and ADVIA 2120i with autoslide are quantitative, automated
+hematology analyzers that provide:
+· A complete blood count (CBC) consisting of WBC, RBC, Hgb, CN-Free Hgb,
+Calculated Hgb, MCV, Hct, MCH, MCHC, CHCM, RDW, HDW, CH, Plt,
+MPV.
+· A leukocyte differential count consisting of Neut (%/#), Lymph (%/#), Mono
+(%/#), Eos (%/#), Baso (%/#), LUC (%/#).
+· A reticulocyte analysis consisting of Retic (%/#), MCVg, MCVr, CHCMg,
+CHCMr, CHg, CHr.
+· A nucleated red blood cell count consisting of NRBC (%/#).
+· Enumeration of the total nucleated cell (TNC) count and RBC count for
+pleural, peritoneal, and peritoneal dialysis (PD) specimens.
+Note: Above measurands are determined (in whole blood, pleural, peritoneal,
+2
+
+--- Page 3 ---
+or peritoneal dialysis specimens with K2 and/or K3 EDTA anti-coagulants).
+· Quantitative determination of blood cells in Cerebrospinal Fluid (CSF)
+consisting of WBC, RBC, Neut (%/#), Lymph (%/#), Mono (%/#), MN (%/#),
+PMN (%/#).
+In addition, the system provides the added capability to automatically prepare and
+stain high quality blood smears on a microscope slide.
+2. Special Conditions for Use Statement(s):
+For prescription use only.
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+ADVIA 2120 Hematology Auto analyzer with current CPU board; k042251
+2. Comparison with Predicate Device:
+Similarities
+Item ADVIA 2120 and 2120i with current 386ex CPU ADVIA 2120/2120i with
+ARM9 CPU
+Parameters CBC Results WBC, RBC, HGB, HCT, Same
+MCV, MCH, MCHC,
+CHCM, RDW, HDW, CH,
+PLT
+Differential Results NEUT, LYMPH, MONO,
+EOS, BASO, LUC, NRBC
+(% and absolute)
+Platelet Results PLT, MPV
+Reticulocyte Results %RETIC, #RETIC, MCVr,
+CHCMr, CHr, MCVg,
+MCVr, CHCMg, CHg
+CSF Results CSF RBC, CSF WBC, CSF
+MN, CSF PMN, CSF
+NEUT, CSF LYMPH, CSF
+MONO
+BF Results TNC, RBC
+Morphology Results WBC: Left Shift, Atypical Lymph, Same
+Blasts, Immature
+Granulocytes,
+Myeloperoxidase
+Deficiency
+RBC and PLT: NRBC, ANISO, MICRO,
+MACRO, HC VAR, HYPO,
+HYPER, RBC Fragments,
+RBC Ghosts, Platelet
+Clumps, Large Platelets
+User Interface personal · Intel based processor Same
+computer · Windows 2000
+· Floppy drive
+· Network card
+· Modem
+User Interface external · Keyboard Same
+peripherals · Mouse
+· Hand-held barcode scanner
+· Printer
+3
+
+[Table 1 on page 3]
+Similarities								
+	Item			ADVIA 2120 and 2120i with current 386ex CPU			ADVIA 2120/2120i with	
+							ARM9 CPU	
+Parameters			CBC Results WBC, RBC, HGB, HCT,
+MCV, MCH, MCHC,
+CHCM, RDW, HDW, CH,
+PLT
+Differential Results NEUT, LYMPH, MONO,
+EOS, BASO, LUC, NRBC
+(% and absolute)
+Platelet Results PLT, MPV
+Reticulocyte Results %RETIC, #RETIC, MCVr,
+CHCMr, CHr, MCVg,
+MCVr, CHCMg, CHg
+CSF Results CSF RBC, CSF WBC, CSF
+MN, CSF PMN, CSF
+NEUT, CSF LYMPH, CSF
+MONO
+BF Results TNC, RBC			Same		
+Morphology Results			WBC: Left Shift, Atypical Lymph,
+Blasts, Immature
+Granulocytes,
+Myeloperoxidase
+Deficiency
+RBC and PLT: NRBC, ANISO, MICRO,
+MACRO, HC VAR, HYPO,
+HYPER, RBC Fragments,
+RBC Ghosts, Platelet
+Clumps, Large Platelets			Same		
+User Interface personal
+computer			· Intel based processor
+· Windows 2000
+· Floppy drive
+· Network card
+· Modem			Same		
+User Interface external
+peripherals			· Keyboard
+· Mouse
+· Hand-held barcode scanner
+· Printer			Same		
+
+--- Page 4 ---
+Similarities
+Item ADVIA 2120 and 2120i with current 386ex CPU ADVIA 2120/2120i with
+ARM9 CPU
+Electrical Power Voltage selectable for single-phase: 100 Vac (6 Same
+Amps) - 240 Vac (3 Amps)
+Frequency: 50/60Hz
+Temperature Operating: 18°C to 32°C Same
+Storage:-29°C to 60°C
+Relative Humidity Operating: 15%-80% (noncondensing) Same
+Sample Mode Automatic Closed-Tube: 175µL Same
+Volumes Manual Closed-Tube: 175µL
+Manual Open-Tube: 175µL
+Test Selectivity/ CBC 120 samples/hr Same
+Throughput CBC/Diff 120 samples/hr
+CBC/Diff/Retic 74 samples/hr
+CBC/Retic 74 samples/hr
+Retic 74 samples/hr
+With Autoslide slide making enabled:
+CBC 108 samples/hr
+CBC/Diff 108 samples/hr
+Sample Capacity 150 samples Same
+15 racks of 10 tubes
+Barcode reader Reads up to 14 digits Same
+Automatic label code discrimination
+Compatible barcode types:
+1. Codabar
+2. Interleaved 2 of 5
+3. Code 39
+4. Code 128
+5. EAN and JAN (8 and 13)
+Data Management · TDC version 9 or higher Same
+· Database storage capacity of 10,000 records,
+including graphics
+· Review and edit capability
+o User-defined windows
+o User-defined reports
+o User-defined ranges based on age and sex for
+Normal, Rerun, Panic, and Delta Check
+criteria
+· Bi-directional and host query communication
+protocols
+· Quality control
+o 3D bar graph
+o Levey-Jennings plot
+o SDI graph
+o Table format
+· Remote QC
+· ILQC programs
+· Patient moving average
+· User assistance
+o Context sensitive help
+o Operator’s guide
+o Procedure wizards
+o Problem solving diagnostics
+o Remote diagnostics
+4
+
+[Table 1 on page 4]
+Similarities								
+	Item			ADVIA 2120 and 2120i with current 386ex CPU			ADVIA 2120/2120i with	
+							ARM9 CPU	
+Electrical Power			Voltage selectable for single-phase: 100 Vac (6
+Amps) - 240 Vac (3 Amps)
+Frequency: 50/60Hz			Same		
+Temperature			Operating: 18°C to 32°C
+Storage:-29°C to 60°C			Same		
+Relative Humidity			Operating: 15%-80% (noncondensing)			Same		
+Sample Mode
+Volumes			Automatic Closed-Tube: 175µL
+Manual Closed-Tube: 175µL
+Manual Open-Tube: 175µL			Same		
+Test Selectivity/
+Throughput			CBC 120 samples/hr
+CBC/Diff 120 samples/hr
+CBC/Diff/Retic 74 samples/hr
+CBC/Retic 74 samples/hr
+Retic 74 samples/hr
+With Autoslide slide making enabled:
+CBC 108 samples/hr
+CBC/Diff 108 samples/hr			Same		
+Sample Capacity			150 samples
+15 racks of 10 tubes			Same		
+Barcode reader			Reads up to 14 digits
+Automatic label code discrimination
+Compatible barcode types:
+1. Codabar
+2. Interleaved 2 of 5
+3. Code 39
+4. Code 128
+5. EAN and JAN (8 and 13)			Same		
+Data Management			· TDC version 9 or higher
+· Database storage capacity of 10,000 records,
+including graphics
+· Review and edit capability
+o User-defined windows
+o User-defined reports
+o User-defined ranges based on age and sex for
+Normal, Rerun, Panic, and Delta Check
+criteria
+· Bi-directional and host query communication
+protocols
+· Quality control
+o 3D bar graph
+o Levey-Jennings plot
+o SDI graph
+o Table format
+· Remote QC
+· ILQC programs
+· Patient moving average
+· User assistance
+o Context sensitive help
+o Operator’s guide
+o Procedure wizards
+o Problem solving diagnostics
+o Remote diagnostics			Same		
+
+--- Page 5 ---
+Similarities
+Item ADVIA 2120 and 2120i with current 386ex CPU ADVIA 2120/2120i with
+ARM9 CPU
+Reagents · CBC TIMEPAC Same
+o Baso
+o HGB
+o RBC/PLT
+o Defoamer
+· CN-Free CBC TIMEPAC
+o Baso
+o CN-Free HGB
+o RBC/PLT
+o Defoamer
+· DIFF TIMEPAC
+o Perox 1
+o Perox 2
+o Perox 3
+o Perox Sheath
+· autoRetic
+· EZ KLEEN
+· Sheath/Rinse
+· CSF
+Calibrators · ADVIA OPTIpoint Same
+· ADVIA SETpoint
+Controls · ADVIA TESTpoint Low Same
+· ADVIA TESTpoint Normal
+· ADVIA TESTpoint High
+· ADVIA TESTpoint Retic Low
+· ADVIA TESTpoint Retic High
+· ADVIA TESTpoint 3-in-1 Abnormal1
+· ADVIA TESTpoint 3-in-1 Normal
+· ADVIA TESTpoint 3-in-1 Abnormal2
+Differences
+Item ADVIA 2120 and 2120i with current 386ex ADVIA 2120/2120i with
+CPU ARM9 CPU
+Real-time Control Intel 386ex CPU running Nucleus OS ARM9 CPU running
+Nucleus OS
+User Interface software ADVIA 2120/2120i user interface software (v5.8) ADVIA 2120/2120i user
+interface software (v6.0)
+Communication BNC Ethernet cable (10Base-2) RJ-45 Ethernet Cable
+Interface (100Base-TX)
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI EP9-A2, Method Comparison and Bias Estimation Using Patient Samples;
+Approved Guideline-Second Edition
+CLSI EP6-A, Evaluation of the Linearity of Quantitative Measurement Procedures: A
+Statistical Approach; Approved Guideline
+CLSI H26-A2, Validation, Verification, and Quality Assurance of Automated
+Hematology Analyzers; Proposed Standard-Second Edition
+J. Performance Characteristics:
+1. Analytical Performance:
+5
+
+[Table 1 on page 5]
+Similarities						
+	Item	ADVIA 2120 and 2120i with current 386ex CPU			ADVIA 2120/2120i with	
+					ARM9 CPU	
+Reagents		· CBC TIMEPAC
+o Baso
+o HGB
+o RBC/PLT
+o Defoamer
+· CN-Free CBC TIMEPAC
+o Baso
+o CN-Free HGB
+o RBC/PLT
+o Defoamer
+· DIFF TIMEPAC
+o Perox 1
+o Perox 2
+o Perox 3
+o Perox Sheath
+· autoRetic
+· EZ KLEEN
+· Sheath/Rinse
+· CSF		Same		
+Calibrators		· ADVIA OPTIpoint
+· ADVIA SETpoint		Same		
+Controls		· ADVIA TESTpoint Low
+· ADVIA TESTpoint Normal
+· ADVIA TESTpoint High
+· ADVIA TESTpoint Retic Low
+· ADVIA TESTpoint Retic High
+· ADVIA TESTpoint 3-in-1 Abnormal1
+· ADVIA TESTpoint 3-in-1 Normal
+· ADVIA TESTpoint 3-in-1 Abnormal2		Same		
+
+[Table 2 on page 5]
+Differences						
+	Item	ADVIA 2120 and 2120i with current 386ex
+CPU			ADVIA 2120/2120i with	
+					ARM9 CPU	
+Real-time Control		Intel 386ex CPU running Nucleus OS		ARM9 CPU running
+Nucleus OS		
+User Interface software		ADVIA 2120/2120i user interface software (v5.8)		ADVIA 2120/2120i user
+interface software (v6.0)		
+Communication
+Interface		BNC Ethernet cable (10Base-2)		RJ-45 Ethernet Cable
+(100Base-TX)		
+
+--- Page 6 ---
+a. Accuracy:
+Testing was performed in three hardware/software configurations as follows:
+Configuration 1 Configuration 2 Configuration 3
+System software V5.8 System software V6.0 System software V6.0
+386ex CPU board (P/N: 067-1452-01) ARM 9 CPU board, Cycle 2 (P/N: 067-B794-01)
+CPU Cover/Shield (P/N: 067-1448-01) CPU Cover/Shield (P/N: 067-1627-01)
+BNC Cable (P/N: 067-B391-02) RJ45 Ethernet Cable (P/N: 664-1516-01)
+Configuration 1 is the current hardware/software configuration. Configuration
+2 is the current hardware configuration, but uses a software version that can
+support both hardware configurations. Configuration 3 has both the new
+hardware and new software configuration.
+Testing was performed on 219 whole blood samples, 20 body fluid samples,
+80 NRBC samples, and 52 CSF samples. All samples were assayed on an
+ADVIA 2120i in all three configurations. Samples were run duplicate, but
+only the first replicate was used for the analysis. The results of the regression
+analysis comparing all three configurations show equivalence in analytical
+performance, meeting bias specifications set by the sponsor.
+Configuration 1 versus Configuration 2
+CBC/Diff Average Average Observed Bias
+Parameter r Slope Intercept Syx X Y Bias Specs
+WBC 0.999 1.03 -0.27 0.5 11.45 11.54 0.09 ±0.15
+RBC 0.998 1.00 0.01 0.05 3.28 3.29 0.01 ±0.05
+Hgb 0.997 0.98 0.1 0.1 9.2 9.2 0.0 ±0.1
+MCV 0.998 0.99 0.9 0.6 91.1 91.0 -0.1 ±1.0
+CHCM 0.995 0.99 0.4 0.2 32.8 32.9 0.1 ±0.5
+RDW 0.999 1.00 0.0 0.1 16.9 16.9 0.0 ±1.0
+HDW 0.999 0.99 0.04 0.03 3.23 3.25 0.02 ±0.2
+Plt 0.998 0.98 3 14 236 234 -2 ±6
+MPV 0.890 0.84 1.8 0.8 10.5 10.7 0.2 ±0.5
+%Neut 0.995 0.99 0.8 2.5 61.4 61.3 -0.1 ±0.5
+%Lymph 0.991 0.98 0.7 2.6 22.1 22.3 0.2 ±0.5
+%Mono 0.989 0.98 0.1 1.1 8.0 7.9 -0.1 ±1.5
+%Eos 0.944 0.99 0.1 0.7 1.9 1.9 0.0 ±0.2
+%Baso 0.969 1.00 0.0 0.4 0.7 0.7 0.0 ±0.2
+%LUC 0.985 0.98 0.0 1.7 6.2 6.0 -0.2 ±0.5
+%Retic 0.992 0.99 0.02 0.31 2.2 2.2 0.0 ±0.5
+CHr 0.989 0.98 0.4 0.6 32.7 32.5 -0.2 ±0.5
+%NRBC 0.819 0.75 1.1 2.0 5.2 5.0 -0.2 ±0.5
+Body Fluid Average Average Observed Bias
+Parameter r Slope Intercept Syx X Y Bias Specs
+TNC 0.998 1.03 -2.7 25.4 299 304 5 ±10
+RBC 0.99997 1.01 0.1 0.8 29 29 0 ±10
+CSF Average Average Observed Bias
+Parameter r Slope Intercept Syx X Y Bias Specs
+6
+
+[Table 1 on page 6]
+Configuration 1	Configuration 2	Configuration 3
+System software V5.8	System software V6.0	System software V6.0
+386ex CPU board (P/N: 067-1452-01)		ARM 9 CPU board, Cycle 2 (P/N: 067-B794-01)
+CPU Cover/Shield (P/N: 067-1448-01)		CPU Cover/Shield (P/N: 067-1627-01)
+BNC Cable (P/N: 067-B391-02)		RJ45 Ethernet Cable (P/N: 664-1516-01)
+
+[Table 2 on page 6]
+CBC/Diff
+Parameter	r	Slope	Intercept	Syx	Average
+X	Average
+Y	Observed
+Bias	Bias
+Specs
+WBC	0.999	1.03	-0.27	0.5	11.45	11.54	0.09	±0.15
+RBC	0.998	1.00	0.01	0.05	3.28	3.29	0.01	±0.05
+Hgb	0.997	0.98	0.1	0.1	9.2	9.2	0.0	±0.1
+MCV	0.998	0.99	0.9	0.6	91.1	91.0	-0.1	±1.0
+CHCM	0.995	0.99	0.4	0.2	32.8	32.9	0.1	±0.5
+RDW	0.999	1.00	0.0	0.1	16.9	16.9	0.0	±1.0
+HDW	0.999	0.99	0.04	0.03	3.23	3.25	0.02	±0.2
+Plt	0.998	0.98	3	14	236	234	-2	±6
+MPV	0.890	0.84	1.8	0.8	10.5	10.7	0.2	±0.5
+%Neut	0.995	0.99	0.8	2.5	61.4	61.3	-0.1	±0.5
+%Lymph	0.991	0.98	0.7	2.6	22.1	22.3	0.2	±0.5
+%Mono	0.989	0.98	0.1	1.1	8.0	7.9	-0.1	±1.5
+%Eos	0.944	0.99	0.1	0.7	1.9	1.9	0.0	±0.2
+%Baso	0.969	1.00	0.0	0.4	0.7	0.7	0.0	±0.2
+%LUC	0.985	0.98	0.0	1.7	6.2	6.0	-0.2	±0.5
+%Retic	0.992	0.99	0.02	0.31	2.2	2.2	0.0	±0.5
+CHr	0.989	0.98	0.4	0.6	32.7	32.5	-0.2	±0.5
+%NRBC	0.819	0.75	1.1	2.0	5.2	5.0	-0.2	±0.5
+								
+Body Fluid
+Parameter	r	Slope	Intercept	Syx	Average
+X	Average
+Y	Observed
+Bias	Bias
+Specs
+TNC	0.998	1.03	-2.7	25.4	299	304	5	±10
+RBC	0.99997	1.01	0.1	0.8	29	29	0	±10
+								
+CSF
+Parameter	r	Slope	Intercept	Syx	Average
+X	Average
+Y	Observed
+Bias	Bias
+Specs
+
+--- Page 7 ---
+CBC/Diff Average Average Observed Bias
+Parameter r Slope Intercept Syx X Y Bias Specs
+WBC 0.995 1.06 -9 33 245 251 6 ±15
+RBC 0.999 1.01 -3 23 355 357 2 ±15
+%MN 0.992 1.00 0.6 2.3 52 53 1 n/a
+%PMN 0.992 1.00 -0.7 2.3 48 47 -1 n/a
+%Neut 0.992 1.00 -0.6 2.2 47 47 0 n/a
+%Lymph 0.988 1.06 -1.3 2.5 38 39 1 n/a
+%Mono 0.826 0.71 4.0 1.9 14 14 0 n/a
+Configuration 1 versus Configuration 3
+CBC/Diff Average Average Observed Bias
+Parameter r Slope Intercept Syx X Y Bias Specs
+WBC 0.999 1.03 -0.24 0.6 11.45 11.56 0.11 ±0.15
+RBC 0.998 1.00 -0.01 0.04 3.28 3.27 -0.01 ±0.05
+Hgb 0.996 0.99 0.0 0.2 9.2 9.2 0.0 ±0.1
+MCV 0.996 0.99 0.7 0.8 91.1 90.9 -0.2 ±1.0
+CHCM 0.994 0.98 0.7 0.2 32.8 32.9 0.1 ±0.5
+RDW 0.999 1.00 0.0 0.2 16.9 16.9 0.0 ±1.0
+HDW 0.998 1.00 0.01 0.04 3.23 3.26 0.03 ±0.2
+Plt 0.997 0.99 0 18 234 234 0 ±6
+MPV 0.906 0.83 2.0 0.7 10.5 10.8 0.3 ±0.5
+%Neut 0.996 0.99 0.6 2.3 61.4 61.5 0.1 ±0.5
+%Lymph 0.991 1.00 0.1 2.7 22.1 22.2 0.1 ±0.5
+%Mono 0.987 0.98 0.0 1.2 8.0 7.8 -0.2 ±1.5
+%Eos 0.962 0.97 0.0 0.6 1.9 1.8 -0.1 ±0.2
+%Baso 0.966 0.98 0.0 0.4 0.7 0.7 0.0 ±0.2
+%LUC 0.986 0.97 0.2 1.6 6.2 6.1 -0.1 ±0.5
+%Retic 0.991 1.02 0.03 0.34 2.21 2.28 0.1 ±0.5
+CHr 0.992 0.98 0.4 0.5 32.7 32.6 -0.1 ±0.5
+%NRBC 0.814 0.78 1.0 2.1 5.2 5.0 -0.2 ±0.5
+Body Fluid Average Average Observed Bias
+Parameter r Slope Intercept Syx X Y Bias Specs
+TNC 0.996 1.03 -16 34 299 292 -7 ±10
+RBC 0.9998 1.00 0.0 2.0 29 29 0 ±10
+CSF Average Average Observed Bias
+Parameter r Slope Intercept Syx X Y Bias Specs
+WBC 0.996 1.02 -4 29 245 246 1 ±15
+RBC 0.999 0.99 3 17 355 354 -1 ±15
+%MN 0.993 1.01 0.3 2.2 52 53 1 n/a
+%PMN 0.993 1.01 -0.8 2.2 48 47 -1 n/a
+%Neut 0.993 1.01 -1.0 2.1 47 47 0 n/a
+%Lymph 0.988 0.99 0.9 2.4 38 39 1 n/a
+%Mono 0.878 0.85 2.0 1.8 14 14 0 n/a
+b. Precision/Reproducibility:
+7
+
+[Table 1 on page 7]
+CBC/Diff
+Parameter	r	Slope	Intercept	Syx	Average
+X	Average
+Y	Observed
+Bias	Bias
+Specs
+WBC	0.995	1.06	-9	33	245	251	6	±15
+RBC	0.999	1.01	-3	23	355	357	2	±15
+%MN	0.992	1.00	0.6	2.3	52	53	1	n/a
+%PMN	0.992	1.00	-0.7	2.3	48	47	-1	n/a
+%Neut	0.992	1.00	-0.6	2.2	47	47	0	n/a
+%Lymph	0.988	1.06	-1.3	2.5	38	39	1	n/a
+%Mono	0.826	0.71	4.0	1.9	14	14	0	n/a
+
+[Table 2 on page 7]
+CBC/Diff
+Parameter	r	Slope	Intercept	Syx	Average
+X	Average
+Y	Observed
+Bias	Bias
+Specs
+WBC	0.999	1.03	-0.24	0.6	11.45	11.56	0.11	±0.15
+RBC	0.998	1.00	-0.01	0.04	3.28	3.27	-0.01	±0.05
+Hgb	0.996	0.99	0.0	0.2	9.2	9.2	0.0	±0.1
+MCV	0.996	0.99	0.7	0.8	91.1	90.9	-0.2	±1.0
+CHCM	0.994	0.98	0.7	0.2	32.8	32.9	0.1	±0.5
+RDW	0.999	1.00	0.0	0.2	16.9	16.9	0.0	±1.0
+HDW	0.998	1.00	0.01	0.04	3.23	3.26	0.03	±0.2
+Plt	0.997	0.99	0	18	234	234	0	±6
+MPV	0.906	0.83	2.0	0.7	10.5	10.8	0.3	±0.5
+%Neut	0.996	0.99	0.6	2.3	61.4	61.5	0.1	±0.5
+%Lymph	0.991	1.00	0.1	2.7	22.1	22.2	0.1	±0.5
+%Mono	0.987	0.98	0.0	1.2	8.0	7.8	-0.2	±1.5
+%Eos	0.962	0.97	0.0	0.6	1.9	1.8	-0.1	±0.2
+%Baso	0.966	0.98	0.0	0.4	0.7	0.7	0.0	±0.2
+%LUC	0.986	0.97	0.2	1.6	6.2	6.1	-0.1	±0.5
+%Retic	0.991	1.02	0.03	0.34	2.21	2.28	0.1	±0.5
+CHr	0.992	0.98	0.4	0.5	32.7	32.6	-0.1	±0.5
+%NRBC	0.814	0.78	1.0	2.1	5.2	5.0	-0.2	±0.5
+								
+Body Fluid
+Parameter	r	Slope	Intercept	Syx	Average
+X	Average
+Y	Observed
+Bias	Bias
+Specs
+TNC	0.996	1.03	-16	34	299	292	-7	±10
+RBC	0.9998	1.00	0.0	2.0	29	29	0	±10
+								
+CSF
+Parameter	r	Slope	Intercept	Syx	Average
+X	Average
+Y	Observed
+Bias	Bias
+Specs
+WBC	0.996	1.02	-4	29	245	246	1	±15
+RBC	0.999	0.99	3	17	355	354	-1	±15
+%MN	0.993	1.01	0.3	2.2	52	53	1	n/a
+%PMN	0.993	1.01	-0.8	2.2	48	47	-1	n/a
+%Neut	0.993	1.01	-1.0	2.1	47	47	0	n/a
+%Lymph	0.988	0.99	0.9	2.4	38	39	1	n/a
+%Mono	0.878	0.85	2.0	1.8	14	14	0	n/a
+
+--- Page 8 ---
+Whole blood samples, simulated body fluid and CSF samples were assayed in
+20 consecutive replicates on an ADVIA 2120i in configurations 2 and 3 to
+verify that the two test configurations meet the within run precision
+specifications. The observed results pass the precision specifications if either
+the SD or the CV% specification is met.
+Whole Blood Precision
+Configuration 2 Configuration 3 Specifications
+Parameter n Mean SD % CV Mean SD % CV SD % CV
+WBC 20 4.32 0.1 2.36 4.36 0.1 2.24 0.2 2.66
+RBC 20 4.35 0.03 0.7 5.04 0.02 0.4 0.06 1.2
+Hgb 20 12.8 0.10 0.76 15.1 0.09 0.58 0.14 0.93
+MCV 20 90.1 0.2 0.19 88.9 0.2 0.25 0.7 0.78
+CHCM 20 33.5 0.04 0.1 34.7 0.06 0.2 0.25 0.8
+RDW 20 13.0 0.07 0.52 13.3 0.06 0.43 0.25 1.92
+HDW 20 2.52 0.012 0.46 2.50 0.009 0.38 0.1 3.57
+Plt 20 325 8.0 2.45 205 6.0 2.91 8.8 2.93
+%Neut 20 53.3 0.7 1.29 68.0 0.5 0.69 1.4 2.15
+%Lymph 20 26.9 0.9 3.2 15.1 0.6 4.1 1.1 4.4
+%Mono 20 8.5 0.6 6.6 9.9 0.5 5.1 0.9 15
+%Eos 20 7.6 0.4 5.4 5.0 0.4 7.5 0.5 25
+%Baso 20 0.8 0.1 16.2 0.7 0.1 10.2 0.5 50
+%LUC 20 2.9 0.3 10.8 1.2 0.2 17.2 0.5 25
+%Retic 20 1.2 0.1 7.1 0.9 0.1 6.2 0.4 20
+Body Fluid Precision
+Autosampler
+Configuration 2 Configuration 3 Specifications
+Parameter n Mean SD % CV Mean SD % CV SD % CV
+TNC 20 521 22.4 4.3 523 25.6 4.9 n/a ≤15
+RBC 20 53 1.8 3.4 52 2.0 3.7 n/a ≤10
+Manual Closed Tube Sampler
+Configuration 2 Configuration 3 Specifications
+Parameter n Mean SD % CV Mean SD % CV SD % CV
+TNC 20 517 18.8 3.6 516 22.2 4.3 n/a ≤15
+RBC 20 52 1.6 3.0 53 1.8 3.3 n/a ≤10
+8
+
+[Table 1 on page 8]
+		Configuration 2			Configuration 3			Specifications	
+Parameter	n	Mean	SD	% CV	Mean	SD	% CV	SD	% CV
+WBC	20	4.32	0.1	2.36	4.36	0.1	2.24	0.2	2.66
+RBC	20	4.35	0.03	0.7	5.04	0.02	0.4	0.06	1.2
+Hgb	20	12.8	0.10	0.76	15.1	0.09	0.58	0.14	0.93
+MCV	20	90.1	0.2	0.19	88.9	0.2	0.25	0.7	0.78
+CHCM	20	33.5	0.04	0.1	34.7	0.06	0.2	0.25	0.8
+RDW	20	13.0	0.07	0.52	13.3	0.06	0.43	0.25	1.92
+HDW	20	2.52	0.012	0.46	2.50	0.009	0.38	0.1	3.57
+Plt	20	325	8.0	2.45	205	6.0	2.91	8.8	2.93
+%Neut	20	53.3	0.7	1.29	68.0	0.5	0.69	1.4	2.15
+%Lymph	20	26.9	0.9	3.2	15.1	0.6	4.1	1.1	4.4
+%Mono	20	8.5	0.6	6.6	9.9	0.5	5.1	0.9	15
+%Eos	20	7.6	0.4	5.4	5.0	0.4	7.5	0.5	25
+%Baso	20	0.8	0.1	16.2	0.7	0.1	10.2	0.5	50
+%LUC	20	2.9	0.3	10.8	1.2	0.2	17.2	0.5	25
+%Retic	20	1.2	0.1	7.1	0.9	0.1	6.2	0.4	20
+
+[Table 2 on page 8]
+Autosampler									
+		Configuration 2			Configuration 3			Specifications	
+Parameter	n	Mean	SD	% CV	Mean	SD	% CV	SD	% CV
+TNC	20	521	22.4	4.3	523	25.6	4.9	n/a	≤15
+RBC	20	53	1.8	3.4	52	2.0	3.7	n/a	≤10
+									
+Manual Closed Tube Sampler									
+		Configuration 2			Configuration 3			Specifications	
+Parameter	n	Mean	SD	% CV	Mean	SD	% CV	SD	% CV
+TNC	20	517	18.8	3.6	516	22.2	4.3	n/a	≤15
+RBC	20	52	1.6	3.0	53	1.8	3.3	n/a	≤10
+									
+
+--- Page 9 ---
+Manual Open Tube Sampler
+Configuration 2 Configuration 3 Specifications
+Parameter n Mean SD % CV Mean SD % CV SD % CV
+TNC 20 505 23.5 4.7 460 33.9 7.4 n/a ≤15
+RBC 20 54 2.0 3.8 50 1.6 3.1 n/a ≤10
+CSF Precision
+Configuration 2 Configuration 3 Specifications
+Parameter n Mean SD % CV Mean SD % CV SD % CV
+WBC 20 88 3.8 4.3 100 3.3 3.3 ≤15 ≤15
+RBC 20 111 6.5 5.9 102 4.5 4.4 ≤15 ≤15
+%MN 20 93 5.1 5.5 94 4.2 4.5 ≤20 ≤20
+%PMN 20 91 4.4 4.8 105 5.9 5.6 ≤20 ≤20
+c. Linearity:
+Linearity was tested using commercially prepared linearity controls. Each level of the
+control was assayed 4 times in configurations 2 and 3. Linearity was tested in whole
+blood, body fluid, and CSF modes. The table below summarizes linearity results.
+Over the ranges tested, none of the results exceeded the maximum deviation
+specified.
+Parameter Analytical Configuration Configuration Specifications
+Range 2 Range tested 2 Range tested
+WBC Maximum deviation:
+(103cells/µL) 0.02 – 400 0.00 – 448.60 0.00 – 405.52 ±0.5 x 103cells/µL or 5.0%
+(whichever is greater)
+RBC Maximum deviation:
+0.0 – 7.0 0.00 – 7.67 0.00 – 7.67
+(106cells/µL) ±0.1 x 106 cells/µL
+Maximum deviation:
+Hgb
+0.0 – 22.5 0.0 – 25.0 0.0 – 24.5 ±0.2g/dL or ±2.0%
+(g/dL)
+(whichever is greater)
+Maximum deviation:
+PLT
+5 – 3500 0 – 5196 0 – 3675 ±5 or ±5.0%
+(103cells/µL)
+(whichever is greater)
+Maximum deviation:
+%Retic (%) 0.2 – 24.5 0.8 – 26.4 0.7 – 26.3
+±5.0%
+CSF WBC Low Maximum Deviation:
+0 – 50 0 – 52 0 – 52
+(cells/µL) ±5 cells/µL
+CSF RBC Low Maximum Deviation:
+0 – 50 0 – 46 0 – 51
+(cells/µL) ±5 cells/µL
+CSF RBC Maximum Deviation:
+50 – 1500 0 – 1509 0 – 1508
+High (cells/µL) ±10%
+Maximum deviation:
+Body Fluid TNC
+0.02 – 400 1 – 542 0 – 618 ±10 cells/µL or ±10.0%
+Low (cells/µL)
+(whichever is greater)
+Maximum deviation:
+Body Fluid RBC
+0.1 – 6.76 0 – 7190 0 - 7105 ±10x103cells/µL or ±10.0%
+(103cells/µL)
+(whichever is greater)
+9
+
+[Table 1 on page 9]
+Manual Open Tube Sampler									
+		Configuration 2			Configuration 3			Specifications	
+Parameter	n	Mean	SD	% CV	Mean	SD	% CV	SD	% CV
+TNC	20	505	23.5	4.7	460	33.9	7.4	n/a	≤15
+RBC	20	54	2.0	3.8	50	1.6	3.1	n/a	≤10
+
+[Table 2 on page 9]
+		Configuration 2			Configuration 3			Specifications	
+Parameter	n	Mean	SD	% CV	Mean	SD	% CV	SD	% CV
+WBC	20	88	3.8	4.3	100	3.3	3.3	≤15	≤15
+RBC	20	111	6.5	5.9	102	4.5	4.4	≤15	≤15
+%MN	20	93	5.1	5.5	94	4.2	4.5	≤20	≤20
+%PMN	20	91	4.4	4.8	105	5.9	5.6	≤20	≤20
+
+[Table 3 on page 9]
+Parameter	Analytical
+Range	Configuration
+2 Range tested	Configuration
+2 Range tested	Specifications
+WBC
+(103cells/µL)	0.02 – 400	0.00 – 448.60	0.00 – 405.52	Maximum deviation:
+±0.5 x 103cells/µL or 5.0%
+(whichever is greater)
+RBC
+(106cells/µL)	0.0 – 7.0	0.00 – 7.67	0.00 – 7.67	Maximum deviation:
+±0.1 x 106 cells/µL
+Hgb
+(g/dL)	0.0 – 22.5	0.0 – 25.0	0.0 – 24.5	Maximum deviation:
+±0.2g/dL or ±2.0%
+(whichever is greater)
+PLT
+(103cells/µL)	5 – 3500	0 – 5196	0 – 3675	Maximum deviation:
+±5 or ±5.0%
+(whichever is greater)
+%Retic (%)	0.2 – 24.5	0.8 – 26.4	0.7 – 26.3	Maximum deviation:
+±5.0%
+CSF WBC Low
+(cells/µL)	0 – 50	0 – 52	0 – 52	Maximum Deviation:
+±5 cells/µL
+CSF RBC Low
+(cells/µL)	0 – 50	0 – 46	0 – 51	Maximum Deviation:
+±5 cells/µL
+CSF RBC
+High (cells/µL)	50 – 1500	0 – 1509	0 – 1508	Maximum Deviation:
+±10%
+Body Fluid TNC
+Low (cells/µL)	0.02 – 400	1 – 542	0 – 618	Maximum deviation:
+±10 cells/µL or ±10.0%
+(whichever is greater)
+Body Fluid RBC
+(103cells/µL)	0.1 – 6.76	0 – 7190	0 - 7105	Maximum deviation:
+±10x103cells/µL or ±10.0%
+(whichever is greater)
+
+--- Page 10 ---
+d. Carryover:
+Carryover was tested for the WBC, RBC, Hgb, Plt, and retic channels of the
+system. A carryover set consisted of assaying a high pool followed by 3
+aspirations of phosphate buffered saline. The carryover procedure consisted of
+performing 10 carryover sets. Carryover was tested in configurations 2 and 3,
+and within each configuration, carryover was tested with the Autosampler
+(AS), the manual closed tube sampler (MCTS), and the manual opened tube
+sampler (MOTS). Carryover in the reticulocyte channel was calculated using
+the RTC-RBC count (i.e. the RBC count derived from the reticulocyte
+channel). The observed results for the 10 carryover sets met specifications for
+all parameters, having less than 1% carryover in both configurations.
+Average % Carryover
+Parameter / Configuration
+ACTS MCTS MOTS
+WBC – Configuration 2 0.18 0.33 0.21
+WBC – Configuration 3 0.19 0.26 0.17
+RBC – Configuration 2 0.14 0.14 0.14
+RBC – Configuration 3 0.14 0.14 0.40
+Hgb – Configuration 2 0.00 0.00 0.00
+Hgb – Configuration 3 0.00 0.00 0.00
+PLT – Configuration 2 0.23 0.25 0.22
+PLT – Configuration 3 0.82 0.83 0.83
+RTC-RBC – Configuration 2 0.14 0.15 0.21
+RTC-RBC – Configuration 3 0.14 0.14 0.24
+e. Interfering Substances:
+Refer to related 510(k) clearances in item 2 above.
+f. Background Counts:
+Refer to related 510(k) clearances in item 2 above.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Not applicable
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+10
+
+[Table 1 on page 10]
+Parameter / Configuration	Average % Carryover		
+	ACTS	MCTS	MOTS
+WBC – Configuration 2	0.18	0.33	0.21
+WBC – Configuration 3	0.19	0.26	0.17
+RBC – Configuration 2	0.14	0.14	0.14
+RBC – Configuration 3	0.14	0.14	0.40
+Hgb – Configuration 2	0.00	0.00	0.00
+Hgb – Configuration 3	0.00	0.00	0.00
+PLT – Configuration 2	0.23	0.25	0.22
+PLT – Configuration 3	0.82	0.83	0.83
+RTC-RBC – Configuration 2	0.14	0.15	0.21
+RTC-RBC – Configuration 3	0.14	0.14	0.24

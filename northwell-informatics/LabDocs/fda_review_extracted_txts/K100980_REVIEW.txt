@@ -1,0 +1,467 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k100980
+B. Purpose for Submission:
+New device
+C. Measurand:
+Factor V Leiden
+D. Type of Test:
+Qualitative genotyping test for single nucleotide polymorphism detection
+E. Applicant:
+Hologic Inc.
+F. Proprietary and Established Names:
+Invader® Factor V
+G. Regulatory Information:
+1. Regulation section:
+21 CFR §864.7280 Factor V Leiden DNA mutation detection systems
+2. Classification:
+Class II
+3. Product code:
+NPQ: Test, Factor V Leiden Mutations, Genomic DNA PCR
+4. Panel:
+81 Hematology
+H. Intended Use:
+1. Intended use(s):
+The Invader® Factor V test is an in vitro diagnostic test intended for the detection and
+genotyping of a single point mutation (G to A at position 1691) of the human Factor V
+gene in isolated genomic DNA obtained from whole blood potassium EDTA samples
+from patients with suspected thrombophilia.
+2. Indication(s) for use:
+Same as Intended use
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+Multi-well fluorometer capable of:
+Multi-Labeling Measurement Parameters Measurement 1 Measurement 2
+Read mode Top Top
+Excitation wavelength 485/20 nm 560/20 nm
+Emission wavelength 535/25 nm 612/10 nm
+Gain Manual Manual
+Number of flashes 10 10
+Integration time 20 μs 20 μs
+I. Device Description:
+The Invader® Factor V test consists of the following components:
+1
+
+--- Page 2 ---
+• Factor V Oligo Mix
+• Universal Buffer
+• Universal Enzyme Mix
+• No DNA Control
+• Factor V Wild Type Control
+• Factor V Heterozygous Control
+• Factor V Mutant Control
+• Invader® Call Reporter™ Software – Version 5.3
+• Invader® Factor V Software – Version 2.0
+J. Substantial Equivalence Information:
+1. Predicate device name(s) and 510(k) number(s):
+Roche Factor V Leiden Kit (k033607)
+2. Comparison with predicate:
+Similarities
+Item Device Predicate
+An in vitro diagnostic test intended
+for the detection and genotyping of
+a single point mutation (G to A at
+position 1691) of the human
+Intended Use Factor V gene in isolated genomic Same
+DNA obtained from whole blood
+potassium EDTA samples from
+patients with suspected
+thrombophilia.
+Target Population Patients with suspected Same
+thrombophilia
+Purified DNA isolated from
+Specimen Type Same
+human whole peripheral blood
+Target
+Amplification PCR Same
+Technology
+Signal Generation Fluorescence Resonance Energy
+Same
+Technology Transfer (FRET)
+Assay signal results are interpreted
+by a software program and are
+Output Data assigned a genotype that is Same
+presented to the end user in a
+report format
+Differences
+Item Device Predicate
+Targeted cleavage of distinct Melting curve analysis of
+Allele
+FRET cassette bound to allele- hybridizations to allele-
+Discrimination
+specific primary probe with a specific FRET probes
+2
+
+[Table 1 on page 2]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			An in vitro diagnostic test intended
+for the detection and genotyping of
+a single point mutation (G to A at
+position 1691) of the human
+Factor V gene in isolated genomic
+DNA obtained from whole blood
+potassium EDTA samples from
+patients with suspected
+thrombophilia.			Same		
+Target Population			Patients with suspected
+thrombophilia			Same		
+Specimen Type			Purified DNA isolated from
+human whole peripheral blood			Same		
+Target
+Amplification
+Technology			PCR			Same		
+Signal Generation
+Technology			Fluorescence Resonance Energy
+Transfer (FRET)			Same		
+Output Data			Assay signal results are interpreted
+by a software program and are
+assigned a genotype that is
+presented to the end user in a
+report format			Same		
+
+[Table 2 on page 2]
+Differences								
+	Item			Device			Predicate	
+Allele
+Discrimination			Targeted cleavage of distinct
+FRET cassette bound to allele-
+specific primary probe with a			Melting curve analysis of
+hybridizations to allele-
+specific FRET probes		
+
+--- Page 3 ---
+Differences
+Item Device Predicate
+unique 5'-flap
+10-20 μL reaction in glass
+Reaction 20-μL reaction in multiple plastic
+capillaries loaded in a
+Conditions microtiter wells
+sample carousel
+Real-time detection of
+End-point detection of amplified
+Signal Detection amplified sequences during
+sequences after PCR amplification
+PCR cycles
+LightCycler® Instrument
+Non-specified, third-party
+Hardware V1.2 including a cycler and
+fluorometer and thermal cycler
+a fluorimeter
+Java-based software installed on a
+standalone PC capable of LightCycler® Software
+Software Interface
+converting raw fluorescence data V3.5
+into genotype calls
+K. Standard/Guidance Document Referenced (if applicable):
+• Guidance for Industry and FDA Staff – Class II Special Controls Guidance Document:
+Factor V Leiden DNA Mutation Detection Systems issued on March 16, 2004
+• Guidance for Industry and FDA Staff - Guidance for the Content of Premarket
+Submissions for Software Contained in Medical Devices issued May 11, 2005
+• Guidance for Industry and FDA Staff – Format for Traditional and Abbreviated 510(k)s
+issued on August 12, 2005
+L. Test Principle:
+The Invader® Factor V test combines target amplification by PCR using a third-party thermal
+cycler with signal generation by the Invader Plus® chemistry and signal detection using
+interpretative software and third-party fluorometer for genotyping of a single point mutation
+(G to A at position 1691) of the human Factor V gene.
+During the signal generation phase, a discriminatory Primary Probe transiently hybridizes to
+the amplified target sequence along with an Invader® oligonucleotide, to form an overlapping
+structure. The 5'-end of the Primary Probe includes a 5'-flap that does not hybridize to the
+target DNA. The 3'-nucleotide of the bound Invader® oligonucleotide overlaps the Primary
+Probe, and does not hybridize to the target DNA. The Cleavase® enzyme recognizes this
+overlapping structure and cleaves off the unpaired 5'-flap of the Primary Probe, releasing it as
+a target-specific product. The Primary Probe is designed to have a melting temperature
+aligned with the Invader® reaction temperature so that under the isothermal reaction
+conditions (~63°C) the Primary Probes cycle on and off the target DNA. This allows for
+multiple rounds of Primary Probe cleavage for each DNA target resulting in an accumulation
+of released 5'-flaps. The released 5'-flap transiently hybridizes with a corresponding
+fluorescent resonance energy transfer (FRET) cassette forming an overlapping structure that
+is recognized and the fluorophore is cleaved from the FRET cassette by the Cleavase®
+enzyme. The 5'-flap is designed to have a melting temperature aligned with the Invader®
+reaction temperature, so that the 5'-flaps cycle on and off of the corresponding FRET
+cassettes. This allows for multiple rounds of FRET cassette cleavage for each 5'-flap, and an
+3
+
+[Table 1 on page 3]
+Differences								
+	Item			Device			Predicate	
+			unique 5'-flap					
+Reaction
+Conditions			20-μL reaction in multiple plastic
+microtiter wells			10-20 μL reaction in glass
+capillaries loaded in a
+sample carousel		
+Signal Detection			End-point detection of amplified
+sequences after PCR amplification			Real-time detection of
+amplified sequences during
+PCR cycles		
+Hardware			Non-specified, third-party
+fluorometer and thermal cycler			LightCycler® Instrument
+V1.2 including a cycler and
+a fluorimeter		
+Software Interface			Java-based software installed on a
+standalone PC capable of
+converting raw fluorescence data
+into genotype calls			LightCycler® Software
+V3.5		
+
+--- Page 4 ---
+accumulation of released fluorophore. When the FRET cassette is cleaved, a fluorophore and
+quencher are separated, generating detectable fluorescence signal.
+The Invader® Factor V test uses two different discriminatory Primary Probes, one for the
+mutant allele and one for the wild type allele. Each Primary Probe is assigned a unique 5'-
+flap, and distinct FRET cassette, with a spectrally distinct fluorophore. The released 5'-flaps
+will bind only to their respective FRET cassettes to generate a target-specific signal, linking
+the wild type allele with one fluorophore (Fluorescence 1: RED) and the mutant allele with
+the second fluorophore (Fluorescence 2: FAM).
+The Invader® Factor V software, in combination with Invader® Call Reporter™ software, is a
+data analysis software that provides a working template for the setup of reaction mixes and
+sample placement, and following the import of fluorescence data, it determines results and
+validity for controls and samples.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Repeatability/Reproducibility: Two operators each from 3 different sites (2 external
+sites and 1 internal site) performed the testing in duplicate twice daily over 5 non-
+consecutive days using the same testing materials including a panel of nine (9) whole
+blood samples, representing all possible genotypes including three (3) wild types
+(WT), three (3) heterozygous mutants (HET) and three (3) homozygous mutants
+(MUT). There were 19/540 (3.5%) first pass No Calls due to “Invalid Control” result
+on a single run. Upon retraining of the operator and retesting of the run, all controls
+reported “Valid” and all 18 samples were found to be in agreement with sequencing.
+One sample with Final No Call was called correctly upon re-extraction and re-testing.
+There were zero Miscalls, and there was no statistical difference due to Site, Operator
+or Day.
+First pass Final
+Samples %
+Site Operator Correct No- Correct
+Tested Miscalls Miscalls Agreement
+Calls Calls Calls
+Site 1 90 90 0 0 90 0 100%
+001 2 90 90 0 0 90 0 100%
+Site 1 90 90 0 0 90 0 100%
+002 2 90 90 0 0 90 0 100%
+Site 1 90 90 0 0 90 0 100%
+003 2 90 71 19 0 89 0 98.89%
+All All 540 521 19 0 539 0 99.81%
+Lot-to-Lot Reproducibility: A total of five (5) genomic DNA samples (three (3) wild
+type and two (2) heterozygous) were tested in quadruplicate using three (3) different
+kit lots of the Invader® Factor V test. The percent agreement between Invader®
+Factor V test and sequencing was 100% (n=60).
+Genomic DNA Extraction Reproducibility: Four commonly used extraction methods
+were used to process thirty (30) human whole blood samples and ten (10) leukocyte
+depleted whole blood (LDWB) spiked with cell lines with the following genotypes:
+4
+
+[Table 1 on page 4]
+			First pass			Final		
+		Samples						%
+Site	Operator		Correct	No-		Correct		
+		Tested			Miscalls		Miscalls	Agreement
+			Calls	Calls		Calls		
+								
+Site
+001	1	90	90	0	0	90	0	100%
+	2	90	90	0	0	90	0	100%
+Site
+002	1	90	90	0	0	90	0	100%
+	2	90	90	0	0	90	0	100%
+Site
+003	1	90	90	0	0	90	0	100%
+	2	90	71	19	0	89	0	98.89%
+All	All	540	521	19	0	539	0	99.81%
+
+--- Page 5 ---
+Number of Samples
+Sample Type
+WT MUT HET Total
+Human whole blood samples 20 0 10 30
+LDWB spiked with cell lines 5 5 0 10
+Total 25 5 10 40
+The 160 extracted samples were assayed in singlet in a single run using a single kit lot
+of the Invader® Factor V test. With the exception of one sample that was removed
+from the study due to loss of traceability of the sample identification, all other
+samples, regardless of extraction methods, were correctly called on the first pass and
+gave 100% agreement with DNA sequencing.
+b. Linearity/assay reportable range:
+Not applicable.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Quality Control:
+Each test contains positive and negative controls to assure proper functioning of the
+system. Failure of any controls will be indicated as “Invalid” in the test results
+section of the report. The genotyping test result will not be reported for any sample
+for which a positive or negative control failure occurs.
+Positive Control: The genotype controls (WT, HET, MUT) ensure reagents were
+assembled correctly and perform according to the specifications.
+Negative Control: The No DNA Control is used by the interpretive software to set the
+“noise” component of the run for “signal-to-noise” calculations.
+Hardware and Software Control: The genotyping test result will not be reported for
+any sample for which a positive or negative control failure occurs.
+Real-Time Stability Study
+The ongoing Stability Study tests seven (7) gDNA samples including three (3) WT,
+two (2) HET and two (2) MUT genotypes using three (3) lots of Invader® Factor V
+product stored under two recommended conditions: 1) -20°C (Standard Storage of
+intermediate components) and 2) 4°-8°C (Standard Storage of Genotype-Specific
+Controls). Functional testing is performed in quadruplicate at each time point and the
+interim test results have demonstrated 6 months stability for the device.
+T0 Result T3 Result T6 Result
+Sample/Control Genotype
+Lot 1 Lot 2 Lot 3 Lot 1 Lot 2 Lot 3 Lot 1 Lot 2 Lot 3
+Control 1 WT WT WT WT WT WT WT WT WT WT
+Control 2 HET HET HET HET HET HET HET HET HET HET
+Control 3 MUT MUT MUT MUT MUT MUT MUT MUT MUT MUT
+gDNA 1 WT WT WT WT WT WT WT WT WT WT
+gDNA 2 WT WT WT WT WT WT WT WT WT WT
+gDNA 3 HET HET HET HET HET HET HET HET HET HET
+gDNA 4 MUT MUT MUT MUT MUT MUT MUT MUT MUT MUT
+Percent Agreement 100 100 100 100 100 100 100 100 100
+Reagent Freeze-Thaw Stability Study
+Product in the final configuration was subject to 15 freeze-thaw cycles prior to the
+5
+
+[Table 1 on page 5]
+Sample Type	Number of Samples										
+	WT			MUT			HET			Total	
+Human whole blood samples	20		0			10			30		
+LDWB spiked with cell lines	5		5			0			10		
+Total	25		5			10			40		
+
+[Table 2 on page 5]
+Sample/Control		T0 Result			T3 Result			T6 Result		
+	Genotype									
+		Lot 1	Lot 2	Lot 3	Lot 1	Lot 2	Lot 3	Lot 1	Lot 2	Lot 3
+										
+Control 1	WT	WT	WT	WT	WT	WT	WT	WT	WT	WT
+Control 2	HET	HET	HET	HET	HET	HET	HET	HET	HET	HET
+Control 3	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT
+gDNA 1	WT	WT	WT	WT	WT	WT	WT	WT	WT	WT
+gDNA 2	WT	WT	WT	WT	WT	WT	WT	WT	WT	WT
+gDNA 3	HET	HET	HET	HET	HET	HET	HET	HET	HET	HET
+gDNA 4	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT	MUT
+Percent Agreement		100	100	100	100	100	100	100	100	100
+
+--- Page 6 ---
+final thaw at the time of testing. Functional testing was performed in replicates of 3-8
+using genomic DNA samples isolated from cell lines, representing all possible
+genotypes including two (2) WT, two (2) HET and two (2) MUT. Results showed
+that all samples were correctly called using Invader® Factor V test reagents that
+underwent repeated freeze-thaw cycles.
+d. Detection limit:
+Two (2) genomic DNA samples with different genotypes (i.e., one WT and the other
+HET) were extracted from whole blood collected in potassium EDTA. They were
+serially diluted and tested 40 times each at eight (8) different input amounts of (0.5, 5,
+20, 40, 80, 200, 400, 800 ng/µL). The lower and upper limits of input gDNA when
+all samples were called correctly were determined to be 5 ng/µL and 80 ng/µL,
+respectively.
+e. Analytical specificity:
+Interfering Substances
+Test performance was not affected by addition of the following substances to four (4)
+whole blood samples of different genotype (3 WT, 1 HET) prior to extraction:
+• Heparin (1500 U/dL human whole blood)
+• Cholesterol (300 mg/dL human whole blood)
+• Bilirubin (10 mg/dL human whole blood)
+• Hemoglobin (up to 0.2% in whole blood)
+• Potassium EDTA (1.8 mg/mL human whole blood)
+• Ethanol-based Wash Buffer (5% in DNA sample)
+Interfering Mutations
+The effect of interfering mutations on G1691A genotyping by the Invader® Factor V
+Test was evaluated with five (5) contrived DNA samples, including one WT sample
+with no secondary polymorphism, one HET sample and three WT samples each with
+a known secondary polymorphism (i.e., G1689A, A1692C or A1696G). Forty
+replicates for each of the five different samples were tested, and no effect of
+secondary polymorphisms was observed on G1691A genotyping by the Invader®
+Factor V Test.
+Non-Panel Mutation or
+Panel Mutation
+Polymorphism
+1692A>C
+1689G>A 1691G>A
+1696A>G
+f. Assay cut-off:
+Not applicable
+2. Comparison studies:
+a. Method comparison:
+A total of 352 gDNA samples extracted from whole blood samples were genotyped
+using the Invader® Factor V Test and DNA sequencing. All samples gave 100%
+agreement with DNA sequencing.
+Table: Comparison of Invader® Factor V Test and DNA Sequencing Results
+Geno- First Pass Results Final Results
+type[1] WT HET MUT No- Mis- % 95% WTHETMUT No- Mis- % 95%
+6
+
+[Table 1 on page 6]
+	Non-Panel Mutation or		Panel Mutation
+	Polymorphism		
+1692A>C
+1689G>A
+1696A>G			1691G>A
+
+[Table 2 on page 6]
+Geno-	First Pass Results							Final Results						
+type[1]	WT	HET	MUT	No-	Mis-	%	95%	WT	HET	MUT	No-	Mis-	%	95%
+
+--- Page 7 ---
+Call Call Agree LCB[2] Call Call Agree LCB
+-ment -ment
+WT 289 0 0 0 0 100.00 98.97 289 0 0 0 0 100.00 98.97
+HET 0 45 0 0 0 100.00 93.56 0 45 0 0 0 100.00 93.56
+MUT 0 0 18 0 0 100.00 84.67 0 0 18 0 0 100.00 84.67
+Note:
+[1]Genotype as determined with DNA sequencing;
+[2]Lower boundary of the 95% confidence interval
+b. Matrix comparison:
+Not applicable
+c. Instrument Equivalency:
+Twenty-nine (29) human whole blood samples and ten (10) leukocyte depleted whole
+blood samples spiked with cell lines were extracted using two (2) commonly used
+extraction methods. The extracts were tested with the Invader® Factor V test using
+three (3) commercially available thermal cyclers and the raw fluorescent data
+acquired on three (3) commercially available fluorometers. Results from the three (3)
+fluorometers were transferred into the interpretive software and genotype calls
+compared to bi-directional sequencing.
+Concordance by Instrument
+Thermal Cycler
+Fluorometer
+1 2 3
+A 78 of 78 = 100% 77 of 78 = 98.7% 78 of 78 = 100%
+B 78 of 78 = 100% 77 of 78 = 98.7% 78 of 78 = 100%
+C 78 of 78 = 100% 77 of 78 = 98.7% 78 of 78 = 100%
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not applicable
+b. Clinical specificity:
+Not applicable
+c. Other clinical supportive data (when a. and b. are not applicable):
+Not applicable
+4. Clinical cut-off:
+Not applicable
+5. Expected values/Reference range:
+The Factor V mutation being genotyped in the Invader® Factor V Test is present at a
+frequency of 5% in the general population.
+N. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+O. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+7
+
+[Table 1 on page 7]
+				Call	Call	Agree	LCB[2]				Call	Call	Agree	LCB
+						-ment							-ment	
+WT	289	0	0	0	0	100.00	98.97	289	0	0	0	0	100.00	98.97
+HET	0	45	0	0	0	100.00	93.56	0	45	0	0	0	100.00	93.56
+MUT	0	0	18	0	0	100.00	84.67	0	0	18	0	0	100.00	84.67
+
+[Table 2 on page 7]
+	Concordance by Instrument									
+Fluorometer			Thermal Cycler							
+			1			2			3	
+A		78 of 78 = 100%			77 of 78 = 98.7%			78 of 78 = 100%		
+B		78 of 78 = 100%			77 of 78 = 98.7%			78 of 78 = 100%		
+C		78 of 78 = 100%			77 of 78 = 98.7%			78 of 78 = 100%		

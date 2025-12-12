@@ -1,0 +1,111 @@
+Protocol for Analytical Phase: Generation of Results for IDH1,
+IDH2, and TERT Mutation Analysis, Next-Generation
+Sequencing, Tumor
+1. PURPOSE:
+This SOP outlines the procedure for the generation of results for
+IDH1, IDH2, and TERT mutation analysis using next-generation
+sequencing (NGS) from tumor samples. This protocol ensures
+accurate, reliable, and timely delivery of test results essential for
+patient diagnosis and treatment planning.
+2. RESPONSIBILITY:
+Designated laboratory personnel are responsible for adhering to this
+SOP. It is the responsibility of all laboratory staff to ensure that the
+analysis is performed according to the procedure and to notify a
+supervisor of any deviations or issues that may arise.
+3. EQUIPMENT, REAGENTS, AND SUPPLIES:
+• NGS platforms (e.g., Illumina, Ion Torrent)
+• Library preparation kits (e.g., TruSight, AmpliSeq)
+• IDH1, IDH2, and TERT specific primers/probes
+• PCR thermal cycler
+• DNA extraction kits
+• Reagents for quality control (QC) and quality assurance (QA)
+• Standard laboratory supplies (tubes, pipettors, tips, etc.)
+• Sequencing analysis software
+4. SAMPLE ACCEPTANCE CRITERIA:
+Specimen Type: Fresh or formalin-fixed, paraffin-embedded (FFPE)
+tumor tissue
+5. PROCEDURE:
+A. DNA Extraction:
+1. Preparation:
+◦ Ensure all equipment is calibrated and operational.
+◦ Prepare a clean workspace and assemble all necessary
+reagents and supplies.
+2. Extraction:
+◦ Follow the manufacturer's protocol for DNA extraction from
+tumor tissue.
+◦ Measure DNA concentration and assess purity using a
+NanoDrop or similar spectrophotometer.
+◦ Ensure yield and purity (A260/A280 ratio of 1.8-2.0 is ideal).
+B. Library Preparation:
+1. Set-up:
+◦ Preheat thermal cycler and prepare reagents according to
+the kit instructions.
+2. PCR Amplification:
+◦ Use specific primers/probes targeting IDH1, IDH2, and
+TERT genes.
+◦ Perform PCR as per kit protocol.
+◦ Ensure correct thermal cycling conditions.
+3. Library Construction:
+◦ Follow the manufacturer's protocol for library preparation.
+◦ Quantify the prepared library using a fluorometer (e.g.,
+Qubit).
+◦ Normalize library concentration as required by the
+sequencing platform.
+C. Sequencing:
+1. Loading Library:
+◦ Load the library onto the NGS platform (e.g., Illumina
+MiSeq, NextSeq).
+◦ Follow the sequencing platform manufacturer’s instruction
+for sample loading and run initiation.
+2. Sequencing Run:
+◦ Monitor the sequencing run to ensure no deviations or
+errors occur.
+◦ Ensure machine calibration and performance checks are
+completed according to manufacturer guidance.
+D. Data Analysis:
+1. Quality Control:
+◦ Assess raw sequencing data for quality metrics (e.g., Q30
+score, read depth).
+◦ Ensure the data passes initial QC checks (>80% of bases
+with a Q30 score).
+2. Alignment and Variant Calling:
+◦ Align sequences to the reference genome using appropriate
+bioinformatics tools (e.g., BWA, GATK).
+◦ Conduct variant calling to identify mutations in IDH1, IDH2,
+and TERT genes.
+3. Data Interpretation:
+◦ Use sequence analysis software to interpret mutation data.
+◦ Verify identified mutations by cross-referencing with clinical
+databases (e.g., COSMIC, ClinVar).
+4. Reporting:
+◦ Compile results into a clinical report.
+◦ Include details of identified mutations, their potential clinical
+significance, and recommendations for further validation if
+required.
+◦ Ensure results are reviewed and signed off by a qualified
+supervisor.
+6. QUALITY CONTROL AND ASSURANCE:
+• Perform routine in-run quality controls using positive and negative
+controls.
+• Participate in external proficiency testing programs.
+• Document all QC and QA measures in the laboratory information
+system (LIS).
+7. REPORTING RESULTS:
+• Ensure that all results are accurately entered into the LIS.
+• Provide a clear, concise, and clinically relevant report, formatted
+according to site-specific guidelines.
+• The report must be reviewed by a qualified pathologist, and
+results verified before release.
+8. METHOD LIMITATIONS:
+• Analysis may be affected by low sample quality or quantity.
+• NGS platforms may have inherent error rates; confirmatory testing
+(e.g., Sanger sequencing) may be necessary.
+• Tissue heterogeneity and tumor DNA purity may affect detection
+sensitivity.
+9. REFERENCES:
+• NGS platform manufacturer’s guidelines and manuals.
+• Library preparation kit inserts.
+• Clinical and genome databases for variant interpretation.
+This SOP will be reviewed annually or following any changes to the
+methodology or equipment. All personnel must be trained on this
+procedure before conducting the analysis.

@@ -1,0 +1,301 @@
+# 510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION DECISION SUMMARY
+
+A. 510(k) Number: K141757   
+B. Purpose for Submission: To obtain a substantial equivalence determination for the Alere i Strep A performed on the Alere i Analyzer for the detection of Streptococcus pyogenes (Group A Streptococcus).   
+C. Measurand: Group A Streptococcus DNA   
+D. Type of Test: Isothermal DNA amplification assay for the qualitative detection of Group A Streptococcus DNA in throat swab specimens.   
+E. Applicant: Alere Scarborough, Inc.   
+F. Proprietary and Established Names: Alere™ i Strep A   
+G. Regulatory Information: 1. Regulation section:
+
+21 CFR 866.2680 Streptococcus spp. Nucleic Acid-Based Assay   
+21 CFR 862.2570 Real Time Nucleic Acid Amplification System
+
+2. Classification: Class II
+
+3. Product code: PGX: Groups A, C and G Beta-Hemolytic Streptococcus Nucleic Acid Amplification System
+
+# OOI: Real-Time Nucleic Acid Amplification System
+
+4. Panel:
+
+83: Microbiology
+
+# H. Intended Use:
+
+1. Intended use(s):
+
+Alere i Strep A is a rapid, instrument-based, molecular in vitro diagnostic test utilizing isothermal nucleic acid amplification technology for the qualitative detection of Streptococcus pyogenes, Group A Streptococcus bacterial nucleic acid in throat swab specimens obtained from patients with signs and symptoms of pharyngitis. It is intended to aid in the rapid diagnosis of Group A Streptococcus bacterial infections.
+
+All negative test results should be confirmed by bacterial culture because negative results do not preclude infection with Group A Streptococcus and should not be used as the sole basis for treatment.
+
+2. Indication(s) for use: Same as Intended Use
+
+3. Special conditions for use statement(s): For prescription use only False-negative results may occur in the presence of assay inhibitors when levels of $S _ { \cdot }$ . pyogenes DNA are close to the limit of detection of the assay.
+
+4. Special instrument requirements: Alere™ i Instrument
+
+# I. Device Description:
+
+Alere i Strep A is a rapid, instrument-based isothermal assay for the qualitative detection of Streptococcus pyogenes (Group A Streptococcus) DNA in throat swab specimens from patients suspected of pharyngitis. The Alere i Strep A System comprises the Alere i Instrument and the following single-use disposables:
+
+Sample Receiver o Containing Elution Buffer for swab expression   
+Transfer Cartridge o For transfer of the eluted sample to the Test Base
+
+Test Base
+
+o Comprised of two sealed reaction tubes, each containing a lyophilized reagent pellet;   
+o One tube is for detection the S. pyogenes target, the other for the Internal Control
+
+The reaction tubes in the Test Base contain the reagents required for lysis of S. pyogenes, and the subsequent amplification of the target nucleic acid and an Internal Control. Alere i Strep A uses a pair of templates (similar to primers) and a strand displacing DNA polymerase to amplify the S. pyogenes target DNA and Internal Control. Detection of the amplified products occurs through hybridization of fluorescently labeled Molecular Beacon probes. Alere i Strep A is performed within the confinement of the Test Base, and no other part of the Alere i Instrument is in contact with the sample during the amplification process, thereby reducing the risk of instrument contamination and sample carry-over between measurements.
+
+To perform the assay, the Sample Receiver and Test Base are inserted into the Alere i Instrument. The sample is added to the Sample Receiver and transferred via the Transfer Cartridge to the Test Base to dissolve the lyophilized reagent pellets and conduct bacterial lysis and target amplification. Heating, mixing and fluorescent detection are performed by the instrument, and results are reported automatically.
+
+# J. Substantial Equivalence Information:
+
+1. Predicate device name(s): Lyra™ Direct Strep Assay   
+2. Predicate 510(k) number(s): K133883   
+3. Comparison with predicate:
+
+<table><tr><td colspan="3" rowspan="1">Similarities</td></tr><tr><td colspan="1" rowspan="1">Item Name</td><td colspan="1" rowspan="1">Alere i Strep A(K141757)</td><td colspan="1" rowspan="1">LyraTM Direct Strep Assay(K133883)</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">Alere i Strep A is a rapid, instrument-based, molecular in vitro diagnostictest utilizing isothermal nucleic acidamplification technology for thequalitative detection of Streptococcuspyogenes, Group A Strep bacterialnucleic acid in throat swab specimensobtained from patients with signs andsymptoms of pharyngitis. It is intendedto aid in the rapid diagnosis of Group</td><td colspan="1" rowspan="1">The Lyra Direct Strep Assay is a Real-Time PCR in vitro diagnostic test forthe qualitative detection anddifferentiation of Group A β-hemolyticStreptococcus (Streptococcuspyogenes) and pyogenic Group C andG β-hemolytic Streptococcus nucleicacids isolated from throat swabspecimens obtained from patients withsigns and symptoms of pharyngitis,</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">A Strep bacterial infections.All negative test results should beconfirmed by bacterial culture becausenegative results do not precludeinfection with Group A Streptococcusand should not be used as the solebasis for treatment.</td><td colspan="1" rowspan="1">such as sore throat. The assay does notdifferentiate between pyogenic GroupsC and G β-hemolytic Streptococcus.All negative test results should beconfirmed by bacterial culture, becausenegative results do not preclude GroupA, C or G Strep infection and shouldnot be used as the sole basis fortreatment.The assay is intended for use inhospital, reference, or state laboratorysettings. The device is not intended forpoint-of-care use.</td></tr><tr><td colspan="1" rowspan="1">Regulation</td><td colspan="1" rowspan="1">21 CFR 866.2680</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Product Code</td><td colspan="1" rowspan="1">PGX, 001</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Sample Type</td><td colspan="1" rowspan="1">Throat swab</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Internal Control</td><td colspan="1" rowspan="1">Yes</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Assay Method</td><td colspan="1" rowspan="1">Nucleic acid amplification and real-time fluorescent detection</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">ExtractionMethod</td><td colspan="1" rowspan="1">None (crude lysate)</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">DetectionTechnique</td><td colspan="1" rowspan="1">Fluorescent DNA probe</td><td colspan="1" rowspan="1">Same</td></tr><tr><td colspan="1" rowspan="1">Assay Result</td><td colspan="1" rowspan="1">Qualitative</td><td colspan="1" rowspan="1">Same</td></tr></table>
+
+<table><tr><td rowspan=1 colspan=3>Differences</td></tr><tr><td rowspan=1 colspan=1>Item Name</td><td rowspan=1 colspan=1>LiatTM Strep A Assay(K141338)</td><td rowspan=1 colspan=1>LyraTM Direct Strep Assay(K133883)</td></tr><tr><td rowspan=1 colspan=1>Analyte</td><td rowspan=1 colspan=1>Group A Streptococcus</td><td rowspan=1 colspan=1>Group A, C and G Streptococcus</td></tr><tr><td rowspan=1 colspan=1>Assay Instrument</td><td rowspan=1 colspan=1>Alere i Instrument</td><td rowspan=1 colspan=1>Applied BioSystems 7500 Fast DxReal-Time PCR Instrument</td></tr><tr><td rowspan=1 colspan=1>Cell lysis</td><td rowspan=1 colspan=1>Enzymatic</td><td rowspan=1 colspan=1>Heat</td></tr><tr><td rowspan=1 colspan=1>Internal Control</td><td rowspan=1 colspan=1>Oligonucleotide</td><td rowspan=1 colspan=1>Cellular</td></tr><tr><td rowspan=1 colspan=1>AmplificationTechnology</td><td rowspan=1 colspan=1>Isothermal</td><td rowspan=1 colspan=1>PCR</td></tr><tr><td rowspan=1 colspan=1>Time to result</td><td rowspan=1 colspan=1>Approximately 8 minutes</td><td rowspan=1 colspan=1>60-70 minutes</td></tr></table>
+
+# K. Standard/Guidance Document Referenced (if applicable):
+
+Not applicable.
+
+# L. Test Principle:
+
+Alere i Strep A uses isothermal nucleic acid amplification for qualitative detection of Streptococcus pyogenes (Group A Streptococcus) DNA from throat swab specimens from patients with signs and symptoms of pharyngitis. Alere i Strep A for use on the Alere i Instrument consists of the following components:
+
+a) Sample Receiver: containing Elution Buffer   
+b) Transfer Cartridge: for transfer of an aliquot of the eluted sample to the Test Base   
+c) Test Base: comprised of two sealed reaction tubes, each containing a lyophilized reagent pellet; one tube is for detection of the S. pyogenes target (if present), the other tube is for detection of the Internal Control.
+
+The reaction tubes in the Test Base contain the reagents required for enzymatic lysis of S. pyogenes bacteria and amplification of the target nucleic acid and Internal Control. Isothermal amplification takes place using specific templates (similar to primers) that target a conserved region of the S. pyogenes genome. The same template primers are also used to amplify the oligonucleotide Internal Control. Detection of amplified products occurs through hybridization of fluorescently labeled Molecular Beacons that are specific to the intervening regions between the template primers on the Internal Control and S. pyogenes amplicons. Result interpretation is based upon the gradient and amplitude of the fluorescence curves for the S. pyogenes and Internal Control targets in their respective optical channels and comparison to the appropriate threshold values.
+
+To perform the assay, the Sample Receiver and Test Base are inserted into the Alere i Instrument. A throat swab is then expressed in the Elution Buffer. The operator uses the Transfer Cartridge to transfer a portion of the Elution Buffer to the Test Base to dissolve the lyophilized reagent pellets and initiate cell lysis and DNA amplification. Heating, mixing and fluorescent detection are conducted automatically by the instrument. Results are displayed on the instrument screen and archived on-board together with the sample identification number and date and time of testing.
+
+# M. Performance Characteristics (if/when applicable):
+
+1. Analytical performance:
+
+# a. Precision/Reproducibility:
+
+A Reproducibility Study was conducted at three sites, with three operators per site. On each day of testing, each operator ran two replicates of the following: a true negative sample (diluent), a moderate positive sample (\~19X LOD), a low positive sample (3X LOD) and high negative sample $\left( < 0 . 0 5 \mathrm { X } \right.$ LOD), for a total of 90 data points per target level. Samples were prepared in phosphate buffered saline (PBS) from quantified stocks of S. pyogenes ATCC 19615. The specific concentrations tested are shown in Table 1. To enable use of samples prepared in PBS rather than a clinical matrix, a study was performed to demonstrate that limit of detection of the assay was similar in the presence and absence of throat swab matrix (refer to Section 2b, Matrix Comparison).
+
+Table 1. Panel Members included in the Reproducibility Study   
+
+<table><tr><td rowspan=1 colspan=1>Target Level</td><td rowspan=1 colspan=1>Multiple of LOD</td><td rowspan=1 colspan=1>GenomicCopies/swab</td><td rowspan=1 colspan=1>ApproximateCFU/swab</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>High Negative</td><td rowspan=1 colspan=1>&lt;0.05X</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>&lt;5</td></tr><tr><td rowspan=1 colspan=1>Low</td><td rowspan=1 colspan=1>3X</td><td rowspan=1 colspan=1>800</td><td rowspan=1 colspan=1>315</td></tr><tr><td rowspan=1 colspan=1>Moderate</td><td rowspan=1 colspan=1>~19X</td><td rowspan=1 colspan=1>5000</td><td rowspan=1 colspan=1>1964</td></tr></table>
+
+1 $\mathrm { L O D } = 2 6 7$ copies of genomic DNA or 105 CFU/swab
+
+Final test results for all three sites are summarized in Table 2. Over the course of the Reproducibility Study, 5 samples produced Invalid results $( 5 / 3 6 0 ; 1 . 4 \% )$ , all of which were reported as positive upon retesting. At each target level, Alere i Strep A demonstrated acceptable reproducibility.
+
+Table 2. Results from the Alere i Strep A Reproducibility Study by site and overall   
+
+<table><tr><td rowspan=3 colspan=1>Target Level</td><td rowspan=1 colspan=8>Number (%)</td></tr><tr><td rowspan=1 colspan=2>Site 1</td><td rowspan=1 colspan=2>Site 2</td><td rowspan=1 colspan=2>Site 3</td><td rowspan=1 colspan=2>Overall</td></tr><tr><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>30(100)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>30(100)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>30(100)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>90(100)</td></tr><tr><td rowspan=1 colspan=1>HighNegative</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>30(100)</td><td rowspan=1 colspan=1>4(13.3)</td><td rowspan=1 colspan=1>26(86.7)</td><td rowspan=1 colspan=1>1(3.3)</td><td rowspan=1 colspan=1>29(96.7)</td><td rowspan=1 colspan=1>5(5.6)</td><td rowspan=1 colspan=1>85(94.4)</td></tr><tr><td rowspan=1 colspan=1>LowPositive</td><td rowspan=1 colspan=1>27(90.0)</td><td rowspan=1 colspan=1>3(10.0)</td><td rowspan=1 colspan=1>28(93.3)</td><td rowspan=1 colspan=1>2(6.7)</td><td rowspan=1 colspan=1>27(90.0)</td><td rowspan=1 colspan=1>3(10.0)</td><td rowspan=1 colspan=1>82(91.1)</td><td rowspan=1 colspan=1>8(8.9)</td></tr><tr><td rowspan=1 colspan=1>ModeratePositive</td><td rowspan=1 colspan=1>30 2(100)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>30(100)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>30 2(100)</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>90(100)</td><td rowspan=1 colspan=1>0</td></tr></table>
+
+1 3 samples each gave an Invalid result on initial testing but resolved as Positive upon repeat testing 2 1 sample gave an Invalid result on initial testing but resolved as Positive upon repeat testing
+
+b. Linearity/assay reportable range: Not applicable.   
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+
+# Internal Control
+
+Alere i Strep A contains an oligonucleotide Internal Control that is designed to monitor for inhibition of amplification and reagent function. The Internal Control is lyophilized in one of the two reaction tubes in the Test Base and is amplified and detected separately from the S. pyogenes target (if present) utilizing a different optical channel of the Alere i Instrument. The Internal Control must be amplified and detected in order to report a negative assay result. For S. pyogenes positive samples in which target amplification occurs, the amplification of the Internal Control is ignored. If S. pyogenes DNA is not detected and the Internal Control fails to amplify the test result is reported as “Invalid”.
+
+# Positive and Negative Control Swabs
+
+The Alere i Strep A kit contains swabs for use as Positive and Negative Controls that must be tested once with each new shipment of reagents and once by each new operator. Additional controls may be tested as necessary to comply with Quality Control requirements. The Positive Control Swab is coated with inactivated Group A Streptococcus $3 \mathrm { ~ x ~ } 1 0 ^ { 6 }$ organisms/swab). The Negative Control Swab is coated with inactivated Group C Streptococcus ( $\mathrm { ~ l ~ x ~ } 1 0 ^ { 7 }$ organisms/swab). The high level of the Positive Control Swab is a potential source of contamination. This is noted in the device labeling.
+
+Evaluation of Control Performance The ability of the Alere i Strep A controls to monitor the performance of the assay was verified under various simulated failure modes (Table 3).
+
+Table 3. Evaluation of Alere i Strep A control performance   
+
+<table><tr><td rowspan=1 colspan=1>Control(s) Tested</td><td rowspan=1 colspan=1>Failure Mode</td><td rowspan=1 colspan=1>Test Condition</td><td rowspan=1 colspan=1>Results</td></tr><tr><td rowspan=1 colspan=1>Internal ControlPositive ControlNegative Control</td><td rowspan=1 colspan=1>Substantial reagentfailure</td><td rowspan=1 colspan=1>Removal of criticalcomponent ofamplification mixture</td><td rowspan=1 colspan=1>All conditions tested produced&quot;Invalid&quot; results, demonstratingthat the controls failedappropriately</td></tr><tr><td rowspan=1 colspan=1>Internal Control</td><td rowspan=1 colspan=1>Inhibition ofamplification</td><td rowspan=1 colspan=1>Addition of knownassay inhibitors</td><td rowspan=1 colspan=1>False-negative results wereobtained in the presence ofinhibitors and levels of S.pyogenes DNA close to the limitof detection of the assay. This isnoted as the following limitationin the Package Insert: &quot;False-negative results may occur in thepresence of assay inhibitorswhen levels of S. pyogenes DNAare close to the limit of detectionof the assay.&quot;</td></tr><tr><td rowspan=1 colspan=1>Negative Control</td><td rowspan=1 colspan=1>Contamination</td><td rowspan=1 colspan=1>Addition of low levelsof S. pyogenes DNA</td><td rowspan=1 colspan=1>For each sample, the result wasreported as positive &quot;Positive&quot;,indicating that the control failedappropriately.</td></tr></table>
+
+During the prospective Clinical Study (refer to Section 3), Positive and Negative Control Swabs were run on each Alere i instrument on each day that clinical samples were tested. The expected results were obtained from 158/163 $( 9 6 . 9 \% )$ Positive Control Swabs and 157/163 $( 9 6 . 3 \% )$ Negative Control Swabs.
+
+Reagent Stability
+
+Alere i Strep A kits should be stored at $2 { - } 3 0 ^ { \circ } \mathrm { C }$ until the expiration date shown on the outer packaging.
+
+# Sample Stability:
+
+During the Clinical Study that was conducted to validate the performance of Alere i Strep A, all the throat samples were collected using the BD BBL CultureSwab EZ II device and were tested within 1 day of collection. Those samples not tested within 2 hours of collection were held at $2 { - } 8 ^ { \circ } \mathrm { C }$ .
+
+Additional sample stability was demonstrated analytically using alternative types of collection swab that were seeded with clinical matrix either with or without S. pyogenes, and stored for different durations prior to testing. Three S. pyogenes positive $\mathrm { \Omega } \sim 3 \mathrm { X }$ LOD) and $3 \ : S .$ pyogenes negative samples were tested at each time point. All samples produced the expected results. The sample storage conditions that were validated for each swab type are summarized in Table 4.
+
+Table 4. Sample storage conditions demonstrated with alternative swab types   
+
+<table><tr><td rowspan=2 colspan=1>Collection &amp; Transport Device</td><td rowspan=1 colspan=2>Maximum Storage Time</td></tr><tr><td rowspan=1 colspan=1>2-8°C</td><td rowspan=1 colspan=1>~20 </td></tr><tr><td rowspan=1 colspan=1>Puritan Foam Swab (in sheath)</td><td rowspan=1 colspan=1>5 days</td><td rowspan=1 colspan=1>24 hours</td></tr><tr><td rowspan=1 colspan=1>BBL CultureSwab Liquid Stuart</td><td rowspan=1 colspan=1>24 hours</td><td rowspan=1 colspan=1>24 hours</td></tr><tr><td rowspan=1 colspan=1>BBL CultureSwab Liquid Amies</td><td rowspan=1 colspan=1>24 hours</td><td rowspan=1 colspan=1>24 hours</td></tr><tr><td rowspan=1 colspan=1>Eswab Liquid Amies, Flocked Swab</td><td rowspan=1 colspan=1>24 hours</td><td rowspan=1 colspan=1>24 hours</td></tr></table>
+
+Note: The Intended Use of Alere i Strep A requires that all negative test results are confirmed by culture. The risk for occurrence of false-negative test results due to inappropriate sample storage is therefore mitigated.
+
+# d. Detection limit:
+
+The limit of detection (LOD) for Alere i Strep A, defined as the concentration of S. pyogenes that produces positive results approximately $9 5 \%$ of the time, was identified by evaluating different concentrations of S. pyogenes in throat swab matrix that was diluted in Elution Buffer. Testing was performed with two strains of $S .$ . pyogenes as shown in Table 5. Target levels were estimated by plate counts and by quantitative PCR to determine genomic equivalents (Morozumi et al. $J$ Clin Microbiol 2006 44: 1440-1446).
+
+Table 5. Limits of detection for Alere i Strep A   
+
+<table><tr><td rowspan=2 colspan=1>Strain of S. pyogenes</td><td rowspan=1 colspan=2>Per mL of Elution Buffer</td></tr><tr><td rowspan=1 colspan=1>CFU</td><td rowspan=1 colspan=1>Genomic copies</td></tr><tr><td rowspan=1 colspan=1>ATCC12344</td><td rowspan=1 colspan=1>4.2</td><td rowspan=1 colspan=1>924</td></tr><tr><td rowspan=1 colspan=1>ATCC 19615</td><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>2672</td></tr></table>
+
+Thirteen additional strains of S. pyogenes were diluted in phosphate buffered saline and tested at target levels close to the LOD of the assay. The lowest dilution of each strain at which each of 3 assay replicates produced a positive result is shown in Table 6.
+
+Because the LOD and Analytical Reactivity Studies were not performed in naturally occurring throat swab matrix, additional testing was conducted to demonstrate that limit of detection of the assay is similar in the presence and absence of throat swab matrix (refer to Section 2b, Matrix Comparison). The results showed that the analytical sensitivity of the assay is not affected by the presence of throat swab matrix and therefore that the data from the LOD and Analytical Reactivity Studies can be considered representative of the performance observed in clinical matrix.
+
+Table 6. Reactivity titers of different strains of S. pyogenes   
+
+<table><tr><td rowspan=2 colspan=1>Strain</td><td rowspan=1 colspan=2>Per mL Elution Buffer</td></tr><tr><td rowspan=1 colspan=1>CFU</td><td rowspan=1 colspan=1>Genomic copies</td></tr><tr><td rowspan=1 colspan=1>ATCC8135</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>504</td></tr><tr><td rowspan=1 colspan=1>ATCC12384</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>2276</td></tr><tr><td rowspan=1 colspan=1>ATCC12202</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>389</td></tr><tr><td rowspan=1 colspan=1>ATCC12203</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>267</td></tr><tr><td rowspan=1 colspan=1>ATCC12204</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>1124</td></tr><tr><td rowspan=1 colspan=1>ATCC12365</td><td rowspan=1 colspan=1>55</td><td rowspan=1 colspan=1>1112</td></tr><tr><td rowspan=1 colspan=1>ATCC14289</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>234</td></tr><tr><td rowspan=1 colspan=1>ATCC49399</td><td rowspan=1 colspan=1>126</td><td rowspan=1 colspan=1>5840</td></tr><tr><td rowspan=1 colspan=1>ATCC51339</td><td rowspan=1 colspan=1>37</td><td rowspan=1 colspan=1>1296</td></tr><tr><td rowspan=1 colspan=1>ATCC700294</td><td rowspan=1 colspan=1>31</td><td rowspan=1 colspan=1>548</td></tr><tr><td rowspan=1 colspan=1>ATCC12357</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>384</td></tr><tr><td rowspan=1 colspan=1>ATCC 12385 Loomis</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>296</td></tr><tr><td rowspan=1 colspan=1>ATCC 12385 Type 4</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>672</td></tr></table>
+
+# Bioinformatic analysis:
+
+To determine the level of sequence conservation within the targeted region, the NCBI Nucleotide Database (http://www.ncbi.nlm.nih.gov/nuccore) and Genome Database (http://www.ncbi.nlm.nih.gov/genome?db $\vDash$ genome) were searched by organism and gene name to collect all relevant S. pyogenes sequences available in the public domain. BLAST analysis was also performed with the Alere i Strep A amplicon sequence against the NCBI nucleotide database using MEGABLAST with the $^ { \mathfrak { c c } } S .$ pyogenes (taxid: 1314)” option selected to restrict the results of the search to $S .$ . pyogenes sequences. All the sequences identified in this manner exhibited $100 \%$ homology to the S. pyogenes target sequence, and no other regions of the $S .$ pyogenes genome showed a significant level of identity.
+
+# e. Analytical specificity:
+
+# Cross-Reactivity Study
+
+The analytical specificity of Alere i Strep A was evaluated by testing a variety of commensal and pathogenic species of bacteria and yeast (Table 7). Suspensions of each organism were diluted in phosphate buffered saline and tested in triplicate at a final concentration of $1 0 ^ { 6 } – 1 0 ^ { 9 }$ cells/mL of Elution Buffer. One false-positive result was obtained with Moraxella catarrhalis at ${ > } 1 0 ^ { 8 }$ cells/mL. M. catarrhalis and two other species also produced Invalid results when tested at ${ > } 1 0 ^ { 6 } \mathrm { c e l l s / m L }$ . For each of these species, negative results were obtained at lower organism concentrations. The potential for cross-reaction and/or false-positive results with certain species is included as a limitation in the Package Insert.
+
+Table 7. Species tested for cross-reaction in Alere i Strep A   
+
+<table><tr><td rowspan=1 colspan=1>Arcanobacterium haemolyticum</td><td rowspan=1 colspan=1>Pseudomonas aeruginosa</td></tr><tr><td rowspan=1 colspan=1>Bacillus cereus</td><td rowspan=1 colspan=1>Staphylococcus aureus</td></tr><tr><td rowspan=1 colspan=1>Bordetella pertussis</td><td rowspan=1 colspan=1>Staphylococcus epidermidis</td></tr><tr><td rowspan=1 colspan=1>Burkholderia cepacia</td><td rowspan=1 colspan=1>Streptococcus agalactiae</td></tr><tr><td rowspan=1 colspan=1>Camplyobacter rectus</td><td rowspan=1 colspan=1>Streptococcus anginosus</td></tr><tr><td rowspan=1 colspan=1>Candida albicans</td><td rowspan=1 colspan=1>Streptococcus canis</td></tr><tr><td rowspan=1 colspan=1>Corynebacterium diphtheriae</td><td rowspan=1 colspan=1>Streptococcus dysgalactiae subsp. equisimilis</td></tr><tr><td rowspan=1 colspan=1>Enterococcus faecalis</td><td rowspan=1 colspan=1>Streptococcus gallolyticus</td></tr><tr><td rowspan=1 colspan=1>Escherichia coli</td><td rowspan=1 colspan=1>Streptococcus intermedius</td></tr><tr><td rowspan=1 colspan=1>Fusobacterium necrophorum</td><td rowspan=1 colspan=1>Streptococcus mitis</td></tr><tr><td rowspan=1 colspan=1>Haemophilis influenza</td><td rowspan=1 colspan=1>Streptococcus mutans</td></tr><tr><td rowspan=1 colspan=1>Klebsiella pneumonia</td><td rowspan=1 colspan=1>Streptococcus pneumoniae</td></tr><tr><td rowspan=1 colspan=1>Lactobacillus acidophilis</td><td rowspan=1 colspan=1>Streptococcus salivarius</td></tr><tr><td rowspan=1 colspan=1>Moraxella catarrhalis 1, 2</td><td rowspan=1 colspan=1>Streptococcus sanguinus</td></tr><tr><td rowspan=1 colspan=1>Neisseria gonorrhoeae</td><td rowspan=1 colspan=1>Treponema denticola</td></tr><tr><td rowspan=1 colspan=1>Peptostreptococcus micros</td><td rowspan=1 colspan=1>Veillonella parvula</td></tr><tr><td rowspan=1 colspan=1>Prevotella (Bacteroides) oralis</td><td rowspan=1 colspan=1></td></tr></table>
+
+1 Invalid results obtained at $\overline { { \geq 1 0 ^ { 6 } \mathrm { c e l l s } / \mathrm { m L } } }$ of Elution Buffer 2 False positive result obtained at $\mathrm { > } 1 0 ^ { 8 } \mathrm { c e l l s / m L }$ of Elution Buffer
+
+# Bioinformatic Analysis:
+
+MEGABLAST analyses were performed using the NCBI Nucleotide collection $\mathrm { ( n r / n t ) }$ database and with the organism exclude option selected for $^ { \mathfrak { c c } } S .$ . pyogenes taxid: $1 3 1 4 ^ { \circ }$ to restrict the results to non-S. pyogenes sequences. No sequences of significant homology were identified. Additional MEGABLAST analyses of the NCBI Nucleotide collection were performed with each of the individual species shown in Table 8. None of the searches showed evidence of homology with the Alere i Strep A target sequence that is likely to result in cross-reaction and generation of false-positive results.
+
+Table 8. Organisms and viruses analyzed in silico for potential crossreaction/interference in Alere i Strep A   
+
+<table><tr><td rowspan=1 colspan=1>Candida spp.</td><td rowspan=1 colspan=1>Adenovirus Type 1</td></tr><tr><td rowspan=1 colspan=1>Enterococcus spp.</td><td rowspan=1 colspan=1>Adenovirus Type 7</td></tr><tr><td rowspan=1 colspan=1>Klebsiella spp.</td><td rowspan=1 colspan=1>Human influenza virus A</td></tr><tr><td rowspan=1 colspan=1>Lactococcus lactis</td><td rowspan=1 colspan=1>Human influenza virus B</td></tr><tr><td rowspan=1 colspan=1>Legionella spp.</td><td rowspan=1 colspan=1>Human parainfluenza</td></tr><tr><td rowspan=1 colspan=1>Mycoplasma pneumoniae</td><td rowspan=1 colspan=1>Human metapneumovirus</td></tr><tr><td rowspan=1 colspan=1>Pseudomonas spp.</td><td rowspan=1 colspan=1>Respiratory syncytial virus Type B</td></tr><tr><td rowspan=1 colspan=1>Saccharomyces cerevisiae</td><td rowspan=1 colspan=1>Rhinovirus</td></tr><tr><td rowspan=1 colspan=1>Stenotrophomonas maltophilia</td><td rowspan=1 colspan=1></td></tr></table>
+
+# Contamination Study
+
+The risk of contamination between samples run on the same Alere i instrument was assessed by testing an alternating series of S. pyogenes Positive and Negative Control Swabs. In total, 30 Positive and 31 Negative Control Swabs were tested. The Positive Control Swabs contained a target level that is equivalent to ${ \sim } 2 4 0 0 \mathrm { X }$ LOD. All the controls produced the expected results and no false positive results were observed, indicating that the risk of contamination between runs is acceptably low.
+
+# f. Assay cut-off:
+
+S. pyogenes Group A Streptococcus Threshold   
+The gradient threshold for fluorescence amplification curve of the S. pyogenes target was established through analysis of Alere i Strep A results from negative samples as well as samples containing known copy numbers of targets. The threshold for the $S .$ pyogenes channel was set at 1.5X the highest value observed among the S. pyogenes negative samples. This threshold enabled all samples estimated to contain ${ \ge } 2 5$ copies of target to be distinguished from negative samples and was verified and validated in subsequent analytical and clinical studies.
+
+# Internal Control Threshold
+
+The threshold for the Internal Control was established though evaluation of 134 samples that were presumed to be negative for $S .$ . pyogenes. These consisted of a mixture of throat swabs and analytical samples that were spiked with known quantities of genomic DNA. The lowest gradient values were observed among samples that were spiked with $2 \mu \ g$ genomic DNA. Analysis of approximately 100 throat swabs obtained from S. pyogenes negative subjects showed that the majority of clinical throat swabs are likely to contain significantly less than $2 \mu \ g$ genomic DNA. The gradient threshold for the Internal Control was therefore set just below the measured peak gradient for the sample that had the lowest gradient value.
+
+# g. Assay Interference:
+
+Alere i Strep A was evaluated with 21 endogenous and exogenous substances that may be present in throat swab samples. Each substance was tested in triplicate in the presence and absence of S. pyogenes ATCC 19615 at 3X LOD for this strain. No interference was observed with any of the substances when tested at the concentrations listed in Table 9. Toothpaste and mucin were both shown to interfere with the assay at high concentration but the effect was alleviated by dilution to lower levels. This is reflected in the Package Insert in a footnote to the list of potential interfering substances that were evaluated.
+
+Table 9. Substances tested for potential interference with Alere i Strep A   
+
+<table><tr><td rowspan=1 colspan=1>Substance</td><td rowspan=1 colspan=1>ConcentrationTested</td></tr><tr><td rowspan=1 colspan=1>Acetaminophen</td><td rowspan=1 colspan=1>19.4mg/mL</td></tr><tr><td rowspan=1 colspan=1>Acetylsalicylic Acid</td><td rowspan=1 colspan=1>12.4mg/mL</td></tr><tr><td rowspan=1 colspan=1>ACT® Total Care  Fresh Mint</td><td rowspan=1 colspan=1>20% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Albuterol</td><td rowspan=1 colspan=1>0.5mg/mL</td></tr><tr><td rowspan=1 colspan=1>Cepacol® Mouthwash</td><td rowspan=1 colspan=1>20% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Cepacol® Sore Throat Lozenges — cherry</td><td rowspan=1 colspan=1>20% (w/v)</td></tr><tr><td rowspan=1 colspan=1>Children&#x27;s Dimetapp® Cough &amp; Cold (Repeat)</td><td rowspan=1 colspan=1>20% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Chloraseptic® Max Sore Throat Relief + Coating Action  wild berry</td><td rowspan=1 colspan=1>20% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Contact Cold &amp; Flu Tablets  Night</td><td rowspan=1 colspan=1>20% (w/v)</td></tr><tr><td rowspan=1 colspan=1>Crest® Complete Multi-Benefit Whitening + Deep Clean Toothpaste</td><td rowspan=1 colspan=1>0.16% (w/v) 1</td></tr><tr><td rowspan=1 colspan=1>Diphenhydramine HCL</td><td rowspan=1 colspan=1>2.7mg/mL</td></tr><tr><td rowspan=1 colspan=1>Halls Plus® - Honey Lemon</td><td rowspan=1 colspan=1>20% (w/v)</td></tr><tr><td rowspan=1 colspan=1>Human Saliva</td><td rowspan=1 colspan=1>10% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Ibuprophen</td><td rowspan=1 colspan=1>15.4mg/mL</td></tr><tr><td rowspan=1 colspan=1>Listerine® Antiseptic Mouthwash  Original</td><td rowspan=1 colspan=1>20% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Mucin</td><td rowspan=1 colspan=1>0.016% (w/v) 2</td></tr><tr><td rowspan=1 colspan=1>Robitussin® Maximum Strength Nighttime Cough DM</td><td rowspan=1 colspan=1>20% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Sucrets® Sore Throat &amp; Cough  cherry (Repeat)</td><td rowspan=1 colspan=1>20% (w/v)</td></tr><tr><td rowspan=1 colspan=1>Tylenol® Cold Multi-Symptom Liquid</td><td rowspan=1 colspan=1>20% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Whole Blood</td><td rowspan=1 colspan=1>5% (v/v)</td></tr><tr><td rowspan=1 colspan=1>Zicam® Oral Mist - Artic Mint</td><td rowspan=1 colspan=1>20% (v/v)</td></tr></table>
+
+1 Crest® Complete Multi-Benefit Whitening $^ +$ Deep Clean Toothpaste control solution generated Invalid results at $2 0 \%$ and $4 \%$ (w/v) and false negative results at $0 . 8 \%$ (w/v). 2 Mucin generated false negative results at $2 \%$ , $0 . 4 \%$ , and $0 . 0 8 \% \mathrm { \ w / v }$ .
+
+2. Comparison studies:
+
+a. Method comparison with predicate device: Not applicable.
+
+b. Matrix comparison:
+
+Several of the studies that were conducted to establish the performance characteristics of Alere i Strep A were performed in the absence of clinical matrix or in matrix that was diluted in Elution Buffer. Additional testing was therefore conducted to determine whether the data from these studies accurately reflect the performance of Alere i Strep A in the presence of clinical matrix.
+
+Testing was performed to determine the effect of specimen matrix on the analytical sensitivity of Alere i Strep A. S. pyogenes ATCC 19615 cells were tested at four different levels around the estimated LOD for this strain in the presence and absence of throat swab matrix (Table 10). A similar proportion of positive results was observed at each target level indicating that the presence of throat swab matrix did not have a noticeable affect the analytical sensitivity of the assay. There were also no important differences between the two conditions in the gradient values for the fluorescence curves for either the S. pyogenes target or Internal Control. These data therefore substantiate the results obtained in analytical studies that were performed in the absence of throat swab matrix or matrix that was diluted in Elution Buffer.
+
+Table 10. Results from matrix vs no matrix comparison $\mathrm { \Delta } \ln { = 2 0 }$ per condition)   
+
+<table><tr><td rowspan="2"></td><td colspan="4">Number (%) Positive</td></tr><tr><td>2X LOD</td><td>1X LOD</td><td>0.5X LOD</td><td>0.25X LOD</td></tr><tr><td>No Matrix</td><td>20 (100)</td><td>20 (100)</td><td>16 (80)</td><td>4 (20)</td></tr><tr><td>Matrix</td><td>20 (100)</td><td>20 (100)</td><td>15 (75)</td><td>3 (15) </td></tr></table>
+
+LOD: Limit of Detection (267 copies of genomic DNA/swab) 1 1 sample gave repeat Invalid results; an additional sample was therefore tested to bring the total number of valid results to 20
+
+3. Clinical studies:
+
+a. Clinical Sensitivity:
+
+The clinical performance of Alere i Strep A was established in a multi-center, prospective clinical study conducted at 8 US trial sites between January and March of 2014 among patients who presented with a sore throat and symptoms congruent with pharyngitis. A total of 505 subjects were enrolled in the study of whom 10 were excluded for the following reasons: failure to meet the eligibility criteria (1), lack of a reference result (5) or protocol violation in sample handling for Alere i Strep A or
+
+reference testing (4). Of the remaining 495 samples, 24 $( 4 . 8 \% )$ generated an Invalid result on initial testing, of which 10 resolved upon repeat analysis. The final rate of Invalid results was therefore 14/495 $( 2 . 8 \% )$ and 481 subjects were considered evaluable for the purposes of data analysis, of whom 182 $( 3 8 \% )$ were male and 299 $( 6 2 \% )$ were female.
+
+Two throat swabs were collected from each subject using the BD BBL CultureSwab EZ II device. One swab was used for the reference bacterial culture according to standard procedures (inoculation of sheep blood agar followed by identification of beta-hemolytic colonies by latex agglutination). The other swab was tested with Alere i Strep A.
+
+For the reference method, seven of the eight sites shipped the swabs in dry transport tubes to a central laboratory for culture. The remaining site performed the reference culture in a local laboratory. All reference cultures were started within 2 days of specimen collection. The majority (431/481, $90 \%$ ) of samples were tested with Alere i Strep A on the same day that the specimen was collected and all were tested within 24 hours.
+
+The performance of Alere i Strep A for the detection of S. pyogenes relative to bacterial culture is shown in Tables 11 and 12. Most of the positive specimens were obtained from three geographically diverse sites (9A, 10A and 33A).
+
+Table 11. Overall clinical performance of Alere i Strep A versus bacterial culture   
+
+<table><tr><td rowspan=2 colspan=2></td><td rowspan=1 colspan=3>Reference Culture</td></tr><tr><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>Total</td></tr><tr><td rowspan=3 colspan=1>Alere iStrep A</td><td rowspan=1 colspan=1>Positive</td><td rowspan=1 colspan=1>141</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>159</td></tr><tr><td rowspan=1 colspan=1>Negative</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>316</td><td rowspan=1 colspan=1>322</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>147</td><td rowspan=1 colspan=1>334</td><td rowspan=1 colspan=1>481</td></tr><tr><td rowspan=1 colspan=2>Sensitivity</td><td rowspan=1 colspan=3>141/147 =95.9% (95%CI: 91.4 -98.1%)</td></tr><tr><td rowspan=1 colspan=2>Specificity</td><td rowspan=1 colspan=3>316/334 =94.6% (95%CI: 91.6 -96.6%)</td></tr><tr><td rowspan=1 colspan=2>Positive Predictive Value</td><td rowspan=1 colspan=3>141/159=88.7%(95%CI: 82.8 -92.7%)</td></tr><tr><td rowspan=1 colspan=2>Negative Predictive Value</td><td rowspan=1 colspan=3>316/322 = 98.1% (95% CI: 96.0 - 99.1%)</td></tr></table>
+
+1 13/18 Alere i Strep A false-positive samples gave positive results by a laboratory developed PCR method, as did 2/6 Alere i Strep A false-negative samples
+
+Table 12. Alere i Strep A Assay performance stratified by site   
+
+<table><tr><td rowspan=2 colspan=1>Site</td><td rowspan=2 colspan=1>Samples(%)</td><td rowspan=2 colspan=1>Culture Positive(% Prevalence)</td><td rowspan=1 colspan=4>Percent (95% CI)</td></tr><tr><td rowspan=1 colspan=1>Sensitivity</td><td rowspan=1 colspan=1>Specificity</td><td rowspan=1 colspan=1>PPV</td><td rowspan=1 colspan=1>NPV</td></tr><tr><td rowspan=1 colspan=1>008A1</td><td rowspan=1 colspan=1>3(0.6)</td><td rowspan=1 colspan=1>0(0)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>100(43.9-100)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>100(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>009A 2</td><td rowspan=1 colspan=1>196(40.7)</td><td rowspan=1 colspan=1>56(28.6)</td><td rowspan=1 colspan=1>96.4(87.9-99.0)</td><td rowspan=1 colspan=1>97.9(93.9-99.3)</td><td rowspan=1 colspan=1>94.7(82.8-92.7)</td><td rowspan=1 colspan=1>98.6(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>010A</td><td rowspan=1 colspan=1>189(39.3)</td><td rowspan=1 colspan=1>70(37.0)</td><td rowspan=1 colspan=1>94.3(86.2-97.8)</td><td rowspan=1 colspan=1>91.6(85.2-95.4)</td><td rowspan=1 colspan=1>86.8(82.8-92.7)</td><td rowspan=1 colspan=1>96.5(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>017A</td><td rowspan=1 colspan=1>14(2.9)</td><td rowspan=1 colspan=1>0(0)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>92.9(68.5-98.7)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>100(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>017B</td><td rowspan=1 colspan=1>22(4.6)</td><td rowspan=1 colspan=1>5(22.7)</td><td rowspan=1 colspan=1>100(56.6-100)</td><td rowspan=1 colspan=1>88.2(65.7-96.7)</td><td rowspan=1 colspan=1>71.4(82.8-92.7)</td><td rowspan=1 colspan=1>100(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>017C</td><td rowspan=1 colspan=1>25(5.2)</td><td rowspan=1 colspan=1>3(12.0)</td><td rowspan=1 colspan=1>100(43.9-100)</td><td rowspan=1 colspan=1>95.5(78.2-99.2)</td><td rowspan=1 colspan=1>75.0(82.8-92.7)</td><td rowspan=1 colspan=1>100(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>021A1</td><td rowspan=1 colspan=1>2(0.4)</td><td rowspan=1 colspan=1>0(0)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>100(34.2-100)</td><td rowspan=1 colspan=1>NA</td><td rowspan=1 colspan=1>100(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>033A</td><td rowspan=1 colspan=1>30(6.2)</td><td rowspan=1 colspan=1>13(43.3)</td><td rowspan=1 colspan=1>100(77.2-100)</td><td rowspan=1 colspan=1>94.1(73.0-99.0)</td><td rowspan=1 colspan=1>92.9(82.8-92.7)</td><td rowspan=1 colspan=1>100(96.0-99.1)</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>481(100)</td><td rowspan=1 colspan=1>147(30.6)</td><td rowspan=1 colspan=1>95.9(91.4-98.1)</td><td rowspan=1 colspan=1>94.6(91.6-96.6)</td><td rowspan=1 colspan=1>88.7(82.8-92.7)</td><td rowspan=1 colspan=1>98.1(96.0-99.1)</td></tr></table>
+
+NA: Not applicable 1 Enrollment at Sites 008A and 021A was low but the samples were collected according to the study protocol and are therefore included in the analysis 2 Site 009A performed reference culture at a local laboratory; all other sites sent samples to a central reference laboratory for culture
+
+$b$ . Clinical specificity: Refer to Tables 11 and 12 above.   
+c. Other clinical supportive data (when a. and b. are not applicable): Not applicable.
+
+4. Clinical cut-off: Not applicable.
+
+5. Expected values/Reference range:
+
+The clinical study included 481 specimens from 8 U.S. sites that were collected between January and March of 2014. The overall prevalence of S. pyogenes as determined by culture was $3 0 . 6 \%$ (147/481), and as determined by Alere i Strep A it was $3 3 . 1 \%$ (159/481). The prevalence by age and gender of the subjects as determined by Alere i Strep A is shown in Table 13.
+
+Table 13. Prevalence of $S .$ . pyogenes positive subjects by age and gender   
+
+<table><tr><td rowspan=1 colspan=1>Age/Gender</td><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>Alere i Strep APositive</td><td rowspan=1 colspan=1>% Prevalence</td></tr><tr><td rowspan=1 colspan=1>0 to 2 years</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>8.3</td></tr><tr><td rowspan=1 colspan=1>3-12 years</td><td rowspan=1 colspan=1>265</td><td rowspan=1 colspan=1>125</td><td rowspan=1 colspan=1>47.2</td></tr><tr><td rowspan=1 colspan=1>13-20 years</td><td rowspan=1 colspan=1>92</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>13.0</td></tr><tr><td rowspan=1 colspan=1>&gt;20 years</td><td rowspan=1 colspan=1>112</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>18.8</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>EY</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>EY</td></tr><tr><td rowspan=1 colspan=1>Male</td><td rowspan=1 colspan=1>182</td><td rowspan=1 colspan=1>59</td><td rowspan=1 colspan=1>32.4</td></tr><tr><td rowspan=1 colspan=1>Female</td><td rowspan=1 colspan=1>299</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>33.4</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>EY</td><td rowspan=1 colspan=1>EY</td><td rowspan=1 colspan=1>EY</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>481</td><td rowspan=1 colspan=1>159</td><td rowspan=1 colspan=1>33.1</td></tr></table>
+
+As determined by Alere i Strep A
+
+# N. Instrument Name
+
+Alere i Instrument
+
+# O. System Description
+
+1. Modes of Operation:
+
+Does the applicant’s device contain the ability to transmit data to a computer, webserver, or mobile device?
+
+Yes or No _X_   
+Does the applicant’s device transmit data to a computer, webserver, or mobile device   
+using wireless transmission?
+
+Yes or No ___ X
+
+2. Software:
+
+FDA has reviewed applicant’s Hazard Analysis and software development processes for this line of product types:
+
+Yes ___ X____ or No _
+
+The software reviewed under this submission was v3.1.0.2 (release date January $1 5 ^ { \mathrm { t h } }$ , 2014).
+
+0. Specimen Identification: Specimens are identified by scanning or typing in the sample identifier.
+
+3. Specimen Sampling and Handling:
+
+Swab specimens are expressed in the Elution Buffer contained within the Sample Receiver. The operator transfers $2 \mathrm { ~ x ~ } 1 0 0 \mu \mathrm { L }$ of the expressed specimen to the Test Base using the Transfer Cartridge to rehydrate the reagents for target and Internal Control amplification/detection. Refer to Section I above for more information.
+
+# 4. Calibration:
+
+End-user calibration for the Alere i Instrument is not required. Calibration of the optical and thermal is performed during the manufacturing process. The instrument is maintenance-free and has no serviceable parts. However, if the instrument is transported or moved, a performance check using Alere i Positive and Negative Controls is recommended by the manufacture to ensure proper functionality.
+
+5. Quality Control:
+
+Refer to Section M.1.c for details regarding the performance of the Positive and Negative Control Swabs and Internal Control.
+
+# P. Proposed Labeling:
+
+The labeling is sufficient and satisfies the requirements of 21 CFR Part 809.10.
+
+# Q. Conclusion:
+
+The submitted information in this premarket notification is complete and supports a substantial equivalence decision.

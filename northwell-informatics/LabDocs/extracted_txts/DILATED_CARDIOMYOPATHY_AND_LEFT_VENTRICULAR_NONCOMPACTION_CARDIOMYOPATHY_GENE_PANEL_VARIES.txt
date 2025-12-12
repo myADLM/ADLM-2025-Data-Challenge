@@ -1,0 +1,98 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase of Generating Results for Dilated
+Cardiomyopathy and Left Ventricular Noncompaction
+Cardiomyopathy Gene Panel
+1. Purpose
+To provide standardized procedures for the analytical phase of
+generating results for the Dilated Cardiomyopathy (DCM) and Left
+Ventricular Noncompaction Cardiomyopathy (LVNC) Gene Panel.
+This SOP ensures consistency, accuracy, and reliability in the testing
+process.
+Responsibility:
+Designated molecular technologists are responsible for performing
+the procedures as described in this protocol. Supervisors must
+ensure that all tasks are completed and documented correctly.
+1. Equipment, Reagents, and Supplies
+• PCR thermocycler
+• DNA extraction kit
+• NGS (Next-Generation Sequencing) platform
+• NGS library preparation kit
+• Reagent reservoirs
+• Pipettes and sterile tips
+• 1.5 mL microcentrifuge tubes
+• Sterile water and buffer solutions
+• Freezers and refrigerators for reagent storage
+• Quality control materials
+1. Specimen Requirements and Stability
+• Acceptable specimens: Peripheral blood collected in EDTA tubes
+• Minimum volume: 3 mL
+• Specimen stability: Blood samples must be processed within 48
+hours of collection. If immediate processing is not possible, store
+samples at 2-8°C for up to 72 hours.
+1. Procedure
+A. DNA Isolation
+1. Follow the DNA extraction kit manufacturer's instructions to
+isolate genomic DNA from the blood sample.
+2. Measure the concentration and purity of the isolated DNA using
+a spectrophotometer (e.g., NanoDrop).
+3. Adjust the DNA concentration to the required input amount for
+the NGS library preparation.
+B. Library Preparation
+1. Follow the NGS library preparation kit instructions to prepare
+DNA libraries from the extracted genomic DNA.
+◦ Perform fragmentation
+◦ End repair
+◦ A-tailing
+◦ Adaptor ligation
+2. Purify the prepared libraries using magnetic beads and quantify
+them using a fluorometer (e.g., Qubit).
+C. PCR Amplification and Validation
+1. Use multiplex PCR to amplify the target regions of the DCM
+and LVNC genes as specified in the gene panel.
+◦ Set up the PCR reaction mix with the appropriate primers
+and reagents.
+◦ Run the PCR thermocycler according to the optimized
+program for the targeted amplification.
+2. Validate the PCR products by running an agarose gel
+electrophoresis to confirm successful amplification.
+D. Next-Generation Sequencing
+1. Pool the validated libraries and load them onto the NGS
+platform according to the manufacturer's instructions.
+2. Set up the sequencing run with the correct parameters and start
+the run.
+E. Data Analysis
+1. Transfer the raw sequencing data files to the bioinformatics
+pipeline for analysis.
+2. Perform quality control checks on the sequencing data (e.g.,
+read depth, coverage, and base quality).
+3. Align the sequencing data to the reference genome and call
+variants.
+4. Annotate and filter the variants to identify potential pathogenic
+mutations in the DCM and LVNC genes.
+5. Use interpretive software to review the filtered variants for
+clinical significance.
+6. Quality Control
+• Include positive and negative controls in each run to ensure the
+reliability of the results.
+• Regularly calibrate and maintain the equipment as per the
+manufacturer's guidelines.
+• Document all quality control activities including reagent lot
+numbers, control results, and any corrective actions taken.
+1. Reporting Results
+• Refer to site-specific guidelines for formatting and reviewing
+results before reporting.
+• Verified results must be documented and reviewed by a
+supervising technologist before releasing the final report.
+• Follow the laboratory's policy for contacting the ordering physician
+if critical results are identified.
+1. References
+• Manufacturer’s instructions for DNA extraction, library preparation,
+and NGS platform usage.
+• Clinical guidelines and literature on the genetic diagnosis of
+Dilated Cardiomyopathy and Left Ventricular Noncompaction
+Cardiomyopathy.
+• Laboratory’s internal quality control and reporting guidelines.
+End of SOP
+This protocol ensures precise and accurate generation of results for
+the DCM and LVNC gene panel, contributing to the timely and
+reliable diagnosis of individuals affected by these cardiomyopathies.

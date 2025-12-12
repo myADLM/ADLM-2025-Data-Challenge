@@ -1,0 +1,130 @@
+STANDARD OPERATING PROCEDURE BRCA1/BRCA2 Genes,
+Full Gene Analysis
+1. PURPOSE
+This Standard Operating Procedure (SOP) outlines the steps and
+procedures for the full gene analysis of BRCA1 and BRCA2 using
+next-generation sequencing (NGS) and Sanger sequencing as
+necessary for variant confirmation. The purpose is to provide a
+comprehensive analysis of mutations in the BRCA1 and BRCA2
+genes, which are important for assessing the risk of hereditary breast
+and ovarian cancers.
+1. SCOPE
+This procedure is applicable to all laboratory personnel performing
+the BRCA1/BRCA2 full gene analysis in our CLIA-certified laboratory.
+It is designed to ensure accuracy, reliability, and reproducibility of test
+results. All procedures described must be adhered to by all
+designated laboratory staff.
+1. RESPONSIBILITIES
+• Designated laboratory personnel are responsible for performing
+the BRCA1/BRCA2 gene analysis according to this SOP.
+• Supervisors must ensure that all personnel performing this test
+are adequately trained and competent.
+• All staff must be vigilant about the quality of reagents, quality
+control procedures, and maintain meticulous documentation
+throughout the analytical process.
+1. EQUIPMENT AND MATERIALS
+• DNA extraction kits
+• NGS library preparation kits
+• Thermal cycler for PCR
+• NGS sequencer (e.g., Illumina platform)
+• Sanger sequencing reagents and capillary electrophoresis
+equipment
+• BRCA1/BRCA2 gene-specific primers
+• High-sensitivity DNA quantification tools (e.g., Qubit fluorometer)
+• Positive and negative controls
+• Bioinformatics software for sequence alignment and variant
+calling
+1. DEFINITIONS
+• NGS: Next-Generation Sequencing, a method used to rapidly
+sequence large amounts of DNA.
+• Sanger Sequencing: A method for determining the nucleotide
+sequence of DNA.
+• BRCA1/BRCA2: Genes whose mutations are linked to an
+increased risk of breast and ovarian cancers.
+1. PROCEDURE
+A. DNA Extraction
+1. Retrieve the specimen and log the details on the Laboratory
+Information System (LIS).
+2. Extract genomic DNA from the provided samples using
+validated DNA extraction kits.
+3. Quantify DNA using a high-sensitivity assay. Ensure DNA
+concentration and purity meet specified criteria before
+proceeding.
+4. Document the DNA concentration and purity in the appropriate
+laboratory log.
+B. Library Preparation for NGS
+1. Prepare DNA libraries using a validated NGS library preparation
+kit.
+2. Ensure the quality and quantity of libraries are sufficient for
+sequencing.
+3. Prepare pooled libraries and load onto the NGS sequencer as
+per manufacturer’s guidelines.
+C. Sequencing
+1. Generate sequence data for the BRCA1 and BRCA2 genes
+using the NGS sequencer.
+2. Monitor the sequencing run to ensure optimal data generation.
+3. Perform initial data processing on sequencer software and
+transfer data to dedicated analysis workstation.
+D. Data Analysis
+1. Use bioinformatics software to align sequence reads to the
+human reference genome (e.g., hg19).
+2. Perform variant calling to identify mutations in BRCA1 and
+BRCA2 genes.
+3. Screen data for quality parameters: coverage depth, sequence
+quality scores, and read distribution.
+4. Review the variant list generated against established databases
+to annotate and classify variants.
+E. Confirmation of Variants (if necessary)
+1. Select variants requiring confirmation through Sanger
+sequencing based on preset criteria (e.g., novel or pathogenic
+variants).
+2. Design primers specific to regions of interest for PCR
+amplification.
+3. Perform PCR amplification and clean-up of the product.
+4. Sequence the amplified product using Sanger sequencing
+techniques.
+5. Analyze Sanger sequencing data to confirm or refute the
+presence of the selected variants.
+F. Quality Control
+1. Include a positive control (confirmed BRCA1/ BRCA2
+mutations) and a negative control (wild-type sample) in each
+batch analysis.
+2. Review quality control data to ensure accuracy and consistency
+of sequencing.
+3. If control results deviate from expected, investigate and resolve
+issues before proceeding with patient results.
+4. Document all quality control results and actions taken in the
+Quality Control Log.
+G. Reporting
+1. Document all findings in the LIS.
+2. Draft a comprehensive report detailing identified variants, their
+classifications (pathogenic, likely pathogenic, uncertain
+significance, likely benign, benign), and any necessary
+interpretations.
+3. Include recommendations for genetic counseling based on the
+identified variant classifications.
+4. Ensure reports are reviewed and signed by certified personnel
+before dissemination.
+5. REFERENCES
+• Manufacturer's instruction manuals for all equipment and reagents
+used.
+• Relevant literature on BRCA1/BRCA2 gene analysis.
+• CLIA regulations and guidelines.
+• Human Genome Variation Society (HGVS) nomenclature for the
+description of sequence variants.
+1. APPENDICES
+• Appendix A: Detailed reagent list with catalog numbers.
+• Appendix B: Troubleshooting Guide for Common Issues in
+BRCA1/BRCA2 Sequencing.
+• Appendix C: Protocol for DNA extraction.
+• Appendix D: Protocol for NGS library preparation.
+• Appendix E: Protocol for bioinformatics analysis.
+1. RECORDS AND DOCUMENTATION
+All documentation, including calibration records, maintenance logs,
+quality control results, and test reports, must be accurately
+maintained and stored according to laboratory policies. All electronic
+records must adhere to the laboratory’s data security protocols.
+By following the outlined SOP, analytical procedures are standardized
+to ensure high-quality, consistent results in the BRCA1/BRCA2 full
+gene analysis, effectively aiding in clinical diagnosis and risk
+assessment for hereditary cancers.

@@ -1,0 +1,112 @@
+BRCA1/2 Mutation Analysis Protocol Next-Generation Sequencing
+(NGS) - Tumor
+1. PURPOSE
+To provide standardized procedures for the analytical phase of
+generating results for BRCA1 and BRCA2 mutation analysis using
+next-generation sequencing (NGS) technology from tumor samples.
+1. RESPONSIBILITY
+Qualified laboratory personnel trained in next-generation sequencing
+and related procedures are responsible for performing the analysis
+and ensuring the accuracy of results. It is the responsibility of
+laboratory supervisors to review and validate the results according to
+established quality control (QC) guidelines.
+1. DEFINITIONS
+BRCA1/2: Genes associated with a higher risk of breast and ovarian
+cancer when mutated. Next-Generation Sequencing (NGS): High-
+throughput sequencing technology used to determine the sequence
+of nucleotides in DNA. Tumor Sample: Biopsy or surgical specimen
+containing malignant cells for genetic analysis.
+1. SPECIMEN REQUIREMENTS
+Preferred/acceptable:
+• Formalin-fixed, paraffin-embedded (FFPE) tumor tissue block or
+unstained slides (at least 10 sections of 5-10 microns each).
+• Fresh or frozen tumor tissue. • DNA yield of at least 100 ng with a
+concentration ≥ 20 ng/μL. • Tissue samples should be reviewed
+by a pathologist to ensure at least 20% tumor content.
+Unacceptable:
+• Insufficient tumor content (less than 20%).
+• Degraded DNA samples.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES
+• DNA extraction kits (e.g., QIAGEN QIAamp DNA Mini Kit)
+• NGS library preparation kits (e.g., Illumina TruSeq DNA PCR-
+Free)
+• NGS sequencing platform (e.g., Illumina MiSeq, Illumina
+NextSeq)
+• Pipettes and consumables (tips, tubes, etc.)
+• Thermocycler
+• Refrigerators and freezers for reagent and sample storage
+• Bioanalyzer or equivalent device for DNA quality assessment
+• Computational resources for data analysis
+1. PROCEDURE
+6.1. DNA Extraction
+• Deparaffinize FFPE tissue sections if applicable.
+• Extract DNA using the appropriate DNA extraction kit following the
+manufacturer's instructions.
+• Assess DNA concentration and purity using a spectrophotometer
+(e.g., NanoDrop) and quality using a bioanalyzer.
+• Document DNA yield and quality metrics.
+6.2. Library Preparation
+• Follow the manufacturer's protocol for the NGS library preparation
+kit.
+• Fragment the DNA if necessary.
+• End-repair, A-tailing, and adapter ligation.
+• Purify and size select the libraries using magnetic beads.
+• Perform PCR amplification if required.
+• Quantify and assess quality of libraries using a bioanalyzer.
+6.3. Sequencing
+• Load the libraries onto the NGS platform according to
+manufacturer’s guidelines.
+• Set up the sequencing run parameters.
+• Monitor sequencing quality metrics throughout the run.
+6.4. Data Analysis
+• Use appropriate bioinformatics pipeline for sequence alignment,
+variant calling, and annotation.
+• Ensure proper data quality control by checking coverage, depth,
+and other relevant metrics.
+• Identify BRCA1 and BRCA2 variants and classify them according
+to established guidelines (e.g., ACMG).
+1. QUALITY CONTROL
+◦ Include positive and negative control DNA samples in each
+batch of extracted DNA and library preparation.
+◦ Utilize internal quality control checks to validate sequencing
+runs (e.g., spike-in controls, sequencing depth checks).
+◦ Perform inter-run and intra-run comparisons to ensure
+consistency.
+◦ Review and document all QC parameters and results.
+2. REPORTING RESULTS
+◦ Compile a detailed report including detected variants, their
+classification, and interpretation.
+◦ Include information on sequencing quality metrics and
+coverage statistics.
+◦ Submit the report for review and validation by a qualified
+supervisor.
+◦ Results should be documented and stored according to
+laboratory information system (LIS) procedures.
+3. METHOD LIMITATIONS
+◦ Variants located in regions of low coverage or poor
+sequencing quality may be missed.
+◦ Interpretation of variants may be limited by current genetic
+knowledge and databases.
+4. SAFETY AND COMPLIANCE
+• Adhere to all laboratory safety protocols, including the use of
+personal protective equipment (PPE).
+• Ensure compliance with CLIA, CAP, and applicable regulatory
+guidelines.
+1. REFERENCES
+• Manufacturer’s instructions for DNA extraction, library preparation
+kit, and sequencing platform.
+• ACMG guidelines for the interpretation of sequence variants.
+• Relevant literature and updated guidelines on BRCA1/2 variant
+classification.
+1. RECORDS AND DOCUMENTATION
+• Ensure all steps are documented in the laboratory workflow
+system.
+• Maintain detailed logs of specimens received, DNA extraction,
+library preparation, sequencing runs, and data analysis results.
+• Store and archive all quality control and validation records.
+Approved By:
+(Laboratory Director) Date: ______________
+Review Date: ____________
+Note: This SOP must be reviewed and updated at regular intervals or
+whenever there are significant changes to procedures, equipment, or
+regulations.

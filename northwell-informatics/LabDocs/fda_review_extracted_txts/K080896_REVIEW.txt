@@ -1,0 +1,1070 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+k080896
+B. Purpose for Submission:
+New device
+C. Measurand:
+Gene expression profile for 15 common tumor types
+D. Type of Test:
+Gene expression microarray
+E. Applicant:
+Pathwork Diagnostics Inc.
+F. Proprietary and Established Names:
+Pathwork® Tissue of Origin Test
+G. Regulatory Information:
+1. Regulation section:
+21 CFR § 862.3100 Amphetamine Test System
+2. Classification:
+Class II
+3. Product code:
+OIW, Software, similarity score algorithm, tissue of origin for malignant tumor types
+4. Panel:
+Toxicology (91)
+H. Intended Use:
+1. Intended use(s):
+The Pathwork® Tissue of Origin Test is intended to measure the degree of similarity
+between the RNA expression pattern in a patient’s fresh-frozen tumor and the RNA
+expression patterns in a database of tumor samples (poorly differentiated,
+undifferentiated and metastatic cases) that were diagnosed according to then current
+clinical and pathological practice. The database contains examples of RNA expression
+patterns for fifteen common malignant tumor types: bladder, breast, colorectal, gastric,
+hepatocellular, kidney, non-small cell lung, ovarian, pancreatic, prostate, and thyroid
+carcinomas, melanoma, testicular germ cell tumor, non-Hodgkins lymphoma (not
+otherwise specified), and soft tissue sarcoma (not otherwise specified). The Pathwork®
+Tissue of Origin Test result is intended for use in the context of the patient’s clinical
+history and other diagnostic tests evaluated by a qualified clinician.
+Limitations: The Pathwork® Tissue of Origin Test is not intended to establish the origin
+of tumors (e.g. carcinoma of unknown primary) that cannot be diagnosed according to
+current clinical and pathological practice. It is not intended to subclassify or modify the
+classification of tumors that can be diagnosed by current clinical and pathological
+practice, nor to predict disease course or survival or treatment efficacy, nor to distinguish
+primary from metastatic tumor. Tumor types not in the Pathwork® Tissue of Origin Test
+database may have RNA expression patterns that are similar to patterns in the database.
+Therefore, results cannot be used to distinguish tumor types in the database from tumor
+1
+
+--- Page 2 ---
+types not in the database.
+2. Indication(s) for use:
+Same as Intended use
+3. Special conditions for use statement(s):
+For prescription use only
+4. Special instrument requirements:
+Affymetrix GeneChip® Microarray Instrumentation System (k080995)
+I. Device Description:
+The Pathwork® Tissue of Origin Test is a test kit consists of the Pathchip microarray,
+reagents, software, Pathwork Specimen Processing Guide and Guide to Report Interpretation
+(GRI).
+The Pathchip is a custom-designed microarray manufactured by Affymetrix, Inc. (Santa
+Clara, CA) per Pathwork design requirements and functions in a manner similar to GeneChip
+HG-U133A. The Pathchip has over 500,000 unique oligonucleotide features (18-micron in
+size), covering over 18,400 transcript variants (across 22,300 probesets) which in turn
+represent 14,500 of the best characterized human genes. Each transcript is represented by a
+probeset, comprised of 11-16 pairs of oligonucleotide probes. The probesets are spatially
+distributed over the array and are used to measure the level of transcription of each sequence
+represented on the array. For each array, there are 1550 probesets representing 1550 human
+genes which are used by the Tissue of Origin Test algorithm as markers to identify the tissue
+of origin of the specimen being tested. These probesets were selected using machine
+learning methods and each set has between 11 and 16 probe pairs of 25 bases whose
+sequences are matched to mRNA species that are found in human tissue. In addition, the
+array has 121 probesets that are used for normalization and data verification.
+The algorithm of the Pathwork® Tissue of Origin Test was developed using a database of
+2039 specimens, divided into independent training and test datasets. The test development
+used a machine learning approach based on marker selection to build a predictive model.
+The model consists of a list of markers, a set of reference (support) samples and a set of
+coefficients. These components are combined to produce 15 Similarity Scores, one for each
+of the possible tissues on the test panel. Each similarity score ranges from 0 to 100, with a
+higher score being associated with a higher likelihood that the input specimen has a
+molecular signature of the corresponding tissue of origin. The 15 similarity scores are scaled
+to sum up to 100. Each is based on the microarray standardized expression (SE) values of
+selected biomarkers. The process consists of the following steps:
+1. Read SE values for the biomarkers used in the Tissue of Origin Test from the input file.
+2. Compute a decision function (“score”) for each of 105 possible pairings of the 15 tissues
+on the test panel with respect to the sample described by the input SE values.
+3. Convert the 105 pairwise scores into pairwise probabilities.
+4. Reduce the 105 pairwise probabilities to 15 Similarity Scores, one for each Tissue of
+Origin. These are the final 15 Similarity Scores presented in the Tissue of Origin Test
+Report.
+The Pathwork Specimen Processing Guide contains instructions for the user to process tissue
+specimens in the manner specimens were processed during the clinical validation of the
+2
+
+--- Page 3 ---
+Tissue of Origin Test.
+J. Substantial Equivalence Information:
+1. Predicate device name(s):
+The BioPlex™ 2200 Medical Decision Support Software (MDSS)
+2. Predicate 510(k) number(s):
+k043341
+3. Comparison with predicate:
+Similarities
+Item Tissue of Origin Test Bioplex 2200 Medical
+Decision Support Software
+To determine the degree of To associate patient results
+similarity of a patient’s test with predefined profiles
+Function result to patterns of known that have been correlated
+characterized samples in a with defined diseases
+database
+Computer based, software
+Technology driven, data driven Same
+algorithm
+Differences
+Item Tissue of Origin Test Bioplex 2200 Medical
+Decision Support Software
+Indications for use Tumor types Autoimmune diseases
+Support Vector Machine “k-nearest neighbor”
+Algorithm technology
+(SVM) (kNN) statistical techniques
+Results from serological
+Intensity data file from analysis of patient serum or
+Input
+RNA expression array plasma for specific
+autoantibodies
+Test Sample Frozen biopsy tissues Serum or plasma
+Affymetrix GeneChip® BioPlex 2200 Multi-
+Required Platform GCS3000Dx Scanner and Analyte Detection System
+FS450Dx Fluidics Station
+Similarity of RNA Results of MDSS analysis
+expression patterns found in fall into one of three
+Output tumor specimens to 15 categories: Negative, No
+known tissues of origin Association, or Association
+with Disease
+K. Standard/Guidance Document Referenced (if applicable):
+(cid:121) Guidance for Industry and FDA Staff - Class II Special Controls Guidance Document:
+Class II Special Controls Guidance Document: Gene Expression Profiling Test System
+for Breast Cancer Prognosis
+(cid:121) Guidance for Industry and FDA Staff - Class II Special Controls Guidance Document:
+Class II Special Controls Guidance Document: Drug Metabolizing Enzyme Genotyping
+System
+3
+
+[Table 1 on page 3]
+Similarities				
+Item	Tissue of Origin Test		Bioplex 2200 Medical	
+			Decision Support Software	
+Function	To determine the degree of
+similarity of a patient’s test
+result to patterns of known
+characterized samples in a
+database	To associate patient results
+with predefined profiles
+that have been correlated
+with defined diseases		
+Technology	Computer based, software
+driven, data driven
+algorithm	Same		
+Differences				
+Item	Tissue of Origin Test		Bioplex 2200 Medical	
+			Decision Support Software	
+Indications for use	Tumor types	Autoimmune diseases		
+Algorithm technology	Support Vector Machine
+(SVM)	“k-nearest neighbor”
+(kNN) statistical techniques		
+Input	Intensity data file from
+RNA expression array	Results from serological
+analysis of patient serum or
+plasma for specific
+autoantibodies		
+Test Sample	Frozen biopsy tissues	Serum or plasma		
+Required Platform	Affymetrix GeneChip®
+GCS3000Dx Scanner and
+FS450Dx Fluidics Station	BioPlex 2200 Multi-
+Analyte Detection System		
+Output	Similarity of RNA
+expression patterns found in
+tumor specimens to 15
+known tissues of origin	Results of MDSS analysis
+fall into one of three
+categories: Negative, No
+Association, or Association
+with Disease		
+
+--- Page 4 ---
+L. Test Principle:
+The specimen used for the Pathwork® Tissue of Origin Test is a snap-frozen surgical sample.
+Prior to processing for the TOO test, the user must ensure that the biopsy specimen is no less
+than 100 mg in mass, and contains at least 60% tumor and no more than 20% necrosis. The
+tissue must be homogenized and total RNA must be isolated per the Pathwork Specimen
+Processing Guide. One microgram of total RNA is required to perform the TISSUE OF
+ORIGINtest. The procedural steps after isolation of total RNA from the specimen are:
+reverse transcription of total RNA; first and second strand cDNA synthesis; cDNA
+purification; cRNA synthesis and biotinylation; purification and fragmentation of the labeled
+cRNA; hybridization of the biotin-labeled cRNA target to the Pathchip microarray; washing
+and scanning of the hybridized Pathchip microarray; data acquisition (signal intensity per
+feature), data verification, standardization of the signal intensities; determination of similarity
+to 15 tissues of origin and generation of the Report.
+The scanned data file from each laboratory is transported from the Affymetrix Workstation
+with GeneChip® Operating System (GCOSDx) for analysis using the Pathwork System
+Software through a secure FTP transfer protocol. The Pathwork system software converts
+the scanned image data to gene expression measurements, performs the data verification,
+normalizes (standardizes) the data to correct for technical sources of variation, performs a
+series of multiplex statistical tests, and produces a report summarizing these results. Each
+specimen analyzed will produce 15 similarity scores, one for each tissue on the panel. Each
+similarity score is a measure of the similarity of the gene expression profile of the specimen
+to the profile of the indicated tissue, ranging from 0 (very low similarity) to 100 (very high
+similarity). Similarity scores for all 15 tissues necessarily sum up to 100. For each Tissue of
+Origin test performed, a test report is generated that quantifies the similarity of the RNA
+expression pattern found in a tumor specimen (poorly or un-differentiated primary tumors, as
+well as metastatic tumors) to expression patterns found in tumor specimens from 15 known
+tissues of origin and provided to the laboratory over a secure internet connection in pdf
+format. Clinical laboratory customers are expected to use the resulting report in either its
+printed or electronic form for incorporation into the Surgical Pathology Report delivered to
+the requesting physician by the laboratory.
+The report quantifies the similarity of a poorly differentiated, undifferentiated or metastatic
+tumor specimen to 15 cancers of known tissue of origin, for interpretation by the clinician.
+The report presents 15 computed Similarity Scores in a graphical format, one for each tissue
+on the test panel. The ordering physician interprets the Pathwork® Tissue of Origin Test
+using the Guide to Report Interpretation (GRI) which is provided as a component of the
+report directly below the results for Similarity Scores. The Guide to Report Interpretation
+requires the physician to use knowledge of the location of the tumor biopsy site to correctly
+interpret the report.
+M. Performance Characteristics (if/when applicable):
+1. Analytical performance:
+a. Precision/Reproducibility:
+Replicate samples from 60 individual tumors were distributed among the four
+laboratories for a total of 234 tissue samples (Site 2 and 4 did not receive samples
+from gastric tumors due to insufficient tumor volume). Of the 60 specimens, 46
+(77%) were metastases and 14 (23%) were primaries classified as poorly
+4
+
+--- Page 5 ---
+differentiated to undifferentiated. This study required each laboratory to perform the
+full protocol from frozen tissue, which had been subjected to the additional handling
+and transport required to aliquot a frozen tissue specimen. Five tumor tissue types
+(breast, colorectal, non-small-cell lung, non-Hodgkin’s lymphoma and pancreas)
+were represented by six specimens each and all other tissue types (bladder, gastric,
+germ cell, hepatocellular, kidney, melanoma, ovarian, prostate, soft tissue sarcoma
+and thyroid) were represented by three specimens each. The study was published in
+Journal of Molecular Diagnostics, Volume 10, Number 1, January 2008, pp 67-77.
+Specimens with < 60% viable tumor or > 20% necrosis were excluded from the
+analyses and the resulting performance characteristics. A total of 206 tissue samples
+met this inclusion criterion. Fourteen (14) of the 206 samples (6.8%) admitted to the
+study failed one of the Quality Control steps. Five samples (2.4%) across two sites
+failed to yield sufficient total RNA, (a minimum of 1 μg is required), and were
+unavailable for further processing. Nine specimens (4.4%) across three sites failed
+the data verification test, reporting Low Overall Signal when analyzed by the
+Pathwork System Software. A total of 192 of the 206 samples (93.2%) admitted to
+the study met all Quality Control criteria.
+Processing was performed by a different operator at each site, and was performed in
+batches, extending over a 2 to 5 week period. Matched pairs of specimens which
+were successfully processed at both sites were evaluated using linear regression and
+correlation analysis to evaluate the reproducibility of the underlying Standardized
+Expression values of the markers used in the test.
+In this analysis, concordance was strictly defined as an identical Pathwork test result
+between two laboratory sites for a paired specimen. (An indeterminate result was
+concordant only with another indeterminate result at the second lab.) The Pathwork
+test result was obtained by applying the Guide to Report Interpretation (see Dumar et
+al. for details). Across all four laboratories, six pair-wise comparisons showed slopes
+of 0.87 to 0.92 and “r” of 0.84 to 0.90
+Table 1 – Lab to Lab Concordance (Regression analysis Standardized expression (SE))
+Comparison # specimens Total Points Intercept Slope R
+Site 2 vs. Site 1 45 75060 0.09 0.89 0.90
+(0.09, 0.09) (0.89. 0.90) (0.90, 0.90)
+Site 3 vs. Site 1 46 76728 0.04 0.91 0.90
+(0.03, 0.04) (0.91, 0.92) (0.90, 0.90)
+Site 4 vs. Site 1 46 76728 0.15 0.87 0.84
+(0.15, 0.150 (0.87, 0.88) (0.84, 0.84)
+Site 3 vs. Site 2 47 78396 -0.02 0.92 0.90
+(-0.02, -0.02) (0.92, 0.92) (0.90, 0.91)
+Site 4 vs. Site 2 45 75060 0.10 0.89 0.85
+(0.09, 0.10) (0.89, 0.89) (0.85, 0.86)
+Site 4 vs. Site 3 44 73392 0.14 0.87 0.85
+(0.14, 0.15) (0.87, 0.88) (0.85, 0.85)
+Reproducibility of Similarity Score: In the reproducibility study, each specimen
+5
+
+[Table 1 on page 5]
+Comparison	# specimens	Total Points	Intercept	Slope	R
+Site 2 vs. Site 1	45	75060	0.09
+(0.09, 0.09)	0.89
+(0.89. 0.90)	0.90
+(0.90, 0.90)
+Site 3 vs. Site 1	46	76728	0.04
+(0.03, 0.04)	0.91
+(0.91, 0.92)	0.90
+(0.90, 0.90)
+Site 4 vs. Site 1	46	76728	0.15
+(0.15, 0.150	0.87
+(0.87, 0.88)	0.84
+(0.84, 0.84)
+Site 3 vs. Site 2	47	78396	-0.02
+(-0.02, -0.02)	0.92
+(0.92, 0.92)	0.90
+(0.90, 0.91)
+Site 4 vs. Site 2	45	75060	0.10
+(0.09, 0.10)	0.89
+(0.89, 0.89)	0.85
+(0.85, 0.86)
+Site 4 vs. Site 3	44	73392	0.14
+(0.14, 0.15)	0.87
+(0.87, 0.88)	0.85
+(0.85, 0.85)
+
+--- Page 6 ---
+was tested at the four sites as noted and, for each specimen, an average of the
+Similarity Scores associated with the actual tissue of origin was calculated, along
+with standard deviation and percent coefficient of variation (%CV). For each
+Similarity Score range shown below, the observed average standard deviation and
+average %CV results are provided. Reproducibility of the test is shown in bold for
+similarity scores between 20-40, because this interval includes 30, the cut-off given in
+the Guide to Report Interpretation:
+Table 2: Reproducibility of Similarity Scores Across Sites
+Reproducibility of Similarity Scores
+Similarity Score Range Specimens, n Replicates* Std. Deviation, avg. CV%, avg.
+0 to 20 3 12 4.0 37.6
+20 to 40 4 12 9.7 28.9
+40 to 60 2 8 8.2 15.2
+60 to 80 19 74 13.9 20.2
+80 to 100 23 82 4.7 5.3
+*Each specimen was tested as n = 4 (Sites 1-4). Missing replicates are due to depleted aliquots, insufficient yields, or
+data verification errors (low overall signal).
+To assess the accuracy of the results reported by each laboratory, the Physician
+Guided Conclusions were compared to available diagnosis established for each
+specimen. Each laboratory was expected to achieve the overall acceptance criteria of
+at least 80% agreement with the available diagnosis, with no more than 10% non-
+agreement. As can be seen in the table below, all four laboratories achieved the
+criteria, with Site 2 as the poorest performer with 87.8% agreement. No laboratory
+reported more than 5% non-agreement.
+Table 3 Physician Guided Conclusion (PGC) agreement with available diagnosis
+Stratification # Specimens % Agreement % Non- % Indeterminate
+agreement
+Site 1 48 93.8% (45/48) 2.1% (1/48) 4.2% (2/48)
+Site 2 49 87.8% (43/49) 4.2% (2/49) 8.2% (4/49)
+Site 3 48 91.7% (44/48) 2.1% (1/48) 6.3% (3/48)
+Site 4 47 91.5% (43/47) <0.1% (0/47) 8.55 (4/47)
+Overall 192 91.2% (175/192) 2.1% (4/192) 6.9% (13/192)
+b. Linearity/assay reportable range:
+Linearity is not applicable for this range of assay.
+c. Traceability, Stability, Expected values (controls, calibrators, or methods):
+Quality Control
+Specimen Processing Controls:
+The following quality control checks are required during specimen processing to
+assure reliable results:
+1) Amount of total RNA extracted from tissue specimens: minimum of 1.0 μg.
+6
+
+[Table 1 on page 6]
+	Reproducibility of Similarity Scores					
+Similarity Score Range		Specimens, n	Replicates*	Std. Deviation, avg.	CV%, avg.	
+0 to 20		3	12	4.0	37.6	
+20 to 40		4	12	9.7	28.9	
+40 to 60		2	8	8.2	15.2	
+60 to 80		19	74	13.9	20.2	
+80 to 100		23	82	4.7	5.3	
+
+[Table 2 on page 6]
+Stratification	# Specimens	% Agreement	% Non-
+agreement	% Indeterminate
+Site 1	48	93.8% (45/48)	2.1% (1/48)	4.2% (2/48)
+Site 2	49	87.8% (43/49)	4.2% (2/49)	8.2% (4/49)
+Site 3	48	91.7% (44/48)	2.1% (1/48)	6.3% (3/48)
+Site 4	47	91.5% (43/47)	<0.1% (0/47)	8.55 (4/47)
+Overall	192	91.2% (175/192)	2.1% (4/192)	6.9% (13/192)
+
+--- Page 7 ---
+2) Amount of fragmented, labeled cRNA used for hybridization to Pathchip
+microarrays: 10 μg.
+To ensure that a sufficient quantity of high quality labeled cRNA is obtained for
+hybridization to Pathchip microarrays, it is recommended that:
+1) All procedures in the Pathwork Specimen Processing Guide are followed
+efficiently to reduce RNase degradation.
+2) No more than 60 minutes between excision and freezing of the biopsy specimen.
+3) A minimum of 100 mg tissue be used as starting material for extraction of total
+RNA.
+4) Biopsy specimen should contain at least 60% tumor and no more than 20%
+necrosis
+5) Absorbance measurements of total RNA give an A260/A280 ratio of at least 1.7.
+6) Amount of labeled cRNA used for fragmentation: minimum of 15 μg.
+Endogenous Pathchip Controls:
+In addition to these external controls, the Pathwork Tissue of Origin test utilizes
+endogenous mRNA markers that are found in human tissue specimens and are
+captured on the Pathchip microarray to perform a series of data verifications that
+detect laboratory processing anomalies found to unfavorably influence the accuracy
+of the Pathwork Tissue of Origin test. These data verifications include the detection
+of regional discontinuities and low overall signal. When a submitted file fails one or
+more of the data verifications, the system software will return a Tissue of Origin Test
+Report flagged as follows: "The gene expression data file submitted failed data
+verification. This can be caused by a poor quality specimen or an error in laboratory
+processing. Specifics shown in CAUTION below.”
+Device stability: The shelf life of Pathchip is one year from the date of manufacture
+when stored at 2º C to 8ºC.
+d. Detection limit:
+Dilution study _ Labeled cRNA:
+Dilution study was performed to demonstrate that the Tissue of Origin test is robust
+against reasonable variations in the amount of labeled cRNA used in hybridization.
+The study used 15 different frozen human tissue (FHT) specimens, three (3) each
+from breast, colorectal, lung, lymphoma and pancreas tissues of origin. RNA was
+extracted and processed to the point of labeled cRNA. For each specimen, Pathchip
+arrays were hybridized with each of the five dilutions (20, 15, 10, 7.5 and 5 μg) of
+labeled cRNA. Subsequent processing of all 15 specimens x 5 dilutions (= 75 arrays)
+were performed per the recommended protocol. Four samples from one specimen
+were excluded because of low data verification values. The data was analyzed using
+linear regression and correlation analysis to assess equivalence. Based on the data,
+the Tissue of Origin Test User Guide specifies 10 ± 2 μg cRNA.
+e. Analytical specificity:
+Several potential interfering substances in tumor biopsy were evaluated for potential
+adverse effects.
+Adipose Tissue: To examine whether the adipose tissue in breast tumors is a
+7
+
+--- Page 8 ---
+potential interferrent and produce adverse effects in the Tissue of Origin test,
+Physician Guided Conclusion (PGC) from 69 breast-related specimens included in the
+clinical validation were compared to its available clinical diagnosis. Available
+clinical diagnosis from Breast-related specimens were in 94.2% agreement with PGC,
+compared to all specimens which had 87.8% agreement.
+RNases: To examine whether RNases in pancreas tumors produce adverse effects in
+Tissue of Origin test, the results from FHT biopsy specimens were stratified to
+evaluate pancreatic tumors for RNases interference. The clinical validation included
+25 pancreas-related specimens. Available clinical diagnoses from pancreas-related
+specimens were in 72% agreement with PGC, compared to all specimens which had
+87.8% agreement. Since there is a lower performance than for all the other
+specimens, this is cited under Limitations in the user guide.
+Fibrous material: To examine whether fibrous material in skin-related specimens,
+produce adverse effects in the Tissue of Origin Test, the results from FHT biopsy
+specimens used in the clinical validation were stratified to evaluate the effect from
+melanomas and skin-related biopsies. The clinical validation included 27 skin-related
+specimens. Available clinical diagnoses from skin-related specimens were in 81.5%
+agreement with PGC, compared to all specimens which had 87.8% agreement.
+Tissue of Origin Test does not demonstrate apparent adverse effects with this
+interfering substance.
+Necrotic tissue: To examine whether necrotic tissue produce adverse effects in use
+of the Tissue of Origin Test, the results from the FHT biopsy specimens used in the
+clinical validation study were stratified by percent necrosis. Based on the %
+agreement, a cut-off of 20% necrosis or less is recommended as a quality control
+measure for biopsy specimen inclusion criteria for this test.
+f. Assay cut-off:
+Guide to Report Interpretation:
+The Similarity Score (SS) is a measure of the similarity of the RNA expression
+pattern of the specimen to the RNA expression pattern of the indicated tissue.
+Similarity Scores range from 0 (very low similarity) to 100 (very high similarity) and
+sum to 100 across all 15 tissues on the panel.
+SS ≥ 30: A single SS greater than or equal to 30 indicates the likely tissue of origin.
+If two or three SS’s are greater than or equal to 30, then one of those results indicates
+the likely tissue of origin.
+5 < SS < 30: If every SS is between 5 and 30, then the test result is
+indeterminate and no tissue of origin is indicated.
+SS ≤ 5: An SS less than or equal to 5 rules out that tissue type as the likely tissue
+of origin.
+2. Comparison studies:
+a. Method comparison with available diagnosis:
+The clinical validation involved a total of four different processing sites. The study
+included 25 to 69 samples per tissue on the panel, with an average of 36 specimens
+8
+
+--- Page 9 ---
+per tissue. The specimens included poorly differentiated, undifferentiated and
+metastatic tumor specimens. Of the total 659 tumor specimens processed in this
+study, 545 specimens met the labeling limitations for tumor grade and available
+diagnosis and passed the data verification quality tests.
+To assess the accuracy of the results reported by each laboratory, the Physician
+Guided Conclusions were compared to available diagnosis established for each
+specimen. Based on the n = 545 results, the probability that a true positive tissue call
+was obtained when a Similarity Score of ≥ 30 was reported was 92.9%, 95% CI [90.3,
+95.0], and the probability that a true negative tissue call was obtained when a
+Similarity Score of ≤ 5 was reported was 99.7%, 95% CI [99.6, 99.8]. Each
+laboratory was expected to achieve the overall acceptance criteria of at least 80%
+agreement with the available diagnosis, with no more than 10% non-agreement.
+The detailed results are presented in Tables 4 – 7.
+Positive Percent Agreement (PPA) –100*TP/POS, where TP is the number of test
+results that match the available diagnoses for the given tissue of origin and POS is the
+total number of positive specimens as per available diagnosis for the given tissue of
+origin.
+Negative Percent Agreement (NPA) – 100*(1-(FP/NEG)), where FP is the number
+of test results that are false positive (as per the available diagnoses) for the given
+tissue of origin and NEG is the number of negative specimens as per the available
+diagnosis for the given tissue of origin.
+Non-Agreement (%) – the percent of POS specimens in which the Pathwork test
+result does not agree with the available diagnosis and is not indeterminate.
+Indeterminate (%) – the percent of POS specimens in which the Pathwork test result
+is indeterminate.
+Area Under ROC Curve (AUC) – is the size of the area under the Receiver
+Operating Characteristic (ROC) curve. The ROC curve for the Tissue of Origin Test
+is obtained by plotting PPA/100 (i.e., sensitivity) vs. one minus NPA/100 (i.e., one
+minus specificity) for different values of the Similarity Score cut-off. (AUC ranges
+from 0.0 to 1.0, where 0.5 is achievable by a random test and 1.0 indicates perfect
+agreement).
+9
+
+--- Page 10 ---
+Table 4: TISSUE OF ORIGIN TEST PERFORMANCE*
+Area
+Positive Percent Negative Percent
+Available Non-Agreement Indeterminate Under
+Agreement Agreement
+Diagnosis (%, ratio, 95% CI) (%, ratio, 95% CI) ROC
+(%, ratio, 95% CI) (%, ratio, 95% CI)
+Curve
+78.6% (22/28) 100.0% (517/517) 14.3% (4/28) 7.1% (2/28)
+Bladder 0.996
+[59.0, 91.7] [99.3, 100.0] [4.0, 32.7] [0.9, 23.5]
+94.1% (64/68) 98.5% (470/477) 5.9% (4/68) < 0.1% (0/68)
+Breast 0.979
+[85.6, 98.4] [97.0, 99.4] [1.6, 14.4] [0.0, 4.3]
+94.6% (53/56) 99.2% (485/489) 5.4% (3/56) < 0.1% (0/56)
+Colorectal 0.980
+[85.1, 98.9] [97.9, 99.8] [1.1, 14.9] [0.0, 5.2]
+76.0% (19/25) 99.8% (519/520) 16.0% (4/25) 8.0% (2/25)
+Gastric 0.970
+[54.9, 90.6] [98.9, 100.0] [4.5, 36.1] [1.0, 26.0]
+92.0% (23/25) 99.8% (519/520) <0.1% (0/25) 8.0% (2/25)
+Hepatocellular 0.999
+[74.0, 99.0] [98.9, 100.0] [0.0, 11.3] [1.0, 26.0]
+94.9% (37/39) 99.8% (505/506) 2.6% (1/39) 2.6% (1/39)
+Kidney 0.975
+[82.7, 99.4] [98.9, 100.0] [0.1, 13.5] [0.1, 13.5]
+84.6% (22/26) 99.8% (518/519) 7.7% (2/26) 7.7% (2/26)
+Melanoma 0.999
+[65.1, 95.6] [98.9, 100.0] [0.9, 25.1] [0.9, 25.1]
+Non- 93.9% (31/33) 99.4% (509/512) 3.0% (1/33) 3.0% (1/33)
+Hodgkin’s 0.999
+[79.8, 99.3] [98.3, 99.9] [0.1, 15.8] [0.1, 15.8]
+Lymphoma
+Non-small Cell 90.3% (28/31) 98.6% (507/514) 6.5% (2/31) 3.2% (1/31)
+0.991
+Lung [74.2, 98.0] [97.2, 99.5] [0.8, 21.4] [0.1, 16.7]
+94.2% (65/69) 99.4% (473/476) 2.9% (2/69) 2.9% (2/69)
+Ovarian 0.996
+[85.8, 98.4] [98.2, 99.9] [0.4, 10.1] [0.4, 10.1]
+76.0% (19/25) 99.8% (519/520) 16.0% (4/25) 8.0% (2/25)
+Pancreas 0.953
+[54.9, 90.6] [98.9, 100.0] [4.5, 36.1] [1.0, 26.0]
+88.5% (23/26) 100.0% (519/519) 3.8% (1/26) 7.7% (2/26)
+Prostate 0.998
+[69.8, 97.6] [99.3, 100.0] [0.1, 19.6] [0.9, 25.1]
+Soft-tissue 83.9% (26/31) 99.4% (511/514) 9.7% (3/31) 6.5% (2/31)
+0.972
+Sarcoma [66.3, 94.5] [98.3, 99.9] [2.0, 25.8] [0.8, 21.4]
+Testicular 82.1% (23/28) 100.0% (517/517) 3.6% (1/28) 14.3% (4/28)
+0.999
+Germ Cell [63.1, 93.9] [99.3, 100.0] [0.1, 18.3] [4.0, 32.7]
+91.4% (32/35) 99.6% (508/510) 5.7% (2/35) 2.9% (1/35)
+Thyroid 0.976
+[76.9, 98.2] [98.6, 100.0] [0.7, 19.2] [0.1, 14.9]
+89.4% (487/545) 99.6% (507/509) 6.2% (34/545) 4.4% (24/545)
+Overall
+[86.5, 91.8] [98.6, 100.0] [4.4, 8.6] [2.8, 6.5]
+*As described in the Guide to Report Interpretation, if two or three SS are greater
+than or equal to 30, then one of those results indicates the likely tissue of origin. In
+the clinical validation study, this occurred in 11 of 545 specimens or 2%.
+In Table 4 above, if one of the two SS was the tissue of origin, this was
+counted as an agreement. In Table 5 below, this was counted as a non-
+agreement due to presence of a second tissue (non-agreement). Note that for
+each of the eleven specimens, one of the two SS ≥ 30 did, indeed, correspond
+to the actual tissue of origin.
+10
+
+[Table 1 on page 10]
+Available
+Diagnosis	Positive Percent
+Agreement
+(%, ratio, 95% CI)	Negative Percent
+Agreement
+(%, ratio, 95% CI)	Non-Agreement
+(%, ratio, 95% CI)	Indeterminate
+(%, ratio, 95% CI)		Area	
+						Under	
+						ROC	
+						Curve	
+Bladder	78.6% (22/28)
+[59.0, 91.7]	100.0% (517/517)
+[99.3, 100.0]	14.3% (4/28)
+[4.0, 32.7]	7.1% (2/28)
+[0.9, 23.5]	0.996		
+Breast	94.1% (64/68)
+[85.6, 98.4]	98.5% (470/477)
+[97.0, 99.4]	5.9% (4/68)
+[1.6, 14.4]	< 0.1% (0/68)
+[0.0, 4.3]	0.979		
+Colorectal	94.6% (53/56)
+[85.1, 98.9]	99.2% (485/489)
+[97.9, 99.8]	5.4% (3/56)
+[1.1, 14.9]	< 0.1% (0/56)
+[0.0, 5.2]	0.980		
+Gastric	76.0% (19/25)
+[54.9, 90.6]	99.8% (519/520)
+[98.9, 100.0]	16.0% (4/25)
+[4.5, 36.1]	8.0% (2/25)
+[1.0, 26.0]	0.970		
+Hepatocellular	92.0% (23/25)
+[74.0, 99.0]	99.8% (519/520)
+[98.9, 100.0]	<0.1% (0/25)
+[0.0, 11.3]	8.0% (2/25)
+[1.0, 26.0]	0.999		
+Kidney	94.9% (37/39)
+[82.7, 99.4]	99.8% (505/506)
+[98.9, 100.0]	2.6% (1/39)
+[0.1, 13.5]	2.6% (1/39)
+[0.1, 13.5]	0.975		
+Melanoma	84.6% (22/26)
+[65.1, 95.6]	99.8% (518/519)
+[98.9, 100.0]	7.7% (2/26)
+[0.9, 25.1]	7.7% (2/26)
+[0.9, 25.1]	0.999		
+Non-
+Hodgkin’s
+Lymphoma	93.9% (31/33)
+[79.8, 99.3]	99.4% (509/512)
+[98.3, 99.9]	3.0% (1/33)
+[0.1, 15.8]	3.0% (1/33)
+[0.1, 15.8]	0.999		
+Non-small Cell
+Lung	90.3% (28/31)
+[74.2, 98.0]	98.6% (507/514)
+[97.2, 99.5]	6.5% (2/31)
+[0.8, 21.4]	3.2% (1/31)
+[0.1, 16.7]	0.991		
+Ovarian	94.2% (65/69)
+[85.8, 98.4]	99.4% (473/476)
+[98.2, 99.9]	2.9% (2/69)
+[0.4, 10.1]	2.9% (2/69)
+[0.4, 10.1]	0.996		
+Pancreas	76.0% (19/25)
+[54.9, 90.6]	99.8% (519/520)
+[98.9, 100.0]	16.0% (4/25)
+[4.5, 36.1]	8.0% (2/25)
+[1.0, 26.0]	0.953		
+Prostate	88.5% (23/26)
+[69.8, 97.6]	100.0% (519/519)
+[99.3, 100.0]	3.8% (1/26)
+[0.1, 19.6]	7.7% (2/26)
+[0.9, 25.1]	0.998		
+Soft-tissue
+Sarcoma	83.9% (26/31)
+[66.3, 94.5]	99.4% (511/514)
+[98.3, 99.9]	9.7% (3/31)
+[2.0, 25.8]	6.5% (2/31)
+[0.8, 21.4]	0.972		
+Testicular
+Germ Cell	82.1% (23/28)
+[63.1, 93.9]	100.0% (517/517)
+[99.3, 100.0]	3.6% (1/28)
+[0.1, 18.3]	14.3% (4/28)
+[4.0, 32.7]	0.999		
+Thyroid	91.4% (32/35)
+[76.9, 98.2]	99.6% (508/510)
+[98.6, 100.0]	5.7% (2/35)
+[0.7, 19.2]	2.9% (1/35)
+[0.1, 14.9]	0.976		
+Overall	89.4% (487/545)
+[86.5, 91.8]	99.6% (507/509)
+[98.6, 100.0]	6.2% (34/545)
+[4.4, 8.6]	4.4% (24/545)
+[2.8, 6.5]			
+
+[Table 2 on page 10]
+Positive Percent
+Agreement
+(%, ratio, 95% CI)
+
+[Table 3 on page 10]
+Negative Percent
+Agreement
+(%, ratio, 95% CI)
+
+[Table 4 on page 10]
+Available
+Diagnosis
+
+[Table 5 on page 10]
+Non-Agreement
+(%, ratio, 95% CI)
+
+[Table 6 on page 10]
+Indeterminate
+(%, ratio, 95% CI)
+
+--- Page 11 ---
+Table 5: TISSUE OF ORIGIN TEST PERFORMANCE
+(Alternative treatment of results with multiple Similarity Scores ≥ 30)
+Area
+Positive Percent Negative Percent
+Available NonAgreement Indeterminate Under
+Agreement Agreement
+Diagnosis (%, ratio, 95% CI) (%, ratio, 95% CI) ROC
+(%, ratio, 95% CI) (%, ratio, 95% CI)
+Curve
+78.6% (22/28) 100.0% (517/517) 14.3% (4/28) 7.1% (2/28)
+Bladder 0.996
+[59.0, 91.7] [99.3, 100.0] [4.0, 32.7] [0.9, 23.5]
+94.1% (64/68) 98.3% (469/477) 5.9% (4/68) < 0.1% (0/68)
+Breast 0.979
+[85.6, 98.4] [96.7, 99.3] [1.6, 14.4] [0.0, 4.3]
+92.9% (52/56) 98.8% (483/489) 7.1% (4/56) < 0.1% (0/56)
+Colorectal 0.980
+[82.7, 98.0] [97.3, 99.5] [2.0, 17.3] [0.0, 5.2]
+64.0% (16/25) 99.4% (517/520) 28.0% (7/25) 8.0% (2/25)
+Gastric 0.970
+[42.5, 82.0] [98.3, 99.9] [12.1, 49.4] [1.0, 26.0]
+92.0% (23/25) 99.8% (519/520) < 0.1% (0/25) 8.0% (2/25)
+Hepatocellular 0.999
+[74.0, 99.0] [98.9, 100.0] [0.0, 11.3] [1.0, 26.0]
+94.9% (37/39) 99.8% (505/506) 2.6% (1/39) 2.6% (1/39)
+Kidney 0.975
+[82.7, 99.4] [98.9, 100.0] [0.1, 13.5] [0.1, 13.5]
+76.9% (20/26) 99.8% (518/519) 15.4% (4/26) 7.7% (2/26)
+Melanoma 0.999
+[56.4, 91.0] [98.9, 100.0] [4.4, 34.9] [0.9, 25.1]
+Non- 93.9% (31/33) 99.4% (509/512) 3.0% (1/33) 3.0% (1/33)
+Hodgkin’s 0.999
+[79.8, 99.3] [98.3, 99.9] [0.1, 15.8] [0.1, 15.8]
+Lymphoma
+Non-small 87.1% (27/31) 98.4% (506/514) 9.7% (3/31) 3.2% (1/31)
+Cell 0.991
+[70.2, 96.4] [97.0, 99.3] [2.0, 25.8] [0.1, 16.7]
+Lung
+92.8% (64/69) 98.5% (469/476) 4.3% (3/69) 2.9% (2/69)
+Ovarian 0.996
+[83.9, 97.6] [97.0, 99.4] [0.9, 12.2] [0.4, 10.1]
+72.0% (18/25) 99.8% (519/520) 20.0% (5/25) 8.0% (2/25)
+Pancreas 0.953
+[50.6, 87.9] [98.9, 100.0] [6.8, 40.7] [1.0, 26.0]
+88.5% (23/26) 100.0% (519/519) 3.8% (1/26) 7.7% (2/26)
+Prostate 0.998
+[69.8, 97.6] [99.3, 100.0] [0.1, 19.6] [0.9, 25.1]
+Soft-tissue 83.9% (26/31) 99.2% (510/514) 9.7% (3/31) 6.5% (2/31)
+0.972
+Sarcoma [66.3, 94.5] [98.0, 99.8] [2.0, 25.8] [0.8, 21.4]
+Testicular 75.0% (21/28) 100.0% (517/517) 10.7% (3/28) 14.3% (4/28)
+0.999
+Germ Cell [55.1, 89.3] [99.3, 100.0] [2.3, 28.2] [4.0, 32.7]
+91.4% (32/35) 99.6% (508/510) 5.7% (2/35) 2.9% (1/35)
+Thyroid 0.976
+[76.9, 98.2] [98.6, 100.0] [0.7, 19.2] [0.1, 14.9]
+87.3% (476/545) 99.4% (506/509) 8.3% (45/545) 4.4% (24/545)
+Overall
+[84.3, 90.0] [98.3, 99.9] [6.1, 10.9] [2.8, 6.5]
+11
+
+[Table 1 on page 11]
+Available
+Diagnosis	Positive Percent
+Agreement
+(%, ratio, 95% CI)	Negative Percent
+Agreement
+(%, ratio, 95% CI)	NonAgreement
+(%, ratio, 95% CI)	Indeterminate
+(%, ratio, 95% CI)		Area	
+						Under	
+						ROC	
+						Curve	
+Bladder	78.6% (22/28)
+[59.0, 91.7]	100.0% (517/517)
+[99.3, 100.0]	14.3% (4/28)
+[4.0, 32.7]	7.1% (2/28)
+[0.9, 23.5]	0.996		
+Breast	94.1% (64/68)
+[85.6, 98.4]	98.3% (469/477)
+[96.7, 99.3]	5.9% (4/68)
+[1.6, 14.4]	< 0.1% (0/68)
+[0.0, 4.3]	0.979		
+Colorectal	92.9% (52/56)
+[82.7, 98.0]	98.8% (483/489)
+[97.3, 99.5]	7.1% (4/56)
+[2.0, 17.3]	< 0.1% (0/56)
+[0.0, 5.2]	0.980		
+Gastric	64.0% (16/25)
+[42.5, 82.0]	99.4% (517/520)
+[98.3, 99.9]	28.0% (7/25)
+[12.1, 49.4]	8.0% (2/25)
+[1.0, 26.0]	0.970		
+Hepatocellular	92.0% (23/25)
+[74.0, 99.0]	99.8% (519/520)
+[98.9, 100.0]	< 0.1% (0/25)
+[0.0, 11.3]	8.0% (2/25)
+[1.0, 26.0]	0.999		
+Kidney	94.9% (37/39)
+[82.7, 99.4]	99.8% (505/506)
+[98.9, 100.0]	2.6% (1/39)
+[0.1, 13.5]	2.6% (1/39)
+[0.1, 13.5]	0.975		
+Melanoma	76.9% (20/26)
+[56.4, 91.0]	99.8% (518/519)
+[98.9, 100.0]	15.4% (4/26)
+[4.4, 34.9]	7.7% (2/26)
+[0.9, 25.1]	0.999		
+Non-
+Hodgkin’s
+Lymphoma	93.9% (31/33)
+[79.8, 99.3]	99.4% (509/512)
+[98.3, 99.9]	3.0% (1/33)
+[0.1, 15.8]	3.0% (1/33)
+[0.1, 15.8]	0.999		
+Non-small
+Cell
+Lung	87.1% (27/31)
+[70.2, 96.4]	98.4% (506/514)
+[97.0, 99.3]	9.7% (3/31)
+[2.0, 25.8]	3.2% (1/31)
+[0.1, 16.7]	0.991		
+Ovarian	92.8% (64/69)
+[83.9, 97.6]	98.5% (469/476)
+[97.0, 99.4]	4.3% (3/69)
+[0.9, 12.2]	2.9% (2/69)
+[0.4, 10.1]	0.996		
+Pancreas	72.0% (18/25)
+[50.6, 87.9]	99.8% (519/520)
+[98.9, 100.0]	20.0% (5/25)
+[6.8, 40.7]	8.0% (2/25)
+[1.0, 26.0]	0.953		
+Prostate	88.5% (23/26)
+[69.8, 97.6]	100.0% (519/519)
+[99.3, 100.0]	3.8% (1/26)
+[0.1, 19.6]	7.7% (2/26)
+[0.9, 25.1]	0.998		
+Soft-tissue
+Sarcoma	83.9% (26/31)
+[66.3, 94.5]	99.2% (510/514)
+[98.0, 99.8]	9.7% (3/31)
+[2.0, 25.8]	6.5% (2/31)
+[0.8, 21.4]	0.972		
+Testicular
+Germ Cell	75.0% (21/28)
+[55.1, 89.3]	100.0% (517/517)
+[99.3, 100.0]	10.7% (3/28)
+[2.3, 28.2]	14.3% (4/28)
+[4.0, 32.7]	0.999		
+Thyroid	91.4% (32/35)
+[76.9, 98.2]	99.6% (508/510)
+[98.6, 100.0]	5.7% (2/35)
+[0.7, 19.2]	2.9% (1/35)
+[0.1, 14.9]	0.976		
+Overall	87.3% (476/545)
+[84.3, 90.0]	99.4% (506/509)
+[98.3, 99.9]	8.3% (45/545)
+[6.1, 10.9]	4.4% (24/545)
+[2.8, 6.5]			
+
+[Table 2 on page 11]
+Positive Percent
+Agreement
+(%, ratio, 95% CI)
+
+[Table 3 on page 11]
+Negative Percent
+Agreement
+(%, ratio, 95% CI)
+
+[Table 4 on page 11]
+Available
+Diagnosis
+
+[Table 5 on page 11]
+NonAgreement
+(%, ratio, 95% CI)
+
+[Table 6 on page 11]
+Indeterminate
+(%, ratio, 95% CI)
+
+--- Page 12 ---
+Table 6: Overall Tissue of Origin Test Performance:
+Stratification by Metastatic and Primary Tumor Specimens
+Type of Positive Percent Negative Percent Indeterminate
+NonAgreement
+Tumor Agreement Agreement (%, ratio, 95% CI)
+(%, ratio, 95% CI)
+Specimen (%, ratio, 95% CI) (%, ratio, 95% CI)
+86.3% (221/256) 99.6% (238/239) 8.6% (22/256) 5.1% (13/256)
+Metastasis
+[81.5, 90.3] [97.7, 100.0] [5.5, 12.7] [2.7, 8.5]
+92.0% (266/289) 99.6% (269/270) 4.2% (12/289) 3.8% (11/289)
+Primary
+[88.3, 94.9] [98.0, 100.0] [2.2, 7.1] [1.9, 6.7]
+Table 7: Overall Tissue of Origin Test Performance:
+Stratification by Metastatic and Primary Tumor Specimens
+(Alternative treatment of results with multiple Similarity Scores ≥ 30)
+Type of Positive Percent Negative Percent Indeterminate
+Non-Agreement
+Tumor Agreement Agreement (%, ratio, 95% CI)
+(%, ratio, 95% CI)
+Specimen (%, ratio, 95% CI) (%, ratio, 95% CI)
+83.6 (214/256) 99.2% (237/239) 11.3% (29/256) 5.1% (13/256)
+Metastasis
+[78.5, 87.9] [97.0, 99.9] [7.7, 15.9] [2.7, 8.5]
+90.7% (262/289) 99.6% (269/270) 5.5% (16/289) 3.8% (11/289)
+Primary
+[86.7, 93.8] [98.0, 100.0] [3.2, 8.8] [1.9, 6.7]
+b. Matrix comparison:
+Not applicable
+3. Clinical studies:
+a. Clinical Sensitivity:
+Not examined because a reference standard defining diagnostic truth was not
+considered for the clinical studies. Instead, positive percent agreement with the
+available diagnosis was considered (Tables 4 and 5).
+Clinical specificity:
+Not examined because a reference standard defining diagnostic truth was not
+considered for the clinical studies. Instead, negative percent agreement with the
+available diagnosis was considered (Tables 4 and 5).
+b. Performance of the Tissue of Origin Test for Off-Panel Specimens
+Tissue specimens that are off-panel (i.e. not one of the fifteen tissues on the Tissue of
+Origin Test panel) were assessed for similarity in RNA expression pattern with one of
+the 15 tissues on the panel.
+A review of published sources and interviews with practitioners were conducted to
+identify the cancers not included in the 15 tissues on the Pathwork Tissue of Origin
+(TOO) test panel that should be evaluated in this study. Criteria for selection
+12
+
+[Table 1 on page 12]
+	Type of			Positive Percent			Negative Percent		NonAgreement
+(%, ratio, 95% CI)	Indeterminate
+(%, ratio, 95% CI)
+	Tumor			Agreement			Agreement			
+	Specimen			(%, ratio, 95% CI)			(%, ratio, 95% CI)			
+Metastasis			86.3% (221/256)
+[81.5, 90.3]			99.6% (238/239)
+[97.7, 100.0]			8.6% (22/256)
+[5.5, 12.7]	5.1% (13/256)
+[2.7, 8.5]
+Primary			92.0% (266/289)
+[88.3, 94.9]			99.6% (269/270)
+[98.0, 100.0]			4.2% (12/289)
+[2.2, 7.1]	3.8% (11/289)
+[1.9, 6.7]
+
+[Table 2 on page 12]
+Indeterminate
+(%, ratio, 95% CI)
+
+[Table 3 on page 12]
+NonAgreement
+(%, ratio, 95% CI)
+
+[Table 4 on page 12]
+	Type of			Positive Percent			Negative Percent		Non-Agreement
+(%, ratio, 95% CI)	Indeterminate
+(%, ratio, 95% CI)
+	Tumor			Agreement			Agreement			
+	Specimen			(%, ratio, 95% CI)			(%, ratio, 95% CI)			
+Metastasis			83.6 (214/256)
+[78.5, 87.9]			99.2% (237/239)
+[97.0, 99.9]			11.3% (29/256)
+[7.7, 15.9]	5.1% (13/256)
+[2.7, 8.5]
+Primary			90.7% (262/289)
+[86.7, 93.8]			99.6% (269/270)
+[98.0, 100.0]			5.5% (16/289)
+[3.2, 8.8]	3.8% (11/289)
+[1.9, 6.7]
+
+[Table 5 on page 12]
+Indeterminate
+(%, ratio, 95% CI)
+
+[Table 6 on page 12]
+Non-Agreement
+(%, ratio, 95% CI)
+
+--- Page 13 ---
+included:
+• Commonly known to metastasize
+• Challenging or difficult to diagnose
+• Likely to present as an uncertain primary cancer
+This review selected the following: cancer of the uterine cervix, endometrium,
+esophagus, small cell lung, and squamous cell carcinoma of the head & neck. The
+study involved 143 off-panel tissue specimens from uterine cervix (n = 42),
+endometrium (n = 49), esophagus (n = 28), small cell carcinoma of lung (n = 4),
+ovarian germ cell (n=2), and squamous cell carcinoma of the head and neck (Sq.
+Head & Neck; n = 18).
+Results:
+Table 8 shows the performance of the Tissue of Origin (TOO) test for tissue
+specimens that are “off-panel” (i.e. not one of the fifteen tissues on the Tissue of
+Origin Test panel). For off-panel cancers, a similarity score >= 30 for a cancer on
+panel indicates a false positive association with that cancer, according to the Guide to
+Report Interpretation. For each off-panel tissue type, a high false positive percentage
+was observed, especially endometrial cancer with ovarian cancer.
+Table 8: Off-panel tumor types with RNA expression patterns that are similar to
+patterns in the database.
+TOO
+Total
+Reports Total Total False
+Specimen TOO Result Specimens
+with 2 SS Indeterminates Positives
+(n = 143)
+≥ 30
+n n %I n %
+Endometrium 49 2 1 2.0 48 98.0
+Esophagus 28 1 6 21.4 22 78.6
+Small Cell Lung 4 0 0 0.0 4 100.0
+Ovarian Germ Cell 2 0 1 50.0 1 50.0
+Sq. Head & Neck 18 0 7 38.9 11 61.1
+Uterine cervix 42 2 6 14.3 36 85.7
+Table 9: Break down table of false positives in Table 8
+Specime Total
+n False Distribution of Similarity Scores ≥ 30 across the 15 tissues on the TISSUE OF ORIGIN panel
+Positives
+N BL BR CO GA GC LI KI LY LU ME OV PA PR SC TH
+Endomet
+48 1 2 2 43 2
+rium
+Esophag
+22 1 1 4 14 2 1
+us
+Small
+Cell 4 4
+Lung
+Ovarian
+Germ 1 1
+Cell
+Sq. Head
+11 2 2 6 1
+& Neck
+Uterine
+36 6 9 10 1 6 5 1
+cervix
+13
+
+[Table 1 on page 13]
+Specimen TOO Result	Total
+Specimens
+(n = 143)	TOO
+Reports
+with 2 SS
+≥ 30	Total
+Indeterminates		Total False
+Positives	
+	n		n	%I	n	%
+Endometrium	49	2	1	2.0	48	98.0
+Esophagus	28	1	6	21.4	22	78.6
+Small Cell Lung	4	0	0	0.0	4	100.0
+Ovarian Germ Cell	2	0	1	50.0	1	50.0
+Sq. Head & Neck	18	0	7	38.9	11	61.1
+Uterine cervix	42	2	6	14.3	36	85.7
+
+[Table 2 on page 13]
+Specime
+n	Total
+False
+Positives	Distribution of Similarity Scores ≥ 30 across the 15 tissues on the TISSUE OF ORIGIN panel														
+	N	BL	BR	CO	GA	GC	LI	KI	LY	LU	ME	OV	PA	PR	SC	TH
+Endomet
+rium	48	1	2							2		43			2	
+Esophag
+us	22	1	1	4	14					2			1			
+Small
+Cell
+Lung	4									4						
+Ovarian
+Germ
+Cell	1					1										
+Sq. Head
+& Neck	11	2	2							6						1
+Uterine
+cervix	36	6	9	10					1	6		5			1	
+
+--- Page 14 ---
+c. Other clinical supportive data (when a. and b. are not applicable):
+None
+4. Clinical cut-off:
+Same as Assay cut-off
+5. Expected values/Reference range:
+Not applicable
+N. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+O. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+14

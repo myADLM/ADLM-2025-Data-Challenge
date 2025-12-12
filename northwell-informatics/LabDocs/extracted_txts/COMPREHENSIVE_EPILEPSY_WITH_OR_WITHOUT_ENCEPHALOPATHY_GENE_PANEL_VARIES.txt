@@ -1,0 +1,98 @@
+STANDARD OPERATING PROCEDURE
+Title: Analytical Phase for Generating Results for Comprehensive
+Epilepsy with or without Encephalopathy Gene Panel
+1. PURPOSE
+To establish a standardized procedure for the analysis and
+interpretation of the Comprehensive Epilepsy with or without
+Encephalopathy Gene Panel in order to ensure reliable, accurate,
+and timely test results.
+2. SCOPE
+This procedure applies to all laboratory personnel involved in the
+analysis of the Comprehensive Epilepsy with or without
+Encephalopathy Gene Panel.
+3. RESPONSIBILITY
+All laboratory personnel performing analysis are responsible for
+adhering to this protocol. It is the responsibility of the laboratory
+supervisor to ensure that all personnel are trained, the procedure is
+followed correctly, and any deviations are documented and
+addressed.
+4. DEFINITIONS
+• Comprehensive Epilepsy with or without Encephalopathy Gene
+Panel: A genetic test that identifies mutations in specific genes
+associated with epilepsy and encephalopathy to assist in
+diagnosis, prognosis, and management.
+5. REQUIRED MATERIALS AND EQUIPMENT
+• DNA Extraction Kit (validated for blood, saliva, or tissue
+specimens)
+• Library Preparation Kit specific for the gene panel
+• Next-Generation Sequencing (NGS) platform (e.g., Illumina, Ion
+Torrent)
+• Bioinformatics analysis software
+• Reference genome data
+• Quality control materials
+• Laboratory Information Management System (LIMS)
+• Gel electrophoresis apparatus
+• Reagents for PCR and quantification
+• Computer with internet access and required software for data
+analysis
+6. PROCEDURE
+A) DNA Extraction and Quantification:
+1. Validate and utilize the appropriate DNA extraction kit based on
+the type of specimen received.
+2. Measure DNA concentration and quality using a
+spectrophotometer or fluorometer.
+3. Record extraction details in LIMS.
+B) Library Preparation:
+1. Perform library preparation for sequencing as per the
+manufacturer's protocol for the specific gene panel.
+2. Quantify and assess the quality of the library using appropriate
+methods (e.g., qPCR, bioanalyzer).
+3. Normalize the DNA libraries to the required concentration.
+C) Sequencing:
+1. Load the prepared and normalized libraries onto the sequencer
+as per the sequencing platform's instructions.
+2. Program the sequencer for the run, inputting the gene panel
+specifications and run parameters.
+3. Monitor the sequencing run, ensuring data integrity and prompt
+intervention if instrument errors occur.
+D) Data Analysis:
+1. Import the raw sequencing data into the bioinformatics analysis
+software.
+2. Align the reads to the reference genome to identify variants.
+3. Filter and annotate variants based on criteria such as read
+depth, quality score, and clinical relevance.
+4. Use appropriate databases and literature to predict the
+pathogenicity of identified variants.
+E) Interpretation and Reporting:
+1. Review the filtered and annotated variant list.
+2. Interpret the clinical significance of the variants based on
+established guidelines (e.g., ACMG).
+3. Prepare a comprehensive report detailing the findings, including
+identified pathogenic, likely pathogenic, variants of uncertain
+significance, benign, and likely benign variants.
+4. Review and sign off the report by a qualified geneticist or
+pathologist.
+F) Quality Control:
+1. Include positive and negative control samples in each run.
+2. Document quality metrics and ensure they meet the established
+acceptance criteria.
+3. Troubleshoot and address any quality control failures before
+proceeding with analysis.
+G) Documentation:
+1. Ensure all steps, from specimen reception through reporting,
+are documented in the LIMS.
+2. Archive all raw data, analysis files, and reports according to
+laboratory guidelines.
+7. LIMITATIONS
+• This protocol is limited to the detection of genetic variants
+included in the specific gene panel and may not detect all
+mutations associated with epilepsy or encephalopathy.
+• Variants in regions with low coverage or high GC content may
+require confirmation by an alternative method.
+8. REFERENCES
+• Manufacturer's protocols for DNA extraction, library preparation,
+and sequencing.
+• ACMG guidelines for variant classification and interpretation.
+• Reference genome and variant databases (e.g., ClinVar, dbSNP).
+• Internal laboratory quality control and assurance protocols.
+End of SOP---

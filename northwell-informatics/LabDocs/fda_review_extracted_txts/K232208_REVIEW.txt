@@ -1,0 +1,869 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K232208
+B Applicant
+Sectra AB
+C Proprietary and Established Names
+Sectra Digital Pathology Module (3.3)
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 864.3700 -
+QKQ Class II Whole Slide Imaging PA - Pathology
+System
+II Submission/Device Overview:
+Purpose for Submission:
+New Device
+A Type of Test:
+Not applicable – software only device
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for the Use below.
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+QKQ			Class II	21 CFR 864.3700 -
+Whole Slide Imaging
+System			PA - Pathology
+
+--- Page 2 ---
+B Indication(s) for Use:
+For In Vitro Diagnostic Use
+Sectra Digital Pathology Module (3.3) is a software device intended for viewing and
+management of digital images of scanned surgical pathology slides prepared from formalin-fixed
+paraffin embedded (FFPE) tissue. It is an aid to the pathologist to review and interpret these
+digital images for the purposes of primary diagnosis.
+Sectra Digital Pathology Module (3.3) is not intended for use with frozen section, cytology, or
+non-FFPE hematopathology specimens. It is the responsibility of the pathologist to employ
+appropriate procedures and safeguards to assure the validity of the interpretation of images using
+Sectra Digital Pathology Module (3.3).
+Sectra Digital Pathology Module (3.3) is intended for use with Leica’s Aperio GT 450 DX
+scanner and Dell U3223QE display, for viewing and management of the ScanScope Virtual Slide
+(SVS) and Digital Imaging and Communications in Medicine (DICOM) image formats.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+IV Device/System Characteristics:
+A Device Description:
+The Sectra Digital Pathology Module (3.3) [henceforth referred to DPAT (3.3)] is a digital slide
+viewing system for viewing and managing digital pathology images of glass slides obtained from
+the Aperio GT 450 DX scanner and viewed on the Dell U3223QE display. The DPAT (3.3) can
+only be used in combination with the external image server provided by Sectra picture archiving
+and communications system (PACS). The end user must log in to Sectra Workstation to access
+the subject device. Sectra Workstation is available in two models: IDS7 and UniView. UniView
+is an equivalent, web-based version of IDS7. The architecture of DPAT (3.3) consists of the
+following elements:
+• Pathology Image Window (PIW) where the scanned slides are viewed and manipulated
+by end users. The PIW is a web application embedded into Sectra Workstation to offer a
+seamless user experience.
+• Sectra Pathology Server (SPS) is the main server component of the web-based Pathology
+Image Window. The SPS supports displaying and manipulating the scanned slides.
+• Database Engine stores metadata such as annotations required by the SPS.
+• Sectra Pathology Import Server (SPIS) is used for importing digital pathology images
+(from scanned slides) from the Aperio GT 450 DX scanner as an alternative to the
+scanner sending images to Sectra PACS using the standard DICOM Storage.
+K232208 - Page 2 of 14
+
+--- Page 3 ---
+The system capabilities include:
+• retrieving and displaying digital slides
+• including support for remote intranet access over computer networks
+• providing tools for annotating digital slides and entering and editing metadata associated with
+digital slides
+• displaying the scanned slide images for primary diagnosis by pathologists
+The DPAT (3.3) is operated as follows:
+1. The DPAT (3.3) receives quality-controlled images from the Aperio GT 450 DX scanner and
+extracts a copy of the images’ metadata. The unaltered images are then sent to the external
+image storage (Sectra Core). A copy of the image metadata (e.g., the pixel size) is stored
+locally in the subject device to increase the operational performance (e.g., response times) of
+the subject device.
+2. The reading pathologist selects a case (patient) from a worklist external to the subject
+device such as the laboratory information system (LIS) whereby the SPS fetches the
+associated images from the Sectra Core.
+3. The reading pathologist uses DPAT (3.3) to view the images and is able to perform the
+following actions, as needed:
+• Zoom and pan the image
+• Measure distances and areas in the image
+• Annotate images
+• View multiple images side by side in a synchronized fashion
+After viewing all images belonging to a particular case (patient), the pathologist will make a
+diagnosis. The diagnosis is documented in another system such as the LIS.
+DPAT (3.3) operates with the following components listed below in Table 1.
+Table 1: Interoperable Components Intended for Use with Sectra Digital Pathology Module (3.3)
+Scanner Hardware Scanner Output Interoperable Viewing Interoperable
+file format Software Display
+Aperio GT 450 DX SVS Sectra Digital Pathology Dell U3223QE
+scanner Module (3.3)
+Aperio GT 450 DX DICOM Sectra Digital Pathology Dell U3223QE
+scanner Module (3.3)
+Minimum System Requirements - Computer Environment
+The system requirements are given in Tables 2 through 4 below.
+K232208 - Page 3 of 14
+
+[Table 1 on page 3]
+Scanner Hardware	Scanner Output	Interoperable Viewing	Interoperable
+	file format	Software	Display
+			
+Aperio GT 450 DX
+scanner	SVS	Sectra Digital Pathology
+Module (3.3)	Dell U3223QE
+Aperio GT 450 DX
+scanner	DICOM	Sectra Digital Pathology
+Module (3.3)	Dell U3223QE
+
+--- Page 4 ---
+Table 2: Requirements for PIW
+Sectra Workstation (Host for
+subject device) IDS7 UniView
+Operating system MS Windows 11 or 10 (x64)
+CPU 4-core CPU, 3.6 GHz
+RAM 8 GB
+Graphics board NVIDIA T600 or Quadro P1000 with 4GB
+Network 1 Gbit/s LAN connection
+3D mouse 3Dconnexion SpaceMouse N/A
+Pro
+Browser N/A Google Chrome or MS Edge
+Hardware acceleration N/A Enabled
+WebGL support N/A Required
+Table 3: Server (SPDB and SPS) Requirements
+Operating system & • Windows Server 2019 Std Ed, with SQL Server 2019 Std Ed
+Database Engine (SPDB) • Windows Server 2016 Std Ed, with SQL Server 2016 SP3
+Std Ed (upgrades only)
+• Windows Server 2012 R2 Std Ed, with SQL Server 2012 SP4
+Std Ed (upgrades only)
+• .NET 6
+Operating System & Sectra • Windows Server 2019
+Pathology Import Service • Windows Server 2016 (upgrades only)
+(SPIS) • Windows Server 2012 R2 (upgrades only)
+• Windows 11
+• Windows 10
+• .NET 6
+Table 4: Recommended Configurations, Server
+Sectra Pathology Server (SPDB and SPS)
+CPU RAM 8 cores CPU, e.g., 1x Intel Xeon 4110 CPU 32 GB
+Disk Network RAM
+2x 146 GB system disk (mirrored)
+Gigabit LAN connection
+Sectra Pathology Import Service - SPIS
+K232208 - Page 4 of 14
+
+[Table 1 on page 4]
+Sectra Workstation (Host for		
+subject device)	IDS7	UniView
+Operating system	MS Windows 11 or 10 (x64)	
+CPU	4-core CPU, 3.6 GHz	
+RAM	8 GB	
+Graphics board	NVIDIA T600 or Quadro P1000 with 4GB	
+Network	1 Gbit/s LAN connection	
+3D mouse	3Dconnexion SpaceMouse
+Pro	N/A
+Browser	N/A	Google Chrome or MS Edge
+Hardware acceleration	N/A	Enabled
+WebGL support	N/A	Required
+
+[Table 2 on page 4]
+Operating system &
+Database Engine (SPDB)	• Windows Server 2019 Std Ed, with SQL Server 2019 Std Ed
+• Windows Server 2016 Std Ed, with SQL Server 2016 SP3
+Std Ed (upgrades only)
+• Windows Server 2012 R2 Std Ed, with SQL Server 2012 SP4
+Std Ed (upgrades only)
+• .NET 6
+Operating System & Sectra
+Pathology Import Service
+(SPIS)	• Windows Server 2019
+• Windows Server 2016 (upgrades only)
+• Windows Server 2012 R2 (upgrades only)
+• Windows 11
+• Windows 10
+• .NET 6
+
+[Table 3 on page 4]
+Sectra Pathology Server (SPDB and SPS)	
+CPU RAM
+Disk Network	8 cores CPU, e.g., 1x Intel Xeon 4110 CPU 32 GB
+RAM
+2x 146 GB system disk (mirrored)
+Gigabit LAN connection
+Sectra Pathology Import Service - SPIS	
+
+--- Page 5 ---
+Sectra Pathology Server (SPDB and SPS)
+CPU RAM 4 vCPU
+Disk Network 8 GB vRAM
+146 GB system disk
+Gigabit LAN connection
+B Instrument Description Information:
+1. Instrument Name:
+Sectra Digital Pathology Module (3.3)
+2. Specimen Identification:
+The Sectra Digital Pathology Module (3.3) uses digital pathology images obtained from the
+Aperio GT 450 DX scanner of Hematoxylin and Eosin (H&E) stained glass slides. The
+reading pathologist selects a case (patient) from a worklist external to the subject device
+whereby the subject device fetches the associated images from the external image storage.
+The scanned images are identified based on the previously assigned specimen identifier such
+as the laboratory specimen accession number.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes biopsy or resection specimens which are
+processed using histology techniques. The FFPE tissue section is hematoxylin & eosin
+(H&E) stained. Digital images are then obtained from these glass slides using the Aperio GT
+450 DX scanner.
+4. Calibration:
+Not Applicable
+5. Quality Control:
+The subject device receives quality-controlled images from the scanner. The subject device
+specific quality control measures are as follows:
+• Connect scanner - This test should be performed before connecting the scanner to
+the subject device in order to verify the on-site integration between the Aperio GT 450 DX
+scanner and the Sectra Workstation.
+• View pathology images - Every pathologist should perform this test on review workstation
+before reading pathology images using the subject device to ensure that all scanned slide
+images have been imported and for every case, view the thumbnails in the pathology image
+window to verify that each slide that should be in the case is present (manually verifying
+tissue block and staining information from LIS).
+Additional details of the quality control procedures are provided in the device User’s Guide
+and the Installation Guide.
+K232208 - Page 5 of 14
+
+[Table 1 on page 5]
+Sectra Pathology Server (SPDB and SPS)	
+CPU RAM
+Disk Network	4 vCPU
+8 GB vRAM
+146 GB system disk
+Gigabit LAN connection
+
+--- Page 6 ---
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Aperio GT 450 DX
+B Predicate 510(k) Number(s):
+K232202
+C Comparison with Predicate(s):
+Device & Sectra Digital Pathology
+Aperio GT 450 DX
+Predicate Module (3.3)
+K232202
+Device(s): K232208
+General Device Characteristic: Similarities
+Sectra Digital Pathology
+The Aperio GT 450 DX is an automated digital slide creation and
+Module (3.3) is a software
+viewing system. The Aperio GT 450 DX is intended for in vitro
+device intended for
+diagnostic use as an aid to the pathologist to review and interpret
+viewing and management
+digital images of surgical pathology slides prepared from
+of digital images of
+formalin-fixed paraffin embedded (FFPE) tissue. The Aperio GT
+scanned surgical
+450 DX is for creation and viewing of digital images of scanned
+pathology slides prepared
+glass slides that would otherwise be appropriate for manual
+from formalin-fixed
+visualization by conventional light microscopy.
+paraffin embedded
+(FFPE) tissue. It is an aid
+Aperio GT 450 DX is comprised of the Aperio GT450 DX
+to the pathologist to
+scanner, which generates images in the Digital Imaging and
+review and interpret these
+Communications in Medicine (DICOM) and in the ScanScope
+digital images for the
+Virtual Slide (SVS) file formats, the Aperio WebViewer DX
+Intended purposes of primary
+viewer, and the displays. The Aperio GT 450 DX is intended to be
+Use/Indicati diagnosis.
+used with the interoperable components specified in Table 1.
+ons for Use
+Sectra Digital Pathology
+Table 1: Interoperable components of Aperio GT 450 DX
+Module (3.3) is not
+Scanner Scanner Interoperable Interoperable
+intended for use with
+Hardware
+Output file Viewing Displays
+frozen section, cytology,
+format Software
+or non-FFPE
+hematopathology Aperio GT SVS Aperio Barco
+specimens. It is the 450 DX WebViewe MDPC-
+responsibility of the scanner r DX 8127
+pathologist to employ
+Dell UP3017
+appropriate procedures
+and safeguards to assure Dell U3023E
+the validity of the
+Dell U3223QE
+interpretation of images
+K232208 - Page 6 of 14
+
+[Table 1 on page 6]
+	Device &			Sectra Digital Pathology		Aperio GT 450 DX
+K232202	
+	Predicate			Module (3.3)			
+	Device(s):			K232208			
+	General Device Characteristic: Similarities						
+Intended
+Use/Indicati
+ons for Use			Sectra Digital Pathology
+Module (3.3) is a software
+device intended for
+viewing and management
+of digital images of
+scanned surgical
+pathology slides prepared
+from formalin-fixed
+paraffin embedded
+(FFPE) tissue. It is an aid
+to the pathologist to
+review and interpret these
+digital images for the
+purposes of primary
+diagnosis.
+Sectra Digital Pathology
+Module (3.3) is not
+intended for use with
+frozen section, cytology,
+or non-FFPE
+hematopathology
+specimens. It is the
+responsibility of the
+pathologist to employ
+appropriate procedures
+and safeguards to assure
+the validity of the
+interpretation of images			The Aperio GT 450 DX is an automated digital slide creation and
+viewing system. The Aperio GT 450 DX is intended for in vitro
+diagnostic use as an aid to the pathologist to review and interpret
+digital images of surgical pathology slides prepared from
+formalin-fixed paraffin embedded (FFPE) tissue. The Aperio GT
+450 DX is for creation and viewing of digital images of scanned
+glass slides that would otherwise be appropriate for manual
+visualization by conventional light microscopy.
+Aperio GT 450 DX is comprised of the Aperio GT450 DX
+scanner, which generates images in the Digital Imaging and
+Communications in Medicine (DICOM) and in the ScanScope
+Virtual Slide (SVS) file formats, the Aperio WebViewer DX
+viewer, and the displays. The Aperio GT 450 DX is intended to be
+used with the interoperable components specified in Table 1.
+Table 1: Interoperable components of Aperio GT 450 DX
+Scanner Scanner Interoperable Interoperable
+Hardware
+Output file Viewing Displays
+format Software
+Aperio GT SVS Aperio Barco
+450 DX WebViewe MDPC-
+scanner r DX 8127
+Dell UP3017
+Dell U3023E
+Dell U3223QE	
+
+[Table 2 on page 6]
+Scanner	Scanner	Interoperable	Interoperable
+Hardware	Output file	Viewing	Displays
+			
+	format	Software	
+Aperio GT
+450 DX
+scanner	SVS	Aperio
+WebViewe
+r DX	Barco
+MDPC-
+8127
+Dell UP3017
+Dell U3023E
+Dell U3223QE
+
+--- Page 7 ---
+using Sectra Digital
+Aperio GT SVS Sectra
+Pathology Module (3.3). Dell U3223QE
+450 DX Digital
+scanner Pathology
+Sectra Digital Pathology
+Module
+Module (3.3) is intended
+(3.3)
+for use with Leica’s
+Aperio GT
+Aperio GT450 DX DICOM Sectra
+450 DX Dell U3223QE
+scanner and Dell Digital
+scanner
+U3223QE display, for Pathology
+viewing and management Module
+of the ScanScope Virtual (3.3)
+Slide (SVS) and Digital The Aperio GT 450 DX is not intended for use with frozen
+Imaging and section, cytology, or non-FFPE hematopathology specimens. It is
+Communications in the responsibility of a qualified pathologist to employ appropriate
+Medicine (DICOM) procedures and safeguards to assure the validity of the
+image formats. interpretation of images obtained using the Aperio GT 450 DX.
+Type of
+Software Internet Browser based Internet Browser based
+Application
+Panning, zooming,
+Image
+gamma function,
+manipulation Same
+annotations, and distance
+functions
+measurements.
+DPAT (3.3) - Pathology
+End User’s Image Window (the client
+DPAT (3.3) and WebViewer DX
+Interface component of Sectra
+DPAT (3.3)
+Image Panning, zooming, image
+Manipulatio adjustments, annotations,
+Same
+n Functions and distance/area
+measurements
+General Device Characteristic: Differences
+Device
+DPAT (3.3) Scanner, Webviewer DX, Display
+Components
+Image file
+SVS and DICOM SVS
+format
+After WSI images are
+After WSI images are successfully acquired by using Aperio GT
+successfully acquired by
+450 DX scanner, it is data is sent to end-user-provided image
+using Aperio GT 450 DX
+Principle of storage attached to the local network. During the review, the
+scanner, WSI images are
+Operation pathologist opens WSI images acquired with the WSI scanner from
+imported by SPIS as
+the image storage, performs further QC, and reads WSI images of
+groups of cases. The
+the slides to make a diagnosis.
+laboratory technician
+K232208 - Page 7 of 14
+
+[Table 1 on page 7]
+		using Sectra Digital
+Pathology Module (3.3).
+Sectra Digital Pathology
+Module (3.3) is intended
+for use with Leica’s
+Aperio GT450 DX
+scanner and Dell
+U3223QE display, for
+viewing and management
+of the ScanScope Virtual
+Slide (SVS) and Digital
+Imaging and
+Communications in
+Medicine (DICOM)
+image formats.	Aperio GT SVS Sectra
+Dell U3223QE
+450 DX Digital
+scanner Pathology
+Module
+(3.3)
+Aperio GT
+DICOM Sectra
+450 DX Dell U3223QE
+Digital
+scanner
+Pathology
+Module
+(3.3)
+The Aperio GT 450 DX is not intended for use with frozen
+section, cytology, or non-FFPE hematopathology specimens. It is
+the responsibility of a qualified pathologist to employ appropriate
+procedures and safeguards to assure the validity of the
+interpretation of images obtained using the Aperio GT 450 DX.	
+Type of
+Software
+Application		Internet Browser based	Internet Browser based	
+Image
+manipulation
+functions		Panning, zooming,
+gamma function,
+annotations, and distance
+measurements.	Same	
+End User’s
+Interface		DPAT (3.3) - Pathology
+Image Window (the client
+component of Sectra
+DPAT (3.3)	DPAT (3.3) and WebViewer DX	
+Image
+Manipulatio
+n Functions		Panning, zooming, image
+adjustments, annotations,
+and distance/area
+measurements	Same	
+	General Device Characteristic: Differences			
+Device
+Components		DPAT (3.3)	Scanner, Webviewer DX, Display	
+Image file
+format		SVS and DICOM	SVS	
+Principle of
+Operation		After WSI images are
+successfully acquired by
+using Aperio GT 450 DX
+scanner, WSI images are
+imported by SPIS as
+groups of cases. The
+laboratory technician	After WSI images are successfully acquired by using Aperio GT
+450 DX scanner, it is data is sent to end-user-provided image
+storage attached to the local network. During the review, the
+pathologist opens WSI images acquired with the WSI scanner from
+the image storage, performs further QC, and reads WSI images of
+the slides to make a diagnosis.	
+
+[Table 2 on page 7]
+Aperio GT
+450 DX
+scanner	SVS	Sectra
+Digital
+Pathology
+Module
+(3.3)	Dell U3223QE
+Aperio GT
+450 DX
+scanner	DICOM	Sectra
+Digital
+Pathology
+Module
+(3.3)	Dell U3223QE
+
+--- Page 8 ---
+performs a quality control
+by using PIW to verify
+that all images have been
+imported. During review,
+the pathologist selects a
+patient case and opens
+WSI images from the
+Sectra Core to read the
+WSI images and make a
+Diagnosis.
+VI Standards/Guidance Documents Referenced:
+1. Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices: Guidance for Industry and Food and Drug Administration
+Staff, April 20, 2016.
+2. Applying Human Factors and Usability Engineering to Medical Devices:
+Guidance for Industry and Food and Drug Administration Staff February 3,
+2016.
+3. EN ISO 13485:2016 Medical devices — Quality management systems —
+Requirements for regulatory purposes.
+4. EN ISO 14971:2019-12 – Medical devices - Application of risk management to medical
+devices (same as ISO 14971:2007, Corrected version 2007-10-01),
+Recognition Number: 5-40.
+5. EN 62304:2006- AMD1:2015 – Medical device software - software life-cycle
+processes, Recognition Number: 13-32.
+EN ISO 62366-1:2015 - AMD1:2015 – Application of usability engineering to medical
+devices, Recognition Number: 5-114.
+6. ISO/IEC 27001:2013 – Information technology — Security techniques - Information
+security management systems — Requirements.
+7. ISO/IEC 27017: 2015 — Security techniques — Code of practice for information
+security controls based on ISO/IEC 27002 for cloud services.
+8. ISO/IEC 27018: 2019 — Security techniques — Code of practice for protection of
+personally identifiable information (PII) in public clouds acting as PII processors.
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+a. Precision/Reproducibility:
+Not applicable
+b. Linearity:
+Not applicable
+K232208 - Page 8 of 14
+
+[Table 1 on page 8]
+	performs a quality control
+by using PIW to verify
+that all images have been
+imported. During review,
+the pathologist selects a
+patient case and opens
+WSI images from the
+Sectra Core to read the
+WSI images and make a
+Diagnosis.	
+
+--- Page 9 ---
+c. Analytical Specificity/Interference:
+Not applicable
+d. Accuracy (Instrument):
+Not applicable
+e. Carry-Over:
+Not applicable
+B Other Supportive Instrument Performance Characteristics Data:
+a. A clinical study was conducted to demonstrate that viewing, reviewing and diagnosing WSIs
+of H&E stained FFPE tissue slides using the DPAT (3.3) on Sectra Workstation UniView
+(DPAT (3.3)-UniView) is non-inferior to glass slide reads using optical (light) microscopy.
+The imaging pipeline/configuration in the clinical study used was as follows: Aperio GT 450
+DX scanner images/SVS image format/ DPAT (3.3)-UniView/Chrome web
+browser/DellU3223QE display.
+b. Technical bench testing to demonstrate that DPAT (3.3) generates identical images in the
+configurations that were not validated in the clinical study. The Aperio GT 450
+DX/SVS/DPAT (3.3)-UniView/Chrome configuration which was the imaging pipeline
+validated in the clinical study, was used as the reference configuration in the pixelwise
+comparison study to validate the other 4 configurations as described in section b below.
+a. Clinical Validation Study
+A clinical study was conducted to demonstrate that using DPAT (3.3)-UniView for use in
+primary diagnosis of FFPE tissue sections when used with the Aperio GT 450 DX scanner,
+which generated WSIs in the SVS image file format is non-inferior to glass slide reads using
+optical light microscopy (MSR).
+The study included 258 randomly selected cases that represented a diverse mixture of pathologic
+diagnoses and tissue/organ types. Case slides were scanned on the Aperio GT 450 DX scanner,
+producing WSIs in the SVS format at 40x magnification. Three (3) reading pathologists (the
+same pathologists who determined MSR diagnosis) at a single site reviewed all study cases using
+DPAT (3.3) -UniView on the Microsoft Chrome web browser and a Dell U3223QE monitor per
+user guide, to determine the WSIR diagnosis. The reading pathologists were masked to the
+reference diagnoses, their own diagnoses from the previous studies and to other reading
+pathologist’s study diagnoses. Across the 258 selected cases, all 870 WSIs were successfully
+reviewed. The range of WSIs reviewed per case was 1 to 34.
+The WSIR data from the current study and the existing MSR data (diagnoses, concordance
+scores and consensus scores) from a previous clinical study (K190332) which had the same study
+cases and readers as the current study were used to estimate study endpoints.
+K232208 - Page 9 of 14
+
+--- Page 10 ---
+A minimum of two adjudicators independently assessed concordance (concordant, minor
+discordance, major discordance) of the WSIR diagnosis against the reference diagnosis using
+predefined rules. If consensus was not reached between the first 2 adjudicators, a third
+adjudicator reviewed the study diagnosis against the reference diagnosis. If consensus between 2
+of 3 adjudicators was still not reached, then the 3 adjudicators would convene as a panel to come
+to a consensus for the major discordance status. WSIR diagnosis consensus scores were used to
+estimate WSIR diagnosis major discordance rate. For MSR diagnoses, the consensus scores
+generated during the previous clinical study (K190332) were used for this study to estimate MSR
+diagnosis major discordance rate.
+A major discordance was defined as a difference in diagnosis that resulted in a clinically
+important difference in patient management, whereas a minor discordance would not be
+associated with a clinically important difference in patient management. The adjudicators’
+concordance scores for the same case were compared to determine a consensus score for major
+discordance status [no major discordance (concordant or minor discordance) or major
+discordance]. The diagnosis consensus scores were used to estimate WSIR diagnosis major
+discordance rate.
+Study Acceptance Criteria: The primary endpoint of the study was the difference in overall major
+discordance rates between the 2 modalities [Whole slide image review (WSIR) using DPAT
+(3.3)-UniView and MSR] when compared to the reference diagnosis (original sign-out
+pathologic diagnosis) which was defined as the ground truth (GT) diagnosis. The secondary
+endpoint of the study was the major discordance rate of WSIR diagnosis relative to the reference
+diagnosis. The acceptance criteria associated with each study endpoint were as follows:
+Primary Endpoint: The upper bound of the 2-sided 95% CI of the difference between the overall
+major discordance rates of WSIR diagnosis and MSR diagnosis when compared to the reference
+diagnosis shall be ≤4%.
+Secondary Endpoints: The upper bound of the 2-sided 95% CI of the major discordance rate
+between WSIR diagnosis and the reference diagnosis shall be ≤7%.
+Adjudication Review: For WSIR, there were 767 study diagnoses reviewed by 2 (primary)
+adjudicators. No diagnoses were deferred by the adjudicators; therefore, 767 WSIR diagnoses
+had concordance scores. Of these, consensus on major discordance status was obtained for 736
+(96.0%, 736/767) study diagnoses by 2 adjudicators only; 31 (4.0%, 31/767) study diagnoses
+were transferred to a third adjudicator for review, after which consensus was obtained. No study
+diagnoses required panel review. Adjudication of MSR diagnoses and generation of consensus
+scores was conducted during the previous clinical study. All 764 MSR diagnoses were
+successfully adjudicated and had consensus scores.
+Study Results: All 774 case reads (258 cases × 3 reading pathologists) were successfully
+performed by WSIR. Seven WSIR diagnoses were deferred (cases that could not be diagnosed
+by the reading pathologists), resulting in 767 WSIR diagnoses sent for adjudication.
+K232208 - Page 10 of 14
+
+--- Page 11 ---
+All 774 case reads were performed by MSR during the previous clinical study. Ten (10) MSR
+diagnoses were deferred by the reading pathologists, resulting in 764 MSR diagnoses sent for
+adjudication. Study results are shown in the table below.
+Table 5. Clinical Study Results Based on Major Discordance Rates
+Modality (n/N) Discordance Rate (%) 95% CI (%)
+WSIRD vs GT 23/767 3.00 (1.64, 5.25)
+MSRD vs GT 23/764 3.01 (1.65, 5.27)
+Difference -0.1 (-1.71, 1.69)
+The estimated difference in major discordance rates between the 2 modalities when compared to
+the reference diagnosis was -0.01% (95% CI: -1.71% to 1.69%). The upper bound of the 95% CI
+of the estimated difference in major discordance rates was 1.69% which met the predefined
+acceptance criteria of ≤4% for the primary endpoint. The overall major discordance rate between
+the WSIR diagnosis and the reference diagnosis did not exceed 7%; the upper bound of the 95%
+CI for the overall estimated major discordance rate for WSIR diagnosis was 5.25%, which met
+the predefined acceptance criteria of ≤7% as shown in the table below.
+Table 6. Concordance Rate between WSIR Diagnoses and MSR Diagnoses
+Number of Concordance Rate 95% Confidence
+Number of Pairs
+Concordances (%) Interval
+729 762 95.7 [94.2%, 97.1%]
+Note: 95% CI was produced using the percentile bootstrapping approach on 5000
+bootstrap samples
+The major discordance rates for WSIR and MSR diagnoses (relative to the reference diagnosis),
+and the difference between the two modalities, by each organ type is shown in the table below.
+Table 7. Major Discordance Rates for WSIR and MSR Diagnoses by Organ Type
+Major Discordance Rate Difference in Major
+Organ Type Discordance Rates
+WSIRD MSRD
+(WSIRD – MSRD)
+Anus/Perianal 0.00% 0.00% 0.00%
+Appendix 0.00% 0.00% 0.00%
+Bladder 13.73% 7.84% 5.88%
+Brain/Neuro 0.00% 9.38% -9.38%
+Breast 9.26% 0.00% 9.26%
+Colorectal 3.85% 2.56% 1.28%
+Endocrine 0.00% 0.00% 0.00%
+GE Junction 1.96% 3.92% -1.96%
+Gallbladder 0.00% 0.00% 0.00%
+K232208 - Page 11 of 14
+
+[Table 1 on page 11]
+Modality	(n/N)	Discordance Rate (%)	95% CI (%)
+WSIRD vs GT	23/767	3.00	(1.64, 5.25)
+MSRD vs GT	23/764	3.01	(1.65, 5.27)
+Difference		-0.1	(-1.71, 1.69)
+
+[Table 2 on page 11]
+Number of		Concordance Rate	95% Confidence
+	Number of Pairs		
+Concordances		(%)	Interval
+			
+729	762	95.7	[94.2%, 97.1%]
+
+[Table 3 on page 11]
+	Major Discordance Rate		Difference in Major
+Organ Type			Discordance Rates
+	WSIRD	MSRD	
+			(WSIRD – MSRD)
+			
+Anus/Perianal	0.00%	0.00%	0.00%
+Appendix	0.00%	0.00%	0.00%
+Bladder	13.73%	7.84%	5.88%
+Brain/Neuro	0.00%	9.38%	-9.38%
+Breast	9.26%	0.00%	9.26%
+Colorectal	3.85%	2.56%	1.28%
+Endocrine	0.00%	0.00%	0.00%
+GE Junction	1.96%	3.92%	-1.96%
+Gallbladder	0.00%	0.00%	0.00%
+
+--- Page 12 ---
+Major Discordance Rate Difference in Major
+Organ Type Discordance Rates
+WSIRD MSRD
+(WSIRD – MSRD)
+Gynecological 1.28% 6.41% -5.13%
+Hernial/Peritoneal 0.00% 0.00% 0.00%
+Kidney, Neoplastic 0.00% 3.70% -3.70%
+Liver/Bile Duct 0.00% 0.00% 0.00%
+Lung 4.76% 0.00% 4.76%
+Lymph Node 0.00% 0.00% 0.00%
+Prostate 2.61% 3.29% -0.68%
+Salivary gland 0.00% 3.85% -3.85%
+Skin 3.57% 0.00% 3.57%
+Soft Tissue Tumor 0.00% 0.00% 0.00%
+Stomach 0.00% 0.00% 0.00%
+b. Bench Testing – Pixelwise comparison study
+DPAT (3.3) supports multiple file formats, multiple viewers and multiple browsers, constituting
+various configurations to be tested. The SVS/UniView/Chrome configuration imaging pipeline
+was validated in the above clinical study. Therefore, it was used as the reference configuration in
+the pixelwise comparison study to validate 4 additional configurations specified in the table below.
+Table 8: DPAT (3.3) Configurations Tested in the Pixelwise Comparison Testing
+Configuration Image File format Viewer/Browser
+DICOM/IDS7 DICOM IDS7
+DICOM/UniView/Chrome DICOM UniView/Chrome
+SVS/IDS7 SVS IDS7
+SVS/UniView/Edge SVS UniView/Edge
+A total of 30 FFPE tissue slides from various human anatomic sites such as breast, prostate,
+gastrointestinal tract, lung, ovary, lymph node, bone, etc. were used in the study. This sample set
+was different from the sample set used in the clinical study.
+The 30 glass slides were scanned with a Leica Aperio GT 450 DX scanner to generate WSI files in
+the SVS and DICOM file formats. For each of the 30 slides, 3 regions of interests (ROIs) were
+manually selected by qualified personnel to represent various features in the tissue samples. Blank
+or blurry areas were excluded from the ROI selection. The ROIs were captured at 10x and 40x
+magnification levels.
+A total of 4 configurations specified in table 8 above were tested in the study. Each of these
+configurations represented an imaging pipeline and consisted of the specific file format (SVS or
+DICOM), viewer (IDS7 or UniView), and browser (Chrome or Edge).
+The pixelwise comparison study was conducted in the intended computer environment following
+the labeling of the subject and predicate devices, including the Dell U3223QE display, which has
+K232208 - Page 12 of 14
+
+[Table 1 on page 12]
+	Major Discordance Rate		Difference in Major
+Organ Type			Discordance Rates
+	WSIRD	MSRD	
+			(WSIRD – MSRD)
+			
+Gynecological	1.28%	6.41%	-5.13%
+Hernial/Peritoneal	0.00%	0.00%	0.00%
+Kidney, Neoplastic	0.00%	3.70%	-3.70%
+Liver/Bile Duct	0.00%	0.00%	0.00%
+Lung	4.76%	0.00%	4.76%
+Lymph Node	0.00%	0.00%	0.00%
+Prostate	2.61%	3.29%	-0.68%
+Salivary gland	0.00%	3.85%	-3.85%
+Skin	3.57%	0.00%	3.57%
+Soft Tissue Tumor	0.00%	0.00%	0.00%
+Stomach	0.00%	0.00%	0.00%
+
+[Table 2 on page 12]
+	Configuration			Image File format			Viewer/Browser	
+DICOM/IDS7			DICOM			IDS7		
+DICOM/UniView/Chrome			DICOM			UniView/Chrome		
+SVS/IDS7			SVS			IDS7		
+SVS/UniView/Edge			SVS			UniView/Edge		
+
+--- Page 13 ---
+3840x2160 pixels. For each configuration, 180 image-pairs (30 slides * 3 ROIs * 2 magnification
+levels) were tested. For each comparison, screenshots were captured from the subject and predicate
+devices to form an image-pair. Each image-pair was cropped and registered to be pixelwise
+comparable. The cropped image included most of the pixels in the image except for those in the
+viewer-specific user interface areas. The testing data, including the screenshots and
+cropping/registration information of the 5 configurations were provided in the FDA specific format.
+For each image-pair, the pixelwise differences between two images were calculated using the
+CIEDE2000 color difference metric. Two images were considered to be identical if the 95th
+percentile of the pixelwise color differences is less than 3 CIEDE2000 (< 3 ΔE ). A configuration
+00
+can be validated if all image-pairs are identical to the reference configuration.
+Based on analysis of the testing data, the 4 configurations specified in table 9 below were identical,
+i.e., < 3 ΔE to reference configuration SVS/UniView/Chrome.
+00
+Table 9: Pixelwise Testing Results
+Comparison to
+Configuration Image File format Viewer/Browser Reference Pipeline
+DICOM/IDS7 DICOM IDS7 ΔE =0
+DICOM/UniView/Chrome DICOM UniView/Chrome ΔE =0
+SVS/IDS7 SVS IDS7 ΔE =0
+SVS/UniView/Edge SVS UniView/Edge ΔE =0
+c. Turnaround Time
+The purpose of this test was to demonstrate that the turnaround time for rendering of images is
+acceptable. Turnaround times for loading a new image, image panning and zooming for both
+UniView and IDS7 were tested as well as opening images from SVS files and DICOM files. Test
+results for different scenarios met the test acceptance criteria and showed acceptable turnaround
+time for image loading.
+d. Measurements (area and distance)
+The purpose of this test was to demonstrate that DPAT (3.3) accurately shows measurement
+annotations on scanned WSIs from the Aperio GT 450 DX scanner. Measurements in Uniview and
+IDS7 on each of the 2 image file formats SVS and DICOM were evaluated. For each combination
+(UniView/SVS, UniView/DICOM, IDS7/SVS and IDS7/DICOM), 6 measurements of 3 different
+lengths in 2 different orientations (3 horizontal and 3 vertical) were performed using the built-in
+measurement tool using the comparator and the DPAT (3.3). The results showed that the
+measurement values agreed between the comparator and DPAT (3.3). DPAT (3.3) has been found
+to perform accurate measurements with respect to its intended use.
+e. Human Factors (Usability) Testing
+Human factors study designed around critical user tasks and use scenarios performed by
+representative users were conducted for previously cleared DPAT (2.2) in K193054. No new
+human factor study was performed for DPAT (3.3).
+K232208 - Page 13 of 14
+
+[Table 1 on page 13]
+										Comparison to	
+	Configuration			Image File format			Viewer/Browser			Reference Pipeline	
+DICOM/IDS7			DICOM			IDS7			ΔE =0		
+DICOM/UniView/Chrome			DICOM			UniView/Chrome			ΔE =0		
+SVS/IDS7			SVS			IDS7			ΔE =0		
+SVS/UniView/Edge			SVS			UniView/Edge			ΔE =0		
+
+--- Page 14 ---
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K232208 - Page 14 of 14

@@ -1,0 +1,1500 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+k170299
+B. Purpose for Submission:
+Expansion of the intended use of the device to include DNA and RNA from FFPE samples.
+C. Manufacturer and Instrument Name:
+Life Technologies Corporation
+Ion PGM Dx System
+D. Type of Test or Tests Performed:
+High-throughput DNA sequencing
+E. System Descriptions:
+1. Device Description:
+The Ion PGM Dx System is a high throughput DNA sequence analyzer for clinical use.
+The Ion PGM Dx System consists of the Ion OneTouch Dx Instrument, the Ion
+OneTouch ES Dx Instrument, the Ion OneTouch Rack Kit, the Ion PGM Dx Chip
+Minifuge, the Ion PGM Dx Sequencer, the Ion PGM Wireless Scanner, the DynaMag Dx
+Kit – Tube and Plate, the Ion Torrent Server and the Torrent Suite Dx Software. It is for
+use with the Ion PGM Dx Library Kit, the Ion OneTouch Dx Template Kit, the Ion PGM
+Dx Sequencing Kit, and the Ion 318 Dx Chip Kit. The end-user inputs extracted DNA to
+be sequenced and uses an established assay or provides the Analyte Specific Reagents
+(ASRs) to develop a sequencing assay that targets their sequence of interest.
+2. Principles of Operation:
+DNA from whole blood samples is isolated using a commercially available extraction
+method, or DNA and RNA from FFPE tissue samples are isolated and the RNA is reverse
+transcribed into cDNA.
+The DNA and/or cDNA is made into amplicon libraries via polymerase chain reaction
+(PCR) to specifically amplify the regions intended for sequencing while also adding
+indexing sequences (barcodes) to the amplified products. Employing emulsion PCR, each
+sample library is templated onto Ion PGM Dx Ion Sphere Particles (ISPs) using the Ion
+1
+
+--- Page 2 ---
+OneTouch Dx Instrument. Templated ISPs are enriched from non-templated ISPs and
+loaded onto an Ion 318 Dx Chip for sequencing on the Ion PGM Dx Sequencer. The
+sequencing reaction measures hydrogen ions that are generated during the incorporation
+of nucleotides into the nascent strand complementary to the template sequence. The
+resulting signal is translated into base calls which are assembled into reads, which are
+strings of nucleotide bases in the order found in the original library molecules. Reads are
+mapped to a reference sequence and mapped reads are assessed at specific nucleotide
+locations to identify variation from the sequence information in the reference sequence
+from which variant calls are determined.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ____X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ____X____
+4. Specimen Identification:
+Sample barcode adapters are used in all runs to assign a unique nucleic acid barcode to
+each sample DNA allowing the ability to pool up to sixteen (16) barcoded sample
+libraries into a single sequencing run.
+5. Specimen Sampling and Handling:
+The Ion PGM Dx specimen is a library (or multiple pooled libraries) derived from
+genomic DNA extracted from peripheral whole blood or DNA or RNA from FFPE
+samples that is generated and sequenced through the following steps: nucleic acid is
+extracted from a sample, quantified and qualified, and used to make an indexed barcode
+library; the library is processed to remove remaining library preparation reagents (e.g.
+unused primers), normalized as necessary to ensure that each library is equally
+represented in the pooled samples, and templated onto beads; the templated beads are
+added onto a sequencing chip and sequenced.
+6. Calibration:
+There is no end-user calibration of the system. During the installation of the Ion PGM Dx
+System a company representative performs an Installation Qualification/ Operational
+Qualification/ Performance Qualification (IQ/OQ/PQ) protocol to ensure that software
+has been installed properly on all items (IQ), the instruments have been calibrated
+properly (OQ), and performance of the system is adequate (PQ). This includes an actual
+2
+
+--- Page 3 ---
+run on the system and uses all instruments included in the Ion PGM Dx System; the run
+comprises a control for the Ion OneTouch Dx Instrument, and another control for the Ion
+PGM Dx Sequencer. Two controls are needed in case one fails so the company
+representative can troubleshoot at which step the sequencing run is failing. These
+assessments can only be performed by a company representative and are required after
+major software updates. The system cannot be used by customers for any other runs until
+a PQ run has been successfully performed.
+7. Quality Control:
+A double-stranded 221 bp oligonucleotide (CF-1 control fragment) synthesized with the
+appropriate ends needed for amplification is spiked into every templating reaction setup.
+One region of the CF-1 oligonucleotide contains a unique sequence to differentiate it
+from library amplicons. CF-1 is used as a run quality control to ensure that templating
+and sequencing was performed correctly. A quality control check is run on results of CF-
+1 sequencing and must be passed before results are released to a user.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes____X____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 862.2265
+2. Classification:
+Class II (special controls). The device is exempt from the premarket notification
+procedures in subpart E of part 807 of this chapter subject to 862.9.
+3 Product code:
+PFF - High throughput DNA sequence analyzer
+4. Panel:
+Toxicology (91)
+3
+
+--- Page 4 ---
+G. Intended Use:
+1. Indication(s) for Use:
+The Ion PGM Dx Instrument System is composed of a sequencing instrument that measures
+the hydrogen ions that are generated during the incorporation of nucleotides in the DNA
+sequencing reaction, and the ancillary instrumentation necessary for sample processing. This
+instrument system is used in conjunction with the instrument-specific Ion PGM Dx Library
+Kit, Ion OneTouch Dx Template Kit, Ion PGM Dx Sequencing Kit, and Ion 318 Dx Chip Kit,
+and data analysis software. The Ion PGM Dx Instrument System is intended for targeted
+sequencing of human genomic DNA (gDNA) from peripheral whole-blood samples and
+DNA and RNA extracted from formalin-fixed, paraffin-embedded (FFPE) samples. The Ion
+PGM Dx Instrument System is not intended for whole genome or de novo sequencing.
+2. Special Conditions for Use Statement(s):
+For in vitro diagnostic use. For prescription use only.
+The instrument was previously legally marketed for use with genomic DNA from whole
+blood samples under 21 CFR 862.2265; special conditions for use described here are
+specific to RNA and genomic DNA from FFPE samples only. Special conditions for use
+of the instrument with genomic DNA from whole blood are included in the device
+labeling.
+Special Conditions statement for performance derived from a representative assay using
+RNA and genomic DNA from FFPE:
+§ The Ion PGM Dx System has been validated to deliver the following using a
+representative assay:
+• Sequencing output > 0.7 gigabases
+• Reads > 3 million
+• Read length up to 141 base pairs
+§ The system has been validated for the detection of single nucleotide variants, multi-
+nucleotide variants and up to 18 bp deletions.
+§ The system is designed to deliver qualitative results.
+§ As with any hybridization-based workflow, underlying polymorphisms or mutations
+in primer binding regions can affect the regions being sequenced and, consequently,
+the ability to make calls.
+§ The minimal coverage required to call a SNV, MNV or deletion variant is ≥ 347x.
+The minimal coverage required to call a fusion variant is ≥ 41X.
+§ The Ion PGM Dx System can be used only with the Ion PGM Dx Library Kit, Ion
+OneTouch Dx Template Kit, Ion PGM Dx Sequencing Kit, and the Ion 318 Dx
+Chip Kit.
+4
+
+--- Page 5 ---
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Illumina MiSeqDx Platform, k123989 (DEN130011)
+2. Comparison with Predicate Device:
+Similarities and Differences
+Item Device Predicate
+Ion PGM Dx System MiSeqDx Platform
+(k170299) (k123989)
+Intended Use For targeted sequencing of For targeted sequencing of
+human genomic DNA from human genomic DNA from
+peripheral whole blood peripheral whole blood
+samples and for DNA and samples
+RNA extracted from
+formalin-fixed, paraffin-
+embedded (FFPE) samples
+Environment of Use Clinical Laboratories Same
+Software Combined functions Same
+software for separate use in
+IVD and research use only
+modes
+Specimen Type Whole blood or formalin Whole blood samples
+fixed paraffin embedded
+(FFPE) samples
+Input Sample Genomic DNA and cDNA Genomic DNA
+Technology Measurement of hydrogen Measurement of
+ions that are generated fluorescent signals from
+during the incorporation of labeled nucleotides
+nucleotides during a DNA incorporated during a DNA
+sequencing reaction sequencing reaction
+Software Combined functions Combined functions
+software for separate use in software for separate use in
+IVD and research use only IVD and research use only
+modes modes
+I. Special Control/Guidance Document Referenced (if applicable):
+November 19, 2013, De Novo Classification Order for k123989 (DEN130011)
+5
+
+[Table 1 on page 5]
+Similarities and Differences						
+Item		Device			Predicate	
+		Ion PGM Dx System			MiSeqDx Platform	
+		(k170299)			(k123989)	
+Intended Use	For targeted sequencing of
+human genomic DNA from
+peripheral whole blood
+samples and for DNA and
+RNA extracted from
+formalin-fixed, paraffin-
+embedded (FFPE) samples			For targeted sequencing of
+human genomic DNA from
+peripheral whole blood
+samples		
+Environment of Use	Clinical Laboratories			Same		
+Software	Combined functions
+software for separate use in
+IVD and research use only
+modes			Same		
+Specimen Type	Whole blood or formalin
+fixed paraffin embedded
+(FFPE) samples			Whole blood samples		
+Input Sample	Genomic DNA and cDNA			Genomic DNA		
+Technology	Measurement of hydrogen
+ions that are generated
+during the incorporation of
+nucleotides during a DNA
+sequencing reaction			Measurement of
+fluorescent signals from
+labeled nucleotides
+incorporated during a DNA
+sequencing reaction		
+Software	Combined functions
+software for separate use in
+IVD and research use only
+modes			Combined functions
+software for separate use in
+IVD and research use only
+modes		
+
+--- Page 6 ---
+J. Performance Characteristics:
+The instrument was previously legally marketed for use with genomic DNA from whole
+blood samples under 21 CFR 862.2265. The performance information provided here is
+specific to RNA and genomic DNA from FFPE samples only. Performance
+characteristics of the instrument with genomic DNA from whole blood are included in
+the device labeling.
+The following table is a summary of the sample type distribution used to characterize
+instrument performance with the indicated variants in nucleic acid extracted from FFPE
+samples using a representative assay:
+Number of samples tested for detection by
+sample type
+FFPE Cell
+Number of variants Line or
+detected by the FFPE Cell FFPE
+Type of representative Plasmid/FFPE Line Clinical
+Variant assay Sample Blend Blend Sample
+MNV 9 9 0 2
+SNV 326 329 8 113
+3-bp
+4 6 0 0
+deletion
+6-bp
+4 8 0 0
+deletion
+9-bp
+4 8 0 1
+deletion
+12-bp
+7 7 0 0
+deletion
+15-bp
+7 10 3 23
+deletion
+18-bp
+7 8 0 11
+deletion
+1. Analytical Performance:
+a. Accuracy:
+A study was performed to demonstrate positive percent agreement (PPA) and negative
+percent agreement (NPA) concordance between detection of somatic variants in FFPE
+tumor samples using a representative next-generation sequencing (NGS) assay and
+detection using validated reference methods. The following reference detection methods
+were used:
+• A validated NGS assay to detect SNV and deletion hotspot variants to detect SNV and
+deletion hotspot variants
+• FISH/IHC testing to detect RNA fusions
+6
+
+[Table 1 on page 6]
+Type of
+Variant			Number of variants
+detected by the
+representative
+assay		Number of samples tested for detection by			
+					sample type			
+				Plasmid/FFPE
+Sample Blend		FFPE Cell
+Line or
+FFPE Cell
+Line
+Blend	FFPE
+Clinical
+Sample	
+MNV			9	9		0	2	
+SNV			326	329		8	113	
+	3-bp		4	6		0	0	
+	deletion							
+	6-bp		4	8		0	0	
+	deletion							
+	9-bp		4	8		0	1	
+	deletion							
+	12-bp		7	7		0	0	
+	deletion							
+	15-bp		7	10		3	23	
+	deletion							
+	18-bp		7	8		0	11	
+	deletion							
+
+[Table 2 on page 6]
+FFPE Cell
+Line or
+FFPE Cell
+Line
+Blend
+
+[Table 3 on page 6]
+Number of variants
+detected by the
+representative
+assay
+
+[Table 4 on page 6]
+FFPE
+Clinical
+Sample
+
+[Table 5 on page 6]
+Type of
+Variant
+
+[Table 6 on page 6]
+Plasmid/FFPE
+Sample Blend
+
+--- Page 7 ---
+Variants detected by the representative assay for which the reference method testing
+failed and did not yield a valid result were not included in the calculations. Accuracy
+data was analyzed by the following: each variant location, bins (or categories of variants,
+i.e., RNA fusions, simple and complex single nucleotide variants (SNVs) and deletions),
+and each FFPE sample. The results are shown in the following tables:
+Positive Percent Agreement (PPA)
+Excluding no calls Including no calls
+PPA
+Measure
+Percent Percent
+95% CI 95% CI
+agreement agreement
+Variant 95.6%, (95.6%,
+98.5% (195/198) 98.5% (195/198)
+99.7% 99.7%)
+Bin 93.7%, (93.7%,
+97.2% (176/181) 97.2% (176/181)
+99.1% 99.1%)
+Sample 93.0%, (93.0%,
+96.9% (158/163) 96.9% (158/163)
+99.0% 99.0%)
+Negative Percent Agreement (NPA)
+Excluding no calls Including no calls
+NPA
+Measure
+Percent 95% CI Percent 95% CI
+agreement agreement
+100.0% 96.8%
+99.99%, (96.7%,
+Variant (118,155/118,1 (118,155/122,0
+100.0% 96.9%)
+59) 12)
+99.2%, 70.0% (66.9%,
+Bin 99.8% (942/944)
+100.0% (657/939) 72.9%)
+94.4%, (16.3%,
+Sample 98.4% (124/126) 23.4% (29/124)
+99.8% 31.8%)
+7
+
+[Table 1 on page 7]
+	Excluding no calls		Including no calls	
+PPA				
+				
+Measure				
+				
+	Percent		Percent	
+		95% CI		95% CI
+	agreement		agreement	
+				
+				
+Variant	98.5% (195/198)	95.6%,
+99.7%	98.5% (195/198)	(95.6%,
+99.7%)
+Bin	97.2% (176/181)	93.7%,
+99.1%	97.2% (176/181)	(93.7%,
+99.1%)
+Sample	96.9% (158/163)	93.0%,
+99.0%	96.9% (158/163)	(93.0%,
+99.0%)
+
+[Table 2 on page 7]
+	Excluding no calls		Including no calls	
+NPA				
+				
+Measure				
+	Percent	95% CI	Percent	95% CI
+				
+	agreement		agreement	
+				
+Variant	100.0%
+(118,155/118,1
+59)	99.99%,
+100.0%	96.8%
+(118,155/122,0
+12)	(96.7%,
+96.9%)
+Bin	99.8% (942/944)	99.2%,
+100.0%	70.0%
+(657/939)	(66.9%,
+72.9%)
+Sample	98.4% (124/126)	94.4%,
+99.8%	23.4% (29/124)	(16.3%,
+31.8%)
+
+--- Page 8 ---
+Overall Percent Agreement (OPA)
+Excluding no calls Including no calls
+OPA
+Measure
+Percent 95% CI Percent 95% CI
+agreement agreement
+96.8
+100.%
+99.99%, % (96.74%,
+Variant (118,350/118,3
+100.0% (118,350/122,2 96.94%)
+57)
+10)
+99.4% 98.72%, 74.4% (71.71%,
+Bin
+(1,118/1,125) 99.75% (833/1,120)
+76.91%)
+95.07%, 65.2% (59.34%,
+Sample 97.6% (282/289)
+99.02% (187/287)
+70.66%)
+b. Precision/Reproducibility:
+Two studies were conducted to assess reproducibility:
+Sample Reproducibility
+Two wild-type (WT) and ten variant-positive samples were evaluated at 4 testing
+sites, each with 4 Ion PGM Dx systems and 4 operators, to determine the
+reproducibility and repeatability of detection for multiple variants using a
+representative assay.
+Each sample was tested 8 times at each site, for a total of 32 replicates per sample, or
+768 sample sequencing results (12 samples × 32 replicates × 2 library types (RNA
+and DNA)). The call rate, no call rate, positive call rate, negative call rate, and within-
+run repeatability were computed at each variant location of interest.
+Including no calls and excluding known positive variant locations, the negative call
+rate at each clinical variant location for all samples was 100%. Including no calls, all
+positive call rates from positive variant locations were >84%.
+Excluding no calls and combining data across all study samples, the estimate of
+repeatability was 100% for DNA variants and 87.5% for the RNA variants. The lower
+limit of the 95% two-sided confidence interval (CI) for repeatability exceeded 96% at
+all variant locations.
+Including no calls from the data, the estimate of repeatability was 100% at 218 out of
+605 variant locations, 94–99.9% at 186 out of 605 variant locations, and 71.6–93.9%
+at 184 out of 605 variant locations. Including no calls, the lower limit of the 95% two-
+sided confidence interval for repeatability exceeded 64.6% at all variant locations.
+The lower limit of the 95% two-sided confidence interval (CI) for repeatability
+exceeded 96% at all variant locations.
+8
+
+[Table 1 on page 8]
+	Excluding no calls		Including no calls	
+OPA				
+				
+Measure				
+	Percent	95% CI	Percent	95% CI
+				
+	agreement		agreement	
+				
+Variant	100.%
+(118,350/118,3
+57)	99.99%,
+100.0%	96.8
+%
+(118,350/122,2
+10)	(96.74%,
+96.94%)
+Bin	99.4%
+(1,118/1,125)	98.72%,
+99.75%	74.4%
+(833/1,120)	(71.71%,
+76.91%)
+Sample	97.6% (282/289)	95.07%,
+99.02%	65.2%
+(187/287)	(59.34%,
+70.66%)
+
+--- Page 9 ---
+Sample reproducibility results are shown in the two tables below (data from one study
+split into two tables):
+Positive call rate + 95%
+CI
+9
+elpmaS tnairaV
+noitacifitnedi
+tnairaV noitacol
+# of # of
+# of # of
+valid negat Including Excluding
+positive No
+sample ive no calls no calls
+calls Calls
+results calls (A/N) (A/(A+B))
+(A) (C)
+(N) (B)
+100% 100%
+EGRF
+B COSM6223 32 32 0 0 (89.1%, (89.1%,
+Exon19del
+100%) 100%)
+100% 100%
+PIK3C A
+B COSM763 32 32 0 0 (89.1%, (89.1%,
+E545K
+100%) 100%)
+93.8% 93.8%
+C ROS1 N/A 32 30 2 0 (79.2%, (79.2%,
+99.2%) 99.2%)
+100% 100%
+EGFR
+D COSM6225 32 32 0 0 (89.1%, (89.1%,
+Exon19del
+100%) 100%)
+100% 100%
+BRAF
+E COSM476 32 32 0 0 (89.1%, (89.1%,
+V600E
+100%) 100%)
+93.8% 100%
+KRAS
+F COSM521 32 30 0 2 (79.2%, (88.4%,
+G12D
+99.2%) 100%)
+93.8% 100%
+PIK3C A
+F COSM29313 32 30 0 2 (79.2%, (88.4%,
+M1043I
+99.2%) 100%)
+100% 100%
+EGFR
+G COSM6224 32 32 0 0 (89.1%, (89.1%,
+L858R
+100%) 100%)
+KRAS 100% 100%
+J COSM87298 32 32 0 0
+Q61K (89.1%, (89.1%,
+
+[Table 1 on page 9]
+																																				
+																																Positive call rate + 95%				
+																																CI				
+																																				
+	elpmaS			tnairaV		noitacifitnedi						tnairaV		noitacol					# of
+valid
+sample
+results
+(N)			# of
+positive
+calls
+(A)			# of
+negat
+ive
+calls
+(B)			# of
+No
+Calls
+(C)			Including
+no calls
+(A/N)			Excluding
+no calls
+(A/(A+B))		
+B			COSM6223								EGRF
+Exon19del								32			32			0			0			100%
+(89.1%,
+100%)			100%
+(89.1%,
+100%)		
+B			COSM763								PIK3C A
+E545K								32			32			0			0			100%
+(89.1%,
+100%)			100%
+(89.1%,
+100%)		
+C			ROS1								N/A								32			30			2			0			93.8%
+(79.2%,
+99.2%)			93.8%
+(79.2%,
+99.2%)		
+D			COSM6225								EGFR
+Exon19del								32			32			0			0			100%
+(89.1%,
+100%)			100%
+(89.1%,
+100%)		
+E			COSM476								BRAF
+V600E								32			32			0			0			100%
+(89.1%,
+100%)			100%
+(89.1%,
+100%)		
+F			COSM521								KRAS
+G12D								32			30			0			2			93.8%
+(79.2%,
+99.2%)			100%
+(88.4%,
+100%)		
+F			COSM29313								PIK3C A
+M1043I								32			30			0			2			93.8%
+(79.2%,
+99.2%)			100%
+(88.4%,
+100%)		
+G			COSM6224								EGFR
+L858R								32			32			0			0			100%
+(89.1%,
+100%)			100%
+(89.1%,
+100%)		
+J			COSM87298								KRAS
+Q61K								32			32			0			0								
+
+[Table 2 on page 9]
+# of
+valid
+sample
+results
+(N)
+
+[Table 3 on page 9]
+# of
+negat
+ive
+calls
+(B)
+
+[Table 4 on page 9]
+# of
+positive
+calls
+(A)
+
+[Table 5 on page 9]
+# of
+No
+Calls
+(C)
+
+[Table 6 on page 9]
+Including
+no calls
+(A/N)
+
+[Table 7 on page 9]
+Excluding
+no calls
+(A/(A+B))
+
+--- Page 10 ---
+Positive call rate + 95%
+CI
+10
+elpmaS tnairaV
+noitacifitnedi
+tnairaV noitacol
+# of # of
+# of # of
+valid negat Including Excluding
+positive No
+sample ive no calls no calls
+calls Calls
+results calls (A/N) (A/(A+B))
+(A) (C)
+(N) (B)
+100%) 100%)
+100% 100%
+ERBB3
+J COSM172423 32 32 0 0 (89.1%, (89.1%,
+V104M 100%) 100%)
+96.7% 100%
+PIK3
+K COSM775 (82.8%, (88.1%,
+H1047R
+30 29 0 1 99.9%) 100%)
+100% 100%
+FGR3
+M COSM715 (89.1%, (89.1%,
+S249C
+32 32 0 0 100%) 100%)
+
+[Table 1 on page 10]
+																																				
+																																Positive call rate + 95%				
+																																CI				
+																																				
+	elpmaS			tnairaV		noitacifitnedi						tnairaV		noitacol					# of
+valid
+sample
+results
+(N)			# of
+positive
+calls
+(A)			# of
+negat
+ive
+calls
+(B)			# of
+No
+Calls
+(C)			Including
+no calls
+(A/N)			Excluding
+no calls
+(A/(A+B))		
+																															100%)			100%)		
+J			COSM172423								ERBB3
+V104M								32			32			0			0			100%
+(89.1%,
+100%)			100%
+(89.1%,
+100%)		
+K			COSM775								PIK3
+H1047R								30			29			0			1			96.7%
+(82.8%,
+99.9%)			100%
+(88.1%,
+100%)		
+M			COSM715								FGR3
+S249C								32			32			0			0			100%
+(89.1%,
+100%)			100%
+(89.1%,
+100%)		
+
+[Table 2 on page 10]
+# of
+valid
+sample
+results
+(N)
+
+[Table 3 on page 10]
+# of
+negat
+ive
+calls
+(B)
+
+[Table 4 on page 10]
+# of
+positive
+calls
+(A)
+
+[Table 5 on page 10]
+# of
+No
+Calls
+(C)
+
+[Table 6 on page 10]
+Including
+no calls
+(A/N)
+
+[Table 7 on page 10]
+Excluding
+no calls
+(A/(A+B))
+
+--- Page 11 ---
+Within-run
+Negative call
+repeatability +
+rate + 95% CI
+95% CI
+11
+elpmaS tnairaV
+noitacifitnedi
+noitacol
+tnairaV
+# of # of
+valid # of neg # of Excludi
+Includi
+samp positi at No ng no Includi Excludi
+ng no
+le ve ive Cal calls ng no ng no
+calls
+resul calls call ls (B/(A+ calls calls
+(B/N)
+ts (A) s (C) B))
+(N) (B)
+EGRF 0% 0% 100% 100%
+COSM622
+B Exon19 32 32 0 0 (0%, (0%, (79.4% (79.4%,
+3
+del 10.9%) 10.9%) 100%) 100%)
+100%
+PIK3C 0% 0% 100%
+(79.4%
+B COSM763 A 32 32 0 0 (0%, (0%, (79.4%,
+,
+E545K
+10.9%) 10.9%) 100%) 100%)
+87.5%
+6.3% 6.3% 87.5%
+(61.7%
+C ROS1 N/A 32 30 2 0 (0.8%, (0.8%, (61.7%,
+,
+20.8%) 20.8%) 98.4%) 98.4%)
+100%
+EGFR 0% 0% 100%
+COSM622 (79.4%
+D Exon19 32 32 0 0 (0%, (0%, (79.4%,
+5 ,
+del
+10.9%) 10.9%) 100%) 100%)
+100%
+0% 0% 100%
+BRAF (79.4%
+E COSM476 32 32 0 0 (0%, (0%, (79.4%,
+V600E ,
+10.9%) 10.9%) 100%) 100%)
+87.5%
+0% 0% 100%
+KRAS (61.7%
+F COSM521 32 30 0 2 (0%, (0%, (76.8%,
+G12D ,
+10.9%) 11.6%) 98.4%) 100%)
+87.5%
+PIK3C 0% 0% 100%
+COSM293 (61.7%
+F A 32 30 0 2 (0%, (0%, (76.8%,
+13 ,
+M1043I
+10.9%) 11.6%) 98.4%) 100%)
+100%
+COSM622 EGFR 0% 0% 100%
+G 32 32 0 0 (79.4%
+4 L858R (0%, (0%, (79.4%,
+,
+
+[Table 1 on page 11]
+																																				
+																									Negative call
+rate + 95% CI							Within-run				
+																																repeatability +				
+																																95% CI				
+																																				
+elpmaS			tnairaV		noitacifitnedi					noitacol
+tnairaV				# of		# of
+positi
+ve
+calls
+(A)				# of		# of
+No
+Cal
+ls
+(C)			Includi
+ng no
+calls
+(B/N)			Excludi
+ng no
+calls
+(B/(A+
+B))			Includi
+ng no
+calls			Excludi
+ng no
+calls		
+														valid						neg																
+														samp						at																
+														le						ive																
+														resul						call																
+														ts						s																
+														(N)						(B)																
+B		COSM622
+3							EGRF
+Exon19
+del				32			32			0			0			0%
+(0%,
+10.9%)			0%
+(0%,
+10.9%)			100%
+(79.4%
+100%)			100%
+(79.4%,
+100%)		
+B		COSM763							PIK3C
+A
+E545K				32			32			0			0			0%
+(0%,
+10.9%)			0%
+(0%,
+10.9%)			100%
+(79.4%
+,
+100%)			100%
+(79.4%,
+100%)		
+C		ROS1							N/A				32			30			2			0			6.3%
+(0.8%,
+20.8%)			6.3%
+(0.8%,
+20.8%)			87.5%
+(61.7%
+,
+98.4%)			87.5%
+(61.7%,
+98.4%)		
+D		COSM622
+5							EGFR
+Exon19
+del				32			32			0			0			0%
+(0%,
+10.9%)			0%
+(0%,
+10.9%)			100%
+(79.4%
+,
+100%)			100%
+(79.4%,
+100%)		
+E		COSM476							BRAF
+V600E				32			32			0			0			0%
+(0%,
+10.9%)			0%
+(0%,
+10.9%)			100%
+(79.4%
+,
+100%)			100%
+(79.4%,
+100%)		
+F		COSM521							KRAS
+G12D				32			30			0			2			0%
+(0%,
+10.9%)			0%
+(0%,
+11.6%)			87.5%
+(61.7%
+,
+98.4%)			100%
+(76.8%,
+100%)		
+F		COSM293
+13							PIK3C
+A
+M1043I				32			30			0			2			0%
+(0%,
+10.9%)			0%
+(0%,
+11.6%)			87.5%
+(61.7%
+,
+98.4%)			100%
+(76.8%,
+100%)		
+G		COSM622
+4							EGFR
+L858R				32			32			0			0														
+
+[Table 2 on page 11]
+Negative call
+rate + 95% CI
+
+[Table 3 on page 11]
+# of
+positi
+ve
+calls
+(A)
+
+[Table 4 on page 11]
+# of
+No
+Cal
+ls
+(C)
+
+[Table 5 on page 11]
+Excludi
+ng no
+calls
+(B/(A+
+B))
+
+[Table 6 on page 11]
+Includi
+ng no
+calls
+(B/N)
+
+[Table 7 on page 11]
+Includi
+ng no
+calls
+
+[Table 8 on page 11]
+Excludi
+ng no
+calls
+
+--- Page 12 ---
+Within-run
+Negative call
+repeatability +
+rate + 95% CI
+95% CI
+12
+elpmaS tnairaV
+noitacifitnedi
+noitacol
+tnairaV
+# of # of
+valid # of neg # of Excludi
+Includi
+samp positi at No ng no Includi Excludi
+ng no
+le ve ive Cal calls ng no ng no
+calls
+resul calls call ls (B/(A+ calls calls
+(B/N)
+ts (A) s (C) B))
+(N) (B)
+10.9%) 10.9%) 100%) 100%)
+100%
+0% 0% 100%
+COSM872 KRAS (79.4%
+J 32 32 0 0 (0%, (0%, (79.4%,
+98 Q61K ,
+10.9%) 10.9%) 100%) 100%)
+100%
+0% 0% 100%
+COSM172 ERBB3 (79.4%
+J 32 32 0 0 (0%, (0%, (79.4%,
+423 ,
+V104M 10.9%) 10.9%) 100%) 100%)
+93.3%
+PIK3 0% 0% 100%
+(68.1%
+K COSM775 H1047 (0%, (0%, (76.8%,
+,
+R
+30 29 0 1 11.6%) 11.9%) 99.8%) 100%)
+100%
+0% 0% 100%
+FGR3 (79.4%
+M COSM715 (0%, (0%, (79.4%,
+S249C ,
+32 32 0 0 10.9%) 10.9%) 100%) 100%)
+Assay Reproducibility
+The reproducibility and repeatability of a representative assay on the Ion PGM Dx
+System was evaluated for 30 representative variants from 18 DNA and 9 RNA
+samples. The study was designed to evaluate within-run precision performance
+(repeatability) and variability across sites, operators, and instrument platforms
+(reproducibility). Six of the 18 DNA samples were mixtures of plasmid and clinical
+DNA. Seven of the 12 deletion variants were represented by these plasmid blends. All
+other variant types were represented by clinical sample DNA.
+Due to the large number of variants detected by the test and the rarity of some of the
+variants, a representative variant approach was used. Variants were selected in the
+following categories:
+
+[Table 1 on page 12]
+																																				
+																									Negative call
+rate + 95% CI							Within-run				
+																																repeatability +				
+																																95% CI				
+																																				
+elpmaS			tnairaV		noitacifitnedi					noitacol
+tnairaV				# of		# of
+positi
+ve
+calls
+(A)				# of		# of
+No
+Cal
+ls
+(C)			Includi
+ng no
+calls
+(B/N)			Excludi
+ng no
+calls
+(B/(A+
+B))			Includi
+ng no
+calls			Excludi
+ng no
+calls		
+														valid						neg																
+														samp						at																
+														le						ive																
+														resul						call																
+														ts						s																
+														(N)						(B)																
+																									10.9%)			10.9%)			100%)			100%)		
+J		COSM872
+98							KRAS
+Q61K				32			32			0			0			0%
+(0%,
+10.9%)			0%
+(0%,
+10.9%)			100%
+(79.4%
+,
+100%)			100%
+(79.4%,
+100%)		
+J		COSM172
+423							ERBB3
+V104M				32			32			0			0			0%
+(0%,
+10.9%)			0%
+(0%,
+10.9%)			100%
+(79.4%
+,
+100%)			100%
+(79.4%,
+100%)		
+K		COSM775							PIK3
+H1047
+R				30			29			0			1			0%
+(0%,
+11.6%)			0%
+(0%,
+11.9%)			93.3%
+(68.1%
+,
+99.8%)			100%
+(76.8%,
+100%)		
+M		COSM715							FGR3
+S249C				32			32			0			0			0%
+(0%,
+10.9%)			0%
+(0%,
+10.9%)			100%
+(79.4%
+,
+100%)			100%
+(79.4%,
+100%)		
+
+[Table 2 on page 12]
+Negative call
+rate + 95% CI
+
+[Table 3 on page 12]
+# of
+positi
+ve
+calls
+(A)
+
+[Table 4 on page 12]
+# of
+No
+Cal
+ls
+(C)
+
+[Table 5 on page 12]
+Excludi
+ng no
+calls
+(B/(A+
+B))
+
+[Table 6 on page 12]
+Includi
+ng no
+calls
+(B/N)
+
+[Table 7 on page 12]
+Includi
+ng no
+calls
+
+[Table 8 on page 12]
+Excludi
+ng no
+calls
+
+--- Page 13 ---
+Variant Category No. of Plasmid Blends No. of Clinical Samples
+Used Used
+6-bp deletion 6 0
+9-bp deletion 4 2
+15-bp deletion 2 4
+18-bp deletion 2 4
+Simple SNV 0 8
+Complex SNVs and
+0 6
+MNPs*
+Fusion 0 12
+*Including SNVs in di- or tri-nucleotide repeat regions and SNVs in high-GC (>60%)
+or low-GC (<40%) content regions
+Two of the 18 DNA samples were WT at all locations, and the remaining 16
+contained DNA from one or more DNA variants. One of the 9 RNA samples
+contained no fusion molecules, and the remaining 8 samples each contained RNA
+from an RNA variant. Each pre-extracted DNA or RNA sample was sequenced at 4
+sites by 2 operators on 2 systems at each site.
+At each site, operators were grouped into 2 pairs, with each pair being assigned to 2
+instrument systems, and each pair being responsible for testing of 9 of the DNA
+samples and all 9 of the RNA samples. Samples were run in duplicate using 2
+different reagent lots at 3 of the study sites and on all 3 reagent lots at 1 study site.
+The design resulted in a total of 72 test determinations per DNA sample (3 sites × 2
+lots × 2 operators × 2 systems × 2 replicates + 1 site × 3 lots × 2 operators × 2
+systems × 2 replicates). Because there were half as many RNA samples as DNA
+samples, each RNA sample was tested twice as many times (n=144). In total, at least
+1,296 sequencing reactions were performed, and all variant locations were assessed
+for each sample.
+13
+
+[Table 1 on page 13]
+Variant Category	No. of Plasmid Blends	No. of Clinical Samples
+	Used	Used
+6-bp deletion	6	0
+9-bp deletion	4	2
+15-bp deletion	2	4
+18-bp deletion	2	4
+Simple SNV	0	8
+Complex SNVs and
+MNPs*	0	6
+Fusion	0	12
+
+--- Page 14 ---
+The reproducibility results are summarized in the following table:
+Call rate Call rate Call rate
+No. of variant excluding no including no including no calls
+Description samples calls calls and invalids
+Mean Median Mean Median Mean Median
+DNA positive variants
+46 96.60% 97.10% 94.50% 95.80% 94.50% 95.80%
+(positive calls)
+RNA positive variants
+6 94.80% 95.50% 94.80% 95.50% 94.80% 95.50%
+(positive calls)
+WT DNA variant
+872 96.10% 95.00% 96.10% 95.00% 90.70% 93.10%
+locations
+(negative calls)
+WT RNA variant
+170 99.30% 99.30% 99.30% 99.30% 99.30% 99.30%
+locations
+(negative calls)
+Excluding no calls, the estimate of repeatability at each DNA variant location across
+all the samples was ≥98.8% (95% CI lower limit of ≥97.5%). The coefficient of
+variation (CV) across all DNA clinical variants ranged from 9.8% to 39%. The
+highest CVs (24.9–39.2%) were observed for one specific variant (BRAF V600E
+variant); the root cause for the higher percent CV for this sample was not definitively
+determined. The CVs for other specific variants (e.g., EGFR L858R variant and
+EGFR deletion variants) ranged from 9.8% to 11.3%, and 11.2% to 25.5%
+respectively.
+Excluding no calls, the estimate of repeatability at each RNA clinical variant location
+was 94.4%. The CV across all RNA locations ranged from 72% to 78%.
+c. Linearity:
+Not applicable.
+d. Carryover:
+A study was performed to evaluate the potential for inter-run and intra-run sample
+carryover (cross-contamination). Eight FFPE cell line samples were evaluated to
+determine the percentage of false positive results caused by contamination from one
+sample to another within the same sequencing run and by contamination from a
+previous run on the same instrument system. Samples that were WT and mutant were
+tested in consecutive sequencing runs on the same instruments, and 5 DNA variant
+locations and 2 RNA variant locations that were expected to be WT for a sample were
+evaluated for contamination. Out of 100 DNA and 80 RNA data points analyzed, no
+false positive results were reported in the DNA variants, and 1 false positive result
+was reported in an RNA variant. Therefore, the false-positive rate at the DNA variant
+14
+
+[Table 1 on page 14]
+							
+		Call rate		Call rate		Call rate	
+	No. of variant	excluding no		including no		including no calls	
+Description	samples	calls		calls		and invalids	
+		Mean	Median	Mean	Median	Mean	Median
+DNA positive variants
+(positive calls)	46	96.60%	97.10%	94.50%	95.80%	94.50%	95.80%
+RNA positive variants
+(positive calls)	6	94.80%	95.50%	94.80%	95.50%	94.80%	95.50%
+WT DNA variant
+locations	872	96.10%	95.00%	96.10%	95.00%	90.70%	93.10%
+(negative calls)
+WT RNA variant
+locations	170	99.30%	99.30%	99.30%	99.30%	99.30%	99.30%
+
+--- Page 15 ---
+locations was 0% (0/100) and the false-positive rate at the RNA variant locations was
+1.25% (1/80).
+e. Interfering Substances:
+Endogenous and Exogenous Substances
+To assess the impact of endogenous and exogenous interfering substances on the
+instrument, a representative assay was evaluated in the presence and absence of
+potential interferents. Six potentially interfering substances were evaluated, including
+five potentially interfering substances used to extract DNA and RNA from FFPE
+tissue samples, in addition to hemoglobin, a potentially interfering endogenous
+substance. A total of 8 FFPE samples (1 WT and 7 mutants) with 6 replicates each
+were processed through the entire assay workflow, and the samples were spiked with
+additional concentrations or amounts of the listed substances at the relevant
+processing step, as shown in the table. Replicates of a control sample with no spike-
+ins were also analyzed. The concordance between variant calls in samples with and
+without interfering substances was computed for each substance under investigation.
+Amounts of the tested substances and the steps at which they were added during the
+assay are summarized in the table below:
+Potential interfering Amount of
+Call Rate
+Step
+substance substance
+At the deparaffinization step, extra
+paraffin was added to the xylene 4X of normally
+Paraffin
+bath that contained 250 mL of expected levels
+xylene.
+Extra xylene was added into the 6X of normally
+Xylene ethanol bath that contained 250 mL expected
+of ethanol. residual volume
+Extra ethanol was added into the >4X of normally
+Ethanol Protease digestion step before expected
+digestion. residual volume
+After deparaffinization,
+hemoglobin was added to the
+Hemoglobin 4 mg/mL
+Digestion Buffer used to pre-wet
+the tissue section
+>10X of expected
+Extra Protease was added into the residual
+Protease reaction after the digestion step and Protease after
+before column purification. the heat-kill
+step
+15
+
+[Table 1 on page 15]
+			
+Potential interfering		Amount of	
+			Call Rate
+	Step		
+substance		substance	
+			
+			
+Paraffin	At the deparaffinization step, extra
+paraffin was added to the xylene
+bath that contained 250 mL of
+xylene.	4X of normally
+expected levels	
+Xylene	Extra xylene was added into the
+ethanol bath that contained 250 mL
+of ethanol.	6X of normally
+expected
+residual volume	
+Ethanol	Extra ethanol was added into the
+Protease digestion step before
+digestion.	>4X of normally
+expected
+residual volume	
+Hemoglobin	After deparaffinization,
+hemoglobin was added to the
+Digestion Buffer used to pre-wet
+the tissue section	4 mg/mL	
+Protease	Extra Protease was added into the
+reaction after the digestion step and
+before column purification.	>10X of expected
+residual
+Protease after
+the heat-kill
+step	
+
+--- Page 16 ---
+Wash buffer used to isolate DNA
+and RNA from deparaffinized and
+1% wash buffer
+digested samples was added into an
+(equivalent to
+aliquot of Dilution Solution, which
+Wash buffer ~10% wash
+was subsequently used to dilute the
+buffer carried
+RNA and DNA to the appropriate
+over into eluate)
+concentration before library
+preparation.
+Tissue sections were processed
+using the standard protocol, without
+Control N/A
+the addition of any potentially
+interfering substances.
+No false positive or false negative results were observed with any of the tested
+exogenous interferents. With no calls excluded, for each potential interferent, the
+positive and negative concordance with the control condition across all samples was
+100%, and the overall concordance with the control condition across all samples was
+100%.
+With no calls excluded, the results of testing with hemoglobin showed positive
+concordance with the control condition of 100% (only samples with a positive control
+condition were analyzed), negative concordance of 99.99%, and overall concordance
+of 99.99%. For one sample, 1 of 6 replicates of a control condition was a false
+negative. For another sample, 1 of 6 replicates of a hemoglobin condition was a false
+positive.
+Necrosis
+It is currently unknown whether necrotic tissue in the region of interest in FFPE tissue
+samples interferes with sequencing of FFPE samples. Therefore, users should
+macrodissect highly necrotic areas or select alternate samples if possible.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Tissue input study:
+Sixty slide-mounted FFPE samples were analyzed to determine if samples extracted
+using the Ion Torrent Dx Total Nucleic Acid Isolation Kit yield DNA and RNA at the
+concentrations required by a representative assay when tissue input requirements are met.
+The test requires DNA at a concentration of ≥0.83 ng/μL and RNA at a concentration of
+≥1.43 ng/μL.
+Thirty resection samples with ≥20% tumor content were prepared without
+macrodissection, 15 resection samples with <20% to ≥10% tumor cell content were
+macrodissected, and 15 samples were collected by core needle biopsy (CNB). For the
+resection samples, 2 × 5 μm sections were used per extraction. For CNBs, 9 × 5 μm
+sections were used per extraction. DNA and RNA concentrations were determined using
+16
+
+[Table 1 on page 16]
+Wash buffer	Wash buffer used to isolate DNA
+and RNA from deparaffinized and
+digested samples was added into an
+aliquot of Dilution Solution, which
+was subsequently used to dilute the
+RNA and DNA to the appropriate
+concentration before library
+preparation.	1% wash buffer
+(equivalent to
+~10% wash
+buffer carried
+over into eluate)	
+Control	Tissue sections were processed
+using the standard protocol, without
+the addition of any potentially
+interfering substances.	N/A	
+
+--- Page 17 ---
+the Ion Torrent Dx DNA and RNA Quantification Kits, respectively. No sequencing was
+performed on the extracted samples.
+Of the 60 samples tested, 98.3% (59/60) had a DNA concentration of ≥0.83 ng/μL and an
+RNA concentration of ≥1.43 ng/μL. One CNB sample failed the minimum DNA and
+RNA concentration specifications, with values of 0.52 ng/μL and 1.23 ng/μL
+respectively.
+DNA input study:
+To evaluate the amount of input FFPE-excted DNA and RNA required to reproducibly
+make accurate variant calls, eight cell-line samples were prepared as FFPE sections, and
+DNA and RNA were extracted and quantified from multiple sections from each cell line
+for blending and testing. Sample blends were prepared with known variants at various
+DNA and RNA input-level combinations within the range of 5−15 ng. The DNA and
+RNA blends had a target allele frequency of 15% for SNVs and deletions and target
+fusion reads of 300−600 for a specific variant (ROS1). A total of 540 individual DNA
+and RNA libraries were tested, including positive controls and NTC controls, with 6
+replicate libraries each for DNA and RNA per test condition.
+The study demonstrated a 100% positive variant call rate within the input range tested,
+supporting an input amount of 10 ng each for DNA and RNA for a specific representative
+assay.
+The negative variant call rate was >95% for all except 4 sample and DNA/RNA input-
+level combinations. All cases with a negative variant call rate of <95% were due to no
+calls, 3 of which occurred with a DNA or RNA input amount of 5 ng and 1 of which
+occurred in a single sample with DNA and RNA inputs of 10 ng each. There were no
+false-positive calls.
+Additionally, 4 clinical samples prepared as FFPE sections were tested: two samples
+containing DNA variants and two containing the specific CD74-ROS1 fusion variant.
+The DNA variant samples were paired with wild-type RNA from the same sample at
+various input combinations within the range of 5–15 ng, and the RNA variant samples
+were paired with wild-type DNA at input combinations within the same range.
+The study demonstrated positive and negative call rates of >95% for the DNA variants at
+all input combinations, and 100% for one of the CD74-ROS1 fusion variants at all input
+combinations. The second CD74-ROS1 clinical sample showed 100% negative call rates
+for all test conditions, and 100% positive call rates except for Test Condition 4 (8.5 ng
+RNA/15 ng DNA), where the call rate was 83%, and Test Condition 6 (15 ng RNA/15 ng
+DNA), where the call rate was 50%.
+Sample indexing study:
+Sample barcode adapters are used in all runs to assign a unique nucleic acid barcode to
+each sample DNA, allowing the ability to pool up to sixteen (16) barcoded sample
+17
+
+--- Page 18 ---
+libraries into a single Ion PGM Dx sequencing run. All 16 barcode adapters were tested
+with the SVA panel and genomic DNA samples (NA12878 and NA19240) to determine
+variant call (SNV and Indel) reproducibility between adapter sequences. Sample results
+were compared to reference database sequences for the NA12878 and NA19240 genomes
+at all variant and non-variant positions. Comparison of data from 60 runs consisting of 4
+sequencing reactions (2 DNA samples × 2 barcodes each) and 24 runs consisting of 16
+sequencing reactions (2 DNA samples × 8 barcodes each) indicate that the barcode
+adapter used and the number of samples pooled together had no effect on variant call
+reproducibility.
+Indexing chemistry and software is identical for all libraries, independent of the type and
+source of nucleic acid. The previously conducted indexing study for indexing genomic
+DNA extracted from whole blood was therefore used to support indexing of FFPE RNA
+and DNA samples.
+K. Proposed Labeling:
+Labeling satisfies the requirements of 21 CFR 809.10, 21 CFR 801.109, including an
+appropriate prescription statement as required by 21 CFR 801.109(b), and the special
+controls for this type of device.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+18

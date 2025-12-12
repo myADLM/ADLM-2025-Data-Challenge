@@ -1,0 +1,117 @@
+Standard Operating Procedure (SOP) for Generating Results for
+MAYOCOMPLETE LUNG CANCER-TARGETED GENE PANEL
+WITH REARRANGMENT, TUMOR
+1. PURPOSE
+To outline the analytical phase procedures for generating results for
+the MAYOCOMPLETE LUNG CANCER-TARGETED GENE PANEL
+WITH REARRANGEMENT, TUMOR in order to ensure accurate and
+timely reporting of patient results.
+Responsibility: It is the responsibility of all designated laboratory
+personnel to adhere to protocol for performing molecular assays and
+to generate accurate and reliable results. Lab supervisors are
+responsible for overseeing the quality assurance of the process.
+1. DEFINITION
+The MAYOCOMPLETE LUNG CANCER-TARGETED GENE PANEL
+WITH REARRANGEMENT, TUMOR is a comprehensive genetic test
+performed to identify targetable genomic alterations such as
+mutations, rearrangements, and gene amplifications associated with
+lung cancer.
+1. PROCEDURE
+A. Equipment and Reagents:
+• Next-generation sequencer (e.g., Illumina or Ion Torrent)
+• Thermal cycler
+• Microcentrifuge
+• Vortex mixer
+• Quantification equipment (e.g., Qubit Fluorometer)
+• Agilent 2200 TapeStation or equivalent
+• Pipettes and tips, sterile and aerosol-resistant
+• DNA extraction kit
+• PCR master mix
+• Gene panel assay kit specific to MAYOCOMPLETE Lung Cancer
+panel
+• Nuclease-free water
+• Appropriate controls (positive and negative)
+• Reagent grade ethanol
+• Laboratory notebook and/or LIMS for documentation
+B. Sample Preparation:
+1. DNA Extraction:
+◦ Using the designated DNA extraction kit, isolate DNA from
+tumor tissue.
+◦ Quantify and assess the quality of extracted DNA using a
+Qubit Fluorometer and the Agilent 2200 TapeStation.
+◦ DNA should have a minimum concentration of 10 ng/μl and
+a total volume of at least 50 μl. The A260/A280 ratio should
+be between 1.8 – 2.0.
+2. Library Preparation:
+◦ Prepare libraries from the extracted DNA using the
+MAYOCOMPLETE Lung Cancer gene panel assay kit.
+◦ Follow the manufacturer’s protocol for library preparation
+which involves hybridization capture of target sequences.
+◦ Amplify the targeted regions through PCR.
+◦ Purify the amplified library and perform quality assessment
+using the TapeStation system.
+3. Sequencing:
+◦ Load the prepared library into the sequencer according to
+the manufacturer's instructions.
+◦ Set up the sequencer run with the appropriate parameters:
+▪ Read length: Paired-end 150 bp (example)
+▪ Coverage: Aim for an average depth of 500x
+◦ Monitor the sequencing run and ensure all quality controls
+are within acceptable limits.
+4. Data Analysis:
+◦ After completion of the sequencing run, perform initial data
+quality checks.
+◦ Align the sequenced reads to the human reference genome.
+◦ Call variants including single nucleotide variants (SNVs),
+insertions/deletions (INDELs), copy number variations
+(CNVs), and gene rearrangements.
+◦ Filter variants based on predefined criteria (e.g., variants
+with a read depth <10x considered low confidence).
+◦ Employ bioinformatic tools for annotation to determine the
+clinical relevance of detected alterations.
+◦ Confirm results using orthogonal methods if required (e.g.,
+Sanger sequencing for specific mutations).
+C. Quality Control:
+• Include positive and negative controls in each run to validate the
+assay performance.
+• Ensure that the base call quality scores are within acceptable
+limits (e.g., >Q30 for at least 80% of bases).
+• Check that the coverage metrics meet the required thresholds.
+• Perform regular maintenance and calibration of sequencers and
+other critical equipment.
+• Document any deviations from standard protocols in the
+laboratory information management system (LIMS).
+D. Reporting Results:
+1. Verify the analyzed data and confirm the presence of clinically
+significant variants.
+2. Generate a detailed report thoroughly documenting:
+◦ Patient identifiers and specimen details
+◦ List of detected mutations, rearrangements, or
+amplifications along with gene name, nucleotide change,
+amino acid change, and associated clinical significance
+◦ Coverage statistics and quality metrics
+◦ Interpretation notes and recommendations for potential
+clinical applications.
+3. Ensure that the report is reviewed and signed off by the
+designated molecular pathologist.
+4. Transmit final reports to appropriate clinical teams and securely
+archive testing data in compatibility with privacy regulations.
+E. Documentation:
+• Record all stages of processing, including date, time, and
+identifying information for the personnel performing each step.
+• Document any troubleshooting steps taken during the protocol.
+1. REFERENCES
+• Manufacturer’s instruction manual for the MAYOCOMPLETE
+Lung Cancer gene panel.
+• Standard clinical guidelines and recommendations for molecular
+genetic testing of lung cancer.
+• Internal quality management guidelines and CLIA regulations.
+1. APPROVAL
+This protocol must be reviewed and approved by the Molecular
+Pathology department supervisor and Laboratory Director. Regular
+reviews are scheduled annually or as needed should there be any
+updates to the testing kit or procedural changes instituted.
+This protocol outlines a clear and detailed framework for generating
+reliable results using the MAYOCOMPLETE Lung Cancer gene
+panel, ensuring standardization and adherence to high-quality
+laboratory practices essential for impactful patient care.

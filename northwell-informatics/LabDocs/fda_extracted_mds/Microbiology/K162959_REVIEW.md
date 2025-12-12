@@ -1,0 +1,42 @@
+# SPECIAL 510(k): Device Modification OIR Decision Summary
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class II, Class III or Class I device requiring 510(k). The following items are present and acceptable:
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device:
+
+DiaSorin LIAISON® EA IgG
+
+510(k) number: K060204
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, and package labeling.
+
+The intended use of the DiaSorin LIAISON® EA IgG assay did not change. The intended use of the Controls (required for the assay and sold separately) was updated to reflect the change in the Control matrix.
+
+3. A description of the device MODIFICATIONS in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed.
+
+A. Changes to the LIAISON® EA IgG assay 1. The Quality Control section of the package insert is updated to reflect the change in the Control matrix.
+
+# B. Changes to the LIAISON® Control EA IgG:
+
+1. The name is changed to LIAISON® EA IgG Serum Control Set.   
+2. The Positive and Negative Controls included in the LIAISON® EA IgG Serum Control Set (Controls) are provided in a matrix of $100 \%$ human serum/defibrinated plasma instead of in a matrix comprised of buffer and $5 \%$ human serum/defibrinated plasma.   
+3. The Open Use stability claim of the LIAISON® EA IgG Serum Control Set is extended from 4 weeks to 8 weeks when stored at $2 - 8 ^ { \circ } \mathsf { C }$ . The storage conditions of the Controls did not change.
+
+# 4. Comparison Information
+
+<table><tr><td colspan="3" rowspan="1">LIAISON® EA IgG assay</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Predicate DeviceDiaSorin LIAISON® EAIgG, K060204, Cleared10/18/2006</td><td colspan="1" rowspan="1">Modified DeviceLIAISON® EA IgG andLIAISON® EA IgGSerum Control Set</td></tr><tr><td colspan="1" rowspan="1">IntendedUse/Indicationsfor Use</td><td colspan="1" rowspan="1">The LIAISON® EA IgG assay useschemiluminescent immunoassay (CLIA)technology on the LIAISON® Analyzerfamily* for the qualitative determination ofspecific IgG antibodies to Epstein-Barrvirus (EBV) early antigen-diffuse [EA(D)]in human serum. This assay uses a 47-kDa recombinant antigen expressed in E.coli DH-1 cells. When performed inconjunction with other EBV markers, thisassay can be used as an aid in theclinincal laboratory diagnosis of Epstein-Barr Viral Syndrome in patients withsigns and symptoms of EBV infectionsuch as infectious mononucleosis.*(LIAISON® and LIAISON® XL)</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">Technology/Assay Principle</td><td colspan="1" rowspan="1">Chemiluminescent Immunoassay (CLIA)</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">SampleHandling /AssayProcessing</td><td colspan="1" rowspan="1">Automated</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">Storage</td><td colspan="1" rowspan="1">Store at 2-8° C until ready to use</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">MeasuredAnalyte</td><td colspan="1" rowspan="1">IgG antibodies to Epstein-Barr virus(EBV) early antigen-diffuse [EA(D)]</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">AssayPerformanceCharacteristics</td><td colspan="1" rowspan="1">No Change</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">Labeling(Instructions forUse)</td><td colspan="1" rowspan="1">References buffer based controls</td><td colspan="1" rowspan="1">References serumbased controls</td></tr><tr><td colspan="1" rowspan="1">Controls</td><td colspan="1" rowspan="1">Provided Separately</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="3" rowspan="1">LIAISON® EA IgG Serum Control Set</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1">Predicate DeviceDiaSorin LIAISON® EA IgG,K060204, Cleared 10/18/2006</td><td colspan="1" rowspan="1">Modified DeviceLIAISON® EA IgG andLIAISON® EA IgG SerumControl Set</td></tr><tr><td colspan="1" rowspan="1">Intended Use</td><td colspan="1" rowspan="1">The LIAISON® EA IgG Controls(negative, positive) are used formonitoring substantial reagentfailure of the LIAISON® EA IgGchemiluminescent immunoassay(CLIA). The LIAISON® EA IgGquality control material contains onlya 5% serum matrix and may notadequately control the DiaSorinLIAISON® EA IgG assay for serumspecimens. The performance of theLIAISON® EA IgG Controls has notbeen established with any other EAassay or instrument platformsdifferent from LIAISON® andLIAISON® XL.</td><td colspan="1" rowspan="1">The DiaSorin LIAISON® EAIgG Serum Control Set isintended for use as assayedquality control samples tomonitor the performance of theLIAISON® EA IgG assay on theLIAISON® Analyzer family*.The performancecharacteristics of the LIAISON®EA IgG controls have not beenestablished for any other assayor instrument platforms differentfrom the LIAISON® andLIAISON® XL.*(LIAISON® and LIAISON® XL)</td></tr><tr><td colspan="1" rowspan="1">NegativeControl</td><td colspan="1" rowspan="1">5% human serum/defibrinatedplasma non-reactive for EA IgGantibodies, diluted in PBS buffer,BSA, with ProClin® 300 as apreservative.</td><td colspan="1" rowspan="1">Human serum/defibrinatedplasma non-reactive for EA IgGantibodies, 0.1% ProClin® 300and 0.09% sodium azide.</td></tr><tr><td colspan="1" rowspan="1">PositiveControl</td><td colspan="1" rowspan="1">5% Human serum/defibrinatedplasma reactive for EA IgGantibodies, diluted in PBS buffer,BSA, with ProClin® 300 as apreservative and an inert yellowdye.</td><td colspan="1" rowspan="1">Human serum/defibrinatedplasma reactive for EA IgGantibodies, 0.1% ProClin 300and 0.09% sodium azide.</td></tr><tr><td colspan="1" rowspan="1">ReagentConfiguration</td><td colspan="1" rowspan="1">2 vials each level (negative andpositive) 0.7 mL/vial, ready to use.</td><td colspan="1" rowspan="1">No change</td></tr><tr><td colspan="1" rowspan="1">Storage</td><td colspan="1" rowspan="1">Store at 2 - 8°</td><td colspan="1" rowspan="1">No change</td></tr><tr><td colspan="1" rowspan="1">Open UseStability</td><td colspan="1" rowspan="1">Once opened controls are stable forfour (4) weeks when properly storedat 2-8°C between uses.</td><td colspan="1" rowspan="1">Once opened controls arestable for eight (8) weeks whenproperly stored at 2-8°Cbetween uses.</td></tr></table>
+
+# 5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method used to assess the impact of the modification on the device and its components, and the results of the analysis.
+
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied.
+
+Stability studies on the modified Controls were performed. Precision and matrix effect studies were also performed.
+
+c) A “Declaration of Conformity” statement was also submitted for the manufacturing facility and validation activities and signed by the Senior Director Regulatory Affairs and Quality Assurance. The statements indicate that:
+
+I. The manufacturing facility is in conformance with design control procedure requirements as specified in 21 CFR 820.30 and the records are available for review.   
+II. The validation activities, as required by the risk analysis, for the modification were performed by the designated individuals and the results demonstrated that the predetermined acceptance criteria were met.
+
+The labeling for this modified subject device has been reviewed to verify that the indication/intended use for the device, the LIAISON® EA IgG assay, is unaffected by the modification. The intended use of the component LIAISON® EA IgG Serum Control Set was updated to reflect the change in composition of the Control matrix. In addition, the submitter’s description of the particular modifications and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter has provided the design control information as specified in The New 510(k) Paradigm and on this basis, I recommend the device be determined substantially equivalent to the previously cleared device.

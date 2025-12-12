@@ -1,0 +1,384 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+A. 510(k) Number:
+K172922
+B. Purpose for Submission:
+New display
+C. Manufacturer and Instrument Name:
+Barco N.V.
+MMPC-4127F1 (PP27QHD)
+D. Type of Test or Tests Performed:
+Digital pathology display
+E. System Descriptions:
+1. DeviceDescription:
+The MMPC-4127F1 (PP27QHD) is a 27” color LCD flat panel medical display with a
+fine pixel pitch that can be calibrated to the sRGB gamut. The display is designed to view
+scanned digital images of formalin-fixed, paraffin-embedded (FFPE) tissue slides, using
+IVD-labeled whole slide imaging systems. Display accessories include QAWeb quality
+assurance software, DisplayPort cable, USB cable and AC power cord cables. The
+display has the following specifications :
+Display Characteristics and Electro-Optical Performance
+Display technology IPS LCD
+Native Resolution 2560 x1440
+Display LUT ≥ 10 bit / sub-pixel
+Pixel Pitch (Horizontal) (mm) 0.2331
+Pixel pitch (Verical) (mm) 0.2331
+Active screen (Diagonal) (mm / inch) 685.8 / 27.0
+Active screen (Width) (mm) 596.74
+Active screen (Height) (mm) 335.66
+Contrast Ratio - (typical) 1000:1
+Luminance stabilization +2% / -2% front sensor
+Maximum Luminance (typical) (cd/m²) 500
+DICOM Calibrated Luminance (Typical) (cd/m²) 350
+1
+
+[Table 1 on page 1]
+Display Characteristics and Electro-Optical Performance	
+Display technology	IPS LCD
+Native Resolution	2560 x1440
+Display LUT	≥ 10 bit / sub-pixel
+Pixel Pitch (Horizontal) (mm)	0.2331
+Pixel pitch (Verical) (mm)	0.2331
+Active screen (Diagonal) (mm / inch)	685.8 / 27.0
+Active screen (Width) (mm)	596.74
+Active screen (Height) (mm)	335.66
+Contrast Ratio - (typical)	1000:1
+Luminance stabilization	+2% / -2% front sensor
+Maximum Luminance (typical) (cd/m²)	500
+DICOM Calibrated Luminance (Typical) (cd/m²)	350
+	
+
+--- Page 2 ---
+Luminance non-uniformity (per DIN6868- 157), < 2 5 % o n 9 points,
+diagnostic room class 10%/80% luminance
+Response Time (typical) (ms) 12
+Response Time (max) (ms) 24
+Calibration Performance
+Supported color spaces sRGB, DICOM, native
+Average dE2000 deviation from sRGB <2 on 6x6x6 grid
+Maximum dE2000 deviation from sRGB <5 on 6x6x6 grid
+White point chromaticity stabilization +/-0.01 u’v’
+Gray tracking (per IEC 62563) +/-0.01 u’v’
+Grayscale transfer function deviation <10% on 18 points
+Calibration Software MediCal QAWeb
+Environmental Specifications
+Operational Temperature (min/max) (°C) 10 / 40
+Within specification temperature (min/max) (°C) 10 / 35
+Power Consumption (@ 100-240VAC typical) (W) 120
+2. Principles of Operation:
+The MMPC-4127F1 (PP27QHD) display is to be used to view scanned digital images of
+formalin-fixed, paraffin-embedded (FFPE) tissue slides, using IVD-labeled whole slide
+imaging (WSI) systems, which are automated digital slide creation, management,
+viewing and analysis systems designed for scanning and digitizing surgical pathology
+slides prepared from FFPE tissues. The digitized images can then be displayed and
+reviewed on the MMPC-4127F1 (PP27QHD) monitor for interpretation by pathologists
+for clinical purposes.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ________ or No ___X_____
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ____X____
+4. Specimen Identification:
+The FFPE tissue specimen is identified on the scanned images by patient-specfic
+barcodes and/or patient identifying information present on the glass slides.
+5. Specimen Sampling and Handling:
+2
+
+[Table 1 on page 2]
+Luminance non-uniformity (per DIN6868- 157),
+diagnostic room class	< 2 5 % o n 9 points,
+10%/80% luminance
+Response Time (typical) (ms)	12
+Response Time (max) (ms)	24
+Calibration Performance	
+Supported color spaces	sRGB, DICOM, native
+Average dE2000 deviation from sRGB	<2 on 6x6x6 grid
+Maximum dE2000 deviation from sRGB	<5 on 6x6x6 grid
+White point chromaticity stabilization	+/-0.01 u’v’
+Gray tracking (per IEC 62563)	+/-0.01 u’v’
+Grayscale transfer function deviation	<10% on 18 points
+Calibration Software	MediCal QAWeb
+Environmental Specifications	
+Operational Temperature (min/max) (°C)	10 / 40
+Within specification temperature (min/max) (°C)	10 / 35
+Power Consumption (@ 100-240VAC typical) (W)	120
+
+--- Page 3 ---
+Specimen sampling, which includes FFPE tissues, is performed by clinicians. Biopsy
+specimens are processed by trained healthcare professionals.
+6. Calibration:
+The MMPC-4127F1 (PP27QHD) display is calibrated using a built-in front sensor.
+Calibrations are initiated by the QAWeb quality assurance software and performed as a
+background activity.
+7. Quality Control:
+Image quality is checked by the user for acceptability. In addition, quality checks for the
+display are initiated by the QAWeb quality assurance software and performed as a
+background activity.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X_____ or No________
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.3700
+2. Classification:
+Class II (special controls)
+3 Product code:
+PZZ, Digital Pathology Display
+4. Panel:
+88 - Pathology
+G. Intended Use:
+1. Indication(s) for Use:
+The Barco MMPC-4127F1 (PP27QHD) device is intended for in vitro diagnostic use to
+display digital images of histopathology slides acquired from IVD-labeled whole-slide
+3
+
+--- Page 4 ---
+imaging scanners that have been validated for use with this device, for review and
+interpretation by pathologists. The display is not intended for use with digital images
+from frozen section, cytology, or non-formalin-fixed, paraffin embedded (non-FFPE)
+hematopathology specimens.
+2. Special Conditions for Use Statement(s):
+For in vitro diagnostic (IVD) use only
+For prescription use only
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+Philips IntelliSite Pathology Solution (PIPS) - PP27QHD display
+K172174
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+Barco MMPC-4127F1 (PP27QHD) PIPS - PP27QHD
+Dithering Temporal and spatial dithering is
+function implemented in the medical display Same
+Supported Supported color spaces including
+color spaces sRGB: Same
+- DICOM
+- Native
+Interface Supported display interface
+including USB 2.0: Same
+DVI-D dual-link
+Differences
+Item Device Predicate
+Barco MMPC-4127F1 (PP27QHD) PIPS - PP27QHD
+Intended Use The Barco MMPC-4127F1 The Philips IntelliSite
+4
+
+[Table 1 on page 4]
+Similarities				
+Item		Device		Predicate
+PIPS - PP27QHD
+		Barco MMPC-4127F1 (PP27QHD)		
+				
+Dithering
+function	Temporal and spatial dithering is
+implemented in the medical display			Same
+Supported
+color spaces	Supported color spaces including
+sRGB:
+- DICOM
+- Native			Same
+Interface	Supported display interface
+including USB 2.0:
+DVI-D dual-link			Same
+
+[Table 2 on page 4]
+Predicate
+PIPS - PP27QHD
+
+[Table 3 on page 4]
+Differences				
+Item		Device		Predicate
+PIPS - PP27QHD
+		Barco MMPC-4127F1 (PP27QHD)		
+				
+Intended Use	The Barco MMPC-4127F1			The Philips IntelliSite
+
+[Table 4 on page 4]
+Predicate
+PIPS - PP27QHD
+
+--- Page 5 ---
+Differences
+Item Device Predicate
+Barco MMPC-4127F1 (PP27QHD) PIPS - PP27QHD
+(PP27QHD) display device is Pathology Solution (PIPS) is
+intended for in vitro diagnostic use an automated digital slide
+as an aid to the pathologist to review creation, viewing, and
+and interpret to display (or view) management system. The
+digital images of surgical pathology PIPS is intended for in vitro
+slides acquired from FDA-cleared diagnostic use as an aid to
+IVD-labeled whole-slide imaging the pathologist to review
+scanners that have been validated and interpret digital images
+with this device, for review and of surgical pathology slides
+interpretation by pathologists. as prepared from formalin-
+described in the user guide. The fixed paraffin embedded
+display is not intended for use with (FFPE) tissue. The PIPS is
+frozen section, cytology, or non- not intended for use with
+formalin-fixed, paraffin embedded frozen section, cytology, or
+(FFPE) hematopathology specimens. non-FFPE hematopathology
+specimens.
+The PIPS comprises the
+Image Management System
+(IMS), the Ultra Fast
+Scanner (UFS) and Display.
+The PIPS is for creation and
+viewing of digital images of
+scanned glass slides that
+would otherwise be
+appropriate for manual
+visualization by
+conventional light
+microscopy. It is the
+responsibility of a qualified
+pathologist to employ
+appropriate procedures and
+safeguards to assure the
+validity of the interpretation
+of images obtained using
+PIPS.
+Configuration Display only PIPS system includes Ultra
+Fast Scanner (UFS), Image
+Management System (IMS)
+and Display (PP27QHD)
+5
+
+[Table 1 on page 5]
+Differences				
+Item		Device		Predicate
+PIPS - PP27QHD
+		Barco MMPC-4127F1 (PP27QHD)		
+				
+	(PP27QHD) display device is
+intended for in vitro diagnostic use
+as an aid to the pathologist to review
+and interpret to display (or view)
+digital images of surgical pathology
+slides acquired from FDA-cleared
+IVD-labeled whole-slide imaging
+scanners that have been validated
+with this device, for review and
+interpretation by pathologists. as
+described in the user guide. The
+display is not intended for use with
+frozen section, cytology, or non-
+formalin-fixed, paraffin embedded
+(FFPE) hematopathology specimens.			Pathology Solution (PIPS) is
+an automated digital slide
+creation, viewing, and
+management system. The
+PIPS is intended for in vitro
+diagnostic use as an aid to
+the pathologist to review
+and interpret digital images
+of surgical pathology slides
+prepared from formalin-
+fixed paraffin embedded
+(FFPE) tissue. The PIPS is
+not intended for use with
+frozen section, cytology, or
+non-FFPE hematopathology
+specimens.
+The PIPS comprises the
+Image Management System
+(IMS), the Ultra Fast
+Scanner (UFS) and Display.
+The PIPS is for creation and
+viewing of digital images of
+scanned glass slides that
+would otherwise be
+appropriate for manual
+visualization by
+conventional light
+microscopy. It is the
+responsibility of a qualified
+pathologist to employ
+appropriate procedures and
+safeguards to assure the
+validity of the interpretation
+of images obtained using
+PIPS.
+Configuration	Display only			PIPS system includes Ultra
+Fast Scanner (UFS), Image
+Management System (IMS)
+and Display (PP27QHD)
+
+[Table 2 on page 5]
+Predicate
+PIPS - PP27QHD
+
+--- Page 6 ---
+I. Special Control/Guidance Document Referenced:
+FDA Guidance document: Technical Performance Assessment of Digital Pathology Whole
+Slide Imaging Devices. Guidance for Industry and Food and Drug Administration Staff.
+April 20, 2016.
+ANSI/AAMI ES60601- 1:2005/(R)2012: Medical Electrical Equipment - Part 1: General
+Requirements For Basic Safety And Essential Performance (IEC 60601-1:2005, MOD)
+AAMI ANSI IEC 62366-1:2015: Medical devices - Application of usability engineering to
+medical devices
+ISO 14971 Second edition 2007-03-01(5-40) Medical devices - application of risk
+management to medical devices.
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+Not applicable
+b. Precision/Reproducibility:
+Not applicable
+c. Linearity:
+Not applicable
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+Not applicable
+2. Other Supportive Instrument Performance Data Not Covered Above:
+Display Equivalency Study:
+Technical performance testing for Barco MMPC-4127F1 (PP27QHD) display was
+performed. The new display was compared to the display that is part of the predicate
+device PIPS - PP27QHD (2.5). Testing included assessment of the following parameters:
+6
+
+--- Page 7 ---
+luminance, color, noise, resolution, pixel defects, artifacts, temporal response, grayscale,
+and specular and diffuse coefficients. All testing results demonstrated that the Barco
+MMPC-4127F1 (PP27QHD)display is equivalent to the predicate device display.
+Luminance: The Barco MMPC-4127F1 (PP27QHD)and the predicate device use the
+same LCD panel. The luminance remains within the specified range of 350 cd/m2 + 10
+%, and the luminance stability is within approximately 0.4%.
+Color: The color scale response when sRGB calibrated and the sRGB gamut are similar
+between the PP27QHD and the predicate device. The color stability over time is within
+the specified maximum deviation of 0.0050 in both x and y.
+Noise: The PP27QHD and the predicate device use the same LCD panel and therefore the
+noise and the noise power spectrum are identical. The RMS (image variance) for multiple
+video levels of both luminance and color as measured on gray fields were the same.
+Resolution: The MTF of the display system was measured according to the method
+described by Hans Roehrig et al. (2004) [Hans Roehrig, Jerry Gaskill, Jiahua Fan, Ananth
+Poolla, Chadwick Martin, "In-field evaluation of the modulation transfer function of
+electronic display devices", Proc. SPIE 5367, Medical Imaging 2004: Visualization,
+Image-Guided Procedures, and Display, (5 May 2004)]. The MTF of the camera system
+was approximately 98% at the display’s Nyquist frequency. The spatial resolution of the
+panel is 109 dpi (dots per inch).
+Artifacts: The PP27QHD and the predicate are flat panel displays. There is no problem
+of impedance matching in a purely digital system, ringing and ghosting are not present.
+This is identical for the PP27QHD and the predicate device.
+Temporal response: The PP27QHD and the predicate device use the same LCD panel and
+therefore the temporal response is identical. The response time is approximately 12 ms
+and the maximum response time is 24 ms.
+Grayscale: There is no difference in greyscale behavior between the PP27QHD and the
+predicate device when calibrated to sRGB (default setting).
+Specular and diffuse coefficients: The same LCD panel is used in both the predicate and
+the PP27QHD and therefore the specular and diffuse coefficients in functions of
+wavelength are identical.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable, and the special controls for this device type.
+7
+
+--- Page 8 ---
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+8

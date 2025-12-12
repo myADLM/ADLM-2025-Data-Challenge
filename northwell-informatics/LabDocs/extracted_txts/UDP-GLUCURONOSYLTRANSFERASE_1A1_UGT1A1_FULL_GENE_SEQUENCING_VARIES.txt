@@ -1,0 +1,126 @@
+Standard Operating Procedure
+Title: Analytical Phase of Generating Results for UDP-
+Glucuronosyltransferase 1A1 (UGT1A1), Full Gene Sequencing
+1. PURPOSE This SOP outlines the analytical procedures for
+conducting full gene sequencing of the UDP-Glucuronosyltransferase
+1A1 (UGT1A1) gene, from DNA extraction through to result
+generation. This ensures that results are accurate and reliable for
+diagnostic purposes.
+2. SCOPE This protocol applies to all staff involved in the analysis of
+patient samples for UGT1A1 full gene sequencing at our CLIA-
+certified laboratory.
+3. RESPONSIBILITY
+• Molecular Technologists: Perform DNA extraction, quantification,
+and sequencing under the outlined procedures.
+• Bioinformaticians: Conduct data analysis, variant calling, and
+annotation.
+• Laboratory Supervisor: Oversee the procedures, ensure
+compliance with SOPs, and validate results before release.
+4. EQUIPMENT AND MATERIALS
+• DNA extraction kits (commercial kit specified)
+• NanoDrop or Qubit for DNA quantification
+• Thermocyclers
+• Next-Generation Sequencing (NGS) platform (e.g., Illumina,
+Thermo Fisher)
+• UGT1A1-specific primers/panel for NGS
+• Reagents for library preparation (kit specified by NGS platform)
+• Bioinformatics software for sequence analysis (e.g., BWA, GATK,
+ANNOVAR)
+• Laboratory Information System (LIS)
+5. PROCEDURE
+A. DNA Extraction
+1. Specimen Preparation:
+◦ Ensure specimens are properly accessioned and labelled.
+◦ Prepare a clean working area following standard laboratory
+sterility protocols.
+2. Extraction:
+◦ Use the specified DNA extraction kit.
+◦ Follow the manufacturer’s protocol to isolate DNA from the
+sample.
+◦ Include positive and negative controls to ensure the validity
+of extraction.
+3. Quantification:
+◦ Assess the quality and quantity of extracted DNA using
+NanoDrop or Qubit.
+◦ Document DNA concentration and purity ratios (A260/A280)
+in the LIS.
+B. Library Preparation
+1. Fragmentation:
+◦ Fragment the DNA to the desired size (~150-200 bp) using
+the recommended method (e.g., enzymatic fragmentation).
+2. Library Construction:
+◦ Perform end-repair, A-tailing, and adapter ligation according
+to the library preparation kit's protocol.
+◦ Amplify the library using PCR with UGT1A1-specific
+primers.
+3. Quantification and Normalization:
+◦ Quantify the prepared library using Qubit or PicoGreen.
+◦ Normalize the concentration of libraries to ensure even
+loading onto the sequencing platform.
+C. Sequencing
+1. Platform Preparation:
+◦ Prepare the NGS platform for sequencing as per
+manufacturer’s instructions.
+◦ Load the normalized library onto the sequencing instrument.
+2. Run Sequencing:
+◦ Execute the sequencing run by selecting appropriate
+program settings.
+◦ Monitor the sequencing run for quality metrics and any
+issues.
+D. Data Analysis
+1. Raw Data Processing:
+◦ Convert raw sequencing data (FASTQ files) into aligned
+data (BAM files) using alignment software (e.g., BWA).
+◦ Apply quality control checks on reads and alignment.
+2. Variant Calling:
+◦ Identify variants in the UGT1A1 gene using variant calling
+software (e.g., GATK).
+◦ Annotate variants with relevant information using ANNOVAR
+or similar tools.
+3. Quality Assessment:
+◦ Review QC metrics including depth of coverage, read
+quality, and alignment statistics.
+◦ Verify the presence of positive control variants in control
+samples.
+E. Interpretation and Reporting
+1. Variant Interpretation:
+◦ Classify identified variants based on established guidelines
+(e.g., ACMG/AMP).
+◦ Include pathogenicity, clinical significance, and relevant
+guidelines in variant interpretation.
+2. Report Generation:
+◦ Compile results, including interpretations, into a patient
+report.
+◦ Review the report for accuracy, completeness, and
+compliance with reporting standards.
+3. Report Validation:
+◦ The laboratory supervisor or designated pathologist
+validates the final report.
+◦ Release the validated report to the referring physician via
+the LIS.
+6. QUALITY CONTROL
+• Implement positive, negative, and no-template controls in each
+run to monitor for contamination and ensure assay accuracy.
+• Perform regular instrument maintenance and calibration as per
+manufacturer’s guidelines.
+• Participate in proficiency testing and inter-laboratory comparisons
+to ensure competence.
+7. DOCUMENTATION AND RECORD KEEPING
+• Document all steps of the process from DNA extraction to result
+reporting in the LIS.
+• Maintain records of quality control checks, validations, and any
+deviations from standard procedures.
+• Ensure all electronic and paper records are securely stored and
+accessible for review.
+8. REFERENCES
+• Manufacturer’s protocols for DNA extraction and library
+preparation kits.
+• Sequencing platform user manuals.
+• Relevant guidelines for variant classification and reporting (e.g.,
+ACMG/AMP).
+Approved by: [Laboratory Supervisor’s Name]
+Effective Date: [Date]
+Review Date: [Annually or as required]
+This protocol ensures that each step of the UGT1A1 full gene
+sequencing process is performed consistently and accurately,
+providing reliable and high-quality results for clinical interpretation.

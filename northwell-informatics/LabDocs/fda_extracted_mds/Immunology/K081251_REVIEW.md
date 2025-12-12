@@ -1,0 +1,46 @@
+# Special 510(k): Device Modification OIVD Review Memorandum
+
+To: The File
+
+Re: k081251
+
+This 510(k) submission contains information/data on modifications made to the SUBMITTER’S own Class II device requiring 510(k). The submission was reviewed by a Third Party Review entity. The following items are present and acceptable:
+
+1. The name and 510(k) number of the SUBMITTER’S previously cleared device:
+
+AESKU.DIAGNOSTICS AESKULISA dsDNA G, K041628
+
+2. Submitter’s statement that the INDICATION/INTENDED USE of the modified device as described in its labeling HAS NOT CHANGED along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use):
+
+There are no changes in Intended Use or Indications for Use. (Section 4, page 2 of 6 and Section 8, page 4-18)
+
+3. A description of the device MODIFICATION(S), including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the FUNDAMENTAL SCIENTIFIC TECHNOLOGY of the modified device has not changed. This change was for:
+
+a. Removal of mercury containing stabilizers (thimerosal) from reagents b. Change in incubation times from 30-15-15 minutes to 30-30-30 minutes
+
+4. Comparison Information (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics, and
+
+Similarities:   
+
+<table><tr><td colspan="1" rowspan="1">Feature</td><td colspan="1" rowspan="1">Modified device</td></tr><tr><td colspan="1" rowspan="1">Indicated use</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">Fundamental               ScientificTechnology</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">Coated antigen</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">Shelf life</td><td colspan="1" rowspan="1">No Change</td></tr><tr><td colspan="1" rowspan="1">ProductionProcess</td><td colspan="1" rowspan="1">NoChange</td></tr><tr><td colspan="1" rowspan="1">Standardization</td><td colspan="1" rowspan="1">NoChange</td></tr><tr><td colspan="1" rowspan="1">QualityControl Criteria</td><td colspan="1" rowspan="1">NoChange</td></tr><tr><td colspan="1" rowspan="1">Cut-off Range</td><td colspan="1" rowspan="1">No Change</td></tr></table>
+
+# Differences:
+
+The preservative thimerosal which was a non-reactive compound of very low concentration in some components of the product (Sample buffer 5x, Wash buffer $5 0 \times$ , Controls and Conjugate) was removed for environmental issues (Thimerosal contains $50 \%$ mercury). The other preservative content (e.g. NaN3) in the respective components still ensures the stability of the product. Thimerosal does not play any role in the reactivity, sensitivity and specificity of the test. The role as a preservative is to keep the test stable for the claimed shelf life (18 Months) and it is per definition and requirement a non-reactive compound. • The different incubation steps of the device, which were initially performed in 30 minutes, 15 minutes and 15 minutes, were changed. The modification is a prolongation of the $2 ^ { \mathsf { n d } }$ and $3 ^ { \mathsf { r d } }$ step from 15 minutes to 30 minutes to improve assay performance.
+
+5. A Design Control Activities Summary which includes:
+
+a) Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis: The risk analysis method used to assess the impact of the modification was a Failure Mode and Effects Analysis (FMEA) – (Section 8, page 4- 19)   
+b) Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied:
+
+As a result of the risk analysis, real time stability testing for low, medium and high levels of dsDNA autoantibodies, over the 18 month shelf life were tested. The test methods used are the same as those used in the original submission.
+
+c) A declaration of conformity with design controls. The declaration of conformity included:
+
+i) A statement signed by the individual responsible, that, as required by the risk analysis, all verification and validation activities were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met (Section 8, page 4-20), and ii) A statement signed by the individual responsible, that the manufacturing facility is in conformance with design control procedure requirements as specified in 21 CFR 820.30 and the records are available for review (Section 8, page 4-20).
+
+6. A Truthful and Accurate Statement (Section 7, page 4-22), a 510(k) Statement (cover letter and Section 8, page 4-21) and the Indications for Use Enclosure (cover letter and Section 8, page 6-50)
+
+The labeling for this modified subject device was reviewed to verify that the intended use for the device was unaffected by the modification. In addition, the submitter’s description of the particular modification(s) and the comparative information between the modified and unmodified devices demonstrate that the fundamental scientific technology has not changed. The submitter provided the design control information as specified in The New 510(k) Paradigm and, on this basis, I recommend the device be determined substantially equivalent to the previously cleared device.
+
+This submission was reviewed by Intertek Testing Services NA, Inc. a certified Third Party Review entity. They submitted a signed Authorization to Submit letter from AESKU.DIAGNOSTICS and signed Third Party Certification statements.

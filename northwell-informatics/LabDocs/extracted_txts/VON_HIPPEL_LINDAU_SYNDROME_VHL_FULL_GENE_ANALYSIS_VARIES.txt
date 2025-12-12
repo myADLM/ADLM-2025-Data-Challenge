@@ -1,0 +1,117 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Protocol for VHL Full Gene Analysis
+Test: Von Hippel-Lindau Syndrome (VHL) Full Gene Analysis
+1. PURPOSE
+This SOP describes the procedure for the full gene sequencing
+analysis of the Von Hippel-Lindau (VHL) gene to identify pathogenic
+variants associated with VHL syndrome. It details analytical
+procedures from DNA extraction to data interpretation, ensuring
+accuracy and consistency in results.
+2. SPECIMEN REQUIREMENTS AND STABILITY
+Specimen Type:
+• Preferred: 3-5 mL of whole blood collected in EDTA or ACD tubes.
+Specimen Handling:
+• Store whole blood specimens at 2-8°C. Specimens should be
+processed within 72 hours of collection. For longer storage,
+specimens should be frozen at -20°C.
+Specimen Stability:
+• Whole blood specimens are stable at 2-8°C for 72 hours post-
+collection.
+• DNA extracted from blood can be stored at -20°C for extended
+periods.
+3. EQUIPMENT, REAGENTS, AND SUPPLIES
+• Microcentrifuge and tubes
+• Pipettes and pipette tips
+• DNA extraction kits/reagents (commercially available)
+• Thermal cycler
+• PCR reagents (including DNA polymerase, dNTPs, primers)
+• Sequencing reagents (Sanger sequencing kit or NGS kit)
+• Capillary electrophoresis or Next-Generation Sequencing (NGS)
+system
+• Bioinformatics software for sequence analysis
+4. PROCEDURE
+A. DNA Extraction:
+1. Whole Blood Specimen Preparation:
+◦ Centrifuge whole blood at 2000-3000 RPM for 10 minutes to
+separate plasma and buffy coat.
+◦ Transfer the buffy coat to a clean microcentrifuge tube.
+2. Buffy Coat Processing:
+◦ Add lysis buffer according to DNA extraction kit instructions.
+◦ Incubate and perform additional steps as specified in the
+protocol of the DNA extraction kit.
+3. DNA Extraction:
+◦ Obtain DNA using a commercial DNA extraction kit,
+following the manufacturer's instruction carefully.
+◦ Quantify and assess purity of extracted DNA using
+spectrophotometer (A260/A280).
+B. PCR Amplification of VHL Gene:
+1. Design primers encompassing coding regions and regulatory
+regions of VHL gene.
+2. Set up PCR reaction mixture, including extracted DNA, primers,
+dNTPs, buffer, and DNA polymerase.
+3. Program thermal cycler for PCR conditions, including initial
+denaturation, annealing, and extension steps.
+4. Verify amplification via gel electrophoresis.
+C. Sequencing:
+1. Sanger Sequencing:
+◦ Prepare PCR products for sequencing by purification or
+clean-up methods.
+◦ Set up sequencing reaction following specific sequencing kit
+protocols.
+◦ Perform capillary electrophoresis.
+2. NGS Sequencing:
+◦ Prepare library according to the NGS kit protocol.
+◦ Quantify libraries using a fluorometer and validate using
+electrophoresis.
+◦ Load libraries into NGS system and run sequencing
+workflow.
+D. Data Analysis:
+1. Sanger Sequencing Analysis:
+◦ Use sequencing software to align sequences and identify
+variants.
+◦ Compare sequences to reference VHL gene sequence.
+2. NGS Analysis:
+◦ Use bioinformatics pipelines for sequence alignment, variant
+calling, and annotation.
+◦ Utilize software tools for variant interpretation and
+classification.
+5. QUALITY CONTROL
+Internal Control:
+• Run positive controls (known VHL mutations) and negative
+controls (no DNA template) alongside patient samples to ensure
+assay performance.
+• Maintain documentation of control results and instrument
+calibration.
+External Control:
+• Participate in external proficiency testing and quality assurance
+programs for genetic testing.
+6. REPORTING RESULTS
+• Use LIS to review and verify all results.
+• Document all identified variants, including potential pathogenicity
+based on ACMG guidelines.
+• Generate report with comprehensive interpretation by board-
+certified genetics professional.
+Reference Intervals:
+• Normal: No variants identified in the coding regions or regulatory
+regions of the VHL gene.
+7. METHOD LIMITATIONS
+• Inference of variant pathogenicity requires consideration of clinical
+history.
+• Some intronic or deep regulatory region variants may be missed.
+• PCR amplification may be hindered by GC-rich or repetitive
+regions of the VHL gene.
+8. REFERENCES
+• VHL gene analysis literature and guidelines.
+• Manufacturer's precise protocols for DNA extraction, PCR
+amplification, sequencing kits.
+• ACMG guidelines for variant interpretation.
+Responsibility:
+• Laboratory staff trained for genetic testing are responsible for
+running assays and reporting results following this SOP.
+• Supervisors must ensure proper execution and maintenance of
+quality control.
+Attachments and Appendix:
+• Detailed primer sequences.
+• Specific reagent kit instructions.
+• Troubleshooting guide.
+End of Document

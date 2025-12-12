@@ -1,0 +1,120 @@
+Standard Operating Procedure (SOP) for Analytical Phase of
+Primary Hemophagocytic Lymphohistiocytosis Gene Panel,
+Various
+1. PURPOSE
+This protocol outlines the analytical procedure for generating results
+for the Primary Hemophagocytic Lymphohistiocytosis (HLH) Gene
+Panel. The aim is to identify potential genetic mutations associated
+with primary HLH to aid in the diagnosis and treatment planning for
+patients.
+Responsibility:
+This procedure is to be performed by qualified laboratory technicians/
+molecular genetic technologists certified in molecular diagnostics. It
+is the responsibility of the laboratory director or designated
+supervisor to ensure all steps are followed as outlined to maintain the
+accuracy and reliability of test results.
+2. SCOPE AND APPLICATION
+This SOP applies to all molecular diagnostic testing facilities involved
+in HLH genetic testing. This includes any laboratory certified under
+the Clinical Laboratory Improvement Amendments (CLIA).
+3. REAGENTS, MATERIALS, AND EQUIPMENT
+• DNA Extraction Kit
+• Gene-specific and reference primers
+• PCR Master Mix
+• Nuclease-free water
+• Thermal Cycler
+• Agarose Gel Electrophoresis System
+• Gel Imaging System
+• Next-Generation Sequencing (NGS) machine or Sanger
+Sequencer
+• Pipettes and pipette tips
+• Microcentrifuge tubes
+• Vortex mixer
+• Bioinformatics Software for Sequence Analysis
+4. SAMPLE REQUIREMENTS
+• DNA extracted from peripheral blood or bone marrow samples.
+• Minimum DNA concentration requirement: 20 ng/uL.
+• DNA purity: A260/A280 ratio between 1.8-2.0.
+5. PROCEDURE
+A) DNA Extraction:
+1. Extract DNA from the provided patient samples using a
+validated DNA extraction kit.
+2. Quantify and assess the purity of the extracted DNA using a
+spectrophotometer. Record the concentration and purity.
+B) PCR Amplification:
+1. Prepare PCR reaction mixtures according to the manufacturer's
+instructions. Include both gene-specific primers and reference
+control primers.
+2. Amplify the selected gene segments associated with HLH (e.g.,
+PRF1, UNC13D, STX11, STXBP2).
+3. Set up the PCR reactions on a thermal cycler adhering to the
+specified cycling conditions for the primers used.
+C) Gel Electrophoresis:
+1. Load the PCR amplification products on an agarose gel (1-2%)
+containing a suitable DNA stain.
+2. Perform electrophoresis at an appropriate voltage to resolve the
+DNA fragments.
+3. Visualize the gel under a UV transilluminator and document the
+results.
+D) Next-Generation Sequencing (NGS) or Sanger Sequencing:
+1. Purify the PCR products using a PCR purification kit.
+2. For NGS:
+◦ Prepare the library as per the NGS platform's library
+preparation protocol.
+◦ Quantify and normalize libraries.
+◦ Load libraries onto the NGS machine and initiate
+sequencing run.
+3. For Sanger Sequencing:
+◦ Mix purified PCR products with sequencing primers and
+sequencing reagents.
+◦ Load onto the Sanger Sequencer and perform sequencing.
+E) Data Analysis:
+1. Use bioinformatics software to analyze sequencing data.
+2. Align the sequence reads to the reference genome.
+3. Identify and annotate variants using validated variant caller
+software.
+4. Interpret results in the context of known pathogenic mutations,
+variants of uncertain significance, and benign polymorphisms
+based on current literature and databases.
+F) Quality Control:
+1. Include positive and negative controls with each batch of
+samples throughout the PCR and sequencing processes to
+validate the run.
+2. Check internal quality metrics provided by sequencing
+platforms (e.g., read depth, quality scores).
+3. Conduct regular proficiency testing and comparisons with
+quality control specimens to ensure continued accuracy of
+methods.
+6. REPORTING RESULTS:
+1. Verify that all controls behaved as expected.
+2. Verify and interpret the sequencing data for the patient.
+3. Report all findings to the attending physician or requesting
+clinician with detailed interpretation. Include specifications of
+detected mutations, any known clinical significance, or
+recommendations for further diagnostics if needed.
+4. If no mutations are found, report that no actionable mutations
+were detected.
+7. REFERENCES
+1. Current literature on genetic mutations associated with primary
+HLH.
+2. Manufacturer instructions for all reagents, kits, and machines
+used.
+3. Database resources for sequence alignment and mutation
+interpretation (e.g., ClinVar, HGMD).
+8. TROUBLESHOOTING
+1. PCR Failure: Validate primer sequences, check template
+quality, optimize PCR conditions.
+2. Sequencing Errors: Ensure library quality, validate sample prep,
+ensure proper calibration of sequencing machine.
+9. END OF PROCEDURE
+Ensure all data is stored securely in accordance with HIPAA and
+other relevant privacy laws. Document all procedural steps and any
+deviations encountered during the testing process.
+10. DOCUMENT CONTROL
+This SOP is subject to revision and must be reviewed annually or
+when new guidelines and technologies are introduced. Keep a
+historical log of revisions for reference.
+By following these outlined steps, laboratory personnel can ensure
+consistent and reliable generation of results for the Primary
+Hemophagocytic Lymphohistiocytosis Gene Panel, aiding in the
+accurate diagnosis and management of affected patients.

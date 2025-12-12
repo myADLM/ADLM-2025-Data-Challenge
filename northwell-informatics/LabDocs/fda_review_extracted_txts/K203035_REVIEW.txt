@@ -1,0 +1,3005 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+ASSAY AND INSTRUMENT
+I Background Information:
+A 510(k) Number
+K203035
+B Applicant
+PerkinElmer Inc
+C Proprietary and Established Names
+Eonis SCID-SMA kit
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+21 CFR 866.5980 -
+Newborn Screening Test
+PJI Class II for Severe Combined IM - Immunology
+Immunodeficiency
+Disorder (SCID)
+II Submission/Device Overview:
+A Purpose for Submission:
+New Device
+B Measurand:
+T-cell receptor excision circles (TRECs) and Kappa-deleting element recombination circles
+(KRECs)
+C Type of Test:
+Multiplex real-time polymerase chain reaction-based assay using target sequence specific
+primers and probes
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PJI			Class II	21 CFR 866.5980 -
+Newborn Screening Test
+for Severe Combined
+Immunodeficiency
+Disorder (SCID)			IM - Immunology
+
+--- Page 2 ---
+III Intended Use/Indications for Use:
+A Intended Use(s):
+See Indications for Use below.
+B Indication(s) for Use:
+The Eonis™ SCID-SMA kit is intended for the semi-quantitative determination of TREC (T-cell
+receptor excision circle) as an aid in screening newborns for Severe Combined
+Immunodeficiency (SCID) and for the semi-quantitative determination of KREC (Kappa-
+deleting recombination excision circle) as an aid in screening newborns for X-linked
+agammaglobulinemia (XLA). The test is intended for DNA from blood specimens dried on a
+filter paper and for use on the QuantStudio™ Dx Real-Time PCR instrument.
+This test is not intended for screening of SCID-like Syndromes, such as DiGeorge Syndrome, or
+Omenn Syndrome. It is also not intended to screen for less acute SCID syndromes such as leaky-
+SCID or variant SCID. The test is not indicated for screening B-cell deficiency disorders other
+than XLA, such as atypical XLA, or for screening of XLA carriers.
+This test is not intended for use as a diagnostic test and a positive screening result should be
+followed by confirmatory testing.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+In vitro diagnostic use
+D Special Instrument Requirements:
+QuantStudio™ Dx Real-Time PCR Instrument (ThermoFisher, k123955)
+Liquid Handling Instruments: JANUS G3 Automated Workstation Extraction instrument
+(labeled for IVD use) or JANUS Extraction Mini instrument (labeled for IVD use) and the
+JANUS PCR Mastermix instrument (labeled for IVD use).
+IV Device/System Characteristics:
+A Device Description:
+The Eonis SCID-SMA kit contains reagents to detect three biomarkers: TREC, KREC and exon
+7 in the SMNI gene. Detection of SMN1 gene was submitted and reviewed in DEN200044. This
+Decision Summary only discusses the validation data in support of TREC and KREC.
+The newborn screening workflow for the Eonis SCID-SMA kit includes:
+• Two liquid handling platforms (one for DNA extraction and one for PCR master mix
+setup)
+• QuantStudio™ Dx Real-Time PCR instrument (k123955)
+• Eonis Analysis Software
+K203035 - Page 2 of 43
+
+--- Page 3 ---
+Each Eonis SCID-SMA kit contains reagents for up to 384 reactions or 1152 reactions including
+kit controls. The kit contents are listed in Table 1. Materials required but not provided include
+the Eonis DNA Extraction Kit, Eonis Analysis Software, and consumables.
+Table 1. Eonis SCID-SMA Kit content
+Component Quantity
+2 filter paper cassettes containing 4 sets of dried
+blood spots for 384 reaction kit
+SCID-SMA Kit Controls
+4 filter paper cassettes containing 8 sets of dried
+blood spots for 1152 reaction kit
+C1 Analyte-negative (TREC/KREC/SMN1) control
+C2 Low TREC/KREC and normal SMN1 control
+C3 High TREC/KREC and normal SMN1 control
+1 vial, 2.7 mL for 384 reaction kit
+PCR Reagent 1
+3 vials, 2.7 mL for 1152 reaction kit
+1 vial, 2.7 mL for 384 reaction kit
+PCR Reagent 2
+3 vials, 2.7 mL for 1152 reaction kit
+Lot-specific 1 pc
+quality control certificate
+B Principle of Operation:
+The Eonis SCID-SMA kit is a multiplex real-time PCR based assay that uses target sequence-
+specific primers and TaqMan™ probes to amplify and detect TREC, KREC, and RPP30 in DNA
+extracted from newborn dried blood spot (DBS) using the Eonis DNA Extraction kit in a single
+PCR reaction. Each TaqMan probe has a unique dye linked to their terminal 5’ end, allowing for
+the simultaneous detection of the four targets, if present. The amount of each target present in the
+DNA is determined by the intensity of fluorescence emitted by each dye released from the
+degraded probe during amplification and detected by the QuantStudio Dx Real-Time PCR
+instrument. The instrument measures fluorescence signals and converts them into comparative
+quantitative readouts which are expressed as a function of cycle threshold (Ct) values. RPP30 is
+used as an internal amplification control for DNA quality and to relatively quantitate TREC and
+KREC (copies/105 cells) using TREC ∆Ct and KREC ∆Ct. TREC and KREC concentrations are
+calculated using the following formulas to generate results expressed as copies/105 cells:
+• TREC: 2 X 2-(ΔCt TREC) x 117000
+• KREC: 2 X 2-(ΔCt TREC) x 254000
+The interpretation of results based on copy number is shown in Tables 2 and 3.
+K203035 - Page 3 of 43
+
+[Table 1 on page 3]
+Component	Quantity
+SCID-SMA Kit Controls	2 filter paper cassettes containing 4 sets of dried
+blood spots for 384 reaction kit
+4 filter paper cassettes containing 8 sets of dried
+blood spots for 1152 reaction kit
+C1 Analyte-negative (TREC/KREC/SMN1) control	
+C2 Low TREC/KREC and normal SMN1 control	
+C3 High TREC/KREC and normal SMN1 control	
+PCR Reagent 1	1 vial, 2.7 mL for 384 reaction kit
+3 vials, 2.7 mL for 1152 reaction kit
+PCR Reagent 2	1 vial, 2.7 mL for 384 reaction kit
+3 vials, 2.7 mL for 1152 reaction kit
+Lot-specific
+quality control certificate	1 pc
+
+--- Page 4 ---
+Table 2. TREC result interpretation matrix
+TREC Ct TREC conc. Result
+RPP30 Ct values values 5 interpretation for
+(copies/10 cells)
+TREC
+Ct < 15.0 Values not considered when RPP30 Ct < 15.0 Invalid*
+Values not considered
+AND Ct < 18.0 Invalid*
+15.0 ≤ Ct ≤ 32.00 when TREC Ct < 18.0
+AND TREC conc. ≥ Presumptive normal
+AND Ct ≥ 18.0
+CutoffTREC
+AND TREC conc. < Presumptive positive*
+CutoffTREC
+AND No Ct N/A Presumptive positive*
+Ct > 32.00 Values not considered when RPP30 Ct > Invalid*
+or no Ct 32.00 or no Ct
+*Samples with invalid results should be repeated in singlicate, and samples with presumptive
+positive results should be repeat tested in duplicate. If one of the duplicate samples is positive,
+the result is presumptive positive.
+Table 3. KREC result interpretation matrix
+KREC Ct KREC conc. Result
+RPP30 Ct
+values 5 interpretation for
+(copies/10 cells)
+values
+KREC
+Ct < 15.0 Values not considered when RPP30 Ct < 15.0 Invalid*
+Values not considered
+15.0 ≤ Ct ≤ 32.00 AND Ct < 18.0 Invalid*
+when TREC Ct < 18.0
+AND KREC conc. ≥ Presumptive normal
+AND Ct ≥ 18.0
+CutoffKREC
+AND KREC conc. < Presumptive positive*
+CutoffKREC
+AND No Ct N/A Presumptive positive*
+Ct > 32.00 Values not considered when RPP30 Ct > Invalid*
+or no Ct 32.00 or no Ct
+*Samples with invalid results should be repeated in singlicate, and samples with presumptive
+positive results should be repeat tested in duplicate. If one of the duplicate samples is positive,
+the result is presumptive positive.
+K203035 - Page 4 of 43
+
+[Table 1 on page 4]
+		TREC Ct		TREC conc.	Result
+					
+RPP30 Ct values		values		5
+(copies/10 cells)	interpretation for
+					TREC
+					
+Ct < 15.0	Values not considered when RPP30 Ct < 15.0				Invalid*
+15.0 ≤ Ct ≤ 32.00	AND	Ct < 18.0	Values not considered
+when TREC Ct < 18.0		Invalid*
+	AND	Ct ≥ 18.0	AND	TREC conc. ≥
+CutoffTREC	Presumptive normal
+			AND	TREC conc. <
+CutoffTREC	Presumptive positive*
+	AND	No Ct	N/A		Presumptive positive*
+Ct > 32.00
+or no Ct	Values not considered when RPP30 Ct >
+32.00 or no Ct				Invalid*
+
+[Table 2 on page 4]
+		KREC Ct		KREC conc.	Result
+RPP30 Ct					
+		values		5
+(copies/10 cells)	interpretation for
+values					
+					KREC
+					
+					
+Ct < 15.0	Values not considered when RPP30 Ct < 15.0				Invalid*
+15.0 ≤ Ct ≤ 32.00	AND	Ct < 18.0	Values not considered
+when TREC Ct < 18.0		Invalid*
+	AND	Ct ≥ 18.0	AND	KREC conc. ≥
+CutoffKREC	Presumptive normal
+			AND	KREC conc. <
+CutoffKREC	Presumptive positive*
+	AND	No Ct	N/A		Presumptive positive*
+Ct > 32.00
+or no Ct	Values not considered when RPP30 Ct >
+32.00 or no Ct				Invalid*
+
+--- Page 5 ---
+Result Reporting
+Samples that result in values below 242 copies/105 cells are recommended to be reported as
+"<242 copies/105 cells". Samples that result in values above 4316 copies/105 cells are
+recommended to be reported as ">4320 copies/105 cells" and are considered to be TREC
+screen negative.
+Samples that result in values below 459 copies/105 cells are recommended to be reported as
+"<459 copies/105 cells". Samples that result in values above 24343 copies/105 cells are
+recommended to be reported as ">24300 copies/105 cells" and are considered to be KREC
+screen negative.
+C Instrument Description Information:
+1. Instrument Name:
+QuantStudio Dx Real-Time PCR instrument (The information below is specific to the TREC
+and KREC analytes; refer to the decision summary for additional information regarding the
+features in this section K123955)
+JANUS G3 Automated Workstation (for IVD use) consisting of the JANUS Extraction
+Instrument and JANUS PCR Mastermix Instrument
+2. Specimen Identification:
+Specimens are barcoded and entered into the testing queue consistent with the laboratory
+procedures.
+3. Specimen Sampling and Handling:
+The required sample is a 3.2 mm specimen punch from a dried blood spot (DBS) into a 96-
+well plate. DNA is extracted and purified using the Eonis DNA Extraction kit. The extraction
+can be completed manually or using an automated liquid handling platform, the JANUS G3
+Workstation (IVD), for processing up to four 96-well plates simultaneously.
+4. Calibration:
+The device (Eonis SCID-SMA kit) calibrates the TREC results utilizing the internal control
+RPP30 gene (assumes two copies) and a mathematical algorithm and reports out the results in
+the unit of copies/105 cells.
+5. Quality Control:
+Quality control is addressed for each separately cleared specific assay to be run on the
+instrument. For the Eonis SCID-SMA assay, quality is maintained by the process control,
+used during sample processing and amplification in the assay. Additionally, there are external
+positive and negative controls available that are used in accordance with the assay
+instructions for use.
+K203035 - Page 5 of 43
+
+--- Page 6 ---
+Controls are used throughout the entire procedure from sample preparation to PCR as a
+quality check for performance of the Eonis test. The Eonis SCID-SMA kit contains three
+multi-level dried blood spot controls: C1, C2 and C3. The DBS controls are filter paper
+cassettes with each control level spotted in duplicate.
+• C1 is an analyte-negative control and does not contain TREC, KRECanalytes.
+• C2 and C3 are analyte-positive controls that have different levels of TREC and KREC
+analytes (lower level in C2 and a higher level in C3).
+• All three kit controls have the same level of RPP30 analyte.
+• Blank reaction wells without sample disks (NTC [no template control]) are used to
+monitor the absence of contamination. All controls are prepared from human whole blood
+with a hematocrit value of 48-55% and contain purified salmon-sperm DNA and
+synthetic TREC, KREC, and RPP30 plasmid DNA.
+Each Eonis run includes all four controls in duplicate in each 96-well DNA extraction plate.
+The newborn samples and DBS controls are punched into the plate, while the well reserved
+for the Blank control does not contain any punches. The Blank control undergoes the whole
+process, from DNA extraction to amplification, and the NTC sample consists of elution
+solution derived from the DNA extraction process.
+The test result validation for each 96-well DNA extraction plate is based on the three kit DBS
+controls and the Blank reaction well. The Eonis Analysis software will identify each control
+by their designated locations and check their validity. The possible outcome for each control
+replicate is ‘Valid’ or ‘Invalid’. If one or more controls are invalid, the results of the clinical
+specimens processed in the same 96-well DNA extraction plate are reported as ‘Invalid’. For
+the Blank reaction well, both replicates must meet the acceptance criteria for the run to be
+valid. For C1-C3 DBS controls, the results of both replicates must meet the acceptance
+criteria for the run to be valid. The thresholds for valid controls are shown in Table 4.
+Table 4. Acceptance limits for kit controls for TREC and KREC
+Upper Limit
+Kit Control Name Parameter Lower Limit
+(≤ or No Ct)
+Name (≥)
+TREC Ct 32.65 No Ct
+NTC (Blank)
+KREC Ct 32.55 No Ct
+RPP30 Ct 28.35 No Ct
+TREC Ct 32.65 No Ct
+C1
+KREC Ct 32.55 No Ct
+RPP30 Ct 15.00 28.00
+TREC Ct 18.00 No Ct
+C2
+KREC Ct 18.00 No Ct
+RPP30 Ct 15.00 28.00
+TREC ∆Ct 6.10 13.90
+KREC ∆Ct 3.55 16.45
+K203035 - Page 6 of 43
+
+[Table 1 on page 6]
+Kit Control Name	Parameter	Lower Limit	Upper Limit
+			(≤ or No Ct)
+	Name	(≥)	
+			
+NTC (Blank)	TREC Ct	32.65	No Ct
+	KREC Ct	32.55	No Ct
+	RPP30 Ct	28.35	No Ct
+C1	TREC Ct	32.65	No Ct
+	KREC Ct	32.55	No Ct
+	RPP30 Ct	15.00	28.00
+C2	TREC Ct	18.00	No Ct
+	KREC Ct	18.00	No Ct
+	RPP30 Ct	15.00	28.00
+	TREC ∆Ct	6.10	13.90
+	KREC ∆Ct	3.55	16.45
+
+--- Page 7 ---
+Upper Limit
+Kit Control Name Parameter Lower Limit
+(≤ or No Ct)
+Name (≥)
+TREC Ct 18.00 33.00
+C3
+KREC Ct 18.00 34.00
+RPP30 Ct 15.00 28.00
+TREC ∆Ct 1.10 8.90
+KREC ∆Ct 0.00 12.45
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+PerkinElmer EnLite™ Neonatal TREC Kit
+B Predicate 510(k) Number(s):
+DEN140010
+C Comparison with Predicate(s):
+Device & Predicate
+K203035 DEN140010
+Device(s):
+Device Trade Name Eonis SCID-SMA Kit EnLite Neonatal TREC Kit
+General Device Characteristic Similarities
+The EnLite™ Neonatal
+The Eonis™ SCID-SMA kit is
+TREC Kit is an in vitro
+intended for the semi-
+diagnostic device intended
+quantitative determination of
+for the semi-quantitative
+TREC (T-cell receptor excision
+determination of TREC (T-
+circle) as an aid in screening
+cell receptor excision circle)
+newborns for Severe Combined
+DNA in blood specimens
+Immunodeficiency (SCID).
+dried on filter paper. The
+The test is intended for DNA test is for use on the
+Intended Use/Indications from blood specimens dried on VICTOR™ EnLite
+For Use a filter paper and for use on the instrument. The test is
+QuantStudio™ Dx Real-Time indicated for use as an aid in
+PCR instrument. screening newborns for
+severe combined
+This test is not intended for
+immunodeficiency disorder
+screening of SCID-like
+(SCID). This test is not
+Syndromes, such as DiGeorge
+intended for use as a
+Syndrome, or Omenn
+diagnostic test for screening
+Syndrome.
+of SCID-like Syndromes,
+such as DiGeorge Syndrome,
+K203035 - Page 7 of 43
+
+[Table 1 on page 7]
+Kit Control Name	Parameter	Lower Limit	Upper Limit
+			(≤ or No Ct)
+	Name	(≥)	
+			
+C3	TREC Ct	18.00	33.00
+	KREC Ct	18.00	34.00
+	RPP30 Ct	15.00	28.00
+	TREC ∆Ct	1.10	8.90
+	KREC ∆Ct	0.00	12.45
+
+[Table 2 on page 7]
+	Device & Predicate		K203035	DEN140010			
+	Device(s):						
+Device Trade Name			Eonis SCID-SMA Kit		EnLite Neonatal TREC Kit		
+	General Device Characteristic Similarities						
+Intended Use/Indications
+For Use			The Eonis™ SCID-SMA kit is
+intended for the semi-
+quantitative determination of
+TREC (T-cell receptor excision
+circle) as an aid in screening
+newborns for Severe Combined
+Immunodeficiency (SCID).
+The test is intended for DNA
+from blood specimens dried on
+a filter paper and for use on the
+QuantStudio™ Dx Real-Time
+PCR instrument.
+This test is not intended for
+screening of SCID-like
+Syndromes, such as DiGeorge
+Syndrome, or Omenn
+Syndrome.	The EnLite™ Neonatal
+TREC Kit is an in vitro
+diagnostic device intended
+for the semi-quantitative
+determination of TREC (T-
+cell receptor excision circle)
+DNA in blood specimens
+dried on filter paper. The
+test is for use on the
+VICTOR™ EnLite
+instrument. The test is
+indicated for use as an aid in
+screening newborns for
+severe combined
+immunodeficiency disorder
+(SCID). This test is not
+intended for use as a
+diagnostic test for screening
+of SCID-like Syndromes,
+such as DiGeorge Syndrome,			
+
+--- Page 8 ---
+It is also not intended to screen or Omenn Syndrome. It is
+for less acute SCID syndromes also not intended to screen
+such as leaky-SCID or variant for less acute SCID
+SCID. syndromes such as leaky-
+SCID or variant SCID.
+This test is not intended for use
+as a diagnostic test and a
+positive screening result should
+be followed by confirmatory
+testing.
+Specimen Dried blood spot Same
+The kit should be stored at -30
+Stability/Shelf Life to -16°C. Once opened, the kit Same
+should be used within 14 days.
+General Device Characteristic Differences
+For the semi-quantitative
+determination of KREC
+(Kappa-deleting recombination
+excision circle) as an aid in
+screening newborns for X-
+linked agammaglobulinemia
+Intended Use/Indications (XLA).
+Not applicable
+For Use
+The test is not indicated for
+screening B-cell deficiency
+disorders other than XLA, such
+as atypical XLA, or for
+screening of XLA carriers.
+Test Methodology Semi-quantitative, multiplex Semi-quantitative,
+real-time fluorescent-based polymerase chain reaction
+polymerase chain reaction (PCR) based nucleic acid
+(PCR) based nucleic acid amplification and time-
+amplification and detection resolved fluorescence
+resonance energy transfer
+(TR-FRET) based detection
+TREC results are calibrated TREC results are calibrated
+using the internal control gene against a calibrator curve on
+Units of Reporting and a mathematical algorithm each plate and reports out the
+and reports out the results in the results in the unit of
+unit of copies/105 cells. copies/µL.
+QuantStudio Dx Real-Time VICTOR EnLite instrument
+Instrument/Software PCR instrument and Eonis and EnLite™ workstation
+software software
+Reportable Range TREC 242 – 4320 copies/105 TREC 29-473 copies/µL
+cells blood
+K203035 - Page 8 of 43
+
+[Table 1 on page 8]
+		It is also not intended to screen
+for less acute SCID syndromes
+such as leaky-SCID or variant
+SCID.
+This test is not intended for use
+as a diagnostic test and a
+positive screening result should
+be followed by confirmatory
+testing.	or Omenn Syndrome. It is
+also not intended to screen
+for less acute SCID
+syndromes such as leaky-
+SCID or variant SCID.	
+Specimen		Dried blood spot	Same	
+Stability/Shelf Life		The kit should be stored at -30
+to -16°C. Once opened, the kit
+should be used within 14 days.	Same	
+	General Device Characteristic Differences			
+Intended Use/Indications
+For Use		For the semi-quantitative
+determination of KREC
+(Kappa-deleting recombination
+excision circle) as an aid in
+screening newborns for X-
+linked agammaglobulinemia
+(XLA).
+The test is not indicated for
+screening B-cell deficiency
+disorders other than XLA, such
+as atypical XLA, or for
+screening of XLA carriers.	Not applicable	
+Test Methodology		Semi-quantitative, multiplex
+real-time fluorescent-based
+polymerase chain reaction
+(PCR) based nucleic acid
+amplification and detection	Semi-quantitative,
+polymerase chain reaction
+(PCR) based nucleic acid
+amplification and time-
+resolved fluorescence
+resonance energy transfer
+(TR-FRET) based detection	
+Units of Reporting		TREC results are calibrated
+using the internal control gene
+and a mathematical algorithm
+and reports out the results in the
+unit of copies/105 cells.	TREC results are calibrated
+against a calibrator curve on
+each plate and reports out the
+results in the unit of
+copies/µL.	
+Instrument/Software		QuantStudio Dx Real-Time
+PCR instrument and Eonis
+software	VICTOR EnLite instrument
+and EnLite™ workstation
+software	
+Reportable Range		TREC 242 – 4320 copies/105
+cells	TREC 29-473 copies/µL
+blood	
+
+--- Page 9 ---
+KREC 459 - 24300 copies/105
+cells
+Lower Limits of Measure TREC LoB=0 copies/105 cells, TREC LoB=3 copies/ µL
+LoD/LoQ= 242 copies/105 cells blood, LoD=20 copies/ µL
+KREC LoB=0 copies/105 cells, blood, LoQ=29 copies/ µL
+LoD/LoQ =459 copies/105 cells blood
+Calibrators / Standards Calibration is based on internal 3 levels of DBS calibrators
+reference (RPP30) in each well prepared from porcine whole
+and manufacturer calibration for blood spiked with TREC and
+each kit lot. beta-actin (reference)
+plasmids, and a no-template
+blank
+Controls 3 levels of DBS controls 3 levels of DBS controls
+prepared from leucocyte- prepared from porcine whole
+depleted human red blood cells blood, TREC and beta-actin
+and TREC, KREC and RPP30 (reference) plasmids spiked
+plasmids spiked in, plus No in.
+template control (NTC)
+VI Standards/Guidance Documents Referenced:
+• CLSI EP05-A3: Evaluation of precision of quantitative measurement procedures; approved
+guideline-third edition
+• CLSI EP6-A: Evaluation of the linearity of quantitative measurement procedures: a statistical
+approach; approved guideline
+• CLSI EP07-A2: Interference testing in clinical chemistry: approved guideline-second edition
+• CLSI EP25-A: Evaluation of Stability of In Vitro Diagnostic Reagents; approved guideline
+• CLSI NBS01-A6: Blood Collection on Filter Paper for Newborn Screening Programs-sixth
+edition
+• CLSI MM13-A Collection Transport Preparation and Storage of Specimens for Molecular
+Methods; approved guideline
+• CLSI MM17 Verification and validation of multiplex nucleic acid assays-second edition
+• IEC 62304 Edition 1.1 2015-06 Medial device software-Software life cycle processes
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+Study 1: Site-to-Site Reproducibility
+The objective of this study was to characterize the within-laboratory precision and
+reproducibility of the Eonis test system across 3 study sites using a panel of samples with
+different TREC and KREC levels. At each study site, 2 operators performed 5 runs each,
+over 5 operating days, 1 run per day, and 5 specimen replicates tested per run. A total of 13
+K203035 - Page 9 of 43
+
+[Table 1 on page 9]
+	KREC 459 - 24300 copies/105
+cells	
+Lower Limits of Measure	TREC LoB=0 copies/105 cells,
+LoD/LoQ= 242 copies/105 cells
+KREC LoB=0 copies/105 cells,
+LoD/LoQ =459 copies/105 cells	TREC LoB=3 copies/ µL
+blood, LoD=20 copies/ µL
+blood, LoQ=29 copies/ µL
+blood
+Calibrators / Standards	Calibration is based on internal
+reference (RPP30) in each well
+and manufacturer calibration for
+each kit lot.	3 levels of DBS calibrators
+prepared from porcine whole
+blood spiked with TREC and
+beta-actin (reference)
+plasmids, and a no-template
+blank
+Controls	3 levels of DBS controls
+prepared from leucocyte-
+depleted human red blood cells
+and TREC, KREC and RPP30
+plasmids spiked in, plus No
+template control (NTC)	3 levels of DBS controls
+prepared from porcine whole
+blood, TREC and beta-actin
+(reference) plasmids spiked
+in.
+
+--- Page 10 ---
+independent samples were tested at each of the 3 study sites using 1 kit lot for a total of 150
+replicates per sample (3 sites x 2 operators x 5 runs/days x 5 replicates per run = 150). The
+study used 1 lot of reagents. The samples were generated to represent a range of
+concentrations and were spotted onto filter paper, dried overnight, and stored at -30°C to -
+16°C in a sealed bag with desiccant until use. A description of the samples is provided in
+Table 5.
+Table 5. Descriptive summary samples used in the precision study
+Sample TREC KREC Preparation
+Sample 1 High Normal TREC plasmid spiked into cord blood at 1500
+copies/µL with the hematocrit adjusted to 48.2
+(approx. Ct value 28.63)
+Sample 2 Normal High KREC plasmid spiked into cord blood at 5000
+copies/ µL with the hematocrit adjusted to 48.2
+(approx. Ct value 28.11)
+Sample 3 Normal Normal Cord blood with hematocrit adjusted to 48.2
+Sample 4 Low Normal Diluting 3mL of cord blood with hematocrit
+(Above cut- adjusted to 48.2 into 2.25 mL of Sample 6 targeting
+off) near but below 98% quantile (32.71) of TREC Ct
+distribution of a population of presumptive normal
+NBS samples
+Sample 5 Low Normal Diluting 857.1 µL of cord blood with hematocrit of
+(Below cut- 48.32 in 2142.9 µL of Sample 6 (approx. Ct value
+off) 33.07)
+Sample 6 Very low Normal KREC plasmid spiked into adult whole blood at
+(Near 0) 2000 copies/µL with hematocrit adjusted to 50.7
+(approx. TREC Ct value 38.08; approx. KREC Ct
+value 30.56)
+Sample 7 Normal Low Diluting 0.75 mL of cord blood with hematocrit
+(Above adjusted to 48.2 in 2.25 mL of Sample 8 (approx.
+cut-off) KREC Ct value 31.96)
+Sample 8 Normal Low TREC plasmid spiked into adult whole blood at 700
+(Below copies/µL with hematocrit adjusted to 50.7 (approx.
+cut-off) TREC value 30.01 and approx. KREC value 33.30)
+Sample 9 Normal Very low TREC plasmid spiked at 2000 copies/ µL with
+(Near 0) hematocrit adjusted to 49.5 (approx. TREC Ct value
+30.08 and approx. KREC Ct value 0)
+Sample 10 Normal Normal Pooled adult whole blood from 2 SMA carriers with
+hematocrit adjusted to 46.1
+Sample 11 Normal Normal TREC plasmid at 700 copies/µL, KREC plasmid at
+1000 copies/µL and SMA Coriell cells at 15000
+cells/µL spiked into leukocyte depleted blood with
+hematocrit adjusted to 49.5
+K203035 - Page 10 of 43
+
+[Table 1 on page 10]
+Sample	TREC	KREC	Preparation
+			
+Sample 1	High	Normal	TREC plasmid spiked into cord blood at 1500
+copies/µL with the hematocrit adjusted to 48.2
+(approx. Ct value 28.63)
+Sample 2	Normal	High	KREC plasmid spiked into cord blood at 5000
+copies/ µL with the hematocrit adjusted to 48.2
+(approx. Ct value 28.11)
+Sample 3	Normal	Normal	Cord blood with hematocrit adjusted to 48.2
+Sample 4	Low
+(Above cut-
+off)	Normal	Diluting 3mL of cord blood with hematocrit
+adjusted to 48.2 into 2.25 mL of Sample 6 targeting
+near but below 98% quantile (32.71) of TREC Ct
+distribution of a population of presumptive normal
+NBS samples
+Sample 5	Low
+(Below cut-
+off)	Normal	Diluting 857.1 µL of cord blood with hematocrit of
+48.32 in 2142.9 µL of Sample 6 (approx. Ct value
+33.07)
+Sample 6	Very low
+(Near 0)	Normal	KREC plasmid spiked into adult whole blood at
+2000 copies/µL with hematocrit adjusted to 50.7
+(approx. TREC Ct value 38.08; approx. KREC Ct
+value 30.56)
+Sample 7	Normal	Low
+(Above
+cut-off)	Diluting 0.75 mL of cord blood with hematocrit
+adjusted to 48.2 in 2.25 mL of Sample 8 (approx.
+KREC Ct value 31.96)
+Sample 8	Normal	Low
+(Below
+cut-off)	TREC plasmid spiked into adult whole blood at 700
+copies/µL with hematocrit adjusted to 50.7 (approx.
+TREC value 30.01 and approx. KREC value 33.30)
+Sample 9	Normal	Very low
+(Near 0)	TREC plasmid spiked at 2000 copies/ µL with
+hematocrit adjusted to 49.5 (approx. TREC Ct value
+30.08 and approx. KREC Ct value 0)
+Sample 10	Normal	Normal	Pooled adult whole blood from 2 SMA carriers with
+hematocrit adjusted to 46.1
+Sample 11	Normal	Normal	TREC plasmid at 700 copies/µL, KREC plasmid at
+1000 copies/µL and SMA Coriell cells at 15000
+cells/µL spiked into leukocyte depleted blood with
+hematocrit adjusted to 49.5
+
+--- Page 11 ---
+Sample TREC KREC Preparation
+Sample 12 Low Low Diluting 4.4 mL of cord blood with hematocrit
+(Above cut- (Above adjusted to 48.2 into 6.6 mL of adult whole blood
+off) cut-off) with hematocrit adjusted to 50.7 (approx. TREC Ct
+value 32.48 and approx. KREC Ct value 31.30)
+Sample 13 Low Low Adult blood hematocrit adjusted to 50.7 (approx.
+(Below cut- (Below TREC Ct value 36.34 and approx. KREC Ct value
+off) cut-off) 33.89)
+The values in the mean TREC and KREC copies/105 cells column are transformed from
+logarithmic (Ln) mean values, and therefore, they represent geometric means in the
+copies/105 cells scale. The analysis of variance approach was used to calculate the results
+presented as standard deviations (SDs) in the logarithmic (Ln) scale complemented with total
+coefficient of variation (%CV) in lognormal scale (Table 6 and Table 8). Summary mean,
+min and max copies/105 cells and SD and %CV results without log transformation for total
+imprecision are shown in Table 7 and Table 9.
+Acceptance Criteria:
+• For TREC, the total assay precision within the measuring range must have a SD ≤ 0.9Ln
+(copies/105 cells) where the measuring range starts at 250 copies/105 cells.
+• For KREC, the total assay precision within the measuring range must have a SD ≤ 1.49
+Ln (copies/105 cells).
+Table 6. TREC reproducibility data pooled across three laboratories
+Geometric Mean
+Repeata- Between Between Between Total Log-
+Mean Ln
+Sample bility Run Operator Site Ln normal
+(Copies (Copies
+Ln SD Ln SD Ln SD Ln SD SD CV%
+105/cells) 105/cells)
+6 23 3.14 0.73 0.60 0.01 0.53 1.09 151
+13 34 3.53 1.12 0.31 0.00 0.32 1.20 180
+10 180 5.19 0.77 0.01 0.00 0.03 0.77 90
+5 299 5.70 0.55 0.16 0.01 0.15 0.59 65
+3 912 6.82 0.29 0.06 0.00 0.10 0.31 32
+12 936 6.84 0.34 0.00 0.00 0.18 0.38 40
+4 1026 6.93 0.28 0.10 0.01 0.13 0.33 34
+2 1478 7.30 0.26 0.01 0.04 0.04 0.27 27
+8 3013 8.01 0.48 0.20 0.01 0.16 0.55 59
+11 3290 8.10 0.25 0.05 0.00 0.09 0.27 28
+7 3867 8.26 0.29 0.08 0.00 0.11 0.32 33
+9 8225 9.01 0.24 0.08 0.02 0.18 0.31 32
+1 9000 9.11 0.21 0.08 0.00 0.14 0.26 27
+K203035 - Page 11 of 43
+
+[Table 1 on page 11]
+Sample	TREC	KREC	Preparation
+			
+Sample 12	Low
+(Above cut-
+off)	Low
+(Above
+cut-off)	Diluting 4.4 mL of cord blood with hematocrit
+adjusted to 48.2 into 6.6 mL of adult whole blood
+with hematocrit adjusted to 50.7 (approx. TREC Ct
+value 32.48 and approx. KREC Ct value 31.30)
+Sample 13	Low
+(Below cut-
+off)	Low
+(Below
+cut-off)	Adult blood hematocrit adjusted to 50.7 (approx.
+TREC Ct value 36.34 and approx. KREC Ct value
+33.89)
+
+[Table 2 on page 11]
+Sample		Geometric			Mean		Repeata-
+bility
+Ln SD	Between
+Run
+Ln SD	Between
+Operator
+Ln SD	Between
+Site
+Ln SD	Total
+Ln
+SD	Log-
+normal
+CV%
+		Mean			Ln							
+		(Copies			(Copies							
+		105/cells)			105/cells)							
+6	23			3.14			0.73	0.60	0.01	0.53	1.09	151
+13	34			3.53			1.12	0.31	0.00	0.32	1.20	180
+10	180			5.19			0.77	0.01	0.00	0.03	0.77	90
+5	299			5.70			0.55	0.16	0.01	0.15	0.59	65
+3	912			6.82			0.29	0.06	0.00	0.10	0.31	32
+12	936			6.84			0.34	0.00	0.00	0.18	0.38	40
+4	1026			6.93			0.28	0.10	0.01	0.13	0.33	34
+2	1478			7.30			0.26	0.01	0.04	0.04	0.27	27
+8	3013			8.01			0.48	0.20	0.01	0.16	0.55	59
+11	3290			8.10			0.25	0.05	0.00	0.09	0.27	28
+7	3867			8.26			0.29	0.08	0.00	0.11	0.32	33
+9	8225			9.01			0.24	0.08	0.02	0.18	0.31	32
+1	9000			9.11			0.21	0.08	0.00	0.14	0.26	27
+
+[Table 3 on page 11]
+Repeata-
+bility
+Ln SD
+
+[Table 4 on page 11]
+Between
+Run
+Ln SD
+
+[Table 5 on page 11]
+Between
+Operator
+Ln SD
+
+[Table 6 on page 11]
+Between
+Site
+Ln SD
+
+[Table 7 on page 11]
+Total
+Ln
+SD
+
+[Table 8 on page 11]
+Log-
+normal
+CV%
+
+--- Page 12 ---
+Table 7. TREC total variation results without logarithmic transformation
+Calculations without logarithmic transformation
+Mean Min Max SD
+Sample N (Copies/ (Copies/ (Copies/ (Copies/ CV%
+105 cells) 105 cells) 105 cells) 105 cells)
+6 54 40 4 308 55.3 138
+13 71 58 3 239 56 97
+10 148 223 5 796 126 56
+5 150 346 41 971 174 50
+3 150 952 220 1792 272 29
+12 150 997 239 2563 349 35
+4 150 1076 497 2490 335 31
+2 150 1526 654 2411 370 24
+11 150 3388 513 6401 767 23
+7 150 4076 2043 16934 1590 39
+8 150 4601 797 218936 17700 384*
+9 150 8571 3233 14974 2420 28
+1 150 9277 4236 16270 2320 25
+*Dataset for sample 8 has one high outlier (max value) affecting the variability estimate. Without
+the outlier, the estimated CV% is 41% and similar to other samples within the measuring range.
+Table 8. KREC reproducibility data pooled across three laboratories
+Geometric
+Mean Ln Repeata- Between Between Between Log-
+Mean Total
+Sample (Copies bility Run Operato Site normal
+(Copies Ln SD
+105/cells) Ln SD Ln SD r Ln SD Ln SD CV%
+105/cells)
+10 348 5.85 0.72 0.01 0.13 0.22 0.76 89
+8 763 6.64 0.46 0.05 0.00 0.13 0.48 50
+13 792 6.67 0.43 0.09 0.06 0.09 0.45 47
+12 2770 7.93 0.24 0.00 0.00 0.17 0.30 31
+3 3849 8.26 0.28 0.07 0.00 0.09 0.31 31
+7 4037 8.30 0.23 0.02 0.05 0.11 0.26 27
+1 4359 8.38 0.19 0.08 0.03 0.06 0.22 22
+6 5007 8.52 0.38 0.01 0.00 0.06 0.38 40
+4 9313 9.14 0.20 0.05 0.00 0.02 0.21 21
+11 9648 9.17 0.25 0.05 0.00 0.05 0.26 26
+5 16531 9.71 0.19 0.07 0.06 0.13 0.24 25
+2 34982 10.5 0.27 0.00 0.01 0.01 0.27 28
+10 348 5.85 0.72 0.01 0.13 0.22 0.76 89
+K203035 - Page 12 of 43
+
+[Table 1 on page 12]
+							Calculations without logarithmic transformation											
+Sample			N				Mean			Min		Max			SD
+(Copies/
+105 cells)	CV%		
+							(Copies/			(Copies/		(Copies/						
+							105 cells)			105 cells)		105 cells)						
+6			54			40			4		308			55.3		138		
+13			71			58			3		239			56		97		
+10			148			223			5		796			126		56		
+	5			150			346			41		971			174		50	
+	3			150			952			220		1792			272		29	
+	12			150			997			239		2563			349		35	
+	4			150			1076			497		2490			335		31	
+	2			150			1526			654		2411			370		24	
+	11			150			3388			513		6401			767		23	
+	7			150			4076			2043		16934			1590		39	
+8			150			4601			797		218936			17700		384*		
+9			150			8571			3233		14974			2420		28		
+1			150			9277			4236		16270			2320		25		
+
+[Table 2 on page 12]
+Sample		Geometric		Mean Ln
+(Copies
+105/cells)	Repeata-
+bility
+Ln SD	Between
+Run
+Ln SD	Between
+Operato
+r Ln SD	Between
+Site
+Ln SD	Total
+Ln SD	Log-
+normal
+CV%
+		Mean								
+		(Copies								
+		105/cells)								
+10	348			5.85	0.72	0.01	0.13	0.22	0.76	89
+8	763			6.64	0.46	0.05	0.00	0.13	0.48	50
+13	792			6.67	0.43	0.09	0.06	0.09	0.45	47
+12	2770			7.93	0.24	0.00	0.00	0.17	0.30	31
+3	3849			8.26	0.28	0.07	0.00	0.09	0.31	31
+7	4037			8.30	0.23	0.02	0.05	0.11	0.26	27
+1	4359			8.38	0.19	0.08	0.03	0.06	0.22	22
+6	5007			8.52	0.38	0.01	0.00	0.06	0.38	40
+4	9313			9.14	0.20	0.05	0.00	0.02	0.21	21
+11	9648			9.17	0.25	0.05	0.00	0.05	0.26	26
+5	16531			9.71	0.19	0.07	0.06	0.13	0.24	25
+2	34982			10.5	0.27	0.00	0.01	0.01	0.27	28
+10	348			5.85	0.72	0.01	0.13	0.22	0.76	89
+
+[Table 3 on page 12]
+ean L
+(Copies
+05/cells
+
+[Table 4 on page 12]
+Repeata
+bility
+Ln SD
+
+[Table 5 on page 12]
+Between
+Run
+Ln SD
+
+[Table 6 on page 12]
+Between
+Operato
+r Ln SD
+
+[Table 7 on page 12]
+Between
+Site
+Ln SD
+
+[Table 8 on page 12]
+Total
+Ln SD
+
+--- Page 13 ---
+Table 9. KREC total variation results without logarithmic transformation
+Calculations without logarithmic transformation
+Mean Min Max SD
+Sample N (Copies/ (Copies/ (Copies/ (Copies/ CV%
+105 cells) 105 cells) 105 cells) 105 cells)
+10 148 431 40 1071 242 56
+8 150 841 186 1925 349 41
+13 150 862 183 2003 330 38
+12 150 2877 1097 5232 792 28
+3 150 4025 1075 13447 1300 32
+7 150 4162 2241 6788 1030 25
+1 150 4457 2104 7746 960 22
+6 150 5457 1567 36630 3230 59
+4 150 9508 4735 15856 1910 20
+11 150 9915 1564 16967 2130 21
+5 150 16955 8813 29034 3880 23
+2 150 36370 16841 118413 11200 31
+Study 2: Lot-to-Lot Reproducibility
+A study was performed internally (single site) using 3 sets of Eonis test systems, 2 operators,
+and 3 kit lots. The 13 samples (Table 5) were tested over 23 calendar days with 2 replicates
+per sample per plate in a total of 54 runs with a randomized plate map. The total number of
+measurements was 108 per sample.
+The values in the mean TREC and KREC copies/105 cells column are transformed from
+logarithmic (Ln) mean values, and therefore, they represent geometric means in the
+copies/105 cells scale. The analysis of variance approach was used to calculate the results
+presented as SDs in the logarithmic (Ln) scale complemented with total %CVs in lognormal
+scale (Table 10 and Table 12). Summary mean, min and max copies/105 cells, and SD and
+%CV results without log transformation for total imprecision are shown in Table 11 and
+Table 13.
+Table 10. TREC precision data across three kit lots and three instruments
+Geometric
+Mean Ln Repeata- Between Between Between Log-
+Mean Total
+Sample (Copies bility Run Instrument Lot normal
+(Copies Ln SD
+105/cells) Ln SD Ln SD Ln SD Ln SD CV%
+105/cells)
+6 20 3.00 0.92 0.00 0.00 0.33 0.97 125
+13 34 3.54 0.89 0.00 0.00 0.23 0.92 116
+10 159 5.07 0.76 0.17 0.00 0.14 0.79 92
+5 464 6.14 0.42 0.06 0.14 0.13 0.47 49
+12 1022 6.93 0.34 0.16 0.00 0.08 0.39 40
+2 1130 7.03 0.35 0.20 0.00 0.02 0.40 42
+K203035 - Page 13 of 43
+
+[Table 1 on page 13]
+							Calculations without logarithmic transformation											
+Sample			N				Mean			Min			Max
+(Copies/
+105 cells)	SD
+(Copies/
+105 cells)		CV%		
+							(Copies/			(Copies/								
+							105 cells)			105 cells)								
+10			148			431			40			1071		242		56		
+	8			150			841			186			1925	349			41	
+	13			150			862			183			2003	330			38	
+	12			150			2877			1097			5232	792			28	
+	3			150			4025			1075			13447	1300			32	
+	7			150			4162			2241			6788	1030			25	
+	1			150			4457			2104			7746	960			22	
+	6			150			5457			1567			36630	3230			59	
+	4			150			9508			4735			15856	1910			20	
+	11			150			9915			1564			16967	2130			21	
+	5			150			16955			8813			29034	3880			23	
+2			150			36370			16841			118413		11200		31		
+
+[Table 2 on page 13]
+Sample		Geometric		Mean Ln
+(Copies
+105/cells)	Repeata-
+bility
+Ln SD	Between
+Run
+Ln SD	Between
+Instrument
+Ln SD	Between
+Lot
+Ln SD	Total
+Ln SD	Log-
+normal
+CV%
+		Mean								
+		(Copies								
+		105/cells)								
+6	20			3.00	0.92	0.00	0.00	0.33	0.97	125
+13	34			3.54	0.89	0.00	0.00	0.23	0.92	116
+10	159			5.07	0.76	0.17	0.00	0.14	0.79	92
+5	464			6.14	0.42	0.06	0.14	0.13	0.47	49
+12	1022			6.93	0.34	0.16	0.00	0.08	0.39	40
+2	1130			7.03	0.35	0.20	0.00	0.02	0.40	42
+
+[Table 3 on page 13]
+Mean Ln
+(Copies
+105/cells)
+
+[Table 4 on page 13]
+Repeata-
+bility
+Ln SD
+
+[Table 5 on page 13]
+Between
+Run
+Ln SD
+
+[Table 6 on page 13]
+Log-
+normal
+CV%
+
+[Table 7 on page 13]
+Total
+Ln SD
+
+--- Page 14 ---
+Geometric
+Mean Ln Repeata- Between Between Between Log-
+Mean Total
+Sample (Copies bility Run Instrument Lot normal
+(Copies Ln SD
+105/cells) Ln SD Ln SD Ln SD Ln SD CV%
+105/cells)
+4 1176 7.07 0.33 0.13 0.13 0.15 0.41 42
+3 2165 7.68 0.37 0.00 0.00 0.05 0.37 38
+11 4105 8.32 0.24 0.08 0.16 0.04 0.30 30
+7 4146 8.33 0.32 0.15 0.10 0.01 0.37 38
+8 4866 8.49 0.35 0.31 0.00 0.07 0.47 50
+9 8604 9.06 0.30 0.35 0.19 0.18 0.54 58
+1 11048 9.31 0.21 0.14 0.16 0.03 0.30 31
+Table 11. TREC total variation results without logarithmic transformation
+Calculations without logarithmic transformation
+Mean Min Max SD
+Sample N (Copies/ (Copies/ (Copies/ (Copies/ CV%
+105 cells) 105 cells) 105 cells) 105 cells)
+6 29 32 5 150 34.9 109
+13 43 49 4 173 41.4 84
+10 105 200 11 479 114 57
+5 107 508 99 1183 216 43
+12 106 1094 189 2247 383 35
+2 107 1206 230 2576 414 34
+4 108 1259 422 3011 479 38
+3 107 2263 107 3084 510 23
+11 106 4263 2031 7418 1220 29
+7 107 4407 1014 8206 1530 35
+8 107 5754 2011 74368 7120 124
+9 107 9540 471 19530 3760 39
+1 107 11501 3218 19982 3170 28
+Table 12. KREC precision data across three kit lots and three instruments
+Geometric
+Mean Ln Repeata- Between Between Between Log-
+Mean Total
+Sample (Copies bility Run Instrument Lot normal
+(Copies Ln SD
+105/cells) Ln SD Ln SD Ln SD Ln SD CV%
+105/cells)
+9 85 4.44 1.14 0.00 0.00 0.37 1.20 178
+10 478 6.17 0.53 0.36 0.00 0.16 0.66 74
+13 1033 6.94 0.40 0.13 0.15 0.09 0.45 48
+8 1075 6.98 0.47 0.00 0.00 0.13 0.49 52
+7 2416 7.79 0.43 0.00 0.08 0.01 0.44 46
+12 3361 8.12 0.36 0.10 0.00 0.07 0.38 39
+K203035 - Page 14 of 43
+
+[Table 1 on page 14]
+Sample		Geometric
+Mean
+(Copies
+105/cells)	Mean Ln
+(Copies
+105/cells)	Repeata-
+bility
+Ln SD	Between
+Run
+Ln SD	Between
+Instrument
+Ln SD	Between
+Lot
+Ln SD	Total
+Ln SD	Log-
+normal
+CV%
+4	1176		7.07	0.33	0.13	0.13	0.15	0.41	42
+3	2165		7.68	0.37	0.00	0.00	0.05	0.37	38
+11	4105		8.32	0.24	0.08	0.16	0.04	0.30	30
+7	4146		8.33	0.32	0.15	0.10	0.01	0.37	38
+8	4866		8.49	0.35	0.31	0.00	0.07	0.47	50
+9	8604		9.06	0.30	0.35	0.19	0.18	0.54	58
+1	11048		9.31	0.21	0.14	0.16	0.03	0.30	31
+
+[Table 2 on page 14]
+Repeata-
+bility
+Ln SD
+
+[Table 3 on page 14]
+Between
+Run
+Ln SD
+
+[Table 4 on page 14]
+Between
+Instrument
+Ln SD
+
+[Table 5 on page 14]
+Between
+Lot
+Ln SD
+
+[Table 6 on page 14]
+Log-
+normal
+CV%
+
+[Table 7 on page 14]
+					Calculations without logarithmic transformation													
+Sample			N		Mean
+(Copies/
+105 cells)			Min			Max			SD		CV%		
+								(Copies/			(Copies/			(Copies/				
+								105 cells)			105 cells)			105 cells)				
+6			29		32		5			150			34.9			109		
+13			43		49		4			173			41.4			84		
+10			105		200		11			479			114			57		
+	5			107	508			99			1183			216			43	
+	12			106	1094			189			2247			383			35	
+	2			107	1206			230			2576			414			34	
+	4			108	1259			422			3011			479			38	
+	3			107	2263			107			3084			510			23	
+	11			106	4263			2031			7418			1220			29	
+	7			107	4407			1014			8206			1530			35	
+8			107		5754		2011			74368			7120			124		
+9			107		9540		471			19530			3760			39		
+1			107		11501		3218			19982			3170			28		
+
+[Table 8 on page 14]
+Sample		Geometri	c	Mean Ln
+(Copies
+105/cells)	Repeata-
+bility
+Ln SD	Between
+Run
+Ln SD	Between
+Instrument
+Ln SD	Between
+Lot
+Ln SD	Total
+Ln SD	Log-
+normal
+CV%
+		Mean								
+		(Copies								
+		105/cells)								
+9	85			4.44	1.14	0.00	0.00	0.37	1.20	178
+10	478			6.17	0.53	0.36	0.00	0.16	0.66	74
+13	1033			6.94	0.40	0.13	0.15	0.09	0.45	48
+8	1075			6.98	0.47	0.00	0.00	0.13	0.49	52
+7	2416			7.79	0.43	0.00	0.08	0.01	0.44	46
+12	3361			8.12	0.36	0.10	0.00	0.07	0.38	39
+
+[Table 9 on page 14]
+ean Ln
+Copies
+05/cells)
+
+[Table 10 on page 14]
+Repeata-
+bility
+Ln SD
+
+[Table 11 on page 14]
+Between
+Run
+Ln SD
+
+[Table 12 on page 14]
+Between
+Instrument
+Ln SD
+
+[Table 13 on page 14]
+Between
+Lot
+Ln SD
+
+[Table 14 on page 14]
+Log-
+normal
+CV%
+
+[Table 15 on page 14]
+Total
+Ln SD
+
+--- Page 15 ---
+Geometric
+Mean Ln Repeata- Between Between Between Log-
+Mean Total
+Sample (Copies bility Run Instrument Lot normal
+(Copies Ln SD
+105/cells) Ln SD Ln SD Ln SD Ln SD CV%
+105/cells)
+1 5271 8.57 0.35 0.00 0.09 0.04 0.37 38
+3 5541 8.62 0.30 0.05 0.00 0.03 0.31 31
+6 8691 9.07 0.26 0.26 0.08 0.10 0.39 40
+4 11499 9.35 0.29 0.18 0.12 0.06 0.36 38
+11 13494 9.51 0.24 0.08 0.17 0.09 0.32 32
+5 13767 9.53 0.22 0.21 0.13 0.07 0.34 35
+2 39735 10.6 0.20 0.21 0.12 0.07 0.32 33
+Table 13. KREC total variation results without logarithmic transformation
+Calculations without logarithmic transformation
+Mean Min Max SD
+Sample N (Copies/ (Copies/ (Copies/ (Copies/ CV%
+105 cells) 105 cells) 105 cells) 105 cells)
+9 10 146 17 435 139 95
+10 104 570 43 1396 306 54
+13 106 1139 212 4188 546 48
+8 107 1195 356 3180 538 45
+7 107 2605 203 5513 898 34
+12 107 3568 686 7096 1150 32
+1 107 5560 474 10461 1620 29
+3 106 5774 863 10031 1500 26
+6 107 9308 3333 19079 3420 37
+4 108 12212 2707 23846 4180 34
+11 107 14103 5330 23372 4030 29
+5 106 14492 5673 35070 4960 34
+2 108 41717 15231 74089 12400 30
+All 84 plates from both studies had results of the Eonis SCID-SMA Kit Controls within the
+acceptance limits. The data validity-check for each well resulted in a total of 15 out of 3354 well
+exclusions from the analysis (sample invalid rate is 0.4%). The precision of the device control
+kits is shown in Table 14a and the internal control RPP30 gene in Table 14b below.
+Table 14a. Descriptive statistics of device kit control results (Ct values) at one site
+Analyte Sample N N Ct Ct Ct SD Ct CV% Ct Min Ct Max
+N/A Mean
+KREC C1 20 20 N/A N/A N/A NaN NaN
+C2 20 0 33.5 0.56 1.68 32.3 34.6
+C3 20 0 29.5 0.55 1.87 28.8 31.1
+NTC 20 20 N/A N/A N/A NaN NaN
+KREC ∆Ct C1 20 20 N/A N/A N/A NaN NaN
+K203035 - Page 15 of 43
+
+[Table 1 on page 15]
+Sample	G	eometri	c	Mean Ln
+(Copies
+105/cells)	Repeata-
+bility
+Ln SD	Between
+Run
+Ln SD	Between
+Instrument
+Ln SD	Between
+Lot
+Ln SD	Total
+Ln SD	Log-
+normal
+CV%
+		Mean								
+		(Copies								
+		105/cells)								
+1	5271			8.57	0.35	0.00	0.09	0.04	0.37	38
+3	5541			8.62	0.30	0.05	0.00	0.03	0.31	31
+6	8691			9.07	0.26	0.26	0.08	0.10	0.39	40
+4	11499			9.35	0.29	0.18	0.12	0.06	0.36	38
+11	13494			9.51	0.24	0.08	0.17	0.09	0.32	32
+5	13767			9.53	0.22	0.21	0.13	0.07	0.34	35
+2	39735			10.6	0.20	0.21	0.12	0.07	0.32	33
+
+[Table 2 on page 15]
+Mean Ln
+(Copies
+105/cells)
+
+[Table 3 on page 15]
+Repeata-
+bility
+Ln SD
+
+[Table 4 on page 15]
+Between
+Run
+Ln SD
+
+[Table 5 on page 15]
+Between
+Instrument
+Ln SD
+
+[Table 6 on page 15]
+Between
+Lot
+Ln SD
+
+[Table 7 on page 15]
+Log-
+normal
+CV%
+
+[Table 8 on page 15]
+Total
+Ln SD
+
+[Table 9 on page 15]
+							Calculations without logarithmic transformation													
+Sample			N				Mean			Min			Max			SD		CV%		
+							(Copies/			(Copies/			(Copies/			(Copies/				
+							105 cells)			105 cells)			105 cells)			105 cells)				
+9			10			146			17			435			139			95		
+	10			104			570			43			1396			306			54	
+	13			106			1139			212			4188			546			48	
+	8			107			1195			356			3180			538			45	
+	7			107			2605			203			5513			898			34	
+	12			107			3568			686			7096			1150			32	
+	1			107			5560			474			10461			1620			29	
+	3			106			5774			863			10031			1500			26	
+	6			107			9308			3333			19079			3420			37	
+	4			108			12212			2707			23846			4180			34	
+11			107			14103			5330			23372			4030			29		
+	5			106			14492			5673			35070			4960			34	
+2			108			41717			15231			74089			12400			30		
+
+[Table 10 on page 15]
+Analyte	Sample	N	N Ct	Ct	Ct SD	Ct CV%	Ct Min	Ct Max
+			N/A	Mean				
+KREC	C1	20	20	N/A	N/A	N/A	NaN	NaN
+	C2	20	0	33.5	0.56	1.68	32.3	34.6
+	C3	20	0	29.5	0.55	1.87	28.8	31.1
+	NTC	20	20	N/A	N/A	N/A	NaN	NaN
+KREC ∆Ct	C1	20	20	N/A	N/A	N/A	NaN	NaN
+
+--- Page 16 ---
+Analyte Sample N N Ct Ct Ct SD Ct CV% Ct Min Ct Max
+N/A Mean
+C2 20 0 10.1 0.53 5.22 8.98 11.2
+C3 20 0 6.07 0.43 7.10 5.48 7.20
+NTC 20 20 N/A N/A N/A NaN NaN
+RPP30 C1 20 0 22.2 0.49 2.23 21.5 23.1
+C2 20 0 21.7 0.37 1.69 21.1 22.4
+C3 20 0 21.9 0.52 2.35 21.1 23.4
+NTC 20 19 37.5 NA N/A 37.5 37.5
+TREC C1 20 20 N/A N/A N/A NaN NaN
+C2 20 0 33.4 0.77 2.31 32.3 35.4
+C3 20 0 28.6 0.64 2.25 27.7 30.5
+NTC 20 20 N/A N/A N/A NaN NaN
+TREC ∆Ct C1 20 20 N/A N/A N/A NaN NaN
+C2 20 0 33.4 0.77 2.31 32.3 35.4
+C3 20 0 28.6 0.64 2.25 27.7 30.5
+NTC 20 20 N/A N/A N/A NaN NaN
+N/A not applicable; NaN = Not a number (i.e., no Ct value generated)
+Table 14b. RPP30 precision analysis on Ct values
+Between Between Within Between Kit
+Within Run Run Instrument Kit lot lot Total
+Sample N Mean SD CV% SD CV% SD CV% SD CV% SD CV% SD CV%
+1 107 23.4 0.70 3.0 0.39 1.7 0.30 1.3 0.42 1.8 0.86 3.7 0.96 4.1
+2 108 23.2 0.54 2.3 0.44 1.9 0.23 1.0 0.34 1.5 0.73 3.2 0.81 3.5
+3 106 23.2 0.69 3.0 0.25 1.1 0.09 0.4 0.34 1.5 0.74 3.2 0.81 3.5
+4 108 24.2 0.99 4.1 0.33 1.4 0.36 1.5 0.45 1.9 1.11 4.6 1.20 4.9
+5 106 24.0 0.79 3.3 0.00 0.0 0.22 0.9 0.54 2.2 0.82 3.4 0.98 4.1
+6 107 24.4 0.59 2.4 0.24 1.0 0.00 0.0 0.70 2.9 0.64 2.6 0.95 3.9
+7 107 24.2 1.17 4.8 0.00 0.0 0.19 0.8 0.64 2.7 1.19 4.9 1.35 5.6
+8 107 24.4 0.81 3.3 0.00 0.0 0.20 0.8 0.70 2.9 0.84 3.4 1.09 4.5
+9 106 25.6 0.69 2.7 0.00 0.0 0.00 0.0 0.37 1.4 0.69 2.7 0.78 3.0
+10 107 23.9 0.62 2.6 0.14 0.6 0.34 1.4 0.56 2.4 0.72 3.0 0.92 3.8
+11 107 23.0 0.45 2.0 0.34 1.5 0.00 0.0 0.40 1.8 0.56 2.4 0.69 3.0
+12 107 23.7 0.81 3.4 0.28 1.2 0.25 1.1 0.55 2.3 0.89 3.8 1.05 4.4
+13 106 24.5 0.81 3.3 0.50 2.1 0.2 0.8 0.72 2.9 0.97 4.0 1.21 5.0
+Qualitative imprecision was determined in accordance with CLSI document EP12-A2 to
+classify the results, using the screening performance study cut-offs (262 copies/105 cells for
+TREC, 484 copies/105 cells for KREC). The C5-C95 interval was determined to be 79–626
+copies/105 cells for TREC, and 189–1064 copies/105 cells for KREC. Concentrations outside
+of these intervals were consistently analyte negative (concentrations <C5, equals to screen
+positive) or consistently analyte positive (concentrations >C95, equals to screen negative).
+K203035 - Page 16 of 43
+
+[Table 1 on page 16]
+Analyte	Sample	N	N Ct	Ct	Ct SD	Ct CV%	Ct Min	Ct Max
+			N/A	Mean				
+	C2	20	0	10.1	0.53	5.22	8.98	11.2
+	C3	20	0	6.07	0.43	7.10	5.48	7.20
+	NTC	20	20	N/A	N/A	N/A	NaN	NaN
+RPP30	C1	20	0	22.2	0.49	2.23	21.5	23.1
+	C2	20	0	21.7	0.37	1.69	21.1	22.4
+	C3	20	0	21.9	0.52	2.35	21.1	23.4
+	NTC	20	19	37.5	NA	N/A	37.5	37.5
+TREC	C1	20	20	N/A	N/A	N/A	NaN	NaN
+	C2	20	0	33.4	0.77	2.31	32.3	35.4
+	C3	20	0	28.6	0.64	2.25	27.7	30.5
+	NTC	20	20	N/A	N/A	N/A	NaN	NaN
+TREC ∆Ct	C1	20	20	N/A	N/A	N/A	NaN	NaN
+	C2	20	0	33.4	0.77	2.31	32.3	35.4
+	C3	20	0	28.6	0.64	2.25	27.7	30.5
+	NTC	20	20	N/A	N/A	N/A	NaN	NaN
+
+[Table 2 on page 16]
+Sample	N	Mean	Within Run						Between						Between						Within						Between Kit					Total					
+				Within Run					Run						Instrument						Kit lot						lot						Total				
+				SD		CV%			SD			CV%			SD			CV%			SD			CV%			SD			CV%			SD		C	V%	
+1	107	23.4	0.70			3.0		0.39			1.7			0.30			1.3			0.42			1.8			0.86			3.7			0.96			4.1		
+2	108	23.2	0.54			2.3		0.44			1.9			0.23			1.0			0.34			1.5			0.73			3.2			0.81			3.5		
+3	106	23.2	0.69			3.0		0.25			1.1			0.09			0.4			0.34			1.5			0.74			3.2			0.81			3.5		
+4	108	24.2	0.99			4.1		0.33			1.4			0.36			1.5			0.45			1.9			1.11			4.6			1.20			4.9		
+5	106	24.0	0.79			3.3		0.00			0.0			0.22			0.9			0.54			2.2			0.82			3.4			0.98			4.1		
+6	107	24.4	0.59			2.4		0.24			1.0			0.00			0.0			0.70			2.9			0.64			2.6			0.95			3.9		
+7	107	24.2	1.17			4.8		0.00			0.0			0.19			0.8			0.64			2.7			1.19			4.9			1.35			5.6		
+8	107	24.4	0.81			3.3		0.00			0.0			0.20			0.8			0.70			2.9			0.84			3.4			1.09			4.5		
+9	106	25.6	0.69			2.7		0.00			0.0			0.00			0.0			0.37			1.4			0.69			2.7			0.78			3.0		
+10	107	23.9	0.62			2.6		0.14			0.6			0.34			1.4			0.56			2.4			0.72			3.0			0.92			3.8		
+11	107	23.0	0.45			2.0		0.34			1.5			0.00			0.0			0.40			1.8			0.56			2.4			0.69			3.0		
+12	107	23.7	0.81			3.4		0.28			1.2			0.25			1.1			0.55			2.3			0.89			3.8			1.05			4.4		
+13	106	24.5	0.81			3.3		0.50			2.1			0.2			0.8			0.72			2.9			0.97			4.0			1.21			5.0		
+
+--- Page 17 ---
+2. Linearity:
+Linearity was determined with 1 kit lot and 1 operator. Three (3) sets of contrived samples
+were used for this evaluation and are described below. The samples were diluted to 9 levels
+with 4 replicates for each level. Samples were punched at 4 replicates using a DBS puncher
+and then transferred into a new 96-well plate in a randomized order and were extracted and
+run using JANUS automated liquid handlers. Acceptance criteria were that all analytes,
+TREC, KREC and RPP30, must have PCR efficiency between 80% and 120% with a
+coefficient of determination, denoted R2 ≥ 95% within their measuring ranges. The
+acceptance criteria for linearity for TREC and KREC concentrations were, on their
+measuring ranges, the maximal difference of the best fitting model from the linear model
+must be ± 25% (calculated in copies/105 cells).
+Sample Set 1: Estimation of PCR Efficiency for TREC, KREC and RPP30
+The first set of samples were prepared by spiking leucocyte-depleted human red blood cells,
+which had the hematocrit adjusted to 51.9, with linearized TREC and KREC plasmids and
+cell lines covering the required measuring ranges (TREC: 52 to 7800 copies/μL blood;
+KREC: 67 to 10,100 copies/μL blood; RPP30: 2670 to 400,000 copies/μL blood, per spiked
+cell numbers), a semi-log linear regression line plot of Ct value vs. log of input nucleic acid
+in the unit of copies/μL blood was first analyzed for each individual analyte (TREC, KREC
+and RPP30) and the corresponding coefficient of determination (R2) of the linear regression
+of the mean Ct values and PCR efficiency of each analyte were calculated. As shown in
+Table 15, all 3 analytes had R2 > 99%, and their estimates of PCR efficiency were between
+80% and 120%.
+Table 15. Estimate of R2 and PCR efficiency of TREC, KREC and RPP30
+Analyte Name R2 PCR efficiency estimate Lower Upper
+95% CL 95% CL
+TREC 0.993 83.9% 76.7% 92.6%
+KREC 0.995 87.6% 81.2% 95.0%
+RPP30 0.992 99.9% 89.9% 112.3%
+Sample Set 2 and 3: Estimation of Linearity of the TREC and KREC Assay
+Linearity was determined in accordance with CLSI document EP06-A2 and was designed to
+evaluate the linearity of TREC and KREC in the unit of copies/105 cells calculated using ΔCt
+TREC and ΔCt KREC for each dilution. A high concentration sample was prepared by
+resuspending WBC (White Blood Cells) pellets concentrated from the 60 mL of human
+umbilical cord bloods into 1mL if human umbilical cord blood to achieve TREC and KREC
+Ct close to the lowest values (i.e., high concentrations) observed in a population of newborn
+specimens (28.34. for TREC and 26.91 for KREC). Samples were then diluted with
+leukocyte depleted whole blood into nine levels of serial dilutions down to a level close to
+their LoQs (242 copies/105 cells for TREC and 459 copies/105 cells for KREC). In addition,
+a third set of samples were created to provide additional information on the KREC linearity
+at lower KREC concentrations because the second set did not cover the measuring range.
+This low concentration sample set 3 was prepared by diluting umbilical cord blood with
+K203035 - Page 17 of 43
+
+[Table 1 on page 17]
+Analyte Name	R2	PCR efficiency estimate	Lower	Upper
+			95% CL	95% CL
+TREC	0.993	83.9%	76.7%	92.6%
+KREC	0.995	87.6%	81.2%	95.0%
+RPP30	0.992	99.9%	89.9%	112.3%
+
+--- Page 18 ---
+leucocyte-depleted human red blood. HL-60 cells were spiked into the leucocyte-depleted
+blood to adjust the RPP30 Ct values to match the RPP30 Ct value in cord blood. Using the
+observed value for undiluted sample and the consecutive dilution factors, the expected values
+at copies/105 cells scale were calculated. Linearity of TREC and KREC was then determined
+by fitting regression of Ln Measured vs. Ln Expected value. Weights for regression fit were
+calculated from the observed variability of each level. Using the obtained equation, the
+predicted values at each dilution level and the deviations between measured and predicted
+values were calculated. The descriptive statistics of each linearity sample level are presented
+in Table 16 and Table 17. The data for KREC represents the combined datasets. The
+measured results and fitted models are shown in Figure 1 and 3 the relative deviations in
+Figures 2 and 4. For TREC, all points were within the study acceptance criteria of ±25%,
+with highest relative deviation of -14.3%. For KREC, all points were within the study
+acceptance criteria of ±25%, with highest relative deviation of 17.3%.
+Table 16. Descriptive statistics and calculated weights - TREC
+Copies/105
+RC* N Ln Copies Copies/105 Ln Copies Weight Copies/105 Copies/105
+Mean
+Mean SD SD Min Max
+1.000 4 4316 8.37 461 0.11 331 3790 4890
+0.690 4 2441 7.80 834 0.37 29.2 1430 3330
+0.476 3 1588 7.37 459 0.31 31.2 1110 1910
+0.328 4 1353 7.21 257 0.19 111 1100 1710
+0.226 4 1287 7.16 260 0.20 100 999 1630
+0.156 4 508 6.23 148 0.34 34.6 309 630
+0.108 4 185 5.22 113 0.71 7.93 66.5 340
+0.074 3 114 4.74 64.5 0.48 13.0 82.8 198
+0.051 4 93.7 4.54 77.8 0.78 6.57 40.8 190
+*Relative concentration
+Figure 1. Fitted linear model TREC
+K203035 - Page 18 of 43
+
+[Table 1 on page 18]
+		Copies/105						
+RC*	N		Ln Copies	Copies/105	Ln Copies	Weight	Copies/105	Copies/105
+		Mean						
+			Mean	SD	SD		Min	Max
+								
+								
+1.000	4	4316	8.37	461	0.11	331	3790	4890
+0.690	4	2441	7.80	834	0.37	29.2	1430	3330
+0.476	3	1588	7.37	459	0.31	31.2	1110	1910
+0.328	4	1353	7.21	257	0.19	111	1100	1710
+0.226	4	1287	7.16	260	0.20	100	999	1630
+0.156	4	508	6.23	148	0.34	34.6	309	630
+0.108	4	185	5.22	113	0.71	7.93	66.5	340
+0.074	3	114	4.74	64.5	0.48	13.0	82.8	198
+0.051	4	93.7	4.54	77.8	0.78	6.57	40.8	190
+
+--- Page 19 ---
+Figure 2. Relative deviations and the study limits – TREC
+Table 17. Descriptive statistics and calculated weights - KREC
+Ln Ln
+RC* Sample Hit Copies/105 Weight Copies/105 Copies/105
+Copies Copies
+N
+rate cells Mean cells Min cells Max
+Mean SD
+1.000 Lin 4 1 24343 10.1 0.14 204 19700 26800
+0.690 Lin 4 1 15835 9.67 0.19 111 12500 19500
+0.476 Lin 3* 1 10405 9.25 0.03 3330 10100 10800
+0.328 Lin 4 1 8519 9.05 0.05 1600 7990 9020
+0.226 Lin 4 1 6768 8.82 0.08 625 6290 7470
+L2 20 1 6438 8.77 0.26 296 4170 11500
+1.000
+L3 20 1 5064 8.53 0.29 238 2380 8880
+L1 20 1 3905 8.27 0.36 154 2500 8160
+0.156 Lin 4 1 3533 8.17 0.45 19.8 2170 5800
+0.700 L1 20 1 3072 8.03 0.33 184 1440 5130
+0.108 Lin 4 1 2836 7.95 0.34 34.6 1720 3750
+0.600 L1 20 1 2644 7.88 0.32 195 1500 4650
+0.074 Lin 3* 1 2490 7.82 0.16 117 2090 2790
+0.500 L1 20 1 2080 7.64 0.43 108 567 4320
+0.300 L3 20 1 1588 7.37 0.50 80.0 375 3540
+0.051 Lin 4 1 1249 7.13 0.37 29.2 780 1910
+0.200 L1 19 0.95 1188 7.08 0.36 147 619 2200
+0.150 L2 20 1 871 6.77 0.53 71.2 356 2850
+L3 20 1 804 6.69 0.64 48.8 82.9 1570
+0.100 L2 19 0.95 757 6.63 0.47 86.0 344 2970
+0.080
+L2 20 1 478 6.17 0.92 23.6 16.2 1580
+0.040 L2 14 0.7 305 5.72 1.03 13.2 54.9 1030
+L3 18 0.9 296 5.69 0.68 38.9 74.1 936
+0.080
+L1 16 0.8 255 5.54 0.63 40.3 75.2 620
+K203035 - Page 19 of 43
+
+[Table 1 on page 19]
+					Ln	Ln			
+									
+RC*	Sample		Hit	Copies/105			Weight	Copies/105	Copies/105
+					Copies	Copies			
+		N							
+			rate	cells Mean				cells Min	cells Max
+					Mean	SD			
+									
+									
+1.000	Lin	4	1	24343	10.1	0.14	204	19700	26800
+0.690	Lin	4	1	15835	9.67	0.19	111	12500	19500
+0.476	Lin	3*	1	10405	9.25	0.03	3330	10100	10800
+0.328	Lin	4	1	8519	9.05	0.05	1600	7990	9020
+0.226	Lin	4	1	6768	8.82	0.08	625	6290	7470
+1.000	L2	20	1	6438	8.77	0.26	296	4170	11500
+	L3	20	1	5064	8.53	0.29	238	2380	8880
+	L1	20	1	3905	8.27	0.36	154	2500	8160
+0.156	Lin	4	1	3533	8.17	0.45	19.8	2170	5800
+0.700	L1	20	1	3072	8.03	0.33	184	1440	5130
+0.108	Lin	4	1	2836	7.95	0.34	34.6	1720	3750
+0.600	L1	20	1	2644	7.88	0.32	195	1500	4650
+0.074	Lin	3*	1	2490	7.82	0.16	117	2090	2790
+0.500	L1	20	1	2080	7.64	0.43	108	567	4320
+0.300	L3	20	1	1588	7.37	0.50	80.0	375	3540
+0.051	Lin	4	1	1249	7.13	0.37	29.2	780	1910
+0.200	L1	19	0.95	1188	7.08	0.36	147	619	2200
+0.150	L2	20	1	871	6.77	0.53	71.2	356	2850
+	L3	20	1	804	6.69	0.64	48.8	82.9	1570
+0.100	L2	19	0.95	757	6.63	0.47	86.0	344	2970
+0.080
+0.040	L2	20	1	478	6.17	0.92	23.6	16.2	1580
+	L2	14	0.7	305	5.72	1.03	13.2	54.9	1030
+0.080	L3	18	0.9	296	5.69	0.68	38.9	74.1	936
+	L1	16	0.8	255	5.54	0.63	40.3	75.2	620
+
+--- Page 20 ---
+Ln Ln
+RC* Sample Hit Copies/105 Weight Copies/105 Copies/105
+Copies Copies
+N
+rate cells Mean cells Min cells Max
+Mean SD
+0.030 L2 13 0.65 226 5.42 0.68 28.1 52.9 480
+0.020 L3 4 1 200 5.30 0.48 17.4 152 411
+0.060 L3 18 0.9 187 5.23 0.97 19.1 29.8 804
+0.030 L3 14 0.7 178 5.18 0.57 43.1 75.7 407
+0.010 L3 9 0.45 174 5.16 0.64 22.0 80.1 608
+0.040 L3 17 0.85 166 5.11 1.03 16.0 10.5 392
+0.020 L2 13 0.65 151 5.02 0.90 16.0 22.2 502
+0.010 L2 9 0.45 147 4.99 0.34 77.9 61.7 190
+0.030 L1 13 0.65 129 4.86 0.65 30.8 44.3 466
+0.010 L1 3 0.15 117 4.76 0.56 9.57 61.8 166
+*Relative Concentration
+Figure 3. Fitted linear model – KREC
+Figure 4. Relative deviations and the study limits – KREC
+K203035 - Page 20 of 43
+
+[Table 1 on page 20]
+					Ln	Ln			
+									
+RC*	Sample		Hit	Copies/105			Weight	Copies/105	Copies/105
+					Copies	Copies			
+		N							
+			rate	cells Mean				cells Min	cells Max
+					Mean	SD			
+									
+									
+0.030	L2	13	0.65	226	5.42	0.68	28.1	52.9	480
+0.020	L3	4	1	200	5.30	0.48	17.4	152	411
+0.060	L3	18	0.9	187	5.23	0.97	19.1	29.8	804
+0.030	L3	14	0.7	178	5.18	0.57	43.1	75.7	407
+0.010	L3	9	0.45	174	5.16	0.64	22.0	80.1	608
+0.040	L3	17	0.85	166	5.11	1.03	16.0	10.5	392
+0.020	L2	13	0.65	151	5.02	0.90	16.0	22.2	502
+0.010	L2	9	0.45	147	4.99	0.34	77.9	61.7	190
+0.030	L1	13	0.65	129	4.86	0.65	30.8	44.3	466
+0.010	L1	3	0.15	117	4.76	0.56	9.57	61.8	166
+
+--- Page 21 ---
+The TREC analyte is demonstrated to be linear from 94 copies/105 cells to 4316 copies/105
+cells with observed maximum deviation of -14.3%. The KREC analyte is demonstrated to be
+linear from 117 to 24343 copies/105 cells with observed maximum deviation of 17.3%.
+3. Analytical Specificity
+(i) Interference
+The Eonis SCID-SMA kit was evaluated for interference from the following potential
+endogenous and exogenous sources:
+• Hemoglobin up to 200g/L
+• Conjugated bilirubin up to 16.6 mg/dL (166mg/L)
+• Unconjugated bilirubin up to 10mg/dL (100mg/L)
+• Intralipid up to 1500 mg/dL (15mg/mL)
+• Li-hep up to 7500 USP/dL
+• Na Citrate up to 0.0645 mol/L
+• EDTA up to 9.8 mg/mL
+The interference study was performed by 3 operators using 1 Eonis SCID-SMA Kit and 3
+QuantStudio Dx Real-time PCR instruments. Three levels of TREC and KREC target DNA
+(normal, near cut-off and endogenous were tested in conjunction with each level of
+interferent (low and high). Blood samples were collected from healthy individuals and the
+hematocrit was adjusted to 40-55% corresponding to the hematocrit of neonates (except
+blood used in the hemoglobin sample series). Blood samples were then spiked with TREC
+and KREC plasmid DNA to obtain the desired concentration levels. Blood samples with the
+added potential interferent were used to prepare dried blood spots. The blood spots were
+dried overnight and stored at -80°C. The specimens used are shown in Table 18.
+Table 18. Samples used in the interference study
+Sample Name Interferent
+TREC Level KREC Level
+(Abbreviation) Substance Level
+Normal Targets+ Low
+Interferent (NL) Normal Normal Low (0%)
+Normal Targets+ High
+Interferent (NH) Normal Normal High (100%)
+Cut-off Targets + Low
+Low (0%)
+Interferent (CL) Near Cut-off Near Cut-off
+Cut-off Targets + High
+High (100%)
+Interferent (CH) Near Cut-off Near Cut-off
+Endogenous Targets + Low
+Low (0%)
+Interferent (EL) Endogenous Endogenous
+Endogenous Targets + High
+High (100%)
+Interferent (EH) Endogenous Endogenous
+The study generated a total of 544 sample results not including controls (7 interfering
+substances x 2 interferent levels x 3 target DNA levels x 13 repeats). Acceptance criteria
+K203035 - Page 21 of 43
+
+[Table 1 on page 21]
+			
+Sample Name			Interferent
+	TREC Level	KREC Level	
+(Abbreviation)			Substance Level
+			
+			
+Normal Targets+ Low
+Interferent (NL)	Normal	Normal	Low (0%)
+Normal Targets+ High
+Interferent (NH)	Normal	Normal	High (100%)
+Cut-off Targets + Low
+Interferent (CL)	Near Cut-off	Near Cut-off	Low (0%)
+Cut-off Targets + High
+Interferent (CH)	Near Cut-off	Near Cut-off	High (100%)
+Endogenous Targets + Low
+Interferent (EL)	Endogenous	Endogenous	Low (0%)
+Endogenous Targets + High
+Interferent (EH)	Endogenous	Endogenous	High (100%)
+
+--- Page 22 ---
+were based on observed imprecision in the precision studies. The results indicated there was
+no interference observed for any of the tested interferents. Hemoglobin at up to 200 g/L,
+conjugated bilirubin at up to 16.6 mg/dL (=166 mg/L), unconjugated bilirubin at up to 10
+mg/dL (=100 mg/L), Intralipid at up to 1500 mg/dL (15 mg/mL), Li-heparin at up to 7500
+USP/dL, Na-citrate at up to 0.0645 mol/L, and EDTA at up to 9.8 mg/mL did not
+significantly interfere with the Eonis SCID-SMA kit.
+(ii) Primer and Probe Specificity
+An in silico study was performed to assess the specificity of the primers and probes used in
+the Eonis assay. Primer and probe specificity was assessed by using the online Standard
+Nucleotide BLAST tool (Optimize for highly similar sequences, megablast) against the
+Human genomic plus transcript (Human G + T) database published by the National Center
+for Biotechnology Information (NCBI).
+The BLAST analysis confirmed that there were only hits with 100% homology to the T
+receptor alpha delta locus (TREC) on chromosome 14 along, the full length of the primer and
+probe sequences, and 100% homology to the immunoglobulin kappa locus (IGK) on
+chromosome 2, and to the ribonuclease P subunit p30 locus (RPP30) on chromosome 10.
+There was no significant homology to other genome sequences.
+4. Assay Reportable Range:
+Refer to the Results interpretation section.
+5. Traceability, Stability, Expected Values (Controls, Calibrators, or Methods):
+(i) Traceability
+There are no recognized standards or reference material for TREC or KREC DNA. The kit
+contains controls employed in the determination of TREC and KREC values.
+(ii) Specimen Stability
+The influence of storage time, temperature, and humidity was studied using DBS samples
+prepared with two brands of filter paper. Samples were prepared by mixing cell lines and red
+blood cell concentrate (mimicking a true positive sample for all 3 conditions), using cord
+blood (mimicking a true negative sample) or by mixing cell lines, red blood cell concentrate
+and cord blood for the near cut-off level samples.
+After collection and preparation, the blood spots were dried overnight at ambient temperature
+(+19–+25°C). The dried blood spots were then stored at different storage conditions. Storage
+of specimens in an environment with elevated temperatures and humidity increases the risk
+of inaccurate TREC/KREC results in normal or near cut-off samples. The TREC/KREC
+results are shown in Figure 5a and Figure 5b.
+K203035 - Page 22 of 43
+
+--- Page 23 ---
+K203035 - Page 23 of 43
+
+--- Page 24 ---
+Figure 5a. TREC copies across different storage conditions in samples mimicking true
+positive (Sample 1), true negative (Sample 4) and in-between (Sample 2 and Sample 3)
+K203035 - Page 24 of 43
+
+--- Page 25 ---
+Figure 5b. KREC copies across different storage conditions in samples mimicking true
+positive (Sample 1), true negative (Sample 4) and in-between (Sample 2 and Sample 3)
+(iii) Reagent Stability:
+Stability studies were conducted to demonstrate the real time, in-use, and on-board stability
+as well as transport shipping stress simulation of the Eonis DNA Extraction Kit components
+and the Eonis SCID-SMA kit. The tests were performed after a transport simulation
+treatment that simulates the worst-case conditions that can occur during packaging and
+shipping. When a transport simulation treatment was performed, all the kit components were
+used in the study. The stability testing was conducted in accordance with guideline EN ISO
+23640 In vitro diagnostic medical devices – Evaluation of stability of in vitro diagnostic
+reagents (2015) and CLSI Guideline EP25-A Evaluation of Stability of In Vitro Diagnostic
+Reagents, Approved Guideline- Volume 29, No. 20 (2009).
+The testing was performed at 7 months of the components’ shelf life. All Mean Ct values and
+variation (standard deviation) results fulfilled the acceptance criteria at all tested time points.
+At all tested time points, the results passed the data validity check. (Refer to DEN200044 for
+details of the study design.) The following stability conditions apply based on the results:
+• Eonis DNA Extraction Kit components (Wash Solution and Elution Solution) are
+stable for 14 days at +19 - +25°C after first use.
+• Eonis DNA extraction Kit components are stable in troughs for 30 minutes at +19 -
++25°C.
+• Note: The Eonis DNA extraction Kit components are stable on board the JANUS
+Extraction instrument in troughs for 2 hours.
+• PCR Reagents 1 and 2 once thawed from -30°C to -16°C, are stable for 14 days at
++2°C to +8°C.
+• PCR Reagents 1 and 2 are stable in their tubes uncapped on-board the JANUS PCR
+Mastermix instrument for 2 hours at +19 to +25°C.
+• The mixture of PCR Reagents 1 and 2 is stable for 15 minutes in a trough at +19 to
++25°C.
+• The mixture of PCR Reagents 1 and 2 is stable for 2 hours in a sealed plate protected
+from light.
+• The SCID-SMA Kit controls are stable for 14 days after first use when stored at -
+30°C to -16°C in a sealed bag with desiccant.
+K203035 - Page 25 of 43
+
+--- Page 26 ---
+• The SCID-SMA Kit controls are stable on-board the JANUS Extraction instrument at
++19 to +25°C for 4 hours after they are punched into 96-well plates.
+• Based on the results of the real-time and transport simulation stability study a shelf
+life 180 days (6 months) is claimed for all Eonis SCID-SMA kit components, when
+stored at the labeled storage temperature of -30°C - -16°C.
+6. Detection Limit:
+(i) Limit of Blank (LoB)
+The LoB is the highest measurement result that is likely to be observed for a blank sample
+that contains no analyte. The LoB study was performed using contrived analyte negative
+samples created by spiking a Coriell cell line into leukocyte depleted blood which was TREC
+and KREC negative. Five (5) individual contrived analyte-negative samples were prepared
+by spiking the Coriell cell line into 5 different lots of leukocyte-depleted human blood with
+the hematocrit adjusted to 40-55%. The study was performed by 1 operator using 2 sets of
+Instrument Systems and 2 kit lots run over 5 days for a total of 10 runs. Six replicates were
+tested in each run totaling 300 results (150 results/kit lot). For the RPP30 LoB, blank samples
+were used (no punch/no template DNA), 20 replicates were tested in each run totaling 200
+results (100 results/kit lot). Each plate contained kit controls NTC, C1, C2 and C3, assayed in
+duplicate. Acceptance criteria were that the LoB of RPP30 must be zero; or any samples that
+have RPP30 Ct ≥ 32.00 will be reported as ‘Invalid’ for TREC and KREC. The LoB of
+TREC and KREC must be no greater than the LoD.
+For TREC and KREC, all of the replicates had no Ct value reported. For RPP30, there were
+two replicates having Ct values reported at 34.49 and 36.23; however, as this would lead to
+an invalid result for the sample, the percentage of false-positive results for RPP30, defined as
+the percentage of replicates of the blank sample that had a valid RPP30 Ct value ≤ 32.00 was
+also zero for both kit lots. The LoB of TREC is 0 copies/µL blood, and the LoB of KREC is
+0 copies/ µL blood.
+(ii) Limit of Detection (LoD) and Limit of Quantitation (LoQ)
+LoD and LoQ were evaluated separately for TREC and KREC. The LoD and LoQ studies
+were performed using contrived samples prepared by diluting cord blood with adult
+leucocyte-depleted human red blood that had TREC and/or KREC levels that were
+undetectable by the Eonis SCID-SMA Kit. HL-60 cells were spiked into the adult leucocyte-
+depleted blood to adjust the RPP30 Ct values to match the RPP30 Ct value in cord blood
+(within 1 Ct difference). Each cord blood sample was diluted into different levels in which at
+least the lowest three levels had yield hit rates within the range of 0.10 to 0.90 using the
+corresponding diluents. The samples were then spotted onto filter paper and dried overnight.
+For each analyte, TREC or KREC, the study was performed using 2 sets of instruments and 2
+kit lots. One operator performed 2 runs per day, for 4 days, totaling 8 runs.
+For each sample and each dilution, including negative samples (diluents), 5 replicates were
+tested in each run, totaling 960 results with 20 replicates per dilution per lot. The final
+dilutions used in the study and the corresponding number of positive results observed, total
+K203035 - Page 26 of 43
+
+--- Page 27 ---
+number of measurements and hit rates observed for TREC and KREC are summarized in
+Tables 19 and 20, respectively.
+Table 19. TREC calculated hit rate percentages with sample concentrations in
+copies/105 cells
+Concentration
+Cord Sample in copies/105 Observed Observed Hit
+Kit
+Blood Level Dilution cells Positives Negatives Rate
+Lot
+Sample %
+Cord Blood 1.00 973 0 20 100%
+Level 1 2.00 528 0 20 100%
+Level 2 3.33 428 0 20 100%
+Level 3 5.00 137 0 20 100%
+L1
+Level 4 10.0 77 5 15 75%
+Level 5 12.5 44 6 14 70%
+Level 6 16.7 44 9 11 55%
+Level 7 25.0 36 12 8 40%
+Diluent N/A 21 18 2 10%
+Cord Blood 1.00 2670 0 20 100%
+Level 1 6.67 237 0 20 100%
+Level 2 10.0 166 2 18 90%
+Level 3 12.5 122 2 18 90%
+L2
+1 Level 4 25.0 50 11 9 45%
+Level 5 33.3 52 10 10 50%
+Level 6 50.0 38 13 7 35%
+Level 7 100 15 17 3 15%
+Diluent N/A 0 20 0 0%
+Cord Blood 1.00 1525 0 20 100%
+Level 1 3.33 365 0 20 100%
+Level 2 6.67 194 2 18 90%
+Level 3 12.5 83 3 17 85%
+L3 Level 4 16.7 44 7 13 65%
+Level 5 25.0 39 5 15 75%
+Level 6 33.3 55 9 11 55%
+Level 7 50.0 17 14 6 30%
+Level 8 100 22 16 4 20%
+Diluent N/A 0 20 0 0%
+2 L1 Cord Blood 1.00 1141 0 20 100%
+Level 1 2.00 395 0 20 100%
+K203035 - Page 27 of 43
+
+[Table 1 on page 27]
+				Concentration			
+							
+	Cord	Sample		in copies/105	Observed	Observed	Hit
+Kit							
+	Blood	Level	Dilution	cells	Positives	Negatives	Rate
+Lot							
+	Sample						%
+							
+1	L1	Cord Blood	1.00	973	0	20	100%
+		Level 1	2.00	528	0	20	100%
+		Level 2	3.33	428	0	20	100%
+		Level 3	5.00	137	0	20	100%
+		Level 4	10.0	77	5	15	75%
+		Level 5	12.5	44	6	14	70%
+		Level 6	16.7	44	9	11	55%
+		Level 7	25.0	36	12	8	40%
+		Diluent	N/A	21	18	2	10%
+	L2	Cord Blood	1.00	2670	0	20	100%
+		Level 1	6.67	237	0	20	100%
+		Level 2	10.0	166	2	18	90%
+		Level 3	12.5	122	2	18	90%
+		Level 4	25.0	50	11	9	45%
+		Level 5	33.3	52	10	10	50%
+		Level 6	50.0	38	13	7	35%
+		Level 7	100	15	17	3	15%
+		Diluent	N/A	0	20	0	0%
+	L3	Cord Blood	1.00	1525	0	20	100%
+		Level 1	3.33	365	0	20	100%
+		Level 2	6.67	194	2	18	90%
+		Level 3	12.5	83	3	17	85%
+		Level 4	16.7	44	7	13	65%
+		Level 5	25.0	39	5	15	75%
+		Level 6	33.3	55	9	11	55%
+		Level 7	50.0	17	14	6	30%
+		Level 8	100	22	16	4	20%
+		Diluent	N/A	0	20	0	0%
+		Cord Blood	1.00	1141	0	20	100%
+		Level 1	2.00	395	0	20	100%
+
+--- Page 28 ---
+Concentration
+Cord Sample in copies/105 Observed Observed Hit
+Kit
+Blood Level Dilution cells Positives Negatives Rate
+Lot
+Sample %
+Level 2 3.33 596 0 20 100%
+Level 3 5.00 106 1 19 95%
+Level 4 10.0 63 7 13 65%
+Level 5 12.5 84 16 4 20%
+Level 6 16.7 32 9 11 55%
+Level 7 25.0 17 17 3 15%
+Diluent N/A 45 19 1 5%
+Cord Blood 1.00 2490 0 20 100%
+Level 1 6.67 240 0 20 100%
+Level 2 10.0 118 3 17 85%
+Level 3 12.5 109 2 18 90%
+L2
+Level 4 25.0 54 8 12 60%
+Level 5 33.3 30 6 14 70%
+Level 6 50.0 25 11 9 45%
+Level 7 100 29 17 3 15%
+Diluent N/A 0 20 0 0%
+Cord Blood 1.00 1510 0 20 100%
+Level 1 3.33 321 2 18 90%
+Level 2 6.67 136 0 20 100%
+Level 3 12.5 72 1 19 95%
+Level 4 16.7 59 6 14 70%
+Level 5 25.0 34 11 9 45%
+Level 6 33.3 19 13 7 35%
+Level 7 50.0 44 15 5 25%
+L3 Level 8 100 34 17 3 15%
+Diluent N/A 0 20 0 0%
+Table 20. KREC calculated hit rate percentages with sample concentrations in copies/105
+cells
+Concentration
+Kit Cord Blood Sample Dilution in copies/105 Observed Observed Hit Rate
+Lot Sample Level cells Positives Negatives %
+Cord Blood 1.00 3905 0 20 100%
+1 L1
+Level 1 1.43 3072 0 20 100%
+Level 2 1.67 2644 0 20 100%
+K203035 - Page 28 of 43
+
+[Table 1 on page 28]
+				Concentration			
+							
+	Cord	Sample		in copies/105	Observed	Observed	Hit
+Kit							
+	Blood	Level	Dilution	cells	Positives	Negatives	Rate
+Lot							
+	Sample						%
+							
+		Level 2	3.33	596	0	20	100%
+		Level 3	5.00	106	1	19	95%
+		Level 4	10.0	63	7	13	65%
+		Level 5	12.5	84	16	4	20%
+		Level 6	16.7	32	9	11	55%
+		Level 7	25.0	17	17	3	15%
+		Diluent	N/A	45	19	1	5%
+	L2	Cord Blood	1.00	2490	0	20	100%
+		Level 1	6.67	240	0	20	100%
+		Level 2	10.0	118	3	17	85%
+		Level 3	12.5	109	2	18	90%
+		Level 4	25.0	54	8	12	60%
+		Level 5	33.3	30	6	14	70%
+		Level 6	50.0	25	11	9	45%
+		Level 7	100	29	17	3	15%
+		Diluent	N/A	0	20	0	0%
+	L3	Cord Blood	1.00	1510	0	20	100%
+		Level 1	3.33	321	2	18	90%
+		Level 2	6.67	136	0	20	100%
+		Level 3	12.5	72	1	19	95%
+		Level 4	16.7	59	6	14	70%
+		Level 5	25.0	34	11	9	45%
+		Level 6	33.3	19	13	7	35%
+		Level 7	50.0	44	15	5	25%
+		Level 8	100	34	17	3	15%
+		Diluent	N/A	0	20	0	0%
+
+[Table 2 on page 28]
+				Concentration			
+Kit	Cord Blood	Sample	Dilution	in copies/105	Observed	Observed	Hit Rate
+Lot	Sample	Level		cells	Positives	Negatives	%
+		Cord Blood	1.00	3905	0	20	100%
+		Level 1	1.43	3072	0	20	100%
+		Level 2	1.67	2644	0	20	100%
+
+--- Page 29 ---
+Concentration
+Kit Cord Blood Sample Dilution in copies/105 Observed Observed Hit Rate
+Lot Sample Level cells Positives Negatives %
+Level 3 2.00 2080 0 20 100%
+Level 4 5.00 1188 0 19 100%
+Level 5 12.5 255 4 16 80%
+Level 6 33.3 129 7 13 65%
+Level 7 100 117 17 3 15%
+Diluent N/A 0 20 0 0%
+Cord Blood 1.00 6438 0 20 100%
+Level 1 6.67 871 0 20 100%
+Level 2 10.0 757 0 19 100%
+Level 3 12.5 478 0 20 100%
+L2
+Level 4 25.0 305 6 14 70%
+Level 5 33.3 226 7 13 65%
+Level 6 50.0 151 7 13 65%
+Level 7 100 147 11 9 45%
+Diluent N/A 0 20 0 0%
+Cord Blood 1.00 5064 0 20 100%
+Level 1 3.33 1588 0 20 100%
+Level 2 6.67 804 0 20 100%
+Level 3 12.5 296 2 18 90%
+L3 Level 4 16.7 187 2 18 90%
+Level 5 25.0 166 3 17 85%
+Level 6 33.3 178 5 14 74%
+Level 7 50.0 200 16 4 20%
+Level 8 100 174 11 9 45%
+Diluent N/A 0 20 0 0%
+Cord Blood 1.00 4064 0 20 100%
+Level 1 1.43 4146 0 20 100%
+Level 2 1.67 3828 0 20 100%
+Level 3 2.00 2039 0 20 100%
+L1
+2
+Level 4 5.00 846 0 20 100%
+Level 5 12.5 209 2 18 90%
+Level 6 33.3 191 6 14 70%
+Level 7 100 128 15 5 25%
+Diluent N/A 0 20 0 0%
+L2 Cord Blood 1.00 5825 0 20 100%
+K203035 - Page 29 of 43
+
+[Table 1 on page 29]
+				Concentration			
+Kit	Cord Blood	Sample	Dilution	in copies/105	Observed	Observed	Hit Rate
+Lot	Sample	Level		cells	Positives	Negatives	%
+		Level 3	2.00	2080	0	20	100%
+		Level 4	5.00	1188	0	19	100%
+		Level 5	12.5	255	4	16	80%
+		Level 6	33.3	129	7	13	65%
+		Level 7	100	117	17	3	15%
+		Diluent	N/A	0	20	0	0%
+	L2	Cord Blood	1.00	6438	0	20	100%
+		Level 1	6.67	871	0	20	100%
+		Level 2	10.0	757	0	19	100%
+		Level 3	12.5	478	0	20	100%
+		Level 4	25.0	305	6	14	70%
+		Level 5	33.3	226	7	13	65%
+		Level 6	50.0	151	7	13	65%
+		Level 7	100	147	11	9	45%
+		Diluent	N/A	0	20	0	0%
+	L3	Cord Blood	1.00	5064	0	20	100%
+		Level 1	3.33	1588	0	20	100%
+		Level 2	6.67	804	0	20	100%
+		Level 3	12.5	296	2	18	90%
+		Level 4	16.7	187	2	18	90%
+		Level 5	25.0	166	3	17	85%
+		Level 6	33.3	178	5	14	74%
+		Level 7	50.0	200	16	4	20%
+		Level 8	100	174	11	9	45%
+		Diluent	N/A	0	20	0	0%
+	L1	Cord Blood	1.00	4064	0	20	100%
+		Level 1	1.43	4146	0	20	100%
+		Level 2	1.67	3828	0	20	100%
+		Level 3	2.00	2039	0	20	100%
+		Level 4	5.00	846	0	20	100%
+		Level 5	12.5	209	2	18	90%
+		Level 6	33.3	191	6	14	70%
+		Level 7	100	128	15	5	25%
+		Diluent	N/A	0	20	0	0%
+		Cord Blood	1.00	5825	0	20	100%
+
+--- Page 30 ---
+Concentration
+Kit Cord Blood Sample Dilution in copies/105 Observed Observed Hit Rate
+Lot Sample Level cells Positives Negatives %
+Level 1 6.67 1064 0 20 100%
+Level 2 10.0 556 0 20 100%
+Level 3 12.5 412 0 20 100%
+Level 4 25.0 235 1 19 95%
+Level 5 33.3 245 3 17 85%
+Level 6 50.0 116 7 13 65%
+Level 7 100 134 10 10 50%
+Diluent N/A 0 20 0 0%
+Cord Blood 1.00 4915 0 20 100%
+Level 1 3.33 1510 0 20 100%
+Level 2 6.67 659 0 20 100%
+Level 3 12.5 311 2 18 90%
+L3 Level 4 16.7 287 3 17 85%
+Level 5 25.0 296 3 17 85%
+Level 6 33.3 167 5 15 75%
+Level 7 50.0 158 9 11 55%
+Level 8 100 143 15 5 25%
+Diluent N/A 0 20 0 0%
+The LoD was calculated using Probit analysis at 95% probability for each reagent kit lot.
+Probit analysis in copies/105 cells unit was performed. The data collected from all 3 cord
+blood samples and their dilutions were pooled for the calculation. The results for both kit lots
+with 95% confidence intervals for TREC and KREC are summarized in Tables 21 and 22,
+respectively. The LoD estimate is the concentration value that Probit analysis gives an
+estimated hit rate of 95%.
+Table 21. TREC LoD estimates based on Probit analysis with hit rate percentages and
+sample concentrations in copies/105 cells unit
+LoD estimate 95% confidence
+Kit lot
+(copies/105 cells) interval
+1 174 137 - 242
+2 242 184 - 360
+K203035 - Page 30 of 43
+
+[Table 1 on page 30]
+				Concentration			
+Kit	Cord Blood	Sample	Dilution	in copies/105	Observed	Observed	Hit Rate
+Lot	Sample	Level		cells	Positives	Negatives	%
+		Level 1	6.67	1064	0	20	100%
+		Level 2	10.0	556	0	20	100%
+		Level 3	12.5	412	0	20	100%
+		Level 4	25.0	235	1	19	95%
+		Level 5	33.3	245	3	17	85%
+		Level 6	50.0	116	7	13	65%
+		Level 7	100	134	10	10	50%
+		Diluent	N/A	0	20	0	0%
+	L3	Cord Blood	1.00	4915	0	20	100%
+		Level 1	3.33	1510	0	20	100%
+		Level 2	6.67	659	0	20	100%
+		Level 3	12.5	311	2	18	90%
+		Level 4	16.7	287	3	17	85%
+		Level 5	25.0	296	3	17	85%
+		Level 6	33.3	167	5	15	75%
+		Level 7	50.0	158	9	11	55%
+		Level 8	100	143	15	5	25%
+		Diluent	N/A	0	20	0	0%
+
+[Table 2 on page 30]
+	LoD estimate	
+		95% confidence
+Kit lot		
+	(copies/105 cells)	interval
+		
+		
+1	174	137 - 242
+2	242	184 - 360
+
+--- Page 31 ---
+Table 22. KREC LoD estimates based on Probit analysis with hit rate percentages and
+sample concentrations in copies/105 cells unit
+LoD estimate 95% confidence
+Kit lot
+(copies/105 cells) interval
+1 459 371 - 669
+2 340 292 - 439
+The LoQ was evaluated as the functional sensitivity that represents the measurand
+concentration associated with a desired within-laboratory precision, as exemplified by CLSI
+guideline EP17-A2 Appendix D. Only the dilutions that yielded 100% hit rates were included
+in the LoQ calculation. For each qualified dilution, the mean and the SD of the
+concentrations in Ln (copies/105 cells) were calculated. A power function model (SD vs. the
+mean concentration) was used to fit the datasets for each reagent kit lot. The LoQ estimate
+for each reagent kit lot was determined as the predicted lowest concentration that has within-
+laboratory precision equal to an SD ≤ 0.90 Ln (copies/105 cells) for TREC and ≤ 1.49 Ln
+(copies/105 cells) for KREC. The results are shown in Tables 23 and 24.
+Table 23. TREC LoQ estimates based on conservative approach in copies/105 cells
+LoQ estimate Final LoQ (=LoD)
+Kit lot LoD (copies/105 cells)
+(copies/105 cells) (copies/105 cells)
+1 174 30
+242
+2 242 123
+Table 24. KREC LoQ estimates based on conservative approach in copies/105 cells
+LoD (copies/105 cells) LoQ estimate Final LoQ (=LoD)
+Kit lot
+(copies/105 cells) (copies/105 cells)
+1 459 7
+459
+2 340 0
+The following results were determined for LoD and LoQ of TREC and KREC:
+LoD = LoQ
+TREC: 242 copies/105 cells
+KREC: 459 copies/105 cells
+7. Assay Cut-Off:
+Refer to the Clinical Cut-off in Section VII.D.
+8. Accuracy (Instrument):
+Not applicable
+K203035 - Page 31 of 43
+
+[Table 1 on page 31]
+	LoD estimate	
+		95% confidence
+Kit lot		
+	(copies/105 cells)	interval
+		
+		
+1	459	371 - 669
+2	340	292 - 439
+
+[Table 2 on page 31]
+		LoQ estimate	Final LoQ (=LoD)
+Kit lot	LoD (copies/105 cells)		
+		(copies/105 cells)	(copies/105 cells)
+			
+1	174	30	242
+2	242	123	
+
+[Table 3 on page 31]
+	LoD (copies/105 cells)	LoQ estimate	Final LoQ (=LoD)
+Kit lot			
+			(copies/105 cells)
+		(copies/105 cells)	
+			
+			
+1	459	7	459
+2	340	0	
+
+--- Page 32 ---
+9. Carry-Over:
+A study was conducted to evaluate the potential for sample carryover to demonstrate control
+of contamination during testing of samples with the Eonis reagent kits. The carryover test
+was performed using 1 kit lot. The high-analyte positive sample was prepared by spiking
+plasmid DNAs of each analyte into leukocyte-depleted human blood at levels lower than
+29.71 for TREC Ct, 29.22 for KREC Ct, and 22.31 for RPP30 Ct, corresponding to the 10%
+quantiles of a population of newborn specimens. The high analyte-positive sample and the
+analyte-negative sample were placed in alternating rows and columns to produce a
+checkerboard configuration. The observed carryover percentage was 0% for the three
+analytes.
+B Comparison Studies:
+1. Method Comparison with Predicate Device:
+Not applicable
+2. Matrix Comparison:
+Filter Paper Reproducibility
+A filter paper reproducibility study was conducted using filter paper from 2 manufacturers in
+order to evaluate manufacturer difference, lot differences, as well as to assess homogeneity
+across dried blood spots (DBS). Between paper manufacturer and paper lots were evaluated
+using samples spotted on 3 lots of each filter paper brand.
+The study was conducted using a subset of the samples that were used in the precision and 3-
+site reproducibility studies (although some at different concentrations) covering high, normal
+and low levels of each analyte (Table 5).
+• Sample 1 High TREC: Prepared by spiking TREC plasmid into cord blood at 2000
+copies/µL with hematocrit adjusted to 51.8 (approx. Ct value 28.19)
+• Sample 2 High KREC: Prepared by spiking TREC plasmid into cord blood at 2000
+copies/µL with hematocrit adjusted to 51.8 (approx. Ct value 28.65)
+• Sample 3: Prepared by spotting cord blood with hematocrit adjusted to 51.8 onto 3
+lots of each filter paper brand
+• Sample 11: Prepared by spiking TREC plasmid at 700 copies/µL, KREC plasmid at
+1000 copies/µL and Coriell cells at 15000 cells/ µL into leukocyte depleted blood
+with hematocrit adjusted to 49.
+• Sample 12 Low levels (above cut-off) TREC and KREC: Prepared by diluting 400 µL
+of cord blood with hematocrit adjusted to 50.9 in 600 µL of adult whole blood with
+hematocrit adjusted to 52.9 (approx. TREC Ct value 33.29 and approx. KREC Ct
+value 32.20)
+• Sample 13 Low levels (below cut-off) TREC and KREC: Prepared by spotting adult
+whole blood with hematocrit adjusted to 52.9 onto 3 lots of each paper brand (approx.
+TREC Ct value no Ct and approx. KREC Ct value 3.44)
+K203035 - Page 32 of 43
+
+--- Page 33 ---
+Each analyte was manually spotted on 3 filter paper lots at 85 µL per spot.
+One operator performed 1 run per day for 5 days for a total of 5 runs and using 1 kit lot and 1
+Eonis SCID-SMA test system. Six samples were prepared on 3 lots of each filter paper brand
+for a total of 36 conditions (6 samples x 3 lots x 2 filter paper brands = 36). Each run
+consisted of 3 96-well extraction plates (2 randomized sample sets per plate plus 2 sets of kit
+controls) and 1 384-well PCR plate in each testing day.
+To assess the homogeneity of the analytes across the DBS, 5 replicates of each condition
+were punched from 5 different locations of each spot in the following order: top, left, center,
+right, bottom. The study generated 900 results (25 replicates x 6 samples x 3 filter paper lots
+x 2 filter paper brands) with 150 results per sample and 450 results per filter paper brand. The
+total variation lnSD results are compared to the product specification for total variation
+(“Acceptance criteria”) and are shown in Table 25. The total variation lognormal CV%
+results are presented in Table 26.
+Table 25. TREC and KREC precision analysis with between variation estimates across paper
+manufacturers and across paper lots
+Mean Mean Ln Within Between Between
+Total
+Analyte N copies/ copies/10⁵ Paper Lot Paper Manufacturer Specifi-
+Sample lnSD
+10⁵ cells cells lnSD Lot lnSD lnSD cation
+2 147 584 6.37 0.61 0.00 0.02 0.61 0.90
+TREC
+3 149 871 6.77 0.49 0.04 0.09 0.50 0.90
+12 150 1300 7.17 0.28 0.03 0.01 0.28 0.90
+11 150 4105 8.32 0.23 0.06 0.05 0.24 0.90
+1 150 14328 9.57 0.25 000 0.03 0.25 0.90
+13 150 1064 6.97 0.43 000 0.02 0.43 1.49
+KREC
+12 150 4403 8.39 0.24 0.03 0.03 0.25 1.49
+1 150 4817 8.48 0.26 0.03 0.01 0.26 1.49
+3 150 5486 8.61 0.21 0.01 0.04 0.22 1.49
+11 150 11968 9.39 0.23 0.06 0.03 0.24 1.49
+2 147 22026 10.0 0.27 000 0.08 0.28 1.49
+Table 26. TREC and KREC precision analysis with between variation
+estimates across paper manufacturers
+Within Between
+Mean Between Total
+Paper Lot Manufacturer
+Analyte Sample N
+copies/10⁵ Lognorma Paper Lognormal Lognormal
+cells l CV% Lognormal CV% CV%
+CV%
+2 147 584 67 0 6 67
+TREC
+3 149 871 52 4 2 53
+12 150 1300 28 3 9 29
+K203035 - Page 33 of 43
+
+[Table 1 on page 33]
+			Mean	Mean Ln	Within	Between	Between	Total	
+									
+Analyte		N	copies/	copies/10⁵	Paper Lot	Paper	Manufacturer		Specifi-
+	Sample							lnSD	
+			10⁵ cells	cells	lnSD	Lot lnSD	lnSD		cation
+									
+TREC	2	147	584	6.37	0.61	0.00	0.02	0.61	0.90
+	3	149	871	6.77	0.49	0.04	0.09	0.50	0.90
+	12	150	1300	7.17	0.28	0.03	0.01	0.28	0.90
+	11	150	4105	8.32	0.23	0.06	0.05	0.24	0.90
+	1	150	14328	9.57	0.25	000	0.03	0.25	0.90
+KREC	13	150	1064	6.97	0.43	000	0.02	0.43	1.49
+	12	150	4403	8.39	0.24	0.03	0.03	0.25	1.49
+	1	150	4817	8.48	0.26	0.03	0.01	0.26	1.49
+	3	150	5486	8.61	0.21	0.01	0.04	0.22	1.49
+	11	150	11968	9.39	0.23	0.06	0.03	0.24	1.49
+	2	147	22026	10.0	0.27	000	0.08	0.28	1.49
+
+[Table 2 on page 33]
+			Mean	Within	Between	Between	Total
+Analyte	Sample	N		Paper Lot		Manufacturer	
+			copies/10⁵	Lognorma	Paper	Lognormal	Lognormal
+							
+			cells	l CV%	Lognormal	CV%	CV%
+					CV%		
+TREC	2	147	584	67	0	6	67
+	3	149	871	52	4	2	53
+	12	150	1300	28	3	9	29
+
+--- Page 34 ---
+Within Between
+Mean Between Total
+Paper Lot Manufacturer
+Analyte Sample N
+copies/10⁵ Lognorma Paper Lognormal Lognormal
+cells l CV% Lognormal CV% CV%
+CV%
+11 150 4105 24 6 1 25
+1 150 14328 25 0 5 25
+13 150 1064 45 0 3 45
+KREC 12 150 4403 25 3 2 25
+1 150 4817 26 3 3 26
+3 150 5486 21 1 1 22
+11 150 11968 23 6 4 24
+2 147 22026 27 0 3 28
+ANOVA results in Table 27 below demonstrate that there were statistically significant
+differences between paper manufacturers (Sample #2/KREC) and between paper lots
+(Sample #11/TREC and KREC); however, the highest between lot variation was 0.06
+(Sample #11/TREC and KREC), and the highest between manufacturer variation was 0.09
+(Sample #2/KREC). Per study acceptance criteria, the variation between these samples would
+not be clinically significant. The data demonstrated the similarity in performance between
+two major brands of filter paper.
+Table 27. TREC and KREC between-paper lot variation and between-paper
+manufacturer variation, and the corresponding p-values from ANOVA
+P-value for P-value for
+Mean
+Analyte Sample N Mean Between testing Between testing level
+Copies
+Ln Paper level Manufacturer differences
+(copies/10⁵
+Copies Lot SD differences SD between
+cells)
+between manufacturers
+paper lots
+2 147 584 6.37 0.00 0.781 0.02 0.759
+TREC 3 149 871 6.77 0.04 0.272 0.09 0.133
+12 150 1300 7.17 0.03 0.226 0.01 0.725
+11 150 4105 8.32 0.06 0.011 0.05 0.091
+1 150 14328 9.57 0.00 0.776 0.03 0.291
+13 150 1064 6.97 0.00 0.206 0.02 0.652
+KREC
+12 150 4403 8.39 0.03 0.736 0.03 0.365
+1 150 4817 8.48 0.03 0.063 0.01 0.622
+3 150 5486 8.61 0.01 0.262 0.04 0.143
+11 150 11968 9.39 0.06 0.009 0.03 0.291
+2 147 22026 10.0 0.00 0.726 0.08 0.017
+K203035 - Page 34 of 43
+
+[Table 1 on page 34]
+			Mean	Within	Between	Between	Total
+Analyte	Sample	N		Paper Lot		Manufacturer	
+			copies/10⁵	Lognorma	Paper	Lognormal	Lognormal
+							
+			cells	l CV%	Lognormal	CV%	CV%
+					CV%		
+	11	150	4105	24	6	1	25
+	1	150	14328	25	0	5	25
+KREC	13	150	1064	45	0	3	45
+	12	150	4403	25	3	2	25
+	1	150	4817	26	3	3	26
+	3	150	5486	21	1	1	22
+	11	150	11968	23	6	4	24
+	2	147	22026	27	0	3	28
+
+[Table 2 on page 34]
+			Mean			P-value for		P-value for
+Analyte	Sample	N		Mean	Between	testing	Between	testing level
+			Copies					
+				Ln	Paper	level	Manufacturer	differences
+			(copies/10⁵					
+				Copies	Lot SD	differences	SD	between
+			cells)					
+						between		manufacturers
+								
+						paper lots		
+TREC	2	147	584	6.37	0.00	0.781	0.02	0.759
+	3	149	871	6.77	0.04	0.272	0.09	0.133
+	12	150	1300	7.17	0.03	0.226	0.01	0.725
+	11	150	4105	8.32	0.06	0.011	0.05	0.091
+	1	150	14328	9.57	0.00	0.776	0.03	0.291
+KREC	13	150	1064	6.97	0.00	0.206	0.02	0.652
+	12	150	4403	8.39	0.03	0.736	0.03	0.365
+	1	150	4817	8.48	0.03	0.063	0.01	0.622
+	3	150	5486	8.61	0.01	0.262	0.04	0.143
+	11	150	11968	9.39	0.06	0.009	0.03	0.291
+	2	147	22026	10.0	0.00	0.726	0.08	0.017
+
+--- Page 35 ---
+C Clinical Studies:
+(i) Specimens
+A clinical study was conducted at one foreign testing site, the Statens Serum Institute (SSI) in
+Denmark. SSI is the same site that conducted the study for the PerkinElmer EnLite Neonatal
+TREC Assay (DEN140010). The majority of the DBS specimens tested for the clinical study
+(retrospective, anonymized residual [leftover] newborn specimens) were procured by SSI
+from the screened Danish population. Specimen collection was prospective-retrospective and
+enriched with confirmed positive specimens for SCID and XLA which came from two
+biobanks: Danish Neonatal Screening Biobank and the California Biobank. Additionally, 3 of
+the 4 confirmed positive samples for XLA were procured from the SSI. Confirmed positive
+specimens were also procured from the California Department of Public Health Genetic
+Disease Screening Program Biobank (CA), including SCID (all 17 specimens) and XLA (1
+of 4 confirmed specimens). All samples were tested at SSI as part of the evaluation. Age
+matched control specimens were used and presumed to be normal and were archived just
+before and after the time period during which the confirmed positive specimens for each of
+the two disorders (SCID, XLA) were archived. These specimens were used as controls for
+storage conditions to ensure specimen integrity remained intact within the timeframe during
+which they were stored. Therefore, in addition to consecutive specimens, archived specimens
+with storage time matched to the storage time of positive specimens were included. Specimen
+inclusion/exclusion criteria were provided and included specimen age, and storage
+conditions.
+(ii) Inclusion/Exclusion criteria for assessment of specimens
+The age of the newborns at the time of specimen collection was less than or equal to 7 days
+to mimic the expected intended use population and a typical sample collection age for first
+tier screening to enable early diagnosis. Routine newborn screening specimens originating
+from the study site were collected at least 5.5 years ago to be able to assess, based on medical
+records, that the subject had not been identified to present clinical signs attributable to SCID
+or XLA. The confirmed positive SCID or XLA specimens had been collected ≤ 17 years
+before the start date of the study to avoid inclusion of sample stored for longer than that time
+period. Confirmed positive XLA samples were difficult to procure; therefore, samples
+violating the upper limit of the storage time or the limit for the age of the newborn at the time
+of sample collection were included.
+Inclusion criteria included the following:
+• Age of the newborn at the time of specimen collection ≤ 7 days
+• Specimen storage conditions are known
+• Specimen collected at least 5.5 years ago (from study start)
+For specimens confirmed positive for SCID:
+• Specimen confirmed positive for typical SCID (documentation of confirmed
+diagnosis and/or documentation of flow cytometry result)
+• Date of specimen collection is ≤ 17 years from the start date of the study
+For specimens confirmed positive for XLA:
+K203035 - Page 35 of 43
+
+--- Page 36 ---
+• Specimen confirmed positive for XLA (e.g., documentation of BTK gene
+mutation and/or flow cytometry result)
+• Date of specimen collection is ≤ 17 years from the start date of the study
+In addition, for storage age-matched control specimens:
+• Date of specimen collection is known
+• Specimen collected just before or after the time period during which the
+confirmed positive specimens for SCID and/or XLA was collected
+Exclusion criteria included the following:
+• The DBS is not of appropriate quality (i.e., DBS is scratched, abraded, show signs of
+incomplete saturation or supersaturation, dilution, discoloration, or contamination)
+• Parents/guardians have opted out for use of the specimen beyond routine screening
+• Repeat specimen from a newborn whose specimen is already included in the study
+• Less than one disk with a diameter of 3.2 mm (1/8 inch) of DBS available in the cut-
+off phase, and less than two disks available in the pivotal phase for routine specimens
+In addition, for specimens confirmed positive for SCID:
+• Other than typical SCID, such as less acute SCID (e.g., leaky SCID, variant
+SCID) or SCID like syndromes (e.g., DiGeorge syndrome or Omenn syndrome)
+In addition, for specimens confirmed positive for XLA:
+• Atypical XLA or female carriers
+(iii) Study Design:
+A total of 6924 unique specimens were tested in the study: 3432 specimens were tested in the
+cut-off phase and 3484 specimens were tested in the pivotal phase (this number includes 17
+SCID cases, 6 XLA cases and 52 SMA cases; SMA cases are deducted from the table – refer
+to DEN200044). The main study consisted of two phases. Specimens in the cut-off study
+were not retested in the pivotal study.
+Cut-off Phase: Newborn specimens representative of samples of the target population at the
+study site were tested with the device to produce newborn population distribution data for
+TREC and KREC and to select clinical cut-off values for the pivotal study. The number of
+false positives for TREC and KREC were determined from the data using lower percentiles
+0.3%, 0.5, and 1% and are shown in Table 28.
+Table 28. Descriptive statistics for the copies (per 105 cells) for KREC and TREC and the
+percentile cut-offs used in the study
+5
+Copies / 10 cells
+Analyte
+0.3 0.5 1.0
+Median Min Max percentile percentile
+percentile
+TREC 2520 117 9990 262 413 563
+KREC 3590 12 20100 129 261 484
+K203035 - Page 36 of 43
+
+[Table 1 on page 36]
+						
+	5
+Copies / 10 cells					
+Analyte						
+						
+				0.3	0.5	1.0
+	Median	Min	Max	percentile	percentile	percentile
+						
+TREC	2520	117	9990	262	413	563
+KREC	3590	12	20100	129	261	484
+
+--- Page 37 ---
+Pivotal Phase: Presumed unaffected newborn specimens representing the target population at
+the study site were supplemented with confirmed positive specimens collected from SCID
+and 6 XLA affected newborns. A total of 3432 unique samples as shown in Table 29 (after
+subtracting 52 SMA cases – refer to DEN200044), were assessed in the pivotal phase. After
+exclusion of the samples not fulfilling the inclusion/exclusion criteria, a total of 3383
+samples were included in the final analysis. Demographic characteristics of the routine
+screening specimens and confirmed positive samples were collected. These included: age at
+the time of sample collection (mean 2.5 days); weight distribution of the newborns at the
+time of specimen collection (95% ≥ 2500g); gestational age (98% ≥ 34 weeks); and gender
+(50.6% male and 49.4% female).
+Table 29. Summary of Pivotal Phase Specimens Assayed and Included in the Data
+Analysis
+Sample Assayed Excluded due to Excluded due Samples
+Samples failure to meet to Invalid included in
+inclusion/exclusion Result final analysis
+criteria
+Routine 3044 26 - 3018
+screening
+specimens
+SCID positives 17 - 17
+XLA positives 6 - 6
+Storage time 365 23 - 342
+matched
+controls
+Total 3432 49 0 3383
+Confirmatory test results were used as the comparator for the confirmed positive SCID or
+XLA cases including the presence of BTK mutation for XLA. Determination of the true
+clinical status with regard to SCID has been previously described (DEN140010). The true
+clinical status with regard to XLA was assessed using data available in patient registries. The
+clinical assessment of the study subjects was obtained from their medical records to confirm
+that the subject, at 5.5 years of age (defined as 66 months) or younger, has not been identified
+with XLA (has no clinical signs attributable to XLA) and is apparently healthy. Danish
+hospital registry data were reviewed by filtering out subjects that had at least one of the 275
+ICD10 diagnosis codes that were listed as potentially linked to XLA. By the age of 5.5 years,
+a subject with a XLA would have either:
+• Been diagnosed with the XLA; or
+• Presented with serious medical complications suggestive of XLA as listed below:
+Table 30. Symptoms and signs associated with XLA
+Age of onset Symptoms, signs
+A severe life-threatening bacterial infection
+such as
+0-2 years
+sepsis, meningitis, cellulitis, or empyema
+K203035 - Page 37 of 43
+
+[Table 1 on page 37]
+Sample	Assayed
+Samples		Excluded due to		Excluded due
+to Invalid
+Result	Samples
+included in
+final analysis
+			failure to meet			
+			inclusion/exclusion			
+			criteria			
+Routine
+screening
+specimens	3044	26			-	3018
+SCID positives	17				-	17
+XLA positives	6				-	6
+Storage time
+matched
+controls	365	23			-	342
+Total	3432	49			0	3383
+
+[Table 2 on page 37]
+Assayed
+Samples
+
+[Table 3 on page 37]
+Excluded due
+to Invalid
+Result
+
+[Table 4 on page 37]
+Samples
+included in
+final analysis
+
+[Table 5 on page 37]
+Age of onset	Symptoms, signs
+0-2 years	A severe life-threatening bacterial infection
+such as
+sepsis, meningitis, cellulitis, or empyema
+
+--- Page 38 ---
+Age of onset Symptoms, signs
+Paucity of lymphoid tissue (small adenoids,
+tonsils,
+and lymph nodes on physical examination)
+Recurrent otitis, pneumonitis, sinusitis, and
+< 5 years
+conjunctivitis
+To establish the screening performance, the cut-offs for TREC and KREC were determined
+by calculating the TREC and KREC concentrations corresponding to the 0.3th and 1.0th
+population percentiles (262 copies/105 cells for TREC, 484 copies/105 cells for KREC)
+established in the cut-off study with an independent dataset and were applied in the pivotal
+study
+Testing was in singlicate unless repeat testing was necessary due to an invalid result. The
+specimens having TREC and KREC levels below the cut-off values (i.e., potential positives)
+in the initial round of testing were re-tested in duplicate. Any invalids were also retested in
+singlicate per protocol. If either replicate was positive, the sample was considered positive.
+All 3 replicates were required to be negative for the sample to be negative. The final results
+(presumptive normal, presumptive positive, invalid result) were classified after the second
+round of testing according to the testing interpretation algorithm.
+The Eonis SCID-SMA kits’ performance with each subjects’ sample was compared to the
+clinical data/outcome captured for that subject. Status of SCID patients were determined
+previously (DEN140010). A total of 18 subjects had screen positive results with initial
+KREC results below the cut-off (suggestive for XLA). After replicate testing, 9 subjects with
+repeat test KREC results below cut-off (one or both replicates below cut-off) remained. For
+all 18 subjects, the status was alive at 5.5 years after birth, and 6 subjects had at least one
+ICD10 code listed in the registry. Of these 6 subjects, none had multiple diagnosis that were
+indicative of XLA, nor did they have diagnosis that mandated further investigation. Thus, all
+were concluded to be unaffected for XLA (Table 31).
+Table 31. Summary of the routine screening samples tested in the pivotal study
+Routine screening samples TREC KREC
+Screened samples 3018 3018
+Initial screen positive 10 18
+Initial screen negative 3008 3000
+Retest rate 0.3% 0.6%
+Final screen positive 9 9
+Final screen negative 3008 3004
+False-positive rate 0.3% 0.3%
+The retest rate for the routine screening population was 0.9 % with the study cut-offs for
+TREC and KREC. The results of the screening performance after retesting per protocol for
+SCID (TREC) below in Tables 32, along with the false positive rate and 95% confidence
+intervals (CI) in Table 33.
+K203035 - Page 38 of 43
+
+[Table 1 on page 38]
+Age of onset	Symptoms, signs
+	Paucity of lymphoid tissue (small adenoids,
+tonsils,
+and lymph nodes on physical examination)
+< 5 years	Recurrent otitis, pneumonitis, sinusitis, and
+conjunctivitis
+
+[Table 2 on page 38]
+	Routine screening samples			TREC			KREC	
+Screened samples			3018			3018		
+Initial screen positive			10			18		
+Initial screen negative			3008			3000		
+Retest rate			0.3%			0.6%		
+Final screen positive			9			9		
+Final screen negative			3008			3004		
+False-positive rate			0.3%			0.3%		
+
+--- Page 39 ---
+Table 32. Screening performance of TREC with the Eonis SCID-SMA kit
+Clinical Status
+TREC SCID Total (%)
+Normal (%)
+affected (%)
+Presumptive positive
+17 (100 %) 9 (0.3 %) 26 (0.9 %)
+(%)
+Screening Presumptive normal 3008 (99.1
+0 (0.0 %) 3008 (99.7 %)
+result (%) %)
+Total (%) 17 (100 %) 3017 (100 %) 3034 (100 %)
+Table 33. SCID false positive rate observed in the pivotal trial after retest
+False Positive Negative
+Positive %- Negative %- Overall %- False
+negative predictive predictive
+agreement agreement agreement positive rate
+rate value value
+Percent 100 % 99.7 % 99.7 % 0.3 % 0.0 % 0.6 % 100 %
+Confidence 99.4 % - 99.4 % -
+80.5 % - 100 0.1 % - 0.6 % 0 % - 19.5 NA NA
+interval 99.9 % 99.9 %
+% %
+The results of the screening performance after retesting per protocol for XLA (KREC) is
+shown in Tables 34 and 35, along with the false positive rate after retest and 95% confidence
+intervals (CI) in Table 36.
+Table 34. Screening performance of the Eonis SCID-SMA device for XLA after retesting.
+The screening performance is presented with 95% confidence intervals.
+Clinical Status
+KREC XLA affected Total (%)
+Normal (%)
+(%)
+Presumptive positive (%) 6 (100 %) 9* (0.3 %) 15 (0.5 %)
+Screening
+Presumptive normal (%) 0 (0.0 %) 3004 (99.7 %) 3004 (99.5 %)
+result
+Total (%) 6 (100 %) 3013 (100 %) 3019 (100 %)
+*Includes one false positive result from a female subject. In female population the false positive rate is
+estimated to be 0.1 %.
+Because XLA is a disease that affects only males, the results for KREC are shown for males
+in Table 35.
+K203035 - Page 39 of 43
+
+[Table 1 on page 39]
+TREC			Clinical Status				Total (%)
+			SCID		Normal (%)		
+			affected (%)				
+Screening
+result	Presumptive positive
+(%)	17 (100 %)			9 (0.3 %)		26 (0.9 %)
+	Presumptive normal
+(%)	0 (0.0 %)			3008 (99.7 %)		3008 (99.1
+%)
+	Total (%)	17 (100 %)			3017 (100 %)		3034 (100 %)
+
+[Table 2 on page 39]
+	Positive %-	Negative %-	Overall %-	False	False	Positive	Negative
+							
+					negative	predictive	predictive
+	agreement	agreement	agreement	positive rate			
+					rate	value	value
+							
+Percent	100 %	99.7 %	99.7 %	0.3 %	0.0 %	0.6 %	100 %
+Confidence
+interval	80.5 % - 100
+%	99.4 % -
+99.9 %	99.4 % -
+99.9 %	0.1 % - 0.6 %	0 % - 19.5
+%	NA	NA
+
+[Table 3 on page 39]
+KREC			Clinical Status				Total (%)
+			XLA affected		Normal (%)		
+			(%)				
+Screening
+result	Presumptive positive (%)	6 (100 %)			9* (0.3 %)		15 (0.5 %)
+	Presumptive normal (%)	0 (0.0 %)			3004 (99.7 %)		3004 (99.5 %)
+	Total (%)	6 (100 %)			3013 (100 %)		3019 (100 %)
+
+--- Page 40 ---
+Table 35. Screening performance of the Eonis SCID-SMA device for XLA after retesting in
+males alone
+Clinical Status
+KREC
+XLA affected Total (%)
+(Male only) Normal (%)
+(%)
+Presumptive positive
+6 (100%) 8 (0.5%) 14 (0.9%)
+(%)
+Screening
+result Presumptive normal (%) 0 (0.0%) 1515 (99.5%) 1515 (99.1%)
+Total (%) 6 (100%) 1523 (100%) 1529 (100%)
+Table 36. XLA False positive rate observed in the trial after retest
+Positive %- Negative %- Overall %- False False
+agreement agreement agreement positive negative
+rate rate
+Percent 100 % 99.4 % 99.4 % 0.6 % 0.0 %
+Confidence 39.8 % - 100 % 99.1 % - 99.6 % 99.1 % - 99.6 % 0.4 % - 0.9 % 0 % - 60.2 %
+interval
+D Clinical Cut-Off:
+TREC: 262 copies/105 cells
+KREC: 484 copies/105 cells
+E Expected Values/Reference Range:
+The incidence of SCID is approximately 1 in 50,000 live births.1 The incidence of XLA is
+approximately 1 in 190,000 live male births.2 The distribution of a newborn population was
+determined by analyzing 3341 newborn DBS from the Danish Newborn Screening Biobank
+(NBS-Biobank) with the Eonis SCID-SMA kit. The specimens were archived routine screening
+specimens. The TREC and KREC descriptive statistics (median and range of results observed)
+and the value at which 0.3, 0.5, or 1.0 percent of the specimens were below of the specimens are
+displayed in Table 28. Data separated by gender for KREC is shown in Table 37.
+Table 37. Descriptive statistics and percentiles for KREC copies/105 cells by gender
+Copies/105 cells
+Analyte Gender N
+0.3 0.5 1.0
+Median Min Max
+percentile percentile percentile
+Male 1699 3460 73 16200 78 180 433
+KREC
+Female 1642 3740 12 20100 232 363 576
+1 [6] Puck JM. (2011): Neonatal screening for severe combined immunodeficiency. Curr Opin Pediatr. 2011
+Dec;23(6):667-73.
+2 [18] Winkelstein et al., X-Linked Agammaglobulinemia, Report on a United States Registry of 201 Patients,
+Medicine, 2006
+K203035 - Page 40 of 43
+
+[Table 1 on page 40]
+KREC
+(Male only)			Clinical Status				Total (%)
+			XLA affected		Normal (%)		
+			(%)				
+Screening
+result	Presumptive positive
+(%)	6 (100%)			8 (0.5%)		14 (0.9%)
+	Presumptive normal (%)	0 (0.0%)			1515 (99.5%)		1515 (99.1%)
+	Total (%)	6 (100%)			1523 (100%)		1529 (100%)
+
+[Table 2 on page 40]
+KREC
+(Male only)
+
+[Table 3 on page 40]
+	Positive %-	Negative %-	Overall %-	False	False
+	agreement	agreement	agreement	positive	negative
+					
+				rate	rate
+Percent	100 %	99.4 %	99.4 %	0.6 %	0.0 %
+Confidence
+interval	39.8 % - 100 %	99.1 % - 99.6 %	99.1 % - 99.6 %	0.4 % - 0.9 %	0 % - 60.2 %
+
+[Table 4 on page 40]
+Analyte	Gender	N	Copies/105 cells					
+								
+								
+			Median	Min	Max	0.3	0.5	1.0
+						percentile	percentile	percentile
+								
+								
+KREC	Male	1699	3460	73	16200	78	180	433
+	Female	1642	3740	12	20100	232	363	576
+
+--- Page 41 ---
+The frequency distributions (N=3341) of TREC and KREC analyte are shown in
+Figures 6 and 7.
+5
+Figure 6. TREC (copies/10 cells) distribution of presumed normal newborn samples
+5
+Figure 7. KREC (copies/10 cells) distribution of presumed normal newborn samples.
+K203035 - Page 41 of 43
+
+--- Page 42 ---
+F Other Supportive Instrument Performance Characteristics Data:
+DNA Extraction Equivalency
+This study was conducted to demonstrate that Eonis test system has equivalent performance
+when the DNA extraction is performed either manually or by a different automated liquid
+handler and is designed based on the recommendation of CLSI Guideline EP05-A.
+Two operators performed 3 Eonis extractions and PCR consolidations/day for 5 days using 1 kit
+lot, totaling 30 runs using 7 samples from the precision study (Table 5). Each day, an operator
+would run 1 extraction/PCR consolidation on the same JANUS Extraction/JANUS PCR
+Mastermix, 1 extraction/PCR consolidation on a second commercial liquid handler, and 1
+manual extraction manual PCR setup/consolidation. The study generated a total of 1050 results
+(5 replicates x 7 samples x 3 extraction/PCR methods x 2 operators x 5 days) with 150 results per
+sample and 350 results per extraction/PCR method.
+There were 45 replicates performed with the JANUS handler, 50 replicates for the second
+commercial liquid handler, and 50 replicates for the manual extraction process. The results for
+TREC and KREC, evaluated using variance analysis method, are presented in Table 38 and
+Table 39.
+Table 38. DNA extraction equivalency for TREC
+Mean Mean Between
+Repeatability
+Sample N (Copies/ Ln Extraction Total Ln SD
+Ln SD
+105 cells) Copies Method Ln SD
+13 56 36 3.57 0.90 0.02 0.95
+4 145 781 6.66 0.35 0.15 0.39
+12 145 992 6.90 0.30 0.09 0.32
+3 145 1188 7.08 0.30 0.07 0.31
+2 145 1920 7.56 0.26 0.19 0.34
+11 145 4964 8.51 0.19 0.13 0.27
+1 145 13494 9.51 0.15 0.23 0.30
+Table 39. DNA extraction equivalency for KREC
+Between
+Mean Mean
+Repeatability Extraction
+Sample N (Copies/ Ln Total Ln SD
+Ln SD Method Ln
+105 cells) Copies
+SD
+13 145 1097 7.00 0.41 0.04 0.42
+12 145 3429 8.14 0.23 0.11 0.26
+3 145 5768 8.66 0.26 0.14 0.29
+1 145 6438 8.77 0.18 0.15 0.24
+11 145 14618 9.59 0.19 0.14 0.25
+4 145 17327 9.76 0.19 0.21 0.29
+2 145 54176 10.9 0.17 0.26 0.34
+K203035 - Page 42 of 43
+
+[Table 1 on page 42]
+Sample			N				Mean			Mean		Repeatability
+Ln SD				Between		Total Ln SD		
+							(Copies/			Ln						Extraction				
+							105 cells)			Copies						Method Ln SD				
+13			56			36			3.57			0.90			0.02			0.95		
+4			145			781			6.66			0.35			0.15			0.39		
+12			145			992			6.90			0.30			0.09			0.32		
+3			145			1188			7.08			0.30			0.07			0.31		
+	2			145			1920			7.56			0.26			0.19			0.34	
+11			145			4964			8.51			0.19			0.13			0.27		
+1			145			13494			9.51			0.15			0.23			0.30		
+
+[Table 2 on page 42]
+Repeatability
+Ln SD
+
+[Table 3 on page 42]
+Sample			N			Mean
+(Copies/
+105 cells)			Mean
+Ln
+Copies			Repeatability
+Ln SD				Between		Total Ln SD		
+																Extraction				
+																Method Ln				
+																SD				
+13			145			1097			7.00			0.41			0.04			0.42		
+12			145			3429			8.14			0.23			0.11			0.26		
+3			145			5768			8.66			0.26			0.14			0.29		
+	1			145			6438			8.77			0.18			0.15			0.24	
+	11			145			14618			9.59			0.19			0.14			0.25	
+	4			145			17327			9.76			0.19			0.21			0.29	
+2			145			54176			10.9			0.17			0.26			0.34		
+
+[Table 4 on page 42]
+Mean
+(Copies/
+105 cells)
+
+[Table 5 on page 42]
+Mean
+Ln
+Copies
+
+[Table 6 on page 42]
+Repeatability
+Ln SD
+
+--- Page 43 ---
+VIII Proposed Labeling:
+The labeling supports the finding of substantial equivalence for this device.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K203035 - Page 43 of 43

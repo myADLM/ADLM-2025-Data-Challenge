@@ -1,0 +1,108 @@
+STANDARD OPERATING PROCEDURE
+Whole Exome and Mitochondrial Genome Sequencing
+1. PURPOSE
+This protocol outlines the procedures for the analytical phase of
+generating results from whole exome and mitochondrial genome
+sequencing in a CSIA-certified laboratory. This ensures accurate,
+reliable, and reproducible results for diagnostic and research
+purposes.
+Responsibility:
+• Designated laboratory staff, who are adequately trained in
+sequencing, bioinformatics analysis, and quality control, will
+perform all tasks according to this SOP.
+• It is the responsibility of the laboratory manager to ensure that all
+necessary resources, equipment, and reagents are available and
+that all instruments are properly maintained and calibrated.
+1. DEFINITIONS
+• Whole Exome Sequencing (WES): Sequencing of all protein-
+coding regions (exons) in the genome.
+• Mitochondrial Genome Sequencing: Sequencing of the complete
+mitochondrial DNA, which contains the genetic material of
+mitochondria.
+1. PROCEDURE
+A. Genomic DNA Preparation:
+1. Verify sample integrity and concentration using a Qubit
+fluorometer or NanoDrop spectrophotometer.
+2. Perform quality control using agarose gel electrophoresis and/
+or a Fragment Analyzer to check for intact, high molecular
+weight DNA.
+3. Ensure that all samples meet the concentration and purity
+requirements as specified in the kit manual for sequencing
+library preparation.
+B. Library Preparation:
+1. Prepare sequencing libraries using a validated commercial kit,
+such as the Agilent SureSelectXT for exome sequencing or
+NEBNext Ultra II DNA Library Prep for the mitochondrial
+genome.
+2. Follow the manufacturer's protocol meticulously, including end-
+repair, A-tailing, adapter ligation, and PCR amplification.
+3. Assess library quality and quantity using a Fragment Analyzer
+or Bioanalyzer and a Qubit fluorometer or qPCR.
+C. Sequencing:
+1. Load prepared libraries onto the sequencing platform (e.g.,
+Illumina NovaSeq 6000).
+2. Follow the platform-specific guidelines for cluster generation,
+sequencing run setup, and monitoring.
+3. Ensure sequencing run parameters, such as read length and
+sequencing depth, meet the requirements for the desired
+coverage (typically 80-100X for exome and 300-500X for
+mitochondrial genome).
+D. Data Analysis:
+1. Initial Data Processing:
+◦ Utilize the sequencing platform’s software for generating
+FASTQ files and performing initial quality checks.
+◦ Remove adapters and low-quality reads using tools like
+Trimmomatic or Cutadapt.
+2. Alignment and Variant Calling:
+◦ Align the sequences to the reference genome (e.g.,
+GRCh38 for nuclear genome and MITOMAP for
+mitochondrial genome) using BWA or a similar aligner.
+◦ Perform variant calling using GATK or another validated
+pipeline, identifying SNPs, indels, and other variants of
+interest.
+3. Annotation and Interpretation:
+◦ Annotate variants using tools such as VEP, ANNOVAR, or
+SnpEff for functional prediction and impact assessment.
+◦ Integrate additional databases (e.g., ClinVar, gnomAD) to
+aid in clinical interpretation.
+E. Quality Control and Validation:
+1. Ensure that all sequences meet predefined quality metrics,
+including average depth of coverage, uniformity, and base
+quality scores.
+2. Validate identified variants using Sanger sequencing or another
+orthogonal method when necessary.
+F. Reporting Results:
+1. Generate a comprehensive report summarizing the sequencing
+run, data quality, identified variants, and their interpretation.
+2. Ensure that the report is reviewed by a certified geneticist or
+qualified personnel before final verification.
+3. Communicate the results to the ordering clinician or researcher,
+following the guidelines for clinical reporting and data privacy.
+G. Data Storage and Retention:
+1. Store raw and processed data securely, adhering to data
+protection regulations.
+2. Archive sequencing data and associated analyses for a
+minimum of five years or as specified by institutional guidelines.
+3. DOCUMENTATION
+• Maintain detailed records of all procedures, including sample
+preparation, library prep, sequencing runs, data analysis, quality
+control measures, and report generation.
+• Record any deviations from the protocol, corrective actions taken,
+and final outcomes.
+1. REFERENCES
+• Manufacturer's protocols for library preparation kits and
+sequencing platforms.
+• GATK Best Practices for variant calling.
+• Clinical and Laboratory Standards Institute (CLSI) guidelines for
+next-generation sequencing.
+APPROVALS:
+Prepared By: __________________________ Signature:
+__________________________ Title:
+Approved By: __________________________ Signature:
+__________________________ Title:
+Date of Implementation:
+Review Dates: __________________________ (Annually or as
+needed)
+This SOP ensures that whole exome and mitochondrial genome
+sequencing is conducted following stringent guidelines to provide
+precise, reliable, and clinically relevant genetic data.

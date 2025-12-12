@@ -1,0 +1,132 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase Procedure for NEURO-ONCOLOGY
+EXPANDED GENE PANEL WITH REARRANGEMENT, TUMOR
+1. PURPOSE
+To provide a standardized procedure for the analysis and
+interpretation of the Neuro-Oncology Expanded Gene Panel with
+Rearrangement in tumor samples, ensuring accurate and reliable
+results for patient care.
+Responsibility:
+• Designated laboratory personnel and technologists are
+responsible for following and documenting the analytical
+procedures.
+• Laboratory supervisors are responsible for ensuring adherence to
+the protocol, addressing any procedural discrepancies, and
+implementing corrective actions when necessary.
+1. DEFINITIONS
+• Neuro-Oncology Expanded Gene Panel: A comprehensive
+assay designed to detect mutations, rearrangements, and other
+genetic alterations in tumor DNA linked to neuro-oncological
+conditions.
+• Rearrangement: Structural alterations in chromosomes resulting
+in oncogenic gene fusions relevant to neuro-oncology.
+1. SPECIMEN REQUIREMENTS
+• Specimen Type & Handling:
+◦ Fresh or formalin-fixed, paraffin-embedded (FFPE) tumor
+tissue.
+◦ Ensure the specimen is collected using standard surgical
+techniques and transported in appropriate conditions to
+preserve nucleic acids.
+◦ Specimen requirements and stability information are as
+follows:
+▪ Tissue: Stored at 2-8ºC, preferably analyzed within 24
+hours if fresh, or within 6 months if FFPE.
+1. EQUIPMENT, REAGENTS, AND SUPPLIES:
+• Equipment:
+◦ Nucleic acid extraction instruments.
+◦ Next-Generation Sequencing (NGS) platform (e.g., Illumina,
+Ion Torrent).
+◦ Thermal cycler for PCR amplification.
+◦ Microplate readers or fluorescence readers for quality control
+purposes.
+• Reagents and Supplies:
+◦ DNA extraction kits specific for tumor tissues.
+◦ PCR reagents for target amplification.
+◦ Library preparation kits for NGS.
+◦ Sequencing reagents compatible with the NGS platform.
+◦ Control samples (positive and negative controls).
+◦ QC (Quality Control) materials for validation.
+1. ANALYTICAL PROCEDURE:
+A. Nucleic Acid Extraction:
+1. Sample Preparation:
+◦ Deparaffinize FFPE sections if applicable.
+◦ Employ mechanical/enzymatic digestion as per extraction kit
+instructions.
+◦ Extract DNA using the recommended extraction kit.
+◦ Quantify and assess the quality of DNA using a
+spectrophotometer or fluorometer.
+2. Quality Control:
+◦ Ensure DNA purity (A260/A280 ratio) is within acceptable
+limits (1.8-2.0).
+◦ Determine DNA integrity by running an aliquot on an
+agarose gel or using a bioanalyzer.
+B. Library Preparation and Sequencing:
+1. Library Preparation:
+◦ Perform target-specific amplification using PCR reagents
+tailored for the Neuro-Oncology Expanded Gene Panel.
+◦ Ensure proper thermal cycler settings as provided in the
+manufacturer's protocol.
+◦ Prepare NGS libraries following the sequencing platform-
+specific kit instructions.
+◦ Ligate adapters and indexes to the amplified DNA
+fragments.
+2. Sequencing:
+◦ Load prepared libraries onto the sequencer.
+◦ Input run parameters specific to the assay and platform.
+◦ Initiate the sequencing run and monitor progress.
+C. Data Analysis:
+1. Primary Data Analysis:
+◦ Utilize sequencing platform software for initial base calling
+and quality filtering.
+◦ Remove low-quality reads and adapter sequences.
+2. Secondary Data Analysis:
+◦ Align sequencing reads to the reference genome using
+bioinformatics tools (e.g., BWA, Bowtie).
+◦ Identify mutations and gene rearrangements using variant
+calling software (e.g., GATK, MuTect).
+3. Tertiary Data Analysis:
+◦ Annotate variants using databases (e.g., COSMIC, ClinVar).
+◦ Prioritize clinically relevant mutations and gene fusions.
+◦ Generate a comprehensive report including identified
+variants and their clinical significance.
+4. REPORTING RESULTS:
+5. Review and Interpretation:
+◦ Technologists review the analyzed data for quality and
+accuracy.
+◦ Confirm significant findings with additional bioinformatics
+review if necessary.
+◦ Compile findings into a standardized report format.
+6. Verification and Sign-off:
+◦ A designated pathologist or molecular geneticist verifies
+results.
+◦ Upon verification, finalize and sign the report.
+◦ Upload results to the Laboratory Information System (LIS)
+for electronic medical record integration.
+7. QUALITY CONTROL AND ASSURANCE:
+A. Internal Quality Control: - Include positive and negative controls
+in each run. - Perform regular instrument calibration and
+maintenance. - Repeat assays showing any discrepancy or falling
+outside acceptable control limits.
+B. Proficiency Testing: - Participate regularly in external proficiency
+testing programs. - Implement corrective actions for any deficiencies
+identified during proficiency testing.
+1. DOCUMENTATION AND RECORD KEEPING:
+• Maintain detailed records of all steps, deviations, and corrective
+actions taken.
+• Store all raw and processed data per institutional guidelines
+ensuring confidentiality and regulatory compliance.
+1. REFERENCE INTERVALS AND METHOD LIMITATIONS:
+• Establish reference intervals for normal and pathological findings
+based on assay validation results.
+• Identify and document any method limitations, including
+sensitivity, specificity, and potential interferences.
+1. REFERENCES:
+• Refer to the manufacturer's manual and kit inserts for detailed
+technical guidelines.
+• Keep current with scientific literature and updates on
+bioinformatics tools, gene panel content, and disease relevance.
+Prepared by: [Your Name] Medical Laboratory Scientist
+Approved by: [Supervisor’s Name] Laboratory Supervisor
+Date: [Insert Date]
+Review Date: [Insert Review Date]
+End of SOP Document

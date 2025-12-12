@@ -1,0 +1,115 @@
+Standard Operating Procedures (SOP) for Analytical Phase of
+Comprehensive Peripheral Neuropathy Gene Panel
+1. PURPOSE
+The purpose of this SOP is to delineate the protocol and procedures
+for generating results from the Comprehensive Peripheral
+Neuropathy Gene Panel in a CLIA-certified laboratory setting. This
+procedure ensures accurate and reliable results for genetic testing
+aimed at diagnosing hereditary peripheral neuropathies.
+2. RESPONSIBILITY
+Laboratory personnel, including clinical laboratory scientists and
+genetic technologists, are responsible for adhering to this SOP to
+ensure all aspects of the analysis are performed accurately and
+consistently. Supervisors are to ensure compliance and address any
+procedural issues.
+3. DEFINITIONS
+• Gene Panel: A collection of genes analyzed collectively to identify
+variations associated with peripheral neuropathy.
+• Workflow: Sequence of steps from specimen processing to result
+generation.
+• NGS: Next Generation Sequencing, a method used for
+sequencing DNA to detect genetic variants.
+4. PROCEDURE
+A) Pre-Analysis Preparation
+1. Reagent Preparation:
+◦ Ensure all reagents required for DNA extraction, library
+preparation, sequencing, and data analysis are available
+and within expiration date.
+2. Equipment Setup:
+◦ Validate all equipment involved in sequencing (e.g.,
+sequencers, thermal cyclers, centrifuges) daily prior to
+operation.
+◦ Calibration certificates and maintenance logs should be up
+to date.
+3. Sample Quality Check:
+◦ Verify that the sample obtained is of adequate volume and
+quality (appropriate collection tube, no contamination,
+correct patient identifiers).
+◦ Store extracted DNA at -20°C until ready for analysis.
+B) DNA Extraction and Quality Control
+1. Extraction:
+◦ Use validated DNA extraction protocols suitable for blood or
+tissue samples depending on the specimen.
+◦ Ensure pure and sufficient quantity of DNA is extracted.
+2. Quality Control:
+◦ Assess quantity and quality of DNA using
+spectrophotometric measurements (e.g., A260/280 ratio)
+and agarose gel electrophoresis.
+◦ Samples should meet minimum concentration and purity
+requirements to proceed (e.g., A260/280 ratio between
+1.8-2.0).
+C) Library Preparation
+1. Target Enrichment:
+◦ Use capture probes or amplicon-based approaches to
+selectively enrich target regions, adhering strictly to
+manufacturer’s protocol specific to the gene panel.
+2. Quality Control:
+◦ Quantify enriched libraries using fluorometric methods (e.g.,
+Qubit) and assess size distribution using capillary
+electrophoresis (e.g., Bioanalyzer).
+D) Sequencing
+1. Setup:
+◦ Load prepared libraries onto sequencing platform according
+to manufacturer's guidelines (e.g., Illumina, Ion Torrent).
+◦ Verify sequencing parameters set to capture required
+coverage for diagnostic accuracy.
+2. Monitoring:
+◦ Continuously monitor sequencing run for error rates and
+data quality.
+◦ Archive raw sequencing data securely.
+E) Data Analysis
+1. Primary Analysis:
+◦ Perform base calling and sequence alignment to reference
+genome using vendor-provided software and pipelines.
+◦ Ensure alignment metrics meet quality benchmarks (e.g.,
+≥99% mapped reads).
+2. Variant Calling:
+◦ Use validated bioinformatics tools to identify genetic variants
+(SNPs, indels, etc.).
+◦ Cross-check identified variants against population
+databases and known pathogenic databases (e.g., ClinVar).
+F) Interpretation and Reporting
+1. Variant Annotation:
+◦ Annotate genetic variants using appropriate functional
+annotation tools to identify potential pathogenicity.
+◦ Categorize variants according to ACMG guidelines.
+2. Clinical Correlation:
+◦ Correlate genetic findings with clinical information provided
+and known disease associations.
+◦ Prepare a comprehensive report detailing identified variants,
+clinical relevance, and recommendations for follow-up.
+3. Quality Assurance:
+◦ Perform internal quality checks by comparing results of
+known control samples included in the run.
+◦ Ensure detailed review of results by senior laboratory
+personnel before release.
+G) Documentation and Record Keeping
+1. Logging and Tracking:
+◦ Maintain detailed logs of sample processing, reagent
+batches, equipment validation, and sequencing runs.
+◦ Ensure all data storage, access, and retrieval are compliant
+with regulatory standards.
+2. Reporting Results:
+◦ Upload finalized reports to the Laboratory Information
+System (LIS) and notify requesting physician.
+◦ Follow local guidelines for result verification, interpretation
+notes, and communication of critical findings.
+References
+1. ACMG Standards and Guidelines for Clinical Genetics
+Laboratories
+2. Manufacturer's protocols and user manuals for equipment and
+reagents used.
+3. Relevant peer-reviewed articles and clinical resources.
+By adhering to these procedures, the laboratory ensures the highest
+standards of quality and reliability in the analysis of the
+Comprehensive Peripheral Neuropathy Gene Panel.

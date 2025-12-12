@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory Query System</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Laboratory Query System</h1>
+            <p>SOP & FDA Document Analysis with AI</p>
+        </div>
+        
+        <div class="main-content">
+            <!-- System Initialization (Hidden - Auto-initialized) -->
+            <div class="section system-init" style="display: none;">
+                <h3>System Initialization</h3>
+                <div class="init-instructions">
+                    <p><strong>⚠️ Required First Step:</strong> You must initialize the query systems before you can ask questions.</p>
+                    <p>This loads the SOPQuery and FDAQuery systems that analyze laboratory documents:</p>
+                </div>
+                <button id="initializeBtn">⚡ Initialize Query Systems</button>
+                
+                <div id="systemInfo" class="system-info" style="display: none;">
+                    <div class="system-status">
+                        <div class="status-item">
+                            <strong>🔬 SOPQuery:</strong> Laboratory Standard Operating Procedures
+                        </div>
+                        <div class="status-item">
+                            <strong>📋 FDAQuery:</strong> FDA 510(k) Submissions & Medical Device Documentation
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Status Messages -->
+            <div id="statusMsg" style="display: none;"></div>
+            
+            <!-- Loading -->
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Processing your request...</p>
+            </div>
+            
+            <!-- Query Type Selection -->
+            <div class="section query-type-selection">
+                <h3>Query Type Selection</h3>
+                <div class="query-type-options">
+                    <div class="radio-group">
+                        <input type="radio" id="sopQuery" name="queryType" value="sop" checked>
+                        <label for="sopQuery">
+                            <div class="query-type-card">
+                                <h4>🔬 SOP Query</h4>
+                                <p>Laboratory Standard Operating Procedures</p>
+                            </div>
+                        </label>
+                    </div>
+                    
+                    <div class="radio-group">
+                        <input type="radio" id="fdaQuery" name="queryType" value="fda">
+                        <label for="fdaQuery">
+                            <div class="query-type-card">
+                                <h4>� FDA Query</h4>
+                                <p>FDA 510(k) Submissions & Medical Devices</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Query Section with Chat Interface -->
+            <div class="section query-section">
+                <h3>Chat with Laboratory AI Assistant</h3>
+                
+                <!-- Conversation History -->
+                <div id="chatContainer" class="chat-container">
+                    <div id="chatHistory" class="chat-history">
+                        <div class="welcome-message">
+                            <p>Welcome to the Laboratory Query System!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Query Input -->
+                <div class="chat-input-section">
+                    <div class="form-group">
+                        <label for="questionInput">Ask a question:</label>
+                        <textarea id="questionInput" disabled placeholder="Choose SOP or FDA query type above, then ask your questions:
+
+SOP Query Examples:
+• How do I prepare samples for blood glucose testing?
+• What are the safety procedures for handling hazardous chemicals?
+• What's the calibration procedure for the pH meter?
+
+FDA Query Examples:
+• What FDA clearances exist for glucose meters?
+• Show me 510(k) submissions for cardiac devices
+• What are the regulatory requirements for point-of-care testing?"></textarea>
+                    </div>
+                    
+                    <div class="chat-controls">
+                        <div class="chat-buttons">
+                            <button id="queryBtn" disabled>💬 Send Message</button>
+                            <button id="clearChatBtn" class="secondary-btn">🗑️ Clear Chat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <!-- Response Container (hidden) -->
+    <div id="responseContainer" style="display: none;"></div>
+
+    <!-- External JavaScript -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+Standard Operating Procedure (SOP)
+Title: Analytical Phase for MACRO/MICROTHROMBOCYTOPENIA
+GENE PANEL, NEXT-GENERATION SEQUENCING
+1. PURPOSE
+To outline the procedure for the analysis of macro/
+microthrombocytopenia gene panel using next-generation
+sequencing (NGS) technology to ensure accurate and reliable
+results.
+2. SCOPE
+This procedure applies to all molecular diagnostics personnel
+performing next-generation sequencing for the detection of mutations
+associated with macrothrombocytopenia and microthrombocytopenia.
+3. RESPONSIBILITY
+Designated laboratory personnel are responsible for the execution of
+the tasks outlined in this SOP, including the preparation of samples,
+sequencing, data analysis, and reporting of results. Supervisors must
+ensure that all staff are trained and competent before performing the
+procedure.
+4. SPECIMENS
+• Preferred specimens: EDTA anticoagulated whole blood,
+minimum volume 3 mL.
+• Acceptable alternatives: Buccal swabs, cell lysates, or other DNA-
+containing specimens.
+• For blood samples: Must be received within 48 hours of collection
+and stored at 2-8°C.
+5. EQUIPMENT AND REAGENTS
+• NGS platform (e.g., Illumina MiSeq, HiSeq)
+• DNA Extraction kit (e.g., Qiagen QIAamp DNA Mini Kit)
+• Quantification and quality control reagents (e.g., Qubit
+Fluorometer, Bioanalyzer)
+• NGS library preparation kits (specific for the targeted gene panel)
+• PCR reagents
+• Bioinformatics analysis software (e.g., BaseSpace, Galaxy)
+6. PROCEDURE
+A. DNA Extraction
+1. Perform DNA extraction from the specimen using the
+designated DNA extraction kit following manufacturer
+instructions.
+2. Quantify the DNA using the Qubit Fluorometer and assess
+quality using Bioanalyzer.
+3. Proceed with samples that meet the purity requirements (A260/
+A280 between 1.8-2.0) and sufficient quantity as per kit
+protocol.
+B. Library Preparation
+1. Prepare NGS library using the appropriate library preparation
+kit specific for the macro/microthrombocytopenia gene panel.
+2. Amplify the target regions via PCR following the PCR protocol
+provided by the kit manufacturer.
+3. Perform clean-up of PCR products using a purification method
+(e.g. magnetic beads).
+4. Quantify the prepared library and validate library size/quality
+using Bioanalyzer.
+C. Sequencing
+1. Normalize and pool the libraries as per standard operating
+concentrations.
+2. Load the pooled library onto the NGS platform and set up the
+sequencing run.
+3. Monitor the sequencing run for quality metrics and troubleshoot
+any issues as they arise.
+D. Data Analysis
+1. Transfer sequencing data to the designated bioinformatics
+analysis software.
+2. Perform primary analysis (base calling, demultiplexing) followed
+by alignment to the reference genome.
+3. Conduct variant calling to identify potential mutations in the
+gene panel.
+4. Annotate variants using the bioinformatics pipeline to assign
+clinical significance.
+E. Reporting
+1. Verify the data for accuracy by reviewing quality control metrics,
+including coverage depth and variant quality scores.
+2. Interpret the results in the context of the patient’s clinical
+information.
+3. Compile the final report, detailing the detected mutations (if
+any) with their clinical relevance.
+4. Have the final report reviewed and approved by a senior clinical
+molecular geneticist or equivalent authority.
+5. Transmit the final report to the ordering clinician securely.
+7. QUALITY CONTROL & INSTRUMENT MAINTENANCE
+• Include positive and negative controls in each run to ensure the
+validity of the results.
+• Adhere to instrument maintenance schedules and perform regular
+calibration and performance checks.
+• Follow manufacturer guidelines for reagent and equipment use to
+ensure optimal functioning.
+8. REFERENCES
+• Manufacturer’s instructions for DNA extraction kit, library
+preparation kit, and NGS platform.
+• Current literature and clinical guidelines for the interpretation of
+macro/microthrombocytopenia genetic variants.
+9. REVISION HISTORY
+Document all revisions with dates and descriptions of changes made
+to the SOP.
+This protocol establishes a detailed workflow from DNA extraction to
+the final reporting of results for the macro/microthrombocytopenia
+gene panel via next-generation sequencing, ensuring comprehensive
+analysis and accurate diagnostics.

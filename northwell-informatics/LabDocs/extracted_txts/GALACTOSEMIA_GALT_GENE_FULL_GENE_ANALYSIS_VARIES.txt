@@ -1,0 +1,101 @@
+SOP: Analytical Phase for Generating Results for Galactosemia,
+GALT Gene, Full Gene Analysis
+1. PURPOSE
+To outline the standard procedure for the detection and analysis of
+the GALT gene mutations associated with galactosemia using full
+gene analysis techniques in a CLIA-certified laboratory.
+Responsibility:
+It is the responsibility of all laboratory technologists to follow this
+protocol carefully and ensure accurate results. The laboratory
+supervisor is responsible for ensuring this SOP is followed and for
+addressing any discrepancies or issues that arise.
+1. SPECIMEN REQUIREMENTS AND PREPARATION
+2.1 Preferred Specimen:
+• 5-10 mL of peripheral blood collected in an EDTA (lavender top)
+tube.
+• Blood should be processed within 72 hours of collection.
+2.2 Unacceptable Specimen:
+• Specimens that are hemolyzed, clotted, or improperly labeled.
+• Blood samples collected in non-EDTA tubes.
+1. PROCEDURE
+3.1 DNA Extraction:
+• Perform DNA extraction from collected blood samples using a
+validated commercial DNA extraction kit following the
+manufacturer's protocol.
+• Quantify the extracted DNA using a spectrophotometer and
+assess purity (A260/A280 ratio).
+3.2 PCR Amplification:
+• Utilize the extracted genomic DNA for PCR amplification of the
+GALT gene encompassing all exons and relevant intronic regions.
+• Prepare the PCR master mix including DNA polymerase, dNTPs,
+primers specific to GALT gene regions, buffer, and MgCl2.
+3.3 Amplification Conditions:
+• Initial denaturation: 95°C for 5 minutes.
+• Denaturation: 95°C for 30 seconds.
+• Annealing: 55-60°C (depending on primer Tm) for 30 seconds.
+• Extension: 72°C for 1 minute.
+• Final extension: 72°C for 10 minutes.
+• Total cycles: 35.
+3.4 PCR Product Verification:
+• Run PCR products on a 1.5% agarose gel with appropriate
+molecular weight markers.
+• Visualize bands under UV illumination following ethidium bromide
+or an alternative DNA dye staining.
+3.5 Sanger Sequencing/Next Generation Sequencing (NGS):
+• Purify the amplified PCR products using a PCR purification kit.
+• For Sanger sequencing: Send purified products for bidirectional
+sequencing.
+• For NGS: Prepare a NGS library using the appropriate kit,
+quantitate and qualitatively assess the library, and sequence
+using a validated NGS platform.
+3.6 Data Analysis:
+• Analyze Sanger sequencing results with sequencing analysis
+software.
+• For NGS, process raw sequencing data through the
+bioinformatics pipeline to identify variants in the GALT gene.
+• Compare detected variants against the reference sequence
+(NCBI RefSeq) and variant databases (e.g., ClinVar, dbSNP).
+1. INTERPRETATION & RESULT REPORTING
+4.1 Interpretation:
+• Classify variants based on ACMG guidelines into pathogenic,
+likely pathogenic, benign, likely benign, or variants of uncertain
+significance (VUS).
+• Consider patient and family history, and previous related findings
+for comprehensive interpretation.
+4.2 Reporting:
+• Compile a comprehensive report based on the gene analysis
+findings.
+• Include details on the detected variants, their clinical significance,
+and recommended follow-up if necessary.
+• Ensure the report is reviewed and signed off by a qualified clinical
+molecular geneticist before being released.
+1. QUALITY CONTROL
+5.1 Internal Controls:
+• Include positive and negative controls in each PCR and
+sequencing batch to ensure reaction specificity and accuracy.
+• Utilize proficiency testing and participating in external quality
+assessment schemes.
+5.2 Troubleshooting:
+• If results are inconclusive or quality metrics are not met, re-
+evaluate and repeat the DNA extraction, PCR amplification, and
+sequencing processes.
+• Record and address any deviations or issues that arise during the
+analytical phase.
+1. DOCUMENTATION
+6.1 Maintain comprehensive records of each step including:
+• Specimen collection details.
+• DNA extraction, PCR conditions, gel electrophoresis images.
+• Sequencing data and bioinformatics analysis results.
+• Final interpretation and report.
+6.2 Ensure all logs and reports are stored securely and follow
+laboratory archiving policies.
+1. REFERENCES
+• ACMG Standards and Guidelines for Interpretation of Sequence
+Variants.
+• Manufacturer protocols for DNA extraction, PCR amplification,
+and sequencing kits.
+• NCBI RefSeq, ClinVar, and dbSNP databases for reference
+sequences and variant annotations.
+This SOP standardizes the process of GALT gene analysis to ensure
+accurate and reproducible results for the diagnosis of galactosemia
+through full gene sequencing.

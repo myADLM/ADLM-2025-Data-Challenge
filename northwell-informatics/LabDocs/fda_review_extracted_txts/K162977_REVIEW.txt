@@ -1,0 +1,978 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION MEMORANDUM
+A. 510(k) Number:
+K162977
+B. Purpose for Submission:
+To introduce hardware modifications to the previously cleared ADVIA® 2120/2120i
+Autoslide System to conform to the RoHS Directive, 2011/65EU of the European Parliament.
+C. Manufacturer and Instrument Name:
+Siemens Healthcare Diagnostics Inc., ADVIA® 2120/2120i
+D. Type of Test or Tests Performed:
+Quantitative complete blood count with leukocyte differential and body fluid analysis
+Whole Blood
+WBC, RBC, Hgb, CN-Free Hgb, calculated Hgb, MCV, Hct, MCH, MCHC, CHCM, RDW,
+HDW, CH, Plt, MPV, Neut (%/#), Lymph (%/#), Mono (%/#), Eos (%/#), Baso (%/#), LUC
+(%/#), Retic (%/#), MCVg, MCVr, CHCMg, CHCMr, CHg, CHr
+Body Fluids (Pleural, Peritoneal, and Peritoneal Dialysate)
+Total nucleated cell count (TNC) and red blood cell count (RBC)
+Cerebrospinal Fluid (CSF)
+WBC, RBC, Neut (%/#), Lymph (%/#), Mono (%/#), MN (%/#), and PMN (%/#)
+E. System Descriptions:
+1. DeviceDescription:
+The ADVIA 2120/2120i is a fully automated differential cell counter and consists of an
+analytical module that aspirates, dilutes, and analyzes whole blood samples; an
+autosampler that automatically mixes, identifies, and presents samples for processing; a
+computer workstation that controls the instrument, provides primary user interface with
+the instrument and manages the data produced by the instrument; and a printer that
+optionally generates reports based on the instrument results.
+2. Principles of Operation:
+1
+
+--- Page 2 ---
+WBC Count
+The whole blood sample is mixed with ADVIA 120/2120/2120i BASO reagent that
+contains acid and surfactant. The red blood cells are hemolyzed, and the white blood cells
+are then analyzed using two-angle laser light scatter signals.
+Red Blood Cell and Platelet Counts
+Red blood cells and platelets are analyzed by a single optical cytometer after appropriate
+dilution of the blood sample with ADVIA 120/2120/2120i RBC/PLT reagent (CBC
+TIMEPAC). The red blood cells are isovolumetrically sphered and lightly fixed to
+preserve the spherical shape. Red cells and platelets are counted from the signals from a
+common detector with two different gain settings.
+Red Blood Cell and Platelet Size
+Simultaneous measurement of laser light scattered at two different angular intervals is
+used to determine the size of red blood cells and platelets.
+Hemoglobin
+The hemoglobin method employs a modification of the manual cyanmethemoglobin
+method.
+WBC Differential (DIFF) Method
+The ADVIA 2120/2120i utilizes the Peroxidase and Basophil/Lobularity methods to
+quantitatively measure the following hematological parameters: neutrophils,
+lymphocytes, monocytes, eosinophils, large unstained cells, and basophils. With the
+Peroxidase method, leukocytes are classified by the characteristic properties exhibited by
+cell-specific constituents when the cells are treated with cytochemical stains. With the
+Basophil/Lobularity method, red blood cells are hemolyzed and the cytoplasm is stripped
+from all white blood cells except basophils. The sample is then analyzed by two-angle
+laser light scattering detection using a laser diode. The white cells are classified into three
+categories: basophils, mononuclear (MN) cells, and polymorphonuclear (PMN) cells.
+Reticulocyte Count and Size
+To determine the reticulocyte count, the ADVIA120/2120/2120i autoRETIC reagent
+isovolumetrically spheres the erythroid cells and stains cellular RNA. Low-angle laser
+light scatter, high-angle laser light scatter, and absorption characteristics of all cells are
+counted and measured. The absorption data are used to classify each cell as a reticulocyte
+or mature red blood cell based on its RNA content. The method of sizing reticulocytes
+uses the simultaneous measurement of laser light scattered at two different angular
+intervals.
+2
+
+--- Page 3 ---
+Cerebrospinal Fluid (CSF) Method
+The CSF sample is mixed with ADVIA 120/2120/2120i CSF reagent, which spheres and
+fixes the cells. After a minimum 4-minute to 4-hour incubation period, the prepared
+sample is then aspirated directly into the ADVIA 120/2120/2120i system. The cells are
+then detected and enumerated based on light scatter and absorbance measurements using
+the ADVIA 120/2120/2120i laser optics. A scatter versus scatter and scatter versus
+absorbance cytogram is displayed with the thresholds and results automatically calculated
+for each sample. Reportable parameters are WBC and RBC counts along with absolute
+and percentage counts for neutrophils, lymphocytes, monocytes, polymorphonuclear
+(PMN), and mononuclear (MN) cells.
+Body Fluid Method
+The ADVIA 2120/2120i Body Fluid Application uses the Basophil/Lobularity and
+RBC/Plt channels to enumerate the total nucleated (TNC) and RBC counts. The TNC
+count is derived from the Basophil/Lobularity channel. The ADVIA120/2120/2120i
+BASO reagent contains surfactant and phthalic acid which, in the presence of low heat in
+the Baso channel reaction chamber, lyses RBCs and strips the cytoplasmic membrane
+from all leukocytes except basophils. This cell suspension is subsequently passed through
+the flowcell. The cell suspension is intercepted by light from the laser diode where the
+low-angle light scatter (2° to 3°) and high-angle light scatter (5° to 15°) signals of each
+cell are counted.
+The RBC count is derived from the RBC/Plt channel. The ADVIA120/2120/2120i
+RBC/Plt reagent spheres and fixes the RBCs. The same flowcell, low-angle and high-
+angle light scatter signals as the Basophil/Lobularity channel are used to count the RBCs.
+3. Modes of Operation:
+Does the applicant’s device contain the ability to transmit data to a computer, webserver,
+or mobile device?
+Yes ___X____ or No ________
+Does the applicant’s device transmit data to a computer, webserver, or mobile device
+using wireless transmission?
+Yes ________ or No ____X_____
+4. Specimen Identification:
+Sample identification is performed by the following methods: manual entry, scanning
+with a barcode reader, automatic incremental numbering, and rack/position numbering in
+the autosampler mode.
+3
+
+--- Page 4 ---
+5. Specimen Sampling and Handling:
+Body fluid and whole blood samples must be manually mixed by gentle inversion when
+analyzed in the manual open tube and manual closed tube modes.
+Whole blood samples aspirated in the automated closed tube mode are automatically
+mixed. The automated closed tube sampler rotates first to 45° then to 135°, staying at
+each orientation for a minimum of 0.6 seconds and a maximum of 15 seconds. A total of
+25 mixer-cycles are required before aspiration. Fully mixed samples which have a dwell
+of over 15 seconds require an additional 20 mixer cycles before aspiration. If a dwell
+exceeds 5 minutes, the samples must be mixed again for 45 cycles before aspiration.
+6. Calibration:
+The system must be calibrated for all parameters except %Retic. The ADVIA SETpoint
+Calibrator is recommended.
+7. Quality Control:
+ADVIA TESTpoint Hematology Controls are the recommended assayed quality controls.
+Quality controls should be assayed at an interval selected by the laboratory, after a
+change in reagent lot number, and after the replacement of any part or component of the
+analytical module that may affect the analytical performance.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development processes for
+this line of product types:
+Yes___X____ or No________
+The Hazard Analysis and Software Development processes were reviewed in premarket
+notification K102644.
+F. Regulatory Information:
+1. Regulation section:
+21 CFR § 864.5220, Automated differential cell counter
+2. Classification:
+Class II
+4
+
+--- Page 5 ---
+3 Product code:
+GKZ, Counter, Differential Cell
+4. Panel:
+Hematology (81)
+G. Intended Use:
+1. Indication(s) for Use:
+The ADVIA 2120/2120i with autoslide are quantitative, automated hematology analyzers
+that provide the following information for in vitro diagnostic use in clinical laboratories:
+· A complete blood count (CBC) consisting of WBC, RBC, Hgb, CN-Free Hgb,
+Calculated Hgb, MCV, Hct, MCH, MCHC, CHCM, RDW, HDW, CH, Plt, MPV
+· A leukocyte differential count consisting of: Neut (%/#), Lymph (%/#), Mono
+(%/#), Eos (%/#), Baso (%/#), LUC (%/#).
+· A reticulocyte analysis consisting of Retic (%/#), MCVg, MCVr, CHCMg,
+CHCMr, CHg, CHr.
+· A nucleated red blood cell count consisting of NRBC (%/#).
+· Enumeration of the total nucleated (TNC) count and RBC count for pleural,
+peritoneal, or peritoneal dialysis (PD) specimens.
+Note: Above measurands are determined (in whole blood, pleural, peritoneal, or
+peritoneal dialysis specimens) with K2 and/or K3 EDTA anti-coagulants.
+· Quantitative determination of blood cells in Cerebrospinal Fluid (CSF) consisting
+of WBC, RBC, Neut (%/#), Lymph (%/#), Mono (%/#), MN (%/#), PMN (%/#)
+In addition, the system provides the added capability to automatically prepare and stain
+high quality blood smears on a glass microscope slide.
+2. Special Conditions for Use Statement(s):
+For prescription use only.
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+ADVIA® 2120/2120i Hematology Auto-Analyzers (K102644)
+2. Comparison with Predicate Device:
+5
+
+--- Page 6 ---
+Similarities
+Item Device Predicate
+Intended Use The ADVIA 2120i RoHS/REACH Same
+compliant instrument will have the
+same intended use as the ADVIA 2120i
+instrument (including the Autoslide
+additional option). The products are
+quantitative, automated hematology
+analyzers that provide the following
+information for in vitro diagnostic use
+in clinical laboratories:
+· A complete blood count (CBC)
+consisting of WBC, RBC, Hgb,
+CN-Free Hgb, Calculated Hgb,
+MCV, Hct, MCH, MCHC,
+CHCM, RDW, HDW, CH, Plt,
+MPV.
+· A leukocyte differential count
+consisting of: Neut (%/#), Lymph
+(%/#), Mono (%/#), Eos (%/#),
+Baso (%/#), LUC (%/#).
+· A reticulocyte analysis consisting
+of Retic (%/#), MCVg, MCVr,
+CHCMg, CHCMr, CHg, CHr.
+· A nucleated red blood cell count
+consisting of NRBC (%/#).
+· Enumeration of the total nucleated
+(TNC) count and RBC count for
+pleural, peritoneal, or peritoneal
+dialysis (PD) specimens.
+Note: Above measurands are
+determined (in whole blood, pleural,
+peritoneal, or peritoneal dialysis
+specimens) with K2 and/or K3 EDTA
+anti-coagulants.
+· Quantitative determination of
+blood cells in Cerebrospinal Fluid
+(CSF) consisting of WBC, RBC,
+Neut (%/#), Lymph (%/#), Mono
+(%/#), MN (%/#), PMN (%/#)
+In addition, the system provides the
+added capability to automatically
+prepare and stain high quality blood
+smears on a glass microscope slide.
+Throughput 120 samples/hour Same
+Whole blood, pleural, peritoneal, or
+Sample type(s) peritoneal dialysis fluid collected in Same
+K EDTA and K EDTA
+2 3
+Sample volume 175 µL Same
+6
+
+[Table 1 on page 6]
+Similarities								
+	Item			Device			Predicate	
+Intended Use			The ADVIA 2120i RoHS/REACH
+compliant instrument will have the
+same intended use as the ADVIA 2120i
+instrument (including the Autoslide
+additional option). The products are
+quantitative, automated hematology
+analyzers that provide the following
+information for in vitro diagnostic use
+in clinical laboratories:
+· A complete blood count (CBC)
+consisting of WBC, RBC, Hgb,
+CN-Free Hgb, Calculated Hgb,
+MCV, Hct, MCH, MCHC,
+CHCM, RDW, HDW, CH, Plt,
+MPV.
+· A leukocyte differential count
+consisting of: Neut (%/#), Lymph
+(%/#), Mono (%/#), Eos (%/#),
+Baso (%/#), LUC (%/#).
+· A reticulocyte analysis consisting
+of Retic (%/#), MCVg, MCVr,
+CHCMg, CHCMr, CHg, CHr.
+· A nucleated red blood cell count
+consisting of NRBC (%/#).
+· Enumeration of the total nucleated
+(TNC) count and RBC count for
+pleural, peritoneal, or peritoneal
+dialysis (PD) specimens.
+Note: Above measurands are
+determined (in whole blood, pleural,
+peritoneal, or peritoneal dialysis
+specimens) with K2 and/or K3 EDTA
+anti-coagulants.
+· Quantitative determination of
+blood cells in Cerebrospinal Fluid
+(CSF) consisting of WBC, RBC,
+Neut (%/#), Lymph (%/#), Mono
+(%/#), MN (%/#), PMN (%/#)
+In addition, the system provides the
+added capability to automatically
+prepare and stain high quality blood
+smears on a glass microscope slide.			Same		
+Throughput			120 samples/hour			Same		
+Sample type(s)			Whole blood, pleural, peritoneal, or
+peritoneal dialysis fluid collected in
+K EDTA and K EDTA
+2 3			Same		
+Sample volume			175 µL			Same		
+
+--- Page 7 ---
+Similarities
+Item Device Predicate
+Sampling modes Manual open tube sampler (MOTS)
+Manual closed tube sampler (MCTS) Same
+Automated closed tube sampler (ACTS)
+Reagents CBC TIMEPAC
+CN-Free CBC TIMEPAC
+DIFF TIMEPAC
+Same
+autoRetic
+EZ KLEEN
+SHEATH/RINSE
+Calibrators ADVIA OPTIpoint
+Same
+ADVIA SETpoint
+Quality controls ADVIA TESTpoint Low
+ADVIA TESTpoint Normal
+ADVIA TESTpoint High
+ADVIA TESTpoint Retic Low
+Same
+ADVIA TESTpoint Retic High
+ADVIA TESTpoint 3-in-1 Abnormal1
+ADVIA TESTpoint 3-in-1 Normal
+ADVIA TESTpoint 3-in-1 Abnormal2
+Differences
+Item Device Predicate
+Signal Processor PCB New VHDL implementation of signal Existing non-RoHS compliant
+processing and monitor/keyboard Signal Processing PCB. No
+interface design. No onboard software. onboard software.
+Autosampler Control New VHDL implementation of former Dropped in SMC4 motor
+PCB DAA used discrete components and includes controller. Onboard motion
+SMC4 motor control. No change to control software for 80186
+predicate software (CPU).
+Autosampler Control New VHDL implementation of former Dropped in SMC4 motor
+PCB SAA used discrete components and includes controller. Onboard motion
+SMC4 motor control. control software for 80186
+(CPU).
+Reference No onboard software or firmware. No onboard software or
+preAmplifier firmware. Contains some non-
+RoHS compliant components.
+PreAmp Power Supply No onboard software or firmware. No onboard software or
+Uses the predicate sensors firmware. Contains some non-
+RoHS compliant components.
+Laser Diode Driver 1 No onboard software or firmware. No onboard software or
+Contains some minor RoHS firmware. Contains some non-
+component changes. RoHS compliant components.
+Dual Servo Pump New VHDL implementation of former Uses original Software
+used discrete components. Uses
+original software.
+Valve Driver Board New VHDL implementation of former Uses original Software
+used discrete components. Uses
+original software.
+7
+
+[Table 1 on page 7]
+Similarities								
+	Item			Device			Predicate	
+Sampling modes			Manual open tube sampler (MOTS)
+Manual closed tube sampler (MCTS)
+Automated closed tube sampler (ACTS)			Same		
+Reagents			CBC TIMEPAC
+CN-Free CBC TIMEPAC
+DIFF TIMEPAC
+autoRetic
+EZ KLEEN
+SHEATH/RINSE			Same		
+Calibrators			ADVIA OPTIpoint
+ADVIA SETpoint			Same		
+Quality controls			ADVIA TESTpoint Low
+ADVIA TESTpoint Normal
+ADVIA TESTpoint High
+ADVIA TESTpoint Retic Low
+ADVIA TESTpoint Retic High
+ADVIA TESTpoint 3-in-1 Abnormal1
+ADVIA TESTpoint 3-in-1 Normal
+ADVIA TESTpoint 3-in-1 Abnormal2			Same		
+
+[Table 2 on page 7]
+Differences								
+	Item			Device			Predicate	
+Signal Processor PCB			New VHDL implementation of signal
+processing and monitor/keyboard
+interface design. No onboard software.			Existing non-RoHS compliant
+Signal Processing PCB. No
+onboard software.		
+Autosampler Control
+PCB DAA			New VHDL implementation of former
+used discrete components and includes
+SMC4 motor control. No change to
+predicate software			Dropped in SMC4 motor
+controller. Onboard motion
+control software for 80186
+(CPU).		
+Autosampler Control
+PCB SAA			New VHDL implementation of former
+used discrete components and includes
+SMC4 motor control.			Dropped in SMC4 motor
+controller. Onboard motion
+control software for 80186
+(CPU).		
+Reference
+preAmplifier			No onboard software or firmware.			No onboard software or
+firmware. Contains some non-
+RoHS compliant components.		
+PreAmp Power Supply			No onboard software or firmware.
+Uses the predicate sensors			No onboard software or
+firmware. Contains some non-
+RoHS compliant components.		
+Laser Diode Driver 1			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			No onboard software or
+firmware. Contains some non-
+RoHS compliant components.		
+Dual Servo Pump			New VHDL implementation of former
+used discrete components. Uses
+original software.			Uses original Software		
+Valve Driver Board			New VHDL implementation of former
+used discrete components. Uses
+original software.			Uses original Software		
+
+--- Page 8 ---
+Differences
+Item Device Predicate
+Parallel Node New VHDL implementation of former Uses original Software
+used discrete components. Uses
+original Software.
+HGB Interface New VHDL implementation of former Uses original Software
+used discrete components. Uses
+original Software.
+Perox Optics No onboard software or firmware. No onboard software or
+Scrambler Contains some minor RoHS firmware. Contains some non-
+component changes. RoHS compliant components.
+Sensor Amplifier No onboard software or firmware. No onboard software or
+Contains some minor RoHS firmware. Contains some non-
+component changes. RoHS compliant components.
+Rack Sensor LED No onboard software or firmware. No onboard software or
+Contains some minor RoHS firmware. Contains some non-
+component changes. RoHS compliant components.
+Indicator Assy DAA No onboard software or firmware. No onboard software or
+Contains some minor RoHS firmware. Contains some non-
+component changes. RoHS compliant components.
+Indicator Assy SAA No onboard software or firmware. Interconnect board. No
+Contains some minor RoHS onboard software or firmware.
+component changes. Contains some non-RoHS
+compliant components.
+Input/Output Q I/O No onboard software or firmware. Interconnect board. No
+PCBA Contains some minor RoHS onboard software or firmware.
+component changes. Contains some non-RoHS
+compliant components.
+CAN Scrambler No onboard software or firmware. Interconnect board. No
+Contains some minor RoHS onboard software or firmware.
+component changes. Contains some non-RoHS
+compliant components.
+No onboard software or firmware. Interconnect board. No
+Baso Optics Scrambler
+Contains some minor RoHS onboard software or firmware.
+o Optics Scrambler
+component changes. Contains some non-RoHS
+compliant components.
+Pneu Valve Scrambler No onboard software or firmware. Interconnect board. No
+Board Contains some minor RoHS onboard software or firmware.
+component changes. Contains some non-RoHS
+Valve Scrambler
+compliant components.
+Board
+UFC Illumination No onboard software or firmware. Provides cosmetic lighting. No
+Contains some minor RoHS onboard software or firmware.
+Board
+component changes. Contains some non-RoHS
+Illumination Board
+compliant components.
+No onboard software or firmware. Interconnect board. No
+Switch Panel Interface
+Contains some minor RoHS onboard software or firmware.
+Panel Interface
+component changes. Contains some non-RoHS
+compliant components.
+No onboard software or firmware. Interconnect board. No
+ID Reader Interface
+Contains some minor RoHS onboard software or firmware.
+8
+
+[Table 1 on page 8]
+Differences								
+	Item			Device			Predicate	
+Parallel Node			New VHDL implementation of former
+used discrete components. Uses
+original Software.			Uses original Software		
+HGB Interface			New VHDL implementation of former
+used discrete components. Uses
+original Software.			Uses original Software		
+Perox Optics
+Scrambler			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			No onboard software or
+firmware. Contains some non-
+RoHS compliant components.		
+Sensor Amplifier			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			No onboard software or
+firmware. Contains some non-
+RoHS compliant components.		
+Rack Sensor LED			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			No onboard software or
+firmware. Contains some non-
+RoHS compliant components.		
+Indicator Assy DAA			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			No onboard software or
+firmware. Contains some non-
+RoHS compliant components.		
+Indicator Assy SAA			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			Interconnect board. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+Input/Output Q I/O
+PCBA			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			Interconnect board. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+CAN Scrambler			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			Interconnect board. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+Baso Optics Scrambler
+o Optics Scrambler			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			Interconnect board. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+Pneu Valve Scrambler
+Board
+Valve Scrambler
+Board			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			Interconnect board. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+UFC Illumination
+Board
+Illumination Board			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			Provides cosmetic lighting. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+Switch Panel Interface
+Panel Interface			No onboard software or firmware.
+Contains some minor RoHS
+component changes.			Interconnect board. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+ID Reader Interface			No onboard software or firmware.
+Contains some minor RoHS			Interconnect board. No
+onboard software or firmware.		
+
+--- Page 9 ---
+Differences
+Item Device Predicate
+component changes. Contains some non-RoHS
+compliant components.
+UFC Valve Scrambler No onboard software or firmware. Interconnect board. No
+PCB Contains some minor RoHS onboard software or firmware.
+component changes. Contains some non-RoHS
+compliant components.
+I. Special Control/Guidance Document Referenced (if applicable):
+CLSI EP05-A3, Evaluation of Precision Performance of Quantitative Measurement Methods;
+Approved Guideline - Third Edition
+CLSI EP15-A3, User Verification of Precision and Estimation of Bias; Approved Guideline -
+Third Edition
+CLSI EP09-A3, Measuring Procedure Comparison and Bias Estimation Using Patient
+Samples; Approved Guideline - Third Edition
+CLSI EP17-A2, Evaluation of Detection Capability for Clinical Laboratory Measurement
+Procedures; Approved Guideline - Second Edition
+ISO 14971, Medical Devices - Application of Risk Management to Medical Devices
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Method Comparison:
+To assess the performance of the ADVIA 2120i® RoHS/REACH compliant system
+compared to the ADVIA 2120i® (K102644), 110 whole blood samples, 40
+cerebrospinal (CSF) samples, and 40 body fluid (BF) samples were analyzed on four
+different system configurations. Configurations 2 and 4 consisted of the candidate
+device, whereas configurations 1 and 3 consisted of the predicate device, ADVIA
+2120i (K102644).
+Device Configurations
+Predicate Device Candidate Device
+Configuration 1 Configuration 3 Configuration 2 Configuration 4
+Cyanide-free Cyanide containing Cyanide-free Cyanide containing
+CBC TIMEPAC CBC TIMEPAC CBC TIMEPAC CBC TIMEPAC
+Dual aspirate Single aspirate Dual aspirate Single aspirate
+autosampler autosampler autosampler autosampler
+9
+
+[Table 1 on page 9]
+Differences							
+	Item		Device			Predicate	
+			component changes.		Contains some non-RoHS
+compliant components.		
+UFC Valve Scrambler
+PCB			No onboard software or firmware.
+Contains some minor RoHS
+component changes.		Interconnect board. No
+onboard software or firmware.
+Contains some non-RoHS
+compliant components.		
+
+[Table 2 on page 9]
+Predicate Device		Candidate Device	
+Configuration 1	Configuration 3	Configuration 2	Configuration 4
+Cyanide-free
+CBC TIMEPAC	Cyanide containing
+CBC TIMEPAC	Cyanide-free
+CBC TIMEPAC	Cyanide containing
+CBC TIMEPAC
+Dual aspirate
+autosampler	Single aspirate
+autosampler	Dual aspirate
+autosampler	Single aspirate
+autosampler
+
+--- Page 10 ---
+Whole Blood Method Comparison – All Sites
+Correlation Mean
+Parameter Slope Intercept
+Coefficient Predicate Candidate
+WBC (x103/µL) 0.999 0.99 -0.01 10.66 10.55
+RBC (x106/µL) 0.996 0.99 0.04 3.38 3.37
+Hgb (g/dL) 0.999 0.97 0.0 10.2 10.2
+MCV (fL) 0.993 0.99 0.9 93.3 93.2
+CHCM (g/dL) 0.981 0.97 1.2 32.0 32.1
+RDW (%) 0.997 0.99 0.1 16.2 16.1
+HDW (g/dL) 0.981 0.99 0.0 2.97 2.90
+Plt (x103/µL) 0.997 1.00 -1.0 182 184
+MPV (fL) 0.902 0.99 -0.4 9.2 9.7
+Neut % 0.991 1.02 -1.9 65.6 65.1
+Lymph % 0.981 1.03 -0.2 19.9 20.3
+Mono % 0.920 1.10 -0.5 6.8 6.9
+Eos % 0.947 0.96 -0.2 2.3 2.1
+Baso % 0.884 1.00 0.0 0.8 0.8
+LUC % 0.988 1.00 0.2 4.7 5.0
+Retic % 0.966 1.17 -0.1 2.1 2.4
+CHr (pg) 0.950 1.02 -0.7 31.7 31.6
+NRBC % 0.996 1.10 -0.5 14.2 13.7
+CSF Method Comparison – All Sites
+Correlation Mean
+Parameter Slope Intercept
+Coefficient Predicate Candidate
+WBC (cells/µL) 0.999 0.93 1.3 83 78
+RBC (cells/µL) 0.999 1.07 -4.1 455 482
+Neut % 0.960 0.83 3.9 27.7 26.7
+Lymph % 0.960 0.96 1.1 53.9 52.6
+Mono % 0.901 0.98 2.1 17.7 19.5
+MN % 0.958 0.85 11.2 71.6 72.1
+PMN % 0.958 0.85 3.7 28.4 27.9
+Body Fluid Method Comparison – All Sites
+Correlation Mean
+Parameter Slope Intercept
+Coefficient Predicate Candidate
+TNC (cells/µL) 0.999 1.03 -18 916 924
+RBC (x103/µL) 0.998 0.96 12 377 375
+b. Precision/Reproducibility:
+To obtain measures of within-run (repeatability) imprecision (%CV and SD), normal
+and pathological whole blood samples were analyzed in the following modes of
+operation: autosampler (AS), manual closed tube sampler (MCT), and manual open
+tube sampler (MOT). At least 30 replicates were performed for each sample analyzed.
+The result for each whole blood parameter was within the predefined acceptance
+criteria for SD or %CV.
+Within-run imprecision of CSF was evaluated in the MOT mode; whereas, body
+fluids were analyzed in the MOT and MCT modes. At least 30 replicates were
+performed for each sample analyzed. The results for each sample matrix and
+10
+
+[Table 1 on page 10]
+Parameter		Correlation		Slope	Intercept		Mean		
+		Coefficient					Predicate	Candidate	
+WBC (x103/µL)	0.999			0.99	-0.01	10.66		10.55	
+RBC (x106/µL)	0.996			0.99	0.04	3.38		3.37	
+Hgb (g/dL)	0.999			0.97	0.0	10.2		10.2	
+MCV (fL)	0.993			0.99	0.9	93.3		93.2	
+CHCM (g/dL)	0.981			0.97	1.2	32.0		32.1	
+RDW (%)	0.997			0.99	0.1	16.2		16.1	
+HDW (g/dL)	0.981			0.99	0.0	2.97		2.90	
+Plt (x103/µL)	0.997			1.00	-1.0	182		184	
+MPV (fL)	0.902			0.99	-0.4	9.2		9.7	
+Neut %	0.991			1.02	-1.9	65.6		65.1	
+Lymph %	0.981			1.03	-0.2	19.9		20.3	
+Mono %	0.920			1.10	-0.5	6.8		6.9	
+Eos %	0.947			0.96	-0.2	2.3		2.1	
+Baso %	0.884			1.00	0.0	0.8		0.8	
+LUC %	0.988			1.00	0.2	4.7		5.0	
+Retic %	0.966			1.17	-0.1	2.1		2.4	
+CHr (pg)	0.950			1.02	-0.7	31.7		31.6	
+NRBC %	0.996			1.10	-0.5	14.2		13.7	
+
+[Table 2 on page 10]
+Parameter		Correlation		Slope	Intercept		Mean		
+		Coefficient					Predicate	Candidate	
+WBC (cells/µL)	0.999			0.93	1.3	83		78	
+RBC (cells/µL)	0.999			1.07	-4.1	455		482	
+Neut %	0.960			0.83	3.9	27.7		26.7	
+Lymph %	0.960			0.96	1.1	53.9		52.6	
+Mono %	0.901			0.98	2.1	17.7		19.5	
+MN %	0.958			0.85	11.2	71.6		72.1	
+PMN %	0.958			0.85	3.7	28.4		27.9	
+
+[Table 3 on page 10]
+Parameter		Correlation		Slope	Intercept		Mean		
+		Coefficient					Predicate	Candidate	
+TNC (cells/µL)	0.999			1.03	-18	916		924	
+RBC (x103/µL)	0.998			0.96	12	377		375	
+
+--- Page 11 ---
+parameter were within the predefined acceptance criteria for SD or %CV.
+Whole Blood – Configuration 2
+Manual Closed-Tube Manual Open-Tube
+Autosampler (AS)
+Parameter (MCT) (MOT)
+Mean SD %CV Mean SD %CV Mean SD %CV
+WBC P (x103/µL) 4.51 0.12 2.72 4.28 0.10 2.42 4.40 0.13 2.92
+WBC B (x103/µL) 4.43 0.09 2.01 4.31 0.10 2.28 4.51 0.13 2.94
+RBC (x106/µL) 4.55 0.02 0.53 4.58 0.03 0.74 4.71 0.04 0.89
+Hgb (g/dL) 13.4 0.07 0.55 13.3 0.09 0.64 13.8 0.09 0.68
+MCV (fL) 88.9 0.07 0.08 90.1 0.15 0.16 86.5 0.12 0.14
+CHCM (g/dL) 33.0 0.04 0.11 32.1 0.07 0.22 34.3 0.07 0.21
+RDW (%) 14.9 0.08 0.53 14.9 0.06 0.38 14.9 0.06 0.38
+HDW (g/dL) 2.47 0.01 0.53 2.41 0.01 0.47 2.48 0.01 0.47
+Plt (x103/µL) 277 7.34 2.65 281 6.58 2.34 286 8.30 2.91
+Neut % 45.4 0.94 2.08 45.6 0.80 1.76 47.4 0.85 1.79
+Lymph % 40.0 0.89 2.23 39.8 1.01 2.55 38.7 1.14 2.95
+Mono % 9.5 0.86 9.06 9.6 0.58 6.07 9.3 0.58 6.23
+Eos % 2.8 0.29 10.58 2.7 0.20 7.49 2.7 0.26 9.77
+LUC % 1.9 0.21 10.95 1.8 0.30 16.35 1.4 0.20 14.7
+Baso % 0.5 0.13 26.88 0.5 0.13 26.66 0.7 0.15 23.21
+Retic % 1.2 0.10 8.53 1.2 0.08 6.57 0.7 0.07 9.69
+MPV 7.8 0.11 1.41 8.0 0.13 1.59 8.8 0.11 1.28
+Whole Blood – Configuration 4
+Manual Closed-Tube Manual Open-Tube
+Autosampler (AS)
+Parameter (MCT) (MOT)
+Mean SD %CV Mean SD %CV Mean SD %CV
+WBC P (x103/µL) 6.18 0.11 1.71 7.57 0.20 2.58 7.27 0.15 2.03
+WBC B (x103/µL) 5.69 0.10 1.68 7.38 0.15 2.07 6.99 0.13 1.87
+RBC (x106/µL) 5.03 0.04 0.74 4.94 0.03 0.69 5.06 0.04 0.80
+Hgb (g/dL) 14.9 0.07 0.48 16.4 0.09 0.55 16.7 0.12 0.72
+MCV (fL) 87.2 0.23 0.26 93.3 0.07 0.08 92.7 0.12 0.13
+CHCM (g/dL) 33.4 0.12 0.36 35.0 0.05 0.15 35.3 0.04 0.13
+RDW (%) 12.9 0.11 0.83 13.0 0.08 0.64 13.0 0.11 0.83
+HDW (g/dL) 2.34 0.01 0.61 2.54 0.01 0.46 2.56 0.01 0.42
+Plt (x103/µL) 231 5.78 2.50 244 5.66 2.32 259 7.09 2.74
+Neut % 56.4 0.60 1.07 60.8 0.63 1.03 60.5 0.59 0.98
+Lymph % 27.8 0.70 2.52 25.9 0.68 2.61 25.7 0.58 2.27
+Mono % 7.6 0.38 5.08 6.3 0.34 5.43 6.4 0.40 6.29
+Eos % 6.0 0.25 4.16 3.1 0.24 7.83 3.2 0.23 7.27
+LUC % 1.6 0.19 11.80 3.3 0.34 10.34 3.5 0.29 8.22
+Baso % 0.6 0.09 16.37 0.8 0.10 12.37 0.8 0.11 14.40
+Retic % 1.5 0.05 3.69 0.8 0.05 6.00 0.9 0.06 6.82
+MPV 10.4 0.14 1.30 9.0 0.13 1.39 8.9 0.09 1.07
+11
+
+[Table 1 on page 11]
+Parameter	Autosampler (AS)										Manual Closed-Tube
+(MCT)					Manual Open-Tube
+(MOT)					
+		Mean			SD			%CV			Mean			SD	%CV	Mean		SD		%CV	
+WBC P (x103/µL)	4.51			0.12			2.72			4.28			0.10		2.42	4.40		0.13		2.92	
+WBC B (x103/µL)	4.43			0.09			2.01			4.31			0.10		2.28	4.51		0.13		2.94	
+RBC (x106/µL)	4.55			0.02			0.53			4.58			0.03		0.74	4.71		0.04		0.89	
+Hgb (g/dL)	13.4			0.07			0.55			13.3			0.09		0.64	13.8		0.09		0.68	
+MCV (fL)	88.9			0.07			0.08			90.1			0.15		0.16	86.5		0.12		0.14	
+CHCM (g/dL)	33.0			0.04			0.11			32.1			0.07		0.22	34.3		0.07		0.21	
+RDW (%)	14.9			0.08			0.53			14.9			0.06		0.38	14.9		0.06		0.38	
+HDW (g/dL)	2.47			0.01			0.53			2.41			0.01		0.47	2.48		0.01		0.47	
+Plt (x103/µL)	277			7.34			2.65			281			6.58		2.34	286		8.30		2.91	
+Neut %	45.4			0.94			2.08			45.6			0.80		1.76	47.4		0.85		1.79	
+Lymph %	40.0			0.89			2.23			39.8			1.01		2.55	38.7		1.14		2.95	
+Mono %	9.5			0.86			9.06			9.6			0.58		6.07	9.3		0.58		6.23	
+Eos %	2.8			0.29			10.58			2.7			0.20		7.49	2.7		0.26		9.77	
+LUC %	1.9			0.21			10.95			1.8			0.30		16.35	1.4		0.20		14.7	
+Baso %	0.5			0.13			26.88			0.5			0.13		26.66	0.7		0.15		23.21	
+Retic %	1.2			0.10			8.53			1.2			0.08		6.57	0.7		0.07		9.69	
+MPV	7.8			0.11			1.41			8.0			0.13		1.59	8.8		0.11		1.28	
+
+[Table 2 on page 11]
+Parameter	Autosampler (AS)										Manual Closed-Tube
+(MCT)					Manual Open-Tube
+(MOT)					
+		Mean			SD			%CV			Mean			SD	%CV	Mean		SD		%CV	
+WBC P (x103/µL)	6.18			0.11			1.71			7.57			0.20		2.58	7.27	0.15		2.03		
+WBC B (x103/µL)	5.69			0.10			1.68			7.38			0.15		2.07	6.99	0.13		1.87		
+RBC (x106/µL)	5.03			0.04			0.74			4.94			0.03		0.69	5.06	0.04		0.80		
+Hgb (g/dL)	14.9			0.07			0.48			16.4			0.09		0.55	16.7	0.12		0.72		
+MCV (fL)	87.2			0.23			0.26			93.3			0.07		0.08	92.7	0.12		0.13		
+CHCM (g/dL)	33.4			0.12			0.36			35.0			0.05		0.15	35.3	0.04		0.13		
+RDW (%)	12.9			0.11			0.83			13.0			0.08		0.64	13.0	0.11		0.83		
+HDW (g/dL)	2.34			0.01			0.61			2.54			0.01		0.46	2.56	0.01		0.42		
+Plt (x103/µL)	231			5.78			2.50			244			5.66		2.32	259	7.09		2.74		
+Neut %	56.4			0.60			1.07			60.8			0.63		1.03	60.5	0.59		0.98		
+Lymph %	27.8			0.70			2.52			25.9			0.68		2.61	25.7	0.58		2.27		
+Mono %	7.6			0.38			5.08			6.3			0.34		5.43	6.4	0.40		6.29		
+Eos %	6.0			0.25			4.16			3.1			0.24		7.83	3.2	0.23		7.27		
+LUC %	1.6			0.19			11.80			3.3			0.34		10.34	3.5	0.29		8.22		
+Baso %	0.6			0.09			16.37			0.8			0.10		12.37	0.8	0.11		14.40		
+Retic %	1.5			0.05			3.69			0.8			0.05		6.00	0.9	0.06		6.82		
+MPV	10.4			0.14			1.30			9.0			0.13		1.39	8.9	0.09		1.07		
+
+--- Page 12 ---
+Low Abnormal Whole Blood – Autosampler (AS)
+Configuration 2 Configuration 4
+Parameter
+Mean SD %CV Mean SD %CV
+WBC (x103/µL) 0.85 0.10 11.8 1.02 0.10 9.9
+RBC (x106/µL) 2.15 0.01 0.6 2.19 0.02 0.8
+Hgb (g/dL) 6.5 0.05 0.8 6.5 0.05 0.8
+Plt (x103/µL) 39 1.7 4.5 36 1.6 4.4
+Low Abnormal Whole Blood – Manual Closed-Tube (MCT)
+Configuration 2 Configuration 4
+Parameter
+Mean SD %CV Mean SD %CV
+WBC (x103/µL) 0.80 0.11 14.3 0.99 0.10 10.2
+RBC (x106/µL) 2.15 0.02 0.7 2.17 0.02 1.0
+Hgb (g/dL) 6.5 0.05 0.8 6.5 0.04 0.6
+Plt (x103/µL) 38 2.0 5.3 36 1.7 4.8
+Low Abnormal Whole Blood – Manual Open-Tube (MOT)
+Configuration 2 Configuration 4
+Parameter
+Mean SD %CV Mean SD %CV
+WBC (x103/µL) 1.14 0.09 8.2 1.32 0.09 7.1
+RBC (x106/µL) 2.97 0.03 0.9 2.96 0.01 0.5
+Hgb (g/dL) 8.7 0.05 0.5 8.6 0.06 0.7
+Plt (x103/µL) 39 2.4 6.1 37 1.9 5.1
+High Abnormal Whole Blood – Autosampler (AS)
+Configuration 2 Configuration 4
+Parameter
+Mean SD %CV Mean SD %CV
+WBC (x103/µL) 373.13 8.63 2.3 381.23 8.95 2.3
+RBC (x106/µL) 7.04 0.07 1.0 7.13 0.06 0.8
+Hgb (g/dL) 21.5 0.17 0.8 22.0 0.16 0.7
+Plt (x103/µL) 3470 69.5 2.0 3221 62.4 1.9
+High Abnormal Whole Blood – Manual Closed-Tube (MCT)
+Configuration 2 Configuration 4
+Parameter
+Mean SD %CV Mean SD %CV
+WBC (x103/µL) 376.60 7.91 2.1 418.2 10.52 2.5
+RBC (x106/µL) 7.06 0.05 0.7 7.16 0.07 1.0
+Hgb (g/dL) 21.6 0.09 0.4 22.1 0.20 0.9
+Plt (x103/µL) 3478 58.9 1.7 3256 35.3 1.1
+High Abnormal Whole Blood – Manual Open-Tube (MOT)
+Configuration 2 Configuration 4
+Parameter
+Mean SD %CV Mean SD %CV
+WBC (x103/µL) 376.44 8.96 2.4 392.41 9.32 2.4
+RBC (x106/µL) 7.52 0.07 0.9 7.48 0.06 0.9
+Hgb (g/dL) 23.5 0.17 0.7 23.7 0.18 0.8
+Plt (x103/µL) 3464 65.1 1.9 3217 46.8 1.5
+12
+
+[Table 1 on page 12]
+Parameter		Configuration 2									Configuration 4							
+		Mean			SD			%CV			Mean			SD			%CV	
+WBC (x103/µL)	0.85			0.10			11.8			1.02			0.10			9.9		
+RBC (x106/µL)	2.15			0.01			0.6			2.19			0.02			0.8		
+Hgb (g/dL)	6.5			0.05			0.8			6.5			0.05			0.8		
+Plt (x103/µL)	39			1.7			4.5			36			1.6			4.4		
+
+[Table 2 on page 12]
+Parameter		Configuration 2									Configuration 4							
+		Mean			SD			%CV			Mean			SD			%CV	
+WBC (x103/µL)	0.80			0.11			14.3			0.99			0.10			10.2		
+RBC (x106/µL)	2.15			0.02			0.7			2.17			0.02			1.0		
+Hgb (g/dL)	6.5			0.05			0.8			6.5			0.04			0.6		
+Plt (x103/µL)	38			2.0			5.3			36			1.7			4.8		
+
+[Table 3 on page 12]
+Parameter		Configuration 2									Configuration 4							
+		Mean			SD			%CV			Mean			SD			%CV	
+WBC (x103/µL)	1.14			0.09			8.2			1.32			0.09			7.1		
+RBC (x106/µL)	2.97			0.03			0.9			2.96			0.01			0.5		
+Hgb (g/dL)	8.7			0.05			0.5			8.6			0.06			0.7		
+Plt (x103/µL)	39			2.4			6.1			37			1.9			5.1		
+
+[Table 4 on page 12]
+Parameter		Configuration 2									Configuration 4							
+		Mean			SD			%CV			Mean			SD			%CV	
+WBC (x103/µL)	373.13			8.63			2.3			381.23			8.95			2.3		
+RBC (x106/µL)	7.04			0.07			1.0			7.13			0.06			0.8		
+Hgb (g/dL)	21.5			0.17			0.8			22.0			0.16			0.7		
+Plt (x103/µL)	3470			69.5			2.0			3221			62.4			1.9		
+
+[Table 5 on page 12]
+Parameter		Configuration 2									Configuration 4							
+		Mean			SD			%CV			Mean			SD			%CV	
+WBC (x103/µL)	376.60			7.91			2.1			418.2			10.52			2.5		
+RBC (x106/µL)	7.06			0.05			0.7			7.16			0.07			1.0		
+Hgb (g/dL)	21.6			0.09			0.4			22.1			0.20			0.9		
+Plt (x103/µL)	3478			58.9			1.7			3256			35.3			1.1		
+
+[Table 6 on page 12]
+Parameter		Configuration 2									Configuration 4							
+		Mean			SD			%CV			Mean			SD			%CV	
+WBC (x103/µL)	376.44			8.96			2.4			392.41			9.32			2.4		
+RBC (x106/µL)	7.52			0.07			0.9			7.48			0.06			0.9		
+Hgb (g/dL)	23.5			0.17			0.7			23.7			0.18			0.8		
+Plt (x103/µL)	3464			65.1			1.9			3217			46.8			1.5		
+
+--- Page 13 ---
+Cerebrospinal Fluid (CSF) – Manual Open-Tube (MOT)
+Configuration 2 Configuration 4
+Parameter N
+Mean SD %CV Mean SD %CV
+WBC (cells/µL) 30 104 4.12 3.97 99 4.83 4.88
+RBC (cells/µL) 30 199 7.60 3.82 225 7.38 3.28
+MN % 30 48 3.62 7.59 49 4.05 8.23
+PMN % 30 56 2.90 5.17 50 3.58 7.20
+Body Fluid
+Manual Open-Tube (MOT) Manual Closed-Tube (MCT)
+Parameter N Configuration 2 Configuration 4 Configuration 2 Configuration 4
+Mean SD %CV Mean SD %CV Mean SD %CV Mean SD %CV
+TNC (cells/µL) 30 1626.30 43.44 2.67 1270.82 38.50 3.03 4.31 0.08 1.92 1302.04 57.54 4.42
+RBC (x103/µL) 30 76.27 2.81 3.68 59.20 2.43 4.11 4.58 0.03 0.76 58.31 4.42 4.06
+To obtain measures of within-device imprecision (%CV and SD), three levels of
+ADVIA TESTpoint 3in1 Controls (Abnormal 1, Abnormal 2, and Normal) and two
+levels of CSF Controls (Level 1 and Level 2) were analyzed over 28 days, two runs
+per day and two replicates per run. The results of each study were within the
+predefined acceptance criteria for SD or %CV.
+c. Linearity:
+The linear ranges for the WBC, RBC, Hgb, PLT and %Retic parameters were
+established by testing two different sample sets (for each parameter with a wide
+overlap) prepared by diluting FDA cleared commercially available linearity materials
+to span the analytical measuring range (AMR). The linear ranges for the CSF RBC
+and body fluid (BF) RBC parameters were established by testing diluted samples
+prepared from anticoagulated whole blood. Results for each parameter were within
+the predefined acceptance criteria.
+Analytical Measuring
+Parameter
+Range
+WBC (x103/µL) 0.02–400
+RBC (x106/µL) 0.0–7.0
+HGB (g/dL) 0–22.5
+CN-Free HGB (g/dL) 1–22.5
+%Retic 0.2–24.5
+PLT (x103/µL) 5–3500
+CSF WBC (cells/µL) 0–50
+CSF RBC (cells/µL) 0–1500
+BF TNC (x103/µL) 0.02–400
+BF RBC (x106/µL) 0.01–6.76
+d. Carryover:
+Carryover studies for the WBC, RBC, HGB, and PLT parameters were conducted
+using pooled whole blood as high target value (HTV) samples and plasma as low
+target value (LTV) samples. Testing was conducted by aspirating a HTV whole blood
+13
+
+[Table 1 on page 13]
+Parameter	N	Configuration 2			Configuration 4		
+		Mean	SD	%CV	Mean	SD	%CV
+WBC (cells/µL)	30	104	4.12	3.97	99	4.83	4.88
+RBC (cells/µL)	30	199	7.60	3.82	225	7.38	3.28
+MN %	30	48	3.62	7.59	49	4.05	8.23
+PMN %	30	56	2.90	5.17	50	3.58	7.20
+
+[Table 2 on page 13]
+		Manual Open-Tube (MOT)						Manual Closed-Tube (MCT)					
+Parameter	N	Configuration 2			Configuration 4			Configuration 2			Configuration 4		
+		Mean	SD	%CV	Mean	SD	%CV	Mean	SD	%CV	Mean	SD	%CV
+TNC (cells/µL)	30	1626.30	43.44	2.67	1270.82	38.50	3.03	4.31	0.08	1.92	1302.04	57.54	4.42
+RBC (x103/µL)	30	76.27	2.81	3.68	59.20	2.43	4.11	4.58	0.03	0.76	58.31	4.42	4.06
+
+[Table 3 on page 13]
+Parameter		Analytical Measuring
+Range
+WBC (x103/µL)	0.02–400	
+RBC (x106/µL)	0.0–7.0	
+HGB (g/dL)	0–22.5	
+CN-Free HGB (g/dL)	1–22.5	
+%Retic	0.2–24.5	
+PLT (x103/µL)	5–3500	
+CSF WBC (cells/µL)	0–50	
+CSF RBC (cells/µL)	0–1500	
+BF TNC (x103/µL)	0.02–400	
+BF RBC (x106/µL)	0.01–6.76	
+
+--- Page 14 ---
+sample in triplicate followed by triplicate analysis of plasma-based LTV samples.
+Carryover was calculated according to the following calculation.
+% Carryover = (LTV1 – LTV3)/(HTV3 – LTV3) x 100
+The results of the carryover study were within the predefined specifications of ≤ 1.0%
+for WBC, RBC, HGB, and PLT in the autosampler, manual-open and manual-closed
+tube modes.
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+14

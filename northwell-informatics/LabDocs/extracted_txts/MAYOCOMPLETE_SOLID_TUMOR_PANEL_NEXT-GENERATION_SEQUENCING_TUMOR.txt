@@ -1,0 +1,129 @@
+Standard Operating Procedure (SOP) for MAYOCOMPLETE Solid
+Tumor Panel, Next-Generation Sequencing (NGS), Tumor
+1. Purpose
+The purpose of this Standard Operating Procedure (SOP) is to
+outline the analytical phase processes required to generate reliable
+and reproducible results for the MAYOCOMPLETE Solid Tumor
+Panel using Next-Generation Sequencing (NGS) technology. This
+protocol ensures that procedures are followed in a consistent and
+standardized manner in compliance with CLIA regulations.
+1. Scope
+This SOP applies to all laboratory staff involved in the analytical
+phase of the MAYOCOMPLETE Solid Tumor Panel test in the [Your
+Laboratory Name] CLIA-certified laboratory. It includes steps from
+sample preparation to data analysis and interpretation.
+1. Responsibilities
+• Laboratory Technologists: Follow the SOP for the NGS
+process, from sample preparation to data analysis, and document
+all steps accurately.
+• Supervisors/Managers: Ensure all staff are trained on this SOP
+and compliance is maintained. Monitor and cross-check
+documentation and result interpretations.
+• Quality Control Personnel: Monitor the quality control and
+assurance processes. Investigate and resolve any deviations from
+standard procedures.
+1. Definitions and Abbreviations
+• NGS: Next-Generation Sequencing
+• DNA: Deoxyribonucleic Acid
+• QC: Quality Control
+• QNS: Quantity Not Sufficient
+• PCR: Polymerase Chain Reaction
+1. Specimen Requirements
+• Specimen Type: Formalin-fixed paraffin-embedded (FFPE) tumor
+tissue
+• Unacceptable Specimens: Specimens that are poorly fixed,
+have insufficient tumor content, or are otherwise unsuitable for
+DNA extraction and sequencing.
+1. Equipment, Reagents, and Supplies
+• NGS Sequencer: Ensure sequencer is calibrated as per
+manufacturer's instructions.
+• DNA Extraction Kit: Use recommended DNA extraction kit for
+FFPE samples.
+• Library Preparation Kit: Follow the library preparation protocols
+for the specific NGS platform.
+• Quality Control reagents: Include appropriate positive and
+negative controls.
+• Laboratory Software: For sequencing data analysis and
+interpretation.
+1. Procedure
+A. Sample Preparation
+1. DNA Extraction
+◦ Deparaffinize FFPE tissue sections.
+◦ Extract DNA using the validated DNA extraction kit.
+◦ Quantify and assess the quality of the extracted DNA.
+2. Quality Control of DNA
+◦ Measure DNA concentration with a fluorometer.
+◦ Assess DNA quality by running an aliquot on an agarose gel
+or using a Bioanalyzer.
+◦ Record DNA quantity and quality metrics.
+◦ If the DNA is degraded or QNS, request a new sample.
+B. Library Preparation
+1. Fragment DNA
+◦ Fragment DNA to the appropriate size using sonication.
+◦ Verify fragment size distribution via agarose gel
+electrophoresis or Bioanalyzer.
+2. End Repair, A-tailing, and Adapter Ligation
+◦ Perform end repair, A-tailing, and adapter ligation following
+the manufacturer's protocol.
+◦ Purify the resulting product using bead-based cleanup.
+3. Library Amplification
+◦ Amplify the library using PCR and a library preparation kit.
+◦ Assess the amplified library for size distribution and
+concentration.
+4. Quality Control of Library
+◦ Confirm the final library quality and concentration.
+◦ Apply stringent criteria to ensure high-quality libraries before
+proceeding to sequencing.
+C. Sequencing
+1. Load Libraries on Sequencer
+◦ Pool libraries and load onto sequencer.
+◦ Ensure proper calibration and setup of the sequencing run.
+2. Run Sequencing
+◦ Monitor the sequencing run for quality and troubleshoot any
+issues immediately.
+◦ Document all run parameters and any deviations from
+standard procedures.
+D. Data Analysis
+1. Primary Analysis
+◦ Use sequencer's software to perform base calling and
+generate raw data files.
+◦ Verify that QC metrics (e.g., cluster density, Q30 scores)
+meet the required thresholds.
+2. Secondary Analysis
+◦ Align sequencing reads to the reference genome.
+◦ Call variants and filter out low-quality variants using
+bioinformatics pipelines.
+3. Tertiary Analysis
+◦ Annotate variants using appropriate databases.
+◦ Interpret pathogenicity of variants based on clinical
+relevance and guidelines.
+◦ Generate a report summarizing detected variants and their
+clinical significance.
+E. Quality Control and Reporting
+1. Quality Control
+◦ Perform regular QC with known reference standards.
+◦ Document and review all QC activities and any corrective
+actions taken.
+2. Reporting Results
+◦ Review the data interpretation for accuracy and consistency.
+◦ Generate final report and verify by the supervising
+technologist.
+◦ Deliver results through the Laboratory Information System
+(LIS).
+3. Documentation
+Document every stage of the process in laboratory records, including:
+• DNA extraction and QC metrics
+• Library preparation and QC metrics
+• Sequencing run metrics and outcomes
+• Data analysis steps and variant interpretation
+• Quality control results and any corrective measures taken
+1. References
+• Manufacturer’s instructions for the sequencing platform and
+library preparation kits.
+• Clinical and Laboratory Standards Institute (CLSI) guidelines.
+• Current literature on NGS technology and its clinical applications
+in solid tumor testing.
+By adhering to this SOP, the laboratory ensures that the
+MAYOCOMPLETE Solid Tumor Panel NGS testing is performed
+consistently and accurately, providing reliable results for patient
+management and care.

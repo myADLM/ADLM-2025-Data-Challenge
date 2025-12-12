@@ -1,0 +1,96 @@
+Hereditary Pancreatitis Gene Panel SOP
+1. PURPOSE
+The purpose of this protocol is to outline the steps involved in the
+analytical phase for generating results for the Hereditary Pancreatitis
+Gene Panel. This document ensures consistent and accurate results.
+Responsibility:
+• Designated laboratory technologists are responsible for
+performing the analysis, interpreting data, and documenting
+results as outlined in this procedure.
+• The laboratory supervisor or director is responsible for reviewing
+and validating the generated results.
+1. SPECIMEN REQUIREMENTS AND ACCEPTANCE CRITERIA
+Specimen Types:
+• Preferred: 3-5 mL whole blood in EDTA tubes (lavender top).
+• Acceptable: Saliva collected into an Oragene DNA self-collection
+kit.
+Specimen Stability:
+• Whole Blood: Stable at 2-8°C for up to 7 days; freeze at -20°C or
+colder for long-term storage.
+• Saliva: Room temperature storage up to 2 weeks; freeze at -20°C
+or colder for long-term storage.
+Specimen Rejection Criteria:
+• Specimens lacking proper identification or labeling.
+• Specimens collected in non-EDTA tubes or with anticoagulants
+other than EDTA.
+• Hemolyzed, clotted, or leaking specimens.
+• Specimens received beyond stability limits.
+1. PROCEDURE
+A. DNA Extraction
+1. Perform DNA extraction from the collected specimen using the
+designated commercial DNA extraction kit.
+2. Quantify DNA concentration using a spectrophotometer (e.g.,
+NanoDrop).
+3. Verify DNA integrity by running a sample on an agarose gel or
+using a TapeStation analysis.
+B. Library Preparation and PCR Amplification
+1. Prepare sequencing libraries using a validated library
+preparation protocol for gene panels.
+2. Amplify target regions using specific primers designed for the
+Hereditary Pancreatitis Gene Panel and include controls.
+3. Purify PCR products to remove unincorporated primers and
+nucleotides.
+C. Next-Generation Sequencing (NGS)
+1. Quantify and pool libraries to appropriate concentrations
+required for sequencing.
+2. Load libraries on the sequencing platform (e.g., Illumina MiSeq)
+according to the manufacturer's instructions.
+3. Monitor the sequencing process and troubleshoot any issues
+that arise during the run.
+D. Bioinformatics Analysis
+1. Process sequencing data using an established bioinformatics
+pipeline.
+2. Align reads to the reference genome and call variants.
+3. Filter and annotate variants using updated databases and
+clinical guidelines.
+4. RESULT INTERPRETATION AND REPORTING
+A. Data Interpretation
+1. Review variant calls and annotations, focusing on exonic and
+splice site regions of CFTR, PRSS1, SPINK1, CTRC, CPA1,
+etc.
+2. Classify variants according to ACMG guidelines (e.g.,
+pathogenic, likely pathogenic, benign, likely benign, VUS).
+3. Compare findings with patient’s clinical information.
+B. Quality Control
+1. Confirm all detected variants through Sanger sequencing or
+another orthogonal method as necessary.
+2. Review sequencing run metrics and verify that they meet the
+laboratory's quality standards.
+3. Repeat analysis if QC metrics are not met or results are
+inconclusive.
+C. Reporting Results
+1. Document all findings in the laboratory information system,
+including:
+◦ Patient identification and specimen details.
+◦ Detailed result interpretation with clinical significance.
+◦ Any limitations encountered during analysis.
+2. Generate a comprehensive report that includes:
+◦ Identified variants and their classification.
+◦ Relevant literature references and database entries.
+◦ Recommendations for further clinical action or testing if
+applicable.
+3. Submit the report for final review and approval by a geneticist
+or laboratory director before release.
+4. REFERENCES AND DOCUMENTATION
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants.
+• Manufacturer's instructions for DNA extraction kit, library
+preparation kit, and sequencing platform.
+• Internal validation documents and quality control logs for
+analytical procedures.
+1. ADDITIONAL NOTES
+• Integration with EHR systems for seamless result reporting.
+• Maintain updated versions of all software and databases used in
+the bioinformatics analysis.
+This Hereditary Pancreatitis Gene Panel SOP ensures accurate and
+reliable genetic testing to support clinical diagnosis and patient care.

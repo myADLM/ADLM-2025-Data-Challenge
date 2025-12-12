@@ -1,0 +1,1292 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+I Background Information:
+A 510(k) Number
+K232202
+B Applicant
+Leica Biosystems Imaging, Inc.
+C Proprietary and Established Names
+Aperio GT 450 DX
+D Regulatory Information
+Product Regulation
+Classification Panel
+Code(s) Section
+PSY Class II 21 CFR 864.3700 88-Pathology
+II Submission/Device Overview:
+A Purpose for Submission:
+1. New device
+2. Add 3 additional specific displays intended to be used with the new device
+B Type of Test:
+Digital pathology whole slide imaging
+III Intended Use/Indications for Use:
+A Intended Use(s):
+The Aperio GT 450 DX is an automated digital slide creation and viewing system. The Aperio
+GT450 DX is intended for in vitro diagnostic use as an aid to the pathologist to review and
+interpret digital images of surgical pathology slides prepared from formalin-fixed paraffin
+embedded (FFPE) tissue. The Aperio GT 450 DX is for creation and viewing of digital images of
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+
+[Table 1 on page 1]
+	Product		Classification		Regulation		Panel
+	Code(s)				Section		
+PSY			Class II	21 CFR 864.3700			88-Pathology
+
+--- Page 2 ---
+scanned glass slides that would otherwise be appropriate for manual visualization by
+conventional light microscopy.
+Aperio GT 450 DX is comprised of the Aperio GT 450 DX scanner, which generates images in
+the Digital Imaging and Communications in Medicine (DICOM) and in the ScanScope Virtual
+Slide (SVS) file formats, the Aperio WebViewer DX viewer, and the displays. The Aperio GT
+450 DX is intended to be used with the interoperable components specified in Table 1.
+Table 1: Interoperable components of Aperio GT 450 DX
+Scanner Hardware Scanner Output Interoperable Viewing Interoperable
+file format Software Displays
+Aperio GT 450 DX SVS Aperio WebViewer DX Barco MDPC-8127
+scanner Dell UP3017
+Dell U3023E
+Dell U3223QE
+Aperio GT 450 DX SVS Sectra Digital Pathology Dell U3223QE
+scanner Module (3.3)
+Aperio GT 450 DX DICOM Sectra Digital Pathology Dell U3223QE
+scanner Module (3.3)
+The Aperio GT 450 DX is not intended for use with frozen section, cytology, or non-FFPE
+hematopathology specimens. It is the responsibility of a qualified pathologist to employ
+appropriate procedures and safeguards to assure the validity of the interpretation of images
+obtained using the Aperio GT 450 DX.
+B Indication(s) for Use:
+Same as Intended Use.
+C Special Conditions for Use Statement(s):
+Rx - For Prescription Use Only
+For In vitro diagnostic (IVD) use only
+IV Device/System Characteristics:
+A Device Description:
+The Aperio GT 450 DX is a Whole Slide Imaging (WSI) system which includes the following
+components.
+• Aperio GT 450 DX digital slide scanner which includes the corresponding scanner
+configuration software, Aperio GT 450 Scanner Administration Manager DX (SAM DX)
+K232202 - Page 2 of 20
+
+[Table 1 on page 2]
+Scanner Hardware	Scanner Output	Interoperable Viewing	Interoperable
+	file format	Software	Displays
+			
+Aperio GT 450 DX
+scanner	SVS	Aperio WebViewer DX	Barco MDPC-8127
+Dell UP3017
+Dell U3023E
+Dell U3223QE
+Aperio GT 450 DX
+scanner	SVS	Sectra Digital Pathology
+Module (3.3)	Dell U3223QE
+Aperio GT 450 DX
+scanner	DICOM	Sectra Digital Pathology
+Module (3.3)	Dell U3223QE
+
+--- Page 3 ---
+• Viewing Workstation executing Aperio WebViewer DX image viewing software (version
+1.0.0.5033)
+• Display
+The Aperio GT 450 DX scanner is a semi-automated benchtop brightfield WSI scanner which
+includes the scanner configuration software and Aperio GT 450 Scanner Administration Manager DX (SAM
+DX) and is intended to scan surgical pathology glass slides prepared from FFPE tissue. The scanner
+supports continuous glass-slide loading of up to 15 racks with a total of 450-slide capacity, priority
+rack scanning, and automated image quality checks during image acquisition. The Aperio GT 450
+DX scanner detects the racks once loaded in the scanner and automatically loads each slide in the
+batch to the stage and scans the glass slide to generate the WSI image. It can achieve a scan speed
+of 32 seconds at the 40x scanning magnification for a 15 mm x 15 mm area. Users operate the
+scanner via a touchscreen interface.
+The Aperio GT 450 DX scanner can save digital images in a unique Aperio ScanScope Virtual
+Slide (SVS) image format or Digital Imaging and Communications in Medicine (DICOM) image
+format. SVS images displayed in Aperio WebViewer DX are compressed to 94% of the source
+SVS file, or JPEG Q = 94. After acquiring the scanned digital images, they are sent to end-user-
+provided image storage attached to the scanner’s local network, where they can be cataloged in
+image storage software including Image Management System (IMS), such as Aperio eSlide
+Manager or a Picture Archiving and Communication System (PACS).
+Aperio GT 450 SAM DX is centralized scanner management software external to the connected
+scanner(s). This software application enables configuration, monitoring, and service access of
+multiple scanners from a single desktop client location. Aperio GT 450 SAM DX is installed on a
+customer-provided server that resides on the same network as the scanner(s) for image
+management.
+The Aperio WebViewer DX image viewing software is a web-based image viewer that enables
+users to perform quality control of images and to review and annotate digital images acquired from
+the Aperio GT450 DX scanner for pathology primary diagnosis. The Aperio WebViewer DX also
+incorporates monitor display image validation checks, which provide the user with the ability to
+ensure the digital slide images are displayed as intended on their monitor, and that browser updates
+have not inadvertently affected the image display quality. Aperio WebViewer DX is installed on
+a server and accessed from an IMS (e.g., Aperio eSlide Manager) or a customer’s Laboratory
+Information System (LIS) using compatible browsers.
+The display allows the slide images to be viewed. The interoperable displays are thin-film
+transistor, in-plane switching (TFT), color liquid crystal displays (TFT-LCD/IPS) calibrated to
+the sRGB color space. Their specifications are listed in Table 8 below.
+Instrument Description Information:
+1. Instrument Name:
+Aperio GT 450 DX
+K232202 - Page 3 of 20
+
+--- Page 4 ---
+2. Specimen Identification:
+Glass slides and scanned images are identified based on the previously assigned specimen
+identifiers such as patient identifiers, barcodes, etc. Digital images of surgical pathology
+slides prepared from FFPE tissue.
+3. Specimen Sampling and Handling:
+Specimen sampling and handling are performed upstream and independent of the use of the
+subject device. Specimen sampling includes surgical pathology specimens such as biopsy or
+resection specimens which are processed using standard histology techniques. The FFPE
+tissue sections are stained using the Hematoxylin and Eosin (H&E) staining procedure. Then
+digital images are obtained from these glass slides using the Aperio GT 450 DX scanner.
+4. Calibration:
+The Aperio GT 450 DX scanner performs essential image calibrations at the time the scanner
+is powered on. No additional calibration is needed for regular use. There is no calibration for
+Aperio GT 450 DX software.
+5. Quality Control:
+Quality control (QC) activities are performed by the user per the laboratory standards and
+professional guidelines (e.g., staining, cover-slipping, barcode placement) prior to loading
+the slides into the Aperio GT 450 DX scanner. After completing a scan, the lab technician
+checks image data and image quality as per the instructions for use. Before review, the
+pathologist performs quality control on the WSI images of the slide per instructions for use.
+V Substantial Equivalence Information:
+A Predicate Device Name(s):
+Aperio AT2 DX System
+B Predicate 510(k) Number(s):
+K190332
+C Comparison with Predicate(s):
+Device & K232202 K190332
+Predicate Aperio GT 450 DX Aperio AT2 DX System
+Device(s):
+General Device Characteristics: Similarities
+Intended Use The Aperio GT 450 DX is an automated The Aperio AT2 DX System
+digital slide creation and viewing system. The is an automated digital slide
+Aperio GT 450 DX is intended for in vitro creation and viewing
+system. The Aperio AT2 DX
+diagnostic use as an aid to the pathologist to
+System is intended for in
+review and interpret digital images of surgical
+vitro diagnostic use as an aid
+pathology slides prepared from formalin-fixed
+to the pathologist to review
+paraffin embedded (FFPE) tissue. The Aperio
+K232202 - Page 4 of 20
+
+[Table 1 on page 4]
+Device &	K232202	K190332
+Predicate	Aperio GT 450 DX	Aperio AT2 DX System
+Device(s):		
+General Device Characteristics: Similarities		
+Intended Use	The Aperio GT 450 DX is an automated
+digital slide creation and viewing system. The
+Aperio GT 450 DX is intended for in vitro
+diagnostic use as an aid to the pathologist to
+review and interpret digital images of surgical
+pathology slides prepared from formalin-fixed
+paraffin embedded (FFPE) tissue. The Aperio	The Aperio AT2 DX System
+is an automated digital slide
+creation and viewing
+system. The Aperio AT2 DX
+System is intended for in
+vitro diagnostic use as an aid
+to the pathologist to review
+
+--- Page 5 ---
+Device & K232202 K190332
+Predicate Aperio GT 450 DX Aperio AT2 DX System
+Device(s):
+GT 450 DX is for creation and viewing of and interpret digital images
+digital images of scanned glass slides that of surgical pathology slides
+would otherwise be appropriate for manual prepared from formalin-
+fixed paraffin embedded
+visualization by conventional light
+(FFPE) tissue. The Aperio
+microscopy.
+AT2 DX System is not
+intended for use with frozen
+Aperio GT 450 DX is comprised of the Aperio
+section, cytology, or non-
+GT 450 DX scanner, which generates images in
+FFPE hematopathology
+the Digital Imaging and Communications in
+specimens.
+Medicine (DICOM) and in the ScanScope
+Virtual Slide (SVS) file formats, the Aperio
+The Aperio AT2 DX System
+WebViewer DX viewer, and the displays. The is composed of the
+Aperio GT 450 DX is intended to be used with AperioAT2 DX scanner, the
+the interoperable components specified in Table ImageScope DX review
+1. application and Display.
+The Aperio AT2 DX
+Table 1: Interoperable components of Aperio GT System is for creation and
+450 DX viewing of digital images of
+scanned glass slides that
+Scanner Scanner Interoperable I n t e roperable would otherwise be
+Hardware Output file Viewing Displays appropriate for manual
+format Software visualization by
+Aperio GT SVS Aperio Barco
+conventional light
+450 DX WebViewer MDPC-8127
+microscopy. It is the
+scanner DX Dell UP3017
+responsibility of a qualified
+Dell
+pathologist to employ
+U3023E
+appropriate procedures and
+Dell
+U3223QE safeguards to assure the
+Aperio GT SVS Sectra Digital Dell U3223QE validity of the interpretation
+450 DX Pathology of images obtained using
+scanner Module (3.3) the Aperio AT2 DX System
+Aperio GT DICOM Sectra Digital Dell U3223QE
+450 DX Pathology
+scanner Module (3.3)
+The Aperio GT 450 DX is not intended for use
+with frozen section, cytology, or non-FFPE
+hematopathology specimens. It is the
+responsibility of a qualified pathologist to employ
+appropriate procedures and safeguards to assure
+the validity of the interpretation of images
+obtained using the Aperio GT 450 DX.
+K232202 - Page 5 of 20
+
+[Table 1 on page 5]
+Device &	K232202	K190332
+Predicate	Aperio GT 450 DX	Aperio AT2 DX System
+Device(s):		
+	GT 450 DX is for creation and viewing of
+digital images of scanned glass slides that
+would otherwise be appropriate for manual
+visualization by conventional light
+microscopy.
+Aperio GT 450 DX is comprised of the Aperio
+GT 450 DX scanner, which generates images in
+the Digital Imaging and Communications in
+Medicine (DICOM) and in the ScanScope
+Virtual Slide (SVS) file formats, the Aperio
+WebViewer DX viewer, and the displays. The
+Aperio GT 450 DX is intended to be used with
+the interoperable components specified in Table
+1.
+Table 1: Interoperable components of Aperio GT
+450 DX
+Scanner Scanner Interoperable I n t e roperable
+Hardware Output file Viewing Displays
+format Software
+Aperio GT SVS Aperio Barco
+450 DX WebViewer MDPC-8127
+scanner DX Dell UP3017
+Dell
+U3023E
+Dell
+U3223QE
+Aperio GT SVS Sectra Digital Dell U3223QE
+450 DX Pathology
+scanner Module (3.3)
+Aperio GT DICOM Sectra Digital Dell U3223QE
+450 DX Pathology
+scanner Module (3.3)
+The Aperio GT 450 DX is not intended for use
+with frozen section, cytology, or non-FFPE
+hematopathology specimens. It is the
+responsibility of a qualified pathologist to employ
+appropriate procedures and safeguards to assure
+the validity of the interpretation of images
+obtained using the Aperio GT 450 DX.	and interpret digital images
+of surgical pathology slides
+prepared from formalin-
+fixed paraffin embedded
+(FFPE) tissue. The Aperio
+AT2 DX System is not
+intended for use with frozen
+section, cytology, or non-
+FFPE hematopathology
+specimens.
+The Aperio AT2 DX System
+is composed of the
+AperioAT2 DX scanner, the
+ImageScope DX review
+application and Display.
+The Aperio AT2 DX
+System is for creation and
+viewing of digital images of
+scanned glass slides that
+would otherwise be
+appropriate for manual
+visualization by
+conventional light
+microscopy. It is the
+responsibility of a qualified
+pathologist to employ
+appropriate procedures and
+safeguards to assure the
+validity of the interpretation
+of images obtained using
+the Aperio AT2 DX System
+
+[Table 2 on page 5]
+Scanner	Scanner	Interoperable	I n t e roperable
+Hardware	Output file	Viewing	Displays
+	format	Software	
+Aperio GT
+450 DX
+scanner	SVS	Aperio
+WebViewer
+DX	Barco
+MDPC-8127
+Dell UP3017
+Dell
+U3023E
+Dell
+U3223QE
+Aperio GT
+450 DX
+scanner	SVS	Sectra Digital
+Pathology
+Module (3.3)	Dell U3223QE
+Aperio GT
+450 DX
+scanner	DICOM	Sectra Digital
+Pathology
+Module (3.3)	Dell U3223QE
+
+--- Page 6 ---
+Device & K232202 K190332
+Predicate Aperio GT 450 DX Aperio AT2 DX System
+Device(s):
+Principle of The Aperio GT 450 DX is a WSI system. The
+Operation technician places the slides into the Aperio GT Same
+450 DX scanner. The Aperio GT 450 DX scanner
+automatically loads the slides, takes the micro
+images, finds the tissues, and scans the slides.
+The scanner also automatically performs quality
+control (QC) and notifies the user of any image
+quality issue during the image acquisition. The
+image data is sent to end-user-provided image
+storage attached to the local network. During the
+review, the pathologist opens WSI images
+acquired with the WSI scanner from the image
+storage, performs further QC, and reads WSI
+images of the slides to make a diagnosis.
+Device WSI scanner (Aperio GT450 DX scanner), Image WSI scanner (Aperio AT2
+Components Management System (Aperio WebViewer DX DX scanner), Image
+image viewing software) and color monitor Management System
+display (ImageScope DX
+application) and color
+monitor display
+Image Storage Images are stored in the end-user- provided image Same
+storage attached to the local network.
+General Device Characteristic: Differences
+Scanning 40x 40x 20x
+Magnification
+Slide Loading Automatic Automatic and Manual
+Method
+Continuous Yes No
+Slide Loading
+Throughput 81 slides per hour 20 slides per hour
+(includes slide
+handling) at
+40x
+Scan Speed at < 32 sec/slide, 15 x 15 mm < 2 min 35 sec/slide, 15 x
+40x
+Scan Output SVS and DICOM SVS
+Image Format
+DELL UP3017 Dell MR2416
+Dell U3023E
+Compatible Dell U3223QE
+Display Barco MDPC-8127
+(Monitor)
+K232202 - Page 6 of 20
+
+[Table 1 on page 6]
+Device &	K232202	K190332
+Predicate	Aperio GT 450 DX	Aperio AT2 DX System
+Device(s):		
+Principle of
+Operation	The Aperio GT 450 DX is a WSI system. The
+technician places the slides into the Aperio GT
+450 DX scanner. The Aperio GT 450 DX scanner
+automatically loads the slides, takes the micro
+images, finds the tissues, and scans the slides.
+The scanner also automatically performs quality
+control (QC) and notifies the user of any image
+quality issue during the image acquisition. The
+image data is sent to end-user-provided image
+storage attached to the local network. During the
+review, the pathologist opens WSI images
+acquired with the WSI scanner from the image
+storage, performs further QC, and reads WSI
+images of the slides to make a diagnosis.	Same
+Device
+Components	WSI scanner (Aperio GT450 DX scanner), Image
+Management System (Aperio WebViewer DX
+image viewing software) and color monitor
+display	WSI scanner (Aperio AT2
+DX scanner), Image
+Management System
+(ImageScope DX
+application) and color
+monitor display
+Image Storage	Images are stored in the end-user- provided image
+storage attached to the local network.	Same
+		
+General Device Characteristic: Differences		
+		
+Scanning
+Magnification	40x	40x 20x
+Slide Loading
+Method	Automatic	Automatic and Manual
+Continuous
+Slide Loading	Yes	No
+Throughput
+(includes slide
+handling) at
+40x	81 slides per hour	20 slides per hour
+Scan Speed at
+40x	< 32 sec/slide, 15 x 15 mm	< 2 min 35 sec/slide, 15 x
+Scan Output
+Image Format	SVS and DICOM	SVS
+Compatible
+Display
+(Monitor)	DELL UP3017
+Dell U3023E
+Dell U3223QE
+Barco MDPC-8127	Dell MR2416
+
+--- Page 7 ---
+VI Standards/Guidance Documents Referenced:
+1. FDA Guidance “Technical Performance Assessment of Digital Pathology Whole Slide
+Imaging Devices” dated April 20, 2016.
+2. Applying Human Factors and Usability Engineering to Medical Devices: Guidance for
+Industry and Food and Drug Administration Staff February 3, 2016.
+3. Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices. Guidance for Industry and Food and Drug Administration Staff, May 2005.
+4. IEC/EN 61010-1:2010/AMD1: 2016, Safety requirements for electrical equipment for
+measurement, control, and laboratory use – Part 1: General requirements.
+5. IEC/EN 61010-2-101: 2018, Safety requirements for electrical equipment for measurement,
+control, and laboratory use – Part 2-101: Particular requirements for in vitro diagnostic (IVD)
+medical equipment.
+6. FDA Guidance “Electromagnetic Compatibility (EMC) of Medical Devices (June 6, 2022).
+VII Performance Characteristics (if/when applicable):
+A Analytical Performance:
+1. Precision/Reproducibility:
+The objective of this study was to evaluate the repeatability (within- and between- system) and
+reproducibility (between-site) of the Aperio GT 450 DX.
+The precision of the device was based on 5 reading pathologists’ assessments and identification
+of specific histopathologic “features” that are observed in FFPE H&E stained slides. Twenty-
+three (23) primary features were selected for the analytical studies. The selected primary features
+were evaluated at their relevant magnifications -12 primary features evaluated at 20x
+magnification level and 11 primary features evaluated at 40x magnification level.
+The Precision Panel Slide Curator (curator) identified study slides by conducting a Lab
+Information System (LIS) search and reviewing the microscope slides from consecutive cases
+that potentially contain the study features (Table 1). A representative H&E stained slide or a re-
+cut slide containing the feature(s) of interest was obtained from each case. After the curator
+selected and marked the study features on the slides, the slides were scanned at magnification
+levels designated to the study features, either 20x or 40x magnification. The curator reviewed the
+glass slides through the microscope while reviewing the WSI images on the monitor to extract
+Field of Views (FOVs) containing the study features from the WSI images using a lossless
+compression type. For each subsequent WSI images of the same slide, the annotations were
+manually replicated by a technician using the image viewing software to extract and randomly
+rotate the FOVs by 90, 180 or 270 degrees to minimize recall bias. A trained study personnel
+verified the FOV filenames and also that the FOV extraction areas were correct and enrolled the
+FOVs in the study. During precision study, the extracted FOV images were restricted for both
+the area of tissue visible to the reading pathologists and for the viewing magnification. The
+reading pathologists were not allowed to navigate the WSI image or change magnification or get
+access to any clinical information associated with the study slides. Additional slides that may or
+may not include any of the study features were included as “wild card” slides to reduce recall
+K232202 - Page 7 of 20
+
+--- Page 8 ---
+bias. The “wild card” FOVs were extracted by following the same procedures as the study FOVs.
+As shown in Table 1, each primary study feature was represented in 3 FFPE sections of different
+organ types. From each slide, 2 or 3 FOVs containing either one primary study feature, or a
+primary study feature and secondary study feature(s) in each FOV were selected. A total of 202
+FOVs were selected from 69 glass slides. Out of 202 FOVs, 46 FOVs (from 24 slides) contained
+multiple histologic features and 156 FOVs (from 62 slides) contained one primary histologic
+feature. In addition, 36 wild card FOVs were selected from 12 glass slides. There was a
+minimum washout period of 14 days between pathologist reading sessions.
+Table 1: Primary Histologic Study Features in Precision Study
+Feature Specimen Source/Organ Type
+FOV Magnification – 20x
+Chondrocytes Toe
+Femoral Head
+Osteosarcoma of humerus
+Fat cells (adipocytes) Axillary lymph node
+Femoral head
+Prostate
+Foreign body giant cells Knee synovium
+Shoulder
+Sigmoid colon
+Goblet cells in intestinal mucosa or intestinal Gastroesophageal junction
+metaplasia Sigmoid colon
+Tubular adenoma (intestine)
+Granulomas Colon
+Iliac crest (bone)
+Cervical lymph node
+Infiltrating or metastatic lobular carcinoma Iliac crest (bone)
+Jejunum
+Breast
+Intraglandular necrosis Lung
+Liver
+Right colon
+Osteoclasts Sacrum
+Toe
+Paget’s disease of spine
+Osteocytes Foot
+Maxilla
+Osteosarcoma of femur
+Pleomorphic nucleus of malignant cell 11th rib
+Sacrum
+Vertebra
+K232202 - Page 8 of 20
+
+[Table 1 on page 8]
+	
+Feature	Specimen Source/Organ Type
+FOV Magnification – 20x	
+Chondrocytes	Toe
+	Femoral Head
+	Osteosarcoma of humerus
+Fat cells (adipocytes)	Axillary lymph node
+	Femoral head
+	Prostate
+Foreign body giant cells	Knee synovium
+	Shoulder
+	Sigmoid colon
+Goblet cells in intestinal mucosa or intestinal
+metaplasia	Gastroesophageal junction
+	Sigmoid colon
+	Tubular adenoma (intestine)
+Granulomas	Colon
+	Iliac crest (bone)
+	Cervical lymph node
+Infiltrating or metastatic lobular carcinoma	Iliac crest (bone)
+	Jejunum
+	Breast
+Intraglandular necrosis	Lung
+	Liver
+	Right colon
+Osteoclasts	Sacrum
+	Toe
+	Paget’s disease of spine
+Osteocytes	Foot
+	Maxilla
+	Osteosarcoma of femur
+Pleomorphic nucleus of malignant cell	11th rib
+	Sacrum
+	Vertebra
+
+--- Page 9 ---
+Feature Specimen Source/Organ Type
+Serrated intestinal epithelium (for example Appendix
+sessile serrated polyp) Ascending colon polyp
+Sigmoid colon
+Skeletal muscle fibers Lower leg
+Shoulder
+Spine
+FOV Magnification – 40x
+Asteroid bodies Axillary lymph node
+Liver
+Synovium
+Clear cells (renal cell carcinoma) Humerus
+Retroperitoneal lymph node
+Right kidney
+Foreign bodies (for example plant material or Distal femur
+foreign debris) Foot
+Wrist
+Hemosiderin (pigment) Knee synovium
+Liver
+Osteosarcoma of femur
+Megakaryocytes Cervical Spine
+Femur (margin of sarcoma)
+Tibia
+Necrosis Femoral head
+Para-aortic lymph node
+Right leg
+Nerve cell bodies (for example ganglion cells) Ganglioneuroma
+Small bowel
+Stomach
+Nuclear grooves Cervical lymph node (papillary thyroid carcinoma)
+Iliac crest (bone) (Langerhan’s cell granuloma)
+Ovary (Brenner tumor)
+Osteoid matrix Femur
+Humerus
+Lung
+Psammoma bodies Cervical lymph node (metastatic papillary
+carcinoma of thyroid)
+Fallopian tube (papillary ovarian carcinoma)
+Left ventral cranial region (meningioma)
+Reed-Sternberg cell Axillary lymph node
+K232202 - Page 9 of 20
+
+[Table 1 on page 9]
+	
+Feature	Specimen Source/Organ Type
+Serrated intestinal epithelium (for example
+sessile serrated polyp)	Appendix
+	Ascending colon polyp
+	Sigmoid colon
+Skeletal muscle fibers	Lower leg
+	Shoulder
+	Spine
+FOV Magnification – 40x	
+Asteroid bodies	Axillary lymph node
+	Liver
+	Synovium
+Clear cells (renal cell carcinoma)	Humerus
+	Retroperitoneal lymph node
+	Right kidney
+Foreign bodies (for example plant material or
+foreign debris)	Distal femur
+	Foot
+	Wrist
+Hemosiderin (pigment)	Knee synovium
+	Liver
+	Osteosarcoma of femur
+Megakaryocytes	Cervical Spine
+	Femur (margin of sarcoma)
+	Tibia
+Necrosis	Femoral head
+	Para-aortic lymph node
+	Right leg
+Nerve cell bodies (for example ganglion cells)	Ganglioneuroma
+	Small bowel
+	Stomach
+Nuclear grooves	Cervical lymph node (papillary thyroid carcinoma)
+	Iliac crest (bone) (Langerhan’s cell granuloma)
+	Ovary (Brenner tumor)
+Osteoid matrix	Femur
+	Humerus
+	Lung
+Psammoma bodies	Cervical lymph node (metastatic papillary
+carcinoma of thyroid)
+	Fallopian tube (papillary ovarian carcinoma)
+	Left ventral cranial region (meningioma)
+Reed-Sternberg cell	Axillary lymph node
+
+--- Page 10 ---
+Feature Specimen Source/Organ Type
+Neck mass
+Spleen
+The precision of the Aperio GT 450 DX was assessed in 3 sub-studies:
+• Within-system precision was assessed using 3 independent systems. Overall within-
+system precision was also assessed.
+• Between-system/site precision, was assessed 3 independent systems at 3 different sites.
+Overall between systems/sites precision was also assessed.
+• Within- and between-pathologist precision was assessed using images generated from a
+single system. Overall within-pathologists and overall between-pathologists precision were
+also assessed.
+The precision was considered acceptable if the lower bounds of the 2-sided 95% confidence
+interval (CI) of the overall agreements for each precision component (within-system,
+between-system/site, within-pathologist, and between-pathologist) were ≥ 85%
+Within-System Precision
+This study evaluated the agreement between the 3 scans from the same system/site. The panel
+of 69 study slides was split equally among the three (3) sites (i.e., each site scanned a separate
+subset of slides). Each site has a single scanning system. For each system, 23 slides were
+scanned once on each of three (3) days, producing three (3) sets of scans for each slide. FOVs
+were extracted from scanned WSI images. The FOVs from three scanning sessions were
+evaluated by one reading pathologist over three different reading sessions with at least a two-
+week washout period in between the reading sessions. In each reading session, the reading
+pathologist evaluated all 202 study FOVs from each of three scanning sessions (across three
+scanning systems), plus unique “wild card” FOVs to assist in preventing recall bias between
+reading sessions.
+For each system, agreements between scan 1 versus scan 2, scan 1 versus scan 3 and scan 2
+versus scan 3 were analyzed. The overall within-system precision was based on the pooled
+data of all three systems. A bootstrap approach was used to calculate 95% Confidence
+Intervals (CIs).
+Table 2. Within Systems Precision Study Results
+Agreement Rate and 95% CI
+Number of Number of
+System/Site Pairwise Comparison % Agreement Lower Upper
+Agreements Pairs
+System 1 255 261 97.7 95.7% 99.3%
+/Site1
+System 2 270 276 97.8 95.9% 99.3%
+/Site2
+System 3 212 222 95.5 92.5% 98.1%
+K232202 - Page 10 of 20
+
+[Table 1 on page 10]
+	
+Feature	Specimen Source/Organ Type
+	Neck mass
+	Spleen
+
+[Table 2 on page 10]
+			Agreement Rate and 95% CI		
+	Number of	Number of			
+System/Site	Pairwise	Comparison	% Agreement	Lower	Upper
+	Agreements	Pairs			
+System 1
+/Site1	255	261	97.7	95.7%	99.3%
+System 2
+/Site2	270	276	97.8	95.9%	99.3%
+System 3	212	222	95.5	92.5%	98.1%
+
+--- Page 11 ---
+/Site3
+Overall 737 759 97.1 95.8% 98.3%
+Between-System/Between-Site Precision
+At each of three study sites, a study technician scanned the entire set of 69 study slides once.
+FOVs from three scanning sessions (resulting from one session from each of the three sites) were
+extracted. From all the scanning systems, 606 FOVs were transferred to a single reading
+pathologist for evaluation in three separate reading sessions. In each reading session, the reading
+pathologist evaluated all 202 study FOVs from a single site, plus unique “wild card” FOVs to
+assist in preventing recall bias between reading sessions. Agreements between systems at Site 1
+versus Site 2, systems at Site 1 versus Site 3 and systems at Site 2 versus Site 3 were analyzed.
+The overall inter-system/inter-site precision is based on the pooled data from each system-to-
+system comparison. A bootstrap approach was used to calculate 95% CIs.
+Table 3. Between Systems Precision Study Results
+Agreement Rate and 95% CI
+Number of Number of
+System Pairwise Comparison % Agreement Lower Upper
+Agreements Pairs
+System 1 vs
+241 253 95.3 92.5% 97.7%
+System 2
+System 1 vs
+246 253 97.2 95.0% 99.2%
+System 3
+System 2 vs
+244 253 96.4 94.0% 98.5%
+System 3
+Overall 731 759 96.3 94.9% 97.6%
+Within-Site/Within-Pathologist and Between-Pathologist Precision
+The entire set of 69 slides were scanned once at one site. FOVs were extracted and saved in three
+different orientations. From all the orientations, 606 FOVs were presented to each of three reading
+pathologists for evaluation in three reading sessions. In each reading session, each reading
+pathologist evaluated all 202 study FOVs plus unique “wild card” FOVs to assist in preventing recall
+bias between reading sessions. For within-pathologist precision, agreements between FOVs in
+orientation 1 versus orientation 2, orientation 1versus orientation 3, and orientation 2 versus
+orientation 3 were analyzed for each reading pathologist. The overall within-pathologist precision
+was based on the pooled data from each reading pathologist. A bootstrap approach was used to
+calculate 95% CIs.
+K232202 - Page 11 of 20
+
+[Table 1 on page 11]
+/Site3					
+Overall	737	759	97.1	95.8%	98.3%
+
+[Table 2 on page 11]
+			Agreement Rate and 95% CI		
+	Number of	Number of			
+System	Pairwise	Comparison	% Agreement	Lower	Upper
+	Agreements	Pairs			
+System 1 vs
+System 2	241	253	95.3	92.5%	97.7%
+System 1 vs
+System 3	246	253	97.2	95.0%	99.2%
+System 2 vs
+System 3	244	253	96.4	94.0%	98.5%
+Overall	731	759	96.3	94.9%	97.6%
+
+--- Page 12 ---
+Table 4. Within-Pathologists Precision Study Results
+Agreement Rate and 95% CI
+Number of Number of
+Pathologist Pairwise Comparison % Agreement Lower Upper
+Agreements Pairs
+Pathologist 1 729 759 96.0 94.7% 97.3%
+Pathologist 2 677 759 89.2 86.8% 91.3%
+Pathologist 3 723 759 95.3 93.7% 96.7%
+Overall 2129 2277 93.5 92.4% 94.5%
+For between-pathologist precision, agreements between pathologist 1 versus pathologist 2,
+pathologist 1 versus pathologist 3, and pathologist 2 versus pathologist 3 were analyzed. The overall
+between-pathologist precision was based on the pooled data from each reading pathologist. A
+bootstrap approach was used to calculate 95% CIs.
+Table 5. Between-Pathologist Precision Study Results:
+Agreement Rate and 95% CI
+Number of Number of
+Pathologist Pairwise Comparison % Agreement Lower Upper
+Agreements Pairs
+Pathologist 1 vs
+686 759 90.4 88.2% 92.4%
+Pathologist 2
+Pathologist 1 vs
+727 759 95.8 94.3% 97.2%
+Pathologist 3
+Pathologist 2 vs
+676 759 89.1 86.9% 91.2%
+Pathologist 3
+Overall 2089 2277 91.7 90.6% 92.8%
+2. Linearity:
+Not applicable
+3. Analytical Specificity/Interference:
+Not applicable
+4. Accuracy (Instrument):
+Not applicable
+5. Carry-Over:
+Not applicable
+K232202 - Page 12 of 20
+
+[Table 1 on page 12]
+			Agreement Rate and 95% CI		
+	Number of	Number of			
+Pathologist	Pairwise	Comparison	% Agreement	Lower	Upper
+	Agreements	Pairs			
+Pathologist 1	729	759	96.0	94.7%	97.3%
+Pathologist 2	677	759	89.2	86.8%	91.3%
+Pathologist 3	723	759	95.3	93.7%	96.7%
+Overall	2129	2277	93.5	92.4%	94.5%
+
+[Table 2 on page 12]
+			Agreement Rate and 95% CI		
+	Number of	Number of			
+Pathologist	Pairwise	Comparison	% Agreement	Lower	Upper
+	Agreements	Pairs			
+Pathologist 1 vs
+Pathologist 2	686	759	90.4	88.2%	92.4%
+Pathologist 1 vs
+Pathologist 3	727	759	95.8	94.3%	97.2%
+Pathologist 2 vs
+Pathologist 3	676	759	89.1	86.9%	91.2%
+Overall	2089	2277	91.7	90.6%	92.8%
+
+--- Page 13 ---
+B. Technical Studies:
+Multiple studies were conducted to evaluate the performance of the Aperio GT 450 DX as
+recommended in FDA Guidance, Technical Performance Assessment of Digital Pathology
+Whole Slide Imaging Devices.
+a. Slide Feeder
+Information was provided on the configuration of the slide feed mechanism, including a
+physical description of the slide, the number of slides in the queue (carrier), and the class of
+automation. Information was provided on the user interaction with the slide feeder, including
+hardware, software, feedback mechanisms, and Failure Mode and Effects Analysis (FMEA).
+b. Light source
+Descriptive information associated with the lamp and the condenser was provided. Testing
+information was provided to verify the spectral distribution of the light source as part of the
+color reproduction capability of the Aperio GT 450 DX scanner.
+c. Imaging optics
+An optical schematic with all optical elements identified from the slide (object plane) to the
+digital image sensor (image plane) was provided. Descriptive information regarding the
+microscope objective, the auxiliary lenses, and the magnification of imaging optics was
+provided. Testing information regarding the relative irradiance, optical distortions, and lateral
+chromatics aberrations was provided.
+d. Mechanical scanner movement
+Information and specifications on the configuration of the stage, method of movement, control
+of movement of the stage, and FMEA were provided. Test data to verify the repeatability of
+the stage movement and verify the mechanism that the stage movement stays within limits
+during operations was provided.
+e. Digital imaging sensor
+Information and specifications on the sensor type, pixel information, responsivity
+specifications, noise specifications, readout rate, and digital output format were provided. Test
+data to determine the correct functioning of the digital image sensor was provided. The digital
+image sensor converts slides’ optical signals to digital signals. The digital signals consist of a
+set of numerical values corresponding to the brightness and color at each point in the optical
+image.
+f. Image processing software
+Information and specifications on exposure control, white balance, color correction, sub-
+sampling, pixel-offset correction, pixel-gain or flat-field correction, and pixel-defect correction
+were provided.
+g. Image composition
+Information and specifications on the scanning method, the scanning speed, and the number of
+planes at the Z-axis to be digitized were provided. Test data to analyze the image composition
+performance was provided.
+K232202 - Page 13 of 20
+
+--- Page 14 ---
+h. Image files format
+Information and specifications on the compression method, compression ratio, file format, and
+file organization were provided.
+i. Image review manipulation software
+Information and specifications on continuous panning and pre-fetching, continuous zooming,
+discrete Z-axis displacement, the ability to compare multiple slides simultaneously on multiple
+windows, image enhancement and sharpening functions, color manipulation, annotation tools,
+and digital bookmarks were provided.
+j. Computer environment
+Information and specifications on the computer hardware, operating system, graphics card,
+graphics card driver, color management settings, color profile, and display interface were
+provided.
+k. Display
+Information and specifications on the technological characteristics of the display device, the
+physical size of the viewable area and aspect ratio, backlight type and properties, frame rate and
+refresh rate, a pixel array, pitch, pixel aperture ratio, and subpixel matrix scheme, subpixel
+driving to improve grayscale resolution, supported color spaces, display interface, user controls
+of brightness, contrast, gamma, color space, power-saving options, etc., via the on-screen
+display menu, ambient light adaptation, touchscreen technology, color calibration tools, and
+frequency and nature of quality-control tests were provided. Test data to verify the performance
+of the display was provided.
+l. Color reproducibility
+Test data to evaluate the color reproducibility of the system was provided.
+m. Spatial resolution
+Test data to evaluate the composite optical performance of all components in the image
+acquisition phase was provided.
+n. Focusing test
+Test data to evaluate the technical focus quality of the system was provided.
+o. Whole slide tissue coverage
+Test data to demonstrate that the entire tissue specimen on the glass slide is detected by the
+tissue detection algorithms and that all the tissue specimens are included in the digital image file
+was provided.
+p. Stitching error
+Test data to evaluate the stitching errors and artifacts in the reconstructed image was provided.
+q. Turnaround time
+Test data to evaluate the turnaround time of the system was provided.
+C. Clinical studies:
+A multi-center study was conducted to demonstrate that viewing, reviewing, and diagnosing
+K232202 - Page 14 of 20
+
+--- Page 15 ---
+digital images of surgical pathology FFPE tissue slides using the Aperio GT 450 DX System
+is non-inferior to using optical (light) microscopy. The primary endpoint was the difference in
+major discordance rates between WSI review modality (WSIR) and microscope slide review
+modality (MSR) when compared to the reference (main) diagnosis, which is based on the
+original sign-out pathologic diagnosis rendered at the institutions, using an optical (light)
+microscope. The study cases were selected from the previous Aperio AT2 DX System clinical
+study (K190332). In order to ensure cases met the selection criteria and that selected slides
+were representative of the primary diagnosis the case curation process and the study inclusion
+and exclusion criteria in the previous study were as follows: The case curation pathologist
+reviewed the sign-out diagnosis and supporting documentation available at the time of the
+diagnosis (i.e., pathology report). By reviewing the microscopic slides used to make the sign-
+out diagnosis, the slide(s) that were representative of the sign-out diagnosis for the case were
+identified. The selected slides included H&E, immunohistochemistry (IHC), special stains and
+any slides that were not critical to diagnosis but supported the final surgical pathology report
+(e.g., margins, lymph node status, vascular and neural invasion), and any slides representing
+required elements of the College of American Pathologists (CAP) applicable cancer protocols.
+In the case of IHCs and special stains, the inclusion of control slides was required to fulfill the
+quality checks according to general clinical practice. The site’s curation verification
+pathologist verified that the selected slide(s) reflected the main diagnosis for the case as well
+as the required ancillary information for cancer cases met all inclusion criteria and none of the
+exclusion criteria stated below before the case was enrolled in the study.
+Inclusion criteria:
+• All glass slides with human tissue obtained via surgical pathology of the original case
+were available.
+• The original sign-out diagnosis and ancillary supporting information were available.
+• The selected slide(s) for the main diagnosis and the control slide(s) (e.g., controls for
+IHC stained slides) matched the study requested organ type and fulfilled the quality
+checks according to general clinical practice.
+• For cases with multiple diagnoses in a single sign-out pathology report, only the main
+diagnosis and ancillary information were included.
+Exclusion criteria:
+• H&E stained slides that were used for the original sign-out diagnosis were not
+available at the site and re-cuts were not available.
+• If applicable, the IHC or special stain slides that were used for the original sign out
+diagnosis were not available at the site or had unacceptable artifacts. Control slides for
+IHC or special stain were not available.
+• Cases for which slides needed to support the original sign-out diagnosis required either a
+special light source (e.g., a mercury lamp for fluorescence microscopy) or special filters
+(e.g., for polarized light).
+• Cases with slides containing unremovable markings or were damaged.
+• Cases that contained frozen sections or gross specimens only.
+• Cases that were missing significant clinical and ancillary information that was available
+at the time the case was originally interpreted (e.g., X-rays).
+• Cases that were signed out less than one year prior to the date of curation.
+• Only one case could be enrolled per patient.
+A total of 1161 cases were selected to be enrolled in the current study and included a diverse
+K232202 - Page 15 of 20
+
+--- Page 16 ---
+mixture of pathologic diagnoses and tissue/organ types. There was a total of 3 study sites.
+At each site of the 3 study sites, technician(s) scanned slides from cases identified at their sites
+using the Aperio GT 450 DX. Each reading pathologist at each site (3 pathologists at each of
+sites 1 and 2 and 4 pathologists at Site 3) evaluated all study cases from their site using the
+Aperio GT 450 DX, as well as the case ancillary information to determine WSIR diagnosis. For
+each reading pathologist, approximately 50% of cases were reviewed from the site’s local server
+(local access) and approximately 50% of cases were reviewed from the LBS image web hosting
+site (remote access). If the WSIR diagnosis could not be determined, the reading pathologist
+could defer the diagnosis. The reason(s) for deferring a diagnosis was documented.
+There was a total of 3709 case reads performed by WSIR: (Site 1: 399 cases × 3 pathologists) +
+(Site 2: 500 cases × 3 pathologists) + (Site 3: 253 × 4 pathologists). There were 1883 case reads
+(1883/3709, 50.8%) performed at the local viewing station (local cohort) and 1826 number of
+cases reads (1826/3709, 49.2%) performed at the remote viewing station (remote cohort). For
+MSR diagnosis, the consensus scores generated during the previous Aperio AT2 DX System
+clinical study (K190332) were used for this study to estimate MSR diagnosis major discordance
+rate.
+A minimum of 2 adjudication pathologists (also known as adjudicators) independently assessed
+concordance (concordant, minor discordance, major discordance) of the WSIR diagnosis against
+the sign-out diagnosis (reference diagnosis) using predefined rules. A major discordance was
+defined as a difference in diagnosis that resulted in a clinically important difference in patient
+management, while a minor discordance would not be associated with a clinically important
+difference in patient management. The concordance score for the same case between the 2
+adjudicators were compared to determine a consensus score for major discordance status. If
+consensus was not reached between the first 2 adjudicators, a third adjudicator reviewed the
+study diagnosis against the reference diagnosis. If consensus between 2 of 3 adjudicators was
+still not reached, then the 3 adjudicators convened as a panel to come to a consensus for the
+major discordant status. WSIR diagnosis consensus scores were used to estimate WSIR
+diagnosis major discordant rate.
+Major discordance rates were estimated for WSIR diagnosis and MSR diagnosis (relative to the
+reference diagnosis), as well as the difference in overall major discordance rates between the 2
+modalities. For the primary objective of demonstrating the WSIR major discordance rate to be
+non-inferior to the MSR major discordance rate, a Generalized Linear Mixed Model
+(GLIMMIX) logistic regression was conducted. For each reading result the dependent variable
+was the major discordance status and independent variables included modality as a fixed effect
+(WSIR vs. MSR) and site, reader, and case as random effects. A two-sided 95% CI for the
+modality effect, i.e., the overall major discordance rate difference (WSIR minus MSR), was
+constructed from this analysis. If the upper bound of the 95% CI was less than the non-inferiority
+margin of 4%, WSIR would be considered non-inferior to MSR shows the overall major
+discordance rates of the full cohort for both modalities (relative to the reference diagnosis) based
+on observed results and by the generalized linear model.
+Thirty-six (36) WSIR case reads from 1 pathologist at Site 2 were excluded due to incorrectly
+assigned diagnoses (14 case reads from the local cohort and 22 case reads from the remote
+cohort). One case read (remote cohort) from 1 pathologist at Site 2 was excluded from both
+modalities due to an absence of MSR data from previous Aperio AT2 DX System Accuracy
+Study. Therefore, 3672 and 3708 cases read were performed by WSIR (local cohort: 1869 case
+reads; remote cohort: 1803 case reads) and MSR, respectively.
+K232202 - Page 16 of 20
+
+--- Page 17 ---
+Excluding the 122 (3.3%, 122/3672) WSIR and 77 (2.1%, 77/3708) MSR deferred diagnoses
+(cases for which no study diagnoses was assigned and were not sent for adjudication), 3550
+WSIR and 3631 MSR diagnoses were generated by the reading pathologists and sent for
+adjudication. Of the 122 WSIR deferred diagnoses, 62 (62/122, 50.1%) were from the local
+cohort and 60 (60/122, 49.2%) were from the remote cohort, resulting in 1807 and 1743
+diagnoses for the local and remote cohorts, respectively. Note: MSR diagnoses were generated
+during the previous Aperio AT2 DX System clinical study (K190332).
+One WSIR diagnosis (local cohort) was deferred by the adjudicators. Therefore, 3549 WSIR
+diagnoses were included in the statistical analyses (1806 from the local cohort and 1743 from the
+remote cohort). For MSR, 3631 diagnoses had consensus scores (from the previous Aperio AT2
+DX System clinical study) and were included in the statistical analyses. analyses.
+Study Results
+The overall observed major discordance rate for WSIR diagnosis was 6.14% (218/3549) and for
+MSR diagnosis was 3.66% (133/3631). The overall major discordance rates estimated by the
+generalized linear model were 5.84% (95% CI: 5.01% to 6.80%) for the WSIR diagnosis and
+3.44% (95% CI: 2.84 to 4.17%) for the MSR diagnosis. The estimated difference in major
+discordance rates (WSIR diagnosis minus MSR diagnosis) was 2.40% (95% CI: 1.40% to
+3.39%). The upper bound of the 95% CI of the estimated difference in major discordance rates
+was 3.39% which met the predefined acceptance criteria of ≤4%.
+The secondary endpoint was to demonstrate that the overall major discordant rate between the
+WSIR diagnosis and the reference diagnosis did not exceed 7%; the upper bound of the 95% CI
+for the overall major discordant rate of WSIR diagnosis was 6.80%, which met the predefined
+acceptance criteria of ≤7%. Thus, the study met the primary objective. Study results are shown in
+the table below.
+Table 6: Clinical Study Results Based on Major Discordance Rates
+Whole Slide Imaging Review Light Microscope Slide Review Difference
+(WSIR) (MSR) (WSIR – MSR)
+Total % Total % %
+95% CI 95% CI 95% CI
+Reads discordant Reads discordant discordant
+Observed 6.14% - 3.66% - -
+3549 3631
+Model 5.84% (5.01%, 3.44% (2.84, 4.17) 2.40% (1.40%,3.39
+6.80%) %)
+The differences in major discordance rates by organ types for the full cohort between WSIR and
+MSR are shown in the table below.
+Table 7: Major Discordance Rates by Organ
+Major Discordance Rate
+Difference in Major
+Organ Type WSIRD MSRD
+Discordance Rates
+(n=3549) (n=3631)
+(WSIRD minus MSRD)
+Anus/Perianal 7.26% 3.23% 4.03%
+Appendix 0.00% 0.00% 0.00%
+K232202 - Page 17 of 20
+
+[Table 1 on page 17]
+	Whole Slide Imaging Review			Light Microscope Slide Review			Difference	
+	(WSIR)			(MSR)			(WSIR – MSR)	
+								
+	Total
+Reads	%
+discordant	95% CI	Total
+Reads	%
+discordant	95% CI	%
+discordant	95% CI
+Observed	3549	6.14%	-	3631	3.66%	-		-
+Model		5.84%	(5.01%,
+6.80%)		3.44%	(2.84, 4.17)	2.40%	(1.40%,3.39
+%)
+
+[Table 2 on page 17]
+	Major Discordance Rate		Difference in Major
+Organ Type	WSIRD	MSRD	
+			Discordance Rates
+	(n=3549)	(n=3631)	
+			(WSIRD minus MSRD)
+			
+Anus/Perianal	7.26%	3.23%	4.03%
+Appendix	0.00%	0.00%	0.00%
+
+--- Page 18 ---
+Major Discordance Rate
+Difference in Major
+Organ Type WSIRD MSRD
+Discordance Rates
+(n=3549) (n=3631)
+(WSIRD minus MSRD)
+Bladder 14.79% 12.87% 1.93%
+Brain/Neuro 2.90% 6.02% -3.13%
+Breast 7.62% 3.61% 4.01%
+Colorectal 2.18% 1.42% 0.76%
+Endocrine 6.47% 3.53% 2.94%
+GE Junction 2.91% 4.65% -1.74%
+Gallbladder 0.00% 0.00% 0.00%
+Gyn 5.22% 4.69% 0.53%
+Hernial/Peritoneal 0.00% 0.00% 0.00%
+Kidney, Neoplastic 3.13% 1.03% 2.09%
+Liver/BD 4.55% 1.39% 3.16%
+Lung 7.11% 2.02% 5.09%
+Lymph Node 2.76% 2.27% 0.49%
+Prostate 6.80% 4.03% 2.76%
+Salivary gland 1.43% 1.37% 0.06%
+Skin 10.57% 2.87% 7.70%
+Soft Tissue Tumor 6.90% 3.41% 3.49%
+Stomach 3.97% 3.27% 0.71%
+The observed estimates for the major discordance rates for the WSIR and MSR diagnoses
+(relative to the reference diagnosis) and the difference between the two modalities (WSIR major
+discordance rate minus MSR major discordance rate) for each organ for the full cohort, local
+cohort and remote cohort are as follows: Three (3) organ types (appendix, gallbladder, and
+hernial/peritoneal) had observed major discordance rates of 0.00% for both modalities in the full
+cohort. For the local cohort, there were an additional 2 organ types [kidney (neoplastic) and
+salivary gland] that had major discordance rates of 0.00% for both modalities. Excluding these
+organs from the respective cohorts, the difference in major discordance rates (WSIR diagnosis
+minus MSR diagnosis) ranged from -3.13% (brain/neuro) to 7.70% (skin) for the full cohort, -
+6.52% (brain/neuro) to 8.88% (skin) for the local cohort and -3.49% (GE junction) to 9.38%
+(liver/BD) for the remote cohort. The clinical study was not powered to analyze results by
+individual organ site or diagnosis. The performance of Aperio GT 450 DX was determined by
+the overall difference in major discordance rate between WSIR and MSR.
+Please see K232208 [Sectra Digital Pathology Module (3.3)] for performance data to support
+viewing of images in the DICOM format generated by Aperio GT 450 DX.
+D. Testing Performed for Addition of other Specific Displays:
+Technical testing and the results as specified in the table below was performed to validate
+additional specific displays intended to be used with the Aperio GT 450 DX as interoperable
+components.
+K232202 - Page 18 of 20
+
+[Table 1 on page 18]
+	Major Discordance Rate		Difference in Major
+Organ Type	WSIRD	MSRD	
+			Discordance Rates
+	(n=3549)	(n=3631)	
+			(WSIRD minus MSRD)
+			
+Bladder	14.79%	12.87%	1.93%
+Brain/Neuro	2.90%	6.02%	-3.13%
+Breast	7.62%	3.61%	4.01%
+Colorectal	2.18%	1.42%	0.76%
+Endocrine	6.47%	3.53%	2.94%
+GE Junction	2.91%	4.65%	-1.74%
+Gallbladder	0.00%	0.00%	0.00%
+Gyn	5.22%	4.69%	0.53%
+Hernial/Peritoneal	0.00%	0.00%	0.00%
+Kidney, Neoplastic	3.13%	1.03%	2.09%
+Liver/BD	4.55%	1.39%	3.16%
+Lung	7.11%	2.02%	5.09%
+Lymph Node	2.76%	2.27%	0.49%
+Prostate	6.80%	4.03%	2.76%
+Salivary gland	1.43%	1.37%	0.06%
+Skin	10.57%	2.87%	7.70%
+Soft Tissue Tumor	6.90%	3.41%	3.49%
+Stomach	3.97%	3.27%	0.71%
+
+--- Page 19 ---
+Table 8. Display Equivalency Test
+Display
+Test Name Unit Barco MDPC- Dell UP3017
+Dell U3023E Dell U3223QE
+8127 (Comparator)
+1. Specifications Display technology TFT-LCD/IPS TFT-LCD/IPS TFT-LCD/IPS TFT-LCD/IPS
+30 inch 31.5 inch 27 inch 30 inch
+Screen diagonal
+2560(h) x 3840(h) x 3840(h) x 2560(h)
+Pixel count 1600(v) 2160(v) 2160(v) x 1600(v)
+Color space sRGB sRGB sRGB sRGB
+Display interface Display Port Display Port Display Port Display Port
+2. Pixel defects Visual None None None None
+3. Artifacts TG18-QC Passed Passed Passed Passed
+4. Maximum
+Lmax = 237 Lmax = 235 Lmax = 435 Lmax = 265
+luminance and cd/m^2
+Contrast = 1568 Contrast = 2426 Contrast = 1046 Contrast = 1031
+contrast ratio contrast ratio
+5. Luminance Max Non-
+11.16% 12.58% 1.74% 16.74%
+uniformity uniformity
+6. Grayscale
+1.69% 6.72% 4.15% 4.81%
+∆L/L
+7. Gray tracking
+0.0034 0.0021 0.005 0.004
+Max ∆|u’, v’|
+8. Color
+1.608 2.1815 1.5161 4.8135
+difference Max ΔE
+9. Color gamut
+100% 100% 132% 99%
+volume sRGB
+10. Temporal
+8 5 8 8
+response ms
+E. Human Factor Study:
+Human factors studies for Aperio GT 450 DX were conducted. The studies were designed
+around critical user tasks and use scenarios performed by representative users from
+histotechnicians and pathologists. The information included a list of all critical user tasks and
+a description of the process used to identify them. A systematic evaluation involving
+simulated use by representative users performing all tasks (including critical tasks) required
+for the operation of the device and a subjective assessment of failure was provided. All
+participants were able to perform all tasks (including the critical tasks) and no critical task
+failures were observed. There were several occasional difficulties, which was attributed to
+non-familiarity associated with first-time use of the new software and instrument. The
+learnability and ease of use were acceptable and there were no difficulties or failures observed
+on tasks that could lead to patient harm. In all instances, both pathologists and
+histotechnicians were able to identify cases and ensure that the case presentation was
+complete in the user interface.
+K232202 - Page 19 of 20
+
+[Table 1 on page 19]
+Test Name	Unit	Display							
+		Dell U3023E	Dell U3223QE		Barco MDPC-			Dell UP3017	
+					8127			(Comparator)	
+1. Specifications	Display technology
+Screen diagonal
+Pixel count
+Color space
+Display interface	TFT-LCD/IPS
+30 inch
+2560(h) x
+1600(v)
+sRGB
+Display Port	TFT-LCD/IPS
+31.5 inch
+3840(h) x
+2160(v)
+sRGB
+Display Port	TFT-LCD/IPS
+27 inch
+3840(h) x
+2160(v)
+sRGB
+Display Port			TFT-LCD/IPS
+30 inch
+2560(h)
+x 1600(v)
+sRGB
+Display Port		
+2. Pixel defects	Visual	None	None	None			None		
+3. Artifacts	TG18-QC	Passed	Passed	Passed			Passed		
+4. Maximum
+luminance and
+contrast ratio	cd/m^2
+contrast ratio	Lmax = 237
+Contrast = 1568	Lmax = 235
+Contrast = 2426	Lmax = 435
+Contrast = 1046			Lmax = 265
+Contrast = 1031		
+5. Luminance
+uniformity	Max Non-
+uniformity	11.16%	12.58%	1.74%			16.74%		
+6. Grayscale	∆L/L	1.69%	6.72%	4.15%			4.81%		
+7. Gray tracking	Max ∆|u’, v’|	0.0034	0.0021	0.005			0.004		
+8. Color
+difference	Max ΔE	1.608	2.1815	1.5161			4.8135		
+9. Color gamut
+volume	sRGB	100%	100%	132%			99%		
+10. Temporal
+response	ms	8	5	8			8		
+
+[Table 2 on page 19]
+
+Test Name
+
+[Table 3 on page 19]
+
+Unit
+
+--- Page 20 ---
+VIII Proposed Labeling:
+The labeling is sufficient, and it satisfies the requirements of 21 CFR Parts 801 and 809, as
+applicable, and the special controls for this device type under 21 CFR 864.3700.
+IX Conclusion:
+The submitted information in this premarket notification is complete and supports a substantial
+equivalence decision.
+K232202 - Page 20 of 20

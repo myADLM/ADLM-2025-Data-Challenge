@@ -1,0 +1,107 @@
+{
+    "Trade/Device Name(s)": [
+        "BIOFIRE Blood Culture Identification 2 (BCID2) Panel",
+        "BIOFIRE FILMARRAY Blood Culture Identification 2 (BCID2) Panel"
+    ],
+    "Submitter Information": "BioFire Diagnostics, LLC (bioM\u00e9rieux)",
+    "510(k) Number": "K243759",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "K193519"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "PEN",
+        "PAM",
+        "PEO"
+    ],
+    "Summary Letter Date": "December 5, 2024",
+    "Summary Letter Received Date": "December 6, 2024",
+    "Submission Date": "December 5, 2024",
+    "Regulation Number(s)": [
+        "21 CFR 866.3365"
+    ],
+    "Regulation Name(s)": [
+        "Multiplex Nucleic Acid Assay For Identification Of Microorganisms And Resistance Markers From Positive Blood Cultures"
+    ],
+    "Analyte Class(es)": [
+        "microbiology",
+        "virology",
+        "genetic molecular"
+    ],
+    "Analyte(s)": [
+        "Enterococcus faecalis",
+        "Enterococcus faecium",
+        "Listeria monocytogenes",
+        "Staphylococcus spp.",
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Staphylococcus lugdunensis",
+        "Streptococcus spp.",
+        "Streptococcus agalactiae (Group B)",
+        "Streptococcus pneumoniae",
+        "Streptococcus pyogenes (Group A)",
+        "Acinetobacter calcoaceticus-baumannii complex",
+        "Enterobacterales",
+        "Bacteroides fragilis",
+        "Enterobacter cloacae complex",
+        "Haemophilus influenzae",
+        "Escherichia coli",
+        "Neisseria meningitidis (encapsulated)",
+        "Klebsiella aerogenes",
+        "Pseudomonas aeruginosa",
+        "Klebsiella oxytoca",
+        "Stenotrophomonas maltophilia",
+        "Klebsiella pneumoniae group",
+        "Proteus spp.",
+        "Salmonella spp.",
+        "Serratia marcescens",
+        "Candida albicans",
+        "Candida krusei",
+        "Cryptococcus neoformans/gattii",
+        "Candida auris",
+        "Candida parapsilosis",
+        "Candida glabrata",
+        "Candida tropicalis",
+        "CTX-M",
+        "KPC",
+        "mecA/C",
+        "NDM",
+        "vanA/B",
+        "IMP",
+        "mcr-1",
+        "mecA/C and MREJ (MRSA)",
+        "OXA-48-like",
+        "VIM"
+    ],
+    "Specimen Type(s)": [
+        "Blood culture samples identified as positive by a continuous monitoring blood culture system"
+    ],
+    "Specimen Container(s)": [],
+    "Instrument(s)/Platform(s)": [
+        "BIOFIRE FILMARRAY 2.0",
+        "BIOFIRE FILMARRAY TORCH"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Multiplexed nucleic acid amplification",
+        "Nested PCR",
+        "Melt curve analysis",
+        "Fluorescence detection",
+        "Automated sample processing"
+    ],
+    "Methodologies": [
+        "PCR",
+        "Molecular detection",
+        "Automated analysis"
+    ],
+    "Submission Type(s)": [
+        "Panel",
+        "Multiplex",
+        "Software",
+        "Assay",
+        "Reagent",
+        "System"
+    ],
+    "Document Summary": "FDA 510(k) summary for BIOFIRE BCID2 Panel software update enabling detection of bacterial, yeast, and resistance gene nucleic acids directly from positive blood cultures",
+    "Indications for Use Summary": "Qualitative detection and identification of multiple bacterial and yeast nucleic acids, plus select genetic determinants of antimicrobial resistance, directly from positive blood culture samples using BIOFIRE FILMARRAY systems, interpreted with Gram stain results, as an aid in the diagnosis of bloodstream infection agents",
+    "fda_folder": "Microbiology"
+}

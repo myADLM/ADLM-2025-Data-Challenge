@@ -1,0 +1,351 @@
+
+--- Page 1 ---
+510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+DECISION SUMMARY
+INSTRUMENT ONLY TEMPLATE
+A. 510(k) Number:
+K050014
+B. Purpose for Submission:
+To obtain clearance for the HemoNIR ™ instrument for the quantitative testing of
+Lab
+total hemoglobin, methemoglobin and carboxyhemoglobin.
+C. Manufacturer and Instrument Name:
+NIR Diagnostics, Inc.
+HemoNIR ™
+Lab
+D. Type of Test or Tests Performed:
+Quantitative assay performed by oximeter
+E. System Descriptions:
+1. Device Description:
+HemoNIR ™ is a small, portable, battery-powered system using rechargeable
+Lab
+batteries to measure Total Hemoglobin, Methemoglobin and Carboxyhemoglobin
+using spectroscopic technology. The HemoNIR ™ user interface consists of a
+Lab
+sample tab receiver, three pushbutton keys, a graphic LCD display and an audible
+beeper. The HemoNIR ™is comprised of the following elements:
+Lab
+• Tungsten lamp for illuminating the sample (wavelength range
+approximately 450 nm to 850 nm)
+• A spectrometer with linear diode array of photo-detectors for measuring
+the amount of electro-magnetic radiation (EMR) transmitted through the
+sample
+• An electronic board which contains an amplifier, an analog-to-digital
+converter and a microcontroller for processing the information received by
+the photodetectors
+• Disposable sample tabs and a sample slot in the unit for locating the
+sample tab
+• Primary calibration algorithms for each analyte in each device
+1
+
+--- Page 2 ---
+2. Principles of Operation:
+Samples are introduced in to the HemoNIR ™ using disposable sample tabs.
+Lab
+The sample tab well is filled with sample and then inserted into the
+HemoNIR ™ unit’s sample slot. The unit automatically starts-up and runs its
+Lab
+built-in self-test and then performs a measurement on the sample. The EMR
+transmitted through the sample is received by the spectrometer/linear diode array
+and is converted to an analog electronic signal. This signal is proportional to the
+time that the detector integrates the optical signal. The electronic signal is
+amplified by analog electronic amplifiers and converted to a digital signal by an
+analog-to-digital converter.
+A reference measurement is taken after a sample measurement, with the sample
+tab removed, and this is used by the microcontroller to calculate the absorbance.
+An absorbance calculation is made from the reading of sample and reference
+light, sample and reference dark and their respective integration times. The
+algorithm in the unit uses this absorbance to calculate the respective analyte
+results.
+3. Modes of Operation:
+The measurement operation is random access.
+4. Specimen Identification:
+Samples are identified by a unique ID# plus time and date of measurement.
+5. Specimen Sampling and Handling:
+The HemoNIR ™ uses disposable, single-use, polypropylene sample tabs that
+Lab
+require no sample preparation or reagents. Samples collected in heparin or EDTA
+is introduced into the HemoNIR ™ using the sample tabs. The blood sample
+Lab
+should be mixed by inverting or rolling it between the fingers (10-20 times)
+before filling the sample tab well with approximately 10 µL of sample. The snap
+press-fit cover is closed and it is then inserted into the sample tab receiver on the
+front of the HemoNIR ™.
+Lab
+6. Calibration:
+The HemoNIR ™ is factory calibrated and does not require any re-calibration
+Lab
+by the user.
+7. Quality Control:
+To verify that the HemoNIR ™ is operating within the specification, three QC
+Lab
+Optical Filter sample tabs (High, Medium and Low) are supplied with each
+2
+
+--- Page 3 ---
+HemoNIR ™ unit with assigned values for Total Hemoglobin.
+Lab
+Additional external controls may be necessary to meet conformance with local,
+state, and federal regulations or accreditation requirements for quality control.
+8. Software:
+FDA has reviewed applicant’s Hazard Analysis and Software Development
+processes for this line of product types:
+Yes___X_____ or No________
+The HemoNIR ™ incorporates embedded software to control several functions
+Lab
+of device operation including user interface, self-diagnosis, configuration,
+measurements and communication.
+F. Regulatory Information:
+1. Regulation section:
+21 CFR 864.7500
+2. Classification:
+Class II
+3 Product code:
+GLY
+4. Panel:
+81 Hematology
+G. Intended Use:
+1. Indication(s) for Use:
+HemoNIR ™ is intended for the in vitro diagnostic use by healthcare
+Lab
+professionals in quantitative testing of whole blood for total hemoglobin,
+methemoglobin and carboxyhemoglobin.
+2. Special Conditions for Use Statement(s):
+3
+
+--- Page 4 ---
+H. Substantial Equivalence Information:
+1. Predicate Device Name(s) and 510(k) numbers:
+(a) OSM3 Hemoximeter (K853990)
+(b) AVOXimeter 4000 (K951485)
+2. Comparison with Predicate Device:
+Similarities
+Item Device Predicate
+HemoNIR ™ OSM3 AVOXimeter
+Lab
+Hemoximeter 4000
+Intended Use Quantitative Same plus other Same plus other
+measurement of Total- parameters parameters
+Hb, Met-Hb &
+Carboxy-Hb
+Sample Anticoagulated whole Same Same
+blood
+Sample preparation None Ultrasonic None
+hemolyzation
+Measurement Method Spectroscopic Same Same
+Reagents No Yes No
+QC materials Optical Aqueous Optical/aqueous
+solutions solutions
+Battery-Powered Yes No Yes
+Differences
+Item Device Predicate
+HemoNIR ™ OSM3 AVOXimeter
+Lab
+Hemoximeter 4000
+Number of Continuous 6 5
+wavelengths
+4
+
+[Table 1 on page 4]
+Similarities									
+	Item			Device			Predicate		
+Intended Use
+Sample
+Sample preparation
+Measurement Method
+Reagents
+QC materials
+Battery-Powered			HemoNIR ™
+Lab
+Quantitative
+measurement of Total-
+Hb, Met-Hb &
+Carboxy-Hb
+Anticoagulated whole
+blood
+None
+Spectroscopic
+No
+Optical
+Yes			OSM3
+Hemoximeter
+Same plus other
+parameters
+Same
+Ultrasonic
+hemolyzation
+Same
+Yes
+Aqueous
+solutions
+No		AVOXimeter
+4000
+Same plus other
+parameters
+Same
+None
+Same
+No
+Optical/aqueous
+solutions
+Yes	
+
+[Table 2 on page 4]
+Differences									
+	Item			Device			Predicate		
+Number of
+wavelengths			HemoNIR ™
+Lab
+Continuous			OSM3
+Hemoximeter
+6		AVOXimeter
+4000
+5	
+
+--- Page 5 ---
+I. Special Control/Guidance Document Referenced (if applicable):
+Not applicable
+J. Performance Characteristics:
+1. Analytical Performance:
+a. Accuracy:
+Accuracy was determined by comparing the results obtained from the
+HemoNIR ™ with a predicate device, Radiometer Co-Oximeter OSM 3. In
+Lab
+an in-house, single-site study, untreated patient samples obtained from a local
+hospital, and additional whole blood samples were treated with carbon
+monoxide and sodium nitrite to obtain elevated levels of carboxyhemoglobin
+and methemoglobin, respectively.
+Treated samples: Blood samples from 6 normal adult males were treated and
+aliquotted for a total of approximately 101 independent testing specimens.
+For each day of testing, a blood sample was obtained from one person in 10
+ml heparin or EDTA tubes. The blood was centrifuged and the plasma
+removed. Met-Hb concentration was increased by reacting the Hb in 1 mL of
+blood with 100 µL of 10g/L sodium nitrite in phosphate buffered saline
+(PBS). Carboxy-Hb concentration was increased by reacting the Hb in about
+2-4 mL of blood with carbon monoxide (CO) gas in a 10 mL Vacutainer: the
+air space in the tube was filled with CO and the sample was placed on a rocker
+for several minutes.
+Untreated samples: A total of 144 samples, 68 male and 76 female adult
+patients, were obtained from a local hospital with no traceablity to patients.
+Samples included patients with renal diseases, sickle cell anemia and
+thalassemia.
+Linear regression analysis was performed for the combined untreated and
+treated samples. The mean of the summary correlation statistics are as
+follows:
+Total Hemoglobin: slope = 1.013 and r = 0.980
+Methemoglobin: slope = 0.999 and r = 0.996
+Carboxyhemoglobin: slope = 0.986 and r = 0.982
+An additional study method comparison study was conducted on whole blood
+samples collected at Milton District Hospital Laboratory, Ontario, Canada.
+Results from the HemoNIR ™ were compared to the Radiometer OSM 3
+Lab
+5
+
+--- Page 6 ---
+Hemoximeter.
+In order to obtain the desired range of abnormal values, approximately half of
+the whole blood samples were treated with sodium nitrate and carbon
+monoxide to obtain elevated levels of methemoglobin and
+carboxyhemoglobin, respectively. Treatment of the samples (as described
+above) was performed at NIR Diagnostics and the treated samples transported
+back to the hospital for testing by hospital laboratory personnel.
+A total of 109 samples, 51 untreated and 58 treated samples, were tested in
+parallel on two HemoNIR ™ units and one Radiometer OSM 3 unit within
+Lab
+approximately two minutes.
+Linear regression analysis was performed for comparison of the
+HemoNIR ™ and Radiometer OSM 3 methods. The mean of the summary
+Lab
+correlation statistics are as follows:
+Total Hemoglobin: slope = 0.9925 and r = 0.935
+Methemoglobin: slope = 1.035 and r = 0.997
+Carboxyhemoglobin: slope = 1.014 and r = 0.985
+b. Precision/Reproducibility:
+A precision study for total hemoglobin was performed to assess the total
+precision of the HemoNIR ™ by replicate measurements of quality control
+Lab
+materials. Three optical filters representing low, medium and high total
+hemoglobin concentration levels were used as the quality control materials.
+Precision studies were performed for 20 days on four HemoNIR ™ units.
+Lab
+Three replicate measurements were performed for each of the three optical
+filters each day, morning and afternoon.
+For each quality control material and each HemoNIR ™, the mean, standard
+Lab
+deviation and % coefficient of variation were calculated. Results
+demonstrated acceptable measurement precision for total hemoglobin and
+indicated no systematic error due to drift over the 20 testing days.
+Additional precision studies were performed to assess the within-run precision
+of the methemoglobin and carboxyhemoglobin parameters on the
+HemoNIR ™. Human whole blood samples were treated to obtain three
+Lab
+concentration levels of methemoglobin and carboxyhemoglobin, respectively.
+Replicate measurements (20) were run on the HemoNIR ™, for each
+Lab
+sample.
+6
+
+--- Page 7 ---
+Total Hemoglobin: Mean and % CV for four instruments (average results)
+High: Total-Hb = 199.7 g/L, % CV = 3.2
+Medium: Total-Hb = 156.5 g/L, % CV = 1.8
+High: Total-Hb = 101 g/L, % CV = 3.7
+Mean and % CV for within-run precision of methemoglobin and
+carboxyhemoglobin:
+Methemoglobin Carboxyhemoglobin
+Low Medium High Low Medium High
+Mean 1.6 3.5 35.1 5.9 10.5 19.0
+% CV 5.5 6.8 3.7 8.4 7.3 6.1
+c. Linearity:
+Linearity was evaluated by assaying a series of twelve samples, prepared from
+the whole blood of a single donor that covered a wide range of concentrations.
+All samples were tested in duplicate on four HemoNIR ™ units. Results
+Lab
+were displayed graphically and examined for linearity by visual inspection.
+The HemoNIR ™ demonstrated linearity for the following ranges:
+Lab
+Total Hemoglobin 50-250 g/L
+Methemoglobin 0-100 g/L; % Met-Hb is about 2-70% of Total-Hb
+Carboxyhemoglobin 0-180 g/L or 0-100% of Total-Hb
+d. Carryover:
+Not applicable
+e. Interfering Substances:
+An interference study was performed to assess the effect of bilirubin,
+hemolysis, turbidity (Intralipid) and methylene blue on the accuracy of
+HemoNIR ™ measurements. A series of samples prepared from whole
+Lab
+blood, that included three concentrations of the respective interferent and a
+baseline sample with no interferent were tested in duplicate on four
+HemoNIR ™ units.
+Lab
+Results for samples containing interferents were evaluated relative to samples
+7
+
+[Table 1 on page 7]
+	Methemoglobin			Carboxyhemoglobin		
+	Low	Medium	High	Low	Medium	High
+Mean	1.6	3.5	35.1	5.9	10.5	19.0
+% CV	5.5	6.8	3.7	8.4	7.3	6.1
+
+--- Page 8 ---
+in which no interferent was present. The observed differences indicated that
+there was no effect at interferent levels that would reasonably be expected to
+occur in clinical situations.
+Interference Summary Results: Total-Hb, Met-Hb and Carboxy-Hb
+Interferent Level Effect
+Bilirubin 60 mg/dl no effect
+Hemolysis 2700 mg/dl no effect
+Intralipid 200 mg/dl no effect
+Methylene Blue 50 mg/dl no effect
+“No effect” means the observed bias due to the interferent is less than 20% of
+baseline. Not applicable to Met-Hb.
+2. Other Supportive Instrument Performance Data Not Covered Above:
+K. Proposed Labeling:
+The labeling is sufficient and it satisfies the requirements of 21 CFR Part 809.10.
+L. Conclusion:
+The submitted information in this premarket notification is complete and supports a
+substantial equivalence decision.
+8
+
+--- Page 9 ---
+9

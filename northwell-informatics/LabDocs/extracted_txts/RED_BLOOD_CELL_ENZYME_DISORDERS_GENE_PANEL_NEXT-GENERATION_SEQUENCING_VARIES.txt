@@ -1,0 +1,108 @@
+Protocol for Analytical Phase of Generating Results for RED
+BLOOD CELL ENZYME DISORDERS GENE PANEL using Next-
+Generation Sequencing (NGS)
+1. PURPOSE
+The purpose of this procedure is to outline the steps for the analytical
+phase of generating results for Red Blood Cell Enzyme Disorders
+Gene Panel using Next-Generation Sequencing (NGS). This includes
+processing the samples on the sequencing platform, data analysis,
+and interpretation of results.
+2. RESPONSIBILITY
+It is the responsibility of the designated laboratory personnel to follow
+this protocol accurately. This includes DNA extraction, library
+preparation, sequencing, data analysis, and reporting.
+3. SPECIMEN REQUIREMENTS AND HANDLING
+• Specimen Type: Peripheral blood collected in EDTA (lavender-
+top) tubes
+• Specimen Volume: Minimum of 3 mL
+• Specimen Stability: Store specimens at 2-8°C and extract DNA
+within 48 hours. Specimens can be stored frozen (-20°C) if delays
+in processing are anticipated.
+4. EQUIPMENT AND MATERIALS
+• Next-Generation Sequencer (e.g., Illumina MiSeq, Ion Torrent)
+• DNA extraction kits (e.g., Qiagen DNeasy Blood & Tissue Kit)
+• Library preparation kits for targeted gene panels
+• PCR and thermal cycler equipment
+• Bioinformatics analysis software (e.g., GATK, Mutect2)
+• Relevant certified reference materials and controls
+5. PROCEDURE
+A. DNA Extraction
+1. Follow the manufacturer's protocol for the DNA extraction kit to
+isolate genomic DNA from the submitted blood specimen.
+2. Measure the concentration and purity of the extracted DNA
+using spectrophotometry (e.g., NanoDrop).
+3. Record the DNA concentration and purity on the data log.
+B. Library Preparation
+1. Use the library preparation kit as per the manufacturer’s
+protocol to prepare the DNA libraries specific for the Red Blood
+Cell Enzyme Disorders gene panel.
+2. Check the quality of the prepared libraries using a bioanalyzer
+or equivalent.
+3. Quantify the library concentration using qPCR or other
+quantification methods.
+4. Pool the libraries to achieve the appropriate final concentration
+for sequencing.
+C. Next-Generation Sequencing
+1. Load the pooled libraries onto the Next-Generation Sequencer
+according to the platform-specific protocols.
+2. Set up the sequencer with the appropriate runs parameters,
+ensuring correct loading of reagents and flow cells/chips.
+3. Start the sequencing run and monitor the progress.
+4. Upon completion of the sequencing run, transfer raw data to the
+bioinformatics server for analysis.
+D. Data Analysis
+1. Perform initial quality control on raw data reads using tools like
+FastQC.
+2. Align the sequencing reads to the human reference genome
+(e.g., hg19 or hg38) using alignment software like BWA-MEM.
+3. Perform variant calling using appropriate variant calling
+software (e.g., GATK, Mutect2).
+4. Annotate detected variants using variant annotation software
+(e.g., Annovar, VEP).
+5. Cross-check variants with databases (e.g., ClinVar, HGMD) to
+determine the clinical significance.
+6. Generate a preliminary variant report.
+E. Data Interpretation and Reporting
+1. Review and interpret the variant report, correlating with the
+patient's clinical information.
+2. Consult with clinical geneticists or molecular pathologists if
+necessary for complex or novel variants.
+3. Classify variants according to ACMG guidelines (e.g.,
+pathogenic, likely pathogenic, VUS, likely benign, benign).
+4. Prepare a comprehensive final report for the ordering physician,
+including details of the variants detected, their clinical
+relevance, and recommended follow-up actions.
+5. Ensure the report is verified and approved by a certified
+laboratory director before release.
+6. QUALITY CONTROL AND ASSURANCE
+1. Include appropriate controls and standards in each sequencing
+run.
+2. Perform periodic calibration and maintenance of sequencing
+equipment as per manufacturer's guidelines.
+3. Analyze Quality Control metrics for each sequencing run to
+ensure data integrity.
+7. RECORD KEEPING AND DOCUMENTATION
+All steps, from DNA extraction to final report generation, must be
+documented in the laboratory information system (LIS). Maintain
+comprehensive logs for reagent lot numbers, control results,
+sequencing run metrics, and analysis pipelines used.
+8. LIMITATIONS
+• Sequencing artifacts or low-quality samples may affect the
+accuracy of results.
+• Variants of unknown significance (VUS) require cautious
+interpretation, often necessitating further analysis or testing.
+• The protocol may not detect all genetic variants due to coverage
+limitations or specific platform/systemic biases.
+REFERENCES
+• Illumina MiSeq System Guide
+• GATK Best Practices Workflow
+• ACMG Standards and Guidelines for the Interpretation of
+Sequence Variants
+• Manufacturer’s instructions for all used kits and reagents
+9. REVIEW AND APPROVAL
+This SOP must be reviewed annually by the laboratory director and
+updated as needed to incorporate new methods, technologies, or
+regulatory changes.
+Document Control: Version: 1.0 Effective Date: [Insert Date] Last
+Reviewed: [Insert Date] Authored by: [Your Name] Approved by:
+[Laboratory Director’s Name]

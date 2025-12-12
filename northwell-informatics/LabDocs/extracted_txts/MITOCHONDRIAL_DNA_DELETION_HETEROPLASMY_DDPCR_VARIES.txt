@@ -1,0 +1,102 @@
+Standard Operating Procedure (SOP) for Analyzing
+Mitochondrial DNA Deletion Heteroplasmy using ddPCR
+1. PURPOSE
+This SOP outlines the protocol for the analysis of mitochondrial DNA
+(mtDNA) deletion heteroplasmy using Droplet Digital Polymerase
+Chain Reaction (ddPCR). The procedure includes preparation,
+amplification, and quantification steps to ensure accurate and
+reproducible results.
+Responsibility:
+Laboratory personnel are responsible for following this protocol
+accurately and maintaining the integrity of the samples. The
+laboratory supervisor oversees the entire process and ensures
+adherence to the protocol.
+2. DEFINITIONS
+• Heteroplasmy: The presence of more than one type of
+mitochondrial DNA within a cell or individual.
+• ddPCR: Droplet Digital Polymerase Chain Reaction, a highly
+sensitive method for quantifying nucleic acids.
+3. PROCEDURE
+Equipment and Reagents:
+• ddPCR System (e.g., Bio-Rad QX200)
+• Droplet Generator & Droplet Reader
+• ddPCR Supermix for Probes (No dUTP)
+• Target-specific and reference primers and probes
+• Thermal Cycler
+• Qubit Fluorometer or other nucleic acid quantification tools
+• Pipettes and filtered pipette tips
+• 96-well PCR plates and sealing film
+• Vortex and centrifuge
+• DNA extraction kit (specific to the sample type)
+• Nuclease-free water
+Sample Preparation:
+1. DNA Extraction:
+◦ Extract mitochondrial DNA from the collected sample using
+a suitable DNA extraction kit.
+◦ Quantify the extracted DNA using a Qubit Fluorometer or
+equivalent method to ensure a concentration of 20-100 ng/
+µL.
+◦ Store the DNA at -20°C until further use.
+ddPCR Reaction Setup:
+1. Prepare the ddPCR Reaction Mix:
+◦ In a sterile 1.5 mL microcentrifuge tube, prepare the reaction
+mix as follows:
+▪ ddPCR Supermix for Probes (No dUTP): 10 µL
+▪ Forward primer (10 µM): 1 µL
+▪ Reverse primer (10 µM): 1 µL
+▪ Probe (10 µM): 1 µL
+▪ Template DNA: 1-5 µL (20-100 ng DNA)
+▪ Nuclease-free water to a final volume of 20 µL
+2. Generate Droplets:
+◦ Transfer 20 µL of the reaction mix into the appropriate wells
+of a DG8 cartridge.
+◦ Add 70 µL of droplet generation oil to each well.
+◦ Load the cartridge into the droplet generator.
+◦ Seal the droplets as per the droplet generator protocol.
+3. PCR Amplification:
+◦ Transfer the generated droplets to a 96-well PCR plate.
+◦ Seal the plate with a foil seal or a plate sealer.
+◦ Place the sealed plate on a thermal cycler and run the
+following program:
+▪ Initial Denaturation: 95°C for 10 minutes
+▪ 40 cycles of:
+▪ Denaturation: 94°C for 30 seconds
+▪ Annealing/Extension: 55°C for 1 minute
+▪ Final Extension: 98°C for 10 minutes
+▪ Hold: 4°C
+Droplet Reading and Data Analysis:
+1. Read Droplets:
+◦ Load the PCR plate into the droplet reader and run the read
+protocol according to the manufacturer’s instructions.
+2. Analyze Data:
+◦ Use the ddPCR software to analyze the results.
+◦ Set appropriate thresholds for positive and negative
+droplets.
+◦ Calculate the percentage of heteroplasmy by comparing the
+number of droplets containing the deletion to the total
+number of positive droplets for the reference target.
+Quality Control:
+1. Quality Control Checks:
+◦ Include positive and negative controls in each run.
+◦ Ensure no-template controls (NTCs) are included to check
+for contamination.
+◦ Repeat any samples with unexpected results or dPCR
+anomalies.
+◦ Perform inter-run comparisons to verify the consistency of
+the results.
+Reporting Results:
+1. Result Documentation:
+◦ Verify and validate all results obtained from the ddPCR runs.
+◦ Report the percentage of mtDNA deletion heteroplasmy
+accurately in the laboratory information system (LIS).
+◦ Include the QC data and any relevant comments regarding
+the integrity and validity of the results.
+References:
+• Bio-Rad ddPCR System User Manual
+• Manufacturer’s instructions for the DNA extraction kit
+• Relevant scientific literature on mitochondrial DNA deletion
+analysis
+This procedure provides a standardized method to ensure reliable
+and accurate analysis of mitochondrial DNA deletion heteroplasmy
+using ddPCR technology. Ensure all steps are adhered to
+meticulously for the successful completion of the analysis.

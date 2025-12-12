@@ -1,0 +1,62 @@
+{
+    "Trade/Device Name(s)": [
+        "Basal-IQ Technology"
+    ],
+    "Submitter Information": "Tandem Diabetes Care, Inc.",
+    "510(k) Number": "K193483",
+    "Predicate Device Reference 510(k) Number(s)": [
+        "DEN190034",
+        "K192841",
+        "K190487"
+    ],
+    "Regulatory Class": "Class II",
+    "Product Code(s)": [
+        "QJS",
+        "NDC"
+    ],
+    "Summary Letter Date": "February 28, 2020",
+    "Summary Letter Received Date": "December 17, 2019",
+    "Submission Date": "December 16, 2019",
+    "Regulation Number(s)": [
+        "21 CFR 862.1356",
+        "21 CFR 868.1890"
+    ],
+    "Regulation Name(s)": [
+        "Interoperable Automated Glycemic Controller",
+        "Predictive pulmonary-function value calculator"
+    ],
+    "Analyte Class(es)": [
+        "chemistry",
+        "endocrine"
+    ],
+    "Analyte(s)": [
+        "Glucose",
+        "Insulin"
+    ],
+    "Specimen Type(s)": [],
+    "Specimen Container(s)": [],
+    "Instrument(s)/Platform(s)": [
+        "Tandem t:slim X2 insulin pump",
+        "compatible integrated continuous glucose monitors (iCGM)",
+        "Alternate Controller Enabled (ACE) pumps"
+    ],
+    "Method(s)/Technology(ies)": [
+        "Predictive Low Glucose Suspend (PLGS) algorithm",
+        "Bolus calculator",
+        "Bluetooth Low Energy (BLE) communication"
+    ],
+    "Methodologies": [
+        "Algorithmic prediction",
+        "Software calculation"
+    ],
+    "Submission Type(s)": [
+        "Software",
+        "Accessory",
+        "Component",
+        "Calculator",
+        "Algorithm"
+    ],
+    "Document Summary": "FDA 510(k) summary for Tandem Diabetes Care Basal-IQ Technology algorithm for predictive low glucose suspend functionality in insulin pump therapy.",
+    "Indications for Use Summary": "For automatic suspension of insulin delivery based on continuous glucose monitor readings and predicted glucose values in patients six years and older with diabetes mellitus, for single patient use and requiring a prescription; indicated for use with NovoLog or Humalog U-100 insulin.",
+    "fda_folder": "Clinical Chemistry"
+}
