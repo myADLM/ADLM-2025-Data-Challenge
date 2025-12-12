@@ -1,0 +1,56 @@
+Extract entities and relationships from this document (either FDA regulatory or SOP) using ONLY the schema below.
+
+IMPORTANT: Entity ID Guidelines
+- Generate canonical, descriptive IDs following pattern: TYPE_CanonicalName
+- For FDA documents: FDA_DOC_K<number>, DEVICE_<Name>, MANUFACTURER_<Name>
+- For SOP documents: SOP_<Name>, ASSAY_<Name>, ANALYTE_<Name>, SPECIMEN_<Type>
+- For shared entities: INSTRUMENT_<Name>, REAGENT_<Name>, STANDARD_<Name>
+- Use full names, not abbreviations
+- If entity appears multiple times with different names, use the SAME ID consistently
+
+CRITICAL: Cross-Document Linking
+When extracting from FDA documents, look for mentions of:
+- Specific assay procedures (link to ASSAY entities)
+- Test methods (link to TestType entities)
+- Equipment platforms (link to INSTRUMENT entities)
+
+When extracting from SOP documents, look for mentions of:
+- Specific devices or commercial kits (link to DEVICE entities)
+- Regulatory requirements (link to RegulatorySection entities)
+- FDA guidance (link to GuidanceDocument entities)
+
+Schema:
+{{ schema_text }}
+
+Document Content:
+{{ markdown_content }}
+
+Return a JSON object with this structure:
+{
+    "@context": "https://example.org/unified-ontology/context.json",
+    "@graph": [
+        {
+            "@id": "TYPE_CanonicalName",
+            "@type": "EntityType",
+            "title": "Full Canonical Name",
+            "description": "Optional description",
+            "doc_type": "fda" or "sop",
+            "relations": [
+                {
+                    "predicate": "RELATIONSHIP_TYPE",
+                    "object": "target_entity_id",
+                    "source_text": "supporting text from document"
+                }
+            ]
+        }
+    ]
+}
+
+Ensure:
+- All entity types match exactly the schema types
+- All relationship types match exactly the schema types
+- Entity IDs are canonical and consistent
+- All referenced entity IDs exist in the @graph array
+- Source text is provided for each relationship
+- doc_type is set to either "fda" or "sop" for tracking
+- Cross-document relationships (DEVICE_IMPLEMENTS_ASSAY, SOP_IMPLEMENTS_DEVICE, etc.) are used when applicable

@@ -1,3 +1,129 @@
-# data file extensions
+# ============================================================================
+# Environment & Secrets
+# ============================================================================
+.env
+*.log
+
+# ============================================================================
+# Project Artifacts & Generated Data
+# ============================================================================
+# Raw and processed data
+data/
+
+# Knowledge graph outputs
+graphdb/
+graphdb_unified/
+graphdb_vectorstore/
+graphdb*/
+
+# Vector databases (for RAG indexing, optional)
+vectordb/
+
+# Pipeline status files
+.load_status.json
+
+# ============================================================================
+# Archive Files (Pre-processed Artifacts)
+# ============================================================================
 *.zip
+*.tar.gz
 *.pdf
+
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# ============================================================================
+# IDEs & Editors
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Cursor
+.cursor/
+
+# ============================================================================
+# OS Files
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================================
+# Package Manager Lock Files
+# ============================================================================
+uv.lock
+
+# ============================================================================
+# Project-Specific
+# ============================================================================
+# Utils directory (not versioned)
+utils/
+
+# Logs directory
+logs/
