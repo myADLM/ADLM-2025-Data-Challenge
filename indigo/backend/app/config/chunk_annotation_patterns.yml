@@ -1,0 +1,13 @@
+---
+"(?=.*FDA/)(?!.*REVIEW).*": "This file contains a proposal sent to the FDA for a new medical device."
+"(?=.*FDA/)(?=.*REVIEW).*": "This file contains a review of a medical device sent to the FDA."
+"(?=.*FDA/)(?=.*Cardiovascular).*": "This proposal is for a cardiovascular medical device."
+"(?=.*FDA/)(?=.*Clinical Chemistry).*": "This proposal is for a clinical chemistry medical device."
+"(?=.*FDA/)(?=.*Hematology).*": "This proposal is for a hemotology medical device."
+"(?=.*FDA/)(?=.*Immunology).*": "This proposal is for an immunology medical device."
+"(?=.*FDA/)(?=.*Microbiology).*": "This proposal is for a microbiology medical device."
+"(?=.*FDA/)(?=.*Molecular Genetics).*": "This proposal is for a molecular genetics medical device."
+"(?=.*FDA/)(?=.*Obstegrics).*": "This proposal is for an obstetrics/gynecology medical device."
+"(?=.*FDA/)(?=.*Pathology).*": "This proposal is for a pathology medical device."
+"(?=.*FDA/)(?=.*Toxicology).*": "This proposal is for a toxicology medical device."
+"(?=.*Synthetic_Procedures).*": "This file contains a procedure."

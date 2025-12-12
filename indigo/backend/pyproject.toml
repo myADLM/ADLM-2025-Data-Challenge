@@ -1,0 +1,89 @@
+[project]
+name = "indigo-app"
+version = "0.1.0"
+description = "ADLM 2025 Data Challenge Contextual Retrieval Application"
+authors = [{ name = "Jon Montgomery", email = "jmontgom543@gmail.com" }]
+requires-python = ">=3.11.13,<3.15"
+license = "MIT"
+dependencies = [
+    "PyMuPDF==1.26.4",
+    "pytesseract==0.3.13",
+    "tqdm==4.67.1",
+    "numpy==2.3.2",
+    "chonkie[st]==1.2.1",
+    "chonky==0.1.6",
+    "boto3==1.40.30",
+    "pyarrow==21.0.0",
+    "polars==1.33.1",
+    "faiss-cpu==1.12.0",
+    "openai==1.107.2",
+    "fastapi==0.116.1",
+    "uvicorn==0.35.0",
+    "fastbm25",
+]
+
+[project.urls]
+Repository = "https://github.com/jonmontg/ADLM-2025-Data-Challenge"
+
+[project.scripts]
+app = "app.app:main"
+
+[dependency-groups]
+dev = [
+    "pytest==7.4.0",
+    "isort==6.1.0",
+    "black==23.1.0",
+    "flake8==6.1.0",
+    "mypy==1.18.1",
+    "pre-commit==3.8.0",
+    "maturin==1.9.4",
+    "embedding-atlas==0.10.0",
+]
+
+[tool.uv]
+
+[tool.uv.sources]
+fastbm25 = { git = "https://github.com/jonmontg/fastbm25.git", branch = "main" }
+
+[tool.hatch.build.targets.sdist]
+include = ["app"]
+
+[tool.hatch.build.targets.wheel]
+include = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
