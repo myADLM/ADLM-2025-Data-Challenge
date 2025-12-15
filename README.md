@@ -9,14 +9,14 @@ The 2025 ADLM Data Science Challenge
 We’re excited to announce the finalists of the LabDocs Unlocked Challenge and extend our thanks to everyone who participated and demonstrated exceptional skill in developing innovative solutions.
 
 **Challenge Finalists:**
-Team Indigo 
-Team BCM 
+- Team Indigo 
+- Team BCM 
 
 The quality and creativity of submissions this year were outstanding. The solutions showcased a wide variety of approaches to using LLMs including the use of different models such as AWS Nova, GPT, DeepSeek, Gemini and Grok. We were particularly impressed by the excellent documentation, clean interfaces, and concise responses from the finalists. 
  
 **What's Next:**
-•	Join the webinar early next year, where finalists will present their solutions and compete to see which performs best on our challenge questions. Details will be shared soon. 
-•	All participants are welcomed to join in a collaborative paper where each team describes their problem-solving methods, design principles, rationale and methodologies. Please contact ahobby@myadlm.org if you are interested in participating. 
+-	Join the webinar early next year, where finalists will present their solutions and compete to see which performs best on our challenge questions. Details will be shared soon. 
+-	All participants are welcomed to join in a collaborative paper where each team describes their problem-solving methods, design principles, rationale and methodologies. Please contact ahobby@myadlm.org if you are interested in participating. 
 
 Congratulations, and we look forward to seeing you all at finalist’s webinar which will be held early next year!
 
