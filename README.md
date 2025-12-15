@@ -8,7 +8,7 @@ The 2025 ADLM Data Science Challenge
 
 We’re excited to announce the finalists of the LabDocs Unlocked Challenge and extend our thanks to everyone who participated and demonstrated exceptional skill in developing innovative solutions.
 
-**Challenge Finalists: **
+**Challenge Finalists:**
 Team Indigo 
 Team BCM 
 
