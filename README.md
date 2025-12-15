@@ -14,7 +14,7 @@ Team BCM
 
 The quality and creativity of submissions this year were outstanding. The solutions showcased a wide variety of approaches to using LLMs including the use of different models such as AWS Nova, GPT, DeepSeek, Gemini and Grok. We were particularly impressed by the excellent documentation, clean interfaces, and concise responses from the finalists. 
  
-**What's Next: **
+**What's Next:**
 •	Join the webinar early next year, where finalists will present their solutions and compete to see which performs best on our challenge questions. Details will be shared soon. 
 •	All participants are welcomed to join in a collaborative paper where each team describes their problem-solving methods, design principles, rationale and methodologies. Please contact ahobby@myadlm.org if you are interested in participating. 
 
