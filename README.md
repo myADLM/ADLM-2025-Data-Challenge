@@ -9,8 +9,8 @@ The 2025 ADLM Data Science Challenge
 We’re excited to announce the finalists of the LabDocs Unlocked Challenge and extend our thanks to everyone who participated and demonstrated exceptional skill in developing innovative solutions.
 
 **Challenge Finalists:**
-- Team Indigo 
-- Team BCM 
+- [Team Indigo](https://github.com/myADLM/ADLM-2025-Data-Challenge/tree/indigo) 
+- [Team BCM](https://github.com/myADLM/ADLM-2025-Data-Challenge/tree/bcm-clinical-informatics) 
 
 The quality and creativity of submissions this year were outstanding. The solutions showcased a wide variety of approaches to using LLMs including the use of different models such as AWS Nova, GPT, DeepSeek, Gemini and Grok. We were particularly impressed by the excellent documentation, clean interfaces, and concise responses from the finalists. 
  
@@ -158,3 +158,7 @@ We will review your pull request to ensure that it contains everything needed to
 ## Need Help?
 
 If you are unfamiliar with GitHub, need help getting starting, or have other questions, we are available to help! Please email ahobby@myadlm.org for assistance.
+
+## Sponsorship Inquiries
+
+Interested in sponsoring a future data science challenges? We’d love to hear from you! Reach out at corprelations@myadlm.org
