@@ -161,4 +161,4 @@ If you are unfamiliar with GitHub, need help getting starting, or have other que
 
 ## Sponsorship Inquiries
 
-Interested in sponsoring a future data science challenges? We’d love to hear from you! Reach out at corprelations@myadlm.org
+Interested in sponsoring future data science challenges? We’d love to hear from you! Reach out at corprelations@myadlm.org
