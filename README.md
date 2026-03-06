@@ -6,7 +6,7 @@ The 2025 ADLM Data Science Challenge
 
 ## Announcing the Winner of the LabDocs Unlocked Challenge!
 
-We’re excited to announce that the winner of the LabDocs Unlocked Challenge is Team Indigo. You can watch the challenge recording [here](https://myadlm.org/education/all-webinars/webinars/2026/february/labdocs-unlocked). 
+We’re excited to announce that the winner of the LabDocs Unlocked Challenge is **Team Indigo**. You can watch the challenge recording [here](https://myadlm.org/education/all-webinars/webinars/2026/february/labdocs-unlocked). 
 
 **Challenge Finalists:**
 - [Team Indigo](https://github.com/myADLM/ADLM-2025-Data-Challenge/tree/indigo) 
