@@ -162,3 +162,7 @@ If you are unfamiliar with GitHub, need help getting starting, or have other que
 ## Sponsorship Inquiries
 
 Interested in sponsoring future data science challenges? We’d love to hear from you! Reach out at corprelations@myadlm.org
+
+## Resources
+
+Check Lab Data Science Repo for more resources. https://github.com/myADLM/Laboratory-Data-Science-Resources
